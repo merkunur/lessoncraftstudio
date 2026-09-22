@@ -1,0 +1,127 @@
+{
+  "partWords": {
+    "head": "tête",
+    "hair": "cheveux",
+    "eye": "œil",
+    "ear": "oreille",
+    "nose": "nez",
+    "mouth": "bouche",
+    "neck": "cou",
+    "shoulder": "épaule",
+    "arm": "bras",
+    "elbow": "coude",
+    "hand": "main",
+    "finger": "doigt",
+    "leg": "jambe",
+    "knee": "genou",
+    "foot": "pied",
+    "toe": "orteil"
+  },
+  "overrides": {},
+  "bankWords": {
+    "head": "tête",
+    "hair": "cheveux",
+    "eye": "œil",
+    "ear": "oreille",
+    "nose": "nez",
+    "mouth": "bouche",
+    "neck": "cou",
+    "shoulder": "épaule",
+    "arm": "bras",
+    "elbow": "coude",
+    "hand": "main",
+    "finger": "doigt",
+    "leg": "jambe",
+    "knee": "genou",
+    "foot": "pied",
+    "toe": "orteil"
+  },
+  "plural": {
+    "head": "têtes",
+    "hair": "cheveux",
+    "eye": "yeux",
+    "ear": "oreilles",
+    "nose": "nez",
+    "mouth": "bouches",
+    "neck": "cous",
+    "shoulder": "épaules",
+    "arm": "bras",
+    "elbow": "coudes",
+    "hand": "mains",
+    "finger": "doigts",
+    "leg": "jambes",
+    "knee": "genoux",
+    "foot": "pieds",
+    "toe": "orteils"
+  },
+  "factLabels": {
+    "head": "Combien de têtes ?",
+    "hair": "Combien de cheveux ?",
+    "eye": "Combien d'yeux ?",
+    "ear": "Combien d'oreilles ?",
+    "nose": "Combien de nez ?",
+    "mouth": "Combien de bouches ?",
+    "neck": "Combien de cous ?",
+    "shoulder": "Combien d'épaules ?",
+    "arm": "Combien de bras ?",
+    "elbow": "Combien de coudes ?",
+    "hand": "Combien de mains ?",
+    "finger": "Combien de doigts ?",
+    "leg": "Combien de jambes ?",
+    "knee": "Combien de genoux ?",
+    "foot": "Combien de pieds ?",
+    "toe": "Combien d'orteils ?",
+    "fingersOneHand": "Combien de doigts sur une main ?",
+    "toesOneFoot": "Combien d'orteils sur un pied ?"
+  },
+  "use": {
+    "head": "Tu penses avec ta tête.",
+    "hair": "Les cheveux tiennent la tête au chaud.",
+    "eye": "Tu regardes avec tes yeux.",
+    "ear": "Tu écoutes avec tes oreilles.",
+    "nose": "Tu respires avec ton nez.",
+    "mouth": "Tu manges et tu parles avec ta bouche.",
+    "neck": "Le cou fait tourner la tête.",
+    "shoulder": "Les épaules portent le cartable.",
+    "arm": "Tu serres fort avec tes bras.",
+    "elbow": "Les coudes plient les bras.",
+    "hand": "Tu attrapes les objets avec tes mains.",
+    "finger": "Tu montres avec un doigt.",
+    "leg": "Tu cours avec tes jambes.",
+    "knee": "Les genoux plient quand tu sautes.",
+    "foot": "Tu tiens debout sur tes pieds.",
+    "toe": "Les orteils aident à garder l’équilibre."
+  },
+  "refuseWords": {
+    "write": [
+      "eye"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "K-354": {
+      "title": "Le corps humain",
+      "instruction": "Copie chaque mot de la liste sur la ligne qui montre cette partie du corps."
+    },
+    "K-360": {
+      "title": "Le corps humain : combien en as-tu ?",
+      "instruction": "Compte sur ton propre corps combien tu en as de chaque partie et écris le nombre dans la case."
+    },
+    "K-361": {
+      "title": "Le corps humain : colorie avec la légende",
+      "instruction": "Lis la légende et colorie chaque partie du corps avec la couleur écrite à côté de son nom."
+    },
+    "G1-356": {
+      "title": "Le corps humain : écris le nom",
+      "instruction": "Trouve sur le personnage chaque partie numérotée et écris son nom, une lettre par case."
+    },
+    "K-362": {
+      "title": "Le corps humain : que manque-t-il ?",
+      "instruction": "Il manque une partie à chaque personnage. Entoure l'image de la partie qui manque, puis dessine-la à sa place."
+    },
+    "K-363": {
+      "title": "Le corps humain : lesquelles vont par deux ?",
+      "instruction": "Entoure chaque partie du corps dont tu as deux exemplaires."
+    }
+  }
+}

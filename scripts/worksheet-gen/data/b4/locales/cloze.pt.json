@@ -1,0 +1,860 @@
+{
+  "nameSlot": false,
+  "articleTable": {
+    "m": "o",
+    "f": "a"
+  },
+  "boxWord": "uma letra em cada quadradinho",
+  "confusable": [
+    [
+      "boat",
+      "sailboat"
+    ],
+    [
+      "chicken",
+      "rooster"
+    ]
+  ],
+  "agreeingAdjectives": [
+    "grande",
+    "pequeno",
+    "pequena",
+    "velho",
+    "velha",
+    "novo",
+    "nova",
+    "bonito",
+    "bonita",
+    "comprido",
+    "comprida",
+    "gordo",
+    "gorda"
+  ],
+  "frames": [
+    {
+      "id": "cow-milk",
+      "noun": "cow",
+      "form": "sg",
+      "text": "A {gap} nos dá leite.",
+      "fits": [
+        "cow",
+        "goat"
+      ],
+      "foil": "giraffe",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "cow"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "pig-mud",
+      "noun": "pig",
+      "form": "sg",
+      "text": "O {gap} rola na lama e faz oinc.",
+      "fits": [
+        "pig"
+      ],
+      "foil": "dog",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "pig"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "rooster-crow",
+      "noun": "rooster",
+      "form": "sg",
+      "text": "O {gap} canta de manhã cedo.",
+      "fits": [
+        "rooster"
+      ],
+      "foil": "goose",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "birds 2",
+        "noun": "rooster"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "owl-night",
+      "noun": "owl",
+      "form": "sg",
+      "text": "A {gap} pia na árvore à noite.",
+      "fits": [
+        "owl"
+      ],
+      "foil": "seagull",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "owl"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "bee-honey",
+      "noun": "bee",
+      "form": "sg",
+      "text": "A {gap} faz mel na colmeia.",
+      "fits": [
+        "bee"
+      ],
+      "foil": "turtle",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "Things That Fly",
+        "noun": "bee"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "giraffe-neck",
+      "noun": "giraffe",
+      "form": "sg",
+      "text": "A {gap} tem o pescoço bem comprido.",
+      "fits": [
+        "giraffe"
+      ],
+      "foil": "zebra",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "giraffe"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "elephant-trunk",
+      "noun": "elephant",
+      "form": "sg",
+      "text": "O {gap} joga água com a tromba.",
+      "fits": [
+        "elephant"
+      ],
+      "foil": "rhinoceros",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "elephant"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "kangaroo-pouch",
+      "noun": "kangaroo",
+      "form": "sg",
+      "text": "O {gap} leva o filhote na bolsa.",
+      "fits": [
+        "kangaroo",
+        "koala"
+      ],
+      "foil": "monkey",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "kangaroo"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "penguin-ice",
+      "noun": "penguin",
+      "form": "sg",
+      "text": "O {gap} escorrega de barriga no gelo.",
+      "fits": [
+        "penguin"
+      ],
+      "foil": "swan",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "birds 2",
+        "noun": "penguin"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "zebra-stripes",
+      "noun": "zebra",
+      "form": "sg",
+      "text": "A {gap} tem listras pretas e brancas.",
+      "fits": [
+        "zebra"
+      ],
+      "foil": "fox",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "zebra"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "turtle-shell",
+      "noun": "turtle",
+      "form": "sg",
+      "text": "A {gap} se esconde no casco duro.",
+      "fits": [
+        "turtle"
+      ],
+      "foil": "seal",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "beach",
+        "noun": "turtle"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "rabbit-carrot",
+      "noun": "rabbit",
+      "form": "sg",
+      "text": "O {gap} pula e come uma cenoura.",
+      "fits": [
+        "rabbit"
+      ],
+      "foil": "donkey",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "rabbit"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "tractor-field",
+      "noun": "tractor",
+      "form": "sg",
+      "text": "O {gap} ara a terra na fazenda.",
+      "fits": [
+        "tractor"
+      ],
+      "foil": "truck",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "tractor"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "helicopter-blades",
+      "noun": "helicopter",
+      "form": "sg",
+      "text": "O {gap} tem hélices que giram em cima.",
+      "fits": [
+        "helicopter"
+      ],
+      "foil": "airplane",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "Things That Fly",
+        "noun": "helicopter"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "sailboat-lake",
+      "noun": "sailboat",
+      "form": "sg",
+      "text": "O {gap} navega no lago com o vento.",
+      "fits": [
+        "sailboat",
+        "boat",
+        "ship",
+        "yacht"
+      ],
+      "foil": "submarine",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "beach",
+        "noun": "sailboat"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "train-tracks",
+      "noun": "train",
+      "form": "sg",
+      "text": "O {gap} anda sobre os trilhos.",
+      "fits": [
+        "train",
+        "subway"
+      ],
+      "foil": "car",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "train"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    }
+  ],
+  "plural": [
+    {
+      "id": "cows-barn",
+      "noun": "cow",
+      "form": "pl",
+      "text": "Três {gap} dormem no estábulo.",
+      "clones": 3,
+      "fits": [
+        "cow",
+        "horse",
+        "pig",
+        "goat",
+        "donkey",
+        "sheep",
+        "llama",
+        "calf",
+        "bull",
+        "ox",
+        "foal",
+        "lamb"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "cow"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "bees-flowers",
+      "noun": "bee",
+      "form": "pl",
+      "text": "As {gap} zumbem entre as flores.",
+      "clones": null,
+      "fits": [
+        "bee"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "bee"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "sheep-grass",
+      "noun": "sheep",
+      "form": "pl",
+      "text": "As {gap} comem capim no campo.",
+      "clones": null,
+      "fits": [
+        "sheep",
+        "goat",
+        "cow",
+        "horse",
+        "donkey",
+        "llama"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "sheep"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "horses-gallop",
+      "noun": "horse",
+      "form": "pl",
+      "text": "Dois {gap} galopam pelo campo.",
+      "clones": 2,
+      "fits": [
+        "horse",
+        "donkey",
+        "zebra",
+        "foal"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "horse"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "penguins-ice",
+      "noun": "penguin",
+      "form": "pl",
+      "text": "Os {gap} andam no gelo.",
+      "clones": null,
+      "fits": [
+        "penguin"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "penguin"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "monkeys-branch",
+      "noun": "monkey",
+      "form": "pl",
+      "text": "Os {gap} pulam de galho em galho.",
+      "clones": null,
+      "fits": [
+        "monkey",
+        "chimpanzee",
+        "orangutan",
+        "gorilla",
+        "lemur"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "monkey"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "blueberries-blue",
+      "noun": "blueberry",
+      "form": "pl",
+      "text": "Os {gap} são pequenos, redondos e azuis.",
+      "clones": null,
+      "fits": [
+        "blueberry"
+      ],
+      "predicateKind": "copula",
+      "exclusiveWhy": "a única fruta azul do conjunto; a amora é escura e é gêmea do mirtilo, por isso nunca aparece na mesma página",
+      "pic": {
+        "theme": "fruits",
+        "noun": "blueberry"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "airplanes-runway",
+      "noun": "airplane",
+      "form": "pl",
+      "text": "Dois {gap} pousam na pista.",
+      "clones": 2,
+      "fits": [
+        "airplane"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "airplane"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "lions-roar",
+      "noun": "lion",
+      "form": "pl",
+      "text": "Os {gap} rugem alto no capim.",
+      "clones": null,
+      "fits": [
+        "lion",
+        "tiger",
+        "jaguar",
+        "leopard"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "lion"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "balls-hill",
+      "noun": "ball",
+      "form": "pl",
+      "text": "Três {gap} descem a ladeira rolando.",
+      "clones": 3,
+      "fits": [
+        "ball"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "toys",
+        "noun": "ball"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "chickens-corn",
+      "noun": "chicken",
+      "form": "pl",
+      "text": "As {gap} bicam milho no terreiro.",
+      "clones": null,
+      "fits": [
+        "chicken",
+        "turkey"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "chicken"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "seagulls-beach",
+      "noun": "seagull",
+      "form": "pl",
+      "text": "As {gap} voam sobre a praia.",
+      "clones": null,
+      "fits": [
+        "seagull"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "beach",
+        "noun": "seagull"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    }
+  ],
+  "stories": [
+    {
+      "id": "farm-morning",
+      "nouns": [
+        "rooster",
+        "cow",
+        "tractor"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "De manhã cedo o {gap} canta.",
+        "Depois o fazendeiro ordenha a {gap}.",
+        "Então ele leva o {gap} para a roça."
+      ],
+      "fits": [
+        [
+          "rooster"
+        ],
+        [
+          "cow",
+          "goat"
+        ],
+        [
+          "tractor"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "farm animals",
+          "noun": "rooster"
+        },
+        {
+          "theme": "farm animals",
+          "noun": "cow"
+        },
+        {
+          "theme": "vehicles",
+          "noun": "tractor"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "pond-day",
+      "nouns": [
+        "fish",
+        "turtle",
+        "dog"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "O {gap} nada rápido no aquário.",
+        "A {gap} dorme numa pedra ao sol.",
+        "Depois um {gap} late e abana o rabo."
+      ],
+      "fits": [
+        [
+          "fish"
+        ],
+        [
+          "turtle",
+          "seal"
+        ],
+        [
+          "dog"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "pets",
+          "noun": "fish"
+        },
+        {
+          "theme": "animals",
+          "noun": "turtle"
+        },
+        {
+          "theme": "animals",
+          "noun": "dog"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "zoo-visit",
+      "nouns": [
+        "elephant",
+        "giraffe",
+        "monkey"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "No zoológico o {gap} joga água.",
+        "A {gap} come folhas de uma árvore alta.",
+        "O {gap} pula de galho em galho."
+      ],
+      "fits": [
+        [
+          "elephant"
+        ],
+        [
+          "giraffe"
+        ],
+        [
+          "monkey",
+          "chimpanzee",
+          "orangutan",
+          "gorilla",
+          "lemur"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "zoo animals",
+          "noun": "elephant"
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "giraffe"
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "monkey"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "sky-day",
+      "nouns": [
+        "airplane",
+        "rocket",
+        "balloon"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "O {gap} voa acima das nuvens.",
+        "O {gap} decola para o espaço.",
+        "O {gap} sobe alto e colorido."
+      ],
+      "fits": [
+        [
+          "airplane",
+          "helicopter"
+        ],
+        [
+          "rocket"
+        ],
+        [
+          "balloon"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "vehicles",
+          "noun": "airplane"
+        },
+        {
+          "theme": "vehicles",
+          "noun": "rocket"
+        },
+        {
+          "theme": "toys",
+          "noun": "balloon"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "beach-day",
+      "nouns": [
+        "dolphin",
+        "sailboat",
+        "bucket"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "O {gap} pula entre as ondas.",
+        "O {gap} navega com o vento.",
+        "Com o {gap} fazemos um castelo de areia."
+      ],
+      "fits": [
+        [
+          "dolphin",
+          "whale"
+        ],
+        [
+          "sailboat",
+          "boat",
+          "ship",
+          "yacht"
+        ],
+        [
+          "bucket"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "beach",
+          "noun": "dolphin"
+        },
+        {
+          "theme": "beach",
+          "noun": "sailboat"
+        },
+        {
+          "theme": "beach",
+          "noun": "bucket"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "forest-night",
+      "nouns": [
+        "owl",
+        "fox",
+        "rabbit"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "À noite a {gap} pia no carvalho.",
+        "A {gap} sai da toca bem devagar.",
+        "O {gap} come uma cenoura na horta."
+      ],
+      "fits": [
+        [
+          "owl"
+        ],
+        [
+          "fox",
+          "wolf"
+        ],
+        [
+          "rabbit"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "forest creatures",
+          "noun": "owl"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "fox"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "rabbit"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    }
+  ],
+  "strings": {
+    "base": {
+      "title": "Complete as frases",
+      "instruction": "Olhe a figura. Procure no quadro a palavra que completa a frase e escreva na caixa."
+    },
+    "letters": {
+      "title": "Complete a frase com o nome da figura",
+      "instruction": "Olhe a figura. Escreva a palavra que falta: uma letra em cada quadradinho."
+    },
+    "choice": {
+      "title": "Complete a frase: circule a palavra certa",
+      "instruction": "Olhe a figura e leia a frase. Circule a palavra que completa e escreva na caixa."
+    },
+    "plural": {
+      "title": "Complete as frases no plural",
+      "instruction": "Olhe as figuras. Há mais de um. Escreva na caixa a palavra que indica mais de um."
+    },
+    "story": {
+      "title": "Complete a historinha com as palavras que faltam",
+      "instruction": "Leia a historinha toda. As três figuras mostram as palavras que faltam. Escreva cada uma na sua caixa."
+    },
+    "match": {
+      "title": "Ligue cada frase à sua figura",
+      "instruction": "Leia cada frase. Qual figura completa a lacuna? Ligue a frase até essa figura."
+    }
+  },
+  "refuse": {
+    "plural": false
+  }
+}

@@ -338,5 +338,45 @@
   "division-with-remainder": {
     "full": "Divisão com resto para imprimir no 3º ano: circule grupos, reparta figuras, decida se a divisão é exata e encontre o erro no resto.",
     "short": "Divisão com resto: grupos e quociente"
+  },
+  "tangram": {
+    "full": "Tangram para imprimir: recortar as sete peças, montar figuras e sombras, descobrir a peça que falta e contar triângulos e quadrados.",
+    "short": "Montar, recortar e contar peças do tangram"
+  },
+  "human-body": {
+    "full": "O corpo humano e suas partes na educação infantil e no 1º ano: escrever os nomes, contar, pintar pela legenda e achar a parte que falta.",
+    "short": "Nomear, contar e pintar as partes do corpo"
+  },
+  "five-senses": {
+    "full": "Os cinco sentidos na educação infantil e no 1º ano: ligar cada figura ao sentido certo, separar por sentido, nomear os órgãos e escrever frases.",
+    "short": "Ligar cada figura ao sentido e ao órgão certo"
+  },
+  "weather-symbols": {
+    "full": "Símbolos do tempo da educação infantil ao 3º ano: ligar símbolo e palavra, preencher o quadro do tempo da semana, ler o termômetro e nomear o ciclo da água.",
+    "short": "Ler os símbolos do tempo e escrever as palavras"
+  },
+  "recycling": {
+    "full": "Coleta seletiva da educação infantil ao 2º ano: separar papel, plástico, vidro, metal e orgânico nas lixeiras, reconhecer materiais e pintar pelas cores.",
+    "short": "Separar o lixo nas lixeiras certas"
+  },
+  "cloze": {
+    "full": "Frases com lacuna e figura para o 1º e o 2º ano: achar a palavra que falta, escrever letra por letra, formar o plural e completar historinhas.",
+    "short": "Completar frases com a palavra que falta"
+  },
+  "odd-and-even": {
+    "full": "Números pares e ímpares até 20 e até 100: separar em duas casas, circular de dois em dois, repartir igualmente e usar a regra do algarismo final.",
+    "short": "Reconhecer números pares e ímpares"
+  },
+  "pronouns": {
+    "full": "Pronomes pessoais do caso reto no 2º e 3º ano: escolher ele, ela, eles ou elas, trocar o nome pelo pronome e reescrever frases com pronomes.",
+    "short": "Usar ele, ela, eles e elas nas frases"
+  },
+  "question-words": {
+    "full": "Palavras para perguntar no 1º e 2º ano: quem, o que, onde, quando e quantos; escolher, completar, separar respostas e escrever as próprias perguntas.",
+    "short": "Perguntar com quem, o que, onde e quando"
+  },
+  "rounding": {
+    "full": "Arredondamento de números no 3º ano: arredondar à dezena e à centena, separar para cima e para baixo, estimar somas e achar os números de um alvo.",
+    "short": "Arredondar números à dezena e à centena"
   }
 }

@@ -1,0 +1,431 @@
+{
+  "qwords": {
+    "who": "Quem",
+    "what": "O que",
+    "where": "Onde",
+    "when": "Quando",
+    "howmany": "Quantos"
+  },
+  "starters": [
+    "Quem",
+    "O que",
+    "Onde",
+    "Quando",
+    "Por que",
+    "Como"
+  ],
+  "bins": {
+    "who": "Quem?",
+    "what": "O que?",
+    "where": "Onde?"
+  },
+  "qPrefix": "",
+  "sortThingForm": "bare",
+  "genderFilter": {
+    "count": "m"
+  },
+  "excludeThings": [
+    "bulldozer",
+    "cranberry",
+    "lime",
+    "doll"
+  ],
+  "chipWidths": {
+    "Quem": 81.1,
+    "O que": 79.9,
+    "Onde": 75.9,
+    "Quando": 98.8,
+    "Quantos": 104.5
+  },
+  "frames": [
+    {
+      "id": "see-thing",
+      "kind": "thing",
+      "text": "{name} vê {thing}.",
+      "q": {
+        "who": "Quem vê {thing}?",
+        "what": "O que {name} vê?"
+      },
+      "signed": true
+    },
+    {
+      "id": "draw-thing",
+      "kind": "thing",
+      "text": "{name} desenha {thing}.",
+      "q": {
+        "who": "Quem desenha {thing}?",
+        "what": "O que {name} desenha?"
+      },
+      "signed": true
+    },
+    {
+      "id": "like-thing",
+      "kind": "thing",
+      "text": "{name} procura {thing}.",
+      "q": {
+        "who": "Quem procura {thing}?",
+        "what": "O que {name} procura?"
+      },
+      "signed": true
+    },
+    {
+      "id": "be-place",
+      "kind": "place",
+      "text": "{name} está {place}.",
+      "q": {
+        "who": "Quem está {place}?",
+        "where": "Onde {name} está?"
+      },
+      "signed": true
+    },
+    {
+      "id": "play-place",
+      "kind": "place",
+      "text": "{name} brinca {place}.",
+      "q": {
+        "who": "Quem brinca {place}?",
+        "where": "Onde {name} brinca?"
+      },
+      "signed": true
+    },
+    {
+      "id": "read-place",
+      "kind": "place",
+      "text": "{name} lê {place}.",
+      "q": {
+        "who": "Quem lê {place}?",
+        "where": "Onde {name} lê?"
+      },
+      "signed": true
+    },
+    {
+      "id": "play-time",
+      "kind": "time",
+      "text": "{name} estuda {time}.",
+      "q": {
+        "who": "Quem estuda {time}?",
+        "when": "Quando {name} estuda?"
+      },
+      "signed": true
+    },
+    {
+      "id": "eat-time",
+      "kind": "time",
+      "text": "{name} come {time}.",
+      "q": {
+        "who": "Quem come {time}?",
+        "when": "Quando {name} come?"
+      },
+      "signed": true
+    },
+    {
+      "id": "sleep-time",
+      "kind": "time",
+      "text": "{name} dorme {time}.",
+      "q": {
+        "who": "Quem dorme {time}?",
+        "when": "Quando {name} dorme?"
+      },
+      "signed": true
+    },
+    {
+      "id": "see-count",
+      "kind": "count",
+      "text": "{name} vê {n} {pl}.",
+      "q": {
+        "who": "Quem vê {n} {pl}?",
+        "howmany": "Quantos {pl} {name} vê?"
+      },
+      "signed": true
+    },
+    {
+      "id": "draw-count",
+      "kind": "count",
+      "text": "{name} desenha {n} {pl}.",
+      "q": {
+        "who": "Quem desenha {n} {pl}?",
+        "howmany": "Quantos {pl} {name} desenha?"
+      },
+      "signed": true
+    },
+    {
+      "id": "find-count",
+      "kind": "count",
+      "text": "{name} tem {n} {pl}.",
+      "q": {
+        "who": "Quem tem {n} {pl}?",
+        "howmany": "Quantos {pl} {name} tem?"
+      },
+      "signed": true
+    }
+  ],
+  "places": [
+    {
+      "key": "house",
+      "pic": {
+        "theme": "miscellaneous",
+        "noun": "house"
+      },
+      "text": "em casa",
+      "picOpened": true
+    },
+    {
+      "key": "garden",
+      "pic": {
+        "theme": "spring",
+        "noun": "garden"
+      },
+      "text": "no jardim",
+      "picOpened": true
+    },
+    {
+      "key": "beach",
+      "pic": {
+        "theme": "summer",
+        "noun": "beach"
+      },
+      "text": "na praia",
+      "picOpened": true
+    },
+    {
+      "key": "tent",
+      "pic": {
+        "theme": "camping",
+        "noun": "tent"
+      },
+      "text": "na barraca",
+      "picOpened": true
+    },
+    {
+      "key": "forest",
+      "pic": {
+        "theme": "camping",
+        "noun": "forest"
+      },
+      "text": "na floresta",
+      "picOpened": true
+    },
+    {
+      "key": "lake",
+      "pic": {
+        "theme": "camping",
+        "noun": "lake"
+      },
+      "text": "no lago",
+      "picOpened": true
+    },
+    {
+      "key": "river",
+      "pic": {
+        "theme": "camping",
+        "noun": "river"
+      },
+      "text": "no rio",
+      "picOpened": true
+    },
+    {
+      "key": "mountain",
+      "pic": {
+        "theme": "camping",
+        "noun": "mountain"
+      },
+      "text": "na montanha",
+      "picOpened": true
+    },
+    {
+      "key": "pool",
+      "pic": {
+        "theme": "summer",
+        "noun": "pool"
+      },
+      "text": "na piscina",
+      "picOpened": true
+    },
+    {
+      "key": "kitchen",
+      "pic": {
+        "theme": "around the house",
+        "noun": "kitchen"
+      },
+      "text": "na cozinha",
+      "picOpened": true
+    },
+    {
+      "key": "garage",
+      "pic": {
+        "theme": "around the house",
+        "noun": "garage"
+      },
+      "text": "na garagem",
+      "picOpened": true
+    },
+    {
+      "key": "bed",
+      "pic": {
+        "theme": "around the house",
+        "noun": "bed"
+      },
+      "text": "na cama",
+      "picOpened": true
+    },
+    {
+      "key": "sofa",
+      "pic": {
+        "theme": "around the house",
+        "noun": "sofa"
+      },
+      "text": "no sofá",
+      "picOpened": true
+    },
+    {
+      "key": "playground",
+      "pic": {
+        "theme": "activities",
+        "noun": "playground"
+      },
+      "text": "no parquinho",
+      "picOpened": true
+    },
+    {
+      "key": "cabin",
+      "pic": {
+        "theme": "camping",
+        "noun": "cabin"
+      },
+      "text": "na cabana",
+      "picOpened": true
+    }
+  ],
+  "twins": [
+    [
+      "lake",
+      "river"
+    ],
+    [
+      "house",
+      "cabin"
+    ]
+  ],
+  "times": [
+    {
+      "text": "às oito horas",
+      "h": 8
+    },
+    {
+      "text": "às três horas",
+      "h": 3
+    },
+    {
+      "text": "às seis horas",
+      "h": 6
+    },
+    {
+      "text": "às nove horas",
+      "h": 9
+    },
+    {
+      "text": "às duas horas",
+      "h": 2
+    },
+    {
+      "text": "às sete horas",
+      "h": 7
+    }
+  ],
+  "thingThemes": [
+    "animals",
+    "fruits",
+    "vehicles",
+    "toys",
+    "zoo animals",
+    "farm animals"
+  ],
+  "numbers": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "faces": {
+    "base": {
+      "kinds": [
+        "who",
+        "what",
+        "where"
+      ]
+    },
+    "match": {
+      "kinds": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "howmany"
+      ]
+    },
+    "fill": {
+      "kinds": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "howmany"
+      ]
+    },
+    "sort": {
+      "kinds": [
+        "who",
+        "what",
+        "where"
+      ]
+    },
+    "write": {
+      "kinds": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "howmany"
+      ]
+    },
+    "ask": {
+      "kinds": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "why",
+        "how"
+      ]
+    }
+  },
+  "strings": {
+    "base": {
+      "title": "Quem, o que, onde: palavras para perguntar",
+      "instruction": "Leia a frase. Olhe as palavras marcadas. Circule a palavra que faz a pergunta sobre elas."
+    },
+    "match": {
+      "title": "Ligue cada pergunta à sua resposta",
+      "instruction": "Leia cada pergunta da esquerda. Ligue com um traço até a resposta certa da direita."
+    },
+    "fill": {
+      "title": "Complete a pergunta com quem, o que, onde, quando ou quantos",
+      "instruction": "Leia a resposta e ache as palavras marcadas. Escreva na caixa a palavra do quadro que faz a pergunta.",
+      "bankWord": "quadro",
+      "boxWord": "caixa"
+    },
+    "sort": {
+      "title": "Separe as respostas: quem, o que ou onde",
+      "instruction": "Leia cada cartão. Escreva-o na coluna da pergunta a que ele responde."
+    },
+    "write": {
+      "title": "Escreva a pergunta",
+      "instruction": "Leia a resposta. Olhe as palavras marcadas. Escreva na linha a pergunta sobre elas."
+    },
+    "ask": {
+      "title": "Perguntas sobre a figura: por que e como",
+      "instruction": "Olhe a figura. Termine cada pergunta a partir da palavra que já está na linha.",
+      "pictureWord": "figura"
+    }
+  }
+}

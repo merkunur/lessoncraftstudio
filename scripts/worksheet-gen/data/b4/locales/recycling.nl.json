@@ -1,0 +1,123 @@
+{
+  "bins": [
+    {
+      "key": "papier",
+      "label": "Papier",
+      "longLabel": "Papier en karton (blauwe bak)",
+      "color": "codeBlue",
+      "colorWord": "blauw",
+      "materials": [
+        "paper",
+        "cardboard"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "gft",
+      "label": "GFT",
+      "longLabel": "Groente-, fruit- en tuinafval (groene bak)",
+      "color": "codeGreen",
+      "colorWord": "groen",
+      "materials": [
+        "organic"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "pmd",
+      "label": "PMD",
+      "longLabel": "Plastic, metaal en drankpakken (oranje bak of zak)",
+      "color": "codeOrange",
+      "colorWord": "oranje",
+      "materials": [
+        "plastic",
+        "metal"
+      ],
+      "packagingOnly": true
+    },
+    {
+      "key": "glas",
+      "label": "Glas",
+      "longLabel": "Glazen potten en flessen (de glasbak)",
+      "color": null,
+      "colorWord": null,
+      "materials": [
+        "glass"
+      ],
+      "packagingOnly": true
+    },
+    {
+      "key": "rest",
+      "label": "Restafval",
+      "longLabel": "Restafval: alles wat niet apart kan (grijze bak)",
+      "color": "inkSoft",
+      "colorWord": "grijs",
+      "materials": [
+        "plastic",
+        "metal"
+      ],
+      "packagingOnly": false
+    }
+  ],
+  "route": {
+    "toothbrush": {
+      "bin": "rest",
+      "reason": "geen verpakking: een tandenborstel hoort bij het restafval, niet bij pmd"
+    },
+    "comb": {
+      "bin": "rest",
+      "reason": "geen verpakking: een kam hoort bij het restafval"
+    },
+    "spoon": {
+      "bin": "rest",
+      "reason": "een plastic lepel is geen verpakking: restafval"
+    },
+    "bucket": {
+      "bin": "rest",
+      "reason": "een kapot speelgoedemmertje is geen verpakking: restafval"
+    }
+  },
+  "excludeItems": {
+    "water": "statiegeld: de plastic fles gaat terug naar de winkel, er is geen bak voor op het blad",
+    "saucepan": "metaal: een pan brengt je naar de milieustraat, er is geen bak voor op het blad",
+    "bolt": "los metaal: naar de milieustraat, er is geen bak voor op het blad",
+    "nut": "los metaal: naar de milieustraat, er is geen bak voor op het blad"
+  },
+  "materialWords": {
+    "paper": "papier",
+    "cardboard": "karton",
+    "glass": "glas",
+    "plastic": "plastic",
+    "metal": "metaal"
+  },
+  "colorConvention": null,
+  "refuse": [
+    "color"
+  ],
+  "starters": [],
+  "scheme": "Vijf bakken zoals thuis: papier en karton in de blauwe bak, groente-, fruit- en tuinafval in de groene gft-bak, plastic, metaal en drankpakken in de oranje pmd-bak, potten en flessen naar de glasbak en de rest in de grijze bak. De vier huiscontainers dragen hun landelijke kleur; de glasbak heeft er geen, dus blijft die neutraal en wordt de kleurface niet gemaakt.",
+  "enAudit": "De Engelse bron zegt in K-357 en K-366 'when it is empty or finished', maar de bank bevat een plastic waterfles en een glazen melkfles: in Nederland gaat de plastic fles met statiegeld terug naar de winkel, dus een nl-blok moet die uitsluiten. De en-bank heeft vijf bakken zonder enige kleur en weigert daarmee F4 terecht, maar de rows-module houdt wel een en-titel voor K-367 aan, zodat build-en een string maakt die geen en-wave mag gebruiken. De en 'compost'-bak neemt brood en paprika, wat in de Amerikaanse thuiscompost-richtlijn juist wordt afgeraden.",
+  "strings": {
+    "K-357": {
+      "title": "Afval scheiden",
+      "instruction": "Elk ding is leeg of op. Trek een lijn van het ding naar de bak waar het in hoort."
+    },
+    "K-366": {
+      "title": "Afval scheiden: welke bak?",
+      "instruction": "Kijk naar elk ding en omcirkel de bak waar het in hoort als het leeg of op is."
+    },
+    "G1-364": {
+      "title": "Afval scheiden: waarvan is het gemaakt?",
+      "instruction": "Waarvan is elk ding gemaakt? Schrijf het woord uit het kader op de lijn."
+    },
+    "G2-348": {
+      "title": "Afval scheiden: welk ding hoort er niet bij?",
+      "instruction": "In elke rij zijn drie dingen van hetzelfde materiaal. Omcirkel het ding dat anders is."
+    },
+    "G1-365": {
+      "title": "Afval scheiden: drie dingen die ik apart houd",
+      "instruction": "Teken drie dingen die je thuis apart houdt en schrijf op wat elk ding is."
+    }
+  },
+  "strand": "Oriëntatie op jezelf en de wereld"
+}

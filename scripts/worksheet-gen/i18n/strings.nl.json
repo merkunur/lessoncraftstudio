@@ -2378,5 +2378,237 @@
   "G3-384": {
     "title": "Terugspringen op de getallenlijn: wat blijft er over?",
     "instruction": "Begin bij het gemarkeerde getal en teken even grote sprongen terug tot er geen hele sprong meer past. Schrijf de sprongen en waar je uitkomt."
+  },
+  "K-353": {
+    "title": "Tangram: 7 stukken knippen en twee figuren leggen",
+    "instruction": "Kleur de stukken zoals in de legenda, knip ze langs de lijnen uit en leg ze precies op de twee figuren hieronder."
+  },
+  "K-354": {
+    "title": "Het lichaam",
+    "instruction": "Schrijf elk woord uit het kader op de lijn die naar dat lichaamsdeel wijst."
+  },
+  "K-355": {
+    "title": "De vijf zintuigen",
+    "instruction": "Trek een lijn van elk plaatje naar het lichaamsdeel dat je ervoor gebruikt."
+  },
+  "K-356": {
+    "title": "Weersymbolen",
+    "instruction": "Trek een lijn van elk weersymbool naar het woord dat erbij hoort."
+  },
+  "K-357": {
+    "title": "Afval scheiden",
+    "instruction": "Elk ding is leeg of op. Trek een lijn van het ding naar de bak waar het in hoort."
+  },
+  "G1-350": {
+    "title": "Zinnen aanvullen",
+    "instruction": "Kijk naar het plaatje. Zoek het woord dat in de zin past in het kader en schrijf het in het vakje."
+  },
+  "G1-351": {
+    "title": "Even en oneven getallen: het even huis en het oneven huis",
+    "instruction": "Schrijf elk getal in het huis waar het hoort. Drie getallen wonen er al en laten hun paren zien."
+  },
+  "G1-352": {
+    "title": "Hij, zij of het: persoonlijke voornaamwoorden",
+    "instruction": "Kijk naar het plaatje en lees het woord eronder. Omcirkel het woord dat we in plaats daarvan zeggen."
+  },
+  "G1-353": {
+    "title": "Vraagwoorden: wie, wat, waar",
+    "instruction": "Lees de zin. Kijk naar de gemarkeerde woorden. Omcirkel het vraagwoord dat daarnaar vraagt."
+  },
+  "G2-346": {
+    "title": "Afronden op tientallen: schrijf het tiental",
+    "instruction": "Rond elk getal af op het tiental en schrijf het in het vakje. Is het laatste cijfer 5 of meer, rond dan naar boven."
+  },
+  "K-358": {
+    "title": "Makkelijke tangramfiguren van 2 en 3 stukken: teken de lijnen",
+    "instruction": "Kijk naar de stukken boven elke vorm. Teken de lijnen in de vorm waar die stukken elkaar raken."
+  },
+  "G1-354": {
+    "title": "Tangramfiguren: vier schaduwen naleggen",
+    "instruction": "Leg elke donkere schaduw na met de zeven stukken van je tangram. Gebruik elke keer alle zeven stukken."
+  },
+  "G1-355": {
+    "title": "Tangramfiguren: welk stuk ontbreekt?",
+    "instruction": "In elke figuur ontbreekt een stuk. Omcirkel het stuk dat precies in de lege plek past."
+  },
+  "G2-347": {
+    "title": "Tangramfiguren: welke oplossing hoort bij de schaduw?",
+    "instruction": "Kijk naar elke schaduw. Omcirkel de oplossing die er precies zo ligt. Gedraaide of gespiegelde figuren passen niet."
+  },
+  "K-359": {
+    "title": "Tangram: driehoeken en vierkanten tellen",
+    "instruction": "Tel de driehoeken in elke figuur en schrijf het getal in het eerste vakje. Tel daarna de vierkanten voor het tweede."
+  },
+  "K-360": {
+    "title": "Het lichaam: hoeveel heb je er?",
+    "instruction": "Hoeveel heb je er van elk? Tel aan je eigen lichaam en schrijf het getal in het vakje."
+  },
+  "K-361": {
+    "title": "Het lichaam: kleur volgens de legenda",
+    "instruction": "Lees de legenda en kleur elk lichaamsdeel in de kleur die naast zijn naam staat."
+  },
+  "G1-356": {
+    "title": "Het lichaam: schrijf het woord",
+    "instruction": "Zoek elk genummerd lichaamsdeel op de figuur en schrijf zijn naam, een letter in elk hokje."
+  },
+  "K-362": {
+    "title": "Het lichaam: wat ontbreekt?",
+    "instruction": "Bij elk lichaam ontbreekt een deel. Omcirkel het plaatje van het deel dat mist en teken het er daarna bij."
+  },
+  "K-363": {
+    "title": "Het lichaam: welke heb je twee keer?",
+    "instruction": "Omcirkel elk lichaamsdeel dat je twee keer hebt."
+  },
+  "G1-357": {
+    "title": "De vijf zintuigen: sorteren op zintuig",
+    "instruction": "Kijk naar elk plaatje en trek een lijn van zijn stip naar het vak van het zintuig dat je ervoor gebruikt."
+  },
+  "G1-358": {
+    "title": "De vijf zintuigen: welk zintuig gebruik je?",
+    "instruction": "Welk zintuig gebruik je bij elk plaatje? Omcirkel het lichaamsdeel dat je ervoor nodig hebt."
+  },
+  "G1-359": {
+    "title": "De vijf zintuigen: welk plaatje hoort er niet bij?",
+    "instruction": "In elke rij horen drie plaatjes bij hetzelfde zintuig. Streep het plaatje door dat er niet bij hoort."
+  },
+  "G1-360": {
+    "title": "Zintuigen: schrijf het woord bij het orgaan",
+    "instruction": "Schrijf elk woord uit het kader op de lijn naast het lichaamsdeel dat dat kan."
+  },
+  "G1-361": {
+    "title": "De vijf zintuigen: ik hoor ...",
+    "instruction": "Maak elke zin af. Schrijf op wat jij kunt horen, zien, ruiken, proeven en voelen."
+  },
+  "G1-362": {
+    "title": "Schrijf het weerwoord",
+    "instruction": "Zoek bij elk weersymbool het woord in het kader en schrijf het, een letter in elk hokje."
+  },
+  "K-364": {
+    "title": "Weerkaart: het weer bijhouden van maandag tot zondag",
+    "instruction": "Kijk elke dag van deze week naar buiten en teken het weersymbool van die dag in zijn vakje."
+  },
+  "K-365": {
+    "title": "Hoe warm is het? Koud, warm of heet",
+    "instruction": "Kijk naar elke thermometer, gebruik de legenda en omcirkel het plaatje dat past bij koud, warm of heet."
+  },
+  "G3-385": {
+    "title": "De waterkringloop: zet de namen erbij",
+    "instruction": "Lees de vier woorden in het kader en schrijf elk woord op de lijn met hetzelfde nummer als op de tekening."
+  },
+  "G1-363": {
+    "title": "Lees de weersverwachting van de week",
+    "instruction": "Kijk naar het weer van de week, lees elke vraag en omcirkel de dag die past."
+  },
+  "K-366": {
+    "title": "Afval scheiden: welke bak?",
+    "instruction": "Kijk naar elk ding en omcirkel de bak waar het in hoort als het leeg of op is."
+  },
+  "G1-364": {
+    "title": "Afval scheiden: waarvan is het gemaakt?",
+    "instruction": "Waarvan is elk ding gemaakt? Schrijf het woord uit het kader op de lijn."
+  },
+  "G2-348": {
+    "title": "Afval scheiden: welk ding hoort er niet bij?",
+    "instruction": "In elke rij zijn drie dingen van hetzelfde materiaal. Omcirkel het ding dat anders is."
+  },
+  "G1-365": {
+    "title": "Afval scheiden: drie dingen die ik apart houd",
+    "instruction": "Teken drie dingen die je thuis apart houdt en schrijf op wat elk ding is."
+  },
+  "G1-366": {
+    "title": "Zinnen aanvullen met letterhokjes",
+    "instruction": "Kijk naar het plaatje. Schrijf het woord dat mist in de hokjes, een letter in elk hokje."
+  },
+  "G1-367": {
+    "title": "Zinnen aanvullen: kies het juiste woord",
+    "instruction": "Kijk naar het plaatje en lees de zin. Omcirkel het woord dat past en schrijf het in het vakje."
+  },
+  "G2-349": {
+    "title": "Zinnen aanvullen met meer dan een",
+    "instruction": "Kijk naar de plaatjes. Er is meer dan een. Schrijf het woord voor meer dan een in het vakje."
+  },
+  "G2-350": {
+    "title": "Een verhaaltje aanvullen",
+    "instruction": "Lees het hele verhaaltje. De drie plaatjes laten de woorden zien die missen. Schrijf elk woord in zijn vakje."
+  },
+  "G1-368": {
+    "title": "Zin bij het plaatje",
+    "instruction": "Lees elke zin. Welk plaatje past in de lege plek? Trek een lijn van de zin naar dat plaatje."
+  },
+  "G2-351": {
+    "title": "Even of oneven? Schrijf twee gelijke delen",
+    "instruction": "Omcirkel de stippen twee aan twee. Schrijf het getal daarna als twee gelijke delen en zet wat overblijft in het kleine vakje."
+  },
+  "G1-369": {
+    "title": "Kunnen twee vrienden eerlijk delen?",
+    "instruction": "Verdeel de plaatjes om de beurt tussen de twee vrienden. Schrijf hoeveel elk kind krijgt en wat er overblijft. Omcirkel daarna even of oneven."
+  },
+  "G2-352": {
+    "title": "Even en oneven getallen tot 100: kijk naar de eenheden",
+    "instruction": "Lees de regel bovenaan. Kijk alleen naar het vakje van de eenheden en zet een vinkje onder even of oneven."
+  },
+  "G3-386": {
+    "title": "Even of oneven som? Beslis zonder te rekenen",
+    "instruction": "Niet optellen. Kijk naar het onderstreepte cijfer van de eenheden, gebruik de tabel en zet een vinkje bij even of oneven."
+  },
+  "G1-370": {
+    "title": "Even of oneven? Tel de plaatjes in paren",
+    "instruction": "Tel de plaatjes en omcirkel ze twee aan twee. Schrijf hoeveel paren je hebt gemaakt en omcirkel daarna even of oneven."
+  },
+  "G1-371": {
+    "title": "Vervang de naam door een voornaamwoord",
+    "instruction": "Lees de zin. Schrijf het woord uit het kader dat in de tweede zin de naam vervangt in het vakje."
+  },
+  "G2-353": {
+    "title": "Wie wordt bedoeld? Voornaamwoorden in de zin",
+    "instruction": "Lees de zinnen. Trek een lijn van elk woord in het vak naar de naam waarvoor het staat."
+  },
+  "G1-372": {
+    "title": "Namen sorteren: hij, zij of het",
+    "instruction": "Lees elke kaart. Schrijf het woord van de kaart onder het woord dat we ervoor zeggen."
+  },
+  "G2-355": {
+    "title": "Schrijf de zin opnieuw met een voornaamwoord",
+    "instruction": "Lees de zin. Schrijf hem opnieuw op de lijnen, maar zet een voornaamwoord in plaats van de naam."
+  },
+  "G1-373": {
+    "title": "Zoek het antwoord bij de vraag",
+    "instruction": "Lees elke vraag links. Trek een lijn naar het antwoord rechts dat erbij past."
+  },
+  "G1-374": {
+    "title": "Vul het vraagwoord in",
+    "instruction": "Lees het antwoord en zoek de gemarkeerde woorden. Schrijf het vraagwoord uit het kader in het hokje."
+  },
+  "G1-375": {
+    "title": "Antwoorden sorteren: wie, wat of waar",
+    "instruction": "Lees elk kaartje. Schrijf het in de bak onder de vraag die het beantwoordt."
+  },
+  "G2-356": {
+    "title": "Vraagzinnen maken",
+    "instruction": "Lees het antwoord. Kijk naar de gemarkeerde woorden. Schrijf op de lijn de vraag die daarnaar vraagt."
+  },
+  "G2-357": {
+    "title": "Vraag iets over de plaat: waarom en hoe",
+    "instruction": "Kijk naar de plaat. Maak elke vraag af. Begin met het woord dat al op de lijn staat."
+  },
+  "G3-387": {
+    "title": "Naar boven of naar beneden? Sorteer de getallen",
+    "instruction": "Gaat elk getal naar boven of naar beneden op het tiental? Schrijf het in de juiste bak."
+  },
+  "G3-388": {
+    "title": "Afronden op honderdtallen: kijk naar het cijfer van de tientallen",
+    "instruction": "Rond elk getal af op het honderdtal en schrijf het in het vakje. Kijk naar het cijfer van de tientallen."
+  },
+  "G3-389": {
+    "title": "Eerst afronden, dan de som schatten",
+    "instruction": "Rond beide getallen af op het tiental en schrijf ze in de vakjes. Tel daarna de afgeronde getallen op."
+  },
+  "G3-390": {
+    "title": "Welke getallen worden 50?",
+    "instruction": "Omcirkel elk getal dat op het tiental bovenaan uitkomt. Kijk naar het laatste cijfer van elk getal."
+  },
+  "G3-391": {
+    "title": "Afronden op tientallen en honderdtallen",
+    "instruction": "Rond elk getal twee keer af: op het tiental in het eerste vakje en op het honderdtal in het tweede."
   }
 }

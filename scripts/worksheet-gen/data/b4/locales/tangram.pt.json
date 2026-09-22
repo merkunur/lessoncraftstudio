@@ -1,0 +1,28 @@
+{
+  "strings": {
+    "K-353": {
+      "title": "Tangram para recortar e montar: sete peças e duas figuras",
+      "instruction": "Pinte cada peça como na legenda, recorte as sete peças pelas linhas e coloque-as sobre as duas figuras de baixo, linha por linha."
+    },
+    "compose": {
+      "title": "Tangram fácil de 2 e 3 peças: desenhe as linhas",
+      "instruction": "Olhe as peças acima de cada forma. Desenhe dentro da forma as linhas onde essas peças se encontram."
+    },
+    "silhouette": {
+      "title": "Tangram: quatro sombras para montar",
+      "instruction": "Monte cada figura escura com as sete peças do seu tangram. Use todas as sete peças em cada uma."
+    },
+    "missing": {
+      "title": "Tangram: qual peça está faltando?",
+      "instruction": "Falta uma peça em cada figura. Circule a peça que cabe exatamente no espaço vazio."
+    },
+    "match": {
+      "title": "Tangram: qual solução combina com a sombra?",
+      "instruction": "Olhe cada sombra. Circule a solução que está exatamente na mesma posição. Figuras giradas ou espelhadas não combinam."
+    },
+    "count": {
+      "title": "Tangram: conte os triângulos e quadrados",
+      "instruction": "Conte os triângulos de cada figura e escreva o número na primeira caixa. Depois conte os quadrados para a segunda."
+    }
+  }
+}

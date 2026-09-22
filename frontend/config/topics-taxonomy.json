@@ -3976,13 +3976,19 @@
           "en": "tangram",
           "de": "tangram",
           "es": "tangram",
-          "it": "tangram"
+          "it": "tangram",
+          "fr": "tangram",
+          "pt": "tangram",
+          "nl": "tangram"
         },
         "name": {
           "en": "Tangram",
           "de": "Tangram-Figuren",
           "es": "Tangram",
-          "it": "Tangram"
+          "it": "Tangram",
+          "fr": "Tangram",
+          "pt": "Tangram",
+          "nl": "Tangram"
         }
       },
       "human-body": {
@@ -3990,13 +3996,19 @@
           "en": "human-body",
           "de": "der-koerper",
           "es": "el-cuerpo-humano",
-          "it": "il-corpo-umano"
+          "it": "il-corpo-umano",
+          "fr": "le-corps-humain",
+          "pt": "o-corpo-humano-e-suas-partes",
+          "nl": "het-lichaam"
         },
         "name": {
           "en": "Parts of the Body",
           "de": "Der Körper",
           "es": "El cuerpo humano",
-          "it": "Il corpo umano"
+          "it": "Il corpo umano",
+          "fr": "Le corps humain",
+          "pt": "O corpo humano e suas partes",
+          "nl": "Het lichaam"
         }
       },
       "five-senses": {
@@ -4004,13 +4016,19 @@
           "en": "five-senses",
           "de": "die-fuenf-sinne",
           "es": "los-cinco-sentidos",
-          "it": "i-cinque-sensi"
+          "it": "i-cinque-sensi",
+          "fr": "les-5-sens",
+          "pt": "os-cinco-sentidos",
+          "nl": "de-vijf-zintuigen"
         },
         "name": {
           "en": "The Five Senses",
           "de": "Die fünf Sinne",
           "es": "Los cinco sentidos",
-          "it": "I cinque sensi"
+          "it": "I cinque sensi",
+          "fr": "Les 5 sens",
+          "pt": "Os cinco sentidos",
+          "nl": "De vijf zintuigen"
         }
       },
       "weather-symbols": {
@@ -4018,13 +4036,19 @@
           "en": "weather-symbols",
           "de": "wettersymbole",
           "es": "el-estado-del-tiempo",
-          "it": "il-tempo-atmosferico"
+          "it": "il-tempo-atmosferico",
+          "fr": "le-temps-qu-il-fait",
+          "pt": "como-esta-o-tempo-hoje",
+          "nl": "weersymbolen"
         },
         "name": {
           "en": "Weather Symbols",
           "de": "Wettersymbole",
           "es": "El estado del tiempo",
-          "it": "Il tempo atmosferico"
+          "it": "Il tempo atmosferico",
+          "fr": "Le temps qu'il fait",
+          "pt": "Como está o tempo hoje",
+          "nl": "Weersymbolen"
         }
       },
       "recycling": {
@@ -4032,13 +4056,19 @@
           "en": "recycling",
           "de": "muelltrennung",
           "es": "separacion-de-basura",
-          "it": "raccolta-differenziata"
+          "it": "raccolta-differenziata",
+          "fr": "le-tri-des-dechets",
+          "pt": "coleta-seletiva",
+          "nl": "afval-scheiden"
         },
         "name": {
           "en": "Recycling Sort",
           "de": "Mülltrennung",
           "es": "Separación de basura",
-          "it": "Raccolta differenziata"
+          "it": "Raccolta differenziata",
+          "fr": "Le tri des déchets",
+          "pt": "Coleta seletiva",
+          "nl": "Afval scheiden"
         }
       },
       "cloze": {
@@ -4046,13 +4076,19 @@
           "en": "cloze",
           "de": "lueckentext",
           "es": "completa-las-oraciones",
-          "it": "completa-le-frasi"
+          "it": "completa-le-frasi",
+          "fr": "phrases-a-trous",
+          "pt": "complete-as-frases",
+          "nl": "zinnen-aanvullen"
         },
         "name": {
           "en": "Fill in the Missing Word",
           "de": "Lückentext",
           "es": "Completa las oraciones",
-          "it": "Completa le frasi"
+          "it": "Completa le frasi",
+          "fr": "Phrases à trous",
+          "pt": "Complete as frases",
+          "nl": "Zinnen aanvullen"
         }
       },
       "odd-and-even": {
@@ -4060,13 +4096,19 @@
           "en": "odd-and-even",
           "de": "gerade-und-ungerade-zahlen",
           "es": "numeros-pares-e-impares",
-          "it": "numeri-pari-e-dispari"
+          "it": "numeri-pari-e-dispari",
+          "fr": "nombres-pairs-et-impairs",
+          "pt": "numeros-pares-e-impares",
+          "nl": "even-en-oneven-getallen"
         },
         "name": {
           "en": "Odd and Even Numbers",
           "de": "Gerade und ungerade Zahlen",
           "es": "Números pares e impares",
-          "it": "Numeri pari e dispari"
+          "it": "Numeri pari e dispari",
+          "fr": "Nombres pairs et impairs",
+          "pt": "Números pares e ímpares",
+          "nl": "Even en oneven getallen"
         }
       },
       "pronouns": {
@@ -4074,13 +4116,19 @@
           "en": "pronouns",
           "de": "personalpronomen",
           "es": "pronombres-personales",
-          "it": "pronomi-personali-soggetto"
+          "it": "pronomi-personali-soggetto",
+          "fr": "pronoms-personnels-sujets",
+          "pt": "pronomes-pessoais-do-caso-reto",
+          "nl": "hij-zij-of-het"
         },
         "name": {
           "en": "Personal Pronouns",
           "de": "Personalpronomen",
           "es": "Pronombres personales",
-          "it": "Pronomi personali soggetto"
+          "it": "Pronomi personali soggetto",
+          "fr": "Les pronoms personnels sujets",
+          "pt": "Pronomes pessoais do caso reto",
+          "nl": "Hij, zij of het"
         }
       },
       "question-words": {
@@ -4088,13 +4136,19 @@
           "en": "question-words",
           "de": "w-fragen",
           "es": "preguntas-con-quien-que-y-donde",
-          "it": "le-domande-della-frase"
+          "it": "le-domande-della-frase",
+          "fr": "mots-interrogatifs",
+          "pt": "palavras-para-perguntar",
+          "nl": "vraagwoorden"
         },
         "name": {
           "en": "Question Words",
           "de": "W-Fragen",
           "es": "Preguntas con quién, qué y dónde",
-          "it": "Le domande della frase"
+          "it": "Le domande della frase",
+          "fr": "Les mots interrogatifs",
+          "pt": "Palavras para perguntar",
+          "nl": "Vraagwoorden"
         }
       },
       "rounding": {
@@ -4102,13 +4156,19 @@
           "en": "rounding",
           "de": "zahlen-runden",
           "es": "redondeo",
-          "it": "arrotondare-i-numeri"
+          "it": "arrotondare-i-numeri",
+          "fr": "arrondir-a-la-dizaine",
+          "pt": "arredondamento-de-numeros",
+          "nl": "afronden-op-tientallen"
         },
         "name": {
           "en": "Rounding Numbers",
           "de": "Zahlen runden",
           "es": "Redondeo",
-          "it": "Arrotondare i numeri"
+          "it": "Arrotondare i numeri",
+          "fr": "Arrondir à la dizaine",
+          "pt": "Arredondamento de números",
+          "nl": "Afronden op tientallen"
         }
       }
     },

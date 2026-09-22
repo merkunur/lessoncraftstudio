@@ -1,0 +1,114 @@
+{
+  "bins": [
+    {
+      "key": "emballages",
+      "label": "Emballages",
+      "longLabel": "Emballages et papiers : la poubelle jaune",
+      "color": "codeYellow",
+      "colorWord": "jaune",
+      "materials": [
+        "paper",
+        "cardboard",
+        "plastic",
+        "metal"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "verre",
+      "label": "Verre",
+      "longLabel": "Le verre : le conteneur vert",
+      "color": "codeGreen",
+      "colorWord": "vert",
+      "materials": [
+        "glass"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "biodechets",
+      "label": "Biodéchets",
+      "longLabel": "Les biodéchets : restes de repas et épluchures",
+      "color": "codeBrown",
+      "colorWord": "marron",
+      "materials": [
+        "organic"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "ordures",
+      "label": "Ordures",
+      "longLabel": "Les ordures ménagères : ce qui ne se trie pas",
+      "color": "inkSoft",
+      "colorWord": "gris",
+      "materials": [
+        "plastic",
+        "metal"
+      ],
+      "packagingOnly": false
+    }
+  ],
+  "route": {
+    "toothbrush": {
+      "bin": "ordures",
+      "reason": "une brosse à dents n'est pas un emballage : elle va aux ordures ménagères (bac gris)"
+    },
+    "comb": {
+      "bin": "ordures",
+      "reason": "un peigne n'est pas un emballage : il va aux ordures ménagères (bac gris)"
+    },
+    "spoon": {
+      "bin": "ordures",
+      "reason": "une cuillère en plastique n'est pas un emballage : elle va aux ordures ménagères"
+    },
+    "bucket": {
+      "bin": "ordures",
+      "reason": "un seau n'est pas un emballage : aux ordures ménagères s'il est cassé (ou en déchèterie)"
+    }
+  },
+  "excludeItems": {
+    "saucepan": "une casserole se porte à la déchèterie (ferraille), pas dans un bac de la maison",
+    "bolt": "un boulon se porte à la déchèterie (ferraille), pas dans un bac de la maison",
+    "nut": "un écrou se porte à la déchèterie (ferraille), pas dans un bac de la maison"
+  },
+  "materialWords": {
+    "paper": "papier",
+    "cardboard": "carton",
+    "glass": "verre",
+    "plastic": "plastique",
+    "metal": "métal"
+  },
+  "colorConvention": "national",
+  "refuse": [],
+  "starters": [],
+  "scheme": "Quatre bacs, comme à la maison en France depuis le tri à la source des biodéchets (2024) : les emballages et tous les papiers dans le bac jaune, le verre dans le conteneur vert, les restes de repas et les épluchures dans le bac marron des biodéchets, et le reste dans le bac gris des ordures ménagères. La couleur des bacs peut changer d'une commune à l'autre, mais les quatre flux sont les mêmes partout.",
+  "enAudit": "Le titre de base EN \"Recycling Sort\" ne nomme aucune poubelle alors que les cinq consignes disent \"bin\"; l'instruction de K-366 reprend mot pour mot la condition de la base (\"when it is empty or finished\"), donc deux faces publient une seule phrase; la poubelle \"compost\" EN accepte le pain et le poivron, que beaucoup de programmes de collecte américains refusent; enfin le titre EN de G2-348, \"Odd One Out\", est le nom de la famille voisine `odd-one-out` (fr \"L'intrus\"), donc la face fr doit nommer la MATIÈRE et non l'intrus.",
+  "strings": {
+    "K-357": {
+      "title": "Le tri des déchets",
+      "instruction": "Chaque objet est vide ou usé. Trace un trait entre cet objet et la poubelle où il faut le jeter."
+    },
+    "K-366": {
+      "title": "Le tri des déchets : dans quelle poubelle ?",
+      "instruction": "Regarde chaque objet et entoure la poubelle où il va quand il est vide ou usé."
+    },
+    "G1-364": {
+      "title": "De quelle matière est chaque objet ?",
+      "instruction": "En quoi est fait chaque objet ? Écris sur la ligne le mot de la liste qui convient."
+    },
+    "G2-348": {
+      "title": "Le tri des déchets : quel objet n'est pas de la même matière ?",
+      "instruction": "Dans chaque rangée, trois objets sont de la même matière. Entoure celui qui est d'une autre matière."
+    },
+    "K-367": {
+      "title": "Colorie les poubelles du tri",
+      "instruction": "Lis le nom de chaque poubelle et colorie-la de la couleur indiquée par la légende."
+    },
+    "G1-365": {
+      "title": "Trois choses que je trie à la maison",
+      "instruction": "Dessine trois choses que tu tries à la maison et écris ce que chacune est."
+    }
+  },
+  "strand": "Questionner le monde"
+}

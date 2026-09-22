@@ -1,0 +1,840 @@
+{
+  "nameSlot": true,
+  "articleTable": {
+    "d": "de",
+    "h": "het"
+  },
+  "boxWord": "een letter in elk hokje",
+  "confusable": [
+    [
+      "rooster",
+      "chicken"
+    ],
+    [
+      "duck",
+      "goose"
+    ],
+    [
+      "boat",
+      "sailboat"
+    ],
+    [
+      "jaguar",
+      "leopard"
+    ]
+  ],
+  "agreeingAdjectives": [],
+  "frames": [
+    {
+      "id": "cow-melk",
+      "noun": "cow",
+      "form": "sg",
+      "text": "De {gap} geeft ons melk.",
+      "fits": [
+        "cow",
+        "goat"
+      ],
+      "foil": "donkey",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "cow"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "pig-modder",
+      "noun": "pig",
+      "form": "sg",
+      "text": "Het {gap} rolt in de modder.",
+      "fits": [
+        "pig"
+      ],
+      "foil": "sheep",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "pig"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "rooster-kraait",
+      "noun": "rooster",
+      "form": "sg",
+      "text": "De {gap} kraait vroeg in de ochtend.",
+      "fits": [
+        "rooster"
+      ],
+      "foil": "turkey",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "birds 2",
+        "noun": "rooster"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "owl-nacht",
+      "noun": "owl",
+      "form": "sg",
+      "text": "De {gap} roept 's nachts in de boom.",
+      "fits": [
+        "owl"
+      ],
+      "foil": "duck",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "owl"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "bee-honing",
+      "noun": "bee",
+      "form": "sg",
+      "text": "De {gap} maakt honing in de korf.",
+      "fits": [
+        "bee"
+      ],
+      "foil": "bat",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "Things That Fly",
+        "noun": "bee"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "giraffe-nek",
+      "noun": "giraffe",
+      "form": "sg",
+      "text": "De {gap} heeft een heel lange nek.",
+      "fits": [
+        "giraffe",
+        "swan"
+      ],
+      "foil": "zebra",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "giraffe"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "elephant-slurf",
+      "noun": "elephant",
+      "form": "sg",
+      "text": "De {gap} spuit water met zijn slurf.",
+      "fits": [
+        "elephant"
+      ],
+      "foil": "rhinoceros",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "elephant"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "kangaroo-buidel",
+      "noun": "kangaroo",
+      "form": "sg",
+      "text": "De {gap} draagt haar jong in een buidel.",
+      "fits": [
+        "kangaroo",
+        "koala"
+      ],
+      "foil": "monkey",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "kangaroo"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "penguin-ijs",
+      "noun": "penguin",
+      "form": "sg",
+      "text": "De {gap} glijdt op zijn buik over het ijs.",
+      "fits": [
+        "penguin",
+        "seal"
+      ],
+      "foil": "swan",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "birds 2",
+        "noun": "penguin"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "zebra-strepen",
+      "noun": "zebra",
+      "form": "sg",
+      "text": "De {gap} heeft zwarte en witte strepen.",
+      "fits": [
+        "zebra"
+      ],
+      "foil": "giraffe",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "zebra"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "woodpecker-boom",
+      "noun": "woodpecker",
+      "form": "sg",
+      "text": "De {gap} hakt gaten in de boom.",
+      "fits": [
+        "woodpecker"
+      ],
+      "foil": "owl",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "woodpecker"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "turtle-kop",
+      "noun": "turtle",
+      "form": "sg",
+      "text": "De {gap} trekt zijn kop naar binnen.",
+      "fits": [
+        "turtle"
+      ],
+      "foil": "fox",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "turtle"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "rabbit-wortel",
+      "noun": "rabbit",
+      "form": "sg",
+      "text": "Het {gap} knabbelt aan een wortel.",
+      "fits": [
+        "rabbit"
+      ],
+      "foil": "lamb",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "rabbit"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "tractor-akker",
+      "noun": "tractor",
+      "form": "sg",
+      "text": "De {gap} ploegt de akker op de boerderij.",
+      "fits": [
+        "tractor"
+      ],
+      "foil": "truck",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "tractor"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "helicopter-wieken",
+      "noun": "helicopter",
+      "form": "sg",
+      "text": "De {gap} heeft wieken die ronddraaien.",
+      "fits": [
+        "helicopter"
+      ],
+      "foil": "rocket",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "Things That Fly",
+        "noun": "helicopter"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "train-rails",
+      "noun": "train",
+      "form": "sg",
+      "text": "De {gap} rijdt over de rails.",
+      "fits": [
+        "train"
+      ],
+      "foil": "bus",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "train"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    }
+  ],
+  "plural": [
+    {
+      "id": "cows-stal",
+      "noun": "cow",
+      "form": "pl",
+      "text": "Drie {gap} slapen in de stal.",
+      "clones": 3,
+      "fits": [
+        "cow",
+        "horse",
+        "pig",
+        "goat",
+        "donkey",
+        "sheep",
+        "lamb"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "cow"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "bees-bloemen",
+      "noun": "bee",
+      "form": "pl",
+      "text": "De {gap} zoemen rond de bloemen.",
+      "clones": null,
+      "fits": [
+        "bee"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "bee"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "geese-sloot",
+      "noun": "goose",
+      "form": "pl",
+      "text": "De {gap} zwemmen in de sloot.",
+      "clones": null,
+      "fits": [
+        "goose",
+        "duck",
+        "duckling",
+        "swan"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "goose"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "horses-wei",
+      "noun": "horse",
+      "form": "pl",
+      "text": "Twee {gap} galopperen door de wei.",
+      "clones": 2,
+      "fits": [
+        "horse",
+        "donkey",
+        "zebra"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "horse"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "penguins-ijs",
+      "noun": "penguin",
+      "form": "pl",
+      "text": "De {gap} waggelen over het ijs.",
+      "clones": null,
+      "fits": [
+        "penguin",
+        "duck",
+        "goose"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "penguin"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "bats-grot",
+      "noun": "bat",
+      "form": "pl",
+      "text": "De {gap} hangen ondersteboven in de grot.",
+      "clones": null,
+      "fits": [
+        "bat"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "Things That Fly",
+        "noun": "bat"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "monkeys-boom",
+      "noun": "monkey",
+      "form": "pl",
+      "text": "De {gap} slingeren van boom naar boom.",
+      "clones": null,
+      "fits": [
+        "monkey",
+        "chimpanzee",
+        "gorilla"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "monkey"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "blueberries-blauw",
+      "noun": "blueberry",
+      "form": "pl",
+      "text": "De {gap} zijn klein, rond en blauw.",
+      "clones": null,
+      "fits": [
+        "blueberry"
+      ],
+      "predicateKind": "copula",
+      "exclusiveWhy": "de enige blauwe vrucht in de pool; de braam is zwart en is een tweeling (nooit op dezelfde bladzijde)",
+      "pic": {
+        "theme": "fruits",
+        "noun": "blueberry"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "airplanes-baan",
+      "noun": "airplane",
+      "form": "pl",
+      "text": "Twee {gap} landen op de baan.",
+      "clones": 2,
+      "fits": [
+        "airplane"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "airplane"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "lions-gras",
+      "noun": "lion",
+      "form": "pl",
+      "text": "De {gap} brullen hard in het gras.",
+      "clones": null,
+      "fits": [
+        "lion",
+        "tiger",
+        "jaguar",
+        "leopard"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "lion"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "chickens-zaad",
+      "noun": "chicken",
+      "form": "pl",
+      "text": "De {gap} pikken zaad in de tuin.",
+      "clones": null,
+      "fits": [
+        "chicken",
+        "rooster",
+        "chick",
+        "turkey"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "chicken"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "balls-heuvel",
+      "noun": "ball",
+      "form": "pl",
+      "text": "Drie {gap} rollen van de heuvel.",
+      "clones": 3,
+      "fits": [
+        "ball"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "toys",
+        "noun": "ball"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    }
+  ],
+  "stories": [
+    {
+      "id": "boerderij-ochtend",
+      "nouns": [
+        "rooster",
+        "cow",
+        "tractor"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "'s Ochtends kraait de {gap}.",
+        "Daarna melkt {name} de {gap}.",
+        "Dan rijdt {name} met de {gap} naar het land."
+      ],
+      "fits": [
+        [
+          "rooster"
+        ],
+        [
+          "cow",
+          "goat"
+        ],
+        [
+          "tractor"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "farm animals",
+          "noun": "rooster"
+        },
+        {
+          "theme": "farm animals",
+          "noun": "cow"
+        },
+        {
+          "theme": "vehicles",
+          "noun": "tractor"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "vijver-dag",
+      "nouns": [
+        "swan",
+        "turtle",
+        "dog"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "De {gap} zwemt rustig op de vijver.",
+        "De {gap} slaapt op een steen in de zon.",
+        "Dan blaft de {gap} heel hard."
+      ],
+      "fits": [
+        [
+          "swan"
+        ],
+        [
+          "turtle"
+        ],
+        [
+          "dog"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "Things That Fly",
+          "noun": "swan"
+        },
+        {
+          "theme": "animals",
+          "noun": "turtle"
+        },
+        {
+          "theme": "animals",
+          "noun": "dog"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "dierentuin",
+      "nouns": [
+        "elephant",
+        "giraffe",
+        "monkey"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "In de dierentuin spuit de {gap} water.",
+        "De {gap} eet blaadjes uit een hoge boom.",
+        "De {gap} slingert van tak naar tak."
+      ],
+      "fits": [
+        [
+          "elephant"
+        ],
+        [
+          "giraffe"
+        ],
+        [
+          "monkey",
+          "chimpanzee",
+          "gorilla"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "zoo animals",
+          "noun": "elephant"
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "giraffe"
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "monkey"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "lucht-dag",
+      "nouns": [
+        "airplane",
+        "rocket",
+        "kite"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "Het {gap} vliegt boven de wolken.",
+        "De {gap} schiet omhoog de ruimte in.",
+        "{name} laat de {gap} op de heuvel los."
+      ],
+      "fits": [
+        [
+          "airplane"
+        ],
+        [
+          "rocket"
+        ],
+        [
+          "kite"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "vehicles",
+          "noun": "airplane"
+        },
+        {
+          "theme": "vehicles",
+          "noun": "rocket"
+        },
+        {
+          "theme": "toys",
+          "noun": "kite"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "strand-dag",
+      "nouns": [
+        "dolphin",
+        "seagull",
+        "sailboat"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "De {gap} springt uit de golven.",
+        "De {gap} krijst boven het zand.",
+        "De {gap} vaart weg met de wind."
+      ],
+      "fits": [
+        [
+          "dolphin",
+          "whale"
+        ],
+        [
+          "seagull"
+        ],
+        [
+          "sailboat",
+          "boat"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "beach",
+          "noun": "dolphin"
+        },
+        {
+          "theme": "beach",
+          "noun": "seagull"
+        },
+        {
+          "theme": "beach",
+          "noun": "sailboat"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "bos-nacht",
+      "nouns": [
+        "owl",
+        "fox",
+        "rabbit"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "'s Nachts roept de {gap} in de eik.",
+        "De {gap} sluipt uit zijn hol.",
+        "Het {gap} knabbelt aan een wortel in de tuin."
+      ],
+      "fits": [
+        [
+          "owl"
+        ],
+        [
+          "fox",
+          "wolf"
+        ],
+        [
+          "rabbit"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "forest creatures",
+          "noun": "owl"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "fox"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "rabbit"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    }
+  ],
+  "strings": {
+    "base": {
+      "title": "Zinnen aanvullen",
+      "instruction": "Kijk naar het plaatje. Zoek het woord dat in de zin past in het kader en schrijf het in het vakje."
+    },
+    "letters": {
+      "title": "Zinnen aanvullen met letterhokjes",
+      "instruction": "Kijk naar het plaatje. Schrijf het woord dat mist in de hokjes, een letter in elk hokje."
+    },
+    "choice": {
+      "title": "Zinnen aanvullen: kies het juiste woord",
+      "instruction": "Kijk naar het plaatje en lees de zin. Omcirkel het woord dat past en schrijf het in het vakje."
+    },
+    "plural": {
+      "title": "Zinnen aanvullen met meer dan een",
+      "instruction": "Kijk naar de plaatjes. Er is meer dan een. Schrijf het woord voor meer dan een in het vakje."
+    },
+    "story": {
+      "title": "Een verhaaltje aanvullen",
+      "instruction": "Lees het hele verhaaltje. De drie plaatjes laten de woorden zien die missen. Schrijf elk woord in zijn vakje."
+    },
+    "match": {
+      "title": "Zin bij het plaatje",
+      "instruction": "Lees elke zin. Welk plaatje past in de lege plek? Trek een lijn van de zin naar dat plaatje."
+    }
+  },
+  "refuse": {
+    "plural": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "strings": {
+    "K-353": {
+      "title": "Tangram: 7 stukken knippen en twee figuren leggen",
+      "instruction": "Kleur de stukken zoals in de legenda, knip ze langs de lijnen uit en leg ze precies op de twee figuren hieronder."
+    },
+    "compose": {
+      "title": "Makkelijke tangramfiguren van 2 en 3 stukken: teken de lijnen",
+      "instruction": "Kijk naar de stukken boven elke vorm. Teken de lijnen in de vorm waar die stukken elkaar raken."
+    },
+    "silhouette": {
+      "title": "Tangramfiguren: vier schaduwen naleggen",
+      "instruction": "Leg elke donkere schaduw na met de zeven stukken van je tangram. Gebruik elke keer alle zeven stukken."
+    },
+    "missing": {
+      "title": "Tangramfiguren: welk stuk ontbreekt?",
+      "instruction": "In elke figuur ontbreekt een stuk. Omcirkel het stuk dat precies in de lege plek past."
+    },
+    "match": {
+      "title": "Tangramfiguren: welke oplossing hoort bij de schaduw?",
+      "instruction": "Kijk naar elke schaduw. Omcirkel de oplossing die er precies zo ligt. Gedraaide of gespiegelde figuren passen niet."
+    },
+    "count": {
+      "title": "Tangram: driehoeken en vierkanten tellen",
+      "instruction": "Tel de driehoeken in elke figuur en schrijf het getal in het eerste vakje. Tel daarna de vierkanten voor het tweede."
+    }
+  }
+}

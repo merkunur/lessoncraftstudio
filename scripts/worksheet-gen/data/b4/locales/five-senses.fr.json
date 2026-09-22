@@ -1,0 +1,54 @@
+{
+  "verbs": {
+    "hear": "entendre",
+    "see": "voir",
+    "smell": "sentir",
+    "taste": "goûter",
+    "touch": "toucher"
+  },
+  "starters": {
+    "hear": "J'entends ...",
+    "see": "Je vois ...",
+    "smell": "Je sens ...",
+    "taste": "Je goûte ...",
+    "touch": "Je touche ..."
+  },
+  "signedOk": [
+    "pizza",
+    "television",
+    "book",
+    "lamp",
+    "lighthouse",
+    "flute",
+    "thunderstorm"
+  ],
+  "organOf": {},
+  "refuse": [],
+  "strings": {
+    "K-355": {
+      "title": "Les 5 sens",
+      "instruction": "Trace un trait entre chaque image et la partie du corps qui te sert à la percevoir."
+    },
+    "G1-357": {
+      "title": "Les 5 sens : classe les images par sens",
+      "instruction": "Regarde chaque image et trace un trait de son point jusqu’à la boîte du sens qui te sert à la percevoir."
+    },
+    "G1-358": {
+      "title": "Les 5 sens : quel sens utilises-tu ?",
+      "instruction": "Quel sens utilises-tu pour chaque image ? Entoure la partie du corps qui te sert."
+    },
+    "G1-359": {
+      "title": "Les 5 sens : quelle image n'appartient pas au groupe ?",
+      "instruction": "Dans chaque rangée, trois images vont avec le même sens. Barre celle qui ne va pas avec les autres."
+    },
+    "G1-360": {
+      "title": "Les organes des sens : écris le sens",
+      "instruction": "Copie chaque mot de la liste sur la ligne, à côté de la partie du corps qui fait ce travail."
+    },
+    "G1-361": {
+      "title": "Les 5 sens : j'entends, je vois, je sens ...",
+      "instruction": "Termine chaque phrase. Écris ce que tu peux entendre, voir, sentir, goûter et toucher."
+    }
+  },
+  "strand": "Questionner le monde"
+}

@@ -1,0 +1,65 @@
+{
+  "symbolWords": {
+    "sun": "soleil",
+    "cloud": "nuage",
+    "rain": "pluie",
+    "storm": "orage",
+    "snow": "neige",
+    "rainbow": "arc-en-ciel"
+  },
+  "forecastAsks": {
+    "sun": "Quel jour y a-t-il du soleil ?",
+    "cloud": "Quel jour est-il nuageux ?",
+    "rain": "Quel jour pleut-il ?",
+    "storm": "Quel jour y a-t-il de l'orage ?",
+    "snow": "Quel jour neige-t-il ?",
+    "rainbow": "Quel jour voit-on un arc-en-ciel ?"
+  },
+  "cycleLabels": {
+    "evaporation": "évaporation",
+    "condensation": "condensation",
+    "precipitation": "précipitations",
+    "collection": "ruissellement"
+  },
+  "bandWords": {
+    "cold": "froid",
+    "warm": "doux",
+    "hot": "chaud"
+  },
+  "forecastDays": null,
+  "diaryDays": null,
+  "diaryStart": "mon",
+  "bankWords": {},
+  "distractors": [
+    "vent",
+    "brouillard"
+  ],
+  "refuse": [],
+  "strings": {
+    "K-356": {
+      "title": "Le temps qu'il fait",
+      "instruction": "Trace un trait entre chaque symbole du temps et son mot."
+    },
+    "G1-362": {
+      "title": "Écris le mot du temps qu'il fait",
+      "instruction": "Cherche dans la liste le mot de chaque symbole du temps et écris-le, une lettre par case."
+    },
+    "K-364": {
+      "title": "Le temps de la semaine, du lundi au dimanche",
+      "instruction": "Chaque jour de la semaine, regarde dehors et dessine dans sa case le symbole du temps qu'il fait."
+    },
+    "K-365": {
+      "title": "Fait-il froid, doux ou chaud ?",
+      "instruction": "Regarde chaque thermomètre, sers-toi de la clé pour savoir s'il fait froid, doux ou chaud, et entoure le vêtement qui convient."
+    },
+    "G3-385": {
+      "title": "Cycle de l'eau : écris chaque étape",
+      "instruction": "Lis les quatre mots de la liste et écris chacun sur la ligne qui porte le même numéro que sur le schéma."
+    },
+    "G1-363": {
+      "title": "Lis les prévisions de la semaine",
+      "instruction": "Regarde le temps de la semaine, lis chaque question et entoure le bon jour."
+    }
+  },
+  "strand": "Questionner le monde"
+}

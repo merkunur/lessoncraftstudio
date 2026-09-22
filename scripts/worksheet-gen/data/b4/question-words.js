@@ -79,6 +79,20 @@
 'use strict';
 
 const QUESTION_WORDS = {
+  // ---- GLOBAL (every locale, every face): pictures a K-3 child reads as the SAME thing. The pool is
+  // mechanical, so without this a page prints two near-identical spheres under two different nouns.
+  // Opened by the it panel 2026-09-22: `plum` IS a red apple, `cherry` a round red apple-shape, and
+  // apricot / peach / nectarine are three orange spheres. Merged with the locale's own `twins`.
+  THING_TWINS: [
+    ['apple', 'cherry', 'plum', 'pomegranate'],
+    ['orange', 'clementine', 'grapefruit', 'peach', 'nectarine', 'apricot'],
+    ['lemon', 'lime'], ['blueberry', 'blackberry'],
+    ['jaguar', 'leopard'], ['cat', 'tiger'], ['swan', 'seagull'],
+    ['sofa', 'couch'], ['fridge', 'refrigerator'], ['oven', 'stove'], ['carpet', 'rug'],
+    ['pen', 'pencil'], ['clock', 'alarm_clock'], ['lamp', 'floor_lamp'], ['pot', 'pan'], ['cup', 'glass'],
+    ['closet', 'wardrobe', 'cabinet', 'dresser', 'nightstand'], ['door', 'gate'],
+    ['duck', 'goose'], ['hen', 'chicken'], ['bus', 'van'], ['boat', 'sailboat'],
+  ],
   en: {
     qwords: { who: 'Who', what: 'What', where: 'Where', when: 'When', howmany: 'How many' },
     starters: ['Who', 'What', 'Where', 'When', 'Why', 'How'],

@@ -1,0 +1,28 @@
+{
+  "strings": {
+    "K-353": {
+      "title": "Tangram à découper : 7 pièces et deux modèles",
+      "instruction": "Colorie chaque pièce comme la légende, découpe les sept pièces en suivant les traits, puis pose-les sur les deux modèles du bas."
+    },
+    "compose": {
+      "title": "Tangram facile : trace les traits pour 2 et 3 pièces",
+      "instruction": "Regarde les pièces au-dessus de chaque forme. Trace dans la forme les traits qui montrent où ces pièces se rejoignent."
+    },
+    "silhouette": {
+      "title": "Tangram : quatre ombres à reconstituer",
+      "instruction": "Reconstitue chaque ombre avec les sept pièces de ton tangram. Utilise les sept pièces à chaque fois."
+    },
+    "missing": {
+      "title": "Tangram : quelle pièce manque ?",
+      "instruction": "Il manque une pièce à chaque modèle. Entoure la pièce qui entre exactement dans l'espace vide."
+    },
+    "match": {
+      "title": "Tangram : quelle solution est posée comme l'ombre ?",
+      "instruction": "Regarde chaque ombre. Entoure la solution posée exactement comme l'ombre. Celles qui sont tournées ou retournées ne comptent pas."
+    },
+    "count": {
+      "title": "Tangram : compte triangles et carrés",
+      "instruction": "Compte les triangles de chaque modèle et écris le nombre dans la première case. Compte ensuite les carrés pour la deuxième."
+    }
+  }
+}

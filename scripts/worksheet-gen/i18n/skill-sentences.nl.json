@@ -338,5 +338,45 @@
   "division-with-remainder": {
     "full": "Delen met rest voor groep 5 en 6: het kind maakt groepjes, verdeelt eerlijk, schrijft deelsommen met rest en controleert of een deelsom opgaat.",
     "short": "Delen met rest: groepjes maken en de rest schrijven"
+  },
+  "tangram": {
+    "full": "Tangram voor kleuters, groep 3 en groep 4: de zeven stukken uitknippen, figuren en schaduwen naleggen, het ontbrekende stuk zoeken en driehoeken tellen.",
+    "short": "Tangramfiguren leggen, knippen en tellen"
+  },
+  "human-body": {
+    "full": "Het lichaam voor kleuters en groep 3: lichaamsdelen benoemen en schrijven, tellen hoeveel je er hebt, kleuren volgens de legenda en het deel vinden dat mist.",
+    "short": "Lichaamsdelen benoemen, tellen en kleuren"
+  },
+  "five-senses": {
+    "full": "De vijf zintuigen voor kleuters en groep 3: horen, zien, ruiken, proeven en voelen sorteren, het juiste zintuig kiezen en de zintuigorganen benoemen.",
+    "short": "Horen, zien, ruiken, proeven en voelen"
+  },
+  "weather-symbols": {
+    "full": "Weersymbolen voor kleuters tot groep 5: symbolen bij het weerwoord leggen, een weerkaart bijhouden, koud, warm of heet kiezen en de waterkringloop benoemen.",
+    "short": "Weersymbolen lezen en het weer bijhouden"
+  },
+  "recycling": {
+    "full": "Afval scheiden voor kleuters tot groep 4: papier, gft, pmd, glas en restafval uit elkaar houden, de juiste bak kiezen en opschrijven waarvan iets gemaakt is.",
+    "short": "Afval in de juiste bak sorteren"
+  },
+  "cloze": {
+    "full": "Zinnen aanvullen voor groep 3 en groep 4: het woord dat mist bij het plaatje invullen, kiezen uit twee woorden, meervouden schrijven en een verhaaltje afmaken.",
+    "short": "Het woord dat mist in de zin invullen"
+  },
+  "odd-and-even": {
+    "full": "Even en oneven getallen voor groep 3 tot groep 5: getallen in het even of oneven huis zetten, paren maken, naar de eenheden kijken en sommen beoordelen.",
+    "short": "Even en oneven getallen herkennen"
+  },
+  "pronouns": {
+    "full": "Persoonlijke voornaamwoorden voor groep 3 en groep 4: hij, zij of het kiezen, de naam in de zin vervangen, namen sorteren en zinnen opnieuw schrijven.",
+    "short": "Hij, zij of het bij de naam kiezen"
+  },
+  "question-words": {
+    "full": "Vraagwoorden voor groep 4: wie, wat, waar, wanneer en hoeveel herkennen, het vraagwoord invullen, antwoorden sorteren en zelf vraagzinnen maken.",
+    "short": "Wie, wat en waar in vraagzinnen"
+  },
+  "rounding": {
+    "full": "Afronden op tientallen voor groep 5: getallen naar boven of naar beneden afronden, ook op honderdtallen, sommen schatten en terugzoeken welke getallen 50 worden.",
+    "short": "Getallen afronden op tientallen"
   }
 }

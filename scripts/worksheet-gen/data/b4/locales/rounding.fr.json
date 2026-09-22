@@ -1,0 +1,43 @@
+{
+  "up": {
+    "10": "dizaine supérieure",
+    "100": "centaine supérieure"
+  },
+  "down": {
+    "10": "dizaine inférieure",
+    "100": "centaine inférieure"
+  },
+  "heads": {
+    "10": "dizaine",
+    "100": "centaine"
+  },
+  "relation": "approx",
+  "strings": {
+    "base": {
+      "title": "Arrondir à la dizaine",
+      "instruction": "Arrondis chaque nombre à la dizaine la plus proche et écris-le dans la case. Si le chiffre des unités est 5 ou davantage, arrondis au-dessus."
+    },
+    "sort": {
+      "title": "Arrondir au-dessus ou en dessous : range les nombres",
+      "instruction": "Chaque nombre s'arrondit-il au-dessus ou en dessous à la dizaine ? Écris-le dans la bonne boîte."
+    },
+    "hundred": {
+      "title": "Arrondir les nombres à la centaine",
+      "instruction": "Arrondis chaque nombre à la centaine la plus proche et écris-le dans la case. Regarde le chiffre des dizaines."
+    },
+    "estimate": {
+      "title": "Arrondir puis estimer la somme",
+      "instruction": "Arrondis les deux nombres à la dizaine et écris-les dans les cases. Additionne ensuite les nombres arrondis."
+    },
+    "inverse": {
+      "title": "Quels nombres s'arrondissent à 50 ?",
+      "instruction": "Entoure tous les nombres qui s'arrondissent à la dizaine écrite en haut. Regarde le chiffre des unités de chaque nombre."
+    },
+    "both": {
+      "title": "Arrondir à la dizaine et à la centaine",
+      "instruction": "Arrondis chaque nombre deux fois : à la dizaine dans la première case et à la centaine dans la seconde."
+    }
+  },
+  "refuse": [],
+  "strand": "Nombres et calcul"
+}

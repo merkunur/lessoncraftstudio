@@ -1,0 +1,54 @@
+{
+  "verbs": {
+    "hear": "horen",
+    "see": "zien",
+    "smell": "ruiken",
+    "taste": "proeven",
+    "touch": "voelen"
+  },
+  "starters": {
+    "hear": "Ik hoor ...",
+    "see": "Ik zie ...",
+    "smell": "Ik ruik ...",
+    "taste": "Ik proef ...",
+    "touch": "Ik voel ..."
+  },
+  "signedOk": [
+    "pizza",
+    "television",
+    "book",
+    "lamp",
+    "lighthouse",
+    "flute",
+    "thunderstorm"
+  ],
+  "organOf": {},
+  "refuse": [],
+  "strings": {
+    "K-355": {
+      "title": "De vijf zintuigen",
+      "instruction": "Trek een lijn van elk plaatje naar het lichaamsdeel dat je ervoor gebruikt."
+    },
+    "G1-357": {
+      "title": "De vijf zintuigen: sorteren op zintuig",
+      "instruction": "Kijk naar elk plaatje en trek een lijn van zijn stip naar het vak van het zintuig dat je ervoor gebruikt."
+    },
+    "G1-358": {
+      "title": "De vijf zintuigen: welk zintuig gebruik je?",
+      "instruction": "Welk zintuig gebruik je bij elk plaatje? Omcirkel het lichaamsdeel dat je ervoor nodig hebt."
+    },
+    "G1-359": {
+      "title": "De vijf zintuigen: welk plaatje hoort er niet bij?",
+      "instruction": "In elke rij horen drie plaatjes bij hetzelfde zintuig. Streep het plaatje door dat er niet bij hoort."
+    },
+    "G1-360": {
+      "title": "Zintuigen: schrijf het woord bij het orgaan",
+      "instruction": "Schrijf elk woord uit het kader op de lijn naast het lichaamsdeel dat dat kan."
+    },
+    "G1-361": {
+      "title": "De vijf zintuigen: ik hoor ...",
+      "instruction": "Maak elke zin af. Schrijf op wat jij kunt horen, zien, ruiken, proeven en voelen."
+    }
+  },
+  "strand": "Oriëntatie op jezelf en de wereld"
+}

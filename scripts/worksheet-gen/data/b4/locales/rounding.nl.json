@@ -1,0 +1,43 @@
+{
+  "up": {
+    "10": "naar boven",
+    "100": "naar boven"
+  },
+  "down": {
+    "10": "naar beneden",
+    "100": "naar beneden"
+  },
+  "heads": {
+    "10": "tiental",
+    "100": "honderdtal"
+  },
+  "relation": "approx",
+  "strings": {
+    "base": {
+      "title": "Afronden op tientallen: schrijf het tiental",
+      "instruction": "Rond elk getal af op het tiental en schrijf het in het vakje. Is het laatste cijfer 5 of meer, rond dan naar boven."
+    },
+    "sort": {
+      "title": "Naar boven of naar beneden? Sorteer de getallen",
+      "instruction": "Gaat elk getal naar boven of naar beneden op het tiental? Schrijf het in de juiste bak."
+    },
+    "hundred": {
+      "title": "Afronden op honderdtallen: kijk naar het cijfer van de tientallen",
+      "instruction": "Rond elk getal af op het honderdtal en schrijf het in het vakje. Kijk naar het cijfer van de tientallen."
+    },
+    "estimate": {
+      "title": "Eerst afronden, dan de som schatten",
+      "instruction": "Rond beide getallen af op het tiental en schrijf ze in de vakjes. Tel daarna de afgeronde getallen op."
+    },
+    "inverse": {
+      "title": "Welke getallen worden 50?",
+      "instruction": "Omcirkel elk getal dat op het tiental bovenaan uitkomt. Kijk naar het laatste cijfer van elk getal."
+    },
+    "both": {
+      "title": "Afronden op tientallen en honderdtallen",
+      "instruction": "Rond elk getal twee keer af: op het tiental in het eerste vakje en op het honderdtal in het tweede."
+    }
+  },
+  "refuse": [],
+  "strand": "Getallen (SLO kerndoelen)"
+}

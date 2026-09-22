@@ -1,0 +1,54 @@
+{
+  "verbs": {
+    "hear": "ouvir",
+    "see": "ver",
+    "smell": "cheirar",
+    "taste": "provar",
+    "touch": "tocar"
+  },
+  "starters": {
+    "hear": "Eu ouço ...",
+    "see": "Eu vejo ...",
+    "smell": "Eu cheiro ...",
+    "taste": "Eu provo ...",
+    "touch": "Eu toco ..."
+  },
+  "signedOk": [
+    "pizza",
+    "television",
+    "book",
+    "lamp",
+    "lighthouse",
+    "flute",
+    "thunderstorm"
+  ],
+  "organOf": {},
+  "refuse": [],
+  "strings": {
+    "K-355": {
+      "title": "Os cinco sentidos",
+      "instruction": "Ligue cada figura à parte do corpo que você usa para senti-la."
+    },
+    "G1-357": {
+      "title": "Os cinco sentidos: separe por sentido",
+      "instruction": "Olhe cada figura e ligue o ponto dela ao quadro do sentido que você usa para percebê-la."
+    },
+    "G1-358": {
+      "title": "Os cinco sentidos: qual sentido?",
+      "instruction": "Qual sentido você usa em cada figura? Circule a parte do corpo que você usa."
+    },
+    "G1-359": {
+      "title": "Os cinco sentidos: qual não combina?",
+      "instruction": "Em cada linha três figuras combinam com o mesmo sentido. Risque a que não combina."
+    },
+    "G1-360": {
+      "title": "Os órgãos dos sentidos: escreva a palavra",
+      "instruction": "Copie cada palavra do quadro na linha ao lado do órgão que faz isso."
+    },
+    "G1-361": {
+      "title": "Os cinco sentidos: eu ouço ...",
+      "instruction": "Termine cada frase. Escreva o que você pode ouvir, ver, cheirar, provar e tocar."
+    }
+  },
+  "strand": "Ciências"
+}

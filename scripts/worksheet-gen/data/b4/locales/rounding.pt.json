@@ -1,0 +1,43 @@
+{
+  "up": {
+    "10": "para cima",
+    "100": "para cima"
+  },
+  "down": {
+    "10": "para baixo",
+    "100": "para baixo"
+  },
+  "heads": {
+    "10": "dezena",
+    "100": "centena"
+  },
+  "relation": "approx",
+  "strings": {
+    "base": {
+      "title": "Arredondamento de números à dezena",
+      "instruction": "Arredonde cada número à dezena mais próxima e escreva na caixa. Se o algarismo das unidades for 5 ou mais, arredonde para cima."
+    },
+    "sort": {
+      "title": "Arredondar para cima ou para baixo: separe os números",
+      "instruction": "Cada número é arredondado para cima ou para baixo na dezena? Escreva-o na caixa certa."
+    },
+    "hundred": {
+      "title": "Arredondamento de números à centena",
+      "instruction": "Arredonde cada número à centena mais próxima e escreva na caixa. Olhe o algarismo das dezenas."
+    },
+    "estimate": {
+      "title": "Arredonde e estime a soma",
+      "instruction": "Arredonde os dois números à dezena mais próxima e escreva nas caixas. Depois some os números arredondados."
+    },
+    "inverse": {
+      "title": "Quais números arredondam para 50?",
+      "instruction": "Circule todos os números que arredondam para a dezena mostrada no alto. Olhe o algarismo das unidades."
+    },
+    "both": {
+      "title": "Arredondamento à dezena e à centena",
+      "instruction": "Arredonde cada número duas vezes: à dezena na primeira caixa e à centena na segunda."
+    }
+  },
+  "refuse": [],
+  "strand": "Números"
+}

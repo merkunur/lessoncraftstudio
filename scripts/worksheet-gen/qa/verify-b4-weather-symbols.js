@@ -374,6 +374,18 @@ function validateBank(block, loc, widths) {
   // rule 8 (shape; the pill row width is measured in the render phase)
   if (block.forecastDays != null && !(Array.isArray(block.forecastDays) && block.forecastDays.length === 5 && block.forecastDays.every((x) => typeof x === 'string' && x.trim()))) push('forecastDays must be null or 5 literals');
   if (block.diaryDays != null && !(Array.isArray(block.diaryDays) && block.diaryDays.length === 7 && block.diaryDays.every((x) => typeof x === 'string' && x.trim()))) push('diaryDays must be null or 7 literals');
+  // SUNDAY-FIRST, like calendar.js: the diary indexes the authored list by (first + i) % 7 against the
+  // calendar's own Sunday-first order, so a Monday-first list silently rotates the week — the pt panel
+  // rendered a week that began on terca with segunda wrapped into the last cell while every gate stayed
+  // green (lints clean, verify clean, validator 0). Each authored day must match its calendar day.
+  if (Array.isArray(block.diaryDays) && block.diaryDays.length === 7 && NAMES[loc] && NAMES[loc].dayNames) {
+    const fold = (x) => String(x).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z]/g, '');
+    block.diaryDays.forEach((d, i) => {
+      const cal = fold(NAMES[loc].dayNames[i]);
+      const mine = fold(d);
+      if (!cal.startsWith(mine) && !mine.startsWith(cal)) push(`diaryDays[${i}] "${d}" is not the ${loc} day at index ${i} ("${NAMES[loc].dayNames[i]}") — the list is SUNDAY-first, like calendar.js`);
+    });
+  }
   if (!['mon', 'sun'].includes(block.diaryStart)) push(`diaryStart "${block.diaryStart}" is not mon | sun`);
   for (const [k, v] of Object.entries(block.bankWords || {})) if (typeof v !== 'string' || typeof words[k] !== 'string' || !v.endsWith(words[k])) push(`bankWords.${k} "${v}" does not end with symbolWords.${k}`);
   const gf = gearForms(loc);

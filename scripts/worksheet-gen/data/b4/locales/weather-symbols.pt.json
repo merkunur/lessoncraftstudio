@@ -1,0 +1,79 @@
+{
+  "symbolWords": {
+    "sun": "sol",
+    "cloud": "nuvem",
+    "rain": "chuva",
+    "storm": "tempestade",
+    "snow": "neve",
+    "rainbow": "arco-íris"
+  },
+  "forecastAsks": {
+    "sun": "Em que dia faz sol?",
+    "cloud": "Em que dia fica nublado?",
+    "rain": "Em que dia chove?",
+    "storm": "Em que dia tem tempestade?",
+    "snow": "Em que dia neva?",
+    "rainbow": "Em que dia aparece o arco-íris?"
+  },
+  "cycleLabels": {
+    "evaporation": "evaporação",
+    "condensation": "condensação",
+    "precipitation": "precipitação",
+    "collection": "escoamento"
+  },
+  "bandWords": {
+    "cold": "frio",
+    "warm": "ameno",
+    "hot": "quente"
+  },
+  "forecastDays": [
+    "segunda",
+    "terça",
+    "quarta",
+    "quinta",
+    "sexta"
+  ],
+  "diaryDays": [
+    "domingo",
+    "segunda",
+    "terça",
+    "quarta",
+    "quinta",
+    "sexta",
+    "sábado"
+  ],
+  "diaryStart": "mon",
+  "bankWords": {},
+  "distractors": [
+    "vento",
+    "neblina"
+  ],
+  "refuse": [],
+  "strings": {
+    "K-356": {
+      "title": "Como está o tempo hoje",
+      "instruction": "Ligue cada símbolo do tempo à sua palavra."
+    },
+    "G1-362": {
+      "title": "Como está o tempo hoje: escreva as palavras do tempo",
+      "instruction": "Ache no quadro a palavra de cada símbolo do tempo e escreva-a, uma letra em cada quadradinho."
+    },
+    "K-364": {
+      "title": "Quadro do tempo da semana, de segunda a domingo",
+      "instruction": "Todo dia desta semana, olhe para fora e desenhe na caixa o símbolo do tempo daquele dia."
+    },
+    "K-365": {
+      "title": "Está frio, ameno ou quente? Leia o termômetro",
+      "instruction": "Olhe cada termômetro, use a legenda para ver se está frio, ameno ou quente e circule a figura que combina."
+    },
+    "G3-385": {
+      "title": "O ciclo da água: escreva as etapas",
+      "instruction": "Leia as quatro palavras do quadro e escreva cada uma na linha que tem o mesmo número do desenho."
+    },
+    "G1-363": {
+      "title": "Previsão do tempo da semana: leia e responda",
+      "instruction": "Olhe o tempo da semana, leia cada pergunta e circule o dia certo."
+    }
+  },
+  "strand": "Ciências"
+}

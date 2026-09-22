@@ -1,0 +1,548 @@
+{
+  "locale": "nl",
+  "types": {
+    "K-353": { "title": "Tangram: 7 stukken knippen en twee figuren leggen", "instruction": "Kleur de stukken zoals in de legenda, knip ze langs de lijnen uit en leg ze precies op de twee figuren hieronder." },
+    "K-358": { "title": "Makkelijke tangramfiguren van 2 en 3 stukken: teken de lijnen", "instruction": "Kijk naar de stukken boven elke vorm. Teken de lijnen in de vorm waar die stukken elkaar raken." },
+    "G1-354": { "title": "Tangramfiguren: vier schaduwen naleggen", "instruction": "Leg elke donkere schaduw na met de zeven stukken van je tangram. Gebruik elke keer alle zeven stukken." },
+    "G1-355": { "title": "Tangramfiguren: welk stuk ontbreekt?", "instruction": "In elke figuur ontbreekt een stuk. Omcirkel het stuk dat precies in de lege plek past." },
+    "G2-347": { "title": "Tangramfiguren: welke oplossing hoort bij de schaduw?", "instruction": "Kijk naar elke schaduw. Omcirkel de oplossing die er precies zo ligt. Gedraaide of gespiegelde figuren passen niet." },
+    "K-359": { "title": "Tangram: driehoeken en vierkanten tellen", "instruction": "Tel de driehoeken in elke figuur en schrijf het getal in het eerste vakje. Tel daarna de vierkanten voor het tweede." },
+
+    "K-354": { "title": "Het lichaam", "instruction": "Schrijf elk woord uit het kader op de lijn die naar dat lichaamsdeel wijst." },
+    "K-360": { "title": "Het lichaam: hoeveel heb je er?", "instruction": "Hoeveel heb je er van elk? Tel aan je eigen lichaam en schrijf het getal in het vakje." },
+    "K-361": { "title": "Het lichaam: kleur volgens de legenda", "instruction": "Lees de legenda en kleur elk lichaamsdeel in de kleur die naast zijn naam staat." },
+    "G1-356": { "title": "Het lichaam: schrijf het woord", "instruction": "Zoek elk genummerd lichaamsdeel op de figuur en schrijf zijn naam, een letter in elk hokje." },
+    "K-362": { "title": "Het lichaam: wat ontbreekt?", "instruction": "Bij elk lichaam ontbreekt een deel. Omcirkel het plaatje van het deel dat mist en teken het er daarna bij." },
+    "K-363": { "title": "Het lichaam: welke heb je twee keer?", "instruction": "Omcirkel elk lichaamsdeel dat je twee keer hebt." },
+
+    "K-355": { "title": "De vijf zintuigen", "instruction": "Trek een lijn van elk plaatje naar het lichaamsdeel dat je ervoor gebruikt." },
+    "G1-357": { "title": "De vijf zintuigen: sorteren op zintuig", "instruction": "Kijk naar elk plaatje en trek een lijn van zijn stip naar het vak van het zintuig dat je ervoor gebruikt." },
+    "G1-358": { "title": "De vijf zintuigen: welk zintuig gebruik je?", "instruction": "Welk zintuig gebruik je bij elk plaatje? Omcirkel het lichaamsdeel dat je ervoor nodig hebt." },
+    "G1-359": { "title": "De vijf zintuigen: welk plaatje hoort er niet bij?", "instruction": "In elke rij horen drie plaatjes bij hetzelfde zintuig. Streep het plaatje door dat er niet bij hoort." },
+    "G1-360": { "title": "Zintuigen: schrijf het woord bij het orgaan", "instruction": "Schrijf elk woord uit het kader op de lijn naast het lichaamsdeel dat dat kan." },
+    "G1-361": { "title": "De vijf zintuigen: ik hoor ...", "instruction": "Maak elke zin af. Schrijf op wat jij kunt horen, zien, ruiken, proeven en voelen." },
+
+    "K-356": { "title": "Weersymbolen", "instruction": "Trek een lijn van elk weersymbool naar het woord dat erbij hoort." },
+    "G1-362": { "title": "Schrijf het weerwoord", "instruction": "Zoek bij elk weersymbool het woord in het kader en schrijf het, een letter in elk hokje." },
+    "K-364": { "title": "Weerkaart: het weer bijhouden van maandag tot zondag", "instruction": "Kijk elke dag van deze week naar buiten en teken het weersymbool van die dag in zijn vakje." },
+    "K-365": { "title": "Hoe warm is het? Koud, warm of heet", "instruction": "Kijk naar elke thermometer, gebruik de legenda en omcirkel het plaatje dat past bij koud, warm of heet." },
+    "G3-385": { "title": "De waterkringloop: zet de namen erbij", "instruction": "Lees de vier woorden in het kader en schrijf elk woord op de lijn met hetzelfde nummer als op de tekening." },
+    "G1-363": { "title": "Lees de weersverwachting van de week", "instruction": "Kijk naar het weer van de week, lees elke vraag en omcirkel de dag die past." },
+
+    "K-357": { "title": "Afval scheiden", "instruction": "Elk ding is leeg of op. Trek een lijn van het ding naar de bak waar het in hoort." },
+    "K-366": { "title": "Afval scheiden: welke bak?", "instruction": "Kijk naar elk ding en omcirkel de bak waar het in hoort als het leeg of op is." },
+    "G1-364": { "title": "Afval scheiden: waarvan is het gemaakt?", "instruction": "Waarvan is elk ding gemaakt? Schrijf het woord uit het kader op de lijn." },
+    "G2-348": { "title": "Afval scheiden: welk ding hoort er niet bij?", "instruction": "In elke rij zijn drie dingen van hetzelfde materiaal. Omcirkel het ding dat anders is." },
+    "G1-365": { "title": "Afval scheiden: drie dingen die ik apart houd", "instruction": "Teken drie dingen die je thuis apart houdt en schrijf op wat elk ding is." },
+
+    "G1-350": { "title": "Zinnen aanvullen", "instruction": "Kijk naar het plaatje. Zoek het woord dat in de zin past in het kader en schrijf het in het vakje." },
+    "G1-366": { "title": "Zinnen aanvullen met letterhokjes", "instruction": "Kijk naar het plaatje. Schrijf het woord dat mist in de hokjes, een letter in elk hokje." },
+    "G1-367": { "title": "Zinnen aanvullen: kies het juiste woord", "instruction": "Kijk naar het plaatje en lees de zin. Omcirkel het woord dat past en schrijf het in het vakje." },
+    "G2-349": { "title": "Zinnen aanvullen met meer dan een", "instruction": "Kijk naar de plaatjes. Er is meer dan een. Schrijf het woord voor meer dan een in het vakje." },
+    "G2-350": { "title": "Een verhaaltje aanvullen", "instruction": "Lees het hele verhaaltje. De drie plaatjes laten de woorden zien die missen. Schrijf elk woord in zijn vakje." },
+    "G1-368": { "title": "Zin bij het plaatje", "instruction": "Lees elke zin. Welk plaatje past in de lege plek? Trek een lijn van de zin naar dat plaatje." },
+
+    "G1-351": { "title": "Even en oneven getallen: het even huis en het oneven huis", "instruction": "Schrijf elk getal in het huis waar het hoort. Drie getallen wonen er al en laten hun paren zien." },
+    "G2-351": { "title": "Even of oneven? Schrijf twee gelijke delen", "instruction": "Omcirkel de stippen twee aan twee. Schrijf het getal daarna als twee gelijke delen en zet wat overblijft in het kleine vakje." },
+    "G1-369": { "title": "Kunnen twee vrienden eerlijk delen?", "instruction": "Verdeel de plaatjes om de beurt tussen de twee vrienden. Schrijf hoeveel elk kind krijgt en wat er overblijft. Omcirkel daarna even of oneven." },
+    "G2-352": { "title": "Even en oneven getallen tot 100: kijk naar de eenheden", "instruction": "Lees de regel bovenaan. Kijk alleen naar het vakje van de eenheden en zet een vinkje onder even of oneven." },
+    "G3-386": { "title": "Even of oneven som? Beslis zonder te rekenen", "instruction": "Niet optellen. Kijk naar het onderstreepte cijfer van de eenheden, gebruik de tabel en zet een vinkje bij even of oneven." },
+    "G1-370": { "title": "Even of oneven? Tel de plaatjes in paren", "instruction": "Tel de plaatjes en omcirkel ze twee aan twee. Schrijf hoeveel paren je hebt gemaakt en omcirkel daarna even of oneven." },
+
+    "G1-352": { "title": "Hij, zij of het: persoonlijke voornaamwoorden", "instruction": "Kijk naar het plaatje en lees het woord eronder. Omcirkel het woord dat we in plaats daarvan zeggen." },
+    "G1-371": { "title": "Vervang de naam door een voornaamwoord", "instruction": "Lees de zin. Schrijf het woord uit het kader dat in de tweede zin de naam vervangt in het vakje." },
+    "G2-353": { "title": "Wie wordt bedoeld? Voornaamwoorden in de zin", "instruction": "Lees de zinnen. Trek een lijn van elk woord in het vak naar de naam waarvoor het staat." },
+    "G1-372": { "title": "Namen sorteren: hij, zij of het", "instruction": "Lees elke kaart. Schrijf het woord van de kaart onder het woord dat we ervoor zeggen." },
+    "G2-355": { "title": "Schrijf de zin opnieuw met een voornaamwoord", "instruction": "Lees de zin. Schrijf hem opnieuw op de lijnen, maar zet een voornaamwoord in plaats van de naam." },
+
+    "G1-353": { "title": "Vraagwoorden: wie, wat, waar", "instruction": "Lees de zin. Kijk naar de gemarkeerde woorden. Omcirkel het vraagwoord dat daarnaar vraagt." },
+    "G1-373": { "title": "Zoek het antwoord bij de vraag", "instruction": "Lees elke vraag links. Trek een lijn naar het antwoord rechts dat erbij past." },
+    "G1-374": { "title": "Vul het vraagwoord in", "instruction": "Lees het antwoord en zoek de gemarkeerde woorden. Schrijf het vraagwoord uit het kader in het hokje." },
+    "G1-375": { "title": "Antwoorden sorteren: wie, wat of waar", "instruction": "Lees elk kaartje. Schrijf het in de bak onder de vraag die het beantwoordt." },
+    "G2-356": { "title": "Vraagzinnen maken", "instruction": "Lees het antwoord. Kijk naar de gemarkeerde woorden. Schrijf op de lijn de vraag die daarnaar vraagt." },
+    "G2-357": { "title": "Vraag iets over de plaat: waarom en hoe", "instruction": "Kijk naar de plaat. Maak elke vraag af. Begin met het woord dat al op de lijn staat." },
+
+    "G2-346": { "title": "Afronden op tientallen: schrijf het tiental", "instruction": "Rond elk getal af op het tiental en schrijf het in het vakje. Is het laatste cijfer 5 of meer, rond dan naar boven." },
+    "G3-387": { "title": "Naar boven of naar beneden? Sorteer de getallen", "instruction": "Gaat elk getal naar boven of naar beneden op het tiental? Schrijf het in de juiste bak." },
+    "G3-388": { "title": "Afronden op honderdtallen: kijk naar het cijfer van de tientallen", "instruction": "Rond elk getal af op het honderdtal en schrijf het in het vakje. Kijk naar het cijfer van de tientallen." },
+    "G3-389": { "title": "Eerst afronden, dan de som schatten", "instruction": "Rond beide getallen af op het tiental en schrijf ze in de vakjes. Tel daarna de afgeronde getallen op." },
+    "G3-390": { "title": "Welke getallen worden 50?", "instruction": "Omcirkel elk getal dat op het tiental bovenaan uitkomt. Kijk naar het laatste cijfer van elk getal." },
+    "G3-391": { "title": "Afronden op tientallen en honderdtallen", "instruction": "Rond elk getal twee keer af: op het tiental in het eerste vakje en op het honderdtal in het tweede." }
+  },
+
+  "families": {
+    "tangram": { "slug": "tangram", "name": "Tangram" },
+    "human-body": { "slug": "het-lichaam", "name": "Het lichaam" },
+    "five-senses": { "slug": "de-vijf-zintuigen", "name": "De vijf zintuigen" },
+    "weather-symbols": { "slug": "weersymbolen", "name": "Weersymbolen" },
+    "recycling": { "slug": "afval-scheiden", "name": "Afval scheiden" },
+    "cloze": { "slug": "zinnen-aanvullen", "name": "Zinnen aanvullen" },
+    "odd-and-even": { "slug": "even-en-oneven-getallen", "name": "Even en oneven getallen" },
+    "pronouns": { "slug": "hij-zij-of-het", "name": "Hij, zij of het" },
+    "question-words": { "slug": "vraagwoorden", "name": "Vraagwoorden" },
+    "rounding": { "slug": "afronden-op-tientallen", "name": "Afronden op tientallen" }
+  },
+
+  "skills": {
+    "tangram": { "full": "Tangram voor kleuters, groep 3 en groep 4: de zeven stukken uitknippen, figuren en schaduwen naleggen, het ontbrekende stuk zoeken en driehoeken tellen.", "short": "Tangramfiguren leggen, knippen en tellen" },
+    "human-body": { "full": "Het lichaam voor kleuters en groep 3: lichaamsdelen benoemen en schrijven, tellen hoeveel je er hebt, kleuren volgens de legenda en het deel vinden dat mist.", "short": "Lichaamsdelen benoemen, tellen en kleuren" },
+    "five-senses": { "full": "De vijf zintuigen voor kleuters en groep 3: horen, zien, ruiken, proeven en voelen sorteren, het juiste zintuig kiezen en de zintuigorganen benoemen.", "short": "Horen, zien, ruiken, proeven en voelen" },
+    "weather-symbols": { "full": "Weersymbolen voor kleuters tot groep 5: symbolen bij het weerwoord leggen, een weerkaart bijhouden, koud, warm of heet kiezen en de waterkringloop benoemen.", "short": "Weersymbolen lezen en het weer bijhouden" },
+    "recycling": { "full": "Afval scheiden voor kleuters tot groep 4: papier, gft, pmd, glas en restafval uit elkaar houden, de juiste bak kiezen en opschrijven waarvan iets gemaakt is.", "short": "Afval in de juiste bak sorteren" },
+    "cloze": { "full": "Zinnen aanvullen voor groep 3 en groep 4: het woord dat mist bij het plaatje invullen, kiezen uit twee woorden, meervouden schrijven en een verhaaltje afmaken.", "short": "Het woord dat mist in de zin invullen" },
+    "odd-and-even": { "full": "Even en oneven getallen voor groep 3 tot groep 5: getallen in het even of oneven huis zetten, paren maken, naar de eenheden kijken en sommen beoordelen.", "short": "Even en oneven getallen herkennen" },
+    "pronouns": { "full": "Persoonlijke voornaamwoorden voor groep 3 en groep 4: hij, zij of het kiezen, de naam in de zin vervangen, namen sorteren en zinnen opnieuw schrijven.", "short": "Hij, zij of het bij de naam kiezen" },
+    "question-words": { "full": "Vraagwoorden voor groep 4: wie, wat, waar, wanneer en hoeveel herkennen, het vraagwoord invullen, antwoorden sorteren en zelf vraagzinnen maken.", "short": "Wie, wat en waar in vraagzinnen" },
+    "rounding": { "full": "Afronden op tientallen voor groep 5: getallen naar boven of naar beneden afronden, ook op honderdtallen, sommen schatten en terugzoeken welke getallen 50 worden.", "short": "Getallen afronden op tientallen" }
+  },
+
+  "topicMeta": {
+    "tangram": "Tangram om te printen voor kleuters tot groep 4: zeven stukken uitknippen, schaduwfiguren naleggen, het ontbrekende stuk zoeken en driehoeken en vierkanten tellen.",
+    "human-body": "Het lichaam om te printen voor kleuters en groep 3: lichaamsdelen benoemen, tellen, kleuren volgens de legenda en ontdekken welke delen je twee keer hebt.",
+    "five-senses": "De vijf zintuigen om te printen voor kleuters en groep 3: plaatjes bij het juiste zintuig leggen, zintuigorganen benoemen en zinnen over horen en zien afmaken.",
+    "weather-symbols": "Weersymbolen om te printen voor kleuters tot groep 5: zon, wolk, regen, onweer, sneeuw en regenboog herkennen, het weer van de week bijhouden en de waterkringloop benoemen.",
+    "recycling": "Afval scheiden om te printen voor kleuters tot groep 4: papier, gft, pmd, glas en restafval uit elkaar houden, de juiste bak kiezen en het materiaal opschrijven.",
+    "cloze": "Zinnen aanvullen om te printen voor groep 3 en groep 4: het woord bij het plaatje in de zin schrijven, letterhokjes invullen, meervouden oefenen en een kort verhaal afmaken.",
+    "odd-and-even": "Even en oneven getallen om te printen voor groep 3 tot groep 5: getallen sorteren, paren maken, tot 100 naar de eenheden kijken en beslissen of een som even of oneven is.",
+    "pronouns": "Persoonlijke voornaamwoorden om te printen voor groep 3 en groep 4: hij, zij of het bij een naam kiezen, namen sorteren en zinnen met een voornaamwoord opnieuw schrijven.",
+    "question-words": "Vraagwoorden om te printen voor groep 4: wie, wat, waar, wanneer en hoeveel oefenen, het juiste vraagwoord invullen, antwoorden sorteren en zelf een vraag schrijven.",
+    "rounding": "Afronden op tientallen om te printen voor groep 5: naar boven of naar beneden afronden, ook op honderdtallen, een som schatten en zoeken welke getallen op 50 uitkomen."
+  },
+
+  "refusals": {
+    "K-367": "Nederland heeft wel nationale containerkleuren (papier blauw, gft groen, pmd oranje, restafval grijs) maar GEEN eigen kleur voor glas: de glasbak is een brengvoorziening, meestal groen, en botst dus met de gft-bak. Een vijfde, onderscheidende kleur zou verzonnen zijn, en glas uit de bakkenset halen zou de vijf andere faces verzwakken. F4 wordt daarom geweigerd, niet gekleurd geraden.",
+    "G2-354": "GATE-DEFECT, geen taalfeit: qa/verify-b4-pronouns.js regel 6 telt voor nl elke bezitsdrager als 'm-n' (['f','d'].includes(code) && loc !== 'nl'), zodat genders.f altijd 0 is en de eis 'f >= 4' voor het Nederlands onbereikbaar is; nl kent alleen de codes d en h. Nederlandse bezittelijke voornaamwoorden (zijn/haar/hun) congrueren juist NIET met het ding, dus de balans-eis geldt hier niet. Zie het rapport: een regel fixen zet deze face terug op 6."
+  },
+
+  "banks": {
+    "tangram": {
+      "strings": {
+        "K-353": { "title": "Tangram: 7 stukken knippen en twee figuren leggen", "instruction": "Kleur de stukken zoals in de legenda, knip ze langs de lijnen uit en leg ze precies op de twee figuren hieronder." },
+        "compose": { "title": "Makkelijke tangramfiguren van 2 en 3 stukken: teken de lijnen", "instruction": "Kijk naar de stukken boven elke vorm. Teken de lijnen in de vorm waar die stukken elkaar raken." },
+        "silhouette": { "title": "Tangramfiguren: vier schaduwen naleggen", "instruction": "Leg elke donkere schaduw na met de zeven stukken van je tangram. Gebruik elke keer alle zeven stukken." },
+        "missing": { "title": "Tangramfiguren: welk stuk ontbreekt?", "instruction": "In elke figuur ontbreekt een stuk. Omcirkel het stuk dat precies in de lege plek past." },
+        "match": { "title": "Tangramfiguren: welke oplossing hoort bij de schaduw?", "instruction": "Kijk naar elke schaduw. Omcirkel de oplossing die er precies zo ligt. Gedraaide of gespiegelde figuren passen niet." },
+        "count": { "title": "Tangram: driehoeken en vierkanten tellen", "instruction": "Tel de driehoeken in elke figuur en schrijf het getal in het eerste vakje. Tel daarna de vierkanten voor het tweede." }
+      }
+    },
+
+    "human-body": {
+      "partWords": {
+        "head": "hoofd", "hair": "haar", "eye": "oog", "ear": "oor", "nose": "neus", "mouth": "mond", "neck": "nek", "shoulder": "schouder",
+        "arm": "arm", "elbow": "elleboog", "hand": "hand", "finger": "vinger", "leg": "been", "knee": "knie", "foot": "voet", "toe": "teen"
+      },
+      "overrides": {},
+      "bankWords": {
+        "head": "het hoofd", "hair": "het haar", "eye": "het oog", "ear": "het oor", "nose": "de neus", "mouth": "de mond", "neck": "de nek", "shoulder": "de schouder",
+        "arm": "de arm", "elbow": "de elleboog", "hand": "de hand", "finger": "de vinger", "leg": "het been", "knee": "de knie", "foot": "de voet", "toe": "de teen"
+      },
+      "plural": {
+        "head": "hoofden", "hair": "haren", "eye": "ogen", "ear": "oren", "nose": "neuzen", "mouth": "monden", "neck": "nekken", "shoulder": "schouders",
+        "arm": "armen", "elbow": "ellebogen", "hand": "handen", "finger": "vingers", "leg": "benen", "knee": "knieën", "foot": "voeten", "toe": "tenen"
+      },
+      "factLabels": {
+        "head": "Hoeveel hoofden?", "hair": "Hoeveel haar?", "eye": "Hoeveel ogen?", "ear": "Hoeveel oren?", "nose": "Hoeveel neuzen?",
+        "mouth": "Hoeveel monden?", "neck": "Hoeveel nekken?", "shoulder": "Hoeveel schouders?", "arm": "Hoeveel armen?",
+        "elbow": "Hoeveel ellebogen?", "hand": "Hoeveel handen?", "finger": "Hoeveel vingers?", "leg": "Hoeveel benen?",
+        "knee": "Hoeveel knieën?", "foot": "Hoeveel voeten?", "toe": "Hoeveel tenen?",
+        "fingersOneHand": "Hoeveel vingers aan één hand?", "toesOneFoot": "Hoeveel tenen aan één voet?"
+      },
+      "use": {
+        "head": "Met je hoofd denk je.", "hair": "Je haar houdt je hoofd warm.", "eye": "Met je ogen kijk je.", "ear": "Met je oren luister je.",
+        "nose": "Met je neus ruik je.", "mouth": "Met je mond eet en praat je.", "neck": "Je nek draait je hoofd.",
+        "shoulder": "Op je schouders draag je een rugzak.", "arm": "Met je armen geef je een knuffel.", "elbow": "Je ellebogen buigen je armen.",
+        "hand": "Met je handen houd je dingen vast.", "finger": "Met een vinger wijs je.", "leg": "Met je benen ren je.",
+        "knee": "Je knieën buigen als je springt.", "foot": "Op je voeten sta je.", "toe": "Je tenen helpen je bij het evenwicht."
+      },
+      "refuseWords": {},
+      "refuse": [],
+      "strings": {
+        "K-354": { "title": "Het lichaam", "instruction": "Schrijf elk woord uit het kader op de lijn die naar dat lichaamsdeel wijst." },
+        "K-360": { "title": "Het lichaam: hoeveel heb je er?", "instruction": "Hoeveel heb je er van elk? Tel aan je eigen lichaam en schrijf het getal in het vakje." },
+        "K-361": { "title": "Het lichaam: kleur volgens de legenda", "instruction": "Lees de legenda en kleur elk lichaamsdeel in de kleur die naast zijn naam staat." },
+        "G1-356": { "title": "Het lichaam: schrijf het woord", "instruction": "Zoek elk genummerd lichaamsdeel op de figuur en schrijf zijn naam, een letter in elk hokje." },
+        "K-362": { "title": "Het lichaam: wat ontbreekt?", "instruction": "Bij elk lichaam ontbreekt een deel. Omcirkel het plaatje van het deel dat mist en teken het er daarna bij." },
+        "K-363": { "title": "Het lichaam: welke heb je twee keer?", "instruction": "Omcirkel elk lichaamsdeel dat je twee keer hebt." }
+      }
+    },
+
+    "five-senses": {
+      "verbs": { "hear": "horen", "see": "zien", "smell": "ruiken", "taste": "proeven", "touch": "voelen" },
+      "starters": { "hear": "Ik hoor ...", "see": "Ik zie ...", "smell": "Ik ruik ...", "taste": "Ik proef ...", "touch": "Ik voel ..." },
+      "signedOk": ["pizza", "television", "book", "lamp", "lighthouse", "flute", "thunderstorm"],
+      "organOf": {},
+      "refuse": [],
+      "strings": {
+        "K-355": { "title": "De vijf zintuigen", "instruction": "Trek een lijn van elk plaatje naar het lichaamsdeel dat je ervoor gebruikt." },
+        "G1-357": { "title": "De vijf zintuigen: sorteren op zintuig", "instruction": "Kijk naar elk plaatje en trek een lijn van zijn stip naar het vak van het zintuig dat je ervoor gebruikt." },
+        "G1-358": { "title": "De vijf zintuigen: welk zintuig gebruik je?", "instruction": "Welk zintuig gebruik je bij elk plaatje? Omcirkel het lichaamsdeel dat je ervoor nodig hebt." },
+        "G1-359": { "title": "De vijf zintuigen: welk plaatje hoort er niet bij?", "instruction": "In elke rij horen drie plaatjes bij hetzelfde zintuig. Streep het plaatje door dat er niet bij hoort." },
+        "G1-360": { "title": "Zintuigen: schrijf het woord bij het orgaan", "instruction": "Schrijf elk woord uit het kader op de lijn naast het lichaamsdeel dat dat kan." },
+        "G1-361": { "title": "De vijf zintuigen: ik hoor ...", "instruction": "Maak elke zin af. Schrijf op wat jij kunt horen, zien, ruiken, proeven en voelen." }
+      },
+      "strand": "Oriëntatie op jezelf en de wereld"
+    },
+
+    "weather-symbols": {
+      "symbolWords": { "sun": "zon", "cloud": "wolk", "rain": "regen", "storm": "onweer", "snow": "sneeuw", "rainbow": "regenboog" },
+      "forecastAsks": {
+        "sun": "Op welke dag schijnt de zon?",
+        "cloud": "Op welke dag is het bewolkt?",
+        "rain": "Op welke dag regent het?",
+        "storm": "Op welke dag onweert het?",
+        "snow": "Op welke dag sneeuwt het?",
+        "rainbow": "Op welke dag is er een regenboog?"
+      },
+      "cycleLabels": { "evaporation": "verdamping", "condensation": "condensatie", "precipitation": "neerslag", "collection": "verzamelen", "runoff": "afstroming" },
+      "bandWords": { "cold": "koud", "warm": "warm", "hot": "heet" },
+      "forecastDays": null,
+      "diaryDays": null,
+      "diaryStart": "mon",
+      "bankWords": {},
+      "distractors": ["wind", "mist"],
+      "refuse": [],
+      "strings": {
+        "K-356": { "title": "Weersymbolen", "instruction": "Trek een lijn van elk weersymbool naar het woord dat erbij hoort." },
+        "G1-362": { "title": "Schrijf het weerwoord", "instruction": "Zoek bij elk weersymbool het woord in het kader en schrijf het, een letter in elk hokje." },
+        "K-364": { "title": "Weerkaart: het weer bijhouden van maandag tot zondag", "instruction": "Kijk elke dag van deze week naar buiten en teken het weersymbool van die dag in zijn vakje." },
+        "K-365": { "title": "Hoe warm is het? Koud, warm of heet", "instruction": "Kijk naar elke thermometer, gebruik de legenda en omcirkel het plaatje dat past bij koud, warm of heet." },
+        "G3-385": { "title": "De waterkringloop: zet de namen erbij", "instruction": "Lees de vier woorden in het kader en schrijf elk woord op de lijn met hetzelfde nummer als op de tekening." },
+        "G1-363": { "title": "Lees de weersverwachting van de week", "instruction": "Kijk naar het weer van de week, lees elke vraag en omcirkel de dag die past." }
+      },
+      "strand": "Oriëntatie op jezelf en de wereld"
+    },
+
+    "recycling": {
+      "bins": [
+        { "key": "papier", "label": "Papier", "longLabel": "Papier en karton (blauwe bak)", "color": "codeBlue", "colorWord": "blauw", "materials": ["paper", "cardboard"], "packagingOnly": false },
+        { "key": "gft", "label": "GFT", "longLabel": "Groente-, fruit- en tuinafval (groene bak)", "color": "codeGreen", "colorWord": "groen", "materials": ["organic"], "packagingOnly": false },
+        { "key": "pmd", "label": "PMD", "longLabel": "Plastic, metaal en drankpakken (oranje bak of zak)", "color": "codeOrange", "colorWord": "oranje", "materials": ["plastic", "metal"], "packagingOnly": true },
+        { "key": "glas", "label": "Glas", "longLabel": "Glazen potten en flessen (de glasbak)", "color": null, "colorWord": null, "materials": ["glass"], "packagingOnly": true },
+        { "key": "rest", "label": "Restafval", "longLabel": "Restafval: alles wat niet apart kan (grijze bak)", "color": "inkSoft", "colorWord": "grijs", "materials": ["plastic", "metal"], "packagingOnly": false }
+      ],
+      "route": {
+        "toothbrush": { "bin": "rest", "reason": "geen verpakking: een tandenborstel hoort bij het restafval, niet bij pmd" },
+        "comb": { "bin": "rest", "reason": "geen verpakking: een kam hoort bij het restafval" },
+        "spoon": { "bin": "rest", "reason": "een plastic lepel is geen verpakking: restafval" },
+        "bucket": { "bin": "rest", "reason": "een kapot speelgoedemmertje is geen verpakking: restafval" }
+      },
+      "excludeItems": {
+        "water": "statiegeld: de plastic fles gaat terug naar de winkel, er is geen bak voor op het blad",
+        "saucepan": "metaal: een pan brengt je naar de milieustraat, er is geen bak voor op het blad",
+        "bolt": "los metaal: naar de milieustraat, er is geen bak voor op het blad",
+        "nut": "los metaal: naar de milieustraat, er is geen bak voor op het blad"
+      },
+      "materialWords": { "paper": "papier", "cardboard": "karton", "glass": "glas", "plastic": "plastic", "metal": "metaal" },
+      "colorConvention": null,
+      "refuse": ["color"],
+      "starters": [],
+      "scheme": "Vijf bakken zoals thuis: papier en karton in de blauwe bak, groente-, fruit- en tuinafval in de groene gft-bak, plastic, metaal en drankpakken in de oranje pmd-bak, potten en flessen naar de glasbak en de rest in de grijze bak. De vier huiscontainers dragen hun landelijke kleur; de glasbak heeft er geen, dus blijft die neutraal en wordt de kleurface niet gemaakt.",
+      "enAudit": "De Engelse bron zegt in K-357 en K-366 'when it is empty or finished', maar de bank bevat een plastic waterfles en een glazen melkfles: in Nederland gaat de plastic fles met statiegeld terug naar de winkel, dus een nl-blok moet die uitsluiten. De en-bank heeft vijf bakken zonder enige kleur en weigert daarmee F4 terecht, maar de rows-module houdt wel een en-titel voor K-367 aan, zodat build-en een string maakt die geen en-wave mag gebruiken. De en 'compost'-bak neemt brood en paprika, wat in de Amerikaanse thuiscompost-richtlijn juist wordt afgeraden.",
+      "strings": {
+        "K-357": { "title": "Afval scheiden", "instruction": "Elk ding is leeg of op. Trek een lijn van het ding naar de bak waar het in hoort." },
+        "K-366": { "title": "Afval scheiden: welke bak?", "instruction": "Kijk naar elk ding en omcirkel de bak waar het in hoort als het leeg of op is." },
+        "G1-364": { "title": "Afval scheiden: waarvan is het gemaakt?", "instruction": "Waarvan is elk ding gemaakt? Schrijf het woord uit het kader op de lijn." },
+        "G2-348": { "title": "Afval scheiden: welk ding hoort er niet bij?", "instruction": "In elke rij zijn drie dingen van hetzelfde materiaal. Omcirkel het ding dat anders is." },
+        "G1-365": { "title": "Afval scheiden: drie dingen die ik apart houd", "instruction": "Teken drie dingen die je thuis apart houdt en schrijf op wat elk ding is." }
+      },
+      "strand": "Oriëntatie op jezelf en de wereld"
+    },
+
+    "cloze": {
+      "nameSlot": true,
+      "articleTable": { "d": "de", "h": "het" },
+      "boxWord": "een letter in elk hokje",
+      "confusable": [["rooster", "chicken"], ["duck", "goose"], ["boat", "sailboat"], ["jaguar", "leopard"]],
+      "agreeingAdjectives": [],
+      "frames": [
+        { "id": "cow-melk", "noun": "cow", "form": "sg", "text": "De {gap} geeft ons melk.", "fits": ["cow", "goat"], "foil": "donkey", "predicateKind": "verb", "pic": { "theme": "farm animals", "noun": "cow" }, "picOpened": true, "signedExclusive": true },
+        { "id": "pig-modder", "noun": "pig", "form": "sg", "text": "Het {gap} rolt in de modder.", "fits": ["pig"], "foil": "sheep", "predicateKind": "verb", "pic": { "theme": "farm animals", "noun": "pig" }, "picOpened": true, "signedExclusive": true },
+        { "id": "rooster-kraait", "noun": "rooster", "form": "sg", "text": "De {gap} kraait vroeg in de ochtend.", "fits": ["rooster"], "foil": "turkey", "predicateKind": "verb", "pic": { "theme": "birds 2", "noun": "rooster" }, "picOpened": true, "signedExclusive": true },
+        { "id": "owl-nacht", "noun": "owl", "form": "sg", "text": "De {gap} roept 's nachts in de boom.", "fits": ["owl"], "foil": "duck", "predicateKind": "verb", "pic": { "theme": "forest creatures", "noun": "owl" }, "picOpened": true, "signedExclusive": true },
+        { "id": "bee-honing", "noun": "bee", "form": "sg", "text": "De {gap} maakt honing in de korf.", "fits": ["bee"], "foil": "bat", "predicateKind": "verb", "pic": { "theme": "Things That Fly", "noun": "bee" }, "picOpened": true, "signedExclusive": true },
+        { "id": "giraffe-nek", "noun": "giraffe", "form": "sg", "text": "De {gap} heeft een heel lange nek.", "fits": ["giraffe", "swan"], "foil": "zebra", "predicateKind": "verb", "pic": { "theme": "zoo animals", "noun": "giraffe" }, "picOpened": true, "signedExclusive": true },
+        { "id": "elephant-slurf", "noun": "elephant", "form": "sg", "text": "De {gap} spuit water met zijn slurf.", "fits": ["elephant"], "foil": "rhinoceros", "predicateKind": "verb", "pic": { "theme": "animals", "noun": "elephant" }, "picOpened": true, "signedExclusive": true },
+        { "id": "kangaroo-buidel", "noun": "kangaroo", "form": "sg", "text": "De {gap} draagt haar jong in een buidel.", "fits": ["kangaroo", "koala"], "foil": "monkey", "predicateKind": "verb", "pic": { "theme": "zoo animals", "noun": "kangaroo" }, "picOpened": true, "signedExclusive": true },
+        { "id": "penguin-ijs", "noun": "penguin", "form": "sg", "text": "De {gap} glijdt op zijn buik over het ijs.", "fits": ["penguin", "seal"], "foil": "swan", "predicateKind": "verb", "pic": { "theme": "birds 2", "noun": "penguin" }, "picOpened": true, "signedExclusive": true },
+        { "id": "zebra-strepen", "noun": "zebra", "form": "sg", "text": "De {gap} heeft zwarte en witte strepen.", "fits": ["zebra"], "foil": "giraffe", "predicateKind": "verb", "pic": { "theme": "animals", "noun": "zebra" }, "picOpened": true, "signedExclusive": true },
+        { "id": "woodpecker-boom", "noun": "woodpecker", "form": "sg", "text": "De {gap} hakt gaten in de boom.", "fits": ["woodpecker"], "foil": "owl", "predicateKind": "verb", "pic": { "theme": "forest creatures", "noun": "woodpecker" }, "picOpened": true, "signedExclusive": true },
+        { "id": "turtle-kop", "noun": "turtle", "form": "sg", "text": "De {gap} trekt zijn kop naar binnen.", "fits": ["turtle"], "foil": "fox", "predicateKind": "verb", "pic": { "theme": "animals", "noun": "turtle" }, "picOpened": true, "signedExclusive": true },
+        { "id": "rabbit-wortel", "noun": "rabbit", "form": "sg", "text": "Het {gap} knabbelt aan een wortel.", "fits": ["rabbit"], "foil": "lamb", "predicateKind": "verb", "pic": { "theme": "animals", "noun": "rabbit" }, "picOpened": true, "signedExclusive": true },
+        { "id": "tractor-akker", "noun": "tractor", "form": "sg", "text": "De {gap} ploegt de akker op de boerderij.", "fits": ["tractor"], "foil": "truck", "predicateKind": "verb", "pic": { "theme": "vehicles", "noun": "tractor" }, "picOpened": true, "signedExclusive": true },
+        { "id": "helicopter-wieken", "noun": "helicopter", "form": "sg", "text": "De {gap} heeft wieken die ronddraaien.", "fits": ["helicopter"], "foil": "rocket", "predicateKind": "verb", "pic": { "theme": "Things That Fly", "noun": "helicopter" }, "picOpened": true, "signedExclusive": true },
+        { "id": "train-rails", "noun": "train", "form": "sg", "text": "De {gap} rijdt over de rails.", "fits": ["train"], "foil": "bus", "predicateKind": "verb", "pic": { "theme": "vehicles", "noun": "train" }, "picOpened": true, "signedExclusive": true }
+      ],
+      "plural": [
+        { "id": "cows-stal", "noun": "cow", "form": "pl", "text": "Drie {gap} slapen in de stal.", "clones": 3, "fits": ["cow", "horse", "pig", "goat", "donkey", "sheep", "lamb"], "predicateKind": "verb", "pic": { "theme": "farm animals", "noun": "cow" }, "picOpened": true, "signedExclusive": true },
+        { "id": "bees-bloemen", "noun": "bee", "form": "pl", "text": "De {gap} zoemen rond de bloemen.", "clones": null, "fits": ["bee"], "predicateKind": "verb", "pic": { "theme": "forest creatures", "noun": "bee" }, "picOpened": true, "signedExclusive": true },
+        { "id": "geese-sloot", "noun": "goose", "form": "pl", "text": "De {gap} zwemmen in de sloot.", "clones": null, "fits": ["goose", "duck", "duckling", "swan"], "predicateKind": "verb", "pic": { "theme": "farm animals", "noun": "goose" }, "picOpened": true, "signedExclusive": true },
+        { "id": "horses-wei", "noun": "horse", "form": "pl", "text": "Twee {gap} galopperen door de wei.", "clones": 2, "fits": ["horse", "donkey", "zebra"], "predicateKind": "verb", "pic": { "theme": "animals", "noun": "horse" }, "picOpened": true, "signedExclusive": true },
+        { "id": "penguins-ijs", "noun": "penguin", "form": "pl", "text": "De {gap} waggelen over het ijs.", "clones": null, "fits": ["penguin", "duck", "goose"], "predicateKind": "verb", "pic": { "theme": "animals", "noun": "penguin" }, "picOpened": true, "signedExclusive": true },
+        { "id": "bats-grot", "noun": "bat", "form": "pl", "text": "De {gap} hangen ondersteboven in de grot.", "clones": null, "fits": ["bat"], "predicateKind": "verb", "pic": { "theme": "Things That Fly", "noun": "bat" }, "picOpened": true, "signedExclusive": true },
+        { "id": "monkeys-boom", "noun": "monkey", "form": "pl", "text": "De {gap} slingeren van boom naar boom.", "clones": null, "fits": ["monkey", "chimpanzee", "gorilla"], "predicateKind": "verb", "pic": { "theme": "zoo animals", "noun": "monkey" }, "picOpened": true, "signedExclusive": true },
+        { "id": "blueberries-blauw", "noun": "blueberry", "form": "pl", "text": "De {gap} zijn klein, rond en blauw.", "clones": null, "fits": ["blueberry"], "predicateKind": "copula", "exclusiveWhy": "de enige blauwe vrucht in de pool; de braam is zwart en is een tweeling (nooit op dezelfde bladzijde)", "pic": { "theme": "fruits", "noun": "blueberry" }, "picOpened": true, "signedExclusive": true },
+        { "id": "airplanes-baan", "noun": "airplane", "form": "pl", "text": "Twee {gap} landen op de baan.", "clones": 2, "fits": ["airplane"], "predicateKind": "verb", "pic": { "theme": "vehicles", "noun": "airplane" }, "picOpened": true, "signedExclusive": true },
+        { "id": "lions-gras", "noun": "lion", "form": "pl", "text": "De {gap} brullen hard in het gras.", "clones": null, "fits": ["lion", "tiger", "jaguar", "leopard"], "predicateKind": "verb", "pic": { "theme": "zoo animals", "noun": "lion" }, "picOpened": true, "signedExclusive": true },
+        { "id": "chickens-zaad", "noun": "chicken", "form": "pl", "text": "De {gap} pikken zaad in de tuin.", "clones": null, "fits": ["chicken", "rooster", "chick", "turkey"], "predicateKind": "verb", "pic": { "theme": "farm animals", "noun": "chicken" }, "picOpened": true, "signedExclusive": true },
+        { "id": "balls-heuvel", "noun": "ball", "form": "pl", "text": "Drie {gap} rollen van de heuvel.", "clones": 3, "fits": ["ball"], "predicateKind": "verb", "pic": { "theme": "toys", "noun": "ball" }, "picOpened": true, "signedExclusive": true }
+      ],
+      "stories": [
+        { "id": "boerderij-ochtend", "nouns": ["rooster", "cow", "tractor"], "forms": ["sg", "sg", "sg"],
+          "text": ["'s Ochtends kraait de {gap}.", "Daarna melkt {name} de {gap}.", "Dan rijdt {name} met de {gap} naar het land."],
+          "fits": [["rooster"], ["cow", "goat"], ["tractor"]],
+          "pics": [{ "theme": "farm animals", "noun": "rooster" }, { "theme": "farm animals", "noun": "cow" }, { "theme": "vehicles", "noun": "tractor" }], "picOpened": true, "signedExclusive": true },
+        { "id": "vijver-dag", "nouns": ["swan", "turtle", "dog"], "forms": ["sg", "sg", "sg"],
+          "text": ["De {gap} zwemt rustig op de vijver.", "De {gap} slaapt op een steen in de zon.", "Dan blaft de {gap} heel hard."],
+          "fits": [["swan"], ["turtle"], ["dog"]],
+          "pics": [{ "theme": "Things That Fly", "noun": "swan" }, { "theme": "animals", "noun": "turtle" }, { "theme": "animals", "noun": "dog" }], "picOpened": true, "signedExclusive": true },
+        { "id": "dierentuin", "nouns": ["elephant", "giraffe", "monkey"], "forms": ["sg", "sg", "sg"],
+          "text": ["In de dierentuin spuit de {gap} water.", "De {gap} eet blaadjes uit een hoge boom.", "De {gap} slingert van tak naar tak."],
+          "fits": [["elephant"], ["giraffe"], ["monkey", "chimpanzee", "gorilla"]],
+          "pics": [{ "theme": "zoo animals", "noun": "elephant" }, { "theme": "zoo animals", "noun": "giraffe" }, { "theme": "zoo animals", "noun": "monkey" }], "picOpened": true, "signedExclusive": true },
+        { "id": "lucht-dag", "nouns": ["airplane", "rocket", "kite"], "forms": ["sg", "sg", "sg"],
+          "text": ["Het {gap} vliegt boven de wolken.", "De {gap} schiet omhoog de ruimte in.", "{name} laat de {gap} op de heuvel los."],
+          "fits": [["airplane"], ["rocket"], ["kite"]],
+          "pics": [{ "theme": "vehicles", "noun": "airplane" }, { "theme": "vehicles", "noun": "rocket" }, { "theme": "toys", "noun": "kite" }], "picOpened": true, "signedExclusive": true },
+        { "id": "strand-dag", "nouns": ["dolphin", "seagull", "sailboat"], "forms": ["sg", "sg", "sg"],
+          "text": ["De {gap} springt uit de golven.", "De {gap} krijst boven het zand.", "De {gap} vaart weg met de wind."],
+          "fits": [["dolphin", "whale"], ["seagull"], ["sailboat", "boat"]],
+          "pics": [{ "theme": "beach", "noun": "dolphin" }, { "theme": "beach", "noun": "seagull" }, { "theme": "beach", "noun": "sailboat" }], "picOpened": true, "signedExclusive": true },
+        { "id": "bos-nacht", "nouns": ["owl", "fox", "rabbit"], "forms": ["sg", "sg", "sg"],
+          "text": ["'s Nachts roept de {gap} in de eik.", "De {gap} sluipt uit zijn hol.", "Het {gap} knabbelt aan een wortel in de tuin."],
+          "fits": [["owl"], ["fox", "wolf"], ["rabbit"]],
+          "pics": [{ "theme": "forest creatures", "noun": "owl" }, { "theme": "forest creatures", "noun": "fox" }, { "theme": "forest creatures", "noun": "rabbit" }], "picOpened": true, "signedExclusive": true }
+      ],
+      "strings": {
+        "base": { "title": "Zinnen aanvullen", "instruction": "Kijk naar het plaatje. Zoek het woord dat in de zin past in het kader en schrijf het in het vakje." },
+        "letters": { "title": "Zinnen aanvullen met letterhokjes", "instruction": "Kijk naar het plaatje. Schrijf het woord dat mist in de hokjes, een letter in elk hokje." },
+        "choice": { "title": "Zinnen aanvullen: kies het juiste woord", "instruction": "Kijk naar het plaatje en lees de zin. Omcirkel het woord dat past en schrijf het in het vakje." },
+        "plural": { "title": "Zinnen aanvullen met meer dan een", "instruction": "Kijk naar de plaatjes. Er is meer dan een. Schrijf het woord voor meer dan een in het vakje." },
+        "story": { "title": "Een verhaaltje aanvullen", "instruction": "Lees het hele verhaaltje. De drie plaatjes laten de woorden zien die missen. Schrijf elk woord in zijn vakje." },
+        "match": { "title": "Zin bij het plaatje", "instruction": "Lees elke zin. Welk plaatje past in de lege plek? Trek een lijn van de zin naar dat plaatje." }
+      },
+      "refuse": { "plural": false }
+    },
+
+    "odd-and-even": {
+      "chips": { "odd": "oneven", "even": "even" },
+      "houseOrder": ["even", "odd"],
+      "rule": "Even getallen eindigen op 0, 2, 4, 6 of 8. Oneven getallen eindigen op 1, 3, 5, 7 of 9.",
+      "leftover": "over",
+      "pairs": "paren",
+      "placeHeads": ["T", "E"],
+      "nameMaxGraphemes": 6,
+      "strings": {
+        "base": { "title": "Even en oneven getallen: het even huis en het oneven huis", "instruction": "Schrijf elk getal in het huis waar het hoort. Drie getallen wonen er al en laten hun paren zien." },
+        "proof": { "title": "Even of oneven? Schrijf twee gelijke delen", "instruction": "Omcirkel de stippen twee aan twee. Schrijf het getal daarna als twee gelijke delen en zet wat overblijft in het kleine vakje." },
+        "share": { "title": "Kunnen twee vrienden eerlijk delen?", "instruction": "Verdeel de plaatjes om de beurt tussen de twee vrienden. Schrijf hoeveel elk kind krijgt en wat er overblijft. Omcirkel daarna even of oneven." },
+        "ones": { "title": "Even en oneven getallen tot 100: kijk naar de eenheden", "instruction": "Lees de regel bovenaan. Kijk alleen naar het vakje van de eenheden en zet een vinkje onder even of oneven." },
+        "sums": { "title": "Even of oneven som? Beslis zonder te rekenen", "instruction": "Niet optellen. Kijk naar het onderstreepte cijfer van de eenheden, gebruik de tabel en zet een vinkje bij even of oneven." },
+        "count": { "title": "Even of oneven? Tel de plaatjes in paren", "instruction": "Tel de plaatjes en omcirkel ze twee aan twee. Schrijf hoeveel paren je hebt gemaakt en omcirkel daarna even of oneven." }
+      },
+      "refuse": {},
+      "strand": "Getallen (SLO kerndoelen)"
+    },
+
+    "pronouns": {
+      "people": [
+        { "key": "architect", "pic": { "theme": "occupations", "noun": "architect" }, "depicted": "m", "minPx": 44, "picOpened": true },
+        { "key": "author", "pic": { "theme": "occupations", "noun": "author" }, "depicted": "m", "minPx": 44, "picOpened": true },
+        { "key": "barber", "pic": { "theme": "occupations", "noun": "barber" }, "depicted": "m", "minPx": 44, "picOpened": true },
+        { "key": "baker", "pic": { "theme": "occupations", "noun": "baker" }, "depicted": "m", "minPx": 44, "picOpened": true },
+        { "key": "detective", "pic": { "theme": "occupations", "noun": "detective" }, "depicted": "m", "minPx": 44, "picOpened": true },
+        { "key": "doctor", "pic": { "theme": "occupations", "noun": "doctor" }, "depicted": "m", "minPx": 44, "picOpened": true },
+        { "key": "judge", "pic": { "theme": "occupations", "noun": "judge" }, "depicted": "m", "minPx": 44, "picOpened": true },
+        { "key": "musician", "pic": { "theme": "occupations", "noun": "musician" }, "depicted": "m", "minPx": 44, "picOpened": true },
+        { "key": "pharmacist", "pic": { "theme": "occupations", "noun": "pharmacist" }, "depicted": "m", "minPx": 44, "picOpened": true },
+        { "key": "photographer", "pic": { "theme": "occupations", "noun": "photographer" }, "depicted": "m", "minPx": 44, "picOpened": true },
+        { "key": "singer", "pic": { "theme": "occupations", "noun": "singer" }, "depicted": "m", "minPx": 44, "picOpened": true },
+        { "key": "police_officer", "pic": { "theme": "occupations", "noun": "police_officer" }, "depicted": "m", "minPx": 44, "picOpened": true },
+        { "key": "coach", "pic": { "theme": "occupations", "noun": "coach" }, "depicted": "m", "minPx": 44, "picOpened": true },
+        { "key": "farmer", "pic": { "theme": "occupations", "noun": "farmer" }, "depicted": "m", "minPx": 44, "picOpened": true },
+        { "key": "janitor", "pic": { "theme": "occupations", "noun": "janitor" }, "depicted": "m", "minPx": 44, "picOpened": true },
+        { "key": "student", "pic": { "theme": "classroom", "noun": "student" }, "depicted": "m", "minPx": 44, "picOpened": true },
+        { "key": "carpenter", "pic": { "theme": "occupations", "noun": "carpenter" }, "depicted": "m", "minPx": 56, "picOpened": true },
+        { "key": "chef", "pic": { "theme": "occupations", "noun": "chef" }, "depicted": "m", "minPx": 56, "picOpened": true },
+        { "key": "gardener", "pic": { "theme": "occupations", "noun": "gardener" }, "depicted": "m", "minPx": 56, "picOpened": true },
+        { "key": "construction_worker", "pic": { "theme": "occupations", "noun": "construction_worker" }, "depicted": "m", "minPx": 56, "picOpened": true },
+        { "key": "librarian", "pic": { "theme": "occupations", "noun": "librarian" }, "depicted": "f", "minPx": 44, "picOpened": true },
+        { "key": "teacher", "pic": { "theme": "occupations", "noun": "teacher" }, "depicted": "f", "minPx": 44, "picOpened": true },
+        { "key": "waitress", "pic": { "theme": "occupations", "noun": "waitress" }, "depicted": "f", "minPx": 44, "picOpened": true },
+        { "key": "flight_attendant", "pic": { "theme": "occupations", "noun": "flight_attendant" }, "depicted": "f", "minPx": 44, "picOpened": true },
+        { "key": "mail_carrier_2", "pic": { "theme": "occupations", "noun": "mail_carrier_2" }, "depicted": "f", "minPx": 44, "picOpened": true },
+        { "key": "athlete", "pic": { "theme": "occupations", "noun": "athlete" }, "depicted": "f", "minPx": 44, "picOpened": true },
+        { "key": "ballerina", "pic": { "theme": "occupations", "noun": "ballerina" }, "depicted": "f", "minPx": 44, "picOpened": true },
+        { "key": "girl", "pic": { "theme": "toys", "noun": "girl" }, "depicted": "f", "minPx": 44, "picOpened": true },
+        { "key": "cashier", "pic": { "theme": "occupations", "noun": "cashier" }, "depicted": "f", "minPx": 56, "picOpened": true },
+        { "key": "florist", "pic": { "theme": "occupations", "noun": "florist" }, "depicted": "f", "minPx": 56, "picOpened": true },
+        { "key": "nurse", "pic": { "theme": "occupations", "noun": "nurse" }, "depicted": "f", "minPx": 56, "picOpened": true },
+        { "key": "tailor", "pic": { "theme": "occupations", "noun": "tailor" }, "depicted": "f", "minPx": 56, "picOpened": true }
+      ],
+      "names": [
+        { "name": "Emma", "gender": "f" }, { "name": "Daan", "gender": "m" }, { "name": "Mia", "gender": "f" }, { "name": "Sem", "gender": "m" },
+        { "name": "Julia", "gender": "f" }, { "name": "Finn", "gender": "m" }, { "name": "Tess", "gender": "f" }, { "name": "Luuk", "gender": "m" },
+        { "name": "Lotte", "gender": "f" }, { "name": "Bram", "gender": "m" }, { "name": "Sanne", "gender": "f" }, { "name": "Noud", "gender": "m" }
+      ],
+      "and": "en",
+      "andBefore": null,
+      "chips": ["hij", "zij", "het"],
+      "initial": ["Hij", "Zij", "Het"],
+      "map": {
+        "base": { "m1": 0, "f1": 1 },
+        "replace": { "m1": 0, "f1": 1, "mp": 1, "fp": 1, "xp": 1 },
+        "anaphora": { "m1": 0, "f1": 1 },
+        "sort": { "m1": 0, "f1": 1 },
+        "rewrite": { "m1": 0, "f1": 1, "mp": 1, "fp": 1, "xp": 1 }
+      },
+      "objectMap": { "d": 0, "h": 2 },
+      "objects": [
+        { "key": "airplane", "pic": { "theme": "vehicles", "noun": "airplane" }, "picOpened": true },
+        { "key": "ship", "pic": { "theme": "vehicles", "noun": "ship" }, "picOpened": true },
+        { "key": "van", "pic": { "theme": "vehicles", "noun": "van" }, "picOpened": true },
+        { "key": "rabbit", "pic": { "theme": "animals", "noun": "rabbit" }, "picOpened": true },
+        { "key": "sheep", "pic": { "theme": "farm animals", "noun": "sheep" }, "picOpened": true },
+        { "key": "pig", "pic": { "theme": "farm animals", "noun": "pig" }, "picOpened": true },
+        { "key": "ball", "pic": { "theme": "toys", "noun": "ball" }, "picOpened": true },
+        { "key": "car", "pic": { "theme": "toys", "noun": "car" }, "picOpened": true },
+        { "key": "bicycle", "pic": { "theme": "toys", "noun": "bicycle" }, "picOpened": true },
+        { "key": "apple", "pic": { "theme": "fruits", "noun": "apple" }, "picOpened": true },
+        { "key": "banana", "pic": { "theme": "fruits", "noun": "banana" }, "picOpened": true },
+        { "key": "kite", "pic": { "theme": "toys", "noun": "kite" }, "picOpened": true }
+      ],
+      "frames": [
+        { "id": "read-book", "sg": "{subj} leest een boek.", "pl": "{subj} lezen een boek." },
+        { "id": "play-ball", "sg": "{subj} speelt met een bal.", "pl": "{subj} spelen met een bal." },
+        { "id": "eat-apple", "sg": "{subj} eet een appel.", "pl": "{subj} eten een appel." },
+        { "id": "ride-bike", "sg": "{subj} fietst naar school.", "pl": "{subj} fietsen naar school." },
+        { "id": "draw-cat", "sg": "{subj} tekent een kat.", "pl": "{subj} tekenen een kat." },
+        { "id": "sing-song", "sg": "{subj} zingt een liedje.", "pl": "{subj} zingen een liedje." },
+        { "id": "jump-rope", "sg": "{subj} springt touwtje.", "pl": "{subj} springen touwtje." },
+        { "id": "feed-dog", "sg": "{subj} voert de hond.", "pl": "{subj} voeren de hond." },
+        { "id": "pick-flower", "sg": "{subj} plukt een bloem.", "pl": "{subj} plukken een bloem." },
+        { "id": "build-tower", "sg": "{subj} bouwt een toren.", "pl": "{subj} bouwen een toren." },
+        { "id": "go-park", "sg": "{subj} gaat naar de speeltuin.", "pl": "{subj} gaan naar de speeltuin." },
+        { "id": "drink-milk", "sg": "{subj} drinkt melk.", "pl": "{subj} drinken melk." }
+      ],
+      "anaphora": [
+        { "id": "park", "intro": "{a} en {b} zijn in het park.", "s": [{ "text": "{P} heeft een bal.", "key": "sg" }, { "text": "{P} heeft een vlieger.", "key": "sg" }], "contentNeutral": true },
+        { "id": "school", "intro": "{a} en {b} zijn op school.", "s": [{ "text": "{P} leest een boek.", "key": "sg" }, { "text": "{P} tekent een huis.", "key": "sg" }], "contentNeutral": true },
+        { "id": "thuis", "intro": "{a} en {b} zijn thuis.", "s": [{ "text": "{P} eet een appel.", "key": "sg" }, { "text": "{P} drinkt melk.", "key": "sg" }], "contentNeutral": true },
+        { "id": "strand", "intro": "{a} en {b} zijn op het strand.", "s": [{ "text": "{P} heeft een emmer.", "key": "sg" }, { "text": "{P} heeft een schelp.", "key": "sg" }], "contentNeutral": true },
+        { "id": "tuin", "intro": "{a} en {b} zijn in de tuin.", "s": [{ "text": "{P} plukt een bloem.", "key": "sg" }, { "text": "{P} geeft de plant water.", "key": "sg" }], "contentNeutral": true },
+        { "id": "keuken", "intro": "{a} en {b} zijn in de keuken.", "s": [{ "text": "{P} bakt een taart.", "key": "sg" }, { "text": "{P} maakt een broodje.", "key": "sg" }], "contentNeutral": true },
+        { "id": "bus", "intro": "{a} en {b} zitten in de bus.", "s": [{ "text": "{P} heeft een rode tas.", "key": "sg" }, { "text": "{P} heeft een blauwe tas.", "key": "sg" }], "contentNeutral": true },
+        { "id": "dierentuin", "intro": "{a} en {b} zijn in de dierentuin.", "s": [{ "text": "{P} ziet een leeuw.", "key": "sg" }, { "text": "{P} ziet een aap.", "key": "sg" }], "contentNeutral": true }
+      ],
+      "possessive": null,
+      "refuse": { "possessive": true },
+      "strings": {
+        "base": { "title": "Hij, zij of het: persoonlijke voornaamwoorden", "instruction": "Kijk naar het plaatje en lees het woord eronder. Omcirkel het woord dat we in plaats daarvan zeggen." },
+        "replace": { "title": "Vervang de naam door een voornaamwoord", "instruction": "Lees de zin. Schrijf het woord uit het kader dat in de tweede zin de naam vervangt in het vakje.", "bankWord": "kader" },
+        "anaphora": { "title": "Wie wordt bedoeld? Voornaamwoorden in de zin", "instruction": "Lees de zinnen. Trek een lijn van elk woord in het vak naar de naam waarvoor het staat." },
+        "sort": { "title": "Namen sorteren: hij, zij of het", "instruction": "Lees elke kaart. Schrijf het woord van de kaart onder het woord dat we ervoor zeggen." },
+        "rewrite": { "title": "Schrijf de zin opnieuw met een voornaamwoord", "instruction": "Lees de zin. Schrijf hem opnieuw op de lijnen, maar zet een voornaamwoord in plaats van de naam." }
+      }
+    },
+
+    "question-words": {
+      "qwords": { "who": "Wie", "what": "Wat", "where": "Waar", "when": "Wanneer", "howmany": "Hoeveel" },
+      "starters": ["Wie", "Wat", "Waar", "Wanneer", "Waarom", "Hoe"],
+      "bins": { "who": "Wie?", "what": "Wat?", "where": "Waar?" },
+      "qPrefix": "",
+      "sortThingForm": "unique",
+      "genderFilter": {},
+      "excludeThings": [],
+      "chipWidths": { "Wie": 61.2, "Wat": 63.5, "Waar": 74.4, "Wanneer": 108.4, "Hoeveel": 101.4 },
+      "frames": [
+        { "id": "see-thing", "kind": "thing", "text": "{name} ziet {thing}.", "q": { "who": "Wie ziet {thing}?", "what": "Wat ziet {name}?" }, "signed": true },
+        { "id": "draw-thing", "kind": "thing", "text": "{name} tekent {thing}.", "q": { "who": "Wie tekent {thing}?", "what": "Wat tekent {name}?" }, "signed": true },
+        { "id": "like-thing", "kind": "thing", "text": "{name} vindt {thing} leuk.", "q": { "who": "Wie vindt {thing} leuk?", "what": "Wat vindt {name} leuk?" }, "signed": true },
+        { "id": "be-place", "kind": "place", "text": "{name} is {place}.", "q": { "who": "Wie is {place}?", "where": "Waar is {name}?" }, "signed": true },
+        { "id": "play-place", "kind": "place", "text": "{name} speelt {place}.", "q": { "who": "Wie speelt {place}?", "where": "Waar speelt {name}?" }, "signed": true },
+        { "id": "read-place", "kind": "place", "text": "{name} leest {place}.", "q": { "who": "Wie leest {place}?", "where": "Waar leest {name}?" }, "signed": true },
+        { "id": "play-time", "kind": "time", "text": "{name} speelt {time}.", "q": { "who": "Wie speelt {time}?", "when": "Wanneer speelt {name}?" }, "signed": true },
+        { "id": "eat-time", "kind": "time", "text": "{name} eet {time}.", "q": { "who": "Wie eet {time}?", "when": "Wanneer eet {name}?" }, "signed": true },
+        { "id": "sleep-time", "kind": "time", "text": "{name} slaapt {time}.", "q": { "who": "Wie slaapt {time}?", "when": "Wanneer slaapt {name}?" }, "signed": true },
+        { "id": "see-count", "kind": "count", "text": "{name} ziet {n} {pl}.", "q": { "who": "Wie ziet {n} {pl}?", "howmany": "Hoeveel {pl} ziet {name}?" }, "signed": true },
+        { "id": "draw-count", "kind": "count", "text": "{name} tekent {n} {pl}.", "q": { "who": "Wie tekent {n} {pl}?", "howmany": "Hoeveel {pl} tekent {name}?" }, "signed": true },
+        { "id": "find-count", "kind": "count", "text": "{name} vindt {n} {pl}.", "q": { "who": "Wie vindt {n} {pl}?", "howmany": "Hoeveel {pl} vindt {name}?" }, "signed": true }
+      ],
+      "places": [
+        { "key": "house", "pic": { "theme": "miscellaneous", "noun": "house" }, "text": "thuis", "picOpened": true },
+        { "key": "garden", "pic": { "theme": "spring", "noun": "garden" }, "text": "in de tuin", "picOpened": true },
+        { "key": "beach", "pic": { "theme": "summer", "noun": "beach" }, "text": "op het strand", "picOpened": true },
+        { "key": "tent", "pic": { "theme": "camping", "noun": "tent" }, "text": "in de tent", "picOpened": true },
+        { "key": "forest", "pic": { "theme": "camping", "noun": "forest" }, "text": "in het bos", "picOpened": true },
+        { "key": "lake", "pic": { "theme": "camping", "noun": "lake" }, "text": "bij het meer", "picOpened": true },
+        { "key": "river", "pic": { "theme": "camping", "noun": "river" }, "text": "bij de rivier", "picOpened": true },
+        { "key": "mountain", "pic": { "theme": "camping", "noun": "mountain" }, "text": "op de berg", "picOpened": true },
+        { "key": "pool", "pic": { "theme": "summer", "noun": "pool" }, "text": "in het zwembad", "picOpened": true },
+        { "key": "kitchen", "pic": { "theme": "around the house", "noun": "kitchen" }, "text": "in de keuken", "picOpened": true },
+        { "key": "garage", "pic": { "theme": "around the house", "noun": "garage" }, "text": "in de garage", "picOpened": true },
+        { "key": "bed", "pic": { "theme": "around the house", "noun": "bed" }, "text": "in bed", "picOpened": true },
+        { "key": "sofa", "pic": { "theme": "around the house", "noun": "sofa" }, "text": "op de bank", "picOpened": true },
+        { "key": "playground", "pic": { "theme": "activities", "noun": "playground" }, "text": "in de speeltuin", "picOpened": true },
+        { "key": "cabin", "pic": { "theme": "camping", "noun": "cabin" }, "text": "in de hut", "picOpened": true }
+      ],
+      "twins": [["lake", "river"], ["house", "cabin"]],
+      "times": [
+        { "text": "om acht uur", "h": 8 },
+        { "text": "om drie uur", "h": 3 },
+        { "text": "om zes uur", "h": 6 },
+        { "text": "om negen uur", "h": 9 },
+        { "text": "om twee uur", "h": 2 },
+        { "text": "om zeven uur", "h": 7 }
+      ],
+      "thingThemes": ["animals", "fruits", "vehicles", "toys", "zoo animals", "farm animals"],
+      "numbers": [2, 3, 4, 5],
+      "faces": {
+        "base": { "kinds": ["who", "what", "where"] },
+        "match": { "kinds": ["who", "what", "where", "when", "howmany"] },
+        "fill": { "kinds": ["who", "what", "where", "when", "howmany"] },
+        "sort": { "kinds": ["who", "what", "where"] },
+        "write": { "kinds": ["who", "what", "where", "when", "howmany"] },
+        "ask": { "kinds": ["who", "what", "where", "when", "why", "how"] }
+      },
+      "strings": {
+        "base": { "title": "Vraagwoorden: wie, wat, waar", "instruction": "Lees de zin. Kijk naar de gemarkeerde woorden. Omcirkel het vraagwoord dat daarnaar vraagt." },
+        "match": { "title": "Zoek het antwoord bij de vraag", "instruction": "Lees elke vraag links. Trek een lijn naar het antwoord rechts dat erbij past." },
+        "fill": { "title": "Vul het vraagwoord in", "instruction": "Lees het antwoord en zoek de gemarkeerde woorden. Schrijf het vraagwoord uit het kader in het hokje.", "bankWord": "kader", "boxWord": "hokje" },
+        "sort": { "title": "Antwoorden sorteren: wie, wat of waar", "instruction": "Lees elk kaartje. Schrijf het in de bak onder de vraag die het beantwoordt." },
+        "write": { "title": "Vraagzinnen maken", "instruction": "Lees het antwoord. Kijk naar de gemarkeerde woorden. Schrijf op de lijn de vraag die daarnaar vraagt." },
+        "ask": { "title": "Vraag iets over de plaat: waarom en hoe", "instruction": "Kijk naar de plaat. Maak elke vraag af. Begin met het woord dat al op de lijn staat.", "pictureWord": "plaat" }
+      }
+    },
+
+    "rounding": {
+      "up": { "10": "naar boven", "100": "naar boven" },
+      "down": { "10": "naar beneden", "100": "naar beneden" },
+      "heads": { "10": "tiental", "100": "honderdtal" },
+      "relation": "approx",
+      "strings": {
+        "base": { "title": "Afronden op tientallen: schrijf het tiental", "instruction": "Rond elk getal af op het tiental en schrijf het in het vakje. Is het laatste cijfer 5 of meer, rond dan naar boven." },
+        "sort": { "title": "Naar boven of naar beneden? Sorteer de getallen", "instruction": "Gaat elk getal naar boven of naar beneden op het tiental? Schrijf het in de juiste bak." },
+        "hundred": { "title": "Afronden op honderdtallen: kijk naar het cijfer van de tientallen", "instruction": "Rond elk getal af op het honderdtal en schrijf het in het vakje. Kijk naar het cijfer van de tientallen." },
+        "estimate": { "title": "Eerst afronden, dan de som schatten", "instruction": "Rond beide getallen af op het tiental en schrijf ze in de vakjes. Tel daarna de afgeronde getallen op." },
+        "inverse": { "title": "Welke getallen worden 50?", "instruction": "Omcirkel elk getal dat op het tiental bovenaan uitkomt. Kijk naar het laatste cijfer van elk getal." },
+        "both": { "title": "Afronden op tientallen en honderdtallen", "instruction": "Rond elk getal twee keer af: op het tiental in het eerste vakje en op het honderdtal in het tweede." }
+      },
+      "refuse": [],
+      "strand": "Getallen (SLO kerndoelen)"
+    }
+  },
+
+  "enAudit": [
+    "K-357 / K-366: de Engelse instructie zegt 'when it is empty or finished', maar de globale bank bevat een PET-waterfles en een glazen melkfles die in Nederland met statiegeld teruggaan; een nl-blok moet ze uitsluiten, en de en-tekst belooft een sortering die de en-bank zelf niet waarmaakt.",
+    "K-357: de en-bank weigert K-367 terecht (geen nationale kleurconventie), maar tools/b4var-rows/recycling.js houdt wél een en-titel voor K-367 aan, zodat i18n/build-en.js een string bouwt die geen en-wave mag gebruiken; de weigering en de rows-module spreken elkaar tegen.",
+    "K-355 G1-360: de en-titel 'Sense Organs: Write the Sense Word' is de enige face-titel die de basistitel 'Five Senses' NIET herhaalt; de rest van de familie gebruikt 'Five Senses: ...'. Dat is inconsistent en kost de face de familieherkenning in de SERP.",
+    "K-355 G1-361: de en-titel 'Five Senses: I Can Hear ...' belooft alleen horen, terwijl de instructie vijf zinnen over alle vijf zintuigen vraagt; de titel beschrijft de bladzijde niet.",
+    "K-354 K-360 factLabels.hair: 'How much hair?' hoort bij een telopdracht met een getalvakje, maar 'how much' vraagt om een niet-telbaar antwoord; het kind kan er geen getal in schrijven. Dit is het enige label van de zestien dat geen telbaar antwoord heeft.",
+    "G1-350 sailboat-lake: fits is ['sailboat','boat','ship','yacht'] terwijl de zin 'The {gap} sails across the lake' alleen voor een zeilboot exclusief is; 'boat' en 'ship' varen ook over een meer, dus de exclusiviteit rust op de afbeelding, niet op het predicaat.",
+    "G1-350 stories 'pond-day': de derde zin 'Then a {gap} barks and wags its tail' gebruikt het onbepaalde lidwoord 'a' terwijl de twee andere zinnen 'The' gebruiken; dat maakt de drie lege plekken ongelijkvormig zonder dat de inhoud daarom vraagt.",
+    "G1-351: de en base-instructie is 138 tekens en valt daarmee buiten het gemeten beschrijvingsvenster 39-64 uit _records/instruction-window.en.txt; hetzelfde geldt voor G1-369 (145) en G3-386 (116).",
+    "G1-352: de en-frames zijn present simple 3e persoon ('reads' / 'read'), maar 'jump rope' en 'go to the park' geven in het meervoud geen zichtbaar werkwoordsverschil in de spreektaal van een zesjarige; het getal leunt in die twee frames volledig op de -s.",
+    "G1-353: de en base-titel 'Question Words: Who, What, Where' noemt drie vraagwoorden terwijl de faces match / fill / write er vijf tonen; alleen de basis is gedekt, maar een leerkracht die de familie op de titel beoordeelt mist When en How many.",
+    "G2-346 inverse: de en-titel 'Which Numbers Round to 50?' noemt 50 als doel, maar de instructie zegt 'the ten shown at the top' zonder het getal te herhalen; als het doel per wave verschuift klopt de titel niet meer met de bladzijde.",
+    "K-353 K-359: de en-titel 'Tangram Puzzles: Count the Triangles and Squares' laat geen beschrijvingsvenster open (_records/instruction-window.en.txt markeert hem als IMPOSSIBLE); de en-bron heeft hier zelf een titel nodig die korter is."
+  ]
+}

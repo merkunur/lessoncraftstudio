@@ -1,0 +1,46 @@
+{
+  "chips": {
+    "odd": "oneven",
+    "even": "even"
+  },
+  "houseOrder": [
+    "even",
+    "odd"
+  ],
+  "rule": "Even getallen eindigen op 0, 2, 4, 6 of 8. Oneven getallen eindigen op 1, 3, 5, 7 of 9.",
+  "leftover": "over",
+  "pairs": "paren",
+  "placeHeads": [
+    "T",
+    "E"
+  ],
+  "nameMaxGraphemes": 6,
+  "strings": {
+    "base": {
+      "title": "Even en oneven getallen: het even huis en het oneven huis",
+      "instruction": "Schrijf elk getal in het huis waar het hoort. Drie getallen wonen er al en laten hun paren zien."
+    },
+    "proof": {
+      "title": "Even of oneven? Schrijf twee gelijke delen",
+      "instruction": "Omcirkel de stippen twee aan twee. Schrijf het getal daarna als twee gelijke delen en zet wat overblijft in het kleine vakje."
+    },
+    "share": {
+      "title": "Kunnen twee vrienden eerlijk delen?",
+      "instruction": "Verdeel de plaatjes om de beurt tussen de twee vrienden. Schrijf hoeveel elk kind krijgt en wat er overblijft. Omcirkel daarna even of oneven."
+    },
+    "ones": {
+      "title": "Even en oneven getallen tot 100: kijk naar de eenheden",
+      "instruction": "Lees de regel bovenaan. Kijk alleen naar het vakje van de eenheden en zet een vinkje onder even of oneven."
+    },
+    "sums": {
+      "title": "Even of oneven som? Beslis zonder te rekenen",
+      "instruction": "Niet optellen. Kijk naar het onderstreepte cijfer van de eenheden, gebruik de tabel en zet een vinkje bij even of oneven."
+    },
+    "count": {
+      "title": "Even of oneven? Tel de plaatjes in paren",
+      "instruction": "Tel de plaatjes en omcirkel ze twee aan twee. Schrijf hoeveel paren je hebt gemaakt en omcirkel daarna even of oneven."
+    }
+  },
+  "refuse": {},
+  "strand": "Getallen (SLO kerndoelen)"
+}

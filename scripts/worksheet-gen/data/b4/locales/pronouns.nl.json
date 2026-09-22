@@ -1,0 +1,727 @@
+{
+  "people": [
+    {
+      "key": "architect",
+      "pic": {
+        "theme": "occupations",
+        "noun": "architect"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "author",
+      "pic": {
+        "theme": "occupations",
+        "noun": "author"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "barber",
+      "pic": {
+        "theme": "occupations",
+        "noun": "barber"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "baker",
+      "pic": {
+        "theme": "occupations",
+        "noun": "baker"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "detective",
+      "pic": {
+        "theme": "occupations",
+        "noun": "detective"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "doctor",
+      "pic": {
+        "theme": "occupations",
+        "noun": "doctor"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "judge",
+      "pic": {
+        "theme": "occupations",
+        "noun": "judge"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "musician",
+      "pic": {
+        "theme": "occupations",
+        "noun": "musician"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "pharmacist",
+      "pic": {
+        "theme": "occupations",
+        "noun": "pharmacist"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "photographer",
+      "pic": {
+        "theme": "occupations",
+        "noun": "photographer"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "singer",
+      "pic": {
+        "theme": "occupations",
+        "noun": "singer"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "police_officer",
+      "pic": {
+        "theme": "occupations",
+        "noun": "police_officer"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "coach",
+      "pic": {
+        "theme": "occupations",
+        "noun": "coach"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "farmer",
+      "pic": {
+        "theme": "occupations",
+        "noun": "farmer"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "janitor",
+      "pic": {
+        "theme": "occupations",
+        "noun": "janitor"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "student",
+      "pic": {
+        "theme": "classroom",
+        "noun": "student"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "carpenter",
+      "pic": {
+        "theme": "occupations",
+        "noun": "carpenter"
+      },
+      "depicted": "m",
+      "minPx": 56,
+      "picOpened": true
+    },
+    {
+      "key": "chef",
+      "pic": {
+        "theme": "occupations",
+        "noun": "chef"
+      },
+      "depicted": "m",
+      "minPx": 56,
+      "picOpened": true
+    },
+    {
+      "key": "gardener",
+      "pic": {
+        "theme": "occupations",
+        "noun": "gardener"
+      },
+      "depicted": "m",
+      "minPx": 56,
+      "picOpened": true
+    },
+    {
+      "key": "construction_worker",
+      "pic": {
+        "theme": "occupations",
+        "noun": "construction_worker"
+      },
+      "depicted": "m",
+      "minPx": 56,
+      "picOpened": true
+    },
+    {
+      "key": "librarian",
+      "pic": {
+        "theme": "occupations",
+        "noun": "librarian"
+      },
+      "depicted": "f",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "teacher",
+      "pic": {
+        "theme": "occupations",
+        "noun": "teacher"
+      },
+      "depicted": "f",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "waitress",
+      "pic": {
+        "theme": "occupations",
+        "noun": "waitress"
+      },
+      "depicted": "f",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "flight_attendant",
+      "pic": {
+        "theme": "occupations",
+        "noun": "flight_attendant"
+      },
+      "depicted": "f",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "mail_carrier_2",
+      "pic": {
+        "theme": "occupations",
+        "noun": "mail_carrier_2"
+      },
+      "depicted": "f",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "athlete",
+      "pic": {
+        "theme": "occupations",
+        "noun": "athlete"
+      },
+      "depicted": "f",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "ballerina",
+      "pic": {
+        "theme": "occupations",
+        "noun": "ballerina"
+      },
+      "depicted": "f",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "girl",
+      "pic": {
+        "theme": "toys",
+        "noun": "girl"
+      },
+      "depicted": "f",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "cashier",
+      "pic": {
+        "theme": "occupations",
+        "noun": "cashier"
+      },
+      "depicted": "f",
+      "minPx": 56,
+      "picOpened": true
+    },
+    {
+      "key": "florist",
+      "pic": {
+        "theme": "occupations",
+        "noun": "florist"
+      },
+      "depicted": "f",
+      "minPx": 56,
+      "picOpened": true
+    },
+    {
+      "key": "nurse",
+      "pic": {
+        "theme": "occupations",
+        "noun": "nurse"
+      },
+      "depicted": "f",
+      "minPx": 56,
+      "picOpened": true
+    },
+    {
+      "key": "tailor",
+      "pic": {
+        "theme": "occupations",
+        "noun": "tailor"
+      },
+      "depicted": "f",
+      "minPx": 56,
+      "picOpened": true
+    }
+  ],
+  "names": [
+    {
+      "name": "Emma",
+      "gender": "f"
+    },
+    {
+      "name": "Daan",
+      "gender": "m"
+    },
+    {
+      "name": "Mia",
+      "gender": "f"
+    },
+    {
+      "name": "Sem",
+      "gender": "m"
+    },
+    {
+      "name": "Julia",
+      "gender": "f"
+    },
+    {
+      "name": "Finn",
+      "gender": "m"
+    },
+    {
+      "name": "Tess",
+      "gender": "f"
+    },
+    {
+      "name": "Luuk",
+      "gender": "m"
+    },
+    {
+      "name": "Lotte",
+      "gender": "f"
+    },
+    {
+      "name": "Bram",
+      "gender": "m"
+    },
+    {
+      "name": "Sanne",
+      "gender": "f"
+    },
+    {
+      "name": "Noud",
+      "gender": "m"
+    }
+  ],
+  "and": "en",
+  "andBefore": null,
+  "chips": [
+    "hij",
+    "zij",
+    "het"
+  ],
+  "initial": [
+    "Hij",
+    "Zij",
+    "Het"
+  ],
+  "map": {
+    "base": {
+      "m1": 0,
+      "f1": 1
+    },
+    "replace": {
+      "m1": 0,
+      "f1": 1,
+      "mp": 1,
+      "fp": 1,
+      "xp": 1
+    },
+    "anaphora": {
+      "m1": 0,
+      "f1": 1
+    },
+    "sort": {
+      "m1": 0,
+      "f1": 1
+    },
+    "rewrite": {
+      "m1": 0,
+      "f1": 1,
+      "mp": 1,
+      "fp": 1,
+      "xp": 1
+    }
+  },
+  "objectMap": {
+    "d": 0,
+    "h": 2
+  },
+  "objects": [
+    {
+      "key": "airplane",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "airplane"
+      },
+      "picOpened": true
+    },
+    {
+      "key": "ship",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "ship"
+      },
+      "picOpened": true
+    },
+    {
+      "key": "van",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "van"
+      },
+      "picOpened": true
+    },
+    {
+      "key": "rabbit",
+      "pic": {
+        "theme": "animals",
+        "noun": "rabbit"
+      },
+      "picOpened": true
+    },
+    {
+      "key": "sheep",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "sheep"
+      },
+      "picOpened": true
+    },
+    {
+      "key": "pig",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "pig"
+      },
+      "picOpened": true
+    },
+    {
+      "key": "ball",
+      "pic": {
+        "theme": "toys",
+        "noun": "ball"
+      },
+      "picOpened": true
+    },
+    {
+      "key": "car",
+      "pic": {
+        "theme": "toys",
+        "noun": "car"
+      },
+      "picOpened": true
+    },
+    {
+      "key": "bicycle",
+      "pic": {
+        "theme": "toys",
+        "noun": "bicycle"
+      },
+      "picOpened": true
+    },
+    {
+      "key": "apple",
+      "pic": {
+        "theme": "fruits",
+        "noun": "apple"
+      },
+      "picOpened": true
+    },
+    {
+      "key": "banana",
+      "pic": {
+        "theme": "fruits",
+        "noun": "banana"
+      },
+      "picOpened": true
+    },
+    {
+      "key": "kite",
+      "pic": {
+        "theme": "toys",
+        "noun": "kite"
+      },
+      "picOpened": true
+    }
+  ],
+  "frames": [
+    {
+      "id": "read-book",
+      "sg": "{subj} leest een boek.",
+      "pl": "{subj} lezen een boek."
+    },
+    {
+      "id": "play-ball",
+      "sg": "{subj} speelt met een bal.",
+      "pl": "{subj} spelen met een bal."
+    },
+    {
+      "id": "eat-apple",
+      "sg": "{subj} eet een appel.",
+      "pl": "{subj} eten een appel."
+    },
+    {
+      "id": "ride-bike",
+      "sg": "{subj} fietst naar school.",
+      "pl": "{subj} fietsen naar school."
+    },
+    {
+      "id": "draw-cat",
+      "sg": "{subj} tekent een kat.",
+      "pl": "{subj} tekenen een kat."
+    },
+    {
+      "id": "sing-song",
+      "sg": "{subj} zingt een liedje.",
+      "pl": "{subj} zingen een liedje."
+    },
+    {
+      "id": "jump-rope",
+      "sg": "{subj} springt touwtje.",
+      "pl": "{subj} springen touwtje."
+    },
+    {
+      "id": "feed-dog",
+      "sg": "{subj} voert de hond.",
+      "pl": "{subj} voeren de hond."
+    },
+    {
+      "id": "pick-flower",
+      "sg": "{subj} plukt een bloem.",
+      "pl": "{subj} plukken een bloem."
+    },
+    {
+      "id": "build-tower",
+      "sg": "{subj} bouwt een toren.",
+      "pl": "{subj} bouwen een toren."
+    },
+    {
+      "id": "go-park",
+      "sg": "{subj} gaat naar de speeltuin.",
+      "pl": "{subj} gaan naar de speeltuin."
+    },
+    {
+      "id": "drink-milk",
+      "sg": "{subj} drinkt melk.",
+      "pl": "{subj} drinken melk."
+    }
+  ],
+  "anaphora": [
+    {
+      "id": "park",
+      "intro": "{a} en {b} zijn in het park.",
+      "s": [
+        {
+          "text": "{P} heeft een bal.",
+          "key": "sg"
+        },
+        {
+          "text": "{P} heeft een vlieger.",
+          "key": "sg"
+        }
+      ],
+      "contentNeutral": true
+    },
+    {
+      "id": "school",
+      "intro": "{a} en {b} zijn op school.",
+      "s": [
+        {
+          "text": "{P} leest een boek.",
+          "key": "sg"
+        },
+        {
+          "text": "{P} tekent een huis.",
+          "key": "sg"
+        }
+      ],
+      "contentNeutral": true
+    },
+    {
+      "id": "thuis",
+      "intro": "{a} en {b} zijn thuis.",
+      "s": [
+        {
+          "text": "{P} eet een appel.",
+          "key": "sg"
+        },
+        {
+          "text": "{P} drinkt melk.",
+          "key": "sg"
+        }
+      ],
+      "contentNeutral": true
+    },
+    {
+      "id": "strand",
+      "intro": "{a} en {b} zijn op het strand.",
+      "s": [
+        {
+          "text": "{P} heeft een emmer.",
+          "key": "sg"
+        },
+        {
+          "text": "{P} heeft een schelp.",
+          "key": "sg"
+        }
+      ],
+      "contentNeutral": true
+    },
+    {
+      "id": "tuin",
+      "intro": "{a} en {b} zijn in de tuin.",
+      "s": [
+        {
+          "text": "{P} plukt een bloem.",
+          "key": "sg"
+        },
+        {
+          "text": "{P} geeft de plant water.",
+          "key": "sg"
+        }
+      ],
+      "contentNeutral": true
+    },
+    {
+      "id": "keuken",
+      "intro": "{a} en {b} zijn in de keuken.",
+      "s": [
+        {
+          "text": "{P} bakt een taart.",
+          "key": "sg"
+        },
+        {
+          "text": "{P} maakt een broodje.",
+          "key": "sg"
+        }
+      ],
+      "contentNeutral": true
+    },
+    {
+      "id": "bus",
+      "intro": "{a} en {b} zitten in de bus.",
+      "s": [
+        {
+          "text": "{P} heeft een rode tas.",
+          "key": "sg"
+        },
+        {
+          "text": "{P} heeft een blauwe tas.",
+          "key": "sg"
+        }
+      ],
+      "contentNeutral": true
+    },
+    {
+      "id": "dierentuin",
+      "intro": "{a} en {b} zijn in de dierentuin.",
+      "s": [
+        {
+          "text": "{P} ziet een leeuw.",
+          "key": "sg"
+        },
+        {
+          "text": "{P} ziet een aap.",
+          "key": "sg"
+        }
+      ],
+      "contentNeutral": true
+    }
+  ],
+  "possessive": null,
+  "refuse": {
+    "possessive": true
+  },
+  "strings": {
+    "base": {
+      "title": "Hij, zij of het: persoonlijke voornaamwoorden",
+      "instruction": "Kijk naar het plaatje en lees het woord eronder. Omcirkel het woord dat we in plaats daarvan zeggen."
+    },
+    "replace": {
+      "title": "Vervang de naam door een voornaamwoord",
+      "instruction": "Lees de zin. Schrijf het woord uit het kader dat in de tweede zin de naam vervangt in het vakje.",
+      "bankWord": "kader"
+    },
+    "anaphora": {
+      "title": "Wie wordt bedoeld? Voornaamwoorden in de zin",
+      "instruction": "Lees de zinnen. Trek een lijn van elk woord in het vak naar de naam waarvoor het staat."
+    },
+    "sort": {
+      "title": "Namen sorteren: hij, zij of het",
+      "instruction": "Lees elke kaart. Schrijf het woord van de kaart onder het woord dat we ervoor zeggen."
+    },
+    "rewrite": {
+      "title": "Schrijf de zin opnieuw met een voornaamwoord",
+      "instruction": "Lees de zin. Schrijf hem opnieuw op de lijnen, maar zet een voornaamwoord in plaats van de naam."
+    }
+  }
+}

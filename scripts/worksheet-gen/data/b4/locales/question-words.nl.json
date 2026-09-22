@@ -1,0 +1,424 @@
+{
+  "qwords": {
+    "who": "Wie",
+    "what": "Wat",
+    "where": "Waar",
+    "when": "Wanneer",
+    "howmany": "Hoeveel"
+  },
+  "starters": [
+    "Wie",
+    "Wat",
+    "Waar",
+    "Wanneer",
+    "Waarom",
+    "Hoe"
+  ],
+  "bins": {
+    "who": "Wie?",
+    "what": "Wat?",
+    "where": "Waar?"
+  },
+  "qPrefix": "",
+  "sortThingForm": "unique",
+  "genderFilter": {},
+  "excludeThings": [],
+  "chipWidths": {
+    "Wie": 61.2,
+    "Wat": 63.5,
+    "Waar": 74.4,
+    "Wanneer": 108.4,
+    "Hoeveel": 101.4
+  },
+  "frames": [
+    {
+      "id": "see-thing",
+      "kind": "thing",
+      "text": "{name} ziet {thing}.",
+      "q": {
+        "who": "Wie ziet {thing}?",
+        "what": "Wat ziet {name}?"
+      },
+      "signed": true
+    },
+    {
+      "id": "draw-thing",
+      "kind": "thing",
+      "text": "{name} tekent {thing}.",
+      "q": {
+        "who": "Wie tekent {thing}?",
+        "what": "Wat tekent {name}?"
+      },
+      "signed": true
+    },
+    {
+      "id": "like-thing",
+      "kind": "thing",
+      "text": "{name} vindt {thing} leuk.",
+      "q": {
+        "who": "Wie vindt {thing} leuk?",
+        "what": "Wat vindt {name} leuk?"
+      },
+      "signed": true
+    },
+    {
+      "id": "be-place",
+      "kind": "place",
+      "text": "{name} is {place}.",
+      "q": {
+        "who": "Wie is {place}?",
+        "where": "Waar is {name}?"
+      },
+      "signed": true
+    },
+    {
+      "id": "play-place",
+      "kind": "place",
+      "text": "{name} speelt {place}.",
+      "q": {
+        "who": "Wie speelt {place}?",
+        "where": "Waar speelt {name}?"
+      },
+      "signed": true
+    },
+    {
+      "id": "read-place",
+      "kind": "place",
+      "text": "{name} leest {place}.",
+      "q": {
+        "who": "Wie leest {place}?",
+        "where": "Waar leest {name}?"
+      },
+      "signed": true
+    },
+    {
+      "id": "play-time",
+      "kind": "time",
+      "text": "{name} speelt {time}.",
+      "q": {
+        "who": "Wie speelt {time}?",
+        "when": "Wanneer speelt {name}?"
+      },
+      "signed": true
+    },
+    {
+      "id": "eat-time",
+      "kind": "time",
+      "text": "{name} eet {time}.",
+      "q": {
+        "who": "Wie eet {time}?",
+        "when": "Wanneer eet {name}?"
+      },
+      "signed": true
+    },
+    {
+      "id": "sleep-time",
+      "kind": "time",
+      "text": "{name} slaapt {time}.",
+      "q": {
+        "who": "Wie slaapt {time}?",
+        "when": "Wanneer slaapt {name}?"
+      },
+      "signed": true
+    },
+    {
+      "id": "see-count",
+      "kind": "count",
+      "text": "{name} ziet {n} {pl}.",
+      "q": {
+        "who": "Wie ziet {n} {pl}?",
+        "howmany": "Hoeveel {pl} ziet {name}?"
+      },
+      "signed": true
+    },
+    {
+      "id": "draw-count",
+      "kind": "count",
+      "text": "{name} tekent {n} {pl}.",
+      "q": {
+        "who": "Wie tekent {n} {pl}?",
+        "howmany": "Hoeveel {pl} tekent {name}?"
+      },
+      "signed": true
+    },
+    {
+      "id": "find-count",
+      "kind": "count",
+      "text": "{name} vindt {n} {pl}.",
+      "q": {
+        "who": "Wie vindt {n} {pl}?",
+        "howmany": "Hoeveel {pl} vindt {name}?"
+      },
+      "signed": true
+    }
+  ],
+  "places": [
+    {
+      "key": "house",
+      "pic": {
+        "theme": "miscellaneous",
+        "noun": "house"
+      },
+      "text": "thuis",
+      "picOpened": true
+    },
+    {
+      "key": "garden",
+      "pic": {
+        "theme": "spring",
+        "noun": "garden"
+      },
+      "text": "in de tuin",
+      "picOpened": true
+    },
+    {
+      "key": "beach",
+      "pic": {
+        "theme": "summer",
+        "noun": "beach"
+      },
+      "text": "op het strand",
+      "picOpened": true
+    },
+    {
+      "key": "tent",
+      "pic": {
+        "theme": "camping",
+        "noun": "tent"
+      },
+      "text": "in de tent",
+      "picOpened": true
+    },
+    {
+      "key": "forest",
+      "pic": {
+        "theme": "camping",
+        "noun": "forest"
+      },
+      "text": "in het bos",
+      "picOpened": true
+    },
+    {
+      "key": "lake",
+      "pic": {
+        "theme": "camping",
+        "noun": "lake"
+      },
+      "text": "bij het meer",
+      "picOpened": true
+    },
+    {
+      "key": "river",
+      "pic": {
+        "theme": "camping",
+        "noun": "river"
+      },
+      "text": "bij de rivier",
+      "picOpened": true
+    },
+    {
+      "key": "mountain",
+      "pic": {
+        "theme": "camping",
+        "noun": "mountain"
+      },
+      "text": "op de berg",
+      "picOpened": true
+    },
+    {
+      "key": "pool",
+      "pic": {
+        "theme": "summer",
+        "noun": "pool"
+      },
+      "text": "in het zwembad",
+      "picOpened": true
+    },
+    {
+      "key": "kitchen",
+      "pic": {
+        "theme": "around the house",
+        "noun": "kitchen"
+      },
+      "text": "in de keuken",
+      "picOpened": true
+    },
+    {
+      "key": "garage",
+      "pic": {
+        "theme": "around the house",
+        "noun": "garage"
+      },
+      "text": "in de garage",
+      "picOpened": true
+    },
+    {
+      "key": "bed",
+      "pic": {
+        "theme": "around the house",
+        "noun": "bed"
+      },
+      "text": "in bed",
+      "picOpened": true
+    },
+    {
+      "key": "sofa",
+      "pic": {
+        "theme": "around the house",
+        "noun": "sofa"
+      },
+      "text": "op de bank",
+      "picOpened": true
+    },
+    {
+      "key": "playground",
+      "pic": {
+        "theme": "activities",
+        "noun": "playground"
+      },
+      "text": "in de speeltuin",
+      "picOpened": true
+    },
+    {
+      "key": "cabin",
+      "pic": {
+        "theme": "camping",
+        "noun": "cabin"
+      },
+      "text": "in de hut",
+      "picOpened": true
+    }
+  ],
+  "twins": [
+    [
+      "lake",
+      "river"
+    ],
+    [
+      "house",
+      "cabin"
+    ]
+  ],
+  "times": [
+    {
+      "text": "om acht uur",
+      "h": 8
+    },
+    {
+      "text": "om drie uur",
+      "h": 3
+    },
+    {
+      "text": "om zes uur",
+      "h": 6
+    },
+    {
+      "text": "om negen uur",
+      "h": 9
+    },
+    {
+      "text": "om twee uur",
+      "h": 2
+    },
+    {
+      "text": "om zeven uur",
+      "h": 7
+    }
+  ],
+  "thingThemes": [
+    "animals",
+    "fruits",
+    "vehicles",
+    "toys",
+    "zoo animals",
+    "farm animals"
+  ],
+  "numbers": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "faces": {
+    "base": {
+      "kinds": [
+        "who",
+        "what",
+        "where"
+      ]
+    },
+    "match": {
+      "kinds": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "howmany"
+      ]
+    },
+    "fill": {
+      "kinds": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "howmany"
+      ]
+    },
+    "sort": {
+      "kinds": [
+        "who",
+        "what",
+        "where"
+      ]
+    },
+    "write": {
+      "kinds": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "howmany"
+      ]
+    },
+    "ask": {
+      "kinds": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "why",
+        "how"
+      ]
+    }
+  },
+  "strings": {
+    "base": {
+      "title": "Vraagwoorden: wie, wat, waar",
+      "instruction": "Lees de zin. Kijk naar de gemarkeerde woorden. Omcirkel het vraagwoord dat daarnaar vraagt."
+    },
+    "match": {
+      "title": "Zoek het antwoord bij de vraag",
+      "instruction": "Lees elke vraag links. Trek een lijn naar het antwoord rechts dat erbij past."
+    },
+    "fill": {
+      "title": "Vul het vraagwoord in",
+      "instruction": "Lees het antwoord en zoek de gemarkeerde woorden. Schrijf het vraagwoord uit het kader in het hokje.",
+      "bankWord": "kader",
+      "boxWord": "hokje"
+    },
+    "sort": {
+      "title": "Antwoorden sorteren: wie, wat of waar",
+      "instruction": "Lees elk kaartje. Schrijf het in de bak onder de vraag die het beantwoordt."
+    },
+    "write": {
+      "title": "Vraagzinnen maken",
+      "instruction": "Lees het antwoord. Kijk naar de gemarkeerde woorden. Schrijf op de lijn de vraag die daarnaar vraagt."
+    },
+    "ask": {
+      "title": "Vraag iets over de plaat: waarom en hoe",
+      "instruction": "Kijk naar de plaat. Maak elke vraag af. Begin met het woord dat al op de lijn staat.",
+      "pictureWord": "plaat"
+    }
+  }
+}

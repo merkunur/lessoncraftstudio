@@ -1,0 +1,123 @@
+{
+  "partWords": {
+    "head": "hoofd",
+    "hair": "haar",
+    "eye": "oog",
+    "ear": "oor",
+    "nose": "neus",
+    "mouth": "mond",
+    "neck": "nek",
+    "shoulder": "schouder",
+    "arm": "arm",
+    "elbow": "elleboog",
+    "hand": "hand",
+    "finger": "vinger",
+    "leg": "been",
+    "knee": "knie",
+    "foot": "voet",
+    "toe": "teen"
+  },
+  "overrides": {},
+  "bankWords": {
+    "head": "het hoofd",
+    "hair": "het haar",
+    "eye": "het oog",
+    "ear": "het oor",
+    "nose": "de neus",
+    "mouth": "de mond",
+    "neck": "de nek",
+    "shoulder": "de schouder",
+    "arm": "de arm",
+    "elbow": "de elleboog",
+    "hand": "de hand",
+    "finger": "de vinger",
+    "leg": "het been",
+    "knee": "de knie",
+    "foot": "de voet",
+    "toe": "de teen"
+  },
+  "plural": {
+    "head": "hoofden",
+    "hair": "haren",
+    "eye": "ogen",
+    "ear": "oren",
+    "nose": "neuzen",
+    "mouth": "monden",
+    "neck": "nekken",
+    "shoulder": "schouders",
+    "arm": "armen",
+    "elbow": "ellebogen",
+    "hand": "handen",
+    "finger": "vingers",
+    "leg": "benen",
+    "knee": "knieën",
+    "foot": "voeten",
+    "toe": "tenen"
+  },
+  "factLabels": {
+    "head": "Hoeveel hoofden?",
+    "hair": "Hoeveel haar?",
+    "eye": "Hoeveel ogen?",
+    "ear": "Hoeveel oren?",
+    "nose": "Hoeveel neuzen?",
+    "mouth": "Hoeveel monden?",
+    "neck": "Hoeveel nekken?",
+    "shoulder": "Hoeveel schouders?",
+    "arm": "Hoeveel armen?",
+    "elbow": "Hoeveel ellebogen?",
+    "hand": "Hoeveel handen?",
+    "finger": "Hoeveel vingers?",
+    "leg": "Hoeveel benen?",
+    "knee": "Hoeveel knieën?",
+    "foot": "Hoeveel voeten?",
+    "toe": "Hoeveel tenen?",
+    "fingersOneHand": "Hoeveel vingers aan één hand?",
+    "toesOneFoot": "Hoeveel tenen aan één voet?"
+  },
+  "use": {
+    "head": "Met je hoofd denk je.",
+    "hair": "Je haar houdt je hoofd warm.",
+    "eye": "Met je ogen kijk je.",
+    "ear": "Met je oren luister je.",
+    "nose": "Met je neus ruik je.",
+    "mouth": "Met je mond eet en praat je.",
+    "neck": "Je nek draait je hoofd.",
+    "shoulder": "Op je schouders draag je een rugzak.",
+    "arm": "Met je armen geef je een knuffel.",
+    "elbow": "Je ellebogen buigen je armen.",
+    "hand": "Met je handen houd je dingen vast.",
+    "finger": "Met een vinger wijs je.",
+    "leg": "Met je benen ren je.",
+    "knee": "Je knieën buigen als je springt.",
+    "foot": "Op je voeten sta je.",
+    "toe": "Je tenen helpen je bij het evenwicht."
+  },
+  "refuseWords": {},
+  "refuse": [],
+  "strings": {
+    "K-354": {
+      "title": "Het lichaam",
+      "instruction": "Schrijf elk woord uit het kader op de lijn die naar dat lichaamsdeel wijst."
+    },
+    "K-360": {
+      "title": "Het lichaam: hoeveel heb je er?",
+      "instruction": "Hoeveel heb je er van elk? Tel aan je eigen lichaam en schrijf het getal in het vakje."
+    },
+    "K-361": {
+      "title": "Het lichaam: kleur volgens de legenda",
+      "instruction": "Lees de legenda en kleur elk lichaamsdeel in de kleur die naast zijn naam staat."
+    },
+    "G1-356": {
+      "title": "Het lichaam: schrijf het woord",
+      "instruction": "Zoek elk genummerd lichaamsdeel op de figuur en schrijf zijn naam, een letter in elk hokje."
+    },
+    "K-362": {
+      "title": "Het lichaam: wat ontbreekt?",
+      "instruction": "Bij elk lichaam ontbreekt een deel. Omcirkel het plaatje van het deel dat mist en teken het er daarna bij."
+    },
+    "K-363": {
+      "title": "Het lichaam: welke heb je twee keer?",
+      "instruction": "Omcirkel elk lichaamsdeel dat je twee keer hebt."
+    }
+  }
+}

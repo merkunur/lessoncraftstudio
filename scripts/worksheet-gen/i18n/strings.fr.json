@@ -2374,5 +2374,245 @@
   "G3-384": {
     "title": "Sauts en arrière sur la droite numérique : que reste-t-il ?",
     "instruction": "Pars du nombre marqué et dessine des sauts en arrière de même longueur tant qu'un saut entier passe. Écris le nombre de sauts et l'arrivée."
+  },
+  "K-353": {
+    "title": "Tangram à découper : 7 pièces et deux modèles",
+    "instruction": "Colorie chaque pièce comme la légende, découpe les sept pièces en suivant les traits, puis pose-les sur les deux modèles du bas."
+  },
+  "K-354": {
+    "title": "Le corps humain",
+    "instruction": "Copie chaque mot de la liste sur la ligne qui montre cette partie du corps."
+  },
+  "K-355": {
+    "title": "Les 5 sens",
+    "instruction": "Trace un trait entre chaque image et la partie du corps qui te sert à la percevoir."
+  },
+  "K-356": {
+    "title": "Le temps qu'il fait",
+    "instruction": "Trace un trait entre chaque symbole du temps et son mot."
+  },
+  "K-357": {
+    "title": "Le tri des déchets",
+    "instruction": "Chaque objet est vide ou usé. Trace un trait entre cet objet et la poubelle où il faut le jeter."
+  },
+  "G1-350": {
+    "title": "Phrases à trous",
+    "instruction": "Regarde l'image. Cherche dans la liste le mot qui complète la phrase et écris-le dans la case."
+  },
+  "G1-351": {
+    "title": "Nombres pairs et impairs jusqu'à 20",
+    "instruction": "Écris chaque nombre dans la maison qui lui convient : celle des pairs ou celle des impairs. Trois nombres y habitent déjà."
+  },
+  "G1-352": {
+    "title": "Les pronoms personnels sujets",
+    "instruction": "Regarde la personne et lis le prénom. Entoure le mot que l'on emploie à la place du prénom."
+  },
+  "G1-353": {
+    "title": "Les mots interrogatifs : qui, que, où",
+    "instruction": "Lis la phrase. Regarde les mots en couleur. Entoure le mot interrogatif qui les demande."
+  },
+  "G2-346": {
+    "title": "Arrondir à la dizaine",
+    "instruction": "Arrondis chaque nombre à la dizaine la plus proche et écris-le dans la case. Si le chiffre des unités est 5 ou davantage, arrondis au-dessus."
+  },
+  "K-358": {
+    "title": "Tangram facile : trace les traits pour 2 et 3 pièces",
+    "instruction": "Regarde les pièces au-dessus de chaque forme. Trace dans la forme les traits qui montrent où ces pièces se rejoignent."
+  },
+  "G1-354": {
+    "title": "Tangram : quatre ombres à reconstituer",
+    "instruction": "Reconstitue chaque ombre avec les sept pièces de ton tangram. Utilise les sept pièces à chaque fois."
+  },
+  "G1-355": {
+    "title": "Tangram : quelle pièce manque ?",
+    "instruction": "Il manque une pièce à chaque modèle. Entoure la pièce qui entre exactement dans l'espace vide."
+  },
+  "G2-347": {
+    "title": "Tangram : quelle solution est posée comme l'ombre ?",
+    "instruction": "Regarde chaque ombre. Entoure la solution posée exactement comme l'ombre. Celles qui sont tournées ou retournées ne comptent pas."
+  },
+  "K-359": {
+    "title": "Tangram : compte triangles et carrés",
+    "instruction": "Compte les triangles de chaque modèle et écris le nombre dans la première case. Compte ensuite les carrés pour la deuxième."
+  },
+  "K-360": {
+    "title": "Le corps humain : combien en as-tu ?",
+    "instruction": "Compte sur ton propre corps combien tu en as de chaque partie et écris le nombre dans la case."
+  },
+  "K-361": {
+    "title": "Le corps humain : colorie avec la légende",
+    "instruction": "Lis la légende et colorie chaque partie du corps avec la couleur écrite à côté de son nom."
+  },
+  "G1-356": {
+    "title": "Le corps humain : écris le nom",
+    "instruction": "Trouve sur le personnage chaque partie numérotée et écris son nom, une lettre par case."
+  },
+  "K-362": {
+    "title": "Le corps humain : que manque-t-il ?",
+    "instruction": "Il manque une partie à chaque personnage. Entoure l'image de la partie qui manque, puis dessine-la à sa place."
+  },
+  "K-363": {
+    "title": "Le corps humain : lesquelles vont par deux ?",
+    "instruction": "Entoure chaque partie du corps dont tu as deux exemplaires."
+  },
+  "G1-357": {
+    "title": "Les 5 sens : classe les images par sens",
+    "instruction": "Regarde chaque image et trace un trait de son point jusqu’à la boîte du sens qui te sert à la percevoir."
+  },
+  "G1-358": {
+    "title": "Les 5 sens : quel sens utilises-tu ?",
+    "instruction": "Quel sens utilises-tu pour chaque image ? Entoure la partie du corps qui te sert."
+  },
+  "G1-359": {
+    "title": "Les 5 sens : quelle image n'appartient pas au groupe ?",
+    "instruction": "Dans chaque rangée, trois images vont avec le même sens. Barre celle qui ne va pas avec les autres."
+  },
+  "G1-360": {
+    "title": "Les organes des sens : écris le sens",
+    "instruction": "Copie chaque mot de la liste sur la ligne, à côté de la partie du corps qui fait ce travail."
+  },
+  "G1-361": {
+    "title": "Les 5 sens : j'entends, je vois, je sens ...",
+    "instruction": "Termine chaque phrase. Écris ce que tu peux entendre, voir, sentir, goûter et toucher."
+  },
+  "G1-362": {
+    "title": "Écris le mot du temps qu'il fait",
+    "instruction": "Cherche dans la liste le mot de chaque symbole du temps et écris-le, une lettre par case."
+  },
+  "K-364": {
+    "title": "Le temps de la semaine, du lundi au dimanche",
+    "instruction": "Chaque jour de la semaine, regarde dehors et dessine dans sa case le symbole du temps qu'il fait."
+  },
+  "K-365": {
+    "title": "Fait-il froid, doux ou chaud ?",
+    "instruction": "Regarde chaque thermomètre, sers-toi de la clé pour savoir s'il fait froid, doux ou chaud, et entoure le vêtement qui convient."
+  },
+  "G3-385": {
+    "title": "Cycle de l'eau : écris chaque étape",
+    "instruction": "Lis les quatre mots de la liste et écris chacun sur la ligne qui porte le même numéro que sur le schéma."
+  },
+  "G1-363": {
+    "title": "Lis les prévisions de la semaine",
+    "instruction": "Regarde le temps de la semaine, lis chaque question et entoure le bon jour."
+  },
+  "K-366": {
+    "title": "Le tri des déchets : dans quelle poubelle ?",
+    "instruction": "Regarde chaque objet et entoure la poubelle où il va quand il est vide ou usé."
+  },
+  "G1-364": {
+    "title": "De quelle matière est chaque objet ?",
+    "instruction": "En quoi est fait chaque objet ? Écris sur la ligne le mot de la liste qui convient."
+  },
+  "G2-348": {
+    "title": "Le tri des déchets : quel objet n'est pas de la même matière ?",
+    "instruction": "Dans chaque rangée, trois objets sont de la même matière. Entoure celui qui est d'une autre matière."
+  },
+  "K-367": {
+    "title": "Colorie les poubelles du tri",
+    "instruction": "Lis le nom de chaque poubelle et colorie-la de la couleur indiquée par la légende."
+  },
+  "G1-365": {
+    "title": "Trois choses que je trie à la maison",
+    "instruction": "Dessine trois choses que tu tries à la maison et écris ce que chacune est."
+  },
+  "G1-366": {
+    "title": "Écris le mot qui manque dans la phrase",
+    "instruction": "Regarde l'image. Écris le mot qui manque, une lettre par case."
+  },
+  "G1-367": {
+    "title": "Entoure le mot qui complète la phrase",
+    "instruction": "Regarde l'image et lis la phrase. Entoure le mot qui convient, puis écris-le dans la case."
+  },
+  "G2-349": {
+    "title": "Complète les phrases au pluriel",
+    "instruction": "Regarde les images : il y en a plusieurs. Écris dans la case le mot qui va avec plusieurs."
+  },
+  "G2-350": {
+    "title": "Texte à trous : complète l'histoire",
+    "instruction": "Lis tout le texte. Les trois images montrent les mots qui manquent. Écris chacun à sa place."
+  },
+  "G1-368": {
+    "title": "Relie chaque phrase à son image",
+    "instruction": "Lis chaque phrase. Quelle image complète la phrase ? Trace un trait de la phrase jusqu’à cette image."
+  },
+  "G2-351": {
+    "title": "Pair ou impair ? Écris deux parts égales",
+    "instruction": "Entoure les points deux par deux. Écris ensuite le nombre en deux parts égales et note ce qui reste dans la petite case."
+  },
+  "G1-369": {
+    "title": "Peut-on partager entre deux enfants ?",
+    "instruction": "Donne les images aux deux enfants, une chacun à tour de rôle. Écris combien chacun reçoit et ce qui reste, puis entoure pair ou impair."
+  },
+  "G2-352": {
+    "title": "Nombres pairs et impairs jusqu'à 100 : le chiffre des unités",
+    "instruction": "Lis la règle en haut. Regarde seulement la case des unités de chaque nombre et coche le rond sous pair ou impair."
+  },
+  "G3-386": {
+    "title": "Somme paire ou impaire ? Décide sans calculer",
+    "instruction": "N'additionne pas. Regarde le chiffre des unités souligné de chaque nombre, sers-toi du tableau et coche si la somme est paire ou impaire."
+  },
+  "G1-370": {
+    "title": "Pair ou impair ? Compte les images deux par deux",
+    "instruction": "Compte les images et entoure-les deux par deux. Écris combien de paires tu as formées, puis entoure pair ou impair."
+  },
+  "G1-371": {
+    "title": "Remplace le prénom par un pronom",
+    "instruction": "Lis la phrase. Écris le mot de la liste qui remplace le prénom dans la deuxième phrase."
+  },
+  "G2-353": {
+    "title": "De qui parle-t-on ? Les pronoms dans les phrases",
+    "instruction": "Lis les phrases. Trace un trait de chaque mot encadré jusqu'au prénom qu'il remplace."
+  },
+  "G2-354": {
+    "title": "Son, sa ou leur ?",
+    "instruction": "Regarde à qui appartient l'objet. Entoure le mot qui montre que l'objet est à cette personne."
+  },
+  "G1-372": {
+    "title": "Classe les prénoms : il, elle, ils ou elles",
+    "instruction": "Lis chaque carte prénom. Écris le prénom sous le mot que l'on emploie pour cette personne."
+  },
+  "G2-355": {
+    "title": "Récris la phrase avec un pronom",
+    "instruction": "Lis la phrase. Récris-la sur les lignes en employant un pronom à la place du prénom."
+  },
+  "G1-373": {
+    "title": "Relie chaque question à sa réponse",
+    "instruction": "Lis chaque question à gauche. Trace un trait jusqu’à la réponse de droite qui lui correspond."
+  },
+  "G1-374": {
+    "title": "Complète la question avec le bon mot interrogatif",
+    "instruction": "Lis la réponse et repère les mots en couleur. Écris dans la case le mot de la liste qui les demande."
+  },
+  "G1-375": {
+    "title": "Classe les réponses : qui, que ou où",
+    "instruction": "Lis chaque étiquette. Écris-la dans la boîte de la question à laquelle elle répond."
+  },
+  "G2-356": {
+    "title": "Écris la question",
+    "instruction": "Lis la réponse. Regarde les mots en couleur. Écris sur la ligne la question qui les demande."
+  },
+  "G2-357": {
+    "title": "Pose des questions sur l'image : pourquoi et comment",
+    "instruction": "Regarde l'image. Termine chaque question en partant du mot déjà écrit sur la ligne."
+  },
+  "G3-387": {
+    "title": "Arrondir au-dessus ou en dessous : range les nombres",
+    "instruction": "Chaque nombre s'arrondit-il au-dessus ou en dessous à la dizaine ? Écris-le dans la bonne boîte."
+  },
+  "G3-388": {
+    "title": "Arrondir les nombres à la centaine",
+    "instruction": "Arrondis chaque nombre à la centaine la plus proche et écris-le dans la case. Regarde le chiffre des dizaines."
+  },
+  "G3-389": {
+    "title": "Arrondir puis estimer la somme",
+    "instruction": "Arrondis les deux nombres à la dizaine et écris-les dans les cases. Additionne ensuite les nombres arrondis."
+  },
+  "G3-390": {
+    "title": "Quels nombres s'arrondissent à 50 ?",
+    "instruction": "Entoure tous les nombres qui s'arrondissent à la dizaine écrite en haut. Regarde le chiffre des unités de chaque nombre."
+  },
+  "G3-391": {
+    "title": "Arrondir à la dizaine et à la centaine",
+    "instruction": "Arrondis chaque nombre deux fois : à la dizaine dans la première case et à la centaine dans la seconde."
   }
 }

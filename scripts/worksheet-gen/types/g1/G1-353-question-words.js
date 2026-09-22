@@ -94,6 +94,9 @@
  */
 'use strict';
 const { bank: loadBank } = require('../../lib/b4-common.js');
+const { QUESTION_WORDS } = require('../../data/b4/question-words.js');
+const THING_TWINS = QUESTION_WORDS.THING_TWINS || [];
+if (!THING_TWINS.length) throw new Error('G1-353: QUESTION_WORDS.THING_TWINS is empty — the global look-alike fence would be vacuous');
 const { bank: loadB3 } = require('../../lib/b3-common.js');
 const { fileUri, vocab, displayWord } = require('../../lib/b2-common.js');
 const { candidates } = require('../../lib/b3-picture-index.js');
@@ -286,7 +289,8 @@ function compose(rng, bank, cfg, loc, data) {
   const { pool, names, people, places, times } = data;
   const numbers = bank.numbers || [2, 3, 4, 5];
   const twinOf = new Map();
-  (bank.twins || []).forEach((g, i) => g.forEach((k) => twinOf.set(k, i)));
+  // the ARTWORK look-alikes are global (QUESTION_WORDS.THING_TWINS), the locale's own `twins` are places
+  [...THING_TWINS, ...(bank.twins || [])].forEach((g, i) => g.forEach((k) => twinOf.set(k, i)));
   for (let t = 0; t < MAX_TRIES; t++) {
     // 1. the ask list
     const asks = [];
@@ -325,12 +329,15 @@ function compose(rng, bank, cfg, loc, data) {
     if (!ok) continue;
     // 5. things — no key twice; the filled sentence must fit maxChars (skip, never squeeze)
     const shuffledPool = rng.shuffle(pool);
+    // ONE page-level look-alike set for things AND places (the groups are the artwork's, not a language's)
+    const usedGroups = new Set();
     const usedThings = new Set();
     for (const r of thingRows) {
       const n = r.kind === 'count' ? rng.pick(numbers) : null;
       let hit = null;
       for (const th of shuffledPool) {
         if (usedThings.has(th.key)) continue;
+        if (twinOf.has(th.key) && usedGroups.has(twinOf.get(th.key))) continue;   // one member per look-alike group per page
         if (bank.genderFilter && bank.genderFilter.count && r.kind === 'count' && th.gender !== bank.genderFilter.count) continue;   // a key without a code is refused for a count row
         const ctx = { name: r.name, thing: th, n, loc };
         let text;
@@ -340,14 +347,14 @@ function compose(rng, bank, cfg, loc, data) {
         break;
       }
       if (!hit) { ok = false; break; }
-      usedThings.add(hit.th.key);
+      usedThings.add(hit.th.key); if (twinOf.has(hit.th.key)) usedGroups.add(twinOf.get(hit.th.key));
       r.thing = hit.th; r.n = hit.n;
     }
     if (!ok) continue;
     // 6. places — distinct, one per twin group
     const placeRows = rows.filter((r) => r.kind === 'place');
     const shuffledPlaces = rng.shuffle(places);
-    const usedGroups = new Set(), usedPlaces = new Set();
+    const usedPlaces = new Set();
     for (const r of placeRows) {
       const p = shuffledPlaces.find((x) => !usedPlaces.has(x.key) && !(twinOf.has(x.key) && usedGroups.has(twinOf.get(x.key))));
       if (!p) { ok = false; break; }
@@ -557,7 +564,8 @@ function dealFace(rng, bank, opts, loc, data) {
   const people = data.people.filter((p) => (p.minPx || 44) <= (opts.picPx || 56));
   const numbers = bank.numbers || [2, 3, 4, 5];
   const twinOf = new Map();
-  (bank.twins || []).forEach((g, i) => g.forEach((k) => twinOf.set(k, i)));
+  // the ARTWORK look-alikes are global (QUESTION_WORDS.THING_TWINS), the locale's own `twins` are places
+  [...THING_TWINS, ...(bank.twins || [])].forEach((g, i) => g.forEach((k) => twinOf.set(k, i)));
   const onPage = new Set(opts.asks);
   const filter = opts.rowFilter || (() => true);
   for (let t = 0; t < MAX_TRIES; t++) {
@@ -587,12 +595,15 @@ function dealFace(rng, bank, opts, loc, data) {
     for (const r of rows) { const p = byG[r.name.gender] && byG[r.name.gender].pop(); if (!p) { ok = false; break; } r.person = p; }
     if (!ok) continue;
     const shuffledPool = rng.shuffle(pool);
+    // ONE page-level look-alike set for things AND places (the groups are the artwork's, not a language's)
+    const usedGroups = new Set();
     const usedThings = new Set();
     for (const r of thingRows) {
       const n = r.kind === 'count' ? rng.pick(numbers) : null;
       let hit = null;
       for (const th of shuffledPool) {
         if (usedThings.has(th.key)) continue;
+        if (twinOf.has(th.key) && usedGroups.has(twinOf.get(th.key))) continue;   // one member per look-alike group per page
         if (bank.genderFilter && bank.genderFilter.count && r.kind === 'count' && th.gender !== bank.genderFilter.count) continue;
         const ctx = { name: r.name, thing: th, n, loc };
         let text;
@@ -603,13 +614,13 @@ function dealFace(rng, bank, opts, loc, data) {
         break;
       }
       if (!hit) { ok = false; break; }
-      usedThings.add(hit.th.key);
+      usedThings.add(hit.th.key); if (twinOf.has(hit.th.key)) usedGroups.add(twinOf.get(hit.th.key));
       r.thing = hit.th; r.n = hit.n;
     }
     if (!ok) continue;
     const placeRows = rows.filter((r) => r.kind === 'place');
     const shuffledPlaces = rng.shuffle(places);
-    const usedGroups = new Set(), usedPlaces = new Set();
+    const usedPlaces = new Set();
     for (const r of placeRows) {
       const p = shuffledPlaces.find((x) => !usedPlaces.has(x.key) && !(twinOf.has(x.key) && usedGroups.has(twinOf.get(x.key))));
       if (!p) { ok = false; break; }
@@ -717,7 +728,8 @@ function buildSort(bank, d, loc, rng, data) {
   const placeOk = places.filter((p) => okText(p.text));
   if (cfg.bins.includes('where') && placeOk.length < cfg.perBin) throw new Error(`${ID} sort: ${loc} has ${placeOk.length} place literals under the tile guard (want ${cfg.perBin}) — REFUSED`);
   const twinOf = new Map();
-  (bank.twins || []).forEach((g, i) => g.forEach((k) => twinOf.set(k, i)));
+  // the ARTWORK look-alikes are global (QUESTION_WORDS.THING_TWINS), the locale's own `twins` are places
+  [...THING_TWINS, ...(bank.twins || [])].forEach((g, i) => g.forEach((k) => twinOf.set(k, i)));
   for (let t = 0; t < MAX_TRIES; t++) {
     const tiles = [];
     let ok = true;

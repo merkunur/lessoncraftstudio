@@ -365,7 +365,13 @@ function validateBank(block, loc, opts = {}) {
     if (!formsLoc && P.byOwner) for (const v of Object.values(P.byOwner)) if (Number.isInteger(v)) reach.add(v);
     for (let i = 0; i < pc.length; i++) if (!reach.has(i)) push(`rule 6: possessive chip "${pc[i]}" is reached by no (owner, thing)`);
     const hasCode = things.some((th) => V[th.key] && V[th.key][loc] && V[th.key][loc][2]);
-    if (hasCode && (genders.f < 4 || genders.mn < 4)) push(`rule 6: things f ${genders.f} / m-n ${genders.mn} (want >= 4 each)`);
+    // The thing-gender BALANCE only means anything where the possessive agrees with the THING (de/fr/it).
+    // Where it encodes the OWNER (byOwner: nl zijn/haar/hun, pt dele/dela/deles/delas, es/fi refused) the
+    // thing's gender is not on the page at all — and for nl the count was structurally unreachable: the
+    // line above sends BOTH nl codes (d 989 / h 223 in the vocab) to `mn`, so `f` is always 0 and no legal
+    // 12-thing set exists. Measured by the nl panel against a correct zijn/haar/hun block, which had to be
+    // declared refused to ship 0 errors. The balance now applies where it is meaningful.
+    if (formsLoc && hasCode && (genders.f < 4 || genders.mn < 4)) push(`rule 6: things f ${genders.f} / m-n ${genders.mn} (want >= 4 each)`);
   }
 
   // rule 7 — objects iff objectMap

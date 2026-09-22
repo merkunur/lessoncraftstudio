@@ -338,5 +338,45 @@
   "division-with-remainder": {
     "full": "Diviser un nombre par groupement ou par partage et trouver ce qui reste, en écrivant l'égalité : le début de la division euclidienne au CE2.",
     "short": "Comprendre le reste d'une division."
+  },
+  "tangram": {
+    "full": "Découper les sept pièces du tangram et les poser sur un modèle : l'enfant tourne, retourne et assemble les formes pour reconstituer une figure.",
+    "short": "Assembler les sept pièces du tangram"
+  },
+  "human-body": {
+    "full": "Nommer les parties du corps en français : l'enfant relie, copie et écrit tête, bras, main, jambe et pied sur un personnage à étiqueter.",
+    "short": "Nommer les parties du corps"
+  },
+  "five-senses": {
+    "full": "Associer chaque objet au sens qui le perçoit : l'enfant relie l'image à l'oreille, à l'œil, au nez, à la bouche ou à la main et nomme le sens.",
+    "short": "Relier chaque image au bon sens"
+  },
+  "weather-symbols": {
+    "full": "Lire les symboles du temps : l'enfant relie le soleil, le nuage, la pluie, l'orage, la neige et l'arc-en-ciel à leur mot et tient un relevé de la semaine.",
+    "short": "Lire les symboles du temps"
+  },
+  "recycling": {
+    "full": "Trier les déchets du quotidien : l'enfant place chaque emballage vide dans la bonne poubelle et nomme la matière dont il est fait.",
+    "short": "Trier les déchets dans la bonne poubelle"
+  },
+  "cloze": {
+    "full": "Compléter une phrase à trous en s'aidant de l'image : l'enfant choisit le mot qui convient dans une liste et l'écrit dans la case.",
+    "short": "Compléter des phrases à trous"
+  },
+  "odd-and-even": {
+    "full": "Reconnaître les nombres pairs et impairs : l'enfant range les nombres, forme des paires, lit le chiffre des unités et justifie son choix.",
+    "short": "Reconnaître les nombres pairs et impairs"
+  },
+  "pronouns": {
+    "full": "Employer les pronoms personnels sujets il, elle, ils et elles : l'enfant remplace un prénom par le pronom qui convient et récrit la phrase.",
+    "short": "Employer il, elle, ils et elles"
+  },
+  "question-words": {
+    "full": "Poser une question avec le bon mot interrogatif : l'enfant choisit entre qui, que, où, quand et combien selon ce que la phrase demande.",
+    "short": "Choisir le bon mot interrogatif"
+  },
+  "rounding": {
+    "full": "Arrondir un nombre à la dizaine et à la centaine : l'enfant regarde le chiffre des unités ou des dizaines et décide d'arrondir au-dessus ou en dessous.",
+    "short": "Arrondir à la dizaine et à la centaine"
   }
 }

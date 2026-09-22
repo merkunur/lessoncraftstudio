@@ -699,10 +699,14 @@ async function main() {
   const pronEn = loadBank('pronouns', 'en');
   const objEn = objFormsOf('en');
   const t0 = Date.now();
-  console.log(`verify-b4-question-words ${QUICK ? '(--quick) ' : ''}— locales on disk: ${Object.keys(all).join(' ')}`);
+  // the module carries GLOBAL keys beside the locale blocks (THING_TWINS — the artwork look-alike fence,
+  // the shape cloze already uses), so a locale is a two-letter key, never "every top-level key"
+  const locKeys = Object.keys(all).filter((k) => /^[a-z]{2}$/.test(k));
+  if (!locKeys.length) throw new Error('verify-b4-question-words: no locale blocks in data/b4/question-words.js');
+  console.log(`verify-b4-question-words ${QUICK ? '(--quick) ' : ''}— locales on disk: ${locKeys.join(' ')}`);
 
   // ---- 1. the bank(s)
-  for (const loc of Object.keys(all)) {
+  for (const loc of locKeys) {
     const errs = validateBank(all[loc], loc);
     ok(errs.length === 0, `bank ${loc}: ${errs.join(' | ')}`);
     const pool = TYPE.thingPool(loc, all[loc], objFormsOf(loc));

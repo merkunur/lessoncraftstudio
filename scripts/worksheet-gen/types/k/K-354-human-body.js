@@ -168,6 +168,11 @@ function faceVerify(data) {
     if (wantStem && stem(im) !== wantStem) fails.push(`${what}: picture "${stem(im)}" ≠ "${wantStem}"`);
   };
   const textOf = (el) => (el.textContent || '').replace(/\s+/g, ' ').trim();
+  // JS \s MATCHES U+00A0, so textOf() folds the no-break space a locale's typography requires (fr writes
+  // "Combien de tetes ?" with NBSP before the ?) while the authored literal keeps it — comparing a folded
+  // render against a RAW literal made correct French unable to pass its own verify (fr panel, measured on
+  // all six K-360 cards). Both sides are folded the same way; a real text difference still fails.
+  const sameText = (a, b) => String(a || '').replace(/\s+/g, ' ').trim() === String(b || '').replace(/\s+/g, ' ').trim();
   root.querySelectorAll('img').forEach((im) => { if ((data.excludedPics || []).includes(stem(im))) fails.push(`the excluded picture "${stem(im)}" is drawn (never on any face)`); });
   if ((root.textContent || '').includes('{')) fails.push('a `{` slot is printed in the body');
   root.querySelectorAll('[data-lcs-answer]').forEach((el) => { if (el.getAttribute('data-lcs-answer') !== '') fails.push(`an answer value "${el.getAttribute('data-lcs-answer')}" is stamped`); });
@@ -230,7 +235,7 @@ function faceVerify(data) {
       const lab = c.querySelector('[data-lcs-fact-label]');
       if (!lab) fails.push(`${what}: no fact label`);
       else {
-        if (textOf(lab) !== bank.factLabels[id]) fails.push(`${what}: label "${textOf(lab)}" ≠ factLabels.${id} "${bank.factLabels[id]}"`);
+        if (!sameText(textOf(lab), bank.factLabels[id])) fails.push(`${what}: label "${textOf(lab)}" ≠ factLabels.${id} "${bank.factLabels[id]}"`);
         if (lab.scrollWidth > lab.clientWidth + 0.6) fails.push(`${what}: the label is clipped`);
         if (Math.round(lab.scrollHeight / parseFloat(getComputedStyle(lab).lineHeight)) > 2) fails.push(`${what}: the label runs to ${Math.round(lab.scrollHeight / parseFloat(getComputedStyle(lab).lineHeight))} lines (2-line reserve)`);
         if (parseFloat(getComputedStyle(lab).fontSize) < 18 - 0.01) fails.push(`${what}: label under 18 px`);
@@ -271,9 +276,9 @@ function faceVerify(data) {
       const tb = row.querySelector('[data-lcs-legend-text]');
       if (tb && rect(tb).height > rect(row).height - 4) fails.push(`${what}: the legend text (${Math.round(rect(tb).height)} px) outgrows its ${Math.round(rect(row).height)} px row`);
       const cw = row.querySelector('[data-lcs-colorword]'), pw = row.querySelector('[data-lcs-partword]');
-      if (!cw || textOf(cw) !== data.colorWords[key]) fails.push(`${what}: colour word "${cw && textOf(cw)}" ≠ "${data.colorWords[key]}"`);
+      if (!cw || !sameText(textOf(cw), data.colorWords[key])) fails.push(`${what}: colour word "${cw && textOf(cw)}" ≠ "${data.colorWords[key]}"`);
       const wantPart = facts.parts[id] && facts.parts[id].count === 2 ? bank.plural[id] : bank.partWords[id];
-      if (!pw || textOf(pw) !== wantPart) fails.push(`${what}: part word "${pw && textOf(pw)}" ≠ ${facts.parts[id] && facts.parts[id].count === 2 ? 'plural' : 'partWords'}.${id} "${wantPart}"`);
+      if (!pw || !sameText(textOf(pw), wantPart)) fails.push(`${what}: part word "${pw && textOf(pw)}" ≠ ${facts.parts[id] && facts.parts[id].count === 2 ? 'plural' : 'partWords'}.${id} "${wantPart}"`);
       if (!row.querySelector('[data-lcs-arrow]')) fails.push(`${what}: no arrow glyph`);
       for (const el of [cw, pw]) if (el) { if (el.scrollWidth > el.clientWidth + 0.6) fails.push(`${what}: "${textOf(el)}" is clipped`); if (parseFloat(getComputedStyle(el).fontSize) < Math.max(18, wordPx) - 0.01) fails.push(`${what}: word under ${Math.max(18, wordPx)} px`); }
       if (row.scrollWidth > row.clientWidth + 0.6) fails.push(`${what}: the row overflows`);

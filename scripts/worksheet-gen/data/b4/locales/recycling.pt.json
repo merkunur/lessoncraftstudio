@@ -1,0 +1,114 @@
+{
+  "bins": [
+    {
+      "key": "papel",
+      "label": "Papel",
+      "longLabel": "Papel e papelão (lixeira azul)",
+      "color": "codeBlue",
+      "colorWord": "azul",
+      "materials": [
+        "paper",
+        "cardboard"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "plastico",
+      "label": "Plástico",
+      "longLabel": "Plástico (lixeira vermelha)",
+      "color": "codeRed",
+      "colorWord": "vermelho",
+      "materials": [
+        "plastic"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "vidro",
+      "label": "Vidro",
+      "longLabel": "Vidro (lixeira verde)",
+      "color": "codeGreen",
+      "colorWord": "verde",
+      "materials": [
+        "glass"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "metal",
+      "label": "Metal",
+      "longLabel": "Metal (lixeira amarela)",
+      "color": "codeYellow",
+      "colorWord": "amarelo",
+      "materials": [
+        "metal"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "organico",
+      "label": "Orgânico",
+      "longLabel": "Restos de comida (lixeira marrom)",
+      "color": "codeBrown",
+      "colorWord": "marrom",
+      "materials": [
+        "organic"
+      ],
+      "packagingOnly": false
+    }
+  ],
+  "route": {
+    "saucepan": {
+      "bin": "metal",
+      "reason": "a coleta seletiva brasileira recebe panelas e objetos pequenos de metal na lixeira amarela, não só embalagens"
+    },
+    "bolt": {
+      "bin": "metal",
+      "reason": "parafuso de metal: vai na lixeira amarela como qualquer peça pequena de metal"
+    },
+    "nut": {
+      "bin": "metal",
+      "reason": "porca de metal: vai na lixeira amarela como qualquer peça pequena de metal"
+    }
+  },
+  "excludeItems": {},
+  "materialWords": {
+    "paper": "papel",
+    "cardboard": "papelão",
+    "glass": "vidro",
+    "plastic": "plástico",
+    "metal": "metal"
+  },
+  "colorConvention": "national",
+  "refuse": [],
+  "starters": [],
+  "scheme": "Cinco lixeiras com as cores da resolução CONAMA 275: papel e papelão no azul, plástico no vermelho, vidro no verde, metal no amarelo e restos de comida no marrom. Nem toda cidade usa as cinco cores, mas esta é a norma que as escolas brasileiras ensinam.",
+  "enAudit": "The EN base and K-366 instructions say the thing is empty or finished, but the item bank pins a full PET water bottle and a glass milk bottle, so the EN sheet asks a child to sort a full bottle; the EN compost bin takes bread and pepper, which most US municipal guidance keeps out of a home compost bin (the EN landing should say food-scraps bin); and the EN K-367 face is refused while the rows module still carries an EN title for it, so build-en emits a string no EN wave may ship.",
+  "strings": {
+    "K-357": {
+      "title": "Coleta seletiva",
+      "instruction": "Cada coisa está vazia ou já foi usada. Ligue cada uma à lixeira em que ela deve ir."
+    },
+    "K-366": {
+      "title": "Coleta seletiva: em qual lixeira?",
+      "instruction": "Olhe cada coisa e circule a lixeira em que ela deve ir quando está vazia ou já foi usada."
+    },
+    "G1-364": {
+      "title": "Coleta seletiva: de que material é feito?",
+      "instruction": "De que material é feita cada coisa? Escreva a palavra do quadro na linha."
+    },
+    "G2-348": {
+      "title": "Coleta seletiva: qual é diferente pelo material?",
+      "instruction": "Em cada linha três coisas são do mesmo material. Circule a que é diferente."
+    },
+    "K-367": {
+      "title": "Coleta seletiva: pinte as lixeiras",
+      "instruction": "Leia o nome de cada lixeira e pinte-a na cor que a legenda mostra."
+    },
+    "G1-365": {
+      "title": "Coleta seletiva: três coisas que eu separo",
+      "instruction": "Desenhe três coisas que você separa em casa e escreva o que é cada uma."
+    }
+  },
+  "strand": "Ciências"
+}

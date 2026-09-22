@@ -1,0 +1,66 @@
+{
+  "symbolWords": {
+    "sun": "zon",
+    "cloud": "wolk",
+    "rain": "regen",
+    "storm": "onweer",
+    "snow": "sneeuw",
+    "rainbow": "regenboog"
+  },
+  "forecastAsks": {
+    "sun": "Op welke dag schijnt de zon?",
+    "cloud": "Op welke dag is het bewolkt?",
+    "rain": "Op welke dag regent het?",
+    "storm": "Op welke dag onweert het?",
+    "snow": "Op welke dag sneeuwt het?",
+    "rainbow": "Op welke dag is er een regenboog?"
+  },
+  "cycleLabels": {
+    "evaporation": "verdamping",
+    "condensation": "condensatie",
+    "precipitation": "neerslag",
+    "collection": "verzamelen",
+    "runoff": "afstroming"
+  },
+  "bandWords": {
+    "cold": "koud",
+    "warm": "warm",
+    "hot": "heet"
+  },
+  "forecastDays": null,
+  "diaryDays": null,
+  "diaryStart": "mon",
+  "bankWords": {},
+  "distractors": [
+    "wind",
+    "mist"
+  ],
+  "refuse": [],
+  "strings": {
+    "K-356": {
+      "title": "Weersymbolen",
+      "instruction": "Trek een lijn van elk weersymbool naar het woord dat erbij hoort."
+    },
+    "G1-362": {
+      "title": "Schrijf het weerwoord",
+      "instruction": "Zoek bij elk weersymbool het woord in het kader en schrijf het, een letter in elk hokje."
+    },
+    "K-364": {
+      "title": "Weerkaart: het weer bijhouden van maandag tot zondag",
+      "instruction": "Kijk elke dag van deze week naar buiten en teken het weersymbool van die dag in zijn vakje."
+    },
+    "K-365": {
+      "title": "Hoe warm is het? Koud, warm of heet",
+      "instruction": "Kijk naar elke thermometer, gebruik de legenda en omcirkel het plaatje dat past bij koud, warm of heet."
+    },
+    "G3-385": {
+      "title": "De waterkringloop: zet de namen erbij",
+      "instruction": "Lees de vier woorden in het kader en schrijf elk woord op de lijn met hetzelfde nummer als op de tekening."
+    },
+    "G1-363": {
+      "title": "Lees de weersverwachting van de week",
+      "instruction": "Kijk naar het weer van de week, lees elke vraag en omcirkel de dag die past."
+    }
+  },
+  "strand": "Oriëntatie op jezelf en de wereld"
+}

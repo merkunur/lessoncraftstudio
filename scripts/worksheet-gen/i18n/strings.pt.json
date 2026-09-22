@@ -2378,5 +2378,245 @@
   "G3-384": {
     "title": "Divisão na reta numérica: quanto sobra?",
     "instruction": "Comece no número marcado e desenhe saltos para trás do mesmo tamanho até não caber mais um salto inteiro. Escreva os saltos e onde você para."
+  },
+  "K-353": {
+    "title": "Tangram para recortar e montar: sete peças e duas figuras",
+    "instruction": "Pinte cada peça como na legenda, recorte as sete peças pelas linhas e coloque-as sobre as duas figuras de baixo, linha por linha."
+  },
+  "K-354": {
+    "title": "O corpo humano e suas partes",
+    "instruction": "Escreva cada palavra do quadro na linha que aponta para essa parte do corpo."
+  },
+  "K-355": {
+    "title": "Os cinco sentidos",
+    "instruction": "Ligue cada figura à parte do corpo que você usa para senti-la."
+  },
+  "K-356": {
+    "title": "Como está o tempo hoje",
+    "instruction": "Ligue cada símbolo do tempo à sua palavra."
+  },
+  "K-357": {
+    "title": "Coleta seletiva",
+    "instruction": "Cada coisa está vazia ou já foi usada. Ligue cada uma à lixeira em que ela deve ir."
+  },
+  "G1-350": {
+    "title": "Complete as frases",
+    "instruction": "Olhe a figura. Procure no quadro a palavra que completa a frase e escreva na caixa."
+  },
+  "G1-351": {
+    "title": "Números pares e ímpares até 20",
+    "instruction": "Escreva cada número na casa a que ele pertence. Três números já moram lá e mostram como ficam de dois em dois."
+  },
+  "G1-352": {
+    "title": "Pronomes pessoais do caso reto: ele, ela, eles ou elas",
+    "instruction": "Olhe a pessoa e leia o nome. Circule a palavra que usamos no lugar do nome."
+  },
+  "G1-353": {
+    "title": "Quem, o que, onde: palavras para perguntar",
+    "instruction": "Leia a frase. Olhe as palavras marcadas. Circule a palavra que faz a pergunta sobre elas."
+  },
+  "G2-346": {
+    "title": "Arredondamento de números à dezena",
+    "instruction": "Arredonde cada número à dezena mais próxima e escreva na caixa. Se o algarismo das unidades for 5 ou mais, arredonde para cima."
+  },
+  "K-358": {
+    "title": "Tangram fácil de 2 e 3 peças: desenhe as linhas",
+    "instruction": "Olhe as peças acima de cada forma. Desenhe dentro da forma as linhas onde essas peças se encontram."
+  },
+  "G1-354": {
+    "title": "Tangram: quatro sombras para montar",
+    "instruction": "Monte cada figura escura com as sete peças do seu tangram. Use todas as sete peças em cada uma."
+  },
+  "G1-355": {
+    "title": "Tangram: qual peça está faltando?",
+    "instruction": "Falta uma peça em cada figura. Circule a peça que cabe exatamente no espaço vazio."
+  },
+  "G2-347": {
+    "title": "Tangram: qual solução combina com a sombra?",
+    "instruction": "Olhe cada sombra. Circule a solução que está exatamente na mesma posição. Figuras giradas ou espelhadas não combinam."
+  },
+  "K-359": {
+    "title": "Tangram: conte os triângulos e quadrados",
+    "instruction": "Conte os triângulos de cada figura e escreva o número na primeira caixa. Depois conte os quadrados para a segunda."
+  },
+  "K-360": {
+    "title": "O corpo humano e suas partes: quantos você tem?",
+    "instruction": "Quantos você tem de cada um? Conte no seu próprio corpo e escreva o número na caixa."
+  },
+  "K-361": {
+    "title": "O corpo humano e suas partes: pinte pela legenda",
+    "instruction": "Leia a legenda e pinte cada parte do corpo na cor que está escrita ao lado do nome."
+  },
+  "G1-356": {
+    "title": "O corpo humano e suas partes: escreva o nome",
+    "instruction": "Ache na figura cada parte numerada e escreva o nome dela, uma letra em cada quadradinho."
+  },
+  "K-362": {
+    "title": "O corpo humano e suas partes: o que está faltando?",
+    "instruction": "Falta uma parte em cada corpo. Circule a figura da parte que falta e depois desenhe essa parte."
+  },
+  "K-363": {
+    "title": "O corpo humano e suas partes: quais vêm aos pares?",
+    "instruction": "Circule todas as partes do corpo que você tem duas."
+  },
+  "G1-357": {
+    "title": "Os cinco sentidos: separe por sentido",
+    "instruction": "Olhe cada figura e ligue o ponto dela ao quadro do sentido que você usa para percebê-la."
+  },
+  "G1-358": {
+    "title": "Os cinco sentidos: qual sentido?",
+    "instruction": "Qual sentido você usa em cada figura? Circule a parte do corpo que você usa."
+  },
+  "G1-359": {
+    "title": "Os cinco sentidos: qual não combina?",
+    "instruction": "Em cada linha três figuras combinam com o mesmo sentido. Risque a que não combina."
+  },
+  "G1-360": {
+    "title": "Os órgãos dos sentidos: escreva a palavra",
+    "instruction": "Copie cada palavra do quadro na linha ao lado do órgão que faz isso."
+  },
+  "G1-361": {
+    "title": "Os cinco sentidos: eu ouço ...",
+    "instruction": "Termine cada frase. Escreva o que você pode ouvir, ver, cheirar, provar e tocar."
+  },
+  "G1-362": {
+    "title": "Como está o tempo hoje: escreva as palavras do tempo",
+    "instruction": "Ache no quadro a palavra de cada símbolo do tempo e escreva-a, uma letra em cada quadradinho."
+  },
+  "K-364": {
+    "title": "Quadro do tempo da semana, de segunda a domingo",
+    "instruction": "Todo dia desta semana, olhe para fora e desenhe na caixa o símbolo do tempo daquele dia."
+  },
+  "K-365": {
+    "title": "Está frio, ameno ou quente? Leia o termômetro",
+    "instruction": "Olhe cada termômetro, use a legenda para ver se está frio, ameno ou quente e circule a figura que combina."
+  },
+  "G3-385": {
+    "title": "O ciclo da água: escreva as etapas",
+    "instruction": "Leia as quatro palavras do quadro e escreva cada uma na linha que tem o mesmo número do desenho."
+  },
+  "G1-363": {
+    "title": "Previsão do tempo da semana: leia e responda",
+    "instruction": "Olhe o tempo da semana, leia cada pergunta e circule o dia certo."
+  },
+  "K-366": {
+    "title": "Coleta seletiva: em qual lixeira?",
+    "instruction": "Olhe cada coisa e circule a lixeira em que ela deve ir quando está vazia ou já foi usada."
+  },
+  "G1-364": {
+    "title": "Coleta seletiva: de que material é feito?",
+    "instruction": "De que material é feita cada coisa? Escreva a palavra do quadro na linha."
+  },
+  "G2-348": {
+    "title": "Coleta seletiva: qual é diferente pelo material?",
+    "instruction": "Em cada linha três coisas são do mesmo material. Circule a que é diferente."
+  },
+  "K-367": {
+    "title": "Coleta seletiva: pinte as lixeiras",
+    "instruction": "Leia o nome de cada lixeira e pinte-a na cor que a legenda mostra."
+  },
+  "G1-365": {
+    "title": "Coleta seletiva: três coisas que eu separo",
+    "instruction": "Desenhe três coisas que você separa em casa e escreva o que é cada uma."
+  },
+  "G1-366": {
+    "title": "Complete a frase com o nome da figura",
+    "instruction": "Olhe a figura. Escreva a palavra que falta: uma letra em cada quadradinho."
+  },
+  "G1-367": {
+    "title": "Complete a frase: circule a palavra certa",
+    "instruction": "Olhe a figura e leia a frase. Circule a palavra que completa e escreva na caixa."
+  },
+  "G2-349": {
+    "title": "Complete as frases no plural",
+    "instruction": "Olhe as figuras. Há mais de um. Escreva na caixa a palavra que indica mais de um."
+  },
+  "G2-350": {
+    "title": "Complete a historinha com as palavras que faltam",
+    "instruction": "Leia a historinha toda. As três figuras mostram as palavras que faltam. Escreva cada uma na sua caixa."
+  },
+  "G1-368": {
+    "title": "Ligue cada frase à sua figura",
+    "instruction": "Leia cada frase. Qual figura completa a lacuna? Ligue a frase até essa figura."
+  },
+  "G2-351": {
+    "title": "Par ou ímpar? Escreva duas parcelas iguais",
+    "instruction": "Circule os pontos de dois em dois. Depois escreva o número como duas partes iguais e escreva na caixinha o que sobra."
+  },
+  "G1-369": {
+    "title": "Dá para dividir igual entre dois amigos?",
+    "instruction": "Divida as figuras entre os dois amigos, uma de cada vez. Escreva quanto cada um recebe e quanto sobra, e circule a palavra certa."
+  },
+  "G2-352": {
+    "title": "Números pares e ímpares até 100: olhe a casa das unidades",
+    "instruction": "Leia a regra do alto. Olhe só o algarismo das unidades de cada número e marque o círculo certo."
+  },
+  "G3-386": {
+    "title": "A soma é par ou ímpar? Descubra sem somar",
+    "instruction": "Não some. Olhe o algarismo sublinhado de cada número, use a tabela e marque se a soma é par ou ímpar."
+  },
+  "G1-370": {
+    "title": "Par ou ímpar? Conte as figuras de dois em dois",
+    "instruction": "Conte as figuras e circule de dois em dois. Escreva quantos pares você fez e circule a palavra certa."
+  },
+  "G1-371": {
+    "title": "Troque o nome por um pronome",
+    "instruction": "Leia a frase. Escreva na caixa a palavra do quadro que troca o nome na segunda frase."
+  },
+  "G2-353": {
+    "title": "Quem é ele? Pronomes dentro da frase",
+    "instruction": "Leia as frases. Ligue cada palavra da caixinha ao nome que ela substitui."
+  },
+  "G2-354": {
+    "title": "Pronomes possessivos: dele, dela, deles ou delas",
+    "instruction": "Veja de quem é a coisa. Circule a palavra que mostra que ela pertence a essa pessoa."
+  },
+  "G1-372": {
+    "title": "Separe os nomes: ele, ela, eles ou elas",
+    "instruction": "Leia cada cartão de nome. Escreva o nome embaixo da palavra que usamos para essa pessoa."
+  },
+  "G2-355": {
+    "title": "Reescreva a frase com um pronome",
+    "instruction": "Leia a frase. Escreva-a de novo nas linhas, mas use um pronome no lugar do nome."
+  },
+  "G1-373": {
+    "title": "Ligue cada pergunta à sua resposta",
+    "instruction": "Leia cada pergunta da esquerda. Ligue com um traço até a resposta certa da direita."
+  },
+  "G1-374": {
+    "title": "Complete a pergunta com quem, o que, onde, quando ou quantos",
+    "instruction": "Leia a resposta e ache as palavras marcadas. Escreva na caixa a palavra do quadro que faz a pergunta."
+  },
+  "G1-375": {
+    "title": "Separe as respostas: quem, o que ou onde",
+    "instruction": "Leia cada cartão. Escreva-o na coluna da pergunta a que ele responde."
+  },
+  "G2-356": {
+    "title": "Escreva a pergunta",
+    "instruction": "Leia a resposta. Olhe as palavras marcadas. Escreva na linha a pergunta sobre elas."
+  },
+  "G2-357": {
+    "title": "Perguntas sobre a figura: por que e como",
+    "instruction": "Olhe a figura. Termine cada pergunta a partir da palavra que já está na linha."
+  },
+  "G3-387": {
+    "title": "Arredondar para cima ou para baixo: separe os números",
+    "instruction": "Cada número é arredondado para cima ou para baixo na dezena? Escreva-o na caixa certa."
+  },
+  "G3-388": {
+    "title": "Arredondamento de números à centena",
+    "instruction": "Arredonde cada número à centena mais próxima e escreva na caixa. Olhe o algarismo das dezenas."
+  },
+  "G3-389": {
+    "title": "Arredonde e estime a soma",
+    "instruction": "Arredonde os dois números à dezena mais próxima e escreva nas caixas. Depois some os números arredondados."
+  },
+  "G3-390": {
+    "title": "Quais números arredondam para 50?",
+    "instruction": "Circule todos os números que arredondam para a dezena mostrada no alto. Olhe o algarismo das unidades."
+  },
+  "G3-391": {
+    "title": "Arredondamento à dezena e à centena",
+    "instruction": "Arredonde cada número duas vezes: à dezena na primeira caixa e à centena na segunda."
   }
 }

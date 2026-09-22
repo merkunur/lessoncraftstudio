@@ -780,9 +780,21 @@ async function main() {
       const pStyle = `margin:0;font-family:'Nunito',sans-serif;font-weight:800;font-size:18px;line-height:1.3;display:inline-block`;
       const html = `<div data-ws-content style="display:block"><p data-m="plain" style="${pStyle}">Max reads in the garden.</p><br><p data-m="marked" style="${pStyle}">${C4.renderMarked('Max reads in the garden.', 'in the garden')}</p></div>`;
       await renderWith(page, { ...fake(html, 'G1-353'), build: async () => ({ bodyHtml: html, meta: {} }) }, { baseName: 'G1-353-gate-mark' });
-      const m = await page.evaluate(() => { const g = (k) => { const b = document.querySelector(`[data-m="${k}"]`).getBoundingClientRect(); return { width: b.width, height: b.height }; }; return { plain: g('plain'), marked: g('marked') }; });
-      ok(Math.abs(m.marked.width - m.plain.width - 8) <= 0.6 && Math.abs(m.marked.height - m.plain.height) <= 0.6, `markedSpan adds ${(m.marked.width - m.plain.width).toFixed(1)} px width / ${(m.marked.height - m.plain.height).toFixed(1)} px height (design +8 / +0)`);
-      console.log(`mark: plain ${m.plain.width.toFixed(1)} x ${m.plain.height.toFixed(1)} · marked ${m.marked.width.toFixed(1)} x ${m.marked.height.toFixed(1)}`);
+      const m = await page.evaluate(() => {
+        const g = (k) => { const b = document.querySelector(`[data-m="${k}"]`).getBoundingClientRect(); return { width: b.width, height: b.height }; };
+        // the PAINTED pad: the highlight box against the glyphs it covers (a Range ignores padding)
+        const sp = document.querySelector('[data-m="marked"] [data-lcs-mark]');
+        const r = document.createRange(); r.selectNodeContents(sp);
+        const box = sp.getBoundingClientRect(), txt = r.getBoundingClientRect();
+        return { plain: g('plain'), marked: g('marked'), paintedPad: box.width - txt.width };
+      });
+      // the design +8 now applies to the PAINTED highlight, where it was always meant to apply
+      ok(Math.abs(m.paintedPad - 8) <= 0.6, `markedSpan paints ${m.paintedPad.toFixed(1)} px beyond its glyphs (design +8)`);
+      // ...and the mark must cost the LINE nothing, or a sentence-final mark pushes its full stop
+      // away. This is the assertion the shipped defect violated at exactly 4.00 px.
+      ok(Math.abs(m.marked.width - m.plain.width) <= 0.6, `a marked line measures ${(m.marked.width - m.plain.width).toFixed(1)} px wider than the plain one (must be 0: a mark may not displace the text after it)`);
+      ok(Math.abs(m.marked.height - m.plain.height) <= 0.6, `markedSpan adds ${(m.marked.height - m.plain.height).toFixed(1)} px height (design +0)`);
+      console.log(`mark: plain ${m.plain.width.toFixed(1)} x ${m.plain.height.toFixed(1)} · marked ${m.marked.width.toFixed(1)} x ${m.marked.height.toFixed(1)} · painted pad ${m.paintedPad.toFixed(1)}`);
     }
 
     // ---- component smoke: the six face components through the real pipeline

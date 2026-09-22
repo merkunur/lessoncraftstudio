@@ -59,6 +59,12 @@ export interface MakerSample {
    *  link to any worksheet and is a crawl dead-end. Absent when the deck has no
    *  landing: we link nothing rather than pointing at the noindexed deck. */
   landingHref?: string;
+  /** Metered download hrefs (/api/quota/dl) for the modal's action buttons. The deck
+   *  itself carries the same strip, but it is hidden inside an iframe (body.lcs-embedded),
+   *  so the maker modal renders them host-side. answerKeyHref only when the deck has one
+   *  (the proxy 404s otherwise). */
+  pdfHref: string;
+  answerKeyHref?: string;
 }
 
 export interface MakerCrossLangSample {
@@ -81,6 +87,7 @@ interface DeckRow {
   title: unknown;
   exerciseMode: string | null;
   subjectTags: string[];
+  answerKeyUrl: string | null;
 }
 
 const MONO = { status: 'published', contentLanguage: null } as const;
@@ -91,6 +98,11 @@ function localizedTitle(title: unknown, locale: string, slug: string): string {
     return t[locale] ?? t.en ?? slug;
   }
   return typeof title === 'string' ? title : slug;
+}
+
+/** The metered download proxy — same href shape as the /worksheets hub and the static landings. */
+function dlHref(locale: string, deckSlug: string, kind: 'pdf' | 'answer'): string {
+  return `/api/quota/dl?loc=${encodeURIComponent(locale)}&slug=${encodeURIComponent(deckSlug)}&kind=${kind}`;
 }
 
 function toSample(row: DeckRow, modeKey: string | null, pageLocale: string): MakerSample {
@@ -109,10 +121,12 @@ function toSample(row: DeckRow, modeKey: string | null, pageLocale: string): Mak
     // samples fall back to an EN deck when the page locale lacks that mode, and
     // its landing lives under /en/.
     ...(landing ? { landingHref: `/${row.language}/worksheets/${landing}` } : {}),
+    pdfHref: dlHref(row.language, row.slug, 'pdf'),
+    ...(row.answerKeyUrl != null ? { answerKeyHref: dlHref(row.language, row.slug, 'answer') } : {}),
   };
 }
 
-const ROW_SELECT = { slug: true, language: true, title: true, exerciseMode: true, subjectTags: true } as const;
+const ROW_SELECT = { slug: true, language: true, title: true, exerciseMode: true, subjectTags: true, answerKeyUrl: true } as const;
 
 /**
  * Resolve the per-mode samples for a maker in a locale.

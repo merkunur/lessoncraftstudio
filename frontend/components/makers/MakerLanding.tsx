@@ -74,6 +74,9 @@ export default async function MakerLanding({
 
   const launchUrl = makerGeneratorUrl(makerKey, locale);
   const launchLabel = content.labels.launchCta.replace('{name}', content.name);
+  // Sample-modal action buttons (Download PDF / Answer key / Make your own). The deck's
+  // own baked strip is hidden inside an iframe, so the modal renders them host-side.
+  const tActions = await getTranslations({ locale, namespace: 'deckActions' });
 
   // "See what you can make" samples — fetched once here so the JSON-LD screenshots
   // and the rendered section share a single DB read (ISR-cached).
@@ -145,6 +148,13 @@ export default async function MakerLanding({
           modeNames={content.modeNames}
           samplesIntro={content.samplesIntro}
           data={samplesData}
+          makeYourOwnHref={launchUrl}
+          actionLabels={{
+            downloadPdf: tActions('downloadPdf'),
+            answerKey: tActions('answerKey'),
+            makeYourOwn: tActions('makeYourOwn'),
+            ariaLabel: tActions('ariaLabel'),
+          }}
         />
 
         {/* Crawlable editorial body — the SEO surface for the maker. */}

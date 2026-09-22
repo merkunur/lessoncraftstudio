@@ -16,7 +16,7 @@ import {
   DEFAULT_MODE_KEY,
 } from '@/lib/seo/maker-samples';
 import { getExerciseModeName } from '@/lib/taxonomy';
-import MakerSampleTile from './MakerSampleTile';
+import MakerSampleTile, { type SampleActionLabels } from './MakerSampleTile';
 import type { MakerKey } from '@/lib/seo/maker-content';
 import { LOCALE_NAMES, SupportedLocale } from '@/config/locales';
 
@@ -41,6 +41,10 @@ interface MakerSamplesProps {
   samplesIntro?: string;                 // single-mode maker intro
   /** Pre-fetched samples (so the page can share one fetch with its JSON-LD). Falls back to fetching. */
   data?: MakerSamplesResult;
+  /** "Make your own" target in the sample modal — the generator itself on its own page. */
+  makeYourOwnHref?: string;
+  /** Localized deckActions.* strings for the sample modal's action buttons. */
+  actionLabels?: SampleActionLabels;
 }
 
 /** 'two-symbols-add-sub' -> 'Two Symbols Add Sub'. Last-resort name. */
@@ -76,6 +80,8 @@ export default async function MakerSamples({
   modeNames,
   samplesIntro,
   data: preData,
+  makeYourOwnHref,
+  actionLabels,
 }: MakerSamplesProps): Promise<JSX.Element | null> {
   const data = preData ?? (await fetchMakerSamples(makerKey, locale));
 
@@ -130,6 +136,10 @@ export default async function MakerSamples({
                     chipLabel={chipFor(sample)}
                     playLabel={playLabel}
                     closeLabel={closeLabel}
+                    pdfHref={sample.pdfHref}
+                    answerKeyHref={sample.answerKeyHref}
+                    makeHref={makeYourOwnHref}
+                    actionLabels={actionLabels}
                     landingHref={sample.landingHref}
                     /* The tile's title here is the MODE name, so label the
                        landing link with the worksheet's own localized title. */
@@ -155,6 +165,10 @@ export default async function MakerSamples({
                   chipLabel={chipFor(sample)}
                   playLabel={playLabel}
                   closeLabel={closeLabel}
+                  pdfHref={sample.pdfHref}
+                  answerKeyHref={sample.answerKeyHref}
+                  makeHref={makeYourOwnHref}
+                  actionLabels={actionLabels}
                   landingHref={sample.landingHref}
                 />
               </div>
@@ -183,6 +197,10 @@ export default async function MakerSamples({
                   chipLabel={item.targetName}
                   playLabel={playLabel}
                   closeLabel={closeLabel}
+                  pdfHref={item.sample.pdfHref}
+                  answerKeyHref={item.sample.answerKeyHref}
+                  makeHref={makeYourOwnHref}
+                  actionLabels={actionLabels}
                   landingHref={item.sample.landingHref}
                   landingLabel={item.sample.title}
                 />

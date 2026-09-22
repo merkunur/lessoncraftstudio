@@ -36,7 +36,19 @@ const ROWS = [
     'Odd or Even? Write Two Equal Addends', 'Circle the dots two by two. Then write the number as two equal parts and write what is left over in the small box.',
     { gradeBand: 'G2' }],
   ['g1', 'G1-369', 'odd-and-even-can-two-friends-share-fairly', 'G1-351-odd-and-even.js', 2,
-    { mode: 'share', range: [5, 12], lanes: 6, iconPx: 44, perRow: 6, split: [3, 3], pills: true },
+    // ⚠ perRow and range are LOCKED TOGETHER here — changing either alone re-opens an answer leak.
+    // At an EVEN row width the last row's count always has the same parity as the pile (N = pk + r
+    // with p even makes pk even, so N ≡ r), and a child who counts only the final row scores 100%
+    // on a page whose whole question is "is this pile even?". MEASURED at the shipped perRow 6 over
+    // [5,12]: the tell held on 8 of 8 pile sizes — a fully reliable rule, not a coincidence — and the
+    // da render bears it out (piles 7/5/8/6/12/9, last rows 1/5/2/6/6/3, parities identical).
+    // The picture band is 284 px (measured on the render), so perRow 7 (344) and a single row of 12
+    // (594) do not fit; and the type caps this face at 2 rows, so perRow 5 needs the range to end at
+    // 10. That combination leaks on 1 of 6 — no rule left to learn. The range cost is nil at family
+    // level: the sibling G1-370 covers 11-18, so the two faces now partition [5,10] and [11,18]
+    // instead of overlapping. ⭐ G1-370 keeps perRow 9, which MEASURES 0 of 8 — widening it to 10 for
+    // cleaner pairing (three panels asked) would take it straight to 8 of 8.
+    { mode: 'share', range: [5, 10], lanes: 6, iconPx: 44, perRow: 5, split: [3, 3], pills: true },
     'Can Two Friends Share Fairly?', 'Share the pictures between the two friends, one each in turn. Write how many each friend gets and how many are left over, then circle odd or even.',
     THEMED],
   ['g2', 'G2-352', 'odd-and-even-under-100-look-at-the-ones-box', 'G1-351-odd-and-even.js', 2,

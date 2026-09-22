@@ -13,6 +13,7 @@
  */
 
 import { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import Image from 'next/image';
 
 interface MakerSampleTileProps {
@@ -50,7 +51,7 @@ export interface SampleActionLabels {
 
 // Pill classes mirror the strip baked into every deck.html (scripts/lib/deck-actions.js):
 // teal outline for the downloads, coral outline for "make" so creating reads differently.
-const PILL = 'inline-flex items-center gap-1.5 min-h-[40px] px-3 sm:px-4 rounded-full border-2 bg-white font-sans font-bold text-[13px] sm:text-sm leading-tight whitespace-nowrap no-underline transition-colors focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2';
+const PILL = 'inline-flex items-center gap-1 sm:gap-1.5 min-h-[40px] px-2.5 sm:px-4 rounded-full border-2 bg-white font-sans font-bold text-xs sm:text-sm leading-tight whitespace-nowrap no-underline transition-colors focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2';
 const PILL_TEAL = `${PILL} border-[#146B5E] text-[#146B5E] hover:bg-[#E3EEEB] focus-visible:outline-[#146B5E]`;
 const PILL_MAKE = `${PILL} border-[#F2784B] text-[#9A4521] hover:bg-[#FBEDE6] focus-visible:outline-[#F2784B]`;
 const ICON = 'w-4 h-4 flex-shrink-0';
@@ -150,7 +151,7 @@ export default function MakerSampleTile({
   ) : null;
 
   const actions = actionLabels && (pdfHref || answerKeyHref || makeHref) ? (
-    <nav aria-label={actionLabels.ariaLabel} className="flex flex-wrap items-center gap-2 min-w-0">
+    <nav aria-label={actionLabels.ariaLabel} className="flex flex-wrap items-center gap-1.5 sm:gap-2 min-w-0">
       {pdfHref && (
         <a href={pdfHref} target="_blank" rel="nofollow" className={PILL_TEAL}>
           <svg className={ICON} {...iconProps}><path d="M12 4v11" /><path d="m7 11 5 5 5-5" /><path d="M5 20h14" /></svg>
@@ -203,7 +204,10 @@ export default function MakerSampleTile({
       </button>
       {landingLink}
 
-      {open && (
+      {/* Portalled to <body>: the layout's <main> is `relative z-1`, a stacking context
+          that kept this z-100 overlay UNDER the z-50 site header — the header covered the
+          modal's top row (its close button and the action buttons). */}
+      {open && createPortal(
         <div
           className="fixed inset-0 z-[100] flex items-center justify-center bg-[#0E544A]/90 p-4 sm:p-8"
           role="dialog"
@@ -215,8 +219,8 @@ export default function MakerSampleTile({
             className="relative w-full max-w-5xl h-full max-h-[90vh] bg-[#FBF3E4] rounded-3xl overflow-hidden flex flex-col shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* No title here: the sticky CategoryNav shows through at this row and the
-                text collided with its first item (operator, 2026-09-11). Only the close. */}
+            {/* No title here (operator, 2026-09-11): it collided with the CategoryNav, which
+                was drawn over this row until the modal was portalled to <body>. */}
             <div className="flex items-center justify-between gap-3 px-3 sm:px-5 py-3 border-b border-[#146B5E]/15 flex-shrink-0">
               {actions ?? <span />}
               <button
@@ -237,7 +241,8 @@ export default function MakerSampleTile({
               loading="lazy"
             />
           </div>
-        </div>
+        </div>,
+        document.body,
       )}
     </>
   );

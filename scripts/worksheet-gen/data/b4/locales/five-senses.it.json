@@ -1,0 +1,53 @@
+{
+  "verbs": {
+    "hear": "ascoltare",
+    "see": "vedere",
+    "smell": "annusare",
+    "taste": "assaggiare",
+    "touch": "toccare"
+  },
+  "starters": {
+    "hear": "Ascolto ...",
+    "see": "Vedo ...",
+    "smell": "Annuso ...",
+    "taste": "Assaggio ...",
+    "touch": "Tocco ..."
+  },
+  "signedOk": [
+    "pizza",
+    "television",
+    "book",
+    "lamp",
+    "lighthouse",
+    "flute"
+  ],
+  "organOf": {},
+  "refuse": [],
+  "strings": {
+    "K-355": {
+      "title": "I cinque sensi",
+      "instruction": "Unisci con una linea ogni disegno alla parte del corpo che usi per percepirlo."
+    },
+    "G1-357": {
+      "title": "I cinque sensi: classifica per senso",
+      "instruction": "Guarda ogni disegno e traccia una linea dal suo punto alla casella del senso che usi."
+    },
+    "G1-358": {
+      "title": "I cinque sensi: quale senso usi?",
+      "instruction": "Quale senso usi per ogni disegno? Cerchia la parte del corpo che usi."
+    },
+    "G1-359": {
+      "title": "I cinque sensi: l'intruso",
+      "instruction": "In ogni riga tre disegni vanno con lo stesso senso. Cancella quello che non ci va."
+    },
+    "G1-360": {
+      "title": "Gli organi di senso: scrivi la parola",
+      "instruction": "Copia ogni parola dal riquadro sulla riga accanto all'organo del corpo che lo fa."
+    },
+    "G1-361": {
+      "title": "Descrivere con i cinque sensi",
+      "instruction": "Completa ogni frase. Scrivi che cosa ascolti, vedi, annusi, assaggi e tocchi."
+    }
+  },
+  "strand": "Scienze"
+}

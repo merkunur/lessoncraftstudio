@@ -1,0 +1,128 @@
+{
+  "partWords": {
+    "head": "testa",
+    "hair": "capelli",
+    "eye": "occhio",
+    "ear": "orecchio",
+    "nose": "naso",
+    "mouth": "bocca",
+    "neck": "collo",
+    "shoulder": "spalla",
+    "arm": "braccio",
+    "elbow": "gomito",
+    "hand": "mano",
+    "finger": "dito",
+    "leg": "gamba",
+    "knee": "ginocchio",
+    "foot": "piede",
+    "toe": "dito del piede"
+  },
+  "overrides": {},
+  "bankWords": {
+    "head": "testa",
+    "hair": "capelli",
+    "eye": "occhio",
+    "ear": "orecchio",
+    "nose": "naso",
+    "mouth": "bocca",
+    "neck": "collo",
+    "shoulder": "spalla",
+    "arm": "braccio",
+    "elbow": "gomito",
+    "hand": "mano",
+    "finger": "dito",
+    "leg": "gamba",
+    "knee": "ginocchio",
+    "foot": "piede",
+    "toe": "dito del piede"
+  },
+  "plural": {
+    "head": "teste",
+    "hair": "capelli",
+    "eye": "occhi",
+    "ear": "orecchie",
+    "nose": "nasi",
+    "mouth": "bocche",
+    "neck": "colli",
+    "shoulder": "spalle",
+    "arm": "braccia",
+    "elbow": "gomiti",
+    "hand": "mani",
+    "finger": "dita",
+    "leg": "gambe",
+    "knee": "ginocchia",
+    "foot": "piedi",
+    "toe": "dita dei piedi"
+  },
+  "factLabels": {
+    "head": "Quante teste?",
+    "hair": "Quanti capelli?",
+    "eye": "Quanti occhi?",
+    "ear": "Quante orecchie?",
+    "nose": "Quanti nasi?",
+    "mouth": "Quante bocche?",
+    "neck": "Quanti colli?",
+    "shoulder": "Quante spalle?",
+    "arm": "Quante braccia?",
+    "elbow": "Quanti gomiti?",
+    "hand": "Quante mani?",
+    "finger": "Quante dita?",
+    "leg": "Quante gambe?",
+    "knee": "Quante ginocchia?",
+    "foot": "Quanti piedi?",
+    "toe": "Quante dita dei piedi?",
+    "fingersOneHand": "Quante dita in una mano?",
+    "toesOneFoot": "Quante dita in un piede?"
+  },
+  "use": {
+    "head": "Con la testa pensi.",
+    "hair": "I capelli tengono calda la testa.",
+    "eye": "Con gli occhi vedi.",
+    "ear": "Con le orecchie ascolti.",
+    "nose": "Con il naso annusi.",
+    "mouth": "Con la bocca mangi e parli.",
+    "neck": "Il collo gira la testa.",
+    "shoulder": "Le spalle portano lo zaino.",
+    "arm": "Con le braccia abbracci.",
+    "elbow": "I gomiti piegano le braccia.",
+    "hand": "Con le mani prendi le cose.",
+    "finger": "Con un dito indichi.",
+    "leg": "Con le gambe corri.",
+    "knee": "Le ginocchia si piegano quando salti.",
+    "foot": "Stai in piedi sui piedi.",
+    "toe": "Le dita dei piedi ti aiutano a stare in equilibrio."
+  },
+  "refuseWords": {
+    "write": [
+      "toe",
+      "knee"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "K-354": {
+      "title": "Il corpo umano",
+      "instruction": "Copia ogni parola dal riquadro sulla riga che indica quella parte del corpo."
+    },
+    "K-360": {
+      "title": "Il corpo umano: quanti ne hai?",
+      "instruction": "Quanti ne hai di ogni parte? Conta sul tuo corpo e scrivi il numero nella casella."
+    },
+    "K-361": {
+      "title": "Il corpo umano: colora con la legenda",
+      "instruction": "Leggi la legenda e colora ogni parte del corpo con il colore scritto accanto al suo nome."
+    },
+    "G1-356": {
+      "title": "Il corpo umano: scrivi la parola",
+      "instruction": "Trova sulla figura ogni parte numerata e scrivi il suo nome, una lettera in ogni casella."
+    },
+    "K-362": {
+      "title": "Il corpo umano: che cosa manca?",
+      "instruction": "A ogni corpo manca una parte. Cerchia il disegno della parte che manca e poi disegnala al suo posto."
+    },
+    "K-363": {
+      "title": "Il corpo umano: quali sono in coppia?",
+      "instruction": "Cerchia ogni parte del corpo che hai in due."
+    }
+  }
+}

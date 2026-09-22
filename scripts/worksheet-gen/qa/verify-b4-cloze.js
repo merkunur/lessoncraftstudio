@@ -146,7 +146,13 @@ const { bank: b3Bank } = require('../lib/b3-common.js');
 const { fileUri, vocab, countable, displayWord } = require('../lib/b2-common.js');
 const { pictureIndex, hasPicture } = require('../lib/b3-picture-index.js');
 const { SENTENCES } = require('../data/b2/sentences.js');
-const { ARTICLES, itKey, EN_AMBIGUOUS } = require('../data/b2/articles.js');
+const { ARTICLES, EN_AMBIGUOUS } = require('../data/b2/articles.js');
+// data/b2/articles.js defines itKey but exports only { ARTICLES, EN_EXCEPTIONS, EN_AMBIGUOUS }, so the
+// old `itKey` destructure was undefined and validateBank THREW on the Italian path alone — the it rule 5
+// (a definite article before an l' / lo noun) was dead and no it block could be validated at all.
+// The it entry's own keyFor IS itKey (articles.js:63), so the gate reads it from the shipped table.
+const itKey = ARTICLES.it.keyFor;
+if (typeof itKey !== 'function') throw new Error('verify-b4-cloze: ARTICLES.it.keyFor is not a function — the it article rule cannot run');
 const { numberWord } = require('../lib/number-words.js');
 const freeClaim = require('../../lib/free-claim.js');
 const C4 = require('../templates/components-b4.js');

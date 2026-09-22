@@ -1,0 +1,2911 @@
+{
+  "locale": "it",
+  "types": {
+    "K-353": {
+      "title": "Tangram da ritagliare: 7 pezzi e due figure",
+      "instruction": "Colora ogni pezzo come nella legenda, ritaglia i sette pezzi lungo le linee e posali sulle due figure qui sotto."
+    },
+    "K-358": {
+      "title": "Tangram facile con 2 e 3 pezzi: disegna le linee",
+      "instruction": "Guarda i pezzi sopra ogni forma. Disegna dentro la forma le linee dove quei pezzi si toccano."
+    },
+    "G1-354": {
+      "title": "Tangram: quattro ombre da costruire",
+      "instruction": "Costruisci ogni figura scura con i sette pezzi del tuo tangram. Usa sempre tutti e sette i pezzi."
+    },
+    "G1-355": {
+      "title": "Tangram: quale pezzo manca?",
+      "instruction": "A ogni figura manca un pezzo. Cerchia il pezzo che entra esattamente nello spazio vuoto."
+    },
+    "G2-347": {
+      "title": "Tangram: quale soluzione è uguale all'ombra?",
+      "instruction": "Guarda ogni ombra. Cerchia la soluzione messa esattamente come l'ombra. Quelle girate o ribaltate non vanno bene."
+    },
+    "K-359": {
+      "title": "Tangram: conta triangoli e quadrati",
+      "instruction": "Conta i triangoli di ogni figura e scrivi il numero nella prima casella. Poi conta i quadrati per la seconda."
+    },
+    "K-354": {
+      "title": "Il corpo umano",
+      "instruction": "Copia ogni parola dal riquadro sulla riga che indica quella parte del corpo."
+    },
+    "K-360": {
+      "title": "Il corpo umano: quanti ne hai?",
+      "instruction": "Quanti ne hai di ogni parte? Conta sul tuo corpo e scrivi il numero nella casella."
+    },
+    "K-361": {
+      "title": "Il corpo umano: colora con la legenda",
+      "instruction": "Leggi la legenda e colora ogni parte del corpo con il colore scritto accanto al suo nome."
+    },
+    "G1-356": {
+      "title": "Il corpo umano: scrivi la parola",
+      "instruction": "Trova sulla figura ogni parte numerata e scrivi il suo nome, una lettera in ogni casella."
+    },
+    "K-362": {
+      "title": "Il corpo umano: che cosa manca?",
+      "instruction": "A ogni corpo manca una parte. Cerchia il disegno della parte che manca e poi disegnala al suo posto."
+    },
+    "K-363": {
+      "title": "Il corpo umano: quali sono in coppia?",
+      "instruction": "Cerchia ogni parte del corpo che hai in due."
+    },
+    "K-355": {
+      "title": "I cinque sensi",
+      "instruction": "Unisci con una linea ogni disegno alla parte del corpo che usi per percepirlo."
+    },
+    "G1-357": {
+      "title": "I cinque sensi: classifica per senso",
+      "instruction": "Guarda ogni disegno e traccia una linea dal suo punto alla casella del senso che usi."
+    },
+    "G1-358": {
+      "title": "I cinque sensi: quale senso usi?",
+      "instruction": "Quale senso usi per ogni disegno? Cerchia la parte del corpo che usi."
+    },
+    "G1-359": {
+      "title": "I cinque sensi: l'intruso",
+      "instruction": "In ogni riga tre disegni vanno con lo stesso senso. Cancella quello che non ci va."
+    },
+    "G1-360": {
+      "title": "Gli organi di senso: scrivi la parola",
+      "instruction": "Copia ogni parola dal riquadro sulla riga accanto all'organo del corpo che lo fa."
+    },
+    "G1-361": {
+      "title": "Descrivere con i cinque sensi",
+      "instruction": "Completa ogni frase. Scrivi che cosa ascolti, vedi, annusi, assaggi e tocchi."
+    },
+    "K-356": {
+      "title": "Il tempo atmosferico",
+      "instruction": "Unisci con una linea ogni simbolo del tempo alla sua parola."
+    },
+    "G1-362": {
+      "title": "Il tempo atmosferico: scrivi la parola",
+      "instruction": "Trova nel riquadro la parola di ogni simbolo del tempo e scrivila, una lettera in ogni casella."
+    },
+    "K-364": {
+      "title": "Il tempo atmosferico: la mia settimana",
+      "instruction": "Ogni giorno di questa settimana guarda fuori e disegna nella sua casella il simbolo del tempo."
+    },
+    "K-365": {
+      "title": "Il tempo atmosferico: freddo o caldo?",
+      "instruction": "Guarda ogni termometro, usa la chiave per capire se fa freddo, mite o caldo e cerchia il disegno giusto."
+    },
+    "G3-385": {
+      "title": "Ciclo dell'acqua: completa lo schema",
+      "instruction": "Leggi le quattro parole nel riquadro e scrivi ognuna sulla riga che ha lo stesso numero dello schema."
+    },
+    "G1-363": {
+      "title": "Il tempo atmosferico: leggi le previsioni",
+      "instruction": "Guarda il tempo della settimana, leggi ogni domanda e cerchia il giorno giusto."
+    },
+    "K-357": {
+      "title": "Raccolta differenziata",
+      "instruction": "Ogni cosa è vuota o finita. Unisci con una linea ogni cosa al bidone in cui va."
+    },
+    "K-366": {
+      "title": "Raccolta differenziata: in quale bidone?",
+      "instruction": "Guarda ogni cosa e cerchia il bidone in cui va quando è vuota o finita."
+    },
+    "G1-364": {
+      "title": "Raccolta differenziata: di che materiale è?",
+      "instruction": "Di che materiale è ogni cosa? Scrivi la parola del riquadro sulla riga."
+    },
+    "G2-348": {
+      "title": "Raccolta differenziata: l'intruso",
+      "instruction": "In ogni riga tre cose sono dello stesso materiale. Cerchia quella diversa."
+    },
+    "K-367": {
+      "title": "Raccolta differenziata: colora i bidoni",
+      "instruction": "Leggi il nome su ogni bidone e coloralo con il colore che mostra la legenda."
+    },
+    "G1-365": {
+      "title": "Raccolta differenziata: tre cose che riciclo",
+      "instruction": "Disegna tre cose che ricicli a casa e scrivi che cosa è ognuna."
+    },
+    "G1-350": {
+      "title": "Completa le frasi",
+      "instruction": "Guarda il disegno. Cerca nel riquadro la parola che completa la frase e scrivila nella casella."
+    },
+    "G1-366": {
+      "title": "Completa la frase e scrivi la parola",
+      "instruction": "Guarda il disegno. Scrivi la parola che manca nelle caselle. Una lettera in ogni casella."
+    },
+    "G1-367": {
+      "title": "Scegli la parola giusta",
+      "instruction": "Guarda il disegno e leggi la frase. Cerchia la parola che va bene e scrivila nella casella."
+    },
+    "G2-349": {
+      "title": "Completa le frasi al plurale",
+      "instruction": "Guarda i disegni. Ce n'è più di uno. Scrivi nella casella la parola per più di uno."
+    },
+    "G2-350": {
+      "title": "Completa il testo",
+      "instruction": "Leggi tutto il testo. I tre disegni mostrano le parole che mancano. Scrivi ogni parola del riquadro al suo posto."
+    },
+    "G1-368": {
+      "title": "Collega la frase all'immagine",
+      "instruction": "Leggi ogni frase. Quale disegno completa la frase? Unisci con una linea la frase a quel disegno."
+    },
+    "G1-351": {
+      "title": "Numeri pari e dispari fino a 20",
+      "instruction": "Scrivi ogni numero nella casa a cui appartiene, la casa dei pari o quella dei dispari. Tre numeri sono già dentro e mostrano le loro coppie."
+    },
+    "G2-351": {
+      "title": "Pari o dispari? Due addendi uguali",
+      "instruction": "Cerchia i puntini a due a due. Poi scrivi il numero come due parti uguali e scrivi quello che avanza nella casella piccola."
+    },
+    "G1-369": {
+      "title": "Si può dividere in due? Pari o dispari",
+      "instruction": "Dividi i disegni tra i due amici, uno a testa a turno. Scrivi quanti ne riceve ognuno e quanti ne restano, poi cerchia pari o dispari."
+    },
+    "G2-352": {
+      "title": "Numeri pari e dispari fino a 100: guarda le unità",
+      "instruction": "Leggi la regola in alto. Guarda solo la casella delle unità di ogni numero e segna il cerchio sotto pari o dispari."
+    },
+    "G3-386": {
+      "title": "Somma pari o dispari? Senza calcolare",
+      "instruction": "Non fare il calcolo. Guarda la cifra delle unità sottolineata di ogni numero, usa la tabella e segna se la somma è pari o dispari."
+    },
+    "G1-370": {
+      "title": "Pari o dispari? Conta le figure a coppie",
+      "instruction": "Conta le figure e cerchiale a due a due. Scrivi quante coppie hai fatto, poi cerchia pari o dispari."
+    },
+    "G1-352": {
+      "title": "I pronomi personali soggetto",
+      "instruction": "Guarda la persona e leggi il nome. Cerchia la parola che usiamo al posto del nome."
+    },
+    "G1-371": {
+      "title": "Sostituisci il nome con un pronome",
+      "instruction": "Leggi la frase. Scrivi la parola del riquadro che sostituisce il nome nella seconda frase."
+    },
+    "G2-353": {
+      "title": "Chi è? Il pronome nella frase",
+      "instruction": "Leggi le frasi. Unisci con una linea ogni parola nella casella al nome che rappresenta."
+    },
+    "G2-354": {
+      "title": "Suo, sua o loro?",
+      "instruction": "Guarda di chi è la cosa. Cerchia la parola che mostra a chi appartiene."
+    },
+    "G1-372": {
+      "title": "Ordina i nomi: lui, lei o loro",
+      "instruction": "Leggi ogni cartellino con il nome. Scrivi il nome sotto la parola che usiamo per quella persona."
+    },
+    "G2-355": {
+      "title": "Riscrivi la frase con un pronome",
+      "instruction": "Leggi la frase. Riscrivila sulle righe, ma usa un pronome al posto del nome."
+    },
+    "G1-353": {
+      "title": "Le domande della frase: chi, che cosa, dove",
+      "instruction": "Leggi la frase. Guarda le parole evidenziate. Cerchia la parola che serve per chiederle."
+    },
+    "G1-373": {
+      "title": "Collega la domanda alla risposta",
+      "instruction": "Leggi ogni domanda a sinistra. Unisci con una linea la risposta giusta a destra."
+    },
+    "G1-374": {
+      "title": "Completa la domanda",
+      "instruction": "Leggi la risposta e guarda le parole evidenziate. Scrivi nella casella la parola del riquadro."
+    },
+    "G1-375": {
+      "title": "Chi, che cosa o dove? Ordina le risposte",
+      "instruction": "Leggi ogni cartellino. Scrivilo sotto la domanda a cui risponde: Chi, Che cosa o Dove."
+    },
+    "G2-356": {
+      "title": "Scrivi la domanda",
+      "instruction": "Leggi la risposta. Guarda le parole evidenziate. Scrivi sulla riga la domanda che le chiede."
+    },
+    "G2-357": {
+      "title": "Domande sull'immagine: perché e come",
+      "instruction": "Guarda l'immagine. Completa ogni domanda. Comincia con la parola già scritta sulla riga."
+    },
+    "G2-346": {
+      "title": "Arrotondare i numeri alla decina",
+      "instruction": "Arrotonda ogni numero alla decina e scrivilo nella casella. Se la cifra delle unità è 5 o più, arrotonda per eccesso."
+    },
+    "G3-387": {
+      "title": "Arrotondare per eccesso o per difetto",
+      "instruction": "Ogni numero si arrotonda per eccesso o per difetto alla decina? Scrivilo nel contenitore giusto."
+    },
+    "G3-388": {
+      "title": "Arrotondare i numeri al centinaio",
+      "instruction": "Arrotonda ogni numero al centinaio e scrivilo nella casella. Guarda la cifra delle decine."
+    },
+    "G3-389": {
+      "title": "Arrotondare e stimare la somma",
+      "instruction": "Arrotonda i due numeri alla decina e scrivili nelle caselle. Poi somma i numeri arrotondati."
+    },
+    "G3-390": {
+      "title": "Quali numeri si arrotondano a 50?",
+      "instruction": "Cerchia ogni numero che si arrotonda alla decina scritta in alto. Guarda la cifra delle unità."
+    },
+    "G3-391": {
+      "title": "Arrotondare alla decina e al centinaio",
+      "instruction": "Arrotonda ogni numero due volte: alla decina nella prima casella e al centinaio nella seconda."
+    }
+  },
+  "families": {
+    "tangram": {
+      "slug": "tangram",
+      "name": "Tangram"
+    },
+    "human-body": {
+      "slug": "il-corpo-umano",
+      "name": "Il corpo umano"
+    },
+    "five-senses": {
+      "slug": "i-cinque-sensi",
+      "name": "I cinque sensi"
+    },
+    "weather-symbols": {
+      "slug": "il-tempo-atmosferico",
+      "name": "Il tempo atmosferico"
+    },
+    "recycling": {
+      "slug": "raccolta-differenziata",
+      "name": "Raccolta differenziata"
+    },
+    "cloze": {
+      "slug": "completa-le-frasi",
+      "name": "Completa le frasi"
+    },
+    "odd-and-even": {
+      "slug": "numeri-pari-e-dispari",
+      "name": "Numeri pari e dispari"
+    },
+    "pronouns": {
+      "slug": "pronomi-personali-soggetto",
+      "name": "Pronomi personali soggetto"
+    },
+    "question-words": {
+      "slug": "le-domande-della-frase",
+      "name": "Le domande della frase"
+    },
+    "rounding": {
+      "slug": "arrotondare-i-numeri",
+      "name": "Arrotondare i numeri"
+    }
+  },
+  "skills": {
+    "tangram": {
+      "full": "Schede stampabili gratuite di tangram: ritagliare i sette pezzi, comporre figure, riconoscere le forme e contare triangoli e quadrati.",
+      "short": "Comporre figure con i sette pezzi del tangram"
+    },
+    "human-body": {
+      "full": "Schede stampabili gratuite sul corpo umano: scrivere i nomi delle parti del corpo, contarle, colorarle con la legenda e trovare quella che manca.",
+      "short": "Conoscere e nominare le parti del corpo"
+    },
+    "five-senses": {
+      "full": "Schede stampabili gratuite sui cinque sensi: collegare ogni oggetto all'organo giusto, classificare per senso e scrivere le parole vista, udito, olfatto, gusto e tatto.",
+      "short": "Collegare gli oggetti ai cinque sensi"
+    },
+    "weather-symbols": {
+      "full": "Schede stampabili gratuite sul tempo atmosferico: leggere i simboli, scrivere le parole del tempo, tenere il calendario della settimana e completare il ciclo dell'acqua.",
+      "short": "Leggere i simboli del tempo e scriverne le parole"
+    },
+    "recycling": {
+      "full": "Schede stampabili gratuite sulla raccolta differenziata: mettere ogni rifiuto nel bidone giusto, riconoscere i materiali e colorare i bidoni con i colori della norma UNI.",
+      "short": "Mettere ogni rifiuto nel bidone giusto"
+    },
+    "cloze": {
+      "full": "Schede stampabili gratuite per completare le frasi: scegliere o scrivere la parola che manca, con il disegno di aiuto, anche al plurale e in un breve testo.",
+      "short": "Completare la frase con la parola che manca"
+    },
+    "odd-and-even": {
+      "full": "Schede stampabili gratuite sui numeri pari e dispari: fino a 20 e fino a 100, con le coppie, la regola delle unità e le somme pari o dispari.",
+      "short": "Riconoscere i numeri pari e dispari"
+    },
+    "pronouns": {
+      "full": "Schede stampabili gratuite sui pronomi personali soggetto: lui, lei e loro al posto del nome, il pronome nella frase e i possessivi suo, sua e loro.",
+      "short": "Usare lui, lei e loro al posto del nome"
+    },
+    "question-words": {
+      "full": "Schede stampabili gratuite sulle domande: chi, che cosa, dove, quando e quanti, per collegare domanda e risposta, completare e scrivere la domanda giusta.",
+      "short": "Usare chi, che cosa, dove e quando nelle domande"
+    },
+    "rounding": {
+      "full": "Schede stampabili gratuite per arrotondare i numeri alla decina e al centinaio, per eccesso o per difetto, e per stimare le somme senza calcolarle.",
+      "short": "Arrotondare i numeri alla decina e al centinaio"
+    }
+  },
+  "topicMeta": {
+    "tangram": "Tangram da stampare per la scuola dell'infanzia e la primaria: modello da ritagliare, ombre da comporre, pezzo mancante e figure da contare.",
+    "human-body": "Il corpo umano da stampare per infanzia e classe prima: scrivere le parti del corpo, contarle, colorarle e completare la figura.",
+    "five-senses": "I cinque sensi da stampare per infanzia e classe prima: vista, udito, olfatto, gusto e tatto, con gli organi di senso e l'intruso.",
+    "weather-symbols": "Il tempo atmosferico da stampare: simboli e parole, calendario della settimana, termometro e il ciclo dell'acqua per la classe terza.",
+    "recycling": "Raccolta differenziata da stampare per infanzia e primaria: carta, plastica, vetro, umido e secco, materiali e bidoni da colorare.",
+    "cloze": "Frasi da completare con il disegno di aiuto: la parola che manca, la scelta fra due parole, il plurale e un breve testo, per classe prima e seconda.",
+    "odd-and-even": "Numeri pari e dispari da stampare fino a 20 e fino a 100: la casa dei pari, la regola delle unità, le coppie e le somme.",
+    "pronouns": "I pronomi personali soggetto da stampare per classe prima e seconda: lui, lei e loro, il pronome nella frase e i possessivi.",
+    "question-words": "Le domande della frase da stampare: chi, che cosa, dove, quando e quanti, con domande e risposte da collegare, completare e scrivere.",
+    "rounding": "Arrotondare i numeri da stampare per la classe terza: alla decina e al centinaio, per eccesso o per difetto, con la stima delle somme."
+  },
+  "banks": {
+    "tangram": {
+      "strings": {
+        "K-353": {
+          "title": "Tangram da ritagliare: 7 pezzi e due figure",
+          "instruction": "Colora ogni pezzo come nella legenda, ritaglia i sette pezzi lungo le linee e posali sulle due figure qui sotto."
+        },
+        "compose": {
+          "title": "Tangram facile con 2 e 3 pezzi: disegna le linee",
+          "instruction": "Guarda i pezzi sopra ogni forma. Disegna dentro la forma le linee dove quei pezzi si toccano."
+        },
+        "silhouette": {
+          "title": "Tangram: quattro ombre da costruire",
+          "instruction": "Costruisci ogni figura scura con i sette pezzi del tuo tangram. Usa sempre tutti e sette i pezzi."
+        },
+        "missing": {
+          "title": "Tangram: quale pezzo manca?",
+          "instruction": "A ogni figura manca un pezzo. Cerchia il pezzo che entra esattamente nello spazio vuoto."
+        },
+        "match": {
+          "title": "Tangram: quale soluzione è uguale all'ombra?",
+          "instruction": "Guarda ogni ombra. Cerchia la soluzione messa esattamente come l'ombra. Quelle girate o ribaltate non vanno bene."
+        },
+        "count": {
+          "title": "Tangram: conta triangoli e quadrati",
+          "instruction": "Conta i triangoli di ogni figura e scrivi il numero nella prima casella. Poi conta i quadrati per la seconda."
+        }
+      }
+    },
+    "human-body": {
+      "partWords": {
+        "head": "testa",
+        "hair": "capelli",
+        "eye": "occhio",
+        "ear": "orecchio",
+        "nose": "naso",
+        "mouth": "bocca",
+        "neck": "collo",
+        "shoulder": "spalla",
+        "arm": "braccio",
+        "elbow": "gomito",
+        "hand": "mano",
+        "finger": "dito",
+        "leg": "gamba",
+        "knee": "ginocchio",
+        "foot": "piede",
+        "toe": "dito del piede"
+      },
+      "overrides": {},
+      "bankWords": {
+        "head": "testa",
+        "hair": "capelli",
+        "eye": "occhio",
+        "ear": "orecchio",
+        "nose": "naso",
+        "mouth": "bocca",
+        "neck": "collo",
+        "shoulder": "spalla",
+        "arm": "braccio",
+        "elbow": "gomito",
+        "hand": "mano",
+        "finger": "dito",
+        "leg": "gamba",
+        "knee": "ginocchio",
+        "foot": "piede",
+        "toe": "dito del piede"
+      },
+      "plural": {
+        "head": "teste",
+        "hair": "capelli",
+        "eye": "occhi",
+        "ear": "orecchie",
+        "nose": "nasi",
+        "mouth": "bocche",
+        "neck": "colli",
+        "shoulder": "spalle",
+        "arm": "braccia",
+        "elbow": "gomiti",
+        "hand": "mani",
+        "finger": "dita",
+        "leg": "gambe",
+        "knee": "ginocchia",
+        "foot": "piedi",
+        "toe": "dita dei piedi"
+      },
+      "factLabels": {
+        "head": "Quante teste?",
+        "hair": "Quanti capelli?",
+        "eye": "Quanti occhi?",
+        "ear": "Quante orecchie?",
+        "nose": "Quanti nasi?",
+        "mouth": "Quante bocche?",
+        "neck": "Quanti colli?",
+        "shoulder": "Quante spalle?",
+        "arm": "Quante braccia?",
+        "elbow": "Quanti gomiti?",
+        "hand": "Quante mani?",
+        "finger": "Quante dita?",
+        "leg": "Quante gambe?",
+        "knee": "Quante ginocchia?",
+        "foot": "Quanti piedi?",
+        "toe": "Quante dita dei piedi?",
+        "fingersOneHand": "Quante dita in una mano?",
+        "toesOneFoot": "Quante dita in un piede?"
+      },
+      "use": {
+        "head": "Con la testa pensi.",
+        "hair": "I capelli tengono calda la testa.",
+        "eye": "Con gli occhi vedi.",
+        "ear": "Con le orecchie ascolti.",
+        "nose": "Con il naso annusi.",
+        "mouth": "Con la bocca mangi e parli.",
+        "neck": "Il collo gira la testa.",
+        "shoulder": "Le spalle portano lo zaino.",
+        "arm": "Con le braccia abbracci.",
+        "elbow": "I gomiti piegano le braccia.",
+        "hand": "Con le mani prendi le cose.",
+        "finger": "Con un dito indichi.",
+        "leg": "Con le gambe corri.",
+        "knee": "Le ginocchia si piegano quando salti.",
+        "foot": "Stai in piedi sui piedi.",
+        "toe": "Le dita dei piedi ti aiutano a stare in equilibrio."
+      },
+      "refuseWords": {
+        "write": [
+          "toe",
+          "knee"
+        ]
+      },
+      "refuse": [],
+      "strings": {
+        "K-354": {
+          "title": "Il corpo umano",
+          "instruction": "Copia ogni parola dal riquadro sulla riga che indica quella parte del corpo."
+        },
+        "K-360": {
+          "title": "Il corpo umano: quanti ne hai?",
+          "instruction": "Quanti ne hai di ogni parte? Conta sul tuo corpo e scrivi il numero nella casella."
+        },
+        "K-361": {
+          "title": "Il corpo umano: colora con la legenda",
+          "instruction": "Leggi la legenda e colora ogni parte del corpo con il colore scritto accanto al suo nome."
+        },
+        "G1-356": {
+          "title": "Il corpo umano: scrivi la parola",
+          "instruction": "Trova sulla figura ogni parte numerata e scrivi il suo nome, una lettera in ogni casella."
+        },
+        "K-362": {
+          "title": "Il corpo umano: che cosa manca?",
+          "instruction": "A ogni corpo manca una parte. Cerchia il disegno della parte che manca e poi disegnala al suo posto."
+        },
+        "K-363": {
+          "title": "Il corpo umano: quali sono in coppia?",
+          "instruction": "Cerchia ogni parte del corpo che hai in due."
+        }
+      }
+    },
+    "five-senses": {
+      "verbs": {
+        "hear": "ascoltare",
+        "see": "vedere",
+        "smell": "annusare",
+        "taste": "assaggiare",
+        "touch": "toccare"
+      },
+      "starters": {
+        "hear": "Ascolto ...",
+        "see": "Vedo ...",
+        "smell": "Annuso ...",
+        "taste": "Assaggio ...",
+        "touch": "Tocco ..."
+      },
+      "signedOk": [
+        "pizza",
+        "television",
+        "book",
+        "lamp",
+        "lighthouse",
+        "flute"
+      ],
+      "organOf": {},
+      "refuse": [],
+      "strings": {
+        "K-355": {
+          "title": "I cinque sensi",
+          "instruction": "Unisci con una linea ogni disegno alla parte del corpo che usi per percepirlo."
+        },
+        "G1-357": {
+          "title": "I cinque sensi: classifica per senso",
+          "instruction": "Guarda ogni disegno e traccia una linea dal suo punto alla casella del senso che usi."
+        },
+        "G1-358": {
+          "title": "I cinque sensi: quale senso usi?",
+          "instruction": "Quale senso usi per ogni disegno? Cerchia la parte del corpo che usi."
+        },
+        "G1-359": {
+          "title": "I cinque sensi: l'intruso",
+          "instruction": "In ogni riga tre disegni vanno con lo stesso senso. Cancella quello che non ci va."
+        },
+        "G1-360": {
+          "title": "Gli organi di senso: scrivi la parola",
+          "instruction": "Copia ogni parola dal riquadro sulla riga accanto all'organo del corpo che lo fa."
+        },
+        "G1-361": {
+          "title": "Descrivere con i cinque sensi",
+          "instruction": "Completa ogni frase. Scrivi che cosa ascolti, vedi, annusi, assaggi e tocchi."
+        }
+      },
+      "strand": "Scienze"
+    },
+    "weather-symbols": {
+      "symbolWords": {
+        "sun": "sole",
+        "cloud": "nuvola",
+        "rain": "pioggia",
+        "storm": "temporale",
+        "snow": "neve",
+        "rainbow": "arcobaleno"
+      },
+      "forecastAsks": {
+        "sun": "Che giorno c'è il sole?",
+        "cloud": "Che giorno è nuvoloso?",
+        "rain": "Che giorno piove?",
+        "storm": "Che giorno c'è il temporale?",
+        "snow": "Che giorno nevica?",
+        "rainbow": "Che giorno c'è l'arcobaleno?"
+      },
+      "cycleLabels": {
+        "evaporation": "evaporazione",
+        "condensation": "condensazione",
+        "precipitation": "precipitazione",
+        "collection": "raccolta",
+        "runoff": "ruscellamento"
+      },
+      "bandWords": {
+        "cold": "freddo",
+        "warm": "mite",
+        "hot": "caldo"
+      },
+      "forecastDays": null,
+      "diaryDays": null,
+      "diaryStart": "mon",
+      "bankWords": {},
+      "distractors": [
+        "vento",
+        "nebbia"
+      ],
+      "refuse": [],
+      "strings": {
+        "K-356": {
+          "title": "Il tempo atmosferico",
+          "instruction": "Unisci con una linea ogni simbolo del tempo alla sua parola."
+        },
+        "G1-362": {
+          "title": "Il tempo atmosferico: scrivi la parola",
+          "instruction": "Trova nel riquadro la parola di ogni simbolo del tempo e scrivila, una lettera in ogni casella."
+        },
+        "K-364": {
+          "title": "Il tempo atmosferico: la mia settimana",
+          "instruction": "Ogni giorno di questa settimana guarda fuori e disegna nella sua casella il simbolo del tempo."
+        },
+        "K-365": {
+          "title": "Il tempo atmosferico: freddo o caldo?",
+          "instruction": "Guarda ogni termometro, usa la chiave per capire se fa freddo, mite o caldo e cerchia il disegno giusto."
+        },
+        "G3-385": {
+          "title": "Ciclo dell'acqua: completa lo schema",
+          "instruction": "Leggi le quattro parole nel riquadro e scrivi ognuna sulla riga che ha lo stesso numero dello schema."
+        },
+        "G1-363": {
+          "title": "Il tempo atmosferico: leggi le previsioni",
+          "instruction": "Guarda il tempo della settimana, leggi ogni domanda e cerchia il giorno giusto."
+        }
+      },
+      "strand": "Scienze"
+    },
+    "recycling": {
+      "bins": [
+        {
+          "key": "carta",
+          "label": "Carta",
+          "longLabel": "Carta e cartone",
+          "color": "codeBlue",
+          "colorWord": "blu",
+          "materials": [
+            "paper",
+            "cardboard"
+          ],
+          "packagingOnly": false
+        },
+        {
+          "key": "plastica",
+          "label": "Plastica",
+          "longLabel": "Plastica e lattine",
+          "color": "codeYellow",
+          "colorWord": "giallo",
+          "materials": [
+            "plastic",
+            "metal"
+          ],
+          "packagingOnly": true
+        },
+        {
+          "key": "vetro",
+          "label": "Vetro",
+          "longLabel": "Vetro",
+          "color": "codeGreen",
+          "colorWord": "verde",
+          "materials": [
+            "glass"
+          ],
+          "packagingOnly": true
+        },
+        {
+          "key": "umido",
+          "label": "Umido",
+          "longLabel": "Umido, gli scarti di cibo",
+          "color": "codeBrown",
+          "colorWord": "marrone",
+          "materials": [
+            "organic"
+          ],
+          "packagingOnly": false
+        },
+        {
+          "key": "secco",
+          "label": "Secco",
+          "longLabel": "Secco indifferenziato",
+          "color": "inkSoft",
+          "colorWord": "grigio",
+          "materials": [
+            "plastic",
+            "metal"
+          ],
+          "packagingOnly": false
+        }
+      ],
+      "route": {},
+      "excludeItems": {
+        "saucepan": "Una pentola va all'isola ecologica: in pagina non esiste un bidone per lei."
+      },
+      "materialWords": {
+        "paper": "carta",
+        "cardboard": "cartone",
+        "glass": "vetro",
+        "plastic": "plastica",
+        "metal": "metallo"
+      },
+      "colorConvention": "national",
+      "refuse": [],
+      "starters": [],
+      "scheme": "Cinque bidoni: carta e cartone, plastica e lattine, vetro, umido e secco. I colori seguono la norma UNI 11686 (blu, giallo, verde, marrone, grigio), ma cambiano da comune a comune.",
+      "enAudit": "La versione inglese rifiuta la faccia dei colori perché negli Stati Uniti non esiste una norma nazionale: la scelta è corretta e in italiano non si applica, perché la UNI 11686 esiste. Nel blocco inglese la pentola, il bullone e il dado finiscono nel bidone del metallo insieme alle lattine, anche se non sono imballaggi: in Italia questo sarebbe sbagliato. Il campo longLabel inglese 'Compost (food scraps)' usa una parentesi che in italiano rende la pillola meno leggibile.",
+      "strings": {
+        "K-357": {
+          "title": "Raccolta differenziata",
+          "instruction": "Ogni cosa è vuota o finita. Unisci con una linea ogni cosa al bidone in cui va."
+        },
+        "K-366": {
+          "title": "Raccolta differenziata: in quale bidone?",
+          "instruction": "Guarda ogni cosa e cerchia il bidone in cui va quando è vuota o finita."
+        },
+        "G1-364": {
+          "title": "Raccolta differenziata: di che materiale è?",
+          "instruction": "Di che materiale è ogni cosa? Scrivi la parola del riquadro sulla riga."
+        },
+        "G2-348": {
+          "title": "Raccolta differenziata: l'intruso",
+          "instruction": "In ogni riga tre cose sono dello stesso materiale. Cerchia quella diversa."
+        },
+        "K-367": {
+          "title": "Raccolta differenziata: colora i bidoni",
+          "instruction": "Leggi il nome su ogni bidone e coloralo con il colore che mostra la legenda."
+        },
+        "G1-365": {
+          "title": "Raccolta differenziata: tre cose che riciclo",
+          "instruction": "Disegna tre cose che ricicli a casa e scrivi che cosa è ognuna."
+        }
+      },
+      "strand": "Scienze"
+    },
+    "cloze": {
+      "nameSlot": false,
+      "articleTable": {
+        "m": "il",
+        "f": "la"
+      },
+      "boxWord": "una lettera in ogni casella",
+      "confusable": [
+        [
+          "duck",
+          "goose"
+        ],
+        [
+          "hen",
+          "chicken"
+        ],
+        [
+          "ball",
+          "balloon"
+        ],
+        [
+          "boat",
+          "sailboat"
+        ]
+      ],
+      "agreeingAdjectives": [],
+      "frames": [
+        {
+          "id": "cow-milk",
+          "noun": "cow",
+          "form": "sg",
+          "text": "La {gap} ci dà il latte.",
+          "fits": [
+            "cow",
+            "goat",
+            "sheep"
+          ],
+          "foil": "hen",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "cow"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "pig-mud",
+          "noun": "pig",
+          "form": "sg",
+          "text": "Il {gap} si rotola nel fango.",
+          "fits": [
+            "pig"
+          ],
+          "foil": "horse",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "pig"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "rooster-crow",
+          "noun": "rooster",
+          "form": "sg",
+          "text": "Il {gap} canta presto la mattina.",
+          "fits": [
+            "rooster"
+          ],
+          "foil": "turkey",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "birds 2",
+            "noun": "rooster"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "owl-night",
+          "noun": "owl",
+          "form": "sg",
+          "text": "Di notte il {gap} vola tra gli alberi.",
+          "fits": [
+            "owl",
+            "bat"
+          ],
+          "foil": "raccoon",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "owl"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "giraffe-neck",
+          "noun": "giraffe",
+          "form": "sg",
+          "text": "La {gap} ha il collo lunghissimo.",
+          "fits": [
+            "giraffe"
+          ],
+          "foil": "zebra",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "zoo animals",
+            "noun": "giraffe"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "zebra-stripes",
+          "noun": "zebra",
+          "form": "sg",
+          "text": "La {gap} ha le righe bianche e nere.",
+          "fits": [
+            "zebra"
+          ],
+          "foil": "giraffe",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "animals",
+            "noun": "zebra"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "penguin-ice",
+          "noun": "penguin",
+          "form": "sg",
+          "text": "Il {gap} scivola sul ghiaccio.",
+          "fits": [
+            "penguin"
+          ],
+          "foil": "seagull",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "birds 2",
+            "noun": "penguin"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "rabbit-carrot",
+          "noun": "rabbit",
+          "form": "sg",
+          "text": "Il {gap} rosicchia una carota.",
+          "fits": [
+            "rabbit"
+          ],
+          "foil": "cat",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "animals",
+            "noun": "rabbit"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "turtle-shell",
+          "noun": "turtle",
+          "form": "sg",
+          "text": "La {gap} si nasconde nel guscio.",
+          "fits": [
+            "turtle"
+          ],
+          "foil": "fox",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "beach",
+            "noun": "turtle"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "woodpecker-tree",
+          "noun": "woodpecker",
+          "form": "sg",
+          "text": "Il {gap} fa i buchi nel tronco.",
+          "fits": [
+            "woodpecker"
+          ],
+          "foil": "owl",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "woodpecker"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "lion-roar",
+          "noun": "lion",
+          "form": "sg",
+          "text": "Il {gap} ruggisce nella savana.",
+          "fits": [
+            "lion"
+          ],
+          "foil": "wolf",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "zoo animals",
+            "noun": "lion"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "monkey-branch",
+          "noun": "monkey",
+          "form": "sg",
+          "text": "La {gap} salta di ramo in ramo.",
+          "fits": [
+            "monkey",
+            "lemur"
+          ],
+          "foil": "goat",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "zoo animals",
+            "noun": "monkey"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "whale-sea",
+          "noun": "whale",
+          "form": "sg",
+          "text": "La {gap} nuota nel mare profondo.",
+          "fits": [
+            "whale",
+            "dolphin"
+          ],
+          "foil": "tiger",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "beach",
+            "noun": "whale"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "tractor-field",
+          "noun": "tractor",
+          "form": "sg",
+          "text": "Il {gap} ara il campo del contadino.",
+          "fits": [
+            "tractor"
+          ],
+          "foil": "van",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "tractor"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "train-station",
+          "noun": "train",
+          "form": "sg",
+          "text": "Il {gap} fischia alla stazione.",
+          "fits": [
+            "train",
+            "subway"
+          ],
+          "foil": "rocket",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "train"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "ball-meadow",
+          "noun": "ball",
+          "form": "sg",
+          "text": "La {gap} rotola sul prato.",
+          "fits": [
+            "ball"
+          ],
+          "foil": "doll",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "toys",
+            "noun": "ball"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        }
+      ],
+      "plural": [
+        {
+          "id": "cows-barn",
+          "noun": "cow",
+          "form": "pl",
+          "text": "Tre {gap} dormono nella stalla.",
+          "clones": 3,
+          "fits": [
+            "cow",
+            "goat",
+            "sheep",
+            "horse",
+            "donkey",
+            "calf",
+            "bull",
+            "ox",
+            "foal",
+            "lamb"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "cow"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "bees-flowers",
+          "noun": "bee",
+          "form": "pl",
+          "text": "Le {gap} volano intorno ai fiori.",
+          "clones": null,
+          "fits": [
+            "bee"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "bee"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "goats-rocks",
+          "noun": "goat",
+          "form": "pl",
+          "text": "Le {gap} saltano sulle rocce.",
+          "clones": null,
+          "fits": [
+            "goat"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "goat"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "horses-gallop",
+          "noun": "horse",
+          "form": "pl",
+          "text": "Due {gap} corrono nel prato.",
+          "clones": 2,
+          "fits": [
+            "horse",
+            "foal",
+            "zebra",
+            "donkey"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "animals",
+            "noun": "horse"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "penguins-ice",
+          "noun": "penguin",
+          "form": "pl",
+          "text": "I {gap} camminano sul ghiaccio.",
+          "clones": null,
+          "fits": [
+            "penguin"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "animals",
+            "noun": "penguin"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "bats-cave",
+          "noun": "bat",
+          "form": "pl",
+          "text": "I {gap} dormono a testa in giù.",
+          "clones": null,
+          "fits": [
+            "bat"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "Things That Fly",
+            "noun": "bat"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "monkeys-trees",
+          "noun": "monkey",
+          "form": "pl",
+          "text": "Le {gap} saltano da un albero all'altro.",
+          "clones": null,
+          "fits": [
+            "monkey",
+            "lemur",
+            "orangutan"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "zoo animals",
+            "noun": "monkey"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "blueberries-blue",
+          "noun": "blueberry",
+          "form": "pl",
+          "text": "I {gap} sono piccoli, tondi e blu.",
+          "clones": null,
+          "fits": [
+            "blueberry"
+          ],
+          "predicateKind": "copula",
+          "exclusiveWhy": "l'unico frutto blu del gruppo; la mora è nera e non compare mai nella stessa pagina",
+          "pic": {
+            "theme": "fruits",
+            "noun": "blueberry"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "airplanes-runway",
+          "noun": "airplane",
+          "form": "pl",
+          "text": "Due {gap} atterrano in aeroporto.",
+          "clones": 2,
+          "fits": [
+            "airplane"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "airplane"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "hens-seeds",
+          "noun": "hen",
+          "form": "pl",
+          "text": "Le {gap} beccano i semi nel cortile.",
+          "clones": null,
+          "fits": [
+            "hen",
+            "chicken",
+            "rooster",
+            "chick",
+            "turkey"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "hen"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "sheep-wool",
+          "noun": "sheep",
+          "form": "pl",
+          "text": "Le {gap} hanno la lana bianca.",
+          "clones": null,
+          "fits": [
+            "sheep"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "sheep"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "fish-water",
+          "noun": "fish",
+          "form": "pl",
+          "text": "I {gap} nuotano nell'acqua.",
+          "clones": null,
+          "fits": [
+            "fish",
+            "dolphin",
+            "whale"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "animals",
+            "noun": "fish"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        }
+      ],
+      "stories": [
+        {
+          "id": "farm-morning",
+          "nouns": [
+            "rooster",
+            "cow",
+            "tractor"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "La mattina presto il {gap} canta.",
+            "Nella stalla la {gap} dà il latte.",
+            "Nel campo il {gap} ara la terra."
+          ],
+          "fits": [
+            [
+              "rooster"
+            ],
+            [
+              "cow",
+              "goat"
+            ],
+            [
+              "tractor"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "farm animals",
+              "noun": "rooster"
+            },
+            {
+              "theme": "farm animals",
+              "noun": "cow"
+            },
+            {
+              "theme": "vehicles",
+              "noun": "tractor"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "pond-day",
+          "nouns": [
+            "turtle",
+            "dog",
+            "fish"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "Sulla riva la {gap} dorme al sole.",
+            "Nel prato il {gap} abbaia forte.",
+            "Sotto il ponte il {gap} nuota veloce."
+          ],
+          "fits": [
+            [
+              "turtle"
+            ],
+            [
+              "dog"
+            ],
+            [
+              "fish",
+              "dolphin"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "animals",
+              "noun": "turtle"
+            },
+            {
+              "theme": "animals",
+              "noun": "dog"
+            },
+            {
+              "theme": "animals",
+              "noun": "fish"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "zoo-visit",
+          "nouns": [
+            "lion",
+            "giraffe",
+            "monkey"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "Allo zoo il {gap} ruggisce forte.",
+            "La {gap} mangia le foglie in alto.",
+            "La {gap} mangia una banana."
+          ],
+          "fits": [
+            [
+              "lion"
+            ],
+            [
+              "giraffe"
+            ],
+            [
+              "monkey",
+              "lemur"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "zoo animals",
+              "noun": "lion"
+            },
+            {
+              "theme": "zoo animals",
+              "noun": "giraffe"
+            },
+            {
+              "theme": "zoo animals",
+              "noun": "monkey"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "sky-day",
+          "nouns": [
+            "rocket",
+            "seagull",
+            "owl"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "Il {gap} parte verso lo spazio.",
+            "Sulla spiaggia il {gap} cerca le briciole.",
+            "Sul ramo il {gap} apre gli occhi."
+          ],
+          "fits": [
+            [
+              "rocket"
+            ],
+            [
+              "seagull"
+            ],
+            [
+              "owl"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "vehicles",
+              "noun": "rocket"
+            },
+            {
+              "theme": "beach",
+              "noun": "seagull"
+            },
+            {
+              "theme": "forest creatures",
+              "noun": "owl"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "toy-box",
+          "nouns": [
+            "doll",
+            "train",
+            "ball"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "La {gap} ha i capelli lunghi.",
+            "Il {gap} corre sui binari di legno.",
+            "La {gap} rimbalza sul pavimento."
+          ],
+          "fits": [
+            [
+              "doll"
+            ],
+            [
+              "train",
+              "subway"
+            ],
+            [
+              "ball"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "toys",
+              "noun": "doll"
+            },
+            {
+              "theme": "toys",
+              "noun": "train"
+            },
+            {
+              "theme": "toys",
+              "noun": "ball"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "forest-night",
+          "nouns": [
+            "fox",
+            "wolf",
+            "raccoon"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "Di notte la {gap} esce dalla tana.",
+            "Nel bosco il {gap} ulula alla luna.",
+            "Il {gap} lava il cibo nel ruscello."
+          ],
+          "fits": [
+            [
+              "fox"
+            ],
+            [
+              "wolf"
+            ],
+            [
+              "raccoon"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "forest creatures",
+              "noun": "fox"
+            },
+            {
+              "theme": "forest creatures",
+              "noun": "wolf"
+            },
+            {
+              "theme": "forest creatures",
+              "noun": "raccoon"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        }
+      ],
+      "strings": {
+        "base": {
+          "title": "Completa le frasi",
+          "instruction": "Guarda il disegno. Cerca nel riquadro la parola che completa la frase e scrivila nella casella."
+        },
+        "letters": {
+          "title": "Completa la frase e scrivi la parola",
+          "instruction": "Guarda il disegno. Scrivi la parola che manca nelle caselle. Una lettera in ogni casella."
+        },
+        "choice": {
+          "title": "Scegli la parola giusta",
+          "instruction": "Guarda il disegno e leggi la frase. Cerchia la parola che va bene e scrivila nella casella."
+        },
+        "plural": {
+          "title": "Completa le frasi al plurale",
+          "instruction": "Guarda i disegni. Ce n'è più di uno. Scrivi nella casella la parola per più di uno."
+        },
+        "story": {
+          "title": "Completa il testo",
+          "instruction": "Leggi tutto il testo. I tre disegni mostrano le parole che mancano. Scrivi ogni parola del riquadro al suo posto."
+        },
+        "match": {
+          "title": "Collega la frase all'immagine",
+          "instruction": "Leggi ogni frase. Quale disegno completa la frase? Unisci con una linea la frase a quel disegno."
+        }
+      },
+      "refuse": {
+        "plural": false
+      }
+    },
+    "odd-and-even": {
+      "chips": {
+        "odd": "dispari",
+        "even": "pari"
+      },
+      "houseOrder": [
+        "even",
+        "odd"
+      ],
+      "rule": "I numeri pari finiscono con 0, 2, 4, 6 o 8. I numeri dispari finiscono con 1, 3, 5, 7 o 9.",
+      "leftover": "avanza",
+      "pairs": "coppie",
+      "placeHeads": [
+        "da",
+        "u"
+      ],
+      "nameMaxGraphemes": 6,
+      "strings": {
+        "base": {
+          "title": "Numeri pari e dispari fino a 20",
+          "instruction": "Scrivi ogni numero nella casa a cui appartiene, la casa dei pari o quella dei dispari. Tre numeri sono già dentro e mostrano le loro coppie."
+        },
+        "proof": {
+          "title": "Pari o dispari? Due addendi uguali",
+          "instruction": "Cerchia i puntini a due a due. Poi scrivi il numero come due parti uguali e scrivi quello che avanza nella casella piccola."
+        },
+        "share": {
+          "title": "Si può dividere in due? Pari o dispari",
+          "instruction": "Dividi i disegni tra i due amici, uno a testa a turno. Scrivi quanti ne riceve ognuno e quanti ne restano, poi cerchia pari o dispari."
+        },
+        "ones": {
+          "title": "Numeri pari e dispari fino a 100: guarda le unità",
+          "instruction": "Leggi la regola in alto. Guarda solo la casella delle unità di ogni numero e segna il cerchio sotto pari o dispari."
+        },
+        "sums": {
+          "title": "Somma pari o dispari? Senza calcolare",
+          "instruction": "Non fare il calcolo. Guarda la cifra delle unità sottolineata di ogni numero, usa la tabella e segna se la somma è pari o dispari."
+        },
+        "count": {
+          "title": "Pari o dispari? Conta le figure a coppie",
+          "instruction": "Conta le figure e cerchiale a due a due. Scrivi quante coppie hai fatto, poi cerchia pari o dispari."
+        }
+      },
+      "refuse": {},
+      "strand": "Numeri"
+    },
+    "pronouns": {
+      "people": [
+        {
+          "key": "architect",
+          "pic": {
+            "theme": "occupations",
+            "noun": "architect"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "author",
+          "pic": {
+            "theme": "occupations",
+            "noun": "author"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "barber",
+          "pic": {
+            "theme": "occupations",
+            "noun": "barber"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "baker",
+          "pic": {
+            "theme": "occupations",
+            "noun": "baker"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "detective",
+          "pic": {
+            "theme": "occupations",
+            "noun": "detective"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "doctor",
+          "pic": {
+            "theme": "occupations",
+            "noun": "doctor"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "judge",
+          "pic": {
+            "theme": "occupations",
+            "noun": "judge"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "musician",
+          "pic": {
+            "theme": "occupations",
+            "noun": "musician"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "pharmacist",
+          "pic": {
+            "theme": "occupations",
+            "noun": "pharmacist"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "photographer",
+          "pic": {
+            "theme": "occupations",
+            "noun": "photographer"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "singer",
+          "pic": {
+            "theme": "occupations",
+            "noun": "singer"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "police_officer",
+          "pic": {
+            "theme": "occupations",
+            "noun": "police_officer"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "coach",
+          "pic": {
+            "theme": "occupations",
+            "noun": "coach"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "farmer",
+          "pic": {
+            "theme": "occupations",
+            "noun": "farmer"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "janitor",
+          "pic": {
+            "theme": "occupations",
+            "noun": "janitor"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "student",
+          "pic": {
+            "theme": "classroom",
+            "noun": "student"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "carpenter",
+          "pic": {
+            "theme": "occupations",
+            "noun": "carpenter"
+          },
+          "depicted": "m",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "chef",
+          "pic": {
+            "theme": "occupations",
+            "noun": "chef"
+          },
+          "depicted": "m",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "gardener",
+          "pic": {
+            "theme": "occupations",
+            "noun": "gardener"
+          },
+          "depicted": "m",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "construction_worker",
+          "pic": {
+            "theme": "occupations",
+            "noun": "construction_worker"
+          },
+          "depicted": "m",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "librarian",
+          "pic": {
+            "theme": "occupations",
+            "noun": "librarian"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "teacher",
+          "pic": {
+            "theme": "occupations",
+            "noun": "teacher"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "waitress",
+          "pic": {
+            "theme": "occupations",
+            "noun": "waitress"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "flight_attendant",
+          "pic": {
+            "theme": "occupations",
+            "noun": "flight_attendant"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "mail_carrier_2",
+          "pic": {
+            "theme": "occupations",
+            "noun": "mail_carrier_2"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "athlete",
+          "pic": {
+            "theme": "occupations",
+            "noun": "athlete"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "ballerina",
+          "pic": {
+            "theme": "occupations",
+            "noun": "ballerina"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "girl",
+          "pic": {
+            "theme": "toys",
+            "noun": "girl"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "cashier",
+          "pic": {
+            "theme": "occupations",
+            "noun": "cashier"
+          },
+          "depicted": "f",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "florist",
+          "pic": {
+            "theme": "occupations",
+            "noun": "florist"
+          },
+          "depicted": "f",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "nurse",
+          "pic": {
+            "theme": "occupations",
+            "noun": "nurse"
+          },
+          "depicted": "f",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "tailor",
+          "pic": {
+            "theme": "occupations",
+            "noun": "tailor"
+          },
+          "depicted": "f",
+          "minPx": 56,
+          "picOpened": true
+        }
+      ],
+      "names": [
+        {
+          "name": "Sofia",
+          "gender": "f"
+        },
+        {
+          "name": "Matteo",
+          "gender": "m"
+        },
+        {
+          "name": "Giulia",
+          "gender": "f"
+        },
+        {
+          "name": "Marco",
+          "gender": "m"
+        },
+        {
+          "name": "Aurora",
+          "gender": "f"
+        },
+        {
+          "name": "Luca",
+          "gender": "m"
+        },
+        {
+          "name": "Alice",
+          "gender": "f"
+        },
+        {
+          "name": "Diego",
+          "gender": "m"
+        },
+        {
+          "name": "Chiara",
+          "gender": "f"
+        },
+        {
+          "name": "Simone",
+          "gender": "m"
+        },
+        {
+          "name": "Elisa",
+          "gender": "f"
+        },
+        {
+          "name": "Paolo",
+          "gender": "m"
+        }
+      ],
+      "and": "e",
+      "andBefore": null,
+      "chips": [
+        "lui",
+        "lei",
+        "loro"
+      ],
+      "initial": [
+        "Lui",
+        "Lei",
+        "Loro"
+      ],
+      "map": {
+        "base": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        },
+        "replace": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        },
+        "anaphora": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        },
+        "sort": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        },
+        "rewrite": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        }
+      },
+      "objectMap": null,
+      "objects": [],
+      "frames": [
+        {
+          "id": "read-book",
+          "sg": "{subj} legge un libro.",
+          "pl": "{subj} leggono un libro."
+        },
+        {
+          "id": "play-ball",
+          "sg": "{subj} gioca con la palla.",
+          "pl": "{subj} giocano con la palla."
+        },
+        {
+          "id": "eat-apple",
+          "sg": "{subj} mangia una mela.",
+          "pl": "{subj} mangiano una mela."
+        },
+        {
+          "id": "ride-bike",
+          "sg": "{subj} va in bicicletta.",
+          "pl": "{subj} vanno in bicicletta."
+        },
+        {
+          "id": "draw-cat",
+          "sg": "{subj} disegna un gatto.",
+          "pl": "{subj} disegnano un gatto."
+        },
+        {
+          "id": "sing-song",
+          "sg": "{subj} canta una canzone.",
+          "pl": "{subj} cantano una canzone."
+        },
+        {
+          "id": "jump-rope",
+          "sg": "{subj} salta con la corda.",
+          "pl": "{subj} saltano con la corda."
+        },
+        {
+          "id": "walk-dog",
+          "sg": "{subj} porta fuori il cane.",
+          "pl": "{subj} portano fuori il cane."
+        },
+        {
+          "id": "paint-picture",
+          "sg": "{subj} dipinge un quadro.",
+          "pl": "{subj} dipingono un quadro."
+        },
+        {
+          "id": "build-tower",
+          "sg": "{subj} costruisce una torre.",
+          "pl": "{subj} costruiscono una torre."
+        },
+        {
+          "id": "go-park",
+          "sg": "{subj} va al parco.",
+          "pl": "{subj} vanno al parco."
+        },
+        {
+          "id": "drink-milk",
+          "sg": "{subj} beve il latte.",
+          "pl": "{subj} bevono il latte."
+        }
+      ],
+      "anaphora": [
+        {
+          "id": "park",
+          "intro": "{a} e {b} sono al parco.",
+          "s": [
+            {
+              "text": "{P} ha una palla.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} ha un aquilone.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "school",
+          "intro": "{a} e {b} sono a scuola.",
+          "s": [
+            {
+              "text": "{P} legge un libro.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} disegna un fiore.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "home",
+          "intro": "{a} e {b} sono a casa.",
+          "s": [
+            {
+              "text": "{P} mangia una mela.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} beve il latte.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "beach",
+          "intro": "{a} e {b} sono al mare.",
+          "s": [
+            {
+              "text": "{P} ha un secchiello.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} ha una conchiglia.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "garden",
+          "intro": "{a} e {b} sono in giardino.",
+          "s": [
+            {
+              "text": "{P} coglie un fiore.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} annaffia una pianta.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "kitchen",
+          "intro": "{a} e {b} sono in cucina.",
+          "s": [
+            {
+              "text": "{P} prepara una torta.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} taglia il pane.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "bus",
+          "intro": "{a} e {b} sono sull'autobus.",
+          "s": [
+            {
+              "text": "{P} ha una borsa rossa.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} ha una borsa blu.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "zoo",
+          "intro": "{a} e {b} sono allo zoo.",
+          "s": [
+            {
+              "text": "{P} vede un leone.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} vede una scimmia.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        }
+      ],
+      "possessive": {
+        "chips": [
+          "suo",
+          "sua",
+          "loro"
+        ],
+        "chipW": 60,
+        "frame": {
+          "sg": "{subj} ha {art} ___ {thing}.",
+          "pl": "{subj} hanno {art} ___ {thing}."
+        },
+        "artTable": {
+          "m": "il",
+          "f": "la"
+        },
+        "things": [
+          {
+            "key": "ball",
+            "pic": {
+              "theme": "toys",
+              "noun": "ball"
+            },
+            "forms": {
+              "m1": 1,
+              "f1": 1,
+              "p": 2
+            },
+            "picOpened": true
+          },
+          {
+            "key": "kite",
+            "pic": {
+              "theme": "toys",
+              "noun": "kite"
+            },
+            "forms": {
+              "m1": 0,
+              "f1": 0,
+              "p": 2
+            },
+            "picOpened": true
+          },
+          {
+            "key": "doll",
+            "pic": {
+              "theme": "toys",
+              "noun": "doll"
+            },
+            "forms": {
+              "m1": 1,
+              "f1": 1,
+              "p": 2
+            },
+            "picOpened": true
+          },
+          {
+            "key": "robot",
+            "pic": {
+              "theme": "toys",
+              "noun": "robot"
+            },
+            "forms": {
+              "m1": 0,
+              "f1": 0,
+              "p": 2
+            },
+            "picOpened": true
+          },
+          {
+            "key": "train",
+            "pic": {
+              "theme": "toys",
+              "noun": "train"
+            },
+            "forms": {
+              "m1": 0,
+              "f1": 0,
+              "p": 2
+            },
+            "picOpened": true
+          },
+          {
+            "key": "car",
+            "pic": {
+              "theme": "toys",
+              "noun": "car"
+            },
+            "forms": {
+              "m1": 1,
+              "f1": 1,
+              "p": 2
+            },
+            "picOpened": true
+          },
+          {
+            "key": "drum",
+            "pic": {
+              "theme": "music",
+              "noun": "drum"
+            },
+            "forms": {
+              "m1": 0,
+              "f1": 0,
+              "p": 2
+            },
+            "picOpened": true
+          },
+          {
+            "key": "book",
+            "pic": {
+              "theme": "classroom",
+              "noun": "book"
+            },
+            "forms": {
+              "m1": 0,
+              "f1": 0,
+              "p": 2
+            },
+            "picOpened": true
+          },
+          {
+            "key": "hat",
+            "pic": {
+              "theme": "accessories",
+              "noun": "hat"
+            },
+            "forms": {
+              "m1": 0,
+              "f1": 0,
+              "p": 2
+            },
+            "picOpened": true
+          },
+          {
+            "key": "cake",
+            "pic": {
+              "theme": "desserts and sweets",
+              "noun": "cake"
+            },
+            "forms": {
+              "m1": 1,
+              "f1": 1,
+              "p": 2
+            },
+            "picOpened": true
+          },
+          {
+            "key": "dog",
+            "pic": {
+              "theme": "pets",
+              "noun": "dog"
+            },
+            "forms": {
+              "m1": 0,
+              "f1": 0,
+              "p": 2
+            },
+            "picOpened": true
+          },
+          {
+            "key": "cat",
+            "pic": {
+              "theme": "pets",
+              "noun": "cat"
+            },
+            "forms": {
+              "m1": 0,
+              "f1": 0,
+              "p": 2
+            },
+            "picOpened": true
+          }
+        ]
+      },
+      "refuse": {
+        "possessive": false
+      },
+      "strings": {
+        "base": {
+          "title": "I pronomi personali soggetto",
+          "instruction": "Guarda la persona e leggi il nome. Cerchia la parola che usiamo al posto del nome.",
+          "note": "Il pannello sceglie lui / lei / loro, le forme che un bambino di classe prima e seconda usa davvero; egli / ella restano una nota di grammatica per la scuola secondaria e non compaiono in nessuna pagina."
+        },
+        "replace": {
+          "title": "Sostituisci il nome con un pronome",
+          "instruction": "Leggi la frase. Scrivi la parola del riquadro che sostituisce il nome nella seconda frase.",
+          "bankWord": "riquadro"
+        },
+        "anaphora": {
+          "title": "Chi è? Il pronome nella frase",
+          "instruction": "Leggi le frasi. Unisci con una linea ogni parola nella casella al nome che rappresenta."
+        },
+        "possessive": {
+          "title": "Suo, sua o loro?",
+          "instruction": "Guarda di chi è la cosa. Cerchia la parola che mostra a chi appartiene."
+        },
+        "sort": {
+          "title": "Ordina i nomi: lui, lei o loro",
+          "instruction": "Leggi ogni cartellino con il nome. Scrivi il nome sotto la parola che usiamo per quella persona."
+        },
+        "rewrite": {
+          "title": "Riscrivi la frase con un pronome",
+          "instruction": "Leggi la frase. Riscrivila sulle righe, ma usa un pronome al posto del nome."
+        }
+      }
+    },
+    "question-words": {
+      "qwords": {
+        "who": "Chi",
+        "what": "Che cosa",
+        "where": "Dove",
+        "when": "Quando",
+        "howmany": "Quanti"
+      },
+      "starters": [
+        "Chi",
+        "Che cosa",
+        "Dove",
+        "Quando",
+        "Perché",
+        "Come"
+      ],
+      "bins": {
+        "who": "Chi?",
+        "what": "Che cosa?",
+        "where": "Dove?"
+      },
+      "qPrefix": "",
+      "sortThingForm": "bare",
+      "genderFilter": {
+        "count": "m"
+      },
+      "excludeThings": [
+        "plum",
+        "cherry",
+        "apricot",
+        "nectarine",
+        "peach"
+      ],
+      "frames": [
+        {
+          "id": "see-thing",
+          "kind": "thing",
+          "text": "{name} vede {thing}.",
+          "q": {
+            "who": "Chi vede {thing}?",
+            "what": "Che cosa vede {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "draw-thing",
+          "kind": "thing",
+          "text": "{name} disegna {thing}.",
+          "q": {
+            "who": "Chi disegna {thing}?",
+            "what": "Che cosa disegna {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "like-thing",
+          "kind": "thing",
+          "text": "{name} vuole {thing}.",
+          "q": {
+            "who": "Chi vuole {thing}?",
+            "what": "Che cosa vuole {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "be-place",
+          "kind": "place",
+          "text": "{name} è {place}.",
+          "q": {
+            "who": "Chi è {place}?",
+            "where": "Dove si trova {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "play-place",
+          "kind": "place",
+          "text": "{name} gioca {place}.",
+          "q": {
+            "who": "Chi gioca {place}?",
+            "where": "Dove gioca {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "read-place",
+          "kind": "place",
+          "text": "{name} legge {place}.",
+          "q": {
+            "who": "Chi legge {place}?",
+            "where": "Dove legge {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "play-time",
+          "kind": "time",
+          "text": "{name} gioca {time}.",
+          "q": {
+            "who": "Chi gioca {time}?",
+            "when": "Quando gioca {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "eat-time",
+          "kind": "time",
+          "text": "{name} mangia {time}.",
+          "q": {
+            "who": "Chi mangia {time}?",
+            "when": "Quando mangia {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "sleep-time",
+          "kind": "time",
+          "text": "{name} dorme {time}.",
+          "q": {
+            "who": "Chi dorme {time}?",
+            "when": "Quando dorme {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "see-count",
+          "kind": "count",
+          "text": "{name} vede {n} {pl}.",
+          "q": {
+            "who": "Chi vede {n} {pl}?",
+            "howmany": "Quanti {pl} vede {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "draw-count",
+          "kind": "count",
+          "text": "{name} disegna {n} {pl}.",
+          "q": {
+            "who": "Chi disegna {n} {pl}?",
+            "howmany": "Quanti {pl} disegna {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "find-count",
+          "kind": "count",
+          "text": "{name} trova {n} {pl}.",
+          "q": {
+            "who": "Chi trova {n} {pl}?",
+            "howmany": "Quanti {pl} trova {name}?"
+          },
+          "signed": true
+        }
+      ],
+      "places": [
+        {
+          "key": "house",
+          "pic": {
+            "theme": "miscellaneous",
+            "noun": "house"
+          },
+          "text": "a casa",
+          "picOpened": true
+        },
+        {
+          "key": "garden",
+          "pic": {
+            "theme": "spring",
+            "noun": "garden"
+          },
+          "text": "in giardino",
+          "picOpened": true
+        },
+        {
+          "key": "beach",
+          "pic": {
+            "theme": "summer",
+            "noun": "beach"
+          },
+          "text": "al mare",
+          "picOpened": true
+        },
+        {
+          "key": "tent",
+          "pic": {
+            "theme": "camping",
+            "noun": "tent"
+          },
+          "text": "in tenda",
+          "picOpened": true
+        },
+        {
+          "key": "forest",
+          "pic": {
+            "theme": "camping",
+            "noun": "forest"
+          },
+          "text": "nel bosco",
+          "picOpened": true
+        },
+        {
+          "key": "lake",
+          "pic": {
+            "theme": "camping",
+            "noun": "lake"
+          },
+          "text": "al lago",
+          "picOpened": true
+        },
+        {
+          "key": "river",
+          "pic": {
+            "theme": "camping",
+            "noun": "river"
+          },
+          "text": "al fiume",
+          "picOpened": true
+        },
+        {
+          "key": "mountain",
+          "pic": {
+            "theme": "camping",
+            "noun": "mountain"
+          },
+          "text": "in montagna",
+          "picOpened": true
+        },
+        {
+          "key": "pool",
+          "pic": {
+            "theme": "summer",
+            "noun": "pool"
+          },
+          "text": "in piscina",
+          "picOpened": true
+        },
+        {
+          "key": "kitchen",
+          "pic": {
+            "theme": "around the house",
+            "noun": "kitchen"
+          },
+          "text": "in cucina",
+          "picOpened": true
+        },
+        {
+          "key": "garage",
+          "pic": {
+            "theme": "around the house",
+            "noun": "garage"
+          },
+          "text": "in garage",
+          "picOpened": true
+        },
+        {
+          "key": "bed",
+          "pic": {
+            "theme": "around the house",
+            "noun": "bed"
+          },
+          "text": "a letto",
+          "picOpened": true
+        },
+        {
+          "key": "sofa",
+          "pic": {
+            "theme": "around the house",
+            "noun": "sofa"
+          },
+          "text": "sul divano",
+          "picOpened": true
+        },
+        {
+          "key": "playground",
+          "pic": {
+            "theme": "activities",
+            "noun": "playground"
+          },
+          "text": "al parco giochi",
+          "picOpened": true
+        },
+        {
+          "key": "cabin",
+          "pic": {
+            "theme": "camping",
+            "noun": "cabin"
+          },
+          "text": "in baita",
+          "picOpened": true
+        }
+      ],
+      "twins": [
+        [
+          "lake",
+          "river"
+        ],
+        [
+          "house",
+          "cabin"
+        ]
+      ],
+      "times": [
+        {
+          "text": "alle otto",
+          "h": 8
+        },
+        {
+          "text": "alle tre",
+          "h": 3
+        },
+        {
+          "text": "alle sei",
+          "h": 6
+        },
+        {
+          "text": "alle nove",
+          "h": 9
+        },
+        {
+          "text": "alle due",
+          "h": 2
+        },
+        {
+          "text": "alle sette",
+          "h": 7
+        }
+      ],
+      "thingThemes": [
+        "animals",
+        "fruits",
+        "vehicles",
+        "toys",
+        "zoo animals",
+        "farm animals"
+      ],
+      "numbers": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "faces": {
+        "base": {
+          "kinds": [
+            "who",
+            "what",
+            "where"
+          ]
+        },
+        "match": {
+          "kinds": [
+            "who",
+            "what",
+            "where",
+            "when",
+            "howmany"
+          ]
+        },
+        "fill": {
+          "kinds": [
+            "who",
+            "what",
+            "where",
+            "when",
+            "howmany"
+          ]
+        },
+        "sort": {
+          "kinds": [
+            "who",
+            "what",
+            "where"
+          ]
+        },
+        "write": {
+          "kinds": [
+            "who",
+            "what",
+            "where",
+            "when",
+            "howmany"
+          ]
+        },
+        "ask": {
+          "kinds": [
+            "who",
+            "what",
+            "where",
+            "when",
+            "why",
+            "how"
+          ]
+        }
+      },
+      "strings": {
+        "base": {
+          "title": "Le domande della frase: chi, che cosa, dove",
+          "instruction": "Leggi la frase. Guarda le parole evidenziate. Cerchia la parola che serve per chiederle."
+        },
+        "match": {
+          "title": "Collega la domanda alla risposta",
+          "instruction": "Leggi ogni domanda a sinistra. Unisci con una linea la risposta giusta a destra."
+        },
+        "fill": {
+          "title": "Completa la domanda",
+          "instruction": "Leggi la risposta e guarda le parole evidenziate. Scrivi nella casella la parola del riquadro.",
+          "bankWord": "riquadro",
+          "boxWord": "casella"
+        },
+        "sort": {
+          "title": "Chi, che cosa o dove? Ordina le risposte",
+          "instruction": "Leggi ogni cartellino. Scrivilo sotto la domanda a cui risponde: Chi, Che cosa o Dove."
+        },
+        "write": {
+          "title": "Scrivi la domanda",
+          "instruction": "Leggi la risposta. Guarda le parole evidenziate. Scrivi sulla riga la domanda che le chiede."
+        },
+        "ask": {
+          "title": "Domande sull'immagine: perché e come",
+          "instruction": "Guarda l'immagine. Completa ogni domanda. Comincia con la parola già scritta sulla riga.",
+          "pictureWord": "immagine"
+        }
+      }
+    },
+    "rounding": {
+      "up": {
+        "10": "per eccesso",
+        "100": "per eccesso"
+      },
+      "down": {
+        "10": "per difetto",
+        "100": "per difetto"
+      },
+      "heads": {
+        "10": "decina",
+        "100": "centinaio"
+      },
+      "relation": "approx",
+      "strings": {
+        "base": {
+          "title": "Arrotondare i numeri alla decina",
+          "instruction": "Arrotonda ogni numero alla decina e scrivilo nella casella. Se la cifra delle unità è 5 o più, arrotonda per eccesso."
+        },
+        "sort": {
+          "title": "Arrotondare per eccesso o per difetto",
+          "instruction": "Ogni numero si arrotonda per eccesso o per difetto alla decina? Scrivilo nel contenitore giusto."
+        },
+        "hundred": {
+          "title": "Arrotondare i numeri al centinaio",
+          "instruction": "Arrotonda ogni numero al centinaio e scrivilo nella casella. Guarda la cifra delle decine."
+        },
+        "estimate": {
+          "title": "Arrotondare e stimare la somma",
+          "instruction": "Arrotonda i due numeri alla decina e scrivili nelle caselle. Poi somma i numeri arrotondati."
+        },
+        "inverse": {
+          "title": "Quali numeri si arrotondano a 50?",
+          "instruction": "Cerchia ogni numero che si arrotonda alla decina scritta in alto. Guarda la cifra delle unità."
+        },
+        "both": {
+          "title": "Arrotondare alla decina e al centinaio",
+          "instruction": "Arrotonda ogni numero due volte: alla decina nella prima casella e al centinaio nella seconda."
+        }
+      },
+      "refuse": [],
+      "strand": "Numeri"
+    }
+  },
+  "refusals": {},
+  "enAudit": [
+    "K-353 tangram, istruzione base: 'lay them on the two figures below, line for line' è una sequenza di tre comandi in una sola frase; in italiano va spezzata in due imperativi, altrimenti un bambino di 5 anni perde il terzo passo.",
+    "K-354 corpo umano, factLabels: 'How much hair?' cambia forma rispetto alle altre diciassette etichette ('How many ...?'), quindi la colonna non si legge più come una lista; in italiano ho tenuto una sola forma ('Quanti / Quante ...?').",
+    "K-354 use.toe: 'Your toes help you balance' è l'unica frase del gruppo che non nomina un'azione che il bambino fa, e 'balance' non è vocabolario di classe prima.",
+    "K-355 cinque sensi: la starter inglese 'I can touch ...' apre una frase che nessun bambino completa in modo sensato, perché si tocca quasi tutto; le altre quattro chiedono una percezione, questa chiede una scelta. Il presente semplice italiano ('Tocco ...') riduce il problema, ma il difetto resta nella fonte.",
+    "K-355 signedOk: 'thunderstorm' è elencato fra i signed dell'udito, ma l'immagine è una nuvola con un FULMINE, cioè un indizio visivo. L'ho tolto dal blocco italiano, come ha fatto il pannello spagnolo.",
+    "K-356 tempo atmosferico, F2: il titolo inglese 'Weather Chart, Monday to Sunday' nomina il giorno di inizio e quello di fine, ma diaryStart è un campo che ogni lingua può cambiare ('mon' | 'sun'): il titolo è vero solo per una delle due configurazioni.",
+    "K-356 forecastAsks.storm: 'Which day has a storm?' usa 'has' mentre le altre cinque domande usano 'is'; la disomogeneità rende la colonna meno prevedibile per chi legge poco.",
+    "K-357 raccolta differenziata: nel blocco inglese pentola, bullone e dado stanno nel bidone del metallo insieme alle lattine, ma non sono imballaggi, e il nome del bidone non lo dice mai. In italiano la distinzione imballaggio / non imballaggio è la regola vera e l'ho resa esplicita con packagingOnly.",
+    "K-357 longLabel 'Compost (food scraps)': è l'unica parentesi di tutto il blocco e non serve, perché longLabel non compare mai su una pillola.",
+    "G1-350 cloze, frame 'sailboat-lake': 'The sailboat sails across the lake' contiene la radice della risposta dentro il verbo ('sailboat' / 'sails'), cioè una parte della risposta è stampata; la regola 4 vieta la parola intera, non la radice.",
+    "G1-350 cloze, frame 'kite-wind': è l'unico dei sedici che usa {name}, quindi la pagina base mescola due forme di frase senza un motivo didattico.",
+    "G1-351 pari e dispari, istruzione F1: 'Circle the dots two by two' e poi 'write what is left over in the small box' danno per scontato che il bambino sappia già che cosa vuol dire 'left over'; la parola compare come didascalia sulla stessa pagina, ma la frase non la collega.",
+    "G1-352 pronomi, possessive things: 'doll' è una bambola che si legge come una BAMBINA, e nello stesso banco c'è 'girl' fra le persone: due immagini quasi uguali, una persona e un oggetto. L'ho tenuta solo perché il nome dell'oggetto è sempre stampato accanto.",
+    "G1-352 pronomi, frames: 'eats an apple' e 'eat an apple' si distinguono per una sola lettera; per un bambino che legge poco la prova del numero è fragile. In italiano ho scelto verbi con una differenza più visibile (mangia / mangiano).",
+    "G1-353 domande, frame 'be-place': la domanda inglese 'Who is at home?' è ambigua fra 'chi si trova a casa' e 'chi è in casa di chi'; in italiano ho usato 'Dove si trova ...?' per la domanda di luogo, che evita anche l'elisione Dov'è.",
+    "G1-353 domande, starters: la lista inglese mette 'How' come sesto starter, ma 'How many' è già un qword; le due etichette si sovrappongono nella lettura di un bambino.",
+    "G2-346 arrotondamento, istruzione base: 'If the ones digit is 5 or more, round up' mette una regola dentro l'istruzione, mentre tutte le altre facce tengono la regola nel riquadro in alto; la ripetizione fa sembrare che le regole siano due.",
+    "G2-346 arrotondamento, heads: 'nearest ten' / 'nearest hundred' usano 'nearest', ma la stessa parola è vietata nelle istruzioni dalla regola 5 perché appartiene a G2-221 / G3-323; la fonte usa quindi nelle intestazioni la parola che proibisce altrove."
+  ]
+}

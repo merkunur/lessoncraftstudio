@@ -1,0 +1,66 @@
+{
+  "symbolWords": {
+    "sun": "sole",
+    "cloud": "nuvola",
+    "rain": "pioggia",
+    "storm": "temporale",
+    "snow": "neve",
+    "rainbow": "arcobaleno"
+  },
+  "forecastAsks": {
+    "sun": "Che giorno c'è il sole?",
+    "cloud": "Che giorno è nuvoloso?",
+    "rain": "Che giorno piove?",
+    "storm": "Che giorno c'è il temporale?",
+    "snow": "Che giorno nevica?",
+    "rainbow": "Che giorno c'è l'arcobaleno?"
+  },
+  "cycleLabels": {
+    "evaporation": "evaporazione",
+    "condensation": "condensazione",
+    "precipitation": "precipitazione",
+    "collection": "raccolta",
+    "runoff": "ruscellamento"
+  },
+  "bandWords": {
+    "cold": "freddo",
+    "warm": "mite",
+    "hot": "caldo"
+  },
+  "forecastDays": null,
+  "diaryDays": null,
+  "diaryStart": "mon",
+  "bankWords": {},
+  "distractors": [
+    "vento",
+    "nebbia"
+  ],
+  "refuse": [],
+  "strings": {
+    "K-356": {
+      "title": "Il tempo atmosferico",
+      "instruction": "Unisci con una linea ogni simbolo del tempo alla sua parola."
+    },
+    "G1-362": {
+      "title": "Il tempo atmosferico: scrivi la parola",
+      "instruction": "Trova nel riquadro la parola di ogni simbolo del tempo e scrivila, una lettera in ogni casella."
+    },
+    "K-364": {
+      "title": "Il tempo atmosferico: la mia settimana",
+      "instruction": "Ogni giorno di questa settimana guarda fuori e disegna nella sua casella il simbolo del tempo."
+    },
+    "K-365": {
+      "title": "Il tempo atmosferico: freddo o caldo?",
+      "instruction": "Guarda ogni termometro, usa la chiave per capire se fa freddo, mite o caldo e cerchia il disegno giusto."
+    },
+    "G3-385": {
+      "title": "Ciclo dell'acqua: completa lo schema",
+      "instruction": "Leggi le quattro parole nel riquadro e scrivi ognuna sulla riga che ha lo stesso numero dello schema."
+    },
+    "G1-363": {
+      "title": "Il tempo atmosferico: leggi le previsioni",
+      "instruction": "Guarda il tempo della settimana, leggi ogni domanda e cerchia il giorno giusto."
+    }
+  },
+  "strand": "Scienze"
+}

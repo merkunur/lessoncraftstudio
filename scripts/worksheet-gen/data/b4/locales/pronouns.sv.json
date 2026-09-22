@@ -1,0 +1,772 @@
+{
+  "people": [
+    {
+      "key": "architect",
+      "pic": {
+        "theme": "occupations",
+        "noun": "architect"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "author",
+      "pic": {
+        "theme": "occupations",
+        "noun": "author"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "barber",
+      "pic": {
+        "theme": "occupations",
+        "noun": "barber"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "baker",
+      "pic": {
+        "theme": "occupations",
+        "noun": "baker"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "detective",
+      "pic": {
+        "theme": "occupations",
+        "noun": "detective"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "doctor",
+      "pic": {
+        "theme": "occupations",
+        "noun": "doctor"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "judge",
+      "pic": {
+        "theme": "occupations",
+        "noun": "judge"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "musician",
+      "pic": {
+        "theme": "occupations",
+        "noun": "musician"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "pharmacist",
+      "pic": {
+        "theme": "occupations",
+        "noun": "pharmacist"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "photographer",
+      "pic": {
+        "theme": "occupations",
+        "noun": "photographer"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "singer",
+      "pic": {
+        "theme": "occupations",
+        "noun": "singer"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "police_officer",
+      "pic": {
+        "theme": "occupations",
+        "noun": "police_officer"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "coach",
+      "pic": {
+        "theme": "occupations",
+        "noun": "coach"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "farmer",
+      "pic": {
+        "theme": "occupations",
+        "noun": "farmer"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "janitor",
+      "pic": {
+        "theme": "occupations",
+        "noun": "janitor"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "student",
+      "pic": {
+        "theme": "classroom",
+        "noun": "student"
+      },
+      "depicted": "m",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "carpenter",
+      "pic": {
+        "theme": "occupations",
+        "noun": "carpenter"
+      },
+      "depicted": "m",
+      "minPx": 56,
+      "picOpened": true
+    },
+    {
+      "key": "chef",
+      "pic": {
+        "theme": "occupations",
+        "noun": "chef"
+      },
+      "depicted": "m",
+      "minPx": 56,
+      "picOpened": true
+    },
+    {
+      "key": "gardener",
+      "pic": {
+        "theme": "occupations",
+        "noun": "gardener"
+      },
+      "depicted": "m",
+      "minPx": 56,
+      "picOpened": true
+    },
+    {
+      "key": "construction_worker",
+      "pic": {
+        "theme": "occupations",
+        "noun": "construction_worker"
+      },
+      "depicted": "m",
+      "minPx": 56,
+      "picOpened": true
+    },
+    {
+      "key": "librarian",
+      "pic": {
+        "theme": "occupations",
+        "noun": "librarian"
+      },
+      "depicted": "f",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "teacher",
+      "pic": {
+        "theme": "occupations",
+        "noun": "teacher"
+      },
+      "depicted": "f",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "waitress",
+      "pic": {
+        "theme": "occupations",
+        "noun": "waitress"
+      },
+      "depicted": "f",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "flight_attendant",
+      "pic": {
+        "theme": "occupations",
+        "noun": "flight_attendant"
+      },
+      "depicted": "f",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "mail_carrier_2",
+      "pic": {
+        "theme": "occupations",
+        "noun": "mail_carrier_2"
+      },
+      "depicted": "f",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "athlete",
+      "pic": {
+        "theme": "occupations",
+        "noun": "athlete"
+      },
+      "depicted": "f",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "ballerina",
+      "pic": {
+        "theme": "occupations",
+        "noun": "ballerina"
+      },
+      "depicted": "f",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "girl",
+      "pic": {
+        "theme": "toys",
+        "noun": "girl"
+      },
+      "depicted": "f",
+      "minPx": 44,
+      "picOpened": true
+    },
+    {
+      "key": "cashier",
+      "pic": {
+        "theme": "occupations",
+        "noun": "cashier"
+      },
+      "depicted": "f",
+      "minPx": 56,
+      "picOpened": true
+    },
+    {
+      "key": "florist",
+      "pic": {
+        "theme": "occupations",
+        "noun": "florist"
+      },
+      "depicted": "f",
+      "minPx": 56,
+      "picOpened": true
+    },
+    {
+      "key": "nurse",
+      "pic": {
+        "theme": "occupations",
+        "noun": "nurse"
+      },
+      "depicted": "f",
+      "minPx": 56,
+      "picOpened": true
+    },
+    {
+      "key": "tailor",
+      "pic": {
+        "theme": "occupations",
+        "noun": "tailor"
+      },
+      "depicted": "f",
+      "minPx": 56,
+      "picOpened": true
+    }
+  ],
+  "names": [
+    {
+      "name": "Ida",
+      "gender": "f"
+    },
+    {
+      "name": "Leo",
+      "gender": "m"
+    },
+    {
+      "name": "Alva",
+      "gender": "f"
+    },
+    {
+      "name": "Hugo",
+      "gender": "m"
+    },
+    {
+      "name": "Maja",
+      "gender": "f"
+    },
+    {
+      "name": "Nils",
+      "gender": "m"
+    },
+    {
+      "name": "Vera",
+      "gender": "f"
+    },
+    {
+      "name": "Olle",
+      "gender": "m"
+    },
+    {
+      "name": "Elsa",
+      "gender": "f"
+    },
+    {
+      "name": "Otto",
+      "gender": "m"
+    },
+    {
+      "name": "Saga",
+      "gender": "f"
+    },
+    {
+      "name": "Ivar",
+      "gender": "m"
+    }
+  ],
+  "and": "och",
+  "andBefore": null,
+  "chips": [
+    "han",
+    "hon",
+    "de"
+  ],
+  "initial": [
+    "Han",
+    "Hon",
+    "De"
+  ],
+  "extraChips": [
+    "hen"
+  ],
+  "map": {
+    "base": {
+      "m1": 0,
+      "f1": 1,
+      "mp": 2,
+      "fp": 2,
+      "xp": 2
+    },
+    "replace": {
+      "m1": 0,
+      "f1": 1,
+      "mp": 2,
+      "fp": 2,
+      "xp": 2
+    },
+    "anaphora": {
+      "m1": 0,
+      "f1": 1,
+      "mp": 2,
+      "fp": 2,
+      "xp": 2
+    },
+    "sort": {
+      "m1": 0,
+      "f1": 1,
+      "mp": 2,
+      "fp": 2,
+      "xp": 2
+    },
+    "rewrite": {
+      "m1": 0,
+      "f1": 1,
+      "mp": 2,
+      "fp": 2,
+      "xp": 2
+    }
+  },
+  "objectMap": null,
+  "objects": [],
+  "frames": [
+    {
+      "id": "read-book",
+      "sg": "{subj} läser sin bok.",
+      "pl": "{subj} läser sina böcker."
+    },
+    {
+      "id": "play-ball",
+      "sg": "{subj} leker med sin boll.",
+      "pl": "{subj} leker med sina bollar."
+    },
+    {
+      "id": "eat-apple",
+      "sg": "{subj} äter sitt äpple.",
+      "pl": "{subj} äter sina äpplen."
+    },
+    {
+      "id": "ride-bike",
+      "sg": "{subj} är trött efter skolan.",
+      "pl": "{subj} är trötta efter skolan."
+    },
+    {
+      "id": "draw-cat",
+      "sg": "{subj} ritar sin katt.",
+      "pl": "{subj} ritar sina katter."
+    },
+    {
+      "id": "sing-song",
+      "sg": "{subj} sjunger sin sång.",
+      "pl": "{subj} sjunger sina sånger."
+    },
+    {
+      "id": "jump-rope",
+      "sg": "{subj} är snabb på hopprep.",
+      "pl": "{subj} är snabba på hopprep."
+    },
+    {
+      "id": "feed-dog",
+      "sg": "{subj} matar sin hund.",
+      "pl": "{subj} matar sina hundar."
+    },
+    {
+      "id": "paint-picture",
+      "sg": "{subj} målar sin tavla.",
+      "pl": "{subj} målar sina tavlor."
+    },
+    {
+      "id": "build-tower",
+      "sg": "{subj} bygger sitt torn.",
+      "pl": "{subj} bygger sina torn."
+    },
+    {
+      "id": "go-park",
+      "sg": "{subj} är glad i parken.",
+      "pl": "{subj} är glada i parken."
+    },
+    {
+      "id": "like-milk",
+      "sg": "{subj} är hungrig.",
+      "pl": "{subj} är hungriga."
+    }
+  ],
+  "anaphora": [
+    {
+      "id": "park",
+      "intro": "{a} och {b} är i parken.",
+      "s": [
+        {
+          "text": "{P} har en boll.",
+          "key": "sg"
+        },
+        {
+          "text": "{P} har en drake.",
+          "key": "sg"
+        }
+      ],
+      "contentNeutral": true
+    },
+    {
+      "id": "school",
+      "intro": "{a} och {b} är i skolan.",
+      "s": [
+        {
+          "text": "{P} läser en bok.",
+          "key": "sg"
+        },
+        {
+          "text": "{P} ritar en bild.",
+          "key": "sg"
+        }
+      ],
+      "contentNeutral": true
+    },
+    {
+      "id": "home",
+      "intro": "{a} och {b} är hemma.",
+      "s": [
+        {
+          "text": "{P} äter ett äpple.",
+          "key": "sg"
+        },
+        {
+          "text": "{P} dricker mjölk.",
+          "key": "sg"
+        }
+      ],
+      "contentNeutral": true
+    },
+    {
+      "id": "beach",
+      "intro": "{a} och {b} är på stranden.",
+      "s": [
+        {
+          "text": "{P} har en hink.",
+          "key": "sg"
+        },
+        {
+          "text": "{P} har en spade.",
+          "key": "sg"
+        }
+      ],
+      "contentNeutral": true
+    },
+    {
+      "id": "garden",
+      "intro": "{a} och {b} är i trädgården.",
+      "s": [
+        {
+          "text": "{P} plockar en blomma.",
+          "key": "sg"
+        },
+        {
+          "text": "{P} vattnar en planta.",
+          "key": "sg"
+        }
+      ],
+      "contentNeutral": true
+    },
+    {
+      "id": "kitchen",
+      "intro": "{a} och {b} är i köket.",
+      "s": [
+        {
+          "text": "{P} bakar en kaka.",
+          "key": "sg"
+        },
+        {
+          "text": "{P} gör en smörgås.",
+          "key": "sg"
+        }
+      ],
+      "contentNeutral": true
+    },
+    {
+      "id": "bus",
+      "intro": "{a} och {b} sitter på bussen.",
+      "s": [
+        {
+          "text": "{P} har en röd väska.",
+          "key": "sg"
+        },
+        {
+          "text": "{P} har en blå väska.",
+          "key": "sg"
+        }
+      ],
+      "contentNeutral": true
+    },
+    {
+      "id": "zoo",
+      "intro": "{a} och {b} är på djurparken.",
+      "s": [
+        {
+          "text": "{P} ser ett lejon.",
+          "key": "sg"
+        },
+        {
+          "text": "{P} ser en apa.",
+          "key": "sg"
+        }
+      ],
+      "contentNeutral": true
+    }
+  ],
+  "possessive": {
+    "chips": [
+      "hans",
+      "hennes",
+      "deras"
+    ],
+    "chipW": 84,
+    "byOwner": {
+      "m1": 0,
+      "f1": 1,
+      "mp": 2,
+      "fp": 2,
+      "xp": 2
+    },
+    "frame": {
+      "sg": "Här är {subj}. Det är ___ {thing}.",
+      "pl": "Här är {subj}. Det är ___ {thing}."
+    },
+    "artTable": null,
+    "things": [
+      {
+        "key": "ball",
+        "pic": {
+          "theme": "toys",
+          "noun": "ball"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "kite",
+        "pic": {
+          "theme": "toys",
+          "noun": "kite"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "robot",
+        "pic": {
+          "theme": "toys",
+          "noun": "robot"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "train",
+        "pic": {
+          "theme": "toys",
+          "noun": "train"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "car",
+        "pic": {
+          "theme": "toys",
+          "noun": "car"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "bicycle",
+        "pic": {
+          "theme": "toys",
+          "noun": "bicycle"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "drum",
+        "pic": {
+          "theme": "music",
+          "noun": "drum"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "book",
+        "pic": {
+          "theme": "classroom",
+          "noun": "book"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "hat",
+        "pic": {
+          "theme": "accessories",
+          "noun": "hat"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "cake",
+        "pic": {
+          "theme": "desserts and sweets",
+          "noun": "cake"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "dog",
+        "pic": {
+          "theme": "pets",
+          "noun": "dog"
+        },
+        "forms": null,
+        "picOpened": true
+      },
+      {
+        "key": "cat",
+        "pic": {
+          "theme": "pets",
+          "noun": "cat"
+        },
+        "forms": null,
+        "picOpened": true
+      }
+    ]
+  },
+  "refuse": {
+    "possessive": false
+  },
+  "strings": {
+    "base": {
+      "title": "Pronomen: han, hon eller de",
+      "instruction": "Titta på personen och läs namnet. Ringa in ordet som vi säger i stället för namnet."
+    },
+    "replace": {
+      "title": "Byt ut namnet mot ett pronomen",
+      "instruction": "Läs meningen. Skriv ordet från ordlistan som ersätter namnet i den andra meningen.",
+      "bankWord": "ordlistan"
+    },
+    "anaphora": {
+      "title": "Vem är han? Pronomen i meningen",
+      "instruction": "Läs meningarna. Dra ett streck från varje ord i rutan till namnet som det står för."
+    },
+    "possessive": {
+      "title": "Hans, hennes eller deras?",
+      "instruction": "Titta på vem som äger saken. Ringa in ordet som visar att den hör till den personen."
+    },
+    "sort": {
+      "title": "Sortera namnen: han, hon eller de",
+      "instruction": "Läs varje namnkort. Skriv namnet under ordet som vi använder för den personen."
+    },
+    "rewrite": {
+      "title": "Skriv om meningen med ett pronomen",
+      "instruction": "Läs meningen. Skriv den igen på linjerna, men använd ett pronomen i stället för namnet."
+    }
+  }
+}

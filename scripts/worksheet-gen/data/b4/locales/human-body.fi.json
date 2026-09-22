@@ -1,0 +1,128 @@
+{
+  "partWords": {
+    "head": "pää",
+    "hair": "hiukset",
+    "eye": "silmä",
+    "ear": "korva",
+    "nose": "nenä",
+    "mouth": "suu",
+    "neck": "kaula",
+    "shoulder": "olkapää",
+    "arm": "käsivarsi",
+    "elbow": "kyynärpää",
+    "hand": "käsi",
+    "finger": "sormi",
+    "leg": "sääri",
+    "knee": "polvi",
+    "foot": "jalka",
+    "toe": "varvas"
+  },
+  "overrides": {},
+  "bankWords": {
+    "head": "pää",
+    "hair": "hiukset",
+    "eye": "silmä",
+    "ear": "korva",
+    "nose": "nenä",
+    "mouth": "suu",
+    "neck": "kaula",
+    "shoulder": "olkapää",
+    "arm": "käsivarsi",
+    "elbow": "kyynärpää",
+    "hand": "käsi",
+    "finger": "sormi",
+    "leg": "sääri",
+    "knee": "polvi",
+    "foot": "jalka",
+    "toe": "varvas"
+  },
+  "plural": {
+    "head": "päät",
+    "hair": "hiukset",
+    "eye": "silmät",
+    "ear": "korvat",
+    "nose": "nenät",
+    "mouth": "suut",
+    "neck": "kaulat",
+    "shoulder": "olkapäät",
+    "arm": "käsivarret",
+    "elbow": "kyynärpäät",
+    "hand": "kädet",
+    "finger": "sormet",
+    "leg": "sääret",
+    "knee": "polvet",
+    "foot": "jalat",
+    "toe": "varpaat"
+  },
+  "factLabels": {
+    "head": "Montako päätä?",
+    "hair": "Paljonko hiuksia?",
+    "eye": "Montako silmää?",
+    "ear": "Montako korvaa?",
+    "nose": "Montako nenää?",
+    "mouth": "Montako suuta?",
+    "neck": "Montako kaulaa?",
+    "shoulder": "Montako olkapäätä?",
+    "arm": "Montako käsivartta?",
+    "elbow": "Montako kyynärpäätä?",
+    "hand": "Montako kättä?",
+    "finger": "Montako sormea?",
+    "leg": "Montako säärtä?",
+    "knee": "Montako polvea?",
+    "foot": "Montako jalkaa?",
+    "toe": "Montako varvasta?",
+    "fingersOneHand": "Montako sormea yhdessä kädessä?",
+    "toesOneFoot": "Montako varvasta yhdessä jalassa?"
+  },
+  "use": {
+    "head": "Päässä ovat aivot, joilla ajattelet.",
+    "hair": "Hiukset pitävät pään lämpimänä.",
+    "eye": "Silmillä näet.",
+    "ear": "Korvilla kuulet.",
+    "nose": "Nenällä haistat.",
+    "mouth": "Suulla syöt ja puhut.",
+    "neck": "Kaula kääntää päätä.",
+    "shoulder": "Olkapäillä kannat reppua.",
+    "arm": "Käsivarsilla halaat.",
+    "elbow": "Kyynärpäät taivuttavat käsivarsia.",
+    "hand": "Käsillä otat kiinni.",
+    "finger": "Sormella osoitat.",
+    "leg": "Säärillä juokset.",
+    "knee": "Polvet taipuvat, kun hyppäät.",
+    "foot": "Jaloilla seisot.",
+    "toe": "Varpaat auttavat tasapainossa."
+  },
+  "refuseWords": {
+    "write": [
+      "arm",
+      "elbow"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "K-354": {
+      "title": "Kehon osat",
+      "instruction": "Kopioi jokainen sana pankista sille viivalle, joka osoittaa kyseistä kehon osaa."
+    },
+    "K-360": {
+      "title": "Kehon osat: kuinka monta?",
+      "instruction": "Montako kutakin sinulla on? Laske omasta kehostasi ja kirjoita luku ruutuun."
+    },
+    "K-361": {
+      "title": "Kehon osat: väritä selitteen mukaan",
+      "instruction": "Lue selite ja väritä jokainen kehon osa sillä värillä, joka lukee sen nimen vieressä."
+    },
+    "G1-356": {
+      "title": "Kehon osat: kirjoita sana",
+      "instruction": "Etsi hahmosta jokainen numeroitu kohta ja kirjoita sen nimi, yksi kirjain ruutuun."
+    },
+    "K-362": {
+      "title": "Kehon osat: mikä puuttuu?",
+      "instruction": "Jokaiselta hahmolta puuttuu yksi osa: ympyröi puuttuvan osan kuva ja piirrä se sitten paikalleen."
+    },
+    "K-363": {
+      "title": "Kehon osat: mitkä ovat pareittain?",
+      "instruction": "Ympyröi jokainen kehon osa, jollaisia sinulla on kaksi."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "verbs": {
+    "hear": "høre",
+    "see": "se",
+    "smell": "lugte",
+    "taste": "smage",
+    "touch": "føle"
+  },
+  "starters": {
+    "hear": "Jeg kan høre ...",
+    "see": "Jeg kan se ...",
+    "smell": "Jeg kan lugte ...",
+    "taste": "Jeg kan smage ...",
+    "touch": "Jeg kan føle ..."
+  },
+  "signedOk": [
+    "pizza",
+    "television",
+    "book",
+    "lamp",
+    "lighthouse",
+    "flute"
+  ],
+  "organOf": {},
+  "refuse": [],
+  "strings": {
+    "K-355": {
+      "title": "De fem sanser",
+      "instruction": "Tegn en streg fra hvert billede til den del af kroppen, du bruger til det."
+    },
+    "G1-357": {
+      "title": "Sanserne: sortér efter sansen",
+      "instruction": "Se på hvert billede, og tegn en streg fra prikken til kassen med den sans, du bruger til det."
+    },
+    "G1-358": {
+      "title": "Sanserne: hvilken sans bruger du?",
+      "instruction": "Hvilken sans bruger du til hvert billede? Sæt ring om den del af kroppen, du bruger."
+    },
+    "G1-359": {
+      "title": "Sanserne: hvilket billede passer ikke?",
+      "instruction": "I hver række hører tre billeder til den samme sans. Streg det billede ud, der ikke gør."
+    },
+    "G1-360": {
+      "title": "Sanseorganerne: skriv sanseordet",
+      "instruction": "Skriv hvert ord fra ordkassen på linjen ved den del af kroppen, der kan det."
+    },
+    "G1-361": {
+      "title": "Sanserne: jeg kan høre ...",
+      "instruction": "Gør hver sætning færdig. Skriv hvad du kan høre, se, lugte, smage og føle."
+    }
+  },
+  "strand": "Natur/teknologi"
+}

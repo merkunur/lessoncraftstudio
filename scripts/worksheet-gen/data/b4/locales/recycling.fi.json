@@ -1,0 +1,105 @@
+{
+  "bins": [
+    {
+      "key": "bio",
+      "label": "Biojäte",
+      "longLabel": "Biojäte: ruoantähteet ja kuoret",
+      "color": null,
+      "colorWord": null,
+      "materials": [
+        "organic"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "paperi",
+      "label": "Paperi",
+      "longLabel": "Paperi ja kartonki",
+      "color": null,
+      "colorWord": null,
+      "materials": [
+        "paper",
+        "cardboard"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "lasi",
+      "label": "Lasi",
+      "longLabel": "Lasipakkaukset",
+      "color": null,
+      "colorWord": null,
+      "materials": [
+        "glass"
+      ],
+      "packagingOnly": true
+    },
+    {
+      "key": "metalli",
+      "label": "Metalli",
+      "longLabel": "Metalli ja pienmetalli",
+      "color": null,
+      "colorWord": null,
+      "materials": [
+        "metal"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "muovi",
+      "label": "Muovi",
+      "longLabel": "Muovipakkaukset",
+      "color": null,
+      "colorWord": null,
+      "materials": [
+        "plastic"
+      ],
+      "packagingOnly": true
+    }
+  ],
+  "route": {},
+  "excludeItems": {
+    "toothbrush": "Hammasharja ei ole muovipakkaus; se kuuluu sekajätteeseen, jota tällä sivulla ei ole.",
+    "comb": "Kampa ei ole muovipakkaus; se kuuluu sekajätteeseen, jota tällä sivulla ei ole.",
+    "spoon": "Muovilusikka ei ole pakkaus; se kuuluu sekajätteeseen, jota tällä sivulla ei ole.",
+    "bucket": "Ämpäri ei ole muovipakkaus; iso muoviesine viedään kierrätyspisteeseen, ei astiaan."
+  },
+  "materialWords": {
+    "paper": "paperi",
+    "cardboard": "pahvi",
+    "glass": "lasi",
+    "plastic": "muovi",
+    "metal": "metalli",
+    "organic": "biojäte"
+  },
+  "colorConvention": null,
+  "refuse": [
+    "color"
+  ],
+  "starters": [],
+  "scheme": "Viisi astiaa kuten kotona: biojäte, paperi ja kartonki, lasipakkaukset, metalli ja pienmetalli sekä muovipakkaukset. Sekajäteastiaa ei tällä sivulla ole, joten muut kuin pakkaukset jäävät pois.",
+  "enAudit": "EN K-357: the scheme sentence says many US towns collect recyclables in one single-stream cart, yet every face still asks the child to separate five bins; and the base title names no move while F1 adds only a question. The fi block names the five Finnish streams and keeps the material question on every face.",
+  "strings": {
+    "K-357": {
+      "title": "Kierrätys",
+      "instruction": "Jokainen esine on tyhjä tai käytetty. Piirrä siitä viiva astiaan, johon se kuuluu."
+    },
+    "K-366": {
+      "title": "Kierrätys: mihin astiaan?",
+      "instruction": "Katso jokaista esinettä ja ympyröi astia, johon se kuuluu tyhjänä tai käytettynä."
+    },
+    "G1-364": {
+      "title": "Kierrätys: mitä materiaalia?",
+      "instruction": "Mitä materiaalia kukin esine on? Kirjoita sana pankista viivalle."
+    },
+    "G2-348": {
+      "title": "Kierrätys: mikä ei kuulu joukkoon?",
+      "instruction": "Jokaisella rivillä kolme esinettä on samaa materiaalia. Ympyröi se, joka on eri materiaalia."
+    },
+    "G1-365": {
+      "title": "Kierrätys: kolme asiaa, jotka kierrätän",
+      "instruction": "Piirrä kolme asiaa, jotka kierrätät kotona, ja kirjoita, mitä kukin niistä on."
+    }
+  },
+  "strand": "Ympäristöoppi"
+}

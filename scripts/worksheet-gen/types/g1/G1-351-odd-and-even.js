@@ -105,6 +105,11 @@
  */
 'use strict';
 const { bank: loadBank } = require('../../lib/b4-common.js');
+const { QUESTION_WORDS } = require('../../data/b4/question-words.js');
+/** Pictures a K-3 child reads as the SAME thing (the artwork's groups, shared with question-words). */
+const TWIN_GROUP = new Map();
+(QUESTION_WORDS.THING_TWINS || []).forEach((g, i) => g.forEach((k) => TWIN_GROUP.set(k, i)));
+if (!TWIN_GROUP.size) throw new Error('G1-351: QUESTION_WORDS.THING_TWINS is empty — the look-alike fence would be vacuous');
 const { GLOBAL } = require('../../data/b4/odd-and-even.js');
 const { chipStrip, houseBin, houseHeight, dotRowCard, shareLane, countLane, pvLane, sumLane, columnHeads, ruleStrip, parityTable, parityPills } = require('../../templates/components-b4.js');
 const { entriesFor, countable, fileUri } = require('../../lib/b2-common.js');
@@ -937,8 +942,12 @@ module.exports = {
   _picturePool(theme, locale) {
     if (!theme || typeof theme !== 'string') throw new Error(`${ID}: the picture faces need a theme (the wave pins one; the numeral faces are themeless)`);
     if (BW_THEME.test(theme)) throw new Error(`${ID}: theme "${theme}" is a B&W theme (the picture faces take colour art only)`);
-    const seen = new Set();
-    return entriesFor(theme, locale).filter(countable).filter((e) => { if (seen.has(e.noun)) return false; seen.add(e.noun); return true; });
+    const seen = new Set(), seenGroup = new Set();
+    return entriesFor(theme, locale).filter(countable).filter((e) => { if (seen.has(e.noun)) return false; seen.add(e.noun); return true; })
+      // at most ONE member of a look-alike group per page: a jaguar row beside a leopard row reads
+      // as one animal counted twice. Measured 2026-09-22 over the two pinned themes × 11 locales ×
+      // 25 seeds: 37 of 550 pages carried such a pair before this line, 0 after.
+      .filter((e) => { const g = TWIN_GROUP.get(e.noun); if (g === undefined) return true; if (seenGroup.has(g)) return false; seenGroup.add(g); return true; });
   },
   _names(bank, locale) {
     const max = bank.nameMaxGraphemes;

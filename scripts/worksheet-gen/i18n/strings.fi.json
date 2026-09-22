@@ -2382,5 +2382,237 @@
   "G3-384": {
     "title": "Hyppää taaksepäin lukusuoralla",
     "instruction": "Aloita merkitystä luvusta ja piirrä yhtä pitkiä hyppyjä taaksepäin, kunnes kokonainen hyppy ei enää mahdu. Kirjoita hypyt ja luku, johon päädyt."
+  },
+  "K-353": {
+    "title": "Tangram-malli: 7 palaa ja kaksi kuviota",
+    "instruction": "Väritä jokainen pala mallin mukaan, leikkaa seitsemän palaa viivoja pitkin ja asettele ne kahden kuvion päälle."
+  },
+  "K-354": {
+    "title": "Kehon osat",
+    "instruction": "Kopioi jokainen sana pankista sille viivalle, joka osoittaa kyseistä kehon osaa."
+  },
+  "K-355": {
+    "title": "Viisi aistia",
+    "instruction": "Piirrä viiva jokaisesta kuvasta siihen kehon osaan, jolla sen huomaat."
+  },
+  "K-356": {
+    "title": "Säätilat",
+    "instruction": "Piirrä viiva jokaisesta säämerkistä sen sanaan."
+  },
+  "K-357": {
+    "title": "Kierrätys",
+    "instruction": "Jokainen esine on tyhjä tai käytetty. Piirrä siitä viiva astiaan, johon se kuuluu."
+  },
+  "G1-350": {
+    "title": "Täydennä lauseet",
+    "instruction": "Katso kuvaa. Etsi lauseeseen sopiva sana sanapankista ja kirjoita se laatikkoon."
+  },
+  "G1-351": {
+    "title": "Parilliset ja parittomat luvut 20:een asti",
+    "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut ja näyttää parinsa."
+  },
+  "G1-352": {
+    "title": "Hän vai he?",
+    "instruction": "Katso ihmistä ja lue nimi. Ympyröi sana, joka korvaa nimen."
+  },
+  "G1-353": {
+    "title": "Kysymyssanat: kuka, mikä, missä",
+    "instruction": "Lue lause. Katso korostettuja sanoja. Ympyröi kysymyssana, joka kysyy niitä."
+  },
+  "G2-346": {
+    "title": "Pyöristäminen kymmenien tarkkuuteen",
+    "instruction": "Pyöristä jokainen luku lähimpään kymmeneen ja kirjoita se ruutuun. Jos ykkösnumero on 5 tai enemmän, pyöristä ylöspäin."
+  },
+  "K-358": {
+    "title": "Helpot tangram-kuviot 2 ja 3 palasta: piirrä viivat",
+    "instruction": "Katso kuvion yläpuolella olevia paloja. Piirrä kuvion sisään viivat, jotka näyttävät, mihin palat osuvat."
+  },
+  "G1-354": {
+    "title": "Tangram: neljä varjokuviota rakennettavaksi",
+    "instruction": "Rakenna jokainen tumma kuvio oman tangramisi seitsemällä palalla. Käytä joka kerralla kaikki seitsemän palaa."
+  },
+  "G1-355": {
+    "title": "Tangram: mikä pala puuttuu?",
+    "instruction": "Jokaisesta kuviosta puuttuu yksi pala. Ympyröi se pala, joka sopii tyhjään kohtaan tarkalleen."
+  },
+  "G2-347": {
+    "title": "Tangram: mikä ratkaisu on sama kuin varjo?",
+    "instruction": "Katso jokaista varjoa. Ympyröi ratkaisu, joka on täsmälleen varjon asennossa. Käännetyt eivät sovi."
+  },
+  "K-359": {
+    "title": "Tangram: laske kolmiot ja neliöt",
+    "instruction": "Laske jokaisen kuvan kolmiot ja kirjoita luku ensimmäiseen ruutuun. Laske sitten neliöt toiseen ruutuun."
+  },
+  "K-360": {
+    "title": "Kehon osat: kuinka monta?",
+    "instruction": "Montako kutakin sinulla on? Laske omasta kehostasi ja kirjoita luku ruutuun."
+  },
+  "K-361": {
+    "title": "Kehon osat: väritä selitteen mukaan",
+    "instruction": "Lue selite ja väritä jokainen kehon osa sillä värillä, joka lukee sen nimen vieressä."
+  },
+  "G1-356": {
+    "title": "Kehon osat: kirjoita sana",
+    "instruction": "Etsi hahmosta jokainen numeroitu kohta ja kirjoita sen nimi, yksi kirjain ruutuun."
+  },
+  "K-362": {
+    "title": "Kehon osat: mikä puuttuu?",
+    "instruction": "Jokaiselta hahmolta puuttuu yksi osa: ympyröi puuttuvan osan kuva ja piirrä se sitten paikalleen."
+  },
+  "K-363": {
+    "title": "Kehon osat: mitkä ovat pareittain?",
+    "instruction": "Ympyröi jokainen kehon osa, jollaisia sinulla on kaksi."
+  },
+  "G1-357": {
+    "title": "Viisi aistia: lajittele aistin mukaan",
+    "instruction": "Katso jokaista kuvaa ja piirrä viiva sen pisteestä sen aistin laatikkoon, jolla huomaat asian."
+  },
+  "G1-358": {
+    "title": "Viisi aistia: millä aistilla?",
+    "instruction": "Millä aistilla huomaat kunkin kuvan? Ympyröi se kehon osa, jota käytät."
+  },
+  "G1-359": {
+    "title": "Viisi aistia: mikä ei kuulu joukkoon?",
+    "instruction": "Jokaisella rivillä kolme kuvaa kuuluu samaan aistiin. Vedä yli se, joka ei kuulu."
+  },
+  "G1-360": {
+    "title": "Aistielimet: kirjoita aistin sana",
+    "instruction": "Kopioi jokainen aistisana pankista viivalle sen kehon osan viereen, joka sen tekee."
+  },
+  "G1-361": {
+    "title": "Viisi aistia: kuulen ...",
+    "instruction": "Täydennä jokainen lause. Kirjoita, mitä kuulet, näet, haistat, maistat ja tunnet."
+  },
+  "G1-362": {
+    "title": "Säätilat: kirjoita sana",
+    "instruction": "Etsi jokaisen säämerkin sana pankista ja kirjoita se, yksi kirjain ruutuun."
+  },
+  "K-364": {
+    "title": "Säätilat: minun viikkoni",
+    "instruction": "Katso joka päivä ulos ja piirrä sen päivän säämerkki omaan ruutuunsa."
+  },
+  "K-365": {
+    "title": "Säätilat: kylmä, lämmin vai kuuma?",
+    "instruction": "Katso jokaista lämpömittaria. Katso selitteestä, onko kylmä, lämmin vai kuuma, ja ympyröi sopiva kuva."
+  },
+  "G3-385": {
+    "title": "Veden kiertokulku: nimeä vaiheet",
+    "instruction": "Lue pankin neljä sanaa ja kirjoita jokainen sille viivalle, jolla on sama numero kuin kuvassa."
+  },
+  "G1-363": {
+    "title": "Säätilat: lue sääennuste",
+    "instruction": "Katso viikon sää, lue jokainen kysymys ja ympyröi oikea päivä."
+  },
+  "K-366": {
+    "title": "Kierrätys: mihin astiaan?",
+    "instruction": "Katso jokaista esinettä ja ympyröi astia, johon se kuuluu tyhjänä tai käytettynä."
+  },
+  "G1-364": {
+    "title": "Kierrätys: mitä materiaalia?",
+    "instruction": "Mitä materiaalia kukin esine on? Kirjoita sana pankista viivalle."
+  },
+  "G2-348": {
+    "title": "Kierrätys: mikä ei kuulu joukkoon?",
+    "instruction": "Jokaisella rivillä kolme esinettä on samaa materiaalia. Ympyröi se, joka on eri materiaalia."
+  },
+  "G1-365": {
+    "title": "Kierrätys: kolme asiaa, jotka kierrätän",
+    "instruction": "Piirrä kolme asiaa, jotka kierrätät kotona, ja kirjoita, mitä kukin niistä on."
+  },
+  "G1-366": {
+    "title": "Täydennä lause kirjainruutuihin",
+    "instruction": "Katso kuvaa. Kirjoita puuttuva sana ruutuihin: yksi kirjain ruutuun."
+  },
+  "G1-367": {
+    "title": "Valitse oikea sana lauseeseen",
+    "instruction": "Katso kuvaa ja lue lause. Ympyröi sopiva sana ja kirjoita se laatikkoon."
+  },
+  "G2-349": {
+    "title": "Täydennä lause monikossa",
+    "instruction": "Katso kuvia. Niitä on useampi kuin yksi. Kirjoita monikkomuoto laatikkoon."
+  },
+  "G2-350": {
+    "title": "Täydennä tarina",
+    "instruction": "Lue koko tarina. Kolme kuvaa näyttää puuttuvat sanat. Kirjoita jokainen sana pankista omaan laatikkoonsa."
+  },
+  "G1-368": {
+    "title": "Yhdistä lause kuvaan",
+    "instruction": "Lue jokainen lause. Mikä kuva täydentää aukon? Piirrä viiva lauseesta siihen kuvaan."
+  },
+  "G2-351": {
+    "title": "Parillinen vai pariton? Kaksi yhtä suurta lukua",
+    "instruction": "Ympyröi pisteet kaksi kerrallaan. Kirjoita sitten luku kahtena yhtä suurena osana ja ylijäävä pieneen ruutuun."
+  },
+  "G1-369": {
+    "title": "Voiko jakaa tasan kahdelle?",
+    "instruction": "Jaa kuvat kahden kaverin kesken, yksi kerrallaan. Kirjoita, montako kumpikin saa ja montako jää yli, ja ympyröi vastaus."
+  },
+  "G2-352": {
+    "title": "Parilliset ja parittomat luvut sataan asti",
+    "instruction": "Lue sääntö ylhäältä. Katso vain luvun ykkösten ruutua ja rastita ympyrä oikean sanan alta."
+  },
+  "G3-386": {
+    "title": "Parillinen vai pariton summa? Päättele ilman laskemista",
+    "instruction": "Älä laske. Katso kummankin luvun alleviivattua ykkösnumeroa, käytä taulukkoa ja rastita, millainen summa on."
+  },
+  "G1-370": {
+    "title": "Parillinen vai pariton? Laske kuvat pareittain",
+    "instruction": "Laske kuvat ja ympyröi ne kaksi kerrallaan. Kirjoita, montako paria sait, ja ympyröi sitten oikea sana."
+  },
+  "G1-371": {
+    "title": "Korvaa nimi pronominilla",
+    "instruction": "Lue lause. Kirjoita sanapankista se sana, joka korvaa nimen toisessa lauseessa."
+  },
+  "G2-353": {
+    "title": "Kuka on hän? Pronomini lauseessa",
+    "instruction": "Lue lauseet. Piirrä viiva jokaisesta laatikon sanasta siihen nimeen, jota se tarkoittaa."
+  },
+  "G1-372": {
+    "title": "Lajittele nimet: hän vai he",
+    "instruction": "Lue jokainen nimikortti. Kirjoita nimi sen sanan alle, jota käytämme kyseisestä henkilöstä."
+  },
+  "G2-355": {
+    "title": "Kirjoita lause uudelleen pronominilla",
+    "instruction": "Lue lause. Kirjoita se uudelleen viivoille, mutta käytä nimen sijasta pronominia."
+  },
+  "G1-373": {
+    "title": "Kysymys ja vastaus",
+    "instruction": "Lue jokainen kysymys vasemmalla. Piirrä viiva siihen vastaukseen oikealla, joka siihen sopii."
+  },
+  "G1-374": {
+    "title": "Täydennä kysymyssana",
+    "instruction": "Lue vastaus ja etsi korostetut sanat. Kirjoita kysymyssana sanapankista ruutuun."
+  },
+  "G1-375": {
+    "title": "Kuka, mikä vai missä? Lajittele vastaukset",
+    "instruction": "Lue jokainen sanalappu. Kirjoita se sen kysymyksen laatikkoon, johon se vastaa."
+  },
+  "G2-356": {
+    "title": "Tee kysymys",
+    "instruction": "Lue vastaus. Katso korostettuja sanoja. Kirjoita viivalle kysymys, joka kysyy niitä."
+  },
+  "G2-357": {
+    "title": "Kysymyksiä kuvasta: miksi ja miten",
+    "instruction": "Katso kuvaa. Täydennä jokainen kysymys. Aloita sillä sanalla, joka on jo viivalla."
+  },
+  "G3-387": {
+    "title": "Ylöspäin vai alaspäin? Lajittele luvut",
+    "instruction": "Pyöristyykö jokainen luku ylöspäin vai alaspäin lähimpään kymmeneen? Kirjoita se oikeaan laatikkoon."
+  },
+  "G3-388": {
+    "title": "Pyöristäminen satojen tarkkuuteen",
+    "instruction": "Pyöristä jokainen luku lähimpään sataan ja kirjoita se ruutuun. Katso kymmenten numeroa."
+  },
+  "G3-389": {
+    "title": "Pyöristä ja arvioi summa",
+    "instruction": "Pyöristä molemmat luvut lähimpään kymmeneen ja kirjoita ne ruutuihin. Laske sitten pyöristetyt luvut yhteen."
+  },
+  "G3-390": {
+    "title": "Mitkä luvut pyöristyvät lukuun 50?",
+    "instruction": "Ympyröi jokainen luku, joka pyöristyy ylhäällä näkyvään kymmeneen. Katso kunkin luvun ykkösnumeroa."
+  },
+  "G3-391": {
+    "title": "Pyöristäminen kymmenien ja satojen tarkkuuteen",
+    "instruction": "Pyöristä jokainen luku kahdesti: ensimmäiseen ruutuun lähimpään kymmeneen ja toiseen lähimpään sataan."
   }
 }

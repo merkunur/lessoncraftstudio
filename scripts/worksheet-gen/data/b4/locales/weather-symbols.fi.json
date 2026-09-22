@@ -1,0 +1,80 @@
+{
+  "symbolWords": {
+    "sun": "aurinko",
+    "cloud": "pilvi",
+    "rain": "sade",
+    "storm": "ukkonen",
+    "snow": "lumi",
+    "rainbow": "sateenkaari"
+  },
+  "forecastAsks": {
+    "sun": "Minä päivänä paistaa aurinko?",
+    "cloud": "Minä päivänä on pilvistä?",
+    "rain": "Minä päivänä sataa vettä?",
+    "storm": "Minä päivänä on ukkosta?",
+    "snow": "Minä päivänä sataa lunta?",
+    "rainbow": "Minä päivänä näkyy sateenkaari?"
+  },
+  "cycleLabels": {
+    "evaporation": "haihtuminen",
+    "condensation": "tiivistyminen",
+    "precipitation": "sadanta",
+    "collection": "kerääntyminen",
+    "runoff": "valunta"
+  },
+  "bandWords": {
+    "cold": "kylmä",
+    "warm": "lämmin",
+    "hot": "kuuma"
+  },
+  "forecastDays": [
+    "ma",
+    "ti",
+    "ke",
+    "to",
+    "pe"
+  ],
+  "diaryDays": [
+    "su",
+    "ma",
+    "ti",
+    "ke",
+    "to",
+    "pe",
+    "la"
+  ],
+  "diaryStart": "mon",
+  "bankWords": {},
+  "distractors": [
+    "tuuli",
+    "sumu"
+  ],
+  "refuse": [],
+  "strings": {
+    "K-356": {
+      "title": "Säätilat",
+      "instruction": "Piirrä viiva jokaisesta säämerkistä sen sanaan."
+    },
+    "G1-362": {
+      "title": "Säätilat: kirjoita sana",
+      "instruction": "Etsi jokaisen säämerkin sana pankista ja kirjoita se, yksi kirjain ruutuun."
+    },
+    "K-364": {
+      "title": "Säätilat: minun viikkoni",
+      "instruction": "Katso joka päivä ulos ja piirrä sen päivän säämerkki omaan ruutuunsa."
+    },
+    "K-365": {
+      "title": "Säätilat: kylmä, lämmin vai kuuma?",
+      "instruction": "Katso jokaista lämpömittaria. Katso selitteestä, onko kylmä, lämmin vai kuuma, ja ympyröi sopiva kuva."
+    },
+    "G3-385": {
+      "title": "Veden kiertokulku: nimeä vaiheet",
+      "instruction": "Lue pankin neljä sanaa ja kirjoita jokainen sille viivalle, jolla on sama numero kuin kuvassa."
+    },
+    "G1-363": {
+      "title": "Säätilat: lue sääennuste",
+      "instruction": "Katso viikon sää, lue jokainen kysymys ja ympyröi oikea päivä."
+    }
+  },
+  "strand": "Ympäristöoppi"
+}

@@ -141,7 +141,7 @@
  *      PR10 F5 starters at 0.9 x glyphH = 27 px        → "starter sized 27 ≠ starterFontPx 34.5"
  *      PR14 F5 the design's 430 row + draw box + de "Ich kann …" → verify gate D (327 > 215)
  *      PS5  F5 the lanes centred in the body           → verify "the stage floats"
- *      PR15 an unauthored locale (sv)                  → every face REFUSES (never en)
+ *      PR15 an unauthored locale (zz)                  → every face REFUSES (never en)
  *      PR16 the touch pool emptied                     → sort / which REFUSE (no filler)
  */
 'use strict';
@@ -1073,11 +1073,13 @@ async function main() {
     // PS5 — F5 the lanes centred in the body → verify "the stage floats"
     { const r = await pvRender('PS5', 'write', (h) => h.replace(/grid-template-rows:repeat\(5, minmax\(126px, 140px\)\);gap:8px;flex:1 1 auto;min-height:0;align-content:start/, 'grid-template-rows:repeat(5, 126px);gap:8px;flex:0 0 auto;margin:auto 0'));
       if (judge('PS5', r.verify, /stage top \d+ px under the body top: the stage floats/)) killed++; }
-    // PR15 — an unauthored locale REFUSES on every face (never falls back to en)
+    // PR15 — a locale with NO block REFUSES on every face (never falls back to en). The needle named
+    // `sv` until 2026-09-22, when Swedish shipped and the poison silently became a page that BUILDS
+    // — the same expired-needle defect the cloze gate carried. `zz` can never be authored.
     { const refused = [];
-      for (const face of Object.keys(faceRenders)) { try { faceRenders[face].spec.build({ theme: null, difficulty: 2, locale: 'sv' }, { rng: makeRng('pr15') }); } catch (e) { refused.push(face + ': ' + e.message); } }
-      const all = refused.length === 5 && refused.every((m) => /has no sv block/.test(m));
-      if (judge('PR15', all ? refused : ['only ' + refused.length + ' of 5 faces refused'], /has no sv block/, 'sv: 5/5 faces refuse')) killed++; }
+      for (const face of Object.keys(faceRenders)) { try { faceRenders[face].spec.build({ theme: null, difficulty: 2, locale: 'zz' }, { rng: makeRng('pr15') }); } catch (e) { refused.push(face + ': ' + e.message); } }
+      const all = refused.length === 5 && refused.every((m) => /has no zz block/.test(m));
+      if (judge('PR15', all ? refused : ['only ' + refused.length + ' of 5 faces refused'], /has no zz block/, 'zz: 5/5 faces refuse')) killed++; }
     // PR16 — the touch pool emptied → sort / which REFUSE (no filler)
     { const g = clone(GLOBAL); g.items = g.items.filter((it) => it.sense !== 'touch');
       const refused = [];

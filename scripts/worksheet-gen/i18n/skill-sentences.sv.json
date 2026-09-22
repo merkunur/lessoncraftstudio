@@ -338,5 +338,45 @@
   "division-with-remainder": {
     "full": "Division med rest för åk 3: ringa in högar, dela lika, räkna divisioner med rest, hitta felet och hoppa bakåt på tallinjen. Skrivs med snedstreck enligt svensk skolpraxis.",
     "short": "Division med rest: högar, räknerader och tallinje"
+  },
+  "tangram": {
+    "full": "Tangram för förskolan och åk 1-2: klippa ut de sju bitarna, lägga figurer och skuggbilder, hitta biten som saknas och räkna trianglar och kvadrater.",
+    "short": "Lägga, klippa och räkna tangramfigurer"
+  },
+  "human-body": {
+    "full": "Kroppens delar för förskolan och åk 1: sätta namn på delarna och skriva dem, räkna hur många man har, färglägga efter färgrutorna och hitta delen som saknas.",
+    "short": "Namn på kroppens delar, räkna och färglägga"
+  },
+  "five-senses": {
+    "full": "Våra sinnen för förskolan och åk 1: sortera bilder efter höra, se, lukta, smaka och känna, välja rätt sinne och sätta namn på sinnesorganen.",
+    "short": "Höra, se, lukta, smaka och känna"
+  },
+  "weather-symbols": {
+    "full": "Vädersymboler för förskolan till åk 3: para ihop symbol och ord, föra väderdagbok en hel vecka, välja kallt, varmt eller hett och namnge vattnets kretslopp.",
+    "short": "Läsa vädersymboler och föra väderdagbok"
+  },
+  "recycling": {
+    "full": "Källsortering för förskolan till åk 2: hålla isär papper, plast, metall, glas och matavfall, välja rätt tunna och skriva vad en sak är gjord av.",
+    "short": "Sortera saker i rätt tunna"
+  },
+  "cloze": {
+    "full": "Fyll i rätt ord för åk 1-2: skriva ordet som saknas i meningen med hjälp av bilden, välja mellan två ord, skriva pluralformen och fylla i en kort berättelse.",
+    "short": "Skriva ordet som saknas i meningen"
+  },
+  "odd-and-even": {
+    "full": "Udda och jämna tal för åk 1-3: sortera tal i det udda och det jämna huset, para ihop punkter, titta på entalet upp till 100 och avgöra om en summa är jämn.",
+    "short": "Känna igen udda och jämna tal"
+  },
+  "pronouns": {
+    "full": "Pronomen för åk 2-3: välja han, hon eller de till en person, byta ut namnet i meningen, sortera namnkort och skriva om meningar med pronomen.",
+    "short": "Välja han, hon eller de till namnet"
+  },
+  "question-words": {
+    "full": "Frågeord för åk 2: känna igen vem, vad, var, när och hur många, fylla i frågeordet, sortera svar i rätt låda och själv skriva frågan till ett svar.",
+    "short": "Vem, vad och var i frågor"
+  },
+  "rounding": {
+    "full": "Avrundning för åk 3: avrunda tal uppåt eller nedåt till närmaste tiotal och hundratal, göra överslag till en summa och hitta talen som blir 50.",
+    "short": "Avrunda tal till närmaste tiotal"
   }
 }

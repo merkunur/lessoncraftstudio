@@ -40,6 +40,9 @@ const { FAMILIES } = require(path.join(WSG, 'tools', 'gen-b4var-specs.js'));
 const ALLOC = require(path.join(ROOT, 'docs', 'worksheet-gen', 'b4-designs', '_records', 'b4var-id-allocation.json'));
 const { loadType } = require(path.join(WSG, 'lib', 'load-types.js'));
 const freeClaim = require(path.join(ROOT, 'scripts', 'lib', 'free-claim.js'));
+// nt10-D printables ship with NO answer key, so no field may promise one. Only the answer-KEY
+// collocations are banned - the bare word "answer" is correct prose on these very pages.
+const ANSWER_KEY_CLAIM = /with answers?|answer keys?|mit l\u00f6sung(?:en)?|con (?:las )?respuestas|com (?:as )?respostas|avec (?:le )?corrig\u00e9|con (?:le )?soluzioni|met (?:de )?antwoorden|med facit(?:liste)?|med fasit|vastauksineen|vastausten kanssa/i;
 freeClaim.selfTest();
 
 /**
@@ -219,6 +222,10 @@ for (const id of ORDER) {
   for (const f of VISIBLE) {
     const h = freeClaim.hit(e[f] || '');
     if (h) errs.push(`${id}.${f}: free-claim "${h}" in a VISIBLE field (metadata only, operator ruling 2026-09-14)`);
+  }
+  for (const f of [...VISIBLE, 'title', 'metaDescription']) {
+    const m = ANSWER_KEY_CLAIM.exec(e[f] || '');
+    if (m) errs.push(`${id}.${f}: promises an answer key ("${m[0]}") - these printables ship without one`);
   }
   for (const f of [...VISIBLE, 'title', 'metaDescription', 'slug']) if (/­/.test(e[f] || '')) errs.push(`${id}.${f}: U+00AD soft hyphen`);
   const theme = shippedTheme(id);

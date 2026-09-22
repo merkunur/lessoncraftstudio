@@ -1,0 +1,53 @@
+{
+  "verbs": {
+    "hear": "høre",
+    "see": "se",
+    "smell": "lukte",
+    "taste": "smake",
+    "touch": "kjenne"
+  },
+  "starters": {
+    "hear": "Jeg kan høre ...",
+    "see": "Jeg kan se ...",
+    "smell": "Jeg kan lukte ...",
+    "taste": "Jeg kan smake ...",
+    "touch": "Jeg kan kjenne ..."
+  },
+  "signedOk": [
+    "pizza",
+    "television",
+    "book",
+    "lamp",
+    "lighthouse",
+    "flute"
+  ],
+  "organOf": {},
+  "refuse": [],
+  "strings": {
+    "K-355": {
+      "title": "Sansene våre",
+      "instruction": "Tegn en strek fra hvert bilde til delen av kroppen du bruker til det."
+    },
+    "G1-357": {
+      "title": "Sansene våre: sorter etter sans",
+      "instruction": "Se på hvert bilde og tegn en strek fra prikken til boksen for sansen du bruker til det."
+    },
+    "G1-358": {
+      "title": "Sansene våre: hvilken sans bruker du?",
+      "instruction": "Hvilken sans bruker du til hvert bilde? Sett ring rundt delen av kroppen du bruker."
+    },
+    "G1-359": {
+      "title": "Sansene våre: hvilken hører ikke til?",
+      "instruction": "I hver rad hører tre bilder til samme sans. Sett kryss over det bildet som ikke gjør det."
+    },
+    "G1-360": {
+      "title": "Sanseorganene: skriv sanseordet",
+      "instruction": "Skriv hvert ord fra ordbanken på linja ved den delen av kroppen som gjør det."
+    },
+    "G1-361": {
+      "title": "Sansene våre: jeg kan høre ...",
+      "instruction": "Fullfør hver setning. Skriv hva du kan høre, se, lukte, smake og kjenne."
+    }
+  },
+  "strand": "Naturfag"
+}

@@ -1,0 +1,108 @@
+{
+  "bins": [
+    {
+      "key": "papper",
+      "label": "Papper",
+      "longLabel": "Papper och pappersförpackningar (blå symbol)",
+      "color": "codeBlue",
+      "colorWord": "blå",
+      "materials": [
+        "paper",
+        "cardboard"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "plast",
+      "label": "Plast",
+      "longLabel": "Plastförpackningar (orange symbol)",
+      "color": "codeOrange",
+      "colorWord": "orange",
+      "materials": [
+        "plastic"
+      ],
+      "packagingOnly": true
+    },
+    {
+      "key": "metall",
+      "label": "Metall",
+      "longLabel": "Metallförpackningar (grå symbol)",
+      "color": "inkSoft",
+      "colorWord": "grå",
+      "materials": [
+        "metal"
+      ],
+      "packagingOnly": true
+    },
+    {
+      "key": "glas",
+      "label": "Glas",
+      "longLabel": "Glasförpackningar (grön symbol)",
+      "color": "codeGreen",
+      "colorWord": "grön",
+      "materials": [
+        "glass"
+      ],
+      "packagingOnly": true
+    },
+    {
+      "key": "matavfall",
+      "label": "Matavfall",
+      "longLabel": "Matavfall (brun symbol)",
+      "color": "codeBrown",
+      "colorWord": "brun",
+      "materials": [
+        "organic"
+      ],
+      "packagingOnly": false
+    }
+  ],
+  "route": {},
+  "excludeItems": {
+    "toothbrush": "en tandborste är ingen förpackning; den går till restavfallet, och restavfall finns inte bland de fem tunnorna på bladet",
+    "comb": "en kam är ingen plastförpackning; den går till restavfallet, som inte finns på bladet",
+    "spoon": "en plastsked är ingen förpackning; den går till restavfallet, som inte finns på bladet",
+    "bucket": "en trasig hink är ingen plastförpackning; hårdplast lämnas på återvinningscentralen",
+    "saucepan": "en kastrull är ingen metallförpackning; den lämnas till metallskrot på återvinningscentralen",
+    "bolt": "en skruv är löst metallskrot, inte en metallförpackning; den lämnas på återvinningscentralen",
+    "nut": "en mutter är löst metallskrot, inte en metallförpackning; den lämnas på återvinningscentralen",
+    "water": "pantflaska: en PET-flaska med pant lämnas tillbaka i butikens pantautomat, den läggs inte i plastförpackningar"
+  },
+  "materialWords": {
+    "paper": "papper",
+    "cardboard": "kartong",
+    "glass": "glas",
+    "plastic": "plast",
+    "metal": "metall"
+  },
+  "colorConvention": "national",
+  "refuse": [
+    "color"
+  ],
+  "starters": [],
+  "scheme": "Fem tunnor som hemma: papper och pappersförpackningar, plastförpackningar, metallförpackningar (konservburkar, folie, tuber), glasförpackningar och matavfall. Färgerna följer Avfall Sveriges skyltsystem, som nästan alla kommuner använder: blått för papper, orange för plast, grått för metall, grönt för glas och brunt för matavfall. Plast och metall tar bara förpackningar; en kastrull, en skruv eller en trasig hink lämnas på återvinningscentralen, och en PET-flaska med pant går tillbaka till butiken, så inget av det finns på bladet.",
+  "enAudit": "Den engelska källan bygger sina fem tunnor på MATERIAL i stället för på förpackning, så samma sida skickar både en burk och en kastrull till Metal - i Sverige går kastrullen till återvinningscentralen. Den engelska compost-tunnan tar bröd, vilket den amerikanska hemkompostguiden själv avråder från. K-367 är korrekt vägrad i en (refuse:[color]), men tools/b4var-rows/recycling.js har ändå kvar en en-titel för K-367, så i18n/build-en.js skapar en sträng som ingen en-våg får använda. Och den engelska instruktionen \"when it is empty or finished\" står kvar på G2-348, där uppgiften handlar om material och inte om att slänga något. Slutligen: objektet `water` är en PET-flaska - i varje pantland (SE, NO, DK, FI, NL, DE) hör den till pantsystemet och inte till plastförpackningar, men en-blocket sorterar den som vanlig plast.",
+  "strings": {
+    "K-357": {
+      "title": "Källsortering",
+      "instruction": "Allt är tomt eller slut. Dra ett streck från varje sak till tunnan där den hör hemma."
+    },
+    "K-366": {
+      "title": "Källsortering: vilken tunna?",
+      "instruction": "Titta på varje sak och ringa in tunnan där den hör hemma när den är tom eller slut."
+    },
+    "G1-364": {
+      "title": "Källsortering: vad är det gjort av?",
+      "instruction": "Vad är varje sak gjord av? Skriv ordet från ordlistan på linjen."
+    },
+    "G2-348": {
+      "title": "Källsortering: vilken sak är gjord av annat material?",
+      "instruction": "På varje rad är tre saker gjorda av samma material. Ringa in den sak som är gjord av något annat."
+    },
+    "G1-365": {
+      "title": "Källsortering: tre saker jag lämnar till återvinning",
+      "instruction": "Rita tre saker som du källsorterar hemma och skriv vad varje sak är."
+    }
+  },
+  "strand": "Naturorienterande ämnen"
+}

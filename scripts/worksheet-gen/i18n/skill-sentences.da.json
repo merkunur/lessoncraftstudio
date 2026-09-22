@@ -338,5 +338,45 @@
   "division-with-remainder": {
     "full": "Division med rest til 3. klasse: barnet deler billeder i grupper, skriver kvotient og rest, tjekker om det går op, og finder fejl.",
     "short": "Division med rest: del, og find resten"
+  },
+  "tangram": {
+    "full": "Tangram til børnehaveklasse, 1. og 2. klasse: klip de syv brikker ud, læg figurer og skyggebilleder, find brikken der mangler, og tæl trekanter.",
+    "short": "Læg tangramfigurer, klip ud og tæl"
+  },
+  "human-body": {
+    "full": "Kroppens dele til børnehaveklasse og 1. klasse: sæt navn på kroppens dele, tæl hvor mange du har af hver, farvelæg efter listen, og find den del der mangler.",
+    "short": "Sæt navn på kroppens dele og tæl dem"
+  },
+  "five-senses": {
+    "full": "De fem sanser til børnehaveklasse og 1. klasse: høre, se, lugte, smage og føle sorteres efter sans, og sanseorganerne får deres rigtige navn.",
+    "short": "Høre, se, lugte, smage og føle"
+  },
+  "weather-symbols": {
+    "full": "Vejrsymboler til børnehaveklasse, 1. og 3. klasse: sol, sky, regn, torden, sne og regnbue får ord, ugens vejr skrives i skemaet, og vandets kredsløb får navne.",
+    "short": "Læs vejrsymboler og følg ugens vejr"
+  },
+  "recycling": {
+    "full": "Affaldssortering til børnehaveklasse, 1. og 2. klasse: madaffald, papir og pap, plast, glas og metal sorteres i den rigtige spand efter det, tingen er lavet af.",
+    "short": "Sortér affald i den rigtige spand"
+  },
+  "cloze": {
+    "full": "Indsæt det rigtige ord i 1. og 2. klasse: find ordet der mangler i sætningen, skriv det i bogstavfelter, vælg mellem to ord, og gør en kort historie færdig.",
+    "short": "Find det ord der mangler i sætningen"
+  },
+  "odd-and-even": {
+    "full": "Lige og ulige tal i 1., 2. og 3. klasse: sortér tal i det lige og det ulige hus, del ligeligt mellem to venner, se på enerpladsen, og afgør om en sum er lige.",
+    "short": "Kend lige og ulige tal op til 100"
+  },
+  "pronouns": {
+    "full": "Personlige stedord i 2. og 3. klasse: vælg han, hun eller de, sæt stedordet i stedet for navnet, sortér navnekort, og skriv sætningen om med et stedord.",
+    "short": "Han, hun eller de i stedet for navnet"
+  },
+  "question-words": {
+    "full": "Hv-ord i 2. klasse: hvem, hvad, hvor, hvornår og hvor mange genkendes i sætninger, skrives ind i spørgsmål, og svarene sorteres efter det hv-ord de svarer på.",
+    "short": "Hvem, hvad og hvor i spørgsmål"
+  },
+  "rounding": {
+    "full": "Afrunding i 3. klasse: rund tal af til nærmeste tier og hundrede, sortér tal efter om de runder op eller ned, lav overslag over en sum, og find tallene der bliver til 50.",
+    "short": "Rund tal af til nærmeste tier"
   }
 }

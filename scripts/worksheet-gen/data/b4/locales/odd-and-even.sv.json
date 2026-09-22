@@ -1,0 +1,46 @@
+{
+  "chips": {
+    "odd": "udda",
+    "even": "jämnt"
+  },
+  "houseOrder": [
+    "odd",
+    "even"
+  ],
+  "rule": "Ett tal är udda om det slutar på 1, 3, 5, 7 eller 9. Ett tal är jämnt om det slutar på 0, 2, 4, 6 eller 8.",
+  "leftover": "blir över",
+  "pairs": "par",
+  "placeHeads": [
+    "T",
+    "E"
+  ],
+  "nameMaxGraphemes": 6,
+  "strings": {
+    "base": {
+      "title": "Udda och jämna tal: skriv i rätt hus",
+      "instruction": "Skriv varje tal i det hus där det hör hemma, det udda huset eller det jämna huset. Tre tal har redan flyttat in och visar sina par."
+    },
+    "proof": {
+      "title": "Udda eller jämnt? Skriv två lika stora delar",
+      "instruction": "Ringa in punkterna två och två. Skriv sedan talet som två lika stora delar och skriv det som blir över i den lilla rutan."
+    },
+    "share": {
+      "title": "Kan två kompisar dela lika?",
+      "instruction": "Dela bilderna mellan de två kompisarna, en i taget. Skriv hur många var och en får och hur många som blir över. Ringa in udda eller jämnt."
+    },
+    "ones": {
+      "title": "Udda och jämna tal upp till 100: titta på entalet",
+      "instruction": "Läs regeln högst upp. Titta bara på entalsrutan i varje tal och sätt ett kryss i ringen under udda eller jämnt."
+    },
+    "sums": {
+      "title": "Udda eller jämn summa? Avgör utan att räkna ut den",
+      "instruction": "Räkna inte ut summan. Titta på entalet som är understruket i varje tal, använd tabellen och kryssa för om summan är udda eller jämn."
+    },
+    "count": {
+      "title": "Udda eller jämnt? Räkna bilderna parvis",
+      "instruction": "Räkna bilderna och ringa in dem två och två. Skriv hur många par du gjorde och ringa sedan in udda eller jämnt."
+    }
+  },
+  "refuse": {},
+  "strand": "Taluppfattning och tals användning"
+}

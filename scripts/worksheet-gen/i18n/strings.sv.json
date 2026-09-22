@@ -2382,5 +2382,241 @@
   "G3-384": {
     "title": "Hoppa bakåt på tallinjen: vad blir kvar?",
     "instruction": "Börja på det markerade talet och rita lika långa hopp bakåt tills ett helt hopp inte får plats. Skriv hoppen och var du landar."
+  },
+  "K-353": {
+    "title": "Tangram: klipp ut de sju bitarna och lägg två figurer",
+    "instruction": "Färglägg bitarna efter färgrutorna, klipp ut dem längs linjerna och lägg dem sedan på de två figurerna, linje för linje."
+  },
+  "K-354": {
+    "title": "Kroppens delar",
+    "instruction": "Skriv varje ord från ordlistan på linjen som pekar på den delen av kroppen."
+  },
+  "K-355": {
+    "title": "Våra sinnen",
+    "instruction": "Dra ett streck från varje bild till den kroppsdel som du använder för den."
+  },
+  "K-356": {
+    "title": "Vädersymboler",
+    "instruction": "Dra ett streck från varje vädersymbol till ordet som hör till."
+  },
+  "K-357": {
+    "title": "Källsortering",
+    "instruction": "Allt är tomt eller slut. Dra ett streck från varje sak till tunnan där den hör hemma."
+  },
+  "G1-350": {
+    "title": "Fyll i rätt ord",
+    "instruction": "Titta på bilden. Hitta ordet som passar i meningen i ordlistan och skriv det i rutan."
+  },
+  "G1-351": {
+    "title": "Udda och jämna tal: skriv i rätt hus",
+    "instruction": "Skriv varje tal i det hus där det hör hemma, det udda huset eller det jämna huset. Tre tal har redan flyttat in och visar sina par."
+  },
+  "G1-352": {
+    "title": "Pronomen: han, hon eller de",
+    "instruction": "Titta på personen och läs namnet. Ringa in ordet som vi säger i stället för namnet."
+  },
+  "G1-353": {
+    "title": "Frågeord: vem, vad, var",
+    "instruction": "Läs meningen. Titta på de markerade orden. Ringa in frågeordet som frågar efter dem."
+  },
+  "G2-346": {
+    "title": "Avrundning till närmaste tiotal",
+    "instruction": "Avrunda varje tal till närmaste tiotal och skriv det i rutan. Är entalet 5 eller mer, avrundar du uppåt."
+  },
+  "K-358": {
+    "title": "Lätta tangramfigurer av 2 och 3 bitar: rita linjerna",
+    "instruction": "Titta på bitarna ovanför varje figur. Rita linjerna inuti figuren där bitarna möts."
+  },
+  "G1-354": {
+    "title": "Tangram: bygg fyra skuggbilder",
+    "instruction": "Bygg varje mörk figur med de sju bitarna i ditt tangram. Använd alla sju bitarna varje gång."
+  },
+  "G1-355": {
+    "title": "Tangram: vilken bit saknas?",
+    "instruction": "I varje figur saknas en bit. Ringa in den bit som passar exakt i det tomma fältet."
+  },
+  "G2-347": {
+    "title": "Tangram: vilken lösning passar skuggbilden?",
+    "instruction": "Titta på varje skuggbild. Ringa in den lösning som ligger precis likadant. Vridna eller speglade figurer passar inte."
+  },
+  "K-359": {
+    "title": "Tangram: räkna trianglar och kvadrater",
+    "instruction": "Räkna trianglarna i varje figur och skriv talet i första rutan. Räkna sedan kvadraterna till den andra rutan."
+  },
+  "K-360": {
+    "title": "Kroppens delar: hur många har du?",
+    "instruction": "Hur många har du av varje? Räkna på din egen kropp och skriv talet i rutan."
+  },
+  "K-361": {
+    "title": "Kroppens delar: färglägg efter färgrutorna",
+    "instruction": "Läs färgrutorna och färglägg varje del av kroppen i den färg som står bredvid ordet."
+  },
+  "G1-356": {
+    "title": "Kroppens delar: skriv ordet",
+    "instruction": "Leta upp varje numrerad del på figuren och skriv namnet, en bokstav i varje ruta."
+  },
+  "K-362": {
+    "title": "Kroppens delar: vad saknas?",
+    "instruction": "På varje kropp saknas en del. Ringa in bilden på den del som saknas och rita sedan dit den."
+  },
+  "K-363": {
+    "title": "Kroppens delar: vilka har du två av?",
+    "instruction": "Ringa in varje del av kroppen som du har två av."
+  },
+  "G1-357": {
+    "title": "Våra sinnen: sortera efter sinne",
+    "instruction": "Titta på varje bild och dra ett streck från dess punkt till lådan för det sinne du använder."
+  },
+  "G1-358": {
+    "title": "Våra sinnen: vilket sinne använder du?",
+    "instruction": "Vilket sinne använder du för varje bild? Ringa in den kroppsdel du behöver."
+  },
+  "G1-359": {
+    "title": "Våra sinnen: vilken bild passar inte in?",
+    "instruction": "På varje rad passar tre bilder till samma sinne. Stryk över den bild som inte gör det."
+  },
+  "G1-360": {
+    "title": "Sinnesorganen: skriv ordet för sinnet",
+    "instruction": "Skriv varje ord från ordlistan på linjen bredvid den kroppsdel som gör det."
+  },
+  "G1-361": {
+    "title": "Våra sinnen: jag hör ...",
+    "instruction": "Skriv klart varje mening. Skriv vad du kan höra, se, lukta på, smaka på och känna på."
+  },
+  "G1-362": {
+    "title": "Skriv väderordet",
+    "instruction": "Leta upp ordet för varje vädersymbol i ordlistan och skriv det, en bokstav i varje ruta."
+  },
+  "K-364": {
+    "title": "Väderdagbok från måndag till söndag",
+    "instruction": "Titta ut varje dag den här veckan och rita vädersymbolen för den dagen i dess ruta."
+  },
+  "K-365": {
+    "title": "Hur varmt är det? Kallt, varmt eller hett",
+    "instruction": "Titta på varje termometer, använd nyckeln och ringa in den bild som passar till kallt, varmt eller hett."
+  },
+  "G3-385": {
+    "title": "Vattnets kretslopp: sätt ut namnen",
+    "instruction": "Läs de fyra orden i ordlistan och skriv varje ord på linjen med samma siffra som på bilden."
+  },
+  "G1-363": {
+    "title": "Läs veckans väderprognos",
+    "instruction": "Titta på vädret för hela veckan, läs varje fråga och ringa in rätt dag."
+  },
+  "K-366": {
+    "title": "Källsortering: vilken tunna?",
+    "instruction": "Titta på varje sak och ringa in tunnan där den hör hemma när den är tom eller slut."
+  },
+  "G1-364": {
+    "title": "Källsortering: vad är det gjort av?",
+    "instruction": "Vad är varje sak gjord av? Skriv ordet från ordlistan på linjen."
+  },
+  "G2-348": {
+    "title": "Källsortering: vilken sak är gjord av annat material?",
+    "instruction": "På varje rad är tre saker gjorda av samma material. Ringa in den sak som är gjord av något annat."
+  },
+  "G1-365": {
+    "title": "Källsortering: tre saker jag lämnar till återvinning",
+    "instruction": "Rita tre saker som du källsorterar hemma och skriv vad varje sak är."
+  },
+  "G1-366": {
+    "title": "Fyll i rätt ord: bokstavsrutor",
+    "instruction": "Titta på bilden. Skriv ordet som saknas i rutorna, en bokstav i varje ruta."
+  },
+  "G1-367": {
+    "title": "Fyll i rätt ord: ringa in och skriv",
+    "instruction": "Titta på bilden och läs meningen. Ringa in ordet som passar och skriv det i rutan."
+  },
+  "G2-349": {
+    "title": "Fyll i rätt ord: fler än en",
+    "instruction": "Titta på bilderna. Det är fler än en. Skriv ordet för fler än en i rutan."
+  },
+  "G2-350": {
+    "title": "Fyll i orden i berättelsen",
+    "instruction": "Läs hela berättelsen. De tre bilderna visar orden som saknas. Skriv varje ord från ordlistan i sin ruta."
+  },
+  "G1-368": {
+    "title": "Para ihop meningen med bilden",
+    "instruction": "Läs varje mening. Vilken bild passar i luckan? Dra ett streck från meningen till den bilden."
+  },
+  "G2-351": {
+    "title": "Udda eller jämnt? Skriv två lika stora delar",
+    "instruction": "Ringa in punkterna två och två. Skriv sedan talet som två lika stora delar och skriv det som blir över i den lilla rutan."
+  },
+  "G1-369": {
+    "title": "Kan två kompisar dela lika?",
+    "instruction": "Dela bilderna mellan de två kompisarna, en i taget. Skriv hur många var och en får och hur många som blir över. Ringa in udda eller jämnt."
+  },
+  "G2-352": {
+    "title": "Udda och jämna tal upp till 100: titta på entalet",
+    "instruction": "Läs regeln högst upp. Titta bara på entalsrutan i varje tal och sätt ett kryss i ringen under udda eller jämnt."
+  },
+  "G3-386": {
+    "title": "Udda eller jämn summa? Avgör utan att räkna ut den",
+    "instruction": "Räkna inte ut summan. Titta på entalet som är understruket i varje tal, använd tabellen och kryssa för om summan är udda eller jämn."
+  },
+  "G1-370": {
+    "title": "Udda eller jämnt? Räkna bilderna parvis",
+    "instruction": "Räkna bilderna och ringa in dem två och två. Skriv hur många par du gjorde och ringa sedan in udda eller jämnt."
+  },
+  "G1-371": {
+    "title": "Byt ut namnet mot ett pronomen",
+    "instruction": "Läs meningen. Skriv ordet från ordlistan som ersätter namnet i den andra meningen."
+  },
+  "G2-353": {
+    "title": "Vem är han? Pronomen i meningen",
+    "instruction": "Läs meningarna. Dra ett streck från varje ord i rutan till namnet som det står för."
+  },
+  "G2-354": {
+    "title": "Hans, hennes eller deras?",
+    "instruction": "Titta på vem som äger saken. Ringa in ordet som visar att den hör till den personen."
+  },
+  "G1-372": {
+    "title": "Sortera namnen: han, hon eller de",
+    "instruction": "Läs varje namnkort. Skriv namnet under ordet som vi använder för den personen."
+  },
+  "G2-355": {
+    "title": "Skriv om meningen med ett pronomen",
+    "instruction": "Läs meningen. Skriv den igen på linjerna, men använd ett pronomen i stället för namnet."
+  },
+  "G1-373": {
+    "title": "Para ihop frågan med svaret",
+    "instruction": "Läs varje fråga till vänster. Dra ett streck till svaret till höger som passar."
+  },
+  "G1-374": {
+    "title": "Fyll i frågeordet",
+    "instruction": "Läs svaret och leta upp de markerade orden. Skriv frågeordet från ordlistan i rutan."
+  },
+  "G1-375": {
+    "title": "Sortera svaren: vem, vad eller var",
+    "instruction": "Läs varje ordkort. Skriv det i lådan under frågan som det svarar på."
+  },
+  "G2-356": {
+    "title": "Ställ en fråga",
+    "instruction": "Läs svaret. Titta på de markerade orden. Skriv frågan som frågar efter dem på linjen."
+  },
+  "G2-357": {
+    "title": "Fråga om bilden: varför och hur",
+    "instruction": "Titta på bilden. Gör varje fråga färdig. Börja med ordet som redan står på linjen."
+  },
+  "G3-387": {
+    "title": "Uppåt eller nedåt? Sortera talen",
+    "instruction": "Avrundas varje tal uppåt eller nedåt till närmaste tiotal? Skriv det i rätt låda."
+  },
+  "G3-388": {
+    "title": "Avrundning till hundratal: skriv talet",
+    "instruction": "Avrunda varje tal till närmaste hundratal och skriv det i rutan. Titta på entalet och tiotalet."
+  },
+  "G3-389": {
+    "title": "Avrunda först, gör sedan ett överslag",
+    "instruction": "Avrunda båda talen till närmaste tiotal och skriv dem i rutorna. Addera sedan de avrundade talen."
+  },
+  "G3-390": {
+    "title": "Vilka tal blir 50?",
+    "instruction": "Ringa in varje tal som avrundas till talet högst upp. Titta på entalet i varje tal."
+  },
+  "G3-391": {
+    "title": "Avrundning till tiotal och hundratal",
+    "instruction": "Avrunda varje tal två gånger: till närmaste tiotal i första rutan och till närmaste hundratal i den andra."
   }
 }

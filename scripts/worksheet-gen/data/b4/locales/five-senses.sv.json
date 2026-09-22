@@ -1,0 +1,53 @@
+{
+  "verbs": {
+    "hear": "höra",
+    "see": "se",
+    "smell": "lukta",
+    "taste": "smaka",
+    "touch": "känna"
+  },
+  "starters": {
+    "hear": "Jag hör ...",
+    "see": "Jag ser ...",
+    "smell": "Jag luktar på ...",
+    "taste": "Jag smakar på ...",
+    "touch": "Jag känner på ..."
+  },
+  "signedOk": [
+    "pizza",
+    "television",
+    "book",
+    "lamp",
+    "lighthouse",
+    "flute"
+  ],
+  "organOf": {},
+  "refuse": [],
+  "strings": {
+    "K-355": {
+      "title": "Våra sinnen",
+      "instruction": "Dra ett streck från varje bild till den kroppsdel som du använder för den."
+    },
+    "G1-357": {
+      "title": "Våra sinnen: sortera efter sinne",
+      "instruction": "Titta på varje bild och dra ett streck från dess punkt till lådan för det sinne du använder."
+    },
+    "G1-358": {
+      "title": "Våra sinnen: vilket sinne använder du?",
+      "instruction": "Vilket sinne använder du för varje bild? Ringa in den kroppsdel du behöver."
+    },
+    "G1-359": {
+      "title": "Våra sinnen: vilken bild passar inte in?",
+      "instruction": "På varje rad passar tre bilder till samma sinne. Stryk över den bild som inte gör det."
+    },
+    "G1-360": {
+      "title": "Sinnesorganen: skriv ordet för sinnet",
+      "instruction": "Skriv varje ord från ordlistan på linjen bredvid den kroppsdel som gör det."
+    },
+    "G1-361": {
+      "title": "Våra sinnen: jag hör ...",
+      "instruction": "Skriv klart varje mening. Skriv vad du kan höra, se, lukta på, smaka på och känna på."
+    }
+  },
+  "strand": "Naturorienterande ämnen"
+}

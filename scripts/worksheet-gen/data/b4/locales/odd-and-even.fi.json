@@ -1,0 +1,46 @@
+{
+  "chips": {
+    "odd": "pariton",
+    "even": "parillinen"
+  },
+  "houseOrder": [
+    "even",
+    "odd"
+  ],
+  "rule": "Luku on parillinen, jos se päättyy numeroon 0, 2, 4, 6 tai 8. Luku on pariton, jos se päättyy numeroon 1, 3, 5, 7 tai 9.",
+  "leftover": "jää yli",
+  "pairs": "parit",
+  "placeHeads": [
+    "K",
+    "Y"
+  ],
+  "nameMaxGraphemes": 6,
+  "strings": {
+    "base": {
+      "title": "Parilliset ja parittomat luvut 20:een asti",
+      "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut ja näyttää parinsa."
+    },
+    "proof": {
+      "title": "Parillinen vai pariton? Kaksi yhtä suurta lukua",
+      "instruction": "Ympyröi pisteet kaksi kerrallaan. Kirjoita sitten luku kahtena yhtä suurena osana ja ylijäävä pieneen ruutuun."
+    },
+    "share": {
+      "title": "Voiko jakaa tasan kahdelle?",
+      "instruction": "Jaa kuvat kahden kaverin kesken, yksi kerrallaan. Kirjoita, montako kumpikin saa ja montako jää yli, ja ympyröi vastaus."
+    },
+    "ones": {
+      "title": "Parilliset ja parittomat luvut sataan asti",
+      "instruction": "Lue sääntö ylhäältä. Katso vain luvun ykkösten ruutua ja rastita ympyrä oikean sanan alta."
+    },
+    "sums": {
+      "title": "Parillinen vai pariton summa? Päättele ilman laskemista",
+      "instruction": "Älä laske. Katso kummankin luvun alleviivattua ykkösnumeroa, käytä taulukkoa ja rastita, millainen summa on."
+    },
+    "count": {
+      "title": "Parillinen vai pariton? Laske kuvat pareittain",
+      "instruction": "Laske kuvat ja ympyröi ne kaksi kerrallaan. Kirjoita, montako paria sait, ja ympyröi sitten oikea sana."
+    }
+  },
+  "refuse": {},
+  "strand": "Luvut ja laskutoimitukset"
+}

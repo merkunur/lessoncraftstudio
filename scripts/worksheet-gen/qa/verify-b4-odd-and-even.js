@@ -172,11 +172,11 @@ const FACE_BAND = { base: 'G1', proof: 'G2', share: 'G1', ones: 'G2', sums: 'G3'
 const NEIGHBOUR = { nl: ['Tienraam'], sv: ['siffror', 'vecka'], de: ['Hundertertafel'] };
 // absent-apparatus lint per face (design §5 rule 7): the instruction may name only apparatus ON the page
 const APPARATUS = {
-  base: { en: ['dots', 'dot', 'pictures', 'picture'], de: ['Punkte', 'Bilder'], es: ['puntos', 'dibujos'], pt: ['pontos', 'figuras'], fr: ['points', 'images'], it: ['punti', 'figure'], nl: ['stippen', 'plaatjes'], sv: ['prickar', 'bilder'], da: ['prikker', 'billeder'], no: ['prikker', 'bilder'], fi: ['pisteet', 'kuvat'] },
-  proof: { en: ['house', 'houses'], de: ['Haus', 'Häuser'], es: ['casa'], pt: ['casa'], fr: ['maison'], it: ['casa'], nl: ['huis'], sv: ['hus'], da: ['hus'], no: ['hus'], fi: ['talo'] },
+  base: { en: ['dots', 'dot', 'pictures', 'picture'], de: ['Punkte', 'Punkten', 'Bilder', 'Bildern'], es: ['puntos', 'dibujos'], pt: ['pontos', 'figuras'], fr: ['points', 'images'], it: ['punti', 'figure'], nl: ['stippen', 'plaatjes'], sv: ['prickar', 'prickarna', 'bilder', 'bilderna'], da: ['prikker', 'prikkerne', 'billeder', 'billederne'], no: ['prikker', 'prikkene', 'bilder', 'bildene'], fi: ['pisteet', 'kuvat'] },
+  proof: { en: ['house', 'houses'], de: ['Haus', 'Hauses', 'Häuser', 'Häusern'], es: ['casa'], pt: ['casa'], fr: ['maison'], it: ['casa'], nl: ['huis'], sv: ['hus', 'huset', 'husen'], da: ['hus', 'huset', 'husene'], no: ['hus', 'huset', 'husene'], fi: ['talo'] },
   ones: { en: ['circle the word'] }, sums: { en: ['circle the word'] },
-  count: { en: ['friend', 'friends'], de: ['Freund', 'Freunde'], es: ['amigo', 'amigos'], pt: ['amigo', 'amigos'], fr: ['ami', 'amis'], it: ['amico', 'amici'], nl: ['vriend', 'vrienden'], sv: ['kompis', 'kompisar'], da: ['ven', 'venner'], no: ['venn', 'venner'], fi: ['kaveri', 'kaverit'] },
-  share: { en: ['pairs', 'pair'], de: ['Paare', 'Paar'], es: ['parejas', 'pareja'], pt: ['pares', 'par'], fr: ['paires', 'paire'], it: ['coppie', 'coppia'], nl: ['paren', 'paar'], sv: ['par'], da: ['par'], no: ['par'], fi: ['parit', 'pari'] },
+  count: { en: ['friend', 'friends'], de: ['Freund', 'Freunde'], es: ['amigo', 'amigos'], pt: ['amigo', 'amigos'], fr: ['ami', 'amis'], it: ['amico', 'amici'], nl: ['vriend', 'vrienden'], sv: ['kompis', 'kompisen', 'kompisar', 'kompisarna'], da: ['ven', 'vennen', 'venner', 'vennerne'], no: ['venn', 'vennen', 'venner', 'vennene'], fi: ['kaveri', 'kaverit'] },
+  share: { en: ['pairs', 'pair'], de: ['Paare', 'Paar'], es: ['parejas', 'pareja'], pt: ['pares', 'par'], fr: ['paires', 'paire'], it: ['coppie', 'coppia'], nl: ['paren', 'paar'], sv: ['par', 'paret', 'paren'], da: ['par', 'parret', 'parrene'], no: ['par', 'paret', 'parene'], fi: ['parit', 'pari'] },
 };
 
 let fails = 0, asserts = 0, killed = 0, poisonsTotal = 0;   // poisons: every one counted, every one must be KILLED for its own reason

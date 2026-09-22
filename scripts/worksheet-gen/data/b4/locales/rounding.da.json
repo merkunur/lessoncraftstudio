@@ -1,0 +1,43 @@
+{
+  "up": {
+    "10": "rund op",
+    "100": "rund op"
+  },
+  "down": {
+    "10": "rund ned",
+    "100": "rund ned"
+  },
+  "heads": {
+    "10": "tier",
+    "100": "hundrede"
+  },
+  "relation": "approx",
+  "strings": {
+    "base": {
+      "title": "Afrunding til nærmeste 10",
+      "instruction": "Rund hvert tal af til nærmeste tier, og skriv det i feltet. Er enercifret 5 eller mere, runder du op."
+    },
+    "sort": {
+      "title": "Rund op eller ned? Sortér tallene",
+      "instruction": "Runder hvert tal op eller ned til nærmeste tier? Skriv tallet i den rigtige kasse."
+    },
+    "hundred": {
+      "title": "Afrunding til nærmeste 100",
+      "instruction": "Rund hvert tal af til nærmeste hundrede, og skriv det i feltet. Se på cifret på tierpladsen."
+    },
+    "estimate": {
+      "title": "Rund af først, lav så et overslag over summen",
+      "instruction": "Rund begge tal af til nærmeste tier, og skriv dem i felterne. Læg så de afrundede tal sammen."
+    },
+    "inverse": {
+      "title": "Hvilke tal bliver til 50?",
+      "instruction": "Sæt ring om hvert tal, der bliver til tieren øverst. Se på cifret på enerpladsen."
+    },
+    "both": {
+      "title": "Afrunding til nærmeste tier og hundrede",
+      "instruction": "Rund hvert tal af to gange: til nærmeste tier i det første felt og til nærmeste hundrede i det andet."
+    }
+  },
+  "refuse": [],
+  "strand": "Tal og algebra (Fælles Mål)"
+}

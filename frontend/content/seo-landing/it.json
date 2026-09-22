@@ -130457,6 +130457,2500 @@
    ],
    "title": "Salti indietro sulla linea dei numeri – Classe terza da stampare PDF gratis",
    "metaDescription": "Salti indietro sulla linea dei numeri: tre linee con un punto su 15, 22 e 10; disegna salti uguali all'indietro finché ci stanno, scrivi salti e arrivo. PDF gratis."
+  },
+  {
+   "slug": "tangram-da-ritagliare",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "base",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda tangram · infanzia",
+   "h1": "Tangram da ritagliare: sette pezzi e due figure",
+   "strand": "Indicazioni nazionali: Spazio e figure",
+   "standard": "K.G.B.6",
+   "slotTokens": [
+    "tangram",
+    "infanzia"
+   ],
+   "p1": "In alto, un quadrato attraversato dalle linee di taglio: sono i sette pezzi del tangram, due triangoli grandi, uno medio, due piccoli, un quadrato e un parallelogramma. Accanto, una legenda di cinque caselle colorate dice a quale forma tocca quale colore, e i due triangoli grandi condividono il colore come i due piccoli. Sotto, due figure già disegnate con le linee interne visibili, un gatto e un rettangolo. Il bambino colora, ritaglia lungo le linee e posa i pezzi sopra le due figure, alla scuola dell'infanzia con l'aiuto dell'insegnante per le forbici.",
+   "p2": "Questa è la pagina che mette in mano al bambino il materiale. Tagliare lungo una diagonale, accorgersi che due triangoli sono uguali perché portano lo stesso colore, girare un pezzo finché non entra: sono i gesti con cui le Indicazioni nazionali fanno cominciare lo spazio e le figure. Le linee interne restano visibili sulle due figure, quindi la posa è guidata e nessuno resta fermo davanti a una sagoma vuota. Il quadrato ritagliato non si butta: è il gioco da tenere in una bustina e da riusare su tutte le altre schede della famiglia.",
+   "p3": "Conviene stamparla su cartoncino leggero, altrimenti i pezzi si piegano al primo uso. È la scheda madre: si fa una volta sola, si ritaglia, e poi i sette pezzi servono per il resto. Dopo questa, la scheda delle quattro ombre nere richiede il gatto e il rettangolo senza più linee; quella con due e tre pezzi è il passo indietro per i più piccoli.",
+   "canonicalDeckSlug": "tangram-k353",
+   "carousel": [
+    {
+     "label": "Tangram facile con due e tre pezzi: disegna le linee",
+     "href": "tangram-facile-disegna-le-linee"
+    },
+    {
+     "label": "Tangram: quattro ombre da costruire",
+     "href": "tangram-quattro-ombre-da-costruire"
+    },
+    {
+     "label": "Tangram: quale pezzo manca?",
+     "href": "tangram-quale-pezzo-manca"
+    },
+    {
+     "label": "Quale soluzione è uguale all'ombra?",
+     "href": "tangram-quale-soluzione-e-uguale-all-ombra"
+    }
+   ],
+   "title": "Tangram da ritagliare – Sette pezzi da stampare PDF gratis",
+   "metaDescription": "Tangram da ritagliare: un quadrato diviso in sette pezzi, la legenda dei cinque colori e due figure da coprire, il gatto e il rettangolo. PDF gratis."
+  },
+  {
+   "slug": "il-corpo-umano",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "base",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda il corpo umano · infanzia",
+   "h1": "Il corpo umano: copia il nome di ogni parte",
+   "strand": "Scienze",
+   "slotTokens": [
+    "il-corpo-umano",
+    "infanzia"
+   ],
+   "p1": "Una figura umana intera occupa il centro della pagina, e sei pallini arancioni indicano altrettante parti: orecchio, braccio, gomito, occhio, mano e piede. Da ogni pallino parte una linea che raggiunge un riquadro tratteggiato con dentro le righe per scrivere, tre per ciascuno, con la riga di mezzo tratteggiata come sui quaderni della scuola dell'infanzia. Le sei parole stanno già scritte in alto, dentro un riquadro: occhio, braccio, mano, piede, gomito, orecchio. Il bambino le copia, una per riquadro, quella che corrisponde al pallino.",
+   "p2": "È la scheda base della famiglia e serve a due cose insieme: dare il nome alle parti del corpo e far ricopiare una parola dentro una riga. Le sei parole sono corte e già presenti sul foglio, quindi nessuno deve inventare un'ortografia. Per le Scienze alla scuola dell'infanzia il traguardo è proprio questo, riconoscere e nominare le parti del proprio corpo, e la figura stampata funziona da specchio: il bambino tocca il proprio gomito e poi cerca il pallino corrispondente sul disegno.",
+   "p3": "Da stampare in A4 a piena pagina, perché la figura perde leggibilità se si riduce. Un avvertimento per chi la usa con i più piccoli: i pallini di braccio e gomito cadono vicini sullo stesso arto e la figura non ha una piega del gomito disegnata, quindi conviene indicarli a voce la prima volta. Dopo, la scheda con le caselle una lettera per volta chiede le stesse parole senza il riquadro.",
+   "canonicalDeckSlug": "il-corpo-umano-k354",
+   "carousel": [
+    {
+     "label": "Il corpo umano: quanti ne hai?",
+     "href": "il-corpo-umano-quanti-ne-hai"
+    },
+    {
+     "label": "Il corpo umano: colora seguendo la legenda",
+     "href": "il-corpo-umano-colora-con-la-legenda"
+    },
+    {
+     "label": "Il corpo umano: scrivi il nome nelle caselle",
+     "href": "il-corpo-umano-scrivi-la-parola"
+    },
+    {
+     "label": "Il corpo umano: che cosa manca?",
+     "href": "il-corpo-umano-che-cosa-manca"
+    }
+   ],
+   "title": "Il corpo umano – Scheda da stampare per l'infanzia PDF gratis",
+   "metaDescription": "Il corpo umano: una figura intera con sei parti segnate da un pallino arancione, sei righe da scrivere e il riquadro con occhio, braccio, mano, piede, gomito, orecchio."
+  },
+  {
+   "slug": "i-cinque-sensi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "base",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda i cinque sensi · infanzia",
+   "h1": "I cinque sensi: collega ogni cosa al suo organo",
+   "strand": "Scienze",
+   "slotTokens": [
+    "i-cinque-sensi",
+    "infanzia"
+   ],
+   "p1": "Due colonne e dieci disegni. A sinistra cinque cose, un rametto di lavanda, la luna, un pianoforte, una spugna e una tavoletta di cioccolato. A destra cinque parti del corpo, la mano, l'orecchio, il naso, la lingua e l'occhio. Fra le due colonne, un pallino arancione per ogni disegno: il bambino traccia una linea da ciascuna cosa alla parte del corpo con cui la percepisce. Nessuna riga è già accoppiata in orizzontale, quindi tutte e cinque le linee attraversano la pagina in diagonale.",
+   "p2": "Ogni cosa di questa pagina è stata scelta perché si percepisce bene con un senso solo. La luna si vede e basta, non si tocca e non si annusa; la lavanda è il profumo che arriva prima dell'immagine; il pianoforte suona. Questo taglia alla radice l'incertezza che rovina molte schede sui sensi, dove una mela potrebbe stare in tre caselle. Per le Scienze alla scuola dell'infanzia l'obiettivo è esplorare la realtà con i sensi e dare un nome all'organo che si usa: qui si fa con una linea di matita.",
+   "p3": "È la scheda che apre la famiglia e fissa il lessico degli organi, la parola senza il verbo. Dopo si può passare alla scheda dove le cose diventano dieci e vanno smistate in cinque caselle, oppure a quella che chiede di cerchiare l'organo riga per riga. Vale la pena farla circolare con oggetti veri sul tavolo, una spugna e un pezzo di cioccolato: la linea sul foglio viene dopo.",
+   "canonicalDeckSlug": "i-cinque-sensi-k355",
+   "carousel": [
+    {
+     "label": "I cinque sensi: classifica dieci cose per senso",
+     "href": "i-cinque-sensi-classifica-per-senso"
+    },
+    {
+     "label": "I cinque sensi: quale senso usi per ogni cosa?",
+     "href": "i-cinque-sensi-quale-senso-usi"
+    },
+    {
+     "label": "I cinque sensi: trova l'intruso in ogni riga",
+     "href": "i-cinque-sensi-l-intruso"
+    },
+    {
+     "label": "Gli organi di senso: scrivi il verbo accanto all'organo",
+     "href": "gli-organi-di-senso-scrivi-la-parola"
+    }
+   ],
+   "title": "I cinque sensi – Scheda da stampare per l'infanzia PDF gratis",
+   "metaDescription": "I cinque sensi: lavanda, luna, pianoforte, spugna e cioccolato da collegare con una linea a naso, occhio, orecchio, mano e lingua. Infanzia, PDF gratis."
+  },
+  {
+   "slug": "il-tempo-atmosferico",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "base",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda il tempo atmosferico · infanzia",
+   "h1": "Il tempo atmosferico: collega il simbolo alla parola",
+   "strand": "Scienze",
+   "slotTokens": [
+    "il-tempo-atmosferico",
+    "infanzia"
+   ],
+   "p1": "Sei simboli meteorologici incorniciati in un cerchio verde occupano la colonna di sinistra: nuvola con la pioggia, sole sorridente, arcobaleno, nuvole grigie, nuvola con il fulmine, fiocco di neve. A destra, sei pillole color crema con le parole temporale, neve, nuvola, sole, pioggia, arcobaleno. Fra le due colonne i pallini arancioni da cui parte la linea. Nessun simbolo sta sulla stessa riga della propria parola, quindi il bambino deve leggere davvero e non può accoppiare per allineamento.",
+   "p2": "È il vocabolario del tempo atmosferico, sei parole e sei icone, ed è la base di tutto il resto della famiglia. Tre simboli sono nuvole grigie e si distinguono solo per quello che portano, gocce, fulmine o niente: proprio per questo la scheda insegna a guardare il dettaglio invece della forma generale. Le Scienze alla scuola dell'infanzia chiedono di osservare i fenomeni atmosferici e di parlarne, e avere sei nomi condivisi è la condizione perché quella conversazione avvenga.",
+   "p3": "Da stampare una volta per bambino e da riusare come tabella appesa: i sei simboli sono gli stessi che tornano sul calendario settimanale e sulle previsioni, quindi conviene che restino a vista. Dopo questa si può passare alla scheda con le caselle una lettera per volta, che chiede le stesse sei parole scritte a mano, o al diario della settimana.",
+   "canonicalDeckSlug": "il-tempo-atmosferico-k356",
+   "carousel": [
+    {
+     "label": "Il tempo atmosferico: scrivi la parola nelle caselle",
+     "href": "il-tempo-atmosferico-scrivi-la-parola"
+    },
+    {
+     "label": "Il tempo della mia settimana: un simbolo al giorno",
+     "href": "il-tempo-atmosferico-la-mia-settimana"
+    },
+    {
+     "label": "Il termometro: fa freddo, è mite o fa caldo?",
+     "href": "il-tempo-atmosferico-freddo-o-caldo"
+    },
+    {
+     "label": "Il ciclo dell'acqua: completa lo schema con quattro parole",
+     "href": "ciclo-dell-acqua-completa-lo-schema"
+    }
+   ],
+   "title": "Il tempo atmosferico – Simboli e parole da stampare PDF gratis",
+   "metaDescription": "Sei simboli del tempo dentro un cerchio e sei parole, temporale, neve, nuvola, sole, pioggia, arcobaleno, da collegare con una linea. Infanzia, PDF gratis."
+  },
+  {
+   "slug": "raccolta-differenziata",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "base",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda raccolta differenziata · infanzia",
+   "h1": "Raccolta differenziata: ogni cosa nel suo bidone",
+   "strand": "Scienze",
+   "slotTokens": [
+    "raccolta-differenziata",
+    "infanzia"
+   ],
+   "p1": "In alto una striscia di otto oggetti: un quaderno, una bottiglia di sugo, un bullone, una colla, un secchiello, una carota, un foglio e una bottiglia d'acqua. In basso cinque bidoni disegnati e già colorati, con il nome sopra: Carta in blu, Plastica in giallo, Vetro in verde, Umido in marrone, Secco in grigio. Fra le due zone, una fascia bianca larga: è lo spazio in cui passano le otto linee. La consegna avverte che ogni cosa è vuota o finita, quindi è un rifiuto.",
+   "p2": "I cinque bidoni sono quelli che un bambino italiano incontra davvero, con i colori della norma UNI 11686, e vale la pena dirlo in classe: quei colori cambiano da comune a comune, e il bidone giallo di una città può essere blu in un'altra. Il nome scritto sul bidone è quindi più affidabile del colore. Per le Scienze alla scuola dell'infanzia l'obiettivo è prendere l'abitudine di guardare di che cosa è fatta una cosa prima di buttarla, ed è tutto qui il compito.",
+   "p3": "Il bullone è l'oggetto difficile della pagina: è di metallo ma non è un imballaggio, quindi in Italia non va nel giallo con le lattine ma nel secco, e questa distinzione va spiegata perché il foglio non la scrive. Gli altri sette sono immediati. È la scheda che apre la famiglia; dopo si passa a quella in cui il bidone si cerchia invece di collegarlo.",
+   "canonicalDeckSlug": "raccolta-differenziata-k357",
+   "carousel": [
+    {
+     "label": "Raccolta differenziata: in quale bidone va?",
+     "href": "raccolta-differenziata-in-quale-bidone"
+    },
+    {
+     "label": "Di che materiale è? Otto oggetti da classificare",
+     "href": "raccolta-differenziata-di-che-materiale-e"
+    },
+    {
+     "label": "L'intruso per materiale: cerchia quella diversa",
+     "href": "raccolta-differenziata-l-intruso"
+    },
+    {
+     "label": "Colora i cinque bidoni con i colori giusti",
+     "href": "raccolta-differenziata-colora-i-bidoni"
+    }
+   ],
+   "title": "Raccolta differenziata – Scheda da stampare per l'infanzia PDF gratis",
+   "metaDescription": "Otto oggetti vuoti e cinque bidoni colorati, carta, plastica, vetro, umido e secco: si collega ogni cosa al bidone giusto con una linea. Infanzia, PDF gratis."
+  },
+  {
+   "slug": "completa-le-frasi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "base",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda completa le frasi · classe prima",
+   "h1": "Completa le frasi: cerca la parola nel riquadro",
+   "strand": "Riflessione linguistica",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "completa-le-frasi",
+    "classe-prima"
+   ],
+   "p1": "Un riquadro con sette parole in alto, treno, leone, pinguino, maiale, trattore, giraffa, zebra. Sotto, sette corsie numerate: il disegno a sinistra, poi l'articolo già stampato, la casella vuota e il resto della frase. La zebra ha le righe bianche e nere, la giraffa ha il collo lunghissimo, il maiale si rotola nel fango, il trattore ara il campo del contadino, il treno fischia alla stazione, il pinguino scivola sul ghiaccio, il leone ruggisce nella savana.",
+   "p2": "L'articolo stampato prima della casella è la scelta che rende questa scheda italiana e non una traduzione: il bambino di classe prima vede La davanti alla zebra e Il davanti al maiale, e mentre completa la frase assorbe l'accordo. Tutte e sette le parole cominciano per consonante, quindi nessuna casella si trova a dover reggere un apostrofo, che a questo punto dell'anno sarebbe un ostacolo in più. Il disegno dà la risposta, la frase la conferma, il riquadro fornisce l'ortografia.",
+   "p3": "È la scheda che apre la famiglia e l'unica che dà insieme il disegno, l'articolo e la parola scritta: da qui in poi uno di questi tre appoggi viene tolto ogni volta. La sorella con le caselle lettera per lettera toglie il riquadro; quella con due parole da cerchiare toglie il disegno come unico indizio. Si fa a inizio anno, appena la lettura globale regge sette parole.",
+   "canonicalDeckSlug": "completa-le-frasi-g1350",
+   "carousel": [
+    {
+     "label": "Completa la frase scrivendo la parola nelle caselle",
+     "href": "completa-la-frase-e-scrivi-la-parola"
+    },
+    {
+     "label": "Scegli la parola giusta fra due e scrivila",
+     "href": "scegli-la-parola-giusta"
+    },
+    {
+     "label": "Completa le frasi al plurale: più di uno",
+     "href": "completa-le-frasi-al-plurale"
+    },
+    {
+     "label": "Tre blocchi di frasi da completare con nove parole",
+     "href": "completa-il-testo-tre-blocchi"
+    }
+   ],
+   "title": "Completa le frasi – Classe prima da stampare PDF gratis",
+   "metaDescription": "Sette frasi con un disegno e una casella vuota dopo l'articolo, e il riquadro con treno, leone, pinguino, maiale, trattore, giraffa, zebra. PDF gratis."
+  },
+  {
+   "slug": "numeri-pari-e-dispari-fino-a-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "base",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda numeri pari e dispari · classe prima",
+   "h1": "Numeri pari e dispari fino a 20: le due case",
+   "strand": "Numeri (Indicazioni nazionali)",
+   "slotTokens": [
+    "numeri-pari-e-dispari",
+    "classe-prima"
+   ],
+   "p1": "Una striscia con nove numeri dentro altrettanti cerchi occupa la parte alta: nel foglio mostrato sono 11, 10, 8, 5, 12, 14, 1, 13 e 19, e cambiano a ogni stampa dentro l'intervallo da 1 a 20. Sotto, due case disegnate con il tetto e il comignolo, una con l'etichetta pari e l'altra con dispari, e otto caselle tratteggiate ciascuna. Tre numeri sono già collocati e mostrano perché: accanto al 6 e al 4 i puntini sono appaiati, accanto al 3 una coppia e un puntino spaiato in arancione.",
+   "p2": "Il puntino spaiato è il cuore della pagina. Il bambino di classe prima non impara una regola sulle cifre finali, impara che un numero è dispari perché avanza qualcosa quando lo si divide in due, e i tre esempi già dentro le case glielo mostrano invece di dirglielo. Da lì in poi ogni numero della striscia va collocato ragionando, oppure contando a due a due sulle dita. È il fondamento che le Indicazioni nazionali chiedono prima di qualunque scorciatoia sulle unità.",
+   "p3": "Le case hanno otto caselle ciascuna e i numeri da sistemare sono nove, quindi resteranno molte caselle vuote: vale la pena dirlo, perché i bambini tendono a credere che ogni casella vada riempita. Si fa con i gettoni sul banco, uno per unità, almeno per i primi tre numeri. Dopo viene la scheda dei puntini da cerchiare a due a due, dove il ragionamento si scrive.",
+   "canonicalDeckSlug": "numeri-pari-e-dispari-g1351",
+   "carousel": [
+    {
+     "label": "Pari o dispari? Scrivilo come due parti uguali",
+     "href": "pari-o-dispari-due-addendi-uguali"
+    },
+    {
+     "label": "Si può dividere in due? Due amici e un mucchio di figure",
+     "href": "si-puo-dividere-in-due-pari-o-dispari"
+    },
+    {
+     "label": "Pari o dispari fino a 100: guarda solo le unità",
+     "href": "numeri-pari-e-dispari-fino-a-100"
+    },
+    {
+     "label": "La somma è pari o dispari? Senza fare il calcolo",
+     "href": "somma-pari-o-dispari-senza-calcolare"
+    }
+   ],
+   "title": "Numeri pari e dispari fino a 20 – Classe prima PDF gratis",
+   "metaDescription": "Nove numeri in cerchio e due case, quella dei pari e quella dei dispari, con tre numeri già dentro che mostrano le coppie di puntini. Classe prima, PDF gratis."
+  },
+  {
+   "slug": "pronomi-personali-soggetto",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "base",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda i pronomi personali · classe prima",
+   "h1": "I pronomi personali soggetto: lui, lei o loro",
+   "strand": "Riflessione linguistica",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronomi-personali-soggetto",
+    "classe-prima"
+   ],
+   "p1": "Otto carte numerate su due colonne. In ciascuna, una o due figure di persona, sotto di loro un'etichetta con il nome o i nomi, e in fondo tre pillole sempre nello stesso ordine: lui, lei, loro. Elisa e Chiara, Aurora, Matteo, Luca e Marco, Diego e Sofia, Alice, Simone, Paolo. Il bambino legge il nome e cerchia la parola che useremmo al suo posto. Tre carte hanno due nomi e chiedono loro, le altre cinque si dividono fra lui e lei.",
+   "p2": "Questa scheda sceglie e fissa per tutta la famiglia la coppia lui e lei, non egli ed ella: sono le forme che la scuola primaria italiana usa oggi e le uniche che un bambino sente parlare. La sostituzione del nome con il pronome è il primo passo della riflessione linguistica sui pronomi, e qui avviene su un nome proprio, che è il caso più trasparente. La forma loro è indifferente al genere, quindi una coppia mista e una coppia di femmine ricevono la stessa risposta.",
+   "p3": "La figura serve come conferma del genere, non come indizio da decifrare: se in classe qualcuno esita davanti a un'immagine poco leggibile, la regola è leggere il nome. Una delle carte mostra una bambola invece di una persona, e due carte hanno figure molto simili con nomi di genere diverso, quindi vale la pena indicare il nome a voce. È la scheda base: dopo si passa alla sostituzione dentro la frase.",
+   "canonicalDeckSlug": "pronomi-personali-soggetto-g1352",
+   "carousel": [
+    {
+     "label": "Sostituisci il nome con un pronome nella seconda frase",
+     "href": "sostituisci-il-nome-con-un-pronome"
+    },
+    {
+     "label": "Chi è? Il pronome nella frase, da collegare al nome",
+     "href": "chi-e-il-pronome-nella-frase"
+    },
+    {
+     "label": "Suo, sua o loro? Il possessivo va d'accordo con la cosa",
+     "href": "suo-sua-o-loro-i-possessivi"
+    },
+    {
+     "label": "Ordina i nomi in tre colonne: lui, lei o loro",
+     "href": "ordina-i-nomi-lui-lei-o-loro"
+    }
+   ],
+   "title": "I pronomi personali soggetto – Da stampare PDF gratis",
+   "metaDescription": "Otto carte con una o due persone e un nome sotto: si cerchia lui, lei o loro, la parola che useremmo al posto del nome. Pronomi personali, PDF gratis."
+  },
+  {
+   "slug": "le-domande-della-frase-chi-che-cosa-dove",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "base",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda le domande della frase · classe prima",
+   "h1": "Le domande della frase: chi, che cosa, dove",
+   "strand": "Riflessione linguistica",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "le-domande-della-frase",
+    "classe-prima"
+   ],
+   "p1": "Sette corsie numerate. In ognuna, a sinistra un ritratto, poi una frase corta in cui una parte è evidenziata in rosa e sottolineata in arancione, e sotto tre pillole sempre nello stesso ordine: Chi, Che cosa, Dove. Luca disegna la renna. Sofia vede il furgone. Simone è in tenda. Aurora vuole l'elicottero. Elisa legge sul divano, con il nome evidenziato. Marco gioca in montagna. Il bambino cerchia la parola interrogativa che serve per chiedere proprio la parte evidenziata.",
+   "p2": "L'evidenziazione è il dispositivo della scheda: senza di essa la stessa frase ammetterebbe più domande, mentre con essa la risposta è una sola. È così che le Indicazioni nazionali fanno incontrare in classe prima e seconda la struttura della frase, chiedendo chi fa, che cosa fa, dove: la frase viene smontata nei suoi pezzi e a ogni pezzo corrisponde una domanda. Le tre pillole restano sempre nello stesso ordine, quindi l'attenzione resta tutta sulla frase.",
+   "p3": "Un avvertimento per la correzione: in una riga la parte evidenziata è il nome di un animale e la scheda si aspetta Che cosa, mentre molti sussidiari italiani insegnano che chi vale anche per gli animali. Se in classe qualcuno cerchia Chi ha un buon argomento, e vale la pena accoglierlo. Le figure non illustrano la frase. Dopo si passa alla scheda che collega la domanda alla risposta.",
+   "canonicalDeckSlug": "le-domande-della-frase-g1353",
+   "carousel": [
+    {
+     "label": "Collega ogni domanda alla sua risposta",
+     "href": "collega-la-domanda-alla-risposta"
+    },
+    {
+     "label": "Completa la domanda con la parola del riquadro",
+     "href": "completa-la-domanda-con-la-parola-giusta"
+    },
+    {
+     "label": "Chi, che cosa o dove? Ordina nove cartellini",
+     "href": "chi-che-cosa-o-dove-ordina-le-risposte"
+    },
+    {
+     "label": "Scrivi la domanda che chiede la parte evidenziata",
+     "href": "scrivi-la-domanda"
+    }
+   ],
+   "title": "Le domande della frase: chi, che cosa, dove – PDF gratis",
+   "metaDescription": "Sette frasi con una parte evidenziata in arancione e tre pillole, Chi, Che cosa e Dove: si cerchia la parola che serve per chiedere quella parte. PDF gratis."
+  },
+  {
+   "slug": "arrotondare-i-numeri-alla-decina",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "base",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda arrotondare i numeri · classe seconda",
+   "h1": "Arrotondare alla decina: guarda la cifra delle unità",
+   "strand": "Numeri (Indicazioni nazionali)",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "arrotondare-i-numeri",
+    "classe-seconda"
+   ],
+   "p1": "In alto, dentro un riquadro tratteggiato, la regola in forma visiva: l'esempio 47 con il 7 in arancione e la freccia verso 50, poi le dieci cifre divise in due gruppi, da 0 a 4 con una freccia in giù e la scritta per difetto, da 5 a 9 con una freccia in su e per eccesso. Sotto, quattordici numeri su due colonne, ciascuno seguito dal segno di approssimazione e da una casella tratteggiata. Sette sono a due cifre, sette a tre cifre.",
+   "p2": "La striscia della regola è ciò che rende la pagina autonoma: un bambino che non ricorda cosa fare con il 5 lo ritrova stampato sopra ogni esercizio, e non deve chiedere. Le parole per difetto e per eccesso sono quelle che la scuola italiana usa, e questa scheda le fissa per tutta la famiglia. La presenza di numeri a tre cifre accanto a quelli a due mostra fin dall'inizio che arrotondare alla decina non dipende dalla lunghezza del numero ma dalla sola cifra delle unità.",
+   "p3": "Almeno due dei quattordici numeri finiscono per cinque: è il caso limite e va affrontato subito, perché la convenzione di salire è una scelta e non una conseguenza. Chi ha bisogno di vedere la distanza può disegnare a lato una piccola linea dei numeri. È la scheda che apre la famiglia, e da qui partono sia la scheda dei due contenitori sia quella al centinaio.",
+   "canonicalDeckSlug": "arrotondare-i-numeri-g2346",
+   "carousel": [
+    {
+     "label": "Per eccesso o per difetto? Smista dodici numeri",
+     "href": "arrotondare-per-eccesso-o-per-difetto"
+    },
+    {
+     "label": "Arrotondare al centinaio: guarda la cifra delle decine",
+     "href": "arrotondare-i-numeri-al-centinaio"
+    },
+    {
+     "label": "Arrotonda i due numeri e stima la somma",
+     "href": "arrotondare-e-stimare-la-somma"
+    },
+    {
+     "label": "Quali numeri si arrotondano a 50? Cerchiali tutti",
+     "href": "quali-numeri-si-arrotondano-a-50"
+    }
+   ],
+   "title": "Arrotondare i numeri alla decina – Seconda PDF gratis",
+   "metaDescription": "Quattordici numeri a due e a tre cifre da arrotondare alla decina, con la striscia della regola in alto: da 0 a 4 per difetto, da 5 a 9 per eccesso."
+  },
+  {
+   "slug": "tangram-facile-disegna-le-linee",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-draw-the-lines-2-and-3-pieces",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda tangram · infanzia",
+   "h1": "Tangram facile con due e tre pezzi: disegna le linee",
+   "strand": "Indicazioni nazionali: Spazio e figure",
+   "standard": "K.G.B.6",
+   "slotTokens": [
+    "tangram",
+    "infanzia"
+   ],
+   "p1": "Quattro riquadri, e in ognuno la stessa coppia di cose: in alto una fila di pezzi del tangram disegnati piccoli, sotto una forma vuota grande. Le prime due forme si fanno con tre pezzi, le ultime due con due soli pezzi. Non si ritaglia e non si incolla: il bambino guarda i pezzi disegnati sopra e traccia a matita, dentro la forma, le linee dove quei pezzi si toccherebbero. La scheda è pensata per l'infanzia e per chi comincia, perché il numero di pezzi resta bassissimo.",
+   "p2": "Scomporre una forma in due o tre parti è il gradino più basso della composizione geometrica, e qui si fa con la matita invece che con le mani. Il bambino deve tenere a mente la forma di un triangolo medio o di un parallelogramma e cercarne il posto dentro un contorno più grande: un compito di visualizzazione, non di manualità. Chi sbaglia la prima linea se ne accorge subito, perché il pezzo che avanza non ci sta. Con due pezzi la risposta è quasi sempre una sola, e questo rende la pagina rassicurante.",
+   "p3": "Si usa prima della scheda da ritagliare, oppure il giorno dopo, con i pezzi veri accanto al foglio: il bambino appoggia il pezzo vero sulla forma stampata e poi ne ricalca il bordo. Chi ha già lavorato con due e tre pezzi passa alle sei figure a cui manca un pezzo, dove le forme salgono a sette.",
+   "canonicalDeckSlug": "tangram-k358",
+   "carousel": [
+    {
+     "label": "Tangram da ritagliare: sette pezzi e due figure",
+     "href": "tangram-da-ritagliare"
+    },
+    {
+     "label": "Tangram: quattro ombre da costruire",
+     "href": "tangram-quattro-ombre-da-costruire"
+    },
+    {
+     "label": "Tangram: quale pezzo manca?",
+     "href": "tangram-quale-pezzo-manca"
+    },
+    {
+     "label": "Quale soluzione è uguale all'ombra?",
+     "href": "tangram-quale-soluzione-e-uguale-all-ombra"
+    }
+   ],
+   "title": "Tangram facile 2 e 3 pezzi – Disegna le linee PDF gratis",
+   "metaDescription": "Tangram facile con due e tre pezzi: quattro forme vuote, sopra ciascuna i pezzi che la compongono, e il bambino disegna dentro le linee di contatto."
+  },
+  {
+   "slug": "tangram-quattro-ombre-da-costruire",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-four-shadows-to-build",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda tangram · classe prima",
+   "h1": "Tangram: quattro ombre da costruire",
+   "strand": "Indicazioni nazionali: Spazio e figure",
+   "standard": "1.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "classe-prima"
+   ],
+   "p1": "Quattro riquadri, quattro sagome piene di colore scuro e nient'altro. Nessuna linea interna, nessun numero, nessun suggerimento: il bambino di classe prima ha davanti solo il profilo e i sette pezzi del suo tangram. Due sagome sono oggetti riconoscibili, un gatto con le orecchie a punta e una barca; le altre due sono forme geometriche pure, un rettangolo e il quadrato di partenza. La consegna stampata ricorda la regola che rende il gioco un problema: si usano sempre tutti e sette i pezzi, nessuno escluso e nessuno ripetuto.",
+   "p2": "Togliere le linee cambia completamente il compito. Nella scheda da ritagliare il gatto mostrava dove andava ogni pezzo; qui il gatto è una macchia nera e il bambino deve ricostruire da solo la scomposizione. È il passaggio dalla copia alla composizione: ipotizzare dove sta il triangolo grande, provarlo, girarlo, scartarlo. Il quadrato è la sagoma più difficile delle quattro proprio perché è la più semplice da guardare e non offre nessun appiglio. Le Indicazioni nazionali chiedono in classe prima di comporre e scomporre figure piane: questa pagina è quel verbo, per intero.",
+   "p3": "Serve il tangram ritagliato, quindi va stampata dopo la scheda madre. Una sagoma a testa per volta è più che sufficiente: quattro ombre possono occupare una mattinata intera. Chi si blocca sul quadrato può tornare alla scheda con i pezzi mancanti, dove sei pezzi su sette sono già al loro posto e se ne cerca uno solo.",
+   "canonicalDeckSlug": "tangram-g1354",
+   "carousel": [
+    {
+     "label": "Tangram da ritagliare: sette pezzi e due figure",
+     "href": "tangram-da-ritagliare"
+    },
+    {
+     "label": "Tangram facile con due e tre pezzi: disegna le linee",
+     "href": "tangram-facile-disegna-le-linee"
+    },
+    {
+     "label": "Tangram: quale pezzo manca?",
+     "href": "tangram-quale-pezzo-manca"
+    },
+    {
+     "label": "Quale soluzione è uguale all'ombra?",
+     "href": "tangram-quale-soluzione-e-uguale-all-ombra"
+    }
+   ],
+   "title": "Tangram: quattro ombre – Classe prima da stampare PDF gratis",
+   "metaDescription": "Quattro ombre nere di tangram da costruire con tutti e sette i pezzi: un gatto, una barca, un rettangolo e il quadrato, senza nessuna linea interna."
+  },
+  {
+   "slug": "tangram-quale-pezzo-manca",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-which-piece-is-missing",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda tangram · classe prima",
+   "h1": "Tangram: quale pezzo manca?",
+   "strand": "Indicazioni nazionali: Spazio e figure",
+   "standard": "1.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "classe-prima"
+   ],
+   "p1": "Sei figure, sei buchi. Ogni figura della pagina è composta da sei pezzi già disegnati e al loro posto, e il settimo spazio resta vuoto, segnato da un bordo tratteggiato arancione. Di fianco, tre pezzi impilati uno sull'altro dentro tre pillole bianche. Il bambino guarda la forma del buco, la confronta con i tre pezzi e cerchia quello che ci entra esattamente. Le figure sono un rettangolo, un quadrato e una freccia, ciascuna girata o ribaltata, così lo stesso buco non si ripresenta mai uguale.",
+   "p2": "È l'esercizio di riconoscimento nella famiglia, e la scelta dei tre pezzi rende il confronto stretto: il triangolo piccolo e quello medio hanno la stessa forma e solo una misura diversa, e il parallelogramma appare inclinato dalla parte opposta. Il bambino non può decidere a colpo d'occhio, deve tenere presente la lunghezza dei lati e l'inclinazione. La risposta corretta non sta sempre nella stessa posizione della colonna: cambia da riga a riga, e questo obbliga a guardare davvero la figura invece di tirare a indovinare.",
+   "p3": "Si può fare senza il tangram ritagliato, a matita, ed è quindi la scheda della famiglia che si porta fuori casa. Chi ha il tangram può verificare appoggiando il pezzo vero sul buco. Viene dopo le quattro ombre, come recupero per chi non riesce a completare una sagoma intera, e prima della scheda con le quattro ombre e le tre soluzioni.",
+   "canonicalDeckSlug": "tangram-g1355",
+   "carousel": [
+    {
+     "label": "Tangram da ritagliare: sette pezzi e due figure",
+     "href": "tangram-da-ritagliare"
+    },
+    {
+     "label": "Tangram facile con due e tre pezzi: disegna le linee",
+     "href": "tangram-facile-disegna-le-linee"
+    },
+    {
+     "label": "Tangram: quattro ombre da costruire",
+     "href": "tangram-quattro-ombre-da-costruire"
+    },
+    {
+     "label": "Quale soluzione è uguale all'ombra?",
+     "href": "tangram-quale-soluzione-e-uguale-all-ombra"
+    }
+   ],
+   "title": "Tangram: quale pezzo manca – Classe prima da stampare PDF gratis",
+   "metaDescription": "Sei figure di tangram con sei pezzi al loro posto e un buco tratteggiato in arancione: si cerchia, fra tre pezzi, quello che riempie esattamente lo spazio."
+  },
+  {
+   "slug": "tangram-quale-soluzione-e-uguale-all-ombra",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-which-solution-matches-the-shadow",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda tangram · classe seconda",
+   "h1": "Quale soluzione è uguale all'ombra?",
+   "strand": "Indicazioni nazionali: Spazio e figure",
+   "slotTokens": [
+    "tangram",
+    "classe-seconda"
+   ],
+   "p1": "Quattro righe. A sinistra, in un riquadro color crema, un'ombra nera: una freccia rivolta in basso, un rettangolo in piedi, una figura a gomito e una freccia rivolta a sinistra. A destra, tre riquadri bianchi con la stessa figura ricostruita con i sette pezzi, ma ogni ricostruzione è messa in modo diverso, girata di un quarto, capovolta o specchiata. Il bambino di classe seconda cerchia la ricostruzione che sta esattamente come l'ombra, e la consegna lo dice senza giri di parole: quelle girate o ribaltate non vanno bene.",
+   "p2": "Qui non si costruisce niente, si giudica un orientamento, ed è un compito più difficile di quanto sembri perché tutte e tre le proposte sono la figura giusta. La differenza sta solo nella rotazione o nel ribaltamento, cioè in quelle trasformazioni che nella vita quotidiana un bambino tratta come irrilevanti: un gatto girato resta un gatto. La geometria chiede il contrario, e questa pagina è il posto dove la distinzione viene resa visibile. Almeno una riga mette a confronto una figura e la sua immagine speculare, il caso che i bambini confondono più spesso.",
+   "p3": "Non serve il materiale ritagliato: è una scheda di sola osservazione, buona anche come attività da svolgere in silenzio. Attenzione a una cosa in questo foglio: la ricostruzione giusta capita nella prima colonna su tre righe su quattro, quindi conviene guardare insieme ai bambini se hanno cerchiato ragionando o per abitudine. Viene dopo le quattro ombre da costruire.",
+   "canonicalDeckSlug": "tangram-g2347",
+   "carousel": [
+    {
+     "label": "Tangram da ritagliare: sette pezzi e due figure",
+     "href": "tangram-da-ritagliare"
+    },
+    {
+     "label": "Tangram facile con due e tre pezzi: disegna le linee",
+     "href": "tangram-facile-disegna-le-linee"
+    },
+    {
+     "label": "Tangram: quattro ombre da costruire",
+     "href": "tangram-quattro-ombre-da-costruire"
+    },
+    {
+     "label": "Tangram: quale pezzo manca?",
+     "href": "tangram-quale-pezzo-manca"
+    }
+   ],
+   "title": "Tangram: la soluzione uguale all'ombra – Seconda PDF gratis",
+   "metaDescription": "Quattro ombre di tangram, e per ognuna tre soluzioni girate o ribaltate: si cerchia quella messa esattamente come l'ombra. Classe seconda, PDF gratis."
+  },
+  {
+   "slug": "tangram-conta-triangoli-e-quadrati",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-count-the-triangles-and-squares",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda tangram · infanzia",
+   "h1": "Tangram: conta triangoli e quadrati",
+   "strand": "Indicazioni nazionali: Spazio e figure",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "infanzia"
+   ],
+   "p1": "Quattro figure di tangram, tutte con le linee interne ben visibili, e nessuna da ritagliare. Sotto ogni figura due caselle tratteggiate, precedute da un piccolo disegno che dice che cosa contare: un triangolino nella prima, un quadratino nella seconda. Le figure sono composte da tre a cinque pezzi, quindi i numeri da scrivere restano piccoli e adatti alla scuola dell'infanzia. Il bambino appoggia il dito su ogni pezzo, lo conta una volta sola e scrive la cifra nella casella corrispondente.",
+   "p2": "È la faccia della famiglia che fa lavorare il nome delle forme invece delle mani. Contare i triangoli dentro una figura obbliga a riconoscerli anche quando sono piccoli, ruotati o poggiati su un vertice, che è esattamente il punto in cui il riconoscimento delle figure piane si inceppa nei bambini piccoli. Il quadrato del tangram è uno solo, quindi la seconda casella vale spesso zero: scrivere zero è una risposta piena, non una risposta mancata, e vale la pena dirlo prima di distribuire la scheda.",
+   "p3": "In questo foglio tre figure su quattro non contengono nessun quadrato, quindi la seconda colonna raccoglie molti zeri: se serve un confronto più mosso basta stampare una seconda copia, perché le figure cambiano a ogni generazione. Si usa insieme alla scheda madre, mentre i pezzi ritagliati sono ancora sul banco, e prima delle ombre nere.",
+   "canonicalDeckSlug": "tangram-k359",
+   "carousel": [
+    {
+     "label": "Tangram da ritagliare: sette pezzi e due figure",
+     "href": "tangram-da-ritagliare"
+    },
+    {
+     "label": "Tangram facile con due e tre pezzi: disegna le linee",
+     "href": "tangram-facile-disegna-le-linee"
+    },
+    {
+     "label": "Tangram: quattro ombre da costruire",
+     "href": "tangram-quattro-ombre-da-costruire"
+    },
+    {
+     "label": "Tangram: quale pezzo manca?",
+     "href": "tangram-quale-pezzo-manca"
+    }
+   ],
+   "title": "Tangram: conta triangoli e quadrati – Infanzia PDF gratis",
+   "metaDescription": "Quattro figure di tangram con le linee interne visibili e, sotto ognuna, due caselle: quanti triangoli e quanti quadrati la compongono. Infanzia, PDF gratis."
+  },
+  {
+   "slug": "il-corpo-umano-quanti-ne-hai",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-how-many",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda il corpo umano · infanzia",
+   "h1": "Il corpo umano: quanti ne hai?",
+   "strand": "Scienze",
+   "slotTokens": [
+    "il-corpo-umano",
+    "infanzia"
+   ],
+   "p1": "Sei carte numerate a destra, e a sinistra la figura umana intera che fa da riferimento. Ogni carta porta la fotografia stilizzata di una parte e una domanda in grassetto: quante bocche, quante dita, quanti nasi, quanti occhi, quante gambe, quante braccia. Sotto ogni domanda una casella tratteggiata per una cifra sola. La risposta non si legge sul foglio: il bambino la trova toccandosi, contando sul proprio corpo, ed è questa la consegna stampata in alto.",
+   "p2": "Contare uno e contare due sembra banale a un adulto, ma per un bambino della scuola dell'infanzia la scoperta è che il corpo è fatto in modo regolare: certe parti sono uniche e certe vengono in coppia. Qui la conta non è su figurine anonime ma su sé stessi, e questo lega il numero a un'esperienza. Le Scienze e la matematica si incontrano su questa pagina senza che nessuna delle due prevalga: il numero da scrivere arriva da un'osservazione, non da un disegno da contare.",
+   "p3": "Due avvertenze prima di distribuirla. La carta delle dita chiede un numero alto, dieci, e in italiano la parola dita comprende anche quelle dei piedi: conviene dire a voce se si contano solo le mani. Le altre cinque risposte sono uno o due. Si fa in coppia, un bambino conta e l'altro controlla, e dopo si passa alla scheda che chiede quali parti hai in due.",
+   "canonicalDeckSlug": "il-corpo-umano-k360",
+   "carousel": [
+    {
+     "label": "Il corpo umano: copia il nome di ogni parte",
+     "href": "il-corpo-umano"
+    },
+    {
+     "label": "Il corpo umano: colora seguendo la legenda",
+     "href": "il-corpo-umano-colora-con-la-legenda"
+    },
+    {
+     "label": "Il corpo umano: scrivi il nome nelle caselle",
+     "href": "il-corpo-umano-scrivi-la-parola"
+    },
+    {
+     "label": "Il corpo umano: che cosa manca?",
+     "href": "il-corpo-umano-che-cosa-manca"
+    }
+   ],
+   "title": "Il corpo umano: quanti ne hai – Infanzia da stampare PDF gratis",
+   "metaDescription": "Sei carte con bocca, dita, naso, occhi, gambe e braccia: il bambino conta sul proprio corpo e scrive il numero nella casella. Scheda per l'infanzia, PDF gratis."
+  },
+  {
+   "slug": "il-corpo-umano-colora-con-la-legenda",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-color-by-legend",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda il corpo umano · infanzia",
+   "h1": "Il corpo umano: colora seguendo la legenda",
+   "strand": "Scienze",
+   "slotTokens": [
+    "il-corpo-umano",
+    "infanzia"
+   ],
+   "p1": "A sinistra cinque riquadri bianchi, uno sotto l'altro: in ciascuno una macchia di colore, il nome del colore scritto e, dopo una freccia, la parte del corpo a cui tocca. Giallo ai capelli, marrone alle braccia, rosa alle gambe, rosso ai piedi, verde alle mani. A destra la stessa figura umana delle altre schede, questa volta tutta bianca, senza campiture e senza pallini. Il bambino legge una riga della legenda alla volta e colora sulla figura la parte nominata.",
+   "p2": "La scheda funziona anche con chi non legge ancora, perché il quadratino colorato precede il nome del colore e la parola della parte del corpo si può leggere insieme all'insegnante. Il nome delle parti compare qui sempre al plurale, braccia, gambe, mani, piedi, e capelli che in italiano il plurale ce l'ha di suo: è un'occasione discreta per sentire quelle forme irregolari senza farne una lezione di grammatica. Restano cinque parti sole, quindi la pagina si finisce e resta un disegno colorato da portare a casa.",
+   "p3": "Serve una scatola di pastelli con i cinque colori esatti della legenda: se nella scatola il marrone non c'è, meglio sostituirlo prima a voce che lasciare un bambino fermo. La figura è grande e le campiture sono ampie, quindi si può usare anche con i più piccoli. Si stampa insieme alla scheda base, una come lettura e una come colorazione.",
+   "canonicalDeckSlug": "il-corpo-umano-k361",
+   "carousel": [
+    {
+     "label": "Il corpo umano: copia il nome di ogni parte",
+     "href": "il-corpo-umano"
+    },
+    {
+     "label": "Il corpo umano: quanti ne hai?",
+     "href": "il-corpo-umano-quanti-ne-hai"
+    },
+    {
+     "label": "Il corpo umano: scrivi il nome nelle caselle",
+     "href": "il-corpo-umano-scrivi-la-parola"
+    },
+    {
+     "label": "Il corpo umano: che cosa manca?",
+     "href": "il-corpo-umano-che-cosa-manca"
+    }
+   ],
+   "title": "Il corpo umano da colorare – Legenda e colori PDF gratis",
+   "metaDescription": "Legenda a cinque colori e una figura umana da colorare: capelli gialli, braccia marroni, gambe rosa, piedi rossi, mani verdi. Scheda per l'infanzia, PDF gratis."
+  },
+  {
+   "slug": "il-corpo-umano-scrivi-la-parola",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-write-the-word",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda il corpo umano · classe prima",
+   "h1": "Il corpo umano: scrivi il nome nelle caselle",
+   "strand": "Scienze",
+   "slotTokens": [
+    "il-corpo-umano",
+    "classe-prima"
+   ],
+   "p1": "La figura umana sta a sinistra con sei pastiglie arancioni numerate da uno a sei. A destra, sei righe: il numero dentro un cerchio e poi una fila di caselle tratteggiate, tante quante sono le lettere della parola. Sei caselle per la uno, cinque per la due, sette per la tre, sei per la quattro, cinque per la cinque e per la sei. Non c'è nessun riquadro con le parole: il bambino di classe prima trova la parte sulla figura e scrive il nome da solo, una lettera in ogni casella.",
+   "p2": "Il numero di caselle è l'unico aiuto, ed è un aiuto ortografico preciso: chi scrive gomito con cinque lettere si accorge da solo che ne avanza una. Questa è la scheda della famiglia che chiede davvero la scrittura autonoma, mentre la scheda base si limita alla copia. Il lessico è quello che le Indicazioni nazionali chiedono di consolidare in prima parlando del proprio corpo, e la doppia in braccio e la coppia di consonanti in gomito sono difficoltà ortografiche vere, non inventate per l'esercizio.",
+   "p3": "Due pastiglie coprono la parte che indicano, l'occhio e la bocca, quindi la prima volta conviene mostrare a quale tratto si riferiscono. Anche le pastiglie tre e quattro, braccio e gomito, stanno alla stessa altezza su due braccia diverse: qui è il numero di caselle a sciogliere il dubbio, sette contro sei. Si usa dopo la scheda base.",
+   "canonicalDeckSlug": "il-corpo-umano-g1356",
+   "carousel": [
+    {
+     "label": "Il corpo umano: copia il nome di ogni parte",
+     "href": "il-corpo-umano"
+    },
+    {
+     "label": "Il corpo umano: quanti ne hai?",
+     "href": "il-corpo-umano-quanti-ne-hai"
+    },
+    {
+     "label": "Il corpo umano: colora seguendo la legenda",
+     "href": "il-corpo-umano-colora-con-la-legenda"
+    },
+    {
+     "label": "Il corpo umano: che cosa manca?",
+     "href": "il-corpo-umano-che-cosa-manca"
+    }
+   ],
+   "title": "Il corpo umano: scrivi la parola – Classe prima PDF gratis",
+   "metaDescription": "Sei parti numerate sulla figura e sei file di caselle, una lettera per casella: occhio, bocca, braccio, gomito, gamba, piede. Classe prima, PDF gratis."
+  },
+  {
+   "slug": "il-corpo-umano-che-cosa-manca",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-what-is-missing",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda il corpo umano · infanzia",
+   "h1": "Il corpo umano: che cosa manca?",
+   "strand": "Scienze",
+   "slotTokens": [
+    "il-corpo-umano",
+    "infanzia"
+   ],
+   "p1": "Quattro riquadri, e in ognuno una figura umana a cui è stata tolta una parte: al primo corpo manca un braccio con la mano, al secondo una gamba con il piede, al terzo i capelli, al quarto un piede solo. Accanto a ogni figura tre disegni incolonnati, per esempio naso, ginocchio e braccio. Il bambino cerchia il disegno della parte che manca e poi la disegna lui stesso al suo posto sulla figura. Sono due gesti diversi sulla stessa riga, prima si sceglie e poi si completa.",
+   "p2": "Accorgersi di un'assenza è più difficile che riconoscere una presenza: il bambino deve confrontare la figura con il modello che ha in testa, e il modello ce l'ha perché ce l'ha addosso. Il secondo gesto, disegnare, trasforma la risposta in un tratto e mostra all'insegnante se la parte è stata collocata nel punto giusto, cioè se il braccio parte dalla spalla e non dal fianco. Per l'infanzia lo schema corporeo si costruisce così, tra osservazione e rappresentazione.",
+   "p3": "Serve una matita morbida, perché il disegno va fatto sopra un contorno già stampato. Un'avvertenza sulle figurine: quella dei capelli mostra il ritratto di una persona intera e non una ciocca isolata come gli altri due disegni della stessa riga, quindi conviene nominarla a voce. In questo foglio la risposta giusta è l'ultimo disegno in tre righe su quattro. Si usa dopo la scheda base.",
+   "canonicalDeckSlug": "il-corpo-umano-k362",
+   "carousel": [
+    {
+     "label": "Il corpo umano: copia il nome di ogni parte",
+     "href": "il-corpo-umano"
+    },
+    {
+     "label": "Il corpo umano: quanti ne hai?",
+     "href": "il-corpo-umano-quanti-ne-hai"
+    },
+    {
+     "label": "Il corpo umano: colora seguendo la legenda",
+     "href": "il-corpo-umano-colora-con-la-legenda"
+    },
+    {
+     "label": "Il corpo umano: scrivi il nome nelle caselle",
+     "href": "il-corpo-umano-scrivi-la-parola"
+    }
+   ],
+   "title": "Il corpo umano: che cosa manca – Infanzia da stampare PDF gratis",
+   "metaDescription": "Quattro figure incomplete: a una manca un braccio, a una una gamba, a una i capelli, a una un piede. Si cerchia il disegno giusto fra tre e poi si disegna."
+  },
+  {
+   "slug": "il-corpo-umano-quali-sono-in-coppia",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-which-come-in-twos",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda il corpo umano · infanzia",
+   "h1": "Quali parti del corpo hai in due?",
+   "strand": "Scienze",
+   "slotTokens": [
+    "il-corpo-umano",
+    "infanzia"
+   ],
+   "p1": "Otto carte disposte su due colonne, ciascuna con il disegno di una parte del corpo e il nome scritto sotto: piede, naso, occhio, bocca, ginocchio, gomito, mano, testa. A sinistra, la figura umana intera che resta lì come riferimento. Una sola consegna, corta: cerchia ogni parte del corpo che hai in due. Cinque carte vanno cerchiate e tre no, e il bambino lo scopre solo toccandosi, perché il disegno mostra sempre un esemplare singolo anche quando la parte è doppia.",
+   "p2": "È la pagina della simmetria, e lo è senza mai usare la parola. Il bambino della scuola dell'infanzia scopre che il corpo è organizzato per coppie ai lati di una linea immaginaria, e che al centro le parti stanno da sole: un naso, una bocca, una testa. La scelta delle otto carte tiene insieme parti molto note e parti meno nominate, il ginocchio e il gomito, così il lessico si allarga mentre si classifica. Il nome scritto sotto ogni disegno appoggia anche i primi tentativi di lettura globale.",
+   "p3": "Funziona meglio in piedi che seduti: si fa toccando davvero, e i bambini contano le proprie mani prima di cerchiare. Il disegno del ginocchio mostra una gamba intera con la scarpa, quindi la prima volta conviene indicare il punto. È la scheda gemella di quella che chiede quanti ne hai, dove la stessa scoperta si scrive in cifre invece che con un cerchio.",
+   "canonicalDeckSlug": "il-corpo-umano-k363",
+   "carousel": [
+    {
+     "label": "Il corpo umano: copia il nome di ogni parte",
+     "href": "il-corpo-umano"
+    },
+    {
+     "label": "Il corpo umano: quanti ne hai?",
+     "href": "il-corpo-umano-quanti-ne-hai"
+    },
+    {
+     "label": "Il corpo umano: colora seguendo la legenda",
+     "href": "il-corpo-umano-colora-con-la-legenda"
+    },
+    {
+     "label": "Il corpo umano: scrivi il nome nelle caselle",
+     "href": "il-corpo-umano-scrivi-la-parola"
+    }
+   ],
+   "title": "Il corpo umano: le parti in coppia – Infanzia PDF gratis",
+   "metaDescription": "Otto carte con il nome scritto sotto il disegno, piede, naso, occhio, bocca, ginocchio, gomito, mano, testa: si cerchia ogni parte che si ha in due. PDF gratis."
+  },
+  {
+   "slug": "i-cinque-sensi-classifica-per-senso",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-sort-by-sense",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda i cinque sensi · classe prima",
+   "h1": "I cinque sensi: classifica dieci cose per senso",
+   "strand": "Scienze",
+   "slotTokens": [
+    "i-cinque-sensi",
+    "classe-prima"
+   ],
+   "p1": "Dieci disegni in due file compatte in alto: limone, binocolo, caramella, fiore, cuscino, sabbia, aglio, violino, stella e tamburo. In basso, cinque caselle alte e vuote, ciascuna con un'etichetta che porta il verbo e il disegno dell'organo, assaggiare con la lingua, annusare con il naso, vedere con l'occhio, ascoltare con l'orecchio, toccare con la mano. Lo spazio bianco in mezzo serve: è lì che passano le dieci linee. Per ogni senso le cose da collegare sono esattamente due, non una di più.",
+   "p2": "Il salto rispetto alla scheda base è la quantità e il verbo. Dieci elementi invece di cinque significano che il bambino deve tenere il conto di quello che ha già collegato, e le etichette passano dal nome dell'organo al verbo dell'azione: non più il naso, ma annusare. Classificare per criterio è uno dei primi lavori di scienze della classe prima, e qui il criterio è dichiarato e non va scoperto. L'aglio accanto al fiore è una bella coppia da annusare, perché un odore piacevole e uno pungente stanno nella stessa casella.",
+   "p3": "Il binocolo è l'elemento su cui i bambini discutono di più, perché è uno strumento per vedere e non una cosa che si vede: vale la pena lasciar parlare e poi decidere insieme. La pagina si presta a essere completata a coppie, uno legge l'etichetta e l'altro traccia. Dopo, la scheda dell'intruso chiede lo stesso criterio ma con una riga da scartare.",
+   "canonicalDeckSlug": "i-cinque-sensi-g1357",
+   "carousel": [
+    {
+     "label": "I cinque sensi: collega ogni cosa al suo organo",
+     "href": "i-cinque-sensi"
+    },
+    {
+     "label": "I cinque sensi: quale senso usi per ogni cosa?",
+     "href": "i-cinque-sensi-quale-senso-usi"
+    },
+    {
+     "label": "I cinque sensi: trova l'intruso in ogni riga",
+     "href": "i-cinque-sensi-l-intruso"
+    },
+    {
+     "label": "Gli organi di senso: scrivi il verbo accanto all'organo",
+     "href": "gli-organi-di-senso-scrivi-la-parola"
+    }
+   ],
+   "title": "I cinque sensi: classifica per senso – Classe prima PDF gratis",
+   "metaDescription": "Dieci disegni in alto e cinque caselle in basso con assaggiare, annusare, vedere, ascoltare e toccare: due cose per ogni senso, da collegare con una linea."
+  },
+  {
+   "slug": "i-cinque-sensi-quale-senso-usi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-which-sense",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda i cinque sensi · classe prima",
+   "h1": "I cinque sensi: quale senso usi per ogni cosa?",
+   "strand": "Scienze",
+   "slotTokens": [
+    "i-cinque-sensi",
+    "classe-prima"
+   ],
+   "p1": "Otto corsie orizzontali, tutte costruite allo stesso modo: il numero della riga, poi un disegno, e all'estremità destra la stessa fila di cinque organi, occhio, orecchio, naso, lingua e mano, nello stesso ordine su ogni riga. Le cose da giudicare sono un cuscino, un sasso, un limone, un sacchetto di popcorn, una chitarra, una fila di lucine, una torcia e una rosa. Il bambino cerchia, riga per riga, l'organo che userebbe. Niente linee da tracciare e niente caselle da riempire: solo otto cerchi.",
+   "p2": "L'ordine fisso dei cinque organi è la cosa che rende questa pagina diversa dalle sorelle: il bambino non deve cercare dove sta la lingua, perché è sempre al quarto posto, e tutta l'attenzione resta sulla cosa da giudicare. È la scheda più veloce della famiglia e quella che si corregge in un colpo d'occhio, perché le risposte formano una colonna di cerchi. Le otto cose toccano tutti e cinque i sensi, con due esempi a testa per tatto, gusto e vista e uno per udito e olfatto.",
+   "p3": "Il sacchetto di popcorn è l'unico elemento a doppia lettura, perché i popcorn si sentono anche con il naso: se in classe qualcuno cerchia il naso, ha un argomento. Le due fonti di luce, le lucine e la torcia, chiedono la stessa risposta e servono da conferma. Si usa come verifica leggera dopo la scheda di classificazione.",
+   "canonicalDeckSlug": "i-cinque-sensi-g1358",
+   "carousel": [
+    {
+     "label": "I cinque sensi: collega ogni cosa al suo organo",
+     "href": "i-cinque-sensi"
+    },
+    {
+     "label": "I cinque sensi: classifica dieci cose per senso",
+     "href": "i-cinque-sensi-classifica-per-senso"
+    },
+    {
+     "label": "I cinque sensi: trova l'intruso in ogni riga",
+     "href": "i-cinque-sensi-l-intruso"
+    },
+    {
+     "label": "Gli organi di senso: scrivi il verbo accanto all'organo",
+     "href": "gli-organi-di-senso-scrivi-la-parola"
+    }
+   ],
+   "title": "I cinque sensi: quale senso usi – Classe prima PDF gratis",
+   "metaDescription": "Otto righe, una cosa a sinistra e i cinque organi a destra: cuscino, sasso, limone, popcorn, chitarra, lucine, torcia e rosa da abbinare cerchiando. PDF gratis."
+  },
+  {
+   "slug": "i-cinque-sensi-l-intruso",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-which-one-does-not-belong",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda i cinque sensi · classe prima",
+   "h1": "I cinque sensi: trova l'intruso in ogni riga",
+   "strand": "Scienze",
+   "slotTokens": [
+    "i-cinque-sensi",
+    "classe-prima"
+   ],
+   "p1": "Cinque righe larghe, quattro disegni per riga, niente etichette. Nella prima riga un fiore accanto a cioccolato, torta e lecca-lecca; nella seconda una piuma tra cupcake, biscotto e miele; nella terza una caramella in mezzo a xilofono, sassofono e chitarra; nella quarta una fila di lucine con fischietto, tamburo e pianoforte; nella quinta i popcorn accanto a telescopio, stella e arcobaleno. Il bambino cancella con una riga il disegno che non va con gli altri tre. Il senso non è scritto da nessuna parte: va ricostruito.",
+   "p2": "Questa è la faccia del ragionamento nella famiglia. Nelle altre schede il senso è dato e si smista; qui il bambino deve prima capire che cosa hanno in comune tre disegni e solo dopo scartare il quarto. È una differenza grossa, perché richiede di formulare il criterio invece di applicarlo. Le righe sono costruite su sensi ben distinti, gusto, tatto, udito e vista, così la categoria comune si vede senza incertezze appena si guardano insieme i tre disegni giusti.",
+   "p3": "L'ultima riga è quella su cui discutere: il telescopio è uno strumento per guardare e i popcorn hanno anche un odore, quindi conviene chiedere ad alta voce perché si è cancellato proprio quello. In questo foglio l'intruso è il primo disegno in tre righe su cinque. Si usa in chiusura della famiglia, quando la classificazione per senso è già stata fatta almeno due volte.",
+   "canonicalDeckSlug": "i-cinque-sensi-g1359",
+   "carousel": [
+    {
+     "label": "I cinque sensi: collega ogni cosa al suo organo",
+     "href": "i-cinque-sensi"
+    },
+    {
+     "label": "I cinque sensi: classifica dieci cose per senso",
+     "href": "i-cinque-sensi-classifica-per-senso"
+    },
+    {
+     "label": "I cinque sensi: quale senso usi per ogni cosa?",
+     "href": "i-cinque-sensi-quale-senso-usi"
+    },
+    {
+     "label": "Gli organi di senso: scrivi il verbo accanto all'organo",
+     "href": "gli-organi-di-senso-scrivi-la-parola"
+    }
+   ],
+   "title": "I cinque sensi: l'intruso – Classe prima da stampare PDF gratis",
+   "metaDescription": "Cinque righe da quattro disegni: in ognuna tre vanno con lo stesso senso e uno no. Si cancella l'intruso. Scheda dei cinque sensi per la classe prima, PDF gratis."
+  },
+  {
+   "slug": "gli-organi-di-senso-scrivi-la-parola",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "sense-organs-write-the-sense-word",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda gli organi di senso · classe prima",
+   "h1": "Gli organi di senso: scrivi il verbo accanto all'organo",
+   "strand": "Scienze",
+   "slotTokens": [
+    "i-cinque-sensi",
+    "classe-prima"
+   ],
+   "p1": "Un riquadro tratteggiato in alto con cinque verbi all'infinito, ascoltare, toccare, vedere, annusare, assaggiare. Sotto, cinque corsie color crema; in ciascuna un solo disegno a sinistra, l'organo, e a destra tre righe di scrittura con la riga di mezzo tratteggiata. Gli organi compaiono in quest'ordine: lingua, occhio, orecchio, mano, naso. Il bambino sceglie dal riquadro il verbo che corrisponde all'organo della corsia e lo ricopia sulla riga. Cinque parole, cinque righe, nessuna resta inutilizzata.",
+   "p2": "Il contenuto scientifico è già stato costruito dalle altre schede della famiglia; qui si consolida scrivendo. Copiare un infinito in cinque o dieci lettere dentro tre righe è un esercizio di grafia vero, con le lettere alte della elle e della ti e la discesa della gi di assaggiare. Il legame organo–azione resta il centro, e i cinque verbi sono quelli che la scuola primaria italiana usa correntemente quando parla dei sensi. Le righe abbondanti permettono di scrivere in stampatello o in corsivo.",
+   "p3": "È la scheda da tenere per ultima, quando i sensi sono già stati esplorati e serve fissarli per iscritto; si presta anche a essere incollata sul quaderno di scienze come pagina di sintesi. Chi vuole spingere oltre può far aggiungere sotto ogni verbo una cosa che si percepisce così, e passare poi alla scheda delle frasi da completare.",
+   "canonicalDeckSlug": "i-cinque-sensi-g1360",
+   "carousel": [
+    {
+     "label": "I cinque sensi: collega ogni cosa al suo organo",
+     "href": "i-cinque-sensi"
+    },
+    {
+     "label": "I cinque sensi: classifica dieci cose per senso",
+     "href": "i-cinque-sensi-classifica-per-senso"
+    },
+    {
+     "label": "I cinque sensi: quale senso usi per ogni cosa?",
+     "href": "i-cinque-sensi-quale-senso-usi"
+    },
+    {
+     "label": "I cinque sensi: trova l'intruso in ogni riga",
+     "href": "i-cinque-sensi-l-intruso"
+    }
+   ],
+   "title": "Gli organi di senso: scrivi la parola – Prima PDF gratis",
+   "metaDescription": "Cinque corsie con lingua, occhio, orecchio, mano e naso e tre righe da scrivere: si copia dal riquadro ascoltare, toccare, vedere, annusare, assaggiare."
+  },
+  {
+   "slug": "descrivere-con-i-cinque-sensi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-i-can-hear",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda i cinque sensi · classe prima",
+   "h1": "Descrivere con i cinque sensi: cinque frasi da completare",
+   "strand": "Scienze",
+   "slotTokens": [
+    "i-cinque-sensi",
+    "classe-prima"
+   ],
+   "p1": "Cinque corsie, e in ciascuna l'organo disegnato a sinistra e, sulla prima riga di scrittura, un inizio di frase già stampato in grigio chiaro: Ascolto..., Vedo..., Annuso..., Assaggio..., Tocco... Sotto ogni inizio restano altre due righe libere. Non c'è nessun riquadro di parole e nessun disegno da guardare: quello che il bambino scrive esce dalla stanza in cui si trova, dal cortile in cui è appena stato, dalla merenda che ha in cartella. Cinque frasi in prima persona, una per senso.",
+   "p2": "È l'unica pagina della famiglia in cui non c'è una risposta giusta, ed è il motivo per cui esiste. Descrivere con i cinque sensi è un compito di scrittura prima che di scienze: obbliga a fermarsi, a fare attenzione a quello che di solito passa inosservato, e a trovare le parole. Le cinque voci verbali sono in prima persona singolare e sono già scritte, quindi il bambino di classe prima parte da una struttura e deve aggiungere soltanto il complemento oggetto.",
+   "p3": "Rende molto se si fa dopo un'uscita, o semplicemente aprendo la finestra e stando zitti un minuto. Si può usare due volte nell'anno, in due stagioni diverse, e confrontare i due fogli. Rispetto alla scheda dei verbi da ricopiare, qui il verbo è già dato e la parola nuova la mette il bambino: sono complementari e si tengono in cartellina insieme.",
+   "canonicalDeckSlug": "i-cinque-sensi-g1361",
+   "carousel": [
+    {
+     "label": "I cinque sensi: collega ogni cosa al suo organo",
+     "href": "i-cinque-sensi"
+    },
+    {
+     "label": "I cinque sensi: classifica dieci cose per senso",
+     "href": "i-cinque-sensi-classifica-per-senso"
+    },
+    {
+     "label": "I cinque sensi: quale senso usi per ogni cosa?",
+     "href": "i-cinque-sensi-quale-senso-usi"
+    },
+    {
+     "label": "I cinque sensi: trova l'intruso in ogni riga",
+     "href": "i-cinque-sensi-l-intruso"
+    }
+   ],
+   "title": "Descrivere con i cinque sensi – Frasi da completare PDF gratis",
+   "metaDescription": "Cinque frasi aperte da completare, Ascolto, Vedo, Annuso, Assaggio, Tocco, ognuna con l'organo disegnato accanto e tre righe per scrivere. PDF gratis."
+  },
+  {
+   "slug": "il-tempo-atmosferico-scrivi-la-parola",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-write-the-weather-word",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda il tempo atmosferico · classe prima",
+   "h1": "Il tempo atmosferico: scrivi la parola nelle caselle",
+   "strand": "Scienze",
+   "slotTokens": [
+    "il-tempo-atmosferico",
+    "classe-prima"
+   ],
+   "p1": "Il riquadro tratteggiato in alto contiene le sei parole del tempo atmosferico. Sotto, sei corsie: a sinistra il simbolo nel suo cerchio verde, a destra una fila di caselle tratteggiate lunga esattamente quanto la parola. Quattro caselle per neve e per sole, sei per nuvola, sette per pioggia, nove per temporale, dieci per arcobaleno. Il bambino di classe prima cerca la parola nel riquadro e la trascrive lettera per lettera. Le prime due righe hanno lo stesso numero di caselle, quindi è il simbolo a decidere.",
+   "p2": "Il numero di caselle trasforma la trascrizione in un controllo ortografico automatico. Arcobaleno con dieci caselle e temporale con nove sono parole lunghe per una classe prima e vale la pena affrontarle a pezzi, sillaba per sillaba, contando le caselle prima di cominciare a scrivere. Il lessico è lo stesso della scheda base, quindi non c'è niente di nuovo da capire: cambia solo il canale, dalla linea alla scrittura, ed è questo il passo che la famiglia chiede qui.",
+   "p3": "Si stampa dopo la scheda dei collegamenti, meglio se a qualche giorno di distanza, così le parole vanno recuperate dalla memoria e non copiate da un'immagine appena vista. Chi finisce presto può disegnare accanto a ogni riga il tempo che c'è fuori dalla finestra, e passare poi al diario della settimana, dove il simbolo lo disegna lui.",
+   "canonicalDeckSlug": "il-tempo-atmosferico-g1362",
+   "carousel": [
+    {
+     "label": "Il tempo atmosferico: collega il simbolo alla parola",
+     "href": "il-tempo-atmosferico"
+    },
+    {
+     "label": "Il tempo della mia settimana: un simbolo al giorno",
+     "href": "il-tempo-atmosferico-la-mia-settimana"
+    },
+    {
+     "label": "Il termometro: fa freddo, è mite o fa caldo?",
+     "href": "il-tempo-atmosferico-freddo-o-caldo"
+    },
+    {
+     "label": "Il ciclo dell'acqua: completa lo schema con quattro parole",
+     "href": "ciclo-dell-acqua-completa-lo-schema"
+    }
+   ],
+   "title": "Il tempo atmosferico: scrivi la parola – Prima PDF gratis",
+   "metaDescription": "Sei simboli del tempo e sei file di caselle, una lettera per casella, con il riquadro delle parole: temporale, nuvola, pioggia, sole, arcobaleno, neve."
+  },
+  {
+   "slug": "il-tempo-atmosferico-la-mia-settimana",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-weather-chart-monday-to-sunday",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda il tempo atmosferico · infanzia",
+   "h1": "Il tempo della mia settimana: un simbolo al giorno",
+   "strand": "Scienze",
+   "slotTokens": [
+    "il-tempo-atmosferico",
+    "infanzia"
+   ],
+   "p1": "Sette caselle grandi, una per giorno, con il nome del giorno in un'etichetta verde: lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica. L'ottava casella, quella in basso a destra, ha il bordo pieno invece che tratteggiato e non è un giorno: contiene i sei simboli del tempo disposti su tre file, e fa da promemoria. Ogni giorno il bambino guarda fuori e disegna nella casella del giorno il simbolo che corrisponde. La scheda si compila in una settimana, non in dieci minuti.",
+   "p2": "È l'unica pagina della famiglia che dura sette giorni, e questo è il suo contenuto: il tempo atmosferico cambia e va osservato con regolarità. Per la scuola dell'infanzia il valore sta nel rituale quotidiano, nel tornare allo stesso foglio alla stessa ora. Nel frattempo entrano in circolo i nomi dei giorni e la settimana come sequenza, e alla fine il foglio pieno consente un confronto: quanti giorni di sole, quanti di pioggia, quale simbolo non è mai comparso.",
+   "p3": "Conviene appenderla o tenerla in una cartellina fissa, perché deve restare disponibile tutti i giorni. La casella dei sei simboli non ha un titolo scritto, quindi la prima volta va presentata a voce per evitare che venga scambiata per l'ottavo giorno. Alla fine della settimana si passa alla scheda delle previsioni, dove una settimana già compilata si legge invece di riempirla.",
+   "canonicalDeckSlug": "il-tempo-atmosferico-k364",
+   "carousel": [
+    {
+     "label": "Il tempo atmosferico: collega il simbolo alla parola",
+     "href": "il-tempo-atmosferico"
+    },
+    {
+     "label": "Il tempo atmosferico: scrivi la parola nelle caselle",
+     "href": "il-tempo-atmosferico-scrivi-la-parola"
+    },
+    {
+     "label": "Il termometro: fa freddo, è mite o fa caldo?",
+     "href": "il-tempo-atmosferico-freddo-o-caldo"
+    },
+    {
+     "label": "Il ciclo dell'acqua: completa lo schema con quattro parole",
+     "href": "ciclo-dell-acqua-completa-lo-schema"
+    }
+   ],
+   "title": "Il tempo atmosferico: la mia settimana – Infanzia PDF gratis",
+   "metaDescription": "Calendario del tempo da lunedì a domenica: sette caselle grandi da riempire con il simbolo osservato e una casella chiave con i sei simboli. PDF gratis."
+  },
+  {
+   "slug": "il-tempo-atmosferico-freddo-o-caldo",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-how-warm-is-it",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda il tempo atmosferico · infanzia",
+   "h1": "Il termometro: fa freddo, è mite o fa caldo?",
+   "strand": "Scienze",
+   "slotTokens": [
+    "il-tempo-atmosferico",
+    "infanzia"
+   ],
+   "p1": "In cima alla pagina, una fascia con tre termometri di altezza diversa, ciascuno accanto a un capo: la colonna bassa con la sciarpa, quella a metà con la maglietta, quella alta con gli occhiali da sole. Sotto, quattro riquadri numerati; in ognuno un termometro e, di fianco, gli stessi tre disegni impilati. I termometri non portano numeri: si legge solo l'altezza della colonna arancione. Il bambino la confronta con i tre termometri della fascia in alto e cerchia il disegno giusto.",
+   "p2": "Leggere una quantità da un'altezza, senza cifre, è esattamente il tipo di lettura che precede il termometro numerico, e per la scuola dell'infanzia è la strada giusta: più alta la colonna, più caldo fa. La scelta di collegare la temperatura a un capo di abbigliamento rende la risposta verificabile con l'esperienza, perché ogni bambino sa se stamattina ha messo la sciarpa. Fra i quattro termometri della pagina ce n'è uno molto basso e uno molto alto, così i due estremi sono rappresentati.",
+   "p3": "Le parole freddo, mite e caldo compaiono solo nella consegna e non sono scritte accanto ai termometri: se servono come lessico vanno dette a voce o aggiunte a mano sulla fascia in alto. La fascia va presentata come legenda prima di iniziare. Si usa accanto al diario della settimana, con cui divide la stessa abitudine di guardare fuori.",
+   "canonicalDeckSlug": "il-tempo-atmosferico-k365",
+   "carousel": [
+    {
+     "label": "Il tempo atmosferico: collega il simbolo alla parola",
+     "href": "il-tempo-atmosferico"
+    },
+    {
+     "label": "Il tempo atmosferico: scrivi la parola nelle caselle",
+     "href": "il-tempo-atmosferico-scrivi-la-parola"
+    },
+    {
+     "label": "Il tempo della mia settimana: un simbolo al giorno",
+     "href": "il-tempo-atmosferico-la-mia-settimana"
+    },
+    {
+     "label": "Il ciclo dell'acqua: completa lo schema con quattro parole",
+     "href": "ciclo-dell-acqua-completa-lo-schema"
+    }
+   ],
+   "title": "Il tempo atmosferico: freddo o caldo – Infanzia PDF gratis",
+   "metaDescription": "Quattro termometri senza numeri e tre capi da cerchiare, sciarpa, maglietta e occhiali da sole, con la chiave in alto che mostra i tre livelli. PDF gratis."
+  },
+  {
+   "slug": "ciclo-dell-acqua-completa-lo-schema",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-water-cycle-label-the-diagram",
+    "theme": "",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda il ciclo dell'acqua · classe terza",
+   "h1": "Il ciclo dell'acqua: completa lo schema con quattro parole",
+   "strand": "Scienze",
+   "slotTokens": [
+    "il-tempo-atmosferico",
+    "classe-terza"
+   ],
+   "p1": "Uno schema grande occupa il centro della pagina: il sole a sinistra, il mare in basso, la terra a destra, le frecce arancioni del percorso dell'acqua e una nuvola in alto con la pioggia tratteggiata che scende. Quattro pastiglie numerate stanno sui punti chiave, la freccia che sale dal mare, la nuvola, la pioggia e lo specchio d'acqua. In alto, un riquadro con quattro parole in ordine sparso: condensazione, evaporazione, raccolta, precipitazione. Sotto lo schema, quattro righe numerate da completare.",
+   "p2": "L'ordine del riquadro non è l'ordine del ciclo: chi copia le parole da sinistra a destra sbaglia, e deve invece leggere il disegno. Ogni numero cade su un punto non ambiguo, perché la freccia che sale dall'acqua può essere solo evaporazione e la pioggia può essere solo precipitazione. Il lessico è quello che le Indicazioni nazionali chiedono in classe terza quando si studiano l'acqua e i suoi stati, e scrivere parole di tredici e quattordici lettere è anche un esercizio ortografico impegnativo.",
+   "p3": "È l'unica scheda di classe terza della famiglia e sta bene accanto a un esperimento con il vetro freddo sopra la pentola. Si può chiedere, dopo, di raccontare il ciclo a voce partendo dal numero uno, oppure di aggiungere con una matita il percorso dell'acqua che filtra nel terreno, che qui non compare. Le altre schede della famiglia restano per l'infanzia e la classe prima.",
+   "canonicalDeckSlug": "il-tempo-atmosferico-g3385",
+   "carousel": [
+    {
+     "label": "Il tempo atmosferico: collega il simbolo alla parola",
+     "href": "il-tempo-atmosferico"
+    },
+    {
+     "label": "Il tempo atmosferico: scrivi la parola nelle caselle",
+     "href": "il-tempo-atmosferico-scrivi-la-parola"
+    },
+    {
+     "label": "Il tempo della mia settimana: un simbolo al giorno",
+     "href": "il-tempo-atmosferico-la-mia-settimana"
+    },
+    {
+     "label": "Il termometro: fa freddo, è mite o fa caldo?",
+     "href": "il-tempo-atmosferico-freddo-o-caldo"
+    }
+   ],
+   "title": "Ciclo dell'acqua: completa lo schema – Terza PDF gratis",
+   "metaDescription": "Schema del ciclo dell'acqua con quattro numeri e quattro righe da completare: condensazione, evaporazione, raccolta e precipitazione. Classe terza, PDF gratis."
+  },
+  {
+   "slug": "il-tempo-atmosferico-leggi-le-previsioni",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-read-the-weekly-forecast",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda il tempo atmosferico · classe prima",
+   "h1": "Leggi le previsioni: che giorno nevica?",
+   "strand": "Scienze",
+   "slotTokens": [
+    "il-tempo-atmosferico",
+    "classe-prima"
+   ],
+   "p1": "In alto, dentro una cornice verde, la settimana della scuola: lunedì con il fiocco di neve, martedì con il fulmine, mercoledì con il sole, giovedì con la pioggia, venerdì con le nuvole. Sotto, tre riquadri, e in ognuno una domanda in grassetto seguita dalla stessa fila di cinque pillole con i nomi dei giorni. Che giorno nevica, che giorno piove, che giorno c'è il sole: il bambino cerchia il giorno giusto. Ogni domanda ha una risposta sola.",
+   "p2": "È la prima lettura di dati della famiglia: la striscia in alto è una tabella, e le tre domande insegnano a interrogarla invece di leggerla dall'inizio alla fine. Il bambino deve tenere insieme due informazioni, il simbolo e il giorno, e percorrere la striscia finché non trova quello che cerca. È lo stesso gesto che serve per leggere un orario o un calendario, e in classe prima la quantità di dati è tenuta bassa apposta, cinque giorni e tre domande.",
+   "p3": "Due dei cinque giorni, quello del temporale e quello nuvoloso, non vengono chiesti da nessuna domanda: si prestano a due domande in più fatte a voce, oppure a farne inventare una ai bambini. Il fulmine di martedì non porta gocce disegnate, quindi la risposta alla domanda sulla pioggia resta una sola. Si usa dopo il diario settimanale, dove la stessa tabella l'ha riempita il bambino.",
+   "canonicalDeckSlug": "il-tempo-atmosferico-g1363",
+   "carousel": [
+    {
+     "label": "Il tempo atmosferico: collega il simbolo alla parola",
+     "href": "il-tempo-atmosferico"
+    },
+    {
+     "label": "Il tempo atmosferico: scrivi la parola nelle caselle",
+     "href": "il-tempo-atmosferico-scrivi-la-parola"
+    },
+    {
+     "label": "Il tempo della mia settimana: un simbolo al giorno",
+     "href": "il-tempo-atmosferico-la-mia-settimana"
+    },
+    {
+     "label": "Il termometro: fa freddo, è mite o fa caldo?",
+     "href": "il-tempo-atmosferico-freddo-o-caldo"
+    }
+   ],
+   "title": "Il tempo atmosferico: leggi le previsioni – Prima PDF gratis",
+   "metaDescription": "Una striscia con il tempo da lunedì a venerdì e tre domande: che giorno nevica, che giorno piove, che giorno c'è il sole. Si cerchia il giorno. PDF gratis."
+  },
+  {
+   "slug": "raccolta-differenziata-in-quale-bidone",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-which-bin",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda raccolta differenziata · infanzia",
+   "h1": "Raccolta differenziata: in quale bidone va?",
+   "strand": "Scienze",
+   "slotTokens": [
+    "raccolta-differenziata",
+    "infanzia"
+   ],
+   "p1": "Una fascia in alto mostra i cinque bidoni con il nome scritto sopra, e funziona da chiave. Sotto, sei corsie: il numero, l'oggetto a sinistra, e all'estremità destra gli stessi cinque bidoni ripetuti in piccolo, questa volta senza nome. Gli oggetti sono un vasetto di miele, una busta con la lettera, un secchiello da spiaggia, una lattina, un'arancia e un pacco di cartone. Il bambino cerchia il bidone giusto, riconoscendolo dal colore e dal segno bianco sul coperchio.",
+   "p2": "La differenza rispetto alla scheda base è che qui non si traccia nessuna linea e la decisione si ripete sei volte identica, il che la rende adatta a chi ha bisogno di ripetere lo stesso gesto per fissarlo. I sei oggetti coprono quattro materiali diversi e includono il caso che in Italia sorprende gli adulti prima dei bambini: la lattina va nel bidone giallo insieme alla plastica, perché gli imballaggi leggeri si raccolgono insieme.",
+   "p3": "Attenzione se si stampa in bianco e nero: i cinque bidoni piccoli si distinguono solo per il colore e per un segno bianco minuscolo sul coperchio, quindi in scala di grigi diventano quasi uguali. In quel caso conviene far scrivere l'iniziale invece di cerchiare. La pillola dice soltanto Plastica e non nomina le lattine, perciò per il numero quattro serve una parola dell'insegnante.",
+   "canonicalDeckSlug": "raccolta-differenziata-k366",
+   "carousel": [
+    {
+     "label": "Raccolta differenziata: ogni cosa nel suo bidone",
+     "href": "raccolta-differenziata"
+    },
+    {
+     "label": "Di che materiale è? Otto oggetti da classificare",
+     "href": "raccolta-differenziata-di-che-materiale-e"
+    },
+    {
+     "label": "L'intruso per materiale: cerchia quella diversa",
+     "href": "raccolta-differenziata-l-intruso"
+    },
+    {
+     "label": "Colora i cinque bidoni con i colori giusti",
+     "href": "raccolta-differenziata-colora-i-bidoni"
+    }
+   ],
+   "title": "Raccolta differenziata: in quale bidone – Infanzia PDF gratis",
+   "metaDescription": "Sei oggetti, miele, lettera, secchiello, lattina, arancia e pacco, e per ognuno i cinque bidoni da cerchiare. Con la chiave dei nomi in alto. PDF gratis."
+  },
+  {
+   "slug": "raccolta-differenziata-di-che-materiale-e",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-what-is-it-made-of",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda raccolta differenziata · classe prima",
+   "h1": "Di che materiale è? Otto oggetti da classificare",
+   "strand": "Scienze",
+   "slotTokens": [
+    "raccolta-differenziata",
+    "classe-prima"
+   ],
+   "p1": "Il riquadro in alto contiene cinque parole: plastica, carta, cartone, vetro, metallo. Sotto, otto corsie numerate, in ciascuna un oggetto a sinistra e tre righe di scrittura a destra. Gli oggetti sono un bullone, un cucchiaio viola, un quaderno, una bottiglia di sugo, un dado esagonale, un foglio, un pacco e una scatola di cereali. Il bambino scrive sulla riga il materiale, scegliendolo dal riquadro. Tutte e cinque le parole vengono usate almeno una volta, e tre di esse tornano due volte.",
+   "p2": "Il passaggio che questa scheda chiede è quello dal bidone al materiale: non più dove si butta, ma di che cosa è fatto, che è la domanda che sta sotto tutta la raccolta differenziata. In classe prima è un salto concettuale reale, perché il materiale non si vede sempre a colpo d'occhio e va dedotto dalla lucentezza, dalla trasparenza, dal peso immaginato. Carta e cartone sono tenuti distinti, e distinguerli è proprio l'esercizio: il foglio e la scatola non sono la stessa cosa.",
+   "p3": "Due oggetti meritano una parola prima di distribuire: il cucchiaio è di plastica, non di metallo, e la bottiglia del sugo è di vetro anche se molte bottiglie che i bambini vedono a casa sono di plastica. Il bullone e il dado sono entrambi metallici e si confermano a vicenda. Dopo questa si passa alla scheda dell'intruso, che usa lo stesso criterio senza parole scritte.",
+   "canonicalDeckSlug": "raccolta-differenziata-g1364",
+   "carousel": [
+    {
+     "label": "Raccolta differenziata: ogni cosa nel suo bidone",
+     "href": "raccolta-differenziata"
+    },
+    {
+     "label": "Raccolta differenziata: in quale bidone va?",
+     "href": "raccolta-differenziata-in-quale-bidone"
+    },
+    {
+     "label": "L'intruso per materiale: cerchia quella diversa",
+     "href": "raccolta-differenziata-l-intruso"
+    },
+    {
+     "label": "Colora i cinque bidoni con i colori giusti",
+     "href": "raccolta-differenziata-colora-i-bidoni"
+    }
+   ],
+   "title": "Raccolta differenziata: di che materiale è – Prima PDF gratis",
+   "metaDescription": "Otto oggetti e cinque parole da copiare, plastica, carta, cartone, vetro e metallo: si scrive sulla riga di che materiale è fatta ogni cosa. PDF gratis."
+  },
+  {
+   "slug": "raccolta-differenziata-l-intruso",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-odd-one-out-by-material",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda raccolta differenziata · classe seconda",
+   "h1": "L'intruso per materiale: cerchia quella diversa",
+   "strand": "Scienze",
+   "slotTokens": [
+    "raccolta-differenziata",
+    "classe-seconda"
+   ],
+   "p1": "Quattro righe numerate, quattro oggetti per riga, nessuna parola. Nella prima, il barattolo di marmellata, quello di miele e la bottiglia del latte, tutti di vetro, e per ultimo un cucchiaio di plastica viola. Nella seconda, la colla, lo spazzolino e il pettine di plastica, e al terzo posto una foglia. Nella terza, il peperone, la carota e la banana accanto a un pentolino. Nella quarta, un bullone, un dado e una lattina, e al secondo posto una bottiglia d'olio di vetro.",
+   "p2": "Nessun nome di materiale compare sul foglio, e questa assenza è il contenuto: per decidere bisogna formulare da soli il criterio che tiene insieme tre oggetti, e soltanto dopo scartare il quarto. È il ragionamento inverso rispetto alla scheda che chiede di scrivere il materiale, e arriva dopo di quella. I materiali sono quattro e netti, vetro, plastica, organico e metallo, e ognuno compare una volta dalla parte dei tre e una volta dalla parte dell'intruso.",
+   "p3": "L'intruso cambia posto a ogni riga, quarto, terzo, quarto, secondo, quindi non si può andare a colpo d'occhio sull'ultima casella: vanno guardati davvero tutti e quattro gli oggetti. Il pentolino della terza riga è di metallo ed è lì apposta, perché in Italia non ha un bidone stradale e si porta all'isola ecologica, ma qui la domanda riguarda il materiale, non il bidone. La bottiglia del latte è di vetro, non di cartone. Si usa in chiusura della famiglia.",
+   "canonicalDeckSlug": "raccolta-differenziata-g2348",
+   "carousel": [
+    {
+     "label": "Raccolta differenziata: ogni cosa nel suo bidone",
+     "href": "raccolta-differenziata"
+    },
+    {
+     "label": "Raccolta differenziata: in quale bidone va?",
+     "href": "raccolta-differenziata-in-quale-bidone"
+    },
+    {
+     "label": "Di che materiale è? Otto oggetti da classificare",
+     "href": "raccolta-differenziata-di-che-materiale-e"
+    },
+    {
+     "label": "Colora i cinque bidoni con i colori giusti",
+     "href": "raccolta-differenziata-colora-i-bidoni"
+    }
+   ],
+   "title": "Raccolta differenziata: l'intruso – Classe seconda PDF gratis",
+   "metaDescription": "Quattro righe da quattro oggetti: in ognuna tre sono dello stesso materiale e il quarto no. Si cerchia l'intruso. Raccolta differenziata, classe seconda, PDF gratis."
+  },
+  {
+   "slug": "raccolta-differenziata-colora-i-bidoni",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-color-the-bins",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda raccolta differenziata · infanzia",
+   "h1": "Colora i cinque bidoni con i colori giusti",
+   "strand": "Scienze",
+   "slotTokens": [
+    "raccolta-differenziata",
+    "infanzia"
+   ],
+   "p1": "Cinque bidoni grandi disegnati solo a contorno, tutti bianchi, con il nome in un'etichetta sopra: Carta, Plastica, Vetro, Umido, Secco. Sopra i bidoni, una legenda tratteggiata abbina ogni colore al suo nome, blu alla carta, giallo alla plastica, marrone all'umido, grigio al secco, verde al vetro. Sotto ogni bidone, in fondo alla pagina, due oggetti disegnati come esempio di quello che ci va: il pacco e i cereali sotto la carta, il dado e il pettine sotto il secco.",
+   "p2": "L'Italia ha una norma nazionale per i colori dei contenitori, la UNI 11686, e questa scheda esiste in italiano proprio perché quella norma esiste: in altri paesi la stessa pagina non si può fare senza inventare. Vale però la pena dirlo in classe con chiarezza: i colori sono uno standard consigliato e nei fatti cambiano da comune a comune, quindi la cosa da imparare è l'abbinamento fra materiale e contenitore, non il colore in sé. Colorare fissa l'associazione con il gesto.",
+   "p3": "La legenda elenca i colori in un ordine diverso da quello dei bidoni, il verde del vetro è l'ultimo della legenda e il terzo bidone: conviene farla leggere riga per riga invece che per posizione. I dieci oggetti in fondo alla pagina non sono nominati dalla consegna, quindi si possono usare come domanda in più, chiedendo perché stanno lì. Si stampa in bianco e nero, per forza.",
+   "canonicalDeckSlug": "raccolta-differenziata-k367",
+   "carousel": [
+    {
+     "label": "Raccolta differenziata: ogni cosa nel suo bidone",
+     "href": "raccolta-differenziata"
+    },
+    {
+     "label": "Raccolta differenziata: in quale bidone va?",
+     "href": "raccolta-differenziata-in-quale-bidone"
+    },
+    {
+     "label": "Di che materiale è? Otto oggetti da classificare",
+     "href": "raccolta-differenziata-di-che-materiale-e"
+    },
+    {
+     "label": "L'intruso per materiale: cerchia quella diversa",
+     "href": "raccolta-differenziata-l-intruso"
+    }
+   ],
+   "title": "Raccolta differenziata: colora i bidoni – Infanzia PDF gratis",
+   "metaDescription": "Cinque bidoni bianchi da colorare con la legenda: blu la carta, giallo la plastica, marrone l'umido, grigio il secco, verde il vetro. Infanzia, PDF gratis."
+  },
+  {
+   "slug": "raccolta-differenziata-tre-cose-che-riciclo",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-three-things-i-recycle",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda raccolta differenziata · classe prima",
+   "h1": "Tre cose che riciclo a casa: disegna e scrivi",
+   "strand": "Scienze",
+   "slotTokens": [
+    "raccolta-differenziata",
+    "classe-prima"
+   ],
+   "p1": "Tre corsie larghe, numerate. In ognuna, a sinistra, un riquadro bianco alto con il bordo tratteggiato arancione, e a destra due gruppi di righe per scrivere, con la riga di mezzo tratteggiata. Non c'è nessun disegno stampato, nessun elenco di parole e nessun bidone: la pagina è completamente vuota. Il bambino disegna nel riquadro tre cose che a casa sua finiscono nella raccolta differenziata e accanto scrive che cosa sono, una frase corta per ciascuna.",
+   "p2": "È la faccia aperta della famiglia e l'unica in cui il contenuto arriva da casa invece che dal foglio. Quello che rende utile questa pagina è il confronto che genera dopo: in una classe escono bottiglie, scatole di biscotti, bucce, vasetti dello yogurt, e da quell'elenco reale si può ricostruire insieme la mappa dei bidoni del comune. La scrittura richiesta è minima, il nome della cosa, così il tempo si concentra sull'osservazione domestica e sul disegno.",
+   "p3": "Funziona meglio se assegnata il giorno prima come compito di osservazione, con il permesso di guardare davvero nei contenitori di casa con un adulto. Si conserva e si riprende a fine anno con una seconda copia, per vedere se l'elenco è cambiato. Rispetto alle altre schede della famiglia non ha una risposta giusta, quindi non si corregge: si legge e si discute.",
+   "canonicalDeckSlug": "raccolta-differenziata-g1365",
+   "carousel": [
+    {
+     "label": "Raccolta differenziata: ogni cosa nel suo bidone",
+     "href": "raccolta-differenziata"
+    },
+    {
+     "label": "Raccolta differenziata: in quale bidone va?",
+     "href": "raccolta-differenziata-in-quale-bidone"
+    },
+    {
+     "label": "Di che materiale è? Otto oggetti da classificare",
+     "href": "raccolta-differenziata-di-che-materiale-e"
+    },
+    {
+     "label": "L'intruso per materiale: cerchia quella diversa",
+     "href": "raccolta-differenziata-l-intruso"
+    }
+   ],
+   "title": "Raccolta differenziata: tre cose che riciclo – Prima PDF gratis",
+   "metaDescription": "Tre riquadri da disegnare e, accanto a ciascuno, due righe per scrivere che cosa è: il bambino racconta la raccolta differenziata di casa sua. PDF gratis."
+  },
+  {
+   "slug": "completa-la-frase-e-scrivi-la-parola",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-letter-boxes",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda completa le frasi · classe prima",
+   "h1": "Completa la frase scrivendo la parola nelle caselle",
+   "strand": "Riflessione linguistica",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "completa-le-frasi",
+    "classe-prima"
+   ],
+   "p1": "Sette corsie, e in ciascuna il disegno, l'articolo stampato e poi una fila di caselle tratteggiate lunga esattamente quanto la parola che manca, prima del resto della frase. Otto caselle per pinguino e per trattore, sei per balena e per maiale, cinque per mucca, gallo e palla. Nessun riquadro di parole in alto: il bambino guarda il disegno, riconosce l'animale o l'oggetto e ne scrive il nome lettera per lettera, controllando che le caselle tornino.",
+   "p2": "Togliere il riquadro cambia il compito da trascrizione a scrittura, e le caselle diventano l'unico controllo. È un controllo forte: chi scrive mucca con una sola c se ne accorge perché avanza una casella. Le sette parole contengono le difficoltà ortografiche che la classe prima incontra davvero, la doppia di mucca e di palla, il gruppo gli che qui non compare e il gruppo tr di trattore. La frase attorno alla casella resta breve e si legge tutta d'un fiato.",
+   "p3": "Tre corsie su sette vanno a capo perché la fila di caselle è lunga, quindi la frase si spezza a metà: conviene leggerla ad alta voce la prima volta. Il disegno della palla è un pallone da calcio bianco e nero, mentre la parola chiesta dalle cinque caselle e dall'articolo La è palla: se qualcuno scrive pallone, il conto delle caselle glielo segnala subito.",
+   "canonicalDeckSlug": "completa-le-frasi-g1366",
+   "carousel": [
+    {
+     "label": "Completa le frasi: cerca la parola nel riquadro",
+     "href": "completa-le-frasi"
+    },
+    {
+     "label": "Scegli la parola giusta fra due e scrivila",
+     "href": "scegli-la-parola-giusta"
+    },
+    {
+     "label": "Completa le frasi al plurale: più di uno",
+     "href": "completa-le-frasi-al-plurale"
+    },
+    {
+     "label": "Tre blocchi di frasi da completare con nove parole",
+     "href": "completa-il-testo-tre-blocchi"
+    }
+   ],
+   "title": "Completa la frase e scrivi la parola – Prima PDF gratis",
+   "metaDescription": "Sette frasi con il disegno e una fila di caselle al posto della parola, una lettera per casella: pinguino, balena, trattore, mucca, gallo, palla, maiale."
+  },
+  {
+   "slug": "scegli-la-parola-giusta",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-choose-the-word",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda completa le frasi · classe prima",
+   "h1": "Scegli la parola giusta fra due e scrivila",
+   "strand": "Riflessione linguistica",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "completa-le-frasi",
+    "classe-prima"
+   ],
+   "p1": "Sei corsie, e ognuna contiene tre cose: il disegno, la frase con la casella vuota dopo l'articolo, e sotto due pillole bianche con due parole. Picchio o gufo per l'uccello che fa i buchi nel tronco, giraffa o zebra per quella con le righe, capra o scimmia per quella che salta di ramo in ramo, lupo o leone per quello che ruggisce, razzo o treno per quello che fischia alla stazione, pinguino o gabbiano per quello che scivola sul ghiaccio.",
+   "p2": "In tutte e sei le coppie le due parole hanno lo stesso genere, quindi l'articolo stampato non aiuta affatto: Il vale per picchio e per gufo, La per capra e per scimmia. È una costruzione attenta e va notata, perché toglie l'unica scorciatoia possibile e obbliga a leggere il predicato. Il compito diventa così una comprensione di frase in miniatura: che cosa fa questo animale, e quale dei due lo fa. La parola scelta va poi ricopiata nella casella, quindi la risposta si scrive due volte.",
+   "p3": "È la scheda della famiglia che si presta al lavoro a coppie, perché la scelta fra due si discute. Rispetto alla scheda con il riquadro di sette parole il campo è più stretto ma il ragionamento più stretto ancora, e rispetto a quella con le caselle non c'è ortografia da inventare. Dopo, la scheda che collega la frase all'immagine toglie anche la casella da riempire.",
+   "canonicalDeckSlug": "completa-le-frasi-g1367",
+   "carousel": [
+    {
+     "label": "Completa le frasi: cerca la parola nel riquadro",
+     "href": "completa-le-frasi"
+    },
+    {
+     "label": "Completa la frase scrivendo la parola nelle caselle",
+     "href": "completa-la-frase-e-scrivi-la-parola"
+    },
+    {
+     "label": "Completa le frasi al plurale: più di uno",
+     "href": "completa-le-frasi-al-plurale"
+    },
+    {
+     "label": "Tre blocchi di frasi da completare con nove parole",
+     "href": "completa-il-testo-tre-blocchi"
+    }
+   ],
+   "title": "Scegli la parola giusta – Frasi da completare PDF gratis",
+   "metaDescription": "Sei frasi con il disegno e due parole da cui scegliere: picchio o gufo, giraffa o zebra, capra o scimmia, lupo o leone, razzo o treno, pinguino o gabbiano."
+  },
+  {
+   "slug": "completa-le-frasi-al-plurale",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-plural-nouns",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda completa le frasi · classe seconda",
+   "h1": "Completa le frasi al plurale: più di uno",
+   "strand": "Riflessione linguistica",
+   "standard": "L.1.1.c",
+   "slotTokens": [
+    "completa-le-frasi",
+    "classe-seconda"
+   ],
+   "p1": "Otto corsie, e in ciascuna non un disegno ma due o tre disegni uguali: tre pesci, due scimmie, due galline, due cavalli, due aeroplani, tre pecore, tre pipistrelli, due api. La frase comincia con l'articolo plurale già stampato, I oppure Le, o in due righe con la parola Due, poi c'è la casella e poi il predicato, anch'esso al plurale: nuotano, saltano, beccano, corrono, atterrano, hanno, dormono, volano. Il bambino scrive nella casella la parola per più di uno.",
+   "p2": "Non c'è nessun riquadro di parole: il plurale va prodotto, non copiato, ed è questo che colloca la scheda in classe seconda. L'articolo e il verbo sono già al plurale e fanno da doppia cornice, quindi il bambino ha due conferme che la parola da scrivere deve finire in modo diverso dal singolare. Le otto parole coprono le uscite regolari dell'italiano, in i per i maschili e in e per i femminili, e api mostra che una parola corta si comporta come le altre.",
+   "p3": "Due frasi su otto stampano anche la parola Due prima della casella, quindi lì il numero è dato e la conta non serve: sono le più facili e conviene lasciarle per ultime. Chi ha finito può scrivere sotto ogni frase la stessa al singolare, che è il rovescio esatto dell'esercizio. Si usa dopo la scheda base, quando le frasi al singolare si leggono con sicurezza.",
+   "canonicalDeckSlug": "completa-le-frasi-g2349",
+   "carousel": [
+    {
+     "label": "Completa le frasi: cerca la parola nel riquadro",
+     "href": "completa-le-frasi"
+    },
+    {
+     "label": "Completa la frase scrivendo la parola nelle caselle",
+     "href": "completa-la-frase-e-scrivi-la-parola"
+    },
+    {
+     "label": "Scegli la parola giusta fra due e scrivila",
+     "href": "scegli-la-parola-giusta"
+    },
+    {
+     "label": "Tre blocchi di frasi da completare con nove parole",
+     "href": "completa-il-testo-tre-blocchi"
+    }
+   ],
+   "title": "Completa le frasi al plurale – Classe seconda PDF gratis",
+   "metaDescription": "Otto frasi con due o tre disegni uguali e la casella da riempire con il plurale: pesci, scimmie, galline, cavalli, pecore, pipistrelli, api. PDF gratis."
+  },
+  {
+   "slug": "completa-il-testo-tre-blocchi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-story",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda completa le frasi · classe seconda",
+   "h1": "Tre blocchi di frasi da completare con nove parole",
+   "strand": "Riflessione linguistica",
+   "standard": "RF.2.4.c",
+   "slotTokens": [
+    "completa-le-frasi",
+    "classe-seconda"
+   ],
+   "p1": "Un riquadro in alto con nove parole. Sotto, tre blocchi numerati; ogni blocco mostra tre disegni in fila e poi tre frasi, ciascuna con una casella dopo l'articolo. Nel primo blocco i giocattoli, la bambola con i capelli lunghi, il treno che corre sui binari di legno, la palla che rimbalza sul pavimento. Nel secondo il razzo, il gabbiano e il gufo. Nel terzo la tartaruga sulla riva, il cane nel prato, il pesce sotto il ponte. Nove caselle, nove parole, nessuna in più.",
+   "p2": "L'ordine dei tre disegni non è quello delle tre frasi, quindi l'abbinamento va fatto e non subito. Ogni blocco è una piccola unità: tre frasi, tre immagini, un solo campo di scelta, e questo riduce il carico rispetto a una lista di nove frasi sciolte. Le frasi del secondo e del terzo blocco cominciano con un complemento di luogo, sulla spiaggia, sul ramo, sulla riva, nel prato, sotto il ponte, e leggere quell'attacco prima del soggetto è un piccolo esercizio di ordine delle parole.",
+   "p3": "Un'avvertenza: la pagina si intitola come un testo ma non è un racconto, le tre frasi di ciascun blocco non sono legate fra loro e si leggono una per una. Chi vuole un vero testo può chiedere, dopo, di metterle in ordine e di aggiungere un collegamento. Le nove parole coprono esattamente le nove caselle, quindi l'ultima si ricava per esclusione e conviene ricordarlo.",
+   "canonicalDeckSlug": "completa-le-frasi-g2350",
+   "carousel": [
+    {
+     "label": "Completa le frasi: cerca la parola nel riquadro",
+     "href": "completa-le-frasi"
+    },
+    {
+     "label": "Completa la frase scrivendo la parola nelle caselle",
+     "href": "completa-la-frase-e-scrivi-la-parola"
+    },
+    {
+     "label": "Scegli la parola giusta fra due e scrivila",
+     "href": "scegli-la-parola-giusta"
+    },
+    {
+     "label": "Completa le frasi al plurale: più di uno",
+     "href": "completa-le-frasi-al-plurale"
+    }
+   ],
+   "title": "Completa le frasi: tre blocchi e nove parole – Seconda PDF gratis",
+   "metaDescription": "Tre blocchi, ognuno con tre disegni e tre frasi da completare, e un riquadro con nove parole: bambola, treno, palla, razzo, gabbiano, gufo, tartaruga, cane, pesce."
+  },
+  {
+   "slug": "collega-la-frase-all-immagine",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "match-the-sentence-to-the-picture",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda completa le frasi · classe prima",
+   "h1": "Collega la frase all'immagine che la completa",
+   "strand": "Riflessione linguistica",
+   "standard": "RF.1.4.c",
+   "slotTokens": [
+    "completa-le-frasi",
+    "classe-prima"
+   ],
+   "p1": "A sinistra sei riquadri, ognuno con una frase in cui manca il soggetto: la casella resta vuota e non va riempita. Il ... rosicchia una carota, la ... ha le righe bianche e nere, la ... ci dà il latte, la ... ha il collo lunghissimo, la ... salta di ramo in ramo, il ... fa i buchi nel tronco. A destra sei disegni in colonna, una mucca, un picchio, una zebra, una scimmia, un coniglio e una giraffa. Il bambino unisce ogni frase al disegno che la completa.",
+   "p2": "È la faccia della famiglia in cui non si scrive niente, e proprio per questo la lettura deve essere completa: non c'è un disegno accanto alla frase a cui appoggiarsi, e la scelta si fa solo su quello che la frase dice. L'articolo stampato resta l'unico aiuto grammaticale e dimezza il campo, perché quattro frasi su sei cominciano con La. Nessuna frase è allineata in orizzontale al proprio disegno, quindi tutte e sei le linee attraversano la pagina.",
+   "p3": "Si presta a essere usata come verifica di lettura a inizio classe prima, perché non richiede scrittura e il risultato si legge in dieci secondi. Chi ha finito può scrivere il nome dell'animale nella casella vuota, e a quel punto la scheda diventa l'esercizio della sorella con il riquadro di parole. Si stampa dopo la scheda base e prima di quella con le due parole da scegliere.",
+   "canonicalDeckSlug": "completa-le-frasi-g1368",
+   "carousel": [
+    {
+     "label": "Completa le frasi: cerca la parola nel riquadro",
+     "href": "completa-le-frasi"
+    },
+    {
+     "label": "Completa la frase scrivendo la parola nelle caselle",
+     "href": "completa-la-frase-e-scrivi-la-parola"
+    },
+    {
+     "label": "Scegli la parola giusta fra due e scrivila",
+     "href": "scegli-la-parola-giusta"
+    },
+    {
+     "label": "Completa le frasi al plurale: più di uno",
+     "href": "completa-le-frasi-al-plurale"
+    }
+   ],
+   "title": "Collega la frase all'immagine – Classe prima PDF gratis",
+   "metaDescription": "Sei frasi con uno spazio vuoto a sinistra e sei disegni a destra, coniglio, zebra, mucca, giraffa, scimmia e picchio, da unire con una linea. PDF gratis."
+  },
+  {
+   "slug": "pari-o-dispari-due-addendi-uguali",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-write-two-equal-addends",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda numeri pari e dispari · classe seconda",
+   "h1": "Pari o dispari? Scrivilo come due parti uguali",
+   "strand": "Numeri (Indicazioni nazionali)",
+   "standard": "2.OA.C.3",
+   "slotTokens": [
+    "numeri-pari-e-dispari",
+    "classe-seconda"
+   ],
+   "p1": "Otto carte, quattro pari e quattro dispari, con i numeri compresi fra 3 e 20: nel foglio mostrato 17, 3, 18, 12, 8, 13, 14 e 19. In cima a ogni carta la scrittura da completare, il numero, l'uguale, due caselle unite dal più e una terza casella più piccola con la parola avanza. Sotto, i puntini veri, disposti in file da dieci. Il bambino cerchia i puntini a due a due con la matita, poi scrive le due parti uguali e quello che resta.",
+   "p2": "Qui la parità diventa una scrittura: 18 uguale 9 più 9 più 0, 17 uguale 8 più 8 più 1. È il passo che trasforma un'osservazione in un'uguaglianza, ed è il motivo per cui la pagina sta in classe seconda e non in prima. La casella dell'avanzo va riempita sempre, anche con lo zero, perché lo zero è una risposta e non un'assenza. I due addendi uguali sono anche il primo incontro con il doppio letto al contrario, cioè con la metà.",
+   "p3": "Una cosa da sapere prima di correggere: i puntini sono disposti in file da dieci, quindi l'ultima fila di ogni carta ha lo stesso numero di puntini della parità del totale, e un bambino attento può leggere pari o dispari senza cerchiare nulla. Le due parti uguali però restano da trovare, ed è quella la parte che conta. Si fa dopo la scheda delle due case.",
+   "canonicalDeckSlug": "numeri-pari-e-dispari-g2351",
+   "carousel": [
+    {
+     "label": "Numeri pari e dispari fino a 20: le due case",
+     "href": "numeri-pari-e-dispari-fino-a-20"
+    },
+    {
+     "label": "Si può dividere in due? Due amici e un mucchio di figure",
+     "href": "si-puo-dividere-in-due-pari-o-dispari"
+    },
+    {
+     "label": "Pari o dispari fino a 100: guarda solo le unità",
+     "href": "numeri-pari-e-dispari-fino-a-100"
+    },
+    {
+     "label": "La somma è pari o dispari? Senza fare il calcolo",
+     "href": "somma-pari-o-dispari-senza-calcolare"
+    }
+   ],
+   "title": "Pari o dispari: due addendi uguali – Seconda PDF gratis",
+   "metaDescription": "Otto carte da 3 a 20: si cerchiano i puntini a due a due, si scrive il numero come due parti uguali e si mette nella casella piccola quello che avanza."
+  },
+  {
+   "slug": "si-puo-dividere-in-due-pari-o-dispari",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-can-two-friends-share-fairly",
+    "theme": "zoo_animals",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda numeri pari e dispari · classe prima",
+   "h1": "Si può dividere in due? Due amici e un mucchio di figure",
+   "strand": "Numeri (Indicazioni nazionali)",
+   "slotTokens": [
+    "numeri-pari-e-dispari",
+    "animali-dello-zoo",
+    "classe-prima"
+   ],
+   "p1": "Sei corsie, e in ognuna un mucchio di animali dello zoo tutti uguali dentro la stessa riga: elefanti, cervi, alci, bisonti, lupi e pipistrelli. I mucchi vanno da tre a otto figure, un numero per corsia e nessuno ripetuto. A destra due caselle intestate con due nomi presi fra Alice, Sofia, Aurora, Giulia e Matteo, poi una casella piccola con la parola avanza, infine due pillole, pari e dispari.",
+   "p2": "Le figure stanno cinque per riga, e la disposizione conta: tre, quattro e cinque entrano in una riga sola, così la riga è il mucchio; sei, sette e otto vanno a capo e lasciano sotto una riga corta di uno, due o tre. Chi guardasse solo quella riga corta non saprebbe niente. Poi si distribuisce, una figura per volta, uno a te e uno a me, e si scopre che o non avanza nulla o resta una figura sola, mai due.",
+   "p3": "Un dettaglio da sapere prima di consegnare il foglio: i sei mucchi si alternano regolarmente, dispari, pari, dispari, pari, dispari, pari, e un bambino attento allo schema può cerchiare le pillole senza dividere niente. Conviene coprire le corsie già fatte, oppure ritagliarle e mescolarle sul banco. La casella dell'avanzo dà un posto a quello che sopravanza. Si usa con tappi veri, prima della scheda con i puntini da cerchiare a due a due.",
+   "canonicalDeckSlug": "numeri-pari-e-dispari-animali-dello-zoo-g1369",
+   "carousel": [
+    {
+     "label": "Numeri pari e dispari fino a 20: le due case",
+     "href": "numeri-pari-e-dispari-fino-a-20"
+    },
+    {
+     "label": "Pari o dispari? Scrivilo come due parti uguali",
+     "href": "pari-o-dispari-due-addendi-uguali"
+    },
+    {
+     "label": "Pari o dispari fino a 100: guarda solo le unità",
+     "href": "numeri-pari-e-dispari-fino-a-100"
+    },
+    {
+     "label": "La somma è pari o dispari? Senza fare il calcolo",
+     "href": "somma-pari-o-dispari-senza-calcolare"
+    }
+   ],
+   "title": "Pari o dispari: dividere in due fra amici – Prima PDF gratis",
+   "metaDescription": "Sei mucchi da tre a otto animali dello zoo da dividere fra due amici: si scrive quanti ne riceve ognuno, quanti ne restano, e si cerchia pari o dispari. PDF gratis."
+  },
+  {
+   "slug": "numeri-pari-e-dispari-fino-a-100",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-under-100-look-at-the-ones-box",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda numeri pari e dispari · classe seconda",
+   "h1": "Pari o dispari fino a 100: guarda solo le unità",
+   "strand": "Numeri (Indicazioni nazionali)",
+   "standard": "2.OA.C.3",
+   "slotTokens": [
+    "numeri-pari-e-dispari",
+    "classe-seconda"
+   ],
+   "p1": "In alto la regola scritta per esteso: i numeri pari finiscono con 0, 2, 4, 6 o 8, i dispari con 1, 3, 5, 7 o 9. Sotto, due colonne di sei corsie. Ogni numero è spezzato in due caselle affiancate sotto le intestazioni da e u, la casella delle unità colorata di rosa e bordata di arancione. A destra due cerchi vuoti sotto pari e dispari. Dodici numeri fra 10 e 99, sei pari e sei dispari, e nel foglio mostrato le unità coprono quasi tutte le cifre da 0 a 9.",
+   "p2": "La scomposizione in decine e unità è il dispositivo della pagina: la cifra da guardare è già isolata in una casella colorata, quindi il bambino non deve nemmeno estrarla, deve solo applicare la regola stampata in alto. È una scelta didattica precisa, perché il valore posizionale e la parità si incontrano qui per la prima volta. Le Indicazioni nazionali collocano in questa fascia il consolidamento del numero entro il cento, e questa è una delle strade più economiche per arrivarci.",
+   "p3": "È la prima scheda della famiglia in cui la risposta non passa dai puntini: chi ha bisogno di tornare al concreto deve retrocedere alle due case o alle figure da dividere. Si può usare come verifica veloce a fine unità, perché dodici decisioni si prendono in pochi minuti. Dopo di questa la famiglia sale ancora, con la parità di una somma letta senza calcolare.",
+   "canonicalDeckSlug": "numeri-pari-e-dispari-g2352",
+   "carousel": [
+    {
+     "label": "Numeri pari e dispari fino a 20: le due case",
+     "href": "numeri-pari-e-dispari-fino-a-20"
+    },
+    {
+     "label": "Pari o dispari? Scrivilo come due parti uguali",
+     "href": "pari-o-dispari-due-addendi-uguali"
+    },
+    {
+     "label": "Si può dividere in due? Due amici e un mucchio di figure",
+     "href": "si-puo-dividere-in-due-pari-o-dispari"
+    },
+    {
+     "label": "La somma è pari o dispari? Senza fare il calcolo",
+     "href": "somma-pari-o-dispari-senza-calcolare"
+    }
+   ],
+   "title": "Numeri pari e dispari fino a 100 – Seconda PDF gratis",
+   "metaDescription": "Dodici numeri da 10 a 99 scritti in due caselle, decine e unità, con la cifra delle unità evidenziata: si segna il cerchio sotto pari o dispari. PDF gratis."
+  },
+  {
+   "slug": "somma-pari-o-dispari-senza-calcolare",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-sum-decide-without-adding",
+    "theme": "",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda numeri pari e dispari · classe terza",
+   "h1": "La somma è pari o dispari? Senza fare il calcolo",
+   "strand": "Numeri (Indicazioni nazionali)",
+   "standard": "3.OA.D.9",
+   "slotTokens": [
+    "numeri-pari-e-dispari",
+    "classe-terza"
+   ],
+   "p1": "Al centro, in alto, una tabella con tre righe: pari più pari uguale pari, dispari più dispari uguale pari, pari più dispari uguale dispari. Sotto, due colonne di sei somme di numeri a tre cifre, per esempio 963 più 573 e 394 più 397, con la cifra delle unità di ogni addendo sottolineata in arancione. A destra di ogni somma due cerchi vuoti sotto le intestazioni pari e dispari. Le dodici somme si dividono in parti uguali fra i due esiti.",
+   "p2": "La consegna dice di non fare il calcolo, e il foglio è costruito perché farlo sia scomodo: tre cifre per addendo, dodici somme, nessuno spazio per incolonnare. Quello che resta è il ragionamento sulla struttura, cioè il primo vero teorema dell'aritmetica che un bambino incontra. Le quattro combinazioni possibili compaiono tutte, pari con pari, dispari con dispari e i due ordini misti, quindi la tabella viene usata per intero e non solo nel caso più facile.",
+   "p3": "Se in classe qualcuno calcola lo si vede subito, perché rallenta: vale la pena fermarsi e ricostruire con lui una riga della tabella con i gettoni, due mucchi pari messi insieme. Una delle somme del foglio supera il mille, e il fatto che questo non disturbi la risposta è la prova che il metodo funziona. È la scheda che chiude la famiglia.",
+   "canonicalDeckSlug": "numeri-pari-e-dispari-g3386",
+   "carousel": [
+    {
+     "label": "Numeri pari e dispari fino a 20: le due case",
+     "href": "numeri-pari-e-dispari-fino-a-20"
+    },
+    {
+     "label": "Pari o dispari? Scrivilo come due parti uguali",
+     "href": "pari-o-dispari-due-addendi-uguali"
+    },
+    {
+     "label": "Si può dividere in due? Due amici e un mucchio di figure",
+     "href": "si-puo-dividere-in-due-pari-o-dispari"
+    },
+    {
+     "label": "Pari o dispari fino a 100: guarda solo le unità",
+     "href": "numeri-pari-e-dispari-fino-a-100"
+    }
+   ],
+   "title": "Somma pari o dispari senza calcolare – Terza PDF gratis",
+   "metaDescription": "Dodici somme di numeri a tre cifre con la cifra delle unità sottolineata e la tabella delle tre regole: si decide se la somma è pari o dispari. PDF gratis."
+  },
+  {
+   "slug": "pari-o-dispari-conta-le-figure-a-coppie",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-count-the-pictures-in-pairs",
+    "theme": "vehicles",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda numeri pari e dispari · classe prima",
+   "h1": "Conta le figure a coppie: quante coppie hai fatto?",
+   "strand": "Numeri (Indicazioni nazionali)",
+   "slotTokens": [
+    "numeri-pari-e-dispari",
+    "veicoli",
+    "classe-prima"
+   ],
+   "p1": "Sei corsie e sei mezzi di trasporto, un tipo per riga: escavatori, traghetti, muletti, treni, moto e scooter. Ogni mucchio conta fra undici e diciotto figure, disposte su due file da nove al massimo. A destra una casella tratteggiata intestata coppie e due pillole, pari e dispari. Il bambino cerchia le figure a due a due con la matita, conta quanti cerchi ha disegnato, scrive il numero nella casella e poi decide la parità. Non c'è nessuna casella per quello che avanza.",
+   "p2": "L'assenza della casella per l'avanzo è la differenza con la scheda dei due amici, ed è deliberata: qui il pezzo spaiato resta sul foglio senza un posto dove essere registrato, e il bambino deve accorgersene da solo per rispondere dispari. Contare le coppie invece delle figure introduce inoltre la conta per due, che è la base dei raggruppamenti e delle prime tabelline. Le quantità, da undici a diciotto, sono abbastanza alte da rendere la conta uno a uno faticosa e il raggruppamento conveniente.",
+   "p3": "Le figure sono disposte in file da nove, quindi la forma del mucchio non suggerisce la risposta e la conta va fatta davvero. Conviene una matita colorata per i cerchi, così i gruppi restano visibili durante la correzione. Si usa dopo la scheda della divisione fra due amici, dove il compito è lo stesso ma l'avanzo viene scritto, e prima della scheda sulle unità.",
+   "canonicalDeckSlug": "numeri-pari-e-dispari-veicoli-g1370",
+   "carousel": [
+    {
+     "label": "Numeri pari e dispari fino a 20: le due case",
+     "href": "numeri-pari-e-dispari-fino-a-20"
+    },
+    {
+     "label": "Pari o dispari? Scrivilo come due parti uguali",
+     "href": "pari-o-dispari-due-addendi-uguali"
+    },
+    {
+     "label": "Si può dividere in due? Due amici e un mucchio di figure",
+     "href": "si-puo-dividere-in-due-pari-o-dispari"
+    },
+    {
+     "label": "Pari o dispari fino a 100: guarda solo le unità",
+     "href": "numeri-pari-e-dispari-fino-a-100"
+    }
+   ],
+   "title": "Pari o dispari: conta le figure a coppie – Prima PDF gratis",
+   "metaDescription": "Sei mucchi da 11 a 18 veicoli, escavatori, traghetti, muletti, treni, moto e scooter, da cerchiare a due a due: si scrive il numero di coppie. PDF gratis."
+  },
+  {
+   "slug": "sostituisci-il-nome-con-un-pronome",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-replace-the-name-with-a-pronoun",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda i pronomi personali · classe prima",
+   "h1": "Sostituisci il nome con un pronome nella seconda frase",
+   "strand": "Riflessione linguistica",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronomi-personali-soggetto",
+    "classe-prima"
+   ],
+   "p1": "Il riquadro in alto contiene tre parole scritte con l'iniziale maiuscola, Lei, Loro, Lui. Sotto, otto corsie: in ciascuna una figura o due, poi una frase completa con il nome, e sotto la stessa frase con il soggetto sostituito da una casella vuota. Matteo e Marco vanno in bicicletta, e poi vanno in bicicletta. Luca disegna un gatto, e poi disegna un gatto. Il bambino scrive nella casella il pronome che vale per quel nome.",
+   "p2": "La coppia di frasi mostra la sostituzione invece di chiederla in astratto: il nome c'è, sparisce, e al suo posto arriva una parola diversa che regge lo stesso verbo. È il meccanismo della coesione testuale, e in classe prima si incontra proprio così, su due righe. Il riquadro dà i pronomi già maiuscoli perché la casella è sempre a inizio frase, un dettaglio ortografico che questa scheda insegna in silenzio. Il verbo resta invariato fra le due righe e conferma la scelta.",
+   "p3": "Una riga di questo foglio stampa una coppia di nomi come Diego e Elisa: davanti a un nome che comincia per e la lingua scritta preferisce ed, quindi conviene leggere Diego ed Elisa ad alta voce. Rispetto alla scheda base la risposta va scritta e non cerchiata. Dopo, la scheda con i due bambini allo stesso posto chiede di risalire dal pronome al nome.",
+   "canonicalDeckSlug": "pronomi-personali-soggetto-g1371",
+   "carousel": [
+    {
+     "label": "I pronomi personali soggetto: lui, lei o loro",
+     "href": "pronomi-personali-soggetto"
+    },
+    {
+     "label": "Chi è? Il pronome nella frase, da collegare al nome",
+     "href": "chi-e-il-pronome-nella-frase"
+    },
+    {
+     "label": "Suo, sua o loro? Il possessivo va d'accordo con la cosa",
+     "href": "suo-sua-o-loro-i-possessivi"
+    },
+    {
+     "label": "Ordina i nomi in tre colonne: lui, lei o loro",
+     "href": "ordina-i-nomi-lui-lei-o-loro"
+    }
+   ],
+   "title": "Sostituisci il nome con un pronome – Prima PDF gratis",
+   "metaDescription": "Otto coppie di frasi: la prima con il nome, la seconda con la casella all'inizio da riempire con Lui, Lei o Loro, che il riquadro dà già maiuscoli."
+  },
+  {
+   "slug": "chi-e-il-pronome-nella-frase",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-who-is-he-pronouns-in-sentences",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda i pronomi personali · classe seconda",
+   "h1": "Chi è? Il pronome nella frase, da collegare al nome",
+   "strand": "Riflessione linguistica",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronomi-personali-soggetto",
+    "classe-seconda"
+   ],
+   "p1": "Cinque blocchi, tutti con la stessa struttura. A sinistra due figure, ciascuna con il proprio nome in una pillola e un pallino arancione. A destra una frase di apertura che mette insieme i due bambini in un luogo, Alice e Luca sono in cucina, e sotto due frasi brevi che cominciano ciascuna con un pronome incorniciato: Lei prepara una torta, Lui taglia il pane. Il bambino di classe seconda unisce con una linea ogni pronome al nome che rappresenta.",
+   "p2": "Il pronome qui non va scelto ma interpretato: è già stampato, e la domanda è a chi si riferisce. In ognuno dei cinque blocchi i due bambini sono uno maschio e una femmina, quindi la risposta si ricava dall'accordo di genere fra il pronome e il nome, che è esattamente il modo in cui l'italiano risolve questi riferimenti. La frase di apertura serve a costruire la scena e stabilisce che i due protagonisti sono due e non di più.",
+   "p3": "Poiché il genere decide da solo, le due frasi d'azione non servono alla risposta: valgono però come lettura, e si possono usare chiedendo ad alta voce chi prepara la torta prima di tracciare la linea. Si usa dopo la scheda della sostituzione, quando lui e lei sono già stabili, e prima di quella che chiede di riscrivere una frase intera.",
+   "canonicalDeckSlug": "pronomi-personali-soggetto-g2353",
+   "carousel": [
+    {
+     "label": "I pronomi personali soggetto: lui, lei o loro",
+     "href": "pronomi-personali-soggetto"
+    },
+    {
+     "label": "Sostituisci il nome con un pronome nella seconda frase",
+     "href": "sostituisci-il-nome-con-un-pronome"
+    },
+    {
+     "label": "Suo, sua o loro? Il possessivo va d'accordo con la cosa",
+     "href": "suo-sua-o-loro-i-possessivi"
+    },
+    {
+     "label": "Ordina i nomi in tre colonne: lui, lei o loro",
+     "href": "ordina-i-nomi-lui-lei-o-loro"
+    }
+   ],
+   "title": "Chi è: il pronome nella frase – Classe seconda PDF gratis",
+   "metaDescription": "Cinque blocchi: due bambini in un luogo, poi due frasi che cominciano con Lei e con Lui. Si unisce ogni pronome al nome che rappresenta. PDF gratis."
+  },
+  {
+   "slug": "suo-sua-o-loro-i-possessivi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-possessive-pronouns",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda i possessivi · classe seconda",
+   "h1": "Suo, sua o loro? Il possessivo va d'accordo con la cosa",
+   "strand": "Riflessione linguistica",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronomi-personali-soggetto",
+    "classe-seconda"
+   ],
+   "p1": "Otto corsie. A sinistra la figura di chi possiede, un bambino solo oppure due insieme, e accanto la figura della cosa; a destra la frase con l'articolo già stampato, la casella vuota e il nome della cosa. Simone ha la ... bambola, Paolo ha il ... robot, Aurora ha il ... tamburo, Elisa e Giulia hanno la ... torta. Sotto ogni frase tre pillole da cerchiare, suo, sua e loro. Cinque frasi hanno un proprietario solo, tre ne hanno due.",
+   "p2": "La consegna stampata in alto dice la regola per intero: suo e sua vanno d'accordo con la cosa, non con la persona, e se le persone sono due si usa loro. È la frase che serve, perché in italiano il possessivo di terza persona non dice niente di chi possiede. Simone ha la sua bambola e Aurora ha il suo tamburo, con il genere rovesciato rispetto ai due nomi: dal proprietario arriva soltanto il numero.",
+   "p3": "L'articolo davanti alla casella è l'aiuto voluto, perché mostra il genere della cosa e la parola da cerchiare lo ripete; conviene rileggere la riga ad alta voce con la pillola dentro, così l'orecchio conferma la scelta dell'occhio. Due delle cinque frasi al singolare hanno la persona e la cosa di genere opposto: sono quelle che smascherano l'errore e vale la pena rifarle a voce. Si fa dopo le schede sui pronomi soggetto.",
+   "canonicalDeckSlug": "pronomi-personali-soggetto-g2354",
+   "carousel": [
+    {
+     "label": "I pronomi personali soggetto: lui, lei o loro",
+     "href": "pronomi-personali-soggetto"
+    },
+    {
+     "label": "Sostituisci il nome con un pronome nella seconda frase",
+     "href": "sostituisci-il-nome-con-un-pronome"
+    },
+    {
+     "label": "Chi è? Il pronome nella frase, da collegare al nome",
+     "href": "chi-e-il-pronome-nella-frase"
+    },
+    {
+     "label": "Ordina i nomi in tre colonne: lui, lei o loro",
+     "href": "ordina-i-nomi-lui-lei-o-loro"
+    }
+   ],
+   "title": "Suo, sua o loro – I possessivi da stampare PDF gratis",
+   "metaDescription": "Otto frasi con l'articolo stampato, una casella vuota e il nome della cosa posseduta: si cerchia suo, sua o loro. Possessivi per la classe seconda, PDF gratis."
+  },
+  {
+   "slug": "ordina-i-nomi-lui-lei-o-loro",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-sort-the-names-he-she-or-they",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda i pronomi personali · classe prima",
+   "h1": "Ordina i nomi in tre colonne: lui, lei o loro",
+   "strand": "Riflessione linguistica",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronomi-personali-soggetto",
+    "classe-prima"
+   ],
+   "p1": "Dieci cartellini raccolti in un riquadro in alto, ciascuno con una figura e un nome: Simone, Aurora, Alice e Chiara, Diego, Luca, Elisa e Matteo, Giulia, Marco, Sofia, Paolo. Due cartellini portano due nomi. Sotto, tre colonne alte intestate lui, lei e loro, con sei righe tratteggiate ciascuna. Il bambino legge un cartellino per volta e riscrive il nome nella colonna della parola che si userebbe al suo posto. Cinque nomi finiscono sotto lui, tre sotto lei, due sotto loro.",
+   "p2": "Smistare è un'operazione diversa dallo scegliere: il bambino non risponde a una domanda per volta ma costruisce tre insiemi, e alla fine vede sulla pagina la ripartizione completa. Riscrivere il nome invece di cerchiarlo aggiunge un esercizio di copia e obbliga a riprendere il cartellino, quindi a leggere due volte. Le tre colonne hanno tutte sei righe, ma solo una arriva a cinque nomi: le colonne non si riempiono allo stesso modo, e anche questo è un dato da leggere.",
+   "p3": "Si può ritagliare il riquadro dei cartellini e farne una vera attività di smistamento sul banco, incollando poi i pezzi nelle colonne. È la scheda più adatta al lavoro di gruppo della famiglia, perché la discussione su un cartellino singolo è breve. Chi la trova facile passa alla scheda che chiede di riscrivere una frase intera sostituendo il nome.",
+   "canonicalDeckSlug": "pronomi-personali-soggetto-g1372",
+   "carousel": [
+    {
+     "label": "I pronomi personali soggetto: lui, lei o loro",
+     "href": "pronomi-personali-soggetto"
+    },
+    {
+     "label": "Sostituisci il nome con un pronome nella seconda frase",
+     "href": "sostituisci-il-nome-con-un-pronome"
+    },
+    {
+     "label": "Chi è? Il pronome nella frase, da collegare al nome",
+     "href": "chi-e-il-pronome-nella-frase"
+    },
+    {
+     "label": "Suo, sua o loro? Il possessivo va d'accordo con la cosa",
+     "href": "suo-sua-o-loro-i-possessivi"
+    }
+   ],
+   "title": "Ordina i nomi: lui, lei o loro – Classe prima PDF gratis",
+   "metaDescription": "Dieci cartellini con nomi e figure da smistare in tre colonne intestate lui, lei e loro, scrivendo ogni nome sulla riga giusta. Classe prima, PDF gratis."
+  },
+  {
+   "slug": "riscrivi-la-frase-con-un-pronome",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-rewrite-the-sentence-with-a-pronoun",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda i pronomi personali · classe seconda",
+   "h1": "Riscrivi la frase intera usando un pronome",
+   "strand": "Riflessione linguistica",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronomi-personali-soggetto",
+    "classe-seconda"
+   ],
+   "p1": "Otto frasi brevi, una per corsia, ciascuna con la figura del protagonista a sinistra e, sotto la frase, tre righe di scrittura con la riga di mezzo tratteggiata. Matteo va in bicicletta. Simone e Aurora saltano con la corda. Elisa e Chiara mangiano una mela. Luca e Marco giocano con la palla. Diego va al parco. Alice porta fuori il cane. Paolo dipinge un quadro. Giulia costruisce una torre. Non c'è nessun riquadro di parole e nessuna casella: si riscrive tutto.",
+   "p2": "Ricopiare la frase per intero è la parte faticosa e anche il motivo per cui questa scheda chiude la famiglia. Il bambino deve tenere insieme tre cose: scegliere il pronome, scriverlo con la maiuscola perché apre la frase, e trascrivere senza errori il resto, verbo e complemento. Quattro frasi hanno un soggetto singolare e quattro una coppia, quindi il verbo cambia e va copiato con attenzione: vanno, saltano, mangiano, giocano restano al plurale.",
+   "p3": "È la scheda della famiglia che si incolla sul quaderno, perché produce otto frasi scritte per esteso. Chi ha bisogno di un appoggio può tenere accanto la scheda con le tre pillole, dove il pronome si cerchia. Le figure sono ritratti di mestieri e non illustrano l'azione della frase: servono solo a indicare il genere, e conviene dirlo per evitare che i bambini le studino.",
+   "canonicalDeckSlug": "pronomi-personali-soggetto-g2355",
+   "carousel": [
+    {
+     "label": "I pronomi personali soggetto: lui, lei o loro",
+     "href": "pronomi-personali-soggetto"
+    },
+    {
+     "label": "Sostituisci il nome con un pronome nella seconda frase",
+     "href": "sostituisci-il-nome-con-un-pronome"
+    },
+    {
+     "label": "Chi è? Il pronome nella frase, da collegare al nome",
+     "href": "chi-e-il-pronome-nella-frase"
+    },
+    {
+     "label": "Suo, sua o loro? Il possessivo va d'accordo con la cosa",
+     "href": "suo-sua-o-loro-i-possessivi"
+    }
+   ],
+   "title": "Riscrivi la frase con un pronome – Seconda PDF gratis",
+   "metaDescription": "Otto frasi con il nome e, sotto ciascuna, tre righe per riscriverla per intero sostituendo il nome con Lui, Lei o Loro. Classe seconda, PDF gratis."
+  },
+  {
+   "slug": "collega-la-domanda-alla-risposta",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-match-the-question-to-the-answer",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda le domande della frase · classe prima",
+   "h1": "Collega ogni domanda alla sua risposta",
+   "strand": "Riflessione linguistica",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "le-domande-della-frase",
+    "classe-prima"
+   ],
+   "p1": "Due colonne. A sinistra cinque riquadri con una domanda ciascuno: quanti oranghi trova Aurora, che cosa disegna Simone, dove legge Elisa, chi vuole l'elefante, quando dorme Paolo. A destra cinque risposte, ognuna con un'immagine e la parola scritta: un divano con sul divano, un orango con una pastiglia che porta il numero cinque e la parola cinque, un palloncino, un orologio che segna le tre con alle tre, e la figura di una bambina con il nome Chiara. Si unisce con una linea.",
+   "p2": "Le cinque domande usano cinque parole interrogative diverse, quindi ogni risposta appartiene a un tipo diverso di informazione: una persona, una cosa, un luogo, un momento, una quantità. Il bambino non ha bisogno di leggere tutta la domanda per orientarsi, gli basta la prima parola, e questo è precisamente il riconoscimento che la scheda allena. Nessuna domanda è allineata in orizzontale alla propria risposta, perciò tutte e cinque le linee attraversano la pagina.",
+   "p3": "La risposta alla domanda sulla quantità mostra un solo animale con accanto una pastiglia con il numero cinque: la quantità sta nel numero, non nel disegno, e conviene dirlo perché i bambini istintivamente contano le figure. L'orologio è analogico e segna un'ora intera. È la scheda della famiglia che si legge più in fretta, buona come apertura della lezione.",
+   "canonicalDeckSlug": "le-domande-della-frase-g1373",
+   "carousel": [
+    {
+     "label": "Le domande della frase: chi, che cosa, dove",
+     "href": "le-domande-della-frase-chi-che-cosa-dove"
+    },
+    {
+     "label": "Completa la domanda con la parola del riquadro",
+     "href": "completa-la-domanda-con-la-parola-giusta"
+    },
+    {
+     "label": "Chi, che cosa o dove? Ordina nove cartellini",
+     "href": "chi-che-cosa-o-dove-ordina-le-risposte"
+    },
+    {
+     "label": "Scrivi la domanda che chiede la parte evidenziata",
+     "href": "scrivi-la-domanda"
+    }
+   ],
+   "title": "Collega la domanda alla risposta – Classe prima PDF gratis",
+   "metaDescription": "Cinque domande a sinistra, Quanti, Che cosa, Dove, Chi e Quando, e cinque risposte a destra con disegno, numero e orologio, da unire con una linea."
+  },
+  {
+   "slug": "completa-la-domanda-con-la-parola-giusta",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-fill-in-the-question-word",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda le domande della frase · classe prima",
+   "h1": "Completa la domanda con la parola del riquadro",
+   "strand": "Riflessione linguistica",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "le-domande-della-frase",
+    "classe-prima"
+   ],
+   "p1": "Cinque parole interrogative stanno dentro un riquadro tratteggiato in cima alla pagina: Dove, Chi, Quando, Quanti, Che cosa. Sotto, sei corsie; ognuna comincia con una casella vuota seguita dal resto della domanda, e sotto la domanda c'è la risposta con la parte evidenziata. ... è in garage, e sotto Aurora è in garage. ... vuole Diego, e sotto Diego vuole l'orango. ... galli vede Giulia, e sotto Giulia vede cinque galli. Il bambino scrive nella casella la parola che apre la domanda giusta.",
+   "p2": "Il compito è l'inverso di quello della scheda base: lì si sceglieva la domanda fra tre pillole, qui si scrive fra cinque parole, e due di esse, quando e quanti, non comparivano affatto nella scheda base. La frase di risposta con l'evidenziazione funziona da chiave, e senza di essa alcune domande resterebbero ambigue, perché in italiano Chi vuole Diego e Che cosa vuole Diego sono entrambe frasi possibili. Tutte e cinque le parole del riquadro vengono usate.",
+   "p3": "Proprio per quell'ambiguità conviene insistere sul fatto che la parola da guardare è quella evidenziata, non l'intera frase. Una riga chiede Che cosa per il nome di un animale, e chi risponde Chi sta applicando la regola che si insegna in molte classi: è un'osservazione da accogliere. Si usa dopo la scheda base e prima di quella in cui la domanda si scrive per intero.",
+   "canonicalDeckSlug": "le-domande-della-frase-g1374",
+   "carousel": [
+    {
+     "label": "Le domande della frase: chi, che cosa, dove",
+     "href": "le-domande-della-frase-chi-che-cosa-dove"
+    },
+    {
+     "label": "Collega ogni domanda alla sua risposta",
+     "href": "collega-la-domanda-alla-risposta"
+    },
+    {
+     "label": "Chi, che cosa o dove? Ordina nove cartellini",
+     "href": "chi-che-cosa-o-dove-ordina-le-risposte"
+    },
+    {
+     "label": "Scrivi la domanda che chiede la parte evidenziata",
+     "href": "scrivi-la-domanda"
+    }
+   ],
+   "title": "Completa la domanda – Chi, dove, quando, quanti PDF gratis",
+   "metaDescription": "Sei domande incomplete e la risposta sotto con la parte evidenziata: si scrive nella casella Dove, Chi, Quando, Quanti o Che cosa. Classe prima, PDF gratis."
+  },
+  {
+   "slug": "chi-che-cosa-o-dove-ordina-le-risposte",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-sort-the-answers-who-what-or-where",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda le domande della frase · classe prima",
+   "h1": "Chi, che cosa o dove? Ordina nove cartellini",
+   "strand": "Riflessione linguistica",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "le-domande-della-frase",
+    "classe-prima"
+   ],
+   "p1": "Nove cartellini dentro un riquadro in alto: Alice, in giardino, maiale, renna, a casa, Matteo, in piscina, gabbiano, Aurora. Sotto, tre colonne alte intestate Chi?, Che cosa? e Dove?, con otto righe tratteggiate ciascuna. Nessuna frase e nessun disegno: ci sono soltanto risposte staccate, e il bambino deve riconoscere a quale domanda ciascuna risponderebbe e riscriverla nella colonna giusta. La ripartizione prevista è di tre cartellini per colonna.",
+   "p2": "Questa è la faccia astratta della famiglia, perché il contesto sparisce: altrove la parte da interrogare era dentro una frase, qui è sola. Il bambino deve riconoscere il tipo di un'espressione, un nome di persona, un nome di cosa, un complemento di luogo introdotto da una preposizione, e classificarla. I tre cartellini di luogo cominciano tutti con una preposizione, in o a, e questa regolarità è l'indizio più affidabile della pagina.",
+   "p3": "Attenzione ai tre cartellini maiale, renna e gabbiano: la scheda li colloca sotto Che cosa, mentre nella grammatica che si insegna in molte classi italiane chi vale per le persone e per gli animali. Se i bambini li mettono sotto Chi, stanno seguendo una regola che hanno imparato, e conviene decidere insieme quale convenzione si adotta prima di distribuire il foglio. Le colonne hanno più righe dei cartellini.",
+   "canonicalDeckSlug": "le-domande-della-frase-g1375",
+   "carousel": [
+    {
+     "label": "Le domande della frase: chi, che cosa, dove",
+     "href": "le-domande-della-frase-chi-che-cosa-dove"
+    },
+    {
+     "label": "Collega ogni domanda alla sua risposta",
+     "href": "collega-la-domanda-alla-risposta"
+    },
+    {
+     "label": "Completa la domanda con la parola del riquadro",
+     "href": "completa-la-domanda-con-la-parola-giusta"
+    },
+    {
+     "label": "Scrivi la domanda che chiede la parte evidenziata",
+     "href": "scrivi-la-domanda"
+    }
+   ],
+   "title": "Chi, che cosa o dove: ordina le risposte – Prima PDF gratis",
+   "metaDescription": "Nove cartellini, Alice, in giardino, maiale, renna, a casa, Matteo, in piscina, gabbiano, Aurora, da smistare sotto Chi, Che cosa e Dove. PDF gratis."
+  },
+  {
+   "slug": "scrivi-la-domanda",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-write-the-question",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda le domande della frase · classe seconda",
+   "h1": "Scrivi la domanda che chiede la parte evidenziata",
+   "strand": "Riflessione linguistica",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "le-domande-della-frase",
+    "classe-seconda"
+   ],
+   "p1": "Otto corsie numerate; in ognuna una frase affermativa con una parte evidenziata in arancione e, sotto, tre righe di scrittura con la riga di mezzo tratteggiata. Paolo mangia alle sette, con il nome evidenziato. Matteo gioca al parco giochi. Sofia trova tre bradipi. Marco vede tre secchielli, con il numero evidenziato. Chiara è in cucina. Aurora dorme alle due. Simone disegna la bambola. Giulia vuole il trattore. Non c'è nessun riquadro: la domanda si scrive tutta.",
+   "p2": "È la scheda più esigente della famiglia, perché produrre una domanda richiede tre operazioni insieme: scegliere la parola interrogativa, riordinare il soggetto dopo il verbo e chiudere con il punto interrogativo. Le otto frasi coprono cinque tipi di informazione, persona, cosa, luogo, tempo e quantità, quindi la scelta della parola iniziale non è mai automatica. La frase affermativa resta sotto gli occhi e fornisce tutti i pezzi lessicali: quello che manca è la struttura interrogativa.",
+   "p3": "Una riga, quella di Chiara in cucina, porta a scrivere Dov'è Chiara, con l'apostrofo, ed è l'unica domanda elisa del foglio: vale la pena affrontarla insieme. Poiché le frasi contengono a volte più di un elemento interrogabile, la parte evidenziata è vincolante e va ricordato. È la scheda che chiude la famiglia insieme a quella sul perché e il come.",
+   "canonicalDeckSlug": "le-domande-della-frase-g2356",
+   "carousel": [
+    {
+     "label": "Le domande della frase: chi, che cosa, dove",
+     "href": "le-domande-della-frase-chi-che-cosa-dove"
+    },
+    {
+     "label": "Collega ogni domanda alla sua risposta",
+     "href": "collega-la-domanda-alla-risposta"
+    },
+    {
+     "label": "Completa la domanda con la parola del riquadro",
+     "href": "completa-la-domanda-con-la-parola-giusta"
+    },
+    {
+     "label": "Chi, che cosa o dove? Ordina nove cartellini",
+     "href": "chi-che-cosa-o-dove-ordina-le-risposte"
+    }
+   ],
+   "title": "Scrivi la domanda – Classe seconda da stampare PDF gratis",
+   "metaDescription": "Otto risposte con una parte evidenziata e, sotto ciascuna, tre righe per scrivere la domanda per intero. Nessun riquadro di parole. Classe seconda, PDF gratis."
+  },
+  {
+   "slug": "domande-sull-immagine-perche-e-come",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-ask-about-the-picture-why-and-how",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda le domande della frase · classe seconda",
+   "h1": "Sei domande da inventare, fino a perché e come",
+   "strand": "Riflessione linguistica",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "le-domande-della-frase",
+    "classe-seconda"
+   ],
+   "p1": "In alto, una fascia con quattro carte: un operaio con il caschetto, un pinguino, una casa e un orologio che segna le nove. Sotto, un riquadro con sei righe di scrittura, e all'inizio di ciascuna una parola già stampata in grigio chiaro: Chi, Che cosa, Dove, Quando, Perché, Come. Il bambino continua ciascuna riga inventando una domanda che parta da quella parola e riguardi quello che vede in alto. Non c'è nessuna risposta attesa e nessuna casella da cerchiare.",
+   "p2": "È l'unica pagina della famiglia in cui il bambino produce e non riconosce, ed è anche l'unica che arriva fino a perché e come, le due domande che non si rispondono indicando un pezzo di frase ma richiedono una causa o un modo. Per la classe seconda formulare una domanda è un obiettivo di riflessione linguistica a pieno titolo: bisogna decidere che cosa si vuole sapere prima di scrivere, e il punto interrogativo finale va messo.",
+   "p3": "Due cose da sapere prima di distribuirla. Le quattro carte in alto non compongono una scena ma sono soggetti separati, quindi la domanda va riferita a una carta per volta. E il titolo nomina perché e come mentre le parole stampate sulle righe sono sei: le prime quattro sono un ripasso e le ultime due sono la novità. Funziona bene a voce prima che per iscritto.",
+   "canonicalDeckSlug": "le-domande-della-frase-g2357",
+   "carousel": [
+    {
+     "label": "Le domande della frase: chi, che cosa, dove",
+     "href": "le-domande-della-frase-chi-che-cosa-dove"
+    },
+    {
+     "label": "Collega ogni domanda alla sua risposta",
+     "href": "collega-la-domanda-alla-risposta"
+    },
+    {
+     "label": "Completa la domanda con la parola del riquadro",
+     "href": "completa-la-domanda-con-la-parola-giusta"
+    },
+    {
+     "label": "Chi, che cosa o dove? Ordina nove cartellini",
+     "href": "chi-che-cosa-o-dove-ordina-le-risposte"
+    }
+   ],
+   "title": "Domande sull'immagine: perché e come – Seconda PDF gratis",
+   "metaDescription": "Quattro disegni in alto e sei righe che cominciano con Chi, Che cosa, Dove, Quando, Perché e Come: il bambino completa ogni domanda a modo suo. PDF gratis."
+  },
+  {
+   "slug": "arrotondare-per-eccesso-o-per-difetto",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-up-or-down-sort-the-numbers",
+    "theme": "",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda arrotondare i numeri · classe terza",
+   "h1": "Per eccesso o per difetto? Smista dodici numeri",
+   "strand": "Numeri (Indicazioni nazionali)",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "arrotondare-i-numeri",
+    "classe-terza"
+   ],
+   "p1": "Due contenitori grandi dal bordo tratteggiato occupano la metà bassa della pagina, intestati per difetto con la freccia in giù e per eccesso con la freccia in su, con nove caselle ciascuno. Sopra di essi, dodici numeri dentro altrettanti cerchi bianchi disposti su due file: nel foglio mostrato 481, 52, 329, 418, 85, 65, 549, 647, 426, 24, 72 e 13, metà a due cifre e metà a tre. Il numero si riscrive dentro il contenitore giusto così com'è, senza arrotondarlo, e in cima resta la solita striscia della regola.",
+   "p2": "Questa scheda isola la decisione e lascia fuori il calcolo: non si scrive a quanto arrotonda il numero, si dice soltanto in che direzione va. È un'economia didattica importante, perché il punto difficile dell'arrotondamento è proprio la direzione, e il risultato è poi un passo meccanico. Smistare invece di completare fa vedere alla fine due gruppi di numeri e permette una domanda in più: che cosa hanno in comune tutti quelli finiti a destra.",
+   "p3": "I dodici numeri non si dividono a metà fra i due contenitori, e le caselle sono più numerose dei numeri, quindi entrambi i contenitori resteranno parzialmente vuoti: è normale e va detto. Rispetto alla scheda base il compito è più corto e più concentrato, quindi funziona bene come verifica rapida o come recupero per chi sbaglia la direzione invece della cifra.",
+   "canonicalDeckSlug": "arrotondare-i-numeri-g3387",
+   "carousel": [
+    {
+     "label": "Arrotondare alla decina: guarda la cifra delle unità",
+     "href": "arrotondare-i-numeri-alla-decina"
+    },
+    {
+     "label": "Arrotondare al centinaio: guarda la cifra delle decine",
+     "href": "arrotondare-i-numeri-al-centinaio"
+    },
+    {
+     "label": "Arrotonda i due numeri e stima la somma",
+     "href": "arrotondare-e-stimare-la-somma"
+    },
+    {
+     "label": "Quali numeri si arrotondano a 50? Cerchiali tutti",
+     "href": "quali-numeri-si-arrotondano-a-50"
+    }
+   ],
+   "title": "Arrotondare per eccesso o per difetto – Terza PDF gratis",
+   "metaDescription": "Dodici numeri in cerchio da smistare in due contenitori, per difetto e per eccesso, senza scrivere il risultato dell'arrotondamento. Classe terza, PDF gratis."
+  },
+  {
+   "slug": "arrotondare-i-numeri-al-centinaio",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-to-the-nearest-100",
+    "theme": "",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda arrotondare i numeri · classe terza",
+   "h1": "Arrotondare al centinaio: guarda la cifra delle decine",
+   "strand": "Numeri (Indicazioni nazionali)",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "arrotondare-i-numeri",
+    "classe-terza"
+   ],
+   "p1": "L'esempio in alto cambia rispetto alla scheda della decina: 472 diventa 500, e la cifra colorata in arancione è il 7, cioè quella delle decine. Sotto, quattordici numeri di tre cifre su due colonne, da 236 a 874, ognuno con il segno di approssimazione e una casella tratteggiata. Tutti i numeri della pagina hanno tre cifre, e la consegna dice espressamente dove guardare: la cifra delle decine, non quella delle unità.",
+   "p2": "È il salto che rende difficile l'arrotondamento: la regola è identica, ma la cifra da guardare si sposta di un posto e le unità diventano irrilevanti. Un bambino che ha appena imparato a guardare l'ultima cifra deve disimparare quel gesto, ed è qui che si concentra l'errore. L'esempio in alto è costruito apposta perché 472 finisce per 2, una cifra che farebbe scendere, mentre il 7 delle decine fa salire: chi guarda il posto sbagliato ottiene il risultato sbagliato.",
+   "p3": "Conviene far dire a voce, prima di scrivere, qual è la cifra delle decine di ciascun numero, oppure farla sottolineare a matita: due secondi che eliminano quasi tutti gli errori. Qualche numero finisce con cinquanta e sta esattamente a metà fra due centinaia. Rispetto alla scheda che chiede due arrotondamenti dello stesso numero, qui la risposta è una sola per riga e la colonna è una.",
+   "canonicalDeckSlug": "arrotondare-i-numeri-g3388",
+   "carousel": [
+    {
+     "label": "Arrotondare alla decina: guarda la cifra delle unità",
+     "href": "arrotondare-i-numeri-alla-decina"
+    },
+    {
+     "label": "Per eccesso o per difetto? Smista dodici numeri",
+     "href": "arrotondare-per-eccesso-o-per-difetto"
+    },
+    {
+     "label": "Arrotonda i due numeri e stima la somma",
+     "href": "arrotondare-e-stimare-la-somma"
+    },
+    {
+     "label": "Quali numeri si arrotondano a 50? Cerchiali tutti",
+     "href": "quali-numeri-si-arrotondano-a-50"
+    }
+   ],
+   "title": "Arrotondare i numeri al centinaio – Terza PDF gratis",
+   "metaDescription": "Quattordici numeri a tre cifre da arrotondare al centinaio, con l'esempio 472 verso 500 e la regola delle cifre da 0 a 4 e da 5 a 9. Classe terza, PDF gratis."
+  },
+  {
+   "slug": "arrotondare-e-stimare-la-somma",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "round-then-estimate-the-sum",
+    "theme": "",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda arrotondare i numeri · classe terza",
+   "h1": "Arrotonda i due numeri e stima la somma",
+   "strand": "Numeri (Indicazioni nazionali)",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "arrotondare-i-numeri",
+    "classe-terza"
+   ],
+   "p1": "Tre caselle per riga, ventiquattro in tutto. Ogni riga comincia con un'addizione fra due numeri di due cifre, poi viene il segno di approssimazione, poi due caselle unite dal più e infine una terza casella dopo l'uguale: 12 più 51, 29 più 14, 59 più 19, 31 più 32, 35 più 28, 15 più 36, 38 più 52, 63 più 27. In cima, un esempio già svolto mostra tutta la catena, 23 più 48 che diventa 20 più 50 uguale 70, accanto alla striscia con le dieci cifre.",
+   "p2": "Qui l'arrotondamento smette di essere un esercizio su sé stesso e diventa uno strumento: serve a ottenere in fretta un numero vicino alla risposta vera. È il senso della stima, e in classe terza è la competenza che permette di accorgersi quando il risultato di un'operazione scritta è assurdo. Le somme arrotondate restano entro il cento e sono tutte decine tonde, quindi l'ultima addizione si fa a mente anche da chi non è ancora sicuro con i numeri a due cifre.",
+   "p3": "Vale la pena calcolare dopo, con la calcolatrice o in colonna, una o due somme vere e confrontarle con la stima: la differenza è sempre piccola, e vedere quanto piccola è ciò che convince. La sequenza delle tre caselle va rispettata, prima i due arrotondamenti e poi la somma, perché chi somma prima e arrotonda dopo ottiene talvolta un numero diverso.",
+   "canonicalDeckSlug": "arrotondare-i-numeri-g3389",
+   "carousel": [
+    {
+     "label": "Arrotondare alla decina: guarda la cifra delle unità",
+     "href": "arrotondare-i-numeri-alla-decina"
+    },
+    {
+     "label": "Per eccesso o per difetto? Smista dodici numeri",
+     "href": "arrotondare-per-eccesso-o-per-difetto"
+    },
+    {
+     "label": "Arrotondare al centinaio: guarda la cifra delle decine",
+     "href": "arrotondare-i-numeri-al-centinaio"
+    },
+    {
+     "label": "Quali numeri si arrotondano a 50? Cerchiali tutti",
+     "href": "quali-numeri-si-arrotondano-a-50"
+    }
+   ],
+   "title": "Arrotondare e stimare la somma – Classe terza PDF gratis",
+   "metaDescription": "Otto addizioni a due cifre: si arrotondano i due addendi alla decina, si scrivono nelle caselle e si somma. Esempio 23 più 48 verso 20 più 50. PDF gratis."
+  },
+  {
+   "slug": "quali-numeri-si-arrotondano-a-50",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "which-numbers-round-to-50",
+    "theme": "",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda arrotondare i numeri · classe terza",
+   "h1": "Quali numeri si arrotondano a 50? Cerchiali tutti",
+   "strand": "Numeri (Indicazioni nazionali)",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "arrotondare-i-numeri",
+    "classe-terza"
+   ],
+   "p1": "Sedici numeri dentro pillole bianche, disposti su quattro file leggermente sfalsate: 31, 46, 36, 55, 49, 44, 63, 51, 47, 45, 35, 58, 52, 64, 57 e 32. Sopra di loro, una pastiglia arancione porta il bersaglio, il segno di approssimazione seguito da 50, e più in alto ancora resta la striscia della regola con il suo esempio. Il bambino cerchia ogni numero che arrotondato alla decina dà proprio il bersaglio. Le risposte giuste sono sei e stanno tutte fra 45 e 54.",
+   "p2": "È l'unica scheda della famiglia che gira la domanda al contrario: non si parte dal numero per trovare la decina, si parte dalla decina per trovare i numeri. Questo rovesciamento fa capire che un arrotondamento raccoglie un intervallo, e non un numero solo, e che quell'intervallo è largo dieci e non è centrato dove ci si aspetterebbe: comincia a 45 e finisce a 54. È un modo veloce per far vedere l'effetto della convenzione sul cinque.",
+   "p3": "Le pillole comprendono due vicini molto insidiosi, 44 e 55, che stanno a un passo dal bersaglio e vanno lasciati fuori: sono lì apposta e sono il punto in cui fermarsi a ragionare. L'esempio in alto usa una decina diversa da quella del bersaglio, quindi non suggerisce nessuna risposta. Si fa dopo la scheda base, e si può ripetere scrivendo a mano un altro bersaglio.",
+   "canonicalDeckSlug": "arrotondare-i-numeri-g3390",
+   "carousel": [
+    {
+     "label": "Arrotondare alla decina: guarda la cifra delle unità",
+     "href": "arrotondare-i-numeri-alla-decina"
+    },
+    {
+     "label": "Per eccesso o per difetto? Smista dodici numeri",
+     "href": "arrotondare-per-eccesso-o-per-difetto"
+    },
+    {
+     "label": "Arrotondare al centinaio: guarda la cifra delle decine",
+     "href": "arrotondare-i-numeri-al-centinaio"
+    },
+    {
+     "label": "Arrotonda i due numeri e stima la somma",
+     "href": "arrotondare-e-stimare-la-somma"
+    }
+   ],
+   "title": "Quali numeri si arrotondano a 50 – Terza PDF gratis",
+   "metaDescription": "Sedici numeri fra 30 e 69 e una decina bersaglio in alto: si cerchia ogni numero che arrotonda a quella decina. Sei sono giusti. Classe terza, PDF gratis."
+  },
+  {
+   "slug": "arrotondare-alla-decina-e-al-centinaio",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-to-the-nearest-10-and-100",
+    "theme": "",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda arrotondare i numeri · classe terza",
+   "h1": "Lo stesso numero arrotondato due volte",
+   "strand": "Numeri (Indicazioni nazionali)",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "arrotondare-i-numeri",
+    "classe-terza"
+   ],
+   "p1": "Il riquadro della regola qui è doppio: la pastiglia 10 mostra 472 che diventa 470 con il 2 in arancione, e la pastiglia 100 mostra lo stesso 472 che diventa 500 con il 7 in arancione. Sotto, due intestazioni, decina e centinaio, e otto righe con un numero di tre cifre seguito da due caselle tratteggiate. Nel foglio mostrato i numeri sono 159, 494, 791, 305, 353, 535, 567 e 556. Sedici caselle, due per numero.",
+   "p2": "Mettere le due approssimazioni sulla stessa riga è tutto il senso della pagina: lo stesso numero cambia risultato a seconda della cifra che si guarda, e il confronto è immediato perché le due caselle sono affiancate. In tre delle otto righe le due risposte vanno in direzioni opposte, il numero sale alla decina e scende al centinaio: 305 diventa 310 e 300, 353 diventa 350 e 400. Sono le righe che smontano l'idea che arrotondare sia un gesto unico.",
+   "p3": "Da svolgere una colonna per volta, prima tutte le decine e poi tutti i centinai, oppure riga per riga se si vuole che il confronto salti agli occhi subito: la seconda strada è più interessante e più difficile. È la scheda che chiude la famiglia e presuppone sia quella alla decina sia quella al centinaio. Chi confonde ancora la cifra da guardare torni a quella al centinaio.",
+   "canonicalDeckSlug": "arrotondare-i-numeri-g3391",
+   "carousel": [
+    {
+     "label": "Arrotondare alla decina: guarda la cifra delle unità",
+     "href": "arrotondare-i-numeri-alla-decina"
+    },
+    {
+     "label": "Per eccesso o per difetto? Smista dodici numeri",
+     "href": "arrotondare-per-eccesso-o-per-difetto"
+    },
+    {
+     "label": "Arrotondare al centinaio: guarda la cifra delle decine",
+     "href": "arrotondare-i-numeri-al-centinaio"
+    },
+    {
+     "label": "Arrotonda i due numeri e stima la somma",
+     "href": "arrotondare-e-stimare-la-somma"
+    }
+   ],
+   "title": "Arrotondare alla decina e al centinaio – Terza PDF gratis",
+   "metaDescription": "Otto numeri a tre cifre e due caselle ciascuno, decina e centinaio: lo stesso numero arrotondato due volte, con i due risultati spesso in direzioni opposte."
   }
  ]
 }

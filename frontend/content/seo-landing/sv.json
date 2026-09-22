@@ -138295,6 +138295,2459 @@
    ],
    "title": "Hoppa bakåt på tallinjen: division med rest – åk 3 | skriva ut PDF gratis",
    "metaDescription": "Tre tallinjer med en prick vid 15, 22 och 10. Rita lika långa hopp bakåt tills ett helt hopp inte får plats, skriv hoppen och var du landar. Åk 3. Gratis PDF."
+  },
+  {
+   "slug": "tangram-klipp-ut-de-sju-bitarna",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "base",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad tangram",
+   "h1": "Tangram: klipp ut de sju bitarna och lägg två figurer",
+   "strand": "Geometri",
+   "standard": "K.G.B.6",
+   "slotTokens": [
+    "tangram",
+    "forskola"
+   ],
+   "p1": "Överst på arket ligger hela kvadraten med alla sju sömmar utritade, och en liten sax i hörnet visar var barnet ska klippa. Bredvid står fem färgrutor, inte sju: de två stora trianglarna delar en ruta och de två små delar en annan, eftersom bitar av samma slag ska få samma färg. Under kvadraten står två figurer i full storlek med sina sömmar tryckta – på det här bladet en katt och en rektangel, dragna ur en uppsättning på fem. Figurerna är ritade i exakt samma skala som kvadraten, så en utklippt bit passar rakt på sin plats.",
+   "p2": "Det här är den enda sidan i serien där barnet får bitarna i handen. Att färglägga före klippet är inte dekoration: när den stora triangeln är röd och den lilla gul blir det möjligt att prata om vilken bit som ligger var, och barnet upptäcker att två bitar kan ha samma form men olika storlek. Att lägga figuren linje för linje är ett stöd, inte fusk – det låter en sexåring lyckas med en sjubitsfigur redan första gången, och sömmarna kan täckas över senare. Lgr22 tar upp grundläggande geometriska objekt och hur de kan byggas ihop redan för de yngsta.",
+   "p3": "Skriv ut i färg på styvare papper, ett per barn, och låt dem spara bitarna i en kuvert- eller påsficka till nästa gång. Det här är grundsidan: alla andra sidor i serien förutsätter att barnet har en egen uppsättning bitar eller kan läsa dem på papper. Sidan rita linjerna tar två och tre bitar i taget, och sidan bygg fyra skuggbilder tar bort sömmarna helt.",
+   "canonicalDeckSlug": "tangram-k353",
+   "carousel": [
+    {
+     "label": "Lätta tangramfigurer av 2 och 3 bitar: rita linjerna",
+     "href": "tangramfigurer-2-och-3-bitar-rita-linjerna"
+    },
+    {
+     "label": "Tangram: bygg fyra skuggbilder",
+     "href": "tangram-bygg-fyra-skuggbilder"
+    },
+    {
+     "label": "Tangram: vilken bit saknas?",
+     "href": "tangram-vilken-bit-saknas"
+    },
+    {
+     "label": "Tangram: vilken lösning passar skuggbilden?",
+     "href": "tangram-vilken-losning-passar-skuggbilden"
+    }
+   ],
+   "title": "Tangram att klippa ut – två figurer | skriva ut PDF gratis",
+   "metaDescription": "En hel tangramkvadrat med alla sju sömmar, fem färgrutor och två figurer att lägga, linje för linje. Förskoleklass. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "kroppens-delar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "base",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad kroppens delar",
+   "h1": "Kroppens delar",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "kroppens-delar",
+    "forskola"
+   ],
+   "p1": "Mitt på sidan står en tecknad figur i helfigur, med hår, ansikte, händer och tår utritade. Sex orange ringar sitter på figuren och från varje ring går ett tunt streck ut till en skrivruta – tre på vänster sida, tre på höger. Varje ruta har två linjer med en prickad mittlinje emellan, alltså ett riktigt skrivstöd och inte bara ett streck. Överst ligger ordlistan med sex ord: öga, arm, hand, fot, armbåge och öra. Två av markörerna sitter på samma arm, den ena högre upp och den andra i armbågsvecket.",
+   "p2": "Det här är sidan där orden och kroppen möts för första gången. Att arm och armbåge sitter på samma lem är hela poängen: barnet kan inte gissa utifrån vilken kroppsdel det pekas på, utan måste avgöra hur nära markören ligger leden. Samma sak gäller öga och öra, som båda sitter på huvudet. Skrivraderna är tilltagna så att en sexåring får plats med versaler, och ordlistan gör att stavningen finns framför ögonen – uppgiften är att placera ordet rätt, inte att komma på det.",
+   "p3": "Skriv ut ett per barn. Den här sidan äger seriens grundfråga – vad heter delarna – och alla andra varianter bygger vidare på den. Låt barnen peka på sin egen kropp medan de skriver; det är snabbaste vägen till att armbågen hamnar rätt. Sidan skriv ordet ger samma figur med numrerade markörer och bokstavsrutor i stället för ordlista, och sidan färglägg efter färgrutorna byter skrivandet mot läsning: fem kort som vart och ett parar ett färgord med en kroppsdel.",
+   "canonicalDeckSlug": "kroppens-delar-k354",
+   "carousel": [
+    {
+     "label": "Kroppens delar: hur många har du?",
+     "href": "kroppens-delar-hur-manga-har-du"
+    },
+    {
+     "label": "Kroppens delar: färglägg efter färgrutorna",
+     "href": "kroppens-delar-farglagg-efter-fargrutorna"
+    },
+    {
+     "label": "Kroppens delar: skriv ordet, en bokstav i varje ruta",
+     "href": "kroppens-delar-skriv-ordet-i-bokstavsrutor"
+    },
+    {
+     "label": "Kroppens delar: vad saknas?",
+     "href": "kroppens-delar-vad-saknas"
+    }
+   ],
+   "title": "Kroppens delar – arbetsblad | skriva ut PDF gratis",
+   "metaDescription": "En helkroppsfigur med sex orange markörer och sex skrivrutor. Ordlistan uppe på sidan: öga, arm, hand, fot, armbåge, öra. Gratis PDF."
+  },
+  {
+   "slug": "vara-sinnen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "base",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad våra sinnen",
+   "h1": "Våra sinnen",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vara-sinnen",
+    "forskola"
+   ],
+   "p1": "Två spalter med fem kort i varje. Till vänster ligger saker att uppfatta – en lavendelkvist, månen, ett piano, en disksvamp och en chokladkaka – och till höger de kroppsdelar som gör jobbet: en hand, ett öra, en näsa, en tunga och ett öga. En liten orange punkt sitter vid varje kort, och barnet drar ett streck mellan punkterna. Ordningen är blandad, så inget par ligger mitt emot varandra, och alla tio korten är färgbilder utan ett enda tryckt ord.",
+   "p2": "Grundsidan i serien ställer frågan i sin enklaste form: vilken kroppsdel använder du för det här. Eftersom det inte står några ord alls kan sidan göras av barn som ännu inte läser, och samtalet blir muntligt – det är där lärandet ligger. Ett par är svårare än de andra: chokladen kan både luktas och smakas, och det är just den diskussionen som gör sidan värd att göra tillsammans i hela klassen. Att varje kroppsdel bara får ett streck tvingar fram ett val och stänger dörren för att svara både och.",
+   "p3": "Skriv ut i färg, ett per barn, och lägg linjalen åt sidan – frihandsstreck går fortare och ser bättre ut här. Det här är sidan som äger seriens namn, och alla andra varianter förutsätter att kopplingen bild till kroppsdel redan har diskuterats en gång. Sidan sortera efter sinne tar tio bilder i stället för fem, och sidan skriv ordet för sinnet lägger till de fem verben som ord.",
+   "canonicalDeckSlug": "vara-sinnen-k355",
+   "carousel": [
+    {
+     "label": "Våra sinnen: sortera efter sinne",
+     "href": "vara-sinnen-sortera-efter-sinne"
+    },
+    {
+     "label": "Våra sinnen: vilket sinne använder du?",
+     "href": "vilket-sinne-anvander-du"
+    },
+    {
+     "label": "Våra sinnen: vilken bild passar inte in?",
+     "href": "vara-sinnen-vilken-bild-passar-inte-in"
+    },
+    {
+     "label": "Sinnesorganen: skriv ordet för sinnet",
+     "href": "sinnesorganen-skriv-ordet"
+    }
+   ],
+   "title": "Våra sinnen – arbetsblad att para ihop | skriva ut PDF gratis",
+   "metaDescription": "Fem bilder till vänster och fem kroppsdelar till höger. Dra ett streck från lavendeln, månen, pianot, svampen och chokladen. Gratis PDF."
+  },
+  {
+   "slug": "vadersymboler",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "base",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad vädersymboler",
+   "h1": "Vädersymboler",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vadersymboler",
+    "forskola"
+   ],
+   "p1": "Sex runda symboler i en spalt till vänster, sex ordkort i en spalt till höger, och en orange punkt vid var och en att dra strecket mellan. Symbolerna är ett regnmoln med droppar, en sol med ansikte, en regnbåge, ett grått moln, ett åskmoln med en gul blixt och en snöflinga. Orden står i en annan ordning: åska, snö, moln, sol, regn och regnbåge. Ingenting är ifyllt och ingen symbol har något ord tryckt under sig.",
+   "p2": "Tre av de sex symbolerna är moln, och det är där sidan blir en riktig uppgift. Ett barn som läser regn måste se efter om det faller droppar ur molnet, och ett barn som läser åska måste hitta blixten. Sidan bygger alltså på detaljer i bilden och inte på färg. Symbolerna är de som används i svenska väderprognoser, vilket betyder att barnet efter den här sidan kan läsa en app eller en tidningssida på riktigt. Att orden står i blandad ordning stänger möjligheten att svara radvis uppifrån och ned.",
+   "p3": "Den här sidan äger seriens namn och är den enda där ord och symbol ska paras ihop utan att något ska skrivas. Skriv ut i färg; snöflingan är ljusblå mot vitt och försvinner nästan i gråskala. Häng gärna upp ett exemplar vid fönstret under veckan. Nästa sida i serien, skriv väderordet, tar bort orden ur raderna och sätter dit bokstavsrutor i stället.",
+   "canonicalDeckSlug": "vadersymboler-k356",
+   "carousel": [
+    {
+     "label": "Skriv väderordet i bokstavsrutor",
+     "href": "skriv-vaderordet-bokstavsrutor"
+    },
+    {
+     "label": "Väderdagbok från måndag till söndag",
+     "href": "vaderdagbok-mandag-till-sondag"
+    },
+    {
+     "label": "Hur varmt är det? Kallt, varmt eller hett",
+     "href": "hur-varmt-ar-det-kallt-varmt-hett"
+    },
+    {
+     "label": "Vattnets kretslopp: sätt ut namnen",
+     "href": "vattnets-kretslopp-satt-ut-namnen"
+    }
+   ],
+   "title": "Vädersymboler – para ihop bild och ord | skriva ut PDF gratis",
+   "metaDescription": "Sex vädersymboler och sex ord: åska, snö, moln, sol, regn, regnbåge. Dra ett streck från varje symbol till ordet. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "kallsortering",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "base",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad källsortering",
+   "h1": "Källsortering",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "kallsortering",
+    "forskola"
+   ],
+   "p1": "Åtta saker ligger på rad högst upp, var och en i sin lilla ruta med en orange punkt under sig: ett anteckningsblock, en konservburk, en morot, en limflaska, en majskolv, en röd glasflaska, ett papper med gem och en pumpflaska. Längst ned står fem tunnor med skylt över locket – Papper, Plast, Metall, Glas och Matavfall – och varje lock bär ett litet vitt tecken, utom pappersluckan som är helt slät. Mellan sakerna och tunnorna ligger en bred tom yta där strecken ska dras.",
+   "p2": "Instruktionen inleds med en mening som bär hela idén: allt är tomt eller slut. Utan den blir uppgiften obegriplig, för en full limflaska sorteras inte alls. Att två saker ska till papper, två till plast och två till matavfall betyder att ingen tunna får exakt lika många, så barnet kan inte fördela jämnt utan måste bedöma varje sak för sig. Tunnorna bär materialnamn och inte de namn som står på svenska återvinningsstationer, vilket är just det som gör att ett anteckningsblock kan läggas under Papper här.",
+   "p3": "Skriv ut i färg om ni kan. Locken är blått, orange, grått, grönt och brunt, och i svartvitt blir alla fem ungefär lika mörkgrå – då är de vita tecknen på locken det enda som skiljer dem åt, och Papper har inget tecken alls. Prata igenom vad som gäller hemma innan ni börjar, eftersom kommunerna skiljer sig. Sidan vilken tunna ställer samma fråga sak för sak med tunnorna att ringa in.",
+   "canonicalDeckSlug": "kallsortering-k357",
+   "carousel": [
+    {
+     "label": "Källsortering: vilken tunna?",
+     "href": "kallsortering-vilken-tunna"
+    },
+    {
+     "label": "Källsortering: vad är det gjort av?",
+     "href": "kallsortering-vad-ar-det-gjort-av"
+    },
+    {
+     "label": "Källsortering: vilken sak är gjord av annat material?",
+     "href": "kallsortering-vilken-sak-ar-av-annat-material"
+    },
+    {
+     "label": "Tre saker jag lämnar till återvinning",
+     "href": "tre-saker-jag-lamnar-till-atervinning"
+    }
+   ],
+   "title": "Källsortering – dra strecket till rätt tunna | skriva ut PDF gratis",
+   "metaDescription": "Åtta tomma förpackningar överst och fem tunnor nedtill: papper, plast, metall, glas och matavfall. Dra ett streck till rätt tunna."
+  },
+  {
+   "slug": "fyll-i-ratt-ord",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "base",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad fyll i rätt ord",
+   "h1": "Fyll i rätt ord",
+   "strand": "Ord och begrepp",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "fyll-i-ratt-ord",
+    "ak-1"
+   ],
+   "p1": "Ordlistan ligger överst i en streckad ram med sju ord: segelbåt, helikopter, uggla, pingvin, tupp, giraff och sebra. Under den står sju numrerade rader. Varje rad börjar med en bild, fortsätter med ordet En, en streckad lucka, och slutar med resten av meningen – har svarta och vita ränder, har en mycket lång hals, åker på magen över isen, gal tidigt på morgonen, seglar över sjön, sitter vaken i trädet på natten, har snurrande rotorblad högst upp. Varje ord används exakt en gång.",
+   "p2": "Meningarna beskriver alltid något som föremålet gör eller har, aldrig hur det ser ut, och det är vad som gör dem värda att läsa. Ett barn som ser bilden av en tupp vet svaret på en gång, men meningen ger det något extra: tuppen gal, och det ordet fastnar. Alla sju orden är en-ord, så den tryckta artikeln En stämmer överallt och barnet behöver aldrig fundera på en eller ett. Den lilla detaljen är inte självklar på svenska och är ett medvetet val i ordbanken.",
+   "p3": "Grundsidan i serien och den med mest stöd: bild, ordlista och en färdig mening runt luckan. Skriv ut ett per barn. Sju meningar tar ungefär en kvart och lämnar plats för högläsning efteråt. Meningarna dras ur en bank på sexton, så två utskrifter ger olika sidor. Sidan bokstavsrutor tar bort ordlistan, och sidan ringa in och skriv ger två ord att välja mellan i stället.",
+   "canonicalDeckSlug": "fyll-i-ratt-ord-g1350",
+   "carousel": [
+    {
+     "label": "Fyll i rätt ord: bokstavsrutor",
+     "href": "fyll-i-ratt-ord-bokstavsrutor"
+    },
+    {
+     "label": "Fyll i rätt ord: ringa in och skriv",
+     "href": "fyll-i-ratt-ord-ringa-in-och-skriv"
+    },
+    {
+     "label": "Fyll i rätt ord: fler än en",
+     "href": "fyll-i-ratt-ord-fler-an-en"
+    },
+    {
+     "label": "Fyll i orden i berättelsen",
+     "href": "fyll-i-orden-i-berattelsen"
+    }
+   ],
+   "title": "Fyll i rätt ord – sju meningar med ordlista – åk 1 | PDF gratis",
+   "metaDescription": "Sju meningar med en lucka och en ordlista med sju ord. Bilden bredvid meningen visar vilket ord som saknas. Åk 1. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "udda-och-jamna-tal-skriv-i-ratt-hus",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "base",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad udda och jämna tal",
+   "h1": "Udda och jämna tal: skriv i rätt hus",
+   "strand": "Taluppfattning och tals användning",
+   "slotTokens": [
+    "udda-och-jamna-tal",
+    "ak-1"
+   ],
+   "p1": "Nio runda talbrickor ligger på en remsa högst upp: 11, 10, 8, 5, 12, 14, 1, 13 och 19. Under dem står två hus sida vid sida, det vänstra med rosa tak och skylten udda, det högra med grönt tak och skylten jämnt. I det udda huset bor redan talet 3 med sina prickar ritade bredvid sig – två hela prickar och en ensam ring i orange – och i det jämna huset bor 6 och 4 med sina prickar parvis. Under de inflyttade talen har varje hus åtta streckade rutor att skriva i.",
+   "p2": "Bilden med prickarna är hela förklaringen, och den står bara inne i husen, aldrig vid en obesatt bricka. Ett barn som tittar på trean ser två hela par plus en ensam, och på sexan ser tre par utan rest; därifrån kan det avgöra de nio övriga själv. Den orange ringen betyder att pricken saknar par, och det tecknet behöver sägas en gång högt eftersom ingenting på arket förklarar det. Att husen har fler rutor än tal är avsiktligt: annars skulle rutorna avslöja hur många tal som är udda.",
+   "p3": "Räkna inte med att alla rutor ska bli fulla. Fem av talen är udda och fyra är jämna, men varje hus har åtta rutor, så sju rutor ska stå tomma när sidan är klar – det är inte ett tecken på att något har missats. Skriv ut ett per barn. Grundsidan i serien och den enda som använder bilden av par som förklaring; sidan skriv två lika stora delar låter barnet rita paren själv.",
+   "canonicalDeckSlug": "udda-och-jamna-tal-g1351",
+   "carousel": [
+    {
+     "label": "Udda eller jämnt? Skriv två lika stora delar",
+     "href": "udda-eller-jamnt-skriv-tva-lika-stora-delar"
+    },
+    {
+     "label": "Kan två kompisar dela lika? Djurparksdjur",
+     "href": "kan-tva-kompisar-dela-lika-djurparksdjur"
+    },
+    {
+     "label": "Udda och jämna tal upp till 100: titta på entalet",
+     "href": "udda-och-jamna-tal-upp-till-100-titta-pa-entalet"
+    },
+    {
+     "label": "Udda eller jämn summa? Avgör utan att räkna ut den",
+     "href": "udda-eller-jamn-summa-utan-att-rakna-ut-den"
+    }
+   ],
+   "title": "Udda och jämna tal – två hus att flytta in i – åk 1 | PDF gratis",
+   "metaDescription": "Nio tal på en remsa och två hus märkta udda och jämnt. Tre tal har redan flyttat in och visar sina par som prickar. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "pronomen-han-hon-eller-de",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "base",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad pronomen",
+   "h1": "Pronomen: han, hon eller de",
+   "strand": "Språkliga strukturer och normer",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronomen-han-hon-eller-de",
+    "ak-1"
+   ],
+   "p1": "Åtta rutor i två spalter. I varje ruta står en eller två personer i bild, namnet eller namnen på en skylt under bilden, och under skylten tre ovaler med orden han, hon och de. Namnen på det här bladet är Saga och Elsa, Maja, Leo, Nils och Hugo, Olle och Ida, Vera, Otto och Ivar. Tre av rutorna visar två personer och ska ringas med de; tre ska ha han och två hon. Ingenting skrivs, allt besvaras med en ring.",
+   "p2": "Grundsidan tar pronomenet i sin enklaste form, utan mening runt omkring: ett namn och ordet vi säger i stället. Att tre av åtta kort visar två personer är det som gör de till ett riktigt alternativ och inte bara ett tredje ord i raden; barnet ser två i bilden och hör pluralen. Sidan är samtidigt en påminnelse om att svenskan har fler pronomen än de tre som står här, och hen kommer att komma upp i ett svenskt klassrum – det är ett bra tillfälle att ta det.",
+   "p3": "Skriv ut i färg. Personerna är hämtade ur en bildsamling med yrken, så flera av korten visar vuxna i arbetskläder trots att namnen är vanliga barnnamn; nämn det innan barnen börjar så att de inte letar efter en koppling som inte finns. Sidan tar under tio minuter. Nästa steg i serien, byt ut namnet mot ett pronomen, sätter in samma ord i en mening.",
+   "canonicalDeckSlug": "pronomen-han-hon-eller-de-g1352",
+   "carousel": [
+    {
+     "label": "Byt ut namnet mot ett pronomen",
+     "href": "byt-ut-namnet-mot-ett-pronomen"
+    },
+    {
+     "label": "Vem är han? Pronomen i meningen",
+     "href": "vem-ar-han-pronomen-i-meningen"
+    },
+    {
+     "label": "Hans, hennes eller deras?",
+     "href": "hans-hennes-eller-deras"
+    },
+    {
+     "label": "Sortera namnen: han, hon eller de",
+     "href": "sortera-namnen-han-hon-eller-de"
+    }
+   ],
+   "title": "Pronomen han, hon eller de – åtta kort – åk 1 | PDF att skriva ut",
+   "metaDescription": "Åtta kort med en bild och ett namn. Ringa in ordet vi säger i stället för namnet: han, hon eller de. Åk 1. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "frageord-vem-vad-var",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "base",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad frågeord",
+   "h1": "Frågeord: vem, vad, var",
+   "strand": "Språkliga strukturer och normer",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "frageord",
+    "ak-1"
+   ],
+   "p1": "Sju numrerade rutor, var och en med en person i bild och en mening där en del är markerad med ljus korallton och understruken. Under meningen står tre ovaler: Vem, Vad och Var. Markeringen ligger ibland på ett namn – Elsa leker klockan sju – ibland på ett objekt som tuppen eller gamen, och ibland på en platsangivelse som på berget eller vid ån. Tre av svaren är Vad, två Vem och två Var.",
+   "p2": "Frågeordet bestäms av vilken sorts ord som är markerat, och det är den kopplingen som sidan bygger. På svenska går gränsen mellan vem och vad vid person: en tupp eller en sebra svarar på Vad, inte på Vem, hur levande de än är. Det är ett verkligt hinder för sexåringar och det är värt att ta upp högt. Platsuttrycken bär dessutom alltid en preposition, på berget och vid ån, vilket ger en synlig ledtråd till Var som inte finns för de andra två.",
+   "p3": "Grundsidan i serien och den enda som håller sig till tre frågeord. Skriv ut i färg – markeringen är sidans hela mekanik och blir svag i gråskala. En sak att titta efter i utskriften: markeringen har en liten marginal runt sig, så där den står sist i meningen hamnar punkten ett stycke från ordet. Sidan fyll i frågeordet vänder på uppgiften och låter barnet skriva ordet i stället.",
+   "canonicalDeckSlug": "frageord-g1353",
+   "carousel": [
+    {
+     "label": "Para ihop frågan med svaret",
+     "href": "para-ihop-fragan-med-svaret"
+    },
+    {
+     "label": "Fyll i frågeordet",
+     "href": "fyll-i-frageordet"
+    },
+    {
+     "label": "Sortera svaren: vem, vad eller var",
+     "href": "sortera-svaren-vem-vad-eller-var"
+    },
+    {
+     "label": "Ställ en fråga till svaret",
+     "href": "stall-en-fraga-skriv-fragan-till-svaret"
+    }
+   ],
+   "title": "Frågeord vem, vad, var – sju meningar – åk 1 | PDF att skriva ut",
+   "metaDescription": "Sju meningar där några ord är markerade i korall. Ringa in det frågeord som frågar efter dem: Vem, Vad eller Var. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "avrundning",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "base",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad avrundning",
+   "h1": "Avrundning till närmaste tiotal",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "avrundning",
+    "ak-2"
+   ],
+   "p1": "Nyckeln högst upp visar 47 med sjuan i korall och tecknet för ungefär före 50. Bredvid ligger sifferremsan: 0 till 4 med en pil nedåt och texten avrunda nedåt, 5 till 9 med en pil uppåt och texten avrunda uppåt, och sjuan inringad. Under nyckeln står fjorton numrerade uppgifter i två spalter, var och en med ett tal, tecknet för ungefär och en streckad ruta. Talen är 76, 79, 45, 633, 268, 267, 85, 53, 522, 54, 549, 67, 658 och 111.",
+   "p2": "Instruktionen ger regeln rakt ut – är entalet 5 eller mer avrundar du uppåt – och remsan visar den som en bild. Två av talen slutar på 5 och prövar alltså gränsen, och fyra av dem byter tiotal när de rundas uppåt, till exempel 549 som blir 550 och 658 som blir 660. Att siffrorna är tryckta stort och att rutan är den enda platsen att skriva på gör sidan lätt att rätta i helklass. Hälften av talen är tvåsiffriga och hälften tresiffriga, medvetet blandade.",
+   "p3": "Det här är grundsidan och den enda i serien som ger både regeln i ord och remsan i bild. Sju av de fjorton talen är tresiffriga, vilket ligger över det talområde en svensk årskurs 2 normalt arbetar i – vill ni hålla er inom hundra får ni välja ut de tvåsiffriga eller använda serien senare på året. Sidan uppåt eller nedåt sorterar talen utan att något ska skrivas om.",
+   "canonicalDeckSlug": "avrundning-g2346",
+   "carousel": [
+    {
+     "label": "Uppåt eller nedåt? Sortera talen",
+     "href": "uppat-eller-nedat-sortera-talen"
+    },
+    {
+     "label": "Avrundning till hundratal: skriv talet",
+     "href": "avrundning-till-hundratal-skriv-talet"
+    },
+    {
+     "label": "Avrunda först, gör sedan ett överslag",
+     "href": "avrunda-forst-gor-sedan-ett-overslag"
+    },
+    {
+     "label": "Vilka tal blir 50?",
+     "href": "vilka-tal-blir-50"
+    }
+   ],
+   "title": "Avrundning till närmaste tiotal – 14 tal – åk 2 | PDF gratis",
+   "metaDescription": "Fjorton tal att avrunda till närmaste tiotal, sju tvåsiffriga och sju tresiffriga. Nyckel med 47 som blir 50 och en sifferremsa. Åk 2."
+  },
+  {
+   "slug": "tangramfigurer-2-och-3-bitar-rita-linjerna",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-draw-the-lines-2-and-3-pieces",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad tangram",
+   "h1": "Lätta tangramfigurer av 2 och 3 bitar: rita linjerna",
+   "strand": "Geometri",
+   "standard": "K.G.B.6",
+   "slotTokens": [
+    "tangram",
+    "forskola"
+   ],
+   "p1": "Fyra rutor i två rader, och i varje ruta en enkel figur med tom insida. Ovanför figuren ligger de bitar den är byggd av, ritade små som en nyckel: ruta 1 och 2 visar tre bitar, ruta 3 och 4 visar två. Bitarna är alltså inte i samma skala som figuren, så barnet kan inte lägga pappret ovanpå och rita av – det måste tänka ut var sömmen går. Ingen bit är färgad och ingenting är ifyllt; det enda barnet lämnar efter sig är två eller tre streck per figur.",
+   "p2": "Att dela en figur i delar är svårare än att sätta ihop den, och därför börjar den här sidan vid två bitar. Ett barn som ser en stor triangel och en liten ovanför en femhörning måste fråga sig var den korta kanten kan sitta, och svaret finns i figurens egna hörn. Just den frågan – vilka delar bygger upp den här formen – återkommer hela vägen upp genom geometrin. Antalet bitar hålls medvetet lågt: fyra figurer, aldrig fler än tre delar, och varje figur får plats i sin egen ruta med god marginal.",
+   "p3": "Ett ark, fyra figurer, penna räcker. Sidan fungerar utan sax och utan en riktig tangramuppsättning, vilket gör den till den enklaste att ta med på en kort stund. Har barnet bitar i handen går det bra att låta dem pröva ovanpå innan de ritar. Efter den här sidan blir vilken bit saknas nästa steg, där sömmarna redan finns och en enda bit är borta.",
+   "canonicalDeckSlug": "tangram-k358",
+   "carousel": [
+    {
+     "label": "Tangram: klipp ut de sju bitarna och lägg två figurer",
+     "href": "tangram-klipp-ut-de-sju-bitarna"
+    },
+    {
+     "label": "Tangram: bygg fyra skuggbilder",
+     "href": "tangram-bygg-fyra-skuggbilder"
+    },
+    {
+     "label": "Tangram: vilken bit saknas?",
+     "href": "tangram-vilken-bit-saknas"
+    },
+    {
+     "label": "Tangram: vilken lösning passar skuggbilden?",
+     "href": "tangram-vilken-losning-passar-skuggbilden"
+    }
+   ],
+   "title": "Lätta tangramfigurer: rita linjerna – 2 och 3 bitar | skriva ut PDF",
+   "metaDescription": "Fyra små tangramfigurer, två av två bitar och två av tre. Bitarna visas ovanför varje figur och barnet ritar sömmarna inuti. Gratis PDF."
+  },
+  {
+   "slug": "tangram-bygg-fyra-skuggbilder",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-four-shadows-to-build",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad tangram",
+   "h1": "Tangram: bygg fyra skuggbilder",
+   "strand": "Geometri",
+   "standard": "1.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "ak-1"
+   ],
+   "p1": "Inga hjälplinjer alls på den här sidan. Fyra rutor bär var sin helt mörk silhuett, tryckt i mörkgrönt utan en enda söm, och barnet ska återskapa konturen med alla sju bitarna i sitt tangram. På det här bladet är figurerna en katt, en stor spetsig form med en lång snedkant, en liggande rektangel och en kvadrat; de dras ur en uppsättning på sex. Rektangeln och kvadraten ser lätta ut och är det inte: det finns bara ett sätt att få de sju bitarna att fylla dem utan glapp.",
+   "p2": "Steget från grundsidan är att stödet försvinner. Där låg sömmarna tryckta och barnet placerade en bit i taget mot en linje; här finns bara ytterkanten, och lösningen måste hittas genom att vända, vrida och pröva. Det är den formen av rumsuppfattning som inte går att läsa sig till. Två saker gör sidan hanterbar för en sjuåring: instruktionen säger uttryckligen att alla sju bitarna ska användas varje gång, vilket stänger av gissningen att en bit blir över, och silhuetterna är tryckta i samma storlek som kvadraten på grundsidan.",
+   "p3": "Den här sidan kräver en fysisk uppsättning bitar – utan dem går den inte att göra. Skriv ut ett per barn eller ett per par; att arbeta två och två fungerar bra här, eftersom den ena kan se en vändning som den andra missar. Låt gärna kvadraten vara den sista rutan de tar. Sidan vilken lösning passar skuggbilden går vidare från samma skuggbilder men lägger till vridningar och speglingar.",
+   "canonicalDeckSlug": "tangram-g1354",
+   "carousel": [
+    {
+     "label": "Tangram: klipp ut de sju bitarna och lägg två figurer",
+     "href": "tangram-klipp-ut-de-sju-bitarna"
+    },
+    {
+     "label": "Lätta tangramfigurer av 2 och 3 bitar: rita linjerna",
+     "href": "tangramfigurer-2-och-3-bitar-rita-linjerna"
+    },
+    {
+     "label": "Tangram: vilken bit saknas?",
+     "href": "tangram-vilken-bit-saknas"
+    },
+    {
+     "label": "Tangram: vilken lösning passar skuggbilden?",
+     "href": "tangram-vilken-losning-passar-skuggbilden"
+    }
+   ],
+   "title": "Tangram: fyra skuggbilder att bygga – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Fyra helmörka tangramsilhuetter utan sömmar. Barnet bygger var och en med alla sju bitarna. Åk 1. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "tangram-vilken-bit-saknas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-which-piece-is-missing",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad tangram",
+   "h1": "Tangram: vilken bit saknas?",
+   "strand": "Geometri",
+   "standard": "1.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "ak-1"
+   ],
+   "p1": "Sex figurer i två spalter, alla med sina sömmar tryckta och alla i ljus mintton – utom ett fält per figur, som står tomt med orange streckad kant. Till höger om varje figur ligger tre vita brickor med var sin bit: en triangel, en fyrhörning, en parallellogram. Barnet ringar in den bricka som passar exakt i hålet. Hålen på det här bladet är en parallellogram, två små trianglar, en mellanstor triangel och en kvadrat, och figurerna är en rektangel, en kvadrat och en pil, vardera i två varianter.",
+   "p2": "Sidan mäter en enda sak: kan barnet se en form i den storlek och det läge som hålet kräver. Alla tre brickor är ritade med spetsen uppåt, så barnet kan inte jämföra bilder rakt av utan måste jämföra kanter – hålets korta sida mot brickans korta sida. Där ligger uppgiftens kärna, eftersom de två trianglarna i en tangramuppsättning skiljer sig enbart i storlek. Att svaret aldrig är den största triangeln är en medveten avgränsning: de hål som förekommer är mellan, liten, kvadrat och parallellogram.",
+   "p3": "En penna räcker, inga bitar behövs, och sidan går att göra i knät. Den här varianten är den enda i serien som ger ett svar att ringa in i stället för något att bygga eller rita, och den passar därför som en snabb avstämning efter sidan bygg fyra skuggbilder. Hinner barnet före de andra kan det rita in hur resten av figuren skulle delas.",
+   "canonicalDeckSlug": "tangram-g1355",
+   "carousel": [
+    {
+     "label": "Tangram: klipp ut de sju bitarna och lägg två figurer",
+     "href": "tangram-klipp-ut-de-sju-bitarna"
+    },
+    {
+     "label": "Lätta tangramfigurer av 2 och 3 bitar: rita linjerna",
+     "href": "tangramfigurer-2-och-3-bitar-rita-linjerna"
+    },
+    {
+     "label": "Tangram: bygg fyra skuggbilder",
+     "href": "tangram-bygg-fyra-skuggbilder"
+    },
+    {
+     "label": "Tangram: vilken lösning passar skuggbilden?",
+     "href": "tangram-vilken-losning-passar-skuggbilden"
+    }
+   ],
+   "title": "Tangram: vilken bit saknas? – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Sex tangramfigurer med sömmar och ett tomt fält markerat med orange streck. Barnet ringar in den bit som passar exakt. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "tangram-vilken-losning-passar-skuggbilden",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-which-solution-matches-the-shadow",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad tangram",
+   "h1": "Tangram: vilken lösning passar skuggbilden?",
+   "strand": "Geometri",
+   "slotTokens": [
+    "tangram",
+    "ak-2"
+   ],
+   "p1": "Fyra rader, och varje rad börjar med en mörk skuggbild och fortsätter med tre färdiga lösningar i vita rutor. Lösningarna visar alla sju bitarna på plats, och exakt en av dem ligger precis som skuggbilden. De andra två är samma figur vriden ett kvarts varv eller speglad. På det här bladet är skuggbilderna en pil som pekar nedåt, en stående rektangel, en katt och ett träd som lagts ned på sidan – och katten och trädet hör till de svåraste, eftersom deras konturer har fler hörn att jämföra.",
+   "p2": "Instruktionen är kategorisk: vridna eller speglade figurer passar inte. Det är sidans hela poäng. Ett barn som redan kan bygga figurerna nöjer sig gärna med att konstatera att formen stämmer, och här räcker inte det – läget måste stämma också. Andra raden visar varför: både den rätta och de felaktiga lösningarna är rektanglar, men bara en står upp. Att skilja en figur från sin egen spegelbild är ett steg som brukar komma runt åk 2, och det går inte att ta genom att räkna bitar eller kanter.",
+   "p3": "Skriv ut i färg om ni kan – skuggbilden är mörkgrön mot gräddvitt och de tryckta sömmarna blir tunna i gråskala. Sidan behöver varken bitar eller sax. Den är seriens sista och svåraste och fungerar bäst efter att barnen har byggt figurerna själva, annars blir jämförelsen abstrakt. Vill ni fortsätta går det att låta barnen beskriva med ord hur den felaktiga lösningen skiljer sig.",
+   "canonicalDeckSlug": "tangram-g2347",
+   "carousel": [
+    {
+     "label": "Tangram: klipp ut de sju bitarna och lägg två figurer",
+     "href": "tangram-klipp-ut-de-sju-bitarna"
+    },
+    {
+     "label": "Lätta tangramfigurer av 2 och 3 bitar: rita linjerna",
+     "href": "tangramfigurer-2-och-3-bitar-rita-linjerna"
+    },
+    {
+     "label": "Tangram: bygg fyra skuggbilder",
+     "href": "tangram-bygg-fyra-skuggbilder"
+    },
+    {
+     "label": "Tangram: vilken bit saknas?",
+     "href": "tangram-vilken-bit-saknas"
+    }
+   ],
+   "title": "Tangram: vilken lösning passar skuggbilden? – åk 2 | PDF att skriva ut",
+   "metaDescription": "Fyra mörka skuggbilder, tre lösningar till varje. Bara en ligger likadant – de andra är vridna eller speglade. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "tangram-rakna-trianglar-och-kvadrater",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-count-the-triangles-and-squares",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad tangram",
+   "h1": "Tangram: räkna trianglar och kvadrater",
+   "strand": "Geometri",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "forskola"
+   ],
+   "p1": "Fyra figurer, två och två, byggda av mellan tre och sex bitar med sömmarna tryckta. Under varje figur står två streckade rutor, den första med en liten triangel framför sig och den andra med en liten kvadrat. Barnet räknar och skriver två tal per figur. Antalet trianglar ligger mellan ett och fyra, och antalet kvadrater är noll eller ett – flera av figurerna på det här bladet innehåller ingen kvadrat alls, så en av rutorna ska fyllas med en nolla.",
+   "p2": "Här möts geometri och antal. Barnet måste först avgöra vad en bit är för form och sedan hålla räkningen, och de två stegen stör varandra: det är lätt att se tre trianglar och missa den fjärde för att den ligger på sidan. Att en ruta ibland ska få en nolla är avsiktligt och värt att säga högt före arbetet, eftersom många barn hellre lämnar tomt än skriver noll. Några figurer innehåller dessutom en parallellogram, som varken är triangel eller kvadrat och alltså inte ska räknas i någon ruta.",
+   "p3": "Ett ark, fyra figurer, åtta rutor – det går på tio minuter och lämnar gott om utrymme för ett samtal efteråt. Den här sidan är den enda i serien där barnet skriver siffror i stället för att rita, klippa eller ringa in, vilket gör den lätt att lägga in i en matematiklektion snarare än en bildlektion. Prata igenom den figur som saknar kvadrat innan ni går vidare till rita linjerna.",
+   "canonicalDeckSlug": "tangram-k359",
+   "carousel": [
+    {
+     "label": "Tangram: klipp ut de sju bitarna och lägg två figurer",
+     "href": "tangram-klipp-ut-de-sju-bitarna"
+    },
+    {
+     "label": "Lätta tangramfigurer av 2 och 3 bitar: rita linjerna",
+     "href": "tangramfigurer-2-och-3-bitar-rita-linjerna"
+    },
+    {
+     "label": "Tangram: bygg fyra skuggbilder",
+     "href": "tangram-bygg-fyra-skuggbilder"
+    },
+    {
+     "label": "Tangram: vilken bit saknas?",
+     "href": "tangram-vilken-bit-saknas"
+    }
+   ],
+   "title": "Tangram: räkna trianglar och kvadrater | skriva ut PDF gratis",
+   "metaDescription": "Fyra små tangramfigurer med sömmar. Barnet räknar trianglarna i den ena rutan och kvadraterna i den andra – ibland noll. Gratis PDF."
+  },
+  {
+   "slug": "kroppens-delar-hur-manga-har-du",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-how-many",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad kroppens delar",
+   "h1": "Kroppens delar: hur många har du?",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "kroppens-delar",
+    "forskola"
+   ],
+   "p1": "Till vänster står helkroppsfiguren i konturteckning. Till höger ligger sex kort i två spalter, vart och ett med en bild av en kroppsdel, en fråga och en streckad ruta för svaret. Frågorna på det här bladet är hur många munnar, fingrar, näsor, ögon, ben och armar barnet har. Bilderna är färglagda fotoliknande illustrationer, till skillnad från figuren bredvid som bara är tecknad i konturer, och svaren spänner från ett till tio.",
+   "p2": "Sidan förvandlar en namnlektion till en räknelektion utan att byta ämne. Att svaret ska hämtas från den egna kroppen och inte från bilden är det som gör den värd att skriva ut: barnet tittar ned, räknar och upptäcker att kroppen är byggd i par utom på några få ställen. Just munnen, näsan och huvudet ger ettor, och kontrasten mot ögonen och armarna är det som fastnar. Rutan rymmer bara ett tal, så barnet måste bestämma sig – och för fingrarna finns det två svar som båda hörs i ett svenskt klassrum.",
+   "p3": "Bestäm före utskriften hur ni räknar fingrarna, alltså om tummarna räknas in eller om svaret ska bli åtta plus två tummar. Det är den enda frågan på sidan som inte har ett självklart svar på svenska. I övrigt går sidan att göra självständigt och den lämpar sig för ett par i taget, eftersom barnen gärna räknar på varandra. Sidan vilka har du två av tar samma idé vidare till åtta kroppsdelar utan siffror.",
+   "canonicalDeckSlug": "kroppens-delar-k360",
+   "carousel": [
+    {
+     "label": "Kroppens delar",
+     "href": "kroppens-delar"
+    },
+    {
+     "label": "Kroppens delar: färglägg efter färgrutorna",
+     "href": "kroppens-delar-farglagg-efter-fargrutorna"
+    },
+    {
+     "label": "Kroppens delar: skriv ordet, en bokstav i varje ruta",
+     "href": "kroppens-delar-skriv-ordet-i-bokstavsrutor"
+    },
+    {
+     "label": "Kroppens delar: vad saknas?",
+     "href": "kroppens-delar-vad-saknas"
+    }
+   ],
+   "title": "Kroppens delar: hur många har du? | skriva ut PDF gratis",
+   "metaDescription": "Sex kort med en kroppsdel var och frågan hur många barnet har av den. Räkna på din egen kropp och skriv talet. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "kroppens-delar-farglagg-efter-fargrutorna",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-color-by-legend",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad kroppens delar",
+   "h1": "Kroppens delar: färglägg efter färgrutorna",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "kroppens-delar",
+    "forskola"
+   ],
+   "p1": "Vänsterhalvan av sidan bär fem vita kort, vart och ett med en färgruta, färgens namn och en pil till en kroppsdel: gul till hår, brun till armar, rosa till ben, röd till fötter och grön till händer. Höger om dem står figuren i ren konturteckning, helt ofärgad, med fingrar, tår och ett ansikte med hårslingor över pannan. Varje del som nämns på korten finns som ett eget slutet fält att fylla i.",
+   "p2": "Att läsa en nyckel och handla efter den är en färdighet i sig, och den övas sällan medvetet i förskoleklass. Här måste barnet hålla två saker i huvudet samtidigt – vilket ord som står på kortet och vilken färg som står bredvid – och sedan hitta delen på figuren. Ingen skrivning krävs, vilket gör sidan användbar också för den som ännu inte skriver. Två gränser blir skarpa av sig själva: armarna bruna mot händerna gröna, benen rosa mot fötterna röda, så barnet måste bestämma var handen slutar och armen börjar.",
+   "p3": "Korten ber aldrig om både huvudet och håret. Håret är en sluten form inuti huvudets kontur, och en nyckel som ville ha den ena gul och den andra röd går helt enkelt inte att lyda – här får håret sin färg och huvudet lämnas vitt. Skriv ut i färg, annars går nyckeln förlorad; färgrutorna är det enda som bär informationen, och kritor täcker de stora fälten bättre än pennor. Sidan hur många har du använder samma figur men frågar efter antal i stället för färg.",
+   "canonicalDeckSlug": "kroppens-delar-k361",
+   "carousel": [
+    {
+     "label": "Kroppens delar",
+     "href": "kroppens-delar"
+    },
+    {
+     "label": "Kroppens delar: hur många har du?",
+     "href": "kroppens-delar-hur-manga-har-du"
+    },
+    {
+     "label": "Kroppens delar: skriv ordet, en bokstav i varje ruta",
+     "href": "kroppens-delar-skriv-ordet-i-bokstavsrutor"
+    },
+    {
+     "label": "Kroppens delar: vad saknas?",
+     "href": "kroppens-delar-vad-saknas"
+    }
+   ],
+   "title": "Kroppens delar: färglägg efter färgrutorna | skriva ut PDF",
+   "metaDescription": "En kroppsfigur i konturteckning och fem färgrutor: gul hår, brun armar, rosa ben, röd fötter, grön händer. Färglägg efter nyckeln. Gratis PDF."
+  },
+  {
+   "slug": "kroppens-delar-skriv-ordet-i-bokstavsrutor",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-write-the-word",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad kroppens delar",
+   "h1": "Kroppens delar: skriv ordet, en bokstav i varje ruta",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "kroppens-delar",
+    "ak-1"
+   ],
+   "p1": "Ingen ordlista på den här sidan. Figuren står till vänster med sex orange sifferbrickor på sig, och till höger löper sex numrerade rader med streckade bokstavsrutor. Raderna är olika långa – tre, tre, sju, fyra, tre och två rutor – och antalet rutor är den enda ledtråden till vilket ord som ska skrivas. Brickorna sitter på munnen, på överarmen, i armbågsvecket, på handen, på knäet och på tårna.",
+   "p2": "Bokstavsrutorna gör två saker på en gång. De säger hur långt ordet är, vilket hjälper ett barn i åk 1 att välja mellan två ord som båda kunde passa brickan, och de tvingar fram en bokstav i taget, vilket är precis vad som behövs när ett ord som armbåge ska stavas. Sju rutor på tredje raden mot två på den sista är en skillnad som går att räkna sig till innan pennan sätts i papperet. Att orden inte står någonstans på sidan flyttar uppgiften från avskrift till minne.",
+   "p3": "Bricka två och tre delar arm: den ena sitter ovanför leden, den andra i själva vecket, och det är rutantalet som avgör vilket ord som ska dit – tre eller sju. Gå igenom just de två tillsammans innan barnen börjar. Sidan är seriens mest krävande och fungerar bäst efter att grundsidan med ordlista har gjorts en gång. Skriv ut ett per barn; rutorna rymmer blyerts men inte tjock krita. Sidan vad saknas byter ut skrivandet mot att ringa in och rita.",
+   "canonicalDeckSlug": "kroppens-delar-g1356",
+   "carousel": [
+    {
+     "label": "Kroppens delar",
+     "href": "kroppens-delar"
+    },
+    {
+     "label": "Kroppens delar: hur många har du?",
+     "href": "kroppens-delar-hur-manga-har-du"
+    },
+    {
+     "label": "Kroppens delar: färglägg efter färgrutorna",
+     "href": "kroppens-delar-farglagg-efter-fargrutorna"
+    },
+    {
+     "label": "Kroppens delar: vad saknas?",
+     "href": "kroppens-delar-vad-saknas"
+    }
+   ],
+   "title": "Kroppens delar: skriv ordet i bokstavsrutor – åk 1 | skriva ut PDF",
+   "metaDescription": "Sex numrerade brickor på kroppsfiguren och sex rader med bokstavsrutor, från två rutor till sju. Antalet rutor visar hur långt ordet är. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "kroppens-delar-vad-saknas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-what-is-missing",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad kroppens delar",
+   "h1": "Kroppens delar: vad saknas?",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "kroppens-delar",
+    "forskola"
+   ],
+   "p1": "Fyra rutor, och i varje ruta en kroppsfigur som inte är komplett. På det här bladet fattas en arm på den första, ett ben på den andra, håret på den tredje och öronen på den fjärde. Bredvid varje figur står tre små bilder ovanför varandra – bara en av dem visar det som fattas. Barnet ringar in rätt bild och ritar sedan in delen direkt på figuren, vilket gör att sidan ger två svar per ruta, ett som kryssas och ett som tecknas.",
+   "p2": "Att upptäcka att något saknas är en annan sak än att kunna namnet på det. Den första figuren är lätt – en arm som fattas syns på en gång – men den tredje kräver att barnet lägger märke till en yta som är tom snarare än en form som är borta. Ritmomentet är det som låser fast upptäckten: barnet måste bestämma var delen sitter och hur stor den ska vara, och en arm som ritas vid höften blir ett samtalsämne i sig. De tre bilderna per ruta gör att svaret aldrig behöver formuleras med ord.",
+   "p3": "Skriv ut i färg – de små bilderna är fotoliknande och blir svåra att skilja åt i gråskala. Sidan passar för ett barn som ännu inte skriver, eftersom hela svaret ges med penna och ring. Titta gärna på bilderna tillsammans först; en av dem visar en hel person i stället för en lös kroppsdel, vilket ett barn kan behöva få förklarat. Efteråt går sidan skriv orden att göra på samma figur.",
+   "canonicalDeckSlug": "kroppens-delar-k362",
+   "carousel": [
+    {
+     "label": "Kroppens delar",
+     "href": "kroppens-delar"
+    },
+    {
+     "label": "Kroppens delar: hur många har du?",
+     "href": "kroppens-delar-hur-manga-har-du"
+    },
+    {
+     "label": "Kroppens delar: färglägg efter färgrutorna",
+     "href": "kroppens-delar-farglagg-efter-fargrutorna"
+    },
+    {
+     "label": "Kroppens delar: skriv ordet, en bokstav i varje ruta",
+     "href": "kroppens-delar-skriv-ordet-i-bokstavsrutor"
+    }
+   ],
+   "title": "Kroppens delar: vad saknas? | skriva ut PDF gratis",
+   "metaDescription": "Fyra kroppsfigurer där en del fattas. Barnet ringar in bilden på delen som saknas och ritar sedan dit den. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "kroppens-delar-vilka-har-du-tva-av",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-which-come-in-twos",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad kroppens delar",
+   "h1": "Kroppens delar: vilka har du två av?",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "kroppens-delar",
+    "forskola"
+   ],
+   "p1": "Åtta kort i två spalter, vart och ett med en bild och ordet tryckt under: fot, näsa, öga, mun, knä, armbåge, hand och huvud. Till vänster om korten står helkroppsfiguren att titta på. Barnet ringar in de kort som visar något det har två av – fem av de åtta – och lämnar de övriga tre. Ingenting ska skrivas, och det finns inga rutor att fylla i; hela svaret är fem ringar.",
+   "p2": "Uppdelningen i par och ensamma delar är den första riktiga ordningen ett barn lägger på sin egen kropp, och den är lätt att pröva med händerna. Att både knä och armbåge finns med är ingen slump: de är de två leder som barn oftast glömmer, och de sitter mitt emellan två delar som redan har namn. Att tre kort ska lämnas orörda är lika viktigt som att fem ska ringas in – en sida där allt ringas in mäter ingenting. Orden under bilderna gör att sidan också blir en tyst läsövning.",
+   "p3": "Ett ark, åtta kort, en penna. Det här är den snabbaste sidan i serien och den enda som går att göra helt utan att skriva, så den passar tidigt på hösten i förskoleklass eller som en kort avstämning. Räkna efteråt högt tillsammans: fem delar två gånger, tre delar en gång. Vill ni fortsätta med tal ger sidan hur många har du samma innehåll med en siffra i rutan.",
+   "canonicalDeckSlug": "kroppens-delar-k363",
+   "carousel": [
+    {
+     "label": "Kroppens delar",
+     "href": "kroppens-delar"
+    },
+    {
+     "label": "Kroppens delar: hur många har du?",
+     "href": "kroppens-delar-hur-manga-har-du"
+    },
+    {
+     "label": "Kroppens delar: färglägg efter färgrutorna",
+     "href": "kroppens-delar-farglagg-efter-fargrutorna"
+    },
+    {
+     "label": "Kroppens delar: skriv ordet, en bokstav i varje ruta",
+     "href": "kroppens-delar-skriv-ordet-i-bokstavsrutor"
+    }
+   ],
+   "title": "Kroppens delar: vilka har du två av? | skriva ut PDF gratis",
+   "metaDescription": "Åtta bildkort med namnet under: fot, näsa, öga, mun, knä, armbåge, hand, huvud. Ringa in dem du har två av. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "vara-sinnen-sortera-efter-sinne",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-sort-by-sense",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad våra sinnen",
+   "h1": "Våra sinnen: sortera efter sinne",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vara-sinnen",
+    "ak-1"
+   ],
+   "p1": "Tio bilder ligger tätt i två rader högst upp: en citron, en kikare, en godisbit, en jasminblomma, en kudde, en sandhög, en vitlök, en fiol, en guldstjärna och en trumma. Längst ned står fem öppna lådor med var sitt verb på skylten – smaka, lukta, se, höra och känna – och en liten bild av kroppsdelen inuti. Mellan bilderna och lådorna ligger en bred tom yta; det är där strecken ska gå, och de blir långa eftersom två bilder hör till varje låda.",
+   "p2": "Skillnaden mot grundsidan är att sinnena nu är namngivna och att varje låda ska få mer än ett kort. Det ändrar uppgiften: barnet slutar leta efter ett par och börjar bygga en kategori. Verbformen på skylten är medvetet vald framför substantivet – ett barn i åk 1 säger att man luktar på en blomma långt innan det använder ordet lukt som ett begrepp. Två av bilderna, citronen och vitlöken, hör till de klassiska svenska doftburkarna, vilket är värt att veta innan svaren rättas.",
+   "p3": "Skriv ut i färg och gärna på lite tjockare papper, eftersom tio streck som korsar varandra gör arket rörigt. Att låta barnen dra strecken med olika färgpennor per låda är ett enkelt sätt att hålla ordning. Utrymmet mitt på sidan är avsiktligt tomt och behövs för strecken. Nästa steg i serien är vilket sinne använder du, där samma fråga ställs rad för rad med kroppsdelarna att ringa in.",
+   "canonicalDeckSlug": "vara-sinnen-g1357",
+   "carousel": [
+    {
+     "label": "Våra sinnen",
+     "href": "vara-sinnen"
+    },
+    {
+     "label": "Våra sinnen: vilket sinne använder du?",
+     "href": "vilket-sinne-anvander-du"
+    },
+    {
+     "label": "Våra sinnen: vilken bild passar inte in?",
+     "href": "vara-sinnen-vilken-bild-passar-inte-in"
+    },
+    {
+     "label": "Sinnesorganen: skriv ordet för sinnet",
+     "href": "sinnesorganen-skriv-ordet"
+    }
+   ],
+   "title": "Sortera efter sinne – fem lådor – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Tio bilder överst och fem lådor märkta smaka, lukta, se, höra och känna. Barnet drar ett streck från varje bild till rätt låda. Åk 1."
+  },
+  {
+   "slug": "vilket-sinne-anvander-du",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-which-sense",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad våra sinnen",
+   "h1": "Våra sinnen: vilket sinne använder du?",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vara-sinnen",
+    "ak-1"
+   ],
+   "p1": "Åtta långa rader, en sak i varje. På det här bladet är sakerna en kudde, en sten, en citron, en strut popcorn, en gitarr, en ljusslinga, en ficklampa och en ros. Längst ut till höger på varje rad står samma fem små bilder i samma ordning – öga, öra, näsa, tunga och hand – och barnet ringar in den ena. Raderna är breda och mellanrummet mellan saken och kroppsdelarna är tomt, så ögat får vandra ett stycke innan det når valet.",
+   "p2": "Att de fem alternativen står i samma ordning på alla åtta rader är sidans styrka: barnet behöver inte leta, utan kan lägga hela uppmärksamheten på frågan. Tre rader pekar mot ögat och gör serien lätt i början. Två rader är värda att prata igenom i ett svenskt klassrum, nämligen citronen och popcornen: båda är i banken märkta som smak, men de är minst lika starka dofter, och ett barn som ringar in näsan har inte tänkt fel. Bestäm gärna i förväg hur ni ser på de två.",
+   "p3": "Ett ark, åtta beslut, en penna – sidan går att göra tyst och självständigt och tar under tio minuter. Skriv ut i färg, annars blir de fem små kroppsdelarna svåra att skilja åt. Det här är den enda sidan i serien där samma fem svarsalternativ upprepas rad efter rad, vilket gör den bra att lämna över till ett vikarie. Efteråt passar vilken bild passar inte in, som vänder på uppgiften.",
+   "canonicalDeckSlug": "vara-sinnen-g1358",
+   "carousel": [
+    {
+     "label": "Våra sinnen",
+     "href": "vara-sinnen"
+    },
+    {
+     "label": "Våra sinnen: sortera efter sinne",
+     "href": "vara-sinnen-sortera-efter-sinne"
+    },
+    {
+     "label": "Våra sinnen: vilken bild passar inte in?",
+     "href": "vara-sinnen-vilken-bild-passar-inte-in"
+    },
+    {
+     "label": "Sinnesorganen: skriv ordet för sinnet",
+     "href": "sinnesorganen-skriv-ordet"
+    }
+   ],
+   "title": "Vilket sinne använder du? Åtta rader – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Åtta rader med en sak till vänster och fem kroppsdelar till höger: öga, öra, näsa, tunga, hand. Ringa in den du behöver. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "vara-sinnen-vilken-bild-passar-inte-in",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-which-one-does-not-belong",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad våra sinnen",
+   "h1": "Våra sinnen: vilken bild passar inte in?",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vara-sinnen",
+    "ak-1"
+   ],
+   "p1": "Fem breda rader, fyra bilder i varje, tryckta stora och utan text. Rad ett: en blomma, en chokladkaka, en tårtbit och en klubba. Rad två: en muffins, en fjäder, en kaka och en honungsburk. Rad tre: en godisbit, en xylofon, en saxofon och en gitarr. Rad fyra: en ljusslinga, en visselpipa, en trumma och ett piano. Rad fem: ett teleskop, en stjärna, en regnbåge och popcorn. I varje rad ska ett kryss dras över en enda bild.",
+   "p2": "Att hitta det som inte hör hit kräver att barnet först formulerar för sig själv vad de tre andra har gemensamt, och det steget är osynligt men helt avgörande. Rad tre och fyra handlar om hörsel och är de tydligaste; rad ett och två om smak, där fjädern och blomman sticker ut. Rad fem är den intressantaste, eftersom teleskopet är ett redskap medan stjärnan och regnbågen är saker man ser – de hör ändå ihop under samma sinne. Det tål att sägas högt efteråt.",
+   "p3": "Skriv ut i färg; bilderna bär hela uppgiften och det finns inga ord att falla tillbaka på. Sidan går snabbt, så räkna med att den blir ett underlag för samtal snarare än ett arbetspass. En sak att veta i förväg: på tre av de fem raderna står den avvikande bilden först, så be barnen läsa hela raden innan de sätter krysset. Sidan sortera efter sinne bygger samma kategorier utan att någon ska uteslutas.",
+   "canonicalDeckSlug": "vara-sinnen-g1359",
+   "carousel": [
+    {
+     "label": "Våra sinnen",
+     "href": "vara-sinnen"
+    },
+    {
+     "label": "Våra sinnen: sortera efter sinne",
+     "href": "vara-sinnen-sortera-efter-sinne"
+    },
+    {
+     "label": "Våra sinnen: vilket sinne använder du?",
+     "href": "vilket-sinne-anvander-du"
+    },
+    {
+     "label": "Sinnesorganen: skriv ordet för sinnet",
+     "href": "sinnesorganen-skriv-ordet"
+    }
+   ],
+   "title": "Vilken bild passar inte in? Sinnen – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Fem rader med fyra bilder. Tre hör till samma sinne, en gör det inte. Stryk över den som inte passar. Åk 1. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "sinnesorganen-skriv-ordet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "sense-organs-write-the-sense-word",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad våra sinnen",
+   "h1": "Sinnesorganen: skriv ordet för sinnet",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vara-sinnen",
+    "ak-1"
+   ],
+   "p1": "Fem breda rader under varandra, var och en med en bild av ett sinnesorgan till vänster och en skrivrad till höger. Raderna har tre linjer – en överlinje, en prickad mittlinje och en baslinje – alltså fullt skrivstöd. Organen på det här bladet står i ordningen tunga, öga, öra, hand och näsa. Överst ligger ordlistan i en streckad ram med de fem orden höra, känna, se, lukta och smaka, och barnet skriver ett av dem på varje rad.",
+   "p2": "Det här är seriens skrivsida. Orden i banken är verb, alltså det som organet gör, och instruktionen följer det: skriv ordet bredvid den kroppsdel som gör det. Det är rätt form för åk 1, eftersom de svenska substantiven syn, hörsel, lukt, smak och känsel hör hemma ett par år senare. Varje ord ska användas exakt en gång, vilket gör att den sista raden kan lösas genom uteslutning – ett stöd för den som kör fast. Skrivraderna är breda nog för de längsta orden.",
+   "p3": "Skriv ut ett per barn och peka gärna på rubriken innan ni börjar, eftersom titeln talar om sinnet medan orden i banken beskriver vad man gör. Sidan är den enda i serien där barnet både läser och skriver, och den lämpar sig därför som avslutning på ett arbetsområde. Sidan jag hör ... tar skrivandet vidare till hela meningar, och sidan våra sinnen går tillbaka till rena bilder.",
+   "canonicalDeckSlug": "vara-sinnen-g1360",
+   "carousel": [
+    {
+     "label": "Våra sinnen",
+     "href": "vara-sinnen"
+    },
+    {
+     "label": "Våra sinnen: sortera efter sinne",
+     "href": "vara-sinnen-sortera-efter-sinne"
+    },
+    {
+     "label": "Våra sinnen: vilket sinne använder du?",
+     "href": "vilket-sinne-anvander-du"
+    },
+    {
+     "label": "Våra sinnen: vilken bild passar inte in?",
+     "href": "vara-sinnen-vilken-bild-passar-inte-in"
+    }
+   ],
+   "title": "Sinnesorganen – skriv ordet – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Fem kroppsdelar med skrivlinjer och en ordlista: höra, känna, se, lukta, smaka. Skriv ordet bredvid den del som gör det. Åk 1."
+  },
+  {
+   "slug": "jag-hor-jag-ser-skriv-klart-meningen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-i-can-hear",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad våra sinnen",
+   "h1": "Jag hör ... Skriv klart meningen",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vara-sinnen",
+    "ak-1"
+   ],
+   "p1": "Fem rutor, en för varje sinne, med organets bild till vänster och en påbörjad mening till höger. Meningsstarterna står tryckta i grått på den första skrivraden – Jag hör ..., Jag ser ..., Jag luktar på ..., Jag smakar på ... och Jag känner på ... – och under varje start ligger ytterligare en rad att fortsätta på. Bokstäverna i starten sitter rätt mot linjerna: versalerna når överlinjen, gemenerna mittlinjen och g-svansen går under baslinjen, så barnet får en modell att skriva efter.",
+   "p2": "Den öppna sidan i serien. Det finns inga rätta svar att fylla i, bara barnets eget rum och egen dag, och det är därför den brukar ge de bästa texterna: ett barn som ska skriva vad det känner på hittar orden snabbare än när det ska beskriva något abstrakt. Tre av starterna bär prepositionen på, vilket är precis så svenskan säger – man luktar på, smakar på och känner på något, men man hör och ser det. Den lilla skillnaden är värd att läsa högt tillsammans.",
+   "p3": "Två skrivrader per mening räcker för en kort mening i åk 1 och håller sidan luftig. Skriv ut ett per barn, gärna i slutet av ett arbetsområde där barnen redan har ord för det de uppfattar. Sidan fungerar lika bra som en promenaduppgift ute som vid bänken. Behöver barnen ordförråd först är sidan skriv ordet för sinnet rätt steg dessförinnan.",
+   "canonicalDeckSlug": "vara-sinnen-g1361",
+   "carousel": [
+    {
+     "label": "Våra sinnen",
+     "href": "vara-sinnen"
+    },
+    {
+     "label": "Våra sinnen: sortera efter sinne",
+     "href": "vara-sinnen-sortera-efter-sinne"
+    },
+    {
+     "label": "Våra sinnen: vilket sinne använder du?",
+     "href": "vilket-sinne-anvander-du"
+    },
+    {
+     "label": "Våra sinnen: vilken bild passar inte in?",
+     "href": "vara-sinnen-vilken-bild-passar-inte-in"
+    }
+   ],
+   "title": "Jag hör, jag ser – skriv klart meningen – åk 1 | PDF att skriva ut",
+   "metaDescription": "Fem påbörjade meningar: Jag hör, Jag ser, Jag luktar på, Jag smakar på, Jag känner på. Två skrivrader till varje. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "skriv-vaderordet-bokstavsrutor",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-write-the-weather-word",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad vädersymboler",
+   "h1": "Skriv väderordet i bokstavsrutor",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vadersymboler",
+    "ak-1"
+   ],
+   "p1": "En ordlista överst med sex ord – åska, moln, regn, sol, regnbåge och snö – och under den sex rader. Varje rad har en rund vädersymbol till vänster och en följd streckade bokstavsrutor till höger, en ruta per bokstav. Antalet rutor skiftar från tre till åtta: snöflingan och solen får tre rutor var, åskmolnet, molnet och regnmolnet fyra, och regnbågen åtta. Ingenting annat står på raden, så rutorna är både uppgift och facit för ordlängden.",
+   "p2": "Bokstavsrutorna gör stavningen synlig. Ett barn i åk 1 som ska skriva regnbåge räknar rutorna, hittar ordet i listan och skriver en bokstav åt gången; att å och ä får en egen ruta var är något som behöver sägas första gången. Samtidigt fungerar rutorna som en ledtråd åt den som tvekar: två ord har tre bokstäver och tre ord har fyra, så barnet måste ändå titta på symbolen för att välja rätt. Det är den kombinationen av stöd och krav som gör sidan användbar.",
+   "p3": "Skriv ut i färg för symbolernas skull, men blyerts fungerar utmärkt i rutorna. Sidan kräver att barnet redan har mött de sex orden en gång, så den passar efter grundsidan där ord och symbol paras ihop. Låt gärna regnbågsraden vara sist. Vill ni ha något helt annat med samma symboler är väderdagbok från måndag till söndag en vecka lång och ger inget att skriva alls.",
+   "canonicalDeckSlug": "vadersymboler-g1362",
+   "carousel": [
+    {
+     "label": "Vädersymboler",
+     "href": "vadersymboler"
+    },
+    {
+     "label": "Väderdagbok från måndag till söndag",
+     "href": "vaderdagbok-mandag-till-sondag"
+    },
+    {
+     "label": "Hur varmt är det? Kallt, varmt eller hett",
+     "href": "hur-varmt-ar-det-kallt-varmt-hett"
+    },
+    {
+     "label": "Vattnets kretslopp: sätt ut namnen",
+     "href": "vattnets-kretslopp-satt-ut-namnen"
+    }
+   ],
+   "title": "Skriv väderordet – bokstavsrutor – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Sex vädersymboler och en rad bokstavsrutor till varje. Rutornas antal visar ordets längd, från tre för snö till åtta för regnbåge. Åk 1."
+  },
+  {
+   "slug": "vaderdagbok-mandag-till-sondag",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-weather-chart-monday-to-sunday",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad vädersymboler",
+   "h1": "Väderdagbok från måndag till söndag",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vadersymboler",
+    "forskola"
+   ],
+   "p1": "Sju stora rutor i två rader, var och en med en dagsskylt: måndag, tisdag, onsdag, torsdag, fredag, lördag och söndag, i svensk veckoordning. Rutorna är tomma med streckad orange kant och tilltagna så att en sexåring kan rita i dem med tjock krita. Den åttonde platsen i rutnätet, längst ned till höger, har en hel grön ram i stället och innehåller sex vädersymboler ordnade två och två: sol, moln, regn, åska, snö och regnbåge.",
+   "p2": "Det här är den enda sidan i hela serien som sträcker sig över mer än en lektion. Att titta ut, bestämma sig och rita en symbol varje dag i en vecka är en helt annan uppgift än att fylla i ett blad på tio minuter: barnet får hålla en observation i minnet till nästa dag och upptäcker mot söndagen att veckan hade ett mönster. Sju rutor är också ett litet statistikunderlag – hur många dagar regnade det – som går att prata om utan att något behöver räknas ut.",
+   "p3": "Skriv ut ett per barn och sätt upp det vid fönstret eller skicka hem det. Berätta före starten vad den åttonde rutan är, för den saknar skylt och ser ut som en dag: det är de sex symbolerna att välja bland, inte en ruta att rita i. Färgutskrift hjälper, men sidan fungerar även i svartvitt eftersom barnet ritar själv. Vill ni ha en färdig vecka att läsa av i stället finns läs veckans väderprognos.",
+   "canonicalDeckSlug": "vadersymboler-k364",
+   "carousel": [
+    {
+     "label": "Vädersymboler",
+     "href": "vadersymboler"
+    },
+    {
+     "label": "Skriv väderordet i bokstavsrutor",
+     "href": "skriv-vaderordet-bokstavsrutor"
+    },
+    {
+     "label": "Hur varmt är det? Kallt, varmt eller hett",
+     "href": "hur-varmt-ar-det-kallt-varmt-hett"
+    },
+    {
+     "label": "Vattnets kretslopp: sätt ut namnen",
+     "href": "vattnets-kretslopp-satt-ut-namnen"
+    }
+   ],
+   "title": "Väderdagbok måndag till söndag | skriva ut PDF gratis",
+   "metaDescription": "Sju rutor med veckans dagar och en ruta med sex vädersymboler att välja bland. Rita dagens väder varje dag i en hel vecka. Gratis PDF."
+  },
+  {
+   "slug": "hur-varmt-ar-det-kallt-varmt-hett",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-how-warm-is-it",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad vädersymboler",
+   "h1": "Hur varmt är det? Kallt, varmt eller hett",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vadersymboler",
+    "forskola"
+   ],
+   "p1": "Överst ligger en nyckel med tre termometrar och en klädsel till varje: en nästan tom termometer med en halsduk, en halvfull med en t-shirt och en full med solglasögon. Under nyckeln står fyra rutor, var och en med en termometer och tre små bilder att välja mellan. Termometerns skala är tryckt som streck utan siffror, med ett blekblått fält nedtill och ett blekrosa upptill, så barnet läser av hur högt den orange pelaren står och inte vilket tal den visar.",
+   "p2": "Utan siffror blir uppgiften en jämförelse, och det är rätt nivå för förskoleklass: barnet ser att pelaren står lågt som i den första nyckelbilden och väljer halsduken. Två av de fyra rutorna hamnar i det kalla fältet och en i vardera av de andra, så bilderna kan inte fördelas jämnt ut. Värt att veta före utskriften är att orden kallt, varmt och hett bara står i rubriken och i instruktionen; själva nyckeln visar klädsel, inte ord, så begreppen behöver sägas högt.",
+   "p3": "Skriv ut i färg – nyckelns blå och rosa fält är det enda som skiljer kallt från hett, och de blir båda ljusgrå i svartvitt. Sidan tar fem minuter och fungerar som ingång till ett samtal om hur man klär sig efter vädret snarare än som ett räknemoment. Ska barnen möta gradtal är det ett steg längre fram; här räcker det att de kopplar hög pelare till varmt.",
+   "canonicalDeckSlug": "vadersymboler-k365",
+   "carousel": [
+    {
+     "label": "Vädersymboler",
+     "href": "vadersymboler"
+    },
+    {
+     "label": "Skriv väderordet i bokstavsrutor",
+     "href": "skriv-vaderordet-bokstavsrutor"
+    },
+    {
+     "label": "Väderdagbok från måndag till söndag",
+     "href": "vaderdagbok-mandag-till-sondag"
+    },
+    {
+     "label": "Vattnets kretslopp: sätt ut namnen",
+     "href": "vattnets-kretslopp-satt-ut-namnen"
+    }
+   ],
+   "title": "Hur varmt är det? Kallt, varmt eller hett | skriva ut PDF gratis",
+   "metaDescription": "Fyra termometrar och tre bilder till varje: halsduk, t-shirt och solglasögon. Använd nyckeln högst upp och ringa in rätt bild. Gratis PDF."
+  },
+  {
+   "slug": "vattnets-kretslopp-satt-ut-namnen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-water-cycle-label-the-diagram",
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Arbetsblad vädersymboler",
+   "h1": "Vattnets kretslopp: sätt ut namnen",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vadersymboler",
+    "ak-3"
+   ],
+   "p1": "Mitt på sidan står kretsloppet tecknat i stora enkla former: en orange sol, ett hav i ljusblått till vänster, en sandfärgad strand till höger och ett moln högt upp. En orange pil böjer sig uppåt från havet mot molnet, streckade droppar faller ur molnet mot marken, och en pil går tillbaka från land ned i havet. Fyra numrerade punkter sitter på bilden – vid uppstigningen, i molnet, i regnet och ute i havet. Under bilden ligger fyra skrivrader, en per siffra, och ordlistan står överst.",
+   "p2": "De fyra orden är avdunstning, kondensation, nederbörd och uppsamling, och de står i ordlistan i en annan ordning än på bilden, så barnet måste följa kretsloppet och inte listan. Att bilden har pilar åt båda hållen är poängen: vattnet försvinner inte, det går runt. För åk 3 är just den slutenheten det nya – de tre första stegen känns igen från vädret, medan det fjärde, att vattnet samlas igen, är det som gör det till ett kretslopp och inte en väderhändelse.",
+   "p3": "Skriv ut i färg så att havet skiljs från stranden. Ordet uppsamling är det minst inarbetade av de fyra i svenska läromedel, där man ofta säger att vattnet samlas i hav och sjöar; säg gärna båda varianterna när ni går igenom. Sidan är seriens svåraste och den enda som sträcker sig utanför vädersymbolerna. Ska den användas tidigare går det bra att låta barnen bara följa pilarna med fingret först.",
+   "canonicalDeckSlug": "vadersymboler-g3385",
+   "carousel": [
+    {
+     "label": "Vädersymboler",
+     "href": "vadersymboler"
+    },
+    {
+     "label": "Skriv väderordet i bokstavsrutor",
+     "href": "skriv-vaderordet-bokstavsrutor"
+    },
+    {
+     "label": "Väderdagbok från måndag till söndag",
+     "href": "vaderdagbok-mandag-till-sondag"
+    },
+    {
+     "label": "Hur varmt är det? Kallt, varmt eller hett",
+     "href": "hur-varmt-ar-det-kallt-varmt-hett"
+    }
+   ],
+   "title": "Vattnets kretslopp – sätt ut namnen – åk 3 | skriva ut PDF gratis",
+   "metaDescription": "En bild av kretsloppet med sol, hav, moln och regn, fyra numrerade punkter och fyra ord att skriva på rätt rad. Åk 3. Gratis PDF."
+  },
+  {
+   "slug": "las-veckans-vaderprognos",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-read-the-weekly-forecast",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad vädersymboler",
+   "h1": "Läs veckans väderprognos",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vadersymboler",
+    "ak-1"
+   ],
+   "p1": "Högst upp ligger veckan i en grön ram: måndag med en snöflinga, tisdag med ett åskmoln, onsdag med en sol, torsdag med ett regnmoln och fredag med ett grått moln. Under ramen står tre frågor, var och en följd av fem ovaler med dagarnas namn. Frågorna är vilken dag det snöar, vilken dag det regnar och vilken dag solen skiner. Barnet läser av prognosen och ringar in en oval per fråga.",
+   "p2": "Att läsa en tabell är en färdighet som brukar tränas först i matematiken, och här möter barnet den i sitt naturligaste sammanhang. Uppgiften går inte att lösa på symbolerna ensamma: barnet måste gå från frågans ord till rätt symbol och därifrån till dagens namn, alltså tre steg. Att alla fem dagarna står som alternativ vid varje fråga, oavsett svar, betyder att inget kan uteslutas på förhand. Två av veckans symboler, åskan och molnet, används inte i någon fråga och kan tas muntligt.",
+   "p3": "Skriv ut i färg; de fem symbolerna i ramen bär hela underlaget. Sidan är kort och lämnar gott om tomt utrymme under varje fråga, vilket går att använda till att låta barnen skriva en egen fjärde fråga. Det här är den enda sidan i serien där barnet läser av ett färdigt veckoschema; väderdagbok från måndag till söndag är dess motsats, där barnet fyller i veckan själv.",
+   "canonicalDeckSlug": "vadersymboler-g1363",
+   "carousel": [
+    {
+     "label": "Vädersymboler",
+     "href": "vadersymboler"
+    },
+    {
+     "label": "Skriv väderordet i bokstavsrutor",
+     "href": "skriv-vaderordet-bokstavsrutor"
+    },
+    {
+     "label": "Väderdagbok från måndag till söndag",
+     "href": "vaderdagbok-mandag-till-sondag"
+    },
+    {
+     "label": "Hur varmt är det? Kallt, varmt eller hett",
+     "href": "hur-varmt-ar-det-kallt-varmt-hett"
+    }
+   ],
+   "title": "Läs veckans väderprognos – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "En prognos från måndag till fredag med fem symboler och tre frågor. Ringa in den dag det snöar, regnar och skiner sol. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "kallsortering-vilken-tunna",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-which-bin",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad källsortering",
+   "h1": "Källsortering: vilken tunna?",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "kallsortering",
+    "forskola"
+   ],
+   "p1": "Överst står nyckeln: fem tunnor med skyltarna Papper, Plast, Metall, Glas och Matavfall. Under den följer sex rader, och i varje rad ligger en sak till vänster och samma fem tunnor till höger – den här gången utan skyltar. Sakerna på det här bladet är en konservburk, ett öppet brev, en apelsin, en pumpflaska, en honungsburk och ett brunt kartongpaket. Barnet ringar in en tunna per rad och svarar alltså sex gånger med bara en ring.",
+   "p2": "Skillnaden mot grundsidan är att tunnorna nu ska kännas igen utan sina namn. Barnet måste hålla nyckeln i huvudet eller titta upp, och det är den lilla ansträngningen som gör att skyltarna fastnar. Den sista raden är den svåraste: kartongpaketet är gjort av kartong, ett material som inte finns som egen tunna, och som i Sverige hör hemma bland pappersförpackningar. Det är värt att ta upp innan barnen börjar, eftersom samma serie har en annan sida där kartong är ett eget ord.",
+   "p3": "Skriv ut i färg. Utan färg skiljs de fem tunnorna bara åt av de vita tecknen på locken – tre prickar för plast, tre streck för metall, ett streck för glas och ett vågtecken för matavfall – och papperstunnan har inget tecken, så den blir den som blir över. Sidan går snabbt och passar som avstämning efter grundsidan. Nästa steg i serien, vad är det gjort av, byter ut tunnorna mot materialets namn i skrift.",
+   "canonicalDeckSlug": "kallsortering-k366",
+   "carousel": [
+    {
+     "label": "Källsortering",
+     "href": "kallsortering"
+    },
+    {
+     "label": "Källsortering: vad är det gjort av?",
+     "href": "kallsortering-vad-ar-det-gjort-av"
+    },
+    {
+     "label": "Källsortering: vilken sak är gjord av annat material?",
+     "href": "kallsortering-vilken-sak-ar-av-annat-material"
+    },
+    {
+     "label": "Tre saker jag lämnar till återvinning",
+     "href": "tre-saker-jag-lamnar-till-atervinning"
+    }
+   ],
+   "title": "Källsortering: vilken tunna? Sex saker | skriva ut PDF gratis",
+   "metaDescription": "En nyckel med fem märkta tunnor och sex rader med en sak i varje. Ringa in den tunna där saken hör hemma när den är tom. Gratis PDF."
+  },
+  {
+   "slug": "kallsortering-vad-ar-det-gjort-av",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-what-is-it-made-of",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad källsortering",
+   "h1": "Källsortering: vad är det gjort av?",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "kallsortering",
+    "ak-1"
+   ],
+   "p1": "Ordlistan står överst med fem material – plast, papper, kartong, glas och metall – och under den ligger åtta rader. Varje rad har en liten bild till vänster och en skrivrad med tre linjer till höger. Sakerna är en skruv, en lila plastsked, ett anteckningsblock, en röd glasflaska, en mutter, ett papper med gem, ett kartongpaket och en flingpaketskartong. Eftersom det finns fem ord och åtta rader ska tre av orden skrivas mer än en gång.",
+   "p2": "Att fråga vad något är gjort av i stället för var det ska slängas flyttar uppgiften ett steg bakåt i tänkandet, och det är där sorteringen faktiskt avgörs. Skruven och muttern är båda metall trots att de ser olika ut, och anteckningsblocket och pappret är båda papper trots att det ena har hårda pärmar. Kartong står med som eget ord här, till skillnad från sidorna med tunnor, där den sorteras som papper – den skillnaden är svensk verklighet och värd en mening högt.",
+   "p3": "Säg före start att ett ord får användas flera gånger, annars fastnar den som har använt alla fem och har tre rader kvar. Skriv ut i färg; den röda glasflaskan och den lila plastskeden skiljs åt på materialets glans mer än på formen. Sidan är seriens skrivsida och kräver att barnet kan de fem orden. Sidan vilken sak är gjord av annat material tar samma begrepp vidare till fyra rader att jämföra.",
+   "canonicalDeckSlug": "kallsortering-g1364",
+   "carousel": [
+    {
+     "label": "Källsortering",
+     "href": "kallsortering"
+    },
+    {
+     "label": "Källsortering: vilken tunna?",
+     "href": "kallsortering-vilken-tunna"
+    },
+    {
+     "label": "Källsortering: vilken sak är gjord av annat material?",
+     "href": "kallsortering-vilken-sak-ar-av-annat-material"
+    },
+    {
+     "label": "Tre saker jag lämnar till återvinning",
+     "href": "tre-saker-jag-lamnar-till-atervinning"
+    }
+   ],
+   "title": "Vad är det gjort av? Material – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Åtta saker och en ordlista med fem material: plast, papper, kartong, glas och metall. Skriv materialet på linjen. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "kallsortering-vilken-sak-ar-av-annat-material",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-odd-one-out-by-material",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad källsortering",
+   "h1": "Källsortering: vilken sak är gjord av annat material?",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "kallsortering",
+    "ak-2"
+   ],
+   "p1": "Fyra rader, fyra saker i varje, tryckta som stora färgbilder utan text. Rad ett visar en oljeflaska, en honungsburk, en syltburk och en lila plastsked. Rad två en limflaska, en tandborste, ett löv och en kam. Rad tre en paprika, en morot, en banan och en kastrull. Rad fyra en gul bult, en smal röd såsflaska, en mutter och en konservburk. I varje rad avviker exakt en sak, och den ska ringas in.",
+   "p2": "Att tre saker delar material och en inte gör det tvingar fram en jämförelse i stället för ett enskilt beslut, och det är steget från sidan vad är det gjort av. Första raden lär mest: oljan, honungen och sylten är tre olika innehåll i tre glasförpackningar, så barnet måste se förbi vad som finns i och titta på vad kärlet är gjort av. En glasflaska med mjölk får däremot inte plats på ett svenskt blad – mjölk säljs i kartong här, och bilden skulle läsas som kartong mitt i en glasrad.",
+   "p3": "Rad tre är den lättaste: där är tre av sakerna mat och den fjärde en kastrull. Det avvikande föremålet ligger på plats fyra, tre, fyra och två – aldrig i samma spalt som raden ovanför och aldrig i en trappa åt samma håll, så vanan hjälper ingen. Skriv ut i färg; i gråskala blir glaset och plasten nästan lika. Sidan fungerar bäst när barnen redan har namn på materialen.",
+   "canonicalDeckSlug": "kallsortering-g2348",
+   "carousel": [
+    {
+     "label": "Källsortering",
+     "href": "kallsortering"
+    },
+    {
+     "label": "Källsortering: vilken tunna?",
+     "href": "kallsortering-vilken-tunna"
+    },
+    {
+     "label": "Källsortering: vad är det gjort av?",
+     "href": "kallsortering-vad-ar-det-gjort-av"
+    },
+    {
+     "label": "Tre saker jag lämnar till återvinning",
+     "href": "tre-saker-jag-lamnar-till-atervinning"
+    }
+   ],
+   "title": "Vilken sak är av annat material? – åk 2 | skriva ut PDF gratis",
+   "metaDescription": "Fyra rader med fyra saker. Tre i varje rad är av samma material – glas, plast, metall eller organiskt – och en är det inte. Ringa in den. Åk 2."
+  },
+  {
+   "slug": "tre-saker-jag-lamnar-till-atervinning",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-three-things-i-recycle",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad källsortering",
+   "h1": "Tre saker jag lämnar till återvinning",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "kallsortering",
+    "ak-1"
+   ],
+   "p1": "Tre breda rutor under varandra, numrerade ett, två och tre. Varje ruta har ett stående ritfält med streckad orange kant till vänster och två skrivrader till höger, båda med prickad mittlinje. Ingenting annat står på sidan: inga bilder, ingen ordlista, inga tunnor. Det är den enda sidan i serien där arket kommer helt tomt och där svaret hämtas hemifrån i stället för från papperet.",
+   "p2": "Öppna uppgifter brukar ge det bästa samtalet om källsortering, eftersom barnen då talar om sitt eget kök och inte om en tecknad tunna. Ritfältet kommer först och skrivraden sedan, vilket är rätt ordning för åk 1: bilden håller idén medan handen letar efter ordet. Två rader per sak räcker för en kort mening och lämnar plats för den som vill skriva både vad saken är och var den ska lämnas. Titeln talar om att lämna till återvinning medan instruktionen säger källsortera hemma, och skillnaden är värd att nämna – matavfallet sorteras hemma men lämnas inte på en station.",
+   "p3": "Skriv ut ett per barn och skicka gärna hem det över en helg; sidan blir bättre av att barnet har tittat i sopskåpet. Kritor eller färgpennor för ritfältet, blyerts för raderna. Det här är seriens avslutande sida och den enda utan rätt svar, så den passar som redovisning efter de andra fyra. Vill ni ha struktur i stället är vilken tunna det snabbaste bladet.",
+   "canonicalDeckSlug": "kallsortering-g1365",
+   "carousel": [
+    {
+     "label": "Källsortering",
+     "href": "kallsortering"
+    },
+    {
+     "label": "Källsortering: vilken tunna?",
+     "href": "kallsortering-vilken-tunna"
+    },
+    {
+     "label": "Källsortering: vad är det gjort av?",
+     "href": "kallsortering-vad-ar-det-gjort-av"
+    },
+    {
+     "label": "Källsortering: vilken sak är gjord av annat material?",
+     "href": "kallsortering-vilken-sak-ar-av-annat-material"
+    }
+   ],
+   "title": "Tre saker jag lämnar till återvinning – åk 1 | PDF att skriva ut",
+   "metaDescription": "Tre rutor att rita i och två skrivrader till varje. Barnet ritar tre saker det källsorterar hemma och skriver vad de är. Åk 1."
+  },
+  {
+   "slug": "fyll-i-ratt-ord-bokstavsrutor",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-letter-boxes",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad fyll i rätt ord",
+   "h1": "Fyll i rätt ord: bokstavsrutor",
+   "strand": "Ord och begrepp",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "fyll-i-ratt-ord",
+    "ak-1"
+   ],
+   "p1": "Ingen ordlista alls. Sju numrerade rader med en bild, ordet En och sedan en följd streckade bokstavsrutor, en per bokstav, innan meningen fortsätter. Rutorna är olika många: uggla får fem, sköldpadda tio, tupp fyra, elefant sju, kanin fem, ko två och helikopter tio. På de längsta raderna tar rutorna hela bredden, så meningens slut hamnar på en ny rad under bilden.",
+   "p2": "Att rutorna berättar ordets längd är både hjälp och krav. Ett barn som tvekar mellan två ord kan räkna, och ett barn som är säkert måste ändå stava bokstav för bokstav. Kontrasten mellan raden med två rutor och raden med tio är sidans bästa ögonblick: ko och sköldpadda står bredvid varandra i samma uppgift, och längden blir synlig som en sträcka på papperet. Bilden ger alltid ordet, så uppgiften handlar om stavning och inte om ordförståelse.",
+   "p3": "Skriv ut ett per barn och räkna med att de långa orden tar tid. Eftersom meningens senare del hamnar på rad två i flera uppgifter är det klokt att läsa hela meningen högt först, så att barnen hör att rutorna sitter mitt i en mening och inte efter den. Sidan är seriens mest krävande i skrift. Behövs mer stöd är grundsidan med ordlista rätt steg bakåt, och sidan ringa in och skriv ger två färdiga ord att välja mellan i stället för tomma rutor.",
+   "canonicalDeckSlug": "fyll-i-ratt-ord-g1366",
+   "carousel": [
+    {
+     "label": "Fyll i rätt ord",
+     "href": "fyll-i-ratt-ord"
+    },
+    {
+     "label": "Fyll i rätt ord: ringa in och skriv",
+     "href": "fyll-i-ratt-ord-ringa-in-och-skriv"
+    },
+    {
+     "label": "Fyll i rätt ord: fler än en",
+     "href": "fyll-i-ratt-ord-fler-an-en"
+    },
+    {
+     "label": "Fyll i orden i berättelsen",
+     "href": "fyll-i-orden-i-berattelsen"
+    }
+   ],
+   "title": "Fyll i rätt ord: bokstavsrutor – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Sju meningar utan ordlista. Bilden visar ordet och rutorna visar hur många bokstäver det har, från två till tio. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "fyll-i-ratt-ord-ringa-in-och-skriv",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-choose-the-word",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad fyll i rätt ord",
+   "h1": "Fyll i rätt ord: ringa in och skriv",
+   "strand": "Ord och begrepp",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "fyll-i-ratt-ord",
+    "ak-1"
+   ],
+   "p1": "Sex rutor, och i varje ruta en bild, en mening med en tom lucka och under den två ovala ordkort. Valen på det här bladet är segelbåt eller kanot, häst eller ko, hackspett eller uggla, get eller gris, lastbil eller traktor, elefant eller noshörning. Meningarna berättar vad saken gör: seglar över sjön, ger oss mjölk, hackar hål i trädstammen, rullar sig i leran, plöjer åkern på bondgården, sprutar vatten med snabeln. Barnet ringar in ett ord och skriver sedan samma ord i luckan.",
+   "p2": "Två steg per uppgift, och det är sidans idé. Att först välja och sedan skriva gör beslutet synligt och ger en stund till att ändra sig; för ett barn som tvekar i skrift är det dessutom lättare att avskriva ett ord som står tryckt precis under. Distraktorn hör alltid till samma familj – två fåglar, två gårdsdjur, två fordon – så valet står mellan närbesläktade ord och inte mellan uppenbart olika. Bilden visar alltid det rätta föremålet, vilket gör sidan till den lättaste i serien.",
+   "p3": "Ett ark, sex meningar, ungefär tio minuter. Skriv ut i färg så att skillnaden mellan hackspetten och ugglan syns. Eftersom bilden ger svaret fungerar sidan som en ingång för den som ännu inte läser hela meningar – men be barnen läsa meningen högt ändå, annars går verbet förlorat. Nästa steg i serien är grundsidan, där sju ord ligger i en gemensam lista utan parvisa val.",
+   "canonicalDeckSlug": "fyll-i-ratt-ord-g1367",
+   "carousel": [
+    {
+     "label": "Fyll i rätt ord",
+     "href": "fyll-i-ratt-ord"
+    },
+    {
+     "label": "Fyll i rätt ord: bokstavsrutor",
+     "href": "fyll-i-ratt-ord-bokstavsrutor"
+    },
+    {
+     "label": "Fyll i rätt ord: fler än en",
+     "href": "fyll-i-ratt-ord-fler-an-en"
+    },
+    {
+     "label": "Fyll i orden i berättelsen",
+     "href": "fyll-i-orden-i-berattelsen"
+    }
+   ],
+   "title": "Ringa in och skriv rätt ord – sex meningar – åk 1 | PDF gratis",
+   "metaDescription": "Sex meningar med en lucka och två ord att välja mellan under varje. Ringa in ordet som passar och skriv det i rutan. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "fyll-i-ratt-ord-fler-an-en",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-plural-nouns",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad fyll i rätt ord",
+   "h1": "Fyll i rätt ord: fler än en",
+   "strand": "Språkliga strukturer och normer",
+   "standard": "L.1.1.c",
+   "slotTokens": [
+    "fyll-i-ratt-ord",
+    "ak-2"
+   ],
+   "p1": "Åtta rader, och varje rad inleds med samma bild upprepad i stället för en enda. Sedan följer ett räkneord eller ordet Många, en tom lucka och resten av meningen: pickar korn på gården, lyfter mot rymden, svingar sig från träd till träd, vaggar fram över isen, rullar nerför backen, har randig päls, är små röda och söta, hänger upp och ner i grottan. Det finns ingen ordlista, så pluralformen ska bildas och inte hämtas.",
+   "p2": "Här ligger hela poängen i svenskan. De åtta orden hämtar sin pluralform ur fyra olika böjningsmönster, och två av dem är riktiga fällor: tiger blir tigrar med bortfallen vokal, och fladdermus blir fladdermöss med omljud. Att barnet ser flera bilder och inte får ordet tryckt någonstans är det som tvingar fram böjningen. Just därför bär den här sidan tyngden i serien på svenska, där pluralen inte kan klaras med ett tillagt s. Läs gärna orden högt innan ni rättar.",
+   "p3": "Antalet bilder stämmer alltid med ordet framför luckan: raden som börjar med Två har två bilder, raden med Tre har tre, och de sex rader som börjar med Många har också tre. Säg ändå innan ni sätter igång att bilderna visar att det är fler än en och inte hur många, annars hamnar ett räkneord i rutan. Skriv ut ett per barn i åk 2. Sidan är den enda i serien som handlar om ordets form snarare än dess betydelse, och den passar efter grundsidan.",
+   "canonicalDeckSlug": "fyll-i-ratt-ord-g2349",
+   "carousel": [
+    {
+     "label": "Fyll i rätt ord",
+     "href": "fyll-i-ratt-ord"
+    },
+    {
+     "label": "Fyll i rätt ord: bokstavsrutor",
+     "href": "fyll-i-ratt-ord-bokstavsrutor"
+    },
+    {
+     "label": "Fyll i rätt ord: ringa in och skriv",
+     "href": "fyll-i-ratt-ord-ringa-in-och-skriv"
+    },
+    {
+     "label": "Fyll i orden i berättelsen",
+     "href": "fyll-i-orden-i-berattelsen"
+    }
+   ],
+   "title": "Fler än en – skriv pluralformen – åk 2 | skriva ut PDF gratis",
+   "metaDescription": "Åtta meningar med flera likadana bilder i varje. Skriv ordet för fler än en: hönor, raketer, apor, pingviner, bollar, tigrar. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "fyll-i-orden-i-berattelsen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-story",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad fyll i rätt ord",
+   "h1": "Fyll i orden i berättelsen",
+   "strand": "Ord och begrepp",
+   "standard": "RF.2.4.c",
+   "slotTokens": [
+    "fyll-i-ratt-ord",
+    "ak-2"
+   ],
+   "p1": "Tre rutor, var och en med tre bilder överst och tre meningar under. Den första rutan visar en fisk, en hund och en svan, och meningarna handlar om dammen, ytan och stranden. Den andra visar en kanin, en räv och en uggla, och meningarna om natten, grytet och täppan. Den tredje visar en raket, en ballong och en drake, och meningarna om rymden, blåsten och taken. Ordlistan överst har nio ord, ett per lucka.",
+   "p2": "Till skillnad från de andra sidorna i serien hänger meningarna ihop. Bilderna över varje ruta står i en annan ordning än meningarna, så barnet kan inte gå uppifrån och ned utan måste läsa. Den första meningen är den intressantaste: både en svan och en fisk simmar, och det är prepositionen som avgör – den ena simmar på dammen, den andra blänker under ytan. Att låta ett litet ord bära skillnaden är precis den lässtrategi åk 2 håller på att bygga.",
+   "p3": "Skriv ut ett per barn och läs hela rutan högt innan luckorna fylls; texterna är korta nog för att hinnas med gemensamt i hela klassen. Instruktionen talar om de tre bilderna, och det gäller per ruta, inte per sida – nio bilder finns sammanlagt. Det här är seriens längsta lästext och den enda där ett ord kan uteslutas med hjälp av en annan mening i samma ruta. Sidan para ihop meningen med bilden är ett lättare alternativ.",
+   "canonicalDeckSlug": "fyll-i-ratt-ord-g2350",
+   "carousel": [
+    {
+     "label": "Fyll i rätt ord",
+     "href": "fyll-i-ratt-ord"
+    },
+    {
+     "label": "Fyll i rätt ord: bokstavsrutor",
+     "href": "fyll-i-ratt-ord-bokstavsrutor"
+    },
+    {
+     "label": "Fyll i rätt ord: ringa in och skriv",
+     "href": "fyll-i-ratt-ord-ringa-in-och-skriv"
+    },
+    {
+     "label": "Fyll i rätt ord: fler än en",
+     "href": "fyll-i-ratt-ord-fler-an-en"
+    }
+   ],
+   "title": "Fyll i orden i berättelsen – tre korta texter – åk 2 | PDF gratis",
+   "metaDescription": "Tre små berättelser med tre luckor var och en ordlista med nio ord. Bilderna över varje text visar orden som saknas. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "para-ihop-meningen-med-bilden",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "match-the-sentence-to-the-picture",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad fyll i rätt ord",
+   "h1": "Para ihop meningen med bilden",
+   "strand": "Ord och begrepp",
+   "standard": "RF.1.4.c",
+   "slotTokens": [
+    "fyll-i-ratt-ord",
+    "ak-1"
+   ],
+   "p1": "Sex meningar står i rutor till vänster, var och en med en tom lucka efter ordet En och resten av meningen efteråt: rullar sig i leran, har svarta och vita ränder, sprutar vatten med snabeln, har en mycket lång hals, bär sin unge i en ficka på magen, hackar hål i trädstammen. Till höger ligger sex bilder – en elefant, en hackspett, en sebra, en känguru, en gris och en giraff – i en annan ordning. Luckan lämnas tom; svaret är strecket.",
+   "p2": "Ingenting ska skrivas här, och det är det som gör sidan användbar tidigt. Ett barn som ännu inte stavar kan ändå visa att det har läst och förstått, eftersom strecket bär hela svaret. Meningarna är desamma som på grundsidan, så den som har gjort den känner igen dem och kan lägga uppmärksamheten på läsningen i stället för på ordet. Att bilderna ligger i omkastad ordning stänger möjligheten att para ihop radvis, och att luckan står kvar tom påminner om var ordet skulle ha suttit.",
+   "p3": "Skriv ut ett per barn; sex streck ryms utan att korsa varandra alltför mycket. Meningarna löper över två rader i de flesta rutorna, så be barnen läsa klart innan de drar. Den här sidan är seriens enklaste och en bra ingång för en nybörjarläsare eller för svenska som andraspråk. Ska barnet också skriva ordet är ringa in och skriv nästa steg uppåt.",
+   "canonicalDeckSlug": "fyll-i-ratt-ord-g1368",
+   "carousel": [
+    {
+     "label": "Fyll i rätt ord",
+     "href": "fyll-i-ratt-ord"
+    },
+    {
+     "label": "Fyll i rätt ord: bokstavsrutor",
+     "href": "fyll-i-ratt-ord-bokstavsrutor"
+    },
+    {
+     "label": "Fyll i rätt ord: ringa in och skriv",
+     "href": "fyll-i-ratt-ord-ringa-in-och-skriv"
+    },
+    {
+     "label": "Fyll i rätt ord: fler än en",
+     "href": "fyll-i-ratt-ord-fler-an-en"
+    }
+   ],
+   "title": "Para ihop meningen med bilden – sex par – åk 1 | PDF att skriva ut",
+   "metaDescription": "Sex meningar med en tom lucka till vänster och sex bilder till höger. Dra ett streck till bilden som passar i luckan. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "udda-eller-jamnt-skriv-tva-lika-stora-delar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-write-two-equal-addends",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad udda och jämna tal",
+   "h1": "Udda eller jämnt? Skriv två lika stora delar",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.OA.C.3",
+   "slotTokens": [
+    "udda-och-jamna-tal",
+    "ak-2"
+   ],
+   "p1": "Åtta kort i två spalter. Varje kort inleds med talet och likhetstecknet, följt av tre streckade rutor med plustecken emellan, där den sista är mindre och bär texten blir över. Under raden ligger ett vitt fält med prickar, tio i varje rad: 17 prickar som tio plus sju, 3 som en ensam rad, 18, 12, 8, 13, 14 och 19. Barnet ringar in prickarna två och två direkt på arket innan något skrivs.",
+   "p2": "Att skriva 17 som 8 plus 8 med en över är starkare än att bara kalla talet udda, för nu finns skälet på papperet. Fyra av de åtta talen är jämna, och just där kommer sidans knepiga ögonblick: när ingenting blir över ska en nolla skrivas i den lilla rutan, inte lämnas tomt. Det behöver sägas innan barnen börjar, annars ser en färdig sida ut att vara halvgjord. Prickarna ligger tio per rad, så den sista raden visar resten som en ojämn svans.",
+   "p3": "Ringa in med penna, inte med tusch – barnen behöver kunna sudda om paren blir fel. Skriv ut ett per barn i åk 2. Sidan är den enda i serien där barnet både ritar och skriver ett räkneuttryck, och den fungerar bäst som brygga mellan de konkreta sidorna och regeln om entalet. Sidan udda och jämna tal upp till 100 tar bort prickarna helt och ersätter dem med en regel.",
+   "canonicalDeckSlug": "udda-och-jamna-tal-g2351",
+   "carousel": [
+    {
+     "label": "Udda och jämna tal: skriv i rätt hus",
+     "href": "udda-och-jamna-tal-skriv-i-ratt-hus"
+    },
+    {
+     "label": "Kan två kompisar dela lika? Djurparksdjur",
+     "href": "kan-tva-kompisar-dela-lika-djurparksdjur"
+    },
+    {
+     "label": "Udda och jämna tal upp till 100: titta på entalet",
+     "href": "udda-och-jamna-tal-upp-till-100-titta-pa-entalet"
+    },
+    {
+     "label": "Udda eller jämn summa? Avgör utan att räkna ut den",
+     "href": "udda-eller-jamn-summa-utan-att-rakna-ut-den"
+    }
+   ],
+   "title": "Skriv talet som två lika stora delar – åk 2 | skriva ut PDF gratis",
+   "metaDescription": "Åtta tal mellan 3 och 19 med ett prickfält under. Ringa in två och två, skriv talet som två lika delar och vad som blir över. Åk 2."
+  },
+  {
+   "slug": "kan-tva-kompisar-dela-lika-djurparksdjur",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-can-two-friends-share-fairly",
+    "theme": "zoo_animals",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad udda och jämna tal",
+   "h1": "Kan två kompisar dela lika? Djurparksdjur",
+   "strand": "Taluppfattning och tals användning",
+   "slotTokens": [
+    "udda-och-jamna-tal",
+    "djurparksdjur",
+    "ak-1"
+   ],
+   "p1": "Sex rader, och varje rad börjar med en hög djurparksdjur: tre lemurer, fem giraffer, sex leoparder, fyra surikater, åtta vargar och sju älgar. Högarna rör sig mellan tre och åtta, varje antal en enda gång, och bilderna ligger fem per rad. Till höger står två rutor med ett svenskt förnamn över varje – Liam och Elias på första raden, Alma och Liam på den andra – och efter dem en mindre ruta märkt blir över och två ovaler med orden udda och jämnt.",
+   "p2": "Att dela mellan två kompisar är den äldsta och tydligaste vägen in i paritet: barnet delar en i taget, och antingen går det jämnt upp eller så blir ett djur över – ordet udda behöver inte vara känt för att skillnaden ska synas. De tre stegen på raden följer tanken i rätt ordning: hur många var och en får, vad som blir över, och sist ordet för det. Tre rader är udda och tre jämna, men de ligger inte varannan, så ingen rytm kan ta över räknandet.",
+   "p3": "Fem bilder per rad är inte en tillfällighet. Högarna på tre, fyra och fem ryms på en enda rad, medan sex, sju och åtta viker ner och lämnar en kortare rad under – och båda grupperna rymmer både udda och jämnt, så radens form avslöjar ingenting. Skriv ut i färg; djuren ska kunna räknas på en blick. Sidan passar tidigt i åk 1. Närmaste grannen är räkna bilderna parvis, samma idé utan namn och utan delning.",
+   "canonicalDeckSlug": "udda-och-jamna-tal-djurparksdjur-g1369",
+   "carousel": [
+    {
+     "label": "Udda och jämna tal: skriv i rätt hus",
+     "href": "udda-och-jamna-tal-skriv-i-ratt-hus"
+    },
+    {
+     "label": "Udda eller jämnt? Skriv två lika stora delar",
+     "href": "udda-eller-jamnt-skriv-tva-lika-stora-delar"
+    },
+    {
+     "label": "Udda och jämna tal upp till 100: titta på entalet",
+     "href": "udda-och-jamna-tal-upp-till-100-titta-pa-entalet"
+    },
+    {
+     "label": "Udda eller jämn summa? Avgör utan att räkna ut den",
+     "href": "udda-eller-jamn-summa-utan-att-rakna-ut-den"
+    }
+   ],
+   "title": "Kan två kompisar dela lika? Djur – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Sex rader med djurparksdjur, tre till åtta i varje, att dela mellan två kompisar. Skriv hur många var och en får och hur många som blir över. Åk 1."
+  },
+  {
+   "slug": "udda-och-jamna-tal-upp-till-100-titta-pa-entalet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-under-100-look-at-the-ones-box",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad udda och jämna tal",
+   "h1": "Udda och jämna tal upp till 100: titta på entalet",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.OA.C.3",
+   "slotTokens": [
+    "udda-och-jamna-tal",
+    "ak-2"
+   ],
+   "p1": "Regeln står tryckt i en egen ram överst: ett tal är udda om det slutar på 1, 3, 5, 7 eller 9, och jämnt om det slutar på 0, 2, 4, 6 eller 8. Under den ligger tolv tal i två spalter, vart och ett delat i två rutor med kolumnrubrikerna T och E. Entalsrutan är tonad i ljus korall, tiotalsrutan är vit. Till höger om varje tal står två ringar under rubrikerna udda och jämnt, och ett kryss sätts i den ena. Talen på det här bladet är 86, 37, 21, 32, 58, 99, 65, 55, 42, 14, 53 och 70.",
+   "p2": "Steget bort från prickarna. Här räknas ingenting: barnet tittar på en enda siffra och tillämpar en regel, vilket är precis det som gör att paritet plötsligt fungerar för tal som är för stora att lägga ut. Den tonade entalsrutan är det bärande draget, eftersom den visar var blicken ska landa utan att tala om svaret. Talen är valda så att tiotalssiffran inte hjälper: 86 och 65 börjar på en jämn respektive udda siffra men har motsatt paritet. Sex av tolv är udda.",
+   "p3": "Rubrikerna T och E står för tiotal och ental, precis som i positionssystemet, och det tål att sägas första gången. Skriv ut ett per barn; blyerts räcker eftersom svaret är ett kryss i en liten ring. Sidan är den snabbaste i serien när regeln väl sitter och lämpar sig som repetition. Ska barnet gå ett steg längre tar udda eller jämn summa regeln vidare till addition utan uträkning.",
+   "canonicalDeckSlug": "udda-och-jamna-tal-g2352",
+   "carousel": [
+    {
+     "label": "Udda och jämna tal: skriv i rätt hus",
+     "href": "udda-och-jamna-tal-skriv-i-ratt-hus"
+    },
+    {
+     "label": "Udda eller jämnt? Skriv två lika stora delar",
+     "href": "udda-eller-jamnt-skriv-tva-lika-stora-delar"
+    },
+    {
+     "label": "Kan två kompisar dela lika? Djurparksdjur",
+     "href": "kan-tva-kompisar-dela-lika-djurparksdjur"
+    },
+    {
+     "label": "Udda eller jämn summa? Avgör utan att räkna ut den",
+     "href": "udda-eller-jamn-summa-utan-att-rakna-ut-den"
+    }
+   ],
+   "title": "Udda eller jämnt upp till 100 – titta på entalet – åk 2 | PDF",
+   "metaDescription": "En regel högst upp och tolv tvåsiffriga tal med tiotal och ental i var sin ruta. Kryssa för udda eller jämnt. Åk 2. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "udda-eller-jamn-summa-utan-att-rakna-ut-den",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-sum-decide-without-adding",
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Arbetsblad udda och jämna tal",
+   "h1": "Udda eller jämn summa? Avgör utan att räkna ut den",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "3.OA.D.9",
+   "slotTokens": [
+    "udda-och-jamna-tal",
+    "ak-3"
+   ],
+   "p1": "Tabellen högst upp har tre rader: jämnt plus jämnt blir jämnt, udda plus udda blir jämnt, jämnt plus udda blir udda. Under den ligger tolv additioner i två spalter, alla med tresiffriga tal och alla med entalssiffran understruken i korall – 963 plus 573, 549 plus 858, 861 plus 316 och så vidare upp till 879 plus 121. Till höger om varje uppgift står två ringar under rubrikerna udda och jämnt. Ingen summa ska skrivas någonstans på sidan.",
+   "p2": "Instruktionen säger det rakt ut: räkna inte ut summan. Det är ovant och det är hela poängen, för sidan handlar om en egenskap hos talen och inte om additionen. Att talen är tresiffriga är avsiktligt – de är för stora att räkna ut i huvudet, vilket gör regeln till den enklaste vägen fram. Sex av de tolv summorna blir udda. På tre rader står det udda talet först, och då måste tabellens tredje rad vändas; att addition ger samma svar oavsett ordning är ett steg som är värt att ta högt.",
+   "p3": "Ett ark, tolv beslut, inga uträkningar – sidan går på tio minuter och lämnar tid till att pröva ett par av svaren med riktig addition efteråt, vilket brukar vara det som övertygar. Skriv ut i färg så att understrykningarna syns. Det här är seriens svåraste sida och den enda som bygger på en tabell. Kommer regeln inte fram av sig själv är titta på entalet det steg som behövs före.",
+   "canonicalDeckSlug": "udda-och-jamna-tal-g3386",
+   "carousel": [
+    {
+     "label": "Udda och jämna tal: skriv i rätt hus",
+     "href": "udda-och-jamna-tal-skriv-i-ratt-hus"
+    },
+    {
+     "label": "Udda eller jämnt? Skriv två lika stora delar",
+     "href": "udda-eller-jamnt-skriv-tva-lika-stora-delar"
+    },
+    {
+     "label": "Kan två kompisar dela lika? Djurparksdjur",
+     "href": "kan-tva-kompisar-dela-lika-djurparksdjur"
+    },
+    {
+     "label": "Udda och jämna tal upp till 100: titta på entalet",
+     "href": "udda-och-jamna-tal-upp-till-100-titta-pa-entalet"
+    }
+   ],
+   "title": "Udda eller jämn summa utan uträkning – åk 3 | PDF att skriva ut",
+   "metaDescription": "Tolv additioner med tresiffriga tal och understruket ental. En tabell med tre regler avgör om summan blir udda eller jämn. Åk 3."
+  },
+  {
+   "slug": "udda-eller-jamnt-rakna-bilderna-parvis-fordon",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-count-the-pictures-in-pairs",
+    "theme": "vehicles",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad udda och jämna tal",
+   "h1": "Udda eller jämnt? Räkna bilderna parvis – fordon",
+   "strand": "Taluppfattning och tals användning",
+   "slotTokens": [
+    "udda-och-jamna-tal",
+    "fordon",
+    "ak-1"
+   ],
+   "p1": "Sex rader med fordon, alla likadana inom sin rad: fjorton helikoptrar, sexton gaffeltruckar, tolv ambulanser, tretton taxibilar, sjutton grävmaskiner och femton jeepar. Fordonen ligger nio i den övre raden och resten i den undre. Till höger står en streckad ruta med ordet par efter sig, och under den två ovaler med orden udda och jämnt. Tre av raderna är jämna och tre udda.",
+   "p2": "Att gå från antal till antal par är ett riktigt steg framåt: barnet slutar räkna ett i taget och börjar räkna två i taget, och det är grunden för både multiplikation och paritet. Sidan är den mest krävande av de konkreta varianterna eftersom antalen går upp till sjutton, alltså långt över det barnet kan se utan att räkna. Att skriva antalet par och inte antalet fordon är dessutom en vanlig fallgrop, och rutan säger par så att det inte går att missa.",
+   "p3": "Var beredd på att paren behöver ringas in över radbrytningen: fordonen ligger nio per rad, ett udda antal, så det nionde fordonet i den övre raden hör ihop med det första i den undre. Visa det på första raden innan barnen fortsätter själva. Skriv ut i färg och ge gott om tid. Behövs ett enklare steg är kan två kompisar dela lika samma idé med färre bilder och två mottagare.",
+   "canonicalDeckSlug": "udda-och-jamna-tal-fordon-g1370",
+   "carousel": [
+    {
+     "label": "Udda och jämna tal: skriv i rätt hus",
+     "href": "udda-och-jamna-tal-skriv-i-ratt-hus"
+    },
+    {
+     "label": "Udda eller jämnt? Skriv två lika stora delar",
+     "href": "udda-eller-jamnt-skriv-tva-lika-stora-delar"
+    },
+    {
+     "label": "Kan två kompisar dela lika? Djurparksdjur",
+     "href": "kan-tva-kompisar-dela-lika-djurparksdjur"
+    },
+    {
+     "label": "Udda och jämna tal upp till 100: titta på entalet",
+     "href": "udda-och-jamna-tal-upp-till-100-titta-pa-entalet"
+    }
+   ],
+   "title": "Räkna bilderna parvis – fordon – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Sex rader fordon, mellan tolv och sjutton i varje. Ringa in dem två och två, skriv antalet par och ringa in udda eller jämnt. Åk 1."
+  },
+  {
+   "slug": "byt-ut-namnet-mot-ett-pronomen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-replace-the-name-with-a-pronoun",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad pronomen",
+   "h1": "Byt ut namnet mot ett pronomen",
+   "strand": "Språkliga strukturer och normer",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronomen-han-hon-eller-de",
+    "ak-1"
+   ],
+   "p1": "Ordlistan överst har tre ord med stor bokstav: Hon, De och Han. Under den står åtta rader, och varje rad bär två meningar. Den första är komplett och börjar med ett namn, till exempel Nils ritar sin katt. Den andra är densamma men saknar sitt första ord, och där står en tom lucka: ritar sin katt. Barnet skriver in pronomenet. Tre av raderna har två namn och ska alltså ha De, tre har Han och två Hon, så orden används flera gånger var.",
+   "p2": "Den andra meningen är en spegel av den första, vilket gör bytet synligt: allt annat står kvar, bara namnet är borta. Att orden i listan är skrivna med versal är inget slarv utan en upplysning – pronomenet står först i meningen och ska ha stor bokstav, precis som namnet det ersätter. Det är en av de vanligaste rättelserna i åk 1 och den sköter sig själv här. Flera rader har dessutom ordet sin kvar, och den formen ändras inte när Nils blir Han, vilket är värt att visa.",
+   "p3": "Säg innan ni börjar att varje ord i listan får användas mer än en gång, annars kör den som har prickat av alla tre fast på rad fyra. Bilderna till vänster kommer ur en yrkessamling och stämmer inte alltid med meningen – en bild på en vuxen med kvast bredvid en mening om att rita sin katt är en bild för könet, inte för handlingen. Sidan skriv om meningen med ett pronomen låter barnet skriva hela meningen själv.",
+   "canonicalDeckSlug": "pronomen-han-hon-eller-de-g1371",
+   "carousel": [
+    {
+     "label": "Pronomen: han, hon eller de",
+     "href": "pronomen-han-hon-eller-de"
+    },
+    {
+     "label": "Vem är han? Pronomen i meningen",
+     "href": "vem-ar-han-pronomen-i-meningen"
+    },
+    {
+     "label": "Hans, hennes eller deras?",
+     "href": "hans-hennes-eller-deras"
+    },
+    {
+     "label": "Sortera namnen: han, hon eller de",
+     "href": "sortera-namnen-han-hon-eller-de"
+    }
+   ],
+   "title": "Byt ut namnet mot ett pronomen – åtta par – åk 1 | PDF gratis",
+   "metaDescription": "Åtta meningspar där den andra meningen saknar sitt subjekt. Skriv Hon, Han eller De ur ordlistan i luckan. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "vem-ar-han-pronomen-i-meningen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-who-is-he-pronouns-in-sentences",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad pronomen",
+   "h1": "Vem är han? Pronomen i meningen",
+   "strand": "Språkliga strukturer och normer",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronomen-han-hon-eller-de",
+    "ak-2"
+   ],
+   "p1": "Fem rutor, och i varje ruta två personer med sina namn till vänster och en liten scen till höger. Scenen inleds med en mening som namnger båda – Vera och Nils är i köket – och följs av två meningar som börjar med en inramad pronomen: Hon bakar en kaka, Han gör en smörgås. En orange punkt sitter vid varje namn och vid varje inramat ord, och barnet drar strecket mellan dem. Platserna är köket, parken, skolan, djurparken och trädgården.",
+   "p2": "Att ta reda på vem ett pronomen syftar på är läsförståelse mer än grammatik, och det är den färdighet texten kräver från åk 2 och uppåt. Sidan bygger upp den i en trygg form: bara två personer per scen och en mening var. Värt att veta innan ni delar ut den är att varje par består av en flicka och en pojke, så strecken går att dra på namnets form ensam – vill ni att meningarna verkligen ska läsas kan ni täcka namnen och låta barnen läsa scenen högt först.",
+   "p3": "Skriv ut i färg. Fem scener och tio streck ryms med god marginal, och sidan går att göra tyst på en kvart. Personbilderna kommer ur en yrkessamling och föreställer vuxna; namnen är barnnamn, så säg gärna att bilderna bara visar vem som är vem. Sidan hans, hennes eller deras tar samma personer vidare till ägande i stället för till subjekt.",
+   "canonicalDeckSlug": "pronomen-han-hon-eller-de-g2353",
+   "carousel": [
+    {
+     "label": "Pronomen: han, hon eller de",
+     "href": "pronomen-han-hon-eller-de"
+    },
+    {
+     "label": "Byt ut namnet mot ett pronomen",
+     "href": "byt-ut-namnet-mot-ett-pronomen"
+    },
+    {
+     "label": "Hans, hennes eller deras?",
+     "href": "hans-hennes-eller-deras"
+    },
+    {
+     "label": "Sortera namnen: han, hon eller de",
+     "href": "sortera-namnen-han-hon-eller-de"
+    }
+   ],
+   "title": "Vem är han? Pronomen i meningen – åk 2 | skriva ut PDF gratis",
+   "metaDescription": "Fem scener med två personer och två meningar var. Dra ett streck från ordet Hon eller Han till namnet det står för. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "hans-hennes-eller-deras",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-possessive-pronouns",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad pronomen",
+   "h1": "Hans, hennes eller deras?",
+   "strand": "Språkliga strukturer och normer",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronomen-han-hon-eller-de",
+    "ak-2"
+   ],
+   "p1": "Åtta rader, var och en byggd likadant: en eller två personer i bild, en sak i bild, och meningen Här är Otto. Det är ... trumma, med en tom lucka mitt i. Under meningen står tre ovaler med orden hans, hennes och deras. Ägarna är Otto, Ivar, Saga, Vera och Alva, Elsa, Leo och Olle, Ida och Hugo samt Maja, och sakerna är en trumma, en bil, en bok, en hund, en boll, en hatt, en drake och ett tåg.",
+   "p2": "Svenskan har ett ägandepronomen per ägare, inte per sak, och det är därför den här sidan fungerar på svenska. Hans, hennes och deras ser likadana ut oavsett om saken är en bil eller ett tåg, så barnet behöver bara titta på vem som äger – bilden av ägaren är alltså den enda ledtråden som behövs. Frameringen är dessutom vald för att undvika en annan svensk fälla: eftersom meningen börjar om med Det är, är hans rätt och sin fel, vilket det inte skulle vara i en mening där Otto själv är subjekt.",
+   "p3": "Ett ark, åtta beslut, en penna. Tre av raderna visar två ägare och ska ha deras; tre har hennes och två hans. Skriv ut i färg så att sakerna går att känna igen. Sidan är den enda i serien som handlar om ägande, och den är avsiktligt skild från den svåra sin-regeln, som hör hemma senare. Kommer frågan om sin ändå upp är det ett gott tecken.",
+   "canonicalDeckSlug": "pronomen-han-hon-eller-de-g2354",
+   "carousel": [
+    {
+     "label": "Pronomen: han, hon eller de",
+     "href": "pronomen-han-hon-eller-de"
+    },
+    {
+     "label": "Byt ut namnet mot ett pronomen",
+     "href": "byt-ut-namnet-mot-ett-pronomen"
+    },
+    {
+     "label": "Vem är han? Pronomen i meningen",
+     "href": "vem-ar-han-pronomen-i-meningen"
+    },
+    {
+     "label": "Sortera namnen: han, hon eller de",
+     "href": "sortera-namnen-han-hon-eller-de"
+    }
+   ],
+   "title": "Hans, hennes eller deras – åtta rader – åk 2 | skriva ut PDF gratis",
+   "metaDescription": "Åtta rader med en ägare och en sak. Ringa in hans, hennes eller deras. Trumma, bil, bok, hund, boll, hatt, drake och tåg. Åk 2."
+  },
+  {
+   "slug": "sortera-namnen-han-hon-eller-de",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-sort-the-names-he-she-or-they",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad pronomen",
+   "h1": "Sortera namnen: han, hon eller de",
+   "strand": "Språkliga strukturer och normer",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronomen-han-hon-eller-de",
+    "ak-1"
+   ],
+   "p1": "Tio namnkort ligger i en hylla överst, två rader om fem, vart och ett med en liten bild och namnet under: Otto, Maja, Vera och Elsa, Olle, Nils, Saga och Leo, Alva, Hugo, Ida och Ivar. Under hyllan står tre höga lådor med skyltarna han, hon och de, var och en med sju prickade skrivlinjer. Fem namn hör till han, tre till hon och två till de – de två är korten med två namn på.",
+   "p2": "Att sortera är ett annat tankesätt än att välja mellan tre ovaler: barnet måste bygga tre högar och hålla reda på vilka kort som redan är tagna. Det gör sidan till en bra avstämning efter grundsidan, eftersom felen syns direkt när en låda blir tom eller överfull. Namnen ska dessutom skrivas av, vilket ger en stunds handstil på köpet. Att korten bär en bild gör sorteringen möjlig även för den som ännu inte läser namnen säkert.",
+   "p3": "Lådorna har sju linjer var, alltså fler än vad som behövs – det är med flit, för lika många linjer som namn skulle avslöja hur många som hör till varje ord. Elva av de tjugoen linjerna ska stå tomma. Skriv ut ett per barn. Vill ni pröva utan bildstöd går det bra att vika bort bilderna på korten och låta namnen ensamma bestämma.",
+   "canonicalDeckSlug": "pronomen-han-hon-eller-de-g1372",
+   "carousel": [
+    {
+     "label": "Pronomen: han, hon eller de",
+     "href": "pronomen-han-hon-eller-de"
+    },
+    {
+     "label": "Byt ut namnet mot ett pronomen",
+     "href": "byt-ut-namnet-mot-ett-pronomen"
+    },
+    {
+     "label": "Vem är han? Pronomen i meningen",
+     "href": "vem-ar-han-pronomen-i-meningen"
+    },
+    {
+     "label": "Hans, hennes eller deras?",
+     "href": "hans-hennes-eller-deras"
+    }
+   ],
+   "title": "Sortera namnen i tre lådor – han, hon, de – åk 1 | PDF gratis",
+   "metaDescription": "Tio namnkort och tre lådor märkta han, hon och de. Skriv varje namn i lådan under ordet vi använder för den personen. Åk 1."
+  },
+  {
+   "slug": "skriv-om-meningen-med-ett-pronomen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-rewrite-the-sentence-with-a-pronoun",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad pronomen",
+   "h1": "Skriv om meningen med ett pronomen",
+   "strand": "Språkliga strukturer och normer",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronomen-han-hon-eller-de",
+    "ak-2"
+   ],
+   "p1": "Åtta meningar under varandra, var och en med en bild till vänster och en skrivrad med tre linjer under sig. Meningarna är Leo är trött efter skolan, Otto och Maja är snabba på hopprep, Saga och Elsa äter sina äpplen, Nils och Hugo leker med sina bollar, Olle är glad i parken, Vera matar sin hund, Ivar målar sin tavla och Alva bygger sitt torn. Ingen ordlista finns; barnet väljer pronomenet själv och skriver hela meningen på nytt.",
+   "p2": "Det som gör den här sidan värd besväret på svenska är orden sin, sitt och sina. Fyra av meningarna bär dem, och de ändras inte när namnet byts ut: Vera matar sin hund blir Hon matar sin hund, inte hennes hund. Barnet upptäcker det genom att skriva, inte genom att få det förklarat. Samtidigt måste adjektivet i de tre första meningarna stå kvar i sin form – trött, snabba – vilket påminner om att pluralen redan var inbyggd i meningen innan pronomenet kom dit.",
+   "p3": "En skrivrad per mening räcker för de flesta svaren, men de två längsta ligger nära kanten, så låt gärna de barn som skriver stort fortsätta i marginalen. Skriv ut ett per barn i åk 2. Sidan är seriens enda renodlade skrivuppgift och kräver att barnet redan kan välja rätt pronomen; sidan byt ut namnet mot ett pronomen ger samma uppgift med ordlista och färdig mening.",
+   "canonicalDeckSlug": "pronomen-han-hon-eller-de-g2355",
+   "carousel": [
+    {
+     "label": "Pronomen: han, hon eller de",
+     "href": "pronomen-han-hon-eller-de"
+    },
+    {
+     "label": "Byt ut namnet mot ett pronomen",
+     "href": "byt-ut-namnet-mot-ett-pronomen"
+    },
+    {
+     "label": "Vem är han? Pronomen i meningen",
+     "href": "vem-ar-han-pronomen-i-meningen"
+    },
+    {
+     "label": "Hans, hennes eller deras?",
+     "href": "hans-hennes-eller-deras"
+    }
+   ],
+   "title": "Skriv om meningen med ett pronomen – åk 2 | PDF att skriva ut",
+   "metaDescription": "Åtta meningar med namn och en skrivrad till varje. Skriv om meningen med han, hon eller de i stället för namnet. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "para-ihop-fragan-med-svaret",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-match-the-question-to-the-answer",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad frågeord",
+   "h1": "Para ihop frågan med svaret",
+   "strand": "Språkliga strukturer och normer",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "frageord",
+    "ak-1"
+   ],
+   "p1": "Fem frågor står i rutor till vänster: Var läser Saga, Vad ritar Otto, Hur många gungor hittar Maja, Vem gillar sandlådan och När sover Ivar. Till höger ligger fem svarskort, vart och ett med en bild och ett ord – ett kök och orden i köket, en springande flicka och namnet Elsa, en klocka som visar sju och orden klockan sju, en färja och ordet färjan, och en gunga med ordet fem. Mellan kolumnerna sitter orange punkter att dra strecket mellan.",
+   "p2": "Fem olika frågeord i samma uppgift är det som skiljer sidan från grundsidan: När och Hur många kommer in vid sidan av Vem, Vad och Var, och varje fråga kräver en annan sorts svar – en plats, en sak, ett antal, en person, en tidpunkt. Att svaret är en bild och ett ord tillsammans gör att sidan fungerar även innan barnet läser säkert. Fyra av korten kan kännas igen på bilden ensam, men det femte, antalet, måste läsas.",
+   "p3": "Skriv ut i färg; klockan och färjan bär sina svar i bilden. Ett par saker att titta på före lektionen: gungkortet har en grön femma i hörnet som ser ut som de sifferbrickor som numrerar uppgifter på andra sidor i batchen, men här betyder den antalet, och kortet visar en enda gunga. Säg det högt så slipper barnen leta. Sidan fyll i frågeordet ger samma fem ord som ordlista.",
+   "canonicalDeckSlug": "frageord-g1373",
+   "carousel": [
+    {
+     "label": "Frågeord: vem, vad, var",
+     "href": "frageord-vem-vad-var"
+    },
+    {
+     "label": "Fyll i frågeordet",
+     "href": "fyll-i-frageordet"
+    },
+    {
+     "label": "Sortera svaren: vem, vad eller var",
+     "href": "sortera-svaren-vem-vad-eller-var"
+    },
+    {
+     "label": "Ställ en fråga till svaret",
+     "href": "stall-en-fraga-skriv-fragan-till-svaret"
+    }
+   ],
+   "title": "Para ihop frågan med svaret – fem frågor – åk 1 | PDF gratis",
+   "metaDescription": "Fem frågor till vänster och fem svarskort med bild till höger. Dra ett streck till det svar som passar frågan. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "fyll-i-frageordet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-fill-in-the-question-word",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad frågeord",
+   "h1": "Fyll i frågeordet",
+   "strand": "Språkliga strukturer och normer",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "frageord",
+    "ak-1"
+   ],
+   "p1": "Ordlistan överst har fem ord: Hur många, Var, När, Vad och Vem. Under den ligger sex rutor, och varje ruta bär två rader. Den övre raden är frågan, som saknar sitt första ord och börjar med en tom lucka: ... äter Saga. Den undre raden är svaret med den avgörande delen markerad i korall: Saga äter klockan två. Barnet läser svaret, ser vad som är markerat och skriver frågeordet i luckan.",
+   "p2": "Riktningen är omvänd mot grundsidan, och det är svårare: i stället för att välja bland tre ord som står framför en ska ordet hämtas ur listan och skrivas. Svenskan gör steget lättare än engelskan gör det, eftersom frågeordet går rakt in framför verbet – När äter Saga, Vad ser Otto – utan något hjälpverb emellan. Den femte raden visar en variant värd att peka på: Hur många är två ord och ställer sig före substantivet, alltså Hur många gungor ser Alva.",
+   "p3": "Säg före start att ett ord kan behöva användas två gånger, eftersom listan har fem ord och sidan sex frågor. Skriv ut i färg för markeringarnas skull. Där markeringen avslutar meningen står punkten med ett litet mellanrum efter ordet, vilket är en tryckdetalj och inte ett skiljetecken att skriva av. Sidan ställ en fråga tar bort ordlistan och låter barnet skriva hela frågan.",
+   "canonicalDeckSlug": "frageord-g1374",
+   "carousel": [
+    {
+     "label": "Frågeord: vem, vad, var",
+     "href": "frageord-vem-vad-var"
+    },
+    {
+     "label": "Para ihop frågan med svaret",
+     "href": "para-ihop-fragan-med-svaret"
+    },
+    {
+     "label": "Sortera svaren: vem, vad eller var",
+     "href": "sortera-svaren-vem-vad-eller-var"
+    },
+    {
+     "label": "Ställ en fråga till svaret",
+     "href": "stall-en-fraga-skriv-fragan-till-svaret"
+    }
+   ],
+   "title": "Fyll i frågeordet – fem ord i ordlistan – åk 1 | PDF att skriva ut",
+   "metaDescription": "Sex frågor med en tom ruta först och svaret under. Skriv Hur många, Var, När, Vad eller Vem ur ordlistan i rutan. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "sortera-svaren-vem-vad-eller-var",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-sort-the-answers-who-what-or-where",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad frågeord",
+   "h1": "Sortera svaren: vem, vad eller var",
+   "strand": "Språkliga strukturer och normer",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "frageord",
+    "ak-1"
+   ],
+   "p1": "Nio ordkort ligger i en hylla överst, utan en enda bild: helikoptern, sandlådan, hemma, i köket, persimonen, Leo, Maja, på berget och Vera. Under hyllan står tre höga lådor med skyltarna Vem, Vad och Var, var och en med åtta prickade skrivlinjer. Tre kort hör till varje låda, så fördelningen är helt jämn – tre namn, tre saker och tre platser.",
+   "p2": "Det här är den enda sidan i serien utan bildstöd, och därför också den enda där läsningen verkligen är uppgiften. Barnet måste avgöra vilken sorts ord det har framför sig och sedan koppla det till en fråga, vilket är en abstraktion som annars sällan begärs i åk 1. Platskorten ger den tydligaste ledtråden eftersom två av tre inleds med en preposition, i köket och på berget, medan hemma står ensamt och måste kännas igen som ett platsord ändå.",
+   "p3": "Lådorna har åtta linjer var trots att bara tre kort hör till varje – fler linjer än svar är med flit, så att antalet linjer inte avslöjar fördelningen. Skriv ut ett per barn. Ett av korten, persimonen, är en frukt som få svenska barn har ett namn på; byt det gärna muntligt mot något ur klassrummet. Sidan para ihop frågan med svaret ger samma idé med bilder till stöd.",
+   "canonicalDeckSlug": "frageord-g1375",
+   "carousel": [
+    {
+     "label": "Frågeord: vem, vad, var",
+     "href": "frageord-vem-vad-var"
+    },
+    {
+     "label": "Para ihop frågan med svaret",
+     "href": "para-ihop-fragan-med-svaret"
+    },
+    {
+     "label": "Fyll i frågeordet",
+     "href": "fyll-i-frageordet"
+    },
+    {
+     "label": "Ställ en fråga till svaret",
+     "href": "stall-en-fraga-skriv-fragan-till-svaret"
+    }
+   ],
+   "title": "Sortera svaren i tre lådor – vem, vad, var – åk 1 | PDF gratis",
+   "metaDescription": "Nio ordkort utan bilder och tre lådor märkta Vem, Vad och Var. Skriv varje kort i lådan under den fråga det svarar på. Åk 1."
+  },
+  {
+   "slug": "stall-en-fraga-skriv-fragan-till-svaret",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-write-the-question",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad frågeord",
+   "h1": "Ställ en fråga till svaret",
+   "strand": "Språkliga strukturer och normer",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "frageord",
+    "ak-2"
+   ],
+   "p1": "Åtta rader, var och en med en person i bild, ett färdigt påstående och en skrivrad under. I påståendet är en del markerad i korall: i garaget, klockan nio, namnet Ida, räkneordet fyra, vid sjön, avokadon, gåsen och namnet Ivar. Barnet skriver en hel fråga på raden – Var leker Leo, När sover Maja, Vem hittar tre tuppar och så vidare. Ingen ordlista finns och inga alternativ ges.",
+   "p2": "Att ställa frågan i stället för att svara på den är seriens svåraste steg, och det kräver tre saker på en gång: rätt frågeord, rätt ordföljd och ett frågetecken. Svenskan sätter verbet direkt efter frågeordet, så Var leker Leo har en annan ordföljd än påståendet Leo leker i garaget – subjektet och verbet byter plats. Det är omvänd ordföljd i praktiken, och den lär sig ett barn i åk 2 fortare genom att skriva åtta frågor än genom att få regeln förklarad.",
+   "p3": "En skrivrad per fråga, och den längsta frågan på sidan – den som frågar efter ett antal lastbilar – ligger nära radens slut, så räkna med att någon behöver fortsätta i marginalen. Skriv ut i färg. Kom överens om frågetecknet innan ni börjar; det glöms oftare än ordföljden. Behöver barnet mer stöd är fyll i frågeordet steget före, där bara ett ord ska skrivas.",
+   "canonicalDeckSlug": "frageord-g2356",
+   "carousel": [
+    {
+     "label": "Frågeord: vem, vad, var",
+     "href": "frageord-vem-vad-var"
+    },
+    {
+     "label": "Para ihop frågan med svaret",
+     "href": "para-ihop-fragan-med-svaret"
+    },
+    {
+     "label": "Fyll i frågeordet",
+     "href": "fyll-i-frageordet"
+    },
+    {
+     "label": "Sortera svaren: vem, vad eller var",
+     "href": "sortera-svaren-vem-vad-eller-var"
+    }
+   ],
+   "title": "Ställ en fråga – åtta svar att fråga om – åk 2 | PDF att skriva ut",
+   "metaDescription": "Åtta färdiga svar med en markerad del. Skriv på linjen den fråga som frågar efter just den delen. Åk 2. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "fraga-om-bilden-varfor-och-hur",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-ask-about-the-picture-why-and-how",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad frågeord",
+   "h1": "Fråga om bilden: varför och hur",
+   "strand": "Språkliga strukturer och normer",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "frageord",
+    "ak-2"
+   ],
+   "p1": "Överst ligger fyra bildkort bredvid varandra: en byggnadsarbetare med hjälm, en orange frukt, ett hus med rött tak och en klocka som visar nio. Under dem står ett stort fält med sex skrivrader, och varje rad inleds med ett grått frågeord tryckt på linjen – Vem, Vad, Var, När, Varför och Hur. Resten av raden är tom. Barnet skriver klart varje fråga själv, sex frågor sammanlagt.",
+   "p2": "De två sista orden är sidans anledning att finnas. Varför och Hur kräver ett annat slags svar än de fyra föregående: inte en person, en sak, en plats eller en tid, utan ett skäl eller ett sätt. Det är den öppna frågan barnet möter först i åk 2 och som bär hela den senare texttolkningen. De fyra första orden står med för att ge en upptrappning, och de är lätta att fylla i eftersom korten ger direkta svar; de två sista kräver att barnet hittar på ett sammanhang mellan korten.",
+   "p3": "Rubriken lyfter fram varför och hur, men arket bär alla sex frågeorden, så planera för en längre stund än de två sista raderna antyder. Korten är fyra fristående bilder utan gemensam scen, vilket gör de två öppna frågorna svårare – be gärna barnen hitta på ett sammanhang högt först, till exempel vad byggaren gör vid huset. Skriv ut i färg och räkna med att den här sidan blir muntlig innan den blir skriftlig.",
+   "canonicalDeckSlug": "frageord-g2357",
+   "carousel": [
+    {
+     "label": "Frågeord: vem, vad, var",
+     "href": "frageord-vem-vad-var"
+    },
+    {
+     "label": "Para ihop frågan med svaret",
+     "href": "para-ihop-fragan-med-svaret"
+    },
+    {
+     "label": "Fyll i frågeordet",
+     "href": "fyll-i-frageordet"
+    },
+    {
+     "label": "Sortera svaren: vem, vad eller var",
+     "href": "sortera-svaren-vem-vad-eller-var"
+    }
+   ],
+   "title": "Fråga om bilden – sex frågeord att börja med – åk 2 | PDF gratis",
+   "metaDescription": "Fyra bilder och sex påbörjade frågor: Vem, Vad, Var, När, Varför och Hur. Gör varje fråga färdig på linjen. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "uppat-eller-nedat-sortera-talen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-up-or-down-sort-the-numbers",
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Arbetsblad avrundning",
+   "h1": "Uppåt eller nedåt? Sortera talen",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "avrundning",
+    "ak-3"
+   ],
+   "p1": "Tolv runda talbrickor ligger i en hylla, sex och sex: 481, 52, 329, 418, 85, 65, 549, 647, 426, 24, 72 och 13. Under hyllan står två breda lådor med varsin skylt, den vänstra med en pil nedåt och texten avrunda nedåt, den högra med en pil uppåt. Varje låda har nio streckade rutor. Nyckeln med 47 och sifferremsan ligger kvar överst, precis som på grundsidan.",
+   "p2": "Här avrundas ingenting. Barnet ska bara avgöra åt vilket håll talet rör sig, och det gör uppgiften snabbare men inte lättare: beslutet vilar helt på entalssiffran, och tiotalet eller hundratalet får inte störa. Sju av talen går nedåt och fem uppåt, så lådorna blir olika fulla – det är ett medvetet val, eftersom en jämn fördelning skulle göra att de sista talen kunde placeras utan att tänka. Att skriva av talet i stället för att skriva svaret håller kvar uppmärksamheten på siffran.",
+   "p3": "Lådorna har nio rutor var, alltså fler än de tolv talen kräver; sex rutor ska stå tomma när sidan är klar. Skriv ut ett per barn. Sidan passar som ingång till ett avsnitt om avrundning, före den sida där svaret ska skrivas, och den fungerar även som en snabb kontroll av att regeln sitter. Nästa steg uppåt i serien är avrundning till hundratal.",
+   "canonicalDeckSlug": "avrundning-g3387",
+   "carousel": [
+    {
+     "label": "Avrundning till närmaste tiotal",
+     "href": "avrundning"
+    },
+    {
+     "label": "Avrundning till hundratal: skriv talet",
+     "href": "avrundning-till-hundratal-skriv-talet"
+    },
+    {
+     "label": "Avrunda först, gör sedan ett överslag",
+     "href": "avrunda-forst-gor-sedan-ett-overslag"
+    },
+    {
+     "label": "Vilka tal blir 50?",
+     "href": "vilka-tal-blir-50"
+    }
+   ],
+   "title": "Uppåt eller nedåt? Sortera talen – åk 3 | skriva ut PDF gratis",
+   "metaDescription": "Tolv talbrickor och två lådor: avrunda nedåt och avrunda uppåt. Skriv varje tal i rätt låda utan att räkna ut svaret. Åk 3."
+  },
+  {
+   "slug": "avrundning-till-hundratal-skriv-talet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-to-the-nearest-100",
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Arbetsblad avrundning",
+   "h1": "Avrundning till hundratal: skriv talet",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "avrundning",
+    "ak-3"
+   ],
+   "p1": "Nyckeln visar 472 med sjuan i korall före 500, och på sifferremsan är just sjuan inringad – alltså tiotalssiffran och inte entalet. Under nyckeln ligger fjorton tresiffriga tal i två spalter med var sin streckade ruta: 462, 350, 572, 467, 236, 397, 489, 328, 317, 874, 540, 851, 848 och 532. Talen sträcker sig från drygt två hundra till nästan nio hundra, och två av dem ligger precis vid gränsen.",
+   "p2": "Steget upp från tiotal till hundratal handlar om att flytta blicken en siffra åt vänster, och nyckeln säger det utan ord genom att färglägga sjuan i 472. De två intressanta talen är 350 och 540: det första har en femma på tiotalsplatsen och rundas uppåt till 400, det andra en fyra och rundas nedåt till 500, och de två står i samma spaltpar så att skillnaden går att se. Talet 397 är det som byter hundratal och blir 400, vilket brukar överraska.",
+   "p3": "Instruktionen ber barnet titta på både entalet och tiotalet, men regeln behöver bara tiotalet; säg det gärna, annars börjar någon addera. Skriv ut i färg för nyckelns skull. Fjorton uppgifter tar ungefär en kvart och passar som färdighetsträning efter att tiotalen sitter. Sidan avrundning till tiotal och hundratal ställer båda frågorna om samma tal.",
+   "canonicalDeckSlug": "avrundning-g3388",
+   "carousel": [
+    {
+     "label": "Avrundning till närmaste tiotal",
+     "href": "avrundning"
+    },
+    {
+     "label": "Uppåt eller nedåt? Sortera talen",
+     "href": "uppat-eller-nedat-sortera-talen"
+    },
+    {
+     "label": "Avrunda först, gör sedan ett överslag",
+     "href": "avrunda-forst-gor-sedan-ett-overslag"
+    },
+    {
+     "label": "Vilka tal blir 50?",
+     "href": "vilka-tal-blir-50"
+    }
+   ],
+   "title": "Avrundning till närmaste hundratal – åk 3 | skriva ut PDF gratis",
+   "metaDescription": "Fjorton tresiffriga tal att avrunda till närmaste hundratal. Nyckeln visar 472 som blir 500 och tiotalssiffran är inringad. Åk 3."
+  },
+  {
+   "slug": "avrunda-forst-gor-sedan-ett-overslag",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "round-then-estimate-the-sum",
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Arbetsblad avrundning",
+   "h1": "Avrunda först, gör sedan ett överslag",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "avrundning",
+    "ak-3"
+   ],
+   "p1": "Nyckeln överst visar hela gången: 23 plus 48 blir ungefär 20 plus 50 som är 70. Under den står åtta numrerade rader, var och en med en addition och tre streckade rutor – två för de avrundade talen och en för summan. Uppgifterna är 12 plus 51, 29 plus 14, 59 plus 19, 31 plus 32, 35 plus 28, 15 plus 36, 38 plus 52 och 63 plus 27. Alla tal är tvåsiffriga och alla summor stannar under hundra.",
+   "p2": "Överslagsräkning är ett eget innehåll i Lgr22 för de tidiga åren, och det är precis det den här sidan tränar: ett ungefärligt svar som går att få i huvudet. Tre rutor i stället för en gör tankegången synlig – först varje tal för sig, sedan additionen – och den ordningen är det som skiljer överslag från gissning. Två av uppgifterna har båda talen nära femman, och där blir överslaget ett par enheter fel, vilket är ett bra samtalsämne snarare än ett problem.",
+   "p3": "Låt barnen räkna ut den exakta summan på ett par av raderna efteråt och jämföra; utan den jämförelsen blir överslaget bara en extra uträkning. I nyckeln är bara den ena entalssiffran färgad, men båda talen ska avrundas – peka på det innan ni börjar. Skriv ut ett per barn. Sidan är seriens enda som kombinerar avrundning med addition.",
+   "canonicalDeckSlug": "avrundning-g3389",
+   "carousel": [
+    {
+     "label": "Avrundning till närmaste tiotal",
+     "href": "avrundning"
+    },
+    {
+     "label": "Uppåt eller nedåt? Sortera talen",
+     "href": "uppat-eller-nedat-sortera-talen"
+    },
+    {
+     "label": "Avrundning till hundratal: skriv talet",
+     "href": "avrundning-till-hundratal-skriv-talet"
+    },
+    {
+     "label": "Vilka tal blir 50?",
+     "href": "vilka-tal-blir-50"
+    }
+   ],
+   "title": "Avrunda först och gör ett överslag – åk 3 | skriva ut PDF gratis",
+   "metaDescription": "Åtta additioner med tvåsiffriga tal. Avrunda båda till närmaste tiotal, skriv dem i rutorna och addera de avrundade talen. Åk 3."
+  },
+  {
+   "slug": "vilka-tal-blir-50",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "which-numbers-round-to-50",
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Arbetsblad avrundning",
+   "h1": "Vilka tal blir 50?",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "avrundning",
+    "ak-3"
+   ],
+   "p1": "Ett målkort i korall med tecknet för ungefär och talet 50 står överst i fältet. Under det ligger sexton ovala talbrickor i fyra förskjutna rader: 31, 46, 36, 55, 49, 44, 63, 51, 47, 45, 35, 58, 52, 64, 57 och 32. Nyckeln högst upp visar ett annat exempel, 83 som blir 80, med trean inringad på sifferremsans nedre halva. Ingenting ska skrivas; svaret är sex ringar.",
+   "p2": "Uppgiften är vänd bakåt. I stället för att avrunda ett tal och skriva svaret ska barnet pröva varje tal mot ett färdigt svar, och det kräver att regeln används i båda riktningarna. Sidans skarpaste par är 45 och 55: båda slutar på fem och båda rundas uppåt, men bara det första landar på 50. Talen 44 och 35 ligger tätt intill och hamnar på 40, vilket gör att fyra brickor i rad kräver verklig uppmärksamhet. Tio av sexton ska lämnas orörda.",
+   "p3": "En penna räcker och sidan går på tio minuter, så den passar som avslutning på en lektion eller som något att ha i beredskap. Skriv ut i färg så att målkortet skiljer sig från brickorna. Det här är den enda sidan i serien där talen inte ska skrivas om utan bara bedömas, vilket gör den lätt att rätta gemensamt. Vill ni ha en liknande sortering med två mål är uppåt eller nedåt grannen.",
+   "canonicalDeckSlug": "avrundning-g3390",
+   "carousel": [
+    {
+     "label": "Avrundning till närmaste tiotal",
+     "href": "avrundning"
+    },
+    {
+     "label": "Uppåt eller nedåt? Sortera talen",
+     "href": "uppat-eller-nedat-sortera-talen"
+    },
+    {
+     "label": "Avrundning till hundratal: skriv talet",
+     "href": "avrundning-till-hundratal-skriv-talet"
+    },
+    {
+     "label": "Avrunda först, gör sedan ett överslag",
+     "href": "avrunda-forst-gor-sedan-ett-overslag"
+    }
+   ],
+   "title": "Vilka tal blir 50? Ringa in dem – åk 3 | skriva ut PDF gratis",
+   "metaDescription": "Sexton tal och ett mål högst upp: 50. Ringa in varje tal som avrundas dit. Sex av de sexton hör hemma där. Åk 3. Gratis PDF."
+  },
+  {
+   "slug": "avrundning-till-tiotal-och-hundratal",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-to-the-nearest-10-and-100",
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Arbetsblad avrundning",
+   "h1": "Avrundning till tiotal och hundratal",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "avrundning",
+    "ak-3"
+   ],
+   "p1": "Nyckeln har två rader, en märkt 10 och en märkt 100, och båda utgår från samma tal: 472 blir 470 i den övre och 500 i den nedre, med olika siffra färgad i korall. Under nyckeln står kolumnrubrikerna tiotal och hundratal, och sedan åtta tal med två streckade rutor var: 159, 494, 791, 305, 353, 535, 567 och 556. Samma tal ska alltså avrundas två gånger, och de två svaren blir nästan aldrig lika.",
+   "p2": "Att samma tal ger två svar är hela idén, och den slår hål på föreställningen att ett tal har ett avrundat värde. Talet 305 visar det tydligast: entalet 5 tar det uppåt till 310, medan tiotalet 0 tar det nedåt till 300. Talen 535 och 556 ger samma sorts krock. För att klara raden måste barnet hålla reda på vilken siffra som bestämmer vad, och det är ett verkligt positionssystemsarbete snarare än en regel att upprepa.",
+   "p3": "Titta på nyckeln tillsammans innan ni börjar. Sifferremsan bredvid har bara en siffra inringad och den hör till den övre raden, alltså tiotalsavrundningen; för den nedre raden är det tiotalssiffran som avgör, och remsan visar inte det. Säg det högt, annars avrundar någon 472 till 400. Skriv ut ett per barn i åk 3. Sidan är seriens svåraste och passar som avslutning.",
+   "canonicalDeckSlug": "avrundning-g3391",
+   "carousel": [
+    {
+     "label": "Avrundning till närmaste tiotal",
+     "href": "avrundning"
+    },
+    {
+     "label": "Uppåt eller nedåt? Sortera talen",
+     "href": "uppat-eller-nedat-sortera-talen"
+    },
+    {
+     "label": "Avrundning till hundratal: skriv talet",
+     "href": "avrundning-till-hundratal-skriv-talet"
+    },
+    {
+     "label": "Avrunda först, gör sedan ett överslag",
+     "href": "avrunda-forst-gor-sedan-ett-overslag"
+    }
+   ],
+   "title": "Avrunda till tiotal och hundratal – samma tal – åk 3 | PDF gratis",
+   "metaDescription": "Åtta tresiffriga tal som ska avrundas två gånger, först till närmaste tiotal och sedan till närmaste hundratal. Åk 3. Gratis PDF."
   }
  ]
 }

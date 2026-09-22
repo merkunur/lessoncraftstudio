@@ -139823,6 +139823,2500 @@
    ],
    "title": "Sauts en arrière sur la droite numérique : division CE2 | PDF gratuit",
    "metaDescription": "Sauts en arrière sur la droite numérique : trois droites, un point sur 15, 22 et 10 ; dessine des sauts égaux en arrière, écris les sauts et l'arrivée. Fiche CE2."
+  },
+  {
+   "slug": "tangram-a-decouper-sept-pieces-et-deux-modeles",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "base",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Fiche tangram · Maternelle",
+   "h1": "Tangram à découper : 7 pièces et deux modèles",
+   "strand": "Espace et géométrie (programmes officiels)",
+   "standard": "K.G.B.6",
+   "slotTokens": [
+    "tangram",
+    "maternelle"
+   ],
+   "p1": "En haut à gauche de cette fiche de maternelle, un carré est barré de traits : ce sont les sept pièces du tangram, prêtes à être découpées, avec une petite paire de ciseaux posée au coin. À côté, une légende de cinq lignes associe une couleur à une forme et non à une pièce : rouge pour le grand triangle, bleu pour le moyen, jaune pour le petit, vert pour le carré, orange pour le parallélogramme. Les deux grands triangles reçoivent donc la même couleur, et c'est voulu. Au bas de la page, deux modèles sont dessinés à la même taille que le carré, traits intérieurs compris : un chat assis et un rectangle allongé.",
+   "p2": "Le matériel fait tout le travail. Tant que les pièces restent imprimées, le chat n'est qu'une image ; une fois découpées, ce sont sept morceaux qu'il faut tourner, retourner et glisser jusqu'à ce qu'ils tiennent exactement. C'est là que l'enfant voit qu'un carré peut être fait de deux triangles, qu'un grand triangle occupe la place de deux petits, et que le parallélogramme est la seule pièce que l'on doive parfois retourner. Les modèles du bas montrent leurs traits intérieurs : c'est une aide assumée, pas une réponse cachée, et elle convient à des mains qui cherchent encore où poser la pièce suivante.",
+   "p3": "Une page en couleur, à imprimer sur papier épais si les pièces doivent resservir. Aucun mot n'est imprimé sur le matériel, la fiche fonctionne donc telle quelle dans une classe bilingue. Gardez le carré découpé : il sert ensuite pour les quatre ombres à reconstituer et pour la fiche des pièces manquantes. Pour commencer plus doucement, la fiche qui fait tracer les traits pour 2 et 3 pièces ne demande que deux ou trois morceaux par forme.",
+   "canonicalDeckSlug": "tangram-k353",
+   "carousel": [
+    {
+     "label": "Tangram facile : trace les traits pour 2 et 3 pièces",
+     "href": "tangram-facile-trace-les-traits-2-et-3-pieces"
+    },
+    {
+     "label": "Tangram : quatre ombres à reconstituer",
+     "href": "tangram-quatre-ombres-a-reconstituer"
+    },
+    {
+     "label": "Tangram : quelle pièce manque ?",
+     "href": "tangram-quelle-piece-manque"
+    },
+    {
+     "label": "Tangram : quelle solution est posée comme l'ombre ?",
+     "href": "tangram-quelle-solution-est-posee-comme-l-ombre"
+    }
+   ],
+   "title": "Tangram à découper : 7 pièces, 2 modèles | à imprimer PDF gratuit",
+   "metaDescription": "Un carré de tangram à découper en sept pièces, une légende de cinq couleurs et deux modèles à reconstituer. Fiche maternelle gratuite en PDF."
+  },
+  {
+   "slug": "le-corps-humain-ecris-les-parties-du-corps",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "base",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Fiche le corps humain · Maternelle",
+   "h1": "Le corps humain",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-corps-humain",
+    "maternelle"
+   ],
+   "p1": "Un grand personnage debout occupe le milieu de cette fiche de maternelle. Six petits anneaux orange sont posés sur lui, trois d'un côté, trois de l'autre : l'oreille, l'œil, le haut du bras, le coude, la main et le pied. Chaque anneau est relié par un trait à un cadre d'écriture à bords pointillés, réglé sur trois lignes avec un interligne en pointillé au milieu. En haut, une liste encadrée donne les six mots dans le désordre : œil, bras, main, pied, coude, oreille. L'enfant recopie chaque mot dans le cadre du repère qui convient.",
+   "p2": "C'est une fiche de vocabulaire avant d'être une fiche de copie. Les six mots sont donnés, donc l'orthographe n'est pas l'obstacle ; l'obstacle est de faire correspondre un mot lu à un endroit du corps, ce que beaucoup d'enfants de maternelle font très bien en montrant et beaucoup moins bien en lisant. Deux repères voisins, le bras et le coude, obligent à distinguer une partie entière d'une articulation, et c'est le point délicat de la page. L'œil est marqué d'un côté du visage, l'oreille de l'autre, ce qui évite toute confusion entre les deux anneaux du haut.",
+   "p3": "Une page en couleur, six mots à écrire, des cadres assez larges pour de grosses lettres. On la fait après avoir nommé les parties sur soi ou sur un camarade, jamais avant. Pour une classe qui n'écrit pas encore, la fiche colorie avec la légende demande la même reconnaissance sans passer par le crayon ; pour une classe qui écrit déjà, la fiche écris le nom retire la liste et ajoute des cases lettre par lettre.",
+   "canonicalDeckSlug": "le-corps-humain-k354",
+   "carousel": [
+    {
+     "label": "Le corps humain : combien en as-tu ?",
+     "href": "le-corps-humain-combien-en-as-tu"
+    },
+    {
+     "label": "Le corps humain : colorie avec la légende",
+     "href": "le-corps-humain-colorie-avec-la-legende"
+    },
+    {
+     "label": "Le corps humain : écris le nom",
+     "href": "le-corps-humain-ecris-le-nom-lettre-par-lettre"
+    },
+    {
+     "label": "Le corps humain : que manque-t-il ?",
+     "href": "le-corps-humain-que-manque-t-il"
+    }
+   ],
+   "title": "Le corps humain : écris les parties du corps | à imprimer PDF",
+   "metaDescription": "Un personnage avec six repères orange et six cadres d'écriture, plus une liste de six mots à recopier : œil, bras, main, pied, coude, oreille. Fiche maternelle PDF."
+  },
+  {
+   "slug": "les-5-sens-relie-l-image-a-l-organe",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "base",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Fiche les 5 sens · Maternelle",
+   "h1": "Les 5 sens",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "les-5-sens",
+    "maternelle"
+   ],
+   "p1": "Deux colonnes se font face sur cette fiche de maternelle. À gauche, cinq images posées sur fond crème : un brin de lavande, la lune, un piano droit, une éponge jaune, une tablette de chocolat. À droite, cinq cartes blanches montrent les organes : une main ouverte, une oreille, un nez, une langue, un œil. Entre les deux, un point orange par carte. L'enfant trace un trait de chaque image vers la partie du corps qui lui sert à la percevoir. Les cinq traits se croisent tous, car aucune paire n'est alignée sur la même ligne.",
+   "p2": "Un sens par image et un organe par sens : rien ne se répète, donc la page se résout par élimination autant que par raisonnement, ce qui est exactement le bon appui en maternelle. Deux images sont immédiates, le piano pour l'oreille et le chocolat pour la langue. Deux autres demandent un mot d'adulte : la lavande pour le nez, parce qu'une fleur se regarde aussi, et l'éponge pour la main, parce qu'on peut aussi la voir. La lune, enfin, est le seul objet qu'on ne peut ni toucher ni sentir, et c'est ce qui en fait un bon représentant de la vue.",
+   "p3": "Une page en couleur, cinq traits à la règle ou à main levée, aucun mot à lire. Elle ouvre la séquence des cinq sens et sert de référence pour les cinq fiches suivantes : gardez-la visible pendant que la classe travaille. Si le croisement des traits gêne, faites relier une image à la fois en cachant les autres. La suite est la fiche classe les images par sens, qui garde les mêmes organes mais range dix objets dans cinq boîtes.",
+   "canonicalDeckSlug": "les-5-sens-k355",
+   "carousel": [
+    {
+     "label": "Les 5 sens : classe les images par sens",
+     "href": "les-5-sens-classe-les-images-par-sens"
+    },
+    {
+     "label": "Les 5 sens : quel sens utilises-tu ?",
+     "href": "les-5-sens-quel-sens-utilises-tu"
+    },
+    {
+     "label": "Les 5 sens : quelle image n'appartient pas au groupe ?",
+     "href": "les-5-sens-quelle-image-n-appartient-pas-au-groupe"
+    },
+    {
+     "label": "Les organes des sens : écris le sens",
+     "href": "les-organes-des-sens-ecris-le-sens"
+    }
+   ],
+   "title": "Les 5 sens : relie l'image à l'organe | à imprimer PDF gratuit",
+   "metaDescription": "Lavande, lune, piano, éponge et chocolat à relier à la main, l'oreille, le nez, la langue et l'œil. Fiche maternelle des cinq sens, gratuite en PDF."
+  },
+  {
+   "slug": "le-temps-qu-il-fait-relie-le-symbole-et-le-mot",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "base",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Fiche le temps qu'il fait · Maternelle",
+   "h1": "Le temps qu'il fait",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-temps-qu-il-fait",
+    "maternelle"
+   ],
+   "p1": "Six symboles du temps sont posés dans des ronds cerclés de vert sur la gauche de cette fiche de maternelle : un nuage qui pleut, un soleil souriant, un arc-en-ciel, un gros nuage gris, un nuage à éclair, un flocon. À droite, six étiquettes crème portent les mots orage, neige, nuage, soleil, pluie, arc-en-ciel. Un point orange de chaque côté marque le départ et l'arrivée du trait. Aucune paire n'est alignée, les six traits se croisent donc au milieu de la feuille, et l'enfant doit suivre son trait du regard.",
+   "p2": "C'est la fiche d'entrée du vocabulaire météo, celle que l'on affiche et à laquelle on revient toute l'année. Deux symboles se ressemblent beaucoup et c'est voulu : le nuage seul et le nuage qui pleut ne diffèrent que par les gouttes, si bien qu'il faut regarder le dessin jusqu'au bout avant de choisir entre nuage et pluie. Le nuage à éclair porte le mot orage, alors qu'un enfant dirait volontiers éclair ; comme éclair n'est pas proposé, le choix se referme de lui-même. Le flocon vaut pour neige, ce qui demande parfois de préciser qu'un flocon est un morceau de neige.",
+   "p3": "Une page en couleur, six traits, aucune écriture. Elle fonctionne aussi comme affichage une fois faite, et comme support de rituel quotidien si on la plastifie. Elle précède naturellement la fiche du temps de la semaine, où l'enfant dessine lui-même les symboles jour après jour, et la fiche écris le mot du temps qu'il fait, qui reprend les six mêmes mots avec des cases lettre par lettre.",
+   "canonicalDeckSlug": "le-temps-qu-il-fait-k356",
+   "carousel": [
+    {
+     "label": "Écris le mot du temps qu'il fait",
+     "href": "ecris-le-mot-du-temps-qu-il-fait"
+    },
+    {
+     "label": "Le temps de la semaine, du lundi au dimanche",
+     "href": "le-temps-de-la-semaine-du-lundi-au-dimanche"
+    },
+    {
+     "label": "Fait-il froid, doux ou chaud ?",
+     "href": "fait-il-froid-doux-ou-chaud-le-thermometre"
+    },
+    {
+     "label": "Cycle de l'eau : écris chaque étape",
+     "href": "cycle-de-l-eau-ecris-chaque-etape"
+    }
+   ],
+   "title": "Le temps qu'il fait : relie le symbole et le mot | PDF gratuit",
+   "metaDescription": "Six symboles météo à relier à leur mot : orage, neige, nuage, soleil, pluie, arc-en-ciel. Fiche maternelle sur le temps, gratuite à imprimer en PDF."
+  },
+  {
+   "slug": "le-tri-des-dechets-relie-l-objet-a-la-poubelle",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "base",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Fiche le tri des déchets · Maternelle",
+   "h1": "Le tri des déchets",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-tri-des-dechets",
+    "maternelle"
+   ],
+   "p1": "Huit objets s'alignent en haut de cette fiche de maternelle, chacun sur sa vignette avec un point orange dessous : un épi de maïs, un carnet, une bouteille de sauce, une cuillère en plastique, une carotte, un pot de miel, un tube de colle, un seau. Tout en bas, quatre poubelles sont dessinées côte à côte avec leur couvercle coloré et leur étiquette : Emballages en jaune, Verre en vert, Biodéchets en marron, Ordures en gris. L'enfant trace un trait de chaque objet vers la poubelle qui lui revient.",
+   "p2": "Les quatre bacs reprennent les couleurs en usage en France, ce qui permet de relier la fiche au tri réel de la maison et de l'école. Deux appuis fonctionnent tout seuls : le maïs et la carotte vont aux biodéchets, le pot et la bouteille en verre au bac vert. Le reste demande une règle que la page n'écrit pas, celle de l'emballage : le tube de colle rejoint le bac jaune parce que c'est un contenant, alors que la cuillère et le seau, qui sont du plastique eux aussi, finissent aux ordures. Dites cette règle avant de distribuer, sinon trois objets sur huit paraissent arbitraires.",
+   "p3": "Une page en couleur, huit traits qui traversent une large zone blanche prévue pour eux, un crayon fin. Deux réserves d'usage. Le carnet est envoyé vers le bac Emballages, ce qui correspond bien à l'extension des consignes de tri, mais l'étiquette ne dit pas et papiers : ajoutez-le oralement. Et tous les objets sont dessinés pleins et neufs, alors que la consigne les suppose vides ou usés. La fiche dans quelle poubelle reprend les mêmes bacs en rangées, sans traits qui se croisent.",
+   "canonicalDeckSlug": "le-tri-des-dechets-k357",
+   "carousel": [
+    {
+     "label": "Le tri des déchets : dans quelle poubelle ?",
+     "href": "le-tri-des-dechets-dans-quelle-poubelle"
+    },
+    {
+     "label": "De quelle matière est chaque objet ?",
+     "href": "de-quelle-matiere-est-chaque-objet"
+    },
+    {
+     "label": "Le tri des déchets : quel objet n'est pas de la même matière ?",
+     "href": "le-tri-des-dechets-quel-objet-n-est-pas-de-la-meme-matiere"
+    },
+    {
+     "label": "Colorie les poubelles du tri",
+     "href": "colorie-les-poubelles-du-tri"
+    }
+   ],
+   "title": "Le tri des déchets : relie l'objet à la poubelle | PDF gratuit",
+   "metaDescription": "Huit objets à relier à quatre poubelles : Emballages, Verre, Biodéchets, Ordures. Fiche maternelle sur le tri sélectif, gratuite à imprimer en PDF."
+  },
+  {
+   "slug": "phrases-a-trous-avec-liste-de-mots",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "base",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche phrases à trous · CP",
+   "h1": "Phrases à trous",
+   "strand": "Étude de la langue",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "phrases-a-trous",
+    "cp"
+   ],
+   "p1": "Sept bandes se suivent sur cette fiche de CP, et une liste encadrée les précède avec sept mots dans le désordre : tracteur, chèvre, manchot, cochon, voilier, girafe, zèbre. Dans chaque bande, une petite image à gauche, puis la phrase imprimée avec un trou : Le ... a des rayures noires et blanches. La ... a un très long cou. Le ... se roule dans la boue. Le ... avance sur le lac avec le vent. Le ... laboure le champ de la ferme. Le ... glisse sur la glace. La ... grimpe sur les rochers et bêle.",
+   "p2": "Deux aides coexistent ici, l'image et l'article imprimé. L'image donne la réponse, ce qui est voulu en CP : elle libère l'enfant du déchiffrage et lui permet de lire la phrase entière pour le plaisir de la comprendre. L'article, lui, travaille en silence sur le genre, puisque seuls deux mots de la liste sont féminins et qu'un La engage donc à ne chercher que parmi eux. Le vocabulaire est soigné : manchot, et non pingouin, pour l'oiseau noir et blanc qui glisse sur la glace, et bêle pour la chèvre. Un point à savoir : la liste compte exactement sept mots pour sept trous, sans intrus, donc le dernier se trouve par élimination.",
+   "p3": "Une page en couleur, sept mots à recopier dans des cases larges, une séance d'écriture complète. C'est la fiche mère de la famille et la plus accompagnée : tout est donné, il n'y a rien à deviner. Ses variantes retirent les aides une à une, la liste d'abord avec les cases lettre par lettre, puis la phrase elle-même avec la fiche qui fait relier une phrase à son image. Pour une classe qui lit encore peu, lisez les sept phrases à voix haute avant de laisser écrire.",
+   "canonicalDeckSlug": "phrases-a-trous-g1350",
+   "carousel": [
+    {
+     "label": "Écris le mot qui manque dans la phrase",
+     "href": "ecris-le-mot-qui-manque-dans-la-phrase"
+    },
+    {
+     "label": "Entoure le mot qui complète la phrase",
+     "href": "entoure-le-mot-qui-complete-la-phrase"
+    },
+    {
+     "label": "Complète les phrases au pluriel",
+     "href": "complete-les-phrases-au-pluriel"
+    },
+    {
+     "label": "Texte à trous : complète l'histoire",
+     "href": "texte-a-trous-complete-l-histoire"
+    }
+   ],
+   "title": "Phrases à trous CP avec liste de mots | à imprimer PDF gratuit",
+   "metaDescription": "Sept phrases illustrées à compléter avec une liste de sept mots : zèbre, girafe, cochon, voilier, tracteur, manchot, chèvre. Fiche CP gratuite en PDF."
+  },
+  {
+   "slug": "nombres-pairs-et-impairs-jusqu-a-20-les-deux-maisons",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "base",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche nombres pairs et impairs · CP",
+   "h1": "Nombres pairs et impairs jusqu'à 20",
+   "strand": "Nombres et calcul (programmes officiels)",
+   "slotTokens": [
+    "nombres-pairs-et-impairs",
+    "cp"
+   ],
+   "p1": "Deux maisons se font face au milieu de cette fiche de CP, l'une au toit vert d'eau étiquetée pair, l'autre au toit rose étiquetée impair. Au-dessus, une bande de neuf jetons ronds porte les nombres 11, 10, 8, 5, 12, 14, 1, 13 et 19. Trois nombres habitent déjà les maisons et montrent la méthode : 6 avec trois paires de points, 4 avec deux paires, et 3 avec une paire plus un point orange resté seul. Sous ces exemples, chaque maison ouvre huit cases vides en pointillé où l'enfant écrit les nombres de la bande.",
+   "p2": "Tout tient dans le point orange isolé du nombre 3. Il dit visuellement ce qu'une règle ne dit pas encore à un élève de CP : un nombre est impair quand, après avoir formé toutes les paires possibles, il en reste un. Les trois exemples sont choisis dans les petits nombres, six, quatre et trois, pour que le groupement par deux reste dessinable ; les neuf nombres à ranger montent jusqu'à 19 et se traitent, eux, par la règle. Un avertissement de mise en page : chaque maison ouvre huit cases, alors que quatre nombres seulement vont chez les pairs et cinq chez les impairs. Sept cases resteront vides, dites-le avant.",
+   "p3": "Une page en couleur, neuf nombres à recopier, aucun calcul. Faites barrer chaque jeton de la bande au fur et à mesure, sinon un enfant en oublie ou en écrit deux fois. La bande monte jusqu'à 19 et non jusqu'à 20, même si le titre annonce cette borne. C'est la fiche d'ouverture de la famille : la suite passe aux points à entourer sur la fiche des deux parts égales, au partage entre deux enfants, puis au chiffre des unités jusqu'à 100.",
+   "canonicalDeckSlug": "nombres-pairs-et-impairs-g1351",
+   "carousel": [
+    {
+     "label": "Pair ou impair ? Écris deux parts égales",
+     "href": "pair-ou-impair-ecris-deux-parts-egales"
+    },
+    {
+     "label": "Peut-on partager entre deux enfants ?",
+     "href": "peut-on-partager-entre-deux-enfants"
+    },
+    {
+     "label": "Nombres pairs et impairs jusqu'à 100 : le chiffre des unités",
+     "href": "nombres-pairs-et-impairs-jusqu-a-100-le-chiffre-des-unites"
+    },
+    {
+     "label": "Somme paire ou impaire ? Décide sans calculer",
+     "href": "somme-paire-ou-impaire-decide-sans-calculer"
+    }
+   ],
+   "title": "Nombres pairs et impairs jusqu'à 20, CP | à imprimer PDF gratuit",
+   "metaDescription": "Neuf nombres à ranger dans la maison des pairs ou celle des impairs, avec trois exemples déjà placés et leurs points groupés deux par deux. Fiche CP en PDF."
+  },
+  {
+   "slug": "les-pronoms-personnels-sujets-il-elle-ils-elles",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "base",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche les pronoms personnels sujets · CP",
+   "h1": "Les pronoms personnels sujets",
+   "strand": "Étude de la langue",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronoms-personnels-sujets",
+    "cp"
+   ],
+   "p1": "Huit cartes, deux par ligne, composent cette fiche de CP. Chacune montre un ou deux personnages, une étiquette blanche avec le prénom ou les deux prénoms, et quatre pastilles à entourer toujours dans le même ordre : il, elle, ils, elles. Sur cet exemplaire, les cartes portent Zoé et Jules, Théo, Lucas, Nina, Jade et Chloé, Hugo et Louis, Alice et Inès, Léa. Les quatre pronoms sont attendus exactement deux fois chacun, et les bonnes réponses se répartissent entre les quatre positions, si bien qu'aucune colonne ne domine.",
+   "p2": "La première carte est la plus instructive de toute la famille : Zoé et Jules, une fille et un garçon, se remplacent par ils. C'est la règle française qui coûte le plus cher aux élèves, celle du masculin qui l'emporte au pluriel, et elle est placée en ouverture plutôt que reléguée à la fin. Les autres cartes servent d'appui : un prénom seul donne il ou elle, deux prénoms du même genre donnent ils ou elles, et seul le couple mixte demande la règle. Une remarque sur les illustrations, qui viennent d'une banque de métiers : Nina est représentée par une factrice casquettée et Théo par un entraîneur, deux images très proches.",
+   "p3": "Une page en couleur, huit entourages, un feutre. Elle ouvre la famille des pronoms et s'affiche volontiers, les quatre pastilles formant un tableau de référence. Les prénoms sont actuels et courants en France, ce qui facilite l'identification du genre. La suite immédiate est la fiche remplace le prénom par un pronom, où le pronom ne s'entoure plus mais s'écrit, avec une majuscule, en tête de phrase.",
+   "canonicalDeckSlug": "pronoms-personnels-sujets-g1352",
+   "carousel": [
+    {
+     "label": "Remplace le prénom par un pronom",
+     "href": "remplace-le-prenom-par-un-pronom"
+    },
+    {
+     "label": "De qui parle-t-on ? Les pronoms dans les phrases",
+     "href": "de-qui-parle-t-on-les-pronoms-dans-les-phrases"
+    },
+    {
+     "label": "Son, sa ou leur ?",
+     "href": "son-sa-ou-leur-le-bon-determinant"
+    },
+    {
+     "label": "Classe les prénoms : il, elle, ils ou elles",
+     "href": "classe-les-prenoms-il-elle-ils-ou-elles"
+    }
+   ],
+   "title": "Les pronoms personnels sujets : il, elle, ils, elles | PDF CP",
+   "metaDescription": "Huit cartes prénom, seules ou par deux, et quatre pronoms à entourer : il, elle, ils, elles. Deux réponses de chaque, dont un couple mixte. Fiche CP en PDF."
+  },
+  {
+   "slug": "les-mots-interrogatifs-qui-que-ou",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "base",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche les mots interrogatifs · CP",
+   "h1": "Les mots interrogatifs : qui, que, où",
+   "strand": "Étude de la langue",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "mots-interrogatifs",
+    "cp"
+   ],
+   "p1": "Sept bandes se suivent sur cette fiche de CP. Chacune porte une phrase courte dont un groupe de mots est surligné en rose pâle et souligné d'orange, puis trois pastilles à entourer, toujours Qui, Que, Où dans cet ordre. Nina voit le chariot élévateur. Louis lit sous la tente. Léa cherche la vache. Théo est au parc. Chloé joue au lac. Alice dessine le léopard. Hugo joue à trois heures. L'enfant entoure le mot interrogatif qui réclamerait précisément la partie colorée de la phrase.",
+   "p2": "La page installe la correspondance entre une fonction dans la phrase et un mot de question, et elle le fait par la couleur plutôt que par la grammaire, ce qui convient à un CP. Le surlignage tombe avant le verbe pour Qui, après le verbe pour Que, sur un groupe introduit par une préposition de lieu pour Où : un élève attentif repère vite cette régularité de position, et c'est très bien, c'est une entrée dans la syntaxe. La dernière bande est la plus fine, puisque la phrase contient aussi un complément de temps, à trois heures, qui n'est pas surligné et sert de fausse piste. Les sept réponses se répartissent en trois Que, deux Qui, deux Où.",
+   "p3": "Une page en couleur, sept entourages, un feutre. Un mot de vocabulaire à préparer : le chariot élévateur de la première bande est long et rare, et son déchiffrage peut occuper un enfant plus que la question posée. Lisez les sept phrases avant de laisser travailler. C'est la fiche d'ouverture de la famille ; la suivante, relie chaque question à sa réponse, met en face de vraies questions complètes au lieu de phrases déclaratives.",
+   "canonicalDeckSlug": "mots-interrogatifs-g1353",
+   "carousel": [
+    {
+     "label": "Relie chaque question à sa réponse",
+     "href": "relie-chaque-question-a-sa-reponse"
+    },
+    {
+     "label": "Complète la question avec le bon mot interrogatif",
+     "href": "complete-la-question-avec-le-bon-mot-interrogatif"
+    },
+    {
+     "label": "Classe les réponses : qui, que ou où",
+     "href": "classe-les-reponses-qui-que-ou"
+    },
+    {
+     "label": "Écris la question",
+     "href": "ecris-la-question-qui-demande-les-mots-colores"
+    }
+   ],
+   "title": "Les mots interrogatifs : qui, que, où, CP | à imprimer PDF",
+   "metaDescription": "Sept phrases avec un groupe de mots surligné et trois mots à entourer, Qui, Que, Où : celui qui demande la partie colorée. Fiche CP à imprimer en PDF."
+  },
+  {
+   "slug": "arrondir-a-la-dizaine-la-plus-proche",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "base",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche arrondir · CE1",
+   "h1": "Arrondir à la dizaine",
+   "strand": "Nombres et calcul (programmes officiels, cycle 3)",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "arrondir-a-la-dizaine",
+    "ce1"
+   ],
+   "p1": "Un encadré de méthode ouvre cette fiche de CE1 : 47 vaut environ 50, le 7 écrit en orange, et à côté la bande des chiffres de 0 à 9 coupée en deux, une flèche descendante sous 0 1 2 3 4 avec la mention dizaine inférieure, une flèche montante sous 5 6 7 8 9 avec la mention dizaine supérieure, le 7 entouré. Dessous, quatorze nombres sont rangés en deux colonnes, chacun suivi du signe environ et d'une case en pointillé : 76, 79, 45, 633, 268, 267, 85, 53, 522, 54, 549, 67, 658, 111.",
+   "p2": "La bande des dix chiffres est le vrai outil de la page. Elle remplace la phrase à retenir par une image que l'élève peut consulter à chaque ligne, et elle rend visible la coupure entre 4 et 5, qui est tout ce qu'il faut savoir. Deux nombres travaillent exactement ce seuil, 45 et 85, dont le chiffre des unités est précisément 5 et qui montent donc à la dizaine du dessus. Sachez que plusieurs nombres partagent leur réponse : 76 et 79 donnent tous deux 80, 267 et 268 donnent tous deux 270, 53 et 54 donnent tous deux 50. Deux lignes voisines qui ne diffèrent que d'une unité surprennent parfois.",
+   "p3": "Une page en couleur, quatorze cases à remplir, sans opération posée. Un mot sur le niveau : la fiche porte l'étiquette CE1 mais sept de ses quatorze nombres ont trois chiffres, et l'arrondi figure au programme du cycle 3 ; elle convient donc surtout en fin de CE1 solide et en début de CE2. Les cinq autres fiches de la famille sont d'ailleurs toutes données en CE2. La suite naturelle est la fiche range les nombres, qui demande seulement le sens de l'arrondi, sans écrire le résultat.",
+   "canonicalDeckSlug": "arrondir-a-la-dizaine-g2346",
+   "carousel": [
+    {
+     "label": "Arrondir au-dessus ou en dessous : range les nombres",
+     "href": "arrondir-au-dessus-ou-en-dessous-range-les-nombres"
+    },
+    {
+     "label": "Arrondir les nombres à la centaine",
+     "href": "arrondir-les-nombres-a-la-centaine"
+    },
+    {
+     "label": "Arrondir puis estimer la somme",
+     "href": "arrondir-puis-estimer-la-somme"
+    },
+    {
+     "label": "Quels nombres s'arrondissent à 50 ?",
+     "href": "quels-nombres-s-arrondissent-a-50"
+    }
+   ],
+   "title": "Arrondir à la dizaine la plus proche | à imprimer PDF gratuit",
+   "metaDescription": "Quatorze nombres à arrondir à la dizaine, avec un exemple 47 vaut environ 50 et une bande des chiffres 0 à 9 partagée en deux. Fiche gratuite en PDF."
+  },
+  {
+   "slug": "tangram-facile-trace-les-traits-2-et-3-pieces",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-draw-the-lines-2-and-3-pieces",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Fiche tangram · Maternelle",
+   "h1": "Tangram facile : trace les traits pour 2 et 3 pièces",
+   "strand": "Espace et géométrie (programmes officiels)",
+   "standard": "K.G.B.6",
+   "slotTokens": [
+    "tangram",
+    "maternelle"
+   ],
+   "p1": "Quatre cartes, deux par ligne, occupent toute cette fiche de maternelle. Chacune porte en haut une petite rangée de pièces de tangram et, dessous, une grande forme blanche entièrement vide : un trapèze, un pentagone, un cerf-volant, une forme à quatre côtés. L'enfant regarde les pièces annoncées et trace dans la forme le ou les traits qui montrent où elles se rejoignent. Les cartes 1 et 2 annoncent trois pièces, donc deux traits à tracer ; les cartes 3 et 4 n'en annoncent que deux, donc un seul trait. Rien d'autre n'est demandé : pas de découpage, pas de coloriage, pas de mot à écrire.",
+   "p2": "C'est l'entrée la plus douce de la famille tangram, parce que la forme finale est déjà là et que l'enfant n'a qu'à la couper mentalement. Deux pièces qui se rejoignent le long d'un côté entier, voilà l'idée ; trois pièces demandent de voir deux jointures au lieu d'une, et l'ordre dans lequel on les trace n'a aucune importance. Attention à un point : les pièces du haut sont dessinées plus petites que la forme du bas, elles disent lesquelles et non de quelle taille. Un enfant qui voudrait les superposer se trompera, il faut lui dire de regarder la forme des pièces, pas leur grandeur.",
+   "p3": "Une page, quatre traits ou un peu plus, et une règle qui aide beaucoup à la main. À donner avant la fiche de base, quand les sept pièces découpées sont encore trop nombreuses, ou après, pour vérifier que l'enfant sait reconnaître une pièce hors de son carré. La suite naturelle est la fiche des quatre ombres à reconstituer, où plus aucun trait n'est donné et où il faut poser les sept pièces.",
+   "canonicalDeckSlug": "tangram-k358",
+   "carousel": [
+    {
+     "label": "Tangram à découper : 7 pièces et deux modèles",
+     "href": "tangram-a-decouper-sept-pieces-et-deux-modeles"
+    },
+    {
+     "label": "Tangram : quatre ombres à reconstituer",
+     "href": "tangram-quatre-ombres-a-reconstituer"
+    },
+    {
+     "label": "Tangram : quelle pièce manque ?",
+     "href": "tangram-quelle-piece-manque"
+    },
+    {
+     "label": "Tangram : quelle solution est posée comme l'ombre ?",
+     "href": "tangram-quelle-solution-est-posee-comme-l-ombre"
+    }
+   ],
+   "title": "Tangram facile 2 et 3 pièces, trace les traits | à imprimer PDF",
+   "metaDescription": "Quatre formes vides à diviser : deux se font avec deux pièces, deux avec trois. L'enfant trace le trait de jonction. Fiche maternelle gratuite en PDF."
+  },
+  {
+   "slug": "tangram-quatre-ombres-a-reconstituer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-four-shadows-to-build",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche tangram · CP",
+   "h1": "Tangram : quatre ombres à reconstituer",
+   "strand": "Espace et géométrie (programmes officiels)",
+   "standard": "1.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "cp"
+   ],
+   "p1": "Sur cette fiche de CP, quatre grandes silhouettes remplies de vert foncé occupent chacune une carte : un chat assis, une large flèche pointée vers le bas, un rectangle couché et un carré. Aucun trait intérieur n'est dessiné. C'est toute la différence avec la fiche de base, où les modèles montraient encore leurs coutures. Ici l'enfant a devant lui le contour et rien d'autre, et il doit poser les sept pièces de son tangram jusqu'à remplir exactement la surface noire, sans laisser de blanc et sans déborder. La consigne insiste : les sept pièces, à chaque fois, aucune ne reste de côté.",
+   "p2": "Passer du modèle traité à l'ombre pleine est un vrai saut. Le chat et la flèche sont anguleux, leurs pointes disent assez vite où va le grand triangle ; le rectangle et le carré, eux, ne disent rien du tout et se résolvent seulement par essais successifs. Deux cartes faciles à lire et deux cartes muettes sur la même page, c'est un équilibre volontaire : l'enfant qui bloque sur le carré peut aller chercher la réussite ailleurs et revenir. Une remarque pour l'adulte : le carré est précisément la forme du matériel de départ, ce qui surprend souvent, et le retrouver est un excellent moment de classe.",
+   "p3": "Une page à imprimer, mais un jeu de tangram est indispensable : la fiche ne fournit pas les pièces. Découpez d'abord le carré de la fiche de base, ou sortez le matériel de la classe. Si une ombre résiste trop longtemps, la fiche quelle pièce manque remet des traits sous les yeux, et la fiche des deux et trois pièces revient à des assemblages de deux morceaux. À imprimer en couleur ou en noir et blanc, le contraste suffit dans les deux cas.",
+   "canonicalDeckSlug": "tangram-g1354",
+   "carousel": [
+    {
+     "label": "Tangram à découper : 7 pièces et deux modèles",
+     "href": "tangram-a-decouper-sept-pieces-et-deux-modeles"
+    },
+    {
+     "label": "Tangram facile : trace les traits pour 2 et 3 pièces",
+     "href": "tangram-facile-trace-les-traits-2-et-3-pieces"
+    },
+    {
+     "label": "Tangram : quelle pièce manque ?",
+     "href": "tangram-quelle-piece-manque"
+    },
+    {
+     "label": "Tangram : quelle solution est posée comme l'ombre ?",
+     "href": "tangram-quelle-solution-est-posee-comme-l-ombre"
+    }
+   ],
+   "title": "Tangram : quatre ombres à reconstituer en CP | à imprimer PDF",
+   "metaDescription": "Quatre silhouettes pleines, sans aucun trait intérieur : un chat, une grande flèche, un rectangle et un carré, à refaire avec les sept pièces. Fiche CP en PDF."
+  },
+  {
+   "slug": "tangram-quelle-piece-manque",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-which-piece-is-missing",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche tangram · CP",
+   "h1": "Tangram : quelle pièce manque ?",
+   "strand": "Espace et géométrie (programmes officiels)",
+   "standard": "1.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "cp"
+   ],
+   "p1": "Six cartes, trois lignes de deux, remplissent cette fiche de CP. Sur chacune, une figure de tangram est dessinée en vert pâle avec six pièces posées et un trou : le trou est cerné de pointillés orange, bien visible, et garde exactement la forme et l'orientation de la pièce qui manque. À droite de la figure, trois pièces attendent dans de petites cases blanches, dessinées à la taille réelle de la figure. L'enfant entoure celle qui entre dans le vide. Les six figures se répartissent entre un rectangle, un carré et une flèche, chacun revenant deux fois.",
+   "p2": "Le pointillé orange est une aide franche : il donne la forme du trou, si bien que l'exercice devient une comparaison de silhouettes plutôt qu'un raisonnement d'assemblage. C'est le bon niveau pour un CP, et cela laisse toute l'attention disponible pour la vraie difficulté, qui est la taille. Les trois pièces proposées appartiennent à des familles différentes, mais deux triangles de tailles différentes se ressemblent beaucoup à l'œil, et c'est là que l'enfant apprend à comparer une longueur de côté plutôt qu'une forme générale. Les bonnes réponses sont réparties entre les trois positions, deux fois chacune, donc entourer toujours la même case ne mène nulle part.",
+   "p3": "Une page en couleur, à faire au crayon, sans matériel. Elle se donne après les quatre ombres, quand un enfant a échoué sur une silhouette et ne sait pas dire pourquoi : ici le manque est montré, il n'a plus qu'à le nommer. La fiche qui fait compter les triangles et les carrés poursuit le même travail de reconnaissance, cette fois sur des figures complètes et avec un nombre à écrire.",
+   "canonicalDeckSlug": "tangram-g1355",
+   "carousel": [
+    {
+     "label": "Tangram à découper : 7 pièces et deux modèles",
+     "href": "tangram-a-decouper-sept-pieces-et-deux-modeles"
+    },
+    {
+     "label": "Tangram facile : trace les traits pour 2 et 3 pièces",
+     "href": "tangram-facile-trace-les-traits-2-et-3-pieces"
+    },
+    {
+     "label": "Tangram : quatre ombres à reconstituer",
+     "href": "tangram-quatre-ombres-a-reconstituer"
+    },
+    {
+     "label": "Tangram : quelle solution est posée comme l'ombre ?",
+     "href": "tangram-quelle-solution-est-posee-comme-l-ombre"
+    }
+   ],
+   "title": "Tangram : quelle pièce manque ? CP | à imprimer PDF gratuit",
+   "metaDescription": "Six figures de tangram auxquelles il manque une pièce, marquée en pointillé orange, et trois pièces au choix à entourer. Fiche CP gratuite en PDF."
+  },
+  {
+   "slug": "tangram-quelle-solution-est-posee-comme-l-ombre",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-which-solution-matches-the-shadow",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche tangram · CE1",
+   "h1": "Tangram : quelle solution est posée comme l'ombre ?",
+   "strand": "Espace et géométrie (programmes officiels)",
+   "slotTokens": [
+    "tangram",
+    "ce1"
+   ],
+   "p1": "Quatre lignes composent cette fiche de CE1. À gauche de chaque ligne, une ombre pleine sur fond crème : une flèche vers le bas, une barre verticale, une forme coudée, une flèche vers la gauche. À droite, trois cartes blanches montrent la même figure entièrement assemblée, traits des sept pièces apparents, mais posée chaque fois autrement. Une seule tient exactement la position de l'ombre ; les deux autres ont été tournées d'un quart ou d'un demi-tour, ou retournées comme dans un miroir. L'enfant entoure celle qui correspond.",
+   "p2": "Tourner et retourner sont deux transformations distinctes, et cette page les met en concurrence sur la même image. La ligne de la barre verticale est la plus limpide : la solution debout se repère d'un coup d'œil parmi deux barres couchées. La ligne coudée est la plus exigeante, parce que les trois cartes ont presque la même encombrement et que seule l'orientation du crochet les sépare. Un signalement pour l'adulte qui corrigera : sur cet exemplaire, la bonne carte est la première de la ligne dans trois cas sur quatre. Un élève qui entourerait systématiquement la carte de gauche aurait trois réponses justes ; vérifiez donc le raisonnement autant que le résultat.",
+   "p3": "Une page en couleur, sans matériel, au crayon. Elle vient en fin de parcours, après les ombres à reconstituer : l'enfant y a déjà bâti les figures, on lui demande maintenant de juger une construction faite par quelqu'un d'autre. Ce regard de contrôle prépare la géométrie du cycle 2, où décrire un déplacement compte autant que le réussir. Pour revenir à la manipulation, reprenez les quatre ombres avec un jeu de pièces.",
+   "canonicalDeckSlug": "tangram-g2347",
+   "carousel": [
+    {
+     "label": "Tangram à découper : 7 pièces et deux modèles",
+     "href": "tangram-a-decouper-sept-pieces-et-deux-modeles"
+    },
+    {
+     "label": "Tangram facile : trace les traits pour 2 et 3 pièces",
+     "href": "tangram-facile-trace-les-traits-2-et-3-pieces"
+    },
+    {
+     "label": "Tangram : quatre ombres à reconstituer",
+     "href": "tangram-quatre-ombres-a-reconstituer"
+    },
+    {
+     "label": "Tangram : quelle pièce manque ?",
+     "href": "tangram-quelle-piece-manque"
+    }
+   ],
+   "title": "Tangram : la solution posée comme l'ombre, CE1 | à imprimer PDF",
+   "metaDescription": "Quatre ombres et, à côté de chacune, trois solutions dessinées : une seule est posée dans le même sens, les deux autres sont tournées ou retournées. Fiche CE1 PDF."
+  },
+  {
+   "slug": "tangram-compte-les-triangles-et-les-carres",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "tangram",
+    "mode": "tangram-count-the-triangles-and-squares",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Fiche tangram · Maternelle",
+   "h1": "Tangram : compte triangles et carrés",
+   "strand": "Espace et géométrie (programmes officiels)",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "tangram",
+    "maternelle"
+   ],
+   "p1": "Cette fiche de maternelle ne demande ni découpage ni assemblage : elle demande de compter. Quatre petites figures faites de trois à cinq pièces sont dessinées avec leurs traits intérieurs, deux par ligne, et sous chacune deux cases en pointillé précédées d'un dessin minuscule, un triangle puis un carré. L'enfant écrit dans la première combien de triangles il voit dans la figure, dans la seconde combien de carrés. Sur cet exemplaire les figures contiennent quatre, deux, trois et deux triangles, et un seul carré en tout, sur la deuxième figure.",
+   "p2": "Compter des formes dans un assemblage est plus difficile qu'il n'y paraît, parce qu'un contour n'est pas toujours une pièce. La troisième figure en donne la preuve : le haut ressemble à un carré, mais un trait le traverse en diagonale, et ce carré n'existe pas, il y a deux triangles. Le parallélogramme, lui, n'entre dans aucune des deux cases et sert de distracteur honnête. Un avertissement pratique : comme un seul carré apparaît sur toute la feuille, trois des quatre cases carrés attendent un zéro. Demandez à l'enfant de dire à voix haute pourquoi il écrit zéro, sinon le zéro devient une habitude.",
+   "p3": "Une page en couleur, deux nombres à écrire par figure, huit au total. Elle se glisse partout : avant le découpage pour installer le vocabulaire triangle et carré, ou après, pour vérifier qu'il tient hors du matériel. C'est aussi la seule fiche de la famille qui fasse écrire un chiffre, ce qui la rend utile en début d'année. La fiche quelle pièce manque travaille la même reconnaissance, mais sans nombre.",
+   "canonicalDeckSlug": "tangram-k359",
+   "carousel": [
+    {
+     "label": "Tangram à découper : 7 pièces et deux modèles",
+     "href": "tangram-a-decouper-sept-pieces-et-deux-modeles"
+    },
+    {
+     "label": "Tangram facile : trace les traits pour 2 et 3 pièces",
+     "href": "tangram-facile-trace-les-traits-2-et-3-pieces"
+    },
+    {
+     "label": "Tangram : quatre ombres à reconstituer",
+     "href": "tangram-quatre-ombres-a-reconstituer"
+    },
+    {
+     "label": "Tangram : quelle pièce manque ?",
+     "href": "tangram-quelle-piece-manque"
+    }
+   ],
+   "title": "Tangram : compte les triangles et les carrés | à imprimer PDF",
+   "metaDescription": "Quatre petites figures de tangram avec leurs traits apparents et deux cases par figure : combien de triangles, combien de carrés. Fiche maternelle en PDF."
+  },
+  {
+   "slug": "le-corps-humain-combien-en-as-tu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-how-many",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Fiche le corps humain · Maternelle",
+   "h1": "Le corps humain : combien en as-tu ?",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-corps-humain",
+    "maternelle"
+   ],
+   "p1": "Le personnage de référence se tient à gauche de cette fiche de maternelle ; à droite, six cartes en trois rangées posent chacune une question : combien de bouches, combien de doigts, combien de nez, combien d'yeux, combien de jambes, combien de bras. Au-dessus de la question, une image nette de la partie concernée ; dessous, une case carrée en pointillé orange pour un seul chiffre. La consigne renvoie l'enfant à son propre corps : il compte sur lui, pas sur l'image. Deux réponses valent un, trois valent deux, et une seule vaut dix.",
+   "p2": "Compter sur soi transforme une leçon de vocabulaire en leçon de nombre. Un, deux et dix sont exactement les trois quantités qu'un enfant de maternelle sait produire sans compter un à un, et les retrouver sur son corps ancre la cardinalité mieux que n'importe quelle collection d'objets. Deux réserves, tout de même. La carte des doigts montre une main levant un seul doigt alors que la réponse attendue est dix, et cette image travaille contre la question : redites la consigne à voix haute avant de laisser écrire. La photo de la jambe porte par ailleurs une marque rouge au genou, qui vient de la banque d'images et ne signifie rien ici.",
+   "p3": "Une page en couleur, six chiffres à écrire, rien à lire pour l'enfant sinon la question, que l'adulte peut dire. Elle se fait debout, en groupe, chacun se regardant. Elle prolonge très bien la fiche de base, qui nomme les parties, et elle prépare la fiche lesquelles vont par deux, où l'enfant n'écrit plus de nombre mais entoure les parties qu'il possède en double.",
+   "canonicalDeckSlug": "le-corps-humain-k360",
+   "carousel": [
+    {
+     "label": "Le corps humain",
+     "href": "le-corps-humain-ecris-les-parties-du-corps"
+    },
+    {
+     "label": "Le corps humain : colorie avec la légende",
+     "href": "le-corps-humain-colorie-avec-la-legende"
+    },
+    {
+     "label": "Le corps humain : écris le nom",
+     "href": "le-corps-humain-ecris-le-nom-lettre-par-lettre"
+    },
+    {
+     "label": "Le corps humain : que manque-t-il ?",
+     "href": "le-corps-humain-que-manque-t-il"
+    }
+   ],
+   "title": "Le corps humain : combien en as-tu ? Maternelle | à imprimer PDF",
+   "metaDescription": "Six cartes photo avec une question chacune, bouche, doigts, nez, yeux, jambes, bras, et une case où écrire le nombre compté sur son propre corps. Fiche maternelle."
+  },
+  {
+   "slug": "le-corps-humain-colorie-avec-la-legende",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-color-by-legend",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Fiche le corps humain · Maternelle",
+   "h1": "Le corps humain : colorie avec la légende",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-corps-humain",
+    "maternelle"
+   ],
+   "p1": "Rien n'est à écrire sur cette fiche de maternelle. À gauche, cinq cartes de légende empilées : un carré de couleur, le nom de la couleur, une flèche, puis la partie du corps. Jaune va aux cheveux, marron aux bras, rose aux jambes, rouge aux pieds, vert aux mains. À droite, le personnage est dessiné au trait sur fond blanc, sans aucun aplat, chaque zone bien fermée par un contour : les cheveux séparés du visage par une ligne en zigzag, les mains séparées des bras au poignet, les pieds séparés des jambes à la cheville. L'enfant colorie.",
+   "p2": "La page tient sur une compétence unique et souvent sous-estimée : lire une légende et l'appliquer ailleurs. Il faut retenir un couple couleur-partie le temps d'aller du bord gauche jusqu'au personnage, cinq fois de suite, sans se laisser distraire par la couleur du crayon qu'on a déjà en main. Les frontières du dessin font le reste du travail pédagogique : main et bras portent deux couleurs différentes, pied et jambe aussi, donc l'enfant doit décider où s'arrête l'un et où commence l'autre. Le tronc, la tête et le cou restent blancs, ce qui est volontaire et laisse les cinq zones bien visibles.",
+   "p3": "Une page à imprimer, cinq crayons de couleur, aucune lecture obligatoire pour l'enfant si l'adulte dit les couleurs. C'est la version sans écriture de la fiche de base : même vocabulaire, même personnage, mais le crayon remplace le mot. Elle s'affiche très bien au mur une fois terminée, et elle sert de référence quand la classe passera à la fiche écris le nom, où les cases lettre par lettre demandent, elles, de savoir orthographier.",
+   "canonicalDeckSlug": "le-corps-humain-k361",
+   "carousel": [
+    {
+     "label": "Le corps humain",
+     "href": "le-corps-humain-ecris-les-parties-du-corps"
+    },
+    {
+     "label": "Le corps humain : combien en as-tu ?",
+     "href": "le-corps-humain-combien-en-as-tu"
+    },
+    {
+     "label": "Le corps humain : écris le nom",
+     "href": "le-corps-humain-ecris-le-nom-lettre-par-lettre"
+    },
+    {
+     "label": "Le corps humain : que manque-t-il ?",
+     "href": "le-corps-humain-que-manque-t-il"
+    }
+   ],
+   "title": "Le corps humain à colorier avec une légende | à imprimer PDF",
+   "metaDescription": "Cinq lignes de légende, jaune pour les cheveux, marron pour les bras, rose pour les jambes, rouge pour les pieds, vert pour les mains, sur un personnage au trait. PDF."
+  },
+  {
+   "slug": "le-corps-humain-ecris-le-nom-lettre-par-lettre",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-write-the-word",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche le corps humain · CP",
+   "h1": "Le corps humain : écris le nom",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-corps-humain",
+    "cp"
+   ],
+   "p1": "Sur cette fiche de CP, le personnage porte six pastilles orange numérotées de 1 à 6, et la liste de mots a disparu. À droite, six rangées de cases en pointillé attendent le nom de chaque repère, une lettre par case : sept cases pour le premier, six pour le deuxième et le troisième, quatre, cinq et quatre pour les suivants. Les repères sont l'oreille, la bouche, l'épaule, le bras, le coude et la main. Le nombre de cases dit donc la longueur du mot, mais rien d'autre : ni la première lettre, ni les accents.",
+   "p2": "Sans liste, l'enfant doit retrouver le mot dans sa tête puis l'écrire, ce qui fait de cette page la seule vraie fiche d'orthographe de la famille. Le comptage de cases aide et piège à la fois : bouche et épaule font six lettres toutes les deux, bras et main en font quatre, si bien que l'enfant ne peut pas se contenter de compter, il doit regarder où pointe la pastille. Une gêne à signaler : les pastilles 1 et 2 sont posées directement sur l'oreille et sur la bouche et les recouvrent en partie. Pour ces deux repères, montrez la partie sur un visage réel avant de laisser écrire.",
+   "p3": "Une page en couleur, vingt-six lettres à tracer en tout, de quoi occuper une séance d'écriture entière. Elle arrive en fin de séquence, quand la fiche de base a été faite avec sa liste et que le vocabulaire est installé. Épaule est le mot le plus exigeant de la série : il commence par une majuscule accentuée si l'enfant écrit en capitales, ce qui mérite d'être montré au tableau avant de commencer.",
+   "canonicalDeckSlug": "le-corps-humain-g1356",
+   "carousel": [
+    {
+     "label": "Le corps humain",
+     "href": "le-corps-humain-ecris-les-parties-du-corps"
+    },
+    {
+     "label": "Le corps humain : combien en as-tu ?",
+     "href": "le-corps-humain-combien-en-as-tu"
+    },
+    {
+     "label": "Le corps humain : colorie avec la légende",
+     "href": "le-corps-humain-colorie-avec-la-legende"
+    },
+    {
+     "label": "Le corps humain : que manque-t-il ?",
+     "href": "le-corps-humain-que-manque-t-il"
+    }
+   ],
+   "title": "Le corps humain : écris le nom, une lettre par case | PDF gratuit",
+   "metaDescription": "Six repères numérotés sur un personnage et six rangées de cases : oreille, bouche, épaule, bras, coude, main, une lettre par case. Fiche CP gratuite en PDF."
+  },
+  {
+   "slug": "le-corps-humain-que-manque-t-il",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-what-is-missing",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Fiche le corps humain · Maternelle",
+   "h1": "Le corps humain : que manque-t-il ?",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-corps-humain",
+    "maternelle"
+   ],
+   "p1": "Quatre petits personnages, deux par ligne, occupent cette fiche de maternelle, et chacun est incomplet. Au premier il manque un bras, au deuxième une jambe, au troisième les cheveux, au quatrième un pied. À droite de chaque personnage, trois images réalistes sont empilées dans des cases blanches ; l'enfant entoure celle qui montre la partie absente, puis la dessine à sa place sur le personnage. La double consigne compte : on repère, puis on répare.",
+   "p2": "Ce qui manque se voit mieux que ce qui est là, et c'est tout l'intérêt de la page pour de jeunes enfants. Le regard balaie une silhouette familière, s'arrête sur l'asymétrie, et le mot vient ensuite. Le troisième personnage est le plus subtil : la tête est nue, sans déchirure ni moignon, et beaucoup d'enfants mettent du temps à voir que ce sont les cheveux. Deux remarques pour l'adulte. L'image proposée pour les cheveux est un portrait entier de fillette rousse et non une simple chevelure, ce qui demande un mot d'explication. Et sur cet exemplaire la bonne image est la troisième dans trois cas sur quatre : faites justifier le choix.",
+   "p3": "Une page en couleur, quatre entourages et quatre dessins à main levée, donc un crayon de papier plutôt qu'un feutre. Le dessin final est la partie que les enfants préfèrent et c'est aussi la trace la plus parlante pour l'adulte : un bras dessiné à la bonne longueur en dit long. La fiche se donne après la fiche de base, dont elle reprend le personnage, et avant la fiche lesquelles vont par deux, qui ajoute l'idée de paire.",
+   "canonicalDeckSlug": "le-corps-humain-k362",
+   "carousel": [
+    {
+     "label": "Le corps humain",
+     "href": "le-corps-humain-ecris-les-parties-du-corps"
+    },
+    {
+     "label": "Le corps humain : combien en as-tu ?",
+     "href": "le-corps-humain-combien-en-as-tu"
+    },
+    {
+     "label": "Le corps humain : colorie avec la légende",
+     "href": "le-corps-humain-colorie-avec-la-legende"
+    },
+    {
+     "label": "Le corps humain : écris le nom",
+     "href": "le-corps-humain-ecris-le-nom-lettre-par-lettre"
+    }
+   ],
+   "title": "Le corps humain : que manque-t-il ? Maternelle | à imprimer PDF",
+   "metaDescription": "Quatre personnages auxquels il manque un bras, une jambe, les cheveux ou un pied, trois images à côté de chacun : entoure la bonne, puis dessine-la. Fiche PDF."
+  },
+  {
+   "slug": "le-corps-humain-lesquelles-vont-par-deux",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "human-body",
+    "mode": "human-body-which-come-in-twos",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Fiche le corps humain · Maternelle",
+   "h1": "Le corps humain : lesquelles vont par deux ?",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-corps-humain",
+    "maternelle"
+   ],
+   "p1": "Huit cartes en deux colonnes tiennent la droite de cette fiche de maternelle ; le personnage de référence reste à gauche. Chaque carte montre une photo et son nom au singulier : pied, nez, œil, bouche, genou, coude, main, tête. L'enfant entoure toutes les parties dont il possède deux exemplaires. Cinq cartes sont à entourer, trois ne le sont pas, et il n'y a aucun ordre : les paires et les uniques alternent sans régularité, si bien qu'on ne peut pas deviner en regardant la colonne.",
+   "p2": "Derrière une question de connaissance du corps se cache une première idée de la parité. Cinq réponses à entourer et trois à laisser, c'est déjà un tri, et beaucoup d'enfants tranchent en touchant : deux mains, deux genoux, un nez. Deux cartes demandent un moment de réflexion. Le genou et le coude sont des articulations que l'on compte rarement, et l'enfant doit les chercher sur lui. La carte tête est la plus piégeuse, parce que la photo montre un visage entier avec deux yeux dedans : rappelez qu'on compte la tête, pas ce qu'elle contient.",
+   "p3": "Une page en couleur, huit décisions, un feutre. Elle se fait volontiers debout et à deux, chacun vérifiant sur l'autre. Elle referme la famille du corps humain en reliant le vocabulaire au nombre, et elle prépare directement les fiches pairs et impairs, où compter deux par deux devient la méthode. La fiche combien en as-tu travaille la même idée en demandant un chiffre écrit plutôt qu'un entourage.",
+   "canonicalDeckSlug": "le-corps-humain-k363",
+   "carousel": [
+    {
+     "label": "Le corps humain",
+     "href": "le-corps-humain-ecris-les-parties-du-corps"
+    },
+    {
+     "label": "Le corps humain : combien en as-tu ?",
+     "href": "le-corps-humain-combien-en-as-tu"
+    },
+    {
+     "label": "Le corps humain : colorie avec la légende",
+     "href": "le-corps-humain-colorie-avec-la-legende"
+    },
+    {
+     "label": "Le corps humain : écris le nom",
+     "href": "le-corps-humain-ecris-le-nom-lettre-par-lettre"
+    }
+   ],
+   "title": "Le corps humain : lesquelles vont par deux ? | à imprimer PDF",
+   "metaDescription": "Huit cartes image et mot, pied, nez, œil, bouche, genou, coude, main, tête : cinq parties vont par deux, trois sont uniques. Fiche maternelle à imprimer en PDF."
+  },
+  {
+   "slug": "les-5-sens-classe-les-images-par-sens",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-sort-by-sense",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche les 5 sens · CP",
+   "h1": "Les 5 sens : classe les images par sens",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "les-5-sens",
+    "cp"
+   ],
+   "p1": "Dix vignettes forment deux rangées en haut de cette fiche de CP : un citron, des jumelles, un bonbon, une fleur, un oreiller, un tas de sable, une gousse d'ail, un violon, une étoile dorée, un tambour. Chacune porte un point orange sous elle. Tout en bas, cinq boîtes ouvertes attendent, coiffées d'une étiquette et d'un petit organe : goûter, sentir, voir, entendre, toucher. L'enfant trace un trait du point de chaque image jusqu'à la boîte du sens. Deux images reviennent à chaque boîte, jamais trois, jamais une seule.",
+   "p2": "Le classement est plus exigeant que l'appariement de la fiche de base, parce que deux objets doivent arriver au même endroit sans que rien ne le signale. Les paires du toucher, oreiller et sable, et de l'ouïe, violon et tambour, passent toutes seules. Deux couples méritent une discussion en classe. Le citron est rangé sous goûter et l'ail sous sentir, alors qu'un enfant français dira volontiers l'inverse, le citron sentant fort et l'ail ayant un goût marqué. Les jumelles, elles, ne se voient pas plus que le reste de la page : elles tombent dans voir par élimination. Ces deux points valent d'être nommés plutôt que corrigés sèchement.",
+   "p3": "Une page en couleur, dix traits longs qui traversent la feuille, donc un crayon fin et une règle sont utiles. Prévenez que la zone blanche du milieu est faite pour les traits : elle paraît vide, elle ne l'est pas. Si dix traits se mêlent trop, faites classer par couleur de crayon, un sens par couleur. La fiche quel sens utilises-tu propose le même travail en rangées séparées, sans croisement, pour un enfant que l'enchevêtrement décourage.",
+   "canonicalDeckSlug": "les-5-sens-g1357",
+   "carousel": [
+    {
+     "label": "Les 5 sens",
+     "href": "les-5-sens-relie-l-image-a-l-organe"
+    },
+    {
+     "label": "Les 5 sens : quel sens utilises-tu ?",
+     "href": "les-5-sens-quel-sens-utilises-tu"
+    },
+    {
+     "label": "Les 5 sens : quelle image n'appartient pas au groupe ?",
+     "href": "les-5-sens-quelle-image-n-appartient-pas-au-groupe"
+    },
+    {
+     "label": "Les organes des sens : écris le sens",
+     "href": "les-organes-des-sens-ecris-le-sens"
+    }
+   ],
+   "title": "Les 5 sens : classe dix images par sens, CP | à imprimer PDF",
+   "metaDescription": "Dix images à relier à cinq boîtes, goûter, sentir, voir, entendre, toucher, chacune illustrée de son organe. Deux images par sens. Fiche CP à imprimer en PDF."
+  },
+  {
+   "slug": "les-5-sens-quel-sens-utilises-tu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-which-sense",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche les 5 sens · CP",
+   "h1": "Les 5 sens : quel sens utilises-tu ?",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "les-5-sens",
+    "cp"
+   ],
+   "p1": "Huit rangées, une par objet, structurent cette fiche de CP. À gauche de chaque rangée, une image : un oreiller, un caillou, un citron, un cornet de pop-corn, une guitare, une guirlande lumineuse, une lampe de poche, une rose. À droite, toujours les mêmes cinq organes dans le même ordre, œil, oreille, nez, langue, main, chacun dans sa petite case. L'enfant entoure celui qui lui sert à percevoir l'objet de la rangée. La colonne d'organes ne bouge jamais, ce qui rend la page très lisible et permet de travailler ligne après ligne.",
+   "p2": "Répéter le même choix huit fois installe le réflexe mieux qu'un classement unique. Attention cependant à la répartition : les deux premières rangées appellent toutes deux la main, les rangées trois et quatre la langue, les rangées six et sept l'œil ; seules la guitare et la rose sont seules de leur sens. Un enfant peut donc recopier la réponse de la ligne précédente et tomber juste deux fois sur trois. Espacez les lignes dans le temps, ou faites-les traiter dans le désordre. Le pop-corn est par ailleurs discutable, son odeur étant au moins aussi forte que son goût : c'est une belle occasion de dire qu'un objet peut réveiller deux sens.",
+   "p3": "Une page en couleur, huit entourages, un feutre. C'est la fiche la plus courte à corriger de la famille, parce que la colonne d'organes est fixe : l'adulte balaie une diagonale et voit tout. Elle convient bien en autonomie après la fiche de base. Pour aller plus loin, la fiche quelle image n'appartient pas au groupe renverse la question et demande de repérer l'intrus dans une rangée de quatre.",
+   "canonicalDeckSlug": "les-5-sens-g1358",
+   "carousel": [
+    {
+     "label": "Les 5 sens",
+     "href": "les-5-sens-relie-l-image-a-l-organe"
+    },
+    {
+     "label": "Les 5 sens : classe les images par sens",
+     "href": "les-5-sens-classe-les-images-par-sens"
+    },
+    {
+     "label": "Les 5 sens : quelle image n'appartient pas au groupe ?",
+     "href": "les-5-sens-quelle-image-n-appartient-pas-au-groupe"
+    },
+    {
+     "label": "Les organes des sens : écris le sens",
+     "href": "les-organes-des-sens-ecris-le-sens"
+    }
+   ],
+   "title": "Les 5 sens : quel sens utilises-tu ? CP | à imprimer PDF gratuit",
+   "metaDescription": "Huit rangées, une image et les cinq organes en ligne : oreiller, caillou, citron, pop-corn, guitare, guirlande, lampe, rose. Fiche CP gratuite à imprimer en PDF."
+  },
+  {
+   "slug": "les-5-sens-quelle-image-n-appartient-pas-au-groupe",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-which-one-does-not-belong",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche les 5 sens · CP",
+   "h1": "Les 5 sens : quelle image n'appartient pas au groupe ?",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "les-5-sens",
+    "cp"
+   ],
+   "p1": "Cinq longues rangées de quatre images composent cette fiche de CP. Dans chaque rangée, trois images se perçoivent avec le même sens et une seule sort du lot ; l'enfant la barre. Sur cet exemplaire, la première rangée aligne chocolat, part de gâteau et sucette autour d'une fleur, la deuxième cupcake, biscuit et pot de miel autour d'une plume, la troisième xylophone, saxophone et guitare autour d'un bonbon, la quatrième sifflet, tambour et piano autour d'une guirlande, la cinquième télescope, étoile et arc-en-ciel autour d'un cornet de pop-corn.",
+   "p2": "L'intrus est une figure de raisonnement que les enfants adorent, et la page la sert bien : les rangées sont larges, les images grandes, la décision rapide. Un point d'honnêteté à connaître avant de la donner. L'intrus est aussi, chaque fois, le seul objet d'une autre catégorie ordinaire : la seule fleur parmi des sucreries, le seul objet non comestible parmi des gâteaux, le seul bonbon parmi des instruments. Un enfant peut donc réussir les cinq rangées sans penser une seule fois à un sens. Demandez la justification à voix haute, c'est elle qui fait la leçon. Notez aussi que seuls trois sens forment un groupe ici, le goût, l'ouïe et la vue.",
+   "p3": "Une page en couleur, cinq croix, rien à écrire. Elle passe très bien à l'oral en collectif, chaque rangée devenant une question posée à la classe. Trois des cinq intrus se trouvent en première position, alors laissez l'enfant lire toute la rangée avant de trancher. Pour retrouver un travail où les cinq sens sont tous représentés, revenez à la fiche classe les images par sens, qui en range deux par boîte.",
+   "canonicalDeckSlug": "les-5-sens-g1359",
+   "carousel": [
+    {
+     "label": "Les 5 sens",
+     "href": "les-5-sens-relie-l-image-a-l-organe"
+    },
+    {
+     "label": "Les 5 sens : classe les images par sens",
+     "href": "les-5-sens-classe-les-images-par-sens"
+    },
+    {
+     "label": "Les 5 sens : quel sens utilises-tu ?",
+     "href": "les-5-sens-quel-sens-utilises-tu"
+    },
+    {
+     "label": "Les organes des sens : écris le sens",
+     "href": "les-organes-des-sens-ecris-le-sens"
+    }
+   ],
+   "title": "Les 5 sens : barre l'intrus de chaque rangée, CP | à imprimer PDF",
+   "metaDescription": "Cinq rangées de quatre images : trois vont avec le même sens, une non. Barre la fleur, la plume, le bonbon, la guirlande, le pop-corn. Fiche CP en PDF."
+  },
+  {
+   "slug": "les-organes-des-sens-ecris-le-sens",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "sense-organs-write-the-sense-word",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche les 5 sens · CP",
+   "h1": "Les organes des sens : écris le sens",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "les-5-sens",
+    "cp"
+   ],
+   "p1": "Cette fiche de CP renverse la question des précédentes : on part de l'organe et l'on cherche le verbe. Une liste encadrée en haut donne cinq mots dans le désordre, entendre, toucher, voir, sentir, goûter. Dessous, cinq bandes se suivent, chacune avec la photo d'un organe à gauche et, à droite, une ligne d'écriture à trois réglures avec un interligne en pointillé. L'ordre des organes est langue, œil, oreille, main, nez, et aucun d'eux n'est en face de son verbe dans la liste. L'enfant recopie le mot qui convient.",
+   "p2": "Écrire le verbe plutôt que d'entourer une image change le statut de la connaissance : le sens devient une action, ce qui est la formulation attendue à ce niveau. Les mots sont fournis, donc la difficulté reste la mise en correspondance et le geste graphique, pas l'orthographe. Un mot mérite toutefois un avertissement en français : sentir désigne ici l'odorat, alors que le même verbe s'emploie couramment pour ce que l'on ressent avec la peau. Un enfant qui écrit sentir à côté de la main n'a pas mal raisonné, il a pris l'autre sens du mot. Dites-le avant, cela évite une correction incompréhensible pour lui.",
+   "p3": "Une page en couleur, cinq mots à tracer, des lignes larges qui laissent place à une écriture cursive débutante. Elle se fait naturellement après la fiche de base, dont elle reprend exactement les cinq organes. Elle sert aussi de modèle d'orthographe avant la fiche j'entends, je vois, je sens, où l'enfant écrit cette fois ses propres réponses sans aucun mot donné.",
+   "canonicalDeckSlug": "les-5-sens-g1360",
+   "carousel": [
+    {
+     "label": "Les 5 sens",
+     "href": "les-5-sens-relie-l-image-a-l-organe"
+    },
+    {
+     "label": "Les 5 sens : classe les images par sens",
+     "href": "les-5-sens-classe-les-images-par-sens"
+    },
+    {
+     "label": "Les 5 sens : quel sens utilises-tu ?",
+     "href": "les-5-sens-quel-sens-utilises-tu"
+    },
+    {
+     "label": "Les 5 sens : quelle image n'appartient pas au groupe ?",
+     "href": "les-5-sens-quelle-image-n-appartient-pas-au-groupe"
+    }
+   ],
+   "title": "Les organes des sens : écris le sens, CP | à imprimer PDF gratuit",
+   "metaDescription": "Cinq organes, langue, œil, oreille, main, nez, et cinq verbes à recopier sur des lignes d'écriture : entendre, toucher, voir, sentir, goûter. Fiche CP en PDF."
+  },
+  {
+   "slug": "les-5-sens-j-entends-je-vois-je-sens",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "five-senses",
+    "mode": "five-senses-i-can-hear",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche les 5 sens · CP",
+   "h1": "Les 5 sens : j'entends, je vois, je sens ...",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "les-5-sens",
+    "cp"
+   ],
+   "p1": "Aucune bonne réponse n'est attendue sur cette fiche de CP, et c'est ce qui la distingue de toutes ses sœurs. Cinq bandes se suivent, chacune avec la photo d'un organe à gauche et, à droite, un début de phrase imprimé en gris clair sur la première ligne : J'entends, Je vois, Je sens, Je goûte, Je touche. Sous chaque début, une ligne d'écriture vide à trois réglures attend la suite. L'enfant écrit ce qu'il entend, voit, sent, goûte et touche, chez lui, dans la cour ou dans la classe.",
+   "p2": "La page transforme une leçon de sciences en première production d'écrit. Le début de phrase enlève l'obstacle le plus lourd, celui du démarrage, et laisse toute la place au vocabulaire de l'enfant : un mot suffit, une liste de trois fonctionne aussi. Elle se prête remarquablement bien à une sortie, dix minutes dans la cour les yeux fermés puis retour en classe pour écrire. Pour une classe qui n'écrit pas encore seule, elle se dicte à l'adulte. La consigne ne demande pas de phrase complète, ce qui est la bonne exigence en CP : on complète, on n'invente pas une structure.",
+   "p3": "Une page en couleur, cinq phrases à finir, environ deux lignes par sens. Les débuts imprimés en gris servent aussi de modèle de lettres à observer. C'est la fiche de fin de séquence : elle suppose que la fiche de base a nommé les organes et que la fiche écris le sens a installé les verbes. Les productions se comparent très bien entre elles, aucune n'étant identique, et font une belle affiche collective.",
+   "canonicalDeckSlug": "les-5-sens-g1361",
+   "carousel": [
+    {
+     "label": "Les 5 sens",
+     "href": "les-5-sens-relie-l-image-a-l-organe"
+    },
+    {
+     "label": "Les 5 sens : classe les images par sens",
+     "href": "les-5-sens-classe-les-images-par-sens"
+    },
+    {
+     "label": "Les 5 sens : quel sens utilises-tu ?",
+     "href": "les-5-sens-quel-sens-utilises-tu"
+    },
+    {
+     "label": "Les 5 sens : quelle image n'appartient pas au groupe ?",
+     "href": "les-5-sens-quelle-image-n-appartient-pas-au-groupe"
+    }
+   ],
+   "title": "Les 5 sens : termine j'entends, je vois, je sens | PDF à imprimer",
+   "metaDescription": "Cinq débuts de phrase à compléter, J'entends, Je vois, Je sens, Je goûte, Je touche, chacun avec son organe et deux lignes d'écriture. Fiche CP en PDF."
+  },
+  {
+   "slug": "ecris-le-mot-du-temps-qu-il-fait",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-write-the-weather-word",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche le temps qu'il fait · CP",
+   "h1": "Écris le mot du temps qu'il fait",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-temps-qu-il-fait",
+    "cp"
+   ],
+   "p1": "Une liste encadrée ouvre cette fiche de CP avec six mots dans le désordre : orage, nuage, pluie, soleil, arc-en-ciel, neige. Dessous, six bandes portent chacune un symbole du temps à gauche et, à droite, une rangée de cases en pointillé, une case par lettre. Le flocon, l'orage, le nuage et la pluie ouvrent cinq cases ; le soleil en ouvre six. La dernière bande, celle de l'arc-en-ciel, découpe ses neuf lettres en trois groupes de trois, deux et quatre cases, avec les deux traits d'union déjà imprimés entre les groupes.",
+   "p2": "Les cases lettre par lettre servent d'habitude à réduire le choix, mais ici elles le font à peine, et c'est une bonne nouvelle : quatre des six mots font exactement cinq lettres, si bien que compter ne suffit pas et qu'il faut lire le symbole. Seuls soleil et arc-en-ciel se trahissent par leur longueur. Les traits d'union imprimés d'avance règlent d'un coup le mot composé le plus difficile du lot : l'enfant n'a pas à décider où les mettre, il voit la structure du mot et remplit. C'est un détail de mise en page qui vaut une leçon d'orthographe entière.",
+   "p3": "Une page en couleur, trente-quatre lettres à tracer, une séance d'écriture complète. Elle vient après la fiche de base, qui associe les mêmes six symboles à leurs mots sans rien faire écrire. Pour un enfant qui bloque, laissez la fiche de base ouverte à côté : la liste y est identique. La fiche lis les prévisions de la semaine prolonge ce vocabulaire du côté de la lecture, avec des questions à répondre en entourant un jour.",
+   "canonicalDeckSlug": "le-temps-qu-il-fait-g1362",
+   "carousel": [
+    {
+     "label": "Le temps qu'il fait",
+     "href": "le-temps-qu-il-fait-relie-le-symbole-et-le-mot"
+    },
+    {
+     "label": "Le temps de la semaine, du lundi au dimanche",
+     "href": "le-temps-de-la-semaine-du-lundi-au-dimanche"
+    },
+    {
+     "label": "Fait-il froid, doux ou chaud ?",
+     "href": "fait-il-froid-doux-ou-chaud-le-thermometre"
+    },
+    {
+     "label": "Cycle de l'eau : écris chaque étape",
+     "href": "cycle-de-l-eau-ecris-chaque-etape"
+    }
+   ],
+   "title": "Écris le mot du temps qu'il fait, CP | à imprimer PDF gratuit",
+   "metaDescription": "Six symboles météo et six rangées de cases lettre par lettre, avec les traits d'union imprimés pour arc-en-ciel. Fiche CP gratuite sur le temps, en PDF."
+  },
+  {
+   "slug": "le-temps-de-la-semaine-du-lundi-au-dimanche",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-weather-chart-monday-to-sunday",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Fiche le temps qu'il fait · Maternelle",
+   "h1": "Le temps de la semaine, du lundi au dimanche",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-temps-qu-il-fait",
+    "maternelle"
+   ],
+   "p1": "Sept grandes cases blanches à bord pointillé occupent cette fiche de maternelle, disposées quatre puis trois, et coiffées chacune d'une étiquette : lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche. La huitième place du quadrillage n'est pas un jour : elle contient une clé de six symboles, soleil, nuage, pluie, orage, neige et arc-en-ciel, sur fond blanc bordé de vert. Chaque jour de la semaine, l'enfant regarde par la fenêtre et dessine dans la case du jour le symbole qui correspond.",
+   "p2": "C'est la seule fiche de la famille qui ne se fasse pas en une fois. Elle s'étale sur sept jours, et c'est précisément ce qui la rend utile : le rituel du matin devient une trace écrite, et la semaine entière se relit d'un coup d'œil le vendredi. La semaine commence par lundi, comme dans les calendriers scolaires français, et va jusqu'à dimanche, ce qui suppose que l'enfant emporte la feuille pour le week-end ou la complète de mémoire le lundi suivant. Les cases sont volontairement hautes : elles laissent la place à un dessin de jeune enfant, pas à une vignette.",
+   "p3": "Une page à imprimer, sept dessins, des crayons de couleur. La clé n'est pas titrée : montrez-la une fois pour que l'enfant comprenne qu'il s'agit de modèles et non d'une huitième journée. Elle s'affiche au mur pour toute la classe ou se glisse dans le cahier de vie. Elle suppose que les symboles ont déjà été nommés, donc faites d'abord la fiche de base. Une fois la semaine remplie, la fiche lis les prévisions de la semaine montre à quoi ressemble un tableau déjà rempli.",
+   "canonicalDeckSlug": "le-temps-qu-il-fait-k364",
+   "carousel": [
+    {
+     "label": "Le temps qu'il fait",
+     "href": "le-temps-qu-il-fait-relie-le-symbole-et-le-mot"
+    },
+    {
+     "label": "Écris le mot du temps qu'il fait",
+     "href": "ecris-le-mot-du-temps-qu-il-fait"
+    },
+    {
+     "label": "Fait-il froid, doux ou chaud ?",
+     "href": "fait-il-froid-doux-ou-chaud-le-thermometre"
+    },
+    {
+     "label": "Cycle de l'eau : écris chaque étape",
+     "href": "cycle-de-l-eau-ecris-chaque-etape"
+    }
+   ],
+   "title": "Le temps de la semaine du lundi au dimanche | à imprimer PDF",
+   "metaDescription": "Sept cases, une par jour de lundi à dimanche, à remplir chaque jour en dessinant le symbole du temps, avec une clé de six symboles. Fiche maternelle en PDF."
+  },
+  {
+   "slug": "fait-il-froid-doux-ou-chaud-le-thermometre",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-how-warm-is-it",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Fiche le temps qu'il fait · Maternelle",
+   "h1": "Fait-il froid, doux ou chaud ?",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-temps-qu-il-fait",
+    "maternelle"
+   ],
+   "p1": "Une bande de référence ouvre cette fiche de maternelle : trois thermomètres y sont dessinés côte à côte, le premier à peine rempli, le deuxième à mi-hauteur, le troisième presque plein, et chacun est suivi d'un vêtement, une écharpe, un tee-shirt vert, une paire de lunettes de soleil. Dessous, quatre cartes montrent chacune un thermomètre plus grand et trois vêtements empilés à droite. L'enfant regarde la hauteur du liquide, la compare à la bande du haut et entoure le vêtement qui convient.",
+   "p2": "La page se résout entièrement par comparaison de hauteurs, et c'est un bon premier contact avec la mesure. Les thermomètres portent trois zones colorées très pâles, bleutée en bas, blanche au milieu, rosée en haut, mais aucun chiffre et aucun mot : rien n'écrit froid, doux ni chaud nulle part. La clé associe directement une hauteur à un vêtement. Sachez donc que l'enfant fait une correspondance d'images, pas une lecture de température, et que les trois mots du titre restent à dire à voix haute. Autre point utile à la correction : sur les quatre cartes, la bonne réponse n'est jamais le vêtement du haut.",
+   "p3": "Une page en couleur, quatre entourages, un feutre. Elle se prolonge très bien avec un vrai thermomètre de classe posé à la fenêtre, que l'on relève au même moment chaque jour. Les zones colorées étant pâles à l'impression, préférez une sortie couleur si vous le pouvez, ou repassez les bandes au crayon avant de distribuer. La fiche du temps de la semaine complète celle-ci : l'une regarde le ciel, l'autre la température.",
+   "canonicalDeckSlug": "le-temps-qu-il-fait-k365",
+   "carousel": [
+    {
+     "label": "Le temps qu'il fait",
+     "href": "le-temps-qu-il-fait-relie-le-symbole-et-le-mot"
+    },
+    {
+     "label": "Écris le mot du temps qu'il fait",
+     "href": "ecris-le-mot-du-temps-qu-il-fait"
+    },
+    {
+     "label": "Le temps de la semaine, du lundi au dimanche",
+     "href": "le-temps-de-la-semaine-du-lundi-au-dimanche"
+    },
+    {
+     "label": "Cycle de l'eau : écris chaque étape",
+     "href": "cycle-de-l-eau-ecris-chaque-etape"
+    }
+   ],
+   "title": "Fait-il froid, doux ou chaud ? Le thermomètre | à imprimer PDF",
+   "metaDescription": "Quatre thermomètres à bandes colorées et, pour chacun, trois vêtements à choisir : écharpe, tee-shirt ou lunettes de soleil. Fiche maternelle à imprimer en PDF."
+  },
+  {
+   "slug": "cycle-de-l-eau-ecris-chaque-etape",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-water-cycle-label-the-diagram",
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Fiche le temps qu'il fait · CE2",
+   "h1": "Cycle de l'eau : écris chaque étape",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-temps-qu-il-fait",
+    "ce2"
+   ],
+   "p1": "Un schéma occupe le milieu de cette fiche de CE2 : un soleil à gauche, une mer bleutée en bas, une colline sableuse à droite, un nuage en haut, des traits ondulés qui montent de l'eau et des pointillés qui tombent du nuage. Quatre pastilles orange numérotées y sont posées, sur la flèche qui monte vers le nuage, dans le nuage, dans la pluie qui tombe, et dans la mer. Une liste encadrée donne les quatre mots dans le désordre, condensation, évaporation, collecte, précipitations, et quatre cadres d'écriture numérotés attendent en bas de page.",
+   "p2": "Le schéma raconte une boucle et les quatre mots la nomment ; l'enfant n'a donc pas à inventer le vocabulaire, il doit le placer. La difficulté réelle est la direction : la vapeur monte, la pluie descend, et les deux termes savants qui vont avec, évaporation et condensation, se confondent puisqu'ils se ressemblent à l'oreille. Un point de vocabulaire à préparer : le repère 4 est posé dans la mer elle-même, et le mot attendu est collecte, l'eau qui se rassemble. À ne pas confondre avec le ruissellement, que le schéma montre pourtant bien, par la flèche orange qui glisse de la colline vers la mer, mais sans numéro ni mot.",
+   "p3": "Une page en couleur, quatre mots à recopier sur des lignes réglées en trois filets. C'est la fiche la plus exigeante de la famille et la seule qui dépasse la description du temps qu'il fait pour entrer dans l'explication. La flèche qui redescend du nuage vers la colline ne porte pas de numéro non plus : elle montre le trajet sans être à nommer. À faire après la fiche de base, quand pluie et nuage sont des mots sûrs.",
+   "canonicalDeckSlug": "le-temps-qu-il-fait-g3385",
+   "carousel": [
+    {
+     "label": "Le temps qu'il fait",
+     "href": "le-temps-qu-il-fait-relie-le-symbole-et-le-mot"
+    },
+    {
+     "label": "Écris le mot du temps qu'il fait",
+     "href": "ecris-le-mot-du-temps-qu-il-fait"
+    },
+    {
+     "label": "Le temps de la semaine, du lundi au dimanche",
+     "href": "le-temps-de-la-semaine-du-lundi-au-dimanche"
+    },
+    {
+     "label": "Fait-il froid, doux ou chaud ?",
+     "href": "fait-il-froid-doux-ou-chaud-le-thermometre"
+    }
+   ],
+   "title": "Cycle de l'eau : écris chaque étape, CE2 | à imprimer PDF gratuit",
+   "metaDescription": "Un schéma du cycle de l'eau, quatre repères numérotés et quatre mots à replacer : condensation, évaporation, collecte, précipitations. Fiche CE2 en PDF."
+  },
+  {
+   "slug": "lis-les-previsions-de-la-semaine",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "weather-symbols",
+    "mode": "weather-symbols-read-the-weekly-forecast",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche le temps qu'il fait · CP",
+   "h1": "Lis les prévisions de la semaine",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-temps-qu-il-fait",
+    "cp"
+   ],
+   "p1": "Un tableau de cinq jours ouvre cette fiche de CP : lundi porte un flocon, mardi un nuage à éclair, mercredi un soleil, jeudi un nuage qui pleut, vendredi un gros nuage gris. Les noms des jours sont écrits au-dessus des symboles dans des étiquettes crème, et l'ensemble tient dans un cadre vert bien visible. Dessous, trois questions se suivent dans de larges bandes : Quel jour neige-t-il ? Quel jour pleut-il ? Quel jour y a-t-il du soleil ? Sous chaque question, les cinq noms de jours sont repris dans des pastilles blanches, et l'enfant entoure le bon.",
+   "p2": "C'est la première fiche de lecture de la famille : le tableau est déjà rempli, plus rien à observer dehors, tout se joue entre la question et la grille. Les trois questions emploient trois tournures différentes, un verbe impersonnel, un autre verbe impersonnel et une tournure avec y a-t-il, ce qui fait travailler la forme interrogative en même temps que la lecture du tableau. Les trois réponses tombent sur lundi, jeudi et mercredi, donc jamais deux fois le même jour. Signalons que mardi et vendredi ne sont l'objet d'aucune question : leurs symboles servent de distracteurs et restent à lire.",
+   "p3": "Une page en couleur, trois entourages, beaucoup de blanc autour des questions, ce qui laisse la place à un enfant qui lit encore lentement. Elle se donne après la fiche du temps de la semaine, dont elle est l'exact pendant : l'une fait remplir un tableau jour après jour, l'autre fait lire un tableau tout prêt. Pour prolonger, posez oralement deux questions sur mardi et vendredi, qui n'ont pas la leur.",
+   "canonicalDeckSlug": "le-temps-qu-il-fait-g1363",
+   "carousel": [
+    {
+     "label": "Le temps qu'il fait",
+     "href": "le-temps-qu-il-fait-relie-le-symbole-et-le-mot"
+    },
+    {
+     "label": "Écris le mot du temps qu'il fait",
+     "href": "ecris-le-mot-du-temps-qu-il-fait"
+    },
+    {
+     "label": "Le temps de la semaine, du lundi au dimanche",
+     "href": "le-temps-de-la-semaine-du-lundi-au-dimanche"
+    },
+    {
+     "label": "Fait-il froid, doux ou chaud ?",
+     "href": "fait-il-froid-doux-ou-chaud-le-thermometre"
+    }
+   ],
+   "title": "Lis les prévisions de la semaine, CP | à imprimer PDF gratuit",
+   "metaDescription": "Un tableau météo de lundi à vendredi et trois questions de lecture : quel jour neige-t-il, quel jour pleut-il, quel jour y a-t-il du soleil. Fiche CP en PDF."
+  },
+  {
+   "slug": "le-tri-des-dechets-dans-quelle-poubelle",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-which-bin",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Fiche le tri des déchets · Maternelle",
+   "h1": "Le tri des déchets : dans quelle poubelle ?",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-tri-des-dechets",
+    "maternelle"
+   ],
+   "p1": "Une clé occupe le haut de cette fiche de maternelle : quatre poubelles nommées Emballages, Verre, Biodéchets et Ordures, chacune avec sa couleur de couvercle. Dessous, six rangées portent chacune un objet à gauche et, à droite, les mêmes quatre poubelles en miniature, dans le même ordre, mais sans leur nom. L'enfant entoure celle où l'objet finira. Les six objets sont une bouteille de sauce, une cuillère, une enveloppe ouverte, un poivron rouge, une brosse à dents et un tube de crème solaire.",
+   "p2": "Retirer les étiquettes des petites poubelles est le geste central de cette page : l'enfant doit remonter à la clé, retenir la couleur, puis redescendre. C'est un aller-retour de lecture que les fiches de maternelle demandent rarement et qui prépare la lecture de légende en général. Le contenu, lui, réclame une mise au point. Trois objets sont en plastique et ne partent pas au même endroit : le tube de crème est un emballage, la cuillère et la brosse à dents non. L'enveloppe, du papier, rejoint le bac jaune au titre de l'extension des consignes, ce que l'étiquette Emballages seule ne laisse pas deviner.",
+   "p3": "Une page en couleur, six entourages, un feutre. C'est la version sans traits croisés de la fiche de base, et la plus facile à corriger, les poubelles étant toujours dans le même ordre. Elle convient à un enfant que les longs traits découragent. Pour la suite, la fiche de quelle matière est chaque objet abandonne les bacs et demande de nommer la matière elle-même, ce qui est la vraie clé du tri.",
+   "canonicalDeckSlug": "le-tri-des-dechets-k366",
+   "carousel": [
+    {
+     "label": "Le tri des déchets",
+     "href": "le-tri-des-dechets-relie-l-objet-a-la-poubelle"
+    },
+    {
+     "label": "De quelle matière est chaque objet ?",
+     "href": "de-quelle-matiere-est-chaque-objet"
+    },
+    {
+     "label": "Le tri des déchets : quel objet n'est pas de la même matière ?",
+     "href": "le-tri-des-dechets-quel-objet-n-est-pas-de-la-meme-matiere"
+    },
+    {
+     "label": "Colorie les poubelles du tri",
+     "href": "colorie-les-poubelles-du-tri"
+    }
+   ],
+   "title": "Le tri des déchets : dans quelle poubelle ? | à imprimer PDF",
+   "metaDescription": "Six objets, une rangée chacun, et quatre poubelles à entourer, rappelées par une clé colorée en haut de page. Fiche maternelle sur le tri, à imprimer en PDF."
+  },
+  {
+   "slug": "de-quelle-matiere-est-chaque-objet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-what-is-it-made-of",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche le tri des déchets · CP",
+   "h1": "De quelle matière est chaque objet ?",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-tri-des-dechets",
+    "cp"
+   ],
+   "p1": "Cette fiche de CP quitte les poubelles pour la matière. Une liste encadrée donne cinq mots, plastique, papier, carton, verre, métal, et huit bandes se suivent, chacune avec un objet à gauche et une longue ligne d'écriture à droite. Les objets sont un boulon, une cuillère, un carnet, une bouteille de sauce, un écrou, un bloc de feuilles, un carton de déménagement et une boîte de céréales. L'enfant écrit sur la ligne le mot qui convient ; les cinq mots ne servent pas le même nombre de fois, papier, carton et métal reviennent deux fois chacun.",
+   "p2": "Nommer la matière avant de nommer le bac est le bon ordre pédagogique : c'est la matière qui décide du tri, pas la forme de l'objet. La page le montre bien avec le carton et le papier, deux réponses proches que seule l'épaisseur sépare, et que l'enfant doit apprendre à distinguer. Trois remarques sur le choix des objets. Le boulon et l'écrou, seuls représentants du métal, sont deux pièces de quincaillerie qu'un enfant ne jette jamais ; une boîte de conserve aurait parlé davantage. Le carnet et le bloc de feuilles se ressemblent beaucoup pour une même réponse. Et la boîte de céréales est dessinée pleine, avec un visage souriant.",
+   "p3": "Une page en couleur, huit mots à recopier sur des lignes très larges, ce qui laisse de la place mais peut désorienter : montrez qu'un seul mot suffit par ligne. Elle se donne entre les deux fiches de tri et la fiche des intrus, qui demande ensuite de comparer les matières entre elles. Un tri d'objets réels apporté par la classe la rend immédiatement concrète, et le verre s'y ajoute facilement.",
+   "canonicalDeckSlug": "le-tri-des-dechets-g1364",
+   "carousel": [
+    {
+     "label": "Le tri des déchets",
+     "href": "le-tri-des-dechets-relie-l-objet-a-la-poubelle"
+    },
+    {
+     "label": "Le tri des déchets : dans quelle poubelle ?",
+     "href": "le-tri-des-dechets-dans-quelle-poubelle"
+    },
+    {
+     "label": "Le tri des déchets : quel objet n'est pas de la même matière ?",
+     "href": "le-tri-des-dechets-quel-objet-n-est-pas-de-la-meme-matiere"
+    },
+    {
+     "label": "Colorie les poubelles du tri",
+     "href": "colorie-les-poubelles-du-tri"
+    }
+   ],
+   "title": "De quelle matière est chaque objet ? CP | à imprimer PDF gratuit",
+   "metaDescription": "Huit objets et cinq mots à recopier, plastique, papier, carton, verre, métal, une ligne d'écriture par objet. Fiche CP gratuite sur les matières, en PDF."
+  },
+  {
+   "slug": "le-tri-des-dechets-quel-objet-n-est-pas-de-la-meme-matiere",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-odd-one-out-by-material",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche le tri des déchets · CE1",
+   "h1": "Le tri des déchets : quel objet n'est pas de la même matière ?",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-tri-des-dechets",
+    "ce1"
+   ],
+   "p1": "Quatre rangées de quatre objets structurent cette fiche de CE1, chacune numérotée dans une pastille verte à gauche. Rangée un, un pot de confiture, un pot de miel, une bouteille de lait et une cuillère en plastique. Rangée deux, un flacon de colle, une brosse à dents, une feuille d'arbre et un peigne. Rangée trois, un poivron rouge, une carotte, une banane et une casserole. Rangée quatre, un boulon, une bouteille d'huile, un écrou et une boîte de conserve. Dans chaque rangée, trois objets partagent la matière ; l'enfant entoure celui qui s'en écarte.",
+   "p2": "L'intrus est ici défini par la matière et non par l'usage, exigence nettement plus haute que sur les fiches précédentes. Les positions ne dessinent aucune règle : l'intrus est le quatrième, puis le troisième, puis de nouveau le quatrième, puis le deuxième, si bien qu'aucune colonne ni aucune diagonale ne se suit sans regarder les objets. Les rangées un et quatre méritent d'être comparées, car le verre y fait deux métiers opposés : il rassemble les trois premiers objets de la rangée un et il isole la bouteille d'huile au milieu du métal de la rangée quatre. Attention enfin au mot feuille, qui désigne l'arbre autant que le papier : ici c'est le végétal, un déchet organique.",
+   "p3": "Une page en couleur, quatre entourages, une discussion possible à chaque rangée. La troisième est la plus indulgente : la casserole n'est pas un aliment, si bien qu'un enfant peut réussir la ligne sans penser au métal, et il vaut la peine de lui faire nommer la matière quand même. Pour revenir au geste de tri lui-même, la fiche colorie les poubelles du tri remet les quatre bacs et leurs couleurs sous les yeux.",
+   "canonicalDeckSlug": "le-tri-des-dechets-g2348",
+   "carousel": [
+    {
+     "label": "Le tri des déchets",
+     "href": "le-tri-des-dechets-relie-l-objet-a-la-poubelle"
+    },
+    {
+     "label": "Le tri des déchets : dans quelle poubelle ?",
+     "href": "le-tri-des-dechets-dans-quelle-poubelle"
+    },
+    {
+     "label": "De quelle matière est chaque objet ?",
+     "href": "de-quelle-matiere-est-chaque-objet"
+    },
+    {
+     "label": "Colorie les poubelles du tri",
+     "href": "colorie-les-poubelles-du-tri"
+    }
+   ],
+   "title": "Quel objet n'est pas de la même matière ? CE1 | à imprimer PDF",
+   "metaDescription": "Quatre rangées de quatre objets : trois partagent la matière, un non. Entoure la cuillère, la feuille, la casserole, la bouteille d'huile. Fiche CE1 en PDF."
+  },
+  {
+   "slug": "colorie-les-poubelles-du-tri",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-color-the-bins",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Fiche le tri des déchets · Maternelle",
+   "h1": "Colorie les poubelles du tri",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-tri-des-dechets",
+    "maternelle"
+   ],
+   "p1": "Une légende de quatre lignes ouvre cette fiche de maternelle : gris pour Ordures, vert pour Verre, jaune pour Emballages, marron pour Biodéchets, chaque couleur montrée par un carré. Dessous, quatre poubelles sont dessinées au trait, entièrement blanches, avec leur nom au-dessus dans l'ordre Emballages, Verre, Biodéchets, Ordures. Sous chaque poubelle, une vignette rappelle deux objets qui y vont : la colle et la boîte de céréales, le bocal et le pot de confiture, le pain et le poivron, la brosse à dents et le peigne. L'enfant colorie chaque bac.",
+   "p2": "L'ordre de la légende et l'ordre des poubelles ne coïncident pas, et c'est le ressort de la page : impossible de colorier de gauche à droite, il faut lire chaque nom et retrouver sa ligne. Les quatre couleurs sont celles du tri français, jaune pour les emballages, vert pour le verre, marron pour les biodéchets, gris ou noir pour les ordures ménagères, si bien que la fiche terminée devient une référence exacte pour la classe. Les vignettes du bas ne sont pas à colorier : elles servent d'exemples et justifient la couleur, un enfant pouvant s'y reporter quand un nom lui échappe.",
+   "p3": "Une page à imprimer, quatre crayons de couleur, aucune écriture. Elle se conserve et s'affiche : c'est la fiche de référence de toute la famille, celle à laquelle on revient quand un objet pose question. Faites-la de préférence après la fiche de base, pour que les noms des bacs soient déjà familiers. Les couleurs étant nationales, elle se compare utilement avec les bacs réels de la commune, qui portent parfois un couvercle bleu pour le papier.",
+   "canonicalDeckSlug": "le-tri-des-dechets-k367",
+   "carousel": [
+    {
+     "label": "Le tri des déchets",
+     "href": "le-tri-des-dechets-relie-l-objet-a-la-poubelle"
+    },
+    {
+     "label": "Le tri des déchets : dans quelle poubelle ?",
+     "href": "le-tri-des-dechets-dans-quelle-poubelle"
+    },
+    {
+     "label": "De quelle matière est chaque objet ?",
+     "href": "de-quelle-matiere-est-chaque-objet"
+    },
+    {
+     "label": "Le tri des déchets : quel objet n'est pas de la même matière ?",
+     "href": "le-tri-des-dechets-quel-objet-n-est-pas-de-la-meme-matiere"
+    }
+   ],
+   "title": "Colorie les poubelles du tri : jaune, vert, marron, gris | PDF",
+   "metaDescription": "Quatre poubelles au trait à colorier selon la légende, jaune pour les emballages, vert pour le verre, marron pour les biodéchets, gris pour les ordures. PDF."
+  },
+  {
+   "slug": "trois-choses-que-je-trie-a-la-maison",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "recycling",
+    "mode": "recycling-three-things-i-recycle",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche le tri des déchets · CP",
+   "h1": "Trois choses que je trie à la maison",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "le-tri-des-dechets",
+    "cp"
+   ],
+   "p1": "Trois grands blocs se suivent sur cette fiche de CP, numérotés 1, 2 et 3. Chaque bloc contient un cadre de dessin vertical à bord pointillé orange sur la gauche, et deux lignes d'écriture à trois réglures sur la droite. Rien d'autre n'est imprimé : pas de liste de mots, pas d'image, pas de poubelle. L'enfant dessine trois choses qu'il trie vraiment chez lui, puis écrit à côté ce que chacune est. C'est la seule fiche entièrement ouverte de la famille du tri.",
+   "p2": "Faire sortir le tri de l'école est l'objectif, et le dessin est le bon véhicule : un enfant qui dessine la bouteille de lait du petit-déjeuner ou la boîte de la pizza du samedi rapporte un déchet réel, avec son contexte, ce qu'aucune vignette ne peut fournir. Les productions se comparent très bien entre elles et font apparaître les habitudes différentes d'une famille à l'autre, ce qui vaut toutes les leçons. La consigne demande d'écrire ce que chaque chose est, c'est-à-dire de la nommer ; certains enfants ajouteront spontanément la poubelle, laissez-les faire, c'est un pas de plus.",
+   "p3": "Une page à imprimer, trois dessins et six lignes d'écriture, une séance longue ou un travail à finir à la maison. C'est la fiche de clôture de la famille : donnez-la après les bacs et les matières, quand l'enfant a de quoi nommer ce qu'il dessine. Les lignes d'écriture sont centrées à côté du cadre et laissent du blanc au-dessus et en dessous ; rien n'interdit d'y ajouter la couleur du bac. Les productions affichées côte à côte font un très bon panneau d'exposition.",
+   "canonicalDeckSlug": "le-tri-des-dechets-g1365",
+   "carousel": [
+    {
+     "label": "Le tri des déchets",
+     "href": "le-tri-des-dechets-relie-l-objet-a-la-poubelle"
+    },
+    {
+     "label": "Le tri des déchets : dans quelle poubelle ?",
+     "href": "le-tri-des-dechets-dans-quelle-poubelle"
+    },
+    {
+     "label": "De quelle matière est chaque objet ?",
+     "href": "de-quelle-matiere-est-chaque-objet"
+    },
+    {
+     "label": "Le tri des déchets : quel objet n'est pas de la même matière ?",
+     "href": "le-tri-des-dechets-quel-objet-n-est-pas-de-la-meme-matiere"
+    }
+   ],
+   "title": "Trois choses que je trie à la maison, CP | à imprimer PDF gratuit",
+   "metaDescription": "Trois cadres à dessiner et deux lignes d'écriture par cadre : l'enfant dessine ce qu'il trie chez lui et écrit ce que c'est. Fiche CP gratuite à imprimer en PDF."
+  },
+  {
+   "slug": "ecris-le-mot-qui-manque-dans-la-phrase",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-letter-boxes",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche phrases à trous · CP",
+   "h1": "Écris le mot qui manque dans la phrase",
+   "strand": "Étude de la langue",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "phrases-a-trous",
+    "cp"
+   ],
+   "p1": "La liste de mots a disparu. Sur cette fiche de CP, sept bandes portent chacune une image, l'article imprimé, puis une rangée de cases en pointillé, une case par lettre, et la fin de la phrase. Sept cases pour le manchot qui glisse sur la glace, six pour la tortue qui se cache dans sa carapace, sept pour le voilier qui avance sur le lac, trois pour le coq qui chante au lever du soleil, cinq pour la vache qui fait meuh dans le pré, six pour le cochon qui se roule dans la boue, cinq pour le train qui roule sur les rails.",
+   "p2": "Sans liste, l'enfant doit produire l'orthographe, et le nombre de cases devient sa seule vérification. Ce comptage est un vrai outil : trois cases n'admettent que coq, cinq cases excluent cochon. Il ne résout pourtant pas tout, puisque tortue et cochon font six lettres toutes les deux et que manchot et voilier en font sept. L'image reste donc décisive. La page est le degré suivant de la fiche de base, dont elle garde quatre phrases à l'identique, ce qui permet à un enfant de retrouver ses repères. Notez que sur deux bandes la phrase déborde sur une seconde ligne qui commence sous l'image.",
+   "p3": "Une page en couleur, trente-neuf lettres à écrire, une séance entière. Elle se donne quelques jours après la fiche de base, jamais le même jour. Pour un enfant en difficulté, gardez la fiche de base ouverte à côté : quatre des sept mots y figurent dans la liste. La fiche entoure le mot qui complète la phrase fournit au contraire deux mots au choix et se situe entre les deux en exigence.",
+   "canonicalDeckSlug": "phrases-a-trous-g1366",
+   "carousel": [
+    {
+     "label": "Phrases à trous",
+     "href": "phrases-a-trous-avec-liste-de-mots"
+    },
+    {
+     "label": "Entoure le mot qui complète la phrase",
+     "href": "entoure-le-mot-qui-complete-la-phrase"
+    },
+    {
+     "label": "Complète les phrases au pluriel",
+     "href": "complete-les-phrases-au-pluriel"
+    },
+    {
+     "label": "Texte à trous : complète l'histoire",
+     "href": "texte-a-trous-complete-l-histoire"
+    }
+   ],
+   "title": "Écris le mot qui manque dans la phrase, CP | à imprimer PDF",
+   "metaDescription": "Sept phrases illustrées sans liste de mots, avec une case par lettre : manchot, tortue, voilier, coq, vache, cochon, train. Fiche CP à imprimer en PDF."
+  },
+  {
+   "slug": "entoure-le-mot-qui-complete-la-phrase",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-choose-the-word",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche phrases à trous · CP",
+   "h1": "Entoure le mot qui complète la phrase",
+   "strand": "Étude de la langue",
+   "standard": "L.1.1.b",
+   "slotTokens": [
+    "phrases-a-trous",
+    "cp"
+   ],
+   "p1": "Six bandes composent cette fiche de CP, et chacune propose exactement deux mots. L'enfant lit la phrase, entoure le mot qui convient, puis le recopie dans la case. Chien ou cochon pour celui qui se roule dans la boue, canard ou coq pour celui qui chante au lever du soleil, singe ou kangourou pour celui qui porte son petit dans sa poche, chèvre ou vache pour celle qui grimpe sur les rochers et bêle, girafe ou gazelle pour celle qui a un très long cou, lion ou zèbre pour celui qui a des rayures noires et blanches.",
+   "p2": "Le choix binaire est la forme la plus rassurante de la famille, mais les paires ont été construites avec soin et ne sont pas indifférentes. Quatre d'entre elles commencent par la même lettre, chien et cochon, canard et coq, girafe et gazelle : impossible de trancher sur la première syllabe, il faut aller jusqu'au bout du mot. La quatrième bande est la meilleure de la page parce que l'article La convient aux deux propositions, chèvre et vache étant toutes deux féminines ; c'est la seule où le genre n'aide pas et où la phrase doit vraiment être lue.",
+   "p3": "Une page en couleur, six entourages suivis de six mots à recopier, ce qui fait un exercice double en une seule bande. Elle se place entre la fiche de base et la fiche des cases lettre par lettre : l'enfant ne cherche plus dans une liste de sept, mais il ne produit pas encore l'orthographe seul. Rappelez qu'entourer ne suffit pas, la case attend le mot écrit, sinon la moitié du travail d'écriture est perdue.",
+   "canonicalDeckSlug": "phrases-a-trous-g1367",
+   "carousel": [
+    {
+     "label": "Phrases à trous",
+     "href": "phrases-a-trous-avec-liste-de-mots"
+    },
+    {
+     "label": "Écris le mot qui manque dans la phrase",
+     "href": "ecris-le-mot-qui-manque-dans-la-phrase"
+    },
+    {
+     "label": "Complète les phrases au pluriel",
+     "href": "complete-les-phrases-au-pluriel"
+    },
+    {
+     "label": "Texte à trous : complète l'histoire",
+     "href": "texte-a-trous-complete-l-histoire"
+    }
+   ],
+   "title": "Entoure le mot qui complète la phrase, CP | à imprimer PDF",
+   "metaDescription": "Six phrases illustrées avec deux mots au choix qui commencent souvent par la même lettre : chien ou cochon, canard ou coq, girafe ou gazelle. Fiche CP PDF."
+  },
+  {
+   "slug": "complete-les-phrases-au-pluriel",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-plural-nouns",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche phrases à trous · CE1",
+   "h1": "Complète les phrases au pluriel",
+   "strand": "Étude de la langue",
+   "standard": "L.1.1.c",
+   "slotTokens": [
+    "phrases-a-trous",
+    "ce1"
+   ],
+   "p1": "Sur cette fiche de CE1, chaque bande montre deux ou trois exemplaires de la même image, puis une phrase au pluriel avec un trou. Les citrons sont jaunes et très acides. Les ... font coin-coin dans la mare. Les lions rugissent fort dans la savane. Trois ... roulent en bas de la colline. Les éléphants ont une longue trompe. Les singes sautent de branche en branche. Les abeilles butinent les fleurs du jardin. Deux ... galopent dans le pré. Le nombre d'images correspond exactement au déterminant quand celui-ci est un nombre : trois ballons, deux chevaux.",
+   "p2": "Le verbe est déjà accordé, donc l'enfant n'a qu'une chose à produire, la marque du pluriel sur le nom, et c'est la bonne cible au CE1. Sept des huit mots prennent un simple s. Le huitième est la vraie leçon de la page : le pluriel de cheval est chevaux, un pluriel irrégulier en aux que rien ne laisse deviner et qu'il faut connaître. Il est placé en dernier, ce qui est habile : l'enfant a pris de l'élan sur sept formes régulières avant de rencontrer celle qui résiste. Prévoyez d'y revenir. Signalons que l'image du canard est un caneton jaune vif, et que certains écriront canetons.",
+   "p3": "Une page en couleur, huit mots à écrire. Six bandes sur huit voient leur phrase déborder sur une seconde ligne qui redémarre sous les images ; prévenez-en les lecteurs les plus fragiles, qui pourraient croire à deux phrases. C'est la fiche la plus grammaticale de la famille, la seule qui porte sur une marque et non sur un choix de mot. Elle suppose que la fiche de base et celle des cases lettre par lettre sont derrière.",
+   "canonicalDeckSlug": "phrases-a-trous-g2349",
+   "carousel": [
+    {
+     "label": "Phrases à trous",
+     "href": "phrases-a-trous-avec-liste-de-mots"
+    },
+    {
+     "label": "Écris le mot qui manque dans la phrase",
+     "href": "ecris-le-mot-qui-manque-dans-la-phrase"
+    },
+    {
+     "label": "Entoure le mot qui complète la phrase",
+     "href": "entoure-le-mot-qui-complete-la-phrase"
+    },
+    {
+     "label": "Texte à trous : complète l'histoire",
+     "href": "texte-a-trous-complete-l-histoire"
+    }
+   ],
+   "title": "Complète les phrases au pluriel, CE1 | à imprimer PDF gratuit",
+   "metaDescription": "Huit phrases avec plusieurs images : citrons, canards, lions, ballons, éléphants, singes, abeilles et chevaux, dont un pluriel irrégulier. Fiche CE1 en PDF."
+  },
+  {
+   "slug": "texte-a-trous-complete-l-histoire",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "fill-in-the-blank-story",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche phrases à trous · CE1",
+   "h1": "Texte à trous : complète l'histoire",
+   "strand": "Étude de la langue",
+   "standard": "RF.2.4.c",
+   "slotTokens": [
+    "phrases-a-trous",
+    "ce1"
+   ],
+   "p1": "Cette fiche de CE1 abandonne la bande unique pour des blocs. Une liste encadrée donne neuf mots, chien, renard, canard, tortue, fusée, lapin, avion, hibou, abeille. Viennent ensuite trois blocs numérotés, chacun coiffé de trois images et suivi de trois phrases à trou. Le premier bloc réunit fusée, abeille et avion autour de la piste, de l'espace et des fleurs. Le deuxième suit un chien, une tortue et un canard dans une cour de ferme. Le troisième installe une scène de nuit avec un hibou dans le chêne, un renard près du poulailler et un lapin qui grignote.",
+   "p2": "Les images sont groupées par bloc et non par phrase, ce qui est le vrai saut de difficulté : l'enfant voit trois candidats d'un coup et doit lire pour les distribuer. Les articles imprimés font le tri du genre, un avion contre une fusée et une abeille, et le troisième bloc oblige à tenir compte du sens, hulule, s'approche du poulailler, grignote une carotte. Une remarque sur le titre : chaque bloc réunit trois phrases voisines plutôt qu'un récit suivi. Le deuxième et le troisième forment bien une scène, le premier aligne un avion, une fusée et une abeille sans lien. Parlez donc de trois petites scènes plutôt que d'une histoire.",
+   "p3": "Une page en couleur, neuf mots à écrire, la plus longue lecture de la famille. La liste contient exactement neuf mots pour neuf trous : il n'y a pas d'intrus et le dernier se trouve tout seul. Elle se donne en fin de séquence, quand l'enfant sait chercher un mot dans une liste sans se perdre. Pour un travail plus court, traitez un bloc par jour, les trois étant indépendants.",
+   "canonicalDeckSlug": "phrases-a-trous-g2350",
+   "carousel": [
+    {
+     "label": "Phrases à trous",
+     "href": "phrases-a-trous-avec-liste-de-mots"
+    },
+    {
+     "label": "Écris le mot qui manque dans la phrase",
+     "href": "ecris-le-mot-qui-manque-dans-la-phrase"
+    },
+    {
+     "label": "Entoure le mot qui complète la phrase",
+     "href": "entoure-le-mot-qui-complete-la-phrase"
+    },
+    {
+     "label": "Complète les phrases au pluriel",
+     "href": "complete-les-phrases-au-pluriel"
+    }
+   ],
+   "title": "Texte à trous CE1 : complète l'histoire | à imprimer PDF gratuit",
+   "metaDescription": "Trois blocs de trois phrases, trois images par bloc et une liste de neuf mots : avion, fusée, abeille, canard, tortue, chien, hibou, renard, lapin. Fiche CE1."
+  },
+  {
+   "slug": "relie-chaque-phrase-a-son-image",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cloze",
+    "mode": "match-the-sentence-to-the-picture",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche phrases à trous · CP",
+   "h1": "Relie chaque phrase à son image",
+   "strand": "Étude de la langue",
+   "standard": "RF.1.4.c",
+   "slotTokens": [
+    "phrases-a-trous",
+    "cp"
+   ],
+   "p1": "Rien n'est à écrire sur cette fiche de CP. À gauche, six phrases à trou dans des cartes crème : Le ... saute et grignote une carotte. Le ... a des rayures noires et blanches. Le ... saute au-dessus des vagues. La ... a un très long cou. La ... pond des œufs dans le poulailler. La ... se cache dans sa carapace. À droite, six images dans des cartes blanches, un dauphin, une tortue, un zèbre, une poule, un lapin, une girafe. L'enfant trace un trait de chaque phrase vers l'image qui la complète.",
+   "p2": "C'est l'inverse exact de la fiche de base : là-bas l'image était donnée et le mot manquait, ici le mot manque et il faut aller chercher l'image. Le renversement a une conséquence utile, l'enfant ne peut plus se contenter de regarder, il doit lire jusqu'au détail qui décide, les rayures, les vagues, la carapace. Aucune image n'est placée en face de la phrase qui lui correspond, les six traits se croisent donc. Un détail à expliquer avant de commencer : chaque phrase porte une case en pointillé qui reste vide, puisque la consigne ne demande qu'un trait. Les enfants voudront y écrire.",
+   "p3": "Une page en couleur, six traits, aucun crayon à papier nécessaire. Cinq des six phrases se terminent sur une deuxième ligne, ce qui ralentit un peu la lecture ; pointez la fin de la phrase avec le doigt si besoin. Elle referme la famille en mettant la lecture au premier plan, et elle sert d'évaluation légère : un enfant qui relie juste six fois a compris les six phrases. Rien n'empêche de faire écrire le mot dans la case ensuite.",
+   "canonicalDeckSlug": "phrases-a-trous-g1368",
+   "carousel": [
+    {
+     "label": "Phrases à trous",
+     "href": "phrases-a-trous-avec-liste-de-mots"
+    },
+    {
+     "label": "Écris le mot qui manque dans la phrase",
+     "href": "ecris-le-mot-qui-manque-dans-la-phrase"
+    },
+    {
+     "label": "Entoure le mot qui complète la phrase",
+     "href": "entoure-le-mot-qui-complete-la-phrase"
+    },
+    {
+     "label": "Complète les phrases au pluriel",
+     "href": "complete-les-phrases-au-pluriel"
+    }
+   ],
+   "title": "Relie chaque phrase à son image, CP | à imprimer PDF gratuit",
+   "metaDescription": "Six phrases à trou à gauche et six images à droite, lapin, zèbre, dauphin, poule, tortue, girafe : trace le trait vers celle qui complète la phrase. Fiche CP."
+  },
+  {
+   "slug": "pair-ou-impair-ecris-deux-parts-egales",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-write-two-equal-addends",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche nombres pairs et impairs · CE1",
+   "h1": "Pair ou impair ? Écris deux parts égales",
+   "strand": "Nombres et calcul (programmes officiels)",
+   "standard": "2.OA.C.3",
+   "slotTokens": [
+    "nombres-pairs-et-impairs",
+    "ce1"
+   ],
+   "p1": "Huit cartes, deux par ligne, remplissent cette fiche de CE1. Chacune porte en haut une égalité à trous, par exemple 17 = ... + ... + ..., la troisième case étant plus petite et légendée il reste en dessous. Sous l'égalité, un plateau blanc contient le nombre de points annoncé, rangés en une ou deux rangées. Les huit nombres sont 17, 3, 18, 12, 8, 13, 14 et 19, soit quatre pairs et quatre impairs. L'enfant entoure les points deux par deux, puis écrit les deux parts égales et ce qui reste.",
+   "p2": "La page pousse l'idée de parité jusqu'à l'écriture d'une égalité, ce qui est le vrai passage du CP au CE1. Pour un nombre pair, la petite case reçoit un zéro, et ce zéro compte : il dit qu'il ne reste rien, et il maintient la même écriture pour les huit cartes. Pour un nombre impair, elle reçoit un un. Deux détails de rendu qui méritent d'être connus. Les points sont disposés en rangées de dix, si bien que la longueur de la seconde rangée donne déjà le chiffre des unités. Et les deux cartes à une seule rangée, 3 et 8, ont leurs points centrés alors que les autres sont alignés à gauche.",
+   "p3": "Une page en couleur, vingt-quatre nombres à écrire, un crayon pour entourer et une gomme. Le geste d'entourer est essentiel, ne le sautez pas au profit du calcul mental : c'est lui qui rend le reste visible. Elle se donne après la fiche des deux maisons, qui installe le vocabulaire, et prépare la fiche du chiffre des unités, où les points disparaissent complètement au profit d'une règle écrite.",
+   "canonicalDeckSlug": "nombres-pairs-et-impairs-g2351",
+   "carousel": [
+    {
+     "label": "Nombres pairs et impairs jusqu'à 20",
+     "href": "nombres-pairs-et-impairs-jusqu-a-20-les-deux-maisons"
+    },
+    {
+     "label": "Peut-on partager entre deux enfants ?",
+     "href": "peut-on-partager-entre-deux-enfants"
+    },
+    {
+     "label": "Nombres pairs et impairs jusqu'à 100 : le chiffre des unités",
+     "href": "nombres-pairs-et-impairs-jusqu-a-100-le-chiffre-des-unites"
+    },
+    {
+     "label": "Somme paire ou impaire ? Décide sans calculer",
+     "href": "somme-paire-ou-impaire-decide-sans-calculer"
+    }
+   ],
+   "title": "Pair ou impair ? Écris le nombre en deux parts égales | PDF CE1",
+   "metaDescription": "Huit nombres de 3 à 19 avec leurs points à entourer deux par deux, puis une égalité à compléter avec deux parts égales et une case pour le reste. Fiche CE1."
+  },
+  {
+   "slug": "peut-on-partager-entre-deux-enfants",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-can-two-friends-share-fairly",
+    "theme": "zoo_animals",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche nombres pairs et impairs · CP",
+   "h1": "Peut-on partager entre deux enfants ?",
+   "strand": "Nombres et calcul (programmes officiels)",
+   "slotTokens": [
+    "nombres-pairs-et-impairs",
+    "animaux-du-zoo",
+    "cp"
+   ],
+   "p1": "Six bandes occupent cette fiche de CP, chacune avec un petit groupe d'animaux du zoo : trois lémuriens, cinq girafes, six léopards, quatre lions, huit loups et sept singes. Les images sont posées par cinq, si bien qu'au-delà de cinq une deuxième ligne s'ouvre dessous. À droite de chaque bande, deux cases portent chacune un prénom, Louis et Jules, puis Chloé et Louis, puis Léa et Chloé, et ainsi de suite, puis une petite case légendée il reste, enfin deux pastilles à entourer, pair et impair.",
+   "p2": "Les six tailles vont de trois à huit, chacune une seule fois et dans le désordre : 3, 5, 6, 4, 8 puis 7. Le partage à tour de rôle reste la meilleure entrée dans la parité : soit tout part, soit il en reste une. Un point à voir avant de corriger : 3, 4 et 5 tiennent sur une seule ligne, qui est donc le tas entier, tandis que 6, 7 et 8 débordent et laissent une ligne courte dessous. Or la ligne du haut en compte toujours cinq, un nombre impair : la petite ligne du bas porte la parité inverse du tas, et la compter seule donne à chaque fois la mauvaise réponse.",
+   "p3": "Une page en couleur, trois nombres et un entourage par bande, un crayon. Faites distribuer des jetons réels sur les deux premières lignes avant de laisser écrire : la manipulation vaut plus que la règle. Les prénoms changent d'une bande à l'autre et n'entrent jamais dans le calcul, Louis revenant quatre fois avec trois camarades différents. La fiche compte les images deux par deux, sur le thème des véhicules, travaille la même idée en comptant les paires.",
+   "canonicalDeckSlug": "nombres-pairs-et-impairs-animaux-du-zoo-g1369",
+   "carousel": [
+    {
+     "label": "Nombres pairs et impairs jusqu'à 20",
+     "href": "nombres-pairs-et-impairs-jusqu-a-20-les-deux-maisons"
+    },
+    {
+     "label": "Pair ou impair ? Écris deux parts égales",
+     "href": "pair-ou-impair-ecris-deux-parts-egales"
+    },
+    {
+     "label": "Nombres pairs et impairs jusqu'à 100 : le chiffre des unités",
+     "href": "nombres-pairs-et-impairs-jusqu-a-100-le-chiffre-des-unites"
+    },
+    {
+     "label": "Somme paire ou impaire ? Décide sans calculer",
+     "href": "somme-paire-ou-impaire-decide-sans-calculer"
+    }
+   ],
+   "title": "Peut-on partager entre deux enfants ? Pair ou impair | PDF CP",
+   "metaDescription": "Six tas d'animaux du zoo, de trois à huit images, à partager entre deux enfants : combien chacun reçoit, ce qui reste, puis pair ou impair. Fiche CP en PDF."
+  },
+  {
+   "slug": "nombres-pairs-et-impairs-jusqu-a-100-le-chiffre-des-unites",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-under-100-look-at-the-ones-box",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche nombres pairs et impairs · CE1",
+   "h1": "Nombres pairs et impairs jusqu'à 100 : le chiffre des unités",
+   "strand": "Nombres et calcul (programmes officiels)",
+   "standard": "2.OA.C.3",
+   "slotTokens": [
+    "nombres-pairs-et-impairs",
+    "ce1"
+   ],
+   "p1": "Une règle écrite ouvre cette fiche de CE1 : un nombre est pair s'il se termine par 0, 2, 4, 6 ou 8, impair s'il se termine par 1, 3, 5, 7 ou 9. Dessous, douze nombres à deux chiffres sont présentés en deux colonnes de six. Chacun occupe deux cases côte à côte sous les en-têtes d et u, la case des unités étant teintée de rose pour attirer le regard. À droite, deux ronds vides attendent une croix, sous les étiquettes pair et impair. Les douze nombres sont 86, 65, 37, 55, 21, 42, 32, 14, 58, 53, 99 et 70.",
+   "p2": "C'est la fiche qui fait quitter les points et les jetons pour la règle. Le tableau de numération est le cœur du dispositif : en séparant physiquement la dizaine de l'unité, il montre que le chiffre de gauche n'a aucun rôle, si bien qu'un élève cesse de vouloir additionner ou de compter. Six nombres pairs et six impairs se répartissent sans ordre apparent, et les cas les plus utiles sont là : 70, qui se termine par zéro et que beaucoup rangent à tort dans les impairs, et 99, dont les deux chiffres identiques invitent à hésiter. Les en-têtes d et u ne sont expliqués nulle part sur la page.",
+   "p3": "Une page en couleur, douze croix, aucune écriture de nombre. C'est la fiche la plus rapide de la famille et la meilleure comme évaluation : un coup d'œil sur les douze ronds suffit à l'adulte. Écrivez dizaines et unités au tableau avant de distribuer, pour que les deux lettres du haut aient un sens. Elle vient après les fiches à points et précède la fiche des sommes, où la règle s'applique à deux nombres à la fois.",
+   "canonicalDeckSlug": "nombres-pairs-et-impairs-g2352",
+   "carousel": [
+    {
+     "label": "Nombres pairs et impairs jusqu'à 20",
+     "href": "nombres-pairs-et-impairs-jusqu-a-20-les-deux-maisons"
+    },
+    {
+     "label": "Pair ou impair ? Écris deux parts égales",
+     "href": "pair-ou-impair-ecris-deux-parts-egales"
+    },
+    {
+     "label": "Peut-on partager entre deux enfants ?",
+     "href": "peut-on-partager-entre-deux-enfants"
+    },
+    {
+     "label": "Somme paire ou impaire ? Décide sans calculer",
+     "href": "somme-paire-ou-impaire-decide-sans-calculer"
+    }
+   ],
+   "title": "Pairs et impairs jusqu'à 100 : le chiffre des unités | PDF CE1",
+   "metaDescription": "Douze nombres à deux chiffres présentés dans un tableau d, u avec la case des unités en rose, et deux ronds à cocher sous pair ou impair. Fiche CE1 en PDF."
+  },
+  {
+   "slug": "somme-paire-ou-impaire-decide-sans-calculer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-sum-decide-without-adding",
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Fiche nombres pairs et impairs · CE2",
+   "h1": "Somme paire ou impaire ? Décide sans calculer",
+   "strand": "Nombres et calcul (programmes officiels)",
+   "standard": "3.OA.D.9",
+   "slotTokens": [
+    "nombres-pairs-et-impairs",
+    "ce2"
+   ],
+   "p1": "Un petit tableau encadré tient le haut de cette fiche de CE2 et donne trois règles : pair plus pair égale pair, impair plus impair égale pair, pair plus impair égale impair. Dessous, douze additions sont rangées en deux colonnes, toutes avec des nombres à trois chiffres, 963 + 573, 394 + 397, 549 + 858, 896 + 106 et ainsi de suite. Dans chaque nombre, le chiffre des unités est souligné en orange. À droite de chaque addition, deux ronds vides attendent une croix sous pair et impair. Rien n'est à calculer.",
+   "p2": "Interdire le calcul est toute l'idée, et c'est ce qui rend la page si différente du reste de la famille. Les nombres sont volontairement grands, jusqu'à des sommes dépassant mille, pour qu'aucun élève ne soit tenté de vérifier : la seule voie praticable est de lire les deux chiffres soulignés, de décider leur parité, puis de consulter le tableau. C'est un vrai raisonnement sur les propriétés des nombres, et le résultat le plus surprenant pour les enfants est que deux impairs donnent un pair. Six sommes sont paires et six impaires. Le tableau ne mentionne pas impair plus pair, la commutativité étant supposée connue.",
+   "p3": "Une page en couleur, douze croix, ni brouillon ni calcul posé. Demandez à un élève rapide de justifier une ligne à voix haute, c'est là que se voit s'il a compris ou s'il a additionné en cachette. Le soulignement orange est fin sous un zéro, par exemple dans 510 : signalez-le. C'est la dernière fiche de la famille et de loin la plus abstraite ; elle suppose acquis le chiffre des unités travaillé sur la fiche jusqu'à 100.",
+   "canonicalDeckSlug": "nombres-pairs-et-impairs-g3386",
+   "carousel": [
+    {
+     "label": "Nombres pairs et impairs jusqu'à 20",
+     "href": "nombres-pairs-et-impairs-jusqu-a-20-les-deux-maisons"
+    },
+    {
+     "label": "Pair ou impair ? Écris deux parts égales",
+     "href": "pair-ou-impair-ecris-deux-parts-egales"
+    },
+    {
+     "label": "Peut-on partager entre deux enfants ?",
+     "href": "peut-on-partager-entre-deux-enfants"
+    },
+    {
+     "label": "Nombres pairs et impairs jusqu'à 100 : le chiffre des unités",
+     "href": "nombres-pairs-et-impairs-jusqu-a-100-le-chiffre-des-unites"
+    }
+   ],
+   "title": "Somme paire ou impaire ? Décide sans calculer, CE2 | PDF gratuit",
+   "metaDescription": "Douze additions de nombres à trois chiffres avec le chiffre des unités souligné et un tableau de trois règles : décider la parité de la somme sans l'additionner."
+  },
+  {
+   "slug": "pair-ou-impair-compte-les-images-deux-par-deux",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "odd-and-even",
+    "mode": "odd-and-even-count-the-pictures-in-pairs",
+    "theme": "vehicles",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche nombres pairs et impairs · CP",
+   "h1": "Pair ou impair ? Compte les images deux par deux",
+   "strand": "Nombres et calcul (programmes officiels)",
+   "slotTokens": [
+    "nombres-pairs-et-impairs",
+    "vehicules",
+    "cp"
+   ],
+   "p1": "Six longues rangées de véhicules traversent cette fiche de CP : onze taxis, dix-huit scooters, quatorze avions, treize tramways, douze chariots élévateurs et dix-sept motos, disposés par neuf avec une seconde rangée en dessous. À droite, une seule case en pointillé légendée paires, puis deux pastilles à entourer, pair et impair. L'enfant compte les images, les entoure deux par deux, écrit combien de paires il a formées, et tranche. Les six quantités se répartissent en trois nombres pairs et trois impairs.",
+   "p2": "Compter par paires plutôt que de partager entre deux enfants change la nature de la trace : ce que l'enfant écrit ici est un nombre de groupes, pas une part. Onze taxis donnent cinq paires, dix-huit scooters en donnent neuf. C'est un premier pas vers la moitié et vers les tables de deux. Attention toutefois à une absence : il n'y a aucune case pour le reste. Sur les trois rangées impaires, le véhicule resté seul est justement l'argument de la réponse, et il ne se note nulle part. Demandez à l'enfant de l'entourer d'une couleur différente, sinon la justification disparaît. Les rangées font neuf images de large, jamais dix.",
+   "p3": "Une page en couleur, six nombres et six entourages, un crayon de couleur pour marquer les paires. Les quantités sont élevées pour un CP, de onze à dix-huit, donc prévoyez du temps et acceptez qu'on recompte. Les véhicules sont familiers, à l'exception du chariot élévateur, que peu d'enfants savent nommer. La fiche du partage entre deux enfants traite les mêmes nombres avec une case pour le reste, et se donne volontiers avant celle-ci.",
+   "canonicalDeckSlug": "nombres-pairs-et-impairs-vehicules-g1370",
+   "carousel": [
+    {
+     "label": "Nombres pairs et impairs jusqu'à 20",
+     "href": "nombres-pairs-et-impairs-jusqu-a-20-les-deux-maisons"
+    },
+    {
+     "label": "Pair ou impair ? Écris deux parts égales",
+     "href": "pair-ou-impair-ecris-deux-parts-egales"
+    },
+    {
+     "label": "Peut-on partager entre deux enfants ?",
+     "href": "peut-on-partager-entre-deux-enfants"
+    },
+    {
+     "label": "Nombres pairs et impairs jusqu'à 100 : le chiffre des unités",
+     "href": "nombres-pairs-et-impairs-jusqu-a-100-le-chiffre-des-unites"
+    }
+   ],
+   "title": "Pair ou impair ? Compte les véhicules deux par deux | PDF CP",
+   "metaDescription": "Six rangées de véhicules, de 11 à 18 images, à entourer deux par deux : écris le nombre de paires formées, puis entoure pair ou impair. Fiche CP en PDF."
+  },
+  {
+   "slug": "remplace-le-prenom-par-un-pronom",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-replace-the-name-with-a-pronoun",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche les pronoms personnels sujets · CP",
+   "h1": "Remplace le prénom par un pronom",
+   "strand": "Étude de la langue",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronoms-personnels-sujets",
+    "cp"
+   ],
+   "p1": "Chaque bande de cette fiche de CP contient deux phrases. La première est complète et nomme quelqu'un : Tom et Jules aiment le lait. Théo lit un livre. Nina va au parc. La seconde reprend la même phrase, mais le prénom a disparu et une case en pointillé attend à sa place : ... aiment le lait. Une liste de quatre mots est donnée en haut, Elles, Elle, Ils, Il, tous écrits avec une majuscule puisque le pronom ouvre la phrase. Huit bandes se suivent, quatre avec un seul prénom et quatre avec deux.",
+   "p2": "Le couple de phrases est le dispositif le plus clair pour faire sentir ce qu'est un pronom : la même phrase revient, un mot a été remplacé, et rien d'autre ne change, pas même le verbe. L'élève voit donc que le pronom prend exactement la place du sujet. Les majuscules de la liste sont un détail précieux, souvent oublié dans ce type d'exercice, et elles évitent que l'enfant recopie un il minuscule en début de phrase. Une réserve sur les illustrations : chaque bande porte un portrait de métier sans rapport avec l'action décrite, un homme au balai à côté de Théo lit un livre. Dites que l'image ne sert qu'à montrer la personne.",
+   "p3": "Une page en couleur, huit mots à recopier, des cases assez courtes. Elle se donne juste après la fiche de base, dont elle reprend les mêmes prénoms. Louis et Zoé forment ici le couple mixte qui appelle Ils, et il est placé au milieu de la page plutôt qu'en tête. Pour un travail plus exigeant, la fiche récris la phrase avec un pronom demande la phrase entière et non plus le seul pronom.",
+   "canonicalDeckSlug": "pronoms-personnels-sujets-g1371",
+   "carousel": [
+    {
+     "label": "Les pronoms personnels sujets",
+     "href": "les-pronoms-personnels-sujets-il-elle-ils-elles"
+    },
+    {
+     "label": "De qui parle-t-on ? Les pronoms dans les phrases",
+     "href": "de-qui-parle-t-on-les-pronoms-dans-les-phrases"
+    },
+    {
+     "label": "Son, sa ou leur ?",
+     "href": "son-sa-ou-leur-le-bon-determinant"
+    },
+    {
+     "label": "Classe les prénoms : il, elle, ils ou elles",
+     "href": "classe-les-prenoms-il-elle-ils-ou-elles"
+    }
+   ],
+   "title": "Remplace le prénom par un pronom, CP | à imprimer PDF gratuit",
+   "metaDescription": "Huit couples de phrases : la première nomme, la seconde attend le pronom Il, Elle, Ils ou Elles avec sa majuscule. Fiche CP gratuite à imprimer en PDF."
+  },
+  {
+   "slug": "de-qui-parle-t-on-les-pronoms-dans-les-phrases",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-who-is-he-pronouns-in-sentences",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche les pronoms personnels sujets · CE1",
+   "h1": "De qui parle-t-on ? Les pronoms dans les phrases",
+   "strand": "Étude de la langue",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronoms-personnels-sujets",
+    "ce1"
+   ],
+   "p1": "Cinq blocs composent cette fiche de CE1. Dans chacun, deux personnages avec leur prénom sur une étiquette occupent la gauche, et la droite porte une phrase de situation suivie de deux phrases courtes : Nina et Tom sont à la cuisine, Il prépare un gâteau, Elle coupe du pain. Les pronoms Il et Elle sont encadrés d'un trait vert, et un point orange attend de chaque côté. L'enfant trace un trait de chaque mot encadré jusqu'au prénom qu'il remplace. Les cinq scènes se passent à la cuisine, au parc, à l'école, au zoo et au jardin.",
+   "p2": "Suivre un pronom jusqu'à son référent est la compétence de lecture qui décide de la compréhension d'un texte, et la mettre à plat sur cinq scènes est un bon investissement. Soyez toutefois averti du niveau réel de difficulté : dans chaque bloc, l'un des deux prénoms est masculin et l'autre féminin, si bien que Il désigne toujours le garçon et Elle toujours la fille. L'élève qui ne connaît que cette règle réussit les dix traits sans lire une seule action. Les deux petites phrases sont donc à faire lire à voix haute, et l'on peut demander ce que fait chacun, question à laquelle le genre ne répond pas.",
+   "p3": "Une page en couleur, dix traits courts, aucune écriture. L'ordre des pronoms alterne d'un bloc à l'autre, Il d'abord dans les trois premiers, Elle d'abord dans les deux derniers, ce qui oblige à regarder. C'est la seule fiche de la famille où le pronom est donné et le prénom cherché, l'inverse de toutes les autres. Elle prépare bien la lecture suivie, et se place après les deux fiches de CP.",
+   "canonicalDeckSlug": "pronoms-personnels-sujets-g2353",
+   "carousel": [
+    {
+     "label": "Les pronoms personnels sujets",
+     "href": "les-pronoms-personnels-sujets-il-elle-ils-elles"
+    },
+    {
+     "label": "Remplace le prénom par un pronom",
+     "href": "remplace-le-prenom-par-un-pronom"
+    },
+    {
+     "label": "Son, sa ou leur ?",
+     "href": "son-sa-ou-leur-le-bon-determinant"
+    },
+    {
+     "label": "Classe les prénoms : il, elle, ils ou elles",
+     "href": "classe-les-prenoms-il-elle-ils-ou-elles"
+    }
+   ],
+   "title": "De qui parle-t-on ? Les pronoms dans les phrases | PDF CE1",
+   "metaDescription": "Cinq scènes à deux personnages : trace un trait de chaque pronom encadré, Il ou Elle, jusqu'au prénom qu'il remplace. Fiche CE1 à imprimer en PDF."
+  },
+  {
+   "slug": "son-sa-ou-leur-le-bon-determinant",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-possessive-pronouns",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche les pronoms personnels sujets · CE1",
+   "h1": "Son, sa ou leur ?",
+   "strand": "Étude de la langue",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronoms-personnels-sujets",
+    "ce1"
+   ],
+   "p1": "Huit bandes se suivent sur cette fiche de CE1, toutes bâties de la même façon : une ou deux images de personne à gauche, l'objet possédé juste à côté, puis la phrase Voici Jade. C'est ... livre, avec une case vide, et enfin trois pastilles à entourer, son, sa, leur. Les objets sont un livre, un chien, un tambour, une voiture, un train, une poire, un gâteau et une pelle. Trois bandes présentent deux propriétaires, ce qui appelle leur ; les cinq autres n'en ont qu'un et appellent son ou sa.",
+   "p2": "C'est la fiche la plus utile et la plus délicate de la famille, parce qu'elle vise la faute la plus tenace du CE1 : en français, son et sa s'accordent avec l'objet possédé, non avec la personne qui le possède. La page est bâtie pour le prouver, puisque sur les cinq bandes à un seul propriétaire, quatre opposent le genre de la personne à celui de l'objet : Jade est une fille et l'on écrit son livre, Lucas est un garçon et l'on écrit sa poire. La consigne imprimée énonce la règle dans ce sens et réserve leur à plusieurs personnes ; reste à la faire lire à voix haute, car l'oreille de l'élève tire dans l'autre sens.",
+   "p3": "Une page en couleur, huit entourages, un feutre. Le geste tient en une phrase : on regarde le mot qui suit la case, masculin donne son, féminin donne sa, et deux personnes donnent leur quel que soit ce mot. Seules deux bandes appellent sa, la poire et la pelle, ce qui trahit vite l'élève qui choisit au genre du prénom. Elle se donne en fin de séquence, quand il, elle, ils et elles sont acquis.",
+   "canonicalDeckSlug": "pronoms-personnels-sujets-g2354",
+   "carousel": [
+    {
+     "label": "Les pronoms personnels sujets",
+     "href": "les-pronoms-personnels-sujets-il-elle-ils-elles"
+    },
+    {
+     "label": "Remplace le prénom par un pronom",
+     "href": "remplace-le-prenom-par-un-pronom"
+    },
+    {
+     "label": "De qui parle-t-on ? Les pronoms dans les phrases",
+     "href": "de-qui-parle-t-on-les-pronoms-dans-les-phrases"
+    },
+    {
+     "label": "Classe les prénoms : il, elle, ils ou elles",
+     "href": "classe-les-prenoms-il-elle-ils-ou-elles"
+    }
+   ],
+   "title": "Son, sa ou leur ? Choisis le bon mot, CE1 | à imprimer PDF",
+   "metaDescription": "Huit phrases Voici ... C'est ... avec un objet, et trois mots à entourer : son, sa, leur. Le genre de l'objet décide, pas celui du propriétaire. Fiche CE1 PDF."
+  },
+  {
+   "slug": "classe-les-prenoms-il-elle-ils-ou-elles",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-sort-the-names-he-she-or-they",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche les pronoms personnels sujets · CP",
+   "h1": "Classe les prénoms : il, elle, ils ou elles",
+   "strand": "Étude de la langue",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronoms-personnels-sujets",
+    "cp"
+   ],
+   "p1": "Dix cartes prénom occupent le haut de cette fiche de CP, cinq par rangée, chacune avec son ou ses personnages : Jade, Louis et Tom, Lucas, Alice, Zoé, Léa et Jules, Hugo, Chloé et Inès, Théo, Nina. Dessous, quatre boîtes à bord vert portent chacune une étiquette, il, elle, ils, elles, et quatre lignes d'écriture en pointillé. L'enfant recopie chaque prénom dans la boîte qui convient. Trois cartes vont dans il, quatre dans elle, deux dans ils et une seule dans elles.",
+   "p2": "Le tri complet change le regard : au lieu de décider carte par carte comme sur la fiche de base, l'enfant doit répartir tout un lot et voit d'un coup les quatre catégories se remplir. La carte Léa et Jules est le cœur de la page, puisque ce couple mixte descend dans ils et non dans elles, et qu'elle est la seule à le faire. Une mise en garde de comptage : les quatre boîtes sont dessinées de la même taille avec quatre lignes chacune, alors que les effectifs vont de un à quatre. La boîte elles n'accueillera qu'un seul prénom et paraîtra vide, ce qui inquiète certains élèves.",
+   "p3": "Une page en couleur, dix prénoms à recopier, un crayon. Faites barrer chaque carte une fois recopiée, c'est le meilleur moyen de n'en oublier aucune. Les cartes à deux personnages se repèrent à l'œil, ce qui donne un premier tri rapide entre singulier et pluriel avant d'affiner sur le genre. Elle se donne après la fiche de base et prépare la fiche récris la phrase, qui demande enfin de produire une phrase entière.",
+   "canonicalDeckSlug": "pronoms-personnels-sujets-g1372",
+   "carousel": [
+    {
+     "label": "Les pronoms personnels sujets",
+     "href": "les-pronoms-personnels-sujets-il-elle-ils-elles"
+    },
+    {
+     "label": "Remplace le prénom par un pronom",
+     "href": "remplace-le-prenom-par-un-pronom"
+    },
+    {
+     "label": "De qui parle-t-on ? Les pronoms dans les phrases",
+     "href": "de-qui-parle-t-on-les-pronoms-dans-les-phrases"
+    },
+    {
+     "label": "Son, sa ou leur ?",
+     "href": "son-sa-ou-leur-le-bon-determinant"
+    }
+   ],
+   "title": "Classe les prénoms : il, elle, ils ou elles, CP | PDF à imprimer",
+   "metaDescription": "Dix cartes prénom, seules ou par deux, à recopier dans la boîte du pronom qui convient : il, elle, ils, elles. Fiche CP à imprimer en PDF."
+  },
+  {
+   "slug": "recris-la-phrase-avec-un-pronom",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pronouns",
+    "mode": "pronouns-rewrite-the-sentence-with-a-pronoun",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche les pronoms personnels sujets · CE1",
+   "h1": "Récris la phrase avec un pronom",
+   "strand": "Étude de la langue",
+   "standard": "L.1.1.d",
+   "slotTokens": [
+    "pronoms-personnels-sujets",
+    "ce1"
+   ],
+   "p1": "Huit phrases courtes se suivent sur cette fiche de CE1, chacune précédée d'un ou deux portraits et suivie de deux lignes d'écriture à trois réglures. Tom mange une pomme. Hugo et Chloé nourrissent le chien. Nina et Zoé dessinent un chat. Théo et Jules font du vélo. Louis joue avec un ballon. Jade saute à la corde. Lucas peint un tableau. Inès construit une tour. L'enfant récrit chaque phrase en entier, en mettant à la place du prénom le pronom qui convient, majuscule comprise.",
+   "p2": "Écrire la phrase entière est l'exigence maximale de la famille et la seule qui touche vraiment à la copie. Le pronom n'est plus une case à remplir mais le premier mot d'un texte que l'élève produit, avec sa majuscule, son verbe inchangé et son point final. Quatre phrases ont un sujet unique et quatre un sujet double, dont une paire mixte, Hugo et Chloé, qui donne Ils. Un point à annoncer : chaque bande porte un portrait de métier étranger à la phrase, un boulanger à côté de Tom mange une pomme. L'illustration désigne la personne, pas l'action, et il vaut mieux le dire que de laisser chercher.",
+   "p3": "Une page en couleur, huit phrases à récrire, deux lignes chacune, une longue séance d'écriture. Les lignes à trois réglures conviennent à une cursive de CE1. Elle referme la famille : la fiche de base fait entourer, celle du remplacement fait écrire un mot, celle-ci fait écrire la phrase. Pour raccourcir, traitez quatre bandes un jour et quatre le lendemain, la page se coupe très bien en deux.",
+   "canonicalDeckSlug": "pronoms-personnels-sujets-g2355",
+   "carousel": [
+    {
+     "label": "Les pronoms personnels sujets",
+     "href": "les-pronoms-personnels-sujets-il-elle-ils-elles"
+    },
+    {
+     "label": "Remplace le prénom par un pronom",
+     "href": "remplace-le-prenom-par-un-pronom"
+    },
+    {
+     "label": "De qui parle-t-on ? Les pronoms dans les phrases",
+     "href": "de-qui-parle-t-on-les-pronoms-dans-les-phrases"
+    },
+    {
+     "label": "Son, sa ou leur ?",
+     "href": "son-sa-ou-leur-le-bon-determinant"
+    }
+   ],
+   "title": "Récris la phrase avec un pronom, CE1 | à imprimer PDF gratuit",
+   "metaDescription": "Huit phrases à récrire en remplaçant le prénom par Il, Elle, Ils ou Elles, sur des lignes d'écriture à trois réglures. Fiche CE1 gratuite à imprimer en PDF."
+  },
+  {
+   "slug": "relie-chaque-question-a-sa-reponse",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-match-the-question-to-the-answer",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche les mots interrogatifs · CP",
+   "h1": "Relie chaque question à sa réponse",
+   "strand": "Étude de la langue",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "mots-interrogatifs",
+    "cp"
+   ],
+   "p1": "Deux colonnes se répondent sur cette fiche de CP. À gauche, cinq questions complètes avec leur point d'interrogation : Où lit Nina ? Combien de mangues trouve Hugo ? Que dessine Louis ? Quand dort Théo ? Qui cherche la poire ? À droite, cinq réponses illustrées : une mangue accompagnée du mot trois, une figue, une horloge marquant deux heures suivie de à deux heures, un portrait suivi de Lucas, une piscine suivie de à la piscine. L'enfant trace un trait de chaque question vers sa réponse ; aucune paire n'est alignée.",
+   "p2": "C'est la première fois de la famille que l'enfant voit des questions entièrement rédigées, avec l'inversion du sujet qui caractérise le français écrit : Où lit Nina, et non Nina lit où. Lire cinq modèles corrects avant d'en produire soi-même est exactement le bon ordre. Chaque mot interrogatif appelle une catégorie de réponse différente, un lieu, un nombre, une chose, un moment, une personne, si bien que l'appariement peut se faire sur la seule nature de la réponse. Une gêne à signaler sur la carte du nombre : elle montre une seule mangue avec un petit 3 en pastille, alors que la réponse est trois.",
+   "p3": "Une page en couleur, cinq traits, aucune écriture. Les cartes de gauche sont hautes et contiennent une seule ligne, ce qui laisse beaucoup de blanc mais rend la lecture très confortable. Elle se donne après la fiche de base et sert de modèle pour les deux fiches d'écriture de la famille, complète la question et écris la question, où il faudra produire cette même inversion sans modèle sous les yeux.",
+   "canonicalDeckSlug": "mots-interrogatifs-g1373",
+   "carousel": [
+    {
+     "label": "Les mots interrogatifs : qui, que, où",
+     "href": "les-mots-interrogatifs-qui-que-ou"
+    },
+    {
+     "label": "Complète la question avec le bon mot interrogatif",
+     "href": "complete-la-question-avec-le-bon-mot-interrogatif"
+    },
+    {
+     "label": "Classe les réponses : qui, que ou où",
+     "href": "classe-les-reponses-qui-que-ou"
+    },
+    {
+     "label": "Écris la question",
+     "href": "ecris-la-question-qui-demande-les-mots-colores"
+    }
+   ],
+   "title": "Relie chaque question à sa réponse, CP | à imprimer PDF gratuit",
+   "metaDescription": "Cinq questions à gauche, Où, Combien, Que, Quand, Qui, et cinq réponses illustrées à droite à relier : à la piscine, trois, la figue, à deux heures, Lucas."
+  },
+  {
+   "slug": "complete-la-question-avec-le-bon-mot-interrogatif",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-fill-in-the-question-word",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche les mots interrogatifs · CP",
+   "h1": "Complète la question avec le bon mot interrogatif",
+   "strand": "Étude de la langue",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "mots-interrogatifs",
+    "cp"
+   ],
+   "p1": "Une liste encadrée donne cinq mots en haut de cette fiche de CP : Que, Où, Quand, Combien, Qui. Chacune des six bandes contient ensuite deux lignes. En haut, une question amputée de son premier mot, avec une case en pointillé : ... lit Inès ? En bas, la réponse complète avec un groupe surligné en rose : Inès lit à la piscine. L'enfant écrit dans la case le mot qui réclamerait justement la partie colorée. La cinquième bande fournit déjà le complément du mot interrogatif, ... de kiwis voit Jules ?, ce qui ne laisse passer que Combien.",
+   "p2": "Écrire le mot plutôt que l'entourer est le pas suivant, et la réponse surlignée fournit la preuve. Un point de langue mérite d'être connu avant la correction : en français, l'ordre inversé de ces questions accepte souvent plusieurs mots interrogatifs. ... cherche Louis ? est une phrase correcte avec Que comme avec Qui, les deux n'ayant simplement pas le même sens ; il en va de même pour ... voit Hugo ? et ... mange Jade ?. Seule la partie surlignée de la réponse tranche, et la consigne le dit. Un élève qui propose Qui là où l'on attendait Que n'a pas fait de faute de grammaire, il a lu la question sans la réponse.",
+   "p3": "Une page en couleur, six mots à recopier avec leur majuscule, des cases assez larges. La liste compte cinq mots pour six bandes, donc l'un d'eux sert deux fois : dites-le, sinon les élèves cherchent un sixième mot. Un nom du lot demande une explication, le pic de la deuxième bande, qui n'est illustré nulle part. Elle se donne après la fiche des questions reliées à leurs réponses et avant la fiche écris la question.",
+   "canonicalDeckSlug": "mots-interrogatifs-g1374",
+   "carousel": [
+    {
+     "label": "Les mots interrogatifs : qui, que, où",
+     "href": "les-mots-interrogatifs-qui-que-ou"
+    },
+    {
+     "label": "Relie chaque question à sa réponse",
+     "href": "relie-chaque-question-a-sa-reponse"
+    },
+    {
+     "label": "Classe les réponses : qui, que ou où",
+     "href": "classe-les-reponses-qui-que-ou"
+    },
+    {
+     "label": "Écris la question",
+     "href": "ecris-la-question-qui-demande-les-mots-colores"
+    }
+   ],
+   "title": "Complète la question avec le bon mot interrogatif | PDF CP",
+   "metaDescription": "Six questions à trou et, sous chacune, la réponse avec un groupe surligné. Liste de cinq mots : Que, Où, Quand, Combien, Qui. Fiche CP à imprimer en PDF."
+  },
+  {
+   "slug": "classe-les-reponses-qui-que-ou",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-sort-the-answers-who-what-or-where",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Fiche les mots interrogatifs · CP",
+   "h1": "Classe les réponses : qui, que ou où",
+   "strand": "Étude de la langue",
+   "standard": "L.K.1.d",
+   "slotTokens": [
+    "mots-interrogatifs",
+    "cp"
+   ],
+   "p1": "Neuf étiquettes occupent le haut de cette fiche de CP : Nina, en forêt, Zoé, dauphin, panda, au lac, rhinocéros, à la maison, Tom. Dessous, trois boîtes à bord vert portent chacune une question, Qui ?, Que ? et Où ?, et huit lignes d'écriture en pointillé. L'enfant recopie chaque étiquette dans la boîte de la question à laquelle elle pourrait répondre. La répartition est parfaitement régulière : trois prénoms pour Qui, trois animaux pour Que, trois compléments de lieu pour Où.",
+   "p2": "Partir de la réponse pour retrouver la question est le mouvement inverse de toutes les autres fiches, et c'est un excellent contrôle de compréhension. Deux avertissements pour l'adulte. D'abord, la forme des étiquettes trahit largement la catégorie : les prénoms portent une majuscule, les lieux commencent par une préposition, les animaux sont des noms nus. Un élève peut donc trier sans réfléchir au sens, et il faut lui demander de formuler la question complète à voix haute. Ensuite, ranger un animal sous Que se discute : en français courant, on demande volontiers Qui pour un animal familier, et la règle scolaire réserve Que au non-humain.",
+   "p3": "Une page en couleur, neuf étiquettes à recopier, un crayon. Les trois boîtes sont dessinées de la même taille avec huit lignes chacune, alors que trois lignes suffisent : la place restante ne signifie rien, dites-le. C'est la fiche la plus courte à préparer et la plus facile à corriger de la famille. Elle referme le travail sur qui, que et où avant que les deux dernières fiches n'ajoutent quand, combien, pourquoi et comment.",
+   "canonicalDeckSlug": "mots-interrogatifs-g1375",
+   "carousel": [
+    {
+     "label": "Les mots interrogatifs : qui, que, où",
+     "href": "les-mots-interrogatifs-qui-que-ou"
+    },
+    {
+     "label": "Relie chaque question à sa réponse",
+     "href": "relie-chaque-question-a-sa-reponse"
+    },
+    {
+     "label": "Complète la question avec le bon mot interrogatif",
+     "href": "complete-la-question-avec-le-bon-mot-interrogatif"
+    },
+    {
+     "label": "Écris la question",
+     "href": "ecris-la-question-qui-demande-les-mots-colores"
+    }
+   ],
+   "title": "Classe les réponses : qui, que ou où, CP | à imprimer PDF",
+   "metaDescription": "Neuf étiquettes à ranger dans trois boîtes, Qui, Que et Où : trois prénoms, trois animaux, trois lieux. Fiche CP sur les mots interrogatifs, en PDF."
+  },
+  {
+   "slug": "ecris-la-question-qui-demande-les-mots-colores",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-write-the-question",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche les mots interrogatifs · CE1",
+   "h1": "Écris la question",
+   "strand": "Étude de la langue",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "mots-interrogatifs",
+    "ce1"
+   ],
+   "p1": "Huit bandes se suivent sur cette fiche de CE1, chacune avec une phrase déclarative dont un groupe est surligné en rose, puis deux lignes d'écriture à trois réglures. Chloé voit quatre bœufs. Jules trouve quatre kakis. Louis dessine le pic. Inès est dans la cuisine. Nina dort à six heures. Théo cherche le loup. Jade joue au lac. Zoé mange à neuf heures. L'élève écrit sur les lignes la question entière qui réclamerait la partie colorée : Combien de bœufs voit Chloé ? Qui trouve quatre kakis ? et ainsi de suite.",
+   "p2": "C'est la production la plus exigeante des soixante fiches de ce lot, parce qu'elle demande l'inversion du sujet, la préposition conservée, le point d'interrogation et la majuscule, tout cela sans modèle. Rien n'est donné sur la page, ni liste de mots interrogatifs, ni exemple rédigé, ni amorce. Prévoyez donc d'écrire une question modèle au tableau avant de distribuer, sinon la moitié de la classe produira une phrase à l'ordre déclaratif. Les huit bandes couvrent cinq mots interrogatifs différents et alternent sujets et compléments, ce qui empêche de recopier la structure précédente.",
+   "p3": "Une page en couleur, huit questions à rédiger, deux lignes chacune : c'est une séance entière et elle se coupe volontiers en deux. Prévenez sur un mot rare, le pic de la troisième bande, déjà rencontré sur la fiche complète la question et jamais illustré. La fiche relie chaque question à sa réponse fournit cinq modèles corrects d'inversion : laissez-la ouverte à côté pour les élèves qui bloquent sur la forme.",
+   "canonicalDeckSlug": "mots-interrogatifs-g2356",
+   "carousel": [
+    {
+     "label": "Les mots interrogatifs : qui, que, où",
+     "href": "les-mots-interrogatifs-qui-que-ou"
+    },
+    {
+     "label": "Relie chaque question à sa réponse",
+     "href": "relie-chaque-question-a-sa-reponse"
+    },
+    {
+     "label": "Complète la question avec le bon mot interrogatif",
+     "href": "complete-la-question-avec-le-bon-mot-interrogatif"
+    },
+    {
+     "label": "Classe les réponses : qui, que ou où",
+     "href": "classe-les-reponses-qui-que-ou"
+    }
+   ],
+   "title": "Écris la question qui demande les mots colorés, CE1 | PDF",
+   "metaDescription": "Huit réponses avec un groupe surligné et deux lignes d'écriture : l'élève rédige la question entière, avec inversion du sujet. Fiche CE1 à imprimer en PDF."
+  },
+  {
+   "slug": "pose-des-questions-sur-l-image-pourquoi-et-comment",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "question-words",
+    "mode": "question-words-ask-about-the-picture-why-and-how",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche les mots interrogatifs · CE1",
+   "h1": "Pose des questions sur l'image : pourquoi et comment",
+   "strand": "Étude de la langue",
+   "standard": "L.1.1.j",
+   "slotTokens": [
+    "mots-interrogatifs",
+    "ce1"
+   ],
+   "p1": "Une bande d'images ouvre cette fiche de CE1 : une couturière à sa machine, un lapin, une maison à toit rouge, une horloge marquant neuf heures. Dessous, un grand cadre contient six lignes d'écriture, et chaque ligne commence par un mot déjà imprimé en gris : Qui, Que, Où, Quand, Pourquoi, Comment. L'élève termine chaque question en partant du mot donné. Rien n'est imposé sur le contenu, aucune réponse n'est attendue, et les six questions produites peuvent parler de n'importe laquelle des quatre images.",
+   "p2": "C'est la seule fiche entièrement ouverte de la famille, et la seule qui introduise pourquoi et comment, les deux mots interrogatifs qui appellent une explication plutôt qu'un fait. Les quatre premiers débuts se traitent facilement à partir de la couturière ou du lapin. Les deux derniers sont plus délicats, et pour une raison qui tient à la page : les quatre images ne forment pas une scène, ce sont quatre objets sans lien, si bien qu'il n'y a pas d'événement à expliquer. Choisissez une image, inventez-lui une situation avec la classe, et les six questions viendront ; sinon pourquoi et comment restent sans prise.",
+   "p3": "Une page en couleur, six questions à rédiger, une ligne chacune. Les amorces imprimées en gris servent aussi de modèle graphique. Deux d'entre elles demandent une attention particulière : Que et Qui exigent l'inversion du sujet, Que fait le lapin et non Que le lapin fait. Écrivez les deux formes au tableau. La fiche se prête très bien à l'oral avant l'écrit, et les meilleures questions se recopient ensuite au propre.",
+   "canonicalDeckSlug": "mots-interrogatifs-g2357",
+   "carousel": [
+    {
+     "label": "Les mots interrogatifs : qui, que, où",
+     "href": "les-mots-interrogatifs-qui-que-ou"
+    },
+    {
+     "label": "Relie chaque question à sa réponse",
+     "href": "relie-chaque-question-a-sa-reponse"
+    },
+    {
+     "label": "Complète la question avec le bon mot interrogatif",
+     "href": "complete-la-question-avec-le-bon-mot-interrogatif"
+    },
+    {
+     "label": "Classe les réponses : qui, que ou où",
+     "href": "classe-les-reponses-qui-que-ou"
+    }
+   ],
+   "title": "Pose des questions sur l'image : pourquoi et comment | PDF CE1",
+   "metaDescription": "Six débuts de question imprimés, Qui, Que, Où, Quand, Pourquoi, Comment, chacun sur sa ligne, à terminer d'après quatre images. Fiche CE1 en PDF."
+  },
+  {
+   "slug": "arrondir-au-dessus-ou-en-dessous-range-les-nombres",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-up-or-down-sort-the-numbers",
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Fiche arrondir · CE2",
+   "h1": "Arrondir au-dessus ou en dessous : range les nombres",
+   "strand": "Nombres et calcul (programmes officiels, cycle 3)",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "arrondir-a-la-dizaine",
+    "ce2"
+   ],
+   "p1": "Aucun résultat n'est à écrire sur cette fiche de CE2, et c'est ce qui la distingue de toutes ses sœurs. Douze nombres sont posés dans des jetons ronds au milieu de la page : 481, 52, 329, 418, 85, 65, 549, 647, 426, 24, 72 et 13. Deux boîtes les attendent en bas, l'une intitulée dizaine inférieure avec une flèche descendante, l'autre dizaine supérieure avec une flèche montante, chacune ouvrant neuf cases en pointillé. L'élève recopie chaque nombre dans la boîte qui correspond au sens de son arrondi.",
+   "p2": "Séparer la direction du résultat est une idée juste : beaucoup d'élèves savent produire 80 à partir de 76 sans jamais avoir formulé qu'ils sont montés. Ici la direction est la seule réponse, donc elle devient consciente. Les nombres mêlent deux et trois chiffres, ce qui oblige à chercher le chiffre des unités à des endroits différents de la ligne, et deux jetons finissant par 5, 85 et 65, obligent à trancher le cas limite, qui monte. Un point de comptage : la répartition n'est pas équilibrée, cinq nombres descendent et sept montent, et les boîtes ouvrant neuf cases chacune, plusieurs resteront vides.",
+   "p3": "Une page en couleur, douze nombres à recopier, un crayon. Faites barrer chaque jeton une fois rangé, sinon un nombre se perd. C'est la fiche la plus rapide de la famille et la meilleure en évaluation diagnostique : elle isole exactement le point où l'élève hésite. Elle se donne juste après la fiche de base, qui fait écrire le résultat, et avant la fiche des centaines, où la coupure se déplace d'un rang.",
+   "canonicalDeckSlug": "arrondir-a-la-dizaine-g3387",
+   "carousel": [
+    {
+     "label": "Arrondir à la dizaine",
+     "href": "arrondir-a-la-dizaine-la-plus-proche"
+    },
+    {
+     "label": "Arrondir les nombres à la centaine",
+     "href": "arrondir-les-nombres-a-la-centaine"
+    },
+    {
+     "label": "Arrondir puis estimer la somme",
+     "href": "arrondir-puis-estimer-la-somme"
+    },
+    {
+     "label": "Quels nombres s'arrondissent à 50 ?",
+     "href": "quels-nombres-s-arrondissent-a-50"
+    }
+   ],
+   "title": "Arrondir au-dessus ou en dessous : range les nombres | PDF CE2",
+   "metaDescription": "Douze nombres à ranger dans deux boîtes, dizaine inférieure ou dizaine supérieure, sans écrire le résultat arrondi. Fiche CE2 à imprimer en PDF."
+  },
+  {
+   "slug": "arrondir-les-nombres-a-la-centaine",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-to-the-nearest-100",
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Fiche arrondir · CE2",
+   "h1": "Arrondir les nombres à la centaine",
+   "strand": "Nombres et calcul (programmes officiels, cycle 3)",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "arrondir-a-la-dizaine",
+    "ce2"
+   ],
+   "p1": "Un seul chiffre décide de tout sur cette fiche de CE2, et ce n'est pas celui que l'élève surveille depuis le début de la famille. L'encadré de méthode donne 472 vaut environ 500, avec le 7 en orange, et la bande des chiffres est légendée centaine inférieure sous 0 1 2 3 4 et centaine supérieure sous 5 6 7 8 9. Quatorze nombres de trois chiffres suivent en deux colonnes : 462, 350, 572, 467, 236, 397, 489, 328, 317, 874, 540, 851, 848 et 532. Chacun attend une case.",
+   "p2": "Le déplacement d'un rang est la seule difficulté, mais elle est réelle : l'œil d'un élève de CE2 va spontanément au dernier chiffre, et ce dernier chiffre ne sert plus à rien. La page organise sa propre démonstration en posant 462 et 467 comme premier et quatrième items. Leurs unités diffèrent nettement, 2 contre 7, et pourtant les deux donnent 500, parce que le 6 des dizaines est le même. Qui tombe sur 462 vaut environ 400 s'est trompé de rang, et rien d'autre. Deux autres nombres se répondent de la même façon, 848 et 851, qui n'ont qu'une poignée d'écart et ne donnent pas la même centaine. Le cas de 350 règle le seuil.",
+   "p3": "Une page en couleur, quatorze cases, aucune opération. Faites entourer le chiffre des dizaines au crayon avant d'écrire quoi que ce soit : ce geste seul supprime la plupart des erreurs. Elle vient après la fiche de base et la fiche range les nombres, toutes deux à la dizaine. Une fois les deux rangs maîtrisés séparément, la fiche arrondir à la dizaine et à la centaine les fait travailler ensemble sur le même nombre.",
+   "canonicalDeckSlug": "arrondir-a-la-dizaine-g3388",
+   "carousel": [
+    {
+     "label": "Arrondir à la dizaine",
+     "href": "arrondir-a-la-dizaine-la-plus-proche"
+    },
+    {
+     "label": "Arrondir au-dessus ou en dessous : range les nombres",
+     "href": "arrondir-au-dessus-ou-en-dessous-range-les-nombres"
+    },
+    {
+     "label": "Arrondir puis estimer la somme",
+     "href": "arrondir-puis-estimer-la-somme"
+    },
+    {
+     "label": "Quels nombres s'arrondissent à 50 ?",
+     "href": "quels-nombres-s-arrondissent-a-50"
+    }
+   ],
+   "title": "Arrondir les nombres à la centaine, CE2 | à imprimer PDF gratuit",
+   "metaDescription": "Quatorze nombres de trois chiffres à arrondir à la centaine : c'est le chiffre des dizaines qui décide, les unités ne comptent pas. Fiche CE2 gratuite en PDF."
+  },
+  {
+   "slug": "arrondir-puis-estimer-la-somme",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "round-then-estimate-the-sum",
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Fiche arrondir · CE2",
+   "h1": "Arrondir puis estimer la somme",
+   "strand": "Nombres et calcul (programmes officiels, cycle 3)",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "arrondir-a-la-dizaine",
+    "ce2"
+   ],
+   "p1": "L'arrondi cesse d'être une fin en soi sur cette fiche de CE2 : il devient un outil de calcul. L'encadré de méthode montre la chaîne complète, 23 + 48 vaut environ 20 + 50 qui fait 70. Dessous, huit additions de nombres à deux chiffres attendent, chacune suivie de trois cases : 12 + 51, 29 + 14, 59 + 19, 31 + 32, 35 + 28, 15 + 36, 38 + 52, 63 + 27. L'élève écrit les deux nombres arrondis dans les deux premières cases, puis leur somme dans la troisième.",
+   "p2": "Trois cases plutôt qu'une changent le statut de l'exercice : l'élève ne produit plus un arrondi isolé, il mène un calcul en trois temps et garde la trace de chaque étape, ce qui permet à l'adulte de voir exactement où se situe l'erreur. Deux nombres arrondis se comptent de tête sans difficulté, puisqu'ils finissent tous deux par zéro, et c'est précisément l'intérêt de la manœuvre. La page mérite qu'on compare, sur une ligne ou deux, l'estimation et le résultat exact : 35 + 28 donne environ 70 alors que la somme vraie vaut 63, un écart de sept que les élèves trouvent grand et dont on peut discuter. Le signe environ est employé avec rigueur.",
+   "p3": "Une page en couleur, vingt-quatre cases, un calcul mental par ligne. Elle se donne quand la fiche de base est acquise, jamais avant : arrondir deux nombres à la suite double la charge. Une remarque de contenu, trois lignes ont exactement la même somme vraie, 63, et deux autres valent 90 toutes les deux, ce qui donne quelques réponses jumelles. C'est la seule fiche de la famille où l'arrondi sert à quelque chose d'autre qu'à lui-même.",
+   "canonicalDeckSlug": "arrondir-a-la-dizaine-g3389",
+   "carousel": [
+    {
+     "label": "Arrondir à la dizaine",
+     "href": "arrondir-a-la-dizaine-la-plus-proche"
+    },
+    {
+     "label": "Arrondir au-dessus ou en dessous : range les nombres",
+     "href": "arrondir-au-dessus-ou-en-dessous-range-les-nombres"
+    },
+    {
+     "label": "Arrondir les nombres à la centaine",
+     "href": "arrondir-les-nombres-a-la-centaine"
+    },
+    {
+     "label": "Quels nombres s'arrondissent à 50 ?",
+     "href": "quels-nombres-s-arrondissent-a-50"
+    }
+   ],
+   "title": "Arrondir puis estimer la somme, CE2 | à imprimer PDF gratuit",
+   "metaDescription": "Huit additions à deux chiffres : arrondis chaque nombre à la dizaine dans sa case, puis additionne les deux nombres arrondis. Fiche CE2 gratuite en PDF."
+  },
+  {
+   "slug": "quels-nombres-s-arrondissent-a-50",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "which-numbers-round-to-50",
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Fiche arrondir · CE2",
+   "h1": "Quels nombres s'arrondissent à 50 ?",
+   "strand": "Nombres et calcul (programmes officiels, cycle 3)",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "arrondir-a-la-dizaine",
+    "ce2"
+   ],
+   "p1": "Une cible est affichée en haut du cadre de cette fiche de CE2, dans une pastille orange : environ 50. Dessous, seize nombres attendent dans des pastilles blanches disposées en quatre rangées légèrement décalées : 31, 46, 36, 55, 49, 44, 63, 51, 47, 45, 35, 58, 52, 64, 57 et 32. L'élève entoure tous ceux qui s'arrondissent à la dizaine affichée. L'encadré de méthode, lui, prend un exemple pris ailleurs, 83 vaut environ 80, pour ne donner aucune réponse.",
+   "p2": "La question est renversée par rapport à toutes les autres fiches de la famille : la dizaine est connue et ce sont les nombres qui sont cherchés. Cela demande de raisonner sur un intervalle plutôt que sur un cas, et l'élève découvre en entourant que la cible 50 recrute de part et d'autre, depuis 45 jusqu'à 52 sur cette feuille. Les distracteurs sont bien choisis et couvrent les trois dizaines voisines, 31 32 35 36 et 44 d'un côté, 55 57 58 63 et 64 de l'autre. Deux d'entre eux méritent un arrêt, 44 et 55, si proches de la frontière qu'ils obligent à appliquer la règle plutôt qu'à estimer à vue.",
+   "p3": "Une page en couleur, seize décisions, un feutre. Six pastilles sont à entourer et dix à laisser, donc la majorité des nombres sont des pièges : dites-le, cela évite de vouloir en entourer la moitié. Les quatre premières bonnes réponses sont sous 50 et seulement deux au-dessus, alors rappelez que la cible se gagne aussi par le haut. C'est la fiche la plus ludique de la famille et la plus rapide à corriger.",
+   "canonicalDeckSlug": "arrondir-a-la-dizaine-g3390",
+   "carousel": [
+    {
+     "label": "Arrondir à la dizaine",
+     "href": "arrondir-a-la-dizaine-la-plus-proche"
+    },
+    {
+     "label": "Arrondir au-dessus ou en dessous : range les nombres",
+     "href": "arrondir-au-dessus-ou-en-dessous-range-les-nombres"
+    },
+    {
+     "label": "Arrondir les nombres à la centaine",
+     "href": "arrondir-les-nombres-a-la-centaine"
+    },
+    {
+     "label": "Arrondir puis estimer la somme",
+     "href": "arrondir-puis-estimer-la-somme"
+    }
+   ],
+   "title": "Quels nombres s'arrondissent à 50 ? CE2 | à imprimer PDF",
+   "metaDescription": "Seize nombres dans des pastilles et une cible, environ 50 : entoure tous ceux qui s'y arrondissent. Les autres tombent sur 30, 40 ou 60. Fiche CE2 en PDF."
+  },
+  {
+   "slug": "arrondir-le-meme-nombre-a-la-dizaine-et-a-la-centaine",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "rounding",
+    "mode": "rounding-to-the-nearest-10-and-100",
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Fiche arrondir · CE2",
+   "h1": "Arrondir deux fois : à la dizaine, puis à la centaine",
+   "strand": "Nombres et calcul (programmes officiels, cycle 3)",
+   "standard": "3.NBT.A.1",
+   "slotTokens": [
+    "arrondir-a-la-dizaine",
+    "ce2"
+   ],
+   "p1": "Arrondir deux fois le même nombre : voilà ce que cette fiche de CE2 met en colonnes. L'encadré de méthode traite 472 à deux reprises, une ligne marquée 10 qui donne 470 avec le 2 en orange, une ligne marquée 100 qui donne 500 avec le 7 en orange. Dessous, huit nombres se suivent, chacun avec deux cases sous les en-têtes dizaine et centaine : 159, 494, 791, 305, 353, 535, 567 et 556. L'élève remplit d'abord la colonne de gauche, puis celle de droite, à partir du même nombre de départ.",
+   "p2": "L'exemple du haut dit déjà l'essentiel : 472 descend à 470 et monte à 500. Cette discordance n'est pas une exception, c'est le cas le plus fréquent, et la page en fournit cinq sur huit. Le plus parlant est 305, qui monte à 310 parce que ses unités valent 5 et redescend à 300 parce que ses dizaines valent 0 ; viennent ensuite 353 qui descend puis monte, 535 qui monte puis descend, 791 et 494 dans le même esprit. Trois nombres seulement, 159, 567 et 556, montent des deux côtés. Un détail de la page : sous l'encadré, la bande des chiffres ne porte que les mentions de dizaine.",
+   "p3": "Une page en couleur, seize cases, aucune opération. La consigne est de traiter une colonne entière avant l'autre, et il vaut la peine de s'y tenir : mélanger les deux rangs dans la même ligne est la source d'erreur numéro un. Elle referme la famille et suppose que les deux rangs ont été travaillés séparément, à la dizaine sur la fiche de base et à la centaine sur la fiche qui lui est consacrée. Cachez la colonne de droite pour un premier passage.",
+   "canonicalDeckSlug": "arrondir-a-la-dizaine-g3391",
+   "carousel": [
+    {
+     "label": "Arrondir à la dizaine",
+     "href": "arrondir-a-la-dizaine-la-plus-proche"
+    },
+    {
+     "label": "Arrondir au-dessus ou en dessous : range les nombres",
+     "href": "arrondir-au-dessus-ou-en-dessous-range-les-nombres"
+    },
+    {
+     "label": "Arrondir les nombres à la centaine",
+     "href": "arrondir-les-nombres-a-la-centaine"
+    },
+    {
+     "label": "Arrondir puis estimer la somme",
+     "href": "arrondir-puis-estimer-la-somme"
+    }
+   ],
+   "title": "Arrondir le même nombre à la dizaine et à la centaine | PDF CE2",
+   "metaDescription": "Huit nombres arrondis deux fois, une colonne dizaine et une colonne centaine : cinq d'entre eux montent d'un côté et descendent de l'autre. Fiche CE2 en PDF."
   }
  ]
 }

@@ -1,0 +1,54 @@
+{
+  "verbs": {
+    "hear": "kuulla",
+    "see": "nähdä",
+    "smell": "haistaa",
+    "taste": "maistaa",
+    "touch": "tuntea"
+  },
+  "starters": {
+    "hear": "Kuulen ...",
+    "see": "Näen ...",
+    "smell": "Haistan ...",
+    "taste": "Maistan ...",
+    "touch": "Tunnen ..."
+  },
+  "signedOk": [
+    "pizza",
+    "television",
+    "book",
+    "lamp",
+    "lighthouse",
+    "flute",
+    "thunderstorm"
+  ],
+  "organOf": {},
+  "refuse": [],
+  "strings": {
+    "K-355": {
+      "title": "Viisi aistia",
+      "instruction": "Piirrä viiva jokaisesta kuvasta siihen kehon osaan, jolla sen huomaat."
+    },
+    "G1-357": {
+      "title": "Viisi aistia: lajittele aistin mukaan",
+      "instruction": "Katso jokaista kuvaa ja piirrä viiva sen pisteestä sen aistin laatikkoon, jolla huomaat asian."
+    },
+    "G1-358": {
+      "title": "Viisi aistia: millä aistilla?",
+      "instruction": "Millä aistilla huomaat kunkin kuvan? Ympyröi se kehon osa, jota käytät."
+    },
+    "G1-359": {
+      "title": "Viisi aistia: mikä ei kuulu joukkoon?",
+      "instruction": "Jokaisella rivillä kolme kuvaa kuuluu samaan aistiin. Vedä yli se, joka ei kuulu."
+    },
+    "G1-360": {
+      "title": "Aistielimet: kirjoita aistin sana",
+      "instruction": "Kopioi jokainen aistisana pankista viivalle sen kehon osan viereen, joka sen tekee."
+    },
+    "G1-361": {
+      "title": "Viisi aistia: kuulen ...",
+      "instruction": "Täydennä jokainen lause. Kirjoita, mitä kuulet, näet, haistat, maistat ja tunnet."
+    }
+  },
+  "strand": "Ympäristöoppi"
+}

@@ -338,5 +338,45 @@
   "division-with-remainder": {
     "full": "Divisjon med rest for 4. trinn: sette ring rundt grupper, dele likt, regne divisjonsstykker med rest, avgjøre om det går opp, finne feil og hoppe bakover på tallinja.",
     "short": "Regne divisjonsstykker med rest"
+  },
+  "tangram": {
+    "full": "Legg tangramfigurer med de sju brikkene: klipp ut settet, bygg etter skygger, tegn strekene og tell trekanter og firkanter.",
+    "short": "Legg figurer med sju tangrambrikker"
+  },
+  "human-body": {
+    "full": "Navnet på kroppsdelene: skriv ordene på tegningen, tell hvor mange du har av hver del, fargelegg etter nøkkel og finn delen som mangler.",
+    "short": "Navnene på kroppens deler"
+  },
+  "five-senses": {
+    "full": "De fem sansene: koble hver ting til sansen og sanseorganet du bruker, sorter bilder etter sans og skriv hva du kan høre, se, lukte, smake og kjenne.",
+    "short": "De fem sansene og sanseorganene"
+  },
+  "weather-symbols": {
+    "full": "Værsymbolene og værordene: koble symbol og ord, før værdagbok en hel uke, les termometeret og sett navn på vannets kretsløp.",
+    "short": "Værsymboler, værdagbok og kretsløpet"
+  },
+  "recycling": {
+    "full": "Kildesortering hjemme: sorter tingene i papir, plast, glass og metall, matavfall og restavfall, og finn ut hva hver ting er laget av.",
+    "short": "Sorter avfall i riktig dunk"
+  },
+  "cloze": {
+    "full": "Sett inn ordet som mangler i setningen: bruk bildet og ordbanken, velg mellom to ord, skriv i bokstavruter og fyll ut en kort fortelling.",
+    "short": "Sett inn ordet som mangler"
+  },
+  "odd-and-even": {
+    "full": "Partall og oddetall opp til 100: sorter tall i to hus, del likt mellom to venner, se på eneren i tallet og avgjør om summen blir partall.",
+    "short": "Partall og oddetall opp til 100"
+  },
+  "pronouns": {
+    "full": "Personlige pronomen han, hun og de: bytt ut navnet med et pronomen, sorter navnekort, finn hvem pronomenet viser til og øv på hans, hennes og deres.",
+    "short": "Han, hun og de i setninger"
+  },
+  "question-words": {
+    "full": "Spørreordene hvem, hva, hvor, når og hvor mange: finn spørreordet som passer til svaret, sorter svar i kurver og lag hele spørsmål selv.",
+    "short": "Hvem, hva, hvor, når og hvor mange"
+  },
+  "rounding": {
+    "full": "Avrunding til nærmeste tier og hundrer: rund av tall under 1000, sorter opp eller ned, gjør overslag og finn hvilke tall som blir samme tier.",
+    "short": "Avrunding til tier og hundrer"
   }
 }

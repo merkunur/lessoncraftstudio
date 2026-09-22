@@ -1,0 +1,43 @@
+{
+  "up": {
+    "10": "avrunda uppåt",
+    "100": "avrunda uppåt"
+  },
+  "down": {
+    "10": "avrunda nedåt",
+    "100": "avrunda nedåt"
+  },
+  "heads": {
+    "10": "tiotal",
+    "100": "hundratal"
+  },
+  "relation": "approx",
+  "strings": {
+    "base": {
+      "title": "Avrundning till närmaste tiotal",
+      "instruction": "Avrunda varje tal till närmaste tiotal och skriv det i rutan. Är entalet 5 eller mer, avrundar du uppåt."
+    },
+    "sort": {
+      "title": "Uppåt eller nedåt? Sortera talen",
+      "instruction": "Avrundas varje tal uppåt eller nedåt till närmaste tiotal? Skriv det i rätt låda."
+    },
+    "hundred": {
+      "title": "Avrundning till hundratal: skriv talet",
+      "instruction": "Avrunda varje tal till närmaste hundratal och skriv det i rutan. Titta på entalet och tiotalet."
+    },
+    "estimate": {
+      "title": "Avrunda först, gör sedan ett överslag",
+      "instruction": "Avrunda båda talen till närmaste tiotal och skriv dem i rutorna. Addera sedan de avrundade talen."
+    },
+    "inverse": {
+      "title": "Vilka tal blir 50?",
+      "instruction": "Ringa in varje tal som avrundas till talet högst upp. Titta på entalet i varje tal."
+    },
+    "both": {
+      "title": "Avrundning till tiotal och hundratal",
+      "instruction": "Avrunda varje tal två gånger: till närmaste tiotal i första rutan och till närmaste hundratal i den andra."
+    }
+  },
+  "refuse": [],
+  "strand": "Taluppfattning och tals användning"
+}

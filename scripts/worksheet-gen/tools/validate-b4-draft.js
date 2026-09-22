@@ -139,6 +139,18 @@ function validate(loc, draft, opts = {}) {
     if (!famIds.every((id) => refusals[id])) E(`banks.${b} missing (the ${key} family is not fully refused)`);
   }
   for (const b of Object.keys(banks)) if (!wantBanks.has(b)) E(`banks: unknown bank "${b}" (names: ${[...wantBanks].join(', ')})`);
+  // title parity: the deck title (types) and the page title (the bank's strings) are the same string.
+  for (const key of KEYS) {
+    const tTitles = Object.entries(types).filter(([id]) => famOfId(id) === key).map(([, t]) => String((t && t.title) || '')).filter(Boolean).sort();
+    const block = banks[bankName(key)];
+    if (!block) continue;                       // a fully-refused family is reported above
+    const sTitles = Object.values((block && block.strings) || {}).map((x) => String((x && x.title) || '')).filter(Boolean).sort();
+    if (JSON.stringify(tTitles) === JSON.stringify(sTitles)) continue;
+    const only = (a, b2) => a.filter((v) => !b2.includes(v));
+    const tOnly = only(tTitles, sTitles), sOnly = only(sTitles, tTitles);
+    if (tOnly.length || sOnly.length) E(`${key}: the deck titles and the page titles disagree — types only: ${JSON.stringify(tOnly)}; bank strings only: ${JSON.stringify(sOnly)} (a deck whose title is not its page's)`);
+    else E(`${key}: ${tTitles.length} type title(s) against ${sTitles.length} bank string title(s)`);
+  }
   if (freeClaim.selfTest) freeClaim.selfTest();
   // family validators (those exporting cleanly), then the build probe
   if (!opts.noProbe && errs.length === 0) {

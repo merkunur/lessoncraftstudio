@@ -1,0 +1,460 @@
+{
+  "qwords": {
+    "who": "Kuka",
+    "what": "Mitä",
+    "where": "Missä",
+    "when": "Milloin",
+    "howmany": "Kuinka monta"
+  },
+  "starters": [
+    "Kuka",
+    "Mitä",
+    "Missä",
+    "Milloin",
+    "Miksi",
+    "Miten"
+  ],
+  "bins": {
+    "who": "Kuka?",
+    "what": "Mikä?",
+    "where": "Missä?"
+  },
+  "binAliases": {
+    "what": true
+  },
+  "qPrefix": "",
+  "sortThingForm": "bare",
+  "genderFilter": {},
+  "excludeThings": [
+    "pomegranate",
+    "sandbox",
+    "submarine",
+    "blackberry",
+    "bulldozer",
+    "coconut",
+    "motorcycle",
+    "duckling",
+    "excavator",
+    "jet"
+  ],
+  "chipWidths": {
+    "Kuka": 72.9,
+    "Mitä": 67.8,
+    "Missä": 79.4,
+    "Milloin": 88.8,
+    "Kuinka monta": 152.2
+  },
+  "bankWidths": {
+    "Kuka": 42.8,
+    "Mitä": 37.9,
+    "Missä": 48.3,
+    "Milloin": 58.6,
+    "Kuinka monta": 118
+  },
+  "frames": [
+    {
+      "id": "see-thing",
+      "kind": "thing",
+      "text": "{name} katsoo {part}.",
+      "q": {
+        "who": "Kuka katsoo {part}?",
+        "what": "Mitä {name} katsoo?"
+      },
+      "signed": true
+    },
+    {
+      "id": "draw-thing",
+      "kind": "thing",
+      "text": "{name} tutkii {part}.",
+      "q": {
+        "who": "Kuka tutkii {part}?",
+        "what": "Mitä {name} tutkii?"
+      },
+      "signed": true
+    },
+    {
+      "id": "like-thing",
+      "kind": "thing",
+      "text": "{name} ihailee {part}.",
+      "q": {
+        "who": "Kuka ihailee {part}?",
+        "what": "Mitä {name} ihailee?"
+      },
+      "signed": true
+    },
+    {
+      "id": "be-place",
+      "kind": "place",
+      "text": "{name} on {place}.",
+      "q": {
+        "who": "Kuka on {place}?",
+        "where": "Missä {name} nyt on?"
+      },
+      "signed": true
+    },
+    {
+      "id": "play-place",
+      "kind": "place",
+      "text": "{name} leikkii {place}.",
+      "q": {
+        "who": "Kuka leikkii {place}?",
+        "where": "Missä {name} leikkii?"
+      },
+      "signed": true
+    },
+    {
+      "id": "read-place",
+      "kind": "place",
+      "text": "{name} lukee {place}.",
+      "q": {
+        "who": "Kuka lukee {place}?",
+        "where": "Missä {name} lukee?"
+      },
+      "signed": true
+    },
+    {
+      "id": "play-time",
+      "kind": "time",
+      "text": "{name} ulkoilee {time}.",
+      "q": {
+        "who": "Kuka ulkoilee {time}?",
+        "when": "Milloin {name} ulkoilee?"
+      },
+      "signed": true
+    },
+    {
+      "id": "eat-time",
+      "kind": "time",
+      "text": "{name} syö {time}.",
+      "q": {
+        "who": "Kuka syö {time}?",
+        "when": "Milloin {name} syö?"
+      },
+      "signed": true
+    },
+    {
+      "id": "sleep-time",
+      "kind": "time",
+      "text": "{name} nukkuu {time}.",
+      "q": {
+        "who": "Kuka nukkuu {time}?",
+        "when": "Milloin {name} nukkuu?"
+      },
+      "signed": true
+    },
+    {
+      "id": "see-count",
+      "kind": "count",
+      "text": "{name} näkee {n} {part}.",
+      "q": {
+        "who": "Kuka näkee {n} {part}?",
+        "howmany": "Kuinka monta {part} {name} näkee?"
+      },
+      "signed": true
+    },
+    {
+      "id": "draw-count",
+      "kind": "count",
+      "text": "{name} maalaa {n} {part}.",
+      "q": {
+        "who": "Kuka maalaa {n} {part}?",
+        "howmany": "Kuinka monta {part} {name} maalaa?"
+      },
+      "signed": true
+    },
+    {
+      "id": "find-count",
+      "kind": "count",
+      "text": "{name} löytää {n} {part}.",
+      "q": {
+        "who": "Kuka löytää {n} {part}?",
+        "howmany": "Kuinka monta {part} {name} löytää?"
+      },
+      "signed": true
+    }
+  ],
+  "places": [
+    {
+      "key": "house",
+      "pic": {
+        "theme": "miscellaneous",
+        "noun": "house"
+      },
+      "text": "kotona",
+      "picOpened": true,
+      "static": true
+    },
+    {
+      "key": "garden",
+      "pic": {
+        "theme": "spring",
+        "noun": "garden"
+      },
+      "text": "puutarhassa",
+      "picOpened": true,
+      "static": true
+    },
+    {
+      "key": "beach",
+      "pic": {
+        "theme": "summer",
+        "noun": "beach"
+      },
+      "text": "rannalla",
+      "picOpened": true,
+      "static": true
+    },
+    {
+      "key": "tent",
+      "pic": {
+        "theme": "camping",
+        "noun": "tent"
+      },
+      "text": "teltassa",
+      "picOpened": true,
+      "static": true
+    },
+    {
+      "key": "forest",
+      "pic": {
+        "theme": "camping",
+        "noun": "forest"
+      },
+      "text": "metsässä",
+      "picOpened": true,
+      "static": true
+    },
+    {
+      "key": "lake",
+      "pic": {
+        "theme": "camping",
+        "noun": "lake"
+      },
+      "text": "järvellä",
+      "picOpened": true,
+      "static": true
+    },
+    {
+      "key": "river",
+      "pic": {
+        "theme": "camping",
+        "noun": "river"
+      },
+      "text": "joella",
+      "picOpened": true,
+      "static": true
+    },
+    {
+      "key": "mountain",
+      "pic": {
+        "theme": "camping",
+        "noun": "mountain"
+      },
+      "text": "vuorella",
+      "picOpened": true,
+      "static": true
+    },
+    {
+      "key": "pool",
+      "pic": {
+        "theme": "summer",
+        "noun": "pool"
+      },
+      "text": "altaalla",
+      "picOpened": true,
+      "static": true
+    },
+    {
+      "key": "kitchen",
+      "pic": {
+        "theme": "around the house",
+        "noun": "kitchen"
+      },
+      "text": "keittiössä",
+      "picOpened": true,
+      "static": true
+    },
+    {
+      "key": "garage",
+      "pic": {
+        "theme": "around the house",
+        "noun": "garage"
+      },
+      "text": "autotallissa",
+      "picOpened": true,
+      "static": true
+    },
+    {
+      "key": "bed",
+      "pic": {
+        "theme": "around the house",
+        "noun": "bed"
+      },
+      "text": "sängyssä",
+      "picOpened": true,
+      "static": true
+    },
+    {
+      "key": "sofa",
+      "pic": {
+        "theme": "around the house",
+        "noun": "sofa"
+      },
+      "text": "sohvalla",
+      "picOpened": true,
+      "static": true
+    },
+    {
+      "key": "playground",
+      "pic": {
+        "theme": "activities",
+        "noun": "playground"
+      },
+      "text": "leikkikentällä",
+      "picOpened": true,
+      "static": true
+    },
+    {
+      "key": "cabin",
+      "pic": {
+        "theme": "camping",
+        "noun": "cabin"
+      },
+      "text": "mökillä",
+      "picOpened": true,
+      "static": true
+    }
+  ],
+  "twins": [
+    [
+      "lake",
+      "river"
+    ],
+    [
+      "house",
+      "cabin"
+    ]
+  ],
+  "times": [
+    {
+      "text": "kello kahdeksalta",
+      "h": 8
+    },
+    {
+      "text": "kello kolmelta",
+      "h": 3
+    },
+    {
+      "text": "kello kuudelta",
+      "h": 6
+    },
+    {
+      "text": "kello yhdeksältä",
+      "h": 9
+    },
+    {
+      "text": "kello kahdelta",
+      "h": 2
+    },
+    {
+      "text": "kello seitsemältä",
+      "h": 7
+    }
+  ],
+  "thingThemes": [
+    "animals",
+    "fruits",
+    "vehicles",
+    "toys",
+    "zoo animals",
+    "farm animals"
+  ],
+  "numbers": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "faces": {
+    "base": {
+      "kinds": [
+        "who",
+        "what",
+        "where"
+      ]
+    },
+    "match": {
+      "kinds": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "howmany"
+      ]
+    },
+    "fill": {
+      "kinds": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "howmany"
+      ]
+    },
+    "sort": {
+      "kinds": [
+        "who",
+        "what",
+        "where"
+      ]
+    },
+    "write": {
+      "kinds": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "howmany"
+      ]
+    },
+    "ask": {
+      "kinds": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "why",
+        "how"
+      ]
+    }
+  },
+  "strings": {
+    "base": {
+      "title": "Kysymyssanat: kuka, mikä, missä",
+      "instruction": "Lue lause. Katso korostettuja sanoja. Ympyröi kysymyssana, joka kysyy niitä."
+    },
+    "match": {
+      "title": "Kysymys ja vastaus",
+      "instruction": "Lue jokainen kysymys vasemmalla. Piirrä viiva siihen vastaukseen oikealla, joka siihen sopii."
+    },
+    "fill": {
+      "title": "Täydennä kysymyssana",
+      "bankWord": "sanapankista",
+      "boxWord": "ruutuun",
+      "instruction": "Lue vastaus ja etsi korostetut sanat. Kirjoita kysymyssana sanapankista ruutuun."
+    },
+    "sort": {
+      "title": "Kuka, mikä vai missä? Lajittele vastaukset",
+      "instruction": "Lue jokainen sanalappu. Kirjoita se sen kysymyksen laatikkoon, johon se vastaa."
+    },
+    "write": {
+      "title": "Tee kysymys",
+      "instruction": "Lue vastaus. Katso korostettuja sanoja. Kirjoita viivalle kysymys, joka kysyy niitä."
+    },
+    "ask": {
+      "title": "Kysymyksiä kuvasta: miksi ja miten",
+      "pictureWord": "kuvaa",
+      "instruction": "Katso kuvaa. Täydennä jokainen kysymys. Aloita sillä sanalla, joka on jo viivalla."
+    }
+  }
+}

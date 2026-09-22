@@ -1,0 +1,128 @@
+{
+  "partWords": {
+    "head": "hode",
+    "hair": "hår",
+    "eye": "øye",
+    "ear": "øre",
+    "nose": "nese",
+    "mouth": "munn",
+    "neck": "hals",
+    "shoulder": "skulder",
+    "arm": "arm",
+    "elbow": "albue",
+    "hand": "hånd",
+    "finger": "finger",
+    "leg": "bein",
+    "knee": "kne",
+    "foot": "fot",
+    "toe": "tå"
+  },
+  "overrides": {
+    "neck": {
+      "word": "hals",
+      "reason": "Figuren er sett forfra: den synlige delen er halsen. Vokabularets «nakke» er bare BAKSIDEN av halsen og ville peke på feil sted."
+    }
+  },
+  "bankWords": {
+    "head": "hode",
+    "hair": "hår",
+    "eye": "øye",
+    "ear": "øre",
+    "nose": "nese",
+    "mouth": "munn",
+    "neck": "hals",
+    "shoulder": "skulder",
+    "arm": "arm",
+    "elbow": "albue",
+    "hand": "hånd",
+    "finger": "finger",
+    "leg": "bein",
+    "knee": "kne",
+    "foot": "fot",
+    "toe": "tå"
+  },
+  "plural": {
+    "head": "hoder",
+    "hair": "hår",
+    "eye": "øyne",
+    "ear": "ører",
+    "nose": "neser",
+    "mouth": "munner",
+    "neck": "halser",
+    "shoulder": "skuldre",
+    "arm": "armer",
+    "elbow": "albuer",
+    "hand": "hender",
+    "finger": "fingrer",
+    "leg": "bein",
+    "knee": "knær",
+    "foot": "føtter",
+    "toe": "tær"
+  },
+  "factLabels": {
+    "head": "Hvor mange hoder?",
+    "hair": "Hvor mye hår?",
+    "eye": "Hvor mange øyne?",
+    "ear": "Hvor mange ører?",
+    "nose": "Hvor mange neser?",
+    "mouth": "Hvor mange munner?",
+    "neck": "Hvor mange halser?",
+    "shoulder": "Hvor mange skuldre?",
+    "arm": "Hvor mange armer?",
+    "elbow": "Hvor mange albuer?",
+    "hand": "Hvor mange hender?",
+    "finger": "Hvor mange fingrer?",
+    "leg": "Hvor mange bein?",
+    "knee": "Hvor mange knær?",
+    "foot": "Hvor mange føtter?",
+    "toe": "Hvor mange tær?",
+    "fingersOneHand": "Hvor mange fingrer på én hånd?",
+    "toesOneFoot": "Hvor mange tær på én fot?"
+  },
+  "use": {
+    "head": "Du tenker med hodet.",
+    "hair": "Håret holder hodet varmt.",
+    "eye": "Du ser med øynene.",
+    "ear": "Du hører med ørene.",
+    "nose": "Du lukter med nesa.",
+    "mouth": "Du spiser og snakker med munnen.",
+    "neck": "Halsen holder hodet oppe.",
+    "shoulder": "Skuldrene bærer sekken.",
+    "arm": "Du gir en klem med armene.",
+    "elbow": "Albuene bøyer armene.",
+    "hand": "Du holder ting med hendene.",
+    "finger": "Du peker med en finger.",
+    "leg": "Du løper med beina.",
+    "knee": "Knærne bøyer seg når du hopper.",
+    "foot": "Du står på føttene.",
+    "toe": "Tærne hjelper deg å holde balansen."
+  },
+  "refuseWords": {},
+  "refuse": [],
+  "strings": {
+    "K-354": {
+      "title": "Kroppen vår",
+      "instruction": "Skriv ordene fra ordbanken på linjene som peker til delene av kroppen."
+    },
+    "K-360": {
+      "title": "Kroppen vår: hvor mange?",
+      "instruction": "Hvor mange har du av hver del? Tell på din egen kropp og skriv tallet i ruta."
+    },
+    "K-361": {
+      "title": "Kroppen vår: fargelegg etter fargenøkkelen",
+      "instruction": "Les fargenøkkelen og fargelegg hver del av kroppen i fargen som står ved navnet."
+    },
+    "G1-356": {
+      "title": "Kroppen vår: skriv ordet",
+      "instruction": "Finn hver nummererte del på tegningen og skriv navnet, én bokstav i hver rute."
+    },
+    "K-362": {
+      "title": "Kroppen vår: hva mangler?",
+      "instruction": "Hver kropp mangler én del. Sett ring rundt bildet av delen som mangler, og tegn den på."
+    },
+    "K-363": {
+      "title": "Kroppen vår: hvilke finnes det to av?",
+      "instruction": "Sett ring rundt hver del av kroppen du har to av."
+    }
+  }
+}

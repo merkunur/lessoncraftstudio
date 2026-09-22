@@ -2386,5 +2386,245 @@
   "G3-384": {
     "title": "Hopp bakover på tallinja: Hva blir igjen?",
     "instruction": "Start på det merkede tallet og hopp bakover med like lange hopp til det ikke er plass til et helt hopp. Skriv hoppene og hvor du lander."
+  },
+  "K-353": {
+    "title": "Tangram: klipp ut brikkene og legg to figurer",
+    "instruction": "Fargelegg hver brikke som i fargenøkkelen, klipp ut de sju brikkene langs strekene, og legg dem på de to figurene under."
+  },
+  "K-354": {
+    "title": "Kroppen vår",
+    "instruction": "Skriv ordene fra ordbanken på linjene som peker til delene av kroppen."
+  },
+  "K-355": {
+    "title": "Sansene våre",
+    "instruction": "Tegn en strek fra hvert bilde til delen av kroppen du bruker til det."
+  },
+  "K-356": {
+    "title": "Værsymboler",
+    "instruction": "Tegn en strek fra hvert værsymbol til ordet som passer."
+  },
+  "K-357": {
+    "title": "Kildesortering",
+    "instruction": "Hver ting er tom eller ferdig brukt. Tegn en strek fra tingen til dunken den skal i."
+  },
+  "G1-350": {
+    "title": "Sett inn riktig ord",
+    "instruction": "Se på bildet. Finn ordet som passer i setningen i ordbanken, og skriv det i ruta."
+  },
+  "G1-351": {
+    "title": "Partall og oddetall: hvilket hus?",
+    "instruction": "Skriv hvert tall i huset der det hører hjemme, partall eller oddetall. Tre tall har flyttet inn og viser parene sine."
+  },
+  "G1-352": {
+    "title": "Personlige pronomen",
+    "instruction": "Se på personen og les navnet. Sett ring rundt ordet vi bruker i stedet for navnet."
+  },
+  "G1-353": {
+    "title": "Spørreord: hvem, hva, hvor",
+    "instruction": "Les setningen. Se på de uthevede ordene. Sett ring rundt spørreordet som spør etter dem."
+  },
+  "G2-346": {
+    "title": "Avrunding til nærmeste tier",
+    "instruction": "Rund av hvert tall til nærmeste tier og skriv det i ruta. Er eneren 5 eller mer, runder du opp."
+  },
+  "K-358": {
+    "title": "Lett tangram: tegn strekene for 2 og 3 brikker",
+    "instruction": "Se på brikkene over hver figur. Tegn strekene inni figuren der brikkene møtes."
+  },
+  "G1-354": {
+    "title": "Tangram: fire skygger å bygge",
+    "instruction": "Bygg hver mørke figur med de sju brikkene i tangrammet ditt. Bruk alle sju brikkene hver gang."
+  },
+  "G1-355": {
+    "title": "Tangram: hvilken brikke mangler?",
+    "instruction": "Én brikke mangler i hver figur. Sett ring rundt brikken som passer nøyaktig i det tomme feltet."
+  },
+  "G2-347": {
+    "title": "Tangram: hvilken figur står som skyggen?",
+    "instruction": "Se på hver skygge. Sett ring rundt figuren som står akkurat som skyggen. Snudde eller speilvendte passer ikke."
+  },
+  "K-359": {
+    "title": "Tangram: tell trekanter og firkanter",
+    "instruction": "Tell trekantene i hvert bilde og skriv tallet i den første ruta. Tell så firkantene til den andre ruta."
+  },
+  "K-360": {
+    "title": "Kroppen vår: hvor mange?",
+    "instruction": "Hvor mange har du av hver del? Tell på din egen kropp og skriv tallet i ruta."
+  },
+  "K-361": {
+    "title": "Kroppen vår: fargelegg etter fargenøkkelen",
+    "instruction": "Les fargenøkkelen og fargelegg hver del av kroppen i fargen som står ved navnet."
+  },
+  "G1-356": {
+    "title": "Kroppen vår: skriv ordet",
+    "instruction": "Finn hver nummererte del på tegningen og skriv navnet, én bokstav i hver rute."
+  },
+  "K-362": {
+    "title": "Kroppen vår: hva mangler?",
+    "instruction": "Hver kropp mangler én del. Sett ring rundt bildet av delen som mangler, og tegn den på."
+  },
+  "K-363": {
+    "title": "Kroppen vår: hvilke finnes det to av?",
+    "instruction": "Sett ring rundt hver del av kroppen du har to av."
+  },
+  "G1-357": {
+    "title": "Sansene våre: sorter etter sans",
+    "instruction": "Se på hvert bilde og tegn en strek fra prikken til boksen for sansen du bruker til det."
+  },
+  "G1-358": {
+    "title": "Sansene våre: hvilken sans bruker du?",
+    "instruction": "Hvilken sans bruker du til hvert bilde? Sett ring rundt delen av kroppen du bruker."
+  },
+  "G1-359": {
+    "title": "Sansene våre: hvilken hører ikke til?",
+    "instruction": "I hver rad hører tre bilder til samme sans. Sett kryss over det bildet som ikke gjør det."
+  },
+  "G1-360": {
+    "title": "Sanseorganene: skriv sanseordet",
+    "instruction": "Skriv hvert ord fra ordbanken på linja ved den delen av kroppen som gjør det."
+  },
+  "G1-361": {
+    "title": "Sansene våre: jeg kan høre ...",
+    "instruction": "Fullfør hver setning. Skriv hva du kan høre, se, lukte, smake og kjenne."
+  },
+  "G1-362": {
+    "title": "Værsymboler: skriv værordet",
+    "instruction": "Finn ordet for hvert værsymbol i ordbanken og skriv det, én bokstav i hver rute."
+  },
+  "K-364": {
+    "title": "Værdagbok fra mandag til søndag",
+    "instruction": "Se ut hver dag denne uka og tegn værsymbolet for dagen i ruta."
+  },
+  "K-365": {
+    "title": "Er det kaldt, varmt eller hett?",
+    "instruction": "Se på hvert termometer, bruk nøkkelen og sett ring rundt bildet som passer til kaldt, varmt eller hett."
+  },
+  "G3-385": {
+    "title": "Vannets kretsløp: sett navn på tegningen",
+    "instruction": "Les de fire ordene i ordbanken og skriv hvert ord på linja som har samme nummer som på tegningen."
+  },
+  "G1-363": {
+    "title": "Les værmeldingen for uka",
+    "instruction": "Se på været for hele uka, les hvert spørsmål og sett ring rundt riktig dag."
+  },
+  "K-366": {
+    "title": "Kildesortering: hvilken dunk?",
+    "instruction": "Se på hver ting og sett ring rundt dunken den skal i når den er tom eller ferdig brukt."
+  },
+  "G1-364": {
+    "title": "Kildesortering: hva er det laget av?",
+    "instruction": "Hva er hver ting laget av? Skriv ordet fra ordbanken på linja."
+  },
+  "G2-348": {
+    "title": "Kildesortering: finn den som skiller seg ut",
+    "instruction": "I hver rad er tre ting laget av det samme. Sett ring rundt den ene som er annerledes."
+  },
+  "K-367": {
+    "title": "Kildesortering: fargelegg dunkene",
+    "instruction": "Les navnet på hver dunk og fargelegg den i fargen som står i fargenøkkelen."
+  },
+  "G1-365": {
+    "title": "Kildesortering: tre ting jeg sorterer hjemme",
+    "instruction": "Tegn tre ting du sorterer hjemme, og skriv hva hver av dem er."
+  },
+  "G1-366": {
+    "title": "Sett inn riktig ord: én bokstav i hver rute",
+    "instruction": "Se på bildet. Skriv ordet som mangler i rutene, én bokstav i hver rute."
+  },
+  "G1-367": {
+    "title": "Sett inn riktig ord: velg mellom to ord",
+    "instruction": "Se på bildet og les setningen. Sett ring rundt ordet som passer, og skriv det."
+  },
+  "G2-349": {
+    "title": "Sett inn riktig ord: flere enn én",
+    "instruction": "Se på bildene. Det er flere enn én. Skriv ordet for flere i ruta."
+  },
+  "G2-350": {
+    "title": "Sett inn riktig ord i fortellingen",
+    "instruction": "Les hele fortellingen. De tre bildene viser ordene som mangler. Skriv hvert ord fra ordbanken."
+  },
+  "G1-368": {
+    "title": "Hvilket bilde passer til setningen?",
+    "instruction": "Les hver setning. Hvilket bilde passer i luka? Tegn en strek fra setningen til bildet."
+  },
+  "G2-351": {
+    "title": "Partall eller oddetall? Skriv to like tall",
+    "instruction": "Sett ring rundt prikkene to og to. Skriv så tallet som to like deler, og skriv det som blir til overs i den lille ruta."
+  },
+  "G1-369": {
+    "title": "Kan to venner dele likt?",
+    "instruction": "Del bildene likt mellom de to vennene, ett om gangen. Skriv hvor mange hver får og hvor mange som blir til overs. Sett så ring rundt riktig ord."
+  },
+  "G2-352": {
+    "title": "Partall og oddetall opp til 100: se på enerplassen",
+    "instruction": "Les regelen øverst. Se bare på eneren i hvert tall og sett kryss i sirkelen under partall eller oddetall."
+  },
+  "G3-386": {
+    "title": "Blir summen partall eller oddetall? Finn ut uten å regne",
+    "instruction": "Ikke regn ut. Se på eneren som er understreket i hvert tall, bruk tabellen, og sett kryss ved riktig svar."
+  },
+  "G1-370": {
+    "title": "Partall eller oddetall? Tell bildene to og to",
+    "instruction": "Tell bildene og sett ring rundt dem to og to. Skriv hvor mange par du fikk, og sett så ring rundt partall eller oddetall."
+  },
+  "G1-371": {
+    "title": "Bytt ut navnet med et pronomen",
+    "instruction": "Les setningen. Skriv ordet fra ordbanken som erstatter navnet i setningen under."
+  },
+  "G2-353": {
+    "title": "Hvem er han? Pronomen i setninger",
+    "instruction": "Les setningene. Tegn en strek fra hvert ord i en boks til navnet det står for."
+  },
+  "G2-354": {
+    "title": "Possessive pronomen: hans, hennes eller deres",
+    "instruction": "Se hvem som eier tingen. Sett ring rundt ordet som viser at tingen hører til den personen."
+  },
+  "G1-372": {
+    "title": "Sorter navnene: han, hun eller de",
+    "instruction": "Les hvert navnekort. Skriv navnet under ordet vi bruker om den personen."
+  },
+  "G2-355": {
+    "title": "Skriv setningen om med et pronomen",
+    "instruction": "Les setningen. Skriv den om på linjene, men bruk et pronomen i stedet for navnet."
+  },
+  "G1-373": {
+    "title": "Finn svaret på spørsmålet",
+    "instruction": "Les hvert spørsmål til venstre. Tegn en strek til svaret til høyre som passer."
+  },
+  "G1-374": {
+    "title": "Sett inn spørreordet",
+    "instruction": "Les svaret og finn de uthevede ordene. Skriv spørreordet fra ordbanken i ruta."
+  },
+  "G1-375": {
+    "title": "Sorter svarene: hvem, hva eller hvor",
+    "instruction": "Les hver ordbrikke. Skriv den i kurven under spørsmålet den svarer på."
+  },
+  "G2-356": {
+    "title": "Lag et spørsmål",
+    "instruction": "Les svaret. Se på de uthevede ordene. Skriv spørsmålet som spør etter dem, på linja."
+  },
+  "G2-357": {
+    "title": "Spør om bildet: hvorfor og hvordan",
+    "instruction": "Se på bildet. Fullfør hvert spørsmål. Begynn med ordet som allerede står på linja."
+  },
+  "G3-387": {
+    "title": "Rund opp eller ned? Sorter tallene",
+    "instruction": "Skal hvert tall rundes opp eller ned til nærmeste tier? Skriv det i riktig kurv."
+  },
+  "G3-388": {
+    "title": "Avrunding av tall til nærmeste hundrer",
+    "instruction": "Rund av hvert tall til nærmeste hundrer og skriv det i ruta. Se på tieren i tallet."
+  },
+  "G3-389": {
+    "title": "Overslag: rund av og legg sammen",
+    "instruction": "Rund av begge tallene til nærmeste tier og skriv dem i rutene. Legg så sammen de avrundede tallene."
+  },
+  "G3-390": {
+    "title": "Hvilke tall blir 50?",
+    "instruction": "Sett ring rundt hvert tall som blir tieren øverst på arket. Se på eneren i hvert tall."
+  },
+  "G3-391": {
+    "title": "Avrunding til tier og hundrer",
+    "instruction": "Rund av hvert tall to ganger: til nærmeste tier i den første ruta og til nærmeste hundrer i den andre."
   }
 }

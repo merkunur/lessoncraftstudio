@@ -1,0 +1,43 @@
+{
+  "up": {
+    "10": "rund opp",
+    "100": "rund opp"
+  },
+  "down": {
+    "10": "rund ned",
+    "100": "rund ned"
+  },
+  "heads": {
+    "10": "nærmeste tier",
+    "100": "nærmeste hundrer"
+  },
+  "relation": "approx",
+  "strings": {
+    "base": {
+      "title": "Avrunding til nærmeste tier",
+      "instruction": "Rund av hvert tall til nærmeste tier og skriv det i ruta. Er eneren 5 eller mer, runder du opp."
+    },
+    "sort": {
+      "title": "Rund opp eller ned? Sorter tallene",
+      "instruction": "Skal hvert tall rundes opp eller ned til nærmeste tier? Skriv det i riktig kurv."
+    },
+    "hundred": {
+      "title": "Avrunding av tall til nærmeste hundrer",
+      "instruction": "Rund av hvert tall til nærmeste hundrer og skriv det i ruta. Se på tieren i tallet."
+    },
+    "estimate": {
+      "title": "Overslag: rund av og legg sammen",
+      "instruction": "Rund av begge tallene til nærmeste tier og skriv dem i rutene. Legg så sammen de avrundede tallene."
+    },
+    "inverse": {
+      "title": "Hvilke tall blir 50?",
+      "instruction": "Sett ring rundt hvert tall som blir tieren øverst på arket. Se på eneren i hvert tall."
+    },
+    "both": {
+      "title": "Avrunding til tier og hundrer",
+      "instruction": "Rund av hvert tall to ganger: til nærmeste tier i den første ruta og til nærmeste hundrer i den andre."
+    }
+  },
+  "refuse": [],
+  "strand": "Tall og algebra"
+}

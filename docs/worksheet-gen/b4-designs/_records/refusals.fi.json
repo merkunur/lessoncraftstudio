@@ -1,0 +1,7 @@
+{
+  "locale": "fi",
+  "refusals": {
+    "G2-354": "Suomen possessiivinen ilmaus on omistajasta riippumaton: hänen on sama sekä miehelle että naiselle, ja liitepartikkeli (-nsa / -nsä) ei erottele omistajaa lainkaan. Kolmea erottelevaa merkkiä ei ole olemassa, joten tehtävällä ei ole oikeaa vastausta suomeksi (design G1-352 §4, lukon mukainen kieltäytyminen).",
+    "K-367": "Suomessa ei ole yhtä kansallista jäteastian väriä, joka kattaisi tämän sivun viisi astiaa. Kierrätysmerkkien värit vaihtelevat jätehuoltoyhtiöittäin, ja tämän lokaalin Paperi-astia yhdistää paperin ja kartongin, joilla on eri merkkiväri; viidettä erottelevaa väriä jouduttaisiin keksimään. Luokkakohtainen väriavain taas olisi K-241 (väritä koodin mukaan), joten F4 kieltäydytään, ei arvata."
+  }
+}

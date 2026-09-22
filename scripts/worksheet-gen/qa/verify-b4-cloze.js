@@ -1344,9 +1344,12 @@ async function main() {
     await facePoison('PF5 a picture inside a sentence item', 'match', mutated(FS('match'), (h) => h.replace(/(<span data-lcs-match-text[^>]*>)/, `$1<img class="ws-icon" src="${fileUri('farm animals', 'cow')}" alt="" style="width:44px;height:44px">`)), /a picture inside a sentence item/);
     // PS5 — the match columns flex-start with fixed 92 items (the slack pools under the last item)
     await facePoison('PS5 match items fixed at 92, columns flex-start', 'match', mutated(FS('match'), (h) => h.replace(/min-height:92px;max-height:108px;flex:1 1 92px/g, 'height:92px').replace(/<div class="ws-match-col">/g, '<div class="ws-match-col" style="justify-content:flex-start">')), /slack under the last item|between items/);
-    // PR15 — an unauthored locale (sv) refuses on EVERY face (never an en fallback)
-    { poisonTotal++; const refused = []; for (const mode of Object.keys(FACE_OF)) { try { FS(mode).build({ theme: null, difficulty: 2, locale: 'sv' }, { rng: makeRng('pr15') }); refused.push(mode + ': BUILT'); } catch (e) { refused.push(mode + ': ' + e.message); } }
-      const allR = refused.length === 5 && refused.every((x) => /has no sv block/.test(x)); asserts++; if (allR) { killed++; console.log('  poison PR15 sv unauthored: killed (5/5 faces refuse: has no sv block)'); } else { fails++; console.log('  FAIL PR15: ' + refused.join(' | ')); } }
+    // PR15 — a locale with NO block refuses on EVERY face (never an en fallback). It used to name
+    // `sv`, which shipped on 2026-09-22 and silently turned the poison into a page that BUILDS -
+    // a needle that encoded the current state and expired with it. `zz` is not a project locale
+    // and can never be authored, so the poison now tests the behaviour instead of a locale list.
+    { poisonTotal++; const refused = []; for (const mode of Object.keys(FACE_OF)) { try { FS(mode).build({ theme: null, difficulty: 2, locale: 'zz' }, { rng: makeRng('pr15') }); refused.push(mode + ': BUILT'); } catch (e) { refused.push(mode + ': ' + e.message); } }
+      const allR = refused.length === 5 && refused.every((x) => /has no zz block/.test(x)); asserts++; if (allR) { killed++; console.log('  poison PR15 zz unauthored: killed (5/5 faces refuse: has no zz block)'); } else { fails++; console.log('  FAIL PR15: ' + refused.join(' | ')); } }
     // PR16 — a face string missing (strings.match deleted) → refuse
     await facePoison('PR16 strings.match missing', 'match', faceWithBank(FS('match'), (() => { const b = clone(en); delete b.strings.match; return b; })()), /has no strings\.match/);
     // PF6 — overlapping fits through the seam on the match face (two pictures fit one sentence) → the composer REFUSES

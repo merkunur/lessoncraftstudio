@@ -1,0 +1,6 @@
+{
+  "locale": "sv",
+  "refusals": {
+    "K-367": "Sverige HAR en nationell färgkonvention (Avfall Sveriges skyltsystem: papper blått, plast orange, metall grått, glas grönt, matavfall brunt) och alla fem färgerna ligger i blocket - men F4 faller på ITEM-banken, inte på färgerna. Med ett ärligt förpackningskärl för metall (Metallförpackningar) finns exakt ETT metallföremål i data/b4/recycling.json (`can`, en konservburk), alltså en enda familj, under golvet på två familjer som färgfacen behöver för sina två exempelbilder per tunna. De två utvägarna är båda falska mot det svenska systemet: ett kärl med packagingOnly:false skickar kastrullen, skruven och muttern till metallförpackningar (de ska till återvinningscentralen), och att stryka Metall ur en svensk källsorteringssida tar bort en av de fraktioner varje barn lär sig. Facen vägras därför; den gissas inte fram."
+  }
+}

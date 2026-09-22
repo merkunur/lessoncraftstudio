@@ -1,0 +1,28 @@
+{
+  "strings": {
+    "K-353": {
+      "title": "Tangram: klipp ut de sju bitarna och lägg två figurer",
+      "instruction": "Färglägg bitarna efter färgrutorna, klipp ut dem längs linjerna och lägg dem sedan på de två figurerna, linje för linje."
+    },
+    "compose": {
+      "title": "Lätta tangramfigurer av 2 och 3 bitar: rita linjerna",
+      "instruction": "Titta på bitarna ovanför varje figur. Rita linjerna inuti figuren där bitarna möts."
+    },
+    "silhouette": {
+      "title": "Tangram: bygg fyra skuggbilder",
+      "instruction": "Bygg varje mörk figur med de sju bitarna i ditt tangram. Använd alla sju bitarna varje gång."
+    },
+    "missing": {
+      "title": "Tangram: vilken bit saknas?",
+      "instruction": "I varje figur saknas en bit. Ringa in den bit som passar exakt i det tomma fältet."
+    },
+    "match": {
+      "title": "Tangram: vilken lösning passar skuggbilden?",
+      "instruction": "Titta på varje skuggbild. Ringa in den lösning som ligger precis likadant. Vridna eller speglade figurer passar inte."
+    },
+    "count": {
+      "title": "Tangram: räkna trianglar och kvadrater",
+      "instruction": "Räkna trianglarna i varje figur och skriv talet i första rutan. Räkna sedan kvadraterna till den andra rutan."
+    }
+  }
+}

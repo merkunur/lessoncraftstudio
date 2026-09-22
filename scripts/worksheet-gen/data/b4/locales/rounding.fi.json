@@ -1,0 +1,43 @@
+{
+  "up": {
+    "10": "ylöspäin",
+    "100": "ylöspäin"
+  },
+  "down": {
+    "10": "alaspäin",
+    "100": "alaspäin"
+  },
+  "heads": {
+    "10": "kymmenen tarkkuudella",
+    "100": "sadan tarkkuudella"
+  },
+  "relation": "approx",
+  "strings": {
+    "base": {
+      "title": "Pyöristäminen kymmenien tarkkuuteen",
+      "instruction": "Pyöristä jokainen luku lähimpään kymmeneen ja kirjoita se ruutuun. Jos ykkösnumero on 5 tai enemmän, pyöristä ylöspäin."
+    },
+    "sort": {
+      "title": "Ylöspäin vai alaspäin? Lajittele luvut",
+      "instruction": "Pyöristyykö jokainen luku ylöspäin vai alaspäin lähimpään kymmeneen? Kirjoita se oikeaan laatikkoon."
+    },
+    "hundred": {
+      "title": "Pyöristäminen satojen tarkkuuteen",
+      "instruction": "Pyöristä jokainen luku lähimpään sataan ja kirjoita se ruutuun. Katso kymmenten numeroa."
+    },
+    "estimate": {
+      "title": "Pyöristä ja arvioi summa",
+      "instruction": "Pyöristä molemmat luvut lähimpään kymmeneen ja kirjoita ne ruutuihin. Laske sitten pyöristetyt luvut yhteen."
+    },
+    "inverse": {
+      "title": "Mitkä luvut pyöristyvät lukuun 50?",
+      "instruction": "Ympyröi jokainen luku, joka pyöristyy ylhäällä näkyvään kymmeneen. Katso kunkin luvun ykkösnumeroa."
+    },
+    "both": {
+      "title": "Pyöristäminen kymmenien ja satojen tarkkuuteen",
+      "instruction": "Pyöristä jokainen luku kahdesti: ensimmäiseen ruutuun lähimpään kymmeneen ja toiseen lähimpään sataan."
+    }
+  },
+  "refuse": [],
+  "strand": "Luvut ja laskutoimitukset"
+}

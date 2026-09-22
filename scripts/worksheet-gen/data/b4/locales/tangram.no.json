@@ -1,0 +1,28 @@
+{
+  "strings": {
+    "K-353": {
+      "title": "Tangram: klipp ut brikkene og legg to figurer",
+      "instruction": "Fargelegg hver brikke som i fargenøkkelen, klipp ut de sju brikkene langs strekene, og legg dem på de to figurene under."
+    },
+    "compose": {
+      "title": "Lett tangram: tegn strekene for 2 og 3 brikker",
+      "instruction": "Se på brikkene over hver figur. Tegn strekene inni figuren der brikkene møtes."
+    },
+    "silhouette": {
+      "title": "Tangram: fire skygger å bygge",
+      "instruction": "Bygg hver mørke figur med de sju brikkene i tangrammet ditt. Bruk alle sju brikkene hver gang."
+    },
+    "missing": {
+      "title": "Tangram: hvilken brikke mangler?",
+      "instruction": "Én brikke mangler i hver figur. Sett ring rundt brikken som passer nøyaktig i det tomme feltet."
+    },
+    "match": {
+      "title": "Tangram: hvilken figur står som skyggen?",
+      "instruction": "Se på hver skygge. Sett ring rundt figuren som står akkurat som skyggen. Snudde eller speilvendte passer ikke."
+    },
+    "count": {
+      "title": "Tangram: tell trekanter og firkanter",
+      "instruction": "Tell trekantene i hvert bilde og skriv tallet i den første ruta. Tell så firkantene til den andre ruta."
+    }
+  }
+}

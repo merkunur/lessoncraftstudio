@@ -2386,5 +2386,237 @@
   "G3-384": {
     "title": "Hop tilbage på tallinjen: hvad er til overs?",
     "instruction": "Start ved det markerede tal, og tegn lige store hop tilbage, til et helt hop ikke kan være der mere. Skriv antallet af hop, og hvor du lander."
+  },
+  "K-353": {
+    "title": "Tangram: klip de 7 brikker ud og læg to figurer",
+    "instruction": "Farvelæg brikkerne som i farveforklaringen, klip dem ud langs stregerne, og læg dem præcis på de to figurer nedenunder."
+  },
+  "K-354": {
+    "title": "Kroppens dele",
+    "instruction": "Skriv hvert ord fra ordkassen på den linje, der peger på den del af kroppen."
+  },
+  "K-355": {
+    "title": "De fem sanser",
+    "instruction": "Tegn en streg fra hvert billede til den del af kroppen, du bruger til det."
+  },
+  "K-356": {
+    "title": "Vejrsymboler",
+    "instruction": "Tegn en streg fra hvert vejrsymbol til det ord, der hører til."
+  },
+  "K-357": {
+    "title": "Affaldssortering",
+    "instruction": "Alle tingene skal smides ud. Tegn en streg fra hver ting til den spand, den skal i."
+  },
+  "G1-350": {
+    "title": "Indsæt det rigtige ord",
+    "instruction": "Se på billedet. Find det ord i ordkassen, der passer i sætningen, og skriv det i feltet."
+  },
+  "G1-351": {
+    "title": "Lige og ulige tal: det lige hus og det ulige hus",
+    "instruction": "Skriv hvert tal i det hus, hvor det hører til. Tre tal er allerede flyttet ind og viser deres par."
+  },
+  "G1-352": {
+    "title": "Personlige stedord",
+    "instruction": "Se på personen, og læs navnet. Sæt ring om det ord, vi siger i stedet for navnet."
+  },
+  "G1-353": {
+    "title": "Hv-ord: hvem, hvad, hvor",
+    "instruction": "Læs sætningen. Se på de markerede ord. Sæt ring om det hv-ord, der spørger efter dem."
+  },
+  "G2-346": {
+    "title": "Afrunding til nærmeste 10",
+    "instruction": "Rund hvert tal af til nærmeste tier, og skriv det i feltet. Er enercifret 5 eller mere, runder du op."
+  },
+  "K-358": {
+    "title": "Nemme tangramfigurer af 2 og 3 brikker: tegn stregerne",
+    "instruction": "Se på brikkerne over hver figur. Tegn stregerne inde i figuren, der hvor brikkerne mødes."
+  },
+  "G1-354": {
+    "title": "Tangramfigurer: læg fire skyggebilleder",
+    "instruction": "Læg hvert mørkt skyggebillede med de syv brikker fra dit tangram. Brug alle syv brikker hver gang."
+  },
+  "G1-355": {
+    "title": "Tangramfigurer: hvilken brik mangler?",
+    "instruction": "Der mangler en brik i hver figur. Sæt ring om den brik, der passer præcis i det tomme felt."
+  },
+  "G2-347": {
+    "title": "Tangramfigurer: hvilken løsning passer til skyggen?",
+    "instruction": "Se på hver skygge. Sæt ring om den løsning, der ligger præcis som skyggen. Drejede eller spejlvendte figurer passer ikke."
+  },
+  "K-359": {
+    "title": "Tangram: tæl trekanter og kvadrater",
+    "instruction": "Tæl trekanterne i hvert billede, og skriv tallet i det første felt. Tæl så kvadraterne til det andet."
+  },
+  "K-360": {
+    "title": "Kroppens dele: hvor mange har du?",
+    "instruction": "Hvor mange har du af hver? Tæl på din egen krop, og skriv tallet i feltet."
+  },
+  "K-361": {
+    "title": "Kroppens dele: farvelæg efter listen",
+    "instruction": "Læs listen, og farvelæg hver del af kroppen med den farve, der står ved navnet."
+  },
+  "G1-356": {
+    "title": "Kroppens dele: skriv ordet",
+    "instruction": "Find hver nummereret del på figuren, og skriv dens navn med ét bogstav i hvert felt."
+  },
+  "K-362": {
+    "title": "Kroppens dele: hvad mangler?",
+    "instruction": "Hver krop mangler en del. Sæt ring om billedet af den del, der mangler, og tegn den på."
+  },
+  "K-363": {
+    "title": "Kroppens dele: hvilke har du to af?",
+    "instruction": "Sæt ring om hver del af kroppen, som du har to af."
+  },
+  "G1-357": {
+    "title": "Sanserne: sortér efter sansen",
+    "instruction": "Se på hvert billede, og tegn en streg fra prikken til kassen med den sans, du bruger til det."
+  },
+  "G1-358": {
+    "title": "Sanserne: hvilken sans bruger du?",
+    "instruction": "Hvilken sans bruger du til hvert billede? Sæt ring om den del af kroppen, du bruger."
+  },
+  "G1-359": {
+    "title": "Sanserne: hvilket billede passer ikke?",
+    "instruction": "I hver række hører tre billeder til den samme sans. Streg det billede ud, der ikke gør."
+  },
+  "G1-360": {
+    "title": "Sanseorganerne: skriv sanseordet",
+    "instruction": "Skriv hvert ord fra ordkassen på linjen ved den del af kroppen, der kan det."
+  },
+  "G1-361": {
+    "title": "Sanserne: jeg kan høre ...",
+    "instruction": "Gør hver sætning færdig. Skriv hvad du kan høre, se, lugte, smage og føle."
+  },
+  "G1-362": {
+    "title": "Vejrsymboler: skriv vejrordet",
+    "instruction": "Find ordet til hvert vejrsymbol i ordkassen, og skriv det med ét bogstav i hvert felt."
+  },
+  "K-364": {
+    "title": "Vejrskema fra mandag til søndag",
+    "instruction": "Kig ud hver dag i denne uge, og tegn dagens vejrsymbol i feltet."
+  },
+  "K-365": {
+    "title": "Hvor varmt er der? Koldt, varmt eller hedt",
+    "instruction": "Se på hvert termometer, brug nøglen øverst, og sæt ring om det billede, der passer."
+  },
+  "G3-385": {
+    "title": "Vandets kredsløb: sæt navnene på tegningen",
+    "instruction": "Læs de fire ord i ordkassen, og skriv hvert ord på den linje, der har samme tal som på tegningen."
+  },
+  "G1-363": {
+    "title": "Læs ugens vejrudsigt",
+    "instruction": "Se på vejret for hele ugen, læs hvert spørgsmål, og sæt ring om den rigtige dag."
+  },
+  "K-366": {
+    "title": "Affaldssortering: hvilken spand?",
+    "instruction": "Se på hver ting, og sæt ring om den spand, den skal i, når den skal smides ud."
+  },
+  "G1-364": {
+    "title": "Affaldssortering: hvad er tingen lavet af?",
+    "instruction": "Hvad er hver ting lavet af? Skriv ordet fra ordkassen på linjen."
+  },
+  "G2-348": {
+    "title": "Affaldssortering: hvilken ting passer ikke?",
+    "instruction": "I hver række er tre ting lavet af det samme. Sæt ring om den ting, der er anderledes."
+  },
+  "G1-365": {
+    "title": "Affaldssortering: tre ting jeg sorterer derhjemme",
+    "instruction": "Tegn tre ting, du sorterer derhjemme, og skriv hvad hver ting er."
+  },
+  "G1-366": {
+    "title": "Indsæt det rigtige ord i bogstavfelter",
+    "instruction": "Se på billedet. Skriv det ord, der mangler, i felterne: et bogstav i hvert felt."
+  },
+  "G1-367": {
+    "title": "Indsæt det rigtige ord: vælg mellem to ord",
+    "instruction": "Se på billedet, og læs sætningen. Sæt ring om det ord, der passer, og skriv det i feltet."
+  },
+  "G2-350": {
+    "title": "Indsæt de ord, der mangler i historien",
+    "instruction": "Læs hele historien. De tre billeder viser de ord, der mangler. Skriv hvert ord fra ordkassen i sit felt."
+  },
+  "G1-368": {
+    "title": "Sæt sætningen sammen med billedet",
+    "instruction": "Læs hver sætning. Hvilket billede passer i det tomme felt? Tegn en streg fra sætningen til billedet."
+  },
+  "G2-351": {
+    "title": "Lige eller ulige? Skriv tallet som to ens dele",
+    "instruction": "Sæt ring om prikkerne to og to. Skriv så tallet som to ens dele, og skriv i det lille felt, hvad der er tilovers."
+  },
+  "G1-369": {
+    "title": "Kan to venner dele ligeligt?",
+    "instruction": "Del billederne mellem de to venner, én ad gangen. Skriv hvor mange hver får, og hvad der er tilovers. Sæt ring om lige eller ulige."
+  },
+  "G2-352": {
+    "title": "Lige og ulige tal op til 100: se på enerfeltet",
+    "instruction": "Læs reglen øverst. Se kun på enerfeltet i hvert tal, og sæt et kryds i cirklen under lige eller ulige."
+  },
+  "G3-386": {
+    "title": "Lige eller ulige sum? Afgør uden at regne",
+    "instruction": "Du skal ikke lægge sammen. Se på det understregede ciffer på enerpladsen, brug tabellen, og sæt kryds ved lige eller ulige."
+  },
+  "G1-370": {
+    "title": "Lige eller ulige? Tæl billederne to og to",
+    "instruction": "Tæl billederne, og sæt ring om dem to og to. Skriv hvor mange par du har lavet, og sæt så ring om lige eller ulige."
+  },
+  "G1-371": {
+    "title": "Sæt et stedord i stedet for navnet",
+    "instruction": "Læs sætningen. Skriv det ord fra ordkassen, der erstatter navnet i den anden sætning."
+  },
+  "G2-353": {
+    "title": "Hvem menes der? Stedord i sætninger",
+    "instruction": "Læs sætningerne. Tegn en streg fra hvert ord i en kasse til det navn, det står for."
+  },
+  "G2-354": {
+    "title": "Ejestedord: hans, hendes eller deres",
+    "instruction": "Se hvem tingen tilhører. Sæt ring om det ord, der viser, at den hører til den person."
+  },
+  "G1-372": {
+    "title": "Sortér navnene: han, hun eller de",
+    "instruction": "Læs hvert navnekort. Skriv navnet under det ord, vi bruger om den person."
+  },
+  "G2-355": {
+    "title": "Skriv sætningen om med et stedord",
+    "instruction": "Læs sætningen. Skriv den igen på linjerne, men brug et stedord i stedet for navnet."
+  },
+  "G1-373": {
+    "title": "Match spørgsmålet med svaret",
+    "instruction": "Læs hvert spørgsmål til venstre. Tegn en streg til det svar til højre, der passer til det."
+  },
+  "G1-374": {
+    "title": "Skriv hv-ordet i sætningen",
+    "instruction": "Læs svaret, og find de markerede ord. Skriv hv-ordet fra ordkassen i feltet."
+  },
+  "G1-375": {
+    "title": "Sortér svarene: hvem, hvad eller hvor",
+    "instruction": "Læs hvert ordkort. Skriv det i kassen under det spørgsmål, det svarer på: hvem, hvad eller hvor."
+  },
+  "G2-356": {
+    "title": "Stil et spørgsmål",
+    "instruction": "Læs svaret. Se på de markerede ord. Skriv det spørgsmål, der spørger efter dem, på linjen."
+  },
+  "G2-357": {
+    "title": "Spørg om billedet: hvorfor og hvordan",
+    "instruction": "Se på billedet. Gør hvert spørgsmål færdigt. Start med det ord, der allerede står på linjen."
+  },
+  "G3-387": {
+    "title": "Rund op eller ned? Sortér tallene",
+    "instruction": "Runder hvert tal op eller ned til nærmeste tier? Skriv tallet i den rigtige kasse."
+  },
+  "G3-388": {
+    "title": "Afrunding til nærmeste 100",
+    "instruction": "Rund hvert tal af til nærmeste hundrede, og skriv det i feltet. Se på cifret på tierpladsen."
+  },
+  "G3-389": {
+    "title": "Rund af først, lav så et overslag over summen",
+    "instruction": "Rund begge tal af til nærmeste tier, og skriv dem i felterne. Læg så de afrundede tal sammen."
+  },
+  "G3-390": {
+    "title": "Hvilke tal bliver til 50?",
+    "instruction": "Sæt ring om hvert tal, der bliver til tieren øverst. Se på cifret på enerpladsen."
+  },
+  "G3-391": {
+    "title": "Afrunding til nærmeste tier og hundrede",
+    "instruction": "Rund hvert tal af to gange: til nærmeste tier i det første felt og til nærmeste hundrede i det andet."
   }
 }

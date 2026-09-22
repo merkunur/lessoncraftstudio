@@ -167,6 +167,12 @@ const PILL_MAX = 151, HALF_SUM_MAX = 125;        // §2 R1 (17 px pills over 117
 const PILL_PAD = 25;                             // padding 10 + 10, border 2.5 + 2.5 (what the measurer reproduces)
 const ZONE_MIN = 220, ZONE_MAX = 260;            // the FIXED line zone (reviewer ruling 2026-09-21); measured dot -> pill = zone + 5
 const ZONE_SPARSE = ZONE_MAX + 5 + 0.6;         // a measured dot-to-pill zone above this reads SPARSE
+// (locale, level) cells that legitimately REFUSE, each with the reason a reviewer can audit. A cell
+// listed here MUST throw (checked below), and any cell NOT listed MUST build — the list may only
+// shrink. The waves ship d2, so a d1/d3 entry costs no deck.
+const LEVEL_REFUSALS = {
+  'sv|3': 'the honest Metallförpackningar bin holds ONE item family (can); saucepan/bolt/nut are non-packaging (återvinningscentralen), so 10 items cannot be dealt two per bin',
+};
 const STAGE_TOP_MAX = 8;                         // the stage sits under the instruction; the slack falls BELOW the bins
 const STAGE_MIN_D2 = 630;                        // reviewer ruling 2 (2026-09-21): the apparatus fills a K page — d2 strip -> bins-bottom >= 630 (built 645)
 const SLACK_MAX_ONE_LINE = 180;                  // and the chrome's slack under the bins <= 180 at the ONE-LINE chrome (811 - 645 = 166)
@@ -544,7 +550,11 @@ function assertRender(name, r, d, opts) {
   ok(r.m.zone <= ZONE_SPARSE, `${name}: line zone ${Math.round(r.m.zone)} px > ${Math.round(ZONE_SPARSE)}: the page reads SPARSE (blank paper between the strip and the bins)`);
   ok(r.m.binHs.every((h) => Math.abs(h - d.binH) < 0.6) && d.binH >= 240, `${name}: bins drawn ${JSON.stringify(r.m.binHs.map(Math.round))} tall ≠ config ${d.binH} (>= 240)`);
   if (d.items === 8) ok(r.m.stageH >= STAGE_MIN_D2 - 0.6, `${name}: stage ${Math.round(r.m.stageH)} px < ${STAGE_MIN_D2} at d2: the apparatus does not fill the page (sparse)`);
-  if (opts && opts.oneLine) ok(r.m.slackBelow <= SLACK_MAX_ONE_LINE + 0.6, `${name}: ${Math.round(r.m.slackBelow)} px of slack under the bins at the one-line chrome > ${SLACK_MAX_ONE_LINE} (sparse)`);
+  // the slack under the bins is measured on EVERY chrome, not only the one-line case. The one-line
+  // body is the TALLER one (811 vs 799), so it is the worst case and the guard was already on it -
+  // but a two-line page whose bins shrank would have been unmeasured. Measured over all 11 locales
+  // x d1-d3 before this line was widened: max 166 against the 180 ceiling, so it convicts nothing.
+  ok(r.m.slackBelow <= SLACK_MAX_ONE_LINE + 0.6, `${name}: ${Math.round(r.m.slackBelow)} px of slack under the bins > ${SLACK_MAX_ONE_LINE} (sparse)`);
   ok(r.m.stageTop != null && r.m.stageTop <= STAGE_TOP_MAX, `${name}: the stage floats ${Math.round(r.m.stageTop)} px below the body top (slack must fall below the bins)`);
   for (const s of r.m.stacks) {
     ok(s.fits, `${name}: the stack (${Math.round(s.stack)} px) overflows the ${s.budget} budget (body pinned to ${Math.round(s.bodyH)})`);
@@ -832,7 +842,9 @@ function assertFace(name, r, d, face, { block, loc, oneLine }) {
       });
     });
     ok(F.stack >= STAGE_MIN_FACE - 0.6, `${name}: stack ${Math.round(F.stack)} < ${STAGE_MIN_FACE}: the apparatus does not fill the page (sparse)`);
-    if (oneLine) ok(F.slack <= SLACK_MAX_ONE_LINE + 0.6, `${name}: ${Math.round(F.slack)} px of slack under the shelves at the one-line chrome > ${SLACK_MAX_ONE_LINE} (sparse)`);
+    // same widening as the bins guard above: measured 0 px on every correct shelves render across
+    // all 11 locales x d1-d3 and both chromes, so checking every chrome convicts nothing.
+    ok(F.slack <= SLACK_MAX_ONE_LINE + 0.6, `${name}: ${Math.round(F.slack)} px of slack under the shelves > ${SLACK_MAX_ONE_LINE} (sparse)`);
     for (const [a, b] of nb) ok(!(fence.ids.has(a) && fence.ids.has(b)), `${name}: ${a} + ${b} on one page`);
     note = `stack ${Math.round(F.stack)} slack ${Math.round(F.slack)} legend ${F.legend.map((e) => e.bin).join(',')} examples ${F.shelves.map((s) => s.examples.map((e) => e.item).join('+')).join(' ')}`;
   } else if (face === 'open') {
@@ -876,7 +888,16 @@ async function main() {
     for (const loc of locales) {
       for (const d of [1, 2, 3]) {
         const strings = mod[loc].strings[BASE_ID];
-        const r = await renderWith(page, TYPE, { difficulty: d, locale: loc, baseName: `K-357-gate-d${d}-${loc}`, strings });
+        const declared = LEVEL_REFUSALS[`${loc}|${d}`];
+        let r;
+        try { r = await renderWith(page, TYPE, { difficulty: d, locale: loc, baseName: `K-357-gate-d${d}-${loc}`, strings }); }
+        catch (e) {
+          if (!declared) throw e;                       // an undeclared cell must build
+          console.log(`render d${d} ${loc}: DECLARED REFUSAL — ${declared}`);
+          continue;
+        }
+        // a declared refusal that suddenly builds means the list has rotted — shrink it deliberately
+        ok(!declared, `d${d} ${loc}: declared a LEVEL_REFUSALS refusal but it BUILDS — drop the entry`);
         const s = assertRender(`d${d} ${loc}`, r, TYPE.difficulty[d], { block: mod[loc], loc, oneLine: loc === 'en' });
         pngs.push(r.png);
         console.log(`render d${d} ${loc}: verify ${r.verify.length} lints ${r.lints.length} icons ${s.minIcon} bins ${r.m.slots.length} x ${s.binW} zone ${s.zone} stack ${s.stack} body ${s.body} slack-below ${s.slack} (zone at 722 ${s.zone722} / 677 ${s.zone677}; fits ${r.m.stacks[0].fits} / ${r.m.stacks[1].fits}) pills ${r.m.pills.map((p) => p.w.toFixed(1)).join('/')}`);
@@ -1112,7 +1133,7 @@ async function main() {
         .replace(/width:84px;height:84px/g, 'width:56px;height:56px'));
       const { r, found } = await gateOf('K-367', 'color', t, FX.de, 'de', FX.de.strings['K-367'], 'PS-F4', true);
       const a = judge('PS-F4 verify', r.verify, /stack \d+ px < 630: the apparatus does not fill the page \(sparse\)/, `stack ${Math.round(r.m.face.stack)}`);
-      const b = judge('PS-F4 one-line slack', found, /px of slack under the shelves at the one-line chrome > 180 \(sparse\)/, `slack ${Math.round(r.m.face.slack)}`);
+      const b = judge('PS-F4 one-line slack', found, /px of slack under the shelves > 180 \(sparse\)/, `slack ${Math.round(r.m.face.slack)}`);
       if (guard) killedF++; if (a) killedF++; if (b) killedF++; }
     // PS-F5 — the design's FIXED 150 draw box in lanes that open to ~260 → verify: the box does not grow
     { const t = patched('G1-365', en, (html) => html.replace(/flex:1 1 150px;min-height:150px/g, 'height:150px'));
@@ -1309,7 +1330,7 @@ async function main() {
       const r = await renderWith(page, Object.assign({}, TYPE, { build(args, ctx) { return t2._buildWith({ global: GLOBAL, block: en }, args, ctx); } }), { difficulty: 2, locale: 'en', baseName: 'K-357-gate-poison-SHORT', strings: en.strings[BASE_ID] });
       const found = collect(() => assertRender('PR-SHORT', r, Object.assign({}, d2, { tile: 72, iconPx: 60, binH: 176, zone: 240 }), { oneLine: true }));
       const a = judge('PR-SHORT stage floor', found, /stage \d+ px < 630 at d2: the apparatus does not fill the page \(sparse\)/, `stage ${Math.round(r.m.stageH)} px, slack ${Math.round(r.m.slackBelow)}`);
-      const b = judge('PR-SHORT one-line slack', found, /px of slack under the bins at the one-line chrome > 180 \(sparse\)/);
+      const b = judge('PR-SHORT one-line slack', found, /px of slack under the bins > 180 \(sparse\)/);
       const c = judge('PR-SHORT verify', r.verify, /binH 176 outside 240\.\.300/);
       if (guard) killed++; if (a) killed++; if (b) killed++; if (c) killed++; }
     // fixtures that must PASS the validator (the it fixture with 'Secco', the es 2-bin lock)

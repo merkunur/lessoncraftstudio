@@ -1,0 +1,46 @@
+{
+  "chips": {
+    "odd": "oddetall",
+    "even": "partall"
+  },
+  "houseOrder": [
+    "even",
+    "odd"
+  ],
+  "rule": "Partall slutter på 0, 2, 4, 6 eller 8. Oddetall slutter på 1, 3, 5, 7 eller 9.",
+  "leftover": "til overs",
+  "pairs": "par",
+  "placeHeads": [
+    "T",
+    "E"
+  ],
+  "nameMaxGraphemes": 6,
+  "strings": {
+    "base": {
+      "title": "Partall og oddetall: hvilket hus?",
+      "instruction": "Skriv hvert tall i huset der det hører hjemme, partall eller oddetall. Tre tall har flyttet inn og viser parene sine."
+    },
+    "proof": {
+      "title": "Partall eller oddetall? Skriv to like tall",
+      "instruction": "Sett ring rundt prikkene to og to. Skriv så tallet som to like deler, og skriv det som blir til overs i den lille ruta."
+    },
+    "share": {
+      "title": "Kan to venner dele likt?",
+      "instruction": "Del bildene likt mellom de to vennene, ett om gangen. Skriv hvor mange hver får og hvor mange som blir til overs. Sett så ring rundt riktig ord."
+    },
+    "ones": {
+      "title": "Partall og oddetall opp til 100: se på enerplassen",
+      "instruction": "Les regelen øverst. Se bare på eneren i hvert tall og sett kryss i sirkelen under partall eller oddetall."
+    },
+    "sums": {
+      "title": "Blir summen partall eller oddetall? Finn ut uten å regne",
+      "instruction": "Ikke regn ut. Se på eneren som er understreket i hvert tall, bruk tabellen, og sett kryss ved riktig svar."
+    },
+    "count": {
+      "title": "Partall eller oddetall? Tell bildene to og to",
+      "instruction": "Tell bildene og sett ring rundt dem to og to. Skriv hvor mange par du fikk, og sett så ring rundt partall eller oddetall."
+    }
+  },
+  "refuse": {},
+  "strand": "Tall og algebra"
+}

@@ -338,5 +338,45 @@
   "division-with-remainder": {
     "full": "Jakojäännös 3. luokalle: ympyröi ryhmät, jaa tasan ja katso, mitä jää yli, harjoittele jakolaskuja jakojäännöksellä, etsi virhe ja hyppää lukusuoralla. Tulostettava PDF.",
     "short": "Jakojäännös: jakolasku, josta jää yli"
+  },
+  "tangram": {
+    "full": "Lapsi leikkaa tangramin seitsemän palaa ja asettelee ne kuvioiksi, piirtää saumat, tunnistaa puuttuvan palan ja laskee kolmiot ja neliöt.",
+    "short": "Tangramin palat kuvioiksi ja saumat näkyviin"
+  },
+  "human-body": {
+    "full": "Lapsi nimeää kehon osat, laskee montako niitä on, värittää ne selitteen mukaan, kirjoittaa nimet kirjainruutuihin ja etsii puuttuvan osan.",
+    "short": "Kehon osien nimet, määrät ja parit"
+  },
+  "five-senses": {
+    "full": "Lapsi yhdistää arjen asiat siihen aistiin ja aistielimeen, jolla ne huomataan, lajittelee kuvat aisteittain ja kirjoittaa omia havaintojaan.",
+    "short": "Viisi aistia ja aistielimet tutuiksi"
+  },
+  "weather-symbols": {
+    "full": "Lapsi lukee säämerkit ja sääsanat, pitää viikon säätaulukkoa, tulkitsee lämpömittaria, lukee sääennusteen ja nimeää veden kiertokulun vaiheet.",
+    "short": "Säämerkit, säätaulukko ja veden kiertokulku"
+  },
+  "recycling": {
+    "full": "Lapsi päättelee, mitä materiaalia esine on, ja lajittelee sen oikeaan astiaan: biojäte, paperi ja kartonki, lasi, metalli tai muovipakkaus.",
+    "short": "Jätteiden lajittelu materiaalin mukaan"
+  },
+  "cloze": {
+    "full": "Lapsi täydentää lauseen puuttuvalla sanalla kuvan ja sanapankin avulla, valitsee kahdesta sanasta oikean, kirjoittaa monikon ja täydentää tarinan.",
+    "short": "Puuttuva sana lauseeseen kuvan avulla"
+  },
+  "odd-and-even": {
+    "full": "Lapsi tunnistaa parilliset ja parittomat luvut pareittain laskemalla, ykkösnumerosta ja jakamalla tasan kahdelle, sekä päättelee summan parillisuuden.",
+    "short": "Parilliset ja parittomat luvut sataan asti"
+  },
+  "pronouns": {
+    "full": "Lapsi korvaa nimen pronominilla hän tai he, lajittelee nimet yksikön ja monikon mukaan ja kirjoittaa lauseen uudelleen pronominia käyttäen.",
+    "short": "Persoonapronominit hän ja he lauseessa"
+  },
+  "question-words": {
+    "full": "Lapsi tunnistaa kysymyssanat kuka, mitä, missä, milloin ja kuinka monta, yhdistää kysymyksen vastaukseen ja kirjoittaa itse kysymyksiä.",
+    "short": "Kysymyssanat ja kysymyksen tekeminen"
+  },
+  "rounding": {
+    "full": "Lapsi pyöristää luvut lähimpään kymmeneen ja sataan, lajittelee ne ylös- ja alaspäin pyöristyviin ja arvioi summan pyöristettyjen lukujen avulla.",
+    "short": "Pyöristäminen kymmeniin ja satoihin"
   }
 }

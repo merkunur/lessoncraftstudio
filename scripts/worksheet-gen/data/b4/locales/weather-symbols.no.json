@@ -1,0 +1,66 @@
+{
+  "symbolWords": {
+    "sun": "sol",
+    "cloud": "sky",
+    "rain": "regn",
+    "storm": "torden",
+    "snow": "snø",
+    "rainbow": "regnbue"
+  },
+  "forecastAsks": {
+    "sun": "Hvilken dag er det sol?",
+    "cloud": "Hvilken dag er det bare skyer?",
+    "rain": "Hvilken dag regner det?",
+    "storm": "Hvilken dag er det torden?",
+    "snow": "Hvilken dag snør det?",
+    "rainbow": "Hvilken dag kommer det en regnbue?"
+  },
+  "cycleLabels": {
+    "evaporation": "fordamping",
+    "condensation": "kondensasjon",
+    "precipitation": "nedbør",
+    "collection": "oppsamling",
+    "runoff": "avrenning"
+  },
+  "bandWords": {
+    "cold": "kaldt",
+    "warm": "varmt",
+    "hot": "hett"
+  },
+  "forecastDays": null,
+  "diaryDays": null,
+  "diaryStart": "mon",
+  "bankWords": {},
+  "distractors": [
+    "vind",
+    "tåke"
+  ],
+  "refuse": [],
+  "strings": {
+    "K-356": {
+      "title": "Værsymboler",
+      "instruction": "Tegn en strek fra hvert værsymbol til ordet som passer."
+    },
+    "G1-362": {
+      "title": "Værsymboler: skriv værordet",
+      "instruction": "Finn ordet for hvert værsymbol i ordbanken og skriv det, én bokstav i hver rute."
+    },
+    "K-364": {
+      "title": "Værdagbok fra mandag til søndag",
+      "instruction": "Se ut hver dag denne uka og tegn værsymbolet for dagen i ruta."
+    },
+    "K-365": {
+      "title": "Er det kaldt, varmt eller hett?",
+      "instruction": "Se på hvert termometer, bruk nøkkelen og sett ring rundt bildet som passer til kaldt, varmt eller hett."
+    },
+    "G3-385": {
+      "title": "Vannets kretsløp: sett navn på tegningen",
+      "instruction": "Les de fire ordene i ordbanken og skriv hvert ord på linja som har samme nummer som på tegningen."
+    },
+    "G1-363": {
+      "title": "Les værmeldingen for uka",
+      "instruction": "Se på været for hele uka, les hvert spørsmål og sett ring rundt riktig dag."
+    }
+  },
+  "strand": "Naturfag"
+}

@@ -1,0 +1,103 @@
+{
+  "bins": [
+    {
+      "key": "madaffald",
+      "label": "Madaffald",
+      "longLabel": "Madaffald: rester fra mad og skræller",
+      "color": null,
+      "colorWord": null,
+      "materials": [
+        "organic"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "papir",
+      "label": "Papir og pap",
+      "longLabel": "Papir og pap: aviser, ark, kuverter og papkasser",
+      "color": null,
+      "colorWord": null,
+      "materials": [
+        "paper",
+        "cardboard"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "plast",
+      "label": "Plast",
+      "longLabel": "Plast: både emballage og hård plast",
+      "color": null,
+      "colorWord": null,
+      "materials": [
+        "plastic"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "glas",
+      "label": "Glas",
+      "longLabel": "Glas: glasflasker og glas fra mad",
+      "color": null,
+      "colorWord": null,
+      "materials": [
+        "glass"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "metal",
+      "label": "Metal",
+      "longLabel": "Metal: dåser, låg, skruer, gryder og pander",
+      "color": null,
+      "colorWord": null,
+      "materials": [
+        "metal"
+      ],
+      "packagingOnly": false
+    }
+  ],
+  "route": {},
+  "excludeItems": {
+    "toothbrush": "En tandbørste er restaffald i Danmark, og der er ingen spand til restaffald på siden.",
+    "bucket": "Ordet spand er spandens eget navn på siden: en spand i tingrækken gør spørgsmålet tvetydigt.",
+    "water": "Plastflasker med pant går tilbage til butikken, ikke i plastspanden."
+  },
+  "materialWords": {
+    "paper": "papir",
+    "cardboard": "pap",
+    "glass": "glas",
+    "plastic": "plast",
+    "metal": "metal"
+  },
+  "colorConvention": null,
+  "refuse": [
+    "color"
+  ],
+  "starters": [],
+  "scheme": "Fem af de ti nationale fraktioner: madaffald, papir og pap, plast, glas og metal. Papir og pap står sammen, fordi de fleste husstande har dem i den samme beholder med to rum. Spandene er tegnet i husets egen farve, fordi den danske standard fastlægger piktogrammet og ikke spandens farve.",
+  "enAudit": "Den engelske instruktion siger \"Each thing is empty or finished\", men den globale bank indeholder gulerod, majs, æble, pære og brød, som hverken er tomme eller brugt op: sætningen passer ikke til madaffaldet, og det gælder alle elleve sprog. Den engelske bank indeholder også en plastflaske med vand og en glasflaske med mælk, som i Danmark og flere andre lande går retur med pant. Endelig hedder den engelske spand \"bin\" og legetøjsspanden \"bucket\": på dansk er begge dele en spand, så et land, der bruger sit almindelige ord for beholderen, får et tvetydigt spørgsmål, medmindre legetøjsspanden tages ud.",
+  "strings": {
+    "K-357": {
+      "title": "Affaldssortering",
+      "instruction": "Alle tingene skal smides ud. Tegn en streg fra hver ting til den spand, den skal i."
+    },
+    "K-366": {
+      "title": "Affaldssortering: hvilken spand?",
+      "instruction": "Se på hver ting, og sæt ring om den spand, den skal i, når den skal smides ud."
+    },
+    "G1-364": {
+      "title": "Affaldssortering: hvad er tingen lavet af?",
+      "instruction": "Hvad er hver ting lavet af? Skriv ordet fra ordkassen på linjen."
+    },
+    "G2-348": {
+      "title": "Affaldssortering: hvilken ting passer ikke?",
+      "instruction": "I hver række er tre ting lavet af det samme. Sæt ring om den ting, der er anderledes."
+    },
+    "G1-365": {
+      "title": "Affaldssortering: tre ting jeg sorterer derhjemme",
+      "instruction": "Tegn tre ting, du sorterer derhjemme, og skriv hvad hver ting er."
+    }
+  },
+  "strand": "Natur/teknologi"
+}

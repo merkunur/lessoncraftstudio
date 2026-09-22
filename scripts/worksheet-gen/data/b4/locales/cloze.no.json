@@ -1,0 +1,868 @@
+{
+  "nameSlot": true,
+  "articleTable": {
+    "m": "en",
+    "f": "en",
+    "n": "et"
+  },
+  "boxWord": "én bokstav i hver rute",
+  "confusable": [
+    [
+      "duck",
+      "goose"
+    ],
+    [
+      "hen",
+      "chick"
+    ],
+    [
+      "bus",
+      "van"
+    ],
+    [
+      "boat",
+      "sailboat"
+    ]
+  ],
+  "agreeingAdjectives": [],
+  "frames": [
+    {
+      "id": "cow-melk",
+      "noun": "cow",
+      "form": "sg",
+      "text": "En {gap} gir oss melk.",
+      "fits": [
+        "cow",
+        "goat"
+      ],
+      "foil": "horse",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "cow"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "pig-gjorme",
+      "noun": "pig",
+      "form": "sg",
+      "text": "En {gap} ruller seg i gjørma og sier nøff.",
+      "fits": [
+        "pig"
+      ],
+      "foil": "cow",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "pig"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "rooster-galer",
+      "noun": "rooster",
+      "form": "sg",
+      "text": "En {gap} galer tidlig om morgenen.",
+      "fits": [
+        "rooster"
+      ],
+      "foil": "hen",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "birds 2",
+        "noun": "rooster"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "owl-uler",
+      "noun": "owl",
+      "form": "sg",
+      "text": "En {gap} uler i treet om natten.",
+      "fits": [
+        "owl"
+      ],
+      "foil": "duck",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "owl"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "bee-honning",
+      "noun": "bee",
+      "form": "sg",
+      "text": "En {gap} lager honning i kuben.",
+      "fits": [
+        "bee"
+      ],
+      "foil": "seagull",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "Things That Fly",
+        "noun": "bee"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "giraffe-lang",
+      "noun": "giraffe",
+      "form": "sg",
+      "text": "En {gap} har veldig lang hals.",
+      "fits": [
+        "giraffe",
+        "swan"
+      ],
+      "foil": "zebra",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "giraffe"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "elephant-snabel",
+      "noun": "elephant",
+      "form": "sg",
+      "text": "En {gap} spruter vann med snabelen.",
+      "fits": [
+        "elephant"
+      ],
+      "foil": "hippopotamus",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "elephant"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "kangaroo-pose",
+      "noun": "kangaroo",
+      "form": "sg",
+      "text": "En {gap} bærer ungen sin i en pose.",
+      "fits": [
+        "kangaroo",
+        "koala"
+      ],
+      "foil": "monkey",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "kangaroo"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "penguin-is",
+      "noun": "penguin",
+      "form": "sg",
+      "text": "En {gap} sklir på magen bortover isen.",
+      "fits": [
+        "penguin",
+        "seal"
+      ],
+      "foil": "duck",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "birds 2",
+        "noun": "penguin"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "zebra-striper",
+      "noun": "zebra",
+      "form": "sg",
+      "text": "En {gap} har svarte og hvite striper.",
+      "fits": [
+        "zebra"
+      ],
+      "foil": "giraffe",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "zebra"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "woodpecker-hakker",
+      "noun": "woodpecker",
+      "form": "sg",
+      "text": "En {gap} hakker hull i stammen.",
+      "fits": [
+        "woodpecker"
+      ],
+      "foil": "owl",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "woodpecker"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "turtle-skall",
+      "noun": "turtle",
+      "form": "sg",
+      "text": "En {gap} gjemmer seg i skallet sitt.",
+      "fits": [
+        "turtle"
+      ],
+      "foil": "rabbit",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "beach",
+        "noun": "turtle"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "rabbit-gulrot",
+      "noun": "rabbit",
+      "form": "sg",
+      "text": "En {gap} hopper og gnager på en gulrot.",
+      "fits": [
+        "rabbit"
+      ],
+      "foil": "fox",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "rabbit"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "tractor-plog",
+      "noun": "tractor",
+      "form": "sg",
+      "text": "En {gap} pløyer åkeren på gården.",
+      "fits": [
+        "tractor"
+      ],
+      "foil": "truck",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "tractor"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "sailboat-seil",
+      "noun": "sailboat",
+      "form": "sg",
+      "text": "En {gap} har seil og glir over vannet.",
+      "fits": [
+        "sailboat"
+      ],
+      "foil": "canoe",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "beach",
+        "noun": "sailboat"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "kite-vind",
+      "noun": "kite",
+      "form": "sg",
+      "text": "{name} flyr med en {gap} i vinden.",
+      "fits": [
+        "kite"
+      ],
+      "foil": "ball",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "toys",
+        "noun": "kite"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "helicopter-propell",
+      "noun": "helicopter",
+      "form": "sg",
+      "text": "Et {gap} har en propell på taket.",
+      "fits": [
+        "helicopter"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "Things That Fly",
+        "noun": "helicopter"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    }
+  ],
+  "plural": [
+    {
+      "id": "cows-fjos",
+      "noun": "cow",
+      "form": "pl",
+      "text": "Tre {gap} sover i fjøset.",
+      "clones": 3,
+      "fits": [
+        "cow",
+        "horse",
+        "pig",
+        "goat",
+        "donkey",
+        "calf",
+        "bull",
+        "llama",
+        "sheep"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "cow"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "bees-blomster",
+      "noun": "bee",
+      "form": "pl",
+      "text": "{gap} summer rundt blomstene.",
+      "clones": null,
+      "fits": [
+        "bee"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "bee"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "ducks-dam",
+      "noun": "duck",
+      "form": "pl",
+      "text": "{gap} kvekker ute på dammen.",
+      "clones": null,
+      "fits": [
+        "duck",
+        "duckling"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "duck"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "horses-galopp",
+      "noun": "horse",
+      "form": "pl",
+      "text": "To {gap} galopperer over jordet.",
+      "clones": 2,
+      "fits": [
+        "horse",
+        "zebra",
+        "donkey"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "horse"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "penguins-vagger",
+      "noun": "penguin",
+      "form": "pl",
+      "text": "{gap} vagger bortover isen.",
+      "clones": null,
+      "fits": [
+        "penguin"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "penguin"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "monkeys-gren",
+      "noun": "monkey",
+      "form": "pl",
+      "text": "{gap} svinger seg fra gren til gren.",
+      "clones": null,
+      "fits": [
+        "monkey",
+        "chimpanzee",
+        "orangutan",
+        "gorilla",
+        "lemur"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "monkey"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "lions-broler",
+      "noun": "lion",
+      "form": "pl",
+      "text": "{gap} brøler høyt i gresset.",
+      "clones": null,
+      "fits": [
+        "lion",
+        "tiger",
+        "jaguar",
+        "leopard"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "lion"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "hens-korn",
+      "noun": "hen",
+      "form": "pl",
+      "text": "{gap} hakker i seg korn på tunet.",
+      "clones": null,
+      "fits": [
+        "hen",
+        "rooster",
+        "chick",
+        "turkey"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "hen"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "balls-bakke",
+      "noun": "ball",
+      "form": "pl",
+      "text": "Tre {gap} triller ned bakken.",
+      "clones": 3,
+      "fits": [
+        "ball"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "toys",
+        "noun": "ball"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "apples-tre",
+      "noun": "apple",
+      "form": "pl",
+      "text": "{gap} henger på greinene i hagen.",
+      "clones": null,
+      "fits": [
+        "apple",
+        "pear",
+        "plum",
+        "orange",
+        "lemon"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "fruits",
+        "noun": "apple"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "cars-vei",
+      "noun": "car",
+      "form": "pl",
+      "text": "To {gap} kjører bortover veien.",
+      "clones": 2,
+      "fits": [
+        "car",
+        "bus",
+        "truck",
+        "van",
+        "taxi",
+        "jeep"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "car"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "rabbits-hage",
+      "noun": "rabbit",
+      "form": "pl",
+      "text": "{gap} hopper rundt i hagen.",
+      "clones": null,
+      "fits": [
+        "rabbit"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "rabbit"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    }
+  ],
+  "stories": [
+    {
+      "id": "gard-morgen",
+      "nouns": [
+        "rooster",
+        "cow",
+        "tractor"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "Tidlig om morgenen galer en {gap}.",
+        "Så melker {name} en {gap}.",
+        "Etterpå kjører {name} en {gap} ut på jordet."
+      ],
+      "fits": [
+        [
+          "rooster"
+        ],
+        [
+          "cow",
+          "goat"
+        ],
+        [
+          "tractor"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "farm animals",
+          "noun": "rooster"
+        },
+        {
+          "theme": "farm animals",
+          "noun": "cow"
+        },
+        {
+          "theme": "vehicles",
+          "noun": "tractor"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "dam-dag",
+      "nouns": [
+        "duck",
+        "turtle",
+        "dog"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "En {gap} kvekker ute på dammen.",
+        "En {gap} sover på en stein i sola.",
+        "Så bjeffer en {gap} og logrer med halen."
+      ],
+      "fits": [
+        [
+          "duck",
+          "duckling"
+        ],
+        [
+          "turtle",
+          "iguana"
+        ],
+        [
+          "dog"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "farm animals",
+          "noun": "duck"
+        },
+        {
+          "theme": "animals",
+          "noun": "turtle"
+        },
+        {
+          "theme": "animals",
+          "noun": "dog"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "dyrepark",
+      "nouns": [
+        "elephant",
+        "giraffe",
+        "monkey"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "I dyreparken spruter en {gap} vann.",
+        "En {gap} spiser blader fra et høyt tre.",
+        "En {gap} svinger seg fra gren til gren."
+      ],
+      "fits": [
+        [
+          "elephant"
+        ],
+        [
+          "giraffe"
+        ],
+        [
+          "monkey",
+          "chimpanzee",
+          "orangutan",
+          "gorilla",
+          "lemur"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "zoo animals",
+          "noun": "elephant"
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "giraffe"
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "monkey"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "himmel-dag",
+      "nouns": [
+        "rocket",
+        "kite",
+        "seagull"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "En {gap} skyter opp mot verdensrommet.",
+        "{name} flyr med en {gap} oppe på haugen.",
+        "En {gap} skriker over stranda."
+      ],
+      "fits": [
+        [
+          "rocket"
+        ],
+        [
+          "kite"
+        ],
+        [
+          "seagull"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "vehicles",
+          "noun": "rocket"
+        },
+        {
+          "theme": "toys",
+          "noun": "kite"
+        },
+        {
+          "theme": "beach",
+          "noun": "seagull"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "strand-dag",
+      "nouns": [
+        "dolphin",
+        "sailboat",
+        "bucket"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "En {gap} hopper ut av bølgene.",
+        "En {gap} har seil og glir over vannet.",
+        "{name} fyller en {gap} med sand."
+      ],
+      "fits": [
+        [
+          "dolphin"
+        ],
+        [
+          "sailboat"
+        ],
+        [
+          "bucket"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "beach",
+          "noun": "dolphin"
+        },
+        {
+          "theme": "beach",
+          "noun": "sailboat"
+        },
+        {
+          "theme": "beach",
+          "noun": "bucket"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "skog-natt",
+      "nouns": [
+        "owl",
+        "fox",
+        "moose"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "En {gap} sitter i eika og sier hu-hu.",
+        "En {gap} sniker seg ut av hiet sitt.",
+        "En {gap} har store gevir på hodet."
+      ],
+      "fits": [
+        [
+          "owl"
+        ],
+        [
+          "fox",
+          "wolf",
+          "bear"
+        ],
+        [
+          "moose"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "forest creatures",
+          "noun": "owl"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "fox"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "moose"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    }
+  ],
+  "strings": {
+    "base": {
+      "title": "Sett inn riktig ord",
+      "instruction": "Se på bildet. Finn ordet som passer i setningen i ordbanken, og skriv det i ruta."
+    },
+    "letters": {
+      "title": "Sett inn riktig ord: én bokstav i hver rute",
+      "instruction": "Se på bildet. Skriv ordet som mangler i rutene, én bokstav i hver rute."
+    },
+    "choice": {
+      "title": "Sett inn riktig ord: velg mellom to ord",
+      "instruction": "Se på bildet og les setningen. Sett ring rundt ordet som passer, og skriv det."
+    },
+    "plural": {
+      "title": "Sett inn riktig ord: flere enn én",
+      "instruction": "Se på bildene. Det er flere enn én. Skriv ordet for flere i ruta."
+    },
+    "story": {
+      "title": "Sett inn riktig ord i fortellingen",
+      "instruction": "Les hele fortellingen. De tre bildene viser ordene som mangler. Skriv hvert ord fra ordbanken."
+    },
+    "match": {
+      "title": "Hvilket bilde passer til setningen?",
+      "instruction": "Les hver setning. Hvilket bilde passer i luka? Tegn en strek fra setningen til bildet."
+    }
+  },
+  "refuse": {
+    "plural": false
+  }
+}

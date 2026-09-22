@@ -1,0 +1,28 @@
+{
+  "strings": {
+    "K-353": {
+      "title": "Tangram-malli: 7 palaa ja kaksi kuviota",
+      "instruction": "Väritä jokainen pala mallin mukaan, leikkaa seitsemän palaa viivoja pitkin ja asettele ne kahden kuvion päälle."
+    },
+    "compose": {
+      "title": "Helpot tangram-kuviot 2 ja 3 palasta: piirrä viivat",
+      "instruction": "Katso kuvion yläpuolella olevia paloja. Piirrä kuvion sisään viivat, jotka näyttävät, mihin palat osuvat."
+    },
+    "silhouette": {
+      "title": "Tangram: neljä varjokuviota rakennettavaksi",
+      "instruction": "Rakenna jokainen tumma kuvio oman tangramisi seitsemällä palalla. Käytä joka kerralla kaikki seitsemän palaa."
+    },
+    "missing": {
+      "title": "Tangram: mikä pala puuttuu?",
+      "instruction": "Jokaisesta kuviosta puuttuu yksi pala. Ympyröi se pala, joka sopii tyhjään kohtaan tarkalleen."
+    },
+    "match": {
+      "title": "Tangram: mikä ratkaisu on sama kuin varjo?",
+      "instruction": "Katso jokaista varjoa. Ympyröi ratkaisu, joka on täsmälleen varjon asennossa. Käännetyt eivät sovi."
+    },
+    "count": {
+      "title": "Tangram: laske kolmiot ja neliöt",
+      "instruction": "Laske jokaisen kuvan kolmiot ja kirjoita luku ensimmäiseen ruutuun. Laske sitten neliöt toiseen ruutuun."
+    }
+  }
+}

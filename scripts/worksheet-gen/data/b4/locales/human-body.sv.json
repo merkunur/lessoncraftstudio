@@ -1,0 +1,123 @@
+{
+  "partWords": {
+    "head": "huvud",
+    "hair": "hår",
+    "eye": "öga",
+    "ear": "öra",
+    "nose": "näsa",
+    "mouth": "mun",
+    "neck": "hals",
+    "shoulder": "axel",
+    "arm": "arm",
+    "elbow": "armbåge",
+    "hand": "hand",
+    "finger": "finger",
+    "leg": "ben",
+    "knee": "knä",
+    "foot": "fot",
+    "toe": "tå"
+  },
+  "overrides": {},
+  "bankWords": {
+    "head": "huvud",
+    "hair": "hår",
+    "eye": "öga",
+    "ear": "öra",
+    "nose": "näsa",
+    "mouth": "mun",
+    "neck": "hals",
+    "shoulder": "axel",
+    "arm": "arm",
+    "elbow": "armbåge",
+    "hand": "hand",
+    "finger": "finger",
+    "leg": "ben",
+    "knee": "knä",
+    "foot": "fot",
+    "toe": "tå"
+  },
+  "plural": {
+    "head": "huvuden",
+    "hair": "hår",
+    "eye": "ögon",
+    "ear": "öron",
+    "nose": "näsor",
+    "mouth": "munnar",
+    "neck": "halsar",
+    "shoulder": "axlar",
+    "arm": "armar",
+    "elbow": "armbågar",
+    "hand": "händer",
+    "finger": "fingrar",
+    "leg": "ben",
+    "knee": "knän",
+    "foot": "fötter",
+    "toe": "tår"
+  },
+  "factLabels": {
+    "head": "Hur många huvuden?",
+    "hair": "Hur mycket hår?",
+    "eye": "Hur många ögon?",
+    "ear": "Hur många öron?",
+    "nose": "Hur många näsor?",
+    "mouth": "Hur många munnar?",
+    "neck": "Hur många halsar?",
+    "shoulder": "Hur många axlar?",
+    "arm": "Hur många armar?",
+    "elbow": "Hur många armbågar?",
+    "hand": "Hur många händer?",
+    "finger": "Hur många fingrar?",
+    "leg": "Hur många ben?",
+    "knee": "Hur många knän?",
+    "foot": "Hur många fötter?",
+    "toe": "Hur många tår?",
+    "fingersOneHand": "Hur många fingrar på en hand?",
+    "toesOneFoot": "Hur många tår på en fot?"
+  },
+  "use": {
+    "head": "Med huvudet tänker du.",
+    "hair": "Håret håller huvudet varmt.",
+    "eye": "Med ögonen ser du.",
+    "ear": "Med öronen hör du.",
+    "nose": "Med näsan luktar du.",
+    "mouth": "Med munnen äter och pratar du.",
+    "neck": "Halsen vrider huvudet.",
+    "shoulder": "På axlarna bär du ryggsäcken.",
+    "arm": "Med armarna kramas du.",
+    "elbow": "Armbågarna böjer armarna.",
+    "hand": "Med händerna håller du saker.",
+    "finger": "Med ett finger pekar du.",
+    "leg": "Med benen springer du.",
+    "knee": "Knäna böjs när du hoppar.",
+    "foot": "På fötterna står du.",
+    "toe": "Tårna hjälper dig att hålla balansen."
+  },
+  "refuseWords": {},
+  "refuse": [],
+  "strings": {
+    "K-354": {
+      "title": "Kroppens delar",
+      "instruction": "Skriv varje ord från ordlistan på linjen som pekar på den delen av kroppen."
+    },
+    "K-360": {
+      "title": "Kroppens delar: hur många har du?",
+      "instruction": "Hur många har du av varje? Räkna på din egen kropp och skriv talet i rutan."
+    },
+    "K-361": {
+      "title": "Kroppens delar: färglägg efter färgrutorna",
+      "instruction": "Läs färgrutorna och färglägg varje del av kroppen i den färg som står bredvid ordet."
+    },
+    "G1-356": {
+      "title": "Kroppens delar: skriv ordet",
+      "instruction": "Leta upp varje numrerad del på figuren och skriv namnet, en bokstav i varje ruta."
+    },
+    "K-362": {
+      "title": "Kroppens delar: vad saknas?",
+      "instruction": "På varje kropp saknas en del. Ringa in bilden på den del som saknas och rita sedan dit den."
+    },
+    "K-363": {
+      "title": "Kroppens delar: vilka har du två av?",
+      "instruction": "Ringa in varje del av kroppen som du har två av."
+    }
+  }
+}

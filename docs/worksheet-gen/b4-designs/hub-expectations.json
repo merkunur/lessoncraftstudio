@@ -73,11 +73,11 @@
    "pt": 6,
    "fr": 6,
    "it": 6,
-   "nl": 6,
-   "sv": 6,
-   "da": 6,
+   "nl": 5,
+   "sv": 5,
+   "da": 5,
    "no": 6,
-   "fi": 6
+   "fi": 5
   },
   "cloze": {
    "en": 6,
@@ -205,11 +205,11 @@
    "pt": 6,
    "fr": 6,
    "it": 6,
-   "nl": 6,
-   "sv": 6,
-   "da": 6,
+   "nl": 5,
+   "sv": 5,
+   "da": 5,
    "no": 6,
-   "fi": 6
+   "fi": 5
   },
   "cloze": {
    "en": 6,
@@ -282,7 +282,7 @@
   "human-body": "CONFIRMED (final 2026-09-21): no face refused; per-WORD refusals only (fr `eye` on F3, es/pt/it `toe` on F3); contingency fr `œ` glyph check",
   "five-senses": "CONFIRMED (final 2026-09-21): no face refused; the de/fr/es/pt/it \"I can …\" starter frame rewritten (bare present) not refused; 45-item bank (38 strong + 7 signed)",
   "weather-symbols": "CONFIRMED (final 2026-09-21): no refusal; contingency = a base word wider than 226 px would drop that locale to 5 (expected 0; the validator measures)",
-  "recycling": "CONFIRMED (final 2026-09-21): en F4 colour-the-bins REFUSED (no national colour convention; a classroom key = K-241); it/nl/sv/da/no F4 contingent on national colour tokens [NSR]; de/es/pt/fr/fi confirmed",
+  "recycling": "BUILT (panels 2026-09-22): F4 colour-the-bins ships ONLY where a genuine national per-fraction colour convention exists — de/es/pt/fr/it/no (6). REFUSED en (a classroom key = K-241) · nl (no national colour for glas) · sv (an honest packaging-only Metall bin holds ONE item family, under F4's two-example floor — the colours themselves are national) · da (Denmark standardises the PICTOGRAM, not a colour per fraction) · fi (KIVO/Rinki marks differ by waste company, and the merged Paperi+kartonki bin has no one honest colour). fi overturns the design's \"confirmed\"; it/no confirmed theirs",
   "cloze": "CONFIRMED (final 2026-09-21): da F3 plural gap REFUSED (the `singular-plural` head \"Ental og flertal\" owns the only honest da title); nl re-targets the base head (\"Zin bij het plaatje\" / \"zinnen aanvullen\"), no row lost",
   "odd-and-even": "CONFIRMED (final 2026-09-21): no refusal; F5 = count pictures in pairs (11-18) on lanes, PARAM-999 recorded as a spare; the OA strand row renders pt/sv/nl wrongly → per-locale strand literal from the design table",
   "pronouns": "CONFIRMED (final 2026-09-21): possessives refused es (`su` invariant) + fi (`hänen`/suffix); fr/es/pt base + pt F3 need `singles:4, pairs:4`; fi bank 16 names; validator caps fi base/F1 titles at 3 lines",

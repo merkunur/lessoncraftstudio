@@ -1,0 +1,28 @@
+{
+  "strings": {
+    "K-353": {
+      "title": "Tangram: klip de 7 brikker ud og læg to figurer",
+      "instruction": "Farvelæg brikkerne som i farveforklaringen, klip dem ud langs stregerne, og læg dem præcis på de to figurer nedenunder."
+    },
+    "compose": {
+      "title": "Nemme tangramfigurer af 2 og 3 brikker: tegn stregerne",
+      "instruction": "Se på brikkerne over hver figur. Tegn stregerne inde i figuren, der hvor brikkerne mødes."
+    },
+    "silhouette": {
+      "title": "Tangramfigurer: læg fire skyggebilleder",
+      "instruction": "Læg hvert mørkt skyggebillede med de syv brikker fra dit tangram. Brug alle syv brikker hver gang."
+    },
+    "missing": {
+      "title": "Tangramfigurer: hvilken brik mangler?",
+      "instruction": "Der mangler en brik i hver figur. Sæt ring om den brik, der passer præcis i det tomme felt."
+    },
+    "match": {
+      "title": "Tangramfigurer: hvilken løsning passer til skyggen?",
+      "instruction": "Se på hver skygge. Sæt ring om den løsning, der ligger præcis som skyggen. Drejede eller spejlvendte figurer passer ikke."
+    },
+    "count": {
+      "title": "Tangram: tæl trekanter og kvadrater",
+      "instruction": "Tæl trekanterne i hvert billede, og skriv tallet i det første felt. Tæl så kvadraterne til det andet."
+    }
+  }
+}

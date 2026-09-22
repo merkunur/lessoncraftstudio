@@ -1,0 +1,132 @@
+{
+  "bins": [
+    {
+      "key": "papir",
+      "label": "Papir",
+      "longLabel": "Papir og papp",
+      "color": "codeBlue",
+      "colorWord": "blå",
+      "materials": [
+        "paper",
+        "cardboard"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "plast",
+      "label": "Plast",
+      "longLabel": "Plastemballasje",
+      "color": "codePurple",
+      "colorWord": "lilla",
+      "materials": [
+        "plastic"
+      ],
+      "packagingOnly": true
+    },
+    {
+      "key": "glassmetall",
+      "label": "Glass/metall",
+      "longLabel": "Glass- og metallemballasje",
+      "color": "codeOrange",
+      "colorWord": "oransje",
+      "materials": [
+        "glass",
+        "metal"
+      ],
+      "packagingOnly": true
+    },
+    {
+      "key": "matavfall",
+      "label": "Matavfall",
+      "longLabel": "Matavfall",
+      "color": "codeGreen",
+      "colorWord": "grønn",
+      "materials": [
+        "organic"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "restavfall",
+      "label": "Restavfall",
+      "longLabel": "Restavfall",
+      "color": "inkSoft",
+      "colorWord": "grå",
+      "materials": [
+        "plastic",
+        "metal"
+      ],
+      "packagingOnly": false
+    }
+  ],
+  "route": {
+    "toothbrush": {
+      "bin": "restavfall",
+      "reason": "Ikke emballasje: en tannbørste skal i restavfallet, ikke i plastemballasjen."
+    },
+    "comb": {
+      "bin": "restavfall",
+      "reason": "Ikke emballasje: en kam skal i restavfallet."
+    },
+    "spoon": {
+      "bin": "restavfall",
+      "reason": "Plastskje uten emballasje: restavfall, for plastdunken tar bare emballasje."
+    },
+    "bucket": {
+      "bin": "restavfall",
+      "reason": "En ødelagt lekebøtte er ikke emballasje: restavfall."
+    },
+    "bolt": {
+      "bin": "restavfall",
+      "reason": "Små metallbiter uten emballasje kastes i restavfallet; glass- og metalldunken tar bare emballasje."
+    },
+    "nut": {
+      "bin": "restavfall",
+      "reason": "Små metallbiter uten emballasje kastes i restavfallet; glass- og metalldunken tar bare emballasje."
+    }
+  },
+  "excludeItems": {
+    "water": "Panteflaske: PET-flaska leveres i pantemaskinen på butikken, ikke i en dunk hjemme.",
+    "milk": "Melk kommer i kartong i Norge. En glassflaske med melk blir lest som kartong og hører ikke hjemme på et norsk sorteringsark.",
+    "saucepan": "Metallskrap: en kasserolle leveres på gjenvinningsstasjonen, ikke i noen dunk hjemme."
+  },
+  "materialWords": {
+    "paper": "papir",
+    "cardboard": "papp",
+    "glass": "glass",
+    "plastic": "plast",
+    "metal": "metall"
+  },
+  "colorConvention": "national",
+  "refuse": [],
+  "starters": [],
+  "scheme": "Fem dunker som hjemme: papir og papp, plastemballasje, glass- og metallemballasje, matavfall og restavfall. Glass og metall samles sammen i Norge. Fargene følger den nasjonale sorteringsmerkingen (blå, lilla, oransje, grønn og grå); selve dunkene og posene kan ha andre farger fra kommune til kommune.",
+  "enAudit": "Den engelske blokka lar «water» (en PET-flaske) og «milk» (en glassflaske) ligge som vanlige ting, mens scheme-setningen bare nevner single-stream. Ti amerikanske delstater har panteordning, så den samme feilen den tyske panelet fant for Pfand finnes også i kilden, uten et ord om det. Den engelske K-367-raden ligger dessuten fortsatt i tools/b4var-rows/recycling.js selv om en refuses, så build-en lager en streng ingen en-bølge kan bruke.",
+  "strings": {
+    "K-357": {
+      "title": "Kildesortering",
+      "instruction": "Hver ting er tom eller ferdig brukt. Tegn en strek fra tingen til dunken den skal i."
+    },
+    "K-366": {
+      "title": "Kildesortering: hvilken dunk?",
+      "instruction": "Se på hver ting og sett ring rundt dunken den skal i når den er tom eller ferdig brukt."
+    },
+    "G1-364": {
+      "title": "Kildesortering: hva er det laget av?",
+      "instruction": "Hva er hver ting laget av? Skriv ordet fra ordbanken på linja."
+    },
+    "G2-348": {
+      "title": "Kildesortering: finn den som skiller seg ut",
+      "instruction": "I hver rad er tre ting laget av det samme. Sett ring rundt den ene som er annerledes."
+    },
+    "K-367": {
+      "title": "Kildesortering: fargelegg dunkene",
+      "instruction": "Les navnet på hver dunk og fargelegg den i fargen som står i fargenøkkelen."
+    },
+    "G1-365": {
+      "title": "Kildesortering: tre ting jeg sorterer hjemme",
+      "instruction": "Tegn tre ting du sorterer hjemme, og skriv hva hver av dem er."
+    }
+  },
+  "strand": "Naturfag"
+}

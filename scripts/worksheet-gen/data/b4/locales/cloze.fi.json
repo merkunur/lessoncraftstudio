@@ -1,0 +1,829 @@
+{
+  "nameSlot": false,
+  "articleTable": null,
+  "boxWord": "yksi kirjain ruutuun",
+  "confusable": [
+    [
+      "hen",
+      "chicken"
+    ],
+    [
+      "boat",
+      "sailboat"
+    ],
+    [
+      "bus",
+      "car"
+    ]
+  ],
+  "agreeingAdjectives": [],
+  "frames": [
+    {
+      "id": "cow-milk",
+      "noun": "cow",
+      "form": "sg",
+      "text": "Maatilalla {gap} antaa meille maitoa.",
+      "fits": [
+        "cow",
+        "goat"
+      ],
+      "foil": "horse",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "cow"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "pig-mud",
+      "noun": "pig",
+      "form": "sg",
+      "text": "Aitauksessa {gap} rypee mudassa.",
+      "fits": [
+        "pig"
+      ],
+      "foil": "cow",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "pig"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "rooster-crow",
+      "noun": "rooster",
+      "form": "sg",
+      "text": "Aamulla {gap} kiekuu kovaa.",
+      "fits": [
+        "rooster"
+      ],
+      "foil": "hen",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "birds 2",
+        "noun": "rooster"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "owl-hoot",
+      "noun": "owl",
+      "form": "sg",
+      "text": "Yöllä {gap} huhuilee puussa.",
+      "fits": [
+        "owl"
+      ],
+      "foil": "duck",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "owl"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "bee-honey",
+      "noun": "bee",
+      "form": "sg",
+      "text": "Pesässä {gap} tekee hunajaa.",
+      "fits": [
+        "bee"
+      ],
+      "foil": "bat",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "Things That Fly",
+        "noun": "bee"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "giraffe-neck",
+      "noun": "giraffe",
+      "form": "sg",
+      "text": "Pitkällä kaulallaan {gap} syö lehtiä.",
+      "fits": [
+        "giraffe"
+      ],
+      "foil": "zebra",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "giraffe"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "elephant-trunk",
+      "noun": "elephant",
+      "form": "sg",
+      "text": "Kärsällään {gap} suihkuttaa vettä.",
+      "fits": [
+        "elephant"
+      ],
+      "foil": "rhinoceros",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "elephant"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "kangaroo-pouch",
+      "noun": "kangaroo",
+      "form": "sg",
+      "text": "Pussissaan {gap} kantaa poikastaan.",
+      "fits": [
+        "kangaroo",
+        "koala"
+      ],
+      "foil": "monkey",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "kangaroo"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "penguin-ice",
+      "noun": "penguin",
+      "form": "sg",
+      "text": "Jäällä {gap} liukuu vatsallaan.",
+      "fits": [
+        "penguin",
+        "seal"
+      ],
+      "foil": "swan",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "birds 2",
+        "noun": "penguin"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "zebra-stripes",
+      "noun": "zebra",
+      "form": "sg",
+      "text": "Kuvassa {gap} on mustavalkoraidallinen.",
+      "fits": [
+        "zebra"
+      ],
+      "foil": "giraffe",
+      "predicateKind": "copula",
+      "pic": {
+        "theme": "animals",
+        "noun": "zebra"
+      },
+      "picOpened": true,
+      "signedExclusive": true,
+      "exclusiveWhy": "Seepra on kuvapankin ainoa mustavalkoraidallinen eläin: kirahvi on täpläinen, tiikeri oranssiraidallinen ja kilpikonna ruskea."
+    },
+    {
+      "id": "woodpecker-tree",
+      "noun": "woodpecker",
+      "form": "sg",
+      "text": "Puunrungossa {gap} nakuttaa reikiä.",
+      "fits": [
+        "woodpecker"
+      ],
+      "foil": "owl",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "woodpecker"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "turtle-shell",
+      "noun": "turtle",
+      "form": "sg",
+      "text": "Vaarassa {gap} piiloutuu kilpeensä.",
+      "fits": [
+        "turtle"
+      ],
+      "foil": "rabbit",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "beach",
+        "noun": "turtle"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "rabbit-carrot",
+      "noun": "rabbit",
+      "form": "sg",
+      "text": "Pihalla {gap} nakertaa porkkanaa.",
+      "fits": [
+        "rabbit"
+      ],
+      "foil": "fox",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "rabbit"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "tractor-plow",
+      "noun": "tractor",
+      "form": "sg",
+      "text": "Pellolla {gap} kyntää maata.",
+      "fits": [
+        "tractor"
+      ],
+      "foil": "bus",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "tractor"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "helicopter-blades",
+      "noun": "helicopter",
+      "form": "sg",
+      "text": "Ilmassa {gap} pysyy pyörivien siipien avulla.",
+      "fits": [
+        "helicopter"
+      ],
+      "foil": "airplane",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "Things That Fly",
+        "noun": "helicopter"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "train-tracks",
+      "noun": "train",
+      "form": "sg",
+      "text": "Kiskoilla {gap} kulkee eteenpäin.",
+      "fits": [
+        "train"
+      ],
+      "foil": "car",
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "train"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    }
+  ],
+  "plural": [
+    {
+      "id": "cows-barn",
+      "noun": "cow",
+      "form": "pl",
+      "text": "Navetassa {gap} nukkuvat.",
+      "clones": null,
+      "fits": [
+        "cow",
+        "horse",
+        "goat",
+        "donkey",
+        "calf",
+        "foal",
+        "llama"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "cow"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "bees-flowers",
+      "noun": "bee",
+      "form": "pl",
+      "text": "Kukkien ympärillä {gap} surisevat.",
+      "clones": null,
+      "fits": [
+        "bee"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "forest creatures",
+        "noun": "bee"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "swans-pond",
+      "noun": "swan",
+      "form": "pl",
+      "text": "Lammessa {gap} uivat rauhassa.",
+      "clones": null,
+      "fits": [
+        "swan"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "swan"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "horses-gallop",
+      "noun": "horse",
+      "form": "pl",
+      "text": "Niityllä {gap} laukkaavat.",
+      "clones": null,
+      "fits": [
+        "horse",
+        "foal",
+        "zebra",
+        "donkey"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "horse"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "penguins-waddle",
+      "noun": "penguin",
+      "form": "pl",
+      "text": "Jäällä {gap} tallustavat.",
+      "clones": null,
+      "fits": [
+        "penguin"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "animals",
+        "noun": "penguin"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "bats-cave",
+      "noun": "bat",
+      "form": "pl",
+      "text": "Luolassa {gap} roikkuvat ylösalaisin.",
+      "clones": null,
+      "fits": [
+        "bat"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "Things That Fly",
+        "noun": "bat"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "monkeys-swing",
+      "noun": "monkey",
+      "form": "pl",
+      "text": "Puussa {gap} kiipeilevät oksilla.",
+      "clones": null,
+      "fits": [
+        "monkey",
+        "chimpanzee",
+        "gorilla"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "monkey"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "blueberries-blue",
+      "noun": "blueberry",
+      "form": "pl",
+      "text": "Kuvassa {gap} ovat pieniä ja sinisiä.",
+      "clones": null,
+      "fits": [
+        "blueberry"
+      ],
+      "predicateKind": "copula",
+      "pic": {
+        "theme": "fruits",
+        "noun": "blueberry"
+      },
+      "picOpened": true,
+      "signedExclusive": true,
+      "exclusiveWhy": "Mustikka on kuvapankin ainoa pieni sininen marja: vadelma ja mansikka ovat punaisia eikä mustaherukkaa ole mukana."
+    },
+    {
+      "id": "airplanes-runway",
+      "noun": "airplane",
+      "form": "pl",
+      "text": "Lentokentällä {gap} laskeutuvat.",
+      "clones": null,
+      "fits": [
+        "airplane",
+        "jet"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "vehicles",
+        "noun": "airplane"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "lions-roar",
+      "noun": "lion",
+      "form": "pl",
+      "text": "Ruohikossa {gap} karjuvat kovaa.",
+      "clones": null,
+      "fits": [
+        "lion",
+        "tiger"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "zoo animals",
+        "noun": "lion"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "hens-seeds",
+      "noun": "hen",
+      "form": "pl",
+      "text": "Pihalla {gap} nokkivat siemeniä.",
+      "clones": null,
+      "fits": [
+        "hen",
+        "chicken",
+        "rooster",
+        "chick",
+        "turkey"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "farm animals",
+        "noun": "hen"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "balls-hill",
+      "noun": "ball",
+      "form": "pl",
+      "text": "Mäkeä alas {gap} vierivät.",
+      "clones": null,
+      "fits": [
+        "ball"
+      ],
+      "predicateKind": "verb",
+      "pic": {
+        "theme": "toys",
+        "noun": "ball"
+      },
+      "picOpened": true,
+      "signedExclusive": true
+    }
+  ],
+  "stories": [
+    {
+      "id": "farm-morning",
+      "nouns": [
+        "rooster",
+        "cow",
+        "tractor"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "Aamulla {gap} kiekuu.",
+        "Navetassa {gap} ammuu.",
+        "Lopuksi {gap} lähtee pellolle."
+      ],
+      "fits": [
+        [
+          "rooster"
+        ],
+        [
+          "cow"
+        ],
+        [
+          "tractor"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "farm animals",
+          "noun": "rooster"
+        },
+        {
+          "theme": "farm animals",
+          "noun": "cow"
+        },
+        {
+          "theme": "vehicles",
+          "noun": "tractor"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "pond-day",
+      "nouns": [
+        "swan",
+        "fish",
+        "dog"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "Lammessa {gap} liukuu rauhassa.",
+        "Veden alla {gap} ui.",
+        "Sitten {gap} haukkuu iloisesti."
+      ],
+      "fits": [
+        [
+          "swan"
+        ],
+        [
+          "fish"
+        ],
+        [
+          "dog"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "animals",
+          "noun": "swan"
+        },
+        {
+          "theme": "animals",
+          "noun": "fish"
+        },
+        {
+          "theme": "animals",
+          "noun": "dog"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "zoo-visit",
+      "nouns": [
+        "elephant",
+        "giraffe",
+        "monkey"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "Eläintarhassa {gap} suihkuttaa vettä.",
+        "Korkealta puusta {gap} syö lehtiä.",
+        "Oksalta oksalle {gap} kiipeilee."
+      ],
+      "fits": [
+        [
+          "elephant"
+        ],
+        [
+          "giraffe"
+        ],
+        [
+          "monkey",
+          "chimpanzee",
+          "gorilla"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "zoo animals",
+          "noun": "elephant"
+        },
+        {
+          "theme": "animals",
+          "noun": "giraffe"
+        },
+        {
+          "theme": "zoo animals",
+          "noun": "monkey"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "sky-day",
+      "nouns": [
+        "airplane",
+        "rocket",
+        "kite"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "Pilvien yläpuolella {gap} lentää.",
+        "Kohti avaruutta {gap} kiitää.",
+        "Tuulessa {gap} liitää korkealla."
+      ],
+      "fits": [
+        [
+          "airplane",
+          "jet"
+        ],
+        [
+          "rocket"
+        ],
+        [
+          "kite"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "vehicles",
+          "noun": "airplane"
+        },
+        {
+          "theme": "vehicles",
+          "noun": "rocket"
+        },
+        {
+          "theme": "toys",
+          "noun": "kite"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "beach-day",
+      "nouns": [
+        "dolphin",
+        "seagull",
+        "sailboat"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "Aalloista {gap} hyppää ilmaan.",
+        "Hiekkarannan yllä {gap} kirkuu.",
+        "Tuulen mukana {gap} purjehtii."
+      ],
+      "fits": [
+        [
+          "dolphin",
+          "whale"
+        ],
+        [
+          "seagull"
+        ],
+        [
+          "sailboat"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "beach",
+          "noun": "dolphin"
+        },
+        {
+          "theme": "beach",
+          "noun": "seagull"
+        },
+        {
+          "theme": "beach",
+          "noun": "sailboat"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    },
+    {
+      "id": "forest-night",
+      "nouns": [
+        "owl",
+        "fox",
+        "rabbit"
+      ],
+      "forms": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "text": [
+        "Yöllä {gap} huhuilee tammessa.",
+        "Pesästään {gap} hiipii ulos.",
+        "Puutarhassa {gap} nakertaa porkkanaa."
+      ],
+      "fits": [
+        [
+          "owl"
+        ],
+        [
+          "fox",
+          "wolf",
+          "bear"
+        ],
+        [
+          "rabbit"
+        ]
+      ],
+      "pics": [
+        {
+          "theme": "forest creatures",
+          "noun": "owl"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "fox"
+        },
+        {
+          "theme": "forest creatures",
+          "noun": "rabbit"
+        }
+      ],
+      "picOpened": true,
+      "signedExclusive": true
+    }
+  ],
+  "strings": {
+    "base": {
+      "title": "Täydennä lauseet",
+      "instruction": "Katso kuvaa. Etsi lauseeseen sopiva sana sanapankista ja kirjoita se laatikkoon."
+    },
+    "letters": {
+      "title": "Täydennä lause kirjainruutuihin",
+      "instruction": "Katso kuvaa. Kirjoita puuttuva sana ruutuihin: yksi kirjain ruutuun."
+    },
+    "choice": {
+      "title": "Valitse oikea sana lauseeseen",
+      "instruction": "Katso kuvaa ja lue lause. Ympyröi sopiva sana ja kirjoita se laatikkoon."
+    },
+    "plural": {
+      "title": "Täydennä lause monikossa",
+      "instruction": "Katso kuvia. Niitä on useampi kuin yksi. Kirjoita monikkomuoto laatikkoon."
+    },
+    "story": {
+      "title": "Täydennä tarina",
+      "instruction": "Lue koko tarina. Kolme kuvaa näyttää puuttuvat sanat. Kirjoita jokainen sana pankista omaan laatikkoonsa."
+    },
+    "match": {
+      "title": "Yhdistä lause kuvaan",
+      "instruction": "Lue jokainen lause. Mikä kuva täydentää aukon? Piirrä viiva lauseesta siihen kuvaan."
+    }
+  },
+  "refuse": {
+    "plural": false
+  }
+}

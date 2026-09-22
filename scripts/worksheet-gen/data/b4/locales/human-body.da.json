@@ -1,0 +1,124 @@
+{
+  "partWords": {
+    "head": "hoved",
+    "hair": "hår",
+    "eye": "øje",
+    "ear": "øre",
+    "nose": "næse",
+    "mouth": "mund",
+    "neck": "hals",
+    "shoulder": "skulder",
+    "arm": "arm",
+    "elbow": "albue",
+    "hand": "hånd",
+    "finger": "finger",
+    "leg": "ben",
+    "knee": "knæ",
+    "foot": "fod",
+    "toe": "tå"
+  },
+  "overrides": {},
+  "bankWords": {
+    "head": "hoved",
+    "hair": "hår",
+    "eye": "øje",
+    "ear": "øre",
+    "nose": "næse",
+    "mouth": "mund",
+    "neck": "hals",
+    "shoulder": "skulder",
+    "arm": "arm",
+    "elbow": "albue",
+    "hand": "hånd",
+    "finger": "finger",
+    "leg": "ben",
+    "knee": "knæ",
+    "foot": "fod",
+    "toe": "tå"
+  },
+  "plural": {
+    "head": "hoveder",
+    "hair": "hår",
+    "eye": "øjne",
+    "ear": "ører",
+    "nose": "næser",
+    "mouth": "munde",
+    "neck": "halse",
+    "shoulder": "skuldre",
+    "arm": "arme",
+    "elbow": "albuer",
+    "hand": "hænder",
+    "finger": "fingre",
+    "leg": "ben",
+    "knee": "knæ",
+    "foot": "fødder",
+    "toe": "tæer"
+  },
+  "factLabels": {
+    "head": "Hvor mange hoveder?",
+    "hair": "Hvor meget hår?",
+    "eye": "Hvor mange øjne?",
+    "ear": "Hvor mange ører?",
+    "nose": "Hvor mange næser?",
+    "mouth": "Hvor mange munde?",
+    "neck": "Hvor mange halse?",
+    "shoulder": "Hvor mange skuldre?",
+    "arm": "Hvor mange arme?",
+    "elbow": "Hvor mange albuer?",
+    "hand": "Hvor mange hænder?",
+    "finger": "Hvor mange fingre?",
+    "leg": "Hvor mange ben?",
+    "knee": "Hvor mange knæ?",
+    "foot": "Hvor mange fødder?",
+    "toe": "Hvor mange tæer?",
+    "fingersOneHand": "Hvor mange fingre på én hånd?",
+    "toesOneFoot": "Hvor mange tæer på én fod?"
+  },
+  "use": {
+    "head": "Du tænker med dit hoved.",
+    "hair": "Dit hår holder hovedet varmt.",
+    "eye": "Du ser med dine øjne.",
+    "ear": "Du hører med dine ører.",
+    "nose": "Du lugter med din næse.",
+    "mouth": "Du spiser og taler med din mund.",
+    "neck": "Din hals drejer hovedet.",
+    "shoulder": "Dine skuldre bærer skoletasken.",
+    "arm": "Du krammer med dine arme.",
+    "elbow": "Dine albuer bøjer armene.",
+    "hand": "Du holder ting med dine hænder.",
+    "finger": "Du peger med en finger.",
+    "leg": "Du løber med dine ben.",
+    "knee": "Dine knæ bøjer, når du hopper.",
+    "foot": "Du står på dine fødder.",
+    "toe": "Dine tæer hjælper dig med at holde balancen."
+  },
+  "refuseWords": {},
+  "refuse": [],
+  "strings": {
+    "K-354": {
+      "title": "Kroppens dele",
+      "instruction": "Skriv hvert ord fra ordkassen på den linje, der peger på den del af kroppen."
+    },
+    "K-360": {
+      "title": "Kroppens dele: hvor mange har du?",
+      "instruction": "Hvor mange har du af hver? Tæl på din egen krop, og skriv tallet i feltet."
+    },
+    "K-361": {
+      "title": "Kroppens dele: farvelæg efter listen",
+      "instruction": "Læs listen, og farvelæg hver del af kroppen med den farve, der står ved navnet."
+    },
+    "G1-356": {
+      "title": "Kroppens dele: skriv ordet",
+      "instruction": "Find hver nummereret del på figuren, og skriv dens navn med ét bogstav i hvert felt."
+    },
+    "K-362": {
+      "title": "Kroppens dele: hvad mangler?",
+      "instruction": "Hver krop mangler en del. Sæt ring om billedet af den del, der mangler, og tegn den på."
+    },
+    "K-363": {
+      "title": "Kroppens dele: hvilke har du to af?",
+      "instruction": "Sæt ring om hver del af kroppen, som du har to af."
+    }
+  },
+  "strand": "Natur/teknologi"
+}

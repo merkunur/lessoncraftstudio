@@ -1,0 +1,66 @@
+{
+  "symbolWords": {
+    "sun": "sol",
+    "cloud": "moln",
+    "rain": "regn",
+    "storm": "åska",
+    "snow": "snö",
+    "rainbow": "regnbåge"
+  },
+  "forecastAsks": {
+    "sun": "Vilken dag skiner solen?",
+    "cloud": "Vilken dag är det molnigt?",
+    "rain": "Vilken dag regnar det?",
+    "storm": "Vilken dag åskar det?",
+    "snow": "Vilken dag snöar det?",
+    "rainbow": "Vilken dag syns en regnbåge?"
+  },
+  "cycleLabels": {
+    "evaporation": "avdunstning",
+    "condensation": "kondensation",
+    "precipitation": "nederbörd",
+    "collection": "uppsamling",
+    "runoff": "avrinning"
+  },
+  "bandWords": {
+    "cold": "kallt",
+    "warm": "varmt",
+    "hot": "hett"
+  },
+  "forecastDays": null,
+  "diaryDays": null,
+  "diaryStart": "mon",
+  "bankWords": {},
+  "distractors": [
+    "vind",
+    "dimma"
+  ],
+  "refuse": [],
+  "strings": {
+    "K-356": {
+      "title": "Vädersymboler",
+      "instruction": "Dra ett streck från varje vädersymbol till ordet som hör till."
+    },
+    "G1-362": {
+      "title": "Skriv väderordet",
+      "instruction": "Leta upp ordet för varje vädersymbol i ordlistan och skriv det, en bokstav i varje ruta."
+    },
+    "K-364": {
+      "title": "Väderdagbok från måndag till söndag",
+      "instruction": "Titta ut varje dag den här veckan och rita vädersymbolen för den dagen i dess ruta."
+    },
+    "K-365": {
+      "title": "Hur varmt är det? Kallt, varmt eller hett",
+      "instruction": "Titta på varje termometer, använd nyckeln och ringa in den bild som passar till kallt, varmt eller hett."
+    },
+    "G3-385": {
+      "title": "Vattnets kretslopp: sätt ut namnen",
+      "instruction": "Läs de fyra orden i ordlistan och skriv varje ord på linjen med samma siffra som på bilden."
+    },
+    "G1-363": {
+      "title": "Läs veckans väderprognos",
+      "instruction": "Titta på vädret för hela veckan, läs varje fråga och ringa in rätt dag."
+    }
+  },
+  "strand": "Naturorienterande ämnen"
+}

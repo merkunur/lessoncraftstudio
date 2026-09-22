@@ -1,0 +1,105 @@
+{
+  "bins": [
+    {
+      "key": "carta",
+      "label": "Carta",
+      "longLabel": "Carta e cartone",
+      "color": "codeBlue",
+      "colorWord": "blu",
+      "materials": [
+        "paper",
+        "cardboard"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "plastica",
+      "label": "Plastica",
+      "longLabel": "Plastica e lattine",
+      "color": "codeYellow",
+      "colorWord": "giallo",
+      "materials": [
+        "plastic",
+        "metal"
+      ],
+      "packagingOnly": true
+    },
+    {
+      "key": "vetro",
+      "label": "Vetro",
+      "longLabel": "Vetro",
+      "color": "codeGreen",
+      "colorWord": "verde",
+      "materials": [
+        "glass"
+      ],
+      "packagingOnly": true
+    },
+    {
+      "key": "umido",
+      "label": "Umido",
+      "longLabel": "Umido, gli scarti di cibo",
+      "color": "codeBrown",
+      "colorWord": "marrone",
+      "materials": [
+        "organic"
+      ],
+      "packagingOnly": false
+    },
+    {
+      "key": "secco",
+      "label": "Secco",
+      "longLabel": "Secco indifferenziato",
+      "color": "inkSoft",
+      "colorWord": "grigio",
+      "materials": [
+        "plastic",
+        "metal"
+      ],
+      "packagingOnly": false
+    }
+  ],
+  "route": {},
+  "excludeItems": {
+    "saucepan": "Una pentola va all'isola ecologica: in pagina non esiste un bidone per lei."
+  },
+  "materialWords": {
+    "paper": "carta",
+    "cardboard": "cartone",
+    "glass": "vetro",
+    "plastic": "plastica",
+    "metal": "metallo"
+  },
+  "colorConvention": "national",
+  "refuse": [],
+  "starters": [],
+  "scheme": "Cinque bidoni: carta e cartone, plastica e lattine, vetro, umido e secco. I colori seguono la norma UNI 11686 (blu, giallo, verde, marrone, grigio), ma cambiano da comune a comune.",
+  "enAudit": "La versione inglese rifiuta la faccia dei colori perché negli Stati Uniti non esiste una norma nazionale: la scelta è corretta e in italiano non si applica, perché la UNI 11686 esiste. Nel blocco inglese la pentola, il bullone e il dado finiscono nel bidone del metallo insieme alle lattine, anche se non sono imballaggi: in Italia questo sarebbe sbagliato. Il campo longLabel inglese 'Compost (food scraps)' usa una parentesi che in italiano rende la pillola meno leggibile.",
+  "strings": {
+    "K-357": {
+      "title": "Raccolta differenziata",
+      "instruction": "Ogni cosa è vuota o finita. Unisci con una linea ogni cosa al bidone in cui va."
+    },
+    "K-366": {
+      "title": "Raccolta differenziata: in quale bidone?",
+      "instruction": "Guarda ogni cosa e cerchia il bidone in cui va quando è vuota o finita."
+    },
+    "G1-364": {
+      "title": "Raccolta differenziata: di che materiale è?",
+      "instruction": "Di che materiale è ogni cosa? Scrivi la parola del riquadro sulla riga."
+    },
+    "G2-348": {
+      "title": "Raccolta differenziata: l'intruso",
+      "instruction": "In ogni riga tre cose sono dello stesso materiale. Cerchia quella diversa."
+    },
+    "K-367": {
+      "title": "Raccolta differenziata: colora i bidoni",
+      "instruction": "Leggi il nome su ogni bidone e coloralo con il colore che mostra la legenda."
+    },
+    "G1-365": {
+      "title": "Raccolta differenziata: tre cose che riciclo",
+      "instruction": "Disegna tre cose che ricicli a casa e scrivi che cosa è ognuna."
+    }
+  },
+  "strand": "Scienze"
+}

@@ -2378,5 +2378,245 @@
   "G3-384": {
     "title": "Salti indietro sulla linea dei numeri: cosa resta?",
     "instruction": "Parti dal numero segnato e disegna salti indietro tutti uguali finché un salto intero non ci sta più. Scrivi i salti e dove arrivi."
+  },
+  "K-353": {
+    "title": "Tangram da ritagliare: 7 pezzi e due figure",
+    "instruction": "Colora ogni pezzo come nella legenda, ritaglia i sette pezzi lungo le linee e posali sulle due figure qui sotto."
+  },
+  "K-354": {
+    "title": "Il corpo umano",
+    "instruction": "Copia ogni parola dal riquadro sulla riga che indica quella parte del corpo."
+  },
+  "K-355": {
+    "title": "I cinque sensi",
+    "instruction": "Unisci con una linea ogni disegno alla parte del corpo che usi per percepirlo."
+  },
+  "K-356": {
+    "title": "Il tempo atmosferico",
+    "instruction": "Unisci con una linea ogni simbolo del tempo alla sua parola."
+  },
+  "K-357": {
+    "title": "Raccolta differenziata",
+    "instruction": "Ogni cosa è vuota o finita. Unisci con una linea ogni cosa al bidone in cui va."
+  },
+  "G1-350": {
+    "title": "Completa le frasi",
+    "instruction": "Guarda il disegno. Cerca nel riquadro la parola che completa la frase e scrivila nella casella."
+  },
+  "G1-351": {
+    "title": "Numeri pari e dispari fino a 20",
+    "instruction": "Scrivi ogni numero nella casa a cui appartiene, la casa dei pari o quella dei dispari. Tre numeri sono già dentro e mostrano le loro coppie."
+  },
+  "G1-352": {
+    "title": "I pronomi personali soggetto",
+    "instruction": "Guarda la persona e leggi il nome. Cerchia la parola che usiamo al posto del nome."
+  },
+  "G1-353": {
+    "title": "Le domande della frase: chi, che cosa, dove",
+    "instruction": "Leggi la frase. Guarda le parole evidenziate. Cerchia la parola che serve per chiederle."
+  },
+  "G2-346": {
+    "title": "Arrotondare i numeri alla decina",
+    "instruction": "Arrotonda ogni numero alla decina e scrivilo nella casella. Se la cifra delle unità è 5 o più, arrotonda per eccesso."
+  },
+  "K-358": {
+    "title": "Tangram facile con 2 e 3 pezzi: disegna le linee",
+    "instruction": "Guarda i pezzi sopra ogni forma. Disegna dentro la forma le linee dove quei pezzi si toccano."
+  },
+  "G1-354": {
+    "title": "Tangram: quattro ombre da costruire",
+    "instruction": "Costruisci ogni figura scura con i sette pezzi del tuo tangram. Usa sempre tutti e sette i pezzi."
+  },
+  "G1-355": {
+    "title": "Tangram: quale pezzo manca?",
+    "instruction": "A ogni figura manca un pezzo. Cerchia il pezzo che entra esattamente nello spazio vuoto."
+  },
+  "G2-347": {
+    "title": "Tangram: quale soluzione è uguale all'ombra?",
+    "instruction": "Guarda ogni ombra. Cerchia la soluzione messa esattamente come l'ombra. Quelle girate o ribaltate non vanno bene."
+  },
+  "K-359": {
+    "title": "Tangram: conta triangoli e quadrati",
+    "instruction": "Conta i triangoli di ogni figura e scrivi il numero nella prima casella. Poi conta i quadrati per la seconda."
+  },
+  "K-360": {
+    "title": "Il corpo umano: quanti ne hai?",
+    "instruction": "Quanti ne hai di ogni parte? Conta sul tuo corpo e scrivi il numero nella casella."
+  },
+  "K-361": {
+    "title": "Il corpo umano: colora con la legenda",
+    "instruction": "Leggi la legenda e colora ogni parte del corpo con il colore scritto accanto al suo nome."
+  },
+  "G1-356": {
+    "title": "Il corpo umano: scrivi la parola",
+    "instruction": "Trova sulla figura ogni parte numerata e scrivi il suo nome, una lettera in ogni casella."
+  },
+  "K-362": {
+    "title": "Il corpo umano: che cosa manca?",
+    "instruction": "A ogni corpo manca una parte. Cerchia il disegno della parte che manca e poi disegnala al suo posto."
+  },
+  "K-363": {
+    "title": "Il corpo umano: quali sono in coppia?",
+    "instruction": "Cerchia ogni parte del corpo che hai in due."
+  },
+  "G1-357": {
+    "title": "I cinque sensi: classifica per senso",
+    "instruction": "Guarda ogni disegno e traccia una linea dal suo punto alla casella del senso che usi."
+  },
+  "G1-358": {
+    "title": "I cinque sensi: quale senso usi?",
+    "instruction": "Quale senso usi per ogni disegno? Cerchia la parte del corpo che usi."
+  },
+  "G1-359": {
+    "title": "I cinque sensi: l'intruso",
+    "instruction": "In ogni riga tre disegni vanno con lo stesso senso. Cancella quello che non ci va."
+  },
+  "G1-360": {
+    "title": "Gli organi di senso: scrivi la parola",
+    "instruction": "Copia ogni parola dal riquadro sulla riga accanto all'organo del corpo che lo fa."
+  },
+  "G1-361": {
+    "title": "Descrivere con i cinque sensi",
+    "instruction": "Completa ogni frase. Scrivi che cosa ascolti, vedi, annusi, assaggi e tocchi."
+  },
+  "G1-362": {
+    "title": "Il tempo atmosferico: scrivi la parola",
+    "instruction": "Trova nel riquadro la parola di ogni simbolo del tempo e scrivila, una lettera in ogni casella."
+  },
+  "K-364": {
+    "title": "Il tempo atmosferico: la mia settimana",
+    "instruction": "Ogni giorno di questa settimana guarda fuori e disegna nella sua casella il simbolo del tempo."
+  },
+  "K-365": {
+    "title": "Il tempo atmosferico: freddo o caldo?",
+    "instruction": "Guarda ogni termometro, usa la chiave per capire se fa freddo, mite o caldo e cerchia il disegno giusto."
+  },
+  "G3-385": {
+    "title": "Ciclo dell'acqua: completa lo schema",
+    "instruction": "Leggi le quattro parole nel riquadro e scrivi ognuna sulla riga che ha lo stesso numero dello schema."
+  },
+  "G1-363": {
+    "title": "Il tempo atmosferico: leggi le previsioni",
+    "instruction": "Guarda il tempo della settimana, leggi ogni domanda e cerchia il giorno giusto."
+  },
+  "K-366": {
+    "title": "Raccolta differenziata: in quale bidone?",
+    "instruction": "Guarda ogni cosa e cerchia il bidone in cui va quando è vuota o finita."
+  },
+  "G1-364": {
+    "title": "Raccolta differenziata: di che materiale è?",
+    "instruction": "Di che materiale è ogni cosa? Scrivi la parola del riquadro sulla riga."
+  },
+  "G2-348": {
+    "title": "Raccolta differenziata: l'intruso",
+    "instruction": "In ogni riga tre cose sono dello stesso materiale. Cerchia quella diversa."
+  },
+  "K-367": {
+    "title": "Raccolta differenziata: colora i bidoni",
+    "instruction": "Leggi il nome su ogni bidone e coloralo con il colore che mostra la legenda."
+  },
+  "G1-365": {
+    "title": "Raccolta differenziata: tre cose che riciclo",
+    "instruction": "Disegna tre cose che ricicli a casa e scrivi che cosa è ognuna."
+  },
+  "G1-366": {
+    "title": "Completa la frase e scrivi la parola",
+    "instruction": "Guarda il disegno. Scrivi la parola che manca nelle caselle. Una lettera in ogni casella."
+  },
+  "G1-367": {
+    "title": "Scegli la parola giusta",
+    "instruction": "Guarda il disegno e leggi la frase. Cerchia la parola che va bene e scrivila nella casella."
+  },
+  "G2-349": {
+    "title": "Completa le frasi al plurale",
+    "instruction": "Guarda i disegni. Ce n'è più di uno. Scrivi nella casella la parola per più di uno."
+  },
+  "G2-350": {
+    "title": "Completa il testo",
+    "instruction": "Leggi tutto il testo. I tre disegni mostrano le parole che mancano. Scrivi ogni parola del riquadro al suo posto."
+  },
+  "G1-368": {
+    "title": "Collega la frase all'immagine",
+    "instruction": "Leggi ogni frase. Quale disegno completa la frase? Unisci con una linea la frase a quel disegno."
+  },
+  "G2-351": {
+    "title": "Pari o dispari? Due addendi uguali",
+    "instruction": "Cerchia i puntini a due a due. Poi scrivi il numero come due parti uguali e scrivi quello che avanza nella casella piccola."
+  },
+  "G1-369": {
+    "title": "Si può dividere in due? Pari o dispari",
+    "instruction": "Dividi i disegni tra i due amici, uno a testa a turno. Scrivi quanti ne riceve ognuno e quanti ne restano, poi cerchia pari o dispari."
+  },
+  "G2-352": {
+    "title": "Numeri pari e dispari fino a 100: guarda le unità",
+    "instruction": "Leggi la regola in alto. Guarda solo la casella delle unità di ogni numero e segna il cerchio sotto pari o dispari."
+  },
+  "G3-386": {
+    "title": "Somma pari o dispari? Senza calcolare",
+    "instruction": "Non fare il calcolo. Guarda la cifra delle unità sottolineata di ogni numero, usa la tabella e segna se la somma è pari o dispari."
+  },
+  "G1-370": {
+    "title": "Pari o dispari? Conta le figure a coppie",
+    "instruction": "Conta le figure e cerchiale a due a due. Scrivi quante coppie hai fatto, poi cerchia pari o dispari."
+  },
+  "G1-371": {
+    "title": "Sostituisci il nome con un pronome",
+    "instruction": "Leggi la frase. Scrivi la parola del riquadro che sostituisce il nome nella seconda frase."
+  },
+  "G2-353": {
+    "title": "Chi è? Il pronome nella frase",
+    "instruction": "Leggi le frasi. Unisci con una linea ogni parola nella casella al nome che rappresenta."
+  },
+  "G2-354": {
+    "title": "Suo, sua o loro?",
+    "instruction": "Guarda di chi è la cosa. Cerchia la parola che mostra a chi appartiene."
+  },
+  "G1-372": {
+    "title": "Ordina i nomi: lui, lei o loro",
+    "instruction": "Leggi ogni cartellino con il nome. Scrivi il nome sotto la parola che usiamo per quella persona."
+  },
+  "G2-355": {
+    "title": "Riscrivi la frase con un pronome",
+    "instruction": "Leggi la frase. Riscrivila sulle righe, ma usa un pronome al posto del nome."
+  },
+  "G1-373": {
+    "title": "Collega la domanda alla risposta",
+    "instruction": "Leggi ogni domanda a sinistra. Unisci con una linea la risposta giusta a destra."
+  },
+  "G1-374": {
+    "title": "Completa la domanda",
+    "instruction": "Leggi la risposta e guarda le parole evidenziate. Scrivi nella casella la parola del riquadro."
+  },
+  "G1-375": {
+    "title": "Chi, che cosa o dove? Ordina le risposte",
+    "instruction": "Leggi ogni cartellino. Scrivilo sotto la domanda a cui risponde: Chi, Che cosa o Dove."
+  },
+  "G2-356": {
+    "title": "Scrivi la domanda",
+    "instruction": "Leggi la risposta. Guarda le parole evidenziate. Scrivi sulla riga la domanda che le chiede."
+  },
+  "G2-357": {
+    "title": "Domande sull'immagine: perché e come",
+    "instruction": "Guarda l'immagine. Completa ogni domanda. Comincia con la parola già scritta sulla riga."
+  },
+  "G3-387": {
+    "title": "Arrotondare per eccesso o per difetto",
+    "instruction": "Ogni numero si arrotonda per eccesso o per difetto alla decina? Scrivilo nel contenitore giusto."
+  },
+  "G3-388": {
+    "title": "Arrotondare i numeri al centinaio",
+    "instruction": "Arrotonda ogni numero al centinaio e scrivilo nella casella. Guarda la cifra delle decine."
+  },
+  "G3-389": {
+    "title": "Arrotondare e stimare la somma",
+    "instruction": "Arrotonda i due numeri alla decina e scrivili nelle caselle. Poi somma i numeri arrotondati."
+  },
+  "G3-390": {
+    "title": "Quali numeri si arrotondano a 50?",
+    "instruction": "Cerchia ogni numero che si arrotonda alla decina scritta in alto. Guarda la cifra delle unità."
+  },
+  "G3-391": {
+    "title": "Arrotondare alla decina e al centinaio",
+    "instruction": "Arrotonda ogni numero due volte: alla decina nella prima casella e al centinaio nella seconda."
   }
 }

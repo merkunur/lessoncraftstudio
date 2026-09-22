@@ -1,0 +1,28 @@
+{
+  "strings": {
+    "K-353": {
+      "title": "Tangram da ritagliare: 7 pezzi e due figure",
+      "instruction": "Colora ogni pezzo come nella legenda, ritaglia i sette pezzi lungo le linee e posali sulle due figure qui sotto."
+    },
+    "compose": {
+      "title": "Tangram facile con 2 e 3 pezzi: disegna le linee",
+      "instruction": "Guarda i pezzi sopra ogni forma. Disegna dentro la forma le linee dove quei pezzi si toccano."
+    },
+    "silhouette": {
+      "title": "Tangram: quattro ombre da costruire",
+      "instruction": "Costruisci ogni figura scura con i sette pezzi del tuo tangram. Usa sempre tutti e sette i pezzi."
+    },
+    "missing": {
+      "title": "Tangram: quale pezzo manca?",
+      "instruction": "A ogni figura manca un pezzo. Cerchia il pezzo che entra esattamente nello spazio vuoto."
+    },
+    "match": {
+      "title": "Tangram: quale soluzione è uguale all'ombra?",
+      "instruction": "Guarda ogni ombra. Cerchia la soluzione messa esattamente come l'ombra. Quelle girate o ribaltate non vanno bene."
+    },
+    "count": {
+      "title": "Tangram: conta triangoli e quadrati",
+      "instruction": "Conta i triangoli di ogni figura e scrivi il numero nella prima casella. Poi conta i quadrati per la seconda."
+    }
+  }
+}

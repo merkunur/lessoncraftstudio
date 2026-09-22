@@ -1,0 +1,43 @@
+{
+  "up": {
+    "10": "per eccesso",
+    "100": "per eccesso"
+  },
+  "down": {
+    "10": "per difetto",
+    "100": "per difetto"
+  },
+  "heads": {
+    "10": "decina",
+    "100": "centinaio"
+  },
+  "relation": "approx",
+  "strings": {
+    "base": {
+      "title": "Arrotondare i numeri alla decina",
+      "instruction": "Arrotonda ogni numero alla decina e scrivilo nella casella. Se la cifra delle unità è 5 o più, arrotonda per eccesso."
+    },
+    "sort": {
+      "title": "Arrotondare per eccesso o per difetto",
+      "instruction": "Ogni numero si arrotonda per eccesso o per difetto alla decina? Scrivilo nel contenitore giusto."
+    },
+    "hundred": {
+      "title": "Arrotondare i numeri al centinaio",
+      "instruction": "Arrotonda ogni numero al centinaio e scrivilo nella casella. Guarda la cifra delle decine."
+    },
+    "estimate": {
+      "title": "Arrotondare e stimare la somma",
+      "instruction": "Arrotonda i due numeri alla decina e scrivili nelle caselle. Poi somma i numeri arrotondati."
+    },
+    "inverse": {
+      "title": "Quali numeri si arrotondano a 50?",
+      "instruction": "Cerchia ogni numero che si arrotonda alla decina scritta in alto. Guarda la cifra delle unità."
+    },
+    "both": {
+      "title": "Arrotondare alla decina e al centinaio",
+      "instruction": "Arrotonda ogni numero due volte: alla decina nella prima casella e al centinaio nella seconda."
+    }
+  },
+  "refuse": [],
+  "strand": "Numeri"
+}

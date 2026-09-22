@@ -3975,120 +3975,140 @@
         "slug": {
           "en": "tangram",
           "de": "tangram",
-          "es": "tangram"
+          "es": "tangram",
+          "it": "tangram"
         },
         "name": {
           "en": "Tangram",
           "de": "Tangram-Figuren",
-          "es": "Tangram"
+          "es": "Tangram",
+          "it": "Tangram"
         }
       },
       "human-body": {
         "slug": {
           "en": "human-body",
           "de": "der-koerper",
-          "es": "el-cuerpo-humano"
+          "es": "el-cuerpo-humano",
+          "it": "il-corpo-umano"
         },
         "name": {
           "en": "Parts of the Body",
           "de": "Der Körper",
-          "es": "El cuerpo humano"
+          "es": "El cuerpo humano",
+          "it": "Il corpo umano"
         }
       },
       "five-senses": {
         "slug": {
           "en": "five-senses",
           "de": "die-fuenf-sinne",
-          "es": "los-cinco-sentidos"
+          "es": "los-cinco-sentidos",
+          "it": "i-cinque-sensi"
         },
         "name": {
           "en": "The Five Senses",
           "de": "Die fünf Sinne",
-          "es": "Los cinco sentidos"
+          "es": "Los cinco sentidos",
+          "it": "I cinque sensi"
         }
       },
       "weather-symbols": {
         "slug": {
           "en": "weather-symbols",
           "de": "wettersymbole",
-          "es": "el-estado-del-tiempo"
+          "es": "el-estado-del-tiempo",
+          "it": "il-tempo-atmosferico"
         },
         "name": {
           "en": "Weather Symbols",
           "de": "Wettersymbole",
-          "es": "El estado del tiempo"
+          "es": "El estado del tiempo",
+          "it": "Il tempo atmosferico"
         }
       },
       "recycling": {
         "slug": {
           "en": "recycling",
           "de": "muelltrennung",
-          "es": "separacion-de-basura"
+          "es": "separacion-de-basura",
+          "it": "raccolta-differenziata"
         },
         "name": {
           "en": "Recycling Sort",
           "de": "Mülltrennung",
-          "es": "Separación de basura"
+          "es": "Separación de basura",
+          "it": "Raccolta differenziata"
         }
       },
       "cloze": {
         "slug": {
           "en": "cloze",
           "de": "lueckentext",
-          "es": "completa-las-oraciones"
+          "es": "completa-las-oraciones",
+          "it": "completa-le-frasi"
         },
         "name": {
           "en": "Fill in the Missing Word",
           "de": "Lückentext",
-          "es": "Completa las oraciones"
+          "es": "Completa las oraciones",
+          "it": "Completa le frasi"
         }
       },
       "odd-and-even": {
         "slug": {
           "en": "odd-and-even",
           "de": "gerade-und-ungerade-zahlen",
-          "es": "numeros-pares-e-impares"
+          "es": "numeros-pares-e-impares",
+          "it": "numeri-pari-e-dispari"
         },
         "name": {
           "en": "Odd and Even Numbers",
           "de": "Gerade und ungerade Zahlen",
-          "es": "Números pares e impares"
+          "es": "Números pares e impares",
+          "it": "Numeri pari e dispari"
         }
       },
       "pronouns": {
         "slug": {
           "en": "pronouns",
           "de": "personalpronomen",
-          "es": "pronombres-personales"
+          "es": "pronombres-personales",
+          "it": "pronomi-personali-soggetto"
         },
         "name": {
           "en": "Personal Pronouns",
           "de": "Personalpronomen",
-          "es": "Pronombres personales"
+          "es": "Pronombres personales",
+          "it": "Pronomi personali soggetto"
         }
       },
       "question-words": {
         "slug": {
           "en": "question-words",
           "de": "w-fragen",
-          "es": "preguntas-con-quien-que-y-donde"
+          "es": "preguntas-con-quien-que-y-donde",
+          "it": "le-domande-della-frase"
         },
         "name": {
           "en": "Question Words",
           "de": "W-Fragen",
-          "es": "Preguntas con quién, qué y dónde"
+          "es": "Preguntas con quién, qué y dónde",
+          "it": "Le domande della frase"
         }
       },
       "rounding": {
         "slug": {
           "en": "rounding",
           "de": "zahlen-runden",
-          "es": "redondeo"
+          "es": "redondeo",
+          "it": "arrotondare-i-numeri"
         },
         "name": {
           "en": "Rounding Numbers",
           "de": "Zahlen runden",
-          "es": "Redondeo"
+          "es": "Redondeo",
+          "it": "Arrotondare i numeri"
         }
       }
     },

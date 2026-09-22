@@ -338,5 +338,45 @@
   "division-with-remainder": {
     "full": "Cerchiare gruppi, distribuire uno alla volta e scrivere la divisione in riga con mucchi che non si dividono esattamente insegna che cos'è il resto e perché è minore del divisore.",
     "short": "Insegna la divisione con il resto passo dopo passo."
+  },
+  "tangram": {
+    "full": "Schede stampabili gratuite di tangram: ritagliare i sette pezzi, comporre figure, riconoscere le forme e contare triangoli e quadrati.",
+    "short": "Comporre figure con i sette pezzi del tangram"
+  },
+  "human-body": {
+    "full": "Schede stampabili gratuite sul corpo umano: scrivere i nomi delle parti del corpo, contarle, colorarle con la legenda e trovare quella che manca.",
+    "short": "Conoscere e nominare le parti del corpo"
+  },
+  "five-senses": {
+    "full": "Schede stampabili gratuite sui cinque sensi: collegare ogni oggetto all'organo giusto, classificare per senso e scrivere le parole vista, udito, olfatto, gusto e tatto.",
+    "short": "Collegare gli oggetti ai cinque sensi"
+  },
+  "weather-symbols": {
+    "full": "Schede stampabili gratuite sul tempo atmosferico: leggere i simboli, scrivere le parole del tempo, tenere il calendario della settimana e completare il ciclo dell'acqua.",
+    "short": "Leggere i simboli del tempo e scriverne le parole"
+  },
+  "recycling": {
+    "full": "Schede stampabili gratuite sulla raccolta differenziata: mettere ogni rifiuto nel bidone giusto, riconoscere i materiali e colorare i bidoni con i colori della norma UNI.",
+    "short": "Mettere ogni rifiuto nel bidone giusto"
+  },
+  "cloze": {
+    "full": "Schede stampabili gratuite per completare le frasi: scegliere o scrivere la parola che manca, con il disegno di aiuto, anche al plurale e in un breve testo.",
+    "short": "Completare la frase con la parola che manca"
+  },
+  "odd-and-even": {
+    "full": "Schede stampabili gratuite sui numeri pari e dispari: fino a 20 e fino a 100, con le coppie, la regola delle unità e le somme pari o dispari.",
+    "short": "Riconoscere i numeri pari e dispari"
+  },
+  "pronouns": {
+    "full": "Schede stampabili gratuite sui pronomi personali soggetto: lui, lei e loro al posto del nome, il pronome nella frase e i possessivi suo, sua e loro.",
+    "short": "Usare lui, lei e loro al posto del nome"
+  },
+  "question-words": {
+    "full": "Schede stampabili gratuite sulle domande: chi, che cosa, dove, quando e quanti, per collegare domanda e risposta, completare e scrivere la domanda giusta.",
+    "short": "Usare chi, che cosa, dove e quando nelle domande"
+  },
+  "rounding": {
+    "full": "Schede stampabili gratuite per arrotondare i numeri alla decina e al centinaio, per eccesso o per difetto, e per stimare le somme senza calcolarle.",
+    "short": "Arrotondare i numeri alla decina e al centinaio"
   }
 }

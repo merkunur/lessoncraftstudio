@@ -154,8 +154,21 @@ module.exports = {
     return ((global || GLOBAL).items || []).filter((it) => typeof mw[it.material] === 'string' && mw[it.material].trim());
   },
   /** The F3 trio classes (locale-free): paper+cardboard, glass, plastic, metal, organic. */
-  _trioClasses(global) {
-    const items = (global || GLOBAL).items || [];
+  /** The trio face asks which item is the odd one BY MATERIAL, so it must not apply `excludeItems`
+   *  wholesale: read the banks' own reasons and they are two different things. Almost every
+   *  exclusion is BIN ROUTING — "en kastrull är ingen metallförpackning; den lämnas till metallskrot
+   *  på återvinningscentralen" — and a saucepan is still honestly metal, which is all this face
+   *  teaches. Applying them all was MEASURED to refuse the face in de/fr/nl/sv, each of which
+   *  excludes saucepan+bolt+nut and so keeps only `can`: 1 metal family against the floor of 3.
+   *  ONE exclusion is about MATERIAL PERCEPTION and does belong here: `no` writes that a glass milk
+   *  bottle "blir lest som kartong", and sv reported the same row independently (glass milk bottles
+   *  have not been sold there in decades), so that GLASS trio has two odd ones and no unique answer.
+   *  Hence an explicit, auditable list of items a native panel MEASURED as reading like another
+   *  material — never a blanket filter, and never a reason parsed out of prose. */
+  _trioClasses(global, block, loc) {
+    const MISREADS = { no: ['milk'], sv: ['milk'] };
+    const drop = new Set(MISREADS[loc] || []);
+    const items = ((global || GLOBAL).items || []).filter((it) => !drop.has(it.id));
     const cls = { paper: ['paper', 'cardboard'], glass: ['glass'], plastic: ['plastic'], metal: ['metal'], organic: ['organic'] };
     return Object.fromEntries(Object.entries(cls).map(([k, mats]) => [k, items.filter((it) => mats.includes(it.material))]));
   },
@@ -457,7 +470,7 @@ module.exports = {
     const stack = d.rows * rowMin + (d.rows - 1) * GAP;
     if (stack > STACK_CEILING) throw new Error(`K-357 odd: ${d.rows} rows of ${rowMin} = ${stack} > the ${STACK_CEILING} fi budget`);
     if (4 * d.boxMax > PAGE_W - 24 - 12) throw new Error(`K-357 odd: four boxes of ${d.boxMax} do not fit the card`);
-    const classes = this._trioClasses(global);
+    const classes = this._trioClasses(global, block, loc);
     const clsOf = (m) => (m === 'cardboard' ? 'paper' : m);
     const names = Object.keys(classes);
     for (const c of names) if (new Set(classes[c].map((it) => it.family)).size < 3) throw new Error(`K-357 odd: class ${c} has < 3 families (the trio floor)`);

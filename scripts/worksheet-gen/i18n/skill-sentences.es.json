@@ -338,5 +338,45 @@
   "division-with-remainder": {
     "full": "Formar grupos, repartir y usar la casita de la división con montones que no salen exactos enseña qué es el residuo y por qué siempre es menor que el divisor.",
     "short": "Enseña la división con residuo paso a paso."
+  },
+  "tangram": {
+    "full": "Tangram para imprimir y recortar: las siete piezas, figuras y sombras para armar, la pieza que falta y contar triángulos. De preescolar a segundo grado.",
+    "short": "Tangram para recortar, armar y contar"
+  },
+  "human-body": {
+    "full": "El cuerpo humano para preescolar y primer grado: nombrar las partes del cuerpo, contarlas, colorear con una leyenda y encontrar la parte que falta.",
+    "short": "Partes del cuerpo humano: nombrar, contar y colorear"
+  },
+  "five-senses": {
+    "full": "Los cinco sentidos para preescolar y primer grado: unir cada dibujo con su sentido, clasificar, nombrar los órganos de los sentidos y escribir oraciones.",
+    "short": "Los cinco sentidos y sus órganos"
+  },
+  "weather-symbols": {
+    "full": "El estado del tiempo de preescolar a tercer grado: unir símbolos y palabras, registrar el tiempo de la semana, leer el termómetro y completar el ciclo del agua.",
+    "short": "Símbolos del estado del tiempo y sus palabras"
+  },
+  "recycling": {
+    "full": "Separación de basura de preescolar a segundo grado: clasificar cosas en el bote orgánico o inorgánico, reconocer lo reciclable y colorear los botes.",
+    "short": "Separar la basura orgánica e inorgánica"
+  },
+  "cloze": {
+    "full": "Completar oraciones con dibujos para primero y segundo grado: elegir el sustantivo que falta, escribirlo en casillas, formar el plural y completar un cuento corto.",
+    "short": "Completar oraciones con dibujos"
+  },
+  "odd-and-even": {
+    "full": "Números pares e impares hasta el 20 y hasta el 100: clasificar números en dos casas, rodear puntos en parejas, repartir entre dos y usar la regla de las unidades.",
+    "short": "Reconocer números pares e impares"
+  },
+  "pronouns": {
+    "full": "Pronombres personales él, ella, ellos y ellas para primero y segundo grado: elegir el pronombre, sustituir el nombre, encontrar a quién se refiere y reescribir oraciones.",
+    "short": "Pronombres personales: él, ella, ellos, ellas"
+  },
+  "question-words": {
+    "full": "Preguntas con quién, qué, dónde, cuándo y cuántos: elegir la palabra que pregunta por lo marcado, completarla, clasificar respuestas y escribir preguntas con sus signos.",
+    "short": "Palabras para preguntar: quién, qué, dónde"
+  },
+  "rounding": {
+    "full": "Redondeo de números a la decena y a la centena para tercer grado: aplicar la regla del 5, clasificar hacia arriba o hacia abajo, estimar sumas y encontrar números redondeados.",
+    "short": "Redondear números a la decena y a la centena"
   }
 }

@@ -1,0 +1,46 @@
+{
+  "chips": {
+    "odd": "impar",
+    "even": "par"
+  },
+  "houseOrder": [
+    "even",
+    "odd"
+  ],
+  "rule": "Un número es par si termina en 0, 2, 4, 6 u 8. Es impar si termina en 1, 3, 5, 7 o 9.",
+  "leftover": "sobra",
+  "pairs": "parejas",
+  "placeHeads": [
+    "D",
+    "U"
+  ],
+  "nameMaxGraphemes": 6,
+  "strings": {
+    "base": {
+      "title": "Números pares e impares hasta el 20",
+      "instruction": "Escribe cada número en la casa que le corresponde: la de los pares o la de los impares. Tres números ya viven ahí y muestran sus parejas."
+    },
+    "proof": {
+      "title": "¿Par o impar? Escribe dos sumandos iguales",
+      "instruction": "Rodea los puntos de dos en dos. Luego escribe el número como dos partes iguales y anota en la casilla pequeña lo que sobra."
+    },
+    "share": {
+      "title": "¿Se puede repartir entre dos? Par o impar",
+      "instruction": "Reparte los dibujos entre los dos niños, uno a cada uno por turnos. Escribe cuántos recibe cada uno y cuántos sobran. Rodea par o impar."
+    },
+    "ones": {
+      "title": "Números pares e impares del 1 al 100: mira las unidades",
+      "instruction": "Lee la regla de arriba. Fíjate solo en la casilla de las unidades de cada número y marca el círculo debajo de par o impar."
+    },
+    "sums": {
+      "title": "¿Suma par o impar? Decide sin sumar",
+      "instruction": "No sumes. Mira la unidad subrayada de cada número, usa la tabla y marca si la suma es par o impar."
+    },
+    "count": {
+      "title": "¿Par o impar? Cuenta los dibujos en parejas",
+      "instruction": "Cuenta los dibujos y rodéalos de dos en dos. Escribe cuántas parejas formaste y rodea par o impar."
+    }
+  },
+  "refuse": {},
+  "strand": "Sentido numérico"
+}

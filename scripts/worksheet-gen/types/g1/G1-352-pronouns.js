@@ -183,8 +183,11 @@ function resolveBase(d, bank) {
     pairMix: cls === 'objects' ? 'none' : (src.pairMix || 'any'),
     mixFloor: d.mixFloor, neuterMin: d.neuterMin,
     pic: d.pic, pairPic: d.pairPic, plateH: d.plateH, plateFont: d.plateFont,
-    chipW: d.chipW, chipH: d.chipH, chipFont: d.chipFont, objectCaption: d.objectCaption || 'bare', cardPad: d.cardPad,
+    // design §2 "Chips": 4 chips (fr/es/pt) -> w 66 / fontPx 20 at EVERY level (4 x 66 + 36 = 300 <= the 302 card inner);
+    // 3-chip d.chipW 84 gave 4 x 84 + 36 = 372 and every card overflowed (the es panel rendered it)
+    chipW: cls === 'four' ? (src.chipW || 66) : d.chipW, chipH: d.chipH, chipFont: cls === 'four' ? (src.chipFont || 20) : d.chipFont, objectCaption: d.objectCaption || 'bare', cardPad: d.cardPad,
   };
+  if (cls === 'four' && cfg.chipW * 4 + 36 > 302) throw new Error(`${ID}: four-chip chipW ${cfg.chipW} overflows the 302 card inner`);
   if (cfg.singles + cfg.pairs + cfg.objects !== cfg.cards) throw new Error(`${ID}: singles ${cfg.singles} + pairs ${cfg.pairs} + objects ${cfg.objects} != cards ${cfg.cards} (class ${cls})`);
   if (cfg.cols * cfg.rows !== cfg.cards) throw new Error(`${ID}: cols ${cfg.cols} x rows ${cfg.rows} != cards ${cfg.cards}`);
   if (cfg.cards < 6 || cfg.cards > 12) throw new Error(`${ID}: ${cfg.cards} cards outside the G1 window [6, 12]`);

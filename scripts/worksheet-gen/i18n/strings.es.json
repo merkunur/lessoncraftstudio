@@ -2382,5 +2382,241 @@
   "G3-384": {
     "title": "Divide en la recta numérica: ¿cuánto sobra?",
     "instruction": "Empieza en el número marcado y dibuja saltos hacia atrás del mismo tamaño hasta que ya no quepa uno entero. Escribe los saltos y dónde caes."
+  },
+  "K-353": {
+    "title": "Tangram para recortar: 7 piezas y dos figuras",
+    "instruction": "Colorea cada pieza como en la leyenda, recorta las siete piezas por las líneas y ponlas sobre las dos figuras de abajo."
+  },
+  "K-354": {
+    "title": "El cuerpo humano",
+    "instruction": "Copia cada palabra del recuadro en la línea que apunta a esa parte del cuerpo."
+  },
+  "K-355": {
+    "title": "Los cinco sentidos",
+    "instruction": "Traza una línea desde cada dibujo hasta la parte del cuerpo que usas para percibirlo."
+  },
+  "K-356": {
+    "title": "El estado del tiempo: símbolos y palabras",
+    "instruction": "Traza una línea desde cada símbolo del tiempo hasta su palabra."
+  },
+  "K-357": {
+    "title": "Separación de basura: orgánica e inorgánica",
+    "instruction": "Cada cosa ya está vacía o gastada. Traza una línea desde ella hasta el bote donde se tira."
+  },
+  "G1-350": {
+    "title": "Completa las oraciones",
+    "instruction": "Mira el dibujo. Busca en el recuadro la palabra que completa la oración y escríbela en la casilla."
+  },
+  "G1-351": {
+    "title": "Números pares e impares hasta el 20",
+    "instruction": "Escribe cada número en la casa que le corresponde: la de los pares o la de los impares. Tres números ya viven ahí y muestran sus parejas."
+  },
+  "G1-352": {
+    "title": "Pronombres personales: él, ella, ellos o ellas",
+    "instruction": "Mira a la persona y lee su nombre. Rodea el pronombre que usamos en lugar del nombre."
+  },
+  "G1-353": {
+    "title": "Preguntas con quién, qué y dónde",
+    "instruction": "Lee la oración. Fíjate en las palabras marcadas. Rodea el pronombre interrogativo que pregunta por ellas."
+  },
+  "G2-346": {
+    "title": "Redondeo de números a la decena",
+    "instruction": "Redondea cada número a la decena más cercana y escríbelo en la casilla. Si la cifra de las unidades es 5 o más, redondea hacia arriba."
+  },
+  "K-358": {
+    "title": "Tangram fácil de 2 y 3 piezas: dibuja las líneas",
+    "instruction": "Mira las piezas de arriba de cada forma. Dibuja dentro de la forma las líneas donde se juntan esas piezas."
+  },
+  "G1-354": {
+    "title": "Tangram: cuatro sombras para armar",
+    "instruction": "Arma cada figura oscura con las siete piezas de tu tangram. Usa siempre las siete piezas."
+  },
+  "G1-355": {
+    "title": "Tangram: ¿qué pieza falta?",
+    "instruction": "A cada figura le falta una pieza. Rodea la pieza que cabe exactamente en el hueco."
+  },
+  "G2-347": {
+    "title": "Tangram: ¿qué solución es igual a la sombra?",
+    "instruction": "Mira cada sombra. Rodea la solución que está colocada igual que la sombra. Las giradas o volteadas no valen."
+  },
+  "K-359": {
+    "title": "Tangram: cuenta triángulos y cuadrados",
+    "instruction": "Cuenta los triángulos de cada figura y escribe el número en la primera casilla. Luego cuenta los cuadrados para la segunda."
+  },
+  "K-360": {
+    "title": "El cuerpo humano: ¿cuántos tienes?",
+    "instruction": "Cuenta en tu propio cuerpo cuántos tienes de cada parte y escribe el número en la casilla."
+  },
+  "K-361": {
+    "title": "El cuerpo humano: colorea con la leyenda",
+    "instruction": "Lee la leyenda y colorea cada parte del cuerpo del color que está escrito junto a su nombre."
+  },
+  "G1-356": {
+    "title": "El cuerpo humano: escribe la palabra",
+    "instruction": "Busca cada parte numerada en la figura y escribe su nombre, una letra en cada casilla."
+  },
+  "K-362": {
+    "title": "El cuerpo humano: ¿qué falta?",
+    "instruction": "A cada cuerpo le falta una parte. Rodea el dibujo de la parte que falta y luego dibújala en su lugar."
+  },
+  "K-363": {
+    "title": "El cuerpo humano: ¿cuáles tienes dos?",
+    "instruction": "Rodea cada parte del cuerpo de la que tienes dos."
+  },
+  "G1-357": {
+    "title": "Los cinco sentidos: clasifica por sentido",
+    "instruction": "Mira cada dibujo y traza una línea desde su punto hasta la caja del sentido que usas para percibirlo."
+  },
+  "G1-358": {
+    "title": "Los cinco sentidos: ¿qué sentido usas?",
+    "instruction": "¿Con qué sentido percibes cada dibujo? Rodea la parte del cuerpo que usas."
+  },
+  "G1-359": {
+    "title": "Los cinco sentidos: ¿cuál no pertenece?",
+    "instruction": "En cada fila, tres dibujos van con el mismo sentido. Tacha el que no pertenece."
+  },
+  "G1-360": {
+    "title": "Órganos de los sentidos: escribe el sentido",
+    "instruction": "Copia cada palabra del recuadro en la línea junto al órgano del cuerpo que la realiza."
+  },
+  "G1-361": {
+    "title": "Los cinco sentidos: oigo, veo, huelo...",
+    "instruction": "Completa cada oración. Escribe qué puedes oír, ver, oler, probar y tocar."
+  },
+  "G1-362": {
+    "title": "El estado del tiempo: escribe la palabra",
+    "instruction": "Busca en el recuadro la palabra de cada símbolo del tiempo y escríbela, una letra en cada casilla."
+  },
+  "K-364": {
+    "title": "Registro del tiempo de la semana: de lunes a domingo",
+    "instruction": "Cada día de esta semana mira por la ventana y dibuja en su casilla el símbolo del tiempo que hace."
+  },
+  "K-365": {
+    "title": "El termómetro: ¿frío, templado o calor?",
+    "instruction": "Mira cada termómetro, usa la clave para saber si hace frío, si está templado o si hace calor, y rodea la prenda que va bien."
+  },
+  "G3-385": {
+    "title": "Ciclo del agua: escribe cada etapa en su lugar",
+    "instruction": "Lee las cuatro palabras del recuadro y escribe cada una en la línea que tiene su mismo número en el esquema."
+  },
+  "G1-363": {
+    "title": "El estado del tiempo: lee el pronóstico de la semana",
+    "instruction": "Mira el tiempo de la semana, lee cada pregunta y rodea el día correcto."
+  },
+  "K-366": {
+    "title": "Separación de basura: ¿en qué bote va?",
+    "instruction": "Mira cada cosa y rodea el bote donde se tira cuando ya está vacía o gastada."
+  },
+  "G1-364": {
+    "title": "Separación de basura: ¿reciclable u orgánico?",
+    "instruction": "¿Qué es cada cosa? Escribe en la línea la palabra del recuadro que le corresponde."
+  },
+  "G2-348": {
+    "title": "Separación de basura: ¿cuál es de otro material?",
+    "instruction": "En cada fila hay tres cosas del mismo material. Rodea la que es de otro material."
+  },
+  "K-367": {
+    "title": "Separación de basura: colorea los botes",
+    "instruction": "Lee el nombre de cada bote y coloréalo del color que indica la leyenda."
+  },
+  "G1-365": {
+    "title": "Separación de basura: tres cosas que separo en casa",
+    "instruction": "Dibuja tres cosas que separas en casa y escribe qué es cada una."
+  },
+  "G1-366": {
+    "title": "Completa la oración con una letra en cada casilla",
+    "instruction": "Mira el dibujo. Escribe la palabra que falta, una letra en cada casilla."
+  },
+  "G1-367": {
+    "title": "Completa la oración: rodea la palabra correcta",
+    "instruction": "Mira el dibujo y lee la oración. Rodea la palabra que va bien y escríbela en la casilla."
+  },
+  "G2-349": {
+    "title": "Completa las oraciones en plural",
+    "instruction": "Mira los dibujos. Hay más de uno. Escribe en la casilla la palabra para más de uno."
+  },
+  "G2-350": {
+    "title": "Completa el cuento con las palabras que faltan",
+    "instruction": "Lee todo el cuento. Los tres dibujos muestran las palabras que faltan. Escribe cada una en su casilla."
+  },
+  "G1-368": {
+    "title": "Une cada oración con su dibujo",
+    "instruction": "Lee cada oración. ¿Qué dibujo completa el hueco? Traza una línea desde la oración hasta ese dibujo."
+  },
+  "G2-351": {
+    "title": "¿Par o impar? Escribe dos sumandos iguales",
+    "instruction": "Rodea los puntos de dos en dos. Luego escribe el número como dos partes iguales y anota en la casilla pequeña lo que sobra."
+  },
+  "G1-369": {
+    "title": "¿Se puede repartir entre dos? Par o impar",
+    "instruction": "Reparte los dibujos entre los dos niños, uno a cada uno por turnos. Escribe cuántos recibe cada uno y cuántos sobran. Rodea par o impar."
+  },
+  "G2-352": {
+    "title": "Números pares e impares del 1 al 100: mira las unidades",
+    "instruction": "Lee la regla de arriba. Fíjate solo en la casilla de las unidades de cada número y marca el círculo debajo de par o impar."
+  },
+  "G3-386": {
+    "title": "¿Suma par o impar? Decide sin sumar",
+    "instruction": "No sumes. Mira la unidad subrayada de cada número, usa la tabla y marca si la suma es par o impar."
+  },
+  "G1-370": {
+    "title": "¿Par o impar? Cuenta los dibujos en parejas",
+    "instruction": "Cuenta los dibujos y rodéalos de dos en dos. Escribe cuántas parejas formaste y rodea par o impar."
+  },
+  "G1-371": {
+    "title": "Sustituye el nombre por un pronombre",
+    "instruction": "Lee la oración. Escribe en la casilla el pronombre del recuadro que sustituye al nombre en la segunda oración."
+  },
+  "G2-353": {
+    "title": "¿Quién es él? Pronombres en oraciones",
+    "instruction": "Lee las oraciones. Traza una línea desde cada pronombre del cuadro hasta el nombre al que se refiere."
+  },
+  "G1-372": {
+    "title": "Clasifica los nombres: él, ella, ellos o ellas",
+    "instruction": "Lee cada tarjeta con nombre. Escribe el nombre debajo del pronombre que usamos para esa persona."
+  },
+  "G2-355": {
+    "title": "Vuelve a escribir la oración con un pronombre",
+    "instruction": "Lee la oración. Escríbela otra vez en las líneas, pero con un pronombre en lugar del nombre."
+  },
+  "G1-373": {
+    "title": "Une cada pregunta con su respuesta",
+    "instruction": "Lee cada pregunta de la izquierda. Traza una línea hasta la respuesta de la derecha que le corresponde."
+  },
+  "G1-374": {
+    "title": "Completa la pregunta con quién, qué, dónde, cuándo o cuántos",
+    "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en la casilla la palabra del recuadro que pregunta por ellas."
+  },
+  "G1-375": {
+    "title": "Clasifica las respuestas: ¿quién?, ¿qué? o ¿dónde?",
+    "instruction": "Lee cada tarjeta. Escríbela en la columna de la pregunta a la que responde."
+  },
+  "G2-356": {
+    "title": "Escribe la pregunta",
+    "instruction": "Lee la respuesta. Fíjate en las palabras marcadas. Escribe en la línea la pregunta que pregunta por ellas."
+  },
+  "G2-357": {
+    "title": "Preguntas sobre el dibujo: por qué y cómo",
+    "instruction": "Mira el dibujo. Termina cada pregunta desde la palabra que ya está en la línea y ciérrala con el signo de interrogación."
+  },
+  "G3-387": {
+    "title": "¿Hacia arriba o hacia abajo? Clasifica los números",
+    "instruction": "¿Cada número se redondea hacia arriba o hacia abajo a la decena? Escríbelo en la caja que le corresponde."
+  },
+  "G3-388": {
+    "title": "Redondeo de números a la centena",
+    "instruction": "Redondea cada número a la centena más cercana y escríbelo en la casilla. Fíjate en la cifra de las decenas."
+  },
+  "G3-389": {
+    "title": "Redondea y estima la suma",
+    "instruction": "Redondea los dos números a la decena y escríbelos en las casillas. Luego suma los números redondeados."
+  },
+  "G3-390": {
+    "title": "¿Qué números se redondean a 50?",
+    "instruction": "Rodea todos los números que se redondean a la decena que aparece arriba. Fíjate en la cifra de las unidades de cada número."
+  },
+  "G3-391": {
+    "title": "Redondeo de números a la decena y a la centena",
+    "instruction": "Redondea cada número dos veces: a la decena en la primera casilla y a la centena en la segunda."
   }
 }

@@ -1,0 +1,53 @@
+{
+  "verbs": {
+    "hear": "oír",
+    "see": "ver",
+    "smell": "oler",
+    "taste": "probar",
+    "touch": "tocar"
+  },
+  "starters": {
+    "hear": "Oigo ...",
+    "see": "Veo ...",
+    "smell": "Huelo ...",
+    "taste": "Pruebo ...",
+    "touch": "Toco ..."
+  },
+  "signedOk": [
+    "pizza",
+    "television",
+    "book",
+    "lamp",
+    "lighthouse",
+    "flute"
+  ],
+  "organOf": {},
+  "refuse": [],
+  "strings": {
+    "K-355": {
+      "title": "Los cinco sentidos",
+      "instruction": "Traza una línea desde cada dibujo hasta la parte del cuerpo que usas para percibirlo."
+    },
+    "G1-357": {
+      "title": "Los cinco sentidos: clasifica por sentido",
+      "instruction": "Mira cada dibujo y traza una línea desde su punto hasta la caja del sentido que usas para percibirlo."
+    },
+    "G1-358": {
+      "title": "Los cinco sentidos: ¿qué sentido usas?",
+      "instruction": "¿Con qué sentido percibes cada dibujo? Rodea la parte del cuerpo que usas."
+    },
+    "G1-359": {
+      "title": "Los cinco sentidos: ¿cuál no pertenece?",
+      "instruction": "En cada fila, tres dibujos van con el mismo sentido. Tacha el que no pertenece."
+    },
+    "G1-360": {
+      "title": "Órganos de los sentidos: escribe el sentido",
+      "instruction": "Copia cada palabra del recuadro en la línea junto al órgano del cuerpo que la realiza."
+    },
+    "G1-361": {
+      "title": "Los cinco sentidos: oigo, veo, huelo...",
+      "instruction": "Completa cada oración. Escribe qué puedes oír, ver, oler, probar y tocar."
+    }
+  },
+  "strand": "Conocimiento del Medio"
+}

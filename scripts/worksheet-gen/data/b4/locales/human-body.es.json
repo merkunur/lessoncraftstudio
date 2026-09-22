@@ -1,0 +1,127 @@
+{
+  "partWords": {
+    "head": "cabeza",
+    "hair": "cabello",
+    "eye": "ojo",
+    "ear": "oreja",
+    "nose": "nariz",
+    "mouth": "boca",
+    "neck": "cuello",
+    "shoulder": "hombro",
+    "arm": "brazo",
+    "elbow": "codo",
+    "hand": "mano",
+    "finger": "dedo",
+    "leg": "pierna",
+    "knee": "rodilla",
+    "foot": "pie",
+    "toe": "dedo del pie"
+  },
+  "overrides": {},
+  "bankWords": {
+    "head": "cabeza",
+    "hair": "cabello",
+    "eye": "ojo",
+    "ear": "oreja",
+    "nose": "nariz",
+    "mouth": "boca",
+    "neck": "cuello",
+    "shoulder": "hombro",
+    "arm": "brazo",
+    "elbow": "codo",
+    "hand": "mano",
+    "finger": "dedo",
+    "leg": "pierna",
+    "knee": "rodilla",
+    "foot": "pie",
+    "toe": "dedo del pie"
+  },
+  "plural": {
+    "head": "cabezas",
+    "hair": "cabello",
+    "eye": "ojos",
+    "ear": "orejas",
+    "nose": "narices",
+    "mouth": "bocas",
+    "neck": "cuellos",
+    "shoulder": "hombros",
+    "arm": "brazos",
+    "elbow": "codos",
+    "hand": "manos",
+    "finger": "dedos",
+    "leg": "piernas",
+    "knee": "rodillas",
+    "foot": "pies",
+    "toe": "dedos de los pies"
+  },
+  "factLabels": {
+    "head": "¿Cuántas cabezas?",
+    "hair": "¿Cuánto cabello?",
+    "eye": "¿Cuántos ojos?",
+    "ear": "¿Cuántas orejas?",
+    "nose": "¿Cuántas narices?",
+    "mouth": "¿Cuántas bocas?",
+    "neck": "¿Cuántos cuellos?",
+    "shoulder": "¿Cuántos hombros?",
+    "arm": "¿Cuántos brazos?",
+    "elbow": "¿Cuántos codos?",
+    "hand": "¿Cuántas manos?",
+    "finger": "¿Cuántos dedos?",
+    "leg": "¿Cuántas piernas?",
+    "knee": "¿Cuántas rodillas?",
+    "foot": "¿Cuántos pies?",
+    "toe": "¿Cuántos dedos de los pies?",
+    "fingersOneHand": "¿Cuántos dedos en una mano?",
+    "toesOneFoot": "¿Cuántos dedos en un pie?"
+  },
+  "use": {
+    "head": "Con la cabeza piensas.",
+    "hair": "El cabello abriga la cabeza.",
+    "eye": "Con los ojos ves.",
+    "ear": "Con las orejas oyes.",
+    "nose": "Con la nariz hueles.",
+    "mouth": "Con la boca comes y hablas.",
+    "neck": "El cuello gira la cabeza.",
+    "shoulder": "Los hombros cargan la mochila.",
+    "arm": "Con los brazos abrazas.",
+    "elbow": "Los codos doblan los brazos.",
+    "hand": "Con las manos agarras las cosas.",
+    "finger": "Con un dedo señalas.",
+    "leg": "Con las piernas corres.",
+    "knee": "Las rodillas se doblan al saltar.",
+    "foot": "Con los pies te paras.",
+    "toe": "Los dedos de los pies te ayudan a mantener el equilibrio."
+  },
+  "refuseWords": {
+    "write": [
+      "toe"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "K-354": {
+      "title": "El cuerpo humano",
+      "instruction": "Copia cada palabra del recuadro en la línea que apunta a esa parte del cuerpo."
+    },
+    "K-360": {
+      "title": "El cuerpo humano: ¿cuántos tienes?",
+      "instruction": "Cuenta en tu propio cuerpo cuántos tienes de cada parte y escribe el número en la casilla."
+    },
+    "K-361": {
+      "title": "El cuerpo humano: colorea con la leyenda",
+      "instruction": "Lee la leyenda y colorea cada parte del cuerpo del color que está escrito junto a su nombre."
+    },
+    "G1-356": {
+      "title": "El cuerpo humano: escribe la palabra",
+      "instruction": "Busca cada parte numerada en la figura y escribe su nombre, una letra en cada casilla."
+    },
+    "K-362": {
+      "title": "El cuerpo humano: ¿qué falta?",
+      "instruction": "A cada cuerpo le falta una parte. Rodea el dibujo de la parte que falta y luego dibújala en su lugar."
+    },
+    "K-363": {
+      "title": "El cuerpo humano: ¿cuáles tienes dos?",
+      "instruction": "Rodea cada parte del cuerpo de la que tienes dos."
+    }
+  }
+}

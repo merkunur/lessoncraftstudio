@@ -1,0 +1,65 @@
+{
+  "symbolWords": {
+    "sun": "sol",
+    "cloud": "nube",
+    "rain": "lluvia",
+    "storm": "tormenta",
+    "snow": "nieve",
+    "rainbow": "arcoíris"
+  },
+  "forecastAsks": {
+    "sun": "¿Qué día hace sol?",
+    "cloud": "¿Qué día está nublado?",
+    "rain": "¿Qué día llueve?",
+    "storm": "¿Qué día hay tormenta?",
+    "snow": "¿Qué día nieva?",
+    "rainbow": "¿Qué día sale el arcoíris?"
+  },
+  "cycleLabels": {
+    "evaporation": "evaporación",
+    "condensation": "condensación",
+    "precipitation": "precipitación",
+    "collection": "acumulación"
+  },
+  "bandWords": {
+    "cold": "frío",
+    "warm": "templado",
+    "hot": "calor"
+  },
+  "forecastDays": null,
+  "diaryDays": null,
+  "diaryStart": "mon",
+  "bankWords": {},
+  "distractors": [
+    "viento",
+    "niebla"
+  ],
+  "refuse": [],
+  "strings": {
+    "K-356": {
+      "title": "El estado del tiempo: símbolos y palabras",
+      "instruction": "Traza una línea desde cada símbolo del tiempo hasta su palabra."
+    },
+    "G1-362": {
+      "title": "El estado del tiempo: escribe la palabra",
+      "instruction": "Busca en el recuadro la palabra de cada símbolo del tiempo y escríbela, una letra en cada casilla."
+    },
+    "K-364": {
+      "title": "Registro del tiempo de la semana: de lunes a domingo",
+      "instruction": "Cada día de esta semana mira por la ventana y dibuja en su casilla el símbolo del tiempo que hace."
+    },
+    "K-365": {
+      "title": "El termómetro: ¿frío, templado o calor?",
+      "instruction": "Mira cada termómetro, usa la clave para saber si hace frío, si está templado o si hace calor, y rodea la prenda que va bien."
+    },
+    "G3-385": {
+      "title": "Ciclo del agua: escribe cada etapa en su lugar",
+      "instruction": "Lee las cuatro palabras del recuadro y escribe cada una en la línea que tiene su mismo número en el esquema."
+    },
+    "G1-363": {
+      "title": "El estado del tiempo: lee el pronóstico de la semana",
+      "instruction": "Mira el tiempo de la semana, lee cada pregunta y rodea el día correcto."
+    }
+  },
+  "strand": "Conocimiento del Medio"
+}

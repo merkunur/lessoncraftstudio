@@ -342,6 +342,11 @@ module.exports = {
     const bins = this._binsOf(block, loc);
     const N = bins.length, keys = bins.map((b) => b.key);
     const chipTileH = d.chipTile + 16;                        // 64 -> 80 (the design's chip tile)
+    // The row is HEIGHT-bound (6 rows of 85 inside the 677 fi budget), so a small bin count cannot be
+    // answered by growing the chips — it is answered by where the column sits: at N <= 3 the chips are
+    // centred in the free width (es N=2 drew 138 px of chips against the right edge with ~390 px of
+    // paper beside them); at N >= 4 the shipped end-alignment is unchanged, so en/de stay byte-identical.
+    const chipsAlign = N <= 3 ? 'center' : 'end';
     const rowMin = Math.max(85, chipTileH + 4 + 1, d.tile + 4);   // the chip tile + the card border + 1, never under the design's 85
     const KEY_H = 112, KEY_GAP = 10, GAP = 8;
     const stack = KEY_H + KEY_GAP + d.rows * rowMin + (d.rows - 1) * GAP;
@@ -378,7 +383,7 @@ module.exports = {
     const rows = rowsItems.map((it, i) => {
       const order = chipBins || rng.shuffle(bins);
       const chips = C4.binChips({ bins: order, tile: d.chipTile, tileH: chipTileH, binW: d.chipBin, gap: 10 });
-      return C4.whichBinRow({ n: i + 1, item: it, chips, tile: d.tile, iconPx: d.iconPx, chipsW });
+      return C4.whichBinRow({ n: i + 1, item: it, chips, tile: d.tile, iconPx: d.iconPx, chipsW, chipsAlign });
     });
     const inner = C4.keyBins({ bins, slotW: binWidth(N), binW: 56, binH: 84, pillPx: d.keyPx, gap: BIN_GAP }) +
       `<div style="height:${KEY_GAP}px;flex:0 0 auto"></div>` +

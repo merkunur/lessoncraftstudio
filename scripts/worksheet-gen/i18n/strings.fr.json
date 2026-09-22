@@ -2565,7 +2565,7 @@
   },
   "G2-354": {
     "title": "Son, sa ou leur ?",
-    "instruction": "Regarde à qui appartient l'objet. Entoure le mot qui montre que l'objet est à cette personne."
+    "instruction": "Entoure le bon mot. Son ou sa s'accorde avec l'objet, pas avec la personne. Leur s'emploie pour plusieurs personnes."
   },
   "G1-372": {
     "title": "Classe les prénoms : il, elle, ils ou elles",
@@ -2612,7 +2612,7 @@
     "instruction": "Entoure tous les nombres qui s'arrondissent à la dizaine écrite en haut. Regarde le chiffre des unités de chaque nombre."
   },
   "G3-391": {
-    "title": "Arrondir à la dizaine et à la centaine",
+    "title": "Arrondir deux fois : à la dizaine, puis à la centaine",
     "instruction": "Arrondis chaque nombre deux fois : à la dizaine dans la première case et à la centaine dans la seconde."
   }
 }

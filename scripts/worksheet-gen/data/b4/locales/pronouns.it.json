@@ -372,7 +372,9 @@
     }
   ],
   "and": "e",
-  "andBefore": null,
+  "andBefore": {
+    "E": "ed"
+  },
   "chips": [
     "lui",
     "lei",
@@ -800,7 +802,7 @@
     },
     "possessive": {
       "title": "Suo, sua o loro?",
-      "instruction": "Guarda di chi è la cosa. Cerchia la parola che mostra a chi appartiene."
+      "instruction": "Cerchia la parola giusta. Suo e sua vanno d'accordo con la cosa, non con la persona. Se le persone sono due, usa loro."
     },
     "sort": {
       "title": "Ordina i nomi: lui, lei o loro",

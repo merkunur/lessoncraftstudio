@@ -34,7 +34,7 @@
       "instruction": "Entoure tous les nombres qui s'arrondissent à la dizaine écrite en haut. Regarde le chiffre des unités de chaque nombre."
     },
     "both": {
-      "title": "Arrondir à la dizaine et à la centaine",
+      "title": "Arrondir deux fois : à la dizaine, puis à la centaine",
       "instruction": "Arrondis chaque nombre deux fois : à la dizaine dans la première case et à la centaine dans la seconde."
     }
   },

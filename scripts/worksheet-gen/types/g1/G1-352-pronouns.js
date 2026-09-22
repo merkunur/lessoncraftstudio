@@ -145,6 +145,12 @@ function answerChip(bank, face, key) {
   return Number.isInteger(v) ? v : null;
 }
 
+/** The joiners a pair subject may legally carry: the `and` literal plus every declared
+ *  `andBefore` alternate (es y->e before i-/hi-, it e->ed before E-). Stamped so verify()
+ *  reads the bank's own list instead of a hardcoded one — a hardcoded ` e | y ` refused the
+ *  correct Italian "Diego ed Elisa". */
+function andAlt(bank) { return bank && bank.andBefore ? Object.values(bank.andBefore).join(' ') : ''; }
+
 /** `{subj}` -> one name or "a AND b" (the `and` literal; es `andBefore` swaps it before i-/hi-). */
 function fillSubject(literal, names, and, andBefore) {
   if (!Array.isArray(names) || !names.length || names.length > 2) throw new Error(`${ID}: fillSubject needs 1 or 2 names`);
@@ -520,7 +526,7 @@ function buildReplace(bank, d, loc, rng) {
     lanes.push(nameGapRow({ pics: picsOf(it), line1, line2, gapW: d.gapW, gapH: d.gapH, picPx: d.pic, pairPx: d.pairPic, frameId: frame.id, num, key: it.key, answer, names }));
   }
   const bankHtml = initialBank({ words: bank.initial, rng, chipOrder: bank.initial });
-  const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="replace" data-lcs-rows="${d.rows}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-bank="1" data-lcs-class="${cfg.cls}" style="${rootStyle()}">` +
+  const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="replace" data-lcs-rows="${d.rows}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-bank="1" data-lcs-class="${cfg.cls}" style="${rootStyle()}">` +
     bankHtml + `<div data-lcs-lanes style="flex:1;display:grid;grid-template-rows:repeat(${d.rows},minmax(${d.laneMin}px,1fr));row-gap:${d.laneGap}px;min-height:0">${lanes.join('')}</div></div>`;
   return { bodyHtml, meta: { face: 'replace', cls: cfg.cls, items: items.map((it) => [it.key, it.chip, it.people.map((p) => p.key).join('+'), namesOf(it).join('+')]) } };
 }
@@ -590,7 +596,7 @@ function buildAnaphora(bank, d, loc, rng) {
       referents: b.referents.map((r) => ({ pics: picsOf(r), name: r.plate, target: r.target, key: r.key, refs: r.people.map((p) => p.key), names: r.names.map((n) => n.name) })),
       intro: b.intro, sentences: b.sentences, namesW: d.namesW, zone: d.zone, platePx: d.plateFont,
     })).join('');
-    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="anaphora" data-lcs-pairs="${d.pairs}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-class="${two ? 'two' : 'three'}" style="${rootStyle()}">` +
+    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="anaphora" data-lcs-pairs="${d.pairs}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-class="${two ? 'two' : 'three'}" style="${rootStyle()}">` +
       `<div data-lcs-lanes style="flex:1;display:grid;grid-template-rows:repeat(${d.pairs},minmax(${d.cardMin}px,1fr));row-gap:${d.cardGap}px;min-height:0">${html}</div></div>`;
     return { bodyHtml, meta: { face: 'anaphora', blocks: blocks.map((b) => [b.frame.id, b.referents.map((r) => r.key + ':' + r.people.map((p) => p.key).join('+')).join(' '), b.sentences.map((s) => s.pronoun + '>' + s.ref).join(' ')]) } };
   }
@@ -656,7 +662,7 @@ function buildPossessive(bank, d, loc, rng) {
       owners: { pics: picsOf(l.it) }, thing: { src: fileUri(l.thing.pic.theme, l.thing.pic.noun), key: l.thing.key }, frame: l.text,
       chips: P.chips, correctIndex: l.chip, chipW, chipFont: d.chipFont, num: l.num, ownerKey: l.it.key, thingKey: l.thing.key, names: l.names,
     })).join('');
-    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="possessive" data-lcs-rows="${d.rows}" data-lcs-chips="${P.chips.length}" data-lcs-and="${bank.and}" data-lcs-mixfloor="${d.mixFloor}" data-lcs-chipw="${chipW}" data-lcs-poss-class="${pc}" style="${rootStyle()}">` +
+    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="possessive" data-lcs-rows="${d.rows}" data-lcs-chips="${P.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-mixfloor="${d.mixFloor}" data-lcs-chipw="${chipW}" data-lcs-poss-class="${pc}" style="${rootStyle()}">` +
       `<div data-lcs-lanes style="flex:1;display:grid;grid-template-rows:repeat(${d.rows},minmax(${d.laneMin}px,1fr));row-gap:${d.laneGap}px;min-height:0">${html}</div></div>`;
     return { bodyHtml, meta: { face: 'possessive', cls: pc, lanes: lanes.map((l) => [l.it.key, l.chip, l.it.people.map((p) => p.key).join('+'), l.names.join('+'), l.thing.key]) } };
   }
@@ -708,7 +714,7 @@ function buildSort(bank, d, loc, rng) {
       return { pics: picsOf(it), caption: fillSubject('{subj}', namesOf(it), bank.and, bank.andBefore), key: it.chip, itemKey: it.key, refs: it.people.map((p) => p.key), names: namesOf(it) };
     });
     const html = nameCardBins({ cards, bins, binLayout, binH, lineCounts });
-    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="sort" data-lcs-cards="${cards.length}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-binh="${binH}" data-lcs-class="${cls}" data-lcs-dropped="${dropped}" style="${rootStyle()}">${html}</div>`;
+    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="sort" data-lcs-cards="${cards.length}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-binh="${binH}" data-lcs-class="${cls}" data-lcs-dropped="${dropped}" style="${rootStyle()}">${html}</div>`;
     return { bodyHtml, meta: { face: 'sort', cls, binLayout, binH, lineCounts, dropped, cards: cards.map((c) => [c.itemKey, c.key, c.refs.join('+'), c.names.join('+')]) } };
   }
   throw new Error(`${ID}: ${loc} cannot deal the sort face (${cfg.singles} singles + ${cfg.pairs} pairs + ${cfg.objects} objects) — REFUSED`);
@@ -747,7 +753,7 @@ function buildRewrite(bank, d, loc, rng) {
     const frame = frames.splice(pick, 1)[0];
     rows.push(rewriteLane({ pics: picsOf(it), sentence, w: d.w, h: d.rowH, glyphH: d.glyphH, num, frameId: frame.id, key: it.key, answer, picPx: d.pic, pairPx: d.pairPic, names }));
   }
-  const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="rewrite" data-lcs-rows="${d.rows}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-glyphh="${d.glyphH}" data-lcs-w="${d.w}" data-lcs-class="${cfg.cls}" style="${rootStyle()}">` +
+  const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="rewrite" data-lcs-rows="${d.rows}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-glyphh="${d.glyphH}" data-lcs-w="${d.w}" data-lcs-class="${cfg.cls}" style="${rootStyle()}">` +
     `<div data-lcs-lanes style="flex:1;display:grid;grid-template-rows:repeat(${d.rows},minmax(${d.rowMin}px,1fr));row-gap:${d.rowGap}px;min-height:0">${rows.join('')}</div></div>`;
   return { bodyHtml, meta: { face: 'rewrite', cls: cfg.cls, items: items.map((it) => [it.key, it.chip, it.people.map((p) => p.key).join('+'), namesOf(it).join('+')]) } };
 }
@@ -769,6 +775,7 @@ function VERIFY_FACE() {
   const esc = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\/* ------------------------------------------------------------------ verify (page side; self-contained) ------------------------------------------------------------------ */');
   const hasWord = (t, w) => new RegExp('(?<!\\p{L})' + esc(w) + '(?!\\p{L})', 'iu').test(String(t));
   const and = root.dataset.lcsAnd || '';
+  const andAlts = (root.dataset.lcsAndalt || '').split(' ').filter(Boolean);
   const picsWant = (key) => (/^(m1|f1)$/.test(key) || /^obj:/.test(key) ? 1 : /^(mp|fp|xp|p)$/.test(key) ? 2 : -1);
   const srcs = new Set(), names = new Set();
   const checkPics = (el, key, L, floor) => {
@@ -846,7 +853,7 @@ function VERIFY_FACE() {
       if (!line1.endsWith(line2) || line1 === line2) fails.push(`${L}: line 2 "${line2}" is not line 1 "${line1}" minus its subject`);
       const subj = line1.slice(0, line1.length - line2.length).trim();
       nm.forEach((n) => { if (!hasWord(subj, n)) fails.push(`${L}: the subject "${subj}" lacks the name "${n}"`); });
-      if (nm.length === 2 && and && !hasWord(subj, and) && !/ e | y /.test(' ' + subj + ' ')) fails.push(`${L}: the pair subject "${subj}" lacks the and-word`);
+      if (nm.length === 2 && and && !hasWord(subj, and) && !andAlts.some((a) => hasWord(subj, a))) fails.push(`${L}: the pair subject "${subj}" lacks the and-word`);
       if (!answer || !bankWords.some((w) => fold(w) === fold(answer))) fails.push(`${L}: answer "${answer}" is not a bank word`);
       for (const w of bankWords) { if (hasWord(line1, w) || hasWord(line2, w)) fails.push(`${L}: the bank word "${w}" is printed in the sentence`); }
       const num = ln.dataset.lcsNum;
@@ -1203,7 +1210,7 @@ module.exports = {
     });
     // the K-354 idiom: cardGrid emits no per-card style; the type states the card padding inline
     const grid = cardGrid({ cards: html, cols: cfg.cols, rows: cfg.rows }).replace(/<section class="ws-card"/g, `<section class="ws-card" style="padding:${cfg.cardPad}"`);
-    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-cards="${cfg.cards}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-mixfloor="${cfg.mixFloor}" data-lcs-class="${cfg.cls}" ` +
+    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-cards="${cfg.cards}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-mixfloor="${cfg.mixFloor}" data-lcs-class="${cfg.cls}" ` +
       `style="flex:1;display:flex;flex-direction:column;min-height:0">${grid}</div>`;
     return {
       bodyHtml,

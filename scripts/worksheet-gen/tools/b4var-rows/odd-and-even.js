@@ -32,6 +32,19 @@
 const THEMED = { themeAxis: { applicable: true, minNouns: 6, excludeBw: true }, assetClass: 'icon-placement' };
 const ROWS = [
   ['g2', 'G2-351', 'odd-and-even-write-two-equal-addends', 'G1-351-odd-and-even.js', 2,
+    // ⚠ KNOWN PARTIAL ANSWER LEAK, left at 10 DELIBERATELY — every escape costs more than it buys.
+    // Found by the pt landing panel reading the render: at an even row width `N = pk + r` makes `pk`
+    // even, so the last row always carries the pile's parity. MEASURED over [3,20]: 18 of 18.
+    // It is PARTIAL, unlike the total leak closed on G1-369 — this face asks for `n = a + a + r`, so
+    // the tell hands over the leftover box and the par/ímpar chip but never the equal addends.
+    // Every alternative was measured and each breaks a harder contract:
+    //   · perRow 9  → a pile of 20 needs 3 dot rows against the face's cap of 2; all 110 builds
+    //                 refused. Narrowing to [3,18] to fit gives a WORSE 7 of 16 and weakens the
+    //                 standard claim, since 2.OA.C.3 is itself stated "up to 20".
+    //   · perRow 11 → 9 of 18 (chance) and fits the card (310 px in 391 px), but `dotRowCard` caps
+    //                 perRow at 5..10, so it is outside the component's own measured contract.
+    // 10 is therefore the ONLY legal width for a range reaching 20. Closing this needs a design
+    // ruling — raise the component cap, or accept a shorter range — not a unilateral change here.
     { mode: 'proof', range: [3, 20], cards: 8, split: [4, 4], minTwoRow: 2, dotsPerRow: 10, dotPx: 20, dotGap: 9 },
     'Odd or Even? Write Two Equal Addends', 'Circle the dots two by two. Then write the number as two equal parts and write what is left over in the small box.',
     { gradeBand: 'G2' }],

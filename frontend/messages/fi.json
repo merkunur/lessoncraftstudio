@@ -2061,7 +2061,17 @@
     "verb-forms": "Ilmaiset tulostettavat verbin persoonamuodot 3. luokalle: taivuta verbi minä, sinä, hän, me, te, he, täydennä lauseet, olla ja tulla, etsi perusmuoto.",
     "animal-fact-file": "Ilmaiset tulostettavat eläinkortit 2. luokalle: täytä eläinkortti, rastita oikeat tiedot, kirjoita kolme lausetta, vertaile kahta eläintä, kuka minä olen.",
     "logic-puzzles": "Ilmaiset tulostettavat päättelypulmat 1.–3. luokalle: lue vihjeet, täytä päättelyruudukko, kyllä- ja ei-vihjeet, kuvavihjeet, 4×4-ruudukko, totta vai tarua.",
-    "division-with-remainder": "Ilmaiset tulostettavat jakojäännöstehtävät 3. luokalle: ympyröi ryhmät, jaa tasan, harjoitusrivit, meneekö jako tasan, etsi virhe, hypyt lukusuoralla."
+    "division-with-remainder": "Ilmaiset tulostettavat jakojäännöstehtävät 3. luokalle: ympyröi ryhmät, jaa tasan, harjoitusrivit, meneekö jako tasan, etsi virhe, hypyt lukusuoralla.",
+    "tangram": "Tulostettavat tangram-tehtävät esikouluun ja alkuopetukseen: leikattava tangram-malli, helpot kaksi- ja kolmipalaiset kuviot, varjokuviot sekä kolmioiden ja neliöiden laskeminen.",
+    "human-body": "Tulostettavat kehon osat -tehtävät esikouluun ja 1. luokalle: sanapankki ja viivat, värityssivu selitteen mukaan, kirjainruudut, puuttuva osa ja parittaiset kehon osat.",
+    "five-senses": "Tulostettavat viisi aistia -tehtävät esikouluun ja 1. luokalle: aisti ja aistielin yhteen, kuvien lajittelu aisteittain, mikä ei kuulu joukkoon ja omat havainnot.",
+    "weather-symbols": "Tulostettavat säätehtävät esikoulusta 3. luokalle: säämerkit ja sääsanat, oman viikon säätaulukko, lämpömittari, sääennuste sekä veden kiertokulun vaiheet.",
+    "recycling": "Tulostettavat kierrätystehtävät esikoulusta 2. luokalle: mihin astiaan roska kuuluu, mitä materiaalia esine on, mikä ei kuulu joukkoon ja omat kierrätettävät asiat.",
+    "cloze": "Tulostettavat aukkotehtävät 1. ja 2. luokalle: puuttuva sana lauseeseen kuvan ja sanapankin avulla, kirjainruudut, kahden sanan valinta, monikko ja täydennettävä tarina.",
+    "odd-and-even": "Tulostettavat parilliset ja parittomat luvut -tehtävät 1. luokalta 3. luokalle: luvut talojen mukaan, ykkösnumeron sääntö sataan asti, tasan jakaminen ja summan parillisuus.",
+    "pronouns": "Tulostettavat persoonapronominitehtävät 1. ja 2. luokalle: hän vai he, nimen korvaaminen pronominilla, pronominin viittaus lauseessa ja lauseen kirjoittaminen uudelleen.",
+    "question-words": "Tulostettavat kysymyssanatehtävät 1. ja 2. luokalle: kuka, mitä, missä, milloin ja kuinka monta, kysymyksen ja vastauksen yhdistäminen sekä oman kysymyksen kirjoittaminen.",
+    "rounding": "Tulostettavat pyöristystehtävät 2. ja 3. luokalle: pyöristäminen lähimpään kymmeneen ja sataan, ylös- vai alaspäin, summan arviointi ja luvut jotka pyöristyvät samaan kymmeneen."
   },
   "topicProse": {
     "animals": "Eläinaiheiset tehtävät ovat varhaiskasvatuksen hyödyllisin teema, sillä sama sanasto kulkee mukana kaikkialla. Tutut hahmot — kissat, lehmät, linnut, kalat — toistuvat laskemisessa ja yhteenlaskussa, lajittelussa ja yhdistämisessä, mikä ei kuulu joukkoon -tehtävissä sekä alkukirjaimen tunnistamisessa, joten lapset harjoittelevat uutta taitoa tutuilla ja rakkailla kuvilla sen sijaan, että purkaisivat joka kerta uutta yhteyttä. Eläinten nimet ovat myös yleisiä jokaisessa julkaisemassamme kielessä, mikä tekee näistä tehtävistä erityisen käteviä, kun ryhmässä on lapsia eri kielitaitotasoilla. Tälle sivulle on koottu kaikki eläinaiheiset tehtävät eri tehtävätyypeistä. Jokainen on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio sekä vastaukset. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",

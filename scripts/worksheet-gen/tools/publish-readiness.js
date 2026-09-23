@@ -29,8 +29,9 @@ const PATHS = {
   b2var: { upload: (loc) => 'wave-b2var-' + loc, draft: (loc) => '.landing-b2var-' + loc + '.json' },
   b3: { upload: (loc) => 'wave-b3-' + loc + '-all', draft: (loc) => '.landing-b3-' + loc + '.json' },
   b4: { upload: (loc) => 'wave-b4-' + loc + '-all', draft: (loc) => '.landing-b4-' + loc + '.json' },   // nt10-D
+  b5: { upload: (loc) => 'wave-b5-' + loc + '-all', draft: (loc) => '.landing-b5-' + loc + '.json' },   // nt10-E
 };
-if (!PATHS[BATCH]) { console.error('publish-readiness: unknown --batch=' + BATCH + ' (b2var | b3 | b4)'); process.exit(2); }
+if (!PATHS[BATCH]) { console.error('publish-readiness: unknown --batch=' + BATCH + ' (b2var | b3 | b4 | b5)'); process.exit(2); }
 const LOCALES = (argOf('locales') || ALL_LOCALES.join(',')).split(',').map((s) => s.trim()).filter(Boolean);
 for (const l of LOCALES) if (!ALL_LOCALES.includes(l)) { console.error('publish-readiness: unknown locale ' + l); process.exit(2); }
 

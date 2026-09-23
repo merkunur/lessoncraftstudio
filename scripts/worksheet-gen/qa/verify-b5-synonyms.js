@@ -2,8 +2,10 @@
 /**
  * verify-b5-synonyms.js — the G2-358 `synonyms` family gate (design
  * docs/worksheet-gen/b5-designs/G2-358-synonyms.md §5; the nt10-E build brief deliverable 4).
- * BASE build (2026-09-23): sections 0-5 below; the face renders and the face-render
- * poisons (P6 P10 P15 P16 PR5) join in Phase 2 with the faces.
+ * BASE build (2026-09-23): sections 1-5 below. FACES (Phase E, 2026-09-23): section 6 =
+ * qa/b5-synonyms-faces.js (the five faces G1-395 G2-373 G1-396 G2-374 G3-397: sweeps, renders at
+ * 814 / 722 / 667, SPARSE + FILL + OVERLAP, the deferred face poisons P6 P10 P15 P16 PR5 and the
+ * face answer-tell / apparatus poisons); rule 10 also probes every face the block does not refuse.
  *
  *   node scripts/worksheet-gen/qa/verify-b5-synonyms.js [--quick]
  *
@@ -72,7 +74,7 @@ let _type = null;
 function TYPE() { if (!_type) _type = require('../types/g2/G2-358-synonyms.js'); return _type; }
 let _liveTitles = null;
 function liveTitlesEn() {
-  if (!_liveTitles) { const { loadAllTypes } = require('../lib/load-types.js'); _liveTitles = new Set(loadAllTypes().filter((t) => t.id !== 'G2-358' && t.i18n && t.i18n.en).map((t) => low(t.i18n.en.title))); }
+  if (!_liveTitles) { const { loadAllTypes } = require('../lib/load-types.js'); _liveTitles = new Set(loadAllTypes().filter((t) => !Object.values(DATA.FACES).includes(t.id) && t.i18n && t.i18n.en).map((t) => low(t.i18n.en.title))); }
   return _liveTitles;
 }
 
@@ -183,7 +185,7 @@ function validateBank(b, loc) {
     if (cols.size < 6) push(`only ${cols.size} say words are answered by a sentence — no 6 x 6 permutation draw exists (rule 8)`);
   }
   // rule 4 / 5: near + regional
-  const inBank = new Set([...groupOf.keys(), ...scaleOf.keys(), ...fieldOf.keys()]);
+  const inBank = new Set([...groupOf.keys(), ...scaleOf.keys(), ...fieldOf.keys(), ...(b.nearOnly || []).map(low)]);
   for (const n of b.near || []) {
     if (!inBank.has(low(n.a)) || !inBank.has(low(n.b))) push(`near ${n.a}~${n.b}: a word is not in the bank (rule 4)`);
     if (groupOf.has(low(n.a)) && groupOf.get(low(n.a)) === groupOf.get(low(n.b))) push(`near ${n.a}~${n.b} sits inside one group ${groupOf.get(low(n.a))} (rule 4)`);
@@ -260,6 +262,18 @@ function validateBank(b, loc) {
         const words = r.meta.cards.flatMap((c) => [c.target, ...c.tags]).map(low);
         if (new Set(words).size !== 40) push(`probe seed ${s}: ${new Set(words).size} distinct words ≠ 40 (rule 10)`);
       } catch (e) { push(`probe seed ${s}: the base draw refuses — ${e.message.slice(0, 120)} (rule 10)`); break; }
+    }
+    // rule 10, Phase E: every face the block does not refuse composes 20 seeds (F2: 16 distinct words)
+    const { loadType } = require('../lib/load-types.js');
+    for (const mode of TY.FACE_MODES) {
+      if ((b.refuse || []).includes(mode)) continue;
+      const FT = loadType(DATA.FACES[mode]);
+      for (let s = 1; s <= 20; s++) {
+        try {
+          const r = FT._buildWith(b, FT.difficulty[2], { locale: loc }, { rng: makeRng(`G2-358-probe-${mode}-${loc}-${s}`) });
+          if (mode === 'pairs' && new Set([...r.meta.left, ...r.meta.right].map(low)).size !== 16) push(`probe ${mode} seed ${s}: not 16 distinct words (rule 10)`);
+        } catch (e) { push(`probe ${mode} seed ${s}: the ${mode} face refuses — ${e.message.slice(0, 120)} (rule 10; list it under refuse if the panel agrees)`); break; }
+      }
     }
   }
   return f;
@@ -501,6 +515,10 @@ async function main() {
     { let m = ''; try { TY._buildWith(en, { mode: 'pairs', pairs: 8 }, { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } judge('PR7 base fed the F2 config', m ? [m] : [], /mode "pairs" is a face/); }
     // PS: SPARSE — d1 with its cards top-packed (flex-start) at the 814 chrome leaves a > 40 px band under the tags
     await rp('PS top-packed d1 cards (sparse)', doctored((html) => html.replace(/justify-content:space-evenly;padding:12px/g, 'justify-content:flex-start;padding:12px')), /SPARSE — \d+ px blank band/, { difficulty: 1, strings: SHORT });
+
+    // 6. FACES (Phase E) — qa/b5-synonyms-faces.js
+    await require('./b5-synonyms-faces.js').faceGate({ page, ok, judge, fails, validateBank, QUICK: quick, OUT,
+      CHROME: { one: SHORT, de722: LONG.de, fi667: LONG.fi } });
   } finally { await browser.close(); }
 
   console.log('poison:\n' + log.join('\n'));

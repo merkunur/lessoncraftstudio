@@ -25,11 +25,11 @@ const NEW_FAMILIES = {
   'family': { subject: 'letters', age: '5-7', name: 'Family Members', id: 'K-370' },
   'plants': { subject: 'science', age: '6-8', name: 'Parts of a Plant', id: 'G1-376' },
   'animal-life-cycles': { subject: 'science', age: '6-8', name: 'Animal Life Cycles', id: 'G1-377' },
-  'earth-and-space': { subject: 'science', age: '6-8', name: 'Sun, Earth and Moon', id: 'G1-378' },
+  'earth-and-space': { subject: 'science', age: '6-8', name: 'Sun, Moon and Planets', id: 'G1-378' },
   'maps': { subject: 'spatial-reasoning', age: '6-8', name: 'Map Skills', id: 'G1-379' },
   'digraphs': { subject: 'letters', age: '6-8', name: 'Digraphs', id: 'G1-380' },
   'synonyms': { subject: 'letters', age: '7-9', name: 'Synonyms', id: 'G2-358' },
-  'word-parts': { subject: 'letters', age: '7-9', name: 'Word Families and Word Parts', id: 'G2-359' },
+  'word-parts': { subject: 'letters', age: '7-9', name: 'Prefixes, Suffixes and Root Words', id: 'G2-359' },
 };
 
 if (require.main === module) {

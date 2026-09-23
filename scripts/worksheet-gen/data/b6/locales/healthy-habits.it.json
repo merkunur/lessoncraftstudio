@@ -1,0 +1,107 @@
+{
+  "strings": {
+    "base": {
+      "title": "Igiene personale per bambini: che cosa serve?",
+      "instruction": "Collega con una linea ogni bambino all'oggetto che gli serve."
+    },
+    "hand-washing-steps": {
+      "title": "Come lavarsi le mani",
+      "instruction": "Scrivi i numeri da 1 a 5 nei riquadri per mostrare come ci laviamo le mani."
+    },
+    "brushing-teeth": {
+      "title": "Lavarsi i denti: prima, durante e dopo",
+      "instruction": "Cerchia la parola che dice quando succede: prima, durante o dopo il lavaggio dei denti."
+    },
+    "stop-the-germs": {
+      "title": "Stop ai germi: tossire nel gomito e altri gesti sani",
+      "instruction": "In ogni riga, cerchia il disegno che ferma i germi."
+    },
+    "why-habits": {
+      "title": "Buone abitudini per stare bene: perché le facciamo?",
+      "instruction": "Collega con una linea ogni abitudine alla frase che spiega perché la facciamo."
+    },
+    "habit-chart": {
+      "title": "Tabella settimanale delle buone abitudini",
+      "instruction": "Ogni giorno, fai una crocetta nella casella di ogni abitudine che hai seguito."
+    }
+  },
+  "phases": {
+    "before": "prima",
+    "during": "durante",
+    "after": "dopo"
+  },
+  "labels": {
+    "wash-hands": "lavarsi le mani",
+    "brush-teeth": "lavarsi i denti",
+    "sleep": "dormire",
+    "move-body": "muoversi",
+    "drink-water": "bere acqua",
+    "sun-protect": "proteggersi dal sole",
+    "blow-nose": "soffiarsi il naso",
+    "comb-hair": "pettinarsi"
+  },
+  "labelStems": {
+    "wash-hands": [
+      "lavare",
+      "lavarsi",
+      "laviamo",
+      "mani",
+      "mano",
+      "sapone"
+    ],
+    "brush-teeth": [
+      "denti",
+      "dente",
+      "spazzolino",
+      "dentifricio",
+      "spazzolare"
+    ],
+    "sleep": [
+      "dormire",
+      "dormiamo",
+      "sonno",
+      "letto",
+      "notte"
+    ],
+    "move-body": [
+      "muoversi",
+      "muoviamo",
+      "correre",
+      "giocare",
+      "sport"
+    ],
+    "sun-protect": [
+      "sole",
+      "cappello",
+      "crema"
+    ],
+    "drink-water": [
+      "bere",
+      "beviamo",
+      "acqua",
+      "bicchiere"
+    ],
+    "blow-nose": [
+      "soffiarsi",
+      "naso",
+      "fazzoletto"
+    ],
+    "comb-hair": [
+      "pettinarsi",
+      "pettine",
+      "capelli"
+    ]
+  },
+  "reasons": {
+    "wash-hands": "Porta via i germi da tutte le cose che abbiamo toccato.",
+    "brush-teeth": "Tiene il nostro sorriso pulito e splendente.",
+    "sleep": "Il corpo e il cervello riposano e si preparano a una nuova giornata.",
+    "move-body": "Ci rende agili, veloci e forti.",
+    "sun-protect": "Non ci scottiamo nelle giornate calde d'estate.",
+    "drink-water": "Il nostro corpo ne ha bisogno per funzionare bene.",
+    "blow-nose": "Così possiamo di nuovo respirare bene."
+  },
+  "kaiOrder": false,
+  "coughPhrase": "nel gomito",
+  "weekStartOverride": null
+}

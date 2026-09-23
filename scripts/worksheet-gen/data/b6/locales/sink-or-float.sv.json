@@ -1,0 +1,159 @@
+{
+  "floatWord": "flyter",
+  "sinkWord": "sjunker",
+  "heads": {
+    "guess": "Jag gissar",
+    "test": "Testet",
+    "surprise": "Förvånad?"
+  },
+  "trueWord": "sant",
+  "falseWord": "falskt",
+  "clayWord": "lera",
+  "labels": {
+    "ball": "fotboll",
+    "log": "stock",
+    "pumpkin": "pumpa",
+    "apple": "äpple",
+    "lemon": "citron",
+    "banana": "banan",
+    "leaf": "löv",
+    "feather": "fjäder",
+    "pinecone": "kotte",
+    "pencil": "penna",
+    "toyboat": "leksaksbåt",
+    "ship": "fartyg",
+    "orange": "apelsin",
+    "rock": "sten",
+    "nail": "spik",
+    "hammer": "hammare",
+    "bolt": "skruv",
+    "pliers": "tång",
+    "scissors": "sax",
+    "potato": "potatis"
+  },
+  "tf": {
+    "T1": "En stor stock flyter.",
+    "T2": "En liten spik sjunker.",
+    "T3": "Ett fartyg av stål flyter.",
+    "T4": "En tung pumpa flyter.",
+    "T5": "Ett äpple flyter, men en potatis sjunker.",
+    "T6": "Samma lera kan både sjunka och flyta.",
+    "T7": "Vissa tunga saker flyter.",
+    "T8": "Vissa lätta saker sjunker.",
+    "F1": "En potatis flyter.",
+    "F2": "En fjäder sjunker.",
+    "F3": "Ett fartyg av stål sjunker.",
+    "F4": "En boll full med luft sjunker.",
+    "F5": "Alla tunga saker sjunker.",
+    "F6": "Alla lätta saker flyter.",
+    "F7": "Stora saker sjunker alltid.",
+    "F8": "En sak flyter för att den är lätt.",
+    "F9": "Bara små saker kan flyta."
+  },
+  "report": {
+    "question": "Min fråga",
+    "predict": "Jag tror",
+    "result": "Det här hände",
+    "learned": "Jag lärde mig",
+    "starter": "Nu vet jag att"
+  },
+  "questions": {
+    "orange": "Flyter en apelsin med skal? Flyter den utan skal?",
+    "cargo": "Hur många klossar kan en lerbåt bära innan den sjunker?"
+  },
+  "forbidden": [
+    "tunga saker sjunker",
+    "lätta saker flyter",
+    "för att den är lätt",
+    "densitet",
+    "flytkraft",
+    "salt"
+  ],
+  "experimentWords": [
+    "experiment",
+    "gissa",
+    "testa",
+    "undersökning"
+  ],
+  "apparatus": {
+    "ring": "ring",
+    "tank": "kar",
+    "star": "stjärna",
+    "spot": "streckade rutor"
+  },
+  "instructionBans": {
+    "base": [
+      "streck",
+      "grupp",
+      "hink",
+      "bock",
+      "klipp",
+      "ringa"
+    ],
+    "scale": [
+      "streck",
+      "grupp",
+      "hink",
+      "bock",
+      "klipp",
+      "färglägg"
+    ],
+    "shape": [
+      "streck",
+      "grupp",
+      "hink",
+      "bock",
+      "klipp"
+    ],
+    "truth": [
+      "streck",
+      "grupp",
+      "hink",
+      "bock",
+      "klipp",
+      "färglägg"
+    ],
+    "draw": [
+      "streck",
+      "grupp",
+      "hink",
+      "bock",
+      "klipp",
+      "ringa"
+    ],
+    "report": [
+      "streck",
+      "grupp",
+      "hink",
+      "bock",
+      "klipp"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "G1-399": {
+      "title": "Flyta eller sjunka? Gissa och testa i ett experiment",
+      "instruction": "Färglägg en ring i det första karet före testet, en ring i det andra karet efter testet och stjärnan om du blev förvånad."
+    },
+    "G1-408": {
+      "title": "Tungt eller lätt? Experiment med våg: flyta eller sjunka",
+      "instruction": "Vågen visar vilken sak som är tyngre: ringa in den sak som flyter i vatten."
+    },
+    "G2-382": {
+      "title": "Kan lera flyta? Experiment med formen",
+      "instruction": "Färglägg ringen där varje lerform hamnar i karet, ringa in den sak som flyter och rita sedan en egen lerbåt i det stora karet."
+    },
+    "G2-383": {
+      "title": "Varför flyter saker? Sant eller falskt efter experimentet",
+      "instruction": "Läs varje mening och ringa in sant eller falskt."
+    },
+    "K-384": {
+      "title": "Flyta eller sjunka: rita experimentet",
+      "instruction": "Rita två saker som flyter i de streckade rutorna på vattnet och två som sjunker i de streckade rutorna på botten."
+    },
+    "G3-400": {
+      "title": "Min experimentrapport: flyta eller sjunka",
+      "instruction": "Välj en fråga, skriv vad du tror, testa, rita sedan vad som hände och skriv vad du lärde dig."
+    }
+  }
+}

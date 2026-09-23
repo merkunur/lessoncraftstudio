@@ -210,9 +210,9 @@ const FACE = {
 
     if (L === 'draw') {
       const floatWord = literal(bankLoc, 'floatWord', 'bank', loc), sinkWord = literal(bankLoc, 'sinkWord', 'bank', loc);
-      if (!(d.tagPx >= 20)) throw new Error(`${ID}: draw tag text ${d.tagPx} < 20`);
+      if (!(d.tagPx >= 18)) throw new Error(`${ID}: draw tag text ${d.tagPx} < the K 18 px floor`);
       if (d.tub[1] > FACE_BODY) throw new Error(`${ID}: draw tub ${d.tub[1]} > ${FACE_BODY}`);
-      const tub = C6.sfTub({ floatWord, sinkWord, w: d.tub[0], h: d.tub[1], spots: d.spots, tagPx: d.tagPx, minH: d.tub[1] });
+      const tub = C6.sfTub({ floatWord, sinkWord, w: d.tub[0], h: d.tub[1], spots: d.spots, tagPx: d.tagPx, minH: d.tub[1], forceTagWidth: d.forceTagWidth || null });
       let html = tub.html;
       if (d.forceTwoTanks) html = html + waterTank({ w: 639, h: 120, mode: 'empty', id: 'second' }).svg;
       const bodyHtml = rootOpen(`data-lcs-spots="${d.spots}" data-lcs-float-word="${floatWord.replace(/"/g, '&quot;')}" data-lcs-sink-word="${sinkWord.replace(/"/g, '&quot;')}"`,
@@ -415,8 +415,11 @@ const FACE = {
         for (const [k, w] of [['float', root.dataset.lcsFloatWord], ['sink', root.dataset.lcsSinkWord]]) {
           const tag = root.querySelector(`[data-lcs-tag="${k}"]`), word = tag && tag.querySelector('[data-lcs-tag-word]');
           if (!word || NT(word.textContent) !== NT(w)) { fails.push(`the ${k} tag ≠ its word`); continue; }
-          if (parseFloat(getComputedStyle(word).fontSize) < 20) fails.push(`the ${k} tag text under 20 px`);
-          if (word.scrollWidth > word.clientWidth + 0.6 || rect(tag).right > rect(t).left + 0.3 * rect(t).width) fails.push(`the ${k} tag is clipped / leaves the tag column`);
+          if (parseFloat(getComputedStyle(word).fontSize) < 18) fails.push(`the ${k} tag text under the K 18 px floor`);
+          // de panel: the WORD must sit inside its tag's border (the old fixed 159 px tag let "schwimmt oben" run past it)
+          { const wr = rect(word), tr = rect(tag); if (wr.right > tr.right - 2 + 0.6 || wr.left < tr.left + 2 - 0.6 || word.scrollWidth > word.clientWidth + 0.6) fails.push(`the ${k} tag word "${word.textContent}" overflows its tag (${(wr.right - (tr.right - 2)).toFixed(1)} px)`); }
+          if (rect(tag).right > rect(t).right - 8) fails.push(`the ${k} tag leaves the tub`);
+          for (const sp of spots) { const a = rect(tag), b = rect(sp); if (a.left < b.right && b.left < a.right && a.top < b.bottom && b.top < a.bottom) fails.push(`the ${k} tag overlaps a ${sp.dataset.lcsSpot} spot`); }
           const c = (rect(tag).top + rect(tag).bottom) / 2, icon = tag.querySelector(`svg[data-lcs-pos-icon="${k}"]`);
           if (!icon) fails.push(`the ${k} tag has no ${k} icon`);
           if (k === 'float' && !(c < wy)) fails.push('the float tag is not in the air above the waterline');

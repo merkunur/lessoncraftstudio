@@ -1,0 +1,187 @@
+{
+  "floatWord": "schwimmt oben",
+  "sinkWord": "geht unter",
+  "heads": {
+    "guess": "Meine Vermutung",
+    "test": "Der Versuch",
+    "surprise": "Überrascht?"
+  },
+  "trueWord": "richtig",
+  "falseWord": "falsch",
+  "clayWord": "Knete",
+  "labels": {
+    "ball": "Ball",
+    "log": "Holzklotz",
+    "pumpkin": "Kürbis",
+    "apple": "Apfel",
+    "lemon": "Zitrone",
+    "banana": "Banane",
+    "leaf": "Blatt",
+    "feather": "Feder",
+    "pinecone": "Tannenzapfen",
+    "pencil": "Bleistift",
+    "toyboat": "Spielzeugboot",
+    "ship": "Schiff",
+    "orange": "Orange",
+    "rock": "Stein",
+    "nail": "Nagel",
+    "hammer": "Hammer",
+    "bolt": "Schraube",
+    "pliers": "Zange",
+    "scissors": "Schere",
+    "potato": "Kartoffel"
+  },
+  "tf": {
+    "T1": "Ein großer Holzklotz schwimmt.",
+    "T2": "Ein kleiner Nagel sinkt.",
+    "T3": "Ein Schiff aus Stahl schwimmt.",
+    "T4": "Ein schwerer Kürbis schwimmt.",
+    "T5": "Ein Apfel schwimmt, aber eine Kartoffel sinkt.",
+    "T6": "Dieselbe Knete kann sinken oder schwimmen.",
+    "T7": "Manche schweren Dinge schwimmen.",
+    "T8": "Manche leichten Dinge sinken.",
+    "F1": "Eine Kartoffel schwimmt.",
+    "F2": "Eine Feder sinkt.",
+    "F3": "Ein Schiff aus Stahl sinkt.",
+    "F4": "Ein Ball voller Luft sinkt.",
+    "F5": "Alle schweren Dinge sinken.",
+    "F6": "Alle leichten Dinge schwimmen.",
+    "F7": "Große Dinge sinken immer.",
+    "F8": "Etwas schwimmt, weil es leicht ist.",
+    "F9": "Nur kleine Dinge können schwimmen."
+  },
+  "report": {
+    "question": "Meine Frage",
+    "predict": "Ich vermute",
+    "result": "Was ist passiert?",
+    "learned": "Das habe ich herausgefunden",
+    "starter": "Jetzt weiß ich, dass"
+  },
+  "questions": {
+    "orange": "Schwimmt eine Orange mit Schale? Schwimmt sie auch ohne Schale?",
+    "cargo": "Wie viele Würfel kann ein Knetboot tragen, bevor es sinkt?"
+  },
+  "forbidden": [
+    "alle schweren dinge sinken",
+    "schwere dinge sinken",
+    "leichte dinge schwimmen",
+    "alle leichten dinge schwimmen",
+    "weil es leicht ist",
+    "weil er leicht ist",
+    "weil sie leicht ist",
+    "dichte",
+    "auftrieb",
+    "salz"
+  ],
+  "experimentWords": [
+    "versuch",
+    "experiment",
+    "vermut",
+    "forsch",
+    "protokoll",
+    "test"
+  ],
+  "apparatus": {
+    "ring": "Ring",
+    "tank": "Becken",
+    "star": "Stern",
+    "spot": "Kästchen"
+  },
+  "instructionBans": {
+    "base": [
+      "linie",
+      "linien",
+      "gruppe",
+      "gruppen",
+      "ankreuzen",
+      "kreuze",
+      "ausschneiden",
+      "schneide",
+      "kreise",
+      "einkreisen"
+    ],
+    "scale": [
+      "linie",
+      "linien",
+      "gruppe",
+      "gruppen",
+      "ankreuzen",
+      "kreuze",
+      "ausschneiden",
+      "schneide",
+      "male",
+      "ausmalen"
+    ],
+    "shape": [
+      "linie",
+      "linien",
+      "gruppe",
+      "gruppen",
+      "ankreuzen",
+      "kreuze",
+      "ausschneiden",
+      "schneide"
+    ],
+    "truth": [
+      "linie",
+      "linien",
+      "gruppe",
+      "gruppen",
+      "ankreuzen",
+      "kreuze",
+      "ausschneiden",
+      "schneide",
+      "male",
+      "ausmalen"
+    ],
+    "draw": [
+      "linie",
+      "linien",
+      "gruppe",
+      "gruppen",
+      "ankreuzen",
+      "kreuze",
+      "ausschneiden",
+      "schneide",
+      "kreise",
+      "einkreisen"
+    ],
+    "report": [
+      "linie",
+      "linien",
+      "gruppe",
+      "gruppen",
+      "ankreuzen",
+      "kreuze",
+      "ausschneiden",
+      "schneide"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "G1-399": {
+      "title": "Schwimmen und Sinken: Versuch mit Vermutung",
+      "instruction": "Male vor dem Versuch einen Ring im ersten Becken aus, nach dem Versuch einen Ring im zweiten Becken und den Stern, wenn es dich überrascht hat."
+    },
+    "G1-408": {
+      "title": "Schwer oder leicht? Versuch zum Schwimmen und Sinken",
+      "instruction": "Die Waage zeigt, was schwerer ist: Kreise ein, was im Wasser schwimmt."
+    },
+    "G2-382": {
+      "title": "Schwimmt Knete? Versuch mit Knetkugel und Knetboot",
+      "instruction": "Male bei jeder Knetform den Ring aus, wo sie landet, kreise ein, was schwimmt, und male dein eigenes Knetboot in das große Becken."
+    },
+    "G2-383": {
+      "title": "Warum schwimmt etwas? Richtig oder falsch zum Versuch",
+      "instruction": "Lies jeden Satz und kreise richtig oder falsch ein."
+    },
+    "K-384": {
+      "title": "Was schwimmt, was sinkt? Versuch zum Malen",
+      "instruction": "Male zwei Dinge, die schwimmen, in die gestrichelten Kästchen auf dem Wasser und zwei, die sinken, in die Kästchen am Boden."
+    },
+    "G3-400": {
+      "title": "Versuchsprotokoll: Schwimmen und Sinken",
+      "instruction": "Wähle eine Frage, schreibe deine Vermutung auf, mach den Versuch, male, was passiert ist, und schreibe auf, was du herausgefunden hast."
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "strings": {
+    "base": {
+      "title": "Hygien och goda vanor: vad behöver barnen?",
+      "instruction": "Dra ett streck från varje barn till det som barnet behöver."
+    },
+    "hand-washing-steps": {
+      "title": "Tvätta händerna med bildstöd",
+      "instruction": "Skriv 1 till 5 i rutorna och visa hur vi tvättar händerna."
+    },
+    "brushing-teeth": {
+      "title": "Borsta tänderna: före, under och efter",
+      "instruction": "Ringa in ordet som visar när det händer: före, under eller efter tandborstningen."
+    },
+    "stop-the-germs": {
+      "title": "Nysa och hosta i armvecket: stoppa bakterierna",
+      "instruction": "Ringa in bilden i varje rad som stoppar bakterierna från att spridas."
+    },
+    "why-habits": {
+      "title": "Goda vanor: varför gör vi så?",
+      "instruction": "Dra ett streck från varje vana till meningen som berättar varför vi gör så."
+    },
+    "habit-chart": {
+      "title": "Veckoschema för goda vanor",
+      "instruction": "Sätt varje dag en bock i rutan för varje vana som du har gjort."
+    }
+  },
+  "phases": {
+    "before": "före",
+    "during": "under",
+    "after": "efter"
+  },
+  "labels": {
+    "wash-hands": "tvätta händerna",
+    "brush-teeth": "borsta tänderna",
+    "sleep": "sova",
+    "move-body": "röra på sig",
+    "drink-water": "dricka vatten",
+    "sun-protect": "skydda sig mot solen",
+    "blow-nose": "snyta sig",
+    "comb-hair": "kamma håret"
+  },
+  "labelStems": {
+    "wash-hands": [
+      "tvätta",
+      "tvättar",
+      "hand",
+      "händer",
+      "händerna",
+      "handen",
+      "tvål",
+      "tvålen"
+    ],
+    "brush-teeth": [
+      "borsta",
+      "borstar",
+      "tand",
+      "tänder",
+      "tänderna",
+      "tandborste",
+      "tandkräm"
+    ],
+    "sleep": [
+      "sova",
+      "sover",
+      "sömn",
+      "säng",
+      "sängen",
+      "natt",
+      "natten"
+    ],
+    "move-body": [
+      "röra",
+      "rör",
+      "springa",
+      "springer",
+      "leka",
+      "leker",
+      "idrott",
+      "sport"
+    ],
+    "sun-protect": [
+      "sol",
+      "solen",
+      "hatt",
+      "keps",
+      "solkräm"
+    ],
+    "drink-water": [
+      "dricka",
+      "dricker",
+      "vatten",
+      "glas"
+    ],
+    "blow-nose": [
+      "snyta",
+      "snyter",
+      "näsduk"
+    ],
+    "comb-hair": [
+      "kamma",
+      "kam",
+      "hår",
+      "håret"
+    ]
+  },
+  "reasons": {
+    "wash-hands": "Då försvinner bakterierna från allt som vi har rört vid.",
+    "brush-teeth": "Då blir leendet rent och fint.",
+    "sleep": "Kroppen och hjärnan vilar och blir redo för en ny dag.",
+    "move-body": "Det gör oss pigga, snabba och starka.",
+    "sun-protect": "Då bränner vi oss inte en varm och solig dag.",
+    "drink-water": "Kroppen behöver det för att fungera bra.",
+    "blow-nose": "Då kan vi andas lätt igen."
+  },
+  "kaiOrder": false,
+  "coughPhrase": "i armvecket",
+  "weekStartOverride": null
+}

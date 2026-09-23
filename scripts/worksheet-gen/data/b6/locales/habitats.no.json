@@ -1,0 +1,261 @@
+{
+  "sets": {
+    "base": [
+      "forest",
+      "meadow",
+      "pond",
+      "ocean"
+    ]
+  },
+  "tileLabel": {
+    "ocean": "Hav",
+    "pond": "Vann",
+    "forest": "Skog",
+    "meadow": "Eng",
+    "polar": "Polarisen",
+    "polar-arctic": "Arktis",
+    "savanna": "Savanne",
+    "rainforest": "Regnskog"
+  },
+  "adapt": {
+    "camel-hump": "Pukkelen lagrer fett, så den klarer seg lenge uten mat.",
+    "giraffe-neck": "Den lange halsen når bladene høyt oppe i trærne.",
+    "elephant-trunk": "Den lange snabelen suger opp vann og plukker opp mat.",
+    "penguin-flippers": "Vingene er luffer: den svømmer fort, men kan ikke fly.",
+    "walrus-tusks": "Den bruker de lange støttennene til å dra den tunge kroppen opp av vannet.",
+    "woodpecker-beak": "Det sterke, spisse nebbet hakker hull i trestammer.",
+    "beaver-teeth": "De store fortennene feller trær, så den kan bygge hjemmet sitt i vannet.",
+    "whale-blowhole": "Den puster inn luft gjennom et hull oppå hodet.",
+    "fish-gills": "Den puster under vann med gjeller.",
+    "duck-feet": "Føttene med svømmehud skyver vannet unna som årer.",
+    "sloth-claws": "De lange, bøyde klørne gjør at den kan henge i greinene lenge.",
+    "toucan-beak": "Det enorme nebbet plukker frukt langt ute på tynne greiner.",
+    "squirrel-tail": "Den buskete halen hjelper den å holde balansen når den hopper fra grein til grein."
+  },
+  "names": {
+    "whale": [
+      "hval"
+    ],
+    "dolphin": [
+      "delfin"
+    ],
+    "octopus": [
+      "blekksprut"
+    ],
+    "starfish": [
+      "sjøstjerne"
+    ],
+    "jellyfish": [
+      "manet"
+    ],
+    "shark": [
+      "hai"
+    ],
+    "clownfish": [
+      "klovnefisk",
+      "fisk",
+      "nemo"
+    ],
+    "crab": [
+      "krabbe"
+    ],
+    "ray": [
+      "rokke"
+    ],
+    "seal-grey": [
+      "sel"
+    ],
+    "seal-white": [
+      "sel",
+      "selunge",
+      "kvitunge"
+    ],
+    "walrus": [
+      "hvalross"
+    ],
+    "narwhal": [
+      "narhval"
+    ],
+    "penguin": [
+      "pingvin"
+    ],
+    "deer": [
+      "rådyr",
+      "rådyrkalv",
+      "hjort",
+      "bambi"
+    ],
+    "squirrel": [
+      "ekorn"
+    ],
+    "woodpecker": [
+      "hakkespett"
+    ],
+    "badger": [
+      "grevling"
+    ],
+    "moose": [
+      "elg"
+    ],
+    "frog": [
+      "frosk"
+    ],
+    "dragonfly": [
+      "øyenstikker"
+    ],
+    "beaver": [
+      "bever"
+    ],
+    "duck": [
+      "and",
+      "andunge",
+      "kylling"
+    ],
+    "swan": [
+      "svane"
+    ],
+    "butterfly": [
+      "sommerfugl"
+    ],
+    "bee": [
+      "bie",
+      "humle"
+    ],
+    "grasshopper": [
+      "gresshoppe"
+    ],
+    "ladybug": [
+      "marihøne"
+    ],
+    "lion": [
+      "løve"
+    ],
+    "zebra": [
+      "sebra"
+    ],
+    "giraffe": [
+      "sjiraff"
+    ],
+    "elephant": [
+      "elefant"
+    ],
+    "rhinoceros": [
+      "neshorn"
+    ],
+    "ostrich": [
+      "struts"
+    ],
+    "monkey": [
+      "ape"
+    ],
+    "gorilla": [
+      "gorilla"
+    ],
+    "orangutan": [
+      "orangutang",
+      "ape"
+    ],
+    "sloth": [
+      "dovendyr"
+    ],
+    "toucan": [
+      "tukan"
+    ],
+    "macaw": [
+      "papegøye",
+      "ara"
+    ],
+    "camel": [
+      "kamel"
+    ],
+    "bird": [
+      "fugl"
+    ],
+    "spider": [
+      "edderkopp"
+    ],
+    "rabbit": [
+      "kanin",
+      "hare"
+    ],
+    "ant": [
+      "maur"
+    ]
+  },
+  "needs": {
+    "line": "Alle dyr trenger mat, vann og et hjem.",
+    "foodHead": "Mat",
+    "homeHead": "Hjem"
+  },
+  "report": {
+    "animals": "Dyr som lever her",
+    "plant": "En plante som vokser her",
+    "hot": "varmt",
+    "cold": "kaldt",
+    "wet": "vått",
+    "dry": "tørt"
+  },
+  "homeWord": {
+    "nest": "reir",
+    "hive": "bikube",
+    "web": "spindelvev",
+    "burrow": "hule",
+    "anthill": "maurtue",
+    "lodge": "beverhytte"
+  },
+  "refuse": [],
+  "refuseClaims": [],
+  "strings": {
+    "G1-398": {
+      "title": "Dyrenes leveområder: skog, eng, vann og hav",
+      "instruction": "Skriv under hvert dyr bokstaven til leveområdet der det lever."
+    },
+    "K-383": {
+      "title": "Dyrenes hjem: reir, hule og maurtue",
+      "instruction": "Trekk en strek fra hvert dyr til hjemmet sitt."
+    },
+    "G1-406": {
+      "title": "Leveområder: hvilket dyr bor ikke her?",
+      "instruction": "Sett kryss over dyret i hver rad som ikke bor i det leveområdet."
+    },
+    "G2-380": {
+      "title": "Dyrenes tilpasninger til leveområdet",
+      "instruction": "Skriv i hver rute bokstaven til dyret setningen handler om."
+    },
+    "G1-407": {
+      "title": "Hva trenger dyrene for å leve?",
+      "instruction": "Sett ring rundt maten og hjemmet til hvert dyr."
+    },
+    "G2-381": {
+      "title": "Mitt leveområde: undersøk og tegn",
+      "instruction": "Tegn tre dyr som lever i dette leveområdet, skriv navnene deres og en plante som vokser der, og sett ring rundt det riktige ordet i hvert par."
+    }
+  },
+  "placeWords": [
+    "ørken",
+    "ørkenen",
+    "sjø",
+    "sjøen",
+    "is",
+    "isen",
+    "havet",
+    "innsjø",
+    "innsjøen",
+    "dam",
+    "dammen",
+    "tjern",
+    "tjernet",
+    "skogen",
+    "enga",
+    "engen",
+    "jungel",
+    "jungelen",
+    "arktis",
+    "antarktis",
+    "savannen",
+    "regnskogen"
+  ],
+  "placeWordExempt": {
+    "vann": "\"vann\" is both the lake tile and the ordinary word for water; the elephant drinks water and a fish breathes under water, and no other word says that to a child"
+  }
+}

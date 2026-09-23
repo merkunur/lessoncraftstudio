@@ -1,0 +1,159 @@
+{
+  "floatWord": "kelluu",
+  "sinkWord": "uppoaa",
+  "heads": {
+    "guess": "Arvaukseni",
+    "test": "Kokeilu",
+    "surprise": "Yllätys?"
+  },
+  "trueWord": "totta",
+  "falseWord": "tarua",
+  "clayWord": "muovailuvaha",
+  "labels": {
+    "ball": "pallo",
+    "log": "pölkky",
+    "pumpkin": "kurpitsa",
+    "apple": "omena",
+    "lemon": "sitruuna",
+    "banana": "banaani",
+    "leaf": "lehti",
+    "feather": "sulka",
+    "pinecone": "käpy",
+    "pencil": "lyijykynä",
+    "toyboat": "leikkivene",
+    "ship": "laiva",
+    "orange": "appelsiini",
+    "rock": "kivi",
+    "nail": "naula",
+    "hammer": "vasara",
+    "bolt": "pultti",
+    "pliers": "pihdit",
+    "scissors": "sakset",
+    "potato": "peruna"
+  },
+  "tf": {
+    "T1": "Iso pölkky kelluu.",
+    "T2": "Pieni naula uppoaa.",
+    "T3": "Teräksinen laiva kelluu.",
+    "T4": "Painava kurpitsa kelluu.",
+    "T5": "Omena kelluu, mutta peruna uppoaa.",
+    "T6": "Sama muovailuvaha voi upota tai kellua.",
+    "T7": "Jotkin painavat esineet kelluvat.",
+    "T8": "Jotkin kevyet esineet uppoavat.",
+    "F1": "Peruna kelluu.",
+    "F2": "Sulka uppoaa.",
+    "F3": "Teräksinen laiva uppoaa.",
+    "F4": "Ilmalla täytetty pallo uppoaa.",
+    "F5": "Kaikki painavat esineet uppoavat.",
+    "F6": "Kaikki kevyet esineet kelluvat.",
+    "F7": "Isot esineet uppoavat aina.",
+    "F8": "Esine kelluu, koska se on kevyt.",
+    "F9": "Vain pienet esineet voivat kellua."
+  },
+  "report": {
+    "question": "Kysymykseni",
+    "predict": "Arvelen",
+    "result": "Mitä tapahtui",
+    "learned": "Opin",
+    "starter": "Nyt tiedän, että"
+  },
+  "questions": {
+    "orange": "Kelluuko appelsiini kuorineen? Kelluuko se ilman kuorta?",
+    "cargo": "Montako kuutiota muovailuvahavene jaksaa kantaa ennen kuin se uppoaa?"
+  },
+  "forbidden": [
+    "painavat esineet uppoavat",
+    "kevyet esineet kelluvat",
+    "koska se on kevyt",
+    "tiheys",
+    "noste",
+    "suolavesi"
+  ],
+  "experimentWords": [
+    "kokeilu",
+    "tutkimus",
+    "arvaus",
+    "koe"
+  ],
+  "apparatus": {
+    "ring": "ympyrä",
+    "tank": "astia",
+    "star": "tähti",
+    "spot": "katkoviivaruutu"
+  },
+  "instructionBans": {
+    "base": [
+      "viiva",
+      "ryhmä",
+      "roskakori",
+      "rasti",
+      "leikkaa",
+      "ympyröi"
+    ],
+    "scale": [
+      "viiva",
+      "ryhmä",
+      "roskakori",
+      "rasti",
+      "leikkaa",
+      "väritä"
+    ],
+    "shape": [
+      "viiva",
+      "ryhmä",
+      "roskakori",
+      "rasti",
+      "leikkaa"
+    ],
+    "truth": [
+      "viiva",
+      "ryhmä",
+      "roskakori",
+      "rasti",
+      "leikkaa",
+      "väritä"
+    ],
+    "draw": [
+      "viiva",
+      "ryhmä",
+      "roskakori",
+      "rasti",
+      "leikkaa",
+      "ympyröi"
+    ],
+    "report": [
+      "viiva",
+      "ryhmä",
+      "roskakori",
+      "rasti",
+      "leikkaa"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "G1-399": {
+      "title": "Kelluuko vai uppoaako? Arvaus ja kokeilu",
+      "instruction": "Väritä ennen kokeilua ympyrä ensimmäisessä astiassa, kokeilun jälkeen ympyrä toisessa astiassa ja tähti, jos yllätyit."
+    },
+    "G1-408": {
+      "title": "Painava vai kevyt? Kelluuko vai uppoaako -kokeilu vaa’alla",
+      "instruction": "Vaaka näyttää, kumpi on painavampi: ympyröi se, joka kelluu vedessä."
+    },
+    "G2-382": {
+      "title": "Muovailuvaha kellumaan: muodon muuttamisen kokeilu",
+      "instruction": "Väritä ympyrä sieltä, mihin kukin muovailuvahan muoto päätyy, ympyröi esine, joka kelluu, ja piirrä isoon astiaan oma muovailuvahaveneesi."
+    },
+    "G2-383": {
+      "title": "Miksi esine kelluu? Totta vai tarua kokeilun jälkeen",
+      "instruction": "Lue jokainen lause ja ympyröi totta tai tarua."
+    },
+    "K-384": {
+      "title": "Mikä kelluu, mikä uppoaa? Piirrä kokeilu",
+      "instruction": "Piirrä kaksi kelluvaa esinettä pinnan katkoviivaruutuihin ja kaksi uppoavaa esinettä pohjan katkoviivaruutuihin."
+    },
+    "G3-400": {
+      "title": "Kelluminen ja uppoaminen: oma tutkimusraportti",
+      "instruction": "Valitse kysymys, kirjoita arvauksesi, kokeile, piirrä, mitä tapahtui, ja kirjoita, mitä opit."
+    }
+  }
+}

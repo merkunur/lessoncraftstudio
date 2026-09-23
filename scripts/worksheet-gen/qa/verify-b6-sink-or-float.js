@@ -396,6 +396,17 @@ async function faceSection(page, judge, log, quick, banks) {
     const ctl = clayGate.checkForm(/<svg [^>]*data-lcs-form="boat"[^>]*>[\s\S]*?<\/svg>/.exec(c.bodyHtml)[0], 'boat', 120, 3634).f;
     log.push(`  PR9 control (the shipped boat): ${ctl.length} findings`); ok(!ctl.length, 'PR9 control: the shipped boat fails the clay gate');
   }
+  // de panel: a long tag word in the OLD fixed 159 px tag must overflow (poison); the auto-sized tag is the control
+  {
+    const F = loadFace('draw');
+    const deWord = { ...banks.en, floatWord: 'schwimmt oben', sinkWord: 'geht unter' };
+    const mk = (extra) => ({ ...F, build(o, ctx) { return this._buildWith(deWord, { ...this.difficulty[2], ...extra }, { locale: 'en' }, ctx); } });
+    const c = await faceRender(page, 'draw', 'tag-control', { type: mk({}) });
+    const cf = c.verify.filter((v) => !/≠ the bank/.test(v)); ok(!cf.length, `draw tag control (schwimmt oben): ${JSON.stringify(cf.slice(0, 3))}`);
+    log.push(`  draw tag control ("schwimmt oben" auto-sized): ${cf.length} findings`);
+    const x = await faceRender(page, 'draw', 'poison-tag-fixed', { type: mk({ forceTagWidth: 159 }) });
+    judge('PR15 F4 the old fixed 159 px tag with "schwimmt oben"', x.verify, /tag word "schwimmt oben" overflows its tag/);
+  }
   await fp('PR11 F5 answerBox without an answer', 'report', { forceAnswerBox: true }, /data-lcs-answer="undefined"/);
   await fp('PA1 F1 instruction names a tank', 'scale', {}, /instruction names "tank"/, { strings: { title: S['G1-408'].title, instruction: 'Color a ring in the tank for the thing that floats.' } });
   await fp('PA2 F3 instruction names a star', 'truth', {}, /instruction names "star"/, { strings: { title: S['G2-383'].title, instruction: 'Read each sentence and colour the star.' } });

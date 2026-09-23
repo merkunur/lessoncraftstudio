@@ -88,6 +88,16 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   // class (NHES, no CCSS). Each locale's literal is added by tools/apply-b6-locale.js from its native panel.
   'Health': {
     en: 'Health',
+    es: 'Vida saludable', // nt5-F panel (tools/apply-b6-locale.js)
+    fr: 'Questionner le monde : la santé', // nt5-F panel (tools/apply-b6-locale.js)
+    pt: 'Saúde', // nt5-F panel (tools/apply-b6-locale.js)
+    it: 'Educazione alla salute', // nt5-F panel (tools/apply-b6-locale.js)
+    nl: 'Gezondheid en verzorging', // nt5-F panel (tools/apply-b6-locale.js)
+    sv: 'Hälsa', // nt5-F panel (tools/apply-b6-locale.js)
+    da: 'Sundhedsundervisning', // nt5-F panel (tools/apply-b6-locale.js)
+    no: 'Folkehelse og livsmestring', // nt5-F panel (tools/apply-b6-locale.js)
+    fi: 'Terveys ja hyvinvointi (ympäristöoppi)', // nt5-F panel (tools/apply-b6-locale.js)
+    de: 'Gesundheitserziehung', // nt5-F panel (tools/apply-b6-locale.js)
   },
   // nt10-E social-studies printable families (road-safety, maps, family): en is a readiness class (no CCSS code);
   // each locale's literal is added by tools/apply-b5-locale.js from its native panel (strandNames['Social Studies']).
@@ -184,6 +194,10 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     it: 'Lettura: testi narrativi', // nt20-C panel (tools/apply-b3-locale.js)
     da: 'Læsning: skønlitteratur', // nt20-C panel (tools/apply-b3-locale.js)
     sv: 'Läsa: berättande texter', // nt20-C panel (tools/apply-b3-locale.js)
+    fr: 'Lecture : comprendre des récits', // nt5-F panel (tools/apply-b6-locale.js)
+    pt: 'Leitura de textos literários', // nt5-F panel (tools/apply-b6-locale.js)
+    no: 'Lesing: fortellinger', // nt5-F panel (tools/apply-b6-locale.js)
+    fi: 'Kertomusten lukeminen ja tulkitseminen', // nt5-F panel (tools/apply-b6-locale.js)
   },
   // Writing (composing texts). KMK Bereich „Texte verfassen"; opens the Writing
   // strand — the platform's first W activity (wobble-museum, beim Thema bleiben).

@@ -1,0 +1,161 @@
+{
+  "floatWord": "flyder",
+  "sinkWord": "synker",
+  "heads": {
+    "guess": "Mit gæt",
+    "test": "Forsøget",
+    "surprise": "Overrasket?"
+  },
+  "trueWord": "rigtigt",
+  "falseWord": "forkert",
+  "clayWord": "modellervoks",
+  "labels": {
+    "ball": "bold",
+    "log": "træstamme",
+    "pumpkin": "græskar",
+    "apple": "æble",
+    "lemon": "citron",
+    "banana": "banan",
+    "leaf": "blad",
+    "feather": "fjer",
+    "pinecone": "kogle",
+    "pencil": "blyant",
+    "toyboat": "legetøjsbåd",
+    "ship": "skib",
+    "orange": "appelsin",
+    "rock": "sten",
+    "nail": "søm",
+    "hammer": "hammer",
+    "bolt": "skrue",
+    "pliers": "tang",
+    "scissors": "saks",
+    "potato": "kartoffel"
+  },
+  "tf": {
+    "T1": "En stor træstamme flyder.",
+    "T2": "Et lille søm synker.",
+    "T3": "Et skib af stål flyder.",
+    "T4": "Et tungt græskar flyder.",
+    "T5": "Et æble flyder, men en kartoffel synker.",
+    "T6": "Den samme klump modellervoks kan både synke og flyde.",
+    "T7": "Nogle tunge ting flyder.",
+    "T8": "Nogle lette ting synker.",
+    "F1": "En kartoffel flyder.",
+    "F2": "En fjer synker.",
+    "F3": "Et skib af stål synker.",
+    "F4": "En bold fuld af luft synker.",
+    "F5": "Alle tunge ting synker.",
+    "F6": "Alle lette ting flyder.",
+    "F7": "Store ting synker altid.",
+    "F8": "En ting flyder, fordi den er let.",
+    "F9": "Kun små ting kan flyde."
+  },
+  "report": {
+    "question": "Mit spørgsmål",
+    "predict": "Jeg tror",
+    "result": "Det skete",
+    "learned": "Jeg lærte",
+    "starter": "Nu ved jeg, at"
+  },
+  "questions": {
+    "orange": "Flyder en appelsin med skræl? Flyder den uden skræl?",
+    "cargo": "Hvor mange klodser kan en båd af modellervoks bære, før den synker?"
+  },
+  "forbidden": [
+    "tunge ting synker",
+    "lette ting flyder",
+    "fordi den er let",
+    "fordi det er let",
+    "massefylde",
+    "densitet",
+    "opdrift",
+    "salt"
+  ],
+  "experimentWords": [
+    "forsøg",
+    "gæt",
+    "afprøv",
+    "undersøg"
+  ],
+  "apparatus": {
+    "ring": "ring",
+    "tank": "balje",
+    "star": "stjerne",
+    "spot": "stiplede felter"
+  },
+  "instructionBans": {
+    "base": [
+      "streg",
+      "gruppe",
+      "spand",
+      "flueben",
+      "klip",
+      "sæt ring om"
+    ],
+    "scale": [
+      "streg",
+      "gruppe",
+      "spand",
+      "flueben",
+      "klip",
+      "farv"
+    ],
+    "shape": [
+      "streg",
+      "gruppe",
+      "spand",
+      "flueben",
+      "klip"
+    ],
+    "truth": [
+      "streg",
+      "gruppe",
+      "spand",
+      "flueben",
+      "klip",
+      "farv"
+    ],
+    "draw": [
+      "streg",
+      "gruppe",
+      "spand",
+      "flueben",
+      "klip",
+      "ring"
+    ],
+    "report": [
+      "streg",
+      "gruppe",
+      "spand",
+      "flueben",
+      "klip"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "G1-399": {
+      "title": "Flyder eller synker? Gæt og afprøv i et forsøg",
+      "instruction": "Farv en ring i den første balje før forsøget, en ring i den anden balje bagefter og stjernen, hvis du blev overrasket."
+    },
+    "G1-408": {
+      "title": "Tung eller let? Flyde eller synke, forsøg med en vægt",
+      "instruction": "Vægten viser, hvilken ting der er tungest: sæt ring om den ting, der flyder i vand."
+    },
+    "G2-382": {
+      "title": "Kan modellervoks flyde? Forsøg med formen",
+      "instruction": "Farv ringen, hvor hver form af modellervoks ender, sæt ring om den ting, der flyder, og tegn din egen båd af modellervoks i den store balje."
+    },
+    "G2-383": {
+      "title": "Hvorfor flyder ting? Rigtigt eller forkert efter forsøget",
+      "instruction": "Læs hver sætning, og sæt ring om rigtigt eller forkert."
+    },
+    "K-384": {
+      "title": "Hvad flyder, hvad synker? Tegn forsøget",
+      "instruction": "Tegn to ting, der flyder, i de stiplede felter på vandet og to ting, der synker, i de stiplede felter på bunden."
+    },
+    "G3-400": {
+      "title": "Mit forsøg: flyder eller synker en appelsin?",
+      "instruction": "Vælg et spørgsmål, skriv, hvad du tror, afprøv det, og tegn så, hvad der skete, og skriv, hvad du lærte."
+    }
+  }
+}

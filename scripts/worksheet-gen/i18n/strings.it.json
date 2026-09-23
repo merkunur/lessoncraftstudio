@@ -2830,5 +2830,125 @@
   "G3-399": {
     "title": "Famiglie di parole nelle frasi",
     "instruction": "Scrivi ogni parola dei cartellini nello spazio tratteggiato della frase in cui sta bene."
+  },
+  "K-379": {
+    "title": "Storie in sequenza: numera le vignette",
+    "instruction": "Guarda che cosa cambia in ogni storia e scrivi i numeri nei riquadri per mettere le vignette in ordine."
+  },
+  "K-380": {
+    "title": "Igiene personale per bambini: che cosa serve?",
+    "instruction": "Collega con una linea ogni bambino all'oggetto che gli serve."
+  },
+  "G1-398": {
+    "title": "Gli ambienti degli animali: chi vive dove?",
+    "instruction": "Sotto ogni animale, scrivi la lettera dell'ambiente in cui vive."
+  },
+  "G1-399": {
+    "title": "Esperimento galleggia o affonda: prevedo e verifico",
+    "instruction": "Colora un cerchio nella prima vaschetta prima della prova, un cerchio nella seconda dopo la prova e la stella se il risultato ti ha sorpreso."
+  },
+  "G2-377": {
+    "title": "Corsivo classe prima: le vocali a, e, i, o, u",
+    "instruction": "Ripassa le lettere grigie, poi scrivi tu ogni lettera legata fino alla fine della riga e sulla riga vuota qui sotto."
+  },
+  "K-381": {
+    "title": "Storie in sequenza da ritagliare: prima, dopo, infine",
+    "instruction": "Ritaglia le vignette di ogni striscia e incollale nelle cornici vuote sopra Prima, Dopo e Infine."
+  },
+  "G1-400": {
+    "title": "Storie in sequenza: che cosa succede dopo?",
+    "instruction": "Guarda le tre vignette di ogni storia e cerchia, tra quelle qui sotto, la vignetta che va nella cornice con il punto di domanda."
+  },
+  "G1-401": {
+    "title": "Inizio, svolgimento e conclusione di una storia",
+    "instruction": "Guarda l'inizio e la conclusione di ogni storia e disegna nel riquadro centrale che cosa succede nello svolgimento."
+  },
+  "G1-402": {
+    "title": "Storie in sequenza: collega le frasi alle vignette",
+    "instruction": "Leggi le frasi di ogni storia e collega con una linea ogni frase alla sua vignetta."
+  },
+  "G2-378": {
+    "title": "Sequenze di immagini per raccontare una storia",
+    "instruction": "Scrivi sulle righe che cosa succede in ogni vignetta, cominciando con la parola già scritta sulla prima riga."
+  },
+  "K-382": {
+    "title": "Come lavarsi le mani",
+    "instruction": "Scrivi i numeri da 1 a 5 nei riquadri per mostrare come ci laviamo le mani."
+  },
+  "G1-403": {
+    "title": "Lavarsi i denti: prima, durante e dopo",
+    "instruction": "Cerchia la parola che dice quando succede: prima, durante o dopo il lavaggio dei denti."
+  },
+  "G1-404": {
+    "title": "Stop ai germi: tossire nel gomito e altri gesti sani",
+    "instruction": "In ogni riga, cerchia il disegno che ferma i germi."
+  },
+  "G2-379": {
+    "title": "Buone abitudini per stare bene: perché le facciamo?",
+    "instruction": "Collega con una linea ogni abitudine alla frase che spiega perché la facciamo."
+  },
+  "G1-405": {
+    "title": "Tabella settimanale delle buone abitudini",
+    "instruction": "Ogni giorno, fai una crocetta nella casella di ogni abitudine che hai seguito."
+  },
+  "K-383": {
+    "title": "Le case degli animali: nido, tana e alveare",
+    "instruction": "Collega con una linea ogni animale alla sua casa."
+  },
+  "G1-406": {
+    "title": "Gli ambienti degli animali: trova l'intruso",
+    "instruction": "In ogni riga, barra con una X l'animale che non vive in quell'ambiente."
+  },
+  "G2-380": {
+    "title": "L'adattamento degli animali all'ambiente",
+    "instruction": "Scrivi nel riquadro di ogni frase la lettera dell'animale di cui parla."
+  },
+  "G1-407": {
+    "title": "Di che cosa hanno bisogno gli animali per vivere?",
+    "instruction": "Per ogni animale, cerchia il cibo che mangia e la casa in cui vive."
+  },
+  "G2-381": {
+    "title": "La mia ricerca su un ambiente: animali e piante",
+    "instruction": "Disegna tre animali che vivono in questo ambiente, scrivi i loro nomi e una pianta che cresce lì, e cerchia la parola giusta in ogni coppia."
+  },
+  "G1-408": {
+    "title": "Pesante o leggero? Esperimento galleggia o affonda con la bilancia",
+    "instruction": "La bilancia mostra quale oggetto è più pesante: cerchia quello che galleggia nell'acqua."
+  },
+  "G2-382": {
+    "title": "La barchetta di plastilina: esperimento sulla forma",
+    "instruction": "Colora il cerchio dove finisce ogni forma di plastilina, cerchia l'oggetto che galleggia e poi disegna la tua barchetta nella vaschetta grande."
+  },
+  "G2-383": {
+    "title": "Perché galleggia? Vero o falso sull'esperimento",
+    "instruction": "Leggi ogni frase e cerchia vero o falso."
+  },
+  "K-384": {
+    "title": "Cosa galleggia e cosa affonda: disegna l'esperimento",
+    "instruction": "Disegna due cose che galleggiano nei riquadri sull'acqua e due che affondano nei riquadri sul fondo."
+  },
+  "G3-400": {
+    "title": "La relazione del mio esperimento: galleggia o affonda",
+    "instruction": "Scegli una domanda, scrivi che cosa pensi, fai la prova, poi disegna che cosa è successo e scrivi che cosa hai imparato."
+  },
+  "G2-384": {
+    "title": "Corsivo maiuscolo classe seconda: scrivi i nomi",
+    "instruction": "Ripassa ogni lettera maiuscola grigia e il nome, poi scrivili sulla riga vuota qui sotto."
+  },
+  "G2-385": {
+    "title": "Corsivo classe prima: legare le lettere a due a due",
+    "instruction": "Ripassa ogni coppia di lettere grigie legate e la parola, poi scrivile sulla riga vuota qui sotto."
+  },
+  "G2-386": {
+    "title": "Parole in corsivo da scrivere con le figure",
+    "instruction": "Ripassa ogni parola grigia tutta legata, poi scrivila sulla riga qui sotto e aggiungi alla fine i puntini e i taglietti."
+  },
+  "G2-387": {
+    "title": "Leggere il corsivo: collega la parola alla figura",
+    "instruction": "Leggi ogni parola in corsivo e collegala con una linea alla sua figura."
+  },
+  "G3-401": {
+    "title": "Frasi in corsivo da ricopiare",
+    "instruction": "Prima ripassa la frase grigia, poi ricopia in corsivo ogni frase in stampato sulle due righe qui sotto."
   }
 }

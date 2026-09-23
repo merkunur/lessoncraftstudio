@@ -2850,5 +2850,101 @@
   "G3-399": {
     "title": "Johdokset lauseissa",
     "instruction": "Kirjoita jokainen kantasanan yläpuolella olevista neljästä sanasta sen lauseen ruutuun, johon sana sopii."
+  },
+  "K-379": {
+    "title": "Kuvasarja järjestykseen: numeroi kuvat",
+    "instruction": "Katso, mikä kussakin tarinassa muuttuu, ja kirjoita ruutuihin numerot niin, että kuvat ovat oikeassa järjestyksessä."
+  },
+  "K-380": {
+    "title": "Hygienia ja terveelliset tavat: mitä kukin tarvitsee?",
+    "instruction": "Vedä viiva jokaisesta lapsesta siihen esineeseen, jota lapsi tarvitsee."
+  },
+  "G1-398": {
+    "title": "Eläinten elinympäristöt: metsä, niitty, järvi ja meri",
+    "instruction": "Kirjoita jokaisen eläimen alle sen elinympäristön kirjain, jossa se elää."
+  },
+  "G1-399": {
+    "title": "Kelluuko vai uppoaako? Arvaus ja kokeilu",
+    "instruction": "Väritä ennen kokeilua ympyrä ensimmäisessä astiassa, kokeilun jälkeen ympyrä toisessa astiassa ja tähti, jos yllätyit."
+  },
+  "K-381": {
+    "title": "Kuvasarja leikattavaksi: ensin, sitten, lopuksi",
+    "instruction": "Leikkaa kuvat irti kaistaleista ja liimaa ne tyhjiin kehyksiin sanojen Ensin, Sitten ja Lopuksi yläpuolelle."
+  },
+  "G1-400": {
+    "title": "Kuvasarja: mitä tapahtuu seuraavaksi?",
+    "instruction": "Katso kunkin tarinan kolmea kuvaa ja ympyröi niiden alta kuva, joka kuuluu kysymysmerkin kehykseen."
+  },
+  "G1-401": {
+    "title": "Kuvakertomus: alku, keskikohta ja loppu",
+    "instruction": "Katso kunkin tarinan alkua ja loppua ja piirrä keskimmäiseen kehykseen, mitä niiden välissä tapahtuu."
+  },
+  "G1-402": {
+    "title": "Kuvasarja ja lauseet: yhdistä lause kuvaan",
+    "instruction": "Lue kunkin tarinan lauseet ja vedä viiva jokaisesta lauseesta sen kuvaan."
+  },
+  "G2-378": {
+    "title": "Kuvasarja tarinan kirjoittamiseen aloitussanoilla",
+    "instruction": "Kirjoita kunkin kuvan viereisille viivoille, mitä kuvassa tapahtuu, ja aloita ensimmäisellä viivalla olevalla sanalla."
+  },
+  "K-382": {
+    "title": "Käsienpesuohje lapsille: pese kädet oikein",
+    "instruction": "Kirjoita ruutuihin numerot 1–5 niin, että ne näyttävät, miten kädet pestään."
+  },
+  "G1-403": {
+    "title": "Hampaiden pesu: ennen, aikana ja jälkeen",
+    "instruction": "Ympyröi jokaisen kuvan vierestä sana, joka kertoo, tapahtuuko se ennen pesua, pesun aikana vai pesun jälkeen."
+  },
+  "G1-404": {
+    "title": "Yski ja aivasta hihaan: pysäytä pöpöt",
+    "instruction": "Ympyröi joka riviltä kuva, jossa pöpöt eivät pääse leviämään."
+  },
+  "G2-379": {
+    "title": "Terveelliset tavat: miksi teemme niin?",
+    "instruction": "Vedä viiva jokaisesta tavasta siihen lauseeseen, joka kertoo, miksi teemme niin."
+  },
+  "G1-405": {
+    "title": "Terveellisten tapojen viikkotaulukko",
+    "instruction": "Laita joka päivä rasti ruutuun jokaisen tavan kohdalle, jonka teit."
+  },
+  "K-383": {
+    "title": "Eläinten pesät ja kodit: kuka asuu missäkin?",
+    "instruction": "Vedä viiva jokaisesta eläimestä sen kotiin."
+  },
+  "G1-406": {
+    "title": "Eläinten elinympäristöt: kuka ei asu täällä?",
+    "instruction": "Piirrä joka rivillä rasti sen eläimen päälle, joka ei elä siinä elinympäristössä."
+  },
+  "G2-380": {
+    "title": "Eläinten sopeutuminen elinympäristöön",
+    "instruction": "Kirjoita jokaisen lauseen ruutuun sen eläimen kirjain, josta lause kertoo."
+  },
+  "G1-407": {
+    "title": "Mitä eläimet tarvitsevat? Ruoka ja koti",
+    "instruction": "Ympyröi jokaisen eläimen kohdalta ruoka, jota se syö, ja koti, jossa se asuu."
+  },
+  "G2-381": {
+    "title": "Oma elinympäristöni: tutki ja piirrä",
+    "instruction": "Piirrä kolme eläintä, jotka elävät tässä elinympäristössä, kirjoita niiden nimet ja siellä kasvava kasvi ja ympyröi jokaisesta sanaparista oikea sana."
+  },
+  "G1-408": {
+    "title": "Painava vai kevyt? Kelluuko vai uppoaako -kokeilu vaa’alla",
+    "instruction": "Vaaka näyttää, kumpi on painavampi: ympyröi se, joka kelluu vedessä."
+  },
+  "G2-382": {
+    "title": "Muovailuvaha kellumaan: muodon muuttamisen kokeilu",
+    "instruction": "Väritä ympyrä sieltä, mihin kukin muovailuvahan muoto päätyy, ympyröi esine, joka kelluu, ja piirrä isoon astiaan oma muovailuvahaveneesi."
+  },
+  "G2-383": {
+    "title": "Miksi esine kelluu? Totta vai tarua kokeilun jälkeen",
+    "instruction": "Lue jokainen lause ja ympyröi totta tai tarua."
+  },
+  "K-384": {
+    "title": "Mikä kelluu, mikä uppoaa? Piirrä kokeilu",
+    "instruction": "Piirrä kaksi kelluvaa esinettä pinnan katkoviivaruutuihin ja kaksi uppoavaa esinettä pohjan katkoviivaruutuihin."
+  },
+  "G3-400": {
+    "title": "Kelluminen ja uppoaminen: oma tutkimusraportti",
+    "instruction": "Valitse kysymys, kirjoita arvauksesi, kokeile, piirrä, mitä tapahtui, ja kirjoita, mitä opit."
   }
 }

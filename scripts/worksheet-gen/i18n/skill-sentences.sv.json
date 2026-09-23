@@ -418,5 +418,25 @@
   "word-parts": {
     "full": "Släktord, prefix och suffix: sortera ord efter ordstammen, hitta ordstammen, välja prefix efter betydelse och bilda ord för personer.",
     "short": "Släktord, ordstam och prefix"
+  },
+  "story-sequencing": {
+    "full": "Barnet läser en bildserie, ser vad som ändras från bild till bild och berättar händelserna i rätt ordning med orden först, sedan och till sist.",
+    "short": "Berätta en bildserie i rätt ordning"
+  },
+  "healthy-habits": {
+    "full": "Barnet övar vardagliga hygienvanor: tvätta händerna, borsta tänderna och nysa och hosta i armvecket, och förklarar varför vanorna håller oss friska.",
+    "short": "Goda vanor och hygien i vardagen"
+  },
+  "habitats": {
+    "full": "Barnet kopplar djur till deras livsmiljöer i skogen, på ängen, i sjön och i havet, och lär sig om djurens bon, behov och kroppsliga anpassningar.",
+    "short": "Djur och deras livsmiljöer"
+  },
+  "sink-or-float": {
+    "full": "Barnet gissar om saker flyter eller sjunker, testar i vatten och upptäcker att tyngd ensam inte avgör: en tung pumpa flyter och en liten spik sjunker.",
+    "short": "Gissa och testa: flyta eller sjunka"
+  },
+  "cursive-writing": {
+    "full": "Skrivstil med sammanbundna bokstäver ingår inte i Lgr22, så den här sidtypen publiceras inte på svenska; eleverna skriver med gemena och versaler.",
+    "short": "Skrivstil publiceras inte på svenska"
   }
 }

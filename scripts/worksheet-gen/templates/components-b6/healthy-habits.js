@@ -178,6 +178,21 @@ function hhReasonMatch({ habits, reasons, rowMin = 108 }) {
   return `<div class="hh-match" style="flex:1 1 auto;min-height:0;display:grid;row-gap:12px;padding:0 30px;grid-template-rows:repeat(${habits.length},minmax(${rowMin}px,1fr))">${rows}</div>`;
 }
 
+/**
+ * FIX ROUND 1c (pt generation: "lavar as mãos" left "as" at a line end): every word of <= 3 letters is GLUED to the word
+ * after it in a white-space:nowrap span, in the RENDERED markup only (the bank / strings keep plain spaces, no U+00A0),
+ * so a line can never end on a short function word in any locale; balanced wrapping then evens the two lines.
+ */
+function glueShortWords(label) {
+  const words = String(label).split(/ +/).filter(Boolean);
+  const groups = [];
+  for (let i = 0; i < words.length; i++) {
+    const g = [words[i]];
+    while (i + 1 < words.length && g[g.length - 1].replace(/\P{L}/gu, '').length <= 3) g.push(words[++i]);
+    groups.push(g.length > 1 ? `<span style="white-space:nowrap">${esc(g.join(' '))}</span>` : esc(g[0]));
+  }
+  return groups.join(' ');
+}
 /** F5 — the week chart: 7 day heads, one row per habit (a small plaque + the short label), 7 empty tick squares. */
 function hhWeekChart({ rows, days, rowMin = 96 }) {
   const cols = 'grid-template-columns:174px repeat(7,66px)';
@@ -188,10 +203,10 @@ function hhWeekChart({ rows, days, rowMin = 96 }) {
     plaqueBox(`<div style="width:100%;height:100%">${HP.habitFigure({ pose: r.pose, fit: true }).svg}</div>`, 'width:72px;height:72px;padding:3px;flex:0 0 72px', ` data-lcs-habit="${esc(r.key)}"`) +
     // text-wrap:balance (FIX ROUND 1, fr panel): a two-line label breaks at its middle, never leaving a short word
     // ("les", "die") stranded at the end of line 1; verify() measures every line end
-    `<span data-lcs-row-label style="width:94px;font-family:${F.body},sans-serif;font-weight:800;font-size:16px;line-height:19px;color:${T.ink};overflow-wrap:normal;word-break:normal;hyphens:none;text-wrap:balance">${esc(r.label)}</span></div>` +
+    `<span data-lcs-row-label style="width:94px;font-family:${F.body},sans-serif;font-weight:800;font-size:16px;line-height:19px;color:${T.ink};overflow-wrap:normal;word-break:normal;hyphens:none;text-wrap:balance">${glueShortWords(r.label)}</span></div>` +
     days.map(() => `<span style="display:flex;justify-content:center"><span data-lcs-tick style="box-sizing:border-box;display:block;width:52px;height:52px;background:${T.white};border:1.5px solid ${T.grid};border-radius:8px"></span></span>`).join('') +
     '</div>').join('');
   return `<div class="hh-chart" style="flex:1 1 auto;min-height:0;display:grid;justify-content:center;grid-template-rows:40px repeat(${rows.length},minmax(${rowMin}px,1fr));row-gap:4px">${head}${body}</div>`;
 }
 
-module.exports = { hhFace, hhRail, hhPlaque, hhShelf, hhHooks, HH_ZONE: { min: ZONE_MIN, max: ZONE_MAX }, hhStepCard, hhStepGrid, hhPhaseCell, hhPhaseGrid, hhPairRow, hhPairRows, hhReasonMatch, hhWeekChart };
+module.exports = { hhFace, hhRail, hhPlaque, hhShelf, hhHooks, HH_ZONE: { min: ZONE_MIN, max: ZONE_MAX }, hhStepCard, hhStepGrid, hhPhaseCell, hhPhaseGrid, hhPairRow, hhPairRows, hhReasonMatch, hhWeekChart, glueShortWords };

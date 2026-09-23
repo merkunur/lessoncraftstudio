@@ -1,0 +1,259 @@
+{
+  "sets": {
+    "base": [
+      "rainforest",
+      "ocean",
+      "savanna"
+    ]
+  },
+  "rainforestRegion": "americas",
+  "tileLabel": {
+    "rainforest": "Floresta Amazônica",
+    "ocean": "Mar",
+    "savanna": "Savana",
+    "polar": "Polo Sul",
+    "polar-arctic": "Polo Norte"
+  },
+  "placeWords": [
+    "deserto",
+    "mar",
+    "oceano",
+    "gelo",
+    "ártico",
+    "antártida",
+    "polo",
+    "lagoa",
+    "lago",
+    "floresta",
+    "mata",
+    "bosque",
+    "campo",
+    "savana",
+    "amazônia",
+    "selva"
+  ],
+  "adapt": {
+    "camel-hump": "A corcova guarda gordura, por isso ele passa muito tempo sem comer.",
+    "giraffe-neck": "O pescoço comprido alcança as folhas lá no alto das árvores.",
+    "elephant-trunk": "A tromba comprida puxa água e pega a comida.",
+    "penguin-flippers": "As asas são nadadeiras: ele nada rápido, mas não voa.",
+    "walrus-tusks": "Usa as presas compridas para puxar o corpo pesado para fora da água.",
+    "woodpecker-beak": "O bico forte e pontudo faz buracos no tronco das árvores.",
+    "beaver-teeth": "Os dentes da frente, grandes, cortam árvores para construir a casa dele na água.",
+    "whale-blowhole": "Respira o ar por um buraco no alto da cabeça.",
+    "fish-gills": "Respira debaixo da água com as brânquias.",
+    "duck-feet": "Os pés com membranas empurram a água como remos.",
+    "sloth-claws": "Com as garras longas e curvas, ele fica pendurado nos galhos por horas.",
+    "toucan-beak": "O bico enorme alcança as frutas na ponta dos galhos finos.",
+    "squirrel-tail": "A cauda peluda ajuda a equilibrar o corpo quando ele pula de galho em galho."
+  },
+  "names": {
+    "whale": [
+      "baleia"
+    ],
+    "dolphin": [
+      "golfinho",
+      "boto"
+    ],
+    "octopus": [
+      "polvo"
+    ],
+    "starfish": [
+      "estrela-do-mar",
+      "estrela do mar"
+    ],
+    "jellyfish": [
+      "água-viva",
+      "água viva"
+    ],
+    "shark": [
+      "tubarão"
+    ],
+    "clownfish": [
+      "peixe-palhaço",
+      "peixe palhaço",
+      "nemo",
+      "peixe"
+    ],
+    "crab": [
+      "caranguejo",
+      "siri"
+    ],
+    "ray": [
+      "arraia",
+      "raia"
+    ],
+    "seal-grey": [
+      "foca",
+      "leão-marinho"
+    ],
+    "seal-white": [
+      "foca",
+      "filhote de foca"
+    ],
+    "walrus": [
+      "morsa"
+    ],
+    "narwhal": [
+      "narval",
+      "baleia"
+    ],
+    "penguin": [
+      "pinguim"
+    ],
+    "deer": [
+      "veado",
+      "cervo",
+      "bambi",
+      "filhote"
+    ],
+    "squirrel": [
+      "esquilo"
+    ],
+    "woodpecker": [
+      "pica-pau"
+    ],
+    "badger": [
+      "texugo"
+    ],
+    "moose": [
+      "alce"
+    ],
+    "frog": [
+      "sapo",
+      "rã",
+      "perereca"
+    ],
+    "dragonfly": [
+      "libélula"
+    ],
+    "beaver": [
+      "castor"
+    ],
+    "duck": [
+      "pato",
+      "patinho",
+      "pintinho"
+    ],
+    "swan": [
+      "cisne"
+    ],
+    "butterfly": [
+      "borboleta"
+    ],
+    "bee": [
+      "abelha"
+    ],
+    "grasshopper": [
+      "gafanhoto"
+    ],
+    "ladybug": [
+      "joaninha"
+    ],
+    "lion": [
+      "leão"
+    ],
+    "zebra": [
+      "zebra"
+    ],
+    "giraffe": [
+      "girafa"
+    ],
+    "elephant": [
+      "elefante"
+    ],
+    "rhinoceros": [
+      "rinoceronte"
+    ],
+    "ostrich": [
+      "avestruz"
+    ],
+    "monkey": [
+      "macaco"
+    ],
+    "gorilla": [
+      "gorila"
+    ],
+    "orangutan": [
+      "orangotango",
+      "macaco"
+    ],
+    "sloth": [
+      "bicho-preguiça",
+      "preguiça"
+    ],
+    "toucan": [
+      "tucano"
+    ],
+    "macaw": [
+      "arara",
+      "papagaio"
+    ],
+    "camel": [
+      "camelo",
+      "dromedário"
+    ],
+    "bird": [
+      "passarinho",
+      "pássaro"
+    ],
+    "spider": [
+      "aranha"
+    ],
+    "rabbit": [
+      "coelho"
+    ],
+    "ant": [
+      "formiga"
+    ]
+  },
+  "needs": {
+    "line": "Todo animal precisa de comida, água e um lugar para morar.",
+    "foodHead": "Comida",
+    "homeHead": "Moradia"
+  },
+  "report": {
+    "animals": "Animais que vivem aqui",
+    "plant": "Uma planta que cresce aqui",
+    "hot": "quente",
+    "cold": "frio",
+    "wet": "úmido",
+    "dry": "seco"
+  },
+  "homeWord": {
+    "nest": "ninho",
+    "hive": "colmeia",
+    "web": "teia",
+    "burrow": "toca",
+    "anthill": "formigueiro",
+    "lodge": "toca do castor"
+  },
+  "refuse": [],
+  "refuseClaims": [],
+  "strings": {
+    "G1-398": {
+      "title": "Habitat dos animais: Amazônia, mar e savana",
+      "instruction": "Embaixo de cada animal, escreva a letra do habitat onde ele vive."
+    },
+    "K-383": {
+      "title": "Moradia dos animais: ninho, toca e colmeia",
+      "instruction": "Ligue cada animal à sua moradia com um traço."
+    },
+    "G1-406": {
+      "title": "Habitat dos animais: qual não vive aqui?",
+      "instruction": "Em cada fileira, risque o animal que não vive naquele habitat."
+    },
+    "G2-380": {
+      "title": "Adaptação dos animais ao ambiente",
+      "instruction": "Escreva no quadrinho a letra do animal de que cada frase fala."
+    },
+    "G1-407": {
+      "title": "Do que os animais precisam para viver?",
+      "instruction": "Para cada animal, circule a comida que ele come e a moradia onde ele vive."
+    },
+    "G2-381": {
+      "title": "Meu relatório sobre um habitat",
+      "instruction": "Desenhe três animais que vivem neste habitat, escreva o nome deles e de uma planta que cresce ali e circule a palavra certa de cada par."
+    }
+  }
+}

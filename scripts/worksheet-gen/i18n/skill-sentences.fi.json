@@ -418,5 +418,25 @@
   "word-parts": {
     "full": "Kantasana ja johdokset: sanojen lajittelu kantasanan mukaan, kantasanan etsiminen, johdokset lauseissa ja tekijää tarkoittavat sanat kuten laulaja ja leipuri.",
     "short": "Kantasana, vartalo ja johdokset"
+  },
+  "story-sequencing": {
+    "full": "Kuvasarjat: arjen tapahtumien järjestäminen kuvista, sanat ensin, sitten ja lopuksi, tarinan alku, keskikohta ja loppu sekä oman tarinan kirjoittaminen kuvista.",
+    "short": "Kuvasarjat ja tarinan järjestys"
+  },
+  "healthy-habits": {
+    "full": "Hygienia ja terveelliset tavat: käsienpesu, hampaiden pesu, yskiminen ja aivastaminen hihaan, uni, liikunta ja veden juominen sekä se, miksi niitä tehdään.",
+    "short": "Käsienpesu, hampaiden pesu ja hyvät tavat"
+  },
+  "habitats": {
+    "full": "Eläinten elinympäristöt: metsän, niityn, järven ja meren eläimet, eläinten pesät ja kodit, eläinten sopeutuminen sekä se, mitä eläimet tarvitsevat elääkseen.",
+    "short": "Metsän, niityn, järven ja meren eläimet"
+  },
+  "sink-or-float": {
+    "full": "Kelluminen ja uppoaminen: arvaaminen ja kokeileminen vedellä, painava ja kevyt esine, muodon merkitys muovailuvahalla sekä oma pieni tutkimusraportti.",
+    "short": "Kelluuko vai uppoaako: arvaa ja kokeile"
+  },
+  "cursive-writing": {
+    "full": "Kaunokirjoitus eli sidottu käsiala: kirjainten yhdistäminen toisiinsa. Suomessa perusopetus opettaa tekstausta ja näppäintaitoja, joten tätä aineistoa ei julkaista suomeksi.",
+    "short": "Sidottu käsiala (ei suomeksi)"
   }
 }

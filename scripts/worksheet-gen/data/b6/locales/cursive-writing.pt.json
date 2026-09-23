@@ -1,0 +1,180 @@
+{
+  "refused": null,
+  "units": [
+    "br"
+  ],
+  "exemplar": "br",
+  "unitLabel": {
+    "br": "letra cursiva"
+  },
+  "scriptName": {
+    "br": "Letra cursiva"
+  },
+  "ruling": {
+    "G1": "lin4",
+    "G2": "lin4",
+    "G3": "lin4"
+  },
+  "dashHelpers": false,
+  "xPx": {
+    "base": 16,
+    "capitals": 15,
+    "joins": 15,
+    "words": 18,
+    "read": 18,
+    "copy": 16
+  },
+  "levels": {
+    "base": "1o-ano",
+    "capitals": "2o-ano",
+    "joins": "1o-ano",
+    "words": "1o-ano",
+    "read": "1o-ano",
+    "copy": "2o-ano"
+  },
+  "lessons": {
+    "br": [
+      [
+        "a",
+        "e",
+        "i",
+        "o"
+      ],
+      [
+        "b",
+        "c",
+        "d",
+        "f",
+        "g"
+      ],
+      [
+        "h",
+        "j",
+        "l",
+        "m",
+        "n"
+      ],
+      [
+        "p",
+        "q",
+        "r",
+        "s",
+        "t"
+      ],
+      [
+        "u",
+        "v",
+        "x",
+        "z"
+      ],
+      [
+        "k",
+        "w",
+        "y",
+        "ç"
+      ]
+    ]
+  },
+  "joins": {
+    "br": [
+      {
+        "pair": "ol",
+        "word": "sol"
+      },
+      {
+        "pair": "or",
+        "word": "flor"
+      },
+      {
+        "pair": "ob",
+        "word": "lobo"
+      },
+      {
+        "pair": "br",
+        "word": "cabra"
+      },
+      {
+        "pair": "va",
+        "word": "vaca"
+      },
+      {
+        "pair": "ve",
+        "word": "neve"
+      },
+      {
+        "pair": "bo",
+        "word": "bola"
+      },
+      {
+        "pair": "ão",
+        "word": "pão"
+      }
+    ]
+  },
+  "words": {
+    "animals/cat": "gato",
+    "animals/duck": "pato",
+    "animals/fish": "peixe",
+    "animals/owl": "coruja",
+    "animals/pig": "porco",
+    "animals/sheep": "ovelha",
+    "fruits/lemon": "limão",
+    "fruits/pear": "pera",
+    "fruits/apple": "maçã",
+    "toys/boat": "barco",
+    "toys/doll": "boneca",
+    "toys/robot": "robô",
+    "toys/train": "trem",
+    "toys/kite": "pipa",
+    "around the house/bed": "cama",
+    "around the house/chair": "cadeira",
+    "around the house/cup": "xícara",
+    "around the house/lamp": {
+      "text": "abajur",
+      "override": true
+    },
+    "classroom/book": "livro",
+    "zoo animals/lion": "leão",
+    "pets/mouse": "rato",
+    "bakery/cake": "bolo",
+    "weather/sun": "sol",
+    "weather/cloud": "nuvem",
+    "animals/horse": "cavalo",
+    "animals/zebra": "zebra",
+    "animals/tiger": "tigre"
+  },
+  "sentences": [
+    "O gato dorme na cama.",
+    "Eu vejo uma pipa azul.",
+    "Meu cachorro corre muito.",
+    "Nós gostamos de ler livros.",
+    "O sol está quente hoje.",
+    "A vovó fez um bolo."
+  ],
+  "strings": {
+    "G2-377": {
+      "title": "Letra cursiva para o 1º ano: as letras a, e, i, o",
+      "instruction": "Cubra as letras cinza e continue escrevendo cada letra ligada, sozinho, até o fim da linha e na linha vazia de baixo."
+    },
+    "G2-384": {
+      "title": "Alfabeto cursivo maiúsculo: escreva os nomes",
+      "instruction": "Cubra cada letra maiúscula e cada nome em cinza e depois escreva tudo na linha vazia de baixo."
+    },
+    "G2-385": {
+      "title": "Letra cursiva: ligando as letras de duas em duas",
+      "instruction": "Cubra cada par de letras ligadas e a palavra em cinza e depois escreva na linha vazia de baixo."
+    },
+    "G2-386": {
+      "title": "Palavras em letra cursiva para o 1º ano",
+      "instruction": "Cubra cada palavra cinza num traço contínuo, depois escreva na linha de baixo e coloque os pingos, os cortes e os acentos por último."
+    },
+    "G2-387": {
+      "title": "Leitura em letra cursiva: ligue a palavra à figura",
+      "instruction": "Leia cada palavra em letra cursiva e ligue-a à sua figura com um traço."
+    },
+    "G3-401": {
+      "title": "Da letra de forma para a cursiva: copie as frases",
+      "instruction": "Cubra a frase cinza e depois copie cada frase impressa em letra cursiva nas duas linhas de baixo."
+    }
+  }
+}

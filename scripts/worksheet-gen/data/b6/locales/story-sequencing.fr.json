@@ -1,0 +1,283 @@
+{
+  "words3": [
+    "D'abord",
+    "Ensuite",
+    "Enfin"
+  ],
+  "openers4": [
+    "D'abord,",
+    "Ensuite,",
+    "Puis,",
+    "Enfin,"
+  ],
+  "starters4": [
+    "D'abord,",
+    "Ensuite,",
+    "Puis,",
+    "Enfin,"
+  ],
+  "bme": [
+    "Début",
+    "Milieu",
+    "Fin"
+  ],
+  "stories": {
+    "apple": {
+      "sentences": [
+        "D'abord, la pomme est entière.",
+        "Ensuite, on a croqué une fois dans la pomme.",
+        "Puis, on a croqué trois fois dans la pomme.",
+        "Enfin, il ne reste que le trognon."
+      ],
+      "stateWords": [
+        "entière",
+        "une fois",
+        "trois fois",
+        "trognon"
+      ],
+      "helpWords": [
+        "pomme",
+        "trognon",
+        "queue",
+        "feuille",
+        "assiette",
+        "pépins"
+      ],
+      "helpIds": [
+        "apple",
+        "core",
+        "stem",
+        "leaf",
+        "plate",
+        "seed"
+      ]
+    },
+    "banana": {
+      "sentences": [
+        "D'abord, la banane n'est pas épluchée.",
+        "Ensuite, un morceau de peau pend sur le côté.",
+        "Puis, trois morceaux de peau pendent.",
+        "Enfin, il ne reste que la peau vide."
+      ],
+      "stateWords": [
+        "pas épluchée",
+        "un morceau",
+        "trois morceaux",
+        "peau vide"
+      ],
+      "helpWords": [
+        "banane",
+        "peau",
+        "morceau",
+        "queue",
+        "assiette"
+      ],
+      "helpIds": [
+        "banana",
+        "peel",
+        "strip",
+        "stem",
+        "plate"
+      ]
+    },
+    "sandwich": {
+      "sentences": [
+        "D'abord, il y a deux tranches de pain.",
+        "Ensuite, une tranche est couverte de confiture.",
+        "Puis, le sandwich est coupé en deux.",
+        "Enfin, il ne reste que la croûte et des miettes."
+      ],
+      "stateWords": [
+        "deux tranches",
+        "confiture",
+        "coupé en deux",
+        "croûte"
+      ],
+      "helpWords": [
+        "pain",
+        "tranche",
+        "confiture",
+        "couteau",
+        "croûte",
+        "miettes"
+      ],
+      "helpIds": [
+        "bread",
+        "slice",
+        "jam",
+        "knife",
+        "crust",
+        "crumb"
+      ]
+    },
+    "cake": {
+      "sentences": [
+        "D'abord, le gâteau est entier.",
+        "Ensuite, on a coupé une part.",
+        "Puis, la moitié du gâteau a disparu.",
+        "Enfin, il ne reste que des miettes."
+      ],
+      "stateWords": [
+        "entier",
+        "une part",
+        "moitié",
+        "miettes"
+      ],
+      "helpWords": [
+        "gâteau",
+        "part",
+        "bougies",
+        "miettes",
+        "plat"
+      ],
+      "helpIds": [
+        "cake",
+        "slice",
+        "candle",
+        "crumb",
+        "stand"
+      ]
+    },
+    "fence": {
+      "sentences": [
+        "D'abord, la barrière est toute blanche.",
+        "Ensuite, deux planches sont peintes.",
+        "Puis, quatre planches sont peintes.",
+        "Enfin, toute la barrière est peinte."
+      ],
+      "stateWords": [
+        "toute blanche",
+        "deux planches",
+        "quatre planches",
+        "toute la barrière"
+      ],
+      "helpWords": [
+        "barrière",
+        "planche",
+        "peinture",
+        "pinceau",
+        "pot"
+      ],
+      "helpIds": [
+        "fence",
+        "plank",
+        "paint",
+        "brush",
+        "pot"
+      ]
+    },
+    "letter": {
+      "sentences": [
+        "D'abord, la carte est blanche.",
+        "Ensuite, on dessine une fleur sur la carte.",
+        "Puis, on écrit trois lignes.",
+        "Enfin, la carte est dans une enveloppe avec un timbre."
+      ],
+      "stateWords": [
+        "blanche",
+        "fleur",
+        "trois lignes",
+        "timbre"
+      ],
+      "helpWords": [
+        "carte",
+        "fleur",
+        "crayon",
+        "enveloppe",
+        "timbre"
+      ],
+      "helpIds": [
+        "card",
+        "flower",
+        "pencil",
+        "envelope",
+        "stamp"
+      ]
+    },
+    "paper-chain": {
+      "sentences": [
+        "D'abord, il y a une feuille de papier.",
+        "Ensuite, la feuille est découpée en cinq bandes.",
+        "Puis, deux bandes sont collées en anneaux.",
+        "Enfin, les cinq anneaux forment une guirlande."
+      ],
+      "stateWords": [
+        "une feuille",
+        "cinq bandes",
+        "deux bandes",
+        "guirlande"
+      ],
+      "helpWords": [
+        "papier",
+        "ciseaux",
+        "bande",
+        "colle",
+        "anneau",
+        "guirlande"
+      ],
+      "helpIds": [
+        "paper",
+        "scissors",
+        "strip",
+        "glue",
+        "ring",
+        "chain"
+      ]
+    },
+    "beach-walk": {
+      "sentences": [
+        "D'abord, il n'y a aucune trace de pas dans le sable.",
+        "Ensuite, un enfant marche et laisse trois traces de pas.",
+        "Puis, l'enfant trouve un coquillage.",
+        "Enfin, l'enfant revient sur sa serviette avec le coquillage."
+      ],
+      "stateWords": [
+        "aucune trace",
+        "trois traces",
+        "trouve",
+        "revient"
+      ],
+      "helpWords": [
+        "sable",
+        "serviette",
+        "coquillage",
+        "traces de pas",
+        "marcher"
+      ],
+      "helpIds": [
+        "sand",
+        "towel",
+        "shell",
+        "footprint",
+        "walk"
+      ]
+    }
+  },
+  "excludeStories": [],
+  "strings": {
+    "base": {
+      "title": "Images séquentielles : remets l'histoire dans l'ordre",
+      "instruction": "Regarde ce qui change dans chaque histoire, puis écris les numéros dans les cases pour remettre les images dans l'ordre."
+    },
+    "first-next-last-cut": {
+      "title": "Images séquentielles à découper : d'abord, ensuite, enfin",
+      "instruction": "Découpe les images de chaque bande et colle-les dans les cadres vides, au-dessus de D'abord, Ensuite et Enfin."
+    },
+    "what-happens-next": {
+      "title": "Images séquentielles : que se passe-t-il ensuite ?",
+      "instruction": "Regarde les trois images de chaque histoire et entoure, parmi les images du dessous, celle qui va dans le cadre au point d'interrogation."
+    },
+    "beginning-middle-end": {
+      "title": "Début, milieu et fin d'une histoire",
+      "instruction": "Regarde le début et la fin de chaque histoire et dessine ce qui se passe au milieu, dans le cadre vide."
+    },
+    "sequencing-sentences": {
+      "title": "Images séquentielles : relie chaque phrase à son image",
+      "instruction": "Lis les phrases de chaque histoire et relie chaque phrase à son image."
+    },
+    "retell-with-starters": {
+      "title": "Images séquentielles et production d'écrit : raconte l'histoire",
+      "instruction": "Écris ce qui se passe dans chaque image sur ses lignes, en commençant par le mot déjà écrit sur la première ligne."
+    }
+  }
+}

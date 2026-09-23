@@ -1,0 +1,186 @@
+{
+  "refused": null,
+  "units": [
+    "dk-uloopet"
+  ],
+  "exemplar": "dk-uloopet",
+  "unitLabel": {
+    "dk-uloopet": "sammenhængende skrift"
+  },
+  "scriptName": {
+    "dk-uloopet": "Skråskrift uden løkker"
+  },
+  "ruling": {
+    "G1": "lin4",
+    "G2": "lin4",
+    "G3": "lin4"
+  },
+  "dashHelpers": false,
+  "xPx": {
+    "base": 18,
+    "capitals": 18,
+    "joins": 18,
+    "words": 18,
+    "read": 18,
+    "copy": 16
+  },
+  "levels": {
+    "base": "2-klasse",
+    "capitals": "2-klasse",
+    "joins": "2-klasse",
+    "words": "2-klasse",
+    "read": "2-klasse",
+    "copy": "3-klasse"
+  },
+  "lessons": {
+    "dk-uloopet": [
+      [
+        "i",
+        "u",
+        "t"
+      ],
+      [
+        "n",
+        "m",
+        "r",
+        "v"
+      ],
+      [
+        "e",
+        "l",
+        "b",
+        "h",
+        "k"
+      ],
+      [
+        "a",
+        "d",
+        "g",
+        "q",
+        "c",
+        "o"
+      ],
+      [
+        "s",
+        "f",
+        "j",
+        "p",
+        "y"
+      ],
+      [
+        "w",
+        "x",
+        "z",
+        "æ",
+        "ø",
+        "å"
+      ]
+    ]
+  },
+  "joins": {
+    "dk-uloopet": [
+      {
+        "pair": "ol",
+        "word": "stol"
+      },
+      {
+        "pair": "br",
+        "word": "brød"
+      },
+      {
+        "pair": "bo",
+        "word": "bog"
+      },
+      {
+        "pair": "or",
+        "word": "jord"
+      },
+      {
+        "pair": "ve",
+        "word": "løve"
+      },
+      {
+        "pair": "sk",
+        "word": "skib"
+      },
+      {
+        "pair": "st",
+        "word": "sten"
+      },
+      {
+        "pair": "hu",
+        "word": "hus"
+      },
+      {
+        "pair": "ma",
+        "word": "mand"
+      }
+    ]
+  },
+  "words": {
+    "animals/cat": "kat",
+    "animals/duck": {
+      "text": "ælling",
+      "override": true
+    },
+    "animals/fish": "fisk",
+    "animals/owl": "ugle",
+    "animals/pig": "gris",
+    "animals/sheep": "får",
+    "fruits/lemon": "citron",
+    "fruits/pear": "pære",
+    "fruits/apple": "æble",
+    "toys/boat": "båd",
+    "toys/doll": "dukke",
+    "toys/robot": "robot",
+    "toys/train": "tog",
+    "toys/kite": "drage",
+    "around the house/bed": "seng",
+    "around the house/chair": "stol",
+    "around the house/cup": "kop",
+    "around the house/lamp": "lampe",
+    "classroom/book": "bog",
+    "zoo animals/lion": "løve",
+    "pets/mouse": "mus",
+    "bakery/cake": "kage",
+    "weather/sun": "sol",
+    "weather/cloud": "sky",
+    "animals/horse": "hest",
+    "animals/zebra": "zebra",
+    "animals/tiger": "tiger"
+  },
+  "sentences": [
+    "Katten sover i sengen.",
+    "Jeg ser en rød drage.",
+    "Min hund kan løbe stærkt.",
+    "Vi elsker at læse bøger.",
+    "Solen er varm i dag.",
+    "Ida har en lille båd."
+  ],
+  "strings": {
+    "G2-377": {
+      "title": "Sammenhængende skrift: små bogstaver i, u og t",
+      "instruction": "Skriv oven i de grå bogstaver, og skriv så selv hvert bogstav sammenhængende til enden af linjen og på de tomme linjer nedenfor."
+    },
+    "G2-384": {
+      "title": "Store bogstaver i sammenhængende skrift: skriv navnene",
+      "instruction": "Skriv oven i de grå store bogstaver og navne, og skriv dem så selv på den tomme linje nedenfor."
+    },
+    "G2-385": {
+      "title": "Sammenhængende skrift: bind bogstaverne sammen",
+      "instruction": "Skriv oven i hvert gråt bogstavpar og ord, og skriv dem så selv på den tomme linje nedenfor."
+    },
+    "G2-386": {
+      "title": "Skriv ord med sammenhængende skrift til billederne",
+      "instruction": "Skriv oven i hvert gråt ord, skriv det så selv på linjen nedenfor, og sæt prikker og streger til sidst."
+    },
+    "G2-387": {
+      "title": "Læs sammenhængende skrift: find billedet til ordet",
+      "instruction": "Læs hvert ord i sammenhængende skrift, og tegn en streg fra ordet til dets billede."
+    },
+    "G3-401": {
+      "title": "Håndskrift 3. klasse: skriv sætninger af med sammenhængende skrift",
+      "instruction": "Skriv først oven i den grå sætning, og skriv så hver trykt sætning af med sammenhængende skrift på de to linjer under den."
+    }
+  }
+}

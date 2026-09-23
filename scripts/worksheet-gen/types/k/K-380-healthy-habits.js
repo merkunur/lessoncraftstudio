@@ -415,8 +415,10 @@ function faceVerify(page, mode) {
         if (parseFloat(getComputedStyle(lab).fontSize) < 16) fails.push(`row ${i + 1}: label under 16 px`);
         // FIX ROUND 1 (fr panel): no line of a wrapped label may END with a short word (<= 3 letters: les / die / og)
         {
-          const words = [], tn = lab.firstChild;
-          if (tn && tn.nodeType === 3) {
+          // every text node of the label (the component glues short words into nowrap spans)
+          const words = [], tw = document.createTreeWalker(lab, NodeFilter.SHOW_TEXT);
+          let tn;
+          while ((tn = tw.nextNode())) {
             const txt = tn.textContent, re = /\S+/g; let m;
             while ((m = re.exec(txt))) { const rg = document.createRange(); rg.setStart(tn, m.index); rg.setEnd(tn, m.index + m[0].length); words.push({ w: m[0], top: Math.round(rg.getBoundingClientRect().top) }); }
           }

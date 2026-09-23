@@ -1,0 +1,167 @@
+{
+  "floatWord": "flotte",
+  "sinkWord": "coule",
+  "heads": {
+    "guess": "Je prévois",
+    "test": "Je vérifie",
+    "surprise": "Surprise ?"
+  },
+  "trueWord": "vrai",
+  "falseWord": "faux",
+  "clayWord": "pâte à modeler",
+  "labels": {
+    "ball": "ballon",
+    "log": "bûche",
+    "pumpkin": "citrouille",
+    "apple": "pomme",
+    "lemon": "citron",
+    "banana": "banane",
+    "leaf": "feuille",
+    "feather": "plume",
+    "pinecone": "pomme de pin",
+    "pencil": "crayon",
+    "toyboat": "bateau",
+    "ship": "navire",
+    "orange": "orange",
+    "rock": "caillou",
+    "nail": "clou",
+    "hammer": "marteau",
+    "bolt": "vis",
+    "pliers": "pince",
+    "scissors": "ciseaux",
+    "potato": "pomme de terre"
+  },
+  "tf": {
+    "T1": "Une grosse bûche flotte.",
+    "T2": "Un petit clou coule.",
+    "T3": "Un navire en acier flotte.",
+    "T4": "Une lourde citrouille flotte.",
+    "T5": "Une pomme flotte, mais une pomme de terre coule.",
+    "T6": "La même pâte à modeler peut couler ou flotter.",
+    "T7": "Certains objets lourds flottent.",
+    "T8": "Certains objets légers coulent.",
+    "F1": "Une pomme de terre flotte.",
+    "F2": "Une plume coule.",
+    "F3": "Un navire en acier coule.",
+    "F4": "Un ballon plein d'air coule.",
+    "F5": "Tous les objets lourds coulent.",
+    "F6": "Tous les objets légers flottent.",
+    "F7": "Les gros objets coulent toujours.",
+    "F8": "Un objet flotte parce qu'il est léger.",
+    "F9": "Seuls les petits objets peuvent flotter."
+  },
+  "report": {
+    "question": "Ma question",
+    "predict": "Mon hypothèse",
+    "result": "Ce que j'ai observé",
+    "learned": "Ce que j'ai appris",
+    "starter": "Maintenant, je sais que"
+  },
+  "questions": {
+    "orange": "Une orange flotte-t-elle avec sa peau ? Et sans sa peau ?",
+    "cargo": "Combien de cubes un bateau en pâte à modeler peut-il porter avant de couler ?"
+  },
+  "forbidden": [
+    "objets lourds coulent",
+    "objets légers flottent",
+    "parce qu'il est léger",
+    "densité",
+    "archimède",
+    "poussée",
+    "flottaison",
+    "eau salée"
+  ],
+  "experimentWords": [
+    "expérience",
+    "je prévois",
+    "hypothèse",
+    "compte rendu"
+  ],
+  "apparatus": {
+    "ring": "rond",
+    "tank": "aquarium",
+    "star": "étoile",
+    "spot": "cadre"
+  },
+  "instructionBans": {
+    "base": [
+      "trait",
+      "relie",
+      "groupe",
+      "bac",
+      "coche",
+      "découpe",
+      "entoure"
+    ],
+    "scale": [
+      "trait",
+      "relie",
+      "groupe",
+      "bac",
+      "coche",
+      "découpe",
+      "colorie"
+    ],
+    "shape": [
+      "trait",
+      "relie",
+      "groupe",
+      "bac",
+      "coche",
+      "découpe"
+    ],
+    "truth": [
+      "trait",
+      "relie",
+      "groupe",
+      "bac",
+      "coche",
+      "découpe",
+      "colorie"
+    ],
+    "draw": [
+      "trait",
+      "relie",
+      "groupe",
+      "bac",
+      "coche",
+      "découpe",
+      "entoure"
+    ],
+    "report": [
+      "trait",
+      "relie",
+      "groupe",
+      "bac",
+      "coche",
+      "découpe"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "G1-399": {
+      "title": "Expérience flotte ou coule : je prévois, je vérifie",
+      "instruction": "Colorie un rond dans le premier aquarium avant l'expérience, un rond dans le second après, et l'étoile si le résultat te surprend."
+    },
+    "G1-408": {
+      "title": "Lourd ou léger ? L'expérience de la balance : flotte ou coule",
+      "instruction": "La balance montre l'objet le plus lourd : entoure celui qui flotte dans l'eau."
+    },
+    "G2-382": {
+      "title": "La pâte à modeler qui flotte : l'expérience de la forme",
+      "instruction": "Colorie le rond où finit chaque forme de pâte à modeler, entoure ce qui flotte, puis dessine ton propre bateau dans le grand aquarium."
+    },
+    "G2-383": {
+      "title": "Pourquoi ça flotte ? Vrai ou faux après l'expérience",
+      "instruction": "Lis chaque phrase et entoure vrai ou faux."
+    },
+    "K-384": {
+      "title": "Ce qui flotte et ce qui coule : dessine l'expérience",
+      "instruction": "Dessine deux objets qui flottent dans les cadres sur l'eau et deux objets qui coulent dans les cadres au fond."
+    },
+    "G3-400": {
+      "title": "Mon compte rendu d'expérience : flotte ou coule",
+      "instruction": "Choisis une question, écris ton hypothèse, fais l'expérience, puis dessine ce qui s'est passé et écris ce que tu as appris."
+    }
+  }
+}

@@ -418,5 +418,25 @@
   "word-parts": {
     "full": "Palabras primitivas y derivadas para segundo grado: ordenar por la palabra primitiva, encontrarla en tres palabras, prefijos re-, pre- y sobre- y oraciones.",
     "short": "Palabras primitivas, derivadas y prefijos"
+  },
+  "story-sequencing": {
+    "full": "Secuencias temporales de cuentos para preescolar y primaria: ordenar imágenes, primero, después y al final, qué pasa después, inicio, desarrollo y final, y escribir el cuento.",
+    "short": "Ordenar las imágenes de un cuento y contarlo"
+  },
+  "healthy-habits": {
+    "full": "Hábitos de higiene para preescolar y primaria: lavado de manos, cepillado de dientes, toser en el codo contra los gérmenes, por qué los hacemos y una tabla semanal.",
+    "short": "Lavado de manos, cepillado de dientes y gérmenes"
+  },
+  "habitats": {
+    "full": "Los animales y su hábitat: selva, bosque, mar y lago, las casas de los animales, el animal que no vive ahí, la adaptación de los animales y lo que necesitan para vivir.",
+    "short": "Dónde viven los animales y cómo se adaptan"
+  },
+  "sink-or-float": {
+    "full": "Experimento flota o se hunde: predecir y comprobar, pesado o ligero, cambiar la forma de la plastilina, verdadero o falso y un reporte de la investigación.",
+    "short": "Predecir y comprobar qué flota y qué se hunde"
+  },
+  "cursive-writing": {
+    "full": "Letra cursiva para primaria: las vocales y las letras ligadas, mayúsculas con nombres, cómo unir dos letras, palabras, lectura en cursiva y oraciones para copiar.",
+    "short": "Practicar la letra cursiva ligada en doble raya"
   }
 }

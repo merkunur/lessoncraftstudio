@@ -2834,5 +2834,125 @@
   "G3-399": {
     "title": "Rodord i sætninger",
     "instruction": "Skriv hvert af de fire ord fra kortene ind i den sætning, det passer i."
+  },
+  "K-379": {
+    "title": "Billedserie: nummerér billederne",
+    "instruction": "Se, hvad der ændrer sig i hver historie, og skriv tallene i felterne, så billederne kommer i den rigtige rækkefølge."
+  },
+  "K-380": {
+    "title": "Hygiejne og gode vaner: hvad skal barnet bruge?",
+    "instruction": "Tegn en streg fra hvert barn til den ting, barnet skal bruge."
+  },
+  "G1-398": {
+    "title": "Dyrs levesteder: skov, eng, sø og hav",
+    "instruction": "Skriv under hvert dyr bogstavet for det levested, hvor dyret lever."
+  },
+  "G1-399": {
+    "title": "Flyder eller synker? Gæt og afprøv i et forsøg",
+    "instruction": "Farv en ring i den første balje før forsøget, en ring i den anden balje bagefter og stjernen, hvis du blev overrasket."
+  },
+  "G2-377": {
+    "title": "Sammenhængende skrift: små bogstaver i, u og t",
+    "instruction": "Skriv oven i de grå bogstaver, og skriv så selv hvert bogstav sammenhængende til enden af linjen og på de tomme linjer nedenfor."
+  },
+  "K-381": {
+    "title": "Billedserie til at klippe ud: først, så, til sidst",
+    "instruction": "Klip billederne på hver strimmel ud, og lim dem i de tomme rammer over Først, Så og Til sidst."
+  },
+  "G1-400": {
+    "title": "Billedserie: hvad sker der så?",
+    "instruction": "Se på hver histories tre billeder, og sæt ring om det billede nedenunder, der skal i rammen med spørgsmålstegnet."
+  },
+  "G1-401": {
+    "title": "Billedfortælling: begyndelse, midte og slutning",
+    "instruction": "Se på begyndelsen og slutningen af hver historie, og tegn, hvad der sker, i den tomme ramme i midten."
+  },
+  "G1-402": {
+    "title": "Billedserie: læs sætningerne, og find billederne",
+    "instruction": "Læs sætningerne i hver historie, og tegn en streg fra hver sætning til dens billede."
+  },
+  "G2-378": {
+    "title": "Billedfortælling: skriv historien til billederne",
+    "instruction": "Skriv, hvad der sker på hvert billede, på linjerne ved siden af, og begynd med ordet, der står på den første linje."
+  },
+  "K-382": {
+    "title": "Vaske hænder: sådan gør du",
+    "instruction": "Skriv 1 til 5 i felterne, så de viser, hvordan vi vasker hænder."
+  },
+  "G1-403": {
+    "title": "Børste tænder: før, under og efter",
+    "instruction": "Sæt ring om det ord, der fortæller, hvornår det sker: før, under eller efter tandbørstningen."
+  },
+  "G1-404": {
+    "title": "Host og nys i ærmet: stop bakterierne",
+    "instruction": "Sæt ring om det billede i hver række, der stopper bakterierne i at sprede sig."
+  },
+  "G2-379": {
+    "title": "Hygiejne og gode vaner: hvorfor gør vi det?",
+    "instruction": "Tegn en streg fra hver vane til den sætning, der fortæller, hvorfor vi gør det."
+  },
+  "G1-405": {
+    "title": "Ugeskema med gode vaner",
+    "instruction": "Sæt hver dag et flueben i feltet ud for hver vane, du har gjort."
+  },
+  "K-383": {
+    "title": "Dyrenes boliger: rede, bistade og myretue",
+    "instruction": "Tegn en streg fra hvert dyr til dets bolig."
+  },
+  "G1-406": {
+    "title": "Dyrs levesteder: hvilket dyr bor ikke her?",
+    "instruction": "Streg i hver række det dyr ud, der ikke lever på det levested."
+  },
+  "G2-380": {
+    "title": "Dyrs tilpasninger til levestedet",
+    "instruction": "Skriv bogstavet for det dyr, som hver sætning handler om, i feltet ved sætningen."
+  },
+  "G1-407": {
+    "title": "Hvad har dyr brug for? Mad, vand og et hjem",
+    "instruction": "Sæt ring om den mad, hvert dyr spiser, og om det hjem, dyret bor i."
+  },
+  "G2-381": {
+    "title": "Mit levested: undersøg, tegn og skriv",
+    "instruction": "Tegn tre dyr, der lever på dette levested, skriv deres navne og en plante, der vokser her, og sæt ring om det rigtige ord i hvert par."
+  },
+  "G1-408": {
+    "title": "Tung eller let? Flyde eller synke, forsøg med en vægt",
+    "instruction": "Vægten viser, hvilken ting der er tungest: sæt ring om den ting, der flyder i vand."
+  },
+  "G2-382": {
+    "title": "Kan modellervoks flyde? Forsøg med formen",
+    "instruction": "Farv ringen, hvor hver form af modellervoks ender, sæt ring om den ting, der flyder, og tegn din egen båd af modellervoks i den store balje."
+  },
+  "G2-383": {
+    "title": "Hvorfor flyder ting? Rigtigt eller forkert efter forsøget",
+    "instruction": "Læs hver sætning, og sæt ring om rigtigt eller forkert."
+  },
+  "K-384": {
+    "title": "Hvad flyder, hvad synker? Tegn forsøget",
+    "instruction": "Tegn to ting, der flyder, i de stiplede felter på vandet og to ting, der synker, i de stiplede felter på bunden."
+  },
+  "G3-400": {
+    "title": "Mit forsøg: flyder eller synker en appelsin?",
+    "instruction": "Vælg et spørgsmål, skriv, hvad du tror, afprøv det, og tegn så, hvad der skete, og skriv, hvad du lærte."
+  },
+  "G2-384": {
+    "title": "Store bogstaver i sammenhængende skrift: skriv navnene",
+    "instruction": "Skriv oven i de grå store bogstaver og navne, og skriv dem så selv på den tomme linje nedenfor."
+  },
+  "G2-385": {
+    "title": "Sammenhængende skrift: bind bogstaverne sammen",
+    "instruction": "Skriv oven i hvert gråt bogstavpar og ord, og skriv dem så selv på den tomme linje nedenfor."
+  },
+  "G2-386": {
+    "title": "Skriv ord med sammenhængende skrift til billederne",
+    "instruction": "Skriv oven i hvert gråt ord, skriv det så selv på linjen nedenfor, og sæt prikker og streger til sidst."
+  },
+  "G2-387": {
+    "title": "Læs sammenhængende skrift: find billedet til ordet",
+    "instruction": "Læs hvert ord i sammenhængende skrift, og tegn en streg fra ordet til dets billede."
+  },
+  "G3-401": {
+    "title": "Håndskrift 3. klasse: skriv sætninger af med sammenhængende skrift",
+    "instruction": "Skriv først oven i den grå sætning, og skriv så hver trykt sætning af med sammenhængende skrift på de to linjer under den."
   }
 }

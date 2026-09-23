@@ -1,0 +1,111 @@
+{
+  "strings": {
+    "base": {
+      "title": "Hygiëne en verzorging: wat heeft elk kind nodig?",
+      "instruction": "Trek een lijn van elk kind naar het ding dat dat kind nodig heeft."
+    },
+    "hand-washing-steps": {
+      "title": "Stappenplan handen wassen: nummer de plaatjes",
+      "instruction": "Schrijf 1 tot en met 5 in de hokjes om te laten zien hoe we onze handen wassen."
+    },
+    "brushing-teeth": {
+      "title": "Tanden poetsen: voor, tijdens en na het poetsen",
+      "instruction": "Omcirkel bij elk plaatje het woord dat zegt wanneer het gebeurt: voor, bij of na het poetsen."
+    },
+    "stop-the-germs": {
+      "title": "Stop de bacillen: hoest en nies in je elleboog",
+      "instruction": "Omcirkel in elke rij het plaatje dat de bacillen tegenhoudt."
+    },
+    "why-habits": {
+      "title": "Hygiëne en verzorging: waarom doen we dat?",
+      "instruction": "Trek een lijn van elke gewoonte naar de zin die vertelt waarom we dat doen."
+    },
+    "habit-chart": {
+      "title": "Weekschema verzorging: poetsen, wassen, bewegen en slapen",
+      "instruction": "Zet elke dag een vinkje in het hokje van elke gewoonte die je hebt gedaan."
+    }
+  },
+  "phases": {
+    "before": "voor het poetsen",
+    "during": "bij het poetsen",
+    "after": "na het poetsen"
+  },
+  "labels": {
+    "wash-hands": "handen wassen",
+    "brush-teeth": "tanden poetsen",
+    "sleep": "slapen",
+    "move-body": "bewegen",
+    "drink-water": "water drinken",
+    "sun-protect": "veilig in de zon",
+    "blow-nose": "neus snuiten",
+    "comb-hair": "haren kammen"
+  },
+  "labelStems": {
+    "wash-hands": [
+      "wassen",
+      "was",
+      "handen",
+      "hand",
+      "zeep"
+    ],
+    "brush-teeth": [
+      "poetsen",
+      "poets",
+      "tanden",
+      "tand",
+      "tandenborstel",
+      "tandpasta"
+    ],
+    "sleep": [
+      "slapen",
+      "slaap",
+      "bed",
+      "nacht"
+    ],
+    "move-body": [
+      "bewegen",
+      "beweeg",
+      "rennen",
+      "spelen",
+      "sport"
+    ],
+    "sun-protect": [
+      "zon",
+      "pet",
+      "hoed",
+      "zonnebrand",
+      "insmeren"
+    ],
+    "drink-water": [
+      "drinken",
+      "drink",
+      "water",
+      "glas",
+      "beker"
+    ],
+    "blow-nose": [
+      "snuiten",
+      "snuit",
+      "zakdoek",
+      "zakdoekje"
+    ],
+    "comb-hair": [
+      "kammen",
+      "kam",
+      "haar",
+      "haren"
+    ]
+  },
+  "reasons": {
+    "wash-hands": "Zo gaan de bacillen weg van alles wat we hebben aangeraakt.",
+    "brush-teeth": "Zo blijft onze lach schoon en stralend.",
+    "sleep": "Ons lichaam en onze hersenen rusten uit voor een nieuwe dag.",
+    "move-body": "Zo worden we fit, snel en sterk.",
+    "sun-protect": "Zo verbranden we niet op een warme, zonnige dag.",
+    "drink-water": "Ons lichaam heeft het nodig om goed te werken.",
+    "blow-nose": "Dan kunnen we weer makkelijk ademen."
+  },
+  "kaiOrder": false,
+  "coughPhrase": "in je elleboog",
+  "weekStartOverride": null
+}

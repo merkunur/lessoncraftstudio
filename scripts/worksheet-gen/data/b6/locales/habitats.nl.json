@@ -1,0 +1,250 @@
+{
+  "sets": {
+    "base": [
+      "forest",
+      "meadow",
+      "pond",
+      "ocean",
+      "polar",
+      "savanna",
+      "rainforest"
+    ]
+  },
+  "tileLabel": {
+    "ocean": "Zee",
+    "pond": "Vijver",
+    "forest": "Bos",
+    "meadow": "Weide",
+    "polar": "Zuidpool",
+    "polar-arctic": "Noordpool",
+    "savanna": "Savanne",
+    "rainforest": "Regenwoud"
+  },
+  "adapt": {
+    "camel-hump": "In zijn bult zit vet, zo kan hij heel lang zonder eten.",
+    "giraffe-neck": "Met zijn lange nek kan hij de blaadjes hoog in de bomen pakken.",
+    "elephant-trunk": "Met zijn lange slurf zuigt hij water op en pakt hij zijn eten.",
+    "penguin-flippers": "Zijn vleugels zijn flippers: hij zwemt er snel mee in het ijskoude water, maar kan niet vliegen.",
+    "walrus-tusks": "Met zijn lange slagtanden trekt hij zijn zware lijf uit het water.",
+    "woodpecker-beak": "Met zijn sterke, scherpe snavel hakt hij gaten in boomstammen.",
+    "beaver-teeth": "Met zijn grote voortanden knaagt hij bomen om voor zijn huis in het water.",
+    "whale-blowhole": "Hij ademt lucht in door een gat boven op zijn kop.",
+    "fish-gills": "Hij ademt onder water met kieuwen.",
+    "duck-feet": "Zijn poten met zwemvliezen duwen het water weg, net als peddels.",
+    "sloth-claws": "Met zijn lange, kromme klauwen kan hij urenlang aan takken hangen.",
+    "toucan-beak": "Met zijn enorme snavel plukt hij vruchten ver op dunne takken.",
+    "squirrel-tail": "Zijn pluimstaart houdt hem in evenwicht als hij van tak naar tak springt."
+  },
+  "names": {
+    "whale": [
+      "walvis"
+    ],
+    "dolphin": [
+      "dolfijn"
+    ],
+    "octopus": [
+      "octopus",
+      "inktvis"
+    ],
+    "starfish": [
+      "zeester"
+    ],
+    "jellyfish": [
+      "kwal"
+    ],
+    "shark": [
+      "haai"
+    ],
+    "clownfish": [
+      "clownvis",
+      "vis",
+      "nemo"
+    ],
+    "crab": [
+      "krab"
+    ],
+    "ray": [
+      "rog",
+      "pijlstaartrog"
+    ],
+    "seal-grey": [
+      "zeehond"
+    ],
+    "seal-white": [
+      "zeehond",
+      "zeehondje"
+    ],
+    "walrus": [
+      "walrus"
+    ],
+    "narwhal": [
+      "narwal"
+    ],
+    "penguin": [
+      "pinguïn"
+    ],
+    "deer": [
+      "hert",
+      "hertje",
+      "ree",
+      "reetje",
+      "bambi"
+    ],
+    "squirrel": [
+      "eekhoorn"
+    ],
+    "woodpecker": [
+      "specht"
+    ],
+    "badger": [
+      "das"
+    ],
+    "moose": [
+      "eland"
+    ],
+    "frog": [
+      "kikker"
+    ],
+    "dragonfly": [
+      "libel"
+    ],
+    "beaver": [
+      "bever"
+    ],
+    "duck": [
+      "eend",
+      "eendje",
+      "kuiken"
+    ],
+    "swan": [
+      "zwaan"
+    ],
+    "butterfly": [
+      "vlinder"
+    ],
+    "bee": [
+      "bij"
+    ],
+    "grasshopper": [
+      "sprinkhaan"
+    ],
+    "ladybug": [
+      "lieveheersbeestje"
+    ],
+    "lion": [
+      "leeuw"
+    ],
+    "zebra": [
+      "zebra"
+    ],
+    "giraffe": [
+      "giraf",
+      "giraffe"
+    ],
+    "elephant": [
+      "olifant"
+    ],
+    "rhinoceros": [
+      "neushoorn"
+    ],
+    "ostrich": [
+      "struisvogel"
+    ],
+    "monkey": [
+      "aap"
+    ],
+    "gorilla": [
+      "gorilla"
+    ],
+    "orangutan": [
+      "orang-oetan",
+      "aap"
+    ],
+    "sloth": [
+      "luiaard"
+    ],
+    "toucan": [
+      "toekan"
+    ],
+    "macaw": [
+      "ara",
+      "papegaai"
+    ],
+    "camel": [
+      "kameel",
+      "dromedaris"
+    ],
+    "bird": [
+      "vogel"
+    ],
+    "spider": [
+      "spin"
+    ],
+    "rabbit": [
+      "konijn"
+    ],
+    "ant": [
+      "mier"
+    ]
+  },
+  "needs": {
+    "line": "Elk dier heeft eten, water en een huis nodig.",
+    "foodHead": "Eten",
+    "homeHead": "Huis"
+  },
+  "report": {
+    "animals": "Dieren die hier wonen",
+    "plant": "Een plant die hier groeit",
+    "hot": "warm",
+    "cold": "koud",
+    "wet": "nat",
+    "dry": "droog"
+  },
+  "homeWord": {
+    "nest": "nest",
+    "hive": "bijennest",
+    "web": "spinnenweb",
+    "burrow": "hol",
+    "anthill": "mierenhoop",
+    "lodge": "beverburcht"
+  },
+  "refuse": [],
+  "refuseClaims": [],
+  "placeWords": [
+    "woestijn",
+    "zee",
+    "oceaan",
+    "ijs",
+    "oerwoud",
+    "jungle",
+    "sloot",
+    "meer",
+    "poolgebied"
+  ],
+  "strings": {
+    "G1-398": {
+      "title": "Dieren en hun leefgebied: welk dier woont waar?",
+      "instruction": "Schrijf onder elk dier de letter van het leefgebied waar het woont."
+    },
+    "K-383": {
+      "title": "Dierenwoningen: nest, hol, mierenhoop en beverburcht",
+      "instruction": "Trek een lijn van elk dier naar zijn huis."
+    },
+    "G1-406": {
+      "title": "Leefgebieden van dieren: welk dier woont hier niet?",
+      "instruction": "Streep in elke rij het dier door dat niet in dat leefgebied woont."
+    },
+    "G2-380": {
+      "title": "Hoe dieren zich aanpassen aan hun leefgebied",
+      "instruction": "Schrijf in elk hokje de letter van het dier waar de zin over gaat."
+    },
+    "G1-407": {
+      "title": "Wat hebben dieren nodig om te leven? Eten en een huis",
+      "instruction": "Omcirkel bij elk dier het eten dat het eet en het huis waarin het woont."
+    },
+    "G2-381": {
+      "title": "Mijn leefgebied onderzoeken: teken en schrijf",
+      "instruction": "Teken drie dieren die hier wonen, schrijf hun namen en een plant die hier groeit op en omcirkel in elk paar het juiste woord."
+    }
+  }
+}

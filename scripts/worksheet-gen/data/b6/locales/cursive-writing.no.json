@@ -1,0 +1,183 @@
+{
+  "refused": null,
+  "units": [
+    "no"
+  ],
+  "exemplar": "no",
+  "unitLabel": {
+    "no": "sammenhengende skrift"
+  },
+  "scriptName": {
+    "no": "Sammenhengende skrift"
+  },
+  "ruling": {
+    "G1": "lin4",
+    "G2": "lin4",
+    "G3": "lin4"
+  },
+  "dashHelpers": true,
+  "xPx": {
+    "base": 18,
+    "capitals": 16,
+    "joins": 16,
+    "words": 18,
+    "read": 18,
+    "copy": 16
+  },
+  "levels": {
+    "base": "3-trinn",
+    "capitals": "3-trinn",
+    "joins": "3-trinn",
+    "words": "3-trinn",
+    "read": "3-trinn",
+    "copy": "4-trinn"
+  },
+  "lessons": {
+    "no": [
+      [
+        "i",
+        "u",
+        "t"
+      ],
+      [
+        "n",
+        "m",
+        "r",
+        "v",
+        "w",
+        "x"
+      ],
+      [
+        "a",
+        "d",
+        "g",
+        "q",
+        "o",
+        "c"
+      ],
+      [
+        "e",
+        "l",
+        "b",
+        "h",
+        "k",
+        "f"
+      ],
+      [
+        "s",
+        "p",
+        "j",
+        "y",
+        "z"
+      ],
+      [
+        "æ",
+        "ø",
+        "å"
+      ]
+    ]
+  },
+  "joins": {
+    "no": [
+      {
+        "pair": "ol",
+        "word": "stol"
+      },
+      {
+        "pair": "or",
+        "word": "mor"
+      },
+      {
+        "pair": "br",
+        "word": "brød"
+      },
+      {
+        "pair": "va",
+        "word": "vann"
+      },
+      {
+        "pair": "ei",
+        "word": "vei"
+      },
+      {
+        "pair": "sk",
+        "word": "sko"
+      },
+      {
+        "pair": "hu",
+        "word": "hus"
+      },
+      {
+        "pair": "ta",
+        "word": "tak"
+      },
+      {
+        "pair": "år",
+        "word": "gård"
+      }
+    ]
+  },
+  "words": {
+    "animals/cat": "katt",
+    "animals/duck": "and",
+    "animals/fish": "fisk",
+    "animals/owl": "ugle",
+    "animals/pig": "gris",
+    "animals/sheep": "sau",
+    "fruits/lemon": "sitron",
+    "fruits/pear": "pære",
+    "fruits/apple": "eple",
+    "toys/boat": "båt",
+    "toys/doll": "dukke",
+    "toys/robot": "robot",
+    "toys/train": "tog",
+    "toys/kite": "drage",
+    "around the house/bed": "seng",
+    "around the house/chair": "stol",
+    "around the house/cup": "kopp",
+    "around the house/lamp": "lampe",
+    "classroom/book": "bok",
+    "zoo animals/lion": "løve",
+    "pets/mouse": "mus",
+    "bakery/cake": "kake",
+    "weather/sun": "sol",
+    "weather/cloud": "sky",
+    "animals/horse": "hest",
+    "animals/zebra": "sebra",
+    "animals/tiger": "tiger"
+  },
+  "sentences": [
+    "Katten sover på senga.",
+    "Jeg ser en rød drage.",
+    "Hunden min løper fort.",
+    "Vi liker å lese bøker.",
+    "Sola skinner i dag.",
+    "Ola har en lekebåt."
+  ],
+  "strings": {
+    "G2-377": {
+      "title": "Sammenhengende skrift: små bokstaver i, u og t",
+      "instruction": "Skriv over de grå bokstavene, og skriv videre selv med bokstavene bundet sammen til enden av linjen og på den tomme linjen under."
+    },
+    "G2-384": {
+      "title": "Store bokstaver i sammenhengende skrift: skriv navnene",
+      "instruction": "Skriv over hver grå stor bokstav og hvert navn, og skriv dem så på den tomme linjen under."
+    },
+    "G2-385": {
+      "title": "Sammenhengende skrift: bind bokstavene sammen",
+      "instruction": "Skriv over hvert grå bokstavpar og ordet, og skriv dem så på den tomme linjen under."
+    },
+    "G2-386": {
+      "title": "Skriv ord med sammenhengende skrift",
+      "instruction": "Skriv over hvert grå ord, skriv det så på linjen under, og sett på prikker og tverrstreker til slutt."
+    },
+    "G2-387": {
+      "title": "Les sammenhengende skrift: ord og bilde",
+      "instruction": "Les hvert ord i sammenhengende skrift, og trekk en strek til bildet som passer."
+    },
+    "G3-401": {
+      "title": "Skriv av setninger med sammenhengende skrift",
+      "instruction": "Skriv over den grå setningen, og skriv så av hver trykt setning med sammenhengende skrift på de to linjene under."
+    }
+  }
+}

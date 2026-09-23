@@ -1,0 +1,283 @@
+{
+  "words3": [
+    "Eerst",
+    "Dan",
+    "Tot slot"
+  ],
+  "openers4": [
+    "Eerst",
+    "Dan",
+    "Daarna",
+    "Tot slot"
+  ],
+  "starters4": [
+    "Eerst",
+    "Dan",
+    "Daarna",
+    "Tot slot"
+  ],
+  "bme": [
+    "Begin",
+    "Midden",
+    "Eind"
+  ],
+  "stories": {
+    "apple": {
+      "sentences": [
+        "Eerst is de appel nog heel.",
+        "Dan zit er één hap uit de appel.",
+        "Daarna zijn er drie happen uit de appel.",
+        "Tot slot is alleen het klokhuis nog over."
+      ],
+      "stateWords": [
+        "heel",
+        "één hap",
+        "drie happen",
+        "klokhuis"
+      ],
+      "helpWords": [
+        "de appel",
+        "de hap",
+        "het klokhuis",
+        "het steeltje",
+        "het blaadje",
+        "het bord"
+      ],
+      "helpIds": [
+        "apple",
+        "bite",
+        "core",
+        "stem",
+        "leaf",
+        "plate"
+      ]
+    },
+    "banana": {
+      "sentences": [
+        "Eerst is de banaan nog niet gepeld.",
+        "Dan hangt er één stuk schil naar beneden.",
+        "Daarna hangen er drie stukken schil naar beneden.",
+        "Tot slot is alleen de lege schil nog over."
+      ],
+      "stateWords": [
+        "niet gepeld",
+        "één stuk",
+        "drie stukken",
+        "lege schil"
+      ],
+      "helpWords": [
+        "de banaan",
+        "de schil",
+        "het steeltje",
+        "het stuk",
+        "het bord"
+      ],
+      "helpIds": [
+        "banana",
+        "peel",
+        "stem",
+        "strip",
+        "plate"
+      ]
+    },
+    "sandwich": {
+      "sentences": [
+        "Eerst liggen er twee sneetjes brood.",
+        "Dan zit er jam op één sneetje.",
+        "Daarna is de boterham doormidden gesneden.",
+        "Tot slot zijn er alleen een korstje en kruimels over."
+      ],
+      "stateWords": [
+        "twee sneetjes",
+        "jam",
+        "doormidden",
+        "kruimels"
+      ],
+      "helpWords": [
+        "het brood",
+        "de jam",
+        "het mes",
+        "de boterham",
+        "de helft",
+        "het korstje"
+      ],
+      "helpIds": [
+        "bread",
+        "jam",
+        "knife",
+        "sandwich",
+        "half",
+        "crust"
+      ]
+    },
+    "cake": {
+      "sentences": [
+        "Eerst is de taart nog heel.",
+        "Dan is er één punt uit de taart gesneden.",
+        "Daarna is de helft van de taart op.",
+        "Tot slot zijn er alleen kruimels over."
+      ],
+      "stateWords": [
+        "heel",
+        "één punt",
+        "helft",
+        "kruimels"
+      ],
+      "helpWords": [
+        "de taart",
+        "de punt",
+        "de kaarsjes",
+        "de kruimels",
+        "de taartschaal"
+      ],
+      "helpIds": [
+        "cake",
+        "slice",
+        "candle",
+        "crumb",
+        "stand"
+      ]
+    },
+    "fence": {
+      "sentences": [
+        "Eerst is het hek nog helemaal wit.",
+        "Dan zijn er twee planken geverfd.",
+        "Daarna zijn er vier planken geverfd.",
+        "Tot slot is het hele hek geverfd."
+      ],
+      "stateWords": [
+        "helemaal wit",
+        "twee planken",
+        "vier planken",
+        "hele hek"
+      ],
+      "helpWords": [
+        "het hek",
+        "de plank",
+        "de verf",
+        "de kwast",
+        "de verfpot"
+      ],
+      "helpIds": [
+        "fence",
+        "plank",
+        "paint",
+        "brush",
+        "pot"
+      ]
+    },
+    "letter": {
+      "sentences": [
+        "Eerst is de kaart nog leeg.",
+        "Dan staat er een bloem op de kaart.",
+        "Daarna staan er drie regels tekst op de kaart.",
+        "Tot slot zit de kaart in een envelop met een postzegel."
+      ],
+      "stateWords": [
+        "leeg",
+        "bloem",
+        "regels",
+        "postzegel"
+      ],
+      "helpWords": [
+        "de kaart",
+        "de bloem",
+        "het potlood",
+        "de envelop",
+        "de postzegel"
+      ],
+      "helpIds": [
+        "card",
+        "flower",
+        "pencil",
+        "envelope",
+        "stamp"
+      ]
+    },
+    "paper-chain": {
+      "sentences": [
+        "Eerst is er één vel papier.",
+        "Dan is het vel in vijf stroken geknipt.",
+        "Daarna zijn er twee stroken tot ringen geplakt.",
+        "Tot slot vormen alle ringen samen een slinger."
+      ],
+      "stateWords": [
+        "één vel",
+        "vijf stroken",
+        "twee stroken",
+        "slinger"
+      ],
+      "helpWords": [
+        "het papier",
+        "de schaar",
+        "de stroken",
+        "de lijm",
+        "de ringen",
+        "de slinger"
+      ],
+      "helpIds": [
+        "paper",
+        "scissors",
+        "strip",
+        "glue",
+        "ring",
+        "chain"
+      ]
+    },
+    "beach-walk": {
+      "sentences": [
+        "Eerst staan er geen voetstappen in het zand.",
+        "Dan loopt het kind en zie je drie voetstappen.",
+        "Daarna vindt het kind een schelp.",
+        "Tot slot is het kind met de schelp terug op de handdoek."
+      ],
+      "stateWords": [
+        "geen voetstappen",
+        "drie voetstappen",
+        "vindt",
+        "terug"
+      ],
+      "helpWords": [
+        "het zand",
+        "de handdoek",
+        "de schelp",
+        "de voetstappen",
+        "lopen"
+      ],
+      "helpIds": [
+        "sand",
+        "towel",
+        "shell",
+        "footprint",
+        "walk"
+      ]
+    }
+  },
+  "excludeStories": [],
+  "strings": {
+    "base": {
+      "title": "Verhaal op volgorde leggen: nummer de plaatjes",
+      "instruction": "Kijk wat er in elk verhaal verandert en schrijf de cijfers in de hokjes, zodat de plaatjes op volgorde komen."
+    },
+    "first-next-last-cut": {
+      "title": "Volgordeplaatjes van een verhaal knippen: eerst, dan, tot slot",
+      "instruction": "Knip de plaatjes van elke strook uit en plak ze in de lege vakken boven Eerst, Dan en Tot slot."
+    },
+    "what-happens-next": {
+      "title": "Verhaal op volgorde: wat gebeurt er daarna?",
+      "instruction": "Kijk naar de drie plaatjes van elk verhaal en omcirkel het plaatje eronder dat in het vak met het vraagteken hoort."
+    },
+    "beginning-middle-end": {
+      "title": "Begin, midden en eind van een verhaal",
+      "instruction": "Kijk naar het begin en het eind van elk verhaal en teken in het lege vak wat er in het midden gebeurt."
+    },
+    "sequencing-sentences": {
+      "title": "Verhaal op volgorde lezen: welke zin hoort bij welk plaatje?",
+      "instruction": "Lees de zinnen van elk verhaal en trek een lijn van elke zin naar het plaatje dat erbij hoort."
+    },
+    "retell-with-starters": {
+      "title": "Vertel het verhaal na bij de plaatjes: schrijf met startwoorden",
+      "instruction": "Schrijf op de lijnen wat er op elk plaatje gebeurt en begin met het woord dat al op de eerste lijn staat."
+    }
+  }
+}

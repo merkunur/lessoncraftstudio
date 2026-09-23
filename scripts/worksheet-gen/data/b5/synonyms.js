@@ -41,7 +41,7 @@
  *              `gloomy` foil on a `happy` card would pass it: the concept link bans it)
  *   PICTURES   F1 pictured concepts, each OPENED by the design editor (picOpened)
  *   EXCLUSIVE  pictured concepts that never share an F1 page
- *   FACES      mode -> id (face ids TBD by tools/alloc-b5var-ids.js)
+ *   FACES      mode -> id (docs/worksheet-gen/b5-designs/_records/b5var-id-allocation.json)
  *
  * EN authoring notes (2026-09-23):
  *   - `unhappy` / `untidy` / `unkind` are G2-320 prefix items: never a group word.
@@ -124,28 +124,39 @@ const SYNONYMS = {
       { a: 'cozy', b: 'calm', why: 'a cozy room can feel calm; not the same word' },
       { a: 'talk', b: 'shout', why: 'shouting is loud talking' },
     ],
+    // F1 (Phase E, 2026-09-23): per pictured concept, every word of the OTHER pictured concepts that is
+    // plainly FALSE of this picture (the closed world needs a home for every answer word). Removed as
+    // plausible, never a foil: sad face: tired/scared words · scared face: angry · surprised face: scared ·
+    // tired face: sad · race car: size words (size is relative) · elephant calf: happy + tired (it sits and
+    // smiles) · ant: fast (ants scurry), happy, angry (a cartoon ant).
     falseOf: {
-      happy: ['sad', 'gloomy', 'tired', 'sleepy', 'big', 'large'],
-      sad: ['glad', 'happy', 'quick', 'fast', 'large', 'big'],
-      angry: ['scared', 'afraid', 'sleepy', 'tired', 'small', 'little'],
-      scared: ['angry', 'mad', 'glad', 'cheerful', 'speedy', 'quick'],
-      surprised: ['sleepy', 'tired', 'sad', 'gloomy', 'little', 'small'],
-      tired: ['fast', 'speedy', 'angry', 'mad', 'amazed', 'surprised'],
-      fast: ['small', 'little', 'tired', 'sleepy', 'gloomy', 'sad'],
-      big: ['little', 'small', 'quick', 'fast', 'cheerful', 'happy'],
-      small: ['big', 'large', 'angry', 'mad', 'afraid', 'scared'],
+      happy: ['sad', 'gloomy', 'angry', 'mad', 'scared', 'afraid', 'frightened', 'surprised', 'amazed', 'astonished', 'tired', 'sleepy', 'fast', 'quick', 'speedy', 'big', 'large', 'small', 'little'],
+      sad: ['happy', 'glad', 'cheerful', 'angry', 'mad', 'surprised', 'amazed', 'astonished', 'fast', 'quick', 'speedy', 'big', 'large', 'small', 'little'],
+      angry: ['happy', 'glad', 'cheerful', 'sad', 'gloomy', 'scared', 'afraid', 'frightened', 'surprised', 'amazed', 'astonished', 'tired', 'sleepy', 'fast', 'quick', 'speedy', 'big', 'large', 'small', 'little'],
+      scared: ['happy', 'glad', 'cheerful', 'sad', 'gloomy', 'tired', 'sleepy', 'fast', 'quick', 'speedy', 'big', 'large', 'small', 'little'],
+      surprised: ['happy', 'glad', 'cheerful', 'sad', 'gloomy', 'angry', 'mad', 'tired', 'sleepy', 'fast', 'quick', 'speedy', 'big', 'large', 'small', 'little'],
+      tired: ['happy', 'glad', 'cheerful', 'angry', 'mad', 'scared', 'afraid', 'frightened', 'surprised', 'amazed', 'astonished', 'fast', 'quick', 'speedy', 'big', 'large', 'small', 'little'],
+      fast: ['happy', 'glad', 'cheerful', 'sad', 'gloomy', 'angry', 'mad', 'scared', 'afraid', 'frightened', 'surprised', 'amazed', 'astonished', 'tired', 'sleepy'],
+      big: ['sad', 'gloomy', 'angry', 'mad', 'scared', 'afraid', 'frightened', 'surprised', 'amazed', 'astonished', 'fast', 'quick', 'speedy', 'small', 'little'],
+      small: ['sad', 'gloomy', 'scared', 'afraid', 'frightened', 'surprised', 'amazed', 'astonished', 'tired', 'sleepy', 'big', 'large'],
     },
+    // nearOnly: words that live ONLY in `near` (kept off every card beside their partner) since their F3
+    // scales were dropped; rule 4 accepts them as bank words. (Kept so the base page stays byte-identical.)
+    nearOnly: ['huge', 'nervous', 'miserable'],
+    // F3 bar (lead ruling, Phase E 2026-09-23): every scale has ONE order a teacher could not dispute.
+    // Dropped as arguable: sad / miserable / heartbroken (miserable vs heartbroken), nervous / scared /
+    // terrified (nervous is another feeling, not a weaker fear), big / huge / gigantic (huge vs gigantic).
     scales: [
       { id: 's.heat', pos: 'adj', words: ['warm', 'hot', 'boiling'] },
       { id: 's.cold', pos: 'adj', words: ['chilly', 'cold', 'freezing'] },
-      { id: 's.size', pos: 'adj', words: ['big', 'huge', 'gigantic'] },
       { id: 's.wet', pos: 'adj', words: ['damp', 'wet', 'soaked'] },
       { id: 's.angry', pos: 'adj', words: ['annoyed', 'angry', 'furious'] },
-      { id: 's.scared', pos: 'adj', words: ['nervous', 'scared', 'terrified'] },
-      { id: 's.sad', pos: 'adj', words: ['sad', 'miserable', 'heartbroken'] },
       { id: 's.good', pos: 'adj', words: ['good', 'great', 'fantastic'] },
       { id: 's.eat', pos: 'verb', words: ['nibble', 'eat', 'gobble'] },
+      { id: 's.drink', pos: 'verb', words: ['sip', 'drink', 'gulp'] },
       { id: 's.like', pos: 'verb', words: ['like', 'love', 'adore'] },
+      { id: 's.voice', pos: 'verb', words: ['whisper', 'talk', 'shout'] },
+      { id: 's.knock', pos: 'verb', words: ['tap', 'knock', 'bang'] },
     ],
     fields: {
       say: {
@@ -170,7 +181,7 @@ const SYNONYMS = {
     strings: {
       base: { title: 'Synonyms: Circle the Word That Means the Same', instruction: 'Read the big word on each card and circle the word under it that means the same.' },
       pictures: { title: 'Synonyms with Pictures: Two Words, One Picture', instruction: 'Look at each picture and circle the two words under it that mean the same and tell about the picture.' },
-      pairs: { title: 'Match the Synonyms: Find the Pairs', instruction: 'Draw a line to link each word on the left with the word on the right that means the same.' },
+      pairs: { title: 'Synonym Pairs: Match the Words That Mean the Same', instruction: 'Draw a line to link each word on the left with the word on the right that means the same.' },
       shades: { title: 'Shades of Meaning: From a Little to a Lot', instruction: 'Read the three words in each row and write 1, 2 and 3 in the boxes, from the weakest word to the strongest.' },
       say: { title: 'Synonyms for Said: Pick the Word That Fits', instruction: 'Read each sentence and write the word from the bubble that fits best in the box instead of said.' },
       fields: { title: 'Word Fields: Words for Go and Look', instruction: 'Read the ten words and write each one in the field of the word it means nearly the same as.' },
@@ -223,23 +234,25 @@ const CONCEPTS = [
   { id: 'smile', pos: 'verb', domain: 'face', opp: ['cry'] },
 ];
 
-/** F1 pictures, OPENED 2026-09-23 by the design editor + designers A and B (scratchpad/G2-358-crit-pics.png). */
+/** F1 pictures, OPENED 2026-09-23 by the design editor + designers A and B (scratchpad/G2-358-crit-pics.png).
+ *  box = the MEASURED drawn-content box [x0, y0, x1, y1] as fractions of the 512 px bitmap (alpha > 24 and not
+ *  near-white; Phase E 2026-09-23): the F1 card fits the picture by its content, so the wide race car fills the frame. */
 const PICTURES = {
-  happy: { theme: 'emotions', noun: 'happy', picOpened: true },
-  sad: { theme: 'emotions', noun: 'sad', picOpened: true },
-  angry: { theme: 'emotions', noun: 'angry', picOpened: true },
-  scared: { theme: 'emotions', noun: 'scared', picOpened: true },
-  surprised: { theme: 'emotions', noun: 'surprised', picOpened: true },
-  tired: { theme: 'emotions', noun: 'tired', picOpened: true },
-  fast: { theme: 'vehicles', noun: 'race_car', picOpened: true },
-  big: { theme: 'zoo animals', noun: 'elephant', picOpened: true, alt: { theme: 'ocean life', noun: 'whale', picOpened: true } },
-  small: { theme: 'insects and bugs', noun: 'ant', picOpened: true, alt: { theme: 'pets', noun: 'mouse', picOpened: true } },
+  happy: { theme: 'emotions', noun: 'happy', picOpened: true, box: [0.029, 0.025, 0.971, 0.984] },
+  sad: { theme: 'emotions', noun: 'sad', picOpened: true, box: [0.02, 0.018, 0.982, 0.986] },
+  angry: { theme: 'emotions', noun: 'angry', picOpened: true, box: [0.02, 0.018, 0.98, 0.988] },
+  scared: { theme: 'emotions', noun: 'scared', picOpened: true, box: [0.025, 0.031, 0.975, 0.98] },
+  surprised: { theme: 'emotions', noun: 'surprised', picOpened: true, box: [0.029, 0.029, 0.975, 0.975] },
+  tired: { theme: 'emotions', noun: 'tired', picOpened: true, box: [0.031, 0.02, 0.967, 0.986] },
+  fast: { theme: 'vehicles', noun: 'race_car', picOpened: true, box: [0.027, 0.318, 0.977, 0.703] },
+  big: { theme: 'zoo animals', noun: 'elephant', picOpened: true, box: [0.059, 0.027, 0.938, 0.984], alt: { theme: 'ocean life', noun: 'whale', picOpened: true } },
+  small: { theme: 'insects and bugs', noun: 'ant', picOpened: true, box: [0.021, 0.094, 0.973, 0.93], alt: { theme: 'pets', noun: 'mouse', picOpened: true } },
 };
 /** Never on one F1 page (confusable at 72 px). */
 const EXCLUSIVE = [['scared', 'surprised']];
 /** Pictures the design EXCLUDED (never substitute a similarly named one). */
 const PICTURE_EXCLUDED = ['emotions/excited', 'emotions/merry', 'emotions/content', 'emotions/bored', 'emotions/confused', 'emotions/shy', 'zoo animals/giraffe', 'zoo animals/cheetah'];
-const FACES = { base: 'G2-358', pictures: 'G1-3xx', pairs: 'G2-3xx', shades: 'G1-3xx', say: 'G2-3xx', fields: 'G3-3xx' };
+const FACES = { base: 'G2-358', pictures: 'G1-395', pairs: 'G2-373', shades: 'G1-396', say: 'G2-374', fields: 'G3-397' };
 const MODES = ['base', 'pictures', 'pairs', 'shades', 'say', 'fields'];
 
 /** The gate owns the validator (tools/b5-probe-child.js requires qa/verify-b5-synonyms.js); this is a lazy door to it. */

@@ -895,6 +895,38 @@
     "title": "Family Members: Who Is Who?",
     "instruction": "Find each person on the family tree and write their number in the box next to their family word."
   },
+  "K-371": {
+    "title": "2D Shapes Around Us",
+    "instruction": "Look at each picture and color the shape it has: the circle or the rectangle."
+  },
+  "K-372": {
+    "title": "Draw 2D Shapes on Dot Paper",
+    "instruction": "Read the shape name and join the dots to draw it, starting from the thick line where there is one."
+  },
+  "K-373": {
+    "title": "Road Safety: Color the Traffic Lights",
+    "instruction": "Find the lamp with rays on each traffic light and color it the color it shines."
+  },
+  "K-374": {
+    "title": "Crossing the Road Safely: the Steps",
+    "instruction": "Write 1 to 5 in the boxes to show how to cross the road."
+  },
+  "K-375": {
+    "title": "Family Words: Trace and Write",
+    "instruction": "Find the person with the same number on the tree, trace their family word and write it again on the line."
+  },
+  "K-376": {
+    "title": "What Plants Need to Grow",
+    "instruction": "Look at what each plant gets. Circle the plant that gets both things it needs to grow."
+  },
+  "K-377": {
+    "title": "Bird's-Eye View: From the Side and From Above",
+    "instruction": "Each thing is drawn from the side. Draw a line to the same thing seen from above."
+  },
+  "K-378": {
+    "title": "Digraph Sort for Kindergarten: sh or ch",
+    "instruction": "Say each picture's name. Draw a line from each picture to the letter team you hear."
+  },
   "G1-101": {
     "title": "Add the Pictures",
     "instruction": "Count both groups. Write how many altogether."
@@ -1763,6 +1795,74 @@
     "title": "Digraphs sh, ch and th: Which Letter Team Do You Hear?",
     "instruction": "Say the name of each picture. Circle the letter team you hear."
   },
+  "G1-381": {
+    "title": "2D Shapes: Real or Not?",
+    "instruction": "Read the name in each row and circle every shape that really is that shape."
+  },
+  "G1-382": {
+    "title": "2D Shapes: Write the Names",
+    "instruction": "Look at each shape and write its name on the line, using the names in the box."
+  },
+  "G1-383": {
+    "title": "2D Shape Riddles",
+    "instruction": "Read each riddle and circle the name of the shape."
+  },
+  "G1-384": {
+    "title": "Road Safety: Traffic Signs and Their Meanings",
+    "instruction": "Draw a line from each road sign to what it means."
+  },
+  "G1-385": {
+    "title": "Family Generations: Oldest to Youngest",
+    "instruction": "In each row, write 1, 2 and 3 in the boxes to put the family words in order from the oldest generation to the youngest."
+  },
+  "G1-386": {
+    "title": "Family Tree: Read the Clues",
+    "instruction": "Read the clues and write each name in the right name box on the family tree."
+  },
+  "G1-387": {
+    "title": "Family Tree Template",
+    "instruction": "Draw the people who are important to you in the frames and write their names on the lines."
+  },
+  "G1-388": {
+    "title": "Plant Life Cycle: From Seed to Plant",
+    "instruction": "Cut out the four pictures. Glue each one in the next empty box, going round the arrows from the seed."
+  },
+  "G1-389": {
+    "title": "Frog Life Cycle: Cut and Paste",
+    "instruction": "Cut out the four squares and glue each one on its lily pad, going round the pond from the frogspawn to the frog."
+  },
+  "G1-390": {
+    "title": "What Comes Next? Butterfly, Frog and Ladybug",
+    "instruction": "Look at the first picture in each row and circle the one that comes right after it."
+  },
+  "G1-391": {
+    "title": "Moon Phases in Order",
+    "instruction": "The Moon seems to grow, then shrink. In each row, write 1 to 5 under the moons in that order."
+  },
+  "G1-392": {
+    "title": "Missing Digraphs: Write sh, ch or th",
+    "instruction": "Say each picture word. Write the missing letter team from the top in the dashed space."
+  },
+  "G1-393": {
+    "title": "Read Digraph Words and Match the Pictures",
+    "instruction": "Read each word. The letter team is marked. Draw a line to the picture the word names."
+  },
+  "G1-394": {
+    "title": "Where Is the Digraph? sh, ch and th in the Word",
+    "instruction": "Say each picture word. Where do you hear the letter team? Color one space: beginning, middle or end."
+  },
+  "G1-395": {
+    "title": "Synonyms with Pictures: Two Words, One Picture",
+    "instruction": "Look at each picture and circle the two words under it that mean the same and tell about the picture."
+  },
+  "G1-396": {
+    "title": "Shades of Meaning: From a Little to a Lot",
+    "instruction": "Read the three words in each row and write 1, 2 and 3 in the boxes, from the weakest word to the strongest."
+  },
+  "G1-397": {
+    "title": "Root Words with Pictures: Circle the Word",
+    "instruction": "Name each picture, then circle the one word above it that is built from that picture word."
+  },
   "G2-203": {
     "title": "Add the Blocks",
     "instruction": "Add the two block groups. Write the total."
@@ -2351,6 +2451,74 @@
     "title": "Root Words: Sort by the Root",
     "instruction": "Read each word at the top and write it on a line of the wall that stands on its root word."
   },
+  "G2-360": {
+    "title": "Road Safety: Kinds of Traffic Signs",
+    "instruction": "Write the letter of each road sign in the boxes of its group."
+  },
+  "G2-361": {
+    "title": "Road Safety Quiz: Which Sign Fits?",
+    "instruction": "Read each sentence and circle the one road sign that fits it."
+  },
+  "G2-362": {
+    "title": "Family Relationships: Riddles",
+    "instruction": "Read each riddle and write the right family word from the box on the line; one word can fit more than one riddle."
+  },
+  "G2-363": {
+    "title": "Parts of a Plant We Eat",
+    "instruction": "Look at each food. Circle the part of the plant that we eat."
+  },
+  "G2-364": {
+    "title": "Parts of a Plant and Their Functions",
+    "instruction": "Read what each part does. Find that part on the plant and write the number of its tag in the box."
+  },
+  "G2-365": {
+    "title": "Label the Butterfly Life Cycle",
+    "instruction": "Write each name from the word bank on the line under its picture, and cross out the one name that does not belong."
+  },
+  "G2-366": {
+    "title": "Metamorphosis: Which Animal Will It Become?",
+    "instruction": "Look at each young animal and write its letter in a box under the grown-up animal it will become."
+  },
+  "G2-367": {
+    "title": "Name the Moon Phases",
+    "instruction": "Look at each moon. Write its name on the lines. Use each word in the word bank twice."
+  },
+  "G2-368": {
+    "title": "Why Do We Have Day and Night?",
+    "instruction": "Look where the Sun is. At each numbered pin, is it day or night? Circle the word in the table."
+  },
+  "G2-369": {
+    "title": "North, East, South, West: Finish the Rose",
+    "instruction": "Each compass rose shows one letter. Write the other three letters in the empty boxes."
+  },
+  "G2-370": {
+    "title": "Label the Continents",
+    "instruction": "Write the name of each numbered continent on its line. Use the names in the box."
+  },
+  "G2-371": {
+    "title": "Cardinal Directions on a Map",
+    "instruction": "Find the first picture on the map. Look the way the word says. Circle the one of the three pictures that lies that way."
+  },
+  "G2-372": {
+    "title": "Digraphs in Sentences: Circle and Count sh",
+    "instruction": "Read the sentences. Circle every sh. Write how many you found in each sentence in its box."
+  },
+  "G2-373": {
+    "title": "Synonym Pairs: Match the Words That Mean the Same",
+    "instruction": "Draw a line to link each word on the left with the word on the right that means the same."
+  },
+  "G2-374": {
+    "title": "Synonyms for Said: Pick the Word That Fits",
+    "instruction": "Read each sentence and write the word from the bubble that fits best in the box instead of said."
+  },
+  "G2-375": {
+    "title": "Find the Root Word",
+    "instruction": "Circle the part the three words share and write that root word in the empty stone."
+  },
+  "G2-376": {
+    "title": "Prefixes re-, pre- and mis-: Pick by Meaning",
+    "instruction": "Read what each new word means, find its prefix in the key and write it in the empty piece."
+  },
   "G3-301": {
     "title": "Big Arrays",
     "instruction": "Count the rows of pictures. Write how many in all."
@@ -2670,5 +2838,37 @@
   "G3-391": {
     "title": "Rounding to the Nearest 10 and 100",
     "instruction": "Round each number twice: to the nearest ten in the first box and to the nearest hundred in the second."
+  },
+  "G3-392": {
+    "title": "Parts of a Flower",
+    "instruction": "Write the name of each numbered part of the flower on its line. Cross out the word in the bank that is not a part of a flower."
+  },
+  "G3-393": {
+    "title": "Butterfly and Frog Life Cycles Compared",
+    "instruction": "Read each sentence and tick the butterfly, the frog or both when the sentence is true for that animal."
+  },
+  "G3-394": {
+    "title": "Planets in Order from the Sun",
+    "instruction": "Write the name of each planet on its line, starting next to the Sun. Use every name in the bank once."
+  },
+  "G3-395": {
+    "title": "Giant and Rocky Planets",
+    "instruction": "Sort the names. Write each one in the right box: giant planet, small rocky planet or not a planet."
+  },
+  "G3-396": {
+    "title": "Continents and Oceans",
+    "instruction": "Find each continent and ocean on the map. Write its number in the box next to its name."
+  },
+  "G3-397": {
+    "title": "Word Fields: Words for Go and Look",
+    "instruction": "Read the ten words and write each one in the field of the word it means nearly the same as."
+  },
+  "G3-398": {
+    "title": "Who Does It? The Person Word",
+    "instruction": "Look at each person at work, read the word beside them and write the person word in the empty brick."
+  },
+  "G3-399": {
+    "title": "Root Words in Sentences",
+    "instruction": "Write each of the four words on the stone into the sentence it fits."
   }
 }

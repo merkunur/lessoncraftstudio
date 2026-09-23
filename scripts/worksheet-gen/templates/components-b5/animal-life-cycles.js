@@ -190,7 +190,24 @@ function loopArrow() {
     el('line', { x1: 70, y1: 52, x2: 72, y2: 52, stroke: T.coral, 'stroke-width': 4, 'stroke-linecap': 'round' }) +
     el('polygon', { points: '82,52 70,46 70,58', fill: T.coral }) + '</svg>';
 }
-function loopRow({ animal = 'butterfly', stage = 'adult', lensD, boxPx, answer }) {
+/**
+ * loopRow — the adult lens, the loop arrow, the empty box. FILL (base review 2026-09-23): with
+ * grow = { lensMax, maxH } the row is a size container taking the body's free height between 116 and
+ * maxH, and its lens grows with it (clamp(lensD, row - 12, lensMax)); without grow it is the fixed
+ * 116 px row, byte-identical to the base build.
+ */
+function loopRow({ animal = 'butterfly', stage = 'adult', lensD, boxPx, answer, grow }) {
+  if (grow) {
+    const { lensMax, maxH } = grow;
+    if (!(lensMax >= lensD && maxH >= lensMax + 12)) throw new Error(`loopRow: grow ${JSON.stringify(grow)} under the lens ${lensD}`);
+    const L = lens({ animal, stage, d: lensD, attrs: 'data-lcs-loop-lens', id: `ls-loop-${animal}-${stage}-${lensD}` });
+    const size = `clamp(${lensD}px, calc(100cqh - 12px), ${lensMax}px)`;
+    const fl = L.replace(/style="display:inline-block;position:relative;width:[\d.]+px;height:[\d.]+px;line-height:0;flex:0 0 [\d.]+px"/, `style="display:inline-block;position:relative;width:${size};height:${size};line-height:0;flex:0 0 auto"`)
+      .replace(/(<svg [^>]*?)width="[\d.]+" height="[\d.]+"/, '$1width="100%" height="100%"');
+    if (fl === L) throw new Error('loopRow: the lens markup changed shape');
+    return `<div data-lcs-loop-row data-lcs-grow style="display:flex;align-items:center;justify-content:center;gap:18px;width:${PLATE_W}px;flex:1 1 116px;min-height:116px;max-height:${maxH}px;container-type:size">` +
+      fl + loopArrow() + blankNumeralBox({ w: boxPx, h: boxPx, answer: String(answer), attrs: 'data-lcs-box data-lcs-loop' }) + '</div>';
+  }
   return `<div data-lcs-loop-row style="display:flex;align-items:center;justify-content:center;gap:18px;width:${PLATE_W}px;height:116px;flex:0 0 auto">` +
     lens({ animal, stage, d: lensD, attrs: 'data-lcs-loop-lens', id: `ls-loop-${animal}-${stage}-${lensD}` }) + loopArrow() +
     blankNumeralBox({ w: boxPx, h: boxPx, answer: String(answer), attrs: 'data-lcs-box data-lcs-loop' }) + '</div>';

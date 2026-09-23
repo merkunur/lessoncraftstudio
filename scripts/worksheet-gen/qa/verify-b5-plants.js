@@ -229,6 +229,8 @@ async function renderWith(page, type, { difficulty = 2, baseName, strings, seedE
       words: words.map((w) => ({ id: w.dataset.lcsBank, text: w.textContent.trim(), px: parseFloat(getComputedStyle(w).fontSize), top: Math.round(w.getBoundingClientRect().top), clipped: w.scrollWidth > w.clientWidth + 0.6 })),
       banner: banner ? rect(banner) : null,
       lowest: Math.max(0, ...[...(root ? root.querySelectorAll('*') : [])].map((e) => e.getBoundingClientRect().bottom)),
+      // base FILL: the bottom of the INK (plant part groups, tags, the label card, the bank), never of the grown svg box
+      ink: root ? Math.max(0, ...[...root.querySelectorAll('svg[data-lcs-plant] g[data-lcs-part], svg[data-lcs-plant] g[data-lcs-tag], svg[data-lcs-plant] rect[data-lcs-soil="box"], [data-lcs-label-card], [data-lcs-bank-banner]')].map((e) => e.getBoundingClientRect().bottom)) : 0,
       stamps: root ? { numbers: root.dataset.lcsNumbers, picks: root.dataset.lcsPicks } : null,
       // SPARSE: the blank band between the bank's bottom and the stage's FIRST DRAWN element (plant parts, tags, the card)
       sparseGap: (() => {
@@ -241,11 +243,15 @@ async function renderWith(page, type, { difficulty = 2, baseName, strings, seedE
   });
   return { out, m, verify: out.qa.verify, lints: out.qa.lints };
 }
-function assertRender(name, r, { bank = true, rowsWant = 6, rowH = 64, body } = {}) {
+const BASE_FILL_MIN = 0.85;   // _FACE-BRIEF.md FILL: content bottom >= 85 % of the body at the 814 chrome, inside the body at 677
+function assertRender(name, r, { bank = true, rowsWant = 6, rowH = 64, body, fill, figureMax = TYPE.difficulty[2].figureMax } = {}) {
   ok(!r.verify.length, `${name}: verify ${JSON.stringify(r.verify.slice(0, 4))}`);
   ok(!r.lints.length, `${name}: lints ${JSON.stringify(r.lints.slice(0, 4))}`);
   const m = r.m;
-  ok(m.plant && Math.abs(m.plant.h - TYPE.difficulty[2].figureH) < 1, `${name}: the plant is ${m.plant && m.plant.h.toFixed(1)} px ≠ ${TYPE.difficulty[2].figureH}`);
+  ok(m.plant && m.plant.h >= TYPE.difficulty[2].figureH - 1 && m.plant.h <= figureMax + 1, `${name}: the plant is ${m.plant && m.plant.h.toFixed(1)} px, outside [${TYPE.difficulty[2].figureH}, ${figureMax}]`);
+  const share = (m.ink - m.body.top) / m.body.h;
+  if (fill === 'one') ok(share >= BASE_FILL_MIN, `${name}: FILL — the content ends at ${(share * 100).toFixed(1)} % of the body (< ${BASE_FILL_MIN * 100} %): grow the plant, not the whitespace`);
+  ok(m.ink <= m.body.bottom + 0.6 && m.ink <= m.foot + 0.6, `${name}: FILL overflow — the content ends ${(m.ink - m.body.bottom).toFixed(0)} px past the body`);
   ok(m.rows.length === rowsWant, `${name}: ${m.rows.length} rows ≠ ${rowsWant}`);
   for (const rr of m.rows) ok(rr.h >= Math.max(44, rowH) - 0.6 && rr.w >= 204, `${name}: a row ${rr.w.toFixed(0)} x ${rr.h.toFixed(0)} < 205 x ${rowH}`);
   ok(m.discs.every((d) => d.w >= 28), `${name}: a tag disc under 28 px`);
@@ -481,13 +487,13 @@ async function main() {
     // 3. renders
     for (const d of [1, 2, 3]) {
       const r = await renderWith(page, TYPE, { difficulty: d, baseName: `G1-376-gate-d${d}-en` });
-      assertRender(`d${d}`, r, { bank: d !== 3, rowsWant: d === 1 ? 4 : 6, rowH: d === 1 ? 72 : 64 });
-      console.log(`render d${d}: gap ${r.m.sparseGap == null ? '-' : r.m.sparseGap.toFixed(0)} verify ${r.verify.length} lints ${r.lints.length} body ${r.m.body.h.toFixed(0)} plant ${r.m.plant.h.toFixed(0)} rows ${r.m.rows.length}x${r.m.rows[0] && r.m.rows[0].h.toFixed(0)} lowest ${r.m.lowest.toFixed(0)} foot ${r.m.foot.toFixed(0)}`);
+      assertRender(`d${d}`, r, { bank: d !== 3, rowsWant: d === 1 ? 4 : 6, rowH: d === 1 ? 72 : 64, fill: 'one', figureMax: TYPE.difficulty[d].figureMax });
+      console.log(`render d${d}: fill ${(100 * (r.m.ink - r.m.body.top) / r.m.body.h).toFixed(1)} % gap ${r.m.sparseGap == null ? '-' : r.m.sparseGap.toFixed(0)} verify ${r.verify.length} lints ${r.lints.length} body ${r.m.body.h.toFixed(0)} plant ${r.m.plant.h.toFixed(0)} rows ${r.m.rows.length}x${r.m.rows[0] && r.m.rows[0].h.toFixed(0)} lowest ${r.m.lowest.toFixed(0)} foot ${r.m.foot.toFixed(0)}`);
     }
     for (const k of Object.keys(LONG)) {
       const r = await renderWith(page, TYPE, { difficulty: 2, baseName: `G1-376-gate-d2-longchrome-${k}`, strings: LONG[k] });
       assertRender(`d2 long chrome ${k}`, r, { body: LONG[k].body });
-      console.log(`render d2 long chrome ${k}: gap ${r.m.sparseGap.toFixed(0)} verify ${r.verify.length} lints ${r.lints.length} body ${r.m.body.h.toFixed(0)} (head ${r.m.headH.toFixed(0)}) lowest ${r.m.lowest.toFixed(0)} foot ${r.m.foot.toFixed(0)}`);
+      console.log(`render d2 long chrome ${k}: fill ${(100 * (r.m.ink - r.m.body.top) / r.m.body.h).toFixed(1)} % gap ${r.m.sparseGap.toFixed(0)} verify ${r.verify.length} lints ${r.lints.length} body ${r.m.body.h.toFixed(0)} (head ${r.m.headH.toFixed(0)}) lowest ${r.m.lowest.toFixed(0)} foot ${r.m.foot.toFixed(0)}`);
     }
     {
       const de = { ...banks.en, partWords: { root: 'Wurzeln', stem: 'Stängel', leaf: 'Blatt', flower: 'Blüte', fruit: 'Frucht', seed: 'Samen' } };
@@ -551,13 +557,29 @@ async function main() {
       try { await rp('PR9 root above soil', TYPE, /root anchor above the soil line/); } finally { save.forEach((s, i) => Object.assign(A[i], s)); }
     }
     {
-      // PS: the SPARSE poison — the pre-review centred stage (row minmax(figureH,1fr), no align-content) at the 814 chrome
-      const centred = { ...TYPE, build(o, ctx) { const r = TYPE.build(o, ctx); r.bodyHtml = r.bodyHtml.replace(/grid-template-rows:auto (\d+)px;align-content:start/, 'grid-template-rows:auto minmax($1px,1fr)'); return r; } };
+      // PS: the SPARSE poison — the plant frozen at its minimum and the slack spread BETWEEN the bank and the stage (space-between) at the 814 chrome
+      const centred = { ...TYPE, build(o, ctx) { const r = TYPE.build(o, ctx); const h = r.bodyHtml.replace(/grid-template-rows:auto minmax\((\d+)px,\d+px\);align-content:start/, 'grid-template-rows:auto $1px;align-content:space-between'); if (h === r.bodyHtml) throw new Error('PS: the base root style changed shape'); r.bodyHtml = h; return r; } };
       const r = await renderWith(page, centred, { difficulty: 2, baseName: 'G1-376-gate-poison-PS' });
       const f = [];
       const before = fails.length; assertRender('PS centred stage', r); f.push(...fails.splice(before));
       judge('PS centred stage (sparse)', f, /SPARSE — \d+ px blank band/);
       log.push(`  PS control: the shipped d2 gap ${(await renderWith(page, TYPE, { difficulty: 2, baseName: 'G1-376-gate-ps-control' })).m.sparseGap.toFixed(0)} px (<= ${SPARSE_MAX})`);
+    }
+    {
+      // base FILL, poisoned BOTH ways (base review 2026-09-23): (a) the plant frozen at its 592 minimum ends high at the
+      // 814 chrome (the pre-review page, ~83 %); (b) the plant forced past the 667 fi body leaves the page.
+      const frozen = { ...TYPE, build(o, ctx) { const r = TYPE.build(o, ctx); const h = r.bodyHtml.replace(/minmax\((\d+)px,\d+px\);align-content:start/, '$1px;align-content:start'); if (h === r.bodyHtml) throw new Error('FL: the base root style changed shape'); r.bodyHtml = h; return r; } };
+      for (const d of [2, 3]) {
+        const r = await renderWith(page, frozen, { difficulty: d, baseName: `G1-376-gate-poison-FL-d${d}` });
+        const before = fails.length; assertRender(`FL d${d}`, r, { bank: d !== 3, fill: 'one', figureMax: TYPE.difficulty[d].figureMax }); const f = fails.splice(before);
+        judge(`FL-d${d} plant frozen at its minimum (content ends high at 814)`, f, /FILL — the content ends at/);
+      }
+      const grown = { ...TYPE, build(o, ctx) { const r = TYPE.build(o, ctx); const h = r.bodyHtml.replace(/minmax\((\d+)px,\d+px\);align-content:start/, 'minmax(640px,640px);align-content:start'); if (h === r.bodyHtml) throw new Error('FG: the base root style changed shape'); r.bodyHtml = h; return r; } };
+      const r = await renderWith(page, grown, { difficulty: 2, baseName: 'G1-376-gate-poison-FG', strings: LONG.fi });
+      const before = fails.length; assertRender('FG', r, { figureMax: 700 }); const f = [...fails.splice(before), ...r.verify];
+      judge('FG plant grown past the 667 fi body', f, /FILL overflow|reaches the footer/);
+      const c = await renderWith(page, TYPE, { difficulty: 2, baseName: 'G1-376-gate-fill-control' });
+      log.push(`  FILL control: the shipped d2 ends at ${(100 * (c.m.ink - c.m.body.top) / c.m.body.h).toFixed(1)} % of the ${c.m.body.h.toFixed(0)} px body (>= ${BASE_FILL_MIN * 100} %)`);
     }
     {
       // PR13: a two-row bank at the fi 677 chrome

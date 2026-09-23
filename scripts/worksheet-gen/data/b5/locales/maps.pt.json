@@ -97,7 +97,7 @@
     },
     "compass-rose": {
       "title": "Rosa dos ventos: complete os pontos cardeais",
-      "instruction": "Cada rosa dos ventos mostra uma letra: escreva as outras três letras nos quadrinhos vazios."
+      "instruction": "A ponta laranja sempre aponta para o norte: escreva em cada rosa dos ventos as três letras que faltam nos quadrinhos vazios."
     },
     "continents": {
       "title": "Os continentes: escreva os nomes",

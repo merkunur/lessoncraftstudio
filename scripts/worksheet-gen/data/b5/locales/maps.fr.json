@@ -117,7 +117,7 @@
     },
     "compass-rose": {
       "title": "Les points cardinaux : complète la rose des vents",
-      "instruction": "Chaque rose des vents montre une lettre, parfois tournée : écris les trois autres lettres dans les cases vides."
+      "instruction": "La pointe orange montre toujours le nord, même quand la rose est tournée : écris les trois lettres qui manquent dans les cases vides."
     },
     "continents": {
       "title": "Les continents : écris leur nom",

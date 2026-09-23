@@ -254,7 +254,7 @@
     },
     "trace-words": {
       "title": "Familienwörter nachspuren und schreiben",
-      "instruction": "Finde die Person mit derselben Zahl im Stammbaum, spure ihr Familienwort nach und schreibe es noch einmal auf die Linie."
+      "instruction": "Spure jedes Familienwort nach, schreibe es noch einmal auf die Linie und zeige die Person mit derselben Zahl im Stammbaum."
     },
     "tree-clues": {
       "title": "Stammbaum ausfüllen: Namen mit Hinweisen eintragen",

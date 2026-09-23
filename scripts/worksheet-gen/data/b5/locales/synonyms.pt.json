@@ -502,6 +502,21 @@
       "a": "sujo",
       "b": "bagunçado",
       "why": "sujo é não limpo; bagunçado é não arrumado"
+    },
+    {
+      "a": "bravo",
+      "b": "corajoso",
+      "why": "no Brasil, bravo é quase sempre zangado; corajoso é só um dos sentidos"
+    },
+    {
+      "a": "bravo",
+      "b": "valente",
+      "why": "bravo também quer dizer zangado; valente não"
+    },
+    {
+      "a": "bravo",
+      "b": "destemido",
+      "why": "bravo também quer dizer zangado; destemido não"
     }
   ],
   "nearOnly": [
@@ -751,6 +766,7 @@
         {
           "id": "f1",
           "text": "O bebê estava dormindo, então {name} {gap} bem baixinho.",
+          "plainVerbOK": true,
           "fit": {
             "sussurrou": true,
             "gritou": false,
@@ -763,6 +779,7 @@
         {
           "id": "f2",
           "text": "{name} {gap} um segredo no ouvido da vovó.",
+          "plainVerbOK": true,
           "fit": {
             "sussurrou": true,
             "gritou": false,
@@ -775,6 +792,7 @@
         {
           "id": "f3",
           "text": "O ônibus ia partir, então {name} {gap}: “Espere por mim!”",
+          "plainVerbOK": true,
           "fit": {
             "sussurrou": false,
             "gritou": true,
@@ -786,7 +804,8 @@
         },
         {
           "id": "f4",
-          "text": "{name} {gap} bem forte, do outro lado do campo.",
+          "text": "Do outro lado do campo, {name} {gap}: “Chuta a bola pra cá!”",
+          "plainVerbOK": true,
           "fit": {
             "sussurrou": false,
             "gritou": true,
@@ -799,6 +818,7 @@
         {
           "id": "f5",
           "text": "“Onde está o meu chapéu vermelho?”, {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "sussurrou": false,
             "gritou": false,
@@ -810,7 +830,8 @@
         },
         {
           "id": "f6",
-          "text": "{name} {gap} à pergunta da professora com um sorriso.",
+          "text": "Quando a professora quis saber quantos patos havia, {name} {gap} com um sorriso: “Cinco.”",
+          "plainVerbOK": true,
           "fit": {
             "sussurrou": false,
             "gritou": false,
@@ -822,7 +843,8 @@
         },
         {
           "id": "f7",
-          "text": "{name} {gap} como plantar uma semente, passo a passo.",
+          "text": "“Primeiro a gente faz um buraco, depois põe a semente e cobre com terra”, {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "sussurrou": false,
             "gritou": false,
@@ -835,6 +857,7 @@
         {
           "id": "f8",
           "text": "“Juro que vou dar comida ao peixe todo dia”, {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "sussurrou": false,
             "gritou": false,

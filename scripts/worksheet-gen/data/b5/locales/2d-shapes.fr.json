@@ -42,11 +42,11 @@
     ],
     "square": [
       {
-        "text": "Mes 4 côtés ont tous la même longueur. Qui suis-je ?",
+        "text": "Mes 4 côtés sont égaux et mes 4 coins sont droits. Qui suis-je ?",
         "clue": "equal"
       },
       {
-        "text": "J’ai 4 coins et mes 4 côtés sont égaux. Qui suis-je ?",
+        "text": "J’ai 4 coins droits, comme ceux d’un livre, et 4 côtés de même longueur. Qui suis-je ?",
         "clue": "equal"
       }
     ],
@@ -62,11 +62,11 @@
     ],
     "rectangle": [
       {
-        "text": "J’ai 2 grands côtés et 2 petits côtés. Qui suis-je ?",
+        "text": "J’ai 2 grands côtés, 2 petits côtés et 4 coins droits. Qui suis-je ?",
         "clue": "longShort"
       },
       {
-        "text": "J’ai 4 coins, 2 grands côtés et 2 petits côtés. Qui suis-je ?",
+        "text": "Mes coins sont droits et mes côtés vont par deux : 2 longs, 2 courts. Qui suis-je ?",
         "clue": "longShort"
       }
     ],
@@ -96,7 +96,7 @@
     },
     "write-name": {
       "title": "Écris le nom des figures planes",
-      "instruction": "Regarde chaque figure et écris son nom sur la ligne, en t’aidant des noms de l’encadré."
+      "instruction": "Regarde chaque figure et écris son nom sur la ligne, en t’aidant de l’encadré : un même nom peut servir plusieurs fois."
     },
     "riddles": {
       "title": "Devinettes sur les figures planes",
@@ -104,7 +104,7 @@
     },
     "dot-draw": {
       "title": "Tracer les figures planes sur les points",
-      "instruction": "Lis le nom de la figure et relie les points pour la tracer, en partant du trait épais quand il y en a un."
+      "instruction": "Avec un adulte, lis le nom de la figure et relie les points pour la tracer, en partant du trait épais s’il y en a un."
     }
   }
 }

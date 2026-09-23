@@ -101,11 +101,11 @@
     },
     "G2-365": {
       "title": "Fjärilens livscykel: skriv namnen på stadierna",
-      "instruction": "Skriv varje namn från ordrutan på raden under rätt bild och stryk det enda namn som inte hör dit."
+      "instruction": "Skriv de fyra stadiernas namn från ordrutan på raderna under bilderna och stryk det namn som inte hör dit."
     },
     "G2-366": {
-      "title": "Metamorfos: vilket djur blir ungen?",
-      "instruction": "Titta på varje ungt djur och skriv dess bokstav i en ruta under det vuxna djur som det blir."
+      "title": "Metamorfos: vilket djur blir det till slut?",
+      "instruction": "Titta på varje stadium och skriv dess bokstav i en ruta under det djur som det blir; några rutor förblir tomma."
     },
     "G3-393": {
       "title": "Fjärilens och grodans livscykel: jämför",
@@ -113,7 +113,7 @@
     },
     "G1-390": {
       "title": "Vad kommer sedan? Fjäril, groda och nyckelpiga",
-      "instruction": "Titta på den första bilden i varje rad och ringa in den bild som kommer direkt efter."
+      "instruction": "Titta på den första bilden i varje rad och ringa in den bild som kommer direkt efter; efter det vuxna djuret börjar cykeln om."
     }
   }
 }

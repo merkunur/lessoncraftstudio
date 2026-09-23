@@ -115,17 +115,6 @@
       ]
     },
     {
-      "id": "g.small",
-      "concept": "small",
-      "pos": "adj",
-      "domain": "size-speed",
-      "tier": 1,
-      "words": [
-        "liten",
-        "pytteliten"
-      ]
-    },
-    {
       "id": "g.fast",
       "concept": "fast",
       "pos": "adj",
@@ -299,7 +288,7 @@
       "tier": 1,
       "words": [
         "sluta",
-        "avsluta"
+        "lägga av"
       ]
     },
     {
@@ -508,9 +497,7 @@
       "snabb",
       "kvick",
       "stor",
-      "jättelik",
-      "liten",
-      "pytteliten"
+      "jättelik"
     ],
     "sad": [
       "glad",
@@ -524,9 +511,7 @@
       "snabb",
       "kvick",
       "stor",
-      "jättelik",
-      "liten",
-      "pytteliten"
+      "jättelik"
     ],
     "angry": [
       "glad",
@@ -544,9 +529,7 @@
       "snabb",
       "kvick",
       "stor",
-      "jättelik",
-      "liten",
-      "pytteliten"
+      "jättelik"
     ],
     "scared": [
       "glad",
@@ -559,9 +542,7 @@
       "snabb",
       "kvick",
       "stor",
-      "jättelik",
-      "liten",
-      "pytteliten"
+      "jättelik"
     ],
     "surprised": [
       "glad",
@@ -576,9 +557,7 @@
       "snabb",
       "kvick",
       "stor",
-      "jättelik",
-      "liten",
-      "pytteliten"
+      "jättelik"
     ],
     "tired": [
       "glad",
@@ -594,9 +573,7 @@
       "snabb",
       "kvick",
       "stor",
-      "jättelik",
-      "liten",
-      "pytteliten"
+      "jättelik"
     ],
     "fast": [
       "glad",
@@ -625,22 +602,7 @@
       "överraskad",
       "häpen",
       "snabb",
-      "kvick",
-      "liten",
-      "pytteliten"
-    ],
-    "small": [
-      "ledsen",
-      "sorgsen",
-      "rädd",
-      "skrämd",
-      "förvånad",
-      "överraskad",
-      "häpen",
-      "trött",
-      "sömnig",
-      "stor",
-      "jättelik"
+      "kvick"
     ]
   },
   "scales": [
@@ -741,7 +703,8 @@
       "sentences": [
         {
           "id": "f1",
-          "text": "Bebisen sov, därför {gap} {name} alldeles tyst.",
+          "text": "”Sch, bebisen sover”, {gap} {name} alldeles tyst.",
+          "plainVerbOK": true,
           "fit": {
             "viskade": true,
             "ropade": false,
@@ -753,7 +716,8 @@
         },
         {
           "id": "f2",
-          "text": "{name} {gap} hemligheten i mormors öra.",
+          "text": "”Jag har en hemlighet till dig”, {gap} {name} tyst i mormors öra.",
+          "plainVerbOK": true,
           "fit": {
             "viskade": true,
             "ropade": false,
@@ -766,6 +730,7 @@
         {
           "id": "f3",
           "text": "Bussen skulle just åka, därför {gap} {name}: ”Vänta på mig!”",
+          "plainVerbOK": true,
           "fit": {
             "viskade": false,
             "ropade": true,
@@ -777,7 +742,8 @@
         },
         {
           "id": "f4",
-          "text": "{name} {gap} högt över hela skolgården.",
+          "text": "”Kom och lek!” {gap} {name} över hela skolgården.",
+          "plainVerbOK": true,
           "fit": {
             "viskade": false,
             "ropade": true,
@@ -790,6 +756,7 @@
         {
           "id": "f5",
           "text": "”Var är min röda mössa?” {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "viskade": false,
             "ropade": false,
@@ -801,7 +768,8 @@
         },
         {
           "id": "f6",
-          "text": "{name} {gap} på lärarens fråga med ett stort leende.",
+          "text": "”Sju och tre är tio”, {gap} {name} med ett stort leende.",
+          "plainVerbOK": true,
           "fit": {
             "viskade": false,
             "ropade": false,
@@ -813,7 +781,8 @@
         },
         {
           "id": "f7",
-          "text": "{name} {gap} steg för steg hur man planterar ett frö.",
+          "text": "”Först gräver man en grop, sedan lägger man i fröet”, {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "viskade": false,
             "ropade": false,
@@ -825,7 +794,8 @@
         },
         {
           "id": "f8",
-          "text": "”Jag ska mata fiskarna varje dag, det är ett löfte!” {gap} {name}.",
+          "text": "”Jag ska mata fiskarna varje dag, det lovar jag!” {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "viskade": false,
             "ropade": false,

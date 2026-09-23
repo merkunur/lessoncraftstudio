@@ -15,7 +15,7 @@
     "air": "On y trouve de l’air que l’on peut respirer.",
     "planet": "C’est une planète.",
     "spinDay": "Sa rotation nous donne le jour et la nuit.",
-    "orbitsEarth": "Cet astre tourne autour de la Terre.",
+    "orbitsEarth": "Cet astre tourne autour de notre planète.",
     "seemsToChange": "Sa forme semble changer.",
     "craters": "Cet astre est couvert de cratères.",
     "smallest": "Cet astre est le plus petit des trois."
@@ -90,7 +90,7 @@
     },
     "moon-phases-in-order": {
       "title": "Les phases de la Lune dans l’ordre",
-      "instruction": "La Lune semble grossir puis rapetisser : sur chaque rangée, écris de 1 à 5 sous les lunes dans cet ordre."
+      "instruction": "Sur chaque rangée, regarde si la Lune grossit ou rapetisse, puis écris de 1 à 5 sous les lunes dans cet ordre."
     },
     "moon-phase-names": {
       "title": "Nommer les phases de la Lune",

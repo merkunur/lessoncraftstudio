@@ -954,13 +954,13 @@
         "base": "fortælle",
         "prefix": "gen",
         "word": "genfortælle",
-        "gloss": "at fortælle historien igen med egne ord"
+        "gloss": "at fortælle en historie, man har hørt, med sine egne ord"
       },
       {
         "base": "åbne",
         "prefix": "gen",
         "word": "genåbne",
-        "gloss": "at åbne butikken igen efter ferien"
+        "gloss": "at åbne butikken for kunderne, når ferien er forbi"
       },
       {
         "base": "ånde",
@@ -1209,13 +1209,6 @@
       }
     },
     {
-      "key": "photographer",
-      "base": "foto",
-      "answer": {
-        "any": "fotograf"
-      }
-    },
-    {
       "key": "pharmacist",
       "base": "apotek",
       "answer": {
@@ -1257,6 +1250,9 @@
         "any": "danser"
       }
     }
+  ],
+  "agentSuffixes": [
+    "er"
   ],
   "exemplar": {
     "base": [
@@ -1310,7 +1306,7 @@
     },
     "root-word": {
       "title": "Find rodordet",
-      "instruction": "Sæt ring om den del, de tre ord har til fælles, og skriv rodordet i den tomme sten."
+      "instruction": "Sæt ring om den del, de tre ord har til fælles, og skriv rodordet på den tomme plade."
     },
     "prefix-key": {
       "title": "Forstavelserne gen-, ind- og ud-: vælg efter betydning",
@@ -1318,11 +1314,11 @@
     },
     "who-does-it": {
       "title": "Hvem gør det? Ord for personer",
-      "instruction": "Se på hver person på arbejde, læs ordet ved siden af, og skriv personordet i den tomme brik."
+      "instruction": "Se på hver person, læs ordet på kortet, og skriv personordet i det stiplede felt."
     },
     "family-in-sentence": {
       "title": "Rodord i sætninger",
-      "instruction": "Skriv hvert af de fire ord på stenen ind i den sætning, det passer i."
+      "instruction": "Skriv hvert af de fire ord fra kortene ind i den sætning, det passer i."
     }
   }
 }

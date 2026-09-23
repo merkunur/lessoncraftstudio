@@ -708,7 +708,8 @@
       "sentences": [
         {
           "id": "f1",
-          "text": "Le bébé dort, alors {name} {gap} tout doucement.",
+          "text": "« Chut, le bébé dort », {gap} {name} tout doucement.",
+          "plainVerbOK": true,
           "fit": {
             "chuchote": true,
             "crie": false,
@@ -720,7 +721,8 @@
         },
         {
           "id": "f2",
-          "text": "{name} {gap} un secret à l’oreille de Mamie.",
+          "text": "« J’ai un secret pour toi », {gap} {name} à l’oreille de Mamie.",
+          "plainVerbOK": true,
           "fit": {
             "chuchote": true,
             "crie": false,
@@ -733,6 +735,7 @@
         {
           "id": "f3",
           "text": "Le bus part, alors {name} {gap} : « Attendez-moi ! »",
+          "plainVerbOK": true,
           "fit": {
             "chuchote": false,
             "crie": true,
@@ -744,7 +747,8 @@
         },
         {
           "id": "f4",
-          "text": "Au bout du grand champ, {name} {gap} pour appeler son chien.",
+          "text": "« Viens jouer ! » {gap} {name} à son ami, tout au bout du grand champ.",
+          "plainVerbOK": true,
           "fit": {
             "chuchote": false,
             "crie": true,
@@ -757,6 +761,7 @@
         {
           "id": "f5",
           "text": "« Où est mon chapeau rouge ? » {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "chuchote": false,
             "crie": false,
@@ -768,7 +773,8 @@
         },
         {
           "id": "f6",
-          "text": "{name} {gap} à la question de la maîtresse avec un grand sourire.",
+          "text": "« Sept et trois font dix », {gap} {name} quand la maîtresse l’interroge.",
+          "plainVerbOK": true,
           "fit": {
             "chuchote": false,
             "crie": false,
@@ -780,7 +786,8 @@
         },
         {
           "id": "f7",
-          "text": "{name} {gap} comment planter une graine, étape par étape.",
+          "text": "« D’abord, on creuse un trou, puis on pose la graine », {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "chuchote": false,
             "crie": false,
@@ -793,6 +800,7 @@
         {
           "id": "f8",
           "text": "« Je nourrirai le poisson tous les jours, c’est juré ! » {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "chuchote": false,
             "crie": false,

@@ -671,15 +671,6 @@
       ]
     },
     {
-      "id": "s.knock",
-      "pos": "verb",
-      "words": [
-        "tocar",
-        "golpear",
-        "aporrear"
-      ]
-    },
-    {
       "id": "s.walk",
       "pos": "verb",
       "words": [
@@ -713,7 +704,7 @@
       "sentences": [
         {
           "id": "f1",
-          "text": "El bebé está dormido, así que {name} {gap} muy bajito.",
+          "text": "“Shh, el bebé está dormido”, {gap} {name} muy bajito.",
           "fit": {
             "susurra": true,
             "grita": false,
@@ -721,7 +712,8 @@
             "contesta": false,
             "explica": false,
             "promete": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f2",
@@ -733,7 +725,8 @@
             "contesta": false,
             "explica": false,
             "promete": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f3",
@@ -745,11 +738,12 @@
             "contesta": false,
             "explica": false,
             "promete": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f4",
-          "text": "{name} {gap} de un lado al otro del patio para que la oigan.",
+          "text": "“¡Vengan a jugar!”, {gap} {name} desde el otro lado del patio.",
           "fit": {
             "susurra": false,
             "grita": true,
@@ -757,7 +751,8 @@
             "contesta": false,
             "explica": false,
             "promete": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f5",
@@ -769,7 +764,8 @@
             "contesta": false,
             "explica": false,
             "promete": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f6",
@@ -781,7 +777,8 @@
             "contesta": true,
             "explica": false,
             "promete": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f7",
@@ -793,7 +790,8 @@
             "contesta": false,
             "explica": true,
             "promete": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f8",
@@ -805,7 +803,8 @@
             "contesta": false,
             "explica": false,
             "promete": true
-          }
+          },
+          "plainVerbOK": true
         }
       ]
     },

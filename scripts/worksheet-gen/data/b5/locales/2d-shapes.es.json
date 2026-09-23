@@ -30,11 +30,11 @@
   "riddles": {
     "circle": [
       {
-        "text": "Soy redondo por todos lados y no tengo esquinas. ¿Quién soy?",
+        "text": "Soy redondo y no tengo ni una esquina. ¿Quién soy?",
         "clue": "round"
       },
       {
-        "text": "No tengo lados rectos ni esquinas. ¿Quién soy?",
+        "text": "Mi borde es una sola línea curva. ¿Quién soy?",
         "clue": "round"
       }
     ],
@@ -44,37 +44,37 @@
         "clue": "equal"
       },
       {
-        "text": "Tengo 4 lados iguales y 4 esquinas rectas. ¿Quién soy?",
+        "text": "Mis esquinas son rectas y mido lo mismo de ancho que de alto. ¿Quién soy?",
         "clue": "equal"
       }
     ],
     "triangle": [
       {
-        "text": "Tengo 3 lados y 3 esquinas. ¿Quién soy?",
+        "text": "Tengo 3 lados rectos. ¿Quién soy?",
         "clue": "three"
       },
       {
-        "text": "Solo tengo 3 lados rectos. ¿Quién soy?",
+        "text": "Tengo solo 3 esquinas. ¿Quién soy?",
         "clue": "three"
       }
     ],
     "rectangle": [
       {
-        "text": "Tengo 2 lados largos y 2 lados cortos. ¿Quién soy?",
+        "text": "Mis 4 esquinas son rectas; 2 lados son largos y 2 son cortos. ¿Quién soy?",
         "clue": "longShort"
       },
       {
-        "text": "Tengo 4 esquinas rectas, 2 lados largos y 2 lados cortos. ¿Quién soy?",
+        "text": "Mis esquinas son rectas y soy más largo que ancho. ¿Quién soy?",
         "clue": "longShort"
       }
     ],
     "hexagon": [
       {
-        "text": "Tengo 6 lados y 6 esquinas. ¿Quién soy?",
+        "text": "Tengo 6 lados rectos. ¿Quién soy?",
         "clue": "six"
       },
       {
-        "text": "Tengo 6 lados rectos. ¿Quién soy?",
+        "text": "Tengo 6 esquinas, como una celdita del panal. ¿Quién soy?",
         "clue": "six"
       }
     ]

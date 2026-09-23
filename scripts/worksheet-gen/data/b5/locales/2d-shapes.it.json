@@ -40,17 +40,17 @@
         "clue": "round"
       },
       {
-        "text": "Non ho lati dritti e non ho nessun angolo. Chi sono?",
+        "text": "Assomiglio a una moneta o a un piatto visto dall’alto. Chi sono?",
         "clue": "round"
       }
     ],
     "square": [
       {
-        "text": "I miei 4 lati sono tutti uguali e i miei 4 angoli sono retti. Chi sono?",
+        "text": "I miei 4 lati sono tutti uguali e i miei angoli sono retti. Chi sono?",
         "clue": "equal"
       },
       {
-        "text": "Ho 4 angoli retti e 4 lati tutti uguali. Chi sono?",
+        "text": "Ho 4 angoli come quelli di un libro e sono alto quanto largo. Chi sono?",
         "clue": "equal"
       }
     ],
@@ -60,17 +60,17 @@
         "clue": "three"
       },
       {
-        "text": "Ho soltanto 3 lati dritti. Chi sono?",
+        "text": "Ho 3 punte, come la vela di una barca. Chi sono?",
         "clue": "three"
       }
     ],
     "rectangle": [
       {
-        "text": "Ho 2 lati lunghi e 2 lati corti. Chi sono?",
+        "text": "Ho 2 lati lunghi, 2 lati corti e 4 angoli retti. Chi sono?",
         "clue": "longShort"
       },
       {
-        "text": "Ho 4 angoli retti, 2 lati lunghi e 2 lati corti. Chi sono?",
+        "text": "Ho 4 angoli come quelli di un libro e sono più lungo che alto. Chi sono?",
         "clue": "longShort"
       }
     ],
@@ -80,7 +80,7 @@
         "clue": "six"
       },
       {
-        "text": "Ho 6 lati dritti. Chi sono?",
+        "text": "Sono fatto come una celletta dell’alveare delle api. Chi sono?",
         "clue": "six"
       }
     ]

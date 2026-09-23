@@ -225,9 +225,9 @@
           "slot": "noun-thing"
         },
         {
-          "word": "panero",
-          "kind": "derived",
-          "slot": "noun-thing"
+          "word": "empanizado",
+          "kind": "prefixed",
+          "slot": "adjective"
         }
       ],
       "lookAlikes": [
@@ -447,7 +447,7 @@
           "slot": "adverb"
         },
         {
-          "word": "amorío",
+          "word": "amorcito",
           "kind": "derived",
           "slot": "noun-thing"
         },
@@ -482,8 +482,8 @@
           "whyNotFamily": "es alguien que te quiere, pero no se forma con amor"
         },
         {
-          "word": "ametralladora",
-          "whyNotFamily": "es un arma"
+          "word": "ambulancia",
+          "whyNotFamily": "es un carro que lleva a los enfermos"
         }
       ]
     },
@@ -581,6 +581,10 @@
         {
           "word": "estuche",
           "whyNotFamily": "empieza como \"estrella\", pero no se forma con esa palabra"
+        },
+        {
+          "word": "estudiante",
+          "whyNotFamily": "empieza como \"estrella\", pero no se forma con esa palabra"
         }
       ]
     },
@@ -615,6 +619,14 @@
         },
         {
           "word": "hombro",
+          "whyNotFamily": "empieza como \"hoja\", pero no se forma con esa palabra"
+        },
+        {
+          "word": "horizonte",
+          "whyNotFamily": "empieza como \"hoja\", pero no se forma con esa palabra"
+        },
+        {
+          "word": "hormiguero",
           "whyNotFamily": "empieza como \"hoja\", pero no se forma con esa palabra"
         }
       ]
@@ -656,6 +668,10 @@
         {
           "word": "pasillo",
           "whyNotFamily": "empieza como \"pastel\", pero no se forma con esa palabra"
+        },
+        {
+          "word": "pasamanos",
+          "whyNotFamily": "empieza como \"pastel\", pero no se forma con esa palabra"
         }
       ]
     },
@@ -696,6 +712,10 @@
         {
           "word": "tampoco",
           "whyNotFamily": "empieza como \"tambor\", pero no se forma con esa palabra"
+        },
+        {
+          "word": "tamarindo",
+          "whyNotFamily": "empieza como \"tambor\", pero no se forma con esa palabra"
         }
       ]
     },
@@ -735,6 +755,14 @@
         },
         {
           "word": "remo",
+          "whyNotFamily": "empieza como \"reloj\", pero no se forma con esa palabra"
+        },
+        {
+          "word": "relámpago",
+          "whyNotFamily": "empieza como \"reloj\", pero no se forma con esa palabra"
+        },
+        {
+          "word": "refresco",
           "whyNotFamily": "empieza como \"reloj\", pero no se forma con esa palabra"
         }
       ]
@@ -815,6 +843,10 @@
         },
         {
           "word": "cangrejo",
+          "whyNotFamily": "empieza como \"campana\", pero no se forma con esa palabra"
+        },
+        {
+          "word": "campamento",
           "whyNotFamily": "empieza como \"campana\", pero no se forma con esa palabra"
         }
       ]
@@ -908,55 +940,55 @@
         "base": "leer",
         "prefix": "re",
         "word": "releer",
-        "gloss": "leer otra vez un cuento"
+        "gloss": "volver a leer un cuento"
       },
       {
         "base": "llenar",
         "prefix": "re",
         "word": "rellenar",
-        "gloss": "llenar otra vez el vaso"
+        "gloss": "volver a llenar el vaso"
       },
       {
         "base": "hacer",
         "prefix": "re",
         "word": "rehacer",
-        "gloss": "hacer otra vez la tarea"
+        "gloss": "hacer de nuevo la tarea"
       },
       {
         "base": "contar",
         "prefix": "re",
         "word": "recontar",
-        "gloss": "contar otra vez las canicas"
+        "gloss": "volver a contar las canicas"
       },
       {
         "base": "calentar",
         "prefix": "pre",
         "word": "precalentar",
-        "gloss": "calentar el horno antes de hornear"
+        "gloss": "calentar primero el horno y luego hornear"
       },
       {
         "base": "ver",
         "prefix": "pre",
         "word": "prever",
-        "gloss": "ver antes lo que va a pasar"
+        "gloss": "ver lo que va a pasar cuando todavía no pasa"
       },
       {
         "base": "decir",
         "prefix": "pre",
         "word": "predecir",
-        "gloss": "decir antes qué tiempo va a hacer"
+        "gloss": "decir hoy qué tiempo hará mañana"
       },
       {
         "base": "volar",
         "prefix": "sobre",
         "word": "sobrevolar",
-        "gloss": "volar por encima de la ciudad"
+        "gloss": "volar arriba de la ciudad"
       },
       {
         "base": "cargar",
         "prefix": "sobre",
         "word": "sobrecargar",
-        "gloss": "cargar de más la mochila"
+        "gloss": "cargar la mochila con demasiadas cosas"
       },
       {
         "base": "pasar",
@@ -1211,7 +1243,7 @@
     "who-does-it": null,
     "family-in-sentence": {
       "title": "Palabras derivadas en oraciones",
-      "instruction": "Escribe cada una de las cuatro palabras de la piedra en la oración donde va."
+      "instruction": "En cada recuadro, escribe cada palabra de la fila de arriba en el hueco de la oración donde va."
     }
   }
 }

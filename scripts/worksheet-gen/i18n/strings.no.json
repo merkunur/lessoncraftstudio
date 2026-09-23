@@ -2725,7 +2725,7 @@
   },
   "K-376": {
     "title": "Hva trenger en plante for å vokse?",
-    "instruction": "Se på hva hver plante får, og ring rundt planten som får begge tingene den trenger for å vokse."
+    "instruction": "Ring rundt planten i hver rad som får begge tingene den trenger for å vokse."
   },
   "G1-388": {
     "title": "Fra frø til plante",
@@ -2749,11 +2749,11 @@
   },
   "G2-365": {
     "title": "Sommerfuglens livssyklus: skriv navnene på stadiene",
-    "instruction": "Skriv hvert navn fra ordbanken på streken under riktig bilde, og stryk det ene navnet som ikke hører til."
+    "instruction": "Skriv de fire stadiene fra ordbanken på streken under riktig bilde, og stryk det ene ordet som ikke hører til."
   },
   "G2-366": {
-    "title": "Metamorfose: hvilket dyr blir ungen til?",
-    "instruction": "Se på hvert unge dyr og skriv bokstaven i en rute under det voksne dyret som ungen blir til."
+    "title": "Metamorfose: hva blir hvert stadium til?",
+    "instruction": "Se på hvert stadium og skriv bokstaven i en rute under dyret det blir til, noen ruter blir stående tomme."
   },
   "G3-393": {
     "title": "Sommerfuglens og froskens livssyklus: sammenlign",
@@ -2761,7 +2761,7 @@
   },
   "G1-390": {
     "title": "Hva kommer etterpå? Sommerfugl, frosk og marihøne",
-    "instruction": "Se på det første bildet i hver rad og ring rundt bildet som kommer rett etter."
+    "instruction": "Ring rundt bildet som kommer rett etter det første i hver rad; etter det voksne dyret begynner det på nytt med egg."
   },
   "G1-391": {
     "title": "Månens faser i riktig rekkefølge",
@@ -2837,10 +2837,10 @@
   },
   "G3-398": {
     "title": "Hvem gjør det? Skriv ordet for personen",
-    "instruction": "Se på hver person som jobber, les ordet ved siden av og skriv ordet for personen i den tomme mursteinen."
+    "instruction": "Se på hver person, les ordet på kortet og skriv ordet for personen i den stiplede ruten."
   },
   "G3-399": {
     "title": "Rotord i setninger",
-    "instruction": "Skriv hvert av de fire ordene på steinen i den setningen der det passer."
+    "instruction": "Skriv hvert av de fire ordene på kortene i den setningen der det passer."
   }
 }

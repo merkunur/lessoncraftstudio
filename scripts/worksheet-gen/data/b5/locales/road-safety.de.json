@@ -224,7 +224,7 @@
       "Bald gibt es hier Lichter, die auf Rot springen können."
     ],
     "bike-warning": [
-      "Achtung, Autofahrer: Hier fahren oft Kinder mit dem Rad über die Straße.",
+      "Achtung, Autofahrer: Hier fahren oft Radfahrer über die Straße.",
       "Vorsicht: Auf dieser Straße kommen viele Radfahrer."
     ],
     "no-vehicles": [
@@ -259,7 +259,7 @@
   "strings": {
     "base": {
       "title": "Verkehrserziehung: Was zeigt die Ampel?",
-      "instruction": "Schau, welche Lampe leuchtet, und kreise ein, was du tun musst."
+      "instruction": "Schau, welche Lampe leuchtet, und kreise ein, was man jetzt tun muss."
     },
     "colour-lights": {
       "title": "Verkehrserziehung: Ampeln ausmalen",

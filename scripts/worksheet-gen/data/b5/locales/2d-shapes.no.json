@@ -55,11 +55,11 @@
     ],
     "square": [
       {
-        "text": "Alle mine 4 sider er like lange. Hva er jeg?",
+        "text": "Jeg har 4 like lange sider og 4 hjørner som hjørnet på en bok. Hva er jeg?",
         "clue": "equal"
       },
       {
-        "text": "Jeg har 4 hjørner og 4 sider som er like lange. Hva er jeg?",
+        "text": "Alle mine 4 sider er like lange, og hjørnene mine er som et bokhjørne. Hva er jeg?",
         "clue": "equal"
       }
     ],
@@ -75,11 +75,11 @@
     ],
     "rectangle": [
       {
-        "text": "Jeg har 2 lange sider og 2 korte sider. Hva er jeg?",
+        "text": "Jeg har 2 lange og 2 korte sider og 4 hjørner som hjørnet på en bok. Hva er jeg?",
         "clue": "longShort"
       },
       {
-        "text": "Jeg har 4 hjørner, 2 lange sider og 2 korte sider. Hva er jeg?",
+        "text": "Hjørnene mine er som et bokhjørne, og jeg har 2 lange og 2 korte sider. Hva er jeg?",
         "clue": "longShort"
       }
     ],

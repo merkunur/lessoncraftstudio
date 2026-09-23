@@ -265,31 +265,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "mitten",
-          "theme": "clothing",
-          "noun": "mitten",
-          "word": "moufle",
-          "seg": [
-            "m",
-            "ou",
-            "f",
-            "l",
-            "e"
-          ],
-          "snd": [
-            "m",
-            "u",
-            "f",
-            "l",
-            "∅"
-          ],
-          "silent": [
-            4
-          ],
-          "stem": "moufle",
-          "picOpened": true
-        },
-        {
           "vocabKey": "mosquito",
           "theme": "insects and bugs",
           "noun": "mosquito",
@@ -440,31 +415,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "otter",
-          "theme": "zoo animals",
-          "noun": "otter",
-          "word": "loutre",
-          "seg": [
-            "l",
-            "ou",
-            "t",
-            "r",
-            "e"
-          ],
-          "snd": [
-            "l",
-            "u",
-            "t",
-            "ʁ",
-            "∅"
-          ],
-          "silent": [
-            4
-          ],
-          "stem": "loutre",
-          "picOpened": true
-        },
-        {
           "vocabKey": "candle",
           "theme": "christmas",
           "noun": "candle",
@@ -483,31 +433,6 @@
           ],
           "silent": [],
           "stem": "bougie",
-          "picOpened": true
-        },
-        {
-          "vocabKey": "stool",
-          "theme": "furniture",
-          "noun": "stool",
-          "word": "tabouret",
-          "seg": [
-            "t",
-            "a",
-            "b",
-            "ou",
-            "r",
-            "et"
-          ],
-          "snd": [
-            "t",
-            "a",
-            "b",
-            "u",
-            "ʁ",
-            "ɛ"
-          ],
-          "silent": [],
-          "stem": "tabouret",
           "picOpened": true
         }
       ]
@@ -537,27 +462,6 @@
           ],
           "silent": [],
           "stem": "avion",
-          "picOpened": true
-        },
-        {
-          "vocabKey": "ball",
-          "theme": "toys",
-          "noun": "ball",
-          "word": "ballon",
-          "seg": [
-            "b",
-            "a",
-            "ll",
-            "on"
-          ],
-          "snd": [
-            "b",
-            "a",
-            "l",
-            "ɔ̃"
-          ],
-          "silent": [],
-          "stem": "ballon",
           "picOpened": true
         },
         {
@@ -912,37 +816,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "jam",
-          "theme": "breakfast",
-          "noun": "jam",
-          "word": "confiture",
-          "seg": [
-            "c",
-            "on",
-            "f",
-            "i",
-            "t",
-            "u",
-            "r",
-            "e"
-          ],
-          "snd": [
-            "k",
-            "ɔ̃",
-            "f",
-            "i",
-            "t",
-            "y",
-            "ʁ",
-            "∅"
-          ],
-          "silent": [
-            7
-          ],
-          "stem": "confiture",
-          "picOpened": true
-        },
-        {
           "vocabKey": "flip-flops",
           "theme": "clothing",
           "noun": "flip-flops",
@@ -1236,37 +1109,6 @@
             4
           ],
           "stem": "étoile",
-          "picOpened": true
-        },
-        {
-          "vocabKey": "swing",
-          "theme": "toys",
-          "noun": "swing",
-          "word": "balançoire",
-          "seg": [
-            "b",
-            "a",
-            "l",
-            "an",
-            "ç",
-            "oi",
-            "r",
-            "e"
-          ],
-          "snd": [
-            "b",
-            "a",
-            "l",
-            "ɑ̃",
-            "s",
-            "wa",
-            "ʁ",
-            "∅"
-          ],
-          "silent": [
-            7
-          ],
-          "stem": "balançoire",
           "picOpened": true
         },
         {
@@ -2222,6 +2064,30 @@
     {
       "pic": "accessories/crown",
       "why": "couronne shows the letters o n without the on sound (a false pair)"
+    },
+    {
+      "pic": "clothing/mitten",
+      "why": "clothing/mitten: a child says \"gant\", not \"moufle\" (fr landing panel, round 1)"
+    },
+    {
+      "pic": "zoo animals/otter",
+      "why": "zoo animals/otter: said \"castor\" (fr landing panel, round 1)"
+    },
+    {
+      "pic": "furniture/stool",
+      "why": "furniture/stool: said \"chaise\" (fr landing panel, round 1)"
+    },
+    {
+      "pic": "toys/ball",
+      "why": "toys/ball: a small ball, said \"balle\" (fr landing panel, round 1)"
+    },
+    {
+      "pic": "breakfast/jam",
+      "why": "breakfast/jam: said \"pot\" / \"bocal\" (fr landing panel, round 1)"
+    },
+    {
+      "pic": "toys/swing",
+      "why": "playground swing: the /wa/ sits in the last syllable, so a child who answers \"à la fin\" has heard something real (fr landing panel, round 1)"
     }
   ],
   "strings": {

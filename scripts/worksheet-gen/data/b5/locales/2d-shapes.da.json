@@ -60,11 +60,11 @@
     ],
     "square": [
       {
-        "text": "Mine 4 sider er alle lige lange. Hvad er jeg?",
+        "text": "Mine 4 sider er lige lange, og mine 4 hjørner er rette. Hvad er jeg?",
         "clue": "equal"
       },
       {
-        "text": "Jeg har 4 hjørner og 4 sider, der er lige lange. Hvad er jeg?",
+        "text": "Jeg har 4 lige lange sider og rette hjørner som en bog. Hvad er jeg?",
         "clue": "equal"
       }
     ],
@@ -80,11 +80,11 @@
     ],
     "rectangle": [
       {
-        "text": "Jeg har 2 lange og 2 korte sider. Hvad er jeg?",
+        "text": "Jeg har 2 lange og 2 korte sider og 4 rette hjørner. Hvad er jeg?",
         "clue": "longShort"
       },
       {
-        "text": "Jeg har 4 hjørner, 2 lange sider og 2 korte sider. Hvad er jeg?",
+        "text": "Mine 4 hjørner er rette, og 2 af mine sider er længere end de 2 andre. Hvad er jeg?",
         "clue": "longShort"
       }
     ],

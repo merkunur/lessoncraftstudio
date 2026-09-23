@@ -129,18 +129,7 @@
       "tier": 1,
       "words": [
         "stor",
-        "kæmpestor"
-      ]
-    },
-    {
-      "id": "g.small",
-      "concept": "small",
-      "pos": "adj",
-      "domain": "size-speed",
-      "tier": 1,
-      "words": [
-        "lille",
-        "lillebitte"
+        "enorm"
       ]
     },
     {
@@ -344,17 +333,6 @@
       ]
     },
     {
-      "id": "g.collect",
-      "concept": "collect",
-      "pos": "verb",
-      "domain": "hands",
-      "tier": 2,
-      "words": [
-        "samle",
-        "indsamle"
-      ]
-    },
-    {
       "id": "g.jump",
       "concept": "jump",
       "pos": "verb",
@@ -385,17 +363,6 @@
       "words": [
         "falde",
         "vælte"
-      ]
-    },
-    {
-      "id": "g.stay",
-      "concept": "stay",
-      "pos": "verb",
-      "domain": "move",
-      "tier": 2,
-      "words": [
-        "blive",
-        "forblive"
       ]
     },
     {
@@ -507,17 +474,11 @@
       "a": "kunne lide",
       "b": "elske",
       "why": "grad"
-    },
-    {
-      "a": "samle",
-      "b": "vælge",
-      "why": "at plukke kan både være at samle og at vælge"
     }
   ],
   "nearOnly": [
     "nervøs",
-    "bedrøvet",
-    "vælge"
+    "bedrøvet"
   ],
   "falseOf": {
     "happy": [
@@ -535,9 +496,7 @@
       "hurtig",
       "hastig",
       "stor",
-      "kæmpestor",
-      "lille",
-      "lillebitte"
+      "enorm"
     ],
     "sad": [
       "glad",
@@ -550,9 +509,7 @@
       "hurtig",
       "hastig",
       "stor",
-      "kæmpestor",
-      "lille",
-      "lillebitte"
+      "enorm"
     ],
     "angry": [
       "glad",
@@ -569,9 +526,7 @@
       "hurtig",
       "hastig",
       "stor",
-      "kæmpestor",
-      "lille",
-      "lillebitte"
+      "enorm"
     ],
     "scared": [
       "glad",
@@ -583,9 +538,7 @@
       "hurtig",
       "hastig",
       "stor",
-      "kæmpestor",
-      "lille",
-      "lillebitte"
+      "enorm"
     ],
     "surprised": [
       "glad",
@@ -599,9 +552,7 @@
       "hurtig",
       "hastig",
       "stor",
-      "kæmpestor",
-      "lille",
-      "lillebitte"
+      "enorm"
     ],
     "tired": [
       "glad",
@@ -616,9 +567,7 @@
       "hurtig",
       "hastig",
       "stor",
-      "kæmpestor",
-      "lille",
-      "lillebitte"
+      "enorm"
     ],
     "fast": [
       "glad",
@@ -646,22 +595,7 @@
       "forbavset",
       "forbløffet",
       "hurtig",
-      "hastig",
-      "lille",
-      "lillebitte"
-    ],
-    "small": [
-      "trist",
-      "ked af det",
-      "bange",
-      "ræd",
-      "overrasket",
-      "forbavset",
-      "forbløffet",
-      "træt",
-      "søvnig",
-      "stor",
-      "kæmpestor"
+      "hastig"
     ]
   },
   "scales": [
@@ -724,8 +658,8 @@
       "pos": "verb",
       "words": [
         "kunne lide",
-        "elske",
-        "forgude"
+        "holde af",
+        "elske"
       ]
     },
     {
@@ -771,7 +705,8 @@
       "sentences": [
         {
           "id": "f1",
-          "text": "Babyen sover, så {gap} {name} helt lavt.",
+          "text": "»Tys, babyen sover,« {gap} {name} helt lavt.",
+          "plainVerbOK": true,
           "fit": {
             "hvisker": true,
             "råber": false,
@@ -783,7 +718,8 @@
         },
         {
           "id": "f2",
-          "text": "{name} {gap} hemmeligheden ind i mormors øre.",
+          "text": "»Jeg har en hemmelighed til dig,« {gap} {name} tæt ved mormors øre.",
+          "plainVerbOK": true,
           "fit": {
             "hvisker": true,
             "råber": false,
@@ -796,6 +732,7 @@
         {
           "id": "f3",
           "text": "Bussen kører nu, så {gap} {name}: »Vent på mig!«",
+          "plainVerbOK": true,
           "fit": {
             "hvisker": false,
             "råber": true,
@@ -807,7 +744,8 @@
         },
         {
           "id": "f4",
-          "text": "{name} {gap} højt hen over den store mark.",
+          "text": "»Kom og leg!« {gap} {name} ud over den store mark.",
+          "plainVerbOK": true,
           "fit": {
             "hvisker": false,
             "råber": true,
@@ -820,6 +758,7 @@
         {
           "id": "f5",
           "text": "»Hvor er min røde hue?« {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "hvisker": false,
             "råber": false,
@@ -831,7 +770,8 @@
         },
         {
           "id": "f6",
-          "text": "{name} {gap} på lærerens spørgsmål med et stort smil.",
+          "text": "»Syv og tre er ti,« {gap} {name} med et stort smil.",
+          "plainVerbOK": true,
           "fit": {
             "hvisker": false,
             "råber": false,
@@ -843,7 +783,8 @@
         },
         {
           "id": "f7",
-          "text": "{name} {gap}, hvordan man sår et frø, trin for trin.",
+          "text": "»Først graver man et hul, og så lægger man frøet i,« {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "hvisker": false,
             "råber": false,
@@ -856,6 +797,7 @@
         {
           "id": "f8",
           "text": "»Jeg skal nok fodre fiskene hver eneste dag, æresord!« {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "hvisker": false,
             "råber": false,
@@ -945,7 +887,7 @@
     },
     "pairs": {
       "title": "Synonymer: forbind ordparrene",
-      "instruction": "Hvert ord hænger på en sok: tegn en streg fra hver sok til venstre til den sok til højre, hvis ord betyder det samme."
+      "instruction": "Tegn en streg fra hvert ord til venstre til det ord til højre, der betyder det samme."
     },
     "shades": {
       "title": "Ord efter styrke: fra lidt til meget",

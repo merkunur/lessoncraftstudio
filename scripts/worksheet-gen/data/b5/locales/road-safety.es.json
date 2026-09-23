@@ -149,7 +149,7 @@
   "meanings": {
     "stop": "Todos los carros deben detenerse por completo aquí.",
     "yield": "Frena y deja pasar primero a los demás.",
-    "crossing": "Cuidado: aquí cruzan personas a pie.",
+    "crossing": "Aquí hay un paso peatonal para cruzar la calle.",
     "school": "Cerca hay una escuela y cruzan niños.",
     "signal-ahead": "Más adelante hay un semáforo.",
     "no-bikes": "Aquí no pueden circular las bicicletas."
@@ -160,7 +160,7 @@
       "Los conductores se detienen del todo y miran a los dos lados."
     ],
     "yield": [
-      "Los carros van despacio y dejan que otros crucen primero.",
+      "Los carros bajan la velocidad y dejan pasar primero a los carros de la otra calle.",
       "Hay que esperar un hueco y dejar que pasen los demás."
     ],
     "crossing": [

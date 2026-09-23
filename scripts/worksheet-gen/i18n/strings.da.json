@@ -2625,7 +2625,7 @@
   },
   "K-369": {
     "title": "Færdselslære: Hvad viser lyskurven?",
-    "instruction": "Se, hvilken lampe der lyser, og sæt ring om det, du skal gøre."
+    "instruction": "Se, hvilken lampe der lyser, og sæt ring om det, man skal gøre."
   },
   "K-370": {
     "title": "Familiemedlemmer: hvem er hvem?",
@@ -2717,7 +2717,7 @@
   },
   "K-376": {
     "title": "Hvad har planter brug for for at vokse?",
-    "instruction": "Se, hvad hver plante får, og sæt ring om den plante, der får begge de ting, den har brug for."
+    "instruction": "Sæt ring om den ene plante i hver række, der får begge de ting, den har brug for for at vokse."
   },
   "G1-388": {
     "title": "Fra frø til plante: læg billederne i rækkefølge",
@@ -2741,11 +2741,11 @@
   },
   "G2-365": {
     "title": "Sommerfuglens livscyklus: skriv stadierne",
-    "instruction": "Skriv hvert navn fra ordboksen på linjen under dets billede, og streg det ene navn ud, der ikke hører til."
+    "instruction": "Skriv de fire stadier fra ordboksen på linjerne under billederne, og streg det ene ord ud, der ikke hører til."
   },
   "G2-366": {
-    "title": "Metamorfose: hvilket dyr bliver ungen til?",
-    "instruction": "Se på hver dyreunge, og skriv dens bogstav i et felt under det voksne dyr, den bliver til."
+    "title": "Metamorfose: hvilket dyr bliver det til?",
+    "instruction": "Se på hvert stadie, og skriv dets bogstav i et felt under det dyr, det bliver til; nogle felter bliver tomme."
   },
   "G3-393": {
     "title": "Sommerfuglens og frøens livscyklus sammenlignet",
@@ -2753,7 +2753,7 @@
   },
   "G1-390": {
     "title": "Hvad kommer bagefter? Sommerfugl, frø og mariehøne",
-    "instruction": "Se på det første billede i hver række, og sæt ring om det billede, der kommer lige efter."
+    "instruction": "Se på det første billede i hver række, og sæt ring om det, der kommer lige efter; efter det voksne dyr begynder det forfra."
   },
   "G1-391": {
     "title": "Månens faser i rækkefølge",
@@ -2801,7 +2801,7 @@
   },
   "G2-373": {
     "title": "Synonymer: forbind ordparrene",
-    "instruction": "Hvert ord hænger på en sok: tegn en streg fra hver sok til venstre til den sok til højre, hvis ord betyder det samme."
+    "instruction": "Tegn en streg fra hvert ord til venstre til det ord til højre, der betyder det samme."
   },
   "G1-396": {
     "title": "Ord efter styrke: fra lidt til meget",
@@ -2821,7 +2821,7 @@
   },
   "G2-375": {
     "title": "Find rodordet",
-    "instruction": "Sæt ring om den del, de tre ord har til fælles, og skriv rodordet i den tomme sten."
+    "instruction": "Sæt ring om den del, de tre ord har til fælles, og skriv rodordet på den tomme plade."
   },
   "G2-376": {
     "title": "Forstavelserne gen-, ind- og ud-: vælg efter betydning",
@@ -2829,10 +2829,10 @@
   },
   "G3-398": {
     "title": "Hvem gør det? Ord for personer",
-    "instruction": "Se på hver person på arbejde, læs ordet ved siden af, og skriv personordet i den tomme brik."
+    "instruction": "Se på hver person, læs ordet på kortet, og skriv personordet i det stiplede felt."
   },
   "G3-399": {
     "title": "Rodord i sætninger",
-    "instruction": "Skriv hvert af de fire ord på stenen ind i den sætning, det passer i."
+    "instruction": "Skriv hvert af de fire ord fra kortene ind i den sætning, det passer i."
   }
 }

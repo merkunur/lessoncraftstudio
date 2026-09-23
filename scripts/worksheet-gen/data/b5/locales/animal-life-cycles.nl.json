@@ -63,11 +63,11 @@
     },
     "G2-365": {
       "title": "Levenscyclus van de vlinder: benoem elke fase",
-      "instruction": "Schrijf elke naam uit de woordrij op de lijn onder het plaatje en streep de ene naam door die er niet bij hoort."
+      "instruction": "Schrijf de vier namen van de fasen uit de woordrij op de lijnen onder de plaatjes en streep het ene woord door dat er niet bij hoort."
     },
     "G2-366": {
       "title": "Gedaanteverwisseling: welk dier wordt het?",
-      "instruction": "Kijk naar elk jong dier en schrijf zijn letter in een vakje onder het volwassen dier dat het wordt."
+      "instruction": "Kijk naar elke fase en schrijf zijn letter in een vakje onder het dier dat het wordt; sommige vakjes blijven leeg."
     },
     "G3-393": {
       "title": "Vlinder en kikker: hoe groeien ze op?",
@@ -75,7 +75,7 @@
     },
     "G1-390": {
       "title": "Wat komt daarna? Vlinder, kikker en lieveheersbeestje",
-      "instruction": "Kijk naar het eerste plaatje in elke rij en omcirkel het plaatje dat daar direct na komt."
+      "instruction": "Omcirkel in elke rij het plaatje dat na het eerste komt; na het volwassen dier begint het rondje weer van voren af aan."
     }
   }
 }

@@ -197,67 +197,62 @@
       ]
     },
     {
-      "id": "arbete",
-      "stem": "arbet",
-      "rootIsFreeWord": false,
+      "id": "lär",
+      "stem": "lär",
+      "rootIsFreeWord": true,
       "root": {
-        "word": "arbet"
+        "word": "lär"
       },
       "signed": true,
       "members": [
         {
-          "word": "arbete",
+          "word": "lära",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "lärare",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "lärling",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "lärande",
           "kind": "derived",
           "slot": "noun-thing"
         },
         {
-          "word": "arbeta",
-          "kind": "derived",
-          "slot": "verb"
-        },
-        {
-          "word": "arbetare",
-          "kind": "derived",
-          "slot": "noun-person"
-        },
-        {
-          "word": "arbetsam",
+          "word": "lärorik",
           "kind": "derived",
           "slot": "adjective"
         },
         {
-          "word": "arbetslös",
-          "kind": "derived",
-          "slot": "adjective"
-        },
-        {
-          "word": "bearbeta",
+          "word": "inlärning",
           "kind": "prefixed",
-          "slot": "verb"
+          "slot": "noun-thing"
         },
         {
-          "word": "medarbetare",
-          "kind": "prefixed",
-          "slot": "noun-person"
-        },
-        {
-          "word": "arbetsdag",
+          "word": "lärobok",
           "kind": "compound",
           "slot": "noun-thing"
         }
       ],
       "lookAlikes": [
         {
-          "word": "armband",
-          "whyNotFamily": "ett smycke runt handleden"
+          "word": "lärka",
+          "whyNotFamily": "en fågel som sjunger; bara \"lär\" är lika"
         },
         {
-          "word": "arg",
-          "whyNotFamily": "en känsla; bara \"ar\" är lika"
+          "word": "läppar",
+          "whyNotFamily": "en del av munnen"
         },
         {
-          "word": "ark",
-          "whyNotFamily": "ett papper"
+          "word": "länk",
+          "whyNotFamily": "en ring i en kedja"
         }
       ]
     },
@@ -696,37 +691,37 @@
       ]
     },
     {
-      "id": "hår",
-      "stem": "hår",
+      "id": "skog",
+      "stem": "skog",
       "rootIsFreeWord": true,
       "root": {
-        "word": "hår",
+        "word": "skog",
         "pic": {
-          "theme": "body parts",
-          "noun": "hair"
+          "theme": "camping",
+          "noun": "forest"
         },
         "picOpened": true
       },
       "signed": true,
       "members": [
         {
-          "word": "hårig",
+          "word": "skogig",
           "kind": "derived",
           "slot": "adjective"
         }
       ],
       "lookAlikes": [
         {
-          "word": "hål",
-          "whyNotFamily": "börjar som \"hår\" men är inte byggt av ordet"
+          "word": "skjorta",
+          "whyNotFamily": "börjar som \"skog\" men är inte byggt av ordet"
         },
         {
-          "word": "håv",
-          "whyNotFamily": "börjar som \"hår\" men är inte byggt av ordet"
+          "word": "skorsten",
+          "whyNotFamily": "börjar som \"skog\" men är inte byggt av ordet"
         },
         {
-          "word": "hålla",
-          "whyNotFamily": "börjar som \"hår\" men är inte byggt av ordet"
+          "word": "sked",
+          "whyNotFamily": "börjar som \"skog\" men är inte byggt av ordet"
         }
       ]
     },
@@ -929,26 +924,26 @@
         "frame": "Det är fint att vara {gap} mot sina vänner."
       }
     ],
-    "arbete": [
+    "lär": [
       {
-        "word": "arbeta",
+        "word": "lära",
         "slot": "verb",
-        "frame": "Pappa brukar {gap} i trädgården på lördagar."
+        "frame": "Storasyster ska {gap} mig att cykla i sommar."
       },
       {
-        "word": "arbetare",
+        "word": "lärare",
         "slot": "noun-person",
-        "frame": "En {gap} lagade vägen utanför skolan."
+        "frame": "Vår {gap} läser en saga för klassen varje fredag."
       },
       {
-        "word": "arbetsdag",
+        "word": "lärobok",
         "slot": "noun-thing",
-        "frame": "Efter en lång {gap} vill mamma vila."
+        "frame": "I min {gap} finns det många bilder på djur."
       },
       {
-        "word": "arbetsam",
+        "word": "lärorik",
         "slot": "adjective",
-        "frame": "Myran är ett litet men {gap} djur."
+        "frame": "Utflykten till museet var rolig och {gap}."
       }
     ]
   },
@@ -972,49 +967,49 @@
         "base": "använda",
         "prefix": "åter",
         "word": "återanvända",
-        "gloss": "använda en burk en gång till"
+        "gloss": "använda en tom burk på nytt i stället för att slänga den"
       },
       {
         "base": "berätta",
         "prefix": "åter",
         "word": "återberätta",
-        "gloss": "berätta en saga igen med egna ord"
+        "gloss": "berätta med egna ord en saga som man har hört"
       },
       {
         "base": "besöka",
         "prefix": "åter",
         "word": "återbesöka",
-        "gloss": "besöka samma plats en gång till"
+        "gloss": "åka till en plats där man redan har varit förut"
+      },
+      {
+        "base": "få",
+        "prefix": "åter",
+        "word": "återfå",
+        "gloss": "få tillbaka en sak som man hade tappat bort"
+      },
+      {
+        "base": "vända",
+        "prefix": "åter",
+        "word": "återvända",
+        "gloss": "komma tillbaka hem efter en lång resa"
       },
       {
         "base": "förstå",
         "prefix": "miss",
         "word": "missförstå",
-        "gloss": "förstå fel vad någon menar"
-      },
-      {
-        "base": "höra",
-        "prefix": "miss",
-        "word": "misshöra",
-        "gloss": "höra fel vad någon säger"
+        "gloss": "tro att någon menar något annat än det den menar"
       },
       {
         "base": "lyckas",
         "prefix": "miss",
         "word": "misslyckas",
-        "gloss": "när det går fel och man inte klarar det"
-      },
-      {
-        "base": "äta",
-        "prefix": "över",
-        "word": "överäta",
-        "gloss": "äta alldeles för mycket"
+        "gloss": "inte klara det som man försöker göra"
       },
       {
         "base": "fylla",
         "prefix": "över",
         "word": "överfylla",
-        "gloss": "fylla ett glas för mycket"
+        "gloss": "hälla i så att saften rinner ut ur det fulla glaset"
       },
       {
         "base": "koka",
@@ -1103,24 +1098,6 @@
         "fitsGloss": false
       },
       {
-        "base": "höra",
-        "prefix": "åter",
-        "isWord": true,
-        "fitsGloss": false
-      },
-      {
-        "base": "höra",
-        "prefix": "miss",
-        "isWord": true,
-        "fitsGloss": true
-      },
-      {
-        "base": "höra",
-        "prefix": "över",
-        "isWord": true,
-        "fitsGloss": false
-      },
-      {
         "base": "lyckas",
         "prefix": "åter",
         "isWord": false,
@@ -1137,24 +1114,6 @@
         "prefix": "över",
         "isWord": false,
         "fitsGloss": false
-      },
-      {
-        "base": "äta",
-        "prefix": "åter",
-        "isWord": false,
-        "fitsGloss": false
-      },
-      {
-        "base": "äta",
-        "prefix": "miss",
-        "isWord": false,
-        "fitsGloss": false
-      },
-      {
-        "base": "äta",
-        "prefix": "över",
-        "isWord": true,
-        "fitsGloss": true
       },
       {
         "base": "fylla",
@@ -1209,6 +1168,42 @@
         "prefix": "över",
         "isWord": true,
         "fitsGloss": true
+      },
+      {
+        "base": "få",
+        "prefix": "åter",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "få",
+        "prefix": "miss",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "få",
+        "prefix": "över",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "vända",
+        "prefix": "åter",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "vända",
+        "prefix": "miss",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "vända",
+        "prefix": "över",
+        "isWord": false,
+        "fitsGloss": false
       }
     ]
   },
@@ -1241,20 +1236,6 @@
       }
     },
     {
-      "key": "musician",
-      "base": "musik",
-      "answer": {
-        "any": "musiker"
-      }
-    },
-    {
-      "key": "photographer",
-      "base": "foto",
-      "answer": {
-        "any": "fotograf"
-      }
-    },
-    {
       "key": "athlete",
       "base": "löpa",
       "answer": {
@@ -1270,15 +1251,6 @@
       }
     },
     {
-      "key": "cashier",
-      "base": "kassa",
-      "answer": {
-        "m": "kassör",
-        "f": "kassörska"
-      },
-      "stemSigned": true
-    },
-    {
       "key": "pharmacist",
       "base": "apotek",
       "answer": {
@@ -1290,14 +1262,6 @@
       "base": "läka",
       "answer": {
         "any": "läkare"
-      },
-      "stemSigned": true
-    },
-    {
-      "key": "judge",
-      "base": "döma",
-      "answer": {
-        "any": "domare"
       },
       "stemSigned": true
     },
@@ -1318,7 +1282,7 @@
     "F1": [
       "weather/sun",
       "spring/cloud",
-      "body parts/hair",
+      "camping/forest",
       "body parts/hand",
       "body parts/tooth",
       "ocean life/fish",
@@ -1329,7 +1293,7 @@
       "hjälp",
       "spel",
       "bygg",
-      "arbete",
+      "lär",
       "smak",
       "läs",
       "vän",
@@ -1337,7 +1301,7 @@
     ],
     "F5": [
       "hjälp",
-      "arbete"
+      "lär"
     ]
   },
   "refuse": {
@@ -1367,11 +1331,14 @@
     },
     "who-does-it": {
       "title": "Vem gör det? Skriv ordet för personen",
-      "instruction": "Titta på varje person som arbetar, läs ordet bredvid och skriv ordet för personen i den tomma tegelstenen."
+      "instruction": "Titta på varje person, läs ordet bredvid och skriv ordet för personen i den streckade rutan."
     },
     "family-in-sentence": {
       "title": "Släktord i meningar",
-      "instruction": "Skriv vart och ett av de fyra orden på stenen i den mening där det passar."
+      "instruction": "Skriv vart och ett av de fyra orden i rutorna i den mening där det passar."
     }
-  }
+  },
+  "agentSuffixes": [
+    "are"
+  ]
 }

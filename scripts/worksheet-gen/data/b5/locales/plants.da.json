@@ -85,7 +85,7 @@
     },
     "needs": {
       "title": "Hvad har planter brug for for at vokse?",
-      "instruction": "Se, hvad hver plante får, og sæt ring om den plante, der får begge de ting, den har brug for."
+      "instruction": "Sæt ring om den ene plante i hver række, der får begge de ting, den har brug for for at vokse."
     },
     "cycle": {
       "title": "Fra frø til plante: læg billederne i rækkefølge",

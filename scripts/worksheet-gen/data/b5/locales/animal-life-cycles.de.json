@@ -117,11 +117,11 @@
     },
     "G2-365": {
       "title": "Entwicklung des Schmetterlings: Stadien beschriften",
-      "instruction": "Schreibe jeden Namen aus dem Wörterkasten auf die Linie unter seinem Bild und streiche den einen Namen durch, der nicht dazugehört."
+      "instruction": "Schreibe die Namen der vier Stufen aus dem Wörterkasten unter die Bilder, ein Wort im Kasten gehört nicht dazu."
     },
     "G2-366": {
       "title": "Metamorphose: Welches Tier wird daraus?",
-      "instruction": "Schau dir jedes junge Tier an und schreibe seinen Buchstaben in ein Kästchen unter dem erwachsenen Tier, das aus ihm wird."
+      "instruction": "Schau dir jede Stufe an und schreibe ihren Buchstaben unter das erwachsene Tier, zu dem sie gehört; manche Kästchen bleiben leer."
     },
     "G3-393": {
       "title": "Schmetterling und Frosch: Entwicklung im Vergleich",
@@ -129,7 +129,7 @@
     },
     "G1-390": {
       "title": "Was kommt danach? Schmetterling, Frosch und Marienkäfer",
-      "instruction": "Schau dir das erste Bild in jeder Reihe an und kreise das Bild ein, das direkt danach kommt."
+      "instruction": "Kreise in jeder Reihe das Bild ein, das direkt nach dem ersten kommt; nach dem erwachsenen Tier beginnt alles wieder beim Ei."
     }
   }
 }

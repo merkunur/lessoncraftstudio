@@ -198,7 +198,7 @@ const DIGRAPHS_NEUTRAL = {
   SHIPPING_LOCALES: ['en', 'de', 'pt', 'fr', 'nl', 'fi'],
   MODES: ['base', 'sort-two', 'gap', 'match', 'position', 'text'],
   /** faces a SHIPPING locale refuses (design §3 F4 / §7) */
-  FACE_REFUSALS: { pt: ['position'] },
+  FACE_REFUSALS: { pt: ['position'], nl: ['position'] },
   BEADS: {
     base: { key: { w: 92, h: 52, fontPx: 32 }, row: { w: 76, h: 44, fontPx: 26 } },
   },

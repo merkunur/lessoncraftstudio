@@ -2669,7 +2669,7 @@
   },
   "G1-382": {
     "title": "Escreva o nome das figuras geométricas planas",
-    "instruction": "Observe cada figura e escreva o nome dela na linha, usando os nomes do quadro."
+    "instruction": "Observe cada figura e escreva o nome dela na linha, usando os nomes do quadro; um nome pode servir para mais de uma figura."
   },
   "G1-383": {
     "title": "Adivinhas de figuras geométricas planas",
@@ -2721,7 +2721,7 @@
   },
   "K-376": {
     "title": "Do que as plantas precisam para crescer",
-    "instruction": "Observe o que cada planta recebe e circule a planta que recebe as duas coisas de que precisa para crescer."
+    "instruction": "Em cada fileira, circule a planta que recebe as duas coisas de que precisa para crescer."
   },
   "G1-388": {
     "title": "Ciclo de vida das plantas: da semente à planta",
@@ -2745,11 +2745,11 @@
   },
   "G2-365": {
     "title": "Nomeie as fases do ciclo de vida da borboleta",
-    "instruction": "Escreva cada nome do quadro de palavras na linha embaixo da figura certa e risque o único nome que não faz parte."
+    "instruction": "Escreva os quatro nomes das fases, do quadro de palavras, nas linhas embaixo das figuras e risque a única palavra que não faz parte."
   },
   "G2-366": {
-    "title": "Metamorfose: em que animal ele vai se transformar?",
-    "instruction": "Observe cada filhote e escreva a letra dele num quadrinho embaixo do animal adulto em que ele vai se transformar."
+    "title": "Metamorfose: cada fase vai virar qual animal?",
+    "instruction": "Observe cada fase e escreva a letra dela num quadrinho embaixo do animal adulto que ela vai virar; alguns quadrinhos ficam vazios."
   },
   "G3-393": {
     "title": "Ciclos de vida da borboleta e do sapo comparados",
@@ -2757,11 +2757,11 @@
   },
   "G1-390": {
     "title": "O que vem depois? Borboleta, sapo e joaninha",
-    "instruction": "Observe a primeira figura de cada fileira e circule a que vem logo depois dela."
+    "instruction": "Observe a primeira figura de cada fileira e circule a que vem logo depois; depois do adulto, o ciclo recomeça com o ovo."
   },
   "G1-391": {
     "title": "Fases da Lua em ordem",
-    "instruction": "A Lua parece crescer e depois diminuir: em cada fileira, escreva de 1 a 5 embaixo das luas nessa ordem."
+    "instruction": "Numa fileira a Lua cresce e na outra ela diminui: siga a seta e escreva de 1 a 5 embaixo das luas, nessa ordem."
   },
   "G2-367": {
     "title": "Nomes das fases da Lua",
@@ -2848,11 +2848,11 @@
     "instruction": "Leia o que cada palavra nova significa, encontre o prefixo no quadro e escreva-o na peça vazia."
   },
   "G3-398": {
-    "title": "Sufixos de profissões: quem faz?",
-    "instruction": "Observe cada pessoa trabalhando, leia a palavra ao lado dela e escreva no tijolo vazio a palavra que diz quem faz esse trabalho."
+    "title": "Quem faz? Palavras com -eiro, -or e -ino",
+    "instruction": "Observe cada pessoa, leia a palavra do cartão ao lado dela e escreva no quadro tracejado a palavra que diz quem faz aquilo."
   },
   "G3-399": {
     "title": "Família de palavras nas frases",
-    "instruction": "Escreva cada uma das quatro palavras da pedra na frase em que ela se encaixa."
+    "instruction": "Escreva cada uma das quatro palavras dos cartões no quadro tracejado da frase em que ela combina."
   }
 }

@@ -487,7 +487,7 @@ async function main() {
     }
 
     // 3. sweep + answer-position tells
-    const SEEDS = QUICK ? 10 : 40;
+    const SEEDS = QUICK ? 10 : 400; // 400: a row with only 2 possible bodies needs n=400 for its share to resolve against the 60 % line (40 gave a false 63 % that 400 measures at 54 %)
     const pos = {};   // row -> body -> n
     const twoBody = {};
     let sweepN = 0;

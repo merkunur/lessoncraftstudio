@@ -88,7 +88,7 @@
       "tier": 1,
       "words": [
         "moe",
-        "vermoeid"
+        "slaperig"
       ]
     },
     {
@@ -299,7 +299,7 @@
       "tier": 2,
       "words": [
         "kiezen",
-        "uitkiezen"
+        "uitzoeken"
       ]
     },
     {
@@ -314,14 +314,14 @@
       ]
     },
     {
-      "id": "g.fall",
-      "concept": "fall",
+      "id": "g.collect",
+      "concept": "collect",
       "pos": "verb",
-      "domain": "move",
+      "domain": "hands",
       "tier": 2,
       "words": [
-        "vallen",
-        "tuimelen"
+        "verzamelen",
+        "sparen"
       ]
     },
     {
@@ -446,7 +446,7 @@
       "verbaasd",
       "verrast",
       "moe",
-      "vermoeid",
+      "slaperig",
       "snel",
       "vlug",
       "rap",
@@ -476,7 +476,7 @@
       "verbaasd",
       "verrast",
       "moe",
-      "vermoeid",
+      "slaperig",
       "snel",
       "vlug",
       "rap",
@@ -489,7 +489,7 @@
       "verdrietig",
       "bedroefd",
       "moe",
-      "vermoeid",
+      "slaperig",
       "snel",
       "vlug",
       "rap",
@@ -504,7 +504,7 @@
       "boos",
       "kwaad",
       "moe",
-      "vermoeid",
+      "slaperig",
       "snel",
       "vlug",
       "rap",
@@ -538,7 +538,7 @@
       "verbaasd",
       "verrast",
       "moe",
-      "vermoeid"
+      "slaperig"
     ],
     "big": [
       "verdrietig",
@@ -622,7 +622,7 @@
       "id": "s.rain",
       "pos": "verb",
       "words": [
-        "miezeren",
+        "druppelen",
         "regenen",
         "gieten"
       ]
@@ -643,7 +643,7 @@
       "sentences": [
         {
           "id": "f1",
-          "text": "De baby slaapt, dus {gap} {name} heel zachtjes.",
+          "text": "De baby slaapt, dus {gap} {name} heel zachtjes: ‘Stil maar.’",
           "fit": {
             "fluistert": true,
             "roept": false,
@@ -651,7 +651,8 @@
             "antwoordt": false,
             "vertelt": false,
             "belooft": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f2",
@@ -663,7 +664,8 @@
             "antwoordt": false,
             "vertelt": false,
             "belooft": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f3",
@@ -675,11 +677,12 @@
             "antwoordt": false,
             "vertelt": false,
             "belooft": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f4",
-          "text": "{name} {gap} luid over het hele schoolplein.",
+          "text": "{name} {gap} luid over het hele schoolplein: ‘Kom je voetballen?’",
           "fit": {
             "fluistert": false,
             "roept": true,
@@ -687,7 +690,8 @@
             "antwoordt": false,
             "vertelt": false,
             "belooft": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f5",
@@ -699,11 +703,12 @@
             "antwoordt": false,
             "vertelt": false,
             "belooft": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f6",
-          "text": "{name} {gap} met een grote glimlach op de vraag van de juf.",
+          "text": "Na de vraag van de juf {gap} {name}: ‘Het is tien.’",
           "fit": {
             "fluistert": false,
             "roept": false,
@@ -711,11 +716,12 @@
             "antwoordt": true,
             "vertelt": false,
             "belooft": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f7",
-          "text": "In de kring {gap} {name} een lang verhaal over de vakantie.",
+          "text": "In de kring {gap} {name} over de vakantie: ‘We gingen naar zee en daar …’",
           "fit": {
             "fluistert": false,
             "roept": false,
@@ -723,7 +729,8 @@
             "antwoordt": false,
             "vertelt": true,
             "belooft": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f8",
@@ -735,7 +742,8 @@
             "antwoordt": false,
             "vertelt": false,
             "belooft": true
-          }
+          },
+          "plainVerbOK": true
         }
       ]
     },

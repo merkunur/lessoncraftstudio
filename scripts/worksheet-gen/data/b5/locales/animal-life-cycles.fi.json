@@ -94,11 +94,11 @@
     },
     "G2-365": {
       "title": "Perhosen kehitysvaiheet: kirjoita vaiheiden nimet",
-      "instruction": "Kirjoita jokainen nimi sanapankista oikean kuvan alla olevalle viivalle ja vedä yli se ainoa nimi, joka ei kuulu joukkoon."
+      "instruction": "Kirjoita neljän vaiheen nimet sanapankista oikeiden kuvien alle viivoille ja vedä yli se yksi sana, joka ei kuulu joukkoon."
     },
     "G2-366": {
-      "title": "Muodonvaihdos: miksi eläimeksi poikanen kasvaa?",
-      "instruction": "Katso jokaista eläimen poikasta ja kirjoita sen kirjain ruutuun sen aikuisen eläimen alle, joksi se kasvaa."
+      "title": "Muodonvaihdos: miksi eläimeksi se kasvaa?",
+      "instruction": "Katso jokaista kehitysvaihetta ja kirjoita sen kirjain ruutuun sen eläimen alle, joksi se kasvaa; osa ruuduista jää tyhjiksi."
     },
     "G3-393": {
       "title": "Perhosen ja sammakon kehitysvaiheet: vertaile",
@@ -106,7 +106,7 @@
     },
     "G1-390": {
       "title": "Mitä tulee seuraavaksi? Perhonen, sammakko ja leppäkerttu",
-      "instruction": "Katso jokaisen rivin ensimmäistä kuvaa ja rengasta se kuva, joka tulee heti sen jälkeen."
+      "instruction": "Katso jokaisen rivin ensimmäistä kuvaa ja rengasta kuva, joka tulee heti sen jälkeen; aikuisen jälkeen kaikki alkaa taas munasta."
     }
   }
 }

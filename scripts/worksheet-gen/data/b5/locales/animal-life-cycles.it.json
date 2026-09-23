@@ -65,11 +65,11 @@
     },
     "G2-365": {
       "title": "Scrivi le fasi del ciclo vitale della farfalla",
-      "instruction": "Scrivi ogni nome del riquadro sulla riga sotto la sua immagine e barra l’unico nome che non c’entra."
+      "instruction": "Scrivi i nomi delle quattro fasi del riquadro sotto le loro immagini: una parola del riquadro non c’entra."
     },
     "G2-366": {
       "title": "La metamorfosi: quale animale diventerà?",
-      "instruction": "Guarda ogni animale piccolo e scrivi la sua lettera in un riquadro sotto l’animale adulto che diventerà."
+      "instruction": "Guarda ogni fase e scrivi la sua lettera in un riquadro sotto l’animale adulto che diventerà: alcuni riquadri restano vuoti."
     },
     "G3-393": {
       "title": "Il ciclo vitale della farfalla e della rana a confronto",
@@ -77,7 +77,7 @@
     },
     "G1-390": {
       "title": "Che cosa viene dopo? Farfalla, rana e coccinella",
-      "instruction": "Guarda la prima immagine di ogni riga e cerchia quella che viene subito dopo."
+      "instruction": "In ogni riga guarda la prima immagine e cerchia quella che viene subito dopo: dopo l’adulto il ciclo ricomincia dall’uovo."
     }
   }
 }

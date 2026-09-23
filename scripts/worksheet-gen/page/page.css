@@ -42,6 +42,7 @@ html, body {
   line-height: 1.1;
   color: #146B5E;
   letter-spacing: 0.2px;
+  text-wrap: balance;   /* same line count, no orphaned last word (nt10-E review: three families shipped a one-word last line) */
 }
 
 .ws-title .ws-title-accent { color: #F2784B; }

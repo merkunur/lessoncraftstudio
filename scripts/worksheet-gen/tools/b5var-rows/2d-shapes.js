@@ -26,10 +26,10 @@ const ROWS = [
     { mode: 'write-name', lanes: 6, bank: true, turnedMin: 2, elongated: 1, lens: 84, R: [33, 36], rowW: 541, rowH: 70, glyphH: 32, bankPx: 18, floorW: 30, floorE: 45 },
     '2D Shapes: Write the Names', 'Look at each shape and write its name on the line, using the names in the box.', G1],
   ['g1', 'G1-383', '2d-shape-riddles', BASE, 2,
-    { mode: 'riddles', cards: 6, tags: 3, tagW: 132, tagH: 44, tagPx: 18, px: 16, lh: 20, slotMaxShare: 0.6, cols: 2, rows: 3 },
+    { mode: 'riddles', cards: 5, tags: 3, tagW: 132, tagH: 44, tagPx: 18, px: 16, lh: 20, slotMaxShare: 0.6, cols: 2, rows: 3 },
     '2D Shape Riddles', 'Read each riddle and circle the name of the shape.', G1],
   ['k', 'K-372', '2d-shapes-draw-on-dots', BASE, 2,
-    { mode: 'dot-draw', cards: 4, kinds: ['triangle', 'square', 'square', 'rectangle'], given: [null, null, [1, 2], [2, 4]], pitch: 46, n: 6, pillPx: 22, cols: 2, rows: 2 },
+    { mode: 'dot-draw', cards: 4, kinds: ['triangle', 'square', 'square', 'rectangle'], given: [null, null, [3, 0], [0, 4]], pitch: 46, n: 6, pillPx: 22, cols: 2, rows: 2 },
     'Draw 2D Shapes on Dot Paper', 'Read the shape name and join the dots to draw it, starting from the thick line where there is one.'],
 ];
 const HANDWRITTEN = [];

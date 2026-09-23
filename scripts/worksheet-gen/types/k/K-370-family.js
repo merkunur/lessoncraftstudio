@@ -383,49 +383,74 @@ function faceGenerations(bankLoc, d, locale, rng, over) {
     meta: { rows: rows.map((r) => r.map((c) => c.wordKey)), answers: rows.map((r) => r.map((c) => c.gen + 1)) } };
 }
 
-/** F2 trace-words — a small tree, four numbered people; trace each one's family word and write it once alone */
-function faceTraceWords(bankLoc, d, locale, rng) {
+/** F2 trace-words — a small tree where EVERY person but the ego is numbered; the words to trace sit
+ *  UNNUMBERED in a panel apart from the numbered lines, so line N needs the tree (review round 1: the
+ *  word printed beside its number made "find the person" a step with no consequence, and one elder
+ *  carried neither a number nor a word). The child finds person N, traces that person's word in the
+ *  panel and writes it again on line N. */
+function faceTraceWords(bankLoc, d, locale, rng, over = {}) {
   const comp = this._compose({ grand: true, baby: false }, rng);
   const { persons } = comp;
   assertConventional(persons);
   const kin = bankLoc.kin;
   const excl = new Set(bankLoc.f2Exclude || []);
-  const cands = persons.filter((p) => p.path !== '').filter((p) => {
+  const nonEgo = persons.filter((p) => p.path !== '');
+  const isCand = (p) => {
     const wk = kin[p.path];
     if (!wk) throw new Error(`${ID}: ${locale} kin has no entry for path "${p.path}" (refuse, never pad)`);
     const w = literal(bankLoc, wk, locale);
     return !excl.has(wk) && w.register === d.register && traceable(w.text);
-  });
-  if (cands.length < d.badged) throw new Error(`${ID}: ${locale} only ${cands.length} traceable family words on the tree (< ${d.badged}) — refuse`);
+  };
+  const cands = nonEgo.filter(isCand);
+  if (cands.length < d.minRows) throw new Error(`${ID}: ${locale} only ${cands.length} traceable family words on the tree (< ${d.minRows}) — refuse`);
   const uf = uniqueReferents(persons, kin, cands.map((p) => kin[p.path]));
   if (uf.length) throw new Error(`${ID}: ${locale} ${uf.join('; ')}`);
-  let pick = null, badges = null;
+  // EVERY drawn person but the ego carries a number (a figure with no number and no word is a defect)
+  let badges = null;
   for (let t = 0; t < TRIES && !badges; t++) {
-    pick = rng.sample(cands, d.badged);
-    const nums = rng.shuffle(Array.from({ length: d.badged }, (_, i) => i + 1));
-    const gens = pick.map((p, i) => ({ g: FT.genOf(p.path), n: nums[i] })).sort((a, b) => a.n - b.n).map((x) => x.g);
-    if (!monotone(gens)) badges = Object.fromEntries(pick.map((p, i) => [p.id, nums[i]]));
+    const nums = rng.shuffle(Array.from({ length: nonEgo.length }, (_, i) => i + 1));
+    const gens = nonEgo.map((p, i) => ({ g: FT.genOf(p.path), n: nums[i] })).sort((a, b) => a.n - b.n).map((x) => x.g);
+    if (!monotone(gens)) badges = Object.fromEntries(nonEgo.map((p, i) => [p.id, nums[i]]));
   }
   if (!badges) throw new Error(`${ID}: no non-monotone badge order in ${TRIES} tries`);
+  if (over.unbadge) delete badges[nonEgo.find((p) => p.path === over.unbadge).id];
   const ego = persons.find((p) => p.path === '');
   const pool = namePool(bankLoc, ego.sex, locale);
   const egoName = pool[rng.int(0, pool.length - 1)].name;
   const stage = C5.familyStage({ persons, frame: { w: d.frame[0], h: d.frame[1] }, badges, egoId: ego.id, egoName, skin: 'tree', w: d.stageW, crownClamp: true });
-  const rows = pick.slice().sort((a, b) => badges[a.id] - badges[b.id]).map((p) => {
+  // one numbered line per traceable numbered person, in number order
+  const rows = cands.filter((p) => badges[p.id] != null).sort((a, b) => badges[a.id] - badges[b.id]).map((p) => {
     const text = literal(bankLoc, kin[p.path], locale).text;
     const g = f2Glyph(text, d);
     if (g < d.glyphH - 1e-6) throw new Error(`${ID}: ${locale} "${text}" shrinks to glyphH ${g.toFixed(1)} < ${d.glyphH} in the ${d.laneW} lane — refuse (the lane's silent shrink)`);
-    return { badge: badges[p.id], text };
+    return { badge: badges[p.id], answer: text };
   });
-  const lanes = C5.traceRows({ rows, laneW: d.laneW, trioH: d.trioH, glyphH: d.glyphH, gap: d.rowGap, gapMax: d.rowGapMax });
-  const rowsH = rows.length * (2 * d.trioH + 2) + (rows.length - 1) * d.rowGap;
-  const rowsMax = rows.length * (2 * d.trioH + 2) + (rows.length - 1) * d.rowGapMax;
-  const h = Math.max(stage.height, rowsH);
+  // the panel order: a derangement of the line order (no word beside the line it answers), never the reverse
+  let bank = null;
+  for (let t = 0; t < TRIES && !bank; t++) {
+    const o = rng.shuffle(rows.map((r) => r.answer));
+    if (o.some((w, i) => w === rows[i].answer)) continue;
+    if (o.length > 2 && o.every((w, i) => w === rows[rows.length - 1 - i].answer)) continue;
+    bank = o;
+  }
+  if (!bank) throw new Error(`${ID}: no admissible trace-panel order in ${TRIES} tries`);
+  if (over.bank) bank = over.bank(rows, bank);
+  const n = rows.length, pad = 8;
+  const panelH = n * d.trioH + (n - 1) * d.bankGap + 2 * pad, panelMax = n * d.trioH + (n - 1) * d.bankGapMax + 2 * pad;
+  const rowsH = n * d.trioH + (n - 1) * d.rowGap, rowsMax = n * d.trioH + (n - 1) * d.rowGapMax;
+  const colH = panelH + d.midGap + rowsH, colMax = panelMax + d.midGapMax + rowsMax;
+  const panel = C5.famTraceBank({ words: bank, laneW: d.laneW, trioH: d.trioH, glyphH: d.glyphH, gap: d.bankGap, gapMax: d.bankGapMax, pad });
+  const lines = C5.famWriteRows({ rows, laneW: d.laneW, trioH: d.trioH, glyphH: d.glyphH, gap: d.rowGap, gapMax: d.rowGapMax });
+  const colW = BODY_W - d.stageW - d.colGap;
+  const col = `<div style="display:flex;flex-direction:column;height:100%;width:${colW}px">` +
+    `<div style="flex:1 1 ${panelH}px;min-height:${panelH}px;max-height:${panelMax}px;display:flex;flex-direction:column">${panel}</div>` + spacer(d.midGap, d.midGapMax) +
+    `<div style="flex:1 1 ${rowsH}px;min-height:${rowsH}px;max-height:${rowsMax}px;display:flex;flex-direction:column">${lines}</div></div>`;
+  const h = Math.max(stage.height, colH);
   const block = `<div data-lcs-trace-layout="" style="display:flex;align-items:center;gap:${d.colGap}px;width:${BODY_W}px;height:100%">` +
-    `<div style="flex:0 0 ${d.stageW}px">${stage.html}</div><div style="flex:0 0 auto;align-self:stretch">${lanes}</div></div>`;
-  const reading = stage.tree.nodes.filter((n) => badges[n.id] != null).sort((a, b) => a.row - b.row || a.cx - b.cx).map((n) => badges[n.id]);
-  return { blocks: [block], gaps: [], blockStyles: [`flex:1 1 ${h}px;min-height:${h}px;max-height:${Math.max(h, rowsMax)}px;display:flex`], stackH: h, stackMax: Math.max(h, rowsMax), rootAttrs: ` data-lcs-grand-side="${comp.grandSide}" data-lcs-reading="${reading.join(',')}"`,
-    meta: { grandSide: comp.grandSide, egoName, words: rows.map((r) => r.text), reading, stageH: stage.height } };
+    `<div style="flex:0 0 ${d.stageW}px">${stage.html}</div><div style="flex:0 0 auto;align-self:stretch">${col}</div></div>`;
+  const reading = stage.tree.nodes.filter((nd) => badges[nd.id] != null).sort((a, b) => a.row - b.row || a.cx - b.cx).map((nd) => badges[nd.id]);
+  return { blocks: [block], gaps: [], blockStyles: [`flex:1 1 ${h}px;min-height:${h}px;max-height:${Math.max(h, colMax)}px;display:flex`], stackH: h, stackMax: Math.max(h, colMax), rootAttrs: ` data-lcs-grand-side="${comp.grandSide}" data-lcs-reading="${reading.join(',')}"`,
+    meta: { grandSide: comp.grandSide, egoName, words: rows.map((r) => r.answer), bank, reading, stageH: stage.height } };
 }
 /** the RESOLVED glyph height of a word in the F2 stacked lane (trace-path.js strokeWordLane, the silent shrink) */
 function f2Glyph(text, d) {
@@ -442,6 +467,12 @@ function faceTreeClues(bankLoc, d, locale, rng, over) {
   const comp = over.compose ? over.compose(d, rng) : this._compose({ grand: true, baby: false, sideline: d.sideline }, rng);
   const { persons } = comp;
   assertConventional(persons);
+  // review round 1: the Z / B path IS the older sibling (several locales' clue frames say "older brother"),
+  // so it is drawn TALLER than the ego — a bigger bust filling its frame, the ego's at the K-2 bust floor band
+  if (!over.sameSize) {
+    const older = persons.find((p) => p.path === 'Z' || p.path === 'B'), egoP = persons.find((p) => p.path === '');
+    if (older && egoP) { older.bustPx = d.frame[1] - 12; egoP.bustPx = Math.max(72, Math.round(d.frame[1] * 0.76)); }
+  }
   const kin = bankLoc.kin;
   for (const p of persons) if (p.path !== '') literal(bankLoc, kin[p.path] || '__none__', locale);
   const uf = uniqueReferents(persons, kin, persons.filter((p) => p.path !== '').map((p) => kin[p.path]));
@@ -513,7 +544,10 @@ function faceRiddles(bankLoc, d, locale, rng, over) {
   }
   if (over.order) order = over.order(order, answers);   // the gate's poison seam
   if (!order) throw new Error(`${ID}: no admissible riddle order in ${TRIES} tries`);
-  const bankWords = rng.shuffle([...distinct, ...dist]);
+  // review round 1 (en/fr/it/pt panels): a bank word that answers no riddle sends a child hunting for its riddle, and the
+  // instruction never says two words are left over — the printed bank holds ONLY the answer words. The locale's
+  // `distractors` stay validated bank data (rule 7) but are not printed; `over.withDistractors` is the gate's poison seam.
+  const bankWords = rng.shuffle(over.withDistractors ? [...distinct, ...dist] : [...distinct]);
   const bankHtml = `<div class="ws-scene-banner ws-bank" data-lcs-bank-banner="" style="flex:1 1 auto;margin:0;flex-wrap:wrap">` +
     bankWords.map((wk) => `<span class="ws-bankword" data-lcs-bank-word="${wk}" style="font-size:${d.bankPx}px;height:${d.bankH}px;box-sizing:border-box">${literal(bankLoc, wk, locale).text.replace(/&/g, '&amp;').replace(/</g, '&lt;')}</span>`).join('') + `</div>`;
   const card = C5.famEgoCard({ person: ego, name: egoRec.name, w: d.frame[0], h: d.frame[1] });
@@ -715,29 +749,48 @@ function browserVerifyFace(data) {
       const gensBy = badged.slice().sort((a, b) => a.badge - b.badge).map((p) => genOf(p.path));
       const mono = gensBy.every((v, i) => !i || v >= gensBy[i - 1]) || gensBy.every((v, i) => !i || v <= gensBy[i - 1]);
       if (mono) fails.push(`badge order is monotone in generation (${gensBy.join('')})`);
+      // review round 1: EVERY drawn person but the ego carries a number (no figure with neither number nor word)
+      const unnumbered = persons.filter((p) => !p.ego && p.badge == null);
+      if (unnumbered.length) fails.push(`${unnumbered.map((p) => p.path).join(', ')} drawn with no number`);
       const rows = [...root.querySelectorAll('[data-lcs-trace-row]')];
-      if (rows.length !== badged.length) fails.push(`${rows.length} rows for ${badged.length} numbered people`);
-      const seen = new Set();
+      if (rows.length < 4 || rows.length > badged.length) fails.push(`${rows.length} lines for ${badged.length} numbered people (want 4..${badged.length})`);
+      const seen = new Set(), rowWords = [];
       for (const r of rows) {
         const n = +r.dataset.lcsBadge;
         const p = badged.find((q) => q.badge === n);
         const lane = r.querySelector('svg[data-lcs-prim="trace-word"]');
         const disc = r.querySelector('[data-lcs-row-disc] text');
         if (!disc || disc.textContent.trim() !== String(n)) fails.push(`row ${n}: its disc does not read ${n}`);
-        if (!p || !lane) { fails.push(`row ${n}: no numbered person or no lane`); continue; }
+        if (!p || !lane) { fails.push(`row ${n}: no numbered person or no line`); continue; }
         const want = words[kin[p.path]] && words[kin[p.path]].text;
-        if (lane.dataset.lcsText !== want) fails.push(`row ${n}: the lane traces "${lane.dataset.lcsText}", person ${n} (${p.path}) is "${want}" — re-derived from the graph`);
+        if (r.dataset.lcsAnswer !== want) fails.push(`row ${n}: the line answers "${r.dataset.lcsAnswer}", person ${n} (${p.path}) is "${want}" — re-derived from the graph`);
+        if (lane.dataset.lcsReps !== '0' || !lane.querySelector('[data-lcs-empty-trio]') || lane.querySelector('path')) fails.push(`row ${n}: the numbered line is not an EMPTY trio (a word printed beside its number needs no tree)`);
         if (seen.has(want)) fails.push(`row ${n}: the word ${want} twice`);
-        seen.add(want);
-        // the RESOLVED glyph height, measured on the drawn school lines of the first trio (top line -> base line)
+        seen.add(want); rowWords.push(want);
+        const lr = rect(lane);
+        if (lr.height < FL.K.element - 0.6) fails.push(`row ${n}: line ${lr.height.toFixed(1)} px < ${FL.K.element}`);
+      }
+      const rowsSorted = rows.map((r) => +r.dataset.lcsBadge);
+      if (rowsSorted.some((b, i) => i && b <= rowsSorted[i - 1])) fails.push(`lines out of number order (${rowsSorted.join(',')})`);
+      // the trace panel: exactly the lines' words, UNNUMBERED, in an order that is no guide to the lines
+      const bankEl = root.querySelector('[data-lcs-trace-bank]');
+      const lanes = bankEl ? [...bankEl.querySelectorAll('[data-lcs-bank-lane]')] : [];
+      const bankWords = lanes.map((l) => l.dataset.lcsText);
+      if (!bankEl) fails.push('no trace panel');
+      if (bankWords.slice().sort().join('|') !== rowWords.slice().sort().join('|')) fails.push(`the trace panel holds ${bankWords.join('/')} for lines ${rowWords.join('/')}`);
+      if (bankEl && /[0-9]/.test(bankEl.textContent)) fails.push('a numeral inside the trace panel');
+      const same = bankWords.filter((w, i) => w === rowWords[i]);
+      if (same.length) fails.push(`the trace panel puts ${same.join(', ')} level with its own line (the lookup is not needed)`);
+      if (bankWords.length > 2 && bankWords.every((w, i) => w === rowWords[rowWords.length - 1 - i])) fails.push('the trace panel is the lines reversed');
+      for (const l of lanes) {
+        const lane = l.querySelector('svg[data-lcs-prim="trace-word"]');
+        if (!lane || lane.dataset.lcsText !== l.dataset.lcsText) { fails.push(`panel word ${l.dataset.lcsText}: no lane`); continue; }
         const trio = lane.querySelector(':scope > g');
-        const ls = trio ? [...trio.querySelectorAll('line')].map((l) => +l.getAttribute('y1')) : [];
+        const ls = trio ? [...trio.querySelectorAll('line')].map((q) => +q.getAttribute('y1')) : [];
         const sc = lane.getScreenCTM() ? lane.getScreenCTM().d : 1;
         const glyph = ls.length >= 2 ? (Math.max(...ls) - Math.min(...ls)) * sc : 0;
-        if (glyph < 40 - 0.6) fails.push(`row ${n}: "${want}" resolves to glyphH ${glyph.toFixed(1)} < 40 (the lane's silent shrink)`);
-        if (lane.dataset.lcsEmptySlot !== '1' || !lane.querySelector('[data-lcs-empty-trio]')) fails.push(`row ${n}: no empty trio to write the word alone`);
-        const lr = rect(lane);
-        if (lr.height < FL.K.element - 0.6) fails.push(`row ${n}: lane ${lr.height.toFixed(1)} px < ${FL.K.element}`);
+        if (glyph < 40 - 0.6) fails.push(`panel "${l.dataset.lcsText}" resolves to glyphH ${glyph.toFixed(1)} < 40 (the lane's silent shrink)`);
+        if (rect(lane).height < FL.K.element - 0.6) fails.push(`panel "${l.dataset.lcsText}": lane ${rect(lane).height.toFixed(1)} px < ${FL.K.element}`);
       }
       // the stage text: only the ego's name + the badge numerals
       const plate = stage.querySelector('[data-lcs-plate]');
@@ -748,6 +801,11 @@ function browserVerifyFace(data) {
     } else {
       // tree-clues
       if (persons.some((p) => p.badge != null)) fails.push('a number disc on the clue tree');
+      // review round 1: the older sibling (Z / B) is drawn TALLER than the ego (a clue may say "older brother")
+      { const bust = (sel) => { const g = svg.querySelector(sel); const f = g && g.querySelector('svg[data-lcs-figure]');
+          return f && f.ownerSVGElement ? f.height.baseVal.value * f.ownerSVGElement.getScreenCTM().d : null; };
+        const ob = bust('g[data-lcs-path="Z"], g[data-lcs-path="B"]'), eb = bust('g[data-lcs-ego]');
+        if (ob != null && eb != null && !(ob >= eb * 1.12)) fails.push(`the older sibling's bust ${ob.toFixed(1)} px is not taller than the ego's ${eb.toFixed(1)} (want >= 1.12x)`); }
       const sr = rect(stage);
       const plates = [...stage.querySelectorAll('[data-lcs-plate-for]')].map((el) => {
         const r = rect(el);
@@ -842,9 +900,10 @@ function browserVerifyFace(data) {
     const wrapped = rows.filter((r) => +r.dataset.lcsLines > 1).length;
     if (wrapped > 2) fails.push(`${wrapped} riddles wrap (at most 2)`);
     for (let i = 1; i < ans.length; i++) if (ans[i] === ans[i - 1]) fails.push(`riddles ${i} and ${i + 1} share the answer ${ans[i]} (never adjacent)`);
-    const dist = bankKeys.filter((k) => !ans.includes(k));
-    for (const x of dist) if (Object.keys(riddleFrames).some((p) => kin[p] === x && rows.some((r) => r.querySelector('[data-lcs-riddle-path]').dataset.lcsRiddlePath === p))) fails.push(`distractor ${x} fits a riddle`);
-    if (dist.length !== distractors.length || dist.some((x) => !distractors.includes(x))) fails.push(`the bank's extra words ${dist.join(',')} ≠ the locale's distractors ${distractors.join(',')}`);
+    // review round 1: EVERY bank word answers at least one riddle on this page (no word left over)
+    const unused = bankKeys.filter((k) => !ans.includes(k));
+    if (unused.length) fails.push(`bank word(s) ${unused.join(', ')} answer no riddle on the page`);
+    void distractors;
     const gs = rows.map((r) => genOf(r.querySelector('[data-lcs-riddle-path]').dataset.lcsRiddlePath));
     if (gs.every((v, i) => !i || v >= gs[i - 1]) || gs.every((v, i) => !i || v <= gs[i - 1])) fails.push('the riddles run grouped by generation (an answer-position tell)');
   }
@@ -889,6 +948,24 @@ function browserVerifyFace(data) {
     }
     if (nMats < 12) fails.push(`${nMats} mats (want >= 12)`);
     if (nBranches < 5) fails.push(`${nBranches} branches — the template does not read as a tree`);
+    // review round 1: ONE name line per frame (13 frames over 12 lines left one frame nameless)
+    { const nLines = root.querySelectorAll('svg[data-lcs-nameline]').length;
+      if (nLines !== nMats) fails.push(`${nMats} frames but ${nLines} name lines (want one line per frame)`); }
+    // review round 1: no ORPHAN branch — every branch carries a frame's cord, or joins (end within 14 px) a branch that does
+    // (a bare twig reads as a MISSING frame). Measured on the drawn branch points + cord hooks, not on a stamp.
+    { const tree = svgs.find((x) => !x.hasAttribute('data-lcs-shelf-svg'));
+      if (tree) {
+        const brs = [...tree.querySelectorAll('[data-lcs-branch]')].map((br) => (br.dataset.lcsPts || '').split(';').map((q) => q.split(',').map(Number)));
+        const hooks = [...tree.querySelectorAll('[data-lcs-cord]')].map((c) => [+c.getAttribute('x1'), +c.getAttribute('y1')]);
+        const near = (pts, x, y, tol) => pts.some((q) => Math.hypot(q[0] - x, q[1] - y) <= tol + (q[2] || 0) / 2);
+        const bearing = brs.map((pts) => hooks.some(([x, y]) => near(pts, x, y, 3)));
+        for (let pass = 0; pass < brs.length; pass++) brs.forEach((pts, i) => {
+          if (bearing[i]) return;
+          const ends = [pts[0], pts[pts.length - 1]];
+          if (brs.some((o, j) => j !== i && bearing[j] && ends.some((e) => near(o, e[0], e[1], 14)))) bearing[i] = true;
+        });
+        brs.forEach((pts, i) => { if (!bearing[i]) fails.push(`an orphan branch ending at (${pts[pts.length - 1][0].toFixed(0)}, ${pts[pts.length - 1][1].toFixed(0)}) holds no frame (it reads as a missing one)`); });
+      } }
     // the ONLY text: meWord; no kin literal, no forbidden word anywhere on the page body
     const texts = [...root.querySelectorAll('text')].map((t) => t.textContent.trim()).filter(Boolean);
     if (texts.length !== 1 || texts[0] !== meWord) fails.push(`the template prints ${JSON.stringify(texts)} (want only "${meWord}")`);
@@ -909,7 +986,7 @@ const TYPE = {
   unitAxis: { applicable: false },
   difficulty: {
     1: { mode: 'base', grand: false, baby: false, frame: [120, 138], chipPx: 24, register: 'K' },
-    2: { mode: 'base', grand: true, baby: false, frame: [104, 120], chipPx: 22, register: 'K' },
+    2: { mode: 'base', grand: true, baby: false, frame: [108, 126], chipPx: 22, register: 'K', fillGap: 40 },
     3: { mode: 'base', grand: true, baby: true, frame: [96, 110], chipPx: 22, register: 'K' },
   },
   i18n: {
@@ -1032,7 +1109,7 @@ const TYPE = {
     const bodyHtml = `<div class="fam-page" data-ws-content="" data-lcs-family="" data-lcs-type="${ID}" data-lcs-mode="base" data-lcs-locale="${locale}"` +
       ` data-lcs-grand-side="${comp.grandSide || ''}" data-lcs-reading="${reading.join(',')}" data-lcs-stack="${stackH}"` +
       ` style="display:flex;flex-direction:column;justify-content:flex-start;height:100%;width:${BODY_W}px;margin:0 auto">` +
-      `<div style="flex:0 0 auto">${stage.html}</div><div style="flex:0 0 ${STAGE_GAP}px"></div><div style="flex:0 0 auto">${block}</div></div>`;
+      `<div style="flex:0 0 auto">${stage.html}</div>${d.fillGap ? spacer(STAGE_GAP, d.fillGap) : `<div style="flex:0 0 ${STAGE_GAP}px"></div>`}<div style="flex:0 0 auto">${block}</div></div>`;
     return {
       bodyHtml,
       meta: { mode: 'base', grandSide: comp.grandSide, egoName, people: persons.length, asked: rows.map((r) => r.wordKey), answers: rows.map((r) => r.answer), reading, stackH, stageH: stage.height },

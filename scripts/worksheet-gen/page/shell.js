@@ -44,6 +44,22 @@ const INSTRUCTION_BADGE_SVG =
   '<path d="M10 1.5l2.47 5.01 5.53.8-4 3.9.94 5.5L10 14.11l-4.94 2.6.94-5.5-4-3.9 5.53-.8z" fill="#FFFFFF"/></svg>';
 
 /**
+ * French typography AT RENDER TIME (nt10-E landing round 1, 2026-09-23, the fr panel: 7 titles wrapped so a line
+ * STARTED with the colon, and "a-t-" / "elle" broke at the hyphen). The strings keep plain spaces (they also feed
+ * the SEO titles); only the printed title / instruction change, and only in fr: a NO-BREAK space (U+00A0, inside
+ * the fonts' latin range) before : ; ? ! and inside « », and the "-t-il / -t-elle / -t-on" inversions held
+ * together by a WORD JOINER (U+2060, zero-width, default-ignorable) after each hyphen — no new element (qa/lints.js
+ * reads an inline span as overflowing) and no glyph outside the font subset. Input is ALREADY escaped (esc()).
+ */
+function frTypo(html) {
+  return html
+    .replace(/[ \u202F]+([:;?!»])/g, '\u00A0$1')
+    .replace(/«[ \u202F]+/g, '«\u00A0')
+    .replace(/(^|[^\p{L}])(\p{L}+)-t-(il|elle|on|ils|elles)(?![\p{L}-])/gu, '$1$2-\u2060t-\u2060$3');
+}
+const chromeText = (s, locale) => (String(locale || '').slice(0, 2) === 'fr' ? frTypo(esc(s)) : esc(s));
+
+/**
  * buildPage({ title, instruction, bodyHtml, locale, pageSize }) → html string
  */
 function buildPage({ title, instruction, bodyHtml, locale, pageSize }) {
@@ -62,7 +78,7 @@ ${PAGE_CSS}
 <body>
 <div class="ws-page" data-lcs-page>
   <header class="ws-head">
-    <h1 class="ws-title" data-lcs-title>${esc(title)}</h1>
+    <h1 class="ws-title" data-lcs-title>${chromeText(title, locale)}</h1>
     <div class="ws-namedate">
       <span>${esc(chrome.name)}: <span class="ws-blank"></span></span>
       <span>${esc(chrome.date)}: <span class="ws-blank ws-blank--short"></span></span>
@@ -70,7 +86,7 @@ ${PAGE_CSS}
   </header>
   <div class="ws-instruction">
     <span class="ws-instruction-badge">${INSTRUCTION_BADGE_SVG}</span>
-    <p data-lcs-instruction>${esc(instruction)}</p>
+    <p data-lcs-instruction>${chromeText(instruction, locale)}</p>
   </div>
   <main class="ws-body" data-lcs-body>
 ${bodyHtml}
@@ -85,4 +101,4 @@ ${bodyHtml}
 </html>`;
 }
 
-module.exports = { buildPage, PAGE_SIZES, CHROME, ATTRIBUTION };
+module.exports = { frTypo, buildPage, PAGE_SIZES, CHROME, ATTRIBUTION };

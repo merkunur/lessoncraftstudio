@@ -188,6 +188,7 @@ function drawPage(block, cfg, rng, L) {
  */
 const { fileUri } = require('../../lib/b2-common.js');
 const { SENTENCES } = require('../../data/b2/sentences.js');
+const { makeRng } = require('../../lib/rng.js');
 const PAIR_SLOTS = [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]];
 /** F3: the five non-identity orders (perm[col] = the rank index printed in that column). */
 const NON_ID = [[0, 2, 1], [1, 0, 2], [1, 2, 0], [2, 0, 1], [2, 1, 0]];
@@ -293,6 +294,18 @@ function buildPictures(self, block, cfg, loc, rng) {
 function pickCfg(cfg, keys) { const o = { mode: cfg.mode }; for (const k of keys) o[k] = cfg[k]; return o; }
 
 /* ------------------------------------------------------------------ F2 pairs */
+const PAIRS_BASE_OVERLAP_MAX = 2;
+/** The concepts the base page draws on the same instance (the seed string with this face's id swapped for the base's).
+ *  A seed that is not an instance seed (a gate probe) has no base page: nothing to avoid. */
+function baseConceptsFor(block, loc, rng) {
+  const m = /^([A-Z0-9]+-\d+)\|none\|(\d)\|/.exec(String(rng.seed || ''));
+  if (!m || m[1] === ID) return [];
+  const base = module.exports;
+  const d = base.difficulty[+m[2]] || base.difficulty[2];
+  try {
+    return base._buildWith(block, d, { locale: loc }, { rng: makeRng(ID + rng.seed.slice(m[1].length)) }).meta.cards.map((c) => c.concept);
+  } catch (e) { return []; }
+}
 function buildPairs(self, block, cfg, loc, rng) {
   if (cfg.pairs < 6 || cfg.pairs > 8) throw new Error(`${self.id}: pairs ${cfg.pairs} outside 6..8`);
   if (cfg.tagH < 36) throw new Error(`${self.id}: tag ${cfg.tagH} under the G2 floor 36`);
@@ -303,6 +316,9 @@ function buildPairs(self, block, cfg, loc, rng) {
   const groupNear = (g1, g2) => g1.words.some((a) => g2.words.some((b) => L.near.has(norm(a) + '|' + norm(b))));
   const groupAnt = (g1, g2) => g1.words.some((a) => { const an = L.antonymsOf(a); return g2.words.some((b) => an.includes(norm(b))); });
   const usable = (g) => g.words.filter((w) => !L.banned.has(norm(w)) && !L.prefix.has(norm(w)) && glyphN(w) <= cfg.maxGlyphs);
+  // round 1 (2026-09-23): the SAME instance of the base (this seed with the base's type id) may share at most
+  // 2 concepts with this page — a teacher printing both must not get the base's pairs back (es/it/fr panels).
+  const baseConcepts = baseConceptsFor(block, loc, rng);
   for (let t = 0; t < PAGE_TRIES; t++) {
     const need = { adj: cfg.posMix[0], verb: cfg.posMix[1] };
     const picked = [];
@@ -314,6 +330,7 @@ function buildPairs(self, block, cfg, loc, rng) {
       need[g.pos]--; picked.push(g);
     }
     if (need.adj > 0 || need.verb > 0) continue;
+    if (picked.filter((g) => baseConcepts.includes(g.concept)).length > PAIRS_BASE_OVERLAP_MAX) continue;
     const order = rng.shuffle(picked);
     const pairs = order.map((g) => { const ws = rng.shuffle(usable(g)); return { g, left: ws[0], right: ws[1] }; });
     const rOrder = derangeIdx(pairs.length, rng);   // rOrder[k] = the left row whose partner sits in right row k

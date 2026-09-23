@@ -4,12 +4,12 @@ const base = require('../g1/G1-377-butterfly-life-cycle.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"layout":"metamorphosis","animals":["butterfly","frog","ladybird"],"cards":["butterfly.larva","butterfly.pupa","frog.spawn","frog.tadpole","frog.legged","frog.froglet","ladybird.larva","ladybird.pupa"],"lensD":100,"lensMax":128,"adultD":132,"adultMax":164,"box":52,"boxMax":64,"binsMax":420} };
+const D = { ...base.difficulty[2], ...{"layout":"metamorphosis","animals":["butterfly","frog","ladybird"],"cards":["butterfly.larva","butterfly.pupa","frog.spawn","frog.tadpole","frog.legged","frog.froglet","ladybird.larva","ladybird.pupa"],"lensD":100,"lensMax":128,"adultD":132,"adultMax":164,"box":52,"boxMax":64,"binsMax":420,"boxesPerBin":4} };
 module.exports = {
   ...base,
   id: 'G2-366',
   slug: 'metamorphosis-which-animal-will-it-become',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Metamorphosis: Which Animal Will It Become?", instruction: "Look at each young animal and write its letter in a box under the grown-up animal it will become." } },
+  i18n: { en: { title: "Metamorphosis: Which Animal Will It Become?", instruction: "Look at each stage and write its letter in a box under the animal it will grow into; some boxes stay empty." } },
   gradeBand: "G2",
 };

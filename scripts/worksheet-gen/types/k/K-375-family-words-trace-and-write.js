@@ -4,7 +4,7 @@ const base = require('./K-370-family.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"mode":"trace-words","people":6,"badged":4,"frame":[80,96],"stageW":300,"laneW":321,"trioH":72,"glyphH":44,"rowGap":16,"rowGapMax":40,"colGap":16} };
+const D = { ...base.difficulty[2], ...{"mode":"trace-words","people":6,"minRows":4,"frame":[80,96],"stageW":300,"laneW":321,"trioH":58,"glyphH":44,"rowGap":6,"rowGapMax":14,"bankGap":6,"bankGapMax":12,"midGap":16,"midGapMax":36,"colGap":16} };
 module.exports = {
   ...base,
   id: 'K-375',

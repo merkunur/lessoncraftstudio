@@ -134,7 +134,7 @@ async function faceGate({ page, ok, judge, fails, log, validateBank, quick }) {
       if (m.rots.slice().sort((a, b) => a - b).join() !== '0,0,0,90,180,270') bad++;
       const up = m.rots.map((r, i) => (r === 0 ? i : -1)).filter((i) => i >= 0);
       if (new Set(up.map((i) => i % 2)).size < 2 || new Set(up.map((i) => Math.floor(i / 2))).size < 2) bad++;
-      if (new Set(m.given).size < 4 || periodic(m.given)) bad++;
+      if (new Set(m.given).size < 3 || m.given.includes('n') || periodic(m.given)) bad++;
       const gp = m.given.map((g, i) => posOf(m.rots[i], g));
       if (new Set(gp).size < 2) bad++;
       up.forEach((i) => upAt[i]++); gp.forEach((p) => gpos[p]++);
@@ -203,7 +203,10 @@ async function faceGate({ page, ok, judge, fails, log, validateBank, quick }) {
       const root = document.querySelector('[data-lcs-type="maps"]'), body = document.querySelector('.ws-body');
       if (!root || !body) return null;
       const bl = [...root.children].filter((c) => !c.hasAttribute('data-lcs-gap'));
-      const b = body.getBoundingClientRect(), last = bl[bl.length - 1].getBoundingClientRect();
+      // F5 (landing round 1): the rows + legend sit in one [data-lcs-dir-body] block that fills the body — the content
+      // ends where the last ROW / the legend ends, never at the block edge
+      const inner = [...root.querySelectorAll('[data-lcs-dir-rows] > [data-lcs-dir-row], [data-lcs-dir-legend]')];
+      const b = body.getBoundingClientRect(), last = inner.length ? inner.reduce((m, e) => { const r = e.getBoundingClientRect(); return r.bottom > m.bottom ? r : m; }, inner[0].getBoundingClientRect()) : bl[bl.length - 1].getBoundingClientRect();
       const svg = root.querySelector('svg[data-lcs-prim="world-map"]');
       return { body: b.height, fill: (last.bottom - b.top) / b.height, inside: last.bottom <= b.bottom + 0.6, hash: svg ? svg.dataset.lcsHash : null,
         stamps: [...root.attributes].filter((a) => a.name.startsWith('data-lcs-')).map((a) => a.value).join('|') };
@@ -291,7 +294,9 @@ async function faceGate({ page, ok, judge, fails, log, validateBank, quick }) {
   const T1 = types['K-377'], T2 = types['G2-369'], T3 = types['G2-370'], T4 = types['G3-396'], T5 = types['G2-371'];
   const p1 = build(T1, en, {}, 1).meta;
   await rp('PR5 F1 cup + bucket on one page', forced(T1, { forceModels: ['cup', 'bucket', 'car', 'cone', 'bed'], forceRight: ['bucket', 'car', 'cone', 'bed', 'cup'] }), /class limit — cup and bucket on one page/);
-  await rp('PR7 F2 a turned rose with the coral marker', wrap(T2, (h) => h.replace(/(data-lcs-rot="(?:90|180|270)"[^>]*>)<g transform="rotate\(0 100 100\)" data-lcs-kite="0">/, '$1<g transform="rotate(0 100 100)" data-lcs-kite="0" data-lcs-marker="n">')), /marker on turned/);
+  // PR7 (landing round 1): a turned rose WITHOUT its coral N marker / PR7b the marker on a kite that does not point north
+  await rp('PR7 F2 a turned rose without its N marker', wrap(T2, (h) => h.replace(/(data-lcs-rot="(?:90|180|270)"[^>]*>[\s\S]*?) data-lcs-marker="n"/, '$1')), /lacks the coral N marker/);
+  await rp('PR7b F2 the N marker on the up kite of a turned rose', wrap(T2, (h) => h.replace(/(data-lcs-rot="(90|180|270)"[^>]*>)([\s\S]*?)(<\/svg>)/, (m, open, rot, body, close) => open + body.replace(/ data-lcs-marker="n"/, '').replace('data-lcs-kite="0"', 'data-lcs-kite="0" data-lcs-marker="n"') + close)), /the coral marker points to position 0, which is not north/);
   await rp('PR8 F2 an upright rose whose right box carries S', wrap(T2, (h) => h.replace(/(data-lcs-pos="1" data-lcs-dir="e" data-lcs-given=")E(">[\s\S]*?>)E(<\/text>)/, '$1S$2S$3')), /letter from position — the e box carries "S"/);
   await rp('PR11 F3 a continent disc on water', wrap(T3, (h) => h.replace(/(<g data-lcs-marker="africa"[^>]*>[\s\S]*?<\/g>)/, (g) => g.replace(/1050\.1/g, '747.1').replace(/405\.3/g, '408.9'))), /anchor rule/);
   await rp('PR12 F4 the Arctic disc in the polar band without a leader', wrap(T4, (h) => h.replace(/<g data-lcs-leader="arctic">[\s\S]*?<\/g>/, '').replace(/(<g data-lcs-marker="arctic"[^>]*?) data-lcs-via-leader="">([\s\S]*?<\/g>)/, (m, a, b) => `${a} data-lcs-ocean="arctic">` + b.replace(/145\.7/g, '353.3').replace(/65\.7/g, '30.8'))), /arctic is on land or within 6 px|ocean arctic has no corner leader/);
@@ -321,6 +326,9 @@ async function faceGate({ page, ok, judge, fails, log, validateBank, quick }) {
     const rows2 = JSON.parse(JSON.stringify(m.rows)); for (const r of rows2) r.chips = [r.answer, ...r.chips.filter((c) => c !== r.answer)];
     await rp('AT5 F5 the correct chip always first', forced(T5, { forceRows: rows2 }), /correct chip positions \[0,0,0,0,0,0\] are constant/, { seedEpoch: 1 });
   }
+  // UN1 (landing round 1): the directions face without its legend -> every drawn symbol is unnamed; the shipped face is the control
+  await rp('UN1 F5 the directions map without its legend', forced(T5, { legend: false }), /unnamed symbol — \w+ is drawn on the island but no legend names it/, { seedEpoch: 1 });
+  await rp('UN2 F5 a legend missing the tent', wrap(T5, (h) => h.replace(/<div data-lcs-dir-key="tent"[\s\S]*?<\/span><\/div>/, '')), /unnamed symbol — tent/);
   await rp('AT1 F1 the right column a constant offset of the left', forced(T1, { forceModels: p1.left, forceRight: [...p1.left.slice(2), ...p1.left.slice(0, 2)] }), /shifted by a constant/);
   {
     const m = build(T2, en, {}, 1).meta;
@@ -330,7 +338,10 @@ async function faceGate({ page, ok, judge, fails, log, validateBank, quick }) {
   // SPARSE both ways (the shipped faces above are the controls: every band <= 40)
   for (const [i, f] of FACES.entries()) {
     await rp(`SP${i + 1} ${f.id} a 150 px band`, wrap(types[f.id], (h) => h.replace('max-height:36px;width:100%', 'width:100%;flex:0 0 150px;min-height:150px;max-height:150px')), /SPARSE/);
-    await rp(`FL${i + 1} ${f.id} every band closed at 814`, wrap(types[f.id], (h) => h.split('max-height:36px').join('max-height:0px').replace(/min-height:\d+px;max-height:0px/g, 'min-height:0px;max-height:0px')), /FILL/, { strings: CHROME.one, fillCheck: true });
+    await rp(`FL${i + 1} ${f.id} every band closed at 814`, wrap(types[f.id], (h) => h.split('max-height:36px').join('max-height:0px').replace(/min-height:\d+px;max-height:0px/g, 'min-height:0px;max-height:0px')),
+      // F5 (landing round 1): the rows sit beside the legend in one full-height block, so a page closed up high is caught
+      // by the band UNDER the last row (> 40 px) before the 85 % FILL line — the same defect, the nearer measure
+      f.id === 'G2-371' ? /FILL|SPARSE — \d+ px blank band under the last row/ : /FILL/, { strings: CHROME.one, fillCheck: true });
   }
   // apparatus in the instruction (the en strings are the controls: validateBank(en) is clean)
   const withIns = (layout, ins) => ({ ...JSON.parse(JSON.stringify(en)), strings: { ...JSON.parse(JSON.stringify(en.strings)), [layout]: { ...en.strings[layout], instruction: ins } } });

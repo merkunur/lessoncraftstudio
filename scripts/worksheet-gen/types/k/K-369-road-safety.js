@@ -184,10 +184,11 @@ function buildCrossingSteps(block, d, loc, rng, seam) {
   if (d.cards !== steps.length) throw new Error(`K-369 ${loc}: the face prints ${d.cards} cards, the ${loc} routine has ${steps.length} steps (refuse; the row sets cards per routine)`);
   for (const k of ['offBy', 'cardW', 'figH', 'minFrameH']) if (!(d[k] > 0)) throw new Error(`K-369 crossing-steps: config ${k} is ${d[k]}`);
   const n = steps.length;
-  // a look-left AFTER a look-right is drawn as its own frame (the ↶ swing back): two identical frames made
-  // the routine's steps 2 and 4 undecidable from the page (coordinator review 2026-09-23)
-  const kinds = steps.map((k, i) => (k === 'look-left' && steps.slice(0, i).includes('look-right') ? 'look-left-again' : k));
-  if (new Set(kinds).size !== kinds.length) throw new Error(`K-369 ${loc}: the routine ${steps.join(',')} repeats a frame that cannot be drawn differently (refuse)`);
+  // NO ACTION TWICE (landing round 1, 2026-09-23, en/de/es/fr panels): the old routine looked left twice, and the
+  // "again" frame differed from the first only by the arrow's curve, so steps 2 and 4 were swappable. Every card now
+  // carries a different action (stop · look left · look right · wait until clear · walk); a repeated step REFUSES.
+  if (new Set(steps).size !== steps.length) throw new Error(`K-369 ${loc}: the routine ${steps.join(',')} repeats an action (every card must carry a different action — refuse)`);
+  const kinds = steps.slice();
   let order = seam && seam.plan ? seam.plan.order : null;
   for (let t = 0; t < TRIES && !order; t++) {
     const p = rng.shuffle(Array.from({ length: n }, (_, i) => i));
@@ -478,11 +479,17 @@ async function faceVerify(page, mode) {
         });
         const k = c.dataset.lcsStep;
         const want = { 'look-left': [-1], 'look-left-again': [-1], 'look-right': [1], 'look-both': [-1, 1] }[k] || [];
+        const cars = c.querySelectorAll('[data-lcs-car] [data-lcs-pictogram="car"]').length;
         // what the frame DRAWS (never the step stamp): stance, head offset, each arrow's direction + straight/swung, the ahead mark
         const head = c.querySelector('[data-lcs-head]'), bag = c.querySelector('[data-lcs-bag]');
         const hx = head && bag ? Math.round((center(R(head)).x - center(R(bag)).x)) : 0;
         const swung = [...c.querySelectorAll('[data-lcs-sight]')].map((g) => (g.querySelector('path') ? 'swing' : 'straight'));
-        sigs.push({ what, sig: JSON.stringify([c.querySelectorAll('[data-lcs-step-fig] path').length, Math.sign(hx), dirs.slice().sort(), swung.sort(), c.querySelectorAll('[data-lcs-ahead]').length]) });
+        sigs.push({ what, sig: JSON.stringify([c.querySelectorAll('[data-lcs-step-fig] path').length, Math.sign(hx), dirs.slice().sort(), swung.sort(), c.querySelectorAll('[data-lcs-ahead]').length, cars]),
+          // the ACTION the frame shows, from the drawing (never the stamp): stance + sight directions + a passing car +
+          // the walk-ahead mark — an arrow's curve is NOT a different action (landing round 1: two look-left cards)
+          action: JSON.stringify([[...c.querySelectorAll('[data-lcs-step-fig] path')].filter((x) => !x.closest('[data-lcs-sight]')).length, dirs.slice().sort(), cars, c.querySelectorAll('[data-lcs-ahead]').length]) });
+        if (k === 'wait-clear' && cars !== 1) f.push(`${what}: wait until clear draws ${cars} passing cars (1)`);
+        if (k !== 'wait-clear' && cars) f.push(`${what}: a passing car on a ${k} card`);
         if (k === 'look-left-again' && !swung.includes('swing')) f.push(`${what}: look left AGAIN is drawn with a straight arrow (it must swing back from the right)`);
         if (dirs.slice().sort().join() !== want.slice().sort().join()) f.push(`${what}: the drawn sight arrows point ${JSON.stringify(dirs)} (${JSON.stringify(want)}: the page's left IS the child's left)`);
         const boxes = c.querySelectorAll('.ws-blankbox');
@@ -494,6 +501,7 @@ async function faceVerify(page, mode) {
         if (fr && (fr.left < fm.left - 0.6 || fr.right > fm.right + 0.6 || fr.bottom > fm.bottom + 0.6)) f.push(`${what}: the child figure leaves its frame`);
       });
       for (let a = 0; a < sigs.length; a++) for (let b = a + 1; b < sigs.length; b++) if (sigs[a].sig === sigs[b].sig) f.push(`${sigs[a].what} and ${sigs[b].what} draw the SAME frame (their order is undecidable from the page)`);
+      for (let a = 0; a < sigs.length; a++) for (let b = a + 1; b < sigs.length; b++) if (sigs[a].action === sigs[b].action) f.push(`duplicate action — ${sigs[a].what} and ${sigs[b].what} show the same action (their order is swappable)`);
       if (root.textContent.trim()) f.push(`text "${root.textContent.trim().slice(0, 24)}" on a picture-only page`);
     } else if (mode === 'sign-meaning') {
       sparseSel = '.ws-match-item';

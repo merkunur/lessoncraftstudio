@@ -19,7 +19,7 @@
     "root": "tira a água do solo e segura a planta na terra",
     "stem": "mantém a planta em pé e leva a água para cima",
     "leaf": "produz o alimento da planta com a luz do sol",
-    "flower": "atrai as abelhas com suas cores bonitas",
+    "flower": "atrai as abelhas",
     "seed": "pode germinar e virar uma nova planta"
   },
   "partStems": [

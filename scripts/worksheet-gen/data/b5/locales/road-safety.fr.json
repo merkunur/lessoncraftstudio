@@ -261,7 +261,7 @@
     "stop-kerb",
     "look-left",
     "look-right",
-    "look-left",
+    "wait-clear",
     "walk-across"
   ],
   "listenStep": null,

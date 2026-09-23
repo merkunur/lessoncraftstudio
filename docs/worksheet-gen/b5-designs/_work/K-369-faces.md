@@ -102,3 +102,10 @@ I re-rendered K-374 and G1-384 and read them.
 | gate-variation-distinct | every variation differs |
 | build-en | title lint clean (708 types) |
 | b3-baseline --check --quick | 0 drifted, PASS |
+
+## Revision 2 (coordinator review, 2026-09-23): G2-360 EQUAL GROUP SIZES
+Two panels conflicted: 4 boxes over 3/3/2 signs read as "missing signs", and box count = sign count (3/3/2) let the child solve the last group by counting. The fix is **equal group sizes on every page**: the build takes `perGroup = min(floor(d.signs / classes), smallest class)` signs from EVERY class, and each bin shows exactly `perGroup` boxes. Boxes = signs, and the count carries no information. Below 2 the face refuses. The row lost `boxes2` / `boxes3` (no longer read).
+- Measured, 20 seeds × 11 locales: en / es / pt **4+4** (8 signs, 4 columns); de fr it nl sv da no fi **2+2+2** (6 signs, 3 columns; each Vienna locale has a class with only 2 drawable signs, so 3+3+3 is impossible). No locale refuses.
+- verify(): a new `unequal group sizes` finding (read off the parsed outlines), plus the existing box = sign check.
+- Gate: sweep `kindsGroups()` over all 11 locale blocks + the de fixture. Poisons EQ1 (en 2/4, boxes = signs), EQ2 (Vienna 3/3/2, the old fixture page), EQ3–EQ5 (helper: unequal, a box short, empty page) all KILLED; controls EQ0 / FR0 (now 2/2/2) PASS. `PASS (582 assertions, 66/66 poisons killed)`.
+- Renders read: en, de, fi, pt at d2 are clean.

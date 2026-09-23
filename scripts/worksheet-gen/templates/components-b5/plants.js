@@ -99,15 +99,25 @@ function giftArrow(dir) {
  * a white card: [gift] > [the potted seedling, identical in every unit] < [gift]. `grows` is a
  * stamp only (never drawn: every seedling is byte-identical, no health cue).
  */
-function plantNeedUnit({ gifts, grows, potH = 104, gift = 64, w = 300, h = 120 }) {
+function plantNeedUnit({ gifts, grows, potH = 104, gift = 64, w = 300, h = 120, fill = false }) {
   if (!Array.isArray(gifts) || gifts.length !== 2) throw new Error('plantNeedUnit: two gifts');
   const pot = cropStage(plantStage({ stage: 'seedling', potted: true }).svg, POT_CROP, potH);
   const g = (x) => `<span data-lcs-gift="${esc(x.key)}" style="display:inline-flex;align-items:center;justify-content:center;width:${gift}px;height:${gift}px;flex:0 0 ${gift}px">` +
     `<img class="ws-icon" src="${x.src}" alt="" style="width:${gift}px;height:${gift}px;object-fit:contain"></span>`;
   return `<div data-lcs-need-unit data-lcs-gifts="${gifts.map((x) => esc(x.key)).join(',')}" data-lcs-grows="${grows ? 1 : 0}" ` +
-    `style="box-sizing:border-box;width:${w}px;height:${h}px;flex:0 0 ${w}px;background:${T.white};border:2px solid ${T.creamDeep};border-radius:14px;` +
+    `style="box-sizing:border-box;width:${w}px;${fill ? `min-height:${h}px;align-self:stretch` : `height:${h}px`};flex:0 0 ${w}px;background:${T.white};border:2px solid ${T.creamDeep};border-radius:14px;` +
     `display:flex;align-items:center;justify-content:center;gap:8px">` +
     g(gifts[0]) + giftArrow(1) + `<span data-lcs-pot style="display:block;flex:0 0 auto">${pot.svg}</span>` + giftArrow(-1) + g(gifts[1]) + `</div>`;
+}
+
+/**
+ * plantNeedRow({ n, kind, html, h, pad }) — F1: ONE row as a visible cream BAND (grid-line border, rounded)
+ * holding its two pots, so "in each row" reads as five rows of two, not one 10-pot grid (landing review
+ * 2026-09-23). The band is h tall; the pots inside are h - 2*pad.
+ */
+function plantNeedRow({ n, kind, html, h, pad = 8, fill = false }) {
+  // fill: the band stretches to its minmax(h,1fr) grid track (no fixed height) and its two pot cards stretch with it
+  return `<div data-lcs-need-row="${n}" data-lcs-kind="${esc(kind)}" data-lcs-block data-lcs-row-band style="box-sizing:border-box;display:flex;justify-content:center;align-items:center;gap:39px;${fill ? `min-height:${h}px` : `height:${h}px`};padding:${pad}px 10px;background:${T.cream};border:2px solid ${T.grid};border-radius:18px">${html}</div>`;
 }
 
 /* ---------------------------------------------------------------- F2 cycle (G1) */
@@ -179,13 +189,13 @@ function plantCycleStrip({ stages, card = [124, 150] }) {
  * plantEatCard({ src, food, answer, chips:[{part, word}], pic=96, chipW=150, chipH=38, chipPx=17, w=312, h=150 })
  * [the food picture, NO name][12][three part chips: plantPartIcon + the part word]. The answer is a stamp only.
  */
-function plantEatCard({ src, food, answer, chips, pic = 96, chipW = 150, chipH = 38, chipPx = 17, w = 312, h = 150, chipGap = 6 }) {
+function plantEatCard({ src, food, answer, chips, pic = 96, chipW = 150, chipH = 38, chipPx = 17, w = 312, h = 150, chipGap = 6, fill = false }) {
   const chipHtml = chips.map((c, i) => `<span data-lcs-chip="${esc(c.part)}" data-lcs-chip-slot="${i}" style="box-sizing:border-box;display:flex;align-items:center;gap:6px;width:${chipW}px;height:${chipH}px;flex:0 0 ${chipH}px;` +
     `padding:0 8px 0 5px;background:${T.white};border:1.5px solid ${T.teal};border-radius:10px;overflow:hidden">` +
     plantPartIcon({ part: c.part, size: 32 }).svg +
     `<span data-lcs-chip-text style="font-family:${F.body},sans-serif;font-weight:800;font-size:${chipPx}px;line-height:1;color:${T.ink};white-space:nowrap;overflow:hidden">${esc(c.word)}</span></span>`).join('');
   return `<div class="ws-card" data-lcs-eat-card data-lcs-food="${esc(food)}" data-lcs-part="${esc(answer)}" data-lcs-block ` +
-    `style="box-sizing:border-box;width:${w}px;height:${h}px;padding:10px 12px;flex-direction:row;align-items:center;justify-content:center;gap:12px">` +
+    `style="box-sizing:border-box;width:${w}px;${fill ? `min-height:${h}px` : `height:${h}px`};padding:10px 12px;flex-direction:row;align-items:center;justify-content:center;gap:12px">` +
     `<span data-lcs-eat-pic style="display:flex;align-items:center;justify-content:center;width:${pic + 12}px;height:${pic + 12}px;flex:0 0 ${pic + 12}px;background:${T.white};border:2px solid ${T.creamDeep};border-radius:12px;box-sizing:border-box">` +
     `<img class="ws-icon" src="${src}" alt="" style="width:${pic}px;height:${pic}px;object-fit:contain"></span>` +
     `<div data-lcs-chips style="display:flex;flex-direction:column;gap:${chipGap}px">${chipHtml}</div></div>`;
@@ -257,6 +267,6 @@ function plantFlowerInset({ h = 180, ringR = 62, beside = false }) {
 
 module.exports = {
   plantTagStage, plantLabelCard, plantLabelCardHeight, plantBank,
-  plantNeedUnit, plantCycleRing, plantCycleStrip, plantEatCard, plantJobCard, plantJobCardHeight, plantFillStage, plantFlowerFillStage, plantFlowerInset, plantLabelGrid, plantLabelGridHeight,
+  plantNeedUnit, plantNeedRow, plantCycleRing, plantCycleStrip, plantEatCard, plantJobCard, plantJobCardHeight, plantFillStage, plantFlowerFillStage, plantFlowerInset, plantLabelGrid, plantLabelGridHeight,
 };
 

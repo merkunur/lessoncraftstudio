@@ -354,7 +354,10 @@ async function main() {
       }
     });
     const html = document.querySelector('.ws-body').innerHTML.toUpperCase();
-    return { body: r(body).height, foot: r(foot).top, lowest, figs, inks, frames, chips, boxes, minFont, imgs: document.querySelectorAll('.ws-body img').length,
+    // FILL: the lowest drawn box INSIDE the family root (the root itself is height:100% and would always read 100 %)
+    const fr = document.querySelector('[data-lcs-family]');
+    const content = fr ? [...fr.querySelectorAll('*')].filter((e) => !e.hasAttribute('data-lcs-gap')).reduce((mx, e) => { const b = r(e); return b.width && b.height ? Math.max(mx, b.bottom) : mx; }, 0) : 0;
+    return { body: r(body).height, bodyTop: r(body).top, bodyBottom: r(body).bottom, content, foot: r(foot).top, lowest, figs, inks, frames, chips, boxes, minFont, imgs: document.querySelectorAll('.ws-body img').length,
       code: CODE_HEX.filter((h) => html.includes(h)), title: title.textContent.trim(), instruction: ins.textContent.trim(), titleH: r(title).height,
       // SPARSE: the blank bands between consecutive blocks (body top -> stage, stage -> word block); slack belongs BELOW
       bands: (() => { const st = document.querySelector('[data-lcs-stage]'), bl = document.querySelector('[data-lcs-kinblock]'); if (!st || !bl) return null;
@@ -374,6 +377,15 @@ async function main() {
     const [top, mid] = m.bands;
     if (Math.max(top, mid) > SPARSE_MAX) f.push(`${tag}: SPARSE — a ${Math.round(Math.max(top, mid))} px blank band between blocks (> ${SPARSE_MAX}; the slack must fall below the word block)`);
     if (Math.min(top, mid) < -0.5) f.push(`${tag}: OVERLAP — the word block rides ${Math.round(-Math.min(top, mid))} px into the stage`);
+    return f;
+  };
+  /** base FILL (review round 1: the K-370 en page left its bottom band blank): the content reaches >= 85 % of the body
+   *  at the 814 chrome and stays inside the body at 677 (the faces' rule, applied to the shipped base) */
+  const BASE_FILL_MIN = 0.85;
+  const baseFillFails = (m, tag, k) => {
+    const f = [], frac = (m.content - m.bodyTop) / m.body;
+    if (k === 'one' && frac < BASE_FILL_MIN - 1e-6) f.push(`${tag}: FILL — the content ends at ${(frac * 100).toFixed(1)} % of the ${Math.round(m.body)} px body (< ${BASE_FILL_MIN * 100} %)`);
+    if (m.content > m.bodyBottom + 0.5) f.push(`${tag}: FILL — the content runs ${Math.round(m.content - m.bodyBottom)} px past the body`);
     return f;
   };
   const orphanFails = (m, tag) => (m.titleLines.length > 1 && m.titleLines.some((n) => n === 1) ? [`${tag}: ORPHAN — the title wraps into lines of ${m.titleLines.join('/')} words (a lone word on a line)`] : []);
@@ -448,7 +460,8 @@ async function main() {
       ok(Math.abs(r.m.body - want) <= 12, `chrome ${k}: body ${Math.round(r.m.body)} (want ~${want})`);
       ok(r.qa.verify.length === 0 && r.qa.lints.length === 0, `chrome ${k}: verify ${JSON.stringify(r.qa.verify)} lints ${JSON.stringify(r.qa.lints)}`);
       floors(r.m, `chrome ${k}`);
-      console.log(`render d2 en chrome ${k}: bands ${r.m.bands.map(Math.round).join('/')} body ${Math.round(r.m.body)} (title ${Math.round(r.m.titleH)} px) stack ${r.meta.stackH} lowest ${Math.round(r.m.lowest)} foot ${Math.round(r.m.foot)} verify ${r.qa.verify.length} lints ${r.qa.lints.length} → ${r.pngPath}`);
+      for (const x of baseFillFails(r.m, `chrome ${k}`, k)) ok(false, x);
+      console.log(`render d2 en chrome ${k}: fill ${(((r.m.content - r.m.bodyTop) / r.m.body) * 100).toFixed(1)}% bands ${r.m.bands.map(Math.round).join('/')} body ${Math.round(r.m.body)} (title ${Math.round(r.m.titleH)} px) stack ${r.meta.stackH} lowest ${Math.round(r.m.lowest)} foot ${Math.round(r.m.foot)} verify ${r.qa.verify.length} lints ${r.qa.lints.length} → ${r.pngPath}`);
     }
 
     // 4. the seed sweep
@@ -587,6 +600,15 @@ async function main() {
       const over = base.bodyHtml.replace('<div style="flex:0 0 auto"><div class="fam-kinblock"', '<div style="flex:0 0 auto;margin-top:-80px"><div class="fam-kinblock"');
       ok(over !== base.bodyHtml, 'SP2 needle matched nothing');
       expectFail('SP2 the word block ridden into the stage', sparseFails((await renderBody(over, 'K-370-gate-sp2')).m, 'SP2'), /OVERLAP/); }
+    // FB1 / FB2 — the base FILL, both ways: the growing stage->words gap made rigid ends high at 814; an over-tall stage overruns at 677
+    { const ctlF = await renderBody(base.bodyHtml, 'K-370-gate-fill-control', CHROME.one);
+      ok(baseFillFails(ctlF.m, 'FB control', 'one').length === 0, `FB control fails: ${baseFillFails(ctlF.m, 'FB control', 'one').join(' | ')}`);
+      const rigid = base.bodyHtml.split('flex:1 1 ').join('flex:0 0 ');
+      ok(rigid !== base.bodyHtml, 'FB1 needle matched nothing');
+      expectFail('FB1 the stage->words gap does not grow (814 chrome)', baseFillFails((await renderBody(rigid, 'K-370-gate-fb1', CHROME.one)).m, 'FB1', 'one'), /FILL — the content ends at/);
+      const tall = base.bodyHtml.replace(/min-height:12px/, 'min-height:80px').replace(/flex:1 1 12px/, 'flex:1 1 80px');
+      ok(tall !== base.bodyHtml, 'FB2 needle matched nothing');
+      expectFail('FB2 the stack too tall for the 677 chrome', baseFillFails((await renderBody(tall, 'K-370-gate-fb2', CHROME.four)).m, 'FB2', 'four'), /runs [0-9]+ px past the body/); }
     // T1 — the orphan guard is page.css `.ws-title { text-wrap: balance }` (the NBSPs were removed: they leaked into SEO strings).
     //      Poison = the same title with the balance rule overridden → must ORPHAN; control = shipped CSS → no orphan; the title carries no U+00A0.
     { ok(!/ /.test(TYPE.i18n.en.title), 'T1: the title carries a U+00A0 (it would leak into SEO strings)');
@@ -629,14 +651,14 @@ const APPARATUS = { tree: B('trees?'), box: B('box(?:es)?'), number: B('numbers?
 /** what each face draws (the DOM proof that the named apparatus is on THIS page) */
 const PRESENT = {
   generations: { row: '[data-lcs-genrow-band]', box: '[data-lcs-genbox]', word: '[data-lcs-genword]', picture: 'svg[data-lcs-genrail] svg[data-lcs-figure]', number: '[data-lcs-gen-disc]' },
-  'trace-words': { tree: '[data-lcs-tree]', number: '[data-lcs-disc]', word: 'svg[data-lcs-prim="trace-word"]', line: 'svg[data-lcs-prim="trace-word"]' },
+  'trace-words': { tree: '[data-lcs-tree]', number: '[data-lcs-disc]', word: '[data-lcs-bank-lane] svg[data-lcs-prim="trace-word"]', line: '[data-lcs-trace-row] svg[data-lcs-prim="trace-word"]' },
   'tree-clues': { tree: '[data-lcs-tree]', clue: '[data-lcs-clue-path]', name: '[data-lcs-plate-for]', box: '[data-lcs-namebox]' },
   'relation-riddles': { riddle: '[data-lcs-riddle]', word: '[data-lcs-bank-word]', box: '[data-lcs-bank-banner]', line: '[data-lcs-riddle-path] svg[data-lcs-prim="writing-row"]' },
   'tree-template': { frame: '[data-lcs-mat]', name: 'svg[data-lcs-nameline]', line: 'svg[data-lcs-nameline]' },
 };
 const FLOOR_SEL = {
   generations: ['[data-lcs-genword]', '[data-lcs-genbox]'],
-  'trace-words': ['[data-lcs-trace-row]'],
+  'trace-words': ['[data-lcs-trace-row]', '[data-lcs-bank-lane]'],
   'tree-clues': ['[data-lcs-plate-for]'],
   'relation-riddles': ['[data-lcs-riddle-path]', '[data-lcs-bank-word]'],
   'tree-template': ['svg[data-lcs-nameline]', '[data-lcs-mat]'],
@@ -825,16 +847,31 @@ async function faceGate({ page, renderBody, expectFail, expectThrow, ok, CHROME,
     expectFail('FILL2 rows too tall for the 677 chrome', fillFails(await measureFace('generations'), 'FILL2', 'four'), /runs [0-9]+ px past the body/); }
   // F2
   { const f = F['trace-words'];
-    const lanes = [...ctl['trace-words'].bodyHtml.matchAll(/<svg [^>]*data-lcs-prim="trace-word"[\s\S]*?<\/svg>/g)].map((m) => m[0]);
-    ok(lanes.length === 4, `F2-PA needle: ${lanes.length} lanes`);
-    const swapped = ctl['trace-words'].bodyHtml.replace(lanes[0], '\u0001').replace(lanes[1], lanes[0]).replace('\u0001', lanes[1]);
-    expectFail('F2-PA two lanes swapped (the word no longer names the numbered person)', (await rb(swapped, 'K-370-f2-pa', f)).v, /the lane traces/);
+    const C2 = ctl['trace-words'].bodyHtml;
+    const answers = [...C2.matchAll(/data-lcs-trace-row="" data-lcs-badge="\d+" data-lcs-answer="([^"]+)"/g)].map((m) => m[1]);
+    ok(answers.length >= 4, `F2-PA needle: ${answers.length} lines`);
+    const swapped = swapAttr(C2, /data-lcs-answer="[^"]+"(?= style="flex:0 0 \d+px;display:flex;align-items:flex-start)/g, 0, 1).replace('\u0001', `data-lcs-answer="${answers[1]}"`).replace('\u0002', `data-lcs-answer="${answers[0]}"`);
+    ok(swapped !== C2, 'F2-PA needle matched nothing');
+    expectFail('F2-PA two lines swap their answers (the word no longer names the numbered person)', (await rb(swapped, 'K-370-f2-pa', f)).v, /the line answers/);
+    // review round 1 — each must FAIL for its own reason
+    const unb = buildFace(f, { unbadge: ctl['trace-words'].meta.grandSide + 'M' });
+    expectFail('F2-PC an elder drawn with no number', (await rb(unb.bodyHtml, 'K-370-f2-pc', f)).v, /drawn with no number/);
+    const level = buildFace(f, { bank: (rows) => rows.map((r) => r.answer) });
+    expectFail('F2-PD the trace panel in line order (no lookup needed)', (await rb(level.bodyHtml, 'K-370-f2-pd', f)).v, /level with its own line/);
+    const firstRowLane = /(<div class="fam-trace-row"[^>]*>[\s\S]*?<div style="flex:0 0 321px;display:flex">)(<svg [\s\S]*?<\/svg>)/.exec(C2);
+    const bankLane = /data-lcs-bank-lane=""[^>]*><svg [\s\S]*?<\/svg>/.exec(C2);
+    ok(firstRowLane && bankLane, 'F2-PE needle');
+    const printed = C2.replace(firstRowLane[0], firstRowLane[1] + bankLane[0].replace(/^[^>]*>/, ''));
+    expectFail('F2-PE a word printed beside its number (the old page)', (await rb(printed, 'K-370-f2-pe', f)).v, /not an EMPTY trio/);
     const small = buildFace(f, {}, { glyphH: 30 });
     expectFail('F2-PB a lane at glyphH 30 (the silent-shrink floor)', (await rb(small.bodyHtml, 'K-370-f2-pb', f)).v, /glyphH \d+(\.\d)? < 40/);
     const noTrace = JSON.parse(JSON.stringify(en)); for (const k of ['mom', 'dad', 'sister', 'brother', 'grandma', 'grandpa']) noTrace.words[k].text = noTrace.words[k].text + 'œ';
     expectThrow('F2-REF a locale whose tree words are not traceable REFUSES (never a filler)', () => buildFace(f, {}, {}, 'f2ref', noTrace), /traceable family words on the tree .* refuse/); }
   // F3
   { const f = F['tree-clues'];
+    // review round 1 — the older sibling drawn the same size as the ego (the maggiore / grand frère clue unreadable)
+    const same = buildFace(f, { sameSize: true });
+    expectFail('F3-PS the older sibling drawn the same size as the ego', (await rb(same.bodyHtml, 'K-370-f3-ps', f)).v, /not taller than the ego/);
     const b = buildFace(f, { empty: (ps) => [ps.find((p) => p.path === ps.find((q) => /^[MF][ZB]$/.test(q.path)).path[0] + 'M'), ps.find((p) => p.path === ps.find((q) => /^[MF][ZB]$/.test(q.path)).path[0] + 'F'), ps.find((p) => /^[ZB]$/.test(p.path)), ps.find((p) => /^[MF][ZB]$/.test(p.path))] });
     expectFail('F3-PA empty plates in four different (age, sex) cells', (await rb(b.bodyHtml, 'K-370-f3-pa', f)).v, /no same-\(age, sex\) pair/);
     const boxes = [...ctl['tree-clues'].bodyHtml.matchAll(/data-lcs-answer="([^"]+)" data-lcs-namebox=""/g)];
@@ -853,6 +890,9 @@ async function faceGate({ page, renderBody, expectFail, expectThrow, ok, CHROME,
     const noAunt = ctl['relation-riddles'].bodyHtml.replace(/<span class="ws-bankword" data-lcs-bank-word="aunt"[^>]*>[^<]*<\/span>/, '');
     ok(noAunt !== ctl['relation-riddles'].bodyHtml, 'F4-PB needle');
     expectFail('F4-PB an answer missing from the bank', (await rb(noAunt, 'K-370-f4-pb', f)).v, /is not in the bank/);
+    // review round 1 — the old page: two bank words that answer no riddle
+    const extra = buildFace(f, { withDistractors: true });
+    expectFail('F4-PD bank words that answer no riddle (the distractors printed)', (await rb(extra.bodyHtml, 'K-370-f4-pd', f)).v, /answer no riddle on the page/);
     const tree = ctl['relation-riddles'].bodyHtml.replace('<div data-lcs-riddles=""', `<svg width="10" height="10"><line x1="1" y1="1" x2="1" y2="9" stroke="${tokens.color.teal}" data-lcs-conn="drop"/></svg><div data-lcs-riddles=""`);
     expectFail('F4-PC a tree drawn on the riddle page', (await rb(tree, 'K-370-f4-pc', f)).v, /a tree on the riddle page/);
     { const b = JSON.parse(JSON.stringify(en)); b.strings['relation-riddles'].instruction = 'Read each riddle and write the right family word from the box on the line.';
@@ -865,6 +905,13 @@ async function faceGate({ page, renderBody, expectFail, expectThrow, ok, CHROME,
     const conn = h.replace('<line x1="0" y1="510"', `<line x1="${a[0] + a[2] / 2}" y1="${a[1] + a[3] / 2}" x2="${b2[0] + b2[2] / 2}" y2="${b2[1] + b2[3] / 2}" stroke="${tokens.color.teal}" stroke-width="3"/><line x1="0" y1="510"`);
     ok(conn !== h, 'PR6 needle');
     expectFail('PR6 F5 with one connector between two mats', (await rb(conn, 'K-370-pr6', f)).v, /a line joins two mats/);
+    // review round 1 — the old page's two defects, each for its own reason
+    const twig = h.replace('<line x1="0" y1="510"', `<path d="M 0 0" data-lcs-branch="" data-lcs-pts="${[[318, 498, 8], [290, 490, 6], [262, 470, 4], [214, 452, 3]].map((q) => q.join(',')).join(';')}"/><line x1="0" y1="510"`);
+    ok(twig !== h, 'F5-TW needle');
+    expectFail('F5-TW a bare twig that holds no frame', (await rb(twig, 'K-370-f5-tw', f)).v, /an orphan branch/);
+    const oneLine = h.replace(/<svg x="[^"]+" y="[^"]+" data-lcs-nameline="" data-lcs-me-line=""[\s\S]*?<\/svg>/, '');
+    ok(oneLine !== h, 'F5-NL needle');
+    expectFail('F5-NL a frame with no name line (13 frames, 12 lines)', (await rb(oneLine, 'K-370-f5-nl', f)).v, /frames but \d+ name lines/);
     const word = h.replace('<line x1="0" y1="510"', `<text x="100" y="300" font-size="18" fill="${tokens.color.ink}">mom</text><line x1="0" y1="510"`);
     expectFail('F5-PB a kin word printed on the template', (await rb(word, 'K-370-f5-pb', f)).v, /the template prints|kin word "mom"/);
     const br = h.replace('<line x1="0" y1="510"', `<path d="M 0 0" data-lcs-branch="" data-lcs-pts="${a[0] - 10},${a[1] + 40},8;${a[0] + a[2] + 10},${a[1] + 40},8"/><line x1="0" y1="510"`);

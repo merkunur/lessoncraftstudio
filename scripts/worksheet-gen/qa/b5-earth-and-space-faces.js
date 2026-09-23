@@ -265,6 +265,8 @@ async function faceSection({ page, ok, judge, renderInstance, OUT, LONG, quick, 
     judge('PR6 F3 pin at angle 80 (primitive)', m ? [m] : [], /within 40° of the day\/night line/);
   }
   await fp('PR7 F3 night half shaded', 'day-and-night-model', { cfg: { poison: { shade: true } } }, /answer printed — a night half/);
+  // EL1 (landing round 1, 2026-09-23): the Earth disc without its label (the shipped face is the control)
+  await fp('EL1 F3 the Earth disc unlabelled', 'day-and-night-model', { cfg: { poison: { noEarthLabel: true } } }, /the Earth is not labelled/);
   await fp('PR8 F4 orbit disc 6 with a ring', 'planets-in-order', { patch: (h) => h.replace(/(data-lcs-slot="6"><circle [^>]*\/>)/, '$1<ellipse cx="18" cy="18" rx="20" ry="4" fill="none" stroke="#8A8276" stroke-width="2"/>') }, /slot discs not identical/);
   await fp('PR9 F4 bank = the answer order', 'planets-in-order', { cfg: { poison: { bank: M.PLANETS.slice() } } }, /answer order \/ its reverse \(tell\)/);
   {

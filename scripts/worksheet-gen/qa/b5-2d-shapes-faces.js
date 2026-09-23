@@ -35,7 +35,7 @@
  * D. POISON — each must FAIL for its OWN reason; the untouched face is the control:
  *      PR2 an F1 rectangle row containing a square · PR3F two data-lcs-kind stamps swapped (stays GREEN) ·
  *      PR6 F2 clock resolved to around the house/clock · PR8 an F1 gap at 0.10 · PR9 an F4 riddle forced
- *      to 4 lines · PR10 an F3 ruling row with a starter · PR12 an F5 rectangle card given (1,2) (render) +
+ *      to 4 lines · PR10 an F3 ruling row with a starter · PR12 an F5 rectangle card given (2,0) (render) +
  *      PR12g the same at the config (spec guard) · SP1-SP5 slack moved BETWEEN blocks (one per face) ·
  *      OV1 OV4 a block riding into its neighbour · AT1-AT4 the per-page answer tells (F1 true figures first,
  *      F2 circles all left, F3 bank in answer order, F4 every answer in slot 1) · AP1-AP5 an instruction
@@ -218,7 +218,7 @@ function checkF3(html, cfg, block, classifySvg) {
 function checkF4(html, cfg, block, loc) {
   const f = [];
   const cards = cardsOf(html);
-  const slots = [], kinds = [];
+  const slots = [], kinds = [], facts = [];
   const leak = [...Object.values(block.names), ...Object.values(block.inflections || {}).flat()];
   cards.forEach((c, i) => {
     const tag = `card ${i + 1}`;
@@ -232,11 +232,17 @@ function checkF4(html, cfg, block, loc) {
     const tags = [...c.matchAll(/data-lcs-tag="([^"]+)"/g)].map((m) => m[1]);
     if (tags.length !== cfg.tags) f.push(`${tag}: ${tags.length} tags`);
     if (tags.filter((x) => x === k).length !== 1) f.push(`${tag}: ${tags.filter((x) => x === k).length} tags name ${k}`);
-    if (k === 'square' && tags.includes('rectangle')) f.push(`${tag}: a square riddle offers a rectangle tag`);
+    // landing round 1: the confusable neighbour is always offered (square <-> rectangle)
+    if (k === 'square' && !tags.includes('rectangle')) f.push(`${tag}: neighbour — a square riddle does not offer rectangle`);
+    if (k === 'rectangle' && !tags.includes('square')) f.push(`${tag}: neighbour — a rectangle riddle does not offer square`);
+    if (want && want.clue) facts.push(`${k}:${want.clue}`);
     slots.push(tags.indexOf(k));
   });
   for (const k of CORE) if (!kinds.includes(k)) f.push(`no ${k} riddle`);
   if (new Set(cards.map((c) => attr(c, 'data-lcs-riddle'))).size !== cards.length) f.push('a riddle twice');
+  // <= 1 riddle per shape-FACT per page (the fact = the bank riddle's clue: both riddles of a kind state one fact)
+  for (const x of new Set(facts)) if (facts.filter((y) => y === x).length > 1) f.push(`fact twice — "${x}" is stated by ${facts.filter((y) => y === x).length} riddles on one page`);
+  if (new Set(kinds).size < Math.min(4, kinds.length)) f.push(`balance — ${new Set(kinds).size} distinct answers on ${kinds.length} cards (< 4)`);
   const counts = {}; for (const s of slots) counts[s] = (counts[s] || 0) + 1;
   if (Object.keys(counts).length < Math.min(cfg.tags, slots.length) || Math.max(...Object.values(counts)) > Math.floor(cfg.slotMaxShare * slots.length + 1e-9)) f.push(`slot spread: ${JSON.stringify(counts)}`);
   return { findings: f, slots };
@@ -267,6 +273,8 @@ function checkF5(html, cfg) {
     const L = [1, 2, 3, 4].map((j) => (+line[j] - m0) / pitch);
     if (L.some((x) => Math.abs(x - Math.round(x)) > 1e-6 || x < 0 || x > n - 1)) { f.push(`${tag}: the given side does not join two lattice points`); return; }
     const p0 = [L[0], L[1]], p1 = [L[2], L[3]];
+    // landing round 1: at K every given side is axis-aligned (a slanted start asks for a tilted shape — above K)
+    if (!cfg.tilted && Math.abs(p1[0] - p0[0]) > 1e-6 && Math.abs(p1[1] - p0[1]) > 1e-6) f.push(`${tag}: tilted given — the given side (${p1[0] - p0[0]},${p1[1] - p0[1]}) is not axis-aligned (K)`);
     if (k === 'square' && !fitsAsLattice(p0, p1, 1, n)) f.push(`${tag}: no square completion fits`);
     if (k === 'rectangle') { if (fitsAsLattice(p0, p1, 1, n)) f.push(`${tag}: square completion exists on the rectangle card`); if (!fitsAsLattice(p0, p1, 0.5, n) && !fitsAsLattice(p0, p1, 2, n)) f.push(`${tag}: no rectangle completion fits`); }
   });
@@ -313,6 +321,8 @@ async function measureRender(page) {
     // containers in column flow: body top → first, consecutive, last → body bottom
     const cols = [];
     for (const b of boxes) { let c = cols.find((x) => Math.abs(x.l - b.l) < 8); if (!c) { c = { l: b.l, list: [] }; cols.push(c); } c.list.push(b); }
+    // a box spanning several grid columns (G1-383's full-width fifth riddle card) belongs to EVERY column it covers
+    for (const b of boxes) for (const c of cols) if (!c.list.includes(b) && c.l > b.l + 8 && c.l < b.r - 8) c.list.push(b);
     for (const c of cols) {
       c.list.sort((a, b) => a.t - b.t);
       bands.push({ where: 'body top → first container', px: c.list[0].t - body.t });
@@ -483,11 +493,27 @@ async function faceGate({ page, ok, judge, fails, pngs, validateBank, syntheticB
   }
   // PR12 — an F5 rectangle card given (1,2): render (past the guard) and config (the guard)
   {
-    const t = rewire('K-372', en, (h) => mapCards(h, (p) => (attr(p, 'data-lcs-dotcard') === 'rectangle' ? p.replace(/<div class="s2d-stage"[\s\S]*?<\/svg><\/div><\/div>/, C5.dotCard({ kind: 'rectangle', label: en.names.rectangle, given: [1, 1, 2, 3] })) : p)));
-    judge('PR12 an F5 rectangle card given (1,2) (render)', await gateOf(t, 'PR12', { id: 'K-372' }), /square completion exists/);
+    const t = rewire('K-372', en, (h) => mapCards(h, (p) => (attr(p, 'data-lcs-dotcard') === 'rectangle' ? p.replace(/<div class="s2d-stage"[\s\S]*?<\/svg><\/div><\/div>/, C5.dotCard({ kind: 'rectangle', label: en.names.rectangle, given: [1, 1, 3, 1] })) : p)));
+    judge('PR12 an F5 rectangle card given (2,0) (render)', await gateOf(t, 'PR12', { id: 'K-372' }), /square completion exists/);
     let msg = null;
-    try { TYPES['K-372']._buildWith(en, { ...TYPES['K-372'].difficulty[2], given: [null, null, [1, 2], [1, 2]] }, { locale: 'en' }, { rng: makeRng('pr12g') }); } catch (e) { msg = e.message; }
-    judge('PR12g an F5 rectangle card given (1,2) (config guard)', msg ? [msg] : [], /no start on the 6-lattice lets a rectangle/);
+    try { TYPES['K-372']._buildWith(en, { ...TYPES['K-372'].difficulty[2], given: [null, null, [3, 0], [2, 0]] }, { locale: 'en' }, { rng: makeRng('pr12g') }); } catch (e) { msg = e.message; }
+    judge('PR12g an F5 rectangle card given (2,0) (config guard)', msg ? [msg] : [], /no start on the 6-lattice lets a rectangle/);
+  }
+  // RD1-RD3 + DD1 — landing round 1 (2026-09-23): each FAILS for its own reason; the shipped faces are the controls
+  {
+    const t1 = rewire('G1-383', en, (h) => mapCards(h, (p) => ((attr(p, 'data-lcs-riddle') || '').startsWith('square:') ? p.replace(/data-lcs-tag="rectangle"/, 'data-lcs-tag="hexagon"').replace(new RegExp('>' + en.names.rectangle + '<'), '>' + en.names.hexagon + '<') : p)));
+    judge('RD1 F4 a square riddle without the rectangle neighbour', await gateOf(t1, 'RD1', { id: 'G1-383' }), /neighbour — a square riddle does not offer rectangle/);
+    const t2 = rewire('G1-383', en, (h) => {
+      const ci = +((/data-lcs-riddle="circle:(\d)"/.exec(h) || [])[1] || 0), other = 1 - ci;
+      return h.replace(/(data-lcs-riddle=")hexagon:\d("[\s\S]*?<p data-lcs-riddle-text[^>]*>)[^<]*</, (m, a, b) => `${a}circle:${other}${b}${en.riddles.circle[other].text}<`);
+    });
+    const f2 = await gateOf(t2, 'RD2', { id: 'G1-383' });
+    judge('RD2 F4 the circle fact on two cards', f2, /fact twice — "circle:round"/);
+    const t3 = rewire('K-372', en, (h) => mapCards(h, (p) => (attr(p, 'data-lcs-dotcard') === 'rectangle' ? p.replace(/<div class="s2d-stage"[\s\S]*?<\/svg><\/div><\/div>/, C5.dotCard({ kind: 'rectangle', label: en.names.rectangle, given: [0, 0, 2, 4] })) : p)));
+    judge('DD1 F5 a tilted given side at K (render)', await gateOf(t3, 'DD1', { id: 'K-372' }), /tilted given/);
+    let msg = null;
+    try { TYPES['K-372']._buildWith(en, { ...TYPES['K-372'].difficulty[2], given: [null, null, [1, 2], [0, 4]] }, { locale: 'en' }, { rng: makeRng('dd1g') }); } catch (e) { msg = e.message; }
+    judge('DD1g F5 a tilted given side at K (config guard)', msg ? [msg] : [], /TILTED side/);
   }
   // SP1-SP5 — the slack moved BETWEEN blocks at the one-line chrome (814)
   const SP = [

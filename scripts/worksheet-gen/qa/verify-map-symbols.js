@@ -75,6 +75,21 @@ async function measure(page, bodies, tag) {
   }, MS.SYMBOL_IDS);
 }
 
+/** landing round 1 (2026-09-23): no symbol may carry two straight strokes that CROSS — an X over a disc reads as
+ *  'no' / 'wrong' / 'forbidden' (the old tent). Pure markup: every <line> pair, proper segment intersection. */
+function crossedStrokes(bodies) {
+  const f = [];
+  for (const [id, b] of Object.entries(bodies)) {
+    const L = [...b.matchAll(/<line x1="([-\d.]+)" y1="([-\d.]+)" x2="([-\d.]+)" y2="([-\d.]+)"/g)].map((m) => m.slice(1).map(Number));
+    const cr = (a, b, c) => (b[0] - a[0]) * (c[1] - a[1]) - (b[1] - a[1]) * (c[0] - a[0]);
+    for (let i = 0; i < L.length; i++) for (let j = i + 1; j < L.length; j++) {
+      const [p, q, r, s] = [[L[i][0], L[i][1]], [L[i][2], L[i][3]], [L[j][0], L[j][1]], [L[j][2], L[j][3]]];
+      if (cr(p, q, r) * cr(p, q, s) < 0 && cr(r, s, p) * cr(r, s, q) < 0) f.push(`${id}: two straight strokes cross (an X reads as 'no' / 'wrong')`);
+    }
+  }
+  return f;
+}
+
 function judgeSet(m) {
   const f = [];
   const ids = MS.SYMBOL_IDS;
@@ -116,6 +131,7 @@ async function main() {
   const judge = (name, f, re) => { total++; const k = f.some((x) => re.test(x)); log.push(`  ${name}: ${k ? 'KILLED' : f.length ? 'WRONG REASON — ' + f.slice(0, 2).join(' | ') : 'SILENT'}`); if (k) killed++; };
   let pngs = [];
   await H.withBrowser(async (page) => {
+    crossedStrokes(bodies).forEach((x) => ok(false, 'node: ' + x)); assertions++;
     const m = await measure(page, bodies, 'control');
     const { f, pairs } = judgeSet(m);
     f.forEach((x) => ok(false, 'render: ' + x));
@@ -132,6 +148,9 @@ async function main() {
     // PR4 tent as a coral triangle (a side view)
     const p4 = await measure(page, { ...bodies, tent: `<path d="M22 6 L40 38 L4 38 Z" fill="${T.coral}" stroke="${T.ink}" stroke-width="2"/>` }, 'PR4');
     judge('PR4 tent as a coral triangle', judgeSet(p4).f, /tent: stands on a flat base/);
+    // PR5 (landing round 1): the OLD tent — a coral disc with a white seam X
+    const oldTent = `<circle cx="22" cy="22" r="14" fill="${T.coral}" stroke="${T.ink}" stroke-width="2"/><line x1="12.1" y1="12.1" x2="31.9" y2="31.9" stroke="${T.white}" stroke-width="2.5"/><line x1="31.9" y1="12.1" x2="12.1" y2="31.9" stroke="${T.white}" stroke-width="2.5"/>`;
+    judge('PR5 the old tent (white seam X)', crossedStrokes({ ...bodies, tent: oldTent }), /tent: two straight strokes cross/);
     if (!process.argv.includes('--no-sheet')) {
       const cell = (id, px) => `<figure style="margin:6px;display:inline-flex;flex-direction:column;align-items:center;gap:4px"><div style="background:#fff;padding:4px;border:1px solid #C8BFAE">${MS.mapSymbol({ id, px }).svg}</div><figcaption>${id} ${px}</figcaption></figure>`;
       const body = [40, 44, 48, 96].map((px) => `<div>${MS.SYMBOL_IDS.map((id) => cell(id, px)).join('')}</div>`).join('');

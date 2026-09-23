@@ -80,11 +80,11 @@ const ANIMAL_LIFE_CYCLES = {
       },
       'G2-365': {
         title: 'Label the Butterfly Life Cycle',
-        instruction: 'Write each name from the word bank on the line under its picture, and cross out the one name that does not belong.',
+        instruction: 'Write the four stage names from the word bank on the lines under their pictures, then cross out the name that does not belong.',
       },
       'G2-366': {
         title: 'Metamorphosis: Which Animal Will It Become?',
-        instruction: 'Look at each young animal and write its letter in a box under the grown-up animal it will become.',
+        instruction: 'Look at each stage and write its letter in a box under the animal it will grow into; some boxes stay empty.',
       },
       'G3-393': {
         title: 'Butterfly and Frog Life Cycles Compared',
@@ -92,7 +92,7 @@ const ANIMAL_LIFE_CYCLES = {
       },
       'G1-390': {
         title: 'What Comes Next? Butterfly, Frog and Ladybug',
-        instruction: 'Look at the first picture in each row and circle the one that comes right after it.',
+        instruction: 'Look at the first picture in each row and circle the one that comes right after it; after the grown-up, the cycle starts again.',
       },
     },
   },

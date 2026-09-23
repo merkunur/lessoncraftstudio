@@ -39,7 +39,9 @@
  *   PC  stem slot B dragged to (60,330) (its thread crosses the seed's) -> "threads ... cross"
  *   PD  an off-palette hex in the plant                              -> "off-palette"
  *   PE  coral painted on a petal                                     -> "coral in the plant"
- *   PF  the fruit anchor moved onto seed 4 (not the solid tip)       -> "outside its shape"
+ *   PF  the fruit anchor moved onto seed 4 (not the pod wall)        -> "outside its shape"
+ *   PG  the fruit ring back on the solid pod tip (reads as a seed)   -> "wholly inside the pod"
+ *   PH  the fruit ring on the wall beside seed 2 (one organ, 12 u)   -> "share the pod"
  */
 'use strict';
 const tokens = require('../primitives/_tokens.js');
@@ -133,6 +135,7 @@ function bbox(list) {
 }
 const segCross = (a, b) => { const d = (p, q, r) => (q[0] - p[0]) * (r[1] - p[1]) - (q[1] - p[1]) * (r[0] - p[0]); return d(a[0], a[1], b[0]) * d(a[0], a[1], b[1]) < 0 && d(b[0], b[1], a[0]) * d(b[0], b[1], a[1]) < 0; };
 const segDist = (p, s) => distPoly(p, s);
+const POD_RING_SEP = 32;   // 4 ring radii: two rings on one organ must read as two places
 
 /* ---------------------------------------------------------------- plantFigure checks */
 /** Which drawn shapes may hold part `p`'s anchor (parsed from the markup). */
@@ -173,6 +176,18 @@ function checkFigure(h, picks, opts = {}) {
     if (part === 'root') ok(a[1] > P.SOIL_Y, `${tag}: root anchor above the soil line (y ${a[1]})`);
     else ok(a[1] < P.SOIL_Y, `${tag}: ${part} anchor below the soil line (y ${a[1]})`);
     ok(Math.abs(r.anchors[part].x - a[0] * scale) < 0.05 && Math.abs(r.anchors[part].y - a[1] * scale) < 0.05, `${tag}: returned px anchor ${part} ≠ ring x scale`);
+  }
+  // ONE ORGAN, TWO TAGS (landing review 2026-09-23): the pod carries the fruit AND the seed tag. Rings that both sit
+  // inside the pod skin must be >= POD_RING_SEP units apart, and the FRUIT ring must cross the pod's outline (part of it
+  // outside the skin) — a ring wholly inside the pod reads as one more seed (the old solid-tip ring did, in 6 locales).
+  {
+    const skin = tagsOf(group(svg, 'data-lcs-part="fruit"') || '', 'path').filter((t) => attrOf(t, 'data-lcs-pod') === 'skin').flatMap((t) => pathPolys(attrOf(t, 'd'))).map((p) => p.concat([p[0]]));
+    const inPod = Object.entries(ringOf).filter(([, a]) => skin.some((poly) => inPoly(a, poly)));
+    for (let i = 0; i < inPod.length; i++) for (let j = i + 1; j < inPod.length; j++) {
+      const dd = Math.hypot(inPod[i][1][0] - inPod[j][1][0], inPod[i][1][1] - inPod[j][1][1]);
+      ok(dd >= POD_RING_SEP, `${tag}: rings ${inPod[i][0]} and ${inPod[j][0]} share the pod ${dd.toFixed(1)} units apart (< ${POD_RING_SEP})`);
+    }
+    if (ringOf.fruit && skin.length) { const edge = Math.min(...skin.map((poly) => distPoly(ringOf.fruit, poly))); ok(edge < P.RING_R - 1, `${tag}: the fruit ring sits wholly inside the pod (${edge.toFixed(1)} units from its outline; it reads as a seed)`); }
   }
   // threads + tags
   const threads = tagsOf(svg, 'line').filter((t) => attrOf(t, 'data-lcs-thread')).map((t) => ({ p: attrOf(t, 'data-lcs-thread'), s: [[+attrOf(t, 'x1'), +attrOf(t, 'y1')], [+attrOf(t, 'x2'), +attrOf(t, 'y2')]] }));
@@ -284,7 +299,7 @@ function main() {
   throws(() => P.plantFigure({ tags: [{ part: 'leaf', n: 1 }, { part: 'leaf', n: 2 }] }), /tagged twice/, 'a repeated part');
 
   // poisons
-  const log = []; let killed = 0; const TOTAL = 6;
+  const log = []; let killed = 0; const TOTAL = 8;
   const own = (fn) => { const b = fails.length, a = assertions; fn(); const out = fails.splice(b); assertions = a; return out; };
   const judge = (name, f, re) => { const k = f.some((x) => re.test(x)); log.push(`  ${name}: ${k ? 'KILLED' : f.length ? 'WRONG REASON — ' + f.slice(0, 2).join(' | ') : 'SILENT'}`); if (k) killed++; };
   const withAnchor = (part, i, patch, fn) => { const A = P.ANCHORS[part][i], save = { ...A, slot: { ...A.slot } }; Object.assign(A, patch.a || {}); Object.assign(A.slot, patch.slot || {}); try { return fn(); } finally { Object.assign(A, save); A.slot = save.slot; } };
@@ -294,6 +309,8 @@ function main() {
   judge('PD off-palette', own(() => checkFigure(600, combos[0], { doctor: (s) => s.replace('fill="#DDEBE8"', 'fill="#88CC44"') })), /off-palette fill #88CC44/);
   judge('PE coral petal', own(() => checkFigure(600, combos[0], { doctor: (s) => s.replace(/<ellipse[^>]*data-lcs-petal="1"[^>]*>/, (t) => t.replace('fill="#FFFFFF"', 'fill="#F2784B"')) })), /coral in the plant/);
   judge('PF fruit ring on seed 4', withAnchor('fruit', 0, { a: { x: 100.4, y: 325.2 } }, () => own(() => checkFigure(600, combos[0]))), /anchor fruit .* outside its shape/);
+  judge('PG fruit ring back on the solid tip', withAnchor('fruit', 0, { a: { x: 99, y: 348 }, slot: { x: 24, y: 352 } }, () => own(() => checkFigure(600, combos[0]))), /fruit ring sits wholly inside the pod/);
+  judge('PH fruit ring beside seed 2', withAnchor('fruit', 0, { a: { x: 93, y: 290 } }, () => own(() => checkFigure(600, combos[0]))), /share the pod .* apart/);
   const ctl = own(() => checkFigure(600, combos[5])); log.push(`  control (real primitive): ${ctl.length} findings`); if (ctl.length) killed = -1;
 
   if (process.argv.includes('--table')) console.log('sizes at h 600:', JSON.stringify(sz, (k, v) => (typeof v === 'number' ? +v.toFixed(1) : v)));

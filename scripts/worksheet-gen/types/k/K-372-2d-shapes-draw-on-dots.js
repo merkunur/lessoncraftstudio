@@ -4,7 +4,7 @@ const base = require('./K-368-2d-shapes.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"mode":"dot-draw","cards":4,"kinds":["triangle","square","square","rectangle"],"given":[null,null,[1,2],[2,4]],"pitch":46,"n":6,"pillPx":22,"cols":2,"rows":2} };
+const D = { ...base.difficulty[2], ...{"mode":"dot-draw","cards":4,"kinds":["triangle","square","square","rectangle"],"given":[null,null,[3,0],[0,4]],"pitch":46,"n":6,"pillPx":22,"cols":2,"rows":2} };
 module.exports = {
   ...base,
   id: 'K-372',

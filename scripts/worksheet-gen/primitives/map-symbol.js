@@ -19,7 +19,10 @@
  *   pond        closed Catmull-Rom blob through the 7 design points, white, blob with waves
  *               teal 2.5; two wave strokes teal 1.5
  *   bench       rect x 4..40 y 17..27 r 3 ink; slats y 20.5 / 23.5 white 1.2 darkest thin bar
- *   tent        circle r 14 coral, ink 2; the seam X white 2.5             mid-grey disc, white X
+ *   tent        a dome seen from above: 6 panels alternating coral /       mid-grey disc of alternating
+ *               coralSoft in a circle r 14, ink 2, the pole top r 2.2 ink   light / dark panels, no X
+ *               (landing round 1, 2026-09-23: the old white seam X on a coral disc read as a
+ *               'no' / 'wrong' mark — the fr/en/de panels; verify-map-symbols now fails any crossed strokes)
  *   flowerBed   centre r 7 tealSoft teal 1.5; 6 coral dots r 4.5 at r 15    ring of dots
  *   bridge      (key form) tealSoft river stub y 15..29; two teal 3 rails    ][ over a light band
  *               y 12 / 32 x 9..35 with end flares
@@ -135,10 +138,14 @@ function symbolBody(id) {
       return el('rect', { x: 4, y: 17, width: 36, height: 10, rx: 3, ry: 3, fill: T.ink }) +
         el('line', { x1: 7, y1: 20.5, x2: 37, y2: 20.5, stroke: T.white, 'stroke-width': 1.2 }) +
         el('line', { x1: 7, y1: 23.5, x2: 37, y2: 23.5, stroke: T.white, 'stroke-width': 1.2 });
-    case 'tent':
-      return el('circle', { cx: 22, cy: 22, r: 14, fill: T.coral, stroke: T.ink, 'stroke-width': 2 }) +
-        el('line', { x1: 12.1, y1: 12.1, x2: 31.9, y2: 31.9, stroke: T.white, 'stroke-width': 2.5, 'stroke-linecap': 'round' }) +
-        el('line', { x1: 31.9, y1: 12.1, x2: 12.1, y2: 31.9, stroke: T.white, 'stroke-width': 2.5, 'stroke-linecap': 'round' });
+    case 'tent': {
+      const pt = (a) => [f2(22 + 14 * Math.cos(a * Math.PI / 180)), f2(22 + 14 * Math.sin(a * Math.PI / 180))];
+      return [0, 1, 2, 3, 4, 5].map((i) => {
+        const [x1, y1] = pt(-90 + 60 * i), [x2, y2] = pt(-30 + 60 * i);
+        return el('path', { d: `M22 22 L${x1} ${y1} A14 14 0 0 1 ${x2} ${y2} Z`, fill: i % 2 ? T.coralSoft : T.coral });
+      }).join('') + el('circle', { cx: 22, cy: 22, r: 14, fill: 'none', stroke: T.ink, 'stroke-width': 2 }) +
+        el('circle', { cx: 22, cy: 22, r: 2.2, fill: T.ink });
+    }
     case 'flowerBed':
       return [0, 60, 120, 180, 240, 300].map((a) => {
         const r = (a * Math.PI) / 180;

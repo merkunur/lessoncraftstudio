@@ -197,7 +197,11 @@ async function faceGate({ page, ok, judge, validateBank, quick, OUT }) {
   J('G2-376', 'AT1 F3 answers grouped by prefix', await gateOf(rewire('G2-376', { plan: { rows: ['read', 'fill', 'heat', 'view', 'spell', 'count', 'place', 'behave'] } }), 'AT1'), /grouped by prefix|three consecutive rows/);
   J('G2-376', 'AT2 F3 answers cycling re/pre/mis', await gateOf(rewire('G2-376', { plan: { rows: ['read', 'heat', 'spell', 'fill', 'view', 'count', 'tell', 'pay'] } }), 'AT2'), /cycle with period 3/);
   // SM1 — singer and musician on one page; AN1 — a base brick printing its answer
-  J('G3-398', 'SM1 F4 singer + musician', await gateOf(rewire('G3-398', { plan: { people: ['singer', 'musician', 'baker', 'teacher', 'farmer', 'gardener', 'athlete', 'ballerina'] } }), 'SM1'), /singer and musician on one page/);
+  {
+    // round 1 dropped musician from the en agents (-ian breaks the -er face); the poison puts it back to build the page
+    const b = JSON.parse(JSON.stringify(en)); b.agents.push({ key: 'musician', base: 'music', answer: { any: 'musician' } });
+    J('G3-398', 'SM1 F4 singer + musician', await gateOf(rewire('G3-398', { block: b, plan: { people: ['singer', 'musician', 'baker', 'teacher', 'farmer', 'gardener', 'athlete', 'ballerina'] } }), 'SM1'), /singer and musician on one page/);
+  }
   J('G3-398', 'AN1 F4 a base brick printing its answer', await gateOf(rewire('G3-398', { fn: (h) => h.replace(/(data-lcs-person="baker"[\s\S]*?data-lcs-brick-text="">)bake</, '$1baker<') }), 'AN1'), /the answer "baker" is printed|base brick prints "baker"/);
   // PR9 — an F5 frame with "an {gap}"; DR1 — a course in sentence order
   {
@@ -231,6 +235,60 @@ async function faceGate({ page, ok, judge, validateBank, quick, OUT }) {
   // P20 P21 — F1 bank poisons
   { const b = JSON.parse(JSON.stringify(en)); b.picFamilies.find((x) => x.id === 'sun').lookAlikes.push({ word: 'sunk', whyNotFamily: 'sank' }); judge('P20 F1 look-alike "sunk" contains "sun"', validateBank(b, 'en'), /look-alike "sunk": contains the picture word "sun"/); }
   { const b = JSON.parse(JSON.stringify(en)); b.picFamilies.find((x) => x.id === 'sun').members.push({ word: 'sunflower', kind: 'derived', slot: 'noun-thing' }); judge('P21 F1 member "sunflower"', validateBank(b, 'en'), /"sunflower": a compound-words bank word/); }
+
+  // E. ROUND 1 (2026-09-23, the landing panels' findings) — validateBank rules 16-21 + the node verify, each poisoned
+  // BOTH ways: it must FIRE on the defect and stay QUIET on the correct twin (a rule that fires on correct prose is as broken as a silent one).
+  const clone = (o) => JSON.parse(JSON.stringify(o));
+  const quiet = (name, f, re) => { const hit = f.filter((x) => re.test(x)); ok(!hit.length, `${name}: fired on the CORRECT twin — ${hit.slice(0, 2).join(' | ')}`); rows.push(`round-1 twin ${name}: ${hit.length ? 'FIRED (defect)' : 'quiet'}`); };
+  const V = (fn, loc = 'en') => { const b = clone(en); fn(b); return validateBank(b, loc); };
+  const R1 = TYPES['G2-359'] ? TYPES['G2-359']._rules : require('../types/g2/G2-359-prefixes-suffixes-and-root-words.js')._rules;
+  // rule 16 — a member that drops a letter of the printed root (fr terre / terrain)
+  judge('W16 member "caring" under the root "care"', V((b) => { b.families.find((x) => x.id === 'care').members[0].word = 'caring'; }), /member "caring": does not contain the displayed root "care"/);
+  judge('W16 a stemSigned member no longer exempt ("speelster" class)', V((b) => { const m = b.families.find((x) => x.id === 'play').members[0]; m.word = 'plaier'; m.stemSigned = true; }), /member "plaier": does not contain the displayed root "play"/);
+  quiet('W16 twin: the shipped en families', V(() => {}), /does not contain the displayed root/);
+  // rule 17 — one stem convention per page
+  judge('W17 a bound stem beside free roots', V((b) => { b.families.find((x) => x.id === 'help').rootIsFreeWord = false; }), /families mix free-word roots .* with bound stems \(help\)/);
+  judge('W17 a capitalised bound stem', V((b) => { for (const x of [...b.families, ...b.rootFamilies]) x.rootIsFreeWord = false; b.families[0].root.word = 'Help'; }), /the bound stem "Help" is capitalised/);
+  quiet('W17 twin: every root bound, lower-case', V((b) => { for (const x of [...b.families, ...b.rootFamilies]) x.rootIsFreeWord = false; }), /mix free-word roots|is capitalised \(rule 17\)/);
+  // rule 18 — a family whose every triple shares MORE than the root once accents are folded (es mar / marítimo)
+  {
+    const mar = (words) => ({ id: 'mar', stem: 'mar', rootIsFreeWord: true, root: { word: 'mar' }, signed: true, members: words.map((w) => ({ word: w, kind: 'derived', slot: 'noun-thing' })), lookAlikes: [] });
+    judge('W18 mar: every triple shares "mari" (accent-folded)', V((b) => { b.rootFamilies.push(mar(['marinero', 'marino', 'marítimo', 'marina', 'marisco', 'marinería', 'marinar'])); }), /family mar: no three members share exactly "mar"/);
+    quiet('W18 twin: marea + maremoto give honest triples', V((b) => { b.rootFamilies.push(mar(['marinero', 'marino', 'marítimo', 'marea', 'marisco', 'maremoto', 'marinar'])); }), /family mar: no three members share/);
+    ok(R1.commonPartFolded(['marinero', 'marino', 'marítimo'], 'es') === 'mari' && R1.commonPart(['marinero', 'marino', 'marítimo'], 'es') !== 'mari', 'W18: the folded common part of marinero / marino / marítimo must be "mari" while the unfolded one is not (the fold is what changed)');
+  }
+  // rule 19 — a meaning line quoting the key
+  judge('W19 gloss "to fill a cup again"', V((b) => { b.prefixKey.rows.find((r) => r.word === 'refill').gloss = 'to fill a cup again'; }), /prefixKey row "refill": the meaning line .* quotes the key \("again"\)/);
+  judge('W19 gloss "in the wrong place" (a form of "wrongly")', V((b) => { b.prefixKey.rows.find((r) => r.word === 'misplace').gloss = 'to put your keys in the wrong place'; }), /prefixKey row "misplace": .*quotes the key \("wrong \(a form of "wrongly"\)"\)/);
+  quiet('W19 twin: the shipped en paraphrases', V(() => {}), /quotes the key/);
+  ok(!R1.glossQuotesKey('to fly above the rover', ['over'], 'en').length && R1.glossQuotesKey('to fly over the town', ['over'], 'en').length === 1, 'W19: "over" must hit as a whole word and never inside "rover"');
+  // rule 20 — declared agent suffixes; a work word beside play portraits
+  judge('W20 no agentSuffixes', V((b) => { delete b.agentSuffixes; }), /agentSuffixes missing/);
+  judge('W20 an -ian answer on the -er face', V((b) => { b.agents.push({ key: 'musician', base: 'music', answer: { any: 'musician' } }); }), /agent musician: answer "musician" ends in none of the declared suffixes -er/);
+  judge('W20 "at work" beside the runner and the dancer', V((b) => { b.strings['who-does-it'].instruction = 'Look at each person at work, read the word beside them and write the person word in the empty brick.'; }), /strings\.who-does-it says "at work" .* play portraits \(athlete, ballerina\)/);
+  quiet('W20 twin: "at work" with no play portrait drawn', V((b) => { b.agents = b.agents.filter((a) => !['athlete', 'ballerina'].includes(a.key)); b.agents.push({ key: 'police_officer', base: 'police', answer: { any: 'policer' } }, { key: 'chef', base: 'cook', answer: { any: 'cooker' } }); b.strings['who-does-it'].instruction = 'Look at each person at work, read the word beside them and write the person word in the empty brick.'; }), /says "at work"/);
+  quiet('W20 twin: the shipped en agents + instruction', V(() => {}), /rule 20/);
+  // rule 21 — the member as the strictly longest brick
+  judge('W21 picture families whose look-alikes are all short', V((b) => { for (const x of b.picFamilies) x.lookAlikes = x.lookAlikes.map((l) => ({ ...l, word: l.word.slice(0, 2) + 'x' })); }), /picture-family: only \d+ picture families offer a look-alike at least as long/);
+  quiet('W21 twin: the shipped en picture families', V(() => {}), /rule 21/);
+  judge('W21 longestTell: 4 of 6 cards longest', [R1.longestTell([['cloudy', ['clock', 'clown']], ['grassy', ['grab', 'gravy']], ['booklet', ['boot', 'bone']], ['starry', ['stamp', 'stair']], ['sunny', ['summer', 'super']], ['fishy', ['first', 'fist']]].map(([member, foils]) => ({ member, foils })))].filter(Boolean), /strictly longest brick on 4 of 6 cards/);
+  quiet('W21 longestTell twin: 3 of 6 cards longest', [R1.longestTell([['cloudy', ['clock', 'clown']], ['grassy', ['grab', 'gravy']], ['booklet', ['boot', 'bone']], ['toothy', ['tomato', 'toad']], ['sunny', ['summer', 'super']], ['fishy', ['first', 'fist']]].map(([member, foils]) => ({ member, foils })))].filter(Boolean), /strictly longest/);
+  // the node verify on RENDERED pages: F1 forced to six longest members; F3 a gloss quoting its key
+  J('G1-397', 'W21r F1 six cards whose member is the longest brick', await gateOf(rewire('G1-397', { plan: { families: ['cloud', 'grass', 'drum', 'book', 'flower', 'star'], slots: [0, 2, 1, 1, 0, 2] } }), 'W21r'), /answer tell: the answer is the strictly longest brick on 6 of 6 cards/);
+  { const b = clone(en); b.prefixKey.rows.find((r) => r.word === 'refill').gloss = 'to fill a cup again';
+    J('G2-376', 'W19r F3 a rendered gloss quoting "again"', await gateOf(rewire('G2-376', { block: b, plan: { rows: ['fill', 'heat', 'spell', 'read', 'view', 'count', 'tell', 'pay'] } }), 'W19r'), /the meaning line quotes the key \("again"\)/); }
+  // the SWEEP on the shipped composer: no F1 page over 20 seeds shows the tell, and the pooled rate stays under 60 %
+  {
+    let longest = 0, cards = 0;
+    for (let v = 1; v <= 20; v++) {
+      const out = TYPES['G1-397'].build({ difficulty: 2, locale: 'en' }, { rng: makeRng(instanceSeed({ typeId: 'G1-397', theme: null, difficulty: 2, seedEpoch: 1, variant: v })) });
+      const cs = out.meta.members.map((m, i) => ({ member: m, foils: out.meta.foils[i] }));
+      ok(!R1.longestTell(cs), `G1-397 v${v}: ${R1.longestTell(cs)}`);
+      longest += cs.filter((c) => R1.strictlyLongest(c.member, c.foils)).length; cards += cs.length;
+    }
+    ok(longest / cards <= R1.LONGEST_MAX_SHARE, `G1-397 sweep: the member is the strictly longest brick on ${(100 * longest / cards).toFixed(1)} % of cards (> 60 %)`);
+    rows.push(`round-1 G1-397 sweep: member strictly longest on ${longest}/${cards} cards (${(100 * longest / cards).toFixed(1)} %, <= 60 % per page and pooled)`);
+  }
   return rows;
 }
 

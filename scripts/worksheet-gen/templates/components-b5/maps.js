@@ -210,6 +210,20 @@ function atlasRow({ entries, nameW = 150, box = [44, 40], rowH = 56, w = 639, ga
   return `<div data-lcs-index-row style="display:flex;gap:${gap}px;width:${w}px;justify-content:flex-start;flex:0 0 auto">${items}</div>`;
 }
 
+/**
+ * F5 legend column (landing round 1, 2026-09-23: the directions map named NO symbol — the house (a two-tone roof
+ * from above) and the tent were unnameable, and a teacher reading aloud had no word for them). One entry per symbol
+ * DRAWN on the island, in a narrow column beside the rows (no vertical cost: the rows are 434 px wide).
+ */
+function dirLegend({ title, rows, w = 193, symPx = 36 }) {
+  const box = symPx + 4;
+  const cells = rows.map((r) => `<div data-lcs-dir-key="${esc(r.id)}" style="display:flex;align-items:center;gap:8px;min-height:${box}px">` +
+    `<span data-lcs-key-sym style="display:inline-flex;align-items:center;justify-content:center;width:${box}px;height:${box}px;flex:0 0 ${box}px;box-sizing:border-box;background:${T.white};border:1.5px solid ${T.grid};border-radius:8px">${mapSymbol({ id: r.id, px: symPx }).svg}</span>` +
+    `<span data-lcs-dir-key-word style="display:block;flex:1 1 auto;min-width:0;font-family:${F.body},sans-serif;font-weight:800;font-size:16px;line-height:1.15;color:${T.ink};overflow-wrap:normal;word-break:normal;hyphens:manual">${esc(r.word)}</span></div>`).join('');
+  return `<div class="mp-dir-legend" data-lcs-dir-legend style="width:${w}px;flex:0 0 ${w}px;box-sizing:border-box;align-self:center;border:1.5px solid ${T.grid};border-radius:12px;padding:0 10px 10px;background:${T.white};display:flex;flex-direction:column;gap:6px">` +
+    `<span data-lcs-key-title style="align-self:flex-start;margin-top:-1px;display:inline-flex;align-items:center;height:28px;padding:0 14px;border-radius:0 0 12px 12px;background:${T.teal};color:${T.white};font-family:${F.display},cursive;font-weight:700;font-size:16px;line-height:1;white-space:nowrap">${esc(title)}</span>${cells}</div>`;
+}
+
 function directionRow({ n, start, startSvg, word, dir, chips, answer }) {
   const chip = (c) => `<span data-lcs-chip="${esc(c.id)}" style="display:inline-flex;align-items:center;justify-content:center;width:52px;height:52px;flex:0 0 52px;box-sizing:border-box;border-radius:50%;background:${T.white};border:1.5px solid ${T.teal}">${c.svg}</span>`;
   return `<div data-lcs-dir-row="${n}" data-lcs-start="${esc(start)}" data-lcs-dir="${dir}" data-lcs-answer="${esc(answer)}" style="display:flex;align-items:center;height:52px;flex:0 0 auto">` +
@@ -221,4 +235,4 @@ function directionRow({ n, start, startSvg, word, dir, chips, answer }) {
 }
 
 module.exports = { mapSheet, legendBand, legendHeight, countStrip, northArrow,
-  mpGap, viewGlyph, viewPair, viewHeads, roseCard, roseRow, worldMapCard, nameBank, nameLane, laneRow, atlasRow, directionRow };
+  mpGap, viewGlyph, viewPair, viewHeads, roseCard, roseRow, worldMapCard, nameBank, nameLane, laneRow, atlasRow, directionRow, dirLegend };

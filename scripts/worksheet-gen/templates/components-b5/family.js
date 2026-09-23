@@ -55,7 +55,8 @@ function starPath(cx, cy, R, r) {
 
 function pictureFrame({ person, box, ego = false }) {
   const { x, y, w, h } = box;
-  const px = Math.round(h * 0.8);
+  // bustPx: a FACE-only override (F3 draws the older sibling taller than the ego); the base sets none
+  const px = person.bustPx || Math.round(h * 0.8);
   const fig = familyFigure({ age: person.age, sex: person.sex, look: person.look, tint: person.tint, px, id: 'fam-' + person.id });
   const inset = 5;
   const fx = S(x + (w - fig.width) / 2), fy = S(y + h - inset - px);
@@ -179,6 +180,32 @@ function traceRows({ rows, laneW = 321, trioH = 58, glyphH = 40, gap = 16, gapMa
 }
 
 /**
+ * F2 (review round 1) traceBank({ words:[text], laneW, trioH, glyphH, gap, gapMax, indent })
+ * The words to trace, UNNUMBERED, in a soft panel apart from the numbered lines (the
+ * lookup "which word is person N's?" must be done on the tree). One dashed trio each.
+ * Stamps: panel [data-lcs-trace-bank], each lane wrapper [data-lcs-bank-lane][data-lcs-text].
+ * writeRows({ rows:[{badge, answer}], laneW, trioH, glyphH, gap, gapMax })
+ * The numbered lines: a teal disc N + an EMPTY school-line trio; the answer (the word of
+ * person N) only in data-lcs-answer. Stamps: [data-lcs-trace-row][data-lcs-badge].
+ */
+function traceBank({ words, laneW = 321, trioH = 58, glyphH = 40, gap = 6, gapMax = 6, indent = 38, pad = 8 }) {
+  const sp = `<div data-lcs-gap="" style="flex:1 1 ${gap}px;min-height:${gap}px;max-height:${gapMax}px"></div>`;
+  return `<div class="fam-trace-bank" data-lcs-trace-bank="" style="box-sizing:border-box;display:flex;flex-direction:column;height:100%;padding:${pad}px 0 ${pad}px ${indent - 4}px;margin-left:0;background:${T.creamDeep};border-radius:14px">` +
+    words.map((w) => {
+      const lane = strokeWordLane({ text: w, w: laneW, h: trioH, glyphH, reps: 1, stack: true, modelless: true, emptyLast: false });
+      return `<div data-lcs-bank-lane="" data-lcs-text="${esc(w)}" style="flex:0 0 ${trioH}px;margin-left:4px;display:flex">${lane.svg}</div>`;
+    }).join(sp) + `</div>`;
+}
+function writeRows({ rows, laneW = 321, trioH = 58, glyphH = 40, gap = 6, gapMax = 6 }) {
+  const sp = `<div data-lcs-gap="" style="flex:1 1 ${gap}px;min-height:${gap}px;max-height:${gapMax}px"></div>`;
+  return `<div class="fam-trace" data-lcs-trace-rows="" style="display:flex;flex-direction:column;height:100%;justify-content:flex-start">` + rows.map((r) => {
+    const lane = strokeWordLane({ text: r.answer, w: laneW, h: trioH, glyphH, reps: 0, stack: true, modelless: true, emptyLast: true });
+    return `<div class="fam-trace-row" data-lcs-trace-row="" data-lcs-badge="${r.badge}" data-lcs-answer="${esc(r.answer)}" style="flex:0 0 ${trioH}px;display:flex;align-items:flex-start;gap:8px">` +
+      `<div style="flex:0 0 30px;margin-top:${(trioH - 30) / 2}px">` + numberDisc({ n: r.badge, d: 30, attrs: 'data-lcs-row-disc=""' }) + `</div>` + `<div style="flex:0 0 ${laneW}px;display:flex">${lane.svg}</div></div>`;
+  }).join(sp) + `</div>`;
+}
+
+/**
  * F3 nameBox({ w, h, answer, path }) — an EMPTY name plate: a .ws-blankbox-styled
  * span holding a school-line writing row; the answer (the name) only in
  * data-lcs-answer. givenPlate({ text, w, h }) — a SOLID name plate (a printed,
@@ -231,4 +258,4 @@ function templateTree({ meWord, w = 675, shelf = 4 }) {
   return { treeHtml: wrap(t.treeSvg, t.treeH, 'data-lcs-template-tree=""'), shelfHtml: wrap(t.shelfSvg, t.shelfH, 'data-lcs-template-shelf=""'), treeH: t.treeH, shelfH: t.shelfH, tree: t };
 }
 
-module.exports = { pictureFrame, familyStage, kinChip, kinWordBlock, genRail, genPlacard, traceRows, nameBox, famGivenPlate: givenPlate, clueList, riddleRow, famEgoCard: egoCard, templateTree, famNumberDisc: numberDisc };
+module.exports = { pictureFrame, familyStage, kinChip, kinWordBlock, genRail, genPlacard, traceRows, famTraceBank: traceBank, famWriteRows: writeRows, nameBox, famGivenPlate: givenPlate, clueList, riddleRow, famEgoCard: egoCard, templateTree, famNumberDisc: numberDisc };

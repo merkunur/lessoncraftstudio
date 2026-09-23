@@ -90,7 +90,10 @@ const ANCHORS = {
   leaf: [{ x: 205, y: 156, slot: { x: 296, y: 156 }, where: 'blade N4' }, { x: 111, y: 390, slot: { x: 24, y: 392 }, where: 'blade N1' }],
   stem: [{ x: 159, y: 220, slot: { x: 296, y: 220 }, where: 'stem' }, { x: 157, y: 200, slot: { x: 24, y: 200 }, where: 'stem' }],
   root: [{ x: 205, y: 494, slot: { x: 296, y: 500 }, where: 'right lateral' }, { x: 130, y: 476, slot: { x: 21, y: 476 }, where: 'left lateral' }],   // slot x 21 not 24: at 24 the disc (r 15) touched the box wall (x 38.5..41.5)
-  fruit: [{ x: 99, y: 348, slot: { x: 24, y: 352 }, where: 'solid pod tip' }],
+  // landing review 2026-09-23 (en/de/es/pt/fr/it): the old ring on the solid pod TIP (99,348) sat wholly inside the pod
+  // below the seed row and read as a fifth seed. The fruit ring now STRADDLES the pod's upper-left WALL (3 units inside
+  // the skin, above the window) — part of it outside the pod, so it marks the pod, never a bead in it.
+  fruit: [{ x: 98.1, y: 248.5, slot: { x: 24, y: 248 }, where: 'pod wall (upper left)' }],
   seed: [{ x: 105.2, y: 287.6, slot: { x: 24, y: 296 }, where: 'seed 2' }],
 };
 const TAG_SLOTS = Object.fromEntries(Object.entries(ANCHORS).map(([p, list]) => [p, list.map((a) => a.slot)]));

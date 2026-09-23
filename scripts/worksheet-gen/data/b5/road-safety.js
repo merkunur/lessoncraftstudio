@@ -49,7 +49,7 @@ const COMMON = {
     ['pedestrian-warning', 'footpath'], ['pedestrian-warning', 'shared-path'], ['footpath', 'shared-path'],
     ['bike-warning', 'bike-path'], ['bike-warning', 'shared-path'], ['bike-path', 'shared-path']],
   lightRule: { ped: { 0: 'stop', 1: 'go' }, ped3: { 0: 'stop', 2: 'go' }, car: { 0: 'stop', 1: 'stop', 2: 'go' } },
-  stepKinds: ['stop-kerb', 'look-left', 'look-right', 'look-both', 'walk-across', 'listen'],
+  stepKinds: ['stop-kerb', 'look-left', 'look-right', 'look-both', 'wait-clear', 'walk-across', 'listen'],
   modes: ['base', 'colour-lights', 'crossing-steps', 'sign-meaning', 'sign-kinds', 'sign-quiz'],
 };
 
@@ -91,8 +91,10 @@ const ROAD_SAFETY = {
     meanings: {
       stop: 'Every car must halt here, then look.',
       yield: 'Slow down and let the others go first.',
-      crossing: 'Watch for people crossing the road.',   // W11-2 WARNS drivers; "may walk" read as permission (review 2026-09-23)
-      school: 'Children walk here on their way to class.',
+      // landing round 1 (2026-09-23): "Watch for people crossing" fit the school sign too (school children cross) and
+      // "Children walk here" fit the crossing sign — each meaning now names what ONLY its sign says (gate rule 14)
+      crossing: 'This is a marked place where people cross the road.',   // W11-2: a pedestrian crossing (a PLACE), not permission
+      school: 'A school is near, so look out for children.',
       'no-entry': 'No car may drive into the street from this side.',
       'signal-ahead': 'Watch out, a traffic light is coming.',
     },
@@ -107,7 +109,8 @@ const ROAD_SAFETY = {
       'no-bikes': ['You may not ride a bicycle on this road.', 'Bicycles are not allowed here. Push yours on another path.'],
       'no-pedestrians': ['People may not cross the street on foot at this spot.', 'Walkers must not cross here. Use the crossing further on.'],
     },
-    steps: ['stop-kerb', 'look-left', 'look-right', 'look-left', 'walk-across'],
+    // landing round 1 (2026-09-23): no action twice (the second look-left made steps 2 / 4 swappable) — wait until clear
+    steps: ['stop-kerb', 'look-left', 'look-right', 'wait-clear', 'walk-across'],
     listenStep: null,
     familyHead: 'Road Safety',
     signHead: 'Traffic Signs',

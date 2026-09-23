@@ -34,7 +34,7 @@ const ROWS = [
     { layout: 'continents-oceans', answer: 'number', runMax: 2, index: { cols: 3, nameW: 150, box: [44, 40], rowH: 56, narrowMax: 8, nameW2: 250 }, gapMin: 8 },
     'Continents and Oceans', 'Find each continent and ocean on the map. Write its number in the box next to its name.', { gradeBand: 'G3' }],
   ['g2', 'G2-371', 'maps-directions-on-a-map', BASE, 2,
-    { layout: 'directions-on-map', places: 7, rows: 6, chips: 3, distinctStarts: 6, inDeg: 30, outDeg: 90, symPx: 40, islandW: 533, minApartPx: 72, rosePx: 96, gapMin: 6 },
+    { layout: 'directions-on-map', places: 7, rows: 6, chips: 3, distinctStarts: 6, inDeg: 30, outDeg: 90, symPx: 40, islandW: 533, minApartPx: 72, rosePx: 96, gapMin: 6, legend: true },
     'Cardinal Directions on a Map', 'Start at the first picture on the map, look the way the word says, and circle the one of the three pictures that lies that way.', { gradeBand: 'G2' }],
 ];
 const HANDWRITTEN = [];

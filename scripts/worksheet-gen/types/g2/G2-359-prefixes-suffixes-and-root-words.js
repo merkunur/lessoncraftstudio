@@ -130,6 +130,39 @@ function commonPart(words, loc) {
   for (let L = a.length; L > 0; L--) for (let i = 0; i + L <= a.length; i++) { const sub = a.slice(i, i + L); if (ws.every((w) => w.includes(sub))) return sub; }
   return '';
 }
+/** Accent- and case-folded (NFD, marks stripped): a child reads "marítimo" and "marino" as sharing "mari". */
+const fold = (s, loc) => String(s).normalize('NFD').replace(/\p{M}/gu, '').toLocaleLowerCase(loc);
+/** commonPart over the FOLDED words (round 1: es mar -> marinero / marino / marítimo share "mari", not the root). */
+function commonPartFolded(words, loc) { return commonPart(words.map((w) => fold(w, loc)), loc); }
+/** Round 1 (G1-397): the cards whose member is the STRICTLY longest brick — at most 60 % of a page's cards. */
+const LONGEST_MAX_SHARE = 0.6;
+function strictlyLongest(member, foils) { const g = glyphs(member); return foils.every((w) => glyphs(w) < g); }
+function longestTell(cards) {
+  const n = cards.filter((c) => strictlyLongest(c.member, c.foils)).length;
+  return n > Math.floor(LONGEST_MAX_SHARE * cards.length) ? `the answer is the strictly longest brick on ${n} of ${cards.length} cards (> ${LONGEST_MAX_SHARE * 100} %) — solvable by length` : null;
+}
+/**
+ * Round 1 (G2-376): the meaning line may not quote the key. Returns the key meaning words a gloss prints verbatim
+ * (unicode-aware whole words): every alternative phrase of every key meaning ("hinaus oder zu Ende" -> "hinaus",
+ * "zu Ende"), every content token of >= 4 letters, and a >= 5-letter token that is a FORM of one (wrong / wrongly).
+ */
+const GLOSS_OR = /\s*(?:,|;|\/|(?<!\p{L})(?:or|oder|o|ou|of|eller|tai|oppure|eli)(?!\p{L}))\s*/iu;
+const GLOSS_STOP = new Set(['with', 'from', 'noget', 'något', 'noe', 'etwas', 'algo', 'quelque', 'qualcosa', 'iets', 'jotain', 'something', 'eine', 'einen', 'uma', 'una', 'une', 'till', 'från', 'fra', 'into', 'than']);
+const reEsc = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+function glossQuotesKey(gloss, meanings, loc) {
+  const g = String(gloss).normalize('NFC').toLocaleLowerCase(loc);
+  const gt = g.split(/[^\p{L}\p{M}'’-]+/u).filter(Boolean);
+  const hits = new Set();
+  for (const m of meanings) {
+    const mm = String(m).normalize('NFC').toLocaleLowerCase(loc);
+    for (const alt of mm.split(GLOSS_OR).map((x) => x.trim()).filter(Boolean)) if (new RegExp('(?<!\\p{L})' + reEsc(alt) + '(?!\\p{L})', 'u').test(g)) hits.add(alt);
+    for (const t of mm.split(/[^\p{L}\p{M}'’-]+/u).filter((x) => [...x].length >= 4 && !GLOSS_STOP.has(x))) {
+      if (gt.includes(t)) hits.add(t);
+      for (const u of gt) if (u !== t && [...u].length >= 5 && [...t].length >= 5 && (u.startsWith(t) || t.startsWith(u))) hits.add(`${u} (a form of "${t}")`);
+    }
+  }
+  return [...hits];
+}
 /** A strict staircase: every step moves the same non-zero amount (mod k). */
 function isStaircase(seq, k) {
   if (seq.length < 3) return false;
@@ -188,13 +221,24 @@ function buildFace(self, block, d, loc, rng, fp) {
     for (let t = 0; t < TRIES && !plan; t++) {
       const fams = rng.sample(pool, d.cards);
       const cards = fams.map((f) => ({ f, member: rng.pick(f.members), foils: rng.sample(f.foils, d.foils) }));
+      // round 1: the member may be the strictly longest brick on at most 60 % of the cards — re-pick a card whose
+      // family offers a non-longest (member, foils) choice until the page holds (else draw other families)
+      const maxL = Math.floor(LONGEST_MAX_SHARE * d.cards);
+      const combos = (f) => { const out = []; const k = d.foils; const fs2 = f.foils; const rec = (st, acc) => { if (acc.length === k) { for (const m of f.members) if (!strictlyLongest(m, acc)) out.push({ member: m, foils: acc.slice() }); return; } for (let q = st; q < fs2.length; q++) { acc.push(fs2[q]); rec(q + 1, acc); acc.pop(); } }; rec(0, []); return out; };
+      for (const c of rng.shuffle(cards)) {
+        if (cards.filter((x) => strictlyLongest(x.member, x.foils)).length <= maxL) break;
+        if (!strictlyLongest(c.member, c.foils)) continue;
+        const alt = combos(c.f);
+        if (alt.length) { const a = rng.pick(alt); c.member = a.member; c.foils = rng.shuffle(a.foils); }
+      }
+      if (longestTell(cards)) continue;
       // no brick on the page contains ANOTHER card's picture word (a second "built from" reading)
       const roots = fams.map((f) => low(f.root, loc));
       if (cards.some((c, i) => [c.member, ...c.foils].some((w) => roots.some((r, j) => j !== i && low(w, loc).includes(r))))) continue;
       const slots = shuffleUntil(Array.from({ length: d.cards }, (_, i) => i % d.bricks), (o) => !isStaircase(o, d.bricks), 'member-slot order that is not a staircase');
       plan = { cards, slots };
     }
-    if (!plan) throw new Error(`${ID}: no picture-family page for ${loc} in ${TRIES} tries (refuse)`);
+    if (!plan) throw new Error(`${ID}: no picture-family page for ${loc} in ${TRIES} tries (refuse — too few picture families offer a look-alike at least as long as the member: the answer would be the longest brick)`);
     const html = plan.cards.map((c, i) => {
       const foils = c.foils.slice();
       const bricks = []; for (let s = 0; s < d.bricks; s++) bricks.push(s === plan.slots[i] ? { word: c.member, role: 'member' } : { word: foils.shift(), role: 'foil' });
@@ -203,7 +247,7 @@ function buildFace(self, block, d, loc, rng, fp) {
     const minRow = 18 + d.bricks * d.brickH + (d.bricks - 1) * 6 + 10 + d.stoneMinH + 24 + 4;
     const inner = C5.wordPartGrid({ cards: html, cols: d.cols, rows: d.rows, minRow });
     return { bodyHtml: facePage(self, mode, d, loc, inner, ` data-lcs-slots="${plan.slots.join(',')}"`),
-      meta: { mode, families: plan.cards.map((c) => c.f.id), members: plan.cards.map((c) => c.member), slots: plan.slots } };
+      meta: { mode, families: plan.cards.map((c) => c.f.id), members: plan.cards.map((c) => c.member), foils: plan.cards.map((c) => c.foils.slice()), slots: plan.slots } };
   }
 
   if (mode === 'root-word') {
@@ -222,6 +266,7 @@ function buildFace(self, block, d, loc, rng, fp) {
         const s = rng.sample(f.members, d.members);
         if (s.filter((x) => x.kind === 'compound').length > 1) continue;
         if (commonPart(s.map((x) => x.word), loc) !== low(f.stem, loc)) continue;
+        if (commonPartFolded(s.map((x) => x.word), loc) !== fold(f.root, loc)) continue;   // round 1: accent-folded too (es mar / marítimo)
         return rng.shuffle(s).map((x) => x.word);
       }
       return null;
@@ -514,6 +559,9 @@ async function verifyFace(page, mode) {
         if (b.role === 'foil' && !(f.lookAlikes || []).some((x) => x.word === b.word)) out.push(`node: foil "${b.word}" is not a signed look-alike of ${f.id}`);
       }
     }
+    // round 1: the answer may not be the strictly longest brick on more than 60 % of the cards (re-derived from the stamps)
+    const lt = longestTell(d.cards.map((c) => ({ member: (c.bricks.find((b) => b.role === 'member') || {}).word, foils: c.bricks.filter((b) => b.role === 'foil').map((b) => b.word) })).filter((c) => c.member));
+    if (lt) out.push('answer tell: ' + lt);
   }
   if (mode === 'root-word') {
     const byId = Object.fromEntries([...(block.families || []), ...(block.rootFamilies || [])].map((f) => [f.id, f]));
@@ -535,6 +583,8 @@ async function verifyFace(page, mode) {
       const r = pk.rows.find((x) => x.word === row.glossId && x.base === row.base);
       if (!r) { out.push(`node: row ${i + 1} (${row.base}) is not a signed prefixKey row`); return null; }
       if (r.gloss !== row.gloss) out.push(`node: row ${i + 1} prints a gloss ≠ the bank`);
+      const q = glossQuotesKey(row.gloss, pk.prefixes.filter((p) => d.prefixes.includes(p.prefix)).map((p) => p.meaning), loc);
+      if (q.length) out.push(`answer tell: row ${i + 1} (${row.base}): the meaning line quotes the key ("${q.join('", "')}")`);
       const good = (pk.crossCheck || []).filter((c) => c.base === row.base && d.prefixes.includes(c.prefix) && c.isWord && c.fitsGloss);
       if (good.length !== 1 || good[0].prefix !== r.prefix) out.push(`node: row ${i + 1} (${row.base}): ${good.length} key prefixes fit its meaning (want exactly 1)`);
       if ((r.prefix + r.base).normalize('NFC') !== r.word.normalize('NFC')) out.push(`node: row ${i + 1}: prefix + base ≠ the word`);
@@ -806,4 +856,6 @@ const TYPE = {
   },
 };
 
+/** The round-1 rules, shared with the gate (one source: qa/verify-b5-word-parts.js reads them here). */
+TYPE._rules = { longestTell, strictlyLongest, LONGEST_MAX_SHARE, glossQuotesKey, fold, commonPart, commonPartFolded, REFUSED_FACES };
 module.exports = TYPE;

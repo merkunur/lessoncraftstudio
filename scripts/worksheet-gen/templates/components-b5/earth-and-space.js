@@ -143,7 +143,7 @@ function phaseCard({ n, phase, hemisphere, d, lineW, lineH, glyphH }) {
 /** dayNightModel: the Sun cut by the panel edge (its rays re-aimed at the VISIBLE limb), three
  *  coral light arrows, ONE Earth seen from above the North Pole with numbered pins. Nothing marks
  *  which half is lit — the child decides that from where the Sun is. */
-function dayNightModel({ sunDir, r, pins, sunH, shade }) {
+function dayNightModel({ sunDir, r, pins, sunH, shade, earthName }) {
   const R = Math.max(sunH, (sunH * sunH / 4 + 96 * 96) / 192) + 20;
   const ang = Math.asin(150 / (R + 30)) * 180 / Math.PI;   // the outer rays stay 150 px off the middle: inside the smallest (380) panel
   const sun = SB.sunEdge({ side: sunDir, w: 130, h: sunH, depth: 96, rayDeg: [-ang, -ang / 2, 0, ang / 2, ang].map((x) => r2(x)), asPath: true });
@@ -160,7 +160,10 @@ function dayNightModel({ sunDir, r, pins, sunH, shade }) {
     `background:${C.white};border:2px solid ${C.creamDeep};border-radius:16px;overflow:hidden">` +
     `<div data-lcs-sun-wrap style="flex:0 0 130px;height:100%;overflow:hidden">${sun.svg.replace(/^<svg /, `<svg style="display:block;width:130px;height:100%" preserveAspectRatio="${sunDir === 'left' ? 'xMinYMid' : 'xMaxYMid'} slice" `)}</div>` +
     `<div style="flex:1 1 60px;min-width:60px;height:100%;margin:0 12px">${light}</div>` +
-    `<div data-lcs-earth-wrap style="flex:0 0 auto;width:var(--es-ew);margin:0 24px">${sized(esvg, 'width:100%;height:auto;display:block')}</div></div>`;
+    // earthName (landing round 1, 2026-09-23): the disc is LABELLED with the bank's own body literal — a bare circle
+    // with pins was not recognisable as the Earth (en panel); the label names the body, never a half or an answer
+    `<div data-lcs-earth-wrap style="flex:0 0 auto;width:var(--es-ew);margin:0 24px;display:flex;flex-direction:column;align-items:center;gap:6px">${sized(esvg, 'width:100%;height:auto;display:block')}` +
+    (earthName ? `<span data-lcs-body-label="earth" style="box-sizing:border-box;display:inline-flex;align-items:center;height:32px;padding:0 16px;border:2px solid ${C.teal};border-radius:999px;background:${C.white};font-family:'Baloo 2',sans-serif;font-weight:700;font-size:18px;line-height:1;color:${C.ink};white-space:nowrap">${esc(earthName)}</span>` : '') + `</div></div>`;
 }
 /** pinTable: 2 columns x 3 rows; a row = the pin's numeral badge + the Day and Night words (same order every row, unmarked). */
 function pinTable({ rows, words }) {

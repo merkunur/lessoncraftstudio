@@ -232,16 +232,17 @@ const WORD_PARTS = {
       // mis- is KEPT (Danish panel 2026-09-23 asked): it means "wrongly / badly" — the action still happens, done wrong —
       // so it does not NEGATE the base the way un- / dis- / non- do (misspell is still spelling). CCSS L.2.4b + the face title name it.
       prefixes: [{ prefix: 're', meaning: 'again' }, { prefix: 'pre', meaning: 'before' }, { prefix: 'mis', meaning: 'wrongly' }],
+      // round 1 (2026-09-23): no gloss quotes its key meaning (again / before / wrongly) — the rows were solvable by word-spotting.
       rows: [
-        { base: 'read', prefix: 're', word: 'reread', gloss: 'to read a story again' },
-        { base: 'fill', prefix: 're', word: 'refill', gloss: 'to fill a cup again' },
-        { base: 'tell', prefix: 're', word: 'retell', gloss: 'to tell a story again' },
-        { base: 'heat', prefix: 'pre', word: 'preheat', gloss: 'to heat the oven before you bake' },
-        { base: 'view', prefix: 'pre', word: 'preview', gloss: 'to see part of a movie before it comes out' },
-        { base: 'pay', prefix: 'pre', word: 'prepay', gloss: 'to pay before you get the thing' },
-        { base: 'spell', prefix: 'mis', word: 'misspell', gloss: 'to spell a word wrongly' },
-        { base: 'count', prefix: 'mis', word: 'miscount', gloss: 'to count the coins wrongly' },
-        { base: 'place', prefix: 'mis', word: 'misplace', gloss: 'to put your keys in the wrong place and lose them' },
+        { base: 'read', prefix: 're', word: 'reread', gloss: 'to read a story one more time' },
+        { base: 'fill', prefix: 're', word: 'refill', gloss: 'to fill an empty cup back up' },
+        { base: 'tell', prefix: 're', word: 'retell', gloss: 'to tell a story you heard in your own words' },
+        { base: 'heat', prefix: 'pre', word: 'preheat', gloss: 'to heat the oven so it is hot when the cake goes in' },
+        { base: 'view', prefix: 'pre', word: 'preview', gloss: 'to see part of a movie early, ahead of the show' },
+        { base: 'pay', prefix: 'pre', word: 'prepay', gloss: 'to pay first and get the thing later' },
+        { base: 'spell', prefix: 'mis', word: 'misspell', gloss: 'to spell a word with a mistake in it' },
+        { base: 'count', prefix: 'mis', word: 'miscount', gloss: 'to make a mistake when you count the coins' },
+        { base: 'place', prefix: 'mis', word: 'misplace', gloss: 'to put your keys down somewhere and then lose them' },
         { base: 'behave', prefix: 'mis', word: 'misbehave', gloss: 'to behave badly' },
       ],
       crossCheck: [
@@ -259,11 +260,12 @@ const WORD_PARTS = {
     },
     negating: ['non', 'anti'],
     // F4 (who-does-it): portraits from data/b4/pronouns.js; en agents are invariant (`any`).
+    // round 1 (2026-09-23): musician (-ian) dropped — the face is 'the person word (-er)' and every answer obeys agentSuffixes.
+    agentSuffixes: ['er'],
     agents: [
       { key: 'baker', base: 'bake', answer: { any: 'baker' } },
       { key: 'teacher', base: 'teach', answer: { any: 'teacher' } },
       { key: 'singer', base: 'sing', answer: { any: 'singer' } },
-      { key: 'musician', base: 'music', answer: { any: 'musician' } },
       { key: 'gardener', base: 'garden', answer: { any: 'gardener' } },
       { key: 'farmer', base: 'farm', answer: { any: 'farmer' } },
       { key: 'photographer', base: 'photograph', answer: { any: 'photographer' } },
@@ -282,7 +284,7 @@ const WORD_PARTS = {
       'picture-family': { title: 'Root Words with Pictures: Circle the Word', instruction: 'Name each picture, then circle the one word above it that is built from that picture word.' },
       'root-word': { title: 'Find the Root Word', instruction: 'Circle the part the three words share and write that root word in the empty stone.' },
       'prefix-key': { title: 'Prefixes re-, pre- and mis-: Pick by Meaning', instruction: 'Read what each new word means, find its prefix in the key and write it in the empty piece.' },
-      'who-does-it': { title: 'Who Does It? The Person Word', instruction: 'Look at each person at work, read the word beside them and write the person word in the empty brick.' },
+      'who-does-it': { title: 'Who Does It? The Person Word', instruction: 'Look at each person, read the word beside them and write the person word in the empty brick.' },
       'family-in-sentence': { title: 'Root Words in Sentences', instruction: 'Write each of the four words on the stone into the sentence it fits.' },
     },
   },

@@ -16,7 +16,8 @@
  *
  *   F1 G1-385 mode:'generations'       a picture legend (1 grandparents / 2 parents / 3 children, one f + one m per frame)
  *                                      + 6 rows x 3 kin words; write 1 2 3 by generation from what the word MEANS (G1)
- *   F2 K-375  mode:'trace-words'       a small tree, four numbered people; trace each person's family word, write it once alone (K)
+ *   F2 K-375  mode:'trace-words'       a small tree, every person but the ego numbered; the words to trace sit UNNUMBERED in a panel;
+ *                                      line N: find person N, trace their word in the panel, write it again on line N (K)
  *   F3 G1-386 mode:'tree-clues'        a tree of 7 with name plates (3 given, 4 empty incl. a same-(age, sex) pair) + 4 clues (G1)
  *   F4 G2-362 mode:'relation-riddles'  the ego's frame + a word bank + 8 two-step riddles ("Mia's mom's sister is Mia's ___.") (G2)
  *   F5 G1-387 mode:'tree-template'     an empty frame tree + shelf: draw the people who matter, write their names (G1, open)
@@ -34,7 +35,7 @@ const ROWS = [
     'Family Generations: Oldest to Youngest',
     'In each row, write 1, 2 and 3 in the boxes to put the family words in order from the oldest generation to the youngest.', G1],
   ['k', 'K-375', 'family-words-trace-and-write', 'K-370-family.js', 2,
-    { mode: 'trace-words', people: 6, badged: 4, frame: [80, 96], stageW: 300, laneW: 321, trioH: 72, glyphH: 44, rowGap: 16, rowGapMax: 40, colGap: 16 },
+    { mode: 'trace-words', people: 6, minRows: 4, frame: [80, 96], stageW: 300, laneW: 321, trioH: 58, glyphH: 44, rowGap: 6, rowGapMax: 14, bankGap: 6, bankGapMax: 12, midGap: 16, midGapMax: 36, colGap: 16 },
     'Family Words: Trace and Write',
     'Find the person with the same number on the tree, trace their family word and write it again on the line.'],
   ['g1', 'G1-386', 'family-tree-read-the-clues', 'K-370-family.js', 2,

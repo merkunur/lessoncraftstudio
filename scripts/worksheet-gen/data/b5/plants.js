@@ -46,7 +46,7 @@ const PLANTS = {
       root: 'takes in water from the soil',
       stem: 'holds the plant up tall',
       leaf: 'makes food for the plant from sunlight',
-      flower: 'calls bees with its bright colors',
+      flower: 'calls bees to come and visit it',   // landing review 2026-09-23: "bright colors" over uncoloured line art
       seed: 'can grow into a new plant',
     },
     partStems: ['root', 'roots', 'stem', 'stems', 'leaf', 'leaves', 'flower', 'flowers', 'fruit', 'fruits', 'seed', 'seeds', 'blossom', 'bloom', 'petal', 'petals'],
@@ -82,25 +82,27 @@ const PLANTS_NEUTRAL = {
   ],
   NON_NEED_FORBIDDEN: ['kite', 'hat', 'cap', 'lamp', 'moon', 'watering_can', 'water', 'cloud', 'rainy', 'hot', 'puddle', 'rain', 'sun'],
   EAT: [
-    { theme: 'vegetables', noun: 'carrot', part: 'root', allow: ['flower', 'fruit', 'seed'], picOpened: true },
-    { theme: 'vegetables', noun: 'radish', part: 'root', allow: ['flower', 'fruit', 'seed'], picOpened: true },
-    { theme: 'vegetables', noun: 'beetroot', part: 'root', allow: ['flower', 'fruit', 'seed'], picOpened: true },
-    { theme: 'vegetables', noun: 'parsnip', part: 'root', allow: ['flower', 'fruit', 'seed'], picOpened: true },
-    { theme: 'vegetables', noun: 'lettuce', part: 'leaf', allow: ['root', 'flower', 'fruit', 'seed'], picOpened: true },
-    { theme: 'vegetables', noun: 'spinach', part: 'leaf', allow: ['root', 'flower', 'fruit', 'seed'], picOpened: true },
-    { theme: 'vegetables', noun: 'cabbage', part: 'leaf', allow: ['root', 'flower', 'fruit', 'seed'], picOpened: true },
-    { theme: 'vegetables', noun: 'broccoli', part: 'flower', allow: ['root', 'fruit', 'seed'], picOpened: true },
-    { theme: 'vegetables', noun: 'cauliflower', part: 'flower', allow: ['root', 'fruit', 'seed'], picOpened: true },
-    { theme: 'vegetables', noun: 'celery', part: 'stem', allow: ['root', 'flower', 'fruit', 'seed'], picOpened: true },
-    { theme: 'vegetables', noun: 'corn', part: 'seed', allow: ['root', 'stem'], picOpened: true },   // flower OUT (faces build, opened): an ear of corn IS an inflorescence and baby corn is eaten whole as one
+    { theme: 'vegetables', noun: 'carrot', part: 'root', depicts: 'root', allow: ['flower', 'fruit', 'seed'], picOpened: true },
+    { theme: 'vegetables', noun: 'radish', part: 'root', depicts: 'root', allow: ['flower', 'fruit', 'seed'], picOpened: true },
+    { theme: 'vegetables', noun: 'beetroot', part: 'root', depicts: 'root', allow: ['flower', 'fruit', 'seed'], picOpened: true },
+    { theme: 'vegetables', noun: 'parsnip', part: 'root', depicts: 'root', allow: ['flower', 'fruit', 'seed'], picOpened: true },
+    { theme: 'vegetables', noun: 'lettuce', part: 'leaf', depicts: 'leaf', allow: ['root', 'flower', 'fruit', 'seed'], picOpened: true },
+    { theme: 'vegetables', noun: 'spinach', part: 'leaf', depicts: 'leaf', allow: ['root', 'flower', 'fruit', 'seed'], picOpened: true },
+    { theme: 'vegetables', noun: 'cabbage', part: 'leaf', depicts: 'leaf', allow: ['root', 'flower', 'fruit', 'seed'], picOpened: true },
+    { theme: 'vegetables', noun: 'broccoli', part: 'flower', depicts: 'flower', allow: ['root', 'fruit', 'seed'], picOpened: true },
+    { theme: 'vegetables', noun: 'cauliflower', part: 'flower', depicts: 'flower', allow: ['root', 'fruit', 'seed'], picOpened: true },
+    { theme: 'vegetables', noun: 'celery', part: 'stem', depicts: 'stem', allow: ['root', 'flower', 'fruit', 'seed'], picOpened: true },
+    { theme: 'vegetables', noun: 'corn', part: 'seed', depicts: 'seed', allow: ['root', 'stem'], picOpened: true },   // flower OUT (faces build, opened): an ear of corn IS an inflorescence and baby corn is eaten whole as one
 
-    { theme: 'At the Supermarket', noun: 'peas', part: 'seed', allow: ['root', 'stem', 'flower'], picOpened: true },
-    { theme: 'vegetables', noun: 'tomato', part: 'fruit', allow: ['root', 'leaf', 'stem'], picOpened: true },
-    { theme: 'vegetables', noun: 'cucumber', part: 'fruit', allow: ['root', 'leaf', 'stem'], picOpened: true },
-    { theme: 'vegetables', noun: 'eggplant', part: 'fruit', allow: ['root', 'leaf', 'stem'], picOpened: true },
-    { theme: 'At the Supermarket', noun: 'pepper', part: 'fruit', allow: ['root', 'leaf', 'stem'], picOpened: true },
+    // peas OUT (landing review 2026-09-23, en/es/it/pt): the only picture is an OPEN POD — botanically the fruit —
+    // while the answer was seed; no shelled-peas picture exists in the library. Blocked below; the `depicts` rule
+    // (every item: the picture shows the part the answer names) keeps it out.
+    { theme: 'vegetables', noun: 'tomato', part: 'fruit', depicts: 'fruit', allow: ['root', 'leaf', 'stem'], picOpened: true },
+    { theme: 'vegetables', noun: 'cucumber', part: 'fruit', depicts: 'fruit', allow: ['root', 'leaf', 'stem'], picOpened: true },
+    { theme: 'vegetables', noun: 'eggplant', part: 'fruit', depicts: 'fruit', allow: ['root', 'leaf', 'stem'], picOpened: true },
+    { theme: 'At the Supermarket', noun: 'pepper', part: 'fruit', depicts: 'fruit', allow: ['root', 'leaf', 'stem'], picOpened: true },
   ],
-  EAT_BLOCKED: ['asparagus', 'potato', 'onion', 'garlic', 'leek', 'mushroom', 'turnip', 'pumpkin', 'squash', 'bell_pepper', 'chilli_pepper', 'green_beans'],
+  EAT_BLOCKED: ['peas', 'asparagus', 'potato', 'onion', 'garlic', 'leek', 'mushroom', 'turnip', 'pumpkin', 'squash', 'bell_pepper', 'chilli_pepper', 'green_beans'],
   STAGES: ['seed', 'sprout', 'seedling', 'young', 'flowering', 'fruiting'],
   JOB_PARTS: ['root', 'stem', 'leaf', 'flower', 'seed'],   // fruit only with a validator-clean literal
   LAYOUTS: ['needs', 'cycle', 'eat', 'jobs', 'flower'],

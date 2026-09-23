@@ -94,8 +94,11 @@ module.exports = {
   unitAxis: { applicable: false },
   difficulty: {
     1: { ...COMMON, rows: 6, counts: [2, 2, 2], sizeFacts: true, rowMin: 72, tick: 48, factPx: 20, headBox: 88, headH: 128 },
-    2: { ...COMMON, rows: 8, counts: [3, 3, 2], sizeFacts: false, rowMin: 56, tick: 44, factPx: 18, headBox: 88, headH: 128 },
-    3: { ...COMMON, rows: 10, counts: [3, 4, 3], sizeFacts: false, rowMin: 52, tick: 44, factPx: 17, headBox: 80, headH: 120 },
+    // landing round 1 (2026-09-23): one fact per CONCEPT (star / own light) and orbitsEarth benched leave the Sun and the
+    // Moon two non-size concepts each — 3/3/2 needs the size facts back at d2 / d3 (the alternative, 2/4/2, makes the
+    // Earth column a count tell on every page: the gate's pooled 2-fact rule)
+    2: { ...COMMON, rows: 8, counts: [3, 3, 2], sizeFacts: true, rowMin: 56, tick: 44, factPx: 18, headBox: 88, headH: 128 },
+    3: { ...COMMON, rows: 10, counts: [3, 4, 3], sizeFacts: true, rowMin: 52, tick: 44, factPx: 17, headBox: 80, headH: 120 },
   },
   i18n: {
     en: {
@@ -135,11 +138,14 @@ module.exports = {
     if (!(cfg.headBox >= 72)) throw new Error(`${ID}: head box ${cfg.headBox} < 72 (the Moon would print under 21 px)`);
     const rng = ctx.rng;
     // pools
-    const pool = Object.fromEntries(BODIES.map((b) => [b, Object.keys(M.FACTS).filter((id) => bodyOf(id) === b && (cfg.sizeFacts || !M.FACTS[id].size) && !M.FORBIDDEN_FACT_IDS.includes(id))]));
+    const excluded = Object.keys(M.EXCLUDED_FACTS || {});
+    const pool = Object.fromEntries(BODIES.map((b) => [b, Object.keys(M.FACTS).filter((id) => bodyOf(id) === b && (cfg.sizeFacts || !M.FACTS[id].size) && !M.FORBIDDEN_FACT_IDS.includes(id) && !excluded.includes(id))]));
+    // <= 1 fact per CONCEPT on a page (landing round 1): a body can supply as many rows as it has concepts
+    const conceptsOf = (b) => [...new Set(pool[b].map((id) => M.FACTS[id].concept || id))];
     let counts = null;
-    for (let t = 0; t < ORDER_TRIES && !counts; t++) { const c = rng.shuffle(cfg.counts); if (BODIES.every((b, i) => c[i] <= pool[b].length)) counts = c; }
-    if (!counts) throw new Error(`${ID}: no assignment of counts ${JSON.stringify(cfg.counts)} fits the pools ${JSON.stringify(Object.fromEntries(BODIES.map((b) => [b, pool[b].length])))}`);
-    const chosen = BODIES.flatMap((b, i) => rng.sample(pool[b], counts[i]));
+    for (let t = 0; t < ORDER_TRIES && !counts; t++) { const c = rng.shuffle(cfg.counts); if (BODIES.every((b, i) => c[i] <= conceptsOf(b).length)) counts = c; }
+    if (!counts) throw new Error(`${ID}: no assignment of counts ${JSON.stringify(cfg.counts)} fits the concept pools ${JSON.stringify(Object.fromEntries(BODIES.map((b) => [b, conceptsOf(b).length])))}`);
+    const chosen = BODIES.flatMap((b, i) => rng.sample(conceptsOf(b), counts[i]).map((cpt) => rng.pick(pool[b].filter((id) => (M.FACTS[id].concept || id) === cpt))));
     let order = null;
     for (let t = 0; t < ORDER_TRIES && !order; t++) { const o = rng.shuffle(chosen); if (sequenceOk(o.map(bodyOf))) order = o; }
     if (!order) throw new Error(`${ID}: no row order without a run of 3 / a period / a Sun first in ${ORDER_TRIES} tries`);
@@ -257,7 +263,8 @@ module.exports = {
       if (!nums) T('no pin numbering without a day/night pattern');
       const pins = angles.map((a, i) => ({ n: nums[i], angle: a }));
       const rows = pins.slice().sort((a, b) => a.n - b.n).map((p) => ({ n: p.n, answer: isDay(p.angle) ? 'day' : 'night' }));
-      const model = C5.dayNightModel({ sunDir, r: d.r, pins, sunH: 480, shade: !!P.shade });
+      const earthName = P.noEarthLabel ? null : literal(block, 'bodies', 'earth', loc);
+      const model = C5.dayNightModel({ sunDir, r: d.r, pins, sunH: 480, shade: !!P.shade, earthName });
       const vars = `--es-ph:${lin(400, 480)};--es-ew:${lin(340, 404)};--es-ch:${lin(46, 56)};--es-rg:${lin(12, 20)};--es-tp:${lin(12, 20)};`;
       return { bodyHtml: root({ r: d.r, pins: angles.length, split: d.split, sunDir }, `data-lcs-words="${esc(JSON.stringify(words))}"`, vars, model + C5.pinTable({ rows, words }), lin(16, 26)),
         meta: { layout: L, sunDir, pins, answers: rows.map((r) => r.answer) } };
@@ -436,6 +443,14 @@ module.exports = {
         const sunSide = sunX < ecx ? 'left' : 'right';
         if (sunSide !== model.dataset.lcsSundir) f.push(`the Sun is drawn on the ${sunSide}, stamped ${model.dataset.lcsSundir}`);
         if (earthSvg.querySelector('[data-lcs-part="night"]') || (disc.getAttribute('fill') || '').toUpperCase() !== '#FFFFFF') f.push('answer printed — a night half is shaded on the Earth');
+        // the Earth disc is LABELLED (landing round 1): a pill under the disc, inside the frame, never over a pin
+        const lab = model.querySelector('[data-lcs-body-label="earth"]');
+        if (!lab || !lab.textContent.trim()) f.push('the Earth is not labelled (a bare circle is not recognisably the Earth)');
+        else {
+          const lr = R(lab), fr = R(model);
+          if (lr.top < dr.bottom - 0.5 || lr.bottom > fr.bottom + 0.5 || lr.left < fr.left - 0.5 || lr.right > fr.right + 0.5) f.push('the Earth label is not under the disc inside the frame');
+          if (lab.scrollWidth > lab.clientWidth + 0.5) f.push('the Earth label overflows its pill');
+        }
         for (const el of earthSvg.querySelectorAll('[fill]')) { const c = (el.getAttribute('fill') || '').toUpperCase(); if (c === '#8A8276' || c === '#DDEBE8') f.push(`answer printed — an inkSoft / tealSoft fill on the Earth (${el.tagName})`); }
         const pins = [...earthSvg.querySelectorAll('g[data-lcs-pin]')].map((g) => { const c = R(g.querySelector('[data-lcs-part="pin"]')); return { n: +g.dataset.lcsN, angle: +g.dataset.lcsAngle, x: c.left + c.width / 2, y: c.top + c.height / 2 }; });
         if (pins.length !== cfg.pins) f.push(`${pins.length} pins ≠ ${cfg.pins}`);
@@ -540,7 +555,7 @@ module.exports = {
   async verify(page) {
     const layout = await page.evaluate((id) => { const r = document.querySelector(`[data-ws-content][data-lcs-type="${id}"]`); return r ? r.getAttribute('data-lcs-layout') : null; }, ID);
     if (layout) return this._verifyFace(page, layout);
-    return page.evaluate(({ ID, FACTS, BODIES }) => {
+    return page.evaluate(({ ID, FACTS, BODIES, EXCLUDED }) => {
       const f = [];
       const root = document.querySelector(`[data-lcs-type="${ID}"]`);
       if (!root) return ['no root'];
@@ -565,7 +580,7 @@ module.exports = {
       // rows
       const rows = [...root.querySelectorAll('[data-lcs-row]')];
       if (rows.length !== cfg.rows) f.push(`${rows.length} rows ≠ ${cfg.rows}`);
-      const seq = [];
+      const seq = [], seenConcept = {};
       rows.forEach((row, i) => {
         const tag = `row ${i + 1}`;
         const id = row.dataset.lcsFact;
@@ -578,6 +593,11 @@ module.exports = {
         seq.push(body);
         if (row.dataset.lcsBody !== body) f.push(`${tag}: stamped body ${row.dataset.lcsBody} ≠ ${body} (from the truth vector)`);
         if (fx.size && !cfg.sizeFacts) f.push(`${tag}: size fact ${id} with sizeFacts off`);
+        // one fact per CONCEPT (landing round 1): "a star" and "its own light" are one fact through two frames
+        const cpt = fx.concept || id;
+        if (seenConcept[cpt]) f.push(`${tag}: concept twice — ${id} and ${seenConcept[cpt]} state one fact (${cpt})`);
+        seenConcept[cpt] = id;
+        if (EXCLUDED.includes(id)) f.push(`${tag}: the benched fact ${id} is drawn`);
         const p = row.querySelector('[data-lcs-fact-text]');
         if (!p || p.textContent !== facts[id]) f.push(`${tag}: fact text "${p && p.textContent}" ≠ the literal "${facts[id]}"`);
         if (p) {
@@ -607,6 +627,6 @@ module.exports = {
       const facted = new Set(rows.map((r) => r.dataset.lcsFact));
       if (facted.size !== rows.length) f.push('a fact repeats');
       return f;
-    }, { ID, FACTS: M.FACTS, BODIES });
+    }, { ID, FACTS: M.FACTS, BODIES, EXCLUDED: Object.keys(M.EXCLUDED_FACTS || {}) });
   },
 };

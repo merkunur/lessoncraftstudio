@@ -1,0 +1,11 @@
+{
+  "locale": "no",
+  "refusals": {
+    "G1-380": "no refuses the whole digraphs family: its letter teams (kj-, sj- and skj-lyden, ng) are already owned by the shipped spelling-rules family (G2-315 Rettskriving), and no other Norwegian letter team reaches 3 teams x 6 pictured approved words",
+    "K-378": "no refuses the whole digraphs family: its letter teams (kj-, sj- and skj-lyden, ng) are already owned by the shipped spelling-rules family (G2-315 Rettskriving), and no other Norwegian letter team reaches 3 teams x 6 pictured approved words",
+    "G1-392": "no refuses the whole digraphs family: its letter teams (kj-, sj- and skj-lyden, ng) are already owned by the shipped spelling-rules family (G2-315 Rettskriving), and no other Norwegian letter team reaches 3 teams x 6 pictured approved words",
+    "G1-393": "no refuses the whole digraphs family: its letter teams (kj-, sj- and skj-lyden, ng) are already owned by the shipped spelling-rules family (G2-315 Rettskriving), and no other Norwegian letter team reaches 3 teams x 6 pictured approved words",
+    "G1-394": "no refuses the whole digraphs family: its letter teams (kj-, sj- and skj-lyden, ng) are already owned by the shipped spelling-rules family (G2-315 Rettskriving), and no other Norwegian letter team reaches 3 teams x 6 pictured approved words",
+    "G2-372": "no refuses the whole digraphs family: its letter teams (kj-, sj- and skj-lyden, ng) are already owned by the shipped spelling-rules family (G2-315 Rettskriving), and no other Norwegian letter team reaches 3 teams x 6 pictured approved words"
+  }
+}

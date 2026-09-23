@@ -20,10 +20,11 @@
  * Ladder (a CONFIG; every guard keys on the RESOLVED keys, never the level index):
  *   d1  key 4 (2 x 2) · asked 4 · counts 1..4 (>= 3 distinct) · no unasked · bush NOT in the key
  *       · the cards SHOW the symbol (a plain counting scaffold) · symbols 48 px · <= 10 placed
- *   d2  key 6 (3 x 2) · asked 5 · counts 1..5 (>= 4 distinct; bridge 1..2) · 1 unasked (1..3)
+ *   d2  key 5 (3 + 2) · asked 5 · counts 1..5 (>= 4 distinct; bridge 1..2) · no unasked (landing round 1:
+ *       every key symbol has its count box)
  *       · tree + bush both in the key · cards print the WORD only · 44 px · <= 16 placed ·
  *       0..1 footpath (bridges = 1 + footpaths)                                        (ships)
- *   d3  key 8 (4 x 2) · asked 6 · counts 1..6 (>= 5 distinct) · 2 unasked · 44 px · <= 20
+ *   d3  key 6 (3 x 2) · asked 6 · counts 1..6 (>= 5 distinct) · no unasked · 44 px · <= 20
  *       placed · no footpath (a scaffold level, never shipped; no copy describes it)
  *
  * COMPOSER (locale-neutral: the same island, symbols, key order, counts and card order in all
@@ -125,8 +126,10 @@ const TYPE = {
   themeAxis: { applicable: false },
   difficulty: {
     1: { island: 'isle-1', keySize: 4, cols: 2, asked: 4, countMax: 4, minDistinct: 3, unasked: 0, unaskedMax: 0, nearMiss: 'none', rowsShowSymbol: true, symPx: 48, placedMax: 10, footpaths: [[]], northArrow: true, stripMax: 212 },
-    2: { island: 'isle-1', keySize: 6, cols: 3, asked: 5, countMax: 5, minDistinct: 4, unasked: 1, unaskedMax: 3, nearMiss: 'both-in-key', rowsShowSymbol: false, symPx: 44, placedMax: 16, footpaths: [[], ['P1'], ['P2']], northArrow: true, stripMax: 184 },
-    3: { island: 'isle-1', keySize: 8, cols: 4, asked: 6, countMax: 6, minDistinct: 5, unasked: 2, unaskedMax: 3, nearMiss: 'both-asked', rowsShowSymbol: false, symPx: 44, placedMax: 20, footpaths: [[]], northArrow: true, stripMax: 184 },
+    // landing round 1 (2026-09-23, en/de/es/fr panels): the key listed SIX symbols but printed FIVE count boxes (the
+    // bench "unasked" read as a missing box under "find EACH thing from the map key"). Every key symbol now has its box.
+    2: { island: 'isle-1', keySize: 5, cols: 3, asked: 5, countMax: 5, minDistinct: 4, unasked: 0, unaskedMax: 0, nearMiss: 'both-in-key', rowsShowSymbol: false, symPx: 44, placedMax: 16, footpaths: [[], ['P1'], ['P2']], northArrow: true, stripMax: 184 },
+    3: { island: 'isle-1', keySize: 6, cols: 3, asked: 6, countMax: 6, minDistinct: 5, unasked: 0, unaskedMax: 0, nearMiss: 'both-asked', rowsShowSymbol: false, symPx: 44, placedMax: 20, footpaths: [[]], northArrow: true, stripMax: 184 },
   },
   i18n: {
     en: {
@@ -280,11 +283,13 @@ const TYPE = {
       if (up.length > 1 && new Set(up.map((i) => Math.floor(i / cols))).size < 2) continue;  // never one row
       const upGiven = rng.shuffle(d.givenUpright);
       const turned = n - up.length;
-      const turnedGiven = rng.shuffle(['n', ...rng.sample(MAPS.DIRS.filter((x) => x !== 'n'), turned - 1)]);
+      // every rose now carries its coral N marker (landing round 1), so N is never the given letter: the marker shows north
+      const nonN = MAPS.DIRS.filter((x) => x !== 'n');
+      const turnedGiven = rng.shuffle(turned <= nonN.length ? rng.sample(nonN, turned) : Array.from({ length: turned }, (_, i) => nonN[i % nonN.length]));
       let a = 0, b = 0;
       const given = rots.map((r) => (r === 0 ? upGiven[a++] : turnedGiven[b++]));
       if (isPeriodic(given)) continue;
-      if (new Set(given).size < 4) continue;
+      if (new Set(given).size < 3) continue;          // E, S and W all given somewhere (N never: the marker shows it)
       // the given box's POSITION on the card (up/right/down/left) is never one place on every rose
       const pos = given.map((g, i) => [0, 1, 2, 3].find((p) => CR.posToDir(p, rots[i]) === g));
       if (new Set(pos).size < 2) continue;
@@ -465,9 +470,19 @@ const TYPE = {
       blocks.push(`<div data-lcs-dir-plate style="display:flex;align-items:flex-start;gap:10px;width:639px;flex:0 0 auto">` +
         `<div class="mp-field" style="line-height:0;outline:2px solid ${require('../../primitives/_tokens.js').color.teal};outline-offset:-2px;border-radius:2px">${island.svg}</div>` +
         `<div data-lcs-ref-rose style="line-height:0">${rose.svg}</div></div>`);
-      c.rows.forEach((r, i) => blocks.push(C5.directionRow({ n: i + 1, start: r.start, dir: r.dir, answer: r.answer, word: words[r.dir],
-        startSvg: MS.mapSymbol({ id: r.start, px: d.symPx }).svg, chips: r.chips.map((id) => ({ id, svg: MS.mapSymbol({ id, px: d.symPx }).svg })) })));
-      stamps = { 'in-deg': d.inDeg, 'out-deg': d.outDeg, chips: d.chips, pos: c.pos };
+      const rowsHtml = c.rows.map((r, i) => C5.directionRow({ n: i + 1, start: r.start, dir: r.dir, answer: r.answer, word: words[r.dir],
+        startSvg: MS.mapSymbol({ id: r.start, px: d.symPx }).svg, chips: r.chips.map((id) => ({ id, svg: MS.mapSymbol({ id, px: d.symPx }).svg })) }));
+      if (d.legend) {
+        // landing round 1: a legend naming every symbol DRAWN on the island, beside the rows (the rows keep their gaps)
+        const SW = bankLoc && bankLoc.symbolWords;
+        if (!SW) throw new Error(`${ID}: ${loc} bank has no symbolWords block (refuse)`);
+        const keyTitle = literal(bankLoc, 'keyTitle', 'bank', loc);
+        const drawn = PLACES.filter((id) => c.places.some((p) => p.id === id));
+        const legend = C5.dirLegend({ title: keyTitle, rows: drawn.map((id) => ({ id, word: literal(SW, id, 'symbolWords', loc) })) });
+        blocks.push(`<div data-lcs-dir-body style="display:flex;align-items:stretch;gap:12px;width:639px;flex:1 1 auto;min-height:0">` +
+          `<div data-lcs-dir-rows style="display:flex;flex-direction:column;flex:1 1 auto;min-width:0">${rowsHtml.join(C5.mpGap({ min: d.gapMin != null ? d.gapMin : 6 }))}</div>${legend}</div>`);
+      } else rowsHtml.forEach((h) => blocks.push(h));
+      stamps = { 'in-deg': d.inDeg, 'out-deg': d.outDeg, chips: d.chips, pos: c.pos, legend: !!d.legend };
       gapMin = 6;
       meta = c;
     }
@@ -551,8 +566,14 @@ const TYPE = {
           if (!svg) { fails.push(`rose card ${c.dataset.lcsRoseCard} has no rose`); continue; }
           const rot = +svg.dataset.lcsRot, sr = R(svg), cx = (sr.left + sr.right) / 2, cy = (sr.top + sr.bottom) / 2, k = sr.width / 200;
           const card = { rot, pairs: [], given: null, givenPos: null, marker: !!svg.querySelector('[data-lcs-marker]') };
-          if (card.marker && rot !== 0) fails.push(`marker on turned — rose ${c.dataset.lcsRoseCard} (rot ${rot}) draws the coral N marker`);
-          if (!card.marker && rot === 0) fails.push(`upright rose ${c.dataset.lcsRoseCard} lacks the coral N marker`);
+          // every rose marks north (landing round 1): the coral kite must sit at the position that points NORTH
+          if (!card.marker) fails.push(`rose ${c.dataset.lcsRoseCard} (rot ${rot}) lacks the coral N marker`);
+          else {
+            const mk = R(svg.querySelector('[data-lcs-marker]'));
+            const ma = Math.atan2((mk.left + mk.right) / 2 - cx, cy - (mk.top + mk.bottom) / 2) * 180 / Math.PI;
+            const mpos = ((Math.round(ma / 90) % 4) + 4) % 4;
+            if (['n', 'e', 's', 'w'][((mpos - rot / 90) % 4 + 4) % 4] !== 'n') fails.push(`rose ${c.dataset.lcsRoseCard} (rot ${rot}): the coral marker points to position ${mpos}, which is not north`);
+          }
           let nGiven = 0;
           for (const g of svg.querySelectorAll('g[data-lcs-pos]')) {
             const box = g.querySelector('[data-lcs-box]'); const b = R(box);
@@ -652,6 +673,33 @@ const TYPE = {
           if (Math.abs(ctm.a * w - 40) > 0.6) fails.push(`${id} renders ${(ctm.a * w).toFixed(1)} px on the island (≠ 40)`);
         }
         const ids = Object.keys(facts.at);
+        // NO UNNAMED SYMBOL (landing round 1, 2026-09-23): every symbol drawn on the island is named in a legend on the page
+        const named = new Map([...root.querySelectorAll('[data-lcs-dir-legend] [data-lcs-dir-key]')].map((k) => [k.dataset.lcsDirKey, k]));
+        for (const id of ids) {
+          const k = named.get(id);
+          if (!k) { fails.push(`unnamed symbol — ${id} is drawn on the island but no legend names it`); continue; }
+          const sym = k.querySelector('svg[data-lcs-symbol]'), w = k.querySelector('[data-lcs-dir-key-word]');
+          if (!sym || sym.dataset.lcsSymbol !== id) fails.push(`legend entry ${id} draws ${sym && sym.dataset.lcsSymbol}`);
+          if (!w || !w.textContent.trim()) fails.push(`legend entry ${id} has no word`);
+          else {
+            if (parseFloat(getComputedStyle(w).fontSize) < 16) fails.push(`legend word ${id} under 16 px`);
+            const rg = document.createRange(); rg.selectNodeContents(w);
+            const rects = [...rg.getClientRects()];
+            if (rects.some((q) => q.right > R(w).right + 1)) fails.push(`legend word "${w.textContent}" is wider than its column`);
+            if (new Set(rects.map((q) => Math.round(q.top))).size > 2) fails.push(`legend word "${w.textContent}" runs past 2 lines`);
+          }
+        }
+        for (const id of named.keys()) if (!facts.at[id]) fails.push(`the legend names ${id}, which is not on the island`);
+        // SPARSE inside the rows column (the rows are no longer root blocks when the legend sits beside them)
+        const drows = [...root.querySelectorAll('[data-lcs-dir-rows] > [data-lcs-dir-row]')];
+        for (let i = 1; i < drows.length; i++) { const g = R(drows[i]).top - R(drows[i - 1]).bottom; if (g > 40) fails.push(`SPARSE — ${g.toFixed(0)} px blank band before row ${i + 1} (> 40)`); if (g < -0.5) fails.push(`OVERLAP — row ${i + 1} rides into row ${i}`); }
+        if (drows.length) {
+          const lastB = Math.max(R(drows[drows.length - 1]).bottom, ...[...root.querySelectorAll('[data-lcs-dir-legend]')].map((x) => R(x).bottom));
+          facts.fill = (lastB - R(body).top) / R(body).height;
+          if (R(body).bottom - lastB > 40.5) fails.push(`SPARSE — ${(R(body).bottom - lastB).toFixed(0)} px blank band under the last row (> 40)`);
+          const lg = root.querySelector('[data-lcs-dir-legend]');
+          if (lg && (R(lg).top < R(drows[0]).top - 0.5 - 40 || R(lg).bottom > R(body).bottom + 0.6)) fails.push('the legend leaves the rows band');
+        }
         for (let i = 0; i < ids.length; i++) for (let j = i + 1; j < ids.length; j++) { const a = facts.at[ids[i]], b = facts.at[ids[j]]; if (Math.hypot(a[0] - b[0], a[1] - b[1]) < 71.5) fails.push(`${ids[i]} and ${ids[j]} are ${Math.hypot(a[0] - b[0], a[1] - b[1]).toFixed(0)} px apart (< 72)`); }
         facts.rows = [...root.querySelectorAll('[data-lcs-dir-row]')].map((r) => {
           const chips = [...r.querySelectorAll('[data-lcs-chip]')];
@@ -702,7 +750,8 @@ const TYPE = {
       for (const c of F.cards) for (const [dir, letter] of c.pairs) if (b && b.dirLetters[dir] !== letter) fails.push(`letter from position — the ${dir} box carries "${letter}" ≠ dirLetters.${dir} "${b.dirLetters[dir]}"`);
       if (F.rotSet && F.cards.map((c) => c.rot).sort().join() !== F.rotSet.slice().sort().join()) fails.push(`the rotations [${F.cards.map((c) => c.rot)}] ≠ the configured multiset`);
       const given = F.cards.map((c) => c.given);
-      if (new Set(given).size < 4) fails.push(`the given letters [${given}] do not cover all four directions`);
+      if (given.includes('n')) fails.push(`a rose gives N [${given}] (the coral marker already shows north)`);
+      if (new Set(given).size < 3) fails.push(`the given letters [${given}] do not cover E, S and W`);
       if (isPeriodic(given)) fails.push(`the given letters [${given}] repeat periodically (tell)`);
       if (new Set(F.cards.map((c) => c.givenPos)).size < 2) fails.push('every given letter sits in the same box position (tell)');
       const up = F.cards.map((c, i) => (c.rot === 0 ? i : -1)).filter((i) => i >= 0);
@@ -853,6 +902,9 @@ const TYPE = {
       const keyCells = [...root.querySelectorAll('[data-lcs-legend] [data-lcs-key]')];
       if (keyCells.map((k) => k.dataset.lcsKey).join() !== keyIds.join()) fails.push('the key cells ≠ the stamped key order');
       if (keyCells.length && unasked.includes(keyCells[keyCells.length - 1].dataset.lcsKey)) fails.push('the unasked entry is the last key cell');
+      // a count box for EVERY key symbol (landing round 1): the instruction asks for each thing in the key
+      const boxed = new Set([...root.querySelectorAll('[data-lcs-row]')].map((c) => c.dataset.lcsRow));
+      for (const k of keyCells) if (!boxed.has(k.dataset.lcsKey)) fails.push(`key symbol ${k.dataset.lcsKey} has no count box (every symbol in the key is counted)`);
       if (!keyIds.includes('tree')) fails.push('the key has no tree');
       keyCells.forEach((k) => {
         const svg = k.querySelector('svg[data-lcs-symbol]');

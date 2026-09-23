@@ -670,31 +670,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "rectangle",
-          "theme": "shapes",
-          "noun": "rectangle",
-          "word": "Rechteck",
-          "seg": [
-            "R",
-            "e",
-            "ch",
-            "t",
-            "e",
-            "ck"
-          ],
-          "snd": [
-            "ʁ",
-            "ɛ",
-            "ç",
-            "t",
-            "ɛ",
-            "k"
-          ],
-          "silent": [],
-          "stem": "rechteck",
-          "picOpened": true
-        },
-        {
           "vocabKey": "lights",
           "theme": "christmas",
           "noun": "lights",
@@ -817,29 +792,6 @@
           ],
           "silent": [],
           "stem": "trauben",
-          "picOpened": true
-        },
-        {
-          "vocabKey": "thumb",
-          "theme": "body parts",
-          "noun": "thumb",
-          "word": "Daumen",
-          "seg": [
-            "D",
-            "au",
-            "m",
-            "e",
-            "n"
-          ],
-          "snd": [
-            "d",
-            "aʊ",
-            "m",
-            "ə",
-            "n"
-          ],
-          "silent": [],
-          "stem": "daumen",
           "picOpened": true
         },
         {
@@ -1770,6 +1722,14 @@
     {
       "pic": "christmas/tree",
       "why": "ein geschmückter Weihnachtsbaum: „Weihnachtsbaum“ trägt ch (de Panel)"
+    },
+    {
+      "pic": "shapes/rectangle",
+      "why": "eine leere lila Fläche ohne Umriss: ein Kind sagt „Viereck“ oder „Karte“ (de Panel r2)"
+    },
+    {
+      "pic": "body parts/thumb",
+      "why": "eine Hand mit Daumen hoch: ein Kind sagt „Hand“ (de Panel r2)"
     }
   ],
   "strings": {

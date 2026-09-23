@@ -2781,7 +2781,7 @@
   },
   "G2-369": {
     "title": "I punti cardinali: completa la rosa dei venti",
-    "instruction": "Ogni rosa dei venti mostra una lettera: scrivi le altre tre lettere nei riquadri vuoti."
+    "instruction": "Ogni rosa dei venti mostra una lettera e la punta arancione indica sempre il nord: scrivi le altre tre lettere nei riquadri vuoti."
   },
   "G2-370": {
     "title": "I continenti: scrivi i loro nomi",
@@ -2824,7 +2824,7 @@
     "instruction": "Leggi che cosa significa ogni parola nuova, trova il suo prefisso nella tabella e scrivilo nel pezzo vuoto."
   },
   "G3-398": {
-    "title": "Chi fa questo mestiere? Nomi in -iere, -ista, -tore",
+    "title": "Chi fa questo mestiere? Dalla parola al nome del mestiere",
     "instruction": "Guarda ogni persona, leggi la parola del cartellino accanto e scrivi nel riquadro tratteggiato il nome di chi fa quel mestiere."
   },
   "G3-399": {

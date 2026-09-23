@@ -49,7 +49,7 @@ function recipe(id, cid) {
       const k = R / 46;
       return [disc(C.tealSoft), clip(el('g', { transform: `translate(50 50) scale(${k.toFixed(4)})` }, EARTH_LAND.map((dd) => el('path', { d: dd, fill: C.teal, stroke: C.teal, 'stroke-width': 1.5, 'stroke-linejoin': 'round' })))), outline()];
     }
-    case 'mars': return [disc(C.coral), clip(el('rect', { x: 20, y: 20, width: 60, height: 0.18 * 2 * R, fill: C.white, 'data-lcs-part': 'cap' })), el('ellipse', { cx: 56, cy: 56, rx: 7, ry: 4, fill: C.inkSoft }), outline()];
+    case 'mars': return [disc(C.coral), clip(el('ellipse', { cx: 50, cy: 22, rx: 13, ry: 7, fill: C.white, 'data-lcs-part': 'cap' })) /* a polar CAP, not a full-width band: the band read as "a half-filled glass" to the de/sv panels */, el('ellipse', { cx: 56, cy: 56, rx: 7, ry: 4, fill: C.inkSoft }), outline()];
     case 'jupiter': return [disc(C.white), clip([34, 44, 56, 66].map((y) => el('rect', { x: 18, y: y - 3.5, width: 64, height: 7, fill: C.grid, 'data-lcs-part': 'band' }))), el('ellipse', { cx: 60, cy: 60, rx: 7, ry: 4.5, fill: C.coral, 'data-lcs-part': 'spot' }), outline()];
     case 'saturn': {
       const ring = (half) => el('path', { d: half === 'back' ? 'M 4 50 A 46 10 0 0 1 96 50' : 'M 4 50 A 46 10 0 0 0 96 50', fill: 'none', stroke: C.inkSoft, 'stroke-width': 4, 'stroke-linecap': 'round', transform: 'rotate(-12 50 50)', 'data-lcs-part': 'ring' });

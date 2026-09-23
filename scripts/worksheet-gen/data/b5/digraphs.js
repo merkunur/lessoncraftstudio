@@ -74,7 +74,6 @@ const DIGRAPHS = {
           I('vegetables', 'mushroom', 'mushroom', 'm|u|sh|r|oo|m', 'm|ʌ|ʃ|r|uː|m'),
           I('ocean life', 'starfish', 'starfish', 's|t|ar|f|i|sh', 's|t|ɑː|f|ɪ|ʃ', { group: 'fish' }),
           I('ocean life', 'jellyfish', 'jellyfish', 'j|e|ll|y|f|i|sh', 'dʒ|ɛ|l|i|f|ɪ|ʃ', { group: 'fish' }),
-          I('beach', 'seashell', 'seashell', 's|ea|sh|e|ll', 's|iː|ʃ|ɛ|l'),
         ],
       },
       ch: {
@@ -84,8 +83,8 @@ const DIGRAPHS = {
           I('breakfast', 'cheese', 'cheese', 'ch|ee|se', 'tʃ|iː|z'),
           I('farm animals', 'chicken', 'chicken', 'ch|i|ck|e|n', 'tʃ|ɪ|k|ə|n', { stem: 'chick' }),
           I('furniture', 'bench', 'bench', 'b|e|n|ch', 'b|ɛ|n|tʃ'),
-          I('birds', 'ostrich', 'ostrich', 'o|s|t|r|i|ch', 'ɒ|s|t|r|ɪ|tʃ'),
           I('furniture', 'armchair', 'armchair', 'ar|m|ch|air', 'ɑː|m|tʃ|ɛə', { stem: 'chair' }),
+          I('hospital', 'wheelchair', 'wheelchair', 'wh|ee|l|ch|air', 'w|iː|l|tʃ|ɛə', { stem: 'wheelchair' }),
           I('summer', 'beach', 'beach', 'b|ea|ch', 'b|iː|tʃ'),
           I('easter', 'chocolate', 'chocolate', 'ch|o|c|o|l|a|te', 'tʃ|ɒ|k|ə|l|ə|t'),
         ],
@@ -95,11 +94,9 @@ const DIGRAPHS = {
         items: [
           I('body parts', 'thumb', 'thumb', 'th|u|mb', 'θ|ʌ|m'),
           I('body parts', 'tooth', 'tooth', 't|oo|th', 't|uː|θ', { stem: 'tooth' }),
-          I('around the house', 'toothpaste', 'toothpaste', 't|oo|th|p|a|s|te', 't|uː|θ|p|eɪ|s|t', { stem: 'tooth' }),
           I('easter', 'feather', 'feather', 'f|ea|th|er', 'f|ɛ|ð|ə'),
-          I('around the house', 'bathtub', 'bathtub', 'b|a|th|t|u|b', 'b|ɑː|θ|t|ʌ|b'),
           I('weather', 'thermometer', 'thermometer', 'th|er|m|o|m|e|t|er', 'θ|ə|m|ɒ|m|ɪ|t|ə'),
-          I('christmas', 'wreath', 'wreath', 'wr|ea|th', 'r|iː|θ'),
+          I('christmas', 'wreath', 'wreath', 'wr|ea|th', 'r|iː|θ'),   // kept: the picture is unmistakable and th stems are at the 6 floor; wr is a G1 team
           I('zoo animals', 'sloth', 'sloth', 's|l|o|th', 's|l|əʊ|θ'),
         ],
       },
@@ -178,6 +175,11 @@ const DIGRAPHS = {
       { pic: 'hospital/stethoscope', why: 'not a K-1 word (builder, opened)' },
       { pic: 'easter/chick', why: 'reads as a duckling: a child says "duck" (no ch) — coordinator review 2026-09-23 (base + faces)' },
       { pic: 'classroom/lunchbox', why: 'reads as a treasure chest: a child says "treasure" / "box" (no ch) — coordinator review 2026-09-23 (base + faces)' },
+      { pic: 'beach/seashell', why: 'said "shell" by most children — sh then sits at the BEGINNING, not the middle (en landing panel r2; the G1-392 gap and G1-394 position faces disagreed)' },
+      { pic: 'summer/seashell', why: 'said "shell" — as beach/seashell (en landing panel r2)' },
+      { pic: 'around the house/bathtub', why: 'said "tub" / "bath" — tub has no th (en landing panel r2)' },
+      { pic: 'around the house/toothpaste', why: 'a plain tube with a red cap, said "paint" / "glue" (en landing panel r2)' },
+      { pic: 'birds/ostrich', why: 'beyond G1 decoding outside the team (en landing panel r2)' },
     ],
     strings: {
       base: { title: 'Digraphs sh, ch and th: Which Letter Team Do You Hear?', instruction: 'Say the name of each picture. Circle the letter team you hear.' },

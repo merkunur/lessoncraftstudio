@@ -366,31 +366,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "bathtub",
-          "theme": "around the house",
-          "noun": "bathtub",
-          "word": "badkuip",
-          "seg": [
-            "b",
-            "a",
-            "d",
-            "k",
-            "ui",
-            "p"
-          ],
-          "snd": [
-            "b",
-            "ɑ",
-            "t",
-            "k",
-            "œy",
-            "p"
-          ],
-          "silent": [],
-          "stem": "badkuip",
-          "picOpened": true
-        },
-        {
           "vocabKey": "flute",
           "theme": "music",
           "noun": "flute",
@@ -409,25 +384,6 @@
           ],
           "silent": [],
           "stem": "fluit",
-          "picOpened": true
-        },
-        {
-          "vocabKey": "garden",
-          "theme": "spring",
-          "noun": "garden",
-          "word": "tuin",
-          "seg": [
-            "t",
-            "ui",
-            "n"
-          ],
-          "snd": [
-            "t",
-            "œy",
-            "n"
-          ],
-          "silent": [],
-          "stem": "tuin",
           "picOpened": true
         },
         {
@@ -960,35 +916,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "coconut",
-          "theme": "fruits",
-          "noun": "coconut",
-          "word": "kokosnoot",
-          "seg": [
-            "k",
-            "o",
-            "k",
-            "o",
-            "s",
-            "n",
-            "oo",
-            "t"
-          ],
-          "snd": [
-            "k",
-            "oː",
-            "k",
-            "ɔ",
-            "s",
-            "n",
-            "oː",
-            "t"
-          ],
-          "silent": [],
-          "stem": "kokosnoot",
-          "picOpened": true
-        },
-        {
           "vocabKey": "telephone",
           "theme": "around the house",
           "noun": "telephone",
@@ -1013,25 +940,6 @@
           ],
           "silent": [],
           "stem": "telefoon",
-          "picOpened": true
-        },
-        {
-          "vocabKey": "cabbage",
-          "theme": "vegetables",
-          "noun": "cabbage",
-          "word": "kool",
-          "seg": [
-            "k",
-            "oo",
-            "l"
-          ],
-          "snd": [
-            "k",
-            "oː",
-            "l"
-          ],
-          "silent": [],
-          "stem": "kool",
           "picOpened": true
         }
       ]

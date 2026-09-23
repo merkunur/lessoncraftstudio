@@ -104,7 +104,7 @@
     },
     "compass-rose": {
       "title": "Himmelretninger: nord, øst, sør og vest",
-      "instruction": "Hver kompassrose viser én bokstav, så skriv de tre andre bokstavene i de tomme rutene."
+      "instruction": "Den oransje spissen viser nord, og hver kompassrose viser én bokstav, så skriv de tre andre bokstavene i de tomme rutene."
     },
     "continents": {
       "title": "Verdensdeler: skriv navnene",

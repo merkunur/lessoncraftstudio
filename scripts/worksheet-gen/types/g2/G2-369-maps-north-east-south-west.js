@@ -10,6 +10,6 @@ module.exports = {
   id: 'G2-369',
   slug: 'maps-north-east-south-west',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "North, East, South, West: Label the Four Directions", instruction: "Each compass rose shows one letter, so write the other three letters in the empty boxes." } },
+  i18n: { en: { title: "North, East, South, West: Label the Four Directions", instruction: "The orange tip on each compass rose points north; write the three missing letters in the empty boxes." } },
   gradeBand: "G2",
 };

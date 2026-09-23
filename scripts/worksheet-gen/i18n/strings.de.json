@@ -2713,7 +2713,7 @@
   },
   "K-375": {
     "title": "Familienwörter nachspuren und schreiben",
-    "instruction": "Spure jedes Familienwort nach, schreibe es noch einmal auf die Linie und zeige die Person mit derselben Zahl im Stammbaum."
+    "instruction": "Spure jedes Familienwort nach und schreibe es auf die Linie mit der Zahl der passenden Person im Stammbaum."
   },
   "G1-386": {
     "title": "Stammbaum ausfüllen: Namen mit Hinweisen eintragen",
@@ -2781,7 +2781,7 @@
   },
   "G3-394": {
     "title": "Die Planeten in der Reihenfolge von der Sonne aus",
-    "instruction": "Schreibe den Namen jedes Planeten auf seine Linie, beginne neben der Sonne und nimm jeden Namen aus dem Kasten einmal."
+    "instruction": "Schreibe den Namen jedes Planeten auf seine Linie, beginne neben der Sonne und nimm jeden Namen von den Karten einmal."
   },
   "G3-395": {
     "title": "Riesenplaneten und Gesteinsplaneten",
@@ -2793,7 +2793,7 @@
   },
   "G2-369": {
     "title": "Himmelsrichtungen: die Windrose ergänzen",
-    "instruction": "Jede Windrose zeigt einen Buchstaben: Schreibe die anderen drei Buchstaben in die leeren Kästchen."
+    "instruction": "Die orange Spitze zeigt immer nach Norden: Schreibe in jede Windrose die drei fehlenden Buchstaben in die leeren Kästchen."
   },
   "G2-370": {
     "title": "Die Kontinente beschriften",
@@ -2853,7 +2853,7 @@
   },
   "G2-375": {
     "title": "Den Wortstamm finden",
-    "instruction": "Kreise den Teil ein, den die drei Wörter gemeinsam haben, und schreibe den Wortstamm in den leeren Stein."
+    "instruction": "Kreise den Teil ein, den die drei Wörter gemeinsam haben, und schreibe ihn als Nomen mit großem Anfangsbuchstaben in den leeren Stein."
   },
   "G2-376": {
     "title": "Vorsilben ein-, aus- und um-: nach Bedeutung wählen",

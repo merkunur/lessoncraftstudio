@@ -160,14 +160,14 @@
     "FBS": "{name} ist {egoGen} Cousin."
   },
   "riddleFrames": {
-    "MM": "Die Mama von {egoGen} Mama ist {egoGen} ___.",
-    "FM": "Die Mama von {egoGen} Papa ist {egoGen} ___.",
-    "MF": "Der Papa von {egoGen} Mama ist {egoGen} ___.",
-    "FF": "Der Papa von {egoGen} Papa ist {egoGen} ___.",
-    "MZ": "Die Schwester von {egoGen} Mama ist {egoGen} ___.",
-    "FZ": "Die Schwester von {egoGen} Papa ist {egoGen} ___.",
-    "MB": "Der Bruder von {egoGen} Mama ist {egoGen} ___.",
-    "FB": "Der Bruder von {egoGen} Papa ist {egoGen} ___."
+    "MM": "Die Mutter von {egoGen} Mutter ist {egoGen} ___.",
+    "FM": "Die Mutter von {egoGen} Vater ist {egoGen} ___.",
+    "MF": "Der Vater von {egoGen} Mutter ist {egoGen} ___.",
+    "FF": "Der Vater von {egoGen} Vater ist {egoGen} ___.",
+    "MZ": "Die Schwester von {egoGen} Mutter ist {egoGen} ___.",
+    "FZ": "Die Schwester von {egoGen} Vater ist {egoGen} ___.",
+    "MB": "Der Bruder von {egoGen} Mutter ist {egoGen} ___.",
+    "FB": "Der Bruder von {egoGen} Vater ist {egoGen} ___."
   },
   "distractors": [
     "mama",
@@ -254,7 +254,7 @@
     },
     "trace-words": {
       "title": "Familienwörter nachspuren und schreiben",
-      "instruction": "Spure jedes Familienwort nach, schreibe es noch einmal auf die Linie und zeige die Person mit derselben Zahl im Stammbaum."
+      "instruction": "Spure jedes Familienwort nach und schreibe es auf die Linie mit der Zahl der passenden Person im Stammbaum."
     },
     "tree-clues": {
       "title": "Stammbaum ausfüllen: Namen mit Hinweisen eintragen",

@@ -52,7 +52,9 @@
     "grøntsag",
     "stamme"
   ],
-  "refuseItems": [],
+  "refuseItems": [
+    "celery"
+  ],
   "refuse": [],
   "instructionBans": {
     "base": [

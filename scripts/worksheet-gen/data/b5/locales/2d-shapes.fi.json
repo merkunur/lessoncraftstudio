@@ -117,7 +117,7 @@
     },
     "real-or-not": {
       "title": "Tasokuviot: onko se oikea kuvio?",
-      "instruction": "Lue nimi rivin alusta ja rengasta rivistä jokainen kuvio, joka todella on sen niminen."
+      "instruction": "Lue rivin yläpuolella oleva nimi ja rengasta rivistä jokainen kuvio, joka todella on sen niminen."
     },
     "around-us": {
       "title": "Tasokuviot ympärillämme",

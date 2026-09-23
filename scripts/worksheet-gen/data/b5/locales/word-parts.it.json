@@ -1191,7 +1191,7 @@
         "base": "tetto",
         "prefix": "sotto",
         "word": "sottotetto",
-        "gloss": "la stanza in cima alla casa, subito sopra l’ultimo piano"
+        "gloss": "lo spazio nascosto più giù delle tegole, in cima alla casa"
       }
     ],
     "crossCheck": [
@@ -1535,7 +1535,7 @@
       "instruction": "Leggi che cosa significa ogni parola nuova, trova il suo prefisso nella tabella e scrivilo nel pezzo vuoto."
     },
     "who-does-it": {
-      "title": "Chi fa questo mestiere? Nomi in -iere, -ista, -tore",
+      "title": "Chi fa questo mestiere? Dalla parola al nome del mestiere",
       "instruction": "Guarda ogni persona, leggi la parola del cartellino accanto e scrivi nel riquadro tratteggiato il nome di chi fa quel mestiere."
     },
     "family-in-sentence": {

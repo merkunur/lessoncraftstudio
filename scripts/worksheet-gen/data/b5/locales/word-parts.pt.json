@@ -67,6 +67,66 @@
       ]
     },
     {
+      "id": "papel",
+      "stem": "papel",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "papel"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "papelaria",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "papelada",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "papeleira",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "papeleiro",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "empapelar",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "papeleta",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "papel-moeda",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "papai",
+          "whyNotFamily": "começa como \"papel\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "papagaio",
+          "whyNotFamily": "começa como \"papel\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "papa",
+          "whyNotFamily": "começa como \"papel\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
       "id": "mar",
       "stem": "mar",
       "rootIsFreeWord": true,
@@ -183,66 +243,6 @@
         {
           "word": "sorvete",
           "whyNotFamily": "um doce gelado"
-        }
-      ]
-    },
-    {
-      "id": "motor",
-      "stem": "motor",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "motor"
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "motorista",
-          "kind": "derived",
-          "slot": "noun-person"
-        },
-        {
-          "word": "motorizar",
-          "kind": "derived",
-          "slot": "verb"
-        },
-        {
-          "word": "motorizado",
-          "kind": "derived",
-          "slot": "adjective"
-        },
-        {
-          "word": "motorização",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "motorzinho",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "motorzão",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "ciclomotor",
-          "kind": "compound",
-          "slot": "noun-thing"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "morango",
-          "whyNotFamily": "uma fruta vermelha"
-        },
-        {
-          "word": "mochila",
-          "whyNotFamily": "a bolsa que vai nas costas"
-        },
-        {
-          "word": "moeda",
-          "whyNotFamily": "dinheiro de metal"
         }
       ]
     },
@@ -425,66 +425,6 @@
         {
           "word": "salada",
           "whyNotFamily": "começa como \"sal\", mas não é formada a partir dessa palavra"
-        }
-      ]
-    },
-    {
-      "id": "papel",
-      "stem": "papel",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "papel"
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "papelaria",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "papelada",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "papeleira",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "papeleiro",
-          "kind": "derived",
-          "slot": "noun-person"
-        },
-        {
-          "word": "empapelar",
-          "kind": "derived",
-          "slot": "verb"
-        },
-        {
-          "word": "papeleta",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "papel-moeda",
-          "kind": "compound",
-          "slot": "noun-thing"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "papai",
-          "whyNotFamily": "começa como \"papel\", mas não é formada a partir dessa palavra"
-        },
-        {
-          "word": "papagaio",
-          "whyNotFamily": "começa como \"papel\", mas não é formada a partir dessa palavra"
-        },
-        {
-          "word": "papa",
-          "whyNotFamily": "começa como \"papel\", mas não é formada a partir dessa palavra"
         }
       ]
     },
@@ -785,6 +725,66 @@
         {
           "word": "escolher",
           "whyNotFamily": "começa como \"escola\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
+      "id": "motor",
+      "stem": "motor",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "motor"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "motorista",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "motorizar",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "motorizado",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "motorização",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "motorzinho",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "motorzão",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "ciclomotor",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "morango",
+          "whyNotFamily": "uma fruta vermelha"
+        },
+        {
+          "word": "mochila",
+          "whyNotFamily": "a bolsa que vai nas costas"
+        },
+        {
+          "word": "moeda",
+          "whyNotFamily": "dinheiro de metal"
         }
       ]
     }
@@ -1254,7 +1254,7 @@
       {
         "word": "motorzinho",
         "slot": "noun-thing",
-        "frame": "O barquinho de brinquedo tem um {gap} que faz barulho."
+        "frame": "O motor do caminhão é enorme, mas o do barquinho é só um {gap}."
       }
     ],
     "sal": [
@@ -1680,7 +1680,7 @@
       "instruction": "Leia o que cada palavra nova significa, encontre o prefixo no quadro e escreva-o na peça vazia."
     },
     "who-does-it": {
-      "title": "Quem faz? Palavras com -eiro, -or e -ino",
+      "title": "Quem faz? Palavras com -eiro, -eira, -or e -ina",
       "instruction": "Observe cada pessoa, leia a palavra do cartão ao lado dela e escreva no quadro tracejado a palavra que diz quem faz aquilo."
     },
     "family-in-sentence": {

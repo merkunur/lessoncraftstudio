@@ -1383,6 +1383,10 @@
     {
       "pic": "weather/hot",
       "why": "um adjetivo, não um objeto: a criança diz \"sol\" / \"calor\" (painel pt)"
+    },
+    {
+      "pic": "activities/picnic",
+      "why": "uma toalha com vinho e hambúrguer: não é para criança, e ela não diz \"piquenique\" (painel pt, aberto)"
     }
   ],
   "strings": {

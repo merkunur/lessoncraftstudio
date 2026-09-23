@@ -185,7 +185,7 @@ const WORD_PARTS = {
       pf('sun', 'weather', 'sun', [m('sunny', 'derived', 'adjective')], ['summer', 'supper', 'super']),
       pf('cloud', 'spring', 'cloud', [m('cloudy', 'derived', 'adjective')], ['clock', 'clown', 'close']),
       pf('grass', 'spring', 'grass', [m('grassy', 'derived', 'adjective')], ['grape', 'gravy', 'grab']),
-      pf('hand', 'body parts', 'hand', [m('handful', 'derived', 'noun-thing'), m('handy', 'derived', 'adjective')], ['hamster', 'hanger', 'happen']),
+      pf('hand', 'body parts', 'hand', [m('handful', 'derived', 'noun-thing'), m('handy', 'derived', 'adjective')], ['hamster', 'hammer', 'happen']),
       pf('tooth', 'body parts', 'tooth', [m('toothless', 'derived', 'adjective'), m('toothy', 'derived', 'adjective')], ['today', 'tomato', 'toad']),
       pf('drum', 'music', 'drum', [m('drummer', 'derived', 'noun-person')], ['dream', 'dress', 'drop']),
       pf('book', 'classroom', 'book', [m('booklet', 'derived', 'noun-thing')], ['boot', 'bone', 'bottle']),
@@ -200,7 +200,7 @@ const WORD_PARTS = {
       play: [
         { word: 'replay', slot: 'verb', frame: 'Can we {gap} the song one more time?' },
         { word: 'player', slot: 'noun-person', frame: 'The best {gap} on our team kicked the ball.' },
-        { word: 'playtime', slot: 'noun-thing', frame: 'We run outside at {gap} after lunch.' },
+        { word: 'playfulness', slot: 'noun-thing', frame: 'The kitten’s {gap} made the whole class laugh.' },
         { word: 'playful', slot: 'adjective', frame: 'Our new puppy is very {gap} and chases its tail.' },
       ],
       act: [
@@ -219,7 +219,7 @@ const WORD_PARTS = {
         { word: 'sleeper', slot: 'noun-person', frame: 'Our baby is a light {gap} and wakes at every sound.' },
         { word: 'sleepy', slot: 'adjective', frame: 'After the long trip, I felt {gap} and yawned.' },
         { word: 'sleepily', slot: 'adverb', frame: 'The cat stretched {gap} in the warm sun.' },
-        { word: 'sleepover', slot: 'noun-thing', frame: 'Five friends came to my birthday {gap}.' },
+        { word: 'sleepiness', slot: 'noun-thing', frame: 'Her {gap} made her yawn all through the story.' },
       ],
       joy: [
         { word: 'enjoy', slot: 'verb', frame: 'I {gap} reading books in bed.' },

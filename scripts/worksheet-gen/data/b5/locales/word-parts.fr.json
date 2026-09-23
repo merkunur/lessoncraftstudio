@@ -161,8 +161,8 @@
           "slot": "adjective"
         },
         {
-          "word": "saute-mouton",
-          "kind": "compound",
+          "word": "sursaut",
+          "kind": "prefixed",
           "slot": "noun-thing"
         }
       ],
@@ -341,8 +341,8 @@
           "slot": "noun-thing"
         },
         {
-          "word": "petit-lait",
-          "kind": "compound",
+          "word": "allaitement",
+          "kind": "prefixed",
           "slot": "noun-thing"
         }
       ],
@@ -523,8 +523,8 @@
           "slot": "verb"
         },
         {
-          "word": "paravent",
-          "kind": "compound",
+          "word": "ventilation",
+          "kind": "derived",
           "slot": "noun-thing"
         }
       ],
@@ -583,8 +583,8 @@
           "slot": "noun-thing"
         },
         {
-          "word": "rond-point",
-          "kind": "compound",
+          "word": "arrondissement",
+          "kind": "prefixed",
           "slot": "noun-thing"
         }
       ],
@@ -600,6 +600,126 @@
         {
           "word": "rose",
           "whyNotFamily": "une fleur"
+        }
+      ]
+    },
+    {
+      "id": "pot",
+      "stem": "pot",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "pot"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "potier",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "poterie",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "potée",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "empoter",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "rempoter",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "potiche",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "potager",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "poule",
+          "whyNotFamily": "un oiseau de la ferme"
+        },
+        {
+          "word": "porte",
+          "whyNotFamily": "on l’ouvre pour entrer"
+        },
+        {
+          "word": "poche",
+          "whyNotFamily": "on y met les mains"
+        }
+      ]
+    },
+    {
+      "id": "patin",
+      "stem": "patin",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "patin"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "patiner",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "patineur",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "patineuse",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "patinage",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "patinoire",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "patinant",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "patinette",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "patte",
+          "whyNotFamily": "la jambe d’un animal"
+        },
+        {
+          "word": "panier",
+          "whyNotFamily": "on y met les courses"
+        },
+        {
+          "word": "pantalon",
+          "whyNotFamily": "un vêtement"
         }
       ]
     }
@@ -792,7 +912,7 @@
       "root": {
         "word": "chat",
         "pic": {
-          "theme": "animals",
+          "theme": "farm animals",
           "noun": "cat"
         },
         "picOpened": true
@@ -872,7 +992,7 @@
       "root": {
         "word": "ours",
         "pic": {
-          "theme": "zoo animals",
+          "theme": "camping",
           "noun": "bear"
         },
         "picOpened": true
@@ -1325,22 +1445,22 @@
       "insects and bugs/ant",
       "music/drum",
       "fruits/orange",
-      "animals/cat",
+      "farm animals/cat",
       "zoo animals/lion",
-      "zoo animals/bear",
+      "camping/bear",
       "animals/pig",
       "insects and bugs/butterfly"
     ],
     "F2": [
       "chant",
-      "saut",
-      "grand",
       "mont",
       "lait",
       "long",
       "dent",
       "vent",
-      "rond"
+      "rond",
+      "pot",
+      "patin"
     ],
     "F5": [
       "mont",
@@ -1367,7 +1487,7 @@
     },
     "root-word": {
       "title": "Trouver le radical commun à trois mots",
-      "instruction": "Entoure la partie commune aux trois mots et écris ce mot de base dans la pierre vide."
+      "instruction": "Entoure la partie commune aux trois mots et écris ce radical dans la pierre vide."
     },
     "prefix-key": {
       "title": "Les préfixes re-, pré- et sur- : choisis selon le sens",

@@ -160,7 +160,7 @@
           "slot": "noun-thing"
         },
         {
-          "word": "solana",
+          "word": "resolana",
           "kind": "derived",
           "slot": "noun-thing"
         },
@@ -345,7 +345,7 @@
           "slot": "noun-thing"
         },
         {
-          "word": "papelucho",
+          "word": "papelito",
           "kind": "derived",
           "slot": "noun-thing"
         }
@@ -716,6 +716,14 @@
         {
           "word": "tamarindo",
           "whyNotFamily": "empieza como \"tambor\", pero no se forma con esa palabra"
+        },
+        {
+          "word": "tarántula",
+          "whyNotFamily": "empieza como \"tambor\", pero no se forma con esa palabra"
+        },
+        {
+          "word": "tapabocas",
+          "whyNotFamily": "empieza como \"tambor\", pero no se forma con esa palabra"
         }
       ]
     },
@@ -803,6 +811,14 @@
         },
         {
           "word": "playa",
+          "whyNotFamily": "empieza como \"pluma\", pero no se forma con esa palabra"
+        },
+        {
+          "word": "plastilina",
+          "whyNotFamily": "empieza como \"pluma\", pero no se forma con esa palabra"
+        },
+        {
+          "word": "planeta",
           "whyNotFamily": "empieza como \"pluma\", pero no se forma con esa palabra"
         }
       ]
@@ -940,13 +956,13 @@
         "base": "leer",
         "prefix": "re",
         "word": "releer",
-        "gloss": "volver a leer un cuento"
+        "gloss": "leer el mismo cuento una segunda vez"
       },
       {
         "base": "llenar",
         "prefix": "re",
         "word": "rellenar",
-        "gloss": "volver a llenar el vaso"
+        "gloss": "volver a llenar el vaso vacío"
       },
       {
         "base": "hacer",
@@ -958,7 +974,7 @@
         "base": "contar",
         "prefix": "re",
         "word": "recontar",
-        "gloss": "volver a contar las canicas"
+        "gloss": "contar las canicas una vez más para revisar"
       },
       {
         "base": "calentar",

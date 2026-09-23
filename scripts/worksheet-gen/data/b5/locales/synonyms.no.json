@@ -163,7 +163,7 @@
       "tier": 2,
       "words": [
         "modig",
-        "tapper"
+        "uredd"
       ]
     },
     {
@@ -297,17 +297,6 @@
       "words": [
         "samle",
         "sanke"
-      ]
-    },
-    {
-      "id": "g.help",
-      "concept": "help",
-      "pos": "verb",
-      "domain": "hands",
-      "tier": 2,
-      "words": [
-        "hjelpe",
-        "bistå"
       ]
     },
     {
@@ -447,6 +436,16 @@
       "a": "ryddig",
       "b": "pen",
       "why": "pent kan bety ordentlig (rydde pent), men pen er et ord om utseende"
+    },
+    {
+      "a": "sint",
+      "b": "vrien",
+      "why": "om en person kan vrien bety gretten, nesten sint"
+    },
+    {
+      "a": "arg",
+      "b": "vrien",
+      "why": "om en person kan vrien bety gretten, nesten arg"
     }
   ],
   "nearOnly": [
@@ -757,7 +756,7 @@
         },
         {
           "id": "f7",
-          "text": "«Først graver du et hull, og etterpå legger du frøet oppi», {gap} {name}.",
+          "text": "«Først graver du et hull, og etterpå legger du frøet oppi», {gap} {name} til lillebror, som aldri hadde sådd før.",
           "plainVerbOK": true,
           "fit": {
             "hvisket": false,
@@ -770,7 +769,7 @@
         },
         {
           "id": "f8",
-          "text": "«Jeg skal mate fiskene hver dag», {gap} {name}.",
+          "text": "Mamma skulle reise bort en uke. «Jeg skal mate fiskene hver eneste dag», {gap} {name}.",
           "plainVerbOK": true,
           "fit": {
             "hvisket": false,

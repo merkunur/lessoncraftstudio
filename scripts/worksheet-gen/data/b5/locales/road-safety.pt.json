@@ -126,8 +126,7 @@
     "crossing",
     "pedestrian-warning",
     "school",
-    "signal-ahead",
-    "bike-warning"
+    "signal-ahead"
   ],
   "classes": [
     {

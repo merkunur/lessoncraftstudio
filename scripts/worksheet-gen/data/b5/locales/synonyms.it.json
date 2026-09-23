@@ -598,12 +598,12 @@
       ]
     },
     {
-      "id": "s.size",
-      "pos": "adj",
+      "id": "s.rain",
+      "pos": "verb",
       "words": [
-        "grande",
-        "enorme",
-        "gigantesco"
+        "piovigginare",
+        "piovere",
+        "diluviare"
       ]
     },
     {

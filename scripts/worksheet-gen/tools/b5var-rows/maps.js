@@ -26,7 +26,7 @@ const ROWS = [
     "Bird's-Eye View: From the Side and From Above", 'Each thing is drawn from the side. Draw a line to the same thing seen from above.', { gradeBand: 'K' }],
   ['g2', 'G2-369', 'maps-north-east-south-west', BASE, 2,
     { layout: 'compass-rose', roses: 6, rotations: [0, 0, 0, 90, 180, 270], givenUpright: ['e', 's', 'w'], cols: 2, px: 198, cardW: 312, cardH: 214, gapMin: 8 },
-    'North, East, South, West: Label the Four Directions', 'Each compass rose shows one letter, so write the other three letters in the empty boxes.', { gradeBand: 'G2' }],
+    'North, East, South, West: Label the Four Directions', 'The orange tip on each compass rose points north; write the three missing letters in the empty boxes.', { gradeBand: 'G2' }],
   ['g2', 'G2-370', 'maps-label-the-continents', BASE, 2,
     { layout: 'continents', bank: true, answer: 'write', perRow: 2, laneW: 257, laneH: 44, glyphH: 24, gapMin: 8 },
     'Label the Continents', 'Write the name of each numbered continent on its line. Use the names in the box.', { gradeBand: 'G2' }],

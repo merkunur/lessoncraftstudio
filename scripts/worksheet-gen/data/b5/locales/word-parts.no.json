@@ -27,6 +27,11 @@
           "slot": "verb"
         },
         {
+          "word": "hjelpende",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
           "word": "hjelpsom",
           "kind": "derived",
           "slot": "adjective"
@@ -42,17 +47,12 @@
           "slot": "adjective"
         },
         {
-          "word": "hjelpeløshet",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
           "word": "medhjelper",
           "kind": "prefixed",
           "slot": "noun-person"
         },
         {
-          "word": "hjelpemiddel",
+          "word": "førstehjelp",
           "kind": "compound",
           "slot": "noun-thing"
         }
@@ -147,11 +147,6 @@
           "slot": "verb"
         },
         {
-          "word": "arbeidsom",
-          "kind": "derived",
-          "slot": "adjective"
-        },
-        {
           "word": "arbeidsløs",
           "kind": "derived",
           "slot": "adjective"
@@ -165,6 +160,11 @@
           "word": "samarbeid",
           "kind": "prefixed",
           "slot": "noun-thing"
+        },
+        {
+          "word": "samarbeide",
+          "kind": "prefixed",
+          "slot": "verb"
         },
         {
           "word": "bearbeide",
@@ -277,7 +277,7 @@
           "slot": "noun-thing"
         },
         {
-          "word": "vennskapelig",
+          "word": "venneløs",
           "kind": "derived",
           "slot": "adjective"
         },
@@ -529,9 +529,9 @@
           "slot": "noun-thing"
         },
         {
-          "word": "gjennomlesing",
-          "kind": "prefixed",
-          "slot": "noun-thing"
+          "word": "leselig",
+          "kind": "derived",
+          "slot": "adjective"
         },
         {
           "word": "lesehest",
@@ -687,41 +687,6 @@
       ]
     },
     {
-      "id": "hår",
-      "stem": "hår",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "hår",
-        "pic": {
-          "theme": "body parts",
-          "noun": "hair"
-        },
-        "picOpened": true
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "hårete",
-          "kind": "derived",
-          "slot": "adjective"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "håp",
-          "whyNotFamily": "begynner som «hår», men er ikke laget av ordet"
-        },
-        {
-          "word": "håndkle",
-          "whyNotFamily": "begynner som «hår», men er ikke laget av ordet"
-        },
-        {
-          "word": "hånd",
-          "whyNotFamily": "begynner som «hår», men er ikke laget av ordet"
-        }
-      ]
-    },
-    {
       "id": "tann",
       "stem": "tann",
       "rootIsFreeWord": true,
@@ -852,7 +817,7 @@
           "whyNotFamily": "begynner som «blomst», men er ikke laget av ordet"
         },
         {
-          "word": "blad",
+          "word": "blåbær",
           "whyNotFamily": "begynner som «blomst», men er ikke laget av ordet"
         },
         {
@@ -910,9 +875,9 @@
         "frame": "Mormor fikk en flink {gap} på kjøkkenet."
       },
       {
-        "word": "hjelpsomhet",
+        "word": "førstehjelp",
         "slot": "noun-thing",
-        "frame": "Læreren takket Nora for hennes store {gap}."
+        "frame": "På skolen lærte vi {gap}, og hva vi gjør hvis noen skader seg."
       },
       {
         "word": "hjelpsom",
@@ -920,26 +885,26 @@
         "frame": "Det er fint å være {gap} mot vennene sine."
       }
     ],
-    "arbeid": [
+    "venn": [
       {
-        "word": "arbeide",
-        "slot": "verb",
-        "frame": "Pappa liker å {gap} i hagen på lørdager."
-      },
-      {
-        "word": "medarbeider",
-        "slot": "noun-person",
-        "frame": "Mamma har fått en ny {gap} på jobben."
-      },
-      {
-        "word": "arbeidsdag",
-        "slot": "noun-thing",
-        "frame": "Etter en lang {gap} vil mamma hvile."
-      },
-      {
-        "word": "arbeidsom",
+        "word": "vennlig",
         "slot": "adjective",
-        "frame": "Mauren er liten, men veldig {gap}."
+        "frame": "Bussjåføren var {gap} og smilte til alle som gikk på."
+      },
+      {
+        "word": "venninne",
+        "slot": "noun-person",
+        "frame": "Sofie fikk besøk av ei {gap} fra klassen."
+      },
+      {
+        "word": "vennlighet",
+        "slot": "noun-thing",
+        "frame": "Takk for all {gap} dere viste oss i dag."
+      },
+      {
+        "word": "vennligst",
+        "slot": "adverb",
+        "frame": "Vi ber dere {gap} ta av dere skoene i gangen."
       }
     ]
   },
@@ -1230,14 +1195,6 @@
       }
     },
     {
-      "key": "musician",
-      "base": "musikk",
-      "answer": {
-        "any": "musiker"
-      },
-      "stemSigned": true
-    },
-    {
       "key": "athlete",
       "base": "løpe",
       "answer": {
@@ -1252,34 +1209,25 @@
       }
     },
     {
-      "key": "cashier",
-      "base": "kasse",
+      "key": "tailor",
+      "base": "sy",
       "answer": {
-        "any": "kasserer"
+        "any": "syer"
       }
     },
     {
-      "key": "pharmacist",
-      "base": "apotek",
+      "key": "student",
+      "base": "lese",
       "answer": {
-        "any": "apoteker"
+        "any": "leser"
       }
     },
     {
-      "key": "judge",
-      "base": "dømme",
+      "key": "construction_worker",
+      "base": "bygge",
       "answer": {
-        "any": "dommer"
-      },
-      "stemSigned": true
-    },
-    {
-      "key": "carpenter",
-      "base": "snekre",
-      "answer": {
-        "any": "snekker"
-      },
-      "stemSigned": true
+        "any": "bygger"
+      }
     }
   ],
   "exemplar": {
@@ -1290,7 +1238,6 @@
     "F1": [
       "weather/sun",
       "spring/cloud",
-      "body parts/hair",
       "body parts/tooth",
       "camping/rock",
       "shapes/heart",
@@ -1311,7 +1258,7 @@
     ],
     "F5": [
       "hjelp",
-      "arbeid"
+      "venn"
     ]
   },
   "refuse": {
@@ -1333,7 +1280,7 @@
     },
     "root-word": {
       "title": "Finn rotordet",
-      "instruction": "Ring rundt delen som de tre ordene har felles, og skriv rotordet i den tomme steinen."
+      "instruction": "Ring rundt delen som de tre ordene har felles, og skriv den samme delen i den tomme steinen."
     },
     "prefix-key": {
       "title": "Forstavelsene gjen-, mis- og over-: velg etter betydning",

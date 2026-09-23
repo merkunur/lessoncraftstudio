@@ -768,7 +768,7 @@
         },
         {
           "id": "f6",
-          "text": "”Sju och tre är tio”, {gap} {name} med ett stort leende.",
+          "text": "Mamma undrade: ”Är du hungrig?” ”Ja, jättehungrig”, {gap} {name}.",
           "plainVerbOK": true,
           "fit": {
             "viskade": false,

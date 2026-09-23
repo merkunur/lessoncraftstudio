@@ -74,7 +74,7 @@ const MAPS_LOC = {
       },
       'compass-rose': {
         title: 'North, East, South, West: Label the Four Directions',
-        instruction: 'Each compass rose shows one letter, so write the other three letters in the empty boxes.',
+        instruction: 'The orange tip on each compass rose points north; write the three missing letters in the empty boxes.',
       },
       continents: {
         title: 'Label the Continents',

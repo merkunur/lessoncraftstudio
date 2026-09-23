@@ -54,11 +54,11 @@
     {
       "left": {
         "theme": "insects and bugs",
-        "noun": "caterpillar"
+        "noun": "butterfly"
       },
       "right": {
         "theme": "insects and bugs",
-        "noun": "butterfly"
+        "noun": "caterpillar"
       }
     }
   ]

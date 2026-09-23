@@ -892,7 +892,7 @@
     "instruction": "Look at the lamp that is on, then circle what to do: stop or go."
   },
   "K-370": {
-    "title": "Family Members: Who Is Who?",
+    "title": "Family Members: Who Is Who?",
     "instruction": "Find each person on the family tree and write their number in the box next to their family word."
   },
   "G1-101": {
@@ -1746,6 +1746,18 @@
   "G1-376": {
     "title": "Parts of a Plant",
     "instruction": "Follow each numbered tag to a part of the plant. Write the name of that part from the word bank on the line with the same number."
+  },
+  "G1-377": {
+    "title": "Butterfly Life Cycle",
+    "instruction": "The egg is 1: write 2, 3 and 4 in the boxes as it grows, and in the last box the number of the picture that comes after the butterfly."
+  },
+  "G1-378": {
+    "title": "Sun, Earth and Moon",
+    "instruction": "Read each sentence. Is it about the Sun, the Earth or the Moon? Tick one box."
+  },
+  "G1-379": {
+    "title": "Read the Map Key",
+    "instruction": "Look at the map key. Find each thing on the map. Count them and write how many in the box."
   },
   "G2-203": {
     "title": "Add the Blocks",

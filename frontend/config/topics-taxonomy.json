@@ -624,6 +624,56 @@
       "default_subject": "math",
       "default_age_range": "7-9",
       "exercise_type_axis_key": "rounding"
+    },
+    "2d-shapes": {
+      "default_subject": "math",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "2d-shapes"
+    },
+    "road-safety": {
+      "default_subject": "science",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "road-safety"
+    },
+    "family": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "family"
+    },
+    "plants": {
+      "default_subject": "science",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "plants"
+    },
+    "animal-life-cycles": {
+      "default_subject": "science",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "animal-life-cycles"
+    },
+    "earth-and-space": {
+      "default_subject": "science",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "earth-and-space"
+    },
+    "maps": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "maps"
+    },
+    "digraphs": {
+      "default_subject": "letters",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "digraphs"
+    },
+    "synonyms": {
+      "default_subject": "letters",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "synonyms"
+    },
+    "word-parts": {
+      "default_subject": "letters",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "word-parts"
     }
   },
   "$comment_subjects": "Subject×grade hub registry (2026-07-05). Powers /[locale]/topic/<subject>/<grade> hub pages that match how teachers search (Fach×Klasse, e.g. 'Mathe Klasse 1'). Keys = the apps.*.default_subject buckets (math/logic/letters/spatial-reasoning/science). slug+name per locale; bucket→exercise-type mapping derived from apps.* in code (exerciseTypeKeysForSubject). NOTE: the older $comment_subject_vocabulary claim of '4 values, no science' is stale — the corpus has 5 (science = science-sort/match/sequence). Added de+en at MVP; other locales added per the per-locale SEO rollout with native Fach terms.",
@@ -4249,6 +4299,86 @@
           "no": "Avrunding",
           "da": "Afrunding",
           "fi": "Pyöristäminen"
+        }
+      },
+      "2d-shapes": {
+        "slug": {
+          "en": "2d-shapes"
+        },
+        "name": {
+          "en": "2D Shapes"
+        }
+      },
+      "road-safety": {
+        "slug": {
+          "en": "road-safety"
+        },
+        "name": {
+          "en": "Road Safety"
+        }
+      },
+      "family": {
+        "slug": {
+          "en": "family"
+        },
+        "name": {
+          "en": "Family Members"
+        }
+      },
+      "plants": {
+        "slug": {
+          "en": "plants"
+        },
+        "name": {
+          "en": "Parts of a Plant"
+        }
+      },
+      "animal-life-cycles": {
+        "slug": {
+          "en": "animal-life-cycles"
+        },
+        "name": {
+          "en": "Animal Life Cycles"
+        }
+      },
+      "earth-and-space": {
+        "slug": {
+          "en": "earth-and-space"
+        },
+        "name": {
+          "en": "Sun, Earth and Moon"
+        }
+      },
+      "maps": {
+        "slug": {
+          "en": "maps"
+        },
+        "name": {
+          "en": "Map Skills"
+        }
+      },
+      "digraphs": {
+        "slug": {
+          "en": "digraphs"
+        },
+        "name": {
+          "en": "Digraphs"
+        }
+      },
+      "synonyms": {
+        "slug": {
+          "en": "synonyms"
+        },
+        "name": {
+          "en": "Synonyms"
+        }
+      },
+      "word-parts": {
+        "slug": {
+          "en": "word-parts"
+        },
+        "name": {
+          "en": "Word Families and Word Parts"
         }
       }
     },

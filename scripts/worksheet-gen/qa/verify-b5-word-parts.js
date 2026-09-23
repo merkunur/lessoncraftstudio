@@ -27,6 +27,9 @@
  * 4. POISON — each must FAIL for its OWN reason (no fail = SILENT, another = WRONG REASON;
  *    either exits 1); the correct EN bank is the control. §5 P1-P17 + control C1 + the base
  *    render poisons PR5 PR6 PR7 PR8 + PS (sparse). PR1 / PR4 live in verify-word-brick.js.
+ * 5. FACES (Phase E, 2026-09-23) — qa/b5-word-parts-faces.js: strings, sweeps, refusals, 5 faces x 4 chromes
+ *    (SPARSE on ink, FILL), PR2 PR3 PR9 + the face poisons. Rule 14b (an en instruction names only apparatus
+ *    its face prints) and the picFamilies / rootFamilies rules live in validateBank.
  */
 'use strict';
 const path = require('path');
@@ -42,6 +45,7 @@ const brickGate = require('./verify-word-brick.js');
 const bankMod = require('../data/b5/word-parts.js');
 const { PRONOUNS } = require('../data/b4/pronouns.js');
 const TYPE = require('../types/g2/G2-359-prefixes-suffixes-and-root-words.js');
+const { faceGate } = require('./b5-word-parts-faces.js');
 const TAX = require('../../../frontend/config/topics-taxonomy.json');
 
 const OUT = path.join(__dirname, '..', 'out', 'dev', 'G2-359-gate');
@@ -62,8 +66,17 @@ const APPARATUS_EN = {
   base: [/word/i, /wall/i, /root word/i], 'picture-family': [/picture/i, /word/i], 'root-word': [/words/i, /part/i, /stone/i],
   'prefix-key': [/mean/i, /prefix/i, /key/i, /empty piece/i], 'who-does-it': [/person/i, /word/i, /empty brick/i], 'family-in-sentence': [/words/i, /stone/i, /sentence/i],
 };
+/** Rule 14b (nt10-E): the apparatus NOUNS an en instruction may name = those drawn on that face's page. */
+const APP_NOUNS = { line: /(?<!\p{L})lines?(?!\p{L})/iu, box: /(?<!\p{L})box(es)?(?!\p{L})/iu, wall: /(?<!\p{L})walls?(?!\p{L})/iu, key: /(?<!\p{L})keys?(?!\p{L})/iu,
+  piece: /(?<!\p{L})pieces?(?!\p{L})/iu, stone: /(?<!\p{L})stones?(?!\p{L})/iu, brick: /(?<!\p{L})bricks?(?!\p{L})/iu, picture: /(?<!\p{L})pictures?(?!\p{L})/iu,
+  sentence: /(?<!\p{L})sentences?(?!\p{L})/iu, strip: /(?<!\p{L})strips?(?!\p{L})/iu, chart: /(?<!\p{L})charts?(?!\p{L})/iu, grid: /(?<!\p{L})grids?(?!\p{L})/iu, card: /(?<!\p{L})cards?(?!\p{L})/iu };
+const APP_PRESENT = {
+  base: ['wall', 'line', 'stone', 'brick', 'strip'], 'picture-family': ['picture', 'brick', 'stone', 'card'], 'root-word': ['stone', 'brick', 'line', 'card'],
+  'prefix-key': ['key', 'piece', 'brick', 'line'], 'who-does-it': ['brick', 'picture', 'line', 'card'], 'family-in-sentence': ['stone', 'sentence', 'brick', 'line'],
+};
 const INFLECT_EN = ['s', 'es', 'ed', 'd', 'ing', 'est', 'ies', 'ied'];
-const F1_REFUSED = ['weather/raindrop', 'weather/snowflake', 'spring/garden', 'summer/sand'];
+// + weather/cloud: nt10-D opened it and ruled it a pink faced blob (b4-designs _SUBSTRATE); F1 pins spring/cloud
+const F1_REFUSED = ['weather/raindrop', 'weather/snowflake', 'spring/garden', 'summer/sand', 'weather/cloud'];
 const AGENT_EXCLUDED = { all: ['author', 'librarian', 'coach'], en: ['waitress'] };
 const BW = /(^|\s)(bw|sw|bn|nb|zw|sh|pb|mv|sv)(\s|\d|$)/i;
 const SPARSE_MAX = 40;
@@ -106,8 +119,10 @@ function validateBank(b, loc) {
   const neg = negatingTokens(b, loc);
   const CW = compoundWords();
   const VF = verbForms(loc);
+  const rootFams = Array.isArray(b.rootFamilies) ? b.rootFamilies : [];
+  const picFams = Array.isArray(b.picFamilies) ? b.picFamilies : [];
   const allMembers = new Map();
-  for (const fam of fams) for (const mm of fam.members || []) allMembers.set(low(mm.word, loc), fam.id);
+  for (const fam of [...fams, ...rootFams, ...picFams]) for (const mm of fam.members || []) allMembers.set(low(mm.word, loc), fam.id);
   const wordOk = (w, what) => {
     if (typeof w !== 'string' || !w.trim()) { push(`${what} missing (rule 1)`); return false; }
     if (w !== w.normalize('NFC')) push(`${what} "${w}" is not NFC (rule 1)`);
@@ -118,7 +133,7 @@ function validateBank(b, loc) {
   // rule 4
   if (fams.length < 6) push(`${fams.length} families (< 6, rule 4)`);
   const ids = new Set();
-  for (const fam of fams) {
+  for (const fam of [...fams, ...rootFams]) {
     const tag = `family ${fam.id}`;
     if (ids.has(fam.id)) push(`${tag}: the id repeats`); ids.add(fam.id);
     if (fam.signed !== true) push(`${tag}: not signed`);
@@ -168,14 +183,60 @@ function validateBank(b, loc) {
       if (allMembers.has(low(la.word, loc))) push(`${tag} look-alike "${la.word}": is a family member (rule 6)`);
     }
   }
-  // cross-family: no member contains another family's stem
-  for (const fa of fams) for (const fb of fams) if (fa !== fb) {
+  // cross-family: no member contains another family's stem (families + rootFamilies share the F2 page)
+  const wallFams = [...fams, ...rootFams];
+  for (const fa of wallFams) for (const fb of wallFams) if (fa !== fb) {
     const sb = low(fb.stem || '', loc);
     for (const mm of fa.members || []) if (sb && low(mm.word, loc).includes(sb) && low(fa.stem, loc).includes(sb) === false) push(`family ${fa.id} member "${mm.word}" contains family ${fb.id}'s stem "${fb.stem}" (a two-wall brick)`);
   }
+  // F1 picture-root families (Phase E): >= 1 derived member CONTAINING the root, >= 3 look-alikes that
+  // share its first 2 letters and do NOT contain it (exactly one brick per card is built from the picture word)
+  const pidSeen = new Set();
+  for (const fam of picFams) {
+    const tag = `picFamily ${fam.id}`;
+    if (pidSeen.has(fam.id)) push(`${tag}: the id repeats`); pidSeen.add(fam.id);
+    if (fam.signed !== true) push(`${tag}: not signed`);
+    const root = fam.root && fam.root.word;
+    if (!wordOk(root, `${tag} root.word`)) continue;
+    const r = low(root, loc);
+    const pic = fam.root.pic;
+    if (!pic) push(`${tag}: no root.pic (a picture root needs its picture, rule 7)`);
+    else {
+      if (fam.root.picOpened !== true) push(`${tag}: root.pic ${pic.theme}/${pic.noun} not opened (rule 7)`);
+      if (BW.test(pic.theme)) push(`${tag}: root.pic is a B&W theme`);
+      if (F1_REFUSED.includes(pic.theme + '/' + pic.noun)) push(`${tag}: root.pic ${pic.theme}/${pic.noun} is a refused F1 root picture (rule 7)`);
+      try { fileUri(pic.theme, pic.noun); } catch (e) { push(`${tag}: root.pic ${pic.theme}/${pic.noun} does not resolve (rule 7)`); }
+    }
+    const mem = fam.members || [];
+    if (!mem.length) push(`${tag}: no member (F1 needs >= 1)`);
+    for (const mm of mem) {
+      const mt = `${tag} member "${mm.word}"`;
+      if (!wordOk(mm.word, mt)) continue;
+      const w = low(mm.word, loc);
+      if (mm.kind !== 'derived') push(`${mt}: kind "${mm.kind}" (F1 members are derived, never compound)`);
+      if (!w.includes(r)) push(`${mt}: does not contain the picture word "${root}" (F1)`);
+      const ends = loc === 'en' ? INFLECT_EN : (b.inflections || []);
+      for (const e of ends) if (w === r + e) push(`${mt}: an inflected form (${r} + -${e}, rule 3)`);
+      if (VF.has(w)) push(`${mt}: an inflected form in the verb-forms bank (rule 3)`);
+      for (const t of neg) if (w.startsWith(t) && !w.startsWith(r)) push(`${mt}: begins with the negating prefix "${t}" (rule 8)`);
+      if (CW.has(w)) push(`${mt}: a compound-words bank word (rule 11)`);
+      if (WB.brickEstimate(20, glyphs(mm.word)) > 185) push(`${mt}: does not fit a G1 brick at 20 px (rule 15)`);
+    }
+    const looks = fam.lookAlikes || [];
+    if (looks.length < 3) push(`${tag}: ${looks.length} look-alikes (< 3)`);
+    for (const la of looks) {
+      const lw = low(la.word, loc);
+      if (!la.whyNotFamily) push(`${tag} look-alike "${la.word}": no whyNotFamily (rule 6)`);
+      if (lw.slice(0, 2) !== r.slice(0, 2)) push(`${tag} look-alike "${la.word}": does not share 2 initial letters with "${root}" (rule 6)`);
+      if (lw.includes(r)) push(`${tag} look-alike "${la.word}": contains the picture word "${root}" (two bricks built from it)`);
+      if (allMembers.has(lw)) push(`${tag} look-alike "${la.word}": is a family member (rule 6)`);
+      if (WB.brickEstimate(20, glyphs(la.word)) > 185) push(`${tag} look-alike "${la.word}": does not fit a G1 brick at 20 px (rule 15)`);
+    }
+  }
   // rule 5: exemplar pairs
   const ex = b.exemplar || {};
-  const byId = Object.fromEntries(fams.map((x) => [x.id, x]));
+  const byId = Object.fromEntries([...fams, ...rootFams].map((x) => [x.id, x]));
+  for (const id of ex.F2 || []) if (!byId[id]) push(`exemplar.F2 names an unknown family "${id}"`);
   for (const key of ['base', 'F5']) {
     const list = (ex[key] || []).map((id) => byId[id]);
     if (list.some((x) => !x)) { push(`exemplar.${key} names an unknown family (rule 5)`); continue; }
@@ -187,7 +248,7 @@ function validateBank(b, loc) {
   }
   // rule 7: F1 roots (when authored)
   for (const k of ex.F1 || []) {
-    const fam = fams.find((x) => x.root && x.root.pic && (x.root.pic.theme + '/' + x.root.pic.noun) === k);
+    const fam = [...picFams, ...fams].find((x) => x.root && x.root.pic && (x.root.pic.theme + '/' + x.root.pic.noun) === k);
     if (!fam) { push(`exemplar.F1 "${k}": no family pins that picture (rule 7)`); continue; }
     if (F1_REFUSED.includes(k)) push(`exemplar.F1 "${k}": a refused F1 root picture (rule 7)`);
     const m = require('../cache/manifest.json');
@@ -268,6 +329,7 @@ function validateBank(b, loc) {
     if (INSTR_BANNED.test(ins)) push(`strings.${id} instruction names "${ins.match(INSTR_BANNED)[0]}" (rule 14)`);
     for (const x of [t, ins]) { const h = freeClaim.hit(x); if (h) push(`strings.${id} claims free ("${h}", rule 14)`); if (ANSWERS_WORD.test(x)) push(`strings.${id} promises answers (rule 14)`); }
     if (loc === 'en') for (const re of APPARATUS_EN[id]) if (!re.test(ins)) push(`strings.${id} instruction does not name its apparatus ${re} (rule 14)`);
+    if (loc === 'en') for (const [noun, re] of Object.entries(APP_NOUNS)) if (re.test(ins) && !APP_PRESENT[id].includes(noun)) push(`strings.${id} instruction names "${noun}", which is not on the ${id} page (rule 14b)`);
     titles.push(low(t, loc));
   }
   if (new Set(titles).size !== titles.length) push('two faces share a title (rule 14)');
@@ -446,12 +508,15 @@ async function main() {
       const t = withBlock(wide, { bankRowsMax: 9, perWall: 5 });   // the composer's own guard lifted: the RENDER check must catch it
       await rp('PR7 a 4-row bank', t, /bank wraps to 4 rows|takes 4 rows/, { assert: true });
     }
-    { let m = null; try { TYPE._buildWith(banks.en, { ...TYPE.difficulty[2], mode: 'root-word' }, { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } judge('PR8 a face config fed to the base', m ? [m] : [], /is a face \(Phase E\)/); }
+    { let m = null; try { TYPE._buildWith(banks.en, { ...TYPE.difficulty[2], mode: 'root-word' }, { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } judge('PR8 a face mode on the base config (without the face keys)', m ? [m] : [], /root-word config is missing its own key/); }
     {
       // PS: the SPARSE poison — the walls row neither grows nor stretches, the page spreads its blocks apart
       const t = doctored((h) => h.replace('justify-content:flex-start;gap:14px', 'justify-content:space-between;gap:14px').replace(/flex:1 1 auto;min-height:\d+px;max-height:\d+px/, 'flex:0 0 auto'));
       await rp('PS blocks spread apart (sparse)', t, /SPARSE — \d+ px blank band bank -> walls/, { assert: true, strings: LONG.c814 });
     }
+    // 5. FACES (Phase E) — qa/b5-word-parts-faces.js
+    const faceRows = await faceGate({ page, ok, judge, validateBank, quick, OUT });
+    for (const r of faceRows) console.log(r);
   } finally { await browser.close(); }
 
   console.log('poison:\n' + log.join('\n'));

@@ -32,16 +32,36 @@
  *   strings     { base, 'picture-family', 'root-word', 'prefix-key', 'who-does-it',
  *                 'family-in-sentence' } each {title, instruction}; base === the spec's i18n.en.
  *
- * F1 (picture-family) is NOT authored here: its picture-root families (sun, cloud, tooth,
- * hand, hair, drum, book, fish, boat, flower, bread) cannot meet the >= 7 members /
- * <= 1 compound rule in en (measured: sun has sunny, sunless and compounds only);
- * recorded as an open item for Phase E in _work/G2-359-build.md.
+ *   rootFamilies[]  (Phase E, F2 only) more families of the SAME shape and rules as
+ *               families[]; kept apart so the base composer (which reads families[]
+ *               only) draws byte-identical pages. F2 draws from families + rootFamilies.
+ *   picFamilies[] (Phase E, F1 only) PICTURE-ROOT families: { id, stem, root:{ word,
+ *               pic:{theme,noun}, picOpened:true }, members:[>= 1 derived, non-compound,
+ *               each CONTAINING the root word], lookAlikes:[>= 3], signed }. The root is
+ *               never printed (the child names the picture), so its family need not
+ *               reach the >= 7-member floor of a printed wall: a picture root in en has
+ *               one or two honest derived words (sun: sunny) and the rest are compounds
+ *               (sunflower, sunshine: owned by compound-words). F1 floor = >= 1 member,
+ *               >= 3 look-alikes that share >= 2 initial letters with the root and do
+ *               NOT contain it (so exactly ONE brick per card is built from the picture
+ *               word, by construction). Pictures OPENED 2026-09-23 (scratchpad
+ *               wp-f1-sheet.png): refused spring/rain (a raining cloud: a child names
+ *               "cloud"), At the Supermarket/milk (a bottle), /salt (prints SALT);
+ *               dropped At the Supermarket/cheese (cheesy drops the e: a member must
+ *               CONTAIN the root); cloud = spring/cloud (a plain pale-blue cloud): weather/cloud is
+ *               the nt10-D-refused "pink faced blob" and weather/cloudy's vocab word is
+ *               cloudy (the answer itself). 12 picture roots.
  *
  * `data/` is gitignored — the reviewer force-adds this module.
  */
 'use strict';
 
 const m = (word, kind, slot, extra) => ({ word, kind, slot, ...(extra || {}) });
+/** A picture-root family (F1): the root word is the picture's own vocab word; look-alikes share its first letters only. */
+const pf = (id, theme, noun, members, looks) => ({
+  id, stem: id, rootIsFreeWord: true, root: { word: id, pic: { theme, noun }, picOpened: true }, signed: true, members,
+  lookAlikes: looks.map((w) => ({ word: w, whyNotFamily: 'starts like "' + id + '" but is not built from it' })),
+});
 
 const WORD_PARTS = {
   en: {
@@ -126,7 +146,55 @@ const WORD_PARTS = {
           { word: 'sleet', whyNotFamily: 'icy rain' }],
       },
     ],
-    // F5 (family-in-sentence): the two exemplar families' four sentence-ready members.
+    // F2 only (root-word): three more families, same rules as families[] (the base never reads them).
+    rootFamilies: [
+      {
+        id: 'cheer', stem: 'cheer', rootIsFreeWord: true, root: { word: 'cheer' }, signed: true,
+        members: [
+          m('cheerful', 'derived', 'adjective'), m('cheerfully', 'derived', 'adverb'), m('cheerfulness', 'derived', 'noun-thing'),
+          m('cheerless', 'derived', 'adjective'), m('cheery', 'derived', 'adjective'), m('cheerily', 'derived', 'adverb'),
+          m('cheerleader', 'compound', 'noun-person'),
+        ],
+        lookAlikes: [{ word: 'cherry', whyNotFamily: 'a small red fruit' }, { word: 'cheese', whyNotFamily: 'a food made from milk' },
+          { word: 'check', whyNotFamily: 'to look again; only "che" matches' }],
+      },
+      {
+        id: 'power', stem: 'power', rootIsFreeWord: true, root: { word: 'power' }, signed: true,
+        members: [
+          m('powerful', 'derived', 'adjective'), m('powerfully', 'derived', 'adverb'), m('powerfulness', 'derived', 'noun-thing'),
+          m('powerless', 'derived', 'adjective'), m('powerlessly', 'derived', 'adverb'), m('empower', 'prefixed', 'verb'),
+          m('powerlessness', 'derived', 'noun-thing'),
+        ],
+        lookAlikes: [{ word: 'powder', whyNotFamily: 'a fine dust, like flour' }, { word: 'pocket', whyNotFamily: 'a pouch in your clothes' },
+          { word: 'pour', whyNotFamily: 'to tip water out of a jug' }],
+      },
+      {
+        id: 'rest', stem: 'rest', rootIsFreeWord: true, root: { word: 'rest' }, signed: true,
+        members: [
+          m('restful', 'derived', 'adjective'), m('restfully', 'derived', 'adverb'), m('restfulness', 'derived', 'noun-thing'),
+          m('restless', 'derived', 'adjective'), m('restlessly', 'derived', 'adverb'), m('restlessness', 'derived', 'noun-thing'),
+          m('restroom', 'compound', 'noun-thing'),
+        ],
+        lookAlikes: [{ word: 'red', whyNotFamily: 'a colour' }, { word: 'rescue', whyNotFamily: 'to save someone' },
+          { word: 'recess', whyNotFamily: 'break time at school' }],
+      },
+    ],
+    // F1 only (picture-family): picture roots, never printed; see the header.
+    picFamilies: [
+      pf('sun', 'weather', 'sun', [m('sunny', 'derived', 'adjective')], ['summer', 'supper', 'super']),
+      pf('cloud', 'spring', 'cloud', [m('cloudy', 'derived', 'adjective')], ['clock', 'clown', 'close']),
+      pf('hair', 'body parts', 'hair', [m('hairy', 'derived', 'adjective')], ['hammer', 'happy', 'hat']),
+      pf('hand', 'body parts', 'hand', [m('handful', 'derived', 'noun-thing'), m('handy', 'derived', 'adjective')], ['hamster', 'hanger', 'happen']),
+      pf('tooth', 'body parts', 'tooth', [m('toothless', 'derived', 'adjective'), m('toothy', 'derived', 'adjective')], ['today', 'tomato', 'toad']),
+      pf('drum', 'music', 'drum', [m('drummer', 'derived', 'noun-person')], ['dream', 'dress', 'drop']),
+      pf('book', 'classroom', 'book', [m('booklet', 'derived', 'noun-thing')], ['boot', 'bone', 'bottle']),
+      pf('fish', 'ocean life', 'fish', [m('fishy', 'derived', 'adjective')], ['fist', 'first', 'fit']),
+      pf('flower', 'spring', 'flower', [m('flowery', 'derived', 'adjective')], ['flour', 'float', 'flute']),
+      pf('rock', 'camping', 'rock', [m('rocky', 'derived', 'adjective')], ['robot', 'rope', 'rose']),
+      pf('star', 'christmas', 'star', [m('starry', 'derived', 'adjective')], ['stamp', 'stair', 'stack']),
+      pf('leaf', 'spring', 'leaf', [m('leafy', 'derived', 'adjective')], ['learn', 'leap', 'lemon']),
+    ],
+    // F5 (family-in-sentence): four sentence-ready members per family (one per slot); the face draws two compatible blocks.
     sentences: {
       play: [
         { word: 'replay', slot: 'verb', frame: 'Can we {gap} the song one more time?' },
@@ -139,6 +207,24 @@ const WORD_PARTS = {
         { word: 'actor', slot: 'noun-person', frame: 'The {gap} waved to us from the stage.' },
         { word: 'action', slot: 'noun-thing', frame: 'That movie was full of fast {gap} and chases.' },
         { word: 'active', slot: 'adjective', frame: 'Grandpa stays {gap} by walking every day.' },
+      ],
+      help: [
+        { word: 'helper', slot: 'noun-person', frame: 'Mom\'s little {gap} set the table for us.' },
+        { word: 'helpful', slot: 'adjective', frame: 'It is {gap} to hold the door open.' },
+        { word: 'helpfully', slot: 'adverb', frame: 'Tom {gap} carried the box for Grandma.' },
+        { word: 'helpfulness', slot: 'noun-thing', frame: 'We thanked Ana for all her {gap}.' },
+      ],
+      care: [
+        { word: 'careful', slot: 'adjective', frame: 'Be {gap} when you cross the road.' },
+        { word: 'carefully', slot: 'adverb', frame: 'Carry the eggs {gap} so they do not break.' },
+        { word: 'caregiver', slot: 'noun-person', frame: 'The {gap} fed the baby and sang to her.' },
+        { word: 'carefulness', slot: 'noun-thing', frame: 'A tall card tower takes lots of {gap}.' },
+      ],
+      joy: [
+        { word: 'enjoy', slot: 'verb', frame: 'I {gap} reading books in bed.' },
+        { word: 'joyful', slot: 'adjective', frame: 'Everyone felt {gap} when the snow came.' },
+        { word: 'joyfully', slot: 'adverb', frame: 'The dog jumped {gap} when we came home.' },
+        { word: 'enjoyment', slot: 'noun-thing', frame: 'We read the funny story for pure {gap}.' },
       ],
     },
     prefixKey: {
@@ -182,14 +268,19 @@ const WORD_PARTS = {
       { key: 'ballerina', base: 'dance', answer: { any: 'dancer' } },
       { key: 'cashier', base: 'cash', answer: { any: 'cashier' } },
     ],
-    exemplar: { base: ['help', 'fear'], F2: ['help', 'play', 'care', 'use', 'joy', 'fear', 'act', 'sleep'], F5: ['play', 'act'] },
+    exemplar: {
+      base: ['help', 'fear'],
+      F1: ['weather/sun', 'spring/cloud', 'body parts/hair', 'body parts/hand', 'body parts/tooth', 'music/drum', 'classroom/book', 'ocean life/fish', 'spring/flower', 'camping/rock', 'christmas/star', 'spring/leaf'],
+      F2: ['help', 'play', 'care', 'use', 'joy', 'fear', 'act', 'sleep', 'cheer', 'power', 'rest'],
+      F5: ['play', 'act', 'help', 'care', 'joy'],
+    },
     refuse: { base: false, 'picture-family': false, 'root-word': false, 'prefix-key': false, 'who-does-it': false, 'family-in-sentence': false },
     strings: {
       base: { title: 'Root Words: Sort by the Root', instruction: 'Read each word at the top and write it on a line of the wall that stands on its root word.' },
-      'picture-family': { title: 'Root Words with Pictures', instruction: 'Name each picture, then circle the one word above it that is built from that picture word.' },
+      'picture-family': { title: 'Root Words with Pictures: Circle the Word', instruction: 'Name each picture, then circle the one word above it that is built from that picture word.' },
       'root-word': { title: 'Find the Root Word', instruction: 'Circle the part the three words share and write that root word in the empty stone.' },
-      'prefix-key': { title: 'Prefixes re-, pre-, mis-', instruction: 'Read what each new word means, find its prefix in the key and write it in the empty piece.' },
-      'who-does-it': { title: 'Suffix -er: Who Does It?', instruction: 'Look at each person at work and write the person word in the empty brick.' },
+      'prefix-key': { title: 'Prefixes re-, pre- and mis-: Pick by Meaning', instruction: 'Read what each new word means, find its prefix in the key and write it in the empty piece.' },
+      'who-does-it': { title: 'Who Does It? The Person Word', instruction: 'Look at each person at work, read the word beside them and write the person word in the empty brick.' },
       'family-in-sentence': { title: 'Root Words in Sentences', instruction: 'Write each of the four words on the stone into the sentence it fits.' },
     },
   },

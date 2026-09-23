@@ -85,6 +85,8 @@ const MIX_NO_STEM = { root: 2, leaf: 2, flower: 1, seed: 1, fruit: 2 };
 
 let assertions = 0;
 const fails = [];
+/** The GATE's own cyclic-order truth (landing review 2026-09-23): o is a rotation of ref or of ref reversed. */
+function cyc(o, ref) { const n = ref.length; if (o.length !== n) return false; return [ref, ref.slice().reverse()].some((r) => { for (let k = 0; k < n; k++) if (o.every((x, i) => x === r[(i + k) % n])) return true; return false; }); }
 function ok(c, m) { assertions++; if (!c) fails.push(m); return !!c; }
 const low = (s, loc) => String(s).normalize('NFC').toLocaleLowerCase(loc);
 const wordRe = (w) => new RegExp(`(?<!\\p{L})${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?!\\p{L})`, 'iu');
@@ -374,7 +376,7 @@ async function faceSection(page, judge, log, quick, banks) {
         if (JSON.stringify(a.meta) !== JSON.stringify(b.meta) || (L !== 'flower' && L !== 'eat' && L !== 'jobs' && strip(a.bodyHtml) !== strip(b.bodyHtml))) neutral[L]++;
         const m = a.meta;
         if (L === 'needs') { const sd = m.sides; const nl = sd.filter((x) => x === 'L').length; if (Math.abs(2 * nl - sd.length) > 1 || new Set(sd).size < 2 || sd.every((x, i) => !i || x !== sd[i - 1])) tells.needs++; }
-        if (L === 'cycle') { const rest = F.difficulty[2].stages.slice(1); if (m.strip.some((x, i) => x === rest[i]) || m.strip.join() === rest.slice().reverse().join()) tells.cycle++; }
+        if (L === 'cycle') { const rest = F.difficulty[2].stages.slice(1); if (m.strip.some((x, i) => x === rest[i]) || m.strip.join() === rest.slice().reverse().join() || cyc(m.strip, rest)) tells.cycle++; }
         if (L === 'eat') { const sl = m.slots, cnt = [0, 0, 0]; sl.forEach((x) => cnt[x]++); if (cnt.some((c) => c < 2 || c > 3) || [1, -1].some((d) => sl.every((x, i) => x === ((sl[0] + d * i) % 3 + 3) % 3))) tells.eat++; for (const it of m.items) if (it === 'corn') seenCorn.add(s); }
         if (L === 'jobs') { const to = F.difficulty[2].parts.slice().sort((x, y) => m.numbers[x] - m.numbers[y]); if (m.jobs.join() === to.join() || m.jobs.join() === to.slice().reverse().join()) tells.jobs++; }
         if (L === 'flower') { if (m.bank[0] === 'decoy' || m.bank[m.bank.length - 1] === 'decoy') tells.flower++; }
@@ -382,6 +384,23 @@ async function faceSection(page, judge, log, quick, banks) {
     }
     for (const L of LAYOUTS) { ok(tells[L] === 0, `node sweep ${L}: ${tells[L]} position tells in 400 seeds`); ok(neutral[L] === 0, `node sweep ${L}: ${neutral[L]} seeds draw differently per locale`); }
     ok(seenCorn.size > 0, 'node sweep eat: corn never drawn (the seed bucket is not exercised)');
+    // G1-388 cyclic tell on the SHIPPED instance seeds: epoch 1 (the published page) + epochs 2..240, en + a synthetic de
+    {
+      const F = FACES.cycle, rest = F.difficulty[2].stages.slice(1);
+      const sweep = (cfg) => { let bad = 0; const orders = new Set(); for (let e = 1; e <= 240; e++) for (const [b, loc] of [[banks.en, 'en'], [synth, 'de']]) { const m = F._buildWith(b, cfg, { locale: loc }, { rng: makeRng(instanceSeed({ typeId: F.id, theme: null, difficulty: 2, seedEpoch: e })) }).meta; orders.add(m.strip.join()); if (cyc(m.strip, rest)) bad++; } return { bad, orders: orders.size }; };
+      const real = sweep(F.difficulty[2]);
+      ok(real.bad === 0, `G1-388 instance sweep: ${real.bad} of 480 strips are a rotation / reverse rotation of the slot order`);
+      ok(real.orders === 4, `G1-388 instance sweep: ${real.orders} strip orders drawn (want the whole legal space: 4)`);
+      const shipped = F._buildWith(banks.en, F.difficulty[2], { locale: 'en' }, { rng: makeRng(instanceSeed({ typeId: F.id, theme: null, difficulty: 2, seedEpoch: 1 })) }).meta.strip;
+      ok(!cyc(shipped, rest), `G1-388 SHIPPED strip [${shipped}] is cyclic`);
+      const pz = sweep({ ...F.difficulty[2], forceStrip: ['seedling', 'flowering', 'fruiting', 'sprout'] });
+      ok(pz.bad === 480, `poison — a forced rotation strip reported only ${pz.bad} of 480 cyclic (the sweep cannot fail)`);
+      const pr = sweep({ ...F.difficulty[2], forceStrip: ['seedling', 'sprout', 'fruiting', 'flowering'] });
+      ok(pr.bad === 480, `poison — a forced reverse-rotation strip reported only ${pr.bad} of 480 cyclic`);
+      const pc = sweep({ ...F.difficulty[2], forceStrip: ['seedling', 'fruiting', 'sprout', 'flowering'] });
+      ok(pc.bad === 0, `control — a legal off-cycle strip was counted cyclic ${pc.bad} times`);
+      console.log(`G1-388 instance sweep 240 epochs x 2 locales: cyclic ${real.bad}, strip orders ${real.orders}; shipped [${shipped}]`);
+    }
     // G3-392 variety, measured on its whole legal space (4 labels since the stalk left, landing review 2026-09-23):
     // 22 off-order numberings x ~70 bank orders. The 8-seed render sweep below may then meet ONE birthday collision
     // (measured: epochs 2 and 4 draw the same page) — the variety claim is made HERE, over 2000 seeds.
@@ -448,10 +467,16 @@ async function faceSection(page, judge, log, quick, banks) {
   await fp('PR14 row bands removed (one 10-pot grid)', 'needs', { config: { forceNoBand: true } }, /no visible row band/);
   await fp('PR2 alternating winner side', 'needs', { config: { forceSides: ['L', 'R', 'L', 'R', 'L'] } }, /alternating tell/);
   await fp('PR3 strip = slot order', 'cycle', { config: { forceStrip: ['sprout', 'seedling', 'flowering', 'fruiting'] } }, /not a derangement/);
+  await fp('PR3b strip = the slot order rotated (a derangement)', 'cycle', { config: { forceStrip: ['seedling', 'flowering', 'fruiting', 'sprout'] } }, /is a rotation \(1\) of the slot order/);
+  await fp('PR3c strip = the reversed slot order rotated (a derangement)', 'cycle', { config: { forceStrip: ['seedling', 'sprout', 'fruiting', 'flowering'] } }, /is a reverse rotation \(2\) of the slot order/);
+  { const r = await faceRender('cycle', 'control-offcycle', { type: { ...FACES.cycle, build(o, ctx) { return FACES.cycle._buildWith(bankMod.PLANTS.en, { ...FACES.cycle.difficulty[o.difficulty], forceStrip: ['seedling', 'fruiting', 'sprout', 'flowering'] }, { locale: 'en' }, ctx); } } });
+    ok(!r.verify.some((x) => /rotation|derangement|reversed/.test(x)), `control — a legal off-cycle strip fails verify: ${r.verify.filter((x) => /rotation|derangement|reversed/.test(x)).join(' | ')}`); }
   await fp('PR4 return arrow removed', 'cycle', { config: { dropReturn: true } }, /cycle not closed/);
   await fp('PR5 answer staircase', 'eat', { config: { forceSlots: [0, 1, 2, 0, 1, 2, 0, 1] } }, /staircase \(slot tell\)/);
   await fp('PR6 food caption printed', 'eat', { config: { forceCaption: true } }, /food name in body/);
   await fp('PR10 part word in a job', 'jobs', { config: { forceLeak: 'the roots' } }, /job \w+ leak: .* names the part word/);
+  // PR19 — the strike-out ROOT drawn on the page: the pre-review inset (a whole plant WITH its roots) put back
+  await fp('PR19 the inset draws the roots (the decoy is on the page)', 'flower', { html: (h) => h.replace(/<svg data-lcs-cropped-at-soil="1"[\s\S]*?<\/svg>/, () => P.plantFigure({ stage: 'flowering', ground: 'none', h: 180, ring: { cx: 160, cy: 64, r: 62 } }).svg) }, /the decoy is drawn: a root/);
   await fp('PR11 decoy first in the bank', 'flower', { config: { forceBank: ['decoy', 'petal', 'sepal', 'stamen', 'pistil'] } }, /decoy position tell/);
   await fp('PR12 answerBox on the jobs face', 'jobs', { config: { forceAnswerBox: true } }, /data-lcs-answer="undefined"/);
   for (const L of LAYOUTS) {

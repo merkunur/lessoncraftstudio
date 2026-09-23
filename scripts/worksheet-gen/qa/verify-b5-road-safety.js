@@ -259,6 +259,17 @@ function validateBank(block, loc, common = COMMON) {
   if (st[st.length - 1] !== 'walk-across') e(7, `steps end "${st[st.length - 1]}" (walk-across)`);
   for (const k of st) if (!common.stepKinds.includes(k)) e(7, `step "${k}" is not a step kind`);
   if (new Set(st).size !== st.length) e(7, `steps ${st.join(',')} repeat an action (landing round 1: every card a different action)`);
+  // ONE VALID ORDER (landing review 2026-09-23, da + no): the gate's OWN precedence model of the drawn actions —
+  // arriving before any look / the walk, the near lane (left) before the far lane (right), walking last; a wait
+  // (child on the kerb, car passing) is forced against nothing but the walk, so a routine carrying it is ambiguous
+  {
+    const ACT = { 'stop-kerb': 'arrive', 'look-left': 'L', 'look-right': 'R', 'look-both': 'both', 'wait-clear': 'wait', 'walk-across': 'walk', listen: 'listen' };
+    const acts = st.map((k) => ACT[k] || '?');
+    const before = (a, b) => (a === 'arrive' && ['L', 'R', 'both', 'walk'].includes(b)) || (a === 'L' && b === 'R') || (a !== 'walk' && b === 'walk');
+    const perms = (xs) => (xs.length <= 1 ? [xs] : xs.flatMap((x, i) => perms([...xs.slice(0, i), ...xs.slice(i + 1)]).map((r) => [x, ...r])));
+    const n = acts.length <= 7 ? perms(acts.map((_, i) => i)).filter((o) => o.every((a, i) => o.slice(i + 1).every((b) => !before(acts[b], acts[a])))).length : -1;
+    if (n !== 1) e(7, `steps ${st.join(',')} have ${n} valid orders by the drawn-action model (exactly one)`);
+  }
   const il = st.indexOf('look-left'), ir = st.indexOf('look-right');
   if (ir >= 0 && (il < 0 || il > ir)) e(7, 'look-right comes before look-left (right-hand traffic: the near lane comes from the LEFT)');
   // rule 8 — chip words
@@ -358,7 +369,7 @@ function fixture(loc) {
     return { _fixture: true, convention: br ? 'br' : 'mx', signs, setG1, kindsPool, classes: [{ key: warn, label: 'Fixture A' }, { key: reg, label: 'Fixture B' }, { key: info, label: 'Fixture C' }],
       pedLight: { stop: 'standing', go: 'walking', lamps: 2 }, amber: { token: 'codeYellow', word: words[loc] }, amberMeans: 'stop',
       chipWords: { ped: { stop: 'a', go: 'b' }, car: { stop: 'c', go: 'd' } }, meanings: Object.fromEntries(setG1.map((r) => [r, `Fixture meaning of this sign.`])),
-      situations: sits([...new Set([...setG1, ...kindsPool])]), steps: ['stop-kerb', 'look-left', 'look-right', 'wait-clear', 'walk-across'], listenStep: null,
+      situations: sits([...new Set([...setG1, ...kindsPool])]), steps: ['stop-kerb', 'look-left', 'look-right', 'walk-across'], listenStep: null,
       familyHead: 'Fixture Family', signHead: 'Fixture Signs', childAnchors: ['fixture kids'], strings: fixStrings('Fixture Family', 'Fixture Signs') };
   }
   // Vienna (de, sv, nl)
@@ -384,7 +395,7 @@ function fixture(loc) {
   return { _fixture: true, convention: 'vienna', signs, setG1, kindsPool, classes: [{ key: 'warning', label: 'Fixture A' }, { key: 'prohibition', label: 'Fixture B' }, { key: 'mandatory', label: 'Fixture C' }],
     pedLight: { stop: 'standing', go: 'walking', lamps: 2 }, amber: { token: tok, word: words[loc] }, amberMeans: 'stop',
     chipWords: { ped: { stop: 'a', go: 'b' }, car: { stop: 'c', go: 'd' } }, meanings: Object.fromEntries(setG1.map((r) => [r, 'Fixture meaning of this sign.'])),
-    situations: sits([...new Set([...setG1, ...kindsPool])]), steps: ['stop-kerb', 'look-left', 'look-right', 'wait-clear', 'walk-across'], listenStep: null,
+    situations: sits([...new Set([...setG1, ...kindsPool])]), steps: ['stop-kerb', 'look-left', 'look-right', 'walk-across'], listenStep: null,
     familyHead: 'Verkehrserziehung', signHead: 'Verkehrszeichen', childAnchors: ['Grundschule', 'für Kinder'], strings: fixStrings('Verkehrserziehung', 'Verkehrszeichen') };
 }
 
@@ -416,7 +427,8 @@ function dataPoisons(en) {
   P('P6 nl amber codeYellow with word "oranje"', 'nl', (b) => { b.amber.token = 'codeYellow'; }, /rule 6: nl: amber\.token "codeYellow" ≠ the nl crayon "codeOrange"/);
   P('P7 en pedLight.stop standing', 'en', (b) => { b.pedLight.stop = 'standing'; }, /rule 5: en: a MUTCD pedestrian light shows the HAND/);
   P('P8 pt pedLight.stop unset', 'pt', (b) => { delete b.pedLight.stop; }, /rule 5: pt: pedLight\.stop is undefined/);
-  P('P9 steps with look-right first', 'en', (b) => { b.steps = ['stop-kerb', 'look-right', 'look-left', 'wait-clear', 'walk-across']; }, /rule 7: en: look-right comes before look-left/);
+  P('P9 steps with look-right first', 'en', (b) => { b.steps = ['stop-kerb', 'look-right', 'look-left', 'walk-across']; }, /rule 7: en: look-right comes before look-left/);
+  P('P9c the pre-review routine with wait-clear (stop <-> wait swappable)', 'en', (b) => { b.steps = ['stop-kerb', 'look-left', 'look-right', 'wait-clear', 'walk-across']; }, /rule 7: en: steps .* have 4 valid orders/);
   P('P9b steps looking left twice (one action on two cards)', 'en', (b) => { b.steps = ['stop-kerb', 'look-left', 'look-right', 'look-left', 'walk-across']; }, /rule 7: en: steps .* repeat an action/);
   P('P10 stop situation "Here is a STOP sign."', 'en', (b) => { b.situations.stop[0] = 'Here is a STOP sign.'; }, /rule 4: en: role stop: the situation prints the sign's own word "stop"/);
   P('P11 a Vienna classes list with priority', 'de', (b) => { b.classes.push({ key: 'priority', label: 'Fixture D' }); }, /rule 3: de: a Vienna classes list carries "priority"/);
@@ -497,6 +509,39 @@ async function renderGate(page, quick) {
   pos.forEach((n, i) => ok(n / 20 <= 0.7, `seed sweep: reading position ${i + 1} is stop on ${n}/20 seeds (> 70 %)`));
   ok(!['SSSGGG', 'GGGSSS', 'SGSGSG', 'GSGSGS'].includes(ans[0]), `the shipped seed's order ${ans[0]} is a staircase / alternation`);
   rows.push(`seed sweep d2 x20: ${ans.join(' ')} · stop per position ${pos.map((n) => n + '/20').join(' ')}${quick ? ' (composer only, --quick)' : ' (all rendered)'}`);
+  // SIDE TELL (landing review 2026-09-23: the stop chip sat LEFT on every street). The gate's OWN truth: the
+  // circled chip sits left of the pole when (the answer is stop) XOR (the street is mirrored). Per PAGE over the
+  // shipped variant 1 + variants 2..240, en + de: balance ±1, both sides, mirrors ±1, no banned run, mixed columns.
+  {
+    const sideBad = (answers, flips) => {
+      const N = answers.length, pos = [...answers].map((a, i) => ((a === 'S') !== (flips[i] === 'M') ? 'L' : 'R')).join('');
+      const nL = (pos.match(/L/g) || []).length, nM = (flips.match(/M/g) || []).length, h = N / 2;
+      const why = [];
+      if (Math.abs(nL - h) > 1) why.push(`${nL}/${N} left`);
+      if (!nL || nL === N) why.push('one side');
+      if (Math.abs(nM - h) > 1) why.push(`${nM}/${N} mirrored`);
+      if (['LLLRRR', 'RRRLLL', 'LRLRLR', 'RLRLRL', 'LLRR', 'RRLL', 'LRLR', 'RLRL'].includes(pos)) why.push('banned run ' + pos);
+      if (h >= 3 && [pos.slice(0, h), pos.slice(h)].some((c) => /^L+$|^R+$/.test(c))) why.push('a one-sided column');
+      return { pos, why };
+    };
+    const de = require('../lib/b5-common.js').bank('road-safety', 'de');
+    let bad = 0, first = '';
+    const posL = Array(6).fill(0);
+    for (const [blk, loc] of [[en, 'en'], [de, 'de']]) for (let v = 1; v <= 240; v++) {
+      const m = SPEC._buildWith({ block: blk, config: SPEC.difficulty[2] }, { locale: loc }, { rng: makeRng(instanceSeed({ typeId: 'K-369', theme: null, difficulty: 2, seedEpoch: 1, variant: v })) }).meta;
+      const r = sideBad(m.answers, m.flips);
+      if (r.why.length) { bad++; first = first || `${loc} v${v} ${r.pos}: ${r.why.join(', ')}`; }
+      if (loc === 'en') [...r.pos].forEach((c, i) => { if (c === 'L') posL[i]++; });
+      if (v === 1 && loc === 'en') rows.push(`side tell: the SHIPPED page answers ${m.answers}, mirrors ${m.flips}, circled chip ${r.pos}`);
+    }
+    ok(bad === 0, `side tell sweep: ${bad} of 480 pages carry a side tell (${first})`);
+    posL.forEach((n, i) => ok(n / 240 >= 0.3 && n / 240 <= 0.7, `side tell sweep: reading position ${i + 1} has its answer LEFT on ${n}/240 pages (outside 30-70 %)`));
+    // the checker both ways: the pre-review page (never mirrored) and a one-sided page FAIL, a legal page passes
+    ok(sideBad('SGGSSG', '------').why.length > 0, 'poison — a never-mirrored page passed the gate-side side check');
+    ok(sideBad('SGGSSG', '-MM--M').why.length > 0, 'poison — an every-answer-left page passed the gate-side side check');
+    ok(sideBad('SGGSSG', 'M-MM--').why.length === 0, `control — a legal side draw failed the gate-side side check (${sideBad('SGGSSG', 'M-MM--').why})`);
+    rows.push(`side tell sweep: 0-tell pages ${480 - bad}/480 (en + de, variants 1..240); answer LEFT per position ${posL.map((n) => n + '/240').join(' ')}`);
+  }
   // 4a. the three chromes (sibling-review ruling: SPARSE is measured at 814 / 722 / 677): verify() carries the
   //     "largest empty band between consecutive blocks <= 40 px" assertion, so pageChecks fails a sparse page
   const CHROMES = [
@@ -559,6 +604,17 @@ async function renderPoisons(page) {
   // PR9 a forced SGSGSG order
   const pr9 = await renderPage(page, { difficulty: 2, variant: 1, plan: { actors: ['car', 'ped', 'car', 'ped', 'car', 'ped'], sides: ['stop', 'go', 'stop', 'go', 'stop', 'go'] }, name: 'K-369-poison-PR9' });
   K.judge('PR9 answer order SGSGSG', verifyOf(pr9), /answer order SGSGSG is a staircase/, ctl);
+  // PR15 / PR16 — the side tell, rendered: never mirrored (the pre-review stop-always-left page) and every answer on one side
+  const sidePlan = { actors: ['car', 'ped', 'car', 'ped', 'car', 'ped'], sides: ['stop', 'go', 'go', 'stop', 'stop', 'go'] };
+  const c15 = await renderPage(page, { difficulty: 2, variant: 1, plan: { ...sidePlan, flips: [true, false, true, true, false, false] }, name: 'K-369-poison-PR15-control' });
+  const ctl15 = K.control('PR15 side control (a legal mirror draw)', verifyOf(c15));
+  const pr15 = await renderPage(page, { difficulty: 2, variant: 1, plan: { ...sidePlan, flips: Array(6).fill(false) }, name: 'K-369-poison-PR15' });
+  K.judge('PR15 never mirrored (stop always left)', verifyOf(pr15), /side tell: 0 of 6 streets mirrored/, ctl15);
+  const pr16 = await renderPage(page, { difficulty: 2, variant: 1, plan: { ...sidePlan, flips: [false, true, true, false, false, true] }, name: 'K-369-poison-PR16' });
+  K.judge('PR16 every answer chip on the left', verifyOf(pr16), /side tell: every answer sits on one side/, ctl15);
+  // PR17 a mirrored street whose band was NOT mirrored: the kerb on the go side
+  const pr17 = await renderPage(page, { difficulty: 2, variant: 1, plan: { ...sidePlan, flips: [true, false, true, true, false, false] }, name: 'K-369-poison-PR17', doctor: (h) => h.replace('<div class="rs-band" style="transform:scaleX(-1);', '<div class="rs-band" style="') });
+  K.judge('PR17 a mirrored street with an unmirrored band', verifyOf(pr17), /the (stop|go) side is not on the (kerb \/ stop-line|far) side of the pole/, ctl15);
   // PR10 a code colour outside [data-lcs-signal]
   const pr10 = await renderPage(page, { difficulty: 2, variant: 1, name: 'K-369-poison-PR10', doctor: (h) => h.replace('<div class="rs-rule"', `<svg width="10" height="10" style="position:absolute"><rect width="10" height="10" fill="${tokens.codeColors.codeRed}"/></svg><div class="rs-rule"`) });
   K.judge('PR10 a codeRed fill outside [data-lcs-signal]', verifyOf(pr10), /code colour #C0392B outside \[data-lcs-signal\]/, ctl);

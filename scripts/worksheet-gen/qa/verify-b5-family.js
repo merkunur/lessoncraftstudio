@@ -619,6 +619,9 @@ async function main() {
     { const FFm = require('../primitives/family-figure.js');
       const b1 = TYPE._buildWith(en, TYPE.difficulty[2], { locale: 'en' }, { rng: makeRng('K-370|none|2|1') }, { compose: (d, rng) => { const c = TYPE._compose(d, rng); for (const p of c.persons) p.tint = FFm.LOOKS[p.age][p.sex][p.look].tint; return c; } });
       expectFail('GC1 look-bound garment tints', (await renderBody(b1.bodyHtml, 'K-370-gate-gc1')).v, /garment fills differ within a generation row/); }
+    // OS1 — landing review 2026-09-23: the older sibling drawn the same size as the ego (the shipped control above passes)
+    { const b1 = TYPE._buildWith(en, TYPE.difficulty[2], { locale: 'en' }, { rng: makeRng('K-370|none|2|1') }, { sameSize: true });
+      expectFail('OS1 the older sister / brother drawn the same size as the child', (await renderBody(b1.bodyHtml, 'K-370-gate-os1')).v, /not taller than the ego/); }
     // GC2 — sex-keyed fills across 20 builds → the sweep's fill <-> sex check
     { const hs = [], ctlH = [];
       for (let v = 1; v <= 20; v++) {
@@ -858,10 +861,14 @@ async function faceGate({ page, renderBody, expectFail, expectThrow, ok, CHROME,
     expectFail('F2-PC an elder drawn with no number', (await rb(unb.bodyHtml, 'K-370-f2-pc', f)).v, /drawn with no number/);
     const level = buildFace(f, { bank: (rows) => rows.map((r) => r.answer) });
     expectFail('F2-PD the trace panel in line order (no lookup needed)', (await rb(level.bodyHtml, 'K-370-f2-pd', f)).v, /level with its own line/);
+    // landing review 2026-09-23 — each word to trace carries its person's number (the instruction's "same number"); the older sibling taller
+    expectFail('F2-PN the words to trace printed with no numbers', (await rb(buildFace(f, { unnumberBank: true }).bodyHtml, 'K-370-f2-pn', f)).v, /0 number discs/);
+    expectFail('F2-PW two panel numbers swapped', (await rb(buildFace(f, { bankBadges: (b) => { const c = b.slice(); [c[0], c[1]] = [c[1], c[0]]; return c; } }).bodyHtml, 'K-370-f2-pw', f)).v, /is numbered \d, its person is \d/);
+    expectFail('F2-PS the older sibling drawn the same size as the ego', (await rb(buildFace(f, { sameSize: true }).bodyHtml, 'K-370-f2-ps', f)).v, /not taller than the ego/);
     const firstRowLane = /(<div class="fam-trace-row"[^>]*>[\s\S]*?<div style="flex:0 0 321px;display:flex">)(<svg [\s\S]*?<\/svg>)/.exec(C2);
-    const bankLane = /data-lcs-bank-lane=""[^>]*><svg [\s\S]*?<\/svg>/.exec(C2);
+    const bankLane = /data-lcs-bank-lane=""[\s\S]*?(<svg [^>]*data-lcs-prim="trace-word"[\s\S]*?<\/svg>)/.exec(C2);   // the panel lane now carries a number disc first
     ok(firstRowLane && bankLane, 'F2-PE needle');
-    const printed = C2.replace(firstRowLane[0], firstRowLane[1] + bankLane[0].replace(/^[^>]*>/, ''));
+    const printed = C2.replace(firstRowLane[0], firstRowLane[1] + bankLane[1]);
     expectFail('F2-PE a word printed beside its number (the old page)', (await rb(printed, 'K-370-f2-pe', f)).v, /not an EMPTY trio/);
     const small = buildFace(f, {}, { glyphH: 30 });
     expectFail('F2-PB a lane at glyphH 30 (the silent-shrink floor)', (await rb(small.bodyHtml, 'K-370-f2-pb', f)).v, /glyphH \d+(\.\d)? < 40/);

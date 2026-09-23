@@ -22,9 +22,9 @@ const { flatShape } = require('../../primitives/flat-shape.js');
 const C = T.color;
 
 /** A name to circle: white, 2 px teal border, fully round, Baloo 2 700. Text never wraps; an overflowing literal is measured (scrollWidth) by the gate, never shrunk here. */
-function nameTag({ kind, label, w = 132, h = 48, px = 18 }) {
+function nameTag({ kind, label, w = 132, h = 48, px = 18, hCss = null }) {
   return `<span class="s2d-tag" data-lcs-tag="${esc(kind)}" style="box-sizing:border-box;display:flex;align-items:center;justify-content:center;` +
-    `flex:0 0 auto;width:${w}px;height:${h}px;padding:0 8px;background:${C.white};border:2px solid ${C.teal};border-radius:999px;` +
+    `flex:0 0 auto;width:${w}px;height:${hCss || h + 'px'};padding:0 8px;background:${C.white};border:2px solid ${C.teal};border-radius:999px;` +
     `font-family:'Baloo 2',sans-serif;font-weight:700;font-size:${px}px;line-height:1;color:${C.ink};white-space:nowrap;overflow:hidden">` +
     `<span data-lcs-tag-text style="display:block;white-space:nowrap">${esc(label)}</span></span>`;
 }
@@ -133,19 +133,28 @@ function writeLane({ shape, lensD = 78, rowW = 547, rowH = 70, glyphH = 32, gap 
     `<div data-lcs-write style="flex:0 0 auto;width:${rowW}px">${rulingBlock({ rows: 1, w: rowW, h: rowH, glyphH })}</div></div>`;
 }
 
-/** F4: the riddle bubble (tealSoft, radius 14, Nunito 800) with a coral "?" disc on its top-right corner. It GROWS to its card's slack and centres its text. */
+/**
+ * F4: the riddle bubble (tealSoft, radius 14, Nunito 800) with a coral "?" disc on its top-right corner. It GROWS to its card's
+ * slack and centres its text. fi panel 2026-09-23: a grown bubble around a 2-line riddle left 46-71 px of dead tealSoft above and
+ * below the text, so the bubble is a size container and the TEXT grows with it (px .. px + 4, line-height 1.25em = lh at px).
+ */
 function riddleBubble({ text, px = 16, lh = 20 }) {
   const disc = `<span data-lcs-qdisc aria-hidden="true" style="position:absolute;top:-8px;right:-8px;width:30px;height:30px;border-radius:50%;background:${C.coral};` +
     `color:${C.white};font-family:'Baloo 2',sans-serif;font-weight:700;font-size:20px;line-height:30px;text-align:center">?</span>`;
-  return `<div class="s2d-bubble" data-lcs-bubble style="position:relative;box-sizing:border-box;flex:1 1 auto;min-height:${3 * lh + 20}px;width:100%;display:flex;align-items:center;` +
+  return `<div class="s2d-bubble" data-lcs-bubble style="position:relative;box-sizing:border-box;flex:1 1 auto;min-height:${3 * lh + 20}px;width:100%;display:flex;align-items:center;container-type:size;` +
     `padding:10px 26px 10px 20px;background:${C.tealSoft};border-radius:14px">` +
-    `<p data-lcs-riddle-text style="margin:0;font-family:'Nunito',sans-serif;font-weight:800;font-size:${px}px;line-height:${lh}px;color:${C.ink}">${esc(text)}</p>${disc}</div>`;
+    `<p data-lcs-riddle-text style="margin:0;font-family:'Nunito',sans-serif;font-weight:800;font-size:clamp(${px}px, 19cqh, ${px + 4}px);line-height:${(lh / px).toFixed(4)}em;color:${C.ink}">${esc(text)}</p>${disc}</div>`;
 }
 
-/** F4 card stage: bubble over three tags wrapping 2 + 1. */
+/**
+ * F4 card stage: bubble over three tags wrapping 2 + 1. fi panel 2026-09-23: the stage is a size container and the slack is SHARED —
+ * the tags grow from tagH up to tagH + 16 (half the stage height beyond 120 px, per tag row) before the bubble takes the rest, so a
+ * short riddle no longer floats in a tall empty bubble.
+ */
 function riddleCard({ key, text, tags, tagW = 132, tagH = 44, tagPx = 18, px = 16, lh = 20 }) {
-  const tagHtml = tags.map((t) => nameTag({ kind: t.kind, label: t.label, w: tagW, h: tagH, px: tagPx })).join('');
-  return `<div class="s2d-stage" data-ws-content data-lcs-riddle="${esc(key)}" style="flex:1 1 auto;min-height:0;display:flex;flex-direction:column;gap:8px">` +
+  const hCss = `clamp(${tagH}px, calc((100cqh - 120px) / 2), ${tagH + 16}px)`;
+  const tagHtml = tags.map((t) => nameTag({ kind: t.kind, label: t.label, w: tagW, h: tagH, px: tagPx, hCss })).join('');
+  return `<div class="s2d-stage" data-ws-content data-lcs-riddle="${esc(key)}" style="flex:1 1 auto;min-height:0;display:flex;flex-direction:column;gap:8px;container-type:size">` +
     riddleBubble({ text, px, lh }) +
     `<div class="s2d-tags" style="display:flex;flex-wrap:wrap;justify-content:center;gap:6px;flex:0 0 auto">${tagHtml}</div></div>`;
 }

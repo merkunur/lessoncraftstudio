@@ -244,7 +244,9 @@ const PICTURES = {
   angry: { theme: 'emotions', noun: 'angry', picOpened: true, box: [0.02, 0.018, 0.98, 0.988] },
   scared: { theme: 'emotions', noun: 'scared', picOpened: true, box: [0.025, 0.031, 0.975, 0.98] },
   surprised: { theme: 'emotions', noun: 'surprised', picOpened: true, box: [0.029, 0.029, 0.975, 0.975] },
-  tired: { theme: 'emotions', noun: 'tired', picOpened: true, box: [0.031, 0.02, 0.967, 0.986] },
+  // cue 'zzz' (landing review 2026-09-23: four panels read the library "tired" face — closed eyes, drooping brows —
+  // as SAD): the card draws a family-owned sleep mark (three rising Z strokes) beside the face
+  tired: { theme: 'emotions', noun: 'tired', picOpened: true, box: [0.031, 0.02, 0.967, 0.986], cue: 'zzz' },
   fast: { theme: 'vehicles', noun: 'race_car', picOpened: true, box: [0.027, 0.318, 0.977, 0.703] },
   big: { theme: 'ocean life', noun: 'whale', picOpened: true, box: [0.022, 0.270, 0.981, 0.783], alt: { theme: 'zoo animals', noun: 'elephant', picOpened: true } }, // whale first: the elephant is drawn as a sitting calf and read as SMALL by four landing panels (de en sv da)
   small: { theme: 'insects and bugs', noun: 'ant', picOpened: true, box: [0.021, 0.094, 0.973, 0.93], alt: { theme: 'pets', noun: 'mouse', picOpened: true } },

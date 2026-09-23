@@ -153,6 +153,44 @@ function nodeTells(face, metas, ok) {
   return '';
 }
 
+/** The GATE's own G1-396 order-tell truth (landing review 2026-09-23): a page (list of per-row orders) is bad when two
+ *  ADJACENT rows share an order or one order is used by more than ceil(rows/3) rows. Returns the reasons. */
+function shadeOrderTells(orders) {
+  const k = orders.map((o) => o.join(','));
+  const r = [];
+  k.forEach((o, i) => { if (i && o === k[i - 1]) r.push(`adjacent rows ${i}/${i + 1} share ${o}`); });
+  const c = {}; k.forEach((o) => { c[o] = (c[o] || 0) + 1; });
+  for (const [o, n] of Object.entries(c)) if (n > Math.ceil(k.length / 3)) r.push(`${o} on ${n} rows`);
+  for (let q = 1; q <= k.length / 2; q++) if (k.length % q === 0 && k.every((o, i) => i < q || o === k[i - q])) { r.push(`periodic every ${q}`); break; }
+  return r;
+}
+
+/** The GATE's own reading of each emotion picture (READ from the library webps 2026-09-23, not from the bank): eyes +
+ *  mouth. Two faces sharing a signature are confusable at 74 px; a face whose brows droop like SAD's (tired) must add a
+ *  cue the others lack. */
+const EMOTION_SIG = {
+  'emotions/happy': { eyes: 'open', mouth: 'smile' },
+  'emotions/sad': { eyes: 'open', mouth: 'frown', brows: 'droop' },
+  'emotions/angry': { eyes: 'glare', mouth: 'grimace' },
+  'emotions/scared': { eyes: 'wide', mouth: 'gape' },
+  'emotions/surprised': { eyes: 'wide', mouth: 'o' },
+  'emotions/tired': { eyes: 'closed', mouth: 'yawn', brows: 'droop' },
+};
+function emotionSigFindings(pictures, sig) {
+  const f = [];
+  const faces = Object.entries(pictures).filter(([, p]) => p.theme === 'emotions');
+  for (const [c, p] of faces) if (!sig[p.theme + '/' + p.noun]) f.push(`${c}: no gate signature for ${p.theme}/${p.noun} (read the picture first)`);
+  for (let i = 0; i < faces.length; i++) for (let j = i + 1; j < faces.length; j++) {
+    const a = sig[faces[i][1].theme + '/' + faces[i][1].noun], b = sig[faces[j][1].theme + '/' + faces[j][1].noun];
+    if (a && b && a.eyes === b.eyes && a.mouth === b.mouth) f.push(`${faces[i][0]} and ${faces[j][0]} share the eye+mouth signature ${a.eyes}+${a.mouth}`);
+  }
+  const t = pictures.tired, ts = t && sig[t.theme + '/' + t.noun];
+  if (t && (!ts || ts.eyes !== 'closed' || ts.mouth !== 'yawn')) f.push('tired: the picture is not closed eyes + a yawn');
+  if (t && t.cue !== 'zzz') f.push('tired: no zzz sleep cue (its drooping brows read as sad)');
+  for (const [c, p] of faces) if (c !== 'tired' && p.cue) f.push(`${c}: carries a cue (${p.cue}) only the tired face may carry`);
+  return f;
+}
+
 /* ------------------------------------------------------------------ the gate */
 async function faceGate({ page, ok, judge, fails, validateBank, CHROME, QUICK, OUT }) {
   const { renderInstance } = require('../render/render-instance.js');
@@ -193,6 +231,42 @@ async function faceGate({ page, ok, judge, fails, validateBank, CHROME, QUICK, O
     for (let e = 1; e <= 200; e++) pool.push(TYPES[x.id].build({ difficulty: 2, locale: 'en' }, { rng: makeRng(`G2-358-tell-${x.id}-${e}`) }).meta);
     console.log(`face sweep ${x.id} ${x.mode}: ${metas.length} pages, ${sigs.size} distinct · 200-seed pool: ${nodeTells(x, pool, ok)}`);
   }
+  // G1-396 order tells on the INSTANCE seeds: epoch 1 (the shipped page) + epochs 2..240, en + da
+  {
+    const T = TYPES['G1-396'], mod = require('../lib/b5-common.js');
+    const blocks = [['en', en], ['da', mod.bank('synonyms', 'da')]];
+    const sweep = (cfgPatch) => { let bad = 0, pages = 0; for (let e = 1; e <= 240; e++) for (const [loc, b] of blocks) { const m = T._buildWith(b, { ...T.difficulty[2], ...(cfgPatch || {}) }, { locale: loc }, { rng: makeRng(instanceSeed({ typeId: T.id, theme: null, difficulty: 2, seedEpoch: e })) }).meta; pages++; if (shadeOrderTells(m.rows.map((r) => r.order)).length) bad++; } return { bad, pages }; };
+    const real = sweep();
+    ok(real.bad === 0, `G1-396 instance sweep: ${real.bad} of ${real.pages} pages repeat an answer order (adjacent rows or > ceil(rows/3))`);
+    const shipped = T.build({ difficulty: 2, locale: 'en' }, { rng: makeRng(instanceSeed({ typeId: T.id, theme: null, difficulty: 2, seedEpoch: 1 })) }).meta.rows.map((r) => r.order);
+    ok(!shadeOrderTells(shipped).length, `G1-396 SHIPPED page orders ${JSON.stringify(shipped)}: ${shadeOrderTells(shipped).join('; ')}`);
+    const P = (a) => a.map((x) => x.split('').map(Number));
+    const adj = sweep({ forceOrders: P(['021', '021', '102', '102', '210', '210']) });
+    ok(adj.bad === adj.pages, `poison — forced adjacent-repeat orders: only ${adj.bad} of ${adj.pages} pages counted bad`);
+    const over = sweep({ forceOrders: P(['021', '102', '021', '210', '021', '120']) });
+    ok(over.bad === over.pages, `poison — forced over-cap orders (021 on 3 rows): only ${over.bad} of ${over.pages} pages counted bad`);
+    const ctl = sweep({ forceOrders: P(['021', '102', '021', '210', '102', '210']) });
+    const per = sweep({ forceOrders: P(['102', '210', '021', '102', '210', '021']) });   // the pre-fix SHIPPED en page
+    ok(per.bad === per.pages, `poison — forced period-3 orders (the pre-fix shipped page): only ${per.bad} of ${per.pages} pages counted bad`);
+    ok(ctl.bad === 0, `control — a legal balanced page was counted bad ${ctl.bad} times`);
+    console.log(`G1-396 instance sweep 240 epochs x en+da: ${real.bad}/${real.pages} bad pages · shipped ${shipped.map((o) => o.join('')).join(' ')}`);
+  }
+  // G1-395 emotion faces: every face a distinct eye+mouth signature; tired = closed + yawn + the zzz cue (both ways)
+  {
+    const real = emotionSigFindings(DATA.PICTURES, EMOTION_SIG);
+    ok(!real.length, `G1-395 emotion signatures: ${real.join('; ')}`);
+    const dup = emotionSigFindings(DATA.PICTURES, { ...EMOTION_SIG, 'emotions/sad': { eyes: 'closed', mouth: 'yawn' } });
+    ok(dup.some((x) => /share the eye\+mouth signature closed\+yawn/.test(x)), `poison — a sad face read as closed+yawn was not caught (${dup.join('; ')})`);
+    const noCue = emotionSigFindings({ ...DATA.PICTURES, tired: { ...DATA.PICTURES.tired, cue: undefined } }, EMOTION_SIG);
+    ok(noCue.some((x) => /no zzz sleep cue/.test(x)), 'poison — the tired picture without its cue was not caught');
+    const sadCue = emotionSigFindings({ ...DATA.PICTURES, sad: { ...DATA.PICTURES.sad, cue: 'zzz' } }, EMOTION_SIG);
+    ok(sadCue.some((x) => /sad: carries a cue/.test(x)), 'poison — a cue on the sad face was not caught');
+    // the builder carries the cue: a page with tired stamps it and draws exactly one data-lcs-cue svg
+    const T = TYPES['G1-395'];
+    let withTired = 0, drawn = 0;
+    for (let e = 1; e <= 240; e++) { const o = T.build({ difficulty: 2, locale: 'en' }, { rng: makeRng(instanceSeed({ typeId: T.id, theme: null, difficulty: 2, seedEpoch: e })) }); const has = o.meta.cards.some((c) => c.concept === 'tired'); const n = (o.bodyHtml.match(/data-lcs-cue="zzz"/g) || []).length; if (has) withTired++; if (n === (has ? 1 : 0)) drawn++; }
+    ok(drawn === 240 && withTired > 0, `G1-395 sweep: the zzz cue is drawn iff tired is on the page on ${drawn}/240 pages (${withTired} with tired)`);
+  }
   // an unauthored locale and a refused mode REFUSE
   for (const x of FACES) {
     let m = null; try { TYPES[x.id].build({ difficulty: 2, locale: UNAUTH }, { rng: makeRng('x') }); } catch (e) { m = e.message; }
@@ -204,7 +278,7 @@ async function faceGate({ page, ok, judge, fails, validateBank, CHROME, QUICK, O
 
   // C. renders
   const renderFace = async (type, baseName, opts = {}) => {
-    const out = await renderInstance({ type, theme: null, difficulty: 2, locale: 'en', page, outDir: OUT, baseName, strings: opts.strings });
+    const out = await renderInstance({ type, theme: null, difficulty: 2, locale: opts.locale || 'en', page, outDir: OUT, baseName, strings: opts.strings, seedEpoch: opts.seedEpoch });
     const m = await measureRender(page);
     return { verify: out.qa.verify, lints: out.qa.lints, m, png: out.pngPath, html: out.html };
   };
@@ -260,6 +334,16 @@ async function faceGate({ page, ok, judge, fails, validateBank, CHROME, QUICK, O
   const tagRe = /<span class="ws-achip" data-lcs-tag[\s\S]*?<\/span><\/span>/g;
   // P6 — an F1 page with scared AND surprised
   judge('P6 F1 scared + surprised on one page', await gateOf(rewire('G1-395', (h) => mapCards(h, (p, i) => (i < 2 ? p.replace(/data-lcs-concept="[^"]+"/, `data-lcs-concept="${i === 0 ? 'scared' : 'surprised'}"`) : p))), 'P6'), /EXCLUSIVE: scared \+ surprised/);
+  // PZ — G1-395 the sleep cue, rendered both ways (epoch 2 carries tired AND sad): stripped / moved to sad / shrunk FAIL
+  {
+    const Z = /<span style="position:absolute;left:calc\(50% \+ \d+px\);top:4px;line-height:0"><svg data-lcs-cue="zzz"[\s\S]*?<\/svg><\/span>/;
+    const o = { seedEpoch: 2 };
+    const ctl = await gateOf(TYPES['G1-395'], 'PZctl', o);
+    ok(!ctl.length, `control — G1-395 epoch 2 (tired + sad) is not clean: ${ctl.slice(0, 3).join(' | ')}`);
+    judge('PZ1 F1 the tired face without its zzz', await gateOf(rewire('G1-395', (h) => h.replace(Z, '')), 'PZ1', o), /sleep cues ≠ 1/);
+    judge('PZ2 F1 the zzz moved onto the sad face', await gateOf(rewire('G1-395', (h) => { const m = Z.exec(h)[0]; h = h.replace(Z, ''); return h.replace(/(data-lcs-concept="sad"[\s\S]*?<span style="position:absolute;right:8px;top:6px"><svg[\s\S]*?<\/svg><\/span>)/, (x) => x + m); }), 'PZ2', o), /a sleep cue on the sad face/);
+    judge('PZ3 F1 the zzz shrunk to 10 px', await gateOf(rewire('G1-395', (h) => h.replace('data-lcs-cue="zzz" width="50" height="44"', 'data-lcs-cue="zzz" width="11" height="10"')), 'PZ3', o), /the sleep cue is \d+ px tall < 16/);
+  }
   // P10 — F3 three rows printed in the stored weakest -> strongest order
   {
     const cellRe = /<div data-lcs-shade-cell="\d"[\s\S]*?<\/span><\/div>/g;
@@ -271,6 +355,15 @@ async function faceGate({ page, ok, judge, fails, validateBank, CHROME, QUICK, O
       let k = 0; return '<div class="ws-lane" data-ws-content data-lcs-scale=' + p.replace(cellRe, () => sorted[k++]);
     }).join(''); });
     judge('P10 F3 three rows in the stored order', await gateOf(t, 'P10'), /printed in the stored weakest -> strongest order/);
+  }
+  // P10b / P10c — F3 order tells rendered (verify re-reads the orders off the printed words); the control passes
+  {
+    const P = (a) => a.map((x) => x.split('').map(Number));
+    judge('P10b F3 two adjacent rows share an order', await gateOf(rewire('G1-396', null, { cfgPatch: { forceOrders: P(['021', '021', '102', '102', '210', '210']) } }), 'P10b'), /share the answer order .* \(adjacent-order tell\)/);
+    judge('P10c F3 one order on 3 of 6 rows', await gateOf(rewire('G1-396', null, { cfgPatch: { forceOrders: P(['021', '102', '021', '210', '021', '120']) } }), 'P10c'), /is used by 3 rows > 2 \(repeated-order tell\)/);
+    judge('P10d F3 the pre-fix shipped page (orders repeat every 3 rows)', await gateOf(rewire('G1-396', null, { cfgPatch: { forceOrders: P(['102', '210', '021', '102', '210', '021']) } }), 'P10d'), /repeat every 3 rows .*periodic-order tell/);
+    const c = await gateOf(rewire('G1-396', null, { cfgPatch: { forceOrders: P(['021', '102', '021', '210', '102', '210']) } }), 'P10ctl');
+    ok(!c.some((x) => /order tell|adjacent-order|repeated-order/.test(x)), `control — a legal forced shades page fails: ${c.filter((x) => /order/.test(x)).join(' | ')}`);
   }
   // P15 — F2: left big with right large AND huge present (two partners)
   {

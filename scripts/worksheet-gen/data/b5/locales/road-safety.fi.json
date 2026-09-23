@@ -261,7 +261,6 @@
     "stop-kerb",
     "look-left",
     "look-right",
-    "wait-clear",
     "walk-across"
   ],
   "listenStep": null,
@@ -286,7 +285,7 @@
     },
     "crossing-steps": {
       "title": "Kadun ylitys turvallisesti: vaihe vaiheelta",
-      "instruction": "Kirjoita ruutuihin numerot 1–5 siinä järjestyksessä, jossa ylität kadun turvallisesti."
+      "instruction": "Kirjoita ruutuihin numerot 1–4 siinä järjestyksessä, jossa ylität kadun turvallisesti."
     },
     "sign-meaning": {
       "title": "Liikennemerkit lapsille ja niiden merkitys",

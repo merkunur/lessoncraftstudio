@@ -4,11 +4,11 @@ const base = require('./K-369-road-safety.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"mode":"crossing-steps","cards":5,"offBy":3,"cardW":200,"figH":130,"minFrameH":196,"gap":20,"rowGap":18} };
+const D = { ...base.difficulty[2], ...{"mode":"crossing-steps","cards":4,"offBy":3,"cardW":200,"figH":130,"minFrameH":196,"gap":20,"rowGap":18} };
 module.exports = {
   ...base,
   id: 'K-374',
   slug: 'crossing-the-road-safely-steps',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Crossing the Road Safely: the Steps", instruction: "Write 1 to 5 in the boxes to show how to cross the road." } },
+  i18n: { en: { title: "Crossing the Road Safely: the Steps", instruction: "Write 1 to 4 in the boxes to show how to cross the road." } },
 };

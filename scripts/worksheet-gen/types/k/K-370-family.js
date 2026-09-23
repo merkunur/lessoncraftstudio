@@ -182,6 +182,11 @@ function browserVerify(data) {
   if (bs.some((b) => b == null)) fails.push('a non-ego person without a badge');
   const sortedB = bs.slice().sort((a, b) => a - b);
   if (sortedB.some((b, i) => b !== i + 1)) fails.push(`badges ${sortedB.join(',')} are not 1..${bs.length}`);
+  // landing review 2026-09-23: the older sibling (Z / B) is drawn TALLER than the ego (measured bust boxes)
+  { const bust = (sel) => { const g = svg.querySelector(sel); const fg = g && g.querySelector('svg[data-lcs-figure]');
+      return fg ? fg.height.baseVal.value * (svg.getScreenCTM() ? svg.getScreenCTM().d : 1) : null; };
+    const ob = bust('g[data-lcs-path="Z"], g[data-lcs-path="B"]'), eb = bust('g[data-lcs-ego]');
+    if (ob != null && eb != null && !(ob >= eb * 1.12)) fails.push(`the older sibling's bust ${ob.toFixed(1)} px is not taller than the ego's ${eb.toFixed(1)} (want >= 1.12x)`); }
   // PR2: badge order is NOT monotone in generation
   const genOf = (path) => (['MM', 'MF', 'FM', 'FF'].includes(path) ? 0 : /^[MF]([ZB])?$/.test(path) ? 1 : 2);
   const gensByBadge = nonEgo.slice().sort((a, b) => a.badge - b.badge).map((p) => genOf(p.path));
@@ -392,6 +397,7 @@ function faceTraceWords(bankLoc, d, locale, rng, over = {}) {
   const comp = this._compose({ grand: true, baby: false }, rng);
   const { persons } = comp;
   assertConventional(persons);
+  if (!over.sameSize) olderTaller(persons, d.frame[1]);
   const kin = bankLoc.kin;
   const excl = new Set(bankLoc.f2Exclude || []);
   const nonEgo = persons.filter((p) => p.path !== '');
@@ -439,7 +445,10 @@ function faceTraceWords(bankLoc, d, locale, rng, over = {}) {
   const panelH = n * d.trioH + (n - 1) * d.bankGap + 2 * pad, panelMax = n * d.trioH + (n - 1) * d.bankGapMax + 2 * pad;
   const rowsH = n * d.trioH + (n - 1) * d.rowGap, rowsMax = n * d.trioH + (n - 1) * d.rowGapMax;
   const colH = panelH + d.midGap + rowsH, colMax = panelMax + d.midGapMax + rowsMax;
-  const panel = C5.famTraceBank({ words: bank, laneW: d.laneW, trioH: d.trioH, glyphH: d.glyphH, gap: d.bankGap, gapMax: d.bankGapMax, pad });
+  const byWord = Object.fromEntries(rows.map((r) => [r.answer, r.badge]));
+  let bankBadges = bank.map((w) => byWord[w]);
+  if (over.bankBadges) bankBadges = over.bankBadges(bankBadges);
+  const panel = C5.famTraceBank({ words: bank, badges: over.unnumberBank ? null : bankBadges, laneW: d.laneW, trioH: d.trioH, glyphH: d.glyphH, gap: d.bankGap, gapMax: d.bankGapMax, pad });
   const lines = C5.famWriteRows({ rows, laneW: d.laneW, trioH: d.trioH, glyphH: d.glyphH, gap: d.rowGap, gapMax: d.rowGapMax });
   const colW = BODY_W - d.stageW - d.colGap;
   const col = `<div style="display:flex;flex-direction:column;height:100%;width:${colW}px">` +
@@ -462,6 +471,12 @@ function f2Glyph(text, d) {
   return scale * units;
 }
 
+/** The older sibling (path Z / B) drawn TALLER than the ego (landing review 2026-09-23, K-370 + K-375: an
+ *  older sister the child's size read as a twin) — the G1-386 sizes: older fills its frame, the ego at 0.76. */
+function olderTaller(persons, frameH) {
+  const older = persons.find((p) => p.path === 'Z' || p.path === 'B'), egoP = persons.find((p) => p.path === '');
+  if (older && egoP) { older.bustPx = frameH - 12; egoP.bustPx = Math.max(72, Math.round(frameH * 0.76)); }
+}
 /** F3 tree-clues — a given tree with name plates; four clues fill the four empty plates */
 function faceTreeClues(bankLoc, d, locale, rng, over) {
   const comp = over.compose ? over.compose(d, rng) : this._compose({ grand: true, baby: false, sideline: d.sideline }, rng);
@@ -778,7 +793,17 @@ function browserVerifyFace(data) {
       const bankWords = lanes.map((l) => l.dataset.lcsText);
       if (!bankEl) fails.push('no trace panel');
       if (bankWords.slice().sort().join('|') !== rowWords.slice().sort().join('|')) fails.push(`the trace panel holds ${bankWords.join('/')} for lines ${rowWords.join('/')}`);
-      if (bankEl && /[0-9]/.test(bankEl.textContent)) fails.push('a numeral inside the trace panel');
+      // landing review 2026-09-23: each word to trace carries the number of the person it names (re-derived from the graph)
+      for (const l of lanes) {
+        const discs = l.querySelectorAll('[data-lcs-bank-disc] text');
+        const want = rows.find((r) => r.dataset.lcsAnswer === l.dataset.lcsText);
+        if (discs.length !== 1) fails.push(`panel word ${l.dataset.lcsText}: ${discs.length} number discs (want its person's number)`);
+        else if (!want || discs[0].textContent.trim() !== want.dataset.lcsBadge) fails.push(`panel word ${l.dataset.lcsText} is numbered ${discs[0].textContent.trim()}, its person is ${want ? want.dataset.lcsBadge : '?'}`);
+      }
+      { const bust = (sel) => { const g = svg.querySelector(sel); const fg = g && g.querySelector('svg[data-lcs-figure]');
+          return fg && fg.ownerSVGElement ? fg.height.baseVal.value * fg.ownerSVGElement.getScreenCTM().d : null; };
+        const ob = bust('g[data-lcs-path="Z"], g[data-lcs-path="B"]'), eb = bust('g[data-lcs-ego]');
+        if (ob != null && eb != null && !(ob >= eb * 1.12)) fails.push(`the older sibling's bust ${ob.toFixed(1)} px is not taller than the ego's ${eb.toFixed(1)} (want >= 1.12x)`); }
       const same = bankWords.filter((w, i) => w === rowWords[i]);
       if (same.length) fails.push(`the trace panel puts ${same.join(', ')} level with its own line (the lookup is not needed)`);
       if (bankWords.length > 2 && bankWords.every((w, i) => w === rowWords[rowWords.length - 1 - i])) fails.push('the trace panel is the lines reversed');
@@ -1061,6 +1086,7 @@ const TYPE = {
     const comp = over.compose ? over.compose(d, rng) : this._compose(d, rng);
     const { persons } = comp;
     assertConventional(persons);
+    if (!over.sameSize) olderTaller(persons, fh);
     const kin = bankLoc.kin;
     const nonEgo = persons.filter((p) => p.path !== '');
     // the asked words: every non-ego person (5 at d2); a path the locale leaves unmapped REFUSES

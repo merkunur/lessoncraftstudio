@@ -209,7 +209,6 @@
     "stop-kerb",
     "look-left",
     "look-right",
-    "wait-clear",
     "walk-across"
   ],
   "listenStep": null,
@@ -232,7 +231,7 @@
     },
     "crossing-steps": {
       "title": "Educação no trânsito: como atravessar a rua",
-      "instruction": "Escreva de 1 a 5 nos quadrinhos para mostrar como atravessar a rua."
+      "instruction": "Escreva de 1 a 4 nos quadrinhos para mostrar como atravessar a rua."
     },
     "sign-meaning": {
       "title": "Educação no trânsito: placas e seus significados",

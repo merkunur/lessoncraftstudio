@@ -71,6 +71,16 @@ const CHROME = {
 /* ---- the gate's OWN ground truth (never the spec's helpers) ---- */
 const DV = { n: [0, -1], e: [1, 0], s: [0, 1], w: [-1, 0] };
 function off(a, b, d) { const v = [b[0] - a[0], b[1] - a[1]]; return Math.acos(Math.max(-1, Math.min(1, (v[0] * DV[d][0] + v[1] * DV[d][1]) / Math.hypot(...v)))) * 180 / Math.PI; }
+/** F5 (landing review 2026-09-23): the answer (the ONE chip within 30° of the direction, by the gate's own bearings) of
+ *  any place on > 2 of the 6 rows, or a MIRROR pair (row j starts at row i's answer and answers row i's start). */
+function capMirror(rows, at) {
+  const ans = rows.map((r) => { const inn = r.chips.filter((c) => off(at[r.start], at[c], r.dir) <= 30); return inn.length === 1 ? inn[0] : null; });
+  const out = [], cnt = {};
+  ans.forEach((a) => { if (a) cnt[a] = (cnt[a] || 0) + 1; });
+  for (const [a, n] of Object.entries(cnt)) if (n > 2) out.push(`cap ${a} x${n}`);
+  for (let i = 0; i < rows.length; i++) for (let j = i + 1; j < rows.length; j++) if (ans[i] && ans[j] && rows[i].start === ans[j] && rows[j].start === ans[i]) out.push(`mirror ${i + 1}/${j + 1}`);
+  return out;
+}
 function periodic(s) { for (let p = 1; p <= s.length / 2; p++) if (s.every((x, i) => i + p >= s.length || s[i + p] === x)) return true; return false; }
 function shifted(a, b) { for (let k = 1; k < a.length; k++) if (a.every((x, i) => b[(i + k) % a.length] === x)) return true; return false; }
 function runOf(seq) { let m = 0, r = 0; seq.forEach((x, i) => { r = i && x === seq[i - 1] ? r + 1 : 1; m = Math.max(m, r); }); return m; }
@@ -172,7 +182,7 @@ async function faceGate({ page, ok, judge, fails, log, validateBank, quick }) {
     log.push(`  tells ${id} (${N} pages): number 1's ${F3 ? 'bank' : 'index'} position max ${(mx * 100).toFixed(0)} % · ${F3 ? 'bank' : 'index'}↔numeral rank r ${r.toFixed(3)} · breaks ${bad} · numbering non-neutral ${numNeutral}`);
   }
   {
-    const T = types['G2-371'], cnt = [0, 0, 0]; let bad = 0, neutral = 0;
+    const T = types['G2-371'], cnt = [0, 0, 0]; let bad = 0, neutral = 0, capBad = 0;
     const scale = 533 / ISL.view.w;
     for (let s = 1; s <= N; s++) {
       const m = build(T, en, {}, s).meta, m2 = build(T, de, {}, s, 'de').meta;
@@ -189,7 +199,11 @@ async function faceGate({ page, ok, judge, fails, log, validateBank, quick }) {
       }
       const seq = m.rows.map((r) => r.chips.indexOf(r.answer));
       if (new Set(seq).size < 2 || periodic(seq)) bad++;
+      const cm = capMirror(m.rows, at), cm2 = capMirror(m2.rows, Object.fromEntries(m2.places.map((p) => [p.id, [p.x, p.y]])));
+      if (cm.length) { capBad++; if (s === 1) ok(false, `F5 SHIPPED page (epoch 1): ${cm.join(', ')}`); }
+      if (cm2.length) capBad++;
     }
+    ok(!capBad, `F5 sweep: ${capBad} of ${2 * N} pages (en + de, epochs 1..${N}, epoch 1 = shipped) break the answer cap / mirror rule`);
     const sh = cnt.map((c) => c / (6 * N));
     ok(!bad, `F5 sweep: ${bad} breaks of the bearing / start / spacing rules`); ok(!neutral, `F5: ${neutral} draws not locale-neutral`);
     ok(sh.every((x) => x >= 0.2 && x <= 0.47), `F5: correct-chip position shares [${sh.map((x) => (x * 100).toFixed(0) + '%')}]`);
@@ -324,6 +338,34 @@ async function faceGate({ page, ok, judge, fails, log, validateBank, quick }) {
     const rows = JSON.parse(JSON.stringify(m.rows)); rows[1].start = rows[0].start;
     await rp('PR16 F5 a reused start', forced(T5, { forceRows: rows }), /the rows reuse a start/, { seedEpoch: 1 });
     const rows2 = JSON.parse(JSON.stringify(m.rows)); for (const r of rows2) r.chips = [r.answer, ...r.chips.filter((c) => c !== r.answer)];
+    // CAP / MIRROR poisons, planted on real island geometry by the gate's own bearings (both ways: the shipped page is the control)
+    {
+      const OPP = { n: 's', s: 'n', e: 'w', w: 'e' };
+      const tb = (cs) => cs.includes('tree') && cs.includes('bush');
+      let capHit = null, mirHit = null;
+      for (let sd = 1; sd <= 240 && (!capHit || !mirHit); sd++) {
+        const mm = build(T5, en, {}, sd).meta, at = Object.fromEntries(mm.places.map((p) => [p.id, [p.x, p.y]]));
+        if (!capHit) for (const y of Object.keys(at)) {
+          const rows = JSON.parse(JSON.stringify(mm.rows)); let n = rows.filter((r) => r.answer === y).length;
+          for (const r of rows) { if (n >= 3) break; if (r.answer === y || r.start === y || r.chips.includes(y) || off(at[r.start], at[y], r.dir) > 30) continue; const cs = r.chips.map((c) => (c === r.answer ? y : c)); if (tb(cs)) continue; r.chips = cs; r.answer = y; n++; }
+          if (n >= 3 && !capMirror(rows, at).some((x) => /mirror/.test(x))) { capHit = { s: sd, rows }; break; }
+        }
+        if (!mirHit) for (let i = 0; i < mm.rows.length && !mirHit; i++) for (let j = 0; j < mm.rows.length && !mirHit; j++) {
+          if (i === j) continue; const X = mm.rows[i].start, Y = mm.rows[i].answer, d = OPP[mm.rows[i].dir];
+          if (mm.rows.some((r, k) => k !== j && r.start === Y)) continue;
+          const wr = Object.keys(at).filter((z) => z !== Y && z !== X && off(at[Y], at[z], d) >= 90);
+          if (wr.length < 2 || off(at[Y], at[X], d) > 30) continue;
+          const rows = JSON.parse(JSON.stringify(mm.rows)); const pos = rows[j].chips.indexOf(rows[j].answer);
+          const w = wr.slice(0, 2); if (tb([X, ...w])) continue; w.splice(pos, 0, X);
+          rows[j] = { ...rows[j], start: Y, dir: d, answer: X, chips: w };
+          if (new Set(rows.map((r) => r.dir)).size < 4 || capMirror(rows, at).some((x) => /cap/.test(x))) continue;
+          mirHit = { s: sd, rows };
+        }
+      }
+      ok(!!capHit && !!mirHit, `F5 cap/mirror poisons: no plantable page (cap ${!!capHit}, mirror ${!!mirHit})`);
+      if (capHit) { ok(capMirror(capHit.rows, Object.fromEntries(build(T5, en, {}, capHit.s).meta.places.map((p) => [p.id, [p.x, p.y]]))).some((x) => /cap/.test(x)), 'poison — the gate own cap check is silent on a 3-answer page'); await rp('PR18 F5 one place answers 3 of 6 rows', forced(T5, { forceRows: capHit.rows }), /answer cap — \w+ is the answer in 3 of 6 rows/, { seedEpoch: capHit.s }); }
+      if (mirHit) { ok(capMirror(mirHit.rows, Object.fromEntries(build(T5, en, {}, mirHit.s).meta.places.map((p) => [p.id, [p.x, p.y]]))).some((x) => /mirror/.test(x)), 'poison — the gate own mirror check is silent on a mirror pair'); await rp('PR19 F5 a mirror pair of rows', forced(T5, { forceRows: mirHit.rows }), /mirror pair — rows \d+ and \d+ swap start and answer/, { seedEpoch: mirHit.s }); }
+    }
     await rp('AT5 F5 the correct chip always first', forced(T5, { forceRows: rows2 }), /correct chip positions \[0,0,0,0,0,0\] are constant/, { seedEpoch: 1 });
   }
   // UN1 (landing round 1): the directions face without its legend -> every drawn symbol is unnamed; the shipped face is the control

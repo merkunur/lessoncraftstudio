@@ -62,6 +62,24 @@ const { COMMON } = require('../../data/b5/road-safety.js');
 const LIGHT_RULE = COMMON.lightRule;
 const BANNED_ORDERS = new Set(['SSSGGG', 'GGGSSS', 'SGSGSG', 'GSGSGS', 'SSGG', 'GGSS', 'SGSG', 'GSGS']);
 const TRIES = 500;
+/**
+ * SIDE TELL (landing review 2026-09-23): the stop chip sat LEFT and go RIGHT on every street, so the
+ * answer's POSITION could be read without the light. Each street is drawn left-handed or mirrored;
+ * the answer position (L = the circled chip is left of the pole) must be balanced (±1), use both
+ * sides, never run in a banned pattern, and neither column may be all one position; the mirrored
+ * streets are half of the page (±1). Positions from sides + flips: L when (stop) XOR (flipped).
+ */
+function answerPositions(sides, flips) { return sides.map((sd, i) => ((sd === 'stop') !== !!flips[i] ? 'L' : 'R')).join(''); }
+function positionTell(pos, flips, rowsPerCol) {
+  const n = pos.length, nL = (pos.match(/L/g) || []).length, nF = flips.filter(Boolean).length;
+  if (Math.abs(2 * nL - n) > 2) return `answer positions ${pos}: ${nL} left / ${n - nL} right (balance ±1)`;
+  if (!/L/.test(pos) || !/R/.test(pos)) return `answer positions ${pos} use one side`;
+  if (Math.abs(2 * nF - n) > 2) return `${nF} of ${n} streets mirrored (balance ±1)`;
+  const as = pos.replace(/L/g, 'S').replace(/R/g, 'G');
+  if (BANNED_ORDERS.has(as)) return `answer positions ${pos} run in a staircase / alternation`;
+  if (rowsPerCol >= 3) for (const col of [pos.slice(0, rowsPerCol), pos.slice(rowsPerCol)]) if (/^L+$/.test(col) || /^R+$/.test(col)) return `a column of answer positions ${col} is all one side`;
+  return null;
+}
 
 /** strip geometry per resolved config */
 function geomFor(d) {
@@ -175,6 +193,26 @@ function buildColourLights(block, d, loc, rng, seam) {
 
 /* ---------------------------------------------------------------- F2 crossing-steps */
 const STEP_LAYOUT = { 4: [2, 2], 5: [3, 2], 6: [3, 3] };
+/**
+ * ONE VALID ORDER (landing review 2026-09-23, da + no panels: "stop at the kerb" and "wait for the car" both
+ * show the child on the kerb, so stop <-> wait was a defensible swap). The model of what each DRAWN action
+ * forces: arriving at the kerb comes before any look and before walking; the near lane (left) is looked at
+ * before the far lane (right); walking comes last. Nothing forces a wait against the arrival or the looks, and
+ * nothing forces 'listen' / 'look-both' against the looks — so a routine carrying them has more than one valid
+ * order and REFUSES. The count is of linear extensions (every permutation that keeps every forced pair).
+ */
+const STEP_ACTION = { 'stop-kerb': 'arrive', 'look-left': 'L', 'look-right': 'R', 'look-both': 'both', 'wait-clear': 'wait', 'walk-across': 'walk', listen: 'listen' };
+function validOrderCount(actions) {
+  const before = (a, b) => (a === 'arrive' && ['L', 'R', 'both', 'walk'].includes(b)) || (a === 'L' && b === 'R') || (a !== 'walk' && b === 'walk');
+  const n = actions.length; let count = 0;
+  const used = Array(n).fill(false), seq = [];
+  const rec = () => {
+    if (seq.length === n) { count++; return; }
+    for (let i = 0; i < n; i++) if (!used[i] && !actions.some((b, j) => !used[j] && j !== i && before(b, actions[i]))) { used[i] = true; seq.push(i); rec(); seq.pop(); used[i] = false; }
+  };
+  rec();
+  return count;
+}
 function buildCrossingSteps(block, d, loc, rng, seam) {
   const strings = faceStrings(block, 'crossing-steps', loc);
   const steps = block.steps;
@@ -188,6 +226,8 @@ function buildCrossingSteps(block, d, loc, rng, seam) {
   // "again" frame differed from the first only by the arrow's curve, so steps 2 and 4 were swappable. Every card now
   // carries a different action (stop · look left · look right · wait until clear · walk); a repeated step REFUSES.
   if (new Set(steps).size !== steps.length) throw new Error(`K-369 ${loc}: the routine ${steps.join(',')} repeats an action (every card must carry a different action — refuse)`);
+  const nOrders = validOrderCount(steps.map((k) => STEP_ACTION[k]));
+  if (nOrders !== 1) throw new Error(`K-369 ${loc}: the routine ${steps.join(',')} has ${nOrders} valid orders by the drawn-action model (exactly one — refuse)`);
   const kinds = steps.slice();
   let order = seam && seam.plan ? seam.plan.order : null;
   for (let t = 0; t < TRIES && !order; t++) {
@@ -244,6 +284,21 @@ function buildSignMeaning(block, d, loc, rng, seam) {
 
 /* ---------------------------------------------------------------- F4 sign-kinds */
 const LETTERS = 'ABCDEFGHIJ';
+/**
+ * CLASS-PAIR TELL (landing review 2026-09-23: signs printed in class pairs A+B, C+D …). In reading order the
+ * number of neighbouring cards of ONE class may not exceed its chance expectation: for k equal groups of m the
+ * expected same-class neighbour count of a random order is (m − 1) (each of the N − 1 neighbour pairs matches
+ * with p = (m − 1)/(N − 1)); and the order may not be GROUPED (every class one contiguous run).
+ */
+function classAdjacencyTell(cls) {
+  const per = {}; for (const c of cls) per[c] = (per[c] || 0) + 1;
+  const k = Object.keys(per).length, m = Math.max(...Object.values(per));
+  let same = 0, runs = 1;
+  for (let i = 1; i < cls.length; i++) { if (cls[i] === cls[i - 1]) same++; else runs++; }
+  if (k > 1 && runs === k) return `the classes are printed grouped (${cls.join(' ')})`;
+  if (same > m - 1) return `${same} neighbouring card pairs share a class (> the chance expectation ${m - 1}; ${cls.join(' ')})`;
+  return null;
+}
 function buildSignKinds(block, d, loc, rng, seam) {
   const strings = faceStrings(block, 'sign-kinds', loc);
   const classes = block.classes || [];
@@ -273,6 +328,7 @@ function buildSignKinds(block, d, loc, rng, seam) {
     const cls = order.map((r) => block.signs[r].class);
     if (cls.some((c, i) => i >= 2 && c === cls[i - 1] && c === cls[i - 2])) continue;   // no class in 3 adjacent cards
     if (periodic(cls, 2) || periodic(cls, 3)) continue;                                // not a pure alternation / a repeated triple
+    if (classAdjacencyTell(cls)) continue;                                              // not in class pairs / grouped
     const rowsOf = [cls.slice(0, order.length / 2), cls.slice(order.length / 2)];
     if (rowsOf.some((row) => row.every((c) => c === row[0]))) continue;
     plan = { order };
@@ -502,6 +558,16 @@ async function faceVerify(page, mode) {
       });
       for (let a = 0; a < sigs.length; a++) for (let b = a + 1; b < sigs.length; b++) if (sigs[a].sig === sigs[b].sig) f.push(`${sigs[a].what} and ${sigs[b].what} draw the SAME frame (their order is undecidable from the page)`);
       for (let a = 0; a < sigs.length; a++) for (let b = a + 1; b < sigs.length; b++) if (sigs[a].action === sigs[b].action) f.push(`duplicate action — ${sigs[a].what} and ${sigs[b].what} show the same action (their order is swappable)`);
+      {
+        // ONE VALID ORDER, from the DRAWING (verify runs in the page: the model is restated here): each card's action is
+        // read off what it draws — the walk-ahead mark, a passing car, the sight arrows — never off the step stamp
+        const acts = sigs.map((x) => { const [, dirs, cars, ahead] = JSON.parse(x.action); return ahead ? 'walk' : cars ? 'wait' : dirs.join() === '-1' ? 'L' : dirs.join() === '1' ? 'R' : dirs.length === 2 ? 'both' : dirs.length ? '?' : 'arrive'; });
+        const before = (a, b) => (a === 'arrive' && ['L', 'R', 'both', 'walk'].includes(b)) || (a === 'L' && b === 'R') || (a !== 'walk' && b === 'walk');
+        const n = acts.length; let count = 0; const used = Array(n).fill(false);
+        const rec = (k) => { if (k === n) { count++; return; } for (let i = 0; i < n; i++) if (!used[i] && !acts.some((b, j) => !used[j] && j !== i && before(b, acts[i]))) { used[i] = true; rec(k + 1); used[i] = false; } };
+        if (n && n <= 7) rec(0);
+        if (count !== 1) f.push(`the drawn cards [${acts.join(' ')}] have ${count} valid orders (exactly one: arrive -> look left -> look right -> walk)`);
+      }
       if (root.textContent.trim()) f.push(`text "${root.textContent.trim().slice(0, 24)}" on a picture-only page`);
     } else if (mode === 'sign-meaning') {
       sparseSel = '.ws-match-item';
@@ -559,6 +625,14 @@ async function faceVerify(page, mode) {
       for (const [c, v] of Object.entries(per)) if (!cfg.bins.includes(c)) f.push(`class ${c} (${v} signs) has no bin`); else if (v > cfg.boxes) f.push(`bin ${c}: ${v} signs > ${cfg.boxes} boxes`);
       if (cls.some((c, i) => i >= 2 && c === cls[i - 1] && c === cls[i - 2])) f.push(`three neighbouring cards of one class (${cls.join(' ')})`);
       if (periodic(cls, 2) || periodic(cls, 3)) f.push(`the classes run in a pattern (${cls.join(' ')})`);
+      {
+        // the gate-side class-pair rule, recomputed from the DRAWN classes (verify runs in the page: no helper)
+        const per2 = {}; for (const c of cls) per2[c] = (per2[c] || 0) + 1;
+        const k2 = Object.keys(per2).length, m2 = Math.max(...Object.values(per2));
+        let same = 0, runs = 1; for (let i = 1; i < cls.length; i++) { if (cls[i] === cls[i - 1]) same++; else runs++; }
+        if (k2 > 1 && runs === k2) f.push(`class-pair tell: the classes are printed grouped (${cls.join(' ')})`);
+        if (same > m2 - 1) f.push(`class-pair tell: ${same} neighbouring card pairs share a class (> the chance expectation ${m2 - 1}; ${cls.join(' ')})`);
+      }
       const bins = [...root.querySelectorAll('[data-lcs-bin]')];
       if (bins.map((b) => b.dataset.lcsBin).join() !== cfg.bins.join()) f.push(`bins ${bins.map((b) => b.dataset.lcsBin).join()} ≠ ${cfg.bins.join()}`);
       const counts = bins.map((b) => b.querySelectorAll('[data-lcs-bin-box]').length);
@@ -728,6 +802,15 @@ module.exports = {
       plan = { actors, sides, ans, amberAt };
     }
     if (!plan) throw new Error(`K-369 ${loc}: no composition in ${TRIES} tries (refuse)`);
+    // the side draw (its own rng step AFTER the composition, so actors / sides / amber stay the page's own)
+    if (!plan.flips) {
+      for (let t = 0; t < TRIES && !plan.flips; t++) {
+        const f = Array.from({ length: N }, () => rng.next() < 0.5);
+        if (!positionTell(answerPositions(plan.sides, f), f, rowsPerCol)) plan.flips = f;
+      }
+      if (!plan.flips) throw new Error(`K-369 ${loc}: no side draw in ${TRIES} tries (refuse)`);
+    }
+    plan.pos = answerPositions(plan.sides, plan.flips);
 
     const geom = geomSeam || geomFor(d);
     const strips = plan.actors.map((actor, i) => {
@@ -737,7 +820,7 @@ module.exports = {
         ? { kind: 'car', lamps: 3, on, amberToken: amberTok, lampD: d.lampD }
         : { kind: 'ped', lamps: pl.lamps, on, pedStyle, pedStop: pl.stop, lampD: d.lampD };
       const words = d.pillWords ? { stop: cw[actor].stop, go: cw[actor].go } : null;
-      return C5.streetStrip({ actor, light, words, geom });
+      return C5.streetStrip({ actor, light, words, geom, flip: !!plan.flips[i] });
     });
     const bodyHtml = C5.forkGrid({
       strips, geom,
@@ -746,7 +829,7 @@ module.exports = {
         'pill-words': d.pillWords ? '1' : '0', convention: block.convention, streets: N,
       },
     });
-    return { bodyHtml, meta: { answers: plan.ans, actors: plan.actors.join(','), amberAt: plan.amberAt.join(','), mode: 'base' } };
+    return { bodyHtml, meta: { answers: plan.ans, actors: plan.actors.join(','), amberAt: plan.amberAt.join(','), positions: plan.pos, flips: plan.flips.map((x) => (x ? 'M' : '-')).join(''), mode: 'base' } };
   },
 
   /**
@@ -776,6 +859,7 @@ module.exports = {
       const sorted = order.slice().sort((a, b) => (Math.round(a.r.left) - Math.round(b.r.left)) || (a.r.top - b.r.top));
       if (xs.length !== 2) fails.push(`${xs.length} strip columns ≠ 2`);
       const derived = [];
+      const stopSides = [];
       const heads = [];
       const actorsSeen = { ped: { stop: 0, go: 0 }, car: { stop: 0, go: 0 } };
       sorted.forEach(({ el, r }, i) => {
@@ -846,12 +930,20 @@ module.exports = {
         // outcomes: stop left of the pole, go right; one picture each; pills (when on) inside, <= 2 lines
         const poleX = r.left + (+el.dataset.lcsPoleX);
         const cells = { stop: el.querySelectorAll('[data-lcs-side="stop"].rs-cell'), go: el.querySelectorAll('[data-lcs-side="go"].rs-cell') };
+        // the stop side is the side of the pole the street band puts the kerb (walk) / the stop line (drive) on,
+        // read off the DRAWN band; go is the other side (a mirrored street is legal — the side tell ruling)
+        const mark = el.querySelector(actor === 'ped' ? '[data-lcs-band-part="kerb"]' : '[data-lcs-band-part="stopline"]');
+        const mr = mark && mark.getBoundingClientRect();
+        const stopLeft = mr ? (mr.left + mr.right) / 2 < poleX : null;
+        if (stopLeft === null) fails.push(`${what}: no ${actor === 'ped' ? 'kerb' : 'stop line'} drawn on the street band`);
         for (const s of ['stop', 'go']) {
           if (cells[s].length !== 1) { fails.push(`${what}: ${cells[s].length} ${s} cells`); continue; }
           const c = cells[s][0];
           const cr = c.getBoundingClientRect();
-          if (s === 'stop' && !(cr.right <= poleX)) fails.push(`${what}: the stop side is not left of the pole`);
-          if (s === 'go' && !(cr.left >= poleX)) fails.push(`${what}: the go side is not right of the pole`);
+          const wantLeft = s === 'stop' ? stopLeft : stopLeft === null ? null : !stopLeft;
+          if (wantLeft === true && !(cr.right <= poleX)) fails.push(`${what}: the ${s} side is not on the ${s === 'stop' ? 'kerb / stop-line' : 'far'} side of the pole (left)`);
+          if (wantLeft === false && !(cr.left >= poleX)) fails.push(`${what}: the ${s} side is not on the ${s === 'stop' ? 'kerb / stop-line' : 'far'} side of the pole (right)`);
+          if (s === 'stop' && stopLeft !== null) stopSides.push(stopLeft);
           const pic = c.querySelector(`[data-lcs-pictogram="${actor === 'ped' ? 'walker' : 'car'}"]`);
           if (!pic) fails.push(`${what}: no ${actor} picture on the ${s} side`);
           else {
@@ -908,6 +1000,16 @@ module.exports = {
       const half = N / 2;
       for (const col of [got.slice(0, half), got.slice(half)]) if (/^S+$/.test(col) || /^G+$/.test(col)) fails.push(`column ${col} is all one answer`);
       if (['SSSGGG', 'GGGSSS', 'SGSGSG', 'GSGSGS', 'SSGG', 'GGSS', 'SGSG', 'GSGS'].includes(got)) fails.push(`answer order ${got} is a staircase / alternation`);
+      // SIDE TELL (landing review 2026-09-23), from the DRAWN geometry: where the answer chip sits relative to the pole
+      if (stopSides.length === N && got.length === N) {
+        const pos = got.split('').map((a, i) => ((a === 'S') === stopSides[i] ? 'L' : 'R')).join('');
+        const nL = (pos.match(/L/g) || []).length, nM = stopSides.filter((x) => !x).length;
+        if (Math.abs(2 * nL - N) > 2) fails.push(`side tell: the answer sits left on ${nL} of ${N} streets (balance ±1)`);
+        if (!/L/.test(pos) || !/R/.test(pos)) fails.push(`side tell: every answer sits on one side (${pos})`);
+        if (Math.abs(2 * nM - N) > 2) fails.push(`side tell: ${nM} of ${N} streets mirrored (the stop chip sits left on the rest; balance ±1)`);
+        if (['LLLRRR', 'RRRLLL', 'LRLRLR', 'RLRLRL', 'LLRR', 'RRLL', 'LRLR', 'RLRL'].includes(pos)) fails.push(`side tell: answer positions ${pos} run in a staircase / alternation`);
+        if (half >= 3) for (const col of [pos.slice(0, half), pos.slice(half)]) if (/^L+$/.test(col) || /^R+$/.test(col)) fails.push(`side tell: a column of answer positions ${col} is all one side`);
+      } else fails.push(`side tell: read ${stopSides.length} stop sides for ${N} streets (the check read nothing)`);
       // codeColors only inside [data-lcs-signal]
       const CODE = ['#C0392B', '#2E6DA4', '#E0A800', '#4E8A3C', '#D9661C', '#7A4E9C', '#8C5A2B', '#D66A8E'];
       document.querySelectorAll('[fill], [stroke]').forEach((n) => {

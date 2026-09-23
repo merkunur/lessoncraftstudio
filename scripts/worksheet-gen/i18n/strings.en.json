@@ -909,7 +909,7 @@
   },
   "K-374": {
     "title": "Crossing the Road Safely: the Steps",
-    "instruction": "Write 1 to 5 in the boxes to show how to cross the road."
+    "instruction": "Write 1 to 4 in the boxes to show how to cross the road."
   },
   "K-375": {
     "title": "Family Words: Trace and Write",
@@ -2869,6 +2869,6 @@
   },
   "G3-399": {
     "title": "Root Words in Sentences",
-    "instruction": "Write each of the four words on the stone into the sentence it fits."
+    "instruction": "Write the four words above each stone into the sentences below it, one word in each gap."
   }
 }

@@ -10,6 +10,6 @@ module.exports = {
   id: 'G3-399',
   slug: 'root-words-in-sentences',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Root Words in Sentences", instruction: "Write each of the four words on the stone into the sentence it fits." } },
+  i18n: { en: { title: "Root Words in Sentences", instruction: "Write the four words above each stone into the sentences below it, one word in each gap." } },
   gradeBand: "G3",
 };

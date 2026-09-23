@@ -277,7 +277,6 @@
     "stop-kerb",
     "look-left",
     "look-right",
-    "wait-clear",
     "walk-across"
   ],
   "listenStep": null,
@@ -301,7 +300,7 @@
     },
     "crossing-steps": {
       "title": "Veilig oversteken: stap voor stap",
-      "instruction": "Schrijf 1 tot en met 5 in de vakjes: zo steek je veilig over."
+      "instruction": "Schrijf 1 tot en met 4 in de vakjes: zo steek je veilig over."
     },
     "sign-meaning": {
       "title": "Verkeersborden en hun betekenis voor kinderen",

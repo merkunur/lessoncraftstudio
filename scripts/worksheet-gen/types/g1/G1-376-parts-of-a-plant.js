@@ -69,6 +69,12 @@ const FACE_LAYOUTS = ['needs', 'cycle', 'eat', 'jobs', 'flower'];
 const FACE_BODY = 667;     // MEASURED: the worst legal chrome (4-line fi title + 3-line instruction) leaves 667, not the ruled 677
 const FACE_SPARSE = 40;    // nt10-E SPARSE ruling: max blank band between consecutive content blocks (body top counts as a block)
 const wordRe = (w, loc) => new RegExp('(?<!\\p{L})' + String(w).normalize('NFC').toLocaleLowerCase(loc).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?!\\p{L})', 'u');
+/** Cyclic tell (landing review 2026-09-23): o is a ROTATION of ref, or of ref reversed — reading round from one card gives every slot. */
+function cyclicTell(o, ref) {
+  const n = ref.length; if (o.length !== n) return null;
+  for (const [dir, r] of [['rotation', ref], ['reverse rotation', ref.slice().reverse()]]) for (let k = 0; k < n; k++) if (o.every((x, i) => x === r[(i + k) % n])) return `${dir} ${k}`;
+  return null;
+}
 /** Tag numbers 1..N off the y order (neither top-to-bottom nor bottom-to-top); the base's own composer is untouched. */
 function offOrderNumbers(parts, slotY, rng) {
   const byY = parts.slice().sort((a, b) => slotY(a) - slotY(b));
@@ -249,7 +255,7 @@ const TYPE = {
       if (st[st.length - 1] !== 'fruiting') throw new Error(`${ID}: the last stage must be the fruiting plant (its seeds close the ring)`);
       const rest = st.slice(1);
       const rev = rest.slice().reverse().join();
-      let strip = draw(TRIES, () => rng.shuffle(rest), (o) => o.every((x, i) => x !== rest[i]) && o.join() !== rev, 'strip derangement');
+      let strip = draw(400, () => rng.shuffle(rest), (o) => o.every((x, i) => x !== rest[i]) && o.join() !== rev && !cyclicTell(o, rest), 'strip derangement off every rotation');
       if (d.forceStrip) strip = d.forceStrip.slice();
       const ring = C5.plantCycleRing({ stages: st, slot: d.slot, R: d.R });
       const cut = C5.plantCycleStrip({ stages: strip, card: d.slot });
@@ -502,6 +508,7 @@ const TYPE = {
         if (strip.slice().sort().join() !== rest.slice().sort().join()) fails.push(`strip [${strip}] ≠ the stages after the seed`);
         if (strip.some((x, i) => x === rest[i])) fails.push(`strip [${strip}] is not a derangement of the slot order`);
         if (strip.join() === rest.slice().reverse().join()) fails.push('strip is the reversed slot order');
+        for (const [dir, r] of [['rotation', rest], ['reverse rotation', rest.slice().reverse()]]) for (let k = 0; k < r.length; k++) if (strip.length === r.length && strip.every((x, i) => x === r[(i + k) % r.length])) fails.push(`strip [${strip}] is a ${dir} (${k}) of the slot order (reading round from one card gives every slot)`);
         const s2 = slots.find((s) => +s.dataset.lcsSlot === 2);
         cards.forEach((c) => {
           const r = rect(c), q = s2 && rect(s2);
@@ -626,6 +633,14 @@ const TYPE = {
       if (insets.length !== 1) fails.push(`${insets.length} insets ≠ 1`);
       else if (insets[0].querySelector('g[data-lcs-tag]')) fails.push('the inset carries a tag');
       else if (!insets[0].querySelector('[data-lcs-look-ring]')) fails.push('the inset has no ring round its flower');
+      // the strike-out word is the ROOT, so no root may be DRAWN anywhere on the page (landing review 2026-09-23,
+      // es/sv/da/it: the inset showed roots) — a root mark counts when its box lies inside its svg's visible box
+      all('[data-lcs-root], [data-lcs-part="root"] path').forEach((r) => {
+        const b = rect(r), sv = r.ownerSVGElement, v = sv && rect(sv);
+        const clip = sv && getComputedStyle(sv).overflow !== 'visible';
+        const shown = b.width + b.height > 0 && (!clip || (b.bottom > v.top + 0.5 && b.top < v.bottom - 0.5 && b.right > v.left + 0.5 && b.left < v.right - 0.5));
+        if (shown) fails.push(`the decoy is drawn: a root (${r.getAttribute('data-lcs-root') || 'path'}) shows on the flower page`);
+      });
       const cl = root.cloneNode(true); cl.querySelectorAll('g[data-lcs-tag], [data-lcs-row-badge], [data-lcs-bank-banner], title').forEach((e) => e.remove());
       if (cl.textContent.trim()) fails.push(`text outside the tags, badges and bank: "${cl.textContent.trim().slice(0, 30)}"`);
       return fails;

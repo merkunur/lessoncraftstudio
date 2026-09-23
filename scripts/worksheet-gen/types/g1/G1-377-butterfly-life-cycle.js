@@ -54,6 +54,12 @@ const KEY = 'animal-life-cycles';
 const G1_FLOOR = 44;
 const NUMERAL_FLOOR = 26;
 
+/** Cyclic tell (landing review 2026-09-23): o is a ROTATION of ref, or of ref reversed — reading round from one card gives every slot. */
+function cyclicTell(o, ref) {
+  const n = ref.length; if (o.length !== n) return null;
+  for (const [dir, r] of [['rotation', ref], ['reverse rotation', ref.slice().reverse()]]) for (let k = 0; k < n; k++) if (o.every((x, i) => x === r[(i + k) % n])) return `${dir} ${k}`;
+  return null;
+}
 function literal(v, what, loc) {
   if (typeof v !== 'string' || !v.trim()) throw new Error(`${ID}: ${loc} ${what} is missing (refuse — never a vocab / en fallback)`);
   if (v !== v.trim()) throw new Error(`${ID}: ${loc} ${what} "${v}" is not trimmed`);
@@ -190,7 +196,7 @@ const TYPE = {
     this._floor(d.padLens, 90, 'F1 pad lens'); this._floor(d.tileLens, 90, 'F1 tile lens'); this._floor(d.cell, d.tileLens + 8, 'F1 cell');
     this._floor(d.ghost, d.cell + 12, 'F1 ghost (>= cell + 12)'); this._floor(d.padR, d.padLens / 2 + 8, 'F1 pad r'); this._floor(d.ringMax, 500, 'F1 ring max height');
     const tiles = d.stages.filter((s) => !d.anchors.includes(s));
-    const legal = (o) => o.length === tiles.length && o.every((s, i) => s !== tiles[i]) && o.join() !== tiles.slice().reverse().join();
+    const legal = (o) => o.length === tiles.length && o.every((s, i) => s !== tiles[i]) && o.join() !== tiles.slice().reverse().join() && !cyclicTell(o, tiles);
     const order = d.forceTiles || this._drawLegal(rng, () => rng.shuffle(tiles), legal, 'F1 strip');
     const parts = [
       C5.lifePondRing({ animal: d.animal, stages: d.stages, anchors: d.anchors, padR: d.padR, ghost: d.ghost, padLens: d.padLens, spawnForm, maxH: d.ringMax }),
@@ -213,7 +219,7 @@ const TYPE = {
       words.push({ key: d.decoy, text: t, decoy: true });
     }
     const loopKeys = stages.join(), revKeys = stages.slice().reverse().join();
-    const legal = (o) => { const st = o.filter((w) => !w.decoy).map((w) => w.key).join(); const di = o.findIndex((w) => w.decoy); return st !== loopKeys && st !== revKeys && (!d.decoy || (di > 0 && di < o.length - 1)); };
+    const legal = (o) => { const st = o.filter((w) => !w.decoy).map((w) => w.key).join(); const di = o.findIndex((w) => w.decoy); return st !== loopKeys && st !== revKeys && !cyclicTell(o.filter((w) => !w.decoy).map((w) => w.key), stages) && (!d.decoy || (di > 0 && di < o.length - 1)); };
     const order = d.forceBank ? d.forceBank.map((k) => words.find((w) => w.key === k)) : this._drawLegal(rng, () => rng.shuffle(words), legal, 'F2 bank');
     const parts = [];
     if (d.bank !== false) parts.push(C5.lifeWordBank({ words: order, wordPx: d.wordPx }));
@@ -376,6 +382,7 @@ const TYPE = {
         if (tiles.slice().sort().join() !== want.slice().sort().join()) f.push(`strip tiles [${tiles}] ≠ the open pads [${want}]`);
         if (tiles.some((s, i) => s === want[i])) f.push(`strip order [${tiles}] is not a derangement of the pad order (a tile sits in its own pad's place)`);
         if (tiles.join() === want.slice().reverse().join()) f.push('strip order is the pad order reversed');
+        for (const [dir, r] of [['rotation', want], ['reverse rotation', want.slice().reverse()]]) for (let k = 0; k < r.length; k++) if (tiles.length === r.length && tiles.every((x, i) => x === r[(i + k) % r.length])) f.push(`strip order [${tiles}] is a ${dir} (${k}) of the pad order (reading round from one tile gives every pad)`);
         for (const t of root.querySelectorAll('[data-lcs-tile]')) { const r = R(t), l = t.querySelector('[data-lcs-lens]'); if (Math.abs(r.width - cfg.cell) > 0.6 || Math.abs(r.height - cfg.cell) > 0.6) f.push(`tile cell ${r.width}x${r.height} ≠ ${cfg.cell} square`); if (!l || diam(l) < Math.max(90, FLOOR) || Math.abs(diam(l) - cfg.tileLens) > 0.6) f.push('tile lens size'); if (l && l.dataset.lcsStage !== `${cfg.animal}.${t.dataset.lcsTile}`) f.push('tile stamp ≠ its drawing'); }
         const cut = root.querySelector('[data-lcs-cut] [data-lcs-cutlines]');
         if (!cut || cut.querySelectorAll('[data-lcs-cut-v]').length !== tiles.length - 1 || !cut.querySelector('[data-lcs-cut-frame]')) f.push('no cut lines round the tiles');
@@ -411,6 +418,7 @@ const TYPE = {
           if (st.slice().sort().join() !== bio.slice().sort().join()) f.push(`bank stages [${st}] ≠ the ${cfg.animal} stages`);
           if (st.join() === bio.join()) f.push('bank order is the loop order (a copy-down tell)');
           if (st.join() === bio.slice().reverse().join()) f.push('bank order is the loop reversed');
+          for (const [dir, r] of [['rotation', bio], ['reverse rotation', bio.slice().reverse()]]) for (let k = 0; k < r.length; k++) if (st.length === r.length && st.every((x, i) => x === r[(i + k) % r.length])) f.push(`bank order [${st}] is a ${dir} (${k}) of the loop (reading round from one word gives every lane)`);
           const dec = words.filter((w) => w.hasAttribute('data-lcs-decoy'));
           if (cfg.decoy) {
             if (dec.length !== 1 || dec[0].dataset.lcsBankWord !== cfg.decoy) f.push('the decoy is missing or unstamped');

@@ -94,6 +94,15 @@ function tagSpan({ word, groupId, slot, chipH, chipPx, radius = 12, pad = 8, ext
 }
 
 /**
+ * The sleep mark: three rising, separate Z strokes (10 / 12 / 16 px, each clear of the next), ink, drawn as paths (no text node, so no
+ * font and no locale); stamped data-lcs-cue="zzz". Readable in greyscale (ink on white).
+ */
+function synSleepMark() {
+  const z = (x, y, s) => `<path d="M${x} ${y}h${s}l-${s} ${s}h${s}" fill="none" stroke="${T.ink}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>`;
+  return `<svg data-lcs-cue="zzz" width="50" height="44" viewBox="0 0 50 44" aria-hidden="true" style="display:block">${z(2, 31, 10)}${z(16, 17, 12)}${z(31, 2, 16)}</svg>`;
+}
+
+/**
  * F1 — synPictureCard: a white picture frame (the picture carries the meaning; the rings mark
  * sits top-right) over a 2 x 2 square of four identical tags; TWO tags share the pictured
  * concept's group. No data-lcs-answer: verify derives the answers from the group stamps.
@@ -119,7 +128,8 @@ function synPictureCard({ pic, groupId, tags, picPx = 74, picMaxW = 220, chipPx 
   const ypos = win >= 1 ? 50 : Math.max(0, Math.min(100, ((cy - win / 2) / (1 - win)) * 100));
   const frame = `<div data-lcs-picframe style="position:relative;display:flex;align-items:center;justify-content:center;height:${frameH}px;flex:0 0 ${frameH}px;box-sizing:border-box;background:${T.white};border:2px solid ${T.teal};border-radius:12px">` +
     `<img class="ws-icon" src="${pic.src}" alt="" data-lcs-pic-img data-lcs-pic-box="${bx.join(',')}" style="width:${w}px;height:${h}px;flex:0 0 ${w}px;object-fit:cover;object-position:50% ${ypos.toFixed(1)}%">` +
-    `<span style="position:absolute;right:8px;top:6px">${synSameLink({ ground: T.white })}</span></div>`;
+    `<span style="position:absolute;right:8px;top:6px">${synSameLink({ ground: T.white })}</span>` +
+    (pic.cue === 'zzz' ? `<span style="position:absolute;left:calc(50% + ${Math.round(w / 2) + 2}px);top:4px;line-height:0">${synSleepMark()}</span>` : '') + '</div>';
   const square = `<div data-lcs-square data-lcs-grid="2x2" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:14px;row-gap:10px">` +
     tags.map((t, i) => tagSpan({ word: t.word, groupId: t.groupId, slot: i, chipH, chipPx })).join('') + `</div>`;
   return `<div data-lcs-piccard data-lcs-pic="${esc(pic.theme + '/' + pic.noun)}" data-lcs-concept="${esc(pic.concept)}" data-lcs-group="${esc(groupId)}" style="display:contents">${frame}${square}</div>`;

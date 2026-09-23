@@ -275,13 +275,14 @@ function buildPictures(self, block, cfg, loc, rng) {
         else { const x = dis[k++]; tags.push({ word: x.w, groupId: L.byConcept.get(x.owner).id }); }
       }
       const P = DATA.PICTURES[c];
-      return C5.synPictureCard({ pic: { src: fileUri(P.theme, P.noun), theme: P.theme, noun: P.noun, concept: c, box: P.box }, groupId: g.id, tags,
+      return C5.synPictureCard({ pic: { src: fileUri(P.theme, P.noun), theme: P.theme, noun: P.noun, concept: c, box: P.box, cue: P.cue }, groupId: g.id, tags,
         picPx: cfg.picPx, picMaxW: cfg.picMaxW, frameH: cfg.frameH, chipPx: cfg.chipPx, chipH: cfg.chipH, maxGlyphs: cfg.maxGlyphs });
     });
     const lex = {
       groups: Object.fromEntries(pick.map((c) => { const g = L.byConcept.get(c); return [g.id, { concept: c, words: g.words }]; })),
       falseOf: Object.fromEntries(pick.map((c) => [c, falseOf[c]])),
       pics: Object.fromEntries(pick.map((c) => [c, DATA.PICTURES[c].theme + '/' + DATA.PICTURES[c].noun])),
+      cues: Object.fromEntries(pick.filter((c) => DATA.PICTURES[c].cue).map((c) => [c, DATA.PICTURES[c].cue])),
       exclusive: DATA.EXCLUSIVE,
     };
     const grid = C5.synTwinGrid({ cards, rows: cfg.rows, rowMin: cfg.rowMin, rowGap: cfg.rowGap });
@@ -354,9 +355,10 @@ function buildPairs(self, block, cfg, loc, rng) {
 /* ------------------------------------------------------------------ F3 shades */
 function shadeOrders(rows, rng) {
   // rows permutations of 0..2, none the identity, each rank in each column exactly rows/3 times,
-  // the exact reverse at most 2 times, no order more than twice
+  // the exact reverse at most 2 times, no order on more than ceil(rows/3) rows, and no two ADJACENT rows
+  // sharing an order (landing review 2026-09-23: orders repeated in pairs down the page, so row 1 answered row 2)
   if (rows % 3 !== 0) throw new Error(`${ID}: shades rows ${rows} is not a multiple of 3 (column balance)`);
-  const per = rows / 3;
+  const per = rows / 3, cap = Math.ceil(rows / 3);
   for (let t = 0; t < 400; t++) {
     const out = [];
     const cnt = [[0, 0, 0], [0, 0, 0], [0, 0, 0]];
@@ -364,7 +366,8 @@ function shadeOrders(rows, rng) {
       if (out.length === rows) return true;
       for (const p of rng.shuffle(NON_ID)) {
         if (p.some((r, c) => cnt[c][r] >= per)) continue;
-        if (out.filter((q) => q.join() === p.join()).length >= 2) continue;
+        if (out.filter((q) => q.join() === p.join()).length >= cap) continue;
+        if (out.length && out[out.length - 1].join() === p.join()) continue;
         if (p.join() === '2,1,0' && out.filter((q) => q.join() === '2,1,0').length >= 2) continue;
         out.push(p); p.forEach((r, c) => cnt[c][r]++);
         if (go()) return true;
@@ -372,7 +375,9 @@ function shadeOrders(rows, rng) {
       }
       return false;
     };
-    if (go()) return out;
+    // ...and the page is not PERIODIC (rows 4-6 re-printing rows 1-3 in the same orders: the shipped en page did)
+    const periodic = (o) => [...Array(Math.floor(o.length / 2)).keys()].map((q) => q + 1).some((q) => o.length % q === 0 && o.every((x, i) => i < q || x.join() === o[i - q].join()));
+    if (go() && !periodic(out)) return out;
   }
   throw new Error(`${ID}: no balanced shade orders for ${rows} rows`);
 }
@@ -385,7 +390,7 @@ function buildShades(self, block, cfg, loc, rng) {
   const scales = (block.scales || []).filter((s) => Array.isArray(s.words) && s.words.length === 3 && s.words.every((w) => !L.banned.has(norm(w)) && glyphN(w) <= cfg.maxGlyphs));
   if (scales.length < 8) throw new Error(`${self.id}: the ${loc} bank signs ${scales.length} three-step scales < 8 — refuse`);
   const pick = rng.shuffle(scales).slice(0, cfg.rows);
-  const orders = shadeOrders(cfg.rows, rng);
+  const orders = cfg.forceOrders ? cfg.forceOrders.map((o) => o.slice()) : shadeOrders(cfg.rows, rng);   // forceOrders: gate poison seam only
   const rows = pick.map((s, i) => C5.synShadeRow({ scaleId: s.id, cells: orders[i].map((r) => ({ word: s.words[r], rank: r + 1 })), chipPx: cfg.chipPx, chipH: cfg.chipH, box: cfg.box, maxGlyphs: cfg.maxGlyphs }));
   const lex = { scales: Object.fromEntries(pick.map((s) => [s.id, s.words])) };
   const inner = `<div data-lcs-key-wrap style="flex:0 0 auto;display:flex;justify-content:center;margin-bottom:8px">${C5.synStrengthKey()}</div>` +
@@ -537,6 +542,23 @@ function faceVerifyInPage({ MIN_TEXT }) {
         if (getComputedStyle(img).objectFit !== 'cover') f.push(`${tag}: the picture is letterboxed (object-fit ${getComputedStyle(img).objectFit})`);
       }
       if (!card.querySelector('svg[data-lcs-same-link]')) f.push(`${tag}: no rings mark`);
+      // the sleep cue (landing review 2026-09-23): the tired face carries the zzz mark, drawn inside its frame
+      // beside (not over) the face and >= 16 px tall; no other face carries one
+      {
+        const cues = [...card.querySelectorAll('svg[data-lcs-cue]')];
+        const want = (lex.cues || {})[c];
+        if (c === 'tired' && want !== 'zzz') f.push(`${tag}: the tired face is stamped without its zzz sleep cue`);
+        if (want && cues.length !== 1) f.push(`${tag}: the ${c} face shows ${cues.length} sleep cues ≠ 1 (a tired face without zzz reads as sad)`);
+        if (!want && cues.length) f.push(`${tag}: a sleep cue on the ${c} face (only the tired face carries one)`);
+        if (cues.length === 1 && img) {
+          const q = R(cues[0]), fr = R(card.querySelector('[data-lcs-picframe]')), im = R(img);
+          if (q.height < 16 - 0.5) f.push(`${tag}: the sleep cue is ${q.height.toFixed(0)} px tall < 16`);
+          if (q.left < fr.left || q.right > fr.right || q.top < fr.top || q.bottom > fr.bottom) f.push(`${tag}: the sleep cue leaves its frame`);
+          if (q.left < im.right - 0.5) f.push(`${tag}: the sleep cue sits over the face`);
+          const rg = R(card.querySelector('svg[data-lcs-same-link]'));
+          if (rg && q.right > rg.left - 2 && q.top < rg.bottom) f.push(`${tag}: the sleep cue collides with the rings mark`);
+        }
+      }
       const tags = [...card.querySelectorAll('[data-lcs-tag]')];
       if (tags.length !== 4) f.push(`${tag}: ${tags.length} tags ≠ 4`);
       tagFloor(tags, cfg.chipH, `${tag} tag`);
@@ -614,6 +636,13 @@ function faceVerifyInPage({ MIN_TEXT }) {
     const per = cfg.rows / 3;
     col.forEach((c, ci) => c.forEach((k, r) => { if (k !== per) f.push(`column ${ci + 1} holds rank ${r + 1} ${k} times ≠ ${per} (a column must never be "always the strongest")`); }));
     if (rev > 2) f.push(`the exact reverse on ${rev} rows > 2`);
+    // order tells (landing review 2026-09-23): re-read each row's printed order off the words
+    const ords = rows.map((row) => { const S = lex.scales[row.dataset.lcsScale] || []; return [...row.querySelectorAll('[data-lcs-shade-word]')].map((w) => S.indexOf(txt(w))).join(','); });
+    ords.forEach((o, i) => { if (i && o === ords[i - 1]) f.push(`rows ${i} and ${i + 1} share the answer order ${o} (adjacent-order tell)`); });
+    const oc = {}; ords.forEach((o) => { oc[o] = (oc[o] || 0) + 1; });
+    const ocap = Math.ceil(cfg.rows / 3);
+    for (const [o, k] of Object.entries(oc)) if (k > ocap) f.push(`the answer order ${o} is used by ${k} rows > ${ocap} (repeated-order tell)`);
+    for (let q = 1; q <= ords.length / 2; q++) if (ords.length % q === 0 && ords.every((o, i) => i < q || o === ords[i - q])) { f.push(`the answer orders repeat every ${q} rows (${ords.join(' ')}; periodic-order tell)`); break; }
     // no digit outside the key
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
     for (let x = walker.nextNode(); x; x = walker.nextNode()) if (/\d/.test(x.textContent) && !x.parentElement.closest('[data-lcs-strength-key]')) f.push(`a digit printed outside the key ("${x.textContent.trim()}")`);
@@ -674,7 +703,8 @@ function faceVerifyInPage({ MIN_TEXT }) {
     for (const pl of plots) {
       if (pl.dataset.lcsLines !== String(cfg.plotRows) || pl.querySelectorAll('[data-lcs-ruling-row]').length !== cfg.plotRows) f.push(`plot ${pl.dataset.lcsField}: ≠ ${cfg.plotRows} writing rows`);
       const head = pl.querySelector('[data-lcs-field-head]');
-      if (!head || txt(head) !== lex.quotes[0] + lex.fields[pl.dataset.lcsField].head + lex.quotes[1]) f.push(`plot ${pl.dataset.lcsField}: the sign does not print the quoted head`);
+      // fr typography inserts U+00A0 inside « » at render (page/shell.js frTypoHtml) — compare without it
+      if (!head || txt(head).replace(/ /g, '') !== (lex.quotes[0] + lex.fields[pl.dataset.lcsField].head + lex.quotes[1]).replace(/ /g, '')) f.push(`plot ${pl.dataset.lcsField}: the sign does not print the quoted head`);
       const lines = pl.querySelector('[data-lcs-field-lines]');
       if (lines && lines.textContent.trim()) f.push(`plot ${pl.dataset.lcsField}: a word is printed on the writing rows`);
       for (const r of pl.querySelectorAll('[data-lcs-ruling-row] svg')) if (R(r).height < 36) f.push(`plot ${pl.dataset.lcsField}: a writing row < 36 high`);

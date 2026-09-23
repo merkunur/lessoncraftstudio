@@ -244,7 +244,6 @@
     "stop-kerb",
     "look-left",
     "look-right",
-    "wait-clear",
     "walk-across"
   ],
   "listenStep": null,
@@ -268,7 +267,7 @@
     },
     "crossing-steps": {
       "title": "Gå säkert över gatan: steg för steg",
-      "instruction": "Skriv 1 till 5 i rutorna så att de visar hur du går säkert över gatan."
+      "instruction": "Skriv 1 till 4 i rutorna så att de visar hur du går säkert över gatan."
     },
     "sign-meaning": {
       "title": "Trafikmärken för barn och vad de betyder",

@@ -257,7 +257,19 @@ function plantLabelGrid({ rows, rowH = 64, glyphH = 26, boxW = 205, cols = 2, co
   return `<div class="ws-card" data-lcs-label-card data-lcs-block data-lcs-fill style="box-sizing:border-box;display:grid;grid-auto-flow:column;grid-template-rows:repeat(${per},${rowH}px);column-gap:${colGap}px;row-gap:${ROW_GAP}px;padding:${CARD_PAD}px;border-radius:16px;border-width:${CARD_BORDER}px">${inner}</div>`;
 }
 function plantFlowerInset({ h = 180, ringR = 62, beside = false }) {
-  const fig = plantFigure({ stage: 'flowering', ground: 'none', h, ring: { cx: 160, cy: 64, r: ringR } });
+  const fig0 = plantFigure({ stage: 'flowering', ground: 'none', h, ring: { cx: 160, cy: 64, r: ringR } });
+  // CROPPED AT THE SOIL LINE (landing review 2026-09-23, es/sv/da/it): the face's strike-out word is the ROOT
+  // ("names no part of the drawing"), so no root may be drawn anywhere on the page — the inset's root group is
+  // dropped and its viewBox ends just under the soil line (the plant keeps its scale; the picture gets shorter).
+  const vb = /viewBox="0 0 ([\d.]+) ([\d.]+)"/.exec(fig0.svg);
+  const soilY = +fig0.svg.match(/data-lcs-soil-y="([\d.]+)"/)[1] / +fig0.svg.match(/data-lcs-scale="([\d.]+)"/)[1];
+  const cutH = Math.round(soilY + 6);
+  const hh = Math.round(h * cutH / +vb[2] * 10) / 10;
+  const svgC = fig0.svg.replace(/<g data-lcs-part="root">[\s\S]*?<\/g>/, '')
+    .replace(vb[0], `viewBox="0 0 ${vb[1]} ${cutH}"`).replace(/ height="[\d.]+"/, ` height="${hh}"`).replace('<svg ', '<svg data-lcs-cropped-at-soil="1" ')
+    .replace('aria-label="a plant with its roots in the soil"', 'aria-label="a flowering plant"').replace('style="display:block;overflow:visible"', 'style="display:block;overflow:hidden"');
+  const fig = { ...fig0, svg: svgC };
+  h = hh;
   // a FRAMED picture set to the left (not under the section's stalk): the first render put it straight
   // below the cut-away and the stalk read as running on into the little plant.
   const pad = 8;

@@ -1,0 +1,272 @@
+{
+  "kin": {
+    "M": "mama",
+    "F": "papa",
+    "Z": "schwester",
+    "B": "bruder",
+    "Zy": "kleineSchwester",
+    "By": "kleinerBruder",
+    "MM": "oma",
+    "FM": "oma",
+    "MF": "opa",
+    "FF": "opa",
+    "MZ": "tante",
+    "FZ": "tante",
+    "MB": "onkel",
+    "FB": "onkel",
+    "MZD": "cousine",
+    "MBD": "cousine",
+    "FZD": "cousine",
+    "FBD": "cousine",
+    "MZS": "cousin",
+    "MBS": "cousin",
+    "FZS": "cousin",
+    "FBS": "cousin"
+  },
+  "words": {
+    "mama": {
+      "text": "Mama",
+      "register": "K"
+    },
+    "papa": {
+      "text": "Papa",
+      "register": "K"
+    },
+    "schwester": {
+      "text": "Schwester",
+      "register": "K"
+    },
+    "bruder": {
+      "text": "Bruder",
+      "register": "K"
+    },
+    "kleineSchwester": {
+      "text": "kleine Schwester",
+      "register": "K"
+    },
+    "kleinerBruder": {
+      "text": "kleiner Bruder",
+      "register": "K"
+    },
+    "oma": {
+      "text": "Oma",
+      "register": "K"
+    },
+    "opa": {
+      "text": "Opa",
+      "register": "K"
+    },
+    "tante": {
+      "text": "Tante",
+      "register": "K"
+    },
+    "onkel": {
+      "text": "Onkel",
+      "register": "K"
+    },
+    "cousine": {
+      "text": "Cousine",
+      "register": "K"
+    },
+    "cousin": {
+      "text": "Cousin",
+      "register": "K"
+    }
+  },
+  "names": [
+    {
+      "name": "Emma",
+      "sex": "f",
+      "gen": "Emmas"
+    },
+    {
+      "name": "Ben",
+      "sex": "m",
+      "gen": "Bens"
+    },
+    {
+      "name": "Mia",
+      "sex": "f",
+      "gen": "Mias"
+    },
+    {
+      "name": "Finn",
+      "sex": "m",
+      "gen": "Finns"
+    },
+    {
+      "name": "Lina",
+      "sex": "f",
+      "gen": "Linas"
+    },
+    {
+      "name": "Paul",
+      "sex": "m",
+      "gen": "Pauls"
+    },
+    {
+      "name": "Lea",
+      "sex": "f",
+      "gen": "Leas"
+    },
+    {
+      "name": "Noah",
+      "sex": "m",
+      "gen": "Noahs"
+    },
+    {
+      "name": "Anna",
+      "sex": "f",
+      "gen": "Annas"
+    },
+    {
+      "name": "Max",
+      "sex": "m",
+      "gen": "Max’"
+    },
+    {
+      "name": "Nele",
+      "sex": "f",
+      "gen": "Neles"
+    },
+    {
+      "name": "Leon",
+      "sex": "m",
+      "gen": "Leons"
+    }
+  ],
+  "clueFrames": {
+    "M": "{name} ist {egoGen} Mama.",
+    "F": "{name} ist {egoGen} Papa.",
+    "Z": "{name} ist {egoGen} Schwester.",
+    "B": "{name} ist {egoGen} Bruder.",
+    "Zy": "{name} ist {egoGen} kleine Schwester.",
+    "By": "{name} ist {egoGen} kleiner Bruder.",
+    "MM": "{name} ist {egoGen} Oma.",
+    "FM": "{name} ist {egoGen} Oma.",
+    "MF": "{name} ist {egoGen} Opa.",
+    "FF": "{name} ist {egoGen} Opa.",
+    "MZ": "{name} ist {egoGen} Tante.",
+    "FZ": "{name} ist {egoGen} Tante.",
+    "MB": "{name} ist {egoGen} Onkel.",
+    "FB": "{name} ist {egoGen} Onkel.",
+    "MZD": "{name} ist {egoGen} Cousine.",
+    "MBD": "{name} ist {egoGen} Cousine.",
+    "FZD": "{name} ist {egoGen} Cousine.",
+    "FBD": "{name} ist {egoGen} Cousine.",
+    "MZS": "{name} ist {egoGen} Cousin.",
+    "MBS": "{name} ist {egoGen} Cousin.",
+    "FZS": "{name} ist {egoGen} Cousin.",
+    "FBS": "{name} ist {egoGen} Cousin."
+  },
+  "riddleFrames": {
+    "MM": "Die Mama von {egoGen} Mama ist {egoGen} ___.",
+    "FM": "Die Mama von {egoGen} Papa ist {egoGen} ___.",
+    "MF": "Der Papa von {egoGen} Mama ist {egoGen} ___.",
+    "FF": "Der Papa von {egoGen} Papa ist {egoGen} ___.",
+    "MZ": "Die Schwester von {egoGen} Mama ist {egoGen} ___.",
+    "FZ": "Die Schwester von {egoGen} Papa ist {egoGen} ___.",
+    "MB": "Der Bruder von {egoGen} Mama ist {egoGen} ___.",
+    "FB": "Der Bruder von {egoGen} Papa ist {egoGen} ___."
+  },
+  "distractors": [
+    "mama",
+    "papa"
+  ],
+  "repeatsNote": true,
+  "repeatsNoteText": "ein Wort kann zu mehreren Rätseln passen",
+  "generationOK": [
+    "oma",
+    "opa",
+    "mama",
+    "papa",
+    "tante",
+    "onkel",
+    "schwester",
+    "bruder",
+    "kleineSchwester",
+    "kleinerBruder",
+    "cousine",
+    "cousin"
+  ],
+  "agreeing": [
+    "der",
+    "die",
+    "das",
+    "den",
+    "dem",
+    "des",
+    "ein",
+    "eine",
+    "einen",
+    "einem",
+    "seine",
+    "ihre",
+    "sein",
+    "ihr",
+    "kleine",
+    "kleiner"
+  ],
+  "firstPerson": [
+    "ich",
+    "mich",
+    "mir",
+    "mein",
+    "meine",
+    "meinen",
+    "meinem",
+    "meiner",
+    "wir",
+    "uns",
+    "unser",
+    "unsere"
+  ],
+  "meWord": "ich",
+  "forbiddenInTemplate": [
+    "Mama",
+    "Papa",
+    "Mutter",
+    "Vater",
+    "Eltern",
+    "deine Familie",
+    "deiner Familie"
+  ],
+  "instructionBans": [
+    "ankreuzen",
+    "kreuze",
+    "ausschneiden",
+    "schneide",
+    "ausmalen",
+    "anmalen",
+    "kostenlos",
+    "Lösung",
+    "Lösungen"
+  ],
+  "familyHead": "Familie und Verwandtschaft",
+  "strings": {
+    "base": {
+      "title": "Familienmitglieder: Wer ist wer?",
+      "instruction": "Finde jede Person im Stammbaum und schreibe ihre Zahl in das Kästchen neben ihrem Familienwort."
+    },
+    "generations": {
+      "title": "Generationen in der Familie: von Alt nach Jung",
+      "instruction": "Schreibe in jeder Reihe 1, 2 und 3 in die Kästchen, von der ältesten Generation bis zur jüngsten."
+    },
+    "trace-words": {
+      "title": "Familienwörter nachspuren und schreiben",
+      "instruction": "Finde die Person mit derselben Zahl im Stammbaum, spure ihr Familienwort nach und schreibe es noch einmal auf die Linie."
+    },
+    "tree-clues": {
+      "title": "Stammbaum ausfüllen: Namen mit Hinweisen eintragen",
+      "instruction": "Lies die Hinweise und schreibe jeden Namen in das richtige Namensfeld im Stammbaum."
+    },
+    "relation-riddles": {
+      "title": "Verwandtschaft in der Familie: Rätsel",
+      "instruction": "Lies jedes Rätsel und schreibe das passende Familienwort aus dem Kasten auf die Linie, ein Wort kann zu mehreren Rätseln passen."
+    },
+    "tree-template": {
+      "title": "Stammbaum-Vorlage für Kinder zum Ausfüllen",
+      "instruction": "Zeichne die Menschen, die dir wichtig sind, in die Rahmen und schreibe ihre Namen auf die Linien."
+    }
+  }
+}

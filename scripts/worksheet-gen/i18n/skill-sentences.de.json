@@ -378,5 +378,45 @@
   "rounding": {
     "full": "Zahlen runden auf Zehner und Hunderter für die 3. Klasse: die Regel mit der 5 anwenden, aufrunden oder abrunden sortieren, überschlagen und gerundete Zahlen finden.",
     "short": "Zahlen auf Zehner und Hunderter runden"
+  },
+  "2d-shapes": {
+    "full": "Geometrische Formen benennen: Kreis, Quadrat, Dreieck und Rechteck erkennen, auch gedreht, in der Umwelt finden, Namen schreiben und im Punktefeld zeichnen.",
+    "short": "Kreis, Quadrat, Dreieck und Rechteck benennen"
+  },
+  "road-safety": {
+    "full": "Verkehrserziehung für Vorschule bis 2. Klasse: die Ampel lesen, sicher über die Straße gehen, Verkehrszeichen und ihre Bedeutung sowie Gefahr-, Verbots- und Gebotszeichen.",
+    "short": "Ampel, Straße und Verkehrszeichen verstehen"
+  },
+  "family": {
+    "full": "Familie und Verwandtschaft: Familienwörter zuordnen und schreiben, Generationen ordnen, einen Stammbaum mit Hinweisen ausfüllen und Verwandtschaftsrätsel lösen.",
+    "short": "Familienwörter, Stammbaum und Verwandtschaft"
+  },
+  "plants": {
+    "full": "Teile der Pflanze: Wurzel, Stängel, Blatt, Blüte, Frucht und Samen beschriften, was Pflanzen zum Wachsen brauchen, vom Samen zur Pflanze und der Aufbau der Blüte.",
+    "short": "Pflanzenteile beschriften und ihre Aufgaben kennen"
+  },
+  "animal-life-cycles": {
+    "full": "Die Entwicklung von Tieren: vom Ei zum Schmetterling und vom Laich zum Frosch, Stadien ordnen und beschriften, Tierkinder zuordnen und Schmetterling und Frosch vergleichen.",
+    "short": "Entwicklung von Schmetterling und Frosch"
+  },
+  "earth-and-space": {
+    "full": "Sonne, Erde und Mond unterscheiden, die Mondphasen ordnen und benennen, Tag und Nacht erklären und die acht Planeten in Reihenfolge und nach Größe kennenlernen.",
+    "short": "Sonne, Mond, Mondphasen und Planeten"
+  },
+  "maps": {
+    "full": "Karten lesen: Kartenzeichen und Legende, die Vogelperspektive, die Himmelsrichtungen mit der Windrose, die Kontinente und Ozeane und Wege auf der Karte.",
+    "short": "Legende, Himmelsrichtungen und Kontinente"
+  },
+  "digraphs": {
+    "full": "Buchstabengruppen sch, ch und au: hören, sortieren, in Wörter einsetzen, Wörter lesen und zuordnen, die Stelle im Wort finden und sch in Sätzen zählen.",
+    "short": "Die Buchstabengruppen sch, ch und au"
+  },
+  "synonyms": {
+    "full": "Wortfelder und Synonyme: Wörter mit gleicher Bedeutung finden, mit Bildern und Wortpaaren, Wörter nach Stärke ordnen und die Wortfelder sagen, gehen und sehen.",
+    "short": "Synonyme und Wortfelder sagen, gehen, sehen"
+  },
+  "word-parts": {
+    "full": "Wortfamilien und Wortbausteine: nach dem Wortstamm sortieren, den Wortstamm finden, Vorsilben ein-, aus- und um- nach Bedeutung wählen und Personenwörter bilden.",
+    "short": "Wortstamm, Vorsilben und Nachsilben"
   }
 }

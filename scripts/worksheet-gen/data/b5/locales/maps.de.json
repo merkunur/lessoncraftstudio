@@ -1,0 +1,152 @@
+{
+  "keyTitle": "Legende",
+  "symbolWords": {
+    "house": "Haus",
+    "tree": "Baum",
+    "bush": "Busch",
+    "pond": "Teich",
+    "bench": "Bank",
+    "tent": "Zelt",
+    "flowerBed": "Blumenbeet",
+    "bridge": "Brücke"
+  },
+  "dirWords": {
+    "n": "Norden",
+    "e": "Osten",
+    "s": "Süden",
+    "w": "Westen"
+  },
+  "dirLetters": {
+    "n": "N",
+    "e": "O",
+    "s": "S",
+    "w": "W"
+  },
+  "continentSet": [
+    {
+      "id": "northAmerica",
+      "regions": [
+        "northAmerica"
+      ]
+    },
+    {
+      "id": "southAmerica",
+      "regions": [
+        "southAmerica"
+      ]
+    },
+    {
+      "id": "europe",
+      "regions": [
+        "europe"
+      ]
+    },
+    {
+      "id": "asia",
+      "regions": [
+        "asia"
+      ]
+    },
+    {
+      "id": "africa",
+      "regions": [
+        "africa"
+      ]
+    },
+    {
+      "id": "oceania",
+      "regions": [
+        "oceania"
+      ]
+    },
+    {
+      "id": "antarctica",
+      "regions": [
+        "antarctica"
+      ]
+    }
+  ],
+  "continentNames": {
+    "northAmerica": "Nordamerika",
+    "southAmerica": "Südamerika",
+    "europe": "Europa",
+    "asia": "Asien",
+    "africa": "Afrika",
+    "oceania": "Australien",
+    "antarctica": "Antarktis"
+  },
+  "oceanSet": [
+    "pacific",
+    "atlantic",
+    "indian",
+    "arctic",
+    "southern"
+  ],
+  "oceanNames": {
+    "pacific": "Pazifik",
+    "atlantic": "Atlantik",
+    "indian": "Indischer Ozean",
+    "arctic": "Nordpolarmeer",
+    "southern": "Südpolarmeer"
+  },
+  "setSource": "Grundschulatlas (Diercke / Westermann) und Sachunterricht Klasse 3: 7 Kontinente (Nord- und Südamerika getrennt, Antarktis mitgezählt, der Kontinent heißt in der Grundschule Australien); Weltmeere: Pazifik, Atlantik, Indischer Ozean sowie Nordpolarmeer und Südpolarmeer",
+  "mnemonic": "Nie Ohne Seife Waschen",
+  "refuse": [],
+  "instructionBans": {
+    "base": [
+      "Linie",
+      "verbinde",
+      "kreise"
+    ],
+    "top-view": [
+      "Kästchen",
+      "schreibe",
+      "kreise"
+    ],
+    "compass-rose": [
+      "Linie",
+      "verbinde",
+      "kreise"
+    ],
+    "continents": [
+      "verbinde",
+      "kreise"
+    ],
+    "continents-oceans": [
+      "Linie",
+      "verbinde",
+      "kreise"
+    ],
+    "directions-on-map": [
+      "schreibe",
+      "Linie",
+      "Kästchen"
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Kartenzeichen und Legende lesen",
+      "instruction": "Schau dir die Legende an, finde jedes Zeichen auf der Karte und schreibe in das Kästchen, wie viele es sind."
+    },
+    "top-view": {
+      "title": "Vogelperspektive: von der Seite und von oben",
+      "instruction": "Jedes Ding ist von der Seite gemalt: Verbinde es mit einer Linie mit demselben Ding, von oben gesehen."
+    },
+    "compass-rose": {
+      "title": "Himmelsrichtungen: die Windrose ergänzen",
+      "instruction": "Jede Windrose zeigt einen Buchstaben: Schreibe die anderen drei Buchstaben in die leeren Kästchen."
+    },
+    "continents": {
+      "title": "Die Kontinente beschriften",
+      "instruction": "Schreibe den Namen jedes nummerierten Kontinents auf seine Linie, die Namen stehen im Kasten."
+    },
+    "continents-oceans": {
+      "title": "Kontinente und Ozeane",
+      "instruction": "Finde jeden Kontinent und jeden Ozean auf der Karte und schreibe seine Zahl in das Kästchen neben seinem Namen."
+    },
+    "directions-on-map": {
+      "title": "Himmelsrichtungen auf der Karte",
+      "instruction": "Finde das erste Bild auf der Karte, schau in die Richtung, die das Wort nennt, und kreise von den drei Bildern das ein, das dort liegt."
+    }
+  }
+}

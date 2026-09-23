@@ -2626,5 +2626,245 @@
   "G3-391": {
     "title": "Zahlen runden auf Zehner und Hunderter",
     "instruction": "Runde jede Zahl zweimal: auf den Zehner im ersten Kästchen und auf den Hunderter im zweiten."
+  },
+  "K-368": {
+    "title": "Geometrische Formen benennen",
+    "instruction": "Schau dir jede Form an, auch die gedrehten und die schmalen, und kreise ihren Namen ein."
+  },
+  "K-369": {
+    "title": "Verkehrserziehung: Was zeigt die Ampel?",
+    "instruction": "Schau, welche Lampe leuchtet, und kreise ein, was du tun musst."
+  },
+  "K-370": {
+    "title": "Familienmitglieder: Wer ist wer?",
+    "instruction": "Finde jede Person im Stammbaum und schreibe ihre Zahl in das Kästchen neben ihrem Familienwort."
+  },
+  "G1-376": {
+    "title": "Teile der Pflanze",
+    "instruction": "Folge jedem Strich von der Zahl zur Pflanze und schreibe den Namen des Teils aus dem Wörterkasten in die Zeile mit derselben Zahl."
+  },
+  "G1-377": {
+    "title": "Vom Ei zum Schmetterling",
+    "instruction": "Das Ei ist die 1: schreibe 2, 3 und 4 der Reihe nach in die Kästchen und ins letzte die Zahl des Bildes, das nach dem Schmetterling kommt."
+  },
+  "G1-378": {
+    "title": "Sonne, Erde und Mond",
+    "instruction": "Lies jeden Satz und kreuze an, wer ihn sagt: die Sonne, die Erde oder der Mond."
+  },
+  "G1-379": {
+    "title": "Kartenzeichen und Legende lesen",
+    "instruction": "Schau dir die Legende an, finde jedes Zeichen auf der Karte und schreibe in das Kästchen, wie viele es sind."
+  },
+  "G1-380": {
+    "title": "Buchstabengruppen sch, ch, au: Welche hörst du?",
+    "instruction": "Sprich den Namen jedes Bildes und kreise die Buchstabengruppe ein, die du hörst."
+  },
+  "G2-358": {
+    "title": "Synonyme: Wörter mit gleicher Bedeutung finden",
+    "instruction": "Lies das große Wort auf jeder Karte und kreise darunter das Wort ein, das dasselbe bedeutet."
+  },
+  "G2-359": {
+    "title": "Wortfamilien: nach dem Wortstamm sortieren",
+    "instruction": "Lies jedes Wort oben und schreibe es auf eine Linie der Mauer, die auf seinem Wortstamm steht."
+  },
+  "G1-381": {
+    "title": "Geometrische Formen erkennen: echt oder nicht?",
+    "instruction": "Lies in jeder Reihe den Namen und kreise alle Formen ein, die wirklich so heißen."
+  },
+  "K-371": {
+    "title": "Geometrische Formen in der Umwelt",
+    "instruction": "Schau dir jedes Bild an und male die Form an, die es hat: den Kreis oder das Rechteck."
+  },
+  "G1-382": {
+    "title": "Geometrische Formen: Namen schreiben",
+    "instruction": "Schau dir jede Form an und schreibe ihren Namen auf die Linie, die Namen stehen im Kasten."
+  },
+  "G1-383": {
+    "title": "Rätsel zu geometrischen Formen",
+    "instruction": "Lies jedes Rätsel und kreise den Namen der Form ein."
+  },
+  "K-372": {
+    "title": "Geometrische Formen im Punktefeld zeichnen",
+    "instruction": "Lies den Namen der Form und verbinde die Punkte, beginne an der dicken Linie, wenn es eine gibt."
+  },
+  "K-373": {
+    "title": "Verkehrserziehung: Ampeln ausmalen",
+    "instruction": "Finde bei jeder Ampel die Lampe mit den Strahlen und male sie in ihrer Farbe an."
+  },
+  "K-374": {
+    "title": "Sicher über die Straße gehen: Schritt für Schritt",
+    "instruction": "Schreibe 1 bis 5 in die Kästchen: So gehst du sicher über die Straße."
+  },
+  "G1-384": {
+    "title": "Verkehrszeichen und ihre Bedeutung für Kinder",
+    "instruction": "Verbinde jedes Verkehrszeichen mit dem Satz, der sagt, was es bedeutet."
+  },
+  "G2-360": {
+    "title": "Verkehrserziehung: Gefahr-, Verbots- und Gebotszeichen",
+    "instruction": "Schreibe den Buchstaben jedes Verkehrszeichens in ein Kästchen seiner Gruppe."
+  },
+  "G2-361": {
+    "title": "Verkehrszeichen-Quiz für die Grundschule",
+    "instruction": "Lies jeden Satz und kreise das eine Verkehrszeichen ein, das dazu passt."
+  },
+  "G1-385": {
+    "title": "Generationen in der Familie: von Alt nach Jung",
+    "instruction": "Schreibe in jeder Reihe 1, 2 und 3 in die Kästchen, von der ältesten Generation bis zur jüngsten."
+  },
+  "K-375": {
+    "title": "Familienwörter nachspuren und schreiben",
+    "instruction": "Finde die Person mit derselben Zahl im Stammbaum, spure ihr Familienwort nach und schreibe es noch einmal auf die Linie."
+  },
+  "G1-386": {
+    "title": "Stammbaum ausfüllen: Namen mit Hinweisen eintragen",
+    "instruction": "Lies die Hinweise und schreibe jeden Namen in das richtige Namensfeld im Stammbaum."
+  },
+  "G2-362": {
+    "title": "Verwandtschaft in der Familie: Rätsel",
+    "instruction": "Lies jedes Rätsel und schreibe das passende Familienwort aus dem Kasten auf die Linie, ein Wort kann zu mehreren Rätseln passen."
+  },
+  "G1-387": {
+    "title": "Stammbaum-Vorlage für Kinder zum Ausfüllen",
+    "instruction": "Zeichne die Menschen, die dir wichtig sind, in die Rahmen und schreibe ihre Namen auf die Linien."
+  },
+  "K-376": {
+    "title": "Was Pflanzen zum Wachsen brauchen",
+    "instruction": "Kreise in jeder Reihe die Pflanze ein, die beides bekommt, was sie zum Wachsen braucht."
+  },
+  "G1-388": {
+    "title": "Vom Samen zur Pflanze",
+    "instruction": "Schneide die vier Bilder aus und klebe sie den Pfeilen nach in die leeren Kästchen, beginne beim Samen."
+  },
+  "G2-363": {
+    "title": "Welche Teile der Pflanze essen wir?",
+    "instruction": "Schau dir jedes Lebensmittel an und kreise den Teil der Pflanze ein, den wir davon essen."
+  },
+  "G2-364": {
+    "title": "Teile der Pflanze und ihre Aufgaben",
+    "instruction": "Lies, was jeder Teil tut, finde ihn an der Pflanze und schreibe die Zahl seines Schildes in das Kästchen."
+  },
+  "G3-392": {
+    "title": "Aufbau der Blüte",
+    "instruction": "Schreibe den Namen jedes nummerierten Blütenteils auf seine Linie und streiche im Wörterkasten das Wort durch, das nicht dazugehört."
+  },
+  "G1-389": {
+    "title": "Vom Laich zum Frosch: ausschneiden und kleben",
+    "instruction": "Schneide die vier Quadrate aus und klebe jedes auf sein Seerosenblatt, rund um den Teich vom Froschlaich bis zum Frosch."
+  },
+  "G2-365": {
+    "title": "Entwicklung des Schmetterlings: Stadien beschriften",
+    "instruction": "Schreibe jeden Namen aus dem Wörterkasten auf die Linie unter seinem Bild und streiche den einen Namen durch, der nicht dazugehört."
+  },
+  "G2-366": {
+    "title": "Metamorphose: Welches Tier wird daraus?",
+    "instruction": "Schau dir jedes junge Tier an und schreibe seinen Buchstaben in ein Kästchen unter dem erwachsenen Tier, das aus ihm wird."
+  },
+  "G3-393": {
+    "title": "Schmetterling und Frosch: Entwicklung im Vergleich",
+    "instruction": "Lies jeden Satz und kreuze den Schmetterling, den Frosch oder beide an, wenn der Satz für das Tier stimmt."
+  },
+  "G1-390": {
+    "title": "Was kommt danach? Schmetterling, Frosch und Marienkäfer",
+    "instruction": "Schau dir das erste Bild in jeder Reihe an und kreise das Bild ein, das direkt danach kommt."
+  },
+  "G1-391": {
+    "title": "Mondphasen in der richtigen Reihenfolge",
+    "instruction": "Schau in jeder Reihe auf den Keil, ob der Mond zu- oder abnimmt, und schreibe 1 bis 5 in dieser Reihenfolge unter die Monde."
+  },
+  "G2-367": {
+    "title": "Mondphasen benennen",
+    "instruction": "Schreibe den Namen jedes Mondes auf die Linien, jedes Wort aus dem Wörterkasten brauchst du zweimal."
+  },
+  "G2-368": {
+    "title": "Warum gibt es Tag und Nacht?",
+    "instruction": "Schau, wo die Sonne ist, und kreise in der Tabelle für jeden Punkt mit Zahl ein, ob dort Tag oder Nacht ist."
+  },
+  "G3-394": {
+    "title": "Die Planeten in der Reihenfolge von der Sonne aus",
+    "instruction": "Schreibe den Namen jedes Planeten auf seine Linie, beginne neben der Sonne und nimm jeden Namen aus dem Kasten einmal."
+  },
+  "G3-395": {
+    "title": "Riesenplaneten und Gesteinsplaneten",
+    "instruction": "Sortiere die Namen und schreibe jeden in das richtige Feld: Riesenplanet, kleiner Gesteinsplanet oder kein Planet."
+  },
+  "K-377": {
+    "title": "Vogelperspektive: von der Seite und von oben",
+    "instruction": "Jedes Ding ist von der Seite gemalt: Verbinde es mit einer Linie mit demselben Ding, von oben gesehen."
+  },
+  "G2-369": {
+    "title": "Himmelsrichtungen: die Windrose ergänzen",
+    "instruction": "Jede Windrose zeigt einen Buchstaben: Schreibe die anderen drei Buchstaben in die leeren Kästchen."
+  },
+  "G2-370": {
+    "title": "Die Kontinente beschriften",
+    "instruction": "Schreibe den Namen jedes nummerierten Kontinents auf seine Linie, die Namen stehen im Kasten."
+  },
+  "G3-396": {
+    "title": "Kontinente und Ozeane",
+    "instruction": "Finde jeden Kontinent und jeden Ozean auf der Karte und schreibe seine Zahl in das Kästchen neben seinem Namen."
+  },
+  "G2-371": {
+    "title": "Himmelsrichtungen auf der Karte",
+    "instruction": "Finde das erste Bild auf der Karte, schau in die Richtung, die das Wort nennt, und kreise von den drei Bildern das ein, das dort liegt."
+  },
+  "K-378": {
+    "title": "Buchstabengruppen sortieren: sch oder au",
+    "instruction": "Sprich den Namen jedes Bildes und verbinde es mit einer Linie mit der Buchstabengruppe, die du hörst."
+  },
+  "G1-392": {
+    "title": "Fehlende Buchstabengruppe einsetzen: sch, ch oder au",
+    "instruction": "Sprich jedes Bildwort und schreibe die fehlende Buchstabengruppe von oben in das gestrichelte Feld."
+  },
+  "G1-393": {
+    "title": "Wörter mit sch, ch und au lesen und zuordnen",
+    "instruction": "Lies jedes Wort, die Buchstabengruppe ist markiert, und verbinde es mit einer Linie mit dem passenden Bild."
+  },
+  "G1-394": {
+    "title": "Wo hörst du sch, ch oder au im Wort?",
+    "instruction": "Sprich jedes Bildwort und male das Feld an, wo du die Buchstabengruppe hörst: am Anfang, in der Mitte oder am Ende."
+  },
+  "G2-372": {
+    "title": "Wörter mit sch in Sätzen finden und zählen",
+    "instruction": "Lies die Sätze, kreise jedes sch ein und schreibe in das Kästchen, wie oft es im Satz vorkommt."
+  },
+  "G1-395": {
+    "title": "Synonyme mit Bildern: zwei Wörter, ein Bild",
+    "instruction": "Schau dir jedes Bild an und kreise darunter die zwei Wörter ein, die dasselbe bedeuten und zum Bild passen."
+  },
+  "G2-373": {
+    "title": "Synonyme zuordnen: Wortpaare verbinden",
+    "instruction": "Jedes Wort hängt an einer Socke: Verbinde jede Socke links mit einer Linie mit der Socke rechts, deren Wort dasselbe bedeutet."
+  },
+  "G1-396": {
+    "title": "Wörter nach Stärke ordnen: von ein bisschen bis sehr",
+    "instruction": "Lies die drei Wörter in jeder Reihe und schreibe 1, 2 und 3 in die Kästchen, vom schwächsten bis zum stärksten Wort."
+  },
+  "G2-374": {
+    "title": "Wortfeld „sagen“: das passende Verb einsetzen",
+    "instruction": "Lies jeden Satz und schreibe statt „sagt“ das Wort aus der Sprechblase in das Kästchen, das am besten passt."
+  },
+  "G3-397": {
+    "title": "Wortfelder „gehen“ und „sehen“: Verben sortieren",
+    "instruction": "Lies die zehn Wörter und schreibe jedes in das Wortfeld des Verbs, zu dem es gehört."
+  },
+  "G1-397": {
+    "title": "Wortfamilien mit Bildern: das passende Wort finden",
+    "instruction": "Sag, was du auf jedem Bild siehst, und kreise darüber das eine Wort ein, das aus diesem Bildwort gebaut ist."
+  },
+  "G2-375": {
+    "title": "Den Wortstamm finden",
+    "instruction": "Kreise den Teil ein, den die drei Wörter gemeinsam haben, und schreibe den Wortstamm in den leeren Stein."
+  },
+  "G2-376": {
+    "title": "Vorsilben ein-, aus- und um-: nach Bedeutung wählen",
+    "instruction": "Lies, was jedes neue Wort bedeutet, finde seine Vorsilbe im Schlüssel und schreibe sie in das leere Stück."
+  },
+  "G3-398": {
+    "title": "Wer macht das? Personenwörter bilden",
+    "instruction": "Schau dir jede Person bei der Arbeit an, lies das Wort daneben und schreibe das Personenwort in den leeren Stein."
+  },
+  "G3-399": {
+    "title": "Wortfamilien im Satz",
+    "instruction": "Schreibe jedes der vier Wörter auf dem Stein in den Satz, in den es passt."
   }
 }

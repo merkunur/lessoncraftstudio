@@ -1,0 +1,1647 @@
+{
+  "familyHead": "Wortfamilien, Vorsilben und Nachsilben",
+  "inflections": [
+    "e",
+    "es",
+    "s",
+    "st",
+    "t"
+  ],
+  "families": [
+    {
+      "id": "spiel",
+      "stem": "spiel",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Spiel"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "Spieler",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "Spielerin",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "spielerisch",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "verspielt",
+          "kind": "prefixed",
+          "slot": "adjective"
+        },
+        {
+          "word": "Mitspieler",
+          "kind": "prefixed",
+          "slot": "noun-person"
+        },
+        {
+          "word": "mitspielen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "abspielen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "Spielzeug",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Spinne",
+          "whyNotFamily": "ein Tier mit acht Beinen, kein Spiel darin"
+        },
+        {
+          "word": "Spiegel",
+          "whyNotFamily": "darin siehst du dich; nur „spi“ ist gleich"
+        },
+        {
+          "word": "Spinat",
+          "whyNotFamily": "ein Gemüse"
+        }
+      ]
+    },
+    {
+      "id": "zauber",
+      "stem": "zauber",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Zauber"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "zaubern",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "Zauberer",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "Zauberin",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "zauberhaft",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "verzaubern",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "bezaubern",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "Zauberstab",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Zaun",
+          "whyNotFamily": "ein Gitter um den Garten"
+        },
+        {
+          "word": "Zahn",
+          "whyNotFamily": "ist im Mund; nur „za“ ist gleich"
+        },
+        {
+          "word": "Zange",
+          "whyNotFamily": "ein Werkzeug"
+        }
+      ]
+    },
+    {
+      "id": "freund",
+      "stem": "freund",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Freund"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "freundlich",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "Freundin",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "Freundschaft",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "befreundet",
+          "kind": "prefixed",
+          "slot": "adjective"
+        },
+        {
+          "word": "Freundlichkeit",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "anfreunden",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "Schulfreund",
+          "kind": "compound",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Frage",
+          "whyNotFamily": "das, was du wissen willst"
+        },
+        {
+          "word": "Frosch",
+          "whyNotFamily": "ein Tier am Teich"
+        },
+        {
+          "word": "frech",
+          "whyNotFamily": "ein Wort für unhöflich; nur „fr“ ist gleich"
+        }
+      ]
+    },
+    {
+      "id": "kauf",
+      "stem": "kauf",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Kauf"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "kaufen",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "einkaufen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "verkaufen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "Einkauf",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "Verkauf",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "Käufer",
+          "kind": "derived",
+          "slot": "noun-person",
+          "stemSigned": true
+        },
+        {
+          "word": "Verkäuferin",
+          "kind": "prefixed",
+          "slot": "noun-person",
+          "stemSigned": true
+        },
+        {
+          "word": "Kaufhaus",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Kater",
+          "whyNotFamily": "eine männliche Katze"
+        },
+        {
+          "word": "Kamm",
+          "whyNotFamily": "damit kämmst du die Haare"
+        },
+        {
+          "word": "kalt",
+          "whyNotFamily": "nicht warm"
+        }
+      ]
+    },
+    {
+      "id": "fahr",
+      "stem": "fahr",
+      "rootIsFreeWord": false,
+      "root": {
+        "word": "fahr"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "fahren",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "Fahrer",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "Fahrerin",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "abfahren",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "Abfahrt",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "Vorfahrt",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "Fahrrad",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Farbe",
+          "whyNotFamily": "Rot und Blau sind Farben"
+        },
+        {
+          "word": "Fahne",
+          "whyNotFamily": "ein Tuch an einer Stange"
+        },
+        {
+          "word": "Falke",
+          "whyNotFamily": "ein Vogel"
+        }
+      ]
+    },
+    {
+      "id": "schreib",
+      "stem": "schreib",
+      "rootIsFreeWord": false,
+      "root": {
+        "word": "schreib"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "schreiben",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "abschreiben",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "aufschreiben",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "beschreiben",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "mitschreiben",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "Beschreibung",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "Schreibtisch",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Schrank",
+          "whyNotFamily": "ein Möbel für Kleider"
+        },
+        {
+          "word": "Schraube",
+          "whyNotFamily": "wird ins Holz gedreht"
+        },
+        {
+          "word": "Schrei",
+          "whyNotFamily": "ein lauter Ruf"
+        }
+      ]
+    },
+    {
+      "id": "wohn",
+      "stem": "wohn",
+      "rootIsFreeWord": false,
+      "root": {
+        "word": "wohn"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "wohnen",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "Wohnung",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "Bewohner",
+          "kind": "prefixed",
+          "slot": "noun-person"
+        },
+        {
+          "word": "Bewohnerin",
+          "kind": "prefixed",
+          "slot": "noun-person"
+        },
+        {
+          "word": "bewohnen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "Einwohner",
+          "kind": "prefixed",
+          "slot": "noun-person"
+        },
+        {
+          "word": "Wohnzimmer",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Wolke",
+          "whyNotFamily": "schwebt am Himmel"
+        },
+        {
+          "word": "Wolf",
+          "whyNotFamily": "ein wildes Tier"
+        },
+        {
+          "word": "Wolle",
+          "whyNotFamily": "daraus strickt man Socken"
+        }
+      ]
+    }
+  ],
+  "rootFamilies": [
+    {
+      "id": "ruf",
+      "stem": "ruf",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Ruf"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "anrufen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "Anruf",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "aufrufen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "Aufruf",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "ausrufen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "Ausruf",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "Ausrufezeichen",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Rucksack",
+          "whyNotFamily": "eine Tasche für den Rücken"
+        },
+        {
+          "word": "Rutsche",
+          "whyNotFamily": "darauf rutschst du"
+        },
+        {
+          "word": "rund",
+          "whyNotFamily": "wie ein Ball"
+        }
+      ]
+    },
+    {
+      "id": "bau",
+      "stem": "bau",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Bau"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "aufbauen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "abbauen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "umbauen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "Aufbau",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "Umbau",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "Anbau",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "Baustelle",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Bach",
+          "whyNotFamily": "ein kleiner Fluss"
+        },
+        {
+          "word": "Ball",
+          "whyNotFamily": "damit spielst du"
+        },
+        {
+          "word": "Banane",
+          "whyNotFamily": "eine gelbe Frucht"
+        }
+      ]
+    },
+    {
+      "id": "arbeit",
+      "stem": "arbeit",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Arbeit"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "arbeiten",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "Arbeiter",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "Arbeiterin",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "bearbeiten",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "mitarbeiten",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "Mitarbeiter",
+          "kind": "prefixed",
+          "slot": "noun-person"
+        },
+        {
+          "word": "Arbeitsplatz",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Arm",
+          "whyNotFamily": "ein Körperteil"
+        },
+        {
+          "word": "Arzt",
+          "whyNotFamily": "hilft, wenn du krank bist"
+        },
+        {
+          "word": "Armband",
+          "whyNotFamily": "Schmuck am Handgelenk"
+        }
+      ]
+    },
+    {
+      "id": "wunder",
+      "stem": "wunder",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Wunder"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "wundern",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "wunderbar",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "wundervoll",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "bewundern",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "Bewunderung",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "verwundert",
+          "kind": "prefixed",
+          "slot": "adjective"
+        },
+        {
+          "word": "wunderschön",
+          "kind": "compound",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Wurst",
+          "whyNotFamily": "etwas zum Essen"
+        },
+        {
+          "word": "Wurm",
+          "whyNotFamily": "lebt in der Erde"
+        },
+        {
+          "word": "wund",
+          "whyNotFamily": "eine Stelle, die weh tut"
+        }
+      ]
+    },
+    {
+      "id": "koch",
+      "stem": "koch",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Koch"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "kochen",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "aufkochen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "abkochen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "überkochen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "verkochen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "Köchin",
+          "kind": "derived",
+          "slot": "noun-person",
+          "stemSigned": true
+        },
+        {
+          "word": "Kochtopf",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Koffer",
+          "whyNotFamily": "eine Tasche für die Reise"
+        },
+        {
+          "word": "Kopf",
+          "whyNotFamily": "sitzt auf dem Hals"
+        },
+        {
+          "word": "Korb",
+          "whyNotFamily": "darin trägt man Äpfel"
+        }
+      ]
+    }
+  ],
+  "picFamilies": [
+    {
+      "id": "zahn",
+      "stem": "zahn",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Zahn",
+        "pic": {
+          "theme": "body parts",
+          "noun": "tooth"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "zahnlos",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Zahl",
+          "whyNotFamily": "fängt wie „Zahn“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Zange",
+          "whyNotFamily": "fängt wie „Zahn“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Zaun",
+          "whyNotFamily": "fängt wie „Zahn“ an, ist aber nicht daraus gebaut"
+        }
+      ]
+    },
+    {
+      "id": "fisch",
+      "stem": "fisch",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Fisch",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "fischen",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "Fischer",
+          "kind": "derived",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Fibel",
+          "whyNotFamily": "fängt wie „Fisch“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Finger",
+          "whyNotFamily": "fängt wie „Fisch“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Fieber",
+          "whyNotFamily": "fängt wie „Fisch“ an, ist aber nicht daraus gebaut"
+        }
+      ]
+    },
+    {
+      "id": "trommel",
+      "stem": "trommel",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Trommel",
+        "pic": {
+          "theme": "music",
+          "noun": "drum"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "trommeln",
+          "kind": "derived",
+          "slot": "verb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Traktor",
+          "whyNotFamily": "fängt wie „Trommel“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Traube",
+          "whyNotFamily": "fängt wie „Trommel“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Trompete",
+          "whyNotFamily": "fängt wie „Trommel“ an, ist aber nicht daraus gebaut"
+        }
+      ]
+    },
+    {
+      "id": "tisch",
+      "stem": "tisch",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Tisch",
+        "pic": {
+          "theme": "furniture",
+          "noun": "table"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "Tischler",
+          "kind": "derived",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Tiger",
+          "whyNotFamily": "fängt wie „Tisch“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Tinte",
+          "whyNotFamily": "fängt wie „Tisch“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Tier",
+          "whyNotFamily": "fängt wie „Tisch“ an, ist aber nicht daraus gebaut"
+        }
+      ]
+    },
+    {
+      "id": "schaukel",
+      "stem": "schaukel",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Schaukel",
+        "pic": {
+          "theme": "toys",
+          "noun": "swing"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "schaukeln",
+          "kind": "derived",
+          "slot": "verb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Schaf",
+          "whyNotFamily": "fängt wie „Schaukel“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Schal",
+          "whyNotFamily": "fängt wie „Schaukel“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Schatten",
+          "whyNotFamily": "fängt wie „Schaukel“ an, ist aber nicht daraus gebaut"
+        }
+      ]
+    },
+    {
+      "id": "rutsche",
+      "stem": "rutsche",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Rutsche",
+        "pic": {
+          "theme": "toys",
+          "noun": "slide"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "rutschen",
+          "kind": "derived",
+          "slot": "verb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Rucksack",
+          "whyNotFamily": "fängt wie „Rutsche“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Ruder",
+          "whyNotFamily": "fängt wie „Rutsche“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Ruhe",
+          "whyNotFamily": "fängt wie „Rutsche“ an, ist aber nicht daraus gebaut"
+        }
+      ]
+    },
+    {
+      "id": "pfeife",
+      "stem": "pfeife",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Pfeife",
+        "pic": {
+          "theme": "accessories",
+          "noun": "whistle"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "pfeifen",
+          "kind": "derived",
+          "slot": "verb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Pfanne",
+          "whyNotFamily": "fängt wie „Pfeife“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Pferd",
+          "whyNotFamily": "fängt wie „Pfeife“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Pfeil",
+          "whyNotFamily": "fängt wie „Pfeife“ an, ist aber nicht daraus gebaut"
+        }
+      ]
+    },
+    {
+      "id": "löffel",
+      "stem": "löffel",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Löffel",
+        "pic": {
+          "theme": "kitchen tools",
+          "noun": "spoon"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "löffeln",
+          "kind": "derived",
+          "slot": "verb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Löwe",
+          "whyNotFamily": "fängt wie „Löffel“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Löwin",
+          "whyNotFamily": "fängt wie „Löffel“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "löschen",
+          "whyNotFamily": "fängt wie „Löffel“ an, ist aber nicht daraus gebaut"
+        }
+      ]
+    },
+    {
+      "id": "zelt",
+      "stem": "zelt",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Zelt",
+        "pic": {
+          "theme": "camping",
+          "noun": "tent"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "zelten",
+          "kind": "derived",
+          "slot": "verb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Zebra",
+          "whyNotFamily": "fängt wie „Zelt“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Zeit",
+          "whyNotFamily": "fängt wie „Zelt“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Zettel",
+          "whyNotFamily": "fängt wie „Zelt“ an, ist aber nicht daraus gebaut"
+        }
+      ]
+    },
+    {
+      "id": "nagel",
+      "stem": "nagel",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Nagel",
+        "pic": {
+          "theme": "tools",
+          "noun": "nail"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "nageln",
+          "kind": "derived",
+          "slot": "verb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Nase",
+          "whyNotFamily": "fängt wie „Nagel“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Nadel",
+          "whyNotFamily": "fängt wie „Nagel“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Nacht",
+          "whyNotFamily": "fängt wie „Nagel“ an, ist aber nicht daraus gebaut"
+        }
+      ]
+    },
+    {
+      "id": "spiegel",
+      "stem": "spiegel",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "Spiegel",
+        "pic": {
+          "theme": "around the house",
+          "noun": "mirror"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "spiegeln",
+          "kind": "derived",
+          "slot": "verb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "Spinne",
+          "whyNotFamily": "fängt wie „Spiegel“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Spitze",
+          "whyNotFamily": "fängt wie „Spiegel“ an, ist aber nicht daraus gebaut"
+        },
+        {
+          "word": "Spinat",
+          "whyNotFamily": "fängt wie „Spiegel“ an, ist aber nicht daraus gebaut"
+        }
+      ]
+    }
+  ],
+  "sentences": {
+    "spiel": [
+      {
+        "word": "mitspielen",
+        "slot": "verb",
+        "frame": "Darf ich bei euch {gap}?"
+      },
+      {
+        "word": "Mitspieler",
+        "slot": "noun-person",
+        "frame": "Die {gap} laufen auf den Platz."
+      },
+      {
+        "word": "Spielzeug",
+        "slot": "noun-thing",
+        "frame": "Im Regal liegt viel {gap}."
+      },
+      {
+        "word": "verspielt",
+        "slot": "adjective",
+        "frame": "Unser junges Kätzchen ist sehr {gap}."
+      }
+    ],
+    "zauber": [
+      {
+        "word": "zaubern",
+        "slot": "verb",
+        "frame": "Kannst du ein Kaninchen aus dem Hut {gap}?"
+      },
+      {
+        "word": "Zauberer",
+        "slot": "noun-person",
+        "frame": "Der {gap} trägt einen spitzen Hut."
+      },
+      {
+        "word": "Zauberstab",
+        "slot": "noun-thing",
+        "frame": "Er tippt mit dem {gap} auf den Hut."
+      },
+      {
+        "word": "zauberhaft",
+        "slot": "adjective",
+        "frame": "Das Schloss im Schnee sieht {gap} aus."
+      }
+    ]
+  },
+  "prefixKey": {
+    "prefixes": [
+      {
+        "prefix": "ein",
+        "meaning": "hinein"
+      },
+      {
+        "prefix": "aus",
+        "meaning": "hinaus oder zu Ende"
+      },
+      {
+        "prefix": "um",
+        "meaning": "anders oder herum"
+      }
+    ],
+    "rows": [
+      {
+        "base": "steigen",
+        "prefix": "ein",
+        "word": "einsteigen",
+        "gloss": "in den Zug gehen und mitfahren"
+      },
+      {
+        "base": "schlafen",
+        "prefix": "ein",
+        "word": "einschlafen",
+        "gloss": "müde werden und in den Schlaf sinken"
+      },
+      {
+        "base": "kaufen",
+        "prefix": "ein",
+        "word": "einkaufen",
+        "gloss": "im Laden Essen für die Woche holen"
+      },
+      {
+        "base": "packen",
+        "prefix": "aus",
+        "word": "auspacken",
+        "gloss": "das Geschenk vom Papier befreien"
+      },
+      {
+        "base": "schalten",
+        "prefix": "aus",
+        "word": "ausschalten",
+        "gloss": "das Licht dunkel machen"
+      },
+      {
+        "base": "trinken",
+        "prefix": "aus",
+        "word": "austrinken",
+        "gloss": "das Glas ganz leer trinken"
+      },
+      {
+        "base": "atmen",
+        "prefix": "aus",
+        "word": "ausatmen",
+        "gloss": "die Luft durch die Nase nach draußen blasen"
+      },
+      {
+        "base": "ziehen",
+        "prefix": "um",
+        "word": "umziehen",
+        "gloss": "die Wohnung wechseln"
+      },
+      {
+        "base": "drehen",
+        "prefix": "um",
+        "word": "umdrehen",
+        "gloss": "auf die andere Seite wenden"
+      },
+      {
+        "base": "rühren",
+        "prefix": "um",
+        "word": "umrühren",
+        "gloss": "die Suppe mit dem Löffel im Kreis bewegen"
+      },
+      {
+        "base": "fallen",
+        "prefix": "um",
+        "word": "umfallen",
+        "gloss": "zur Seite kippen und liegen bleiben"
+      }
+    ],
+    "crossCheck": [
+      {
+        "base": "steigen",
+        "prefix": "ein",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "steigen",
+        "prefix": "aus",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "steigen",
+        "prefix": "um",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "schlafen",
+        "prefix": "ein",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "schlafen",
+        "prefix": "aus",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "schlafen",
+        "prefix": "um",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "kaufen",
+        "prefix": "ein",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "kaufen",
+        "prefix": "aus",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "kaufen",
+        "prefix": "um",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "packen",
+        "prefix": "ein",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "packen",
+        "prefix": "aus",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "packen",
+        "prefix": "um",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "schalten",
+        "prefix": "ein",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "schalten",
+        "prefix": "aus",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "schalten",
+        "prefix": "um",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "trinken",
+        "prefix": "ein",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "trinken",
+        "prefix": "aus",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "trinken",
+        "prefix": "um",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "atmen",
+        "prefix": "ein",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "atmen",
+        "prefix": "aus",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "atmen",
+        "prefix": "um",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "ziehen",
+        "prefix": "ein",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "ziehen",
+        "prefix": "aus",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "ziehen",
+        "prefix": "um",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "drehen",
+        "prefix": "ein",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "drehen",
+        "prefix": "aus",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "drehen",
+        "prefix": "um",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "rühren",
+        "prefix": "ein",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "rühren",
+        "prefix": "aus",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "rühren",
+        "prefix": "um",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "fallen",
+        "prefix": "ein",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "fallen",
+        "prefix": "aus",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "fallen",
+        "prefix": "um",
+        "isWord": true,
+        "fitsGloss": true
+      }
+    ]
+  },
+  "negating": [
+    "miss"
+  ],
+  "agents": [
+    {
+      "key": "baker",
+      "base": "backen",
+      "answer": {
+        "m": "Bäcker",
+        "f": "Bäckerin"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "musician",
+      "base": "Musik",
+      "answer": {
+        "m": "Musiker",
+        "f": "Musikerin"
+      }
+    },
+    {
+      "key": "singer",
+      "base": "singen",
+      "answer": {
+        "m": "Sänger",
+        "f": "Sängerin"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "photographer",
+      "base": "Foto",
+      "answer": {
+        "m": "Fotograf",
+        "f": "Fotografin"
+      }
+    },
+    {
+      "key": "gardener",
+      "base": "Garten",
+      "answer": {
+        "m": "Gärtner",
+        "f": "Gärtnerin"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "athlete",
+      "base": "laufen",
+      "answer": {
+        "m": "Läufer",
+        "f": "Läuferin"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "ballerina",
+      "base": "tanzen",
+      "answer": {
+        "m": "Tänzer",
+        "f": "Tänzerin"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "cashier",
+      "base": "Kasse",
+      "answer": {
+        "m": "Kassierer",
+        "f": "Kassiererin"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "tailor",
+      "base": "nähen",
+      "answer": {
+        "m": "Näher",
+        "f": "Näherin"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "pharmacist",
+      "base": "Apotheke",
+      "answer": {
+        "m": "Apotheker",
+        "f": "Apothekerin"
+      }
+    },
+    {
+      "key": "teacher",
+      "base": "lehren",
+      "answer": {
+        "m": "Lehrer",
+        "f": "Lehrerin"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "police_officer",
+      "base": "Polizei",
+      "answer": {
+        "m": "Polizist",
+        "f": "Polizistin"
+      },
+      "stemSigned": true
+    }
+  ],
+  "exemplar": {
+    "base": [
+      "spiel",
+      "zauber"
+    ],
+    "F1": [
+      "body parts/tooth",
+      "ocean life/fish",
+      "music/drum",
+      "furniture/table",
+      "toys/swing",
+      "toys/slide",
+      "accessories/whistle",
+      "kitchen tools/spoon",
+      "camping/tent",
+      "tools/nail",
+      "around the house/mirror"
+    ],
+    "F2": [
+      "spiel",
+      "zauber",
+      "freund",
+      "kauf",
+      "ruf",
+      "bau",
+      "arbeit",
+      "wunder",
+      "koch"
+    ],
+    "F5": [
+      "spiel",
+      "zauber"
+    ]
+  },
+  "refuse": {
+    "base": false,
+    "picture-family": false,
+    "root-word": false,
+    "prefix-key": false,
+    "who-does-it": false,
+    "family-in-sentence": false
+  },
+  "strings": {
+    "base": {
+      "title": "Wortfamilien: nach dem Wortstamm sortieren",
+      "instruction": "Lies jedes Wort oben und schreibe es auf eine Linie der Mauer, die auf seinem Wortstamm steht."
+    },
+    "picture-family": {
+      "title": "Wortfamilien mit Bildern: das passende Wort finden",
+      "instruction": "Sag, was du auf jedem Bild siehst, und kreise darüber das eine Wort ein, das aus diesem Bildwort gebaut ist."
+    },
+    "root-word": {
+      "title": "Den Wortstamm finden",
+      "instruction": "Kreise den Teil ein, den die drei Wörter gemeinsam haben, und schreibe den Wortstamm in den leeren Stein."
+    },
+    "prefix-key": {
+      "title": "Vorsilben ein-, aus- und um-: nach Bedeutung wählen",
+      "instruction": "Lies, was jedes neue Wort bedeutet, finde seine Vorsilbe im Schlüssel und schreibe sie in das leere Stück."
+    },
+    "who-does-it": {
+      "title": "Wer macht das? Personenwörter bilden",
+      "instruction": "Schau dir jede Person bei der Arbeit an, lies das Wort daneben und schreibe das Personenwort in den leeren Stein."
+    },
+    "family-in-sentence": {
+      "title": "Wortfamilien im Satz",
+      "instruction": "Schreibe jedes der vier Wörter auf dem Stein in den Satz, in den es passt."
+    }
+  }
+}

@@ -4304,101 +4304,141 @@
       "2d-shapes": {
         "slug": {
           "en": "2d-shapes",
-          "es": "figuras-geometricas-planas"
+          "es": "figuras-geometricas-planas",
+          "pt": "figuras-geometricas-planas",
+          "de": "geometrische-formen"
         },
         "name": {
           "en": "2D Shapes",
-          "es": "Figuras geométricas planas"
+          "es": "Figuras geométricas planas",
+          "pt": "Figuras geométricas planas",
+          "de": "Geometrische Formen"
         }
       },
       "road-safety": {
         "slug": {
           "en": "road-safety",
-          "es": "educacion-vial"
+          "es": "educacion-vial",
+          "pt": "educacao-no-transito",
+          "de": "verkehrserziehung"
         },
         "name": {
           "en": "Road Safety",
-          "es": "Educación vial"
+          "es": "Educación vial",
+          "pt": "Educação no trânsito",
+          "de": "Verkehrserziehung"
         }
       },
       "family": {
         "slug": {
           "en": "family",
-          "es": "miembros-de-la-familia"
+          "es": "miembros-de-la-familia",
+          "pt": "membros-da-familia",
+          "de": "familie-und-verwandtschaft"
         },
         "name": {
           "en": "Family Members",
-          "es": "Miembros de la familia"
+          "es": "Miembros de la familia",
+          "pt": "Membros da família",
+          "de": "Familie und Verwandtschaft"
         }
       },
       "plants": {
         "slug": {
           "en": "plants",
-          "es": "partes-de-la-planta"
+          "es": "partes-de-la-planta",
+          "pt": "partes-da-planta",
+          "de": "teile-der-pflanze"
         },
         "name": {
           "en": "Parts of a Plant",
-          "es": "Partes de la planta"
+          "es": "Partes de la planta",
+          "pt": "Partes da planta",
+          "de": "Teile der Pflanze"
         }
       },
       "animal-life-cycles": {
         "slug": {
           "en": "animal-life-cycles",
-          "es": "ciclo-de-vida-de-los-animales"
+          "es": "ciclo-de-vida-de-los-animales",
+          "pt": "ciclos-de-vida-dos-animais",
+          "de": "entwicklung-von-tieren"
         },
         "name": {
           "en": "Animal Life Cycles",
-          "es": "Ciclo de vida de los animales"
+          "es": "Ciclo de vida de los animales",
+          "pt": "Ciclos de vida dos animais",
+          "de": "Entwicklung von Tieren"
         }
       },
       "earth-and-space": {
         "slug": {
           "en": "earth-and-space",
-          "es": "sistema-solar-y-fases-de-la-luna"
+          "es": "sistema-solar-y-fases-de-la-luna",
+          "pt": "sol-lua-e-planetas",
+          "de": "sonne-mond-und-planeten"
         },
         "name": {
           "en": "Sun, Moon and Planets",
-          "es": "Sistema solar y fases de la luna"
+          "es": "Sistema solar y fases de la luna",
+          "pt": "Sol, Lua e planetas",
+          "de": "Sonne, Mond und Planeten"
         }
       },
       "maps": {
         "slug": {
           "en": "maps",
-          "es": "mapas-y-puntos-cardinales"
+          "es": "mapas-y-puntos-cardinales",
+          "pt": "mapas-e-orientacao",
+          "de": "karten-und-himmelsrichtungen"
         },
         "name": {
           "en": "Map Skills",
-          "es": "Mapas y puntos cardinales"
+          "es": "Mapas y puntos cardinales",
+          "pt": "Mapas e orientação",
+          "de": "Karten und Himmelsrichtungen"
         }
       },
       "digraphs": {
         "slug": {
           "en": "digraphs",
-          "es": "digrafos"
+          "es": "digrafos",
+          "pt": "digrafos",
+          "de": "buchstabengruppen"
         },
         "name": {
           "en": "Digraphs",
-          "es": "Dígrafos"
+          "es": "Dígrafos",
+          "pt": "Dígrafos",
+          "de": "Buchstabengruppen"
         }
       },
       "synonyms": {
         "slug": {
           "en": "synonyms",
-          "es": "sinonimos"
+          "es": "sinonimos",
+          "pt": "sinonimos",
+          "de": "wortfelder-und-synonyme"
         },
         "name": {
           "en": "Synonyms",
-          "es": "Sinónimos"
+          "es": "Sinónimos",
+          "pt": "Sinônimos",
+          "de": "Wortfelder und Synonyme"
         }
       },
       "word-parts": {
         "slug": {
           "en": "word-parts",
-          "es": "palabras-primitivas-y-derivadas"
+          "es": "palabras-primitivas-y-derivadas",
+          "pt": "familia-de-palavras",
+          "de": "wortfamilien-und-wortbausteine"
         },
         "name": {
           "en": "Prefixes, Suffixes and Root Words",
-          "es": "Palabras primitivas y derivadas"
+          "es": "Palabras primitivas y derivadas",
+          "pt": "Família de palavras",
+          "de": "Wortfamilien, Vorsilben und Nachsilben"
         }
       }
     },

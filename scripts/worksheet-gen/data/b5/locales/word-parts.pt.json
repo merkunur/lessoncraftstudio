@@ -1,0 +1,1650 @@
+{
+  "familyHead": "Família de palavras",
+  "families": [
+    {
+      "id": "flor",
+      "stem": "flor",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "flor"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "floral",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "florido",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "florir",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "florescer",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "floreira",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "floricultura",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "florada",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "flauta",
+          "whyNotFamily": "um instrumento de sopro; nada a ver com flor"
+        },
+        {
+          "word": "floco",
+          "whyNotFamily": "um pedacinho de neve ou de cereal"
+        },
+        {
+          "word": "flecha",
+          "whyNotFamily": "a seta que o arco atira"
+        }
+      ]
+    },
+    {
+      "id": "terra",
+      "stem": "terr",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "terra"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "terreno",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "terreiro",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "terrestre",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "enterrar",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "aterrissar",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "terráqueo",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "terremoto",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "terça",
+          "whyNotFamily": "um dia da semana"
+        },
+        {
+          "word": "teto",
+          "whyNotFamily": "a parte de cima da sala"
+        },
+        {
+          "word": "tesoura",
+          "whyNotFamily": "serve para cortar papel"
+        }
+      ]
+    },
+    {
+      "id": "pedra",
+      "stem": "pedr",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "pedra"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "pedreiro",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "pedregulho",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "pedraria",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "pedrada",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "pedregoso",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "empedrar",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "empedrado",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "pedal",
+          "whyNotFamily": "a peça da bicicleta em que se pisa"
+        },
+        {
+          "word": "pedaço",
+          "whyNotFamily": "uma parte de alguma coisa"
+        },
+        {
+          "word": "pedido",
+          "whyNotFamily": "o que se pede"
+        }
+      ]
+    },
+    {
+      "id": "mar",
+      "stem": "mar",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "mar"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "marinho",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "marinheiro",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "maré",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "maresia",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "marítimo",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "marujo",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "maremoto",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "martelo",
+          "whyNotFamily": "uma ferramenta para bater pregos"
+        },
+        {
+          "word": "margarida",
+          "whyNotFamily": "uma flor branca"
+        },
+        {
+          "word": "marrom",
+          "whyNotFamily": "uma cor"
+        }
+      ]
+    },
+    {
+      "id": "dente",
+      "stem": "dent",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "dente"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "dentista",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "dentuço",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "dentada",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "dentadura",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "dentário",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "dentição",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "dental",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "dedo",
+          "whyNotFamily": "uma parte da mão"
+        },
+        {
+          "word": "desenho",
+          "whyNotFamily": "o que se faz com lápis"
+        },
+        {
+          "word": "depois",
+          "whyNotFamily": "uma palavra de tempo"
+        }
+      ]
+    },
+    {
+      "id": "ferro",
+      "stem": "ferr",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "ferro"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "ferreiro",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "ferradura",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "ferrugem",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "ferragem",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "enferrujar",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "enferrujado",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "ferrovia",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "feira",
+          "whyNotFamily": "um mercado na rua"
+        },
+        {
+          "word": "festa",
+          "whyNotFamily": "uma comemoração"
+        },
+        {
+          "word": "feijão",
+          "whyNotFamily": "um grão que se come"
+        }
+      ]
+    }
+  ],
+  "rootFamilies": [
+    {
+      "id": "sal",
+      "stem": "sal",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "sal"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "salgado",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "saleiro",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "salina",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "salgar",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "salmoura",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "salineiro",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "salga",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "sala",
+          "whyNotFamily": "começa como \"sal\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "salto",
+          "whyNotFamily": "começa como \"sal\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "salada",
+          "whyNotFamily": "começa como \"sal\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
+      "id": "papel",
+      "stem": "papel",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "papel"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "papelaria",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "papelada",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "papeleira",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "papeleiro",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "empapelar",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "papeleta",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "papel-moeda",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "papai",
+          "whyNotFamily": "começa como \"papel\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "papagaio",
+          "whyNotFamily": "começa como \"papel\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "papa",
+          "whyNotFamily": "começa como \"papel\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
+      "id": "amor",
+      "stem": "amor",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "amor"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "amoroso",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "amorosamente",
+          "kind": "derived",
+          "slot": "adverb"
+        },
+        {
+          "word": "namorar",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "namorado",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "enamorado",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "enamorar",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "amor-perfeito",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "amora",
+          "whyNotFamily": "começa como \"amor\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "amostra",
+          "whyNotFamily": "começa como \"amor\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "amolar",
+          "whyNotFamily": "começa como \"amor\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
+      "id": "favor",
+      "stem": "favor",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "favor"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "favorável",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "favorecer",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "favorito",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "favoritismo",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "favorecido",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "favoravelmente",
+          "kind": "derived",
+          "slot": "adverb"
+        },
+        {
+          "word": "favorecimento",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "fava",
+          "whyNotFamily": "começa como \"favor\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "favela",
+          "whyNotFamily": "começa como \"favor\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "faca",
+          "whyNotFamily": "começa como \"favor\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
+      "id": "sinal",
+      "stem": "sinal",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "sinal"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "sinalizar",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "sinalização",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "sinaleira",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "assinalar",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "sinalizado",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "sinalizador",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "sinaleiro",
+          "kind": "derived",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "sino",
+          "whyNotFamily": "começa como \"sinal\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "sineta",
+          "whyNotFamily": "começa como \"sinal\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "sinuca",
+          "whyNotFamily": "começa como \"sinal\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
+      "id": "luz",
+      "stem": "luz",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "luz"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "luzir",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "luzente",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "reluzir",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "reluzente",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "luzidio",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "luzeiro",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "meia-luz",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "luva",
+          "whyNotFamily": "começa como \"luz\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "lugar",
+          "whyNotFamily": "começa como \"luz\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "luta",
+          "whyNotFamily": "começa como \"luz\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
+      "id": "escola",
+      "stem": "escola",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "escola"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "escolar",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "escolaridade",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "escolarizar",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "escolarização",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "escolarizado",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "extraescolar",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "pré-escola",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "escada",
+          "whyNotFamily": "começa como \"escola\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "escova",
+          "whyNotFamily": "começa como \"escola\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "escolher",
+          "whyNotFamily": "começa como \"escola\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    }
+  ],
+  "picFamilies": [
+    {
+      "id": "sol",
+      "stem": "sol",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "sol",
+        "pic": {
+          "theme": "weather",
+          "noun": "sun"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "solar",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "ensolarado",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "sopa",
+          "whyNotFamily": "começa como \"sol\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "sofá",
+          "whyNotFamily": "começa como \"sol\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "sono",
+          "whyNotFamily": "começa como \"sol\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
+      "id": "tambor",
+      "stem": "tambor",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "tambor",
+        "pic": {
+          "theme": "music",
+          "noun": "drum"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "tamborim",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "tamborilar",
+          "kind": "derived",
+          "slot": "verb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "tatu",
+          "whyNotFamily": "começa como \"tambor\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "tapete",
+          "whyNotFamily": "começa como \"tambor\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "tampa",
+          "whyNotFamily": "começa como \"tambor\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
+      "id": "peixe",
+      "stem": "peixe",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "peixe",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "peixeiro",
+          "kind": "derived",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "pena",
+          "whyNotFamily": "começa como \"peixe\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "pera",
+          "whyNotFamily": "começa como \"peixe\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "perna",
+          "whyNotFamily": "começa como \"peixe\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
+      "id": "flor",
+      "stem": "flor",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "flor",
+        "pic": {
+          "theme": "spring",
+          "noun": "flower"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "floral",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "florido",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "flauta",
+          "whyNotFamily": "começa como \"flor\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "flecha",
+          "whyNotFamily": "começa como \"flor\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "floco",
+          "whyNotFamily": "começa como \"flor\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
+      "id": "pedra",
+      "stem": "pedra",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "pedra",
+        "pic": {
+          "theme": "camping",
+          "noun": "rock"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "pedrada",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "pedraria",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "pera",
+          "whyNotFamily": "começa como \"pedra\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "perna",
+          "whyNotFamily": "começa como \"pedra\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "pente",
+          "whyNotFamily": "começa como \"pedra\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
+      "id": "estrela",
+      "stem": "estrela",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "estrela",
+        "pic": {
+          "theme": "christmas",
+          "noun": "star"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "estrelado",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "estrelar",
+          "kind": "derived",
+          "slot": "verb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "escada",
+          "whyNotFamily": "começa como \"estrela\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "espelho",
+          "whyNotFamily": "começa como \"estrela\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "esquilo",
+          "whyNotFamily": "começa como \"estrela\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
+      "id": "folha",
+      "stem": "folha",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "folha",
+        "pic": {
+          "theme": "spring",
+          "noun": "leaf"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "folhagem",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "folhado",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "foca",
+          "whyNotFamily": "começa como \"folha\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "fogo",
+          "whyNotFamily": "começa como \"folha\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "fome",
+          "whyNotFamily": "começa como \"folha\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
+      "id": "bola",
+      "stem": "bola",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "bola",
+        "pic": {
+          "theme": "toys",
+          "noun": "ball"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "bolada",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "bota",
+          "whyNotFamily": "começa como \"bola\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "boca",
+          "whyNotFamily": "começa como \"bola\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "bolo",
+          "whyNotFamily": "começa como \"bola\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
+      "id": "carro",
+      "stem": "carro",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "carro",
+        "pic": {
+          "theme": "vehicles",
+          "noun": "car"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "carroça",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "carroceria",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "cavalo",
+          "whyNotFamily": "começa como \"carro\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "caneca",
+          "whyNotFamily": "começa como \"carro\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "casa",
+          "whyNotFamily": "começa como \"carro\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    },
+    {
+      "id": "laranja",
+      "stem": "laranja",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "laranja",
+        "pic": {
+          "theme": "fruits",
+          "noun": "orange"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "laranjada",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "lata",
+          "whyNotFamily": "começa como \"laranja\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "lagoa",
+          "whyNotFamily": "começa como \"laranja\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "lagarto",
+          "whyNotFamily": "começa como \"laranja\", mas não é formada a partir dessa palavra"
+        }
+      ]
+    }
+  ],
+  "sentences": {
+    "terra": [
+      {
+        "word": "enterrar",
+        "slot": "verb",
+        "frame": "O cachorro vai {gap} o osso no quintal."
+      },
+      {
+        "word": "terreno",
+        "slot": "noun-thing",
+        "frame": "Vamos plantar uma horta no {gap} ao lado da escola."
+      },
+      {
+        "word": "terrestre",
+        "slot": "adjective",
+        "frame": "O elefante é o maior animal {gap}."
+      },
+      {
+        "word": "terráqueo",
+        "slot": "noun-person",
+        "frame": "Na história, o {gap} fez amizade com um alienígena."
+      }
+    ],
+    "pedra": [
+      {
+        "word": "pedreiro",
+        "slot": "noun-person",
+        "frame": "O {gap} construiu o muro com tijolos."
+      },
+      {
+        "word": "pedregulho",
+        "slot": "noun-thing",
+        "frame": "Tirei um {gap} de dentro do sapato."
+      },
+      {
+        "word": "pedregoso",
+        "slot": "adjective",
+        "frame": "Andamos com cuidado pelo chão {gap} da trilha."
+      },
+      {
+        "word": "empedrar",
+        "slot": "verb",
+        "frame": "Os trabalhadores vão {gap} a rua da praça."
+      }
+    ],
+    "sal": [
+      {
+        "word": "salgar",
+        "slot": "verb",
+        "frame": "Não pode {gap} demais a comida do bebê."
+      },
+      {
+        "word": "saleiro",
+        "slot": "noun-thing",
+        "frame": "Passe o {gap} para eu temperar a salada."
+      },
+      {
+        "word": "salgado",
+        "slot": "adjective",
+        "frame": "Este pão de queijo está muito {gap}."
+      },
+      {
+        "word": "salineiro",
+        "slot": "noun-person",
+        "frame": "O {gap} passa o dia recolhendo sal perto do mar."
+      }
+    ]
+  },
+  "prefixKey": {
+    "prefixes": [
+      {
+        "prefix": "re",
+        "meaning": "de novo"
+      },
+      {
+        "prefix": "pre",
+        "meaning": "antes"
+      },
+      {
+        "prefix": "sub",
+        "meaning": "embaixo de"
+      }
+    ],
+    "rows": [
+      {
+        "base": "ler",
+        "prefix": "re",
+        "word": "reler",
+        "gloss": "ler uma história de novo"
+      },
+      {
+        "base": "fazer",
+        "prefix": "re",
+        "word": "refazer",
+        "gloss": "fazer a lição de novo"
+      },
+      {
+        "base": "contar",
+        "prefix": "re",
+        "word": "recontar",
+        "gloss": "contar a história de novo"
+      },
+      {
+        "base": "escrever",
+        "prefix": "re",
+        "word": "reescrever",
+        "gloss": "escrever o texto de novo"
+      },
+      {
+        "base": "ver",
+        "prefix": "pre",
+        "word": "prever",
+        "gloss": "saber antes o que vai acontecer"
+      },
+      {
+        "base": "dizer",
+        "prefix": "pre",
+        "word": "predizer",
+        "gloss": "dizer antes o que vai acontecer"
+      },
+      {
+        "base": "aquecer",
+        "prefix": "pre",
+        "word": "preaquecer",
+        "gloss": "aquecer o forno antes de assar o bolo"
+      },
+      {
+        "base": "solo",
+        "prefix": "sub",
+        "word": "subsolo",
+        "gloss": "o andar que fica embaixo do chão"
+      },
+      {
+        "base": "título",
+        "prefix": "sub",
+        "word": "subtítulo",
+        "gloss": "o título menor que vem embaixo do título"
+      },
+      {
+        "base": "chefe",
+        "prefix": "sub",
+        "word": "subchefe",
+        "gloss": "quem trabalha logo abaixo do chefe"
+      }
+    ],
+    "crossCheck": [
+      {
+        "base": "ler",
+        "prefix": "re",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "ler",
+        "prefix": "pre",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "ler",
+        "prefix": "sub",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "fazer",
+        "prefix": "re",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "fazer",
+        "prefix": "pre",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "fazer",
+        "prefix": "sub",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "contar",
+        "prefix": "re",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "contar",
+        "prefix": "pre",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "contar",
+        "prefix": "sub",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "escrever",
+        "prefix": "re",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "escrever",
+        "prefix": "pre",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "escrever",
+        "prefix": "sub",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "ver",
+        "prefix": "re",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "ver",
+        "prefix": "pre",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "ver",
+        "prefix": "sub",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "dizer",
+        "prefix": "re",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "dizer",
+        "prefix": "pre",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "dizer",
+        "prefix": "sub",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "aquecer",
+        "prefix": "re",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "aquecer",
+        "prefix": "pre",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "aquecer",
+        "prefix": "sub",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "solo",
+        "prefix": "re",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "solo",
+        "prefix": "pre",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "solo",
+        "prefix": "sub",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "título",
+        "prefix": "re",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "título",
+        "prefix": "pre",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "título",
+        "prefix": "sub",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "chefe",
+        "prefix": "re",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "chefe",
+        "prefix": "pre",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "chefe",
+        "prefix": "sub",
+        "isWord": true,
+        "fitsGloss": true
+      }
+    ]
+  },
+  "negating": [
+    "anti",
+    "contra"
+  ],
+  "inflections": [
+    "s",
+    "es"
+  ],
+  "agents": [
+    {
+      "key": "singer",
+      "base": "canto",
+      "answer": {
+        "m": "cantor",
+        "f": "cantora"
+      }
+    },
+    {
+      "key": "ballerina",
+      "base": "dança",
+      "answer": {
+        "f": "dançarina",
+        "m": "dançarino"
+      }
+    },
+    {
+      "key": "tailor",
+      "base": "costura",
+      "answer": {
+        "f": "costureira",
+        "m": "costureiro"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "gardener",
+      "base": "jardim",
+      "answer": {
+        "m": "jardineiro",
+        "f": "jardineira"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "farmer",
+      "base": "fazenda",
+      "answer": {
+        "m": "fazendeiro",
+        "f": "fazendeira"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "chef",
+      "base": "cozinha",
+      "answer": {
+        "m": "cozinheiro",
+        "f": "cozinheira"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "construction_worker",
+      "base": "pedra",
+      "answer": {
+        "m": "pedreiro",
+        "f": "pedreira"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "barber",
+      "base": "barba",
+      "answer": {
+        "m": "barbeiro",
+        "f": "barbeira"
+      },
+      "stemSigned": true
+    }
+  ],
+  "exemplar": {
+    "base": [
+      "flor",
+      "pedra"
+    ],
+    "F1": [
+      "weather/sun",
+      "music/drum",
+      "ocean life/fish",
+      "spring/flower",
+      "camping/rock",
+      "christmas/star",
+      "spring/leaf",
+      "toys/ball",
+      "vehicles/car",
+      "fruits/orange"
+    ],
+    "F2": [
+      "flor",
+      "mar",
+      "sal",
+      "papel",
+      "amor",
+      "favor",
+      "sinal",
+      "luz",
+      "escola"
+    ],
+    "F5": [
+      "terra",
+      "pedra",
+      "sal"
+    ]
+  },
+  "refuse": {
+    "base": false,
+    "picture-family": false,
+    "root-word": false,
+    "prefix-key": false,
+    "who-does-it": false,
+    "family-in-sentence": false
+  },
+  "strings": {
+    "base": {
+      "title": "Família de palavras: palavras primitivas e derivadas",
+      "instruction": "Leia cada palavra lá de cima e escreva-a numa linha do muro que está sobre a sua palavra primitiva."
+    },
+    "picture-family": {
+      "title": "Família de palavras com figuras: circule a derivada",
+      "instruction": "Diga o nome de cada figura e circule a única palavra acima dela que é formada a partir desse nome."
+    },
+    "root-word": {
+      "title": "Encontre a palavra primitiva",
+      "instruction": "Circule a parte que as três palavras têm em comum e escreva essa palavra primitiva na pedra vazia."
+    },
+    "prefix-key": {
+      "title": "Prefixos re-, pre- e sub-: escolha pelo significado",
+      "instruction": "Leia o que cada palavra nova significa, encontre o prefixo no quadro e escreva-o na peça vazia."
+    },
+    "who-does-it": {
+      "title": "Sufixos de profissões: quem faz?",
+      "instruction": "Observe cada pessoa trabalhando, leia a palavra ao lado dela e escreva no tijolo vazio a palavra que diz quem faz esse trabalho."
+    },
+    "family-in-sentence": {
+      "title": "Família de palavras nas frases",
+      "instruction": "Escreva cada uma das quatro palavras da pedra na frase em que ela se encaixa."
+    }
+  }
+}

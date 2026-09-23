@@ -1,0 +1,122 @@
+{
+  "names": {
+    "circle": "Kreis",
+    "square": "Quadrat",
+    "triangle": "Dreieck",
+    "rectangle": "Rechteck",
+    "hexagon": "Sechseck"
+  },
+  "overrides": {},
+  "inflections": {
+    "circle": [
+      "Kreise",
+      "Kreises",
+      "Kreisen"
+    ],
+    "square": [
+      "Quadrate",
+      "Quadrats",
+      "Quadraten",
+      "Quadrates"
+    ],
+    "triangle": [
+      "Dreiecke",
+      "Dreiecks",
+      "Dreiecken",
+      "Dreieckes"
+    ],
+    "rectangle": [
+      "Rechtecke",
+      "Rechtecks",
+      "Rechtecken",
+      "Rechteckes"
+    ],
+    "hexagon": [
+      "Sechsecke",
+      "Sechsecks",
+      "Sechsecken",
+      "Sechseckes"
+    ]
+  },
+  "inventory": {
+    "hexagon": true
+  },
+  "riddles": {
+    "circle": [
+      {
+        "text": "Ich bin ganz rund und habe keine Ecken. Wer bin ich?",
+        "clue": "round"
+      },
+      {
+        "text": "Ich habe keine geraden Seiten und gar keine Ecken. Wer bin ich?",
+        "clue": "round"
+      }
+    ],
+    "square": [
+      {
+        "text": "Meine 4 Seiten sind alle gleich lang. Wer bin ich?",
+        "clue": "equal"
+      },
+      {
+        "text": "Ich habe 4 Ecken und 4 gleich lange Seiten. Wer bin ich?",
+        "clue": "equal"
+      }
+    ],
+    "triangle": [
+      {
+        "text": "Ich habe 3 Seiten und 3 Ecken. Wer bin ich?",
+        "clue": "three"
+      },
+      {
+        "text": "Ich habe nur 3 gerade Seiten. Wer bin ich?",
+        "clue": "three"
+      }
+    ],
+    "rectangle": [
+      {
+        "text": "Ich habe 2 lange und 2 kurze Seiten. Wer bin ich?",
+        "clue": "longShort"
+      },
+      {
+        "text": "Ich habe 4 Ecken, 2 lange und 2 kurze Seiten. Wer bin ich?",
+        "clue": "longShort"
+      }
+    ],
+    "hexagon": [
+      {
+        "text": "Ich habe 6 Seiten und 6 Ecken. Wer bin ich?",
+        "clue": "six"
+      },
+      {
+        "text": "Ich habe 6 gerade Seiten. Wer bin ich?",
+        "clue": "six"
+      }
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Geometrische Formen benennen",
+      "instruction": "Schau dir jede Form an, auch die gedrehten und die schmalen, und kreise ihren Namen ein."
+    },
+    "real-or-not": {
+      "title": "Geometrische Formen erkennen: echt oder nicht?",
+      "instruction": "Lies in jeder Reihe den Namen und kreise alle Formen ein, die wirklich so heißen."
+    },
+    "around-us": {
+      "title": "Geometrische Formen in der Umwelt",
+      "instruction": "Schau dir jedes Bild an und male die Form an, die es hat: den Kreis oder das Rechteck."
+    },
+    "write-name": {
+      "title": "Geometrische Formen: Namen schreiben",
+      "instruction": "Schau dir jede Form an und schreibe ihren Namen auf die Linie, die Namen stehen im Kasten."
+    },
+    "riddles": {
+      "title": "Rätsel zu geometrischen Formen",
+      "instruction": "Lies jedes Rätsel und kreise den Namen der Form ein."
+    },
+    "dot-draw": {
+      "title": "Geometrische Formen im Punktefeld zeichnen",
+      "instruction": "Lies den Namen der Form und verbinde die Punkte, beginne an der dicken Linie, wenn es eine gibt."
+    }
+  }
+}

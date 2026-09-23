@@ -1,0 +1,121 @@
+{
+  "hemisphere": "S",
+  "bodies": {
+    "sun": "Sol",
+    "earth": "Terra",
+    "moon": "Lua"
+  },
+  "facts": {
+    "ownLight": "Produz a própria luz.",
+    "star": "É uma estrela.",
+    "hottest": "Tem a temperatura mais alta dos três.",
+    "biggest": "Tem o maior tamanho dos três.",
+    "liveOn": "É onde vivem as pessoas e os animais.",
+    "oceans": "Tem grandes oceanos de água.",
+    "air": "Tem ar que podemos respirar.",
+    "planet": "É um planeta.",
+    "spinDay": "O seu giro faz o dia e a noite.",
+    "orbitsEarth": "Gira em volta do nosso planeta.",
+    "seemsToChange": "A sua forma parece mudar.",
+    "craters": "Tem muitas crateras.",
+    "smallest": "Tem o menor tamanho dos três."
+  },
+  "leakForms": [
+    "ele",
+    "ela",
+    "dele",
+    "dela",
+    "nele",
+    "nela",
+    "o mais",
+    "a mais",
+    "redondo",
+    "redonda",
+    "coberto",
+    "coberta",
+    "quente",
+    "iluminado",
+    "iluminada"
+  ],
+  "genderNeutral": true,
+  "forbiddenStems": [
+    "dá luz",
+    "nos dá luz",
+    "brilha",
+    "ilumina",
+    "à noite",
+    "de noite",
+    "gira em volta do Sol",
+    "gira ao redor do Sol",
+    "nasce",
+    "se põe",
+    "no céu",
+    "reflete",
+    "andou",
+    "pisou",
+    "sem ar",
+    "verão",
+    "inverno",
+    "primavera",
+    "outono",
+    "chuva",
+    "neve",
+    "nuvem",
+    "nuvens",
+    "dia quente",
+    "dia frio"
+  ],
+  "phaseNames": {
+    "0": "lua nova",
+    "2": "lua crescente",
+    "4": "lua cheia",
+    "6": "lua minguante"
+  },
+  "planets": {
+    "mercury": "Mercúrio",
+    "venus": "Vênus",
+    "earth": "Terra",
+    "mars": "Marte",
+    "jupiter": "Júpiter",
+    "saturn": "Saturno",
+    "uranus": "Urano",
+    "neptune": "Netuno"
+  },
+  "notPlanet": {
+    "sun": "Sol",
+    "moon": "Lua"
+  },
+  "classLabels": {
+    "giant": "planeta gigante",
+    "rocky": "planeta rochoso pequeno",
+    "notPlanet": "não é planeta"
+  },
+  "mnemonic": "Minha Velha Traga Meu Jantar: Sopa, Uva, Nozes",
+  "refuse": [],
+  "strings": {
+    "base": {
+      "title": "Sol, Terra e Lua",
+      "instruction": "Leia cada frase e marque um quadrinho: ela fala do Sol, da Terra ou da Lua?"
+    },
+    "moon-phases-in-order": {
+      "title": "Fases da Lua em ordem",
+      "instruction": "A Lua parece crescer e depois diminuir: em cada fileira, escreva de 1 a 5 embaixo das luas nessa ordem."
+    },
+    "moon-phase-names": {
+      "title": "Nomes das fases da Lua",
+      "instruction": "Observe cada lua e escreva o nome dela nas linhas, usando duas vezes cada palavra do quadro."
+    },
+    "day-and-night-model": {
+      "title": "Por que existem o dia e a noite?",
+      "instruction": "Veja onde está o Sol e, em cada alfinete numerado, circule na tabela se ali é dia ou noite."
+    },
+    "planets-in-order": {
+      "title": "Planetas do Sistema Solar em ordem",
+      "instruction": "Escreva o nome de cada planeta na linha dele, começando perto do Sol, e use cada nome do quadro uma vez."
+    },
+    "planet-sizes": {
+      "title": "Planetas gigantes e planetas rochosos",
+      "instruction": "Separe os nomes e escreva cada um no quadro certo: planeta gigante, planeta rochoso pequeno ou não é planeta."
+    }
+  }
+}

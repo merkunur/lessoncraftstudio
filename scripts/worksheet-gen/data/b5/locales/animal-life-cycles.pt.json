@@ -1,0 +1,81 @@
+{
+  "stageWords": {
+    "butterfly": {
+      "egg": "ovo",
+      "larva": "lagarta",
+      "pupa": "crisálida",
+      "adult": "borboleta"
+    }
+  },
+  "decoy": {
+    "frog.tadpole": "girino"
+  },
+  "landingWords": {
+    "frog": {
+      "spawn": "cordão de ovos",
+      "tadpole": "girino",
+      "legged": "girino com patas",
+      "froglet": "sapo jovem",
+      "adult": "sapo"
+    },
+    "ladybird": {
+      "egg": "ovo",
+      "larva": "larva",
+      "pupa": "pupa",
+      "adult": "joaninha"
+    }
+  },
+  "statements": {
+    "egg": "Nasce de um ovo.",
+    "change": "O filhote é muito diferente do adulto.",
+    "pupa": "Passa uma fase dentro de uma crisálida.",
+    "wings": "O adulto tem asas.",
+    "sixlegs": "O adulto tem seis patas.",
+    "nectar": "O adulto bebe o néctar das flores.",
+    "tail": "O filhote nada com uma cauda.",
+    "water": "O filhote vive na água.",
+    "nolegs": "O filhote nasce sem patas.",
+    "fourlegs": "O adulto tem quatro patas.",
+    "insects": "O adulto caça insetos para comer."
+  },
+  "drop": [],
+  "familyName": "Ciclos de vida dos animais",
+  "spawnForm": "string",
+  "forbidden": [
+    "casulo",
+    "casulos"
+  ],
+  "genreBare": [
+    "ciclo de vida",
+    "ciclos de vida"
+  ],
+  "pictureWord": "figura",
+  "instructionBans": {},
+  "refuse": [],
+  "strings": {
+    "G1-377": {
+      "title": "Ciclo de vida da borboleta",
+      "instruction": "O ovo é o 1: escreva 2, 3 e 4 nos quadrinhos na ordem em que ela cresce e, no último, o número da figura que vem depois da borboleta."
+    },
+    "G1-389": {
+      "title": "Ciclo de vida do sapo: recorte e cole",
+      "instruction": "Recorte os quatro quadrados e cole cada um na sua vitória-régia, dando a volta na lagoa desde os ovos até o sapo."
+    },
+    "G2-365": {
+      "title": "Nomeie as fases do ciclo de vida da borboleta",
+      "instruction": "Escreva cada nome do quadro de palavras na linha embaixo da figura certa e risque o único nome que não faz parte."
+    },
+    "G2-366": {
+      "title": "Metamorfose: em que animal ele vai se transformar?",
+      "instruction": "Observe cada filhote e escreva a letra dele num quadrinho embaixo do animal adulto em que ele vai se transformar."
+    },
+    "G3-393": {
+      "title": "Ciclos de vida da borboleta e do sapo comparados",
+      "instruction": "Leia cada frase e marque a borboleta, o sapo ou os dois quando a frase for verdadeira para aquele animal."
+    },
+    "G1-390": {
+      "title": "O que vem depois? Borboleta, sapo e joaninha",
+      "instruction": "Observe a primeira figura de cada fileira e circule a que vem logo depois dela."
+    }
+  }
+}

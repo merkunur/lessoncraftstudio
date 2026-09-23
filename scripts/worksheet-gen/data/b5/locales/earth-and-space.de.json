@@ -1,0 +1,130 @@
+{
+  "hemisphere": "N",
+  "bodies": {
+    "sun": "Sonne",
+    "earth": "Erde",
+    "moon": "Mond"
+  },
+  "facts": {
+    "ownLight": "Ich mache mein eigenes Licht.",
+    "star": "Ich bin ein Stern.",
+    "hottest": "Ich bin am heißesten von uns dreien.",
+    "biggest": "Ich bin am größten von uns dreien.",
+    "liveOn": "Menschen und Tiere leben auf mir.",
+    "oceans": "Auf mir gibt es große Meere.",
+    "air": "Ich habe Luft, die man atmen kann.",
+    "planet": "Ich bin ein Planet.",
+    "spinDay": "Weil ich mich drehe, gibt es Tag und Nacht.",
+    "orbitsEarth": "Ich kreise um die Erde.",
+    "seemsToChange": "Meine Form sieht jeden Abend etwas anders aus.",
+    "craters": "Ich bin voller Krater.",
+    "smallest": "Ich bin am kleinsten von uns dreien."
+  },
+  "leakForms": [
+    "er",
+    "ihn",
+    "ihm",
+    "sein",
+    "seine",
+    "seinen",
+    "seinem",
+    "seiner",
+    "der",
+    "sie",
+    "ihr",
+    "ihre",
+    "ihren",
+    "ihrem",
+    "ihrer",
+    "dieser",
+    "diese",
+    "heißeste",
+    "größte",
+    "kleinste"
+  ],
+  "genderNeutral": true,
+  "forbiddenStems": [
+    "gibt Licht",
+    "gibt uns Licht",
+    "leuchtet",
+    "scheint",
+    "strahlt",
+    "nachts",
+    "in der Nacht",
+    "um die Sonne",
+    "geht auf",
+    "geht unter",
+    "aufgehen",
+    "untergehen",
+    "ist rund",
+    "am Himmel",
+    "betreten",
+    "keine Luft",
+    "spiegelt",
+    "wandert über",
+    "Sommer",
+    "Winter",
+    "Frühling",
+    "Herbst",
+    "Regen",
+    "Schnee",
+    "Wolke",
+    "Wolken",
+    "Wetter",
+    "heißer Tag",
+    "kalter Tag"
+  ],
+  "phaseNames": {
+    "0": "Neumond",
+    "2": "zunehmend",
+    "4": "Vollmond",
+    "6": "abnehmend"
+  },
+  "planets": {
+    "mercury": "Merkur",
+    "venus": "Venus",
+    "earth": "Erde",
+    "mars": "Mars",
+    "jupiter": "Jupiter",
+    "saturn": "Saturn",
+    "uranus": "Uranus",
+    "neptune": "Neptun"
+  },
+  "notPlanet": {
+    "sun": "Sonne",
+    "moon": "Mond"
+  },
+  "classLabels": {
+    "giant": "Riesenplanet",
+    "rocky": "kleiner Gesteinsplanet",
+    "notPlanet": "kein Planet"
+  },
+  "mnemonic": "Mein Vater erklärt mir jeden Sonntag unseren Nachthimmel",
+  "refuse": [],
+  "strings": {
+    "base": {
+      "title": "Sonne, Erde und Mond",
+      "instruction": "Lies jeden Satz und kreuze an, wer ihn sagt: die Sonne, die Erde oder der Mond."
+    },
+    "moon-phases-in-order": {
+      "title": "Mondphasen in der richtigen Reihenfolge",
+      "instruction": "Schau in jeder Reihe auf den Keil, ob der Mond zu- oder abnimmt, und schreibe 1 bis 5 in dieser Reihenfolge unter die Monde."
+    },
+    "moon-phase-names": {
+      "title": "Mondphasen benennen",
+      "instruction": "Schreibe den Namen jedes Mondes auf die Linien, jedes Wort aus dem Wörterkasten brauchst du zweimal."
+    },
+    "day-and-night-model": {
+      "title": "Warum gibt es Tag und Nacht?",
+      "instruction": "Schau, wo die Sonne ist, und kreise in der Tabelle für jeden Punkt mit Zahl ein, ob dort Tag oder Nacht ist."
+    },
+    "planets-in-order": {
+      "title": "Die Planeten in der Reihenfolge von der Sonne aus",
+      "instruction": "Schreibe den Namen jedes Planeten auf seine Linie, beginne neben der Sonne und nimm jeden Namen aus dem Kasten einmal."
+    },
+    "planet-sizes": {
+      "title": "Riesenplaneten und Gesteinsplaneten",
+      "instruction": "Sortiere die Namen und schreibe jeden in das richtige Feld: Riesenplanet, kleiner Gesteinsplanet oder kein Planet."
+    }
+  }
+}

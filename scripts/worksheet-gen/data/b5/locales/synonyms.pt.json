@@ -1,0 +1,912 @@
+{
+  "head": "Sinônimos",
+  "allowed": [
+    " ",
+    "-"
+  ],
+  "ban": [
+    "legal",
+    "esperto",
+    "bacana",
+    "jogar",
+    "ligeiro",
+    "arrumar",
+    "baixo",
+    "alto",
+    "pronto",
+    "irado"
+  ],
+  "regional": [],
+  "groups": [
+    {
+      "id": "g.happy",
+      "concept": "happy",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "feliz",
+        "alegre",
+        "contente"
+      ]
+    },
+    {
+      "id": "g.sad",
+      "concept": "sad",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "triste",
+        "tristonho"
+      ]
+    },
+    {
+      "id": "g.angry",
+      "concept": "angry",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "zangado",
+        "bravo"
+      ]
+    },
+    {
+      "id": "g.scared",
+      "concept": "scared",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "assustado",
+        "amedrontado",
+        "com medo"
+      ]
+    },
+    {
+      "id": "g.surprised",
+      "concept": "surprised",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 2,
+      "words": [
+        "surpreso",
+        "espantado"
+      ]
+    },
+    {
+      "id": "g.calm",
+      "concept": "calm",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 2,
+      "words": [
+        "calmo",
+        "tranquilo",
+        "sossegado"
+      ]
+    },
+    {
+      "id": "g.tired",
+      "concept": "tired",
+      "pos": "adj",
+      "domain": "body",
+      "tier": 1,
+      "words": [
+        "cansado",
+        "sonolento"
+      ]
+    },
+    {
+      "id": "g.sick",
+      "concept": "sick",
+      "pos": "adj",
+      "domain": "body",
+      "tier": 1,
+      "words": [
+        "doente",
+        "adoentado"
+      ]
+    },
+    {
+      "id": "g.strong",
+      "concept": "strong",
+      "pos": "adj",
+      "domain": "body",
+      "tier": 2,
+      "words": [
+        "forte",
+        "poderoso"
+      ]
+    },
+    {
+      "id": "g.big",
+      "concept": "big",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "grande",
+        "graúdo"
+      ]
+    },
+    {
+      "id": "g.small",
+      "concept": "small",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "pequeno",
+        "miúdo"
+      ]
+    },
+    {
+      "id": "g.fast",
+      "concept": "fast",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "rápido",
+        "veloz"
+      ]
+    },
+    {
+      "id": "g.easy",
+      "concept": "easy",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 1,
+      "words": [
+        "fácil",
+        "simples"
+      ]
+    },
+    {
+      "id": "g.difficult",
+      "concept": "difficult",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 2,
+      "words": [
+        "difícil",
+        "complicado"
+      ]
+    },
+    {
+      "id": "g.smart",
+      "concept": "smart",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 2,
+      "words": [
+        "inteligente",
+        "sabido"
+      ]
+    },
+    {
+      "id": "g.brave",
+      "concept": "brave",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "corajoso",
+        "valente",
+        "destemido"
+      ]
+    },
+    {
+      "id": "g.funny",
+      "concept": "funny",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "engraçado",
+        "cômico"
+      ]
+    },
+    {
+      "id": "g.strange",
+      "concept": "strange",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "estranho",
+        "esquisito"
+      ]
+    },
+    {
+      "id": "g.loud",
+      "concept": "loud",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 1,
+      "words": [
+        "barulhento",
+        "ruidoso"
+      ]
+    },
+    {
+      "id": "g.quiet",
+      "concept": "quiet",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 2,
+      "words": [
+        "silencioso",
+        "quieto"
+      ]
+    },
+    {
+      "id": "g.tasty",
+      "concept": "tasty",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 1,
+      "words": [
+        "gostoso",
+        "saboroso",
+        "delicioso"
+      ]
+    },
+    {
+      "id": "g.cozy",
+      "concept": "cozy",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 2,
+      "words": [
+        "aconchegante",
+        "confortável"
+      ]
+    },
+    {
+      "id": "g.pretty",
+      "concept": "pretty",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 1,
+      "words": [
+        "bonito",
+        "belo"
+      ]
+    },
+    {
+      "id": "g.tidy",
+      "concept": "tidy",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 2,
+      "words": [
+        "arrumado",
+        "organizado"
+      ]
+    },
+    {
+      "id": "g.dirty",
+      "concept": "dirty",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 2,
+      "words": [
+        "sujo",
+        "encardido"
+      ]
+    },
+    {
+      "id": "g.begin",
+      "concept": "begin",
+      "pos": "verb",
+      "domain": "begin-end",
+      "tier": 1,
+      "words": [
+        "começar",
+        "iniciar"
+      ]
+    },
+    {
+      "id": "g.end",
+      "concept": "end",
+      "pos": "verb",
+      "domain": "begin-end",
+      "tier": 1,
+      "words": [
+        "terminar",
+        "acabar"
+      ]
+    },
+    {
+      "id": "g.fix",
+      "concept": "fix",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 1,
+      "words": [
+        "consertar",
+        "reparar"
+      ]
+    },
+    {
+      "id": "g.choose",
+      "concept": "choose",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 2,
+      "words": [
+        "escolher",
+        "selecionar"
+      ]
+    },
+    {
+      "id": "g.collect",
+      "concept": "collect",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 2,
+      "words": [
+        "juntar",
+        "reunir"
+      ]
+    },
+    {
+      "id": "g.help",
+      "concept": "help",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 2,
+      "words": [
+        "ajudar",
+        "auxiliar"
+      ]
+    },
+    {
+      "id": "g.jump",
+      "concept": "jump",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 1,
+      "words": [
+        "pular",
+        "saltar"
+      ]
+    },
+    {
+      "id": "g.throw",
+      "concept": "throw",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 1,
+      "words": [
+        "atirar",
+        "arremessar",
+        "lançar"
+      ]
+    },
+    {
+      "id": "g.fall",
+      "concept": "fall",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 2,
+      "words": [
+        "cair",
+        "tombar"
+      ]
+    },
+    {
+      "id": "g.stay",
+      "concept": "stay",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 2,
+      "words": [
+        "ficar",
+        "permanecer"
+      ]
+    },
+    {
+      "id": "g.talk",
+      "concept": "talk",
+      "pos": "verb",
+      "domain": "speak",
+      "tier": 1,
+      "words": [
+        "falar",
+        "conversar"
+      ]
+    },
+    {
+      "id": "g.shout",
+      "concept": "shout",
+      "pos": "verb",
+      "domain": "speak",
+      "tier": 1,
+      "words": [
+        "gritar",
+        "berrar"
+      ]
+    }
+  ],
+  "near": [
+    {
+      "a": "grande",
+      "b": "enorme",
+      "why": "grau: enorme é muito mais que grande"
+    },
+    {
+      "a": "quente",
+      "b": "morno",
+      "why": "grau: morno é menos que quente"
+    },
+    {
+      "a": "frio",
+      "b": "fresco",
+      "why": "grau: fresco é menos que frio"
+    },
+    {
+      "a": "molhado",
+      "b": "úmido",
+      "why": "grau: úmido é menos que molhado"
+    },
+    {
+      "a": "zangado",
+      "b": "irritado",
+      "why": "grau: irritado é menos que zangado"
+    },
+    {
+      "a": "assustado",
+      "b": "nervoso",
+      "why": "nervoso é outro sentimento, não só medo"
+    },
+    {
+      "a": "triste",
+      "b": "chateado",
+      "why": "chateado é aborrecido, perto de zangado"
+    },
+    {
+      "a": "silencioso",
+      "b": "calmo",
+      "why": "silencioso é sem som; calmo é um sentimento"
+    },
+    {
+      "a": "forte",
+      "b": "corajoso",
+      "why": "força do corpo não é coragem"
+    },
+    {
+      "a": "bonito",
+      "b": "lindo",
+      "why": "grau: lindo é mais que bonito"
+    },
+    {
+      "a": "falar",
+      "b": "gritar",
+      "why": "gritar é falar muito alto"
+    },
+    {
+      "a": "aconchegante",
+      "b": "calmo",
+      "why": "um lugar aconchegante pode parecer calmo; não é a mesma palavra"
+    },
+    {
+      "a": "alegre",
+      "b": "engraçado",
+      "why": "alegre é como a pessoa se sente; engraçado é o que faz rir"
+    },
+    {
+      "a": "sujo",
+      "b": "bagunçado",
+      "why": "sujo é não limpo; bagunçado é não arrumado"
+    }
+  ],
+  "nearOnly": [
+    "enorme",
+    "nervoso",
+    "chateado",
+    "lindo",
+    "bagunçado"
+  ],
+  "falseOf": {
+    "happy": [
+      "triste",
+      "tristonho",
+      "zangado",
+      "bravo",
+      "assustado",
+      "amedrontado",
+      "com medo",
+      "surpreso",
+      "espantado",
+      "cansado",
+      "sonolento",
+      "rápido",
+      "veloz",
+      "grande",
+      "graúdo",
+      "pequeno",
+      "miúdo"
+    ],
+    "sad": [
+      "feliz",
+      "alegre",
+      "contente",
+      "zangado",
+      "bravo",
+      "surpreso",
+      "espantado",
+      "rápido",
+      "veloz",
+      "grande",
+      "graúdo",
+      "pequeno",
+      "miúdo"
+    ],
+    "angry": [
+      "feliz",
+      "alegre",
+      "contente",
+      "triste",
+      "tristonho",
+      "assustado",
+      "amedrontado",
+      "com medo",
+      "surpreso",
+      "espantado",
+      "cansado",
+      "sonolento",
+      "rápido",
+      "veloz",
+      "grande",
+      "graúdo",
+      "pequeno",
+      "miúdo"
+    ],
+    "scared": [
+      "feliz",
+      "alegre",
+      "contente",
+      "triste",
+      "tristonho",
+      "cansado",
+      "sonolento",
+      "rápido",
+      "veloz",
+      "grande",
+      "graúdo",
+      "pequeno",
+      "miúdo"
+    ],
+    "surprised": [
+      "feliz",
+      "alegre",
+      "contente",
+      "triste",
+      "tristonho",
+      "zangado",
+      "bravo",
+      "cansado",
+      "sonolento",
+      "rápido",
+      "veloz",
+      "grande",
+      "graúdo",
+      "pequeno",
+      "miúdo"
+    ],
+    "tired": [
+      "feliz",
+      "alegre",
+      "contente",
+      "zangado",
+      "bravo",
+      "assustado",
+      "amedrontado",
+      "com medo",
+      "surpreso",
+      "espantado",
+      "rápido",
+      "veloz",
+      "grande",
+      "graúdo",
+      "pequeno",
+      "miúdo"
+    ],
+    "fast": [
+      "feliz",
+      "alegre",
+      "contente",
+      "triste",
+      "tristonho",
+      "zangado",
+      "bravo",
+      "assustado",
+      "amedrontado",
+      "com medo",
+      "surpreso",
+      "espantado",
+      "cansado",
+      "sonolento"
+    ],
+    "big": [
+      "triste",
+      "tristonho",
+      "zangado",
+      "bravo",
+      "assustado",
+      "amedrontado",
+      "com medo",
+      "surpreso",
+      "espantado",
+      "rápido",
+      "veloz",
+      "pequeno",
+      "miúdo"
+    ],
+    "small": [
+      "triste",
+      "tristonho",
+      "assustado",
+      "amedrontado",
+      "com medo",
+      "surpreso",
+      "espantado",
+      "cansado",
+      "sonolento",
+      "grande",
+      "graúdo"
+    ]
+  },
+  "scales": [
+    {
+      "id": "s.heat",
+      "pos": "adj",
+      "words": [
+        "morno",
+        "quente",
+        "fervendo"
+      ]
+    },
+    {
+      "id": "s.cold",
+      "pos": "adj",
+      "words": [
+        "fresco",
+        "frio",
+        "congelante"
+      ]
+    },
+    {
+      "id": "s.wet",
+      "pos": "adj",
+      "words": [
+        "úmido",
+        "molhado",
+        "encharcado"
+      ]
+    },
+    {
+      "id": "s.angry",
+      "pos": "adj",
+      "words": [
+        "irritado",
+        "zangado",
+        "furioso"
+      ]
+    },
+    {
+      "id": "s.full",
+      "pos": "adj",
+      "words": [
+        "satisfeito",
+        "cheio",
+        "empanturrado"
+      ]
+    },
+    {
+      "id": "s.eat",
+      "pos": "verb",
+      "words": [
+        "beliscar",
+        "comer",
+        "devorar"
+      ]
+    },
+    {
+      "id": "s.voice",
+      "pos": "verb",
+      "words": [
+        "sussurrar",
+        "falar",
+        "gritar"
+      ]
+    },
+    {
+      "id": "s.laugh",
+      "pos": "verb",
+      "words": [
+        "sorrir",
+        "rir",
+        "gargalhar"
+      ]
+    }
+  ],
+  "fields": {
+    "say": {
+      "head": "disse",
+      "form": "past",
+      "words": [
+        "sussurrou",
+        "gritou",
+        "perguntou",
+        "respondeu",
+        "explicou",
+        "prometeu"
+      ],
+      "sentences": [
+        {
+          "id": "f1",
+          "text": "O bebê estava dormindo, então {name} {gap} bem baixinho.",
+          "fit": {
+            "sussurrou": true,
+            "gritou": false,
+            "perguntou": false,
+            "respondeu": false,
+            "explicou": false,
+            "prometeu": false
+          }
+        },
+        {
+          "id": "f2",
+          "text": "{name} {gap} um segredo no ouvido da vovó.",
+          "fit": {
+            "sussurrou": true,
+            "gritou": false,
+            "perguntou": false,
+            "respondeu": false,
+            "explicou": false,
+            "prometeu": false
+          }
+        },
+        {
+          "id": "f3",
+          "text": "O ônibus ia partir, então {name} {gap}: “Espere por mim!”",
+          "fit": {
+            "sussurrou": false,
+            "gritou": true,
+            "perguntou": false,
+            "respondeu": false,
+            "explicou": false,
+            "prometeu": false
+          }
+        },
+        {
+          "id": "f4",
+          "text": "{name} {gap} bem forte, do outro lado do campo.",
+          "fit": {
+            "sussurrou": false,
+            "gritou": true,
+            "perguntou": false,
+            "respondeu": false,
+            "explicou": false,
+            "prometeu": false
+          }
+        },
+        {
+          "id": "f5",
+          "text": "“Onde está o meu chapéu vermelho?”, {gap} {name}.",
+          "fit": {
+            "sussurrou": false,
+            "gritou": false,
+            "perguntou": true,
+            "respondeu": false,
+            "explicou": false,
+            "prometeu": false
+          }
+        },
+        {
+          "id": "f6",
+          "text": "{name} {gap} à pergunta da professora com um sorriso.",
+          "fit": {
+            "sussurrou": false,
+            "gritou": false,
+            "perguntou": false,
+            "respondeu": true,
+            "explicou": false,
+            "prometeu": false
+          }
+        },
+        {
+          "id": "f7",
+          "text": "{name} {gap} como plantar uma semente, passo a passo.",
+          "fit": {
+            "sussurrou": false,
+            "gritou": false,
+            "perguntou": false,
+            "respondeu": false,
+            "explicou": true,
+            "prometeu": false
+          }
+        },
+        {
+          "id": "f8",
+          "text": "“Juro que vou dar comida ao peixe todo dia”, {gap} {name}.",
+          "fit": {
+            "sussurrou": false,
+            "gritou": false,
+            "perguntou": false,
+            "respondeu": false,
+            "explicou": false,
+            "prometeu": true
+          }
+        }
+      ]
+    },
+    "go": {
+      "head": "ir",
+      "words": [
+        "caminhar",
+        "marchar",
+        "engatinhar",
+        "correr",
+        "passear",
+        "rastejar",
+        "saltitar",
+        "andar"
+      ]
+    },
+    "look": {
+      "head": "olhar",
+      "words": [
+        "espiar",
+        "encarar",
+        "observar",
+        "vigiar",
+        "contemplar",
+        "examinar",
+        "bisbilhotar",
+        "fitar"
+      ]
+    }
+  },
+  "quotes": [
+    "“",
+    "”"
+  ],
+  "instructionBans": {
+    "shades": [
+      "mesmo",
+      "mesma"
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Sinônimos: circule a palavra com o mesmo significado",
+      "instruction": "Leia a palavra grande de cada cartão e circule a palavra embaixo dela que tem o mesmo significado."
+    },
+    "pictures": {
+      "title": "Sinônimos com figuras: duas palavras para uma figura",
+      "instruction": "Observe cada figura e circule as duas palavras embaixo dela que têm o mesmo significado e combinam com a figura."
+    },
+    "pairs": {
+      "title": "Pares de sinônimos: ligue as palavras de mesmo significado",
+      "instruction": "Ligue cada palavra da esquerda à palavra da direita que tem o mesmo significado."
+    },
+    "shades": {
+      "title": "Graus de intensidade: do mais fraco ao mais forte",
+      "instruction": "Leia as três palavras de cada fileira e escreva 1, 2 e 3 nos quadrinhos, da palavra mais fraca para a mais forte."
+    },
+    "say": {
+      "title": "Sinônimos de disse: verbos de elocução",
+      "instruction": "Leia cada frase e escreva no quadrinho a palavra do balão que combina melhor no lugar de disse."
+    },
+    "fields": {
+      "title": "Campo semântico: palavras para ir e para olhar",
+      "instruction": "Leia as dez palavras e escreva cada uma no campo da palavra que tem quase o mesmo significado."
+    }
+  }
+}

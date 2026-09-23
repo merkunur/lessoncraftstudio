@@ -1,0 +1,116 @@
+{
+  "keyTitle": "Simbología",
+  "symbolWords": {
+    "house": "casa",
+    "tree": "árbol",
+    "bush": "arbusto",
+    "pond": "estanque",
+    "bench": "banca",
+    "tent": "tienda de campaña",
+    "flowerBed": "jardinera",
+    "bridge": "puente"
+  },
+  "dirWords": {
+    "n": "norte",
+    "e": "este",
+    "s": "sur",
+    "w": "oeste"
+  },
+  "dirLetters": {
+    "n": "N",
+    "e": "E",
+    "s": "S",
+    "w": "O"
+  },
+  "continentSet": [
+    {
+      "id": "america",
+      "regions": [
+        "northAmerica",
+        "southAmerica"
+      ]
+    },
+    {
+      "id": "europe",
+      "regions": [
+        "europe"
+      ]
+    },
+    {
+      "id": "asia",
+      "regions": [
+        "asia"
+      ]
+    },
+    {
+      "id": "africa",
+      "regions": [
+        "africa"
+      ]
+    },
+    {
+      "id": "oceania",
+      "regions": [
+        "oceania"
+      ]
+    },
+    {
+      "id": "antarctica",
+      "regions": [
+        "antarctica"
+      ]
+    }
+  ],
+  "continentNames": {
+    "america": "América",
+    "europe": "Europa",
+    "asia": "Asia",
+    "africa": "África",
+    "oceania": "Oceanía",
+    "antarctica": "Antártida"
+  },
+  "oceanSet": [
+    "pacific",
+    "atlantic",
+    "indian",
+    "arctic",
+    "southern"
+  ],
+  "oceanNames": {
+    "pacific": "Océano Pacífico",
+    "atlantic": "Océano Atlántico",
+    "indian": "Océano Índico",
+    "arctic": "Océano Glacial Ártico",
+    "southern": "Océano Glacial Antártico"
+  },
+  "setSource": "SEP, libros de texto de Geografía de primaria (4.º grado) y Atlas de geografía del mundo: seis continentes (América como uno solo) y cinco océanos",
+  "mnemonic": "Nunca Estés Sin Orden",
+  "refuse": [],
+  "instructionBans": {},
+  "strings": {
+    "base": {
+      "title": "Lee la simbología del mapa",
+      "instruction": "Mira la simbología, busca cada cosa en el mapa y escribe en el cuadro cuántas hay."
+    },
+    "top-view": {
+      "title": "Vista de lado y vista desde arriba",
+      "instruction": "Cada cosa está dibujada de lado: únela con una línea con la misma cosa vista desde arriba."
+    },
+    "compass-rose": {
+      "title": "Puntos cardinales: completa la rosa de los vientos",
+      "instruction": "Cada rosa de los vientos muestra una letra: escribe las otras tres en los cuadros vacíos."
+    },
+    "continents": {
+      "title": "Los continentes: escribe sus nombres",
+      "instruction": "Escribe en su línea el nombre de cada continente con número, usando los nombres del recuadro."
+    },
+    "continents-oceans": {
+      "title": "Continentes y océanos del mundo",
+      "instruction": "Busca en el mapa cada continente y cada océano y escribe su número en el cuadro junto a su nombre."
+    },
+    "directions-on-map": {
+      "title": "Puntos cardinales en el mapa",
+      "instruction": "Busca el primer dibujo en el mapa, mira hacia donde dice la palabra y rodea, de los tres dibujos, el que está en esa dirección."
+    }
+  }
+}

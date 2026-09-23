@@ -1,0 +1,82 @@
+{
+  "stageWords": {
+    "butterfly": {
+      "egg": "huevo",
+      "larva": "oruga",
+      "pupa": "crisálida",
+      "adult": "mariposa"
+    }
+  },
+  "decoy": {
+    "frog.tadpole": "renacuajo"
+  },
+  "landingWords": {
+    "frog": {
+      "spawn": "huevos de rana",
+      "tadpole": "renacuajo",
+      "legged": "renacuajo con patas",
+      "froglet": "ranita",
+      "adult": "rana"
+    },
+    "ladybird": {
+      "egg": "huevo",
+      "larva": "larva",
+      "pupa": "pupa",
+      "adult": "catarina"
+    }
+  },
+  "statements": {
+    "egg": "Nace de un huevo.",
+    "change": "Sus crías se ven muy distintas a los adultos.",
+    "pupa": "Pasa una etapa como crisálida.",
+    "wings": "De adulto tiene alas.",
+    "sixlegs": "De adulto tiene seis patas.",
+    "nectar": "De adulto toma el néctar de las flores.",
+    "tail": "De cría nada con una cola.",
+    "water": "De cría vive en el agua.",
+    "nolegs": "Al nacer no tiene patas.",
+    "fourlegs": "De adulto tiene cuatro patas.",
+    "insects": "De adulto atrapa insectos para comer."
+  },
+  "drop": [],
+  "familyName": "Ciclo de vida de los animales",
+  "spawnForm": "clump",
+  "forbidden": [
+    "capullo",
+    "capullos"
+  ],
+  "genreBare": [
+    "ciclo de vida",
+    "ciclos de vida"
+  ],
+  "pictureWord": "dibujo",
+  "instructionBans": {},
+  "bannedAnimals": [],
+  "refuse": [],
+  "strings": {
+    "G1-377": {
+      "title": "Ciclo de vida de la mariposa",
+      "instruction": "El huevo es el 1: escribe 2, 3 y 4 en los cuadros según crece, y en el último cuadro el número del dibujo que sigue después de la mariposa."
+    },
+    "G1-389": {
+      "title": "Ciclo de vida de la rana para recortar y pegar",
+      "instruction": "Recorta los cuatro cuadros y pega cada uno en su nenúfar, dando la vuelta al estanque desde los huevos hasta la rana."
+    },
+    "G2-365": {
+      "title": "Ciclo de vida de la mariposa: escribe las etapas",
+      "instruction": "Escribe cada nombre del banco de palabras en la línea bajo su dibujo y tacha el nombre que no corresponde."
+    },
+    "G2-366": {
+      "title": "Metamorfosis: ¿en qué animal se convertirá?",
+      "instruction": "Mira cada animal joven y escribe su letra en un cuadro bajo el animal adulto en el que se convertirá."
+    },
+    "G3-393": {
+      "title": "Compara el ciclo de vida de la mariposa y de la rana",
+      "instruction": "Lee cada oración y marca la mariposa, la rana o las dos cuando la oración sea cierta para ese animal."
+    },
+    "G1-390": {
+      "title": "¿Qué sigue? Mariposa, rana y catarina",
+      "instruction": "Mira el primer dibujo de cada fila y rodea el que sigue justo después."
+    }
+  }
+}

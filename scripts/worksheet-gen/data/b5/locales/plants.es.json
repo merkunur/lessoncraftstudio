@@ -1,0 +1,80 @@
+{
+  "partWords": {
+    "root": "raíz",
+    "stem": "tallo",
+    "leaf": "hoja",
+    "flower": "flor",
+    "fruit": "fruto",
+    "seed": "semilla"
+  },
+  "flowerWords": {
+    "petal": "pétalo",
+    "sepal": "sépalo",
+    "stamen": "estambre",
+    "pistil": "pistilo",
+    "stalk": "tallo",
+    "ovary": "ovario"
+  },
+  "jobs": {
+    "root": "absorbe el agua de la tierra",
+    "stem": "sostiene la planta derecha",
+    "leaf": "fabrica el alimento de la planta con la luz del sol",
+    "flower": "atrae a las abejas con sus colores",
+    "seed": "puede crecer y convertirse en una planta nueva"
+  },
+  "partStems": [
+    "raíz",
+    "raíces",
+    "tallo",
+    "tallos",
+    "hoja",
+    "hojas",
+    "flor",
+    "flores",
+    "fruto",
+    "frutos",
+    "semilla",
+    "semillas",
+    "pétalo",
+    "pétalos",
+    "fruta",
+    "frutas",
+    "florece"
+  ],
+  "forbidden": [
+    "fruta",
+    "verdura",
+    "tronco",
+    "botón",
+    "capullo"
+  ],
+  "refuseItems": [],
+  "refuse": [],
+  "instructionBans": {},
+  "strings": {
+    "base": {
+      "title": "Partes de la planta para completar",
+      "instruction": "Sigue cada etiqueta con número hasta una parte de la planta y escribe su nombre, del banco de palabras, en la línea con el mismo número."
+    },
+    "needs": {
+      "title": "¿Qué necesitan las plantas para crecer?",
+      "instruction": "Mira lo que recibe cada planta y rodea la planta que tiene las dos cosas que necesita para crecer."
+    },
+    "cycle": {
+      "title": "Ciclo de vida de las plantas: de la semilla a la planta",
+      "instruction": "Recorta los cuatro dibujos y pega cada uno en el siguiente cuadro vacío, siguiendo las flechas desde la semilla."
+    },
+    "eat": {
+      "title": "Partes de la planta que comemos",
+      "instruction": "Mira cada alimento y rodea la parte de la planta que nos comemos."
+    },
+    "jobs": {
+      "title": "Partes de la planta y sus funciones",
+      "instruction": "Lee lo que hace cada parte, búscala en la planta y escribe en el cuadro el número de su etiqueta."
+    },
+    "flower": {
+      "title": "Partes de la flor",
+      "instruction": "Escribe en su línea el nombre de cada parte numerada de la flor y tacha la palabra del banco que no es parte de una flor."
+    }
+  }
+}

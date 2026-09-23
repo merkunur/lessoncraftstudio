@@ -4303,82 +4303,102 @@
       },
       "2d-shapes": {
         "slug": {
-          "en": "2d-shapes"
+          "en": "2d-shapes",
+          "es": "figuras-geometricas-planas"
         },
         "name": {
-          "en": "2D Shapes"
+          "en": "2D Shapes",
+          "es": "Figuras geométricas planas"
         }
       },
       "road-safety": {
         "slug": {
-          "en": "road-safety"
+          "en": "road-safety",
+          "es": "educacion-vial"
         },
         "name": {
-          "en": "Road Safety"
+          "en": "Road Safety",
+          "es": "Educación vial"
         }
       },
       "family": {
         "slug": {
-          "en": "family"
+          "en": "family",
+          "es": "miembros-de-la-familia"
         },
         "name": {
-          "en": "Family Members"
+          "en": "Family Members",
+          "es": "Miembros de la familia"
         }
       },
       "plants": {
         "slug": {
-          "en": "plants"
+          "en": "plants",
+          "es": "partes-de-la-planta"
         },
         "name": {
-          "en": "Parts of a Plant"
+          "en": "Parts of a Plant",
+          "es": "Partes de la planta"
         }
       },
       "animal-life-cycles": {
         "slug": {
-          "en": "animal-life-cycles"
+          "en": "animal-life-cycles",
+          "es": "ciclo-de-vida-de-los-animales"
         },
         "name": {
-          "en": "Animal Life Cycles"
+          "en": "Animal Life Cycles",
+          "es": "Ciclo de vida de los animales"
         }
       },
       "earth-and-space": {
         "slug": {
-          "en": "earth-and-space"
+          "en": "earth-and-space",
+          "es": "sistema-solar-y-fases-de-la-luna"
         },
         "name": {
-          "en": "Sun, Moon and Planets"
+          "en": "Sun, Moon and Planets",
+          "es": "Sistema solar y fases de la luna"
         }
       },
       "maps": {
         "slug": {
-          "en": "maps"
+          "en": "maps",
+          "es": "mapas-y-puntos-cardinales"
         },
         "name": {
-          "en": "Map Skills"
+          "en": "Map Skills",
+          "es": "Mapas y puntos cardinales"
         }
       },
       "digraphs": {
         "slug": {
-          "en": "digraphs"
+          "en": "digraphs",
+          "es": "digrafos"
         },
         "name": {
-          "en": "Digraphs"
+          "en": "Digraphs",
+          "es": "Dígrafos"
         }
       },
       "synonyms": {
         "slug": {
-          "en": "synonyms"
+          "en": "synonyms",
+          "es": "sinonimos"
         },
         "name": {
-          "en": "Synonyms"
+          "en": "Synonyms",
+          "es": "Sinónimos"
         }
       },
       "word-parts": {
         "slug": {
-          "en": "word-parts"
+          "en": "word-parts",
+          "es": "palabras-primitivas-y-derivadas"
         },
         "name": {
-          "en": "Prefixes, Suffixes and Root Words"
+          "en": "Prefixes, Suffixes and Root Words",
+          "es": "Palabras primitivas y derivadas"
         }
       }
     },

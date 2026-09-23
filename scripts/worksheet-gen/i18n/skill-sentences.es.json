@@ -378,5 +378,45 @@
   "rounding": {
     "full": "Redondeo de números a la decena y a la centena para tercer grado: aplicar la regla del 5, clasificar hacia arriba o hacia abajo, estimar sumas y encontrar números redondeados.",
     "short": "Redondear números a la decena y a la centena"
+  },
+  "2d-shapes": {
+    "full": "Figuras geométricas planas para preescolar y primer grado: nombrar el círculo, el cuadrado, el triángulo y el rectángulo, adivinanzas, figuras en objetos y dibujar con puntos.",
+    "short": "Nombrar y reconocer figuras geométricas planas"
+  },
+  "road-safety": {
+    "full": "Educación vial para preescolar y primaria: el semáforo, cómo cruzar la calle, señales de tránsito preventivas y restrictivas de México y su significado.",
+    "short": "El semáforo y las señales de tránsito para niños"
+  },
+  "family": {
+    "full": "Los miembros de la familia para preescolar y primaria: quién es quién, las generaciones, palabras para repasar, pistas y adivinanzas del árbol genealógico.",
+    "short": "Miembros de la familia y árbol genealógico"
+  },
+  "plants": {
+    "full": "Partes de la planta para primer grado: raíz, tallo, hoja, flor, fruto y semilla, sus funciones, lo que necesitan para crecer y su ciclo de vida.",
+    "short": "Partes de la planta y sus funciones"
+  },
+  "animal-life-cycles": {
+    "full": "Ciclo de vida de la mariposa y de la rana para primaria: ordenar las etapas, escribir sus nombres, metamorfosis y comparar los dos ciclos.",
+    "short": "Ciclo de vida de la mariposa y de la rana"
+  },
+  "earth-and-space": {
+    "full": "El Sol, la Tierra y la Luna para primaria: fases de la luna, por qué hay día y noche, y los planetas del sistema solar en orden y por tamaño.",
+    "short": "Fases de la luna y planetas del sistema solar"
+  },
+  "maps": {
+    "full": "Mapas para primaria: leer la simbología, vista desde arriba, puntos cardinales norte, sur, este y oeste, continentes y océanos del mundo.",
+    "short": "Simbología, puntos cardinales y continentes"
+  },
+  "digraphs": {
+    "full": "Dígrafos: dos letras que suenan como un solo sonido. En español ll, rr, qu y gu se trabajan en reglas de ortografía.",
+    "short": "Dígrafos: dos letras, un sonido"
+  },
+  "synonyms": {
+    "full": "Sinónimos para primer y segundo grado: rodear la palabra que significa lo mismo, parejas de sinónimos, sinónimos con imágenes y de dice, y campos semánticos.",
+    "short": "Sinónimos para primaria"
+  },
+  "word-parts": {
+    "full": "Palabras primitivas y derivadas para segundo grado: ordenar por la palabra primitiva, encontrarla en tres palabras, prefijos re-, pre- y sobre- y oraciones.",
+    "short": "Palabras primitivas, derivadas y prefijos"
   }
 }

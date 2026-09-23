@@ -84,6 +84,12 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     no: 'Naturfag',
     fi: 'Ympäristöoppi',
   },
+  // nt10-E social-studies printable families (road-safety, maps, family): en is a readiness class (no CCSS code);
+  // each locale's literal is added by tools/apply-b5-locale.js from its native panel (strandNames['Social Studies']).
+  'Social Studies': {
+    en: 'Social Studies',
+    es: 'Ética, naturaleza y sociedades', // nt10-E panel (tools/apply-b5-locale.js)
+  },
   // Grown incrementally as the K.MD.A.2 "Comparing Length" activity fans out
   // per locale (each ship adds its sub-key). Absent locales fall back to en.
   'Measurement & Data': {

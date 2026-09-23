@@ -1,0 +1,168 @@
+{
+  "_measuredBy": "tools/measure-cursive-metrics.js (Chromium canvas TextMetrics over assets/fonts/cursive-fonts.css, per-em ratios)",
+  "cursive-us-trad": {
+    "xHeight": 0.5313,
+    "xDescender": 0.0156,
+    "ascender": 1.0313,
+    "descender": 0.5313,
+    "cap": 1.0938,
+    "capDescender": 0.5313,
+    "accCap": 1.2969,
+    "lineAscent": 1.428,
+    "lineDescent": 0.504
+  },
+  "cursive-us-modern": {
+    "xHeight": 0.5313,
+    "xDescender": 0.0313,
+    "ascender": 0.9688,
+    "descender": 0.4688,
+    "cap": 0.9688,
+    "capDescender": 0.2031,
+    "accCap": 1.2344,
+    "lineAscent": 1.352,
+    "lineDescent": 0.44
+  },
+  "cursive-de-va": {
+    "xHeight": 0.5156,
+    "xDescender": 0.0156,
+    "ascender": 1,
+    "descender": 0.5,
+    "cap": 1,
+    "capDescender": 0.5,
+    "accCap": 1.2803,
+    "lineAscent": 1.402,
+    "lineDescent": 0.482
+  },
+  "cursive-de-la": {
+    "xHeight": 0.5313,
+    "xDescender": 0.0313,
+    "ascender": 0.9375,
+    "descender": 0.4375,
+    "cap": 0.9688,
+    "capDescender": 0.4375,
+    "accCap": 1.2188,
+    "lineAscent": 1.33,
+    "lineDescent": 0.421
+  },
+  "cursive-de-sas": {
+    "xHeight": 0.5313,
+    "xDescender": 0.0156,
+    "ascender": 0.9063,
+    "descender": 0.4063,
+    "cap": 0.9375,
+    "capDescender": 0.4063,
+    "accCap": 1.1875,
+    "lineAscent": 1.291,
+    "lineDescent": 0.388
+  },
+  "cursive-mx": {
+    "xHeight": 0.5313,
+    "xDescender": 0.0313,
+    "ascender": 1.0313,
+    "descender": 0.5313,
+    "cap": 1.0938,
+    "capDescender": 0.5313,
+    "accCap": 1.2969,
+    "lineAscent": 1.428,
+    "lineDescent": 0.504
+  },
+  "cursive-br": {
+    "xHeight": 0.5313,
+    "xDescender": 0.0156,
+    "ascender": 1.1563,
+    "descender": 0.6563,
+    "cap": 1.2344,
+    "capDescender": 0.6563,
+    "accCap": 1.4375,
+    "lineAscent": 1.588,
+    "lineDescent": 0.639
+  },
+  "cursive-fr-moderne": {
+    "xHeight": 0.5156,
+    "xDescender": 0.0156,
+    "ascender": 1.125,
+    "descender": 0.625,
+    "cap": 1.125,
+    "capDescender": 0.2344,
+    "accCap": 1.4063,
+    "lineAscent": 1.55,
+    "lineDescent": 0.607
+  },
+  "cursive-fr-trad": {
+    "xHeight": 0.5313,
+    "xDescender": 0.0156,
+    "ascender": 1.4375,
+    "descender": 0.9375,
+    "cap": 1.4375,
+    "capDescender": 0.9375,
+    "accCap": 1.7178,
+    "lineAscent": 1.927,
+    "lineDescent": 0.925
+  },
+  "cursive-it-moderna": {
+    "xHeight": 0.5313,
+    "xDescender": 0.0156,
+    "ascender": 0.9063,
+    "descender": 0.4063,
+    "cap": 0.9063,
+    "capDescender": 0.1875,
+    "accCap": 1.1719,
+    "lineAscent": 1.275,
+    "lineDescent": 0.375
+  },
+  "cursive-it-trad": {
+    "xHeight": 0.5313,
+    "xDescender": 0.0156,
+    "ascender": 0.9844,
+    "descender": 0.4844,
+    "cap": 1.0469,
+    "capDescender": 0.4844,
+    "accCap": 1.2656,
+    "lineAscent": 1.378,
+    "lineDescent": 0.462
+  },
+  "cursive-nl": {
+    "xHeight": 0.5313,
+    "xDescender": 0.0313,
+    "ascender": 1.2969,
+    "descender": 0.7969,
+    "cap": 1.3125,
+    "capDescender": 0.7969,
+    "accCap": 1.5771,
+    "lineAscent": 1.762,
+    "lineDescent": 0.786
+  },
+  "cursive-no": {
+    "xHeight": 0.5313,
+    "xDescender": 0.0156,
+    "ascender": 1,
+    "descender": 0.5,
+    "cap": 1,
+    "capDescender": 0.5,
+    "accCap": 1.2656,
+    "lineAscent": 1.391,
+    "lineDescent": 0.473
+  },
+  "cursive-dk-loopet": {
+    "xHeight": 0.5156,
+    "xDescender": 0.0156,
+    "ascender": 0.9063,
+    "descender": 0.4063,
+    "cap": 0.8906,
+    "capDescender": 0.1094,
+    "accCap": 1.1719,
+    "lineAscent": 1.275,
+    "lineDescent": 0.375
+  },
+  "cursive-dk-uloopet": {
+    "xHeight": 0.5156,
+    "xDescender": 0.0156,
+    "ascender": 0.9063,
+    "descender": 0.4063,
+    "cap": 0.8906,
+    "capDescender": 0.1094,
+    "accCap": 1.1719,
+    "lineAscent": 1.275,
+    "lineDescent": 0.375
+  }
+}

@@ -1,6 +1,6 @@
 # nt5-F — 5 new printable worksheet types × (1 base + 5 variations) × 11 locales (operator /goal 2026-09-23)
 
-**Status: DESIGN IN PROGRESS 2026-09-23.** Selection locked by the operator (cursive-writing · story-sequencing · healthy-habits · habitats · sink-or-float); four panels + two harvest rounds done (`_PANEL-FINDINGS.md`); design studio running (`_work/<ID>-{pedagogy,design-A,design-B}.md` → critic → final `<ID>-<key>.md`). Phase C spine cloned (`tools/_clone-b6-spine.js`, baseline 0 drift), five keys registered EN (taxonomy 140). Cursive fonts vendored (`scripts/worksheet-gen/assets/fonts/cursive/`, OFL). Plan: `C:\Users\rkgen\.claude\plans\lovely-crafting-summit.md`. Memory: `project_nt5f_worksheet_types.md`.
+**Status: DESIGN COMPLETE 2026-09-23 (`a634bc46`: five finals). BUILD IN PROGRESS — Phase C spine `8999f964`; Phase D EN bases running (one builder per family).** Cursive fonts vendored (`scripts/worksheet-gen/assets/fonts/cursive/`, OFL). Plan: `C:\Users\rkgen\.claude\plans\lovely-crafting-summit.md`. Memory: `project_nt5f_worksheet_types.md`.
 
 Operator brief (verbatim essentials): design + build 5 new types after analysing the existing ones, 5 pedagogically meaningful variations each, perfectly native in all 11 languages (rebuilt, never translated), top quality in every sense, expert pedagogy / content / several design agents, SEO ≥ 400 clicks/day (330 worksheets), and **when the user clicks the type in the /worksheets sidebar, all its worksheets must show.**
 

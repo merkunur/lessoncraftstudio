@@ -927,6 +927,30 @@
     "title": "Digraph Sort for Kindergarten: sh or ch",
     "instruction": "Say each picture's name. Draw a line from each picture to the letter team you hear."
   },
+  "K-379": {
+    "title": "Story Sequencing: Number the Pictures",
+    "instruction": "Look at what changes in each story, then write the numbers in the boxes to put the pictures in order."
+  },
+  "K-380": {
+    "title": "Healthy Habits: What Does Each Child Need?",
+    "instruction": "Draw a line from each child to the thing that child needs."
+  },
+  "K-381": {
+    "title": "Story Sequencing Cut and Paste: First, Next, Last",
+    "instruction": "Cut out each strip's pictures and glue them on their story line under First, Next and Last."
+  },
+  "K-382": {
+    "title": "Hand Washing Steps",
+    "instruction": "Write 1 to 5 in the boxes to show how we wash our hands."
+  },
+  "K-383": {
+    "title": "Animal Homes",
+    "instruction": "Draw a line from each animal to its home."
+  },
+  "K-384": {
+    "title": "Draw What Floats and Sinks: A Sink or Float Experiment",
+    "instruction": "Draw two things that float on the water and two things that sink to the bottom."
+  },
   "G1-101": {
     "title": "Add the Pictures",
     "instruction": "Count both groups. Write how many altogether."
@@ -1863,6 +1887,50 @@
     "title": "Root Words with Pictures: Circle the Word",
     "instruction": "Name each picture, then circle the one word above it that is built from that picture word."
   },
+  "G1-398": {
+    "title": "Animal Habitats: Match the Animal",
+    "instruction": "Look at the habitats. Under each animal, write the letter of the habitat where it lives."
+  },
+  "G1-399": {
+    "title": "Sink or Float Experiment: Predict and Test",
+    "instruction": "Color a ring in the first tank before the test, a ring in the second tank after it, and the star if you were surprised."
+  },
+  "G1-400": {
+    "title": "Story Sequencing: What Happens Next?",
+    "instruction": "Look at each story's three pictures and circle the picture in the box that comes next."
+  },
+  "G1-401": {
+    "title": "Beginning, Middle and End of a Story",
+    "instruction": "Look at the beginning and the end of each story and draw what happens in the middle frame."
+  },
+  "G1-402": {
+    "title": "Story Sequencing Sentences: Match the Pictures",
+    "instruction": "Read each story's sentences and draw a line from every sentence to its picture."
+  },
+  "G1-403": {
+    "title": "Brushing Teeth: Before, During and After",
+    "instruction": "Circle the word that tells when it happens: before, during or after brushing."
+  },
+  "G1-404": {
+    "title": "Stop the Germs: Choose the Healthy Way",
+    "instruction": "In each row, circle the picture that stops germs from spreading."
+  },
+  "G1-405": {
+    "title": "Healthy Habits Chart for the Week",
+    "instruction": "Each day, put a check in the box for every habit you did."
+  },
+  "G1-406": {
+    "title": "Who Does Not Live Here?",
+    "instruction": "Look at each habitat. Cross out the animal that does not live there."
+  },
+  "G1-407": {
+    "title": "What Animals Need",
+    "instruction": "For each animal, circle the food it eats and the home it lives in."
+  },
+  "G1-408": {
+    "title": "Heavy or Light? A Sink or Float Experiment With a Scale",
+    "instruction": "The scale shows which thing is heavier: circle the thing that floats in water."
+  },
   "G2-203": {
     "title": "Add the Blocks",
     "instruction": "Add the two block groups. Write the total."
@@ -2519,6 +2587,50 @@
     "title": "Prefixes re-, pre- and mis-: Pick by Meaning",
     "instruction": "Read what each new word means, find its prefix in the key and write it in the empty piece."
   },
+  "G2-377": {
+    "title": "Cursive Letters: i, t, u and w",
+    "instruction": "Trace the grey letters, then keep writing each letter joined on your own to the end of its line and on the empty line below."
+  },
+  "G2-378": {
+    "title": "Retell the Story with Starters",
+    "instruction": "Write what happens in each picture on its lines, starting with the word printed on the first line."
+  },
+  "G2-379": {
+    "title": "Healthy Habits: Why Do We Do Them?",
+    "instruction": "Draw a line from each habit to the sentence that tells why we do it."
+  },
+  "G2-380": {
+    "title": "How Animals Adapt",
+    "instruction": "Read each sentence. Write the letter of the animal it tells about in the box."
+  },
+  "G2-381": {
+    "title": "My Habitat Report",
+    "instruction": "Draw three animals that live in this habitat and write their names. Write a plant that grows there. Circle the words that fit."
+  },
+  "G2-382": {
+    "title": "Make Clay Float: A Change the Shape Experiment",
+    "instruction": "Color where each clay shape ends up, circle the thing that floats, then draw your own clay boat on the water."
+  },
+  "G2-383": {
+    "title": "Sink or Float Experiment: True or False, Why Things Float",
+    "instruction": "Read each sentence and circle true or false."
+  },
+  "G2-384": {
+    "title": "Cursive Capital Letters: Write the Names",
+    "instruction": "Trace each grey capital letter and name, then write them on the empty line below."
+  },
+  "G2-385": {
+    "title": "Cursive Connecting Letters: Joining Two Letters",
+    "instruction": "Trace each grey pair of joined letters and the word, then write them on the empty line below."
+  },
+  "G2-386": {
+    "title": "Cursive Words to Write with Pictures",
+    "instruction": "Trace each grey word without lifting your pencil, then write it. Add the dots and crosses last."
+  },
+  "G2-387": {
+    "title": "Reading Cursive: Match Each Word to Its Picture",
+    "instruction": "Read each word in cursive and draw a line to its picture."
+  },
   "G3-301": {
     "title": "Big Arrays",
     "instruction": "Count the rows of pictures. Write how many in all."
@@ -2870,5 +2982,13 @@
   "G3-399": {
     "title": "Root Words in Sentences",
     "instruction": "Write the four words above each stone into the sentences below it, one word in each gap."
+  },
+  "G3-400": {
+    "title": "Sink or Float Investigation: My Lab Report",
+    "instruction": "Choose a question, write what you think, test it, then draw what happened and write what you learned."
+  },
+  "G3-401": {
+    "title": "Cursive Sentences to Copy",
+    "instruction": "Copy each printed sentence in cursive on the two lines below it. Trace the grey sentence first."
   }
 }

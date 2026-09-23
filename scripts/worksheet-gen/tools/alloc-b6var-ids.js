@@ -8,7 +8,7 @@
  * K-381+ · G1-400+ · G2-378+ · G3-400+ in file order. Deterministic, so twenty
  * builders working in parallel cannot collide. Writes
  * docs/worksheet-gen/b6-designs/_records/b6var-id-allocation.json and refuses if the
- * count is not exactly 50 or an id block would overlap a shipped spec on disk.
+ * count is not exactly 25 or an id block would overlap a shipped spec on disk.
  */
 'use strict';
 const fs = require('fs');
@@ -44,7 +44,7 @@ for (const fam of FAMILIES) {
     out.push({ family: fam, key: file.replace(/^[A-Z0-9]+-[0-9]+-/, '').replace(/\.md$/, ''), face: i + 1, band, dir: DIR[band], id, title, heading: h.slice(4) });
   });
 }
-if (out.length !== 50) throw new Error('expected 50 faces, got ' + out.length);
+if (out.length !== 25) throw new Error('expected 25 faces, got ' + out.length);
 // refuse if any allocated id already exists on disk as a spec
 for (const r of out) {
   const hit = fs.readdirSync(path.join(ROOT, 'types', r.dir)).find((f) => f.startsWith(r.id + '-'));
@@ -53,5 +53,5 @@ for (const r of out) {
 const recDir = path.join(DESIGNS, '_records'); fs.mkdirSync(recDir, { recursive: true });
 fs.writeFileSync(path.join(recDir, 'b6var-id-allocation.json'), JSON.stringify({ generated: new Date().toISOString().slice(0, 10), next: NEXT, faces: out }, null, 1) + '\n');
 const per = {}; for (const r of out) per[r.band] = (per[r.band] || 0) + 1;
-console.log('allocated 50 face ids:', per, '→ next free', NEXT);
+console.log('allocated 25 face ids:', per, '→ next free', NEXT);
 for (const fam of FAMILIES) console.log('  ' + fam.padEnd(7) + out.filter((r) => r.family === fam).map((r) => r.id).join(' '));

@@ -1,0 +1,261 @@
+{
+ "generated": "2026-09-23",
+ "next": {
+  "K": 385,
+  "G1": 409,
+  "G2": 388,
+  "G3": 402
+ },
+ "faces": [
+  {
+   "family": "K-379",
+   "key": "story-sequencing",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-381",
+   "title": "Story Sequencing Cut and Paste: First, Next, Last",
+   "heading": "F1 : Story Sequencing Cut and Paste: First, Next, Last (K, CODE `mode:'first-next-last-cut'`)"
+  },
+  {
+   "family": "K-379",
+   "key": "story-sequencing",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-400",
+   "title": "Story Sequencing: What Happens Next?",
+   "heading": "F2 : Story Sequencing: What Happens Next? (G1, CODE `mode:'what-happens-next'`)"
+  },
+  {
+   "family": "K-379",
+   "key": "story-sequencing",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-401",
+   "title": "Beginning, Middle and End of a Story",
+   "heading": "F3 : Beginning, Middle and End of a Story (G1, CODE `mode:'beginning-middle-end'`)"
+  },
+  {
+   "family": "K-379",
+   "key": "story-sequencing",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-402",
+   "title": "Story Sequencing Sentences: Match the Pictures",
+   "heading": "F4 : Story Sequencing Sentences: Match the Pictures (G1, CODE `mode:'sequencing-sentences'`)"
+  },
+  {
+   "family": "K-379",
+   "key": "story-sequencing",
+   "face": 5,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-378",
+   "title": "Retell the Story with Starters",
+   "heading": "F5 : Retell the Story with Starters (G2, CODE `mode:'retell-with-starters'`)"
+  },
+  {
+   "family": "K-380",
+   "key": "healthy-habits",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-382",
+   "title": "Hand Washing Steps",
+   "heading": "F1 : Hand Washing Steps (K, `K-3xx (TBD by the emitter)`, CODE `mode:'hand-washing-steps'`)"
+  },
+  {
+   "family": "K-380",
+   "key": "healthy-habits",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-403",
+   "title": "Brushing Teeth: Before, During and After",
+   "heading": "F2 : Brushing Teeth: Before, During and After (G1, `G1-4xx (TBD by the emitter)`, CODE `mode:'brushing-teeth'`)"
+  },
+  {
+   "family": "K-380",
+   "key": "healthy-habits",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-404",
+   "title": "Stop the Germs: Choose the Healthy Way",
+   "heading": "F3 : Stop the Germs: Choose the Healthy Way (G1, `G1-4xx (TBD by the emitter)`, CODE `mode:'stop-the-germs'`)"
+  },
+  {
+   "family": "K-380",
+   "key": "healthy-habits",
+   "face": 4,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-379",
+   "title": "Healthy Habits: Why Do We Do Them?",
+   "heading": "F4 : Healthy Habits: Why Do We Do Them? (G2, `G2-3xx (TBD by the emitter)`, CODE `mode:'why-habits'`)"
+  },
+  {
+   "family": "K-380",
+   "key": "healthy-habits",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-405",
+   "title": "Healthy Habits Chart for the Week",
+   "heading": "F5 : Healthy Habits Chart for the Week (G1, `G1-4xx (TBD by the emitter)`, CODE `mode:'habit-chart'`, OPEN)"
+  },
+  {
+   "family": "G1-398",
+   "key": "habitats",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-383",
+   "title": "Animal Homes",
+   "heading": "F1 : Animal Homes (K, CODE `layout:'homes'`)"
+  },
+  {
+   "family": "G1-398",
+   "key": "habitats",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-406",
+   "title": "Who Does Not Live Here?",
+   "heading": "F2 : Who Does Not Live Here? (G1, CODE `layout:'odd'`)"
+  },
+  {
+   "family": "G1-398",
+   "key": "habitats",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-380",
+   "title": "How Animals Adapt",
+   "heading": "F3 : How Animals Adapt (G2, CODE `layout:'adapt'`)"
+  },
+  {
+   "family": "G1-398",
+   "key": "habitats",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-407",
+   "title": "What Animals Need",
+   "heading": "F4 : What Animals Need (G1, CODE `layout:'needs'`)"
+  },
+  {
+   "family": "G1-398",
+   "key": "habitats",
+   "face": 5,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-381",
+   "title": "My Habitat Report",
+   "heading": "F5 : My Habitat Report (G2, open, CODE `layout:'report'`)"
+  },
+  {
+   "family": "G1-399",
+   "key": "sink-or-float",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-408",
+   "title": "Heavy or Light?",
+   "heading": "F1 : Heavy or Light? (G1, CODE `layout:'scale'`)"
+  },
+  {
+   "family": "G1-399",
+   "key": "sink-or-float",
+   "face": 2,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-382",
+   "title": "Change the Shape",
+   "heading": "F2 : Change the Shape (G2, CODE `layout:'shape'`)"
+  },
+  {
+   "family": "G1-399",
+   "key": "sink-or-float",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-383",
+   "title": "True or False: Why Things Float",
+   "heading": "F3 : True or False: Why Things Float (G2, CODE `layout:'truth'`)"
+  },
+  {
+   "family": "G1-399",
+   "key": "sink-or-float",
+   "face": 4,
+   "band": "K",
+   "dir": "k",
+   "id": "K-384",
+   "title": "Draw What Floats and Sinks",
+   "heading": "F4 : Draw What Floats and Sinks (K, CODE `layout:'draw'`)"
+  },
+  {
+   "family": "G1-399",
+   "key": "sink-or-float",
+   "face": 5,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-400",
+   "title": "My Sink or Float Investigation",
+   "heading": "F5 : My Sink or Float Investigation (G3, CODE `layout:'report'`)"
+  },
+  {
+   "family": "G2-377",
+   "key": "cursive-writing",
+   "face": 1,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-384",
+   "title": "Cursive Capitals with Names",
+   "heading": "F1 : Cursive Capitals with Names (G2, CODE `mode:'capitals'`)"
+  },
+  {
+   "family": "G2-377",
+   "key": "cursive-writing",
+   "face": 2,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-385",
+   "title": "Letter Connections",
+   "heading": "F2 : Letter Connections (G2, CODE `mode:'joins'`)"
+  },
+  {
+   "family": "G2-377",
+   "key": "cursive-writing",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-386",
+   "title": "Cursive Words with Pictures",
+   "heading": "F3 : Cursive Words with Pictures (G2, CODE `mode:'words'`)"
+  },
+  {
+   "family": "G2-377",
+   "key": "cursive-writing",
+   "face": 4,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-387",
+   "title": "Reading Cursive",
+   "heading": "F4 : Reading Cursive (G2, CODE `mode:'read'`)"
+  },
+  {
+   "family": "G2-377",
+   "key": "cursive-writing",
+   "face": 5,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-401",
+   "title": "Copy a Sentence in Cursive",
+   "heading": "F5 : Copy a Sentence in Cursive (G3, CODE `mode:'copy'`)"
+  }
+ ]
+}

@@ -96,6 +96,19 @@ function validateBank(block, loc, truth = HABITATS) {
     const low = t.normalize('NFC').toLocaleLowerCase(loc);
     for (const n of names) if (nameRe(n, loc).test(low)) e.push(`rule 6: ${loc} adapt.${c.key} names the animal "${n}"`);
   }
+  // rule 6b (fix round 1): NO place word inside any claim — the place gives the row away. The place words are every
+  // word (>= 3 letters) of the locale's tile labels + its optional `placeWords` list (en: desert, sea, ice, jungle …)
+  const placeWords = new Set([...Object.values(block.tileLabel || {}).flatMap((v) => String(v).normalize('NFC').toLocaleLowerCase(loc).split(/[^\p{L}]+/u)), ...(block.placeWords || []).map((w) => w.normalize('NFC').toLocaleLowerCase(loc))].filter((w) => w.length >= 3));
+  // optional `placeWordExempt` {word: reason}: a tile word that is ALSO an ordinary word the claims need (no: `vann`
+  // = lake AND water); a reason of >= 12 chars is required, so an exemption is always an audited decision
+  const exempt = new Set(Object.entries(block.placeWordExempt || {}).filter(([, why]) => typeof why === 'string' && why.trim().length >= 12).map(([w]) => w.normalize('NFC').toLocaleLowerCase(loc)));
+  for (const [w, why] of Object.entries(block.placeWordExempt || {})) if (typeof why !== 'string' || why.trim().length < 12) e.push(`rule 6b: ${loc} placeWordExempt.${w} needs a reason (>= 12 chars)`);
+  for (const c of truth.ADAPT) {
+    const t = block.adapt && block.adapt[c.key];
+    if (typeof t !== 'string' || (block.refuseClaims || []).includes(c.key)) continue;
+    const low = t.normalize('NFC').toLocaleLowerCase(loc);
+    for (const w of placeWords) if (!exempt.has(w) && nameRe(w, loc).test(low)) e.push(`rule 6b: ${loc} adapt.${c.key} names the place "${w}" (the place gives the row away)`);
+  }
   if (loc === 'en') { const c = block.adapt && block.adapt['camel-hump']; if (c && (!/\bfat\b/i.test(c) || /\bwater\b/i.test(c.split(/[,.:;]/)[0]))) e.push('rule 6: en camel-hump must say fat and never water in the hump clause'); }
   // rule 7 — needs (static)
   for (const [a, n] of Object.entries(truth.NEEDS)) {
@@ -127,6 +140,9 @@ function validateBank(block, loc, truth = HABITATS) {
     if (BARE_THEMES.includes(tl.replace(/[^\p{L} ]/gu, '').trim())) e.push(`rule 9: ${loc} ${k} title is a bare theme name`);
     if (loc === 'fi' && /^eläinten kodit\.?$/i.test(t.trim())) e.push('rule 9: fi title "Eläinten kodit" alone (the homeless-animal SERP)');
     if (!ins || ins.length > 150 || !/[.!?]$/.test(ins)) e.push(`rule 10: ${loc} ${k} instruction empty / > 150 / no end mark`);
+    // rule 10b (fix round 1): ONE child sentence — a terminal mark (. ! ? …) followed by a space and a capital is a
+    // second sentence (a numbered abbreviation like "z. B." is lower-case after its dot and passes)
+    if (/(?<!(?:^|[^\p{L}])\p{L})[.!?…]["»”]?\s+[¡¿]?\p{Lu}/u.test(ins.trim())) e.push(`rule 10b: ${loc} ${k} instruction is more than one sentence ("${ins}")`);
     if (loc === 'en' && FACE_BANS[face] && FACE_BANS[face].test(ins)) e.push(`rule 10: ${loc} ${k} instruction names apparatus not on its face (${FACE_BANS[face]})`);
     if (loc === 'en' && face === 'report' && !(/draw/i.test(ins) && /write/i.test(ins) && /circle/i.test(ins))) e.push('rule 10: en report instruction must draw + write + circle');
     if (ins.trim().toLocaleLowerCase(loc) === truth.G1_202_EN.instruction.toLowerCase()) e.push(`rule 10: ${loc} ${k} instruction is the G1-202 instruction`);
@@ -181,7 +197,10 @@ function composerSweep() {
 const LOCALE_SETS = {
   'de/sv/da/no/fi': { sets: { base: ['forest', 'meadow', 'pond', 'ocean'] } },
   es: { sets: { base: ['rainforest', 'forest', 'ocean', 'pond'] } },
-  pt: { sets: { base: ['rainforest', 'ocean', 'savanna', 'polar'] }, rainforestRegion: 'americas' },
+  // fix round 1: penguins and walruses also live at SEA (pt panel), so a page with an ocean AND a polar window has no
+  // polar animal with a single answer — the pt set WITH Polo must REFUSE the base (the design's OPEN 3 contingency:
+  // the pt panel drops Polo -> 3 windows); F2 still composes with it
+  pt: { sets: { base: ['rainforest', 'ocean', 'savanna', 'polar'] }, rainforestRegion: 'americas', expectBaseRefusal: true },
   'pt without Polo (OPEN 3)': { sets: { base: ['rainforest', 'ocean', 'savanna'] }, rainforestRegion: 'americas' },
 };
 function localeSetSweep() {
@@ -193,19 +212,20 @@ function localeSetSweep() {
     for (let k = 1; k <= 200; k++) {
       const rng = makeRng(instanceSeed({ typeId: 'G1-398', theme: null, difficulty: 2, seedEpoch: k }));
       try {
+        if (patch.expectBaseRefusal) { let threw = false; try { TYPE._compose(TYPE.difficulty[2], block, 'xx', rng); } catch (x) { threw = true; } ok(threw, `${name} base seed ${k}: composed although a page with ocean + polar has no single-answer polar animal`); if (threw) base++; throw new Error('skip'); }
         const c = TYPE._compose(TYPE.difficulty[2], block, 'xx', rng);
         for (const x of TYPE.pageOracle(c.windows, c.drawer, { rainforestRegion: block.rainforestRegion })) ok(false, `${name} base seed ${k}: ${x}`);
         const per = {}; c.drawer.forEach((a) => { per[a.answer] = (per[a.answer] || 0) + 1; });
         c.windows.forEach((w) => { minPool[w.habitat] = Math.min(minPool[w.habitat] || 9, per[w.letter] || 0); });
         base++;
-      } catch (x) { ok(false, `${name} base seed ${k}: the composer refused (${x.message})`); }
+      } catch (x) { if (x.message !== 'skip') ok(false, `${name} base seed ${k}: the composer refused (${x.message})`); }
       try {
         const m = TYPE._composeOdd(odd, block, 'xx', makeRng(instanceSeed({ typeId: 'G1-406', theme: null, difficulty: 2, seedEpoch: k })));
         for (const r of m.rows) for (const x of TYPE.oddRowOracle(r.habitat, r.residents, r.stranger, block.rainforestRegion || null)) ok(false, `${name} F2 seed ${k}: ${x}`);
         f2++;
       } catch (x) { ok(false, `${name} F2 seed ${k}: the composer refused (${x.message})`); }
     }
-    out.push(`  ${name}: base ${base}/200, F2 ${f2}/200 legal; fewest animals per window [${Object.entries(minPool).map(([h, v]) => h + ' ' + v).join(', ')}]`);
+    out.push(`  ${name}: base ${base}/200 ${patch.expectBaseRefusal ? 'REFUSED (expected)' : 'legal'}, F2 ${f2}/200 legal; fewest animals per window [${Object.entries(minPool).map(([h, v]) => h + ' ' + v).join(', ')}]`);
   }
   return out;
 }
@@ -297,6 +317,13 @@ async function main() {
   judge('P15 F1 woodpecker ↔ tree hole', validateBank(en, 'en', truthWith((t) => { t.HOMES.woodpecker = 'tree-hole'; })), /rule 8/);
   judge('P17 base instruction = the G1-202 instruction', validateBank({ ...en, strings: { ...en.strings, 'G1-398': { ...en.strings['G1-398'], instruction: 'Draw a line from each animal to where it lives.' } } }, 'en'), /rule 10: .*G1-202 instruction/);
   judge('P18 no tileLabel.pond "sjø"', validateBank({ ...en, tileLabel: { ...en.tileLabel, pond: 'sjø' } }, 'no'), /rule 11: no "sjø"/);
+  // fix round 1 poisons
+  judge('P1S a two-sentence instruction (fi-style block)', validateBank({ ...en, strings: { ...en.strings, 'G1-406': { ...en.strings['G1-406'], instruction: 'Katso jokaista riviä. Ruksaa eläin, joka ei asu siellä.' } } }, 'fi'), /rule 10b: fi G1-406 instruction is more than one sentence/);
+  judge('P1S2 control: one sentence with "z. B." passes rule 10b', validateBank({ ...en, strings: { ...en.strings, 'G1-406': { ...en.strings['G1-406'], instruction: 'Streiche in jeder Reihe das Tier durch, das z. B. nicht im Wald lebt.' } } }, 'de').filter((x) => /rule 10b/.test(x)).length ? ['rule 10b fired on a correct single sentence'] : ['CONTROL-OK'], /CONTROL-OK/);
+  judge('P5b a claim naming a place ("desert")', validateBank({ ...en, adapt: { ...en.adapt, 'camel-hump': 'Its hump stores fat, so it can go a long time without food in the desert.' } }, 'en'), /rule 6b: en adapt.camel-hump names the place "desert"/);
+  judge('P6X placeWordExempt: a lake word that also means water (control: must pass)', validateBank({ ...en, tileLabel: { ...en.tileLabel, pond: 'Water' }, adapt: { ...en.adapt, 'elephant-trunk': 'Its long trunk sucks up water and picks up food.' }, placeWordExempt: { water: 'the en test lake word also means water' } }, 'en').filter((x) => /rule 6b/.test(x)).length ? ['rule 6b fired on an exempt word'] : ['CONTROL-OK'], /CONTROL-OK/);
+  judge('P6Y the same without the exemption fails', validateBank({ ...en, tileLabel: { ...en.tileLabel, pond: 'Water' }, adapt: { ...en.adapt, 'elephant-trunk': 'Its long trunk sucks up water and picks up food.' } }, 'en'), /rule 6b: en adapt.elephant-trunk names the place "water"/);
+  judge('P2H the heron back in the pool', validateBank({ ...en, names: { ...en.names, heron: ['heron'] } }, 'en', addAnimal({ key: 'heron', pic: { theme: 'birds 2', noun: 'heron' }, lives: ['pond'] })), /rule 1: .*EXCLUDED/);
   judge('P19 fi F1 title "Eläinten kodit"', validateBank({ ...en, strings: { ...en.strings, 'K-383': { ...en.strings['K-383'], title: 'Eläinten kodit' } } }, 'fi'), /rule 9: fi title "Eläinten kodit"/);
 
   // --- render
@@ -337,9 +364,10 @@ async function main() {
     const rp = async (name, cfg, block, re) => { const o = await render(page, typeWith(block || en, { ...d2, ...cfg }), { name: 'poison' }); judge(name, o.qa.verify, re); };
     await rp('P1 penguin + walrus on one base page', { forcePage: { habitats: ['ocean', 'polar-antarctic', 'forest', 'meadow'], drawer: ['whale', 'penguin', 'deer', 'walrus', 'bee', 'shark', 'squirrel', 'ladybug'] } }, null, /Arctic and an Antarctic|meets 0 windows/);
     await rp('P2 duck on a page with an ocean window', { forcePage: { habitats: ['ocean', 'pond', 'forest', 'meadow'], drawer: ['whale', 'duck', 'deer', 'frog', 'bee', 'shark', 'squirrel', 'ladybug'] } }, null, /coastal bird/);
-    await rp('P4 frog on a page with a rainforest window', { forcePage: { habitats: ['rainforest', 'pond', 'forest', 'meadow'], drawer: ['toucan', 'frog', 'squirrel', 'beaver', 'grasshopper', 'sloth', 'dragonfly', 'macaw'] } }, null, /frog: lives \[pond,rainforest\] meets 2 windows/);   // the frog's tree-frog home is now an honest `lives` entry (generalist audit), not a notWithWindow rule
+    await rp('P4 frog on a page with a rainforest window', { forcePage: { habitats: ['rainforest', 'pond', 'forest', 'meadow'], drawer: ['toucan', 'frog', 'squirrel', 'beaver', 'grasshopper', 'sloth', 'dragonfly', 'macaw'] } }, null, /frog: lives \[pond,meadow,forest,rainforest\] meets \d windows/);   // the frog's tree-frog home is now an honest `lives` entry (generalist audit), not a notWithWindow rule
     await rp('P16 pt Amazônia page with a gorilla', { forcePage: { habitats: ['rainforest', 'ocean', 'savanna', 'polar-antarctic'], drawer: ['sloth', 'whale', 'gorilla', 'lion', 'penguin', 'shark', 'zebra', 'toucan'] } }, { ...en, rainforestRegion: 'americas' }, /not a americas rainforest animal/);
     await rp('PP a generalist answering through a secondary habitat (ladybug -> forest, no meadow)', { forcePage: { habitats: ['ocean', 'forest', 'pond', 'savanna'], drawer: ['whale', 'ladybug', 'frog', 'lion', 'shark', 'squirrel', 'beaver', 'zebra'] } }, null, /ladybug: answers through forest, not its primary habitat meadow/);
+    await rp('P4P a penguin on a base page with an ocean AND a polar window (penguins live at sea too)', { forcePage: { habitats: ['ocean', 'polar-antarctic', 'forest', 'savanna'], drawer: ['whale', 'penguin', 'deer', 'lion', 'shark', 'squirrel', 'zebra', 'crab'] } }, null, /penguin: lives \[polar-antarctic,ocean\] meets 2 windows/);
     await rp('PR1 answer letters ABCDABCD', { forcePage: { habitats: ['ocean', 'forest', 'meadow', 'savanna'], drawer: ['whale', 'deer', 'bee', 'lion', 'shark', 'squirrel', 'ladybug', 'zebra'] } }, null, /periodic/);
     await rp('PR2 per-window counts 2,2,2,2', { forcePage: { habitats: ['ocean', 'forest', 'meadow', 'savanna'], drawer: ['whale', 'deer', 'bee', 'lion', 'squirrel', 'shark', 'zebra', 'ladybug'] } }, null, /all-equal counts/);
     await rp('PR5 an animal name printed in the body', {}, { ...en, tileLabel: { ...en.tileLabel, ocean: 'Whale Ocean', pond: 'Frog Pond', forest: 'Deer Forest', meadow: 'Bee Meadow', savanna: 'Lion Savanna', rainforest: 'Sloth Rainforest', polar: 'Penguin Ice', 'polar-arctic': 'Walrus Arctic' } }, /name in body/);

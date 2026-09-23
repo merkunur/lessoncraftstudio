@@ -10,6 +10,6 @@ module.exports = {
   id: 'G1-400',
   slug: 'story-sequencing-what-happens-next',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Story Sequencing: What Happens Next?", instruction: "Look at each story's three pictures and circle the picture in the box that comes next." } },
+  i18n: { en: { title: "Story Sequencing: What Happens Next?", instruction: "Look at each story's three pictures, then circle the picture below them that belongs in the ? frame." } },
   gradeBand: "G1",
 };

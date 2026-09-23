@@ -60,6 +60,9 @@ const { waterTank } = require('../../primitives/water-tank.js');
 const { rulingBlock } = require('../../templates/components-b2.js');
 
 const ID = 'G1-399';
+/** Fix round 1 (the fr panel): page/shell.js adds French typography AT RENDER (U+00A0 before : ; ? ! », U+2060 in
+ * -t-il); every page-vs-bank text comparison normalises whitespace + joiners on BOTH sides (a real mismatch still fails). */
+const NT = (s) => String(s == null ? '' : s).replace(/\u2060/g, '').replace(/[\s\u00A0\u202F]+/g, ' ').trim();
 const KEY = 'sink-or-float';
 const BANK = 'sink-or-float';
 const BODY_W = 675, G1_FLOOR = 44, TRIES = 200;
@@ -151,7 +154,7 @@ const FACE = {
       if (stack > FACE_BODY) throw new Error(`${ID}: shape stack ${stack} > ${FACE_BODY}`);
       const forms = d.forceForms ? d.forceForms.slice() : rng.shuffle(d.forms.slice());
       const clay = forms.map((f) => C6.sfClayRow({ form: f, result: N.SHAPES[f], lumpW: d.lumpW, formW: d.formW, tank: d.tank, cardW: d.cardW }));
-      if (d.forceHalfBoat) { const i = forms.indexOf('boat'); clay[i] = clay[i].replace(/M 18 70 L 142 70 Q 134 112 80 114 Q 26 112 18 70 Z/, 'M 18 70 L 142 70 Q 134 88 80 90 Q 26 88 18 70 Z'); }
+      if (d.forceHalfBoat) { const i = forms.indexOf('boat'); clay[i] = clay[i].split(require('../../primitives/clay-form.js').BOAT_HULL).join('M 22 80 L 122 80 Q 142 78 148 66 L 132 96 L 30 96 Z'); }
       let transfer = '', tStamp = null;
       if (d.transfer) {
         const [sId, fId] = d.transfer;   // [sinker, floater]
@@ -244,6 +247,7 @@ const FACE = {
   async verify(page, layout) {
     const fails = await page.evaluate((L, FLOOR) => {
       const fails = [];
+      const NT = (s) => String(s == null ? '' : s).replace(/\u2060/g, '').replace(/[\s\u00A0\u202F]+/g, ' ').trim();
       const root = document.querySelector('[data-ws-content][data-lcs-type="sink-or-float"]');
       const rect = (el) => el.getBoundingClientRect();
       const all = (s, r) => [...(r || root).querySelectorAll(s)];
@@ -410,7 +414,7 @@ const FACE = {
         if (t.querySelector('image,text') || all('img').length) fails.push('a picture on the draw face');
         for (const [k, w] of [['float', root.dataset.lcsFloatWord], ['sink', root.dataset.lcsSinkWord]]) {
           const tag = root.querySelector(`[data-lcs-tag="${k}"]`), word = tag && tag.querySelector('[data-lcs-tag-word]');
-          if (!word || word.textContent !== w) { fails.push(`the ${k} tag ≠ its word`); continue; }
+          if (!word || NT(word.textContent) !== NT(w)) { fails.push(`the ${k} tag ≠ its word`); continue; }
           if (parseFloat(getComputedStyle(word).fontSize) < 20) fails.push(`the ${k} tag text under 20 px`);
           if (word.scrollWidth > word.clientWidth + 0.6 || rect(tag).right > rect(t).left + 0.3 * rect(t).width) fails.push(`the ${k} tag is clipped / leaves the tag column`);
           const c = (rect(tag).top + rect(tag).bottom) / 2, icon = tag.querySelector(`svg[data-lcs-pos-icon="${k}"]`);
@@ -451,17 +455,17 @@ const FACE = {
     let b = null;
     try { b = loadBank(BANK, got.loc); } catch (e) { fails.push(`no ${got.loc} bank for the cross-check: ${e.message}`); }
     if (b) {
-      for (const [id, truth, text] of got.tf) { if (!NEUTRAL.TF[id] || NEUTRAL.TF[id].truth !== truth) fails.push(`tf ${id}: stamped ${truth} ≠ the TF table`); if (!b.tf || b.tf[id] !== text) fails.push(`tf ${id}: prints "${text}" ≠ tf.${id}`); }
-      for (const [id, lab] of got.shelf) if (!b.labels || b.labels[id] !== lab) fails.push(`shelf ${id}: label "${lab}" ≠ labels.${id}`);
-      for (const [k, w] of got.tags) if ((k === 'float' ? b.floatWord : b.sinkWord) !== w) fails.push(`tag ${k} "${w}" ≠ the bank`);
-      for (const [q, t] of got.qs) if (!b.questions || b.questions[q] !== t) fails.push(`question ${q} "${t}" ≠ the bank`);
-      for (const [k, t] of got.heads) if (!b.report || b.report[k] !== t) fails.push(`section head ${k} "${t}" ≠ the bank`);
-      for (const s0 of got.starter) if (!b.report || b.report.starter !== s0) fails.push(`starter "${s0}" ≠ the bank`);
-      for (const [k, t] of got.chips) if ((k === 'yes' ? b.trueWord : b.falseWord) !== t) fails.push(`chip ${k} "${t}" ≠ the bank`);
+      for (const [id, truth, text] of got.tf) { if (!NEUTRAL.TF[id] || NEUTRAL.TF[id].truth !== truth) fails.push(`tf ${id}: stamped ${truth} ≠ the TF table`); if (!b.tf || NT(b.tf[id]) !== NT(text)) fails.push(`tf ${id}: prints "${text}" ≠ tf.${id}`); }
+      for (const [id, lab] of got.shelf) if (!b.labels || NT(b.labels[id]) !== NT(lab)) fails.push(`shelf ${id}: label "${lab}" ≠ labels.${id}`);
+      for (const [k, w] of got.tags) if (NT(k === 'float' ? b.floatWord : b.sinkWord) !== NT(w)) fails.push(`tag ${k} "${w}" ≠ the bank`);
+      for (const [q, t] of got.qs) if (!b.questions || NT(b.questions[q]) !== NT(t)) fails.push(`question ${q} "${t}" ≠ the bank`);
+      for (const [k, t] of got.heads) if (!b.report || NT(b.report[k]) !== NT(t)) fails.push(`section head ${k} "${t}" ≠ the bank`);
+      for (const s0 of got.starter) if (!b.report || NT(b.report.starter) !== NT(s0)) fails.push(`starter "${s0}" ≠ the bank`);
+      for (const [k, t] of got.chips) if (NT(k === 'yes' ? b.trueWord : b.falseWord) !== NT(t)) fails.push(`chip ${k} "${t}" ≠ the bank`);
       // no outcome word outside the places that must carry one: the F4 tags, the F3 sentences, the F5 QUESTIONS (the cargo
       // question asks "before it sinks"; the report never states whether the orange floats)
       if (layout === 'scale' || layout === 'shape' || layout === 'report') {
-        let body = got.body; for (const [, t] of got.qs) body = body.split(t).join(' ');
+        let body = NT(got.body); for (const [, t] of got.qs) body = body.split(NT(t)).join(' ');
         for (const w of [b.floatWord, b.sinkWord]) if (w && body.toLocaleLowerCase(got.loc).includes(w.toLocaleLowerCase(got.loc))) fails.push(`the outcome word "${w}" is printed on the ${layout} face`);
       }
     }
@@ -571,6 +575,7 @@ const TYPE = {
     if (layout) return FACE.verify(page, layout);
     const fails = await page.evaluate((LEGEND_H) => {
       const fails = [];
+      const NT = (s) => String(s == null ? '' : s).replace(/\u2060/g, '').replace(/[\s\u00A0\u202F]+/g, ' ').trim();
       const root = document.querySelector('[data-ws-content][data-lcs-type="sink-or-float"]');
       if (!root) return ['no sink-or-float root'];
       const rect = (el) => el.getBoundingClientRect();
@@ -596,7 +601,7 @@ const TYPE = {
         if (c.big && c.result === 'float') big++;
         if (c.small && c.result === 'sink') small++;
         const lab = r.querySelector('[data-lcs-label]');
-        if (!lab || lab.textContent !== c.label) fails.push(`row ${i + 1}: label "${lab && lab.textContent}" ≠ "${c.label}"`);
+        if (!lab || NT(lab.textContent) !== NT(c.label)) fails.push(`row ${i + 1}: label "${lab && lab.textContent}" ≠ "${c.label}"`);
         else {
           if (lab.scrollWidth > lab.clientWidth + 0.6) fails.push(`row ${i + 1}: label "${c.label}" is clipped`);
           if (rect(lab).height > parseFloat(getComputedStyle(lab).fontSize) * 1.6) fails.push(`row ${i + 1}: label "${c.label}" wraps`);
@@ -648,12 +653,12 @@ const TYPE = {
       else {
         if (Math.abs(rect(lg).height - LEGEND_H) > 0.6) fails.push(`legend ${rect(lg).height.toFixed(0)} px ≠ ${LEGEND_H}`);
         const w1 = lg.querySelector('[data-lcs-legend-word="float"]'), w2 = lg.querySelector('[data-lcs-legend-word="sink"]');
-        if (!w1 || w1.textContent !== fw || !w2 || w2.textContent !== sw) fails.push('legend words ≠ floatWord / sinkWord');
+        if (!w1 || NT(w1.textContent) !== NT(fw) || !w2 || NT(w2.textContent) !== NT(sw)) fails.push('legend words ≠ floatWord / sinkWord');
         [w1, w2].forEach((w) => { if (w && (w.scrollWidth > w.clientWidth + 0.6 || rect(w).right > rect(lg).right || rect(w).left < rect(lg).left)) fails.push(`legend word "${w.textContent}" clipped / outside the legend`); if (w && parseFloat(getComputedStyle(w).fontSize) < 18) fails.push('legend word under 18 px'); });
         if (!lg.querySelector('svg[data-lcs-tank-mode="legend-float"]') || !lg.querySelector('svg[data-lcs-tank-mode="legend-sink"]')) fails.push('legend lacks its float / sink tanks');
       }
-      const txt = root.textContent;
-      const count = (w) => txt.split(w).length - 1;
+      const txt = NT(root.textContent);
+      const count = (w) => txt.split(NT(w)).length - 1;
       if (fw && count(fw) !== 1) fails.push(`the float word "${fw}" appears ${count(fw)} times (the legend only) — outcome printed`);
       if (sw && count(sw) !== 1) fails.push(`the sink word "${sw}" appears ${count(sw)} times (the legend only) — outcome printed`);
       // heads

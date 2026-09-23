@@ -10,6 +10,6 @@ module.exports = {
   id: 'G2-381',
   slug: 'my-habitat-report',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "My Habitat Report", instruction: "Draw three animals that live in this habitat and write their names. Write a plant that grows there. Circle the words that fit." } },
+  i18n: { en: { title: "My Habitat Report", instruction: "Draw three animals that live in this habitat, write their names and a plant that grows there, and circle the right word in each pair." } },
   gradeBand: "G2",
 };

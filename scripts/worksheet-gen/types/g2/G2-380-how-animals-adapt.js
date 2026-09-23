@@ -10,6 +10,6 @@ module.exports = {
   id: 'G2-380',
   slug: 'how-animals-adapt',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "How Animals Adapt", instruction: "Read each sentence. Write the letter of the animal it tells about in the box." } },
+  i18n: { en: { title: "How Animals Adapt", instruction: "Write the letter of the animal each sentence tells about in its box." } },
   gradeBand: "G2",
 };

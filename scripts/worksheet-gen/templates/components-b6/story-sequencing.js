@@ -118,7 +118,7 @@ function ssCardBox({ svg, w, minH, anchor = 'bottom', sky = T.white, grow = true
  * grows; `under` items hang on a 12 px string). items: [{ w, html, under? }]. The line grows by up to
  * `grow` px (its columns' flexing items absorb it); min height = 24 + tallest column.
  */
-function ssLine({ items, w = 639, gap, minH, grow = 60, stamps = {}, string = true }) {
+function ssLine({ items, w = 639, gap, minH, grow = 60, stamps = {}, string = true, marker = null }) {
   const run = items.reduce((acc, c) => acc + c.w, 0) + gap * (items.length - 1);
   if (run > w + 0.5) throw new Error(`ssLine: the run ${run} px exceeds ${w} px`);
   let x = (w - run) / 2;
@@ -132,9 +132,17 @@ function ssLine({ items, w = 639, gap, minH, grow = 60, stamps = {}, string = tr
   const H = CORD_H + minH;
   const attrs = Object.entries(stamps).map(([k, v]) => ` data-lcs-${k}="${esc(v)}"`).join('');
   return `<div class="ss-line" data-lcs-story-line${attrs} style="position:relative;flex:1 1 ${fmt(H)}px;min-height:${fmt(H)}px;max-height:${fmt(H + grow)}px;width:${w}px;box-sizing:border-box;padding-top:${CORD_H}px;display:flex;gap:${fmt(gap)}px;justify-content:center">` +
-    ssCord({ w, pegXs }) + cols.join('') + '</div>';
+    ssCord({ w, pegXs }) + (marker ? `<div data-ss-block data-lcs-line-marker style="position:absolute;left:${fmt(Math.max(0, pegXs[0] - 26))}px;top:${fmt(cordY(pegXs[0] - 18, w) - 8)}px;z-index:3">${ssMarker({ kind: marker })}</div>` : '') + cols.join('') + '</div>';
 }
 
+/** F1 pairing marker: a teal dot or triangle (16 px), stamped data-lcs-marker. */
+function ssMarker({ kind, px = 16 }) {
+  const g = kind === 'dot' ? el('circle', { cx: 8, cy: 8, r: 6.5, fill: T.teal })
+    : kind === 'triangle' ? el('polygon', { points: '8,1.5 15,14.5 1,14.5', fill: T.teal, 'stroke-linejoin': 'round' })
+      : null;
+  if (!g) throw new Error(`ssMarker: kind "${kind}"`);
+  return svgRoot({ width: px, height: px, label: '' }, g, { viewBox: '0 0 16 16', 'aria-hidden': 'true', 'data-lcs-marker': kind, style: 'display:block' });
+}
 /** F1: the empty, pegged glue frame (dashed grid 2.5, r 12) that GROWS with its line; stamped with its word slot k. */
 function ssGlueFrame({ w, minH, k }) {
   return `<div class="ss-glue" data-ss-block data-lcs-glue-k="${k}" style="box-sizing:border-box;flex:1 1 auto;width:${fmt(w)}px;min-height:${fmt(minH)}px;background:${T.white};border:2.5px dashed ${T.grid};border-radius:12px"></div>`;
@@ -144,9 +152,9 @@ function ssWordTag({ text, k }) {
   return `<span class="ss-word" data-ss-block data-lcs-word-k="${k}" style="display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;height:36px;padding:0 12px;border:2px solid ${T.teal};border-radius:10px;background:${T.white};font-family:'Baloo 2',cursive;font-weight:700;font-size:18px;line-height:1;color:${T.ink};white-space:nowrap">${esc(text)}</span>`;
 }
 /** F1: one cut strip (picture-word-cards cardSheet, cols 3 x rows 1): tiles = story-panel svgs (frame:false). */
-function ssCutStrip({ tiles, cellW, cellH, story }) {
+function ssCutStrip({ tiles, cellW, cellH, story, marker = null }) {
   const cards = tiles.map((t) => cutCard({ inner: t.svg, kind: 'story', pad: 2, attrs: `data-ss-tile data-lcs-seq="${t.seq}" data-lcs-tile-rank="${t.rank}" data-lcs-tile-story="${esc(story)}"` }));
-  return cardSheet({ cards, cols: 3, rows: 1, w: cellW * 3, h: cellH, kind: 'story', extra: ` data-ss-block data-lcs-strip-story="${esc(story)}"` });
+  return cardSheet({ cards, cols: 3, rows: 1, w: cellW * 3, h: cellH, kind: 'story', legend: marker ? ssMarker({ kind: marker, px: 18 }) : null, extra: ` data-ss-block data-lcs-strip-story="${esc(story)}"${marker ? ` data-lcs-strip-marker="${marker}"` : ''}` });
 }
 /** F2: the dashed coral "what comes next?" frame; the "?" is drawn as SVG paths (no text). */
 function ssQueryFrame({ w, h }) {
@@ -195,4 +203,4 @@ function ssRetellRow({ card, starter, rank, rulingW, rows = 2, h = 52, glyphH = 
     `<div data-ss-block data-lcs-ruling style="flex:0 0 ${fmt(rulingW)}px;align-self:center">${ruling}</div></div>`;
 }
 
-module.exports = { ssCord, ssHungRow, ssTag, ssPage, ssCardBox, ssLine, ssGlueFrame, ssWordTag, ssCutStrip, ssQueryFrame, ssChoiceTray, ssStageLabel, ssDrawCard, ssSentenceMatch, ssVerticalCord, ssRetellRow, SS_GEOM: { CORD_H, PEG_BOTTOM, STRING_H }, ssCordY: cordY };
+module.exports = { ssMarker, ssCord, ssHungRow, ssTag, ssPage, ssCardBox, ssLine, ssGlueFrame, ssWordTag, ssCutStrip, ssQueryFrame, ssChoiceTray, ssStageLabel, ssDrawCard, ssSentenceMatch, ssVerticalCord, ssRetellRow, SS_GEOM: { CORD_H, PEG_BOTTOM, STRING_H }, ssCordY: cordY };

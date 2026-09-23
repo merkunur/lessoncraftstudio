@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-381',
   slug: 'story-sequencing-cut-and-paste-first-next-last',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Story Sequencing Cut and Paste: First, Next, Last", instruction: "Cut out each strip's pictures and glue them on their story line under First, Next and Last." } },
+  i18n: { en: { title: "Story Sequencing Cut and Paste: First, Next, Last", instruction: "Cut out the pictures on each strip and glue them in the empty frames above First, Next and Last." } },
 };

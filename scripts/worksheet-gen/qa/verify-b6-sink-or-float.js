@@ -201,10 +201,15 @@ function validateBank(b, loc, N = bankMod.SINK_OR_FLOAT_NEUTRAL) {
   // rule 11 (lead review 2026-09-23): the apparatus words the instruction names are the bank's literals; no picture label
   // may equal or contain one ("colour a RING" over a picture labelled "ring"), and the base instruction must name ring + tank
   const app = b.apparatus || {};
-  if (!app.ring || !app.tank || !app.star) push('apparatus.{ring,tank,star} missing (rule 11)');
+  if (!app.ring || !app.tank || !app.star || !app.spot) push('apparatus.{ring,tank,star,spot} missing (rule 11)');
   for (const [id, lab] of Object.entries(labels)) for (const [k, w] of Object.entries(app)) if (w && typeof lab === 'string' && low(lab, loc).includes(low(w, loc))) push(`labels.${id} "${lab}" contains the apparatus word "${w}" (${k}) — a picture named like the page's own apparatus (rule 11)`);
-  const baseIns = S[ID] && S[ID].instruction;
-  if (baseIns) for (const k of ['ring', 'tank']) if (app[k] && !low(baseIns, loc).includes(low(app[k], loc))) push(`strings.${ID} instruction does not name the apparatus "${app[k]}" (rule 11: the bank literal must be the instruction's word)`);
+  // fix round 1: each face's instruction NAMES the apparatus the child acts on (the bank literal): base + F2 colour a
+  // RING in a TANK / draw in the big TANK; F4 draws in the dashed SPOTS
+  const MUST_NAME = { 'G1-399': ['ring', 'tank'], 'G2-382': ['ring', 'tank'], 'K-384': ['spot'] };
+  for (const [fid, keys] of Object.entries(MUST_NAME)) { const ins = S[fid] && S[fid].instruction; if (ins) for (const k of keys) if (app[k] && !low(ins, loc).includes(low(app[k], loc))) push(`strings.${fid} instruction does not name the apparatus "${app[k]}" (rule 11: the child acts on it)`); }
+  // fix round 1: the F5 "I learned" heading and its writing-row starter must not repeat each other
+  const R = b.report || {};
+  if (R.learned && R.starter && (low(R.starter, loc).includes(low(R.learned, loc)) || low(R.learned, loc).includes(low(R.starter, loc)))) push(`report.starter "${R.starter}" repeats the heading report.learned "${R.learned}"`);
   return f;
 }
 
@@ -279,7 +284,7 @@ const APPARATUS_EN = [
   [/(?<!\p{L})rings?(?!\p{L})/iu, 'circle[data-lcs-slot]'], [/(?<!\p{L})tanks?(?!\p{L})/iu, 'svg[data-lcs-tank-mode]'], [/(?<!\p{L})star(?!\p{L})/iu, 'svg[data-lcs-star]'],
   [/(?<!\p{L})scales?(?!\p{L})/iu, 'svg[data-lcs-prim="balance"]'], [/(?<!\p{L})clay(?!\p{L})/iu, 'svg[data-lcs-clay]'], [/on the water/iu, 'svg[data-lcs-tank-mode]'],
   [/(?<!\p{L})sentences?(?!\p{L})/iu, '[data-lcs-claim-row]'], [/true or false/iu, '[data-lcs-truth-chip]'], [/(?<!\p{L})questions?(?!\p{L})/iu, '[data-lcs-question]'],
-  [/(?<!\p{L})boat(?!\p{L})/iu, 'svg[data-lcs-form="boat"], svg[data-lcs-tank-mode="empty"]'], [/(?<!\p{L})bottom(?!\p{L})/iu, '[data-lcs-floor-top]'],
+  [/(?<!\p{L})boat(?!\p{L})/iu, 'svg[data-lcs-form="boat"], svg[data-lcs-tank-mode="empty"]'], [/(?<!\p{L})bottom(?!\p{L})/iu, '[data-lcs-floor-top]'], [/dashed box/iu, '[data-lcs-spot]'], [/big tank/iu, '[data-lcs-draw-tank] svg[data-lcs-tank-mode="empty"]'],
 ];
 async function apparatusFindings(page, instruction) {
   const f = [];
@@ -410,6 +415,31 @@ async function faceSection(page, judge, log, quick, banks) {
   const clone = (o) => JSON.parse(JSON.stringify(o));
   judge('PF1 K-384 instruction says circle', validateBank({ ...clone(banks.en), strings: { ...banks.en.strings, 'K-384': { ...banks.en.strings['K-384'], instruction: 'Circle two things that float.' } } }, 'en'), /strings\.K-384 instruction names "circle"/);
   judge('PF2 G1-408 instruction says colour', validateBank({ ...clone(banks.en), strings: { ...banks.en.strings, 'G1-408': { ...banks.en.strings['G1-408'], instruction: 'Colour the thing that floats.' } } }, 'en'), /strings\.G1-408 instruction names "colou?r"/);
+  // fix round 1 poisons: one sentence (en + a de block), the named apparatus (F2 ring, F4 dashed boxes), the F5 starter
+  judge('PS1 en G3-400 instruction in two sentences', validateBank({ ...clone(banks.en), strings: { ...banks.en.strings, 'G3-400': { ...banks.en.strings['G3-400'], instruction: 'Choose a question. Then write what you think.' } } }, 'en'), /strings\.G3-400 instruction is more than one sentence/);
+  { const de = clone(banks.en); de.strings['K-384'] = { ...de.strings['K-384'], instruction: 'Male zwei Dinge in die gestrichelten Kästen. Male dann zwei weitere.' }; judge('PS2 a second locale block with two sentences', validateBank(de, 'de'), /strings\.K-384 instruction is more than one sentence/); }
+  judge('PN1 G2-382 instruction without the ring', validateBank({ ...clone(banks.en), strings: { ...banks.en.strings, 'G2-382': { ...banks.en.strings['G2-382'], instruction: 'Color where each clay shape ends up, circle the thing that floats, then draw your own clay boat in the big tank.' } } }, 'en'), /strings\.G2-382 instruction does not name the apparatus "ring"/);
+  judge('PN2 K-384 instruction without the dashed boxes', validateBank({ ...clone(banks.en), strings: { ...banks.en.strings, 'K-384': { ...banks.en.strings['K-384'], instruction: 'Draw two things that float on the water and two things that sink to the bottom.' } } }, 'en'), /strings\.K-384 instruction does not name the apparatus "dashed box"/);
+  judge('PN3 F5 starter repeats its heading', validateBank({ ...clone(banks.en), report: { ...banks.en.report, starter: 'I learned that' } }, 'en'), /report\.starter "I learned that" repeats the heading/);
+  { const t = clone(banks.en); t.apparatus = { ...t.apparatus }; delete t.apparatus.spot; judge('PN4 a block without apparatus.spot', validateBank(t, 'en'), /apparatus\.\{ring,tank,star,spot\} missing/); }
+  // (5) French typography: an fr block with ? : and -t-elle renders through the fr shell and verifies clean; a real text mismatch still fails
+  {
+    const all = bankModule('sink-or-float'); const had = Object.prototype.hasOwnProperty.call(all, 'fr'), saved = all.fr;
+    all.fr = { ...clone(banks.en), questions: { orange: 'Une orange flotte-t-elle avec sa peau ? Et sans sa peau ?', cargo: 'Combien de cubes un bateau en pâte à modeler porte-t-il avant de couler ?' },
+      report: { question: 'Ma question : je choisis', predict: 'Je prévois', result: 'Ce qui se passe', learned: 'J’ai appris', starter: 'Maintenant je sais que' } };
+    try {
+      const F = loadFace('report');
+      const fr = { title: 'Mon compte rendu d’expérience : flotte ou coule', instruction: 'Choisis une question, écris ce que tu prévois, teste et écris ce que tu as appris.' };
+      const r = await renderInstance({ type: F, theme: null, difficulty: 2, locale: 'fr', page, outDir: OUT, baseName: 'G1-399-gate-fr-typo-control', strings: fr });
+      const nbsp = await page.evaluate(() => /\u00A0\?/.test(document.querySelector('[data-lcs-question-text]').textContent));
+      ok(nbsp, 'fr control: the shell did not add U+00A0 before ? (the typography the normaliser exists for)');
+      ok(!r.qa.verify.length, `fr typography control: verify ${JSON.stringify(r.qa.verify.slice(0, 3))}`);
+      log.push(`  fr typography control (U+00A0 before ? in the page): ${r.qa.verify.length} findings`);
+      const bad = { ...F, build(o, ctx) { const x = F.build.call(F, o, ctx); x.bodyHtml = x.bodyHtml.replace('Et sans sa peau', 'Et avec sa peau'); return x; } };
+      const r2 = await renderInstance({ type: bad, theme: null, difficulty: 2, locale: 'fr', page, outDir: OUT, baseName: 'G1-399-gate-fr-typo-poison', strings: fr });
+      judge('PT-fr a real question mismatch under French typography', r2.qa.verify, /question orange .* ≠ the bank/);
+    } finally { if (had) all.fr = saved; else delete all.fr; }
+  }
   { const b = clone(banks.en); delete b.strings['G3-400']; judge('PF3 a face string missing', validateBank(b, 'en'), /strings\.G3-400 missing \(rule 10\)/); }
 }
 
@@ -417,23 +447,23 @@ async function faceSection(page, judge, log, quick, banks) {
 const FACE_STRINGS = {
   de: {
     'G1-408': { title: 'Schwer oder leicht? Versuch zum Schwimmen und Sinken', instruction: 'Die Waage zeigt, was schwerer ist: kreise ein, was im Wasser oben schwimmt.' },
-    'G2-382': { title: 'Knete schwimmt: Versuch mit dem Knetboot', instruction: 'Male aus, wo jede Knetform landet, kreise ein, was schwimmt, und male dein Knetboot aufs Wasser.' },
+    'G2-382': { title: 'Knete schwimmt: Versuch mit dem Knetboot', instruction: 'Male den Ring aus, wo jede Knetform landet, kreise ein, was schwimmt, und male dein Knetboot ins große Becken.' },
     'G2-383': { title: 'Warum schwimmt etwas? Richtig oder falsch zum Versuch', instruction: 'Lies jeden Satz und kreise richtig oder falsch ein.' },
-    'K-384': { title: 'Was schwimmt, was sinkt? Den Versuch malen', instruction: 'Male zwei Dinge, die oben schwimmen, und zwei, die auf den Boden sinken.' },
+    'K-384': { title: 'Was schwimmt, was sinkt? Den Versuch malen', instruction: 'Male zwei Dinge, die oben schwimmen, in die Kästchen am Wasser und zwei, die sinken, in die Kästchen am Boden.' },
     'G3-400': { title: 'Versuchsprotokoll: Schwimmen und Sinken', instruction: 'Wähle eine Frage, schreib deine Vermutung auf, mach den Versuch und schreib, was du gelernt hast.' },
   },
   fr: {
     'G1-408': { title: "Lourd ou léger ? L'expérience flotte ou coule avec une balance", instruction: 'La balance montre ce qui est le plus lourd : entoure ce qui flotte.' },
-    'G2-382': { title: "La pâte à modeler qui flotte : l'expérience de la forme", instruction: "Colorie où finit chaque forme, entoure ce qui flotte et dessine ton bateau sur l'eau." },
+    'G2-382': { title: "La pâte à modeler qui flotte : l'expérience de la forme", instruction: "Colorie l'anneau où finit chaque forme, entoure ce qui flotte et dessine ton bateau dans le grand bassin." },
     'G2-383': { title: "Pourquoi ça flotte ? Vrai ou faux après l'expérience", instruction: 'Lis chaque phrase et entoure vrai ou faux.' },
-    'K-384': { title: "Ce qui flotte et ce qui coule : dessine l'expérience", instruction: 'Dessine deux choses qui flottent et deux choses qui coulent au fond.' },
+    'K-384': { title: "Ce qui flotte et ce qui coule : dessine l'expérience", instruction: "Dessine deux choses qui flottent dans les cases sur l'eau et deux qui coulent dans les cases au fond." },
     'G3-400': { title: "Mon compte rendu d'expérience : flotte ou coule", instruction: 'Choisis une question, écris ce que tu prévois, teste et écris ce que tu as appris.' },
   },
   es: {
     'G1-408': { title: '¿Pesado o ligero? Experimento flota o se hunde con balanza', instruction: 'La balanza muestra qué pesa más: encierra lo que flota en el agua.' },
-    'G2-382': { title: 'La plastilina que flota: experimento de la forma', instruction: 'Colorea dónde queda cada forma, encierra lo que flota y dibuja tu barco en el agua.' },
+    'G2-382': { title: 'La plastilina que flota: experimento de la forma', instruction: 'Colorea el anillo donde queda cada forma, encierra lo que flota y dibuja tu barco en el tanque grande.' },
     'G2-383': { title: '¿Por qué flota? Verdadero o falso del experimento', instruction: 'Lee cada oración y encierra verdadero o falso.' },
-    'K-384': { title: 'Objetos que flotan y se hunden: dibuja el experimento', instruction: 'Dibuja dos cosas que flotan y dos cosas que se hunden hasta el fondo.' },
+    'K-384': { title: 'Objetos que flotan y se hunden: dibuja el experimento', instruction: 'Dibuja dos cosas que flotan en los recuadros del agua y dos que se hunden en los recuadros del fondo.' },
     'G3-400': { title: 'Mi reporte del experimento: flota o se hunde', instruction: 'Elige una pregunta, escribe lo que predices, pruébalo y escribe lo que aprendiste.' },
   },
 };
@@ -543,19 +573,20 @@ async function main() {
     judge('P2 kitchen tools/spoon as sink', nP((n) => n.CLAIMS.push({ id: 'spoon', theme: 'kitchen tools', noun: 'spoon', result: 'sink', conf: 'high', testable: true, use: ['base'], picOpened: true })), /spoon .*EXCLUDED picture/);
     judge('P3 orange on the scale', nP((n) => { n.CLAIMS.find((c) => c.id === 'orange').use = ['scale']; }), /orange .*QUESTION|conf "question"/);
     judge('P4 a claim not opened', nP((n) => { n.CLAIMS.find((c) => c.id === 'lemon').picOpened = false; }), /lemon .*picOpened is not true/);
-    judge('P5 key in a PAIR', nP((n) => n.PAIRS.push({ id: 'Q6', a: 'pencil', b: 'key', heavier: 'b' })), /PAIR Q6: key is not a scale row/);
+    judge('P5 a base-only picture (scissors) in a PAIR', nP((n) => n.PAIRS.push({ id: 'Q6', a: 'pencil', b: 'scissors', heavier: 'b' })), /PAIR Q6: scissors is not a scale row/);   // the design's P5 used the key, excluded in fix round 1
+    judge('P19 the pink key back in CLAIMS (fix round 1)', nP((n) => n.CLAIMS.push({ id: 'key', theme: 'around the house', noun: 'key', result: 'sink', conf: 'high', testable: true, use: ['base'], picOpened: true, small: true })), /key .*EXCLUDED picture/);
     judge('P6 Q1 pencil heavier', nP((n) => { n.PAIRS.find((p) => p.id === 'Q1').heavier = 'a'; }), /PAIR Q1: a Q pair's heavier side/);
     judge('P7 "A potato floats." marked T', nP((n) => { n.TF.F1.truth = 'T'; }), /TF F1: marked T but says potato float/);
     const deBlock = { ...clone(banks.en), floatWord: 'schwimmt oben', sinkWord: 'geht unter', forbidden: ['schwere dinge sinken', 'dichte', 'leichte dinge schwimmen'], experimentWords: ['versuch', 'vermutung'],
-      labels: { ...banks.en.labels, rock: 'Stein', nail: 'Nagel', log: 'Holzscheit', pumpkin: 'Kürbis' }, strings: { [ID]: { title: 'Schwimmen und Sinken: Versuch mit Vermutung', instruction: 'Male vor dem Versuch einen Ring im ersten Becken aus.' } }, instructionBans: { base: ['Linie', 'Gruppe', 'Kreis'] }, apparatus: { ring: 'Ring', tank: 'Becken', star: 'Stern' } };
+      labels: { ...banks.en.labels, rock: 'Stein', nail: 'Nagel', log: 'Holzscheit', pumpkin: 'Kürbis' }, strings: { [ID]: { title: 'Schwimmen und Sinken: Versuch mit Vermutung', instruction: 'Male vor dem Versuch einen Ring im ersten Becken aus.' } }, instructionBans: { base: ['Linie', 'Gruppe', 'Kreis'] }, apparatus: { ring: 'Ring', tank: 'Becken', star: 'Stern', spot: 'Kästchen' } };
     deBlock.strings = { ...deBlock.strings, ...FACE_STRINGS.de };
     const deCtl = validateBank(deBlock, 'de'); log.push(`  control de draft: ${deCtl.length} findings${deCtl.length ? ' — ' + deCtl.slice(0, 3).join(' | ') : ''}`); ok(!deCtl.length, 'the de control draft must be clean');
     judge('P8 de TRUE "Schwere Dinge sinken."', validateBank({ ...deBlock, tf: { ...banks.en.tf, T7: 'Schwere Dinge sinken.' } }, 'de'), /tf\.T7 TRUE sentence .*forbidden/);
-    const frBlock = { ...clone(banks.en), labels: { ...banks.en.labels, rock: 'caillou', nail: 'clou' }, experimentWords: ['expérience', 'prévois'], forbidden: ['densité'], apparatus: { ring: 'anneau', tank: 'bassin', star: 'étoile' }, strings: { [ID]: { title: 'Flotte ou coule : je prévois, je vérifie', instruction: 'Colorie un anneau dans le premier bassin avant l\'expérience.' } } };
+    const frBlock = { ...clone(banks.en), labels: { ...banks.en.labels, rock: 'caillou', nail: 'clou' }, experimentWords: ['expérience', 'prévois'], forbidden: ['densité'], apparatus: { ring: 'anneau', tank: 'bassin', star: 'étoile', spot: 'case' }, strings: { [ID]: { title: 'Flotte ou coule : je prévois, je vérifie', instruction: 'Colorie un anneau dans le premier bassin avant l\'expérience.' } } };
     frBlock.strings = { ...frBlock.strings, ...FACE_STRINGS.fr };
     const frCtl = validateBank(frBlock, 'fr'); log.push(`  control fr draft: ${frCtl.length} findings${frCtl.length ? ' — ' + frCtl.slice(0, 3).join(' | ') : ''}`); ok(!frCtl.length, 'the fr control draft must be clean');
     judge('P9 fr base title "Flotte ou coule ?"', validateBank({ ...frBlock, strings: { [ID]: { ...frBlock.strings[ID], title: 'Flotte ou coule ?' } } }, 'fr'), /equals the G1-204 title/);
-    const esBlock = { ...clone(banks.en), labels: { ...banks.en.labels, rock: 'piedra', nail: 'clavo' }, experimentWords: ['experimento', 'predice'], forbidden: ['flotación'], apparatus: { ring: 'anillo', tank: 'tanque', star: 'estrella' }, strings: { [ID]: { title: 'Experimento flota o se hunde: predice y comprueba', instruction: 'Colorea un anillo en el primer tanque antes de la prueba.' } } };
+    const esBlock = { ...clone(banks.en), labels: { ...banks.en.labels, rock: 'piedra', nail: 'clavo' }, experimentWords: ['experimento', 'predice'], forbidden: ['flotación'], apparatus: { ring: 'anillo', tank: 'tanque', star: 'estrella', spot: 'recuadro' }, strings: { [ID]: { title: 'Experimento flota o se hunde: predice y comprueba', instruction: 'Colorea un anillo en el primer tanque antes de la prueba.' } } };
     esBlock.strings = { ...esBlock.strings, ...FACE_STRINGS.es };
     const esCtl = validateBank(esBlock, 'es'); log.push(`  control es draft: ${esCtl.length} findings${esCtl.length ? ' — ' + esCtl.slice(0, 3).join(' | ') : ''}`); ok(!esCtl.length, 'the es control draft must be clean');
     judge('P10 es "Experimento de flotación"', validateBank({ ...esBlock, strings: { [ID]: { ...esBlock.strings[ID], title: 'Experimento de flotación' } } }, 'es'), /says flotación/);

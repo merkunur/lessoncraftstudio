@@ -186,7 +186,9 @@ function hhWeekChart({ rows, days, rowMin = 96 }) {
   const body = rows.map((r, i) => `<div class="hh-chartrow" data-lcs-chart-row="${esc(r.key)}" style="box-sizing:border-box;display:grid;${cols};align-items:center;height:100%;background:${i % 2 ? T.cream : T.white};border:2px solid ${T.creamDeep};border-radius:12px">` +
     '<div style="display:flex;align-items:center;gap:8px;padding-left:2px">' +
     plaqueBox(`<div style="width:100%;height:100%">${HP.habitFigure({ pose: r.pose, fit: true }).svg}</div>`, 'width:72px;height:72px;padding:3px;flex:0 0 72px', ` data-lcs-habit="${esc(r.key)}"`) +
-    `<span data-lcs-row-label style="width:94px;font-family:${F.body},sans-serif;font-weight:800;font-size:16px;line-height:19px;color:${T.ink};overflow-wrap:normal;word-break:normal;hyphens:none">${esc(r.label)}</span></div>` +
+    // text-wrap:balance (FIX ROUND 1, fr panel): a two-line label breaks at its middle, never leaving a short word
+    // ("les", "die") stranded at the end of line 1; verify() measures every line end
+    `<span data-lcs-row-label style="width:94px;font-family:${F.body},sans-serif;font-weight:800;font-size:16px;line-height:19px;color:${T.ink};overflow-wrap:normal;word-break:normal;hyphens:none;text-wrap:balance">${esc(r.label)}</span></div>` +
     days.map(() => `<span style="display:flex;justify-content:center"><span data-lcs-tick style="box-sizing:border-box;display:block;width:52px;height:52px;background:${T.white};border:1.5px solid ${T.grid};border-radius:8px"></span></span>`).join('') +
     '</div>').join('');
   return `<div class="hh-chart" style="flex:1 1 auto;min-height:0;display:grid;justify-content:center;grid-template-rows:40px repeat(${rows.length},minmax(${rowMin}px,1fr));row-gap:4px">${head}${body}</div>`;

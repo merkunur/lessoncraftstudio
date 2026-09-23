@@ -10,6 +10,6 @@ module.exports = {
   id: 'K-384',
   slug: 'draw-what-floats-and-sinks',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Draw What Floats and Sinks: A Sink or Float Experiment", instruction: "Draw two things that float on the water and two things that sink to the bottom." } },
+  i18n: { en: { title: "Draw What Floats and Sinks: A Sink or Float Experiment", instruction: "Draw two things that float in the dashed boxes on the water and two that sink in the dashed boxes on the bottom." } },
   gradeBand: "K",
 };

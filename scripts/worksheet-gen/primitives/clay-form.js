@@ -14,7 +14,8 @@
  *   lump  a fixed 8-point closed blob inside x 44..116, y 60..116 (bottom ON the table line) (smooth quadratic
  *         midpoint spline through the points)
  *   ball  circle (80, 82) r 34                     (area 3632 u^2)
- *   boat  hull M 18 70 L 142 70 Q 134 112 80 114 Q 26 112 18 70 Z; the HOLLOW (the air
+ *   boat  hull M 22 80 L 122 80 Q 142 78 148 66 Q 142 98 122 110 Q 117 114 110 114 L 48 114 Q 36 114 30 102 Z (a boat: flat deck, pointed bow,
+ *         flat keel, a clay mast + sail — fix round 1; the design's round hull read as a bowl); the HOLLOW (the air
  *         the boat holds) = the ellipse (80, 72) rx 56 ry 7, fill cream, teal 1.5 rim
  *         (measured: lump 3 462, ball 3 634, boat clay = hull - hollow 3 392 u^2 — within ± 7 %)
  * `pancake`, `bowl`, `sheet` are NOT forms (a bowl is a boat without ends; ruled out) —
@@ -40,12 +41,14 @@ function lumpPath() {
   for (let i = 0; i < n; i++) { const c = P[i], m = mid(P[i], P[(i + 1) % n]); d += ` Q ${c[0]} ${c[1]} ${r2(m[0])} ${r2(m[1])}`; }
   return d + ' Z';
 }
-/* the boat hull, exactly the design's (clay = hull - hollow measured 3 392 u^2, -6.7 % of the ball) */
-const BOAT_HULL = 'M 18 70 L 142 70 Q 134 112 80 114 Q 26 112 18 70 Z';
-const HOLLOW = { cx: 80, cy: 72, rx: 56, ry: 7 };
+/* the boat hull (fix round 1, the fr panel: the design's round hull read as a BOWL — the very shape the design rules
+ * out): a flat deck line at y 70, a raked POINTED bow to the right, a flat keel resting on the table, a near-upright
+ * transom stern. The clay area is re-measured by the gate (hull - hollow within +-15 % of the ball). */
+const BOAT_HULL = 'M 22 80 L 122 80 Q 142 78 148 66 Q 142 98 122 110 Q 117 114 110 114 L 48 114 Q 36 114 30 102 Z';
+const HOLLOW = { cx: 72, cy: 81, rx: 46, ry: 5 };   // the open deck (the air the boat holds), fix round 1
 
 /** Each form's clay centre (the dimple anchor) — identical relative offsets on every form. */
-const CENTRE = { lump: [80, 92], ball: [80, 84], boat: [80, 96] };
+const CENTRE = { lump: [80, 92], ball: [80, 84], boat: [80, 100] };
 const DIMPLES = [[-14, -6], [6, -11], [10, 6]];
 
 function dimples(form, sw) {
@@ -68,6 +71,9 @@ function clayForm(opts = {}) {
   else if (form === 'ball') parts.push(el('circle', { cx: 80, cy: 82, r: 34, ...clay }));
   else {
     parts.push(el('path', { d: BOAT_HULL, ...clay }));
+    // a clay MAST + SAIL (fix round 1: the hull alone read as a tub): the same clay, standing on the hollow's far rim
+    parts.push(el('rect', { x: 70, y: 30, width: 4, height: HOLLOW.cy - HOLLOW.ry - 30, fill: color.coralSoft, stroke: color.teal, 'stroke-width': sw15, 'data-lcs-clay-part': 'mast' }));
+    parts.push(el('path', { d: 'M 74 32 L 100 46 L 74 60 Z', fill: color.coralSoft, stroke: color.teal, 'stroke-width': sw3, 'stroke-linejoin': 'round', 'data-lcs-clay-part': 'sail' }));
     parts.push(el('ellipse', { cx: HOLLOW.cx, cy: HOLLOW.cy, rx: HOLLOW.rx, ry: HOLLOW.ry, fill: color.cream, stroke: color.teal, 'stroke-width': sw15, 'data-lcs-hollow': '' }));
   }
   parts.push(el('g', { 'data-lcs-dimples': '' }, dimples(form, sw15)));

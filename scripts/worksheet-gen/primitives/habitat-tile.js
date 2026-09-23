@@ -15,7 +15,7 @@
  *                         heads on both banks, a lily pad with a flower, ripples
  *   forest      y 100     three trees (two scalloped broadleaf crowns + one dark spruce),
  *                         two small trees behind, soil with roots, leaf litter
- *   meadow      y ~86     a green rolling hill covered in white flowers and grass; NO tree
+ *   meadow      y ~86     a rolling LAWN (dense short grass on earth) with white flowers; darker soil; NO tree
  *   polar       y 66      snowflakes, a flat ice floe whose bulk is under the waterline, a
  *                         tall iceberg (most of it under water); white-dominant
  *   savanna     y 92      dry ground with cracks, tall grass tufts, a hot sun, ONE dark
@@ -188,9 +188,21 @@ function tileBody(id, scale) {
       const s = SURFACE.meadow;
       const topPts = [[0, s + 6], [70, s - 4], [150, s + 6], [230, s - 2], [300, s + 6]];
       const top = catmullOpen(topPts);
-      const hill = el('path', { d: top + ` L300 ${VIEW_H} L0 ${VIEW_H} Z`, fill: T.tealSoft, 'data-lcs-part': 'grass' });
+      // fix round 1 (fi panel): the tealSoft hill read as WATER. Now earth (creamDeep) under a dense LAWN — rows of
+      // short teal grass blades — so it reads as grass in colour AND as a textured mid-grey in mono; the soil band
+      // below is the darker earth (grid) with root hairs
+      const hill = el('path', { d: top + ` L300 ${VIEW_H} L0 ${VIEW_H} Z`, fill: T.creamDeep, 'data-lcs-part': 'grass' });
+      let lawnD = '';
+      for (let row = 0, y = s + 4; y <= 116; row++, y += 6.5) {
+        for (let x = 4 + (row % 2) * 4.5; x < 298; x += 9) {
+          const g = (() => { for (let i = 0; i < topPts.length - 1; i++) if (x >= topPts[i][0] && x <= topPts[i + 1][0]) { const t = (x - topPts[i][0]) / (topPts[i + 1][0] - topPts[i][0]); return topPts[i][1] + (topPts[i + 1][1] - topPts[i][1]) * (0.5 - 0.5 * Math.cos(Math.PI * t)); } return s; })();
+          if (y < g + 5) continue;
+          lawnD += `M${f2(x - 1.6)} ${f2(y)} l-1.2 -4.2 M${f2(x)} ${f2(y)} l0 -5 M${f2(x + 1.6)} ${f2(y)} l1.2 -4.2 `;
+        }
+      }
+      const lawn = el('path', { d: lawnD.trim(), fill: 'none', stroke: T.teal, 'stroke-width': px(1.1), 'stroke-linecap': 'round', 'data-lcs-lawn': '' });
       const hillLine = el('path', { d: top, fill: 'none', stroke: T.teal, 'stroke-width': O, 'data-lcs-surface-line': '' });
-      const soil = el('path', { d: `M0 120 q37.5 -3 75 0 t75 0 t75 0 t75 0 L300 ${VIEW_H} L0 ${VIEW_H} Z`, fill: T.creamDeep, stroke: T.teal, 'stroke-width': D });
+      const soil = el('path', { d: `M0 120 q37.5 -3 75 0 t75 0 t75 0 t75 0 L300 ${VIEW_H} L0 ${VIEW_H} Z`, fill: T.grid, stroke: T.teal, 'stroke-width': D });
       const hairs = [30, 96, 170, 236, 280].map((x) => el('path', { d: `M${x} 120 q-2 5 -5 9 M${x} 120 q2 6 5 8`, fill: 'none', stroke: T.teal, 'stroke-width': px(1), 'stroke-linecap': 'round' })).join('');
       const yAt = (x) => { // the hill top at x (sampled from the catmull points, linear enough for placement)
         for (let i = 0; i < topPts.length - 1; i++) if (x >= topPts[i][0] && x <= topPts[i + 1][0]) { const t = (x - topPts[i][0]) / (topPts[i + 1][0] - topPts[i][0]); return topPts[i][1] + (topPts[i + 1][1] - topPts[i][1]) * (0.5 - 0.5 * Math.cos(Math.PI * t)); }
@@ -205,7 +217,7 @@ function tileBody(id, scale) {
       };
       const flowers = [[58, 34], [104, 26], [146, 38], [192, 30], [236, 40], [276, 26], [26, 26]].map(([x, h]) => flower(x, h)).join('');
       const blades = [12, 44, 80, 124, 166, 212, 256, 294, 170].map((x, i) => tuft(x, f2(yAt(x) + 4), 9 + (i % 3) * 3, 3, D)).join('');
-      return sky + hill + soil + hairs + blades + hillLine + flowers;
+      return sky + hill + lawn + soil + hairs + blades + hillLine + flowers;
     }
     case 'polar': {
       const s = SURFACE.polar;

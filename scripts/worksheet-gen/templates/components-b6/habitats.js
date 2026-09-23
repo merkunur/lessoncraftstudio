@@ -160,15 +160,16 @@ function hbNeedsRow({ animal, foods, homes, geo }) {
 /**
  * F5 hbReport — ONE big empty window of the locale's home habitat (the museum frame, plaque Baloo 20),
  * then "animals" + three writing lanes (stacked, full width), "plant" + one lane, and the chip row
- * [hot][cold] · [wet][dry]. Blocks separated by hbGap bands (FILL at 814, fits at 677).
+ * [hot][cold] · [wet][dry] — ONLY the pairs with a true answer for the habitat (`pairs` = [[k1,text],[k2,text],true key]; the
+ * true chip carries data-lcs-true for the gate, never printed). Blocks separated by hbGap bands (FILL at 814, fits at 677).
  */
-function hbReport({ tile, habitat, plaque, labels, lanesAnimals, lanePlant, chips }) {
+function hbReport({ tile, habitat, plaque, labels, lanesAnimals, lanePlant, pairs }) {
   const win = `<div data-lcs-block style="padding-bottom:13px;flex:0 0 auto"><div class="hb-window" data-lcs-window="" data-lcs-habitat="${esc(habitat)}" style="position:relative;width:${tile.width + 12}px;box-sizing:border-box;background:${T.white};border:${FRAME}px solid ${T.teal};border-radius:14px;padding:${MAT}px;line-height:0">` +
     tile.svg + hbPlaque({ text: plaque, px: 20, maxW: 360, bottom: -16 }) + `</div></div>`;
   const label = (t, k) => `<div data-lcs-label="${k}" style="font-family:${F.body},sans-serif;font-weight:800;font-size:17px;line-height:24px;color:${T.ink};margin-bottom:6px">${esc(t)}</div>`;
-  const pill = (t, k) => `<span data-lcs-chip="${k}" style="min-width:110px;height:48px;box-sizing:border-box;padding:0 18px;display:inline-flex;align-items:center;justify-content:center;background:${T.white};border:2px solid ${T.teal};border-radius:24px;font-family:${F.display},cursive;font-weight:700;font-size:20px;color:${T.ink};white-space:nowrap">${esc(t)}</span>`;
+  const pill = (t, k, truth) => `<span data-lcs-chip="${k}"${truth === k ? ' data-lcs-true="1"' : ''} style="min-width:110px;height:48px;box-sizing:border-box;padding:0 18px;display:inline-flex;align-items:center;justify-content:center;background:${T.white};border:2px solid ${T.teal};border-radius:24px;font-family:${F.display},cursive;font-weight:700;font-size:20px;color:${T.ink};white-space:nowrap">${esc(t)}</span>`;
   const chipRow = `<div data-lcs-block data-lcs-chips style="display:flex;justify-content:center;align-items:center;gap:14px;flex:0 0 auto">` +
-    pill(chips.hot, 'hot') + pill(chips.cold, 'cold') + `<span style="width:26px"></span>` + pill(chips.wet, 'wet') + pill(chips.dry, 'dry') + `</div>`;
+    pairs.map(([[k1, t1], [k2, t2], truth]) => pill(t1, k1, truth) + pill(t2, k2, truth)).join('<span style="width:26px"></span>') + `</div>`;
   return win + hbGap({ min: 10 }) +
     `<div data-lcs-block data-lcs-lanes="animals" style="width:639px;flex:0 0 auto">${label(labels.animals, 'animals')}${lanesAnimals}</div>` + hbGap({ min: 10 }) +
     `<div data-lcs-block data-lcs-lanes="plant" style="width:639px;flex:0 0 auto">${label(labels.plant, 'plant')}${lanePlant}</div>` + hbGap({ min: 10 }) + chipRow;

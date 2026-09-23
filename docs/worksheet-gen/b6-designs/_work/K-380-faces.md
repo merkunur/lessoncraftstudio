@@ -162,3 +162,100 @@ The lead accepted K-382, G1-404, G2-379 and G1-405. G1-403 had one defect: **bru
 - `scripts/worksheet-gen/out/dev/K-380-gate/G1-403-d2-chrome-fi677.png`
 
 Seven panels, the last one centred. The rinse-brush card shows foam on the bristles and bubbles falling into the bowl. Nothing is clipped at 677, and no blank band is over 40 px.
+
+---
+
+## Fix round 1 — the native panels' audit of the EN source (2026-09-23)
+The drafts (`i18n/.draft-b6-<loc>.json`) were NOT edited. **The bank shape is unchanged: no new key for any panel.** The new ban reads each locale's words from image-vocabulary.
+
+1. **BASE sleep plaque drew the bed** (3 panels). The lying child under a duvet, with a turned-down band, read as a child IN BED — the very tool it is matched to.
+   - **Redrawn:** a child in striped pajamas, both arms up in a bedtime stretch, under a big moon and three stars. No bed, no pillow, no blanket.
+   - `CUE_OF.sleep` is now `moon · stars · pajamas`.
+   - **Gate:** base verify() and primitive rule 4 lost the own-tool exemption. NO plaque may draw any part of ANY shelf tool, including its own.
+   - **Poison PP8** (the bed put back in the sleep plaque) is killed.
+2. **BASE blow-nose read as sneezing into the hand** (fi, and the de addendum). That contradicts F3's elbow rule.
+   - **Redrawn:** the child stands, both hands at the nose, the near hand pinching it (a finger closes on the nose tip), and one small white puff comes out of the nose. The head bows 10° over the hands. No spray, no open hand, no burst lines, no tissue.
+   - Upright, it measured 0.787 1-bit Jaccard against brush-teeth. With the 10° bow: 0.706 at the 100-unit size and 0.652 as shipped.
+   - `CUE_OF['blow-nose']` is now `burst · pinch`. The pinch survives d3's marks-off, so the page is readable without the hand-height fallback.
+   - **Unhealthy-variant check (new):** `COMMON.UNHEALTHY_PARTS = spray · tissue · cup-shared` may never appear on a base plaque, checked in base verify() and in primitive rule 4b. **Poison PP9** (a sneeze spray on the blow-nose child) is killed.
+3. **G2-379 reasons.** The reasons are rewritten and pinned in the hand-read claim table `REASON_READ` (an edited reason fails until re-read; poison RR1). The EN source is now:
+
+   | habit | reason |
+   |---|---|
+   | wash-hands | "It clears away the germs from all the things we touched." (no longer fits brushing) |
+   | brush-teeth | "It keeps our smile clean and bright." (no "holes" or cavities) |
+   | sleep | "Our body and brain rest and get ready for a new day." |
+   | move-body | "It makes us fit, fast and strong." (no body parts) |
+   | sun-protect | "We do not get burnt on a hot, sunny day." (no "skin") |
+   | drink-water (reserve) | "Our body needs it to work well." |
+   | blow-nose (reserve) | "We can breathe easily again." (no "nose") |
+
+   **New validator rule 3b:** a reason never names its own habit's body part or tool.
+   - `COMMON.REASON_BAN_KEYS` lists image-vocabulary keys per habit (hand, finger, sink, faucet, towel · tooth, mouth, lip, tongue, toothbrush, toothpaste · bed, pillow, blanket, eye · leg · hat, sunscreen · glass, cup, mouth · nose, tissue · comb, hair).
+   - The validator reads each key's singular and plural in the locale. A form of 4 or more letters also bans its inflections (nenä → nenän).
+   - "skin", which the vocabulary lacks, is added to the EN `labelStems.sun-protect`.
+   - Poisons: **RB1** en "…through our nose…", **RB2** en "…our teeth…", **RB3** de "…Händen…" — all killed.
+4. **G2-379 / G1-405 titles** are "Healthy Habits: Why Do We Do Them?" and "Healthy Habits Chart for the Week". "Healthy habits" covers sleep, move and drink, so both titles are correct as they are; no change.
+5. **G1-403 spit read as crying or face-washing** (da). The teardrops falling past the face are gone.
+   - **Redrawn:** the child bends LOW over the bowl, still holding the brush up in one hand, so the card is about brushing. White toothpaste FOAM bubbles leave the mouth and fall into the bowl.
+6. **G1-405 row labels, balanced wrapping** (fr addendum).
+   - `text-wrap:balance` is set on every row label.
+   - verify() now fails any wrapped label whose line ends with a short word (3 letters or fewer: les, die, og).
+   - Tested with fr "se laver les mains", de "die Hände waschen", fi "pestä kädet hyvin", da "børste tænderne" and it "lavarsi i denti". The balanced render is clean.
+   - **Poison LW1** switches balance off with the same labels and is killed.
+   - Render: `out/dev/K-380-gate/G1-405-long-labels.png`
+
+**What moved in the base, and what did not.** I snapshotted the base `bodyHtml` before the fix, masking the two redrawn pictograms. After the fix: **IDENTICAL outside the redrawn sleep / blow-nose pictograms (24 base builds)**. K-380 is not in `out/b3-baseline.json` (the ids were added after the capture), so the release baseline cannot see this change. The only intended base change is those two drawings.
+
+**Fix round 1 gate lines**
+- `qa/verify-b6-healthy-habits.js` (full) → **PASS (2670 assertions, 56/56 poisons killed)**
+- `qa/verify-b6-habit-pictogram.js` → **PASS (6634 assertions, 9/9 poisons killed)**. Worst base Jaccard 0.706 (brush-teeth ~ blow-nose); as shipped (fit) 0.652.
+- `gate-variation-distinct --batch=b6 --diffs=2 --family=healthy-habits` → every variation differs from the deck its base publishes and from its siblings
+- `b3-baseline --check --quick` → `checked build 4000 + enum 301 in 26s: 0 drifted (0 expected), 0 missing` PASS
+
+**Draft validator** (`node tools/validate-b6-draft.js <loc>`, drafts untouched). Only the healthy-habits errors are listed here; the other errors belong to other families.
+
+| loc | healthy-habits errors |
+|---|---|
+| da | blow-nose reason names "næse" (rule 3b) |
+| fi | blow-nose reason names "nenä" |
+| fr | blow-nose reason names "nez" |
+| nl | brush-teeth reason names "mond"; blow-nose reason names "neus" |
+| sv | wash-hands reason names "fingrar"; blow-nose reason names "näsa" |
+| de, es, it, no, pt | none |
+
+**For every panel:** re-author the `reasons` block against the NEW EN source above, with the same keys. The old EN reasons ("It takes away the germs we picked up", "keeps holes away", "heart and muscles", "skin", "nose") are gone, so drafts translated from them are stale even where the validator passes. Then re-read each reason against the other habits on the page: it must fit exactly one.
+
+**PNGs I read (fix round 1):**
+- `scripts/worksheet-gen/out/dev/K-380-null-d2-en.png` (new sleep and blow-nose)
+- `scripts/worksheet-gen/out/dev/G1-403-null-d2-en.png` (new spit card)
+- `scripts/worksheet-gen/out/dev/G2-379-null-d2-en.png` (new reasons)
+- `scripts/worksheet-gen/out/dev/G1-405-null-d2-en.png`
+- `scripts/worksheet-gen/out/dev/K-380-gate/G1-405-long-labels.png`
+- `scripts/worksheet-gen/out/dev/K-380-probe-a-grey.png` (sleep + blow-nose at 240 px, greyscale)
+
+**Open for the panels / lead:**
+- The pajama-stretch sleep child is smaller in its plaque than the other children (the night sky takes width). It fills about 85 % of the width.
+- The blow-nose puff is a small white cloud at the nose. A pedagogue's read is still advised.
+
+### Fix round 1b — the sleep child drawn at the same height as the others (lead read, 2026-09-23)
+The pajama child was about half the height of the other four. The night sky had made its box wide, so the plaque scaled the child down.
+
+**The fix: all six base standing poses now share ONE box size.** Each box is 55 × 113 units (y −16 .. 97), centred on its own drawing (`POSE_BOX`). At every level, the plaque therefore scales every child to the same height.
+- The sleep sky moved into the space above the head: the moon sits centred between the raised hands, with stars in the two top corners. Still no bed and no pillow.
+- The sun of sun-protect moved to the top corner, so its box also fits the 55-unit width.
+- d2 plaque height is now 190..232 (was 236). A width-limited child fills at least 75 %, and the shelf tools went from 120 to 124 px so the 814 chrome keeps its blank bands at or under 60 px (58 / 60).
+
+**verify() now asserts** that every standing child is the same height: head top to feet bottom, measured on the render, within ±10 % of the page median. **Poison PH1** (the sleep child drawn at half height) is killed.
+
+**Gate lines**
+- `qa/verify-b6-healthy-habits.js` (full) → **PASS (2670 assertions, 57/57 poisons killed)**. d1, d2, d3, the v2..v20 sweep, chromes 814 / 722 / 677 and greyscale are all clean.
+- `qa/verify-b6-habit-pictogram.js` → **PASS (6634 assertions, 9/9 poisons killed)**. Base worst 0.707 (brush-teeth ~ blow-nose); 0.678 as shipped.
+- `gate-variation-distinct --batch=b6 --diffs=2 --family=healthy-habits` → every variation differs from the deck its base publishes and from its siblings
+- `b3-baseline --check --quick` → `checked build 4000 + enum 301 in 37s: 0 drifted (0 expected), 0 missing` PASS
+
+**PNGs read:**
+- `scripts/worksheet-gen/out/dev/K-380-null-d1-en.png`
+- `scripts/worksheet-gen/out/dev/K-380-null-d2-en.png`
+- `scripts/worksheet-gen/out/dev/K-380-null-d3-en.png`
+- `scripts/worksheet-gen/out/dev/K-380-gate/K-380-d2-greyscale.png`

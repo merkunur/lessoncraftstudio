@@ -74,8 +74,25 @@ const GREY = { en: /(?<!\p{L})gr[ae]y(?!\p{L})/iu, de: /(?<!\p{L})grau\w*/iu, es
 const ALPHA_EXTRA = { en: '', de: 'äöüß', es: 'ñ', pt: 'ç', fr: '', it: '', nl: '', da: 'æøå', no: 'æøå' };
 const alphabetOf = (loc) => [...'abcdefghijklmnopqrstuvwxyz', ...(ALPHA_EXTRA[loc] || '')];
 const BANDS = ['K', 'G1', 'G2', 'G3'];
+// the native panels' drafts present on disk (never edited here): their cursive-writing blocks feed the shipped-instance
+// checks (F4 partner order, F5 word gaps) — a locale whose block is absent is skipped
+const DRAFT_BANKS = {};
+for (const loc of ['de', 'es', 'pt', 'fr', 'it', 'nl', 'da', 'no']) {
+  const f = path.join(WG, 'i18n', '.draft-b6-' + loc + '.json');
+  try { const b = JSON.parse(fs.readFileSync(f, 'utf8')).banks['cursive-writing']; if (b && !b.refused) DRAFT_BANKS[loc] = b; } catch (e) { /* absent draft */ }
+}
 // the reading face prints no trace (ink words only), so its instruction has no grey to name
 const READ_IDS = ['G2-387'];
+// fix round 1 — the copy face's DOING ORDER: the trace verb comes before the copy verb (per locale, whole words)
+const ORDER_VERBS = {
+  en: [/(?<!\p{L})trac(e|ing)/iu, /(?<!\p{L})copy/iu], de: [/spur/iu, /(?<!\p{L})(schreibe|abschreib)/iu], es: [/(?<!\p{L})repas/iu, /(?<!\p{L})copia/iu],
+  pt: [/(?<!\p{L})cubr/iu, /(?<!\p{L})copi/iu], fr: [/(?<!\p{L})repass/iu, /(?<!\p{L})copie/iu], it: [/(?<!\p{L})ripass/iu, /(?<!\p{L})ricopi/iu],
+  nl: [/(?<!\p{L})(na|natrek\w*|overtrek\w*)(?!\p{L})/iu, /(?<!\p{L})(over|overschrij\w*)(?!\p{L})/iu],
+  da: [/(?<!\p{L})oven i(?!\p{L})/iu, /(?<!\p{L})af(?!\p{L})/iu], no: [/(?<!\p{L})over(?!\p{L})/iu, /(?<!\p{L})av(?!\p{L})/iu],
+};
+// fix round 1 (de panel) — "without lifting your pencil" is true only if EVERY word on the page is written in one
+// stroke: no capital start (German nouns; school capitals mostly do not join) and no LIFT letter before the end
+const NO_LIFT_CLAIM = /without lifting|ohne (den stift |den bleistift )?(abzusetzen|abzuheben)|sin (despegar|levantar)|sem (tirar|levantar)|sans lever|senza staccare|zonder (je )?(potlood )?op te tillen|uden at løfte|uten å løfte/iu;
 
 // ─────────────────────────────── validateBank ───────────────────────────────
 function validateBank(block, loc) {
@@ -93,6 +110,15 @@ function validateBank(block, loc) {
     if (!NEUTRAL.shipped.includes(u)) R(1, `unit "${u}" is vendored but not a shipped unit (§1)`);
   }
   if (!units.includes(block.exemplar)) R(1, `exemplar "${block.exemplar}" ∉ units`);
+  // exemplarByMode (optional): each face ships in ONE script; every value must be a unit, every key a mode
+  if (block.exemplarByMode != null) {
+    const MODES = ['base', 'capitals', 'joins', 'words', 'read', 'copy'];
+    if (typeof block.exemplarByMode !== 'object') R(1, 'exemplarByMode must be an object');
+    else for (const [m, u] of Object.entries(block.exemplarByMode)) {
+      if (!MODES.includes(m)) R(1, `exemplarByMode key "${m}" is not a face mode`);
+      if (!units.includes(u)) R(1, `exemplarByMode.${m} "${u}" ∉ units`);
+    }
+  }
   for (const u of units) if (!(block.scriptName && typeof block.scriptName[u] === 'string' && block.scriptName[u].trim() && block.scriptName[u].length <= 34)) R(1, `scriptName.${u} missing or > 34 chars`);
   // rule 2 — lessons: every letter of the locale alphabet exactly once across a unit's lessons
   const alpha = alphabetOf(l);
@@ -186,6 +212,25 @@ function validateBank(block, loc) {
     for (const re of TITLE_BANS) if (re.test(t)) R(7, `${id} title "${t}" uses a print-tracing / pre-writing head (${re.source})`);
     if (DOTTED.test(ins) || DOTTED.test(t)) R(7, `${id} names dotted / dashed / hollow letters (the traces are SOLID grey)`);
     if (GREY[l] && !READ_IDS.includes(id) && !GREY[l].test(ins)) R(7, `${id} instruction never names the GREY colour of the traces`);
+    // rule 7 (fix round 1): ONE sentence — no end mark followed by more text
+    if (/[.!?](?=\s+\S)/u.test(ins)) R(7, `${id} instruction is more than one sentence ("${ins}")`);
+    if (id === 'G3-401' && ORDER_VERBS[l]) {
+      const [tr, cp] = ORDER_VERBS[l];
+      const it = ins.search(tr), ic = ins.search(cp);
+      if (it < 0 || ic < 0) R(7, `G3-401 instruction: cannot find the ${it < 0 ? 'trace' : 'copy'} verb (${(it < 0 ? tr : cp).source})`);
+      else if (it > ic) R(7, `G3-401 instruction copies before it traces — the doing order is trace the grey sentence, then copy ("${ins}")`);
+    }
+    if (id === 'G2-386' && NO_LIFT_CLAIM.test(ins)) {
+      for (const u of units) {
+        const lift = (NEUTRAL.units[u] || {}).lift || '';
+        for (const v of Object.values(block.words || {})) {
+          const w = typeof v === 'string' ? v : v && v.text;
+          if (!w) continue;
+          const chars = [...w];
+          if (/^\p{Lu}/u.test(w) || chars.slice(0, -1).some((ch) => lift.includes(ch))) { R(7, `G2-386 claims one unbroken stroke, but ${u} "${w}" lifts the pen (${/^\p{Lu}/u.test(w) ? 'a capital start' : 'a lift letter'})`); break; }
+        }
+      }
+    }
     // rule 8
     const uCount = (t.match(/\{U\}/g) || []).length;
     if (l === 'de' && uCount !== 1) R(8, `${id} de title carries ${uCount} {U} (want exactly 1)`);
@@ -589,26 +634,57 @@ async function main() {
       } catch (e) { ok(false, `G2-384 ${pr.unit}: ${e.message}`); }
       finally { delete TYPE._verifyBank; }
     }
-    // F4 anti-tell pooled: 3000 seeds, every (word row, picture row) cell within ±10 % of uniform, both directions,
-    // never a fixed point, never a constant shift on a page
+    // F4 anti-tell (fix round 1, da panel: three adjacent swaps put every partner one row away). Pooled over
+    // 12,000 seeds: no partner at distance 0; ≤ 1 at distance 1 on EVERY page (share reported); no constant shift,
+    // no reversal; the partner is below as often as above (±10 %, both directions). Then the SHIPPED instance of
+    // every locale (the draft banks present + en): the same per-page rules.
     {
       const n = 6, SEEDS = QUICK ? 6000 : 12000;
-      const cnt = Array.from({ length: n }, () => new Array(n).fill(0));
-      let fixed = 0, shift = 0;
+      let pagesBad = 0, shift = 0, rev = 0, d0 = 0, d1 = 0, up = 0, down = 0, tot = 0;
       for (let sd = 0; sd < SEEDS; sd++) {
         const o = TYPE.derangeOrder(n, makeRng('G2-387|' + sd));
-        o.forEach((wordRow, picRow) => { cnt[wordRow][picRow]++; if (wordRow === picRow) fixed++; });
+        const d = TYPE.partnerDistances(o);
+        if (d.filter((x) => x === 1).length > 1) pagesBad++;
+        d.forEach((x) => { tot++; if (x === 0) d0++; if (x === 1) d1++; });
+        o.forEach((w, k) => { if (k > w) down++; else if (k < w) up++; });
         const off = o.map((v, i) => (v - i + n) % n); if (off.every((x) => x === off[0])) shift++;
+        if (o.join(',') === '5,4,3,2,1,0') rev++;
       }
-      const exp = SEEDS / (n - 1);
-      let worst = 0;
-      for (let i = 0; i < n; i++) for (let j = 0; j < n; j++) if (i !== j) worst = Math.max(worst, Math.abs(cnt[i][j] - exp) / exp);
-      ok(fixed === 0 && shift === 0, `F4: ${fixed} fixed points, ${shift} constant shifts over ${SEEDS} seeds`);
-      ok(worst <= 0.10, `F4: a partner cell is ${(worst * 100).toFixed(1)} % off uniform (> 10 %) over ${SEEDS} seeds`);
-      console.log(`7c. F4 partner rows over ${SEEDS} seeds: worst cell ${(worst * 100).toFixed(1)} % off uniform (≤ 10 %), 0 fixed points, 0 constant shifts`);
-      // the shipped instance (the rendered d2 en page)
+      const bal = Math.abs(up - down) / ((up + down) / 2);
+      ok(d0 === 0 && pagesBad === 0 && shift === 0 && rev === 0, `F4: over ${SEEDS} seeds ${d0} partners at distance 0, ${pagesBad} pages with > 1 at distance 1, ${shift} shifts, ${rev} reversals`);
+      ok(bal <= 0.10, `F4: partners below ${down} vs above ${up} (${(bal * 100).toFixed(1)} % apart > 10 %)`);
+      console.log(`7c. F4 over ${SEEDS} seeds: distance-1 share ${(d1 / tot * 100).toFixed(1)} % (≤ 1 per page on every page), 0 at distance 0, 0 shifts, 0 reversals, below/above ${down}/${up} (${(bal * 100).toFixed(1)} % apart)`);
       const ord = /data-lcs-order="([0-9,]+)"/.exec(faceHtml['G2-387'] || '');
       ok(!!ord, 'F4: the shipped page carries no data-lcs-order');
+      // the shipped instance per locale: the production seed (instanceSeed, unit null) over each locale's bank
+      const { instanceSeed } = require('../lib/rng.js');
+      const spec4 = loadType('G2-387');
+      const blocks = { en: EN };
+      for (const [loc, b] of Object.entries(DRAFT_BANKS)) blocks[loc] = b;
+      for (const [loc, b] of Object.entries(blocks)) {
+        let meta;
+        try { meta = TYPE._buildWith(b, spec4.difficulty[2], { locale: loc }, { rng: makeRng(instanceSeed({ typeId: 'G2-387', theme: null, difficulty: 2, seedEpoch: 1 })) }).meta; }
+        catch (e) { console.log(`7c. F4 shipped ${loc}: refused — ${e.message.slice(0, 120)}`); continue; }
+        const d = TYPE.partnerDistances(meta.order);
+        ok(!d.includes(0) && d.filter((x) => x === 1).length <= 1, `F4 shipped ${loc}: partner distances ${d.join(',')} (≤ 1 at distance 1, none at 0)`);
+        console.log(`7c. F4 shipped ${loc}: order ${meta.order.join(',')} → partner distances ${d.join(',')}`);
+      }
+    }
+    // F5 (and the spaced nodes of F1 / F2) in EVERY unit: the word gap ≥ 0.3 em is measured by verify()'s raster on
+    // the draft sentences where a draft bank exists (the it panel's "dorme sul"), else on the en sentences
+    for (const pr of PROBES) {
+      const draft = Object.entries(DRAFT_BANKS).find(([loc, b]) => loc === pr.loc && (b.units || []).includes(pr.unit));
+      const block = draft ? draft[1] : Object.assign({}, pr.block || EN, { sentences: EN.sentences, levels: Object.assign({}, (pr.block || EN).levels) });
+      const spec5 = loadType('G3-401');
+      const t5 = Object.assign({}, spec5, { build({ difficulty, locale, unit }, ctx) { return TYPE._buildWith(block, spec5.difficulty[difficulty], { locale: String(locale).slice(0, 2), unit }, ctx); } });
+      TYPE._verifyBank = () => block;
+      try {
+        const out = await renderInstance({ type: t5, theme: null, difficulty: 2, locale: pr.loc, unit: pr.unit, page, outDir: OUT, baseName: `G3-401-probe-${pr.unit}-d2`, strings: { title: 'Sentences', instruction: 'Trace the grey sentence, then copy each printed sentence in cursive on the two lines below it.' } });
+        ok(out.qa.verify.length === 0 && out.qa.lints.length === 0, `G3-401 ${pr.unit}${draft ? ' (draft sentences)' : ''}: verify ${out.qa.verify.join(' | ')} lints ${out.qa.lints.join(' | ')}`);
+        const gaps = await page.evaluate(() => [...document.querySelectorAll('[data-lcs-kind="sentence"]')].map((n) => n.style.wordSpacing));
+        console.log(`7d. G3-401 copy ${pr.unit}${draft ? ' (draft)' : ''}: word-spacing ${gaps.join(',') || 'none'} verify ${out.qa.verify.length} → ${out.pngPath}`);
+      } catch (e) { console.log(`7d. G3-401 copy ${pr.unit}: refused — ${e.message.slice(0, 140)}`); }
+      finally { delete TYPE._verifyBank; }
     }
     // the face poisons (render: mutated copies of the clean face pages; verify must name the defect)
     const facePoison = async (label, id, mutateDom, re) => {
@@ -636,6 +712,11 @@ async function main() {
       const keys = cards.map((c) => c.dataset.lcsWord);
       keys.forEach((k, i) => { const t = tiles.find((x) => x.dataset.lcsPic === keys[(i + 1) % keys.length]); col.appendChild(t); });
     }, /constant shift/);
+    await facePoison('PR20 F4 three adjacent swaps (every partner one row away)', 'G2-387', () => {
+      const cards = [...document.querySelectorAll('.cw-card')], col = document.querySelectorAll('.ws-match-col')[1];
+      const tiles = [...col.children]; const keys = cards.map((c) => c.dataset.lcsWord);
+      for (const i of [1, 0, 3, 2, 5, 4]) col.appendChild(tiles.find((x) => x.dataset.lcsPic === keys[i]));
+    }, /position tell: 6 partners stand one row away/);
     await facePoison('PR7 F4 six words with six different initials', 'G2-387', () => {
       const pool = [['animals/cat', 'cat'], ['animals/duck', 'duck'], ['animals/fish', 'fish'], ['animals/owl', 'owl'], ['animals/pig', 'pig'], ['fruits/lemon', 'lemon']];
       const cards = [...document.querySelectorAll('.cw-card')], tiles = [...document.querySelectorAll('.ws-match-col')[1].children];
@@ -644,6 +725,9 @@ async function main() {
       cards.forEach((c) => { const [k, w] = map[c.dataset.lcsWord]; c.dataset.lcsWord = k; c.querySelector('[data-lcs-cursive]').textContent = w; });
       tiles.forEach((t) => { t.dataset.lcsPic = map[t.dataset.lcsPic][0]; });
     }, /clash: 0 same-initial pairs/);
+    await facePoison('PR21 F5 words squeezed together (word-spacing back to 0 and a tight kern)', 'G3-401', () => {
+      document.querySelector('[data-lcs-kind="sentence"]').style.wordSpacing = '-0.12em';
+    }, /stand [0-9.]+ px apart/);
     await facePoison('PR9 F5 the grey model under all three sentences', 'G3-401', () => {
       const first = document.querySelector('.cw-block[data-lcs-block="0"] .cw-row[data-lcs-row="A"] .cw-chains');
       [...document.querySelectorAll('.cw-block')].slice(1).forEach((b) => {
@@ -678,6 +762,10 @@ async function main() {
       if (app.length) console.log(`poison killed PR19 an instruction naming apparatus not on the page → ${app.join(', ')}`);
     }
     // bank poisons on the face data
+    bankPoison('P19 a two-sentence instruction (the old G2-386)', 'en', EN, (b) => { b.strings['G2-386'].instruction = 'Trace each grey word, then write it. Add the dots and crosses last.'; }, 7, /more than one sentence/);
+    bankPoison('P20 copy before trace (the old G3-401, as one sentence)', 'en', EN, (b) => { b.strings['G3-401'].instruction = 'Copy each printed sentence in cursive on the two lines below it, tracing the grey sentence first.'; }, 7, /copies before it traces/);
+    bankPoison('P21 de "ohne abzusetzen" over capitalised nouns', 'de', Object.assign({}, DE_PROBE, { words: { 'animals/cat': 'Katze' } }), (b) => { b.strings = { 'G2-386': { title: 'Wörter', instruction: 'Spure jedes graue Wort ohne abzusetzen nach und schreibe es.' } }; }, 7, /lifts the pen \(a capital start\)/);
+    bankPoison('P22 no "uten å løfte" over a word with a lift letter', 'no', NO, (b) => { b.words = { 'animals/fish': 'fisk' }; b.strings = { 'G2-386': { title: 'Ord', instruction: 'Skriv over hvert grå ord uten å løfte blyanten.' } }; }, 7, /lifts the pen \(a lift letter\)/);
     bankPoison('P18 an F3 word over 8 letters', 'en', EN, (b) => { b.words['toys/robot'] = 'robotrobot'; }, 5, /> 8 letters/);
     // build refusals on the faces
     throws(() => TYPE._buildWith(Object.assign({}, EN, { words: { 'toys/kite': 'kite', 'weather/sun': 'sun', 'animals/cat': 'cat', 'animals/owl': 'owl' } }), loadType('G2-386').difficulty[2], { locale: 'en' }, { rng: makeRng('x') }), /no 4-word set|fewer than/, 'F3 with no dot / join word set');

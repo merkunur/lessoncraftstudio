@@ -52,11 +52,11 @@ const HABITATS_LOC = {
       polar: 'Polar Ice', 'polar-arctic': 'Arctic', savanna: 'Savanna', rainforest: 'Rainforest',
     },
     adapt: {
-      'camel-hump': 'Its hump stores fat, so it can go a long time without food in the desert.',
+      'camel-hump': 'Its hump stores fat, so it can go a long time without food.',
       'giraffe-neck': 'Its long neck reaches the leaves high up in the trees.',
       'elephant-trunk': 'Its long trunk sucks up water and picks up food.',
-      'penguin-flippers': 'Its wings are flippers: it swims fast in the icy sea but cannot fly.',
-      'walrus-tusks': 'It pulls itself up onto the ice with its long tusks.',
+      'penguin-flippers': 'Its wings are flippers: it swims fast but cannot fly.',
+      'walrus-tusks': 'It uses its long tusks to pull its heavy body out of the water.',
       'woodpecker-beak': 'Its strong, sharp beak drills holes in tree trunks.',
       'beaver-teeth': 'Its big front teeth cut down trees to build its home in the water.',
       'whale-blowhole': 'It breathes air through a hole on top of its head.',
@@ -71,7 +71,7 @@ const HABITATS_LOC = {
       shark: ['shark'], clownfish: ['clownfish', 'fish'], crab: ['crab'], ray: ['ray', 'stingray'],
       'seal-grey': ['seal'], 'seal-white': ['seal', 'baby seal'], walrus: ['walrus'], narwhal: ['narwhal'], penguin: ['penguin'],
       deer: ['deer', 'fawn'], squirrel: ['squirrel'], woodpecker: ['woodpecker'], badger: ['badger'], moose: ['moose'],
-      frog: ['frog'], dragonfly: ['dragonfly'], beaver: ['beaver'], duck: ['duck', 'duckling'], swan: ['swan'], heron: ['heron'],
+      frog: ['frog'], dragonfly: ['dragonfly'], beaver: ['beaver'], duck: ['duck', 'duckling'], swan: ['swan'],
       butterfly: ['butterfly'], bee: ['bee'], grasshopper: ['grasshopper'], ladybug: ['ladybug', 'ladybird'],
       lion: ['lion'], zebra: ['zebra'], giraffe: ['giraffe'], elephant: ['elephant'], rhinoceros: ['rhinoceros', 'rhino'], ostrich: ['ostrich'],
       monkey: ['monkey'], gorilla: ['gorilla'], orangutan: ['orangutan'], sloth: ['sloth'], toucan: ['toucan'], macaw: ['macaw', 'parrot'],
@@ -79,19 +79,20 @@ const HABITATS_LOC = {
     },
     needs: { line: 'Every animal needs food, water and a home.', foodHead: 'Food', homeHead: 'Home' },
     report: { animals: 'Animals that live here', plant: 'A plant that grows here', hot: 'hot', cold: 'cold', wet: 'wet', dry: 'dry' },
+    placeWords: ['desert', 'sea', 'ocean', 'ice', 'arctic', 'antarctic', 'pond', 'lake', 'forest', 'woods', 'meadow', 'field', 'savanna', 'rainforest', 'jungle'],
     homeWord: { nest: 'nest', hive: 'hive', web: 'web', burrow: 'burrow', anthill: 'anthill', lodge: 'lodge' },
     refuse: [],
     refuseClaims: [],
     strings: {
       'G1-398': {
         title: 'Animal Habitats: Match the Animal',
-        instruction: 'Look at the habitats. Under each animal, write the letter of the habitat where it lives.',
+        instruction: 'Under each animal, write the letter of the habitat where it lives.',
       },
       'K-383': { title: 'Animal Homes', instruction: 'Draw a line from each animal to its home.' },
-      'G1-406': { title: 'Who Does Not Live Here?', instruction: 'Look at each habitat. Cross out the animal that does not live there.' },
-      'G2-380': { title: 'How Animals Adapt', instruction: 'Read each sentence. Write the letter of the animal it tells about in the box.' },
+      'G1-406': { title: 'Who Does Not Live Here?', instruction: 'In each row, cross out the animal that does not live in that habitat.' },
+      'G2-380': { title: 'How Animals Adapt', instruction: 'Write the letter of the animal each sentence tells about in its box.' },
       'G1-407': { title: 'What Animals Need', instruction: 'For each animal, circle the food it eats and the home it lives in.' },
-      'G2-381': { title: 'My Habitat Report', instruction: 'Draw three animals that live in this habitat and write their names. Write a plant that grows there. Circle the words that fit.' },
+      'G2-381': { title: 'My Habitat Report', instruction: 'Draw three animals that live in this habitat, write their names and a plant that grows there, and circle the right word in each pair.' },
     },
   },
 };
@@ -121,7 +122,7 @@ const HABITATS_LOC = {
 //   badger     forest, meadow (setts at field edges)              frog       pond, rainforest (tree frogs; was a
 //                                                                            notWithWindow rule, now honest lives)
 // noStranger (F2): an animal whose honest range is wider than any row the table can name is never the
-// stranger — the dragonfly and the pond birds (duck, swan, heron); an insect is never the stranger at all.
+// stranger — the dragonfly and the pond birds (duck, swan); an insect is never the stranger at all. (heron EXCLUDED, fix round 1)
 // notStrangerIn (F2): rows this animal is never the stranger of. Every cetacean (whale, dolphin, narwhal) is
 // barred from the RAINFOREST row in every locale: Brazilian children know the boto cor-de-rosa, the Amazon
 // river dolphin, so a dolphin 'stranger' in an Amazônia / selva row has two defensible answers (lead ruling
@@ -129,7 +130,7 @@ const HABITATS_LOC = {
 // Kept narrow, with the reason: dragonfly pond (a teacher says "by the pond"; FAR tables keep it off every
 // rainforest / meadow stranger slot anyway); beaver pond (the lodge stands IN the pond — widening it to forest
 // would leave the es base (selva, bosque, mar, lago) with no pond animal at all); squirrel forest; duck, swan,
-// heron pond (their sea coasts are the `coastal` rule); ostrich, lion, zebra, giraffe savanna; sloth, toucan,
+// (heron excluded) pond (their sea coasts are the `coastal` rule); ostrich, lion, zebra, giraffe savanna; sloth, toucan,
 // macaw, gorilla, orangutan rainforest; the sea animals ocean.
 const ANIMALS = [
   // ocean
@@ -145,9 +146,9 @@ const ANIMALS = [
   { key: 'seal-grey', pic: { theme: 'ocean life', noun: 'seal' }, kidName: 'seal (a BROWN seal)', lives: ['ocean', 'polar-arctic'], notWithWindow: ['polar'], lookalike: ['walrus', 'seal-white'] },
   // polar
   { key: 'seal-white', pic: { theme: 'zoo animals', noun: 'seal' }, kidName: 'baby seal (white pup)', lives: ['polar-arctic', 'ocean'], faces: ['odd'], oddRow: 'polar-arctic' },
-  { key: 'walrus', pic: { theme: 'winter', noun: 'walrus' }, kidName: 'walrus', lives: ['polar-arctic'], lookalike: ['seal-grey'] },
+  { key: 'walrus', pic: { theme: 'winter', noun: 'walrus' }, kidName: 'walrus', lives: ['polar-arctic', 'ocean'], lookalike: ['seal-grey'] },
   { key: 'narwhal', pic: { theme: 'ocean life', noun: 'narwhal' }, kidName: 'narwhal / unicorn whale', lives: ['polar-arctic', 'ocean'], faces: ['odd'], oddRow: 'polar-arctic', cetacean: true, notStrangerIn: ['rainforest'] },
-  { key: 'penguin', pic: { theme: 'birds 2', noun: 'penguin' }, kidName: 'penguin', lives: ['polar-antarctic'], kind: 'bird' },
+  { key: 'penguin', pic: { theme: 'birds 2', noun: 'penguin' }, kidName: 'penguin', lives: ['polar-antarctic', 'ocean'], kind: 'bird' },
   // forest
   { key: 'deer', pic: { theme: 'forest creatures', noun: 'deer' }, kidName: 'deer / Bambi (a spotted fawn)', lives: ['forest', 'meadow'], panelCheck: 'de/sv/da/no/fi: a fawn in a meadow is a Nordic / German image' },
   { key: 'squirrel', pic: { theme: 'forest creatures', noun: 'squirrel' }, kidName: 'squirrel', lives: ['forest'] },
@@ -155,12 +156,11 @@ const ANIMALS = [
   { key: 'badger', pic: { theme: 'forest creatures', noun: 'badger' }, kidName: 'badger', lives: ['forest', 'meadow'] },
   { key: 'moose', pic: { theme: 'animals', noun: 'moose' }, kidName: 'moose (palmate antlers)', lives: ['forest', 'pond'], notWithWindow: ['pond'] },
   // pond
-  { key: 'frog', pic: { theme: 'forest creatures', noun: 'frog' }, kidName: 'frog', lives: ['pond', 'rainforest'] },
+  { key: 'frog', pic: { theme: 'forest creatures', noun: 'frog' }, kidName: 'frog', lives: ['pond', 'meadow', 'forest', 'rainforest'] },
   { key: 'dragonfly', pic: { theme: 'forest creatures', noun: 'dragonfly' }, kidName: 'dragonfly', lives: ['pond'], kind: 'insect', noStranger: 'hunts over every wet meadow, savanna waterhole and rainforest stream' },
   { key: 'beaver', pic: { theme: 'forest creatures', noun: 'beaver' }, kidName: 'beaver', lives: ['pond'] },
   { key: 'duck', pic: { theme: 'birds 2', noun: 'duck' }, kidName: 'duck / duckling (yellow)', lives: ['pond'], coastal: true, kind: 'bird', noStranger: 'water birds live wherever there is water: African waterholes, the Amazon, Arctic tundra', panelCheck: 'may be named "chick" (a farm answer; no farm window on any page)' },
   { key: 'swan', pic: { theme: 'birds 2', noun: 'swan' }, kidName: 'swan', lives: ['pond'], coastal: true, kind: 'bird', noStranger: 'swans breed on the Arctic tundra' },
-  { key: 'heron', pic: { theme: 'birds 2', noun: 'heron' }, kidName: 'heron', lives: ['pond'], coastal: true, kind: 'bird', noStranger: 'herons fish in savanna and rainforest waters' },
   // meadow
   { key: 'butterfly', pic: { theme: 'forest creatures', noun: 'butterfly' }, kidName: 'butterfly', lives: ['meadow', 'forest', 'rainforest', 'savanna', 'pond'], kind: 'insect' },
   { key: 'bee', pic: { theme: 'forest creatures', noun: 'bee' }, kidName: 'bee', lives: ['meadow', 'forest', 'rainforest', 'savanna'], kind: 'insect' },
@@ -221,12 +221,13 @@ const HABITATS = {
     { theme: 'winter', noun: 'polar_bear', why: 'vocab key NULL' },
     { theme: 'insects and bugs', noun: 'worm', why: 'reads as a smiling snake' },
     { theme: 'forest creatures', noun: 'earthworm', why: 'reads as a smiling snake' },
+    { theme: 'birds 2', noun: 'heron', why: 'fix round 1: reads as a STORK to Nordic children and as a cigogne to French ones (sv/da/no/fi/fr panels) — a stork is not a pond animal' },
     { theme: 'spring', noun: 'nest', why: 'two chicks inside; every home is drawn' },
     { theme: 'spring', noun: 'birdhouse', why: 'a human home' },
     { theme: 'winter', noun: 'igloo', why: 'a human home' },
   ],
   // animal keys refused by name (several habitats, or a naming clash) — none may be added to ANIMALS
-  EXCLUDED_KEYS: ['fox', 'owl', 'hedgehog', 'raccoon', 'snail', 'mouse', 'toad', 'salamander', 'chameleon', 'hyena', 'meerkat',
+  EXCLUDED_KEYS: ['heron', 'stork', 'fox', 'owl', 'hedgehog', 'raccoon', 'snail', 'mouse', 'toad', 'salamander', 'chameleon', 'hyena', 'meerkat',
     'puffin', 'stork', 'tiger', 'hippopotamus', 'koala', 'panda', 'wolf', 'bear', 'jaguar', 'cheetah', 'leopard', 'squid', 'orca',
     'chimpanzee', 'otter', 'gazelle', 'antelope', 'reindeer', 'parrot', 'polar_bear', 'sea_turtle'],
   REFUSED_THEMES: ['pets', 'farm animals'],
@@ -238,16 +239,20 @@ const HABITATS = {
   },
   HOMES_REFUSED: ['cave', 'tree-hole', 'birdhouse', 'igloo', 'kennel', 'hutch', 'den'],
   ADAPT: [
-    { key: 'camel-hump', trueOf: ['camel'] }, { key: 'giraffe-neck', trueOf: ['giraffe'] }, { key: 'elephant-trunk', trueOf: ['elephant'] },
+    { key: 'camel-hump', trueOf: ['camel'] }, { key: 'giraffe-neck', trueOf: ['giraffe'], answers: [], why: 'both giraffe pictures are CALVES with a short neck' }, { key: 'elephant-trunk', trueOf: ['elephant'] },
     { key: 'penguin-flippers', trueOf: ['penguin'] }, { key: 'walrus-tusks', trueOf: ['walrus'] }, { key: 'woodpecker-beak', trueOf: ['woodpecker'] },
-    { key: 'beaver-teeth', trueOf: ['beaver'] }, { key: 'whale-blowhole', trueOf: ['whale', 'dolphin', 'narwhal'] },
-    { key: 'fish-gills', trueOf: ['clownfish', 'shark', 'ray', 'octopus', 'crab'], answers: ['clownfish', 'shark', 'ray'] }, { key: 'duck-feet', trueOf: ['duck', 'swan', 'frog', 'beaver', 'penguin'] },
-    { key: 'sloth-claws', trueOf: ['sloth'] }, { key: 'toucan-beak', trueOf: ['toucan', 'macaw'], answers: ['toucan'] }, { key: 'squirrel-tail', trueOf: ['squirrel', 'monkey'] },
+    { key: 'beaver-teeth', trueOf: ['beaver'] }, { key: 'whale-blowhole', trueOf: ['whale', 'dolphin', 'narwhal'], answers: [], why: 'no blowhole is drawn on the whale or the dolphin' },
+    { key: 'fish-gills', trueOf: ['clownfish', 'shark', 'ray', 'octopus', 'crab'], answers: [], why: 'no gills are drawn on the clownfish, the shark or the ray' }, { key: 'duck-feet', trueOf: ['duck', 'swan', 'frog', 'beaver', 'penguin'], answers: ['duck'] },
+    { key: 'sloth-claws', trueOf: ['sloth'], answers: [], why: 'the sitting sloth shows no long claws' }, { key: 'toucan-beak', trueOf: ['toucan', 'macaw'], answers: ['toucan'] }, { key: 'squirrel-tail', trueOf: ['squirrel', 'monkey'], answers: ['squirrel'] },
   ],
   // trueOf widened at the face build (2026-09-23, hand-read, conservative): octopus and crab ALSO breathe with
   // gills; a macaw ALSO picks fruit with a big beak — each would be a second right answer on one page.
   // `answers` (default = trueOf) = the animals a claim may be ASKED about; trueOf = everything it is true of
   // (the exclusivity set). The toucan claim is the toucan's, never answered by the macaw.
+  // fix round 1 (2026-09-23): every ANSWER picture was re-opened at 150 px — the drawn animal must SHOW the trait.
+  // Shown: camel hump, elephant trunk (a calf, trunk drawn), penguin flippers, walrus tusks, woodpecker beak,
+  // beaver front teeth, duckling's webbed orange feet (the swan's feet are hidden -> not an answer), toucan beak,
+  // squirrel's bushy tail. `answers: []` keeps a claim's literal in the bank but never on a page.
   ADAPT_BANNED: ['hump-water', 'fat-warm', 'stripes', 'chameleon', 'is-fish', 'cheetah'],
   NEEDS: {
     bee: { food: 'flower', home: 'hive', neverEats: ['mosquito', 'grass', 'leaf'], neverHome: ['web', 'lodge'] },
@@ -263,6 +268,10 @@ const HABITATS = {
   // G1-202 / G2-318 printed strings the titles and instructions must never equal (Boundary, m)
   G1_202_EN: { title: 'Where Do Animals Live?', instruction: 'Draw a line from each animal to where it lives.' },
   LAYOUTS: ['homes', 'odd', 'adapt', 'needs', 'report'],
+  // F5 (fix round 1, de panel): only a word pair with a TRUE answer for the habitat is offered; the report
+  // habitat is the first set member with at least one true pair (forest and meadow have none: a forest is
+  // neither hot nor cold, wet nor dry for a child to circle honestly)
+  CHIP_TRUTH: { ocean: { wet: 'wet' }, pond: { wet: 'wet' }, polar: { temp: 'cold' }, savanna: { temp: 'hot', wet: 'dry' }, rainforest: { temp: 'hot', wet: 'wet' }, forest: {}, meadow: {} },
   FACE_IDS: { homes: 'K-383', odd: 'G1-406', adapt: 'G2-380', needs: 'G1-407', report: 'G2-381' },
 };
 

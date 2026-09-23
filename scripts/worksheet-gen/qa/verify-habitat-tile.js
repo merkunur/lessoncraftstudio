@@ -62,7 +62,8 @@ function poisonTiles() {
   const pondBand = pond.replace(/fill="#F5E9D2" data-lcs-part="bank"/, `fill="${T.tealSoft}" data-lcs-part="bank"`).replace(/<path d="M40 60 C[^"]*" fill="none"[^>]*\/>/, '');
   const meadow = HT.habitatTile({ id: 'meadow', w: W_GATE }).svg;
   const tree = `<path d="M140 50 Q142 42 158 38 Q176 30 204 29 Q236 29 252 37 Q266 42 268 50 Z" fill="${T.teal}"/><rect x="196" y="50" width="8" height="40" fill="${T.teal}"/>`;
-  const meadowSav = meadow.replace(/fill="#DDEBE8" data-lcs-part="grass"/, `fill="${T.creamDeep}" data-lcs-part="grass"`).replace('</g><rect', tree + '</g><rect');
+  // the savanna poison: the lawn gone (plain dry ground) and a teal-fill tree added
+  const meadowSav = meadow.replace(/<path d="[^"]*" fill="none" stroke="#146B5E" stroke-width="[\d.]+" stroke-linecap="round" data-lcs-lawn=""\/>/, '').replace('</g><rect', tree + '</g><rect');
   const forest = HT.habitatTile({ id: 'forest', w: W_GATE }).svg;
   const forestRain = forest.replace(/<rect x="0" y="0" width="300" height="136" fill="#FFFFFF"\/>/, `<rect x="0" y="0" width="300" height="136" fill="${T.tealSoft}"/>`).replace(/(<path d="M150 [^"]*" fill=")#146B5E"/g, `$1${T.white}"`);
   if (pondBand === pond || (pondBand.match(/<path d="M40 60 C/g) || []).length !== 1 || meadowSav === meadow || forestRain === forest) throw new Error('a poison edit matched nothing (NEEDLE MATCHED NOTHING)');
@@ -120,7 +121,7 @@ function signatures(id, r) {
   if (id === 'savanna') { const run = runIn(30 * U, 50 * U); if (run < 0.3 * w) f.push(`savanna: darkest run ${(100 * run / w).toFixed(0)} % in y 30..50 (< 30 %: no umbrella tree)`); }
   if (id === 'meadow') {
     const run = runIn(0, h); if (run >= 0.15 * w) f.push(`meadow: a dark run ${(100 * run / w).toFixed(0)} % (>= 15 %: a tree or a dark mass)`);
-    if (!isSoft(C(Math.round(w * 0.5), Math.round(108 * U)))) f.push('meadow: the ground probe is not grass');
+    if (r.lawn != null && r.lawn < r.lawnFloor) f.push(`meadow: the ground carries no lawn texture (${(100 * r.lawn).toFixed(1)} % dark vs the savanna ground's ${(100 * r.lawnFloor).toFixed(1)} %)`);
   }
   if (id === 'polar') {
     const seen = new Uint8Array(w * h); let best = 0;
@@ -131,6 +132,8 @@ function signatures(id, r) {
   else if (whiteFrac < 0.30) f.push(`${id}: white ${(100 * whiteFrac).toFixed(0)} % (< 30 %: no sky)`);
   return { f, whiteFrac, mean: luma.reduce((s, v) => s + v, 0) / luma.length };
 }
+/** the dark-pixel share of the ground band y 98..116 units (the meadow's lawn texture vs the savanna's plain dry ground) */
+const groundDark = (r) => { const U = r.w / 300; let n = 0, d = 0; for (let y = Math.round(98 * U); y < Math.round(116 * U); y++) for (let x = 12; x < r.w - 12; x++) { n++; if (r.luma[y * r.w + x] < 150) d++; } return d / n; };
 const dist = (a, b) => { let s = 0; for (let i = 0; i < a.luma.length; i++) s += Math.abs(a.luma[i] - b.luma[i]); return s / a.luma.length; };
 
 async function main() {
@@ -143,6 +146,10 @@ async function main() {
     const real = await rasters(page, ids.map((id) => HT.habitatTile({ id, w: W_GATE }).svg));
     const R = Object.fromEntries(ids.map((id, i) => [id, real[i]]));
     const [pPond, pMeadow, pForest] = await rasters(page, [P.pond, P.meadow, P.forest]);
+    // fix round 1: the meadow's ground must carry MORE lawn texture than its near partner's (savanna) plain ground
+    R.meadow.lawn = groundDark(R.meadow); R.meadow.lawnFloor = groundDark(R.savanna);
+    pMeadow.lawn = groundDark(pMeadow); pMeadow.lawnFloor = R.meadow.lawnFloor;
+    console.log(`meadow lawn texture ${(100 * R.meadow.lawn).toFixed(1)} % dark vs savanna ground ${(100 * R.meadow.lawnFloor).toFixed(1)} % (poison ${(100 * pMeadow.lawn).toFixed(1)} %)`);
     const sig = {};
     for (const id of ids) { sig[id] = signatures(id, R[id]); sig[id].f.forEach((x) => ok(false, 'signature ' + x)); assertions++; }
     // the rainforest is the darkest window
@@ -173,7 +180,7 @@ async function main() {
       if (k) killed++;
     };
     judge('P pond as a full-width band (vs ocean)', 'pond', 'ocean', pPond, /not LAND|near-pair collapse/);
-    judge('P meadow with creamDeep ground + a teal tree (vs savanna)', 'meadow', 'savanna', pMeadow, /dark run|not grass|near-pair collapse/);
+    judge('P meadow with plain dry ground (no lawn) + a teal tree (vs savanna)', 'meadow', 'savanna', pMeadow, /dark run|no lawn texture|near-pair collapse/);
     judge('P forest with white conifers + a tealSoft background (vs rainforest)', 'forest', 'rainforest', pForest, /no sky|near-pair collapse/);
     if (!process.argv.includes('--no-sheet')) pngs = await H.sheet(page, 'tiles', `<div style="display:flex;flex-wrap:wrap;gap:8px;width:1330px">` +
       ids.map((id) => `<div>${HT.habitatTile({ id, w: 196 }).svg}</div>`).join('') + `</div><div style="display:flex;flex-wrap:wrap;gap:8px;width:1330px;margin-top:10px">` +

@@ -218,6 +218,7 @@ async function faceGate({ page, ok, judge, validateBank, quick, log }) {
   const rp = async (name, t, re, opts = {}) => {
     const r = await render(t, { name: 'poison', ...opts });
     const f = [...r.verify, ...r.lints.map((l) => JSON.stringify(l)), ...(opts.shapeKey ? shape(null, r, opts.shapeKey) : [])];
+    if (opts.expectClean) { judge(name, f.length ? f : ['CLEAN'], /^CLEAN$/); return; }   // a CONTROL: must render verify-clean
     judge(name, f, re);
   };
   // P8 F3: duck-feet with the duck AND the swan in the bank
@@ -232,7 +233,7 @@ async function faceGate({ page, ok, judge, validateBank, quick, log }) {
   // PG: the lead's defect — a butterfly as the Rainforest row's stranger (a generalist insect)
   await rp('PG F2 rainforest stranger = butterfly (a generalist insect)', forced(T['G1-406'], { forceOdd: oddRows([['rainforest', ['gorilla', 'macaw', 'sloth'], 'butterfly', 3], ['ocean', ['whale', 'shark', 'crab'], 'lion', 1], ['forest', ['deer', 'squirrel', 'badger'], 'dolphin', 0], ['savanna', ['zebra', 'giraffe', 'ostrich'], 'octopus', 2]]) }), /butterfly DOES live in rainforest|generalist insect/);
   // PH: a pond bird as a savanna stranger (single-habitat on paper; noStranger by the audit)
-  await rp('PH F2 savanna stranger = heron (a water bird lives at every waterhole)', forced(T['G1-406'], { forceOdd: oddRows([['savanna', ['zebra', 'giraffe', 'ostrich'], 'heron', 2], ['ocean', ['whale', 'shark', 'crab'], 'lion', 0], ['forest', ['deer', 'squirrel', 'badger'], 'dolphin', 3], ['meadow', ['grasshopper', 'ladybug', 'butterfly'], 'octopus', 1]]) }), /heron is never a stranger/);
+  await rp('PH F2 savanna stranger = duck (a water bird lives at every waterhole)', forced(T['G1-406'], { forceOdd: oddRows([['savanna', ['zebra', 'giraffe', 'ostrich'], 'duck', 2], ['ocean', ['whale', 'shark', 'crab'], 'lion', 0], ['forest', ['deer', 'squirrel', 'badger'], 'dolphin', 3], ['meadow', ['grasshopper', 'ladybug', 'butterfly'], 'octopus', 1]]) }), /duck is never a stranger/);
   // PS: a secondary-home resident (a badger and a deer standing in the Meadow row, the lead's s3 render)
   await rp('PS F2 meadow residents badger + deer (secondary homes)', forced(T['G1-406'], { forceOdd: oddRows([['meadow', ['ladybug', 'badger', 'deer'], 'orangutan', 2], ['ocean', ['whale', 'shark', 'crab'], 'lion', 0], ['forest', ['squirrel', 'woodpecker', 'moose'], 'dolphin', 3], ['savanna', ['zebra', 'giraffe', 'ostrich'], 'octopus', 1]]) }), /resident badger lives in meadow only as a secondary home/);
   // PD: a dolphin as the Rainforest stranger (the boto cor-de-rosa lives in the Amazon; lead ruling, every locale)
@@ -247,6 +248,18 @@ async function faceGate({ page, ok, judge, validateBank, quick, log }) {
     { animal: 'spider', food: 'mosquito', home: 'web', foodX: 'flower', homeX: 'hive', foods: ['mosquito', 'flower'], homes: ['web', 'hive'] },
     { animal: 'rabbit', food: 'grass', home: 'burrow', foodX: 'mosquito', homeX: 'web', foods: ['grass', 'mosquito'], homes: ['burrow', 'web'] },
     { animal: 'beaver', food: 'leaf', home: 'lodge', foodX: 'mosquito', homeX: 'web', foods: ['leaf', 'mosquito'], homes: ['lodge', 'web'] }] } }), /food side: the correct chip is always on the same side/);
+  // fix round 1: F3 an answer whose picture does not SHOW the trait (the giraffe calf for the long neck)
+  await rp('PV F3 the giraffe calf answering "long neck"', forced(T['G2-380'], { forceAdapt: { bank: ['camel', 'lion', 'giraffe', 'woodpecker', 'toucan', 'squirrel', 'elephant'], decoys: ['lion'],
+    rows: [{ claim: 'giraffe-neck', animal: 'giraffe' }, { claim: 'camel-hump', animal: 'camel' }, { claim: 'toucan-beak', animal: 'toucan' }, { claim: 'squirrel-tail', animal: 'squirrel' }, { claim: 'elephant-trunk', animal: 'elephant' }, { claim: 'woodpecker-beak', animal: 'woodpecker' }] } }), /claim giraffe-neck answered by giraffe, not one of its answers/);
+  // addendum 2 (fr panel): page-vs-bank text comparison normalises NBSP / NNBSP; a genuine mismatch still fails
+  {
+    const m1 = build(T['G2-380'], en, {}, 1).meta, c0 = m1.rows[0].claim;
+    const nb = en.adapt[c0].replace(/ /g, '\u00A0').replace(/([:;?!])/, '\u202F$1').replace(/\.$/, '\u202F!').replace(/\u202F!$/, '.');   // NBSP everywhere; NNBSP before a : ; ? ! when the claim has one
+    await rp('NB control: the claim with NBSP / NNBSP typography (must PASS)', forced(T['G2-380'], { forceText: { [c0]: nb } }), /^$/, { seedEpoch: 1, expectClean: true });
+    await rp('NB2 a genuinely different claim text', forced(T['G2-380'], { forceText: { [c0]: en.adapt[c0].replace(/\w+\.$/, 'something.') } }), new RegExp(`row ${c0}: prints`), { seedEpoch: 1 });
+  }
+  // addendum 1 (de panel, item 8): a word pair with no true answer for the habitat (hot / cold on the ocean)
+  await rp('PC F5 hot / cold offered on the ocean report', forced(T['G2-381'], { forceTruth: { temp: 'hot', wet: 'wet' } }), /hot \/ cold pair has no true answer for ocean/);
   await rp('PR10 F5 an animal picture inside the window', forced(T['G2-381'], { forceReportImg: true }), /open page answers itself/);
   // IA: an instruction naming apparatus not on its face (rule 10 on the bank + the rendered check)
   judge('IA F1 instruction "Write the letter under each home."', validateBank({ ...en, strings: { ...en.strings, 'K-383': { ...en.strings['K-383'], instruction: 'Write the letter under each home.' } } }, 'en'), /rule 10: en K-383 instruction names apparatus/);

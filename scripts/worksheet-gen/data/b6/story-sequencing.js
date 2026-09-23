@@ -252,9 +252,9 @@ function sandwich() {
   // P1-P2: two slices side by side (x22..62 and x74..114, y44..84), crust 5 (coralSoft: a prop fill)
   const slice = (x, spread) => G([
     R(x, 44, 40, 40, { fill: 'coralSoft', ...OUT, rx: 6 }),
-    R(x + 5, 49, 30, 30, { fill: spread ? 'coral' : 'white', rx: 4, ...(spread ? { irr: 'spread' } : {}) }),
+    R(x + 5, 49, 30, 30, { fill: spread ? 'coral' : 'white', rx: 4 }),
   ]);
-  const knife = (jammy) => G([R(70, 90, 28, 6, { fill: 'white', ...DET, rx: 3 }), R(98, 90, 14, 6, { fill: 'ink', rx: 2 }), ...(jammy ? [R(70, 90, 9, 6, { fill: 'coral', rx: 3 })] : [])]);
+  const knife = (jammy) => G([R(70, 89, 28, 8, { fill: 'white', ...DET, rx: 3 }), R(98, 89, 14, 8, { fill: 'ink', rx: 2 }), ...(jammy ? [R(70, 89, 10, 8, { fill: 'coral', rx: 3, irr: 'spread' })] : [])]);
   const jar = G([R(96, 12, 20, 28, { fill: 'tealSoft', ...OUT, rx: 4 }), R(94, 6, 24, 8, { fill: 'coral', ...OUT, rx: 2 })]);
   // P3+: ONE closed sandwich (x28..72, y42..86) cut on the diagonal; the top-right half moved 6 up / 6 right (an 8.5-unit gap)
   const LQ = pts('28,42 28,86 72,86');
@@ -262,28 +262,30 @@ function sandwich() {
   const leftHalf = () => [
     Poly(LQ, { fill: 'coralSoft', ...OUT, join: 'round' }),
     Poly(pts('33,54 33,81 60,81'), { fill: 'white' }),
-    Poly(pts('28,42 72,86 63,86 28,51'), { fill: 'coral', irr: 'spread' }),   // the jam along the cut
+    Poly(pts('28,42 72,86 63,86 28,51'), { fill: 'coral' }),   // the jam along the cut (decor: the knife tip carries spread)
   ];
   const cutFill = G([
     Poly(pts('34,36 78,80 78,72 42,36'), { fill: 'codeYellow' }),            // cheese along the cut
     P('M45,38 Q50,40 51,45 Q56,47 58,52 Q63,54 65,59 Q70,61 72,66', { fill: 'none', st: 'teal', sw: 2 }),
-  ], { irr: 'cut' });
+  ]);
   const rightHalf = () => [
     Poly(RQ, { fill: 'coralSoft', ...OUT, join: 'round' }),
     Poly(pts('46,41 73,41 73,68'), { fill: 'white' }),
   ];
   const insideR = insidePoly(RQ);
-  const crumbs = (n) => [[88, 90], [100, 92], [112, 90]].slice(0, n).map(([x, y]) => R(x - 4, y - 4, 8, 8, { fill: 'ink', rx: 3, irr: 'crumb' }));
-  const B1 = [78, 36, 17], B2 = [54, 36, 12], B3 = [78, 60, 12];   // the corner, the top edge, the side edge
+  const crumbs = (n) => [[36, 93], [24, 90], [48, 90], [60, 93], [120, 92]].slice(0, n).map(([x, y]) => R(x - 4, y - 4, 8, 8, { fill: 'ink', rx: 3, irr: 'crumb' }));
+  const B1 = [78, 36, 17];   // the first bite: the corner of the moved half
+  const CRUST = pts('32,34 80,34 80,84 70,84 70,44 32,44');   // the crust left at the end (10 units thick)
   return {
     id: 'sandwich', setKind: 'table', objects: ['bread', 'knife', 'jar'], tags: ['food'], climate: null, excludeLocales: [],
     set: [...SETS.table(), R(14, 84, 132, 16, { fill: 'creamDeep', ...SETLINE, rx: 4 }), R(86, 40, 40, 5, { fill: 'creamDeep', ...SETLINE })],
     panels: [
-      { rank: 1, irr: { spread: 0, cut: 0, bite: 0, crumb: 0 }, prop: [slice(22, false), slice(74, false), knife(false), jar] },
-      { rank: 2, irr: { spread: 1, cut: 0, bite: 0, crumb: 0 }, prop: [slice(22, true), slice(74, false), knife(true), jar] },
-      { rank: 3, irr: { spread: 1, cut: 1, bite: 0, crumb: 0 }, prop: [...leftHalf(), ...rightHalf(), cutFill, knife(true), jar] },
-      { rank: 4, irr: { spread: 1, cut: 1, bite: 1, crumb: 0 }, prop: [...leftHalf(), ...rightHalf(), cutFill, ...biteSet(insideR, [B1], Poly(RQ, { sw: 3 })), knife(true), jar] },
-      { rank: 5, irr: { spread: 1, cut: 1, bite: 3, crumb: 3 }, prop: [...leftHalf(), ...rightHalf(), cutFill, ...biteSet(insideR, [B1, B2, B3], Poly(RQ, { sw: 3 })), knife(true), jar, ...crumbs(3)] },
+      { rank: 1, irr: { spread: 0, bite: 0, crumb: 0 }, prop: [slice(22, false), slice(74, false), knife(false), jar] },
+      { rank: 2, irr: { spread: 1, bite: 0, crumb: 0 }, prop: [slice(22, true), slice(74, false), knife(true), jar] },
+      { rank: 3, irr: { spread: 1, bite: 0, crumb: 1 }, prop: [...leftHalf(), ...rightHalf(), cutFill, knife(true), jar, ...crumbs(1)] },
+      { rank: 4, irr: { spread: 1, bite: 1, crumb: 2 }, prop: [...leftHalf(), ...rightHalf(), cutFill, ...biteSet(insideR, [B1], Poly(RQ, { sw: 3 })), knife(true), jar, ...crumbs(2)] },
+      // the end: only ONE crust is left (the moved half's L-shaped edge, three bites out of its inside) + crumbs
+      { rank: 5, irr: { spread: 1, bite: 3, crumb: 5 }, prop: [Poly(CRUST, { fill: 'coralSoft', ...OUT, join: 'round' }), ...biteSet(insidePoly(CRUST), [[47, 45, 6.5], [61, 45, 6.5], [71, 62, 6.5]], Poly(CRUST, { sw: 3 })), knife(true), jar, ...crumbs(5)] },
     ],
     sub4: [1, 2, 3, 5], sub3: [1, 3, 5], n5: [1, 2, 3, 4, 5],
   };
@@ -332,7 +334,8 @@ function cakeSectors(sectors) {
 }
 function cake() {
   // three used candles lying on the table (a wick each; never lit, never stuck in: both are undoable)
-  const candles = [101, 107, 113].map((y) => G([R(102, y, 22, 5, { fill: 'white', st: 'teal', sw: 2.5, rx: 2 }), L(99, y + 2.5, 102, y + 2.5, { st: 'ink', sw: 1.5, cap: 'round' })]));
+  // lying on the table at the left front of the stand (inside the zoomed window, never at its edge)
+  const candles = [98, 104.5, 111].map((y) => G([R(30, y, 26, 6, { fill: 'white', st: 'teal', sw: 2.5, rx: 2 }), ...[35, 42, 49].map((x) => L(x, y + 6, x + 4, y, { st: 'coral', sw: 2 })), L(56, y + 3, 61, y + 3, { st: 'ink', sw: 2, cap: 'round' })]));
   const crumbs = (list) => list.map(([x, y]) => R(x - 4, y - 4, 8, 8, { fill: 'ink', rx: 3, irr: 'crumb' }));
   const C7 = [[102, 91], [114, 89], [56, 91], [70, 93], [86, 94], [64, 87], [96, 87]];
   return {
@@ -679,6 +682,24 @@ const COMMON = {
   SCRAMBLE3: ['132', '213', '231', '312'],
   MODES: ALL_POOLS,
   SENTENCE_POOL,
+  /**
+   * PARTS — what each story DRAWS (hand-read claim table, fix round 1): the only things a word bank may name.
+   * Every locale's stories.<id>.helpIds (parallel to helpWords) must come from here (validator rule 11).
+   */
+  PARTS: {
+    apple: ['apple', 'bite', 'core', 'stem', 'leaf', 'plate', 'seed'],
+    banana: ['banana', 'peel', 'strip', 'plate', 'stem', 'flesh'],
+    sandwich: ['bread', 'slice', 'jam', 'knife', 'sandwich', 'half', 'crust', 'crumb', 'board', 'jar', 'cheese', 'bite'],
+    cake: ['cake', 'slice', 'half', 'crumb', 'candle', 'stand', 'plate', 'icing', 'layer'],
+    drawing: ['sheet', 'crayon', 'house', 'sun', 'tree', 'roof', 'door', 'picture'],
+    fence: ['fence', 'plank', 'paint', 'brush', 'pot', 'grass', 'garden'],
+    snowman: ['snow', 'snowball', 'snowman', 'track', 'hat', 'carrot', 'nose', 'arm', 'button'],
+    letter: ['card', 'flower', 'pencil', 'writing', 'envelope', 'stamp', 'letter'],
+    'paper-chain': ['paper', 'sheet', 'scissors', 'strip', 'glue', 'ring', 'chain'],
+    'beach-walk': ['sand', 'towel', 'shell', 'footprint', 'child', 'walk', 'beach', 'cloud'],
+    'collage-fish': ['fish', 'sheet', 'paper', 'piece', 'glue', 'glue stick'],
+    hopscotch: ['chalk', 'square', 'pavement', 'hopscotch'],
+  },
 };
 
 /* ------------------------------------------------------------------ the EN block (a SOURCE TO AUDIT) */
@@ -693,48 +714,56 @@ const STORY_SEQUENCING = {
         sentences: ['First, the apple is whole.', 'Next, the apple has one bite.', 'Then, the apple has three bites.', 'Last, only the core is left.'],
         stateWords: ['whole', 'one bite', 'three bites', 'core'],
         helpWords: ['apple', 'bite', 'core', 'stem', 'leaf', 'plate'],
+        helpIds: ['apple', 'bite', 'core', 'stem', 'leaf', 'plate'],
       },
       banana: {
         sentences: ['First, the banana is not peeled.', 'Next, one strip of peel hangs down.', 'Then, three strips hang down.', 'Last, only the empty peel is left.'],
         stateWords: ['not peeled', 'one strip', 'three strips', 'empty peel'],
         helpWords: ['banana', 'peel', 'strip', 'plate'],
+        helpIds: ['banana', 'peel', 'strip', 'plate'],
       },
       sandwich: {
         sentences: ['First, there are two slices of bread.', 'Next, one slice has jam on it.', 'Then, the sandwich is cut in half.', 'Last, only a crust and crumbs are left.'],
         stateWords: ['two slices', 'jam', 'cut in half', 'crumbs'],
         helpWords: ['bread', 'jam', 'knife', 'sandwich', 'half', 'crust'],
+        helpIds: ['bread', 'jam', 'knife', 'sandwich', 'half', 'crust'],
       },
       cake: {
         sentences: ['First, the cake is whole.', 'Next, one slice is cut out.', 'Then, half of the cake is gone.', 'Last, only crumbs are left.'],
         stateWords: ['whole', 'one slice', 'half', 'crumbs'],
         helpWords: ['cake', 'slice', 'candles', 'crumbs', 'stand'],
+        helpIds: ['cake', 'slice', 'candle', 'crumb', 'stand'],
       },
       fence: {
         sentences: ['First, the fence is all white.', 'Next, two planks are painted.', 'Then, four planks are painted.', 'Last, the whole fence is painted.'],
         stateWords: ['all white', 'two planks', 'four planks', 'whole fence'],
         helpWords: ['fence', 'plank', 'paint', 'brush', 'pot'],
+        helpIds: ['fence', 'plank', 'paint', 'brush', 'pot'],
       },
       letter: {
         sentences: ['First, the card is blank.', 'Next, a flower is drawn on the card.', 'Then, three lines of writing are added.', 'Last, the card is in an envelope with a stamp.'],
         stateWords: ['blank', 'flower', 'writing', 'stamp'],
         helpWords: ['card', 'flower', 'pencil', 'envelope', 'stamp'],
+        helpIds: ['card', 'flower', 'pencil', 'envelope', 'stamp'],
       },
       'paper-chain': {
         sentences: ['First, there is one sheet of paper.', 'Next, the sheet is cut into five strips.', 'Then, two strips are glued into rings.', 'Last, all five rings make a chain.'],
         stateWords: ['one sheet', 'five strips', 'two strips', 'chain'],
         helpWords: ['paper', 'scissors', 'strips', 'glue', 'rings', 'chain'],
+        helpIds: ['paper', 'scissors', 'strip', 'glue', 'ring', 'chain'],
       },
       'beach-walk': {
         sentences: ['First, there are no footprints in the sand.', 'Next, a child walks and leaves three footprints.', 'Then, the child finds a shell.', 'Last, the child is back with the shell on the towel.'],
         stateWords: ['no footprints', 'three footprints', 'finds a shell', 'back'],
         helpWords: ['sand', 'towel', 'shell', 'footprints', 'walk'],
+        helpIds: ['sand', 'towel', 'shell', 'footprint', 'walk'],
       },
     },
     excludeStories: [],
     strings: {
       base: { title: 'Story Sequencing: Number the Pictures', instruction: 'Look at what changes in each story, then write the numbers in the boxes to put the pictures in order.' },
-      'first-next-last-cut': { title: 'Story Sequencing Cut and Paste: First, Next, Last', instruction: "Cut out each strip's pictures and glue them on their story line under First, Next and Last." },
-      'what-happens-next': { title: 'Story Sequencing: What Happens Next?', instruction: "Look at each story's three pictures and circle the picture in the box that comes next." },
+      'first-next-last-cut': { title: 'Story Sequencing Cut and Paste: First, Next, Last', instruction: 'Cut out the pictures on each strip and glue them in the empty frames above First, Next and Last.' },
+      'what-happens-next': { title: 'Story Sequencing: What Happens Next?', instruction: "Look at each story's three pictures, then circle the picture below them that belongs in the ? frame." },
       'beginning-middle-end': { title: 'Beginning, Middle and End of a Story', instruction: 'Look at the beginning and the end of each story and draw what happens in the middle frame.' },
       'sequencing-sentences': { title: 'Story Sequencing Sentences: Match the Pictures', instruction: "Read each story's sentences and draw a line from every sentence to its picture." },
       'retell-with-starters': { title: 'Retell the Story with Starters', instruction: 'Write what happens in each picture on its lines, starting with the word printed on the first line.' },

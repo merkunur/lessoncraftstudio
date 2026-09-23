@@ -19,6 +19,7 @@
  *   descender     max ink descent over g j p q y z f
  *   cap / capDescender   max ink ascent / descent over A-Z
  *   accCap        max ink ascent over Å Ä Ö Ü É È Ê À Á     (an accented capital row)
+ *   wordGap       the minimum ink-free gap (em) a space leaves between two words (see below)
  *   lineAscent / lineDescent   the font's own line box (fontBoundingBox*): the
  *                 text component sets line-height = (lineAscent+lineDescent)·fs so
  *                 the CSS baseline sits exactly lineAscent·fs below the span top
@@ -80,19 +81,53 @@ function unitsOfCss(css) {
           cap: max(caps, A), capDescender: max(caps, D), accCap: max('ÅÄÖÜÉÈÊÀÁ', A),
           lineAscent: line.fontBoundingBoxAscent / 1000, lineDescent: line.fontBoundingBoxDescent / 1000,
           _w: w, _wFallback: wFallback,
+          // the natural gap a SPACE leaves between two words (em): Blink lays each word out alone (its word cache
+          // splits at the space), so a word end "ax" and a word start "ya" are rastered apart at 200 px and, ROW BY
+          // ROW, gap = advance("ax ") + leftmostInk_ya(row) − rightmostInk_ax(row); the minimum over the rows where
+          // both have ink is how close the two words come (a descender loop under the next word does not count
+          // unless it reaches the same height). wordGap = min over a-z × a-z; wordGapCap = against a capital
+          // start. The text component adds word-spacing up to 0.35 em where wordGap is smaller (G2-377 fix round
+          // 1: it-trad "dorme sul" and de-va sentences nearly touched).
+          ...(() => {
+            const PX = 200, H = 700, BASE = 470;
+            const cv = document.createElement('canvas'); cv.width = 900; cv.height = H;
+            const k = cv.getContext('2d', { willReadFrequently: true });
+            const fam = spec.replace('1000px', PX + 'px');
+            const prof = (text, side) => {   // per row: extreme ink x relative to the text origin (null = no ink)
+              k.fillStyle = '#fff'; k.fillRect(0, 0, cv.width, H);
+              k.font = fam; k.fillStyle = '#000'; k.fillText(text, 300, BASE);
+              const d = k.getImageData(0, 0, cv.width, H).data; const out = new Array(H).fill(null);
+              for (let y = 0; y < H; y++) {
+                if (side === 'right') { for (let x = cv.width - 1; x >= 0; x--) if (d[(y * cv.width + x) * 4] < 128) { out[y] = x - 300; break; } }
+                else { for (let x = 0; x < cv.width; x++) if (d[(y * cv.width + x) * 4] < 128) { out[y] = x - 300; break; } }
+              }
+              return out;
+            };
+            const L = 'abcdefghijklmnopqrstuvwxyz', U = L.toUpperCase();
+            k.font = fam;
+            const ends = {}, adv = {};
+            for (const x of L) { ends[x] = prof('a' + x, 'right'); k.font = fam; adv[x] = k.measureText('a' + x + ' ').width; }
+            const starts = {};
+            for (const y of L + U) starts[y] = prof(y + 'a', 'left');
+            const gap = (x, y) => { let g = Infinity; const e = ends[x], st = starts[y]; for (let r = 0; r < H; r++) if (e[r] != null && st[r] != null) g = Math.min(g, adv[x] + st[r] - e[r]); return g; };
+            let lo = Infinity, cap = Infinity;
+            for (const x of L) { for (const y of L) lo = Math.min(lo, gap(x, y)); for (const y of U) cap = Math.min(cap, gap(x, y)); }
+            k.font = spec;
+            return { wordGap: lo / PX, wordGapCap: cap / PX };
+          })(),
         };
       }, unit);
       if (m.error) throw new Error(m.error);
       if (Math.abs(m._w - m._wFallback) < 5) throw new Error(`${unit}: "xbdg" is as wide as the serif fallback (${m._w} vs ${m._wFallback}) — the face did not load`);
       delete m._w; delete m._wFallback;
       for (const [k, v] of Object.entries(m)) {
-        const floor = (k === 'xDescender' || k === 'capDescender') ? 0 : 0.0001;
+        const floor = (k === 'xDescender' || k === 'capDescender') ? 0 : (k === 'wordGap' || k === 'wordGapCap' ? -2 : 0.0001);
         if (!Number.isFinite(v) || v < floor || v > 2.2) throw new Error(`cursive-${unit}.${k} = ${v} is not a font metric`);
         m[k] = +v.toFixed(4);
       }
       if (!(m.xHeight < m.ascender && m.xHeight < m.cap && m.ascender < m.lineAscent + 0.2)) throw new Error(`cursive-${unit}: x ${m.xHeight} / asc ${m.ascender} / cap ${m.cap} are not ordered like a Latin script`);
       result['cursive-' + unit] = m;
-      console.log(`cursive-${unit}: x ${m.xHeight} asc ${m.ascender} desc ${m.descender} cap ${m.cap}/${m.capDescender} accCap ${m.accCap} line ${m.lineAscent}/${m.lineDescent}`);
+      console.log(`cursive-${unit}: x ${m.xHeight} asc ${m.ascender} desc ${m.descender} cap ${m.cap}/${m.capDescender} accCap ${m.accCap} line ${m.lineAscent}/${m.lineDescent} wordGap ${m.wordGap}`);
     }
   } finally {
     await browser.close();

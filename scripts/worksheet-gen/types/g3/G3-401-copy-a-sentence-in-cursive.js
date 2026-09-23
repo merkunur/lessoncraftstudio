@@ -10,6 +10,6 @@ module.exports = {
   id: 'G3-401',
   slug: 'copy-a-sentence-in-cursive',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Cursive Sentences to Copy", instruction: "Copy each printed sentence in cursive on the two lines below it. Trace the grey sentence first." } },
+  i18n: { en: { title: "Cursive Sentences to Copy", instruction: "Trace the grey sentence, then copy each printed sentence in cursive on the two lines below it." } },
   gradeBand: "G3",
 };

@@ -84,6 +84,11 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     no: 'Naturfag',
     fi: 'Ympäristöoppi',
   },
+  // nt5-F healthy-habits (K-380): hygiene / health lives outside science in several countries; en is a readiness
+  // class (NHES, no CCSS). Each locale's literal is added by tools/apply-b6-locale.js from its native panel.
+  'Health': {
+    en: 'Health',
+  },
   // nt10-E social-studies printable families (road-safety, maps, family): en is a readiness class (no CCSS code);
   // each locale's literal is added by tools/apply-b5-locale.js from its native panel (strandNames['Social Studies']).
   'Social Studies': {

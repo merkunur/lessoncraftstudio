@@ -59,3 +59,81 @@ Shared machinery every face uses (components in `templates/components-b6/cursive
 - Distinctness: `[b6:cursive-writing] compared 15 pairs over 5 faces against their bases + pairwise within family` / `every variation differs from the deck its base publishes and from its siblings`
 - Baseline: `checked build 4000 + enum 299 in 25s: 0 drifted (0 expected), 0 missing` / `PASS`
 - Base: `base snapshot: 15 bodies byte-identical`
+
+## Fix round 1 (2026-09-23): the native panels' audit of the EN source
+
+The lead's `exemplarByMode` change is kept. It is read in both `resolvePage` and `faceContext` (`unit || exemplarByMode[mode] || exemplar`) and validated by rule 1. The bank shape did not change, so **panels need no new keys**. After this round the base is still byte-identical (`base snapshot: 15 bodies byte-identical`). This time the snapshot also covers the new word-spacing, which only applies to nodes that contain a space; base chains never do.
+
+1. **G2-387, partner position tell (da panel).** The da panel found three adjacent swaps: every partner stood exactly one row from its word.
+   - `derangeOrder` now rejects:
+     - any partner at distance 0;
+     - more than ONE partner at distance 1 (`partnerDistances`);
+     - a constant shift;
+     - the reversal.
+   - `verify()` re-derives the same rules from the page: "position tell: N partners stand one row away" and "the pictures are the words reversed".
+   - Pooled over 12,000 seeds:
+     - distance-1 share 12.0 %, at most 1 on every page;
+     - 0 partners at distance 0, 0 shifts, 0 reversals;
+     - partners below and above within 0.1 % of each other (both directions).
+   - The earlier "every cell ±10 % of uniform" check is replaced. It cannot hold under the distance rule, because the cells next to the diagonal are thinned by design.
+   - Checked on the **shipped instance** (production seed, unit null) of en plus every draft bank on disk:
+
+     | locale | partner distances |
+     |---|---|
+     | en | 3,3,1,2,2,5 |
+     | de | 5,3,1,3,2,2 |
+     | es | 4,4,2,1,3,2 |
+     | pt | 2,2,3,1,4,4 |
+     | fr | 3,3,3,3,2,4 |
+     | it | 3,4,2,2,2,5 |
+     | nl | 4,4,1,2,2,5 |
+     | da | 2,2,3,1,4,4 |
+     | no | 2,2,3,1,4,4 |
+
+     All pass.
+   - Poison **PR20**: the adjacent-swap order is killed with "position tell: 6 partners stand one row away".
+2. **One-sentence instructions, in doing order.**
+   - EN G2-386 is now "Trace each grey word in one flowing line, then write it on the line below and add the dots and crosses last." The de-panel addendum applies: "without lifting your pencil" is false wherever a word starts with a non-joining capital or holds a lift letter.
+   - EN G3-401 is now "Trace the grey sentence, then copy each printed sentence in cursive on the two lines below it."
+   - New rule 7 checks, run on every locale block:
+     - **(a) one sentence:** no end mark followed by more text.
+     - **(b) G3-401 doing order:** the trace verb comes before the copy verb, using per-locale verb pairs (`ORDER_VERBS`).
+     - **(c) no-lift claim:** a G2-386 instruction that claims no lift (per-locale phrase list `NO_LIFT_CLAIM`) must be true for every picture word in every unit of the locale: no capital start, and no LIFT letter before the last letter.
+   - Poisons:
+     - **P19**: the old two-sentence G2-386;
+     - **P20**: copy before trace;
+     - **P21**: de "ohne abzusetzen" over "Katze";
+     - **P22**: no "uten å løfte" over "fisk".
+
+     All are killed.
+3. **Word spacing (it panel "dorme sul"; de-panel addendum on DE VA).**
+   - `tools/measure-cursive-metrics.js` now measures each unit's natural closest approach across a space. It rasters each word end ("ax") and word start ("ya") separately, because Blink lays each word out alone, and takes the gap row by row. Two new keys result:
+     - `wordGap`, against a lowercase start: 0.125 em (us-trad) … 0.338 em (it-moderna);
+     - `wordGapCap`, against a capital start.
+   - `--check` passes over all 15 units.
+   - The text component adds `word-spacing = max(0, 0.35 − min(wordGap, wordGapCap)) em`, and only on a node that contains a space (F1 "M M", F2 "ol ol", F5 sentences).
+   - `verify()` measures the gap on the page, row by row. Ink is assigned to a word by its connected piece, so a j's lead-in hook that reaches back past the space still counts as the next word's. Every space must leave ≥ 0.3 em.
+   - Measured with the DRAFT sentences in every unit: de-va, de-la, mx, br, fr-trad, it-trad, nl, dk-uloopet and no all pass. `it-trad` "Il gatto dorme sul letto." now reads clearly spaced.
+   - Poison **PR21** (the gaps squeezed) is killed with "the words in "Tom has" stand 1.0 px apart".
+   - A Seyès copy page with the draft's three sentences at i = 15.12 left 82 px blank. The face column now has a 0→20 gap after the script tag and Seyès block gaps of 0→38. The base is untouched because both live in the face column only.
+
+### Draft validator (`node tools/validate-b6-draft.js <loc>`; drafts NOT edited)
+cursive-writing errors per locale. Every other error in those runs belongs to other families: story-sequencing r11, habitats 6b, sink-or-float, and pt G1-398.
+
+| locale | cursive-writing errors |
+|---|---|
+| es, it, pt | 0 |
+| fi, sv | 0 (type refused, no block) |
+| de | 1: G3-401 "Schreibe jeden gedruckten Satz … und spure beim ersten Satz zuerst den grauen Satz nach." copies before it traces |
+| fr | 1: G3-401 "Copie … ; repasse d'abord la phrase grise." copies before it traces |
+| nl | 1: G3-401 "Schrijf elke gedrukte zin … over … en schrijf de grijze zin eerst na." copies before it traces |
+| da | 2: G2-386 claims "uden at løfte blyanten" while dk-uloopet "fisk" lifts after f; G3-401 "Skriv hver trykt sætning af … og skriv først oven i …" copies before it traces |
+| no | 2: G2-386 claims "uten å løfte blyanten" while no "fisk" lifts after f; G3-401 "Skriv av … og skriv over den grå setningen først." copies before it traces |
+
+The es and it drafts also say "sin despegar el lápiz" and "senza staccare la matita". The rule passes them because none of their picture words starts with a capital or holds a lift letter in mx / it-trad, both of which have no lifts. The pt draft says "sem tirar o lápis", and br has no lifts either.
+
+### Lines
+- Gate: `PASS (2007 assertions, 48/48 poisons killed)`
+- Distinctness: `every variation differs from the deck its base publishes and from its siblings`
+- Baseline: `checked build 4000 + enum 301 in 24s: 0 drifted (0 expected), 0 missing` / `PASS`
+- PNGs read: `out/dev/G2-386-null-d2-en.png` · `out/dev/G3-401-null-d2-en.png` · `out/dev/G2-387-null-d2-en.png` · `out/dev/G3-401-probe-it-trad-d2.png` (plus `out/dev/G3-401-probe-<unit>-d2.png` for every unit)

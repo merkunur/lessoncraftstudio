@@ -65,10 +65,24 @@ function lineBox(unit, fsPx) {
   return { asc, desc, lh: asc + desc };
 }
 
-function textStyle(unit, fsPx, role) {
+/**
+ * The word space a node needs so two words stand ≥ 0.3 em apart in EVERY unit (fix round 1: it-trad "dorme sul",
+ * de-va sentences nearly touched). The unit's natural closest approach across a space is MEASURED
+ * (cursive-metrics.json wordGap / wordGapCap, row by row); word-spacing adds what is missing up to 0.35 em.
+ * Only a node that contains a space gets it (a letter chain never does, so the base page is unchanged).
+ */
+const WORD_GAP_TARGET = 0.35;
+function cwWordSpaceEm(unit) {
+  const m = SR.metricsFor(unit);
+  if (!(Number.isFinite(m.wordGap) && Number.isFinite(m.wordGapCap))) throw new Error(`cursive-writing: cursive-metrics.json has no wordGap for ${unit} (re-run tools/measure-cursive-metrics.js)`);
+  return Math.max(0, Math.ceil((WORD_GAP_TARGET - Math.min(m.wordGap, m.wordGapCap)) * 100) / 100);
+}
+
+function textStyle(unit, fsPx, role, text) {
   const lh = lineBox(unit, fsPx).lh;
+  const ws = text != null && /\s/.test(text) ? `${px(cwWordSpaceEm(unit) * fsPx)}px` : '0';
   return `font-family:'${cwFamily(unit)}';font-size:${px(fsPx)}px;line-height:${px(lh)}px;font-weight:400;font-style:normal;` +
-    `color:${ROLE_COLOR[role]};white-space:nowrap;letter-spacing:0;word-spacing:0;text-transform:none`;
+    `color:${ROLE_COLOR[role]};white-space:nowrap;letter-spacing:0;word-spacing:${ws};text-transform:none`;
 }
 
 /** one span, one text node. `left` + optional `width` / `align` (the model cell centres its letter). */
@@ -78,7 +92,7 @@ function cwText({ unit, text, fs: fsPx, yB, left, width, align, role }) {
   const top = yB - lineBox(unit, fsPx).asc;
   const box = width != null ? `width:${px(width)}px;text-align:${align || 'center'};` : '';
   return `<span data-lcs-cursive="${esc(unit)}" data-lcs-role="${role}" data-lcs-fs="${px(fsPx)}" data-lcs-yb="${px(yB)}"` +
-    ` style="position:absolute;left:${px(left)}px;top:${px(top)}px;${box}${textStyle(unit, fsPx, role)}">${esc(text)}</span>`;
+    ` style="position:absolute;left:${px(left)}px;top:${px(top)}px;${box}${textStyle(unit, fsPx, role, text)}">${esc(text)}</span>`;
 }
 
 /**
@@ -168,10 +182,10 @@ const flowRow = (html) => html.replace('class="cw-row"', 'class="cw-row" data-lc
  * 4 i, which tile the cahier), for the child's own joined writing of the lesson's letters. k is computed by
  * the spec from the measured 677 slack; the rows are honest writing space, never decoration.
  */
-function cwPracticeRows({ unit, kind, k, w, marginX, geom, seyesI, dashHelpers, rowGap = [2, 14] }) {
+function cwPracticeRows({ unit, kind, k, w, marginX, geom, seyesI, dashHelpers, rowGap = [2, 14], seyesGapMax = 8 }) {
   const out = [];
   for (let j = 0; j < k; j++) {
-    if (j) out.push(cwGap(kind === 'seyes' ? 0 : rowGap[0], kind === 'seyes' ? 8 : rowGap[1], marginX));
+    if (j) out.push(cwGap(kind === 'seyes' ? 0 : rowGap[0], kind === 'seyes' ? seyesGapMax : rowGap[1], marginX));
     if (kind === 'seyes') {
       const i = seyesI;
       const g = { unit, kind: 'seyes', X: i, i, fs: 0, baselines: [Math.round(3 * i * 100) / 100], height: Math.round(4 * i * 100) / 100 };
@@ -201,7 +215,7 @@ function cwRun({ unit, items, fs: fsPx, yB, left, gap }) {
     if (!ROLE_COLOR[it.role]) throw new Error(`cursive-writing: unknown role "${it.role}"`);
     if (typeof it.text !== 'string' || !it.text.length || /[<>&]/.test(it.text)) throw new Error(`cursive-writing: "${it.text}" is not a cursive literal`);
     const extra = Object.entries(it.attrs || {}).map(([k, v]) => ` data-lcs-${k}="${esc(v)}"`).join('');
-    return `<span data-lcs-cursive="${esc(unit)}" data-lcs-role="${it.role}" data-lcs-fs="${px(fsPx)}" data-lcs-yb="${px(yB)}"${extra} style="${textStyle(unit, fsPx, it.role)}">${esc(it.text)}</span>`;
+    return `<span data-lcs-cursive="${esc(unit)}" data-lcs-role="${it.role}" data-lcs-fs="${px(fsPx)}" data-lcs-yb="${px(yB)}"${extra} style="${textStyle(unit, fsPx, it.role, it.text)}">${esc(it.text)}</span>`;
   }).join('');
   return `<div class="cw-chains" data-lcs-chains="${items.length}" style="position:absolute;left:${px(left)}px;top:${px(top)}px;display:flex;align-items:flex-start;gap:${gap}px">${spans}</div>`;
 }
@@ -273,4 +287,4 @@ function cwReadMatch({ unit, fs: fsPx, words, pics, cardW = 300, minH, maxH, til
   return `<div class="ws-match cw-read" data-lcs-flow="" style="flex:1 1 auto;padding:0 30px;justify-content:space-between;align-items:stretch">${col(left)}${col(right)}</div>`;
 }
 
-module.exports = { cwLineBox: lineBox, cwFontFace, cwFamily, cwText, cwChainRun, cwRow, cwRibbon, cwBlock, cwGap, cwPracticeRows, cwScriptTag, cwRun, cwPictureTile, cwSentenceStrip, cwFaceBlock, cwReadMatch };
+module.exports = { cwWordSpaceEm, cwLineBox: lineBox, cwFontFace, cwFamily, cwText, cwChainRun, cwRow, cwRibbon, cwBlock, cwGap, cwPracticeRows, cwScriptTag, cwRun, cwPictureTile, cwSentenceStrip, cwFaceBlock, cwReadMatch };

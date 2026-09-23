@@ -73,3 +73,12 @@ I read d1, d2, d3, the fi 5-line chrome, the SPARSE control and poison, and the 
 - The panels author per locale: `phonemes`, `seg`/`snd`/`silent`/`stem`, `falsePairs`, `sets`, sentences, 12 strings (10 for pt) and `rejectedPics`. The EN strings are a source to audit.
 - Non-en instruction must-have/ban lists: `INSTR_EN` covers en only, so the panels should supply per-locale lists (the plants precedent).
 - If a panel signs a team not in `TEAMS`, add it to `tools/measure-team-beads.js` and re-run it.
+
+## Post-build change (2026-09-23, Phase E lead ruling)
+
+`easter/chick` (reads "duck") and `classroom/lunchbox` (reads "treasure") are removed from the BASE pool as well as the faces:
+- the items are deleted, and both pictures are in `rejectedPics` (with reasons) and in `REJECTED_PICS_ALL`;
+- `validateBank` asserts that every block lists them;
+- the base sweep asserts 0 draws.
+
+The accepted baseline drift is `G1-380|nothm|d2|en` only; the lead recaptures it. See `_work/G1-380-faces.md`.

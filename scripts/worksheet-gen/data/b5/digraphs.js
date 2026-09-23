@@ -82,11 +82,9 @@ const DIGRAPHS = {
         items: [
           I('furniture', 'chair', 'chair', 'ch|air', 'tʃ|ɛə', { stem: 'chair' }),
           I('breakfast', 'cheese', 'cheese', 'ch|ee|se', 'tʃ|iː|z'),
-          I('easter', 'chick', 'chick', 'ch|i|ck', 'tʃ|ɪ|k', { stem: 'chick' }),
           I('farm animals', 'chicken', 'chicken', 'ch|i|ck|e|n', 'tʃ|ɪ|k|ə|n', { stem: 'chick' }),
           I('furniture', 'bench', 'bench', 'b|e|n|ch', 'b|ɛ|n|tʃ'),
           I('birds', 'ostrich', 'ostrich', 'o|s|t|r|i|ch', 'ɒ|s|t|r|ɪ|tʃ'),
-          I('classroom', 'lunchbox', 'lunchbox', 'l|u|n|ch|b|o|x', 'l|ʌ|n|tʃ|b|ɒ|ks'),
           I('furniture', 'armchair', 'armchair', 'ar|m|ch|air', 'ɑː|m|tʃ|ɛə', { stem: 'chair' }),
           I('summer', 'beach', 'beach', 'b|ea|ch', 'b|iː|tʃ'),
           I('easter', 'chocolate', 'chocolate', 'ch|o|c|o|l|a|te', 'tʃ|ɒ|k|ə|l|ə|t'),
@@ -132,6 +130,21 @@ const DIGRAPHS = {
         tokens: [tok('I', 'I'), tok('wish', 'w|i|sh'), tok('I', 'I'), tok('had', 'h|a|d'), tok('a', 'a'), tok('big', 'b|i|g'), tok('shell', 'sh|e|ll')] },
       { id: 's6', text: 'The shark and the fish splash in the sea.', target: 'sh', hits: 3,
         tokens: [tok('The', 'Th|e'), tok('shark', 'sh|ar|k'), tok('and', 'a|n|d'), tok('the', 'th|e'), tok('fish', 'f|i|sh'), tok('splash', 's|p|l|a|sh'), tok('in', 'i|n'), tok('the', 'th|e'), tok('sea', 's|ea')] },
+      // Phase E (2026-09-23): six more so an F5 page can draw counts 1-4 in an order that is neither
+      // flat nor monotone (with only 2s and 3s every legal page put its odd count in the middle lane);
+      // the bank order keeps every 3-window at 5-8 hits (rule 12): 2 2 3 2 2 3 1 4 1 3 2 1.
+      { id: 's7', text: 'Mom has a wish for a cat.', target: 'sh', hits: 1,
+        tokens: [tok('Mom', 'M|o|m'), tok('has', 'h|a|s'), tok('a', 'a'), tok('wish', 'w|i|sh'), tok('for', 'f|or'), tok('a', 'a'), tok('cat', 'c|a|t')] },
+      { id: 's8', text: 'She shows me a shell and a fish.', target: 'sh', hits: 4,
+        tokens: [tok('She', 'Sh|e'), tok('shows', 'sh|ow|s'), tok('me', 'm|e'), tok('a', 'a'), tok('shell', 'sh|e|ll'), tok('and', 'a|n|d'), tok('a', 'a'), tok('fish', 'f|i|sh')] },
+      { id: 's9', text: 'The dog ran to the shop.', target: 'sh', hits: 1,
+        tokens: [tok('The', 'Th|e'), tok('dog', 'd|o|g'), tok('ran', 'r|a|n'), tok('to', 't|o'), tok('the', 'th|e'), tok('shop', 'sh|o|p')] },
+      { id: 's10', text: 'I wash a dish and a big shell.', target: 'sh', hits: 3,
+        tokens: [tok('I', 'I'), tok('wash', 'w|a|sh'), tok('a', 'a'), tok('dish', 'd|i|sh'), tok('and', 'a|n|d'), tok('a', 'a'), tok('big', 'b|i|g'), tok('shell', 'sh|e|ll')] },
+      { id: 's11', text: 'A crab ran up the shore to the shed.', target: 'sh', hits: 2,
+        tokens: [tok('A', 'A'), tok('crab', 'c|r|a|b'), tok('ran', 'r|a|n'), tok('up', 'u|p'), tok('the', 'th|e'), tok('shore', 'sh|or|e'), tok('to', 't|o'), tok('the', 'th|e'), tok('shed', 'sh|e|d')] },
+      { id: 's12', text: 'My cat sat in the shade.', target: 'sh', hits: 1,
+        tokens: [tok('My', 'M|y'), tok('cat', 'c|a|t'), tok('sat', 's|a|t'), tok('in', 'i|n'), tok('the', 'th|e'), tok('shade', 'sh|a|d|e')] },
     ],
     rejectedPics: [
       { pic: 'fruits/cherry', why: 'reads as an apple (design §4)' },
@@ -163,13 +176,15 @@ const DIGRAPHS = {
       { pic: 'activities/theater', why: 'said "stage" / "house" (builder, opened)' },
       { pic: 'breakfast/smoothie', why: 'said "juice" (builder, opened)' },
       { pic: 'hospital/stethoscope', why: 'not a K-1 word (builder, opened)' },
+      { pic: 'easter/chick', why: 'reads as a duckling: a child says "duck" (no ch) — coordinator review 2026-09-23 (base + faces)' },
+      { pic: 'classroom/lunchbox', why: 'reads as a treasure chest: a child says "treasure" / "box" (no ch) — coordinator review 2026-09-23 (base + faces)' },
     ],
     strings: {
       base: { title: 'Digraphs sh, ch and th: Which Letter Team Do You Hear?', instruction: 'Say the name of each picture. Circle the letter team you hear.' },
       'sort-two': { title: 'Digraph Sort for Kindergarten: sh or ch', instruction: "Say each picture's name. Draw a line from each picture to the letter team you hear." },
       gap: { title: 'Missing Digraphs: Write sh, ch or th', instruction: 'Say each picture word. Write the missing letter team from the top in the dashed space.' },
       match: { title: 'Read Digraph Words and Match the Pictures', instruction: 'Read each word. The letter team is marked. Draw a line to the picture the word names.' },
-      position: { title: 'Where Is the Digraph? sh, ch and th in the Word', instruction: 'Say each picture word. Where do you hear the letter team? Colour one space: beginning, middle or end.' },
+      position: { title: 'Where Is the Digraph? sh, ch and th in the Word', instruction: 'Say each picture word. Where do you hear the letter team? Color one space: beginning, middle or end.' },
       text: { title: 'Digraphs in Sentences: Circle and Count sh', instruction: 'Read the sentences. Circle every sh. Write how many you found in each sentence in its box.' },
     },
   },
@@ -179,7 +194,7 @@ const DIGRAPHS = {
 const DIGRAPHS_NEUTRAL = {
   REFUSED_LOCALES: ['es', 'it', 'sv', 'da', 'no'],
   /** pictures the DESIGN refused for every locale (§1, §4) — merged into every block's rejectedPics by the validator */
-  REJECTED_PICS_ALL: ['fruits/cherry', 'fruits/peach', 'christmas/chimney', 'body parts/mouth', 'colors/white', 'shapes/cone'],
+  REJECTED_PICS_ALL: ['fruits/cherry', 'fruits/peach', 'christmas/chimney', 'body parts/mouth', 'colors/white', 'shapes/cone', 'easter/chick', 'classroom/lunchbox'],
   SHIPPING_LOCALES: ['en', 'de', 'pt', 'fr', 'nl', 'fi'],
   MODES: ['base', 'sort-two', 'gap', 'match', 'position', 'text'],
   /** faces a SHIPPING locale refuses (design §3 F4 / §7) */

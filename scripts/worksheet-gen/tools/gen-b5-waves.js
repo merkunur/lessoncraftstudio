@@ -45,13 +45,10 @@ const GENERAL = ['animals', 'fruits', 'vehicles', 'toys', 'farm animals', 'zoo a
   'around the house', 'At the Supermarket', 'forest creatures', 'ocean life', 'birds 2', 'kitchen tools', 'classroom', 'beach', 'camping'];
 
 // Per-family preference (rotated by face position); per-spec HARD lists override.
-// nt10-E theme rulings (design finals §1): tangram / human-body / five-senses / recycling / cloze / pronouns /
-// question-words / rounding are THEMELESS (themeAxis off, pictures via b3-picture-index or none); weather-symbols is
-// FIXED to `weather` by withFixedTheme (themeAxis off); only odd-and-even's picture faces (share fairly, count in pairs)
-// take a wave theme — countable, legible at 44 px (the cloze design's 44 px legibility reading: animals best).
-const PREF = {
-  'G1-351': ['animals', 'fruits', 'zoo animals', 'toys', 'farm animals', 'vehicles'],
-};
+// nt10-E theme rulings (design finals §1): all ten families are THEMELESS (themeAxis off; pictures, where a face
+// uses any, are pinned per bank item via b3-picture-index / fileUri). No theme preference is needed; a spec that ever
+// turns themed must be added here with its measured candidate list.
+const PREF = {};
 const HARD = {};
 
 const famOf = new Map();

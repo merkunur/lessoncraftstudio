@@ -883,6 +883,14 @@
     "title": "Recycling Sort: Color the Bins",
     "instruction": "Read the name on each bin and color it in the color the legend shows."
   },
+  "K-368": {
+    "title": "2D Shapes",
+    "instruction": "Look at each shape, even the turned and skinny ones, and circle its name."
+  },
+  "K-369": {
+    "title": "Road Safety: Traffic Lights, Stop or Go",
+    "instruction": "Look at the lamp that is on, then circle what to do: stop or go."
+  },
   "G1-101": {
     "title": "Add the Pictures",
     "instruction": "Count both groups. Write how many altogether."
@@ -1730,6 +1738,10 @@
   "G1-375": {
     "title": "Sort the Answers: Who, What or Where",
     "instruction": "Read each word tile. Write it in the bin under the question it answers: Who, What or Where."
+  },
+  "G1-376": {
+    "title": "Parts of a Plant",
+    "instruction": "Follow each numbered tag to a part of the plant. Write the name of that part from the word bank on the line with the same number."
   },
   "G2-203": {
     "title": "Add the Blocks",

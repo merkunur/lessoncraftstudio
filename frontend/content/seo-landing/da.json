@@ -148639,6 +148639,2236 @@
    ],
    "title": "Afrunding til nærmeste tier og hundrede | til print PDF gratis",
    "metaDescription": "Otte trecifrede tal skal rundes to gange: til nærmeste tier i det første felt og til nærmeste hundrede i det andet. To eksempler. Gratis PDF."
+  },
+  {
+   "slug": "geometriske-figurer-saet-ring-om-navnet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "base",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Geometriske figurer · Arbejdsark",
+   "h1": "Geometriske figurer – sæt ring om navnet – børnehaveklasse",
+   "strand": "Geometri og måling (Fælles Mål)",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "geometriske-figurer",
+    "boernehaveklasse"
+   ],
+   "p1": "Arket har seks kort i to søjler, og på hvert kort står én figur i en hvid cirkel med tre navneknapper ved siden af. Figurerne er en lang, spids trekant, der ligger på skrå, en cirkel, et kvadrat, der er drejet en smule, et rektangel, der hælder, et kvadrat, der står på sit hjørne, og en smal trekant, der peger opad. Navnene er de fire, børnene skal kende i børnehaveklassen – cirkel, kvadrat, rektangel og trekant – og der står tre af dem ved hver figur. Det rigtige navn står ikke det samme sted hver gang: nogle gange øverst, nogle gange i midten, nogle gange nederst.",
+   "p2": "Det er de drejede og de smalle figurer, der gør arket værd at printe. Mange børn kender kun den trekant, der står pænt på sin grundlinje, og det kvadrat, der ligger fladt; står kvadratet på sit hjørne, kalder de det en rude eller en diamant. Her møder barnet netop de former, og samtalen ved bordet handler om, hvad der gør en figur til en trekant: tre sider og tre hjørner, uanset hvordan den vender. Ved det skrå rektangel står kvadrat som et af de forkerte svar, så barnet må se, at siderne ikke er lige lange. Et barn, der endnu ikke læser, kan klare sig med forbogstavet, for de fire navne begynder med hver sit bogstav: c, k, r og t.",
+   "p3": "Print arket på almindeligt papir; figurerne er store nok til at blive farvet, hvis barnet vil. Arket er grundarket i familien om geometriske figurer. Vil du have en sværere udgave, så tag arket, hvor barnet selv skriver navnene fra en boks, eller gåderne, hvor figuren kun er beskrevet med ord. Til de yngste passer arket med ting fra hverdagen, og arket med prikpapir lader barnet tegne figurerne selv.",
+   "canonicalDeckSlug": "geometriske-figurer-k368",
+   "carousel": [
+    {
+     "label": "Genkende geometriske figurer – rigtig figur eller ej? – 1. klasse",
+     "href": "genkende-geometriske-figurer-rigtig-eller-ej"
+    },
+    {
+     "label": "Geometriske figurer omkring os – cirkel eller rektangel? – børnehaveklasse",
+     "href": "geometriske-figurer-omkring-os"
+    },
+    {
+     "label": "Geometriske figurer – skriv navnene på linjerne – 1. klasse",
+     "href": "geometriske-figurer-skriv-navnet"
+    },
+    {
+     "label": "Gåder om geometriske figurer – læs og find figuren – 1. klasse",
+     "href": "gaader-om-geometriske-figurer"
+    }
+   ],
+   "title": "Geometriske figurer: sæt ring om navnet | til print PDF gratis",
+   "metaDescription": "Seks kort med en geometrisk figur og tre navne: cirkel, kvadrat, rektangel eller trekant. Flere figurer er drejede eller smalle. Gratis PDF til print."
+  },
+  {
+   "slug": "faerdselslaere-hvad-viser-lyskurven",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "base",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Færdselslære · Arbejdsark",
+   "h1": "Færdselslære – hvad viser lyskurven? – børnehaveklasse",
+   "strand": "Færdselslære (Fælles Mål)",
+   "slotTokens": [
+    "faerdselslaere",
+    "boernehaveklasse"
+   ],
+   "p1": "Seks små trafikscener fylder arket, tre til venstre og tre til højre. Tre af dem viser en lyskurv for biler med tre lamper og to biler på vejen, og ved siden af står ordene stop og kør. De tre andre viser et fodgængersignal med to felter, en stående og en gående figur, og ordene stå og gå. I hver scene lyser kun én lampe, og den er markeret med små stråler. Barnet ser, hvilken lampe der lyser, og sætter ring om det, man skal gøre. To af billyskurvene viser rødt og én grønt; ved fodgængersignalerne står den røde mand én gang og den grønne to.",
+   "p2": "Færdselslære er et obligatorisk emne i Fælles Mål, og lyskurven er det første, de fleste børn møder. Arket skelner med vilje mellem to slags signaler: bilernes lyskurv med tre lamper og fodgængernes med to figurer. Mange børn på fem og seks år blander dem sammen og tror, at grønt lys for bilerne også betyder, at de selv må gå. Ordene er forskellige for at vise forskellen: bilen skal stoppe eller køre, barnet skal stå eller gå. Ordene bytter plads fra scene til scene, så barnet ikke kan huske sig til, hvor svaret står; det er lampen, der afgør det. Den gule lampe er ikke med på dette ark, men samtalen om den kommer ofte helt af sig selv.",
+   "p3": "Print arket i farver, for rød og grøn er selve indholdet; på en sort-hvid kopi kan strålerne stadig vise, hvilken lampe der lyser. Arket er grundarket i familien om færdselslære. Tag bagefter arket, hvor barnet farver lyskurvene selv, eller trin-for-trin-arket om at gå sikkert over vejen. Gå gerne en tur til det nærmeste lyskryds, og lad børnene sige ordene højt.",
+   "canonicalDeckSlug": "faerdselslaere-k369",
+   "carousel": [
+    {
+     "label": "Færdselslære – farvelæg lyskurvene – børnehaveklasse",
+     "href": "faerdselslaere-farvelaeg-lyskurvene"
+    },
+    {
+     "label": "Sådan går du sikkert over vejen – trin for trin – børnehaveklasse",
+     "href": "gaa-sikkert-over-vejen-trin-for-trin"
+    },
+    {
+     "label": "Færdselstavler og hvad de betyder – forbind tavle og sætning – 1. klasse",
+     "href": "faerdselstavler-og-hvad-de-betyder"
+    },
+    {
+     "label": "Advarselstavler, forbudstavler og påbudstavler – sortér færdselstavlerne – 2. klasse",
+     "href": "advarselstavler-forbudstavler-paabudstavler"
+    }
+   ],
+   "title": "Færdselslære: hvad viser lyskurven? | til print PDF gratis",
+   "metaDescription": "Færdselslære for børnehaveklassen: seks lyskurve for biler og fodgængere. Barnet ser, hvilken lampe der lyser, og sætter ring om stop, kør, stå eller gå."
+  },
+  {
+   "slug": "familien-hvem-er-hvem-i-stamtraeet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "base",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Familien · Arbejdsark",
+   "h1": "Familiemedlemmer – hvem er hvem i familien? – børnehaveklasse",
+   "strand": "Historie: familie og slægt (Fælles Mål)",
+   "slotTokens": [
+    "familie-og-stamtrae",
+    "boernehaveklasse"
+   ],
+   "p1": "Øverst står et stamtræ med seks portrætter. Nederst i træet står Malthe, markeret med en orange ramme og en stjerne, og ved siden af ham en pige med tallet 5, der er tegnet lidt højere end ham. I midten står to voksne med tallene 1 og 3, og fra nummer 3 går stregen op til to ældre med briller, 2 og 4. Under træet står fem familieord, hver med et tomt felt: søster, mor, farmor, farfar og far. Barnet finder hver person i stamtræet og skriver personens tal i feltet ved det rigtige familieord, set fra Malthe.",
+   "p2": "Det svære er ikke ordene, men at se dem fra en bestemt person. Mor og far kender alle, men farmor og farfar kræver, at barnet følger stregen i træet: de to ældre hører til nummer 3, og nummer 3 er Malthes far, så de er farmor og farfar og ikke mormor og morfar. Dansk skelner mellem mors og fars forældre, og netop det gør emnet til noget særligt i en dansk klasse. Stamtræet har kun den ene side af familien med, så barnet ikke drukner i navne. Tal gerne om, at familier ser forskellige ud, og at træet her kun er ét eksempel.",
+   "p3": "Print arket; portrætterne er enkle stregtegninger, der kan farvelægges bagefter. Arket er grundarket i familien om familie og stamtræ. Til de yngste passer arket, hvor familieordene skrives efter, og til børn, der læser, arket med ledetråde. Den tomme stamtræ-skabelon lader barnet tegne sin egen familie, præcis som den er.",
+   "canonicalDeckSlug": "familie-og-stamtrae-k370",
+   "carousel": [
+    {
+     "label": "Generationer i familien – fra ældst til yngst – 1. klasse",
+     "href": "generationer-i-familien-aeldst-til-yngst"
+    },
+    {
+     "label": "Familieord – skriv efter, og skriv selv – børnehaveklasse",
+     "href": "skriv-familieord-efter-og-selv"
+    },
+    {
+     "label": "Stamtræet – læs ledetrådene, og skriv navnene – 1. klasse",
+     "href": "stamtrae-laes-ledetraadene"
+    },
+    {
+     "label": "Mormor eller farmor? Gåder om familien – 2. klasse",
+     "href": "gaader-om-familien-mormor-eller-farmor"
+    }
+   ],
+   "title": "Familien og familiemedlemmer: hvem er hvem? | til print PDF gratis",
+   "metaDescription": "Et lille stamtræ med Malthe og fem familiemedlemmer, og fem familieord: søster, mor, farmor, farfar og far. Barnet skriver personens tal ved ordet. Gratis PDF."
+  },
+  {
+   "slug": "plantens-dele-skriv-navnene",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "base",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Plantens dele · Arbejdsark",
+   "h1": "Plantens dele – skriv navnene på linjerne – 1. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "plantens-dele",
+    "1-klasse"
+   ],
+   "p1": "En stor plante er tegnet i venstre side af arket, med rødder nede i jorden, en høj stængel, fire blade, en blomst øverst og en ærtebælg, der hænger fra stænglen. Seks orange cirkler med tallene 1 til 6 har hver en streg ind til en del af planten. Tallene står i spredt orden, så 1 sidder ved roden, 4 ved blomsten og 6 ved et blad. Øverst står en ordboks med seks ord: frø, blad, stængel, frugt, rod og blomst. Til højre er der seks skrivelinjer med tallene 1 til 6. Barnet følger hver streg og skriver navnet på delen.",
+   "p2": "Plantens dele er noget af det første, man arbejder med i natur/teknologi, og arket tager alle seks med. Rod, stængel, blad og blomst er lette, men frugt og frø kræver, at barnet ser godt efter: tallet 2 peger på selve bælgen, og tallet 5 peger på et frø inde i den. Mange børn tror, at frugt kun er æbler og bananer, og her kan man vise, at ærtebælgen også er en frugt, fordi den gemmer frøene. Stregerne går ikke i en pæn rækkefølge ned ad planten, så barnet skal følge hver enkelt streg.",
+   "p3": "Print arket, og tag gerne en rigtig plante med ind, fx en ært eller en bønne, så barnet kan pege på delene. Arket er grundarket i familien om plantens dele. Det letteste søsterark handler om, hvad planter har brug for for at vokse, og det sværeste om blomstens dele. Arket om, hvad de forskellige dele gør, passer godt lige efter.",
+   "canonicalDeckSlug": "plantens-dele-g1376",
+   "carousel": [
+    {
+     "label": "Hvad har planter brug for for at vokse? – sol og vand – børnehaveklasse",
+     "href": "hvad-har-planter-brug-for-for-at-vokse"
+    },
+    {
+     "label": "Fra frø til plante – læg billederne i rækkefølge – 1. klasse",
+     "href": "fra-froe-til-plante-klip-og-lim"
+    },
+    {
+     "label": "Hvilke dele af planten spiser vi? – rod, blad, frugt og frø – 2. klasse",
+     "href": "hvilke-dele-af-planten-spiser-vi"
+    },
+    {
+     "label": "Plantens dele og hvad de gør – fem opgaver, fem dele – 2. klasse",
+     "href": "plantens-dele-og-hvad-de-goer"
+    }
+   ],
+   "title": "Plantens dele: skriv navnene på linjerne | til print PDF gratis",
+   "metaDescription": "Plantens dele til 1. klasse: en tegnet plante med seks nummererede dele og en ordboks med rod, stængel, blad, blomst, frugt og frø. Gratis PDF til print."
+  },
+  {
+   "slug": "sommerfuglens-livscyklus-nummerer-stadierne",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "base",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Sommerfuglens livscyklus · Arbejdsark",
+   "h1": "Sommerfuglens livscyklus – skriv tallene i rækkefølge – 1. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "dyrs-udvikling",
+    "1-klasse"
+   ],
+   "p1": "Midt på arket står en plante med en blomst og fire blade, og fire små orange ringe viser, hvor noget sker på den: et æg på et blad, en larve på et andet, en puppe, der hænger under et tredje, og en sommerfugl på blomsten. Fra hver ring går en streg ud til et stort, rundt billede af det samme, set tæt på. Under billedet af ægget står tallet 1, og under de tre andre er der tomme felter. Barnet skriver 2, 3 og 4 i den rækkefølge, ægget udvikler sig. Nederst står sommerfuglen igen med en snoet pil og et tomt felt: hvad kommer bagefter?",
+   "p2": "Billederne står ikke i en række, men der, hvor de hører hjemme på planten, så barnet ikke kan læse rækkefølgen fra venstre mod højre. Det skal vide, at larven kommer ud af ægget, at larven bliver til en puppe, og at sommerfuglen kommer ud af puppen. Den sidste opgave er arkets vigtigste: efter sommerfuglen skal barnet skrive tallet på ægget, 1, fordi sommerfuglen lægger nye æg. Så bliver rækken til en cyklus. Ordet puppe er det rigtige her; mange børn siger kokon, og det kan være en god snak, fordi det er møllene, der spinder en kokon.",
+   "p3": "Print arket; billederne er store og kan farves. Arket er grundarket i familien om dyrs udvikling og passer til 1. klasse eller slutningen af børnehaveklassen. Bagefter kan barnet tage arket om frøens livscyklus med klip og lim, eller arket hvor sommerfuglens stadier skal navngives. Følg gerne en sommerfuglelarve i en æske i klassen.",
+   "canonicalDeckSlug": "dyrs-udvikling-g1377",
+   "carousel": [
+    {
+     "label": "Frøens livscyklus – klip ud, og lim på åkandebladene – 1. klasse",
+     "href": "froeens-livscyklus-klip-ud-og-lim-paa"
+    },
+    {
+     "label": "Sommerfuglens livscyklus – skriv de fire stadier – 2. klasse",
+     "href": "sommerfuglens-livscyklus-skriv-stadierne"
+    },
+    {
+     "label": "Metamorfose – hvilket dyr bliver det til? – 2. klasse",
+     "href": "metamorfose-hvilket-dyr-bliver-det-til"
+    },
+    {
+     "label": "Sommerfuglens og frøens livscyklus sammenlignet – 3. klasse",
+     "href": "sommerfuglens-og-froeens-livscyklus-sammenlignet"
+    }
+   ],
+   "title": "Sommerfuglens livscyklus: nummerér stadierne | til print PDF gratis",
+   "metaDescription": "Sommerfuglens livscyklus for 1. klasse: æg, larve, puppe og sommerfugl i fire runde billeder rundt om en plante. Ægget er 1, barnet skriver 2, 3 og 4."
+  },
+  {
+   "slug": "solsystemet-solen-jorden-og-maanen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "base",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Solsystemet · Arbejdsark",
+   "h1": "Solsystemet – Solen, Jorden og Månen – 1. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "solsystemet",
+    "1-klasse"
+   ],
+   "p1": "Arket er en tabel. Øverst står tre tegninger med navneskilte: en stor orange sol med stråler, en mindre jordklode med grønne kontinenter og en lille grå måne med kratere. Under dem står otte sætninger, hver med tre tomme felter på række under de tre tegninger. Sætningerne er skrevet, som om himmellegemet selv taler: Jeg kredser hele tiden rundt om vores planet. Fordi jeg drejer rundt, er der dag og nat. Jeg er den største af os tre. Min form ser ud til at skifte fra aften til aften. Jeg er en stjerne. Jeg er fuld af kratere. Jeg er en planet. Jeg er den varmeste af os tre.",
+   "p2": "Solen, Jorden og Månen er det første, børn lærer om solsystemet, og de tre bliver ofte blandet sammen. Mange tror, at Solen er en planet, og at Månen lyser af sig selv. Arket får de forskelle frem: Solen er en stjerne, Jorden er en planet, og Månen kredser om Jorden. Hver sætning passer kun på én. Tegningerne hjælper lidt, for Solen er tegnet størst og Månen med kratere, så to af sætningerne kan næsten besvares ved at kigge. Det er ikke nødvendigvis en fejl i 1. klasse, men spørg barnet, om det ved det, eller om det så det på billedet.",
+   "p3": "Print arket; tegningerne er i farver, men arket fungerer også i sort-hvid. Læs sætningerne højt for børn, der endnu ikke læser sikkert. Arket er grundarket i familien om solsystemet. Bagefter kan børnene gå videre til arket om Månens faser eller om, hvorfor der er dag og nat.",
+   "canonicalDeckSlug": "solsystemet-g1378",
+   "carousel": [
+    {
+     "label": "Månens faser i rækkefølge – når Månen tager til og af – 1. klasse",
+     "href": "maanens-faser-i-raekkefoelge"
+    },
+    {
+     "label": "Månens faser – skriv navnene: tiltagende og aftagende måne – 2. klasse",
+     "href": "maanens-faser-skriv-navnene"
+    },
+    {
+     "label": "Hvorfor er der dag og nat? – Jorden drejer rundt – 2. klasse",
+     "href": "hvorfor-er-der-dag-og-nat"
+    },
+    {
+     "label": "Planeternes rækkefølge fra Solen – skriv de otte navne – 3. klasse",
+     "href": "planeternes-raekkefoelge-fra-solen"
+    }
+   ],
+   "title": "Solsystemet: Solen, Jorden og Månen | til print PDF gratis",
+   "metaDescription": "Solsystemet for 1. klasse: otte sætninger i jeg-form, fx Jeg er fuld af kratere. Barnet sætter kryds under Solen, Jorden eller Månen. Gratis PDF til print."
+  },
+  {
+   "slug": "kort-og-signaturforklaring-tael-tegnene",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "base",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Kort og signaturforklaring · Arbejdsark",
+   "h1": "Kort og signaturforklaring – tæl tegnene på kortet – 1. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "kort-og-verdenshjoerner",
+    "1-klasse"
+   ],
+   "p1": "Kortet viser en ø i havet, set oppefra. En sti går tværs over øen, og en å løber fra nord mod syd og krydser stien, hvor der er en bro. I øverste højre hjørne peger en nordpil med et N. Rundt på øen står små tegn: runde træer, mindre buske, blomster med orange prikker og bænke. Under kortet står signaturforklaringen med de fem tegn og deres navne: blomster, bro, bænk, træ og busk. Nederst er der fem kort med navnene og et tomt felt i hvert. Barnet ser på signaturforklaringen, finder hvert tegn på kortet og skriver i feltet, hvor mange der er.",
+   "p2": "Signaturforklaringen er nøglen til ethvert kort, og arket lærer barnet at bruge den. Tegnene er valgt, så de ligner hinanden parvis: træet og busken er begge grønne klatter, men træet er større og har en krøllet kant. Barnet skal altså sammenligne med forklaringen og ikke gætte. Antallene er forskellige for alle fem tegn, fra én bro til fem træer, så svaret ikke kan skrives af fra et andet felt. At broen kun er én, er en god snak: den findes, fordi stien skal over åen. Kortet er i fugleperspektiv, og det er et vigtigt skridt fra tegning til kort.",
+   "p3": "Print arket; kortet fungerer i sort-hvid, fordi tegnene har forskellig form. Lav gerne et kort over skolegården bagefter med jeres egen signaturforklaring. Arket er grundarket i familien om kort og verdenshjørner; arket om at se tingene oppefra er et godt første skridt, og arkene om kompasrosen og verdensdelene bygger videre.",
+   "canonicalDeckSlug": "kort-og-verdenshjoerner-g1379",
+   "carousel": [
+    {
+     "label": "Set fra siden og set oppefra – forbind tingene – børnehaveklasse",
+     "href": "set-fra-siden-og-set-oppefra"
+    },
+    {
+     "label": "Verdenshjørner – udfyld kompasrosen med N, Ø, S og V – 2. klasse",
+     "href": "kompasrose-udfyld-verdenshjoernerne"
+    },
+    {
+     "label": "Verdensdele – skriv navnene på kortet – 2. klasse",
+     "href": "verdensdele-skriv-navnene-paa-kortet"
+    },
+    {
+     "label": "Verdensdele og verdenshave – find dem på kortet – 3. klasse",
+     "href": "verdensdele-og-verdenshave"
+    }
+   ],
+   "title": "Kort og signaturforklaring: tæl tegnene | til print PDF gratis",
+   "metaDescription": "Et kort over en ø med en å, en sti og en nordpil og en signaturforklaring med blomster, bro, bænk, træ og busk. Barnet tæller hvert tegn på kortet. Gratis PDF."
+  },
+  {
+   "slug": "synonymer-find-ordet-der-betyder-det-samme",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "base",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Synonymer · Arbejdsark",
+   "h1": "Synonymer – find ordet, der betyder det samme – 2. klasse",
+   "strand": "Ord og begreber (Fælles Mål)",
+   "standard": "L.2.5",
+   "slotTokens": [
+    "synonymer",
+    "2-klasse"
+   ],
+   "p1": "Arket har otte kort i to søjler. Øverst på hvert kort står et stort ord i et farvet felt, og under det står fire mindre ord. Et af de fire betyder det samme som det store ord, og barnet sætter ring om det. De store ord er stille, råbe, springe, overrasket, støjende, afslappet, hidsig og smide. Synonymerne er tavs, brøle, hoppe, paf, larmende, rolig, vred og kaste. De forkerte ord er valgt blandt helt andre ord, som morsom, lækker og ryddelig under stille, eller søvnig, mærkelig og hyggelig under overrasket.",
+   "p2": "At to ord kan betyde det samme, er en opdagelse, der gør sproget rigere, og det er det, synonymer handler om i 2. klasse. Arket blander udsagnsord og tillægsord, så barnet ser, at synonymer findes i alle ordklasser. De forkerte ord ligner ikke synonymet, så opgaven handler om betydning og ikke om stavning. Enkelte ord kræver en snak: paf kender børn fra tale, men ser det sjældent skrevet, og brøle bruges mest om dyr, selv om det her betyder at råbe højt. Det er værd at snakke om dem, for det er netop sådan, ordforrådet vokser. Den rigtige plads skifter mellem de fire felter.",
+   "p3": "Print arket; ordene er store og kan læses højt i fællesskab. Lad gerne barnet finde endnu et synonym til hvert af de store ord. Arket er grundarket i familien om synonymer. Til yngre børn passer arket med billeder, og til en udfordring arket, hvor ordene ordnes efter styrke, eller arket om andre ord for siger.",
+   "canonicalDeckSlug": "synonymer-g2358",
+   "carousel": [
+    {
+     "label": "Synonymer med billeder – to ord, ét billede – 1. klasse",
+     "href": "synonymer-med-billeder"
+    },
+    {
+     "label": "Synonymer – forbind ordparrene med en streg – 2. klasse",
+     "href": "synonymer-forbind-ordparrene"
+    },
+    {
+     "label": "Ord efter styrke – fra lidt til meget – 1. klasse",
+     "href": "ord-efter-styrke-fra-lidt-til-meget"
+    },
+    {
+     "label": "Andre ord for »siger« – vælg det ord, der passer – 2. klasse",
+     "href": "andre-ord-for-siger"
+    }
+   ],
+   "title": "Synonymer: find ordet, der betyder det samme | til print PDF gratis",
+   "metaDescription": "Synonymer til 2. klasse: otte kort med et stort ord, fx stille, råbe og overrasket, og fire ord under. Barnet sætter ring om synonymet. Gratis PDF til print."
+  },
+  {
+   "slug": "ordfamilier-sorter-ordene-efter-rodordet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "base",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Ordfamilier · Arbejdsark",
+   "h1": "Ordfamilier – sortér ordene efter roden – 2. klasse",
+   "strand": "Ord og begreber (Fælles Mål)",
+   "standard": "L.2.4.c",
+   "slotTokens": [
+    "forstavelser-endelser-og-rodord",
+    "2-klasse"
+   ],
+   "p1": "Øverst står en boks med ti ord i blandet orden: venlighed, venlig, hjælpe, hjælper, veninde, hjælpeløs, venligst, venskabelig, hjælpsomhed og medhjælper. Under den står to mure, hver med fem tomme skrivefelter stablet oven på hinanden. Nederst i den ene mur står rodordet hjælp på en stor sten, i den anden rodordet ven. Barnet læser hvert ord i boksen og skriver det på en linje i den mur, der står på ordets rod. Fem ord hører til hver mur, og alle ti skal bruges.",
+   "p2": "En ordfamilie er ord, der er bygget på det samme rodord, og muren gør billedet konkret: rodordet er fundamentet, og de andre ord står oven på det. Barnet opdager, at hjælp kan blive til hjælper, hjælpeløs og hjælpsomhed, og at ven gemmer sig i venlig, veninde og venskabelig. Sorteringen kan klares ved at kigge efter bogstaverne, fordi rodordet står synligt i alle ti ord, men arket bliver langt mere værd, når man spørger, hvad ordene betyder: hvad er en medhjælper, og hvorfor hedder det venligst? Bemærk, at ordet medhjælper begynder med et forled, så rodordet står inde i ordet og ikke forrest.",
+   "p3": "Print arket; skrivefelterne har hjælpelinjer. Arket er grundarket i familien om forstavelser, endelser og rodord. Til yngre børn passer arket med billeder, og arket, hvor rodordet selv skal findes, er næste skridt. Arket med forstavelserne gen-, ind- og ud- viser den anden vej ind i ordene.",
+   "canonicalDeckSlug": "forstavelser-endelser-og-rodord-g2359",
+   "carousel": [
+    {
+     "label": "Rodord med billeder – find ordet, der er bygget af billedets ord – 1. klasse",
+     "href": "rodord-med-billeder-find-ordet"
+    },
+    {
+     "label": "Find rodordet – sæt ring om det, de tre ord har til fælles – 2. klasse",
+     "href": "find-rodordet-i-ordfamilien"
+    },
+    {
+     "label": "Forstavelserne gen-, ind- og ud- – vælg efter betydning – 2. klasse",
+     "href": "forstavelser-gen-ind-og-ud"
+    },
+    {
+     "label": "Hvem gør det? Ord for personer med -er – 3. klasse",
+     "href": "ord-for-personer-hvem-goer-det"
+    }
+   ],
+   "title": "Ordfamilier og rodord: sortér ordene efter roden | til print PDF gratis",
+   "metaDescription": "Ordfamilier til 2. klasse: ti ord som venlighed, hjælpeløs, veninde og medhjælper sorteres i to mure med rodordene hjælp og ven. Gratis PDF til print."
+  },
+  {
+   "slug": "genkende-geometriske-figurer-rigtig-eller-ej",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shapes-real-or-not",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Genkende geometriske figurer · Arbejdsark",
+   "h1": "Genkende geometriske figurer – rigtig figur eller ej? – 1. klasse",
+   "strand": "Geometri og måling (Fælles Mål)",
+   "standard": "1.G.A.1",
+   "slotTokens": [
+    "geometriske-figurer",
+    "1-klasse"
+   ],
+   "p1": "Tre brede felter står under hinanden, og øverst i hvert felt står et navn: trekant, rektangel og kvadrat. Under navnet står fire figurer i hvide cirkler. Barnet skal sætte ring om alle de figurer, der virkelig er den figur, navnet siger – ikke kun én. I trekantsrækken er tre af de fire rigtige trekanter, alle forskellige: en næsten ligesidet og to lange og smalle. Den figur, der ikke er en trekant, ligner et stykke lagkage, for den ene side er buet. I rektangelrækken er kun én af de fire rigtig. Kvadratrækken har to rigtige, det lille kvadrat og det store, der er drejet.",
+   "p2": "Snyderne er valgt, så barnet skal tjekke reglen og ikke bare se på helheden. En figur med en åbning i kanten er ikke en lukket figur og derfor hverken rektangel eller kvadrat. Et rektangel med runde hjørner mangler de rette vinkler, og den skæve firkant i kvadratrækken har fire lige lange sider, men skæve hjørner. Det er præcis de kendetegn, Fælles Mål i 1. klasse lægger op til, at eleverne kan sætte ord på: sider, hjørner, lige og buede linjer. Fordi antallet af rigtige figurer skifter fra række til række – tre, én og to – kan barnet ikke regne med, at der altid er to at finde. Spørg gerne, hvorfor lagkagestykket ikke er en trekant; svaret siger meget om, hvad barnet har forstået.",
+   "p3": "Arket printes på én side, og figurerne er tegnet med tydelig streg, så det åbne hjørne kan ses på en sort-hvid kopi. Brug det efter grundarket, hvor barnet sætter ring om navnet på én figur ad gangen; her er navnet givet, og det er figurerne, der skal vurderes. Næste skridt kan være gåderne, hvor barnet finder figuren alene ud fra antallet af sider og hjørner.",
+   "canonicalDeckSlug": "geometriske-figurer-g1381",
+   "carousel": [
+    {
+     "label": "Geometriske figurer – sæt ring om navnet – børnehaveklasse",
+     "href": "geometriske-figurer-saet-ring-om-navnet"
+    },
+    {
+     "label": "Geometriske figurer omkring os – cirkel eller rektangel? – børnehaveklasse",
+     "href": "geometriske-figurer-omkring-os"
+    },
+    {
+     "label": "Geometriske figurer – skriv navnene på linjerne – 1. klasse",
+     "href": "geometriske-figurer-skriv-navnet"
+    },
+    {
+     "label": "Gåder om geometriske figurer – læs og find figuren – 1. klasse",
+     "href": "gaader-om-geometriske-figurer"
+    }
+   ],
+   "title": "Genkende geometriske figurer: rigtig eller ej? | til print PDF gratis",
+   "metaDescription": "Tre rækker med fire figurer under trekant, rektangel og kvadrat. Sæt ring om dem, der virkelig er figuren – åbne og runde snydere tæller ikke. Gratis PDF."
+  },
+  {
+   "slug": "geometriske-figurer-omkring-os",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shapes-around-us",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Geometriske figurer omkring os · Arbejdsark",
+   "h1": "Geometriske figurer omkring os – cirkel eller rektangel? – børnehaveklasse",
+   "strand": "Geometri og måling (Fælles Mål)",
+   "standard": "K.G.A.1",
+   "slotTokens": [
+    "geometriske-figurer",
+    "boernehaveklasse"
+   ],
+   "p1": "Her er figurerne gemt i ting, barnet kender. Otte kort viser hver sit farvebillede: en kuvert, en tallerken, en slikkepind, en dør, et vægur, et verdenskort på væggen, en tavle og en pizza. Ved siden af hvert billede er der to knapper, en med en tom cirkel og ordet cirkel, en med et tomt rektangel og ordet rektangel. Barnet ser på tingen og farver den figur, tingen har form som. Fire af tingene er runde og fire er rektangulære, og de står blandet, så svaret ikke følger et mønster ned ad siden.",
+   "p2": "At finde figurer i omgivelserne er et af de første skridt i geometrien i børnehaveklassen, og det er her, ordene begynder at hænge ved. Et barn, der har farvet cirklen ved uret, kigger bagefter på uret i klassen med nye øjne. Slikkepinden er et lille ekstra spørgsmål værd: slikket er rundt, men pinden er det ikke, så hvad er det egentlig, vi kigger på? Tallerken og pizza er lette, mens døren og tavlen kræver, at barnet ser bort fra håndtaget og rammen og ser på selve formen. Barnet behøver ikke kunne læse, for figuren står tegnet på knappen ved siden af ordet.",
+   "p3": "Arket printes bedst i farver, for billederne er genkendelige ting, men det fungerer også i sort-hvid. Gør gerne en jagt i klassen bagefter, hvor børnene finder tre ting af hver form. Arket står ved siden af grundarket, hvor figuren står alene, og det er det letteste i familien; kvadrat og trekant er med i de andre ark, mens dette holder sig til to figurer.",
+   "canonicalDeckSlug": "geometriske-figurer-k371",
+   "carousel": [
+    {
+     "label": "Geometriske figurer – sæt ring om navnet – børnehaveklasse",
+     "href": "geometriske-figurer-saet-ring-om-navnet"
+    },
+    {
+     "label": "Genkende geometriske figurer – rigtig figur eller ej? – 1. klasse",
+     "href": "genkende-geometriske-figurer-rigtig-eller-ej"
+    },
+    {
+     "label": "Geometriske figurer – skriv navnene på linjerne – 1. klasse",
+     "href": "geometriske-figurer-skriv-navnet"
+    },
+    {
+     "label": "Gåder om geometriske figurer – læs og find figuren – 1. klasse",
+     "href": "gaader-om-geometriske-figurer"
+    }
+   ],
+   "title": "Geometriske figurer omkring os | til print PDF gratis",
+   "metaDescription": "Otte billeder af ting fra hverdagen: en tallerken, et ur, en dør, en pizza og flere. Barnet farver cirklen eller rektanglet, tingen ligner. Gratis PDF."
+  },
+  {
+   "slug": "geometriske-figurer-skriv-navnet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shapes-write-the-names",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Geometriske figurer · Skriv navnene",
+   "h1": "Geometriske figurer – skriv navnene på linjerne – 1. klasse",
+   "strand": "Geometri og måling (Fælles Mål)",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "geometriske-figurer",
+    "1-klasse"
+   ],
+   "p1": "Øverst står en stiplet boks med de fire navne: rektangel, trekant, kvadrat og cirkel. Under den kommer seks rækker. I hver række står en figur i en hvid cirkel til venstre og en lang skrivelinje med hjælpelinje til højre. Figurerne er et skråt rektangel, en cirkel, et kvadrat, der er drejet, en smal trekant, et fladt rektangel og et kvadrat, der står lige. Rektangel og kvadrat skal altså skrives to gange hver, cirkel og trekant én gang, og barnet skal selv finde ud af det; boksen siger kun, hvordan ordene staves.",
+   "p2": "Arket flytter barnet fra at genkende et navn til at skrive det, og det er et andet arbejde. Når barnet skal skrive kvadrat under det drejede kvadrat, skal det først bestemme figuren og derefter holde ordet i hovedet, mens det skrives. Rektangel er det længste ord med sine ni bogstaver og en god øvelse i at få alle bogstaverne med. De to kvadrater og de to rektangler er tegnet forskelligt, et lige og et drejet, så barnet opdager, at figuren har samme navn, selv om den vender anderledes. Skrivelinjerne er de samme som i skrivehæftet, så arket kan bruges i danskfaget og i matematik på samme tid.",
+   "p3": "Print arket, og lad barnet skrive med blyant, så et navn kan rettes. Boksen kan dækkes med en seddel, hvis barnet er klar til at stave ordene uden hjælp. Arket følger efter grundarket, hvor barnet kun sætter ring om navnet, og før gåderne, hvor figuren ikke er tegnet, men beskrevet. Til en blødere start kan barnet først sætte ring om navnet i boksen og så skrive det af.",
+   "canonicalDeckSlug": "geometriske-figurer-g1382",
+   "carousel": [
+    {
+     "label": "Geometriske figurer – sæt ring om navnet – børnehaveklasse",
+     "href": "geometriske-figurer-saet-ring-om-navnet"
+    },
+    {
+     "label": "Genkende geometriske figurer – rigtig figur eller ej? – 1. klasse",
+     "href": "genkende-geometriske-figurer-rigtig-eller-ej"
+    },
+    {
+     "label": "Geometriske figurer omkring os – cirkel eller rektangel? – børnehaveklasse",
+     "href": "geometriske-figurer-omkring-os"
+    },
+    {
+     "label": "Gåder om geometriske figurer – læs og find figuren – 1. klasse",
+     "href": "gaader-om-geometriske-figurer"
+    }
+   ],
+   "title": "Geometriske figurer: skriv navnene på linjerne | til print PDF gratis",
+   "metaDescription": "Seks figurer, hver med en skrivelinje, og en boks med cirkel, kvadrat, rektangel og trekant. Barnet skriver figurens navn selv. Gratis PDF til print."
+  },
+  {
+   "slug": "gaader-om-geometriske-figurer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shape-riddles",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Gåder om geometriske figurer · Arbejdsark",
+   "h1": "Gåder om geometriske figurer – læs og find figuren – 1. klasse",
+   "strand": "Geometri og måling (Fælles Mål)",
+   "standard": "1.G.A.1",
+   "slotTokens": [
+    "geometriske-figurer",
+    "1-klasse"
+   ],
+   "p1": "På dette ark er der ingen tegnede figurer, kun ord. Fem gåder står i hver sin boks med et spørgsmålstegn i hjørnet, og under hver gåde er der tre navne at vælge mellem. Figuren fortæller selv: Jeg er helt rund og har ingen hjørner. Jeg har 3 sider og 3 hjørner. Jeg har 6 sider og 6 hjørner. Kvadratets gåde siger: Jeg ligner et skakbræt: 4 lige lange sider og 4 rette hjørner. Rektanglets gåde siger, at alle fire hjørner er rette, og at to af siderne er længere end de to andre. Hver gåde slutter med Hvad er jeg? Sekskanten er med, både som svar og som forkert valg.",
+   "p2": "Gåderne tvinger barnet til at bruge figurernes kendetegn i stedet for at genkende et billede. Det er hele pointen: En trekant er ikke noget, der ligner en trekant, men noget med tre sider og tre hjørner. Rektanglets gåde er den sværeste, for ved den står kvadrat som et af valgene, og barnet skal læse til ende for at se, at to sider er længere. Ved kvadratets gåde står rektangel til gengæld ikke som valg, så skakbrættet ikke kan føre barnet på vildspor. Spørg gerne bagefter, hvad der ville ske, hvis rektangel havde stået der: hvad siger gåden om siderne, og hvorfor passer det ikke på et rektangel? Tallene i gåderne er skrevet som cifre, så læsningen ikke bliver for tung i 1. klasse.",
+   "p3": "Print arket; det kræver læsning, så det passer bedst sidst i forløbet om geometriske figurer eller til børn, der læser sikkert. Læs gåderne højt for et barn, der endnu staver sig igennem, og lad det selv vælge navnet. Som opfølgning kan børnene skrive deres egen gåde om en figur fra klassen og lade sidemanden gætte.",
+   "canonicalDeckSlug": "geometriske-figurer-g1383",
+   "carousel": [
+    {
+     "label": "Geometriske figurer – sæt ring om navnet – børnehaveklasse",
+     "href": "geometriske-figurer-saet-ring-om-navnet"
+    },
+    {
+     "label": "Genkende geometriske figurer – rigtig figur eller ej? – 1. klasse",
+     "href": "genkende-geometriske-figurer-rigtig-eller-ej"
+    },
+    {
+     "label": "Geometriske figurer omkring os – cirkel eller rektangel? – børnehaveklasse",
+     "href": "geometriske-figurer-omkring-os"
+    },
+    {
+     "label": "Geometriske figurer – skriv navnene på linjerne – 1. klasse",
+     "href": "geometriske-figurer-skriv-navnet"
+    }
+   ],
+   "title": "Gåder om geometriske figurer: læs og find figuren | til print PDF gratis",
+   "metaDescription": "Fem gåder om figurer: rund uden hjørner, tre sider, seks hjørner og et skakbræt. Barnet sætter ring om figurens navn blandt tre valg. Gratis PDF."
+  },
+  {
+   "slug": "tegn-geometriske-figurer-paa-prikpapir",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shapes-draw-on-dots",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Geometriske figurer på prikpapir · Arbejdsark",
+   "h1": "Tegn geometriske figurer på prikpapir – forbind prikkerne – børnehaveklasse",
+   "strand": "Geometri og måling (Fælles Mål)",
+   "standard": "K.G.B.5",
+   "slotTokens": [
+    "geometriske-figurer",
+    "boernehaveklasse"
+   ],
+   "p1": "Arket er delt i fire store felter, og hvert felt er prikpapir med seks rækker af seks prikker. Øverst i feltet står navnet på den figur, barnet skal tegne: trekant, kvadrat, kvadrat og rektangel. De to første felter er tomme, så barnet selv vælger, hvor figuren skal ligge, og hvor stor den skal være. I det tredje felt er en side af kvadratet allerede tegnet som en tyk orange streg, tre prikafstande lang. I det fjerde går en tyk streg lodret ned over fire prikafstande, og den bliver den ene side i rektanglet.",
+   "p2": "At tegne en figur selv fortæller mere om forståelsen end at genkende den. Et barn, der skal lave et kvadrat ud fra den tykke streg, må tælle: Siden er tre prikafstande lang, så de andre sider skal også være tre. Rektanglet stiller det modsatte krav – den nye side må ikke være lige så lang som den gamle, ellers bliver det et kvadrat. Trekanten er friest, for tre prikker, der ikke ligger på linje, giver altid en trekant, og det er sjovt at se, hvor forskellige børnenes trekanter bliver. Prikkerne gør stregerne lige, også for et barn i børnehaveklassen, der endnu ikke har styr på blyanten.",
+   "p3": "Print arket, og giv barnet en lineal, hvis stregerne skal være helt lige, eller lad dem tegne på fri hånd fra prik til prik. De tomme felter kan bruges igen på en ny kopi, så børnene kan sammenligne deres trekanter. Arket er det eneste i familien, hvor figuren tegnes; de andre handler om at genkende, navngive eller finde figurerne.",
+   "canonicalDeckSlug": "geometriske-figurer-k372",
+   "carousel": [
+    {
+     "label": "Geometriske figurer – sæt ring om navnet – børnehaveklasse",
+     "href": "geometriske-figurer-saet-ring-om-navnet"
+    },
+    {
+     "label": "Genkende geometriske figurer – rigtig figur eller ej? – 1. klasse",
+     "href": "genkende-geometriske-figurer-rigtig-eller-ej"
+    },
+    {
+     "label": "Geometriske figurer omkring os – cirkel eller rektangel? – børnehaveklasse",
+     "href": "geometriske-figurer-omkring-os"
+    },
+    {
+     "label": "Geometriske figurer – skriv navnene på linjerne – 1. klasse",
+     "href": "geometriske-figurer-skriv-navnet"
+    }
+   ],
+   "title": "Tegn geometriske figurer på prikpapir | til print PDF gratis",
+   "metaDescription": "Fire felter med prikpapir, seks gange seks prikker. Barnet tegner en trekant, to kvadrater og et rektangel; to felter har en tyk streg at begynde fra. Gratis PDF."
+  },
+  {
+   "slug": "faerdselslaere-farvelaeg-lyskurvene",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "road-safety-color-the-traffic-lights",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Færdselslære · Farvelæg lyskurvene",
+   "h1": "Færdselslære – farvelæg lyskurvene – børnehaveklasse",
+   "strand": "Færdselslære (Fælles Mål)",
+   "slotTokens": [
+    "faerdselslaere",
+    "boernehaveklasse"
+   ],
+   "p1": "Alle lamperne er hvide på dette ark. Seks lyskurve står på to vejstriber, fire med tre runde lamper for biler og to fodgængersignaler med en stående og en gående figur. Ved én lampe på hver lyskurv sidder små stråler, og det er den lampe, der lyser. Barnet skal selv vide, hvilken farve den har, og farve den. To af billyskurvene lyser i midten, én øverst og én nederst. På fodgængersignalerne lyser den stående figur på det ene og den gående på det andet. Der står ingen farveord på arket, kun stregerne.",
+   "p2": "Opgaven bygger på en regel, barnet skal have lært: rødt sidder øverst, gult i midten og grønt nederst, og det gælder alle billyskurve i Danmark. Derfor kan farven ikke gættes ud fra billedet, den skal huskes. Arket har to gule lamper med, fordi gult er den farve, børn oftest glemmer, og som de færreste kan forklare. Ved fodgængersignalet er reglen en anden: den stående mand er rød, den gående er grøn, og en gul findes ikke. Det giver en god samtale om, hvorfor bilerne har brug for et varsel, mens fodgængerne ikke har.",
+   "p3": "Print arket på almindeligt papir, og hav røde, gule og grønne farveblyanter klar. Lad barnet farve de lamper, der ikke lyser, grå eller lade dem være hvide, så forskellen står tydeligt. Arket passer efter grundarket, hvor barnet vælger mellem stop og kør, og før trin-for-trin-arket om at krydse vejen.",
+   "canonicalDeckSlug": "faerdselslaere-k373",
+   "carousel": [
+    {
+     "label": "Færdselslære – hvad viser lyskurven? – børnehaveklasse",
+     "href": "faerdselslaere-hvad-viser-lyskurven"
+    },
+    {
+     "label": "Sådan går du sikkert over vejen – trin for trin – børnehaveklasse",
+     "href": "gaa-sikkert-over-vejen-trin-for-trin"
+    },
+    {
+     "label": "Færdselstavler og hvad de betyder – forbind tavle og sætning – 1. klasse",
+     "href": "faerdselstavler-og-hvad-de-betyder"
+    },
+    {
+     "label": "Advarselstavler, forbudstavler og påbudstavler – sortér færdselstavlerne – 2. klasse",
+     "href": "advarselstavler-forbudstavler-paabudstavler"
+    }
+   ],
+   "title": "Færdselslære: farvelæg lyskurvene | til print PDF gratis",
+   "metaDescription": "Seks tomme lyskurve med stråler om én lampe. Barnet finder lampen, der lyser, og farver den rød, gul eller grøn efter pladsen i lyskurven. Gratis PDF."
+  },
+  {
+   "slug": "gaa-sikkert-over-vejen-trin-for-trin",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "crossing-the-road-safely-steps",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Færdselslære · Gå over vejen",
+   "h1": "Sådan går du sikkert over vejen – trin for trin – børnehaveklasse",
+   "strand": "Færdselslære (Fælles Mål)",
+   "slotTokens": [
+    "faerdselslaere",
+    "boernehaveklasse"
+   ],
+   "p1": "Fire billedkort viser det samme barn med skoletaske ved det samme fodgængerfelt, to kort øverst og to nederst, og under hvert kort er der et tomt, stiplet felt til et tal. På ét kort står barnet stille ved kantstenen. På et andet drejer det hovedet mod venstre, og en pil viser retningen; på et tredje ser det mod højre med en pil den anden vej. Det fjerde kort viser barnet ude på striberne med en lille pil fremad: vejen er fri, og barnet går over. Kortene står ikke i den rækkefølge, trinene skal tages i, og barnet skriver 1 til 4 i felterne, så de viser, hvordan man går sikkert over vejen.",
+   "p2": "Rækkefølgen er det, der skal læres, og den er ikke selvindlysende for et barn i børnehaveklassen. Mange vil begynde med at gå, fordi det er det, de gerne vil. Arket følger fire trin: stop ved kantstenen, se til venstre, se til højre, og gå, når vejen er fri. Der er ingen bil på kortene, så barnet skal selv forstå, at det sidste trin kun gælder, når der ikke kommer noget. I Danmark lærer børn ofte at se til venstre, til højre og til venstre igen; det sidste blik er ikke tegnet her, men det er værd at nævne og øve højt. Spørg også, hvad barnet gør, hvis der kommer en bil, mens det kigger: så venter det og kigger forfra.",
+   "p3": "Print arket, og lad børnene klippe kortene ud og lægge dem i rækkefølge på bordet, før de skriver tallene. Så kan de flytte rundt, til de er enige. Øv bagefter rækkefølgen ved et rigtigt fodgængerfelt tæt på skolen. Arket står i familien om færdselslære ved siden af arkene om lyskurven og om færdselstavler.",
+   "canonicalDeckSlug": "faerdselslaere-k374",
+   "carousel": [
+    {
+     "label": "Færdselslære – hvad viser lyskurven? – børnehaveklasse",
+     "href": "faerdselslaere-hvad-viser-lyskurven"
+    },
+    {
+     "label": "Færdselslære – farvelæg lyskurvene – børnehaveklasse",
+     "href": "faerdselslaere-farvelaeg-lyskurvene"
+    },
+    {
+     "label": "Færdselstavler og hvad de betyder – forbind tavle og sætning – 1. klasse",
+     "href": "faerdselstavler-og-hvad-de-betyder"
+    },
+    {
+     "label": "Advarselstavler, forbudstavler og påbudstavler – sortér færdselstavlerne – 2. klasse",
+     "href": "advarselstavler-forbudstavler-paabudstavler"
+    }
+   ],
+   "title": "Gå sikkert over vejen: trin for trin | til print PDF gratis",
+   "metaDescription": "Fire billeder af et barn ved et fodgængerfelt: stop ved kantstenen, se til venstre, se til højre og gå, når vejen er fri. Barnet skriver 1 til 4. Gratis PDF."
+  },
+  {
+   "slug": "faerdselstavler-og-hvad-de-betyder",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "road-safety-signs-and-meanings",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Færdselstavler for børn · Arbejdsark",
+   "h1": "Færdselstavler og hvad de betyder – forbind tavle og sætning – 1. klasse",
+   "strand": "Færdselslære (Fælles Mål)",
+   "slotTokens": [
+    "faerdselslaere",
+    "1-klasse"
+   ],
+   "p1": "Seks færdselstavler står i en søjle til venstre og seks sætninger i en søjle til højre, med en orange prik ved hver, hvor stregen skal begynde og slutte. Tavlerne er tegnet efter de danske: indkørsel forbudt, den hvide trekant med rød kant og to børn, stoptavlen, den blå cyklesti, den blå firkantede fodgængerovergang og den blå gangsti med en voksen og et barn. Sætningerne står i en anden orden, for eksempel Denne sti er kun for cykler, Pas på, her kan børn løbe ud på vejen, og Her må ingen køre ind. Barnet læser og forbinder hver tavle med den sætning, der fortæller, hvad tavlen betyder.",
+   "p2": "Tavlerne er dem, et barn i 1. klasse møder på vej til skole, og det er derfor, de er valgt. To blå tavler med en cykel og en voksen med et barn ligner hinanden meget i farve og form, og netop dem blander børn tit sammen. Stoptavlen er let, fordi ordet står på den, mens indkørsel forbudt er sværere, for den hvide bjælke siger ikke noget af sig selv. Sætningerne er skrevet i hverdagssprog, som et barn selv ville sige det. Arket kræver læsning, så det passer bedst sidst i 1. klasse, eller når en voksen læser sætningerne højt, og barnet selv trækker stregen.",
+   "p3": "Print arket i farver, for tavlernes farve er en del af betydningen. Klip gerne tavlerne ud bagefter og hæng dem op, så børnene kan lede efter dem på næste tur ud af skolen. Arket står i midten af familien: efter lyskurvene og før arkene, hvor tavlerne sorteres i advarsels-, forbuds- og påbudstavler, eller hvor der er quiz om tavlerne.",
+   "canonicalDeckSlug": "faerdselslaere-g1384",
+   "carousel": [
+    {
+     "label": "Færdselslære – hvad viser lyskurven? – børnehaveklasse",
+     "href": "faerdselslaere-hvad-viser-lyskurven"
+    },
+    {
+     "label": "Færdselslære – farvelæg lyskurvene – børnehaveklasse",
+     "href": "faerdselslaere-farvelaeg-lyskurvene"
+    },
+    {
+     "label": "Sådan går du sikkert over vejen – trin for trin – børnehaveklasse",
+     "href": "gaa-sikkert-over-vejen-trin-for-trin"
+    },
+    {
+     "label": "Advarselstavler, forbudstavler og påbudstavler – sortér færdselstavlerne – 2. klasse",
+     "href": "advarselstavler-forbudstavler-paabudstavler"
+    }
+   ],
+   "title": "Færdselstavler og deres betydning for børn | til print PDF gratis",
+   "metaDescription": "Seks danske færdselstavler: indkørsel forbudt, børn, stop, cyklesti, fodgængerovergang og gangsti. Barnet trækker en streg til sætningen, der passer. Gratis PDF."
+  },
+  {
+   "slug": "advarselstavler-forbudstavler-paabudstavler",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "road-safety-kinds-of-signs",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Færdselslære · Tavlernes grupper",
+   "h1": "Advarselstavler, forbudstavler og påbudstavler – sortér færdselstavlerne – 2. klasse",
+   "strand": "Færdselslære (Fælles Mål)",
+   "slotTokens": [
+    "faerdselslaere",
+    "2-klasse"
+   ],
+   "p1": "Seks store tavler på stænger fylder det meste af siden, hver med et bogstav fra A til F. Der er to blå, runde påbudstavler: en gangsti med en voksen og et barn og en cykelsti. To hvide, runde tavler med rød kant er forbud: én med en gående person og én helt uden symbol. To er røde trekanter: én med to børn og én med en cykel. Nederst står tre bokse med overskrifterne Advarselstavler, Forbudstavler og Påbudstavler og to tomme felter i hver. Barnet skriver bogstavet for hver tavle i et felt i tavlens gruppe.",
+   "p2": "Her skal tavlerne ikke læses én for én, men forstås som et system: formen og farven fortæller, hvilken slags besked tavlen giver. Den røde trekant advarer, den runde med rød kant forbyder, og den blå, runde påbyder. Når barnet har fået fat i det, kan det gætte betydningen af en tavle, det aldrig har set før. Den helt tomme røde ring er arkets bedste samtale, for den betyder, at al kørsel er forbudt, og mange børn tror, at der mangler noget. Cyklen står både på den blå, runde tavle og i den røde trekant, så det er formen og farven og ikke symbolet, der afgør gruppen; bogstaverne siger intet om, hvor tavlen hører til.",
+   "p3": "Print arket i farver, for farven er halvdelen af reglen. Lad gerne børnene klippe tavlerne ud og sortere dem i bunker, før de skriver bogstaverne, eller bland rækkefølgen ved at dække bogstaverne. Arket følger efter arket, hvor tavlerne forbindes med deres betydning, og quizarket om færdselstavler er et godt næste skridt.",
+   "canonicalDeckSlug": "faerdselslaere-g2360",
+   "carousel": [
+    {
+     "label": "Færdselslære – hvad viser lyskurven? – børnehaveklasse",
+     "href": "faerdselslaere-hvad-viser-lyskurven"
+    },
+    {
+     "label": "Færdselslære – farvelæg lyskurvene – børnehaveklasse",
+     "href": "faerdselslaere-farvelaeg-lyskurvene"
+    },
+    {
+     "label": "Sådan går du sikkert over vejen – trin for trin – børnehaveklasse",
+     "href": "gaa-sikkert-over-vejen-trin-for-trin"
+    },
+    {
+     "label": "Færdselstavler og hvad de betyder – forbind tavle og sætning – 1. klasse",
+     "href": "faerdselstavler-og-hvad-de-betyder"
+    }
+   ],
+   "title": "Advarsels-, forbuds- og påbudstavler: sortér dem | til print PDF gratis",
+   "metaDescription": "Seks færdselstavler med bogstav A til F og tre grupper: advarselstavler, forbudstavler og påbudstavler. Barnet skriver hver tavles bogstav i gruppen. Gratis PDF."
+  },
+  {
+   "slug": "quiz-om-faerdselstavler",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "road-safety-sign-quiz",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Færdselslære · Quiz",
+   "h1": "Quiz om færdselstavler – find den tavle, der passer – 2. klasse",
+   "strand": "Færdselslære (Fælles Mål)",
+   "slotTokens": [
+    "faerdselslaere",
+    "2-klasse"
+   ],
+   "p1": "Arket er en quiz i seks spørgsmål. Til venstre står en sætning om en trafiksituation, til højre tre små tavler at vælge imellem. Sætningerne lyder for eksempel Man må ikke køre ind i gaden fra denne ende, Biler må godt køre her, men det må cykler ikke, og Snart kommer der et lyskryds, hvor lyset kan skifte til rødt. Tavlerne er de danske: stop, indkørsel forbudt, cykling forbudt, gående forbudt, kørsel forbudt, cyklister, børn, signalregulering, fodgængerovergang og cyklesti. Den rigtige tavle står ikke det samme sted i hver række.",
+   "p2": "Quizzen er sværere end forbind-arket, fordi sætningen beskriver en situation og ikke tavlen selv. Barnet må tænke: hvis cykler ikke må køre her, må tavlen forbyde cykler, altså en rund tavle med rød kant og en cykel. De forkerte valg er lagt tæt på: ved sætningen om cyklerne står både forbudstavlen og advarslen om cyklister, som har samme cykel, men en anden form. Det kræver, at barnet kender forskellen på at forbyde og at advare. Sætningerne er skrevet på det niveau, et barn i 2. klasse kan læse selv, og ingen af dem nævner tavlens navn, så barnet må forstå situationen.",
+   "p3": "Print arket i farver; tavlerne er små, så farven hjælper. Brug quizzen som afslutning på et forløb om færdselslære, gerne sammen med arket, hvor tavlerne sorteres i grupper. Børnene kan bagefter lave deres egne sætninger til de tavler, der ikke blev brugt, og stille hinanden spørgsmål.",
+   "canonicalDeckSlug": "faerdselslaere-g2361",
+   "carousel": [
+    {
+     "label": "Færdselslære – hvad viser lyskurven? – børnehaveklasse",
+     "href": "faerdselslaere-hvad-viser-lyskurven"
+    },
+    {
+     "label": "Færdselslære – farvelæg lyskurvene – børnehaveklasse",
+     "href": "faerdselslaere-farvelaeg-lyskurvene"
+    },
+    {
+     "label": "Sådan går du sikkert over vejen – trin for trin – børnehaveklasse",
+     "href": "gaa-sikkert-over-vejen-trin-for-trin"
+    },
+    {
+     "label": "Færdselstavler og hvad de betyder – forbind tavle og sætning – 1. klasse",
+     "href": "faerdselstavler-og-hvad-de-betyder"
+    }
+   ],
+   "title": "Quiz om færdselstavler for børn | til print PDF gratis",
+   "metaDescription": "Seks sætninger om trafik, hver med tre færdselstavler at vælge mellem. Barnet sætter ring om den ene tavle, der passer til sætningen. Gratis PDF til print."
+  },
+  {
+   "slug": "generationer-i-familien-aeldst-til-yngst",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-generations-oldest-to-youngest",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Generationer i familien · Arbejdsark",
+   "h1": "Generationer i familien – fra ældst til yngst – 1. klasse",
+   "strand": "Historie: familie og slægt (Fælles Mål)",
+   "slotTokens": [
+    "familie-og-stamtrae",
+    "1-klasse"
+   ],
+   "p1": "Øverst hænger tre billedrammer med tallene 1, 2 og 3. I den første står to ældre med gråt hår og briller, i den anden to voksne og i den tredje to børn. Det er de tre generationer, og rammerne fungerer som en nøgle. Under dem følger seks rækker med tre familieord i hver, for eksempel fætter, farbror og farmor eller lillebror, farfar og moster. Ved hvert ord er der et tomt felt, og barnet skriver 1, 2 og 3, så ordene står fra den ældste generation til den yngste. Arket har atten ord i alt, og farmor og morfar optræder to gange.",
+   "p2": "Opgaven lærer barnet at ordne familieord efter generation og ikke efter alder alene. En fætter kan godt være ældre end barnet selv, men han hører stadig til den yngste generation, og en moster kan være ung, men hører til forældrenes. Ordene er de danske sammensætninger, der gør det lettere: morbror og farbror siger selv, at de er mors og fars brødre, og mormor og farfar er forældrenes forældre. Det er gode ord at splitte op sammen. Lad barnet sige generationen højt for hvert ord, før tallet skrives, så det er ordene og ikke rækken ovenover, der styrer svaret.",
+   "p3": "Print arket; det er ét ark med tydelige skrivefelter til cifrene. Brug billedrammerne øverst som hjælp, og lad barnet pege på rammen for hvert ord, før det skriver. Arket passer efter grundarket, hvor familiemedlemmerne findes i et stamtræ, og før gådearket om mormor og farmor, hvor ordene skal skrives.",
+   "canonicalDeckSlug": "familie-og-stamtrae-g1385",
+   "carousel": [
+    {
+     "label": "Familiemedlemmer – hvem er hvem i familien? – børnehaveklasse",
+     "href": "familien-hvem-er-hvem-i-stamtraeet"
+    },
+    {
+     "label": "Familieord – skriv efter, og skriv selv – børnehaveklasse",
+     "href": "skriv-familieord-efter-og-selv"
+    },
+    {
+     "label": "Stamtræet – læs ledetrådene, og skriv navnene – 1. klasse",
+     "href": "stamtrae-laes-ledetraadene"
+    },
+    {
+     "label": "Mormor eller farmor? Gåder om familien – 2. klasse",
+     "href": "gaader-om-familien-mormor-eller-farmor"
+    }
+   ],
+   "title": "Generationer i familien: fra ældst til yngst | til print PDF gratis",
+   "metaDescription": "Seks rækker med tre familieord, fx fætter, farbror og farmor. Barnet skriver 1, 2 og 3 fra den ældste generation til den yngste. Gratis PDF til print."
+  },
+  {
+   "slug": "skriv-familieord-efter-og-selv",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-words-trace-and-write",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Familieord · Skriv efter",
+   "h1": "Familieord – skriv efter, og skriv selv – børnehaveklasse",
+   "strand": "Historie: familie og slægt (Fælles Mål)",
+   "slotTokens": [
+    "familie-og-stamtrae",
+    "boernehaveklasse"
+   ],
+   "p1": "Til højre står fem familieord med stiplede bogstaver på skrivelinjer, hvert med et tal foran: morfar, mormor, bror, mor og far. Til venstre står et lille stamtræ med Alma nederst, markeret med en orange ramme og en stjerne, og fem nummererede personer: øverst en ældre kvinde med knold og briller og en ældre mand med krøllet hår og skæg, i midten en kvinde med fletning og en mand med overskæg, og ved siden af Alma en dreng. Under de stiplede ord er der fem tomme skrivelinjer med tallene 1 til 5. Barnet finder personen i træet med samme tal som ordet, skriver familieordet efter og skriver det igen på linjen med samme tal.",
+   "p2": "Arket kombinerer skrivning og familieord, og det er lavet til børnehaveklassen, hvor bogstaverne stadig er nye. De fem ord er korte og lydrette, og tre af dem gemmer sig inde i de to andre: mor og far står i mormor og morfar. Det kan barnet opdage, mens det skriver efter. Tallene binder det hele sammen: det samme tal står ved ordet, ved personen i træet og ved den tomme linje, så barnet kan tjekke sig selv. Morfar er tegnet med skæg og krøllet hår og mormor med knold og briller, så de to ældre er lette at skille ad. Stregen fra dem går ned til Almas mor, og derfor er de mormor og morfar og ikke farmor og farfar; det er en god snak at tage, mens barnet peger.",
+   "p3": "Print arket, og giv barnet en blyant til de stiplede bogstaver. Det kan være en hjælp at læse ordene højt sammen og pege på personen i træet, før barnet skriver. Arket er det letteste i familien om familie og stamtræ; bagefter kan barnet tage grundarket, hvor familiemedlemmerne findes med tal, eller tegne sin egen familie på stamtræ-skabelonen.",
+   "canonicalDeckSlug": "familie-og-stamtrae-k375",
+   "carousel": [
+    {
+     "label": "Familiemedlemmer – hvem er hvem i familien? – børnehaveklasse",
+     "href": "familien-hvem-er-hvem-i-stamtraeet"
+    },
+    {
+     "label": "Generationer i familien – fra ældst til yngst – 1. klasse",
+     "href": "generationer-i-familien-aeldst-til-yngst"
+    },
+    {
+     "label": "Stamtræet – læs ledetrådene, og skriv navnene – 1. klasse",
+     "href": "stamtrae-laes-ledetraadene"
+    },
+    {
+     "label": "Mormor eller farmor? Gåder om familien – 2. klasse",
+     "href": "gaader-om-familien-mormor-eller-farmor"
+    }
+   ],
+   "title": "Familieord: skriv efter, og skriv selv | til print PDF gratis",
+   "metaDescription": "Fem nummererede familieord at skrive efter – morfar, mormor, bror, mor og far – og et stamtræ med Alma. Barnet finder personen med samme tal. Gratis PDF."
+  },
+  {
+   "slug": "stamtrae-laes-ledetraadene",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-tree-read-the-clues",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Stamtræ · Læs ledetrådene",
+   "h1": "Stamtræet – læs ledetrådene, og skriv navnene – 1. klasse",
+   "strand": "Historie: familie og slægt (Fælles Mål)",
+   "slotTokens": [
+    "familie-og-stamtrae",
+    "1-klasse"
+   ],
+   "p1": "Stamtræet fylder den øverste halvdel af arket og har syv personer i tre generationer. Tre af navnene står allerede: Ida er bedstemoren øverst, Emil er manden i midten, og Alfred står nederst med en orange ramme og en stjerne. De fire andre har tomme navnefelter med skrivelinjer: bedstefaren ved siden af Ida, to kvinder i midten og drengen ved siden af Alfred. Under træet står fire ledetråde: Oscar er Alfreds bror. Alma er Alfreds mor. Malthe er Alfreds morfar. Sofia er Alfreds moster. Barnet læser og skriver hvert navn i det rigtige felt.",
+   "p2": "Her skal barnet læse stregerne i træet og ikke kun billederne. De to kvinder i midten er begge døtre af Ida og bedstefaren, men kun den ene er gift med Emil og har Alfred og hans bror, og hun er Alma, mens den anden er Sofia, moster. Bedstefaren er morfar, fordi han er far til Alfreds mor. Det er de danske ord, der gør opgaven løsbar: moster betyder mors søster, og morfar betyder mors far. Arket kræver, at barnet kan læse korte sætninger, og det giver en god øvelse i at holde en relation i hovedet, mens man leder i en tegning.",
+   "p3": "Print arket; navnefelterne har skrivelinjer, så barnet kan skrive navnene i hånden. Læs gerne ledetrådene højt for et barn, der endnu læser langsomt, og lad det selv pege og skrive. Arket kommer efter grundarket med tal og før gådearket, hvor familieordene skal bruges uden billede. Bagefter kan barnet lave ledetråde om sin egen familie.",
+   "canonicalDeckSlug": "familie-og-stamtrae-g1386",
+   "carousel": [
+    {
+     "label": "Familiemedlemmer – hvem er hvem i familien? – børnehaveklasse",
+     "href": "familien-hvem-er-hvem-i-stamtraeet"
+    },
+    {
+     "label": "Generationer i familien – fra ældst til yngst – 1. klasse",
+     "href": "generationer-i-familien-aeldst-til-yngst"
+    },
+    {
+     "label": "Familieord – skriv efter, og skriv selv – børnehaveklasse",
+     "href": "skriv-familieord-efter-og-selv"
+    },
+    {
+     "label": "Mormor eller farmor? Gåder om familien – 2. klasse",
+     "href": "gaader-om-familien-mormor-eller-farmor"
+    }
+   ],
+   "title": "Stamtræ i 1. klasse: læs ledetrådene | til print PDF gratis",
+   "metaDescription": "Et stamtræ med Alfred, Ida og Emil og fire tomme navnefelter. Fire ledetråde, fx Malthe er Alfreds morfar, fortæller, hvor Oscar, Alma, Malthe og Sofia står."
+  },
+  {
+   "slug": "gaader-om-familien-mormor-eller-farmor",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-relationships-riddles",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Gåder om familien · Arbejdsark",
+   "h1": "Mormor eller farmor? Gåder om familien – 2. klasse",
+   "strand": "Historie: familie og slægt (Fælles Mål)",
+   "slotTokens": [
+    "familie-og-stamtrae",
+    "2-klasse"
+   ],
+   "p1": "Noah står i en ramme øverst til venstre, og ved siden af ham en boks med otte familieord: morbror, farbror, farfar, farmor, moster, morfar, faster og mormor. Under dem står otte korte sætninger, der alle slutter med et tomt felt: Noahs mors søster er Noahs ___. Noahs fars far er Noahs ___. Noahs mors bror er Noahs ___. Hver sætning beskriver et familiemedlem ved vejen fra Noah, og barnet skriver det rigtige familieord fra boksen på linjen. Alle otte ord bruges én gang.",
+   "p2": "Sætningerne viser, hvordan de danske familieord er bygget: mors søster bliver til moster, fars bror til farbror, mors mor til mormor. Det er en genial lille regel, som mange andre sprog ikke har, og den er værd at gøre tydelig i 2. klasse. Vær dog klar over, at det samtidig gør arket ret let for et barn, der ser mønsteret: svaret er de to første ord slået sammen, og det kan løses uden at tænke på familien. Brug det som en fordel og spørg, hvorfor moster er stavet med et o og ikke med mor. Fire af sætningerne handler om mors side og fire om fars.",
+   "p3": "Print arket; skrivefelterne er brede nok til de længste ord. Når barnet er færdigt, kan det dække boksen og prøve at sige ordene uden hjælp, eller skrive tre sætninger om sin egen familie på samme måde. Arket er det sværeste i familien om familie og stamtræ og passer efter arket med ledetrådene.",
+   "canonicalDeckSlug": "familie-og-stamtrae-g2362",
+   "carousel": [
+    {
+     "label": "Familiemedlemmer – hvem er hvem i familien? – børnehaveklasse",
+     "href": "familien-hvem-er-hvem-i-stamtraeet"
+    },
+    {
+     "label": "Generationer i familien – fra ældst til yngst – 1. klasse",
+     "href": "generationer-i-familien-aeldst-til-yngst"
+    },
+    {
+     "label": "Familieord – skriv efter, og skriv selv – børnehaveklasse",
+     "href": "skriv-familieord-efter-og-selv"
+    },
+    {
+     "label": "Stamtræet – læs ledetrådene, og skriv navnene – 1. klasse",
+     "href": "stamtrae-laes-ledetraadene"
+    }
+   ],
+   "title": "Mormor eller farmor? Gåder om familien | til print PDF gratis",
+   "metaDescription": "Otte gåder om Noahs familie, fx Noahs mors søster er Noahs … Barnet skriver det rigtige ord fra boksen: moster, faster, morbror, farbror og flere. Gratis PDF."
+  },
+  {
+   "slug": "stamtrae-skabelon-til-boern",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-tree-template",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Stamtræ-skabelon · Til print",
+   "h1": "Stamtræ-skabelon til børn – tegn dem, der betyder noget – 1. klasse",
+   "strand": "Historie: familie og slægt (Fælles Mål)",
+   "slotTokens": [
+    "familie-og-stamtrae",
+    "1-klasse"
+   ],
+   "p1": "Arket er en tom skabelon. Et træ med grene fylder den øverste del, og på grenene hænger rammer i forskellige former: runde, firkantede og buede. Der er tre rammer øverst, fire i midten og tre nederst, og midt i den nederste række står en ramme med ordet mig. Under træet står en ekstra række med fire rammer på en jordlinje. Under hver ramme er der en skrivelinje. Der står ingen familieord ved rammerne, kun mig, så barnet tegner de mennesker, der betyder noget for det, og skriver deres navne på linjerne.",
+   "p2": "Skabelonen er lavet, så alle familier kan være i den. Der står ikke mor og far, mormor eller farfar, og der er ingen streger, der tvinger barnet til at vise to forældre og fire bedsteforældre. Et barn med to hjem, en plejefamilie, en papfar eller en storesøster, der betyder mere end alle andre, kan tegne netop det. De fire rammer under træet kan bruges til dem, der ikke passer ind på en gren: kæledyr, en nabo eller en ven. Opgaven hører hjemme i historiefaget, hvor eleverne i indskolingen fortæller om sig selv og deres familie.",
+   "p3": "Print arket på lidt tykkere papir, hvis det skal hænge på væggen, og brug farveblyanter til portrætterne. Lad barnet selv vælge, hvor personerne skal sidde, og tal om, hvorfor de sidder der. Skabelonen er den frieste i familien om familie og stamtræ og kan bruges før eller efter de andre ark, fx som en afslutning, hvor barnet samler, hvad det har lært.",
+   "canonicalDeckSlug": "familie-og-stamtrae-g1387",
+   "carousel": [
+    {
+     "label": "Familiemedlemmer – hvem er hvem i familien? – børnehaveklasse",
+     "href": "familien-hvem-er-hvem-i-stamtraeet"
+    },
+    {
+     "label": "Generationer i familien – fra ældst til yngst – 1. klasse",
+     "href": "generationer-i-familien-aeldst-til-yngst"
+    },
+    {
+     "label": "Familieord – skriv efter, og skriv selv – børnehaveklasse",
+     "href": "skriv-familieord-efter-og-selv"
+    },
+    {
+     "label": "Stamtræet – læs ledetrådene, og skriv navnene – 1. klasse",
+     "href": "stamtrae-laes-ledetraadene"
+    }
+   ],
+   "title": "Stamtræ-skabelon til børn | til print PDF gratis",
+   "metaDescription": "Et tomt stamtræ med tretten rammer og navnelinjer og ét felt til mig. Barnet tegner de mennesker, der betyder noget, og skriver deres navne. Gratis PDF til print."
+  },
+  {
+   "slug": "hvad-har-planter-brug-for-for-at-vokse",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "what-plants-need-to-grow",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Hvad har planter brug for? · Arbejdsark",
+   "h1": "Hvad har planter brug for for at vokse? – sol og vand – børnehaveklasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "plantens-dele",
+    "boernehaveklasse"
+   ],
+   "p1": "Arket har fem rækker med to kort i hver, og hvert kort viser en lille kimplante i en potte med en pil ind fra hver side. Pilene kommer fra to ting: en sol, en vanddråbe eller noget helt andet som en sko, en blyant, et tog, en bil, en robot eller en handske. I hver række får kun én af planterne både sol og vand. Den anden får en af de mærkelige ting eller slet ikke det, den skal bruge. Barnet sætter ring om den ene plante i hver række, der får begge de ting, den har brug for. Planterne er tegnet helt ens, så svaret ligger i tingene.",
+   "p2": "Arket giver børn i børnehaveklassen et første billede af, at en plante har behov, ligesom de selv har. Legetøjet er med for at gøre valget tydeligt og lidt sjovt: en plante får ikke noget ud af en robot. Det svære er rækker, hvor den ene plante får vand og en bil, for så har den noget af det, den skal bruge, men ikke det hele. Arket viser kun to behov, lys og vand; jord og luft er ikke tegnet med, så de hører til en samtale bagefter. Den rigtige plante står skiftevis til venstre og til højre, så barnet ikke kan følge et mønster.",
+   "p3": "Print arket i farver, så solen og vanddråben er lette at genkende. Følg gerne op med et forsøg i vindueskarmen: to karseæsker, den ene uden vand eller i et mørkt skab. Arket er det letteste i familien om plantens dele og passer før grundarket, hvor delene skal navngives, og før arket om, hvordan et frø bliver til en plante.",
+   "canonicalDeckSlug": "plantens-dele-k376",
+   "carousel": [
+    {
+     "label": "Plantens dele – skriv navnene på linjerne – 1. klasse",
+     "href": "plantens-dele-skriv-navnene"
+    },
+    {
+     "label": "Fra frø til plante – læg billederne i rækkefølge – 1. klasse",
+     "href": "fra-froe-til-plante-klip-og-lim"
+    },
+    {
+     "label": "Hvilke dele af planten spiser vi? – rod, blad, frugt og frø – 2. klasse",
+     "href": "hvilke-dele-af-planten-spiser-vi"
+    },
+    {
+     "label": "Plantens dele og hvad de gør – fem opgaver, fem dele – 2. klasse",
+     "href": "plantens-dele-og-hvad-de-goer"
+    }
+   ],
+   "title": "Hvad har planter brug for for at vokse? | til print PDF gratis",
+   "metaDescription": "Fem rækker med to potteplanter. Den ene får sol og vand, den anden en sko, en bil eller en robot. Barnet sætter ring om planten, der kan vokse. Gratis PDF."
+  },
+  {
+   "slug": "fra-froe-til-plante-klip-og-lim",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "plant-life-cycle-seed-to-plant",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Fra frø til plante · Klip og lim",
+   "h1": "Fra frø til plante – læg billederne i rækkefølge – 1. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "plantens-dele",
+    "1-klasse"
+   ],
+   "p1": "Fem felter står i en ring midt på arket, forbundet med pile, der går rundt. I det øverste felt ligger frøet i jorden, og de fire andre felter er tomme med stiplet kant. Nederst er der en klippestrimmel med en saks og fire billeder: et frø, der skyder en spire, en lille kimplante med to blade, en plante med blomst og en plante med en bælg. På strimlen står de blandet. Barnet klipper de fire billeder ud og limer dem i de tomme felter efter pilene, begyndende ved frøet. Den sidste pil går tilbage til frøet, så ringen lukker sig.",
+   "p2": "Arket viser planten som et kredsløb og ikke som en linje, og det er pointen: bælgen er fuld af nye frø, og derfor går pilen tilbage til begyndelsen. Mange børn i 1. klasse tror, at historien slutter med blomsten. Rækkefølgen er frø, spire, kimplante, blomstrende plante og plante med bælg. Fordi billederne står blandet på strimlen, må barnet se på, hvad der sker med planten fra billede til billede: først en spire, så to små blade, så en blomst og til sidst en bælg med nye frø. Bed gerne barnet fortælle, hvad der er forandret, før det limer.",
+   "p3": "Print arket, og hav saks og lim klar. Felterne er lige så store som billederne, så de passer præcis. Så gerne en bønne i et glas med vådt køkkenrulle ved siden af, så børnene kan se spiren komme. Arket står i familien om plantens dele efter arket om, hvad planter har brug for, og før grundarket, hvor delene skal navngives.",
+   "canonicalDeckSlug": "plantens-dele-g1388",
+   "carousel": [
+    {
+     "label": "Plantens dele – skriv navnene på linjerne – 1. klasse",
+     "href": "plantens-dele-skriv-navnene"
+    },
+    {
+     "label": "Hvad har planter brug for for at vokse? – sol og vand – børnehaveklasse",
+     "href": "hvad-har-planter-brug-for-for-at-vokse"
+    },
+    {
+     "label": "Hvilke dele af planten spiser vi? – rod, blad, frugt og frø – 2. klasse",
+     "href": "hvilke-dele-af-planten-spiser-vi"
+    },
+    {
+     "label": "Plantens dele og hvad de gør – fem opgaver, fem dele – 2. klasse",
+     "href": "plantens-dele-og-hvad-de-goer"
+    }
+   ],
+   "title": "Fra frø til plante: læg billederne i rækkefølge | til print PDF gratis",
+   "metaDescription": "Fra frø til plante: fem felter i en ring, frøet i det første, og fire billeder at klippe ud – spire, kimplante, blomst og bælg. Barnet limer dem efter pilene."
+  },
+  {
+   "slug": "hvilke-dele-af-planten-spiser-vi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "parts-of-a-plant-we-eat",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Plantens dele · Hvad spiser vi?",
+   "h1": "Hvilke dele af planten spiser vi? – rod, blad, frugt og frø – 2. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "plantens-dele",
+    "2-klasse"
+   ],
+   "p1": "Otte kort fylder arket, hvert med et farvebillede af noget, vi spiser, og tre knapper med en lille tegning og et ord: rod, stængel, blad, blomst, frugt eller frø. Madvarerne er en majskolbe, en radise, en aubergine, et salathoved, en gulerod, en rød peberfrugt, et blomkål og et spinatblad. Ingen af dem har navnet skrevet på, så barnet skal selv genkende maden. For hver madvare sætter barnet ring om den del af planten, vi spiser. Radisen og guleroden er rødder, salaten og spinaten blade, blomkålet en blomst, majsen frø, og auberginen og peberfrugten er frugter.",
+   "p2": "Det overraskende er, at vi spiser næsten alle plantens dele, og at køkkenets ord ikke passer med biologiens. Auberginen og peberfrugten kalder vi grøntsager, men de er plantens frugter, fordi de gemmer frøene, og det samme gælder tomat og agurk. Blomkålet er en masse små blomsterknopper, der aldrig fik lov at springe ud. Majskernerne er frø. Stængel står som valg på flere kort, men ingen af de otte madvarer er en stængel, og det er en god snak bagefter: kender børnene noget, hvor vi spiser stænglen, fx asparges eller rabarber?",
+   "p3": "Print arket i farver, for grøntsagerne skal kunne genkendes. Tag gerne et par af dem med i klassen og skær dem igennem, så børnene kan se frøene i auberginen og peberfrugten og knopperne i blomkålet. Arket følger efter grundarket om plantens dele og passer før arket, hvor barnet læser, hvad hver del gør for planten.",
+   "canonicalDeckSlug": "plantens-dele-g2363",
+   "carousel": [
+    {
+     "label": "Plantens dele – skriv navnene på linjerne – 1. klasse",
+     "href": "plantens-dele-skriv-navnene"
+    },
+    {
+     "label": "Hvad har planter brug for for at vokse? – sol og vand – børnehaveklasse",
+     "href": "hvad-har-planter-brug-for-for-at-vokse"
+    },
+    {
+     "label": "Fra frø til plante – læg billederne i rækkefølge – 1. klasse",
+     "href": "fra-froe-til-plante-klip-og-lim"
+    },
+    {
+     "label": "Plantens dele og hvad de gør – fem opgaver, fem dele – 2. klasse",
+     "href": "plantens-dele-og-hvad-de-goer"
+    }
+   ],
+   "title": "Hvilke dele af planten spiser vi? | til print PDF gratis",
+   "metaDescription": "Otte grøntsager fra majs til spinat, hver med tre af plantens dele at vælge imellem. Barnet sætter ring om den del, vi spiser, fx rod, blad eller frø. Gratis PDF."
+  },
+  {
+   "slug": "plantens-dele-og-hvad-de-goer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "parts-of-a-plant-and-their-functions",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Plantens dele og hvad de gør · Arbejdsark",
+   "h1": "Plantens dele og hvad de gør – fem opgaver, fem dele – 2. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "plantens-dele",
+    "2-klasse"
+   ],
+   "p1": "Til venstre står den samme store plante som i grundarket, men nu med fem numre: 1 på stænglen, 2 på et frø i bælgen, 3 på blomsten, 4 på et blad og 5 på roden. Til højre står fem sætninger, hver med et tomt felt foran: kan vokse op og blive til en ny plante; laver næring til planten ved hjælp af sollys; suger vand op fra jorden; holder planten oppe; lokker bierne til. Der står ingen navne på delene, kun tallene. Barnet læser, hvad hver del gør, finder delen på planten og skriver tallet i feltet.",
+   "p2": "Arket flytter fokus fra, hvad delene hedder, til hvad de gør, og det er et skridt dybere ind i natur/teknologi. Hver sætning passer på én del. Bladet laver næring med sollys, roden suger vand, stænglen holder planten oppe, blomsten lokker bierne, og frøet kan blive til en ny plante. Den sidste er den, børn oftest overser, for et frø ser ikke ud til at gøre noget. Sætningen om roden kan give en god diskussion, fordi roden også holder planten fast i jorden. Spørg, hvad forskellen er på at holde planten oppe og at holde den fast.",
+   "p3": "Print arket; tallene er store, og felterne har plads til ét ciffer. Et barn, der endnu ikke kan navnene sikkert, kan med fordel have grundarket ved siden af. Arket er det mest indholdsrige om planten i familien, før blomstens dele i 3. klasse. Lav gerne en plakat bagefter, hvor hver del har sin opgave skrevet ved siden af.",
+   "canonicalDeckSlug": "plantens-dele-g2364",
+   "carousel": [
+    {
+     "label": "Plantens dele – skriv navnene på linjerne – 1. klasse",
+     "href": "plantens-dele-skriv-navnene"
+    },
+    {
+     "label": "Hvad har planter brug for for at vokse? – sol og vand – børnehaveklasse",
+     "href": "hvad-har-planter-brug-for-for-at-vokse"
+    },
+    {
+     "label": "Fra frø til plante – læg billederne i rækkefølge – 1. klasse",
+     "href": "fra-froe-til-plante-klip-og-lim"
+    },
+    {
+     "label": "Hvilke dele af planten spiser vi? – rod, blad, frugt og frø – 2. klasse",
+     "href": "hvilke-dele-af-planten-spiser-vi"
+    }
+   ],
+   "title": "Plantens dele og hvad de gør | til print PDF gratis",
+   "metaDescription": "En plante med fem nummererede dele og fem sætninger om, hvad delene gør, fx suger vand op fra jorden. Barnet skriver delens tal ved sætningen. Gratis PDF."
+  },
+  {
+   "slug": "blomstens-dele",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "parts-of-a-flower",
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Blomstens dele · Arbejdsark",
+   "h1": "Blomstens dele – bægerblad, kronblad, støvdrager og støvvej – 3. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "plantens-dele",
+    "3-klasse"
+   ],
+   "p1": "Blomsten er tegnet stor og åben, så man kan se ind i den. Tre kronblade står op, en støvvej rejser sig i midten med et lille låg på toppen, og rundt om den står støvdragerne med mørke støvknapper. Under blomsten sidder to grønne bægerblade, og stilken går ned. Fire orange tal peger på delene: 1 på et bægerblad, 2 på en støvdrager, 3 på støvvejen og 4 på et kronblad. En lille tegning til højre viser planten med blomsten ringet ind; der er ingen rødder på den, så den afslører ikke det ekstra ord. Ordboksen har fem ord, og nederst er der fire skrivelinjer. Barnet skriver navnene og streger det ord ud, der ikke er en del af blomsten.",
+   "p2": "Blomstens indre dele hører ikke til indskolingens faste stof, og arket er derfor lavet til 3. klasse og til børn, der allerede kender plantens dele. Det ekstra ord i boksen er rod, som selvfølgelig er en del af planten, men ikke af blomsten. At finde det kræver, at barnet skelner mellem planten og blomsten, og det er en fin lille øvelse i at tænke i dele og helheder. Ordene er de danske fagord, og støvdrager og støvvej giver sig næsten selv: støvdrageren bærer støvet, og støvvejen er vejen, støvet skal ind ad. Kronbladene er de farvede, bægerbladene de grønne under dem.",
+   "p3": "Print arket, og tag en rigtig blomst med, fx en tulipan eller en lilje, hvor delene er store. Skær den forsigtigt over på langs, og lad børnene finde delene med en lup. Arket er det sværeste i familien om plantens dele og bygger på grundarket og på arket om, hvad delene gør.",
+   "canonicalDeckSlug": "plantens-dele-g3392",
+   "carousel": [
+    {
+     "label": "Plantens dele – skriv navnene på linjerne – 1. klasse",
+     "href": "plantens-dele-skriv-navnene"
+    },
+    {
+     "label": "Hvad har planter brug for for at vokse? – sol og vand – børnehaveklasse",
+     "href": "hvad-har-planter-brug-for-for-at-vokse"
+    },
+    {
+     "label": "Fra frø til plante – læg billederne i rækkefølge – 1. klasse",
+     "href": "fra-froe-til-plante-klip-og-lim"
+    },
+    {
+     "label": "Hvilke dele af planten spiser vi? – rod, blad, frugt og frø – 2. klasse",
+     "href": "hvilke-dele-af-planten-spiser-vi"
+    }
+   ],
+   "title": "Blomstens dele: skriv navnene | til print PDF gratis",
+   "metaDescription": "En stor blomst skåret op med fire nummererede dele og en ordboks: bægerblad, støvdrager, rod, kronblad og støvvej. Barnet skriver navnene og streger rod ud."
+  },
+  {
+   "slug": "froeens-livscyklus-klip-ud-og-lim-paa",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "frog-life-cycle-cut-and-paste",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Frøens livscyklus · Klip og lim",
+   "h1": "Frøens livscyklus – klip ud, og lim på åkandebladene – 1. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "dyrs-udvikling",
+    "1-klasse"
+   ],
+   "p1": "En rund dam fylder arket, og rundt om kanten ligger fem store åkandeblade forbundet af orange pile, der går med uret. På det øverste blad ligger frøæggene, en klump runde æg i vandet. De fire andre blade har et tomt, stiplet felt. Nederst er der en strimmel med en saks og fire firkanter at klippe ud: en haletudse uden ben, en haletudse med ben, en lille frø med en rest af halen og en voksen frø. På strimlen står de blandet. Barnet klipper de fire firkanter ud og limer hver af dem på sit åkandeblad, rundt om dammen fra frøæggene til frøen.",
+   "p2": "Frøen er det bedste eksempel på, at et dyr kan skifte form helt, og arket viser alle fem stadier. Haletudsen svømmer med hale og har ingen ben, så kommer bagbenene, så forbenene, og halen skrumper, før den lille frø kravler op på land. Billederne af haletudsen med ben og den lille frø ligner hinanden meget, så barnet skal se godt efter halen. Sig gerne til børnene, at de skal kigge på benene og halen for hvert billede: hvor mange ben er der kommet, og hvor meget hale er der tilbage?",
+   "p3": "Print arket, og hav saks og lim klar. Firkanterne er lidt mindre end felterne på bladene, så de er lette at lime. Arket er familiens klip og lim-ark; det passer godt efter grundarket om sommerfuglen, så børnene kan sammenligne de to dyr. Besøg gerne et vandhul om foråret og se efter frøæg og haletudser.",
+   "canonicalDeckSlug": "dyrs-udvikling-g1389",
+   "carousel": [
+    {
+     "label": "Sommerfuglens livscyklus – skriv tallene i rækkefølge – 1. klasse",
+     "href": "sommerfuglens-livscyklus-nummerer-stadierne"
+    },
+    {
+     "label": "Sommerfuglens livscyklus – skriv de fire stadier – 2. klasse",
+     "href": "sommerfuglens-livscyklus-skriv-stadierne"
+    },
+    {
+     "label": "Metamorfose – hvilket dyr bliver det til? – 2. klasse",
+     "href": "metamorfose-hvilket-dyr-bliver-det-til"
+    },
+    {
+     "label": "Sommerfuglens og frøens livscyklus sammenlignet – 3. klasse",
+     "href": "sommerfuglens-og-froeens-livscyklus-sammenlignet"
+    }
+   ],
+   "title": "Frøens livscyklus: klip ud og lim på | til print PDF gratis",
+   "metaDescription": "En dam med fem åkandeblade i en ring. Frøæggene ligger på det første, og barnet klipper haletudsen, haletudsen med ben, den lille frø og frøen ud. Gratis PDF."
+  },
+  {
+   "slug": "sommerfuglens-livscyklus-skriv-stadierne",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "label-the-butterfly-life-cycle",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Sommerfuglens livscyklus · Skriv stadierne",
+   "h1": "Sommerfuglens livscyklus – skriv de fire stadier – 2. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "dyrs-udvikling",
+    "2-klasse"
+   ],
+   "p1": "Fire store runde billeder står i en firkant, forbundet med orange pile, der går med uret: øverst til venstre et æg på et blad, øverst til højre en larve, nederst til højre en puppe, der hænger under et blad, og nederst til venstre en sommerfugl. Under hvert billede er der en skrivelinje. Øverst står en ordboks med fem ord: æg, larve, puppe, sommerfugl og haletudse. Barnet skriver de fire stadier på linjerne under billederne og streger det ene ord ud, der ikke hører til – haletudsen, som hører til frøen.",
+   "p2": "Rækkefølgen er vist med pilene, så opgaven her er ordene. Barnet skal kende navnene på alle fire stadier og kunne stave dem, og det ekstra ord kræver, at barnet ved, hvilket dyr haletudsen hører til. Det er en fin lille test af, om sommerfugl og frø er holdt ude fra hinanden. Puppe er et ord, mange børn ikke har, og det er værd at øve højt. Haletudsen er med for at se, om barnet bruger ordene med omtanke og ikke bare skriver dem af, som de står.",
+   "p3": "Print arket; skrivelinjerne har hjælpelinjer, så bogstaverne kan få den rigtige højde. Arket er stave- og ordarket i familien og passer efter grundarket, hvor stadierne kun skal nummereres. Næste skridt kan være arket om metamorfose, hvor stadierne fra tre dyr skal sorteres.",
+   "canonicalDeckSlug": "dyrs-udvikling-g2365",
+   "carousel": [
+    {
+     "label": "Sommerfuglens livscyklus – skriv tallene i rækkefølge – 1. klasse",
+     "href": "sommerfuglens-livscyklus-nummerer-stadierne"
+    },
+    {
+     "label": "Frøens livscyklus – klip ud, og lim på åkandebladene – 1. klasse",
+     "href": "froeens-livscyklus-klip-ud-og-lim-paa"
+    },
+    {
+     "label": "Metamorfose – hvilket dyr bliver det til? – 2. klasse",
+     "href": "metamorfose-hvilket-dyr-bliver-det-til"
+    },
+    {
+     "label": "Sommerfuglens og frøens livscyklus sammenlignet – 3. klasse",
+     "href": "sommerfuglens-og-froeens-livscyklus-sammenlignet"
+    }
+   ],
+   "title": "Sommerfuglens livscyklus: skriv stadierne | til print PDF gratis",
+   "metaDescription": "Fire billeder i en ring: æg, larve, puppe og sommerfugl. Ordboksen har fem ord, bl.a. haletudse, som ikke hører til. Barnet skriver stadierne. Gratis PDF."
+  },
+  {
+   "slug": "metamorfose-hvilket-dyr-bliver-det-til",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "metamorphosis-which-animal-will-it-become",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Metamorfose · Arbejdsark",
+   "h1": "Metamorfose – hvilket dyr bliver det til? – 2. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "dyrs-udvikling",
+    "2-klasse"
+   ],
+   "p1": "Øverst står otte runde billeder med bogstaverne A til H. Hvert billede viser et stadie fra et af tre dyr: en sommerfuglepuppe, en mariehønepuppe, en haletudse med ben, en mariehønelarve, frøæg, en lille frø med hale, en sommerfuglelarve og en haletudse. Nederst står tre store kort med de voksne dyr, en sommerfugl, en frø og en mariehøne, og under hvert dyr er der fire tomme felter. Barnet ser på hvert stadie og skriver dets bogstav i et felt under det dyr, det bliver til. Frøen får fire bogstaver, sommerfuglen og mariehønen to hver, så nogle felter bliver tomme.",
+   "p2": "Metamorfose betyder forvandling, og arket viser, at ungen kan se helt anderledes ud end det voksne dyr. Det er ikke til at se på en haletudse, at den bliver til en frø, eller på en mariehønelarve, at den bliver til en mariehøne; larven er sort og aflang og ligner mest et lille krybdyr. Barnet skal derfor kende udviklingen og ikke bare lede efter ligheder. De to pupper er arkets sværeste par, fordi de ligner hinanden. At der er fire felter under hvert dyr, er med vilje: antallet af felter siger ikke, hvor mange stadier der hører til.",
+   "p3": "Print arket i farver, så mariehønens pletter og sommerfuglens vinger står tydeligt. Arket bygger på grundarket om sommerfuglen og arket om frøen og bringer mariehønen ind som et tredje dyr. Gå gerne på jagt efter mariehønelarver på roser eller brændenælder om sommeren; de er lette at finde, når man ved, hvad man leder efter.",
+   "canonicalDeckSlug": "dyrs-udvikling-g2366",
+   "carousel": [
+    {
+     "label": "Sommerfuglens livscyklus – skriv tallene i rækkefølge – 1. klasse",
+     "href": "sommerfuglens-livscyklus-nummerer-stadierne"
+    },
+    {
+     "label": "Frøens livscyklus – klip ud, og lim på åkandebladene – 1. klasse",
+     "href": "froeens-livscyklus-klip-ud-og-lim-paa"
+    },
+    {
+     "label": "Sommerfuglens livscyklus – skriv de fire stadier – 2. klasse",
+     "href": "sommerfuglens-livscyklus-skriv-stadierne"
+    },
+    {
+     "label": "Sommerfuglens og frøens livscyklus sammenlignet – 3. klasse",
+     "href": "sommerfuglens-og-froeens-livscyklus-sammenlignet"
+    }
+   ],
+   "title": "Metamorfose: hvilket dyr bliver det til? | til print PDF gratis",
+   "metaDescription": "Otte stadier med bogstav A til H og tre voksne dyr: sommerfugl, frø og mariehøne. Barnet skriver bogstavet under det dyr, stadiet bliver til. Gratis PDF."
+  },
+  {
+   "slug": "sommerfuglens-og-froeens-livscyklus-sammenlignet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "butterfly-and-frog-life-cycles-compared",
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Sommerfugl og frø · Sammenlign",
+   "h1": "Sommerfuglens og frøens livscyklus sammenlignet – 3. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "dyrs-udvikling",
+    "3-klasse"
+   ],
+   "p1": "To runde billeder står øverst til højre, en sommerfugl og en frø, og under dem løber otte rækker med en sætning til venstre og to tomme kryds-felter til højre. Ingen af sætningerne nævner dyret; de siger Det, Ungen eller Det voksne dyr: Det voksne dyr fanger insekter og spiser dem. Det voksne dyr har seks ben. Det kommer ud af et æg. Ungen har først slet ingen ben. Det voksne dyr drikker nektar fra blomster. Ungen svømmer med en hale. Ungen ser helt anderledes ud end det voksne dyr. En tid er det en puppe. Barnet sætter kryds under sommerfuglen, frøen eller begge.",
+   "p2": "Tre sætninger passer kun på frøen, tre kun på sommerfuglen, og to på begge: begge kommer ud af et æg, og hos begge ser ungen helt anderledes ud end det voksne dyr. Det er de to, der gør arket interessant, for barnet skal tænke over, hvad de to livscyklusser har til fælles. Sætningen om, at ungen først har slet ingen ben, er en lille fælde: larven har faktisk seks rigtige ben forrest, så kun haletudsen passer. Arket forudsætter, at barnet kender begge livscyklusser og kan læse sikkert, og det hører derfor til 3. klasse.",
+   "p3": "Print arket; felterne er store nok til et tydeligt kryds. Læs gerne sætningerne højt først, og lad børnene diskutere de to, der passer på begge dyr. Arket er det sværeste i familien om dyrs udvikling og kommer efter arkene om sommerfuglen og frøen hver for sig. Et venndiagram på tavlen kan følge op.",
+   "canonicalDeckSlug": "dyrs-udvikling-g3393",
+   "carousel": [
+    {
+     "label": "Sommerfuglens livscyklus – skriv tallene i rækkefølge – 1. klasse",
+     "href": "sommerfuglens-livscyklus-nummerer-stadierne"
+    },
+    {
+     "label": "Frøens livscyklus – klip ud, og lim på åkandebladene – 1. klasse",
+     "href": "froeens-livscyklus-klip-ud-og-lim-paa"
+    },
+    {
+     "label": "Sommerfuglens livscyklus – skriv de fire stadier – 2. klasse",
+     "href": "sommerfuglens-livscyklus-skriv-stadierne"
+    },
+    {
+     "label": "Metamorfose – hvilket dyr bliver det til? – 2. klasse",
+     "href": "metamorfose-hvilket-dyr-bliver-det-til"
+    }
+   ],
+   "title": "Sommerfuglens og frøens livscyklus sammenlignet | til print PDF gratis",
+   "metaDescription": "Otte sætninger om to dyr, fx Ungen svømmer med en hale. Barnet sætter kryds under sommerfuglen, frøen eller begge. Tre passer på hver, to på begge. Gratis PDF."
+  },
+  {
+   "slug": "hvad-kommer-bagefter-sommerfugl-froe-mariehoene",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "what-comes-next-butterfly-frog-and-ladybug",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Dyrs udvikling · Hvad kommer bagefter?",
+   "h1": "Hvad kommer bagefter? – sommerfuglen, frøen og mariehønen – 1. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "dyrs-udvikling",
+    "1-klasse"
+   ],
+   "p1": "Hver af de seks rækker begynder med et billede på en creme baggrund, en orange pil og tre billeder at vælge imellem. Første billede er frøæg, en sommerfuglepuppe, en haletudse med ben, en voksen mariehøne, en voksen sommerfugl og en klump mariehøneæg. Barnet ser på det første billede og sætter ring om det, der kommer lige efter. Efter frøæggene kommer haletudsen, efter puppen sommerfuglen og efter haletudsen med ben den lille frø. Rækkerne med de voksne dyr er arkets pointe: efter det voksne dyr begynder det forfra, så efter sommerfuglen kommer ægget.",
+   "p2": "Opgaven er kun at finde det næste skridt, og det gør den lettere end at ordne en hel livscyklus. Til gengæld blandes tre dyr, og de forkerte valg er stadier fra samme dyr, så barnet ikke kan vælge ved at se på, hvilket dyr billedet viser. I rækken med haletudsen med ben står både den almindelige haletudse og den lille frø, og barnet skal vide, hvilken vej udviklingen går. Den rigtige løsning står forskellige steder i rækken. Titlen skriver frøen i bestemt form, så dyret ikke forveksles med et plantefrø; i ubestemt form kan frø betyde begge dele, og det er værd at sige højt i klassen.",
+   "p3": "Print arket i farver, så mariehønen er let at kende. Arket passer i 1. klasse efter grundarket om sommerfuglen og arket om frøen, fordi det samler dem og tilføjer mariehønen. Bed gerne børnene om at sige hele cyklussen højt for ét af dyrene, når de har sat ring om svaret.",
+   "canonicalDeckSlug": "dyrs-udvikling-g1390",
+   "carousel": [
+    {
+     "label": "Sommerfuglens livscyklus – skriv tallene i rækkefølge – 1. klasse",
+     "href": "sommerfuglens-livscyklus-nummerer-stadierne"
+    },
+    {
+     "label": "Frøens livscyklus – klip ud, og lim på åkandebladene – 1. klasse",
+     "href": "froeens-livscyklus-klip-ud-og-lim-paa"
+    },
+    {
+     "label": "Sommerfuglens livscyklus – skriv de fire stadier – 2. klasse",
+     "href": "sommerfuglens-livscyklus-skriv-stadierne"
+    },
+    {
+     "label": "Metamorfose – hvilket dyr bliver det til? – 2. klasse",
+     "href": "metamorfose-hvilket-dyr-bliver-det-til"
+    }
+   ],
+   "title": "Hvad kommer bagefter? Sommerfuglen, frøen og mariehønen | PDF gratis",
+   "metaDescription": "Seks rækker: et stadie fra sommerfugl, frø eller mariehøne og tre billeder at vælge imellem. Barnet sætter ring om det, der kommer lige efter. Gratis PDF."
+  },
+  {
+   "slug": "maanens-faser-i-raekkefoelge",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "moon-phases-in-order",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Månens faser · I rækkefølge",
+   "h1": "Månens faser i rækkefølge – når Månen tager til og af – 1. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "solsystemet",
+    "1-klasse"
+   ],
+   "p1": "Arket har to store felter med fem måner i hver og et tomt talfelt under hver måne. Øverst til venstre i hvert felt står en kile og en pil. I det øverste felt bliver kilen bredere mod højre, og det betyder, at Månen tager til; i det nederste bliver den smallere, og Månen tager af. Månerne er tegnet, så den oplyste del er hvid og den mørke grå. I det øverste felt står de fem måner i blandet orden: halvmåne, fuldmåne, nymåne, en tynd skive og en næsten fuld måne. Barnet skriver 1 til 5 under månerne i den rækkefølge, kilen viser.",
+   "p2": "At Månen skifter form, er noget alle børn har set, men få kan sætte faserne i rækkefølge. Opgaven er delt i to, så barnet kun skal tænke i én retning ad gangen: mere og mere lys, eller mindre og mindre. I den første række er nymånen nummer 1 og fuldmånen nummer 5; i den anden er det omvendt. Månerne er tegnet, som vi ser dem i Danmark, med lyset på højre side, når Månen tager til. Den helt grå nymåne kan forvirre, fordi den ikke ligner noget; tal om, at Månen stadig er der, men at vi ser den side, der ikke er belyst.",
+   "p3": "Print arket; månerne er tydelige i sort-hvid, fordi forskellen er lys og mørk og ikke farve. Lad gerne børnene holde øje med Månen derhjemme i en uge og tegne den hver aften. Arket står i familien om solsystemet efter grundarket om Solen, Jorden og Månen og før arket, hvor faserne skal navngives.",
+   "canonicalDeckSlug": "solsystemet-g1391",
+   "carousel": [
+    {
+     "label": "Solsystemet – Solen, Jorden og Månen – 1. klasse",
+     "href": "solsystemet-solen-jorden-og-maanen"
+    },
+    {
+     "label": "Månens faser – skriv navnene: tiltagende og aftagende måne – 2. klasse",
+     "href": "maanens-faser-skriv-navnene"
+    },
+    {
+     "label": "Hvorfor er der dag og nat? – Jorden drejer rundt – 2. klasse",
+     "href": "hvorfor-er-der-dag-og-nat"
+    },
+    {
+     "label": "Planeternes rækkefølge fra Solen – skriv de otte navne – 3. klasse",
+     "href": "planeternes-raekkefoelge-fra-solen"
+    }
+   ],
+   "title": "Månens faser i rækkefølge | til print PDF gratis",
+   "metaDescription": "To rækker med fem måner: én hvor Månen tager til, fra nymåne til fuldmåne, og én hvor den tager af. Barnet skriver 1 til 5 i rækkefølgen. Gratis PDF."
+  },
+  {
+   "slug": "maanens-faser-skriv-navnene",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "name-the-moon-phases",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Månens faser · Skriv navnene",
+   "h1": "Månens faser – skriv navnene: tiltagende og aftagende måne – 2. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "solsystemet",
+    "2-klasse"
+   ],
+   "p1": "Øverst står en ordboks med fire navne: nymåne, aftagende måne, fuldmåne og tiltagende måne. Under den står otte kort i to søjler, hvert med en måne i et creme felt og to skrivelinjer ved siden af. Månerne er tegnet med hvid oplyst del og grå mørk del: to hvide fuldmåner, to grå nymåner, to halvmåner med lyset til højre og to med lyset til venstre. De står blandet på siden. Barnet ser på hver måne og skriver dens navn på linjerne, og hvert navn fra ordboksen bruges to gange.",
+   "p2": "Nymåne og fuldmåne er lette at kende, men de to halvmåner er arkets egentlige opgave. Lys til højre betyder, at Månen tager til, og lys til venstre, at den tager af; sådan ser det ud fra Danmark og resten af den nordlige halvkugle. I boksen står de to lange navne som tiltagende måne og aftagende måne, og hvert kort har to skrivelinjer, så navnet kan deles over dem. Lad gerne barnet pege på den oplyste side og sige højt, om den sidder til højre eller til venstre, før det skriver. Tal gerne om, hvorfor vi slet ikke kan se nymånen.",
+   "p3": "Print arket; det fungerer lige godt i sort-hvid, fordi det er lys og skygge, der tæller. Arket følger efter arket, hvor faserne sættes i rækkefølge, og kræver, at barnet kan skrive ordene. Tag gerne en lampe og en bold med i klassen og vis, hvordan skyggen skifter, når bolden går rundt om et barn.",
+   "canonicalDeckSlug": "solsystemet-g2367",
+   "carousel": [
+    {
+     "label": "Solsystemet – Solen, Jorden og Månen – 1. klasse",
+     "href": "solsystemet-solen-jorden-og-maanen"
+    },
+    {
+     "label": "Månens faser i rækkefølge – når Månen tager til og af – 1. klasse",
+     "href": "maanens-faser-i-raekkefoelge"
+    },
+    {
+     "label": "Hvorfor er der dag og nat? – Jorden drejer rundt – 2. klasse",
+     "href": "hvorfor-er-der-dag-og-nat"
+    },
+    {
+     "label": "Planeternes rækkefølge fra Solen – skriv de otte navne – 3. klasse",
+     "href": "planeternes-raekkefoelge-fra-solen"
+    }
+   ],
+   "title": "Månens faser: skriv navnene | til print PDF gratis",
+   "metaDescription": "Otte måner og en ordboks med nymåne, fuldmåne, tiltagende måne og aftagende måne. Barnet skriver navnet ved hver måne, hvert navn to gange. Gratis PDF."
+  },
+  {
+   "slug": "hvorfor-er-der-dag-og-nat",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "why-do-we-have-day-and-night",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Dag og nat · Arbejdsark",
+   "h1": "Hvorfor er der dag og nat? – Jorden drejer rundt – 2. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "solsystemet",
+    "2-klasse"
+   ],
+   "p1": "En stor del af Solen stikker ind fra venstre side af arket, og tre stiplede pile viser lyset, der går mod Jorden. Jorden er en stor cirkel set oppefra, med en pil i midten, der viser, at den drejer rundt. På Jorden sidder seks orange punkter med tallene 1 til 6, tre på den side, der vender mod Solen, og tre på den anden. Nederst er der en tabel med tallene 1 til 6 og ordene Dag og Nat ved hvert tal. Barnet ser, hvor Solen er, og sætter ring om dag eller nat for hvert punkt.",
+   "p2": "Arket handler om årsagen og ikke kun om, at det bliver mørkt om aftenen. Når Jorden drejer, vender den ene halvdel mod Solen og har dag, mens den anden halvdel har nat. Ved at placere punkterne på en tegning, der ikke er skraveret, skal barnet selv finde den oplyste halvdel; natsiden er ikke farvet mørk, for så ville svaret stå på tegningen. Tallene er givet i spredt orden rundt om Jorden, så svarene i tabellen ikke kommer i en fast rækkefølge. Et godt spørgsmål bagefter er: hvor på tegningen går Solen snart ned?",
+   "p3": "Print arket; det fungerer i sort-hvid. Vis gerne modellen med en lommelygte og en globus eller en appelsin med et klistermærke, der drejes rundt. Arket er det mest forklarende i familien om solsystemet og kommer efter arkene om Månen. Til 3. klasse passer arkene om planeterne.",
+   "canonicalDeckSlug": "solsystemet-g2368",
+   "carousel": [
+    {
+     "label": "Solsystemet – Solen, Jorden og Månen – 1. klasse",
+     "href": "solsystemet-solen-jorden-og-maanen"
+    },
+    {
+     "label": "Månens faser i rækkefølge – når Månen tager til og af – 1. klasse",
+     "href": "maanens-faser-i-raekkefoelge"
+    },
+    {
+     "label": "Månens faser – skriv navnene: tiltagende og aftagende måne – 2. klasse",
+     "href": "maanens-faser-skriv-navnene"
+    },
+    {
+     "label": "Planeternes rækkefølge fra Solen – skriv de otte navne – 3. klasse",
+     "href": "planeternes-raekkefoelge-fra-solen"
+    }
+   ],
+   "title": "Hvorfor er der dag og nat? | til print PDF gratis",
+   "metaDescription": "Jorden set oppefra med Solen til venstre og seks nummererede punkter. Barnet afgør for hvert punkt, om det er dag eller nat, og sætter ring i tabellen. Gratis PDF."
+  },
+  {
+   "slug": "planeternes-raekkefoelge-fra-solen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "planets-in-order-from-the-sun",
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Solsystemet · Planeternes rækkefølge",
+   "h1": "Planeternes rækkefølge fra Solen – skriv de otte navne – 3. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "solsystemet",
+    "3-klasse"
+   ],
+   "p1": "Øverst står otte kort med en lille planettegning og et navn: Mars, Neptun, Jorden, Saturn, Uranus, Jupiter, Merkur og Venus. Planeterne er tegnet lige store, så størrelsen ikke afslører noget. I øverste venstre hjørne sidder et stykke af Solen, og ud fra den går otte stiplede baner, hver med en nummereret cirkel fra 1 til 8 og en skrivelinje. Linjerne ligger længere og længere ude, jo højere tallet er. Barnet skriver navnet på hver planet på dens linje, begynder ved Solen og bruger hvert navn fra boksen én gang.",
+   "p2": "Planeternes rækkefølge er et klassisk emne, men det hører ikke til de yngste klasser; i Danmark møder de fleste børn solsystemet i 3. og 4. klasse, og arket er lavet til det niveau. Kortene står hverken i den rigtige rækkefølge eller i alfabetisk orden, så barnet må vide, hvordan planeterne ligger. Tegningerne på kortene har små kendetegn, som ringene på Saturn, den røde plet på Jupiter og den hvide polkappe på Mars, der gør det sjovere at lære navnene. Pluto er ikke med, for den regnes ikke længere som en planet, og det kan være en god historie at fortælle.",
+   "p3": "Print arket; skrivelinjerne har hjælpelinjer til de længste navne. Mange klasser bruger en huskeremse til rækkefølgen, og det kan være sjovt at finde på sin egen på dansk. Arket passer efter grundarket om Solen, Jorden og Månen, og arket om kæmpeplaneter og stenplaneter bygger videre på det.",
+   "canonicalDeckSlug": "solsystemet-g3394",
+   "carousel": [
+    {
+     "label": "Solsystemet – Solen, Jorden og Månen – 1. klasse",
+     "href": "solsystemet-solen-jorden-og-maanen"
+    },
+    {
+     "label": "Månens faser i rækkefølge – når Månen tager til og af – 1. klasse",
+     "href": "maanens-faser-i-raekkefoelge"
+    },
+    {
+     "label": "Månens faser – skriv navnene: tiltagende og aftagende måne – 2. klasse",
+     "href": "maanens-faser-skriv-navnene"
+    },
+    {
+     "label": "Hvorfor er der dag og nat? – Jorden drejer rundt – 2. klasse",
+     "href": "hvorfor-er-der-dag-og-nat"
+    }
+   ],
+   "title": "Planeternes rækkefølge fra Solen | til print PDF gratis",
+   "metaDescription": "Otte planetkort fra Merkur til Neptun i blandet orden og otte nummererede linjer fra Solen og ud. Barnet skriver planeternes navne i rækkefølge. Gratis PDF."
+  },
+  {
+   "slug": "kaempeplaneter-og-stenplaneter",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "giant-and-rocky-planets",
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Solsystemet · Kæmpeplaneter og stenplaneter",
+   "h1": "Kæmpeplaneter og stenplaneter – sortér navnene – 3. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "solsystemet",
+    "3-klasse"
+   ],
+   "p1": "En boks øverst har ti navne i blandet orden: Neptun, Venus, Uranus, Mars, Merkur, Jupiter, Månen, Saturn, Jorden og Solen. Under den står tre høje kolonner, hver med fem skrivelinjer. Den første har en stor cirkel og overskriften kæmpeplanet, den anden en lille cirkel og overskriften lille stenplanet, og den tredje en overstreget cirkel og overskriften ikke en planet. Barnet sorterer navnene og skriver hvert navn i den rigtige kolonne. Fire navne hører til kæmpeplaneterne, fire til stenplaneterne, og to er slet ikke planeter.",
+   "p2": "Arket deler planeterne i de to grupper, forskerne bruger: de fire indre, små stenplaneter, Merkur, Venus, Jorden og Mars, og de fire ydre kæmpeplaneter, Jupiter, Saturn, Uranus og Neptun. At Månen og Solen er med, er arkets lille fælde, for mange børn regner dem med til planeterne. Solen er en stjerne, og Månen er en måne, der kredser om Jorden. Fordi hver kolonne har fem linjer, kan barnet ikke se på linjerne, hvor mange navne der hører til. Arket er lavet til 3. klasse og til børn, der allerede kender planeternes navne.",
+   "p3": "Print arket; kolonnerne har plads til alle navne. Sammenlign gerne planeternes størrelse med frugter bagefter: et peberkorn til Merkur, en vandmelon til Jupiter. Arket er det sværeste i familien om solsystemet og kommer efter arket om planeternes rækkefølge.",
+   "canonicalDeckSlug": "solsystemet-g3395",
+   "carousel": [
+    {
+     "label": "Solsystemet – Solen, Jorden og Månen – 1. klasse",
+     "href": "solsystemet-solen-jorden-og-maanen"
+    },
+    {
+     "label": "Månens faser i rækkefølge – når Månen tager til og af – 1. klasse",
+     "href": "maanens-faser-i-raekkefoelge"
+    },
+    {
+     "label": "Månens faser – skriv navnene: tiltagende og aftagende måne – 2. klasse",
+     "href": "maanens-faser-skriv-navnene"
+    },
+    {
+     "label": "Hvorfor er der dag og nat? – Jorden drejer rundt – 2. klasse",
+     "href": "hvorfor-er-der-dag-og-nat"
+    }
+   ],
+   "title": "Kæmpeplaneter og stenplaneter: sortér navnene | til print PDF gratis",
+   "metaDescription": "Ti navne fra solsystemet – otte planeter samt Månen og Solen – sorteres i kæmpeplanet, lille stenplanet eller ikke en planet. Gratis PDF til print."
+  },
+  {
+   "slug": "set-fra-siden-og-set-oppefra",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-birds-eye-view",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Kort og verdenshjørner · Set oppefra",
+   "h1": "Set fra siden og set oppefra – forbind tingene – børnehaveklasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "kort-og-verdenshjoerner",
+    "boernehaveklasse"
+   ],
+   "p1": "Øverst i venstre side er et øje med en pil, der ser ind fra siden; øverst til højre et øje med en pil, der ser ned. I venstre søjle står fem ting tegnet fra siden: en orange bil, et krus med hank, et bord, en trafikkegle og en stol. I højre søjle står de samme fem ting tegnet oppefra, men i en anden orden: keglen ses som ringe i en firkant, bordet som et rektangel, stolen som et kvadrat med en kant til ryglænet, bilen som et orange rektangel med tag og kruset som en cirkel med en lille hank. Barnet trækker en streg fra hver ting til den samme ting set oppefra.",
+   "p2": "At se verden oppefra er grundlaget for at forstå et kort, og det er slet ikke let for et barn i børnehaveklassen. Et krus oppefra er bare en cirkel, og en kegle bliver til ringe. Opgaven træner at forestille sig tingen fra en anden vinkel, og tegningerne er lavet, så de passer sammen: bredden fra siden er den samme som bredden oppefra. Farverne er også de samme, og den orange bil og den orange kegle er lettest at finde. Bordet og stolen er de svære, fordi begge bliver til firkanter; det er ryglænet, der afslører stolen.",
+   "p3": "Print arket i farver. Stil gerne et krus og en stol på gulvet, og lad børnene kigge ned på dem fra en stol. Tegn så klasseværelset oppefra sammen. Arket er det første og letteste i familien om kort og verdenshjørner og passer før arket med signaturforklaringen.",
+   "canonicalDeckSlug": "kort-og-verdenshjoerner-k377",
+   "carousel": [
+    {
+     "label": "Kort og signaturforklaring – tæl tegnene på kortet – 1. klasse",
+     "href": "kort-og-signaturforklaring-tael-tegnene"
+    },
+    {
+     "label": "Verdenshjørner – udfyld kompasrosen med N, Ø, S og V – 2. klasse",
+     "href": "kompasrose-udfyld-verdenshjoernerne"
+    },
+    {
+     "label": "Verdensdele – skriv navnene på kortet – 2. klasse",
+     "href": "verdensdele-skriv-navnene-paa-kortet"
+    },
+    {
+     "label": "Verdensdele og verdenshave – find dem på kortet – 3. klasse",
+     "href": "verdensdele-og-verdenshave"
+    }
+   ],
+   "title": "Set fra siden og set oppefra: fugleperspektiv | til print PDF gratis",
+   "metaDescription": "Fem ting tegnet fra siden – en bil, et krus, et bord, en kegle og en stol – og de samme ting set oppefra. Barnet trækker en streg mellem dem. Gratis PDF."
+  },
+  {
+   "slug": "kompasrose-udfyld-verdenshjoernerne",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-north-east-south-west",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Verdenshjørner · Kompasrose",
+   "h1": "Verdenshjørner – udfyld kompasrosen med N, Ø, S og V – 2. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "kort-og-verdenshjoerner",
+    "2-klasse"
+   ],
+   "p1": "Seks kompasroser står på arket, tre til venstre og tre til højre. Hver rose har fire tomme felter, ét ud for hver spids, og i ét af felterne står der allerede et bogstav, V, S eller Ø. Den ene spids på hver rose er orange, og opgaveteksten siger selv, at den altid peger mod nord. På tre af roserne peger den orange spids opad, som vi er vant til. På de tre andre er rosen drejet, så nord peger mod venstre, mod højre eller nedad. Barnet skriver de tre andre bogstaver i de tomme felter: N for nord, Ø for øst, S for syd og V for vest.",
+   "p2": "Verdenshjørnerne skal læres som et system og ikke som fire faste pladser på papiret. Når rosen er drejet, er nord ikke længere øverst, og så må barnet huske rækkefølgen rundt: nord, øst, syd, vest, med uret. Det giver en god forståelse, der kan bruges på et rigtigt kort, hvor nordpilen ikke altid peger op. Bogstaverne er de danske med Ø for øst; et barn, der har lært E for east, kan tage fejl her. Det givne bogstav er aldrig N, så barnet skal altid regne ud fra den orange spids eller fra et andet hjørne.",
+   "p3": "Print arket; det er tydeligt i sort-hvid, men den orange spids er lettere at se i farver. Brug gerne et rigtigt kompas i skolegården bagefter, og sæt skilte op med N, Ø, S og V på væggene i klassen. Arket står i familien om kort og verdenshjørner efter arket med signaturforklaringen og før arket, hvor verdenshjørnerne bruges på et kort.",
+   "canonicalDeckSlug": "kort-og-verdenshjoerner-g2369",
+   "carousel": [
+    {
+     "label": "Kort og signaturforklaring – tæl tegnene på kortet – 1. klasse",
+     "href": "kort-og-signaturforklaring-tael-tegnene"
+    },
+    {
+     "label": "Set fra siden og set oppefra – forbind tingene – børnehaveklasse",
+     "href": "set-fra-siden-og-set-oppefra"
+    },
+    {
+     "label": "Verdensdele – skriv navnene på kortet – 2. klasse",
+     "href": "verdensdele-skriv-navnene-paa-kortet"
+    },
+    {
+     "label": "Verdensdele og verdenshave – find dem på kortet – 3. klasse",
+     "href": "verdensdele-og-verdenshave"
+    }
+   ],
+   "title": "Verdenshjørner: udfyld kompasrosen | til print PDF gratis",
+   "metaDescription": "Seks kompasroser, nogle drejede, hver med ét bogstav givet. Barnet skriver de tre andre verdenshjørner – N, Ø, S og V – i de tomme felter. Gratis PDF."
+  },
+  {
+   "slug": "verdensdele-skriv-navnene-paa-kortet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-label-the-continents",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Verdensdele · Skriv navnene",
+   "h1": "Verdensdele – skriv navnene på kortet – 2. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "kort-og-verdenshjoerner",
+    "2-klasse"
+   ],
+   "p1": "Et verdenskort fylder den øverste halvdel af arket, med landene hvide og havet lyseblåt. Syv orange tal står på verdensdelene: 1 på Asien, 2 på Nordamerika, 3 på Europa, 4 på Antarktis nederst, 5 på Afrika, 6 på Oceanien og 7 på Sydamerika. En stiplet linje viser grænsen mellem Europa og Asien. Under kortet står en boks med de syv navne i blandet orden, og nederst er der syv skrivelinjer med tallene 1 til 7. Barnet skriver navnet på hver nummereret verdensdel på dens linje og finder navnene i boksen.",
+   "p2": "Arket bruger de syv verdensdele, som danske skolebøger regner med, inklusive Antarktis og Oceanien. Tallene er fordelt, så de ikke følger en fast vej over kortet, og navnene i boksen står hverken i tal- eller alfabetisk orden. Europa og Asien hænger sammen, og det er den stiplede linje, der skiller dem; det er en god lejlighed til at tale om, at grænsen er noget, mennesker har bestemt. Grønland er tegnet, men ikke nummereret, og for et dansk barn er det oplagt at spørge, hvilken verdensdel Grønland hører til. Svaret, Nordamerika, overrasker mange.",
+   "p3": "Print arket; kortet står tydeligt i sort-hvid, fordi land og hav har forskellig tone. Hæng gerne et stort verdenskort op ved siden af og find Danmark sammen. Arket står i familien om kort og verdenshjørner efter kompasrosen og før arket, hvor også verdenshavene skal findes.",
+   "canonicalDeckSlug": "kort-og-verdenshjoerner-g2370",
+   "carousel": [
+    {
+     "label": "Kort og signaturforklaring – tæl tegnene på kortet – 1. klasse",
+     "href": "kort-og-signaturforklaring-tael-tegnene"
+    },
+    {
+     "label": "Set fra siden og set oppefra – forbind tingene – børnehaveklasse",
+     "href": "set-fra-siden-og-set-oppefra"
+    },
+    {
+     "label": "Verdenshjørner – udfyld kompasrosen med N, Ø, S og V – 2. klasse",
+     "href": "kompasrose-udfyld-verdenshjoernerne"
+    },
+    {
+     "label": "Verdensdele og verdenshave – find dem på kortet – 3. klasse",
+     "href": "verdensdele-og-verdenshave"
+    }
+   ],
+   "title": "Verdensdele: skriv navnene på kortet | til print PDF gratis",
+   "metaDescription": "Et verdenskort med syv nummererede verdensdele og en boks med Afrika, Antarktis, Asien, Europa, Nordamerika, Oceanien og Sydamerika. Gratis PDF til print."
+  },
+  {
+   "slug": "verdensdele-og-verdenshave",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-continents-and-oceans",
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Verdensdele og verdenshave · Arbejdsark",
+   "h1": "Verdensdele og verdenshave – find dem på kortet – 3. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "kort-og-verdenshjoerner",
+    "3-klasse"
+   ],
+   "p1": "Kortet er det samme verdenskort som i søsterarket, men nu er både land og hav nummereret, med tallene 1 til 12. Stillehavet har tallet 4 to gange, én gang i hver side af kortet, fordi det strækker sig hele vejen rundt. Det Sydlige Ishav og Det Nordlige Ishav er markeret med streger ud til kortets kant. Under kortet står tolv navne i tre søjler, hver med et tomt felt: syv verdensdele og fem verdenshave, Atlanterhavet, Stillehavet, Det Indiske Ocean, Det Nordlige Ishav og Det Sydlige Ishav. Barnet finder hver verdensdel og hvert verdenshav på kortet og skriver dets tal i feltet ved navnet.",
+   "p2": "Her er det navnene, der er givet, og tallene, barnet skal finde, altså den omvendte vej af søsterarket. Verdenshavene er sværere end verdensdelene, fordi de ikke har tydelige kanter; Atlanterhavet ligger mellem Amerika og Europa og Afrika, og Det Indiske Ocean syd for Asien. At Stillehavet står to gange, kan forvirre, men det er netop pointen: et verdenskort skærer havet over, og i virkeligheden er det ét hav. Arket passer til 3. klasse og er mere, end de fleste børn skal kunne tidligere; verdenshavene hører typisk til mellemtrinnet.",
+   "p3": "Print arket; det fungerer i sort-hvid. Brug gerne en globus bagefter, så børnene kan se, at Stillehavet hænger sammen. Arket er det sværeste i familien om kort og verdenshjørner og bygger på arket, hvor verdensdelene skal navngives.",
+   "canonicalDeckSlug": "kort-og-verdenshjoerner-g3396",
+   "carousel": [
+    {
+     "label": "Kort og signaturforklaring – tæl tegnene på kortet – 1. klasse",
+     "href": "kort-og-signaturforklaring-tael-tegnene"
+    },
+    {
+     "label": "Set fra siden og set oppefra – forbind tingene – børnehaveklasse",
+     "href": "set-fra-siden-og-set-oppefra"
+    },
+    {
+     "label": "Verdenshjørner – udfyld kompasrosen med N, Ø, S og V – 2. klasse",
+     "href": "kompasrose-udfyld-verdenshjoernerne"
+    },
+    {
+     "label": "Verdensdele – skriv navnene på kortet – 2. klasse",
+     "href": "verdensdele-skriv-navnene-paa-kortet"
+    }
+   ],
+   "title": "Verdensdele og verdenshave: find dem på kortet | til print PDF gratis",
+   "metaDescription": "Et verdenskort med tolv tal: syv verdensdele og fem verdenshave, bl.a. Stillehavet og Det Indiske Ocean. Barnet skriver tallet ved navnet. Gratis PDF til print."
+  },
+  {
+   "slug": "verdenshjoerner-paa-kortet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-directions-on-a-map",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Verdenshjørner på kortet · Arbejdsark",
+   "h1": "Verdenshjørner på kortet – nord, syd, øst og vest – 2. klasse",
+   "strand": "Natur/teknologi (Fælles Mål)",
+   "slotTokens": [
+    "kort-og-verdenshjoerner",
+    "2-klasse"
+   ],
+   "p1": "Øverst står et kort over en ø med en sti og en å, og ved siden af en kompasrose med N, Ø, S og V. På øen står syv tegn: et hus, en dam, et træ, et telt, en busk, blomster og en bænk. Til højre står signaturforklaringen med alle syv. Nederst er der seks opgaver. Hver opgave viser et tegn i en firkant, et ord – vest, øst, nord eller syd – og tre tegn at vælge imellem. Barnet finder det første billede på kortet, ser i den retning, ordet siger, og sætter ring om det af de tre billeder, der ligger dér.",
+   "p2": "Arket bruger verdenshjørnerne til det, de er til: at finde vej på et kort. Barnet skal tage udgangspunkt i ét sted og se i en retning, og det er sværere, end det lyder, fordi man skal holde kompasrosen i hovedet. Nord er opad på kortet, og opgaverne bruger alle fire retninger. Svarene er fordelt på fem forskellige tegn, og intet tegn er svaret mere end to gange, så barnet må kigge på kortet hver gang. Opgaven fra huset mod vest er værd at tale om: træet ligger tættere på, men det er ikke et af valgene, så barnet må se helt ud til dammen.",
+   "p3": "Print arket; tegnene er tydelige i sort-hvid. Lav gerne en lignende leg i gymnastiksalen, hvor børnene går et stykke mod nord eller øst fra et kendt sted. Arket står i familien om kort og verdenshjørner efter kompasrosen og samler signaturforklaringen og verdenshjørnerne i én opgave.",
+   "canonicalDeckSlug": "kort-og-verdenshjoerner-g2371",
+   "carousel": [
+    {
+     "label": "Kort og signaturforklaring – tæl tegnene på kortet – 1. klasse",
+     "href": "kort-og-signaturforklaring-tael-tegnene"
+    },
+    {
+     "label": "Set fra siden og set oppefra – forbind tingene – børnehaveklasse",
+     "href": "set-fra-siden-og-set-oppefra"
+    },
+    {
+     "label": "Verdenshjørner – udfyld kompasrosen med N, Ø, S og V – 2. klasse",
+     "href": "kompasrose-udfyld-verdenshjoernerne"
+    },
+    {
+     "label": "Verdensdele – skriv navnene på kortet – 2. klasse",
+     "href": "verdensdele-skriv-navnene-paa-kortet"
+    }
+   ],
+   "title": "Verdenshjørner på kortet: nord, syd, øst og vest | til print PDF gratis",
+   "metaDescription": "Et kort over en ø med hus, træ, dam, telt, busk, blomster og bænk. Seks opgaver: find et tegn, se mod nord, syd, øst eller vest, og sæt ring. Gratis PDF."
+  },
+  {
+   "slug": "synonymer-med-billeder",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "synonyms-with-pictures",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Synonymer med billeder · Arbejdsark",
+   "h1": "Synonymer med billeder – to ord, ét billede – 1. klasse",
+   "strand": "Ord og begreber (Fælles Mål)",
+   "slotTokens": [
+    "synonymer",
+    "1-klasse"
+   ],
+   "p1": "Seks kort fylder arket, og hvert kort har et farvebillede øverst og fire ord under. Billederne er et vredt ansigt, en grøn racerbil, et overrasket ansigt, et søvnigt ansigt med zzz ved siden af, et glad ansigt og en stor hval. To af de fire ord passer til billedet og betyder det samme: vred og hidsig, hurtig og hastig, overrasket og paf, søvnig og træt, glad og fornøjet, stor og enorm. De to andre ord passer ikke. Barnet ser på billedet og sætter ring om de to ord, der betyder det samme og passer til billedet.",
+   "p2": "Billedet gør synonymerne synlige: det samme ansigt kan hedde både vred og arrig. Det er en blid indgang til synonymer i 1. klasse, fordi barnet kan tage udgangspunkt i noget, det ser, og ikke kun i ord. De rigtige par står forskellige steder på kortet, nogle gange ved siden af hinanden, andre gange på skrå. Nogle ord er svære at læse i 1. klasse, især hastig og fornøjet, og det kan være en god idé at læse dem højt sammen først. Det søvnige ansigt har zzz ved siden af, så det ikke forveksles med et trist ansigt, og de forkerte ord er hentet fra de andre billeder på arket, så barnet må se efter.",
+   "p3": "Print arket i farver, så ansigterne står tydeligt. Lad bagefter børnene lave ansigterne selv og finde flere ord til dem. Arket er det letteste i familien om synonymer og kan bruges før grundarket, hvor barnet finder synonymet uden billede.",
+   "canonicalDeckSlug": "synonymer-g1395",
+   "carousel": [
+    {
+     "label": "Synonymer – find ordet, der betyder det samme – 2. klasse",
+     "href": "synonymer-find-ordet-der-betyder-det-samme"
+    },
+    {
+     "label": "Synonymer – forbind ordparrene med en streg – 2. klasse",
+     "href": "synonymer-forbind-ordparrene"
+    },
+    {
+     "label": "Ord efter styrke – fra lidt til meget – 1. klasse",
+     "href": "ord-efter-styrke-fra-lidt-til-meget"
+    },
+    {
+     "label": "Andre ord for »siger« – vælg det ord, der passer – 2. klasse",
+     "href": "andre-ord-for-siger"
+    }
+   ],
+   "title": "Synonymer med billeder: to ord, ét billede | til print PDF gratis",
+   "metaDescription": "Seks billeder – et vredt ansigt, en racerbil, en hval og flere – med fire ord under hvert. Barnet sætter ring om de to ord, der passer til billedet. Gratis PDF."
+  },
+  {
+   "slug": "synonymer-forbind-ordparrene",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "synonym-pairs",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Synonymer · Forbind ordparrene",
+   "h1": "Synonymer – forbind ordparrene med en streg – 2. klasse",
+   "strand": "Ord og begreber (Fælles Mål)",
+   "standard": "L.2.5",
+   "slotTokens": [
+    "synonymer",
+    "2-klasse"
+   ],
+   "p1": "To søjler med otte ordkort står over for hinanden, og ved hvert kort er der en orange prik. Til venstre står enkel, tavs, snakke, falde, skræmt, tude, lækker og glad. Til højre står velsmagende, nem, græde, stille, fornøjet, bange, tale og vælte. Barnet trækker en streg fra hvert ord til venstre til det ord til højre, der betyder det samme: enkel og nem, tavs og stille, snakke og tale, falde og vælte, skræmt og bange, tude og græde, lækker og velsmagende, glad og fornøjet.",
+   "p2": "Når alle otte ord skal parres, hjælper udelukkelsen, men den kræver også, at barnet kender alle seksten ord. Ordene er en blanding af hverdagsord, som snakke og tale, og lidt mere sjældne ord, som velsmagende og fornøjet, der mest findes i bøger. Tude og græde er et godt par at tale om, fordi tude ofte bruges lidt drillende; synonymer betyder det samme, men lyder ikke altid ens. Falde og vælte er det løseste par: vælte bruges mest, når noget går omkuld, fx et glas eller en cykel, så spørg, om de to ord altid kan bytte plads. De rigtige ord står spredt i højre søjle, så stregerne krydser hinanden.",
+   "p3": "Print arket; der er god plads mellem søjlerne til stregerne. Brug en lineal, hvis stregerne skal være tydelige. Arket står ved siden af grundarket i familien om synonymer og er en god opfølgning, fordi alle ordene bruges på én gang. Bed gerne børnene om at bruge hvert par i en sætning bagefter.",
+   "canonicalDeckSlug": "synonymer-g2373",
+   "carousel": [
+    {
+     "label": "Synonymer – find ordet, der betyder det samme – 2. klasse",
+     "href": "synonymer-find-ordet-der-betyder-det-samme"
+    },
+    {
+     "label": "Synonymer med billeder – to ord, ét billede – 1. klasse",
+     "href": "synonymer-med-billeder"
+    },
+    {
+     "label": "Ord efter styrke – fra lidt til meget – 1. klasse",
+     "href": "ord-efter-styrke-fra-lidt-til-meget"
+    },
+    {
+     "label": "Andre ord for »siger« – vælg det ord, der passer – 2. klasse",
+     "href": "andre-ord-for-siger"
+    }
+   ],
+   "title": "Synonymer: forbind ordparrene | til print PDF gratis",
+   "metaDescription": "Otte ord til venstre og otte til højre: enkel, tavs, skræmt, lækker og flere. Barnet trækker en streg til det ord, der betyder det samme. Gratis PDF til print."
+  },
+  {
+   "slug": "ord-efter-styrke-fra-lidt-til-meget",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "shades-of-meaning",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Ord efter styrke · Arbejdsark",
+   "h1": "Ord efter styrke – fra lidt til meget – 1. klasse",
+   "strand": "Ord og begreber (Fælles Mål)",
+   "standard": "L.1.5.d",
+   "slotTokens": [
+    "synonymer",
+    "1-klasse"
+   ],
+   "p1": "Øverst viser tre bjælker, der bliver større og mørkere, hvad 1, 2 og 3 betyder: lidt, mere og meget. Under dem står seks rækker med tre ord og et tomt felt under hvert ord. Rækkerne er styrtregne, regne og småregne; våd, fugtig og gennemblødt; småsulten, hundesulten og sulten; grine, fnise og skraldgrine; hviske, råbe og tale; og glohed, varm og lunken. Ordene står blandet i hver række, og barnet læser de tre ord og skriver 1, 2 og 3, fra det svageste ord til det stærkeste.",
+   "p2": "Ordene i en række betyder næsten det samme, men ikke helt, og det er forskellen i styrke, barnet skal mærke. Småregn er lidt, styrtregn er meget. Det er en måde at arbejde med nuancer på, der ligger tæt på synonymer, og derfor er arket i samme familie. Flere af ordene er sammensatte, og forleddet afslører styrken: små- gør ordet svagere, mens styrt-, hunde- og skrald- gør det stærkere. Det er en fin lille opdagelse at tale om. Lunken kan være nyt for mange børn og er værd at forklare: lunkent vand er kun lidt varmt. Rækken med hviske, tale og råbe handler om lyd og kan vises med stemmen.",
+   "p3": "Print arket; tallene skrives i de store felter. Lad gerne børnene vise ordene med kroppen – hviske stille, råbe højt. Arket står i familien om synonymer som et skridt til siden fra grundarket. Børnene kan bagefter lave deres egne rækker med tre ord om fx at gå eller at løbe.",
+   "canonicalDeckSlug": "synonymer-g1396",
+   "carousel": [
+    {
+     "label": "Synonymer – find ordet, der betyder det samme – 2. klasse",
+     "href": "synonymer-find-ordet-der-betyder-det-samme"
+    },
+    {
+     "label": "Synonymer med billeder – to ord, ét billede – 1. klasse",
+     "href": "synonymer-med-billeder"
+    },
+    {
+     "label": "Synonymer – forbind ordparrene med en streg – 2. klasse",
+     "href": "synonymer-forbind-ordparrene"
+    },
+    {
+     "label": "Andre ord for »siger« – vælg det ord, der passer – 2. klasse",
+     "href": "andre-ord-for-siger"
+    }
+   ],
+   "title": "Ord efter styrke: fra lidt til meget | til print PDF gratis",
+   "metaDescription": "Seks rækker med tre ord, fx småregne, regne og styrtregne. Barnet skriver 1, 2 og 3 fra det svageste ord til det stærkeste. Gratis PDF til print."
+  },
+  {
+   "slug": "andre-ord-for-siger",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "synonyms-for-said",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Andre ord for siger · Arbejdsark",
+   "h1": "Andre ord for »siger« – vælg det ord, der passer – 2. klasse",
+   "strand": "Ord og begreber (Fælles Mål)",
+   "standard": "L.2.5.b",
+   "slotTokens": [
+    "synonymer",
+    "2-klasse"
+   ],
+   "p1": "Øverst står en stor taleboble med ordet siger streget ud og seks andre ord: svarer, forklarer, hvisker, råber, spørger og lover. Under den står seks sætninger med replikker, hver med et tomt felt der, hvor ordet siger kunne have stået. Clara vil nå bussen, Emil har en hemmelighed til sin mormor, Ida leder efter sin røde hue, Alma lover at fodre fiskene, Freja beskriver, hvordan man lægger et frø i jorden, og Oscar svarer læreren, at syv og tre er ti. Barnet læser hver sætning og skriver det ord fra taleboblen, der passer bedst, i stedet for siger.",
+   "p2": "Siger er det ord, børn bruger oftest, når de skriver historier, og arket viser, hvad der sker, når det skiftes ud. Et hvisk og et råb fortæller mere end et siger. Sætningerne er skrevet, så indholdet peger på ordet: en hemmelighed hviskes, et spørgsmål spørges, et æresord loves. I sætningen med Oscar står lærerens spørgsmål lige foran, så svarer passer, mens forklarer hører til Frejas sætning om frøet; hvert ord bruges kun én gang. Sætningerne har rigtig dansk ordstilling med verbet før navnet, som i råber Clara.",
+   "p3": "Print arket; felterne er brede nok til de længste ord. Lad gerne børnene læse replikkerne højt med den stemme, ordet siger. Bagefter kan de finde tre sætninger med siger i deres egen tekst og skifte dem ud. Arket står i familien om synonymer og passer efter grundarket.",
+   "canonicalDeckSlug": "synonymer-g2374",
+   "carousel": [
+    {
+     "label": "Synonymer – find ordet, der betyder det samme – 2. klasse",
+     "href": "synonymer-find-ordet-der-betyder-det-samme"
+    },
+    {
+     "label": "Synonymer med billeder – to ord, ét billede – 1. klasse",
+     "href": "synonymer-med-billeder"
+    },
+    {
+     "label": "Synonymer – forbind ordparrene med en streg – 2. klasse",
+     "href": "synonymer-forbind-ordparrene"
+    },
+    {
+     "label": "Ord efter styrke – fra lidt til meget – 1. klasse",
+     "href": "ord-efter-styrke-fra-lidt-til-meget"
+    }
+   ],
+   "title": "Andre ord for siger: vælg det ord, der passer | til print PDF gratis",
+   "metaDescription": "Seks sætninger med replikker og en taleboble med råber, hvisker, spørger, lover, forklarer og svarer. Barnet skriver det ord, der passer bedst. Gratis PDF."
+  },
+  {
+   "slug": "ordfelter-ord-for-gaa-og-se",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "word-fields-go-and-look",
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Ordfelter · Gå og se",
+   "h1": "Ordfelter – ord for »gå« og »se« – 3. klasse",
+   "strand": "Ord og begreber (Fælles Mål)",
+   "standard": "L.3.5",
+   "slotTokens": [
+    "synonymer",
+    "3-klasse"
+   ],
+   "p1": "En boks øverst har ti ord: titte, trave, liste, spejde, vandre, kigge, glo, skæve, marchere og betragte. Under den står to høje kolonner, hver med en overskrift og seks skrivelinjer. Den ene hedder gå, den anden se. Barnet læser de ti ord og skriver hvert ord i feltet for det ord, det betyder næsten det samme som. Fire ord hører til gå: trave, liste, vandre og marchere. Seks hører til se: titte, spejde, kigge, glo, skæve og betragte.",
+   "p2": "Et ordfelt er en gruppe ord, der handler om det samme, og arket viser, at dansk har mange måder at gå og se på. Hvert ord fortæller noget ekstra: den, der lister, vil ikke høres, og den, der glor, stirrer lidt for længe. Det er de nuancer, der gør en historie levende, og arket er lavet til 3. klasse, hvor børnene skriver længere tekster. Fordelingen er ikke lige, fire og seks, men der er seks linjer i begge kolonner, så barnet ikke kan tælle sig frem. Skæve og betragte er de sværeste ord og værd at forklare med kroppen.",
+   "p3": "Print arket; kolonnerne har plads til alle ordene. Lav gerne en lille leg bagefter, hvor et barn går eller ser på en bestemt måde, og de andre gætter ordet. Arket er det sværeste i familien om synonymer og bygger på arkene om at finde og forbinde synonymer.",
+   "canonicalDeckSlug": "synonymer-g3397",
+   "carousel": [
+    {
+     "label": "Synonymer – find ordet, der betyder det samme – 2. klasse",
+     "href": "synonymer-find-ordet-der-betyder-det-samme"
+    },
+    {
+     "label": "Synonymer med billeder – to ord, ét billede – 1. klasse",
+     "href": "synonymer-med-billeder"
+    },
+    {
+     "label": "Synonymer – forbind ordparrene med en streg – 2. klasse",
+     "href": "synonymer-forbind-ordparrene"
+    },
+    {
+     "label": "Ord efter styrke – fra lidt til meget – 1. klasse",
+     "href": "ord-efter-styrke-fra-lidt-til-meget"
+    }
+   ],
+   "title": "Ordfelter: ord for gå og se | til print PDF gratis",
+   "metaDescription": "Ti ord som trave, liste, kigge, glo og betragte skal sorteres i to ordfelter: ord for at gå og ord for at se. Barnet skriver hvert ord i sin kolonne. Gratis PDF."
+  },
+  {
+   "slug": "rodord-med-billeder-find-ordet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "root-words-with-pictures",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Rodord med billeder · Arbejdsark",
+   "h1": "Rodord med billeder – find ordet, der er bygget af billedets ord – 1. klasse",
+   "strand": "Ord og begreber (Fælles Mål)",
+   "slotTokens": [
+    "forstavelser-endelser-og-rodord",
+    "1-klasse"
+   ],
+   "p1": "Seks kort står i to rækker, hvert med tre ordbrikker øverst og et farvebillede nederst. Billederne er en violin, en fisk, en trompet, en guitar, en sol og en sky. Over violinen står violinist, vind og vinter; over fisken finger, figur og fisker; over trompeten trappe, trompetist og trold. Barnet siger, hvad det ser på billedet, og sætter ring om det ene ord, der er bygget af billedets ord: violinist, fisker, trompetist, guitarist, solrig og skyet. De to andre ord begynder med de samme bogstaver, men har intet med billedet at gøre.",
+   "p2": "Arket er en blid indgang til ordfamilier i 1. klasse, fordi barnet selv skal sige ordet højt og høre det inde i det længere ord. Fisk står i fisker, sol i solrig, sky i skyet. De forkerte ord er valgt med omhu: finger og figur begynder også med fi, vind og vinter med vi, så barnet kan ikke nøjes med at kigge på forbogstavet. Tre af ordene handler om musikere, og endelsen -ist er en god lille opdagelse. I flere af kortene er det rigtige ord også det længste, så det kan være en idé at spørge barnet, hvordan det vidste det.",
+   "p3": "Print arket i farver, så billederne er lette at genkende. Læs ordene højt sammen, hvis barnet endnu staver sig igennem. Arket er det letteste i familien om forstavelser, endelser og rodord og passer før grundarket, hvor ordene sorteres efter rodord uden billeder.",
+   "canonicalDeckSlug": "forstavelser-endelser-og-rodord-g1397",
+   "carousel": [
+    {
+     "label": "Ordfamilier – sortér ordene efter roden – 2. klasse",
+     "href": "ordfamilier-sorter-ordene-efter-rodordet"
+    },
+    {
+     "label": "Find rodordet – sæt ring om det, de tre ord har til fælles – 2. klasse",
+     "href": "find-rodordet-i-ordfamilien"
+    },
+    {
+     "label": "Forstavelserne gen-, ind- og ud- – vælg efter betydning – 2. klasse",
+     "href": "forstavelser-gen-ind-og-ud"
+    },
+    {
+     "label": "Hvem gør det? Ord for personer med -er – 3. klasse",
+     "href": "ord-for-personer-hvem-goer-det"
+    }
+   ],
+   "title": "Rodord med billeder: find ordet | til print PDF gratis",
+   "metaDescription": "Seks billeder – en violin, en fisk, en trompet, en guitar, en sol og en sky – med tre ord over hvert. Barnet finder ordet, der er bygget af billedets ord. Gratis PDF."
+  },
+  {
+   "slug": "find-rodordet-i-ordfamilien",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "find-the-root-word",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Find rodordet · Arbejdsark",
+   "h1": "Find rodordet – sæt ring om det, de tre ord har til fælles – 2. klasse",
+   "strand": "Ord og begreber (Fælles Mål)",
+   "standard": "L.2.4.c",
+   "slotTokens": [
+    "forstavelser-endelser-og-rodord",
+    "2-klasse"
+   ],
+   "p1": "Arket har ni kort i tre rækker, og hvert kort har tre ord og en tom plade nederst. Det første kort er løst som eksempel: i spille, spiller og indspilning er spil ringet ind, og pladen siger spil. De otte andre venter på barnet: venlig, venskabelig og veninde; maler, male og maling; bygmester, ombygning og bygge; omskrive, afskrive og skrivning; oplæsning, læsning og oplæse; påkøre, indkørsel og køretøj; glemsomhed, forglemmelse og glemsom; og optegne, aftegning og gentegne. Barnet sætter ring om den del, de tre ord har til fælles, og skriver rodordet på den tomme plade.",
+   "p2": "Her går barnet den modsatte vej af grundarket: rodordet er ikke givet, det skal findes. Det kræver, at barnet ser på ordene som byggeklodser. Rodordet står ikke altid forrest; i ombygning, omskrive, afskrive, oplæse, påkøre, forglemmelse og gentegne er der et forled foran. Alle rødderne er korte ord, man kan sige alene, som byg, skriv, kør og tegn, og det giver en god snak om, at spil både er et navneord og en bydeform af spille. Familien med ven står også i grundarket, så børn, der har lavet det, genkender den.",
+   "p3": "Print arket; pladerne har skrivelinjer. Brug gerne en farvet blyant til ringene, så rodordet springer i øjnene. Arket bygger på grundarket om ordfamilier. Næste skridt kan være arket, hvor ordene fra en familie skal skrives ind i sætninger, eller arket med forstavelserne gen-, ind- og ud-.",
+   "canonicalDeckSlug": "forstavelser-endelser-og-rodord-g2375",
+   "carousel": [
+    {
+     "label": "Ordfamilier – sortér ordene efter roden – 2. klasse",
+     "href": "ordfamilier-sorter-ordene-efter-rodordet"
+    },
+    {
+     "label": "Rodord med billeder – find ordet, der er bygget af billedets ord – 1. klasse",
+     "href": "rodord-med-billeder-find-ordet"
+    },
+    {
+     "label": "Forstavelserne gen-, ind- og ud- – vælg efter betydning – 2. klasse",
+     "href": "forstavelser-gen-ind-og-ud"
+    },
+    {
+     "label": "Hvem gør det? Ord for personer med -er – 3. klasse",
+     "href": "ord-for-personer-hvem-goer-det"
+    }
+   ],
+   "title": "Find rodordet i ordfamilien | til print PDF gratis",
+   "metaDescription": "Ni ordfamilier med tre ord hver, fx spille, spiller og indspilning. Barnet sætter ring om den fælles del og skriver rodordet. Et eksempel er løst. Gratis PDF."
+  },
+  {
+   "slug": "forstavelser-gen-ind-og-ud",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "prefixes-re-pre-mis",
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Forstavelser · Gen-, ind- og ud-",
+   "h1": "Forstavelserne gen-, ind- og ud- – vælg efter betydning – 2. klasse",
+   "strand": "Ord og begreber (Fælles Mål)",
+   "standard": "L.2.4.b",
+   "slotTokens": [
+    "forstavelser-endelser-og-rodord",
+    "2-klasse"
+   ],
+   "p1": "Øverst står en nøgle med tre forstavelser på puslespilsbrikker og deres betydning under: gen betyder igen, ind betyder inden i noget, og ud betyder væk fra noget. Under nøglen står otte rækker. Til venstre står en forklaring, til højre en tom brik og en brik med et udsagnsord: læse, ånde, klippe, pakke, bruge, låne, åbne og sætte. Forklaringerne lyder fx at læse historien en gang til, at trække luft ned i lungerne gennem næsen og at lade en ven låne en bog fra dig. Barnet læser, hvad hvert nyt ord betyder, finder forstavelsen i nøglen og skriver den i den tomme brik.",
+   "p2": "Forstavelser ændrer betydningen af et ord, og arket gør det tydeligt ved at give betydningen først. Barnet skal gå fra forklaringen til forstavelsen og bygger på den måde ord som genlæse, indånde, udklippe, indpakke, genbruge, udlåne, genåbne og indsætte. Tre af ordene får gen-, tre ind- og to ud-. De danske forstavelser er valgt, fordi de er lette at se og høre, og de fleste af ordene kender barnet i forvejen. Nogle forklaringer bruger ordet en gang til, hvilket peger direkte mod gen-; andre, som indsætte penge på en konto, kræver mere tankearbejde.",
+   "p3": "Print arket; brikkerne er store nok til tre bogstaver. Bed gerne barnet om at læse hele ordet højt bagefter og bruge det i en sætning. Arket står i familien om forstavelser, endelser og rodord efter arket, hvor rodordet skal findes, og det er familiens eneste ark om forstavelser.",
+   "canonicalDeckSlug": "forstavelser-endelser-og-rodord-g2376",
+   "carousel": [
+    {
+     "label": "Ordfamilier – sortér ordene efter roden – 2. klasse",
+     "href": "ordfamilier-sorter-ordene-efter-rodordet"
+    },
+    {
+     "label": "Rodord med billeder – find ordet, der er bygget af billedets ord – 1. klasse",
+     "href": "rodord-med-billeder-find-ordet"
+    },
+    {
+     "label": "Find rodordet – sæt ring om det, de tre ord har til fælles – 2. klasse",
+     "href": "find-rodordet-i-ordfamilien"
+    },
+    {
+     "label": "Hvem gør det? Ord for personer med -er – 3. klasse",
+     "href": "ord-for-personer-hvem-goer-det"
+    }
+   ],
+   "title": "Forstavelserne gen-, ind- og ud-: vælg efter betydning | PDF gratis",
+   "metaDescription": "En nøgle med gen- (igen), ind- (inden i noget) og ud- (væk fra noget) og otte forklaringer som at bruge en gammel ting en gang til. Barnet skriver forstavelsen."
+  },
+  {
+   "slug": "ord-for-personer-hvem-goer-det",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "who-does-it-person-words",
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Ord for personer · Arbejdsark",
+   "h1": "Hvem gør det? Ord for personer med -er – 3. klasse",
+   "strand": "Ord og begreber (Fælles Mål)",
+   "standard": "L.3.4.b",
+   "slotTokens": [
+    "forstavelser-endelser-og-rodord",
+    "3-klasse"
+   ],
+   "p1": "Otte kort fylder arket, hvert med et farvebillede af en person, et ord på et kort og et stort, stiplet felt med skrivelinjer. Personerne er en ung mand i hvid kittel med en medicinflaske, en løber, en dreng med guitar, en lærerinde med en mappe, en ballerina, en kvinde ved en symaskine, en bager med et brød og en dommer i kappe. Ordene er apotek, løbe, musik, lære, danse, sy, bage og dom. Barnet ser på personen, læser ordet og skriver personordet i det stiplede felt: apoteker, løber, musiker, lærer, danser, syerske, bager og dommer.",
+   "p2": "På dansk bliver mange ord til et ord for en person ved at få endelsen -er. Den, der bager, er en bager; den, der danser, er en danser. Arket viser, at det ikke altid er helt så enkelt. Dom bliver til dommer med to m'er, og musik bliver til musiker, hvor trykket flytter sig. Sy er arkets undtagelse: den, der syr, er en syerske, med endelsen -erske, og det åbner en snak om, at nogle ord for personer har deres egen endelse. Manden i den hvide kittel kan få nogle børn til at sige læge, og dommeren er tegnet med kappe og hvid krave som i udenlandske retssale; ordet på kortet viser vejen. Arket er lavet til 3. klasse, hvor stavningen af endelserne er i fokus.",
+   "p3": "Print arket i farver, så personerne kan genkendes. Lav gerne en liste i klassen over flere personord med -er. Arket står i familien om forstavelser, endelser og rodord som familiens eneste ark om endelser. Det passer efter arket, hvor ordene sorteres efter rodord.",
+   "canonicalDeckSlug": "forstavelser-endelser-og-rodord-g3398",
+   "carousel": [
+    {
+     "label": "Ordfamilier – sortér ordene efter roden – 2. klasse",
+     "href": "ordfamilier-sorter-ordene-efter-rodordet"
+    },
+    {
+     "label": "Rodord med billeder – find ordet, der er bygget af billedets ord – 1. klasse",
+     "href": "rodord-med-billeder-find-ordet"
+    },
+    {
+     "label": "Find rodordet – sæt ring om det, de tre ord har til fælles – 2. klasse",
+     "href": "find-rodordet-i-ordfamilien"
+    },
+    {
+     "label": "Forstavelserne gen-, ind- og ud- – vælg efter betydning – 2. klasse",
+     "href": "forstavelser-gen-ind-og-ud"
+    }
+   ],
+   "title": "Hvem gør det? Ord for personer | til print PDF gratis",
+   "metaDescription": "Otte billeder af personer og otte ord som apotek, løbe, sy og dom. Barnet skriver ordet for personen: apoteker, løber, syerske, dommer og flere. Gratis PDF."
+  },
+  {
+   "slug": "rodord-i-saetninger",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "root-words-in-sentences",
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Rodord i sætninger · Arbejdsark",
+   "h1": "Rodord i sætninger – skriv ordet fra ordfamilien – 3. klasse",
+   "strand": "Ord og begreber (Fælles Mål)",
+   "standard": "L.3.4.c",
+   "slotTokens": [
+    "forstavelser-endelser-og-rodord",
+    "3-klasse"
+   ],
+   "p1": "Arket er delt i to store felter, ét for hver ordfamilie. Øverst i det første står fire ordkort, male, maler, maleri og malerisk, og under dem rodordet mal på en plade. Så følger fire sætninger med et tomt felt: Far ringede efter en ___, som kunne give huset ny farve. Den lille by ved havet er meget ___. I dag skal vi ___ et billede af en hest. På væggen hænger et flot ___ af havet. Det andet felt har hjælpsom, hjælper, hjælpsomhed og hjælpe og rodordet hjælp. Barnet skriver hvert af de fire ord ind i den sætning, det passer i.",
+   "p2": "De fire ord i en familie deler rodordet, men de er forskellige ordklasser: et udsagnsord, et navneord for en person, et navneord for en ting og et tillægsord. Det er sætningen, der bestemmer, hvilken form der passer. Efter en kan der kun stå et navneord, efter meget kun et tillægsord, og efter skal vi kun et udsagnsord. På den måde lærer barnet at se på sætningens bygning, og det er et vigtigt skridt i 3. klasse. Malerisk er det sværeste ord og betyder smuk som et maleri. Hjælp-familien kender barnet også fra andre ark i samme familie.",
+   "p3": "Print arket; felterne er brede nok til de længste ord. Når barnet er færdigt, kan det prøve at lave sin egen ordfamilie med fire ord og fire sætninger, fx med rodordet leg. Arket er det sværeste i familien om forstavelser, endelser og rodord og samler det, barnet har lært om rodord.",
+   "canonicalDeckSlug": "forstavelser-endelser-og-rodord-g3399",
+   "carousel": [
+    {
+     "label": "Ordfamilier – sortér ordene efter roden – 2. klasse",
+     "href": "ordfamilier-sorter-ordene-efter-rodordet"
+    },
+    {
+     "label": "Rodord med billeder – find ordet, der er bygget af billedets ord – 1. klasse",
+     "href": "rodord-med-billeder-find-ordet"
+    },
+    {
+     "label": "Find rodordet – sæt ring om det, de tre ord har til fælles – 2. klasse",
+     "href": "find-rodordet-i-ordfamilien"
+    },
+    {
+     "label": "Forstavelserne gen-, ind- og ud- – vælg efter betydning – 2. klasse",
+     "href": "forstavelser-gen-ind-og-ud"
+    }
+   ],
+   "title": "Rodord i sætninger: to ordfamilier, otte sætninger | PDF gratis",
+   "metaDescription": "To ordfamilier med rodordet mal og hjælp: male, maler, maleri, malerisk og hjælpe, hjælper, hjælpsom, hjælpsomhed. Barnet skriver ordet i den rigtige sætning."
   }
  ]
 }

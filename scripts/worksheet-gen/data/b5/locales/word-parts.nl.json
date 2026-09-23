@@ -973,7 +973,7 @@
       {
         "word": "verbranden",
         "slot": "verb",
-        "frame": "Au! De soep in de pan is nog {gap} heet."
+        "frame": "Pas op, anders zul je je vingers {gap} aan de hete pan."
       },
       {
         "word": "brandend",

@@ -10,6 +10,6 @@ module.exports = {
   id: 'G2-386',
   slug: 'cursive-words-with-pictures',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Cursive Words to Write with Pictures", instruction: "Trace each grey word without lifting your pencil, then write it. Add the dots and crosses last." } },
+  i18n: { en: { title: "Cursive Words to Write with Pictures", instruction: "Trace each grey word in one flowing line, then write it on the line below and add the dots and crosses last." } },
   gradeBand: "G2",
 };

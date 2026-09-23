@@ -9,7 +9,9 @@
     "capDescender": 0.5313,
     "accCap": 1.2969,
     "lineAscent": 1.428,
-    "lineDescent": 0.504
+    "lineDescent": 0.504,
+    "wordGap": 0.125,
+    "wordGapCap": 0.266
   },
   "cursive-us-modern": {
     "xHeight": 0.5313,
@@ -20,7 +22,9 @@
     "capDescender": 0.2031,
     "accCap": 1.2344,
     "lineAscent": 1.352,
-    "lineDescent": 0.44
+    "lineDescent": 0.44,
+    "wordGap": 0.244,
+    "wordGapCap": 0.254
   },
   "cursive-de-va": {
     "xHeight": 0.5156,
@@ -31,7 +35,9 @@
     "capDescender": 0.5,
     "accCap": 1.2803,
     "lineAscent": 1.402,
-    "lineDescent": 0.482
+    "lineDescent": 0.482,
+    "wordGap": 0.147,
+    "wordGapCap": 0.275
   },
   "cursive-de-la": {
     "xHeight": 0.5313,
@@ -42,7 +48,9 @@
     "capDescender": 0.4375,
     "accCap": 1.2188,
     "lineAscent": 1.33,
-    "lineDescent": 0.421
+    "lineDescent": 0.421,
+    "wordGap": 0.146,
+    "wordGapCap": 0.236
   },
   "cursive-de-sas": {
     "xHeight": 0.5313,
@@ -53,7 +61,9 @@
     "capDescender": 0.4063,
     "accCap": 1.1875,
     "lineAscent": 1.291,
-    "lineDescent": 0.388
+    "lineDescent": 0.388,
+    "wordGap": 0.151,
+    "wordGapCap": 0.241
   },
   "cursive-mx": {
     "xHeight": 0.5313,
@@ -64,7 +74,9 @@
     "capDescender": 0.5313,
     "accCap": 1.2969,
     "lineAscent": 1.428,
-    "lineDescent": 0.504
+    "lineDescent": 0.504,
+    "wordGap": 0.136,
+    "wordGapCap": 0.247
   },
   "cursive-br": {
     "xHeight": 0.5313,
@@ -75,7 +87,9 @@
     "capDescender": 0.6563,
     "accCap": 1.4375,
     "lineAscent": 1.588,
-    "lineDescent": 0.639
+    "lineDescent": 0.639,
+    "wordGap": 0.17,
+    "wordGapCap": 0.271
   },
   "cursive-fr-moderne": {
     "xHeight": 0.5156,
@@ -86,7 +100,9 @@
     "capDescender": 0.2344,
     "accCap": 1.4063,
     "lineAscent": 1.55,
-    "lineDescent": 0.607
+    "lineDescent": 0.607,
+    "wordGap": 0.314,
+    "wordGapCap": 0.254
   },
   "cursive-fr-trad": {
     "xHeight": 0.5313,
@@ -97,7 +113,9 @@
     "capDescender": 0.9375,
     "accCap": 1.7178,
     "lineAscent": 1.927,
-    "lineDescent": 0.925
+    "lineDescent": 0.925,
+    "wordGap": 0.156,
+    "wordGapCap": 0.262
   },
   "cursive-it-moderna": {
     "xHeight": 0.5313,
@@ -108,7 +126,9 @@
     "capDescender": 0.1875,
     "accCap": 1.1719,
     "lineAscent": 1.275,
-    "lineDescent": 0.375
+    "lineDescent": 0.375,
+    "wordGap": 0.338,
+    "wordGapCap": 0.289
   },
   "cursive-it-trad": {
     "xHeight": 0.5313,
@@ -119,7 +139,9 @@
     "capDescender": 0.4844,
     "accCap": 1.2656,
     "lineAscent": 1.378,
-    "lineDescent": 0.462
+    "lineDescent": 0.462,
+    "wordGap": 0.182,
+    "wordGapCap": 0.277
   },
   "cursive-nl": {
     "xHeight": 0.5313,
@@ -130,7 +152,9 @@
     "capDescender": 0.7969,
     "accCap": 1.5771,
     "lineAscent": 1.762,
-    "lineDescent": 0.786
+    "lineDescent": 0.786,
+    "wordGap": 0.157,
+    "wordGapCap": 0.262
   },
   "cursive-no": {
     "xHeight": 0.5313,
@@ -141,7 +165,9 @@
     "capDescender": 0.5,
     "accCap": 1.2656,
     "lineAscent": 1.391,
-    "lineDescent": 0.473
+    "lineDescent": 0.473,
+    "wordGap": 0.175,
+    "wordGapCap": 0.244
   },
   "cursive-dk-loopet": {
     "xHeight": 0.5156,
@@ -152,7 +178,9 @@
     "capDescender": 0.1094,
     "accCap": 1.1719,
     "lineAscent": 1.275,
-    "lineDescent": 0.375
+    "lineDescent": 0.375,
+    "wordGap": 0.157,
+    "wordGapCap": 0.257
   },
   "cursive-dk-uloopet": {
     "xHeight": 0.5156,
@@ -163,6 +191,8 @@
     "capDescender": 0.1094,
     "accCap": 1.1719,
     "lineAscent": 1.275,
-    "lineDescent": 0.375
+    "lineDescent": 0.375,
+    "wordGap": 0.177,
+    "wordGapCap": 0.254
   }
 }

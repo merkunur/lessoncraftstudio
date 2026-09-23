@@ -168,6 +168,11 @@ async function faceGate({ page, K, quick, OUTDIR, validateBank }) {
   await J('FR1 F4 two reason stamps swapped', 'G2-379', { doctor: (h) => { const m = [...h.matchAll(/data-lcs-reason-for="([^"]+)"/g)]; if (m.length < 2) return h; const [a, b] = [m[0][1], m[1][1]]; return h.replace(`data-lcs-reason-for="${a}"`, 'data-lcs-reason-for="__A__"').replace(`data-lcs-reason-for="${b}"`, `data-lcs-reason-for="${a}"`).replace('data-lcs-reason-for="__A__"', `data-lcs-reason-for="${b}"`); } }, /prints ".*" \(not the bank's reason/);
   await J('FR2 F4 every reason straight across', 'G2-379', { plan: { habits: COMMON.reasonD2.slice(), reasons: COMMON.reasonD2.slice() } }, /reasons sit straight across/);
   await J('P19 F5 34 tick squares', 'G1-405', { doctor: (h) => h.replace(/<span data-lcs-tick [^>]*><\/span>/, '') }, /34 tick squares/);
+  // FIX ROUND 1 (fr panel): long native labels wrap balanced (no short word stranded at a line end) — control + poison
+  const LONG = ['se laver les mains', 'die Hände waschen', 'pestä kädet hyvin', 'børste tænderne', 'lavarsi i denti'];
+  const longLabels = (h) => { let i = 0; return h.replace(/(<span data-lcs-row-label[^>]*>)([^<]*)/g, (m, a) => a + LONG[i++ % LONG.length]); };
+  const cLong = K.control('LW0 F5 with long fr / de / fi / da / it labels (control)', await V('G1-405', { doctor: longLabels, name: 'G1-405-long-labels' }));
+  K.judge('LW1 F5 long labels with the balanced wrap switched off', await V('G1-405', { doctor: (h) => longLabels(h).replace(/text-wrap:balance/g, 'text-wrap:wrap') }), /leaves the short word/, cLong);
   await J('FD1 F5 a digit in a label', 'G1-405', { doctor: (h) => h.replace(/(<span data-lcs-row-label[^>]*>)([^<]*)/, '$1$2 3') }, /digit/);
   for (const f of FACES) {
     await J(`SP ${f.id} 90 px opened above the stage (sparse)`, f.id, { strings: CHROME.one, doctor: (h) => h.replace('style="flex:1 1 auto;display:flex;flex-direction:column;min-height:0;"', 'style="flex:1 1 auto;display:flex;flex-direction:column;min-height:0;padding-top:90px;box-sizing:border-box"') }, /sparse: a \d+ px blank band/);

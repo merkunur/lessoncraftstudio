@@ -37,16 +37,15 @@ const CLAIMS = [
   R('ship', 'vehicles', 'ship', 'float', ['shape', 'truth'], { testable: false }),
   { id: 'orange', theme: 'fruits', noun: 'orange', result: null, conf: 'question', testable: true, use: ['report'], picOpened: true },
   R('rock', 'camping', 'rock', 'sink', ['base', 'scale']),
-  R('nail', 'tools', 'nail', 'sink', ['base', 'scale', 'truth'], { small: true }),
-  R('key', 'around the house', 'key', 'sink', ['base'], { small: true }),   // the art is PINK (reads as a toy): base only
+  R('nail', 'tools', 'nail', 'sink', ['base', 'scale', 'truth', 'shape'], { small: true }),   // the F2 transfer: grey steel nail vs steel ship (fix round 1)
   R('hammer', 'tools', 'hammer', 'sink', ['base', 'scale']),
-  R('bolt', 'tools', 'bolt', 'sink', ['base', 'shape']),
+  R('bolt', 'tools', 'bolt', 'sink', ['base'], { small: true }),   // fix round 1: a small sinker (replaces the key); brass-coloured, so off the steel transfer card
   R('pliers', 'tools', 'pliers', 'sink', ['base', 'scale']),
   R('scissors', 'classroom', 'scissors', 'sink', ['base']),
   R('potato', 'vegetables', 'potato', 'sink', ['base', 'scale', 'truth']),
 ];
 /** Pictures ruled OUT on sight or on physics (design §5 + _work/G1-399-pedagogy.md §A); the validator refuses them. */
-const EXCLUDED = ['accessories/ring',   // lead review 2026-09-23: the jewellery ring clashes with the page's own apparatus word ("colour a RING") and is a choking-size object no teacher drops in a tub
+const EXCLUDED = ['accessories/ring', 'around the house/key',   // fix round 1 (fi panel): the PINK key reads as a plastic toy key that might float   // lead review 2026-09-23: the jewellery ring clashes with the page's own apparatus word ("colour a RING") and is a choking-size object no teacher drops in a tub
   'christmas/candle', 'around the house/spoon', 'kitchen tools/spoon', 'kitchen tools/sponge', 'toys/blocks',
   'beach/seashell', 'classroom/eraser', 'kitchen tools/fork', 'toys/balloon', 'beach/driftwood', 'beach/rock', 'around the house/hammer',
   'camping/canoe', 'miscellaneous/acorn', 'fruits/lime', 'fruits/pear', 'fruits/pineapple', 'vegetables/carrot', 'At the Supermarket/egg',
@@ -113,7 +112,7 @@ const SINK_OR_FLOAT = {
     labels: {
       ball: 'ball', log: 'log', pumpkin: 'pumpkin', apple: 'apple', lemon: 'lemon', banana: 'banana', leaf: 'leaf',
       feather: 'feather', pinecone: 'pine cone', pencil: 'pencil', toyboat: 'toy boat', ship: 'ship', orange: 'orange',
-      rock: 'rock', nail: 'nail', key: 'key', hammer: 'hammer', bolt: 'bolt', pliers: 'pliers', scissors: 'scissors', potato: 'potato',
+      rock: 'rock', nail: 'nail', hammer: 'hammer', bolt: 'bolt', pliers: 'pliers', scissors: 'scissors', potato: 'potato',
     },
     tf: {
       T1: 'A big log floats.', T2: 'A small nail sinks.', T3: 'A steel ship floats.', T4: 'A heavy pumpkin floats.',
@@ -121,7 +120,7 @@ const SINK_OR_FLOAT = {
       F1: 'A potato floats.', F2: 'A feather sinks.', F3: 'A steel ship sinks.', F4: 'A ball full of air sinks.',
       F5: 'All heavy things sink.', F6: 'All light things float.', F7: 'Big things always sink.', F8: 'A thing floats because it is light.', F9: 'Only small things can float.',
     },
-    report: { question: 'My question', predict: 'I think', result: 'What happened', learned: 'I learned', starter: 'I learned that' },
+    report: { question: 'My question', predict: 'I think', result: 'What happened', learned: 'I learned', starter: 'Now I know that' },   // fix round 1: the starter no longer repeats the heading
     questions: {
       orange: 'Does an orange float with its peel? Does it float without its peel?',
       cargo: 'How many cubes can a clay boat carry before it sinks?',
@@ -129,7 +128,8 @@ const SINK_OR_FLOAT = {
     forbidden: ['heavy things sink', 'light things float', 'because it is light', 'density', 'buoyancy', 'salt'],
     experimentWords: ['experiment', 'test', 'predict', 'investigation', 'lab'],
     /** The apparatus words the instructions name (validator rule 11): no picture label may equal or contain one. */
-    apparatus: { ring: 'ring', tank: 'tank', star: 'star' },
+    // fix round 1: `spot` = the word for the F4 dashed drawing boxes (the K-384 instruction must name it)
+    apparatus: { ring: 'ring', tank: 'tank', star: 'star', spot: 'dashed box' },
     /** rule 8, per FACE (design §5): line / group / bin / tick / cut on every face; circle on base + draw; colour on scale + truth. */
     instructionBans: {
       base: ['line', 'group', 'bin', 'tick', 'cut', 'circle'],
@@ -146,10 +146,10 @@ const SINK_OR_FLOAT = {
         instruction: 'Color a ring in the first tank before the test, a ring in the second tank after it, and the star if you were surprised.',
       },
       // the five faces (Phase E; ids FIXED by _records/b6var-id-allocation.json). Titles = design §6 (en), instructions = §4.
-      'G1-408': { title: 'Heavy or Light? A Sink or Float Experiment With a Scale', instruction: 'The scale shows which thing is heavier: circle the thing that floats in water.' },
-      'G2-382': { title: 'Make Clay Float: A Change the Shape Experiment', instruction: 'Color where each clay shape ends up, circle the thing that floats, then draw your own clay boat on the water.' },
+      'G1-408': { title: 'Heavy or Light? A Sink or Float Scale Test', instruction: 'The scale shows which thing is heavier: circle the thing that floats in water.' },
+      'G2-382': { title: 'Make Clay Float: A Change the Shape Experiment', instruction: 'Color the ring where each clay shape ends up, circle the thing that floats, then draw your own clay boat in the big tank.' },
       'G2-383': { title: 'Sink or Float Experiment: True or False, Why Things Float', instruction: 'Read each sentence and circle true or false.' },
-      'K-384': { title: 'Draw What Floats and Sinks: A Sink or Float Experiment', instruction: 'Draw two things that float on the water and two things that sink to the bottom.' },
+      'K-384': { title: 'Draw What Floats and Sinks: A Sink or Float Experiment', instruction: 'Draw two things that float in the dashed boxes on the water and two that sink in the dashed boxes on the bottom.' },
       'G3-400': { title: 'Sink or Float Investigation: My Lab Report', instruction: 'Choose a question, write what you think, test it, then draw what happened and write what you learned.' },
     },
   },

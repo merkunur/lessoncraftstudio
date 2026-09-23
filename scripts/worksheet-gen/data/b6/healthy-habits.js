@@ -62,19 +62,22 @@ const HEALTHY_HABITS = {
       'brush-teeth': ['brush', 'brushing', 'teeth', 'tooth', 'toothpaste'],
       sleep: ['sleep', 'bed', 'night'],
       'move-body': ['move', 'run', 'play', 'sport'],
-      'sun-protect': ['sun', 'hat', 'cream'],
+      'sun-protect': ['sun', 'hat', 'cream', 'skin'],
       'drink-water': ['drink', 'water', 'glass'],
       'blow-nose': ['blow', 'tissue'],
       'comb-hair': ['comb', 'hair'],
     },
     reasons: {
-      'wash-hands': 'It takes away the germs we picked up.',
-      'brush-teeth': 'It keeps holes away and our smile clean.',
+      // FIX ROUND 1 (native panels auditing the EN source, 2026-09-23): no reason names its habit's body part or
+      // tool ("nose", "skin" were), the wash-hands reason no longer fits brushing, and "keeps holes away" (cavities)
+      // is gone. Each is pinned to the one habit it fits in qa/verify-b6-healthy-habits.js REASON_READ.
+      'wash-hands': 'It clears away the germs from all the things we touched.',
+      'brush-teeth': 'It keeps our smile clean and bright.',
       sleep: 'Our body and brain rest and get ready for a new day.',
-      'move-body': 'It makes our heart and muscles strong.',
-      'sun-protect': 'Our skin does not get burnt.',
+      'move-body': 'It makes us fit, fast and strong.',
+      'sun-protect': 'We do not get burnt on a hot, sunny day.',
       'drink-water': 'Our body needs it to work well.',
-      'blow-nose': 'We can breathe through our nose again.',
+      'blow-nose': 'We can breathe easily again.',
     },
     kaiOrder: false,
     coughPhrase: 'into your elbow',
@@ -90,7 +93,17 @@ const COMMON = {
    * The cue parts that NAME a habit on the drawing (verify() derives the pose from the parts it can SEE,
    * never from a stamp): a plaque showing these parts, and no other habit's cue, is that habit.
    */
-  CUE_OF: { 'wash-hands': ['tap', 'water', 'basin'], 'brush-teeth': ['scrub'], sleep: ['moon', 'stars', 'blanket'], 'comb-hair': ['tufts'], 'blow-nose': ['burst'], 'sun-protect': ['sun'] },
+  CUE_OF: { 'wash-hands': ['tap', 'water', 'basin'], 'brush-teeth': ['scrub', 'foam'], sleep: ['moon', 'stars', 'pajamas'], 'comb-hair': ['tufts'], 'blow-nose': ['burst', 'pinch'], 'sun-protect': ['sun'] },
+  /** FIX ROUND 1: parts that draw the UNHEALTHY variant of a habit (F3's other twins) — never on a base plaque */
+  UNHEALTHY_PARTS: ['spray', 'tissue', 'cup-shared'],
+  /**
+   * FIX ROUND 1: the body part / tool a reason must NEVER name, per habit, as image-vocabulary keys (the validator
+   * reads each key's singular + plural in the locale, so the ban exists in all 11 without new bank keys). The EN-only
+   * words the vocabulary lacks (skin) live in labelStems.
+   */
+  REASON_BAN_KEYS: { 'wash-hands': ['hand', 'finger', 'sink', 'faucet', 'towel'], 'brush-teeth': ['tooth', 'mouth', 'lip', 'tongue', 'toothbrush', 'toothpaste'],
+    sleep: ['bed', 'pillow', 'blanket', 'eye'], 'move-body': ['leg'], 'sun-protect': ['hat', 'sunscreen'], 'drink-water': ['glass', 'cup', 'mouth'],
+    'blow-nose': ['nose', 'tissue'], 'comb-hair': ['comb', 'hair'] },
   /** the parts that NAME a tool on the drawing (the same rule for the shelf) */
   GLYPH_PARTS: { soap: ['dish', 'bar'], toothbrush: ['brush-handle', 'brush-head', 'bristles'], bed: ['frame', 'mattress', 'pillow', 'blanket'], comb: ['spine', 'teeth'], 'tissue-box': ['puff', 'box'], hat: ['brim', 'crown'] },
   /** a mark a tool may NEVER carry (the shared-mark rule: bubbles on the soap pull the brushing child's line) */

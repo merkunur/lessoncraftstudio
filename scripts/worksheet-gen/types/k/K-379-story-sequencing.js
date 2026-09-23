@@ -127,6 +127,7 @@ function storyPool(block, loc, subKey) {
  * config (answer / show / sentences …), never on the level index.
  */
 const SKY = (s) => (s.setKind === 'pavement' ? '#F5E9D2' : '#FFFFFF');
+const MARKERS = ['dot', 'triangle'];   // F1: strip k and story line k carry the same teal marker (fr panel, fix round 1)
 const TRAY_PERMS = ['021', '102', '120', '201'];   // F2 correct-choice slots over the three blocks: never 012 / 210
 function facePanel(s, rank, w, vh, extra = {}) {
   const r = SP.storyPanel({ story: s, rank, w, vh, frame: false, uid: extra.uid || '' });
@@ -172,10 +173,10 @@ const FACE_BUILD = {
     const perms = seam.plan ? seam.plan.perms : lawPerms(3, rng, 2);
     const lines = stories.map((s, i) => C6.ssLine({
       items: [0, 1, 2].map((k) => ({ w: d.frame, html: C6.ssGlueFrame({ w: d.frame, minH: d.frameH, k }), under: C6.ssWordTag({ text: words[k], k }) })),
-      gap: d.gap, minH: d.frameH + 12 + 36, grow: d.grow, stamps: { story: s.id, line: i },
+      gap: d.gap, minH: d.frameH + 12 + 36, grow: d.grow, stamps: { story: s.id, line: i, marker: MARKERS[i] }, marker: MARKERS[i],
     }));
     const strips = stories.map((s, i) => C6.ssCutStrip({
-      story: s.id, cellW: d.tile + 4, cellH: d.tile * 0.75 + 4,
+      story: s.id, marker: MARKERS[i], cellW: d.tile + 4, cellH: d.tile * 0.75 + 4,
       tiles: perms[i].map((seq) => ({ seq, rank: s.sub3[seq - 1], svg: SP.storyPanel({ story: s, rank: s.sub3[seq - 1], w: d.tile, frame: false }).svg })),
     }));
     const bodyHtml = faceRoot('first-next-last-cut', lines.join('') + `<div data-ss-block data-lcs-strips style="display:flex;flex-direction:column;gap:10px;flex:0 0 auto">${strips.join('')}</div>`,
@@ -339,6 +340,15 @@ async function faceVerify(page, mode) {
         perms.push(seqs.join(''));
       });
       if (perms.length === 2 && perms[0] === perms[1]) fails.push(`both strips are scrambled ${perms[0]}`);
+      // the pairing marker: strip i and line i show the SAME drawn shape; the two stories' shapes differ
+      const mk = strips.map((st, i) => {
+        const a = st.querySelector('[data-lcs-marker]'), b = lines[i] && lines[i].querySelector('[data-lcs-line-marker] [data-lcs-marker]');
+        const shape = (el) => (el ? (el.querySelector('circle') ? 'dot' : el.querySelector('polygon') ? 'triangle' : '?') : null);
+        if (!a || !b) fails.push(`strip ${i} / line ${i}: a pairing marker is missing`);
+        else if (shape(a) !== shape(b)) fails.push(`strip ${i} shows a ${shape(a)} but its line shows a ${shape(b)} (the pairing marker disagrees)`);
+        return shape(a);
+      });
+      if (mk.length === 2 && mk[0] && mk[0] === mk[1]) fails.push(`both stories carry the same pairing marker ${mk[0]}`);
       return fails;
     }
     if (mode === 'what-happens-next') {

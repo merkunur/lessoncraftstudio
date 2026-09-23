@@ -2,7 +2,7 @@
 /**
  * gen-b6-landings.js <locale> <prose.json> [--dry-run]
  *
- * Composes the nt5-F landing entries (10 base types + 50 variation faces) for
+ * Composes the nt5-F landing entries (5 base types + 25 variation faces) for
  * one locale from a native panel's prose bank and merges them into
  * frontend/content/seo-landing/<locale>.json. A clone of gen-b2var-landings.js
  * (same validation, same idempotent merge by slug) with the batch-3 differences (nt5-F = batch 5, same shape as nt10-D):
@@ -46,37 +46,22 @@ const ANSWER_KEY_CLAIM = /with answers?|answer keys?|mit l\u00f6sung(?:en)?|con 
 freeClaim.selfTest();
 
 /**
- * Per-id CCSS code (the JSON-LD `educationalAlignment.targetName`, kept as the
- * machine anchor in every locale per §20.10 / §22.3 R3; the prose names the
- * national framework), or null for a readiness face carrying no standard.
- * Transcribed from each nt5-F design file's §1 "CCSS en (honest)" row, checked
- * against its §3 face entries and §6 SEO table (the primary code where a face
- * lists two). The three science families (plants, animal-life-cycles,
- * earth-and-space) and the three social-studies-like ones (road-safety, family,
- * maps) carry NO CCSS on any face: NGSS / C3 codes are not CCSS, so they are
- * named in en PROSE only, never in the JSON-LD (as nt10-D did).
+ * Per-id CCSS code (JSON-LD `educationalAlignment.targetName`, the machine anchor in every
+ * locale per §20.10), or null for a face with no honest standard. Transcribed from each nt5-F
+ * final §1 "CCSS (en, honest)" row: only story-sequencing carries CCSS; health, habitats,
+ * sink-or-float and cursive name NHES / NGSS / state statutes in en PROSE only.
  */
 const STANDARD = {
-  // 2d-shapes (K-368 §1: base K.G.A.2 · F1 1.G.A.1 · F2 K.G.A.1 · F3 K.G.A.2 (G1 page, no G1 code) · F4 1.G.A.1 · F5 K.G.B.5)
-  'K-368': 'K.G.A.2', 'G1-381': '1.G.A.1', 'K-371': 'K.G.A.1', 'G1-382': 'K.G.A.2', 'G1-383': '1.G.A.1', 'K-372': 'K.G.B.5',
-  // road-safety (K-369 §1: no CCSS / NGSS road-safety standard — all six null)
-  'K-369': null, 'K-373': null, 'K-374': null, 'G1-384': null, 'G2-360': null, 'G2-361': null,
-  // family (K-370 §1: social-studies readiness, no CCSS — all six null)
-  'K-370': null, 'G1-385': null, 'K-375': null, 'G1-386': null, 'G2-362': null, 'G1-387': null,
-  // plants (G1-376 §1: science, NONE on any face; NGSS 1-LS1-1 / K-LS1-1 / 3-LS1-1 / 4-LS1-1 in en PROSE only)
-  'G1-376': null, 'K-376': null, 'G1-388': null, 'G2-363': null, 'G2-364': null, 'G3-392': null,
-  // animal-life-cycles (G1-377 §1: science, NONE on any face; NGSS 3-LS1-1 (+ 1-LS3-1 on F3) in en PROSE only)
-  'G1-377': null, 'G1-389': null, 'G2-365': null, 'G2-366': null, 'G3-393': null, 'G1-390': null,
-  // earth-and-space (G1-378 §1: science, NONE on any face; NGSS 1-ESS1-1 / 5-ESS1-2 in en PROSE only)
-  'G1-378': null, 'G1-391': null, 'G2-367': null, 'G2-368': null, 'G3-394': null, 'G3-395': null,
-  // maps (G1-379 §1: NONE; C3 D2.Geo.1.K-2 in en PROSE only on base / F1 / F5)
-  'G1-379': null, 'K-377': null, 'G2-369': null, 'G2-370': null, 'G3-396': null, 'G2-371': null,
-  // digraphs (G1-380 §1: base / F2 / F3 / F4 RF.1.3.a · F1 (K) readiness · F5 (G2) RF.1.3.a as grade-1 review)
-  'G1-380': 'RF.1.3.a', 'K-378': null, 'G1-392': 'RF.1.3.a', 'G1-393': 'RF.1.3.a', 'G1-394': 'RF.1.3.a', 'G2-372': 'RF.1.3.a',
-  // synonyms (G2-358 §1: base L.2.5 · F1 readiness · F2 L.2.5 · F3 L.1.5.d · F4 L.2.5.b · F5 L.3.5)
-  'G2-358': 'L.2.5', 'G1-395': null, 'G2-373': 'L.2.5', 'G1-396': 'L.1.5.d', 'G2-374': 'L.2.5.b', 'G3-397': 'L.3.5',
-  // word-parts (G2-359 §1: base L.2.4.c · F1 readiness (L.1.4.c is inflection) · F2 L.2.4.c · F3 L.2.4.b · F4 L.3.4.b · F5 L.3.4.c)
-  'G2-359': 'L.2.4.c', 'G1-397': null, 'G2-375': 'L.2.4.c', 'G2-376': 'L.2.4.b', 'G3-398': 'L.3.4.b', 'G3-399': 'L.3.4.c',
+  // story-sequencing (K-379 §1: base RL.K.2 · F1 W.K.3 · F2 RL.1.7 · F3 W.1.3 · F4 RL.1.7 · F5 W.2.3)
+  'K-379': 'RL.K.2', 'K-381': 'W.K.3', 'G1-400': 'RL.1.7', 'G1-401': 'W.1.3', 'G1-402': 'RL.1.7', 'G2-378': 'W.2.3',
+  // healthy-habits (K-380 §1: no CCSS / NGSS hygiene standard; NHES named in en PROSE only)
+  'K-380': null, 'K-382': null, 'G1-403': null, 'G1-404': null, 'G2-379': null, 'G1-405': null,
+  // habitats (G1-398 §1: science, NONE on any face; NGSS K-ESS3-1 / 2-LS4-1 / 3-LS4-3 in en PROSE only)
+  'G1-398': null, 'K-383': null, 'G1-406': null, 'G2-380': null, 'G1-407': null, 'G2-381': null,
+  // sink-or-float (G1-399 §1: science, NONE; NGSS practice + 2-PS1-1 readiness in en PROSE only)
+  'G1-399': null, 'G1-408': null, 'G2-382': null, 'G2-383': null, 'K-384': null, 'G3-400': null,
+  // cursive-writing (G2-377 §1: CCSS 2010 omits cursive; state statutes in en PROSE only)
+  'G2-377': null, 'G2-384': null, 'G2-385': null, 'G2-386': null, 'G2-387': null, 'G3-401': null,
 };
 
 // per-locale coordinate.level keys — must match the keys already in each corpus
@@ -103,7 +88,7 @@ const DRY = flag === '--dry-run';
 if (!locale || !prosePath) fail('usage: gen-b6-landings.js <locale> <prose.json> [--dry-run]');
 if (!LEVEL_KEYS[locale]) fail('no LEVEL_KEYS for ' + locale);
 
-// face table, derived from the specs themselves: 10 bases + 50 faces
+// face table, derived from the specs themselves: 5 bases + 25 faces
 const TYPES = {};
 const addType = (id, isBase) => {
   const t = loadType(id);
@@ -117,7 +102,7 @@ const addType = (id, isBase) => {
 };
 for (const [baseId] of FAMILIES) addType(baseId, true);
 for (const f of ALLOC.faces) addType(f.id, false);
-if (Object.keys(TYPES).length !== 60) fail('face table has ' + Object.keys(TYPES).length + ' ids, expected 60');
+if (Object.keys(TYPES).length !== 30) fail('face table has ' + Object.keys(TYPES).length + ' ids, expected 30');
 for (const id of Object.keys(STANDARD)) if (!TYPES[id]) fail('STANDARD names an id that is not a b6 type: ' + id);
 // a face's mode must be unique within its family — coordKey is type|mode|theme
 {

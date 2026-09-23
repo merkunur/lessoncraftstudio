@@ -61,7 +61,11 @@ function parse(svg) {
   const hollow = hTag ? { cx: num(hTag, 'cx'), cy: num(hTag, 'cy'), rx: num(hTag, 'rx'), ry: num(hTag, 'ry') } : null;
   const inHollow = (x, y) => !!hollow && ((x - hollow.cx) / hollow.rx) ** 2 + ((y - hollow.cy) / hollow.ry) ** 2 <= 1;
   const inClay = (x, y) => inBody(x, y) && !inHollow(x, y);
-  let area = 0; for (let x = 0; x < 160; x += 0.5) for (let y = 0; y < 120; y += 0.5) if (inClay(x + 0.25, y + 0.25)) area += 0.25;
+  // the boat's mast + sail are the SAME clay (fix round 1): their area counts
+  const partPolys = tagsOf(svg, 'path').filter((t) => /data-lcs-clay-part/.test(t)).map((t) => poly(attr(t, 'd')));
+  const partRects = tagsOf(svg, 'rect').filter((t) => /data-lcs-clay-part/.test(t)).map((t) => ({ x: num(t, 'x'), y: num(t, 'y'), w: num(t, 'width'), h: num(t, 'height') }));
+  const inPart = (x, y) => partPolys.some((P) => inPoly(P, x, y)) || partRects.some((r) => x >= r.x && x <= r.x + r.w && y >= r.y && y <= r.y + r.h);
+  let area = 0; for (let x = 0; x < 160; x += 0.5) for (let y = 0; y < 120; y += 0.5) if (inClay(x + 0.25, y + 0.25) || inPart(x + 0.25, y + 0.25)) area += 0.25;
   const dimples = tagsOf(svg, 'path').filter((t) => /data-lcs-dimple/.test(t)).map((t) => poly(attr(t, 'd')));
   const table = tagsOf(svg, 'line').find((t) => /data-lcs-table/.test(t));
   return { body, inClay, inHollow, hollow, hTag, area, bottom, dimples, table };
@@ -88,7 +92,10 @@ function checkForm(svg, form, w, ballArea) {
   if (form === 'boat') {
     E(!!p.hollow && attr(p.hTag, 'fill') === color.cream, 'boat: no cream hollow');
     if (p.hollow) {
-      E(p.hollow.cy - p.hollow.ry < 70, 'boat: the hollow is not open above the rim');
+      // the hull's top edge (the deck) at the hollow's centre x, measured on the emitted hull polygon
+      const H = poly(attr(p.body, 'd')); let deckY = Infinity;
+      for (let k = 0; k < H.length; k++) { const [x1, y1] = H[k], [x2, y2] = H[(k + 1) % H.length]; if ((x1 - p.hollow.cx) * (x2 - p.hollow.cx) <= 0 && x1 !== x2) deckY = Math.min(deckY, y1 + (y2 - y1) * (p.hollow.cx - x1) / (x2 - x1)); }
+      E(p.hollow.cy - p.hollow.ry < deckY, `boat: the hollow is not open above the rim (hollow top ${p.hollow.cy - p.hollow.ry} >= deck ${deckY.toFixed(1)})`);
       // a lid = any stroked line / path (other than the hollow rim itself) with a point inside the hollow
       const others = [...tagsOf(svg, 'line').filter((t) => !/data-lcs-table/.test(t)), ...tagsOf(svg, 'path').filter((t) => !/data-lcs-clay-body|data-lcs-dimple/.test(t))];
       for (const t of others) {
@@ -122,10 +129,10 @@ function main() {
   const boat = C.clayForm({ form: 'boat', w: 120 }).svg;
   const ctl = checkForm(boat, 'boat', 120, areas.ball); ok(!ctl.f.length, 'control boat: ' + ctl.f.join(' | '));
   judge('PC1 boat with half the clay', checkForm(boat.replace(C.BOAT_HULL, 'M 18 70 L 142 70 Q 134 88 80 90 Q 26 88 18 70 Z'), 'boat', 120, areas.ball).f, /clay area/);
-  judge('PC2 boat with a lid', checkForm(boat.replace('<g data-lcs-dimples', '<line x1="24" y1="72" x2="136" y2="72" stroke="#146B5E" stroke-width="4"/><g data-lcs-dimples'), 'boat', 120, areas.ball).f, /lid segment/);
+  judge('PC2 boat with a lid', checkForm(boat.replace('<g data-lcs-dimples', `<line x1="${C.HOLLOW.cx - C.HOLLOW.rx}" y1="${C.HOLLOW.cy}" x2="${C.HOLLOW.cx + C.HOLLOW.rx}" y2="${C.HOLLOW.cy}" stroke="#146B5E" stroke-width="4"/><g data-lcs-dimples`), 'boat', 120, areas.ball).f, /lid segment/);
   const ball = C.clayForm({ form: 'ball', w: 120 }).svg;
   judge('PC3 ball in another fill', checkForm(ball.replace(color.coralSoft, color.creamDeep), 'ball', 120, areas.ball).f, /not the same clay/);
-  judge('PC4 dimple in the hollow', checkForm(boat.replace(/M 62 90 Q 66 93.5 70 90/, 'M 62 72 Q 66 75.5 70 72'), 'boat', 120, areas.ball).f, /dimple 1 leaves the clay/);
+  judge('PC4 dimple in the hollow', checkForm(boat.replace(/(<path d=")[^"]*("[^>]*data-lcs-dimple)/, `$1M ${C.HOLLOW.cx - 4} ${C.HOLLOW.cy} Q ${C.HOLLOW.cx} ${C.HOLLOW.cy + 2} ${C.HOLLOW.cx + 4} ${C.HOLLOW.cy}$2`), 'boat', 120, areas.ball).f, /dimple 1 leaves the clay/);
 
   console.log(`clay-form areas (u^2): lump ${areas.lump} · ball ${areas.ball} · boat clay ${areas.boat} (${((areas.boat / areas.ball - 1) * 100).toFixed(1)} %) · lump ${((areas.lump / areas.ball - 1) * 100).toFixed(1)} %`);
   console.log('poison:\n' + log.join('\n'));

@@ -221,6 +221,12 @@ function sideTells(s) {
   return f;
 }
 
+/** The renderer's French typography (page/shell.js) turns a space before : ; ? ! » into U+00A0 / U+202F and may add
+ *  one; a page-vs-bank text comparison normalises both sides (fr panel, fix round 1). A real mismatch still differs. */
+function typoNorm(s) {
+  return String(s == null ? '' : s).normalize('NFC').replace(/[\u00A0\u202F]/g, ' ').replace(/\s+([:;?!»])/g, '$1').replace(/«\s+/g, '«').replace(/\s+/g, ' ').trim();
+}
+
 function literal(obj, key, what, loc) {
   const v = obj && obj[key];
   if (typeof v !== 'string' || !v.trim()) throw new Error(`${ID}: ${loc} ${what}.${key} is missing (refuse)`);
@@ -244,12 +250,12 @@ const TYPE = {
   i18n: {
     en: {
       title: 'Animal Habitats: Match the Animal',
-      instruction: 'Look at the habitats. Under each animal, write the letter of the habitat where it lives.',
+      instruction: 'Under each animal, write the letter of the habitat where it lives.',
     },
   },
 
   // exposed for the gate
-  pageOracle, drawerTells, homesTells, oddPosTells, oddRowOracle, adaptOracle, adaptOrderTells, sideTells, LETTERS7,
+  pageOracle, drawerTells, typoNorm, homesTells, oddPosTells, oddRowOracle, adaptOracle, adaptOrderTells, sideTells, LETTERS7,
 
   build({ difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
@@ -471,18 +477,25 @@ const TYPE = {
     }
     // report (open)
     const set = this._setOf(bankLoc, loc);
-    const tileId = d.forceHabitat || set[0];
+    // fix round 1 (de panel): only a word pair whose answer is TRUE for the habitat is offered, and the report
+    // habitat is the first set member with at least one such pair (a forest is neither hot / cold nor wet / dry)
+    const truthOf = (t) => HABITATS.CHIP_TRUTH[t] || {};
+    const tileId = d.forceHabitat || set.find((t) => Object.keys(truthOf(t)).length);
+    if (!tileId) throw new Error(`${ID}: ${loc} no set member has a true word pair for the report (refuse)`);
     const tileLabel = bankLoc && bankLoc.tileLabel;
     const rep = bankLoc && bankLoc.report;
     if (!tileLabel || !rep) throw new Error(`${ID}: ${loc} bank has no tileLabel / report block (refuse)`);
     const plaque = literal(tileLabel, tileId === 'polar' ? 'polar' : tileId, 'tileLabel', loc);
     const W = { animals: literal(rep, 'animals', 'report', loc), plant: literal(rep, 'plant', 'report', loc) };
-    const chips = {}; for (const k of ['hot', 'cold', 'wet', 'dry']) chips[k] = literal(rep, k, 'report', loc);
+    const truth = d.forceTruth || truthOf(tileId);
+    const pairs = [];
+    if (truth.temp) pairs.push([['hot', literal(rep, 'hot', 'report', loc)], ['cold', literal(rep, 'cold', 'report', loc)], truth.temp]);
+    if (truth.wet) pairs.push([['wet', literal(rep, 'wet', 'report', loc)], ['dry', literal(rep, 'dry', 'report', loc)], truth.wet]);
     const tile = HT.habitatTile({ id: tileId, w: 627 });
     const lane = (n) => rulingBlock({ rows: n, w: 639, h: 44, glyphH: 24, gap: 8 });
-    let inner = C6.hbReport({ tile, habitat: tileId, plaque, labels: W, lanesAnimals: lane(d.animalRows || 3), lanePlant: lane(d.plantRows || 1), chips });
+    let inner = C6.hbReport({ tile, habitat: tileId, plaque, labels: W, lanesAnimals: lane(d.animalRows || 3), lanePlant: lane(d.plantRows || 1), pairs });
     if (d.forceReportImg) inner = inner.replace('</svg></div>', `</svg><img data-lcs-pic src="${pic('whale')}" style="position:absolute;left:120px;top:60px;width:80px"></div>`);   // poison PR10
-    return { bodyHtml: root(`data-lcs-open`, inner), meta: { layout: L, habitat: tileId } };
+    return { bodyHtml: root(`data-lcs-open`, inner), meta: { layout: L, habitat: tileId, pairs: pairs.map((p) => p[2]) } };
   },
 
   /** F1: the left order (a shuffle) and the right column's homes (a derangement, not reversed, never a rotation). */
@@ -545,7 +558,7 @@ const TYPE = {
   /** F3: `items` claims each true of EXACTLY ONE bank animal; bank - items decoys true of none. */
   _composeAdapt(d, bankLoc, loc, rng) {
     const refuse = bankLoc.refuseClaims || [];
-    const claims = HABITATS.ADAPT.filter((c) => !refuse.includes(c.key) && bankLoc.adapt && typeof bankLoc.adapt[c.key] === 'string');
+    const claims = HABITATS.ADAPT.filter((c) => !refuse.includes(c.key) && (c.answers || c.trueOf).length && bankLoc.adapt && typeof bankLoc.adapt[c.key] === 'string');
     if (claims.length < d.items) throw new Error(`${ID}: ${loc} has ${claims.length} adaptation claims < ${d.items} (refuse)`);
     const allowed = HABITATS.ANIMALS.filter((a) => (!a.faces || a.faces.includes('adapt')) && !(bankLoc.rainforestRegion && a.group === 'ape')).map((a) => a.key);
     const nDecoy = d.bank - d.items;
@@ -653,7 +666,7 @@ const TYPE = {
         out.tile = (root.querySelector('svg[data-lcs-prim="habitat-tile"]') || { dataset: {} }).dataset.lcsHabitat || null;
         out.imgs = root.querySelectorAll('img').length;
         out.lanes = [...root.querySelectorAll('[data-lcs-ruling-row]')].length;
-        out.pills = [...root.querySelectorAll('[data-lcs-chip]')].map((p) => [p.dataset.lcsChip, R(p).height, p.textContent]);
+        out.pills = [...root.querySelectorAll('[data-lcs-chip]')].map((p) => [p.dataset.lcsChip, R(p).height, p.textContent, p.dataset.lcsTrue || '']);
       }
       return out;
     }, L);
@@ -685,7 +698,7 @@ const TYPE = {
         if (r.tile !== tile || r.tileImg) f.push(`row ${r.habitat}: the window is not the habitat-tile primitive (tile is not the primitive)`);
         if (r.disc) f.push(`row ${r.habitat}: a letter disc on the odd face`);
         if (r.plaqueOver) f.push(`row ${r.habitat}: plaque overflow`);
-        if (b && r.plaque !== b.tileLabel[r.habitat]) f.push(`row ${r.habitat}: the plaque "${r.plaque}" ≠ tileLabel.${r.habitat}`);
+        if (b && typoNorm(r.plaque) !== typoNorm(b.tileLabel[r.habitat])) f.push(`row ${r.habitat}: the plaque "${r.plaque}" ≠ tileLabel.${r.habitat}`);
         const odd = r.cards.filter((c) => c.odd);
         if (odd.length !== 1) { f.push(`row ${r.habitat}: ${odd.length} strangers (≠ 1)`); continue; }
         pos.push(odd[0].pos);
@@ -709,7 +722,7 @@ const TYPE = {
         if (r.box !== r.answer) f.push(`row ${r.claim}: the box stamps "${r.box}" ≠ ${r.answer}`);
         if (r.lines > 3) f.push(`row ${r.claim}: the sentence runs to ${r.lines} lines (> 3)`);
         if (Math.abs(r.boxW - 56) > 0.6 || Math.abs(r.boxH - 48) > 0.6) f.push(`row ${r.claim}: box ${r.boxW.toFixed(1)} x ${r.boxH.toFixed(1)} ≠ 56 x 48`);
-        if (b && r.text !== b.adapt[r.claim]) f.push(`row ${r.claim}: prints "${r.text}" ≠ adapt.${r.claim}`);
+        if (b && typoNorm(r.text) !== typoNorm(b.adapt[r.claim])) f.push(`row ${r.claim}: prints "${r.text}" ≠ adapt.${r.claim}`);
       }
       for (const k of got.decoys) { if (!bank.includes(k)) f.push(`decoy ${k} is not in the bank`); else { const i = bank.indexOf(k); if (i === 0 || i === bank.length - 1) f.push(`decoy ${k} sits at letter ${LETTERS7[i]} (first / last)`); } }
       for (const x of adaptOrderTells(got.rows.map((r) => LETTERS7.indexOf(r.answer)))) f.push('row order: ' + x);
@@ -750,7 +763,17 @@ const TYPE = {
       if (got.imgs) f.push(`${got.imgs} picture(s) on the open page (open page answers itself)`);
       if (got.lanes < 4) f.push(`${got.lanes} writing lanes (< 4)`);
       for (const [k, h] of got.pills) if (h < 47.5) f.push(`pill ${k} ${h.toFixed(1)} px < 48`);
-      if (b) for (const [k, , t] of got.pills) if (t !== b.report[k]) f.push(`pill ${k} prints "${t}" ≠ report.${k}`);
+      if (b) for (const [k, , t] of got.pills) if (typoNorm(t) !== typoNorm(b.report[k])) f.push(`pill ${k} prints "${t}" ≠ report.${k}`);
+      // every offered pair has a TRUE answer for the habitat (CHIP_TRUTH), stamped on the pair
+      const truth = HABITATS.CHIP_TRUTH[got.habitat] || {};
+      const offered = new Set(got.pills.map((p) => p[0]));
+      for (const [pair, dim] of [[['hot', 'cold'], 'temp'], [['wet', 'dry'], 'wet']]) {
+        const on = pair.filter((k) => offered.has(k));
+        if (!on.length) continue;
+        if (on.length !== 2) f.push(`pill pair ${pair} is incomplete`);
+        if (!truth[dim]) f.push(`the ${pair.join(' / ')} pair has no true answer for ${got.habitat} (a chip with no true answer)`);
+      }
+      if (!offered.size) f.push('no word pair on the report');
     }
     return f;
   },
@@ -854,7 +877,7 @@ const TYPE = {
         const re = new RegExp(`(?<!\\p{L})${n.normalize('NFC').toLocaleLowerCase(got.loc).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?!\\p{L})`, 'u');
         if (re.test(body)) fails.push(`the body prints the animal name "${n}" (${k}) (name in body)`);
       }
-      for (const [h, t] of got.plaqueTexts) { const lk = h === 'polar-antarctic' ? 'polar' : h; if (b.tileLabel[lk] !== t) fails.push(`plaque ${h} prints "${t}" ≠ tileLabel.${lk} "${b.tileLabel[lk]}"`); }
+      for (const [h, t] of got.plaqueTexts) { const lk = h === 'polar-antarctic' ? 'polar' : h; if (typoNorm(b.tileLabel[lk]) !== typoNorm(t)) fails.push(`plaque ${h} prints "${t}" ≠ tileLabel.${lk} "${b.tileLabel[lk]}"`); }
     }
     return fails;
   },

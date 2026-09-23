@@ -202,3 +202,69 @@ None at the design level; every contingency is per item. A face **throws** for a
 - **F4 tag wrap (measured):** two-word tags wrap to two lines inside the 159 px tag pill at 22 px (de "schwimmt oben" and "geht unter", it "va a fondo"; pill 48 px high). This is legal: `verify()` passes, nothing clips. A panel preferring one line should pick a one-word literal.
 - **F1 has no words on the body;** the only language is the instruction. Panels must keep "circle" out of any other face they write (rule 8), and "colour" out of F1 and F3.
 - **F5's cargo question says "sinks";** that is allowed, because it is a question. `verify()` bans the float and sink words only outside the question texts.
+
+## Fix round 1 (native panels audited the EN source, 2026-09-23)
+The lead separately changed the G1-408 EN title to **"Heavy or Light? A Sink or Float Scale Test"** (in the bank); `gen-b6var-specs` was re-run.
+
+1. **The pink key is excluded everywhere.**
+   - Why (fi panel): `around the house/key` is drawn PINK and reads as a plastic toy key that might float.
+   - The row is gone from CLAIMS, it is now in EXCLUDED, and `labels.key` was dropped from the en block. New poison **P19** (the key put back into CLAIMS) is KILLED as an EXCLUDED picture.
+   - The design's P5 used the key, so it now puts the base-only scissors into a PAIR (KILLED).
+   - Rebalance: `tools/bolt` is marked `small: true` (a bolt is a small metal sinker). The base pool is now **11 float / 7 sink**; small sinkers are nail + bolt, so d3's 2 small sinkers can still be drawn.
+   - 400-seed float share per row: 52.0 / 48.8 / 48.8 / 47.5 / 54.0 / 49.0 %. Shipped d2 is bolt, scissors, ball, pliers, pumpkin, toy boat (SSFSFF).
+2. **Every instruction names the apparatus the child acts on.**
+   - G2-382: *"Color the ring where each clay shape ends up, circle the thing that floats, then draw your own clay boat in the big tank."*
+   - K-384: *"Draw two things that float in the dashed boxes on the water and two that sink in the dashed boxes on the bottom."*
+   - Rule 11 now requires the bank literals (`apparatus.ring` + `apparatus.tank` for G1-399 and G2-382, `apparatus.spot` for K-384) inside those instructions. **`apparatus.spot` is a NEW bank key every panel must add** (en: "dashed box").
+   - The render apparatus check also maps "dashed box" to the spots and "big tank" to the draw tank.
+   - Poisons, all KILLED: PN1 (G2-382 without "ring"), PN2 (K-384 without "dashed box"), PN4 (a block without `apparatus.spot`).
+3. **G3-400: the starter no longer repeats its heading.** The starter is now **"Now I know that"** under the heading "I learned". New rule: `report.starter` and `report.learned` must not contain each other. Poison PN3 KILLED.
+4. **One sentence per instruction.** The existing rule 8 check covers every locale block. New poisons, both KILLED: PS1 (en G3-400 in two sentences) and PS2 (a de-style block's K-384 in two sentences). All EN instructions are one sentence.
+5. **French typography.**
+   - `page/shell.js` adds U+00A0 before : ; ? ! » and U+2060 inside -t-il at render time.
+   - Every page-vs-bank text comparison, in both the base and the face `verify()`, now normalises U+00A0 / U+202F / U+2060 / runs of whitespace on BOTH sides.
+   - Control: an fr block rendered through the fr shell (the page carries U+00A0 before ?) verifies clean.
+   - Poison **PT-fr**: a real question mismatch under French typography is still KILLED.
+6. **The clay boat no longer reads as a bowl.**
+   - New hull: a flat deck line, a raked, upswept pointed bow, a flat keel on the table, and a transom stern.
+   - Added a clay mast + triangular sail. They are the same clay (coralSoft fill, teal outline), and the clay gate now counts their area.
+   - Clay areas: boat **3 738 u² (+2.9 %)**, lump −4.7 %, ball 3 634.
+   - The clay gate's rim check is now measured on the emitted hull. Poisons PC2 (a lid) and PC4 (a dimple moved into the hollow) now use the exported HOLLOW; clay gate 4/4.
+   - Read at 72 and 120 px in colour and greyscale (`out/dev/G1-399-art-clay-{colour,grey}.png`): it reads as a sailboat.
+7. **The G2-382 transfer card now uses the grey steel nail.** The pairing is `['nail', 'ship']`: `tools/nail` gains `use: 'shape'` and `tools/bolt` loses it. The bolt was brass-coloured, so "the same steel" was invisible. The row prints no material claim, and the science holds (a steel nail sinks, a steel ship floats).
+
+**Gate lines:**
+```
+water-tank gate: PASS (500 assertions, 8/8 poisons killed)
+clay-form gate: PASS (140 assertions, 4/4 poisons killed)
+verify-b6-sink-or-float: PASS (247 assertions, 54/54 poisons killed)
+gate-variation-distinct --batch=b6 --diffs=2 --family=sink-or-float: every variation differs from the deck its base publishes and from its siblings
+build-en: 748 types (title lint clean)
+b3-baseline --check --quick: checked build 4000 + enum 301 in 26s: 0 drifted (0 expected), 0 missing → PASS
+```
+**Note:** the base G1-399 output changed on purpose in this round (the key left the pool, so the draws moved). The earlier byte-identity proof covered Phase E only.
+
+**Renders re-read (d2 en):**
+- `out/dev/G1-399-null-d2-en.png` (no key; the bolt is a small sinker)
+- `out/dev/G2-382-null-d2-en.png` + `-grey100.png` (the sailboat, the nail vs the ship, the new instruction)
+- `out/dev/K-384-null-d2-en.png` (the instruction names the dashed boxes)
+- `out/dev/G3-400-null-d2-en.png` ("Now I know that" under "I learned")
+
+**Draft validators** (`node tools/validate-b6-draft.js <loc>` over the 10 drafts present; drafts NOT edited). Every locale fails on sink-or-float for these reasons:
+- **All 10:**
+  - `labels.key: not a CLAIM row` (the key is excluded: drop the label).
+  - `apparatus.{ring,tank,star,spot} missing` (add `apparatus.spot`, the word for the dashed drawing boxes, and make the K-384 instruction use it).
+- **G2-382 instruction does not name the tank word** (it must say where the child draws the boat):
+  - da "balje", de "Becken", fi "astia", fr "aquarium", it "vaschetta", nl "bak", no "vannkar", pt "aquário", sv "kar".
+  - fi and pt must also name their ring word ("ympyrä", "círculo").
+  - es passes this check.
+- **Starter repeats heading:**
+  - da "Jeg lærte, at" / "Jeg lærte"
+  - es "Aprendí que" / "Aprendí"
+  - fi "Opin, että" / "Opin"
+  - it "Ho imparato che" / "Ho imparato"
+  - no "Jeg lærte at" / "Jeg lærte"
+  - pt "Eu aprendi que" / "Eu aprendi"
+  - sv "Jag lärde mig att" / "Jag lärde mig"
+
+**Keys the panels must add or change:** `apparatus.spot`; remove `labels.key`; rewrite `strings.G2-382.instruction` (ring + tank words) and `strings.K-384.instruction` (spot word); change `report.starter` so it does not repeat `report.learned`.

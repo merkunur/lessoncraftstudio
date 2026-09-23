@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
  * gen-b6-waves.js — nt5-F wave files, two per locale:
- *   waves/wave-b6-<loc>.json     the 20 base specs
- *   waves/wave-b6var-<loc>.json  the 100 variation faces
+ *   waves/wave-b6-<loc>.json     the 5 base specs
+ *   waves/wave-b6var-<loc>.json  the 25 variation faces
  *
  *   node tools/gen-b6-waves.js [--locales=en,de,…] [--dry-run]
  *

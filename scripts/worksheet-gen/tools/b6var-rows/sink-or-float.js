@@ -15,7 +15,7 @@ const ROWS = [
     { layout: 'scale', cards: 4, mix: { heavyFloats: 2, lightFloats: 2 }, bigPx: 76, smallPx: 46, balance: [560, 146], drop: 82, beamAt: 0.2, cols: 1, rows: 4, cardW: 639, cardMin: 154, colGap: 15, rowGap: 12 },
     S['G1-408'].title, S['G1-408'].instruction, { gradeBand: 'G1' }],
   ['g2', 'G2-382', 'make-clay-float-change-the-shape', BASE, 2,
-    { layout: 'shape', forms: ['ball', 'boat'], transfer: ['bolt', 'ship'], drawTank: [639, 300], formW: 120, lumpW: 72, tank: [150, 75], cardW: 312, clayH: 196, transferH: 120, rowGap: 12, smallPx: 56, bigPx: 96 },
+    { layout: 'shape', forms: ['ball', 'boat'], transfer: ['nail', 'ship'], drawTank: [639, 300], formW: 120, lumpW: 72, tank: [150, 75], cardW: 312, clayH: 196, transferH: 120, rowGap: 12, smallPx: 56, bigPx: 96 },
     S['G2-382'].title, S['G2-382'].instruction, { gradeBand: 'G2' }],
   ['g2', 'G2-383', 'why-things-float-true-or-false', BASE, 2,
     { layout: 'truth', rows: 6, mix: { T: 3, F: 3 }, shelfPx: 56, shelfH: 88, textPx: 17, rowMin: 80, rowGap: 8 },

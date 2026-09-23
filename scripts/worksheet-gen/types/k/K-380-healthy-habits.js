@@ -413,6 +413,15 @@ function faceVerify(page, mode) {
         if (lines > 2) fails.push(`row ${i + 1}: label "${lab.textContent}" wraps to ${lines} lines (<= 2)`);
         if (lab.scrollWidth > lab.clientWidth + 0.5) fails.push(`row ${i + 1}: label "${lab.textContent}" overflows`);
         if (parseFloat(getComputedStyle(lab).fontSize) < 16) fails.push(`row ${i + 1}: label under 16 px`);
+        // FIX ROUND 1 (fr panel): no line of a wrapped label may END with a short word (<= 3 letters: les / die / og)
+        {
+          const words = [], tn = lab.firstChild;
+          if (tn && tn.nodeType === 3) {
+            const txt = tn.textContent, re = /\S+/g; let m;
+            while ((m = re.exec(txt))) { const rg = document.createRange(); rg.setStart(tn, m.index); rg.setEnd(tn, m.index + m[0].length); words.push({ w: m[0], top: Math.round(rg.getBoundingClientRect().top) }); }
+          }
+          for (let k = 0; k + 1 < words.length; k++) if (words[k + 1].top > words[k].top + 2 && words[k].w.replace(/\P{L}/gu, '').length <= 3) fails.push(`row ${i + 1}: label "${lab.textContent}" leaves the short word "${words[k].w}" at the end of a line`);
+        }
         blocks.push(r);
       });
       heads.forEach((h) => blocks.push(h));
@@ -459,7 +468,7 @@ module.exports = {
   themeAxis: { applicable: false },
   difficulty: {
     1: { layout: 'hooks', habits: COMMON.baseD1, pairs: 4, plaqueW: 150, plaqueMinH: 220, plaqueMaxH: 270, toolPx: 130, fillMin: 0.75, cueMarks: true, toolOrder: 'derangement' },
-    2: { layout: 'hooks', habits: COMMON.baseD2, pairs: 5, plaqueW: 122, plaqueMinH: 190, plaqueMaxH: 236, toolPx: 120, fillMin: 0.75, cueMarks: true, toolOrder: 'derangement' },
+    2: { layout: 'hooks', habits: COMMON.baseD2, pairs: 5, plaqueW: 122, plaqueMinH: 190, plaqueMaxH: 232, toolPx: 124, fillMin: 0.75, cueMarks: true, toolOrder: 'derangement' },
     3: { layout: 'hooks', habits: COMMON.baseD3, pairs: 6, plaqueW: 100, plaqueMinH: 165, plaqueMaxH: 240, toolPx: 98, fillMin: 0.55, cueMarks: false, toolOrder: 'derangement' },
   },
   i18n: {
@@ -561,12 +570,14 @@ module.exports = {
         const g = pics[0];
         if (pl.querySelector('[data-lcs-glyph]')) fails.push(`plaque ${i + 1}: a whole tool glyph is drawn inside the habit (tool leak)`);
         const parts = partsOf(g);
+        // FIX ROUND 1 (3 native panels: the sleep plaque drew the bed): NO plaque may draw any part of any tool
+        // (its own tool included — the tool is inferred from the situation, never copied)
         for (const [tool, tparts] of Object.entries(C.GLYPH_PARTS)) {
-          const own = C.TOOL_OF[g.dataset.lcsPose] === tool;
-          const shared = tparts.filter((p) => parts.has(p) && !(C.CUE_OF[g.dataset.lcsPose] || []).includes(p));
-          if (!own && shared.length >= 1) fails.push(`plaque ${i + 1}: part(s) ${shared.join(',')} of the ${tool} drawn inside the habit`);
-          if (own && tparts.filter((p) => parts.has(p)).length >= 2) fails.push(`plaque ${i + 1}: the ${tool} (its own tool) is drawn inside the habit (tool leak)`);
+          const drawn = tparts.filter((p) => parts.has(p));
+          if (drawn.length) fails.push(`plaque ${i + 1}: part(s) ${drawn.join(',')} of the ${tool} drawn inside the habit (tool leak: the tool is inferred, never copied)`);
         }
+        // FIX ROUND 1 (de panel): no plaque shows the UNHEALTHY variant of a habit (a sneeze spray, a dropped tissue, a shared cup)
+        for (const p of C.UNHEALTHY_PARTS) if (parts.has(p)) fails.push(`plaque ${i + 1}: draws "${p}", the unhealthy variant of a habit`);
         if (!marks) for (const m of C.MARK_PARTS) if (parts.has(m)) fails.push(`plaque ${i + 1}: cue mark "${m}" drawn with cueMarks off`);
         const hits = HABITS.filter((h) => C.CUE_OF[h].some((p) => parts.has(p)));
         let pose = null;
@@ -590,6 +601,13 @@ module.exports = {
         if (gb.top < pb.top - 0.6 || gb.bottom > pb.bottom + 0.6 || gb.left < pb.left - 0.6 || gb.right > pb.right + 0.6) fails.push(`plaque ${i + 1}: the drawing spills out of its plaque`);
         return pose;
       });
+      // ---- every STANDING child is drawn at one height (lead review, fix round 1b: the pajama child was half the
+      // others): head top -> feet bottom, measured on the render, within 10 % of the median of the page
+      {
+        const hs = plaques.map((pl) => { const h = pl.querySelector('[data-lcs-part="head"]'), l = pl.querySelector('[data-lcs-part="legs"]'); if (!h || !l) return null; return l.getBoundingClientRect().bottom - h.getBoundingClientRect().top; }).filter((x) => x != null);
+        const med = hs.slice().sort((a, b) => a - b)[Math.floor(hs.length / 2)];
+        hs.forEach((x, k) => { if (Math.abs(x - med) > 0.1 * med) fails.push(`a standing child is ${x.toFixed(0)} px tall against the page's ${med.toFixed(0)} (more than 10 % apart)`); });
+      }
       // ---- tools: derive each kind from its drawn parts
       const tools = [...root.querySelectorAll('.hh-tool')];
       if (tools.length !== n) fails.push(`${tools.length} tools for ${n} pairs`);
@@ -685,6 +703,6 @@ module.exports = {
         root.querySelectorAll('svg, .hh-plaque, .hh-dot').forEach((el) => { if (el.getBoundingClientRect().bottom > ft + 0.6) fails.push('a drawing reaches into the footer band'); });
       }
       return [...new Set(fails)];
-    }, { CUE_OF: COMMON.CUE_OF, GLYPH_PARTS: COMMON.GLYPH_PARTS, TOOL_OF: COMMON.TOOL_OF, TOOL_FORBIDDEN: COMMON.TOOL_FORBIDDEN, neverTogether: COMMON.neverTogether, MARK_PARTS: require('../../primitives/habit-pictogram.js').MARK_PARTS });
+    }, { CUE_OF: COMMON.CUE_OF, GLYPH_PARTS: COMMON.GLYPH_PARTS, TOOL_OF: COMMON.TOOL_OF, TOOL_FORBIDDEN: COMMON.TOOL_FORBIDDEN, neverTogether: COMMON.neverTogether, UNHEALTHY_PARTS: COMMON.UNHEALTHY_PARTS, MARK_PARTS: require('../../primitives/habit-pictogram.js').MARK_PARTS });
   },
 };

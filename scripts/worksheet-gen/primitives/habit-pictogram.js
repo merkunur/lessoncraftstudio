@@ -128,8 +128,9 @@ function tuftParts() {
 }
 function burstParts() {
   // a small sneeze burst just in front of the NOSE, ABOVE the mouth line (brush-teeth's arcs sit beside the mouth)
-  return part('burst', mark('M71,8 l5,-4') + mark('M72,13 l7,0') + mark('M71,18 l5,4'));
+  return part('burst', el('path', { d: 'M69,12 q2,-3 5,-1 q3,-2 5,1 q2,3 -1,4 q0,3 -4,2 q-3,1 -4,-2 q-2,-1 -1,-4 Z', fill: T.white, stroke: T.ink, 'stroke-width': 1.8, 'stroke-linejoin': 'round' }));
 }
+const star4 = (cx, cy, r) => el('path', { d: `M${cx},${cy - r} L${cx + r * 0.3},${cy - r * 0.3} L${cx + r},${cy} L${cx + r * 0.3},${cy + r * 0.3} L${cx},${cy + r} L${cx - r * 0.3},${cy + r * 0.3} L${cx - r},${cy} L${cx - r * 0.3},${cy - r * 0.3} Z`, fill: T.ink });
 function sleepContext() {
   // lead review 2026-09-23 (the plaque is PORTRAIT): the night sky is drawn tall above the lying child — a big
   // moon and three stars — so the scene fills a portrait plaque instead of a thin strip at its foot
@@ -158,28 +159,37 @@ function bubble(cx, cy, r) { return el('circle', { cx: fmt(cx), cy: fmt(cy), r, 
 const POSE_DEF = {
   'wash-hands': () => tapParts() + body({ near: [[60, 44], [74, 50]], far: [[57, 45], [70, 52]] }) + waterPart(),
   'brush-teeth': () => body({ near: [[70, 37], [62, 21]] }) + scrubParts() + foamParts(),
+  // FIX ROUND 1 (three native panels, 2026-09-23): the lying child under a duvet with a turned-down band read as a
+  // child IN BED — the very tool the child must find on the shelf. The habit is now drawn WITHOUT any bed: a child
+  // in striped PAJAMAS, both arms up in a big bedtime stretch, under a big moon and three stars. The bed is inferred,
+  // never copied (gate: no plaque part is any shelf tool's part; poison: the bed put back in the plaque).
   sleep: () => {
-    // the standing figure rotated -90 deg about (50,50) (head to the LEFT, lying on its back), lowered 16 onto
-    // the ground line; a coralSoft blanket over everything below the neck; a moon and two stars above
-    const fig = body({ near: [[55, 44], [57, 57]] });
-    const lying = el('g', { transform: 'translate(0 16) rotate(-90 50 50)' }, fig);
-    const ground = part('ground', ln(6, 78, 96, 78, 2.5, T.ink));
-    // DEVIATION (render read): a flat rect blanket read as a box; it now drapes (a hump over the feet) and
-    // has the turned-down band at the neck every duvet has
-    const blanket = part('blanket', el('path', { d: 'M28,77 V56 Q28,52 33,52 H70 Q76,52 80,48 Q86,43 91,48 Q95,52 95,60 V77 Z', fill: T.coralSoft, stroke: T.ink, 'stroke-width': 1.8, 'stroke-linejoin': 'round' }) +
-      el('path', { d: 'M28,77 V56 Q28,52 33,52 H40 V77 Z', fill: T.white, stroke: T.ink, 'stroke-width': 1.8, 'stroke-linejoin': 'round' }));
-    return sleepContext() + ground + lying + blanket;
+    // lead review (fix round 1b): the sky sits in the two top CORNERS above the head, so the plaque's box is as
+    // narrow as a standing child's and this child is drawn as tall as the others (verify: standing heights +-10 %)
+    const sky = part('moon', el('path', { d: 'M49,-15 A9.5,9.5 0 1 0 57,0 A8,8 0 1 1 49,-15 Z', fill: T.ink })) +
+      part('stars', star4(34, -9, 4.5) + star4(76, -9, 5) + star4(79, 12, 3.8));
+    const fig = farArm([44, 20], [38, 5]) + legs('stand') + part('torso', el('path', { d: TORSO, fill: T.ink })) +
+      part('pajamas', [34, 40, 46, 52, 57].map((y) => ln(45.5, y, 60.5, y, 1.8, T.white)).join('') +
+        [70, 78, 86].map((y) => ln(45.5, y, 51.5, y, 1.6, T.white) + ln(53, y, 59.5, y, 1.6, T.white)).join('')) +
+      part('head', el('circle', { cx: 52, cy: 15, r: 10, fill: T.ink })) + nearArm([63, 20], [67, 5]);
+    return sky + fig;
   },
   'comb-hair': () => tuftParts() + body({ near: [[72, 12], [53, 3]] }),
   // DEVIATION (gate rule 1, 2026-09-23): standing upright, blow-nose measured 0.77 / 0.73 1-bit Jaccard against
   // brush-teeth / comb-hair at 60 px (the shared body dominates). A sneeze is drawn the way children draw it:
   // the upper body bends FORWARD 16 deg over the hips (legs stay), both hands at the nose, the burst in front.
-  'blow-nose': () => legs('stand') + el('g', { transform: 'rotate(16 52 58)' },
-    // lead review 2026-09-23: two hands cupped at the face read as a SHOUT. ONE hand pinches the NOSE (above the
-    // mouth line), the burst sits right at the nose, the body still bends forward over the hips.
-    part('torso', el('path', { d: TORSO, fill: T.ink })) + part('head', el('circle', { cx: 52, cy: 15, r: 10, fill: T.ink })) +
-    nearArm([66, 33], [64, 13]) + burstParts()),
-  'sun-protect': () => sunPart(81, 17) + body({ near: [[56, 45], [58, 58]] }),
+  // FIX ROUND 1 (fi + de panels, 2026-09-23): the forward-bent child with one hand up read as SNEEZING into the
+  // hand — the opposite of the family's own F3 rule. Nose-blowing is now: the child stands, BOTH hands meet at the
+  // NOSE (the near hand pinches it: a finger closes on the nose tip), and one small puff blows out of the nose
+  // between the fingers. No spray, no open hand, no lean, no tissue (the tissue is the tool on the shelf).
+  // (the head bows 10 deg over the hands, as a child does into a handkerchief; measured 0.79 1-bit Jaccard against
+  // brush-teeth upright)
+  'blow-nose': () => legs('stand') + el('g', { transform: 'rotate(10 52 58)' },
+    farArm([58, 38], [61, 20]) + part('torso', el('path', { d: TORSO, fill: T.ink })) +
+    part('head', el('circle', { cx: 52, cy: 15, r: 10, fill: T.ink })) + nearArm([64, 34], [65, 17]) +
+    part('pinch', poly([[65, 17], [64, 12]], 7, T.white) + poly([[65, 17], [64, 12]], 3.6, T.ink)) +
+    burstParts()),
+  'sun-protect': () => sunPart(76, 0) + body({ near: [[56, 45], [58, 58]] }),
   // drinking tips the head and chest BACK (the glass up at the mouth): a silhouette apart from brushing, whose
   // elbow sticks out forward (measured 0.79 1-bit Jaccard upright, 2026-09-23 F5)
   'drink-water': () => legs('stand') + el('g', { transform: 'rotate(-12 52 58)' },
@@ -222,12 +232,12 @@ function binPart() {
 }
 const POSES = Object.keys(POSE_DEF);
 const CUE = {
-  'wash-hands': ['tap', 'water', 'basin'], 'brush-teeth': ['foam', 'scrub'], sleep: ['moon', 'stars', 'ground', 'blanket'],
-  'comb-hair': ['tufts'], 'blow-nose': ['burst'], 'sun-protect': ['sun'], 'drink-water': ['glass'], 'move-body': ['motion'],
+  'wash-hands': ['tap', 'water', 'basin'], 'brush-teeth': ['foam', 'scrub'], sleep: ['moon', 'stars', 'pajamas'],
+  'comb-hair': ['tufts'], 'blow-nose': ['burst', 'pinch'], 'sun-protect': ['sun'], 'drink-water': ['glass'], 'move-body': ['motion'],
   'cough-elbow': ['cough-puff'], 'cough-open': ['spray'], 'tissue-in-bin': ['bin', 'tissue', 'fall'], 'tissue-on-floor': ['bin', 'tissue'],
   'wash-hands-soap': ['tap', 'water', 'basin', 'bubbles'], 'brush-teeth-brush': ['toothbrush-held', 'foam'], 'sleep-bed': ['moon', 'stars', 'bed', 'blanket'], 'sun-hat': ['sun', 'hat-on'],
 };
-const TWO_ARM = new Set(['wash-hands', 'move-body', 'wash-hands-soap']);
+const TWO_ARM = new Set(['wash-hands', 'move-body', 'wash-hands-soap', 'sleep', 'blow-nose']);
 const POSE_PARTS = Object.fromEntries(POSES.map((p) => [p, [...(TWO_ARM.has(p) ? ['arm-far'] : []), 'legs', 'torso', 'head', 'arm-near', ...CUE[p]]]));
 /** the anchor the near hand must sit on (gate rule 5); null = no hand anchor for that pose */
 const HAND_ANCHOR = { 'brush-teeth': ANCHORS.MOUTH, 'blow-nose': ANCHORS.NOSE, 'comb-hair': ANCHORS.CROWN, 'wash-hands': [77, 46], 'drink-water': ANCHORS.MOUTH };
@@ -242,8 +252,10 @@ const MARK_PARTS = ['scrub', 'burst', 'cough-puff', 'motion'];
  * tall standing child fills a portrait plaque; the default viewBox is the union with the 100 x 100 unit box.
  */
 const POSE_BOX = {
-  'wash-hands': [40, 3, 55, 94], 'brush-teeth': [40, 3, 46, 94], sleep: [1, -44, 99, 126], 'comb-hair': [34, -15, 42, 113],
-  'blow-nose': [40, 1.5, 55, 95.5], 'sun-protect': [40, 0, 58, 97], 'drink-water': [30, -2, 46, 99], 'move-body': [15, 2, 65, 93],
+  // fix round 1b: the six BASE standing poses share ONE box size (55 x 113, y -16 .. 97) centred on each drawing, so
+  // every plaque scales every child to the same height at every level (verify: +-10 %; the sun moved to the top corner)
+  'wash-hands': [40, -16, 55, 113], 'brush-teeth': [36, -16, 55, 113], sleep: [29, -16, 55, 113], 'comb-hair': [27, -16, 55, 113],
+  'blow-nose': [37, -16, 55, 113], 'sun-protect': [38, -16, 55, 113], 'drink-water': [30, -2, 46, 99], 'move-body': [15, 2, 65, 93],
   'cough-elbow': [39, 1, 30, 97], 'cough-open': [39, 2, 50, 96], 'tissue-in-bin': [39, 2, 58, 96], 'tissue-on-floor': [39, 2, 58, 96],
   'wash-hands-soap': [40, 3, 55, 94], 'brush-teeth-brush': [40, 3, 50, 94], 'sleep-bed': [1, -44, 99, 130], 'sun-hat': [36, -6, 62, 103],
 };
@@ -470,11 +482,16 @@ const BRUSH_DEF = {
   // the child (the family's own faceless figure) bent over the sink, foam drops falling from the mouth into the bowl
   // the child bends over the sink in profile (head over the bowl, one arm on the rim) and white foam drops fall from
   // the mouth into the bowl — no cup, no glass, no rinse
-  spit: () => part('torso', el('path', { d: 'M8,82 L20,50 Q23,43 30,44 L40,48 L30,82 Z', fill: T.ink })) +
-    part('head', el('circle', { cx: 44, cy: 37, r: 12, fill: T.ink })) +
-    part('arm-near', poly([[30, 52], [44, 64], [50, 78]], 11, T.white) + poly([[30, 52], [44, 64], [50, 78]], 7, T.ink)) +
+  // FIX ROUND 1 (da panel, 2026-09-23): teardrops falling past the face read as CRYING or face-washing. Now the
+  // child bends LOW over the bowl, still holding the brush up in one hand (so it is about brushing), and white
+  // toothpaste FOAM (bubbles, never teardrops) leaves the MOUTH and falls into the bowl.
+  spit: () => part('torso', el('path', { d: 'M6,84 L16,54 Q19,47 27,48 L42,54 L30,84 Z', fill: T.ink })) +
+    part('head', el('circle', { cx: 46, cy: 50, r: 12, fill: T.ink })) +
+    part('arm-near', poly([[26, 56], [22, 40], [30, 28]], 11, T.white) + poly([[26, 56], [22, 40], [30, 28]], 7, T.ink) +
+      el('circle', { cx: 30, cy: 28, r: 4.5, fill: T.ink, stroke: T.white, 'stroke-width': 2, 'paint-order': 'stroke' })) +
+    el('g', { transform: 'rotate(-70 30 28)' }, brush(18, 28, 40, false)) +
     sinkBand(false) +
-    part('drops', [[57, 48, 4.8], [58.5, 61.5, 4.8], [57, 75, 4.6]].map(([x, y, r]) => el('path', { d: `M${x},${y - 1.6 * r} Q${x + 1.3 * r},${y} ${x},${y + r} Q${x - 1.3 * r},${y} ${x},${y - 1.6 * r} Z`, fill: T.white, stroke: T.ink, 'stroke-width': 1.8 })).join('')),
+    part('drops', [[57, 58, 3.4], [60.5, 63, 2.8], [58, 69, 3], [60, 75, 2.6]].map(([x, y, r]) => bubble(x, y, r)).join('')),
   'rinse-brush': () => sinkBand(true) + streamPart() + el('g', { transform: 'rotate(-20 62 44)' }, brush(24, 44, 50, true) +
       // lead review 2026-09-23: USED foam clings to the bristles and falls off them, so the card cannot read as
       // "wet the brush first" (a contested BEFORE step)

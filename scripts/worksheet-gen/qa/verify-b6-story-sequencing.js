@@ -46,7 +46,9 @@ const STORY_WORD = {
   it: /(?<!\p{L})stori[ae](?!\p{L})/iu, nl: /verhaal/iu, sv: /bildserie|bildberättelse/iu, da: /billedserie|billedfortælling/iu,
   no: /bildeserie|bildefortelling/iu, fi: /kuvasarja|kuvakertomus/iu,
 };
-const BARE_ORDER = [/^(story )?sequencing$/iu, /reihenfolge/iu, /^volgorde$|(?<!\p{L})volgorde(?!\p{L})(?![\s\S]*verhaal)/iu, /sequência lógica/iu, /^sequenze$/iu, /^i rätt ordning/iu, /^remettre dans l'ordre$/iu];
+// nl (fix round 1, nl panel measured): "Verhaal op volgorde leggen" is the genre head; `volgorde` is bare only when
+// `verhaal` is absent ANYWHERE in the title (the old lookahead accepted `verhaal` only AFTER `volgorde`).
+const BARE_ORDER = [/^(story )?sequencing$/iu, /reihenfolge/iu, /^(?![\s\S]*verhaal)[\s\S]*(?<!\p{L})volgorde(?!\p{L})/iu, /sequência lógica/iu, /^sequenze$/iu, /^i rätt ordning/iu, /^remettre dans l'ordre$/iu];
 const ANSWER_KEY = /answer key|with answers|mit lösung|con soluciones|com gabarito|avec corrigé|con soluzioni|met antwoorden|med facit|med svar|vastauksin/iu;
 const RULE14_EN = {
   base: [/boxes?/i, /numbers?/i],
@@ -177,6 +179,10 @@ function validateBank(block, loc, common = COMMON) {
     const H = st.helpWords;
     if (!Array.isArray(H) || H.length < 4 || H.length > 6) f.push(`r11: ${loc} ${id}: ${H && H.length} helpWords (4-6)`);
     else if (new Set(H.map(nfc)).size !== H.length) f.push(`r11: ${loc} ${id}: a helpWord repeats`);
+    // fix round 1: every bank word names a DRAWN part (cake "candles" once named nothing a child could see)
+    const I = st.helpIds, parts = (common.PARTS || {})[id] || [];
+    if (!Array.isArray(I) || !Array.isArray(H) || I.length !== H.length) f.push(`r11: ${loc} ${id}: helpIds must be parallel to helpWords (${I ? I.length : 'none'} vs ${H ? H.length : 'none'})`);
+    else I.forEach((pid, k) => { if (!parts.includes(pid)) f.push(`r11: ${loc} ${id}: help word "${H[k]}" names "${pid}", which the story does not draw (PARTS: ${parts.join(', ')})`); });
   }
   void refusedSentences;
   // rules 12-15
@@ -273,6 +279,19 @@ async function main() {
   { const pt = synthLocale('pt'); pt.strings.base.title = 'Sequência lógica: numere as cenas'; judge('P14 pt title "Sequência lógica: …"', validateBank(pt, 'pt'), /^r12: pt base title .*(STORY word|bare order)/); }
   { const es = synthLocale('es'); es.strings.base.instruction = 'Numera las viñetas gratis.'; judge('P15 es instruction with "gratis"', validateBank(es, 'es'), /^r13: es base claims free/); }
   { const en = clone(STORY_SEQUENCING.en); en.strings['first-next-last-cut'].instruction = 'Cut and sort the pictures under First, Next and Last.'; judge('P16 en F1 "Cut and sort the pictures"', validateBank(en, 'en'), /^r14: en F1 instruction says sort/); }
+  // fix round 1
+  { const en = clone(STORY_SEQUENCING.en); en.stories.cake.helpIds[2] = 'balloon'; judge('P17 cake bank word naming an undrawn part', validateBank(en, 'en'), /^r11: en cake: help word "candles" names "balloon"/); }
+  { const en = clone(STORY_SEQUENCING.en); delete en.stories.apple.helpIds; judge('P17b a story without helpIds', validateBank(en, 'en'), /^r11: en apple: helpIds must be parallel/); }
+  {
+    const nl = synthLocale('nl'); Object.entries(nl.strings).forEach(([m, x], i) => { x.title = `Verhaal op volgorde ${m} ${i}`; });
+    nl.strings.base.title = 'Verhaal op volgorde leggen';
+    const r12 = validateBank(nl, 'nl').filter((x) => /^r12/.test(x));
+    ok(!r12.length, 'must-pass: nl "Verhaal op volgorde leggen" is a legal head: ' + r12.join(' | '));
+    nl.strings.base.title = 'Volgorde';
+    judge('P19 nl bare "Volgorde"', validateBank(nl, 'nl'), /^r12: nl base title "Volgorde" (lacks the locale's STORY word|is a bare order head)/);
+    nl.strings.base.title = 'Plaatjes op volgorde';
+    judge('P19b nl "Plaatjes op volgorde" (no story word anywhere)', validateBank(nl, 'nl'), /^r12: nl base title "Plaatjes op volgorde" is a bare order head/);
+  }
 
   // 3. build: pooled census + refusal + config guard
   const spec = require('../types/k/K-379-story-sequencing.js');
@@ -492,6 +511,15 @@ async function main() {
     {
       const bad = f2(f2plan).replace(/data-lcs-choice-story="apple" data-lcs-choice-rank="1"/, 'data-lcs-choice-story="apple" data-lcs-choice-rank="3"');
       judge('PR7 F2 a choice = rank 3', await verifyHtml(page, bad, F2, OUTD, 'pr7'), /same-story foil at rank 3/);
+    }
+    {
+      const F1s = loadType('K-381');
+      const good = F1s._buildWith({ block: STORY_SEQUENCING.en, config: F1s.difficulty[2] }, { locale: 'en' }, { rng: makeRng('K-381|none|2|1') }).bodyHtml;
+      const v0 = await verifyHtml(page, good, F1s, OUTD, 'f1-ctl'); ok(!v0.length, 'F1 control: ' + v0.join(' | '));
+      // swap the SECOND strip's triangle for a dot (its line keeps the triangle): strip and line disagree, both show a dot
+      const i2 = good.lastIndexOf('data-lcs-marker="triangle"');
+      const bad = good.slice(0, i2) + good.slice(i2).replace(/<polygon points="8,1.5 15,14.5 1,14.5"[^>]*\/>/, '<circle cx="8" cy="8" r="6.5" fill="#146B5E"/>');
+      judge('PM F1 strip and line markers disagree', bad === good ? ['POISON DID NOT APPLY'] : await verifyHtml(page, bad, F1s, OUTD, 'pm'), /pairing marker disagrees/);
     }
     judge('PR8 F2 correct slots 0,1,2 (a staircase)', await verifyHtml(page, f2({ ...f2plan, slots: [0, 1, 2] }), F2, OUTD, 'pr8'), /staircase/);
     {

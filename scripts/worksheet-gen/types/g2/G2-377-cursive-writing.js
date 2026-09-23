@@ -87,7 +87,9 @@ function resolvePage(bankLoc, d, locale, unit) {
   if (bankLoc.refused) throw new Error(`${ID}: type refused in ${locale}: ${bankLoc.refused.reason || bankLoc.refused}`);
   if (!d || d.mode !== 'base') throw new Error(`${ID}: only the base (mode 'base') is built; got mode "${d && d.mode}" (the faces are Phase E)`);
   const units = bankLoc.units || [];
-  const u = unit || bankLoc.exemplar;
+  // exemplarByMode (optional, nt5-F de): a locale that ships TWO scripts publishes each face in ONE of them
+  // (de: VA on base/joins/copy, LA on capitals/words/reading), so every face is one deck with no unit segment
+  const u = unit || (bankLoc.exemplarByMode && bankLoc.exemplarByMode[d.mode]) || bankLoc.exemplar;
   if (!units.includes(u)) throw new Error(`${ID}: unit "${u}" is not a ${locale} unit (${units.join(', ') || 'none'})`);
   if (!NEUTRAL.units[u]) throw new Error(`${ID}: unit "${u}" is not a vendored Playwrite unit`);
   const lesson = (bankLoc.lessons && bankLoc.lessons[u] || [])[d.lesson || 0];
@@ -198,7 +200,7 @@ function browserVerify(data) {
     const cs = getComputedStyle(n);
     if (!(cs.fontFamily.replace(/["']/g, '') === fam)) fails.push(`${tag}: font-family ${cs.fontFamily}`);
     if (!(cs.letterSpacing === 'normal' || parseFloat(cs.letterSpacing) === 0)) fails.push(`${tag}: letter-spacing ${cs.letterSpacing}`);
-    if (!(cs.wordSpacing === '0px' || cs.wordSpacing === 'normal')) fails.push(`${tag}: word-spacing ${cs.wordSpacing}`);
+    if (!/\s/.test(n.textContent) && !(cs.wordSpacing === '0px' || cs.wordSpacing === 'normal')) fails.push(`${tag}: word-spacing ${cs.wordSpacing} on a node with no space`);
     if (cs.textTransform !== 'none') fails.push(`${tag}: text-transform ${cs.textTransform}`);
     if (cs.fontFeatureSettings !== 'normal') fails.push(`${tag}: font-feature-settings ${cs.fontFeatureSettings}`);
     if (cs.fontVariantLigatures !== 'normal') fails.push(`${tag}: font-variant-ligatures ${cs.fontVariantLigatures}`);
@@ -211,7 +213,7 @@ function browserVerify(data) {
     const wHtml = range.getBoundingClientRect().width;
     // around a SPACE the laid-out run and the canvas disagree by a kern (measured: nl "J J" 90.1 in layout, 93.7 on
     // canvas — "JJ", "M M", "A A" agree to 0.01 px), so each space buys 0.1 em of tolerance; nothing else does
-    ctx.font = spec; const wUnit = ctx.measureText(n.textContent).width;
+    ctx.font = spec; ctx.wordSpacing = cs.wordSpacing === 'normal' ? '0px' : cs.wordSpacing; const wUnit = ctx.measureText(n.textContent).width; ctx.wordSpacing = '0px';
     const tol = 1 + 0.1 * fs * (n.textContent.match(/\s/g) || []).length;
     ctx.font = `${fs}px serif`; const wSerif = ctx.measureText(n.textContent).width;
     if (Math.abs(wHtml - wUnit) > tol) fails.push(`${tag}: rendered width ${wHtml.toFixed(1)} ≠ the unit's ${wUnit.toFixed(1)} (a fallback glyph?)`);
@@ -306,6 +308,8 @@ function browserVerify(data) {
       if (off.some((o) => o === 0)) fails.push(`a word faces its own picture (row offsets ${off.join(',')})`);
       const n = keysL.length;
       if (n > 1 && (off.every((o) => o === off[0]) || off.map((o) => (o + n) % n).every((o, _, a) => o === a[0]))) fails.push(`the partner is a constant shift (offsets ${off.join(',')})`);
+      if (off.filter((o) => Math.abs(o) === 1).length > 1) fails.push(`position tell: ${off.filter((o) => Math.abs(o) === 1).length} partners stand one row away (offsets ${off.join(',')}; ≤ 1 allowed)`);
+      if (n > 2 && keysR.join('|') === keysL.slice().reverse().join('|')) fails.push('the pictures are the words reversed');
       const texts = cards.map((x) => x.querySelector('[data-lcs-cursive]').textContent);
       cards.forEach((x, i) => { if (F.words[keysL[i]] !== texts[i]) fails.push(`card ${i}: "${texts[i]}" ≠ the bank literal`); if (x.getBoundingClientRect().height < 75.5) fails.push(`card ${i}: ${Math.round(x.getBoundingClientRect().height)} px < 76`); });
       let same = 0, close = 0;
@@ -454,7 +458,7 @@ async function rasterAnalyse({ png, clipX, clipY, ID, calib }) {
     return t === Infinity ? null : { t, b: b + 1, l, r: r + 1 };
   }
   /** the same string drawn on a canvas at the same device size: its component count */
-  function canvasPieces(text, fam, fsDev, minArea) {
+  function canvasPieces(text, fam, fsDev, minArea, wsDev = 0) {
     const c = document.createElement('canvas');
     const k = c.getContext('2d', { willReadFrequently: true });
     k.font = `${fsDev}px "${fam}"`;
@@ -462,7 +466,7 @@ async function rasterAnalyse({ png, clipX, clipY, ID, calib }) {
     const pad = Math.ceil(fsDev * 0.6);
     c.width = Math.ceil(m.width + 2 * pad + fsDev); c.height = Math.ceil(fsDev * 3.5);
     k.fillStyle = '#FFFFFF'; k.fillRect(0, 0, c.width, c.height);
-    k.font = `${fsDev}px "${fam}"`; k.fillStyle = '#3A3530'; k.textBaseline = 'alphabetic';
+    k.font = `${fsDev}px "${fam}"`; k.wordSpacing = wsDev + 'px'; k.fillStyle = '#3A3530'; k.textBaseline = 'alphabetic';
     k.fillText(text, pad, Math.round(fsDev * 2));
     const dd = k.getImageData(0, 0, c.width, c.height).data;
     return components(dd, c.width, 0, 0, c.width, c.height, minArea);
@@ -513,7 +517,7 @@ async function rasterAnalyse({ png, clipX, clipY, ID, calib }) {
     const fsDev = fs * s;
     const minArea = Math.max(4, 0.00375 * fsDev * fsDev);
     const html = components(data, W, x0, y0, x1, y1, minArea);
-    const canv = canvasPieces(n.textContent, fam, fsDev, minArea);
+    const canv = canvasPieces(n.textContent, fam, fsDev, minArea, (parseFloat(getComputedStyle(n).wordSpacing) || 0) * s);
     if (html !== canv) fails.push(`${tag}: ${html} ink pieces in the page, ${canv} in the canvas oracle (a broken join)`);
     // every JOIN merges two bodies: a node's pieces ≤ Σ(its letters' own pieces) − (its joins), a join being two
     // consecutive lowercase letters with no LIFT after the first (capitals and spaces are never counted as joins);
@@ -530,6 +534,42 @@ async function rasterAnalyse({ png, clipX, clipY, ID, calib }) {
         if (nx && /\p{Ll}/u.test(ch) && /\p{Ll}/u.test(nx) && !lift.includes(ch)) joins++;
       });
       if (joins && html > sum - joins) fails.push(`${tag}: ${html} ink pieces > ${sum - joins} (its letters are ${sum} pieces with ${joins} joins; a join must merge them)`);
+    }
+    // WORD GAP (fix round 1): two words on one node stand ≥ 0.3 em apart, measured row by row on the page: split
+    // at the middle of each space's advance box, the rightmost ink of the word before and the leftmost ink of the
+    // word after, on every device row where both have ink; the closest row is the gap
+    if (/\s/.test(n.textContent)) {
+      const tn = n.firstChild, txt = n.textContent;
+      for (let ci = 0; ci < txt.length; ci++) {
+        if (!/\s/.test(txt[ci])) continue;
+        const sp = document.createRange(); sp.setStart(tn, ci); sp.setEnd(tn, ci + 1);
+        const sr = sp.getBoundingClientRect();
+        let a = ci - 1; while (a > 0 && !/\s/.test(txt[a - 1])) a--;
+        let b = ci + 2; while (b < txt.length && !/\s/.test(txt[b])) b++;
+        const wr = document.createRange(); wr.setStart(tn, a); wr.setEnd(tn, ci); const pr = wr.getBoundingClientRect();
+        const nr = document.createRange(); nr.setStart(tn, ci + 1); nr.setEnd(tn, b); const nx = nr.getBoundingClientRect();
+        const mid = toDev((sr.left + sr.right) / 2, clipX);
+        const xa = Math.max(0, toDev(pr.left - 0.5 * fs, clipX)), xb = Math.min(W, toDev(nx.right + 0.5 * fs, clipX));
+        // ink belongs to a WORD by its connected piece (a j's lead-in hook that reaches back past the space stays
+        // the next word's): label the pieces, give each to the side of the space its centre of mass lies on
+        const ww = xb - xa, hh = y1 - y0, lab = new Int32Array(ww * hh).fill(-1), side = [];
+        for (let y = y0; y < y1; y++) for (let x = xa; x < xb; x++) {
+          const i0 = (y - y0) * ww + (x - xa);
+          if (lab[i0] >= 0 || !faintAt(data, W, x, y)) continue;
+          const id = side.length; let sx = 0, cnt = 0; const st = [[x, y]]; lab[i0] = id;
+          while (st.length) { const [px, py] = st.pop(); sx += px; cnt++;
+            for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) { const qx = px + dx, qy = py + dy; if (qx < xa || qy < y0 || qx >= xb || qy >= y1) continue; const j = (qy - y0) * ww + (qx - xa); if (lab[j] >= 0 || !faintAt(data, W, qx, qy)) continue; lab[j] = id; st.push([qx, qy]); } }
+          side.push(sx / cnt < mid ? 0 : 1);
+        }
+        let gap = Infinity;
+        for (let y = y0; y < y1; y++) {
+          let r = -1, l = Infinity;
+          for (let x = xa; x < xb; x++) { const id = lab[(y - y0) * ww + (x - xa)]; if (id < 0) continue; if (side[id] === 0) r = Math.max(r, x); else l = Math.min(l, x); }
+          if (r >= 0 && l < Infinity) gap = Math.min(gap, (l - r - 1) / s);
+        }
+        const word = txt.slice(a, b);
+        if (gap < 0.3 * fs - 0.5) fails.push(`${tag}: the words in "${word}" stand ${gap === Infinity ? 'n/a' : gap.toFixed(1)} px apart (< 0.3 em = ${(0.3 * fs).toFixed(1)} px)`);
+      }
     }
     checked++;
   }
@@ -561,7 +601,9 @@ function faceContext(bankLoc, d, locale, unit) {
   const faceRef = bankLoc.refusedFaces && bankLoc.refusedFaces[d.mode];
   if (faceRef) throw new Error(`${ID}: face ${d.mode} refused in ${locale}: ${faceRef}`);
   const units = bankLoc.units || [];
-  const u = unit || bankLoc.exemplar;
+  // exemplarByMode (optional, nt5-F de): a locale that ships TWO scripts publishes each face in ONE of them
+  // (de: VA on base/joins/copy, LA on capitals/words/reading), so every face is one deck with no unit segment
+  const u = unit || (bankLoc.exemplarByMode && bankLoc.exemplarByMode[d.mode]) || bankLoc.exemplar;
   if (!units.includes(u)) throw new Error(`${ID}: unit "${u}" is not a ${locale} unit (${units.join(', ') || 'none'})`);
   if (!NEUTRAL.units[u]) throw new Error(`${ID}: unit "${u}" is not a vendored Playwrite unit`);
   const band = bandOfLevel(locale, bankLoc.levels && bankLoc.levels[d.mode]);
@@ -607,14 +649,14 @@ function practiceFor(c, geom, stack) {
 /** THE PAGE COLUMN of a ruled face: tag, blocks (growable gaps), closing practice rows */
 function faceColumn(c, mode, geom, blocks, practice, total, rootAttrs, count) {
   const seyes = c.kind === 'seyes';
-  const gap = () => (seyes ? spacer(0, GAP_MAX.seyesBlock) : spacer(BLOCK_GAP, GAP_MAX.block));
+  const gap = () => (seyes ? spacer(0, 38) : spacer(BLOCK_GAP, GAP_MAX.block));
   const body = blocks.map((b, k) => (k ? gap() : '') + b).join('');
-  const prac = practice ? gap() + C6.cwPracticeRows({ unit: c.unit, kind: c.kind, k: practice, w: BODY_W, marginX: FACE_MARGIN[mode] || MARGIN_X, geom, seyesI: c.X, dashHelpers: c.dashHelpers, rowGap: [ROW_GAP, GAP_MAX.row] }) : '';
+  const prac = practice ? gap() + C6.cwPracticeRows({ unit: c.unit, kind: c.kind, k: practice, w: BODY_W, marginX: FACE_MARGIN[mode] || MARGIN_X, geom, seyesI: c.X, dashHelpers: c.dashHelpers, rowGap: [ROW_GAP, GAP_MAX.row], seyesGapMax: 24 }) : '';
   return C6.cwFontFace(c.unit) +
     `<div class="cw-page" data-ws-content="" data-lcs-cw="" data-lcs-type="${ID}" data-lcs-face="${mode}" data-lcs-mode="${mode}" data-lcs-locale="${c.locale}"` +
     ` data-lcs-unit="${c.unit}" data-lcs-x="${c.X}" data-lcs-floor="${c.floor}" data-lcs-ruling="${c.kind}" data-lcs-stack="${total}" data-lcs-practice="${practice}"` +
     ` data-lcs-count="${count}" data-lcs-lift="${c.lift}"${rootAttrs || ''} style="display:flex;flex-direction:column;justify-content:flex-start;height:100%;width:${BODY_W}px;margin:0 auto">` +
-    C6.cwScriptTag({ scriptName: c.scriptName, w: BODY_W }) + body + prac + `</div>`;
+    C6.cwScriptTag({ scriptName: c.scriptName, w: BODY_W }) + spacer(0, 20) + body + prac + `</div>`;
 }
 
 function geomFor(c, cap) { return c.kind === 'seyes' ? null : SR.rulingGeometry({ unit: c.unit, kind: c.kind, X: c.X, cap }); }
@@ -629,12 +671,18 @@ function capitalsOf(names) {
 }
 
 /** a derangement of 0..n-1 that is NOT a constant shift (cyclic or plain): the partner is never "one down" */
+/** order[k] = the word row whose picture stands on picture row k → each word row's distance to its partner */
+function partnerDistances(order) { return order.map((w, k) => ({ w, k })).sort((a, b) => a.w - b.w).map(({ w, k }) => Math.abs(k - w)); }
 function derangeOrder(n, rng) {
   for (let t = 0; t < DERANGE_TRIES; t++) {
     const p = rng.shuffle(Array.from({ length: n }, (_, i) => i));
     if (p.some((v, i) => v === i)) continue;
     const off = p.map((v, i) => (v - i + n) % n);
     if (off.every((o) => o === off[0])) continue;
+    if (p.join(',') === Array.from({ length: n }, (_, i) => n - 1 - i).join(',')) continue;   // the reversal
+    // POSITION TELL (fix round 1, da panel): three adjacent swaps put every partner exactly one row away. A word
+    // row's partner stands at |pictureRow − wordRow|; at most ONE may stand at distance 1 (none at 0)
+    if (partnerDistances(p).filter((d) => d === 1).length > 1) continue;
     return p;
   }
   throw new Error(`${ID}: no admissible derangement of ${n} in ${DERANGE_TRIES} tries`);
@@ -817,6 +865,7 @@ const TYPE = {
   stackOf,
   FACE_MODES,
   derangeOrder,
+  partnerDistances,
   readClash,
 
   build({ difficulty, locale, unit }) {

@@ -53,6 +53,7 @@ const THIN_OK = {
   'stream': 'F1 tap stream is 6 units wide by design at 176 px = 10.6 px (kept for the 104 brush card too: 6.2 px)',
   cap: 'F2 open-tube: the cap lies beside the tube (8 units = 8.3 px at 104; exempt from the min-side on the rotated box)',
   'cough-puff': 'F3 puff dashes are motion marks (the elbow crook carries the pose; they are the redundant cue)',
+  pinch: 'base blow-nose: the pinching finger is a 3.6-unit stroke (its box has no stroke width); the hand AT the nose carries the pose',
   fall: 'F3 two short falling dashes above the tissue (motion marks; the tissue inside the bin carries the answer)',
   scrub: 'F2 chewing: the two back-and-forth arrows are motion marks (the brush ON the molars carries the card)',
 };
@@ -254,11 +255,13 @@ function toolRules(C) {
   for (const pose of COMMON.baseD3) {
     const svg = C[`figure:${pose}`].sShip, parts = partsIn(svg);
     ok(!/data-lcs-glyph=/.test(svg), `rule 4: the ${pose} figure contains a whole tool glyph (tool leak)`);
+    // FIX ROUND 1: no exemption for the habit's OWN tool any more (the sleep plaque drew the bed it is matched to)
     for (const [tool, tparts] of Object.entries(COMMON.GLYPH_PARTS)) {
-      const own = COMMON.TOOL_OF[pose] === tool;
-      const hit = tparts.filter((p) => parts.has(p) && !(own && (COMMON.CUE_OF[pose] || []).includes(p)));
+      const hit = tparts.filter((p) => parts.has(p));
       ok(!hit.length, `rule 4: the ${pose} figure draws part(s) ${hit.join(',')} of the ${tool} (tool leak)`);
     }
+    // FIX ROUND 1 (de panel): no base habit shows the unhealthy variant of a habit (spray, dropped tissue, shared cup)
+    for (const p of COMMON.UNHEALTHY_PARTS) ok(!parts.has(p), `rule 4b: the ${pose} figure draws "${p}", the unhealthy variant of a habit`);
   }
   for (const tool of Object.keys(COMMON.GLYPH_PARTS)) {
     const svg = C[`tool:${tool}`].sShip, parts = partsIn(svg);
@@ -359,8 +362,16 @@ async function poisons(page, C) {
   K.judge('PP5 the comb hand at the mouth', await K.collect(() => renderRules(page, P, { floors: false })), /rule 5 comb-hair: the near hand is/, ctl);
   // PP6 a codeRed fill inside a pictogram
   P = clone(C);
-  patch(P, 'figure:sleep', (s) => s.replace(`fill="${tokens.color.coralSoft}"`, `fill="${tokens.codeColors.codeRed}"`));
+  patch(P, 'figure:comb-hair', (s) => s.replace(`fill="${tokens.color.ink}"`, `fill="${tokens.codeColors.codeRed}"`));
   K.judge('PP6 a codeRed fill', await K.collect(() => renderRules(page, P, { floors: false })), /no coral, no code colours/, ctl);
+  // PP8 (fix round 1) the bed back in the sleep plaque · PP9 a sneeze spray on the blow-nose child
+  P = clone(C);
+  const bed = /<g data-lcs-glyph="bed">[\s\S]*<\/g>(?=<\/svg>)/.exec(C['tool:bed'].sShip)[0];
+  patch(P, 'figure:sleep', (s) => s.replace(/<\/g><\/svg>$/, `<g transform="translate(10 50) scale(0.5)">${bed}</g></g></svg>`));
+  K.judge('PP8 the bed back in the sleep plaque', await K.collect(() => renderRules(page, P, { floors: false })), /rule 4: the sleep figure (contains a whole tool glyph|draws part)/, ctl);
+  P = clone(C);
+  patch(P, 'figure:blow-nose', (s) => s.replace(/<\/g><\/svg>$/, '<g data-lcs-part="spray"><circle cx="72" cy="20" r="2.2" fill="#3A3530"/><circle cx="78" cy="18" r="2.2" fill="#3A3530"/></g></g></svg>'));
+  K.judge('PP9 a sneeze spray on the blow-nose child', await K.collect(() => renderRules(page, P, { floors: false })), /rule 4b: the blow-nose figure draws "spray"/, ctl);
   // PP7 (design P15) rinse-brush without its foam
   P = clone(C);
   patch(P, 'brush:rinse-brush', (s) => s.replace(/<g data-lcs-part="bubbles">[\s\S]*?<\/g>/, ''));

@@ -937,7 +937,7 @@
   },
   "K-381": {
     "title": "Story Sequencing Cut and Paste: First, Next, Last",
-    "instruction": "Cut out each strip's pictures and glue them on their story line under First, Next and Last."
+    "instruction": "Cut out the pictures on each strip and glue them in the empty frames above First, Next and Last."
   },
   "K-382": {
     "title": "Hand Washing Steps",
@@ -949,7 +949,7 @@
   },
   "K-384": {
     "title": "Draw What Floats and Sinks: A Sink or Float Experiment",
-    "instruction": "Draw two things that float on the water and two things that sink to the bottom."
+    "instruction": "Draw two things that float in the dashed boxes on the water and two that sink in the dashed boxes on the bottom."
   },
   "G1-101": {
     "title": "Add the Pictures",
@@ -1889,7 +1889,7 @@
   },
   "G1-398": {
     "title": "Animal Habitats: Match the Animal",
-    "instruction": "Look at the habitats. Under each animal, write the letter of the habitat where it lives."
+    "instruction": "Under each animal, write the letter of the habitat where it lives."
   },
   "G1-399": {
     "title": "Sink or Float Experiment: Predict and Test",
@@ -1897,7 +1897,7 @@
   },
   "G1-400": {
     "title": "Story Sequencing: What Happens Next?",
-    "instruction": "Look at each story's three pictures and circle the picture in the box that comes next."
+    "instruction": "Look at each story's three pictures, then circle the picture below them that belongs in the ? frame."
   },
   "G1-401": {
     "title": "Beginning, Middle and End of a Story",
@@ -1921,14 +1921,14 @@
   },
   "G1-406": {
     "title": "Who Does Not Live Here?",
-    "instruction": "Look at each habitat. Cross out the animal that does not live there."
+    "instruction": "In each row, cross out the animal that does not live in that habitat."
   },
   "G1-407": {
     "title": "What Animals Need",
     "instruction": "For each animal, circle the food it eats and the home it lives in."
   },
   "G1-408": {
-    "title": "Heavy or Light? A Sink or Float Experiment With a Scale",
+    "title": "Heavy or Light? A Sink or Float Scale Test",
     "instruction": "The scale shows which thing is heavier: circle the thing that floats in water."
   },
   "G2-203": {
@@ -2601,15 +2601,15 @@
   },
   "G2-380": {
     "title": "How Animals Adapt",
-    "instruction": "Read each sentence. Write the letter of the animal it tells about in the box."
+    "instruction": "Write the letter of the animal each sentence tells about in its box."
   },
   "G2-381": {
     "title": "My Habitat Report",
-    "instruction": "Draw three animals that live in this habitat and write their names. Write a plant that grows there. Circle the words that fit."
+    "instruction": "Draw three animals that live in this habitat, write their names and a plant that grows there, and circle the right word in each pair."
   },
   "G2-382": {
     "title": "Make Clay Float: A Change the Shape Experiment",
-    "instruction": "Color where each clay shape ends up, circle the thing that floats, then draw your own clay boat on the water."
+    "instruction": "Color the ring where each clay shape ends up, circle the thing that floats, then draw your own clay boat in the big tank."
   },
   "G2-383": {
     "title": "Sink or Float Experiment: True or False, Why Things Float",
@@ -2625,7 +2625,7 @@
   },
   "G2-386": {
     "title": "Cursive Words to Write with Pictures",
-    "instruction": "Trace each grey word without lifting your pencil, then write it. Add the dots and crosses last."
+    "instruction": "Trace each grey word in one flowing line, then write it on the line below and add the dots and crosses last."
   },
   "G2-387": {
     "title": "Reading Cursive: Match Each Word to Its Picture",
@@ -2989,6 +2989,6 @@
   },
   "G3-401": {
     "title": "Cursive Sentences to Copy",
-    "instruction": "Copy each printed sentence in cursive on the two lines below it. Trace the grey sentence first."
+    "instruction": "Trace the grey sentence, then copy each printed sentence in cursive on the two lines below it."
   }
 }

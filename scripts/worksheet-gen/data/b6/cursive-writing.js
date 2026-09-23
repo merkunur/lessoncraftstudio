@@ -86,9 +86,9 @@ const CURSIVE_WRITING = {
       // Phase E faces (ids fixed by _records/b6var-id-allocation.json)
       'G2-384': { title: 'Cursive Capital Letters: Write the Names', instruction: 'Trace each grey capital letter and name, then write them on the empty line below.' },
       'G2-385': { title: 'Cursive Connecting Letters: Joining Two Letters', instruction: 'Trace each grey pair of joined letters and the word, then write them on the empty line below.' },
-      'G2-386': { title: 'Cursive Words to Write with Pictures', instruction: 'Trace each grey word without lifting your pencil, then write it. Add the dots and crosses last.' },
+      'G2-386': { title: 'Cursive Words to Write with Pictures', instruction: 'Trace each grey word in one flowing line, then write it on the line below and add the dots and crosses last.' },
       'G2-387': { title: 'Reading Cursive: Match Each Word to Its Picture', instruction: 'Read each word in cursive and draw a line to its picture.' },
-      'G3-401': { title: 'Cursive Sentences to Copy', instruction: 'Copy each printed sentence in cursive on the two lines below it. Trace the grey sentence first.' },
+      'G3-401': { title: 'Cursive Sentences to Copy', instruction: 'Trace the grey sentence, then copy each printed sentence in cursive on the two lines below it.' },
     },
   },
 };

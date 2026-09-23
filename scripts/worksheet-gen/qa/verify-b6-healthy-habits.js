@@ -159,6 +159,17 @@ function numberWordsHit(text, loc) {
   return null;
 }
 
+const _vocab = (() => { let v = null; return () => v || (v = require('../../publish-cli/deck-rich-alt.js').loadVocab()); })();
+/** rule 3b ban patterns for one habit in one locale, from image-vocabulary (singular + plural; >= 4 letters -> stem*) */
+function reasonBanWords(h, L) {
+  const V = _vocab(), out = new Set();
+  for (const k of (COMMON.REASON_BAN_KEYS || {})[h] || []) {
+    const e = V[k] && V[k][L];
+    if (!e) continue;
+    for (const f of [e[0], e[1]]) if (f) { const w = nfc(f); out.add(w.length >= 4 ? w + '*' : w); }
+  }
+  return [...out];
+}
 /**
  * The §5 validator rules over one locale block. Returns the findings (strings, each prefixed "rule N").
  * Exported: tools/b6-probe-child.js runs it on every drafted block.
@@ -200,6 +211,9 @@ function validateBank(block, loc) {
       for (const s of stems[o] || []) if (hasWord(r, s)) e(3, `the reason for "${h}" ("${r}") contains "${s}", a stem of ${o === h ? 'its OWN habit' : 'the habit "' + o + '"'}`);
     }
     if (!Array.isArray(stems[h]) || !stems[h].length) e(3, `no labelStems for "${h}"`);
+    // 3b (FIX ROUND 1): a reason never names ITS habit's body part or tool — the image-vocabulary singular + plural
+    // of COMMON.REASON_BAN_KEYS[h] in this locale (a form of >= 4 letters also bans its inflections: nenä -> nenän)
+    for (const w of reasonBanWords(h, L)) if (hasPat(r, w)) e(3, `the reason for "${h}" ("${r}") names "${w.replace(/\*$/, '')}", its own body part or tool`);
   }
   // every printed literal of the block
   const lit = [];
@@ -262,6 +276,34 @@ function validateBank(block, loc) {
   return E;
 }
 
+/**
+ * REASON_READ (FIX ROUND 1) — the hand-read claim table for the EN reasons: which ONE habit each printed reason
+ * fits, read against every other habit of reasonD2 + reserves. Pinned to the exact text: an edited reason FAILS until
+ * it is re-read here (never trusted). The native panels keep the same table for their locale in their draft review.
+ */
+const REASON_READ = {
+  en: {
+    'wash-hands': ['It clears away the germs from all the things we touched.', 'wash-hands'],
+    'brush-teeth': ['It keeps our smile clean and bright.', 'brush-teeth'],
+    sleep: ['Our body and brain rest and get ready for a new day.', 'sleep'],
+    'move-body': ['It makes us fit, fast and strong.', 'move-body'],
+    'sun-protect': ['We do not get burnt on a hot, sunny day.', 'sun-protect'],
+    'drink-water': ['Our body needs it to work well.', 'drink-water'],
+    'blow-nose': ['We can breathe easily again.', 'blow-nose'],
+  },
+};
+function reasonReadFindings(block, loc) {
+  const R = REASON_READ[loc];
+  if (!R) return [];
+  const f = [];
+  for (const [h, [text, fits]] of Object.entries(R)) {
+    const now = block.reasons && block.reasons[h];
+    if (now !== text) f.push(`reason read: the ${loc} reason for "${h}" changed ("${now}") — re-read which habit it fits and pin it in REASON_READ`);
+    else if (fits !== h) f.push(`reason read: the ${loc} reason for "${h}" fits "${fits}"`);
+  }
+  return f;
+}
+
 /** The locale-neutral tables (P7, P21). */
 function validateCommon(C) {
   const E = [];
@@ -306,6 +348,10 @@ function dataPoisons() {
   J('P13b da title "Sunde vaner og sund mad" (head)', fixture('da', { strings: { ...en.strings, base: { ...en.strings.base, title: 'Sunde vaner og sund mad' } } }), 'da', /^rule 8: .*banned head "sund/);
   J('P18 en F4 reason naming "soap" beside wash-hands', fixture('en', { reasons: { ...en.reasons, 'wash-hands': 'Soap takes away the germs we picked up.' } }), 'en', /^rule 3: the reason for "wash-hands".*"soap", a stem of its OWN habit/);
   K.judge('P21 a mouth-rinse kind added to PHASE_OF', validateCommon({ ...COMMON, PHASE_OF: { ...COMMON.PHASE_OF, 'mouth-rinse': 'after' } }), /PHASE_OF carries "mouth-rinse"/, cc);
+  J('RB1 en blow-nose reason naming "nose"', fixture('en', { reasons: { ...en.reasons, 'blow-nose': 'We can breathe through our nose again.' } }), 'en', /^rule 3: the reason for "blow-nose".*names "nose"/);
+  J('RB2 en brush-teeth reason naming "teeth"', fixture('en', { reasons: { ...en.reasons, 'brush-teeth': 'It keeps our teeth clean and bright.' } }), 'en', /^rule 3: the reason for "brush-teeth".*(names "teeth"|a stem of its OWN habit)/);
+  J('RB3 de wash-hands reason naming "Händen"', fixture('de', { reasons: { ...en.reasons, 'wash-hands': 'Die Keime von den Händen sind weg.' } }), 'de', /^rule 3: the reason for "wash-hands".*names "hände"|names "hand"/);
+  K.judge('RR1 an en reason edited without a re-read', reasonReadFindings(fixture('en', { reasons: { ...en.reasons, 'wash-hands': 'It takes away the germs we picked up.' } }), 'en'), /changed/, K.control('RR0 the pinned en reasons (control)', reasonReadFindings(en, 'en')));
   J('P7b en instruction "Cover your mouth with your hand"', fixture('en', { strings: { ...en.strings, 'stop-the-germs': { ...en.strings['stop-the-germs'], instruction: 'In each row, circle the child who covers the mouth with a hand.' } } }), 'en', /^rule 7: strings\.stop-the-germs\.instruction/);
 }
 
@@ -433,6 +479,9 @@ async function renderPoisons(page) {
     doctor: (h) => h.replace('class="hh-hooks" style="', 'class="hh-hooks" style="padding-top:110px !important;align-content:start;') }), /sparse: a \d+ px blank band/, ctl);
   K.judge('PSP2 the old line zone minmax(160px,1fr)', await verifyOf({ name: 'K-380-poison-PSP2',
     doctor: (h) => h.replace(/minmax\(180px,260px\)/, 'minmax(160px,1fr)') }), /line zone \d+ px outside/, ctl);
+  // PH1 (fix round 1b) the sleep child drawn at half height again (its viewBox doubled)
+  K.judge('PH1 the sleep child drawn at half height', await verifyOf({ name: 'K-380-poison-PH1',
+    doctor: (h) => h.replace(/viewBox="29 -16 55 113"/, 'viewBox="-16 -70 136 226"') }), /a standing child is \d+ px tall/, ctl);
   // P3 the tool order = the plaque order shifted by one
   const habits = [...COMMON.baseD2];
   const tools = habits.map((h, i) => COMMON.TOOL_OF[habits[(i + habits.length - 1) % habits.length]]);
@@ -455,6 +504,7 @@ async function main() {
   const quick = process.argv.includes('--quick');
   const en = DATA.HEALTHY_HABITS.en;
   for (const [loc, block] of Object.entries(DATA.HEALTHY_HABITS)) for (const f of validateBank(block, loc)) ok(false, `bank ${loc}: ${f}`);
+  for (const f of reasonReadFindings(DATA.HEALTHY_HABITS.en, 'en')) ok(false, f);
   for (const f of validateCommon(COMMON)) ok(false, f);
   dataPoisons();
   const pool = pooled(400);
@@ -475,4 +525,4 @@ async function main() {
   return pass;
 }
 if (require.main === module) main().then((p) => process.exit(p ? 0 : 1), (e) => { console.error(e); process.exit(1); });
-module.exports = { validateBank, validateCommon, main };
+module.exports = { validateBank, validateCommon, reasonReadFindings, REASON_READ, main };

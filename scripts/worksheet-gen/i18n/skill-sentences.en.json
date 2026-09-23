@@ -378,5 +378,45 @@
   "rounding": {
     "full": "Looking at the deciding digit and writing the nearest ten or hundred, then rounding first to estimate a sum, builds the rounding rule children use for checking.",
     "short": "Builds rounding to the nearest ten and hundred."
+  },
+  "2d-shapes": {
+    "full": "Naming circles, squares, triangles and rectangles even when they are turned, stretched or small, and spotting the ones that only look close, builds true shape names.",
+    "short": "Builds naming flat shapes in any position."
+  },
+  "road-safety": {
+    "full": "Reading which lamp is lit, following the steps to cross the road and learning what each road sign asks for gives children the rules that keep them safe outside.",
+    "short": "Builds traffic lights, crossing and road signs."
+  },
+  "family": {
+    "full": "Finding each person on a family tree and naming them from one child's point of view builds the family words children use every day, from grandma to cousin.",
+    "short": "Builds the family words and reading a family tree."
+  },
+  "plants": {
+    "full": "Labelling the roots, stem, leaf, flower, fruit and seed of a whole plant, then asking what each part does and what a plant needs, builds a first plant science vocabulary.",
+    "short": "Builds the parts of a plant and what they do."
+  },
+  "animal-life-cycles": {
+    "full": "Putting the egg, caterpillar, chrysalis and butterfly (and the frog's stages) in order around a circle shows children that animals change as they grow and start again.",
+    "short": "Builds the butterfly and frog life cycles in order."
+  },
+  "earth-and-space": {
+    "full": "Deciding whether a fact is about the Sun, the Earth or the Moon, ordering the moon shapes and the planets, and explaining day and night builds a child's first picture of space.",
+    "short": "Builds the Sun, Earth, Moon, moon phases and planets."
+  },
+  "maps": {
+    "full": "Reading a map key, seeing things from above, finding north, south, east and west and naming the continents and oceans builds the first map skills children need.",
+    "short": "Builds map keys, directions and continents."
+  },
+  "digraphs": {
+    "full": "Saying each picture word and finding the two letters that make one sound, such as sh, ch and th, trains children to hear and read letter teams in new words.",
+    "short": "Builds hearing and reading letter teams."
+  },
+  "synonyms": {
+    "full": "Finding the word that means the same, putting close words in order from a little to a lot and choosing a better word for said grows the vocabulary children write with.",
+    "short": "Builds words that mean the same and shades of meaning."
+  },
+  "word-parts": {
+    "full": "Sorting words by their root word, finding the root that three words share and adding a prefix or a suffix shows children how words are built and what they mean.",
+    "short": "Builds root words, prefixes and suffixes."
   }
 }

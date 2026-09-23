@@ -20,6 +20,9 @@
  *   reference (F5) all four letters in white circles r 20 units (teal 2), no boxes; upright;
  *             the coral N marker; letters 30 units (14.4 px at px 96 — the design's 26 units
  *             measured 12.5 px, under its own 14 px floor).
+ *   overflow  the root is overflow:visible (Phase E, 2026-09-23): the side boxes / circles reach
+ *             the viewBox edge (x 0 / 200), so half their stroke was clipped — measured on the
+ *             F2 render as a missing box border. Only the G1-379 faces consume this primitive.
  *
  * API
  *   compassRose({ px = 196, rotation = 0, given = 'n', letters, reference = false, marker })
@@ -91,7 +94,7 @@ function compassRose({ px = 196, rotation = 0, given = 'n', letters, reference =
     boxes.push({ pos, dir, letter, given: isGiven });
   }
   const svg = svgRoot({ width: px, height: px, viewBox: `0 0 ${VIEW} ${VIEW}`, label: '' }, parts.join(''),
-    { 'data-lcs-prim': 'compass-rose', 'data-lcs-rot': rotation, ...(reference ? { 'data-lcs-reference': '' } : {}), style: 'display:block' });
+    { 'data-lcs-prim': 'compass-rose', 'data-lcs-rot': rotation, ...(reference ? { 'data-lcs-reference': '' } : {}), style: 'display:block;overflow:visible' });
   return { svg, meta: { rotation, boxes } };
 }
 

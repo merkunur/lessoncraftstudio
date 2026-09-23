@@ -33,6 +33,11 @@
  * 5. POISON — each must FAIL for its OWN reason (no fail = SILENT, another fail = WRONG REASON;
  *    either exits 1); the correct EN bank is the control. §5 P1-P13 + the base render poisons
  *    PR1 PR2 PR17 PR18 PR19 + PS (a sparse band) + PT (the card order = the key order).
+ * 6. FACES (Phase E, 2026-09-23) — qa/b5-maps-faces.js: K-377 top-view · G2-369 compass-rose ·
+ *    G2-370 continents · G3-396 continents-oceans · G2-371 directions-on-map. Strings = bank, node
+ *    sweeps + per-page tells, renders at the own / 814 / 722 / 677 chromes (FILL at 814), 20-seed
+ *    render sweeps, and the face poisons PR5 PR7 PR8 PR11-PR16 + SPARSE / FILL / answer-tell /
+ *    apparatus per face + P11b (PR6 is killed by verify-top-side-view in section 0).
  */
 'use strict';
 const path = require('path');
@@ -61,8 +66,19 @@ const INSTR_BANS_EN = {
   'directions-on-map': [/(?<!\p{L})steps?(?!\p{L})/iu, /square/i, /(?<!\p{L})left(?!\p{L})/iu, /(?<!\p{L})right(?!\p{L})/iu],
   'compass-rose': [], 'continents-oceans': [],
 };
+/** Phase E (faces): an instruction names ONLY apparatus its own page prints (nt10-E addition 4) —
+ *  F1 has no map and nothing to write; F2 has no map, no line, nothing to circle; F3 nothing to
+ *  circle; F4 no line, nothing to circle; F5 no line and nothing to write (the child circles a chip). */
+for (const [k, extra] of Object.entries({
+  'top-view': [/(?<!\p{L})maps?(?!\p{L})/iu],
+  'compass-rose': [/(?<!\p{L})maps?(?!\p{L})/iu, /circle/i, /(?<!\p{L})lines?(?!\p{L})/iu],
+  continents: [/circle/i],
+  'continents-oceans': [/circle/i, /(?<!\p{L})lines?(?!\p{L})/iu],
+  'directions-on-map': [/write/i, /(?<!\p{L})lines?(?!\p{L})/iu],
+})) INSTR_BANS_EN[k] = [...INSTR_BANS_EN[k], ...extra];
 const INSTR_MUST_EN = { 'compass-rose': [/compass rose/i], 'continents-oceans': [/number/i] };
-const COMPASS_WORD = /(?<!\p{L})(kompass|boussole|bússola|bussola|kompas)(?!\p{L})/iu;
+// + en `compass` (Phase E): the English title may not say "compass" at all — treasure-hunt owns that query
+const COMPASS_WORD = /(?<!\p{L})(compass|kompass|boussole|bússola|bussola|kompas)(?!\p{L})/iu;
 const SPARSE_MAX = 40;
 const graphemes = (s) => [...new Intl.Segmenter(undefined, { granularity: 'grapheme' }).segment(s)].length;
 const firstGrapheme = (s) => { const it = new Intl.Segmenter(undefined, { granularity: 'grapheme' }).segment(s)[Symbol.iterator]().next(); return it.done ? '' : it.value.segment; };
@@ -321,7 +337,8 @@ async function main() {
     const loc = (l, patch) => ({ ...clone(en), ...patch, setSource: patch.setSource !== undefined ? patch.setSource : 'test source', strings: clone(en.strings) });
     const W = (n, e, s, w) => ({ n, e, s, w });
     const deCtl = loc('de', { dirWords: W('Norden', 'Osten', 'Süden', 'Westen'), dirLetters: W('N', 'O', 'S', 'W'), symbolWords: { house: 'Haus', tree: 'Baum', bush: 'Strauch', pond: 'Teich', bench: 'Bank', tent: 'Zelt', flowerBed: 'Blumenbeet', bridge: 'Brücke' } });
-    deCtl.strings = Object.fromEntries(Object.entries(en.strings).map(([k, v]) => [k, { title: 'Karte ' + k, instruction: v.instruction }]));
+    // (Phase E) the control titles no longer embed the layout key: 'Karte compass-rose' now reads the standalone en `compass`
+    deCtl.strings = Object.fromEntries(Object.entries(en.strings).map(([k, v], i) => [k, { title: 'Karte ' + 'abcdef'[i], instruction: v.instruction }]));
     const deF = validateBank(deCtl, 'de'); log.push(`  control de draft: ${deF.length} findings${deF.length ? ' — ' + deF.slice(0, 3).join(' | ') : ''}`); ok(!deF.length, 'the de control draft must be clean');
     judge('P1 pt dirLetters.e "E"', validateBank(loc('pt', { dirWords: W('norte', 'leste', 'sul', 'oeste'), dirLetters: W('N', 'E', 'S', 'O') }), 'pt'), /dirLetters\.e "E" ≠ the initial of dirWords\.e "leste" \(rule 2\)/);
     judge('P2 de dirLetters.e "E"', validateBank({ ...deCtl, dirLetters: W('N', 'E', 'S', 'W') }, 'de'), /dirLetters\.e "E" ≠ the initial of dirWords\.e "Osten" \(rule 2\)/);
@@ -366,6 +383,8 @@ async function main() {
       const keyAsked = probe.keyOrder.filter((k) => probe.asked.includes(k));
       await rp('PT the card order = the key order', withExtra({ forceCards: keyAsked }), /the card order equals the key order/, { seedEpoch: 1 });
     }
+    // 6. FACES (Phase E) — the five faces: strings, node sweeps + tells, renders at 814 / 722 / 677, poisons
+    await require('./b5-maps-faces.js').faceGate({ page, ok, judge, fails, log, validateBank, quick });
   } finally { await browser.close(); }
 
   console.log('poison:\n' + log.join('\n'));

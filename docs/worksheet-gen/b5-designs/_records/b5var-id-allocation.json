@@ -1,0 +1,511 @@
+{
+ "generated": "2026-09-23",
+ "next": {
+  "K": 379,
+  "G1": 398,
+  "G2": 377,
+  "G3": 400
+ },
+ "faces": [
+  {
+   "family": "K-368",
+   "key": "2d-shapes",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-381",
+   "title": "Real or Not?",
+   "heading": "F1 : Real or Not? (G1, CODE `mode:'real-or-not'`)"
+  },
+  {
+   "family": "K-368",
+   "key": "2d-shapes",
+   "face": 2,
+   "band": "K",
+   "dir": "k",
+   "id": "K-371",
+   "title": "Shapes Around Us",
+   "heading": "F2 : Shapes Around Us (K, CODE `mode:'around-us'`)"
+  },
+  {
+   "family": "K-368",
+   "key": "2d-shapes",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-382",
+   "title": "Write the Names",
+   "heading": "F3 : Write the Names (G1, CODE `mode:'write-name'`)"
+  },
+  {
+   "family": "K-368",
+   "key": "2d-shapes",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-383",
+   "title": "Shape Riddles",
+   "heading": "F4 : Shape Riddles (G1, CODE `mode:'riddles'`)"
+  },
+  {
+   "family": "K-368",
+   "key": "2d-shapes",
+   "face": 5,
+   "band": "K",
+   "dir": "k",
+   "id": "K-372",
+   "title": "Draw on Dots",
+   "heading": "F5 : Draw on Dots (K, CODE `mode:'dot-draw'`, OPEN: no verify)"
+  },
+  {
+   "family": "K-369",
+   "key": "road-safety",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-373",
+   "title": "Colour the Traffic Lights",
+   "heading": "F1 : Colour the Traffic Lights (K, CODE `mode:'colour-lights'`)"
+  },
+  {
+   "family": "K-369",
+   "key": "road-safety",
+   "face": 2,
+   "band": "K",
+   "dir": "k",
+   "id": "K-374",
+   "title": "Crossing the Road: the Steps",
+   "heading": "F2 : Crossing the Road: the Steps (K, CODE `mode:'crossing-steps'`)"
+  },
+  {
+   "family": "K-369",
+   "key": "road-safety",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-384",
+   "title": "Road Signs and What They Mean",
+   "heading": "F3 : Road Signs and What They Mean (G1, CODE `mode:'sign-meaning'`)"
+  },
+  {
+   "family": "K-369",
+   "key": "road-safety",
+   "face": 4,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-360",
+   "title": "Kinds of Road Signs: Sort Them",
+   "heading": "F4 : Kinds of Road Signs: Sort Them (G2, CODE `mode:'sign-kinds'`)"
+  },
+  {
+   "family": "K-369",
+   "key": "road-safety",
+   "face": 5,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-361",
+   "title": "Which Sign Fits?",
+   "heading": "F5 : Which Sign Fits? (G2, CODE `mode:'sign-quiz'`)"
+  },
+  {
+   "family": "K-370",
+   "key": "family",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-385",
+   "title": "Family Generations: Oldest to Youngest",
+   "heading": "F1 : Family Generations: Oldest to Youngest (G1, CODE `mode:'generations'`)"
+  },
+  {
+   "family": "K-370",
+   "key": "family",
+   "face": 2,
+   "band": "K",
+   "dir": "k",
+   "id": "K-375",
+   "title": "Family Words: Trace and Write",
+   "heading": "F2 : Family Words: Trace and Write (K, CODE `mode:'trace-words'`)"
+  },
+  {
+   "family": "K-370",
+   "key": "family",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-386",
+   "title": "Family Tree: Read the Clues",
+   "heading": "F3 : Family Tree: Read the Clues (G1, CODE `mode:'tree-clues'`)"
+  },
+  {
+   "family": "K-370",
+   "key": "family",
+   "face": 4,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-362",
+   "title": "Family Riddles: Who Is It?",
+   "heading": "F4 : Family Riddles: Who Is It? (G2, CODE `mode:'relation-riddles'`)"
+  },
+  {
+   "family": "K-370",
+   "key": "family",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-387",
+   "title": "Family Tree Template",
+   "heading": "F5 : Family Tree Template (G1, CODE `mode:'tree-template'`, OPEN, no verify())"
+  },
+  {
+   "family": "G1-376",
+   "key": "plants",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-376",
+   "title": "What Plants Need to Grow",
+   "heading": "F1 : What Plants Need to Grow (K, CODE `layout:'needs'`)"
+  },
+  {
+   "family": "G1-376",
+   "key": "plants",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-388",
+   "title": "From Seed to Plant, the cycle wheel",
+   "heading": "F2 : From Seed to Plant, the cycle wheel (G1, CODE `layout:'cycle'`)"
+  },
+  {
+   "family": "G1-376",
+   "key": "plants",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-363",
+   "title": "Which Part of the Plant Do We Eat?",
+   "heading": "F3 : Which Part of the Plant Do We Eat? (G2, CODE `layout:'eat'`)"
+  },
+  {
+   "family": "G1-376",
+   "key": "plants",
+   "face": 4,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-364",
+   "title": "Parts of a Plant and Their Functions",
+   "heading": "F4 : Parts of a Plant and Their Functions (G2, CODE `layout:'jobs'`)"
+  },
+  {
+   "family": "G1-376",
+   "key": "plants",
+   "face": 5,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-392",
+   "title": "Parts of a Flower",
+   "heading": "F5 : Parts of a Flower (G3, CODE `layout:'flower'`)"
+  },
+  {
+   "family": "G1-377",
+   "key": "animal-life-cycles",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-389",
+   "title": "Frog Life Cycle, Cut and Paste",
+   "heading": "F1 : Frog Life Cycle, Cut and Paste (G1, CODE `layout:'frog-cut-paste'`, `animal:'frog'`)"
+  },
+  {
+   "family": "G1-377",
+   "key": "animal-life-cycles",
+   "face": 2,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-365",
+   "title": "Label the Butterfly Life Cycle",
+   "heading": "F2 : Label the Butterfly Life Cycle (G2, CODE `layout:'label'`)"
+  },
+  {
+   "family": "G1-377",
+   "key": "animal-life-cycles",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-366",
+   "title": "Metamorphosis: Which Animal Will It Become?",
+   "heading": "F3 : Metamorphosis: Which Animal Will It Become? (G2, CODE `layout:'metamorphosis'`)"
+  },
+  {
+   "family": "G1-377",
+   "key": "animal-life-cycles",
+   "face": 4,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-393",
+   "title": "Butterfly and Frog Life Cycles Compared",
+   "heading": "F4 : Butterfly and Frog Life Cycles Compared (G3, CODE `layout:'compare'`)"
+  },
+  {
+   "family": "G1-377",
+   "key": "animal-life-cycles",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-390",
+   "title": "What Comes Next? Butterfly, Frog and Ladybird",
+   "heading": "F5 : What Comes Next? Butterfly, Frog and Ladybird (G1, CODE `layout:'next'`)"
+  },
+  {
+   "family": "G1-378",
+   "key": "earth-and-space",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-391",
+   "title": "Moon Phases in Order",
+   "heading": "F1 : Moon Phases in Order (G1, CODE `layout:'moon-phases-in-order'`)"
+  },
+  {
+   "family": "G1-378",
+   "key": "earth-and-space",
+   "face": 2,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-367",
+   "title": "Name the Moon Phases",
+   "heading": "F2 : Name the Moon Phases (G2, CODE `layout:'moon-phase-names'`)"
+  },
+  {
+   "family": "G1-378",
+   "key": "earth-and-space",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-368",
+   "title": "Why Do We Have Day and Night?",
+   "heading": "F3 : Why Do We Have Day and Night? (G2, CODE `layout:'day-and-night-model'`)"
+  },
+  {
+   "family": "G1-378",
+   "key": "earth-and-space",
+   "face": 4,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-394",
+   "title": "Planets in Order from the Sun",
+   "heading": "F4 : Planets in Order from the Sun (G3, CODE `layout:'planets-in-order'`)"
+  },
+  {
+   "family": "G1-378",
+   "key": "earth-and-space",
+   "face": 5,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-395",
+   "title": "Giant and Rocky Planets",
+   "heading": "F5 : Giant and Rocky Planets (G3, CODE `layout:'planet-sizes'`)"
+  },
+  {
+   "family": "G1-379",
+   "key": "maps",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-377",
+   "title": "Bird's-Eye View",
+   "heading": "F1 : Bird's-Eye View (K, CODE `layout:'top-view'`)"
+  },
+  {
+   "family": "G1-379",
+   "key": "maps",
+   "face": 2,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-369",
+   "title": "The Compass Rose",
+   "heading": "F2 : The Compass Rose (G2, CODE `layout:'compass-rose'`)"
+  },
+  {
+   "family": "G1-379",
+   "key": "maps",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-370",
+   "title": "Label the Continents",
+   "heading": "F3 : Label the Continents (G2, CODE `layout:'continents'`)"
+  },
+  {
+   "family": "G1-379",
+   "key": "maps",
+   "face": 4,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-396",
+   "title": "Continents and Oceans",
+   "heading": "F4 : Continents and Oceans (G3, CODE `layout:'continents-oceans'`)"
+  },
+  {
+   "family": "G1-379",
+   "key": "maps",
+   "face": 5,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-371",
+   "title": "Directions on a Map",
+   "heading": "F5 : Directions on a Map (G2, CODE `layout:'directions-on-map'`)"
+  },
+  {
+   "family": "G1-380",
+   "key": "digraphs",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-378",
+   "title": "Sort by Letter Team",
+   "heading": "F1 : Sort by Letter Team (K, CODE `mode:'sort-two'`)"
+  },
+  {
+   "family": "G1-380",
+   "key": "digraphs",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-392",
+   "title": "Write the Missing Letter Team",
+   "heading": "F2 : Write the Missing Letter Team (G1, CODE `mode:'gap'`)"
+  },
+  {
+   "family": "G1-380",
+   "key": "digraphs",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-393",
+   "title": "Read and Match",
+   "heading": "F3 : Read and Match (G1, CODE `mode:'match'`)"
+  },
+  {
+   "family": "G1-380",
+   "key": "digraphs",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-394",
+   "title": "Where Is the Letter Team?",
+   "heading": "F4 : Where Is the Letter Team? (G1, CODE `mode:'position'`)"
+  },
+  {
+   "family": "G1-380",
+   "key": "digraphs",
+   "face": 5,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-372",
+   "title": "Letter Teams in Sentences",
+   "heading": "F5 : Letter Teams in Sentences (G2, CODE `mode:'text'`)"
+  },
+  {
+   "family": "G2-358",
+   "key": "synonyms",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-395",
+   "title": "Synonyms with Pictures: Two Words, One Picture",
+   "heading": "F1 : Synonyms with Pictures: Two Words, One Picture (G1, CODE `mode:'pictures'`)"
+  },
+  {
+   "family": "G2-358",
+   "key": "synonyms",
+   "face": 2,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-373",
+   "title": "Match the Synonym Socks",
+   "heading": "F2 : Match the Synonym Socks (G2, CODE `mode:'pairs'`)"
+  },
+  {
+   "family": "G2-358",
+   "key": "synonyms",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-396",
+   "title": "Shades of Meaning: From a Little to a Lot",
+   "heading": "F3 : Shades of Meaning: From a Little to a Lot (G1, CODE `mode:'shades'`)"
+  },
+  {
+   "family": "G2-358",
+   "key": "synonyms",
+   "face": 4,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-374",
+   "title": "Synonyms for \"Said\": Pick the Word That Fits",
+   "heading": "F4 : Synonyms for \"Said\": Pick the Word That Fits (G2, CODE `mode:'say'`)"
+  },
+  {
+   "family": "G2-358",
+   "key": "synonyms",
+   "face": 5,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-397",
+   "title": "Word Fields: Words for \"Go\" and \"Look\"",
+   "heading": "F5 : Word Fields: Words for \"Go\" and \"Look\" (G3, CODE `mode:'fields'`)"
+  },
+  {
+   "family": "G2-359",
+   "key": "word-parts",
+   "face": 1,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-397",
+   "title": "Picture Families: Circle the Word",
+   "heading": "F1 : Picture Families: Circle the Word (G1, CODE `mode:'picture-family'`)"
+  },
+  {
+   "family": "G2-359",
+   "key": "word-parts",
+   "face": 2,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-375",
+   "title": "Find the Root Word",
+   "heading": "F2 : Find the Root Word (G2, CODE `mode:'root-word'`)"
+  },
+  {
+   "family": "G2-359",
+   "key": "word-parts",
+   "face": 3,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-376",
+   "title": "Prefixes: Pick by Meaning",
+   "heading": "F3 : Prefixes: Pick by Meaning (G2, CODE `mode:'prefix-key'`)"
+  },
+  {
+   "family": "G2-359",
+   "key": "word-parts",
+   "face": 4,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-398",
+   "title": "Who Does It? The Person Word",
+   "heading": "F4 : Who Does It? The Person Word (G3, CODE `mode:'who-does-it'`)"
+  },
+  {
+   "family": "G2-359",
+   "key": "word-parts",
+   "face": 5,
+   "band": "G3",
+   "dir": "g3",
+   "id": "G3-399",
+   "title": "One Family, Four Sentences",
+   "heading": "F5 : One Family, Four Sentences (G3, CODE `mode:'family-in-sentence'`)"
+  }
+ ]
+}

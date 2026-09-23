@@ -265,9 +265,19 @@ async function renderWith(page, type, { difficulty = 2, baseName, strings, seedE
       boxes: root ? [...root.querySelectorAll('[data-lcs-box]')].map((b) => rect(b).w) : [],
       lowest: Math.max(0, ...[...(root ? root.querySelectorAll('*') : [])].map((e) => e.getBoundingClientRect().bottom)),
       arrangement: root && root.querySelector('[data-lcs-plate]') ? root.querySelector('[data-lcs-plate]').dataset.lcsArrangement : null,
+      // base FILL: the bottom of the INK (the plate's scenery, lenses, boxes, the loop arrow), never of the elastic loop row
+      ink: root ? Math.max(0, ...[...root.querySelectorAll('svg, [data-lcs-lens], .ws-blankbox, [data-lcs-given]')].map((e) => e.getBoundingClientRect().bottom)) : 0,
+      loopLensW: root && root.querySelector('[data-lcs-loop-lens]') ? root.querySelector('[data-lcs-loop-lens]').getBoundingClientRect().width : 0,
     };
   });
   return { out, m, verify: out.qa.verify, lints: out.qa.lints };
+}
+/** Base FILL (base review 2026-09-23, _FACE-BRIEF.md FILL): at the en one-line-title chrome the ink reaches >= 85 % of the body, and never leaves it. */
+function assertBaseFill(name, r, { fill } = {}) {
+  const m = r.m, share = (m.ink - m.body.top) / m.body.h;
+  if (fill === 'one') ok(share >= FILL_MIN, `${name}: FILL — the content ends at ${(share * 100).toFixed(1)} % of the body (< ${FILL_MIN * 100} %): grow the loop row, not the whitespace`);
+  ok(m.ink <= m.body.bottom + 0.5 && m.ink <= m.foot + 0.5, `${name}: FILL overflow — the content ends ${(m.ink - m.body.bottom).toFixed(0)} px past the body`);
+  return share;
 }
 function assertRender(name, r, { d, body } = {}) {
   ok(!r.verify.length, `${name}: verify ${JSON.stringify(r.verify.slice(0, 4))}`);
@@ -378,12 +388,14 @@ async function main() {
     for (const d of [1, 2, 3]) {
       const r = await renderWith(page, TYPE, { difficulty: d, baseName: `G1-377-gate-d${d}-en` });
       assertRender(`d${d}`, r, { d: TYPE.difficulty[d] });
-      console.log(`render d${d}: verify ${r.verify.length} lints ${r.lints.length} body ${r.m.body.h.toFixed(0)} gaps [${r.m.gaps.map((g) => g.toFixed(0))}] lowest ${r.m.lowest.toFixed(0)} foot ${r.m.foot.toFixed(0)} arrangement ${r.m.arrangement}`);
+      const share = assertBaseFill(`d${d}`, r, { fill: TYPE.difficulty[d].loop ? 'one' : undefined });   // d1 has no loop row (no elastic block; a non-shipped warm-up)
+      console.log(`render d${d}: fill ${(share * 100).toFixed(1)} % loop lens ${r.m.loopLensW.toFixed(0)} verify ${r.verify.length} lints ${r.lints.length} body ${r.m.body.h.toFixed(0)} gaps [${r.m.gaps.map((g) => g.toFixed(0))}] lowest ${r.m.lowest.toFixed(0)} foot ${r.m.foot.toFixed(0)} arrangement ${r.m.arrangement}`);
     }
     for (const k of Object.keys(LONG)) {
       const r = await renderWith(page, TYPE, { difficulty: 2, baseName: `G1-377-gate-d2-longchrome-${k}`, strings: LONG[k] });
       assertRender(`d2 long chrome ${k}`, r, { d: TYPE.difficulty[2], body: LONG[k].body });
-      console.log(`render d2 long chrome ${k}: body ${r.m.body.h.toFixed(0)} px (target <= ${LONG[k].body}) gaps [${r.m.gaps.map((g) => g.toFixed(0))}] lowest ${r.m.lowest.toFixed(0)} foot ${r.m.foot.toFixed(0)}`);
+      const share = assertBaseFill(`d2 long chrome ${k}`, r);
+      console.log(`render d2 long chrome ${k}: fill ${(share * 100).toFixed(1)} % loop lens ${r.m.loopLensW.toFixed(0)} body ${r.m.body.h.toFixed(0)} px (target <= ${LONG[k].body}) gaps [${r.m.gaps.map((g) => g.toFixed(0))}] lowest ${r.m.lowest.toFixed(0)} foot ${r.m.foot.toFixed(0)}`);
     }
     // 4. sweep: every arrangement forced, then the seeds
     for (const A of N.ARRANGEMENTS) {
@@ -424,7 +436,22 @@ async function main() {
     await rp('PR3 box 2 printed', doctored((h) => h.replace(/(data-lcs-answer="2"[^>]*>)(<\/span>)/, '$12$2')), /answer printed: the larva box shows "2"/);
     await rp('PR4 tether 20 px off its spot', doctored((h) => h.replace(/(<line [^>]*x2=")([\d.]+)("[^>]*data-lcs-tether="pupa")/, (m, a, x, b) => a + (+x + 20) + b)), /tether off spot: the pupa tether/);
     await rp('PR15 answerBox in place of blankNumeralBox', doctored((h) => h.replace(/<span class="ws-blankbox" (data-lcs-box data-lcs-pos="(\w\w)") data-lcs-answer="3" style="([^"]*)"><\/span>/, (m, a, p, st) => answerBox({ w: 56, h: 56 }).replace('class="ws-answerbox" style="', `class="ws-answerbox" ${a} style="${st.replace(/width:[^;]*;height:[^;]*;flex:[^;]*/, '')};`))), /expects "undefined"/);
-    await rp('PS space-between (sparse)', doctored((h) => h.replace('justify-content:flex-start', 'justify-content:space-between')), /SPARSE — a \d+ px blank band/, { assert: true });
+    // base FILL, poisoned BOTH ways: (a) the loop row frozen at its 116 minimum ends high at the one-line chrome
+    // (the pre-review page, ~83 %); (b) the row forced past the 667 fi body leaves the page.
+    {
+      const frozen = doctored((h) => { const x = h.replace(/flex:1 1 116px;min-height:116px;max-height:\d+px;container-type:size/, 'flex:0 0 116px;height:116px;container-type:size'); if (x === h) throw new Error('FL: the loop row changed shape'); return x; });
+      for (const d of [2, 3]) {
+        const r = await renderWith(page, frozen, { difficulty: d, baseName: `G1-377-gate-poison-FL-base-d${d}` });
+        const before = fails.length; assertBaseFill(`FL d${d}`, r, { fill: 'one' }); judge(`FL-base-d${d} loop row frozen at its minimum (content ends high)`, fails.splice(before), /FILL — the content ends at/);
+      }
+      const grown = doctored((h) => { const x = h.replace(/flex:1 1 116px;min-height:116px;max-height:\d+px;container-type:size/, 'flex:0 0 200px;height:200px;container-type:size'); if (x === h) throw new Error('FG: the loop row changed shape'); return x; });
+      const r = await renderWith(page, grown, { difficulty: 2, baseName: 'G1-377-gate-poison-FG-base', strings: LONG.fi });
+      const before = fails.length; assertBaseFill('FG', r); judge('FG-base loop row grown past the 667 fi body', [...fails.splice(before), ...r.verify], /FILL overflow|leaves the body/);
+      const c = await renderWith(page, TYPE, { difficulty: 2, baseName: 'G1-377-gate-fill-control' });
+      log.push(`  base FILL control: the shipped d2 ends at ${(100 * (c.m.ink - c.m.body.top) / c.m.body.h).toFixed(1)} % of the ${c.m.body.h.toFixed(0)} px body (>= ${FILL_MIN * 100} %)`);
+    }
+    // PS: the loop row frozen at its 116 minimum (else it absorbs the slack) and the column spread (space-between)
+    await rp('PS space-between (sparse)', doctored((h) => h.replace(/flex:1 1 116px;min-height:116px;max-height:\d+px;container-type:size/, 'flex:0 0 116px;height:116px;container-type:size').replace('justify-content:flex-start', 'justify-content:space-between')), /SPARSE — a \d+ px blank band/, { assert: true });
     /* ---------------------------------------------------------------- 6. FACES (Phase E) */
     const F = {}; for (const l of FACES) F[l] = faceType(l);
     // 6a. node sweep per face: locale-neutral draw (en vs a synthetic de draft), distinct pages, tell shapes reached

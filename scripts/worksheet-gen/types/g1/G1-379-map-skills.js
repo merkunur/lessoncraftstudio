@@ -37,6 +37,10 @@
  * (639 x 524: border 3 + pad 9 + field 615 x 346 + 8 + legend 146 + 9 + 3), a fixed 20 px gap,
  * the strip (d2 5 x 119 + 4 x 11 = 639). Slack falls BELOW the strip, never between blocks
  * (the nt10-D SPARSE ruling; the gate asserts the band <= 40 px).
+ * FILL (base review 2026-09-23): the strip is a size container growing from its minimum (d2 120,
+ * d1 172) to stripMax (d1 212 / d2 d3 184) with the body; its numeral boxes grow 4:3 (capped at
+ * the card width) and the word bands take the rest — ~91 % of the 799 body at the en chrome
+ * instead of ~83 %, the 120 minimum at the 667 fi body.
  *
  * Stamps: root [data-ws-content][data-lcs-type="maps"] data-lcs-locale data-lcs-key (ids, key
  * order) data-lcs-asked data-lcs-unasked data-lcs-footpaths data-lcs-sym-px data-lcs-show-sym
@@ -120,9 +124,9 @@ const TYPE = {
   exerciseType: KEY,
   themeAxis: { applicable: false },
   difficulty: {
-    1: { island: 'isle-1', keySize: 4, cols: 2, asked: 4, countMax: 4, minDistinct: 3, unasked: 0, unaskedMax: 0, nearMiss: 'none', rowsShowSymbol: true, symPx: 48, placedMax: 10, footpaths: [[]], northArrow: true },
-    2: { island: 'isle-1', keySize: 6, cols: 3, asked: 5, countMax: 5, minDistinct: 4, unasked: 1, unaskedMax: 3, nearMiss: 'both-in-key', rowsShowSymbol: false, symPx: 44, placedMax: 16, footpaths: [[], ['P1'], ['P2']], northArrow: true },
-    3: { island: 'isle-1', keySize: 8, cols: 4, asked: 6, countMax: 6, minDistinct: 5, unasked: 2, unaskedMax: 3, nearMiss: 'both-asked', rowsShowSymbol: false, symPx: 44, placedMax: 20, footpaths: [[]], northArrow: true },
+    1: { island: 'isle-1', keySize: 4, cols: 2, asked: 4, countMax: 4, minDistinct: 3, unasked: 0, unaskedMax: 0, nearMiss: 'none', rowsShowSymbol: true, symPx: 48, placedMax: 10, footpaths: [[]], northArrow: true, stripMax: 212 },
+    2: { island: 'isle-1', keySize: 6, cols: 3, asked: 5, countMax: 5, minDistinct: 4, unasked: 1, unaskedMax: 3, nearMiss: 'both-in-key', rowsShowSymbol: false, symPx: 44, placedMax: 16, footpaths: [[], ['P1'], ['P2']], northArrow: true, stripMax: 184 },
+    3: { island: 'isle-1', keySize: 8, cols: 4, asked: 6, countMax: 6, minDistinct: 5, unasked: 2, unaskedMax: 3, nearMiss: 'both-asked', rowsShowSymbol: false, symPx: 44, placedMax: 20, footpaths: [[]], northArrow: true, stripMax: 184 },
   },
   i18n: {
     en: {
@@ -222,7 +226,10 @@ const TYPE = {
     const island = IM.islandMap({ w: FIELD_W, symbols: c.symbols, footpaths: c.footpaths, northArrow: d.northArrow ? { letter: northLetter } : null, symPx: d.symPx });
     const legend = C5.legendBand({ title: keyTitle, rows: c.keyOrder.map((id) => ({ id, word: words[id] })), cols: d.cols, symPx: d.symPx });
     const sheet = C5.mapSheet({ field: island.svg, legend });
-    const strip = C5.countStrip({ cards: c.cards.map((id) => ({ id, word: words[id], answer: c.counts[id], symbol: d.rowsShowSymbol || d.forceShowSymbol })) });
+    // FILL (base review 2026-09-23): the strip grows from its content minimum to stripMax with the body (the
+    // numeral boxes and word bands grow), so the page never ends high at the 814 chrome; at the 667 fi body it
+    // stays at its minimum. stripMax undefined = the fixed strip.
+    const strip = C5.countStrip({ cards: c.cards.map((id) => ({ id, word: words[id], answer: c.counts[id], symbol: d.rowsShowSymbol || d.forceShowSymbol })), grow: d.stripMax !== undefined ? { maxH: d.stripMax } : undefined });
     const js = (o) => JSON.stringify(o).replace(/'/g, '&#39;');
     const bodyHtml = `<div data-ws-content data-lcs-type="${KEY}" data-lcs-locale="${loc}" data-lcs-key="${c.keyOrder.join(',')}" data-lcs-asked="${c.asked.join(',')}" ` +
       `data-lcs-unasked="${c.unasked.join(',')}" data-lcs-footpaths="${c.footpaths.join(',')}" data-lcs-sym-px="${d.symPx}" data-lcs-show-sym="${d.rowsShowSymbol ? 1 : 0}" ` +

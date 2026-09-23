@@ -199,22 +199,29 @@ async function renderWith(page, type, { difficulty = 2, baseName, strings, seedE
     const keySymW = [...root.querySelectorAll('[data-lcs-legend] svg[data-lcs-symbol]')].map((s) => s.getBoundingClientRect().width);
     const boxes = [...root.querySelectorAll('[data-lcs-count-box]')].map((b) => R(b));
     const words = [...root.querySelectorAll('[data-lcs-row-word], [data-lcs-key-word]')].map((w) => parseFloat(getComputedStyle(w).fontSize));
+    // base FILL: the bottom of the INK (the sheet, the cards, their boxes), never of an elastic container
+    const ink = Math.max(R(sheet).bottom, ...[...root.querySelectorAll('.mp-card, [data-lcs-count-box]')].map((e) => e.getBoundingClientRect().bottom));
     return {
-      body: body ? R(body) : null, foot: foot ? R(foot).top : 0, sheet: R(sheet), strip: R(strip), root: R(root),
+      body: body ? R(body) : null, foot: foot ? R(foot).top : 0, sheet: R(sheet), strip: R(strip), root: R(root), ink,
       bands: [R(sheet).top - R(body).top, R(strip).top - R(sheet).bottom],
       symW, keySymW, boxes, words, stamps: root.dataset.lcsKey + '|' + [...root.querySelectorAll('[data-lcs-row]')].map((c) => c.dataset.lcsRow).join() + '|' + [...field.querySelectorAll('svg[data-lcs-sym]')].map((s) => s.dataset.lcsX + ',' + s.dataset.lcsY).join(';'),
     };
   });
   return { out, m, verify: out.qa.verify, lints: out.qa.lints };
 }
-function assertRender(name, r, { symPx = 44, body } = {}) {
+const BASE_FILL_MIN = 0.85;   // _FACE-BRIEF.md FILL (base review 2026-09-23): >= 85 % of the body at the en chrome, inside at 677
+function assertRender(name, r, { symPx = 44, body, fill } = {}) {
   ok(!r.verify.length, `${name}: verify ${JSON.stringify(r.verify.slice(0, 4))}`);
   ok(!r.lints.length, `${name}: lints ${JSON.stringify(r.lints.slice(0, 4))}`);
   const m = r.m;
   if (!ok(!!m, `${name}: no maps root`)) return;
   ok(m.symW.length > 0 && m.symW.every((w) => Math.abs(w - symPx) < 0.6), `${name}: a map symbol ≠ ${symPx} px`);
   ok(m.keySymW.every((w) => Math.abs(w - symPx) < 0.6), `${name}: a key symbol ≠ ${symPx} px (the key must show the map's size)`);
-  ok(m.boxes.every((b) => Math.abs(b.w - 64) < 0.6 && Math.abs(b.h - 48) < 0.6), `${name}: a numeral box is not 64 x 48 [${m.boxes.map((b) => b.w.toFixed(0) + "x" + b.h.toFixed(0))}]`);
+  // the numeral boxes GROW with the strip (FILL): never under 64 x 48, never taller than 4:3 of their width
+  ok(m.boxes.length > 0 && m.boxes.every((b) => b.w >= 64 - 0.6 && b.h >= 48 - 0.6 && b.h <= b.w * 0.75 + 0.6), `${name}: a numeral box under 64 x 48 or not 4:3 [${m.boxes.map((b) => b.w.toFixed(0) + "x" + b.h.toFixed(0))}]`);
+  const share = (m.ink - m.body.top) / m.body.h;
+  if (fill === 'one') ok(share >= BASE_FILL_MIN, `${name}: FILL — the content ends at ${(share * 100).toFixed(1)} % of the body (< ${BASE_FILL_MIN * 100} %): grow the cards, not the whitespace`);
+  ok(m.ink <= m.body.bottom + 0.6, `${name}: FILL overflow — the content ends ${(m.ink - m.body.bottom).toFixed(0)} px past the body`);
   ok(m.words.every((px) => px >= 17), `${name}: a word under 17 px`);
   ok(m.bands.every((b) => b >= 0 && b <= SPARSE_MAX), `${name}: SPARSE — blank bands [${m.bands.map((b) => b.toFixed(0))}] px between blocks (> ${SPARSE_MAX}; the slack must fall below the cards)`);
   ok(m.strip.bottom <= m.foot + 0.6, `${name}: the cards reach the footer`);
@@ -312,13 +319,13 @@ async function main() {
     // 3. renders
     for (const d of [1, 2, 3]) {
       const r = await renderWith(page, TYPE, { difficulty: d, baseName: `G1-379-gate-d${d}-en` });
-      assertRender(`d${d}`, r, { symPx: TYPE.difficulty[d].symPx });
-      console.log(`render d${d}: verify ${r.verify.length} lints ${r.lints.length} body ${r.m.body.h.toFixed(0)} sheet ${r.m.sheet.h.toFixed(0)} strip ${r.m.strip.h.toFixed(0)} bands ${r.m.bands.map((b) => b.toFixed(0))} slack below ${(r.m.foot - r.m.strip.bottom).toFixed(0)}`);
+      assertRender(`d${d}`, r, { symPx: TYPE.difficulty[d].symPx, fill: 'one' });
+      console.log(`render d${d}: fill ${(100 * (r.m.ink - r.m.body.top) / r.m.body.h).toFixed(1)} % boxes ${r.m.boxes[0].w.toFixed(0)}x${r.m.boxes[0].h.toFixed(0)} verify ${r.verify.length} lints ${r.lints.length} body ${r.m.body.h.toFixed(0)} sheet ${r.m.sheet.h.toFixed(0)} strip ${r.m.strip.h.toFixed(0)} bands ${r.m.bands.map((b) => b.toFixed(0))} slack below ${(r.m.foot - r.m.strip.bottom).toFixed(0)}`);
     }
     for (const k of Object.keys(LONG)) {
       const r = await renderWith(page, TYPE, { difficulty: 2, baseName: `G1-379-gate-d2-longchrome-${k}`, strings: LONG[k] });
       assertRender(`d2 long chrome ${k}`, r, { body: LONG[k].body });
-      console.log(`render d2 long chrome ${k}: verify ${r.verify.length} lints ${r.lints.length} body ${r.m.body.h.toFixed(0)} bands ${r.m.bands.map((b) => b.toFixed(0))} stack ${(r.m.strip.bottom - r.m.sheet.top).toFixed(0)} slack below ${(r.m.foot - r.m.strip.bottom).toFixed(0)}`);
+      console.log(`render d2 long chrome ${k}: fill ${(100 * (r.m.ink - r.m.body.top) / r.m.body.h).toFixed(1)} % boxes ${r.m.boxes[0].w.toFixed(0)}x${r.m.boxes[0].h.toFixed(0)} verify ${r.verify.length} lints ${r.lints.length} body ${r.m.body.h.toFixed(0)} bands ${r.m.bands.map((b) => b.toFixed(0))} stack ${(r.m.strip.bottom - r.m.sheet.top).toFixed(0)} slack below ${(r.m.foot - r.m.strip.bottom).toFixed(0)}`);
     }
     const wf = await measureWords(page, banks.en); wf.forEach((x) => ok(false, 'en ' + x)); ok(true, 'words measured');
     // 4. sweep
@@ -378,6 +385,21 @@ async function main() {
       judge('PS a 150 px band between the sheet and the cards (sparse)', [...f, ...r.verify], /SPARSE/);
       const c = await renderWith(page, TYPE, { difficulty: 2, baseName: 'G1-379-gate-ps-control' });
       log.push(`  PS control: the shipped d2 bands [${c.m.bands.map((b) => b.toFixed(0))}] px (<= ${SPARSE_MAX})`); }
+    {
+      // base FILL, poisoned BOTH ways: (a) the strip frozen at its minimum ends high at the en chrome (the pre-review
+      // page, ~83 %); (b) the strip forced past the 667 fi body leaves the page.
+      const shape = /flex:1 1 (\d+)px;min-height:\1px;max-height:\d+px;container-type:size/;
+      const frozen = { ...TYPE, build(o, ctx) { const r = TYPE.build(o, ctx); const h = r.bodyHtml.replace(shape, 'flex:0 0 $1px;height:$1px;container-type:size'); if (h === r.bodyHtml) throw new Error('FL: the strip changed shape'); r.bodyHtml = h; return r; } };
+      for (const d of [2, 3]) {
+        const r = await renderWith(page, frozen, { difficulty: d, baseName: `G1-379-gate-poison-FL-d${d}` });
+        const before = fails.length; assertRender(`FL d${d}`, r, { symPx: TYPE.difficulty[d].symPx, fill: 'one' }); judge(`FL-d${d} strip frozen at its minimum (content ends high)`, fails.splice(before), /FILL — the content ends at/);
+      }
+      const grown = { ...TYPE, build(o, ctx) { const r = TYPE.build(o, ctx); const h = r.bodyHtml.replace(shape, 'flex:0 0 200px;height:200px;container-type:size'); if (h === r.bodyHtml) throw new Error('FG: the strip changed shape'); r.bodyHtml = h; return r; } };
+      const r = await renderWith(page, grown, { difficulty: 2, baseName: 'G1-379-gate-poison-FG', strings: LONG.fi });
+      const before = fails.length; assertRender('FG', r); judge('FG strip grown past the 667 fi body', [...fails.splice(before), ...r.verify], /FILL overflow|reach the footer|leaves the body/);
+      const c = await renderWith(page, TYPE, { difficulty: 2, baseName: 'G1-379-gate-fill-control' });
+      log.push(`  FILL control: the shipped d2 ends at ${(100 * (c.m.ink - c.m.body.top) / c.m.body.h).toFixed(1)} % of the ${c.m.body.h.toFixed(0)} px body (>= ${BASE_FILL_MIN * 100} %)`);
+    }
     {
       const probe = TYPE._buildWith(banks.en, TYPE.difficulty[2], { locale: 'en' }, { rng: makeRng(require('../lib/rng.js').instanceSeed({ typeId: TYPE.id, theme: null, difficulty: 2, seedEpoch: 1 })) }).meta;
       const keyAsked = probe.keyOrder.filter((k) => probe.asked.includes(k));

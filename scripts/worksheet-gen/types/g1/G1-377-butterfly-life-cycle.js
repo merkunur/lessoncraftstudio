@@ -29,6 +29,9 @@
  * a top lens). Nothing else is random.
  *
  * Stack (design): plate 528 + dashed rule 18 + loop row 116 = 662 <= 677 (the 4-line fi title)
+ * FILL (base review 2026-09-23): d2/d3 grow the loop row 116 -> loopRowMax 180 (its lens loopLensD ->
+ * loopLensMax 152) with the body, so at the 814 chrome the page ends at ~90 % of the body, not ~83 %;
+ * d1 (no loop row, a non-shipped warm-up) has no elastic block and stays at its 528 plate.
  * <= 722; the root is a TOP-anchored column: slack falls below the loop row, never between blocks (the nt10-E SPARSE ruling; the design said space-evenly).
  *
  * verify(page) re-derives every answer from the RENDER + the stamps: four lenses, four
@@ -83,8 +86,8 @@ const TYPE = {
   unitAxis: { applicable: false },
   difficulty: {
     1: { animal: 'butterfly', anchors: ['egg', 'adult'], loop: false, lensD: 144, boxPx: 60, loopLensD: null, givenPx: 32 },
-    2: { animal: 'butterfly', anchors: ['egg'], loop: true, lensD: 132, boxPx: 56, loopLensD: 104, givenPx: 32 },
-    3: { animal: 'butterfly', anchors: [], loop: true, lensD: 124, boxPx: 52, loopLensD: 96, givenPx: 32 },
+    2: { animal: 'butterfly', anchors: ['egg'], loop: true, lensD: 132, boxPx: 56, loopLensD: 104, loopLensMax: 152, loopRowMax: 180, givenPx: 32 },
+    3: { animal: 'butterfly', anchors: [], loop: true, lensD: 124, boxPx: 52, loopLensD: 96, loopLensMax: 152, loopRowMax: 180, givenPx: 32 },
   },
   i18n: {
     en: {
@@ -117,15 +120,19 @@ const TYPE = {
     if (!(d.boxPx >= G1_FLOOR)) throw new Error(`${ID}: box ${d.boxPx} < the G1 floor ${G1_FLOOR}`);
     if (!(d.givenPx >= NUMERAL_FLOOR)) throw new Error(`${ID}: given numeral ${d.givenPx} px < ${NUMERAL_FLOOR}`);
     if (d.loop && !(d.loopLensD >= 90)) throw new Error(`${ID}: loop lens ${d.loopLensD} < 90`);
+    if (d.loop && d.loopLensMax !== undefined && !(d.loopLensMax >= d.loopLensD && d.loopRowMax >= d.loopLensMax + 12 && d.loopLensMax <= 200)) throw new Error(`${ID}: loop growth ${d.loopLensMax} / ${d.loopRowMax} outside [${d.loopLensD}, 200] / lens + 12`);
     const rng = ctx.rng;
     const pick = ALC.ARRANGEMENTS[rng.int(0, ALC.ARRANGEMENTS.length - 1)];
     const arrangement = d.forceArrangement || pick;   // forceArrangement: the gate's poison seam only (verify must catch a bad one)
     const loopAnswer = stages.indexOf(successor(d.animal, stages[stages.length - 1])) + 1;
     const cfg = { animal: d.animal, anchors: d.anchors, loop: !!d.loop, lensD: d.lensD, boxPx: d.boxPx, loopLensD: d.loopLensD, givenPx: d.givenPx };
+    if (d.loop && d.loopLensMax !== undefined) cfg.loopLensMax = d.loopLensMax;
     const parts = [C5.lifePlate({ arrangement, anchors: d.anchors, lensD: d.lensD, boxPx: d.boxPx, givenPx: d.givenPx, animal: d.animal, stages })];
     if (d.loop) {
       parts.push(`<div data-lcs-rule style="width:639px;height:18px;flex:0 0 18px;display:flex;align-items:center"><div style="width:100%;border-top:2px dashed #C8BFAE"></div></div>`);
-      parts.push(C5.loopRow({ animal: d.animal, lensD: d.loopLensD, boxPx: d.boxPx, answer: loopAnswer }));
+      // FILL (base review 2026-09-23): the loop row takes the body's slack (116 -> loopRowMax) and its adult lens grows
+      // with it, so the page never ends high at the 814 chrome; at the 667 fi body it stays at its 116 minimum.
+      parts.push(C5.loopRow({ animal: d.animal, lensD: d.loopLensD, boxPx: d.boxPx, answer: loopAnswer, grow: d.loopLensMax !== undefined ? { lensMax: d.loopLensMax, maxH: d.loopRowMax } : undefined }));
     }
     const bodyHtml = `<div data-ws-content data-lcs-type="${ID}" data-lcs-family="${KEY}" data-lcs-cfg='${JSON.stringify(cfg)}' ` +
       `style="flex:1 1 auto;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:0;min-height:0">${parts.join('')}</div>`;
@@ -567,7 +574,7 @@ const TYPE = {
           if (loop.textContent.trim()) f.push('answer printed: the loop box is not empty');
           const ll = root.querySelector('[data-lcs-loop-lens]');
           if (!ll || ll.dataset.lcsStage !== `${cfg.animal}.${stages[stages.length - 1]}`) f.push('the loop row does not show the adult');
-          else if (Math.abs(ll.getBoundingClientRect().width - cfg.loopLensD) > 0.6) f.push('loop lens size');
+          else { const lw = ll.getBoundingClientRect().width, lmax = cfg.loopLensMax || cfg.loopLensD; if (lw < cfg.loopLensD - 0.6 || lw > lmax + 0.6 || Math.abs(ll.getBoundingClientRect().height - lw) > 0.6) f.push(`loop lens size ${lw.toFixed(1)} outside [${cfg.loopLensD}, ${lmax}]`); }
         }
       } else if (loop) f.push('a loop box on a level without the loop');
       // tethers + spots (plate svg coordinates === plate px)

@@ -33,14 +33,19 @@
  * plant; bank margin 10 + the flower's 12-unit top = a ~22 px gap), stage row = grid
  * 380 | 16 | 279 = 675; the label card is centred on the plant (top near the flower,
  * bottom near the soil box).
- * Stack 69 + 592 = 661. MEASURED (qa/verify-b5-plants.js): a 4-line title + 3-line
+ * Stack 69 + 592 = 661 at the minimum. MEASURED (qa/verify-b5-plants.js): a 4-line title + 3-line
  * instruction leaves a 667 px body (not the ruled 677), so the design's h 600 plant
  * (stack 669) overflowed the footer by 3 px; the plant is drawn at h 592 (scale 0.987,
  * every px-sized mark — tags, rings, strokes — unchanged). Recorded in the build report.
+ * FILL (base review 2026-09-23): the stage row is minmax(figureH, figureMax) — the plant GROWS
+ * with the body (plantFillStage: meet, top-anchored) to 680 (d1/d2, under the bank) / 712 (d3,
+ * the 380 px width limit), so at the 814 chrome it ends at ~94 % / ~89 % of the body and at the
+ * 667 fi body it stays at its 592 minimum. Anchors are stamped in VIEWBOX units (data-lcs-anchors-u
+ * + data-lcs-vb); verify() maps them through the rendered svg's CTM.
  *
  * Stamps: root [data-ws-content][data-lcs-type="plants"] data-lcs-parts (ids in part
- * order) data-lcs-numbers (JSON id -> n) data-lcs-anchors (px JSON relative to the
- * stage) data-lcs-rows/-row-h/-glyph-h/-bank/-figure-h/-locale; the svg
+ * order) data-lcs-numbers (JSON id -> n) data-lcs-anchors-u (viewBox JSON) data-lcs-vb
+ * data-lcs-figure-max data-lcs-rows/-row-h/-glyph-h/-bank/-figure-h/-locale; the svg
  * [data-lcs-plant][data-lcs-stage="full"]; each tag <g data-lcs-tag data-lcs-part
  * data-lcs-n>; each card row data-lcs-row-n; each bank word data-lcs-bank=<id>.
  * verify(page) re-derives everything from the stamps + the rendered geometry and
@@ -94,9 +99,9 @@ const TYPE = {
   exerciseType: KEY,
   themeAxis: { applicable: false },
   difficulty: {
-    1: { parts: ['root', 'stem', 'leaf', 'flower'], bank: true, figureH: 592, rowH: 72, glyphH: 32, bankPx: 18, boxW: 205 },
-    2: { parts: ['root', 'stem', 'leaf', 'flower', 'fruit', 'seed'], bank: true, figureH: 592, rowH: 64, glyphH: 30, bankPx: 18, boxW: 205 },
-    3: { parts: ['root', 'stem', 'leaf', 'flower', 'fruit', 'seed'], bank: false, figureH: 592, rowH: 64, glyphH: 30, bankPx: 18, boxW: 205 },
+    1: { parts: ['root', 'stem', 'leaf', 'flower'], bank: true, figureH: 592, figureMax: 680, rowH: 72, glyphH: 32, bankPx: 18, boxW: 205 },
+    2: { parts: ['root', 'stem', 'leaf', 'flower', 'fruit', 'seed'], bank: true, figureH: 592, figureMax: 680, rowH: 64, glyphH: 30, bankPx: 18, boxW: 205 },
+    3: { parts: ['root', 'stem', 'leaf', 'flower', 'fruit', 'seed'], bank: false, figureH: 592, figureMax: 712, rowH: 64, glyphH: 30, bankPx: 18, boxW: 205 },
   },
   i18n: {
     en: {
@@ -124,6 +129,9 @@ const TYPE = {
     if (d.rowH < G1_FLOOR) throw new Error(`${ID}: rowH ${d.rowH} < the G1 floor ${G1_FLOOR}`);
     if (d.glyphH < 24 || d.rowH - 6 < d.glyphH + 12) throw new Error(`${ID}: row ${d.rowH} cannot hold a glyphH ${d.glyphH} writing row`);
     if (d.figureH > STAGE_H) throw new Error(`${ID}: figureH ${d.figureH} > the stage ${STAGE_H}`);
+    // FILL (base review 2026-09-23): the plant grows from figureH to figureMax with the body; above the
+    // width limit of the 380 px stage (380 x 600/320 = 712.5) the meet box would stop growing and float.
+    if (!(d.figureMax >= d.figureH && d.figureMax <= STAGE_W * VB_H / VB_W)) throw new Error(`${ID}: figureMax ${d.figureMax} outside [${d.figureH}, ${STAGE_W * VB_H / VB_W}]`);
     const cardH = C5.plantLabelCardHeight({ rows: d.parts.length, rowH: d.rowH });
     if (cardH > STAGE_H) throw new Error(`${ID}: label card ${cardH} px > the stage ${STAGE_H}`);
     if (STAGE_W + STAGE_GAP + CARD_W !== BODY_W) throw new Error(`${ID}: stage row ${STAGE_W + STAGE_GAP + CARD_W} ≠ ${BODY_W}`);
@@ -162,16 +170,18 @@ const TYPE = {
       if (!bankOrder) throw new Error(`${ID}: no bank order off the tag order in ${TRIES} draws`);
     }
 
-    const stage = C5.plantTagStage({ parts: d.parts, anchorPick, numbers, h: d.figureH, w: STAGE_W });
+    // FILL: drawn at its MINIMUM figureH (every px mark at design size), grown by the grid row minmax(figureH, figureMax)
+    // (CSS, meet, top-anchored) — the row takes the body's slack up to figureMax, so a short chrome never floats the plant.
+    const stage = C5.plantFillStage({ parts: d.parts, anchorPick, numbers, h: d.figureH });
     const card = C5.plantLabelCard({ rows: tagOrder.map((p) => numbers[p]), rowH: d.rowH, glyphH: d.glyphH, boxW: d.boxW, cardW: CARD_W });
     const bankHtml = d.bank ? C5.plantBank({ words: bankOrder.map((id) => ({ id, word: words[id] })), wordPx: d.bankPx }) : '';
     const js = (o) => JSON.stringify(o).replace(/'/g, '&#39;');
     const bodyHtml = `<div data-ws-content data-lcs-type="${KEY}" data-lcs-locale="${loc}" data-lcs-parts="${d.parts.join(',')}" ` +
-      `data-lcs-numbers='${js(numbers)}' data-lcs-picks='${js(anchorPick)}' data-lcs-anchors='${js(stage.anchors)}' ` +
-      `data-lcs-rows="${d.parts.length}" data-lcs-row-h="${d.rowH}" data-lcs-glyph-h="${d.glyphH}" data-lcs-bank-on="${d.bank ? 1 : 0}" data-lcs-figure-h="${d.figureH}" ` +
-      `style="flex:1;min-height:0;display:grid;grid-template-rows:${d.bank ? 'auto ' : ''}${d.figureH}px;align-content:start">` +
+      `data-lcs-numbers='${js(numbers)}' data-lcs-picks='${js(anchorPick)}' data-lcs-anchors-u='${js(stage.anchorsU)}' data-lcs-vb='${js(stage.vb)}' ` +
+      `data-lcs-rows="${d.parts.length}" data-lcs-row-h="${d.rowH}" data-lcs-glyph-h="${d.glyphH}" data-lcs-bank-on="${d.bank ? 1 : 0}" data-lcs-figure-h="${d.figureH}" data-lcs-figure-max="${d.figureMax}" ` +
+      `style="flex:1;min-height:0;display:grid;grid-template-rows:${d.bank ? 'auto ' : ''}minmax(${d.figureH}px,${d.figureMax}px);align-content:start">` +
       bankHtml +
-      `<div data-lcs-stage-row style="display:grid;grid-template-columns:${STAGE_W}px ${STAGE_GAP}px ${CARD_W}px;align-items:center;min-height:0">` +
+      `<div data-lcs-stage-row style="display:grid;grid-template-columns:${STAGE_W}px ${STAGE_GAP}px ${CARD_W}px;align-items:center;min-height:0;height:100%">` +
       stage.html + `<div></div>` + `<div style="display:flex;justify-content:center">${card}</div>` +
       `</div></div>`;
     return { bodyHtml, meta: { parts: d.parts, numbers, anchorPick, bank: bankOrder } };
@@ -635,16 +645,21 @@ const TYPE = {
       root.querySelectorAll('[data-lcs-answer]').forEach((el) => fails.push(`an answer stamp "${el.getAttribute('data-lcs-answer')}" on the base`));
       const parts = (root.dataset.lcsParts || '').split(',').filter(Boolean);
       let numbers = {}, anchors = {};
-      try { numbers = JSON.parse(root.dataset.lcsNumbers || '{}'); anchors = JSON.parse(root.dataset.lcsAnchors || '{}'); } catch (e) { fails.push('a stamp is not JSON'); }
-      const N = parts.length, rowH = +root.dataset.lcsRowH, figureH = +root.dataset.lcsFigureH, bankOn = root.dataset.lcsBankOn === '1';
+      try { numbers = JSON.parse(root.dataset.lcsNumbers || '{}'); anchors = JSON.parse(root.dataset.lcsAnchorsU || '{}'); } catch (e) { fails.push('a stamp is not JSON'); }
+      const N = parts.length, rowH = +root.dataset.lcsRowH, figureH = +root.dataset.lcsFigureH, figureMax = +root.dataset.lcsFigureMax, bankOn = root.dataset.lcsBankOn === '1';
       // the plant
       const svg = root.querySelector('svg[data-lcs-plant][data-lcs-stage="full"]');
       const stage = root.querySelector('[data-lcs-plant-stage]');
       if (!svg || !stage) { fails.push('no full-stage plant'); return fails; }
       if (svg.getAttribute('data-lcs-ground') !== 'box') fails.push('the plant has no soil box (roots must show)');
-      const sr = rect(svg), st = rect(stage);
-      if (Math.abs(sr.height - figureH) > 1) fails.push(`the plant renders ${Math.round(sr.height)} px high ≠ ${figureH}`);
-      const scale = sr.height / VBH;
+      const st = rect(stage);
+      // FILL: the svg fills the grown stage (meet, top-anchored); every viewBox point maps through its CTM
+      const M = svg.getScreenCTM();
+      const scale = M.d;
+      const sr = { left: M.e, top: M.f, right: M.e + VBW * M.a, bottom: M.f + VBH * M.d, height: VBH * M.d };
+      if (!(figureMax >= figureH)) fails.push('no data-lcs-figure-max stamp');
+      if (sr.height < figureH - 1 || sr.height > figureMax + 1) fails.push(`the plant renders ${Math.round(sr.height)} px high, outside [${figureH}, ${figureMax}]`);
+      if (sr.bottom > st.bottom + 0.6 || sr.top < st.top - 0.6 || sr.left < st.left - 0.6 || sr.right > st.right + 0.6) fails.push('the drawn plant leaves its stage');
       const soilY = sr.top + 440 * scale;
       // tags
       const tags = [...svg.querySelectorAll('g[data-lcs-tag]')];
@@ -680,7 +695,7 @@ const TYPE = {
       for (const p of ps) {
         const a = anchors[p];
         if (!a) { fails.push(`${p}: no stamped anchor`); continue; }
-        const ax = st.left + a.x, ay = st.top + a.y;
+        const ax = sr.left + a.x * M.a, ay = sr.top + a.y * M.d;
         const ring = svg.querySelector(`circle[data-lcs-ring="${p}"]`);
         if (!ring) { fails.push(`${p}: no ring`); continue; }
         const rr = rect(ring), rx = (rr.left + rr.right) / 2, ry = (rr.top + rr.bottom) / 2;
@@ -689,7 +704,7 @@ const TYPE = {
         if (p !== 'root' && ay >= soilY) fails.push(`${p} anchor below the soil line`);
         const th = svg.querySelector(`line[data-lcs-thread="${p}"]`);
         if (!th) { fails.push(`${p}: no thread`); continue; }
-        const X = (v) => sr.left + +v * scale, Y = (v) => sr.top + +v * scale;
+        const X = (v) => sr.left + +v * M.a, Y = (v) => sr.top + +v * M.d;
         const s = { p, x1: X(th.getAttribute('x1')), y1: Y(th.getAttribute('y1')), x2: X(th.getAttribute('x2')), y2: Y(th.getAttribute('y2')) };
         const ringR = rr.width / 2 - 1.25;
         if (Math.abs(Math.hypot(s.x2 - ax, s.y2 - ay) - ringR) > 1.5) fails.push(`${p}: thread ends ${Math.hypot(s.x2 - ax, s.y2 - ay).toFixed(1)} px from the anchor (want the ring edge ${ringR.toFixed(1)})`);

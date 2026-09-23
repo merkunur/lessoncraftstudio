@@ -78,7 +78,16 @@ function legendBand({ title, rows, cols = 3, bandW = 595, symPx = 44 }) {
     `<div style="display:grid;grid-template-columns:repeat(${cols},${colW.toFixed(2)}px);row-gap:${ROW_GAP}px;width:${bandW}px">${cells}</div></div>`;
 }
 
-function countStrip({ cards, w = 639, gap = 11, boxW = 64, boxH = 48 }) {
+/**
+ * countStrip — one card per asked symbol: [symbol] word + an empty numeral box. FILL (base review
+ * 2026-09-23): with grow = { maxH } the strip is a size container taking the body's free height
+ * between its content minimum and maxH; the cards stretch to it, 70 % of the extra height --g goes
+ * to the numeral box (4:3, capped at the card's inner width) and the word band takes the rest, so a
+ * short chrome grows the WRITING box instead of leaving a pale band below the cards. Without grow
+ * the strip is byte-identical to the base build.
+ */
+function countStrip({ cards, w = 639, gap = 11, boxW = 64, boxH = 48, grow }) {
+  if (grow) return countStripGrow({ cards, w, gap, boxW, boxH, maxH: grow.maxH });
   const n = cards.length;
   const cardW = Math.floor((w - (n - 1) * gap) / n);
   const items = cards.map((c) =>
@@ -89,6 +98,28 @@ function countStrip({ cards, w = 639, gap = 11, boxW = 64, boxH = 48 }) {
     `<span style="display:flex;justify-content:center;flex:0 0 auto">` + blankNumeralBox({ w: boxW, h: boxH, answer: String(c.answer), attrs: `data-lcs-count-box="${esc(c.id)}"` }) + `</span>` +
     `</div>`).join('');
   return `<div class="mp-strip" data-lcs-count-strip style="display:flex;gap:${gap}px;width:${w}px;justify-content:center;flex:0 0 auto">${items}</div>`;
+}
+
+function countStripGrow({ cards, w, gap, boxW, boxH, maxH }) {
+  const n = cards.length;
+  const cardW = Math.floor((w - (n - 1) * gap) / n);
+  const innerW = cardW - 2 * 8 - 2 * 2;
+  const showSym = cards.some((c) => c.symbol);
+  const minH = 2 * 8 + 2 * 2 + (showSym ? 44 + 8 : 0) + 44 + 8 + boxH;
+  if (!(maxH >= minH)) throw new Error(`countStrip: grow maxH ${maxH} < the card minimum ${minH}`);
+  const g = `var(--mp-g)`;
+  const boxCss = `width:min(calc(${boxW}px + ${g} * ${(0.7 * boxW / boxH).toFixed(4)}), ${innerW}px);height:min(calc(${boxH}px + ${g} * 0.7), ${(innerW * boxH / boxW).toFixed(2)}px);flex:0 0 auto`;
+  const items = cards.map((c) => {
+    const box = blankNumeralBox({ w: boxW, h: boxH, answer: String(c.answer), attrs: `data-lcs-count-box="${esc(c.id)}"` });
+    const grown = box.replace(`width:${boxW}px;height:${boxH}px;flex:0 0 ${boxW}px`, boxCss);
+    if (grown === box) throw new Error('countStrip: the numeral box changed shape');
+    return `<div class="mp-card" data-lcs-row="${esc(c.id)}" style="--mp-g:clamp(0px, calc(100cqh - ${minH}px), ${maxH - minH}px);width:${cardW}px;box-sizing:border-box;flex:0 0 ${cardW}px;background:${T.white};border:2px solid ${T.teal};border-radius:12px;padding:8px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px">` +
+      (c.symbol ? `<span data-lcs-row-sym style="display:block;line-height:0">${mapSymbol({ id: c.id, px: 44 }).svg}</span>` : '') +
+      `<span data-lcs-row-word style="display:flex;align-items:center;justify-content:center;flex:1 1 44px;min-height:44px;width:100%;text-align:center;font-family:${F.body},sans-serif;font-weight:800;font-size:${WORD_PX}px;line-height:1.2;color:${T.ink};overflow-wrap:normal;word-break:normal;hyphens:manual">${esc(c.word)}</span>` +
+      `<span style="display:flex;justify-content:center;flex:0 0 auto">` + grown + `</span>` +
+      `</div>`;
+  }).join('');
+  return `<div class="mp-strip" data-lcs-count-strip data-lcs-grow style="display:flex;gap:${gap}px;width:${w}px;justify-content:center;flex:1 1 ${minH}px;min-height:${minH}px;max-height:${maxH}px;container-type:size">${items}</div>`;
 }
 
 function northArrow({ letter }) {

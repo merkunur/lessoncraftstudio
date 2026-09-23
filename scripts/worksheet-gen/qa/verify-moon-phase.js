@@ -207,4 +207,4 @@ async function main() {
 }
 
 if (require.main === module) main().then((p) => process.exit(p ? 0 : 1), (e) => { console.error(e); process.exit(1); });
-module.exports = { measure, checkMoon, expFrac, expSide };
+module.exports = { measure, checkMoon, expFrac, expSide, expFracIn };

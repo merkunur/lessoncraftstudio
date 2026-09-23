@@ -2,8 +2,9 @@
 /**
  * verify-b5-earth-and-space.js — the G1-378 `earth-and-space` family gate (design
  * docs/worksheet-gen/b5-designs/G1-378-earth-and-space.md §5; nt10-E build brief
- * deliverable 4). BASE PAGE ONLY (built 2026-09-23); the five faces and their
- * render poisons (PR3 PR4 PR5 PR7 PR9 PR11 PR13) land in Phase E.
+ * deliverable 4). Base page (built 2026-09-23) + section 5, the five faces (Phase E,
+ * 2026-09-23: qa/b5-earth-and-space-faces.js, record _work/G1-378-faces.md) with the
+ * deferred face poisons PR3 PR4 PR5 PR7 PR8 PR9 PR10 PR11 PR13.
  *
  *   node scripts/worksheet-gen/qa/verify-b5-earth-and-space.js [--quick]
  *
@@ -134,6 +135,12 @@ function validateBank(block, loc, model) {
   if (bankW > 639) E(`the 4 phase names measure ~${Math.round(bankW)} px at 18 px + chip padding > 639 (one row) (rule 5)`);
   // rule 6 — no Pluto
   for (const [k, v] of Object.entries(block.planets || {})) for (const p of Mo.PLUTO) if (typeof v === 'string' && hasWord(v, p, l)) E(`planets.${k} "${v}" is Pluto (rule 6)`);
+  // rule 6b (Phase E, the F4 bank tell) — the panel's planet literals sort into the model's PLANET_ALPHA order for this
+  // locale; the F4 composer keeps its one locale-neutral bank draw clear of every locale's alphabetical order from that table
+  if (Mo.PLANET_ALPHA && Mo.PLANET_ALPHA[l] && Mo.PLANETS.every((p) => lit(block.planets && block.planets[p]))) {
+    const got = Mo.PLANETS.slice().sort((a, b) => block.planets[a].localeCompare(block.planets[b], l));
+    if (got.join() !== Mo.PLANET_ALPHA[l].join()) E(`the ${l} planet names sort as ${got.join(',')} ≠ PLANET_ALPHA.${l} ${Mo.PLANET_ALPHA[l].join(',')} — update the model table so the F4 bank stays clear of it (rule 6b)`);
+  }
   // rule 7 — hemisphere
   if (block.hemisphere !== 'N' && block.hemisphere !== 'S') E(`hemisphere "${block.hemisphere}" is not N|S (rule 7)`);
   else if ((block.hemisphere === 'S') !== (l === 'pt')) E(`hemisphere ${block.hemisphere} in ${l} (S iff pt) (rule 7)`);
@@ -342,6 +349,7 @@ async function main() {
     b = clone(en); b.strings.base.title = 'Space'; P('P11 base title "Space"', b, 'en', /strings\.base\.title "Space" contains the space theme name/);
     b = syntheticBlock('de'); b.strings.base.title = 'Weltraum'; P('P11 de base title "Weltraum"', b, 'de', /strings\.base\.title "Weltraum" contains the space theme name/);
     b = clone(en); b.facts.hottest = 'It is 150 million km away.'; P('P12 en fact "It is 150 million km away."', b, 'en', /facts\.hottest .* carries a digit \(rule 3\)/);
+    b = syntheticBlock('fi'); b.planets = { ...b.planets, earth: 'Maa' }; P('P13 fi "Maa" against an en-ordered PLANET_ALPHA.fi', b, 'fi', /the fi planet names sort as .* ≠ PLANET_ALPHA\.fi .*\(rule 6b\)/, { ...M, PLANET_ALPHA: { ...M.PLANET_ALPHA, fi: M.PLANET_ALPHA.en } });
   }
 
   const puppeteer = require('puppeteer');
@@ -443,14 +451,22 @@ async function main() {
       judge('PX tick 40 px (render floor past the guard)', await gateOf(rewired(en, (h) => h.replace(/width:44px;height:44px;flex:0 0 44px/g, 'width:40px;height:40px;flex:0 0 40px')), 'PX'), /under the G1 floor 44/);
     }
     {
-      let m = null; try { TYPE._buildWith(en, { ...TYPE.difficulty[2], layout: 'moon-phases-in-order' }, { locale: 'en' }, { rng: makeRng('f') }); } catch (e) { m = e.message; }
-      judge('a face config at difficulty 2', m ? [m] : [], /is a face \(Phase E\)/);
+      let m = null; try { TYPE._buildWith(en, { ...TYPE.difficulty[2], layout: 'moon-dance' }, { locale: 'en' }, { rng: makeRng('f') }); } catch (e) { m = e.message; }
+      judge('an unknown layout at difficulty 2', m ? [m] : [], /unknown layout "moon-dance"/);
+      const out = TYPE._buildWith(en, TYPE.difficulty[2], { locale: 'en' }, { rng: makeRng('f') });
+      ok(!/data-lcs-layout/.test(out.bodyHtml), 'the base page carries data-lcs-layout (byte-identical rule)');
+    }
+    // 5. the five faces (Phase E) — qa/b5-earth-and-space-faces.js
+    {
+      const { faceSection } = require('./b5-earth-and-space-faces.js');
+      const { renderInstance } = require('../render/render-instance.js');
+      pngs.push(...await faceSection({ page, ok, judge, renderInstance, OUT, LONG, quick: QUICK, log: poisonLog }));
     }
     { const ctl = await gateOf(TYPE, 'control'); ok(ctl.length === 0, `poison control (untouched d2): ${JSON.stringify(ctl.slice(0, 3))}`); }
     { const ctl = await gateOf(TYPE, 'control-d1', 1); ok(ctl.length === 0, `poison control (untouched d1, the PS control): ${JSON.stringify(ctl.slice(0, 3))}`); }
   } finally { await browser.close(); }
 
-  console.log('poison:\n' + poisonLog.join('\n') + '\n  primitive poisons: PR1 PR2 (moon-phase) · PR6 PR8 PR12 (sky-bodies) · PR10 (planets) — in step 0\n  deferred to Phase E (faces not built): PR3 PR4 PR5 PR7 PR9 PR11 PR13');
+  console.log('poison:\n' + poisonLog.join('\n') + '\n  primitive poisons: PR1 PR2 (moon-phase) · PR6 PR8 PR12 (sky-bodies) · PR10 (planets) — in step 0\n  face poisons (Phase E): PR3 PR4 PR5 PR6 PR7 PR8 PR9 PR10 PR11 PR13 + pt mirror, lit stamp, planet order, drawing leaks, SPARSE / FILL / apparatus — above');
   console.log('renders:\n  ' + pngs.join('\n  '));
   if (fails.length) console.log('FAILS:\n  ' + fails.slice(0, 40).join('\n  ') + (fails.length > 40 ? `\n  … ${fails.length - 40} more` : ''));
   const pass = !fails.length && killed === total;

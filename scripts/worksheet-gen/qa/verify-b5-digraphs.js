@@ -2,8 +2,8 @@
 /**
  * verify-b5-digraphs.js — the G1-380 `digraphs` family gate (design
  * docs/worksheet-gen/b5-designs/G1-380-digraphs.md §5; the nt10-E build brief deliverable 4).
- * BASE build (2026-09-23): the face renders / face poisons (PR1-PR3, PR6-PR10) join in
- * Phase 2 with the faces.
+ * BASE build (2026-09-23) + the FIVE FACES (Phase E, 2026-09-23): section 6 runs
+ * qa/b5-digraphs-faces.js (the face renders + the deferred face poisons PR1-PR3, PR6-PR10).
  *
  *   node scripts/worksheet-gen/qa/verify-b5-digraphs.js [--quick]
  *
@@ -56,15 +56,19 @@ const TITLE_BANS = {
 const BEAD_NOUN = /(?<!\p{L})(beads?|perlen?|perle|conta|contas|perles?|kraal|kralen|helmi|helmet|helmiä)(?!\p{L})/iu;
 const FACE_MODES = ['sort-two', 'gap', 'match', 'position', 'text'];
 /** §5 rule 13, en source: instruction must / must-not per face. */
+const LINE = /(?<!\p{L})lines?(?!\p{L})/iu, BOX = /(?<!\p{L})box(es)?(?!\p{L})/iu, CIRCLE = /(?<!\p{L})circle/iu, WRITE = /(?<!\p{L})write/iu, DASHED = /dashed|(?<!\p{L})spaces?(?!\p{L})/iu, COLOR = /(?<!\p{L})colou?r/iu;
+/** §5 rule 13 + the nt10-E apparatus rule, en source: each face's instruction names ONLY apparatus that face prints. */
 const INSTR_EN = {
-  base: { ban: [/write/i, /(?<!\p{L})lines?(?!\p{L})/iu] },
-  'sort-two': { must: [/(?<!\p{L})line(?!\p{L})/iu] },
-  gap: { must: [/dashed space/i] },
-  match: { must: [/(?<!\p{L})line(?!\p{L})/iu] },
-  position: { must: [/beginning/i, /middle/i, /(?<!\p{L})end(?!\p{L})/iu] },
-  text: { must: [/(?<!\p{L})box(?!\p{L})/iu] },
+  base: { ban: [WRITE, LINE, BOX, DASHED] },
+  'sort-two': { must: [LINE], ban: [WRITE, BOX, CIRCLE, DASHED, COLOR] },
+  gap: { must: [/dashed space/i], ban: [LINE, BOX, CIRCLE, COLOR] },
+  match: { must: [LINE], ban: [WRITE, BOX, CIRCLE, DASHED, COLOR] },
+  position: { must: [/beginning/i, /middle/i, /(?<!\p{L})end(?!\p{L})/iu, /(?<!\p{L})space(?!\p{L})/iu], ban: [WRITE, LINE, BOX, CIRCLE] },
+  text: { must: [BOX, CIRCLE], ban: [LINE, DASHED, COLOR] },
 };
 const BW = /(^|\s)(bw|sw|bn|nb|zw|sh|pb|mv|sv)(\s|\d|$)/i;
+/** F5 ships 4 lanes of <= 2 rendered lines (the FILL ruling, _work/G1-380-faces.md); 64 characters keeps a sentence to 2 lines at 26 px in the 501 px text column (measured: 41 characters = 1.6 lines). */
+const F5_MAX_CHARS = 64;
 
 let assertions = 0;
 const fails = [];
@@ -163,6 +167,10 @@ function validateBank(b, loc) {
     }
   }
   if ((b.falsePairs || []).length < 6) push(`falsePairs has ${(b.falsePairs || []).length} entries (< 6; rule 7)`);
+  // face-only picture exclusions: every entry carries its reason, and the design-wide list is present in every shipping block
+  // every design-wide rejection is LISTED in the block with its reason (the chick / lunchbox review of 2026-09-23 — the base's own
+  // _buildWith reads only the block's rejectedPics, so a list that omits one would let the base draw it)
+  for (const pic of N.REJECTED_PICS_ALL) { const r = (b.rejectedPics || []).find((x) => (typeof x === 'string' ? x : x.pic) === pic); if (!r || typeof r === 'string' || !r.why) push(`rejectedPics does not list ${pic} with its reason (a design-wide rejection; rule 1)`); }
   // rule 6 + 10: the F2 / F3 print pool (foil letters outside a team element; F2 frame uniqueness + capital rule)
   const ex = sets.exemplar || [];
   const allWords = approved ? new Set([...approved.values()].map(fold)) : new Set();
@@ -170,11 +178,14 @@ function validateBank(b, loc) {
     if (!teams[t]) continue;
     let gap = 0;
     for (const it of teams[t].items || []) {
+      if (rejected.has(`${it.theme}/${it.noun}`)) continue;
       const j = it.seg.findIndex((g) => fold(g) === fold(t));
       const outside = it.seg.map((g, i) => (i === j ? '|' : fold(g))).join('');
       if (ex.some((f) => f !== t && outside.includes(fold(f)))) continue;                 // rule 6
       if (j === 0 && /^\p{Lu}/u.test(it.word)) continue;                                   // capital rule
-      if (ex.some((f) => f !== t && allWords.has(fold(it.seg.map((g, i) => (i === j ? f : g)).join(''))))) continue;   // rule 10 frame
+      const clash = ex.filter((f) => f !== t).map((f) => fold(it.seg.map((g, i) => (i === j ? f : g)).join(''))).find((x) => allWords.has(x));
+      if (clash && !it.noGap) push(`F2: ${t} item ${it.word}: swapping in another bank team reads "${clash}", an approved word — the frame is not unique; flag the item noGap (rule 10)`);
+      if (clash || it.noGap) continue;   // rule 10 frame
       gap++;
     }
     if (gap < 3) push(`F2: team ${t} has ${gap} gap-eligible items (< 3; rule 10)`);
@@ -182,7 +193,7 @@ function validateBank(b, loc) {
   // rule 11: F4 positions
   if (!(N.FACE_REFUSALS[loc] || []).includes('position') && Array.isArray(sets.position)) {
     const pos = { beginning: 0, middle: 0, end: 0 };
-    for (const t of sets.position) for (const it of (teams[t] && teams[t].items) || []) { const p = positionOf({ ...it, _team: t }); if (p) pos[p]++; }
+    for (const t of sets.position) for (const it of (teams[t] && teams[t].items) || []) { if (rejected.has(`${it.theme}/${it.noun}`)) continue; const p = positionOf({ ...it, _team: t }); if (p) pos[p]++; }
     for (const [p, n] of Object.entries(pos)) if (n < 3) push(`F4: position "${p}" reached by ${n} items (< 3; rule 11 — refuse F4 for ${loc})`);
   }
   // rule 12: F5 sentences
@@ -197,6 +208,8 @@ function validateBank(b, loc) {
       if (fold(tk.seg.join('')) !== fold(tk.w)) push(`sentence ${s.id}: token "${tk.w}" seg does not spell it (rule 12)`);
       for (const g of tk.seg) { const G = fold(g); if (G === tg) n++; else if (G.includes(tg)) push(`sentence ${s.id}: the target "${tg}" is a proper substring of the element "${g}" in "${tk.w}" (rule 12)`); }
     }
+    for (const tk of s.tokens || []) { const letters = fold(tk.w).split(tg).length - 1, elems = tk.seg.filter((g) => fold(g) === tg).length; if (letters !== elems) push(`sentence ${s.id}: "${tk.w}" shows the letters "${tg}" ${letters} times but holds ${elems} team elements — a false pair in connected text (rule 12)`); }
+    if (String(s.text).length > F5_MAX_CHARS) push(`sentence ${s.id}: ${String(s.text).length} characters > ${F5_MAX_CHARS} (the F5 two-line lane at the 677 chrome; rule 12)`);
     const words = String(s.text).split(/[^\p{L}'’-]+/u).filter(Boolean);
     if (words.join(' ') !== (s.tokens || []).map((x) => x.w).join(' ')) push(`sentence ${s.id}: tokens ≠ the words of its text (rule 12)`);
     if (s.hits !== n) push(`sentence ${s.id}: claims ${s.hits} hits, its seg holds ${n} (rule 12)`);
@@ -288,10 +301,10 @@ async function main() {
   for (const loc of N.REFUSED_LOCALES) { let m = null; try { TYPE.build({ difficulty: 2, locale: loc }, { rng: makeRng('r') }); } catch (e) { m = e.message; } ok(m && /REFUSED whole-family/.test(m), `${loc} must REFUSE (got ${m})`); }
   { let m = null; try { TYPE.build({ difficulty: 2, locale: 'de' }, { rng: makeRng('r') }); } catch (e) { m = e.message; } ok(m && /no de block|refuse/.test(m), `an unauthored de must REFUSE (got ${m})`); }
   { let m = null; try { TYPE._buildWith({ ...EN, refused: { reason: 'test' } }, TYPE.difficulty[2], { locale: 'en' }, { rng: makeRng('r') }); } catch (e) { m = e.message; } ok(m && /REFUSED/.test(m), `a refused block must REFUSE (got ${m})`); }
-  { let m = null; try { TYPE._buildWith(EN, { ...TYPE.difficulty[2], mode: 'gap' }, { locale: 'en' }, { rng: makeRng('r') }); } catch (e) { m = e.message; } ok(m && /Phase-2 face/.test(m), `a face mode must refuse until built (got ${m})`); }
+  { let m = null; try { TYPE._buildWith(EN, { ...TYPE.difficulty[2], mode: 'gap-2' }, { locale: 'en' }, { rng: makeRng('r') }); } catch (e) { m = e.message; } ok(m && /unknown mode/.test(m), `an unknown mode must refuse (got ${m})`); }
   // 4. node sweep: answer tells on the shipped instance, per page
   {
-    let tells = 0, colFail = 0; const posCols = Array.from({ length: 8 }, () => [0, 0, 0]); const pages = new Set();
+    let tells = 0, colFail = 0, bannedBase = 0; const posCols = Array.from({ length: 8 }, () => [0, 0, 0]); const pages = new Set();
     for (let s = 1; s <= 400; s++) {
       const r = TYPE._buildWith(EN, TYPE.difficulty[2], { locale: 'en' }, { rng: makeRng('G1-380-sweep-' + s) });
       if (H.orderTell(r.meta.cols, 3, 2)) tells++;
@@ -299,10 +312,12 @@ async function main() {
       if (per.some((c) => c < 2 || c > 3)) colFail++;
       r.meta.cols.forEach((c, i) => posCols[i][c]++);
       pages.add(r.meta.items.join());
+      if (r.meta.items.some((k) => k === 'chick' || k === 'lunchbox')) bannedBase++;
     }
     const maxShare = Math.max(...posCols.map((p) => Math.max(...p) / 400));
     ok(tells === 0, `node sweep: ${tells} pages with a column tell`); ok(colFail === 0, `node sweep: ${colFail} pages with a column outside [2,3]`);
     ok(maxShare <= 0.6, `node sweep: a wire position answers one column in ${(maxShare * 100).toFixed(0)}% of pages (> 60%)`);
+    ok(bannedBase === 0, `node sweep: ${bannedBase} base pages draw chick / lunchbox (rejected 2026-09-23)`);
     ok(pages.size >= 390, `node sweep: only ${pages.size} distinct item sets in 400 seeds`);
     console.log(`node sweep 400 seeds: tells ${tells}, column-count fails ${colFail}, max per-position column share ${(maxShare * 100).toFixed(0)}%, distinct pages ${pages.size}`);
   }
@@ -384,6 +399,10 @@ async function main() {
     const unCapped = { ...TYPE, build(o, ctx) { const r = TYPE.build({ ...o, difficulty: 1 }, ctx); r.bodyHtml = r.bodyHtml.replace(/flex:0 1 \d+px;/, 'flex:1 1 auto;'); return r; } };
     await rp('PR-SPARSE d1 rows uncapped', unCapped, /SPARSE — [\d.]+ px blank band/, { difficulty: 1, strings: SHORT });
     { const c = await renderWith(page, TYPE, { difficulty: 1, baseName: 'G1-380-gate-sparse-control', strings: SHORT }); log.push(`  PR-SPARSE control: shipped d1 max row gap ${c.m.rowGap.toFixed(1)} px (<= ${H.SPARSE_MAX}), verify ${c.verify.length}`); ok(!c.verify.length && c.m.rowGap <= H.SPARSE_MAX + 0.5, 'SPARSE control must pass'); }
+
+    // THE FIVE FACES (Phase E) — qa/b5-digraphs-faces.js: strings, refusals, node sweeps, renders at 814 / 722 / 677,
+    // the render sweep, and every deferred face poison (PR1-PR3, PR6-PR10) + SPARSE / FILL / answer-tell / apparatus
+    await require('./b5-digraphs-faces.js').faceGate({ page, ok, judge, validateBank, log, QUICK: quick, OUT });
   } finally { await browser.close(); }
 
   console.log('poison:\n' + log.join('\n'));

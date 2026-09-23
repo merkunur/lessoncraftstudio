@@ -201,7 +201,7 @@
   },
   "meanings": {
     "stop": "Toutes les voitures doivent s’arrêter ici.",
-    "crossing": "Ici, les piétons traversent la rue.",
+    "crossing": "Ici, un passage piéton est tracé pour traverser la rue.",
     "children": "Attention, des enfants passent souvent ici.",
     "no-entry": "Les voitures n’ont pas le droit d’entrer par ici.",
     "footpath": "Ce chemin est réservé aux piétons.",

@@ -58,7 +58,7 @@
     },
     "needs": {
       "title": "¿Qué necesitan las plantas para crecer?",
-      "instruction": "Mira lo que recibe cada planta y rodea la planta que tiene las dos cosas que necesita para crecer."
+      "instruction": "En cada fila, rodea la planta que recibe las dos cosas que necesita para crecer."
     },
     "cycle": {
       "title": "Ciclo de vida de las plantas: de la semilla a la planta",
@@ -74,7 +74,7 @@
     },
     "flower": {
       "title": "Partes de la flor",
-      "instruction": "Escribe en su línea el nombre de cada parte numerada de la flor y tacha la palabra del banco que no es parte de una flor."
+      "instruction": "Escribe en su línea el nombre de cada parte numerada de la flor y tacha la palabra del banco que no nombra ninguna parte del dibujo."
     }
   }
 }

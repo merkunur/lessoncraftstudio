@@ -246,7 +246,7 @@ const PICTURES = {
   surprised: { theme: 'emotions', noun: 'surprised', picOpened: true, box: [0.029, 0.029, 0.975, 0.975] },
   tired: { theme: 'emotions', noun: 'tired', picOpened: true, box: [0.031, 0.02, 0.967, 0.986] },
   fast: { theme: 'vehicles', noun: 'race_car', picOpened: true, box: [0.027, 0.318, 0.977, 0.703] },
-  big: { theme: 'zoo animals', noun: 'elephant', picOpened: true, box: [0.059, 0.027, 0.938, 0.984], alt: { theme: 'ocean life', noun: 'whale', picOpened: true } },
+  big: { theme: 'ocean life', noun: 'whale', picOpened: true, box: [0.022, 0.270, 0.981, 0.783], alt: { theme: 'zoo animals', noun: 'elephant', picOpened: true } }, // whale first: the elephant is drawn as a sitting calf and read as SMALL by four landing panels (de en sv da)
   small: { theme: 'insects and bugs', noun: 'ant', picOpened: true, box: [0.021, 0.094, 0.973, 0.93], alt: { theme: 'pets', noun: 'mouse', picOpened: true } },
 };
 /** Never on one F1 page (confusable at 72 px). */

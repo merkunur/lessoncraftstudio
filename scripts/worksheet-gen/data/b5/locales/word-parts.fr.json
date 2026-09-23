@@ -3,18 +3,13 @@
   "families": [
     {
       "id": "terre",
-      "stem": "terr",
+      "stem": "terre",
       "rootIsFreeWord": true,
       "root": {
         "word": "terre"
       },
       "signed": true,
       "members": [
-        {
-          "word": "terrain",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
         {
           "word": "terreux",
           "kind": "derived",
@@ -26,12 +21,7 @@
           "slot": "adjective"
         },
         {
-          "word": "atterrir",
-          "kind": "prefixed",
-          "slot": "verb"
-        },
-        {
-          "word": "atterrissage",
+          "word": "terreau",
           "kind": "derived",
           "slot": "noun-thing"
         },
@@ -41,9 +31,19 @@
           "slot": "verb"
         },
         {
-          "word": "souterrain",
+          "word": "enterrement",
           "kind": "prefixed",
-          "slot": "adjective"
+          "slot": "noun-thing"
+        },
+        {
+          "word": "extraterrestre",
+          "kind": "prefixed",
+          "slot": "noun-person"
+        },
+        {
+          "word": "parterre",
+          "kind": "compound",
+          "slot": "noun-thing"
         }
       ],
       "lookAlikes": [
@@ -96,16 +96,14 @@
           "slot": "adjective"
         },
         {
-          "word": "chanson",
-          "kind": "derived",
-          "slot": "noun-thing",
-          "stemSigned": true
+          "word": "enchanter",
+          "kind": "prefixed",
+          "slot": "verb"
         },
         {
-          "word": "chansonnette",
-          "kind": "derived",
-          "slot": "noun-thing",
-          "stemSigned": true
+          "word": "enchanteur",
+          "kind": "prefixed",
+          "slot": "noun-person"
         }
       ],
       "lookAlikes": [
@@ -974,26 +972,26 @@
     }
   ],
   "sentences": {
-    "chant": [
+    "mont": [
       {
-        "word": "chanter",
-        "slot": "verb",
-        "frame": "Ce soir, nous allons {gap} pour la fête de Mamie."
-      },
-      {
-        "word": "chanteur",
-        "slot": "noun-person",
-        "frame": "Le {gap} monte sur la scène avec son micro."
-      },
-      {
-        "word": "chanson",
+        "word": "montagne",
         "slot": "noun-thing",
-        "frame": "La maîtresse nous apprend une nouvelle {gap}."
+        "frame": "L’été, nous marchons dans la {gap} avec nos sacs à dos."
       },
       {
-        "word": "chantant",
+        "word": "montagnard",
+        "slot": "noun-person",
+        "frame": "Le {gap} connaît tous les sentiers de sa vallée."
+      },
+      {
+        "word": "monter",
+        "slot": "verb",
+        "frame": "Il faut {gap} l’escalier pour aller au grenier."
+      },
+      {
+        "word": "montagneux",
         "slot": "adjective",
-        "frame": "Papi parle avec un accent {gap} du Sud."
+        "frame": "Nous traversons un pays très {gap}, plein de sommets."
       }
     ],
     "saut": [
@@ -1061,7 +1059,7 @@
         "base": "lire",
         "prefix": "re",
         "word": "relire",
-        "gloss": "lire une histoire de nouveau"
+        "gloss": "lire encore une fois la même histoire"
       },
       {
         "base": "faire",
@@ -1073,7 +1071,7 @@
         "base": "coller",
         "prefix": "re",
         "word": "recoller",
-        "gloss": "coller de nouveau une image qui s’est décollée"
+        "gloss": "coller encore une fois une image qui s’est décollée"
       },
       {
         "base": "venir",
@@ -1085,25 +1083,25 @@
         "base": "chauffer",
         "prefix": "pré",
         "word": "préchauffer",
-        "gloss": "chauffer le four avant de faire cuire le gâteau"
+        "gloss": "chauffer le four d’abord, puis faire cuire le gâteau"
       },
       {
         "base": "dire",
         "prefix": "pré",
         "word": "prédire",
-        "gloss": "dire avant ce qui va arriver"
+        "gloss": "dire aujourd’hui ce qui va arriver demain"
       },
       {
-        "base": "payer",
+        "base": "voir",
         "prefix": "pré",
-        "word": "prépayer",
-        "gloss": "payer avant de recevoir la chose"
+        "word": "prévoir",
+        "gloss": "penser dès maintenant à ce qu’il faudra demain"
       },
       {
         "base": "voler",
         "prefix": "sur",
         "word": "survoler",
-        "gloss": "voler au-dessus de la ville"
+        "gloss": "voler très haut, loin des toits de la ville"
       },
       {
         "base": "charger",
@@ -1115,7 +1113,7 @@
         "base": "élever",
         "prefix": "sur",
         "word": "surélever",
-        "gloss": "monter une maison plus haut encore"
+        "gloss": "ajouter un étage en haut d’une maison"
       }
     ],
     "crossCheck": [
@@ -1228,21 +1226,21 @@
         "fitsGloss": false
       },
       {
-        "base": "payer",
+        "base": "voir",
         "prefix": "re",
         "isWord": true,
         "fitsGloss": false
       },
       {
-        "base": "payer",
+        "base": "voir",
         "prefix": "pré",
         "isWord": true,
         "fitsGloss": true
       },
       {
-        "base": "payer",
+        "base": "voir",
         "prefix": "sur",
-        "isWord": true,
+        "isWord": false,
         "fitsGloss": false
       },
       {
@@ -1345,7 +1343,7 @@
       "rond"
     ],
     "F5": [
-      "chant",
+      "mont",
       "saut",
       "grand"
     ]
@@ -1361,7 +1359,7 @@
   "strings": {
     "base": {
       "title": "Le radical : trier les mots selon leur radical",
-      "instruction": "Lis chaque mot du haut et écris-le sur une ligne du mur posé sur son radical."
+      "instruction": "Lis chaque mot du haut et écris-le sur une ligne du mur qui s’élève sur son mot de base."
     },
     "picture-family": {
       "title": "Le radical en images : entoure le mot construit",
@@ -1377,7 +1375,7 @@
     },
     "family-in-sentence": {
       "title": "Le radical dans les phrases",
-      "instruction": "Écris chacun des quatre mots de la pierre dans la phrase qui lui convient."
+      "instruction": "Dans chaque bloc, écris chacun des quatre mots posés sur la pierre dans la phrase qui lui convient."
     }
   }
 }

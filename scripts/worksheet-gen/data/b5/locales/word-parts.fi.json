@@ -27,122 +27,6 @@
   ],
   "families": [
     {
-      "id": "ystävä",
-      "stem": "ystäv",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "ystävä"
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "ystävällinen",
-          "kind": "derived",
-          "slot": "adjective"
-        },
-        {
-          "word": "ystävällisesti",
-          "kind": "derived",
-          "slot": "adverb"
-        },
-        {
-          "word": "ystävällisyys",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "ystävyys",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "ystävystyä",
-          "kind": "derived",
-          "slot": "verb"
-        },
-        {
-          "word": "ystävätön",
-          "kind": "derived",
-          "slot": "adjective"
-        },
-        {
-          "word": "ystävänpäivä",
-          "kind": "compound",
-          "slot": "noun-thing"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "yskä",
-          "whyNotFamily": "kun kurkkua kutittaa; siinä ei ole ystävää"
-        },
-        {
-          "word": "ysi",
-          "whyNotFamily": "numero yhdeksän puhekielessä; vain \"ys\" on sama"
-        }
-      ]
-    },
-    {
-      "id": "pelko",
-      "stem": "pel",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "pelko"
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "pelätä",
-          "kind": "derived",
-          "slot": "verb"
-        },
-        {
-          "word": "pelokas",
-          "kind": "derived",
-          "slot": "adjective"
-        },
-        {
-          "word": "pelokkaasti",
-          "kind": "derived",
-          "slot": "adverb"
-        },
-        {
-          "word": "pelottava",
-          "kind": "derived",
-          "slot": "adjective"
-        },
-        {
-          "word": "pelottaa",
-          "kind": "derived",
-          "slot": "verb"
-        },
-        {
-          "word": "peloton",
-          "kind": "derived",
-          "slot": "adjective"
-        },
-        {
-          "word": "pelottomasti",
-          "kind": "derived",
-          "slot": "adverb"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "peli",
-          "whyNotFamily": "leikki, jota pelataan; se ei kerro pelosta"
-        },
-        {
-          "word": "pelti",
-          "whyNotFamily": "ohut metallilevy"
-        },
-        {
-          "word": "pelle",
-          "whyNotFamily": "sirkuksen hauska hahmo"
-        }
-      ]
-    },
-    {
       "id": "kirja",
       "stem": "kirja",
       "rootIsFreeWord": true,
@@ -263,122 +147,6 @@
       ]
     },
     {
-      "id": "opettaa",
-      "stem": "opet",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "opettaa"
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "opettaja",
-          "kind": "derived",
-          "slot": "noun-person"
-        },
-        {
-          "word": "opetus",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "opettavainen",
-          "kind": "derived",
-          "slot": "adjective"
-        },
-        {
-          "word": "opettavaisesti",
-          "kind": "derived",
-          "slot": "adverb"
-        },
-        {
-          "word": "opetella",
-          "kind": "derived",
-          "slot": "verb"
-        },
-        {
-          "word": "opettelu",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "opettajanhuone",
-          "kind": "compound",
-          "slot": "noun-thing"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "optikko",
-          "whyNotFamily": "hän myy silmälaseja"
-        },
-        {
-          "word": "opas",
-          "whyNotFamily": "hän näyttää tietä matkailijoille"
-        }
-      ]
-    },
-    {
-      "id": "rakentaa",
-      "stem": "raken",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "rakentaa"
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "rakentaja",
-          "kind": "derived",
-          "slot": "noun-person"
-        },
-        {
-          "word": "rakennus",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "rakenne",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "rakennella",
-          "kind": "derived",
-          "slot": "verb"
-        },
-        {
-          "word": "rakentava",
-          "kind": "derived",
-          "slot": "adjective"
-        },
-        {
-          "word": "rakentavasti",
-          "kind": "derived",
-          "slot": "adverb"
-        },
-        {
-          "word": "rakennelma",
-          "kind": "derived",
-          "slot": "noun-thing"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "rakas",
-          "whyNotFamily": "joku, josta välität paljon"
-        },
-        {
-          "word": "rako",
-          "whyNotFamily": "kapea aukko"
-        },
-        {
-          "word": "raketti",
-          "whyNotFamily": "se lentää avaruuteen"
-        }
-      ]
-    },
-    {
       "id": "kala",
       "stem": "kala",
       "rootIsFreeWord": true,
@@ -439,62 +207,182 @@
       ]
     },
     {
-      "id": "leikki",
-      "stem": "leik",
+      "id": "väri",
+      "stem": "väri",
       "rootIsFreeWord": true,
       "root": {
-        "word": "leikkiä"
+        "word": "väri"
       },
       "signed": true,
       "members": [
         {
-          "word": "leikki",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "leikkisä",
+          "word": "värikäs",
           "kind": "derived",
           "slot": "adjective"
         },
         {
-          "word": "leikkisästi",
+          "word": "värikkäästi",
           "kind": "derived",
           "slot": "adverb"
         },
         {
-          "word": "leikillinen",
+          "word": "väritön",
           "kind": "derived",
           "slot": "adjective"
         },
         {
-          "word": "leikitellä",
+          "word": "värillinen",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "värittää",
           "kind": "derived",
           "slot": "verb"
         },
         {
-          "word": "leikittää",
+          "word": "väritys",
           "kind": "derived",
-          "slot": "verb"
+          "slot": "noun-thing"
         },
         {
-          "word": "leikkikalu",
+          "word": "värikynä",
           "kind": "compound",
           "slot": "noun-thing"
         }
       ],
       "lookAlikes": [
         {
-          "word": "leipä",
-          "whyNotFamily": "ruoka, jota leikataan viipaleiksi"
+          "word": "väki",
+          "whyNotFamily": "paljon ihmisiä yhdessä; siinä ei ole väriä"
         },
         {
-          "word": "leijona",
-          "whyNotFamily": "suuri kissaeläin"
+          "word": "vähä",
+          "whyNotFamily": "pieni määrä jotakin"
         },
         {
-          "word": "lehmä",
-          "whyNotFamily": "maitoa antava eläin"
+          "word": "väylä",
+          "whyNotFamily": "kapea kulkureitti vedessä tai maalla"
+        }
+      ]
+    },
+    {
+      "id": "rauha",
+      "stem": "rauha",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "rauha"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "rauhallinen",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "rauhallisesti",
+          "kind": "derived",
+          "slot": "adverb"
+        },
+        {
+          "word": "rauhallisuus",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "rauhaton",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "rauhattomasti",
+          "kind": "derived",
+          "slot": "adverb"
+        },
+        {
+          "word": "rauhattomuus",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "rauhaisa",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "rauta",
+          "whyNotFamily": "kova metalli; vain alku on sama"
+        },
+        {
+          "word": "rapu",
+          "whyNotFamily": "pieni eläin, joka kävelee sivuttain"
+        },
+        {
+          "word": "rasia",
+          "whyNotFamily": "pieni laatikko, jossa on kansi"
+        }
+      ]
+    },
+    {
+      "id": "pöly",
+      "stem": "pöly",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "pöly"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "pölyinen",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "pölyisyys",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "pölytön",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "pölyttää",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "pölytys",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "pölyttäjä",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "pölyimuri",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "pöytä",
+          "whyNotFamily": "huonekalu, jonka ääressä syödään"
+        },
+        {
+          "word": "pöllö",
+          "whyNotFamily": "lintu, joka valvoo öisin"
+        },
+        {
+          "word": "pölkky",
+          "whyNotFamily": "paksu puunpala"
         }
       ]
     }
@@ -929,6 +817,10 @@
         {
           "word": "pilkku",
           "whyNotFamily": "alkaa samoin kuin \"pilvi\", mutta sitä ei ole tehty kuvan sanasta"
+        },
+        {
+          "word": "pinaatti",
+          "whyNotFamily": "vihreä kasvis; vain alku on sama"
         }
       ]
     },
@@ -1039,6 +931,10 @@
         {
           "word": "kuppi",
           "whyNotFamily": "alkaa samoin kuin \"kukka\", mutta sitä ei ole tehty kuvan sanasta"
+        },
+        {
+          "word": "kurpitsa",
+          "whyNotFamily": "iso oranssi kasvis"
         }
       ]
     },
@@ -1074,6 +970,10 @@
         {
           "word": "mekko",
           "whyNotFamily": "alkaa samoin kuin \"metsä\", mutta sitä ei ole tehty kuvan sanasta"
+        },
+        {
+          "word": "mehiläinen",
+          "whyNotFamily": "hyönteinen, joka tekee hunajaa"
         }
       ]
     },
@@ -1114,6 +1014,10 @@
         {
           "word": "vuosi",
           "whyNotFamily": "alkaa samoin kuin \"vuori\", mutta sitä ei ole tehty kuvan sanasta"
+        },
+        {
+          "word": "vuorokausi",
+          "whyNotFamily": "päivä ja yö yhdessä; siinä ei ole vuorta"
         }
       ]
     }
@@ -1141,26 +1045,26 @@
         "frame": "Tämä järvi on hyvin {gap}, sillä siinä ui paljon ahvenia."
       }
     ],
-    "leikki": [
+    "väri": [
       {
-        "word": "leikittää",
+        "word": "värittää",
         "slot": "verb",
-        "frame": "Isosisko jaksaa {gap} pikkuveljeä koko illan."
+        "frame": "Saat {gap} kuvan kynillä, kun olet piirtänyt sen."
       },
       {
-        "word": "leikkikalu",
+        "word": "värikynä",
         "slot": "noun-thing",
-        "frame": "Nalle on pikkuveljen rakkain {gap}."
+        "frame": "Pöydällä on punainen {gap}, jolla voit piirtää."
       },
       {
-        "word": "leikkisä",
+        "word": "värikäs",
         "slot": "adjective",
-        "frame": "Uusi koiranpentumme on hyvin {gap} ja jahtaa häntäänsä."
+        "frame": "Papukaija on hyvin {gap} lintu."
       },
       {
-        "word": "leikkisästi",
+        "word": "värikkäästi",
         "slot": "adverb",
-        "frame": "Kissa hyppäsi {gap} langan perään."
+        "frame": "Lapset koristelivat luokan {gap} juhlaa varten."
       }
     ]
   },
@@ -1241,8 +1145,8 @@
   ],
   "exemplar": {
     "base": [
-      "ystävä",
-      "pelko"
+      "väri",
+      "rauha"
     ],
     "F1": [
       "weather/sun",
@@ -1266,7 +1170,7 @@
     ],
     "F5": [
       "kala",
-      "leikki"
+      "väri"
     ]
   },
   "refuse": {
@@ -1292,11 +1196,16 @@
     },
     "who-does-it": {
       "title": "Kuka tekee? Tekijää tarkoittava sana",
-      "instruction": "Katso jokaista työssä olevaa ihmistä, lue sana hänen vieressään ja kirjoita tekijän nimi tyhjään tiileen."
+      "instruction": "Katso jokaista ihmistä, lue sana hänen vieressään ja kirjoita katkoviivaruutuun tekijää tarkoittava sana."
     },
     "family-in-sentence": {
       "title": "Johdokset lauseissa",
-      "instruction": "Kirjoita jokainen kiven neljästä sanasta siihen lauseeseen, johon se sopii."
+      "instruction": "Kirjoita jokainen kantasanan yläpuolella olevista neljästä sanasta sen lauseen ruutuun, johon sana sopii."
     }
-  }
+  },
+  "agentSuffixes": [
+    "ja",
+    "jä",
+    "uri"
+  ]
 }

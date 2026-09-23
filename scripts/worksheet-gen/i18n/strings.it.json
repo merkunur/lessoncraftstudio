@@ -2653,7 +2653,7 @@
   },
   "G2-359": {
     "title": "Famiglie di parole: metti ogni parola al suo posto",
-    "instruction": "Leggi ogni parola in alto e scrivila su una riga del muro che sta sopra la sua parola primitiva."
+    "instruction": "Leggi ogni parola in alto e scrivila su una riga del muro che poggia sulla sua radice."
   },
   "G1-381": {
     "title": "Riconoscere le figure geometriche piane",
@@ -2717,7 +2717,7 @@
   },
   "K-376": {
     "title": "Di che cosa ha bisogno una pianta per crescere",
-    "instruction": "Guarda che cosa riceve ogni pianta e cerchia quella che ha tutte e due le cose che le servono per crescere."
+    "instruction": "In ogni riga, cerchia la pianta che riceve tutte e due le cose che le servono per crescere."
   },
   "G1-388": {
     "title": "Il ciclo vitale della pianta: dal seme alla pianta",
@@ -2741,11 +2741,11 @@
   },
   "G2-365": {
     "title": "Scrivi le fasi del ciclo vitale della farfalla",
-    "instruction": "Scrivi ogni nome del riquadro sulla riga sotto la sua immagine e barra l’unico nome che non c’entra."
+    "instruction": "Scrivi i nomi delle quattro fasi del riquadro sotto le loro immagini: una parola del riquadro non c’entra."
   },
   "G2-366": {
     "title": "La metamorfosi: quale animale diventerà?",
-    "instruction": "Guarda ogni animale piccolo e scrivi la sua lettera in un riquadro sotto l’animale adulto che diventerà."
+    "instruction": "Guarda ogni fase e scrivi la sua lettera in un riquadro sotto l’animale adulto che diventerà: alcuni riquadri restano vuoti."
   },
   "G3-393": {
     "title": "Il ciclo vitale della farfalla e della rana a confronto",
@@ -2753,11 +2753,11 @@
   },
   "G1-390": {
     "title": "Che cosa viene dopo? Farfalla, rana e coccinella",
-    "instruction": "Guarda la prima immagine di ogni riga e cerchia quella che viene subito dopo."
+    "instruction": "In ogni riga guarda la prima immagine e cerchia quella che viene subito dopo: dopo l’adulto il ciclo ricomincia dall’uovo."
   },
   "G1-391": {
     "title": "Le fasi lunari in ordine",
-    "instruction": "La Luna sembra crescere e poi calare: in ogni riga scrivi da 1 a 5 sotto le lune, in quest’ordine."
+    "instruction": "In ogni riga il cuneo mostra se la Luna cresce o cala: scrivi da 1 a 5 sotto le lune in quest’ordine."
   },
   "G2-367": {
     "title": "I nomi delle fasi lunari",
@@ -2824,11 +2824,11 @@
     "instruction": "Leggi che cosa significa ogni parola nuova, trova il suo prefisso nella tabella e scrivilo nel pezzo vuoto."
   },
   "G3-398": {
-    "title": "I nomi dei mestieri: chi fa questo lavoro?",
-    "instruction": "Guarda ogni persona al lavoro, leggi la parola accanto e scrivi nel mattone vuoto il nome di chi fa quel lavoro."
+    "title": "Chi fa questo mestiere? Nomi in -iere, -ista, -tore",
+    "instruction": "Guarda ogni persona, leggi la parola del cartellino accanto e scrivi nel riquadro tratteggiato il nome di chi fa quel mestiere."
   },
   "G3-399": {
     "title": "Famiglie di parole nelle frasi",
-    "instruction": "Scrivi ognuna delle quattro parole della pietra nella frase in cui sta bene."
+    "instruction": "Scrivi ogni parola dei cartellini nello spazio tratteggiato della frase in cui sta bene."
   }
 }

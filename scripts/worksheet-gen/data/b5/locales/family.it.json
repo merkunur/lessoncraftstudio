@@ -138,8 +138,8 @@
   "clueFrames": {
     "M": "{name} è la mamma di {egoName}.",
     "F": "{name} è il papà di {egoName}.",
-    "Z": "{name} è la sorella maggiore di {egoName}.",
-    "B": "{name} è il fratello maggiore di {egoName}.",
+    "Z": "{name} è la sorella di {egoName}.",
+    "B": "{name} è il fratello di {egoName}.",
     "Zy": "{name} è la sorellina di {egoName}.",
     "By": "{name} è il fratellino di {egoName}.",
     "MM": "{name} è la nonna di {egoName}.",

@@ -134,7 +134,7 @@ const RIGHT_CORNER = {
   nl: new RegExp(`${RB}(rechte hoek(en)?|hoeken (zijn )?recht|hoek(en)? (als|van) een boek)${RE}`, 'iu'),
   sv: new RegExp(`${RB}(räta? (hörn|vinklar)|hörn(en)? är räta|rät vinkel|bokhörn\\p{L}*|hörn (som|på) (på )?en bok)${RE}`, 'iu'),
   da: new RegExp(`${RB}(rette (hjørner|vinkler)|hjørner(ne)? er rette|ret vinkel|retvinklede? hjørner|hjørner? (som|på) (på )?en bog)${RE}`, 'iu'),
-  no: new RegExp(`${RB}(rette (hjørner|vinkler)|hjørner(ne)? er rette|rett vinkel|rettvinklede? hjørner|hjørner? (som|på) (på )?en bok)${RE}`, 'iu'),
+  no: new RegExp(`${RB}(rette (hjørner|vinkler)|hjørner(ne)? er rette|rett vinkel|rettvinklede? hjørner|hjørner? (som|på) (på )?en bok|som hjørnet på en bok|bokhjørner?)${RE}`, 'iu'),
   fi: new RegExp(`${RB}(kirjan kulm\\p{L}*|suor(a|at|ia|an|aa) kulm\\p{L}*)${RE}`, 'iu'),
 };
 /**

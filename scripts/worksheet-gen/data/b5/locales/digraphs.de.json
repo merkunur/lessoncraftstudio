@@ -54,25 +54,6 @@
       ],
       "items": [
         {
-          "vocabKey": "sheep",
-          "theme": "farm animals",
-          "noun": "sheep",
-          "word": "Schaf",
-          "seg": [
-            "Sch",
-            "a",
-            "f"
-          ],
-          "snd": [
-            "ʃ",
-            "aː",
-            "f"
-          ],
-          "silent": [],
-          "stem": "schaf",
-          "picOpened": true
-        },
-        {
           "vocabKey": "ship",
           "theme": "vehicles",
           "noun": "ship",
@@ -500,29 +481,6 @@
           "silent": [],
           "stem": "regenschirm",
           "picOpened": true
-        },
-        {
-          "vocabKey": "slide",
-          "theme": "toys",
-          "noun": "slide",
-          "word": "Rutsche",
-          "seg": [
-            "R",
-            "u",
-            "t",
-            "sch",
-            "e"
-          ],
-          "snd": [
-            "ʁ",
-            "ʊ",
-            "t",
-            "ʃ",
-            "ə"
-          ],
-          "silent": [],
-          "stem": "rutsche",
-          "picOpened": true
         }
       ]
     },
@@ -639,29 +597,6 @@
           ],
           "silent": [],
           "stem": "koch",
-          "picOpened": true
-        },
-        {
-          "vocabKey": "rug",
-          "theme": "around the house",
-          "noun": "rug",
-          "word": "Teppich",
-          "seg": [
-            "T",
-            "e",
-            "pp",
-            "i",
-            "ch"
-          ],
-          "snd": [
-            "t",
-            "ɛ",
-            "p",
-            "ɪ",
-            "ç"
-          ],
-          "silent": [],
-          "stem": "teppich",
           "picOpened": true
         },
         {

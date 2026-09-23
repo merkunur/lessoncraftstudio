@@ -64,11 +64,11 @@
     },
     "G2-365": {
       "title": "Ciclo de vida de la mariposa: escribe las etapas",
-      "instruction": "Escribe cada nombre del banco de palabras en la línea bajo su dibujo y tacha el nombre que no corresponde."
+      "instruction": "Escribe los cuatro nombres de las etapas del banco en las líneas bajo sus dibujos y tacha el nombre que no corresponde."
     },
     "G2-366": {
       "title": "Metamorfosis: ¿en qué animal se convertirá?",
-      "instruction": "Mira cada animal joven y escribe su letra en un cuadro bajo el animal adulto en el que se convertirá."
+      "instruction": "Mira cada etapa y escribe su letra en un cuadro bajo el animal en el que se convertirá; algunos cuadros se quedan vacíos."
     },
     "G3-393": {
       "title": "Compara el ciclo de vida de la mariposa y de la rana",
@@ -76,7 +76,7 @@
     },
     "G1-390": {
       "title": "¿Qué sigue? Mariposa, rana y catarina",
-      "instruction": "Mira el primer dibujo de cada fila y rodea el que sigue justo después."
+      "instruction": "Mira el primer dibujo de cada fila y rodea el que sigue justo después; después del adulto, el ciclo vuelve a empezar."
     }
   }
 }

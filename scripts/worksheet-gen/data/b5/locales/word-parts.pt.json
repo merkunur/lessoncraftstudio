@@ -44,6 +44,11 @@
           "word": "florada",
           "kind": "derived",
           "slot": "noun-thing"
+        },
+        {
+          "word": "floricultor",
+          "kind": "derived",
+          "slot": "noun-person"
         }
       ],
       "lookAlikes": [
@@ -58,126 +63,6 @@
         {
           "word": "flecha",
           "whyNotFamily": "a seta que o arco atira"
-        }
-      ]
-    },
-    {
-      "id": "terra",
-      "stem": "terr",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "terra"
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "terreno",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "terreiro",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "terrestre",
-          "kind": "derived",
-          "slot": "adjective"
-        },
-        {
-          "word": "enterrar",
-          "kind": "derived",
-          "slot": "verb"
-        },
-        {
-          "word": "aterrissar",
-          "kind": "derived",
-          "slot": "verb"
-        },
-        {
-          "word": "terráqueo",
-          "kind": "derived",
-          "slot": "noun-person"
-        },
-        {
-          "word": "terremoto",
-          "kind": "compound",
-          "slot": "noun-thing"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "terça",
-          "whyNotFamily": "um dia da semana"
-        },
-        {
-          "word": "teto",
-          "whyNotFamily": "a parte de cima da sala"
-        },
-        {
-          "word": "tesoura",
-          "whyNotFamily": "serve para cortar papel"
-        }
-      ]
-    },
-    {
-      "id": "pedra",
-      "stem": "pedr",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "pedra"
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "pedreiro",
-          "kind": "derived",
-          "slot": "noun-person"
-        },
-        {
-          "word": "pedregulho",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "pedraria",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "pedrada",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "pedregoso",
-          "kind": "derived",
-          "slot": "adjective"
-        },
-        {
-          "word": "empedrar",
-          "kind": "derived",
-          "slot": "verb"
-        },
-        {
-          "word": "empedrado",
-          "kind": "derived",
-          "slot": "adjective"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "pedal",
-          "whyNotFamily": "a peça da bicicleta em que se pisa"
-        },
-        {
-          "word": "pedaço",
-          "whyNotFamily": "uma parte de alguma coisa"
-        },
-        {
-          "word": "pedido",
-          "whyNotFamily": "o que se pede"
         }
       ]
     },
@@ -242,122 +127,242 @@
       ]
     },
     {
-      "id": "dente",
-      "stem": "dent",
+      "id": "sol",
+      "stem": "sol",
       "rootIsFreeWord": true,
       "root": {
-        "word": "dente"
+        "word": "sol"
       },
       "signed": true,
       "members": [
         {
-          "word": "dentista",
-          "kind": "derived",
-          "slot": "noun-person"
-        },
-        {
-          "word": "dentuço",
+          "word": "solar",
           "kind": "derived",
           "slot": "adjective"
         },
         {
-          "word": "dentada",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "dentadura",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "dentário",
+          "word": "ensolarado",
           "kind": "derived",
           "slot": "adjective"
         },
         {
-          "word": "dentição",
+          "word": "solzinho",
           "kind": "derived",
           "slot": "noun-thing"
         },
         {
-          "word": "dental",
-          "kind": "derived",
-          "slot": "adjective"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "dedo",
-          "whyNotFamily": "uma parte da mão"
-        },
-        {
-          "word": "desenho",
-          "whyNotFamily": "o que se faz com lápis"
-        },
-        {
-          "word": "depois",
-          "whyNotFamily": "uma palavra de tempo"
-        }
-      ]
-    },
-    {
-      "id": "ferro",
-      "stem": "ferr",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "ferro"
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "ferreiro",
-          "kind": "derived",
-          "slot": "noun-person"
-        },
-        {
-          "word": "ferradura",
+          "word": "parassol",
           "kind": "derived",
           "slot": "noun-thing"
         },
         {
-          "word": "ferrugem",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "ferragem",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "enferrujar",
+          "word": "ensolarar",
           "kind": "derived",
           "slot": "verb"
         },
         {
-          "word": "enferrujado",
+          "word": "solário",
           "kind": "derived",
-          "slot": "adjective"
+          "slot": "noun-thing"
         },
         {
-          "word": "ferrovia",
+          "word": "girassol",
           "kind": "compound",
           "slot": "noun-thing"
         }
       ],
       "lookAlikes": [
         {
-          "word": "feira",
-          "whyNotFamily": "um mercado na rua"
+          "word": "sopa",
+          "whyNotFamily": "um prato de comer com colher"
         },
         {
-          "word": "festa",
-          "whyNotFamily": "uma comemoração"
+          "word": "sofá",
+          "whyNotFamily": "um móvel da sala"
         },
         {
-          "word": "feijão",
-          "whyNotFamily": "um grão que se come"
+          "word": "sorvete",
+          "whyNotFamily": "um doce gelado"
+        }
+      ]
+    },
+    {
+      "id": "motor",
+      "stem": "motor",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "motor"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "motorista",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "motorizar",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "motorizado",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "motorização",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "motorzinho",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "motorzão",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "ciclomotor",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "morango",
+          "whyNotFamily": "uma fruta vermelha"
+        },
+        {
+          "word": "mochila",
+          "whyNotFamily": "a bolsa que vai nas costas"
+        },
+        {
+          "word": "moeda",
+          "whyNotFamily": "dinheiro de metal"
+        }
+      ]
+    },
+    {
+      "id": "jornal",
+      "stem": "jornal",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "jornal"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "jornalista",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "jornaleiro",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "jornalismo",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "jornalzinho",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "jornalzão",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "jornalístico",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "telejornal",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "joaninha",
+          "whyNotFamily": "um inseto vermelho com pintinhas"
+        },
+        {
+          "word": "joelho",
+          "whyNotFamily": "uma parte da perna"
+        },
+        {
+          "word": "jogo",
+          "whyNotFamily": "uma brincadeira com regras"
+        }
+      ]
+    },
+    {
+      "id": "calor",
+      "stem": "calor",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "calor"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "calorento",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "calorão",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "caloria",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "calorzinho",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "acalorado",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "acalorar",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "calorífico",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "cavalo",
+          "whyNotFamily": "um animal que a gente monta"
+        },
+        {
+          "word": "caneta",
+          "whyNotFamily": "serve para escrever"
+        },
+        {
+          "word": "casaco",
+          "whyNotFamily": "uma roupa para o frio"
         }
       ]
     }
@@ -822,6 +827,10 @@
         {
           "word": "sono",
           "whyNotFamily": "começa como \"sol\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "sorvete",
+          "whyNotFamily": "começa como \"sol\", mas não é formada a partir dessa palavra"
         }
       ]
     },
@@ -862,6 +871,10 @@
         {
           "word": "tampa",
           "whyNotFamily": "começa como \"tambor\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "tartaruga",
+          "whyNotFamily": "começa como \"tambor\", mas não é formada a partir dessa palavra"
         }
       ]
     },
@@ -896,6 +909,10 @@
         },
         {
           "word": "perna",
+          "whyNotFamily": "começa como \"peixe\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "pernilongo",
           "whyNotFamily": "começa como \"peixe\", mas não é formada a partir dessa palavra"
         }
       ]
@@ -977,6 +994,10 @@
         {
           "word": "pente",
           "whyNotFamily": "começa como \"pedra\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "periquito",
+          "whyNotFamily": "começa como \"pedra\", mas não é formada a partir dessa palavra"
         }
       ]
     },
@@ -1016,6 +1037,10 @@
         },
         {
           "word": "esquilo",
+          "whyNotFamily": "começa como \"estrela\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "espantalho",
           "whyNotFamily": "começa como \"estrela\", mas não é formada a partir dessa palavra"
         }
       ]
@@ -1057,6 +1082,10 @@
         {
           "word": "fome",
           "whyNotFamily": "começa como \"folha\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "fogueira",
+          "whyNotFamily": "começa como \"folha\", mas não é formada a partir dessa palavra"
         }
       ]
     },
@@ -1091,6 +1120,10 @@
         },
         {
           "word": "bolo",
+          "whyNotFamily": "começa como \"bola\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "boneca",
           "whyNotFamily": "começa como \"bola\", mas não é formada a partir dessa palavra"
         }
       ]
@@ -1132,6 +1165,10 @@
         {
           "word": "casa",
           "whyNotFamily": "começa como \"carro\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "cachorro",
+          "whyNotFamily": "começa como \"carro\", mas não é formada a partir dessa palavra"
         }
       ]
     },
@@ -1167,53 +1204,57 @@
         {
           "word": "lagarto",
           "whyNotFamily": "começa como \"laranja\", mas não é formada a partir dessa palavra"
+        },
+        {
+          "word": "lagartixa",
+          "whyNotFamily": "começa como \"laranja\", mas não é formada a partir dessa palavra"
         }
       ]
     }
   ],
   "sentences": {
-    "terra": [
+    "flor": [
       {
-        "word": "enterrar",
+        "word": "florir",
         "slot": "verb",
-        "frame": "O cachorro vai {gap} o osso no quintal."
+        "frame": "Na primavera, o ipê do quintal vai {gap} de novo."
       },
       {
-        "word": "terreno",
-        "slot": "noun-thing",
-        "frame": "Vamos plantar uma horta no {gap} ao lado da escola."
-      },
-      {
-        "word": "terrestre",
+        "word": "florido",
         "slot": "adjective",
-        "frame": "O elefante é o maior animal {gap}."
+        "frame": "Depois da chuva, o jardim ficou todo {gap}."
       },
       {
-        "word": "terráqueo",
+        "word": "floreira",
+        "slot": "noun-thing",
+        "frame": "A vovó plantou margaridas na {gap} da janela."
+      },
+      {
+        "word": "floricultor",
         "slot": "noun-person",
-        "frame": "Na história, o {gap} fez amizade com um alienígena."
+        "frame": "O {gap} cultiva rosas e girassóis numa estufa bem grande."
       }
     ],
-    "pedra": [
+    "motor": [
       {
-        "word": "pedreiro",
+        "word": "motorista",
         "slot": "noun-person",
-        "frame": "O {gap} construiu o muro com tijolos."
+        "frame": "O {gap} do ônibus esperou todas as crianças subirem."
       },
       {
-        "word": "pedregulho",
-        "slot": "noun-thing",
-        "frame": "Tirei um {gap} de dentro do sapato."
-      },
-      {
-        "word": "pedregoso",
-        "slot": "adjective",
-        "frame": "Andamos com cuidado pelo chão {gap} da trilha."
-      },
-      {
-        "word": "empedrar",
+        "word": "motorizar",
         "slot": "verb",
-        "frame": "Os trabalhadores vão {gap} a rua da praça."
+        "frame": "O papai quer {gap} a bicicleta velha para ela andar sozinha."
+      },
+      {
+        "word": "motorizado",
+        "slot": "adjective",
+        "frame": "Meu primo ganhou um carrinho {gap} que anda sem ninguém empurrar."
+      },
+      {
+        "word": "motorzinho",
+        "slot": "noun-thing",
+        "frame": "O barquinho de brinquedo tem um {gap} que faz barulho."
       }
     ],
     "sal": [
@@ -1259,55 +1300,55 @@
         "base": "ler",
         "prefix": "re",
         "word": "reler",
-        "gloss": "ler uma história de novo"
+        "gloss": "ler uma história outra vez"
       },
       {
         "base": "fazer",
         "prefix": "re",
         "word": "refazer",
-        "gloss": "fazer a lição de novo"
+        "gloss": "fazer a lição outra vez"
       },
       {
         "base": "contar",
         "prefix": "re",
         "word": "recontar",
-        "gloss": "contar a história de novo"
+        "gloss": "contar a história outra vez"
       },
       {
         "base": "escrever",
         "prefix": "re",
         "word": "reescrever",
-        "gloss": "escrever o texto de novo"
+        "gloss": "escrever o texto outra vez"
       },
       {
         "base": "ver",
         "prefix": "pre",
         "word": "prever",
-        "gloss": "saber antes o que vai acontecer"
+        "gloss": "saber agora o que vai acontecer depois"
       },
       {
         "base": "dizer",
         "prefix": "pre",
         "word": "predizer",
-        "gloss": "dizer antes o que vai acontecer"
+        "gloss": "dizer hoje o que vai acontecer amanhã"
       },
       {
         "base": "aquecer",
         "prefix": "pre",
         "word": "preaquecer",
-        "gloss": "aquecer o forno antes de assar o bolo"
+        "gloss": "aquecer o forno primeiro, para depois assar o bolo"
       },
       {
         "base": "solo",
         "prefix": "sub",
         "word": "subsolo",
-        "gloss": "o andar que fica embaixo do chão"
+        "gloss": "o andar do prédio que fica sob o chão"
       },
       {
         "base": "título",
         "prefix": "sub",
         "word": "subtítulo",
-        "gloss": "o título menor que vem embaixo do título"
+        "gloss": "o título menor escrito sob o título principal"
       },
       {
         "base": "chefe",
@@ -1582,7 +1623,7 @@
   "exemplar": {
     "base": [
       "flor",
-      "pedra"
+      "mar"
     ],
     "F1": [
       "weather/sun",
@@ -1608,8 +1649,8 @@
       "escola"
     ],
     "F5": [
-      "terra",
-      "pedra",
+      "flor",
+      "motor",
       "sal"
     ]
   },
@@ -1639,12 +1680,20 @@
       "instruction": "Leia o que cada palavra nova significa, encontre o prefixo no quadro e escreva-o na peça vazia."
     },
     "who-does-it": {
-      "title": "Sufixos de profissões: quem faz?",
-      "instruction": "Observe cada pessoa trabalhando, leia a palavra ao lado dela e escreva no tijolo vazio a palavra que diz quem faz esse trabalho."
+      "title": "Quem faz? Palavras com -eiro, -or e -ino",
+      "instruction": "Observe cada pessoa, leia a palavra do cartão ao lado dela e escreva no quadro tracejado a palavra que diz quem faz aquilo."
     },
     "family-in-sentence": {
       "title": "Família de palavras nas frases",
-      "instruction": "Escreva cada uma das quatro palavras da pedra na frase em que ela se encaixa."
+      "instruction": "Escreva cada uma das quatro palavras dos cartões no quadro tracejado da frase em que ela combina."
     }
-  }
+  },
+  "agentSuffixes": [
+    "eiro",
+    "eira",
+    "or",
+    "ora",
+    "ino",
+    "ina"
+  ]
 }

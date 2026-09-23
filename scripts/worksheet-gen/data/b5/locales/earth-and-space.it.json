@@ -15,7 +15,7 @@
     "air": "C’è l’aria che possiamo respirare.",
     "planet": "È un pianeta.",
     "spinDay": "Il suo movimento di rotazione ci dà il giorno e la notte.",
-    "orbitsEarth": "Questo astro gira intorno alla Terra.",
+    "orbitsEarth": "Questo astro gira intorno al nostro pianeta in circa un mese.",
     "seemsToChange": "La sua forma sembra cambiare.",
     "craters": "Questo astro è coperto di crateri.",
     "smallest": "Questo astro è il più piccolo dei tre."
@@ -99,7 +99,7 @@
     },
     "moon-phases-in-order": {
       "title": "Le fasi lunari in ordine",
-      "instruction": "La Luna sembra crescere e poi calare: in ogni riga scrivi da 1 a 5 sotto le lune, in quest’ordine."
+      "instruction": "In ogni riga il cuneo mostra se la Luna cresce o cala: scrivi da 1 a 5 sotto le lune in quest’ordine."
     },
     "moon-phase-names": {
       "title": "I nomi delle fasi lunari",

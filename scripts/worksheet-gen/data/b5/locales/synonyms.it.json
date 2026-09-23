@@ -103,17 +103,6 @@
       ]
     },
     {
-      "id": "g.sick",
-      "concept": "sick",
-      "pos": "adj",
-      "domain": "body",
-      "tier": 1,
-      "words": [
-        "malato",
-        "ammalato"
-      ]
-    },
-    {
       "id": "g.big",
       "concept": "big",
       "pos": "adj",
@@ -394,11 +383,6 @@
       "why": "preoccupato è un altro sentimento, non una paura più debole"
     },
     {
-      "a": "malato",
-      "b": "stanco",
-      "why": "chi è stanco non è malato"
-    },
-    {
       "a": "sorpreso",
       "b": "spaventato",
       "why": "un viso sorpreso può sembrare spaventato"
@@ -614,12 +598,12 @@
       ]
     },
     {
-      "id": "s.drink",
-      "pos": "verb",
+      "id": "s.size",
+      "pos": "adj",
       "words": [
-        "sorseggiare",
-        "bere",
-        "trangugiare"
+        "grande",
+        "enorme",
+        "gigantesco"
       ]
     },
     {
@@ -656,7 +640,7 @@
       "sentences": [
         {
           "id": "f1",
-          "text": "Il bebè dorme, così {name} {gap} pianissimo.",
+          "text": "Il bebè dorme, così {name} {gap} piano piano: «Buonanotte».",
           "fit": {
             "sussurra": true,
             "grida": false,
@@ -664,7 +648,8 @@
             "risponde": false,
             "spiega": false,
             "promette": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f2",
@@ -676,7 +661,8 @@
             "risponde": false,
             "spiega": false,
             "promette": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f3",
@@ -688,11 +674,12 @@
             "risponde": false,
             "spiega": false,
             "promette": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f4",
-          "text": "Dall’altra parte del grande prato, {name} {gap} per chiamare il suo cane.",
+          "text": "Dall’altra parte del grande prato, {name} {gap}: «Fido, vieni qui!»",
           "fit": {
             "sussurra": false,
             "grida": true,
@@ -700,7 +687,8 @@
             "risponde": false,
             "spiega": false,
             "promette": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f5",
@@ -712,11 +700,12 @@
             "risponde": false,
             "spiega": false,
             "promette": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f6",
-          "text": "{name} {gap} alla domanda della maestra con un bel sorriso.",
+          "text": "«Ho sette anni», {gap} {name} alla maestra, che vuole sapere la sua età.",
           "fit": {
             "sussurra": false,
             "grida": false,
@@ -724,7 +713,8 @@
             "risponde": true,
             "spiega": false,
             "promette": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f7",
@@ -736,7 +726,8 @@
             "risponde": false,
             "spiega": true,
             "promette": false
-          }
+          },
+          "plainVerbOK": true
         },
         {
           "id": "f8",
@@ -748,7 +739,8 @@
             "risponde": false,
             "spiega": false,
             "promette": true
-          }
+          },
+          "plainVerbOK": true
         }
       ]
     },

@@ -117,7 +117,7 @@
     },
     "compass-rose": {
       "title": "Les points cardinaux : complète la rose des vents",
-      "instruction": "Chaque rose des vents montre une lettre : écris les trois autres lettres dans les cases vides."
+      "instruction": "Chaque rose des vents montre une lettre, parfois tournée : écris les trois autres lettres dans les cases vides."
     },
     "continents": {
       "title": "Les continents : écris leur nom",

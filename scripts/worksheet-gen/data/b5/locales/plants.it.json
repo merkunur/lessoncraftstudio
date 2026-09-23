@@ -61,7 +61,7 @@
     },
     "needs": {
       "title": "Di che cosa ha bisogno una pianta per crescere",
-      "instruction": "Guarda che cosa riceve ogni pianta e cerchia quella che ha tutte e due le cose che le servono per crescere."
+      "instruction": "In ogni riga, cerchia la pianta che riceve tutte e due le cose che le servono per crescere."
     },
     "cycle": {
       "title": "Il ciclo vitale della pianta: dal seme alla pianta",

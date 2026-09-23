@@ -2633,7 +2633,7 @@
   },
   "K-369": {
     "title": "Verkehrserziehung: Was zeigt die Ampel?",
-    "instruction": "Schau, welche Lampe leuchtet, und kreise ein, was du tun musst."
+    "instruction": "Schau, welche Lampe leuchtet, und kreise ein, was man jetzt tun muss."
   },
   "K-370": {
     "title": "Familienmitglieder: Wer ist wer?",
@@ -2713,7 +2713,7 @@
   },
   "K-375": {
     "title": "Familienwörter nachspuren und schreiben",
-    "instruction": "Finde die Person mit derselben Zahl im Stammbaum, spure ihr Familienwort nach und schreibe es noch einmal auf die Linie."
+    "instruction": "Spure jedes Familienwort nach, schreibe es noch einmal auf die Linie und zeige die Person mit derselben Zahl im Stammbaum."
   },
   "G1-386": {
     "title": "Stammbaum ausfüllen: Namen mit Hinweisen eintragen",
@@ -2729,7 +2729,7 @@
   },
   "K-376": {
     "title": "Was Pflanzen zum Wachsen brauchen",
-    "instruction": "Kreise in jeder Reihe die Pflanze ein, die beides bekommt, was sie zum Wachsen braucht."
+    "instruction": "Kreise in jeder Reihe die eine Pflanze ein, die beides bekommt, was sie zum Wachsen braucht."
   },
   "G1-388": {
     "title": "Vom Samen zur Pflanze",
@@ -2753,11 +2753,11 @@
   },
   "G2-365": {
     "title": "Entwicklung des Schmetterlings: Stadien beschriften",
-    "instruction": "Schreibe jeden Namen aus dem Wörterkasten auf die Linie unter seinem Bild und streiche den einen Namen durch, der nicht dazugehört."
+    "instruction": "Schreibe die Namen der vier Stufen aus dem Wörterkasten unter die Bilder, ein Wort im Kasten gehört nicht dazu."
   },
   "G2-366": {
     "title": "Metamorphose: Welches Tier wird daraus?",
-    "instruction": "Schau dir jedes junge Tier an und schreibe seinen Buchstaben in ein Kästchen unter dem erwachsenen Tier, das aus ihm wird."
+    "instruction": "Schau dir jede Stufe an und schreibe ihren Buchstaben unter das erwachsene Tier, zu dem sie gehört; manche Kästchen bleiben leer."
   },
   "G3-393": {
     "title": "Schmetterling und Frosch: Entwicklung im Vergleich",
@@ -2765,7 +2765,7 @@
   },
   "G1-390": {
     "title": "Was kommt danach? Schmetterling, Frosch und Marienkäfer",
-    "instruction": "Schau dir das erste Bild in jeder Reihe an und kreise das Bild ein, das direkt danach kommt."
+    "instruction": "Kreise in jeder Reihe das Bild ein, das direkt nach dem ersten kommt; nach dem erwachsenen Tier beginnt alles wieder beim Ei."
   },
   "G1-391": {
     "title": "Mondphasen in der richtigen Reihenfolge",
@@ -2773,7 +2773,7 @@
   },
   "G2-367": {
     "title": "Mondphasen benennen",
-    "instruction": "Schreibe den Namen jedes Mondes auf die Linien, jedes Wort aus dem Wörterkasten brauchst du zweimal."
+    "instruction": "Schreibe zu jedem Mond das passende Wort aus dem Wörterkasten auf die Linien, jedes Wort brauchst du zweimal."
   },
   "G2-368": {
     "title": "Warum gibt es Tag und Nacht?",
@@ -2833,7 +2833,7 @@
   },
   "G2-373": {
     "title": "Synonyme zuordnen: Wortpaare verbinden",
-    "instruction": "Jedes Wort hängt an einer Socke: Verbinde jede Socke links mit einer Linie mit der Socke rechts, deren Wort dasselbe bedeutet."
+    "instruction": "Verbinde jedes Wort links mit einer Linie mit dem Wort rechts, das dasselbe bedeutet."
   },
   "G1-396": {
     "title": "Wörter nach Stärke ordnen: von ein bisschen bis sehr",
@@ -2861,10 +2861,10 @@
   },
   "G3-398": {
     "title": "Wer macht das? Personenwörter bilden",
-    "instruction": "Schau dir jede Person bei der Arbeit an, lies das Wort daneben und schreibe das Personenwort in den leeren Stein."
+    "instruction": "Schau dir jede Person an, lies das Wort daneben und schreibe das Personenwort mit -er oder -erin in das gestrichelte Kästchen."
   },
   "G3-399": {
     "title": "Wortfamilien im Satz",
-    "instruction": "Schreibe jedes der vier Wörter auf dem Stein in den Satz, in den es passt."
+    "instruction": "Schreibe jedes Wort von den vier Karten in den Satz, in den es passt."
   }
 }

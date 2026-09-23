@@ -2717,7 +2717,7 @@
   },
   "K-376": {
     "title": "¿Qué necesitan las plantas para crecer?",
-    "instruction": "Mira lo que recibe cada planta y rodea la planta que tiene las dos cosas que necesita para crecer."
+    "instruction": "En cada fila, rodea la planta que recibe las dos cosas que necesita para crecer."
   },
   "G1-388": {
     "title": "Ciclo de vida de las plantas: de la semilla a la planta",
@@ -2733,7 +2733,7 @@
   },
   "G3-392": {
     "title": "Partes de la flor",
-    "instruction": "Escribe en su línea el nombre de cada parte numerada de la flor y tacha la palabra del banco que no es parte de una flor."
+    "instruction": "Escribe en su línea el nombre de cada parte numerada de la flor y tacha la palabra del banco que no nombra ninguna parte del dibujo."
   },
   "G1-389": {
     "title": "Ciclo de vida de la rana para recortar y pegar",
@@ -2741,11 +2741,11 @@
   },
   "G2-365": {
     "title": "Ciclo de vida de la mariposa: escribe las etapas",
-    "instruction": "Escribe cada nombre del banco de palabras en la línea bajo su dibujo y tacha el nombre que no corresponde."
+    "instruction": "Escribe los cuatro nombres de las etapas del banco en las líneas bajo sus dibujos y tacha el nombre que no corresponde."
   },
   "G2-366": {
     "title": "Metamorfosis: ¿en qué animal se convertirá?",
-    "instruction": "Mira cada animal joven y escribe su letra en un cuadro bajo el animal adulto en el que se convertirá."
+    "instruction": "Mira cada etapa y escribe su letra en un cuadro bajo el animal en el que se convertirá; algunos cuadros se quedan vacíos."
   },
   "G3-393": {
     "title": "Compara el ciclo de vida de la mariposa y de la rana",
@@ -2753,11 +2753,11 @@
   },
   "G1-390": {
     "title": "¿Qué sigue? Mariposa, rana y catarina",
-    "instruction": "Mira el primer dibujo de cada fila y rodea el que sigue justo después."
+    "instruction": "Mira el primer dibujo de cada fila y rodea el que sigue justo después; después del adulto, el ciclo vuelve a empezar."
   },
   "G1-391": {
     "title": "Fases de la luna en orden",
-    "instruction": "La Luna parece crecer y luego achicarse: en cada fila, escribe del 1 al 5 bajo las lunas en ese orden."
+    "instruction": "La cuña de cada fila muestra si la Luna crece o se achica: escribe del 1 al 5 bajo las lunas en ese orden."
   },
   "G2-367": {
     "title": "Fases de la luna con sus nombres",
@@ -2829,6 +2829,6 @@
   },
   "G3-399": {
     "title": "Palabras derivadas en oraciones",
-    "instruction": "Escribe cada una de las cuatro palabras de la piedra en la oración donde va."
+    "instruction": "En cada recuadro, escribe cada palabra de la fila de arriba en el hueco de la oración donde va."
   }
 }

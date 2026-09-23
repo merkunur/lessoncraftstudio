@@ -1,4 +1,6 @@
 {
   "locale": "nl",
-  "refusals": {}
+  "refusals": {
+    "G1-394": "Na round 1 heeft nl geen drie plaatjes meer met de klank aan het eind (oo/ie/ui): knie, lelie en kanarie noemen kinderen been, bloem en vogel; kolibrie, spinazie en televisie hebben hetzelfde probleem. Liever weigeren dan opvullen."
+  }
 }

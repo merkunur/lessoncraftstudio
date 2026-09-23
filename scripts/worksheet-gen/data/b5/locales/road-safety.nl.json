@@ -213,7 +213,7 @@
   },
   "meanings": {
     "stop": "Elke auto moet hier helemaal stilstaan en voorrang geven.",
-    "yield": "Laat het verkeer op de andere weg eerst gaan.",
+    "yield": "Rem af en laat het andere verkeer eerst gaan, daarna mag je verder rijden.",
     "crossing": "Hier is een zebrapad om veilig over te steken.",
     "children": "Let op, hier kunnen kinderen de weg op lopen.",
     "no-entry": "Hier mag geen enkel voertuig de straat in.",
@@ -312,7 +312,7 @@
       "instruction": "Schrijf de letter van elk verkeersbord in een vakje van zijn groep."
     },
     "sign-quiz": {
-      "title": "Welk verkeersbord past? Een quiz voor groep 5",
+      "title": "Welk verkeersbord past? Een quiz voor groep 4",
       "instruction": "Lees elke zin en omcirkel het ene verkeersbord dat erbij past."
     }
   }

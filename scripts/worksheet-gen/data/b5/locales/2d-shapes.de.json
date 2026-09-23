@@ -48,17 +48,17 @@
         "clue": "round"
       },
       {
-        "text": "Ich habe keine geraden Seiten und gar keine Ecken. Wer bin ich?",
+        "text": "Ich bin überall gleich rund, wie eine Münze. Wer bin ich?",
         "clue": "round"
       }
     ],
     "square": [
       {
-        "text": "Meine 4 Seiten sind alle gleich lang. Wer bin ich?",
+        "text": "Ich habe 4 gleich lange Seiten und 4 Ecken wie bei einem Buch. Wer bin ich?",
         "clue": "equal"
       },
       {
-        "text": "Ich habe 4 Ecken und 4 gleich lange Seiten. Wer bin ich?",
+        "text": "Meine Ecken sind alle rechte Ecken, und meine 4 Seiten sind gleich lang. Wer bin ich?",
         "clue": "equal"
       }
     ],
@@ -74,11 +74,11 @@
     ],
     "rectangle": [
       {
-        "text": "Ich habe 2 lange und 2 kurze Seiten. Wer bin ich?",
+        "text": "Ich habe 2 lange und 2 kurze Seiten und 4 Ecken wie bei einem Buch. Wer bin ich?",
         "clue": "longShort"
       },
       {
-        "text": "Ich habe 4 Ecken, 2 lange und 2 kurze Seiten. Wer bin ich?",
+        "text": "Meine 4 Ecken sind rechte Ecken, und 2 Seiten sind lang, 2 sind kurz. Wer bin ich?",
         "clue": "longShort"
       }
     ],

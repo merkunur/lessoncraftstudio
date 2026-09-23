@@ -201,14 +201,14 @@
     ],
     "crossing": [
       "Her er stribet på vejen, så man kan gå sikkert over til fods.",
-      "Bilerne skal holde tilbage, når børn vil gå over vejen her."
+      "Bilerne skal holde tilbage, når nogen vil gå over på striberne her."
     ],
     "children": [
       "Lige ved vejen ligger en skole, så her løber der ofte børn.",
       "Pas på, bilister: tæt ved vejen ligger en legeplads."
     ],
     "no-entry": [
-      "Ind i denne gade må man ikke køre herfra.",
+      "Man må ikke køre ind i gaden fra denne ende.",
       "Her er indkørslen forbudt, så bilerne må finde en anden vej."
     ],
     "footpath": [
@@ -221,10 +221,10 @@
     ],
     "signal-ahead": [
       "Pas på, lidt længere fremme kommer der en lyskurv.",
-      "Snart er der lys på vejen, som kan skifte til rødt."
+      "Snart kommer der et lyskryds, hvor lyset kan skifte til rødt."
     ],
     "bike-warning": [
-      "Pas på, bilister: her cykler børn ofte over vejen.",
+      "Pas på, bilister: her krydser cyklisterne tit vejen.",
       "På denne vej kommer der mange cyklister."
     ],
     "no-vehicles": [
@@ -260,7 +260,7 @@
   "strings": {
     "base": {
       "title": "Færdselslære: Hvad viser lyskurven?",
-      "instruction": "Se, hvilken lampe der lyser, og sæt ring om det, du skal gøre."
+      "instruction": "Se, hvilken lampe der lyser, og sæt ring om det, man skal gøre."
     },
     "colour-lights": {
       "title": "Færdselslære: farvelæg lyskurvene",

@@ -15,7 +15,7 @@
     "air": "Tiene aire que podemos respirar.",
     "planet": "Es un planeta.",
     "spinDay": "Su giro nos da el día y la noche.",
-    "orbitsEarth": "Gira alrededor de la Tierra.",
+    "orbitsEarth": "Es nuestro satélite natural.",
     "seemsToChange": "Parece que cambia de forma.",
     "craters": "Tiene muchísimos cráteres.",
     "smallest": "De los tres, tiene el menor tamaño."
@@ -68,9 +68,9 @@
   ],
   "phaseNames": {
     "0": "luna nueva",
-    "2": "luna creciente",
+    "2": "cuarto creciente",
     "4": "luna llena",
-    "6": "luna menguante"
+    "6": "cuarto menguante"
   },
   "planets": {
     "mercury": "Mercurio",
@@ -100,7 +100,7 @@
     },
     "moon-phases-in-order": {
       "title": "Fases de la luna en orden",
-      "instruction": "La Luna parece crecer y luego achicarse: en cada fila, escribe del 1 al 5 bajo las lunas en ese orden."
+      "instruction": "La cuña de cada fila muestra si la Luna crece o se achica: escribe del 1 al 5 bajo las lunas en ese orden."
     },
     "moon-phase-names": {
       "title": "Fases de la luna con sus nombres",

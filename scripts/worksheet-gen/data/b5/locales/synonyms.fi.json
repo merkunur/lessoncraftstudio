@@ -461,11 +461,6 @@
       "why": "iloinen on tunne, huvittava saa muut nauramaan"
     },
     {
-      "a": "tykätä",
-      "b": "rakastaa",
-      "why": "sävyero: rakastaa on enemmän kuin tykätä"
-    },
-    {
       "a": "väsynyt",
       "b": "sairas",
       "why": "väsynyt ihminen ei ole sairas"
@@ -671,12 +666,12 @@
       ]
     },
     {
-      "id": "s.like",
+      "id": "s.laugh",
       "pos": "verb",
       "words": [
-        "tykätä",
-        "rakastaa",
-        "jumaloida"
+        "hymyillä",
+        "nauraa",
+        "hohottaa"
       ]
     },
     {
@@ -714,6 +709,7 @@
         {
           "id": "f1",
           "text": "”Hys, vauva nukkuu”, {name} {gap} aivan hiljaa.",
+          "plainVerbOK": true,
           "fit": {
             "kuiskasi": true,
             "huusi": false,
@@ -725,7 +721,8 @@
         },
         {
           "id": "f2",
-          "text": "{name} {gap} salaisuuden mummon korvaan.",
+          "text": "”Minulla on sinulle salaisuus”, {name} {gap} mummon korvaan.",
+          "plainVerbOK": true,
           "fit": {
             "kuiskasi": true,
             "huusi": false,
@@ -738,6 +735,7 @@
         {
           "id": "f3",
           "text": "Bussi oli lähdössä, joten {name} {gap}: ”Odottakaa minua!”",
+          "plainVerbOK": true,
           "fit": {
             "kuiskasi": false,
             "huusi": true,
@@ -749,7 +747,8 @@
         },
         {
           "id": "f4",
-          "text": "{name} {gap} kovalla äänellä koko pihan poikki.",
+          "text": "”Tule leikkimään!” {name} {gap} koko pihan poikki.",
+          "plainVerbOK": true,
           "fit": {
             "kuiskasi": false,
             "huusi": true,
@@ -762,6 +761,7 @@
         {
           "id": "f5",
           "text": "”Missä punainen piponi on?” {name} {gap}.",
+          "plainVerbOK": true,
           "fit": {
             "kuiskasi": false,
             "huusi": false,
@@ -773,7 +773,8 @@
         },
         {
           "id": "f6",
-          "text": "{name} {gap} opettajan kysymykseen iloisesti hymyillen.",
+          "text": "”Kymmenen”, {name} {gap} heti, kun opettaja luki laskun ääneen.",
+          "plainVerbOK": true,
           "fit": {
             "kuiskasi": false,
             "huusi": false,
@@ -785,7 +786,8 @@
         },
         {
           "id": "f7",
-          "text": "{name} {gap} muille vaihe vaiheelta, miten siemen kylvetään.",
+          "text": "”Kaiva ensin kuoppa ja pudota sitten siemen siihen”, {name} {gap}.",
+          "plainVerbOK": true,
           "fit": {
             "kuiskasi": false,
             "huusi": false,
@@ -797,7 +799,8 @@
         },
         {
           "id": "f8",
-          "text": "{name} {gap} ruokkia kalat joka päivä eikä unohtanut kertaakaan.",
+          "text": "”Minä ruokin kalat joka päivä, ihan varmasti”, {name} {gap}.",
+          "plainVerbOK": true,
           "fit": {
             "kuiskasi": false,
             "huusi": false,

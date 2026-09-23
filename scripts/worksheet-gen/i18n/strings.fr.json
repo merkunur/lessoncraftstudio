@@ -2653,7 +2653,7 @@
   },
   "G2-359": {
     "title": "Le radical : trier les mots selon leur radical",
-    "instruction": "Lis chaque mot du haut et écris-le sur une ligne du mur posé sur son radical."
+    "instruction": "Lis chaque mot du haut et écris-le sur une ligne du mur qui s’élève sur son mot de base."
   },
   "G1-381": {
     "title": "Reconnaître les figures planes : vraie ou fausse ?",
@@ -2665,7 +2665,7 @@
   },
   "G1-382": {
     "title": "Écris le nom des figures planes",
-    "instruction": "Regarde chaque figure et écris son nom sur la ligne, en t’aidant des noms de l’encadré."
+    "instruction": "Regarde chaque figure et écris son nom sur la ligne, en t’aidant de l’encadré : un même nom peut servir plusieurs fois."
   },
   "G1-383": {
     "title": "Devinettes sur les figures planes",
@@ -2673,7 +2673,7 @@
   },
   "K-372": {
     "title": "Tracer les figures planes sur les points",
-    "instruction": "Lis le nom de la figure et relie les points pour la tracer, en partant du trait épais quand il y en a un."
+    "instruction": "Avec un adulte, lis le nom de la figure et relie les points pour la tracer, en partant du trait épais s’il y en a un."
   },
   "K-373": {
     "title": "Sécurité routière : colorie les feux",
@@ -2717,7 +2717,7 @@
   },
   "K-376": {
     "title": "De quoi une plante a-t-elle besoin pour pousser ?",
-    "instruction": "Regarde ce que reçoit chaque plante et entoure celle qui a les deux choses dont elle a besoin pour pousser."
+    "instruction": "Sur chaque ligne, entoure la plante qui reçoit les deux choses dont elle a besoin pour pousser."
   },
   "G1-388": {
     "title": "Le cycle de vie d’une plante : de la graine à la plante",
@@ -2741,11 +2741,11 @@
   },
   "G2-365": {
     "title": "Légender le cycle de vie du papillon",
-    "instruction": "Écris chaque nom de la liste sur la ligne sous son image et barre le seul nom qui n’a pas sa place."
+    "instruction": "Écris les quatre noms d’étapes de la liste sur les lignes sous leurs images, puis barre le nom qui n’a pas sa place."
   },
   "G2-366": {
     "title": "La métamorphose : quel animal va-t-il devenir ?",
-    "instruction": "Regarde chaque jeune animal et écris sa lettre dans une case sous l’animal adulte qu’il deviendra."
+    "instruction": "Regarde chaque étape et écris sa lettre dans une case sous l’animal adulte qu’elle deviendra : des cases restent vides."
   },
   "G3-393": {
     "title": "Comparer le cycle de vie du papillon et de la grenouille",
@@ -2753,11 +2753,11 @@
   },
   "G1-390": {
     "title": "Qu’est-ce qui vient après ? Papillon, grenouille et coccinelle",
-    "instruction": "Regarde la première image de chaque rangée et entoure celle qui vient juste après."
+    "instruction": "Regarde la première image de chaque rangée et entoure celle qui vient juste après : après l’adulte, le cycle recommence."
   },
   "G1-391": {
     "title": "Les phases de la Lune dans l’ordre",
-    "instruction": "La Lune semble grossir puis rapetisser : sur chaque rangée, écris de 1 à 5 sous les lunes dans cet ordre."
+    "instruction": "Sur chaque rangée, regarde si la Lune grossit ou rapetisse, puis écris de 1 à 5 sous les lunes dans cet ordre."
   },
   "G2-367": {
     "title": "Nommer les phases de la Lune",
@@ -2781,7 +2781,7 @@
   },
   "G2-369": {
     "title": "Les points cardinaux : complète la rose des vents",
-    "instruction": "Chaque rose des vents montre une lettre : écris les trois autres lettres dans les cases vides."
+    "instruction": "Chaque rose des vents montre une lettre, parfois tournée : écris les trois autres lettres dans les cases vides."
   },
   "G2-370": {
     "title": "Les continents : écris leur nom",
@@ -2849,6 +2849,6 @@
   },
   "G3-399": {
     "title": "Le radical dans les phrases",
-    "instruction": "Écris chacun des quatre mots de la pierre dans la phrase qui lui convient."
+    "instruction": "Dans chaque bloc, écris chacun des quatre mots posés sur la pierre dans la phrase qui lui convient."
   }
 }

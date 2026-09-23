@@ -40,11 +40,11 @@
     ],
     "square": [
       {
-        "text": "Meus 4 lados têm o mesmo tamanho. Quem sou eu?",
+        "text": "Tenho 4 lados iguais e 4 cantos retos. Quem sou eu?",
         "clue": "equal"
       },
       {
-        "text": "Tenho 4 cantos e meus 4 lados são iguais. Quem sou eu?",
+        "text": "Meus 4 cantos são retos e todos os meus lados têm o mesmo tamanho. Quem sou eu?",
         "clue": "equal"
       }
     ],
@@ -60,11 +60,11 @@
     ],
     "rectangle": [
       {
-        "text": "Tenho 2 lados compridos e 2 lados curtos. Quem sou eu?",
+        "text": "Tenho 2 lados compridos, 2 lados curtos e 4 cantos retos. Quem sou eu?",
         "clue": "longShort"
       },
       {
-        "text": "Tenho 4 cantos, 2 lados compridos e 2 lados curtos. Quem sou eu?",
+        "text": "Meus cantos são retos como o canto de um livro, e 2 lados são mais compridos. Quem sou eu?",
         "clue": "longShort"
       }
     ],
@@ -94,7 +94,7 @@
     },
     "write-name": {
       "title": "Escreva o nome das figuras geométricas planas",
-      "instruction": "Observe cada figura e escreva o nome dela na linha, usando os nomes do quadro."
+      "instruction": "Observe cada figura e escreva o nome dela na linha, usando os nomes do quadro; um nome pode servir para mais de uma figura."
     },
     "riddles": {
       "title": "Adivinhas de figuras geométricas planas",

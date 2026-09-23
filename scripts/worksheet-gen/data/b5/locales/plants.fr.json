@@ -80,7 +80,7 @@
     },
     "needs": {
       "title": "De quoi une plante a-t-elle besoin pour pousser ?",
-      "instruction": "Regarde ce que reçoit chaque plante et entoure celle qui a les deux choses dont elle a besoin pour pousser."
+      "instruction": "Sur chaque ligne, entoure la plante qui reçoit les deux choses dont elle a besoin pour pousser."
     },
     "cycle": {
       "title": "Le cycle de vie d’une plante : de la graine à la plante",

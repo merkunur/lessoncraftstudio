@@ -109,9 +109,7 @@ const EARTH_AND_SPACE = {
   },
   /** Facts the composer may not draw (the page is locale-neutral, so one locale's defect benches the id everywhere).
    *  A RATCHET in qa/verify-b5-earth-and-space.js: an id stays here only while >= 1 locale's literal still fails. */
-  EXCLUDED_FACTS: {
-    orbitsEarth: 'names the Earth column head in de/es/fr/it/nl/sv/da/fi ("um die Erde", "alrededor de la Tierra" …; landing round 1, 2026-09-23) — a native re-authors it head-free (pt/no already are: "our planet")',
-  },
+  EXCLUDED_FACTS: {},  // orbitsEarth re-admitted 2026-09-23 after the native fix round made it head-free in every locale
   FORBIDDEN_FACT_IDS: ['givesLight', 'shinesAtNight', 'orbitsSun', 'isRound', 'spins', 'seenInSky', 'walkedOn', 'noAir', 'reflects', 'sunMoves'],
   PHASES: [0, 1, 2, 3, 4, 5, 6, 7],
   NAMED_PHASES: [0, 2, 4, 6],

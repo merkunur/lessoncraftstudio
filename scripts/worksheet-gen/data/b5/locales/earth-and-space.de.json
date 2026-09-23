@@ -15,7 +15,7 @@
     "air": "Ich habe Luft, die man atmen kann.",
     "planet": "Ich bin ein Planet.",
     "spinDay": "Weil ich mich drehe, gibt es Tag und Nacht.",
-    "orbitsEarth": "Ich kreise um die Erde.",
+    "orbitsEarth": "In ungefähr einem Monat reise ich einmal um einen Planeten herum.",
     "seemsToChange": "Meine Form sieht jeden Abend etwas anders aus.",
     "craters": "Ich bin voller Krater.",
     "smallest": "Ich bin am kleinsten von uns dreien."
@@ -112,7 +112,7 @@
     },
     "moon-phase-names": {
       "title": "Mondphasen benennen",
-      "instruction": "Schreibe den Namen jedes Mondes auf die Linien, jedes Wort aus dem Wörterkasten brauchst du zweimal."
+      "instruction": "Schreibe zu jedem Mond das passende Wort aus dem Wörterkasten auf die Linien, jedes Wort brauchst du zweimal."
     },
     "day-and-night-model": {
       "title": "Warum gibt es Tag und Nacht?",

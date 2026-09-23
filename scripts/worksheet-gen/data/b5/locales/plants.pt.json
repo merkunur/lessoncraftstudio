@@ -55,7 +55,7 @@
     },
     "needs": {
       "title": "Do que as plantas precisam para crescer",
-      "instruction": "Observe o que cada planta recebe e circule a planta que recebe as duas coisas de que precisa para crescer."
+      "instruction": "Em cada fileira, circule a planta que recebe as duas coisas de que precisa para crescer."
     },
     "cycle": {
       "title": "Ciclo de vida das plantas: da semente à planta",

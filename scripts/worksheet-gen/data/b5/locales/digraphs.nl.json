@@ -145,35 +145,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "glove",
-          "theme": "clothing",
-          "noun": "glove",
-          "word": "handschoen",
-          "seg": [
-            "h",
-            "a",
-            "n",
-            "d",
-            "s",
-            "ch",
-            "oe",
-            "n"
-          ],
-          "snd": [
-            "ɦ",
-            "ɑ",
-            "n",
-            "t",
-            "s",
-            "x",
-            "u",
-            "n"
-          ],
-          "silent": [],
-          "stem": "schoen",
-          "picOpened": true
-        },
-        {
           "vocabKey": "hat",
           "theme": "clothing",
           "noun": "hat",
@@ -257,31 +228,6 @@
           ],
           "silent": [],
           "stem": "schoen",
-          "picOpened": true
-        },
-        {
-          "vocabKey": "turkey",
-          "theme": "farm animals",
-          "noun": "turkey",
-          "word": "kalkoen",
-          "seg": [
-            "k",
-            "a",
-            "l",
-            "k",
-            "oe",
-            "n"
-          ],
-          "snd": [
-            "k",
-            "ɑ",
-            "l",
-            "k",
-            "u",
-            "n"
-          ],
-          "silent": [],
-          "stem": "kalkoen",
           "picOpened": true
         },
         {
@@ -442,25 +388,6 @@
           ],
           "silent": [],
           "stem": "badkuip",
-          "picOpened": true
-        },
-        {
-          "vocabKey": "dove",
-          "theme": "birds 2",
-          "noun": "dove",
-          "word": "duif",
-          "seg": [
-            "d",
-            "ui",
-            "f"
-          ],
-          "snd": [
-            "d",
-            "œy",
-            "f"
-          ],
-          "silent": [],
-          "stem": "duif",
           "picOpened": true
         },
         {
@@ -707,29 +634,6 @@
           ],
           "silent": [],
           "stem": "deur",
-          "picOpened": true
-        },
-        {
-          "vocabKey": "foal",
-          "theme": "farm animals",
-          "noun": "foal",
-          "word": "veulen",
-          "seg": [
-            "v",
-            "eu",
-            "l",
-            "e",
-            "n"
-          ],
-          "snd": [
-            "v",
-            "øː",
-            "l",
-            "ə",
-            "n"
-          ],
-          "silent": [],
-          "stem": "veulen",
           "picOpened": true
         },
         {
@@ -1198,71 +1102,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "canary",
-          "theme": "birds 2",
-          "noun": "canary",
-          "word": "kanarie",
-          "seg": [
-            "k",
-            "a",
-            "n",
-            "a",
-            "r",
-            "ie"
-          ],
-          "snd": [
-            "k",
-            "aː",
-            "n",
-            "aː",
-            "r",
-            "i"
-          ],
-          "silent": [],
-          "stem": "kanarie",
-          "picOpened": true
-        },
-        {
-          "vocabKey": "knee",
-          "theme": "body parts",
-          "noun": "knee",
-          "word": "knie",
-          "seg": [
-            "k",
-            "n",
-            "ie"
-          ],
-          "snd": [
-            "k",
-            "n",
-            "i"
-          ],
-          "silent": [],
-          "stem": "knie",
-          "picOpened": true
-        },
-        {
-          "vocabKey": "lily",
-          "theme": "flowers",
-          "noun": "lily",
-          "word": "lelie",
-          "seg": [
-            "l",
-            "e",
-            "l",
-            "ie"
-          ],
-          "snd": [
-            "l",
-            "eː",
-            "l",
-            "i"
-          ],
-          "silent": [],
-          "stem": "lelie",
-          "picOpened": true
-        },
-        {
           "vocabKey": "kite",
           "theme": "toys",
           "noun": "kite",
@@ -1458,7 +1297,7 @@
     "exemplar": [
       "oe",
       "ui",
-      "eu"
+      "oo"
     ],
     "k": [
       "oe",
@@ -2225,11 +2064,39 @@
     {
       "pic": "occupations/mechanic",
       "why": "nl panel, opened: a man at a car, said \"man\" / \"garage\"; \"monteur\" is a loan"
+    },
+    {
+      "pic": "farm animals/foal",
+      "why": "nl panel round 1: most children say \"paard\", not \"veulen\" (no eu)"
+    },
+    {
+      "pic": "clothing/glove",
+      "why": "nl panel round 1: said \"want\" as often as \"handschoen\""
+    },
+    {
+      "pic": "farm animals/turkey",
+      "why": "nl panel round 1: \"kalkoen\" is a stretch word for kleuters"
+    },
+    {
+      "pic": "birds 2/dove",
+      "why": "nl panel round 1: a white bird, said \"vogel\", not \"duif\""
+    },
+    {
+      "pic": "birds 2/canary",
+      "why": "nl panel round 1: a generic yellow bird, said \"vogel(tje)\""
+    },
+    {
+      "pic": "body parts/knee",
+      "why": "nl panel round 1: drawn as a bent leg, said \"been\""
+    },
+    {
+      "pic": "flowers/lily",
+      "why": "nl panel round 1: said \"bloem\", not \"lelie\""
     }
   ],
   "strings": {
     "base": {
-      "title": "Tweetekenklanken oe, ui en eu: welke klank hoor je?",
+      "title": "Tweetekenklanken oe, ui en oo: welke klank hoor je?",
       "instruction": "Zeg wat je op elk plaatje ziet en omcirkel de tweetekenklank die je hoort."
     },
     "sort-two": {
@@ -2237,16 +2104,12 @@
       "instruction": "Zeg wat je op elk plaatje ziet en trek een lijn naar de klank die je hoort: oe of ui."
     },
     "gap": {
-      "title": "Tweetekenklanken invullen: oe, ui of eu",
+      "title": "Tweetekenklanken invullen: oe, ui of oo",
       "instruction": "Zeg wat je op elk plaatje ziet en schrijf de klank die mist van bovenaan in de open plek met de stippellijn."
     },
     "match": {
       "title": "Woorden met tweetekenklanken lezen en koppelen",
       "instruction": "Lees elk woord, de tweetekenklank is gemarkeerd, en trek een lijn naar het plaatje dat bij het woord hoort."
-    },
-    "position": {
-      "title": "Waar hoor je oo, ie en ui in het woord?",
-      "instruction": "Zeg wat je op elk plaatje ziet en kleur één rondje: hoor je de klank vooraan, in het midden of achteraan?"
     },
     "text": {
       "title": "Tweetekenklanken in zinnen: omcirkel en tel oe",

@@ -228,21 +228,19 @@
           "slot": "noun-thing"
         },
         {
-          "word": "Käufer",
-          "kind": "derived",
-          "slot": "noun-person",
-          "stemSigned": true
-        },
-        {
-          "word": "Verkäuferin",
-          "kind": "prefixed",
-          "slot": "noun-person",
-          "stemSigned": true
-        },
-        {
           "word": "Kaufhaus",
           "kind": "compound",
           "slot": "noun-thing"
+        },
+        {
+          "word": "ausverkauft",
+          "kind": "prefixed",
+          "slot": "adjective"
+        },
+        {
+          "word": "abkaufen",
+          "kind": "prefixed",
+          "slot": "verb"
         }
       ],
       "lookAlikes": [
@@ -261,182 +259,182 @@
       ]
     },
     {
-      "id": "fahr",
-      "stem": "fahr",
-      "rootIsFreeWord": false,
+      "id": "salz",
+      "stem": "salz",
+      "rootIsFreeWord": true,
       "root": {
-        "word": "fahr"
+        "word": "Salz"
       },
       "signed": true,
       "members": [
         {
-          "word": "fahren",
+          "word": "salzig",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "salzen",
           "kind": "derived",
           "slot": "verb"
         },
         {
-          "word": "Fahrer",
-          "kind": "derived",
-          "slot": "noun-person"
-        },
-        {
-          "word": "Fahrerin",
-          "kind": "derived",
-          "slot": "noun-person"
-        },
-        {
-          "word": "abfahren",
+          "word": "versalzen",
           "kind": "prefixed",
           "slot": "verb"
         },
         {
-          "word": "Abfahrt",
+          "word": "gesalzen",
           "kind": "prefixed",
-          "slot": "noun-thing"
+          "slot": "adjective"
         },
         {
-          "word": "Vorfahrt",
+          "word": "entsalzen",
           "kind": "prefixed",
-          "slot": "noun-thing"
+          "slot": "verb"
         },
         {
-          "word": "Fahrrad",
+          "word": "salzlos",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "Salzstreuer",
           "kind": "compound",
           "slot": "noun-thing"
         }
       ],
       "lookAlikes": [
         {
-          "word": "Farbe",
-          "whyNotFamily": "Rot und Blau sind Farben"
+          "word": "Salat",
+          "whyNotFamily": "ein Gemüse aus Blättern; nur „sal“ ist gleich"
         },
         {
-          "word": "Fahne",
-          "whyNotFamily": "ein Tuch an einer Stange"
+          "word": "Sand",
+          "whyNotFamily": "liegt am Strand"
         },
         {
-          "word": "Falke",
-          "whyNotFamily": "ein Vogel"
+          "word": "Saft",
+          "whyNotFamily": "etwas zum Trinken"
         }
       ]
     },
     {
-      "id": "schreib",
-      "stem": "schreib",
-      "rootIsFreeWord": false,
+      "id": "mut",
+      "stem": "mut",
+      "rootIsFreeWord": true,
       "root": {
-        "word": "schreib"
+        "word": "Mut"
       },
       "signed": true,
       "members": [
         {
-          "word": "schreiben",
+          "word": "mutig",
           "kind": "derived",
-          "slot": "verb"
+          "slot": "adjective"
         },
         {
-          "word": "abschreiben",
+          "word": "mutlos",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "ermutigen",
           "kind": "prefixed",
           "slot": "verb"
         },
         {
-          "word": "aufschreiben",
+          "word": "entmutigen",
           "kind": "prefixed",
           "slot": "verb"
         },
         {
-          "word": "beschreiben",
-          "kind": "prefixed",
-          "slot": "verb"
-        },
-        {
-          "word": "mitschreiben",
-          "kind": "prefixed",
-          "slot": "verb"
-        },
-        {
-          "word": "Beschreibung",
+          "word": "Übermut",
           "kind": "prefixed",
           "slot": "noun-thing"
         },
         {
-          "word": "Schreibtisch",
+          "word": "Ermutigung",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "Mutprobe",
           "kind": "compound",
           "slot": "noun-thing"
         }
       ],
       "lookAlikes": [
         {
-          "word": "Schrank",
-          "whyNotFamily": "ein Möbel für Kleider"
+          "word": "Mutter",
+          "whyNotFamily": "die Mama; in ihr steckt kein Mut"
         },
         {
-          "word": "Schraube",
-          "whyNotFamily": "wird ins Holz gedreht"
+          "word": "Musik",
+          "whyNotFamily": "was du hörst und singst"
         },
         {
-          "word": "Schrei",
-          "whyNotFamily": "ein lauter Ruf"
+          "word": "Muschel",
+          "whyNotFamily": "liegt am Strand"
         }
       ]
     },
     {
-      "id": "wohn",
-      "stem": "wohn",
-      "rootIsFreeWord": false,
+      "id": "glueck",
+      "stem": "glück",
+      "rootIsFreeWord": true,
       "root": {
-        "word": "wohn"
+        "word": "Glück"
       },
       "signed": true,
       "members": [
         {
-          "word": "wohnen",
+          "word": "glücklich",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "glücklos",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "glücklicherweise",
+          "kind": "derived",
+          "slot": "adverb"
+        },
+        {
+          "word": "glücken",
           "kind": "derived",
           "slot": "verb"
         },
         {
-          "word": "Wohnung",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "Bewohner",
-          "kind": "prefixed",
-          "slot": "noun-person"
-        },
-        {
-          "word": "Bewohnerin",
-          "kind": "prefixed",
-          "slot": "noun-person"
-        },
-        {
-          "word": "bewohnen",
+          "word": "verunglücken",
           "kind": "prefixed",
           "slot": "verb"
         },
         {
-          "word": "Einwohner",
+          "word": "beglücken",
           "kind": "prefixed",
-          "slot": "noun-person"
+          "slot": "verb"
         },
         {
-          "word": "Wohnzimmer",
+          "word": "Glückspilz",
           "kind": "compound",
-          "slot": "noun-thing"
+          "slot": "noun-person"
         }
       ],
       "lookAlikes": [
         {
-          "word": "Wolke",
-          "whyNotFamily": "schwebt am Himmel"
+          "word": "Glocke",
+          "whyNotFamily": "läutet im Turm"
         },
         {
-          "word": "Wolf",
-          "whyNotFamily": "ein wildes Tier"
+          "word": "Glas",
+          "whyNotFamily": "daraus trinkst du"
         },
         {
-          "word": "Wolle",
-          "whyNotFamily": "daraus strickt man Socken"
+          "word": "glatt",
+          "whyNotFamily": "nicht rau"
         }
       ]
     }
@@ -717,15 +715,14 @@
           "slot": "verb"
         },
         {
-          "word": "Köchin",
-          "kind": "derived",
-          "slot": "noun-person",
-          "stemSigned": true
-        },
-        {
           "word": "Kochtopf",
           "kind": "compound",
           "slot": "noun-thing"
+        },
+        {
+          "word": "kochend",
+          "kind": "derived",
+          "slot": "adjective"
         }
       ],
       "lookAlikes": [
@@ -922,41 +919,6 @@
         {
           "word": "Schatten",
           "whyNotFamily": "fängt wie „Schaukel“ an, ist aber nicht daraus gebaut"
-        }
-      ]
-    },
-    {
-      "id": "rutsche",
-      "stem": "rutsche",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "Rutsche",
-        "pic": {
-          "theme": "toys",
-          "noun": "slide"
-        },
-        "picOpened": true
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "rutschen",
-          "kind": "derived",
-          "slot": "verb"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "Rucksack",
-          "whyNotFamily": "fängt wie „Rutsche“ an, ist aber nicht daraus gebaut"
-        },
-        {
-          "word": "Ruder",
-          "whyNotFamily": "fängt wie „Rutsche“ an, ist aber nicht daraus gebaut"
-        },
-        {
-          "word": "Ruhe",
-          "whyNotFamily": "fängt wie „Rutsche“ an, ist aber nicht daraus gebaut"
         }
       ]
     },
@@ -1497,14 +1459,6 @@
       "stemSigned": true
     },
     {
-      "key": "photographer",
-      "base": "Foto",
-      "answer": {
-        "m": "Fotograf",
-        "f": "Fotografin"
-      }
-    },
-    {
       "key": "gardener",
       "base": "Garten",
       "answer": {
@@ -1528,15 +1482,6 @@
       "answer": {
         "m": "Tänzer",
         "f": "Tänzerin"
-      },
-      "stemSigned": true
-    },
-    {
-      "key": "cashier",
-      "base": "Kasse",
-      "answer": {
-        "m": "Kassierer",
-        "f": "Kassiererin"
       },
       "stemSigned": true
     },
@@ -1565,16 +1510,11 @@
         "f": "Lehrerin"
       },
       "stemSigned": true
-    },
-    {
-      "key": "police_officer",
-      "base": "Polizei",
-      "answer": {
-        "m": "Polizist",
-        "f": "Polizistin"
-      },
-      "stemSigned": true
     }
+  ],
+  "agentSuffixes": [
+    "er",
+    "erin"
   ],
   "exemplar": {
     "base": [
@@ -1587,7 +1527,6 @@
       "music/drum",
       "furniture/table",
       "toys/swing",
-      "toys/slide",
       "accessories/whistle",
       "kitchen tools/spoon",
       "camping/tent",
@@ -1637,11 +1576,11 @@
     },
     "who-does-it": {
       "title": "Wer macht das? Personenwörter bilden",
-      "instruction": "Schau dir jede Person bei der Arbeit an, lies das Wort daneben und schreibe das Personenwort in den leeren Stein."
+      "instruction": "Schau dir jede Person an, lies das Wort daneben und schreibe das Personenwort mit -er oder -erin in das gestrichelte Kästchen."
     },
     "family-in-sentence": {
       "title": "Wortfamilien im Satz",
-      "instruction": "Schreibe jedes der vier Wörter auf dem Stein in den Satz, in den es passt."
+      "instruction": "Schreibe jedes Wort von den vier Karten in den Satz, in den es passt."
     }
   }
 }

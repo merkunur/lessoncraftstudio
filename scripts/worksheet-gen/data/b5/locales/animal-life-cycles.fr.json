@@ -63,11 +63,11 @@
     },
     "G2-365": {
       "title": "Légender le cycle de vie du papillon",
-      "instruction": "Écris chaque nom de la liste sur la ligne sous son image et barre le seul nom qui n’a pas sa place."
+      "instruction": "Écris les quatre noms d’étapes de la liste sur les lignes sous leurs images, puis barre le nom qui n’a pas sa place."
     },
     "G2-366": {
       "title": "La métamorphose : quel animal va-t-il devenir ?",
-      "instruction": "Regarde chaque jeune animal et écris sa lettre dans une case sous l’animal adulte qu’il deviendra."
+      "instruction": "Regarde chaque étape et écris sa lettre dans une case sous l’animal adulte qu’elle deviendra : des cases restent vides."
     },
     "G3-393": {
       "title": "Comparer le cycle de vie du papillon et de la grenouille",
@@ -75,7 +75,7 @@
     },
     "G1-390": {
       "title": "Qu’est-ce qui vient après ? Papillon, grenouille et coccinelle",
-      "instruction": "Regarde la première image de chaque rangée et entoure celle qui vient juste après."
+      "instruction": "Regarde la première image de chaque rangée et entoure celle qui vient juste après : après l’adulte, le cycle recommence."
     }
   }
 }

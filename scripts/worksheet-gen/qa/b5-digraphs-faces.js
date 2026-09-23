@@ -97,9 +97,11 @@ async function faceGate({ page, ok, judge, validateBank, log, QUICK, OUT }) {
     for (const loc of N.REFUSED_LOCALES) { let m = null; try { t.build({ difficulty: 2, locale: loc }, { rng: makeRng('r') }); } catch (e) { m = e.message; } ok(m && /REFUSED whole-family/.test(m), `${f.id} ${loc} must REFUSE (got ${m})`); }
     {
       const U = require('./b5-unauthored.js');
-      const p = U.refusalProbe('digraphs', 'nl', () => t.build({ difficulty: 2, locale: 'nl' }, { rng: makeRng('r') }));
-      ok(U.refused(p.hidden, /no nl block/), `${f.id}: an unauthored nl must REFUSE (got ${p.hidden})`);
-      ok(!U.refused(p.real, /no nl block/), `${f.id}: poison — the authored nl page passed the unauthored-refusal check (got ${p.real})`);
+      const pl = ['nl', 'de', 'fr', 'fi'].find((l) => !(N.FACE_REFUSALS[l] || []).includes(f.mode));
+      const re = new RegExp('no ' + pl + ' block');
+      const p = U.refusalProbe('digraphs', pl, () => t.build({ difficulty: 2, locale: pl }, { rng: makeRng('r') }));
+      ok(U.refused(p.hidden, re), `${f.id}: an unauthored ${pl} must REFUSE (got ${p.hidden})`);
+      ok(!U.refused(p.real, re), `${f.id}: poison — the authored ${pl} page passed the unauthored-refusal check (got ${p.real})`);
     }
   }
   { let m = null; try { types.position.build({ difficulty: 2, locale: 'pt' }, { rng: makeRng('r') }); } catch (e) { m = e.message; } ok(m && /pt REFUSES the position face/.test(m), `pt F4 must REFUSE before any bank is read (got ${m})`); }

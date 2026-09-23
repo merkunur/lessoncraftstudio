@@ -26,16 +26,14 @@
           "slot": "noun-person"
         },
         {
-          "word": "speelster",
-          "kind": "derived",
-          "slot": "noun-person",
-          "stemSigned": true
+          "word": "medespeler",
+          "kind": "prefixed",
+          "slot": "noun-person"
         },
         {
-          "word": "speels",
+          "word": "spelletje",
           "kind": "derived",
-          "slot": "adjective",
-          "stemSigned": true
+          "slot": "noun-thing"
         },
         {
           "word": "meespelen",
@@ -213,9 +211,9 @@
           "slot": "verb"
         },
         {
-          "word": "ombouwen",
-          "kind": "prefixed",
-          "slot": "verb"
+          "word": "bouwvallig",
+          "kind": "derived",
+          "slot": "adjective"
         },
         {
           "word": "verbouwen",
@@ -254,64 +252,62 @@
       ]
     },
     {
-      "id": "tover",
-      "stem": "tover",
-      "rootIsFreeWord": false,
+      "id": "tuin",
+      "stem": "tuin",
+      "rootIsFreeWord": true,
       "root": {
-        "word": "tover"
+        "word": "tuin"
       },
       "signed": true,
       "members": [
         {
-          "word": "betoveren",
-          "kind": "prefixed",
+          "word": "tuinier",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "tuinierster",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "tuinieren",
+          "kind": "derived",
           "slot": "verb"
         },
         {
-          "word": "betoverend",
-          "kind": "prefixed",
-          "slot": "adjective"
-        },
-        {
-          "word": "toverij",
+          "word": "tuintje",
           "kind": "derived",
           "slot": "noun-thing"
         },
         {
-          "word": "tovenaar",
-          "kind": "derived",
-          "slot": "noun-person",
-          "stemSigned": true
-        },
-        {
-          "word": "tovenares",
-          "kind": "derived",
-          "slot": "noun-person",
-          "stemSigned": true
-        },
-        {
-          "word": "wegtoveren",
+          "word": "voortuin",
           "kind": "prefixed",
-          "slot": "verb"
+          "slot": "noun-thing"
         },
         {
-          "word": "toverstaf",
+          "word": "achtertuin",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "tuinman",
           "kind": "compound",
-          "slot": "noun-thing"
+          "slot": "noun-person"
         }
       ],
       "lookAlikes": [
         {
-          "word": "toren",
-          "whyNotFamily": "een hoog gebouw"
+          "word": "tulp",
+          "whyNotFamily": "een bloem; alleen \"tu\" is hetzelfde"
         },
         {
-          "word": "tomaat",
-          "whyNotFamily": "een rode vrucht"
+          "word": "tunnel",
+          "whyNotFamily": "een weg onder de grond door"
         },
         {
-          "word": "toeter",
-          "whyNotFamily": "daar blaas je op"
+          "word": "tuba",
+          "whyNotFamily": "een groot koperen muziekinstrument"
         }
       ]
     },
@@ -340,22 +336,19 @@
           "slot": "noun-thing"
         },
         {
-          "word": "verkoper",
+          "word": "inkoop",
           "kind": "prefixed",
-          "slot": "noun-person",
-          "stemSigned": true
+          "slot": "noun-thing"
         },
         {
-          "word": "verkopen",
-          "kind": "prefixed",
-          "slot": "verb",
-          "stemSigned": true
+          "word": "verkoopster",
+          "kind": "derived",
+          "slot": "noun-person"
         },
         {
-          "word": "inkopen",
-          "kind": "prefixed",
-          "slot": "verb",
-          "stemSigned": true
+          "word": "koopje",
+          "kind": "derived",
+          "slot": "noun-thing"
         },
         {
           "word": "koopman",
@@ -460,9 +453,9 @@
           "slot": "noun-person"
         },
         {
-          "word": "dansant",
+          "word": "dansje",
           "kind": "derived",
-          "slot": "adjective"
+          "slot": "noun-thing"
         },
         {
           "word": "meedansen",
@@ -501,62 +494,62 @@
       ]
     },
     {
-      "id": "hulp",
-      "stem": "hulp",
+      "id": "fiets",
+      "stem": "fiets",
       "rootIsFreeWord": true,
       "root": {
-        "word": "hulp"
+        "word": "fiets"
       },
       "signed": true,
       "members": [
         {
-          "word": "behulpzaam",
-          "kind": "prefixed",
-          "slot": "adjective"
-        },
-        {
-          "word": "behulpzaamheid",
-          "kind": "prefixed",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "hulpeloos",
+          "word": "fietser",
           "kind": "derived",
-          "slot": "adjective"
-        },
-        {
-          "word": "hulpeloosheid",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "hulpvaardig",
-          "kind": "derived",
-          "slot": "adjective"
-        },
-        {
-          "word": "hulpvaardigheid",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "hulpverlener",
-          "kind": "compound",
           "slot": "noun-person"
+        },
+        {
+          "word": "fietsster",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "fietsje",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "meefietsen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "wegfietsen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "terugfietsen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "fietspad",
+          "kind": "compound",
+          "slot": "noun-thing"
         }
       ],
       "lookAlikes": [
         {
-          "word": "huis",
-          "whyNotFamily": "daar woon je"
+          "word": "fijn",
+          "whyNotFamily": "als iets prettig is"
         },
         {
-          "word": "hut",
-          "whyNotFamily": "een klein huisje van takken"
+          "word": "film",
+          "whyNotFamily": "die kijk je in de bioscoop"
         },
         {
-          "word": "huilen",
-          "whyNotFamily": "als je verdrietig bent"
+          "word": "figuur",
+          "whyNotFamily": "een vorm, zoals een cirkel; alleen \"fi\" is hetzelfde"
         }
       ]
     },
@@ -570,10 +563,9 @@
       "signed": true,
       "members": [
         {
-          "word": "reiziger",
+          "word": "reisje",
           "kind": "derived",
-          "slot": "noun-person",
-          "stemSigned": true
+          "slot": "noun-thing"
         },
         {
           "word": "rondreis",
@@ -591,12 +583,12 @@
           "slot": "noun-thing"
         },
         {
-          "word": "bereisd",
+          "word": "doorreis",
           "kind": "prefixed",
-          "slot": "adjective"
+          "slot": "noun-thing"
         },
         {
-          "word": "doorreis",
+          "word": "thuisreis",
           "kind": "prefixed",
           "slot": "noun-thing"
         },
@@ -688,7 +680,7 @@
           "whyNotFamily": "begint zoals \"wolk\", maar is er niet van gemaakt"
         },
         {
-          "word": "worst",
+          "word": "woensdag",
           "whyNotFamily": "begint zoals \"wolk\", maar is er niet van gemaakt"
         }
       ]
@@ -723,43 +715,8 @@
           "whyNotFamily": "begint zoals \"hand\", maar is er niet van gemaakt"
         },
         {
-          "word": "hamer",
+          "word": "hamster",
           "whyNotFamily": "begint zoals \"hand\", maar is er niet van gemaakt"
-        }
-      ]
-    },
-    {
-      "id": "tand",
-      "stem": "tand",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "tand",
-        "pic": {
-          "theme": "body parts",
-          "noun": "tooth"
-        },
-        "picOpened": true
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "tandeloos",
-          "kind": "derived",
-          "slot": "adjective"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "tafel",
-          "whyNotFamily": "begint zoals \"tand\", maar is er niet van gemaakt"
-        },
-        {
-          "word": "taart",
-          "whyNotFamily": "begint zoals \"tand\", maar is er niet van gemaakt"
-        },
-        {
-          "word": "tas",
-          "whyNotFamily": "begint zoals \"tand\", maar is er niet van gemaakt"
         }
       ]
     },
@@ -793,7 +750,7 @@
           "whyNotFamily": "begint zoals \"vis\", maar is er niet van gemaakt"
         },
         {
-          "word": "vilt",
+          "word": "vijver",
           "whyNotFamily": "begint zoals \"vis\", maar is er niet van gemaakt"
         }
       ]
@@ -824,11 +781,11 @@
           "whyNotFamily": "begint zoals \"bloem\", maar is er niet van gemaakt"
         },
         {
-          "word": "blauw",
+          "word": "blad",
           "whyNotFamily": "begint zoals \"bloem\", maar is er niet van gemaakt"
         },
         {
-          "word": "blad",
+          "word": "blokkendoos",
           "whyNotFamily": "begint zoals \"bloem\", maar is er niet van gemaakt"
         }
       ]
@@ -863,160 +820,55 @@
           "whyNotFamily": "begint zoals \"boer\", maar is er niet van gemaakt"
         },
         {
-          "word": "boot",
+          "word": "boekenkast",
           "whyNotFamily": "begint zoals \"boer\", maar is er niet van gemaakt"
-        }
-      ]
-    },
-    {
-      "id": "spook",
-      "stem": "spook",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "spook",
-        "pic": {
-          "theme": "miscellaneous",
-          "noun": "ghost"
-        },
-        "picOpened": true
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "spookachtig",
-          "kind": "derived",
-          "slot": "adjective"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "spoor",
-          "whyNotFamily": "begint zoals \"spook\", maar is er niet van gemaakt"
-        },
-        {
-          "word": "spin",
-          "whyNotFamily": "begint zoals \"spook\", maar is er niet van gemaakt"
-        },
-        {
-          "word": "spons",
-          "whyNotFamily": "begint zoals \"spook\", maar is er niet van gemaakt"
-        }
-      ]
-    },
-    {
-      "id": "fluit",
-      "stem": "fluit",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "fluit",
-        "pic": {
-          "theme": "music",
-          "noun": "flute"
-        },
-        "picOpened": true
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "fluitist",
-          "kind": "derived",
-          "slot": "noun-person"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "fles",
-          "whyNotFamily": "begint zoals \"fluit\", maar is er niet van gemaakt"
-        },
-        {
-          "word": "flat",
-          "whyNotFamily": "begint zoals \"fluit\", maar is er niet van gemaakt"
-        },
-        {
-          "word": "fluweel",
-          "whyNotFamily": "begint zoals \"fluit\", maar is er niet van gemaakt"
-        }
-      ]
-    },
-    {
-      "id": "rots",
-      "stem": "rots",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "rots",
-        "pic": {
-          "theme": "camping",
-          "noun": "rock"
-        },
-        "picOpened": true
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "rotsachtig",
-          "kind": "derived",
-          "slot": "adjective"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "rok",
-          "whyNotFamily": "begint zoals \"rots\", maar is er niet van gemaakt"
-        },
-        {
-          "word": "roos",
-          "whyNotFamily": "begint zoals \"rots\", maar is er niet van gemaakt"
-        },
-        {
-          "word": "rood",
-          "whyNotFamily": "begint zoals \"rots\", maar is er niet van gemaakt"
         }
       ]
     }
   ],
   "sentences": {
-    "spel": [
+    "werk": [
       {
-        "word": "meespelen",
+        "word": "meewerken",
         "slot": "verb",
-        "frame": "Mag ik bij jullie {gap}?"
+        "frame": "Wil jij ook {gap} aan de schoolkrant?"
       },
       {
-        "word": "speler",
+        "word": "medewerker",
         "slot": "noun-person",
-        "frame": "De beste {gap} van ons team scoort een doelpunt."
+        "frame": "Een {gap} van de dierentuin geeft de apen eten."
       },
       {
-        "word": "spelregel",
+        "word": "werkplaats",
         "slot": "noun-thing",
-        "frame": "Lees eerst elke {gap} voordat je begint."
+        "frame": "Opa maakt een houten kist in zijn {gap}."
       },
       {
-        "word": "speels",
+        "word": "werkloos",
         "slot": "adjective",
-        "frame": "Ons jonge katje is heel {gap}."
+        "frame": "Toen de fabriek dichtging, was de buurman een tijdje {gap}."
       }
     ],
-    "tover": [
+    "bouw": [
       {
-        "word": "betoveren",
+        "word": "verbouwen",
         "slot": "verb",
-        "frame": "Kan de heks de prins in een kikker {gap}?"
+        "frame": "Mijn ouders gaan deze zomer de keuken {gap}."
       },
       {
-        "word": "tovenaar",
+        "word": "bouwer",
         "slot": "noun-person",
-        "frame": "De {gap} draagt een hoed met sterren."
+        "frame": "De {gap} van de nieuwe school zet de laatste muur neer."
       },
       {
-        "word": "toverstaf",
+        "word": "gebouw",
         "slot": "noun-thing",
-        "frame": "Hij tikt met zijn {gap} op de hoed."
+        "frame": "Het hoogste {gap} van de stad heeft dertig verdiepingen."
       },
       {
-        "word": "betoverend",
+        "word": "bouwvallig",
         "slot": "adjective",
-        "frame": "Het kasteel in de sneeuw ziet er {gap} uit."
+        "frame": "Het oude schuurtje is zo {gap} dat het bijna instort."
       }
     ]
   },
@@ -1052,13 +904,13 @@
         "base": "bouwen",
         "prefix": "her",
         "word": "herbouwen",
-        "gloss": "een kapot huis opnieuw neerzetten"
+        "gloss": "een kapot huis nog een keer neerzetten"
       },
       {
         "base": "zingen",
         "prefix": "mee",
         "word": "meezingen",
-        "gloss": "samen met de anderen een lied zingen"
+        "gloss": "met de hele klas tegelijk een lied zingen"
       },
       {
         "base": "nemen",
@@ -1070,7 +922,7 @@
         "base": "helpen",
         "prefix": "mee",
         "word": "meehelpen",
-        "gloss": "samen met anderen een klus doen"
+        "gloss": "papa een handje helpen bij een klus"
       },
       {
         "base": "pakken",
@@ -1082,7 +934,7 @@
         "base": "drinken",
         "prefix": "uit",
         "word": "uitdrinken",
-        "gloss": "je glas helemaal leeg drinken"
+        "gloss": "je beker tot de laatste druppel leeg drinken"
       },
       {
         "base": "blazen",
@@ -1295,23 +1147,6 @@
       "stemSigned": true
     },
     {
-      "key": "musician",
-      "base": "muziek",
-      "answer": {
-        "m": "muzikant",
-        "f": "muzikante"
-      },
-      "stemSigned": true
-    },
-    {
-      "key": "photographer",
-      "base": "foto",
-      "answer": {
-        "m": "fotograaf",
-        "f": "fotografe"
-      }
-    },
-    {
       "key": "singer",
       "base": "zingen",
       "answer": {
@@ -1327,24 +1162,6 @@
         "m": "tuinier",
         "f": "tuinierster"
       }
-    },
-    {
-      "key": "carpenter",
-      "base": "timmeren",
-      "answer": {
-        "m": "timmerman",
-        "f": "timmervrouw"
-      },
-      "stemSigned": true
-    },
-    {
-      "key": "teacher",
-      "base": "leren",
-      "answer": {
-        "m": "leraar",
-        "f": "lerares"
-      },
-      "stemSigned": true
     },
     {
       "key": "athlete",
@@ -1365,15 +1182,6 @@
       "stemSigned": true
     },
     {
-      "key": "cashier",
-      "base": "kassa",
-      "answer": {
-        "m": "kassier",
-        "f": "kassière"
-      },
-      "stemSigned": true
-    },
-    {
       "key": "tailor",
       "base": "naaien",
       "answer": {
@@ -1383,11 +1191,20 @@
       "stemSigned": true
     },
     {
-      "key": "florist",
-      "base": "bloem",
+      "key": "waitress",
+      "base": "serveren",
       "answer": {
-        "m": "bloemist",
-        "f": "bloemiste"
+        "m": "serveerder",
+        "f": "serveerster"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "judge",
+      "base": "recht",
+      "answer": {
+        "m": "rechter",
+        "f": "rechter"
       }
     }
   ],
@@ -1400,13 +1217,9 @@
       "weather/sun",
       "spring/cloud",
       "body parts/hand",
-      "body parts/tooth",
       "ocean life/fish",
       "spring/flower",
-      "occupations/farmer",
-      "miscellaneous/ghost",
-      "music/flute",
-      "camping/rock"
+      "occupations/farmer"
     ],
     "F2": [
       "spel",
@@ -1417,11 +1230,11 @@
       "reis",
       "kleur",
       "dans",
-      "hulp"
+      "fiets"
     ],
     "F5": [
-      "spel",
-      "tover"
+      "werk",
+      "bouw"
     ]
   },
   "refuse": {
@@ -1450,12 +1263,17 @@
       "instruction": "Lees wat elk nieuw woord betekent, zoek het voorvoegsel in de sleutel en schrijf het in het lege stukje."
     },
     "who-does-it": {
-      "title": "Wie doet het? Woorden voor beroepen maken",
-      "instruction": "Kijk naar elke persoon aan het werk, lees het woord ernaast en schrijf het persoonswoord in de lege steen."
+      "title": "Wie doet het? Persoonswoorden op -er, -ster en -es",
+      "instruction": "Kijk naar elke persoon, lees het woord in het kader ernaast en schrijf in het stippelvak het woord voor wie dat doet."
     },
     "family-in-sentence": {
       "title": "Woordfamilies in zinnen",
-      "instruction": "Schrijf elk van de vier woorden op de steen in de zin waar het in past."
+      "instruction": "Lees de vier woordkaartjes boven elk stamwoordbordje en schrijf elk woord in het stippelvak van de zin waar het past."
     }
-  }
+  },
+  "agentSuffixes": [
+    "er",
+    "ster",
+    "es"
+  ]
 }

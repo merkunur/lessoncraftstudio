@@ -278,7 +278,7 @@
   "strings": {
     "base": {
       "title": "Liikenneturvallisuus: mitä liikennevalo näyttää?",
-      "instruction": "Katso palavaa valoa ja rengasta se, mitä sinun pitää tehdä."
+      "instruction": "Katso palavaa valoa ja rengasta se, mitä valo käskee tehdä."
     },
     "colour-lights": {
       "title": "Väritä liikennevalot oikein",

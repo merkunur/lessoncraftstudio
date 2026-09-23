@@ -259,7 +259,7 @@
     },
     "relation-riddles": {
       "title": "Sukulaisarvoitukset: isoäiti, eno, setä vai täti?",
-      "instruction": "Lue jokainen arvoitus ja kirjoita viivalle oikea sukulaissana laatikosta, ja sama sana voi sopia useampaan arvoitukseen."
+      "instruction": "Lue jokainen arvoitus ja kirjoita ruutuun oikea sukulaissana laatikosta; sama sana voi sopia useampaan arvoitukseen."
     },
     "tree-template": {
       "title": "Perhepuun pohja: täytä itse",

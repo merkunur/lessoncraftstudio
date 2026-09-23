@@ -4,9 +4,9 @@
     {
       "id": "fiore",
       "stem": "fior",
-      "rootIsFreeWord": true,
+      "rootIsFreeWord": false,
       "root": {
-        "word": "fiore"
+        "word": "fior"
       },
       "signed": true,
       "members": [
@@ -64,9 +64,9 @@
     {
       "id": "terra",
       "stem": "terr",
-      "rootIsFreeWord": true,
+      "rootIsFreeWord": false,
       "root": {
-        "word": "terra"
+        "word": "terr"
       },
       "signed": true,
       "members": [
@@ -124,9 +124,9 @@
     {
       "id": "mare",
       "stem": "mar",
-      "rootIsFreeWord": true,
+      "rootIsFreeWord": false,
       "root": {
-        "word": "mare"
+        "word": "mar"
       },
       "signed": true,
       "members": [
@@ -184,9 +184,9 @@
     {
       "id": "gioco",
       "stem": "gioc",
-      "rootIsFreeWord": true,
+      "rootIsFreeWord": false,
       "root": {
-        "word": "gioco"
+        "word": "gioc"
       },
       "signed": true,
       "members": [
@@ -244,9 +244,9 @@
     {
       "id": "dente",
       "stem": "dent",
-      "rootIsFreeWord": true,
+      "rootIsFreeWord": false,
       "root": {
-        "word": "dente"
+        "word": "dent"
       },
       "signed": true,
       "members": [
@@ -304,9 +304,9 @@
     {
       "id": "latte",
       "stem": "latt",
-      "rootIsFreeWord": true,
+      "rootIsFreeWord": false,
       "root": {
-        "word": "latte"
+        "word": "latt"
       },
       "signed": true,
       "members": [
@@ -364,9 +364,9 @@
     {
       "id": "pesce",
       "stem": "pesc",
-      "rootIsFreeWord": true,
+      "rootIsFreeWord": false,
       "root": {
-        "word": "pesce"
+        "word": "pesc"
       },
       "signed": true,
       "members": [
@@ -426,9 +426,9 @@
     {
       "id": "gelo",
       "stem": "gel",
-      "rootIsFreeWord": true,
+      "rootIsFreeWord": false,
       "root": {
-        "word": "gelo"
+        "word": "gel"
       },
       "signed": true,
       "members": [
@@ -486,9 +486,9 @@
     {
       "id": "nave",
       "stem": "nav",
-      "rootIsFreeWord": true,
+      "rootIsFreeWord": false,
       "root": {
-        "word": "nave"
+        "word": "nav"
       },
       "signed": true,
       "members": [
@@ -546,9 +546,9 @@
     {
       "id": "dolce",
       "stem": "dolc",
-      "rootIsFreeWord": true,
+      "rootIsFreeWord": false,
       "root": {
-        "word": "dolce"
+        "word": "dolc"
       },
       "signed": true,
       "members": [
@@ -606,9 +606,9 @@
     {
       "id": "vento",
       "stem": "vent",
-      "rootIsFreeWord": true,
+      "rootIsFreeWord": false,
       "root": {
-        "word": "vento"
+        "word": "vent"
       },
       "signed": true,
       "members": [
@@ -1131,49 +1131,49 @@
         "base": "leggere",
         "prefix": "ri",
         "word": "rileggere",
-        "gloss": "leggere una storia di nuovo"
+        "gloss": "leggere ancora una volta la stessa storia"
       },
       {
         "base": "fare",
         "prefix": "ri",
         "word": "rifare",
-        "gloss": "fare il letto di nuovo"
+        "gloss": "fare un’altra volta un disegno venuto male"
       },
       {
         "base": "scrivere",
         "prefix": "ri",
         "word": "riscrivere",
-        "gloss": "scrivere un testo di nuovo"
+        "gloss": "scrivere un’altra volta un testo in bella copia"
       },
       {
         "base": "contare",
         "prefix": "ri",
         "word": "ricontare",
-        "gloss": "contare le monete di nuovo"
+        "gloss": "contare ancora una volta le monete per essere sicuri"
       },
       {
         "base": "vedere",
         "prefix": "pre",
         "word": "prevedere",
-        "gloss": "sapere prima che cosa succederà"
+        "gloss": "sapere in anticipo che cosa succederà"
       },
       {
         "base": "dire",
         "prefix": "pre",
         "word": "predire",
-        "gloss": "dire prima che cosa succederà"
+        "gloss": "dire in anticipo che cosa succederà"
       },
       {
         "base": "vendita",
         "prefix": "pre",
         "word": "prevendita",
-        "gloss": "la vendita dei biglietti prima dello spettacolo"
+        "gloss": "la vendita dei biglietti nei giorni che anticipano lo spettacolo"
       },
       {
         "base": "suolo",
         "prefix": "sotto",
         "word": "sottosuolo",
-        "gloss": "la terra che sta più in basso del suolo"
+        "gloss": "la terra nascosta giù in profondità, sotto i nostri piedi"
       },
       {
         "base": "bosco",
@@ -1191,7 +1191,7 @@
         "base": "tetto",
         "prefix": "sotto",
         "word": "sottotetto",
-        "gloss": "la stanza che sta appena più in basso del tetto"
+        "gloss": "la stanza in cima alla casa, subito sopra l’ultimo piano"
       }
     ],
     "crossCheck": [
@@ -1422,15 +1422,6 @@
       "stemSigned": true
     },
     {
-      "key": "ballerina",
-      "base": "ballare",
-      "answer": {
-        "f": "ballerina",
-        "m": "ballerino"
-      },
-      "stemSigned": true
-    },
-    {
       "key": "cashier",
       "base": "cassa",
       "answer": {
@@ -1463,15 +1454,6 @@
       "answer": {
         "f": "postina",
         "m": "postino"
-      },
-      "stemSigned": true
-    },
-    {
-      "key": "police_officer",
-      "base": "polizia",
-      "answer": {
-        "m": "poliziotto",
-        "f": "poliziotta"
       },
       "stemSigned": true
     },
@@ -1542,7 +1524,7 @@
   "strings": {
     "base": {
       "title": "Famiglie di parole: metti ogni parola al suo posto",
-      "instruction": "Leggi ogni parola in alto e scrivila su una riga del muro che sta sopra la sua parola primitiva."
+      "instruction": "Leggi ogni parola in alto e scrivila su una riga del muro che poggia sulla sua radice."
     },
     "picture-family": {
       "title": "Famiglie di parole con le immagini: cerchia la parola",
@@ -1553,12 +1535,22 @@
       "instruction": "Leggi che cosa significa ogni parola nuova, trova il suo prefisso nella tabella e scrivilo nel pezzo vuoto."
     },
     "who-does-it": {
-      "title": "I nomi dei mestieri: chi fa questo lavoro?",
-      "instruction": "Guarda ogni persona al lavoro, leggi la parola accanto e scrivi nel mattone vuoto il nome di chi fa quel lavoro."
+      "title": "Chi fa questo mestiere? Nomi in -iere, -ista, -tore",
+      "instruction": "Guarda ogni persona, leggi la parola del cartellino accanto e scrivi nel riquadro tratteggiato il nome di chi fa quel mestiere."
     },
     "family-in-sentence": {
       "title": "Famiglie di parole nelle frasi",
-      "instruction": "Scrivi ognuna delle quattro parole della pietra nella frase in cui sta bene."
+      "instruction": "Scrivi ogni parola dei cartellini nello spazio tratteggiato della frase in cui sta bene."
     }
-  }
+  },
+  "agentSuffixes": [
+    "iere",
+    "iera",
+    "ista",
+    "ante",
+    "tore",
+    "trice",
+    "ino",
+    "ina"
+  ]
 }

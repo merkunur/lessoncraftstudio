@@ -101,11 +101,11 @@
     },
     "G2-365": {
       "title": "Sommerfuglens livssyklus: skriv navnene på stadiene",
-      "instruction": "Skriv hvert navn fra ordbanken på streken under riktig bilde, og stryk det ene navnet som ikke hører til."
+      "instruction": "Skriv de fire stadiene fra ordbanken på streken under riktig bilde, og stryk det ene ordet som ikke hører til."
     },
     "G2-366": {
-      "title": "Metamorfose: hvilket dyr blir ungen til?",
-      "instruction": "Se på hvert unge dyr og skriv bokstaven i en rute under det voksne dyret som ungen blir til."
+      "title": "Metamorfose: hva blir hvert stadium til?",
+      "instruction": "Se på hvert stadium og skriv bokstaven i en rute under dyret det blir til, noen ruter blir stående tomme."
     },
     "G3-393": {
       "title": "Sommerfuglens og froskens livssyklus: sammenlign",
@@ -113,7 +113,7 @@
     },
     "G1-390": {
       "title": "Hva kommer etterpå? Sommerfugl, frosk og marihøne",
-      "instruction": "Se på det første bildet i hver rad og ring rundt bildet som kommer rett etter."
+      "instruction": "Ring rundt bildet som kommer rett etter det første i hver rad; etter det voksne dyret begynner det på nytt med egg."
     }
   }
 }

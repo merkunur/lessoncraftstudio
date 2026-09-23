@@ -90,7 +90,7 @@
     },
     "needs": {
       "title": "Vad behöver en växt för att växa?",
-      "instruction": "Titta på vad varje växt får och ringa in den växt som får båda sakerna den behöver för att växa."
+      "instruction": "Titta på vad växterna får och ringa in i varje rad den växt som får båda sakerna den behöver för att växa."
     },
     "cycle": {
       "title": "Från frö till växt",

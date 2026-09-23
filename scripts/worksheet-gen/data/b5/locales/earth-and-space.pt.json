@@ -99,7 +99,7 @@
     },
     "moon-phases-in-order": {
       "title": "Fases da Lua em ordem",
-      "instruction": "A Lua parece crescer e depois diminuir: em cada fileira, escreva de 1 a 5 embaixo das luas nessa ordem."
+      "instruction": "Numa fileira a Lua cresce e na outra ela diminui: siga a seta e escreva de 1 a 5 embaixo das luas, nessa ordem."
     },
     "moon-phase-names": {
       "title": "Nomes das fases da Lua",

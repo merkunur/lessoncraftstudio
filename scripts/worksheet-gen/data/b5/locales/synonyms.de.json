@@ -32,7 +32,6 @@
       "tier": 1,
       "words": [
         "fröhlich",
-        "froh",
         "glücklich"
       ]
     },
@@ -489,6 +488,11 @@
       "a": "überrascht",
       "b": "ängstlich",
       "why": "ein Schreck ist Überraschung mit Angst"
+    },
+    {
+      "a": "brüllen",
+      "b": "heulen",
+      "why": "heulen = ein Wolf oder eine Sirene, auch laut weinen; nicht dasselbe wie brüllen"
     }
   ],
   "nearOnly": [
@@ -519,7 +523,6 @@
     ],
     "sad": [
       "fröhlich",
-      "froh",
       "glücklich",
       "wütend",
       "zornig",
@@ -536,7 +539,6 @@
     ],
     "angry": [
       "fröhlich",
-      "froh",
       "glücklich",
       "traurig",
       "betrübt",
@@ -557,7 +559,6 @@
     ],
     "scared": [
       "fröhlich",
-      "froh",
       "glücklich",
       "traurig",
       "betrübt",
@@ -573,7 +574,6 @@
     ],
     "surprised": [
       "fröhlich",
-      "froh",
       "glücklich",
       "traurig",
       "betrübt",
@@ -591,7 +591,6 @@
     ],
     "tired": [
       "fröhlich",
-      "froh",
       "glücklich",
       "wütend",
       "zornig",
@@ -610,7 +609,6 @@
     ],
     "fast": [
       "fröhlich",
-      "froh",
       "glücklich",
       "traurig",
       "betrübt",
@@ -697,7 +695,7 @@
       "words": [
         "mögen",
         "lieben",
-        "vergöttern"
+        "anhimmeln"
       ]
     },
     {
@@ -743,7 +741,8 @@
       "sentences": [
         {
           "id": "f1",
-          "text": "Das Baby schläft, darum {gap} {name} ganz leise.",
+          "text": "„Pst, das Baby schläft“, {gap} {name} ganz leise.",
+          "plainVerbOK": true,
           "fit": {
             "flüstert": true,
             "ruft": false,
@@ -755,7 +754,8 @@
         },
         {
           "id": "f2",
-          "text": "{name} {gap} Oma ein Geheimnis ins Ohr.",
+          "text": "„Ich habe ein Geheimnis für dich“, {gap} {name} Oma ins Ohr.",
+          "plainVerbOK": true,
           "fit": {
             "flüstert": true,
             "ruft": false,
@@ -768,6 +768,7 @@
         {
           "id": "f3",
           "text": "Der Bus fährt gleich ab, deshalb {gap} {name}: „Wartet auf mich!“",
+          "plainVerbOK": true,
           "fit": {
             "flüstert": false,
             "ruft": true,
@@ -779,7 +780,8 @@
         },
         {
           "id": "f4",
-          "text": "{name} {gap} laut über den ganzen Schulhof.",
+          "text": "„Kommt alle spielen!“, {gap} {name} über den ganzen Schulhof.",
+          "plainVerbOK": true,
           "fit": {
             "flüstert": false,
             "ruft": true,
@@ -792,6 +794,7 @@
         {
           "id": "f5",
           "text": "„Wo ist meine rote Mütze?“, {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "flüstert": false,
             "ruft": false,
@@ -803,7 +806,8 @@
         },
         {
           "id": "f6",
-          "text": "{name} {gap} mit einem Lächeln auf die Frage der Lehrerin.",
+          "text": "„Sieben und drei sind zehn“, {gap} {name} auf die Frage der Lehrerin.",
+          "plainVerbOK": true,
           "fit": {
             "flüstert": false,
             "ruft": false,
@@ -815,7 +819,8 @@
         },
         {
           "id": "f7",
-          "text": "{name} {gap} Schritt für Schritt, wie man einen Samen pflanzt.",
+          "text": "„Zuerst gräbst du ein Loch, dann legst du den Samen hinein“, {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "flüstert": false,
             "ruft": false,
@@ -828,6 +833,7 @@
         {
           "id": "f8",
           "text": "„Ich füttere die Fische jeden Tag, großes Ehrenwort!“, {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "flüstert": false,
             "ruft": false,
@@ -918,7 +924,7 @@
     },
     "pairs": {
       "title": "Synonyme zuordnen: Wortpaare verbinden",
-      "instruction": "Jedes Wort hängt an einer Socke: Verbinde jede Socke links mit einer Linie mit der Socke rechts, deren Wort dasselbe bedeutet."
+      "instruction": "Verbinde jedes Wort links mit einer Linie mit dem Wort rechts, das dasselbe bedeutet."
     },
     "shades": {
       "title": "Wörter nach Stärke ordnen: von ein bisschen bis sehr",

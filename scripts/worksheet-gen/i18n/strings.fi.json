@@ -2621,7 +2621,7 @@
   },
   "K-369": {
     "title": "Liikenneturvallisuus: mitä liikennevalo näyttää?",
-    "instruction": "Katso palavaa valoa ja rengasta se, mitä sinun pitää tehdä."
+    "instruction": "Katso palavaa valoa ja rengasta se, mitä valo käskee tehdä."
   },
   "K-370": {
     "title": "Perhe ja sukulaiset: kuka on kuka?",
@@ -2709,7 +2709,7 @@
   },
   "G2-362": {
     "title": "Sukulaisarvoitukset: isoäiti, eno, setä vai täti?",
-    "instruction": "Lue jokainen arvoitus ja kirjoita viivalle oikea sukulaissana laatikosta, ja sama sana voi sopia useampaan arvoitukseen."
+    "instruction": "Lue jokainen arvoitus ja kirjoita ruutuun oikea sukulaissana laatikosta; sama sana voi sopia useampaan arvoitukseen."
   },
   "G1-387": {
     "title": "Perhepuun pohja: täytä itse",
@@ -2741,11 +2741,11 @@
   },
   "G2-365": {
     "title": "Perhosen kehitysvaiheet: kirjoita vaiheiden nimet",
-    "instruction": "Kirjoita jokainen nimi sanapankista oikean kuvan alla olevalle viivalle ja vedä yli se ainoa nimi, joka ei kuulu joukkoon."
+    "instruction": "Kirjoita neljän vaiheen nimet sanapankista oikeiden kuvien alle viivoille ja vedä yli se yksi sana, joka ei kuulu joukkoon."
   },
   "G2-366": {
-    "title": "Muodonvaihdos: miksi eläimeksi poikanen kasvaa?",
-    "instruction": "Katso jokaista eläimen poikasta ja kirjoita sen kirjain ruutuun sen aikuisen eläimen alle, joksi se kasvaa."
+    "title": "Muodonvaihdos: miksi eläimeksi se kasvaa?",
+    "instruction": "Katso jokaista kehitysvaihetta ja kirjoita sen kirjain ruutuun sen eläimen alle, joksi se kasvaa; osa ruuduista jää tyhjiksi."
   },
   "G3-393": {
     "title": "Perhosen ja sammakon kehitysvaiheet: vertaile",
@@ -2753,7 +2753,7 @@
   },
   "G1-390": {
     "title": "Mitä tulee seuraavaksi? Perhonen, sammakko ja leppäkerttu",
-    "instruction": "Katso jokaisen rivin ensimmäistä kuvaa ja rengasta se kuva, joka tulee heti sen jälkeen."
+    "instruction": "Katso jokaisen rivin ensimmäistä kuvaa ja rengasta kuva, joka tulee heti sen jälkeen; aikuisen jälkeen kaikki alkaa taas munasta."
   },
   "G1-391": {
     "title": "Kuun vaiheet oikeassa järjestyksessä",
@@ -2845,10 +2845,10 @@
   },
   "G3-398": {
     "title": "Kuka tekee? Tekijää tarkoittava sana",
-    "instruction": "Katso jokaista työssä olevaa ihmistä, lue sana hänen vieressään ja kirjoita tekijän nimi tyhjään tiileen."
+    "instruction": "Katso jokaista ihmistä, lue sana hänen vieressään ja kirjoita katkoviivaruutuun tekijää tarkoittava sana."
   },
   "G3-399": {
     "title": "Johdokset lauseissa",
-    "instruction": "Kirjoita jokainen kiven neljästä sanasta siihen lauseeseen, johon se sopii."
+    "instruction": "Kirjoita jokainen kantasanan yläpuolella olevista neljästä sanasta sen lauseen ruutuun, johon sana sopii."
   }
 }

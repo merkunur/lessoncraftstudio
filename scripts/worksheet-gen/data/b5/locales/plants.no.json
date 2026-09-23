@@ -98,7 +98,7 @@
     },
     "needs": {
       "title": "Hva trenger en plante for å vokse?",
-      "instruction": "Se på hva hver plante får, og ring rundt planten som får begge tingene den trenger for å vokse."
+      "instruction": "Ring rundt planten i hver rad som får begge tingene den trenger for å vokse."
     },
     "cycle": {
       "title": "Fra frø til plante",

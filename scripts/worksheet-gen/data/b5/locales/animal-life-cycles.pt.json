@@ -63,11 +63,11 @@
     },
     "G2-365": {
       "title": "Nomeie as fases do ciclo de vida da borboleta",
-      "instruction": "Escreva cada nome do quadro de palavras na linha embaixo da figura certa e risque o único nome que não faz parte."
+      "instruction": "Escreva os quatro nomes das fases, do quadro de palavras, nas linhas embaixo das figuras e risque a única palavra que não faz parte."
     },
     "G2-366": {
-      "title": "Metamorfose: em que animal ele vai se transformar?",
-      "instruction": "Observe cada filhote e escreva a letra dele num quadrinho embaixo do animal adulto em que ele vai se transformar."
+      "title": "Metamorfose: cada fase vai virar qual animal?",
+      "instruction": "Observe cada fase e escreva a letra dela num quadrinho embaixo do animal adulto que ela vai virar; alguns quadrinhos ficam vazios."
     },
     "G3-393": {
       "title": "Ciclos de vida da borboleta e do sapo comparados",
@@ -75,7 +75,7 @@
     },
     "G1-390": {
       "title": "O que vem depois? Borboleta, sapo e joaninha",
-      "instruction": "Observe a primeira figura de cada fileira e circule a que vem logo depois dela."
+      "instruction": "Observe a primeira figura de cada fileira e circule a que vem logo depois; depois do adulto, o ciclo recomeça com o ovo."
     }
   }
 }

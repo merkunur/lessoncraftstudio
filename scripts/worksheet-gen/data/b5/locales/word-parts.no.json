@@ -87,10 +87,9 @@
           "slot": "verb"
         },
         {
-          "word": "bygning",
-          "kind": "derived",
-          "slot": "noun-thing",
-          "stemSigned": true
+          "word": "oppbygging",
+          "kind": "prefixed",
+          "slot": "noun-thing"
         },
         {
           "word": "ombygging",
@@ -647,7 +646,7 @@
           "whyNotFamily": "begynner som «sol», men er ikke laget av ordet"
         },
         {
-          "word": "sopp",
+          "word": "sommer",
           "whyNotFamily": "begynner som «sol», men er ikke laget av ordet"
         }
       ]
@@ -678,7 +677,7 @@
           "whyNotFamily": "begynner som «sky», men er ikke laget av ordet"
         },
         {
-          "word": "sko",
+          "word": "skjorte",
           "whyNotFamily": "begynner som «sky», men er ikke laget av ordet"
         },
         {
@@ -713,7 +712,7 @@
           "whyNotFamily": "begynner som «hår», men er ikke laget av ordet"
         },
         {
-          "word": "håv",
+          "word": "håndkle",
           "whyNotFamily": "begynner som «hår», men er ikke laget av ordet"
         },
         {
@@ -787,7 +786,7 @@
           "whyNotFamily": "begynner som «stein», men er ikke laget av ordet"
         },
         {
-          "word": "sti",
+          "word": "stikkelsbær",
           "whyNotFamily": "begynner som «stein», men er ikke laget av ordet"
         }
       ]
@@ -814,7 +813,7 @@
       ],
       "lookAlikes": [
         {
-          "word": "hjul",
+          "word": "hjemmesko",
           "whyNotFamily": "begynner som «hjerte», men er ikke laget av ordet"
         },
         {
@@ -857,7 +856,7 @@
           "whyNotFamily": "begynner som «blomst», men er ikke laget av ordet"
         },
         {
-          "word": "blå",
+          "word": "blekksprut",
           "whyNotFamily": "begynner som «blomst», men er ikke laget av ordet"
         }
       ]
@@ -888,7 +887,7 @@
           "whyNotFamily": "begynner som «bil», men er ikke laget av ordet"
         },
         {
-          "word": "bit",
+          "word": "bibliotek",
           "whyNotFamily": "begynner som «bil», men er ikke laget av ordet"
         },
         {
@@ -913,7 +912,7 @@
       {
         "word": "hjelpsomhet",
         "slot": "noun-thing",
-        "frame": "Læreren takket Nora for all {gap} hennes."
+        "frame": "Læreren takket Nora for hennes store {gap}."
       },
       {
         "word": "hjelpsom",
@@ -940,7 +939,7 @@
       {
         "word": "arbeidsom",
         "slot": "adjective",
-        "frame": "Mauren er et lite, men {gap} dyr."
+        "frame": "Mauren er liten, men veldig {gap}."
       }
     ]
   },
@@ -964,31 +963,31 @@
         "base": "bruke",
         "prefix": "gjen",
         "word": "gjenbruke",
-        "gloss": "bruke en ting en gang til"
+        "gloss": "bruke en ting som er brukt før, i stedet for å kaste den"
       },
       {
         "base": "fortelle",
         "prefix": "gjen",
         "word": "gjenfortelle",
-        "gloss": "fortelle et eventyr en gang til med egne ord"
+        "gloss": "fortelle et eventyr du har hørt før, med egne ord"
       },
       {
         "base": "åpne",
         "prefix": "gjen",
         "word": "gjenåpne",
-        "gloss": "åpne butikken igjen etter en stund"
+        "gloss": "åpne butikken på nytt etter en stund"
       },
       {
         "base": "finne",
         "prefix": "gjen",
         "word": "gjenfinne",
-        "gloss": "finne noe igjen som var borte"
+        "gloss": "finne noe som hadde blitt borte"
       },
       {
         "base": "forstå",
         "prefix": "mis",
         "word": "misforstå",
-        "gloss": "forstå feil det noen mener"
+        "gloss": "forstå galt hva noen mener"
       },
       {
         "base": "lykkes",
@@ -1000,13 +999,13 @@
         "base": "spise",
         "prefix": "over",
         "word": "overspise",
-        "gloss": "spise altfor mye"
+        "gloss": "spise så mye at magen verker"
       },
       {
         "base": "fylle",
         "prefix": "over",
         "word": "overfylle",
-        "gloss": "fylle et glass for mye"
+        "gloss": "fylle et glass så fullt at det renner ut"
       },
       {
         "base": "koke",
@@ -1239,13 +1238,6 @@
       "stemSigned": true
     },
     {
-      "key": "photographer",
-      "base": "foto",
-      "answer": {
-        "any": "fotograf"
-      }
-    },
-    {
       "key": "athlete",
       "base": "løpe",
       "answer": {
@@ -1286,14 +1278,6 @@
       "base": "snekre",
       "answer": {
         "any": "snekker"
-      },
-      "stemSigned": true
-    },
-    {
-      "key": "chef",
-      "base": "koke",
-      "answer": {
-        "any": "kokk"
       },
       "stemSigned": true
     }
@@ -1357,11 +1341,14 @@
     },
     "who-does-it": {
       "title": "Hvem gjør det? Skriv ordet for personen",
-      "instruction": "Se på hver person som jobber, les ordet ved siden av og skriv ordet for personen i den tomme mursteinen."
+      "instruction": "Se på hver person, les ordet på kortet og skriv ordet for personen i den stiplede ruten."
     },
     "family-in-sentence": {
       "title": "Rotord i setninger",
-      "instruction": "Skriv hvert av de fire ordene på steinen i den setningen der det passer."
+      "instruction": "Skriv hvert av de fire ordene på kortene i den setningen der det passer."
     }
-  }
+  },
+  "agentSuffixes": [
+    "er"
+  ]
 }

@@ -679,7 +679,8 @@
       "sentences": [
         {
           "id": "f1",
-          "text": "Babyen sov, derfor {gap} {name} veldig stille.",
+          "text": "«Hysj, babyen sover», {gap} {name} veldig lavt.",
+          "plainVerbOK": true,
           "fit": {
             "hvisket": true,
             "ropte": false,
@@ -691,7 +692,8 @@
         },
         {
           "id": "f2",
-          "text": "{name} {gap} hemmeligheten inn i øret til mormor.",
+          "text": "«Jeg har en hemmelighet til deg», {gap} {name} inn i øret til mormor.",
+          "plainVerbOK": true,
           "fit": {
             "hvisket": true,
             "ropte": false,
@@ -704,6 +706,7 @@
         {
           "id": "f3",
           "text": "Bussen skulle akkurat kjøre, derfor {gap} {name}: «Vent på meg!»",
+          "plainVerbOK": true,
           "fit": {
             "hvisket": false,
             "ropte": true,
@@ -715,7 +718,8 @@
         },
         {
           "id": "f4",
-          "text": "{name} {gap} høyt over hele skolegården.",
+          "text": "«Kom og lek!» {gap} {name} over hele skolegården.",
+          "plainVerbOK": true,
           "fit": {
             "hvisket": false,
             "ropte": true,
@@ -728,6 +732,7 @@
         {
           "id": "f5",
           "text": "«Hvor er den røde lua mi?» {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "hvisket": false,
             "ropte": false,
@@ -739,7 +744,8 @@
         },
         {
           "id": "f6",
-          "text": "{name} {gap} på lærerens spørsmål med et stort smil.",
+          "text": "Læreren lurte på hva sju og tre blir. «Ti!» {gap} {name} med et stort smil.",
+          "plainVerbOK": true,
           "fit": {
             "hvisket": false,
             "ropte": false,
@@ -751,7 +757,8 @@
         },
         {
           "id": "f7",
-          "text": "{name} {gap} steg for steg hvordan man planter et frø.",
+          "text": "«Først graver du et hull, og etterpå legger du frøet oppi», {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "hvisket": false,
             "ropte": false,
@@ -763,7 +770,8 @@
         },
         {
           "id": "f8",
-          "text": "«Jeg skal mate fiskene hver dag, det er et løfte!» {gap} {name}.",
+          "text": "«Jeg skal mate fiskene hver dag», {gap} {name}.",
+          "plainVerbOK": true,
           "fit": {
             "hvisket": false,
             "ropte": false,

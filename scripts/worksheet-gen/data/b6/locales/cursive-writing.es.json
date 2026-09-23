@@ -1,0 +1,181 @@
+{
+  "refused": null,
+  "units": [
+    "mx"
+  ],
+  "exemplar": "mx",
+  "unitLabel": {
+    "mx": "cursiva"
+  },
+  "scriptName": {
+    "mx": "Letra cursiva"
+  },
+  "ruling": {
+    "G1": "doble",
+    "G2": "doble",
+    "G3": "doble"
+  },
+  "dashHelpers": false,
+  "xPx": {
+    "base": 15,
+    "capitals": 15,
+    "joins": 15,
+    "words": 18,
+    "read": 18,
+    "copy": 16
+  },
+  "levels": {
+    "base": "segundo-grado",
+    "capitals": "segundo-grado",
+    "joins": "segundo-grado",
+    "words": "segundo-grado",
+    "read": "segundo-grado",
+    "copy": "tercer-grado"
+  },
+  "lessons": {
+    "mx": [
+      [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      [
+        "c",
+        "d",
+        "g",
+        "q"
+      ],
+      [
+        "l",
+        "b",
+        "h",
+        "k",
+        "f",
+        "t"
+      ],
+      [
+        "m",
+        "n",
+        "ñ",
+        "v",
+        "w",
+        "x"
+      ],
+      [
+        "r",
+        "s",
+        "p",
+        "j",
+        "y",
+        "z"
+      ]
+    ]
+  },
+  "joins": {
+    "mx": [
+      {
+        "pair": "ol",
+        "word": "sol"
+      },
+      {
+        "pair": "on",
+        "word": "mono"
+      },
+      {
+        "pair": "br",
+        "word": "libro"
+      },
+      {
+        "pair": "va",
+        "word": "vaca"
+      },
+      {
+        "pair": "ve",
+        "word": "nieve"
+      },
+      {
+        "pair": "ch",
+        "word": "leche"
+      },
+      {
+        "pair": "ña",
+        "word": "niña"
+      },
+      {
+        "pair": "bl",
+        "word": "blanco"
+      },
+      {
+        "pair": "ue",
+        "word": "huevo"
+      }
+    ]
+  },
+  "words": {
+    "animals/cat": "gato",
+    "animals/duck": "pato",
+    "animals/fish": "pez",
+    "animals/owl": "búho",
+    "animals/pig": "cerdo",
+    "animals/sheep": "oveja",
+    "fruits/pear": "pera",
+    "fruits/apple": "manzana",
+    "toys/boat": {
+      "text": "barco",
+      "override": true
+    },
+    "toys/doll": "muñeca",
+    "toys/robot": "robot",
+    "toys/train": "tren",
+    "toys/kite": "papalote",
+    "around the house/bed": "cama",
+    "around the house/chair": "silla",
+    "around the house/cup": "taza",
+    "around the house/lamp": "lámpara",
+    "classroom/book": "libro",
+    "zoo animals/lion": "león",
+    "pets/mouse": "ratón",
+    "bakery/cake": "pastel",
+    "weather/sun": "sol",
+    "weather/cloud": "nube",
+    "animals/horse": "caballo",
+    "animals/zebra": "cebra",
+    "animals/tiger": "tigre"
+  },
+  "sentences": [
+    "El gato está en la cama.",
+    "Veo un papalote rojo.",
+    "Mi perro corre muy rápido.",
+    "Nos gusta leer libros.",
+    "Hoy hace mucho calor.",
+    "Ana tiene un barco de juguete."
+  ],
+  "strings": {
+    "G2-377": {
+      "title": "Letra cursiva: las vocales a, e, i, o, u",
+      "instruction": "Repasa las letras grises y sigue escribiendo cada letra ligada por tu cuenta hasta el final del renglón y en el renglón vacío de abajo."
+    },
+    "G2-384": {
+      "title": "Mayúsculas en letra cursiva: escribe los nombres",
+      "instruction": "Repasa cada letra mayúscula gris y cada nombre, y luego escríbelos en el renglón vacío de abajo."
+    },
+    "G2-385": {
+      "title": "Letra cursiva: cómo unir dos letras",
+      "instruction": "Repasa cada par de letras grises unidas y la palabra, y luego escríbelos en el renglón vacío de abajo."
+    },
+    "G2-386": {
+      "title": "Palabras en letra cursiva con dibujos",
+      "instruction": "Repasa cada palabra gris, luego escríbela en el renglón de abajo y al final agrega los puntos, la rayita de la t y los acentos."
+    },
+    "G2-387": {
+      "title": "Lectura en letra cursiva: une cada palabra con su dibujo",
+      "instruction": "Lee cada palabra en letra cursiva y únela con una línea a su dibujo."
+    },
+    "G3-401": {
+      "title": "Oraciones para copiar en letra cursiva",
+      "instruction": "Repasa la oración gris y luego copia cada oración en letra cursiva en los dos renglones de abajo."
+    }
+  }
+}

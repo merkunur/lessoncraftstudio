@@ -1,0 +1,281 @@
+{
+  "words3": [
+    "Först",
+    "Sedan",
+    "Till sist"
+  ],
+  "openers4": [
+    "Först",
+    "Sedan",
+    "Efter det",
+    "Till sist"
+  ],
+  "starters4": [
+    "Först",
+    "Sedan",
+    "Efter det",
+    "Till sist"
+  ],
+  "bme": [
+    "Början",
+    "Mitten",
+    "Slutet"
+  ],
+  "stories": {
+    "apple": {
+      "sentences": [
+        "Först är äpplet helt.",
+        "Sedan har någon tagit en tugga.",
+        "Efter det har någon tagit tre tuggor.",
+        "Till sist är bara skrutten kvar."
+      ],
+      "stateWords": [
+        "helt",
+        "en tugga",
+        "tre tuggor",
+        "skrutten"
+      ],
+      "helpWords": [
+        "äpple",
+        "tugga",
+        "skrutt",
+        "skaft",
+        "blad",
+        "tallrik"
+      ],
+      "helpIds": [
+        "apple",
+        "bite",
+        "core",
+        "stem",
+        "leaf",
+        "plate"
+      ]
+    },
+    "banana": {
+      "sentences": [
+        "Först är bananen inte skalad.",
+        "Sedan hänger en skalbit ner.",
+        "Efter det hänger tre skalbitar ner.",
+        "Till sist är bara det tomma skalet kvar."
+      ],
+      "stateWords": [
+        "inte skalad",
+        "en skalbit",
+        "tre skalbitar",
+        "tomma skalet"
+      ],
+      "helpWords": [
+        "banan",
+        "skal",
+        "skalbit",
+        "tallrik"
+      ],
+      "helpIds": [
+        "banana",
+        "peel",
+        "strip",
+        "plate"
+      ]
+    },
+    "sandwich": {
+      "sentences": [
+        "Först finns det två brödskivor.",
+        "Sedan har den ena skivan fått sylt.",
+        "Efter det är smörgåsen delad på mitten.",
+        "Till sist är bara en kant och smulor kvar."
+      ],
+      "stateWords": [
+        "två brödskivor",
+        "sylt",
+        "delad på mitten",
+        "smulor"
+      ],
+      "helpWords": [
+        "bröd",
+        "sylt",
+        "kniv",
+        "smörgås",
+        "halva",
+        "kant"
+      ],
+      "helpIds": [
+        "bread",
+        "jam",
+        "knife",
+        "sandwich",
+        "half",
+        "crust"
+      ]
+    },
+    "cake": {
+      "sentences": [
+        "Först är tårtan hel.",
+        "Sedan har någon skurit ut en bit.",
+        "Efter det är halva tårtan borta.",
+        "Till sist är bara smulor kvar."
+      ],
+      "stateWords": [
+        "hel",
+        "en bit",
+        "halva",
+        "smulor"
+      ],
+      "helpWords": [
+        "tårta",
+        "bit",
+        "ljus",
+        "smulor",
+        "tårtfat"
+      ],
+      "helpIds": [
+        "cake",
+        "slice",
+        "candle",
+        "crumb",
+        "stand"
+      ]
+    },
+    "fence": {
+      "sentences": [
+        "Först är staketet helt vitt.",
+        "Sedan är två brädor målade.",
+        "Efter det är fyra brädor målade.",
+        "Till sist är hela staketet målat."
+      ],
+      "stateWords": [
+        "helt vitt",
+        "två brädor",
+        "fyra brädor",
+        "hela staketet"
+      ],
+      "helpWords": [
+        "staket",
+        "bräda",
+        "färg",
+        "pensel",
+        "burk"
+      ],
+      "helpIds": [
+        "fence",
+        "plank",
+        "paint",
+        "brush",
+        "pot"
+      ]
+    },
+    "letter": {
+      "sentences": [
+        "Först är kortet tomt.",
+        "Sedan har någon ritat en blomma på kortet.",
+        "Efter det har någon skrivit tre rader.",
+        "Till sist ligger kortet i ett kuvert med frimärke."
+      ],
+      "stateWords": [
+        "tomt",
+        "en blomma",
+        "tre rader",
+        "frimärke"
+      ],
+      "helpWords": [
+        "kort",
+        "blomma",
+        "penna",
+        "kuvert",
+        "frimärke"
+      ],
+      "helpIds": [
+        "card",
+        "flower",
+        "pencil",
+        "envelope",
+        "stamp"
+      ]
+    },
+    "paper-chain": {
+      "sentences": [
+        "Först finns det ett papper.",
+        "Sedan är pappret klippt i fem remsor.",
+        "Efter det är två remsor limmade till ringar.",
+        "Till sist blir alla fem ringarna en kedja."
+      ],
+      "stateWords": [
+        "ett papper",
+        "fem remsor",
+        "två remsor",
+        "en kedja"
+      ],
+      "helpWords": [
+        "papper",
+        "sax",
+        "remsor",
+        "lim",
+        "ringar",
+        "kedja"
+      ],
+      "helpIds": [
+        "paper",
+        "scissors",
+        "strip",
+        "glue",
+        "ring",
+        "chain"
+      ]
+    },
+    "beach-walk": {
+      "sentences": [
+        "Först finns det inga fotspår i sanden.",
+        "Sedan går ett barn och lämnar tre fotspår.",
+        "Efter det hittar barnet ett snäckskal.",
+        "Till sist är barnet tillbaka på handduken med snäckskalet."
+      ],
+      "stateWords": [
+        "inga fotspår",
+        "tre fotspår",
+        "hittar",
+        "tillbaka"
+      ],
+      "helpWords": [
+        "sand",
+        "handduk",
+        "snäckskal",
+        "fotspår",
+        "gå"
+      ],
+      "helpIds": [
+        "sand",
+        "towel",
+        "shell",
+        "footprint",
+        "walk"
+      ]
+    }
+  },
+  "excludeStories": [],
+  "strings": {
+    "base": {
+      "title": "Bildserie: numrera bilderna",
+      "instruction": "Titta på vad som ändras i varje berättelse och skriv siffrorna i rutorna så att bilderna kommer i rätt ordning."
+    },
+    "first-next-last-cut": {
+      "title": "Bildserie att klippa ut: först, sedan, till sist",
+      "instruction": "Klipp ut bilderna på varje remsa och klistra dem i de tomma ramarna ovanför Först, Sedan och Till sist."
+    },
+    "what-happens-next": {
+      "title": "Bildserie: vad händer sedan?",
+      "instruction": "Titta på de tre bilderna i varje berättelse och ringa in bilden nedanför dem som hör hemma i ramen med frågetecknet."
+    },
+    "beginning-middle-end": {
+      "title": "Bildberättelse: början, mitten och slutet",
+      "instruction": "Titta på början och slutet av varje berättelse och rita det som händer i mitten i den tomma ramen."
+    },
+    "sequencing-sentences": {
+      "title": "Bildserie: para ihop meningarna med bilderna",
+      "instruction": "Läs meningarna i varje berättelse och dra ett streck från varje mening till rätt bild."
+    },
+    "retell-with-starters": {
+      "title": "Bildserie att skriva till med ordstöd",
+      "instruction": "Skriv på raderna vad som händer på varje bild och börja med ordet som står på den första raden."
+    }
+  }
+}

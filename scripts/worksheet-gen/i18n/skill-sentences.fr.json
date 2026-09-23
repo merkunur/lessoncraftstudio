@@ -418,5 +418,25 @@
   "word-parts": {
     "full": "Trier des mots selon leur radical, trouver la partie commune à trois mots et choisir un préfixe selon son sens montre à l’enfant comment les mots sont construits.",
     "short": "Le radical, les préfixes et les suffixes"
+  },
+  "story-sequencing": {
+    "full": "Remettre dans l'ordre les images d'une histoire, repérer le début, le milieu et la fin, puis raconter avec d'abord, ensuite, puis, enfin.",
+    "short": "Remettre une histoire dans l'ordre"
+  },
+  "healthy-habits": {
+    "full": "Connaître les bons gestes d'hygiène : se laver les mains, se brosser les dents, tousser dans son coude, et comprendre pourquoi on les fait.",
+    "short": "Les bons gestes d'hygiène au quotidien"
+  },
+  "habitats": {
+    "full": "Associer chaque animal à son milieu de vie, découvrir les abris des animaux et comprendre comment leur corps est adapté à leur milieu.",
+    "short": "Les milieux de vie des animaux"
+  },
+  "sink-or-float": {
+    "full": "Prévoir si un objet flotte ou coule, vérifier par l'expérience et comprendre que le poids seul ne décide pas si un objet flotte.",
+    "short": "Flotte ou coule : je prévois, je vérifie"
+  },
+  "cursive-writing": {
+    "full": "Écrire en cursive sur lignage Seyès : les lettres minuscules, les majuscules, les attaches entre les lettres, des mots puis des phrases.",
+    "short": "Écrire en cursive sur lignage Seyès"
   }
 }

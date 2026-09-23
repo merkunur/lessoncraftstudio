@@ -2842,5 +2842,125 @@
   "G3-399": {
     "title": "Rotord i setninger",
     "instruction": "Skriv hvert av de fire ordene på kortene i den setningen der det passer."
+  },
+  "K-379": {
+    "title": "Bildeserie: nummerer bildene",
+    "instruction": "Se hva som endrer seg i hver historie, og skriv tallene i rutene så bildene kommer i riktig rekkefølge."
+  },
+  "K-380": {
+    "title": "Hygiene og gode vaner: hva trenger hvert barn?",
+    "instruction": "Trekk en strek fra hvert barn til det barnet trenger."
+  },
+  "G1-398": {
+    "title": "Dyrenes leveområder: skog, eng, vann og hav",
+    "instruction": "Skriv under hvert dyr bokstaven til leveområdet der det lever."
+  },
+  "G1-399": {
+    "title": "Flyte eller synke: gjett og test med et forsøk",
+    "instruction": "Fargelegg en ring i det første vannkaret før forsøket, en ring i det andre vannkaret etterpå, og stjerna hvis du ble overrasket."
+  },
+  "G2-377": {
+    "title": "Sammenhengende skrift: små bokstaver i, u og t",
+    "instruction": "Skriv over de grå bokstavene, og skriv videre selv med bokstavene bundet sammen til enden av linjen og på den tomme linjen under."
+  },
+  "K-381": {
+    "title": "Bildeserie med 3 bilder: først, så og til slutt",
+    "instruction": "Klipp ut bildene på hver remse, og lim dem i de tomme rammene over Først, Så og Til slutt."
+  },
+  "G1-400": {
+    "title": "Bildeserie: hva skjer etterpå?",
+    "instruction": "Se på de tre bildene i hver historie, og sett ring rundt bildet under dem som hører hjemme i rammen med spørsmålstegn."
+  },
+  "G1-401": {
+    "title": "Bildefortelling: begynnelse, midt og slutt",
+    "instruction": "Se på begynnelsen og slutten av hver historie, og tegn i den tomme rammen hva som skjer i midten."
+  },
+  "G1-402": {
+    "title": "Bildeserie: koble setningene til bildene",
+    "instruction": "Les setningene i hver historie, og trekk en strek fra hver setning til riktig bilde."
+  },
+  "G2-378": {
+    "title": "Skriv til bildeserien med ordhjelp",
+    "instruction": "Skriv hva som skjer på hvert bilde på linjene ved siden av, og begynn med ordet som står på den første linjen."
+  },
+  "K-382": {
+    "title": "Vaske hender: slik gjør du",
+    "instruction": "Skriv 1 til 5 i rutene for å vise hvordan vi vasker hendene."
+  },
+  "G1-403": {
+    "title": "Pusse tenner: før, under og etter",
+    "instruction": "Sett ring rundt ordet som forteller når det skjer: før, under eller etter tannpussen."
+  },
+  "G1-404": {
+    "title": "Stopp bakteriene: host og nys i albuen",
+    "instruction": "Sett ring rundt bildet i hver rad som stopper bakterier fra å spre seg."
+  },
+  "G2-379": {
+    "title": "Gode vaner: hvorfor gjør vi det?",
+    "instruction": "Trekk en strek fra hver vane til setningen som forteller hvorfor vi gjør det."
+  },
+  "G1-405": {
+    "title": "Ukeplan med gode vaner",
+    "instruction": "Sett en hake i ruta hver dag for hver vane du har gjort."
+  },
+  "K-383": {
+    "title": "Dyrenes hjem: reir, hule og maurtue",
+    "instruction": "Trekk en strek fra hvert dyr til hjemmet sitt."
+  },
+  "G1-406": {
+    "title": "Leveområder: hvilket dyr bor ikke her?",
+    "instruction": "Sett kryss over dyret i hver rad som ikke bor i det leveområdet."
+  },
+  "G2-380": {
+    "title": "Dyrenes tilpasninger til leveområdet",
+    "instruction": "Skriv i hver rute bokstaven til dyret setningen handler om."
+  },
+  "G1-407": {
+    "title": "Hva trenger dyrene for å leve?",
+    "instruction": "Sett ring rundt maten og hjemmet til hvert dyr."
+  },
+  "G2-381": {
+    "title": "Mitt leveområde: undersøk og tegn",
+    "instruction": "Tegn tre dyr som lever i dette leveområdet, skriv navnene deres og en plante som vokser der, og sett ring rundt det riktige ordet i hvert par."
+  },
+  "G1-408": {
+    "title": "Tung eller lett? Flyte eller synke, forsøk med vekt",
+    "instruction": "Vekta viser hva som er tyngst: sett ring rundt det som flyter i vann."
+  },
+  "G2-382": {
+    "title": "Båt av leire: forsøk med form",
+    "instruction": "Fargelegg ringen der hver leirform havner, sett ring rundt det som flyter, og tegn så din egen leirbåt i det store vannkaret."
+  },
+  "G2-383": {
+    "title": "Hvorfor flyter ting? Sant eller usant etter forsøket",
+    "instruction": "Les hver setning, og sett ring rundt sant eller usant."
+  },
+  "K-384": {
+    "title": "Hva flyter, hva synker? Tegn forsøket",
+    "instruction": "Tegn to ting som flyter, i de stiplede rutene på vannet, og to som synker, i de stiplede rutene på bunnen."
+  },
+  "G3-400": {
+    "title": "Mitt forsøk: flyter appelsinen?",
+    "instruction": "Velg et spørsmål, skriv hva du tror, test det, og tegn hva som skjedde og skriv hva du lærte."
+  },
+  "G2-384": {
+    "title": "Store bokstaver i sammenhengende skrift: skriv navnene",
+    "instruction": "Skriv over hver grå stor bokstav og hvert navn, og skriv dem så på den tomme linjen under."
+  },
+  "G2-385": {
+    "title": "Sammenhengende skrift: bind bokstavene sammen",
+    "instruction": "Skriv over hvert grå bokstavpar og ordet, og skriv dem så på den tomme linjen under."
+  },
+  "G2-386": {
+    "title": "Skriv ord med sammenhengende skrift",
+    "instruction": "Skriv over hvert grå ord, skriv det så på linjen under, og sett på prikker og tverrstreker til slutt."
+  },
+  "G2-387": {
+    "title": "Les sammenhengende skrift: ord og bilde",
+    "instruction": "Les hvert ord i sammenhengende skrift, og trekk en strek til bildet som passer."
+  },
+  "G3-401": {
+    "title": "Skriv av setninger med sammenhengende skrift",
+    "instruction": "Skriv over den grå setningen, og skriv så av hver trykt setning med sammenhengende skrift på de to linjene under."
   }
 }

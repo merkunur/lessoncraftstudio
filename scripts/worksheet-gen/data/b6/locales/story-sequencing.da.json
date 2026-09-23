@@ -1,0 +1,281 @@
+{
+  "words3": [
+    "Først",
+    "Så",
+    "Til sidst"
+  ],
+  "openers4": [
+    "Først",
+    "Så",
+    "Bagefter",
+    "Til sidst"
+  ],
+  "starters4": [
+    "Først",
+    "Så",
+    "Bagefter",
+    "Til sidst"
+  ],
+  "bme": [
+    "Begyndelse",
+    "Midte",
+    "Slutning"
+  ],
+  "stories": {
+    "apple": {
+      "sentences": [
+        "Først er æblet helt.",
+        "Så er der én bid i æblet.",
+        "Bagefter er der tre bid i æblet.",
+        "Til sidst er der kun skroget tilbage."
+      ],
+      "stateWords": [
+        "helt",
+        "én bid",
+        "tre bid",
+        "skroget"
+      ],
+      "helpWords": [
+        "æble",
+        "bid",
+        "skrog",
+        "stilk",
+        "blad",
+        "tallerken"
+      ],
+      "helpIds": [
+        "apple",
+        "bite",
+        "core",
+        "stem",
+        "leaf",
+        "plate"
+      ]
+    },
+    "banana": {
+      "sentences": [
+        "Først er bananen ikke skrællet.",
+        "Så hænger én strimmel skræl ned.",
+        "Bagefter hænger tre strimler ned.",
+        "Til sidst er der kun den tomme skræl tilbage."
+      ],
+      "stateWords": [
+        "ikke skrællet",
+        "én strimmel",
+        "tre strimler",
+        "tomme skræl"
+      ],
+      "helpWords": [
+        "banan",
+        "skræl",
+        "strimmel",
+        "tallerken"
+      ],
+      "helpIds": [
+        "banana",
+        "peel",
+        "strip",
+        "plate"
+      ]
+    },
+    "sandwich": {
+      "sentences": [
+        "Først er der to skiver brød.",
+        "Så er der syltetøj på den ene skive.",
+        "Bagefter er klapsammenmaden skåret midt over.",
+        "Til sidst er der kun en skorpe og krummer tilbage."
+      ],
+      "stateWords": [
+        "to skiver",
+        "syltetøj",
+        "midt over",
+        "krummer"
+      ],
+      "helpWords": [
+        "brød",
+        "syltetøj",
+        "kniv",
+        "klapsammen",
+        "halvdel",
+        "skorpe"
+      ],
+      "helpIds": [
+        "bread",
+        "jam",
+        "knife",
+        "sandwich",
+        "half",
+        "crust"
+      ]
+    },
+    "cake": {
+      "sentences": [
+        "Først er kagen hel.",
+        "Så er der skåret ét stykke ud.",
+        "Bagefter er halvdelen af kagen væk.",
+        "Til sidst er der kun krummer tilbage."
+      ],
+      "stateWords": [
+        "hel",
+        "ét stykke",
+        "halvdelen",
+        "krummer"
+      ],
+      "helpWords": [
+        "kage",
+        "stykke",
+        "lys",
+        "krummer",
+        "kagefad"
+      ],
+      "helpIds": [
+        "cake",
+        "slice",
+        "candle",
+        "crumb",
+        "stand"
+      ]
+    },
+    "fence": {
+      "sentences": [
+        "Først er stakittet helt hvidt.",
+        "Så er to brædder malet.",
+        "Bagefter er fire brædder malet.",
+        "Til sidst er hele stakittet malet."
+      ],
+      "stateWords": [
+        "helt hvidt",
+        "to brædder",
+        "fire brædder",
+        "hele stakittet"
+      ],
+      "helpWords": [
+        "stakit",
+        "bræt",
+        "maling",
+        "pensel",
+        "bøtte"
+      ],
+      "helpIds": [
+        "fence",
+        "plank",
+        "paint",
+        "brush",
+        "pot"
+      ]
+    },
+    "letter": {
+      "sentences": [
+        "Først er kortet tomt.",
+        "Så er der tegnet en blomst på kortet.",
+        "Bagefter er der skrevet tre linjer på kortet.",
+        "Til sidst ligger kortet i en kuvert med et frimærke."
+      ],
+      "stateWords": [
+        "tomt",
+        "blomst",
+        "tre linjer",
+        "frimærke"
+      ],
+      "helpWords": [
+        "kort",
+        "blomst",
+        "blyant",
+        "kuvert",
+        "frimærke"
+      ],
+      "helpIds": [
+        "card",
+        "flower",
+        "pencil",
+        "envelope",
+        "stamp"
+      ]
+    },
+    "paper-chain": {
+      "sentences": [
+        "Først er der ét ark papir.",
+        "Så er arket klippet i fem strimler.",
+        "Bagefter er to strimler limet til ringe.",
+        "Til sidst er alle fem ringe blevet til en kæde."
+      ],
+      "stateWords": [
+        "ét ark",
+        "fem strimler",
+        "to strimler",
+        "kæde"
+      ],
+      "helpWords": [
+        "papir",
+        "saks",
+        "strimler",
+        "lim",
+        "ringe",
+        "kæde"
+      ],
+      "helpIds": [
+        "paper",
+        "scissors",
+        "strip",
+        "glue",
+        "ring",
+        "chain"
+      ]
+    },
+    "beach-walk": {
+      "sentences": [
+        "Først er der ingen fodspor i sandet.",
+        "Så går et barn og laver tre fodspor.",
+        "Bagefter finder barnet en muslingeskal.",
+        "Til sidst er barnet tilbage på håndklædet med skallen."
+      ],
+      "stateWords": [
+        "ingen fodspor",
+        "tre fodspor",
+        "finder",
+        "tilbage"
+      ],
+      "helpWords": [
+        "sand",
+        "håndklæde",
+        "muslingeskal",
+        "fodspor",
+        "gå"
+      ],
+      "helpIds": [
+        "sand",
+        "towel",
+        "shell",
+        "footprint",
+        "walk"
+      ]
+    }
+  },
+  "excludeStories": [],
+  "strings": {
+    "base": {
+      "title": "Billedserie: nummerér billederne",
+      "instruction": "Se, hvad der ændrer sig i hver historie, og skriv tallene i felterne, så billederne kommer i den rigtige rækkefølge."
+    },
+    "first-next-last-cut": {
+      "title": "Billedserie til at klippe ud: først, så, til sidst",
+      "instruction": "Klip billederne på hver strimmel ud, og lim dem i de tomme rammer over Først, Så og Til sidst."
+    },
+    "what-happens-next": {
+      "title": "Billedserie: hvad sker der så?",
+      "instruction": "Se på hver histories tre billeder, og sæt ring om det billede nedenunder, der skal i rammen med spørgsmålstegnet."
+    },
+    "beginning-middle-end": {
+      "title": "Billedfortælling: begyndelse, midte og slutning",
+      "instruction": "Se på begyndelsen og slutningen af hver historie, og tegn, hvad der sker, i den tomme ramme i midten."
+    },
+    "sequencing-sentences": {
+      "title": "Billedserie: læs sætningerne, og find billederne",
+      "instruction": "Læs sætningerne i hver historie, og tegn en streg fra hver sætning til dens billede."
+    },
+    "retell-with-starters": {
+      "title": "Billedfortælling: skriv historien til billederne",
+      "instruction": "Skriv, hvad der sker på hvert billede, på linjerne ved siden af, og begynd med ordet, der står på den første linje."
+    }
+  }
+}

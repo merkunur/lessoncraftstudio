@@ -2850,5 +2850,125 @@
   "G3-399": {
     "title": "Le radical dans les phrases",
     "instruction": "Dans chaque bloc, écris chacun des quatre mots posés sur la pierre dans la phrase qui lui convient."
+  },
+  "K-379": {
+    "title": "Images séquentielles : remets l'histoire dans l'ordre",
+    "instruction": "Regarde ce qui change dans chaque histoire, puis écris les numéros dans les cases pour remettre les images dans l'ordre."
+  },
+  "K-380": {
+    "title": "Hygiène corporelle : de quoi a-t-on besoin ?",
+    "instruction": "Relie chaque enfant à l'objet dont il a besoin."
+  },
+  "G1-398": {
+    "title": "Les milieux de vie des animaux : qui vit où ?",
+    "instruction": "Sous chaque animal, écris la lettre du milieu où il vit."
+  },
+  "G1-399": {
+    "title": "Expérience flotte ou coule : je prévois, je vérifie",
+    "instruction": "Colorie un rond dans le premier aquarium avant l'expérience, un rond dans le second après, et l'étoile si le résultat te surprend."
+  },
+  "G2-377": {
+    "title": "Écriture cursive : les lettres i, u et t",
+    "instruction": "Repasse les lettres grises, puis continue à écrire chaque lettre attachée, tout seul, jusqu'au bout de la ligne et sur la ligne vide."
+  },
+  "K-381": {
+    "title": "Images séquentielles à découper : d'abord, ensuite, enfin",
+    "instruction": "Découpe les images de chaque bande et colle-les dans les cadres vides, au-dessus de D'abord, Ensuite et Enfin."
+  },
+  "G1-400": {
+    "title": "Images séquentielles : que se passe-t-il ensuite ?",
+    "instruction": "Regarde les trois images de chaque histoire et entoure, parmi les images du dessous, celle qui va dans le cadre au point d'interrogation."
+  },
+  "G1-401": {
+    "title": "Début, milieu et fin d'une histoire",
+    "instruction": "Regarde le début et la fin de chaque histoire et dessine ce qui se passe au milieu, dans le cadre vide."
+  },
+  "G1-402": {
+    "title": "Images séquentielles : relie chaque phrase à son image",
+    "instruction": "Lis les phrases de chaque histoire et relie chaque phrase à son image."
+  },
+  "G2-378": {
+    "title": "Images séquentielles et production d'écrit : raconte l'histoire",
+    "instruction": "Écris ce qui se passe dans chaque image sur ses lignes, en commençant par le mot déjà écrit sur la première ligne."
+  },
+  "K-382": {
+    "title": "Comment se laver les mains ?",
+    "instruction": "Écris de 1 à 5 dans les cases pour montrer comment on se lave les mains."
+  },
+  "G1-403": {
+    "title": "Se brosser les dents : avant, pendant, après",
+    "instruction": "Pour chaque image, entoure le mot qui dit quand cela se passe : avant, pendant ou après le brossage."
+  },
+  "G1-404": {
+    "title": "Stop aux microbes : je tousse dans mon coude",
+    "instruction": "Dans chaque rangée, entoure l'image qui empêche les microbes de se propager."
+  },
+  "G2-379": {
+    "title": "Hygiène de vie : pourquoi ces bonnes habitudes ?",
+    "instruction": "Relie chaque bonne habitude à la phrase qui dit pourquoi on le fait."
+  },
+  "G1-405": {
+    "title": "Tableau de la semaine : mes bonnes habitudes",
+    "instruction": "Chaque jour, coche la case de chaque habitude que tu as faite."
+  },
+  "K-383": {
+    "title": "Le nid, le terrier, la ruche : les maisons des animaux",
+    "instruction": "Relie chaque animal à sa maison."
+  },
+  "G1-406": {
+    "title": "Milieux de vie des animaux : trouve l'intrus",
+    "instruction": "Dans chaque rangée, barre l'animal qui ne vit pas dans ce milieu."
+  },
+  "G2-380": {
+    "title": "L'adaptation des animaux à leur milieu",
+    "instruction": "Écris dans sa case la lettre de l'animal dont parle chaque phrase."
+  },
+  "G1-407": {
+    "title": "Les besoins des animaux : nourriture et abri",
+    "instruction": "Pour chaque animal, entoure sa nourriture et son abri."
+  },
+  "G2-381": {
+    "title": "Mon enquête sur un milieu de vie",
+    "instruction": "Dessine trois animaux qui vivent dans ce milieu, écris leur nom et une plante qui y pousse, puis entoure le bon mot de chaque paire."
+  },
+  "G1-408": {
+    "title": "Lourd ou léger ? L'expérience de la balance : flotte ou coule",
+    "instruction": "La balance montre l'objet le plus lourd : entoure celui qui flotte dans l'eau."
+  },
+  "G2-382": {
+    "title": "La pâte à modeler qui flotte : l'expérience de la forme",
+    "instruction": "Colorie le rond où finit chaque forme de pâte à modeler, entoure ce qui flotte, puis dessine ton propre bateau dans le grand aquarium."
+  },
+  "G2-383": {
+    "title": "Pourquoi ça flotte ? Vrai ou faux après l'expérience",
+    "instruction": "Lis chaque phrase et entoure vrai ou faux."
+  },
+  "K-384": {
+    "title": "Ce qui flotte et ce qui coule : dessine l'expérience",
+    "instruction": "Dessine deux objets qui flottent dans les cadres sur l'eau et deux objets qui coulent dans les cadres au fond."
+  },
+  "G3-400": {
+    "title": "Mon compte rendu d'expérience : flotte ou coule",
+    "instruction": "Choisis une question, écris ton hypothèse, fais l'expérience, puis dessine ce qui s'est passé et écris ce que tu as appris."
+  },
+  "G2-384": {
+    "title": "Majuscules cursives : écrire les prénoms",
+    "instruction": "Repasse chaque majuscule grise et chaque prénom gris, puis écris-les sur la ligne vide en dessous."
+  },
+  "G2-385": {
+    "title": "Écriture cursive : attacher les lettres deux par deux",
+    "instruction": "Repasse chaque paire de lettres grises attachées et son mot, puis écris-les sur la ligne vide en dessous."
+  },
+  "G2-386": {
+    "title": "Écriture cursive : copier des mots avec des images",
+    "instruction": "Repasse chaque mot gris d'un seul trait, puis écris-le sur la ligne en dessous et ajoute les points, les barres et les accents à la fin."
+  },
+  "G2-387": {
+    "title": "Lire l'écriture cursive : relie le mot à son image",
+    "instruction": "Lis chaque mot écrit en cursive et relie-le à son image."
+  },
+  "G3-401": {
+    "title": "Écriture cursive : copier une phrase",
+    "instruction": "Repasse la phrase grise, puis copie en cursive chaque phrase écrite en script sur les deux lignes en dessous."
   }
 }

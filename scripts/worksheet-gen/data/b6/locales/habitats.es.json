@@ -1,0 +1,260 @@
+{
+  "sets": {
+    "base": [
+      "rainforest",
+      "forest",
+      "ocean",
+      "pond"
+    ]
+  },
+  "tileLabel": {
+    "ocean": "Mar",
+    "pond": "Lago",
+    "forest": "Bosque",
+    "meadow": "Pradera",
+    "polar": "Hielo polar",
+    "polar-arctic": "Ártico",
+    "savanna": "Sabana",
+    "rainforest": "Selva"
+  },
+  "adapt": {
+    "camel-hump": "Su joroba guarda grasa y así puede pasar mucho tiempo sin comer.",
+    "giraffe-neck": "Su cuello largo alcanza las hojas altas de los árboles.",
+    "elephant-trunk": "Su trompa larga sorbe agua y levanta la comida.",
+    "penguin-flippers": "Sus alas son aletas: nada muy rápido, pero no puede volar.",
+    "walrus-tusks": "Usa sus colmillos largos para sacar del agua su cuerpo pesado.",
+    "woodpecker-beak": "Su pico fuerte y afilado hace agujeros en los troncos de los árboles.",
+    "beaver-teeth": "Sus grandes dientes de enfrente cortan árboles para hacer su casa en el agua.",
+    "whale-blowhole": "Respira aire por un orificio que tiene arriba de la cabeza.",
+    "fish-gills": "Respira debajo del agua con sus branquias.",
+    "duck-feet": "Sus patas palmeadas empujan el agua como si fueran remos.",
+    "sloth-claws": "Sus garras largas y curvas le sirven para colgarse de las ramas.",
+    "toucan-beak": "Su pico enorme alcanza la fruta en la punta de las ramas delgadas.",
+    "squirrel-tail": "Su cola peluda le ayuda a no caerse cuando salta de rama en rama."
+  },
+  "names": {
+    "whale": [
+      "ballena"
+    ],
+    "dolphin": [
+      "delfín"
+    ],
+    "octopus": [
+      "pulpo"
+    ],
+    "starfish": [
+      "estrella de mar"
+    ],
+    "jellyfish": [
+      "medusa",
+      "aguamala"
+    ],
+    "shark": [
+      "tiburón"
+    ],
+    "clownfish": [
+      "pez payaso",
+      "pez",
+      "Nemo"
+    ],
+    "crab": [
+      "cangrejo"
+    ],
+    "ray": [
+      "mantarraya",
+      "raya"
+    ],
+    "seal-grey": [
+      "foca",
+      "lobo marino"
+    ],
+    "seal-white": [
+      "foca",
+      "foquita"
+    ],
+    "walrus": [
+      "morsa"
+    ],
+    "narwhal": [
+      "narval"
+    ],
+    "penguin": [
+      "pingüino"
+    ],
+    "deer": [
+      "venado",
+      "cervatillo",
+      "Bambi"
+    ],
+    "squirrel": [
+      "ardilla",
+      "zorro"
+    ],
+    "woodpecker": [
+      "pájaro carpintero",
+      "carpintero"
+    ],
+    "badger": [
+      "tejón"
+    ],
+    "moose": [
+      "alce"
+    ],
+    "frog": [
+      "rana"
+    ],
+    "dragonfly": [
+      "libélula",
+      "caballito del diablo"
+    ],
+    "beaver": [
+      "castor"
+    ],
+    "duck": [
+      "pato",
+      "patito",
+      "pollito"
+    ],
+    "swan": [
+      "cisne"
+    ],
+    "butterfly": [
+      "mariposa"
+    ],
+    "bee": [
+      "abeja"
+    ],
+    "grasshopper": [
+      "chapulín",
+      "saltamontes"
+    ],
+    "ladybug": [
+      "catarina"
+    ],
+    "lion": [
+      "león"
+    ],
+    "zebra": [
+      "cebra"
+    ],
+    "giraffe": [
+      "jirafa"
+    ],
+    "elephant": [
+      "elefante"
+    ],
+    "rhinoceros": [
+      "rinoceronte"
+    ],
+    "ostrich": [
+      "avestruz"
+    ],
+    "monkey": [
+      "mono",
+      "changuito",
+      "chango"
+    ],
+    "gorilla": [
+      "gorila"
+    ],
+    "orangutan": [
+      "orangután",
+      "mono"
+    ],
+    "sloth": [
+      "perezoso",
+      "oso perezoso"
+    ],
+    "toucan": [
+      "tucán"
+    ],
+    "macaw": [
+      "guacamaya",
+      "loro",
+      "perico"
+    ],
+    "camel": [
+      "camello"
+    ],
+    "bird": [
+      "pájaro",
+      "pajarito"
+    ],
+    "spider": [
+      "araña"
+    ],
+    "rabbit": [
+      "conejo"
+    ],
+    "ant": [
+      "hormiga"
+    ]
+  },
+  "needs": {
+    "line": "Todos los animales necesitan comida, agua y una casa.",
+    "foodHead": "Comida",
+    "homeHead": "Casa"
+  },
+  "report": {
+    "animals": "Animales que viven aquí",
+    "plant": "Una planta que crece aquí",
+    "hot": "caluroso",
+    "cold": "frío",
+    "wet": "húmedo",
+    "dry": "seco"
+  },
+  "homeWord": {
+    "nest": "nido",
+    "hive": "colmena",
+    "web": "telaraña",
+    "burrow": "madriguera",
+    "anthill": "hormiguero",
+    "lodge": "madriguera de castor"
+  },
+  "refuse": [],
+  "refuseClaims": [],
+  "strings": {
+    "G1-398": {
+      "title": "Los animales y su hábitat: selva, bosque, mar y lago",
+      "instruction": "Escribe debajo de cada animal la letra del hábitat donde vive."
+    },
+    "K-383": {
+      "title": "Las casas de los animales: nido, colmena y madriguera",
+      "instruction": "Une con una línea cada animal con su casa."
+    },
+    "G1-406": {
+      "title": "Hábitat de los animales: el animal que no vive aquí",
+      "instruction": "En cada fila, tacha el animal que no vive en ese hábitat."
+    },
+    "G2-380": {
+      "title": "Adaptación de los animales a su hábitat",
+      "instruction": "Escribe en su cuadro la letra del animal del que habla cada oración."
+    },
+    "G1-407": {
+      "title": "¿Qué necesitan los animales para vivir?",
+      "instruction": "Para cada animal, encierra en un círculo lo que come y la casa donde vive."
+    },
+    "G2-381": {
+      "title": "Mi reporte del hábitat: animales y plantas",
+      "instruction": "Dibuja tres animales de este hábitat, escribe sus nombres y una planta que crece ahí, y encierra en un círculo la palabra correcta de cada par."
+    }
+  },
+  "placeWords": [
+    "desierto",
+    "mar",
+    "océano",
+    "hielo",
+    "ártico",
+    "antártida",
+    "polo",
+    "lago",
+    "laguna",
+    "estanque",
+    "bosque",
+    "pradera",
+    "campo",
+    "sabana",
+    "selva",
+    "jungla"
+  ]
+}

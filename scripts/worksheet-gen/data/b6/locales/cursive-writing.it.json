@@ -1,0 +1,180 @@
+{
+  "refused": null,
+  "units": [
+    "it-trad"
+  ],
+  "exemplar": "it-trad",
+  "unitLabel": {
+    "it-trad": "corsivo"
+  },
+  "scriptName": {
+    "it-trad": "Corsivo tradizionale"
+  },
+  "ruling": {
+    "G1": "lin4",
+    "G2": "doble",
+    "G3": "doble"
+  },
+  "dashHelpers": false,
+  "xPx": {
+    "base": 16,
+    "capitals": 15,
+    "joins": 15,
+    "words": 18,
+    "read": 18,
+    "copy": 16
+  },
+  "levels": {
+    "base": "classe-prima",
+    "capitals": "classe-seconda",
+    "joins": "classe-prima",
+    "words": "classe-seconda",
+    "read": "classe-seconda",
+    "copy": "classe-seconda"
+  },
+  "lessons": {
+    "it-trad": [
+      [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ],
+      [
+        "c",
+        "d",
+        "g",
+        "q"
+      ],
+      [
+        "l",
+        "b",
+        "h",
+        "f"
+      ],
+      [
+        "n",
+        "m",
+        "v",
+        "r"
+      ],
+      [
+        "p",
+        "t",
+        "s",
+        "z"
+      ],
+      [
+        "j",
+        "k",
+        "w",
+        "x",
+        "y"
+      ]
+    ]
+  },
+  "joins": {
+    "it-trad": [
+      {
+        "pair": "ol",
+        "word": "sole"
+      },
+      {
+        "pair": "on",
+        "word": "leone"
+      },
+      {
+        "pair": "br",
+        "word": "libro"
+      },
+      {
+        "pair": "va",
+        "word": "uva"
+      },
+      {
+        "pair": "ve",
+        "word": "neve"
+      },
+      {
+        "pair": "or",
+        "word": "fiore"
+      },
+      {
+        "pair": "ch",
+        "word": "chiave"
+      },
+      {
+        "pair": "gn",
+        "word": "ragno"
+      },
+      {
+        "pair": "gl",
+        "word": "foglia"
+      }
+    ]
+  },
+  "words": {
+    "animals/cat": "gatto",
+    "animals/duck": "anatra",
+    "animals/fish": "pesce",
+    "animals/owl": "gufo",
+    "animals/pig": "maiale",
+    "animals/sheep": "pecora",
+    "fruits/lemon": "limone",
+    "fruits/pear": "pera",
+    "fruits/apple": "mela",
+    "toys/boat": "barca",
+    "toys/doll": "bambola",
+    "toys/robot": "robot",
+    "toys/train": "treno",
+    "toys/kite": "aquilone",
+    "around the house/bed": "letto",
+    "around the house/chair": "sedia",
+    "around the house/cup": "tazza",
+    "around the house/lamp": "lampada",
+    "classroom/book": "libro",
+    "zoo animals/lion": "leone",
+    "pets/mouse": "topo",
+    "bakery/cake": "torta",
+    "weather/sun": "sole",
+    "weather/cloud": "nuvola",
+    "animals/horse": "cavallo",
+    "animals/zebra": "zebra",
+    "animals/tiger": "tigre"
+  },
+  "sentences": [
+    "Il gatto dorme sul letto.",
+    "Vedo un aquilone rosso.",
+    "Il mio cane corre veloce.",
+    "Ci piace leggere i libri.",
+    "Oggi il sole è caldo.",
+    "Luca gioca con la barca."
+  ],
+  "strings": {
+    "G2-377": {
+      "title": "Corsivo classe prima: le vocali a, e, i, o, u",
+      "instruction": "Ripassa le lettere grigie, poi scrivi tu ogni lettera legata fino alla fine della riga e sulla riga vuota qui sotto."
+    },
+    "G2-384": {
+      "title": "Corsivo maiuscolo classe seconda: scrivi i nomi",
+      "instruction": "Ripassa ogni lettera maiuscola grigia e il nome, poi scrivili sulla riga vuota qui sotto."
+    },
+    "G2-385": {
+      "title": "Corsivo classe prima: legare le lettere a due a due",
+      "instruction": "Ripassa ogni coppia di lettere grigie legate e la parola, poi scrivile sulla riga vuota qui sotto."
+    },
+    "G2-386": {
+      "title": "Parole in corsivo da scrivere con le figure",
+      "instruction": "Ripassa ogni parola grigia tutta legata, poi scrivila sulla riga qui sotto e aggiungi alla fine i puntini e i taglietti."
+    },
+    "G2-387": {
+      "title": "Leggere il corsivo: collega la parola alla figura",
+      "instruction": "Leggi ogni parola in corsivo e collegala con una linea alla sua figura."
+    },
+    "G3-401": {
+      "title": "Frasi in corsivo da ricopiare",
+      "instruction": "Prima ripassa la frase grigia, poi ricopia in corsivo ogni frase in stampato sulle due righe qui sotto."
+    }
+  }
+}

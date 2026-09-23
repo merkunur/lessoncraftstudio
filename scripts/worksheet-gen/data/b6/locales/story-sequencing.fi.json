@@ -1,0 +1,281 @@
+{
+  "words3": [
+    "Ensin",
+    "Sitten",
+    "Lopuksi"
+  ],
+  "openers4": [
+    "Ensin",
+    "Sitten",
+    "Seuraavaksi",
+    "Lopuksi"
+  ],
+  "starters4": [
+    "Ensin",
+    "Sitten",
+    "Seuraavaksi",
+    "Lopuksi"
+  ],
+  "bme": [
+    "Alku",
+    "Keskikohta",
+    "Loppu"
+  ],
+  "stories": {
+    "apple": {
+      "sentences": [
+        "Ensin omena on kokonainen.",
+        "Sitten omenassa on yksi haukkaus.",
+        "Seuraavaksi omenassa on kolme haukkausta.",
+        "Lopuksi omenasta on jäljellä vain kara."
+      ],
+      "stateWords": [
+        "kokonainen",
+        "yksi haukkaus",
+        "kolme haukkausta",
+        "kara"
+      ],
+      "helpWords": [
+        "omena",
+        "haukkaus",
+        "kara",
+        "varsi",
+        "lehti",
+        "lautanen"
+      ],
+      "helpIds": [
+        "apple",
+        "bite",
+        "core",
+        "stem",
+        "leaf",
+        "plate"
+      ]
+    },
+    "banana": {
+      "sentences": [
+        "Ensin banaani on vielä kuorimaton.",
+        "Sitten yksi kuoren liuska roikkuu alaspäin.",
+        "Seuraavaksi kolme liuskaa roikkuu alaspäin.",
+        "Lopuksi jäljellä on vain tyhjä kuori."
+      ],
+      "stateWords": [
+        "kuorimaton",
+        "yksi kuoren liuska",
+        "kolme liuskaa",
+        "tyhjä kuori"
+      ],
+      "helpWords": [
+        "banaani",
+        "kuori",
+        "liuska",
+        "lautanen"
+      ],
+      "helpIds": [
+        "banana",
+        "peel",
+        "strip",
+        "plate"
+      ]
+    },
+    "sandwich": {
+      "sentences": [
+        "Ensin pöydällä on kaksi leipäviipaletta.",
+        "Sitten toisen viipaleen päällä on hilloa.",
+        "Seuraavaksi voileipä on leikattu kahtia.",
+        "Lopuksi jäljellä on vain leivänkuorta ja muruja."
+      ],
+      "stateWords": [
+        "kaksi leipäviipaletta",
+        "hilloa",
+        "kahtia",
+        "muruja"
+      ],
+      "helpWords": [
+        "leipä",
+        "hillo",
+        "veitsi",
+        "voileipä",
+        "puolikas",
+        "murut"
+      ],
+      "helpIds": [
+        "bread",
+        "jam",
+        "knife",
+        "sandwich",
+        "half",
+        "crumb"
+      ]
+    },
+    "cake": {
+      "sentences": [
+        "Ensin kakku on kokonainen.",
+        "Sitten kakusta on leikattu yksi pala.",
+        "Seuraavaksi puolet kakusta on jo syöty.",
+        "Lopuksi jäljellä on vain muruja."
+      ],
+      "stateWords": [
+        "kokonainen",
+        "yksi pala",
+        "puolet",
+        "muruja"
+      ],
+      "helpWords": [
+        "kakku",
+        "pala",
+        "kynttilät",
+        "murut",
+        "kakkuvati"
+      ],
+      "helpIds": [
+        "cake",
+        "slice",
+        "candle",
+        "crumb",
+        "stand"
+      ]
+    },
+    "fence": {
+      "sentences": [
+        "Ensin aita on kokonaan valkoinen.",
+        "Sitten kaksi lautaa on maalattu.",
+        "Seuraavaksi neljä lautaa on maalattu.",
+        "Lopuksi koko aita on maalattu."
+      ],
+      "stateWords": [
+        "valkoinen",
+        "kaksi lautaa",
+        "neljä lautaa",
+        "koko aita"
+      ],
+      "helpWords": [
+        "aita",
+        "lauta",
+        "maali",
+        "sivellin",
+        "maalipurkki"
+      ],
+      "helpIds": [
+        "fence",
+        "plank",
+        "paint",
+        "brush",
+        "pot"
+      ]
+    },
+    "letter": {
+      "sentences": [
+        "Ensin kortti on tyhjä.",
+        "Sitten korttiin on piirretty kukka.",
+        "Seuraavaksi korttiin on kirjoitettu kolme riviä.",
+        "Lopuksi kortti on kirjekuoressa, jossa on postimerkki."
+      ],
+      "stateWords": [
+        "tyhjä",
+        "kukka",
+        "kolme riviä",
+        "postimerkki"
+      ],
+      "helpWords": [
+        "kortti",
+        "kukka",
+        "kynä",
+        "kirjekuori",
+        "postimerkki"
+      ],
+      "helpIds": [
+        "card",
+        "flower",
+        "pencil",
+        "envelope",
+        "stamp"
+      ]
+    },
+    "paper-chain": {
+      "sentences": [
+        "Ensin pöydällä on yksi paperiarkki.",
+        "Sitten arkki on leikattu viideksi suikaleeksi.",
+        "Seuraavaksi kaksi suikaletta on liimattu renkaiksi.",
+        "Lopuksi viisi rengasta muodostaa ketjun."
+      ],
+      "stateWords": [
+        "yksi paperiarkki",
+        "viideksi suikaleeksi",
+        "kaksi suikaletta",
+        "ketjun"
+      ],
+      "helpWords": [
+        "paperi",
+        "sakset",
+        "suikaleet",
+        "liima",
+        "renkaat",
+        "ketju"
+      ],
+      "helpIds": [
+        "paper",
+        "scissors",
+        "strip",
+        "glue",
+        "ring",
+        "chain"
+      ]
+    },
+    "beach-walk": {
+      "sentences": [
+        "Ensin hiekassa ei ole jalanjälkiä.",
+        "Sitten lapsi kävelee, ja hiekkaan jää kolme jalanjälkeä.",
+        "Seuraavaksi lapsi löytää simpukan.",
+        "Lopuksi lapsi on takaisin pyyhkeellä simpukka mukanaan."
+      ],
+      "stateWords": [
+        "ei ole jalanjälkiä",
+        "kolme jalanjälkeä",
+        "löytää simpukan",
+        "takaisin"
+      ],
+      "helpWords": [
+        "hiekka",
+        "pyyhe",
+        "simpukka",
+        "jalanjäljet",
+        "kävellä"
+      ],
+      "helpIds": [
+        "sand",
+        "towel",
+        "shell",
+        "footprint",
+        "walk"
+      ]
+    }
+  },
+  "excludeStories": [],
+  "strings": {
+    "base": {
+      "title": "Kuvasarja järjestykseen: numeroi kuvat",
+      "instruction": "Katso, mikä kussakin tarinassa muuttuu, ja kirjoita ruutuihin numerot niin, että kuvat ovat oikeassa järjestyksessä."
+    },
+    "first-next-last-cut": {
+      "title": "Kuvasarja leikattavaksi: ensin, sitten, lopuksi",
+      "instruction": "Leikkaa kuvat irti kaistaleista ja liimaa ne tyhjiin kehyksiin sanojen Ensin, Sitten ja Lopuksi yläpuolelle."
+    },
+    "what-happens-next": {
+      "title": "Kuvasarja: mitä tapahtuu seuraavaksi?",
+      "instruction": "Katso kunkin tarinan kolmea kuvaa ja ympyröi niiden alta kuva, joka kuuluu kysymysmerkin kehykseen."
+    },
+    "beginning-middle-end": {
+      "title": "Kuvakertomus: alku, keskikohta ja loppu",
+      "instruction": "Katso kunkin tarinan alkua ja loppua ja piirrä keskimmäiseen kehykseen, mitä niiden välissä tapahtuu."
+    },
+    "sequencing-sentences": {
+      "title": "Kuvasarja ja lauseet: yhdistä lause kuvaan",
+      "instruction": "Lue kunkin tarinan lauseet ja vedä viiva jokaisesta lauseesta sen kuvaan."
+    },
+    "retell-with-starters": {
+      "title": "Kuvasarja tarinan kirjoittamiseen aloitussanoilla",
+      "instruction": "Kirjoita kunkin kuvan viereisille viivoille, mitä kuvassa tapahtuu, ja aloita ensimmäisellä viivalla olevalla sanalla."
+    }
+  }
+}

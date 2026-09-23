@@ -1,0 +1,172 @@
+{
+  "refused": null,
+  "units": [
+    "fr-trad"
+  ],
+  "exemplar": "fr-trad",
+  "unitLabel": {
+    "fr-trad": "cursive"
+  },
+  "scriptName": {
+    "fr-trad": "Écriture cursive"
+  },
+  "ruling": {
+    "G1": "seyes",
+    "G2": "seyes",
+    "G3": "seyes"
+  },
+  "dashHelpers": false,
+  "xPx": {
+    "base": 16,
+    "capitals": 16,
+    "joins": 16,
+    "words": 16,
+    "read": 18,
+    "copy": 16
+  },
+  "levels": {
+    "base": "cp",
+    "capitals": "cp",
+    "joins": "cp",
+    "words": "cp",
+    "read": "cp",
+    "copy": "cp"
+  },
+  "lessons": {
+    "fr-trad": [
+      [
+        "i",
+        "u",
+        "t"
+      ],
+      [
+        "e",
+        "l",
+        "b",
+        "h",
+        "k",
+        "f"
+      ],
+      [
+        "c",
+        "o",
+        "a",
+        "d",
+        "g",
+        "q"
+      ],
+      [
+        "n",
+        "m",
+        "p",
+        "v",
+        "w"
+      ],
+      [
+        "r",
+        "s",
+        "x",
+        "y",
+        "z",
+        "j"
+      ]
+    ]
+  },
+  "joins": {
+    "fr-trad": [
+      {
+        "pair": "ou",
+        "word": "loup"
+      },
+      {
+        "pair": "on",
+        "word": "mouton"
+      },
+      {
+        "pair": "or",
+        "word": "porte"
+      },
+      {
+        "pair": "br",
+        "word": "arbre"
+      },
+      {
+        "pair": "oi",
+        "word": "poire"
+      },
+      {
+        "pair": "ch",
+        "word": "chat"
+      },
+      {
+        "pair": "bl",
+        "word": "table"
+      },
+      {
+        "pair": "va",
+        "word": "vache"
+      }
+    ]
+  },
+  "words": {
+    "animals/cat": "chat",
+    "animals/duck": "canard",
+    "animals/fish": "poisson",
+    "animals/owl": "hibou",
+    "animals/pig": "cochon",
+    "animals/sheep": "mouton",
+    "fruits/lemon": "citron",
+    "fruits/pear": "poire",
+    "fruits/apple": "pomme",
+    "toys/boat": "bateau",
+    "toys/doll": "poupée",
+    "toys/robot": "robot",
+    "toys/train": "train",
+    "around the house/bed": "lit",
+    "around the house/chair": "chaise",
+    "around the house/cup": "tasse",
+    "around the house/lamp": "lampe",
+    "classroom/book": "livre",
+    "zoo animals/lion": "lion",
+    "pets/mouse": "souris",
+    "bakery/cake": "gâteau",
+    "weather/sun": "soleil",
+    "weather/cloud": "nuage",
+    "animals/horse": "cheval",
+    "animals/zebra": "zèbre"
+  },
+  "sentences": [
+    "Le chat dort sur le lit.",
+    "Je vois un ballon rouge.",
+    "Mon chien court très vite.",
+    "Nous aimons les livres.",
+    "Le soleil brille ce matin.",
+    "Léo a un petit bateau."
+  ],
+  "strings": {
+    "G2-377": {
+      "title": "Écriture cursive : les lettres i, u et t",
+      "instruction": "Repasse les lettres grises, puis continue à écrire chaque lettre attachée, tout seul, jusqu'au bout de la ligne et sur la ligne vide."
+    },
+    "G2-384": {
+      "title": "Majuscules cursives : écrire les prénoms",
+      "instruction": "Repasse chaque majuscule grise et chaque prénom gris, puis écris-les sur la ligne vide en dessous."
+    },
+    "G2-385": {
+      "title": "Écriture cursive : attacher les lettres deux par deux",
+      "instruction": "Repasse chaque paire de lettres grises attachées et son mot, puis écris-les sur la ligne vide en dessous."
+    },
+    "G2-386": {
+      "title": "Écriture cursive : copier des mots avec des images",
+      "instruction": "Repasse chaque mot gris d'un seul trait, puis écris-le sur la ligne en dessous et ajoute les points, les barres et les accents à la fin."
+    },
+    "G2-387": {
+      "title": "Lire l'écriture cursive : relie le mot à son image",
+      "instruction": "Lis chaque mot écrit en cursive et relie-le à son image."
+    },
+    "G3-401": {
+      "title": "Écriture cursive : copier une phrase",
+      "instruction": "Repasse la phrase grise, puis copie en cursive chaque phrase écrite en script sur les deux lignes en dessous."
+    }
+  }
+}

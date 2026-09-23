@@ -418,5 +418,25 @@
   "word-parts": {
     "full": "Finde rodordet i en ordfamilie, se hvordan forstavelser og endelser bygger nye ord, og bruge ord for personer og ord fra samme familie i sætninger.",
     "short": "Rodord, forstavelser og endelser"
+  },
+  "story-sequencing": {
+    "full": "Sætte en billedserie i rækkefølge ud fra det, der ændrer sig, bruge først, så og til sidst, finde begyndelse, midte og slutning og genfortælle historien skriftligt.",
+    "short": "Billedserier: rækkefølge og genfortælling"
+  },
+  "healthy-habits": {
+    "full": "Vaske hænder og børste tænder på den rigtige måde, hoste og nyse i ærmet, forklare hvorfor vi gør det, og holde øje med gode vaner i et ugeskema.",
+    "short": "Hygiejne: håndvask, tandbørstning og gode vaner"
+  },
+  "habitats": {
+    "full": "Finde det rigtige levested til dyr i skov, eng, sø og hav, kende dyrenes boliger, forklare hvordan kroppen passer til stedet og skrive om et levested.",
+    "short": "Dyrs levesteder, boliger og tilpasninger"
+  },
+  "sink-or-float": {
+    "full": "Gætte om en ting flyder eller synker, afprøve det i et forsøg med vand, opdage at tungt ikke altid betyder synke, og skrive en lille forsøgsrapport.",
+    "short": "Flyde eller synke: gæt og afprøv"
+  },
+  "cursive-writing": {
+    "full": "Skrive små og store bogstaver i sammenhængende skrift, binde bogstaverne sammen, skrive og læse ord og skrive sætninger af fra trykte bogstaver.",
+    "short": "Sammenhængende skrift: bogstaver, ord og sætninger"
   }
 }

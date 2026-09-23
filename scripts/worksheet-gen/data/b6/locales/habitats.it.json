@@ -1,0 +1,246 @@
+{
+  "sets": {
+    "base": [
+      "forest",
+      "meadow",
+      "pond",
+      "ocean",
+      "polar",
+      "savanna",
+      "rainforest"
+    ]
+  },
+  "tileLabel": {
+    "ocean": "Mare",
+    "pond": "Stagno",
+    "forest": "Bosco",
+    "meadow": "Prato",
+    "polar": "Antartide",
+    "polar-arctic": "Artico",
+    "savanna": "Savana",
+    "rainforest": "Foresta pluviale"
+  },
+  "adapt": {
+    "camel-hump": "La sua gobba contiene grasso: così può restare a lungo senza mangiare nel deserto.",
+    "giraffe-neck": "Il suo collo lunghissimo arriva alle foglie in cima agli alberi.",
+    "elephant-trunk": "La sua lunga proboscide aspira l'acqua e afferra il cibo.",
+    "penguin-flippers": "Le sue ali sono pinne: nuota veloce nell'acqua gelida, ma non sa volare.",
+    "walrus-tusks": "Con le lunghe zanne tira fuori dall'acqua il suo corpo pesante.",
+    "woodpecker-beak": "Il suo becco forte e appuntito scava buchi nei tronchi degli alberi.",
+    "beaver-teeth": "Con i grandi denti davanti rosicchia gli alberi per costruire la sua casa nell'acqua.",
+    "whale-blowhole": "Respira l'aria da un foro che ha sopra la testa.",
+    "fish-gills": "Respira sott'acqua con le branchie.",
+    "duck-feet": "Le sue zampe palmate spingono l'acqua come due remi.",
+    "sloth-claws": "I suoi artigli lunghi e ricurvi lo tengono appeso ai rami per ore.",
+    "toucan-beak": "Il suo becco enorme coglie la frutta lontano, sui rami più sottili.",
+    "squirrel-tail": "La sua coda folta lo aiuta a stare in equilibrio quando salta da un ramo all'altro."
+  },
+  "names": {
+    "whale": [
+      "balena"
+    ],
+    "dolphin": [
+      "delfino"
+    ],
+    "octopus": [
+      "polpo",
+      "piovra"
+    ],
+    "starfish": [
+      "stella marina"
+    ],
+    "jellyfish": [
+      "medusa"
+    ],
+    "shark": [
+      "squalo",
+      "pescecane"
+    ],
+    "clownfish": [
+      "pesce pagliaccio",
+      "Nemo",
+      "pesce",
+      "pesciolino"
+    ],
+    "crab": [
+      "granchio"
+    ],
+    "ray": [
+      "razza",
+      "pastinaca"
+    ],
+    "seal-grey": [
+      "foca"
+    ],
+    "seal-white": [
+      "foca",
+      "cucciolo di foca",
+      "foca bianca"
+    ],
+    "walrus": [
+      "tricheco"
+    ],
+    "narwhal": [
+      "narvalo"
+    ],
+    "penguin": [
+      "pinguino"
+    ],
+    "deer": [
+      "cervo",
+      "cerbiatto",
+      "capriolo",
+      "Bambi"
+    ],
+    "squirrel": [
+      "scoiattolo"
+    ],
+    "woodpecker": [
+      "picchio"
+    ],
+    "badger": [
+      "tasso"
+    ],
+    "moose": [
+      "alce"
+    ],
+    "frog": [
+      "rana"
+    ],
+    "dragonfly": [
+      "libellula"
+    ],
+    "beaver": [
+      "castoro"
+    ],
+    "duck": [
+      "anatra",
+      "papera",
+      "paperella",
+      "anatroccolo",
+      "pulcino"
+    ],
+    "swan": [
+      "cigno"
+    ],
+    "butterfly": [
+      "farfalla"
+    ],
+    "bee": [
+      "ape"
+    ],
+    "grasshopper": [
+      "cavalletta",
+      "grillo"
+    ],
+    "ladybug": [
+      "coccinella"
+    ],
+    "lion": [
+      "leone"
+    ],
+    "zebra": [
+      "zebra"
+    ],
+    "giraffe": [
+      "giraffa"
+    ],
+    "elephant": [
+      "elefante"
+    ],
+    "rhinoceros": [
+      "rinoceronte"
+    ],
+    "ostrich": [
+      "struzzo"
+    ],
+    "monkey": [
+      "scimmia",
+      "scimmietta"
+    ],
+    "gorilla": [
+      "gorilla"
+    ],
+    "orangutan": [
+      "orangotango",
+      "scimmia"
+    ],
+    "sloth": [
+      "bradipo"
+    ],
+    "toucan": [
+      "tucano"
+    ],
+    "macaw": [
+      "ara",
+      "pappagallo"
+    ],
+    "camel": [
+      "cammello",
+      "dromedario"
+    ],
+    "bird": [
+      "uccello",
+      "uccellino"
+    ],
+    "spider": [
+      "ragno"
+    ],
+    "rabbit": [
+      "coniglio",
+      "coniglietto"
+    ],
+    "ant": [
+      "formica"
+    ]
+  },
+  "needs": {
+    "line": "Ogni animale ha bisogno di cibo, acqua e una casa.",
+    "foodHead": "Cibo",
+    "homeHead": "Casa"
+  },
+  "report": {
+    "animals": "Animali che vivono qui",
+    "plant": "Una pianta che cresce qui",
+    "hot": "caldo",
+    "cold": "freddo",
+    "wet": "umido",
+    "dry": "secco"
+  },
+  "homeWord": {
+    "nest": "nido",
+    "hive": "alveare",
+    "web": "ragnatela",
+    "burrow": "tana",
+    "anthill": "formicaio",
+    "lodge": "tana del castoro"
+  },
+  "refuse": [],
+  "refuseClaims": [],
+  "strings": {
+    "G1-398": {
+      "title": "Gli ambienti degli animali: chi vive dove?",
+      "instruction": "Sotto ogni animale, scrivi la lettera dell'ambiente in cui vive."
+    },
+    "K-383": {
+      "title": "Le case degli animali: nido, tana e alveare",
+      "instruction": "Collega con una linea ogni animale alla sua casa."
+    },
+    "G1-406": {
+      "title": "Gli ambienti degli animali: trova l'intruso",
+      "instruction": "In ogni riga, barra con una X l'animale che non vive in quell'ambiente."
+    },
+    "G2-380": {
+      "title": "L'adattamento degli animali all'ambiente",
+      "instruction": "Scrivi nel riquadro di ogni frase la lettera dell'animale di cui parla."
+    },
+    "G1-407": {
+      "title": "Di che cosa hanno bisogno gli animali per vivere?",
+      "instruction": "Per ogni animale, cerchia il cibo che mangia e la casa in cui vive."
+    },
+    "G2-381": {
+      "title": "La mia ricerca su un ambiente: animali e piante",
+      "instruction": "Disegna tre animali che vivono in questo ambiente, scrivi i loro nomi e una pianta che cresce lì, e cerchia la parola giusta in ogni coppia."
+    }
+  }
+}

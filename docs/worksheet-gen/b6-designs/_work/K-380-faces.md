@@ -259,3 +259,18 @@ The pajama child was about half the height of the other four. The night sky had 
 - `scripts/worksheet-gen/out/dev/K-380-null-d2-en.png`
 - `scripts/worksheet-gen/out/dev/K-380-null-d3-en.png`
 - `scripts/worksheet-gen/out/dev/K-380-gate/K-380-d2-greyscale.png`
+
+### Fix round 1c — short words glued in the G1-405 row labels (pt generation, 2026-09-23)
+The pt label "lavar as mãos" left "as" at the end of line 1. The balanced-wrap gate caught it at generation.
+
+**Fixed in the component, not per locale.** `glueShortWords()` in `templates/components-b6/healthy-habits.js` wraps every word of 3 letters or fewer, together with the word after it, in a `white-space:nowrap` span. It does this in the RENDERED markup only. The bank and strings keep plain spaces and no U+00A0, so there is nothing to normalise in any page-vs-bank check: `innerText` reads the same words and spaces. Balanced wrapping then evens the lines.
+- verify() now walks every text node of a label, because labels now contain the glue spans.
+- The long-label control includes pt "lavar as mãos".
+- **Poison LW1** now removes BOTH the glue and the balanced wrap, and is killed.
+
+**Gate lines**
+- G1-405 d2 renders in all 11 locales (en, de, es, pt, fr, it, nl, sv, da, no, fi): lints clean, verify clean.
+- I read pt ("lavar / as mãos", "escovar / os dentes", "mexer / o corpo"), fr ("se laver / les mains", "boire / de l'eau"), it ("lavarsi / le mani", "lavarsi / i denti") and es ("lavarse / las manos", "cepillarse / los dientes").
+- `qa/verify-b6-healthy-habits.js` (full) → **PASS (2670 assertions, 57/57 poisons killed)**
+- `gate-variation-distinct --batch=b6 --diffs=2 --family=healthy-habits` → every variation differs from the deck its base publishes and from its siblings
+- `b3-baseline --check --quick` → `checked build 4000 + enum 321 in 21s: 0 drifted (0 expected), 0 missing` PASS

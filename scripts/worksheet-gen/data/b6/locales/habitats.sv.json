@@ -1,0 +1,262 @@
+{
+  "sets": {
+    "base": [
+      "forest",
+      "meadow",
+      "pond",
+      "ocean"
+    ]
+  },
+  "tileLabel": {
+    "forest": "Skog",
+    "meadow": "Äng",
+    "pond": "Sjö",
+    "ocean": "Hav",
+    "polar": "Polarisen",
+    "polar-arctic": "Arktis",
+    "savanna": "Savann",
+    "rainforest": "Regnskog"
+  },
+  "adapt": {
+    "camel-hump": "Puckeln lagrar fett, så att den klarar sig länge utan mat.",
+    "giraffe-neck": "Den långa halsen når löven högt upp i träden.",
+    "elephant-trunk": "Den långa snabeln suger upp vatten och plockar upp mat.",
+    "penguin-flippers": "Vingarna är fenor: den simmar snabbt men kan inte flyga.",
+    "walrus-tusks": "Med sina långa betar drar den upp sin tunga kropp ur vattnet.",
+    "woodpecker-beak": "Den starka, vassa näbben hackar hål i trädstammar.",
+    "beaver-teeth": "Med sina stora framtänder gnager den ner träd och bygger sitt hem i vattnet.",
+    "whale-blowhole": "Den andas luft genom ett hål uppe på huvudet.",
+    "fish-gills": "Den andas under vattnet med gälar.",
+    "duck-feet": "Fötterna har simhud och trycker undan vattnet som åror.",
+    "sloth-claws": "De långa, böjda klorna gör att den kan hänga i grenarna i flera timmar.",
+    "toucan-beak": "Den jättestora näbben plockar frukt långt ut på tunna grenar.",
+    "squirrel-tail": "Den yviga svansen hjälper den att hålla balansen när den hoppar från gren till gren."
+  },
+  "names": {
+    "whale": [
+      "val",
+      "blåval"
+    ],
+    "dolphin": [
+      "delfin"
+    ],
+    "octopus": [
+      "bläckfisk"
+    ],
+    "starfish": [
+      "sjöstjärna"
+    ],
+    "jellyfish": [
+      "manet"
+    ],
+    "shark": [
+      "haj"
+    ],
+    "clownfish": [
+      "clownfisk",
+      "fisk",
+      "nemo"
+    ],
+    "crab": [
+      "krabba"
+    ],
+    "ray": [
+      "rocka"
+    ],
+    "seal-grey": [
+      "säl"
+    ],
+    "seal-white": [
+      "säl",
+      "sälunge"
+    ],
+    "walrus": [
+      "valross"
+    ],
+    "narwhal": [
+      "narval"
+    ],
+    "penguin": [
+      "pingvin"
+    ],
+    "deer": [
+      "rådjur",
+      "rådjurskid",
+      "kid",
+      "hjort",
+      "bambi"
+    ],
+    "squirrel": [
+      "ekorre"
+    ],
+    "woodpecker": [
+      "hackspett"
+    ],
+    "badger": [
+      "grävling"
+    ],
+    "moose": [
+      "älg"
+    ],
+    "frog": [
+      "groda"
+    ],
+    "dragonfly": [
+      "trollslända"
+    ],
+    "beaver": [
+      "bäver"
+    ],
+    "duck": [
+      "anka",
+      "ankunge",
+      "and",
+      "kyckling"
+    ],
+    "swan": [
+      "svan"
+    ],
+    "heron": [
+      "häger",
+      "stork"
+    ],
+    "butterfly": [
+      "fjäril"
+    ],
+    "bee": [
+      "bi",
+      "humla"
+    ],
+    "grasshopper": [
+      "gräshoppa"
+    ],
+    "ladybug": [
+      "nyckelpiga"
+    ],
+    "lion": [
+      "lejon"
+    ],
+    "zebra": [
+      "zebra"
+    ],
+    "giraffe": [
+      "giraff"
+    ],
+    "elephant": [
+      "elefant"
+    ],
+    "rhinoceros": [
+      "noshörning"
+    ],
+    "ostrich": [
+      "struts"
+    ],
+    "monkey": [
+      "apa"
+    ],
+    "gorilla": [
+      "gorilla"
+    ],
+    "orangutan": [
+      "orangutang",
+      "apa"
+    ],
+    "sloth": [
+      "sengångare"
+    ],
+    "toucan": [
+      "tukan"
+    ],
+    "macaw": [
+      "ara",
+      "papegoja"
+    ],
+    "camel": [
+      "kamel",
+      "dromedar"
+    ],
+    "bird": [
+      "fågel"
+    ],
+    "spider": [
+      "spindel"
+    ],
+    "rabbit": [
+      "kanin",
+      "hare"
+    ],
+    "ant": [
+      "myra"
+    ]
+  },
+  "needs": {
+    "line": "Alla djur behöver mat, vatten och ett hem.",
+    "foodHead": "Mat",
+    "homeHead": "Hem"
+  },
+  "report": {
+    "animals": "Djur som bor här",
+    "plant": "En växt som växer här",
+    "hot": "varmt",
+    "cold": "kallt",
+    "wet": "blött",
+    "dry": "torrt"
+  },
+  "homeWord": {
+    "nest": "fågelbo",
+    "hive": "bibo",
+    "web": "spindelnät",
+    "burrow": "håla",
+    "anthill": "myrstack",
+    "lodge": "bäverhydda"
+  },
+  "refuse": [],
+  "refuseClaims": [],
+  "strings": {
+    "G1-398": {
+      "title": "Djurens livsmiljöer: skog, äng, sjö och hav",
+      "instruction": "Skriv under varje djur bokstaven för den livsmiljö där det bor."
+    },
+    "K-383": {
+      "title": "Djurens bon: fågelbo, spindelnät och myrstack",
+      "instruction": "Dra ett streck från varje djur till dess hem."
+    },
+    "G1-406": {
+      "title": "Livsmiljöer: vilket djur bor inte här?",
+      "instruction": "Kryssa i varje rad över djuret som inte bor i den livsmiljön."
+    },
+    "G2-380": {
+      "title": "Djurens anpassningar till livsmiljön",
+      "instruction": "Skriv bokstaven för djuret som varje mening handlar om i meningens ruta."
+    },
+    "G1-407": {
+      "title": "Vad behöver djuren för att leva?",
+      "instruction": "Ringa in maten som varje djur äter och hemmet som det bor i."
+    },
+    "G2-381": {
+      "title": "Livsmiljörapport: djur och växter vid sjön",
+      "instruction": "Rita tre djur som bor i den här livsmiljön, skriv deras namn och en växt som växer där, och ringa in rätt ord i varje par."
+    }
+  },
+  "placeWords": [
+    "öken",
+    "öknen",
+    "havet",
+    "hav",
+    "isen",
+    "sjön",
+    "sjö",
+    "skogen",
+    "skog",
+    "ängen",
+    "äng",
+    "savannen",
+    "savann",
+    "regnskogen",
+    "djungeln",
+    "arktis",
+    "antarktis",
+    "dammen",
+    "damm"
+  ]
+}

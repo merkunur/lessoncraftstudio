@@ -2834,5 +2834,101 @@
   "G3-399": {
     "title": "Släktord i meningar",
     "instruction": "Skriv vart och ett av de fyra orden i rutorna i den mening där det passar."
+  },
+  "K-379": {
+    "title": "Bildserie: numrera bilderna",
+    "instruction": "Titta på vad som ändras i varje berättelse och skriv siffrorna i rutorna så att bilderna kommer i rätt ordning."
+  },
+  "K-380": {
+    "title": "Hygien och goda vanor: vad behöver barnen?",
+    "instruction": "Dra ett streck från varje barn till det som barnet behöver."
+  },
+  "G1-398": {
+    "title": "Djurens livsmiljöer: skog, äng, sjö och hav",
+    "instruction": "Skriv under varje djur bokstaven för den livsmiljö där det bor."
+  },
+  "G1-399": {
+    "title": "Flyta eller sjunka? Gissa och testa i ett experiment",
+    "instruction": "Färglägg en ring i det första karet före testet, en ring i det andra karet efter testet och stjärnan om du blev förvånad."
+  },
+  "K-381": {
+    "title": "Bildserie att klippa ut: först, sedan, till sist",
+    "instruction": "Klipp ut bilderna på varje remsa och klistra dem i de tomma ramarna ovanför Först, Sedan och Till sist."
+  },
+  "G1-400": {
+    "title": "Bildserie: vad händer sedan?",
+    "instruction": "Titta på de tre bilderna i varje berättelse och ringa in bilden nedanför dem som hör hemma i ramen med frågetecknet."
+  },
+  "G1-401": {
+    "title": "Bildberättelse: början, mitten och slutet",
+    "instruction": "Titta på början och slutet av varje berättelse och rita det som händer i mitten i den tomma ramen."
+  },
+  "G1-402": {
+    "title": "Bildserie: para ihop meningarna med bilderna",
+    "instruction": "Läs meningarna i varje berättelse och dra ett streck från varje mening till rätt bild."
+  },
+  "G2-378": {
+    "title": "Bildserie att skriva till med ordstöd",
+    "instruction": "Skriv på raderna vad som händer på varje bild och börja med ordet som står på den första raden."
+  },
+  "K-382": {
+    "title": "Tvätta händerna med bildstöd",
+    "instruction": "Skriv 1 till 5 i rutorna och visa hur vi tvättar händerna."
+  },
+  "G1-403": {
+    "title": "Borsta tänderna: före, under och efter",
+    "instruction": "Ringa in ordet som visar när det händer: före, under eller efter tandborstningen."
+  },
+  "G1-404": {
+    "title": "Nysa och hosta i armvecket: stoppa bakterierna",
+    "instruction": "Ringa in bilden i varje rad som stoppar bakterierna från att spridas."
+  },
+  "G2-379": {
+    "title": "Goda vanor: varför gör vi så?",
+    "instruction": "Dra ett streck från varje vana till meningen som berättar varför vi gör så."
+  },
+  "G1-405": {
+    "title": "Veckoschema för goda vanor",
+    "instruction": "Sätt varje dag en bock i rutan för varje vana som du har gjort."
+  },
+  "K-383": {
+    "title": "Djurens bon: fågelbo, spindelnät och myrstack",
+    "instruction": "Dra ett streck från varje djur till dess hem."
+  },
+  "G1-406": {
+    "title": "Livsmiljöer: vilket djur bor inte här?",
+    "instruction": "Kryssa i varje rad över djuret som inte bor i den livsmiljön."
+  },
+  "G2-380": {
+    "title": "Djurens anpassningar till livsmiljön",
+    "instruction": "Skriv bokstaven för djuret som varje mening handlar om i meningens ruta."
+  },
+  "G1-407": {
+    "title": "Vad behöver djuren för att leva?",
+    "instruction": "Ringa in maten som varje djur äter och hemmet som det bor i."
+  },
+  "G2-381": {
+    "title": "Livsmiljörapport: djur och växter vid sjön",
+    "instruction": "Rita tre djur som bor i den här livsmiljön, skriv deras namn och en växt som växer där, och ringa in rätt ord i varje par."
+  },
+  "G1-408": {
+    "title": "Tungt eller lätt? Experiment med våg: flyta eller sjunka",
+    "instruction": "Vågen visar vilken sak som är tyngre: ringa in den sak som flyter i vatten."
+  },
+  "G2-382": {
+    "title": "Kan lera flyta? Experiment med formen",
+    "instruction": "Färglägg ringen där varje lerform hamnar i karet, ringa in den sak som flyter och rita sedan en egen lerbåt i det stora karet."
+  },
+  "G2-383": {
+    "title": "Varför flyter saker? Sant eller falskt efter experimentet",
+    "instruction": "Läs varje mening och ringa in sant eller falskt."
+  },
+  "K-384": {
+    "title": "Flyta eller sjunka: rita experimentet",
+    "instruction": "Rita två saker som flyter i de streckade rutorna på vattnet och två som sjunker i de streckade rutorna på botten."
+  },
+  "G3-400": {
+    "title": "Min experimentrapport: flyta eller sjunka",
+    "instruction": "Välj en fråga, skriv vad du tror, testa, rita sedan vad som hände och skriv vad du lärde dig."
   }
 }

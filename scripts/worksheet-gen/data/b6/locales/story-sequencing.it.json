@@ -1,0 +1,281 @@
+{
+  "words3": [
+    "Prima",
+    "Dopo",
+    "Infine"
+  ],
+  "openers4": [
+    "Prima",
+    "Poi",
+    "Dopo",
+    "Infine"
+  ],
+  "starters4": [
+    "All'inizio",
+    "Poi",
+    "Dopo",
+    "Alla fine"
+  ],
+  "bme": [
+    "Inizio",
+    "Svolgimento",
+    "Conclusione"
+  ],
+  "stories": {
+    "apple": {
+      "sentences": [
+        "Prima la mela è intera.",
+        "Poi la mela ha un morso.",
+        "Dopo la mela ha tre morsi.",
+        "Infine resta solo il torsolo."
+      ],
+      "stateWords": [
+        "intera",
+        "un morso",
+        "tre morsi",
+        "torsolo"
+      ],
+      "helpWords": [
+        "mela",
+        "morso",
+        "torsolo",
+        "picciolo",
+        "foglia",
+        "piatto"
+      ],
+      "helpIds": [
+        "apple",
+        "bite",
+        "core",
+        "stem",
+        "leaf",
+        "plate"
+      ]
+    },
+    "banana": {
+      "sentences": [
+        "Prima la banana non è sbucciata.",
+        "Poi pende giù una striscia di buccia.",
+        "Dopo pendono giù tre strisce.",
+        "Infine resta solo la buccia vuota."
+      ],
+      "stateWords": [
+        "non è sbucciata",
+        "una striscia",
+        "tre strisce",
+        "buccia vuota"
+      ],
+      "helpWords": [
+        "banana",
+        "buccia",
+        "striscia",
+        "piatto"
+      ],
+      "helpIds": [
+        "banana",
+        "peel",
+        "strip",
+        "plate"
+      ]
+    },
+    "sandwich": {
+      "sentences": [
+        "Prima ci sono due fette di pane.",
+        "Poi su una fetta c'è la marmellata.",
+        "Dopo il pane è tagliato a metà.",
+        "Infine restano solo una crosta e le briciole."
+      ],
+      "stateWords": [
+        "due fette",
+        "marmellata",
+        "a metà",
+        "briciole"
+      ],
+      "helpWords": [
+        "pane",
+        "fetta",
+        "marmellata",
+        "coltello",
+        "metà",
+        "crosta"
+      ],
+      "helpIds": [
+        "bread",
+        "slice",
+        "jam",
+        "knife",
+        "half",
+        "crust"
+      ]
+    },
+    "cake": {
+      "sentences": [
+        "Prima la torta è intera.",
+        "Poi viene tagliata una fetta.",
+        "Dopo metà della torta non c'è più.",
+        "Infine restano solo le briciole."
+      ],
+      "stateWords": [
+        "intera",
+        "una fetta",
+        "metà",
+        "briciole"
+      ],
+      "helpWords": [
+        "torta",
+        "fetta",
+        "candeline",
+        "briciole",
+        "alzatina"
+      ],
+      "helpIds": [
+        "cake",
+        "slice",
+        "candle",
+        "crumb",
+        "stand"
+      ]
+    },
+    "fence": {
+      "sentences": [
+        "Prima la staccionata è tutta bianca.",
+        "Poi due assi sono dipinte.",
+        "Dopo sono dipinte quattro assi.",
+        "Infine tutta la staccionata è dipinta."
+      ],
+      "stateWords": [
+        "tutta bianca",
+        "due assi",
+        "quattro assi",
+        "tutta la staccionata"
+      ],
+      "helpWords": [
+        "staccionata",
+        "asse",
+        "vernice",
+        "pennello",
+        "barattolo"
+      ],
+      "helpIds": [
+        "fence",
+        "plank",
+        "paint",
+        "brush",
+        "pot"
+      ]
+    },
+    "letter": {
+      "sentences": [
+        "Prima il biglietto è vuoto.",
+        "Poi sul biglietto è disegnato un fiore.",
+        "Dopo si aggiungono tre righe di scrittura.",
+        "Infine il biglietto è nella busta con il francobollo."
+      ],
+      "stateWords": [
+        "vuoto",
+        "un fiore",
+        "tre righe",
+        "francobollo"
+      ],
+      "helpWords": [
+        "biglietto",
+        "fiore",
+        "matita",
+        "busta",
+        "francobollo"
+      ],
+      "helpIds": [
+        "card",
+        "flower",
+        "pencil",
+        "envelope",
+        "stamp"
+      ]
+    },
+    "paper-chain": {
+      "sentences": [
+        "Prima c'è un foglio di carta.",
+        "Poi il foglio è tagliato in cinque strisce.",
+        "Dopo due strisce sono incollate ad anello.",
+        "Infine cinque anelli formano una catena."
+      ],
+      "stateWords": [
+        "un foglio",
+        "cinque strisce",
+        "due strisce",
+        "catena"
+      ],
+      "helpWords": [
+        "carta",
+        "forbici",
+        "strisce",
+        "colla",
+        "anelli",
+        "catena"
+      ],
+      "helpIds": [
+        "paper",
+        "scissors",
+        "strip",
+        "glue",
+        "ring",
+        "chain"
+      ]
+    },
+    "beach-walk": {
+      "sentences": [
+        "Prima sulla sabbia non ci sono impronte.",
+        "Poi un bambino cammina e lascia tre impronte.",
+        "Dopo il bambino trova una conchiglia.",
+        "Infine il bambino torna all'asciugamano con la conchiglia."
+      ],
+      "stateWords": [
+        "non ci sono impronte",
+        "tre impronte",
+        "trova una conchiglia",
+        "torna"
+      ],
+      "helpWords": [
+        "sabbia",
+        "asciugamano",
+        "conchiglia",
+        "impronte",
+        "passeggiata"
+      ],
+      "helpIds": [
+        "sand",
+        "towel",
+        "shell",
+        "footprint",
+        "walk"
+      ]
+    }
+  },
+  "excludeStories": [],
+  "strings": {
+    "base": {
+      "title": "Storie in sequenza: numera le vignette",
+      "instruction": "Guarda che cosa cambia in ogni storia e scrivi i numeri nei riquadri per mettere le vignette in ordine."
+    },
+    "first-next-last-cut": {
+      "title": "Storie in sequenza da ritagliare: prima, dopo, infine",
+      "instruction": "Ritaglia le vignette di ogni striscia e incollale nelle cornici vuote sopra Prima, Dopo e Infine."
+    },
+    "what-happens-next": {
+      "title": "Storie in sequenza: che cosa succede dopo?",
+      "instruction": "Guarda le tre vignette di ogni storia e cerchia, tra quelle qui sotto, la vignetta che va nella cornice con il punto di domanda."
+    },
+    "beginning-middle-end": {
+      "title": "Inizio, svolgimento e conclusione di una storia",
+      "instruction": "Guarda l'inizio e la conclusione di ogni storia e disegna nel riquadro centrale che cosa succede nello svolgimento."
+    },
+    "sequencing-sentences": {
+      "title": "Storie in sequenza: collega le frasi alle vignette",
+      "instruction": "Leggi le frasi di ogni storia e collega con una linea ogni frase alla sua vignetta."
+    },
+    "retell-with-starters": {
+      "title": "Sequenze di immagini per raccontare una storia",
+      "instruction": "Scrivi sulle righe che cosa succede in ogni vignetta, cominciando con la parola già scritta sulla prima riga."
+    }
+  }
+}

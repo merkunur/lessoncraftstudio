@@ -1,0 +1,268 @@
+{
+  "sets": {
+    "base": [
+      "forest",
+      "meadow",
+      "pond",
+      "ocean"
+    ]
+  },
+  "tileLabel": {
+    "ocean": "Meri",
+    "pond": "Järvi",
+    "forest": "Metsä",
+    "meadow": "Niitty",
+    "polar": "Etelämanner",
+    "polar-arctic": "Arktis",
+    "savanna": "Savanni",
+    "rainforest": "Sademetsä"
+  },
+  "adapt": {
+    "camel-hump": "Sen kyttyrässä on rasvaa, joten se jaksaa pitkään ilman ruokaa.",
+    "giraffe-neck": "Sen pitkä kaula ylettyy puiden korkealla kasvaviin lehtiin.",
+    "elephant-trunk": "Sen pitkä kärsä imee vettä ja poimii ruokaa.",
+    "penguin-flippers": "Sen siivet ovat evät: se ui nopeasti, mutta ei osaa lentää.",
+    "walrus-tusks": "Se vetää painavan ruumiinsa pois vedestä pitkien syöksyhampaidensa avulla.",
+    "woodpecker-beak": "Sen vahva ja terävä nokka hakkaa reikiä puunrunkoihin.",
+    "beaver-teeth": "Sen isot etuhampaat kaatavat puita, joista se rakentaa kotinsa veteen.",
+    "whale-blowhole": "Se hengittää ilmaa pään päällä olevan reiän kautta.",
+    "fish-gills": "Se hengittää veden alla kiduksillaan.",
+    "duck-feet": "Sen räpyläjalat työntävät vettä kuin melat.",
+    "sloth-claws": "Sen pitkillä, käyrillä kynsillä se roikkuu oksilla pitkään.",
+    "toucan-beak": "Sen valtava nokka poimii hedelmiä kaukaa ohuiden oksien päistä.",
+    "squirrel-tail": "Sen tuuhea häntä auttaa pitämään tasapainon, kun se hyppää oksalta toiselle."
+  },
+  "names": {
+    "whale": [
+      "valas"
+    ],
+    "dolphin": [
+      "delfiini"
+    ],
+    "octopus": [
+      "mustekala",
+      "tursas"
+    ],
+    "starfish": [
+      "meritähti"
+    ],
+    "jellyfish": [
+      "meduusa",
+      "maneetti"
+    ],
+    "shark": [
+      "hai"
+    ],
+    "clownfish": [
+      "vuokkokala",
+      "klovnikala",
+      "kala"
+    ],
+    "crab": [
+      "rapu",
+      "taskurapu"
+    ],
+    "ray": [
+      "rausku"
+    ],
+    "seal-grey": [
+      "hylje",
+      "norppa"
+    ],
+    "seal-white": [
+      "kuutti",
+      "hylkeenpoikanen",
+      "hylje"
+    ],
+    "walrus": [
+      "mursu"
+    ],
+    "narwhal": [
+      "sarvivalas"
+    ],
+    "penguin": [
+      "pingviini"
+    ],
+    "deer": [
+      "peura",
+      "kauris",
+      "bambi"
+    ],
+    "squirrel": [
+      "orava"
+    ],
+    "woodpecker": [
+      "tikka"
+    ],
+    "badger": [
+      "mäyrä"
+    ],
+    "moose": [
+      "hirvi"
+    ],
+    "frog": [
+      "sammakko"
+    ],
+    "dragonfly": [
+      "sudenkorento"
+    ],
+    "beaver": [
+      "majava"
+    ],
+    "duck": [
+      "sorsa",
+      "ankka",
+      "ankanpoikanen",
+      "tipu"
+    ],
+    "swan": [
+      "joutsen"
+    ],
+    "butterfly": [
+      "perhonen"
+    ],
+    "bee": [
+      "mehiläinen"
+    ],
+    "grasshopper": [
+      "heinäsirkka"
+    ],
+    "ladybug": [
+      "leppäkerttu"
+    ],
+    "lion": [
+      "leijona"
+    ],
+    "zebra": [
+      "seepra"
+    ],
+    "giraffe": [
+      "kirahvi"
+    ],
+    "elephant": [
+      "norsu",
+      "elefantti"
+    ],
+    "rhinoceros": [
+      "sarvikuono"
+    ],
+    "ostrich": [
+      "strutsi"
+    ],
+    "monkey": [
+      "apina"
+    ],
+    "gorilla": [
+      "gorilla"
+    ],
+    "orangutan": [
+      "oranki",
+      "apina"
+    ],
+    "sloth": [
+      "laiskiainen"
+    ],
+    "toucan": [
+      "tukaani"
+    ],
+    "macaw": [
+      "ara",
+      "papukaija"
+    ],
+    "camel": [
+      "kameli",
+      "dromedaari"
+    ],
+    "bird": [
+      "lintu"
+    ],
+    "spider": [
+      "hämähäkki"
+    ],
+    "rabbit": [
+      "kani",
+      "jänis",
+      "pupu"
+    ],
+    "ant": [
+      "muurahainen"
+    ]
+  },
+  "needs": {
+    "line": "Jokainen eläin tarvitsee ruokaa, vettä ja kodin.",
+    "foodHead": "Ruoka",
+    "homeHead": "Koti"
+  },
+  "report": {
+    "animals": "Eläimiä, jotka elävät täällä",
+    "plant": "Kasvi, joka kasvaa täällä",
+    "hot": "kuuma",
+    "cold": "kylmä",
+    "wet": "märkä",
+    "dry": "kuiva"
+  },
+  "homeWord": {
+    "nest": "linnunpesä",
+    "hive": "mehiläispesä",
+    "web": "hämähäkinseitti",
+    "burrow": "kolo",
+    "anthill": "muurahaiskeko",
+    "lodge": "majavanpesä"
+  },
+  "placeWords": [
+    "meri",
+    "meressä",
+    "merellä",
+    "mereen",
+    "järvi",
+    "järvessä",
+    "järvellä",
+    "metsä",
+    "metsässä",
+    "niitty",
+    "niityllä",
+    "aavikko",
+    "aavikolla",
+    "jää",
+    "jäällä",
+    "jäälle",
+    "jäisessä",
+    "arktis",
+    "savanni",
+    "savannilla",
+    "sademetsä",
+    "sademetsässä",
+    "viidakko",
+    "viidakossa",
+    "lampi",
+    "lammessa"
+  ],
+  "refuse": [],
+  "refuseClaims": [],
+  "strings": {
+    "G1-398": {
+      "title": "Eläinten elinympäristöt: metsä, niitty, järvi ja meri",
+      "instruction": "Kirjoita jokaisen eläimen alle sen elinympäristön kirjain, jossa se elää."
+    },
+    "K-383": {
+      "title": "Eläinten pesät ja kodit: kuka asuu missäkin?",
+      "instruction": "Vedä viiva jokaisesta eläimestä sen kotiin."
+    },
+    "G1-406": {
+      "title": "Eläinten elinympäristöt: kuka ei asu täällä?",
+      "instruction": "Piirrä joka rivillä rasti sen eläimen päälle, joka ei elä siinä elinympäristössä."
+    },
+    "G2-380": {
+      "title": "Eläinten sopeutuminen elinympäristöön",
+      "instruction": "Kirjoita jokaisen lauseen ruutuun sen eläimen kirjain, josta lause kertoo."
+    },
+    "G1-407": {
+      "title": "Mitä eläimet tarvitsevat? Ruoka ja koti",
+      "instruction": "Ympyröi jokaisen eläimen kohdalta ruoka, jota se syö, ja koti, jossa se asuu."
+    },
+    "G2-381": {
+      "title": "Oma elinympäristöni: tutki ja piirrä",
+      "instruction": "Piirrä kolme eläintä, jotka elävät tässä elinympäristössä, kirjoita niiden nimet ja siellä kasvava kasvi ja ympyröi jokaisesta sanaparista oikea sana."
+    }
+  }
+}

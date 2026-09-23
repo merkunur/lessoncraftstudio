@@ -1,0 +1,113 @@
+{
+  "strings": {
+    "base": {
+      "title": "Hygiène corporelle : de quoi a-t-on besoin ?",
+      "instruction": "Relie chaque enfant à l'objet dont il a besoin."
+    },
+    "hand-washing-steps": {
+      "title": "Comment se laver les mains ?",
+      "instruction": "Écris de 1 à 5 dans les cases pour montrer comment on se lave les mains."
+    },
+    "brushing-teeth": {
+      "title": "Se brosser les dents : avant, pendant, après",
+      "instruction": "Pour chaque image, entoure le mot qui dit quand cela se passe : avant, pendant ou après le brossage."
+    },
+    "stop-the-germs": {
+      "title": "Stop aux microbes : je tousse dans mon coude",
+      "instruction": "Dans chaque rangée, entoure l'image qui empêche les microbes de se propager."
+    },
+    "why-habits": {
+      "title": "Hygiène de vie : pourquoi ces bonnes habitudes ?",
+      "instruction": "Relie chaque bonne habitude à la phrase qui dit pourquoi on le fait."
+    },
+    "habit-chart": {
+      "title": "Tableau de la semaine : mes bonnes habitudes",
+      "instruction": "Chaque jour, coche la case de chaque habitude que tu as faite."
+    }
+  },
+  "phases": {
+    "before": "avant",
+    "during": "pendant",
+    "after": "après"
+  },
+  "labels": {
+    "wash-hands": "se laver les mains",
+    "brush-teeth": "se brosser les dents",
+    "sleep": "dormir",
+    "move-body": "bouger",
+    "drink-water": "boire de l'eau",
+    "sun-protect": "se protéger du soleil",
+    "blow-nose": "se moucher",
+    "comb-hair": "se coiffer"
+  },
+  "labelStems": {
+    "wash-hands": [
+      "laver",
+      "lave",
+      "lavons",
+      "lavage",
+      "main",
+      "mains",
+      "savon"
+    ],
+    "brush-teeth": [
+      "brosser",
+      "brosse",
+      "brossons",
+      "brossage",
+      "dent",
+      "dents",
+      "dentifrice"
+    ],
+    "sleep": [
+      "dormir",
+      "dort",
+      "dormons",
+      "sommeil",
+      "lit",
+      "nuit"
+    ],
+    "move-body": [
+      "bouger",
+      "bouge",
+      "bougeons",
+      "courir",
+      "jouer",
+      "sport"
+    ],
+    "sun-protect": [
+      "soleil",
+      "chapeau",
+      "casquette",
+      "crème"
+    ],
+    "drink-water": [
+      "boire",
+      "buvons",
+      "eau",
+      "verre"
+    ],
+    "blow-nose": [
+      "moucher",
+      "mouche",
+      "mouchoir"
+    ],
+    "comb-hair": [
+      "coiffer",
+      "peigne",
+      "cheveux"
+    ]
+  },
+  "reasons": {
+    "wash-hands": "Cela enlève les microbes de tout ce que nous avons touché.",
+    "brush-teeth": "Cela garde notre sourire propre et brillant.",
+    "sleep": "Notre corps et notre cerveau se reposent pour une nouvelle journée.",
+    "move-body": "Cela nous rend agiles, rapides et forts.",
+    "sun-protect": "Nous ne brûlons pas les jours de grande chaleur.",
+    "drink-water": "Notre corps en a besoin pour bien fonctionner.",
+    "blow-nose": "Nous pouvons de nouveau bien respirer."
+  },
+  "kaiOrder": false,
+  "coughPhrase": "dans le coude",
+  "weekStartOverride": null
+}

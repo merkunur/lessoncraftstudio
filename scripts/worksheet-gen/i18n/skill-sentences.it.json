@@ -418,5 +418,25 @@
   "word-parts": {
     "full": "Famiglie di parole per la primaria: la parola primitiva, le parole della stessa famiglia, i prefissi ri-, pre- e sotto- e i nomi dei mestieri.",
     "short": "Famiglie di parole, parola primitiva e prefissi"
+  },
+  "story-sequencing": {
+    "full": "Riordina una storia per immagini guardando che cosa cambia da una vignetta all'altra e la racconta con prima, poi, dopo e infine.",
+    "short": "Riordina e racconta una storia per immagini"
+  },
+  "healthy-habits": {
+    "full": "Riconosce i gesti quotidiani dell'igiene personale, come lavarsi le mani e i denti o tossire nel gomito, e spiega perché ci fanno stare bene.",
+    "short": "Conosce e spiega le buone abitudini di igiene"
+  },
+  "habitats": {
+    "full": "Riconosce gli ambienti in cui vivono gli animali, le loro case e le parti del corpo che li aiutano a vivere nel proprio ambiente.",
+    "short": "Collega gli animali al loro ambiente e alla loro casa"
+  },
+  "sink-or-float": {
+    "full": "Fa una previsione, la verifica con una prova in acqua e scopre che non è il peso a decidere se un oggetto galleggia o affonda.",
+    "short": "Prevede e verifica che cosa galleggia e che cosa affonda"
+  },
+  "cursive-writing": {
+    "full": "Scrive in corsivo le lettere minuscole e maiuscole, le lega tra loro e ricopia parole e frasi con una scrittura leggibile.",
+    "short": "Scrive lettere, parole e frasi in corsivo"
   }
 }

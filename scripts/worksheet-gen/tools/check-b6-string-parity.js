@@ -64,7 +64,7 @@ for (const loc of LOCS) {
   }
   // a locale whose panel has not been applied yet has 0 banks: skipped, unless --all (the release run) demands every locale.
   if (nBanks === 0 && !process.argv.includes('--all')) { console.log(`skip ${loc}: not applied yet`); continue; }
-  if (nBanks < 9) { console.error(`VACUOUS: only ${nBanks} banks read for ${loc}`); process.exit(1); }   // 9 = digraphs refused whole-family (es it sv da no)
+  if (nBanks < 4) { console.error(`VACUOUS: only ${nBanks} banks read for ${loc}`); process.exit(1); }   // 4 = cursive-writing refused whole-family (sv fi); 5 elsewhere
   banksRead += nBanks;
 }
 console.log(`\n${checked} bank strings checked across ${banksRead} banks; ${divergences} not present in the built i18n`);

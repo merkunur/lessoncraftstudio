@@ -173,24 +173,34 @@ function sfPosIcon(kind, { w = 40, h = 30 } = {}) {
 }
 
 /** F4 — the ONE class tub: 2 spots at the waterline + 2 on the floor; two word tags in the left column. */
-function sfTub({ floatWord, sinkWord, w = 639, h = 520, spots = 2, tagPx = 22, minH = 520, topPull = 24 }) {
+function sfTub({ floatWord, sinkWord, w = 639, h = 520, spots = 2, tagPx = 22, tagFloor = 18, minH = 520, topPull = 24, forceTagWidth = null }) {
   const { waterTank } = require('../../primitives/water-tank.js');
   const T = waterTank({ w, h, mode: 'spots', spots, stretch: true, id: 'tub' });
   const pct = (y) => (100 * y / h).toFixed(3) + '%';
-  const tagW = Math.round(0.28 * w) - 20;
-  const airMid = (0.06 * h + T.waterY) / 2;
-  const sinkY = T.floorY - 0.1 * h;
-  const tag = (kind, word, y) => `<div data-lcs-tag="${kind}" style="position:absolute;z-index:1;left:${Math.round(0.04 * w) + 6}px;top:${pct(y)};transform:translateY(-50%);box-sizing:border-box;width:${tagW}px;min-height:44px;` +
-    `display:flex;align-items:center;gap:6px;padding:4px 8px;background:${color.white};border:2px solid ${color.teal};border-radius:999px">${sfPosIcon(kind)}` +
-    `<span data-lcs-tag-word="${kind}" style="font-family:'Baloo 2',sans-serif;font-weight:700;font-size:${tagPx}px;line-height:1.1;color:${color.ink}">${esc(word)}</span></div>`;
-  // leaders (build review): a short VERTICAL teal line from each tag's centre DOWN to the line it names (the waterline /
-  // the gravel line), behind the tag, in an overlay that stretches with the tub — never across a spot
-  const xc = Math.round(0.04 * w) + 6 + tagW / 2;
+  // de panel (2026-09-23): a FIXED 159 px tag let "schwimmt oben" run past its border, and the sink tag sat across the
+  // first sink spot. The tags now sit in the two spot-free bands — the float tag in the AIR above the float spots, the
+  // sink tag in the WATER between the float spots and the sink spots — so each may grow to its word: width max-content,
+  // min 159, capped at the glass. If the cap would be hit, the font steps down (never under the K 18 px floor); verify()
+  // measures the word against its tag and the tag against every spot.
+  const left = Math.round(0.04 * w) + 6;
+  const tagMin = Math.round(0.28 * w) - 20, tagCap = Math.round(0.96 * w) - 6 - left;
+  const spot0 = T.spotRects.find((r) => r.zone === 'float'), sink0 = T.spotRects.find((r) => r.zone === 'sink');
+  const floatY = (0.06 * h + spot0.y) / 2;                       // the air band above the float spots
+  const sinkY = (spot0.y + spot0.h + sink0.y) / 2;               // the water band between the two spot rows
+  // font step-down: a conservative Baloo 2 700 advance of 0.62 em per character + the 40 px icon + 6 gap + 20 padding/border
+  const fit = (word) => { let px = tagPx; while (px > tagFloor && word.length * 0.62 * px + 66 > tagCap) px -= 1; return px; };
+  const tag = (kind, word, y) => { const px = fit(word);
+    const width = forceTagWidth ? `width:${forceTagWidth}px` : `width:max-content;min-width:${tagMin}px;max-width:${tagCap}px`;   // forceTagWidth = the GATE's poison seam (the old fixed tag)
+    return `<div data-lcs-tag="${kind}" style="position:absolute;z-index:1;left:${left}px;top:${pct(y)};transform:translateY(-50%);box-sizing:border-box;${width};min-height:44px;` +
+      `display:flex;align-items:center;gap:6px;padding:4px 8px;background:${color.white};border:2px solid ${color.teal};border-radius:999px">${sfPosIcon(kind)}` +
+      `<span data-lcs-tag-word="${kind}" style="font-family:'Baloo 2',sans-serif;font-weight:700;font-size:${px}px;line-height:1.1;white-space:nowrap;color:${color.ink}">${esc(word)}</span></div>`; };
+  // leaders: a VERTICAL teal line from inside each tag DOWN to the line it names, in the spot-free left column
+  const xc = left + 40;
   const leaders = `<svg data-lcs-leaders width="${w}" height="100%" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" aria-hidden="true" style="position:absolute;left:0;top:0;width:${w}px;height:100%;overflow:visible">` +
-    `<path data-lcs-leader="float" d="M ${xc} ${airMid.toFixed(1)} L ${xc} ${T.waterY}" stroke="${color.teal}" stroke-width="2" vector-effect="non-scaling-stroke" fill="none"/>` +
+    `<path data-lcs-leader="float" d="M ${xc} ${floatY.toFixed(1)} L ${xc} ${T.waterY}" stroke="${color.teal}" stroke-width="2" vector-effect="non-scaling-stroke" fill="none"/>` +
     `<path data-lcs-leader="sink" d="M ${xc} ${sinkY.toFixed(1)} L ${xc} ${T.floorY}" stroke="${color.teal}" stroke-width="2" vector-effect="non-scaling-stroke" fill="none"/></svg>`;
   // margin-top pulls the tub's own blank air band (0.06h above the rim) up under the instruction's bottom margin
-  return { html: `<div data-lcs-tub data-lcs-block style="position:relative;width:${w}px;height:calc(100% + ${topPull}px);min-height:${minH}px;margin:-${topPull}px auto 0">${T.svg}${leaders}${tag('float', floatWord, airMid)}${tag('sink', sinkWord, sinkY)}</div>`, tank: T };
+  return { html: `<div data-lcs-tub data-lcs-block style="position:relative;width:${w}px;height:calc(100% + ${topPull}px);min-height:${minH}px;margin:-${topPull}px auto 0">${T.svg}${leaders}${tag('float', floatWord, floatY)}${tag('sink', sinkWord, sinkY)}</div>`, tank: T };
 }
 
 /** F5 — a section card: teal numbered badge + drawn glyph + head, then its inner apparatus. */

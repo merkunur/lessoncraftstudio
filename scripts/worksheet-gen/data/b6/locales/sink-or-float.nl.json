@@ -1,0 +1,167 @@
+{
+  "floatWord": "drijft",
+  "sinkWord": "zinkt",
+  "heads": {
+    "guess": "Ik denk",
+    "test": "De proef",
+    "surprise": "Verrast?"
+  },
+  "trueWord": "waar",
+  "falseWord": "niet waar",
+  "clayWord": "klei",
+  "labels": {
+    "ball": "bal",
+    "log": "houtblok",
+    "pumpkin": "pompoen",
+    "apple": "appel",
+    "lemon": "citroen",
+    "banana": "banaan",
+    "leaf": "blad",
+    "feather": "veer",
+    "pinecone": "dennenappel",
+    "pencil": "potlood",
+    "toyboat": "bootje",
+    "ship": "schip",
+    "orange": "sinaasappel",
+    "rock": "steen",
+    "nail": "spijker",
+    "hammer": "hamer",
+    "bolt": "bout",
+    "pliers": "tang",
+    "scissors": "schaar",
+    "potato": "aardappel"
+  },
+  "tf": {
+    "T1": "Een groot houtblok drijft.",
+    "T2": "Een kleine spijker zinkt.",
+    "T3": "Een stalen schip drijft.",
+    "T4": "Een zware pompoen drijft.",
+    "T5": "Een appel drijft, maar een aardappel zinkt.",
+    "T6": "Dezelfde klei kan zinken of drijven.",
+    "T7": "Sommige zware dingen drijven.",
+    "T8": "Sommige lichte dingen zinken.",
+    "F1": "Een aardappel drijft.",
+    "F2": "Een veer zinkt.",
+    "F3": "Een stalen schip zinkt.",
+    "F4": "Een bal vol lucht zinkt.",
+    "F5": "Alle zware dingen zinken.",
+    "F6": "Alle lichte dingen drijven.",
+    "F7": "Grote dingen zinken altijd.",
+    "F8": "Iets drijft omdat het licht is.",
+    "F9": "Alleen kleine dingen kunnen drijven."
+  },
+  "report": {
+    "question": "Mijn vraag",
+    "predict": "Ik denk",
+    "result": "Wat er gebeurde",
+    "learned": "Wat ik heb geleerd",
+    "starter": "Nu weet ik dat"
+  },
+  "questions": {
+    "orange": "Drijft een sinaasappel met schil? Drijft hij ook zonder schil?",
+    "cargo": "Hoeveel blokjes kan een bootje van klei dragen voordat het zinkt?"
+  },
+  "forbidden": [
+    "zware dingen zinken",
+    "lichte dingen drijven",
+    "omdat het licht is",
+    "omdat hij licht is",
+    "dichtheid",
+    "opwaartse kracht",
+    "zout"
+  ],
+  "experimentWords": [
+    "proefje",
+    "proef",
+    "experiment",
+    "onderzoek",
+    "voorspel"
+  ],
+  "apparatus": {
+    "ring": "rondje",
+    "tank": "bak",
+    "star": "ster",
+    "spot": "vakje"
+  },
+  "instructionBans": {
+    "base": [
+      "lijn",
+      "groep",
+      "groepje",
+      "sorteer",
+      "vinkje",
+      "knip",
+      "omcirkel"
+    ],
+    "scale": [
+      "lijn",
+      "groep",
+      "groepje",
+      "sorteer",
+      "vinkje",
+      "knip",
+      "kleur"
+    ],
+    "shape": [
+      "lijn",
+      "groep",
+      "groepje",
+      "sorteer",
+      "vinkje",
+      "knip"
+    ],
+    "truth": [
+      "lijn",
+      "groep",
+      "groepje",
+      "sorteer",
+      "vinkje",
+      "knip",
+      "kleur"
+    ],
+    "draw": [
+      "lijn",
+      "groep",
+      "groepje",
+      "sorteer",
+      "vinkje",
+      "knip",
+      "omcirkel"
+    ],
+    "report": [
+      "lijn",
+      "groep",
+      "groepje",
+      "sorteer",
+      "vinkje",
+      "knip"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "G1-399": {
+      "title": "Drijven en zinken proefje: eerst voorspellen, dan testen",
+      "instruction": "Kleur vóór de proef een rondje in de eerste bak, na de proef een rondje in de tweede bak en de ster als je verrast was."
+    },
+    "G1-408": {
+      "title": "Zwaar of licht? Drijven en zinken proefje met een weegschaal",
+      "instruction": "De weegschaal laat zien wat zwaarder is: omcirkel het ding dat in het water drijft."
+    },
+    "G2-382": {
+      "title": "Klei laten drijven: proefje met een bootje van klei",
+      "instruction": "Kleur bij elke kleivorm het rondje in de bak waar hij terechtkomt, omcirkel wat drijft en teken daarna je eigen kleibootje in de grote bak."
+    },
+    "G2-383": {
+      "title": "Waarom drijft iets? Waar of niet waar na het proefje",
+      "instruction": "Lees elke zin en omcirkel waar of niet waar."
+    },
+    "K-384": {
+      "title": "Wat drijft en wat zinkt? Teken het proefje",
+      "instruction": "Teken in de gestippelde vakjes op het water twee dingen die drijven en in de vakjes op de bodem twee dingen die zinken."
+    },
+    "G3-400": {
+      "title": "Onderzoeksverslag: mijn proefje met drijven en zinken",
+      "instruction": "Kies een vraag, schrijf op wat je denkt, test het, teken wat er gebeurde en schrijf op wat je hebt geleerd."
+    }
+  }
+}

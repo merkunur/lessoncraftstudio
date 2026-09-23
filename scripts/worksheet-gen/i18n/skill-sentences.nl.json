@@ -418,5 +418,25 @@
   "word-parts": {
     "full": "Woordfamilies en voorvoegsels: woorden sorteren op het stamwoord, het stamwoord vinden, de voorvoegsels her-, mee- en uit- en persoonswoorden maken.",
     "short": "Stamwoorden, woordfamilies en voorvoegsels"
+  },
+  "story-sequencing": {
+    "full": "Een verhaal op volgorde leggen: zien wat er verandert, plaatjes nummeren, knippen en plakken, voorspellen wat er daarna gebeurt, zinnen lezen en het verhaal navertellen.",
+    "short": "Verhaalplaatjes op volgorde en navertellen"
+  },
+  "healthy-habits": {
+    "full": "Hygiëne en verzorging: handen wassen met een stappenplan, tanden poetsen, hoesten en niezen in je elleboog, weten waarom we het doen en een weekschema bijhouden.",
+    "short": "Handen wassen, tanden poetsen en bacillen stoppen"
+  },
+  "habitats": {
+    "full": "Dieren en hun leefgebied: bos, weide, vijver, zee en regenwoud herkennen, dierenwoningen koppelen, ontdekken hoe dieren zich aanpassen en wat ze nodig hebben.",
+    "short": "Leefgebieden, dierenwoningen en aanpassingen"
+  },
+  "sink-or-float": {
+    "full": "Drijven en zinken onderzoeken: eerst voorspellen en dan testen, zwaar of licht vergelijken, klei laten drijven, waar of niet waar beoordelen en een onderzoeksverslag maken.",
+    "short": "Voorspellen en testen: wat drijft, wat zinkt?"
+  },
+  "cursive-writing": {
+    "full": "Aan elkaar schrijven in verbonden schrift: kleine letters per lettergroep, hoofdletters met namen, letters verbinden, woorden en zinnen overschrijven en verbonden schrift lezen.",
+    "short": "Letters, woorden en zinnen aan elkaar schrijven"
   }
 }

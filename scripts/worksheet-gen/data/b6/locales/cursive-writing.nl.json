@@ -1,0 +1,174 @@
+{
+  "refused": null,
+  "units": [
+    "nl"
+  ],
+  "exemplar": "nl",
+  "unitLabel": {
+    "nl": "verbonden schrift"
+  },
+  "scriptName": {
+    "nl": "Verbonden schrift"
+  },
+  "ruling": {
+    "G1": "lin4",
+    "G2": "lin4",
+    "G3": "lin4"
+  },
+  "dashHelpers": true,
+  "xPx": {
+    "base": 15,
+    "capitals": 15,
+    "joins": 15,
+    "words": 15,
+    "read": 18,
+    "copy": 15
+  },
+  "levels": {
+    "base": "groep-3",
+    "capitals": "groep-4",
+    "joins": "groep-3",
+    "words": "groep-4",
+    "read": "groep-4",
+    "copy": "groep-4"
+  },
+  "lessons": {
+    "nl": [
+      [
+        "i",
+        "u",
+        "t",
+        "w"
+      ],
+      [
+        "e",
+        "l",
+        "b",
+        "h",
+        "k",
+        "f"
+      ],
+      [
+        "a",
+        "o",
+        "c",
+        "d",
+        "g",
+        "q"
+      ],
+      [
+        "n",
+        "m",
+        "v",
+        "x",
+        "y"
+      ],
+      [
+        "r",
+        "s",
+        "z",
+        "p",
+        "j"
+      ]
+    ]
+  },
+  "joins": {
+    "nl": [
+      {
+        "pair": "oe",
+        "word": "boek"
+      },
+      {
+        "pair": "ou",
+        "word": "koud"
+      },
+      {
+        "pair": "ui",
+        "word": "huis"
+      },
+      {
+        "pair": "ij",
+        "word": "ijs"
+      },
+      {
+        "pair": "br",
+        "word": "brood"
+      },
+      {
+        "pair": "wa",
+        "word": "water"
+      },
+      {
+        "pair": "or",
+        "word": "worm"
+      },
+      {
+        "pair": "eu",
+        "word": "neus"
+      }
+    ]
+  },
+  "words": {
+    "animals/cat": "kat",
+    "animals/duck": "eend",
+    "animals/fish": "vis",
+    "animals/owl": "uil",
+    "animals/pig": "varken",
+    "animals/sheep": "schaap",
+    "fruits/lemon": "citroen",
+    "fruits/pear": "peer",
+    "fruits/apple": "appel",
+    "toys/boat": "boot",
+    "toys/doll": "pop",
+    "toys/robot": "robot",
+    "toys/train": "trein",
+    "toys/kite": "vlieger",
+    "around the house/bed": "bed",
+    "around the house/chair": "stoel",
+    "around the house/cup": "kopje",
+    "around the house/lamp": "lamp",
+    "classroom/book": "boek",
+    "zoo animals/lion": "leeuw",
+    "pets/mouse": "muis",
+    "bakery/cake": "taart",
+    "weather/sun": "zon",
+    "weather/cloud": "wolk",
+    "animals/horse": "paard",
+    "animals/zebra": "zebra",
+    "animals/tiger": "tijger"
+  },
+  "sentences": [
+    "De kat ligt op het bed.",
+    "Ik zie een rode boot.",
+    "Mijn hond speelt met de bal.",
+    "Wij eten een peer.",
+    "De zon schijnt vandaag.",
+    "De walvis is heel groot."
+  ],
+  "strings": {
+    "G2-377": {
+      "title": "Aan elkaar schrijven groep 3: de letters i, u, t en w",
+      "instruction": "Schrijf de grijze letters na en schrijf elke letter daarna zelf aan elkaar verder, tot het eind van de lijn en op de lege lijn eronder."
+    },
+    "G2-384": {
+      "title": "Hoofdletters in verbonden schrift: schrijf de namen",
+      "instruction": "Schrijf elke grijze hoofdletter en naam na en schrijf ze daarna op de lege lijn eronder."
+    },
+    "G2-385": {
+      "title": "Letters aan elkaar verbinden: twee letters tegelijk",
+      "instruction": "Schrijf de twee grijze letters en het woord na en schrijf ze daarna op de lege lijn eronder."
+    },
+    "G2-386": {
+      "title": "Woorden aan elkaar schrijven bij plaatjes",
+      "instruction": "Schrijf elk grijs woord in één vloeiende lijn na, schrijf het dan op de lijn eronder en zet de puntjes en streepjes er als laatste op."
+    },
+    "G2-387": {
+      "title": "Verbonden schrift lezen: welk woord hoort bij welk plaatje?",
+      "instruction": "Lees elk woord in verbonden schrift en trek een lijn naar het plaatje."
+    },
+    "G3-401": {
+      "title": "Zinnen overschrijven in verbonden schrift",
+      "instruction": "Schrijf eerst de grijze zin na en schrijf daarna elke gedrukte zin in verbonden schrift over op de twee lijnen eronder."
+    }
+  }
+}

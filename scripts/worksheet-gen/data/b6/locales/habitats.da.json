@@ -1,0 +1,259 @@
+{
+  "sets": {
+    "base": [
+      "forest",
+      "meadow",
+      "pond",
+      "ocean"
+    ]
+  },
+  "tileLabel": {
+    "ocean": "Hav",
+    "pond": "Sø",
+    "forest": "Skov",
+    "meadow": "Eng",
+    "polar": "Sydpolen",
+    "polar-arctic": "Arktis",
+    "savanna": "Savanne",
+    "rainforest": "Regnskov"
+  },
+  "adapt": {
+    "camel-hump": "Dyret gemmer fedt i sin pukkel, så det kan klare sig længe uden mad.",
+    "giraffe-neck": "Dyrets lange hals når op til bladene højt oppe i træerne.",
+    "elephant-trunk": "Dyrets lange snabel suger vand op og griber maden.",
+    "penguin-flippers": "Dyrets vinger er luffer: det svømmer hurtigt, men kan ikke flyve.",
+    "walrus-tusks": "Dyret bruger sine lange stødtænder til at trække sin tunge krop op af vandet.",
+    "woodpecker-beak": "Dyrets stærke, spidse næb hakker huller i træstammer.",
+    "beaver-teeth": "Dyrets store fortænder fælder træer, så det kan bygge sit hjem i vandet.",
+    "whale-blowhole": "Dyret trækker vejret gennem et hul oven på hovedet.",
+    "fish-gills": "Dyret trækker vejret under vandet med sine gæller.",
+    "duck-feet": "Dyret har svømmehud mellem tæerne og skubber til vandet som med årer.",
+    "sloth-claws": "Dyrets lange, krumme kløer holder det fast, så det kan hænge i grenene i mange timer.",
+    "toucan-beak": "Dyrets kæmpestore næb plukker frugt langt ude på de tynde grene.",
+    "squirrel-tail": "Dyrets store, buskede hale hjælper det med balancen, når det springer fra gren til gren."
+  },
+  "names": {
+    "whale": [
+      "hval"
+    ],
+    "dolphin": [
+      "delfin"
+    ],
+    "octopus": [
+      "blæksprutte"
+    ],
+    "starfish": [
+      "søstjerne"
+    ],
+    "jellyfish": [
+      "vandmand",
+      "brandmand"
+    ],
+    "shark": [
+      "haj"
+    ],
+    "clownfish": [
+      "klovnfisk",
+      "fisk",
+      "nemo"
+    ],
+    "crab": [
+      "krabbe"
+    ],
+    "ray": [
+      "rokke"
+    ],
+    "seal-grey": [
+      "sæl"
+    ],
+    "seal-white": [
+      "sæl",
+      "sælunge"
+    ],
+    "walrus": [
+      "hvalros"
+    ],
+    "narwhal": [
+      "narhval"
+    ],
+    "penguin": [
+      "pingvin"
+    ],
+    "deer": [
+      "hjort",
+      "rådyr",
+      "bambi"
+    ],
+    "squirrel": [
+      "egern"
+    ],
+    "woodpecker": [
+      "spætte",
+      "flagspætte"
+    ],
+    "badger": [
+      "grævling"
+    ],
+    "moose": [
+      "elg"
+    ],
+    "frog": [
+      "frø"
+    ],
+    "dragonfly": [
+      "guldsmed"
+    ],
+    "beaver": [
+      "bæver"
+    ],
+    "duck": [
+      "and",
+      "ælling"
+    ],
+    "swan": [
+      "svane"
+    ],
+    "butterfly": [
+      "sommerfugl"
+    ],
+    "bee": [
+      "bi"
+    ],
+    "grasshopper": [
+      "græshoppe"
+    ],
+    "ladybug": [
+      "mariehøne"
+    ],
+    "lion": [
+      "løve"
+    ],
+    "zebra": [
+      "zebra"
+    ],
+    "giraffe": [
+      "giraf"
+    ],
+    "elephant": [
+      "elefant"
+    ],
+    "rhinoceros": [
+      "næsehorn"
+    ],
+    "ostrich": [
+      "struds"
+    ],
+    "monkey": [
+      "abe"
+    ],
+    "gorilla": [
+      "gorilla"
+    ],
+    "orangutan": [
+      "orangutang",
+      "abe"
+    ],
+    "sloth": [
+      "dovendyr"
+    ],
+    "toucan": [
+      "tukan"
+    ],
+    "macaw": [
+      "ara",
+      "papegøje"
+    ],
+    "camel": [
+      "kamel"
+    ],
+    "bird": [
+      "fugl"
+    ],
+    "spider": [
+      "edderkop"
+    ],
+    "rabbit": [
+      "kanin",
+      "hare"
+    ],
+    "ant": [
+      "myre"
+    ]
+  },
+  "needs": {
+    "line": "Alle dyr har brug for mad, vand og et hjem.",
+    "foodHead": "Mad",
+    "homeHead": "Hjem"
+  },
+  "report": {
+    "animals": "Dyr, der lever her",
+    "plant": "En plante, der vokser her",
+    "hot": "varmt",
+    "cold": "koldt",
+    "wet": "vådt",
+    "dry": "tørt"
+  },
+  "homeWord": {
+    "nest": "rede",
+    "hive": "bistade",
+    "web": "spindelvæv",
+    "burrow": "hule",
+    "anthill": "myretue",
+    "lodge": "bæverhytte"
+  },
+  "refuse": [],
+  "refuseClaims": [],
+  "strings": {
+    "G1-398": {
+      "title": "Dyrs levesteder: skov, eng, sø og hav",
+      "instruction": "Skriv under hvert dyr bogstavet for det levested, hvor dyret lever."
+    },
+    "K-383": {
+      "title": "Dyrenes boliger: rede, bistade og myretue",
+      "instruction": "Tegn en streg fra hvert dyr til dets bolig."
+    },
+    "G1-406": {
+      "title": "Dyrs levesteder: hvilket dyr bor ikke her?",
+      "instruction": "Streg i hver række det dyr ud, der ikke lever på det levested."
+    },
+    "G2-380": {
+      "title": "Dyrs tilpasninger til levestedet",
+      "instruction": "Skriv bogstavet for det dyr, som hver sætning handler om, i feltet ved sætningen."
+    },
+    "G1-407": {
+      "title": "Hvad har dyr brug for? Mad, vand og et hjem",
+      "instruction": "Sæt ring om den mad, hvert dyr spiser, og om det hjem, dyret bor i."
+    },
+    "G2-381": {
+      "title": "Mit levested: undersøg, tegn og skriv",
+      "instruction": "Tegn tre dyr, der lever på dette levested, skriv deres navne og en plante, der vokser her, og sæt ring om det rigtige ord i hvert par."
+    }
+  },
+  "placeWords": [
+    "ørken",
+    "ørkenen",
+    "hav",
+    "havet",
+    "is",
+    "isen",
+    "arktis",
+    "sydpolen",
+    "sø",
+    "søen",
+    "skov",
+    "skoven",
+    "eng",
+    "engen",
+    "mark",
+    "marken",
+    "dam",
+    "dammen",
+    "vandhul",
+    "savanne",
+    "savannen",
+    "regnskov",
+    "regnskoven",
+    "jungle",
+    "junglen"
+  ]
+}

@@ -418,5 +418,25 @@
   "word-parts": {
     "full": "Forstavelser, endelser og rotord: sortere ord etter roten, finne rotordet, velge forstavelse etter betydning og lage ord for personer.",
     "short": "Rotord, forstavelser og endelser – slik bygges ordene"
+  },
+  "story-sequencing": {
+    "full": "Bildeserier: sette bildene i en historie i riktig rekkefølge, bruke først, så og til slutt, se hva som skjer etterpå og fortelle og skrive til bildeserien.",
+    "short": "Bildeserier: rekkefølge, fortelle og skrive"
+  },
+  "healthy-habits": {
+    "full": "Hygiene og gode vaner: vaske hender, pusse tenner, hoste og nyse i albuen, forstå hvorfor vi gjør det, og krysse av for gode vaner en hel uke.",
+    "short": "Vaske hender, pusse tenner og nyse i albuen"
+  },
+  "habitats": {
+    "full": "Dyrenes leveområder: hvilke dyr som lever i skogen, på enga, i vannet og i havet, dyrenes hjem, hva dyrene trenger og hvordan kroppen er tilpasset.",
+    "short": "Dyrenes leveområder, hjem og tilpasninger"
+  },
+  "sink-or-float": {
+    "full": "Flyte eller synke: gjette først og teste i vann, se at tunge ting også kan flyte, forme leire til en båt og skrive en egen forsøksrapport.",
+    "short": "Flyte eller synke: gjett, test og forklar"
+  },
+  "cursive-writing": {
+    "full": "Sammenhengende skrift: skrive små og store bokstaver bundet sammen, øve på bokstavforbindelser, skrive og lese ord og skrive av hele setninger.",
+    "short": "Små og store bokstaver, ord og setninger"
   }
 }

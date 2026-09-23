@@ -1,0 +1,281 @@
+{
+  "words3": [
+    "Zuerst",
+    "Dann",
+    "Zum Schluss"
+  ],
+  "openers4": [
+    "Zuerst",
+    "Dann",
+    "Danach",
+    "Zum Schluss"
+  ],
+  "starters4": [
+    "Zuerst",
+    "Dann",
+    "Danach",
+    "Zum Schluss"
+  ],
+  "bme": [
+    "Anfang",
+    "Mitte",
+    "Schluss"
+  ],
+  "stories": {
+    "apple": {
+      "sentences": [
+        "Zuerst ist der Apfel noch ganz.",
+        "Dann ist der Apfel einmal angebissen.",
+        "Danach hat der Apfel schon drei Bisse.",
+        "Zum Schluss ist nur noch das Kerngehäuse übrig."
+      ],
+      "stateWords": [
+        "ganz",
+        "einmal",
+        "drei Bisse",
+        "Kerngehäuse"
+      ],
+      "helpWords": [
+        "der Apfel",
+        "der Biss",
+        "das Kerngehäuse",
+        "der Stiel",
+        "das Blatt",
+        "der Teller"
+      ],
+      "helpIds": [
+        "apple",
+        "bite",
+        "core",
+        "stem",
+        "leaf",
+        "plate"
+      ]
+    },
+    "banana": {
+      "sentences": [
+        "Zuerst ist die Banane noch nicht geschält.",
+        "Dann hängt ein Streifen Schale herunter.",
+        "Danach hängen drei Streifen herunter.",
+        "Zum Schluss ist nur noch die leere Schale übrig."
+      ],
+      "stateWords": [
+        "nicht geschält",
+        "ein Streifen",
+        "drei Streifen",
+        "leere Schale"
+      ],
+      "helpWords": [
+        "die Banane",
+        "die Schale",
+        "der Streifen",
+        "der Teller"
+      ],
+      "helpIds": [
+        "banana",
+        "peel",
+        "strip",
+        "plate"
+      ]
+    },
+    "sandwich": {
+      "sentences": [
+        "Zuerst liegen zwei Scheiben Brot auf dem Brett.",
+        "Dann ist Marmelade auf einer Scheibe.",
+        "Danach ist das Brot schräg durchgeschnitten.",
+        "Zum Schluss ist nur noch eine Kruste mit Krümeln übrig."
+      ],
+      "stateWords": [
+        "zwei Scheiben",
+        "Marmelade",
+        "durchgeschnitten",
+        "Kruste"
+      ],
+      "helpWords": [
+        "das Brot",
+        "die Marmelade",
+        "das Messer",
+        "die Hälfte",
+        "die Kruste",
+        "die Krümel"
+      ],
+      "helpIds": [
+        "bread",
+        "jam",
+        "knife",
+        "half",
+        "crust",
+        "crumb"
+      ]
+    },
+    "cake": {
+      "sentences": [
+        "Zuerst ist der Kuchen noch ganz.",
+        "Dann ist ein Stück herausgeschnitten.",
+        "Danach ist schon die Hälfte weg.",
+        "Zum Schluss sind nur noch Krümel übrig."
+      ],
+      "stateWords": [
+        "ganz",
+        "ein Stück",
+        "Hälfte",
+        "Krümel"
+      ],
+      "helpWords": [
+        "der Kuchen",
+        "das Stück",
+        "die Kerzen",
+        "die Krümel",
+        "der Tortenständer"
+      ],
+      "helpIds": [
+        "cake",
+        "slice",
+        "candle",
+        "crumb",
+        "stand"
+      ]
+    },
+    "fence": {
+      "sentences": [
+        "Zuerst ist der Zaun ganz weiß.",
+        "Dann sind zwei Latten gestrichen.",
+        "Danach sind vier Latten gestrichen.",
+        "Zum Schluss ist der ganze Zaun gestrichen."
+      ],
+      "stateWords": [
+        "ganz weiß",
+        "zwei Latten",
+        "vier Latten",
+        "ganze Zaun"
+      ],
+      "helpWords": [
+        "der Zaun",
+        "die Latte",
+        "die Farbe",
+        "der Pinsel",
+        "der Farbtopf"
+      ],
+      "helpIds": [
+        "fence",
+        "plank",
+        "paint",
+        "brush",
+        "pot"
+      ]
+    },
+    "letter": {
+      "sentences": [
+        "Zuerst ist die Karte noch leer.",
+        "Dann ist eine Blume auf die Karte gemalt.",
+        "Danach stehen drei Zeilen auf der Karte.",
+        "Zum Schluss steckt die Karte in einem Umschlag mit Briefmarke."
+      ],
+      "stateWords": [
+        "leer",
+        "Blume",
+        "Zeilen",
+        "Briefmarke"
+      ],
+      "helpWords": [
+        "die Karte",
+        "die Blume",
+        "der Bleistift",
+        "der Umschlag",
+        "die Briefmarke"
+      ],
+      "helpIds": [
+        "card",
+        "flower",
+        "pencil",
+        "envelope",
+        "stamp"
+      ]
+    },
+    "paper-chain": {
+      "sentences": [
+        "Zuerst liegt ein Blatt Papier auf dem Tisch.",
+        "Dann ist das Blatt in fünf Streifen geschnitten.",
+        "Danach sind zwei Streifen zu Ringen geklebt.",
+        "Zum Schluss hängen alle fünf Ringe als Kette zusammen."
+      ],
+      "stateWords": [
+        "ein Blatt",
+        "fünf Streifen",
+        "zwei Streifen",
+        "Kette"
+      ],
+      "helpWords": [
+        "das Papier",
+        "die Schere",
+        "der Streifen",
+        "der Kleber",
+        "der Ring",
+        "die Kette"
+      ],
+      "helpIds": [
+        "paper",
+        "scissors",
+        "strip",
+        "glue",
+        "ring",
+        "chain"
+      ]
+    },
+    "beach-walk": {
+      "sentences": [
+        "Zuerst sind noch keine Fußspuren im Sand.",
+        "Dann läuft ein Kind los und macht drei Fußspuren.",
+        "Danach findet das Kind eine Muschel.",
+        "Zum Schluss ist das Kind mit der Muschel zurück auf dem Handtuch."
+      ],
+      "stateWords": [
+        "keine Fußspuren",
+        "drei Fußspuren",
+        "findet",
+        "zurück"
+      ],
+      "helpWords": [
+        "der Sand",
+        "das Handtuch",
+        "die Muschel",
+        "die Fußspuren",
+        "der Strand"
+      ],
+      "helpIds": [
+        "sand",
+        "towel",
+        "shell",
+        "footprint",
+        "beach"
+      ]
+    }
+  },
+  "excludeStories": [],
+  "strings": {
+    "base": {
+      "title": "Bildergeschichte ordnen: Bilder nummerieren",
+      "instruction": "Schau genau, was sich verändert, und schreibe 1, 2, 3 und 4 in die Kästchen, damit jede Geschichte richtig geordnet ist."
+    },
+    "first-next-last-cut": {
+      "title": "Bildergeschichte ausschneiden: zuerst, dann, zum Schluss",
+      "instruction": "Schneide die Bilder aus jedem Streifen aus und klebe sie in die leeren Rahmen über Zuerst, Dann und Zum Schluss."
+    },
+    "what-happens-next": {
+      "title": "Bildergeschichte: Was passiert als Nächstes?",
+      "instruction": "Schau dir die drei Bilder jeder Geschichte an und kreise darunter das Bild ein, das in den Rahmen mit dem Fragezeichen gehört."
+    },
+    "beginning-middle-end": {
+      "title": "Bildergeschichte: Anfang, Mitte und Schluss",
+      "instruction": "Schau dir Anfang und Schluss jeder Geschichte an und male in den großen Rahmen in der Mitte, was dazwischen passiert."
+    },
+    "sequencing-sentences": {
+      "title": "Bildergeschichte: Sätze den Bildern zuordnen",
+      "instruction": "Lies die Sätze jeder Geschichte und verbinde jeden Satz mit seinem Bild."
+    },
+    "retell-with-starters": {
+      "title": "Bildergeschichte schreiben mit Worthilfen",
+      "instruction": "Schreibe zu jedem Bild auf die Linien, was passiert, und fang mit dem Wort an, das schon auf der ersten Linie steht."
+    }
+  }
+}

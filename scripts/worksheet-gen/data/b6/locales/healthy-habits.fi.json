@@ -1,0 +1,134 @@
+{
+  "strings": {
+    "base": {
+      "title": "Hygienia ja terveelliset tavat: mitä kukin tarvitsee?",
+      "instruction": "Vedä viiva jokaisesta lapsesta siihen esineeseen, jota lapsi tarvitsee."
+    },
+    "hand-washing-steps": {
+      "title": "Käsienpesuohje lapsille: pese kädet oikein",
+      "instruction": "Kirjoita ruutuihin numerot 1–5 niin, että ne näyttävät, miten kädet pestään."
+    },
+    "brushing-teeth": {
+      "title": "Hampaiden pesu: ennen, aikana ja jälkeen",
+      "instruction": "Ympyröi jokaisen kuvan vierestä sana, joka kertoo, tapahtuuko se ennen pesua, pesun aikana vai pesun jälkeen."
+    },
+    "stop-the-germs": {
+      "title": "Yski ja aivasta hihaan: pysäytä pöpöt",
+      "instruction": "Ympyröi joka riviltä kuva, jossa pöpöt eivät pääse leviämään."
+    },
+    "why-habits": {
+      "title": "Terveelliset tavat: miksi teemme niin?",
+      "instruction": "Vedä viiva jokaisesta tavasta siihen lauseeseen, joka kertoo, miksi teemme niin."
+    },
+    "habit-chart": {
+      "title": "Terveellisten tapojen viikkotaulukko",
+      "instruction": "Laita joka päivä rasti ruutuun jokaisen tavan kohdalle, jonka teit."
+    }
+  },
+  "phases": {
+    "before": "ennen pesua",
+    "during": "pesun aikana",
+    "after": "pesun jälkeen"
+  },
+  "labels": {
+    "wash-hands": "pese kädet",
+    "brush-teeth": "pese hampaat",
+    "sleep": "nuku",
+    "move-body": "liiku",
+    "drink-water": "juo vettä",
+    "sun-protect": "suojaudu auringolta",
+    "blow-nose": "niistä nenä",
+    "comb-hair": "kampaa hiukset"
+  },
+  "labelStems": {
+    "wash-hands": [
+      "pese",
+      "pestä",
+      "pesu",
+      "käsienpesu",
+      "käsi",
+      "kädet",
+      "käsiä",
+      "saippua",
+      "saippuaa",
+      "saippualla"
+    ],
+    "brush-teeth": [
+      "pese",
+      "pestä",
+      "pesu",
+      "hammas",
+      "hampaat",
+      "hampaita",
+      "hammasharja",
+      "hammastahna",
+      "harjaa",
+      "harjata"
+    ],
+    "sleep": [
+      "nuku",
+      "nukkua",
+      "nukumme",
+      "uni",
+      "unta",
+      "sänky",
+      "sängyssä",
+      "yö",
+      "yöllä"
+    ],
+    "move-body": [
+      "liiku",
+      "liikkua",
+      "liikumme",
+      "liikunta",
+      "juokse",
+      "juosta",
+      "leiki",
+      "leikkiä",
+      "urheilu"
+    ],
+    "sun-protect": [
+      "aurinko",
+      "auringolta",
+      "auringossa",
+      "hattu",
+      "lakki",
+      "aurinkovoide",
+      "voide",
+      "suojaudu"
+    ],
+    "drink-water": [
+      "juo",
+      "juoda",
+      "juomme",
+      "vesi",
+      "vettä",
+      "lasi",
+      "lasista"
+    ],
+    "blow-nose": [
+      "niistä",
+      "niistää",
+      "nenäliina"
+    ],
+    "comb-hair": [
+      "kampaa",
+      "kammata",
+      "kampa",
+      "hiukset",
+      "tukka"
+    ]
+  },
+  "reasons": {
+    "wash-hands": "Se vie pois pöpöt, jotka tarttuivat meihin kaikesta, mihin koskimme.",
+    "brush-teeth": "Hymy pysyy puhtaana ja kirkkaana.",
+    "sleep": "Keho ja aivot lepäävät ja jaksavat taas uuden päivän.",
+    "move-body": "Kunto kasvaa, ja meistä tulee nopeita ja vahvoja.",
+    "sun-protect": "Iho ei pala kuumana kesäpäivänä.",
+    "drink-water": "Keho tarvitsee sitä toimiakseen hyvin.",
+    "blow-nose": "Voimme taas hengittää helposti."
+  },
+  "kaiOrder": false,
+  "coughPhrase": "hihaan",
+  "weekStartOverride": null
+}

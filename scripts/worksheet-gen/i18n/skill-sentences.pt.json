@@ -418,5 +418,25 @@
   "word-parts": {
     "full": "Separar palavras pela palavra primitiva, achar o que três derivadas têm em comum e escolher prefixos e sufixos pelo significado mostra como as palavras se formam.",
     "short": "Palavras primitivas, prefixos e sufixos."
+  },
+  "story-sequencing": {
+    "full": "Observar o que muda de uma cena para outra, pôr os fatos em ordem com primeiro, depois e por fim e recontar a história por escrito desenvolve a compreensão e a produção de texto.",
+    "short": "Ordenar cenas e recontar uma história."
+  },
+  "healthy-habits": {
+    "full": "Reconhecer por que lavamos as mãos, escovamos os dentes, dormimos e tossimos no cotovelo ajuda a criança a cuidar do próprio corpo e da saúde de todos.",
+    "short": "Hábitos de higiene e por que praticá-los."
+  },
+  "habitats": {
+    "full": "Relacionar cada animal ao habitat onde vive, à sua moradia e às partes do corpo que o ajudam a viver ali mostra como os seres vivos dependem do ambiente.",
+    "short": "Animais, habitats, moradias e adaptações."
+  },
+  "sink-or-float": {
+    "full": "Prever se um objeto afunda ou flutua, testar na água e comparar o resultado com o palpite ensina a investigar e mostra que o peso sozinho não decide.",
+    "short": "Prever, testar e registrar se afunda ou flutua."
+  },
+  "cursive-writing": {
+    "full": "Cobrir e escrever as letras cursivas ligadas, das minúsculas às maiúsculas, das palavras às frases, relaciona a letra de forma com a cursiva e firma o traçado.",
+    "short": "Letras, palavras e frases em letra cursiva."
   }
 }

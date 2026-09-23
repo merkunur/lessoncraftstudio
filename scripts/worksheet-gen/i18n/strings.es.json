@@ -2830,5 +2830,125 @@
   "G3-399": {
     "title": "Palabras derivadas en oraciones",
     "instruction": "En cada recuadro, escribe cada palabra de la fila de arriba en el hueco de la oración donde va."
+  },
+  "K-379": {
+    "title": "Secuencias temporales de un cuento: numera las imágenes",
+    "instruction": "Mira qué cambia en cada cuento y escribe los números en los recuadros para ordenar las imágenes."
+  },
+  "K-380": {
+    "title": "Hábitos de higiene: ¿qué necesita cada niño?",
+    "instruction": "Une con una línea a cada niño con lo que necesita."
+  },
+  "G1-398": {
+    "title": "Los animales y su hábitat: selva, bosque, mar y lago",
+    "instruction": "Escribe debajo de cada animal la letra del hábitat donde vive."
+  },
+  "G1-399": {
+    "title": "Experimento flota o se hunde: predice y comprueba",
+    "instruction": "Colorea un círculo en la primera pecera antes de la prueba, otro en la segunda pecera después y la estrella si te sorprendió."
+  },
+  "G2-377": {
+    "title": "Letra cursiva: las vocales a, e, i, o, u",
+    "instruction": "Repasa las letras grises y sigue escribiendo cada letra ligada por tu cuenta hasta el final del renglón y en el renglón vacío de abajo."
+  },
+  "K-381": {
+    "title": "Secuencias de un cuento para recortar: primero, después, al final",
+    "instruction": "Recorta las imágenes de cada tira y pégalas en los cuadros vacíos arriba de Primero, Después y Al final."
+  },
+  "G1-400": {
+    "title": "Secuencias de un cuento: ¿qué pasa después?",
+    "instruction": "Mira las tres imágenes de cada cuento y encierra en un círculo la imagen de abajo que va en el cuadro del signo de interrogación."
+  },
+  "G1-401": {
+    "title": "Inicio, desarrollo y final de un cuento",
+    "instruction": "Mira el inicio y el final de cada cuento y dibuja en el cuadro del centro lo que pasa en el desarrollo."
+  },
+  "G1-402": {
+    "title": "Secuencias de un cuento: une cada oración con su imagen",
+    "instruction": "Lee las oraciones de cada cuento y une con una línea cada oración con su imagen."
+  },
+  "G2-378": {
+    "title": "Secuencia de imágenes para crear cuentos",
+    "instruction": "Escribe en los renglones lo que pasa en cada imagen, empezando con la palabra que ya está escrita."
+  },
+  "K-382": {
+    "title": "Pasos del lavado de manos",
+    "instruction": "Escribe del 1 al 5 en los recuadros para mostrar cómo nos lavamos las manos."
+  },
+  "G1-403": {
+    "title": "Cepillado de dientes: antes, durante y después",
+    "instruction": "Encierra en un círculo la palabra que dice cuándo se hace: antes, durante o después del cepillado."
+  },
+  "G1-404": {
+    "title": "Alto a los gérmenes: tose en el codo",
+    "instruction": "En cada fila, encierra en un círculo el dibujo que detiene a los gérmenes."
+  },
+  "G2-379": {
+    "title": "Hábitos de higiene y salud: ¿por qué los hacemos?",
+    "instruction": "Une con una línea cada hábito con la oración que dice por qué lo hacemos."
+  },
+  "G1-405": {
+    "title": "Tabla semanal de hábitos: higiene, ejercicio y descanso",
+    "instruction": "Cada día, marca con una palomita el cuadro de cada hábito que hiciste."
+  },
+  "K-383": {
+    "title": "Las casas de los animales: nido, colmena y madriguera",
+    "instruction": "Une con una línea cada animal con su casa."
+  },
+  "G1-406": {
+    "title": "Hábitat de los animales: el animal que no vive aquí",
+    "instruction": "En cada fila, tacha el animal que no vive en ese hábitat."
+  },
+  "G2-380": {
+    "title": "Adaptación de los animales a su hábitat",
+    "instruction": "Escribe en su cuadro la letra del animal del que habla cada oración."
+  },
+  "G1-407": {
+    "title": "¿Qué necesitan los animales para vivir?",
+    "instruction": "Para cada animal, encierra en un círculo lo que come y la casa donde vive."
+  },
+  "G2-381": {
+    "title": "Mi reporte del hábitat: animales y plantas",
+    "instruction": "Dibuja tres animales de este hábitat, escribe sus nombres y una planta que crece ahí, y encierra en un círculo la palabra correcta de cada par."
+  },
+  "G1-408": {
+    "title": "¿Pesado o ligero? Experimento flota o se hunde con balanza",
+    "instruction": "La balanza muestra qué objeto pesa más: encierra en un círculo el que flota en el agua."
+  },
+  "G2-382": {
+    "title": "Experimento con plastilina: cambia la forma y haz que flote",
+    "instruction": "Colorea el círculo donde queda cada forma de plastilina, encierra en un círculo lo que flota y dibuja tu barco de plastilina en la pecera grande."
+  },
+  "G2-383": {
+    "title": "Experimento flota o se hunde: ¿verdadero o falso?",
+    "instruction": "Lee cada oración y encierra en un círculo verdadero o falso."
+  },
+  "K-384": {
+    "title": "Objetos que flotan y se hunden: dibuja tu experimento",
+    "instruction": "Dibuja dos cosas que flotan en los recuadros del agua y dos cosas que se hunden en los recuadros del fondo."
+  },
+  "G3-400": {
+    "title": "Investigación: ¿flota o se hunde? Mi reporte de laboratorio",
+    "instruction": "Elige una pregunta, escribe lo que crees, haz la prueba, dibuja lo que pasó y escribe lo que aprendiste."
+  },
+  "G2-384": {
+    "title": "Mayúsculas en letra cursiva: escribe los nombres",
+    "instruction": "Repasa cada letra mayúscula gris y cada nombre, y luego escríbelos en el renglón vacío de abajo."
+  },
+  "G2-385": {
+    "title": "Letra cursiva: cómo unir dos letras",
+    "instruction": "Repasa cada par de letras grises unidas y la palabra, y luego escríbelos en el renglón vacío de abajo."
+  },
+  "G2-386": {
+    "title": "Palabras en letra cursiva con dibujos",
+    "instruction": "Repasa cada palabra gris, luego escríbela en el renglón de abajo y al final agrega los puntos, la rayita de la t y los acentos."
+  },
+  "G2-387": {
+    "title": "Lectura en letra cursiva: une cada palabra con su dibujo",
+    "instruction": "Lee cada palabra en letra cursiva y únela con una línea a su dibujo."
+  },
+  "G3-401": {
+    "title": "Oraciones para copiar en letra cursiva",
+    "instruction": "Repasa la oración gris y luego copia cada oración en letra cursiva en los dos renglones de abajo."
   }
 }

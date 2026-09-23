@@ -4608,42 +4608,142 @@
       },
       "story-sequencing": {
         "slug": {
-          "en": "story-sequencing"
+          "en": "story-sequencing",
+          "es": "secuencias-de-cuentos",
+          "fr": "images-sequentielles",
+          "pt": "sequencia-de-fatos",
+          "it": "storie-in-sequenza",
+          "nl": "verhaal-op-volgorde",
+          "sv": "bildserier",
+          "da": "billedserier",
+          "no": "bildeserier",
+          "fi": "kuvasarjat",
+          "de": "bildergeschichten"
         },
         "name": {
-          "en": "Story Sequencing"
+          "en": "Story Sequencing",
+          "es": "Secuencias de cuentos",
+          "fr": "Images séquentielles",
+          "pt": "Sequência de fatos",
+          "it": "Storie in sequenza",
+          "nl": "Verhaal op volgorde",
+          "sv": "Bildserier",
+          "da": "Billedserier",
+          "no": "Bildeserier",
+          "fi": "Kuvasarjat",
+          "de": "Bildergeschichten"
         }
       },
       "healthy-habits": {
         "slug": {
-          "en": "healthy-habits"
+          "en": "healthy-habits",
+          "es": "habitos-de-higiene",
+          "fr": "hygiene-corporelle",
+          "pt": "habitos-de-higiene",
+          "it": "igiene-e-buone-abitudini",
+          "nl": "hygiene-en-verzorging",
+          "sv": "hygien-och-goda-vanor",
+          "da": "hygiejne-og-gode-vaner",
+          "no": "hygiene-og-gode-vaner",
+          "fi": "hygienia-ja-terveelliset-tavat",
+          "de": "hygiene-und-koerperpflege"
         },
         "name": {
-          "en": "Healthy Habits and Hygiene"
+          "en": "Healthy Habits and Hygiene",
+          "es": "Hábitos de higiene",
+          "fr": "Hygiène corporelle",
+          "pt": "Hábitos de higiene",
+          "it": "Igiene e buone abitudini",
+          "nl": "Hygiëne en verzorging",
+          "sv": "Hygien och goda vanor",
+          "da": "Hygiejne og gode vaner",
+          "no": "Hygiene og gode vaner",
+          "fi": "Hygienia ja terveelliset tavat",
+          "de": "Hygiene und Körperpflege"
         }
       },
       "habitats": {
         "slug": {
-          "en": "habitats"
+          "en": "habitats",
+          "es": "animales-y-su-habitat",
+          "fr": "milieux-de-vie-des-animaux",
+          "pt": "habitat-dos-animais",
+          "it": "ambienti-degli-animali",
+          "nl": "dieren-en-hun-leefgebied",
+          "sv": "djurens-livsmiljoer",
+          "da": "dyrs-levesteder",
+          "no": "dyrenes-leveomrader",
+          "fi": "elainten-elinymparistot",
+          "de": "lebensraeume-der-tiere"
         },
         "name": {
-          "en": "Animal Habitats"
+          "en": "Animal Habitats",
+          "es": "Los animales y su hábitat",
+          "fr": "Milieux de vie des animaux",
+          "pt": "Habitat dos animais",
+          "it": "Ambienti degli animali",
+          "nl": "Dieren en hun leefgebied",
+          "sv": "Djurens livsmiljöer",
+          "da": "Dyrs levesteder",
+          "no": "Dyrenes leveområder",
+          "fi": "Eläinten elinympäristöt",
+          "de": "Lebensräume der Tiere"
         }
       },
       "sink-or-float": {
         "slug": {
-          "en": "sink-or-float"
+          "en": "sink-or-float",
+          "es": "experimento-flota-o-se-hunde",
+          "fr": "flotte-ou-coule-experience",
+          "pt": "experiencia-afunda-ou-flutua",
+          "it": "esperimento-galleggia-o-affonda",
+          "nl": "drijven-en-zinken",
+          "sv": "flyta-eller-sjunka-experiment",
+          "da": "flyde-eller-synke-forsoeg",
+          "no": "flyte-eller-synke-forsok",
+          "fi": "kelluminen-ja-uppoaminen",
+          "de": "schwimmen-und-sinken"
         },
         "name": {
-          "en": "Sink or Float"
+          "en": "Sink or Float",
+          "es": "Flota o se hunde",
+          "fr": "Flotte ou coule : expériences",
+          "pt": "Experiência afunda ou flutua",
+          "it": "Galleggia o affonda",
+          "nl": "Drijven en zinken",
+          "sv": "Flyta eller sjunka",
+          "da": "Flyde eller synke",
+          "no": "Flyte eller synke",
+          "fi": "Kelluminen ja uppoaminen",
+          "de": "Schwimmen und Sinken"
         }
       },
       "cursive-writing": {
         "slug": {
-          "en": "cursive-writing"
+          "en": "cursive-writing",
+          "es": "letra-cursiva",
+          "fr": "ecriture-cursive",
+          "pt": "letra-cursiva",
+          "it": "corsivo",
+          "nl": "verbonden-schrift",
+          "sv": "skrivstil",
+          "da": "sammenhaengende-skrift",
+          "no": "sammenhengende-skrift",
+          "fi": "kaunokirjoitus",
+          "de": "schreibschrift"
         },
         "name": {
-          "en": "Cursive Writing"
+          "en": "Cursive Writing",
+          "es": "Letra cursiva",
+          "fr": "Écriture cursive",
+          "pt": "Letra cursiva",
+          "it": "Corsivo",
+          "nl": "Verbonden schrift",
+          "sv": "Skrivstil",
+          "da": "Sammenhængende skrift",
+          "no": "Sammenhengende skrift",
+          "fi": "Kaunokirjoitus",
+          "de": "Schreibschrift"
         }
       }
     },

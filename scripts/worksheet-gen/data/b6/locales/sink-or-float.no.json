@@ -1,0 +1,166 @@
+{
+  "floatWord": "flyter",
+  "sinkWord": "synker",
+  "heads": {
+    "guess": "Jeg gjetter",
+    "test": "Forsøket",
+    "surprise": "Overrasket?"
+  },
+  "trueWord": "sant",
+  "falseWord": "usant",
+  "clayWord": "leire",
+  "labels": {
+    "ball": "ball",
+    "log": "vedkubbe",
+    "pumpkin": "gresskar",
+    "apple": "eple",
+    "lemon": "sitron",
+    "banana": "banan",
+    "leaf": "blad",
+    "feather": "fjær",
+    "pinecone": "kongle",
+    "pencil": "blyant",
+    "toyboat": "lekebåt",
+    "ship": "skip",
+    "orange": "appelsin",
+    "rock": "stein",
+    "nail": "spiker",
+    "hammer": "hammer",
+    "bolt": "bolt",
+    "pliers": "tang",
+    "scissors": "saks",
+    "potato": "potet"
+  },
+  "tf": {
+    "T1": "En stor vedkubbe flyter.",
+    "T2": "En liten spiker synker.",
+    "T3": "Et skip av stål flyter.",
+    "T4": "Et tungt gresskar flyter.",
+    "T5": "Et eple flyter, men en potet synker.",
+    "T6": "Den samme leira kan synke eller flyte.",
+    "T7": "Noen tunge ting flyter.",
+    "T8": "Noen lette ting synker.",
+    "F1": "En potet flyter.",
+    "F2": "En fjær synker.",
+    "F3": "Et skip av stål synker.",
+    "F4": "En ball full av luft synker.",
+    "F5": "Alle tunge ting synker.",
+    "F6": "Alle lette ting flyter.",
+    "F7": "Store ting synker alltid.",
+    "F8": "En ting flyter fordi den er lett.",
+    "F9": "Bare små ting kan flyte."
+  },
+  "report": {
+    "question": "Mitt spørsmål",
+    "predict": "Jeg tror",
+    "result": "Dette skjedde",
+    "learned": "Jeg lærte",
+    "starter": "Nå vet jeg at"
+  },
+  "questions": {
+    "orange": "Flyter en appelsin med skall? Flyter den uten skall?",
+    "cargo": "Hvor mange klosser kan en leirbåt bære før den synker?"
+  },
+  "forbidden": [
+    "tunge ting synker",
+    "lette ting flyter",
+    "fordi den er lett",
+    "fordi det er lett",
+    "tetthet",
+    "oppdrift",
+    "salt"
+  ],
+  "experimentWords": [
+    "forsøk",
+    "gjett",
+    "test",
+    "eksperiment"
+  ],
+  "apparatus": {
+    "ring": "ring",
+    "tank": "vannkar",
+    "star": "stjerne",
+    "spot": "stiplede rute"
+  },
+  "instructionBans": {
+    "base": [
+      "strek",
+      "gruppe",
+      "grupper",
+      "kasse",
+      "hake",
+      "klipp",
+      "ring rundt"
+    ],
+    "scale": [
+      "strek",
+      "gruppe",
+      "grupper",
+      "kasse",
+      "hake",
+      "klipp",
+      "fargelegg"
+    ],
+    "shape": [
+      "strek",
+      "gruppe",
+      "grupper",
+      "kasse",
+      "hake",
+      "klipp"
+    ],
+    "truth": [
+      "strek",
+      "gruppe",
+      "grupper",
+      "kasse",
+      "hake",
+      "klipp",
+      "fargelegg"
+    ],
+    "draw": [
+      "strek",
+      "gruppe",
+      "grupper",
+      "kasse",
+      "hake",
+      "klipp",
+      "ring rundt"
+    ],
+    "report": [
+      "strek",
+      "gruppe",
+      "grupper",
+      "kasse",
+      "hake",
+      "klipp"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "G1-399": {
+      "title": "Flyte eller synke: gjett og test med et forsøk",
+      "instruction": "Fargelegg en ring i det første vannkaret før forsøket, en ring i det andre vannkaret etterpå, og stjerna hvis du ble overrasket."
+    },
+    "G1-408": {
+      "title": "Tung eller lett? Flyte eller synke, forsøk med vekt",
+      "instruction": "Vekta viser hva som er tyngst: sett ring rundt det som flyter i vann."
+    },
+    "G2-382": {
+      "title": "Båt av leire: forsøk med form",
+      "instruction": "Fargelegg ringen der hver leirform havner, sett ring rundt det som flyter, og tegn så din egen leirbåt i det store vannkaret."
+    },
+    "G2-383": {
+      "title": "Hvorfor flyter ting? Sant eller usant etter forsøket",
+      "instruction": "Les hver setning, og sett ring rundt sant eller usant."
+    },
+    "K-384": {
+      "title": "Hva flyter, hva synker? Tegn forsøket",
+      "instruction": "Tegn to ting som flyter, i de stiplede rutene på vannet, og to som synker, i de stiplede rutene på bunnen."
+    },
+    "G3-400": {
+      "title": "Mitt forsøk: flyter appelsinen?",
+      "instruction": "Velg et spørsmål, skriv hva du tror, test det, og tegn hva som skjedde og skriv hva du lærte."
+    }
+  }
+}

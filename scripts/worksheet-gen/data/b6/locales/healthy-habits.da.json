@@ -1,0 +1,123 @@
+{
+  "strings": {
+    "base": {
+      "title": "Hygiejne og gode vaner: hvad skal barnet bruge?",
+      "instruction": "Tegn en streg fra hvert barn til den ting, barnet skal bruge."
+    },
+    "hand-washing-steps": {
+      "title": "Vaske hænder: sådan gør du",
+      "instruction": "Skriv 1 til 5 i felterne, så de viser, hvordan vi vasker hænder."
+    },
+    "brushing-teeth": {
+      "title": "Børste tænder: før, under og efter",
+      "instruction": "Sæt ring om det ord, der fortæller, hvornår det sker: før, under eller efter tandbørstningen."
+    },
+    "stop-the-germs": {
+      "title": "Host og nys i ærmet: stop bakterierne",
+      "instruction": "Sæt ring om det billede i hver række, der stopper bakterierne i at sprede sig."
+    },
+    "why-habits": {
+      "title": "Hygiejne og gode vaner: hvorfor gør vi det?",
+      "instruction": "Tegn en streg fra hver vane til den sætning, der fortæller, hvorfor vi gør det."
+    },
+    "habit-chart": {
+      "title": "Ugeskema med gode vaner",
+      "instruction": "Sæt hver dag et flueben i feltet ud for hver vane, du har gjort."
+    }
+  },
+  "phases": {
+    "before": "før",
+    "during": "under",
+    "after": "efter"
+  },
+  "labels": {
+    "wash-hands": "vaske hænder",
+    "brush-teeth": "børste tænder",
+    "sleep": "sove",
+    "move-body": "bevæge sig",
+    "drink-water": "drikke vand",
+    "sun-protect": "passe på i solen",
+    "blow-nose": "pudse næse",
+    "comb-hair": "rede hår"
+  },
+  "labelStems": {
+    "wash-hands": [
+      "vaske",
+      "vasker",
+      "vask",
+      "hånd",
+      "hænder",
+      "hænderne",
+      "sæbe"
+    ],
+    "brush-teeth": [
+      "børste",
+      "børster",
+      "tænder",
+      "tand",
+      "tænderne",
+      "tandbørste",
+      "tandpasta"
+    ],
+    "sleep": [
+      "sove",
+      "sover",
+      "søvn",
+      "seng",
+      "sengen",
+      "nat",
+      "natten"
+    ],
+    "move-body": [
+      "bevæge",
+      "bevæger",
+      "løbe",
+      "løber",
+      "lege",
+      "leger",
+      "sport"
+    ],
+    "sun-protect": [
+      "sol",
+      "solen",
+      "hat",
+      "solcreme",
+      "creme",
+      "hud",
+      "huden"
+    ],
+    "drink-water": [
+      "drikke",
+      "drikker",
+      "vand",
+      "vandet",
+      "glas"
+    ],
+    "blow-nose": [
+      "pudse",
+      "pudser",
+      "lommetørklæde",
+      "næse",
+      "næsen"
+    ],
+    "comb-hair": [
+      "rede",
+      "reder",
+      "kam",
+      "hår",
+      "håret"
+    ]
+  },
+  "reasons": {
+    "wash-hands": "Det fjerner bakterierne fra alt det, vi har rørt ved.",
+    "brush-teeth": "Det holder smilet rent og flot.",
+    "sleep": "Krop og hjerne hviler sig og bliver klar til en ny dag.",
+    "move-body": "Det gør os friske, hurtige og stærke.",
+    "sun-protect": "Vi bliver ikke forbrændt på en varm sommerdag.",
+    "drink-water": "Kroppen har brug for det for at fungere godt.",
+    "blow-nose": "Så kan vi trække vejret frit igen."
+  },
+  "kaiOrder": false,
+  "coughPhrase": "i ærmet",
+  "weekStartOverride": null
+}

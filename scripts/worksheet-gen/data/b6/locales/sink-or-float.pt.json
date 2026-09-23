@@ -1,0 +1,154 @@
+{
+  "floatWord": "flutua",
+  "sinkWord": "afunda",
+  "heads": {
+    "guess": "Eu acho",
+    "test": "O teste",
+    "surprise": "Surpresa?"
+  },
+  "trueWord": "verdadeiro",
+  "falseWord": "falso",
+  "clayWord": "massinha",
+  "labels": {
+    "ball": "bola",
+    "log": "tronco",
+    "pumpkin": "abóbora",
+    "apple": "maçã",
+    "lemon": "limão",
+    "banana": "banana",
+    "leaf": "folha",
+    "feather": "pena",
+    "pinecone": "pinha",
+    "pencil": "lápis",
+    "toyboat": "barquinho",
+    "ship": "navio",
+    "orange": "laranja",
+    "rock": "pedra",
+    "nail": "prego",
+    "hammer": "martelo",
+    "bolt": "parafuso",
+    "pliers": "alicate",
+    "scissors": "tesoura",
+    "potato": "batata"
+  },
+  "tf": {
+    "T1": "Um tronco grande flutua.",
+    "T2": "Um prego pequeno afunda.",
+    "T3": "Um navio de aço flutua.",
+    "T4": "Uma abóbora pesada flutua.",
+    "T5": "A maçã flutua, mas a batata afunda.",
+    "T6": "A mesma massinha pode afundar ou flutuar.",
+    "T7": "Algumas coisas pesadas flutuam.",
+    "T8": "Algumas coisas leves afundam.",
+    "F1": "A batata flutua.",
+    "F2": "A pena afunda.",
+    "F3": "Um navio de aço afunda.",
+    "F4": "Uma bola cheia de ar afunda.",
+    "F5": "Todas as coisas pesadas afundam.",
+    "F6": "Todas as coisas leves flutuam.",
+    "F7": "Coisas grandes sempre afundam.",
+    "F8": "Uma coisa flutua porque é leve.",
+    "F9": "Só coisas pequenas podem flutuar."
+  },
+  "report": {
+    "question": "Minha pergunta",
+    "predict": "Eu acho que",
+    "result": "O que aconteceu",
+    "learned": "Eu aprendi",
+    "starter": "Agora eu sei que"
+  },
+  "questions": {
+    "orange": "A laranja com casca flutua? E sem a casca, ela flutua?",
+    "cargo": "Quantos cubinhos um barquinho de massinha aguenta antes de afundar?"
+  },
+  "forbidden": [
+    "coisas pesadas afundam",
+    "coisas leves flutuam",
+    "porque é leve",
+    "densidade",
+    "empuxo",
+    "água salgada"
+  ],
+  "experimentWords": [
+    "experiência",
+    "experimento",
+    "teste",
+    "investigação",
+    "relatório"
+  ],
+  "apparatus": {
+    "ring": "círculo",
+    "tank": "aquário",
+    "star": "estrela",
+    "spot": "espaço"
+  },
+  "instructionBans": {
+    "base": [
+      "ligue",
+      "traço",
+      "grupo",
+      "recorte",
+      "circule"
+    ],
+    "scale": [
+      "ligue",
+      "traço",
+      "grupo",
+      "recorte",
+      "pinte"
+    ],
+    "shape": [
+      "ligue",
+      "traço",
+      "grupo",
+      "recorte"
+    ],
+    "truth": [
+      "ligue",
+      "traço",
+      "grupo",
+      "recorte",
+      "pinte"
+    ],
+    "draw": [
+      "ligue",
+      "traço",
+      "grupo",
+      "recorte",
+      "circule"
+    ],
+    "report": [
+      "ligue",
+      "traço",
+      "grupo",
+      "recorte"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "G1-399": {
+      "title": "Experiência afunda ou flutua: o que você acha?",
+      "instruction": "Antes do teste, pinte um círculo no primeiro aquário; depois do teste, pinte um círculo no segundo aquário e a estrela se você se surpreendeu."
+    },
+    "G1-408": {
+      "title": "Pesado ou leve? Experiência com balança: flutua ou afunda",
+      "instruction": "A balança mostra o que é mais pesado: circule o que flutua na água."
+    },
+    "G2-382": {
+      "title": "Barquinho de massinha que flutua: experiência da forma",
+      "instruction": "Pinte o círculo onde cada forma de massinha vai parar, circule o que flutua e desenhe o seu barquinho de massinha no aquário grande."
+    },
+    "G2-383": {
+      "title": "Por que flutua? Verdadeiro ou falso da experiência",
+      "instruction": "Leia cada frase e circule verdadeiro ou falso."
+    },
+    "K-384": {
+      "title": "O que flutua e o que afunda: desenhe a experiência",
+      "instruction": "Desenhe duas coisas que flutuam nos espaços tracejados da água e duas que afundam nos espaços tracejados do fundo."
+    },
+    "G3-400": {
+      "title": "Relatório da experiência: flutua ou afunda",
+      "instruction": "Escolha uma pergunta, escreva o que você acha, faça o teste, desenhe o que aconteceu e escreva o que aprendeu."
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "sets": {
+    "base": [
+      "forest",
+      "pond",
+      "meadow",
+      "ocean",
+      "polar",
+      "savanna",
+      "rainforest"
+    ]
+  },
+  "tileLabel": {
+    "ocean": "Océan",
+    "pond": "Mare",
+    "forest": "Forêt",
+    "meadow": "Prairie",
+    "polar": "Banquise",
+    "polar-arctic": "Arctique",
+    "savanna": "Savane",
+    "rainforest": "Jungle"
+  },
+  "adapt": {
+    "camel-hump": "Sa bosse stocke de la graisse : il peut rester longtemps sans manger.",
+    "giraffe-neck": "Son long cou atteint les feuilles tout en haut des arbres.",
+    "elephant-trunk": "Sa longue trompe aspire l'eau et attrape la nourriture.",
+    "penguin-flippers": "Ses ailes sont des nageoires : il nage vite, mais il ne peut pas voler.",
+    "walrus-tusks": "Il se sert de ses longues défenses pour sortir son corps lourd de l'eau.",
+    "woodpecker-beak": "Son bec dur et pointu creuse des trous dans les troncs d'arbres.",
+    "beaver-teeth": "Ses grandes dents de devant coupent des arbres pour construire sa hutte dans l'eau.",
+    "whale-blowhole": "Cet animal respire l'air par un trou sur le dessus de sa tête.",
+    "fish-gills": "Cet animal respire sous l'eau grâce à ses branchies.",
+    "duck-feet": "Ses pattes palmées poussent l'eau comme des rames.",
+    "sloth-claws": "Ses longues griffes courbées lui permettent de rester accroché aux branches pendant des heures.",
+    "toucan-beak": "Son énorme bec cueille les fruits au bout des branches fines.",
+    "squirrel-tail": "Sa queue touffue l'aide à garder l'équilibre quand il saute de branche en branche."
+  },
+  "names": {
+    "whale": [
+      "baleine"
+    ],
+    "dolphin": [
+      "dauphin"
+    ],
+    "octopus": [
+      "pieuvre",
+      "poulpe"
+    ],
+    "starfish": [
+      "étoile de mer"
+    ],
+    "jellyfish": [
+      "méduse"
+    ],
+    "shark": [
+      "requin"
+    ],
+    "clownfish": [
+      "poisson-clown",
+      "poisson",
+      "nemo"
+    ],
+    "crab": [
+      "crabe"
+    ],
+    "ray": [
+      "raie"
+    ],
+    "seal-grey": [
+      "phoque"
+    ],
+    "seal-white": [
+      "phoque",
+      "bébé phoque"
+    ],
+    "walrus": [
+      "morse"
+    ],
+    "narwhal": [
+      "narval"
+    ],
+    "penguin": [
+      "manchot",
+      "pingouin"
+    ],
+    "deer": [
+      "faon",
+      "biche",
+      "cerf",
+      "chevreuil",
+      "bambi"
+    ],
+    "squirrel": [
+      "écureuil"
+    ],
+    "woodpecker": [
+      "pic",
+      "pic-vert",
+      "pivert"
+    ],
+    "badger": [
+      "blaireau"
+    ],
+    "moose": [
+      "élan",
+      "orignal"
+    ],
+    "frog": [
+      "grenouille"
+    ],
+    "dragonfly": [
+      "libellule"
+    ],
+    "beaver": [
+      "castor"
+    ],
+    "duck": [
+      "canard",
+      "caneton",
+      "poussin"
+    ],
+    "swan": [
+      "cygne"
+    ],
+    "butterfly": [
+      "papillon"
+    ],
+    "bee": [
+      "abeille"
+    ],
+    "grasshopper": [
+      "sauterelle",
+      "criquet"
+    ],
+    "ladybug": [
+      "coccinelle"
+    ],
+    "lion": [
+      "lion"
+    ],
+    "zebra": [
+      "zèbre"
+    ],
+    "giraffe": [
+      "girafe"
+    ],
+    "elephant": [
+      "éléphant"
+    ],
+    "rhinoceros": [
+      "rhinocéros",
+      "rhino"
+    ],
+    "ostrich": [
+      "autruche"
+    ],
+    "monkey": [
+      "singe"
+    ],
+    "gorilla": [
+      "gorille"
+    ],
+    "orangutan": [
+      "orang-outan",
+      "singe",
+      "gorille"
+    ],
+    "sloth": [
+      "paresseux"
+    ],
+    "toucan": [
+      "toucan"
+    ],
+    "macaw": [
+      "ara",
+      "perroquet"
+    ],
+    "camel": [
+      "dromadaire",
+      "chameau"
+    ],
+    "bird": [
+      "oiseau"
+    ],
+    "spider": [
+      "araignée"
+    ],
+    "rabbit": [
+      "lapin"
+    ],
+    "ant": [
+      "fourmi"
+    ]
+  },
+  "needs": {
+    "line": "Chaque animal a besoin de nourriture, d'eau et d'un abri.",
+    "foodHead": "Nourriture",
+    "homeHead": "Abri"
+  },
+  "report": {
+    "animals": "Des animaux qui vivent ici",
+    "plant": "Une plante qui pousse ici",
+    "hot": "chaud",
+    "cold": "froid",
+    "wet": "humide",
+    "dry": "sec"
+  },
+  "homeWord": {
+    "nest": "nid",
+    "hive": "ruche",
+    "web": "toile",
+    "burrow": "terrier",
+    "anthill": "fourmilière",
+    "lodge": "hutte"
+  },
+  "refuse": [],
+  "refuseClaims": [],
+  "strings": {
+    "G1-398": {
+      "title": "Les milieux de vie des animaux : qui vit où ?",
+      "instruction": "Sous chaque animal, écris la lettre du milieu où il vit."
+    },
+    "K-383": {
+      "title": "Le nid, le terrier, la ruche : les maisons des animaux",
+      "instruction": "Relie chaque animal à sa maison."
+    },
+    "G1-406": {
+      "title": "Milieux de vie des animaux : trouve l'intrus",
+      "instruction": "Dans chaque rangée, barre l'animal qui ne vit pas dans ce milieu."
+    },
+    "G2-380": {
+      "title": "L'adaptation des animaux à leur milieu",
+      "instruction": "Écris dans sa case la lettre de l'animal dont parle chaque phrase."
+    },
+    "G1-407": {
+      "title": "Les besoins des animaux : nourriture et abri",
+      "instruction": "Pour chaque animal, entoure sa nourriture et son abri."
+    },
+    "G2-381": {
+      "title": "Mon enquête sur un milieu de vie",
+      "instruction": "Dessine trois animaux qui vivent dans ce milieu, écris leur nom et une plante qui y pousse, puis entoure le bon mot de chaque paire."
+    }
+  },
+  "placeWords": [
+    "désert",
+    "mer",
+    "océan",
+    "glace",
+    "banquise",
+    "arctique",
+    "antarctique",
+    "pôle",
+    "mare",
+    "étang",
+    "lac",
+    "forêt",
+    "bois",
+    "prairie",
+    "champ",
+    "savane",
+    "jungle"
+  ]
+}

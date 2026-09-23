@@ -1,0 +1,105 @@
+{
+  "strings": {
+    "base": {
+      "title": "Hábitos de higiene: o que cada criança usa?",
+      "instruction": "Ligue cada criança ao objeto de que ela precisa."
+    },
+    "hand-washing-steps": {
+      "title": "Como lavar as mãos: os passos",
+      "instruction": "Escreva de 1 a 5 nos quadrinhos para mostrar como lavamos as mãos."
+    },
+    "brushing-teeth": {
+      "title": "Escovar os dentes: antes, durante e depois",
+      "instruction": "Circule a palavra que diz quando isso acontece: antes, durante ou depois de escovar."
+    },
+    "stop-the-germs": {
+      "title": "Como evitar os germes: tussa no cotovelo",
+      "instruction": "Em cada fileira, circule a cena que impede os germes de se espalharem."
+    },
+    "why-habits": {
+      "title": "Hábitos de higiene: por que são importantes?",
+      "instruction": "Ligue cada hábito à frase que explica por que fazemos isso."
+    },
+    "habit-chart": {
+      "title": "Quadro semanal de hábitos de higiene e saúde",
+      "instruction": "Todos os dias, marque com um X o quadrinho de cada hábito que você fez."
+    }
+  },
+  "phases": {
+    "before": "antes",
+    "during": "durante",
+    "after": "depois"
+  },
+  "labels": {
+    "wash-hands": "lavar as mãos",
+    "brush-teeth": "escovar os dentes",
+    "sleep": "dormir",
+    "move-body": "mexer o corpo",
+    "drink-water": "beber água",
+    "sun-protect": "cuidar-se no sol",
+    "blow-nose": "assoar o nariz",
+    "comb-hair": "pentear o cabelo"
+  },
+  "labelStems": {
+    "wash-hands": [
+      "lavar",
+      "lava",
+      "mão",
+      "mãos",
+      "sabonete"
+    ],
+    "brush-teeth": [
+      "escovar",
+      "escova",
+      "dente",
+      "dentes",
+      "pasta"
+    ],
+    "sleep": [
+      "dormir",
+      "dorme",
+      "cama",
+      "noite",
+      "sono"
+    ],
+    "move-body": [
+      "mexer",
+      "correr",
+      "brincar",
+      "esporte"
+    ],
+    "sun-protect": [
+      "sol",
+      "chapéu",
+      "protetor"
+    ],
+    "drink-water": [
+      "beber",
+      "bebe",
+      "água",
+      "copo"
+    ],
+    "blow-nose": [
+      "assoar",
+      "nariz",
+      "lenço"
+    ],
+    "comb-hair": [
+      "pentear",
+      "pente",
+      "cabelo"
+    ]
+  },
+  "reasons": {
+    "wash-hands": "Tira os germes de todas as coisas em que tocamos.",
+    "brush-teeth": "Deixa o nosso sorriso limpo e bonito.",
+    "sleep": "Descansamos e acordamos com energia para um novo dia.",
+    "move-body": "Deixa a gente mais forte, rápido e disposto.",
+    "sun-protect": "Não ficamos queimados num dia muito quente e claro.",
+    "drink-water": "O corpo precisa dela para funcionar bem.",
+    "blow-nose": "Conseguimos respirar bem de novo."
+  },
+  "kaiOrder": false,
+  "coughPhrase": "no cotovelo",
+  "weekStartOverride": null
+}

@@ -1,0 +1,114 @@
+{
+  "strings": {
+    "base": {
+      "title": "Hygiene und Körperpflege: Was braucht jedes Kind?",
+      "instruction": "Zieh eine Linie von jedem Kind zu dem, was es braucht."
+    },
+    "hand-washing-steps": {
+      "title": "Richtig Hände waschen",
+      "instruction": "Schreibe 1 bis 5 in die Kästchen, so wie wir die Hände waschen."
+    },
+    "brushing-teeth": {
+      "title": "Richtig Zähne putzen: vorher, dabei und danach",
+      "instruction": "Kreise bei jedem Bild ein, wann es passiert: vorher, beim Putzen oder danach."
+    },
+    "stop-the-germs": {
+      "title": "Keime stoppen: in die Armbeuge husten",
+      "instruction": "Kreise in jeder Reihe das Bild ein, das Keime stoppt."
+    },
+    "why-habits": {
+      "title": "Hygiene und Gesundheit: Warum machen wir das?",
+      "instruction": "Verbinde jede Gewohnheit mit dem Satz, der sagt, warum wir das tun."
+    },
+    "habit-chart": {
+      "title": "Wochenplan für gesunde Gewohnheiten zum Abhaken",
+      "instruction": "Mach jeden Tag ein Häkchen in das Kästchen für alles, was du gemacht hast."
+    }
+  },
+  "phases": {
+    "before": "vorher",
+    "during": "beim Putzen",
+    "after": "danach"
+  },
+  "labels": {
+    "wash-hands": "Hände waschen",
+    "brush-teeth": "Zähne putzen",
+    "sleep": "schlafen",
+    "move-body": "sich bewegen",
+    "drink-water": "Wasser trinken",
+    "sun-protect": "Hut aufsetzen",
+    "blow-nose": "Nase putzen",
+    "comb-hair": "Haare kämmen"
+  },
+  "labelStems": {
+    "wash-hands": [
+      "waschen",
+      "wäscht",
+      "wasch",
+      "hände",
+      "hand",
+      "seife"
+    ],
+    "brush-teeth": [
+      "putzen",
+      "putzt",
+      "zähne",
+      "zahn",
+      "zahnbürste",
+      "zahnpasta"
+    ],
+    "sleep": [
+      "schlafen",
+      "schläft",
+      "schlaf",
+      "bett",
+      "nacht"
+    ],
+    "move-body": [
+      "bewegen",
+      "bewegung",
+      "rennen",
+      "laufen",
+      "spielen",
+      "sport",
+      "toben"
+    ],
+    "sun-protect": [
+      "sonne",
+      "hut",
+      "creme",
+      "sonnencreme",
+      "mütze"
+    ],
+    "drink-water": [
+      "trinken",
+      "trinkt",
+      "wasser",
+      "glas",
+      "becher"
+    ],
+    "blow-nose": [
+      "schnäuzen",
+      "taschentuch",
+      "nase"
+    ],
+    "comb-hair": [
+      "kämmen",
+      "kamm",
+      "haare",
+      "haar"
+    ]
+  },
+  "reasons": {
+    "wash-hands": "So kommen die Keime weg, die an allem kleben, was wir angefasst haben.",
+    "brush-teeth": "Das schützt vor Karies und hält unser Lächeln schön sauber.",
+    "sleep": "Körper und Kopf ruhen sich aus, damit wir morgen wieder munter sind.",
+    "move-body": "Das macht uns fit, schnell und stark.",
+    "sun-protect": "Unsere Haut wird nicht rot und tut nicht weh.",
+    "drink-water": "Unser Körper braucht das, damit er gut arbeiten kann.",
+    "blow-nose": "Wir bekommen wieder gut Luft."
+  },
+  "kaiOrder": true,
+  "coughPhrase": "in die Armbeuge",
+  "weekStartOverride": null
+}

@@ -1,0 +1,163 @@
+{
+  "floatWord": "galleggia",
+  "sinkWord": "affonda",
+  "heads": {
+    "guess": "Prevedo",
+    "test": "Verifico",
+    "surprise": "Sorpresa?"
+  },
+  "trueWord": "vero",
+  "falseWord": "falso",
+  "clayWord": "plastilina",
+  "labels": {
+    "ball": "pallone",
+    "log": "tronco",
+    "pumpkin": "zucca",
+    "apple": "mela",
+    "lemon": "limone",
+    "banana": "banana",
+    "leaf": "foglia",
+    "feather": "piuma",
+    "pinecone": "pigna",
+    "pencil": "matita",
+    "toyboat": "barchetta",
+    "ship": "nave",
+    "orange": "arancia",
+    "rock": "sasso",
+    "nail": "chiodo",
+    "hammer": "martello",
+    "bolt": "bullone",
+    "pliers": "pinze",
+    "scissors": "forbici",
+    "potato": "patata"
+  },
+  "tf": {
+    "T1": "Un grosso tronco galleggia.",
+    "T2": "Un piccolo chiodo affonda.",
+    "T3": "Una nave d'acciaio galleggia.",
+    "T4": "Una zucca pesante galleggia.",
+    "T5": "Una mela galleggia, ma una patata affonda.",
+    "T6": "La stessa plastilina può affondare o galleggiare.",
+    "T7": "Alcune cose pesanti galleggiano.",
+    "T8": "Alcune cose leggere affondano.",
+    "F1": "Una patata galleggia.",
+    "F2": "Una piuma affonda.",
+    "F3": "Una nave d'acciaio affonda.",
+    "F4": "Un pallone pieno d'aria affonda.",
+    "F5": "Tutte le cose pesanti affondano.",
+    "F6": "Tutte le cose leggere galleggiano.",
+    "F7": "Le cose grandi affondano sempre.",
+    "F8": "Una cosa galleggia perché è leggera.",
+    "F9": "Solo le cose piccole possono galleggiare."
+  },
+  "report": {
+    "question": "La mia domanda",
+    "predict": "Penso che",
+    "result": "Che cosa è successo",
+    "learned": "Ho imparato",
+    "starter": "Adesso so che"
+  },
+  "questions": {
+    "orange": "Un'arancia galleggia con la buccia? E senza la buccia?",
+    "cargo": "Quanti cubetti porta una barchetta di plastilina prima di affondare?"
+  },
+  "forbidden": [
+    "le cose pesanti affondano",
+    "le cose leggere galleggiano",
+    "perché è leggera",
+    "perché è leggero",
+    "densità",
+    "galleggiamento dei corpi",
+    "archimede",
+    "spinta",
+    "acqua salata"
+  ],
+  "experimentWords": [
+    "esperimento",
+    "prevedo",
+    "verifico",
+    "relazione",
+    "prova"
+  ],
+  "apparatus": {
+    "ring": "cerchio",
+    "tank": "vaschetta",
+    "star": "stella",
+    "spot": "riquadri"
+  },
+  "instructionBans": {
+    "base": [
+      "linea",
+      "gruppo",
+      "cestino",
+      "spunta",
+      "ritaglia",
+      "cerchia"
+    ],
+    "scale": [
+      "linea",
+      "gruppo",
+      "cestino",
+      "spunta",
+      "ritaglia",
+      "colora"
+    ],
+    "shape": [
+      "linea",
+      "gruppo",
+      "cestino",
+      "spunta",
+      "ritaglia"
+    ],
+    "truth": [
+      "linea",
+      "gruppo",
+      "cestino",
+      "spunta",
+      "ritaglia",
+      "colora"
+    ],
+    "draw": [
+      "linea",
+      "gruppo",
+      "cestino",
+      "spunta",
+      "ritaglia",
+      "cerchia"
+    ],
+    "report": [
+      "linea",
+      "gruppo",
+      "cestino",
+      "spunta",
+      "ritaglia"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "G1-399": {
+      "title": "Esperimento galleggia o affonda: prevedo e verifico",
+      "instruction": "Colora un cerchio nella prima vaschetta prima della prova, un cerchio nella seconda dopo la prova e la stella se il risultato ti ha sorpreso."
+    },
+    "G1-408": {
+      "title": "Pesante o leggero? Esperimento galleggia o affonda con la bilancia",
+      "instruction": "La bilancia mostra quale oggetto è più pesante: cerchia quello che galleggia nell'acqua."
+    },
+    "G2-382": {
+      "title": "La barchetta di plastilina: esperimento sulla forma",
+      "instruction": "Colora il cerchio dove finisce ogni forma di plastilina, cerchia l'oggetto che galleggia e poi disegna la tua barchetta nella vaschetta grande."
+    },
+    "G2-383": {
+      "title": "Perché galleggia? Vero o falso sull'esperimento",
+      "instruction": "Leggi ogni frase e cerchia vero o falso."
+    },
+    "K-384": {
+      "title": "Cosa galleggia e cosa affonda: disegna l'esperimento",
+      "instruction": "Disegna due cose che galleggiano nei riquadri sull'acqua e due che affondano nei riquadri sul fondo."
+    },
+    "G3-400": {
+      "title": "La relazione del mio esperimento: galleggia o affonda",
+      "instruction": "Scegli una domanda, scrivi che cosa pensi, fai la prova, poi disegna che cosa è successo e scrivi che cosa hai imparato."
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "sets": {
+    "base": [
+      "forest",
+      "meadow",
+      "pond",
+      "ocean"
+    ]
+  },
+  "tileLabel": {
+    "ocean": "Meer",
+    "pond": "Teich",
+    "forest": "Wald",
+    "meadow": "Wiese",
+    "polar": "Polareis",
+    "polar-arctic": "Arktis",
+    "savanna": "Savanne",
+    "rainforest": "Regenwald"
+  },
+  "adapt": {
+    "camel-hump": "Dieses Tier speichert Fett in seinem Höcker und kommt so lange ohne Futter aus.",
+    "giraffe-neck": "Mit seinem langen Hals erreicht dieses Tier die Blätter hoch oben in den Bäumen.",
+    "elephant-trunk": "Mit seinem langen Rüssel saugt dieses Tier Wasser auf und greift nach Futter.",
+    "penguin-flippers": "Seine Flügel sind Flossen: Dieses Tier schwimmt schnell, kann aber nicht fliegen.",
+    "walrus-tusks": "Mit seinen langen Stoßzähnen zieht dieses Tier seinen schweren Körper aus dem Wasser.",
+    "woodpecker-beak": "Mit seinem harten, spitzen Schnabel hackt dieses Tier Löcher in Baumstämme.",
+    "beaver-teeth": "Mit seinen großen Vorderzähnen fällt dieses Tier Bäume und baut damit sein Zuhause im Wasser.",
+    "whale-blowhole": "Dieses Tier atmet Luft durch ein Loch oben auf seinem Kopf.",
+    "fish-gills": "Dieses Tier atmet unter Wasser mit Kiemen.",
+    "duck-feet": "Dieses Tier hat Schwimmhäute zwischen den Zehen und paddelt damit durchs Wasser.",
+    "sloth-claws": "Mit seinen langen, gebogenen Krallen hängt dieses Tier stundenlang an Ästen.",
+    "toucan-beak": "Mit seinem riesigen Schnabel pflückt dieses Tier Früchte weit draußen an dünnen Zweigen.",
+    "squirrel-tail": "Dieses Tier hält mit seinem buschigen Schwanz das Gleichgewicht, wenn es von Ast zu Ast springt."
+  },
+  "names": {
+    "whale": [
+      "Wal"
+    ],
+    "dolphin": [
+      "Delfin",
+      "Delphin"
+    ],
+    "octopus": [
+      "Krake",
+      "Oktopus",
+      "Tintenfisch"
+    ],
+    "starfish": [
+      "Seestern"
+    ],
+    "jellyfish": [
+      "Qualle"
+    ],
+    "shark": [
+      "Hai"
+    ],
+    "clownfish": [
+      "Clownfisch",
+      "Fisch",
+      "Nemo"
+    ],
+    "crab": [
+      "Krabbe",
+      "Krebs"
+    ],
+    "ray": [
+      "Rochen"
+    ],
+    "seal-grey": [
+      "Robbe",
+      "Seehund"
+    ],
+    "seal-white": [
+      "Robbe",
+      "Robbenbaby",
+      "Seehund"
+    ],
+    "walrus": [
+      "Walross"
+    ],
+    "narwhal": [
+      "Narwal"
+    ],
+    "penguin": [
+      "Pinguin"
+    ],
+    "deer": [
+      "Reh",
+      "Rehkitz",
+      "Hirsch"
+    ],
+    "squirrel": [
+      "Eichhörnchen"
+    ],
+    "woodpecker": [
+      "Specht"
+    ],
+    "badger": [
+      "Dachs"
+    ],
+    "moose": [
+      "Elch"
+    ],
+    "frog": [
+      "Frosch"
+    ],
+    "dragonfly": [
+      "Libelle"
+    ],
+    "beaver": [
+      "Biber"
+    ],
+    "duck": [
+      "Ente",
+      "Entenküken",
+      "Küken"
+    ],
+    "swan": [
+      "Schwan"
+    ],
+    "butterfly": [
+      "Schmetterling"
+    ],
+    "bee": [
+      "Biene"
+    ],
+    "grasshopper": [
+      "Grashüpfer",
+      "Heuschrecke"
+    ],
+    "ladybug": [
+      "Marienkäfer",
+      "Käfer"
+    ],
+    "lion": [
+      "Löwe"
+    ],
+    "zebra": [
+      "Zebra"
+    ],
+    "giraffe": [
+      "Giraffe"
+    ],
+    "elephant": [
+      "Elefant"
+    ],
+    "rhinoceros": [
+      "Nashorn"
+    ],
+    "ostrich": [
+      "Strauß"
+    ],
+    "monkey": [
+      "Affe"
+    ],
+    "gorilla": [
+      "Gorilla"
+    ],
+    "orangutan": [
+      "Orang-Utan",
+      "Affe"
+    ],
+    "sloth": [
+      "Faultier"
+    ],
+    "toucan": [
+      "Tukan"
+    ],
+    "macaw": [
+      "Ara",
+      "Papagei"
+    ],
+    "camel": [
+      "Kamel",
+      "Dromedar"
+    ],
+    "bird": [
+      "Vogel"
+    ],
+    "spider": [
+      "Spinne"
+    ],
+    "rabbit": [
+      "Kaninchen",
+      "Hase"
+    ],
+    "ant": [
+      "Ameise"
+    ]
+  },
+  "needs": {
+    "line": "Jedes Tier braucht Nahrung, Wasser und ein Zuhause.",
+    "foodHead": "Nahrung",
+    "homeHead": "Zuhause"
+  },
+  "report": {
+    "animals": "Tiere, die hier leben",
+    "plant": "Eine Pflanze, die hier wächst",
+    "hot": "heiß",
+    "cold": "kalt",
+    "wet": "nass",
+    "dry": "trocken"
+  },
+  "homeWord": {
+    "nest": "Vogelnest",
+    "hive": "Bienennest",
+    "web": "Spinnennetz",
+    "burrow": "Kaninchenbau",
+    "anthill": "Ameisenhaufen",
+    "lodge": "Biberburg"
+  },
+  "refuse": [],
+  "refuseClaims": [],
+  "strings": {
+    "G1-398": {
+      "title": "Lebensräume der Tiere: Wald, Wiese, Teich und Meer",
+      "instruction": "Schreibe unter jedes Tier den Buchstaben des Lebensraums, in dem es lebt."
+    },
+    "K-383": {
+      "title": "Tierwohnungen: Nest, Bau und Biberburg",
+      "instruction": "Verbinde jedes Tier mit seinem Zuhause."
+    },
+    "G1-406": {
+      "title": "Lebensraum: Welches Tier lebt hier nicht?",
+      "instruction": "Streiche in jeder Reihe das Tier durch, das nicht in diesem Lebensraum lebt."
+    },
+    "G2-380": {
+      "title": "Angepasst an den Lebensraum: Welches Tier ist es?",
+      "instruction": "Schreibe in jedes Kästchen den Buchstaben des Tieres, von dem der Satz erzählt."
+    },
+    "G1-407": {
+      "title": "Was brauchen Tiere zum Leben?",
+      "instruction": "Kreise bei jedem Tier ein, was es frisst und wo es wohnt."
+    },
+    "G2-381": {
+      "title": "Forscherblatt: Lebensraum Wald",
+      "instruction": "Male drei Tiere, die hier leben, in das Bild, schreibe ihre Namen und eine Pflanze von hier auf und kreise in jedem Paar das richtige Wort ein."
+    }
+  }
+}

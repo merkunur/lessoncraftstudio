@@ -1,0 +1,281 @@
+{
+  "words3": [
+    "Primero",
+    "Después",
+    "Al final"
+  ],
+  "openers4": [
+    "Primero,",
+    "Después,",
+    "Luego,",
+    "Al final,"
+  ],
+  "starters4": [
+    "Primero,",
+    "Después,",
+    "Luego,",
+    "Al final,"
+  ],
+  "bme": [
+    "Inicio",
+    "Desarrollo",
+    "Final"
+  ],
+  "stories": {
+    "apple": {
+      "sentences": [
+        "Primero, la manzana está entera.",
+        "Después, la manzana tiene una mordida.",
+        "Luego, la manzana tiene tres mordidas.",
+        "Al final, solo queda el corazón."
+      ],
+      "stateWords": [
+        "entera",
+        "una mordida",
+        "tres mordidas",
+        "corazón"
+      ],
+      "helpWords": [
+        "manzana",
+        "mordida",
+        "corazón",
+        "tallo",
+        "hoja",
+        "plato"
+      ],
+      "helpIds": [
+        "apple",
+        "bite",
+        "core",
+        "stem",
+        "leaf",
+        "plate"
+      ]
+    },
+    "banana": {
+      "sentences": [
+        "Primero, el plátano está sin pelar.",
+        "Después, cuelga una tira de cáscara.",
+        "Luego, cuelgan tres tiras de cáscara.",
+        "Al final, solo queda la cáscara vacía."
+      ],
+      "stateWords": [
+        "sin pelar",
+        "una tira",
+        "tres tiras",
+        "vacía"
+      ],
+      "helpWords": [
+        "plátano",
+        "cáscara",
+        "tira",
+        "plato"
+      ],
+      "helpIds": [
+        "banana",
+        "peel",
+        "strip",
+        "plate"
+      ]
+    },
+    "sandwich": {
+      "sentences": [
+        "Primero, hay dos rebanadas de pan.",
+        "Después, una rebanada tiene mermelada.",
+        "Luego, el sándwich está cortado a la mitad.",
+        "Al final, solo quedan la orilla y unas migajas."
+      ],
+      "stateWords": [
+        "dos rebanadas",
+        "mermelada",
+        "a la mitad",
+        "migajas"
+      ],
+      "helpWords": [
+        "pan",
+        "mermelada",
+        "cuchillo",
+        "sándwich",
+        "mitad",
+        "orilla"
+      ],
+      "helpIds": [
+        "bread",
+        "jam",
+        "knife",
+        "sandwich",
+        "half",
+        "crust"
+      ]
+    },
+    "cake": {
+      "sentences": [
+        "Primero, el pastel está entero.",
+        "Después, ya le cortaron una rebanada.",
+        "Luego, ya se comieron la mitad del pastel.",
+        "Al final, solo quedan migajas."
+      ],
+      "stateWords": [
+        "entero",
+        "una rebanada",
+        "la mitad",
+        "migajas"
+      ],
+      "helpWords": [
+        "pastel",
+        "rebanada",
+        "velas",
+        "migajas",
+        "plato"
+      ],
+      "helpIds": [
+        "cake",
+        "slice",
+        "candle",
+        "crumb",
+        "plate"
+      ]
+    },
+    "fence": {
+      "sentences": [
+        "Primero, la cerca está toda blanca.",
+        "Después, dos tablas están pintadas.",
+        "Luego, cuatro tablas están pintadas.",
+        "Al final, toda la cerca está pintada."
+      ],
+      "stateWords": [
+        "toda blanca",
+        "dos tablas",
+        "cuatro tablas",
+        "toda la cerca"
+      ],
+      "helpWords": [
+        "cerca",
+        "tabla",
+        "pintura",
+        "brocha",
+        "bote"
+      ],
+      "helpIds": [
+        "fence",
+        "plank",
+        "paint",
+        "brush",
+        "pot"
+      ]
+    },
+    "letter": {
+      "sentences": [
+        "Primero, la tarjeta está en blanco.",
+        "Después, hay una flor dibujada en la tarjeta.",
+        "Luego, le escriben tres renglones.",
+        "Al final, la tarjeta está en un sobre con timbre."
+      ],
+      "stateWords": [
+        "en blanco",
+        "flor",
+        "renglones",
+        "timbre"
+      ],
+      "helpWords": [
+        "tarjeta",
+        "flor",
+        "lápiz",
+        "sobre",
+        "timbre"
+      ],
+      "helpIds": [
+        "card",
+        "flower",
+        "pencil",
+        "envelope",
+        "stamp"
+      ]
+    },
+    "paper-chain": {
+      "sentences": [
+        "Primero, hay una hoja de papel.",
+        "Después, la hoja está cortada en cinco tiras.",
+        "Luego, pegan dos tiras en forma de aro.",
+        "Al final, los cinco aros forman una cadena."
+      ],
+      "stateWords": [
+        "una hoja",
+        "cinco tiras",
+        "dos tiras",
+        "cadena"
+      ],
+      "helpWords": [
+        "papel",
+        "tijeras",
+        "tiras",
+        "pegamento",
+        "aros",
+        "cadena"
+      ],
+      "helpIds": [
+        "paper",
+        "scissors",
+        "strip",
+        "glue",
+        "ring",
+        "chain"
+      ]
+    },
+    "beach-walk": {
+      "sentences": [
+        "Primero, no hay huellas en la arena.",
+        "Después, una niña camina y deja tres huellas.",
+        "Luego, la niña encuentra una concha.",
+        "Al final, la niña regresa a la toalla con la concha."
+      ],
+      "stateWords": [
+        "no hay huellas",
+        "tres huellas",
+        "encuentra una concha",
+        "regresa"
+      ],
+      "helpWords": [
+        "arena",
+        "toalla",
+        "concha",
+        "huellas",
+        "caminar"
+      ],
+      "helpIds": [
+        "sand",
+        "towel",
+        "shell",
+        "footprint",
+        "walk"
+      ]
+    }
+  },
+  "excludeStories": [],
+  "strings": {
+    "base": {
+      "title": "Secuencias temporales de un cuento: numera las imágenes",
+      "instruction": "Mira qué cambia en cada cuento y escribe los números en los recuadros para ordenar las imágenes."
+    },
+    "first-next-last-cut": {
+      "title": "Secuencias de un cuento para recortar: primero, después, al final",
+      "instruction": "Recorta las imágenes de cada tira y pégalas en los cuadros vacíos arriba de Primero, Después y Al final."
+    },
+    "what-happens-next": {
+      "title": "Secuencias de un cuento: ¿qué pasa después?",
+      "instruction": "Mira las tres imágenes de cada cuento y encierra en un círculo la imagen de abajo que va en el cuadro del signo de interrogación."
+    },
+    "beginning-middle-end": {
+      "title": "Inicio, desarrollo y final de un cuento",
+      "instruction": "Mira el inicio y el final de cada cuento y dibuja en el cuadro del centro lo que pasa en el desarrollo."
+    },
+    "sequencing-sentences": {
+      "title": "Secuencias de un cuento: une cada oración con su imagen",
+      "instruction": "Lee las oraciones de cada cuento y une con una línea cada oración con su imagen."
+    },
+    "retell-with-starters": {
+      "title": "Secuencia de imágenes para crear cuentos",
+      "instruction": "Escribe en los renglones lo que pasa en cada imagen, empezando con la palabra que ya está escrita."
+    }
+  }
+}

@@ -2854,5 +2854,125 @@
   "G3-399": {
     "title": "Família de palavras nas frases",
     "instruction": "Escreva cada uma das quatro palavras dos cartões no quadro tracejado da frase em que ela combina."
+  },
+  "K-379": {
+    "title": "Sequência de fatos: numere as cenas da história",
+    "instruction": "Veja o que muda em cada história e escreva os números nos quadrinhos para colocar as cenas em ordem."
+  },
+  "K-380": {
+    "title": "Hábitos de higiene: o que cada criança usa?",
+    "instruction": "Ligue cada criança ao objeto de que ela precisa."
+  },
+  "G1-398": {
+    "title": "Habitat dos animais: Amazônia, mar e savana",
+    "instruction": "Embaixo de cada animal, escreva a letra do habitat onde ele vive."
+  },
+  "G1-399": {
+    "title": "Experiência afunda ou flutua: o que você acha?",
+    "instruction": "Antes do teste, pinte um círculo no primeiro aquário; depois do teste, pinte um círculo no segundo aquário e a estrela se você se surpreendeu."
+  },
+  "G2-377": {
+    "title": "Letra cursiva para o 1º ano: as letras a, e, i, o",
+    "instruction": "Cubra as letras cinza e continue escrevendo cada letra ligada, sozinho, até o fim da linha e na linha vazia de baixo."
+  },
+  "K-381": {
+    "title": "Sequência de fatos para recortar: primeiro, depois, por fim",
+    "instruction": "Recorte as cenas de cada tira e cole-as nos quadros vazios acima de Primeiro, Depois e Por fim."
+  },
+  "G1-400": {
+    "title": "Sequência de fatos: o que acontece depois?",
+    "instruction": "Observe as três cenas de cada história e circule, embaixo delas, a cena que completa o quadro com o ponto de interrogação."
+  },
+  "G1-401": {
+    "title": "Início, meio e fim da história",
+    "instruction": "Observe o início e o fim de cada história e desenhe no quadro do meio o que aconteceu."
+  },
+  "G1-402": {
+    "title": "Sequência de fatos: ligue as frases às cenas",
+    "instruction": "Leia as frases de cada história e ligue cada frase à sua cena com um traço."
+  },
+  "G2-378": {
+    "title": "Reconto de história com sequência de imagens",
+    "instruction": "Escreva nas linhas o que acontece em cada cena, começando pela palavra que já está na primeira linha."
+  },
+  "K-382": {
+    "title": "Como lavar as mãos: os passos",
+    "instruction": "Escreva de 1 a 5 nos quadrinhos para mostrar como lavamos as mãos."
+  },
+  "G1-403": {
+    "title": "Escovar os dentes: antes, durante e depois",
+    "instruction": "Circule a palavra que diz quando isso acontece: antes, durante ou depois de escovar."
+  },
+  "G1-404": {
+    "title": "Como evitar os germes: tussa no cotovelo",
+    "instruction": "Em cada fileira, circule a cena que impede os germes de se espalharem."
+  },
+  "G2-379": {
+    "title": "Hábitos de higiene: por que são importantes?",
+    "instruction": "Ligue cada hábito à frase que explica por que fazemos isso."
+  },
+  "G1-405": {
+    "title": "Quadro semanal de hábitos de higiene e saúde",
+    "instruction": "Todos os dias, marque com um X o quadrinho de cada hábito que você fez."
+  },
+  "K-383": {
+    "title": "Moradia dos animais: ninho, toca e colmeia",
+    "instruction": "Ligue cada animal à sua moradia com um traço."
+  },
+  "G1-406": {
+    "title": "Habitat dos animais: qual não vive aqui?",
+    "instruction": "Em cada fileira, risque o animal que não vive naquele habitat."
+  },
+  "G2-380": {
+    "title": "Adaptação dos animais ao ambiente",
+    "instruction": "Escreva no quadrinho a letra do animal de que cada frase fala."
+  },
+  "G1-407": {
+    "title": "Do que os animais precisam para viver?",
+    "instruction": "Para cada animal, circule a comida que ele come e a moradia onde ele vive."
+  },
+  "G2-381": {
+    "title": "Meu relatório sobre um habitat",
+    "instruction": "Desenhe três animais que vivem neste habitat, escreva o nome deles e de uma planta que cresce ali e circule a palavra certa de cada par."
+  },
+  "G1-408": {
+    "title": "Pesado ou leve? Experiência com balança: flutua ou afunda",
+    "instruction": "A balança mostra o que é mais pesado: circule o que flutua na água."
+  },
+  "G2-382": {
+    "title": "Barquinho de massinha que flutua: experiência da forma",
+    "instruction": "Pinte o círculo onde cada forma de massinha vai parar, circule o que flutua e desenhe o seu barquinho de massinha no aquário grande."
+  },
+  "G2-383": {
+    "title": "Por que flutua? Verdadeiro ou falso da experiência",
+    "instruction": "Leia cada frase e circule verdadeiro ou falso."
+  },
+  "K-384": {
+    "title": "O que flutua e o que afunda: desenhe a experiência",
+    "instruction": "Desenhe duas coisas que flutuam nos espaços tracejados da água e duas que afundam nos espaços tracejados do fundo."
+  },
+  "G3-400": {
+    "title": "Relatório da experiência: flutua ou afunda",
+    "instruction": "Escolha uma pergunta, escreva o que você acha, faça o teste, desenhe o que aconteceu e escreva o que aprendeu."
+  },
+  "G2-384": {
+    "title": "Alfabeto cursivo maiúsculo: escreva os nomes",
+    "instruction": "Cubra cada letra maiúscula e cada nome em cinza e depois escreva tudo na linha vazia de baixo."
+  },
+  "G2-385": {
+    "title": "Letra cursiva: ligando as letras de duas em duas",
+    "instruction": "Cubra cada par de letras ligadas e a palavra em cinza e depois escreva na linha vazia de baixo."
+  },
+  "G2-386": {
+    "title": "Palavras em letra cursiva para o 1º ano",
+    "instruction": "Cubra cada palavra cinza num traço contínuo, depois escreva na linha de baixo e coloque os pingos, os cortes e os acentos por último."
+  },
+  "G2-387": {
+    "title": "Leitura em letra cursiva: ligue a palavra à figura",
+    "instruction": "Leia cada palavra em letra cursiva e ligue-a à sua figura com um traço."
+  },
+  "G3-401": {
+    "title": "Da letra de forma para a cursiva: copie as frases",
+    "instruction": "Cubra a frase cinza e depois copie cada frase impressa em letra cursiva nas duas linhas de baixo."
   }
 }

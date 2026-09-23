@@ -418,5 +418,25 @@
   "word-parts": {
     "full": "Wortfamilien und Wortbausteine: nach dem Wortstamm sortieren, den Wortstamm finden, Vorsilben ein-, aus- und um- nach Bedeutung wählen und Personenwörter bilden.",
     "short": "Wortstamm, Vorsilben und Nachsilben"
+  },
+  "story-sequencing": {
+    "full": "Bildergeschichten ordnen, erzählen und schreiben: Bilder nummerieren, mit zuerst, dann, zum Schluss ausschneiden, weiterdenken, die Mitte malen und Sätze zuordnen.",
+    "short": "Bildergeschichten ordnen, erzählen und schreiben"
+  },
+  "healthy-habits": {
+    "full": "Hygiene und Körperpflege: Hände richtig waschen, Zähne putzen, in die Armbeuge husten, verstehen, warum wir das tun, und eine Woche lang im Plan abhaken.",
+    "short": "Hände waschen, Zähne putzen und Keime stoppen"
+  },
+  "habitats": {
+    "full": "Lebensräume der Tiere erkunden: Wald, Wiese, Teich und Meer zuordnen, Tierwohnungen kennen, Anpassungen verstehen und sagen, was Tiere zum Leben brauchen.",
+    "short": "Tiere ihren Lebensräumen und Wohnungen zuordnen"
+  },
+  "sink-or-float": {
+    "full": "Schwimmen und Sinken als Versuch: vermuten, im Wasser testen, mit der Waage und mit Knete forschen, Aussagen prüfen und ein Versuchsprotokoll schreiben.",
+    "short": "Vermuten und testen, was schwimmt und was sinkt"
+  },
+  "cursive-writing": {
+    "full": "Schreibschrift in Vereinfachter und Lateinischer Ausgangsschrift: Buchstaben, Großbuchstaben, Verbindungen und Wörter nachspuren, Schreibschrift lesen und Sätze abschreiben.",
+    "short": "Verbunden schreiben in VA und LA"
   }
 }

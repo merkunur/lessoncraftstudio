@@ -1,0 +1,11 @@
+{
+  "locale": "sv",
+  "refusals": {
+    "G2-377": "Skrivstil (sammanbunden skrift) ingår inte i Lgr22 och det finns ingen svensk skolstilsfont; ett danskt eller norskt typsnitt märkt som svensk skrivstil skulle lära ut fel bokstavsformer.",
+    "G2-384": "Hela skrivstilsfamiljen avböjs på svenska: Lgr22 kräver ingen sammanbunden skrift och det finns ingen svensk skolfont för skrivstilsversaler.",
+    "G2-385": "Hela skrivstilsfamiljen avböjs på svenska: bokstavsbindningar i skrivstil lärs inte ut enligt Lgr22 och ingen svensk skolfont finns.",
+    "G2-386": "Hela skrivstilsfamiljen avböjs på svenska: ord i skrivstil lärs inte ut enligt Lgr22 och ingen svensk skolfont finns.",
+    "G2-387": "Hela skrivstilsfamiljen avböjs på svenska: att läsa skrivstil ingår inte i Lgr22 och en utländsk skrivstil skulle visa fel bokstavsformer.",
+    "G3-401": "Hela skrivstilsfamiljen avböjs på svenska: att skriva av meningar i skrivstil ingår inte i Lgr22 och ingen svensk skolfont finns."
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "refused": null,
+  "units": [
+    "de-va",
+    "de-la"
+  ],
+  "exemplar": "de-va",
+  "exemplarByMode": {
+    "base": "de-va",
+    "joins": "de-va",
+    "copy": "de-va",
+    "capitals": "de-la",
+    "words": "de-la",
+    "read": "de-la"
+  },
+  "unitLabel": {
+    "de-va": "Vereinfachter Ausgangsschrift",
+    "de-la": "Lateinischer Ausgangsschrift"
+  },
+  "scriptName": {
+    "de-va": "Vereinfachte Ausgangsschrift",
+    "de-la": "Lateinische Ausgangsschrift"
+  },
+  "ruling": {
+    "G1": "lin4",
+    "G2": "lin4",
+    "G3": "lin4"
+  },
+  "dashHelpers": false,
+  "xPx": {
+    "base": 18,
+    "capitals": 17,
+    "joins": 16,
+    "words": 18,
+    "read": 18,
+    "copy": 16
+  },
+  "levels": {
+    "base": "2-klasse",
+    "capitals": "2-klasse",
+    "joins": "2-klasse",
+    "words": "2-klasse",
+    "read": "2-klasse",
+    "copy": "3-klasse"
+  },
+  "lessons": {
+    "de-va": [
+      [
+        "i",
+        "u",
+        "ü",
+        "t"
+      ],
+      [
+        "n",
+        "m",
+        "r"
+      ],
+      [
+        "e",
+        "l",
+        "b",
+        "h",
+        "k",
+        "f"
+      ],
+      [
+        "a",
+        "ä",
+        "d",
+        "g",
+        "q"
+      ],
+      [
+        "o",
+        "ö",
+        "c",
+        "s",
+        "ß"
+      ],
+      [
+        "p",
+        "j",
+        "y",
+        "v",
+        "w",
+        "x",
+        "z"
+      ]
+    ],
+    "de-la": [
+      [
+        "i",
+        "u",
+        "ü",
+        "t"
+      ],
+      [
+        "e",
+        "l",
+        "b",
+        "h",
+        "k",
+        "f"
+      ],
+      [
+        "n",
+        "m",
+        "r"
+      ],
+      [
+        "a",
+        "ä",
+        "d",
+        "g",
+        "q"
+      ],
+      [
+        "o",
+        "ö",
+        "c",
+        "s",
+        "ß"
+      ],
+      [
+        "p",
+        "j",
+        "y",
+        "v",
+        "w",
+        "x",
+        "z"
+      ]
+    ]
+  },
+  "joins": {
+    "de-va": [
+      {
+        "pair": "ol",
+        "word": "Wolke"
+      },
+      {
+        "pair": "on",
+        "word": "Sonne"
+      },
+      {
+        "pair": "or",
+        "word": "Tor"
+      },
+      {
+        "pair": "ob",
+        "word": "Robbe"
+      },
+      {
+        "pair": "br",
+        "word": "Zebra"
+      },
+      {
+        "pair": "wa",
+        "word": "Schwan"
+      },
+      {
+        "pair": "ch",
+        "word": "Buch"
+      },
+      {
+        "pair": "sch",
+        "word": "Tasche"
+      },
+      {
+        "pair": "ei",
+        "word": "Seife"
+      },
+      {
+        "pair": "au",
+        "word": "Maus"
+      }
+    ],
+    "de-la": [
+      {
+        "pair": "ol",
+        "word": "Wolke"
+      },
+      {
+        "pair": "on",
+        "word": "Sonne"
+      },
+      {
+        "pair": "or",
+        "word": "Tor"
+      },
+      {
+        "pair": "ob",
+        "word": "Robbe"
+      },
+      {
+        "pair": "br",
+        "word": "Zebra"
+      },
+      {
+        "pair": "wa",
+        "word": "Schwan"
+      },
+      {
+        "pair": "ch",
+        "word": "Buch"
+      },
+      {
+        "pair": "sch",
+        "word": "Tasche"
+      },
+      {
+        "pair": "ei",
+        "word": "Seife"
+      },
+      {
+        "pair": "au",
+        "word": "Maus"
+      }
+    ]
+  },
+  "words": {
+    "animals/cat": "Katze",
+    "animals/duck": "Ente",
+    "animals/fish": "Fisch",
+    "animals/owl": "Eule",
+    "animals/pig": "Schwein",
+    "animals/sheep": "Schaf",
+    "fruits/lemon": "Zitrone",
+    "fruits/pear": "Birne",
+    "fruits/apple": "Apfel",
+    "toys/boat": "Boot",
+    "toys/doll": "Puppe",
+    "toys/robot": "Roboter",
+    "toys/train": "Zug",
+    "toys/kite": "Drachen",
+    "around the house/bed": "Bett",
+    "around the house/chair": "Stuhl",
+    "around the house/cup": "Tasse",
+    "around the house/lamp": "Lampe",
+    "classroom/book": "Buch",
+    "zoo animals/lion": "Löwe",
+    "pets/mouse": "Maus",
+    "bakery/cake": "Kuchen",
+    "weather/sun": "Sonne",
+    "weather/cloud": "Wolke",
+    "animals/horse": "Pferd",
+    "animals/zebra": "Zebra"
+  },
+  "sentences": [
+    "Die Katze liegt im Bett.",
+    "Ich sehe einen Drachen.",
+    "Der Hund rennt schnell.",
+    "Wir lesen gern Bücher.",
+    "Die Sonne ist heute heiß.",
+    "Ben hat ein kleines Boot."
+  ],
+  "strings": {
+    "G2-377": {
+      "title": "Schreibschrift üben: i, u, ü und t in {U}",
+      "instruction": "Spure die grauen Buchstaben nach und schreibe dann jeden Buchstaben verbunden allein bis zum Ende der Zeile und in der leeren Zeile darunter."
+    },
+    "G2-384": {
+      "title": "Großbuchstaben in {U}",
+      "instruction": "Spure jeden grauen Großbuchstaben und den Namen nach und schreibe beides in die leere Zeile darunter."
+    },
+    "G2-385": {
+      "title": "Buchstabenverbindungen in {U}",
+      "instruction": "Spure jede graue Buchstabenverbindung und das Wort nach und schreibe beides in die leere Zeile darunter."
+    },
+    "G2-386": {
+      "title": "Schreibschrift-Wörter zu Bildern in {U}",
+      "instruction": "Spure jedes graue Wort nach, schreibe es dann verbunden auf die Zeile darunter und setze Punkte und Striche zum Schluss."
+    },
+    "G2-387": {
+      "title": "Schreibschrift lesen: Wörter in {U}",
+      "instruction": "Lies jedes Wort in Schreibschrift und verbinde es mit seinem Bild."
+    },
+    "G3-401": {
+      "title": "Sätze in {U} abschreiben",
+      "instruction": "Spure den grauen Satz nach und schreibe dann jeden gedruckten Satz in Schreibschrift auf die zwei Zeilen darunter."
+    }
+  }
+}

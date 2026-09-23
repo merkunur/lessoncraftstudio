@@ -268,3 +268,41 @@ b3-baseline --check --quick: checked build 4000 + enum 301 in 26s: 0 drifted (0 
   - sv "Jag lärde mig att" / "Jag lärde mig"
 
 **Keys the panels must add or change:** `apparatus.spot`; remove `labels.key`; rewrite `strings.G2-382.instruction` (ring + tank words) and `strings.K-384.instruction` (spot word); change `report.starter` so it does not repeat `report.learned`.
+
+## Fix round 2: K-384 tags (de panel, 2026-09-23)
+
+**The defect.** `sfTub`'s tag was a fixed 159 px wide, including its 40 px icon. The de word "schwimmt oben" at Baloo 2 22 px ran past the tag border. On reading, the sink tag also sat across the left edge of the first sink spot.
+
+**The fix** (`templates/components-b6/sink-or-float.js`, `sfTub`):
+- The tags now sit in the two spot-free bands:
+  - the float tag in the air, above the float spots;
+  - the sink tag in the water, between the float spots and the sink spots.
+- Each tag is `width: max-content`, min 159 px, capped at the glass (`max-width`), with `white-space: nowrap`.
+- If a word would reach the cap, the font steps down from 22 px to at most the K floor of 18 px. The step-down uses a conservative 0.62 em per character plus the icon and padding.
+- The leaders are vertical, at `left + 40`, from inside the tag down to the waterline / gravel line. They stay in the spot-free left column.
+- The spec's tag text floor is now 18 px (the K floor), and `forceTagWidth` is the gate's poison seam.
+
+**`verify()` (draw face) now asserts:**
+- every tag word lies inside its tag border and is not clipped (`scrollWidth`);
+- no tag overlaps any spot;
+- no tag leaves the tub;
+- tag text is ≥ 18 px.
+
+The old "tag column 0.3w" check is removed.
+
+**Gate additions:**
+- Control: "schwimmt oben" / "geht unter" in the auto-sized tag → **0 findings**.
+- Poison **PR15**: the old fixed 159 px tag with "schwimmt oben" → **KILLED** ("tag word … overflows its tag").
+
+**Renders** (`node render/one.js K-384 null 2 <loc>`): all 11 locales are verify- and lint-clean (en de es fr pt it nl sv da no fi).
+- I read de: "schwimmt oben" and "geht unter" sit fully inside their tags and clear of every spot.
+- I read fi, pt and nl ("kelluu/uppoaa", "flutua/afunda", "drijft/zinkt") through the montage `out/dev/K-384-montage-fi-pt-nl.png`.
+
+**Gate lines:**
+```
+water-tank gate: PASS (500 assertions, 8/8 poisons killed)
+clay-form gate: PASS (140 assertions, 4/4 poisons killed)
+verify-b6-sink-or-float: PASS (248 assertions, 55/55 poisons killed)
+gate-variation-distinct: every variation differs from the deck its base publishes and from its siblings
+b3-baseline --check --quick: checked build 4000 + enum 311 in 22s: 0 drifted (0 expected), 0 missing → PASS
+```

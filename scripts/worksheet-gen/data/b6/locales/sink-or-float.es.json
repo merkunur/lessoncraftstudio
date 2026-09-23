@@ -1,0 +1,161 @@
+{
+  "floatWord": "flota",
+  "sinkWord": "se hunde",
+  "heads": {
+    "guess": "Mi predicción",
+    "test": "Lo que pasó",
+    "surprise": "¿Sorpresa?"
+  },
+  "trueWord": "verdadero",
+  "falseWord": "falso",
+  "clayWord": "plastilina",
+  "labels": {
+    "ball": "pelota",
+    "log": "tronco",
+    "pumpkin": "calabaza",
+    "apple": "manzana",
+    "lemon": "limón",
+    "banana": "plátano",
+    "leaf": "hoja",
+    "feather": "pluma",
+    "pinecone": "piña de pino",
+    "pencil": "lápiz",
+    "toyboat": "barquito",
+    "ship": "barco",
+    "orange": "naranja",
+    "rock": "piedra",
+    "nail": "clavo",
+    "hammer": "martillo",
+    "bolt": "tornillo",
+    "pliers": "pinzas",
+    "scissors": "tijeras",
+    "potato": "papa"
+  },
+  "tf": {
+    "T1": "Un tronco grande flota.",
+    "T2": "Un clavo pequeño se hunde.",
+    "T3": "Un barco de acero flota.",
+    "T4": "Una calabaza pesada flota.",
+    "T5": "Una manzana flota, pero una papa se hunde.",
+    "T6": "La misma plastilina puede hundirse o flotar.",
+    "T7": "Algunas cosas pesadas flotan.",
+    "T8": "Algunas cosas ligeras se hunden.",
+    "F1": "Una papa flota.",
+    "F2": "Una pluma se hunde.",
+    "F3": "Un barco de acero se hunde.",
+    "F4": "Una pelota llena de aire se hunde.",
+    "F5": "Todas las cosas pesadas se hunden.",
+    "F6": "Todas las cosas ligeras flotan.",
+    "F7": "Las cosas grandes siempre se hunden.",
+    "F8": "Una cosa flota porque es ligera.",
+    "F9": "Solo las cosas pequeñas pueden flotar."
+  },
+  "report": {
+    "question": "Mi pregunta",
+    "predict": "Yo creo",
+    "result": "Lo que pasó",
+    "learned": "Aprendí",
+    "starter": "Ahora sé que"
+  },
+  "questions": {
+    "orange": "¿Una naranja flota con cáscara? ¿Flota sin cáscara?",
+    "cargo": "¿Cuántos cubos puede cargar un barco de plastilina antes de hundirse?"
+  },
+  "forbidden": [
+    "las cosas pesadas se hunden",
+    "las cosas ligeras flotan",
+    "porque es ligera",
+    "porque es ligero",
+    "densidad",
+    "flotación",
+    "agua salada"
+  ],
+  "experimentWords": [
+    "experimento",
+    "predice",
+    "predicción",
+    "prueba",
+    "investigación"
+  ],
+  "apparatus": {
+    "ring": "círculo",
+    "tank": "pecera",
+    "star": "estrella",
+    "spot": "recuadro"
+  },
+  "instructionBans": {
+    "base": [
+      "línea",
+      "grupo",
+      "bote",
+      "palomita",
+      "recorta",
+      "encierra"
+    ],
+    "scale": [
+      "línea",
+      "grupo",
+      "bote",
+      "palomita",
+      "recorta",
+      "colorea"
+    ],
+    "shape": [
+      "línea",
+      "grupo",
+      "bote",
+      "palomita",
+      "recorta"
+    ],
+    "truth": [
+      "línea",
+      "grupo",
+      "bote",
+      "palomita",
+      "recorta",
+      "colorea"
+    ],
+    "draw": [
+      "línea",
+      "grupo",
+      "bote",
+      "palomita",
+      "recorta",
+      "encierra"
+    ],
+    "report": [
+      "línea",
+      "grupo",
+      "bote",
+      "palomita",
+      "recorta"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "G1-399": {
+      "title": "Experimento flota o se hunde: predice y comprueba",
+      "instruction": "Colorea un círculo en la primera pecera antes de la prueba, otro en la segunda pecera después y la estrella si te sorprendió."
+    },
+    "G1-408": {
+      "title": "¿Pesado o ligero? Experimento flota o se hunde con balanza",
+      "instruction": "La balanza muestra qué objeto pesa más: encierra en un círculo el que flota en el agua."
+    },
+    "G2-382": {
+      "title": "Experimento con plastilina: cambia la forma y haz que flote",
+      "instruction": "Colorea el círculo donde queda cada forma de plastilina, encierra en un círculo lo que flota y dibuja tu barco de plastilina en la pecera grande."
+    },
+    "G2-383": {
+      "title": "Experimento flota o se hunde: ¿verdadero o falso?",
+      "instruction": "Lee cada oración y encierra en un círculo verdadero o falso."
+    },
+    "K-384": {
+      "title": "Objetos que flotan y se hunden: dibuja tu experimento",
+      "instruction": "Dibuja dos cosas que flotan en los recuadros del agua y dos cosas que se hunden en los recuadros del fondo."
+    },
+    "G3-400": {
+      "title": "Investigación: ¿flota o se hunde? Mi reporte de laboratorio",
+      "instruction": "Elige una pregunta, escribe lo que crees, haz la prueba, dibuja lo que pasó y escribe lo que aprendiste."
+    }
+  }
+}

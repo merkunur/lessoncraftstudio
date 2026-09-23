@@ -170,9 +170,12 @@ async function faceGate({ page, K, quick, OUTDIR, validateBank }) {
   await J('P19 F5 34 tick squares', 'G1-405', { doctor: (h) => h.replace(/<span data-lcs-tick [^>]*><\/span>/, '') }, /34 tick squares/);
   // FIX ROUND 1 (fr panel): long native labels wrap balanced (no short word stranded at a line end) — control + poison
   const LONG = ['se laver les mains', 'die Hände waschen', 'pestä kädet hyvin', 'børste tænderne', 'lavarsi i denti'];
-  const longLabels = (h) => { let i = 0; return h.replace(/(<span data-lcs-row-label[^>]*>)([^<]*)/g, (m, a) => a + LONG[i++ % LONG.length]); };
+  const { glueShortWords } = require('../templates/components-b6/healthy-habits.js');
+  const LONGP = [...LONG, 'lavar as mãos'];
+  const longLabels = (h) => { let i = 0; return h.replace(/(<span data-lcs-row-label[^>]*>)([\s\S]*?)(<\/span><\/div>)/g, (m, a, b, c) => a + glueShortWords(LONGP[i++ % LONGP.length]) + c); };
+  const longLabelsRaw = (h) => { let i = 0; return h.replace(/(<span data-lcs-row-label[^>]*>)([\s\S]*?)(<\/span><\/div>)/g, (m, a, b, c) => a + LONGP[i++ % LONGP.length] + c); };
   const cLong = K.control('LW0 F5 with long fr / de / fi / da / it labels (control)', await V('G1-405', { doctor: longLabels, name: 'G1-405-long-labels' }));
-  K.judge('LW1 F5 long labels with the balanced wrap switched off', await V('G1-405', { doctor: (h) => longLabels(h).replace(/text-wrap:balance/g, 'text-wrap:wrap') }), /leaves the short word/, cLong);
+  K.judge('LW1 F5 long labels, the short-word glue AND the balanced wrap removed', await V('G1-405', { doctor: (h) => longLabelsRaw(h).replace(/text-wrap:balance/g, 'text-wrap:wrap') }), /leaves the short word/, cLong);
   await J('FD1 F5 a digit in a label', 'G1-405', { doctor: (h) => h.replace(/(<span data-lcs-row-label[^>]*>)([^<]*)/, '$1$2 3') }, /digit/);
   for (const f of FACES) {
     await J(`SP ${f.id} 90 px opened above the stage (sparse)`, f.id, { strings: CHROME.one, doctor: (h) => h.replace('style="flex:1 1 auto;display:flex;flex-direction:column;min-height:0;"', 'style="flex:1 1 auto;display:flex;flex-direction:column;min-height:0;padding-top:90px;box-sizing:border-box"') }, /sparse: a \d+ px blank band/);

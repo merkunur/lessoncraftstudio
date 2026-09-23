@@ -244,7 +244,6 @@
     "stop-kerb",
     "look-left",
     "look-right",
-    "wait-clear",
     "walk-across"
   ],
   "listenStep": null,
@@ -267,7 +266,7 @@
     },
     "crossing-steps": {
       "title": "Sicher über die Straße gehen: Schritt für Schritt",
-      "instruction": "Schreibe 1 bis 5 in die Kästchen: So gehst du sicher über die Straße."
+      "instruction": "Schreibe 1 bis 4 in die Kästchen: So gehst du sicher über die Straße."
     },
     "sign-meaning": {
       "title": "Verkehrszeichen und ihre Bedeutung für Kinder",

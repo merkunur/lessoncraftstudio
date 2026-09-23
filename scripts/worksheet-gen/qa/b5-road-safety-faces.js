@@ -177,6 +177,28 @@ async function faceGate({ page, K, validateBank, fixture, quick, OUTDIR, bothSat
     if (SEEDS >= 20) ok(worst <= cap, `${x.id}: a pooled position share ${worst.toFixed(2)} > ${cap} over ${pages} pages (${JSON.stringify(pos)})`);
     if (x.mode === 'sign-quiz') ok(doubleFitPages > 0, `${x.id}: the rule-13 double-fit sweep read no non-en page`);
     if (x.mode === 'sign-kinds') {
+      // CLASS-PAIR TELL (landing review 2026-09-23), the gate's OWN truth on the composed html: same-class neighbours in
+      // reading order <= the chance expectation (m - 1 for equal groups of m) and never grouped. Every authored locale
+      // + the Vienna fixture, variants 1..240 (variant 1 = the shipped page); the checker poisoned both ways.
+      const pairTell = (cls) => {
+        const per = {}; for (const c of cls) per[c] = (per[c] || 0) + 1;
+        const k = Object.keys(per).length, m = Math.max(...Object.values(per));
+        let same = 0, runs = 1; for (let i = 1; i < cls.length; i++) { if (cls[i] === cls[i - 1]) same++; else runs++; }
+        return !cls.length ? 'read no card' : k > 1 && runs === k ? 'grouped' : same > m - 1 ? `${same} same-class neighbours > ${m - 1}` : null;
+      };
+      ok(pairTell(['r', 'r', 'w', 'w', 'r', 'r', 'w', 'w']) !== null, 'poison — the class-pair checker passed a pair-printed page');
+      ok(pairTell(['r', 'r', 'r', 'r', 'w', 'w', 'w', 'w']) !== null, 'poison — the class-pair checker passed a grouped page');
+      ok(pairTell(['r', 'r', 'w', 'r', 'w', 'w', 'r', 'w']) === null, 'control — the class-pair checker failed the shipped en shape rrwrwwrw');
+      let bad = 0, total = 0, first = '';
+      const blocks = Object.entries(require('../lib/b5-common.js').bankModule('road-safety')).concat([['de-fixture', de]]);
+      for (let v2 = 1; v2 <= 240; v2++) for (const [locK, blk] of blocks) {
+        let o; try { o = TYPES[x.id]._buildWith({ block: blk, config: TYPES[x.id].difficulty[2] }, { locale: locK.slice(0, 2) }, { rng: makeRng(instanceSeed({ typeId: x.id, theme: null, difficulty: 2, seedEpoch: 1, variant: v2 })) }); } catch (e) { continue; }
+        total++;
+        const cls = [...o.bodyHtml.matchAll(/class="rs-lcard" data-lcs-class="([^"]*)"/g)].map((mm) => mm[1]);
+        const t = pairTell(cls); if (t) { bad++; first = first || `${locK} v${v2}: ${t} (${cls.join(' ')})`; }
+      }
+      ok(total >= 240 * 11 && bad === 0, `${x.id}: class-pair sweep ${bad} of ${total} pages carry the tell (${first})`);
+      rows.push(`face sweep ${x.id} class-pair tell: ${bad}/${total} pages (11 locales + the Vienna fixture x variants 1..240)`);
       const locs = Object.keys(require('../lib/b5-common.js').bankModule('road-safety'));
       ok(locs.length === 11, `${x.id}: the equal-groups sweep read ${locs.length} locale blocks (11)`);
       rows.push(`face sweep ${x.id} equal groups x ${SEEDS} seeds: ${Object.entries(kindsSizes).map(([l, s]) => `${l} ${[...s].join('|')}`).join(' · ')}`);
@@ -299,23 +321,32 @@ async function faceGate({ page, K, validateBank, fixture, quick, OUTDIR, bothSat
   // AT1 — F1 row 2 repeats row 1
   J('K-373', 'AT1 F1 row 2 repeats row 1', await gateOf(rewire('K-373', { plan: { actors: Array(6).fill('car'), on: [0, 1, 2, 0, 1, 2] } }), 'AT1'), /the second row repeats the first/);
   // AT2 AT3 — F2 printed in routine order / the two look-left cards side by side
-  J('K-374', 'AT2 F2 printed in routine order', await gateOf(rewire('K-374', { plan: { order: [0, 1, 2, 3, 4] } }), 'AT2'), /differs from the routine in 0 places/);
-  // ID1 — the wait-clear frame with its passing car removed = the stop-kerb frame: identical frames FAIL (and the car count)
-  J('K-374', 'ID1 F2 wait-clear drawn without its car (= stop-kerb)', await gateOf(rewire('K-374', { fn: (h) => h.replace(/<div class="rs-ccar"[\s\S]*?<\/svg><\/div>/, '') }), 'ID1'), /draw the SAME frame/);
-  // DA1 — landing round 1 (2026-09-23): the old routine's second look-left (drawn with the ↶ swing) in place of
-  // wait-clear — a different FRAME but the same ACTION as card look-left: steps swappable -> "duplicate action"
+  J('K-374', 'AT2 F2 printed in routine order', await gateOf(rewire('K-374', { plan: { order: [0, 1, 2, 3] } }), 'AT2'), /differs from the routine in 0 places/);
   {
     const C5 = require('../templates/components-b5.js');
-    const again = C5.rsCrossingCard({ step: 'look-left-again', w: 200, figH: 130, minFrameH: 196, box: { w: 64, h: 60 } });
-    const figA = /<div class="rs-cfig"[\s\S]*?<\/svg><\/div>/.exec(again)[0];
-    const fn = (h) => h.replace(/(data-lcs-step="wait-clear"[\s\S]*?)<div class="rs-ccar"[\s\S]*?<\/svg><\/div><div class="rs-cfig"[\s\S]*?<\/svg><\/div>/, (m, pre) => pre + figA);
-    J('K-374', 'DA1 F2 a second look-left (swing arrow) in place of wait-clear', await gateOf(rewire('K-374', { fn }), 'DA1'), /duplicate action — card \d \(look-left\) and card \d \(wait-clear\)|duplicate action — card \d \(wait-clear\) and card \d \(look-left\)/);
+    const figOf = (step) => /<div class="rs-cfig"[\s\S]*?<\/svg><\/div>/.exec(C5.rsCrossingCard({ step, w: 200, figH: 130, minFrameH: 196, box: { w: 64, h: 60 } }))[0];
+    const onCard = (step, fig) => (h) => h.replace(new RegExp(`(data-lcs-step="${step}"[\\s\\S]*?)<div class="rs-cfig"[\\s\\S]*?<\\/svg><\\/div>`), (m, pre) => pre + fig);
+    // ID1 — the look-right card drawn with the look-left figure: identical frames FAIL
+    J('K-374', 'ID1 F2 look-right drawn as look-left', await gateOf(rewire('K-374', { fn: onCard('look-right', figOf('look-left')) }), 'ID1'), /draw the SAME frame/);
+    // DA1 — landing round 1 (2026-09-23): the old routine's second look-left (drawn with the ↶ swing) in place of
+    // look-right — a different FRAME but the same ACTION as card look-left: steps swappable -> "duplicate action"
+    J('K-374', 'DA1 F2 a second look-left (swing arrow) in place of look-right', await gateOf(rewire('K-374', { fn: onCard('look-right', figOf('look-left-again')) }), 'DA1'), /duplicate action — card \d \(look-left\) and card \d \(look-right\)|duplicate action — card \d \(look-right\) and card \d \(look-left\)/);
+    // UO1 / UO2 — ONE VALID ORDER (landing review 2026-09-23, da + no: stop <-> wait was swappable). The pre-review
+    // 5-step routine with wait-clear REFUSES in the builder; a passing car drawn into the stop-kerb frame (a kerb
+    // card forced against nothing) FAILS verify's drawn-action model. The shipped 4-step page is the control.
+    const five = { ...en, steps: ['stop-kerb', 'look-left', 'look-right', 'wait-clear', 'walk-across'] };
+    J('K-374', 'UO1 F2 the 5-step routine with wait-clear (builder)', await gateOf(rewire('K-374', { block: five, cfg: { cards: 5 } }), 'UO1'), /has 4 valid orders by the drawn-action model/);
+    const carDiv = '<div class="rs-ccar" data-lcs-car style="position:absolute;left:3%;bottom:54px;line-height:0">' + require('../primitives/road-pictogram.js').car({ state: 'driving', w: 88, data: { passing: 1 } }).svg + '</div>';
+    J('K-374', 'UO2 F2 a passing car drawn on the stop-kerb card', await gateOf(rewire('K-374', { fn: (h) => h.replace(/(data-lcs-step="stop-kerb"[\s\S]*?)(<div class="rs-cfig")/, (m, pre, fig) => pre + carDiv + fig) }), 'UO2'), /valid orders \(exactly one/);
   }
   // AT4 AT5 — F3 straight across / every line the same way
   const L = ['stop', 'yield', 'crossing', 'school', 'no-entry', 'signal-ahead'];
   J('G1-384', 'AT4 F3 every meaning straight across', await gateOf(rewire('G1-384', { plan: { left: L, right: L } }), 'AT4'), /6 pairs straight across/);
   J('G1-384', 'AT5 F3 every line one row down', await gateOf(rewire('G1-384', { plan: { left: L, right: [L[5], ...L.slice(0, 5)] } }), 'AT5'), /6 lines run the same way/);
   // AT6 — F4 three neighbouring cards of one class
+  // CP1 / CP2 — the class-pair tell (landing review 2026-09-23: signs printed A+B one class, C+D the next …)
+  J('G2-360', 'CP1 F4 signs printed in class pairs (r r w w r r w w)', await gateOf(rewire('G2-360', { plan: { order: ['stop', 'yield', 'crossing', 'signal-ahead', 'no-bikes', 'no-pedestrians', 'bike-warning', 'school'] } }), 'CP1'), /class-pair tell: 4 neighbouring card pairs share a class/);
+  J('G2-360', 'CP2 F4 signs printed grouped by class', await gateOf(rewire('G2-360', { plan: { order: ['stop', 'yield', 'no-bikes', 'no-pedestrians', 'crossing', 'signal-ahead', 'bike-warning', 'school'] } }), 'CP2'), /class-pair tell: the classes are printed grouped/);
   J('G2-360', 'AT6 F4 three neighbouring rule signs', await gateOf(rewire('G2-360', { plan: { order: ['stop', 'yield', 'no-bikes', 'crossing', 'no-pedestrians', 'school', 'signal-ahead', 'bike-warning'] } }), 'AT6'), /three neighbouring cards of one class/);
   // FR1 FR2 — the Vienna fixture sort with a filled red disc / with STOP
   const deStr = { strings: de.strings['sign-kinds'], locale: 'de' };
@@ -344,7 +375,7 @@ async function faceGate({ page, K, validateBank, fixture, quick, OUTDIR, bothSat
   // AP1-AP5 — an instruction naming apparatus the face does not print (validator rule 9, en)
   const AP = [
     ['AP1 F1 instruction names a box', 'colour-lights', 'Find the lamp with rays and color the box next to it.', /names "box", which is not on the colour-lights page/],
-    ['AP2 F2 instruction names a line', 'crossing-steps', 'Draw a line from 1 to 5 to show how to cross the road.', /names "line", which is not on the crossing-steps page/],
+    ['AP2 F2 instruction names a line', 'crossing-steps', 'Draw a line from 1 to 4 to show how to cross the road.', /names "line", which is not on the crossing-steps page/],
     ['AP3 F3 instruction names a box', 'sign-meaning', 'Write the letter of each road sign in the box of its meaning.', /names "box", which is not on the sign-meaning page/],
     ['AP4 F4 instruction names a circle', 'sign-kinds', 'Circle the road signs of each group.', /names "circle", which is not on the sign-kinds page/],
     ['AP5 F5 instruction names a line', 'sign-quiz', 'Read each sentence and draw a line to the road sign that fits it.', /names "line", which is not on the sign-quiz page/],

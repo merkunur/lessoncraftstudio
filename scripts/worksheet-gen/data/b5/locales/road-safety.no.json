@@ -245,7 +245,6 @@
     "stop-kerb",
     "look-left",
     "look-right",
-    "wait-clear",
     "walk-across"
   ],
   "listenStep": null,
@@ -269,7 +268,7 @@
     },
     "crossing-steps": {
       "title": "Gå trygt over veien: steg for steg",
-      "instruction": "Skriv 1 til 5 i rutene slik at de viser hvordan du går trygt over veien."
+      "instruction": "Skriv 1 til 4 i rutene slik at de viser hvordan du går trygt over veien."
     },
     "sign-meaning": {
       "title": "Trafikkskilt for barn og hva de betyr",

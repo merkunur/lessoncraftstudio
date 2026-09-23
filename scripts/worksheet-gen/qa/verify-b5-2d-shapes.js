@@ -336,6 +336,23 @@ function cardsFromHtml(html) {
 }
 const cfgFromHtml = (html) => JSON.parse(/data-lcs-cfg="([^"]+)"/.exec(html)[1].replace(/&quot;/g, '"').replace(/&amp;/g, '&'));
 
+/**
+ * The GATE's own answer-slot PATTERN truth (landing review 2026-09-23: the shipped d2 read 3,2,1,3,2,1). The base
+ * grid is always 2 columns (2x2 / 2x3 — this gate's constant, not a stamp). Over reading order AND column order:
+ * counts within ±1, no period 2 / 3, not monotone. Returns the findings.
+ */
+const GRID_COLS = 2;
+function patternFindings(name, slots, tags, cols = GRID_COLS) {
+  const f = [], n = slots.length;
+  const cnt = Array(tags).fill(0); for (const x of slots) cnt[x]++;
+  if (n >= tags && Math.max(...cnt) - Math.min(...cnt) > 1) f.push(`${name}: slot pattern — unbalanced counts ${cnt.join('/')}`);
+  const col = []; for (let k = 0; k < cols; k++) for (let i = k; i < n; i += cols) col.push(slots[i]);
+  for (const [what, q] of [['reading order', slots], ['column order', col]]) {
+    for (const per of [2, 3]) if (q.length >= 2 * per && q.every((x, i) => i < per || x === q[i - per])) f.push(`${name}: slot pattern — ${what} ${q.map((x) => x + 1).join(',')} has period ${per}`);
+    if (q.length > 1 && (q.every((x, i) => !i || x >= q[i - 1]) || q.every((x, i) => !i || x <= q[i - 1]))) f.push(`${name}: slot pattern — ${what} ${q.map((x) => x + 1).join(',')} is monotone`);
+  }
+  return f;
+}
 /** The gate's own card checks (the same on the node sweep and on the render). Returns {findings, slots, answers}. */
 function checkCards(name, cards, cfg, block) {
   const f = [];
@@ -375,6 +392,7 @@ function checkCards(name, cards, cfg, block) {
     const counts = {}; for (const s of slots) counts[s] = (counts[s] || 0) + 1;
     if (Object.keys(counts).length < Math.min(cfg.tags, slots.length)) f.push(`${name}: slot spread — answers use only slots ${Object.keys(counts).map((x) => +x + 1).join(',')} of ${cfg.tags}`);
     if (Math.max(...Object.values(counts)) > Math.floor(cfg.slotMaxShare * slots.length + 1e-9)) f.push(`${name}: slot spread — ${JSON.stringify(counts)} exceeds ${cfg.slotMaxShare * 100} % in one slot`);
+    if (slots.length === cards.length) f.push(...patternFindings(name, slots, cfg.tags));
   }
   return { findings: f, slots, answers };
 }
@@ -568,6 +586,26 @@ async function main() {
     const share = Object.fromEntries(Object.entries(pooled).map(([k, v]) => [k, +(v / tot).toFixed(3)]));
     ok(Math.max(...Object.values(share)) <= 0.6, `pooled answer-slot share over ${SEEDS} d2 pages ${JSON.stringify(share)} — a slot > 60 %`);
     console.log(`sweep: ${sweepN} pages (d1-d3 x ${SEEDS} seeds, shipped seed = epoch 1) — pooled d2 answer-slot share ${JSON.stringify(share)}`);
+    // 3b. slot PATTERN on the INSTANCE seeds: epoch 1 (the shipped page) + 2..240, d1-d3, by this gate's own truth
+    {
+      let bad = 0, pages = 0; const firstBad = []; const seqs = new Set();
+      for (const d of [1, 2, 3]) for (let e = 1; e <= 240; e++) {
+        const out = TYPE._buildWith(en, TYPE.difficulty[d], { locale: 'en' }, { rng: makeRng(instanceSeed({ typeId: 'K-368', theme: null, difficulty: d, seedEpoch: e })) });
+        const cc = checkCards(`pattern d${d} e${e}`, cardsFromHtml(out.bodyHtml), cfgFromHtml(out.bodyHtml), en);
+        const pf = patternFindings(`d${d} e${e}`, cc.slots, cfgFromHtml(out.bodyHtml).tags);
+        pages++; if (pf.length) { bad++; if (firstBad.length < 3) firstBad.push(pf[0]); }
+        if (d === 2) seqs.add(cc.slots.join(''));
+        if (e === 1) ok(!pf.length, `SHIPPED d${d} (epoch 1) slot sequence ${cc.slots.map((x) => x + 1).join(',')} carries a pattern: ${pf.join(' | ')}`);
+      }
+      ok(bad === 0, `slot-pattern sweep: ${bad} of ${pages} pages (d1-d3 x 240 epochs) carry a pattern — ${firstBad.join(' | ')}`);
+      ok(seqs.size >= 20, `slot-pattern sweep: only ${seqs.size} distinct d2 slot sequences in 240 epochs`);
+      // the truth itself, both ways: the shipped-defect staircase + period 2 + monotone FIRE; a legal order stays silent
+      for (const [nm, q, re] of [['staircase 3,2,1,3,2,1', [2, 1, 0, 2, 1, 0], /period 3/], ['period 2', [0, 1, 0, 1, 0, 1], /period 2/], ['monotone', [0, 0, 1, 1, 2, 2], /monotone/], ['d1 alternation', [0, 1, 0, 1], /period 2/]]) {
+        judge(`PT ${nm} (gate truth)`, patternFindings('pt', q, q.length === 4 ? 2 : 3), re);
+      }
+      judge('PT control 1,3,2,2,1,3 (gate truth)', patternFindings('pt', [0, 2, 1, 1, 0, 2], 3), null, true);
+      console.log(`slot-pattern sweep: ${pages} pages, ${bad} with a pattern, ${seqs.size} distinct d2 sequences`);
+    }
     if (!QUICK) {
       for (let e = 2; e <= SEEDS; e++) {
         const r = await renderWith(page, TYPE, { difficulty: 2, baseName: `K-368-gate-sweep-s${e}`, seedEpoch: e });
@@ -588,6 +626,20 @@ async function main() {
       const r = await renderWith(page, type, { difficulty: opts.d || 2, baseName: `K-368-poison-${name}`, strings: opts.strings, locale: opts.locale });
       return [...r.verify.map((x) => 'verify: ' + x), ...r.lints.map((x) => 'lint: ' + x), ...assertRender(name, r, cfgFromHtml(r.html), opts.block || en).filter((x) => !/verify\(\)|lints/.test(x))];
     };
+    // PR-PAT — the answer tags forced into a slot SEQUENCE (tags re-ordered per card; the verify + the gate's truth read the render)
+    const forceSlots = (seq) => rewired(en, (h) => mapCards(h, (chunk, i) => {
+      const k = kindOfChunk(chunk);
+      const tags = [...chunk.matchAll(/<span class="s2d-tag"[\s\S]*?<\/span><\/span>/g)].map((m) => m[0]);
+      const right = tags.find((x) => x.includes(`data-lcs-tag="${k}"`));
+      const rest = tags.filter((x) => x !== right);
+      const order = rest.slice(); order.splice(seq[i], 0, right);
+      let j = 0; return chunk.replace(/<span class="s2d-tag"[\s\S]*?<\/span><\/span>/g, () => order[j++]);
+    }));
+    judge('PR-PAT1 slots 3,2,1,3,2,1 (the shipped staircase)', await gateOf(forceSlots([2, 1, 0, 2, 1, 0]), 'PRPAT1'), /verify: slot pattern: reading order 3,2,1,3,2,1 repeats with period 3/);
+    judge('PR-PAT2 slots period 2', await gateOf(forceSlots([0, 1, 0, 1, 0, 1]), 'PRPAT2'), /verify: slot pattern: reading order 1,2,1,2,1,2 repeats with period 2/);
+    judge('PR-PAT3 slots monotone', await gateOf(forceSlots([0, 0, 1, 1, 2, 2]), 'PRPAT3'), /verify: slot pattern: reading order 1,1,2,2,3,3 is monotone/);
+    judge('PR-PAT4 slots 3,2,1,3,2,1 (gate truth on the render)', (await gateOf(forceSlots([2, 1, 0, 2, 1, 0]), 'PRPAT4')).filter((x) => !/^verify/.test(x)), /slot pattern — reading order 3,2,1,3,2,1 has period 3/);
+    judge('PR-PAT control a legal 1,3,2,2,1,3', await gateOf(forceSlots([0, 2, 1, 1, 0, 2]), 'PRPATC'), null, true);
     // PR1 — a square card carrying a rectangle tag
     {
       let done = false;

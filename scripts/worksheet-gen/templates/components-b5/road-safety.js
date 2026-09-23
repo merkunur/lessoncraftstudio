@@ -30,11 +30,17 @@ function pill(text, w) {
  * (kind, lamps, on, pedStyle, pedStop, amberToken, lampD); words {stop, go} or
  * null (pillWords off); geom {w, h, band, cells:[stopX, stopW, lightX, lightW,
  * goX, goW], walkerH, carW, pedTop, poleLen, carPoleLen, pillW, pillGap}.
+ * flip (landing review 2026-09-23: the stop chip sat LEFT on every row, a side tell): the
+ * street is drawn MIRRORED — stop cell on the right, go on the left, the pictures and the
+ * street band flipped (the kerb / stop line stay on the stop side), the light + pills upright.
  */
-function streetStrip({ actor, light, words, geom }) {
+function streetStrip({ actor, light, words, geom, flip = false }) {
   const g = geom;
   const bandTop = g.h - g.band;                      // the MINIMUM strip; the row may stretch it (the pole grows)
-  const [sx, sw, lx, lw, gx, gw] = g.cells;
+  const [sx0, sw0, lx, lw, gx0, gw0] = g.cells;
+  const [sx, sw, gx, gw] = flip ? [gx0, gw0, sx0, sw0] : [sx0, sw0, gx0, gw0];
+  if (flip && Math.abs((sx0 + sw0 + gx0) - g.w) > 0.01) throw new Error(`streetStrip: a mirrored strip needs cells symmetric about the pole (${g.cells})`);
+  const mir = flip ? 'transform:scaleX(-1);' : '';
   const poleX = lx + lw / 2;
   const tl = trafficLight({ ...light, top: 0, poleLen: 0 });
   // the head: car at the strip top, ped `pedTop` lower (the height cue); a teal pole div fills down to the band,
@@ -48,15 +54,15 @@ function streetStrip({ actor, light, words, geom }) {
       ? walker({ pose: side === 'stop' ? 'standing' : 'walking', h: g.walkerH, data: { side } }).svg
       : car({ state: side === 'stop' ? 'waiting' : 'driving', w: g.carW, data: { side } }).svg;
     const p = words ? pill(words[side], g.pillW) + `<div style="height:${g.pillGap}px"></div>` : '';
-    return `<div class="rs-cell" data-lcs-side="${side}" style="position:absolute;left:${x}px;top:0;bottom:${g.band}px;width:${w}px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end">${p}<div class="rs-pic" data-lcs-pic style="display:flex;justify-content:center">${pic}</div></div>`;
+    return `<div class="rs-cell" data-lcs-side="${side}" style="position:absolute;left:${x}px;top:0;bottom:${g.band}px;width:${w}px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end">${p}<div class="rs-pic" data-lcs-pic style="${mir}display:flex;justify-content:center">${pic}</div></div>`;
   };
   const band = streetBand({ kind: actor === 'ped' ? 'walk' : 'drive', w: g.w, h: g.band, poleX }).svg;
-  return `<div class="rs-strip" data-lcs-strip data-lcs-actor="${actor}" data-lcs-pole-x="${poleX}" style="position:relative;width:${g.w}px;height:100%;min-height:${g.h}px">` +
+  return `<div class="rs-strip" data-lcs-strip data-lcs-actor="${actor}"${flip ? ' data-lcs-flip="1"' : ''} data-lcs-pole-x="${poleX}" style="position:relative;width:${g.w}px;height:100%;min-height:${g.h}px">` +
     cell('stop', sx, sw) +
     `<div class="rs-light" style="position:absolute;left:${lx}px;top:0;bottom:${g.band}px;width:${lw}px;display:flex;flex-direction:column;align-items:center">` +
     `<div style="flex:0 0 ${top}px"></div>${tl.svg}<div class="rs-pole" data-lcs-light-part="pole-ext" style="flex:1 1 auto;min-height:4px;width:10px;background:${T.teal}"></div></div>` +
     cell('go', gx, gw) +
-    `<div class="rs-band" style="position:absolute;left:0;bottom:0;width:${g.w}px;height:${g.band}px">${band}</div>` +
+    `<div class="rs-band" style="${mir}position:absolute;left:0;bottom:0;width:${g.w}px;height:${g.band}px">${band}</div>` +
     '</div>';
 }
 

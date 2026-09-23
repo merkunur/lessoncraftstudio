@@ -244,7 +244,6 @@
     "stop-kerb",
     "look-left",
     "look-right",
-    "wait-clear",
     "walk-across"
   ],
   "listenStep": null,
@@ -268,7 +267,7 @@
     },
     "crossing-steps": {
       "title": "Sådan går du sikkert over vejen: trin for trin",
-      "instruction": "Skriv 1 til 5 i felterne, så de viser, hvordan du går sikkert over vejen."
+      "instruction": "Skriv 1 til 4 i felterne, så de viser, hvordan du går sikkert over vejen."
     },
     "sign-meaning": {
       "title": "Færdselstavler og deres betydning for børn",

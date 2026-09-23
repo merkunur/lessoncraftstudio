@@ -35,7 +35,7 @@ const path = require('path');
 const fs = require('fs');
 const puppeteer = require('puppeteer');
 const { renderInstance } = require('../render/render-instance.js');
-const { makeRng } = require('../lib/rng.js');
+const { makeRng, instanceSeed } = require('../lib/rng.js');
 const { vocab } = require('../lib/b2-common.js');
 const freeClaim = require('../../lib/free-claim.js');
 const { answerBox } = require('../templates/components.js');
@@ -88,6 +88,8 @@ const INSTR_MUST_EN = { 'G1-377': [W('boxes')], 'G1-389': [W('cut'), W('glue')],
 
 let assertions = 0;
 const fails = [];
+/** The GATE's own cyclic-order truth (landing review 2026-09-23): o is a rotation of ref or of ref reversed. */
+function cyc(o, ref) { const n = ref.length; if (o.length !== n) return false; return [ref, ref.slice().reverse()].some((r) => { for (let k = 0; k < n; k++) if (o.every((x, i) => x === r[(i + k) % n])) return true; return false; }); }
 function ok(c, m) { assertions++; if (!c) fails.push(m); return !!c; }
 const low = (s, loc) => String(s).normalize('NFC').toLocaleLowerCase(loc);
 const esc = (w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -484,10 +486,34 @@ async function main() {
         }
         ok(!thrown, `face ${l}: ${thrown} of 300 seeds threw (${firstErr})`);
         ok(!neutralBad, `face ${l}: ${neutralBad} seeds draw differently in en and de (the seed carries no locale)`);
-        ok(seen.size >= (l === 'frog-cut-paste' ? 8 : 50), `face ${l}: only ${seen.size} distinct pages in 300 seeds`);
-        if (l === 'frog-cut-paste') ok(Object.keys(dist).length === 8, `F1: ${Object.keys(dist).length} of the 8 legal strip orders drawn`);
+        // variety = the WHOLE legal space is drawn. Since the cyclic rule (landing review 2026-09-23) the spaces are finite
+        // and small: F1 = 4 strip orders; F2 = 16 non-cyclic stage orders x 3 inner decoy slots = 48 (the old ">= 50"
+        // floor now exceeds the space itself, so it is replaced by the exact-space claim, which is stronger)
+        const legal = { 'frog-cut-paste': 4, label: 48 }[l];
+        ok(legal ? seen.size === legal : seen.size >= 50, `face ${l}: ${seen.size} distinct pages in 300 seeds (want ${legal ? 'the whole legal space ' + legal : '>= 50'})`);
+        // the legal F1 space since the cyclic rule (landing review 2026-09-23): derangements of 4 minus the reverse and every
+        // (reverse) rotation = exactly 4 orders — the claim is "the WHOLE legal space is drawn", not a number picked to pass
+        if (l === 'frog-cut-paste') ok(Object.keys(dist).length === 4, `F1: ${Object.keys(dist).length} of the 4 legal strip orders drawn`);
         if (l === 'label') ok(['1', '2', '3'].every((k) => dist[k] >= 50), `F2: decoy positions ${JSON.stringify(dist)} (want 1, 2, 3 each >= 50 of 300)`);
         console.log(`node sweep ${T0.id} ${l}: ${seen.size} distinct pages / 300, ${Object.keys(dist).length} tell shapes, locale-neutral ${!neutralBad}`);
+      }
+    }
+    // 6a'. cyclic tell (landing review 2026-09-23) on the INSTANCE seeds: epoch 1 (the shipped page) + epochs 2..240, en + de
+    {
+      const synth = draft('de');
+      const pick = { 'frog-cut-paste': (T0, m) => [m.tiles, T0.difficulty[2].stages.filter((x) => !T0.difficulty[2].anchors.includes(x))], label: (T0, m) => [m.bank.filter((k) => !k.includes('.')), BIOLOGY[T0.difficulty[2].animal]] };
+      for (const l of Object.keys(pick)) {
+        const T0 = F[l];
+        const sweep = (cfg) => { let bad = 0; const orders = new Set(); for (let e = 1; e <= 240; e++) for (const [b, loc] of [[banks.en, 'en'], [synth, 'de']]) { const m = T0._buildWith(b, cfg, { locale: loc }, { rng: makeRng(instanceSeed({ typeId: T0.id, theme: null, difficulty: 2, seedEpoch: e })) }).meta; const [o, ref] = pick[l](T0, m); orders.add(o.join()); if (cyc(o, ref)) bad++; } return { bad, orders: orders.size }; };
+        const real = sweep(T0.difficulty[2]);
+        ok(real.bad === 0, `${T0.id} instance sweep: ${real.bad} of 480 orders are a rotation / reverse rotation of the answer order`);
+        const [shipO, shipRef] = pick[l](T0, T0._buildWith(banks.en, T0.difficulty[2], { locale: 'en' }, { rng: makeRng(instanceSeed({ typeId: T0.id, theme: null, difficulty: 2, seedEpoch: 1 })) }).meta);
+        ok(!cyc(shipO, shipRef), `${T0.id} SHIPPED order [${shipO}] is cyclic`);
+        const poisons = l === 'frog-cut-paste'
+          ? [['rotation', { forceTiles: ['legged', 'froglet', 'adult', 'tadpole'] }, 480], ['reverse rotation', { forceTiles: ['legged', 'tadpole', 'adult', 'froglet'] }, 480], ['control', { forceTiles: ['legged', 'adult', 'tadpole', 'froglet'] }, 0]]
+          : [['rotation', { forceBank: ['larva', 'frog.tadpole', 'pupa', 'adult', 'egg'] }, 480], ['reverse rotation', { forceBank: ['pupa', 'larva', 'frog.tadpole', 'egg', 'adult'] }, 480], ['control', { forceBank: ['larva', 'adult', 'frog.tadpole', 'egg', 'pupa'] }, 0]];
+        for (const [nm, over, want] of poisons) { const z = sweep({ ...T0.difficulty[2], ...over }); ok(z.bad === want, `${nm === 'control' ? 'control' : 'poison'} — ${T0.id} forced ${nm}: ${z.bad} of 480 counted cyclic (want ${want})`); }
+        console.log(`${T0.id} instance sweep 240 epochs x 2 locales: cyclic ${real.bad}, orders ${real.orders}; shipped [${shipO}]`);
       }
     }
     // 6b. renders: d2 en + the two long chromes; floors ITSELF; every lens passes the primitive's part counts; SPARSE
@@ -567,6 +593,14 @@ async function main() {
     };
     await rpf('PR5 F1 return arc removed', dFace(F['frog-cut-paste'], (h) => h.replace(/<g data-lcs-arrow="return"[\s\S]*?<\/g>/, '')), /cycle not closed/);
     await rpf('PR6 F1 strip order === pad order', withFace(F['frog-cut-paste'], { forceTiles: ['tadpole', 'legged', 'froglet', 'adult'] }), /not a derangement/);
+    await rpf('PR6c F1 strip = the pad order rotated (a derangement)', withFace(F['frog-cut-paste'], { forceTiles: ['legged', 'froglet', 'adult', 'tadpole'] }), /is a rotation \(1\) of the pad order/);
+    await rpf('PR6d F1 strip = the reversed pad order rotated (a derangement)', withFace(F['frog-cut-paste'], { forceTiles: ['legged', 'tadpole', 'adult', 'froglet'] }), /is a reverse rotation \(2\) of the pad order/);
+    await rpf('PR14c F2 bank = the loop rotated', withFace(F.label, { forceBank: ['larva', 'frog.tadpole', 'pupa', 'adult', 'egg'] }), /is a rotation \(1\) of the loop/);
+    await rpf('PR14d F2 bank = the reversed loop rotated', withFace(F.label, { forceBank: ['pupa', 'larva', 'frog.tadpole', 'egg', 'adult'] }), /is a reverse rotation \(1\) of the loop/);
+    for (const [l, over] of [['frog-cut-paste', { forceTiles: ['legged', 'adult', 'tadpole', 'froglet'] }], ['label', { forceBank: ['larva', 'adult', 'frog.tadpole', 'egg', 'pupa'] }]]) {
+      const r = await renderWith(page, withFace(F[l], over), { difficulty: 2, baseName: `G1-377-gate-control-offcycle-${l}` });
+      ok(!r.verify.some((x) => /rotation|derangement|reversed|loop order/.test(x)), `control — a legal off-cycle ${l} order fails verify: ${r.verify.join(' | ')}`);
+    }
     await rpf('PR6b F1 a ghost printed on', dFace(F['frog-cut-paste'], (h) => h.replace(/(<span data-lcs-ghost [^>]*>)(<\/span>)/, '$1X$2')), /answer printed: pad \d's ghost is not empty/);
     await rpf('PR8 F3 cards include butterfly.egg (build refuses)', withFace(F.metamorphosis, { cards: ['butterfly.egg', 'butterfly.pupa', 'frog.spawn', 'frog.tadpole', 'frog.legged', 'frog.froglet', 'ladybird.larva', 'ladybird.pupa'] }), /SORT_EXCLUDE/);
     await rpf('PR8b F3 a butterfly.egg card rendered (verify)', dFace(F.metamorphosis, (h) => h.replace('data-lcs-stage="butterfly.larva"', 'data-lcs-stage="butterfly.egg"').replace('data-lcs-figure="life-butterfly-larva"', 'data-lcs-figure="life-butterfly-egg"')), /SORT_EXCLUDE: butterfly\.egg/);

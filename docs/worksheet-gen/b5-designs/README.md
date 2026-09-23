@@ -1,6 +1,6 @@
 # nt10-E — 10 new printable worksheet types × (1 base + 5 variations) × 11 locales (operator /goal 2026-09-23)
 
-**Status: DESIGN COMPLETE 2026-09-23** (10 of 10 final design files + `_work` provenance; hub matrix **626 of 660**, every gap a recorded refusal). **BUILD IN PROGRESS** — Phase C spine `83556185` (b5 tools cloned from b4, ten keys registered EN, baseline 0 drift); Phase D EN base builders running. Resume pointer: memory `project_nt10e_worksheet_types.md`. Plan: `C:\Users\rkgen\.claude\plans\lively-wishing-teacup.md`.
+**Status: DESIGN COMPLETE 2026-09-23** (10 of 10 final design files + `_work` provenance; hub matrix **624 of 660** (shipped, 2026-09-23), every gap a recorded refusal). **BUILD IN PROGRESS** — Phase C spine `83556185` (b5 tools cloned from b4, ten keys registered EN, baseline 0 drift); Phase D EN base builders running. Resume pointer: memory `project_nt10e_worksheet_types.md`. Plan: `C:\Users\rkgen\.claude\plans\lively-wishing-teacup.md`.
 
 Operator brief (verbatim essentials): design + build 10 new types after analysing the existing ones, 5 pedagogically meaningful variations each, perfectly native in all 11 languages (rebuilt, never translated), top quality in every sense, expert pedagogy / content / several design agents, SEO ≥ 1,000 clicks/day, and **when the user clicks the type in the /worksheets sidebar, all its worksheets must show.**
 
@@ -53,10 +53,10 @@ The sidebar is built from the landing corpus grouped by taxonomy subject: a key 
 | animal-life-cycles | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none |
 | earth-and-space | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none; above-band stated per locale; pt moon mirrored |
 | maps | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none; continent/ocean counts are locale data |
-| digraphs | 6 | 6 | 0 | 5 | 6 | 0 | 6 | 0 | 0 | 0 | 6 | 35 | es/it/sv/da/no REFUSED (inventory owned by spelling-rules/syllable-reading or < 3 teams × 6 pictured words, measured); pt F4 refused (no word-final team); fi F4 contingent on `uuni` |
+| digraphs | 6 | 6 | 0 | 5 | 6 | 0 | 5 | 0 | 0 | 0 | 6 | 34 | nl F4 refused at the landing round (every word-final ie picture is named otherwise: knie/been, lelie/bloem, kanarie/vogel); es/it/sv/da/no REFUSED (inventory owned by spelling-rules/syllable-reading or < 3 teams × 6 pictured words, measured); pt F4 refused (no word-final team); fi F4 contingent on `uuni` |
 | synonyms | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 66 | none at design; F1 per-locale lexicon floor (es/de at risk) |
-| word-parts | 6 | 6 | 5 | 6 | 5 | 6 | 6 | 6 | 6 | 6 | 5 | 63 | es F4 + fr F4 refused (compound-words owns the agent nouns), fi F3 refused (no prefixes); sv F3 / da F4 at risk |
-| **design total** | | | | | | | | | | | | **626 (ceiling 660)** | every gap a recorded refusal, never a filler |
+| word-parts | 6 | 6 | 5 | 6 | 5 | 5 | 6 | 6 | 6 | 6 | 5 | 62 | it F1 refused at the native panel (Italian roots drop their final vowel: fiore → fioraio, no whole-root family); es F4 + fr F4 refused (compound-words owns the agent nouns), fi F3 refused (no prefixes); sv F3 / da F4 at risk |
+| **shipped total** | 60 | 60 | 53 | 59 | 59 | 53 | 59 | 54 | 54 | 54 | 59 | **624 (ceiling 660)** | every gap a recorded refusal, never a filler |
 
 ## Honest click model
 From the three SEO panels' midpoints at 9-15-month maturity (near-zero for the first 2-3 months): Germanic ≈ 340-500/day · Romance ≈ 350-650/day · Nordic ≈ 90-230/day → **batch ≈ 780-1,380/day, midpoint ≈ 1,080** (the digraphs refusals fall in es/it/sv/da/no where digraph demand was weakest). Deck pages are an additional indexable surface not counted here.

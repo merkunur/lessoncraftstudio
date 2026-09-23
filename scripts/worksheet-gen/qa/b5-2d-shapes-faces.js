@@ -232,8 +232,9 @@ function checkF4(html, cfg, block, loc) {
     const tags = [...c.matchAll(/data-lcs-tag="([^"]+)"/g)].map((m) => m[1]);
     if (tags.length !== cfg.tags) f.push(`${tag}: ${tags.length} tags`);
     if (tags.filter((x) => x === k).length !== 1) f.push(`${tag}: ${tags.filter((x) => x === k).length} tags name ${k}`);
-    // landing round 1: the confusable neighbour is always offered (square <-> rectangle)
-    if (k === 'square' && !tags.includes('rectangle')) f.push(`${tag}: neighbour — a square riddle does not offer rectangle`);
+    // fi panel 2026-09-23: ONE-directional — a square IS a rectangle, so a square riddle must NOT offer rectangle;
+    // a rectangle riddle still offers square (this gate's own rule, read off the rendered tags)
+    if (k === 'square' && tags.includes('rectangle')) f.push(`${tag}: neighbour — a square riddle offers rectangle (two defensible answers)`);
     if (k === 'rectangle' && !tags.includes('square')) f.push(`${tag}: neighbour — a rectangle riddle does not offer square`);
     if (want && want.clue) facts.push(`${k}:${want.clue}`);
     slots.push(tags.indexOf(k));
@@ -318,11 +319,24 @@ async function measureRender(page) {
       for (let i = 1; i < rows.length; i++) bands.push({ where: `${bs} block → block`, px: rows[i].t - rows[i - 1].b });
       bands.push({ where: `${bs} last block → bottom edge`, px: br.b - rows[rows.length - 1].b });
     }
+    // G1-383 (fi panel 2026-09-23): the bubble is a DRAWN block that takes the card's slack, so a band INSIDE it
+    // (bubble edge → riddle text) is as dead as a band between blocks; the between-block scan cannot see it
+    if (mode === 'riddles') for (const bub of root.querySelectorAll('[data-lcs-bubble]')) {
+      const br = R(bub), tx = bub.querySelector('[data-lcs-riddle-text]');
+      if (!tx) continue;
+      const tr = R(tx), card = bub.closest('[data-lcs-card]'), n = card ? card.getAttribute('data-lcs-card') : '?';
+      bands.push({ where: `card ${n} bubble top → riddle text`, px: tr.t - br.t });
+      bands.push({ where: `card ${n} riddle text → bubble bottom`, px: br.b - tr.b });
+    }
     // containers in column flow: body top → first, consecutive, last → body bottom
-    const cols = [];
-    for (const b of boxes) { let c = cols.find((x) => Math.abs(x.l - b.l) < 8); if (!c) { c = { l: b.l, list: [] }; cols.push(c); } c.list.push(b); }
-    // a box spanning several grid columns (G1-383's full-width fifth riddle card) belongs to EVERY column it covers
-    for (const b of boxes) for (const c of cols) if (!c.list.includes(b) && c.l > b.l + 8 && c.l < b.r - 8) c.list.push(b);
+    // columns = clusters of box lefts, each anchored on its NARROWEST box; a cluster whose anchor overlaps two other
+    // anchors is a SPANNING box (G1-383's fifth card, full-width or centred across the gutter), not a column; every box
+    // belongs to each column whose anchor it overlaps horizontally
+    const clusters = [];
+    for (const b of boxes) { let c = clusters.find((x) => Math.abs(x.l - b.l) < 8); if (!c) { c = { l: b.l, a: b }; clusters.push(c); } else if (b.w < c.a.w) c.a = b; }
+    const hov = (x, y) => Math.min(x.r, y.r) - Math.max(x.l, y.l) > 8;
+    const anchors = clusters.filter((c) => clusters.filter((o) => o !== c && hov(o.a, c.a)).length < 2);
+    const cols = anchors.map((c) => ({ l: c.a.l, list: boxes.filter((b) => hov(b, c.a)) }));
     for (const c of cols) {
       c.list.sort((a, b) => a.t - b.t);
       bands.push({ where: 'body top → first container', px: c.list[0].t - body.t });
@@ -501,8 +515,14 @@ async function faceGate({ page, ok, judge, fails, pngs, validateBank, syntheticB
   }
   // RD1-RD3 + DD1 — landing round 1 (2026-09-23): each FAILS for its own reason; the shipped faces are the controls
   {
-    const t1 = rewire('G1-383', en, (h) => mapCards(h, (p) => ((attr(p, 'data-lcs-riddle') || '').startsWith('square:') ? p.replace(/data-lcs-tag="rectangle"/, 'data-lcs-tag="hexagon"').replace(new RegExp('>' + en.names.rectangle + '<'), '>' + en.names.hexagon + '<') : p)));
-    judge('RD1 F4 a square riddle without the rectangle neighbour', await gateOf(t1, 'RD1', { id: 'G1-383' }), /neighbour — a square riddle does not offer rectangle/);
+    // RD1 (fi panel 2026-09-23, inverted): a square riddle offering rectangle has two defensible answers -> FAIL;
+    // RD1b the other direction still holds: a rectangle riddle WITHOUT square -> FAIL; the shipped faces are the controls
+    const t1 = rewire('G1-383', en, (h) => mapCards(h, (p) => ((attr(p, 'data-lcs-riddle') || '').startsWith('square:') ? p.replace(/data-lcs-tag="(circle|triangle|hexagon)"([^>]*>)(<span data-lcs-tag-text[^>]*>)[^<]*</, (m, k, x, t) => `data-lcs-tag="rectangle"${x}${t}${en.names.rectangle}<`) : p)));
+    judge('RD1 F4 a square riddle offering rectangle', await gateOf(t1, 'RD1', { id: 'G1-383' }), /neighbour — a square riddle offers rectangle/);
+    const t1b = rewire('G1-383', en, (h) => mapCards(h, (p) => ((attr(p, 'data-lcs-riddle') || '').startsWith('rectangle:') ? p.replace(/data-lcs-tag="square"([^>]*>)(<span data-lcs-tag-text[^>]*>)[^<]*</, (m, x, t) => `data-lcs-tag="hexagon"${x}${t}${en.names.hexagon}<`) : p)));
+    judge('RD1b F4 a rectangle riddle without the square neighbour', await gateOf(t1b, 'RD1b', { id: 'G1-383' }), /neighbour — a rectangle riddle does not offer square/);
+    { let sq = 0, bad = 0; for (let e = 1; e <= 240; e++) { const out = TYPES['G1-383']._buildWith(en, TYPES['G1-383'].difficulty[2], { locale: 'en' }, { rng: makeRng(instanceSeed({ typeId: 'G1-383', theme: null, difficulty: 2, seedEpoch: e })) }); for (const c of out.bodyHtml.split('<section class="ws-card"').slice(1)) { const k = (attr(c, 'data-lcs-riddle') || '').split(':')[0]; const tg = [...c.matchAll(/data-lcs-tag="([^"]+)"/g)].map((m) => m[1]); if (k === 'square') { sq++; if (tg.includes('rectangle')) bad++; } if (k === 'rectangle' && !tg.includes('square')) bad++; } }
+      ok(sq >= 200 && bad === 0, `G1-383 neighbour sweep (epochs 1..240, 1 = shipped): ${bad} bad cards over ${sq} square riddles`); }
     const t2 = rewire('G1-383', en, (h) => {
       const ci = +((/data-lcs-riddle="circle:(\d)"/.exec(h) || [])[1] || 0), other = 1 - ci;
       return h.replace(/(data-lcs-riddle=")hexagon:\d("[\s\S]*?<p data-lcs-riddle-text[^>]*>)[^<]*</, (m, a, b) => `${a}circle:${other}${b}${en.riddles.circle[other].text}<`);
@@ -520,7 +540,10 @@ async function faceGate({ page, ok, judge, fails, pngs, validateBank, syntheticB
     ['SP1 F1 name pill and figures pushed apart', 'G1-381', (h) => h.split('justify-content:space-evenly').join('justify-content:space-between')],
     ['SP2 F2 card content pinned to the top', 'K-371', (h) => h.split('class="s2d-stage" data-ws-content data-lcs-obj').join('class="s2d-stage" data-ws-content data-lcs-pin data-lcs-obj').replace(/data-lcs-pin([^>]*?)align-items:center;/g, 'data-lcs-pin$1align-items:flex-start;')],
     ['SP3 F3 lanes shrunk to their content', 'G1-382', (h) => h.split('padding:4px 12px;flex:1 1 0').join('padding:4px 12px;flex:0 0 auto')],
-    ['SP4 F4 bubble no longer takes the slack', 'G1-383', (h) => h.split('position:relative;box-sizing:border-box;flex:1 1 auto').join('position:relative;box-sizing:border-box;flex:0 0 auto')],
+    // SP4: neither the bubble nor the tags take the slack (the tags share it since the fi-panel fix, so both are frozen)
+    ['SP4 F4 bubble + tags no longer take the slack', 'G1-383', (h) => h.split('position:relative;box-sizing:border-box;flex:1 1 auto').join('position:relative;box-sizing:border-box;flex:0 0 auto').split('clamp(44px, calc((100cqh - 120px) / 2), 60px)').join('44px')],
+    // SP4b (fi panel 2026-09-23): the tags frozen at 44 -> the bubble takes ALL the slack and a short riddle floats in dead tealSoft
+    ['SP4b F4 tags frozen, the bubble takes all the slack (dead band inside the bubble)', 'G1-383', (h) => h.split('clamp(44px, calc((100cqh - 120px) / 2), 60px)').join('44px').split(', 19cqh, ').join(', 0cqh, ')],
     ['SP5 F5 lattice held at its minimum', 'K-372', (h) => h.split('position:relative;flex:1 1 0;min-height').join('position:relative;flex:0 0 auto;min-height')],
   ];
   // FL1 FL2 — FILL both ways: the content ending high at 814 (the F1 lanes shrunk to their content, the stage

@@ -188,12 +188,17 @@ function traceRows({ rows, laneW = 321, trioH = 58, glyphH = 40, gap = 16, gapMa
  * The numbered lines: a teal disc N + an EMPTY school-line trio; the answer (the word of
  * person N) only in data-lcs-answer. Stamps: [data-lcs-trace-row][data-lcs-badge].
  */
-function traceBank({ words, laneW = 321, trioH = 58, glyphH = 40, gap = 6, gapMax = 6, indent = 38, pad = 8 }) {
+function traceBank({ words, badges = null, laneW = 321, trioH = 58, glyphH = 40, gap = 6, gapMax = 6, indent = 38, pad = 8 }) {
+  // badges (landing review 2026-09-23): each word to trace carries the number of the person it names, in the
+  // panel's indent (the instruction's "the person with the same number" must be printed beside the word)
   const sp = `<div data-lcs-gap="" style="flex:1 1 ${gap}px;min-height:${gap}px;max-height:${gapMax}px"></div>`;
   return `<div class="fam-trace-bank" data-lcs-trace-bank="" style="box-sizing:border-box;display:flex;flex-direction:column;height:100%;padding:${pad}px 0 ${pad}px ${indent - 4}px;margin-left:0;background:${T.creamDeep};border-radius:14px">` +
     words.map((w) => {
       const lane = strokeWordLane({ text: w, w: laneW, h: trioH, glyphH, reps: 1, stack: true, modelless: true, emptyLast: false });
-      return `<div data-lcs-bank-lane="" data-lcs-text="${esc(w)}" style="flex:0 0 ${trioH}px;margin-left:4px;display:flex">${lane.svg}</div>`;
+      if (!badges) return `<div data-lcs-bank-lane="" data-lcs-text="${esc(w)}" style="flex:0 0 ${trioH}px;margin-left:4px;display:flex">${lane.svg}</div>`;
+      const i = words.indexOf(w);
+      return `<div data-lcs-bank-lane="" data-lcs-text="${esc(w)}" data-lcs-badge="${badges[i]}" style="flex:0 0 ${trioH}px;margin-left:${4 - (indent - 4)}px;display:flex;align-items:flex-start;gap:${indent - 4 - 30}px">` +
+        `<div style="flex:0 0 30px;margin-top:${(trioH - 30) / 2}px">` + numberDisc({ n: badges[i], d: 30, attrs: 'data-lcs-bank-disc=""' }) + `</div>${lane.svg}</div>`;
     }).join(sp) + `</div>`;
 }
 function writeRows({ rows, laneW = 321, trioH = 58, glyphH = 40, gap = 6, gapMax = 6 }) {

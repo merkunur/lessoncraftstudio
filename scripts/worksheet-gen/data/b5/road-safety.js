@@ -110,7 +110,7 @@ const ROAD_SAFETY = {
       'no-pedestrians': ['People may not cross the street on foot at this spot.', 'Walkers must not cross here. Use the crossing further on.'],
     },
     // landing round 1 (2026-09-23): no action twice (the second look-left made steps 2 / 4 swappable) — wait until clear
-    steps: ['stop-kerb', 'look-left', 'look-right', 'wait-clear', 'walk-across'],
+    steps: ['stop-kerb', 'look-left', 'look-right', 'walk-across'],
     listenStep: null,
     familyHead: 'Road Safety',
     signHead: 'Traffic Signs',
@@ -118,7 +118,7 @@ const ROAD_SAFETY = {
     strings: {
       base: { title: 'Road Safety: Read the Traffic Light', instruction: 'Look at the lamp that is on, then circle what to do.' },
       'colour-lights': { title: 'Road Safety: Color the Traffic Lights', instruction: 'Find the lamp with rays on each traffic light and color it the color it shines.' },
-      'crossing-steps': { title: 'Crossing the Road Safely: the Steps', instruction: 'Write 1 to 5 in the boxes to show how to cross the road.' },
+      'crossing-steps': { title: 'Crossing the Road Safely: the Steps', instruction: 'Write 1 to 4 in the boxes to show how to cross the road.' },
       'sign-meaning': { title: 'Road Safety: Traffic Signs and Their Meanings', instruction: 'Draw a line from each road sign to what it means.' },
       'sign-kinds': { title: 'Road Safety: Kinds of Traffic Signs', instruction: 'Write the letter of each road sign in the boxes of its group.' },
       'sign-quiz': { title: 'Road Safety Quiz: Which Sign Fits?', instruction: 'Read each sentence and circle the one road sign that fits it.' },

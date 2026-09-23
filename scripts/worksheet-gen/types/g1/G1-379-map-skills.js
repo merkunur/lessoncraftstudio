@@ -57,6 +57,7 @@ const IM = require('../../primitives/island-map.js');
 const { MAPS } = require('../../data/b5/maps.js');
 
 const ID = 'G1-379';
+const ANSWER_CAP = 2;   // F5 (landing review 2026-09-23): a place answers at most 2 of the 6 rows
 const KEY = 'maps';
 const BANK = 'maps';
 const FIELD_W = 615, SHEET_W = 639, BLOCK_GAP = 20;
@@ -333,7 +334,7 @@ const TYPE = {
     throw new Error(`${ID}: no F4 index order clears the order rules`);
   },
 
-  /** F5 — 7 places on island slots >= minApartPx pairwise, then 6 rows (6 distinct starts, all 4 directions). */
+  /** F5 — 7 places on island slots (answer cap + no mirror pair: see ANSWER_CAP) >= minApartPx pairwise, then 6 rows (6 distinct starts, all 4 directions). */
   _composeDirections(d, rng) {
     const key = IM.slotKey(d.symPx, d.islandW);
     const slots = IM.ISLE_1.slots[key] && IM.ISLE_1.slots[key].none;
@@ -375,6 +376,10 @@ const TYPE = {
         let row = null;
         for (let k = 0; k < 60 && !row; k++) {
           const y = rng.pick(ins);
+          // landing review 2026-09-23: one place answers at most ANSWER_CAP rows; no MIRROR pair (a row whose start and
+          // answer are another row's answer and start swapped — reading one row answers the other)
+          if (rows.filter((q) => q.answer === y).length >= ANSWER_CAP) continue;
+          if (rows.some((q) => q.start === y && q.answer === use[i])) continue;
           const far = outs.filter((z) => bearingOff(at[use[i]], at[z], dir) >= 135);
           const first = far.length ? [rng.pick(far)] : [];
           const wrong = [...first, ...rng.sample(outs.filter((z) => !first.includes(z)), d.chips - 1 - first.length)];
@@ -823,6 +828,11 @@ const TYPE = {
         posSeq.push(r.chips.indexOf(r.answer));
         if (b && r.word !== b.dirWords[r.dir]) fails.push(`row ${r.n} prints "${r.word}" ≠ dirWords.${r.dir}`);
       }
+      // landing review 2026-09-23 — re-derived from the bearings (the one chip inside inDeg), never from the answer stamp
+      const derivedAns = F.rows.map((r) => { const inside = at[r.start] ? r.chips.filter((c) => at[c] && bearingOff(at[r.start], at[c], r.dir) <= F.inDeg) : []; return inside.length === 1 ? inside[0] : null; });
+      const cnt = {}; derivedAns.forEach((a) => { if (a) cnt[a] = (cnt[a] || 0) + 1; });
+      for (const [a, n] of Object.entries(cnt)) if (n > ANSWER_CAP) fails.push(`answer cap — ${a} is the answer in ${n} of ${F.rows.length} rows (<= ${ANSWER_CAP})`);
+      for (let i = 0; i < F.rows.length; i++) for (let j = i + 1; j < F.rows.length; j++) if (derivedAns[i] && derivedAns[j] && F.rows[i].start === derivedAns[j] && F.rows[j].start === derivedAns[i]) fails.push(`mirror pair — rows ${F.rows[i].n} and ${F.rows[j].n} swap start and answer (${F.rows[i].start} <-> ${F.rows[j].start})`);
       if (new Set(posSeq).size < 2 || isPeriodic(posSeq)) fails.push(`the correct chip positions [${posSeq}] are constant or periodic (tell)`);
       if (b && F.rose) for (const [dir, t] of F.rose) if (b.dirLetters[dir] !== t) fails.push(`the reference rose prints "${t}" at ${dir} ≠ dirLetters.${dir}`);
     }

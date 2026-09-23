@@ -57,7 +57,23 @@ function frTypo(html) {
     .replace(/«[ \u202F]+/g, '«\u00A0')
     .replace(/(^|[^\p{L}])(\p{L}+)-t-(il|elle|on|ils|elles)(?![\p{L}-])/gu, '$1$2-\u2060t-\u2060$3');
 }
-const chromeText = (s, locale) => (String(locale || '').slice(0, 2) === 'fr' ? frTypo(esc(s)) : esc(s));
+/** The same rules over a BODY's text nodes only (never inside a tag, a <style> or a <script>): the fr landing
+ *  revision found riddles, sentences and field headers inside the cards still breaking before "?" / ":" and «aller»
+ *  printed without its inner spaces. Also closes a « … » pair whose inner spaces were never typed. */
+function frTypoHtml(html) {
+  let inRaw = false;
+  return String(html).split(/(<[^>]*>)/).map((seg) => {
+    if (seg.startsWith('<')) {
+      if (/^<(style|script)\b/i.test(seg)) inRaw = true;
+      else if (/^<\/(style|script)/i.test(seg)) inRaw = false;
+      return seg;
+    }
+    // "Qui suis-je ?" broke as "suis- / je ?": a WORD JOINER after the hyphen of every inverted pronoun
+    return inRaw ? seg : frTypo(seg).replace(/(\p{L})-(je|tu|il|elle|on|nous|vous|ils|elles|moi|toi)(?![\p{L}⁠-])/gu, '$1-⁠$2').replace(/«(?=[^\s ])/g, '« ').replace(/([^\s ])(?=»)/g, '$1 ');
+  }).join('');
+}
+const isFr = (locale) => String(locale || '').slice(0, 2) === 'fr';
+const chromeText = (s, locale) => (isFr(locale) ? frTypo(esc(s)) : esc(s));
 
 /**
  * buildPage({ title, instruction, bodyHtml, locale, pageSize }) → html string
@@ -80,8 +96,8 @@ ${PAGE_CSS}
   <header class="ws-head">
     <h1 class="ws-title" data-lcs-title>${chromeText(title, locale)}</h1>
     <div class="ws-namedate">
-      <span>${esc(chrome.name)}: <span class="ws-blank"></span></span>
-      <span>${esc(chrome.date)}: <span class="ws-blank ws-blank--short"></span></span>
+      <span>${esc(chrome.name)}${isFr(locale) ? ' ' : ''}: <span class="ws-blank"></span></span>
+      <span>${esc(chrome.date)}${isFr(locale) ? ' ' : ''}: <span class="ws-blank ws-blank--short"></span></span>
     </div>
   </header>
   <div class="ws-instruction">
@@ -89,7 +105,7 @@ ${PAGE_CSS}
     <p data-lcs-instruction>${chromeText(instruction, locale)}</p>
   </div>
   <main class="ws-body" data-lcs-body>
-${bodyHtml}
+${isFr(locale) ? frTypoHtml(bodyHtml) : bodyHtml}
   </main>
   <footer class="ws-foot">
     <span class="ws-foot-rule"></span>
@@ -101,4 +117,4 @@ ${bodyHtml}
 </html>`;
 }
 
-module.exports = { frTypo, buildPage, PAGE_SIZES, CHROME, ATTRIBUTION };
+module.exports = { frTypo, frTypoHtml, buildPage, PAGE_SIZES, CHROME, ATTRIBUTION };

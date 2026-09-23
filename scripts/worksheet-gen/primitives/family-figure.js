@@ -133,6 +133,10 @@ const LOOKS_CHILD_M = {
 };
 const LOOKS_BABY = { baby: { tint: 'white', ears: true, back: [], front: [], curl: 'M 50 30 q 6 -6 2 -10 q -5 -2 -6 4' } };
 
+/** ELDER MALE CUE (landing review 2026-09-23: a curly-haired grandpa read as mum): every elder m figure
+ *  carries a beard, a moustache or the bald crown. A look with none gets the short moustache added. */
+const ELDER_M_MOUSTACHE = 'M 41 53 Q 50 47.5 59 53 Q 50 55.5 41 53 Z';
+function elderMaleCue(look, L) { return L.beard ? (/beard/.test(look) ? 'beard' : 'moustache') : look === 'bald-crown' ? 'bald' : 'moustache'; }
 /** glasses on 3 elder looks per sex */
 const ELDER_GLASSES = new Set(['f:long-straight', 'f:bun', 'f:bob-fringe', 'm:short', 'm:crew', 'm:bald-crown']);
 
@@ -195,9 +199,11 @@ function familyFigure({ age, sex, look, tint, px, id, x, y } = {}) {
   for (const s of L.front) parts.push(shapeSvg(s, hair, sw, hairAttr));
   if (L.detail) for (const d of L.detail) parts.push(`<path d="${d}" fill="none" stroke="${T.teal}" stroke-width="${sd}" stroke-linecap="round"/>`);
   // 7 beard / moustache (m only; a separate shape, not hair reach)
-  if (L.beard) {
+  const cue = age === 'elder' && sex === 'm' ? elderMaleCue(look, L) : null;
+  const beardD = L.beard || (cue === 'moustache' ? ELDER_M_MOUSTACHE : null);
+  if (beardD) {
     if (sex !== 'm') throw new Error(`familyFigure: a beard on an f look (${look})`);
-    parts.push(`<path d="${L.beard}" fill="${hair}" stroke="${T.teal}" stroke-width="${sd * 1.4}" stroke-linejoin="round" data-lcs-beard=""/>`);
+    parts.push(`<path d="${beardD}" fill="${hair}" stroke="${T.teal}" stroke-width="${sd * 1.4}" stroke-linejoin="round" data-lcs-beard=""/>`);
   }
   // 8 face
   if (L.curl) parts.push(`<path d="${L.curl}" fill="none" stroke="${T.teal}" stroke-width="${+(2 / scale).toFixed(3)}" stroke-linecap="round" data-lcs-curl=""/>`);
@@ -221,10 +227,10 @@ function familyFigure({ age, sex, look, tint, px, id, x, y } = {}) {
   const clip = 'ff-' + id;
   const pos = (x != null ? ` x="${x}"` : '') + (y != null ? ` y="${y}"` : '');
   const svg = `<svg xmlns="http://www.w3.org/2000/svg"${pos} width="${W}" height="${px}" viewBox="0 0 ${VB_W} ${VB_H}" role="img" aria-label="" ` +
-    `data-lcs-figure="" data-lcs-age="${age}" data-lcs-sex="${sex}" data-lcs-look="${esc(look)}" data-lcs-tint="${esc(tint || L.tint)}" data-lcs-px="${px}">` +
+    `data-lcs-figure="" data-lcs-age="${age}" data-lcs-sex="${sex}" data-lcs-look="${esc(look)}" data-lcs-tint="${esc(tint || L.tint)}" data-lcs-px="${px}"${cue ? ` data-lcs-male-cue="${cue}"` : ''}>` +
     `<defs><clipPath id="${clip}"><rect x="0" y="0" width="${VB_W}" height="${VB_H}"/></clipPath></defs>` +
     `<g clip-path="url(#${clip})">${parts.join('')}</g></svg>`;
-  return { svg, width: W, height: px, meta: { age, sex, look, tint: tint || L.tint, hairBottom, jawY: jawYOf(age), earTopY: earTopYOf(age), scale } };
+  return { svg, width: W, height: px, meta: { age, sex, look, maleCue: cue, tint: tint || L.tint, hairBottom, jawY: jawYOf(age), earTopY: earTopYOf(age), scale } };
 }
 
 module.exports = { familyFigure, LOOKS, AGE_GEOM, MIN_PX, VB_W, VB_H, lookIds, jawYOf, earTopYOf, chinOf, ELDER_GLASSES };

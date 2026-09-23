@@ -86,7 +86,11 @@ function measure(svg) {
   const headSW = +/stroke-width="([^"]+)"/.exec(head)[1];
   const hexes = [...svg.matchAll(/#[0-9A-Fa-f]{6}/g)].map((m) => m[0].toUpperCase());
   const extents = [...svg.matchAll(/<(?:path|circle|ellipse)[^>]*\/>/g)].map((m) => ({ tag: m[0], e: shapeExtent(m[0]) })).filter((x) => x.e && !/data-lcs-garment/.test(x.tag));
-  return { H, chin: H.cy + H.ry, hairBottom, hairFills, beardBottom, beardCount: beard.length, scale, px, eyeR, headSW, hexes, extents };
+  // crown cover (the gate's own bald test): a hair shape spanning the head's centre line near its top
+  const crownY = H.cy - H.ry + 6;
+  const crownCovered = hair.some((t) => { const e = shapeExtent(t); return e.x0 < H.cx && e.x1 > H.cx && e.y0 < crownY; });
+  const beardOnFace = beard.some((t) => { const e = shapeExtent(t); return e.y0 >= H.cy - 1 && e.y1 <= H.cy + H.ry + 10 && e.x0 < H.cx && e.x1 > H.cx; });
+  return { H, chin: H.cy + H.ry, hairBottom, hairFills, beardBottom, beardCount: beard.length, crownCovered, beardOnFace, scale, px, eyeR, headSW, hexes, extents };
 }
 
 /** the rules, over one emitted figure; returns the failures (the poisons reuse this) */
@@ -105,6 +109,8 @@ function checkFigure(svg, { age, sex, look }) {
     if (sex !== 'm') f.push(`${tag}: a beard on an f look`);
     if (look.includes('beard') && Math.abs(m.beardBottom - m.chin) > 8) f.push(`${tag}: the beard does not reach the chin`);
   }
+  // ELDER MALE CUE (landing review 2026-09-23: a curly-haired grandpa read as mum): beard / moustache on the face, or a bald crown
+  if (age === 'elder' && sex === 'm' && !m.beardOnFace && m.crownCovered) f.push(`${tag}: grandpa has no male cue (no beard / moustache on the face and the crown is covered)`);
   if (m.eyeR * m.scale < 1.8 - 1e-9) f.push(`${tag}: eye disc ${(m.eyeR * m.scale).toFixed(2)} px < 1.8`);
   if (Math.abs(m.headSW * m.scale - 3) > 0.01) f.push(`${tag}: outline renders ${(m.headSW * m.scale).toFixed(2)} px ≠ 3`);
   for (const h of m.hexes) if (!PALETTE.has(h)) f.push(`${tag}: off-palette ${h}`);
@@ -146,6 +152,8 @@ function poisons() {
     { name: 'f hair stops at y 62', age: 'adult', sex: 'f', look: 'bob-fringe', edit: (s) => s.replace(/(<path d=")M 28 40 C 27 15 40 12 50 12 C 60 12 73 15 72 40 L 74 74 Q 50 79 26 74 Z/, '$1M 28 40 C 27 15 40 12 50 12 C 60 12 73 15 72 40 L 72 62 L 28 62 Z'), want: /f hair reaches y 6[0-9]/ },
     { name: 'm with a ponytail', age: 'adult', sex: 'm', look: 'short', edit: (s) => s.replace('<ellipse cx="50" cy="44"', `<path d="M 63 24 C 84 22 90 48 84 78 C 79 70 74 54 67 40 Z" fill="${tokens.color.ink}" stroke="${tokens.color.teal}" stroke-width="3" data-lcs-hair=""/><ellipse cx="50" cy="44"`), want: /m hair reaches y 7/ },
     { name: 'elder with ink hair', age: 'elder', sex: 'f', look: 'bun', edit: (s) => s.split(`fill="${tokens.color.grid}" stroke="${tokens.color.teal}" stroke-width="3.75" stroke-linejoin="round" data-lcs-hair`).join(`fill="${tokens.color.ink}" stroke="${tokens.color.teal}" stroke-width="3.75" stroke-linejoin="round" data-lcs-hair`), want: /hair fill .* ≠ #C8BFAE/ },
+    { name: 'grandpa (curly-short) without his moustache', age: 'elder', sex: 'm', look: 'curly-short', edit: (s) => s.replace(/<path [^>]*data-lcs-beard=""\/>/, ''), want: /grandpa has no male cue/ },
+    { name: 'bald grandpa given a full cap of hair', age: 'elder', sex: 'm', look: 'bald-crown', edit: (s) => s.replace('<ellipse cx="50" cy="44"', `<path d="M 31 39 C 29 22 39 16 50 16 C 61 16 71 22 69 39 Z" fill="${tokens.color.grid}" stroke="${tokens.color.teal}" stroke-width="3.75" data-lcs-hair=""/><ellipse cx="50" cy="44"`), want: /grandpa has no male cue/ },
     { name: 'off-palette garment', age: 'child', sex: 'm', look: 'crew', edit: (s) => s.replace(/data-lcs-garment=""/, 'data-lcs-garment="" data-x="#123456"'), want: /off-palette #123456/ },
   ];
   for (const c of cases) {

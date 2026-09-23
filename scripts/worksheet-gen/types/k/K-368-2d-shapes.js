@@ -167,6 +167,25 @@ function tagSets(slots, cfg, rng) {
   });
 }
 
+/**
+ * Answer-slot PATTERN tell (landing review 2026-09-23: the shipped d2 put the right tag at 3,2,1,3,2,1 down the
+ * cards). Over the answer-slot sequence in reading order AND in column order: every slot used, counts within ±1,
+ * not periodic with period 2 or 3, not monotone. Returns the reason or null. (verify() carries its own copy.)
+ */
+function slotPatternTell(seq, tags, cols) {
+  const n = seq.length, used = Math.min(tags, n);
+  const cnt = Array(tags).fill(0); for (const x of seq) cnt[x]++;
+  if (cnt.filter((c) => c > 0).length < used) return 'an unused slot';
+  if (n >= tags && Math.max(...cnt) - Math.min(...cnt) > 1) return `unbalanced slot counts ${cnt.join('/')}`;
+  const reads = [['reading order', seq]];
+  if (cols > 1) { const c = []; for (let k = 0; k < cols; k++) for (let i = k; i < n; i += cols) c.push(seq[i]); reads.push(['column order', c]); }
+  for (const [what, q] of reads) {
+    for (const per of [2, 3]) if (q.length >= 2 * per && q.every((x, i) => i < per || x === q[i - per])) return `${what} ${q.map((x) => x + 1).join(',')} repeats with period ${per}`;
+    if (q.every((x, i) => !i || x >= q[i - 1]) || q.every((x, i) => !i || x <= q[i - 1])) return `${what} ${q.map((x) => x + 1).join(',')} is monotone`;
+  }
+  return null;
+}
+
 function orderTags(sets, cfg, rng) {
   const cap = Math.floor(cfg.slotMaxShare * sets.length + 1e-9);
   for (let t = 0; t < ORDER_TRIES; t++) {
@@ -175,7 +194,8 @@ function orderTags(sets, cfg, rng) {
     const counts = {};
     for (const x of slotsUsed) counts[x] = (counts[x] || 0) + 1;
     // every slot must hold at least one answer ON THE PAGE (a pooled-uniform sampler still ships pages that never use slot 1: 8.8% at d2, the nt10-D shipped-instance lesson)
-    if (Object.keys(counts).length >= Math.min(cfg.tags, sets.length) && Math.max(...Object.values(counts)) <= cap) return orders;
+    // the pattern rule binds the BASE (cfg.cols present); the riddles face keeps its own draw untouched
+    if (Object.keys(counts).length >= Math.min(cfg.tags, sets.length) && Math.max(...Object.values(counts)) <= cap && !(cfg.cols && slotPatternTell(slotsUsed, cfg.tags, cfg.cols))) return orders;
   }
   throw new Error(`${ID}: no tag order puts an answer in every slot with <= ${cap} per slot in ${ORDER_TRIES} tries`);
 }
@@ -421,7 +441,10 @@ function buildWriteName(block, d, loc, rng) {
  * long / short sides AND the right corners — validator rule 11 — so the neighbour is honestly wrong). The page
  * cannot carry six distinct facts (5 kinds × 1 clue each), so it prints five cards: 2 + 2 + one full-width card.
  */
-const RIDDLE_NEIGHBOUR = { square: 'rectangle', rectangle: 'square' };
+// fi panel 2026-09-23: ONE-directional. A square IS a rectangle, so `rectangle` on a square card is a second
+// defensible answer; a square card offers only unrelated kinds, a rectangle card still offers `square`.
+const RIDDLE_NEIGHBOUR = { rectangle: 'square' };
+const RIDDLE_NEVER = { square: ['rectangle'] };
 function f4Cfg(d) {
   const c = { cards: 5, tags: 3, tagW: 132, tagH: 44, tagPx: 18, px: 16, lh: 20, slotMaxShare: 0.6, cols: 2, rows: 3, ...d };
   if (!(c.cards >= 4 && c.cards <= 5) || c.cols * c.rows < c.cards || c.cols * (c.rows - 1) >= c.cards) throw new Error(`${ID} riddles: ${c.cards} cards in a ${c.cols}x${c.rows} grid (4-5 cards: one per kind, never a fact twice)`);
@@ -429,8 +452,11 @@ function f4Cfg(d) {
   if (!(c.tagH >= TAG_H_G1 && c.px >= 16)) throw new Error(`${ID} riddles: tag ${c.tagH} / text ${c.px} px below the G1 floors ${TAG_H_G1} / 16`);
   return c;
 }
-/** a card spanning the whole last row (5 cards in a 2-column grid) */
-const spanLast = (html, n) => html.split(`<section class="ws-card" data-lcs-card="${n}">`).join(`<section class="ws-card" data-lcs-card="${n}" style="grid-column:1 / -1">`);
+/**
+ * the odd last card of a 2-column grid: CENTRED at one column's width (fi panel 2026-09-23: spanned across the whole row its
+ * 2-line riddle left a 48-71 px dead band inside a full-width bubble). 14 px = the .ws-cardgrid gap (page/page.css).
+ */
+const spanLast = (html, n) => html.split(`<section class="ws-card" data-lcs-card="${n}">`).join(`<section class="ws-card" data-lcs-card="${n}" style="grid-column:1 / -1;justify-self:center;width:calc((100% - 14px) / 2);box-sizing:border-box">`);
 function buildRiddles(block, d, loc, rng) {
   const cfg = f4Cfg(d);
   const kindsAll = cfg.cards === 5 ? [...CORE, 'hexagon'] : CORE.slice();
@@ -442,7 +468,7 @@ function buildRiddles(block, d, loc, rng) {
   const items = kinds.map((k) => { const i = rng.pick([0, 1]); return { kind: k, i, r: riddle(block, k, i, loc) }; });
   const sets = items.map((it) => {
     const nb = RIDDLE_NEIGHBOUR[it.kind];
-    const rest = kindsAll.filter((k) => k !== it.kind && k !== nb);
+    const rest = kindsAll.filter((k) => k !== it.kind && k !== nb && !(RIDDLE_NEVER[it.kind] || []).includes(k));
     return nb ? [it.kind, nb, ...rng.sample(rest, cfg.tags - 2)] : [it.kind, ...rng.sample(rest, cfg.tags - 1)];
   });
   const orders = orderTags(sets, { tags: cfg.tags, slotMaxShare: cfg.slotMaxShare }, rng);
@@ -670,7 +696,7 @@ function faceVerifyInPage({ ID, TEAL, CORAL }) {
       const p = st.querySelector('[data-lcs-riddle-text]');
       const text = p ? p.textContent : '';
       for (const w of leak) if (new RegExp('(?<!\\p{L})' + fold(w).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?!\\p{L})', 'u').test(fold(text))) f.push(`${tag}: the riddle contains the name / inflection "${w}"`);
-      if (p) { const lines = Math.round(R(p).height / cfg.lh); if (lines > 3) f.push(`${tag}: bubble ${lines} lines > 3`); if (parseFloat(getComputedStyle(p).fontSize) < cfg.px - 0.01) f.push(`${tag}: riddle text < ${cfg.px} px`); }
+      if (p) { const lines = Math.round(R(p).height / parseFloat(getComputedStyle(p).lineHeight)); if (lines > 3) f.push(`${tag}: bubble ${lines} lines > 3`); if (parseFloat(getComputedStyle(p).fontSize) < cfg.px - 0.01) f.push(`${tag}: riddle text < ${cfg.px} px`); }
       const b = st.querySelector('[data-lcs-bubble]');
       if (b && b.scrollHeight > b.clientHeight + 0.5) f.push(`${tag}: the bubble text overflows`);
       const tags = [...st.querySelectorAll('[data-lcs-tag]')];
@@ -678,8 +704,9 @@ function faceVerifyInPage({ ID, TEAL, CORAL }) {
       const tk = tags.map((t) => t.dataset.lcsTag);
       const hits = tk.filter((x) => x === k).length;
       if (hits !== 1) f.push(`${tag}: ${hits} tags name the answer ${k}`);
-      // the confusable neighbour is ALWAYS an option (landing round 1): square <-> rectangle
-      if (k === 'square' && !tk.includes('rectangle')) f.push(`${tag}: neighbour — a square riddle does not offer rectangle`);
+      // the neighbour is ONE-directional (fi panel 2026-09-23): a square IS a rectangle, so a square riddle offering
+      // rectangle has two defensible answers; a rectangle riddle (2 long + 2 short sides) still offers square
+      if (k === 'square' && tk.includes('rectangle')) f.push(`${tag}: neighbour — a square riddle offers rectangle (a square IS a rectangle: two defensible answers)`);
       if (k === 'rectangle' && !tk.includes('square')) f.push(`${tag}: neighbour — a rectangle riddle does not offer square`);
       if (new Set(tk).size !== tk.length) f.push(`${tag}: a tag repeats`);
       slots.push(tk.indexOf(k));
@@ -758,6 +785,7 @@ module.exports = {
   },
   FACE_MODES,
   CORE,
+  slotPatternTell,
   shapeName, stringsFor, riddle,
 
   build({ difficulty, locale }, ctx) {
@@ -929,6 +957,18 @@ module.exports = {
       const counts = {}; for (const s of slots) counts[s] = (counts[s] || 0) + 1;
       if (Object.keys(counts).length < Math.min(cfg.tags, slots.length)) f.push(`slot spread: answers use only slots ${Object.keys(counts).map((x) => +x + 1).join(',')} of ${cfg.tags}`);
       if (Math.max(...Object.values(counts)) > Math.floor(cfg.slotMaxShare * slots.length + 1e-9)) f.push(`slot spread: ${JSON.stringify(counts)} — one slot holds > ${cfg.slotMaxShare * 100} % of the answers`);
+      // slot PATTERN (landing review 2026-09-23), cols read off the rendered card lefts
+      if (slots.length === cards.length) {
+        const cols = new Set(cards.map((c) => Math.round(c.getBoundingClientRect().left))).size;
+        const n = slots.length, cnt = Array(cfg.tags).fill(0); for (const x of slots) cnt[x]++;
+        if (n >= cfg.tags && Math.max(...cnt) - Math.min(...cnt) > 1) f.push(`slot pattern: unbalanced slot counts ${cnt.join('/')}`);
+        const reads = [['reading order', slots]];
+        if (cols > 1) { const c = []; for (let k = 0; k < cols; k++) for (let i = k; i < n; i += cols) c.push(slots[i]); reads.push(['column order', c]); }
+        for (const [what, q] of reads) {
+          for (const per of [2, 3]) if (q.length >= 2 * per && q.every((x, i) => i < per || x === q[i - per])) f.push(`slot pattern: ${what} ${q.map((x) => x + 1).join(',')} repeats with period ${per}`);
+          if (q.every((x, i) => !i || x >= q[i - 1]) || q.every((x, i) => !i || x <= q[i - 1])) f.push(`slot pattern: ${what} ${q.map((x) => x + 1).join(',')} is monotone`);
+        }
+      }
       return f;
     }, { ID, TEAL: tokens.color.teal.toUpperCase() });
   },

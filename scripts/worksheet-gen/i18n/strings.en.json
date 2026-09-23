@@ -1759,6 +1759,10 @@
     "title": "Read the Map Key",
     "instruction": "Look at the map key. Find each thing on the map. Count them and write how many in the box."
   },
+  "G1-380": {
+    "title": "Digraphs sh, ch and th: Which Letter Team Do You Hear?",
+    "instruction": "Say the name of each picture. Circle the letter team you hear."
+  },
   "G2-203": {
     "title": "Add the Blocks",
     "instruction": "Add the two block groups. Write the total."
@@ -2338,6 +2342,14 @@
   "G2-357": {
     "title": "Ask About the Picture: Why and How",
     "instruction": "Look at the picture. Finish each question. Start with the word already on the line."
+  },
+  "G2-358": {
+    "title": "Synonyms: Circle the Word That Means the Same",
+    "instruction": "Read the big word on each card and circle the word under it that means the same."
+  },
+  "G2-359": {
+    "title": "Root Words: Sort by the Root",
+    "instruction": "Read each word at the top and write it on a line of the wall that stands on its root word."
   },
   "G3-301": {
     "title": "Big Arrays",

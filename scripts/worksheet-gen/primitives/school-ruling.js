@@ -69,12 +69,15 @@ function rulingGeometry({ unit, kind, X, cap }) {
  * line ("on saute une ligne") so a printed descender never meets the next printed ascender; the LAST
  * block stops 2 i under row B's line (its descenders), so a lesson of N blocks is (12 N − 3) i tall.
  */
-function seyesGeometry({ unit, i, rows = 2, last = false }) {
+function seyesGeometry({ unit, i, rows = 2, last = false, tail = 2 }) {
   if (!(i > 0)) throw new Error(`school-ruling: Seyès interline ${i} is not a size`);
   const m = metricsFor(unit);
   const fs = i / m.xHeight;
   const baselines = Array.from({ length: rows }, (_, k) => r2((3 + 4 * k) * i));
-  const height = r2((last ? 3 + 4 * (rows - 1) + 2 : 12 + 4 * (rows - 2)) * i);
+  // `tail` = interlines kept under the last writing line of a closed slice (2 = the descender band; a face asks 3,
+  // never 4: the 4th interline below a writing line is the NEXT writing line)
+  if (!(tail >= 2 && tail <= 3)) throw new Error(`school-ruling: Seyès tail ${tail} (2 or 3)`);
+  const height = r2((last ? 3 + 4 * (rows - 1) + tail : 12 + 4 * (rows - 2)) * i);
   return { unit, kind: 'seyes', X: i, i, fs: r2(fs), baselines, height, ascI: m.ascender * fs / i, descI: m.descender * fs / i };
 }
 

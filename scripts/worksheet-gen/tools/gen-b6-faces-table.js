@@ -16,6 +16,7 @@
  */
 'use strict';
 const fs = require('fs');
+const { resolveUnitTokens } = require('../lib/unit-axis.js');
 const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const { FAMILIES } = require('./gen-b6var-specs.js');
@@ -40,7 +41,8 @@ const add = (id, key, isBase) => {
   const shipped = (w.types || []).includes(id) && !refused[id];
   const t = loadType(id);
   const theme = (w.themeOverrides && w.themeOverrides[id]) || null;
-  const s = strings[id] || (t.i18n && t.i18n[locale]) || null;
+  // resolve {U}/{L} exactly as the renderer does, so the table carries the title the page prints
+  const s = resolveUnitTokens(strings[id] || (t.i18n && t.i18n[locale]) || null, t, null, locale);
   let png = null;
   if (shipped) {
     const base = `${id}-${theme === null ? 'null' : theme}-d2-${locale}.png`;

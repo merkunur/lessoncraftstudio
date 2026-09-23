@@ -10,6 +10,6 @@ module.exports = {
   id: 'G1-403',
   slug: 'brushing-teeth-before-during-after',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Brushing Teeth: Before, During and After", instruction: "Circle the word that tells when it happens: before, during or after brushing." } },
+  i18n: { en: { title: "Brushing Teeth: Before, During and After", instruction: "For each picture, circle before, during or after brushing." } },
   gradeBand: "G1",
 };

@@ -94,6 +94,17 @@ const ORDER_VERBS = {
 // stroke: no capital start (German nouns; school capitals mostly do not join) and no LIFT letter before the end
 const NO_LIFT_CLAIM = /without lifting|ohne (den stift |den bleistift )?(abzusetzen|abzuheben)|sin (despegar|levantar)|sem (tirar|levantar)|sans lever|senza staccare|zonder (je )?(potlood )?op te tillen|uden at løfte|uten å løfte/iu;
 
+// fix round 2 (de panel): joined "iii" is an u-shaped body under three dots — at print size it reads "üi", beside
+// the ü row of the same lesson. Letters whose chains read as each other never share a lesson (one page).
+const CONFUSABLE_IN_LESSON = [['i', 'ü', 'the joined "iii" chain reads as "üi" (three dots over an u-body) next to the "üüü" row']];
+// fix round 2 (nl panel): digraphs a locale's school teaches as ONE letter (nl "de lange ij") are not a two-letter join
+const ONE_LETTER_DIGRAPHS = TYPE.ONE_LETTER_DIGRAPHS;
+const ID_MODE = { 'G2-377': 'base', 'G2-384': 'capitals', 'G2-385': 'joins', 'G2-386': 'words', 'G2-387': 'read', 'G3-401': 'copy' };
+// fix round 2 (nl panel): the level words of table B, matched against a folded title (lower case, diacritics off,
+// ø / æ / å spelled out) with any run of spaces / dots / hyphens / ordinal marks between the key's parts
+const foldTitle = (s) => String(s).toLocaleLowerCase().replace(/ø/g, 'oe').replace(/æ/g, 'ae').replace(/å/g, 'aa').normalize('NFD').replace(/\p{M}/gu, '');
+const levelWordRe = (key) => new RegExp('(?<![\\p{L}\\p{N}])' + key.split('-').map((p) => p.replace(/^(\d)o$/, '$1o?')).join('[\\s.\\-ºª°]*') + '(?![\\p{L}\\p{N}])', 'u');
+
 // ─────────────────────────────── validateBank ───────────────────────────────
 function validateBank(block, loc) {
   const E = [];
@@ -133,6 +144,8 @@ function validateBank(block, loc) {
     }));
     const miss = alpha.filter((ch) => !seen.has(ch));
     if (miss.length) R(2, `${u}: the lessons never teach ${miss.join(' ')}`);
+    // fix round 2 (de panel): two letters whose joined chains read as each other never share a lesson (one page)
+    ls.forEach((les, k) => { for (const [a, b, why] of CONFUSABLE_IN_LESSON) if ((les || []).includes(a) && les.includes(b)) R(2, `${u} lesson ${k} holds "${a}" and "${b}": ${why}`); });
   }
   // rule 10 — levels + ruling kinds
   const keys = NEUTRAL.levelKeys[l] || [];
@@ -165,6 +178,8 @@ function validateBank(block, loc) {
       if (lift.includes([...j.pair][0])) R(4, `${u}: pair "${j.pair}" starts with "${[...j.pair][0]}", after which ${u} LIFTS the pen`);
       if (typeof j.word !== 'string' || !j.word.includes(j.pair)) R(4, `${u}: word "${j.word}" does not contain the pair "${j.pair}"`);
       if (j.pair === [...j.pair][0].repeat([...j.pair].length)) R(4, `${u}: pair "${j.pair}" is a base chain`);
+      // fix round 2 (nl panel): the face joins TWO letters; a pair the locale's school teaches as ONE letter is not a join
+      if ((ONE_LETTER_DIGRAPHS[l] || []).includes(j.pair.toLocaleLowerCase(l))) R(4, `${u}: pair "${j.pair}" is ONE letter in ${l} school teaching, not a join of two`);
     }
   }
   // rule 5 — words: pinned, opened pictures; the locale's vocab singular (de keeps its capital, else lower)
@@ -212,6 +227,18 @@ function validateBank(block, loc) {
     for (const re of TITLE_BANS) if (re.test(t)) R(7, `${id} title "${t}" uses a print-tracing / pre-writing head (${re.source})`);
     if (DOTTED.test(ins) || DOTTED.test(t)) R(7, `${id} names dotted / dashed / hollow letters (the traces are SOLID grey)`);
     if (GREY[l] && !READ_IDS.includes(id) && !GREY[l].test(ins)) R(7, `${id} instruction never names the GREY colour of the traces`);
+    // rule 7 (fix round 2, nl panel "groep 3" printed over a groep-4 landing): a level word in a sheet title names
+    // the face's OWN bank level (levels[mode] — the level the landing now carries), never another one
+    const ownLevel = block.levels && block.levels[ID_MODE[id]];
+    for (const lk of NEUTRAL.levelKeys[l] || []) if (lk !== ownLevel && levelWordRe(lk).test(foldTitle(t))) R(7, `${id} title "${t}" names the level "${lk}", the face's level is "${ownLevel}"`);
+    // rule 7 (fix round 2, fr panel "les accents" over chat / canard / train): every mark class the G2-386
+    // instruction names is carried by at least one picture word of the bank (the build then draws one onto the page)
+    if (id === 'G2-386') {
+      const ws = Object.values(block.words || {}).map((v) => (typeof v === 'string' ? v : v && v.text) || '');
+      for (const [src, flags, letters, what] of TYPE._markClasses(l)) {
+        if (new RegExp(src, flags).test(ins) && !ws.some((w) => [...w.toLocaleLowerCase(l)].some((ch) => letters.includes(ch)))) R(7, `G2-386 instruction names ${what}, but no picture word carries one (${letters})`);
+      }
+    }
     // rule 7 (fix round 1): ONE sentence — no end mark followed by more text
     if (/[.!?](?=\s+\S)/u.test(ins)) R(7, `${id} instruction is more than one sentence ("${ins}")`);
     if (id === 'G3-401' && ORDER_VERBS[l]) {
@@ -367,7 +394,7 @@ async function main() {
   const enFails = validateBank(EN, 'en');
   ok(enFails.length === 0, 'validateBank(en): ' + enFails.join(' | '));
   for (const p of NEUTRAL.pictures) { const [t, n] = p.split('/'); let f = null; try { f = B2.fileUri(t, n); } catch (e) { f = null; } ok(!!f && fs.existsSync(url.fileURLToPath(f)), `picture ${p} does not exist on disk`); }
-  ok(NEUTRAL.pictures.length === 27 && NEUTRAL.excludePictures.every((x) => !NEUTRAL.pictures.includes(x)), 'the pinned picture list is not the 27 opened keys minus the exclusions');
+  ok(NEUTRAL.pictures.length === 26 && NEUTRAL.excludePictures.every((x) => !NEUTRAL.pictures.includes(x)), 'the pinned picture list is not the 26 opened keys (27 − the duckling, fix round 2) minus the exclusions');
   ok(TYPE.i18n.en.title === EN.strings['G2-377'].title && TYPE.i18n.en.instruction === EN.strings['G2-377'].instruction, 'spec i18n.en ≠ bank strings');
   console.log(`1. validateBank(en): ${enFails.length} failure(s)`);
 
@@ -386,7 +413,7 @@ async function main() {
     // 2. the primitive gate
     const sr = await require('./verify-school-ruling.js').run({ page, png: true });
     assertions += sr.assertions;
-    poisons.total += 3; poisons.killed += 3 - sr.fails.filter((f) => /POISON SILENT/.test(f)).length;   // the primitive gate's three poisons
+    poisons.total += 4; poisons.killed += 4 - sr.fails.filter((f) => /POISON SILENT/.test(f)).length;   // the primitive gate's four poisons (fix round 2: + a Seyès tail 4)
     for (const f of sr.fails) fails.push(f);
     console.log(`2. verify-school-ruling: ${sr.cases} cases, ${sr.assertions} assertions, ${sr.fails.length} failure(s)`);
 
@@ -640,7 +667,7 @@ async function main() {
     // every locale (the draft banks present + en): the same per-page rules.
     {
       const n = 6, SEEDS = QUICK ? 6000 : 12000;
-      let pagesBad = 0, shift = 0, rev = 0, d0 = 0, d1 = 0, up = 0, down = 0, tot = 0;
+      let pagesBad = 0, shift = 0, rev = 0, d0 = 0, d1 = 0, up = 0, down = 0, tot = 0, share = 0;
       for (let sd = 0; sd < SEEDS; sd++) {
         const o = TYPE.derangeOrder(n, makeRng('G2-387|' + sd));
         const d = TYPE.partnerDistances(o);
@@ -649,9 +676,13 @@ async function main() {
         o.forEach((w, k) => { if (k > w) down++; else if (k < w) up++; });
         const off = o.map((v, i) => (v - i + n) % n); if (off.every((x) => x === off[0])) shift++;
         if (o.join(',') === '5,4,3,2,1,0') rev++;
+        if (TYPE.maxOffsetShare(o) > TYPE.SHIFT_SHARE_MAX) share++;
       }
       const bal = Math.abs(up - down) / ((up + down) / 2);
-      ok(d0 === 0 && pagesBad === 0 && shift === 0 && rev === 0, `F4: over ${SEEDS} seeds ${d0} partners at distance 0, ${pagesBad} pages with > 1 at distance 1, ${shift} shifts, ${rev} reversals`);
+      ok(d0 === 0 && pagesBad === 0 && shift === 0 && rev === 0 && share === 0, `F4: over ${SEEDS} seeds ${d0} partners at distance 0, ${pagesBad} pages with > 1 at distance 1, ${shift} shifts, ${rev} reversals, ${share} pages with > ${TYPE.SHIFT_SHARE_MAX} partners on one offset`);
+      // the partial-shift predicate both ways (fix round 2): the fr shipped order of round 1 (lampe / cochon / cheval / souris all +3) fires, a legal order does not
+      ok(TYPE.maxOffsetShare([3, 5, 4, 0, 1, 2]) === 4, 'POISON SILENT PS1 the fr round-1 order (four partners on offset +3) is not seen as a partial shift');
+      ok(TYPE.maxOffsetShare([3, 4, 1, 5, 2, 0]) <= TYPE.SHIFT_SHARE_MAX, 'CONTROL PS1: a legal order (3,4,1,5,2,0: the en shipped page) is condemned as a partial shift');
       ok(bal <= 0.10, `F4: partners below ${down} vs above ${up} (${(bal * 100).toFixed(1)} % apart > 10 %)`);
       console.log(`7c. F4 over ${SEEDS} seeds: distance-1 share ${(d1 / tot * 100).toFixed(1)} % (≤ 1 per page on every page), 0 at distance 0, 0 shifts, 0 reversals, below/above ${down}/${up} (${(bal * 100).toFixed(1)} % apart)`);
       const ord = /data-lcs-order="([0-9,]+)"/.exec(faceHtml['G2-387'] || '');
@@ -667,7 +698,8 @@ async function main() {
         catch (e) { console.log(`7c. F4 shipped ${loc}: refused — ${e.message.slice(0, 120)}`); continue; }
         const d = TYPE.partnerDistances(meta.order);
         ok(!d.includes(0) && d.filter((x) => x === 1).length <= 1, `F4 shipped ${loc}: partner distances ${d.join(',')} (≤ 1 at distance 1, none at 0)`);
-        console.log(`7c. F4 shipped ${loc}: order ${meta.order.join(',')} → partner distances ${d.join(',')}`);
+        ok(TYPE.maxOffsetShare(meta.order) <= TYPE.SHIFT_SHARE_MAX, `F4 shipped ${loc}: ${TYPE.maxOffsetShare(meta.order)} partners share one row offset (order ${meta.order.join(',')})`);
+        console.log(`7c. F4 shipped ${loc}: order ${meta.order.join(',')} → partner distances ${d.join(',')}, max ${TYPE.maxOffsetShare(meta.order)} on one offset`);
       }
     }
     // F5 (and the spaced nodes of F1 / F2) in EVERY unit: the word gap ≥ 0.3 em is measured by verify()'s raster on
@@ -717,6 +749,21 @@ async function main() {
       const tiles = [...col.children]; const keys = cards.map((c) => c.dataset.lcsWord);
       for (const i of [1, 0, 3, 2, 5, 4]) col.appendChild(tiles.find((x) => x.dataset.lcsPic === keys[i]));
     }, /position tell: 6 partners stand one row away/);
+    await facePoison('PR22 F4 a partial shift (four partners three rows down: the fr round-1 page)', 'G2-387', () => {
+      const cards = [...document.querySelectorAll('.cw-card')], col = document.querySelectorAll('.ws-match-col')[1];
+      const tiles = [...col.children]; const keys = cards.map((c) => c.dataset.lcsWord);
+      for (const i of [3, 5, 4, 0, 1, 2]) col.appendChild(tiles.find((x) => x.dataset.lcsPic === keys[i]));
+    }, /position tell: 4 partners share one row offset/);
+    await facePoison('PR23 F3 an orphan ruled row after the last word (the round-1 practice row)', 'G2-386', () => {
+      const last = [...document.querySelectorAll('.cw-block')].pop(); const row = last.querySelector('.cw-row').cloneNode(true);
+      row.querySelectorAll('[data-lcs-cursive], .cw-pic').forEach((x) => x.remove()); last.parentNode.appendChild(row);
+    }, /orphan ruled row/);
+    await facePoison('PR24 F5 the model sentence with ONE free line (the round-1 block)', 'G3-401', () => {
+      const b = document.querySelector('.cw-block[data-lcs-block="0"]'); const rows = [...b.querySelectorAll('.cw-row')]; rows[rows.length - 1].remove();
+    }, /block 0: 1 free writing line/);
+    await facePoison('PR25 F3 no word carries a cross, the instruction asks for crosses', 'G2-386', () => {
+      document.querySelectorAll('.cw-block').forEach((b) => { b.dataset.lcsText = 'owl'; });
+    }, /asks for crosses, but no word on the page carries one/);
     await facePoison('PR7 F4 six words with six different initials', 'G2-387', () => {
       const pool = [['animals/cat', 'cat'], ['animals/duck', 'duck'], ['animals/fish', 'fish'], ['animals/owl', 'owl'], ['animals/pig', 'pig'], ['fruits/lemon', 'lemon']];
       const cards = [...document.querySelectorAll('.cw-card')], tiles = [...document.querySelectorAll('.ws-match-col')[1].children];
@@ -766,7 +813,38 @@ async function main() {
     bankPoison('P20 copy before trace (the old G3-401, as one sentence)', 'en', EN, (b) => { b.strings['G3-401'].instruction = 'Copy each printed sentence in cursive on the two lines below it, tracing the grey sentence first.'; }, 7, /copies before it traces/);
     bankPoison('P21 de "ohne abzusetzen" over capitalised nouns', 'de', Object.assign({}, DE_PROBE, { words: { 'animals/cat': 'Katze' } }), (b) => { b.strings = { 'G2-386': { title: 'Wörter', instruction: 'Spure jedes graue Wort ohne abzusetzen nach und schreibe es.' } }; }, 7, /lifts the pen \(a capital start\)/);
     bankPoison('P22 no "uten å løfte" over a word with a lift letter', 'no', NO, (b) => { b.words = { 'animals/fish': 'fisk' }; b.strings = { 'G2-386': { title: 'Ord', instruction: 'Skriv over hvert grå ord uten å løfte blyanten.' } }; }, 7, /lifts the pen \(a lift letter\)/);
+    {
+      // fix round 2 bank rules, each poisoned BOTH ways (a clean control must not fire)
+      const deClean = clone(DE_PROBE); for (const u of deClean.units) { deClean.lessons[u] = deClean.lessons[u].map((les) => les.filter((c) => c !== 'ü')); deClean.lessons[u][3].push('ü'); }
+      ok(!validateBank(deClean, 'de').some((f) => /holds "i" and "ü"/.test(f)), 'CONTROL P23: a de lesson plan with ü beside ä / ö is condemned');
+      bankPoison('P23 de lesson 0 with i AND ü (the joined iii reads as üi)', 'de', deClean, (b) => { for (const u of b.units) { b.lessons[u][3] = b.lessons[u][3].filter((c) => c !== 'ü'); b.lessons[u][0].push('ü'); } }, 2, /holds "i" and "ü"/);
+      const NL = PROBES.find((p) => p.unit === 'nl').block;
+      const nlJ = Object.assign(clone(NL), { joins: { nl: [{ pair: 'oe', word: 'boek' }, { pair: 'ei', word: 'ei' }] } });
+      ok(!validateBank(nlJ, 'nl').some((f) => /ONE letter/.test(f)), 'CONTROL P24: nl pair "ei" (two letters) is condemned as one letter');
+      bankPoison('P24 nl join "ij" (de lange ij is ONE letter)', 'nl', nlJ, (b) => { b.joins.nl.push({ pair: 'ij', word: 'ijs' }); }, 4, /"ij" is ONE letter/);
+      const nlT = Object.assign(clone(NL), { strings: { 'G2-377': { title: 'Aan elkaar schrijven groep 3: i, u, t en w', instruction: 'Schrijf de grijze letters na en schrijf ze verder.' } } });
+      ok(!validateBank(nlT, 'nl').some((f) => /names the level/.test(f)), 'CONTROL P25: a title naming the face’s OWN level (groep 3) is condemned');
+      bankPoison('P25 nl base title naming groep 4 over a groep-3 face', 'nl', nlT, (b) => { b.strings['G2-377'].title = 'Aan elkaar schrijven groep 4: i, u, t en w'; }, 7, /names the level "groep-4"/);
+      const frW = Object.assign(clone(FR), { words: { 'animals/cat': 'chat', 'toys/train': 'train', 'animals/pig': 'cochon', 'pets/mouse': 'souris' }, strings: { 'G2-386': { title: 'Mots', instruction: 'Repasse chaque mot gris, puis écris-le sur la ligne en dessous et ajoute les points, les barres et les accents à la fin.' } } });
+      const frOk = clone(frW); frOk.words['bakery/cake'] = 'gâteau';
+      ok(!validateBank(frOk, 'fr').some((f) => /names accents/.test(f)), 'CONTROL P26: fr words with gâteau are condemned for lacking an accent');
+      bankPoison('P26 fr G2-386 names accents, no picture word carries one', 'fr', frOk, (b) => { delete b.words['bakery/cake']; }, 7, /names accents, but no picture word/);
+    }
     bankPoison('P18 an F3 word over 8 letters', 'en', EN, (b) => { b.words['toys/robot'] = 'robotrobot'; }, 5, /> 8 letters/);
+    // fix round 2 (nl panel): the joins face never draws a pair the locale teaches as ONE letter — over 300 seeds of the
+    // shipped nl bank "ij" never reaches a page, while a two-letter pair in the same slot ("ei") does (the control)
+    {
+      const nlBank = require('../lib/b6-common.js').bank('cursive-writing', 'nl');
+      const specJ = loadType('G2-385');
+      const seen = (bank, pair) => { let n = 0; for (let sd = 0; sd < 300; sd++) { const m = TYPE._buildWith(bank, specJ.difficulty[2], { locale: 'nl' }, { rng: makeRng('ij|' + sd) }).meta; if (m.items.includes(pair)) n++; } return n; };
+      const withIj = clone(nlBank); if (!withIj.joins.nl.some((j) => j.pair === 'ij')) withIj.joins.nl.push({ pair: 'ij', word: 'ijs' });
+      const nIj = seen(withIj, 'ij');
+      ok(nIj === 0, `F2 nl: "ij" (ONE letter) drawn on ${nIj} of 300 pages`);
+      const withEi = clone(withIj); withEi.joins.nl = withEi.joins.nl.map((j) => (j.pair === 'ij' ? { pair: 'ei', word: 'ei' } : j));
+      const nEi = seen(withEi, 'ei');
+      ok(nEi > 0, 'CONTROL F2 nl: the two-letter pair "ei" in the same slot never reaches a page (the filter would be vacuous)');
+      console.log(`7e. F2 nl one-letter filter: "ij" on ${nIj}/300 pages, the control "ei" on ${nEi}/300`);
+    }
     // build refusals on the faces
     throws(() => TYPE._buildWith(Object.assign({}, EN, { words: { 'toys/kite': 'kite', 'weather/sun': 'sun', 'animals/cat': 'cat', 'animals/owl': 'owl' } }), loadType('G2-386').difficulty[2], { locale: 'en' }, { rng: makeRng('x') }), /no 4-word set|fewer than/, 'F3 with no dot / join word set');
     throws(() => TYPE._buildWith(Object.assign({}, EN, { refusedFaces: { capitals: 'no cursive capitals taught (panel)' } }), loadType('G2-384').difficulty[2], { locale: 'en' }, { rng: makeRng('x') }), /refused/, 'a face the locale refuses');

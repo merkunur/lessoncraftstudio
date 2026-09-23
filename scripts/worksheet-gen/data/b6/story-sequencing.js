@@ -60,6 +60,8 @@ const SETLINE = { st: 'grid', sw: 1.5 };
 const r1 = (n) => Math.round(n * 100) / 100;
 
 /* ------------------------------------------------------------------ the stages (SET layer) */
+const SNOWFLAKES = [[14, 14], [40, 30], [66, 8], [24, 56], [92, 20], [128, 10], [150, 38], [8, 80], [146, 70], [72, 44], [122, 84], [52, 76]];
+const PAVE_SPECKS = [[8, 12], [30, 6], [52, 18], [118, 8], [146, 22], [12, 52], [34, 88], [150, 58], [126, 44], [20, 112], [104, 116], [142, 96], [46, 64], [114, 72]];
 const SETS = {
   table: () => [R(0, 96, 160, 24, { fill: 'creamDeep' }), L(0, 96, 160, 96, SETLINE)],
   plate: () => [E(80, 98, 46, 8, { fill: 'white', ...SETLINE })],
@@ -71,8 +73,17 @@ const SETS = {
     P('M9,112 Q8,106 6,102 M12,112 L12,101 M15,112 Q16,106 18,103', { fill: 'none', ...SETLINE }),
     P('M141,114 Q140,108 138,104 M144,114 L144,103 M147,114 Q148,108 150,105', { fill: 'none', ...SETLINE }),
   ],
-  snow: () => [R(0, 92, 160, 28, { fill: 'white' }), L(0, 92, 160, 92, SETLINE)],
+  // fix round 2 (en / de / fr panels: "white outline circles on white, nothing says snow"): a pale sky with
+  // falling snowflakes over the white snow ground, so a lone snowball reads as snow at 108 px
+  snow: () => [
+    R(0, 0, 160, 92, { fill: 'tealSoft' }),
+    ...SNOWFLAKES.map(([x, y]) => C(x, y, 2.6, { fill: 'white', ...SETLINE })),
+    R(0, 92, 160, 28, { fill: 'white' }), L(0, 92, 160, 92, SETLINE),
+  ],
   sand: () => [
+    // fix round 2 (es panel): the SEA behind the sand, so the scene reads as a beach
+    R(0, 72, 160, 18, { fill: 'tealSoft' }),
+    P('M0,76 Q10,72 20,76 Q30,80 40,76 Q50,72 60,76 Q70,80 80,76 Q90,72 100,76 Q110,80 120,76 Q130,72 140,76 Q150,80 160,76', { fill: 'none', ...SETLINE }),
     R(0, 90, 160, 30, { fill: 'creamDeep' }), L(0, 90, 160, 90, SETLINE),
     ...[[52, 114], [70, 94], [96, 116], [118, 95], [134, 115], [150, 100]].map(([x, y]) => C(x, y, 1, { fill: 'grid' })),
     // one calm cloud in the beach sky (set: never changes)
@@ -82,23 +93,29 @@ const SETS = {
     R(0, 100, 160, 20, { fill: 'grid' }),
     ...[6, 40, 74, 108, 142].map((x) => R(x, 109, 16, 2.5, { fill: 'white' })),
   ],
+  // fix round 2 (en / fr panels: the slab grid read as graph paper; de read the court as a brick tower): plain
+  // grey ASPHALT with a few pale grit specks, so the WHITE chalk lines and the white chalk stick that drew them
+  // are the only lines on it
   pavement: () => [
-    R(0, 0, 160, 120, { fill: 'creamDeep' }),
-    ...[20, 60, 100].map((y) => L(0, y, 160, y, SETLINE)),
-    ...[40, 120].map((x) => L(x, 0, x, 120, SETLINE)),
+    R(0, 0, 160, 120, { fill: 'grid' }),
+    ...PAVE_SPECKS.map(([x, y]) => C(x, y, 1.4, { fill: 'creamDeep' })),
   ],
 };
 
 /**
  * BACKDROP(kind, win): the stage beyond the 160 x 120 art when a zoomed card window reaches outside it
- * (story-panel.js viewWindow). Only the pavement (a top view) continues its slabs; every other stage is
- * plain white wall / sky above its ground band (a drawn window or cloud collided with props once zoomed).
+ * (story-panel.js viewWindow). The pavement (a top view) continues its asphalt and the snow its pale sky;
+ * every other stage is plain white wall / sky above its ground band (a drawn window or cloud collided with
+ * props once zoomed).
  */
 function backdrop(kind, win) {
-  if (kind !== 'pavement' || !win || win.y0 >= 0) return [];
-  const ys = []; for (let y = 20 - 40 * Math.ceil((20 - win.y0) / 40); y < 0; y += 40) if (y > win.y0) ys.push(y);
-  return [R(win.x0, win.y0, win.w, -win.y0, { fill: 'creamDeep' }), ...ys.map((y) => L(win.x0, y, win.x0 + win.w, y, SETLINE)), ...[40, 120].filter((x) => x > win.x0 && x < win.x0 + win.w).map((x) => L(x, win.y0, x, 0, SETLINE))];
+  if (!win || win.y0 >= 0) return [];
+  if (kind === 'pavement') return [R(win.x0, win.y0, win.w, -win.y0, { fill: 'grid' })];
+  if (kind === 'snow') return [R(win.x0, win.y0, win.w, -win.y0, { fill: 'tealSoft' })];
+  return [];
 }
+/** The CSS card background around a panel that grows with its row: the stage's sky (a TOKEN name; default white). */
+const SKY = { pavement: 'grid', snow: 'tealSoft' };
 
 /* ------------------------------------------------------------------ geometry helpers */
 /** Point-in-polygon (even-odd). */
@@ -353,7 +370,14 @@ function cake() {
 
 function drawing() {
   const sheet = R(18, 26, 96, 68, { fill: 'white', ...OUT, rx: 3 });
-  const crayon = G([R(48, 103, 30, 7, { fill: 'coral', ...OUT, rx: 2 }), Poly(pts('78,103 86,106.5 78,110'), { fill: 'coral', ...DET })]);
+  // fix round 2 (nl panel: "a flat orange bar"): a crayon a child names: a thicker body, a white paper
+  // wrapper with two stripes, a sharpened cone tip and a flat butt end
+  const crayon = G([
+    R(40, 102, 40, 11, { fill: 'coral', ...OUT, rx: 2 }),
+    R(48, 102, 22, 11, { fill: 'white', ...DET }),
+    L(53, 102, 53, 113, DET), L(65, 102, 65, 113, DET),
+    Poly(pts('80,102.5 93,107.5 80,112.5'), { fill: 'coral', ...OUT, join: 'round' }),
+  ]);
   const house = [
     R(32, 60, 30, 24, { fill: 'none', ...INK, irr: 'line' }),
     Poly(pts('28,60 47,44 66,60'), { fill: 'none', ...INK, join: 'round', irr: 'line' }),
@@ -387,20 +411,40 @@ function drawing() {
 function fence() {
   const X = [12, 31, 50, 69, 88, 107];
   const plank = (x, painted) => P(`M${x},98 V26 L${x + 7},14 L${x + 14},26 V98 Z`, { fill: painted ? 'coral' : 'white', ...OUT, join: 'round', ...(painted ? { irr: 'painted' } : {}) });
-  const pot = G([
+  // fix round 2 (en / de / fr panels: "nobody paints; the brush is a bristle-less stick never used"): a paint
+  // BUCKET (a wire handle), a real brush (ink handle, white ferrule, a bristle head with bristle lines), and in
+  // panels 2 and 3 a HAND (a sleeved arm reaching down from the top edge) holding that brush on the plank it is
+  // painting — the brush is dry and lies across the bucket at the start, wet and back on the bucket at the end.
+  const bucket = G([
     P('M58,100 L60,117 L78,117 L80,100 Z', { fill: 'white', ...OUT, join: 'round' }),
     E(69, 100, 11, 3.5, { fill: 'coral', ...OUT }),
-    R(71, 78, 4, 22, { fill: 'white', ...DET, rx: 2 }),
+    P('M59,101 Q69,86 79,101', { fill: 'none', ...DET }),
   ]);
-  const panel = (n) => [...X.map((x, i) => plank(x, i < n)), pot];
+  /** A brush, bristles at (x, y), handle pointing up-right at `ang` degrees; wet = coral bristles. */
+  const brush = (x, y, ang, wet) => G([
+    R(x + 14, y - 3, 28, 6, { fill: 'ink', rx: 3 }),                             // handle
+    R(x + 7, y - 5.5, 8, 11, { fill: 'white', ...DET, rx: 1 }),                  // ferrule
+    P(`M${x + 7},${y - 6.5} L${x},${y - 6.5} Q${x - 3},${y} ${x},${y + 6.5} L${x + 7},${y + 6.5} Z`, { fill: wet ? 'coral' : 'white', ...DET, join: 'round' }),   // bristles
+    ...[-3.5, 0, 3.5].map((dy) => L(x + 0.5, y + dy, x + 6.5, y + dy, { st: 'teal', sw: 1.5 })),
+  ], { tf: `rotate(${ang} ${x} ${y})` });
+  /** The painter's hand: a sleeve from the card's top edge to a mitten round the brush handle. */
+  const hand = (hx, hy) => G([
+    Poly([[hx + 1, hy - 8], [hx + 11, hy - 1], [hx + 30, 0], [hx + 16, 0]], { fill: 'tealSoft', ...OUT, join: 'round' }),
+    L(r1(hx + 4), r1(hy - 11), r1(hx + 14), r1(hy - 4), DET),                    // the cuff
+    E(hx, hy, 9, 7.5, { fill: 'white', ...OUT }),
+    E(r1(hx - 5), r1(hy - 6), 4, 3, { fill: 'white', ...DET }),                  // the thumb over the handle
+  ]);
+  const panel = (n) => [...X.map((x, i) => plank(x, i < n)), bucket];
+  // painting: bristles on the right edge of the last painted plank (x = its right side), the handle up-right
+  const painting = (n) => { const bx = X[n - 1] + 14, by = 60; return [brush(bx, by, -40, true), hand(r1(bx + 22), r1(by - 18))]; };
   return {
     id: 'fence', setKind: 'garden', objects: ['planks', 'pot', 'brush'], tags: ['craft'], climate: null, excludeLocales: [],
     set: [...SETS.garden(), R(6, 40, 118, 6, { fill: 'white', ...SETLINE }), R(6, 78, 118, 6, { fill: 'white', ...SETLINE })],
     panels: [
-      { rank: 1, irr: { painted: 0 }, prop: panel(0) },
-      { rank: 2, irr: { painted: 2 }, prop: panel(2) },
-      { rank: 3, irr: { painted: 4 }, prop: panel(4) },
-      { rank: 4, irr: { painted: 6 }, prop: panel(6) },
+      { rank: 1, irr: { painted: 0 }, prop: [...panel(0), brush(64, 99, -30, false)] },
+      { rank: 2, irr: { painted: 2 }, prop: [...panel(2), ...painting(2)] },
+      { rank: 3, irr: { painted: 4 }, prop: [...panel(4), ...painting(4)] },
+      { rank: 4, irr: { painted: 6 }, prop: [...panel(6), brush(64, 99, -30, true)] },
     ],
     sub4: [1, 2, 3, 4], sub3: [1, 2, 4], n5: null,
   };
@@ -409,13 +453,20 @@ function fence() {
 function snowman() {
   const track = (x, y, w) => R(x, y, w, 8, { fill: 'grid', rx: 4, irr: 'track' });
   const T1 = track(40, 95, 52), T2 = track(36, 106, 46), T3 = track(92, 106, 40);
-  const big = C(106, 76, 18, { fill: 'white', ...OUT });
-  const mid = C(106, 50, 13, { fill: 'white', ...OUT });
+  // fix round 2: every ball is SNOW — white with a pale shadow on its lower side (masked to the ball), under
+  // the sky's falling snowflakes; the first snowball is bigger (a lone 16-unit circle read as a ring)
+  const ball = (cx, cy, r) => [
+    C(cx, cy, r, { fill: 'white' }),
+    G([E(r1(cx + r * 0.3), r1(cy + r * 0.45), r1(r * 0.85), r1(r * 0.55), { fill: 'tealSoft' })], { mask: C(cx, cy, r, { sw: 3 }) }),
+    C(cx, cy, r, { fill: 'none', ...OUT }),
+  ];
+  const big = G(ball(106, 76, 18));
+  const mid = G(ball(106, 50, 13));
   const head = [
     L(94, 48, 80, 38, { st: 'ink', sw: 3, cap: 'round' }), L(84, 41, 80, 34, { st: 'ink', sw: 2, cap: 'round' }),
     L(118, 48, 132, 38, { st: 'ink', sw: 3, cap: 'round' }), L(128, 41, 132, 34, { st: 'ink', sw: 2, cap: 'round' }),
     C(106, 45, 1.8, { fill: 'ink' }), C(106, 51, 1.8, { fill: 'ink' }), C(106, 57, 1.8, { fill: 'ink' }),
-    C(106, 30, 9.5, { fill: 'white', ...OUT }),
+    ...ball(106, 30, 9.5),
     R(96, 19, 20, 3.5, { fill: 'ink', rx: 1 }), R(99, 7, 14, 13, { fill: 'ink', rx: 1.5 }),
     Poly(pts('113,29 125,31.5 113,34'), { fill: 'coral', ...DET, join: 'round' }),
   ];
@@ -423,7 +474,7 @@ function snowman() {
     id: 'snowman', setKind: 'snow', objects: ['snowballs', 'tracks'], tags: ['play', 'snow'], climate: 'snow', excludeLocales: ['es', 'pt'],
     set: SETS.snow(),
     panels: [
-      { rank: 1, irr: { track: 0 }, prop: [C(52, 84, 8, { fill: 'white', ...OUT })] },
+      { rank: 1, irr: { track: 0 }, prop: [G(ball(52, 81, 11))] },
       { rank: 2, irr: { track: 1 }, prop: [T1, big] },
       { rank: 3, irr: { track: 2 }, prop: [T1, T2, big, mid] },
       { rank: 4, irr: { track: 3 }, prop: [T1, T2, T3, big, mid, ...head] },
@@ -573,23 +624,37 @@ function flatTyre() {
 }
 
 function beachWalk() {
+  // fix round 2 (es panel: solid black ovals read as pebbles, the towel and the shell as nothing): a SCALLOP shell
+  // (fan, scalloped rim, ribs, a hinge), a bigger striped towel with a fringe, and every footprint a FOOT (sole +
+  // three toes pointing the way the child walks)
   const shell = (x, y) => G([
-    P(`M${x - 9},${y} A9,9 0 0 1 ${x + 9},${y} Z`, { fill: 'coralSoft', ...OUT, join: 'round' }),
-    L(x, y, x, y - 8, { st: 'teal', sw: 1.5 }), L(x, y, x - 6, y - 5, { st: 'teal', sw: 1.5 }), L(x, y, x + 6, y - 5, { st: 'teal', sw: 1.5 }),
+    P(`M${x - 11},${y} Q${x - 12},${y - 6} ${x - 8},${y - 10} Q${x - 6},${y - 13} ${x - 3},${y - 12} Q${x},${y - 15} ${x + 3},${y - 12} Q${x + 6},${y - 13} ${x + 8},${y - 10} Q${x + 12},${y - 6} ${x + 11},${y} Z`, { fill: 'coralSoft', ...OUT, join: 'round' }),
+    L(x, y, x, y - 12, { st: 'teal', sw: 1.5 }), L(x, y, x - 6, y - 10, { st: 'teal', sw: 1.5 }), L(x, y, x + 6, y - 10, { st: 'teal', sw: 1.5 }),
+    L(x, y, x - 10, y - 4, { st: 'teal', sw: 1.5 }), L(x, y, x + 10, y - 4, { st: 'teal', sw: 1.5 }),
+    R(x - 4, y - 1, 8, 4, { fill: 'coralSoft', ...DET, rx: 1 }),
   ]);
   const W = (pose, x) => ({ k: 'walker', pose, x, y: 102, h: 54 });
-  const foot = (x, y) => E(x, y, 4.5, 5.5, { fill: 'ink', irr: 'footprint' });
-  const OUTTRAIL = [[62, 96], [72, 101], [82, 96], [92, 101], [102, 96], [112, 101]];
-  const BACK = [[116, 108], [106, 112.5], [96, 108], [86, 112.5], [76, 108], [66, 112.5]];
-  const prints = (list) => list.map(([x, y]) => foot(x, y));
+  // a foot: sole + heel pad as one ink bean, three toes ahead of it (dir +1 = walking right, -1 = left)
+  const foot = (x, y, dir) => G([
+    E(x, y, 5, 3.4, { fill: 'ink' }), E(r1(x - dir * 5), y, 2.8, 2.6, { fill: 'ink' }),
+    ...[-2.6, 0, 2.6].map((dy) => C(r1(x + dir * 7.2), r1(y + dy * 1.15), 1.5, { fill: 'ink' })),
+  ], { irr: 'footprint' });
+  const OUTTRAIL = [[64, 95], [76, 101], [88, 95], [100, 101], [112, 95], [124, 101]];
+  const BACK = [[124, 110], [112, 115], [100, 110], [88, 115], [76, 110], [64, 115]];
+  const prints = (list, dir) => list.map(([x, y]) => foot(x, y, dir));
+  const towel = [
+    R(8, 98, 42, 14, { fill: 'white', ...SETLINE, rx: 1 }),
+    ...[14, 26, 38].map((x) => R(x, 98, 6, 14, { fill: 'tealSoft' })),
+    ...[100, 104, 108].flatMap((y) => [L(4, y, 8, y, SETLINE), L(50, y, 54, y, SETLINE)]),
+  ];
   return {
     id: 'beach-walk', setKind: 'sand', objects: ['walker', 'shell', 'footprints'], tags: ['outing'], climate: null, excludeLocales: [],
-    set: [...SETS.sand(), R(24, 100, 32, 10, { fill: 'white', ...SETLINE, rx: 1 }), L(32, 100, 32, 110, SETLINE), L(40, 100, 40, 110, SETLINE), L(48, 100, 48, 110, SETLINE)],
+    set: [...SETS.sand(), ...towel],
     panels: [
-      { rank: 1, irr: { footprint: 0 }, prop: [W('standing', 40), shell(130, 108)] },
-      { rank: 2, irr: { footprint: 3 }, prop: [...prints(OUTTRAIL.slice(0, 3)), W('walking', 92), shell(130, 108)] },
-      { rank: 3, irr: { footprint: 6 }, prop: [...prints(OUTTRAIL), W('standing', 122), shell(134, 108)] },
-      { rank: 4, irr: { footprint: 12 }, prop: [...prints(OUTTRAIL), ...prints(BACK), W('standing', 30), shell(48, 108)] },
+      { rank: 1, irr: { footprint: 0 }, prop: [W('standing', 30), shell(140, 110)] },
+      { rank: 2, irr: { footprint: 3 }, prop: [...prints(OUTTRAIL.slice(0, 3), 1), W('walking', 102), shell(140, 110)] },
+      { rank: 3, irr: { footprint: 6 }, prop: [...prints(OUTTRAIL, 1), W('standing', 136), shell(146, 112)] },
+      { rank: 4, irr: { footprint: 12 }, prop: [...prints(OUTTRAIL, 1), ...prints(BACK, -1), W('standing', 24), shell(40, 110)] },
     ],
     sub4: [1, 2, 3, 4], sub3: [1, 3, 4], n5: null,
   };
@@ -631,20 +696,27 @@ function hopscotch() {
   const S = 17;
   // top-left corners: 1, 1, 2, 1, 2 from the bottom
   const cells = [[71.5, 96], [71.5, 79], [63, 62], [80, 62], [71.5, 45], [63, 28], [80, 28]];
-  const sq = ([x, y]) => R(x, y, S, S, { fill: 'none', st: 'coral', sw: 3, irr: 'square' });
-  // the chalk stick lies at the lower right and gets SHORTER as the court grows
-  const chalk = (len) => R(150 - len, 104, len, 8, { fill: 'coral', ...OUT, rx: 3 });
-  const semi = P('M63,28 A17,11 0 0 1 97,28', { fill: 'none', st: 'coral', sw: 3 });
-  const court = (n, withSemi) => [...cells.slice(0, n).map(sq), ...(withSemi ? [semi] : [])];
+  // fix round 2 (en / de / fr / nl panels): the court is drawn in WHITE chalk lines on grey asphalt and the
+  // stick that draws them is WHITE too (a round-ended chalk stick with a worn tip and a little dust), so the
+  // stick and the lines read as one thing; the coral outlined squares under a dome read as a brick tower with a
+  // head (de), so the dome is gone and the court ends on its last pair of squares.
+  const sq = ([x, y]) => R(x, y, S, S, { fill: 'none', st: 'white', sw: 3.5, irr: 'square' });
+  // the chalk stick lies at the lower right, tilted, and gets SHORTER as the court grows
+  const chalk = (len) => G([
+    R(146 - len, 103, len, 10, { fill: 'white', ...OUT, rx: 5 }),
+    E(146 - len + 4, 108, 2.2, 3.2, { fill: 'tealSoft' }),               // the worn, used end
+    ...[[146 - len - 6, 112], [146 - len - 10, 106]].map(([x, y]) => C(x, y, 1.6, { fill: 'white' })),   // chalk dust
+  ], { tf: 'rotate(-14 130 108)' });
+  const court = (n) => cells.slice(0, n).map(sq);
   return {
     id: 'hopscotch', setKind: 'pavement', objects: ['chalk', 'squares'], tags: ['play'], climate: null, excludeLocales: [],
     set: SETS.pavement(), anchor: 'center',
     panels: [
-      { rank: 1, irr: { square: 0 }, prop: [chalk(30)] },
-      { rank: 2, irr: { square: 2 }, prop: [...court(2), chalk(24)] },
-      { rank: 3, irr: { square: 4 }, prop: [...court(4), chalk(19)] },
-      { rank: 4, irr: { square: 5 }, prop: [...court(5), chalk(15)] },
-      { rank: 5, irr: { square: 7 }, prop: [...court(7, true), chalk(11)] },
+      { rank: 1, irr: { square: 0 }, prop: [chalk(36)] },
+      { rank: 2, irr: { square: 2 }, prop: [...court(2), chalk(31)] },
+      { rank: 3, irr: { square: 4 }, prop: [...court(4), chalk(27)] },
+      { rank: 4, irr: { square: 5 }, prop: [...court(5), chalk(23)] },
+      { rank: 5, irr: { square: 7 }, prop: [...court(7), chalk(19)] },
     ],
     sub4: [1, 2, 3, 5], sub3: [1, 3, 5], n5: [1, 2, 3, 4, 5],
   };
@@ -680,6 +752,22 @@ const COMMON = {
   PROP_STROKES: ['teal', 'ink', 'white', 'coral', 'codeYellow', 'coralSoft'],
   SCRAMBLE4: { 1342: 0.146, 1423: 0.104, 2314: 0.104, 2431: 0.073, 3124: 0.146, 3241: 0.104, 3421: 0.073, 4132: 0.104, 4213: 0.073, 4312: 0.073 },
   SCRAMBLE3: ['132', '213', '231', '312'],
+  /**
+   * F1 CUT STRIPS (fix round 2, nl panel: both shipped strips were a one-step ROTATION of the answer order, so
+   * "move the first card to the end" solved them unread). A strip is never the identity and never a rotation
+   * (231 / 312). What is left at n = 3 is the three transpositions 132 / 213 / 321; drawn uniformly they form a
+   * Latin square: every picture lands in every strip position with p = 1/3 and any fixed recipe ("read it
+   * backwards", "swap the first two") solves exactly one strip in three — the floor at n = 3. The reverse 321 is
+   * the base law's forbidden row; it is admitted HERE ONLY because dropping it leaves 132 / 213, where "swap the
+   * first two" solves one strip in two and the first picture is never the rightmost card (measured in the gate).
+   */
+  STRIP3: ['132', '213', '321'],
+  /**
+   * F2 TRAY (fix round 2, en / nl panels): the "other story" foil is that story's LAST panel shown at 108 px;
+   * the cake's last panel is crumbs + candles on a stand, which nobody can name at that size ("crumbs on a
+   * plate beside a small striped object"). Hand-read from the renders; the gate enforces it.
+   */
+  TRAY_ILLEGIBLE: ['cake'],
   MODES: ALL_POOLS,
   SENTENCE_POOL,
   /**
@@ -692,7 +780,7 @@ const COMMON = {
     sandwich: ['bread', 'slice', 'jam', 'knife', 'sandwich', 'half', 'crust', 'crumb', 'board', 'jar', 'cheese', 'bite'],
     cake: ['cake', 'slice', 'half', 'crumb', 'candle', 'stand', 'plate', 'icing', 'layer'],
     drawing: ['sheet', 'crayon', 'house', 'sun', 'tree', 'roof', 'door', 'picture'],
-    fence: ['fence', 'plank', 'paint', 'brush', 'pot', 'grass', 'garden'],
+    fence: ['fence', 'plank', 'paint', 'brush', 'pot', 'bucket', 'hand', 'grass', 'garden'],
     snowman: ['snow', 'snowball', 'snowman', 'track', 'hat', 'carrot', 'nose', 'arm', 'button'],
     letter: ['card', 'flower', 'pencil', 'writing', 'envelope', 'stamp', 'letter'],
     'paper-chain': ['paper', 'sheet', 'scissors', 'strip', 'glue', 'ring', 'chain'],
@@ -737,8 +825,8 @@ const STORY_SEQUENCING = {
       fence: {
         sentences: ['First, the fence is all white.', 'Next, two planks are painted.', 'Then, four planks are painted.', 'Last, the whole fence is painted.'],
         stateWords: ['all white', 'two planks', 'four planks', 'whole fence'],
-        helpWords: ['fence', 'plank', 'paint', 'brush', 'pot'],
-        helpIds: ['fence', 'plank', 'paint', 'brush', 'pot'],
+        helpWords: ['fence', 'plank', 'paint', 'brush', 'bucket'],
+        helpIds: ['fence', 'plank', 'paint', 'brush', 'bucket'],
       },
       letter: {
         sentences: ['First, the card is blank.', 'Next, a flower is drawn on the card.', 'Then, three lines of writing are added.', 'Last, the card is in an envelope with a stamp.'],
@@ -762,14 +850,15 @@ const STORY_SEQUENCING = {
     excludeStories: [],
     strings: {
       base: { title: 'Story Sequencing: Number the Pictures', instruction: 'Look at what changes in each story, then write the numbers in the boxes to put the pictures in order.' },
-      'first-next-last-cut': { title: 'Story Sequencing Cut and Paste: First, Next, Last', instruction: 'Cut out the pictures on each strip and glue them in the empty frames above First, Next and Last.' },
+      'first-next-last-cut': { title: 'Story Sequencing Cut and Paste: First, Next, Last', instruction: 'Cut out the pictures on each strip and glue them on the line with the same mark, in the empty frames above First, Next and Last.' },
       'what-happens-next': { title: 'Story Sequencing: What Happens Next?', instruction: "Look at each story's three pictures, then circle the picture below them that belongs in the ? frame." },
       'beginning-middle-end': { title: 'Beginning, Middle and End of a Story', instruction: 'Look at the beginning and the end of each story and draw what happens in the middle frame.' },
-      'sequencing-sentences': { title: 'Story Sequencing Sentences: Match the Pictures', instruction: "Read each story's sentences and draw a line from every sentence to its picture." },
+      'sequencing-sentences': { title: 'Story Sequencing Sentences: Match the Pictures', instruction: "Number each story's sentences in order in the boxes, then draw a line from every sentence to its picture." },
       'retell-with-starters': { title: 'Retell the Story with Starters', instruction: 'Write what happens in each picture on its lines, starting with the word printed on the first line.' },
     },
   },
 };
 
 COMMON.backdrop = backdrop;
-module.exports = { STORY_SEQUENCING, COMMON, SETS, backdrop };
+COMMON.SKY = SKY;
+module.exports = { STORY_SEQUENCING, COMMON, SETS, backdrop, SKY };

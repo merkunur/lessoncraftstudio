@@ -932,12 +932,12 @@
     "instruction": "Look at what changes in each story, then write the numbers in the boxes to put the pictures in order."
   },
   "K-380": {
-    "title": "Healthy Habits: What Does Each Child Need?",
-    "instruction": "Draw a line from each child to the thing that child needs."
+    "title": "Healthy Habits: What Does Each Child Use?",
+    "instruction": "Draw a line from each child to the thing that child uses."
   },
   "K-381": {
     "title": "Story Sequencing Cut and Paste: First, Next, Last",
-    "instruction": "Cut out the pictures on each strip and glue them in the empty frames above First, Next and Last."
+    "instruction": "Cut out the pictures on each strip and glue them on the line with the same mark, in the empty frames above First, Next and Last."
   },
   "K-382": {
     "title": "Hand Washing Steps",
@@ -948,7 +948,7 @@
     "instruction": "Draw a line from each animal to its home."
   },
   "K-384": {
-    "title": "Draw What Floats and Sinks: A Sink or Float Experiment",
+    "title": "Draw What Floats and Sinks: A Sink or Float Drawing",
     "instruction": "Draw two things that float in the dashed boxes on the water and two that sink in the dashed boxes on the bottom."
   },
   "G1-101": {
@@ -1905,11 +1905,11 @@
   },
   "G1-402": {
     "title": "Story Sequencing Sentences: Match the Pictures",
-    "instruction": "Read each story's sentences and draw a line from every sentence to its picture."
+    "instruction": "Number each story's sentences in order in the boxes, then draw a line from every sentence to its picture."
   },
   "G1-403": {
     "title": "Brushing Teeth: Before, During and After",
-    "instruction": "Circle the word that tells when it happens: before, during or after brushing."
+    "instruction": "For each picture, circle before, during or after brushing."
   },
   "G1-404": {
     "title": "Stop the Germs: Choose the Healthy Way",
@@ -1921,7 +1921,7 @@
   },
   "G1-406": {
     "title": "Who Does Not Live Here?",
-    "instruction": "In each row, cross out the animal that does not live in that habitat."
+    "instruction": "For each habitat, cross out the animal that does not live there."
   },
   "G1-407": {
     "title": "What Animals Need",
@@ -2601,18 +2601,18 @@
   },
   "G2-380": {
     "title": "How Animals Adapt",
-    "instruction": "Write the letter of the animal each sentence tells about in its box."
+    "instruction": "Write the letter of the animal each sentence tells about in its box; one animal is left over."
   },
   "G2-381": {
     "title": "My Habitat Report",
-    "instruction": "Draw three animals that live in this habitat, write their names and a plant that grows there, and circle the right word in each pair."
+    "instruction": "In the picture, draw three animals that live there, write their names and a plant that grows there, and circle the word that fits this habitat."
   },
   "G2-382": {
     "title": "Make Clay Float: A Change the Shape Experiment",
     "instruction": "Color the ring where each clay shape ends up, circle the thing that floats, then draw your own clay boat in the big tank."
   },
   "G2-383": {
-    "title": "Sink or Float Experiment: True or False, Why Things Float",
+    "title": "Why Things Float: Sink or Float True or False",
     "instruction": "Read each sentence and circle true or false."
   },
   "G2-384": {
@@ -2625,7 +2625,7 @@
   },
   "G2-386": {
     "title": "Cursive Words to Write with Pictures",
-    "instruction": "Trace each grey word in one flowing line, then write it on the line below and add the dots and crosses last."
+    "instruction": "Trace each grey word, joining the letters first and adding the dots and crosses last, then write it the same way on the line below."
   },
   "G2-387": {
     "title": "Reading Cursive: Match Each Word to Its Picture",

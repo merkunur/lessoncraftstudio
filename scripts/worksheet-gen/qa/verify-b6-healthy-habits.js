@@ -124,7 +124,7 @@ const APPARATUS_EN = {
   picture: 'pictures?', row: 'rows?', sentence: 'sentences?', habit: 'habits?', day: 'days?', check: 'check|tick', child: 'child(?:ren)?',
 };
 const APPARATUS_OK = {
-  base: ['child', 'line'], 'hand-washing-steps': ['number', 'box'], 'brushing-teeth': ['word', 'circle'], 'stop-the-germs': ['row', 'picture', 'circle'],
+  base: ['child', 'line'], 'hand-washing-steps': ['number', 'box'], 'brushing-teeth': ['word', 'circle', 'picture'], 'stop-the-germs': ['row', 'picture', 'circle'],
   'why-habits': ['habit', 'sentence', 'line'], 'habit-chart': ['box', 'day', 'check', 'habit'],
 };
 const NEVER_INSTR = { en: ['sort', 'cut', 'glue', 'colou?r', 'bins?'] };
@@ -201,6 +201,10 @@ function validateBank(block, loc) {
     let n; try { n = wrapLines(l, 16, 96); } catch (err) { e(2, `label "${l}": ${err.message}`); continue; }
     if (n > 2) e(2, `label "${l}" wraps to ${n === Infinity ? 'an overflowing word' : n + ' lines'} in 96 px (<= 2)`);
   }
+  // 2b (FIX ROUND 2, de + en panels) — a chart row must be a DECISION a child makes or misses: the bare verb "sleep"
+  // is ticked by every child every day. The sleep row's label is a phrase (go to sleep early / früh ins Bett gehen),
+  // never one word.
+  { const l = block.labels && block.labels.sleep; if (typeof l === 'string' && l.trim().split(/\s+/).length < 2) e(2, `labels.sleep "${l}" is one word: every child sleeps every day, so the chart row asks no decision (write the habit: go to sleep early)`); }
   // 3 — reasons: cover reasonD2, <= 110 chars, no stem of ITS habit or of any other habit of reasonD2
   const stems = block.labelStems || {};
   for (const h of [...COMMON.reasonD2, ...COMMON.reasonReserve]) {
@@ -317,7 +321,7 @@ function validateCommon(C) {
   if (C.handSteps.join() !== 'wet,soap,rub,rinse,dry') e(`handSteps ${C.handSteps.join()} (WHO / CDC order)`);
   for (const [set, list] of Object.entries(C.coOccur)) for (const id of list) {
     const [kind, key] = id.split(':');
-    const okId = { figure: HP.POSES, tool: HP.TOOLS, hands: [...Object.keys(HP.HAND_STATES), 'hands-soap', 'hands-water-only'], brush: HP.BRUSH_KINDS }[kind];
+    const okId = { figure: HP.POSES, tool: HP.TOOLS, hands: [...Object.keys(HP.HAND_STATES), 'hands-soap', 'hands-water-only', 'hands-dirty'], brush: HP.BRUSH_KINDS }[kind];
     if (!okId || !okId.includes(key)) e(`coOccur.${set}: "${id}" is not drawn by the primitive`);
   }
   for (const lvl of ['baseD1', 'baseD2', 'baseD3']) {
@@ -342,6 +346,7 @@ function dataPoisons() {
   J('P8 nl title "Gezonde gewoontes voor kleuters"', fixture('nl', { strings: { ...en.strings, base: { ...en.strings.base, title: 'Gezonde gewoontes voor kleuters' } } }), 'nl', /^rule 8: .*banned head "gezonde gewoonte\*"/);
   J('P9 sv F1 title "Tvätta händerna steg för steg"', fixture('sv', { strings: { ...en.strings, 'hand-washing-steps': { ...en.strings['hand-washing-steps'], title: 'Tvätta händerna steg för steg' } } }), 'sv', /^rule 8: .*banned head "steg för steg"/);
   J('P10 fr phases with "après" twice', fixture('fr', { phases: { before: 'avant', during: 'après', after: 'après' } }), 'fr', /^rule 1: phase chips are not pairwise distinct/);
+  J('P22 en chart label "sleep" (a row every child ticks every day)', fixture('en', { labels: { ...en.labels, sleep: 'sleep' } }), 'en', /^rule 2: labels\.sleep "sleep" is one word/);
   J('P11 fi chip "harjaamisen jälkeen" (169.7 px)', fixture('fi', { phases: { before: 'ennen', during: 'samalla', after: 'harjaamisen jälkeen' } }), 'fi', /^rule 1: phase chip "harjaamisen jälkeen" is 169\.\d px/);
   J('P12 pt chart label "escovar os dentes 3 vezes"', fixture('pt', { labels: { ...en.labels, 'brush-teeth': 'escovar os dentes 3 vezes' } }), 'pt', /^rule 5: labels\.brush-teeth/);
   J('P13 da title "Sunde vaner og sund mad" (food)', fixture('da', { strings: { ...en.strings, base: { ...en.strings.base, title: 'Sunde vaner og sund mad' } } }), 'da', /^rule 4: strings\.base\.title/);

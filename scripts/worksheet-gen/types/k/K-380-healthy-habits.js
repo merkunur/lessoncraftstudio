@@ -1,5 +1,5 @@
 /**
- * K-380 — Healthy Habits: What Does Each Child Need? (nt5-F; family key
+ * K-380 — Healthy Habits: What Does Each Child Use? (nt5-F; family key
  * `healthy-habits`; K; science; no CCSS / NGSS hygiene standard exists — no
  * educationalAlignment). Design: docs/worksheet-gen/b6-designs/
  * K-380-healthy-habits.md §2 (base) + §5 (data + gates), under _BUILD-BRIEF.md;
@@ -12,7 +12,7 @@
  * blanket under the moon and stars (no bed), a hand on messy hair (no comb), both
  * hands at the nose with a sneeze burst (no tissue). Along the bottom a plank
  * carries the drawn tools in a deranged order. The child draws a line from the
- * dot under each plaque to the dot over the tool that child needs. Removing the
+ * dot under each plaque to the dot over the tool that child uses. Removing the
  * tool is the teaching point: the child names the SITUATION and recalls its
  * tool. No word on the apparatus in any locale.
  *
@@ -130,6 +130,19 @@ function sideTell(sides) {
 }
 /** F4 derangement: how many reasons sit beside their own habit */
 const straightAcross = (habits, reasons) => habits.filter((h, i) => reasons[i] === h).length;
+/**
+ * FIX ROUND 2 (de / en / es / fr panels: the sleep reason sat straight across from the sleep child, 1 of 5 given away):
+ * F4 is a full DERANGEMENT (0 straight across), never the reverse, never a constant shift (one found line would give
+ * the rest). null = legal.
+ */
+function reasonOrderTell(habits, reasons) {
+  const n = habits.length;
+  if (straightAcross(habits, reasons) > 0) return `${straightAcross(habits, reasons)} reason(s) straight across`;
+  if (same(reasons, reverse(habits))) return 'the reverse of the habits';
+  const off = habits.map((h, i) => ((reasons.indexOf(h) - i) % n + n) % n);
+  if (off.every((o) => o === off[0])) return `a constant shift (${off[0]})`;
+  return null;
+}
 
 function unionBox(a, b) {
   const x0 = Math.min(a[0], b[0]), y0 = Math.min(a[1], b[1]);
@@ -199,7 +212,7 @@ const FACE_BUILD = {
     let plan = seam && seam.plan ? seam.plan : null;
     for (let t = 0; t < FACE_TRIES && !plan; t++) {
       const habits = rng.shuffle(d.reasonHabits), reasons = rng.shuffle(d.reasonHabits);
-      if (straightAcross(habits, reasons) <= 1 && !same(reasons, reverse(habits))) plan = { habits, reasons };
+      if (!reasonOrderTell(habits, reasons)) plan = { habits, reasons };
     }
     if (!plan) throw new Error(`K-380 ${loc}: no reason order in ${FACE_TRIES} tries (refuse)`);
     const inner = C6.hhReasonMatch({
@@ -266,6 +279,14 @@ function faceVerify(page, mode) {
         const towel = P.towel ? 1 : 0;
         const vec = [tap, bub === 'falling' ? 1 : bub === 'around' ? 1 : 0, soap, towel].join('|');
         const hit = Object.keys(C.HAND_STATES).filter((st) => C.HAND_STATES[st].join('|') === vec && ((st === 'rinse') === (bub === 'falling')) && ((st === 'rub') === (bub === 'around')));
+        // FIX ROUND 2 (wet and rinse were one drawing): rinse carries >= 3 soap suds ON the hands, no other card any
+        {
+          const hb = [...c.querySelectorAll('[data-lcs-part^="hand-"]')].map((h) => h.getBoundingClientRect());
+          const suds = P.suds ? [...P.suds[0].querySelectorAll('circle')].map(ctr) : [];
+          const onHands = suds.filter((q) => hb.some((b) => inside(q, b))).length;
+          if (hit[0] === 'rinse' && onHands < 3) fails.push(`card ${i + 1}: rinse with ${onHands} soap suds on the hands (>= 3: without them it is the wet card again, two right orders)`);
+          if (hit.length === 1 && hit[0] !== 'rinse' && suds.length) fails.push(`card ${i + 1}: "${hit[0]}" draws soap suds on the hands (only rinse does)`);
+        }
         if (hit.length !== 1) { fails.push(`card ${i + 1}: the drawing (${vec}, bubbles ${bub}) reads as ${hit.length ? hit.join(' / ') : 'no step'}`); return null; }
         if (hands && hands.dataset.lcsHands !== hit[0]) fails.push(`card ${i + 1}: drawn "${hit[0]}", stamped "${hands.dataset.lcsHands}"`);
         const box = c.querySelector('[data-lcs-step-box]');
@@ -296,7 +317,11 @@ function faceVerify(page, mode) {
       const kinds = cells.map((c, i) => {
         const P = partsIn(c);
         let kind = null;
-        if (P.molars) kind = 'chewing';
+        if (P.tooth && !P.brush) {
+          // FIX ROUND 2: the state cards (one big tooth): plaque = before, sparkle = after; both or neither = unreadable
+          if (P.plaque && !P.sparkle) kind = 'dirty-teeth';
+          else if (P.sparkle && !P.plaque) kind = 'clean-teeth';
+        } else if (P.molars) kind = 'chewing';
         else if (P.arch) {
           const pts = (P.arch[0].closest('svg') && [...P.arch[0].querySelectorAll('rect')].map(ctr)) || [];
           const head = P.brush && P.brush[0].querySelectorAll('rect')[1];
@@ -309,7 +334,12 @@ function faceVerify(page, mode) {
           kind = inPoly ? 'inside' : 'outside';
         } else if (P.tube && P.cap && !P.brush) kind = 'open-tube';
         else if (P.tube && P.paste && P.brush) kind = 'paste-on-brush';
-        else if (P.drops && P.head) kind = 'spit';
+        else if (P.drops && P.head) {
+          kind = 'spit';
+          // FIX ROUND 2 (en + fr panels): a brush still held up reads as a pause DURING brushing; it must lie below the head
+          const hd = ctr(P.head[0]), br = P.brush ? ctr(P.brush[0]) : null;
+          if (!br || br[1] <= hd[1]) fails.push(`card ${i + 1}: the spit card holds the brush up (a pause DURING brushing: two right answers) — it must lie down, below the head`);
+        }
         else if (P.stream && P.brush) {
           // the bristles are the brush's third rect (handle, head, bristles): every foam bubble counted is BELOW them
           const bristles = P.brush[0].querySelectorAll('rect')[2].getBoundingClientRect();
@@ -350,7 +380,14 @@ function faceVerify(page, mode) {
           if (P.spray || P['cough-puff']) return P.spray ? 'other' : 'healthy';
           if (P.bin && P.tissue) { const bin = P.bin[0].getBoundingClientRect(); return inside(ctr(P.tissue[0]), bin) ? 'healthy' : 'other'; }
           if (t.querySelector('[data-lcs-cups]')) return +t.querySelector('[data-lcs-cups]').dataset.lcsCups === 2 && (P.glass || []).length === 2 ? 'healthy' : 'other';
-          if (t.querySelector('[data-lcs-hands]')) return (P.bubbles ? P.bubbles[0].querySelectorAll('circle').length : 0) >= 3 ? 'healthy' : 'other';
+          if (t.querySelector('[data-lcs-hands]')) {
+            // FIX ROUND 2 (5 panels: water-only was itself hand washing): the other tile is hands left dirty, the tap off
+            const lather = (P.bubbles ? P.bubbles[0].querySelectorAll('circle').length : 0) >= 3;
+            if (lather && P.stream && !P.germs) return 'healthy';
+            if (P.germs && !P.stream && !lather) return 'other';
+            if (!lather && P.stream) { fails.push(`row ${i + 1}: the other hands tile is itself hand washing under running water (two defensible answers)`); return 'other'; }
+            return '?';
+          }
           return '?';
         });
         const nh = verdict.filter((v) => v === 'healthy').length;
@@ -394,7 +431,10 @@ function faceVerify(page, mode) {
       if (habitsDrawn.every(Boolean)) {
         if ([...habitsDrawn].sort().join() !== [...reasonsFor].sort().join()) fails.push(`the reasons (${reasonsFor.join(',')}) are not one per drawn habit (${habitsDrawn.join(',')})`);
         const straight = habitsDrawn.filter((h, i) => reasonsFor[i] === h).length;
-        if (straight > 1) fails.push(`${straight} reasons sit straight across from their habit (<= 1)`);
+        if (straight > 0) fails.push(`${straight} reason(s) sit straight across from their habit (0: a derangement)`);
+        const n = habitsDrawn.length, off = habitsDrawn.map((h, i) => ((reasonsFor.indexOf(h) - i) % n + n) % n);
+        if (n > 1 && off.every((o) => o === off[0])) fails.push(`every reason sits ${off[0]} row(s) below its habit (a constant shift)`);
+        if (habitsDrawn.join() === reasonsFor.slice().reverse().join()) fails.push('the reasons are the reverse of the habits');
       }
       textOK = (el) => !!el.closest('[data-lcs-reason-for]');
     } else if (mode === 'habit-chart') {
@@ -475,8 +515,8 @@ module.exports = {
   },
   i18n: {
     en: {
-      title: 'Healthy Habits: What Does Each Child Need?',
-      instruction: 'Draw a line from each child to the thing that child needs.',
+      title: 'Healthy Habits: What Does Each Child Use?',
+      instruction: 'Draw a line from each child to the thing that child uses.',
     },
   },
 
@@ -486,6 +526,7 @@ module.exports = {
   phaseOrderTell,
   sideTell,
   straightAcross,
+  reasonOrderTell,
   FACE_BUILD,
 
   build({ difficulty, locale }, ctx) {

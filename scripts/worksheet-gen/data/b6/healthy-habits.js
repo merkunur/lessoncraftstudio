@@ -28,8 +28,10 @@ const HEALTHY_HABITS = {
   en: {
     strings: {
       base: {
-        title: 'Healthy Habits: What Does Each Child Need?',
-        instruction: 'Draw a line from each child to the thing that child needs.',
+        // FIX ROUND 2 (en panel): "needs" read as "is using" (the washing child is already under the tap, the brushing
+        // child already foaming). The habit IS in progress on every plaque; the child names the thing it is done WITH.
+        title: 'Healthy Habits: What Does Each Child Use?',
+        instruction: 'Draw a line from each child to the thing that child uses.',
       },
       'hand-washing-steps': {
         title: 'Hand Washing Steps',
@@ -37,7 +39,9 @@ const HEALTHY_HABITS = {
       },
       'brushing-teeth': {
         title: 'Brushing Teeth: Before, During and After',
-        instruction: 'Circle the word that tells when it happens: before, during or after brushing.',
+        // FIX ROUND 2: two cards are now STATES (dirty teeth / clean teeth), not actions: "when it happens" became
+        // "For each picture, circle before, during or after" (one line; no "it happens")
+        instruction: 'For each picture, circle before, during or after brushing.',
       },
       'stop-the-germs': {
         title: 'Stop the Germs: Choose the Healthy Way',
@@ -54,7 +58,7 @@ const HEALTHY_HABITS = {
     },
     phases: { before: 'before', during: 'during', after: 'after' },
     labels: {
-      'wash-hands': 'wash hands', 'brush-teeth': 'brush teeth', sleep: 'sleep', 'move-body': 'move',
+      'wash-hands': 'wash hands', 'brush-teeth': 'brush teeth', sleep: 'go to sleep early', 'move-body': 'move',
       'drink-water': 'drink water', 'sun-protect': 'stay safe in the sun', 'blow-nose': 'blow your nose', 'comb-hair': 'comb hair',
     },
     labelStems: {
@@ -108,30 +112,44 @@ const COMMON = {
   GLYPH_PARTS: { soap: ['dish', 'bar'], toothbrush: ['brush-handle', 'brush-head', 'bristles'], bed: ['frame', 'mattress', 'pillow', 'blanket'], comb: ['spine', 'teeth'], 'tissue-box': ['puff', 'box'], hat: ['brim', 'crown'] },
   /** a mark a tool may NEVER carry (the shared-mark rule: bubbles on the soap pull the brushing child's line) */
   TOOL_FORBIDDEN: { soap: ['bubbles', 'foam', 'scrub'], toothbrush: ['foam', 'bubbles', 'paste'], bed: ['moon', 'stars'], comb: ['tufts'], 'tissue-box': ['burst', 'cross'], hat: ['sun'] },
-  baseD2: ['wash-hands', 'brush-teeth', 'sleep', 'comb-hair', 'blow-nose'],
+  // FIX ROUND 2 (en / fr / es / nl panels, 2026-09-23): the blow-nose child (hand at the nose, a small puff) read as
+  // the BRUSHING child (hand at the face, foam) in en and fr, and as a sneeze that soap could answer in nl — the human
+  // read the design made this pose conditional on FAILED. The recorded contingency (baseD2Contingency) is applied:
+  // blow-nose -> sun-protect. d3 (unpublished) still carries both.
+  baseD2: ['wash-hands', 'brush-teeth', 'sleep', 'comb-hair', 'sun-protect'],
   baseD1: ['wash-hands', 'brush-teeth', 'sleep', 'comb-hair'],
   baseD3: ['wash-hands', 'brush-teeth', 'sleep', 'comb-hair', 'blow-nose', 'sun-protect'],
   /** the d2 contingency (data, never code): if the human read of blow-nose fails, it swaps for sun-protect */
-  baseD2Contingency: { 'blow-nose': 'sun-protect' },
+  baseD2Contingency: { 'blow-nose': 'sun-protect' },   // APPLIED fix round 2 (see baseD2)
   neverTogether: [['brush-teeth', 'drink-water'], ['wash-hands', 'bath'], ['toothbrush', 'toothpaste'], ['wash-hands', 'towel']],
   handSteps: ['wet', 'soap', 'rub', 'rinse', 'dry'],
   HAND_STATES: { wet: ['on', 0, 'rim', 0], soap: ['off', 0, 'hands', 0], rub: ['off', 1, 'rim', 0], rinse: ['on', 1, 'rim', 0], dry: ['off', 0, 'rim', 1] },
+  // FIX ROUND 2 (en / de / es / fr panels): open-tube and rinse-brush each had two defensible phases; spit held the
+  // brush up (a pause DURING brushing). F2 is now before: paste-on-brush, dirty-teeth · during: chewing, outside,
+  // inside · after: spit (the brush laid DOWN on the rim), clean-teeth. The states dirty / clean teeth have one phase
+  // in every locale; the three surfaces stay (the design's "brush every side", KAI in de).
   PHASE_OF: {
-    'open-tube': 'before', 'paste-on-brush': 'before', chewing: 'during', outside: 'during', inside: 'during',
-    spit: 'after', 'rinse-brush': 'after',
+    'paste-on-brush': 'before', 'dirty-teeth': 'before', chewing: 'during', outside: 'during', inside: 'during',
+    spit: 'after', 'clean-teeth': 'after',
   },
   /**
    * DROPPED from F2 (lead review 2026-09-23): a brush standing in a cup by the sink reads equally as "take the
    * brush" (BEFORE) and "put the brush away" (AFTER) — two defensible answers. The drawing stays in the primitive;
    * the card is never offered. F2 ships 7 cards: before 2 · during 3 · after 2 (every phase >= 2).
    */
-  DROPPED_BRUSH: { 'brush-in-cup': 'take the brush (before) or put it away (after): two right answers' },
+  DROPPED_BRUSH: {
+    'brush-in-cup': 'take the brush (before) or put it away (after): two right answers',
+    'open-tube': 'fix round 2: a hand on the cap reads as opening (before) or closing (after): two right answers',
+    'rinse-brush': 'fix round 2: a brush under the tap reads as wetting it first (before) or rinsing it (after); the foam cue did not hold in 3 panels',
+  },
   kaiSlots: ['chewing', 'outside', 'inside'],
   GERM_PAIRS: [
     { key: 'cough', healthy: 'cough-elbow', other: 'cough-open' },
     { key: 'tissue', healthy: 'tissue-in-bin', other: 'tissue-on-floor' },
     { key: 'cup', healthy: 'own-cup', other: 'shared-cup' },
-    { key: 'soap', healthy: 'hands-soap', other: 'hands-water-only' },
+    // FIX ROUND 2 (en / de / es / fr / nl panels): water-only was itself hand washing (it removes some germs), so the
+    // row had two defensible answers. The other tile is now hands left DIRTY (germs on them, the tap off).
+    { key: 'soap', healthy: 'hands-soap', other: 'hands-dirty' },
     { key: 'toilet', healthy: 'wash-after-toilet', other: 'walk-away-toilet', reserve: true },
   ],
   reasonD2: ['wash-hands', 'brush-teeth', 'sleep', 'move-body', 'sun-protect'],
@@ -152,11 +170,11 @@ const COMMON = {
     base: ['figure:wash-hands', 'figure:brush-teeth', 'figure:sleep', 'figure:comb-hair', 'figure:blow-nose', 'figure:sun-protect',
       'tool:soap', 'tool:toothbrush', 'tool:bed', 'tool:comb', 'tool:tissue-box', 'tool:hat'],
     F1: ['hands:wet', 'hands:soap', 'hands:rub', 'hands:rinse', 'hands:dry'],
-    F2: ['brush:open-tube', 'brush:paste-on-brush', 'brush:chewing', 'brush:outside', 'brush:inside', 'brush:spit', 'brush:rinse-brush'],
+    F2: ['brush:paste-on-brush', 'brush:dirty-teeth', 'brush:chewing', 'brush:outside', 'brush:inside', 'brush:spit', 'brush:clean-teeth'],
     F3: ['figure:cough-elbow', 'figure:cough-open', 'figure:tissue-in-bin', 'figure:tissue-on-floor'],
     F4: ['figure:wash-hands-soap', 'figure:brush-teeth-brush', 'figure:sleep-bed', 'figure:move-body', 'figure:sun-hat'],
     F5: ['figure:brush-teeth-brush', 'figure:wash-hands-soap', 'figure:move-body', 'figure:drink-water', 'figure:sleep-bed'],
-    F3pairs: ['figure:cough-elbow', 'figure:cough-open', 'figure:tissue-in-bin', 'figure:tissue-on-floor', 'hands:hands-soap', 'hands:hands-water-only'],
+    F3pairs: ['figure:cough-elbow', 'figure:cough-open', 'figure:tissue-in-bin', 'figure:tissue-on-floor', 'hands:hands-soap', 'hands:hands-dirty'],
   },
   /** provenance: library pictures OPENED and refused (design §2 "NOT used"); none may reach a page */
   REFUSED_LIBRARY: {

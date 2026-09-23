@@ -83,7 +83,7 @@ function resolveUnitTokens(strings, spec, unit, locale) {
   if (!strings || !hasAxis(spec)) return strings;
   const fields = Object.keys(strings).filter((k) => typeof strings[k] === 'string' && TOKEN_TEST.test(strings[k]));
   if (!fields.length) return strings;
-  const u = unit || spec.unitAxis.exemplar(locale);
+  const u = unit || spec.unitAxis.exemplar(locale, spec);
   const tok = unitTokens(spec, u, locale);
   const out = Object.assign({}, strings);
   for (const k of fields) out[k] = strings[k].replace(TOKEN_RE, (m, t) => (t in tok ? String(tok[t]) : m));

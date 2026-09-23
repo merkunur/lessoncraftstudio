@@ -19,7 +19,7 @@ const ROWS = [
     S['G2-380'].title, S['G2-380'].instruction, { gradeBand: 'G2' }],
   ['g1', 'G1-407', 'what-animals-need', BASE, 2, { layout: 'needs', rows: 4, foodPair: true, homePair: true, pic: 84, chip: 96 },
     S['G1-407'].title, S['G1-407'].instruction, { gradeBand: 'G1' }],
-  ['g2', 'G2-381', 'my-habitat-report', BASE, 2, { layout: 'report', animalRows: 3, plantRows: 1, chipPairs: 2 },
+  ['g2', 'G2-381', 'my-habitat-report', BASE, 2, { layout: 'report', animalRows: 3, plantRows: 1, chipPairs: 1 },
     S['G2-381'].title, S['G2-381'].instruction, { gradeBand: 'G2' }],
 ];
 const HANDWRITTEN = [];

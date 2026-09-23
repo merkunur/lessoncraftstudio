@@ -98,6 +98,7 @@ const addType = (id, isBase) => {
     mode: isBase ? 'base' : t.slug,
     themed: !!(t.themeAxis && t.themeAxis.applicable),
     isBase,
+    buildMode: (t.difficulty && t.difficulty[2] && t.difficulty[2].mode) || null,
   };
 };
 for (const [baseId] of FAMILIES) addType(baseId, true);
@@ -180,6 +181,21 @@ const deckSlugFor = (id) => {
   return famSlug(TYPES[id].family) + (theme ? '-' + themeSlug(theme) : '') + '-' + id.toLowerCase().replace('-', '');
 };
 
+// Level = the id band, EXCEPT where the family's bank publishes per-locale levels per build mode
+// (cursive-writing: a locale's joined script starts in its own school year — fr CP for every face,
+// it/nl/pt split by face). A bank level must be one of this locale's level keys or the build aborts.
+const levelFor = (id) => {
+  const t = TYPES[id];
+  const byBand = LEVEL_KEYS[locale][t.band];
+  if (t.family !== 'cursive-writing') return byBand;
+  let bank;
+  try { bank = require(path.join(__dirname, '..', 'worksheet-gen', 'data', 'b6', 'locales', 'cursive-writing.' + locale + '.json')); } catch (e) { return byBand; }
+  const lv = bank.levels && t.buildMode && bank.levels[t.buildMode];
+  if (!lv) return byBand;
+  if (!Object.values(LEVEL_KEYS[locale]).includes(lv)) fail(id + ': bank level "' + lv + '" is not a ' + locale + ' level key');
+  return lv;
+};
+
 /* -------- validate -------- */
 const errs = [];
 const newSlugs = new Set();
@@ -229,7 +245,7 @@ if (errs.length) { errs.forEach((e) => console.error(' - ' + e)); fail(errs.leng
 const entries = ORDER.map((id) => {
   const t = TYPES[id];
   const e = prose.landings[id];
-  const level = LEVEL_KEYS[locale][t.band];
+  const level = levelFor(id);
   const theme = shippedTheme(id);
   return {
     slug: e.slug,

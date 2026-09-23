@@ -36,6 +36,8 @@
  *   PT6 the legend-float blob sunk 6 px           -> "blob"
  *   PT7 the floor ring lifted 4 px off the gravel -> "not on the floor"   (lead review 2026-09-23)
  *   PT8 the float ring fully under water          -> "not ACROSS the waterline"
+ *   PT9 the floor ring only tangent to the gravel -> "not settled"   (fix round 2, en landing panel)
+ *   PT10 the legend-sink blob lifted 6 px          -> "not settled"
  */
 'use strict';
 const { color } = require('../primitives/_tokens.js');
@@ -94,7 +96,9 @@ function checkTank(svg, { w, h, mode }, ret, pairRef) {
       const A = { cx: num(top, 'cx'), cy: num(top, 'cy'), r: num(top, 'r') }, B = { cx: num(flo, 'cx'), cy: num(flo, 'cy'), r: num(flo, 'r') };
       E(Math.abs(A.cy - waterY) <= 0.5, `rings ${w}x${h}: top ring centre y ${A.cy} is ${Math.abs(A.cy - waterY).toFixed(2)} px off the waterline ${waterY}`);
       E(A.cx < 0.5 * w, `rings ${w}x${h}: top ring centre not left of 0.5w`);
-      E(B.cy + B.r >= floorY - 2 && B.cy + B.r <= floorY + 1.5, `rings ${w}x${h}: floor ring bottom ${(B.cy + B.r).toFixed(2)} is not on the floor ${floorY} (<= 2 px above, <= 1.5 px into the gravel line)`);
+      // fix round 2 (en panel): a ring only TANGENT to the gravel line read as mid-water; it must SETTLE into the gravel
+      // band — bottom >= 3 px under the gravel line and >= 2 px above the glass bottom (0.97h)
+      E(B.cy + B.r >= floorY + 3 && B.cy + B.r <= 0.97 * h - 2, `rings ${w}x${h}: floor ring bottom ${(B.cy + B.r).toFixed(2)} is not on the floor — not settled into the gravel band ${floorY}..${(0.97 * h).toFixed(1)} (>= 3 px in, >= 2 px above the glass)`);
       E(A.cy - A.r < waterY - 2 && A.cy + A.r > waterY + 2, `rings ${w}x${h}: the top ring is not ACROSS the waterline (half above, half below)`);
       E(Math.hypot(A.cx - B.cx, A.cy - B.cy) > A.r + B.r + 2.5, `rings ${w}x${h}: rings intersect (centres ${Math.hypot(A.cx - B.cx, A.cy - B.cy).toFixed(1)} px apart, radii ${A.r}+${B.r})`);
       const strip = (t) => t.replace(/\s(cx|cy|data-lcs-slot)="[^"]*"/g, '');
@@ -115,6 +119,7 @@ function checkTank(svg, { w, h, mode }, ret, pairRef) {
         E(tagsOf(svg, 'path').filter((t) => /data-lcs-ripple/.test(t)).length === 4, `${mode}: 4 ripple arcs`);
       } else {
         E(b.cy > waterY + b.R, `${mode} ${w}x${h}: blob centre ${b.cy} not below waterY + r`);
+        E(b.bottom >= floorY + 3 && b.bottom <= 0.97 * h - 2, `${mode} ${w}x${h}: the sunk blob's bottom ${b.bottom.toFixed(1)} is not settled into the gravel band (fix round 2)`);
         if (pairRef && pairRef.rings) E(Math.abs(b.bottom - pairRef.rings.floorBottom) <= 1.5, `${mode} ${w}x${h}: blob bottom ${b.bottom.toFixed(1)} ≠ the floor ring bottom ${pairRef.rings.floorBottom.toFixed(1)}`);
         const bub = tagsOf(svg, 'circle').filter((t) => /data-lcs-bubble/.test(t));
         E(bub.length === 3, `${mode}: ${bub.length} bubbles ≠ 3`);
@@ -169,6 +174,7 @@ function main() {
   const ctl = checkTank(base.svg, { w: 170, h: 85, mode: 'rings' }, base, {});
   ok(!ctl.length, 'control: ' + ctl.join(' | '));
   const retOf = (svg) => ({ ...base, svg });
+  const sink = T.waterTank({ w: 170, h: 85, mode: 'legend-sink' });
   const top = /<circle [^>]*data-lcs-slot="top"[^>]*\/>/.exec(base.svg)[0];
   const flo = /<circle [^>]*data-lcs-slot="floor"[^>]*\/>/.exec(base.svg)[0];
   { const s = base.svg.replace(top, top.replace(/cy="([\d.]+)"/, (m, v) => `cy="${+v + 4}"`)); judge('PT1 top ring 4 px down', checkTank(s, { w: 170, h: 85, mode: 'rings' }, { ...retOf(s), slots: null }, {}), /top ring centre/); }
@@ -176,8 +182,10 @@ function main() {
   { const s = base.svg.replace(flo, flo.replace(/cx="[\d.]+"/, 'cx="70"').replace(/cy="[\d.]+"/, `cy="${base.slots.top.cy + 16}"`)); judge('PT3 floor ring over the top ring', checkTank(s, { w: 170, h: 85, mode: 'rings' }, { ...retOf(s), slots: null }, {}), /rings intersect/); }
   { const s = base.svg.replace(color.tealSoft, '#AACCEE'); judge('PT4 off-palette water', checkTank(s, { w: 170, h: 85, mode: 'rings' }, retOf(s), {}), /off-palette/); }
   { const s = base.svg.replace(flo, flo.replace(/cy="([\d.]+)"/, (m, v) => `cy="${+v - 4}"`)); judge('PT7 floor ring lifted 4 px off the gravel', checkTank(s, { w: 170, h: 85, mode: 'rings' }, { ...retOf(s), slots: null }, {}), /floor ring bottom .* is not on the floor/); }
+  // fix round 2: the pre-fix TANGENT placement (bottom 1 px into the gravel line) is now a poison; the settled ring is the control above
+  { const s = base.svg.replace(flo, flo.replace(/cy="([\d.]+)"/, () => `cy="${Math.round((base.floorY + 1 - base.slots.floor.r) * 100) / 100}"`)); judge('PT9 floor ring only tangent to the gravel line (the pre-round-2 placement)', checkTank(s, { w: 170, h: 85, mode: 'rings' }, { ...retOf(s), slots: null }, {}), /floor ring bottom .* not settled into the gravel band/); }
+  { const s = sink.svg.replace(/d="([^"]*)"([^>]*data-lcs-blob)/, (m, d, rest) => `d="${d.replace(/(-?[\d.]+) (-?[\d.]+)/g, (q, x, y) => `${x} ${Math.round((+y - 6) * 100) / 100}`)}"${rest}`); judge('PT10 the legend sunk blob lifted 6 px off the gravel', checkTank(s, { w: 170, h: 85, mode: 'legend-sink' }, { ...sink, svg: s }, {}), /sunk blob's bottom .* not settled/); }
   { const s = base.svg.replace(top, top.replace(/cy="([\d.]+)"/, (m, v) => `cy="${+v + base.slots.top.r + 3}"`)); judge('PT8 float ring fully under water', checkTank(s, { w: 170, h: 85, mode: 'rings' }, { ...retOf(s), slots: null }, {}), /top ring is not ACROSS the waterline/); }
-  const sink = T.waterTank({ w: 170, h: 85, mode: 'legend-sink' });
   { const s = sink.svg.replace(/(<circle [^>]*cy=")([\d.]+)("[^>]*data-lcs-bubble)/, (m, a, v, b) => a + (sink.waterY - 3) + b); judge('PT5 a bubble in the air', checkTank(s, { w: 170, h: 85, mode: 'legend-sink' }, { ...sink, svg: s }, {}), /bubble reaches the air/); }
   const fl = T.waterTank({ w: 170, h: 85, mode: 'legend-float' });
   { const s = fl.svg.replace(/d="([^"]*)"([^>]*data-lcs-blob)/, (m, d, rest) => `d="${d.replace(/(-?[\d.]+) (-?[\d.]+)/g, (q, x, y) => `${x} ${Math.round((+y + 6) * 100) / 100}`)}"${rest}`); judge('PT6 float blob sunk 6 px', checkTank(s, { w: 170, h: 85, mode: 'legend-float' }, { ...fl, svg: s }, {}), /blob centre .* not on the waterline/); }

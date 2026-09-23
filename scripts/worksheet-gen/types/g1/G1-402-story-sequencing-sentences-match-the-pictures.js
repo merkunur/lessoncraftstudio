@@ -10,6 +10,6 @@ module.exports = {
   id: 'G1-402',
   slug: 'story-sequencing-sentences-match-the-pictures',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Story Sequencing Sentences: Match the Pictures", instruction: "Read each story's sentences and draw a line from every sentence to its picture." } },
+  i18n: { en: { title: "Story Sequencing Sentences: Match the Pictures", instruction: "Number each story's sentences in order in the boxes, then draw a line from every sentence to its picture." } },
   gradeBand: "G1",
 };

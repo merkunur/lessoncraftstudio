@@ -4,7 +4,7 @@ const base = require('../g1/G1-399-sink-or-float.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"layout":"shape","forms":["ball","boat"],"transfer":["nail","ship"],"drawTank":[639,300],"formW":120,"lumpW":72,"tank":[150,75],"cardW":312,"clayH":196,"transferH":120,"rowGap":12,"smallPx":56,"bigPx":96} };
+const D = { ...base.difficulty[2], ...{"layout":"shape","forms":["ball","boat"],"transfer":["nail","ship"],"drawTank":[639,180],"formW":120,"lumpW":120,"tank":[150,75],"cardW":312,"clayH":196,"transferH":150,"rowGap":12,"smallPx":56,"bigPx":96,"legendH":72,"headH":24} };
 module.exports = {
   ...base,
   id: 'G2-382',

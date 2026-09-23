@@ -10,13 +10,16 @@
  *    the resolved d2 config carries `mode`; the chips / reasons / labels / day heads printed === the bank (+ calendar).
  * B. POOLED — 400 seeds per face (pure build): F1 no step in its own slot (0 %), no step in one slot > 35 %;
  *    F2 each phase in each reading slot 15-55 %; F3 the healthy tile left 40-60 % overall AND per row index;
- *    F4 a reason beside its own habit <= 25 % of rows. The per-PAGE rules are asserted by verify() on every render.
+ *    F4 a reason beside its own habit on 0 % of rows (fix round 2: a derangement) and each offset 1-4 in 10-40 %. The per-PAGE rules are asserted by verify() on every render.
  * C. RENDER — each face through the REAL pipeline at its own en chrome, a one-line chrome (814), the 722 fixture
  *    (3-line title + 3-line instruction) and the 677 fixture (a long fi title): verify() empty (it re-derives every
  *    answer from the drawn parts and carries SPARSE <= 40 + FILL >= 85 %), qa/lints.js clean; the GREYSCALE render
  *    (filter:grayscale(1)) still verifies.
  * D. POISONS — each must FAIL for its OWN reason (the untouched face is the control): P14 F1 rinse drawn without its
- *    falling bubbles · FO1 F1 printed in the routine's own order · P15 F2 rinse-brush without foam · P16 F2 chip
+ *    falling bubbles · P14b / P14c F1 rinse without its suds, suds on wet · FO1 F1 printed in the routine's own order ·
+ *    P15 F2 the spit brush held up again · P15b F2 plaque on the clean tooth · FD3 / FD4 F2 rinse-brush / open-tube put
+ *    back (dropped fix round 2) · FW1 / FW2 F3 the water-only tile back, germs on the lather · FR3 / FR4 F4 one straight
+ *    across, a constant shift · P16 F2 chip
  *    order varied in one cell · FS1 F2 a card's stamp swapped (the drawing wins) · FG1 F2 sorted by phase · P17 F3
  *    healthy side LRLR · FC1 F3 the spray added to the elbow cough (two unhealthy tiles) · FR1 F4 two reason cards'
  *    stamps swapped with the texts kept · FR2 F4 every reason straight across · P19 F5 34 tick squares · FD1 F5 a
@@ -74,7 +77,7 @@ function pooled(spec, face, n, ok) {
     if (face.mode === 'hand-washing-steps') r.order.split(',').forEach((st, i) => { bump(`${st}@${i}`); if (COMMON.handSteps[i] === st) bump('own'); });
     if (face.mode === 'brushing-teeth') r.kinds.split(',').forEach((k, i) => bump(`${COMMON.PHASE_OF[k]}@${i}`));
     if (face.mode === 'stop-the-germs') r.sides.split('').forEach((s, i) => { if (s === 'L') { bump('L'); bump(`L@${i}`); } });
-    if (face.mode === 'why-habits') { const h = r.habits.split(','), q = r.reasons.split(','); h.forEach((x, i) => { if (q[i] === x) bump('straight'); }); }
+    if (face.mode === 'why-habits') { const h = r.habits.split(','), q = r.reasons.split(','); h.forEach((x, i) => { if (q[i] === x) bump('straight'); bump(`off${((q.indexOf(x) - i) % 5 + 5) % 5}`); }); }
   }
   const pct = (k, of) => (counts[k] || 0) / of;
   const rows = [];
@@ -97,9 +100,12 @@ function pooled(spec, face, n, ok) {
     rows.push(`F3 pooled ${n}: healthy left ${(100 * all).toFixed(1)} % overall, per row ${per.map((x) => (100 * x).toFixed(0)).join('/')} % (40..60)`);
   }
   if (face.mode === 'why-habits') {
+    // FIX ROUND 2: a DERANGEMENT on every seed (0 straight across), and no offset a tell (each of 1..4 in 10..40 %)
     const s = pct('straight', 5 * n);
-    ok(s <= 0.25, `pooled F4: a reason beside its own habit on ${(100 * s).toFixed(1)} % of rows (> 25 %)`);
-    rows.push(`F4 pooled ${n}: reason straight across ${(100 * s).toFixed(1)} % of rows (<= 25)`);
+    ok(s === 0, `pooled F4: a reason beside its own habit on ${(100 * s).toFixed(1)} % of rows (0: a derangement)`);
+    const offs = [1, 2, 3, 4].map((o) => pct(`off${o}`, 5 * n));
+    offs.forEach((x, i) => ok(x >= 0.1 && x <= 0.4, `pooled F4: reason offset ${i + 1} on ${(100 * x).toFixed(1)} % of rows (10..40)`));
+    rows.push(`F4 pooled ${n}: reason straight across ${(100 * s).toFixed(1)} % of rows (0), offsets 1-4 ${offs.map((x) => (100 * x).toFixed(1)).join('/')} % (10..40)`);
   }
   return rows;
 }
@@ -154,19 +160,33 @@ async function faceGate({ page, K, quick, OUTDIR, validateBank }) {
   const ctl = {};
   for (const f of FACES) ctl[f.id] = K.control(`F0 ${f.id} control`, await V(f.id, {}));
   const J = async (name, id, opts, re) => K.judge(name, await V(id, opts), re, ctl[id]);
+  // FIX ROUND 2 — the suds rule, both directions
+  await J('P14b F1 rinse drawn without the suds on its hands', 'K-382', { doctor: (h) => h.replace(/(<g data-lcs-hands="rinse"[\s\S]*?)<g data-lcs-part="suds">[\s\S]*?<\/g>/, '$1') }, /rinse with 0 soap suds/);
+  await J('P14c F1 suds drawn on the wet hands', 'K-382', { doctor: (h) => { const sd = /<g data-lcs-part="suds">[\s\S]*?<\/g>/.exec(h)[0]; return h.replace(/(<g data-lcs-hands="wet"[^>]*>)/, `$1${sd}`); } }, /"wet" draws soap suds/);
   await J('P14 F1 rinse drawn without its falling bubbles', 'K-382', { doctor: (h) => h.replace(/(<g data-lcs-hands="rinse"[\s\S]*?)<g data-lcs-part="bubbles">[\s\S]*?<\/g>/, '$1') }, /reads as wet|distinct steps|draw 4 distinct/);
   await J('FO1 F1 printed in the routine order', 'K-382', { plan: { order: COMMON.handSteps.slice() } }, /own reading slot/);
-  await J('P15 F2 rinse-brush without foam', 'G1-403', { doctor: (h) => h.replace(/(<g data-lcs-brush="rinse-brush"[\s\S]*?)<g data-lcs-part="bubbles">[\s\S]*?<\/g>/, '$1') }, /foam bubbles falling/);
-  await J('P15b F2 rinse-brush with the foam on its bristles removed', 'G1-403', { doctor: (h) => h.replace(/(<g data-lcs-brush="rinse-brush"[\s\S]*?)<g data-lcs-part="foam">[\s\S]*?<\/g>/, '$1') }, /no used foam on its bristles/);
+  // FIX ROUND 2: rinse-brush / open-tube are DROPPED (two right answers); the spit brush lies down; the state cards
+  await J('P15 F2 the spit brush held up above the head again', 'G1-403', { doctor: (h) => h.replace(/(<g data-lcs-brush="spit"[\s\S]*?)(<g data-lcs-part="brush")/, '$1<g transform="translate(-10 -62)">$2').replace(/(<g data-lcs-brush="spit"[\s\S]*?)(<g data-lcs-part="drops">)/, '$1</g>$2') }, /holds the brush up/);
+  await J('P15b F2 plaque drawn on the clean tooth (both cues)', 'G1-403', { doctor: (h) => { const pq = /<g data-lcs-part="plaque">[\s\S]*?<\/g>/.exec(h)[0]; return h.replace(/(<g data-lcs-brush="clean-teeth"[^>]*>)/, `$1${pq}`); } }, /no brushing card can be read/);
+  await J('FD3 F2 the dropped rinse-brush card put back', 'G1-403', { plan: { kinds: ['paste-on-brush', 'chewing', 'spit', 'outside', 'dirty-teeth', 'inside', 'rinse-brush'] } }, /dropped card "rinse-brush"/);
+  await J('FD4 F2 the dropped open-tube card put back', 'G1-403', { plan: { kinds: ['open-tube', 'chewing', 'spit', 'outside', 'paste-on-brush', 'inside', 'clean-teeth'] } }, /dropped card "open-tube"/);
   await J('P16 F2 chip order varied in one cell', 'G1-403', { doctor: (h) => h.replace(/(<span class="hh-chip" data-lcs-chip="before"[^>]*>[^<]*<\/span>)(<span class="hh-chip" data-lcs-chip="during"[^>]*>[^<]*<\/span>)/, '$2$1') }, /chips are not identical/);
   await J('FS1 F2 a card stamp swapped (the drawing wins)', 'G1-403', { doctor: (h) => h.replace('data-lcs-brush="spit"', 'data-lcs-brush="open-tube"') }, /drawn "spit", stamped "open-tube"/);
   await J('FD2 F2 the dropped brush-in-cup card put back', 'G1-403', { plan: { kinds: ['open-tube', 'chewing', 'spit', 'outside', 'paste-on-brush', 'inside', 'brush-in-cup'] } }, /dropped card "brush-in-cup"/);
-  await J('FG1 F2 sorted by phase (a staircase)', 'G1-403', { plan: { kinds: ['open-tube', 'paste-on-brush', 'chewing', 'outside', 'inside', 'spit', 'rinse-brush'] } }, /same-phase neighbours|staircase/);
+  await J('FG1 F2 sorted by phase (a staircase)', 'G1-403', { plan: { kinds: ['paste-on-brush', 'dirty-teeth', 'chewing', 'outside', 'inside', 'spit', 'clean-teeth'] } }, /same-phase neighbours|staircase/);
   await J('P17 F3 healthy side LRLR', 'G1-404', { plan: { keys: ['cough', 'tissue', 'cup', 'soap'], sides: ['L', 'R', 'L', 'R'] } }, /alternates LRLR/);
   const spray = '<g data-lcs-part="spray"><circle cx="72" cy="14" r="2.2" fill="#3A3530"/><circle cx="78" cy="18" r="2.2" fill="#3A3530"/></g>';
   await J('FC1 F3 the spray added to the elbow cough', 'G1-404', { doctor: (h) => h.replace(/(<g data-lcs-pictogram="habit" data-lcs-pose="cough-elbow"[^>]*>)/, `$1${spray}`) }, /0 healthy tiles/);
+  // FIX ROUND 2 — F3 the old water-only tile back (two right answers) · germs on the lather tile; F4 derangement
+  const HPm = require('../primitives/habit-pictogram.js');
+  const inner = (st) => /<g data-lcs-hands="[^"]+">[\s\S]*<\/g>(?=<\/svg>)/.exec(HPm.handsView({ state: st }).svg)[0];
+  await J('FW1 F3 the water-only tile back as the other soap tile', 'G1-404', { doctor: (h) => h.replace(/<g data-lcs-hands="hands-dirty">[\s\S]*?<\/g>(?=<\/svg>)/, inner('hands-water-only')) }, /itself hand washing under running water/);
+  await J('FW2 F3 germs drawn on the lather tile', 'G1-404', { doctor: (h) => { const gm = /<g data-lcs-part="germs">[\s\S]*?<\/g>/.exec(h)[0]; return h.replace(/(<g data-lcs-hands="hands-soap">)/, `$1${gm}`); } }, /healthy tiles|exactly one/);
+  const R = COMMON.reasonD2;
+  await J('FR3 F4 one reason straight across (the shipped 2026-09-23 rule allowed it)', 'G2-379', { plan: { habits: R.slice(), reasons: [R[0], R[2], R[3], R[4], R[1]] } }, /1 reason\(s\) sit straight across/);
+  await J('FR4 F4 every reason one row below its habit (a constant shift)', 'G2-379', { plan: { habits: R.slice(), reasons: [R[4], R[0], R[1], R[2], R[3]] } }, /constant shift/);
   await J('FR1 F4 two reason stamps swapped', 'G2-379', { doctor: (h) => { const m = [...h.matchAll(/data-lcs-reason-for="([^"]+)"/g)]; if (m.length < 2) return h; const [a, b] = [m[0][1], m[1][1]]; return h.replace(`data-lcs-reason-for="${a}"`, 'data-lcs-reason-for="__A__"').replace(`data-lcs-reason-for="${b}"`, `data-lcs-reason-for="${a}"`).replace('data-lcs-reason-for="__A__"', `data-lcs-reason-for="${b}"`); } }, /prints ".*" \(not the bank's reason/);
-  await J('FR2 F4 every reason straight across', 'G2-379', { plan: { habits: COMMON.reasonD2.slice(), reasons: COMMON.reasonD2.slice() } }, /reasons sit straight across/);
+  await J('FR2 F4 every reason straight across', 'G2-379', { plan: { habits: COMMON.reasonD2.slice(), reasons: COMMON.reasonD2.slice() } }, /5 reason\(s\) sit straight across/);
   await J('P19 F5 34 tick squares', 'G1-405', { doctor: (h) => h.replace(/<span data-lcs-tick [^>]*><\/span>/, '') }, /34 tick squares/);
   // FIX ROUND 1 (fr panel): long native labels wrap balanced (no short word stranded at a line end) — control + poison
   const LONG = ['se laver les mains', 'die Hände waschen', 'pestä kädet hyvin', 'børste tænderne', 'lavarsi i denti'];

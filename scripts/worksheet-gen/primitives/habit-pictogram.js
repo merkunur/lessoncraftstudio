@@ -395,6 +395,15 @@ function soapBar(x, y, tag = 'soap', w = 18, h = 9) {
     el('rect', { x: fmt(x + w * 0.25), y: fmt(y + h * 0.3), width: fmt(w * 0.5), height: fmt(h * 0.4), rx: h * 0.2, ry: h * 0.2, fill: 'none', stroke: T.ink, 'stroke-width': 1.2 }));
 }
 const drop = (x, y, r = 3) => el('path', { d: `M${fmt(x)},${fmt(y - 1.6 * r)} Q${fmt(x + 1.3 * r)},${fmt(y)} ${fmt(x)},${fmt(y + r)} Q${fmt(x - 1.3 * r)},${fmt(y)} ${fmt(x)},${fmt(y - 1.6 * r)} Z`, fill: T.teal });
+/** the soap SUDS still ON the hands (rinse only): bubbles whose centres sit inside the two palms / fingers */
+const SUDS = [[47, 50, 3], [54, 58, 3.2], [51, 40, 2.6], [80, 50, 3], [73, 58, 3.2], [76, 40, 2.6]];
+function sudsPart() { return part('suds', SUDS.map(([x, y, r]) => bubble(x, y, r)).join('')); }
+/** one germ: a small inkSoft body with six short ink spikes (the icon K hygiene sheets use) */
+function germ(x, y, r = 2.6) {
+  const sp = [];
+  for (let k = 0; k < 6; k++) { const a = k * Math.PI / 3 + 0.3; sp.push(ln(x + r * Math.cos(a), y + r * Math.sin(a), x + (r + 1.8) * Math.cos(a), y + (r + 1.8) * Math.sin(a), 1.1, T.ink)); }
+  return sp.join('') + el('circle', { cx: fmt(x), cy: fmt(y), r, fill: T.inkSoft, stroke: T.ink, 'stroke-width': 0.9 });
+}
 const UNDER_TAP = () => lineHand(52, 54, -18, false, 'hand-left') + lineHand(75, 54, 18, true, 'hand-right') + streamPart();
 const HANDS_DEF = {
   wet: () => sinkBand(true) + soapBar(8, 71) + UNDER_TAP(),
@@ -403,7 +412,10 @@ const HANDS_DEF = {
   rub: () => sinkBand(false) + soapBar(8, 71) + lineHand(60, 46, 8, false, 'hand-left') + lineHand(67, 46, -8, true, 'hand-right') +
     part('rub-marks', mark('M42,40 q-4,6 0,12') + mark('M85,40 q4,6 0,12')) +
     part('bubbles', [[47, 30, 4], [46, 60, 3.4], [81, 30, 4], [82, 60, 3.4], [55, 22, 3], [73, 22, 3]].map(([x, y, r]) => bubble(x, y, r)).join('')),
-  rinse: () => sinkBand(true) + soapBar(8, 71) + UNDER_TAP() +
+  // FIX ROUND 2 (en / de / fr / nl panels, 2026-09-23): wet and rinse were the same drawing but four bubbles in the
+  // bowl, so a kindergartner could swap steps 1 and 4. Rinse now carries the SUDS still on the hands (soap being
+  // washed off), and the bubbles falling into the bowl; wet stays clean hands under the water.
+  rinse: () => sinkBand(true) + soapBar(8, 71) + UNDER_TAP() + sudsPart() +
     part('bubbles', [[55, 90, 2.8], [65, 85, 3.2], [74, 91, 2.8], [62, 95, 2.6]].map(([x, y, r]) => bubble(x, y, r)).join('')),
   dry: () => sinkBand(false) + soapBar(8, 71) +
     part('towel', el('path', { d: 'M34,26 H78 V68 Q56,72 34,68 Z', fill: T.tealSoft, stroke: T.ink, 'stroke-width': 2, 'stroke-linejoin': 'round' }) +
@@ -413,7 +425,10 @@ const HANDS_DEF = {
 // F3 `soap` pair (design §3 F3): the SAME hands under the SAME running tap; the ONLY difference is the lather
 HANDS_DEF['hands-soap'] = () => sinkBand(true) + UNDER_TAP() +
   part('bubbles', [[38, 38, 4.6], [40, 56, 4.2], [89, 40, 4.6], [88, 58, 4.2], [63, 68, 4], [45, 24, 3.6], [82, 24, 3.6]].map(([x, y, r]) => bubble(x, y, r)).join(''));
-HANDS_DEF['hands-water-only'] = () => sinkBand(true) + UNDER_TAP();
+HANDS_DEF['hands-water-only'] = () => sinkBand(true) + UNDER_TAP();   // NOT offered since fix round 2 (water alone is hand washing too)
+// FIX ROUND 2: the F3 soap row's other tile — the SAME hands at the SAME sink, the tap OFF, no water, germs on them
+HANDS_DEF['hands-dirty'] = () => sinkBand(false) + lineHand(52, 54, -18, false, 'hand-left') + lineHand(75, 54, 18, true, 'hand-right') +
+  part('germs', [[47, 50], [55, 59], [50, 40], [80, 50], [72, 59], [77, 40]].map(([x, y]) => germ(x, y)).join(''));
 function handsView({ state, px = 176, data = {} } = {}) {
   if (!HANDS_DEF[state]) throw new Error(`habit-pictogram: hands state "${state}"`);
   const g = el('g', { 'data-lcs-hands': state, ...dataAttrs(data) }, HANDS_DEF[state]());
@@ -427,7 +442,11 @@ function handsView({ state, px = 176, data = {} } = {}) {
  * the brush always the same brush (teal handle, white head, white bristles with ink slits), the tube always the same
  * tube (white, teal label band, crimped end). No clock, no sand-glass, no mouth-rinse cup, no paste amount.
  */
-const BRUSH_KINDS = ['open-tube', 'paste-on-brush', 'chewing', 'outside', 'inside', 'spit', 'rinse-brush', 'brush-in-cup'];
+const BRUSH_KINDS = ['open-tube', 'paste-on-brush', 'chewing', 'outside', 'inside', 'spit', 'rinse-brush', 'brush-in-cup', 'dirty-teeth', 'clean-teeth'];
+/** FIX ROUND 2: one big tooth (crown + two roots), the state cards' single object */
+function bigTooth() {
+  return part('tooth', el('path', { d: 'M26,24 Q26,8 40,8 Q50,8 50,15 Q50,8 60,8 Q74,8 74,24 Q74,44 67,60 Q64,82 57,90 Q52,92 51.5,80 Q50.5,68 50,66 Q49.5,68 48.5,80 Q48,92 43,90 Q36,82 33,60 Q26,44 26,24 Z', fill: T.white, stroke: T.ink, 'stroke-width': 2.8, 'stroke-linejoin': 'round' }));
+}
 /** the tube lying horizontally, nozzle to the RIGHT at (x+L, y+H/2) */
 function tube(x, y, L = 50, H = 20) {
   return part('tube', el('path', { d: `M${x},${y + 2} L${x + 4},${y} H${x + L - 8} Q${x + L},${y + H / 2 - 5} ${x + L},${y + H / 2 - 3} V${y + H / 2 + 3} Q${x + L},${y + H / 2 + 5} ${x + L - 8},${y + H} H${x + 4} L${x},${y + H - 2} Z`, fill: T.white, stroke: T.ink, 'stroke-width': 2.2, 'stroke-linejoin': 'round' }) +
@@ -485,18 +504,27 @@ const BRUSH_DEF = {
   // FIX ROUND 1 (da panel, 2026-09-23): teardrops falling past the face read as CRYING or face-washing. Now the
   // child bends LOW over the bowl, still holding the brush up in one hand (so it is about brushing), and white
   // toothpaste FOAM (bubbles, never teardrops) leaves the MOUTH and falls into the bowl.
-  spit: () => part('torso', el('path', { d: 'M6,84 L16,54 Q19,47 27,48 L42,54 L30,84 Z', fill: T.ink })) +
+  // FIX ROUND 2 (en + fr panels): the brush held UP read as a pause DURING brushing. The brush now lies DOWN on the
+  // rim (brushing is over), the near hand rests on the rim, and the foam still leaves the mouth into the bowl.
+  spit: () => el('g', { transform: 'translate(-4 10) scale(0.85)' },
+    part('torso', el('path', { d: 'M6,84 L16,54 Q19,47 27,48 L42,54 L30,84 Z', fill: T.ink })) +
     part('head', el('circle', { cx: 46, cy: 50, r: 12, fill: T.ink })) +
-    part('arm-near', poly([[26, 56], [22, 40], [30, 28]], 11, T.white) + poly([[26, 56], [22, 40], [30, 28]], 7, T.ink) +
-      el('circle', { cx: 30, cy: 28, r: 4.5, fill: T.ink, stroke: T.white, 'stroke-width': 2, 'paint-order': 'stroke' })) +
-    el('g', { transform: 'rotate(-70 30 28)' }, brush(18, 28, 40, false)) +
+    part('arm-near', poly([[26, 56], [34, 68], [44, 77]], 11, T.white) + poly([[26, 56], [34, 68], [44, 77]], 7, T.ink) +
+      el('circle', { cx: 44, cy: 77, r: 4.5, fill: T.ink, stroke: T.white, 'stroke-width': 2, 'paint-order': 'stroke' }))) +
     sinkBand(false) +
-    part('drops', [[57, 58, 3.4], [60.5, 63, 2.8], [58, 69, 3], [60, 75, 2.6]].map(([x, y, r]) => bubble(x, y, r)).join('')),
+    // the child is drawn at 0.85 so the brush can lie full size on the free right half of the rim, head at the tap
+    brush(49, 75, 37, false) +
+    part('drops', [[44.5, 63, 3], [47, 68.5, 2.6], [44.5, 73.5, 2.6]].map(([x, y, r]) => bubble(x, y, r)).join('')),
   'rinse-brush': () => sinkBand(true) + streamPart() + el('g', { transform: 'rotate(-20 62 44)' }, brush(24, 44, 50, true) +
       // lead review 2026-09-23: USED foam clings to the bristles and falls off them, so the card cannot read as
       // "wet the brush first" (a contested BEFORE step)
       part('foam', [[61.5, 59.5, 3], [66, 60.5, 3.2], [70.5, 59.5, 3]].map(([x, y, r]) => bubble(x, y, r)).join(''))) +
     part('bubbles', [[56, 69, 3.4], [64, 75, 3.4], [58, 82, 3]].map(([x, y, r]) => bubble(x, y, r)).join('')),
+  // FIX ROUND 2 (the phase is the same in every locale): teeth dirty before brushing, shining clean after
+  'dirty-teeth': () => bigTooth() + part('plaque', [[38, 26, 5, 3.6], [59, 22, 4.2, 3], [44, 42, 4.6, 3.2], [61, 40, 3.8, 3], [50, 54, 3.4, 2.6], [38, 56, 3, 2.4]]
+    .map(([x, y, rx, ry]) => el('ellipse', { cx: x, cy: y, rx, ry, fill: T.inkSoft, stroke: T.ink, 'stroke-width': 1 })).join('')),
+  'clean-teeth': () => bigTooth() + part('sparkle', star4(14, 20, 8) + star4(88, 32, 7) + star4(84, 74, 5.5) + star4(16, 62, 5) +
+    mark('M36,20 Q34,28 36,36')),
   'brush-in-cup': () => sinkBand(false) + el('g', { transform: 'rotate(-80 40 44)' }, brush(16, 44, 62, false)) + cupPart(28, 50, 26, 30),
 };
 function brushCard({ kind, px = 104, data = {} } = {}) {

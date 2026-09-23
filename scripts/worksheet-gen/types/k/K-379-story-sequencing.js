@@ -126,7 +126,9 @@ function storyPool(block, loc, subKey) {
  * data-lcs-mode and every face's verify() branch re-derives from the stamps. Guards key on the resolved
  * config (answer / show / sentences …), never on the level index.
  */
-const SKY = (s) => (s.setKind === 'pavement' ? '#F5E9D2' : '#FFFFFF');
+const TOKENS = require('../../primitives/_tokens.js');
+/** The CSS card background: the stage's sky token (data/b6 COMMON.SKY: pavement asphalt, snow sky), else white. */
+const SKY = (s) => { const t = (COMMON.SKY || {})[s.setKind]; return t ? TOKENS.color[t] : '#FFFFFF'; };
 const MARKERS = ['dot', 'triangle'];   // F1: strip k and story line k carry the same teal marker (fr panel, fix round 1)
 const TRAY_PERMS = ['021', '102', '120', '201'];   // F2 correct-choice slots over the three blocks: never 012 / 210
 function facePanel(s, rank, w, vh, extra = {}) {
@@ -155,6 +157,26 @@ function lawPerms(n, rng, count) {
   if (out.length < count) throw new Error('K-379: no scramble for the page (refuse)');
   return out;
 }
+/**
+ * F4 (fix round 2): the SENTENCE column of each block — a scramble-law permutation (SCRAMBLE4 weights) that
+ * puts no sentence on the row of its own picture (row j: sentence rank !== picture seq), the two blocks'
+ * sentence columns differing in permutation and in the slot of "First".
+ */
+function sentencePerms(picPerms, rng) {
+  const out = [];
+  for (const P of picPerms) {
+    let S = null;
+    for (let t = 0; t < 400 && !S; t++) {
+      const c = drawPerm(4, rng);
+      if (c.some((r, j) => r === P[j])) continue;
+      if (out.some((q) => q.join('') === c.join('') || q.indexOf(1) === c.indexOf(1))) continue;
+      S = c;
+    }
+    if (!S) throw new Error('K-379 F4: no sentence column for the page (refuse)');
+    out.push(S);
+  }
+  return out;
+}
 function faceRoot(mode, inner, stamps = {}, style = '') {
   const attrs = Object.entries(stamps).map(([k, v]) => ` data-lcs-${k}="${String(v).replace(/&/g, '&amp;').replace(/"/g, '&quot;')}"`).join('');
   return `<div class="ws-lane ss-page" data-ws-content data-lcs-story-sequencing data-lcs-mode="${mode}"${attrs} style="flex:1 1 auto;display:flex;flex-direction:column;align-items:center;justify-content:space-evenly;gap:10px;min-height:0${style}">${inner}</div>`;
@@ -170,7 +192,8 @@ const FACE_BUILD = {
     if (pool.length < 3) throw new Error(`K-379 ${loc}: F1 pool ${pool.length} (< 3; refuse)`);
     const stories = seam.plan ? seam.plan.stories.map((id) => COMMON.stories.find((x) => x.id === id)) : pickPair(pool, rng, 2);
     if (!stories) throw new Error(`K-379 ${loc}: no F1 pair (refuse)`);
-    const perms = seam.plan ? seam.plan.perms : lawPerms(3, rng, 2);
+    // fix round 2 (nl): each strip from COMMON.STRIP3 (never the identity, never a rotation), the two strips different
+    const perms = seam.plan ? seam.plan.perms : rng.sample(COMMON.STRIP3, 2).map((p) => p.split('').map(Number));
     const lines = stories.map((s, i) => C6.ssLine({
       items: [0, 1, 2].map((k) => ({ w: d.frame, html: C6.ssGlueFrame({ w: d.frame, minH: d.frameH, k }), under: C6.ssWordTag({ text: words[k], k }) })),
       gap: d.gap, minH: d.frameH + 12 + 36, grow: d.grow, stamps: { story: s.id, line: i, marker: MARKERS[i] }, marker: MARKERS[i],
@@ -196,7 +219,7 @@ const FACE_BUILD = {
       const all = COMMON.stories.filter((s) => !(s.excludeLocales || []).includes(loc) && !(block.excludeStories || []).includes(s.id));
       const others = [];
       for (const s of stories) {
-        const cand = all.filter((o) => !stories.includes(o) && !others.includes(o) && o.setKind !== s.setKind && !o.objects.some((x) => s.objects.includes(x)));
+        const cand = all.filter((o) => !stories.includes(o) && !others.includes(o) && o.setKind !== s.setKind && !o.objects.some((x) => s.objects.includes(x)) && !(COMMON.TRAY_ILLEGIBLE || []).includes(o.id));
         if (!cand.length) break;
         others.push(rng.pick(cand));
       }
@@ -221,7 +244,7 @@ const FACE_BUILD = {
       });
       return `<div data-lcs-next-block data-lcs-story="${s.id}" data-lcs-setkind="${s.setKind}" data-lcs-objects="${s.objects.join(',')}" style="flex:1 1 auto;display:flex;flex-direction:column;align-items:center;gap:8px;min-height:${fmt(24 + d.panelW * 0.75 + 8 + d.panelW * 0.75 + 14)}px">${line}<div data-ss-block style="flex:1 1 auto;display:flex;min-height:${fmt(d.panelW * 0.75 + 14)}px">${C6.ssChoiceTray({ cards })}</div></div>`;
     });
-    const bodyHtml = faceRoot('what-happens-next', blocks.join(''), { stories: d.stories, 'panel-w': d.panelW });
+    const bodyHtml = faceRoot('what-happens-next', blocks.join(''), { stories: d.stories, 'panel-w': d.panelW, 'tray-illegible': (COMMON.TRAY_ILLEGIBLE || []).join(',') });
     return { bodyHtml, meta: { mode: d.mode, stories: plan.stories.join(','), others: plan.others.join(','), slots: plan.slots.join(''), answers: plan.slots.join('') } };
   },
 
@@ -248,7 +271,7 @@ const FACE_BUILD = {
     return { bodyHtml, meta: { mode: d.mode, stories: stories.map((s) => s.id).join(','), answers: '' } };
   },
 
-  /** F4 (G1): each story told in four sentences IN ORDER (each with its opener); the four pictures SCRAMBLED; draw lines. */
+  /** F4 (G1): each story told in four sentences (each with its opener), printed SCRAMBLED with an order box to number; the four pictures SCRAMBLED too, never across from their own sentence; draw lines. */
   'sequencing-sentences'(block, d, loc, rng, seam) {
     if (d.answer !== 'line' || d.sentences !== true || d.order !== 'scrambled') throw new Error('K-379 F4: config is not the sentences face');
     const ex = new Set(block.excludeStories || []);
@@ -256,15 +279,20 @@ const FACE_BUILD = {
     if (pool.length < 3) throw new Error(`K-379 ${loc}: F4 has ${pool.length} signed sentence stories (< 3; refuse)`);
     const stories = seam.plan ? seam.plan.stories.map((id) => COMMON.stories.find((x) => x.id === id)) : pickPair(pool, rng, 2);
     if (!stories) throw new Error(`K-379 ${loc}: no F4 pair (refuse)`);
+    // fix round 2 (en / fr / de panels: the sentences printed IN story order made the page matching, not
+    // sequencing; 2 of 8 pictures sat straight across from their own sentence). Now BOTH columns are scrambled:
+    // the sentences (scramble law, each with an EMPTY order box the child numbers) and the pictures (scramble
+    // law) — and no picture sits on the row of its own sentence (a row-wise derangement of the two columns).
     const perms = seam.plan ? seam.plan.perms : lawPerms(4, rng, 2);
+    const sperms = seam.plan && seam.plan.sperms ? seam.plan.sperms : sentencePerms(perms, rng);
     const blocks = stories.map((s, i) => {
       const sen = block.stories[s.id].sentences;
       if (!Array.isArray(sen) || sen.length !== 4) throw new Error(`K-379 ${loc}: ${s.id} sentences (refuse)`);
       const pics = perms[i].map((seq, j) => facePanel(s, s.sub4[seq - 1], d.panelW, 120).box(`data-lcs-pic data-lcs-seq="${seq}" data-lcs-slot="${j}" data-lcs-story="${s.id}"`));
-      return C6.ssSentenceMatch({ pics, sentences: sen.map((text, k) => ({ text, rank: k + 1 })), picW: d.panelW, rowMinH: d.panelW * 0.75, gap: 4, textW: d.textW, textPx: 16, stamps: { story: s.id, setkind: s.setKind, objects: s.objects.join(',') } });
+      return C6.ssSentenceMatch({ pics, sentences: sperms[i].map((rank) => ({ text: sen[rank - 1], rank })), orderBox: true, picW: d.panelW, rowMinH: d.panelW * 0.75, gap: 4, textW: d.textW, textPx: 16, stamps: { story: s.id, setkind: s.setKind, objects: s.objects.join(',') } });
     });
     const bodyHtml = faceRoot('sequencing-sentences', blocks.join(''), { stories: 2, openers4: JSON.stringify(block.openers4) }, ';gap:14px;justify-content:space-between');
-    return { bodyHtml, meta: { mode: d.mode, stories: stories.map((s) => s.id).join(','), perms: perms.map((p) => p.join('')).join(','), answers: perms.map((p) => p.join('')).join('|') } };
+    return { bodyHtml, meta: { mode: d.mode, stories: stories.map((s) => s.id).join(','), perms: perms.map((p) => p.join('')).join(','), sperms: sperms.map((p) => p.join('')).join(','), answers: sperms.map((p) => p.join('')).join('|') + '#' + perms.map((p) => p.join('')).join('|') } };
   },
 
   /** F5 (G2): one story IN ORDER down a vertical line, each picture with two school-ruled rows opening with its starter; a word bank on top. */
@@ -331,7 +359,10 @@ async function faceVerify(page, mode) {
         const tiles = byX([...st.querySelectorAll('[data-ss-tile]')]);
         const seqs = tiles.map((t) => +t.el.dataset.lcsSeq);
         if (seqs.slice().sort().join('') !== '123') fails.push(`strip ${i}: seq ${seqs.join('')} is not 1..3`);
-        if (!['132', '213', '231', '312'].includes(seqs.join(''))) fails.push(`strip ${i}: order ${seqs.join('')} is not a legal n = 3 scramble`);
+        const sj = seqs.join('');
+        if (sj === '123') fails.push(`strip ${i}: order ${sj} is the answer order (identity)`);
+        else if (sj === '231' || sj === '312') fails.push(`strip ${i}: order ${sj} is a ROTATION of the answer order`);
+        else if (!['132', '213', '321'].includes(sj)) fails.push(`strip ${i}: order ${sj} is not a legal strip`);
         const ranks = tiles.map((t, j) => [seqs[j], +t.el.dataset.lcsTileRank]).sort((a, b) => a[0] - b[0]).map((x) => x[1]);
         for (let k = 1; k < ranks.length; k++) if (!(ranks[k] > ranks[k - 1])) fails.push(`strip ${i}: tile ranks do not rise with the sequence`);
         if (lines[i] && lines[i].dataset.lcsStory !== st.dataset.lcsStripStory) fails.push(`strip ${i} is story ${st.dataset.lcsStripStory} but line ${i} is ${lines[i].dataset.lcsStory}`);
@@ -373,6 +404,7 @@ async function faceVerify(page, mode) {
           if (c.el.dataset.lcsChoiceSetkind === sk) fails.push(`block ${i}: the other-story foil ${cs} shares the stage "${sk}"`);
           if (c.el.dataset.lcsChoiceObjects.split(',').some((o) => objs.includes(o))) fails.push(`block ${i}: the other-story foil ${cs} shares an object`);
           if (pageStories.includes(cs)) fails.push(`block ${i}: the other-story foil ${cs} is a story on the page`);
+          if ((root.dataset.lcsTrayIllegible || '').split(',').includes(cs)) fails.push(`block ${i}: the other-story foil ${cs} ends in a panel nobody can name at tray size (COMMON.TRAY_ILLEGIBLE)`);
         }
         if (!ch.some((c) => c.el.dataset.lcsChoiceStory === id && c.el.dataset.lcsChoiceRank === '1')) fails.push(`block ${i}: no regression foil`);
         if (!ch.some((c) => c.el.dataset.lcsChoiceStory !== id)) fails.push(`block ${i}: no other-story foil`);
@@ -406,24 +438,46 @@ async function faceVerify(page, mode) {
       const blocks = [...root.querySelectorAll('[data-lcs-match-block]')];
       const openers = JSON.parse(root.dataset.lcsOpeners4 || '[]');
       if (blocks.length !== 2) fails.push(`${blocks.length} match blocks ≠ 2`);
-      const perms = [];
+      const perms = [], sperms = [];
       for (const b of blocks) {
         const id = b.dataset.lcsStory;
         const sen = byY([...b.querySelectorAll('[data-lcs-sentence]')]);
+        const ranks = sen.map((s) => +s.el.dataset.lcsRank);
+        if (ranks.slice().sort().join('') !== '1234') fails.push(`${id}: sentence ranks ${ranks.join('')} are not 1..4`);
+        // fix round 2: the child orders the sentences, so the sheet must not (scramble law on the sentence column)
+        const sl = law(ranks); if (sl) fails.push(`${id}: the sentence column ${ranks.join('')} breaks the scramble law (${sl})`);
         sen.forEach((s, k) => {
-          if (+s.el.dataset.lcsRank !== k + 1) fails.push(`${id}: sentence ${k + 1} stamps rank ${s.el.dataset.lcsRank}`);
+          const rank = +s.el.dataset.lcsRank;
           const t = s.el.querySelector('[data-lcs-sentence-text]');
-          if (!t.textContent.startsWith(openers[k])) fails.push(`${id}: sentence ${k + 1} does not open with "${openers[k]}"`);
+          // the opener belongs to the sentence's STORY rank, not to its printed row
+          if (!t.textContent.startsWith(openers[rank - 1])) fails.push(`${id}: the rank-${rank} sentence does not open with "${openers[rank - 1]}"`);
           const lh = parseFloat(getComputedStyle(t).lineHeight);
-          if (t.getBoundingClientRect().height > 2 * lh + 1) fails.push(`${id}: sentence ${k + 1} runs past 2 lines`);
+          if (t.getBoundingClientRect().height > 2 * lh + 1) fails.push(`${id}: sentence row ${k + 1} runs past 2 lines`);
+          const boxes = s.el.querySelectorAll('[data-lcs-order-box]');
+          if (boxes.length !== 1) fails.push(`${id}: sentence row ${k + 1} carries ${boxes.length} order boxes (≠ 1)`);
+          else {
+            const bx = boxes[0], br = bx.getBoundingClientRect();
+            if (bx.textContent.trim() !== '' || bx.children.length) fails.push(`${id}: the order box of row ${k + 1} carries content`);
+            if (br.width < 36 || br.height < 36) fails.push(`${id}: the order box of row ${k + 1} is ${Math.round(br.width)} x ${Math.round(br.height)} (< 36 x 36)`);
+            if (br.right > t.getBoundingClientRect().left + 0.5) fails.push(`${id}: the order box of row ${k + 1} overlaps its sentence`);
+          }
         });
         const pics = byY([...b.querySelectorAll('[data-lcs-pic]')]);
         const seqs = pics.map((p) => +p.el.dataset.lcsSeq);
         if (seqs.slice().sort().join('') !== '1234') fails.push(`${id}: pictures ${seqs.join('')} are not 1..4`);
         const lf = law(seqs); if (lf) fails.push(`${id}: the picture column ${seqs.join('')} breaks the scramble law (${lf})`);
-        perms.push(seqs);
+        // fix round 2: no picture sits STRAIGHT ACROSS from its own sentence (measured: the picture whose vertical
+        // centre lies inside a sentence's row)
+        for (const s of sen) {
+          const r = s.r;
+          const across = pics.filter((p) => { const c = (p.r.top + p.r.bottom) / 2; return c > r.top && c < r.bottom; });
+          if (across.length !== 1) fails.push(`${id}: the rank-${s.el.dataset.lcsRank} sentence has ${across.length} pictures across from it (≠ 1)`);
+          else if (+across[0].el.dataset.lcsSeq === +s.el.dataset.lcsRank) fails.push(`${id}: the rank-${s.el.dataset.lcsRank} picture sits straight across from its own sentence`);
+        }
+        perms.push(seqs); sperms.push(ranks);
       }
       if (perms.length === 2 && (perms[0].join('') === perms[1].join('') || perms[0].indexOf(1) === perms[1].indexOf(1))) fails.push('the two picture columns share a permutation / first slot');
+      if (sperms.length === 2 && (sperms[0].join('') === sperms[1].join('') || sperms[0].indexOf(1) === sperms[1].indexOf(1))) fails.push('the two sentence columns share a permutation / first slot');
       return fails;
     }
     if (mode === 'retell-with-starters') {
@@ -554,7 +608,7 @@ module.exports = {
       const perm = plan.perms[i];
       const cards = perm.map((seq) => {
         const r = SP.storyPanel({ story: s, rank: sub[seq - 1], w: d.panelW, vh: d.vh, frame: false });
-        return { svg: r.svg, w: r.width, h: r.height, seq, tag: { w: d.tagW, h: d.tagH }, anchor: s.anchor, sky: s.setKind === 'pavement' ? '#F5E9D2' : '#FFFFFF' };
+        return { svg: r.svg, w: r.width, h: r.height, seq, tag: { w: d.tagW, h: d.tagH }, anchor: s.anchor, sky: SKY(s) };
       });
       return C6.ssHungRow({ cards, w: ROW_W, gap: d.gap, under: 'tag', grow: d.grow, stamps: { story: s.id, setkind: s.setKind, objects: s.objects.join(','), panels: d.panels } });
     });

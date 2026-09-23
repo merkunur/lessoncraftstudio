@@ -177,14 +177,16 @@ function ssDrawCard({ w, minH }) {
   return `<div class="ss-draw" data-ss-block data-lcs-drawbox style="box-sizing:border-box;flex:1 1 auto;width:${fmt(w)}px;min-height:${fmt(minH)}px;background:${T.white};border:2.5px dashed ${T.coral};border-radius:12px"></div>`;
 }
 /**
- * F4: one story's match block: pictures (scrambled) on the left, the sentences IN ORDER on the right, a dot on
- * each facing side. rows = [{ card, sentence, rank }] where card is the picture html (already stamped).
+ * F4: one story's match block: pictures (scrambled) on the left, the sentences on the right (fix round 2: scrambled too,
+ * each with an EMPTY order box when orderBox), a dot on each facing side. rows = [{ card, sentence, rank }] where card is the picture html (already stamped).
  */
-function ssSentenceMatch({ pics, sentences, picW, rowMinH, gap = 4, lineZone = 110, textW, textPx = 16, stamps = {} }) {
+function ssSentenceMatch({ pics, sentences, picW, rowMinH, gap = 4, lineZone = 110, textW, textPx = 16, orderBox = false, stamps = {} }) {
   const attrs = Object.entries(stamps).map(([k, v]) => ` data-lcs-${k}="${esc(v)}"`).join('');
   const dot = (side) => `<span class="ws-match-dot ws-match-dot--${side}" style="${side === 'right' ? 'right' : 'left'}:-${Math.round(lineZone / 2 - 30)}px;top:calc(50% - 6px)"></span>`;
+  // fix round 2: the EMPTY order box the child numbers (dashed coral, 40 px, at the sentence's left edge)
+  const box = orderBox ? `<span class="ss-order" data-lcs-order-box aria-hidden="true" style="flex:0 0 40px;width:40px;height:40px;box-sizing:border-box;margin-right:12px;background:${T.white};border:2.5px dashed ${T.coral};border-radius:8px"></span>` : '';
   const left = pics.map((p) => `<div style="position:relative;flex:1 1 ${fmt(rowMinH)}px;display:flex;min-height:${fmt(rowMinH)}px">${p}${dot('right')}</div>`).join('');
-  const right = sentences.map((s) => `<div class="ws-match-item ws-match-item--plain" data-ss-block data-lcs-sentence data-lcs-rank="${s.rank}" style="position:relative;box-sizing:border-box;flex:1 1 ${fmt(rowMinH)}px;min-height:${fmt(rowMinH)}px;width:${fmt(textW)}px;padding:6px 12px;align-items:center;font-family:'Nunito',sans-serif;font-weight:800;font-size:${textPx}px;line-height:1.3;color:${T.ink}">${dot('left')}<span data-lcs-sentence-text>${esc(s.text)}</span></div>`).join('');
+  const right = sentences.map((s) => `<div class="ws-match-item ws-match-item--plain" data-ss-block data-lcs-sentence data-lcs-rank="${s.rank}" style="position:relative;box-sizing:border-box;flex:1 1 ${fmt(rowMinH)}px;min-height:${fmt(rowMinH)}px;width:${fmt(textW)}px;padding:6px 12px;align-items:center;${orderBox ? 'justify-content:flex-start;' : ''}font-family:'Nunito',sans-serif;font-weight:800;font-size:${textPx}px;line-height:1.3;color:${T.ink}">${dot('left')}${box}<span data-lcs-sentence-text${orderBox ? ' style="flex:1 1 auto;min-width:0;text-align:center"' : ''}>${esc(s.text)}</span></div>`).join('');
   return `<div class="ss-match" data-lcs-match-block${attrs} style="flex:1 1 auto;display:flex;justify-content:space-between;align-items:stretch;width:100%;min-height:${fmt(4 * rowMinH + 3 * gap)}px">` +
     `<div style="display:flex;flex-direction:column;gap:${gap}px;width:${fmt(picW)}px">${left}</div>` +
     `<div style="display:flex;flex-direction:column;gap:${gap}px;width:${fmt(textW)}px">${right}</div></div>`;

@@ -137,3 +137,82 @@ The es and it drafts also say "sin despegar el lápiz" and "senza staccare la ma
 - Distinctness: `every variation differs from the deck its base publishes and from its siblings`
 - Baseline: `checked build 4000 + enum 301 in 24s: 0 drifted (0 expected), 0 missing` / `PASS`
 - PNGs read: `out/dev/G2-386-null-d2-en.png` · `out/dev/G3-401-null-d2-en.png` · `out/dev/G2-387-null-d2-en.png` · `out/dev/G3-401-probe-it-trad-d2.png` (plus `out/dev/G3-401-probe-<unit>-d2.png` for every unit)
+
+## Fix round 2 (landing audit)
+
+Findings from `landing-audit/pass1-{en,de,es,fr,nl}.md`. I reproduced each one on a render before changing anything, using the sweep `out/b6-sweep/<loc>/…` plus my own re-renders of all six ids × 9 shipping locales.
+
+Already done by the lead and not touched here:
+- the de `{U}` title token (`unitAxis.exemplar(loc, spec)` + `lib/unit-axis.js`);
+- the faces-table token resolution;
+- `gen-b6-landings.js` reading the bank `levels[mode]`.
+
+| # | finding (id) | reproduced? | fix (source) | gate (both directions) |
+|---|---|---|---|---|
+| 1 | G2-386 (en/de/es/fr): an orphan ruled block with no word and no picture at the foot | YES. Closing practice rows per locale: en 1, de 1, es 1, fr 2, it 1, da 2, no 1. | **Faces carry no closing practice rows**: `practiceFor` returns 0, and `faceColumn` throws if one is asked for. The slack goes into growable gaps: 10→40 between items (`GAP_MAX.faceBlock`); 0→32 from the tag to the first item (`faceTag`, which with the tag's own 8 px margin makes the 40 px band); 2→30 from row A to the writing line (`faceRow`). The base page is untouched. | verify(): **"orphan ruled row"**, i.e. any `.cw-row` outside a `.cw-block`. Poison **PR23** (the round-1 practice row re-attached after the last word) is killed. The untouched F1-F5 pages are the controls. |
+| 2 | G3-401 (en/de/es/fr): "the two lines below it" is false. Sentence 1 has one free line and sentences 2-3 have two (fr: three), with an orphan band at the foot. | YES | The **model block carries three rows** (its grey model + two free), and every other sentence block carries two. This is `rowsOf(k)` in the copy face; `faceStack` accepts a per-block rows function. To keep nl at three sentences (682 → 676 px), the copy face's minimum gaps shrink: 6 between sentences (the next printed strip is the separator) and 4 from strip to row (`FACE_HEAD_GAP`). Seyès slices use the closed shape, so fr gets exactly 2 lines; the open shape's skipped line was the fr panel's "third line". No string change: the instruction is now TRUE. | verify(): **every item gets exactly the free lines its instruction names**: 1 on capitals / joins / words, 2 under every sentence on copy. A free line is a ruled row with no cursive node. Poison **PR24** (the model block with ONE free line, the round-1 shape) is killed. |
+| 3 | G2-384/385/386 fr: configs say 5 / 5 / 4, but the render shows 3 + an empty Seyès block | YES. The capacity rule is right (count = min(target, what fits 677)); the empty block was the practice rows. | Seyès face slices are now **always the closed shape** (3 + 4·(rows−1) + tail interlines), with **tail 3**: the descender band plus one interline of air, never 4, because the 4th interline IS the next writing line. The open shape's skipped line cost fr one item per page. fr now ships **4 / 4 / 4** at CP 4 mm; 5 capitals or 5 pairs would need 712 px > 677. `seyesGeometry` gains an optional `tail` (2 or 3; default 2 leaves it unchanged). Only this family consumes that primitive. | `verify-school-ruling`: a tail-3 slice draws writing lines only at its baselines and is 10 i high (checked at i = 11.34 and 15.12). Poison: **tail 4 THROWS**. SPARSE holds on every real deck and on the probes at the probe chrome. |
+| 4 | G2-386 fr: "ajoute … les accents" over chat / canard / train | YES. No word on the fr page carried an accent, although the bank has three (poupée, gâteau, zèbre). | New per-locale **mark-class table** (`MARK_CLASSES`) — the classes each locale's instruction can name are listed below the table. The build reads the locale's OWN G2-386 instruction from the bank and draws a word set carrying every class it names; if none is possible, it refuses. fr now draws chat / tasse / train / zèbre. | verify() re-derives the check from the PRINTED instruction ("the instruction asks for X, but no word on the page carries one"). Poison **PR25** (no word with t / x under an instruction naming crosses) is killed. Bank rule 7 flags an instruction naming a class that no picture word carries: poison **P26** (fr words without gâteau) is killed, and **CONTROL P26** (with gâteau) is clean. |
+| 5 | G2-386 (fr/es): the instruction says to add dots / crosses / accents LAST, but the grey trace already prints them; "d'un seul trait" contradicts the dots | YES | The EN source is rewritten so the order applies to both the trace and the copy: **"Trace each grey word, joining the letters first and adding the dots and crosses last, then write it the same way on the line below."** (131 chars, one sentence, trace before write). "In one flowing line" is gone; it was false wherever a word carries a dot. Updated in `data/b6/cursive-writing.js`, in the G2-386 spec `i18n.en`, and as one value in `strings.en.json`. | Existing rule 7 (one sentence), the apparatus table, and the mark-class rule. The non-EN wording is in the locale list below. |
+| 6 | G2-386 / G2-387 (4 panels): the duck is a yellow duckling that children name a chick | YES. I opened every duck in the library at `@2x` (`animals/`, `birds 2/`, `farm animals/`, `Things That Fly/`). **All four are the same kind of yellow duckling; no adult duck exists.** | `animals/duck` moves from `pictures` to `excludePictures` with the reason, and the EN word is removed. The `animals/duck` key is removed mechanically from all 8 locale banks and all 8 drafts. Words left: de 25, es 25, pt 26, fr 24, it 26, nl 26, da 26, no 26 (≥ 12 required). | Rule 5 already fails an excluded key. The pinned-list assertion is now 26. |
+| 7 | G2-387 fr: position tell (lampe / cochon / cheval / souris all connect three rows down) | YES. The round-1 fr order was 3,5,4,0,1,2: four partners on cyclic offset +3. | `derangeOrder` now also rejects any order where **more than 2 partners share one cyclic offset** (`maxOffsetShare`, `SHIFT_SHARE_MAX = 2`). The round-1 rules still apply. | verify(): "position tell: N partners share one row offset". Poison **PR22** (the fr round-1 page) is killed. The predicate is tested both ways: **PS1** (fr order → 4) and **CONTROL PS1** (the en shipped order → 2). Pooled results and the shipped-instance check are listed below the table. |
+| 8 | G2-385 nl: the title and instruction say "two letters", but row 2 is "ij", which Dutch schools teach as ONE letter | YES. The nl d2 page drew ui / ij / br / or. | `ONE_LETTER_DIGRAPHS = { nl: ['ij'] }`: the joins face **never draws** such a pair; it is filtered like a lift pair. The nl page now draws four two-letter joins. | verify(): "pair … is ONE letter in this locale's school teaching". A 300-seed build check draws "ij" on 0/300 pages, while the **CONTROL** "ei" in the same slot appears on 150/300. Bank rule 4: poison **P24** is killed and **CONTROL P24** ("ei") is clean. The nl bank now fails rule 4's ≥ 8 joins until the panel replaces ij (locale list). |
+| 9 | G2-377 de: the VA "t" (model + traced ttt) looks looped with its cross near the baseline, like a script A | REPRODUCED AS DRAWN, but it is **not a font defect**. The page renders PlaywriteDEVA, and Playwrite DE VA (and DE SAS) draw the authentic VA **Aufstrich-t**: the looped t crossed within the stroke, which the VA teaches. "VA Plus" later changed it because teachers disliked it. de-la draws the plain crossed t. | **Refused**: it is a script choice, not a glyph error. → locale list: the de panel decides whether the base stays VA. | None (nothing to gate). |
+| 10 | G2-377 de: joined "iii" puts three dots over an u-body and reads as "üi" beside the ü row | YES, at print size, in both de-va and de-la. | The look is inherent to joined i in every script. What makes it a defect is **i and ü on the same page**. New bank rule: letters whose chains read as each other never share a lesson (`CONFUSABLE_IN_LESSON = [i, ü]`). The de bank fails it until the panel moves ü to the lesson with ä / ö. | Rule 2. Poison **P23** (ü put back into lesson 0) is killed; **CONTROL P23** (ü beside ä) is clean. |
+| 11 | G2-377 fr: the model letters (i, u, t) and the ribbon look like print, not the fr-trad cursive of the traces | REPRODUCED AS DRAWN, **not a font defect**. The model cell renders "LCS Cursive fr-trad"; it is stamped, and the fallback-width test passes. Measured: Playwrite draws every join as the PREVIOUS letter's exit stroke. So an isolated i / u / t has no attaque, and neither does the first letter of each grey chain; in FR Trad those three read as upright print. Letters that start at the baseline (l, b, e, h, f) do carry their entry loop in isolation. No font feature (calt, ss01-04, salt, init, fina …) and no invisible context character produces an entry stroke. | **Refused** in code: an entry stroke would have to be clipped out of a neighbour glyph, which breaks the one-text-node rule and the raster oracle. → locale list, because lesson 0 is the base page. | None. |
+| 12 | G2-377 nl: the sheet title prints "groep 3" while the landing said groep 4 | The CONTRADICTION no longer reproduces: the lead's `gen-b6-landings.js` fix gives the landing the bank's base level, `groep-3`. The title still carries a level word; the pt / it / da titles do too, each naming its own face level. | New bank rule 7: a level word in a sheet title must name the face's OWN level (`levels[mode]`). All 9 shipping banks pass. Whether a hand-added level word belongs in a sheet title at all is an SEO / panel call (locale list). | Poison **P25** (an nl title naming groep 4 over a groep-3 face) is killed; **CONTROL P25** (groep 3) is clean. |
+| 13 | G3-401 es: only sentence 1 has a cursive model | This is by design (`modelUnder:'first'`), and the instruction names ONE grey sentence ("Trace the grey sentence"). | Not a defect. | Existing PR9 and the verify() modelUnder check. |
+| 14 | G2-377 es: the base shows only the five vowels | Noted only: lesson 0 of mx = a e i o u, and the title names them. | None. | Rule 9. |
+
+**The mark classes (finding 4).** Each locale's G2-386 instruction may name only these classes:
+
+| locale | classes |
+|---|---|
+| en | dots / crosses |
+| de | Punkte / Striche |
+| es | puntos / rayita / acentos |
+| pt | pingos / cortes / acentos |
+| fr | points / barres / accents |
+| it | puntini / taglietti / accenti |
+| nl | puntjes / streepjes |
+| da | prikker / streger |
+| no | prikker / tverrstreker |
+
+**The partner-order checks (finding 7).**
+- Pooled over 12,000 seeds:
+  - 0 pages with more than 2 partners on one offset;
+  - 0 partners at distance 0, and at most 1 at distance 1 on every page;
+  - 0 shifts and 0 reversals;
+  - partners below and above are 0.5 % apart.
+- **Shipped instance, every locale** (en + 8 drafts): at most 2 partners on one offset. fr is now 5,3,4,1,2,0, which gives offsets 1,4,4,2,2,5.
+
+Also observed but not changed, because no panel raised it and it was the lead's round-1 ruling: the **fr BASE page** still ends in 2 closing practice Seyès rows. That is the same orphan class removed from the faces here.
+
+**Unrelated to this family:** `tools/b3-baseline.js --check` reports 22 drifts, **all G1-204 sink-float**. They come from the sink-or-float family's water-tank primitive work. This family causes 0 drift.
+
+### Locale strings to re-author
+- **de G2-386 instruction:** follow the new EN order. Trace each grey word by joining the letters first and adding the Punkte / Striche last, then write it the same way on the line below. It must still name "grau".
+- **es / pt / fr / it / nl / da / no G2-386 instruction:** the same restructure. Trace joining the letters first and add the marks last, then write the word the same way on the line below.
+  - Keep naming ONLY mark classes the bank's words carry. fr's points / barres / accents are all carried now; nl / da / no name no accents.
+  - **fr: drop "d'un seul trait"**, which is false over any word with a dot.
+- **de lessons (de-va AND de-la):** move **ü** out of lesson 0, for example into the lesson with ä / ö. The **de G2-377 title** must then name the new lesson 0, e.g. "… i, u und t in {U}" if lesson 0 becomes i u t; rule 9 enforces the match.
+- **de G2-377:** the panel must sign off the VA Aufstrich-t on the base. It is a legitimate VA form, though criticised enough that VA Plus changed it. The alternative is `exemplarByMode.base = de-la`, which draws the plain crossed t.
+- **fr lessons / G2-377:** in fr-trad, i, u and t render with no attaque in isolation, in the margin model and in the ribbon. The panel decides:
+  - keep i u t, the classic CP order; or
+  - open lesson 0 with letters whose isolated form carries its entry loop (l, e, b …), and change the title to match.
+- **fr levels:** every fr face is levelled `cp`. That forces Seyès 4 mm and caps F1 / F2 / F3 at 4 items; at `ce1` (3 mm, the G2 band) the design's counts fit. This is a panel call.
+- **nl joins:** replace **ij** with another two-letter join; rule 4 needs ≥ 8 per unit. The build already skips ij, but the bank gate fails until it is replaced.
+- **nl G2-385 title / instruction:** "twee letters" is now true on the page. No change is needed once ij is replaced.
+- **nl G2-377 title:** "groep 3" matches the base level `groep-3`, so the gate passes. Drop the level word only if the Germanic SEO record ("never hand-add the level word") is to be applied; the pt / it / da titles carry level words the same way.
+- **all locales, words:** `animals/duck` was removed mechanically as an excluded picture. No word needs re-authoring, since every bank keeps ≥ 24 words. A panel may add one opened replacement picture key with `picOpened:true`.
+
+### Lines
+- Gate `node qa/verify-b6-cursive-writing.js` (full): `PASS (2034 assertions, 58/58 poisons killed)`.
+- `node qa/verify-school-ruling.js --no-png`: `140 cases, 1146 assertions, 0 failure(s)`. Poisons: us3 x-line, Seyès line, unknown unit, Seyès tail 4.
+- `node tools/gate-variation-distinct.js --batch=b6`: `compared 75 pairs over 25 faces … every variation differs from the deck its base publishes and from its siblings`.
+- `node tools/b3-baseline.js --check`: `checked build 33000 + enum 321: 22 drifted (0 expected)`, all of them G1-204 (not this family).
+- `node tools/validate-b6-draft.js <loc>`: the only cursive-writing errors are de (rule 2, i + ü, both units) and nl (rule 4, ij). Both are on the list above.
+- Renders read at print size:
+  - after the fix: G2-386 en / fr / no, G3-401 en / fr, G2-384 fr;
+  - before the fix: G2-385 nl (showing ij) and G2-387 fr (showing the +3 tell).
+- All 6 ids × 9 locales re-rendered with the real strings: verify + lints clean on 54 / 54.

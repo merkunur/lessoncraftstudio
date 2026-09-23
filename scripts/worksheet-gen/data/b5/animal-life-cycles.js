@@ -28,7 +28,7 @@
  *                en is held by the gate's own regexes)
  *   refuse       faces this locale will not ship
  *   strings      { 'G1-377': {title, instruction}, 'frog-cut-paste'|'label'|'metamorphosis'|'compare'|'next': {…} }
- *                keyed by LAYOUT until the emitter allocates the face ids; 'G1-377' === the spec's i18n.en.
+ *                keyed by FACE ID (ALC.FACE_IDS, Phase E); 'G1-377' === the spec's i18n.en.
  *   The en strings are a SOURCE TO AUDIT (§4): every panel reads them and reports defects.
  *
  * ALC — the locale-neutral facts (§5): the biology (order = the life cycle; the successor of
@@ -74,25 +74,25 @@ const ANIMAL_LIFE_CYCLES = {
         title: 'Butterfly Life Cycle',
         instruction: 'The egg is 1: write 2, 3 and 4 in the boxes as it grows, and in the last box the number of the picture that comes after the butterfly.',
       },
-      'frog-cut-paste': {
+      'G1-389': {
         title: 'Frog Life Cycle: Cut and Paste',
         instruction: 'Cut out the four squares and glue each one on its lily pad, going round the pond from the frogspawn to the frog.',
       },
-      label: {
+      'G2-365': {
         title: 'Label the Butterfly Life Cycle',
         instruction: 'Write each name from the word bank on the line under its picture, and cross out the one name that does not belong.',
       },
-      metamorphosis: {
+      'G2-366': {
         title: 'Metamorphosis: Which Animal Will It Become?',
         instruction: 'Look at each young animal and write its letter in a box under the grown-up animal it will become.',
       },
-      compare: {
+      'G3-393': {
         title: 'Butterfly and Frog Life Cycles Compared',
         instruction: 'Read each sentence and tick the butterfly, the frog or both when the sentence is true for that animal.',
       },
-      next: {
+      'G1-390': {
         title: 'What Comes Next? Butterfly, Frog and Ladybug',
-        instruction: 'In each row, look at the first picture and circle the picture that comes right after it.',
+        instruction: 'Look at the first picture in each row and circle the one that comes right after it.',
       },
     },
   },
@@ -122,6 +122,11 @@ const ALC = {
   LIBRARY_PICTURES: [],
   SPAWN_FORM: { default: 'clump' },
   FACES: ['frog-cut-paste', 'label', 'metamorphosis', 'compare', 'next'],
+  /** Phase E: the face id + band of each layout (FIXED by _records/b5var-id-allocation.json). */
+  FACE_IDS: { 'frog-cut-paste': 'G1-389', label: 'G2-365', metamorphosis: 'G2-366', compare: 'G3-393', next: 'G1-390' },
+  /** F5: two stages that differ only by size + a tail stub at 92 px — never both on one row when one is the answer. */
+  LOOKALIKE: { 'frog.froglet': 'frog.adult', 'frog.adult': 'frog.froglet' },
+  FACE_BAND: { 'frog-cut-paste': 'G1', label: 'G2', metamorphosis: 'G2', compare: 'G3', next: 'G1' },
 };
 
 module.exports = { ANIMAL_LIFE_CYCLES, ALC };

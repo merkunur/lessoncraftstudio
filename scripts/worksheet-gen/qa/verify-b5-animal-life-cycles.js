@@ -32,6 +32,7 @@
  */
 'use strict';
 const path = require('path');
+const fs = require('fs');
 const puppeteer = require('puppeteer');
 const { renderInstance } = require('../render/render-instance.js');
 const { makeRng } = require('../lib/rng.js');
@@ -46,10 +47,19 @@ const TYPE = require('../types/g1/G1-377-butterfly-life-cycle.js');
 const OUT = path.join(__dirname, '..', 'out', 'dev', 'G1-377-gate');
 const ID = 'G1-377';
 const FACES = ['frog-cut-paste', 'label', 'metamorphosis', 'compare', 'next'];
-const BAND = { 'G1-377': 'G1', 'frog-cut-paste': 'G1', next: 'G1', label: 'G2', metamorphosis: 'G2', compare: 'G3' };
+/** the face ids (FIXED by _records/b5var-id-allocation.json) — this gate's OWN copy, never read from the bank */
+const FACE_ID = { 'frog-cut-paste': 'G1-389', label: 'G2-365', metamorphosis: 'G2-366', compare: 'G3-393', next: 'G1-390' };
+const LAYOUT_OF = Object.fromEntries(Object.entries(FACE_ID).map(([l, i]) => [i, l]));
+const BAND = { 'G1-377': 'G1', 'G1-389': 'G1', 'G1-390': 'G1', 'G2-365': 'G2', 'G2-366': 'G2', 'G3-393': 'G3' };
+const FACE_DIR = { 'G1-389': 'g1', 'G1-390': 'g1', 'G2-365': 'g2', 'G2-366': 'g2', 'G3-393': 'g3' };
+/** the chicken never appears (it is the life cycle every other sheet on the web uses; this family's three animals are fixed) */
+const CHICKEN_FLOOR = { en: ['chicken', 'chick', 'hen', 'rooster'], de: ['Huhn', 'Küken', 'Henne'], fr: ['poule', 'poussin'], es: ['gallina', 'pollito'], pt: ['galinha', 'pintinho'], it: ['gallina', 'pulcino'], nl: ['kip', 'kuiken'], sv: ['höna', 'kyckling'], da: ['høne', 'kylling'], no: ['høne', 'kylling'], fi: ['kana', 'tipu'] };
 const WORKSHEET_WORD = /worksheet|arbeitsblatt|werkblad|arbetsblad|arbejdsark|arbeidsark|(?<!\p{L})fiches?(?!\p{L})|ficha|scheda|tehtäv/iu;
 const ANSWERS_WORD = /with answers|answer key|mit lösungen|con respuestas|com respostas|avec corrigé|con soluzioni|met antwoorden|med facit|med fasit|vastauksineen/i;
 const SPARSE_MAX = 40;
+/** FILL (nt10-E lead ruling): at the 814 one-line chrome the content reaches >= 85 % of the body */
+const FILL_MIN = 0.85;
+const ONE = { title: 'Frog Life Cycle', instruction: 'Cut and glue.' };
 
 /* ---- this gate's OWN ground truth (never read from the bank) */
 const BIOLOGY = { butterfly: ['egg', 'larva', 'pupa', 'adult'], frog: ['spawn', 'tadpole', 'legged', 'froglet', 'adult'], ladybird: ['egg', 'larva', 'pupa', 'adult'] };
@@ -63,13 +73,13 @@ const GENRE_FLOOR = { en: ['life cycle'], de: ['Lebenszyklus'], es: ['ciclo de v
 const W = (w) => new RegExp(`(?<!\\p{L})${w}(?!\\p{L})`, 'iu');
 const INSTR_BANS_EN = {
   'G1-377': [W('cut'), W('glue'), W('tick'), W('circle'), W('letters?')],
-  'frog-cut-paste': [W('write'), W('tick'), W('circle')],
-  label: [W('cut'), W('tick'), W('circle')],
-  metamorphosis: [W('cut'), W('tick'), W('circle'), W('numbers?')],
-  compare: [W('circle'), W('cut'), W('write')],
-  next: [W('write'), W('tick'), W('cut')],
+  'G1-389': [W('write'), W('tick'), W('circle')],
+  'G2-365': [W('cut'), W('tick'), W('circle')],
+  'G2-366': [W('cut'), W('tick'), W('circle'), W('numbers?')],
+  'G3-393': [W('circle'), W('cut'), W('write')],
+  'G1-390': [W('write'), W('tick'), W('cut')],
 };
-const INSTR_MUST_EN = { 'frog-cut-paste': [W('cut'), W('glue')] };
+const INSTR_MUST_EN = { 'G1-389': [W('cut'), W('glue')], 'G2-365': [W('write'), W('cross')], 'G2-366': [W('letter')], 'G3-393': [W('tick')], 'G1-390': [W('circle')] };
 
 let assertions = 0;
 const fails = [];
@@ -97,6 +107,8 @@ function enumerateArrangements(stages) {
   return out;
 }
 const placeKey = (A) => POS.map((p) => A[p]).join(',');
+/** the emitted face spec of a layout (types/<dir>/<id>-<slug>.js, tools/gen-b5var-specs.js) */
+function faceType(l) { const id = FACE_ID[l], dir = path.join(__dirname, '..', 'types', FACE_DIR[id]); const f = fs.readdirSync(dir).filter((x) => x.startsWith(id + '-')); if (f.length !== 1) throw new Error(`face ${id}: ${f.length} spec files`); return require(path.join(dir, f[0])); }
 
 /* ---------------------------------------------------------------- 1. neutral */
 function validateNeutral(N) {
@@ -181,7 +193,7 @@ function validateBank(b, loc) {
   if (N.COMPARE.filter((c) => !drop.has(c.id) && c.truth.length === 2).length < 2) push('the both class keeps < 2 statements (rule 7)');
   // rules 8-10: strings
   const S = b.strings || {};
-  const want = [ID, ...FACES];
+  const want = [ID, ...FACES.map((l) => FACE_ID[l])];
   if (Object.keys(S).slice().sort().join() !== want.slice().sort().join()) push(`strings ids [${Object.keys(S)}] ≠ [${want}] (rule 9)`);
   const genre = [...(GENRE_FLOOR[loc] || []), ...(b.genreBare || [])].map((g) => low(g, loc));
   const ssName = TAX.axes['exercise-type']['science-sequence'];
@@ -201,7 +213,8 @@ function validateBank(b, loc) {
     }
     if (ins.length > 150) push(`strings.${id} instruction ${ins.length} chars > 150 (rule 10)`);
     if (/[.!?]\s+\p{Lu}/u.test(ins)) push(`strings.${id} instruction is more than one sentence (rule 10)`);
-    const bans = loc === 'en' ? INSTR_BANS_EN[id] : ((b.instructionBans && b.instructionBans[id]) || []).map(wordRe);
+    const bans = loc === 'en' ? INSTR_BANS_EN[id] : ((b.instructionBans && (b.instructionBans[id] || b.instructionBans[LAYOUT_OF[id]])) || []).map(wordRe);
+    for (const w of [...(CHICKEN_FLOOR[loc] || []), ...(b.bannedAnimals || [])]) if (wordRe(low(w, loc)).test(low(t, loc)) || wordRe(low(w, loc)).test(low(ins, loc))) push(`strings.${id} names the ${w} — the chicken never appears (rule 13)`);
     for (const re of bans || []) if (re.test(ins)) push(`strings.${id} instruction names "${ins.match(re)[0]}" — not apparatus of this face (rule 10)`);
     if (loc === 'en') for (const re of INSTR_MUST_EN[id] || []) if (!re.test(ins)) push(`strings.${id} instruction lacks ${re} (rule 10)`);
     if (id === ID) {
@@ -300,8 +313,8 @@ function draft(loc, over = {}) {
   b.pictureWord = P.pic; b.familyName = P.fam; b.forbidden = []; b.genreBare = [];
   // one plain statement per id, animal-free (content is irrelevant to the rule under test)
   for (const [i, k] of Object.keys(b.statements).entries()) b.statements[k] = P.stmtIt.replace(/\.$/, '') + ['', ' heute', ' oft', ' leise', ' gern', ' dort', ' hier', ' schnell', ' langsam', ' früh', ' spät'][i] + '.';
-  const T0 = { 'G1-377': `${P.sw[3]} ${P.pic}`, 'frog-cut-paste': `${P.frog} a`, label: `${P.sw[3]} b`, metamorphosis: `${P.lady} c`, compare: `${P.frog} ${P.sw[3]} d`, next: `${P.lady} ${P.frog} e` };
-  for (const id of Object.keys(b.strings)) b.strings[id] = { title: T0[id], instruction: id === 'G1-377' ? `1, 2, 3 ${P.pic}.` : `${P.pic} ${id}.` };
+  const T0 = { 'G1-377': `${P.sw[3]} ${P.pic}`, 'G1-389': `${P.frog} a`, 'G2-365': `${P.sw[3]} b`, 'G2-366': `${P.lady} c`, 'G3-393': `${P.frog} ${P.sw[3]} d`, 'G1-390': `${P.lady} ${P.frog} e` };
+  for (const id of Object.keys(b.strings)) b.strings[id] = { title: T0[id], instruction: id === 'G1-377' ? `1, 2, 3 ${P.pic}.` : `${P.pic} ${LAYOUT_OF[id]}.` };
   b.instructionBans = {};
   return Object.assign(b, over);
 }
@@ -396,7 +409,7 @@ async function main() {
     judge('P3 frog legged before tadpole', nPoison((n) => { n.STAGES.frog = ['spawn', 'legged', 'tadpole', 'froglet', 'adult']; }), /STAGES\.frog .* ≠ the biology .* \(rule 4\)/);
     judge('P4 a 5th butterfly stage', validateBank({ ...clone(en), stageWords: { butterfly: { ...en.stageWords.butterfly, prepupa: 'prepupa' } } }, 'en'), /stageWords\.butterfly keys .* \(rule 4/);
     judge('P5 decoy "caterpillar"', validateBank({ ...clone(en), decoy: { 'frog.tadpole': 'caterpillar' } }, 'en'), /the decoy "caterpillar" is \(inside\) the butterfly stage word larva .* \(rule 2\)/);
-    { const b = draft('de'); b.strings.compare = { ...b.strings.compare, title: 'Lebenszyklus vergleichen' }; judge('P6 de bare "Lebenszyklus"', validateBank(b, 'de'), /bare genre "lebenszyklus" without an animal \(rule 8\)/); }
+    { const b = draft('de'); b.strings['G3-393'] = { ...b.strings['G3-393'], title: 'Lebenszyklus vergleichen' }; judge('P6 de bare "Lebenszyklus"', validateBank(b, 'de'), /bare genre "lebenszyklus" without an animal \(rule 8\)/); }
     judge('P7 sv familyName = the science-sequence name', validateBank(draft('sv', { familyName: 'Ordningsföljd och livscykler' }), 'sv'), /familyName .* equals the science-sequence name \(rule 8\)/);
     { const b = draft('fi'); b.statements.wings = 'Aikuisella perhonen on siivet.'; judge('P8 fi statement names "perhonen"', validateBank(b, 'fi'), /statements\.wings .* names an animal \("perhonen", rule 5\)/); }
     judge('P9 base instruction without "picture"', validateBank({ ...clone(en), strings: { ...en.strings, [ID]: { ...en.strings[ID], instruction: 'The egg is 1: write 2, 3 and 4 in the boxes as it grows, and in the last box the number that comes after the butterfly.' } } }, 'en'), /does not name the "picture"/);
@@ -412,8 +425,139 @@ async function main() {
     await rp('PR4 tether 20 px off its spot', doctored((h) => h.replace(/(<line [^>]*x2=")([\d.]+)("[^>]*data-lcs-tether="pupa")/, (m, a, x, b) => a + (+x + 20) + b)), /tether off spot: the pupa tether/);
     await rp('PR15 answerBox in place of blankNumeralBox', doctored((h) => h.replace(/<span class="ws-blankbox" (data-lcs-box data-lcs-pos="(\w\w)") data-lcs-answer="3" style="([^"]*)"><\/span>/, (m, a, p, st) => answerBox({ w: 56, h: 56 }).replace('class="ws-answerbox" style="', `class="ws-answerbox" ${a} style="${st.replace(/width:[^;]*;height:[^;]*;flex:[^;]*/, '')};`))), /expects "undefined"/);
     await rp('PS space-between (sparse)', doctored((h) => h.replace('justify-content:flex-start', 'justify-content:space-between')), /SPARSE — a \d+ px blank band/, { assert: true });
-    log.push('  PR7 froglet stub dropped: covered by the primitive gate (section 0, L1 KILLED); the base draws no frog');
-    log.push('  PR5 PR6 PR8-PR14: deferred to Phase E (faces not built)');
+    /* ---------------------------------------------------------------- 6. FACES (Phase E) */
+    const F = {}; for (const l of FACES) F[l] = faceType(l);
+    // 6a. node sweep per face: locale-neutral draw (en vs a synthetic de draft), distinct pages, tell shapes reached
+    {
+      const synth = draft('de');
+      for (const l of FACES) {
+        const T0 = F[l], seen = new Set(), dist = {}; let neutralBad = 0, thrown = 0, firstErr = '';
+        for (let s = 1; s <= 300; s++) {
+          let a, b;
+          try { a = T0._buildWith(banks.en, T0.difficulty[2], { locale: 'en' }, { rng: makeRng(`${T0.id}-sweep-${s}`) }); b = T0._buildWith(synth, T0.difficulty[2], { locale: 'de' }, { rng: makeRng(`${T0.id}-sweep-${s}`) }); } catch (e) { thrown++; firstErr = firstErr || e.message; continue; }
+          const ka = JSON.stringify({ ...a.meta, cfg: undefined }), kb = JSON.stringify({ ...b.meta, cfg: undefined });
+          if (ka !== kb) neutralBad++;
+          seen.add(ka);
+          const tag = l === 'frog-cut-paste' ? a.meta.tiles.join('>') : l === 'next' ? a.meta.slots.join('') : l === 'compare' ? a.meta.classes.map((c) => c.slice(0, 2)).join('') : l === 'label' ? String(a.meta.bank.indexOf('frog.tadpole')) : a.meta.cards.map((c) => c[0]).join('');
+          dist[tag] = (dist[tag] || 0) + 1;
+        }
+        ok(!thrown, `face ${l}: ${thrown} of 300 seeds threw (${firstErr})`);
+        ok(!neutralBad, `face ${l}: ${neutralBad} seeds draw differently in en and de (the seed carries no locale)`);
+        ok(seen.size >= (l === 'frog-cut-paste' ? 8 : 50), `face ${l}: only ${seen.size} distinct pages in 300 seeds`);
+        if (l === 'frog-cut-paste') ok(Object.keys(dist).length === 8, `F1: ${Object.keys(dist).length} of the 8 legal strip orders drawn`);
+        if (l === 'label') ok(['1', '2', '3'].every((k) => dist[k] >= 50), `F2: decoy positions ${JSON.stringify(dist)} (want 1, 2, 3 each >= 50 of 300)`);
+        console.log(`node sweep ${T0.id} ${l}: ${seen.size} distinct pages / 300, ${Object.keys(dist).length} tell shapes, locale-neutral ${!neutralBad}`);
+      }
+    }
+    // 6b. renders: d2 en + the two long chromes; floors ITSELF; every lens passes the primitive's part counts; SPARSE
+    const FLOORS = {
+      'frog-cut-paste': (m) => [['pad lens 132', m.padLens.length === 1 && m.padLens.every((x) => Math.abs(x - 132) < 0.6)], ['tile lenses >= 92', m.tileLens.length === 4 && m.tileLens.every((x) => x >= 92 - 0.6)], ['ghost >= cell + 12', m.ghost.length === 4 && m.ghost.every((g) => g >= Math.max(...m.cell) + 12 - 0.6)], ['cells >= 44', m.cell.every((x) => x >= 44)]],
+      label: (m) => [['lenses >= 130', m.labelLens.length === 4 && m.labelLens.every((x) => x >= 130 - 0.6)], ['lanes 56 >= 36', m.lanes.length === 4 && m.lanes.every((x) => x >= 56 - 0.6)], ['bank 18 px', m.bankPx.length === 5 && m.bankPx.every((x) => x >= 18 - 0.01)], ['bank pills >= 36 tall', m.bankWordH.every((x) => x >= 36 - 0.5)], ['bank one or two rows', m.bankH > 0 && m.bankH <= 120]],
+      metamorphosis: (m) => [['young lenses >= 100', m.young.length === 8 && m.young.every((x) => x >= 100 - 0.6)], ['adult lenses >= 132', m.adult.length === 3 && m.adult.every((x) => x >= 132 - 0.6)], ['boxes >= 52', m.binBox.length === 8 && m.binBox.every((x) => x >= 52 - 0.6)]],
+      compare: (m) => [['head lenses 110', m.head.length === 2 && m.head.every((x) => Math.abs(x - 110) < 0.6)], ['ticks >= 40', m.ticks.length === 16 && m.ticks.every((x) => x >= 40 - 0.6)], ['statements 17 px', m.stmtPx.length === 8 && m.stmtPx.every((x) => x >= 17 - 0.01)], ['statements <= 2 lines', m.stmtLines.every((x) => x <= 2)]],
+      next: (m) => [['prompt lenses 100', m.prompt.length === 6 && m.prompt.every((x) => Math.abs(x - 100) < 0.6)], ['chips >= 92', m.chips.length === 18 && m.chips.every((x) => x >= 92 - 0.6)]],
+    };
+    const faceMeasure = () => page.evaluate(() => {
+      const root = document.querySelector('[data-lcs-type="G1-377"]'); const R = (e) => e.getBoundingClientRect();
+      const w = (sel) => [...root.querySelectorAll(sel)].map((e) => R(e).width);
+      const bank = root.querySelector('[data-lcs-bank-banner]');
+      return {
+        padLens: w('[data-lcs-pad] [data-lcs-lens]'), tileLens: w('[data-lcs-tile] [data-lcs-lens]'), ghost: w('[data-lcs-ghost]'), cell: w('[data-lcs-tile]'),
+        labelLens: w('[data-lcs-label-loop] [data-lcs-lens]'), lanes: [...root.querySelectorAll('[data-lcs-label]')].map((e) => R(e).height),
+        bankPx: [...root.querySelectorAll('[data-lcs-bank-word]')].map((e) => parseFloat(getComputedStyle(e).fontSize)), bankWordH: [...root.querySelectorAll('[data-lcs-bank-word]')].map((e) => R(e).height), bankH: bank ? R(bank).height : 0,
+        young: w('[data-lcs-young-strip] [data-lcs-lens]'), adult: w('[data-lcs-bin-adult]'), binBox: w('[data-lcs-bin-box]'),
+        head: w('[data-lcs-head]'), ticks: w('[data-lcs-tick]'), stmtPx: [...root.querySelectorAll('[data-lcs-stmt-text]')].map((e) => parseFloat(getComputedStyle(e).fontSize)), stmtLines: [...root.querySelectorAll('[data-lcs-stmt-text]')].map((e) => Math.round(R(e).height / 22)),
+        prompt: w('[data-lcs-prompt-lens]'), chips: w('[data-lcs-chip]'),
+        text: root.innerText,
+        // FILL: the bottom of the INK (drawn things), never of an elastic container
+        content: Math.max(...[...root.querySelectorAll('svg, [data-lcs-lens], [data-lcs-label], [data-lcs-tick], [data-lcs-stmt], [data-lcs-bin-body], [data-lcs-bank-word], [data-lcs-ghost], [data-lcs-tile], .ws-blankbox, [data-lcs-next-row]')].map((e) => e.getBoundingClientRect().bottom)) - document.querySelector('.ws-body').getBoundingClientRect().top,
+        bodyH: document.querySelector('.ws-body').getBoundingClientRect().height,
+      };
+    });
+    const allText = (T0) => `${T0.i18n.en.title} ${T0.i18n.en.instruction}`;
+    function assertFace(name, l, r, fm, { body, fill } = {}) {
+      if (fill === 'one') ok(fm.content >= FILL_MIN * fm.bodyH - 0.5, `${name}: FILL — the content ends at ${fm.content.toFixed(0)} of ${fm.bodyH.toFixed(0)} px (${(100 * fm.content / fm.bodyH).toFixed(1)} % < ${FILL_MIN * 100} %): grow the hero, not the whitespace`);
+      if (fill === 'inside') ok(fm.content <= fm.bodyH + 0.5, `${name}: FILL — the content leaves the body (${fm.content.toFixed(0)} > ${fm.bodyH.toFixed(0)} px)`);
+      ok(!r.verify.length, `${name}: verify ${JSON.stringify(r.verify.slice(0, 4))}`);
+      ok(!r.lints.length, `${name}: lints ${JSON.stringify(r.lints.slice(0, 4))}`);
+      for (const [what, pass] of FLOORS[l](fm)) ok(pass, `${name}: floor — ${what}`);
+      for (const x of r.m.lensSvgs) { const [, a, s] = /life-(\w+)-(\w+)/.exec(x.figure); ok(['butterfly', 'frog', 'ladybird'].includes(a), `${name}: a ${a} on the page`); stageGate.checkStage(x.html, `${a}.${s}`, x.size).forEach((y) => ok(false, `${name}: rendered lens ${y}`)); ok(x.w >= 90 - 0.6, `${name}: a lens under the 90 px primitive floor`); }
+      for (const w of CHICKEN_FLOOR.en) ok(!wordRe(w).test(fm.text), `${name}: the ${w} appears on the page`);
+      ok(r.m.bodyScroll <= 0.5, `${name}: the body scrolls horizontally (${r.m.bodyScroll})`);
+      ok(r.m.lowest <= r.m.foot + 0.6, `${name}: content reaches the footer (${r.m.lowest.toFixed(0)} > ${r.m.foot.toFixed(0)})`);
+      if (body) ok(r.m.body.h <= body + 0.6, `${name}: body ${r.m.body.h.toFixed(0)} px — the fixture did not squeeze it to <= ${body}`);
+      const worst = Math.max(...r.m.gaps);
+      ok(r.m.gaps.length >= 1 && worst <= SPARSE_MAX && Math.min(...r.m.gaps) >= -0.5, `${name}: SPARSE — a ${worst.toFixed(0)} px blank band between consecutive blocks (> ${SPARSE_MAX}; slack must fall below the content) [${r.m.gaps.map((g) => g.toFixed(0))}]`);
+    }
+    for (const l of FACES) {
+      const T0 = F[l];
+      ok(banks.en.strings[T0.id] && banks.en.strings[T0.id].title === T0.i18n.en.title && banks.en.strings[T0.id].instruction === T0.i18n.en.instruction, `${T0.id}: the bank's strings ≠ the spec's i18n.en`);
+      ok(T0.difficulty[2].layout === l && (T0.gradeBand || 'G1') === BAND[T0.id], `${T0.id}: layout / gradeBand ${T0.difficulty[2].layout} / ${T0.gradeBand}`);
+      for (const w of CHICKEN_FLOOR.en) ok(!wordRe(w).test(allText(T0)), `${T0.id}: the ${w} in the title / instruction`);
+      const r = await renderWith(page, T0, { difficulty: 2, baseName: `G1-377-gate-${T0.id}-d2-en` });
+      assertFace(`${T0.id} d2`, l, r, await faceMeasure());
+      { const ro = await renderWith(page, T0, { difficulty: 2, baseName: `G1-377-gate-${T0.id}-d2-onechrome`, strings: ONE }); const fo = await faceMeasure(); assertFace(`${T0.id} one-line chrome`, l, ro, fo, { fill: 'one' }); ok(fo.bodyH >= 805, `${T0.id}: the one-line fixture body is ${fo.bodyH.toFixed(0)} px (want ~814)`); console.log(`  one-line chrome: body ${fo.bodyH.toFixed(0)} content ${fo.content.toFixed(0)} (${(100 * fo.content / fo.bodyH).toFixed(1)} %, FILL >= ${FILL_MIN * 100} %)`); }
+      console.log(`render ${T0.id} ${l}: verify ${r.verify.length} lints ${r.lints.length} body ${r.m.body.h.toFixed(0)} gaps [${r.m.gaps.map((g) => g.toFixed(0))}] lowest ${r.m.lowest.toFixed(0)} foot ${r.m.foot.toFixed(0)}`);
+      for (const k of Object.keys(LONG)) {
+        const rr = await renderWith(page, T0, { difficulty: 2, baseName: `G1-377-gate-${T0.id}-d2-longchrome-${k}`, strings: LONG[k] });
+        assertFace(`${T0.id} long chrome ${k}`, l, rr, await faceMeasure(), { body: LONG[k].body, fill: 'inside' });
+        console.log(`  long chrome ${k}: body ${rr.m.body.h.toFixed(0)} (<= ${LONG[k].body}) lowest ${rr.m.lowest.toFixed(0)} foot ${rr.m.foot.toFixed(0)} gaps [${rr.m.gaps.map((g) => g.toFixed(0))}]`);
+      }
+      for (let s = 1; s <= (quick ? 3 : 20); s++) {
+        const rs = await renderWith(page, T0, { difficulty: 2, baseName: `G1-377-gate-${T0.id}-sweep-${s}`, seedEpoch: s });
+        ok(!rs.verify.length && !rs.lints.length, `${T0.id} sweep ${s}: verify ${JSON.stringify(rs.verify.slice(0, 3))} lints ${rs.lints.length}`);
+      }
+      console.log(`  rendered sweep: ${quick ? 3 : 20} seeds verify-clean`);
+    }
+    // 6c. face poisons — each must FAIL for its own reason (the shipped faces above are the controls)
+    const rpf = async (name, type, re, opts = {}) => {
+      let f;
+      try { const r = await renderWith(page, type, { difficulty: 2, baseName: 'G1-377-gate-poison-' + name.split(' ')[0] }); f = [...r.verify, ...r.lints.map((x) => JSON.stringify(x))]; if (opts.face) { const before = fails.length; assertFace(name, opts.face, r, await faceMeasure()); f.push(...fails.splice(before)); } } catch (e) { f = [String(e.message || e)]; }
+      judge(name, f, re);
+    };
+    const withFace = (T0, extra = {}) => ({ ...T0, build({ difficulty }, ctx) { return this._buildWith(banks.en, { ...this.difficulty[difficulty], ...extra }, { locale: 'en' }, ctx); } });
+    const dFace = (T0, fn) => ({ ...T0, build(o, ctx) { const r = T0.build.call(this, o, ctx); r.bodyHtml = fn(r.bodyHtml); return r; } });
+    const swapRowChips = (h, want) => {   // F5: re-stamp the first frog row as legged -> froglet with the chips `want`
+      const m = /data-lcs-next-row="\d+" data-lcs-prompt="frog\.\w+" data-lcs-answer="frog\.\w+"/.exec(h); if (!m) return h;
+      const i = h.indexOf(m[0]), j = h.indexOf('data-lcs-next-row', i + 5), end = j < 0 ? h.length : j;
+      let row = h.slice(i, end).replace(/data-lcs-prompt="frog\.\w+" data-lcs-answer="frog\.\w+"/, 'data-lcs-prompt="frog.legged" data-lcs-answer="frog.froglet"');
+      let k = 0; row = row.replace(/data-lcs-stage="frog\.\w+" data-lcs-chip="frog\.\w+"/g, () => { const c = want[k++]; return `data-lcs-stage="${c}" data-lcs-chip="${c}"`; });
+      return h.slice(0, i) + row + h.slice(end);
+    };
+    await rpf('PR5 F1 return arc removed', dFace(F['frog-cut-paste'], (h) => h.replace(/<g data-lcs-arrow="return"[\s\S]*?<\/g>/, '')), /cycle not closed/);
+    await rpf('PR6 F1 strip order === pad order', withFace(F['frog-cut-paste'], { forceTiles: ['tadpole', 'legged', 'froglet', 'adult'] }), /not a derangement/);
+    await rpf('PR6b F1 a ghost printed on', dFace(F['frog-cut-paste'], (h) => h.replace(/(<span data-lcs-ghost [^>]*>)(<\/span>)/, '$1X$2')), /answer printed: pad \d's ghost is not empty/);
+    await rpf('PR8 F3 cards include butterfly.egg (build refuses)', withFace(F.metamorphosis, { cards: ['butterfly.egg', 'butterfly.pupa', 'frog.spawn', 'frog.tadpole', 'frog.legged', 'frog.froglet', 'ladybird.larva', 'ladybird.pupa'] }), /SORT_EXCLUDE/);
+    await rpf('PR8b F3 a butterfly.egg card rendered (verify)', dFace(F.metamorphosis, (h) => h.replace('data-lcs-stage="butterfly.larva"', 'data-lcs-stage="butterfly.egg"').replace('data-lcs-figure="life-butterfly-larva"', 'data-lcs-figure="life-butterfly-egg"')), /SORT_EXCLUDE: butterfly\.egg/);
+    await rpf('PR9 F3 strip grouped in bin order', withFace(F.metamorphosis, { forceCards: ['butterfly.larva', 'butterfly.pupa', 'frog.spawn', 'frog.tadpole', 'frog.legged', 'frog.froglet', 'ladybird.larva', 'ladybird.pupa'] }), /grouping tell/);
+    judge('PR10 F4 sixlegs truth [butterfly, frog] (data)', nPoison((n) => { n.COMPARE.find((c) => c.id === 'sixlegs').truth = ['butterfly', 'frog']; }), /COMPARE sixlegs: tick truth/);
+    await rpf('PR10b F4 a row stamped with the wrong ticks (render)', dFace(F.compare, (h) => h.replace(/data-lcs-expect="(butterfly|frog)" data-lcs-class/, 'data-lcs-expect="butterfly,frog" data-lcs-class')), /tick truth/);
+    await rpf('PR11 F4 class sequence both, butterfly, frog, both, butterfly, frog', withFace(F.compare, { forceStmts: ['egg', 'pupa', 'tail', 'change', 'wings', 'water', 'sixlegs', 'nolegs'] }), /staircase/);
+    await rpf('PR12 F5 a row whose chips include the prompt stage', dFace(F.next, (h) => { const i = h.indexOf('data-lcs-next-row="1"'), j = h.indexOf('data-lcs-next-row="2"'); let row = h.slice(i, j); const p = /data-lcs-prompt="([^"]+)"/.exec(row)[1], a = /data-lcs-answer="([^"]+)"/.exec(row)[1]; const c = [...row.matchAll(/data-lcs-chip="([^"]+)"/g)].map((m) => m[1]).find((x) => x !== a); row = row.replace(`data-lcs-stage="${c}" data-lcs-chip="${c}"`, `data-lcs-stage="${p}" data-lcs-chip="${p}"`); return h.slice(0, i) + row + h.slice(j); }), /prompt among chips/);
+    await rpf('PR13 F5 wrap row answer rendered as larva after butterfly.adult', dFace(F.next, (h) => h.replace('data-lcs-answer="butterfly.egg"', 'data-lcs-answer="butterfly.larva"')), /successor: row \d \(butterfly\.adult\)/);
+    await rpf('PR13b F5 the frog beside its look-alike froglet answer', dFace(F.next, (h) => swapRowChips(h, ['frog.adult', 'frog.froglet', 'frog.tadpole'])), /look-alike/);
+    await rpf('PR14 F2 decoy first in the bank', withFace(F.label, { forceBank: ['frog.tadpole', 'egg', 'pupa', 'larva', 'adult'] }), /decoy position/);
+    await rpf('PR14b F2 bank in loop order', withFace(F.label, { forceBank: ['egg', 'frog.tadpole', 'larva', 'pupa', 'adult'] }), /bank order is the loop order/);
+    await rpf('PR16 F2 a lane pre-filled', dFace(F.label, (h) => h.replace(/(<span data-lcs-label="\w+"[^>]*>)/, '$1egg')), /answer printed: lane/);
+    await rpf('PR17 F5 slots a staircase', withFace(F.next, { forceSlots: [0, 1, 2, 0, 1, 2] }), /correct-slot tell/);
+    // FILL both ways: frozen at the minimum stack the content ends high at 814; grown past the body it leaves the 677 page
+    const shrink = (h) => h.replace(/flex:1 1 (\d+)px;min-height:\1px;max-height:\d+px/g, 'flex:0 0 $1px;min-height:$1px;max-height:$1px').replace(/(data-lcs-fill [^>]*?)flex:1 1 auto/g, '$1flex:0 0 auto').replace(/minmax\((\d+)px,\d+px\)/g, 'minmax($1px,$1px)').replace(/calc\(\(100cqh - \d+px\) \* 0\.3 \+ (\d+)px\)/, '$1px');
+    const grow = (h) => h.replace(/min-height:(\d+)px;max-height:(\d+)px/g, (m, a, b) => `min-height:${+b + 160}px;max-height:${+b + 160}px`).replace(/minmax\((\d+)px,(\d+)px\)/g, (m, a, b) => `minmax(${+b + 30}px,${+b + 30}px)`);
+    for (const l of FACES) {
+      const T0 = F[l];
+      let f = []; try { const r = await renderWith(page, dFace(T0, shrink), { difficulty: 2, baseName: `G1-377-gate-poison-FL-${T0.id}`, strings: ONE }); const before = fails.length; assertFace('FL', l, r, await faceMeasure(), { fill: 'one' }); f = fails.splice(before); } catch (e) { f = [e.message]; }
+      judge(`FL-${T0.id} frozen at the minimum stack (content ends high at 814)`, f, /FILL — the content ends at/);
+      f = []; try { const r = await renderWith(page, dFace(T0, grow), { difficulty: 2, baseName: `G1-377-gate-poison-FG-${T0.id}`, strings: LONG.fi }); const before = fails.length; assertFace('FG', l, r, await faceMeasure(), { fill: 'inside' }); f = fails.splice(before); } catch (e) { f = [e.message]; }
+      judge(`FG-${T0.id} grown past the body (677 chrome)`, f, /FILL — the content leaves the body/);
+    }
+    // SPARSE both ways: the elastic stage frozen at its minimum and centred (the pre-review layout) opens a band above the content
+    for (const l of FACES) await rpf(`PS-${F[l].id} stage frozen + centred (sparse)`, dFace(F[l], (h) => shrink(h).replace('justify-content:flex-start;gap', 'justify-content:center;gap')), /SPARSE — a \d+ px blank band/, { face: l });
+    const S = (id, over) => ({ ...clone(en), strings: { ...en.strings, [id]: { ...en.strings[id], ...over } } });
+    judge('PI1 F5 instruction says "write"', validateBank(S('G1-390', { instruction: 'Look at the first picture in each row and write the one that comes right after it.' }), 'en'), /strings\.G1-390 instruction names "write"/);
+    judge('PI2 F1 instruction without "glue"', validateBank(S('G1-389', { instruction: 'Cut out the four squares and put each one on its lily pad, going round the pond from the frogspawn to the frog.' }), 'en'), /strings\.G1-389 instruction lacks .*glue/);
+    judge('PI3 F3 instruction asks for a number', validateBank(S('G2-366', { instruction: 'Look at each young animal and write its number in a box under the grown-up animal it will become.' }), 'en'), /strings\.G2-366 instruction names "number"/);
+    judge('PC F5 title names the chicken', validateBank(S('G1-390', { title: 'What Comes Next? Butterfly, Frog and Chicken' }), 'en'), /the chicken never appears \(rule 13\)/);
+    log.push('  PR7 froglet stub dropped: covered by the primitive gate (section 0, L1 KILLED)');
   } finally { await browser.close(); }
 
   console.log('poison:\n' + log.join('\n'));

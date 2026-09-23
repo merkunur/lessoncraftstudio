@@ -98,7 +98,7 @@
       "tier": 1,
       "words": [
         "fatigué",
-        "las"
+        "épuisé"
       ]
     },
     {
@@ -363,8 +363,8 @@
       "domain": "speak",
       "tier": 1,
       "words": [
-        "parler",
-        "discuter"
+        "bavarder",
+        "papoter"
       ]
     },
     {
@@ -416,11 +416,6 @@
       "a": "content",
       "b": "ravi",
       "why": "nuance : ravi est plus fort que content"
-    },
-    {
-      "a": "fatigué",
-      "b": "épuisé",
-      "why": "nuance : épuisé est beaucoup plus fort"
     },
     {
       "a": "calme",
@@ -487,7 +482,6 @@
     "agacé",
     "inquiet",
     "ravi",
-    "épuisé",
     "silencieux",
     "grand",
     "petit",
@@ -504,7 +498,7 @@
       "surpris",
       "étonné",
       "fatigué",
-      "las",
+      "épuisé",
       "énorme",
       "immense",
       "gigantesque",
@@ -534,7 +528,7 @@
       "surpris",
       "étonné",
       "fatigué",
-      "las",
+      "épuisé",
       "énorme",
       "immense",
       "gigantesque",
@@ -547,7 +541,7 @@
       "triste",
       "peiné",
       "fatigué",
-      "las",
+      "épuisé",
       "énorme",
       "immense",
       "gigantesque",
@@ -562,7 +556,7 @@
       "fâché",
       "en colère",
       "fatigué",
-      "las",
+      "épuisé",
       "énorme",
       "immense",
       "gigantesque",
@@ -604,7 +598,7 @@
       "surpris",
       "étonné",
       "fatigué",
-      "las",
+      "épuisé",
       "énorme",
       "immense",
       "gigantesque"

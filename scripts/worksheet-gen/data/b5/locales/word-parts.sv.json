@@ -691,37 +691,37 @@
       ]
     },
     {
-      "id": "skog",
-      "stem": "skog",
+      "id": "hår",
+      "stem": "hår",
       "rootIsFreeWord": true,
       "root": {
-        "word": "skog",
+        "word": "hår",
         "pic": {
-          "theme": "camping",
-          "noun": "forest"
+          "theme": "body parts",
+          "noun": "hair"
         },
         "picOpened": true
       },
       "signed": true,
       "members": [
         {
-          "word": "skogig",
+          "word": "hårig",
           "kind": "derived",
           "slot": "adjective"
         }
       ],
       "lookAlikes": [
         {
-          "word": "skjorta",
-          "whyNotFamily": "börjar som \"skog\" men är inte byggt av ordet"
+          "word": "hålla",
+          "whyNotFamily": "börjar nästan som \"hår\" men är inte byggt av ordet"
         },
         {
-          "word": "skorsten",
-          "whyNotFamily": "börjar som \"skog\" men är inte byggt av ordet"
+          "word": "hållplats",
+          "whyNotFamily": "börjar nästan som \"hår\" men är inte byggt av ordet"
         },
         {
-          "word": "sked",
-          "whyNotFamily": "börjar som \"skog\" men är inte byggt av ordet"
+          "word": "håv",
+          "whyNotFamily": "börjar nästan som \"hår\" men är inte byggt av ordet"
         }
       ]
     },
@@ -1015,7 +1015,7 @@
         "base": "koka",
         "prefix": "över",
         "word": "överkoka",
-        "gloss": "låta maten koka för länge"
+        "gloss": "koka potatisen så länge att den blir alldeles mosig"
       },
       {
         "base": "driva",
@@ -1213,10 +1213,10 @@
   ],
   "agents": [
     {
-      "key": "baker",
-      "base": "baka",
+      "key": "janitor",
+      "base": "städa",
       "answer": {
-        "any": "bagare"
+        "any": "städare"
       },
       "stemSigned": true
     },
@@ -1266,10 +1266,10 @@
       "stemSigned": true
     },
     {
-      "key": "carpenter",
-      "base": "snickra",
+      "key": "construction_worker",
+      "base": "bygga",
       "answer": {
-        "any": "snickare"
+        "any": "byggare"
       },
       "stemSigned": true
     }
@@ -1282,7 +1282,7 @@
     "F1": [
       "weather/sun",
       "spring/cloud",
-      "camping/forest",
+      "body parts/hair",
       "body parts/hand",
       "body parts/tooth",
       "ocean life/fish",

@@ -104,7 +104,7 @@
     },
     "compass-rose": {
       "title": "Ilmansuunnat: pohjoinen, itä, etelä ja länsi",
-      "instruction": "Jokaisessa ilmansuuntaruusussa on yksi kirjain, joten kirjoita kolme muuta kirjainta tyhjiin ruutuihin."
+      "instruction": "Oranssi kärki osoittaa aina pohjoiseen, joten kirjoita jokaisen ruusun kolme puuttuvaa kirjainta tyhjiin ruutuihin."
     },
     "continents": {
       "title": "Maanosat: kirjoita nimet",

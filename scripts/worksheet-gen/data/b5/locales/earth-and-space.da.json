@@ -51,9 +51,9 @@
   ],
   "phaseNames": {
     "0": "nymåne",
-    "2": "tiltagende",
+    "2": "tiltagende måne",
     "4": "fuldmåne",
-    "6": "aftagende"
+    "6": "aftagende måne"
   },
   "planets": {
     "mercury": "Merkur",

@@ -2696,7 +2696,7 @@
     "instruction": "Trekk en strek fra hvert trafikkskilt til det skiltet betyr."
   },
   "G2-360": {
-    "title": "Trafikkskilt 2. trinn: fareskilt, forbudsskilt og opplysningsskilt",
+    "title": "Trafikkskilt for barn: fareskilt, forbudsskilt og opplysningsskilt",
     "instruction": "Skriv bokstaven til hvert trafikkskilt i en rute under riktig gruppe skilt."
   },
   "G2-361": {
@@ -2716,8 +2716,8 @@
     "instruction": "Les ledetrådene og skriv hvert navn i riktig navnerute i slektstreet."
   },
   "G2-362": {
-    "title": "Slektsgåter: mormor, farfar, tante eller onkel?",
-    "instruction": "Les hver gåte og skriv riktig familieord fra ruten på streken, ett ord kan passe til flere gåter."
+    "title": "Slektsgåter: mormor, farfar, moster eller farbror?",
+    "instruction": "Les hver gåte og skriv riktig familieord fra ruten på streken."
   },
   "G1-387": {
     "title": "Slektstre: mal til å fylle ut selv",
@@ -2789,7 +2789,7 @@
   },
   "G2-369": {
     "title": "Himmelretninger: nord, øst, sør og vest",
-    "instruction": "Hver kompassrose viser én bokstav, så skriv de tre andre bokstavene i de tomme rutene."
+    "instruction": "Den oransje spissen viser nord, og hver kompassrose viser én bokstav, så skriv de tre andre bokstavene i de tomme rutene."
   },
   "G2-370": {
     "title": "Verdensdeler: skriv navnene",
@@ -2829,7 +2829,7 @@
   },
   "G2-375": {
     "title": "Finn rotordet",
-    "instruction": "Ring rundt delen som de tre ordene har felles, og skriv rotordet i den tomme steinen."
+    "instruction": "Ring rundt delen som de tre ordene har felles, og skriv den samme delen i den tomme steinen."
   },
   "G2-376": {
     "title": "Forstavelsene gjen-, mis- og over-: velg etter betydning",

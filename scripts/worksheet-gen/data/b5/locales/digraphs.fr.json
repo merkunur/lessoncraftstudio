@@ -118,23 +118,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "cabbage",
-          "theme": "vegetables",
-          "noun": "cabbage",
-          "word": "chou",
-          "seg": [
-            "ch",
-            "ou"
-          ],
-          "snd": [
-            "ʃ",
-            "u"
-          ],
-          "silent": [],
-          "stem": "chou",
-          "picOpened": true
-        },
-        {
           "vocabKey": "chick",
           "theme": "farm animals",
           "noun": "chick",
@@ -339,58 +322,6 @@
             0
           ],
           "stem": "hibou",
-          "picOpened": true
-        },
-        {
-          "vocabKey": "sunflower",
-          "theme": "flowers",
-          "noun": "sunflower",
-          "word": "tournesol",
-          "seg": [
-            "t",
-            "ou",
-            "r",
-            "n",
-            "e",
-            "s",
-            "o",
-            "l"
-          ],
-          "snd": [
-            "t",
-            "u",
-            "ʁ",
-            "n",
-            "ə",
-            "s",
-            "ɔ",
-            "l"
-          ],
-          "silent": [],
-          "stem": "tournesol",
-          "picOpened": true
-        },
-        {
-          "vocabKey": "thumb",
-          "theme": "body parts",
-          "noun": "thumb",
-          "word": "pouce",
-          "seg": [
-            "p",
-            "ou",
-            "c",
-            "e"
-          ],
-          "snd": [
-            "p",
-            "u",
-            "s",
-            "∅"
-          ],
-          "silent": [
-            3
-          ],
-          "stem": "pouce",
           "picOpened": true
         },
         {
@@ -791,31 +722,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "macaron",
-          "theme": "desserts and sweets",
-          "noun": "macaron",
-          "word": "macaron",
-          "seg": [
-            "m",
-            "a",
-            "c",
-            "a",
-            "r",
-            "on"
-          ],
-          "snd": [
-            "m",
-            "a",
-            "k",
-            "a",
-            "ʁ",
-            "ɔ̃"
-          ],
-          "silent": [],
-          "stem": "macaron",
-          "picOpened": true
-        },
-        {
           "vocabKey": "flip-flops",
           "theme": "clothing",
           "noun": "flip-flops",
@@ -898,7 +804,7 @@
         },
         {
           "vocabKey": "bird",
-          "theme": "spring",
+          "theme": "Things That Fly",
           "noun": "bird",
           "word": "oiseau",
           "seg": [
@@ -913,33 +819,6 @@
           ],
           "silent": [],
           "stem": "oiseau",
-          "picOpened": true
-        },
-        {
-          "vocabKey": "wardrobe",
-          "theme": "around the house",
-          "noun": "wardrobe",
-          "word": "armoire",
-          "seg": [
-            "a",
-            "r",
-            "m",
-            "oi",
-            "r",
-            "e"
-          ],
-          "snd": [
-            "a",
-            "ʁ",
-            "m",
-            "wa",
-            "ʁ",
-            "∅"
-          ],
-          "silent": [
-            5
-          ],
-          "stem": "armoire",
           "picOpened": true
         },
         {
@@ -2088,6 +1967,22 @@
     {
       "pic": "toys/swing",
       "why": "playground swing: the /wa/ sits in the last syllable, so a child who answers \"à la fin\" has heard something real (fr landing panel, round 1)"
+    },
+    {
+      "pic": "body parts/thumb",
+      "why": "a thumbs-up hand: said \"main\" / \"doigt\" (oi), not \"pouce\" (fr landing panel r2)"
+    },
+    {
+      "pic": "spring/bird",
+      "why": "a robin with an orange throat: said \"rouge-gorge\" (ou), not \"oiseau\"; Things That Fly/bird (plain yellow bird, opened) used instead (fr landing panel r2)"
+    },
+    {
+      "pic": "vegetables/cabbage",
+      "why": "a green head a child calls \"salade\" (fr landing panel r2)"
+    },
+    {
+      "pic": "desserts and sweets/macaron",
+      "why": "said \"gâteau\" (fr landing panel r2)"
     }
   ],
   "strings": {

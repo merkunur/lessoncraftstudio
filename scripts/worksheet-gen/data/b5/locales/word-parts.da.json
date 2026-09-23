@@ -171,7 +171,7 @@
           "slot": "noun-thing"
         },
         {
-          "word": "glemmebog",
+          "word": "glemmekasse",
           "kind": "compound",
           "slot": "noun-thing"
         }
@@ -434,66 +434,6 @@
       ]
     },
     {
-      "id": "arbejd",
-      "stem": "arbejd",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "arbejd"
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "arbejde",
-          "kind": "derived",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "arbejdsom",
-          "kind": "derived",
-          "slot": "adjective"
-        },
-        {
-          "word": "arbejdsløs",
-          "kind": "derived",
-          "slot": "adjective"
-        },
-        {
-          "word": "medarbejder",
-          "kind": "prefixed",
-          "slot": "noun-person"
-        },
-        {
-          "word": "samarbejde",
-          "kind": "prefixed",
-          "slot": "noun-thing"
-        },
-        {
-          "word": "bearbejde",
-          "kind": "prefixed",
-          "slot": "verb"
-        },
-        {
-          "word": "arbejdsplads",
-          "kind": "compound",
-          "slot": "noun-thing"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "arm",
-          "whyNotFamily": "en del af kroppen"
-        },
-        {
-          "word": "art",
-          "whyNotFamily": "en slags dyr eller plante"
-        },
-        {
-          "word": "artig",
-          "whyNotFamily": "sød og lydig"
-        }
-      ]
-    },
-    {
       "id": "skriv",
       "stem": "skriv",
       "rootIsFreeWord": true,
@@ -550,6 +490,246 @@
         {
           "word": "skål",
           "whyNotFamily": "man spiser grød af den"
+        }
+      ]
+    },
+    {
+      "id": "tegn",
+      "stem": "tegn",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "tegn"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "tegne",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "aftegning",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "tegning",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "optegne",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "aftegne",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "gentegne",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "tegneserie",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "telt",
+          "whyNotFamily": "noget man sover i på en campingtur"
+        },
+        {
+          "word": "tekop",
+          "whyNotFamily": "en kop, man drikker te af"
+        },
+        {
+          "word": "tern",
+          "whyNotFamily": "et lille felt i et ternet mønster"
+        }
+      ]
+    },
+    {
+      "id": "spil",
+      "stem": "spil",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "spil"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "spille",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "spiller",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "afspille",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "afspiller",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "indspille",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "indspilning",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "spillebræt",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "spis",
+          "whyNotFamily": "at få mad i munden"
+        },
+        {
+          "word": "spids",
+          "whyNotFamily": "den skarpe ende på en blyant"
+        },
+        {
+          "word": "spidse",
+          "whyNotFamily": "at gøre en blyant skarp"
+        }
+      ]
+    },
+    {
+      "id": "kør",
+      "stem": "kør",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "kør"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "køre",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "kørsel",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "afkørsel",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "indkørsel",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "overkøre",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "påkøre",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "køretøj",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "kød",
+          "whyNotFamily": "noget man spiser til aftensmad"
+        },
+        {
+          "word": "køl",
+          "whyNotFamily": "bunden af en båd"
+        },
+        {
+          "word": "kø",
+          "whyNotFamily": "en række, man står i og venter"
+        }
+      ]
+    },
+    {
+      "id": "vask",
+      "stem": "vask",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "vask"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "vaske",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "vaskbar",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "vaskeri",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "opvask",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "afvaske",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "gennemvaske",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "vaskemaskine",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "vase",
+          "whyNotFamily": "noget man sætter blomster i"
+        },
+        {
+          "word": "vaffel",
+          "whyNotFamily": "en kage med små firkanter"
+        },
+        {
+          "word": "vagt",
+          "whyNotFamily": "én, der passer på noget"
         }
       ]
     }
@@ -1230,13 +1410,6 @@
       }
     },
     {
-      "key": "cashier",
-      "base": "kasse",
-      "answer": {
-        "any": "kasserer"
-      }
-    },
-    {
       "key": "athlete",
       "base": "løbe",
       "answer": {
@@ -1249,10 +1422,18 @@
       "answer": {
         "any": "danser"
       }
+    },
+    {
+      "key": "tailor",
+      "base": "sy",
+      "answer": {
+        "any": "syerske"
+      }
     }
   ],
   "agentSuffixes": [
-    "er"
+    "er",
+    "ske"
   ],
   "exemplar": {
     "base": [
@@ -1271,15 +1452,15 @@
       "shapes/heart"
     ],
     "F2": [
-      "hjælp",
-      "mal",
       "glem",
-      "ven",
       "byg",
       "frygt",
       "læs",
-      "arbejd",
-      "skriv"
+      "skriv",
+      "tegn",
+      "spil",
+      "kør",
+      "vask"
     ],
     "F5": [
       "hjælp",

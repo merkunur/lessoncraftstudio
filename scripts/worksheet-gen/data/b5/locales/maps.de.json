@@ -134,7 +134,7 @@
     },
     "compass-rose": {
       "title": "Himmelsrichtungen: die Windrose ergänzen",
-      "instruction": "Jede Windrose zeigt einen Buchstaben: Schreibe die anderen drei Buchstaben in die leeren Kästchen."
+      "instruction": "Die orange Spitze zeigt immer nach Norden: Schreibe in jede Windrose die drei fehlenden Buchstaben in die leeren Kästchen."
     },
     "continents": {
       "title": "Die Kontinente beschriften",

@@ -118,7 +118,7 @@
     },
     "compass-rose": {
       "title": "I punti cardinali: completa la rosa dei venti",
-      "instruction": "Ogni rosa dei venti mostra una lettera: scrivi le altre tre lettere nei riquadri vuoti."
+      "instruction": "Ogni rosa dei venti mostra una lettera e la punta arancione indica sempre il nord: scrivi le altre tre lettere nei riquadri vuoti."
     },
     "continents": {
       "title": "I continenti: scrivi i loro nomi",

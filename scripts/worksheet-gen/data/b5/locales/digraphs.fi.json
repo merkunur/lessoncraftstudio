@@ -332,27 +332,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "llama",
-          "theme": "farm animals",
-          "noun": "llama",
-          "word": "laama",
-          "seg": [
-            "l",
-            "aa",
-            "m",
-            "a"
-          ],
-          "snd": [
-            "l",
-            "aː",
-            "m",
-            "a"
-          ],
-          "silent": [],
-          "stem": "laama",
-          "picOpened": true
-        },
-        {
           "vocabKey": "mailbox",
           "theme": "around the house",
           "noun": "mailbox",
@@ -622,31 +601,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "toucan",
-          "theme": "birds",
-          "noun": "toucan",
-          "word": "tukaani",
-          "seg": [
-            "t",
-            "u",
-            "k",
-            "aa",
-            "n",
-            "i"
-          ],
-          "snd": [
-            "t",
-            "u",
-            "k",
-            "aː",
-            "n",
-            "i"
-          ],
-          "silent": [],
-          "stem": "tukaani",
-          "picOpened": true
-        },
-        {
           "vocabKey": "tulip",
           "theme": "flowers",
           "noun": "tulip",
@@ -881,37 +835,6 @@
           ],
           "silent": [],
           "stem": "tuuletin",
-          "picOpened": true
-        },
-        {
-          "vocabKey": "gardener",
-          "theme": "occupations",
-          "noun": "gardener",
-          "word": "puutarhuri",
-          "seg": [
-            "p",
-            "uu",
-            "t",
-            "a",
-            "r",
-            "h",
-            "u",
-            "r",
-            "i"
-          ],
-          "snd": [
-            "p",
-            "uː",
-            "t",
-            "a",
-            "r",
-            "h",
-            "u",
-            "r",
-            "i"
-          ],
-          "silent": [],
-          "stem": "puutarhuri",
           "picOpened": true
         },
         {
@@ -1358,33 +1281,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "heel",
-          "theme": "body parts",
-          "noun": "heel",
-          "word": "kantapää",
-          "seg": [
-            "k",
-            "a",
-            "n",
-            "t",
-            "a",
-            "p",
-            "ää"
-          ],
-          "snd": [
-            "k",
-            "a",
-            "n",
-            "t",
-            "a",
-            "p",
-            "æː"
-          ],
-          "silent": [],
-          "stem": "pää",
-          "picOpened": true
-        },
-        {
           "vocabKey": "shoulder",
           "theme": "body parts",
           "noun": "shoulder",
@@ -1469,14 +1365,24 @@
   "sentences": [
     {
       "id": "s1",
-      "text": "Aasi syö kaalia saaressa.",
+      "text": "Pieni aasi syö kaalia saaressa.",
       "target": "aa",
       "hits": 3,
       "tokens": [
         {
-          "w": "Aasi",
+          "w": "Pieni",
           "seg": [
-            "Aa",
+            "P",
+            "i",
+            "e",
+            "n",
+            "i"
+          ]
+        },
+        {
+          "w": "aasi",
+          "seg": [
+            "aa",
             "s",
             "i"
           ]
@@ -1861,6 +1767,22 @@
     {
       "pic": "body parts/elbow",
       "why": "kyynärpäässä on kaksi pitkää vokaalia (yy ja ää) (fi panel, avattu)"
+    },
+    {
+      "pic": "occupations/gardener",
+      "why": "lapsi sanoo \"viljelijä\" tai \"maanviljelijä\" (aa), ei \"puutarhuri\" (fi landing, avattu)"
+    },
+    {
+      "pic": "body parts/heel",
+      "why": "lapsi sanoo \"jalka\" eikä \"kantapää\" (fi landing, avattu)"
+    },
+    {
+      "pic": "farm animals/llama",
+      "why": "lapsi sanoo usein \"alpakka\" eikä \"laama\" (fi landing, avattu)"
+    },
+    {
+      "pic": "birds/toucan",
+      "why": "esikoululainen ei tunne tukaania (fi landing, avattu)"
     }
   ],
   "strings": {
@@ -1882,7 +1804,7 @@
     },
     "position": {
       "title": "Missä kohdassa pitkä vokaali kuuluu?",
-      "instruction": "Sano jokaisen kuvan sana ja väritä yksi kohta sen mukaan, missä kuulet pitkän vokaalin: alussa, keskellä vai lopussa."
+      "instruction": "Sano kuvan sana ja väritä alku, jos sana alkaa pitkällä vokaalilla, loppu, jos se loppuu siihen, ja muuten keskikohta."
     },
     "text": {
       "title": "Pitkät vokaalit lauseissa: etsi ja laske aa",

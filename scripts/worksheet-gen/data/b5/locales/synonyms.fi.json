@@ -278,17 +278,6 @@
       ]
     },
     {
-      "id": "g.end",
-      "concept": "end",
-      "pos": "verb",
-      "domain": "begin-end",
-      "tier": 1,
-      "words": [
-        "lopettaa",
-        "päättää"
-      ]
-    },
-    {
       "id": "g.shut",
       "concept": "shut",
       "pos": "verb",
@@ -466,14 +455,19 @@
       "why": "väsynyt ihminen ei ole sairas"
     },
     {
-      "a": "sulkea",
-      "b": "lopettaa",
-      "why": "sulkea voi tarkoittaa myös lopettamista (sulkea kokous), mutta ovea ei lopeteta"
-    },
-    {
       "a": "äänekäs",
       "b": "voimakas",
       "why": "voimakas ääni on kova ääni, mutta voimakas ihminen on vahva"
+    },
+    {
+      "a": "yllättynyt",
+      "b": "pelästynyt",
+      "why": "säikähtänyt ja yllättynyt ovat lähellä toisiaan: yllätys voi säikäyttää"
+    },
+    {
+      "a": "hämmästynyt",
+      "b": "pelästynyt",
+      "why": "hämmästys ja säikähdys ovat lähellä toisiaan"
     }
   ],
   "nearOnly": [
@@ -660,7 +654,7 @@
       "id": "s.eat",
       "pos": "verb",
       "words": [
-        "näykkiä",
+        "napostella",
         "syödä",
         "ahmia"
       ]
@@ -684,12 +678,12 @@
       ]
     },
     {
-      "id": "s.knock",
-      "pos": "verb",
+      "id": "s.glad",
+      "pos": "adj",
       "words": [
-        "napauttaa",
-        "koputtaa",
-        "paukuttaa"
+        "tyytyväinen",
+        "iloinen",
+        "riemuissaan"
       ]
     }
   ],

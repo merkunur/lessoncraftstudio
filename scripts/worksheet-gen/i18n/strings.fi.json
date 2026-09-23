@@ -2657,7 +2657,7 @@
   },
   "G1-381": {
     "title": "Tasokuviot: onko se oikea kuvio?",
-    "instruction": "Lue nimi rivin alusta ja rengasta rivistä jokainen kuvio, joka todella on sen niminen."
+    "instruction": "Lue rivin yläpuolella oleva nimi ja rengasta rivistä jokainen kuvio, joka todella on sen niminen."
   },
   "K-371": {
     "title": "Tasokuviot ympärillämme",
@@ -2708,7 +2708,7 @@
     "instruction": "Lue vihjeet ja kirjoita jokainen nimi oikeaan nimiruutuun perhepuussa."
   },
   "G2-362": {
-    "title": "Sukulaisarvoitukset: isoäiti, eno, setä vai täti?",
+    "title": "Sukulaisarvoitukset: kuka sukulainen on kyseessä?",
     "instruction": "Lue jokainen arvoitus ja kirjoita ruutuun oikea sukulaissana laatikosta; sama sana voi sopia useampaan arvoitukseen."
   },
   "G1-387": {
@@ -2769,7 +2769,7 @@
   },
   "G3-394": {
     "title": "Planeetat järjestyksessä Auringosta",
-    "instruction": "Kirjoita jokaisen planeetan nimi sen viivalle alkaen Aurinkoa lähimmästä, ja käytä jokaista laatikon nimeä kerran."
+    "instruction": "Kirjoita jokaisen planeetan nimi sen viivalle alkaen Aurinkoa lähimmästä, ja käytä jokaisen kortin nimeä kerran."
   },
   "G3-395": {
     "title": "Jättiläisplaneetat ja kiviplaneetat",
@@ -2781,7 +2781,7 @@
   },
   "G2-369": {
     "title": "Ilmansuunnat: pohjoinen, itä, etelä ja länsi",
-    "instruction": "Jokaisessa ilmansuuntaruusussa on yksi kirjain, joten kirjoita kolme muuta kirjainta tyhjiin ruutuihin."
+    "instruction": "Oranssi kärki osoittaa aina pohjoiseen, joten kirjoita jokaisen ruusun kolme puuttuvaa kirjainta tyhjiin ruutuihin."
   },
   "G2-370": {
     "title": "Maanosat: kirjoita nimet",
@@ -2809,7 +2809,7 @@
   },
   "G1-394": {
     "title": "Missä kohdassa pitkä vokaali kuuluu?",
-    "instruction": "Sano jokaisen kuvan sana ja väritä yksi kohta sen mukaan, missä kuulet pitkän vokaalin: alussa, keskellä vai lopussa."
+    "instruction": "Sano kuvan sana ja väritä alku, jos sana alkaa pitkällä vokaalilla, loppu, jos se loppuu siihen, ja muuten keskikohta."
   },
   "G2-372": {
     "title": "Pitkät vokaalit lauseissa: etsi ja laske aa",

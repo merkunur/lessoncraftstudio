@@ -29,7 +29,7 @@
       "tier": 1,
       "words": [
         "glad",
-        "munter"
+        "fornøjet"
       ]
     },
     {
@@ -51,7 +51,7 @@
       "tier": 1,
       "words": [
         "vred",
-        "arrig"
+        "hidsig"
       ]
     },
     {
@@ -62,7 +62,7 @@
       "tier": 1,
       "words": [
         "bange",
-        "ræd"
+        "skræmt"
       ]
     },
     {
@@ -73,8 +73,7 @@
       "tier": 2,
       "words": [
         "overrasket",
-        "forbavset",
-        "forbløffet"
+        "paf"
       ]
     },
     {
@@ -278,17 +277,6 @@
       ]
     },
     {
-      "id": "g.messy",
-      "concept": "messy",
-      "pos": "adj",
-      "domain": "looks",
-      "tier": 2,
-      "words": [
-        "rodet",
-        "sjusket"
-      ]
-    },
-    {
       "id": "g.dirty",
       "concept": "dirty",
       "pos": "adj",
@@ -384,7 +372,7 @@
       "tier": 1,
       "words": [
         "råbe",
-        "skråle"
+        "brøle"
       ]
     },
     {
@@ -436,11 +424,6 @@
       "why": "stille = ingen lyd; rolig = en følelse"
     },
     {
-      "a": "rodet",
-      "b": "beskidt",
-      "why": "rodet = ikke ryddeligt; beskidt = ikke rent"
-    },
-    {
       "a": "stærk",
       "b": "modig",
       "why": "kræfter i kroppen er ikke det samme som mod"
@@ -469,11 +452,6 @@
       "a": "overrasket",
       "b": "bange",
       "why": "et chok kan være overraskelse med angst"
-    },
-    {
-      "a": "kunne lide",
-      "b": "elske",
-      "why": "grad"
     }
   ],
   "nearOnly": [
@@ -485,12 +463,11 @@
       "trist",
       "ked af det",
       "vred",
-      "arrig",
+      "hidsig",
       "bange",
-      "ræd",
+      "skræmt",
       "overrasket",
-      "forbavset",
-      "forbløffet",
+      "paf",
       "træt",
       "søvnig",
       "hurtig",
@@ -500,12 +477,11 @@
     ],
     "sad": [
       "glad",
-      "munter",
+      "fornøjet",
       "vred",
-      "arrig",
+      "hidsig",
       "overrasket",
-      "forbavset",
-      "forbløffet",
+      "paf",
       "hurtig",
       "hastig",
       "stor",
@@ -513,14 +489,13 @@
     ],
     "angry": [
       "glad",
-      "munter",
+      "fornøjet",
       "trist",
       "ked af det",
       "bange",
-      "ræd",
+      "skræmt",
       "overrasket",
-      "forbavset",
-      "forbløffet",
+      "paf",
       "træt",
       "søvnig",
       "hurtig",
@@ -530,7 +505,7 @@
     ],
     "scared": [
       "glad",
-      "munter",
+      "fornøjet",
       "trist",
       "ked af det",
       "træt",
@@ -542,11 +517,11 @@
     ],
     "surprised": [
       "glad",
-      "munter",
+      "fornøjet",
       "trist",
       "ked af det",
       "vred",
-      "arrig",
+      "hidsig",
       "træt",
       "søvnig",
       "hurtig",
@@ -556,14 +531,13 @@
     ],
     "tired": [
       "glad",
-      "munter",
+      "fornøjet",
       "vred",
-      "arrig",
+      "hidsig",
       "bange",
-      "ræd",
+      "skræmt",
       "overrasket",
-      "forbavset",
-      "forbløffet",
+      "paf",
       "hurtig",
       "hastig",
       "stor",
@@ -571,16 +545,15 @@
     ],
     "fast": [
       "glad",
-      "munter",
+      "fornøjet",
       "trist",
       "ked af det",
       "vred",
-      "arrig",
+      "hidsig",
       "bange",
-      "ræd",
+      "skræmt",
       "overrasket",
-      "forbavset",
-      "forbløffet",
+      "paf",
       "træt",
       "søvnig"
     ],
@@ -588,12 +561,11 @@
       "trist",
       "ked af det",
       "vred",
-      "arrig",
+      "hidsig",
       "bange",
-      "ræd",
+      "skræmt",
       "overrasket",
-      "forbavset",
-      "forbløffet",
+      "paf",
       "hurtig",
       "hastig"
     ]
@@ -645,21 +617,21 @@
       ]
     },
     {
-      "id": "s.drink",
+      "id": "s.laugh",
       "pos": "verb",
       "words": [
-        "nippe",
-        "drikke",
-        "bælle"
+        "fnise",
+        "grine",
+        "skraldgrine"
       ]
     },
     {
-      "id": "s.like",
-      "pos": "verb",
+      "id": "s.hunger",
+      "pos": "adj",
       "words": [
-        "kunne lide",
-        "holde af",
-        "elske"
+        "småsulten",
+        "sulten",
+        "hundesulten"
       ]
     },
     {
@@ -770,7 +742,7 @@
         },
         {
           "id": "f6",
-          "text": "»Syv og tre er ti,« {gap} {name} med et stort smil.",
+          "text": "Læreren vil vide, hvad syv og tre er. »Ti,« {gap} {name} med et stort smil.",
           "plainVerbOK": true,
           "fit": {
             "hvisker": false,

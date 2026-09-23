@@ -39,15 +39,15 @@
     },
     "footpath": {
       "code": "G7",
-      "regRef": "RVV 1990 Bijlage 1, G7 Voetpad (blauw vierkant bord)",
-      "shape": "square",
+      "regRef": "RVV 1990 Bijlage 1, G7 Voetpad (rond blauw bord, witte voetganger)",
+      "shape": "circle",
       "rim": "white",
       "field": "blue",
       "glyph": "walker",
       "text": "",
       "slash": false,
-      "class": "information",
-      "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending; the G7 figure (one walker or adult with child) is UNSURE"
+      "class": "mandatory",
+      "signedBy": "nl native panel (nt10-E, round 2, 2026-09-23): G7 is a ROUND blue sign (a gebodsbord in school use), not a square aanwijzingsbord; the G7 figure (one walker or adult with child) is UNSURE; operator review pending"
     },
     "children": {
       "code": "J21",
@@ -174,8 +174,8 @@
     "no-vehicles",
     "no-bikes",
     "no-pedestrians",
-    "crossing",
-    "footpath"
+    "footpath",
+    "bike-path"
   ],
   "classes": [
     {
@@ -187,8 +187,8 @@
       "label": "verbodsborden"
     },
     {
-      "key": "information",
-      "label": "aanwijzingsborden"
+      "key": "mandatory",
+      "label": "gebodsborden"
     }
   ],
   "pedLight": {

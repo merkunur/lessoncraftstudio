@@ -1221,10 +1221,10 @@
         "gloss": "die Suppe mit dem Löffel im Kreis bewegen"
       },
       {
-        "base": "fallen",
+        "base": "bauen",
         "prefix": "um",
-        "word": "umfallen",
-        "gloss": "zur Seite kippen und liegen bleiben"
+        "word": "umbauen",
+        "gloss": "das alte Haus verändern und neu bauen"
       }
     ],
     "crossCheck": [
@@ -1409,19 +1409,19 @@
         "fitsGloss": true
       },
       {
-        "base": "fallen",
+        "base": "bauen",
         "prefix": "ein",
         "isWord": true,
         "fitsGloss": false
       },
       {
-        "base": "fallen",
+        "base": "bauen",
         "prefix": "aus",
         "isWord": true,
         "fitsGloss": false
       },
       {
-        "base": "fallen",
+        "base": "bauen",
         "prefix": "um",
         "isWord": true,
         "fitsGloss": true
@@ -1568,7 +1568,7 @@
     },
     "root-word": {
       "title": "Den Wortstamm finden",
-      "instruction": "Kreise den Teil ein, den die drei Wörter gemeinsam haben, und schreibe den Wortstamm in den leeren Stein."
+      "instruction": "Kreise den Teil ein, den die drei Wörter gemeinsam haben, und schreibe ihn als Nomen mit großem Anfangsbuchstaben in den leeren Stein."
     },
     "prefix-key": {
       "title": "Vorsilben ein-, aus- und um-: nach Bedeutung wählen",

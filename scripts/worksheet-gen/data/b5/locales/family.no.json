@@ -1,5 +1,5 @@
 {
-  "lineage": false,
+  "lineage": true,
   "kin": {
     "M": "mamma",
     "F": "pappa",
@@ -11,10 +11,10 @@
     "MF": "morfar",
     "FM": "farmor",
     "FF": "farfar",
-    "MZ": "tante",
-    "FZ": "tante",
-    "MB": "onkel",
-    "FB": "onkel",
+    "MZ": "moster",
+    "FZ": "faster",
+    "MB": "morbror",
+    "FB": "farbror",
     "MZD": "kusine",
     "MZS": "fetter",
     "MBD": "kusine",
@@ -65,20 +65,28 @@
       "text": "farfar",
       "register": "K"
     },
-    "tante": {
-      "text": "tante",
-      "register": "K"
-    },
-    "onkel": {
-      "text": "onkel",
-      "register": "K"
-    },
     "kusine": {
       "text": "kusine",
       "register": "K"
     },
     "fetter": {
       "text": "fetter",
+      "register": "K"
+    },
+    "moster": {
+      "text": "moster",
+      "register": "K"
+    },
+    "faster": {
+      "text": "faster",
+      "register": "K"
+    },
+    "morbror": {
+      "text": "morbror",
+      "register": "K"
+    },
+    "farbror": {
+      "text": "farbror",
       "register": "K"
     }
   },
@@ -155,10 +163,10 @@
     "MF": "{name} er {egoGen} morfar.",
     "FM": "{name} er {egoGen} farmor.",
     "FF": "{name} er {egoGen} farfar.",
-    "MZ": "{name} er {egoGen} tante.",
-    "FZ": "{name} er {egoGen} tante.",
-    "MB": "{name} er {egoGen} onkel.",
-    "FB": "{name} er {egoGen} onkel.",
+    "MZ": "{name} er {egoGen} moster.",
+    "FZ": "{name} er {egoGen} faster.",
+    "MB": "{name} er {egoGen} morbror.",
+    "FB": "{name} er {egoGen} farbror.",
     "MZD": "{name} er {egoGen} kusine.",
     "MZS": "{name} er {egoGen} fetter.",
     "MBD": "{name} er {egoGen} kusine.",
@@ -182,7 +190,7 @@
     "mamma",
     "pappa"
   ],
-  "repeatsNote": true,
+  "repeatsNote": false,
   "repeatsNoteText": "ett ord kan passe til flere gåter",
   "generationOK": [
     "mamma",
@@ -195,10 +203,12 @@
     "morfar",
     "farmor",
     "farfar",
-    "tante",
-    "onkel",
     "kusine",
-    "fetter"
+    "fetter",
+    "moster",
+    "faster",
+    "morbror",
+    "farbror"
   ],
   "agreeing": [
     "en",
@@ -260,8 +270,8 @@
       "instruction": "Les ledetrådene og skriv hvert navn i riktig navnerute i slektstreet."
     },
     "relation-riddles": {
-      "title": "Slektsgåter: mormor, farfar, tante eller onkel?",
-      "instruction": "Les hver gåte og skriv riktig familieord fra ruten på streken, ett ord kan passe til flere gåter."
+      "title": "Slektsgåter: mormor, farfar, moster eller farbror?",
+      "instruction": "Les hver gåte og skriv riktig familieord fra ruten på streken."
     },
     "tree-template": {
       "title": "Slektstre: mal til å fylle ut selv",

@@ -258,7 +258,7 @@
       "instruction": "Lue vihjeet ja kirjoita jokainen nimi oikeaan nimiruutuun perhepuussa."
     },
     "relation-riddles": {
-      "title": "Sukulaisarvoitukset: isoäiti, eno, setä vai täti?",
+      "title": "Sukulaisarvoitukset: kuka sukulainen on kyseessä?",
       "instruction": "Lue jokainen arvoitus ja kirjoita ruutuun oikea sukulaissana laatikosta; sama sana voi sopia useampaan arvoitukseen."
     },
     "tree-template": {

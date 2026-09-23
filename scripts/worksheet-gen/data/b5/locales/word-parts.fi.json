@@ -56,9 +56,9 @@
           "slot": "adjective"
         },
         {
-          "word": "kirjallisuus",
+          "word": "kirjailla",
           "kind": "derived",
-          "slot": "noun-thing"
+          "slot": "verb"
         },
         {
           "word": "kirjanen",
@@ -126,8 +126,8 @@
           "slot": "adjective"
         },
         {
-          "word": "ilottomuus",
-          "kind": "derived",
+          "word": "ilotulitus",
+          "kind": "compound",
           "slot": "noun-thing"
         }
       ],
@@ -221,9 +221,9 @@
           "slot": "adjective"
         },
         {
-          "word": "värikkäästi",
+          "word": "värinen",
           "kind": "derived",
-          "slot": "adverb"
+          "slot": "adjective"
         },
         {
           "word": "väritön",
@@ -296,9 +296,9 @@
           "slot": "adjective"
         },
         {
-          "word": "rauhattomasti",
-          "kind": "derived",
-          "slot": "adverb"
+          "word": "rauhanmerkki",
+          "kind": "compound",
+          "slot": "noun-thing"
         },
         {
           "word": "rauhattomuus",
@@ -418,9 +418,9 @@
           "slot": "adjective"
         },
         {
-          "word": "sanattomasti",
+          "word": "sananen",
           "kind": "derived",
-          "slot": "adverb"
+          "slot": "noun-thing"
         },
         {
           "word": "sanailla",
@@ -473,7 +473,7 @@
           "slot": "adjective"
         },
         {
-          "word": "voimattomuus",
+          "word": "voimakkuus",
           "kind": "derived",
           "slot": "noun-thing"
         },
@@ -751,41 +751,6 @@
   ],
   "picFamilies": [
     {
-      "id": "aurinko",
-      "stem": "aurinko",
-      "rootIsFreeWord": true,
-      "root": {
-        "word": "aurinko",
-        "pic": {
-          "theme": "weather",
-          "noun": "sun"
-        },
-        "picOpened": true
-      },
-      "signed": true,
-      "members": [
-        {
-          "word": "aurinkoinen",
-          "kind": "derived",
-          "slot": "adjective"
-        }
-      ],
-      "lookAlikes": [
-        {
-          "word": "auto",
-          "whyNotFamily": "alkaa samoin kuin \"aurinko\", mutta sitä ei ole tehty kuvan sanasta"
-        },
-        {
-          "word": "aukko",
-          "whyNotFamily": "alkaa samoin kuin \"aurinko\", mutta sitä ei ole tehty kuvan sanasta"
-        },
-        {
-          "word": "aukio",
-          "whyNotFamily": "alkaa samoin kuin \"aurinko\", mutta sitä ei ole tehty kuvan sanasta"
-        }
-      ]
-    },
-    {
       "id": "pilvi",
       "stem": "pilvi",
       "rootIsFreeWord": true,
@@ -807,20 +772,16 @@
       ],
       "lookAlikes": [
         {
+          "word": "pikkuinen",
+          "whyNotFamily": "sana on tehty sanasta \"pikku\", ei kuvan sanasta"
+        },
+        {
+          "word": "pilkullinen",
+          "whyNotFamily": "sana on tehty sanasta \"pilkku\", ei kuvan sanasta"
+        },
+        {
           "word": "pilli",
           "whyNotFamily": "alkaa samoin kuin \"pilvi\", mutta sitä ei ole tehty kuvan sanasta"
-        },
-        {
-          "word": "pila",
-          "whyNotFamily": "alkaa samoin kuin \"pilvi\", mutta sitä ei ole tehty kuvan sanasta"
-        },
-        {
-          "word": "pilkku",
-          "whyNotFamily": "alkaa samoin kuin \"pilvi\", mutta sitä ei ole tehty kuvan sanasta"
-        },
-        {
-          "word": "pinaatti",
-          "whyNotFamily": "vihreä kasvis; vain alku on sama"
         }
       ]
     },
@@ -886,15 +847,15 @@
       ],
       "lookAlikes": [
         {
-          "word": "liima",
-          "whyNotFamily": "alkaa samoin kuin \"lintu\", mutta sitä ei ole tehty kuvan sanasta"
+          "word": "likainen",
+          "whyNotFamily": "sana on tehty sanasta \"lika\", ei kuvan sanasta"
+        },
+        {
+          "word": "limainen",
+          "whyNotFamily": "sana on tehty sanasta \"lima\", ei kuvan sanasta"
         },
         {
           "word": "lippu",
-          "whyNotFamily": "alkaa samoin kuin \"lintu\", mutta sitä ei ole tehty kuvan sanasta"
-        },
-        {
-          "word": "limonadi",
           "whyNotFamily": "alkaa samoin kuin \"lintu\", mutta sitä ei ole tehty kuvan sanasta"
         }
       ]
@@ -921,20 +882,16 @@
       ],
       "lookAlikes": [
         {
+          "word": "kultainen",
+          "whyNotFamily": "sana on tehty sanasta \"kulta\", ei kuvan sanasta"
+        },
+        {
+          "word": "kurainen",
+          "whyNotFamily": "sana on tehty sanasta \"kura\", ei kuvan sanasta"
+        },
+        {
           "word": "kukko",
           "whyNotFamily": "alkaa samoin kuin \"kukka\", mutta sitä ei ole tehty kuvan sanasta"
-        },
-        {
-          "word": "kukkula",
-          "whyNotFamily": "alkaa samoin kuin \"kukka\", mutta sitä ei ole tehty kuvan sanasta"
-        },
-        {
-          "word": "kuppi",
-          "whyNotFamily": "alkaa samoin kuin \"kukka\", mutta sitä ei ole tehty kuvan sanasta"
-        },
-        {
-          "word": "kurpitsa",
-          "whyNotFamily": "iso oranssi kasvis"
         }
       ]
     },
@@ -960,20 +917,16 @@
       ],
       "lookAlikes": [
         {
-          "word": "meri",
-          "whyNotFamily": "alkaa samoin kuin \"metsä\", mutta sitä ei ole tehty kuvan sanasta"
+          "word": "mehiläinen",
+          "whyNotFamily": "hyönteinen, joka tekee hunajaa"
         },
         {
-          "word": "mehu",
-          "whyNotFamily": "alkaa samoin kuin \"metsä\", mutta sitä ei ole tehty kuvan sanasta"
+          "word": "metallinen",
+          "whyNotFamily": "sana on tehty sanasta \"metalli\", ei kuvan sanasta"
         },
         {
           "word": "mekko",
           "whyNotFamily": "alkaa samoin kuin \"metsä\", mutta sitä ei ole tehty kuvan sanasta"
-        },
-        {
-          "word": "mehiläinen",
-          "whyNotFamily": "hyönteinen, joka tekee hunajaa"
         }
       ]
     },
@@ -995,11 +948,6 @@
           "word": "vuoristo",
           "kind": "derived",
           "slot": "noun-thing"
-        },
-        {
-          "word": "vuorinen",
-          "kind": "derived",
-          "slot": "adjective"
         }
       ],
       "lookAlikes": [
@@ -1035,9 +983,9 @@
         "frame": "Laiturilla istui {gap}, jolla oli pitkä onkivapa."
       },
       {
-        "word": "kalakeitto",
+        "word": "kalastus",
         "slot": "noun-thing",
-        "frame": "Lounaaksi oli lämmin {gap}."
+        "frame": "Isän mieluisin harrastus on {gap}."
       },
       {
         "word": "kalaisa",
@@ -1045,26 +993,26 @@
         "frame": "Tämä järvi on hyvin {gap}, sillä siinä ui paljon ahvenia."
       }
     ],
-    "väri": [
+    "ilo": [
       {
-        "word": "värittää",
-        "slot": "verb",
-        "frame": "Saat {gap} kuvan kynillä, kun olet piirtänyt sen."
-      },
-      {
-        "word": "värikynä",
-        "slot": "noun-thing",
-        "frame": "Pöydällä on punainen {gap}, jolla voit piirtää."
-      },
-      {
-        "word": "värikäs",
+        "word": "iloinen",
         "slot": "adjective",
-        "frame": "Papukaija on hyvin {gap} lintu."
+        "frame": "Olin hyvin {gap}, kun sain uuden pyörän."
       },
       {
-        "word": "värikkäästi",
+        "word": "iloisesti",
         "slot": "adverb",
-        "frame": "Lapset koristelivat luokan {gap} juhlaa varten."
+        "frame": "Koira heilutti häntäänsä {gap}, kun näki minut."
+      },
+      {
+        "word": "iloita",
+        "slot": "verb",
+        "frame": "Lapset alkoivat {gap} ensilumesta."
+      },
+      {
+        "word": "iloisuus",
+        "slot": "noun-thing",
+        "frame": "Hänen {gap} tarttui koko luokkaan."
       }
     ]
   },
@@ -1149,7 +1097,6 @@
       "rauha"
     ],
     "F1": [
-      "weather/sun",
       "spring/cloud",
       "body parts/hand",
       "spring/bird",
@@ -1170,7 +1117,7 @@
     ],
     "F5": [
       "kala",
-      "väri"
+      "ilo"
     ]
   },
   "refuse": {

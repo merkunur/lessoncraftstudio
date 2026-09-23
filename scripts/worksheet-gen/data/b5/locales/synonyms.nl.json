@@ -148,17 +148,6 @@
       ]
     },
     {
-      "id": "g.smart",
-      "concept": "smart",
-      "pos": "adj",
-      "domain": "thinking",
-      "tier": 2,
-      "words": [
-        "slim",
-        "pienter"
-      ]
-    },
-    {
       "id": "g.brave",
       "concept": "brave",
       "pos": "adj",
@@ -200,17 +189,6 @@
       "words": [
         "luid",
         "lawaaierig"
-      ]
-    },
-    {
-      "id": "g.cozy",
-      "concept": "cozy",
-      "pos": "adj",
-      "domain": "senses",
-      "tier": 2,
-      "words": [
-        "gezellig",
-        "knus"
       ]
     },
     {
@@ -423,11 +401,6 @@
       "a": "verbaasd",
       "b": "bang",
       "why": "schrikken is verrast zijn met angst"
-    },
-    {
-      "a": "gezellig",
-      "b": "netjes",
-      "why": "een kamer kan allebei zijn; niet hetzelfde"
     }
   ],
   "nearOnly": [
@@ -592,12 +565,12 @@
       ]
     },
     {
-      "id": "s.eat",
-      "pos": "verb",
+      "id": "s.dark",
+      "pos": "adj",
       "words": [
-        "knabbelen",
-        "eten",
-        "schrokken"
+        "schemerig",
+        "donker",
+        "pikdonker"
       ]
     },
     {
@@ -610,12 +583,12 @@
       ]
     },
     {
-      "id": "s.knock",
-      "pos": "verb",
+      "id": "s.full",
+      "pos": "adj",
       "words": [
-        "tikken",
-        "kloppen",
-        "bonken"
+        "halfvol",
+        "vol",
+        "propvol"
       ]
     },
     {

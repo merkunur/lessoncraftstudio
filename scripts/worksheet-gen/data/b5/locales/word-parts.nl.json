@@ -211,9 +211,9 @@
           "slot": "verb"
         },
         {
-          "word": "bouwvallig",
-          "kind": "derived",
-          "slot": "adjective"
+          "word": "nabouwen",
+          "kind": "prefixed",
+          "slot": "verb"
         },
         {
           "word": "verbouwen",
@@ -612,6 +612,126 @@
           "whyNotFamily": "een heel grote man"
         }
       ]
+    },
+    {
+      "id": "zorg",
+      "stem": "zorg",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "zorg"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "zorgzaam",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "verzorger",
+          "kind": "prefixed",
+          "slot": "noun-person"
+        },
+        {
+          "word": "verzorgster",
+          "kind": "prefixed",
+          "slot": "noun-person"
+        },
+        {
+          "word": "verzorgen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "verzorging",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "zorgeloos",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "zorgvuldig",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "zout",
+          "whyNotFamily": "dat strooi je op je eten"
+        },
+        {
+          "word": "zoet",
+          "whyNotFamily": "zo smaakt suiker"
+        },
+        {
+          "word": "zomer",
+          "whyNotFamily": "het warmste seizoen; alleen \"zo\" is hetzelfde"
+        }
+      ]
+    },
+    {
+      "id": "brand",
+      "stem": "brand",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "brand"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "brandje",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "brandbaar",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "verbranden",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "afbranden",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "aanbranden",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "verbranding",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "brandend",
+          "kind": "derived",
+          "slot": "adverb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "brood",
+          "whyNotFamily": "dat eet je bij het ontbijt"
+        },
+        {
+          "word": "brief",
+          "whyNotFamily": "die stuur je met de post"
+        },
+        {
+          "word": "bril",
+          "whyNotFamily": "die zet je op je neus"
+        }
+      ]
     }
   ],
   "picFamilies": [
@@ -827,48 +947,48 @@
     }
   ],
   "sentences": {
-    "werk": [
+    "zorg": [
       {
-        "word": "meewerken",
+        "word": "verzorgen",
         "slot": "verb",
-        "frame": "Wil jij ook {gap} aan de schoolkrant?"
+        "frame": "Wie gaat in de vakantie onze konijnen {gap}?"
       },
       {
-        "word": "medewerker",
+        "word": "verzorger",
         "slot": "noun-person",
-        "frame": "Een {gap} van de dierentuin geeft de apen eten."
+        "frame": "De {gap} in de dierentuin geeft de olifant een bad."
       },
       {
-        "word": "werkplaats",
+        "word": "verzorging",
         "slot": "noun-thing",
-        "frame": "Opa maakt een houten kist in zijn {gap}."
+        "frame": "Het zieke vogeltje krijgt goede {gap} in de dierenkliniek."
       },
       {
-        "word": "werkloos",
+        "word": "zorgzaam",
         "slot": "adjective",
-        "frame": "Toen de fabriek dichtging, was de buurman een tijdje {gap}."
+        "frame": "Mijn grote zus is heel {gap}: ze helpt me altijd met mijn jas."
       }
     ],
-    "bouw": [
+    "brand": [
       {
-        "word": "verbouwen",
+        "word": "verbranden",
         "slot": "verb",
-        "frame": "Mijn ouders gaan deze zomer de keuken {gap}."
+        "frame": "Au! De soep in de pan is nog {gap} heet."
       },
       {
-        "word": "bouwer",
-        "slot": "noun-person",
-        "frame": "De {gap} van de nieuwe school zet de laatste muur neer."
+        "word": "brandend",
+        "slot": "adverb",
+        "frame": "Pas op, de soep in de pan is nog {gap} heet!"
       },
       {
-        "word": "gebouw",
+        "word": "brandje",
         "slot": "noun-thing",
-        "frame": "Het hoogste {gap} van de stad heeft dertig verdiepingen."
+        "frame": "In de keuken was een klein {gap}, maar papa had het snel uit."
       },
       {
-        "word": "bouwvallig",
+        "word": "brandbaar",
         "slot": "adjective",
-        "frame": "Het oude schuurtje is zo {gap} dat het bijna instort."
+        "frame": "Papier is {gap}, dus leg het nooit vlak bij een kaars."
       }
     ]
   },
@@ -1147,23 +1267,6 @@
       "stemSigned": true
     },
     {
-      "key": "singer",
-      "base": "zingen",
-      "answer": {
-        "m": "zanger",
-        "f": "zangeres"
-      },
-      "stemSigned": true
-    },
-    {
-      "key": "gardener",
-      "base": "tuin",
-      "answer": {
-        "m": "tuinier",
-        "f": "tuinierster"
-      }
-    },
-    {
       "key": "athlete",
       "base": "hardlopen",
       "answer": {
@@ -1206,6 +1309,24 @@
         "m": "rechter",
         "f": "rechter"
       }
+    },
+    {
+      "key": "barber",
+      "base": "kappen",
+      "answer": {
+        "m": "kapper",
+        "f": "kapster"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "mail_carrier_2",
+      "base": "bezorgen",
+      "answer": {
+        "m": "bezorger",
+        "f": "bezorgster"
+      },
+      "stemSigned": true
     }
   ],
   "exemplar": {
@@ -1233,8 +1354,8 @@
       "fiets"
     ],
     "F5": [
-      "werk",
-      "bouw"
+      "zorg",
+      "brand"
     ]
   },
   "refuse": {

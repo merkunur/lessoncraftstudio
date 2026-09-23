@@ -76,9 +76,9 @@
   ],
   "phaseNames": {
     "0": "Neumond",
-    "2": "zunehmend",
+    "2": "erstes Viertel",
     "4": "Vollmond",
-    "6": "abnehmend"
+    "6": "letztes Viertel"
   },
   "planets": {
     "mercury": "Merkur",
@@ -120,7 +120,7 @@
     },
     "planets-in-order": {
       "title": "Die Planeten in der Reihenfolge von der Sonne aus",
-      "instruction": "Schreibe den Namen jedes Planeten auf seine Linie, beginne neben der Sonne und nimm jeden Namen aus dem Kasten einmal."
+      "instruction": "Schreibe den Namen jedes Planeten auf seine Linie, beginne neben der Sonne und nimm jeden Namen von den Karten einmal."
     },
     "planet-sizes": {
       "title": "Riesenplaneten und Gesteinsplaneten",

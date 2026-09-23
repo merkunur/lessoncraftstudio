@@ -136,7 +136,7 @@
     },
     "compass-rose": {
       "title": "Verdenshjørner: udfyld kompasrosen",
-      "instruction": "Hver kompasrose viser ét bogstav: skriv de tre andre bogstaver i de tomme felter."
+      "instruction": "Den orange spids peger altid mod nord; skriv de tre manglende bogstaver i de tomme felter på hver kompasrose."
     },
     "continents": {
       "title": "Verdensdele: skriv navnene på kortet",

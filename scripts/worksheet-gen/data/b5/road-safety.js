@@ -80,7 +80,7 @@ const ROAD_SAFETY = {
     meanings: {
       stop: 'Every car must halt here, then look.',
       yield: 'Slow down and let the others go first.',
-      crossing: 'People may walk across the road here.',
+      crossing: 'Watch for people crossing the road.',   // W11-2 WARNS drivers; "may walk" read as permission (review 2026-09-23)
       school: 'Children walk here on their way to class.',
       'no-entry': 'Cars may never drive in this way.',
       'signal-ahead': 'Watch out, a traffic light is coming.',

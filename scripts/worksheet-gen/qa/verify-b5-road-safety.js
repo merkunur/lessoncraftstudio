@@ -30,9 +30,11 @@
  *    with the rays left in place (the gate must STAY GREEN — it never reads the
  *    stamp) · PR6 the pedestrian head 20 px down · PR7 the it pill literal
  *    "attraversare" · PR9 a forced SGSGSG order · PR10 a code colour outside
- *    [data-lcs-signal] · PR11 a face config fed to the base build. PR2 / PR3 /
- *    PR4 / PR8 belong to the Phase-E faces (F1 / F2 / F5 / F4); the PR3 mirror
- *    class is already poisoned at the primitive (verify-b5-road-pictogram.js).
+ *    [data-lcs-signal] · PR11 a face config that lost its mode fed to the base
+ *    build · PR11b a misspelt face mode.
+ * 7. THE FIVE FACES (Phase E): qa/b5-road-safety-faces.js — sweeps, renders at
+ *    814 / 722 / 677 + the Vienna fixture + greyscale, FILL / SPARSE, and the face
+ *    poisons PR2 / PR3 / PR4 / PR8 + the per-page tells + apparatus rule 9.
  */
 'use strict';
 const fs = require('fs');
@@ -71,6 +73,21 @@ const sentences = (s) => String(s).trim().split(/(?<=[.!?])\s+(?=\S)/u).filter(B
 /** The words printed inside a sign (its `text`, `|` = a line break). */
 const signWords = (sign) => String(sign.text || '').split(/[|\s]+/).filter(Boolean).map(nfc);
 const containsWord = (text, w) => new RegExp(`(?<!\\p{L})${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?!\\p{L})`, 'iu').test(nfc(text));
+
+/** en apparatus words (letter-bounded) and which face prints which (design §5 rule 9) */
+const APPARATUS = Object.fromEntries(Object.entries({
+  box: 'box(?:es)?', line: 'lines?', circle: 'circl(?:e|es|ed|ing)', letter: 'letters?', lamp: 'lamps?', ray: 'rays?', sign: 'signs?',
+  group: 'groups?', sentence: 'sentences?', colour: 'colou?r(?:s|ed|ing)?', dot: 'dots?', bin: 'bins?', arrow: 'arrows?', card: 'cards?',
+  picture: 'pictures?', row: 'rows?', word: 'words?', number: 'numbers?|numerals?', cut: 'cut', tick: 'tick',
+}).map(([k, v]) => [k, new RegExp(`(?<!\\p{L})(?:${v})(?!\\p{L})`, 'iu')]));
+const APPARATUS_ALLOWED = {
+  base: ['lamp', 'circle'],
+  'colour-lights': ['lamp', 'ray', 'colour'],
+  'crossing-steps': ['box', 'number'],
+  'sign-meaning': ['line', 'sign'],
+  'sign-kinds': ['letter', 'sign', 'box', 'group'],
+  'sign-quiz': ['sentence', 'circle', 'sign'],
+};
 
 function validateBank(block, loc, common = COMMON) {
   const E = [];
@@ -208,6 +225,17 @@ function validateBank(block, loc, common = COMMON) {
   }
   // rule 9 (apparatus, en): the base names only a lamp + circling
   if (loc === 'en' && S.base && !(/lamp|light/i.test(S.base.instruction) && /circle/i.test(S.base.instruction))) e(9, 'the base instruction does not name the lamp and the circling');
+  // rule 9 (apparatus per face, en; the K-369 base review lesson "the instruction names ONLY apparatus present on
+  // this face's page"): every apparatus word an instruction uses must be printed on that face; the faces' apparatus
+  // is design §5 rule 9 (F1 lamps with rays + colour; F2 boxes + numbers; F3 a line; F4 letters + boxes / groups;
+  // F5 a sentence + circling). Letter-boundary, so "lines" and "colored" are caught and "online" is not.
+  if (loc === 'en') {
+    for (const [m, allowed] of Object.entries(APPARATUS_ALLOWED)) {
+      const ins = S[m] && S[m].instruction;
+      if (typeof ins !== 'string') continue;
+      for (const [word, re] of Object.entries(APPARATUS)) if (re.test(ins) && !allowed.includes(word)) e(9, `strings.${m}.instruction names "${word}", which is not on the ${m} page`);
+    }
+  }
   return E;
 }
 
@@ -444,8 +472,12 @@ async function renderPoisons(page) {
   K.judge('PR14 the old space-evenly stage at the 814 chrome (sparse)', verifyOf(pr14), /sparse: a \d+ px empty band between consecutive blocks \(> 40\)/, ctl14);
   // PR11 a face config fed to the base build (a guard written on the level index would let it through)
   let msg = '';
-  try { SPEC._buildWith({ block: en, config: { mode: 'colour-lights', layout: 'lights', lights: 6, car: 6, ped: 0, fill: 'none', lampD: 70 } }, { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { msg = e.message; }
-  K.judge('PR11 a face config fed to the base build', msg ? [msg] : [], /layout "lights" is not the base fork/, ctl);
+  // Phase E: a config WITH a face mode now builds that face (the one additive knob), so the class this poison guards
+  // is a face-shaped config that LOST its mode — the base build must refuse it on the resolved config's own keys
+  try { SPEC._buildWith({ block: en, config: { layout: 'lights', lights: 6, car: 6, ped: 0, fill: 'none', lampD: 70 } }, { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { msg = e.message; }
+  K.judge('PR11 a face config without its mode fed to the base build', msg ? [msg] : [], /layout "lights" is not the base fork/, ctl);
+  let m11 = ''; try { SPEC._buildWith({ block: en, config: { ...SPEC.difficulty[2], mode: 'colour-light' } }, { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m11 = e.message; }
+  K.judge('PR11b a misspelt face mode', m11 ? [m11] : [], /unknown mode "colour-light"/, ctl);
   // refusal: an unauthored locale / an unset pedLight.stop
   let m2 = ''; try { SPEC.build({ difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); } catch (e) { m2 = e.message; }
   K.judge('PR12 an unauthored locale (de) refuses', m2 ? [m2] : [], /has no de block/, ctl);
@@ -462,7 +494,13 @@ async function main() {
   console.log(`validateBank: ${locs.length} authored block(s) (${locs.join(', ')})`);
   dataPoisons(mod.en);
   fs.mkdirSync(OUTDIR, { recursive: true });
-  const rows = await H.withBrowser(async (page) => { const r = await renderGate(page, quick); await renderPoisons(page); return r; });
+  const rows = await H.withBrowser(async (page) => {
+    const r = await renderGate(page, quick);
+    await renderPoisons(page);
+    // Phase E: the five faces (sweeps, renders at 814 / 722 / 677, FILL + SPARSE, greyscale, the face poisons)
+    r.push(...await require('./b5-road-safety-faces.js').faceGate({ page, K, validateBank, fixture, quick, OUTDIR }));
+    return r;
+  });
   console.log('render:\n  ' + rows.join('\n  '));
   console.log('poisons:\n' + K.log.join('\n'));
   if (K.fails.length) console.log('FAILS:\n  ' + K.fails.slice(0, 40).join('\n  '));

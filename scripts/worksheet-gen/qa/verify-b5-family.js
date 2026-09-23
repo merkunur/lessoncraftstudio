@@ -203,6 +203,12 @@ function validateBank(block, loc, opts = {}) {
     if (slots.length) E(`rule 7: riddle ${p} carries ${slots.join(',')}`);
   }
   errs.push(...bankRule7(block));
+  // rule 7 (instruction half): the "a word can fit more than one riddle" clause rides in the F4 instruction IFF repeatsNote
+  { const ri = strings['relation-riddles'] && strings['relation-riddles'].instruction;
+    const has = !!(ri && block.repeatsNoteText && ri.includes(block.repeatsNoteText));
+    if (ri && !!block.repeatsNote !== has) E(`rule 7: repeatsNote ${!!block.repeatsNote} but the F4 instruction ${has ? 'carries' : 'lacks'} the repeatsNoteText clause`); }
+  // NBSP: no U+00A0 in any literal of the block (it leaks into every SEO string; page.css balances titles instead)
+  if (/\u00A0/.test(JSON.stringify(block))) E('NBSP: the block carries a U+00A0 (titles wrap balanced in page.css; an NBSP leaks into SEO strings)');
   // rule 8
   const amb = new Set((AMBIGUOUS_GEN[loc] || []).map((x) => x.toLowerCase()));
   for (const w of block.generationOK || []) {
@@ -210,7 +216,8 @@ function validateBank(block, loc, opts = {}) {
     const gens = new Set(Object.entries(kin).filter(([, v]) => v === w).map(([p]) => FT.genOf(p)));
     if (gens.size !== 1) E(`rule 8: ${w} has ${gens.size} generations in ${loc}`);
     if (amb.has(words[w].text.toLowerCase())) E(`rule 8: ${loc} "${words[w].text}" is generation-ambiguous (cousin AND nephew / niece)`);
-    if (opts.measure && opts.measure(words[w].text) > 141 && !/\s/.test(words[w].text)) E(`rule 8: "${words[w].text}" is one word wider than 141 px at Nunito 800 18`);
+    // F1 as built (faces record): the placard chip is 137 px of Nunito 800 **20** (the design said 141 at 18); opts.measure(text) measures at 20
+    if (opts.measure && opts.measure(words[w].text) > 137 && !/\s/.test(words[w].text)) E(`rule 8: "${words[w].text}" is one word wider than 137 px at Nunito 800 20 (the F1 placard)`);
   }
   // rule 9 — every glyph of every word the F2 pool offers (the d2 family: M F Z B + one grand couple — no baby,
   // no aunt / cousin) is traceable, and holds glyphH 40 at lane w 321
@@ -273,6 +280,7 @@ function validateBank(block, loc, opts = {}) {
 /* ------------------------------------------------------------------ the run */
 let assertions = 0;
 const fails = [];
+const POISON = { n: 0, killed: 0 };
 function ok(c, m) { assertions++; if (!c) fails.push(m); return !!c; }
 const clone = (o) => JSON.parse(JSON.stringify(o));
 
@@ -283,6 +291,7 @@ function synthetic(loc) {
     Object.assign(b.words, { mormor: { text: 'mormor', register: 'K' }, morfar: { text: 'morfar', register: 'K' }, farmor: { text: 'farmor', register: 'K' }, farfar: { text: 'farfar', register: 'K' }, moster: { text: 'moster', register: 'K' }, faster: { text: 'faster', register: 'K' }, morbror: { text: 'morbror', register: 'K' }, farbror: { text: 'farbror', register: 'K' } });
     Object.assign(b.kin, { MM: 'mormor', MF: 'morfar', FM: 'farmor', FF: 'farfar', MZ: 'moster', FZ: 'faster', MB: 'morbror', FB: 'farbror' });
     b.repeatsNote = false;
+    b.strings['relation-riddles'].instruction = 'Read each riddle and write the right family word from the box on the line.';   // no repeats → no clause (rule 7)
     b.generationOK = ['mormor', 'morfar', 'farmor', 'farfar', 'mom', 'dad', 'moster', 'faster', 'morbror', 'farbror', 'sister', 'brother', 'cousin'];
     b.distractors = ['mom', 'dad'];
     for (const k of ['grandma', 'grandpa', 'aunt', 'uncle']) delete b.words[k];
@@ -331,7 +340,7 @@ async function main() {
     const r = (e) => e.getBoundingClientRect();
     const body = document.querySelector('.ws-body'), foot = document.querySelector('.ws-foot'), title = document.querySelector('.ws-title'), ins = document.querySelector('.ws-instruction');
     // the bust's BOX (its height attribute through the stage CTM); a nested <svg>'s client rect is only its ink bbox
-    const figs = [...document.querySelectorAll('svg[data-lcs-figure]')].map((s) => s.height.baseVal.value * s.ownerSVGElement.getScreenCTM().d);
+    const figs = [...document.querySelectorAll('svg[data-lcs-figure]')].map((s) => (s.ownerSVGElement ? s.height.baseVal.value * s.ownerSVGElement.getScreenCTM().d : s.getBoundingClientRect().height));
     const inks = [...document.querySelectorAll('svg[data-lcs-figure]')].map((s) => r(s).height);
     const frames = [...document.querySelectorAll('rect[data-lcs-frame]')].map((s) => r(s).width);
     const chips = [...document.querySelectorAll('[data-lcs-chip-text]')].map((c) => ({ h: r(c).height, clip: c.scrollWidth > c.clientWidth + 0.5 }));
@@ -471,11 +480,13 @@ async function main() {
     // 5. POISONS
     const expectFail = (name, errs, re) => {
       const hit = errs.find((e) => re.test(e));
+      POISON.n++; if (hit) POISON.killed++;
       ok(!!hit, `poison ${name} did not fail for its reason (got ${JSON.stringify(errs).slice(0, 300)})`);
       console.log(`poison ${name}: ${hit ? 'FAILED as required — ' + hit : 'SILENT'}`);
     };
     const expectThrow = (name, fn, re) => {
       let msg = null; try { fn(); } catch (e) { msg = e.message; }
+      POISON.n++; if (msg && re.test(msg)) POISON.killed++;
       ok(msg && re.test(msg), `poison ${name}: ${msg ? 'threw for the wrong reason: ' + msg : 'did not throw'}`);
       console.log(`poison ${name}: ${msg && re.test(msg) ? 'FAILED as required — ' + msg : 'SILENT'}`);
     };
@@ -523,8 +534,12 @@ async function main() {
     { const b = clone(en); b.names[0] = { name: 'Mia', sex: 'f', gen: 'di Mia' }; expectFail('P16 it name "Mia"', validateBank(b, 'it'), /rule 3: name "Mia" is also a word \/ frame token in it/); }
     // a locale the panels have not authored REFUSES (never an en fallback)
     expectThrow('refusal: the de block is absent', () => TYPE.build({ theme: null, difficulty: 2, locale: 'de' }, { rng: makeRng('de') }), /has no de block/);
-    // PR7 — a face config fed to the base
-    expectThrow('PR7 a face config fed to the base', () => TYPE._buildWith(en, { ...TYPE.difficulty[2], mode: 'generations' }, { locale: 'en' }, { rng: makeRng('pr7') }), /Phase-2 face/);
+    // PR7 — the guard keys on the RESOLVED config: a face config fed to the base builds THAT face (stamped), never the
+    //        base under a face's name; an unknown mode throws (a guard written `difficulty === 2` would be blind to both)
+    { const b7 = TYPE._buildWith(en, { ...TYPE.difficulty[2], mode: 'generations', rows: 6, minSideline: 4, maxPerSlot: 3, legend: [170, 110], legendPx: 88, rowH: 60, rowGap: 8, chipPx: 20, box: [52, 48] }, { locale: 'en' }, { rng: makeRng('pr7') });
+      ok(/data-lcs-mode="generations"/.test(b7.bodyHtml) && !/data-lcs-kinblock/.test(b7.bodyHtml), 'PR7: a generations config rendered the base');
+      console.log('PR7 control: a generations config builds the generations face (data-lcs-mode="generations", no base word block)'); }
+    expectThrow('PR7 an unknown mode fed to the base', () => TYPE._buildWith(en, { ...TYPE.difficulty[2], mode: 'bogus' }, { locale: 'en' }, { rng: makeRng('pr7') }), /unknown mode "bogus"/);
     // the render poisons: the d2 page, doctored
     const base = TYPE._buildWith(en, TYPE.difficulty[2], { locale: 'en' }, { rng: makeRng('K-370|none|2|1') });
     const ctl = await renderBody(base.bodyHtml, 'K-370-gate-poison-control');
@@ -582,13 +597,278 @@ async function main() {
       }
       ok(garmentSexFails(ctlH).length === 0, `GC2 control: ${garmentSexFails(ctlH).join(' | ')}`);
       expectFail('GC2 sex-keyed garment fills', garmentSexFails(hs), /GARMENT: fill #F.* only by sex f/); }
-    console.log('poison PR6 (F5 connector between mats): DEFERRED — F5 (tree-template) is a Phase-2 face, not built');
+    await faceGate({ page, render: null, renderBody, measure, expectFail, expectThrow, ok, CHROME, OUT, quick, garmentSexFails });
   } finally { await browser.close(); }
 
   console.log(`verify-b5-family: ${assertions} assertions, ${fails.length} failures`);
-  if (fails.length) { for (const f of fails.slice(0, 40)) console.log('  FAIL ' + f); process.exit(1); }
-  console.log('PASS');
+  if (fails.length) { for (const f of fails.slice(0, 40)) console.log('  FAIL ' + f); console.log(`FAIL (${assertions} assertions, ${fails.length} failures, ${POISON.killed}/${POISON.n} poisons killed)`); process.exit(1); }
+  console.log(`PASS (${assertions} assertions, ${POISON.killed}/${POISON.n} poisons killed)`);
 }
 
-module.exports = { validateBank, checkClueTree, checkGenRow, f2GlyphH, bankRule7 };
+/* ================================================================== THE FIVE FACES (Phase E, 2026-09-23) */
+const FACES = [
+  { id: 'G1-385', mode: 'generations', band: 'G1' },
+  { id: 'K-375', mode: 'trace-words', band: 'K' },
+  { id: 'G1-386', mode: 'tree-clues', band: 'G1' },
+  { id: 'G2-362', mode: 'relation-riddles', band: 'G2' },
+  { id: 'G1-387', mode: 'tree-template', band: 'G1' },
+];
+const ELEMENT_FLOOR = { K: 56, G1: 44, G2: 36 };
+const B = (w) => new RegExp(`(?<!\\p{L})${w}(?!\\p{L})`, 'iu');
+/** the EN apparatus vocabulary: an instruction may name ONLY what its face draws (nt10-E addition 4, the K-369 lesson) */
+const APPARATUS = { tree: B('trees?'), box: B('box(?:es)?'), number: B('numbers?'), line: B('lines?'), clue: B('clues?'), riddle: B('riddles?'), frame: B('frames?'),
+  word: B('words?'), name: B('names?'), row: B('rows?'), picture: B('pictures?'), card: B('cards?'), chip: B('chips?'), bank: B('bank'), dot: B('dott?(?:ed|s)?'), plate: B('plates?') };
+/** what each face draws (the DOM proof that the named apparatus is on THIS page) */
+const PRESENT = {
+  generations: { row: '[data-lcs-genrow-band]', box: '[data-lcs-genbox]', word: '[data-lcs-genword]', picture: 'svg[data-lcs-genrail] svg[data-lcs-figure]', number: '[data-lcs-gen-disc]' },
+  'trace-words': { tree: '[data-lcs-tree]', number: '[data-lcs-disc]', word: 'svg[data-lcs-prim="trace-word"]', line: 'svg[data-lcs-prim="trace-word"]' },
+  'tree-clues': { tree: '[data-lcs-tree]', clue: '[data-lcs-clue-path]', name: '[data-lcs-plate-for]', box: '[data-lcs-namebox]' },
+  'relation-riddles': { riddle: '[data-lcs-riddle]', word: '[data-lcs-bank-word]', box: '[data-lcs-bank-banner]', line: '[data-lcs-riddle-path] svg[data-lcs-prim="writing-row"]' },
+  'tree-template': { frame: '[data-lcs-mat]', name: 'svg[data-lcs-nameline]', line: 'svg[data-lcs-nameline]' },
+};
+const FLOOR_SEL = {
+  generations: ['[data-lcs-genword]', '[data-lcs-genbox]'],
+  'trace-words': ['[data-lcs-trace-row]'],
+  'tree-clues': ['[data-lcs-plate-for]'],
+  'relation-riddles': ['[data-lcs-riddle-path]', '[data-lcs-bank-word]'],
+  'tree-template': ['svg[data-lcs-nameline]', '[data-lcs-mat]'],
+};
+function apparatusFails(mode, instruction, present) {
+  const f = [];
+  for (const [k, re] of Object.entries(APPARATUS)) {
+    if (!re.test(instruction)) continue;
+    if (!PRESENT[mode][k]) f.push(`APPARATUS: the ${mode} instruction names "${k}", which this face does not draw`);
+    else if (present && !present[k]) f.push(`APPARATUS: the ${mode} instruction names "${k}" but the rendered page has none (${PRESENT[mode][k]})`);
+  }
+  return f;
+}
+
+async function faceGate({ page, renderBody, expectFail, expectThrow, ok, CHROME, OUT, quick, garmentSexFails }) {
+  const { loadType } = require('../lib/load-types.js');
+  const { renderInstance } = require('../render/render-instance.js');
+  const { makeRng } = require('../lib/rng.js');
+  const TYPE = require('../types/k/K-370-family.js');
+  const en = FAMILY.en;
+  const CODE_HEX = Object.values(tokens.codeColors).map((c) => c.toUpperCase());
+  const measureFace = (mode) => page.evaluate((mode, PRESENT, FLOOR_SEL, CODE_HEX) => {
+    const r = (e) => e.getBoundingClientRect();
+    const body = document.querySelector('.ws-body'), foot = document.querySelector('.ws-foot');
+    const title = document.querySelector('.ws-title'), ins = document.querySelector('.ws-instruction');
+    const root = document.querySelector('[data-lcs-family]');
+    let minFont = Infinity, lowest = 0;
+    document.querySelectorAll('.ws-body *').forEach((el) => {
+      const b = r(el); if (b.width && b.height && b.bottom > lowest) lowest = b.bottom;
+      if ([...el.childNodes].some((n) => n.nodeType === 3 && n.textContent.trim())) minFont = Math.min(minFont, el.tagName.toLowerCase() === 'text' ? +el.getAttribute('font-size') : parseFloat(getComputedStyle(el).fontSize));
+    });
+    const blocks = [...root.querySelectorAll(':scope > [data-lcs-block]')].map((b) => r(b));
+    const bands = blocks.length ? [blocks[0].top - r(body).top, ...blocks.slice(1).map((b, i) => b.top - blocks[i].bottom)] : null;
+    const floors = {};
+    // a nested <svg>'s client rect is its INK bbox: measure its box (height attribute through the owner CTM)
+    const hOf = (e) => (e.tagName.toLowerCase() === 'svg' && e.ownerSVGElement ? e.height.baseVal.value * e.ownerSVGElement.getScreenCTM().d : r(e).height);
+    for (const sel of FLOOR_SEL[mode]) floors[sel] = Math.min(...[...document.querySelectorAll(sel)].map(hOf));
+    const figs = [...document.querySelectorAll('svg[data-lcs-figure]')].map((s) => (s.ownerSVGElement ? s.height.baseVal.value * s.ownerSVGElement.getScreenCTM().d : s.getBoundingClientRect().height));
+    const frames = [...document.querySelectorAll('rect[data-lcs-frame]')].map((s) => r(s).width);
+    const present = {}; for (const [k, sel] of Object.entries(PRESENT[mode])) present[k] = !!document.querySelector(sel);
+    const html = body.innerHTML.toUpperCase();
+    const content = [...root.querySelectorAll('*')].reduce((m, el) => { const b = r(el); return b.width && b.height ? Math.max(m, b.bottom) : m; }, 0);
+    return { body: r(body).height, bodyTop: r(body).top, bodyBottom: r(body).bottom, content, foot: r(foot).top, lowest, minFont, bands, floors, figs, frames, present, title: title.textContent.trim(), instruction: ins.textContent.trim(),
+      imgs: document.querySelectorAll('.ws-body img').length, code: CODE_HEX.filter((h) => html.includes(h)) };
+  }, mode, PRESENT, FLOOR_SEL, CODE_HEX);
+  const SPARSE_MAX = 40;
+  const sparse = (m, tag) => {
+    if (!m.bands || !m.bands.length) return [`${tag}: SPARSE — no blocks measured`];
+    const f = [];
+    if (Math.max(...m.bands) > SPARSE_MAX) f.push(`${tag}: SPARSE — a ${Math.round(Math.max(...m.bands))} px blank band between blocks (> ${SPARSE_MAX})`);
+    if (Math.min(...m.bands) < -0.5) f.push(`${tag}: OVERLAP — a block rides ${Math.round(-Math.min(...m.bands))} px into the one above`);
+    return f;
+  };
+  /** FILL (lead note 2026-09-23): the content reaches >= 85 % of the body at the 814 chrome and stays inside it at 677 */
+  const FILL_MIN = 0.85;
+  const fillFails = (m, tag, k) => {
+    const frac = (m.content - m.bodyTop) / m.body;
+    const f = [];
+    if (k === 'one' && frac < FILL_MIN - 1e-6) f.push(`${tag}: FILL — the content ends at ${(frac * 100).toFixed(1)} % of the ${Math.round(m.body)} px body (< ${FILL_MIN * 100} %)`);
+    if (m.content > m.bodyBottom + 0.5) f.push(`${tag}: FILL — the content runs ${Math.round(m.content - m.bodyBottom)} px past the body`);
+    return f;
+  };
+  const faceFloors = (m, face, tag) => {
+    for (const x of sparse(m, tag)) ok(false, x);
+    const fl = ELEMENT_FLOOR[face.band];
+    for (const [sel, h] of Object.entries(m.floors)) {
+      const want = sel === '[data-lcs-mat]' ? 44 : fl;   // a mat is a drawing area (>= 96 tree / 72 shelf), a writing element is the band floor
+      ok(Number.isFinite(h) && h >= want - 0.6, `${tag}: ${sel} ${Number.isFinite(h) ? h.toFixed(1) : 'none'} px < ${want}`);
+    }
+    if (face.mode !== 'tree-template') ok(m.figs.length >= 1 && Math.min(...m.figs) >= 72 - 0.6, `${tag}: a bust ${Math.min(...m.figs).toFixed(1)} px < 72`);
+    if (m.frames.length) ok(Math.min(...m.frames) >= 80 - 0.6, `${tag}: a frame ${Math.min(...m.frames).toFixed(1)} wide < 80`);
+    ok(m.minFont >= 16 - 0.01, `${tag}: text ${m.minFont} px < 16`);
+    ok(m.lowest <= m.foot + 0.5, `${tag}: content reaches the footer (${m.lowest.toFixed(1)} > ${m.foot.toFixed(1)})`);
+    ok(m.imgs === 0, `${tag}: <img> on the page`);
+    ok(m.code.length === 0, `${tag}: codeColors ${m.code.join(',')}`);
+  };
+
+  // 0. strings: one source (bank strings.<mode> === the face spec i18n.en === the printed chrome); no NBSP anywhere
+  const specs = Object.fromEntries(FACES.map((f) => [f.mode, loadType(f.id)]));
+  for (const f of FACES) {
+    const sp = specs[f.mode];
+    ok(sp.gradeBand === f.band, `${f.id}: gradeBand ${sp.gradeBand} ≠ ${f.band}`);
+    ok(sp.difficulty[2].mode === f.mode, `${f.id}: d2 mode ${sp.difficulty[2].mode}`);
+    ok(sp.i18n.en.title === en.strings[f.mode].title && sp.i18n.en.instruction === en.strings[f.mode].instruction, `${f.id}: the spec i18n.en ≠ the bank strings.${f.mode}`);
+    for (const s of [sp.i18n.en.title, sp.i18n.en.instruction]) ok(!/ /.test(s), `${f.id}: a U+00A0 in "${s}"`);
+    ok([...sp.i18n.en.instruction].length <= 150, `${f.id}: instruction > 150 chars`);
+    ok(!/(?<!\p{L})(worksheet|free)(?!\p{L})/iu.test(sp.i18n.en.title), `${f.id}: title carries worksheet / free`);
+  }
+
+  // 1. renders: d2 en under the default, the 722 (three-line) and the 677 (four-line fi) chromes
+  const shots = {};
+  for (const f of FACES) {
+    const sp = specs[f.mode];
+    for (const k of ['default', 'one', 'three', 'four']) {
+      const strings = k === 'default' ? undefined : CHROME[k];
+      const out = await renderInstance({ type: sp, theme: null, difficulty: 2, locale: 'en', page, outDir: OUT, baseName: k === 'default' ? `${f.id}-gate-d2-en` : `${f.id}-gate-d2-en-chrome-${k}`, strings });
+      const m = await measureFace(f.mode);
+      const tag = `${f.id} ${f.mode} [${k}]`;
+      ok(out.qa.verify.length === 0, `${tag}: verify ${JSON.stringify(out.qa.verify).slice(0, 400)}`);
+      ok(out.qa.lints.length === 0, `${tag}: lints ${JSON.stringify(out.qa.lints).slice(0, 300)}`);
+      faceFloors(m, f, tag);
+      for (const x of fillFails(m, tag, k)) ok(false, x);
+      if (k === 'default') {
+        ok(m.title === en.strings[f.mode].title && m.instruction === en.strings[f.mode].instruction, `${tag}: the printed chrome ≠ the bank strings`);
+        const ap = apparatusFails(f.mode, m.instruction, m.present);
+        ok(ap.length === 0, `${tag}: ${ap.join(' | ')}`);
+        shots[f.id] = out.pngPath;
+      } else ok(Math.abs(m.body - { one: 814, three: 722, four: 677 }[k]) <= 12, `${tag}: body ${Math.round(m.body)}`);
+      console.log(`render ${tag}: body ${Math.round(m.body)} stack ${out.meta.stackH}..${out.meta.stackMax} fill ${(((m.content - m.bodyTop) / m.body) * 100).toFixed(1)}% bands ${m.bands.map(Math.round).join('/')} lowest ${Math.round(m.lowest)} foot ${Math.round(m.foot)} floors ${Object.values(m.floors).map((v) => v.toFixed(0)).join('/')} busts ${m.figs.length ? Math.min(...m.figs).toFixed(0) : '-'} minFont ${m.minFont} verify ${out.qa.verify.length} lints ${out.qa.lints.length}` + (k === 'default' ? ` → ${out.pngPath}` : ''));
+    }
+  }
+
+  // 2. the seed sweep: verify clean on every seed; garment fill never tied to sex (pooled); pooled answer-position tells
+  if (!quick) {
+    const N = 12;
+    const htmls = [];
+    for (const f of FACES) {
+      const pos = {};
+      for (let v = 1; v <= N; v++) {
+        const out = await renderInstance({ type: specs[f.mode], theme: null, difficulty: 2, locale: 'en', page, outDir: OUT, baseName: `${f.id}-gate-sweep-v${v}`, variant: v });
+        ok(out.qa.verify.length === 0 && out.qa.lints.length === 0, `${f.id} sweep v${v}: verify ${JSON.stringify(out.qa.verify).slice(0, 300)} lints ${JSON.stringify(out.qa.lints).slice(0, 200)}`);
+        if (f.mode !== 'tree-template') htmls.push(out.html);
+        // F1: pooled per (slot, rank) over EVERY row of every page (6 rows x N pages), not one row per page
+        const key = f.mode === 'generations' ? out.meta.answers.flatMap((r) => r.map((g, sl) => 's' + sl + ':' + g))
+          : f.mode === 'relation-riddles' ? out.meta.answers.map((a, i) => i + ':' + a)
+            : f.mode === 'tree-clues' ? out.meta.clues.map((c, i) => i + ':' + c)
+              : f.mode === 'trace-words' ? out.meta.words.map((w, i) => i + ':' + w) : [];
+        for (const k of key) pos[k] = (pos[k] || 0) + 1;
+        for (const ext of ['pdfPath', 'pngPath']) if (out[ext]) fs.unlinkSync(out[ext]);
+        fs.unlinkSync(path.join(OUT, `${f.id}-gate-sweep-v${v}.html`));
+      }
+      const worst = Object.entries(pos).sort((a, b) => b[1] - a[1])[0];
+      const denom = f.mode === 'generations' ? N * 6 : N;
+      if (worst) ok(worst[1] / denom <= 0.5, `${f.id} sweep: position ${worst[0]} on ${worst[1]}/${denom} (> 50 %: a pooled answer-position tell)`);
+      console.log(`sweep ${f.id} ${f.mode} x ${N}: verify clean${worst ? ', worst position/answer ' + worst[0] + ' on ' + worst[1] + '/' + denom : ''}`);
+    }
+    const gs = garmentSexFails(htmls);
+    ok(gs.length === 0, `faces sweep: ${gs.join(' | ')}`);
+    console.log(`faces sweep garment fill <-> sex over ${htmls.length} pages: ${gs.length ? gs.join(' | ') : 'every fill worn by both sexes'}`);
+  }
+
+  // 3. POISONS — each must FAIL for its own reason; the untouched face page is the control
+  const buildFace = (f, over = {}, dOver = {}, seed = `${f.id}|none|2|1`, block = en) => TYPE._buildWith(block, { ...specs[f.mode].difficulty[2], ...dOver }, { locale: 'en' }, { rng: makeRng(seed) }, over);
+  const rb = (bodyHtml, name, f, strings) => renderBody(bodyHtml, name, strings || en.strings[f.mode]);
+  const F = Object.fromEntries(FACES.map((f) => [f.mode, f]));
+  const ctl = {};
+  for (const f of FACES) { const b = buildFace(f); const r = await rb(b.bodyHtml, `${f.id}-gate-poison-control`, f); ok(r.v.length === 0, `${f.id} poison control: ${JSON.stringify(r.v)}`); ctl[f.mode] = b; }
+  const swapAttr = (html, re, a, b) => { let i = 0; return html.replace(re, (m0) => (i++ === a ? '\u0001' : i - 1 === b ? '\u0002' : m0)); };
+  // F1
+  { const f = F.generations;
+    const b = buildFace(f, { rows: (rows) => [rows[0].slice().sort((x, y) => x.gen - y.gen), ...rows.slice(1)] });
+    expectFail('F1-PA a row printed in answer order', (await rb(b.bodyHtml, 'K-370-f1-pa', f)).v, /printed in answer order/);
+    const FFm = require('../primitives/family-figure.js');
+    const fig = FFm.familyFigure({ age: 'adult', sex: 'f', look: 'bun', px: 44 + 28, id: 'poison' }).svg;
+    const bad = ctl.generations.bodyHtml.replace('<span data-lcs-gen-chip=""', fig + '<span data-lcs-gen-chip=""');
+    ok(bad !== ctl.generations.bodyHtml, 'F1-PB needle');
+    expectFail('F1-PB a figure beside a word', (await rb(bad, 'K-370-f1-pb', f)).v, /a figure beside a word/);
+    const L1 = ctl.generations.bodyHtml.indexOf('data-lcs-gen-legend="1"');
+    const tail = ctl.generations.bodyHtml.slice(L1);
+    const oneSex = ctl.generations.bodyHtml.slice(0, L1) + tail.replace('data-lcs-sex="m"', 'data-lcs-sex="f"');
+    expectFail('F1-PC a legend frame of one sex', (await rb(oneSex, 'K-370-f1-pc', f)).v, /not one f \+ one m/);
+    const fills = [...tail.matchAll(/fill="(#[0-9A-F]{6})"([^>]*)data-lcs-garment=""/gi)];
+    const other = [tokens.color.tealSoft, tokens.color.coralSoft, tokens.color.creamDeep].find((c) => c.toUpperCase() !== fills[1][1].toUpperCase());
+    const twoFill = ctl.generations.bodyHtml.slice(0, L1) + tail.replace(fills[1][0], fills[1][0].replace(fills[1][1], other));
+    expectFail('F1-PD two garment fills in one legend frame (colour ~ sex)', (await rb(twoFill, 'K-370-f1-pd', f)).v, /two garment fills in one frame/);
+    // SPARSE both ways on this face (the 814 one-line chrome has the most slack)
+    const c1 = await rb(ctl.generations.bodyHtml, 'K-370-f1-sp-ctl', f, CHROME.one);
+    ok(sparse(await measureFace('generations'), 'F1 SP control').length === 0, 'F1 SP control fails');
+    const even = ctl.generations.bodyHtml.replace('justify-content:flex-start', 'justify-content:space-evenly');
+    await rb(even, 'K-370-f1-sp1', f, CHROME.one);
+    expectFail('F1-SP1 slack spread evenly (814 chrome)', sparse(await measureFace('generations'), 'F1-SP1'), /SPARSE/);
+    const ride = ctl.generations.bodyHtml.replace('<div data-lcs-block="1" style="', '<div data-lcs-block="1" style="margin-top:-80px;');
+    ok(ride !== ctl.generations.bodyHtml, 'F1-SP2 needle');
+    await rb(ride, 'K-370-f1-sp2', f);
+    expectFail('F1-SP2 the rows ridden into the legend', sparse(await measureFace('generations'), 'F1-SP2'), /OVERLAP/);
+    void c1;
+    // FILL both ways: growth removed (every flex-grow killed) at the 814 chrome ends high; mins inflated at 677 overrun
+    const rigid = ctl.generations.bodyHtml.split('flex:1 1 ').join('flex:0 0 ');
+    await rb(rigid, 'K-370-f1-fill1', f, CHROME.one);
+    const mf1 = await measureFace('generations');
+    ok(fillFails(await (async () => { await rb(ctl.generations.bodyHtml, 'K-370-f1-fill-ctl', f, CHROME.one); return measureFace('generations'); })(), 'FILL control', 'one').length === 0, 'FILL control (814) fails');
+    expectFail('FILL1 the rows do not grow (814 chrome)', fillFails(mf1, 'FILL1', 'one'), /FILL — the content ends at/);
+    const fat = ctl.generations.bodyHtml.replace(/min-height:68px/g, 'min-height:90px').replace(/flex:1 1 68px/g, 'flex:1 1 90px');
+    ok(fat !== ctl.generations.bodyHtml, 'FILL2 needle');
+    await rb(fat, 'K-370-f1-fill2', f, CHROME.four);
+    expectFail('FILL2 rows too tall for the 677 chrome', fillFails(await measureFace('generations'), 'FILL2', 'four'), /runs [0-9]+ px past the body/); }
+  // F2
+  { const f = F['trace-words'];
+    const lanes = [...ctl['trace-words'].bodyHtml.matchAll(/<svg [^>]*data-lcs-prim="trace-word"[\s\S]*?<\/svg>/g)].map((m) => m[0]);
+    ok(lanes.length === 4, `F2-PA needle: ${lanes.length} lanes`);
+    const swapped = ctl['trace-words'].bodyHtml.replace(lanes[0], '\u0001').replace(lanes[1], lanes[0]).replace('\u0001', lanes[1]);
+    expectFail('F2-PA two lanes swapped (the word no longer names the numbered person)', (await rb(swapped, 'K-370-f2-pa', f)).v, /the lane traces/);
+    const small = buildFace(f, {}, { glyphH: 30 });
+    expectFail('F2-PB a lane at glyphH 30 (the silent-shrink floor)', (await rb(small.bodyHtml, 'K-370-f2-pb', f)).v, /glyphH \d+(\.\d)? < 40/);
+    const noTrace = JSON.parse(JSON.stringify(en)); for (const k of ['mom', 'dad', 'sister', 'brother', 'grandma', 'grandpa']) noTrace.words[k].text = noTrace.words[k].text + 'œ';
+    expectThrow('F2-REF a locale whose tree words are not traceable REFUSES (never a filler)', () => buildFace(f, {}, {}, 'f2ref', noTrace), /traceable family words on the tree .* refuse/); }
+  // F3
+  { const f = F['tree-clues'];
+    const b = buildFace(f, { empty: (ps) => [ps.find((p) => p.path === ps.find((q) => /^[MF][ZB]$/.test(q.path)).path[0] + 'M'), ps.find((p) => p.path === ps.find((q) => /^[MF][ZB]$/.test(q.path)).path[0] + 'F'), ps.find((p) => /^[ZB]$/.test(p.path)), ps.find((p) => /^[MF][ZB]$/.test(p.path))] });
+    expectFail('F3-PA empty plates in four different (age, sex) cells', (await rb(b.bodyHtml, 'K-370-f3-pa', f)).v, /no same-\(age, sex\) pair/);
+    const boxes = [...ctl['tree-clues'].bodyHtml.matchAll(/data-lcs-answer="([^"]+)" data-lcs-namebox=""/g)];
+    const sexOf = Object.fromEntries(en.names.map((n) => [n.name, n.sex]));
+    const i0 = boxes.findIndex((x) => sexOf[x[1]] === 'f'), i1 = boxes.findIndex((x) => sexOf[x[1]] === 'm');
+    ok(i0 >= 0 && i1 >= 0, 'F3-PB needle: an f and an m empty plate');
+    let k = 0;
+    const sw = ctl['tree-clues'].bodyHtml.replace(/data-lcs-answer="([^"]+)" data-lcs-namebox=""/g, (m0) => { const j = k++; return j === i0 ? `data-lcs-answer="${boxes[i1][1]}" data-lcs-namebox=""` : j === i1 ? `data-lcs-answer="${boxes[i0][1]}" data-lcs-namebox=""` : m0; });
+    expectFail('F3-PB an f name on an m plate', (await rb(sw, 'K-370-f3-pb', f)).v, /sits on a [fm] plate/);
+    const ro = buildFace(f, { clueOrder: (order, reading) => reading.map((id) => order.find((p) => p.id === id)) });
+    expectFail('F3-PC the clues in the tree reading order', (await rb(ro.bodyHtml, 'K-370-f3-pc', f)).v, /reading order/); }
+  // F4
+  { const f = F['relation-riddles'];
+    const adj = buildFace(f, { order: (o) => ['MM', 'FM', 'MZ', 'MF', 'FZ', 'FF', 'MB', 'FB'] });
+    expectFail('F4-PA two riddles with one answer adjacent', (await rb(adj.bodyHtml, 'K-370-f4-pa', f)).v, /share the answer/);
+    const noAunt = ctl['relation-riddles'].bodyHtml.replace(/<span class="ws-bankword" data-lcs-bank-word="aunt"[^>]*>[^<]*<\/span>/, '');
+    ok(noAunt !== ctl['relation-riddles'].bodyHtml, 'F4-PB needle');
+    expectFail('F4-PB an answer missing from the bank', (await rb(noAunt, 'K-370-f4-pb', f)).v, /is not in the bank/);
+    const tree = ctl['relation-riddles'].bodyHtml.replace('<div data-lcs-riddles=""', `<svg width="10" height="10"><line x1="1" y1="1" x2="1" y2="9" stroke="${tokens.color.teal}" data-lcs-conn="drop"/></svg><div data-lcs-riddles=""`);
+    expectFail('F4-PC a tree drawn on the riddle page', (await rb(tree, 'K-370-f4-pc', f)).v, /a tree on the riddle page/);
+    { const b = JSON.parse(JSON.stringify(en)); b.strings['relation-riddles'].instruction = 'Read each riddle and write the right family word from the box on the line.';
+      expectFail('F4-RN repeatsNote true but no clause in the instruction', validateBank(b, 'en'), /rule 7: repeatsNote true but the F4 instruction lacks/); } }
+  // F5
+  { const f = F['tree-template'];
+    const h = ctl['tree-template'].bodyHtml;
+    const mats = [...h.matchAll(/data-lcs-mat="" data-lcs-shape="[^"]+" data-lcs-box="([^"]+)"/g)].map((m) => m[1].split(',').map(Number));
+    const [a, b2] = [mats[0], mats[1]];
+    const conn = h.replace('<line x1="0" y1="510"', `<line x1="${a[0] + a[2] / 2}" y1="${a[1] + a[3] / 2}" x2="${b2[0] + b2[2] / 2}" y2="${b2[1] + b2[3] / 2}" stroke="${tokens.color.teal}" stroke-width="3"/><line x1="0" y1="510"`);
+    ok(conn !== h, 'PR6 needle');
+    expectFail('PR6 F5 with one connector between two mats', (await rb(conn, 'K-370-pr6', f)).v, /a line joins two mats/);
+    const word = h.replace('<line x1="0" y1="510"', `<text x="100" y="300" font-size="18" fill="${tokens.color.ink}">mom</text><line x1="0" y1="510"`);
+    expectFail('F5-PB a kin word printed on the template', (await rb(word, 'K-370-f5-pb', f)).v, /the template prints|kin word "mom"/);
+    const br = h.replace('<line x1="0" y1="510"', `<path d="M 0 0" data-lcs-branch="" data-lcs-pts="${a[0] - 10},${a[1] + 40},8;${a[0] + a[2] + 10},${a[1] + 40},8"/><line x1="0" y1="510"`);
+    expectFail('F5-PC a branch through a mat', (await rb(br, 'K-370-f5-pc', f)).v, /a branch passes through a mat/); }
+  // the instruction names only apparatus on the page (a poison per direction) + the NBSP ban
+  ok(apparatusFails('relation-riddles', en.strings['relation-riddles'].instruction).length === 0, 'APP control: the F4 instruction');
+  expectFail('APP1 the F4 instruction names a tree (F4 draws none)', apparatusFails('relation-riddles', 'Read each riddle, look at the family tree and write the word on the line.'), /names "tree", which this face does not draw/);
+  expectFail('APP2 the F1 instruction names a line', apparatusFails('generations', 'Write the numbers 1, 2 and 3 on the lines in each row.'), /names "line"/);
+  { const b = JSON.parse(JSON.stringify(en)); b.strings.generations.title = 'Family Generations: Oldest to Youngest';
+    expectFail('NB1 a face title with a U+00A0', validateBank(b, 'en'), /NBSP/); }
+  for (const [id, p] of Object.entries(shots)) console.log(`face render ${id}: ${p}`);
+}
+
+module.exports = { validateBank, checkClueTree, checkGenRow, f2GlyphH, bankRule7, apparatusFails };
 if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });

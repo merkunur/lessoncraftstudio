@@ -313,7 +313,7 @@ const TYPE = {
   },
   i18n: {
     en: {
-      title: 'Family Members: Who Is Who?',   // NBSPs bind the question: the line breaks after the colon, never before an orphaned "Who?" (the fr-title NBSP precedent)
+      title: 'Family Members: Who Is Who?',   // plain spaces: page.css .ws-title text-wrap:balance prevents the orphaned "Who?" (NBSPs would leak into every SEO surface)
       instruction: 'Find each person on the family tree and write their number in the box next to their family word.',
     },
   },

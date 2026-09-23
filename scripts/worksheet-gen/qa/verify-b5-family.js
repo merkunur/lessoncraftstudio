@@ -564,11 +564,12 @@ async function main() {
       const over = base.bodyHtml.replace('<div style="flex:0 0 auto"><div class="fam-kinblock"', '<div style="flex:0 0 auto;margin-top:-80px"><div class="fam-kinblock"');
       ok(over !== base.bodyHtml, 'SP2 needle matched nothing');
       expectFail('SP2 the word block ridden into the stage', sparseFails((await renderBody(over, 'K-370-gate-sp2')).m, 'SP2'), /OVERLAP/); }
-    // T1 — the title without its NBSPs orphans "Who?"
-    { const plain = { title: TYPE.i18n.en.title.replace(/\u00A0/g, ' '), instruction: TYPE.i18n.en.instruction };
-      ok(plain.title !== TYPE.i18n.en.title, 'T1 needle matched nothing');
+    // T1 — the orphan guard is page.css `.ws-title { text-wrap: balance }` (the NBSPs were removed: they leaked into SEO strings).
+    //      Poison = the same title with the balance rule overridden → must ORPHAN; control = shipped CSS → no orphan; the title carries no U+00A0.
+    { ok(!/ /.test(TYPE.i18n.en.title), 'T1: the title carries a U+00A0 (it would leak into SEO strings)');
       ok(orphanFails(ctl.m, 'T1 control').length === 0, `T1 control: ${ctl.m.titleLines.join('/')}`);
-      expectFail('T1 the title with plain spaces', orphanFails((await renderBody(base.bodyHtml, 'K-370-gate-t1', plain)).m, 'T1'), /ORPHAN/); }
+      const unbalanced = base.bodyHtml + '<style>.ws-title{text-wrap:wrap !important}</style>';
+      expectFail('T1 the title without balanced wrapping', orphanFails((await renderBody(unbalanced, 'K-370-gate-t1')).m, 'T1'), /ORPHAN/); }
     // GC1 — look-bound garment tints (the reviewed defect: the grandmother alone in coralSoft) → verify's one-fill-per-row rule
     { const FFm = require('../primitives/family-figure.js');
       const b1 = TYPE._buildWith(en, TYPE.difficulty[2], { locale: 'en' }, { rng: makeRng('K-370|none|2|1') }, { compose: (d, rng) => { const c = TYPE._compose(d, rng); for (const p of c.persons) p.tint = FFm.LOOKS[p.age][p.sex][p.look].tint; return c; } });

@@ -105,7 +105,7 @@ const FAMILY = {
     instructionBans: ['tick', 'cut', 'colour', 'color', 'free', 'answer key', 'with answers'],
     familyHead: 'Family Members',
     strings: {
-      base: { title: 'Family Members: Who Is Who?', instruction: 'Find each person on the family tree and write their number in the box next to their family word.' },
+      base: { title: 'Family Members: Who Is Who?', instruction: 'Find each person on the family tree and write their number in the box next to their family word.' },
       generations: { title: 'Family Generations: Oldest to Youngest', instruction: 'In each row, write 1, 2 and 3 in the boxes to put the family words in order from the oldest generation to the youngest.' },
       'trace-words': { title: 'Family Words: Trace and Write', instruction: 'Find the person with the same number on the tree, trace their family word and write it again on the line.' },
       'tree-clues': { title: 'Family Tree: Read the Clues', instruction: 'Read the clues and write each name in the right name box on the family tree.' },

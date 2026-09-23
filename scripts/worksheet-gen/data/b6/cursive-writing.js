@@ -63,7 +63,7 @@ const CURSIVE_WRITING = {
       ],
     },
     words: {
-      'animals/cat': 'cat', 'animals/duck': 'duck', 'animals/fish': 'fish', 'animals/owl': 'owl', 'animals/pig': 'pig',
+      'animals/cat': 'cat', 'animals/fish': 'fish', 'animals/owl': 'owl', 'animals/pig': 'pig',
       'animals/sheep': 'sheep', 'fruits/lemon': 'lemon', 'fruits/pear': 'pear', 'fruits/apple': 'apple', 'toys/boat': 'boat',
       'toys/doll': 'doll', 'toys/robot': 'robot', 'toys/train': 'train', 'toys/kite': 'kite', 'around the house/bed': 'bed',
       'around the house/chair': 'chair', 'around the house/cup': 'cup', 'around the house/lamp': 'lamp', 'classroom/book': 'book',
@@ -86,7 +86,7 @@ const CURSIVE_WRITING = {
       // Phase E faces (ids fixed by _records/b6var-id-allocation.json)
       'G2-384': { title: 'Cursive Capital Letters: Write the Names', instruction: 'Trace each grey capital letter and name, then write them on the empty line below.' },
       'G2-385': { title: 'Cursive Connecting Letters: Joining Two Letters', instruction: 'Trace each grey pair of joined letters and the word, then write them on the empty line below.' },
-      'G2-386': { title: 'Cursive Words to Write with Pictures', instruction: 'Trace each grey word in one flowing line, then write it on the line below and add the dots and crosses last.' },
+      'G2-386': { title: 'Cursive Words to Write with Pictures', instruction: 'Trace each grey word, joining the letters first and adding the dots and crosses last, then write it the same way on the line below.' },
       'G2-387': { title: 'Reading Cursive: Match Each Word to Its Picture', instruction: 'Read each word in cursive and draw a line to its picture.' },
       'G3-401': { title: 'Cursive Sentences to Copy', instruction: 'Trace the grey sentence, then copy each printed sentence in cursive on the two lines below it.' },
     },
@@ -106,12 +106,14 @@ const CURSIVE_WRITING_NEUTRAL = {
     'dk-loopet': unit('dk-loopet'), 'dk-uloopet': unit('dk-uloopet', 'fgjqy'),
   },
   shipped: ['us-trad', 'de-va', 'de-la', 'mx', 'br', 'fr-trad', 'it-trad', 'nl', 'no', 'dk-uloopet'],
-  pictures: ['animals/cat', 'animals/duck', 'animals/fish', 'animals/owl', 'animals/pig', 'animals/sheep', 'fruits/lemon',
+  pictures: ['animals/cat', 'animals/fish', 'animals/owl', 'animals/pig', 'animals/sheep', 'fruits/lemon',
     'fruits/pear', 'fruits/apple', 'toys/boat', 'toys/doll', 'toys/robot', 'toys/train', 'toys/kite', 'around the house/bed',
     'around the house/chair', 'around the house/cup', 'around the house/lamp', 'classroom/book', 'zoo animals/lion',
     'pets/mouse', 'bakery/cake', 'weather/sun', 'weather/cloud', 'animals/horse', 'animals/zebra', 'animals/tiger'],
-  // opened and excluded (§5): wolf reads as a husky, the zoo bear as a teddy, the cherry as an apple
-  excludePictures: ['animals/wolf', 'zoo animals/bear', 'fruits/cherry'],
+  // opened and excluded (§5): wolf reads as a husky, the zoo bear as a teddy, the cherry as an apple; fix round 2
+  // (en / de / es / fr panels): the duck is a yellow DUCKLING children name a chick, and every duck in the library
+  // (animals, birds 2, farm animals, Things That Fly) is the same duckling — opened 2026-09-23, no adult duck exists
+  excludePictures: ['animals/wolf', 'zoo animals/bear', 'fruits/cherry', 'animals/duck'],
   modes: ['base', 'capitals', 'joins', 'words', 'read', 'copy'],
   refusedLocales: { sv: 'Lgr22 teaches no joined school script and no Playwrite SE exists', fi: 'OPS 2014 removed kaunokirjoitus and no Playwrite FI exists' },
   // table B: the landing level keys per locale, K / G1 / G2 / G3 (scripts/seo-landing/gen-b6-landings.js LEVEL_KEYS)

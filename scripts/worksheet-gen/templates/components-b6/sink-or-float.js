@@ -141,11 +141,18 @@ function sfClayRow({ form, result, lumpW = 72, formW = 120, tank = [150, 75], ca
     waterTank({ w: tank[0], h: tank[1], mode: 'rings', id: 'clay-' + form }).svg + `</div>`;
 }
 
-/** F2 — the transfer card: a small steel bolt and a big steel ship; circle the one that floats. */
-function sfTransferCard({ left, right, floats, w = 639, minH = 120 }) {
+/** F2 (fix round 2) — a row head: the one short line that names what a row is about (teal Nunito 800). */
+function sfRowHead({ key, text, h = 24, px = 16 }) {
+  return `<div data-lcs-row-head="${esc(key)}" style="box-sizing:border-box;height:${h}px;display:flex;align-items:center;justify-content:center;font-family:Nunito,sans-serif;font-weight:800;font-size:${px}px;line-height:1.2;color:${color.teal};white-space:nowrap">${esc(text)}</div>`;
+}
+
+/** F2 — the transfer card: a small steel nail and a big steel ship; circle the one that floats. Fix round 2 (de / fr / nl
+ * panels): the card carries its OWN head (`head`), so the circle task has a visible target on the page. */
+function sfTransferCard({ left, right, floats, w = 639, minH = 120, head = null }) {
   const one = (o) => `<div data-lcs-transfer-item="${esc(o.id)}" data-lcs-item="${esc(o.theme + '/' + o.noun)}" style="display:flex;align-items:flex-end;justify-content:center;width:160px;height:${Math.max(o.px, 96)}px">${img(o.src, o.px)}</div>`;
-  return `<div class="ws-card" data-lcs-transfer data-lcs-block data-lcs-floats="${floats}" style="box-sizing:border-box;width:${w}px;min-height:${minH}px;height:100%;padding:10px;flex-direction:row;align-items:center;justify-content:center;gap:120px;background:${color.white}">` +
-    one(left) + one(right) + `</div>`;
+  return `<div class="ws-card" data-lcs-transfer data-lcs-block data-lcs-floats="${floats}" style="box-sizing:border-box;width:${w}px;min-height:${minH}px;height:100%;padding:6px 10px 10px;align-items:center;justify-content:center;gap:4px;background:${color.white}">` +
+    (head ? sfRowHead({ key: 'steel', text: head }) : '') +
+    `<div style="display:flex;flex-direction:row;align-items:flex-end;justify-content:center;gap:120px">` + one(left) + one(right) + `</div></div>`;
 }
 
 /** F3 — the evidence shelf: every object any row names (true or false), with its label. */
@@ -235,4 +242,4 @@ function sfCargoPicture({ boatW = 64, unit = 14 } = {}) {
 }
 
 module.exports = { sfBalance, sfThinkGlyph, sfSplashGlyph, sfStar, sfLegend, sfColumns, sfHeads, sfPicTile, sfBetRow,
-  sfScaleCard, sfArrow, sfClayRow, sfTransferCard, sfEvidenceShelf, sfClaimRow, sfPosIcon, sfTub, sfSection, sfBulbGlyph, sfQuestionGlyph, sfQuestionCard, sfCargoPicture };
+  sfScaleCard, sfArrow, sfClayRow, sfRowHead, sfTransferCard, sfEvidenceShelf, sfClaimRow, sfPosIcon, sfTub, sfSection, sfBulbGlyph, sfQuestionGlyph, sfQuestionCard, sfCargoPicture };

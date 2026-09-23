@@ -77,7 +77,7 @@ const HABITATS_LOC = {
       monkey: ['monkey'], gorilla: ['gorilla'], orangutan: ['orangutan'], sloth: ['sloth'], toucan: ['toucan'], macaw: ['macaw', 'parrot'],
       camel: ['camel'], bird: ['bird'], spider: ['spider'], rabbit: ['rabbit', 'bunny'], ant: ['ant'],
     },
-    needs: { line: 'Every animal needs food, water and a home.', foodHead: 'Food', homeHead: 'Home' },
+    needs: { line: 'Every animal needs food and a home.', foodHead: 'Food', homeHead: 'Home', undrawn: ['water', 'drink', 'air', 'sun', 'sunlight'] },
     report: { animals: 'Animals that live here', plant: 'A plant that grows here', hot: 'hot', cold: 'cold', wet: 'wet', dry: 'dry' },
     placeWords: ['desert', 'sea', 'ocean', 'ice', 'arctic', 'antarctic', 'pond', 'lake', 'forest', 'woods', 'meadow', 'field', 'savanna', 'rainforest', 'jungle'],
     homeWord: { nest: 'nest', hive: 'hive', web: 'web', burrow: 'burrow', anthill: 'anthill', lodge: 'lodge' },
@@ -89,10 +89,10 @@ const HABITATS_LOC = {
         instruction: 'Under each animal, write the letter of the habitat where it lives.',
       },
       'K-383': { title: 'Animal Homes', instruction: 'Draw a line from each animal to its home.' },
-      'G1-406': { title: 'Who Does Not Live Here?', instruction: 'In each row, cross out the animal that does not live in that habitat.' },
-      'G2-380': { title: 'How Animals Adapt', instruction: 'Write the letter of the animal each sentence tells about in its box.' },
+      'G1-406': { title: 'Who Does Not Live Here?', instruction: 'For each habitat, cross out the animal that does not live there.' },
+      'G2-380': { title: 'How Animals Adapt', instruction: 'Write the letter of the animal each sentence tells about in its box; one animal is left over.' },
       'G1-407': { title: 'What Animals Need', instruction: 'For each animal, circle the food it eats and the home it lives in.' },
-      'G2-381': { title: 'My Habitat Report', instruction: 'Draw three animals that live in this habitat, write their names and a plant that grows there, and circle the right word in each pair.' },
+      'G2-381': { title: 'My Habitat Report', instruction: 'In the picture, draw three animals that live there, write their names and a plant that grows there, and circle the word that fits this habitat.' },
     },
   },
 };
@@ -158,8 +158,8 @@ const ANIMALS = [
   // pond
   { key: 'frog', pic: { theme: 'forest creatures', noun: 'frog' }, kidName: 'frog', lives: ['pond', 'meadow', 'forest', 'rainforest'] },
   { key: 'dragonfly', pic: { theme: 'forest creatures', noun: 'dragonfly' }, kidName: 'dragonfly', lives: ['pond'], kind: 'insect', noStranger: 'hunts over every wet meadow, savanna waterhole and rainforest stream' },
-  { key: 'beaver', pic: { theme: 'forest creatures', noun: 'beaver' }, kidName: 'beaver', lives: ['pond'] },
-  { key: 'duck', pic: { theme: 'birds 2', noun: 'duck' }, kidName: 'duck / duckling (yellow)', lives: ['pond'], coastal: true, kind: 'bird', noStranger: 'water birds live wherever there is water: African waterholes, the Amazon, Arctic tundra', panelCheck: 'may be named "chick" (a farm answer; no farm window on any page)' },
+  { key: 'beaver', pic: { theme: 'forest creatures', noun: 'beaver' }, kidName: 'beaver', lives: ['pond'], why: 'fix round 2 (nl landing panel: a forest window is a defensible second answer) REFUSED as a rule, measured: notWithWindow forest leaves the de/sv/da/no/fi fixed set (forest, meadow, pond, ocean) a capacity of 7 < 8 animals (forest squirrel + woodpecker, meadow grasshopper, pond dragonfly, ocean <= 3) and the base refuses in five locales; the lodge stands IN the water (K-383), the pond is the one best answer — open item for the lead' },
+  { key: 'duck', pic: { theme: 'birds 2', noun: 'duck' }, kidName: 'duck / duckling (yellow)', lives: ['pond'], coastal: true, kind: 'bird', faces: ['adapt'], why: 'fix round 2 (de/es/fr/en landing panels): every duck picture in the library (animals/duck, birds 2/duck, Things That Fly/duck — all opened) is a yellow DUCKLING that children call a chick (a farm answer): off the base and F2, where a chick is a stranger / has no window; kept on F3, whose claim (webbed feet) the drawn orange feet answer', noStranger: 'water birds live wherever there is water: African waterholes, the Amazon, Arctic tundra', panelCheck: 'may be named "chick" (a farm answer; no farm window on any page)' },
   { key: 'swan', pic: { theme: 'birds 2', noun: 'swan' }, kidName: 'swan', lives: ['pond'], coastal: true, kind: 'bird', noStranger: 'swans breed on the Arctic tundra' },
   // meadow
   { key: 'butterfly', pic: { theme: 'forest creatures', noun: 'butterfly' }, kidName: 'butterfly', lives: ['meadow', 'forest', 'rainforest', 'savanna', 'pond'], kind: 'insect' },
@@ -177,12 +177,12 @@ const ANIMALS = [
   { key: 'monkey', pic: { theme: 'zoo animals', noun: 'monkey' }, kidName: 'monkey', lives: ['rainforest', 'savanna'], notWithWindow: ['savanna'], group: 'ape' },
   { key: 'gorilla', pic: { theme: 'zoo animals', noun: 'gorilla' }, kidName: 'gorilla', lives: ['rainforest'], group: 'ape' },
   { key: 'orangutan', pic: { theme: 'zoo animals', noun: 'orangutan' }, kidName: 'orangutan / monkey', lives: ['rainforest'], group: 'ape' },
-  { key: 'sloth', pic: { theme: 'zoo animals', noun: 'sloth' }, kidName: 'sloth', lives: ['rainforest'], region: 'americas' },
+  { key: 'sloth', pic: { theme: 'zoo animals', noun: 'sloth' }, kidName: 'sloth', lives: ['rainforest'], region: 'americas', onlyRegion: 'americas', notWithWindow: ['savanna'], why: 'fix round 2 (fr landing panel): the orange upright sitting sloth reads as a MEERKAT (a savanna animal) — opened beside zoo animals/meerkat at 220 px, the same pose; it stands only on pages of an americas-rainforest locale (pt Amazônia: the bicho-preguiça is a known animal, and its F2 rainforest row needs it) and never with a savanna window' },
   { key: 'toucan', pic: { theme: 'birds 2', noun: 'toucan' }, kidName: 'toucan', lives: ['rainforest'], region: 'americas', kind: 'bird' },
   { key: 'macaw', pic: { theme: 'birds 2', noun: 'macaw' }, kidName: 'parrot (yellow body, green wing)', lives: ['rainforest'], region: 'americas', kind: 'bird' },
   // F3 only
   { key: 'camel', pic: { theme: 'animals', noun: 'camel' }, kidName: 'camel (one hump)', lives: ['desert'], faces: ['adapt'] },
-].map((a) => ({ picOpened: true, coastal: false, lookalike: [], group: null, region: null, panelCheck: null, notWithWindow: [], faces: null, oddRow: null, kind: null, noStranger: null, cetacean: false, notStrangerIn: [], ...a }));
+].map((a) => ({ picOpened: true, coastal: false, lookalike: [], group: null, region: null, panelCheck: null, notWithWindow: [], faces: null, oddRow: null, kind: null, noStranger: null, cetacean: false, notStrangerIn: [], onlyRegion: null, why: null, ...a }));
 
 const HABITATS = {
   HABITAT_KEYS: ['ocean', 'pond', 'forest', 'meadow', 'polar-arctic', 'polar-antarctic', 'savanna', 'rainforest'],
@@ -222,6 +222,8 @@ const HABITATS = {
     { theme: 'insects and bugs', noun: 'worm', why: 'reads as a smiling snake' },
     { theme: 'forest creatures', noun: 'earthworm', why: 'reads as a smiling snake' },
     { theme: 'birds 2', noun: 'heron', why: 'fix round 1: reads as a STORK to Nordic children and as a cigogne to French ones (sv/da/no/fi/fr panels) — a stork is not a pond animal' },
+    { theme: 'forest creatures', noun: 'rabbit', why: 'fix round 2 (de landing panel): a lanky long-eared orange HARE (Feldhase) — a hare lies in a form and never digs a burrow; animals/rabbit (compact, beige, white bib, cotton tail) is the burrow rabbit' },
+    { theme: 'camping', noun: 'rabbit', why: 'fix round 2: the same lanky orange hare as forest creatures/rabbit' },
     { theme: 'spring', noun: 'nest', why: 'two chicks inside; every home is drawn' },
     { theme: 'spring', noun: 'birdhouse', why: 'a human home' },
     { theme: 'winter', noun: 'igloo', why: 'a human home' },
@@ -235,7 +237,7 @@ const HABITATS = {
   HOMES: { bird: 'nest', bee: 'hive', spider: 'web', rabbit: 'burrow', ant: 'anthill', beaver: 'lodge' },
   HOME_PICS: {
     bird: { theme: 'spring', noun: 'bird' }, bee: { theme: 'forest creatures', noun: 'bee' }, spider: { theme: 'forest creatures', noun: 'spider' },
-    rabbit: { theme: 'forest creatures', noun: 'rabbit' }, ant: { theme: 'forest creatures', noun: 'ant' }, beaver: { theme: 'forest creatures', noun: 'beaver' },
+    rabbit: { theme: 'animals', noun: 'rabbit' }, ant: { theme: 'forest creatures', noun: 'ant' }, beaver: { theme: 'forest creatures', noun: 'beaver' },
   },
   HOMES_REFUSED: ['cave', 'tree-hole', 'birdhouse', 'igloo', 'kennel', 'hutch', 'den'],
   ADAPT: [
@@ -271,6 +273,14 @@ const HABITATS = {
   // F5 (fix round 1, de panel): only a word pair with a TRUE answer for the habitat is offered; the report
   // habitat is the first set member with at least one true pair (forest and meadow have none: a forest is
   // neither hot nor cold, wet nor dry for a child to circle honestly)
+  // fix round 2 (en/de/fr/nl landing panels: "circle the right word in each pair" over ONE printed pair): the report
+  // prints exactly d.chipPairs pairs, taken in this order among the habitat's TRUE pairs; the habitat is the first set
+  // member with at least that many (1 on the shipped face: ocean / pond / rainforest -> wet, savanna -> dry, polar -> cold)
+  CHIP_ORDER: { ocean: ['wet'], pond: ['wet'], polar: ['temp'], savanna: ['wet', 'temp'], rainforest: ['wet', 'temp'], forest: [], meadow: [] },
+  // fix round 2 (de landing panel on G1-406: every stranger was an exotic zoo animal, so a row solved by "not an animal of
+  // my country" without reading the habitat): at least one F2 stranger per page lives in one of these (the child's own
+  // temperate places), standing in a row of a far habitat — a squirrel in the ocean row, a beaver in the savanna row
+  TEMPERATE: ['forest', 'meadow', 'pond'],
   CHIP_TRUTH: { ocean: { wet: 'wet' }, pond: { wet: 'wet' }, polar: { temp: 'cold' }, savanna: { temp: 'hot', wet: 'dry' }, rainforest: { temp: 'hot', wet: 'wet' }, forest: {}, meadow: {} },
   FACE_IDS: { homes: 'K-383', odd: 'G1-406', adapt: 'G2-380', needs: 'G1-407', report: 'G2-381' },
 };

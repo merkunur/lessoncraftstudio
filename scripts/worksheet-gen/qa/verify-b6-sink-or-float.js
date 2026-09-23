@@ -57,6 +57,17 @@ const low = (s, loc) => String(s).normalize('NFC').toLocaleLowerCase(loc);
 const norm = (s, loc) => low(s, loc).replace(/[^\p{L} ]+/gu, ' ').replace(/\s+/g, ' ').trim();
 const wordRe = (w) => new RegExp(`(?<!\\p{L})${String(w).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?!\\p{L})`, 'iu');
 
+/** fix round 2: the faces that run no test (their titles may not claim an experiment, rule 7b) */
+const NO_TEST = new Set(['G2-383', 'K-384']);
+/** fix round 2 (rule 7c): the lead of a title = the text before its first ':' / '?' (a leading '¿' dropped) */
+const leadOf = (t) => String(t).replace(/^[¿¡]/, '').split(/[:?]/)[0];
+/** function words that do not make a title its own question (conjunctions + interrogatives, all 11 locales) */
+const FN_WORDS = new Set(['oder', 'eller', 'what', 'hvad', 'mikä', 'mitä', 'cosa', 'quoi', 'wat', 'vad', 'hva', 'que', 'qué', 'qui', 'was', 'o', 'ou', 'or', 'of', 'vai', 'og', 'och', 'und', 'and', 'et', 'e', 'y', 'en', 'ja', 'ce', 'het', 'se', 'lo', 'il', 'the', 'a', 'an']);
+/** content stems (first 4 letters of each non-function word of >= 4 letters) */
+const stems = (s, loc) => new Set(low(s, loc).replace(/[^\p{L} ]+/gu, ' ').split(/\s+/).filter((w) => w.length >= 4 && !FN_WORDS.has(w)).map((w) => w.slice(0, 4)));
+/** true when the lead's content stems are >= 2 and every one of them is a content stem of the G1-204 title */
+function sameQuestion(lead, g1204, loc) { const a = stems(lead, loc), b = stems(g1204, loc); return a.size >= 2 && [...a].every((x) => b.has(x)); }
+
 let assertions = 0;
 const fails = [];
 function ok(c, m) { assertions++; if (!c) fails.push(m); return !!c; }
@@ -158,7 +169,7 @@ function validateBank(b, loc, N = bankMod.SINK_OR_FLOAT_NEUTRAL) {
   if (fl.length < 4 || sk.length < 4 || fl.filter((c) => c.big).length < 2 || sk.filter((c) => c.small).length < 2) push(`the labelled base pool (float ${fl.length} / sink ${sk.length}) cannot fill d3 (refuse the base or add labels)`);
   // rule 4 per locale (only when the locale authored tf)
   if (b.tf) {
-    const ids = Object.keys(b.tf).filter((id) => N.TF[id]);
+    const ids = Object.keys(b.tf).filter((id) => N.TF[id] && !N.TF[id].retired && !N.TF[id].needsExperiment);   // fix round 2: only the drawable pool counts
     for (const id of Object.keys(b.tf)) if (!N.TF[id]) push(`tf.${id}: unknown id`);
     for (const side of ['T', 'F']) {
       const s = ids.filter((id) => N.TF[id].truth === side);
@@ -186,7 +197,12 @@ function validateBank(b, loc, N = bankMod.SINK_OR_FLOAT_NEUTRAL) {
     if (!t || t.length > 70) push(`strings.${id} title length ${t.length} (1..70, rule 7)`);
     if (WORKSHEET_WORD.test(t)) push(`strings.${id} title carries a worksheet word (rule 7)`);
     if (g1204 && norm(t, loc) === norm(g1204.title, loc)) push(`strings.${id} title "${t}" equals the G1-204 title "${g1204.title}" (rule 7, the science-sort fence)`);
-    if (!expWords.some((w) => low(t, loc).includes(w))) push(`strings.${id} title "${t}" carries none of the experimentWords (rule 7)`);
+    // fix round 2 (en + de panels): a face that runs NO test (truth, draw) must not be titled an experiment; every other must be
+    if (NO_TEST.has(id)) { const w = expWords.find((x) => low(t, loc).includes(x)); if (w) push(`strings.${id} title "${t}" claims an experiment ("${w}") but the page runs no test (rule 7b)`); }
+    else if (!expWords.some((w) => low(t, loc).includes(w))) push(`strings.${id} title "${t}" carries none of the experimentWords (rule 7)`);
+    // fix round 2 (de panel): the DRAW face is the one a teacher can mistake for the G1-204 float / sink sort, so its title's
+    // lead (before the first ':' / '?') must not be the G1-204 question in other words
+    if (g1204 && id === 'K-384' && sameQuestion(leadOf(t), g1204.title, loc)) push(`strings.${id} title lead "${leadOf(t)}" restates the G1-204 title "${g1204.title}" (rule 7c, the science-sort fence)`);
     if (loc === 'es' && /flotaci/i.test(t)) push(`strings.${id} title "${t}" says flotación (rule 7)`);
     const band = id.split('-')[0];
     for (const [oid, os] of Object.entries(existing)) if (oid !== id && oid.split('-')[0] === band && os && os.title && low(os.title, loc) === low(t, loc)) push(`strings.${id} title "${t}" collides with ${oid} in band ${band} (rule 7)`);
@@ -208,6 +224,9 @@ function validateBank(b, loc, N = bankMod.SINK_OR_FLOAT_NEUTRAL) {
   const MUST_NAME = { 'G1-399': ['ring', 'tank'], 'G2-382': ['ring', 'tank'], 'K-384': ['spot'] };
   for (const [fid, keys] of Object.entries(MUST_NAME)) { const ins = S[fid] && S[fid].instruction; if (ins) for (const k of keys) if (app[k] && !low(ins, loc).includes(low(app[k], loc))) push(`strings.${fid} instruction does not name the apparatus "${app[k]}" (rule 11: the child acts on it)`); }
   // fix round 1: the F5 "I learned" heading and its writing-row starter must not repeat each other
+  // fix round 2 (de / fr / nl panels): the G2-382 rows each carry a head; the steel head names the circle task
+  const H = b.shapeHeads || {};
+  for (const k of ['clay', 'steel']) { const v = str(H[k], `shapeHeads.${k}`); if (v && hitForb(v)) push(`shapeHeads.${k} "${v}" says "${hitForb(v)}" (forbidden, rule 5)`); if (v && v.length > 70) push(`shapeHeads.${k} is ${v.length} chars (> 70, one line)`); }
   const R = b.report || {};
   if (R.learned && R.starter && (low(R.starter, loc).includes(low(R.learned, loc)) || low(R.learned, loc).includes(low(R.starter, loc)))) push(`report.starter "${R.starter}" repeats the heading report.learned "${R.learned}"`);
   return f;
@@ -412,7 +431,7 @@ async function faceSection(page, judge, log, quick, banks) {
   await fp('PA2 F3 instruction names a star', 'truth', {}, /instruction names "star"/, { strings: { title: S['G2-383'].title, instruction: 'Read each sentence and colour the star.' } });
   // FILL both ways: rows frozen at their minimum end high at 814; SPARSE: a gap between blocks
   const frozen = (L, from, to) => { const F = loadFace(L); return { ...F, build(o, ctx) { const r = F.build.call(F, o, ctx); const h = r.bodyHtml.replace(from, to); if (h === r.bodyHtml) throw new Error('FL poison needle missed: ' + L); r.bodyHtml = h; return r; } }; };
-  for (const [L, from, to] of [['scale', /minmax\(154px,1fr\)/, '154px'], ['truth', /minmax\(80px,114px\)/, '80px'], ['draw', /minmax\(520px,1fr\)/, '520px'], ['shape', /minmax\(300px,1fr\)/, '300px']]) {
+  for (const [L, from, to] of [['scale', /minmax\(154px,1fr\)/, '154px'], ['truth', /minmax\(80px,114px\)/, '80px'], ['draw', /minmax\(520px,1fr\)/, '520px'], ['shape', /minmax\(180px,1fr\)/, '180px']]) {
     const x = await faceRender(page, L, `poison-FL-${L}`, { type: frozen(L, from, to), strings: SHORT });
     judge(`FL-${L} rows frozen at their minimum (content ends high at 814)`, [...(x.share < FILL_MIN ? [`FILL — the content ends at ${(100 * x.share).toFixed(1)} %`] : []), ...x.verify.filter((v) => /FILL/.test(v))], /FILL — the (content|tub) ends/);
   }
@@ -452,6 +471,23 @@ async function faceSection(page, judge, log, quick, banks) {
     } finally { if (had) all.fr = saved; else delete all.fr; }
   }
   { const b = clone(banks.en); delete b.strings['G3-400']; judge('PF3 a face string missing', validateBank(b, 'en'), /strings\.G3-400 missing \(rule 10\)/); }
+  // ---- fix round 2 (the landing-audit panels): each new rule, poisoned; the shipped face / the en bank is its control
+  judge('PF4 G2-383 titled an experiment (the page runs no test)', validateBank({ ...clone(banks.en), strings: { ...banks.en.strings, 'G2-383': { ...banks.en.strings['G2-383'], title: 'Sink or Float Experiment: True or False' } } }, 'en'), /strings\.G2-383 title .* claims an experiment/);
+  judge('PF5 K-384 titled an experiment (one drawing tub, no test)', validateBank({ ...clone(banks.en), strings: { ...banks.en.strings, 'K-384': { ...banks.en.strings['K-384'], title: 'Draw What Floats and Sinks: A Sink or Float Experiment' } } }, 'en'), /strings\.K-384 title .* claims an experiment/);
+  {
+    const de = clone(banks.en); de.experimentWords = ['versuch']; de.strings = { ...de.strings, ...FACE_STRINGS.de, 'G1-399': { title: 'Schwimmen und Sinken: Versuch mit Vermutung', instruction: de.strings['G1-399'].instruction } };
+    const ctl = validateBank(de, 'de').filter((x) => /rule 7[bc]/.test(x)); log.push(`  rule 7b/7c control (de fixture K-384 "${FACE_STRINGS.de['K-384'].title}"): ${ctl.length} findings`); ok(!ctl.length, `rule 7c control: ${ctl.join(' | ')}`);
+    de.strings['K-384'] = { ...de.strings['K-384'], title: 'Was schwimmt, was sinkt? Ein Bild' };
+    judge('PF6 de K-384 lead restates G1-204 "Schwimmt oder sinkt?"', validateBank(de, 'de'), /strings\.K-384 title lead .* restates the G1-204 title/);
+  }
+  { const b = clone(banks.en); delete b.shapeHeads.steel; judge('PF7 a block without shapeHeads.steel', validateBank(b, 'en'), /shapeHeads\.steel missing/); }
+  await fp('PR16 F2 the lump drawn at 72 px beside its 120 px shapes (more clay)', 'shape', { forceLumpW: 72 }, /the clay is not conserved on the page/);
+  { let m = null; const F = loadFace('shape'); try { F._buildWith(banks.en, { ...F.difficulty[2], lumpW: 72 }, { locale: 'en' }, { rng: makeRng('pr16b') }); } catch (e) { m = e.message; } judge('PR16b F2 builder refuses lumpW ≠ formW', m ? [m] : [], /lumpW 72 ≠ formW 120/); }
+  await fp('PR17 F2 the steel strip without its own head', 'shape', { forceNoSteelHead: true }, /the steel strip has no head of its own/);
+  await fp('PR18 F2 the trial tanks without the float / sink key', 'shape', { forceNoLegend: true }, /no float \/ sink key/);
+  await fp('PR19 F3 the clay sentence T6 on a page with no clay', 'truth', { forceOrder: ['T6', 'F1', 'T1', 'F5', 'F6', 'T8'] }, /tf T6: needs the clay experiment/);
+  await fp('PR20 F3 the retired F8 ("floats because it is light")', 'truth', { forceOrder: ['T4', 'F8', 'T1', 'F2', 'F6', 'T7'] }, /tf F8: retired/);
+  await fp('PR21 F5 one result tank for a two-test question', 'report', { forceResultTanks: 1 }, /draws 1 tank\(s\) but a question needs 2 tests/);
 }
 
 /** Control drafts carry all six strings (rule 10): the five face strings, written from the design §6 heads. */
@@ -459,22 +495,23 @@ const FACE_STRINGS = {
   de: {
     'G1-408': { title: 'Schwer oder leicht? Versuch zum Schwimmen und Sinken', instruction: 'Die Waage zeigt, was schwerer ist: kreise ein, was im Wasser oben schwimmt.' },
     'G2-382': { title: 'Knete schwimmt: Versuch mit dem Knetboot', instruction: 'Male den Ring aus, wo jede Knetform landet, kreise ein, was schwimmt, und male dein Knetboot ins große Becken.' },
-    'G2-383': { title: 'Warum schwimmt etwas? Richtig oder falsch zum Versuch', instruction: 'Lies jeden Satz und kreise richtig oder falsch ein.' },
-    'K-384': { title: 'Was schwimmt, was sinkt? Den Versuch malen', instruction: 'Male zwei Dinge, die oben schwimmen, in die Kästchen am Wasser und zwei, die sinken, in die Kästchen am Boden.' },
+    // gate FIXTURES (never shipped): fix round 2 — G2-383 / K-384 claim no experiment (rule 7b), K-384 does not restate G1-204 (7c)
+    'G2-383': { title: 'Warum schwimmt etwas? Richtig oder falsch', instruction: 'Lies jeden Satz und kreise richtig oder falsch ein.' },
+    'K-384': { title: 'Male Dinge im Wasser: oben und am Boden', instruction: 'Male zwei Dinge, die oben schwimmen, in die Kästchen am Wasser und zwei, die sinken, in die Kästchen am Boden.' },
     'G3-400': { title: 'Versuchsprotokoll: Schwimmen und Sinken', instruction: 'Wähle eine Frage, schreib deine Vermutung auf, mach den Versuch und schreib, was du gelernt hast.' },
   },
   fr: {
     'G1-408': { title: "Lourd ou léger ? L'expérience flotte ou coule avec une balance", instruction: 'La balance montre ce qui est le plus lourd : entoure ce qui flotte.' },
     'G2-382': { title: "La pâte à modeler qui flotte : l'expérience de la forme", instruction: "Colorie l'anneau où finit chaque forme, entoure ce qui flotte et dessine ton bateau dans le grand bassin." },
-    'G2-383': { title: "Pourquoi ça flotte ? Vrai ou faux après l'expérience", instruction: 'Lis chaque phrase et entoure vrai ou faux.' },
-    'K-384': { title: "Ce qui flotte et ce qui coule : dessine l'expérience", instruction: "Dessine deux choses qui flottent dans les cases sur l'eau et deux qui coulent dans les cases au fond." },
+    'G2-383': { title: 'Pourquoi ça flotte ? Vrai ou faux', instruction: 'Lis chaque phrase et entoure vrai ou faux.' },
+    'K-384': { title: 'Dessine les objets dans le bassin : mon dessin', instruction: "Dessine deux choses qui flottent dans les cases sur l'eau et deux qui coulent dans les cases au fond." },
     'G3-400': { title: "Mon compte rendu d'expérience : flotte ou coule", instruction: 'Choisis une question, écris ce que tu prévois, teste et écris ce que tu as appris.' },
   },
   es: {
     'G1-408': { title: '¿Pesado o ligero? Experimento flota o se hunde con balanza', instruction: 'La balanza muestra qué pesa más: encierra lo que flota en el agua.' },
     'G2-382': { title: 'La plastilina que flota: experimento de la forma', instruction: 'Colorea el anillo donde queda cada forma, encierra lo que flota y dibuja tu barco en el tanque grande.' },
-    'G2-383': { title: '¿Por qué flota? Verdadero o falso del experimento', instruction: 'Lee cada oración y encierra verdadero o falso.' },
-    'K-384': { title: 'Objetos que flotan y se hunden: dibuja el experimento', instruction: 'Dibuja dos cosas que flotan en los recuadros del agua y dos que se hunden en los recuadros del fondo.' },
+    'G2-383': { title: '¿Por qué flota? Verdadero o falso', instruction: 'Lee cada oración y encierra verdadero o falso.' },
+    'K-384': { title: 'Objetos que flotan y se hunden: mi dibujo', instruction: 'Dibuja dos cosas que flotan en los recuadros del agua y dos que se hunden en los recuadros del fondo.' },
     'G3-400': { title: 'Mi reporte del experimento: flota o se hunde', instruction: 'Elige una pregunta, escribe lo que predices, pruébalo y escribe lo que aprendiste.' },
   },
 };
@@ -620,6 +657,8 @@ async function main() {
       await rp('PR5 rows F,F,F,S,S,S', withBlock(banks.en, { forceOrder: [...f, ...s] }), /three float in a row|entirely before/);
     }
     await rp('PR12 sink ring lifted off the gravel', withHtml((h) => h.replace(/(<circle [^>]*cy=")([\d.]+)("[^>]*data-lcs-slot="floor")/, (m, a, v, c) => a + (+v - 6) + c)), /sink ring does not rest on the floor/);
+    // fix round 2: the pre-round-2 TANGENT floor ring (bottom 1 px into the gravel line) must now fail; the settled ring is the control
+    await rp('PR22 base sink ring only tangent to the gravel line', withHtml((h) => h.replace(/(<circle [^>]*cy=")([\d.]+)("[^>]*data-lcs-slot="floor")/, (m, a, v, c) => a + Math.round((+v - (0.06 * 85 - 1)) * 100) / 100 + c)), /sink ring does not rest on the floor/);
     await rp('PR13 float ring fully under water', withHtml((h) => h.replace(/(<circle [^>]*cy=")([\d.]+)("[^>]*data-lcs-slot="top")/, (m, a, v, c) => a + (+v + 18) + c)), /float ring is not centred on the waterline/);
     await rp('PR10 a float word under a picture', withHtml((h) => h.replace(/(<span data-lcs-label[^>]*>[^<]*<\/span>)/, `$1<span style="font-size:14px">${banks.en.floatWord}</span>`)), /outcome printed/);
     // FILL both ways + SPARSE

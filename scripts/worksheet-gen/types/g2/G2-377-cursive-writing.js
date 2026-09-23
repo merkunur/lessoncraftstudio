@@ -129,7 +129,9 @@ function resolvePage(bankLoc, d, locale, unit) {
 /** min..max flexible gap (the stack is computed at the minimum; a short chrome's slack spreads over every gap,
  *  each capped so no blank band between two content boxes exceeds 40 px — SPARSE) */
 const spacer = (min, max) => C6.cwGap(min, max);
-const GAP_MAX = { ribbon: 30, block: 34, row: 20, seyesBlock: 30 };
+// faceBlock: a face's between-item gap (fix round 2: no practice rows, so the gaps carry the slack; 40 = the SPARSE band)
+// faceTag: tag → first item (the tag's own 8 px margin + 32 = the 40 px band); faceRow: row A → the writing line
+const GAP_MAX = { ribbon: 30, block: 34, row: 20, seyesBlock: 30, faceBlock: 40, faceTag: 32, faceRow: 30 };
 
 function composeBody(p, locale) {
   const fsPx = p.kind === 'seyes' ? p.X / SR.metricsFor(p.unit).xHeight : p.geom.fs;
@@ -257,6 +259,7 @@ function browserVerify(data) {
         if (!wd.includes(pr)) fails.push(`block ${k}: word "${wd}" does not contain "${pr}"`);
         if ([...pr].every((ch) => ch === [...pr][0])) fails.push(`block ${k}: pair "${pr}" is a base chain`);
         if (F.lift.includes([...pr][0])) fails.push(`block ${k}: pair "${pr}" starts with a LIFT letter`);
+        if ((F.oneLetter || []).includes(low(pr))) fails.push(`block ${k}: pair "${pr}" is ONE letter in this locale's school teaching, not a join of two`);
         const model = b.querySelector('[data-lcs-role="model"]');
         if (!model || model.textContent !== pr) fails.push(`block ${k}: model "${model && model.textContent}" ≠ ${pr}`);
         const p2 = nodesIn(b, 'pair'), w2 = nodesIn(b, 'word');
@@ -279,6 +282,13 @@ function browserVerify(data) {
         if (F.joins.some((j) => low(text).includes(j.pair))) joined++;
       });
       if (dotted < 2) fails.push(`${dotted} words carry a dot / cross / accent (≥ 2: the instruction asks for them last)`);
+      // fix round 2: every mark class the PRINTED instruction names is carried by ≥ 1 word on the page
+      const insEl = document.querySelector('[data-lcs-instruction]');
+      const ins = insEl ? insEl.textContent : '';
+      for (const [src, flags, letters, what] of F.marks || []) {
+        if (!new RegExp(src, flags).test(ins)) continue;
+        if (!blocks.some((b) => [...low(b.dataset.lcsText)].some((ch) => letters.includes(ch)))) fails.push(`the instruction asks for ${what}, but no word on the page carries one`);
+      }
       if (joined < 1) fails.push('no word carries a join pair');
     } else if (ds.lcsFace === 'copy') {
       if (blocks.length !== count) fails.push(`${blocks.length} blocks, ${count} stamped`);
@@ -310,6 +320,8 @@ function browserVerify(data) {
       if (n > 1 && (off.every((o) => o === off[0]) || off.map((o) => (o + n) % n).every((o, _, a) => o === a[0]))) fails.push(`the partner is a constant shift (offsets ${off.join(',')})`);
       if (off.filter((o) => Math.abs(o) === 1).length > 1) fails.push(`position tell: ${off.filter((o) => Math.abs(o) === 1).length} partners stand one row away (offsets ${off.join(',')}; ≤ 1 allowed)`);
       if (n > 2 && keysR.join('|') === keysL.slice().reverse().join('|')) fails.push('the pictures are the words reversed');
+      // fix round 2 (fr panel): a PARTIAL shift (more than shiftShareMax partners on one cyclic offset) is a position tell too
+      { const cnt = {}; off.forEach((o) => { const c = (o + n) % n; cnt[c] = (cnt[c] || 0) + 1; }); const top = Math.max(0, ...Object.values(cnt)); if (top > F.shiftShareMax) fails.push(`position tell: ${top} partners share one row offset (offsets ${off.join(',')}; ≤ ${F.shiftShareMax} allowed)`); }
       const texts = cards.map((x) => x.querySelector('[data-lcs-cursive]').textContent);
       cards.forEach((x, i) => { if (F.words[keysL[i]] !== texts[i]) fails.push(`card ${i}: "${texts[i]}" ≠ the bank literal`); if (x.getBoundingClientRect().height < 75.5) fails.push(`card ${i}: ${Math.round(x.getBoundingClientRect().height)} px < 76`); });
       let same = 0, close = 0;
@@ -326,6 +338,16 @@ function browserVerify(data) {
       const measured = tagEl.getBoundingClientRect().height + 8 + [...root.querySelectorAll('[data-lcs-gap]')].reduce((s, g) => s + Number(g.dataset.lcsGap), 0) + leaves.reduce((s, b) => s + b.getBoundingClientRect().height, 0);
       if (Math.abs(measured - Number(ds.lcsStack)) > 1.5) fails.push(`rendered stack ${measured.toFixed(1)} ≠ stamped ${ds.lcsStack}`);
       if (Number(ds.lcsPractice) !== root.querySelectorAll('[data-lcs-practice=""]').length) fails.push('practice rows ≠ stamped');
+      // fix round 2 (landing audit): NO orphan ruled row — every ruled row belongs to a block that carries an item
+      const orphans = [...root.querySelectorAll('.cw-row')].filter((r) => !r.closest('.cw-block'));
+      if (orphans.length) fails.push(`orphan ruled row: ${orphans.length} ruled row(s) belong to no item (a closing practice row the instruction never names)`);
+      // ... and every item gets the writing lines its instruction names: ONE free line (capitals / joins / words),
+      // TWO under every sentence (copy: "on the two lines below it"; the grey model's own row is not a free line)
+      const wantFree = ds.lcsFace === 'copy' ? 2 : 1;
+      blocks.forEach((b, k) => {
+        const free = [...b.querySelectorAll('.cw-row')].filter((r) => !r.querySelector('[data-lcs-cursive]')).length;
+        if (free !== wantFree) fails.push(`block ${k}: ${free} free writing line(s), the instruction names ${wantFree}`);
+      });
     }
     // the content boxes are the LEAVES (rows, printed strips, Seyès slices, practice rows): a band inside a grown block counts too
     const content = ds.lcsFace === 'read' ? [...root.querySelectorAll('.cw-card')] : [...root.querySelectorAll('[data-lcs-leaf], [data-lcs-practice=""]')].sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top);
@@ -592,6 +614,29 @@ const FACE_FLOOR_N = { capitals: 3, joins: 3, words: 3, copy: 2, read: 4 };
 // §3 F3: the letters a child adds LAST (dots, crosses, accents), per locale
 const DOT_CROSS = { en: 'ijtx', de: 'ijtäöü', es: 'ijtáéíóúñ', pt: 'ijtãõáéêç', fr: 'ijtéèêàç', it: 'ijtàèìòù', nl: 'ijtë', da: 'ijtæøå', no: 'ijtæøå' };
 const DERANGE_TRIES = 500;
+// fix round 2 (nl panel): digraphs a locale's school teaches as ONE letter (nl "de lange ij") are not a join of
+// two letters — the joins face never draws them (the bank gate asks the panel for a replacement pair)
+const ONE_LETTER_DIGRAPHS = { nl: ['ij'] };
+/**
+ * Fix round 2 (fr panel: "ajoute … les accents" over chat / canard / train): every class of mark the G2-386
+ * instruction NAMES must occur on the page. Per locale: [the phrase that names the class, the letters that carry
+ * it, a label]. A class the instruction does not name is not required. The build reads the locale's own
+ * instruction from the bank and draws a word set carrying every named class (none possible → refuse); verify()
+ * re-derives it from the PRINTED instruction and the page's words.
+ */
+const MARK_CLASSES = {
+  en: [[/(?<!\p{L})dots?(?!\p{L})/iu, 'ij', 'dots'], [/(?<!\p{L})cross(es)?(?!\p{L})/iu, 'tx', 'crosses']],
+  de: [[/(?<!\p{L})punkt/iu, 'ijäöü', 'Punkte'], [/(?<!\p{L})strich/iu, 't', 'Striche']],
+  es: [[/(?<!\p{L})punto/iu, 'ij', 'puntos'], [/(?<!\p{L})rayita/iu, 't', 'rayita'], [/(?<!\p{L})acento/iu, 'áéíóú', 'acentos']],
+  pt: [[/(?<!\p{L})pingo/iu, 'ij', 'pingos'], [/(?<!\p{L})corte/iu, 't', 'cortes'], [/(?<!\p{L})acento/iu, 'áéíóúâêôãõà', 'acentos']],
+  fr: [[/(?<!\p{L})points?(?!\p{L})/iu, 'ijïî', 'points'], [/(?<!\p{L})barres?(?!\p{L})/iu, 't', 'barres'], [/(?<!\p{L})accents?(?!\p{L})/iu, 'éèêëàâùûîïôç', 'accents']],
+  it: [[/(?<!\p{L})puntin/iu, 'ij', 'puntini'], [/(?<!\p{L})tagliett/iu, 't', 'taglietti'], [/(?<!\p{L})accent/iu, 'àèéìòù', 'accenti']],
+  nl: [[/(?<!\p{L})puntje/iu, 'ijë', 'puntjes'], [/(?<!\p{L})streepje/iu, 't', 'streepjes']],
+  da: [[/(?<!\p{L})prik/iu, 'ij', 'prikker'], [/(?<!\p{L})streg/iu, 't', 'streger']],
+  no: [[/(?<!\p{L})prikk/iu, 'ij', 'prikker'], [/(?<!\p{L})(tverr)?strek/iu, 't', 'tverrstreker']],
+};
+/** the mark classes an instruction names (locale table) */
+function namedMarks(loc, instruction) { return (MARK_CLASSES[loc] || []).filter(([re]) => re.test(instruction || '')); }
 
 /** the common face context: unit, level band, ruling kind, X, floor (a refusal THROWS) */
 function faceContext(bankLoc, d, locale, unit) {
@@ -614,18 +659,33 @@ function faceContext(bankLoc, d, locale, unit) {
   if (!(X >= floor)) throw new Error(`${ID}: ${d.mode} X ${X} < the ${band} floor ${floor} (${locale} ${u})`);
   const scriptName = bankLoc.scriptName && bankLoc.scriptName[u];
   if (typeof scriptName !== 'string' || !scriptName.trim()) throw new Error(`${ID}: ${locale} has no scriptName for ${u}`);
-  return { unit: u, band, kind, X, floor, scriptName, lift: NEUTRAL.units[u].lift, dashHelpers: !!bankLoc.dashHelpers, locale };
+  return { unit: u, band, kind, X, floor, scriptName, lift: NEUTRAL.units[u].lift, dashHelpers: !!bankLoc.dashHelpers, locale, mode: d.mode };
 }
 
-/** one block's height at the minimum (§3 stacks): rows + 2 px between; a head (F5 strip 36 + 6); a Seyès slice */
-function faceBlockH(c, geom, rows, head, last) {
-  if (c.kind === 'seyes') return (head ? 42 : 0) + (last ? 3 + 4 * (rows - 1) + 2 : 12 + 4 * (rows - 2)) * c.X;
-  return (head ? 42 : 0) + rows * geom.rowH + (rows - 1) * ROW_GAP;
+/**
+ * one block's height at the minimum (§3 stacks): rows + 2 px between; a head (F5 strip 36 + 6); a Seyès slice.
+ * Fix round 2 (landing audit): a face's Seyès slice is ALWAYS the closed shape (3 + 4·(rows − 1) + 2 interlines:
+ * room above the model line, the writing lines, the descender room) — the open shape's trailing skipped line read
+ * as a THIRD writing line (fr panel: "three lines" under an instruction naming two) and cost the page a whole item.
+ */
+function faceBlockH(c, geom, rows, head) {
+  if (c.kind === 'seyes') return (head ? 42 : 0) + (3 + 4 * (rows - 1) + SEYES_FACE_TAIL) * c.X;
+  return (head ? 36 + FACE_HEAD_GAP[0] : 0) + rows * geom.rowH + (rows - 1) * ROW_GAP;
 }
+/**
+ * the minimum gap between two face blocks. F5 (copy): 6 px — the next sentence's printed strip is itself the
+ * separator (fix round 2: the model block's third row must not cost nl its third sentence; the gap still grows
+ * to 40 with the page's slack)
+ */
+function faceBlockGap(c) { return c.mode === 'copy' ? 6 : BLOCK_GAP; }
+/** F5's strip → row A gap (ruled pages; a Seyès slice keeps its fixed 6): min 4 (fix round 2, the same nl budget), grows to 16 */
+const FACE_HEAD_GAP = [4, 16];
+/** `rows` = a number (every block) or a function of the block index (F5: the model block carries one more row) */
 function faceStack(c, geom, n, rows, head, minH) {
-  const gap = c.kind === 'seyes' ? 0 : BLOCK_GAP;
+  const gap = c.kind === 'seyes' ? 0 : faceBlockGap(c);
+  const rowsOf = typeof rows === 'function' ? rows : () => rows;
   let h = TAG_H;
-  for (let k = 0; k < n; k++) h += Math.max(minH || 0, faceBlockH(c, geom, rows, head, k === n - 1)) + (k ? gap : 0);
+  for (let k = 0; k < n; k++) h += Math.max(minH || 0, faceBlockH(c, geom, rowsOf(k), head)) + (k ? gap : 0);
   return Math.round(h * 100) / 100;
 }
 /** the largest count ≤ target that fits 677 (THROWS under the face's floor count: refuse, never a thin page) */
@@ -639,28 +699,35 @@ function fitCount(c, geom, target, rows, head, minH, mode) {
   }
   throw new Error(`${ID}: ${c.locale} ${c.unit} ${mode}: fewer than ${FACE_FLOOR_N[mode]} items fit ${STACK_MAX} px at X ${c.X} (refuse)`);
 }
+/**
+ * Fix round 2 (landing audit, en / de / es / fr / nl panels): a face carries NO closing practice rows. A ruled row
+ * with no item above it is an orphan the instruction never mentions ("a fifth ruled block with no word and no
+ * picture"). The slack under the items is spread over the growable gaps instead (each capped: no band > 40 px).
+ */
 function practiceFor(c, geom, stack) {
-  const unitH = c.kind === 'seyes' ? 4 * c.X : geom.rowH + ROW_GAP;
-  const lead = c.kind === 'seyes' ? 0 : BLOCK_GAP - ROW_GAP;
-  const k = Math.max(0, Math.floor((STACK_MAX - stack - lead) / unitH));
-  return { k, total: Math.round((stack + (k ? lead + k * unitH : 0)) * 100) / 100 };
+  return { k: 0, total: stack };
 }
 
-/** THE PAGE COLUMN of a ruled face: tag, blocks (growable gaps), closing practice rows */
+/** THE PAGE COLUMN of a ruled face: tag, blocks (growable gaps) — no practice rows (fix round 2) */
 function faceColumn(c, mode, geom, blocks, practice, total, rootAttrs, count) {
   const seyes = c.kind === 'seyes';
-  const gap = () => (seyes ? spacer(0, 38) : spacer(BLOCK_GAP, GAP_MAX.block));
+  const gap = () => (seyes ? spacer(0, GAP_MAX.faceBlock) : spacer(faceBlockGap(c), GAP_MAX.faceBlock));
   const body = blocks.map((b, k) => (k ? gap() : '') + b).join('');
-  const prac = practice ? gap() + C6.cwPracticeRows({ unit: c.unit, kind: c.kind, k: practice, w: BODY_W, marginX: FACE_MARGIN[mode] || MARGIN_X, geom, seyesI: c.X, dashHelpers: c.dashHelpers, rowGap: [ROW_GAP, GAP_MAX.row], seyesGapMax: 24 }) : '';
+  if (practice) throw new Error(`${ID}: a face never carries closing practice rows (fix round 2: an orphan ruled row)`);
+  const prac = '';
   return C6.cwFontFace(c.unit) +
     `<div class="cw-page" data-ws-content="" data-lcs-cw="" data-lcs-type="${ID}" data-lcs-face="${mode}" data-lcs-mode="${mode}" data-lcs-locale="${c.locale}"` +
     ` data-lcs-unit="${c.unit}" data-lcs-x="${c.X}" data-lcs-floor="${c.floor}" data-lcs-ruling="${c.kind}" data-lcs-stack="${total}" data-lcs-practice="${practice}"` +
     ` data-lcs-count="${count}" data-lcs-lift="${c.lift}"${rootAttrs || ''} style="display:flex;flex-direction:column;justify-content:flex-start;height:100%;width:${BODY_W}px;margin:0 auto">` +
-    C6.cwScriptTag({ scriptName: c.scriptName, w: BODY_W }) + spacer(0, 20) + body + prac + `</div>`;
+    C6.cwScriptTag({ scriptName: c.scriptName, w: BODY_W }) + spacer(0, GAP_MAX.faceTag) + body + prac + `</div>`;
 }
 
 function geomFor(c, cap) { return c.kind === 'seyes' ? null : SR.rulingGeometry({ unit: c.unit, kind: c.kind, X: c.X, cap }); }
-function seyesFor(c, rows, last) { return SR.seyesGeometry({ unit: c.unit, i: c.X, rows, last }); }
+// a face's closed Seyès slice keeps THREE interlines under its last writing line (the descender band + one of air):
+// with no closing practice rows the cahier needs that air at a one-line chrome (fix round 2), and a 4th would draw the
+// next writing line (a third line under an instruction naming one)
+const SEYES_FACE_TAIL = 3;
+function seyesFor(c, rows, last) { return SR.seyesGeometry({ unit: c.unit, i: c.X, rows, last, tail: last ? SEYES_FACE_TAIL : 2 }); }
 function wordText(v) { return typeof v === 'string' ? v : v && v.text; }
 
 /** F1: distinct initials of the locale's names, in bank order, one name each */
@@ -673,6 +740,13 @@ function capitalsOf(names) {
 /** a derangement of 0..n-1 that is NOT a constant shift (cyclic or plain): the partner is never "one down" */
 /** order[k] = the word row whose picture stands on picture row k → each word row's distance to its partner */
 function partnerDistances(order) { return order.map((w, k) => ({ w, k })).sort((a, b) => a.w - b.w).map(({ w, k }) => Math.abs(k - w)); }
+/** the most partners sharing ONE cyclic offset (picture row − word row mod n): a partial constant shift */
+const SHIFT_SHARE_MAX = 2;
+function maxOffsetShare(order) {
+  const n = order.length, count = {};
+  order.forEach((w, k) => { const o = (k - w + n) % n; count[o] = (count[o] || 0) + 1; });
+  return Math.max(0, ...Object.values(count));
+}
 function derangeOrder(n, rng) {
   for (let t = 0; t < DERANGE_TRIES; t++) {
     const p = rng.shuffle(Array.from({ length: n }, (_, i) => i));
@@ -683,6 +757,9 @@ function derangeOrder(n, rng) {
     // POSITION TELL (fix round 1, da panel): three adjacent swaps put every partner exactly one row away. A word
     // row's partner stands at |pictureRow − wordRow|; at most ONE may stand at distance 1 (none at 0)
     if (partnerDistances(p).filter((d) => d === 1).length > 1) continue;
+    // PARTIAL SHIFT (fix round 2, fr panel: lampe / cochon / cheval / souris all three rows down): no more than
+    // SHIFT_SHARE_MAX partners may share one cyclic offset, or a child who finds one link guesses the next ones
+    if (maxOffsetShare(p) > SHIFT_SHARE_MAX) continue;
     return p;
   }
   throw new Error(`${ID}: no admissible derangement of ${n} in ${DERANGE_TRIES} tries`);
@@ -712,7 +789,7 @@ function buildFace(bankLoc, d, { locale, unit }, ctx) {
     const fit = fitCount(c, geom, Math.min(d.capitals || 5, pool.length), 2, false, 0, mode);
     const items = pool.slice(0, fit.n);
     const blocks = items.map((it, k) => C6.cwFaceBlock({
-      unit: c.unit, kind: c.kind, geom, seyes: c.kind === 'seyes' ? seyesFor(c, 2, k === items.length - 1) : null, w: BODY_W, marginX: M, writeRows: 1, dashHelpers: c.dashHelpers, blockIndex: k,
+      unit: c.unit, kind: c.kind, geom, seyes: c.kind === 'seyes' ? seyesFor(c, 2, true) : null, w: BODY_W, marginX: M, writeRows: 1, dashHelpers: c.dashHelpers, blockIndex: k, rowGap: [ROW_GAP, GAP_MAX.faceRow],
       attrs: { capital: it.capital, name: it.name },
       rowAInner: (fs, yB) => C6.cwText({ unit: c.unit, text: it.capital, fs, yB, left: 0, width: M, align: 'center', role: 'model' }) +
         C6.cwRun({ unit: c.unit, fs, yB, left: M + 16, gap: 24, items: [{ text: it.capital + ' ' + it.capital, role: 'trace', attrs: { kind: 'capital-pair' } }, (d.nameTrace === false ? null : { text: it.name, role: 'trace', attrs: { kind: 'name' } })].filter(Boolean) }),
@@ -721,14 +798,14 @@ function buildFace(bankLoc, d, { locale, unit }, ctx) {
     return { bodyHtml: faceColumn(c, mode, geom, blocks, pr.k, pr.total, ` data-lcs-capitals="${items.map((i) => i.capital).join('|')}"`, items.length), meta: { mode, unit: c.unit, items: items.map((i) => i.name), stack: fit.stack, total: pr.total, practice: pr.k } };
   }
   if (mode === 'joins') {
-    const js = ((bankLoc.joins || {})[c.unit] || []).filter((j) => !c.lift.includes([...j.pair][0]));
+    const js = ((bankLoc.joins || {})[c.unit] || []).filter((j) => !c.lift.includes([...j.pair][0]) && !(ONE_LETTER_DIGRAPHS[locale] || []).includes(j.pair.toLocaleLowerCase(locale)));
     const geom = geomFor(c, false);
     const fit = fitCount(c, geom, Math.min(d.pairs || 5, js.length), 2, false, 0, mode);
     // seeded choice, bank order kept on the page
     const pickIdx = rng.sample(js.map((_, i) => i), fit.n).sort((a, b) => a - b);
     const items = pickIdx.map((i) => js[i]);
     const blocks = items.map((j, k) => C6.cwFaceBlock({
-      unit: c.unit, kind: c.kind, geom, seyes: c.kind === 'seyes' ? seyesFor(c, 2, k === items.length - 1) : null, w: BODY_W, marginX: M, writeRows: 1, dashHelpers: c.dashHelpers, blockIndex: k,
+      unit: c.unit, kind: c.kind, geom, seyes: c.kind === 'seyes' ? seyesFor(c, 2, true) : null, w: BODY_W, marginX: M, writeRows: 1, dashHelpers: c.dashHelpers, blockIndex: k, rowGap: [ROW_GAP, GAP_MAX.faceRow],
       attrs: { pair: j.pair, word: j.word },
       rowAInner: (fs, yB) => C6.cwText({ unit: c.unit, text: j.pair, fs, yB, left: 0, width: M, align: 'center', role: 'model' }) +
         C6.cwRun({ unit: c.unit, fs, yB, left: M + 16, gap: 24, items: [{ text: j.pair + ' ' + j.pair, role: 'trace', attrs: { kind: 'pair' } }, (d.wordTrace === false ? null : { text: j.word, role: 'trace', attrs: { kind: 'word' } })].filter(Boolean) }),
@@ -746,18 +823,21 @@ function buildFace(bankLoc, d, { locale, unit }, ctx) {
     const fit = fitCount(c, geom, d.words || 4, 2, false, 72, mode);
     const hasDot = (t) => [...t.toLocaleLowerCase()].some((ch) => dots.includes(ch));
     const hasJoin = (t) => pairs.some((p) => t.toLocaleLowerCase().includes(p));
+    // every mark class the locale's own instruction names must be carried by ≥ 1 word (fix round 2)
+    const marks = namedMarks(locale, ((bankLoc.strings || {})['G2-386'] || {}).instruction);
+    const carries = (t, letters) => [...t.toLocaleLowerCase()].some((ch) => letters.includes(ch));
     let items = null;
     for (let t = 0; t < 400 && !items; t++) {
       const s = rng.sample(all, fit.n);
-      if (s.filter((w) => hasDot(w.text)).length >= 2 && s.some((w) => hasJoin(w.text))) items = s;
+      if (s.filter((w) => hasDot(w.text)).length >= 2 && s.some((w) => hasJoin(w.text)) && marks.every(([, letters]) => s.some((w) => carries(w.text, letters)))) items = s;
     }
-    if (!items) throw new Error(`${ID}: ${locale} words: no ${fit.n}-word set with ≥ 2 dot / cross words and ≥ 1 join word (refuse)`);
+    if (!items) throw new Error(`${ID}: ${locale} words: no ${fit.n}-word set with ≥ 2 dot / cross words, ≥ 1 join word and every mark the instruction names (${marks.map((m) => m[2]).join(', ') || 'none'}) (refuse)`);
     const B2 = require('../../lib/b2-common.js');
     const blocks = items.map((w, k) => {
       const [theme, noun] = w.key.split('/');
       const src = B2.fileUri(theme, noun);
       return C6.cwFaceBlock({
-        unit: c.unit, kind: c.kind, geom, seyes: c.kind === 'seyes' ? seyesFor(c, 2, k === items.length - 1) : null, w: BODY_W, marginX: M, writeRows: 1, dashHelpers: c.dashHelpers, blockIndex: k,
+        unit: c.unit, kind: c.kind, geom, seyes: c.kind === 'seyes' ? seyesFor(c, 2, true) : null, w: BODY_W, marginX: M, writeRows: 1, dashHelpers: c.dashHelpers, blockIndex: k, rowGap: [ROW_GAP, GAP_MAX.faceRow],
         attrs: { word: w.key, text: w.text },
         overlay: C6.cwPictureTile({ src, key: w.key, top: c.kind === 'seyes' ? 0 : null }),
         rowAInner: (fs, yB) => C6.cwRun({ unit: c.unit, fs, yB, left: M + 12, gap: 24, items: [(d.modelWord === false ? null : { text: w.text, role: 'model', attrs: { kind: 'word-model' } }), { text: w.text, role: 'trace', attrs: { kind: 'word' } }].filter(Boolean) }),
@@ -772,15 +852,19 @@ function buildFace(bankLoc, d, { locale, unit }, ctx) {
     const fs = fsOf(geom);
     const room = BODY_W - FACE_MARGIN.copy - 16 - 8;
     const fits = ss.filter((s) => [...s].length * 0.62 * fs <= room);
-    const fit = fitCount(c, geom, Math.min(d.sentences || 3, fits.length), 2, true, 0, mode);
-    const items = rng.sample(fits, fit.n);
     const under = d.modelUnder || 'first';
+    const hasModel = (k) => under === 'all' || (under === 'first' && k === 0);
+    // fix round 2 (en / de / es / fr landing panels): the instruction promises TWO lines to copy on under every
+    // sentence; the grey model takes row A of its block, so a model block carries three rows (A + two free)
+    const rowsOf = (k) => (hasModel(k) ? 3 : 2);
+    const fit = fitCount(c, geom, Math.min(d.sentences || 3, fits.length), rowsOf, true, 0, mode);
+    const items = rng.sample(fits, fit.n);
     const blocks = items.map((s, k) => {
       const model = under === 'all' || (under === 'first' && k === 0);
       return C6.cwFaceBlock({
-        unit: c.unit, kind: c.kind, geom, seyes: c.kind === 'seyes' ? seyesFor(c, 2, k === items.length - 1) : null, w: BODY_W, marginX: FACE_MARGIN.copy, writeRows: 1, dashHelpers: c.dashHelpers, blockIndex: k,
+        unit: c.unit, kind: c.kind, geom, seyes: c.kind === 'seyes' ? seyesFor(c, rowsOf(k), true) : null, w: BODY_W, marginX: FACE_MARGIN.copy, writeRows: rowsOf(k) - 1, dashHelpers: c.dashHelpers, blockIndex: k, rowGap: [ROW_GAP, GAP_MAX.faceRow],
         attrs: { sentence: s, model: model ? '1' : '0' },
-        head: C6.cwSentenceStrip({ text: s, w: BODY_W, marginX: FACE_MARGIN.copy }),
+        head: C6.cwSentenceStrip({ text: s, w: BODY_W, marginX: FACE_MARGIN.copy }), headGap: FACE_HEAD_GAP,
         rowAInner: (f, yB) => (model ? C6.cwRun({ unit: c.unit, fs: f, yB, left: FACE_MARGIN.copy + 16, gap: 0, items: [{ text: s, role: 'trace', attrs: { kind: 'sentence' } }] }) : ''),
       });
     });
@@ -827,6 +911,9 @@ function faceVerifyData(bankLoc, loc, mode, unit) {
     sentences: bankLoc.sentences || [],
     pictures: NEUTRAL.pictures, exclude: NEUTRAL.excludePictures,
     lift: (NEUTRAL.units[unit] || {}).lift || '',
+    shiftShareMax: SHIFT_SHARE_MAX,
+    oneLetter: ONE_LETTER_DIGRAPHS[loc] || [],
+    marks: (MARK_CLASSES[loc] || []).map(([re, letters, what]) => [re.source, re.flags, letters, what]),
   };
 }
 
@@ -840,7 +927,13 @@ const TYPE = {
   unitAxis: {
     applicable: true,
     units: (loc) => { const b = loadBank(KEY, String(loc).slice(0, 2)); return (b.units || []).slice(); },
-    exemplar: (loc) => loadBank(KEY, String(loc).slice(0, 2)).exemplar,
+    // the face's own mode picks its script when the locale ships two (de: VA on base/joins/copy, LA on capitals/words/read) —
+    // the title token must name the script the page is written in, never the locale default
+    exemplar: (loc, spec) => {
+      const b = loadBank(KEY, String(loc).slice(0, 2));
+      const m = spec && spec.difficulty && spec.difficulty[2] && spec.difficulty[2].mode;
+      return (b.exemplarByMode && m && b.exemplarByMode[m]) || b.exemplar;
+    },
     // {U} = the unit's native name (de titles only, §1); never the raw unit id
     tokens: (unit, loc) => {
       const b = loadBank(KEY, String(loc).slice(0, 2));
@@ -866,6 +959,8 @@ const TYPE = {
   FACE_MODES,
   derangeOrder,
   partnerDistances,
+  maxOffsetShare,
+  SHIFT_SHARE_MAX,
   readClash,
 
   build({ difficulty, locale, unit }) {
@@ -901,5 +996,8 @@ const TYPE = {
 function hexToRgb(h) { const n = parseInt(h.slice(1), 16); return `rgb(${(n >> 16) & 255}, ${(n >> 8) & 255}, ${n & 255})`; }
 TYPE._browserVerify = browserVerify;
 TYPE._rasterVerify = rasterVerify;
+/** the G2-386 mark classes of a locale as [source, flags, letters, label] (the bank gate reads the same table) */
+TYPE.ONE_LETTER_DIGRAPHS = ONE_LETTER_DIGRAPHS;
+TYPE._markClasses = (loc) => (MARK_CLASSES[loc] || []).map(([re, letters, what]) => [re.source, re.flags, letters, what]);
 
 module.exports = TYPE;

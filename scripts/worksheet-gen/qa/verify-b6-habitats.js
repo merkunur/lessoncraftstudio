@@ -52,7 +52,15 @@ const NEIGHBOUR_TITLES = ['Where Do Animals Live?', 'Wo leben die Tiere?', '¿D�
 const BARE_THEMES = ['animals', 'ocean life', 'forest creatures', 'zoo animals', 'insects and bugs', 'winter', 'tiere', 'meeresleben', 'waldtiere', 'djur', 'dyr',
   'eläimet', 'havsliv', 'havliv', 'merielämä', 'skogsdjur', 'skovdyr', 'skogsdyr', 'metsän eläimet'];
 // per-face words an instruction may NOT use (§5 rule 10; en source — the panels carry their own)
-const FACE_BANS = { base: /\b(line|circle|cross)\b/i, homes: /\b(write|letter|word)\b/i, odd: /\b(letter|write)\b/i, adapt: /\b(window|habitat picture|draw a line)\b/i, needs: /\b(toy|write)\b/i };
+// fix round 2 (landing panels): odd — the four cards beside a window are a 2 x 2 block, not a "row"; report — the page prints
+// exactly the declared pairs (one on the shipped face), never "each pair"
+const FACE_BANS = { base: /\b(line|circle|cross)\b/i, homes: /\b(write|letter|word)\b/i, odd: /\b(letter|write|rows?)\b/i, adapt: /\b(window|habitat picture|draw a line)\b/i, needs: /\b(toy|write)\b/i, report: /\b(each pair|pairs)\b/i };
+// the report's drawn habitat, as the build picks it (fix round 2): the first set member with >= chipPairs true pairs
+const REPORT_PAIRS = ((require('../tools/b6var-rows/habitats.js').ROWS.find((r) => r[1] === 'G2-381') || [])[5] || {}).chipPairs || 1;
+function reportTile(block, truth = HABITATS) {
+  const set = ((block.sets && block.sets.base) || []).filter((t) => !(block.refuse || []).includes(t));
+  return set.find((t) => ((truth.CHIP_ORDER || {})[t] || []).filter((dim) => (truth.CHIP_TRUTH[t] || {})[dim]).length >= REPORT_PAIRS) || null;
+}
 
 let assertions = 0;
 const fails = [];
@@ -118,6 +126,17 @@ function validateBank(block, loc, truth = HABITATS) {
     for (const x of n.neverEats) if (!truth.FOOD_PICS[x]) e.push(`rule 7: ${a} neverEats ${x} is not a food picture (never a toy / an object)`);
   }
   for (const [k, p] of Object.entries(truth.FOOD_PICS)) if (/toys|tools|furniture|classroom|vehicles/i.test(p.theme)) e.push(`rule 7: food ${k} is a ${p.theme} picture (not a need)`);
+  // rule 7b (fix round 2, en/de/es/fr/nl landing panels): the needs head line names ONLY what the page draws (food, a home) —
+  // "food, WATER and a home" over two columns named water and never drew or asked it. Every block lists its words for the
+  // needs the page does not draw (water / drink / air …) in needs.undrawn; the line may contain none of them (a word-start
+  // match: "water" also catches "waters"; an inflected form the panel expects is listed as its own entry)
+  {
+    const nd = block.needs || {};
+    const und = Array.isArray(nd.undrawn) ? nd.undrawn.filter((w) => typeof w === 'string' && w.trim()) : [];
+    if (!und.length) e.push(`rule 7b: ${loc} needs.undrawn missing (the panel lists its words for the needs the page does not draw: water, drink, air)`);
+    const line = String(nd.line || '').normalize('NFC').toLocaleLowerCase(loc);
+    for (const w of und) if (new RegExp(`(?<!\\p{L})${esc(w.normalize('NFC').toLocaleLowerCase(loc))}`, 'u').test(line)) e.push(`rule 7b: ${loc} needs.line names "${w}", a need the page never draws (apparatus named but not drawn)`);
+  }
   // rule 8 — homes
   const H6 = { bird: 'nest', bee: 'hive', spider: 'web', rabbit: 'burrow', ant: 'anthill', beaver: 'lodge' };
   if (JSON.stringify(Object.entries(truth.HOMES).sort()) !== JSON.stringify(Object.entries(H6).sort())) e.push('rule 8: HOMES are not exactly the six pairs');
@@ -149,6 +168,24 @@ function validateBank(block, loc, truth = HABITATS) {
     titles.push([k, tl]);
   }
   for (let i = 0; i < titles.length; i++) for (let j = i + 1; j < titles.length; j++) if (titles[i][1] === titles[j][1]) e.push(`rule 12: ${titles[i][0]} and ${titles[j][0]} share a title`);
+  // rule 9b (fix round 2, de landing panel: "Forscherblatt: Lebensraum Wald" over a drawn POND): the report title names no
+  // habitat but the one the page draws — every word (>= 3 letters) of another tile label is banned from it
+  {
+    const rt = reportTile(block, truth);
+    const t = ((S['G2-381'] || {}).title || '').normalize('NFC').toLocaleLowerCase(loc);
+    const TLb = block.tileLabel || {};
+    const ownKeys = rt ? [rt, ...(rt === 'polar' ? ['polar-arctic'] : [])] : [];
+    const own = new Set(ownKeys.flatMap((k) => String(TLb[k] || '').normalize('NFC').toLocaleLowerCase(loc).split(/[^\p{L}]+/u)));
+    for (const [k, v] of Object.entries(TLb)) {
+      if (!rt || ownKeys.includes(k)) continue;
+      for (const w of String(v).normalize('NFC').toLocaleLowerCase(loc).split(/[^\p{L}]+/u)) if (w.length >= 3 && !own.has(w) && nameRe(w, loc).test(t)) e.push(`rule 9b: ${loc} G2-381 title names "${w}" (tileLabel.${k}) but the report draws ${rt} ("${TLb[rt]}")`);
+    }
+  }
+  if (loc === 'en') {
+    const a = (S['G2-380'] || {}).instruction || '', r = (S['G2-381'] || {}).instruction || '';
+    if (!/\bleft over\b/i.test(a)) e.push('rule 10: en G2-380 instruction must say one animal is left over (seven cards, six sentences)');
+    if (!/\bin the picture\b/i.test(r)) e.push('rule 10: en G2-381 instruction must say WHERE to draw (in the picture: the page has no other drawing space)');
+  }
   // rule 11 — tile labels
   const TL = block.tileLabel || {};
   const labKeys = ['ocean', 'pond', 'forest', 'meadow', 'polar', 'polar-arctic', 'savanna', 'rainforest'];
@@ -202,7 +239,65 @@ const LOCALE_SETS = {
   // the pt panel drops Polo -> 3 windows); F2 still composes with it
   pt: { sets: { base: ['rainforest', 'ocean', 'savanna', 'polar'] }, rainforestRegion: 'americas', expectBaseRefusal: true },
   'pt without Polo (OPEN 3)': { sets: { base: ['rainforest', 'ocean', 'savanna'] }, rainforestRegion: 'americas' },
+  // fix round 2 (es landing panel: the only selva animal was an African gorilla): the recommended es block data
+  'es + rainforestRegion americas (fix round 2 proposal)': { sets: { base: ['rainforest', 'forest', 'ocean', 'pond'] }, rainforestRegion: 'americas' },
 };
+
+/**
+ * fix round 2 — the APPLIED locale banks (data/b6/locales/habitats.<loc>.json, generated from the panels' drafts) + en:
+ * every face composes on 100 seeds and every structural rule of the family holds in EVERY locale that ships it (the
+ * page oracle, the sloth region rule, the duckling off base / F2, the F2 row oracle + the temperate-stranger rule +
+ * the stranger places, the F3 claim oracle with the locale region, the F4 balanced sides, the F5 declared pair count).
+ * String rules (7b needs.undrawn, 9b the report title) run per locale in validateBank (tools/validate-b6-draft.js) and
+ * are reported here as the re-author list, not asserted: they wait for the native reconciliation round.
+ */
+function localeBankSweep() {
+  const fs = require('fs');
+  const { loadType } = require('../lib/load-types.js');
+  const out = [];
+  const locs = { en: HABITATS_LOC.en };
+  for (const l of ['de', 'es', 'fr', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi']) {
+    const f = path.join(__dirname, '..', 'data', 'b6', 'locales', `habitats.${l}.json`);
+    if (!fs.existsSync(f)) continue;
+    const j = JSON.parse(fs.readFileSync(f, 'utf8')); locs[l] = j[l] || j;
+  }
+  const F = Object.fromEntries(['K-383', 'G1-406', 'G2-380', 'G1-407', 'G2-381'].map((id) => [id, loadType(id)]));
+  for (const [l, b] of Object.entries(locs)) {
+    let n = 0, sloth = 0, duck = 0, temperate = 0;
+    const pending = validateBank(b, l).filter((x) => /rule (7b|9b)/.test(x));
+    for (let k = 1; k <= 100; k++) {
+      const rng = (id) => makeRng(instanceSeed({ typeId: id, theme: null, difficulty: 2, seedEpoch: k }));
+      const region = b.rainforestRegion || null;
+      try {
+        const c = TYPE._compose(TYPE.difficulty[2], b, l, rng('G1-398'));
+        for (const x of TYPE.pageOracle(c.windows, c.drawer, { rainforestRegion: region })) ok(false, `${l} base seed ${k}: ${x}`);
+        if (c.drawer.some((a) => a.key === 'sloth')) sloth++;
+        if (c.drawer.some((a) => a.key === 'duck')) duck++;
+        n++;
+      } catch (x) { if (!(b.refuse || []).includes('base')) ok(false, `${l} base seed ${k}: refused (${x.message})`); }
+      for (const [id, t] of Object.entries(F)) {
+        let m;
+        try { m = t._buildWith(b, { ...t.difficulty[2] }, { locale: l }, { rng: rng(id) }).meta; } catch (x) { if (!(b.refuse || []).includes(id) && !(b.refuse || []).includes(t.difficulty[2].layout)) ok(false, `${l} ${id} seed ${k}: refused (${x.message})`); continue; }
+        n++;
+        if (id === 'G1-406') {
+          for (const r of m.rows) for (const x of TYPE.oddRowOracle(r.habitat, r.residents, r.stranger, region)) ok(false, `${l} G1-406 seed ${k}: ${x}`);
+          for (const x of TYPE.oddPageTells(m.rows.map((r) => r.stranger))) ok(false, `${l} G1-406 seed ${k}: ${x}`);
+          for (const x of TYPE.oddPosTells(m.rows.map((r) => r.cards.indexOf(r.stranger)), 4)) ok(false, `${l} G1-406 seed ${k}: ${x}`);
+          if (m.rows.some((r) => r.cards.includes('duck'))) duck++;
+          if (m.rows.some((r) => r.cards.includes('sloth'))) sloth++;
+          temperate += m.rows.filter((r) => HABITATS.TEMPERATE.includes(HABITATS.ANIMALS.find((a) => a.key === r.stranger).lives[0])).length;
+        }
+        if (id === 'G2-380') for (const x of TYPE.adaptOracle(m.rows, m.bank, region)) ok(false, `${l} G2-380 seed ${k}: ${x}`);
+        if (id === 'G1-407') for (const [key, own] of [['foods', 'food'], ['homes', 'home']]) for (const x of TYPE.sideTells(m.rows.map((r) => r[key].indexOf(r[own])))) ok(false, `${l} G1-407 seed ${k}: ${key} ${x}`);
+        if (id === 'G2-381') ok(m.pairs.length === F['G2-381'].difficulty[2].chipPairs, `${l} G2-381: ${m.pairs.length} pairs ≠ declared ${F['G2-381'].difficulty[2].chipPairs}`);
+      }
+    }
+    if (!b.rainforestRegion) ok(sloth === 0, `${l}: the sloth (reads as a meerkat) reached ${sloth} pages outside an americas-rainforest locale`);
+    ok(duck === 0, `${l}: the duckling (reads as a chick) reached ${duck} base / F2 pages`);
+    out.push(`  ${l}: ${n} pages composed (base + 5 faces x 100), sloth pages ${sloth}, duckling on base/F2 ${duck}, temperate F2 strangers ${temperate}/100 pages · pending re-author: ${pending.length ? pending.join(' | ') : 'none'}`);
+  }
+  return out;
+}
 function localeSetSweep() {
   const odd = { ...TYPE.difficulty[2], layout: 'odd', rows: 4, perRow: 4, nearPairs: 1 };
   const out = [];
@@ -299,6 +394,7 @@ async function main() {
   const tells = tellStats();
   console.log(tells.join('\n'));
   console.log(['locale sets (generalist audit, 200 seeds each):', ...localeSetSweep()].join('\n'));
+  console.log(['applied locale banks (fix round 2, 100 seeds x base + 5 faces):', ...localeBankSweep()].join('\n'));
 
   // --- bank poisons
   const log = []; let killed = 0, total = 0;
@@ -324,6 +420,32 @@ async function main() {
   judge('P6X placeWordExempt: a lake word that also means water (control: must pass)', validateBank({ ...en, tileLabel: { ...en.tileLabel, pond: 'Water' }, adapt: { ...en.adapt, 'elephant-trunk': 'Its long trunk sucks up water and picks up food.' }, placeWordExempt: { water: 'the en test lake word also means water' } }, 'en').filter((x) => /rule 6b/.test(x)).length ? ['rule 6b fired on an exempt word'] : ['CONTROL-OK'], /CONTROL-OK/);
   judge('P6Y the same without the exemption fails', validateBank({ ...en, tileLabel: { ...en.tileLabel, pond: 'Water' }, adapt: { ...en.adapt, 'elephant-trunk': 'Its long trunk sucks up water and picks up food.' } }, 'en'), /rule 6b: en adapt.elephant-trunk names the place "water"/);
   judge('P2H the heron back in the pool', validateBank({ ...en, names: { ...en.names, heron: ['heron'] } }, 'en', addAnimal({ key: 'heron', pic: { theme: 'birds 2', noun: 'heron' }, lives: ['pond'] })), /rule 1: .*EXCLUDED/);
+  // fix round 2 poisons — each rule in BOTH directions (a must-fire poison and a must-pass control)
+  const ctl = (f, re) => (f.filter((x) => re.test(x)).length ? ['control fired: ' + f.find((x) => re.test(x))] : ['CONTROL-OK']);
+  const enLine = (line) => ({ ...en, needs: { ...en.needs, line } });
+  judge('PW needs line "food, water and a home" (water named, never drawn)', validateBank(enLine('Every animal needs food, water and a home.'), 'en'), /rule 7b: en needs.line names "water"/);
+  judge('PW0 control: the shipped line passes rule 7b', ctl(validateBank(en, 'en'), /rule 7b/), /CONTROL-OK/);
+  judge('PW2 a block with no needs.undrawn list', validateBank({ ...en, needs: { line: en.needs.line, foodHead: 'Food', homeHead: 'Home' } }, 'en'), /rule 7b: en needs.undrawn missing/);
+  const enTitle = (title) => ({ ...en, strings: { ...en.strings, 'G2-381': { ...en.strings['G2-381'], title } } });
+  judge('PT report title names the forest while the page draws the ocean (the de "Lebensraum Wald" defect)', validateBank(enTitle('My Forest Habitat Report'), 'en'), /rule 9b: en G2-381 title names "forest"/);
+  judge('PT0 control: a title naming the drawn ocean passes', ctl(validateBank(enTitle('My Ocean Habitat Report'), 'en'), /rule 9b/), /CONTROL-OK/);
+  judge('PT1 control: a de-shaped block whose set draws the pond, title naming the pond', ctl(validateBank({ ...enTitle('My Pond Report'), sets: { base: ['forest', 'meadow', 'pond', 'ocean'] } }, 'en'), /rule 9b/), /CONTROL-OK/);
+  judge('PT2 the same block, title naming the forest', validateBank({ ...enTitle('My Forest Report'), sets: { base: ['forest', 'meadow', 'pond', 'ocean'] } }, 'en'), /rule 9b: en G2-381 title names "forest" \(tileLabel.forest\) but the report draws pond/);
+  const enIns = (id, instruction) => ({ ...en, strings: { ...en.strings, [id]: { ...en.strings[id], instruction } } });
+  judge('PIR G1-406 instruction "In each row, …" (the cards are a 2 x 2 block)', validateBank(enIns('G1-406', 'In each row, cross out the animal that does not live in that habitat.'), 'en'), /rule 10: en G1-406 instruction names apparatus/);
+  judge('PLO G2-380 instruction silent about the leftover animal', validateBank(enIns('G2-380', 'Write the letter of the animal each sentence tells about in its box.'), 'en'), /rule 10: en G2-380 instruction must say one animal is left over/);
+  judge('PIP G2-381 "circle the right word in each pair" over one pair', validateBank(enIns('G2-381', 'In the picture, draw three animals that live there, write their names and a plant, and circle the right word in each pair.'), 'en'), /rule 10: en G2-381 instruction names apparatus/);
+  judge('PIP2 G2-381 "draw three animals" with no place to draw', validateBank(enIns('G2-381', 'Draw three animals that live in this habitat, write their names and a plant that grows there, and circle the word that fits.'), 'en'), /rule 10: en G2-381 instruction must say WHERE to draw/);
+  judge('PRB F1/F4 rabbit back to the long-eared hare (forest creatures/rabbit)', validateBank(en, 'en', truthWith((t) => { t.HOME_PICS.rabbit = { theme: 'forest creatures', noun: 'rabbit' }; })), /rule 1: rabbit picture forest creatures\/rabbit is EXCLUDED/);
+  judge('PRB0 control: the burrow rabbit animals/rabbit passes rule 1', ctl(validateBank(en, 'en'), /rule 1: rabbit/), /CONTROL-OK/);
+  // the pure oracles (the render poisons for the same rules live in b6-habitats-faces.js)
+  judge('PSL a sloth on an en base page (reads as a meerkat)', TYPE.pageOracle([{ letter: 'A', habitat: 'rainforest' }, { letter: 'B', habitat: 'ocean' }], [{ key: 'sloth', answer: 'A' }, { key: 'whale', answer: 'B' }]), /sloth: stands only on a page of an americas-rainforest locale/);
+  judge('PSL0 control: the sloth on a pt (americas) page with no savanna window passes', ctl(TYPE.pageOracle([{ letter: 'A', habitat: 'rainforest' }, { letter: 'B', habitat: 'ocean' }], [{ key: 'sloth', answer: 'A' }, { key: 'whale', answer: 'B' }], { rainforestRegion: 'americas' }), /sloth/), /CONTROL-OK/);
+  judge('PSL2 the sloth on a pt page WITH a savanna window', TYPE.pageOracle([{ letter: 'A', habitat: 'rainforest' }, { letter: 'B', habitat: 'savanna' }], [{ key: 'sloth', answer: 'A' }, { key: 'lion', answer: 'B' }], { rainforestRegion: 'americas' }), /sloth: never on a page with a savanna window/);
+  judge('PDB the duckling on a base page (reads as a chick)', TYPE.pageOracle([{ letter: 'A', habitat: 'pond' }, { letter: 'B', habitat: 'forest' }], [{ key: 'duck', answer: 'A' }, { key: 'squirrel', answer: 'B' }]), /duck: may not appear on the base face/);
+  judge('PST0 control: a page with a temperate stranger passes', ctl(TYPE.oddPageTells(['lion', 'squirrel', 'macaw', 'shark']), /exotic/), /CONTROL-OK/);
+  judge('PSD0 control: sides 2 / 2, not alternating, pass', ctl(TYPE.sideTells([0, 1, 1, 0]), /unbalanced|same side|alternates/), /CONTROL-OK/);
+  judge('PSD the right chip on one side in 3 of 4 rows', TYPE.sideTells([0, 0, 1, 0]), /unbalanced sides/);
   judge('P19 fi F1 title "Eläinten kodit"', validateBank({ ...en, strings: { ...en.strings, 'K-383': { ...en.strings['K-383'], title: 'Eläinten kodit' } } }, 'fi'), /rule 9: fi title "Eläinten kodit"/);
 
   // --- render

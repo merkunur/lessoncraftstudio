@@ -150,10 +150,17 @@ const FACE = {
       if (!Array.isArray(d.forms) || d.forms.slice().sort().join() !== 'ball,boat') throw new Error(`${ID}: shape forms must be ball + boat (a bowl / pancake / sheet is ruled out)`);
       for (const f of d.forms) if (!N.SHAPES[f]) throw new Error(`${ID}: no SHAPES outcome for ${f}`);
       if (!(d.formW >= 120) || !(0.32 * d.tank[1] >= 24)) throw new Error(`${ID}: shape forms ${d.formW} / rings under the floor`);
-      const stack = d.clayH + d.rowGap + (d.transfer ? d.transferH + d.rowGap : 0) + d.drawTank[1];
+      // fix round 2 (en + es panels): the lump was drawn at 72 px and its ball / boat at 120, so the new shape looked like
+      // MORE clay — the opposite of the experiment. Every clay form is drawn at ONE scale (the same px per clay unit), so
+      // the clay gate's equal unit areas ARE equal areas on the page. forceLumpW = the GATE's poison seam.
+      if (d.lumpW !== d.formW && !d.forceLumpW) throw new Error(`${ID}: shape lumpW ${d.lumpW} ≠ formW ${d.formW} — the clay would not be conserved on the page`);
+      const heads = bankLoc && bankLoc.shapeHeads;
+      const clayHead = literal(heads, 'clay', 'shapeHeads', loc), steelHead = d.transfer ? literal(heads, 'steel', 'shapeHeads', loc) : null;
+      const floatWord = literal(bankLoc, 'floatWord', 'bank', loc), sinkWord = literal(bankLoc, 'sinkWord', 'bank', loc);
+      const stack = d.legendH + d.rowGap + d.headH + d.clayH + d.rowGap + (d.transfer ? d.transferH + d.rowGap : 0) + d.drawTank[1];
       if (stack > FACE_BODY) throw new Error(`${ID}: shape stack ${stack} > ${FACE_BODY}`);
       const forms = d.forceForms ? d.forceForms.slice() : rng.shuffle(d.forms.slice());
-      const clay = forms.map((f) => C6.sfClayRow({ form: f, result: N.SHAPES[f], lumpW: d.lumpW, formW: d.formW, tank: d.tank, cardW: d.cardW }));
+      const clay = forms.map((f) => C6.sfClayRow({ form: f, result: N.SHAPES[f], lumpW: d.forceLumpW || d.lumpW, formW: d.formW, tank: d.tank, cardW: d.cardW }));
       if (d.forceHalfBoat) { const i = forms.indexOf('boat'); clay[i] = clay[i].split(require('../../primitives/clay-form.js').BOAT_HULL).join('M 22 80 L 122 80 Q 142 78 148 66 L 132 96 L 30 96 Z'); }
       let transfer = '', tStamp = null;
       if (d.transfer) {
@@ -162,15 +169,19 @@ const FACE = {
         if (byId[sId].result !== 'sink' || byId[fId].result !== 'float') throw new Error(`${ID}: transfer must be [sinker, floater]`);
         const floats = d.forceTransferSide || (rng.int(0, 1) ? 'L' : 'R');
         const s0 = pic(sId, d.smallPx), f0 = pic(fId, d.bigPx);
-        transfer = C6.sfTransferCard({ left: floats === 'L' ? f0 : s0, right: floats === 'L' ? s0 : f0, floats, w: 639, minH: d.transferH });
+        transfer = C6.sfTransferCard({ left: floats === 'L' ? f0 : s0, right: floats === 'L' ? s0 : f0, floats, w: 639, minH: d.transferH, head: d.forceNoSteelHead ? null : steelHead });
         tStamp = { floats, sinker: sId, floater: fId };
       }
       // the draw tank STRETCHES with the body (FILL; the F4 tub precedent) — the clay and transfer rows keep their size
       const drawT = waterTank({ w: d.drawTank[0], h: d.drawTank[1], mode: 'empty', id: 'draw', stretch: true }).svg.replace('<svg ', '<svg data-lcs-block ');
-      const rows = [`${d.clayH}px`, ...(d.transfer ? [`${d.transferH}px`] : []), `minmax(${d.drawTank[1]}px,1fr)`];
-      const bodyHtml = rootOpen(`data-lcs-forms="${forms.join(',')}" data-lcs-shapes='${js(N.SHAPES)}'${tStamp ? ` data-lcs-transfer-stamp='${js(tStamp)}'` : ''}`,
-        `display:grid;grid-template-rows:${rows.join(' ')};row-gap:${d.rowGap}px;justify-items:center;align-content:start`) +
-        `<div style="display:flex;gap:15px;height:100%">${clay.join('')}</div>` + transfer +
+      // fix round 2 (fr panel): the clay trials' tanks carried no float / sink key while the base has one -> the SAME legend
+      // strip (the only float / sink words on the page); (de / fr / nl panels) each row names its own point: the clay pair
+      // "same clay, different shapes", the steel pair "same steel, different shapes: circle the one that floats"
+      const legend = d.forceNoLegend ? `<div data-lcs-block style="height:${d.legendH}px"></div>` : `<div style="width:639px">${C6.sfLegend({ floatWord, sinkWord, h: d.legendH })}</div>`;
+      const rows = [`${d.legendH}px`, `${d.headH + d.clayH}px`, ...(d.transfer ? [`${d.transferH}px`] : []), `minmax(${d.drawTank[1]}px,1fr)`];
+      const bodyHtml = rootOpen(`data-lcs-forms="${forms.join(',')}" data-lcs-shapes='${js(N.SHAPES)}' data-lcs-float-word="${floatWord.replace(/"/g, '&quot;')}" data-lcs-sink-word="${sinkWord.replace(/"/g, '&quot;')}"${tStamp ? ` data-lcs-transfer-stamp='${js(tStamp)}'` : ''}`,
+        `display:grid;grid-template-rows:${rows.join(' ')};row-gap:${d.rowGap}px;justify-items:center;align-content:start`) + legend +
+        `<div style="display:flex;flex-direction:column;gap:0;height:100%">${C6.sfRowHead({ key: 'clay', text: clayHead, h: d.headH })}<div style="display:flex;gap:15px;flex:1;min-height:0">${clay.join('')}</div></div>` + transfer +
         `<div data-lcs-draw-tank style="display:flex;justify-content:center;height:100%;min-height:${d.drawTank[1]}px">${drawT}</div></div>`;
       return { bodyHtml, meta: { layout: L, forms, transfer: tStamp } };
     }
@@ -178,7 +189,8 @@ const FACE = {
     if (L === 'truth') {
       const TFL = bankLoc && bankLoc.tf;
       if (!TFL) throw new Error(`${ID}: ${loc} bank has no tf block (refuse)`);
-      const ids = Object.keys(N.TF).filter((id) => typeof TFL[id] === 'string' && TFL[id].trim() && N.TF[id].objects.every((o) => typeof labels[o] === 'string' && labels[o].trim()));
+      // fix round 2: a sentence that needs an experiment the page does not show (T6) or has two defensible answers (F8) never draws
+      const ids = Object.keys(N.TF).filter((id) => !N.TF[id].retired && !N.TF[id].needsExperiment && typeof TFL[id] === 'string' && TFL[id].trim() && N.TF[id].objects.every((o) => typeof labels[o] === 'string' && labels[o].trim()));
       const m = d.mix || {};
       if (m.T + m.F !== d.rows) throw new Error(`${ID}: truth mix ≠ rows`);
       if (d.rows * d.rowMin + (d.rows - 1) * d.rowGap + d.shelfH + d.rowGap > FACE_BODY) throw new Error(`${ID}: truth stack > ${FACE_BODY}`);
@@ -229,16 +241,23 @@ const FACE = {
     const orange = byId.orange;
     const qCards = qs.map(({ q, text }) => C6.sfQuestionCard({ q, text, textPx: d.textPx, pictureHtml: q === 'orange' ? `<img src="${fileUri(orange.theme, orange.noun)}" alt="" data-lcs-pic style="width:52px;height:52px;object-fit:contain;display:block">` : C6.sfCargoPicture() }));
     const rule = (rows, w, starter) => rulingBlock({ rows, w, h: d.rowH, glyphH: d.glyphH, starters: starter ? { 0: starter } : {} });
-    const resultTank = waterTank({ w: d.resultTank[0], h: d.resultTank[1], mode: 'empty', id: 'result' }).svg;
+    // fix round 2 (en panel): the orange question is TWO tests (with and without the peel) and the cargo boat is drawn still
+    // floating and then sinking, so "What happened" draws one empty tank per test the chosen question needs (the max over
+    // the offered questions). forceResultTanks = the GATE's poison seam.
+    const tests = Math.max(...d.questions.map((q) => N.QUESTION_TESTS[q] || 1));
+    const nTanks = d.forceResultTanks || tests;
+    const resultTank = Array.from({ length: nTanks }, (_, i) => waterTank({ w: d.resultTank[0], h: d.resultTank[1], mode: 'empty', id: 'result-' + (i + 1) }).svg).join('');
+    const rowsW = 615 - nTanks * d.resultTank[0] - (nTanks - 1) * 10 - 12;
+    if (rowsW < 240) throw new Error(`${ID}: report result rows ${rowsW} px < 240 beside ${nTanks} tanks`);
     let learnedHtml = rule(d.learnRows, 600, R.starter);
     if (d.forceAnswerBox) learnedHtml += '<span class="ws-answerbox" data-lcs-answer="undefined"></span>';
     const sections = [
       C6.sfSection({ n: 1, key: 'question', glyph: C6.sfQuestionGlyph(), head: R.question, inner: `<div style="display:flex;flex-direction:column;gap:4px">${qCards.join('')}</div>` }),
       C6.sfSection({ n: 2, key: 'predict', glyph: C6.sfThinkGlyph(), head: R.predict, inner: rule(d.predictRows, 600) }),
-      C6.sfSection({ n: 3, key: 'result', glyph: C6.sfSplashGlyph(), head: R.result, inner: `<div style="display:flex;align-items:center;gap:12px">${resultTank}${rule(d.resultRows, 360)}</div>` }),
+      C6.sfSection({ n: 3, key: 'result', glyph: C6.sfSplashGlyph(), head: R.result, inner: `<div style="display:flex;align-items:center;gap:12px"><div data-lcs-result-tanks style="display:flex;gap:10px">${resultTank}</div>${rule(d.resultRows, rowsW)}</div>` }),
       C6.sfSection({ n: 4, key: 'learned', glyph: C6.sfBulbGlyph(), head: R.learned, inner: learnedHtml }),
     ];
-    const bodyHtml = rootOpen(`data-lcs-questions="${d.questions.join(',')}" data-lcs-glyph-h="${d.glyphH}"`,
+    const bodyHtml = rootOpen(`data-lcs-questions="${d.questions.join(',')}" data-lcs-glyph-h="${d.glyphH}" data-lcs-tests="${tests}"`,
       `display:flex;flex-direction:column;gap:${d.gap}px;align-items:center`) + sections.map((s0) => `<div style="flex:1 1 auto;display:flex">${s0}</div>`).join('') + '</div>';
     return { bodyHtml, meta: { layout: L } };
   },
@@ -275,7 +294,8 @@ const FACE = {
         const a = rect(rs.find((x) => x.dataset.lcsSlot === 'top')), b = rect(rs.find((x) => x.dataset.lcsSlot === 'floor'));
         const wy = (rect(wl).top + rect(wl).bottom) / 2, fy = (rect(fl).top + rect(fl).bottom) / 2;
         if (Math.abs((a.top + a.bottom) / 2 - wy) > 1) fails.push(`${where}: the float ring is not centred on the waterline`);
-        if (b.bottom < fy - 2 || b.bottom > fy + 1.5) fails.push(`${where}: the sink ring does not rest on the floor`);
+        const gb = rect(t.querySelector('[data-lcs-tank-part="floor"] path')).bottom;   // fix round 2: SETTLED into the gravel band
+        if (b.bottom < fy + 2.4 || b.bottom > gb - 1.5) fails.push(`${where}: the sink ring does not rest on the floor (bottom ${(b.bottom - fy).toFixed(1)} px under the gravel line; it must settle into the gravel band)`);
       };
       const text = (el) => { const c = el.cloneNode(true); c.querySelectorAll('title').forEach((t) => t.remove()); return c.textContent.trim(); };
 
@@ -363,7 +383,28 @@ const FACE = {
         const dt = root.querySelector('[data-lcs-draw-tank] svg');
         if (!dt || dt.getAttribute('data-lcs-tank-mode') !== 'empty') fails.push('no empty draw tank');
         else if (dt.querySelector('image,text') || root.querySelector('[data-lcs-draw-tank] img')) fails.push('a picture or text in the draw tank');
-        if (text(root)) fails.push(`the shape body prints "${text(root).slice(0, 30)}" (no word on the body)`);
+        // fix round 2 (en + es panels): the SAME clay must look like the same AMOUNT — every clay form in a card is drawn at
+        // one scale (equal rendered width = equal px per clay unit; the clay gate proves the unit areas equal)
+        const cw = all('svg[data-lcs-clay]').filter((sv) => sv.closest('[data-lcs-clay-card]')).map((sv) => rect(sv).width);
+        if (cw.length < 4) fails.push(`${cw.length} clay forms in the clay cards (< 4)`);
+        else if (Math.max(...cw) - Math.min(...cw) > 0.6) fails.push(`the clay is not conserved on the page: the lump and its shapes are drawn at different scales (${cw.map((x) => x.toFixed(0)).join(' / ')} px wide)`);
+        // fix round 2 (fr panel): the trial tanks get the same float / sink key as the base — its two words, each ONCE, only there
+        const lg = root.querySelector('[data-lcs-sof-legend]');
+        if (!lg || !lg.querySelector('svg[data-lcs-tank-mode="legend-float"]') || !lg.querySelector('svg[data-lcs-tank-mode="legend-sink"]')) fails.push('the clay trial tanks have no float / sink key (legend)');
+        else {
+          for (const [k, w] of [['float', root.dataset.lcsFloatWord], ['sink', root.dataset.lcsSinkWord]]) { const e = lg.querySelector(`[data-lcs-legend-word="${k}"]`); if (!e || NT(e.textContent) !== NT(w)) fails.push(`the legend ${k} word ≠ its stamp`); else if (e.scrollWidth > e.clientWidth + 0.6 || parseFloat(getComputedStyle(e).fontSize) < 18) fails.push(`the legend ${k} word is clipped / under 18 px`); }
+          const firstTank = all('svg[data-lcs-tank-mode="rings"]')[0]; if (firstTank && rect(lg).bottom > rect(firstTank).top) fails.push('the legend is not above the trial tanks');
+        }
+        // fix round 2 (de / fr / nl panels): each row names its point; the steel row's head sits INSIDE its card, above both pictures
+        const heads = all('[data-lcs-row-head]');
+        const hk = heads.map((h) => h.dataset.lcsRowHead).sort().join();
+        if (hk !== (ts ? 'clay,steel' : 'clay')) fails.push(`row heads [${hk}] — every row names its own point (the steel strip has no head of its own)`);
+        heads.forEach((h) => { if (h.scrollWidth > h.clientWidth + 0.6 || rect(h).right > rect(root).right + 0.6 || rect(h).left < rect(root).left - 0.6) fails.push(`row head "${h.textContent}" is clipped / leaves the body`); if (parseFloat(getComputedStyle(h).fontSize) < 16) fails.push('a row head under 16 px'); });
+        const ch = heads.find((h) => h.dataset.lcsRowHead === 'clay'); if (ch && cards.some((c) => rect(c).top < rect(ch).bottom - 0.6)) fails.push('the clay head is not above the clay cards');
+        const sh = heads.find((h) => h.dataset.lcsRowHead === 'steel');
+        if (sh && tc) { if (!tc.contains(sh)) fails.push('the steel head is not inside the steel strip'); else if (all('[data-lcs-transfer-item] img', tc).some((im) => rect(im).top < rect(sh).bottom - 0.6)) fails.push('the steel head is not above the nail and the ship'); }
+        const clone = root.cloneNode(true); clone.querySelectorAll('[data-lcs-sof-legend],[data-lcs-row-head]').forEach((e) => e.remove()); clone.querySelectorAll('title').forEach((t) => t.remove());
+        if (clone.textContent.trim()) fails.push(`the shape body prints "${clone.textContent.trim().slice(0, 30)}" outside the key and the row heads`);
         return fails;
       }
 
@@ -440,8 +481,12 @@ const FACE = {
       rows.forEach((r) => { if (r.querySelector('text:not([data-lcs-starter])')) fails.push('a writing row prints text'); });
       if (rows.length < 5) fails.push(`${rows.length} writing rows (< 5)`);
       const glyph = +root.dataset.lcsGlyphH; if (!(glyph >= 24)) fails.push('glyphH under 24');
-      const rt = root.querySelector('[data-lcs-section="result"] svg[data-lcs-tank-mode]');
-      if (!rt || rt.getAttribute('data-lcs-tank-mode') !== 'empty' || rt.querySelector('circle[data-lcs-slot], image, text')) fails.push('the result tank is not empty');
+      const rts = all('[data-lcs-section="result"] svg[data-lcs-tank-mode]');
+      if (!rts.length || rts.some((rt) => rt.getAttribute('data-lcs-tank-mode') !== 'empty' || rt.querySelector('circle[data-lcs-slot], image, text'))) fails.push('the result tank is not empty');
+      // fix round 2 (en panel): one tank per test the chosen question needs (the orange WITH and WITHOUT its peel)
+      const tests = +root.dataset.lcsTests;
+      if (!(tests >= 1) || rts.length !== tests) fails.push(`the result section draws ${rts.length} tank(s) but a question needs ${tests} tests (one tank per test)`);
+      for (let a = 0; a < rts.length; a++) for (let b = a + 1; b < rts.length; b++) { const p = rect(rts[a]), q = rect(rts[b]); if (p.left < q.right && q.left < p.right && p.top < q.bottom && q.top < p.bottom) fails.push('two result tanks overlap'); }
       if (root.querySelector('[data-lcs-answer="undefined"]')) fails.push('an answer box without an answer (data-lcs-answer="undefined")');
       return fails;
     }, layout, FLOOR[layout]);
@@ -453,12 +498,20 @@ const FACE = {
         qs: [...r.querySelectorAll('[data-lcs-question]')].map((x) => [x.dataset.lcsQuestion, x.querySelector('[data-lcs-question-text]').textContent]),
         heads: [...r.querySelectorAll('[data-lcs-section]')].map((x) => [x.dataset.lcsSection, x.querySelector('[data-lcs-section-head]').textContent]),
         starter: [...r.querySelectorAll('[data-lcs-starter]')].map((x) => x.textContent), chips: [...r.querySelectorAll('[data-lcs-truth-chip]')].map((x) => [x.dataset.lcsTruthChip, x.textContent]),
+        tests: r.dataset.lcsTests == null ? null : r.dataset.lcsTests, questions: r.dataset.lcsQuestions,
+        rowHeads: [...r.querySelectorAll('[data-lcs-row-head]')].map((x) => [x.dataset.lcsRowHead, x.textContent]),
+        legendWords: [...r.querySelectorAll('[data-lcs-legend-word]')].map((x) => [x.dataset.lcsLegendWord, x.textContent]),
+        bodyNoKey: (() => { const c = r.cloneNode(true); c.querySelectorAll('[data-lcs-sof-legend],[data-lcs-row-head]').forEach((e) => e.remove()); return c.textContent; })(),
         body: r.textContent };
     });
     let b = null;
     try { b = loadBank(BANK, got.loc); } catch (e) { fails.push(`no ${got.loc} bank for the cross-check: ${e.message}`); }
     if (b) {
-      for (const [id, truth, text] of got.tf) { if (!NEUTRAL.TF[id] || NEUTRAL.TF[id].truth !== truth) fails.push(`tf ${id}: stamped ${truth} ≠ the TF table`); if (!b.tf || NT(b.tf[id]) !== NT(text)) fails.push(`tf ${id}: prints "${text}" ≠ tf.${id}`); }
+      for (const [id, truth, text] of got.tf) { if (!NEUTRAL.TF[id] || NEUTRAL.TF[id].truth !== truth) fails.push(`tf ${id}: stamped ${truth} ≠ the TF table`); if (!b.tf || NT(b.tf[id]) !== NT(text)) fails.push(`tf ${id}: prints "${text}" ≠ tf.${id}`);
+        // fix round 2: every sentence must be answerable from THIS page with exactly one defensible answer
+        if (NEUTRAL.TF[id] && NEUTRAL.TF[id].needsExperiment) fails.push(`tf ${id}: needs the ${NEUTRAL.TF[id].needsExperiment} experiment, which this page does not show`);
+        if (NEUTRAL.TF[id] && NEUTRAL.TF[id].retired) fails.push(`tf ${id}: retired (${NEUTRAL.TF[id].retired})`); }
+      if (got.tests != null) { const want = Math.max(...String(got.questions).split(',').map((q) => NEUTRAL.QUESTION_TESTS[q] || 1)); if (+got.tests !== want) fails.push(`the tests stamp ${got.tests} ≠ QUESTION_TESTS ${want}`); }
       for (const [id, lab] of got.shelf) if (!b.labels || NT(b.labels[id]) !== NT(lab)) fails.push(`shelf ${id}: label "${lab}" ≠ labels.${id}`);
       for (const [k, w] of got.tags) if (NT(k === 'float' ? b.floatWord : b.sinkWord) !== NT(w)) fails.push(`tag ${k} "${w}" ≠ the bank`);
       for (const [q, t] of got.qs) if (!b.questions || NT(b.questions[q]) !== NT(t)) fails.push(`question ${q} "${t}" ≠ the bank`);
@@ -467,8 +520,11 @@ const FACE = {
       for (const [k, t] of got.chips) if (NT(k === 'yes' ? b.trueWord : b.falseWord) !== NT(t)) fails.push(`chip ${k} "${t}" ≠ the bank`);
       // no outcome word outside the places that must carry one: the F4 tags, the F3 sentences, the F5 QUESTIONS (the cargo
       // question asks "before it sinks"; the report never states whether the orange floats)
+      for (const [k, t] of got.rowHeads) if (!b.shapeHeads || NT(b.shapeHeads[k]) !== NT(t)) fails.push(`row head ${k} "${t}" ≠ shapeHeads.${k}`);
+      for (const [k, t] of got.legendWords) if (NT(k === 'float' ? b.floatWord : b.sinkWord) !== NT(t)) fails.push(`legend word ${k} "${t}" ≠ the bank`);
       if (layout === 'scale' || layout === 'shape' || layout === 'report') {
-        let body = NT(got.body); for (const [, t] of got.qs) body = body.split(NT(t)).join(' ');
+        // the shape face's legend (the key) and its row heads ("circle the one that floats" names the task) may carry the words
+        let body = NT(layout === 'shape' ? got.bodyNoKey : got.body); for (const [, t] of got.qs) body = body.split(NT(t)).join(' ');
         for (const w of [b.floatWord, b.sinkWord]) if (w && body.toLocaleLowerCase(got.loc).includes(w.toLocaleLowerCase(got.loc))) fails.push(`the outcome word "${w}" is printed on the ${layout} face`);
       }
     }
@@ -625,13 +681,16 @@ const TYPE = {
           const sig = (x) => ['r', 'fill', 'stroke', 'stroke-width', 'stroke-dasharray'].map((a) => x.getAttribute(a)).join('|');
           if (rs.length === 2 && sig(rs[0]) !== sig(rs[1])) fails.push(`row ${i + 1}: the two rings differ (${sig(rs[0])} vs ${sig(rs[1])}) — a pre-marked ring`);
           // lead review 2026-09-23 — measured on the RENDER: the float ring straddles the waterline (centre on its mean y),
-          // the sink ring rests ON the gravel line (bottom <= 2 px above it, <= 1.5 px into it)
+          // the sink ring rests ON the floor (fix round 2: settled into the gravel band, like the key's sunk pebble)
           const wl = t.querySelector('[data-lcs-tank-part="waterline"] path'), fl = t.querySelector('[data-lcs-floor-top]');
           const tp = rs.find((x) => x.dataset.lcsSlot === 'top'), fr = rs.find((x) => x.dataset.lcsSlot === 'floor');
           if (wl && fl && tp && fr) {
             const w0 = rect(wl), wy = (w0.top + w0.bottom) / 2, fy = (rect(fl).top + rect(fl).bottom) / 2, a = rect(tp), b = rect(fr);
             if (Math.abs((a.top + a.bottom) / 2 - wy) > 1) fails.push(`row ${i + 1}: the float ring is not centred on the waterline (${((a.top + a.bottom) / 2 - wy).toFixed(1)} px)`);
-            if (b.bottom < fy - 2 || b.bottom > fy + 1.5) fails.push(`row ${i + 1}: the sink ring does not rest on the floor (bottom ${(b.bottom - fy).toFixed(1)} px from the gravel line)`);
+            // fix round 2 (en landing panel): a ring TANGENT to the gravel line read as mid-water while the key's sinker lies
+            // on the bottom — the ring must settle INTO the gravel band (>= 2.4 px under the line, >= 1.5 px above the glass)
+            const gb = rect(t.querySelector('[data-lcs-tank-part="floor"] path')).bottom;
+            if (b.bottom < fy + 2.4 || b.bottom > gb - 1.5) fails.push(`row ${i + 1}: the sink ring does not rest on the floor (bottom ${(b.bottom - fy).toFixed(1)} px under the gravel line; it must settle into the gravel band)`);
           } else fails.push(`row ${i + 1}: a tank lacks its waterline / floor line / rings`);
           rs.forEach((x) => { if ((x.getAttribute('fill') || '').toUpperCase() !== '#FFFFFF') fails.push(`row ${i + 1}: a ring is pre-filled (${x.getAttribute('fill')}) — answer printed`); if (rect(x).width < 24 - 0.6) fails.push(`row ${i + 1}: ring ${rect(x).width.toFixed(1)} px < 24`); });
         });

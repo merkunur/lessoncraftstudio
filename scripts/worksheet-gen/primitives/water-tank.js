@@ -53,6 +53,8 @@ const MIN_W = 112, MIN_H = 56;
 const MODES = ['rings', 'legend-float', 'legend-sink', 'empty', 'spots'];
 const SPOT_W = 150, SPOT_H = 110;
 const WAVE_MAX = 5;
+/** fix round 2: how far a sunk thing (the floor ring, the legend-sink blob) settles INTO the gravel band (0.84h..0.97h). */
+const SINK_DEPTH = 0.06;
 const r2 = (v) => Math.round(v * 100) / 100;
 
 /** The pebble blob (design §2), unit radius, as a path scaled to radius R at (cx, cy). */
@@ -103,7 +105,8 @@ function waterTank(opts = {}) {
   // floor band follows the rounded glass bottom
   const floorD = `M ${xl} ${floorY} L ${xl} ${Y(0.92)} Q ${xl} ${bottomY} ${X(0.09)} ${bottomY} L ${X(0.91)} ${bottomY} Q ${xr} ${bottomY} ${xr} ${Y(0.92)} L ${xr} ${floorY} Z`;
   const prx = r2(Math.max(2, 0.02 * w)), pry = r2(0.6 * Math.max(2, 0.02 * w));
-  const pebbles = [0.12, 0.28, 0.72, 0.88].map((f) => el('ellipse', { cx: X(f), cy: Y(0.905), rx: prx, ry: pry, fill: 'none', stroke: color.inkSoft, 'stroke-width': 1.5, 'data-lcs-pebble': '' }));
+  // fix round 2: the right pair moved 0.72/0.88 -> 0.79/0.89 so the settled floor ring (0.64w, reaching ~0.72w on a 2:1 tank) never covers a pebble
+  const pebbles = [0.12, 0.28, 0.79, 0.89].map((f) => el('ellipse', { cx: X(f), cy: Y(0.905), rx: prx, ry: pry, fill: 'none', stroke: color.inkSoft, 'stroke-width': 1.5, 'data-lcs-pebble': '' }));
   inner.push(el('g', { 'data-lcs-tank-part': 'floor' }, [
     el('path', { d: floorD, fill: color.creamDeep }),
     el('line', { x1: xl, y1: floorY, x2: xr, y2: floorY, stroke: color.inkSoft, 'stroke-width': 1.5, 'data-lcs-floor-top': '' }),
@@ -122,7 +125,10 @@ function waterTank(opts = {}) {
   const R = r2(0.16 * h);
   let slots = null, blob = null, bubbles = [], spotRects = [];
   if (mode === 'rings') {
-    slots = { top: { cx: X(0.36), cy: waterY, r: R }, floor: { cx: X(0.64), cy: r2(floorY - R + 1), r: R } };   // bottom 1 px INTO the gravel line: it reads as resting on the floor (lead review)
+    // fix round 2 (en landing panel): a ring merely TANGENT to the gravel line read as "somewhere under the water", while
+    // the key's sinker lies on the bottom. The floor ring now SETTLES into the gravel band by SINK_DEPTH x h, the same
+    // depth the legend-sink blob sits at, so ring and key say "on the bottom" the same way.
+    slots = { top: { cx: X(0.36), cy: waterY, r: R }, floor: { cx: X(0.64), cy: r2(floorY + SINK_DEPTH * h - R), r: R } };
     const ring = (k) => el('circle', { cx: slots[k].cx, cy: slots[k].cy, r: R, fill: color.white, stroke: color.coral, 'stroke-width': 2.5, 'stroke-dasharray': '5 4', 'data-lcs-slot': k });
     over.push(el('g', { 'data-lcs-tank-part': 'rings' }, [ring('top'), ring('floor')]));
   } else if (mode === 'legend-float') {
@@ -135,7 +141,7 @@ function waterTank(opts = {}) {
     }
     over.push(el('g', { 'data-lcs-tank-part': 'legend' }, [el('path', { d: blobPath(blob.cx, blob.cy, R), fill: color.teal, 'data-lcs-blob': 'float' }), ...rip]));
   } else if (mode === 'legend-sink') {
-    blob = { cx: X(0.5), cy: r2(floorY + 1 - 0.71 * R), r: R };   // bottom ON the floor ring's bottom (design: floorY - 0.12h, 0.5 px off at 85, 2.3 px at 520)
+    blob = { cx: X(0.5), cy: r2(floorY + SINK_DEPTH * h - 0.71 * R), r: R };   // bottom = the floor ring's bottom: settled SINK_DEPTH x h into the gravel (fix round 2)
     const top = blob.cy - 0.79 * R;
     const rs = [0.045, 0.035, 0.03].map((f) => r2(Math.max(1.5, f * h)));
     const room = top - (waterY + A + 1);   // below the wave's troughs, never in the air
@@ -176,4 +182,4 @@ function waterTank(opts = {}) {
   return { svg, width: w, height: h, waterY, floorY, slots, blob, bubbles, spotRects };
 }
 
-module.exports = { waterTank, MIN_W, MIN_H, MODES, SPOT_W, SPOT_H, WAVE_MAX, blobPath };
+module.exports = { waterTank, MIN_W, MIN_H, MODES, SPOT_W, SPOT_H, WAVE_MAX, SINK_DEPTH, blobPath };

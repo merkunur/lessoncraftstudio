@@ -62,8 +62,10 @@ async function faceGate({ page, ok, judge, validateBank, quick, log }) {
     ok(m && /refuses the/.test(m), `${f.id}: a bank refusing ${f.layout} must THROW (got ${m})`);
     m = null; try { build(t, { ...en, refuse: [f.id] }, {}, 1); } catch (e) { m = e.message; }
     ok(m && /refuses the/.test(m), `${f.id}: a bank refusing ${f.id} must THROW (got ${m})`);
-    m = null; try { t.build({ difficulty: 2, locale: 'de' }, { rng: seedOf(f.id, 1) }); } catch (e) { m = e.message; }
-    ok(m && /no de block|refuse/.test(m), `${f.id}: an unauthored de must REFUSE (got ${m})`);
+    // fix round 2: de IS authored now (data/b6/locales/habitats.de.json, applied from the panel's draft) — the probe
+    // that an UNAUTHORED locale refuses uses a code with no block at all
+    m = null; try { t.build({ difficulty: 2, locale: 'xx' }, { rng: seedOf(f.id, 1) }); } catch (e) { m = e.message; }
+    ok(m && /no xx block|refuse/i.test(m), `${f.id}: an unauthored locale (xx) must REFUSE (got ${m})`);
   }
   for (const r of ROWS) ok(!Object.keys(r[5]).some((k) => /^force/.test(k)), `${r[1]}: a shipped row carries a gate-only force* seam`);
 
@@ -238,6 +240,22 @@ async function faceGate({ page, ok, judge, validateBank, quick, log }) {
   await rp('PS F2 meadow residents badger + deer (secondary homes)', forced(T['G1-406'], { forceOdd: oddRows([['meadow', ['ladybug', 'badger', 'deer'], 'orangutan', 2], ['ocean', ['whale', 'shark', 'crab'], 'lion', 0], ['forest', ['squirrel', 'woodpecker', 'moose'], 'dolphin', 3], ['savanna', ['zebra', 'giraffe', 'ostrich'], 'octopus', 1]]) }), /resident badger lives in meadow only as a secondary home/);
   // PD: a dolphin as the Rainforest stranger (the boto cor-de-rosa lives in the Amazon; lead ruling, every locale)
   await rp('PD F2 rainforest stranger = dolphin (a cetacean)', forced(T['G1-406'], { forceOdd: oddRows([['rainforest', ['gorilla', 'toucan', 'sloth'], 'dolphin', 1], ['ocean', ['whale', 'shark', 'crab'], 'lion', 3], ['forest', ['deer', 'squirrel', 'badger'], 'octopus', 0], ['savanna', ['zebra', 'giraffe', 'ostrich'], 'starfish', 2]]) }), /dolphin is never the stranger of a rainforest row/);
+  // fix round 2 (landing panels) — render poisons, each with a render CONTROL that must stay verify-clean
+  await rp('PL F2 every stranger an exotic animal (solvable as "not an animal of my country")', forced(T['G1-406'], { forceOdd: oddRows([['ocean', ['whale', 'shark', 'crab'], 'zebra', 0], ['forest', ['deer', 'squirrel', 'badger'], 'lion', 2], ['pond', ['beaver', 'swan', 'dragonfly'], 'macaw', 1], ['meadow', ['bee', 'ladybug', 'butterfly'], 'orangutan', 3]]) }), /no temperate stranger/);
+  await rp('PL0 control: the same page with the ocean row\'s stranger a squirrel (must PASS)', forced(T['G1-406'], { forceOdd: oddRows([['ocean', ['whale', 'shark', 'crab'], 'squirrel', 0], ['forest', ['deer', 'woodpecker', 'badger'], 'lion', 2], ['pond', ['beaver', 'swan', 'dragonfly'], 'macaw', 1], ['meadow', ['bee', 'ladybug', 'butterfly'], 'orangutan', 3]]) }), /^$/, { expectClean: true });
+  await rp('PDF F2 the duckling as a pond resident (reads as a chick: a second stranger)', forced(T['G1-406'], { forceOdd: oddRows([['pond', ['duck', 'swan', 'dragonfly'], 'lion', 0], ['ocean', ['whale', 'shark', 'crab'], 'squirrel', 2], ['forest', ['deer', 'woodpecker', 'badger'], 'octopus', 1], ['meadow', ['bee', 'ladybug', 'butterfly'], 'orangutan', 3]]) }), /duck may not appear on the odd face/);
+  await rp('PSF F2 the sloth as an en rainforest resident (reads as a meerkat)', forced(T['G1-406'], { forceOdd: oddRows([['rainforest', ['sloth', 'toucan', 'gorilla'], 'squirrel', 0], ['ocean', ['whale', 'shark', 'crab'], 'lion', 2], ['forest', ['deer', 'woodpecker', 'badger'], 'octopus', 1], ['meadow', ['bee', 'ladybug', 'butterfly'], 'orangutan', 3]]) }), /sloth: stands only on a page of an americas-rainforest locale/);
+  await rp('PSN F4 the right home on the left in 3 of 4 rows (the de / nl panels\' render)', forced(T['G1-407'], { forceNeeds: { rows: [
+    { animal: 'beaver', food: 'leaf', home: 'lodge', foodX: 'mosquito', homeX: 'web', foods: ['mosquito', 'leaf'], homes: ['lodge', 'web'] },
+    { animal: 'spider', food: 'mosquito', home: 'web', foodX: 'grass', homeX: 'lodge', foods: ['grass', 'mosquito'], homes: ['web', 'lodge'] },
+    { animal: 'bird', food: 'mosquito', home: 'nest', foodX: 'leaf', homeX: 'web', foods: ['mosquito', 'leaf'], homes: ['web', 'nest'] },
+    { animal: 'rabbit', food: 'grass', home: 'burrow', foodX: 'mosquito', homeX: 'nest', foods: ['grass', 'mosquito'], homes: ['burrow', 'nest'] }] } }), /home side: the correct chip sits on one side in 3 of 4 rows/);
+  await rp('PSN0 control: the same rows with the homes 2 / 2 (must PASS)', forced(T['G1-407'], { forceNeeds: { rows: [
+    { animal: 'beaver', food: 'leaf', home: 'lodge', foodX: 'mosquito', homeX: 'web', foods: ['mosquito', 'leaf'], homes: ['lodge', 'web'] },
+    { animal: 'spider', food: 'mosquito', home: 'web', foodX: 'grass', homeX: 'lodge', foods: ['grass', 'mosquito'], homes: ['lodge', 'web'] },
+    { animal: 'bird', food: 'mosquito', home: 'nest', foodX: 'leaf', homeX: 'web', foods: ['mosquito', 'leaf'], homes: ['web', 'nest'] },
+    { animal: 'rabbit', food: 'grass', home: 'burrow', foodX: 'mosquito', homeX: 'nest', foods: ['grass', 'mosquito'], homes: ['burrow', 'nest'] }] } }), /^$/, { expectClean: true });
+  await rp('PCP F5 two word pairs printed while the face declares one', forced(T['G2-381'], { forceHabitat: 'rainforest', forceTruth: { temp: 'hot', wet: 'wet' } }), /pairs ≠ declared/);
   await rp('P10 F2 a penguin in the Arctic row', forced(T['G1-406'], { forceOdd: oddRows([['polar-arctic', ['walrus', 'seal-white', 'penguin'], 'lion', 0], ['ocean', ['whale', 'shark', 'crab'], 'deer', 2], ['meadow', ['bee', 'ladybug', 'butterfly'], 'dolphin', 1], ['savanna', ['zebra', 'giraffe', 'ostrich'], 'octopus', 3]]) }), /penguin|Arctic row holds penguin|polar-arctic/);
   const f1 = build(T['K-383'], en, {}, 1).meta;
   const rot = f1.left.map((_, i) => f1.left[(i + 1) % f1.left.length]);

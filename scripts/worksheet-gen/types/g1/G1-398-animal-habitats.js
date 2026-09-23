@@ -112,6 +112,7 @@ function pageOracle(windows, animals, opts = {}) {
     for (const l of a.lookalike) if (keys.includes(l)) f.push(`${key} and ${l} are look-alikes on one page`);
     if (opts.rainforestRegion && meet[0] === 'rainforest' && a.region !== opts.rainforestRegion) f.push(`${key}: not a ${opts.rainforestRegion} rainforest animal (the locale's rainforest)`);
     if (HABITATS.EXCLUDED_KEYS.includes(key)) f.push(`${key}: EXCLUDED after opening`);
+    if (a.onlyRegion && opts.rainforestRegion !== a.onlyRegion) f.push(`${key}: stands only on a page of an ${a.onlyRegion}-rainforest locale (region-only; fix round 2)`);
   }
   if (arctic && antarctic) f.push('an Arctic and an Antarctic animal on one page');
   if (apes > 1) f.push(`${apes} apes on one page (<= 1)`);
@@ -164,6 +165,7 @@ function oddRowOracle(h, residents, stranger, region) {
     if (h === 'polar-arctic' && !['walrus', 'seal-white', 'narwhal'].includes(k)) f.push(`the Arctic row holds ${k} (the trio only)`);
     if (region && h === 'rainforest' && a.region !== region) f.push(`${k}: not a ${region} rainforest animal`);
     if (region && a.group === 'ape') f.push(`${k}: an ape on a ${region}-rainforest page`);
+    if (a.onlyRegion && region !== a.onlyRegion) f.push(`${k}: stands only on a page of an ${a.onlyRegion}-rainforest locale (region-only)`);
   }
   const s = BY_KEY[stranger];
   if (!s) f.push(`${stranger}: not in the claim table`);
@@ -181,11 +183,19 @@ function oddRowOracle(h, residents, stranger, region) {
     if (s.oddRow || (s.faces && !s.faces.includes('odd'))) f.push(`the stranger ${stranger} may not stand here`);
     if (h === 'polar-arctic' && stranger === 'penguin') f.push('a penguin in the Arctic row');
     if (region && s.group === 'ape') f.push(`${stranger}: an ape on a ${region}-rainforest page`);
+    if (s.onlyRegion && region !== s.onlyRegion) f.push(`the stranger ${stranger} stands only on a page of an ${s.onlyRegion}-rainforest locale (region-only)`);
   }
   return f;
 }
+/** F2 (fix round 2, de landing panel): the page's strangers — at least one lives in a TEMPERATE place (forest / meadow /
+ *  pond, the child's own), so no page is solved row by row as "cross out the animal that is not from my country". */
+function oddPageTells(strangers) {
+  const f = [];
+  if (strangers.length >= 2 && !strangers.some((k) => BY_KEY[k] && HABITATS.TEMPERATE.includes(BY_KEY[k].lives[0]))) f.push(`every stranger is an exotic animal [${strangers.join(', ')}] (no temperate stranger: the page solves as "not an animal of my country")`);
+  return f;
+}
 /** F3: rows [{claim, animal}] against the bank's animals. */
-function adaptOracle(rows, bank) {
+function adaptOracle(rows, bank, region) {
   const f = [];
   const claims = rows.map((r) => HABITATS.ADAPT.find((c) => c.key === r.claim));
   rows.forEach((r, i) => {
@@ -202,6 +212,7 @@ function adaptOracle(rows, bank) {
     const a = BY_KEY[k];
     if (!a) { f.push(`bank ${k}: not in the claim table`); continue; }
     if (a.faces && !a.faces.includes('adapt')) f.push(`bank ${k} may not appear on the adapt face`);
+    if (a.onlyRegion && region !== undefined && region !== a.onlyRegion) f.push(`bank ${k} stands only on a page of an ${a.onlyRegion}-rainforest locale (region-only)`);
     if (!answered.has(k) && claims.some((c) => c && c.trueOf.includes(k))) f.push(`decoy ${k} is true of a claim on the page`);
   }
   return f;
@@ -218,6 +229,9 @@ function sideTells(s) {
   const f = [];
   if (s.length >= 2 && s.every((x) => x === s[0])) f.push('the correct chip is always on the same side');
   if (s.length >= 3 && s.every((x, i) => i === 0 || x !== s[i - 1])) f.push('the correct chip strictly alternates sides');
+  // fix round 2 (de / nl landing panels on G1-407: the right home sat first in 3 of 4 rows): each side within one of half
+  const left = s.filter((x) => x === 0).length;
+  if (s.length >= 3 && Math.abs(2 * left - s.length) > 1) f.push(`the correct chip sits on one side in ${Math.max(left, s.length - left)} of ${s.length} rows (unbalanced sides)`);
   return f;
 }
 
@@ -255,7 +269,7 @@ const TYPE = {
   },
 
   // exposed for the gate
-  pageOracle, drawerTells, typoNorm, homesTells, oddPosTells, oddRowOracle, adaptOracle, adaptOrderTells, sideTells, LETTERS7,
+  pageOracle, drawerTells, typoNorm, homesTells, oddPosTells, oddRowOracle, oddPageTells, adaptOracle, adaptOrderTells, sideTells, LETTERS7,
 
   build({ difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
@@ -286,6 +300,7 @@ const TYPE = {
       if (pole === 'arctic' && a.lives.includes('polar-antarctic')) continue;
       if (pole === 'antarctic' && a.lives.includes('polar-arctic')) continue;
       if (bankLoc.rainforestRegion && meet[0] === 'rainforest' && a.region !== bankLoc.rainforestRegion) continue;
+      if (a.onlyRegion && bankLoc.rainforestRegion !== a.onlyRegion) continue;
       pools[meet[0]].push(a.key);
     }
     return { habs, pools };
@@ -480,22 +495,30 @@ const TYPE = {
     // fix round 1 (de panel): only a word pair whose answer is TRUE for the habitat is offered, and the report
     // habitat is the first set member with at least one such pair (a forest is neither hot / cold nor wet / dry)
     const truthOf = (t) => HABITATS.CHIP_TRUTH[t] || {};
-    const tileId = d.forceHabitat || set.find((t) => Object.keys(truthOf(t)).length);
-    if (!tileId) throw new Error(`${ID}: ${loc} no set member has a true word pair for the report (refuse)`);
+    // fix round 2 (en/de/fr/nl landing panels: "each pair" over ONE printed pair): exactly d.chipPairs pairs are printed,
+    // taken in CHIP_ORDER among the habitat's true pairs; the habitat is the first set member that has that many
+    const nPairs = d.chipPairs || 1;
+    const orderOf = (t) => (HABITATS.CHIP_ORDER[t] || []).filter((dim) => truthOf(t)[dim]);
+    const tileId = d.forceHabitat || set.find((t) => orderOf(t).length >= nPairs);
+    if (!tileId) throw new Error(`${ID}: ${loc} no set member has ${nPairs} true word pair(s) for the report (refuse)`);
     const tileLabel = bankLoc && bankLoc.tileLabel;
     const rep = bankLoc && bankLoc.report;
     if (!tileLabel || !rep) throw new Error(`${ID}: ${loc} bank has no tileLabel / report block (refuse)`);
     const plaque = literal(tileLabel, tileId === 'polar' ? 'polar' : tileId, 'tileLabel', loc);
     const W = { animals: literal(rep, 'animals', 'report', loc), plant: literal(rep, 'plant', 'report', loc) };
     const truth = d.forceTruth || truthOf(tileId);
+    const dims = d.forceTruth ? ['temp', 'wet'].filter((x) => truth[x]) : orderOf(tileId).slice(0, nPairs);
     const pairs = [];
-    if (truth.temp) pairs.push([['hot', literal(rep, 'hot', 'report', loc)], ['cold', literal(rep, 'cold', 'report', loc)], truth.temp]);
-    if (truth.wet) pairs.push([['wet', literal(rep, 'wet', 'report', loc)], ['dry', literal(rep, 'dry', 'report', loc)], truth.wet]);
+    for (const dim of ['temp', 'wet']) {
+      if (!dims.includes(dim)) continue;
+      if (dim === 'temp') pairs.push([['hot', literal(rep, 'hot', 'report', loc)], ['cold', literal(rep, 'cold', 'report', loc)], truth.temp]);
+      else pairs.push([['wet', literal(rep, 'wet', 'report', loc)], ['dry', literal(rep, 'dry', 'report', loc)], truth.wet]);
+    }
     const tile = HT.habitatTile({ id: tileId, w: 627 });
     const lane = (n) => rulingBlock({ rows: n, w: 639, h: 44, glyphH: 24, gap: 8 });
     let inner = C6.hbReport({ tile, habitat: tileId, plaque, labels: W, lanesAnimals: lane(d.animalRows || 3), lanePlant: lane(d.plantRows || 1), pairs });
     if (d.forceReportImg) inner = inner.replace('</svg></div>', `</svg><img data-lcs-pic src="${pic('whale')}" style="position:absolute;left:120px;top:60px;width:80px"></div>`);   // poison PR10
-    return { bodyHtml: root(`data-lcs-open`, inner), meta: { layout: L, habitat: tileId, pairs: pairs.map((p) => p[2]) } };
+    return { bodyHtml: root(`data-lcs-open data-lcs-chip-pairs="${nPairs}"`, inner), meta: { layout: L, habitat: tileId, pairs: pairs.map((p) => p[2]) } };
   },
 
   /** F1: the left order (a shuffle) and the right column's homes (a derangement, not reversed, never a rotation). */
@@ -523,19 +546,20 @@ const TYPE = {
       const noApe = !!bankLoc.rainforestRegion;
       const clash = (a) => (hasArctic && a.lives.includes('polar-antarctic')) || a.lookalike.some((l) => used.has(l)) || [...used].some((u) => BY_KEY[u].lookalike.includes(a.key)) || (noApe && a.group === 'ape');
       const okFace = (a) => !a.faces || a.faces.includes('odd');
+      const okRegion = (a) => !a.onlyRegion || a.onlyRegion === bankLoc.rainforestRegion;
       const rows = [];
       let bad = false;
       for (const h of habs) {
         let R;
         if (h === 'polar-arctic') R = ['walrus', 'seal-white', 'narwhal'].filter((k) => !used.has(k));
-        else R = HABITATS.ANIMALS.filter((a) => okFace(a) && a.lives[0] === h && !a.oddRow && !used.has(a.key) && !clash(a) &&
+        else R = HABITATS.ANIMALS.filter((a) => okFace(a) && okRegion(a) && a.lives[0] === h && !a.oddRow && !used.has(a.key) && !clash(a) &&
           !(bankLoc.rainforestRegion && h === 'rainforest' && a.region !== bankLoc.rainforestRegion)).map((a) => a.key);
         const singles = R.filter((k) => BY_KEY[k].lives.length === 1);
         const residents = singles.length >= (d.perRow - 1) ? rng.sample(singles, d.perRow - 1) : [...singles, ...rng.sample(R.filter((k) => !singles.includes(k)), d.perRow - 1 - singles.length)];
         if (residents.length < d.perRow - 1 || residents.some((k) => k === undefined)) { bad = true; break; }
         residents.forEach((k) => used.add(k));
         const far = HABITATS.FAR[h] || [];
-        const S = HABITATS.ANIMALS.filter((a) => okFace(a) && !a.oddRow && a.kind !== 'insect' && !a.noStranger && !(a.notStrangerIn || []).includes(h) && a.lives.length === 1 && a.lives.every((x) => far.includes(x)) && !a.lives.includes(h) && !isNear(tileOf(a.lives[0]), tileOf(h)) && !used.has(a.key) && !clash(a)).map((a) => a.key);
+        const S = HABITATS.ANIMALS.filter((a) => okFace(a) && okRegion(a) && !a.oddRow && a.kind !== 'insect' && !a.noStranger && !(a.notStrangerIn || []).includes(h) && a.lives.length === 1 && a.lives.every((x) => far.includes(x)) && !a.lives.includes(h) && !isNear(tileOf(a.lives[0]), tileOf(h)) && !used.has(a.key) && !clash(a)).map((a) => a.key);
         if (!S.length) { bad = true; break; }
         const stranger = rng.pick(S);
         used.add(stranger);
@@ -545,6 +569,7 @@ const TYPE = {
       // no Arctic + Antarctic animal on one page (a penguin stranger with a walrus stranger)
       const all = rows.flatMap((r) => [...r.residents, r.stranger]);
       if (all.some((k) => BY_KEY[k].lives.includes('polar-arctic')) && all.some((k) => BY_KEY[k].lives.includes('polar-antarctic'))) continue;
+      if (oddPageTells(rows.map((r) => r.stranger)).length) continue;   // fix round 2: >= 1 temperate stranger
       // stranger positions: >= 3 distinct (4 rows), never equal in consecutive rows, not monotone
       let pos = null;
       for (let u = 0; u < TRIES && !pos; u++) { const p = rows.map(() => rng.int(0, d.perRow - 1)); if (!oddPosTells(p, d.perRow).length) pos = p; }
@@ -560,7 +585,7 @@ const TYPE = {
     const refuse = bankLoc.refuseClaims || [];
     const claims = HABITATS.ADAPT.filter((c) => !refuse.includes(c.key) && (c.answers || c.trueOf).length && bankLoc.adapt && typeof bankLoc.adapt[c.key] === 'string');
     if (claims.length < d.items) throw new Error(`${ID}: ${loc} has ${claims.length} adaptation claims < ${d.items} (refuse)`);
-    const allowed = HABITATS.ANIMALS.filter((a) => (!a.faces || a.faces.includes('adapt')) && !(bankLoc.rainforestRegion && a.group === 'ape')).map((a) => a.key);
+    const allowed = HABITATS.ANIMALS.filter((a) => (!a.faces || a.faces.includes('adapt')) && !(bankLoc.rainforestRegion && a.group === 'ape') && (!a.onlyRegion || a.onlyRegion === bankLoc.rainforestRegion)).map((a) => a.key);
     const nDecoy = d.bank - d.items;
     for (let t = 0; t < TRIES; t++) {
       const cs = rng.sample(claims, d.items);
@@ -579,7 +604,7 @@ const TYPE = {
       const page = [...used, ...decoys];
       if (page.some((k) => BY_KEY[k].lives.includes('polar-arctic')) && page.some((k) => BY_KEY[k].lives.includes('polar-antarctic'))) continue;
       if (page.some((k) => BY_KEY[k].lookalike.some((l) => page.includes(l)))) continue;
-      if (adaptOracle(rows, page).length) continue;
+      if (adaptOracle(rows, page, bankLoc.rainforestRegion || null).length) continue;
       // the bank order: the decoy never A and never the last letter
       let bank = null;
       for (let u = 0; u < TRIES && !bank; u++) { const b = rng.shuffle(page); if (decoys.some((k) => b.indexOf(k) === 0 || b.indexOf(k) === b.length - 1)) continue; bank = b; }
@@ -667,6 +692,7 @@ const TYPE = {
         out.imgs = root.querySelectorAll('img').length;
         out.lanes = [...root.querySelectorAll('[data-lcs-ruling-row]')].length;
         out.pills = [...root.querySelectorAll('[data-lcs-chip]')].map((p) => [p.dataset.lcsChip, R(p).height, p.textContent, p.dataset.lcsTrue || '']);
+        out.chipPairs = +(root.dataset.lcsChipPairs || 0);
       }
       return out;
     }, L);
@@ -706,6 +732,7 @@ const TYPE = {
         all.push(...r.cards.map((c) => c.key));
       }
       for (const x of oddPosTells(pos, 4)) f.push('stranger position: ' + x);
+      for (const x of oddPageTells(got.rows.map((r) => (r.cards.find((c) => c.odd) || {}).key).filter(Boolean))) f.push('strangers: ' + x);
       if (new Set(all).size !== all.length) f.push('an animal appears twice on the page');
       if (all.some((k) => BY_KEY[k] && BY_KEY[k].lives.includes('polar-arctic')) && all.some((k) => BY_KEY[k] && BY_KEY[k].lives.includes('polar-antarctic'))) f.push('an Arctic and an Antarctic animal on one page');
       for (const k of all) if (BY_KEY[k]) for (const l of BY_KEY[k].lookalike) if (all.includes(l)) f.push(`${k} and ${l} are look-alikes on one page`);
@@ -717,7 +744,7 @@ const TYPE = {
       const bank = got.bank.map((c) => c.key);
       got.bank.forEach((c, i) => { if (c.letter !== LETTERS7[i] || c.disc !== c.letter) f.push(`bank card ${i + 1}: letter ${c.letter} / disc ${c.disc}`); });
       const rows = got.rows.map((r) => ({ claim: r.claim, animal: (got.bank.find((c) => c.letter === r.answer) || {}).key }));
-      for (const x of adaptOracle(rows, bank)) f.push(x);
+      for (const x of adaptOracle(rows, bank, b ? (b.rainforestRegion || null) : undefined)) f.push(x);
       for (const r of got.rows) {
         if (r.box !== r.answer) f.push(`row ${r.claim}: the box stamps "${r.box}" ≠ ${r.answer}`);
         if (r.lines > 3) f.push(`row ${r.claim}: the sentence runs to ${r.lines} lines (> 3)`);
@@ -774,6 +801,8 @@ const TYPE = {
         if (!truth[dim]) f.push(`the ${pair.join(' / ')} pair has no true answer for ${got.habitat} (a chip with no true answer)`);
       }
       if (!offered.size) f.push('no word pair on the report');
+      // fix round 2: the page prints exactly the declared number of pairs (the instruction speaks of "the word", never "each pair")
+      if (got.pills.length !== 2 * got.chipPairs) f.push(`the report prints ${got.pills.length / 2} word pair(s), declared ${got.chipPairs} (pairs ≠ declared)`);
     }
     return f;
   },

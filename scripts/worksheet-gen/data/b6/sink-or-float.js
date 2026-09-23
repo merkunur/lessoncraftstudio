@@ -86,9 +86,20 @@ const TF = {
   F8: { truth: 'F', kind: 'gen', objects: [], misconception: true },
   F9: { truth: 'F', kind: 'gen', objects: [] },
 };
+/* fix round 2 (landing panels): two sentences leave the TRUE / FALSE face (the ids stay, so every locale's tf block still
+ * validates; the face's pool skips them and verify() refuses them on a page):
+ *   T6 "The same clay can sink or float." — answerable only after the G2-382 clay experiment, which this page neither draws
+ *      nor names (fr panel): `needsExperiment`.
+ *   F8 "A thing floats because it is light." keyed FALSE — at G2 it is "often true, not always", so two answers are
+ *      defensible (en + de panels): `retired`. F5 / F6 remain the misconceptions. */
+TF.T6.needsExperiment = 'clay';
+TF.F8.retired = 'two defensible answers at G2 (often true, not always)';
 /* T-sentence object claims (what each TRUE spec sentence asserts about its object) */
 TF.T1.claims = { log: 'float' }; TF.T2.claims = { nail: 'sink' }; TF.T3.claims = { ship: 'float' }; TF.T4.claims = { pumpkin: 'float' };
 const QUESTIONS = ['orange', 'cargo'];
+/** fix round 2 (en panel): how many separate tanks each F5 question's result needs — the orange is tested WITH and WITHOUT
+ * its peel (two tanks); the cargo boat is drawn still floating and then sinking (two tanks). The result section draws the max. */
+const QUESTION_TESTS = { orange: 2, cargo: 2 };
 /** face id -> the layout knob it sets (the rows module and the validator read this one map). */
 const FACE_OF_ID = { 'G1-399': 'base', 'G1-408': 'scale', 'G2-382': 'shape', 'G2-383': 'truth', 'K-384': 'draw', 'G3-400': 'report' };
 const LEVEL_BY_LOC = {
@@ -98,7 +109,7 @@ const LEVEL_BY_LOC = {
 /** Vocab singulars that are a KNOWN wrong word for the picture (validator rule 6: a label must not be the trap). */
 const LABEL_TRAPS = { nail: ['es', 'pt', 'fr', 'it', 'da', 'no', 'fi'], rock: ['de', 'es', 'fr', 'it', 'nl', 'sv', 'da', 'fi'] };
 
-const SINK_OR_FLOAT_NEUTRAL = { CLAIMS, EXCLUDED, PAIRS, SHAPES, TF, QUESTIONS, LEVEL_BY_LOC, LABEL_TRAPS, FACE_OF_ID };
+const SINK_OR_FLOAT_NEUTRAL = { CLAIMS, EXCLUDED, PAIRS, SHAPES, TF, QUESTIONS, QUESTION_TESTS, LEVEL_BY_LOC, LABEL_TRAPS, FACE_OF_ID };
 
 /* ------------------------------------------------------------ the locale blocks */
 const SINK_OR_FLOAT = {
@@ -120,6 +131,8 @@ const SINK_OR_FLOAT = {
       F1: 'A potato floats.', F2: 'A feather sinks.', F3: 'A steel ship sinks.', F4: 'A ball full of air sinks.',
       F5: 'All heavy things sink.', F6: 'All light things float.', F7: 'Big things always sink.', F8: 'A thing floats because it is light.', F9: 'Only small things can float.',
     },
+    // fix round 2 (de / fr / nl panels): each G2-382 row names its own point; the steel row carries the circle task
+    shapeHeads: { clay: 'Same clay, different shapes', steel: 'Same steel, different shapes: circle the one that floats' },
     report: { question: 'My question', predict: 'I think', result: 'What happened', learned: 'I learned', starter: 'Now I know that' },   // fix round 1: the starter no longer repeats the heading
     questions: {
       orange: 'Does an orange float with its peel? Does it float without its peel?',
@@ -127,6 +140,7 @@ const SINK_OR_FLOAT = {
     },
     forbidden: ['heavy things sink', 'light things float', 'because it is light', 'density', 'buoyancy', 'salt'],
     experimentWords: ['experiment', 'test', 'predict', 'investigation', 'lab'],
+    // fix round 2 (en / de panels): the faces with NO test (truth G2-383, draw K-384) must carry NONE of these in the title (rule 7b)
     /** The apparatus words the instructions name (validator rule 11): no picture label may equal or contain one. */
     // fix round 1: `spot` = the word for the F4 dashed drawing boxes (the K-384 instruction must name it)
     apparatus: { ring: 'ring', tank: 'tank', star: 'star', spot: 'dashed box' },
@@ -148,8 +162,9 @@ const SINK_OR_FLOAT = {
       // the five faces (Phase E; ids FIXED by _records/b6var-id-allocation.json). Titles = design §6 (en), instructions = §4.
       'G1-408': { title: 'Heavy or Light? A Sink or Float Scale Test', instruction: 'The scale shows which thing is heavier: circle the thing that floats in water.' },
       'G2-382': { title: 'Make Clay Float: A Change the Shape Experiment', instruction: 'Color the ring where each clay shape ends up, circle the thing that floats, then draw your own clay boat in the big tank.' },
-      'G2-383': { title: 'Sink or Float Experiment: True or False, Why Things Float', instruction: 'Read each sentence and circle true or false.' },
-      'K-384': { title: 'Draw What Floats and Sinks: A Sink or Float Experiment', instruction: 'Draw two things that float in the dashed boxes on the water and two that sink in the dashed boxes on the bottom.' },
+      // fix round 2 (en / de panels): neither page runs a test, so neither title may claim an experiment
+      'G2-383': { title: 'Why Things Float: Sink or Float True or False', instruction: 'Read each sentence and circle true or false.' },
+      'K-384': { title: 'Draw What Floats and Sinks: A Sink or Float Drawing', instruction: 'Draw two things that float in the dashed boxes on the water and two that sink in the dashed boxes on the bottom.' },
       'G3-400': { title: 'Sink or Float Investigation: My Lab Report', instruction: 'Choose a question, write what you think, test it, then draw what happened and write what you learned.' },
     },
   },

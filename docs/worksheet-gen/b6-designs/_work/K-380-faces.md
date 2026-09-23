@@ -274,3 +274,50 @@ The pt label "lavar as mãos" left "as" at the end of line 1. The balanced-wrap 
 - `qa/verify-b6-healthy-habits.js` (full) → **PASS (2670 assertions, 57/57 poisons killed)**
 - `gate-variation-distinct --batch=b6 --diffs=2 --family=healthy-habits` → every variation differs from the deck its base publishes and from its siblings
 - `b3-baseline --check --quick` → `checked build 4000 + enum 321 in 21s: 0 drifted (0 expected), 0 missing` PASS
+
+---
+
+## Fix round 2 (landing audit, 2026-09-23)
+Findings from `landing-audit/pass1-{en,de,es,fr,nl}.md`, each reproduced on `out/b6-sweep/<loc>/<ID>-null-d2-<loc>.png` before any change. Nothing committed. Non-en drafts and banks were NOT edited.
+
+| id | finding (panels) | reproduced? | fix | gate |
+|---|---|---|---|---|
+| K-380 | the nose-puff child and the brushing child look nearly the same (fr); en misread the puff as "a mouth full of foam"; es; nl: soap a second answer | YES: plaque 3 (blow-nose) was read as brushing by 2 panels | the design's recorded contingency applied: `baseD2` blow-nose → **sun-protect** (`baseD2Contingency`, "if the human read of blow-nose fails"). d3 (unpublished) unchanged | base verify + pictogram rule 1b green; 11-locale sweep verify clean |
+| K-380 | children already USING the thing they "need" (en) | YES (the washing child is under the tap, the brushing child foaming) | EN title / instruction → "Healthy Habits: What Does Each Child **Use**?" / "Draw a line from each child to the thing that child **uses**." (the habit IS in progress on every plaque; `register-b6-en-content` already says "what we use") | validator rule 9 (child, line) clean |
+| K-380 | child 3 sits straight above its own answer (en) | NOT reproduced: the child above the toothbrush was the blow-nose child (own tool: the tissue box). The finding is the misread above; verify's derangement (no offset 0) holds on every render | none | existing P3 / derangement asserts |
+| K-380 | figures adult-proportioned (fr) | REFUSED (measured): head r 10 in a 90-unit standing figure = 22 % of height; a 4-6-year-old is ~20 %, an adult ~13 %. The silhouettes already have child proportions | none | none |
+| K-382 | wet and rinse are one drawing but the bubbles (en, de, fr, nl) | YES | rinse now draws the soap **SUDS still on the hands** (6 bubbles on palms / fingers, part `suds`) plus the falling bubbles; wet stays clean hands | face verify: rinse ≥ 3 suds inside a hand box, no other card any suds (**P14b** rinse without suds KILLED, **P14c** suds on wet KILLED); primitive rule 3b (**PP10**, **PP10b** KILLED) |
+| G1-403 | cap card = opening or closing (en, de) | YES | `open-tube` **DROPPED** (`DROPPED_BRUSH`) | **FD4** (put back) KILLED |
+| G1-403 | brush under the tap = wetting or rinsing (en, de, es) | YES (the foam cue did not hold at 128 px) | `rinse-brush` **DROPPED** | **FD3** (put back) KILLED |
+| G1-403 | spitting child = during or after (en, fr) | YES (brush held up) | spit redrawn: the brush lies DOWN on the rim, the hand rests on the rim, foam still leaves the mouth (child drawn at 0.85 so the brush fits full size) | face verify "the spit brush lies below the head" (**P15** held up KILLED); primitive rule 9 (**PP11** KILLED) |
+| G1-403 | (the replacements) | n/a | two NEW state cards whose phase is the same in every locale: **dirty-teeth** (one big tooth with plaque spots, before) and **clean-teeth** (the same tooth with sparkles, after). 7 cards: before 2 · during 3 · after 2 | verify derives them from drawn parts (plaque XOR sparkle, no brush; **P15b** both cues → unreadable KILLED); primitive rule 9 + declared minimal pair (37.2 % differ, 0 px outside); rule 1 F2 worst 0.628 |
+| G1-403 | cards 4 and 5 near-duplicates (es) | reproduced (outside / inside arch) but REFUSED: no ambiguity of answer (both "during"), and they are the design's "brush every side" (§3 F2; KAI in de, praised by the de panel) | none | none |
+| G1-403 | EN instruction ("when it happens" does not fit the new state cards) | n/a | "For each picture, circle before, during or after brushing." (one line; `picture` added to F2's apparatus list) | rule 9 clean |
+| G1-404 | row 2: soap foam vs plain water, both hand washing (en, de, es, fr, nl) | YES | the other tile is now **hands-dirty**: the same hands at the same sink, the tap OFF, germs on the palms (part `germs`). `hands-water-only` stays in the primitive, never offered | face verify: healthy hands tile = lather + stream + no germs; other = germs + no stream; a running-water other tile fails "itself hand washing" (**FW1** water-only back KILLED, **FW2** germs on the lather KILLED); primitive minimal pair hands-soap / hands-dirty 26.5 % differ, 0 px outside |
+| G2-379 | the sleep picture straight across from its reason (en, de, es, fr) | YES (1 of 5 given by position) | F4 is a full **derangement**: 0 straight across, not the reverse, not a constant shift (`reasonOrderTell`) | shipped instance: verify fails any straight-across row or constant shift (**FR3** one straight across KILLED, **FR4** constant shift KILLED, FR2 KILLED); pooled 400: straight across 0.0 %, offsets 1-4 = 24.6 / 25.5 / 24.9 / 25.1 % (10..40) |
+| G1-405 | "sleep" is ticked by every child every day, no decision (en, de) | YES | EN `labels.sleep` = "go to sleep early" (glue-safe: "go to sleep" / "early") | validator **rule 2b**: labels.sleep must be a phrase, not one word (**P22** en "sleep" KILLED; en control passes; it fires on all 10 current non-en drafts, see below) |
+| titles | G1-404 de/es/fr/nl name one habit; G1-405 es/nl omit water; G2-379 nl "Hygiëne en verzorging" (2 of 5 are hygiene); G1-403 de "dabei" vs chip "beim Putzen", nl "tijdens" vs chip "bij" | reproduced on the renders | locale strings, listed below, not authored | none |
+
+**Primitive** (`primitives/habit-pictogram.js`, sole consumer = this family): rinse + suds · new hands state `hands-dirty` (+ `germ()`) · new brush cards `dirty-teeth`, `clean-teeth` (`bigTooth()`) · `spit` redrawn. **Bank** (`data/b6/healthy-habits.js`, gitignored, force-add): baseD2, PHASE_OF, DROPPED_BRUSH (+ open-tube, rinse-brush), GERM_PAIRS soap other, coOccur F2 / F3pairs, EN strings base + brushing-teeth, labels.sleep. **Spec** (K-380): F1 suds, F2 derivations + spit rule, F3 hands verdict, F4 derangement build + verify, `reasonOrderTell` exported. `types/g1/G1-403-…js` i18n.en synced by hand (gen-b6var-specs rewrites every family). `i18n/strings.en.json` rebuilt with `i18n/build-en.js`.
+
+### Gate lines (fix round 2)
+- `node qa/verify-b6-healthy-habits.js` (full) → **PASS (2674 assertions, 66/66 poisons killed)**. d1/d2/d3, the v2..v20 sweep, chromes 814/722/677, the long chrome, greyscale and all five faces are clean. F1 pooled own slot 0 %, worst 28.7 %; F2 phase-in-slot 22.5..48.5 %; F3 left 50.0 % (51/51/50/49); F4 straight across 0.0 %.
+- `node qa/verify-b6-habit-pictogram.js` → **PASS (7414 assertions, 13/13 poisons killed)**.
+- `node tools/gate-variation-distinct.js --batch=b6` → `[b6] compared 75 pairs over 25 faces …` / **every variation differs from the deck its base publishes and from its siblings**.
+- `node tools/b3-baseline.js --check` → `checked build 33000 + enum 321: 22 drifted`. **All 22 are G1-204 (sink-float; `data/science/sink-vs-float.json` was modified at 18:06 today, not by this family). No healthy-habits file feeds G1-204; 0 drift anywhere else.**
+- Re-rendered K-380, K-382, G1-403, G1-404, G2-379, G1-405 × all 11 locales (d2, `out/b6-sweep/<loc>/`): **66/66 verify + lints clean**.
+
+**PNGs read at print size:** en K-380, en G1-403, en G1-405, de K-382, fr G1-404, es G2-379, sv G1-405, no G1-403, and the zoom sheet `out/dev/K-380-hh-zoom-colour.png` (wet / rinse / hands-soap / hands-dirty / spit / dirty / clean at 220-260 px). Open for the lead: the spit card reads at 128 px but is small (child at 0.85, the brush lying on the rim).
+
+### Locale strings to re-author
+(`<loc> <ID> <field>: what it must now say, and why`)
+- **all 10 (de es fr it nl pt sv da no fi) K-380 title + instruction**: "use", not "need". Each child is shown IN the habit; the line goes to the thing the child uses (hat / bed / toothbrush / soap / comb). The d2 plaques are now sleep · wash · SUN (hat) · comb · brush, with no nose child. A title framing all five as hygiene / Körperpflege now also covers sun protection: check that it still fits.
+- **all 10 G1-403 instruction**: "For each picture, circle before, during or after brushing." Two cards are now states (a dirty tooth, a clean tooth), so "when it happens" no longer fits. Keep it to one line.
+- **all 10 G1-405 labels.sleep**: a DECISION phrase, never the bare verb (rule 2b fires on every current draft). EN "go to sleep early"; the de panel offered "früh ins Bett gehen". Mind the short-word glue: a chain of words of 3 letters or fewer is one unbreakable span (EN "go to bed early" would overflow 94 px).
+- **es G2-379 reasons.sun-protect**: "…un día de mucho **sol**". Sunburn comes from the sun, not from heat.
+- **fr G2-379 instruction**: agree with "chaque bonne habitude" (feminine): "pourquoi on la fait" / "pourquoi c'est utile".
+- **de G1-403 title**: the title says "dabei", the chip says "beim Putzen". Use the same word in both.
+- **nl G1-403 title / chips / instruction**: the title says "tijdens", the chips and the instruction say "bij" (design §4 nl asked for ervoor / tijdens / erna). Use one word everywhere.
+- **de / es / fr / nl G1-404 title**: it names only the elbow cough, but the page tests four ways (elbow, soap vs dirty hands, own cup, tissue in the bin). Title the whole page (de panel: "Keime stoppen: Was hält Keime auf?").
+- **es / nl G1-405 title**: it omits drinking water (the 5 rows are brush, wash, move, drink water, sleep). Name all of them or none.
+- **nl G2-379 title**: "Hygiëne en verzorging" over-claims (only 2 of 5 are hygiene; move, sleep and sun are not). Use a head that covers all five.

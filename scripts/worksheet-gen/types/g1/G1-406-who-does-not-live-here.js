@@ -10,6 +10,6 @@ module.exports = {
   id: 'G1-406',
   slug: 'who-does-not-live-here',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Who Does Not Live Here?", instruction: "In each row, cross out the animal that does not live in that habitat." } },
+  i18n: { en: { title: "Who Does Not Live Here?", instruction: "For each habitat, cross out the animal that does not live there." } },
   gradeBand: "G1",
 };

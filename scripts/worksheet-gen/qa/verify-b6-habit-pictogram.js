@@ -100,7 +100,7 @@ function catalogue() {
   };
   HP.POSES.forEach((p) => add('figure', p));
   HP.TOOLS.forEach((t) => add('tool', t));
-  [...Object.keys(HP.HAND_STATES), 'hands-soap', 'hands-water-only'].forEach((s) => add('hands', s));
+  [...Object.keys(HP.HAND_STATES), 'hands-soap', 'hands-water-only', 'hands-dirty'].forEach((s) => add('hands', s));
   HP.BRUSH_KINDS.forEach((k) => add('brush', k));
   HP.TWO_POSES.forEach((p) => add('two', p));
   return C;
@@ -110,7 +110,10 @@ const MIN_PAIRS = [
   { a: 'figure:cough-elbow', b: 'figure:cough-open', parts: ['arm-near', 'cough-puff', 'spray'] },
   { a: 'figure:tissue-in-bin', b: 'figure:tissue-on-floor', parts: ['arm-near', 'tissue', 'fall'] },
   { a: 'two:own-cup', b: 'two:shared-cup', parts: ['arm-near', 'glass', 'cup-shared'] },
-  { a: 'hands:hands-soap', b: 'hands:hands-water-only', parts: ['bubbles'] },
+  // FIX ROUND 2: the soap row's other tile is dirty hands (tap off, germs), never water-only hand washing
+  { a: 'hands:hands-soap', b: 'hands:hands-dirty', parts: ['bubbles', 'stream', 'germs'] },
+  // FIX ROUND 2 (F2): the state cards are a declared minimal pair (the same tooth; plaque before, sparkle after)
+  { a: 'brush:dirty-teeth', b: 'brush:clean-teeth', parts: ['plaque', 'sparkle'] },
 ];
 
 /* ================================================================== node pass (rule 7, static) */
@@ -320,12 +323,38 @@ function brushRules(C) {
   // the brush is drawn at translate(20 42): its bristles end at unit y 42 + 12 = 54
   ok(cys.length >= 3 && cys.every((y) => y > 54), `rule 8: rinse-brush draws ${cys.length} foam bubbles below the bristles (>= 3: without foam it reads as wetting the brush first, a BEFORE step)`);
 }
+/**
+ * rule 3b (FIX ROUND 2, the F1 wet / rinse swap) — rinse carries >= 3 SUDS bubbles whose centres lie inside a drawn
+ * hand box (the soap being washed off), and NO other F1 state draws suds (wet = clean hands under the water).
+ * rule 9 (FIX ROUND 2, F2) — dirty-teeth draws plaque and no sparkle, clean-teeth sparkle and no plaque, neither a
+ * brush; the spit card's brush lies BELOW the head (laid down: brushing is over), never held up (a pause DURING).
+ */
+async function sudsAndStateRules(page, C) {
+  const px = 176;
+  for (const st of COMMON.handSteps) {
+    const svg = C[`hands:${st}`].sShip;
+    const g = /<g data-lcs-part="suds">([\s\S]*?)<\/g>/.exec(svg);
+    const cs = g ? [...g[1].matchAll(/cx="([\d.]+)" cy="([\d.]+)"/g)].map((m) => [+m[1] * px / 100, +m[2] * px / 100]) : [];
+    if (st !== 'rinse') { ok(!cs.length, `rule 3b: hands "${st}" draws soap suds on the hands (only rinse does: wet is clean hands under the water)`); continue; }
+    const boxes = (await page.evaluate((s, p) => window.__partBoxes(s, p), svg, px)).filter((b) => /^hand-/.test(b.part));
+    const inHand = cs.filter(([x, y]) => boxes.some((b) => x >= b.x && x <= b.x + b.w && y >= b.y && y <= b.y + b.h)).length;
+    ok(inHand >= 3, `rule 3b: rinse draws ${inHand} soap suds ON the hands (>= 3: without them wet and rinse are one drawing, two right orders)`);
+  }
+  const has = (svg, p) => new RegExp(`data-lcs-part="${p}"`).test(svg);
+  const d = C['brush:dirty-teeth'].sShip, c = C['brush:clean-teeth'].sShip;
+  ok(has(d, 'plaque') && !has(d, 'sparkle') && !has(d, 'brush'), 'rule 9: dirty-teeth must draw plaque, no sparkle, no brush');
+  ok(has(c, 'sparkle') && !has(c, 'plaque') && !has(c, 'brush'), 'rule 9: clean-teeth must draw sparkle, no plaque, no brush');
+  const sb = await page.evaluate((s) => window.__partBoxes(s, 104), C['brush:spit'].sShip);
+  const head = sb.find((b) => b.part === 'head'), br = sb.find((b) => b.part === 'brush');
+  ok(head && br && br.y + br.h / 2 > head.y + head.h / 2, 'rule 9: the spit card holds the brush up above the head (it reads as a pause DURING brushing; laid down it is AFTER)');
+}
 async function renderRules(page, C, opts = {}) {
   const r = await renderPass(page, C);
   const mp = await minimalPairs(page, C, r.bits60, MIN_PAIRS, r.jac);
   const vec = await handsRule(page, C, [...COMMON.handSteps]);
   toolRules(C);
   brushRules(C);
+  await sudsAndStateRules(page, C);
   const an = await anchorRule(page, C);
   const nf = opts.floors === false ? 0 : await floorRule(page, C);
   for (const [id, it] of Object.entries(C)) staticCheck(it.sShip, id);
@@ -372,6 +401,21 @@ async function poisons(page, C) {
   P = clone(C);
   patch(P, 'figure:blow-nose', (s) => s.replace(/<\/g><\/svg>$/, '<g data-lcs-part="spray"><circle cx="72" cy="20" r="2.2" fill="#3A3530"/><circle cx="78" cy="18" r="2.2" fill="#3A3530"/></g></g></svg>'));
   K.judge('PP9 a sneeze spray on the blow-nose child', await K.collect(() => renderRules(page, P, { floors: false })), /rule 4b: the blow-nose figure draws "spray"/, ctl);
+  // PP10 / PP10b / PP11 / PP12 (fix round 2) — each direction of each new rule
+  P = clone(C);
+  patch(P, 'hands:rinse', (s) => s.replace(/<g data-lcs-part="suds">[\s\S]*?<\/g>/, ''));
+  K.judge('PP10 rinse without the suds on its hands', await K.collect(() => renderRules(page, P, { floors: false })), /rule 3b: rinse draws 0 soap suds/, ctl);
+  P = clone(C);
+  const suds = /<g data-lcs-part="suds">[\s\S]*?<\/g>/.exec(C['hands:rinse'].sShip)[0];
+  patch(P, 'hands:wet', (s) => s.replace(/<\/g><\/svg>$/, `${suds}</g></svg>`));
+  K.judge('PP10b suds drawn on the wet hands', await K.collect(() => renderRules(page, P, { floors: false })), /rule 3b: hands "wet" draws soap suds/, ctl);
+  P = clone(C);
+  patch(P, 'brush:spit', (s) => s.replace(/(<g data-lcs-part="brush")/, '<g transform="translate(-10 -62)">$1').replace(/(<g data-lcs-part="drops">)/, '</g>$1'));
+  K.judge('PP11 the spit brush held up above the head again', await K.collect(() => renderRules(page, P, { floors: false })), /rule 9: the spit card holds the brush up/, ctl);
+  P = clone(C);
+  const plaque = /<g data-lcs-part="plaque">[\s\S]*?<\/g>/.exec(C['brush:dirty-teeth'].sShip)[0];
+  patch(P, 'brush:clean-teeth', (s) => s.replace(/<\/g><\/svg>$/, `${plaque}</g></svg>`));
+  K.judge('PP12 plaque drawn on the clean tooth', await K.collect(() => renderRules(page, P, { floors: false })), /rule 9: clean-teeth must draw sparkle, no plaque/, ctl);
   // PP7 (design P15) rinse-brush without its foam
   P = clone(C);
   patch(P, 'brush:rinse-brush', (s) => s.replace(/<g data-lcs-part="bubbles">[\s\S]*?<\/g>/, ''));
@@ -384,7 +428,7 @@ async function sheets(page) {
   const rows = [];
   for (const px of [64, 88, 132]) rows.push(`<div style="font:bold 12px sans-serif">figures ${px} px</div>` + HP.POSES.map((p) => cell(HP.habitFigure({ pose: p, px }).svg, p)).join(''));
   for (const px of [88, 124]) rows.push(`<div style="font:bold 12px sans-serif">tools ${px} px (ground)</div>` + HP.TOOLS.map((t) => cell(HP.habitTool({ kind: t, px, ground: true }).svg, t)).join(''));
-  rows.push('<div style="font:bold 12px sans-serif">F1 hands 176 px + F3 soap pair</div>' + [...Object.keys(HP.HAND_STATES), 'hands-soap', 'hands-water-only'].map((s) => cell(HP.handsView({ state: s, px: 176 }).svg, s)).join(''));
+  rows.push('<div style="font:bold 12px sans-serif">F1 hands 176 px + F3 soap pair</div>' + [...Object.keys(HP.HAND_STATES), 'hands-soap', 'hands-dirty', 'hands-water-only'].map((s) => cell(HP.handsView({ state: s, px: 176 }).svg, s)).join(''));
   rows.push('<div style="font:bold 12px sans-serif">F2 brush cards 104 px + F3 two figures 124 px</div>' + HP.BRUSH_KINDS.map((k) => cell(HP.brushCard({ kind: k, px: 104 }).svg, k)).join('') + HP.TWO_POSES.map((p) => cell(HP.twoFigures({ pose: p, px: 124 }).svg, p)).join(''));
   return H.sheet(page, 'habit-pictogram-sheet', rows.join('<br>'));
 }

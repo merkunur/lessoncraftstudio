@@ -52,10 +52,12 @@ const BARE_ORDER = [/^(story )?sequencing$/iu, /reihenfolge/iu, /^(?![\s\S]*verh
 const ANSWER_KEY = /answer key|with answers|mit lösung|con soluciones|com gabarito|avec corrigé|con soluzioni|met antwoorden|med facit|med svar|vastauksin/iu;
 const RULE14_EN = {
   base: [/boxes?/i, /numbers?/i],
-  'first-next-last-cut': [/(?<!\p{L})cut(?!\p{L})/iu, /glue/i],
+  // fix round 2: F1 names the pairing mark (the panels: "the instruction never mentions the marks"); F4 names the
+  // order boxes and the numbering (the child now orders the sentences)
+  'first-next-last-cut': [/(?<!\p{L})cut(?!\p{L})/iu, /glue/i, /(?<!\p{L})mark(?!\p{L})/iu],
   'what-happens-next': [/circle/i],
   'beginning-middle-end': [/draw/i, /middle/i],
-  'sequencing-sentences': [/line/i, /sentence/i],
+  'sequencing-sentences': [/line/i, /sentence/i, /boxes?/i, /(?<!\p{L})number(?!\p{L})/iu],
   'retell-with-starters': [/lines?/i, /word/i],
 };
 const nfc = (s) => String(s).normalize('NFC').toLowerCase();
@@ -259,7 +261,7 @@ async function main() {
   judge('P6 sub3 [2,3,4]', V(withStory('apple', (s) => { s.sub3 = [2, 3, 4]; })), /^r5: story apple sub3 234 must start at 1/);
   judge('P7 letter P4 occludes with no stamp increase', V(withStory('letter', (s) => { s.panels[3].irr.stamp = 0; s.panels[3].irr.address = 0; })), /^r4: story letter#4 occludes/);
   judge('P8 a coral fill in a set op', V(withStory('fence', (s) => { s.set.push({ k: 'rect', x: 0, y: 0, w: 5, h: 5, fill: 'coral' }); })), /^r7: story fence set fill coral/);
-  judge('P9 a footprint op 6 x 9 units', V(withStory('beach-walk', (s) => { const e = s.panels[1].prop.find((o) => o.irr === 'footprint'); e.rx = 3; e.ry = 4.5; })), /^r7: story beach-walk#2 a footprint carrier 6\.0 x 9\.0/);
+  judge('P9 a footprint op 6 x 9 units', V(withStory('beach-walk', (s) => { const e = s.panels[1].prop.find((o) => o.irr === 'footprint'); e.children = [{ k: 'ellipse', cx: 64, cy: 95, rx: 3, ry: 4.5, fill: 'ink' }]; })), /^r7: story beach-walk#2 a footprint carrier 6\.0 x 9\.0/);
   {
     const de = synthLocale('de', ['Zuerst', 'Dann', 'Danach', 'Zum Schluss']);
     const ctl = validateBank(de, 'de');
@@ -282,6 +284,9 @@ async function main() {
   // fix round 1
   { const en = clone(STORY_SEQUENCING.en); en.stories.cake.helpIds[2] = 'balloon'; judge('P17 cake bank word naming an undrawn part', validateBank(en, 'en'), /^r11: en cake: help word "candles" names "balloon"/); }
   { const en = clone(STORY_SEQUENCING.en); delete en.stories.apple.helpIds; judge('P17b a story without helpIds', validateBank(en, 'en'), /^r11: en apple: helpIds must be parallel/); }
+  // fix round 2: the instruction names the apparatus the page now carries (the pairing mark; the order boxes)
+  { const en = clone(STORY_SEQUENCING.en); en.strings['first-next-last-cut'].instruction = 'Cut out the pictures on each strip and glue them in the empty frames above First, Next and Last.'; judge('P20 en F1 instruction without the pairing mark', validateBank(en, 'en'), /^r14: en first-next-last-cut instruction does not name its apparatus .*mark/); }
+  { const en = clone(STORY_SEQUENCING.en); en.strings['sequencing-sentences'].instruction = "Read each story's sentences and draw a line from every sentence to its picture."; judge('P21 en F4 instruction without the order boxes', validateBank(en, 'en'), /^r14: en sequencing-sentences instruction does not name its apparatus .*box/); }
   {
     const nl = synthLocale('nl'); Object.entries(nl.strings).forEach(([m, x], i) => { x.title = `Verhaal op volgorde ${m} ${i}`; });
     nl.strings.base.title = 'Verhaal op volgorde leggen';
@@ -338,8 +343,8 @@ async function main() {
   { const cd = census(2, 400, { composer: 'derange' }); judge('PR2 derangement composer (pooled slot-1 share)', band(cd.first, 0.19, 0.31) ? [] : [`rank-1 slot shares ${pct(cd.first)} % outside 25 ± 6`], /outside 25 ± 6/); }
   // PR11: an F1 config fed to the base build
   { let t = null; try { spec._buildWith({ block: STORY_SEQUENCING.en, config: { ...spec.difficulty[2], answer: 'glue' } }, { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { t = e.message; } judge('PR11 a base config carrying an F1 answer key (glue)', t ? [t] : [], /is not the base's numeral/); }
-  // refusal: an unauthored locale
-  { let t = null; try { spec.build({ theme: null, difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); } catch (e) { t = e.message; } ok(t && /no de block/.test(t), 'de must REFUSE until its panel authors the block: ' + t); }
+  // refusal: an unauthored locale (fix round 2: all 11 are authored, so a synthetic 'xx' is the unauthored one)
+  { let t = null; try { spec.build({ theme: null, difficulty: 2, locale: 'xx' }, { rng: makeRng('x') }); } catch (e) { t = e.message; } ok(t && /no xx block/.test(t), 'an unauthored locale must REFUSE: ' + t); }
   // es/pt pools lose the snowman by default (a pool check through the spec's own filter)
   ok(!spec.storyPool({}, 'es', 'sub4').some((s) => s.id === 'snowman') && spec.storyPool({}, 'es', 'sub4').length === 11, 'es sub4 pool = 11 without snowman (12 stories carry sub4)');
 
@@ -469,7 +474,7 @@ async function main() {
       ok(fspec.difficulty[2].mode === mode, `${id}: mode ${fspec.difficulty[2].mode}`);
       ok(fspec.i18n.en.title === STORY_SEQUENCING.en.strings[mode].title && fspec.i18n.en.instruction === STORY_SEQUENCING.en.strings[mode].instruction, `${id}: the spec strings are not the bank's strings.${mode}`);
       ok(fspec.gradeBand === FACE_FLOORS[mode], `${id}: gradeBand ${fspec.gradeBand} ≠ ${FACE_FLOORS[mode]}`);
-      { let t = null; try { fspec.build({ theme: null, difficulty: 2, locale: 'fi' }, { rng: makeRng('x') }); } catch (e) { t = e.message; } ok(t && /no fi block/.test(t), `${id}: fi must REFUSE until its panel authors the block (${t})`); }
+      { let t = null; try { fspec.build({ theme: null, difficulty: 2, locale: 'xx' }, { rng: makeRng('x') }); } catch (e) { t = e.message; } ok(t && /no xx block/.test(t), `${id}: an unauthored locale must REFUSE (${t})`); }
       const seeds = quick ? [1] : [1, 2, 3, 4, 5];
       for (const [chrome, strings] of [['766', undefined], ...stress]) for (const v of (chrome === '766' ? seeds : [1])) {
         const out = await renderInstance({ type: fspec, theme: null, difficulty: 2, locale: 'en', variant: v, strings, page, outDir: OUTD, baseName: `K-379-gate-${id}-${chrome}` });
@@ -504,10 +509,10 @@ async function main() {
     console.log('faces: ' + faceLog.join(' · '));
     // the face poisons the base deferred (design §5)
     const F2 = loadType('G1-400'), F4 = loadType('G1-402');
-    const f2plan = { stories: ['apple', 'fence', 'snowman'], others: ['letter', 'banana', 'cake'], slots: [0, 2, 1], foilOrder: [['regress', 'other'], ['other', 'regress'], ['regress', 'other']] };
+    const f2plan = { stories: ['apple', 'fence', 'snowman'], others: ['letter', 'banana', 'drawing'], slots: [0, 2, 1], foilOrder: [['regress', 'other'], ['other', 'regress'], ['regress', 'other']] };
     const f2 = (plan) => F2._buildWith({ block: STORY_SEQUENCING.en, config: F2.difficulty[2], plan }, { locale: 'en' }, { rng: makeRng('x') }).bodyHtml;
     { const v = await verifyHtml(page, f2(f2plan), F2, OUTD, 'f2-ctl'); ok(!v.length, 'F2 control plan: ' + v.join(' | ')); }
-    judge('PR6 F2 other-story foil on the SAME stage', await verifyHtml(page, f2({ ...f2plan, others: ['banana', 'letter', 'cake'] }), F2, OUTD, 'pr6'), /shares the stage "table"/);
+    judge('PR6 F2 other-story foil on the SAME stage', await verifyHtml(page, f2({ ...f2plan, others: ['banana', 'letter', 'drawing'] }), F2, OUTD, 'pr6'), /shares the stage "table"/);
     {
       const bad = f2(f2plan).replace(/data-lcs-choice-story="apple" data-lcs-choice-rank="1"/, 'data-lcs-choice-story="apple" data-lcs-choice-rank="3"');
       judge('PR7 F2 a choice = rank 3', await verifyHtml(page, bad, F2, OUTD, 'pr7'), /same-story foil at rank 3/);
@@ -526,25 +531,80 @@ async function main() {
       const bad = F4._buildWith({ block: STORY_SEQUENCING.en, config: F4.difficulty[2], plan: { stories: ['apple', 'fence'], perms: [[1, 2, 3, 4], [3, 1, 4, 2]] } }, { locale: 'en' }, { rng: makeRng('x') }).bodyHtml;
       judge('PR9 F4 pictures in story order', await verifyHtml(page, bad, F4, OUTD, 'pr9'), /breaks the scramble law \(identity\)/);
     }
-    // pooled tells at 400 seeds (raise the sample, never the threshold)
+    // ---------------------------------------------------------------- fix round 2 (landing audit) render poisons
+    // F2: a tray foil whose ending nobody can name at 108 px (COMMON.TRAY_ILLEGIBLE); the control above uses drawing
+    judge('PT F2 the cake (illegible ending) as a tray foil', await verifyHtml(page, f2({ ...f2plan, others: ['letter', 'banana', 'cake'] }), F2, OUTD, 'pt'), /nobody can name at tray size/);
+    // F1: strips that are the identity / a rotation of the answer order (nl: "move the first card to the end")
     {
-      const slot = [0, 0, 0]; let n = 0; const r4 = [0, 0, 0, 0], l4 = [0, 0, 0, 0]; let rows4 = 0;
-      for (let v = 1; v <= 400; v++) {
-        const a = F2._buildWith({ block: STORY_SEQUENCING.en, config: F2.difficulty[2] }, { locale: 'en' }, { rng: makeRng(instanceSeed({ typeId: 'G1-400', theme: null, difficulty: 2, seedEpoch: 1, variant: v })) });
-        for (const c of a.meta.slots) { slot[+c]++; n++; }
-        const b = F4._buildWith({ block: STORY_SEQUENCING.en, config: F4.difficulty[2] }, { locale: 'en' }, { rng: makeRng(instanceSeed({ typeId: 'G1-402', theme: null, difficulty: 2, seedEpoch: 1, variant: v })) });
-        for (const p of b.meta.perms.split(',')) { r4[p.indexOf('1')]++; l4[p.indexOf('4')]++; rows4++; }
-      }
-      const s2 = slot.map((x) => x / n), s4 = r4.map((x) => x / rows4), e4 = l4.map((x) => x / rows4);
-      ok(s2.every((x) => x >= 0.27 && x <= 0.39), `F2 correct-slot shares ${pct(s2)} % outside 33 ± 6`);
-      ok(band(s4, 0.19, 0.31) && band(e4, 0.19, 0.31), `F4 rank-1 ${pct(s4)} / rank-4 ${pct(e4)} % outside 25 ± 6`);
-      console.log(`census F2 correct slot ${pct(s2)} % · F4 rank-1 ${pct(s4)} % rank-4 ${pct(e4)} %`);
-      const f1 = [0, 0, 0]; let rows3 = 0; const F1 = loadType('K-381');
-      for (let v = 1; v <= 400; v++) { const a = F1._buildWith({ block: STORY_SEQUENCING.en, config: F1.difficulty[2] }, { locale: 'en' }, { rng: makeRng(instanceSeed({ typeId: 'K-381', theme: null, difficulty: 2, seedEpoch: 1, variant: v })) }); for (const p of a.meta.perms.split(',')) { f1[p.indexOf('1')]++; rows3++; } }
-      const s1 = f1.map((x) => x / rows3);
-      ok(s1[1] <= 0.56 && s1.every((x) => x >= 0.19), `F1 rank-1 slot shares ${pct(s1)} % (middle <= 56, each >= 19)`);
-      console.log(`census F1 rank-1 by slot ${pct(s1)} % (the recorded n = 3 middle bound)`);
+      const F1s = loadType('K-381');
+      const f1 = (perms) => F1s._buildWith({ block: STORY_SEQUENCING.en, config: F1s.difficulty[2], plan: { stories: ['apple', 'letter'], perms } }, { locale: 'en' }, { rng: makeRng('x') }).bodyHtml;
+      const c = await verifyHtml(page, f1([[1, 3, 2], [3, 2, 1]]), F1s, OUTD, 'pf1-ctl'); ok(!c.length, 'F1 control strips 132 / 321: ' + c.join(' | '));
+      judge('PF1 an F1 strip rotated (312)', await verifyHtml(page, f1([[3, 1, 2], [2, 1, 3]]), F1s, OUTD, 'pf1'), /is a ROTATION of the answer order/);
+      judge('PF1b an F1 strip in the answer order (123)', await verifyHtml(page, f1([[1, 2, 3], [2, 1, 3]]), F1s, OUTD, 'pf1b'), /is the answer order \(identity\)/);
     }
+    // F4: the sentence column in story order / a picture straight across from its own sentence / a filled order box
+    {
+      const f4 = (plan) => F4._buildWith({ block: STORY_SEQUENCING.en, config: F4.difficulty[2], plan: { stories: ['apple', 'fence'], ...plan } }, { locale: 'en' }, { rng: makeRng('x') }).bodyHtml;
+      const P = [[3, 1, 4, 2], [2, 4, 1, 3]];
+      const good = f4({ perms: P, sperms: [[2, 4, 1, 3], [4, 1, 3, 2]] });
+      const c = await verifyHtml(page, good, F4, OUTD, 'pf4-ctl'); ok(!c.length, 'F4 control plan: ' + c.join(' | '));
+      judge('PF4 the F4 sentences printed in story order', await verifyHtml(page, f4({ perms: P, sperms: [[1, 2, 3, 4], [4, 1, 3, 2]] }), F4, OUTD, 'pf4'), /the sentence column 1234 breaks the scramble law \(identity\)/);
+      judge('PF4b an F4 picture straight across from its own sentence', await verifyHtml(page, f4({ perms: P, sperms: [[3, 4, 2, 1], [4, 1, 3, 2]] }), F4, OUTD, 'pf4b'), /the rank-3 picture sits straight across from its own sentence/);
+      const filled = good.replace(/(<span class="ss-order"[^>]*>)(<\/span>)/, '$12$2');
+      judge('PF4c an F4 order box carrying its numeral', filled === good ? ['POISON DID NOT APPLY'] : await verifyHtml(page, filled, F4, OUTD, 'pf4c'), /the order box of row 1 carries content/);
+    }
+    // EVERY locale that ships a face: the five faces render, verify() empty and lints clean in each locale's own
+    // strings and bank (the new F1 / F2 / F4 rules run in every locale, not only en)
+    const LOCS = ['en', 'de', 'es', 'pt', 'fr', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+    const { resolveStrings } = require('../i18n/strings.js');
+    const { bank } = require('../lib/b6-common.js');
+    const locLog = [];
+    for (const loc of LOCS) {
+      let blk = null; try { blk = bank('story-sequencing', loc); } catch (e) { ok(false, `${loc}: no story-sequencing block (${e.message})`); continue; }
+      for (const row of ROWS) {
+        const id = row[1], fspec = loadType(id);
+        let strings; try { strings = resolveStrings(id, loc, fspec); } catch (e) { strings = undefined; }
+        for (const v of (quick ? [1] : [1, 2, 3])) {
+          let out;
+          try { out = await renderInstance({ type: fspec, theme: null, difficulty: 2, locale: loc, variant: v, strings, page, outDir: OUTD, baseName: `K-379-gate-${id}-${loc}` }); }
+          catch (e) { ok(false, `${id} ${loc} v${v}: build/render threw ${e.message}`); continue; }
+          ok(!out.qa.verify.length, `${id} ${loc} v${v}: verify ${out.qa.verify.join(' | ')}`);
+          ok(!out.qa.lints.length, `${id} ${loc} v${v}: lints ${out.qa.lints.slice(0, 3).join(' | ')}`);
+        }
+      }
+      locLog.push(loc);
+      void blk;
+    }
+    console.log(`locales: the five faces verified in ${locLog.join(' ')} (${quick ? 1 : 3} seeds each)`);
+    // pooled tells at 400 seeds, EVERY locale's own bank (raise the sample, never the threshold)
+    for (const loc of LOCS) {
+      let blk; try { blk = bank('story-sequencing', loc); } catch (e) { continue; }
+      const seed = (typeId, v) => makeRng(instanceSeed({ typeId, theme: null, difficulty: 2, seedEpoch: 1, variant: v }));
+      const slot = [0, 0, 0]; let n = 0; const r4 = [0, 0, 0, 0], l4 = [0, 0, 0, 0], sr4 = [0, 0, 0, 0], sl4 = [0, 0, 0, 0]; let rows4 = 0, across = 0, illegible = 0;
+      const F1 = loadType('K-381'); const strip = { 132: 0, 213: 0, 321: 0 }; let strips = 0, badStrip = 0; const f1 = [0, 0, 0];
+      for (let v = 1; v <= 400; v++) {
+        const a = F2._buildWith({ block: blk, config: F2.difficulty[2] }, { locale: loc }, { rng: seed('G1-400', v) });
+        for (const c of a.meta.slots) { slot[+c]++; n++; }
+        if (a.meta.others.split(',').some((o) => (COMMON.TRAY_ILLEGIBLE || []).includes(o))) illegible++;
+        const b = F4._buildWith({ block: blk, config: F4.difficulty[2] }, { locale: loc }, { rng: seed('G1-402', v) });
+        const Ps = b.meta.perms.split(','), Ss = b.meta.sperms.split(',');
+        Ps.forEach((p, i) => { r4[p.indexOf('1')]++; l4[p.indexOf('4')]++; rows4++; const q = Ss[i]; sr4[q.indexOf('1')]++; sl4[q.indexOf('4')]++; for (let j = 0; j < 4; j++) if (p[j] === q[j]) across++; });
+        const c = F1._buildWith({ block: blk, config: F1.difficulty[2] }, { locale: loc }, { rng: seed('K-381', v) });
+        for (const p of c.meta.perms.split(',')) { strips++; if (p in strip) strip[p]++; else badStrip++; f1[p.indexOf('1')]++; }
+      }
+      const s2 = slot.map((x) => x / n), s4 = r4.map((x) => x / rows4), e4 = l4.map((x) => x / rows4), q4 = sr4.map((x) => x / rows4), z4 = sl4.map((x) => x / rows4);
+      const st = Object.values(strip).map((x) => x / strips), s1 = f1.map((x) => x / strips);
+      ok(s2.every((x) => x >= 0.27 && x <= 0.39), `${loc} F2 correct-slot shares ${pct(s2)} % outside 33 ± 6`);
+      ok(!illegible, `${loc} F2: ${illegible} of 400 pages put an illegible ending (COMMON.TRAY_ILLEGIBLE) in the tray`);
+      ok(band(s4, 0.19, 0.31) && band(e4, 0.19, 0.31), `${loc} F4 picture rank-1 ${pct(s4)} / rank-4 ${pct(e4)} % outside 25 ± 6`);
+      ok(band(q4, 0.19, 0.31) && band(z4, 0.19, 0.31), `${loc} F4 sentence rank-1 ${pct(q4)} / rank-4 ${pct(z4)} % outside 25 ± 6`);
+      ok(across === 0, `${loc} F4: ${across} rows of 3200 put a picture straight across from its own sentence`);
+      ok(!badStrip, `${loc} F1: ${badStrip} strips are the identity or a rotation of the answer order`);
+      ok(st.every((x) => x >= 0.27 && x <= 0.39) && s1.every((x) => x >= 0.27 && x <= 0.39), `${loc} F1 strip shares 132/213/321 ${pct(st)} %, rank-1 by slot ${pct(s1)} % outside 33 ± 6`);
+      if (loc === 'en' || loc === 'fi') console.log(`census ${loc}: F2 correct slot ${pct(s2)} % · F4 pictures rank-1 ${pct(s4)} % · F4 sentences rank-1 ${pct(q4)} % rank-4 ${pct(z4)} % · straight-across ${across} · F1 strips ${pct(st)} % rank-1 by slot ${pct(s1)} %`);
+    }
+    // the census's own poison: the OLD F1 strip table (with the rotations) must fail the strip rule
+    { const old = { ...COMMON }; let bad = 0; const rng = makeRng('census-poison'); for (let v = 0; v < 400; v++) { const p = rng.pick(COMMON.SCRAMBLE3); if (!COMMON.STRIP3.includes(p)) bad++; } void old; judge('PF1c the old F1 table (132/213/231/312) drawn 400 times', bad ? [`${bad} strips are the identity or a rotation`] : [], /are the identity or a rotation/); }
   } finally { await browser.close(); }
 
   console.log('poison:\n' + plog.join('\n'));

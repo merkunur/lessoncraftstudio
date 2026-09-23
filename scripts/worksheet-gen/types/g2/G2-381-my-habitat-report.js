@@ -4,12 +4,12 @@ const base = require('../g1/G1-398-animal-habitats.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"layout":"report","animalRows":3,"plantRows":1,"chipPairs":2} };
+const D = { ...base.difficulty[2], ...{"layout":"report","animalRows":3,"plantRows":1,"chipPairs":1} };
 module.exports = {
   ...base,
   id: 'G2-381',
   slug: 'my-habitat-report',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "My Habitat Report", instruction: "Draw three animals that live in this habitat, write their names and a plant that grows there, and circle the right word in each pair." } },
+  i18n: { en: { title: "My Habitat Report", instruction: "In the picture, draw three animals that live there, write their names and a plant that grows there, and circle the word that fits this habitat." } },
   gradeBand: "G2",
 };

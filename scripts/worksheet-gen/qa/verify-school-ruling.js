@@ -138,6 +138,18 @@ async function run({ page, png = true }) {
   }
   assertions++;
   try { SR.rulingGeometry({ unit: 'fr-moderne2', kind: 'us3', X: 16 }); fails.push('school-ruling POISON SILENT: an unknown unit built a geometry'); } catch (e) { console.log('poison killed: unknown unit → ' + e.message.slice(0, 80)); }
+  // fix round 2: a closed slice's `tail` (interlines under its last writing line) — 3 draws NO extra writing line
+  // (the face slice), 4 would draw the next writing line and THROWS (both directions)
+  for (const i of [11.34, 15.12]) {
+    const g = SR.seyesGeometry({ unit: 'fr-trad', i, rows: 2, last: true, tail: 3 });
+    const svg = SR.schoolRuling({ kind: 'seyes', w: W, geom: g, marginX: MARGIN });
+    const writing = [...svg.matchAll(/data-lcs-line="seyes-writing" data-lcs-y="([0-9.]+)"/g)].map((m) => Number(m[1]));
+    assertions++;
+    if (writing.join(',') !== g.baselines.join(',')) fails.push(`school-ruling: a tail-3 slice at i ${i} draws writing lines ${writing.join(',')} (want only its baselines ${g.baselines.join(',')})`);
+    if (Math.abs(g.height - Math.round(10 * i * 100) / 100) > 0.011) fails.push(`school-ruling: a tail-3 slice at i ${i} is ${g.height} high (want 10 i)`);
+  }
+  assertions++;
+  try { SR.seyesGeometry({ unit: 'fr-trad', i: 15.12, rows: 2, last: true, tail: 4 }); fails.push('school-ruling POISON SILENT: a tail-4 slice (its 4th interline IS the next writing line) was built'); } catch (e) { console.log('poison killed: Seyès tail 4 → ' + e.message.slice(0, 80)); }
   return { assertions, fails, cases: list.length };
 }
 

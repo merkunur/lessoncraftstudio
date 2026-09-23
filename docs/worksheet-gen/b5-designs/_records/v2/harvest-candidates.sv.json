@@ -1,0 +1,1499 @@
+{
+ "locale": "sv",
+ "market": {
+  "hl": "sv",
+  "gl": "se"
+ },
+ "generatedAt": "2026-09-23T00:18:40.724Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds-nordic-v2.json",
+ "requestCount": 245,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "plants": {
+   "heads": [
+    "växtens delar",
+    "blommans delar",
+    "från frö till växt"
+   ],
+   "requests": 21,
+   "productiveSeeds": 6,
+   "unique": 18,
+   "suggestions": [
+    "blommans delar",
+    "blommans delar arbetsblad",
+    "blommans delar barn",
+    "blommans delar bild",
+    "blommans delar elevspel",
+    "blommans delar film",
+    "blommans delar och funktion",
+    "blommans delar pistill",
+    "blommans delar åk 1",
+    "blommans delar åk 4",
+    "från frö till växt",
+    "från frö till växt bok",
+    "så lyckas du från frö till växt",
+    "växtens delar",
+    "växtens delar arbetsblad",
+    "växtens delar film",
+    "växtens delar och funktion",
+    "växtens olika delar"
+   ]
+  },
+  "life-cycles": {
+   "heads": [
+    "fjärilens livscykel",
+    "grodans livscykel",
+    "livscykler"
+   ],
+   "requests": 21,
+   "productiveSeeds": 9,
+   "unique": 30,
+   "suggestions": [
+    "fjärilens livscykel",
+    "fjärilens livscykel arbetsblad",
+    "fjärilens livscykel arbetsblad gratis",
+    "fjärilens livscykel bild",
+    "fjärilens livscykel fakta for barn",
+    "fjärilens livscykel film",
+    "fjärilens livscykel film för barn",
+    "fjärilens livscykel förskola",
+    "fjärilens livscykel pasta",
+    "fjärilens livscykel pyssel",
+    "fjärilens livscykel skolmagi",
+    "grodans livscykel",
+    "grodans livscykel arbetsblad",
+    "grodans livscykel bild",
+    "grodans livscykel fakta",
+    "grodans livscykel film",
+    "grodans livscykel förskola",
+    "grodans livscykel pyssel",
+    "grodans livscykel skolmagi",
+    "grodans livscykel snurra",
+    "grodans livscykel åk 1",
+    "livscykel åk 1",
+    "livscykler biologi 2",
+    "livscykler djur",
+    "livscykler film",
+    "livscykler åk 1",
+    "livscykler åk 2",
+    "livscykler åk 3",
+    "olika livscykler",
+    "trädets livscykel åk 1"
+   ]
+  },
+  "materials": {
+   "heads": [
+    "magnetism",
+    "material och deras egenskaper",
+    "flyter eller sjunker"
+   ],
+   "requests": 21,
+   "productiveSeeds": 6,
+   "unique": 25,
+   "suggestions": [
+    "flyter eller sjunker",
+    "flyter eller sjunker bajs",
+    "flyter eller sjunker dåliga ägg",
+    "flyter eller sjunker experiment",
+    "flyter eller sjunker färska ägg",
+    "flyter eller sjunker gamla ägg",
+    "flyter eller sjunker ägg",
+    "magnet 3 klass",
+    "magnetism",
+    "magnetism arbetsblad",
+    "magnetism enhet",
+    "magnetism escada",
+    "magnetism fysik",
+    "magnetism fysik 2",
+    "magnetism för barn",
+    "magnetism förskola",
+    "magnetism mellan två personer",
+    "magnetism parfym",
+    "magnetism synonym",
+    "magnetism åk 2",
+    "magnetism åk 3",
+    "material och deras egenskaper",
+    "material och dess egenskaper",
+    "varför flyter eller sjunker bajs",
+    "varför flyter eller sjunker saker"
+   ]
+  },
+  "space": {
+   "heads": [
+    "solsystemet",
+    "planeterna",
+    "månens faser"
+   ],
+   "requests": 21,
+   "productiveSeeds": 11,
+   "unique": 39,
+   "suggestions": [
+    "månens faser",
+    "månens faser 2025",
+    "månens faser 2026",
+    "månens faser arbetsblad",
+    "månens faser bild",
+    "månens faser för barn",
+    "månens faser idag",
+    "månens faser kalender",
+    "månens faser namn",
+    "månens faser nedan",
+    "månens faser svenska",
+    "månens faser åk 2",
+    "planeter att skriva ut",
+    "planeterna",
+    "planeterna arbetsblad",
+    "planeterna i solsystemet",
+    "planeterna i storleksordning",
+    "planeterna i vårt solsystem",
+    "planeterna skriva ut",
+    "planeterna snapchat",
+    "planeterna åk 2",
+    "planeternas ordning",
+    "planeternas ordning från solen",
+    "planeternas ordning ramsa",
+    "planeternas storlek",
+    "planeternas storlek i förhållande till varandra",
+    "solsystemet",
+    "solsystemet arbetsblad",
+    "solsystemet bild",
+    "solsystemet för barn",
+    "solsystemet ordning",
+    "solsystemet planeter",
+    "solsystemet planeter snapchat",
+    "solsystemet skriva ut",
+    "solsystemet snap",
+    "solsystemet snapchat",
+    "solsystemet sverige",
+    "solsystemet åk 2",
+    "solsystemets största planet"
+   ]
+  },
+  "colors": {
+   "heads": [
+    "färgord",
+    "grundfärger",
+    "blanda färger"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 30,
+   "suggestions": [
+    "blanda färger",
+    "blanda färger app",
+    "blanda färger karta",
+    "blanda färger online",
+    "blanda färger synonym",
+    "blanda färger till blått",
+    "blanda färger till brunt",
+    "blanda färger till gul",
+    "blanda färger till lila",
+    "blanda färger till röd",
+    "färgordning",
+    "färgordning 10 par",
+    "färgordning 3 fas",
+    "färgordning cat 6",
+    "färgordning fiber",
+    "färgordning kabel",
+    "färgordning kort",
+    "färgordning nätverkskabel",
+    "färgordning regnbåge",
+    "färgordning rj45",
+    "grundfärger akryl",
+    "grundfärger akvarell",
+    "grundfärger bilduppgift",
+    "grundfärger cirkel",
+    "grundfärger färglära",
+    "grundfärger förskola",
+    "grundfärger inom ljus",
+    "grundfärger och sekundärfärger",
+    "grundfärgerna",
+    "grundfärgerna är"
+   ]
+  },
+  "2d-shapes": {
+   "heads": [
+    "geometriska figurer",
+    "geometriska former",
+    "plana figurer"
+   ],
+   "requests": 21,
+   "productiveSeeds": 15,
+   "unique": 41,
+   "suggestions": [
+    "arbetsblad geometriska former förskoleklass",
+    "geometriska figurer",
+    "geometriska figurer 3d",
+    "geometriska figurer 3d namn",
+    "geometriska figurer 6 bokstäver",
+    "geometriska figurer arbetsblad",
+    "geometriska figurer förskoleklass",
+    "geometriska figurer korsord",
+    "geometriska figurer namn",
+    "geometriska figurer och kroppar",
+    "geometriska figurer parallellogram",
+    "geometriska figurer skriva ut",
+    "geometriska figurer åk 1",
+    "geometriska figurer åk 3",
+    "geometriska figurer åk 6",
+    "geometriska former",
+    "geometriska former 3d",
+    "geometriska former arbetsblad",
+    "geometriska former att skriva ut",
+    "geometriska former bilder",
+    "geometriska former eller figurer",
+    "geometriska former film",
+    "geometriska former förskola",
+    "geometriska former förskola att skriva ut",
+    "geometriska former förskoleklass",
+    "geometriska former förskoleklass film",
+    "geometriska former namn",
+    "geometriska former skriva ut",
+    "geometriska former tatuering",
+    "geometriska former åk 1",
+    "geometriska former åk 2",
+    "geometriska former åk 3",
+    "geometriska former årskurs 1",
+    "geometriska objekt arbetsblad",
+    "geometriska objekt åk 1",
+    "geometriska objekt åk 2",
+    "geometriska objekt åk 3",
+    "plana figurer",
+    "plana figurer 9 bokstäver",
+    "plana figurer korsord",
+    "plana figurer synonym"
+   ]
+  },
+  "digraphs": {
+   "heads": [
+    "sj-ljudet",
+    "tj-ljudet",
+    "ng-ljudet"
+   ],
+   "requests": 21,
+   "productiveSeeds": 7,
+   "unique": 31,
+   "suggestions": [
+    "ng ljudet bokstavslandet",
+    "ng ljudet film",
+    "ng ljudet livet i bokstavslandet",
+    "ng ljudet ord",
+    "ng ljudet regler",
+    "ng ljudet ur play",
+    "ng ljudet wordwall",
+    "ng ljudet åk 2",
+    "ng ljudet övningar",
+    "ng-ljudet",
+    "ng-ljudet arbetsblad",
+    "sj ljudet elevspel",
+    "sj ljudet film",
+    "sj ljudet ord",
+    "sj ljudet regler",
+    "sj ljudet stavas oftast med före hård vokal",
+    "sj ljudet stavning",
+    "sj ljudet svenska",
+    "sj ljudet uttal",
+    "sj-ljudet",
+    "sj-ljudet arbetsblad",
+    "tj ljudet arbetsblad",
+    "tj ljudet bokstavslandet",
+    "tj ljudet elevspel",
+    "tj ljudet film",
+    "tj ljudet ord",
+    "tj ljudet regler",
+    "tj ljudet stavas oftast med före hård vokal",
+    "tj ljudet stavas oftast med före mjuk vokal",
+    "tj ljudet stavning",
+    "tj-ljudet"
+   ]
+  },
+  "synonyms": {
+   "heads": [
+    "synonymer",
+    "ord som betyder samma sak"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 23,
+   "suggestions": [
+    "ord som betyder samma sak",
+    "ord som betyder samma sak baklänges",
+    "ord som betyder samma sak på svenska",
+    "samma ord som betyder olika saker",
+    "synonymer",
+    "synonymer arbetsblad",
+    "synonymer arbetsblad åk 2",
+    "synonymer engelska",
+    "synonymer för clown",
+    "synonymer korsord",
+    "synonymer se",
+    "synonymer svenska",
+    "synonymer till",
+    "synonymer till bra",
+    "synonymer till hån",
+    "synonymer åk 1",
+    "synonymer åk 2",
+    "synonymer.se korsord",
+    "två ord som betyder samma sak",
+    "varför finns det flera ord som betyder samma sak",
+    "varför finns det ord som betyder samma sak",
+    "vilket ord betyder samma sak som mamma",
+    "vilket ord betyder samma sak som snabb skritt"
+   ]
+  },
+  "homophones": {
+   "heads": [
+    "homofoner",
+    "ord som låter lika",
+    "de och dem"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 28,
+   "suggestions": [
+    "de och dem",
+    "de och dem eller dom",
+    "de och dem jag och mig",
+    "de och dem när",
+    "de och dem regel",
+    "de och dem skillnad",
+    "de och dem test",
+    "de och dem vi och oss",
+    "homofoner",
+    "homofoner betydning",
+    "homofoner eksempler",
+    "homofoner engelska",
+    "homofoner exempel",
+    "homofoner lista",
+    "homofoner liste dansk",
+    "homofoner norsk",
+    "homofoner ord",
+    "homofoner svenska",
+    "ord som låter lika",
+    "ord som låter lika 5 bokstäver",
+    "ord som låter lika baklänges",
+    "ord som låter lika inrim",
+    "ord som låter lika korsord",
+    "ord som låter lika korsord 5 bokstäver",
+    "ord som låter lika men betyder olika",
+    "ord som låter lika men stavas olika",
+    "ord som låter lika synonym",
+    "ord som låter likadant"
+   ]
+  },
+  "road-safety": {
+   "heads": [
+    "trafik",
+    "trafikmärken",
+    "trafikregler för barn"
+   ],
+   "requests": 21,
+   "productiveSeeds": 14,
+   "unique": 57,
+   "suggestions": [
+    "arbeta med trafik åk 1",
+    "arbetsblad trafik åk 1",
+    "enkla trafikregler för barn",
+    "film om trafik åk 1",
+    "rallylydnad skyltar skriva ut",
+    "skogräns skylt skriva ut",
+    "skylt förskoleklass",
+    "skylt klass 1",
+    "skyltar att skriva ut",
+    "skyltar att skriva ut gratis",
+    "skyltar skriva ut",
+    "so trafik åk 1",
+    "swish skylt skriva ut",
+    "tema trafik förskoleklass",
+    "tema trafik åk 1",
+    "trafik",
+    "trafik arbetsblad",
+    "trafik för barn",
+    "trafik förskoleklass",
+    "trafik häfte åk 1",
+    "trafik lektion åk 1",
+    "trafik åk 1",
+    "trafik åk 2",
+    "trafik åk 3",
+    "trafik årskurs 1",
+    "trafiken göteborg",
+    "trafikförsäkringsföreningen",
+    "trafikinformation",
+    "trafikklass 1",
+    "trafikmärken",
+    "trafikmärken arbetsblad",
+    "trafikmärken att skriva ut",
+    "trafikmärken barn",
+    "trafikmärken betydelse",
+    "trafikmärken bilder",
+    "trafikmärken bok",
+    "trafikmärken förskoleklass",
+    "trafikmärken hastighet",
+    "trafikmärken parkering",
+    "trafikmärken parkering betydelse",
+    "trafikmärken skriva ut",
+    "trafikmärken test",
+    "trafikmärken åk 1",
+    "trafikolycka",
+    "trafikolycka trollhättan",
+    "trafikolycka uddevalla",
+    "trafikregler barn i bil",
+    "trafikregler barnstol",
+    "trafikregler film för barn",
+    "trafikregler för barn",
+    "trafikskyltar skriva ut",
+    "trafikverket",
+    "trafikverket förarprov",
+    "trafikverket göteborg",
+    "vägskylt klass 1",
+    "vägskyltar skriva ut",
+    "välkommen skylt skriva ut"
+   ]
+  },
+  "maps": {
+   "heads": [
+    "världsdelar",
+    "väderstreck",
+    "kartkunskap"
+   ],
+   "requests": 21,
+   "productiveSeeds": 13,
+   "unique": 41,
+   "suggestions": [
+    "kartkunskap",
+    "kartkunskap korsord",
+    "kartkunskap orientering",
+    "kartkunskap synonym",
+    "kartkunskap åk 2",
+    "kartkunskap åk 3",
+    "kartkunskap åk 4",
+    "kartkunskap åk 6",
+    "kartkunskap åk 7",
+    "kartkunskap övningar",
+    "väderstreck",
+    "väderstreck 3 bokstäver",
+    "väderstreck arbetsblad",
+    "väderstreck engelska",
+    "väderstreck karta",
+    "väderstreck kompass",
+    "väderstreck korsord",
+    "väderstreck korsord 2 bokstäver",
+    "väderstreck korsord 3 bokstäver",
+    "väderstreck sverige",
+    "väderstreck åk 2",
+    "väderstreck åk 3",
+    "väderstrecken",
+    "världsdelar",
+    "världsdelar arbetsblad",
+    "världsdelar engelska",
+    "världsdelar hur många",
+    "världsdelar i världen",
+    "världsdelar karta",
+    "världsdelar länder",
+    "världsdelar och kontinenter",
+    "världsdelar och världshav",
+    "världsdelar och världshav arbetsblad",
+    "världsdelar och världshav åk 2",
+    "världsdelar och världshav åk 3",
+    "världsdelar skriva ut",
+    "världsdelar storleksordning",
+    "världsdelar åk 1",
+    "världsdelar åk 2",
+    "världsdelar åk 3",
+    "världsdelarna"
+   ]
+  },
+  "family": {
+   "heads": [
+    "min familj",
+    "släktträd",
+    "släktord"
+   ],
+   "requests": 21,
+   "productiveSeeds": 6,
+   "unique": 37,
+   "suggestions": [
+    "din familjejurist",
+    "din familjejurist föreläsning",
+    "din familjejurist malmö",
+    "din familjejurist.se",
+    "min familj",
+    "min familj arbetsblad",
+    "min familj bok",
+    "min familj film",
+    "min familj och andra djur",
+    "min familj och andra djur film",
+    "min familj är ganska onormal",
+    "min familj åk 1",
+    "skriva ut släktträd ancestry",
+    "skriva ut släktträd arkiv digital",
+    "skriva ut släktträd myheritage",
+    "släktord",
+    "släktord exempel",
+    "släktord på franska",
+    "släktord på spanska",
+    "släktord svenska",
+    "släktord till berätta",
+    "släktord till bygga",
+    "släktord till gå",
+    "släktord till stå",
+    "släktord till trygg",
+    "släktträd",
+    "släktträd att fylla i själv",
+    "släktträd att skriva ut",
+    "släktträd game of thrones",
+    "släktträd gratis",
+    "släktträd isfolket",
+    "släktträd korsord",
+    "släktträd mall",
+    "släktträd mall gratis",
+    "släktträd skriva ut",
+    "släktträd targaryen",
+    "släktträd tavla"
+   ]
+  }
+ },
+ "suggestions": {
+  "växtens delar": {
+   "candidate": "plants",
+   "s": [
+    "växtens delar",
+    "växtens delar film",
+    "växtens delar arbetsblad",
+    "växtens delar och funktion",
+    "växtens olika delar"
+   ]
+  },
+  "växtens delar arbetsblad": {
+   "candidate": "plants",
+   "s": [
+    "växtens delar arbetsblad"
+   ]
+  },
+  "blommans delar": {
+   "candidate": "plants",
+   "s": [
+    "blommans delar",
+    "blommans delar arbetsblad",
+    "blommans delar åk 4",
+    "blommans delar åk 1",
+    "blommans delar barn",
+    "blommans delar film",
+    "blommans delar bild",
+    "blommans delar och funktion",
+    "blommans delar elevspel",
+    "blommans delar pistill"
+   ]
+  },
+  "blommans delar arbetsblad": {
+   "candidate": "plants",
+   "s": [
+    "blommans delar arbetsblad"
+   ]
+  },
+  "blommans delar åk 1": {
+   "candidate": "plants",
+   "s": [
+    "blommans delar åk 1"
+   ]
+  },
+  "från frö till växt": {
+   "candidate": "plants",
+   "s": [
+    "från frö till växt",
+    "från frö till växt bok",
+    "så lyckas du från frö till växt"
+   ]
+  },
+  "fjärilens livscykel": {
+   "candidate": "life-cycles",
+   "s": [
+    "fjärilens livscykel",
+    "fjärilens livscykel film",
+    "fjärilens livscykel arbetsblad",
+    "fjärilens livscykel förskola",
+    "fjärilens livscykel fakta for barn",
+    "fjärilens livscykel pyssel",
+    "fjärilens livscykel pasta",
+    "fjärilens livscykel film för barn",
+    "fjärilens livscykel skolmagi",
+    "fjärilens livscykel bild"
+   ]
+  },
+  "fjärilens livscykel arbetsblad": {
+   "candidate": "life-cycles",
+   "s": [
+    "fjärilens livscykel arbetsblad",
+    "fjärilens livscykel arbetsblad gratis"
+   ]
+  },
+  "grodans livscykel": {
+   "candidate": "life-cycles",
+   "s": [
+    "grodans livscykel",
+    "grodans livscykel film",
+    "grodans livscykel bild",
+    "grodans livscykel pyssel",
+    "grodans livscykel arbetsblad",
+    "grodans livscykel fakta",
+    "grodans livscykel åk 1",
+    "grodans livscykel snurra",
+    "grodans livscykel skolmagi",
+    "grodans livscykel förskola"
+   ]
+  },
+  "grodans livscykel arbetsblad": {
+   "candidate": "life-cycles",
+   "s": [
+    "grodans livscykel arbetsblad"
+   ]
+  },
+  "grodans livscykel åk 1": {
+   "candidate": "life-cycles",
+   "s": [
+    "grodans livscykel åk 1"
+   ]
+  },
+  "livscykler": {
+   "candidate": "life-cycles",
+   "s": [
+    "livscykler åk 3",
+    "livscykler åk 2",
+    "livscykler film",
+    "livscykler åk 1",
+    "livscykler biologi 2",
+    "livscykler djur",
+    "olika livscykler",
+    "fjärilens livscykel"
+   ]
+  },
+  "livscykler åk 1": {
+   "candidate": "life-cycles",
+   "s": [
+    "livscykler åk 1",
+    "livscykel åk 1",
+    "grodans livscykel åk 1",
+    "trädets livscykel åk 1"
+   ]
+  },
+  "livscykler åk 2": {
+   "candidate": "life-cycles",
+   "s": [
+    "livscykler åk 2"
+   ]
+  },
+  "livscykler åk 3": {
+   "candidate": "life-cycles",
+   "s": [
+    "livscykler åk 3"
+   ]
+  },
+  "magnetism": {
+   "candidate": "materials",
+   "s": [
+    "magnetism",
+    "magnetism synonym",
+    "magnetism escada",
+    "magnetism parfym",
+    "magnetism enhet",
+    "magnetism fysik",
+    "magnetism förskola",
+    "magnetism fysik 2",
+    "magnetism för barn",
+    "magnetism mellan två personer"
+   ]
+  },
+  "magnetism arbetsblad": {
+   "candidate": "materials",
+   "s": [
+    "magnetism arbetsblad"
+   ]
+  },
+  "magnetism åk 2": {
+   "candidate": "materials",
+   "s": [
+    "magnetism åk 2"
+   ]
+  },
+  "magnetism åk 3": {
+   "candidate": "materials",
+   "s": [
+    "magnetism åk 3",
+    "magnet 3 klass"
+   ]
+  },
+  "material och deras egenskaper": {
+   "candidate": "materials",
+   "s": [
+    "material och deras egenskaper",
+    "material och dess egenskaper"
+   ]
+  },
+  "flyter eller sjunker": {
+   "candidate": "materials",
+   "s": [
+    "flyter eller sjunker färska ägg",
+    "flyter eller sjunker dåliga ägg",
+    "flyter eller sjunker gamla ägg",
+    "flyter eller sjunker",
+    "flyter eller sjunker ägg",
+    "flyter eller sjunker bajs",
+    "flyter eller sjunker experiment",
+    "varför flyter eller sjunker saker",
+    "varför flyter eller sjunker bajs"
+   ]
+  },
+  "solsystemet": {
+   "candidate": "space",
+   "s": [
+    "solsystemet",
+    "solsystemet snap",
+    "solsystemet planeter",
+    "solsystemet snapchat",
+    "solsystemet sverige",
+    "solsystemet ordning",
+    "solsystemet för barn",
+    "solsystemets största planet",
+    "solsystemet planeter snapchat",
+    "solsystemet bild"
+   ]
+  },
+  "solsystemet arbetsblad": {
+   "candidate": "space",
+   "s": [
+    "solsystemet arbetsblad"
+   ]
+  },
+  "solsystemet skriva ut": {
+   "candidate": "space",
+   "s": [
+    "solsystemet skriva ut"
+   ]
+  },
+  "solsystemet åk 2": {
+   "candidate": "space",
+   "s": [
+    "solsystemet åk 2"
+   ]
+  },
+  "planeterna": {
+   "candidate": "space",
+   "s": [
+    "planeternas ordning",
+    "planeterna",
+    "planeterna i solsystemet",
+    "planeternas ordning ramsa",
+    "planeterna i storleksordning",
+    "planeternas storlek",
+    "planeternas ordning från solen",
+    "planeterna snapchat",
+    "planeterna i vårt solsystem",
+    "planeternas storlek i förhållande till varandra"
+   ]
+  },
+  "planeterna arbetsblad": {
+   "candidate": "space",
+   "s": [
+    "planeterna arbetsblad",
+    "solsystemet arbetsblad"
+   ]
+  },
+  "planeterna skriva ut": {
+   "candidate": "space",
+   "s": [
+    "planeterna skriva ut",
+    "solsystemet skriva ut",
+    "planeter att skriva ut"
+   ]
+  },
+  "planeterna åk 2": {
+   "candidate": "space",
+   "s": [
+    "planeterna åk 2",
+    "solsystemet åk 2"
+   ]
+  },
+  "månens faser": {
+   "candidate": "space",
+   "s": [
+    "månens faser",
+    "månens faser 2026",
+    "månens faser idag",
+    "månens faser för barn",
+    "månens faser bild",
+    "månens faser svenska",
+    "månens faser nedan",
+    "månens faser kalender",
+    "månens faser namn",
+    "månens faser 2025"
+   ]
+  },
+  "månens faser arbetsblad": {
+   "candidate": "space",
+   "s": [
+    "månens faser arbetsblad"
+   ]
+  },
+  "månens faser åk 2": {
+   "candidate": "space",
+   "s": [
+    "månens faser åk 2"
+   ]
+  },
+  "färgord": {
+   "candidate": "colors",
+   "s": [
+    "färgordning",
+    "färgordning rj45",
+    "färgordning fiber",
+    "färgordning kabel",
+    "färgordning nätverkskabel",
+    "färgordning kort",
+    "färgordning cat 6",
+    "färgordning regnbåge",
+    "färgordning 10 par",
+    "färgordning 3 fas"
+   ]
+  },
+  "grundfärger": {
+   "candidate": "colors",
+   "s": [
+    "grundfärgerna",
+    "grundfärgerna är",
+    "grundfärger akryl",
+    "grundfärger förskola",
+    "grundfärger inom ljus",
+    "grundfärger bilduppgift",
+    "grundfärger och sekundärfärger",
+    "grundfärger cirkel",
+    "grundfärger färglära",
+    "grundfärger akvarell"
+   ]
+  },
+  "blanda färger": {
+   "candidate": "colors",
+   "s": [
+    "blanda färger",
+    "blanda färger app",
+    "blanda färger till brunt",
+    "blanda färger till blått",
+    "blanda färger synonym",
+    "blanda färger karta",
+    "blanda färger till lila",
+    "blanda färger online",
+    "blanda färger till röd",
+    "blanda färger till gul"
+   ]
+  },
+  "geometriska figurer": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriska figurer",
+    "geometriska figurer korsord",
+    "geometriska figurer namn",
+    "geometriska figurer 3d",
+    "geometriska figurer 6 bokstäver",
+    "geometriska figurer 3d namn",
+    "geometriska figurer parallellogram",
+    "geometriska figurer och kroppar",
+    "geometriska figurer arbetsblad",
+    "geometriska figurer åk 6"
+   ]
+  },
+  "geometriska figurer arbetsblad": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriska figurer arbetsblad",
+    "geometriska objekt arbetsblad",
+    "geometriska former arbetsblad"
+   ]
+  },
+  "geometriska figurer skriva ut": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriska figurer skriva ut",
+    "geometriska former skriva ut"
+   ]
+  },
+  "geometriska figurer förskoleklass": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriska figurer förskoleklass",
+    "geometriska former förskoleklass",
+    "geometriska former förskoleklass film"
+   ]
+  },
+  "geometriska figurer åk 1": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriska figurer åk 1",
+    "geometriska objekt åk 1",
+    "geometriska former åk 1",
+    "geometriska former årskurs 1"
+   ]
+  },
+  "geometriska figurer åk 2": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriska objekt åk 2",
+    "geometriska former åk 2"
+   ]
+  },
+  "geometriska figurer åk 3": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriska figurer åk 3",
+    "geometriska objekt åk 3",
+    "geometriska former åk 3"
+   ]
+  },
+  "geometriska former": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriska former",
+    "geometriska former att skriva ut",
+    "geometriska former förskola",
+    "geometriska former 3d",
+    "geometriska former namn",
+    "geometriska former bilder",
+    "geometriska former tatuering",
+    "geometriska former åk 1",
+    "geometriska former film",
+    "geometriska former eller figurer"
+   ]
+  },
+  "geometriska former arbetsblad": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriska former arbetsblad",
+    "geometriska figurer arbetsblad",
+    "arbetsblad geometriska former förskoleklass"
+   ]
+  },
+  "geometriska former skriva ut": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriska former skriva ut",
+    "geometriska figurer skriva ut",
+    "geometriska former förskola att skriva ut"
+   ]
+  },
+  "geometriska former förskoleklass": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriska former förskoleklass",
+    "geometriska former förskoleklass film",
+    "geometriska figurer förskoleklass",
+    "geometriska former förskola",
+    "geometriska former förskola att skriva ut",
+    "arbetsblad geometriska former förskoleklass"
+   ]
+  },
+  "geometriska former åk 1": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriska former åk 1",
+    "geometriska former årskurs 1",
+    "geometriska figurer åk 1"
+   ]
+  },
+  "geometriska former åk 2": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriska former åk 2"
+   ]
+  },
+  "geometriska former åk 3": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriska former åk 3",
+    "geometriska figurer åk 3"
+   ]
+  },
+  "plana figurer": {
+   "candidate": "2d-shapes",
+   "s": [
+    "plana figurer 9 bokstäver",
+    "plana figurer",
+    "plana figurer korsord",
+    "plana figurer synonym"
+   ]
+  },
+  "sj-ljudet": {
+   "candidate": "digraphs",
+   "s": [
+    "sj-ljudet",
+    "sj-ljudet arbetsblad",
+    "sj ljudet film",
+    "sj ljudet stavning",
+    "sj ljudet regler",
+    "sj ljudet ord",
+    "sj ljudet stavas oftast med före hård vokal",
+    "sj ljudet elevspel",
+    "sj ljudet svenska",
+    "sj ljudet uttal"
+   ]
+  },
+  "sj-ljudet arbetsblad": {
+   "candidate": "digraphs",
+   "s": [
+    "sj-ljudet arbetsblad"
+   ]
+  },
+  "tj-ljudet": {
+   "candidate": "digraphs",
+   "s": [
+    "tj-ljudet",
+    "tj ljudet film",
+    "tj ljudet arbetsblad",
+    "tj ljudet ord",
+    "tj ljudet elevspel",
+    "tj ljudet bokstavslandet",
+    "tj ljudet regler",
+    "tj ljudet stavas oftast med före hård vokal",
+    "tj ljudet stavning",
+    "tj ljudet stavas oftast med före mjuk vokal"
+   ]
+  },
+  "tj-ljudet arbetsblad": {
+   "candidate": "digraphs",
+   "s": [
+    "tj ljudet arbetsblad"
+   ]
+  },
+  "ng-ljudet": {
+   "candidate": "digraphs",
+   "s": [
+    "ng-ljudet",
+    "ng-ljudet arbetsblad",
+    "ng ljudet film",
+    "ng ljudet regler",
+    "ng ljudet övningar",
+    "ng ljudet ord",
+    "ng ljudet livet i bokstavslandet",
+    "ng ljudet bokstavslandet",
+    "ng ljudet wordwall",
+    "ng ljudet ur play"
+   ]
+  },
+  "ng-ljudet arbetsblad": {
+   "candidate": "digraphs",
+   "s": [
+    "ng-ljudet arbetsblad"
+   ]
+  },
+  "ng-ljudet åk 2": {
+   "candidate": "digraphs",
+   "s": [
+    "ng ljudet åk 2"
+   ]
+  },
+  "synonymer": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymer",
+    "synonymer se",
+    "synonymer svenska",
+    "synonymer engelska",
+    "synonymer korsord",
+    "synonymer för clown",
+    "synonymer till",
+    "synonymer till hån",
+    "synonymer till bra",
+    "synonymer.se korsord"
+   ]
+  },
+  "synonymer arbetsblad": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymer arbetsblad åk 2",
+    "synonymer arbetsblad"
+   ]
+  },
+  "synonymer åk 1": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymer åk 1"
+   ]
+  },
+  "synonymer åk 2": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymer åk 2",
+    "synonymer arbetsblad åk 2"
+   ]
+  },
+  "ord som betyder samma sak": {
+   "candidate": "synonyms",
+   "s": [
+    "ord som betyder samma sak",
+    "ord som betyder samma sak baklänges",
+    "ord som betyder samma sak på svenska",
+    "två ord som betyder samma sak",
+    "varför finns det ord som betyder samma sak",
+    "samma ord som betyder olika saker",
+    "varför finns det flera ord som betyder samma sak",
+    "vilket ord betyder samma sak som snabb skritt",
+    "vilket ord betyder samma sak som mamma"
+   ]
+  },
+  "homofoner": {
+   "candidate": "homophones",
+   "s": [
+    "homofoner",
+    "homofoner exempel",
+    "homofoner svenska",
+    "homofoner lista",
+    "homofoner engelska",
+    "homofoner eksempler",
+    "homofoner ord",
+    "homofoner norsk",
+    "homofoner betydning",
+    "homofoner liste dansk"
+   ]
+  },
+  "ord som låter lika": {
+   "candidate": "homophones",
+   "s": [
+    "ord som låter lika",
+    "ord som låter lika korsord",
+    "ord som låter lika men betyder olika",
+    "ord som låter lika 5 bokstäver",
+    "ord som låter lika synonym",
+    "ord som låter lika men stavas olika",
+    "ord som låter likadant",
+    "ord som låter lika korsord 5 bokstäver",
+    "ord som låter lika inrim",
+    "ord som låter lika baklänges"
+   ]
+  },
+  "de och dem": {
+   "candidate": "homophones",
+   "s": [
+    "de och dem",
+    "de och dem regel",
+    "de och dem jag och mig",
+    "de och dem skillnad",
+    "de och dem vi och oss",
+    "de och dem test",
+    "de och dem eller dom",
+    "de och dem när"
+   ]
+  },
+  "trafik": {
+   "candidate": "road-safety",
+   "s": [
+    "trafikverket",
+    "trafikolycka uddevalla",
+    "trafikolycka trollhättan",
+    "trafik",
+    "trafiken göteborg",
+    "trafikolycka",
+    "trafikinformation",
+    "trafikverket förarprov",
+    "trafikverket göteborg",
+    "trafikförsäkringsföreningen"
+   ]
+  },
+  "trafik arbetsblad": {
+   "candidate": "road-safety",
+   "s": [
+    "trafik arbetsblad",
+    "arbetsblad trafik åk 1"
+   ]
+  },
+  "trafik förskoleklass": {
+   "candidate": "road-safety",
+   "s": [
+    "trafik förskoleklass",
+    "tema trafik förskoleklass"
+   ]
+  },
+  "trafik åk 1": {
+   "candidate": "road-safety",
+   "s": [
+    "trafik åk 1",
+    "trafik årskurs 1",
+    "trafikklass 1",
+    "arbetsblad trafik åk 1",
+    "tema trafik åk 1",
+    "trafik lektion åk 1",
+    "so trafik åk 1",
+    "trafik häfte åk 1",
+    "arbeta med trafik åk 1",
+    "film om trafik åk 1"
+   ]
+  },
+  "trafik åk 2": {
+   "candidate": "road-safety",
+   "s": [
+    "trafik åk 2"
+   ]
+  },
+  "trafik åk 3": {
+   "candidate": "road-safety",
+   "s": [
+    "trafik åk 3"
+   ]
+  },
+  "trafikmärken": {
+   "candidate": "road-safety",
+   "s": [
+    "trafikmärken",
+    "trafikmärken parkering",
+    "trafikmärken betydelse",
+    "trafikmärken test",
+    "trafikmärken att skriva ut",
+    "trafikmärken hastighet",
+    "trafikmärken parkering betydelse",
+    "trafikmärken barn",
+    "trafikmärken bok",
+    "trafikmärken bilder"
+   ]
+  },
+  "trafikmärken arbetsblad": {
+   "candidate": "road-safety",
+   "s": [
+    "trafikmärken arbetsblad",
+    "trafik arbetsblad"
+   ]
+  },
+  "trafikmärken skriva ut": {
+   "candidate": "road-safety",
+   "s": [
+    "trafikmärken skriva ut",
+    "vägskyltar skriva ut",
+    "skyltar skriva ut",
+    "trafikskyltar skriva ut",
+    "skogräns skylt skriva ut",
+    "rallylydnad skyltar skriva ut",
+    "swish skylt skriva ut",
+    "skyltar att skriva ut",
+    "skyltar att skriva ut gratis",
+    "välkommen skylt skriva ut"
+   ]
+  },
+  "trafikmärken förskoleklass": {
+   "candidate": "road-safety",
+   "s": [
+    "trafikmärken förskoleklass",
+    "trafik förskoleklass",
+    "skylt förskoleklass"
+   ]
+  },
+  "trafikmärken åk 1": {
+   "candidate": "road-safety",
+   "s": [
+    "trafikmärken åk 1",
+    "trafik åk 1",
+    "trafik årskurs 1",
+    "skylt klass 1",
+    "vägskylt klass 1",
+    "trafikklass 1",
+    "arbetsblad trafik åk 1",
+    "tema trafik åk 1",
+    "trafik lektion åk 1",
+    "so trafik åk 1"
+   ]
+  },
+  "trafikmärken åk 2": {
+   "candidate": "road-safety",
+   "s": [
+    "trafik åk 2"
+   ]
+  },
+  "trafikmärken åk 3": {
+   "candidate": "road-safety",
+   "s": [
+    "trafik åk 3"
+   ]
+  },
+  "trafikregler för barn": {
+   "candidate": "road-safety",
+   "s": [
+    "trafikregler för barn",
+    "trafik för barn",
+    "enkla trafikregler för barn",
+    "trafikregler film för barn",
+    "trafikregler barn i bil",
+    "trafikregler barnstol"
+   ]
+  },
+  "världsdelar": {
+   "candidate": "maps",
+   "s": [
+    "världsdelar",
+    "världsdelarna",
+    "världsdelar karta",
+    "världsdelar och kontinenter",
+    "världsdelar storleksordning",
+    "världsdelar länder",
+    "världsdelar engelska",
+    "världsdelar och världshav",
+    "världsdelar i världen",
+    "världsdelar hur många"
+   ]
+  },
+  "världsdelar arbetsblad": {
+   "candidate": "maps",
+   "s": [
+    "världsdelar arbetsblad",
+    "världsdelar och världshav arbetsblad"
+   ]
+  },
+  "världsdelar skriva ut": {
+   "candidate": "maps",
+   "s": [
+    "världsdelar skriva ut"
+   ]
+  },
+  "världsdelar åk 1": {
+   "candidate": "maps",
+   "s": [
+    "världsdelar åk 1"
+   ]
+  },
+  "världsdelar åk 2": {
+   "candidate": "maps",
+   "s": [
+    "världsdelar åk 2",
+    "världsdelar och världshav åk 2"
+   ]
+  },
+  "världsdelar åk 3": {
+   "candidate": "maps",
+   "s": [
+    "världsdelar åk 3",
+    "världsdelar och världshav åk 3"
+   ]
+  },
+  "väderstreck": {
+   "candidate": "maps",
+   "s": [
+    "väderstreck",
+    "väderstreck korsord",
+    "väderstreck karta",
+    "väderstreck engelska",
+    "väderstreck korsord 3 bokstäver",
+    "väderstreck 3 bokstäver",
+    "väderstreck korsord 2 bokstäver",
+    "väderstrecken",
+    "väderstreck kompass",
+    "väderstreck sverige"
+   ]
+  },
+  "väderstreck arbetsblad": {
+   "candidate": "maps",
+   "s": [
+    "väderstreck arbetsblad"
+   ]
+  },
+  "väderstreck åk 2": {
+   "candidate": "maps",
+   "s": [
+    "väderstreck åk 2"
+   ]
+  },
+  "väderstreck åk 3": {
+   "candidate": "maps",
+   "s": [
+    "väderstreck åk 3"
+   ]
+  },
+  "kartkunskap": {
+   "candidate": "maps",
+   "s": [
+    "kartkunskap",
+    "kartkunskap orientering",
+    "kartkunskap övningar",
+    "kartkunskap åk 7",
+    "kartkunskap åk 4",
+    "kartkunskap synonym",
+    "kartkunskap korsord",
+    "kartkunskap åk 2",
+    "kartkunskap åk 6",
+    "kartkunskap åk 3"
+   ]
+  },
+  "kartkunskap åk 2": {
+   "candidate": "maps",
+   "s": [
+    "kartkunskap åk 2"
+   ]
+  },
+  "kartkunskap åk 3": {
+   "candidate": "maps",
+   "s": [
+    "kartkunskap åk 3"
+   ]
+  },
+  "min familj": {
+   "candidate": "family",
+   "s": [
+    "min familj",
+    "min familj och andra djur",
+    "min familj bok",
+    "min familj är ganska onormal",
+    "min familj och andra djur film",
+    "min familj film",
+    "din familjejurist",
+    "din familjejurist.se",
+    "din familjejurist malmö",
+    "din familjejurist föreläsning"
+   ]
+  },
+  "min familj arbetsblad": {
+   "candidate": "family",
+   "s": [
+    "min familj arbetsblad"
+   ]
+  },
+  "min familj åk 1": {
+   "candidate": "family",
+   "s": [
+    "min familj åk 1"
+   ]
+  },
+  "släktträd": {
+   "candidate": "family",
+   "s": [
+    "släktträd",
+    "släktträd gratis",
+    "släktträd mall",
+    "släktträd tavla",
+    "släktträd targaryen",
+    "släktträd att fylla i själv",
+    "släktträd game of thrones",
+    "släktträd mall gratis",
+    "släktträd korsord",
+    "släktträd isfolket"
+   ]
+  },
+  "släktträd skriva ut": {
+   "candidate": "family",
+   "s": [
+    "släktträd skriva ut",
+    "släktträd att skriva ut",
+    "skriva ut släktträd myheritage",
+    "skriva ut släktträd arkiv digital",
+    "skriva ut släktträd ancestry"
+   ]
+  },
+  "släktord": {
+   "candidate": "family",
+   "s": [
+    "släktord",
+    "släktord svenska",
+    "släktord exempel",
+    "släktord till berätta",
+    "släktord till bygga",
+    "släktord till stå",
+    "släktord på spanska",
+    "släktord till gå",
+    "släktord på franska",
+    "släktord till trygg"
+   ]
+  }
+ }
+}

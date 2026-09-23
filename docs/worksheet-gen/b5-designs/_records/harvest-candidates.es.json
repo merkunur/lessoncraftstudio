@@ -1,0 +1,3135 @@
+{
+ "locale": "es",
+ "market": {
+  "hl": "es",
+  "gl": "mx"
+ },
+ "generatedAt": "2026-09-23T00:10:29.362Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds.json",
+ "requestCount": 168,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "plants": {
+   "heads": [
+    "partes de la planta",
+    "ciclo de vida de las plantas"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 102,
+   "suggestions": [
+    "actividad partes de la planta para preescolar",
+    "actividades del ciclo de vida de las plantas para preescolar",
+    "actividades partes de la planta preescolar",
+    "actividades partes de la planta primer grado",
+    "ciclo de vida de las plantas",
+    "ciclo de vida de las plantas 3 primaria",
+    "ciclo de vida de las plantas angiospermas",
+    "ciclo de vida de las plantas dibujos",
+    "ciclo de vida de las plantas ficha",
+    "ciclo de vida de las plantas nace crece reproduce y muere",
+    "ciclo de vida de las plantas para colorear",
+    "ciclo de vida de las plantas para dibujar",
+    "ciclo de vida de las plantas para imprimir",
+    "ciclo de vida de las plantas para niños",
+    "ciclo de vida de las plantas para niños actividades",
+    "ciclo de vida de las plantas para niños de preescolar",
+    "ciclo de vida de las plantas para niños de preescolar para colorear",
+    "ciclo de vida de las plantas para niños de primaria para colorear",
+    "ciclo de vida de las plantas para niños de primer grado",
+    "ciclo de vida de las plantas para niños de segundo grado",
+    "ciclo de vida de las plantas para niños para imprimir",
+    "ciclo de vida de las plantas para niños pdf",
+    "ciclo de vida de las plantas para primaria",
+    "ciclo de vida de las plantas para primer grado de primaria",
+    "ciclo de vida de las plantas para segundo grado de primaria",
+    "ciclo de vida de las plantas para tercero de primaria",
+    "ciclo de vida de las plantas preescolar",
+    "ciclo de vida de las plantas primaria",
+    "ciclo de vida de las plantas primaria pdf",
+    "ciclo de vida de las plantas primer grado",
+    "ciclo de vida de las plantas segundo de primaria",
+    "ciclo de vida de las plantas segundo grado",
+    "dibujo partes de la planta para imprimir",
+    "ficha de las partes de la planta para segundo grado",
+    "ficha de trabajo ciclo de vida de las plantas",
+    "ficha partes de la planta 1 primaria",
+    "ficha partes de la planta para colorear",
+    "ficha partes de la planta y sus funciones",
+    "fichas para trabajar el ciclo de vida de las plantas",
+    "fichas partes de la planta en ingles",
+    "friso partes de la planta primaria en ingles",
+    "funciones de las partes de la planta para primer grado",
+    "funciones de las partes de la planta para segundo grado",
+    "hoja de trabajo partes de la planta preescolar",
+    "imagen partes de la planta para imprimir",
+    "la planta y sus partes segundo grado de primaria",
+    "partes de la planta",
+    "partes de la planta 1 primaria",
+    "partes de la planta 2 primaria",
+    "partes de la planta 3 primaria",
+    "partes de la planta 3 primaria liveworksheets",
+    "partes de la planta 4 primaria",
+    "partes de la planta 5 primaria",
+    "partes de la planta actividades para primer grado",
+    "partes de la planta actividades primaria",
+    "partes de la planta del pie",
+    "partes de la planta del pie humano",
+    "partes de la planta dibujo",
+    "partes de la planta en ingles",
+    "partes de la planta ficha",
+    "partes de la planta ficha de trabajo",
+    "partes de la planta ficha inicial",
+    "partes de la planta ficha interactiva",
+    "partes de la planta ficha para niños",
+    "partes de la planta fichas para imprimir",
+    "partes de la planta letras para imprimir",
+    "partes de la planta para colorear",
+    "partes de la planta para completar primer grado",
+    "partes de la planta para completar segundo grado",
+    "partes de la planta para imprimir",
+    "partes de la planta para imprimir a color",
+    "partes de la planta para imprimir por separado",
+    "partes de la planta para imprimir y recortar",
+    "partes de la planta para niños",
+    "partes de la planta para niños de preescolar para colorear",
+    "partes de la planta para niños de segundo grado",
+    "partes de la planta para niños imprimir",
+    "partes de la planta para preescolar",
+    "partes de la planta para preescolar para colorear",
+    "partes de la planta para primaria",
+    "partes de la planta para primer grado",
+    "partes de la planta para recortar y pegar",
+    "partes de la planta preescolar",
+    "partes de la planta primaria",
+    "partes de la planta primer grado",
+    "partes de la planta primer grado de primaria",
+    "partes de la planta segundo grado",
+    "partes de la planta segundo grado de primaria",
+    "partes de la planta y su función",
+    "partes de la planta y sus funciones para niños",
+    "partes de la planta y sus funciones para niños de segundo grado",
+    "partes de la planta y sus funciones para primer grado",
+    "partes de la planta y sus funciones para segundo grado",
+    "planeacion partes de la planta para preescolar",
+    "preescolar partes de la planta dibujo",
+    "preescolar partes de la planta para recortar y pegar",
+    "primaria dibujo ciclo de vida de las plantas",
+    "rompecabezas partes de la planta para imprimir",
+    "secuencia partes de la planta primer grado",
+    "sesion de aprendizaje la planta y sus partes segundo grado",
+    "sesion de aprendizaje partes de la planta primer grado",
+    "video ciclo de vida de las plantas para niños de preescolar"
+   ]
+  },
+  "life-cycles": {
+   "heads": [
+    "ciclo de vida de la mariposa",
+    "ciclo de vida de la rana"
+   ],
+   "requests": 14,
+   "productiveSeeds": 11,
+   "unique": 32,
+   "suggestions": [
+    "ciclo de vida de la mariposa",
+    "ciclo de vida de la mariposa en ingles",
+    "ciclo de vida de la mariposa explicado para niños",
+    "ciclo de vida de la mariposa imagen",
+    "ciclo de vida de la mariposa maqueta",
+    "ciclo de vida de la mariposa monarca",
+    "ciclo de vida de la mariposa monarca para niños de preescolar",
+    "ciclo de vida de la mariposa para colorear",
+    "ciclo de vida de la mariposa para colorear e imprimir",
+    "ciclo de vida de la mariposa para dibujar",
+    "ciclo de vida de la mariposa para imprimir",
+    "ciclo de vida de la mariposa para niños",
+    "ciclo de vida de la mariposa para niños de preescolar",
+    "ciclo de vida de la mariposa para niños de primaria",
+    "ciclo de vida de la mariposa para niños de segundo grado",
+    "ciclo de vida de la mariposa preescolar",
+    "ciclo de vida de la rana",
+    "ciclo de vida de la rana de darwin",
+    "ciclo de vida de la rana en ingles",
+    "ciclo de vida de la rana ficha",
+    "ciclo de vida de la rana maqueta",
+    "ciclo de vida de la rana nace crece reproduce y muere",
+    "ciclo de vida de la rana para colorear",
+    "ciclo de vida de la rana para dibujar",
+    "ciclo de vida de la rana para imprimir",
+    "ciclo de vida de la rana para niños",
+    "ciclo de vida de la rana para niños de primaria",
+    "ciclo de vida de la rana para niños para colorear",
+    "ciclo de vida de la rana preescolar",
+    "ficha ciclo de vida de la mariposa",
+    "preescolar manualidad ciclo de vida de la mariposa",
+    "primaria ciclo de vida de la mariposa"
+   ]
+  },
+  "materials": {
+   "heads": [
+    "materiales y sus propiedades",
+    "objetos magnéticos"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 26,
+   "suggestions": [
+    "10 objetos magnéticos",
+    "15 objetos magnéticos",
+    "cinco objetos magnéticos",
+    "los materiales y sus propiedades actividades para primaria",
+    "los materiales y sus propiedades para niños de primaria",
+    "los materiales y sus propiedades para primer grado",
+    "los materiales y sus propiedades para segundo grado",
+    "los materiales y sus propiedades primaria",
+    "los objetos magnéticos deben estar compuestos por",
+    "materiales y sus propiedades",
+    "materiales y sus propiedades actividades",
+    "materiales y sus propiedades dibujos",
+    "materiales y sus propiedades ejemplos",
+    "materiales y sus propiedades fisicas",
+    "materiales y sus propiedades mecanicas",
+    "materiales y sus propiedades para niños",
+    "materiales y sus propiedades pdf",
+    "materiales y sus propiedades primero básico",
+    "materiales y sus propiedades tecnologia",
+    "objetos magneticos dibujos",
+    "objetos magnéticos ejemplos",
+    "objetos magnéticos en casa",
+    "objetos magnéticos para niños",
+    "objetos magnéticos y no magnéticos",
+    "secuencia didáctica sobre los materiales y sus propiedades 4 primaria",
+    "tres objetos magnéticos"
+   ]
+  },
+  "space": {
+   "heads": [
+    "el sistema solar",
+    "fases de la luna"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 121,
+   "suggestions": [
+    "actividades de fases de la luna para preescolar",
+    "actividades fases de la luna primaria",
+    "actividades fases de la luna segundo grado",
+    "actividades para trabajar el sistema solar preescolar",
+    "actividades sobre el sistema solar para primer grado",
+    "actividades sobre el sistema solar preescolar",
+    "como trabajar el sistema solar en preescolar",
+    "ejercicios fases de la luna primaria",
+    "el sistema planetario solar ficha",
+    "el sistema planetario solar para imprimir",
+    "el sistema planetario solar para primer grado de primaria",
+    "el sistema planetario solar para segundo grado de primaria",
+    "el sistema planetario solar primer grado",
+    "el sistema planetario solar segundo grado",
+    "el sistema solar",
+    "el sistema solar 2 primaria",
+    "el sistema solar 2 primaria pdf",
+    "el sistema solar 3 primaria",
+    "el sistema solar 3 primaria pdf",
+    "el sistema solar 4 primaria",
+    "el sistema solar 5 primaria",
+    "el sistema solar 6 primaria",
+    "el sistema solar con sus nombres",
+    "el sistema solar dibujo",
+    "el sistema solar dibujo para imprimir",
+    "el sistema solar ejercicios para imprimir",
+    "el sistema solar está formado por",
+    "el sistema solar ficha",
+    "el sistema solar ficha de trabajo",
+    "el sistema solar fichas para imprimir",
+    "el sistema solar fichas para niños",
+    "el sistema solar grado segundo de primaria",
+    "el sistema solar imagenes para imprimir",
+    "el sistema solar letras para imprimir",
+    "el sistema solar maqueta",
+    "el sistema solar para colorear",
+    "el sistema solar para colorear preescolar",
+    "el sistema solar para dibujar",
+    "el sistema solar para imprimir",
+    "el sistema solar para imprimir y colorear",
+    "el sistema solar para niños de preescolar mundo kuku",
+    "el sistema solar para niños de preescolar para colorear",
+    "el sistema solar para niños de primer grado",
+    "el sistema solar para niños de segundo grado",
+    "el sistema solar para niños de segundo grado de primaria",
+    "el sistema solar para preescolar",
+    "el sistema solar para primaria",
+    "el sistema solar para primer grado de primaria",
+    "el sistema solar para segundo grado",
+    "el sistema solar preescolar",
+    "el sistema solar primaria",
+    "el sistema solar primaria pdf",
+    "el sistema solar primer grado",
+    "el sistema solar segundo grado",
+    "el sistema solar y sus planetas",
+    "el sistema solar y sus planetas en orden",
+    "el sistema solar y sus planetas para niños",
+    "evaluacion sobre el sistema solar grado segundo",
+    "explicacion de las fases de la luna para preescolar",
+    "fases de la luna",
+    "fases de la luna 2 primaria",
+    "fases de la luna 2026",
+    "fases de la luna 3 primaria",
+    "fases de la luna 4 primaria",
+    "fases de la luna 5 primaria",
+    "fases de la luna 6 primaria",
+    "fases de la luna actividades para imprimir",
+    "fases de la luna agosto 2026",
+    "fases de la luna del mes de julio",
+    "fases de la luna este mes",
+    "fases de la luna ficha",
+    "fases de la luna ficha de trabajo",
+    "fases de la luna ficha interactiva",
+    "fases de la luna ficha primaria",
+    "fases de la luna hoy",
+    "fases de la luna julio 2026",
+    "fases de la luna junio 2026",
+    "fases de la luna letras para imprimir",
+    "fases de la luna libro de segundo grado",
+    "fases de la luna niños preescolar",
+    "fases de la luna para colorear preescolar",
+    "fases de la luna para imprimir",
+    "fases de la luna para imprimir a color",
+    "fases de la luna para imprimir con nombres",
+    "fases de la luna para imprimir en español",
+    "fases de la luna para imprimir gratis",
+    "fases de la luna para imprimir para niños",
+    "fases de la luna para imprimir pdf",
+    "fases de la luna para imprimir y recortar",
+    "fases de la luna para niños",
+    "fases de la luna para niños de primer grado",
+    "fases de la luna para niños de primer grado de primaria",
+    "fases de la luna para niños de segundo grado para colorear",
+    "fases de la luna para primaria",
+    "fases de la luna para primer grado de primaria",
+    "fases de la luna para segundo grado",
+    "fases de la luna preescolar",
+    "fases de la luna primaria",
+    "fases de la luna primaria pdf",
+    "fases de la luna primer grado",
+    "fases de la luna segundo grado",
+    "fases de la luna segundo grado primaria",
+    "fases de la luna septiembre 2026",
+    "ficha de la luna y sus fases",
+    "ficha fases de la luna 2 primaria",
+    "ficha fases de la luna infantil",
+    "ficha interactiva el sistema solar",
+    "ficha para trabajar las fases de la luna",
+    "fichas sobre el sistema solar",
+    "guia sobre el sistema solar grado segundo",
+    "nombre el sistema solar para imprimir",
+    "palabra el sistema solar para imprimir",
+    "planeacion fases de la luna preescolar",
+    "planeacion fases de la luna segundo grado",
+    "planeacion sobre el sistema solar preescolar",
+    "proyecto de aprendizaje sobre el sistema solar para primer grado",
+    "proyecto el sistema solar preescolar",
+    "taller sobre el sistema solar grado segundo",
+    "titulo el sistema solar para imprimir",
+    "video de las fases de la luna para niños de segundo grado",
+    "video de las fases de la luna para preescolar"
+   ]
+  },
+  "colors": {
+   "heads": [
+    "los colores",
+    "colores"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 137,
+   "suggestions": [
+    "actividades de los colores para primer grado",
+    "aprendiendo los colores preescolar",
+    "colores",
+    "colores 6",
+    "colores complementarios",
+    "colores de cuadernos primer grado",
+    "colores de madera",
+    "colores de segundo grado",
+    "colores del arcoiris",
+    "colores en ingles",
+    "colores en ingles para segundo grado de primaria",
+    "colores en ingles primer grado",
+    "colores en ingles segundo grado",
+    "colores en sueco",
+    "colores ficha de red",
+    "colores ficha ethernet",
+    "colores ficha internet",
+    "colores ficha rj45",
+    "colores ficha utp",
+    "colores fichas",
+    "colores fichas catan",
+    "colores fichas poker",
+    "colores fichas tetris",
+    "colores para imprimir",
+    "colores para imprimir animados",
+    "colores para imprimir cmyk o rgb",
+    "colores para imprimir en impresora",
+    "colores para imprimir epson",
+    "colores para imprimir para niños",
+    "colores para imprimir pdf",
+    "colores para imprimir preescolar",
+    "colores para imprimir prueba",
+    "colores para imprimir y probar impresora",
+    "colores para niños de segundo grado",
+    "colores para primaria",
+    "colores para primer grado",
+    "colores para segundo grado",
+    "colores preescolar",
+    "colores preescolar 1",
+    "colores preescolar actividades",
+    "colores preescolar norma",
+    "colores preescolar para colorear",
+    "colores preescolar para imprimir",
+    "colores preescolar pdf",
+    "colores preescolar wordwall",
+    "colores primaria sud",
+    "colores primarias",
+    "colores primarias cuales son",
+    "colores primarias en ingles",
+    "colores primarias para niños",
+    "colores primarias secundarios y terciarios",
+    "colores primarias y secundarias",
+    "colores primarios",
+    "colores primarios actividades para segundo grado",
+    "colores primarios para primer grado",
+    "colores primarios primer grado",
+    "colores primarios segundo grado",
+    "colores primer grado",
+    "colores secundarios",
+    "colores secundarios para primer grado",
+    "colores secundarios para segundo grado",
+    "colores secundarios primer grado",
+    "colores secundarios segundo grado",
+    "colores terciarios para segundo grado",
+    "colorescience",
+    "cuales son los colores primarias",
+    "cuantos colores primarias hay",
+    "distingo colores primer grado",
+    "ejercicio de los colores para primer grado",
+    "fichas casino colores",
+    "los 12 colores para imprimir",
+    "los colores",
+    "los colores de la montaña",
+    "los colores de la primaria sud",
+    "los colores de la primaria sud letra",
+    "los colores de nuestra primaria",
+    "los colores de nuestra primaria son rojo amarillo y azul",
+    "los colores de nuestra primaria sud",
+    "los colores del arcoiris",
+    "los colores del mal",
+    "los colores del mal negro",
+    "los colores del mal negro reparto",
+    "los colores del mal rojo",
+    "los colores del tiempo",
+    "los colores en frances ficha",
+    "los colores en ingles ficha de trabajo",
+    "los colores en ingles fichas",
+    "los colores en ingles fichas para imprimir",
+    "los colores en ingles para primer grado",
+    "los colores en ingles primer grado",
+    "los colores en ingles segundo grado",
+    "los colores en inglés",
+    "los colores en inglés para niños de segundo grado",
+    "los colores en inglés para segundo grado de primaria",
+    "los colores ficha de trabajo",
+    "los colores fichas",
+    "los colores fichas para imprimir",
+    "los colores para imprimir",
+    "los colores para imprimir en español",
+    "los colores para imprimir para niños",
+    "los colores para imprimir pdf",
+    "los colores para imprimir preescolar",
+    "los colores para niños de segundo grado",
+    "los colores para preescolar",
+    "los colores para primaria",
+    "los colores para primer grado",
+    "los colores para segundo grado",
+    "los colores preescolar",
+    "los colores preescolar actividades",
+    "los colores preescolar para imprimir",
+    "los colores preescolar pdf",
+    "los colores primaria",
+    "los colores primaria en ingles",
+    "los colores primaria y secundaria",
+    "los colores primarios",
+    "los colores primarios fichas",
+    "los colores primarios para imprimir",
+    "los colores primarios para niños de segundo grado",
+    "los colores primarios para primer grado",
+    "los colores primarios para segundo grado",
+    "los colores primarios preescolar",
+    "los colores primarios primer grado",
+    "los colores primarios y secundarios para primer grado",
+    "los colores primer grado",
+    "los colores secundarios para primer grado",
+    "los colores secundarios para segundo grado",
+    "los colores. preescolar 1",
+    "monstruo de los colores ficha",
+    "monstruo de los colores para imprimir",
+    "planeacion los colores preescolar",
+    "preescolar colores en ingles",
+    "preescolar colores en ingles y español",
+    "primaria colores en ingles actividades",
+    "proyecto los colores preescolar",
+    "secuencia de colores primer grado",
+    "test de los colores ficha tecnica",
+    "todos los colores para imprimir"
+   ]
+  },
+  "2d-shapes": {
+   "heads": [
+    "figuras geométricas",
+    "las figuras geométricas"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 132,
+   "suggestions": [
+    "actividades de las figuras geometricas preescolar",
+    "actividades de las figuras geometricas primer grado",
+    "adivinanzas de las figuras geométricas segundo grado",
+    "aprender las figuras geometricas preescolar",
+    "cancion de las figuras geometricas preescolar",
+    "características de las figuras geométricas primaria",
+    "características de las figuras geométricas primer grado",
+    "características de las figuras geométricas segundo grado",
+    "características de las figuras geométricas segundo grado primaria",
+    "cuento de las figuras geometricas preescolar",
+    "cuento de las figuras geométricas para imprimir",
+    "cuáles son las figuras geométricas primarias",
+    "ejercicios figuras geometricas segundo grado",
+    "ficha de las figuras geometricas en ingles",
+    "ficha de las figuras geometricas para 3 años",
+    "ficha de las figuras geometricas para 4 años",
+    "ficha de las figuras geometricas para 5 años",
+    "ficha de las figuras geometricas para colorear",
+    "ficha figuras geometricas infantil",
+    "fichas de las figuras geometricas para inicial",
+    "fichas de las figuras geometricas para niños",
+    "fichas de las figuras geometricas para preescolar",
+    "fichas de las figuras geometricas para primer grado",
+    "fichas figuras geometricas preescolar",
+    "figuras geometricas 4 primaria",
+    "figuras geometricas en ingles fichas",
+    "figuras geometricas ficha de trabajo",
+    "figuras geometricas fichas 5 años",
+    "figuras geometricas fichas interactivas",
+    "figuras geometricas fichas para imprimir",
+    "figuras geometricas fichas para niños",
+    "figuras geometricas para niños",
+    "figuras geometricas para niños fichas de trabajo",
+    "figuras geometricas preescolar 1",
+    "figuras geometricas preescolar 2",
+    "figuras geometricas preescolar online",
+    "figuras geometricas preescolar para colorear",
+    "figuras geometricas preescolar pdf",
+    "figuras geometricas preescolar pinterest",
+    "figuras geometricas preescolar wordwall",
+    "figuras geometricas primaria actividades",
+    "figuras geometricas primaria para niños",
+    "figuras geometricas primaria pdf",
+    "figuras geometricas primarias y secundarias",
+    "figuras geometricas primer grado abc",
+    "figuras geometricas primer grado actividades",
+    "figuras geometricas primer grado continuemos estudiando",
+    "figuras geometricas primer grado para colorear",
+    "figuras geometricas primer grado para imprimir",
+    "figuras geometricas primer grado secuencia",
+    "figuras geometricas primer grado wordwall",
+    "figuras geometricas segundo grado actividades",
+    "figuras geometricas segundo grado de primaria",
+    "figuras geometricas segundo grado liveworksheets",
+    "figuras geometricas segundo grado pdf",
+    "figuras geometricas segundo grado wordwall",
+    "figuras geométricas",
+    "figuras geométricas 2 primaria",
+    "figuras geométricas 3 primaria",
+    "figuras geométricas 3d",
+    "figuras geométricas 3d para armar",
+    "figuras geométricas con nombre",
+    "figuras geométricas en inglés",
+    "figuras geométricas fichas",
+    "figuras geométricas para armar",
+    "figuras geométricas para imprimir",
+    "figuras geométricas para imprimir en 3d",
+    "figuras geométricas para imprimir grandes",
+    "figuras geométricas para imprimir pdf",
+    "figuras geométricas para imprimir y armar",
+    "figuras geométricas para imprimir y armar pdf",
+    "figuras geométricas para imprimir y colorear",
+    "figuras geométricas para imprimir y recortar",
+    "figuras geométricas para imprimir y recortar para niños",
+    "figuras geométricas para imprimir y recortar pdf",
+    "figuras geométricas para primaria",
+    "figuras geométricas para segundo grado",
+    "figuras geométricas para segundo grado de primaria",
+    "figuras geométricas planas",
+    "figuras geométricas preescolar",
+    "figuras geométricas preescolar actividades",
+    "figuras geométricas preescolar para imprimir",
+    "figuras geométricas primaria",
+    "figuras geométricas primaria para imprimir",
+    "figuras geométricas primer grado",
+    "figuras geométricas primer grado de primaria",
+    "figuras geométricas primer grado pdf",
+    "figuras geométricas segundo grado",
+    "figuras geométricas segundo grado de primaria",
+    "figuras geométricas y sus nombres",
+    "figuras geométricas y sus nombres y características",
+    "formulas de las figuras geometricas para imprimir",
+    "formulas de las figuras geometricas primaria",
+    "imagenes de las figuras geometricas para imprimir",
+    "las figuras geometricas 6 primaria",
+    "las figuras geometricas fichas",
+    "las figuras geometricas para niños de primaria",
+    "las figuras geometricas para niños de segundo grado",
+    "las figuras geometricas para primero de primaria",
+    "las figuras geometricas primaria",
+    "las figuras geometricas segundo grado",
+    "las figuras geométricas",
+    "las figuras geométricas 3 primaria",
+    "las figuras geométricas con su nombre",
+    "las figuras geométricas en 3d",
+    "las figuras geométricas en inglés",
+    "las figuras geométricas en kaqchikel",
+    "las figuras geométricas para imprimir",
+    "las figuras geométricas para niños",
+    "las figuras geométricas para niños para imprimir",
+    "las figuras geométricas para niños preescolar",
+    "las figuras geométricas para primer grado",
+    "las figuras geométricas para segundo grado de primaria",
+    "las figuras geométricas para segundo primaria",
+    "las figuras geométricas preescolar",
+    "las figuras geométricas primer grado",
+    "las figuras geométricas se parecen a objetos de la naturaleza",
+    "las figuras geométricas son representaciones",
+    "las figuras geométricas y sus características",
+    "las figuras geométricas y sus nombres",
+    "memorama de las figuras geométricas para imprimir",
+    "moldes de las figuras geométricas para imprimir",
+    "nombres de las figuras geométricas para imprimir",
+    "planeacion de las figuras geometricas preescolar",
+    "planeacion de las figuras geometricas primer grado",
+    "planeación sobre las figuras geométricas preescolar",
+    "plantillas de las figuras geométricas para imprimir",
+    "propiedades de las figuras geometricas primaria",
+    "proyecto las figuras geometricas preescolar",
+    "secuencia figuras geometricas segundo grado",
+    "todas las figuras geométricas para imprimir",
+    "video de las figuras geometricas preescolar"
+   ]
+  },
+  "digraphs": {
+   "heads": [
+    "ch ll rr",
+    "sílabas trabadas"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 64,
+   "suggestions": [
+    "abcdefghijklmnñopqrstuvwxyz ch ll rr",
+    "abecedario ch ll rr",
+    "abecedario incluyendo ch ll rr",
+    "actividad silabas trabadas primer grado",
+    "actividades silabas trabadas preescolar",
+    "actividades silabas trabadas segundo grado",
+    "ch ll rr",
+    "ch ll rr in spanish",
+    "ch ll rr qu gu",
+    "ch ll rr ñ",
+    "cuadernillo de silabas trabadas segundo grado",
+    "dictado silabas trabadas primer grado",
+    "dictado silabas trabadas segundo grado",
+    "digrafos ch ll rr",
+    "ejercicios silabas trabadas primaria",
+    "fichas sílabas trabadas e inversas pdf",
+    "lecturas con sílabas trabadas primer grado",
+    "letras ch ll rr",
+    "oraciones con silabas trabadas primer grado",
+    "palabras con ch ll rr",
+    "planeacion de sílabas trabadas primer grado",
+    "silabas trabadas 1 primaria",
+    "silabas trabadas 1 primaria pdf",
+    "silabas trabadas 2 primaria",
+    "silabas trabadas fichas",
+    "silabas trabadas fichas de trabajo",
+    "silabas trabadas fichas interactivas",
+    "silabas trabadas fichas para imprimir",
+    "silabas trabadas fichas pdf",
+    "silabas trabadas para imprimir con dibujos",
+    "silabas trabadas para imprimir ejercicios",
+    "silabas trabadas para imprimir gratis",
+    "silabas trabadas para imprimir llavero",
+    "silabas trabadas para imprimir y formar palabras",
+    "silabas trabadas para primer grado",
+    "silabas trabadas para primer grado primaria",
+    "silabas trabadas para segundo grado",
+    "silabas trabadas para segundo grado para imprimir",
+    "silabas trabadas para segundo grado pdf",
+    "silabas trabadas para segundo grado wordwall",
+    "silabas trabadas preescolar",
+    "silabas trabadas primaria",
+    "silabas trabadas primaria dictado de oraciones",
+    "silabas trabadas primer grado",
+    "silabas trabadas primer grado pdf",
+    "silabas trabadas segundo grado",
+    "silabas trabadas segundo grado primaria",
+    "sílabas trabadas",
+    "sílabas trabadas 2 primaria pdf",
+    "sílabas trabadas 3 primaria",
+    "sílabas trabadas 3 primaria pdf",
+    "sílabas trabadas actividades",
+    "sílabas trabadas con l",
+    "sílabas trabadas con r",
+    "sílabas trabadas ejemplos",
+    "sílabas trabadas para imprimir",
+    "sílabas trabadas para imprimir con dibujos pdf",
+    "sílabas trabadas para imprimir material para maestros",
+    "sílabas trabadas para imprimir pdf",
+    "sílabas trabadas para imprimir pdf gratis",
+    "sílabas trabadas para niños",
+    "sílabas trabadas pdf",
+    "video sobre silabas trabadas segundo grado",
+    "wordwall silabas trabadas primer grado"
+   ]
+  },
+  "synonyms": {
+   "heads": [
+    "sinónimos",
+    "sinónimos y antónimos"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 118,
+   "suggestions": [
+    "10 sinónimos para imprimir",
+    "actividad sinonimos segundo grado",
+    "actividades sinonimos primer grado",
+    "actividades sinonimos y antonimos primer grado",
+    "actividades sinonimos y antonimos segundo grado",
+    "bingo de sinonimos para imprimir",
+    "crucigrama sinonimos y antonimos para imprimir",
+    "dominó de sinónimos y antónimos para imprimir",
+    "ejemplos de sinónimos y antónimos para primer grado",
+    "evaluacion sinonimos y antonimos grado segundo",
+    "examen de sinonimos y antonimos para primer grado",
+    "ficha de sinonimos y antonimos para primer grado",
+    "ficha sinonimos primer grado",
+    "ficha sinonimos segundo grado",
+    "ficha sinonimos y antonimos",
+    "ficha sinonimos y antonimos 2 primaria",
+    "ficha sinonimos y antonimos 3 primaria",
+    "ficha sinonimos y antonimos 4 primaria",
+    "ficha sinonimos y antonimos 6 primaria",
+    "guia sinonimos y antonimos grado segundo",
+    "guias de sinónimos y antónimos para imprimir",
+    "imagenes de sinónimos y antónimos para imprimir",
+    "juego de sinónimos y antónimos para imprimir",
+    "loteria de sinonimos y antonimos para imprimir",
+    "memorama de sinonimos para imprimir",
+    "memoria de sinonimos para imprimir",
+    "practica sinonimos segundo grado",
+    "primaria sinonimos y antonimos",
+    "primaria sinonimos y antonimos ejercicios",
+    "primaria sinónimos con dibujos",
+    "sinonimos 3 primaria",
+    "sinonimos actividades para imprimir",
+    "sinonimos actividades preescolar",
+    "sinonimos antonimos primer grado",
+    "sinonimos antonimos segundo grado",
+    "sinonimos ficha pdf",
+    "sinonimos fichaje",
+    "sinonimos fichas de trabajo",
+    "sinonimos fichas interactivas",
+    "sinonimos fichas para niños",
+    "sinonimos fichas primaria",
+    "sinonimos imagenes para imprimir",
+    "sinonimos para imprimir",
+    "sinonimos para niños preescolar",
+    "sinonimos para niños primer grado",
+    "sinonimos para preescolar",
+    "sinonimos para primaria",
+    "sinonimos para primer grado",
+    "sinonimos para primer grado con imagenes",
+    "sinonimos para primer grado de secundaria",
+    "sinonimos para segundo grado liveworksheets",
+    "sinonimos preescolar",
+    "sinonimos primaria ejercicios",
+    "sinonimos primaria para niños",
+    "sinonimos primaria pdf",
+    "sinonimos primer grado de primaria",
+    "sinonimos segundo grado de primaria",
+    "sinonimos segundo grado wordwall",
+    "sinonimos y antonimos 2 primaria",
+    "sinonimos y antonimos 3 primaria",
+    "sinonimos y antonimos 4 primaria",
+    "sinonimos y antonimos 5 primaria",
+    "sinonimos y antonimos 6 primaria",
+    "sinonimos y antonimos ejercicios para imprimir",
+    "sinonimos y antonimos ficha 5 primaria",
+    "sinonimos y antonimos ficha de trabajo",
+    "sinonimos y antonimos ficha interactiva",
+    "sinonimos y antonimos ficha pdf",
+    "sinonimos y antonimos fichas para imprimir",
+    "sinonimos y antonimos para imprimir",
+    "sinonimos y antonimos para imprimir 6 primaria",
+    "sinonimos y antonimos para niños",
+    "sinonimos y antonimos para niños de preescolar",
+    "sinonimos y antonimos para niños primer grado",
+    "sinonimos y antonimos para niños segundo grado",
+    "sinonimos y antonimos para primer grado de secundaria",
+    "sinonimos y antonimos para segundo grado de secundaria",
+    "sinonimos y antonimos preescolar",
+    "sinonimos y antonimos primaria pdf",
+    "sinonimos y antonimos primer grado primaria",
+    "sinonimos y antonimos segundo grado de primaria",
+    "sinonimos y antonimos segundo grado liveworksheets",
+    "sinónimos",
+    "sinónimos de constituye",
+    "sinónimos de desarrollar",
+    "sinónimos de disfrutar",
+    "sinónimos de fortalecer",
+    "sinónimos de realizar",
+    "sinónimos de sin embargo",
+    "sinónimos de solicitar",
+    "sinónimos ejemplos",
+    "sinónimos ejemplos primer grado",
+    "sinónimos ficha",
+    "sinónimos fichas para imprimir",
+    "sinónimos para segundo grado",
+    "sinónimos para segundo grado de secundaria",
+    "sinónimos primaria",
+    "sinónimos primaria ejemplos",
+    "sinónimos primer grado",
+    "sinónimos segundo grado",
+    "sinónimos y antónimos",
+    "sinónimos y antónimos 1 primaria",
+    "sinónimos y antónimos 2 primaria pdf",
+    "sinónimos y antónimos 5 primaria pdf",
+    "sinónimos y antónimos de palabras",
+    "sinónimos y antónimos diccionario",
+    "sinónimos y antónimos ejemplos",
+    "sinónimos y antónimos ejercicios",
+    "sinónimos y antónimos ejercicios pdf",
+    "sinónimos y antónimos en inglés",
+    "sinónimos y antónimos ficha",
+    "sinónimos y antónimos para niños de tercer grado",
+    "sinónimos y antónimos pdf",
+    "sinónimos y antónimos primaria",
+    "sinónimos y antónimos primer grado",
+    "sinónimos y antónimos segundo grado",
+    "taller sinonimos y antonimos grado segundo",
+    "tarjetas de sinonimos para imprimir"
+   ]
+  },
+  "homophones": {
+   "heads": [
+    "palabras homófonas",
+    "hay ahí ay"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 52,
+   "suggestions": [
+    "ahi hay ay ficha",
+    "ejercicios de palabras homofonas con csz para imprimir",
+    "ejercicios de palabras homofonas para segundo grado",
+    "ejercicios de palabras homofonas y homografas para imprimir secundaria",
+    "ejercicios de palabras homófonas y homógrafas para imprimir",
+    "ficha interactiva hay ahi ay",
+    "ficha palabras homofonas 2 primaria",
+    "ficha palabras homofonas 5 primaria pdf",
+    "fichas palabras homofonas 4 primaria",
+    "fichas palabras homofonas 4 primaria pdf",
+    "fichas palabras homofonas 5 primaria",
+    "fichas palabras homofonas y homografas",
+    "hay ahí ay",
+    "hay ahí ay allí",
+    "hay ahí ay allí ejemplos",
+    "hay ahí ay diferencia",
+    "hay ahí ay ejemplos",
+    "hay ahí ay ejemplos español",
+    "hay ahí ay ejercicios",
+    "hay ahí ay meme",
+    "hay ahí ay para niños",
+    "hay ahí ay significado",
+    "palabras homofonas 2 primaria",
+    "palabras homofonas 4 primaria",
+    "palabras homofonas 5 primaria",
+    "palabras homofonas 5 primaria pdf",
+    "palabras homofonas 6 primaria",
+    "palabras homofonas ejercicios para imprimir",
+    "palabras homofonas ficha",
+    "palabras homofonas ficha de trabajo",
+    "palabras homofonas fichas para imprimir",
+    "palabras homofonas para imprimir",
+    "palabras homofonas para primer grado",
+    "palabras homofonas primaria ejercicios",
+    "palabras homofonas primer grado",
+    "palabras homofonas segundo grado",
+    "palabras homófonas",
+    "palabras homófonas 10 ejemplos",
+    "palabras homófonas 4 primaria pdf",
+    "palabras homófonas actividades primaria",
+    "palabras homófonas con b y v",
+    "palabras homófonas con su dibujo",
+    "palabras homófonas con su significado",
+    "palabras homófonas ejemplos",
+    "palabras homófonas ejemplos 100",
+    "palabras homófonas en inglés",
+    "palabras homófonas para primaria",
+    "palabras homófonas para segundo grado de primaria",
+    "palabras homófonas primaria",
+    "palabras homófonas y homógrafas",
+    "palabras homófonas y homónimas",
+    "sopa de letras con palabras homófonas para imprimir"
+   ]
+  },
+  "road-safety": {
+   "heads": [
+    "educación vial",
+    "señales de tránsito"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 110,
+   "suggestions": [
+    "actividades de educacion vial para segundo grado",
+    "actividades de educación vial para primer grado",
+    "actividades de señales de transito para primer grado",
+    "actividades fichas señales de transito para niños",
+    "actividades sobre las señales de tránsito grado segundo",
+    "caratula de educación vial para imprimir",
+    "clase preparada educación vial grado segundo primaria",
+    "dibujos de educación vial para imprimir",
+    "educacion vial ficha de trabajo",
+    "educacion vial fichas",
+    "educacion vial niños primaria",
+    "educacion vial para niños",
+    "educacion vial para niños actividades para imprimir",
+    "educacion vial preescolar actividades",
+    "educacion vial primer grado",
+    "educacion vial primero de primaria",
+    "educacion vial segundo de primaria",
+    "educación vial",
+    "educación vial 3 primaria",
+    "educación vial actividades para imprimir",
+    "educación vial citas",
+    "educación vial citas prácticas",
+    "educación vial cosevi",
+    "educación vial costa rica",
+    "educación vial go cr",
+    "educación vial para imprimir",
+    "educación vial para niños de primaria",
+    "educación vial para primer grado de primaria",
+    "educación vial para segundo grado de primaria",
+    "educación vial preescolar",
+    "educación vial primaria",
+    "educación vial primaria actividades",
+    "educación vial primaria pdf",
+    "educación vial prueba práctica",
+    "educación vial rio grande",
+    "educación vial segundo grado",
+    "ficha de señales de transito para colorear",
+    "ficha educacion vial primaria",
+    "ficha sobre señales de transito",
+    "ficha tecnica de señales de transito",
+    "fichas de educación vial para imprimir",
+    "fichas de señales de transito para primer grado de primaria",
+    "fichas educacion vial infantil",
+    "fichas educacion vial para niños",
+    "fichas educacion vial para niños actividades",
+    "fichas educación vial para niños para imprimir",
+    "hoja de trabajo señales de transito preescolar",
+    "imagenes de señales de transito para preescolar",
+    "imágenes de educación vial para imprimir",
+    "imágenes de señales de tránsito para niños de primer grado",
+    "imágenes de señales de tránsito para niños de segundo grado",
+    "planeacion educacion vial preescolar",
+    "planeacion señales de transito preescolar",
+    "preescolar dibujos señales de transito para niños",
+    "preescolar señales de transito informativas para niños para colorear",
+    "proyecto de educación vial para segundo grado",
+    "proyecto de señales de tránsito para preescolar",
+    "proyecto educacion vial preescolar",
+    "proyecto educacion vial primer grado",
+    "proyecto educación vial primaria",
+    "rompecabezas de educacion vial para imprimir",
+    "secuencia didactica educacion vial primer grado",
+    "sesion de educacion vial primaria",
+    "sesion de educacion vial primer grado",
+    "sesión de aprendizaje señales de tránsito primer grado",
+    "señales de educación vial para imprimir",
+    "señales de transito",
+    "señales de transito actividades para primaria",
+    "señales de transito ficha",
+    "señales de transito ficha de trabajo",
+    "señales de transito ficha para niños",
+    "señales de transito informativas",
+    "señales de transito para cuarto de primaria",
+    "señales de transito para imprimir",
+    "señales de transito para imprimir argentina",
+    "señales de transito para imprimir colombia",
+    "señales de transito para imprimir en blanco y negro",
+    "señales de transito para imprimir grandes",
+    "señales de transito para imprimir maqueta",
+    "señales de transito para imprimir y armar",
+    "señales de transito para imprimir y recortar",
+    "señales de transito para niños",
+    "señales de transito para niños de primaria peru",
+    "señales de transito para niños de segundo grado",
+    "señales de transito para niños preescolar",
+    "señales de transito para niños primaria",
+    "señales de transito para preescolar para colorear",
+    "señales de transito para primaria",
+    "señales de transito para primer grado",
+    "señales de transito para segundo grado",
+    "señales de transito para segundo grado de primaria",
+    "señales de transito preescolar",
+    "señales de transito preescolar actividades",
+    "señales de transito preventivas",
+    "señales de transito primaria",
+    "señales de transito primer grado",
+    "señales de transito primer grado de primaria",
+    "señales de transito primero de primaria",
+    "señales de transito restrictivas",
+    "señales de transito segundo grado",
+    "señales de transito segundo primaria",
+    "señales de transito tercero primaria",
+    "señales de transito y su significado",
+    "señales de tránsito en méxico",
+    "señales de tránsito para imprimir pdf",
+    "señales de tránsito para imprimir y colorear",
+    "señales de tránsito para niños de primaria",
+    "señales de tránsito para niños de primaria para colorear",
+    "señales de tránsito y su significado pdf",
+    "señales de tránsito y sus nombres"
+   ]
+  },
+  "maps": {
+   "heads": [
+    "los continentes",
+    "puntos cardinales"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 91,
+   "suggestions": [
+    "actividad puntos cardinales segundo grado",
+    "actividades de puntos cardinales para primer grado",
+    "actividades puntos cardinales primer grado",
+    "concepto de puntos cardinales para primer grado",
+    "ejercicios de puntos cardinales para segundo grado",
+    "ejercicios puntos cardinales para imprimir",
+    "evaluacion puntos cardinales grado segundo",
+    "examen de los continentes primaria",
+    "ficha de los continentes para primer grado",
+    "ficha de los continentes para segundo grado de primaria",
+    "ficha de los puntos cardinales para primer grado",
+    "ficha los continentes del mundo",
+    "ficha los continentes y oceanos",
+    "guia puntos cardinales grado segundo",
+    "imagen de puntos cardinales para imprimir",
+    "los 5 continentes para imprimir",
+    "los 6 continentes para imprimir",
+    "los 7 continentes para imprimir",
+    "los continentes",
+    "los continentes 2 primaria",
+    "los continentes 3 primaria",
+    "los continentes 4 primaria",
+    "los continentes de américa",
+    "los continentes de la tierra",
+    "los continentes del mundo",
+    "los continentes del mundo para niños",
+    "los continentes en el mapa",
+    "los continentes en ingles",
+    "los continentes explicado para primaria",
+    "los continentes ficha",
+    "los continentes ficha de trabajo",
+    "los continentes fichas para imprimir",
+    "los continentes para imprimir",
+    "los continentes para imprimir pdf",
+    "los continentes para imprimir y colorear",
+    "los continentes para niños",
+    "los continentes para niños de preescolar",
+    "los continentes para niños en preescolar mundo kuku",
+    "los continentes para niños fichas",
+    "los continentes para preescolar",
+    "los continentes para primaria",
+    "los continentes para primer grado de primaria",
+    "los continentes para segundo grado",
+    "los continentes para segundo grado de primaria",
+    "los continentes primaria",
+    "los continentes primaria pdf",
+    "los continentes primer grado",
+    "los continentes quinto de primaria",
+    "los continentes segundo grado",
+    "los continentes y los océanos",
+    "los continentes y oceanos para segundo grado de primaria",
+    "los continentes y sus países",
+    "mapa de los continentes para imprimir",
+    "mapa de los continentes para imprimir pdf",
+    "origen de los continentes ficha",
+    "practica puntos cardinales segundo grado",
+    "proyecto los continentes primaria",
+    "puntos cardinales",
+    "puntos cardinales 3 primaria",
+    "puntos cardinales 4 primaria",
+    "puntos cardinales actividades primaria",
+    "puntos cardinales chile",
+    "puntos cardinales de argentina",
+    "puntos cardinales de colombia",
+    "puntos cardinales del peru",
+    "puntos cardinales ejercicios primaria",
+    "puntos cardinales en el mapa",
+    "puntos cardinales en ingles",
+    "puntos cardinales españa",
+    "puntos cardinales ficha",
+    "puntos cardinales ficha de trabajo",
+    "puntos cardinales fichas para niños",
+    "puntos cardinales grado tercero primaria",
+    "puntos cardinales niños de primaria",
+    "puntos cardinales oriente y poniente",
+    "puntos cardinales para imprimir",
+    "puntos cardinales para niños",
+    "puntos cardinales para niños imprimir",
+    "puntos cardinales para niños segundo grado",
+    "puntos cardinales para primer grado de primaria",
+    "puntos cardinales para segundo grado",
+    "puntos cardinales para segundo primaria",
+    "puntos cardinales preescolar",
+    "puntos cardinales primaria",
+    "puntos cardinales primer grado",
+    "puntos cardinales primero primaria",
+    "puntos cardinales segundo grado",
+    "puntos cardinales segundo grado de primaria",
+    "puntos cardinales segundo primaria",
+    "taller puntos cardinales grado segundo",
+    "todos los continentes para imprimir"
+   ]
+  },
+  "family": {
+   "heads": [
+    "la familia",
+    "árbol genealógico"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 133,
+   "suggestions": [
+    "actividad arbol genealogico preescolar",
+    "actividad arbol genealogico primaria",
+    "arbol genealogico 1 primaria",
+    "arbol genealogico 2 primaria",
+    "arbol genealogico cien años de soledad",
+    "arbol genealogico creativo preescolar",
+    "arbol genealogico de la familia primer grado",
+    "arbol genealogico familiar primaria",
+    "arbol genealogico ficha",
+    "arbol genealogico ficha de trabajo",
+    "arbol genealogico fichas para trabajar la familia",
+    "arbol genealogico hasta el.segundo grado",
+    "arbol genealogico niños de primer grado",
+    "arbol genealogico niños primaria",
+    "arbol genealogico para imprimir para niños",
+    "arbol genealogico para niños ficha",
+    "arbol genealogico para niños segundo grado",
+    "arbol genealogico para preescolar",
+    "arbol genealogico para primer grado de primaria",
+    "arbol genealogico primaria ingles",
+    "arbol genealogico primaria sud",
+    "arbol genealogico primer grado de primaria",
+    "arbol genealogico segundo grado primaria",
+    "arbol genealógico niños preescolar",
+    "cancion la familia preescolar",
+    "cuento la familia preescolar",
+    "cómo hacer un árbol genealógico de segundo grado",
+    "cómo hacer un árbol genealógico para segundo grado de primaria",
+    "ficha arbol genealogico inicial",
+    "ficha arbol genealogico primaria",
+    "la familia",
+    "la familia 4to primaria",
+    "la familia 5to primaria",
+    "la familia actividades para segundo grado",
+    "la familia animada para imprimir",
+    "la familia benetton 2",
+    "la familia de mi novia",
+    "la familia dedo para imprimir",
+    "la familia del barrio",
+    "la familia del futuro",
+    "la familia escolar para segundo grado",
+    "la familia escolar primer grado",
+    "la familia escolar segundo grado",
+    "la familia farsta",
+    "la familia ficha",
+    "la familia ficha de aplicacion",
+    "la familia ficha de trabajo",
+    "la familia ficha interactiva",
+    "la familia ficha para colorear",
+    "la familia ficha primer grado",
+    "la familia ficha segundo grado",
+    "la familia fichas para imprimir",
+    "la familia fichas para niños",
+    "la familia grado preescolar",
+    "la familia guácatela para imprimir",
+    "la familia imagenes para imprimir",
+    "la familia ingalls",
+    "la familia letras para imprimir",
+    "la familia para imprimir",
+    "la familia para imprimir y colorear",
+    "la familia para preescolar",
+    "la familia para primaria",
+    "la familia para primer grado",
+    "la familia para segundo grado",
+    "la familia peluche",
+    "la familia peluche reparto",
+    "la familia preescolar",
+    "la familia preescolar actividades",
+    "la familia primaria",
+    "la familia primer grado",
+    "la familia primer grado actividades",
+    "la familia primer grado de primaria",
+    "la familia primero primaria",
+    "la familia romand",
+    "la familia segundo grado",
+    "la familia segundo grado de primaria",
+    "la familia segundo primaria",
+    "la familia tercero primaria",
+    "la palabra familia para imprimir",
+    "la sagrada familia fichas",
+    "la sagrada familia para imprimir",
+    "la sagrada familia primaria",
+    "la sagrada familia primer grado",
+    "la sagrada familia segundo grado",
+    "manualidad arbol genealogico preescolar",
+    "mi arbol genealogico ficha",
+    "mi arbol genealogico preescolar",
+    "mi arbol genealogico primer grado",
+    "mi arbol genealogico segundo grado de primaria",
+    "plan la familia preescolar",
+    "planeacion arbol genealogico preescolar",
+    "planeacion la familia preescolar",
+    "proyecto arbol genealogico preescolar",
+    "proyecto la familia preescolar",
+    "proyecto la familia primaria",
+    "proyecto la familia primer grado",
+    "proyecto árbol genealógico primaria",
+    "secuencia la familia primer grado",
+    "secuencia la familia segundo grado",
+    "sesion de arbol genealogico para segundo grado",
+    "sesion del arbol genealogico primer grado",
+    "sesión de aprendizaje árbol genealógico segundo grado",
+    "tema la familia preescolar",
+    "tema la familia primaria",
+    "tema la familia primer grado",
+    "tema la familia segundo grado",
+    "árbol genealógico",
+    "árbol genealógico creativo",
+    "árbol genealógico creativo a mano",
+    "árbol genealógico de los buendía",
+    "árbol genealógico en inglés",
+    "árbol genealógico familiar",
+    "árbol genealógico familiar completo",
+    "árbol genealógico familiar para primer grado",
+    "árbol genealógico familiar preescolar",
+    "árbol genealógico gratis",
+    "árbol genealógico para imprimir",
+    "árbol genealógico para imprimir a color",
+    "árbol genealógico para imprimir blanco y negro",
+    "árbol genealógico para imprimir en inglés",
+    "árbol genealógico para imprimir grande",
+    "árbol genealógico para imprimir letras",
+    "árbol genealógico para imprimir pdf",
+    "árbol genealógico para imprimir y rellenar",
+    "árbol genealógico para imprimir y rellenar en ingles",
+    "árbol genealógico para niños de segundo grado de primaria",
+    "árbol genealógico para primaria",
+    "árbol genealógico para primer grado",
+    "árbol genealógico preescolar",
+    "árbol genealógico primaria",
+    "árbol genealógico primer grado",
+    "árbol genealógico segundo grado",
+    "árbol genealógico targaryen"
+   ]
+  }
+ },
+ "suggestions": {
+  "partes de la planta": {
+   "candidate": "plants",
+   "s": [
+    "partes de la planta",
+    "partes de la planta del pie",
+    "partes de la planta para niños",
+    "partes de la planta y sus funciones para niños",
+    "partes de la planta en ingles",
+    "partes de la planta para colorear",
+    "partes de la planta del pie humano",
+    "partes de la planta dibujo",
+    "partes de la planta para recortar y pegar",
+    "partes de la planta y su función"
+   ]
+  },
+  "partes de la planta ficha": {
+   "candidate": "plants",
+   "s": [
+    "partes de la planta ficha",
+    "partes de la planta ficha de trabajo",
+    "partes de la planta fichas para imprimir",
+    "partes de la planta ficha para niños",
+    "partes de la planta ficha interactiva",
+    "partes de la planta ficha inicial",
+    "ficha partes de la planta para colorear",
+    "ficha partes de la planta y sus funciones",
+    "fichas partes de la planta en ingles",
+    "ficha partes de la planta 1 primaria"
+   ]
+  },
+  "partes de la planta para imprimir": {
+   "candidate": "plants",
+   "s": [
+    "partes de la planta para imprimir",
+    "partes de la planta para imprimir a color",
+    "partes de la planta para imprimir y recortar",
+    "partes de la planta para imprimir por separado",
+    "partes de la planta fichas para imprimir",
+    "rompecabezas partes de la planta para imprimir",
+    "partes de la planta letras para imprimir",
+    "imagen partes de la planta para imprimir",
+    "partes de la planta para niños imprimir",
+    "dibujo partes de la planta para imprimir"
+   ]
+  },
+  "partes de la planta preescolar": {
+   "candidate": "plants",
+   "s": [
+    "partes de la planta preescolar",
+    "partes de la planta para preescolar",
+    "actividades partes de la planta preescolar",
+    "partes de la planta para preescolar para colorear",
+    "actividad partes de la planta para preescolar",
+    "hoja de trabajo partes de la planta preescolar",
+    "partes de la planta para niños de preescolar para colorear",
+    "preescolar partes de la planta dibujo",
+    "preescolar partes de la planta para recortar y pegar",
+    "planeacion partes de la planta para preescolar"
+   ]
+  },
+  "partes de la planta primer grado": {
+   "candidate": "plants",
+   "s": [
+    "partes de la planta primer grado",
+    "partes de la planta para primer grado",
+    "actividades partes de la planta primer grado",
+    "secuencia partes de la planta primer grado",
+    "partes de la planta primer grado de primaria",
+    "partes de la planta para completar primer grado",
+    "partes de la planta actividades para primer grado",
+    "sesion de aprendizaje partes de la planta primer grado",
+    "partes de la planta y sus funciones para primer grado",
+    "funciones de las partes de la planta para primer grado"
+   ]
+  },
+  "partes de la planta segundo grado": {
+   "candidate": "plants",
+   "s": [
+    "partes de la planta segundo grado",
+    "partes de la planta segundo grado de primaria",
+    "partes de la planta para completar segundo grado",
+    "partes de la planta para niños de segundo grado",
+    "partes de la planta y sus funciones para segundo grado",
+    "funciones de las partes de la planta para segundo grado",
+    "ficha de las partes de la planta para segundo grado",
+    "partes de la planta y sus funciones para niños de segundo grado",
+    "la planta y sus partes segundo grado de primaria",
+    "sesion de aprendizaje la planta y sus partes segundo grado"
+   ]
+  },
+  "partes de la planta primaria": {
+   "candidate": "plants",
+   "s": [
+    "partes de la planta primaria",
+    "partes de la planta para primaria",
+    "partes de la planta 4 primaria",
+    "partes de la planta 3 primaria",
+    "partes de la planta 2 primaria",
+    "partes de la planta 1 primaria",
+    "partes de la planta 5 primaria",
+    "partes de la planta actividades primaria",
+    "friso partes de la planta primaria en ingles",
+    "partes de la planta 3 primaria liveworksheets"
+   ]
+  },
+  "ciclo de vida de las plantas": {
+   "candidate": "plants",
+   "s": [
+    "ciclo de vida de las plantas",
+    "ciclo de vida de las plantas para niños",
+    "ciclo de vida de las plantas para niños pdf",
+    "ciclo de vida de las plantas para niños actividades",
+    "ciclo de vida de las plantas nace crece reproduce y muere",
+    "ciclo de vida de las plantas para colorear",
+    "ciclo de vida de las plantas para dibujar",
+    "ciclo de vida de las plantas para imprimir",
+    "ciclo de vida de las plantas angiospermas",
+    "ciclo de vida de las plantas dibujos"
+   ]
+  },
+  "ciclo de vida de las plantas ficha": {
+   "candidate": "plants",
+   "s": [
+    "ciclo de vida de las plantas ficha",
+    "ficha de trabajo ciclo de vida de las plantas",
+    "fichas para trabajar el ciclo de vida de las plantas"
+   ]
+  },
+  "ciclo de vida de las plantas para imprimir": {
+   "candidate": "plants",
+   "s": [
+    "ciclo de vida de las plantas para imprimir",
+    "ciclo de vida de las plantas para niños para imprimir"
+   ]
+  },
+  "ciclo de vida de las plantas preescolar": {
+   "candidate": "plants",
+   "s": [
+    "ciclo de vida de las plantas preescolar",
+    "ciclo de vida de las plantas para niños de preescolar",
+    "ciclo de vida de las plantas para niños de preescolar para colorear",
+    "actividades del ciclo de vida de las plantas para preescolar",
+    "video ciclo de vida de las plantas para niños de preescolar"
+   ]
+  },
+  "ciclo de vida de las plantas primer grado": {
+   "candidate": "plants",
+   "s": [
+    "ciclo de vida de las plantas primer grado",
+    "ciclo de vida de las plantas para niños de primer grado"
+   ]
+  },
+  "ciclo de vida de las plantas segundo grado": {
+   "candidate": "plants",
+   "s": [
+    "ciclo de vida de las plantas segundo grado",
+    "ciclo de vida de las plantas para niños de segundo grado",
+    "ciclo de vida de las plantas para segundo grado de primaria"
+   ]
+  },
+  "ciclo de vida de las plantas primaria": {
+   "candidate": "plants",
+   "s": [
+    "ciclo de vida de las plantas primaria",
+    "ciclo de vida de las plantas primaria pdf",
+    "ciclo de vida de las plantas para primaria",
+    "ciclo de vida de las plantas 3 primaria",
+    "ciclo de vida de las plantas segundo de primaria",
+    "ciclo de vida de las plantas para tercero de primaria",
+    "ciclo de vida de las plantas para niños de primaria para colorear",
+    "ciclo de vida de las plantas para segundo grado de primaria",
+    "primaria dibujo ciclo de vida de las plantas",
+    "ciclo de vida de las plantas para primer grado de primaria"
+   ]
+  },
+  "ciclo de vida de la mariposa": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida de la mariposa",
+    "ciclo de vida de la mariposa para niños",
+    "ciclo de vida de la mariposa monarca",
+    "ciclo de vida de la mariposa para imprimir",
+    "ciclo de vida de la mariposa para colorear",
+    "ciclo de vida de la mariposa para dibujar",
+    "ciclo de vida de la mariposa en ingles",
+    "ciclo de vida de la mariposa explicado para niños",
+    "ciclo de vida de la mariposa imagen",
+    "ciclo de vida de la mariposa maqueta"
+   ]
+  },
+  "ciclo de vida de la mariposa ficha": {
+   "candidate": "life-cycles",
+   "s": [
+    "ficha ciclo de vida de la mariposa"
+   ]
+  },
+  "ciclo de vida de la mariposa para imprimir": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida de la mariposa para imprimir",
+    "ciclo de vida de la mariposa para colorear e imprimir"
+   ]
+  },
+  "ciclo de vida de la mariposa preescolar": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida de la mariposa preescolar",
+    "ciclo de vida de la mariposa para niños de preescolar",
+    "ciclo de vida de la mariposa monarca para niños de preescolar",
+    "preescolar manualidad ciclo de vida de la mariposa"
+   ]
+  },
+  "ciclo de vida de la mariposa segundo grado": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida de la mariposa para niños de segundo grado"
+   ]
+  },
+  "ciclo de vida de la mariposa primaria": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida de la mariposa para niños de primaria",
+    "primaria ciclo de vida de la mariposa"
+   ]
+  },
+  "ciclo de vida de la rana": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida de la rana",
+    "ciclo de vida de la rana para niños",
+    "ciclo de vida de la rana para dibujar",
+    "ciclo de vida de la rana para colorear",
+    "ciclo de vida de la rana para imprimir",
+    "ciclo de vida de la rana para niños para colorear",
+    "ciclo de vida de la rana en ingles",
+    "ciclo de vida de la rana maqueta",
+    "ciclo de vida de la rana nace crece reproduce y muere",
+    "ciclo de vida de la rana de darwin"
+   ]
+  },
+  "ciclo de vida de la rana ficha": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida de la rana ficha"
+   ]
+  },
+  "ciclo de vida de la rana para imprimir": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida de la rana para imprimir"
+   ]
+  },
+  "ciclo de vida de la rana preescolar": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida de la rana preescolar"
+   ]
+  },
+  "ciclo de vida de la rana primaria": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida de la rana para niños de primaria"
+   ]
+  },
+  "materiales y sus propiedades": {
+   "candidate": "materials",
+   "s": [
+    "materiales y sus propiedades",
+    "materiales y sus propiedades para niños",
+    "materiales y sus propiedades ejemplos",
+    "materiales y sus propiedades primero básico",
+    "materiales y sus propiedades actividades",
+    "materiales y sus propiedades fisicas",
+    "materiales y sus propiedades dibujos",
+    "materiales y sus propiedades pdf",
+    "materiales y sus propiedades mecanicas",
+    "materiales y sus propiedades tecnologia"
+   ]
+  },
+  "materiales y sus propiedades primer grado": {
+   "candidate": "materials",
+   "s": [
+    "los materiales y sus propiedades para primer grado"
+   ]
+  },
+  "materiales y sus propiedades segundo grado": {
+   "candidate": "materials",
+   "s": [
+    "los materiales y sus propiedades para segundo grado"
+   ]
+  },
+  "materiales y sus propiedades primaria": {
+   "candidate": "materials",
+   "s": [
+    "los materiales y sus propiedades primaria",
+    "los materiales y sus propiedades actividades para primaria",
+    "los materiales y sus propiedades para niños de primaria",
+    "secuencia didáctica sobre los materiales y sus propiedades 4 primaria"
+   ]
+  },
+  "objetos magnéticos": {
+   "candidate": "materials",
+   "s": [
+    "objetos magnéticos y no magnéticos",
+    "objetos magnéticos ejemplos",
+    "objetos magnéticos en casa",
+    "objetos magnéticos para niños",
+    "objetos magneticos dibujos",
+    "10 objetos magnéticos",
+    "cinco objetos magnéticos",
+    "los objetos magnéticos deben estar compuestos por",
+    "tres objetos magnéticos",
+    "15 objetos magnéticos"
+   ]
+  },
+  "el sistema solar": {
+   "candidate": "space",
+   "s": [
+    "el sistema solar",
+    "el sistema solar y sus planetas",
+    "el sistema solar dibujo",
+    "el sistema solar y sus planetas en orden",
+    "el sistema solar maqueta",
+    "el sistema solar está formado por",
+    "el sistema solar y sus planetas para niños",
+    "el sistema solar para dibujar",
+    "el sistema solar para colorear",
+    "el sistema solar con sus nombres"
+   ]
+  },
+  "el sistema solar ficha": {
+   "candidate": "space",
+   "s": [
+    "el sistema solar ficha",
+    "el sistema solar ficha de trabajo",
+    "el sistema solar fichas para imprimir",
+    "el sistema solar fichas para niños",
+    "el sistema planetario solar ficha",
+    "fichas sobre el sistema solar",
+    "ficha interactiva el sistema solar"
+   ]
+  },
+  "el sistema solar para imprimir": {
+   "candidate": "space",
+   "s": [
+    "el sistema solar para imprimir",
+    "el sistema solar para imprimir y colorear",
+    "el sistema solar letras para imprimir",
+    "titulo el sistema solar para imprimir",
+    "el sistema solar imagenes para imprimir",
+    "el sistema planetario solar para imprimir",
+    "palabra el sistema solar para imprimir",
+    "el sistema solar dibujo para imprimir",
+    "el sistema solar ejercicios para imprimir",
+    "nombre el sistema solar para imprimir"
+   ]
+  },
+  "el sistema solar preescolar": {
+   "candidate": "space",
+   "s": [
+    "el sistema solar preescolar",
+    "el sistema solar para preescolar",
+    "proyecto el sistema solar preescolar",
+    "planeacion sobre el sistema solar preescolar",
+    "actividades sobre el sistema solar preescolar",
+    "el sistema solar para colorear preescolar",
+    "el sistema solar para niños de preescolar mundo kuku",
+    "actividades para trabajar el sistema solar preescolar",
+    "el sistema solar para niños de preescolar para colorear",
+    "como trabajar el sistema solar en preescolar"
+   ]
+  },
+  "el sistema solar primer grado": {
+   "candidate": "space",
+   "s": [
+    "el sistema solar primer grado",
+    "el sistema solar para primer grado de primaria",
+    "el sistema planetario solar primer grado",
+    "el sistema solar para niños de primer grado",
+    "el sistema planetario solar para primer grado de primaria",
+    "actividades sobre el sistema solar para primer grado",
+    "proyecto de aprendizaje sobre el sistema solar para primer grado"
+   ]
+  },
+  "el sistema solar segundo grado": {
+   "candidate": "space",
+   "s": [
+    "el sistema solar segundo grado",
+    "el sistema solar grado segundo de primaria",
+    "el sistema solar para segundo grado",
+    "el sistema planetario solar segundo grado",
+    "el sistema solar para niños de segundo grado",
+    "el sistema planetario solar para segundo grado de primaria",
+    "el sistema solar para niños de segundo grado de primaria",
+    "evaluacion sobre el sistema solar grado segundo",
+    "guia sobre el sistema solar grado segundo",
+    "taller sobre el sistema solar grado segundo"
+   ]
+  },
+  "el sistema solar primaria": {
+   "candidate": "space",
+   "s": [
+    "el sistema solar primaria",
+    "el sistema solar primaria pdf",
+    "el sistema solar para primaria",
+    "el sistema solar 4 primaria",
+    "el sistema solar 2 primaria pdf",
+    "el sistema solar 5 primaria",
+    "el sistema solar 3 primaria pdf",
+    "el sistema solar 2 primaria",
+    "el sistema solar 3 primaria",
+    "el sistema solar 6 primaria"
+   ]
+  },
+  "fases de la luna": {
+   "candidate": "space",
+   "s": [
+    "fases de la luna",
+    "fases de la luna hoy",
+    "fases de la luna julio 2026",
+    "fases de la luna agosto 2026",
+    "fases de la luna junio 2026",
+    "fases de la luna septiembre 2026",
+    "fases de la luna este mes",
+    "fases de la luna para niños",
+    "fases de la luna del mes de julio",
+    "fases de la luna 2026"
+   ]
+  },
+  "fases de la luna ficha": {
+   "candidate": "space",
+   "s": [
+    "fases de la luna ficha",
+    "fases de la luna ficha primaria",
+    "fases de la luna ficha interactiva",
+    "fases de la luna ficha de trabajo",
+    "ficha fases de la luna infantil",
+    "ficha fases de la luna 2 primaria",
+    "ficha para trabajar las fases de la luna",
+    "ficha de la luna y sus fases"
+   ]
+  },
+  "fases de la luna para imprimir": {
+   "candidate": "space",
+   "s": [
+    "fases de la luna para imprimir",
+    "fases de la luna para imprimir pdf",
+    "fases de la luna para imprimir a color",
+    "fases de la luna para imprimir con nombres",
+    "fases de la luna para imprimir para niños",
+    "fases de la luna para imprimir y recortar",
+    "fases de la luna para imprimir gratis",
+    "fases de la luna para imprimir en español",
+    "fases de la luna actividades para imprimir",
+    "fases de la luna letras para imprimir"
+   ]
+  },
+  "fases de la luna preescolar": {
+   "candidate": "space",
+   "s": [
+    "fases de la luna preescolar",
+    "fases de la luna niños preescolar",
+    "planeacion fases de la luna preescolar",
+    "fases de la luna para colorear preescolar",
+    "actividades de fases de la luna para preescolar",
+    "video de las fases de la luna para preescolar",
+    "explicacion de las fases de la luna para preescolar"
+   ]
+  },
+  "fases de la luna primer grado": {
+   "candidate": "space",
+   "s": [
+    "fases de la luna primer grado",
+    "fases de la luna para niños de primer grado",
+    "fases de la luna para primer grado de primaria",
+    "fases de la luna para niños de primer grado de primaria"
+   ]
+  },
+  "fases de la luna segundo grado": {
+   "candidate": "space",
+   "s": [
+    "fases de la luna segundo grado",
+    "fases de la luna segundo grado primaria",
+    "fases de la luna para segundo grado",
+    "actividades fases de la luna segundo grado",
+    "planeacion fases de la luna segundo grado",
+    "fases de la luna libro de segundo grado",
+    "fases de la luna para niños de segundo grado para colorear",
+    "video de las fases de la luna para niños de segundo grado"
+   ]
+  },
+  "fases de la luna primaria": {
+   "candidate": "space",
+   "s": [
+    "fases de la luna primaria",
+    "fases de la luna primaria pdf",
+    "fases de la luna para primaria",
+    "fases de la luna 2 primaria",
+    "actividades fases de la luna primaria",
+    "fases de la luna 5 primaria",
+    "fases de la luna 3 primaria",
+    "fases de la luna 4 primaria",
+    "ejercicios fases de la luna primaria",
+    "fases de la luna 6 primaria"
+   ]
+  },
+  "los colores": {
+   "candidate": "colors",
+   "s": [
+    "los colores del mal negro",
+    "los colores del mal",
+    "los colores en inglés",
+    "los colores del tiempo",
+    "los colores de la montaña",
+    "los colores",
+    "los colores del mal rojo",
+    "los colores primarios",
+    "los colores del arcoiris",
+    "los colores del mal negro reparto"
+   ]
+  },
+  "los colores ficha": {
+   "candidate": "colors",
+   "s": [
+    "los colores fichas",
+    "los colores fichas para imprimir",
+    "los colores ficha de trabajo",
+    "los colores primarios fichas",
+    "los colores en ingles fichas",
+    "los colores en ingles fichas para imprimir",
+    "los colores en frances ficha",
+    "test de los colores ficha tecnica",
+    "los colores en ingles ficha de trabajo",
+    "monstruo de los colores ficha"
+   ]
+  },
+  "los colores para imprimir": {
+   "candidate": "colors",
+   "s": [
+    "los colores para imprimir",
+    "los colores para imprimir pdf",
+    "los colores para imprimir preescolar",
+    "los colores para imprimir en español",
+    "todos los colores para imprimir",
+    "los 12 colores para imprimir",
+    "los colores primarios para imprimir",
+    "los colores fichas para imprimir",
+    "los colores para imprimir para niños",
+    "monstruo de los colores para imprimir"
+   ]
+  },
+  "los colores preescolar": {
+   "candidate": "colors",
+   "s": [
+    "los colores preescolar",
+    "los colores preescolar para imprimir",
+    "los colores preescolar pdf",
+    "los colores preescolar actividades",
+    "los colores. preescolar 1",
+    "los colores para preescolar",
+    "proyecto los colores preescolar",
+    "aprendiendo los colores preescolar",
+    "planeacion los colores preescolar",
+    "los colores primarios preescolar"
+   ]
+  },
+  "los colores primer grado": {
+   "candidate": "colors",
+   "s": [
+    "los colores primer grado",
+    "los colores para primer grado",
+    "los colores primarios primer grado",
+    "los colores primarios para primer grado",
+    "los colores en ingles primer grado",
+    "los colores secundarios para primer grado",
+    "los colores en ingles para primer grado",
+    "actividades de los colores para primer grado",
+    "los colores primarios y secundarios para primer grado",
+    "ejercicio de los colores para primer grado"
+   ]
+  },
+  "los colores segundo grado": {
+   "candidate": "colors",
+   "s": [
+    "los colores para segundo grado",
+    "los colores primarios para segundo grado",
+    "los colores en ingles segundo grado",
+    "los colores secundarios para segundo grado",
+    "los colores para niños de segundo grado",
+    "los colores en inglés para segundo grado de primaria",
+    "los colores primarios para niños de segundo grado",
+    "los colores en inglés para niños de segundo grado"
+   ]
+  },
+  "los colores primaria": {
+   "candidate": "colors",
+   "s": [
+    "los colores primaria",
+    "los colores primaria y secundaria",
+    "los colores primaria en ingles",
+    "los colores para primaria",
+    "los colores de la primaria sud",
+    "cuales son los colores primarias",
+    "los colores de nuestra primaria sud",
+    "los colores de nuestra primaria",
+    "los colores de la primaria sud letra",
+    "los colores de nuestra primaria son rojo amarillo y azul"
+   ]
+  },
+  "colores": {
+   "candidate": "colors",
+   "s": [
+    "colores",
+    "colorescience",
+    "colores primarios",
+    "colores del arcoiris",
+    "colores 6",
+    "colores en sueco",
+    "colores de madera",
+    "colores en ingles",
+    "colores secundarios",
+    "colores complementarios"
+   ]
+  },
+  "colores ficha": {
+   "candidate": "colors",
+   "s": [
+    "colores ficha rj45",
+    "colores fichas poker",
+    "colores ficha de red",
+    "colores fichas",
+    "colores fichas catan",
+    "colores ficha utp",
+    "colores ficha ethernet",
+    "colores ficha internet",
+    "fichas casino colores",
+    "colores fichas tetris"
+   ]
+  },
+  "colores para imprimir": {
+   "candidate": "colors",
+   "s": [
+    "colores para imprimir",
+    "colores para imprimir para niños",
+    "colores para imprimir prueba",
+    "colores para imprimir pdf",
+    "colores para imprimir preescolar",
+    "colores para imprimir en impresora",
+    "colores para imprimir cmyk o rgb",
+    "colores para imprimir epson",
+    "colores para imprimir y probar impresora",
+    "colores para imprimir animados"
+   ]
+  },
+  "colores preescolar": {
+   "candidate": "colors",
+   "s": [
+    "colores preescolar",
+    "colores preescolar para imprimir",
+    "colores preescolar actividades",
+    "colores preescolar pdf",
+    "colores preescolar para colorear",
+    "colores preescolar norma",
+    "colores preescolar wordwall",
+    "colores preescolar 1",
+    "preescolar colores en ingles",
+    "preescolar colores en ingles y español"
+   ]
+  },
+  "colores primer grado": {
+   "candidate": "colors",
+   "s": [
+    "colores primer grado",
+    "colores primarios primer grado",
+    "colores para primer grado",
+    "distingo colores primer grado",
+    "colores secundarios primer grado",
+    "colores primarios para primer grado",
+    "colores en ingles primer grado",
+    "colores secundarios para primer grado",
+    "colores de cuadernos primer grado",
+    "secuencia de colores primer grado"
+   ]
+  },
+  "colores segundo grado": {
+   "candidate": "colors",
+   "s": [
+    "colores primarios segundo grado",
+    "colores para segundo grado",
+    "colores de segundo grado",
+    "colores secundarios segundo grado",
+    "colores secundarios para segundo grado",
+    "colores en ingles segundo grado",
+    "colores terciarios para segundo grado",
+    "colores primarios actividades para segundo grado",
+    "colores para niños de segundo grado",
+    "colores en ingles para segundo grado de primaria"
+   ]
+  },
+  "colores primaria": {
+   "candidate": "colors",
+   "s": [
+    "colores primarias",
+    "colores primarias y secundarias",
+    "colores primarias secundarios y terciarios",
+    "colores primarias cuales son",
+    "colores primaria sud",
+    "colores primarias para niños",
+    "colores primarias en ingles",
+    "primaria colores en ingles actividades",
+    "colores para primaria",
+    "cuantos colores primarias hay"
+   ]
+  },
+  "figuras geométricas": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figuras geométricas",
+    "figuras geométricas 3d",
+    "figuras geometricas para niños",
+    "figuras geométricas y sus nombres",
+    "figuras geométricas con nombre",
+    "figuras geométricas en inglés",
+    "figuras geométricas planas",
+    "figuras geométricas para armar",
+    "figuras geométricas 3d para armar",
+    "figuras geométricas y sus nombres y características"
+   ]
+  },
+  "figuras geométricas ficha": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figuras geométricas fichas",
+    "figuras geometricas fichas para niños",
+    "figuras geometricas ficha de trabajo",
+    "figuras geometricas fichas para imprimir",
+    "figuras geometricas fichas interactivas",
+    "figuras geometricas fichas 5 años",
+    "figuras geometricas en ingles fichas",
+    "figuras geometricas para niños fichas de trabajo",
+    "ficha figuras geometricas infantil",
+    "fichas figuras geometricas preescolar"
+   ]
+  },
+  "figuras geométricas para imprimir": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figuras geométricas para imprimir",
+    "figuras geométricas para imprimir y recortar pdf",
+    "figuras geométricas para imprimir y recortar",
+    "figuras geométricas para imprimir pdf",
+    "figuras geométricas para imprimir y recortar para niños",
+    "figuras geométricas para imprimir en 3d",
+    "figuras geométricas para imprimir grandes",
+    "figuras geométricas para imprimir y armar",
+    "figuras geométricas para imprimir y colorear",
+    "figuras geométricas para imprimir y armar pdf"
+   ]
+  },
+  "figuras geométricas preescolar": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figuras geométricas preescolar",
+    "figuras geométricas preescolar actividades",
+    "figuras geométricas preescolar para imprimir",
+    "figuras geometricas preescolar pdf",
+    "figuras geometricas preescolar pinterest",
+    "figuras geometricas preescolar wordwall",
+    "figuras geometricas preescolar 1",
+    "figuras geometricas preescolar para colorear",
+    "figuras geometricas preescolar online",
+    "figuras geometricas preescolar 2"
+   ]
+  },
+  "figuras geométricas primer grado": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figuras geométricas primer grado pdf",
+    "figuras geométricas primer grado",
+    "figuras geométricas primer grado de primaria",
+    "figuras geometricas primer grado actividades",
+    "figuras geometricas primer grado continuemos estudiando",
+    "figuras geometricas primer grado para imprimir",
+    "figuras geometricas primer grado abc",
+    "figuras geometricas primer grado secuencia",
+    "figuras geometricas primer grado para colorear",
+    "figuras geometricas primer grado wordwall"
+   ]
+  },
+  "figuras geométricas segundo grado": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figuras geométricas segundo grado",
+    "figuras geométricas segundo grado de primaria",
+    "figuras geometricas segundo grado actividades",
+    "figuras geometricas segundo grado liveworksheets",
+    "figuras geometricas segundo grado pdf",
+    "figuras geometricas segundo grado wordwall",
+    "figuras geométricas para segundo grado",
+    "figuras geométricas para segundo grado de primaria",
+    "secuencia figuras geometricas segundo grado",
+    "ejercicios figuras geometricas segundo grado"
+   ]
+  },
+  "figuras geométricas primaria": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figuras geométricas primaria",
+    "figuras geométricas primaria para imprimir",
+    "figuras geometricas primaria pdf",
+    "figuras geometricas primaria actividades",
+    "figuras geometricas primarias y secundarias",
+    "figuras geometricas primaria para niños",
+    "figuras geométricas para primaria",
+    "figuras geométricas 2 primaria",
+    "figuras geometricas 4 primaria",
+    "figuras geométricas 3 primaria"
+   ]
+  },
+  "las figuras geométricas": {
+   "candidate": "2d-shapes",
+   "s": [
+    "las figuras geométricas",
+    "las figuras geométricas en inglés",
+    "las figuras geométricas y sus nombres",
+    "las figuras geométricas para niños",
+    "las figuras geométricas con su nombre",
+    "las figuras geométricas se parecen a objetos de la naturaleza",
+    "las figuras geométricas en 3d",
+    "las figuras geométricas en kaqchikel",
+    "las figuras geométricas son representaciones",
+    "las figuras geométricas y sus características"
+   ]
+  },
+  "las figuras geométricas ficha": {
+   "candidate": "2d-shapes",
+   "s": [
+    "las figuras geometricas fichas",
+    "fichas de las figuras geometricas para niños",
+    "fichas de las figuras geometricas para inicial",
+    "ficha de las figuras geometricas para 5 años",
+    "ficha de las figuras geometricas para 3 años",
+    "fichas de las figuras geometricas para preescolar",
+    "ficha de las figuras geometricas para colorear",
+    "fichas de las figuras geometricas para primer grado",
+    "ficha de las figuras geometricas para 4 años",
+    "ficha de las figuras geometricas en ingles"
+   ]
+  },
+  "las figuras geométricas para imprimir": {
+   "candidate": "2d-shapes",
+   "s": [
+    "las figuras geométricas para imprimir",
+    "todas las figuras geométricas para imprimir",
+    "imagenes de las figuras geometricas para imprimir",
+    "cuento de las figuras geométricas para imprimir",
+    "moldes de las figuras geométricas para imprimir",
+    "plantillas de las figuras geométricas para imprimir",
+    "memorama de las figuras geométricas para imprimir",
+    "nombres de las figuras geométricas para imprimir",
+    "formulas de las figuras geometricas para imprimir",
+    "las figuras geométricas para niños para imprimir"
+   ]
+  },
+  "las figuras geométricas preescolar": {
+   "candidate": "2d-shapes",
+   "s": [
+    "las figuras geométricas preescolar",
+    "aprender las figuras geometricas preescolar",
+    "proyecto las figuras geometricas preescolar",
+    "actividades de las figuras geometricas preescolar",
+    "cancion de las figuras geometricas preescolar",
+    "cuento de las figuras geometricas preescolar",
+    "planeacion de las figuras geometricas preescolar",
+    "video de las figuras geometricas preescolar",
+    "planeación sobre las figuras geométricas preescolar",
+    "las figuras geométricas para niños preescolar"
+   ]
+  },
+  "las figuras geométricas primer grado": {
+   "candidate": "2d-shapes",
+   "s": [
+    "las figuras geométricas primer grado",
+    "las figuras geométricas para primer grado",
+    "planeacion de las figuras geometricas primer grado",
+    "características de las figuras geométricas primer grado",
+    "actividades de las figuras geometricas primer grado",
+    "figuras geométricas primer grado pdf",
+    "figuras geométricas primer grado de primaria",
+    "figuras geometricas primer grado continuemos estudiando",
+    "figuras geometricas primer grado para imprimir",
+    "figuras geometricas primer grado abc"
+   ]
+  },
+  "las figuras geométricas segundo grado": {
+   "candidate": "2d-shapes",
+   "s": [
+    "las figuras geometricas segundo grado",
+    "las figuras geométricas para segundo grado de primaria",
+    "adivinanzas de las figuras geométricas segundo grado",
+    "características de las figuras geométricas segundo grado primaria",
+    "características de las figuras geométricas segundo grado",
+    "figuras geometricas segundo grado de primaria",
+    "figuras geometricas segundo grado liveworksheets",
+    "figuras geometricas segundo grado pdf",
+    "figuras geometricas segundo grado wordwall",
+    "las figuras geometricas para niños de segundo grado"
+   ]
+  },
+  "las figuras geométricas primaria": {
+   "candidate": "2d-shapes",
+   "s": [
+    "las figuras geometricas primaria",
+    "las figuras geométricas 3 primaria",
+    "las figuras geometricas 6 primaria",
+    "formulas de las figuras geometricas primaria",
+    "cuáles son las figuras geométricas primarias",
+    "características de las figuras geométricas primaria",
+    "las figuras geométricas para segundo primaria",
+    "propiedades de las figuras geometricas primaria",
+    "las figuras geometricas para niños de primaria",
+    "las figuras geometricas para primero de primaria"
+   ]
+  },
+  "ch ll rr": {
+   "candidate": "digraphs",
+   "s": [
+    "ch ll rr",
+    "ch ll rr ñ",
+    "ch ll rr qu gu",
+    "ch ll rr in spanish",
+    "abecedario ch ll rr",
+    "digrafos ch ll rr",
+    "abcdefghijklmnñopqrstuvwxyz ch ll rr",
+    "letras ch ll rr",
+    "palabras con ch ll rr",
+    "abecedario incluyendo ch ll rr"
+   ]
+  },
+  "sílabas trabadas": {
+   "candidate": "digraphs",
+   "s": [
+    "sílabas trabadas",
+    "sílabas trabadas para niños",
+    "sílabas trabadas pdf",
+    "sílabas trabadas para imprimir pdf",
+    "sílabas trabadas para imprimir",
+    "sílabas trabadas para imprimir con dibujos pdf",
+    "sílabas trabadas ejemplos",
+    "sílabas trabadas actividades",
+    "sílabas trabadas con l",
+    "sílabas trabadas con r"
+   ]
+  },
+  "sílabas trabadas ficha": {
+   "candidate": "digraphs",
+   "s": [
+    "silabas trabadas fichas",
+    "silabas trabadas fichas de trabajo",
+    "silabas trabadas fichas interactivas",
+    "silabas trabadas fichas pdf",
+    "silabas trabadas fichas para imprimir",
+    "fichas sílabas trabadas e inversas pdf"
+   ]
+  },
+  "sílabas trabadas para imprimir": {
+   "candidate": "digraphs",
+   "s": [
+    "sílabas trabadas para imprimir pdf",
+    "sílabas trabadas para imprimir con dibujos pdf",
+    "sílabas trabadas para imprimir",
+    "sílabas trabadas para imprimir pdf gratis",
+    "sílabas trabadas para imprimir material para maestros",
+    "silabas trabadas para imprimir ejercicios",
+    "silabas trabadas para imprimir gratis",
+    "silabas trabadas para imprimir con dibujos",
+    "silabas trabadas para imprimir llavero",
+    "silabas trabadas para imprimir y formar palabras"
+   ]
+  },
+  "sílabas trabadas preescolar": {
+   "candidate": "digraphs",
+   "s": [
+    "silabas trabadas preescolar",
+    "actividades silabas trabadas preescolar"
+   ]
+  },
+  "sílabas trabadas primer grado": {
+   "candidate": "digraphs",
+   "s": [
+    "silabas trabadas primer grado",
+    "silabas trabadas primer grado pdf",
+    "silabas trabadas para primer grado",
+    "actividad silabas trabadas primer grado",
+    "dictado silabas trabadas primer grado",
+    "silabas trabadas para primer grado primaria",
+    "wordwall silabas trabadas primer grado",
+    "lecturas con sílabas trabadas primer grado",
+    "oraciones con silabas trabadas primer grado",
+    "planeacion de sílabas trabadas primer grado"
+   ]
+  },
+  "sílabas trabadas segundo grado": {
+   "candidate": "digraphs",
+   "s": [
+    "silabas trabadas segundo grado",
+    "silabas trabadas segundo grado primaria",
+    "silabas trabadas para segundo grado",
+    "dictado silabas trabadas segundo grado",
+    "actividades silabas trabadas segundo grado",
+    "silabas trabadas para segundo grado wordwall",
+    "silabas trabadas para segundo grado pdf",
+    "silabas trabadas para segundo grado para imprimir",
+    "video sobre silabas trabadas segundo grado",
+    "cuadernillo de silabas trabadas segundo grado"
+   ]
+  },
+  "sílabas trabadas primaria": {
+   "candidate": "digraphs",
+   "s": [
+    "silabas trabadas primaria dictado de oraciones",
+    "silabas trabadas primaria",
+    "sílabas trabadas 2 primaria pdf",
+    "ejercicios silabas trabadas primaria",
+    "silabas trabadas 2 primaria",
+    "sílabas trabadas 3 primaria",
+    "silabas trabadas 1 primaria",
+    "silabas trabadas 1 primaria pdf",
+    "sílabas trabadas 3 primaria pdf",
+    "silabas trabadas segundo grado primaria"
+   ]
+  },
+  "sinónimos": {
+   "candidate": "synonyms",
+   "s": [
+    "sinónimos",
+    "sinónimos ejemplos",
+    "sinónimos de realizar",
+    "sinónimos de sin embargo",
+    "sinónimos y antónimos",
+    "sinónimos de desarrollar",
+    "sinónimos de solicitar",
+    "sinónimos de constituye",
+    "sinónimos de fortalecer",
+    "sinónimos de disfrutar"
+   ]
+  },
+  "sinónimos ficha": {
+   "candidate": "synonyms",
+   "s": [
+    "sinónimos ficha",
+    "sinónimos fichas para imprimir",
+    "sinonimos fichas de trabajo",
+    "sinonimos fichas primaria",
+    "sinonimos fichas para niños",
+    "ficha sinonimos primer grado",
+    "sinonimos ficha pdf",
+    "sinonimos fichaje",
+    "sinonimos fichas interactivas",
+    "ficha sinonimos y antonimos"
+   ]
+  },
+  "sinónimos para imprimir": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimos para imprimir",
+    "sinónimos fichas para imprimir",
+    "sinonimos imagenes para imprimir",
+    "sinonimos actividades para imprimir",
+    "10 sinónimos para imprimir",
+    "tarjetas de sinonimos para imprimir",
+    "sinonimos y antonimos para imprimir",
+    "bingo de sinonimos para imprimir",
+    "memoria de sinonimos para imprimir",
+    "memorama de sinonimos para imprimir"
+   ]
+  },
+  "sinónimos preescolar": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimos preescolar",
+    "sinonimos para preescolar",
+    "sinonimos actividades preescolar",
+    "sinonimos y antonimos preescolar",
+    "sinonimos para niños preescolar"
+   ]
+  },
+  "sinónimos primer grado": {
+   "candidate": "synonyms",
+   "s": [
+    "sinónimos primer grado",
+    "sinonimos primer grado de primaria",
+    "sinonimos para primer grado",
+    "sinonimos para primer grado de secundaria",
+    "actividades sinonimos primer grado",
+    "sinonimos para primer grado con imagenes",
+    "sinonimos antonimos primer grado",
+    "ficha sinonimos primer grado",
+    "sinónimos ejemplos primer grado",
+    "sinonimos para niños primer grado"
+   ]
+  },
+  "sinónimos segundo grado": {
+   "candidate": "synonyms",
+   "s": [
+    "sinónimos segundo grado",
+    "sinonimos segundo grado de primaria",
+    "sinonimos segundo grado wordwall",
+    "sinónimos para segundo grado",
+    "actividad sinonimos segundo grado",
+    "practica sinonimos segundo grado",
+    "sinonimos antonimos segundo grado",
+    "sinonimos para segundo grado liveworksheets",
+    "sinónimos para segundo grado de secundaria",
+    "ficha sinonimos segundo grado"
+   ]
+  },
+  "sinónimos primaria": {
+   "candidate": "synonyms",
+   "s": [
+    "sinónimos primaria",
+    "sinónimos primaria ejemplos",
+    "sinonimos primaria para niños",
+    "sinonimos primaria ejercicios",
+    "sinonimos primaria pdf",
+    "primaria sinonimos y antonimos",
+    "primaria sinonimos y antonimos ejercicios",
+    "primaria sinónimos con dibujos",
+    "sinonimos 3 primaria",
+    "sinonimos para primaria"
+   ]
+  },
+  "sinónimos y antónimos": {
+   "candidate": "synonyms",
+   "s": [
+    "sinónimos y antónimos",
+    "sinónimos y antónimos ejemplos",
+    "sinonimos y antonimos para niños",
+    "sinónimos y antónimos ejercicios pdf",
+    "sinónimos y antónimos diccionario",
+    "sinónimos y antónimos ejercicios",
+    "sinónimos y antónimos en inglés",
+    "sinónimos y antónimos para niños de tercer grado",
+    "sinónimos y antónimos pdf",
+    "sinónimos y antónimos de palabras"
+   ]
+  },
+  "sinónimos y antónimos ficha": {
+   "candidate": "synonyms",
+   "s": [
+    "sinónimos y antónimos ficha",
+    "sinonimos y antonimos fichas para imprimir",
+    "sinonimos y antonimos ficha interactiva",
+    "sinonimos y antonimos ficha de trabajo",
+    "sinonimos y antonimos ficha 5 primaria",
+    "sinonimos y antonimos ficha pdf",
+    "ficha sinonimos y antonimos 3 primaria",
+    "ficha sinonimos y antonimos 2 primaria",
+    "ficha sinonimos y antonimos 6 primaria",
+    "ficha sinonimos y antonimos 4 primaria"
+   ]
+  },
+  "sinónimos y antónimos para imprimir": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimos y antonimos para imprimir",
+    "sinonimos y antonimos para imprimir 6 primaria",
+    "sinonimos y antonimos fichas para imprimir",
+    "crucigrama sinonimos y antonimos para imprimir",
+    "sinonimos y antonimos ejercicios para imprimir",
+    "juego de sinónimos y antónimos para imprimir",
+    "imagenes de sinónimos y antónimos para imprimir",
+    "loteria de sinonimos y antonimos para imprimir",
+    "guias de sinónimos y antónimos para imprimir",
+    "dominó de sinónimos y antónimos para imprimir"
+   ]
+  },
+  "sinónimos y antónimos preescolar": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimos y antonimos preescolar",
+    "sinonimos y antonimos para niños de preescolar"
+   ]
+  },
+  "sinónimos y antónimos primer grado": {
+   "candidate": "synonyms",
+   "s": [
+    "sinónimos y antónimos primer grado",
+    "sinonimos y antonimos primer grado primaria",
+    "sinonimos y antonimos para primer grado de secundaria",
+    "actividades sinonimos y antonimos primer grado",
+    "sinonimos y antonimos para niños primer grado",
+    "examen de sinonimos y antonimos para primer grado",
+    "ficha de sinonimos y antonimos para primer grado",
+    "ejemplos de sinónimos y antónimos para primer grado"
+   ]
+  },
+  "sinónimos y antónimos segundo grado": {
+   "candidate": "synonyms",
+   "s": [
+    "sinónimos y antónimos segundo grado",
+    "sinonimos y antonimos segundo grado de primaria",
+    "sinonimos y antonimos segundo grado liveworksheets",
+    "actividades sinonimos y antonimos segundo grado",
+    "sinonimos y antonimos para segundo grado de secundaria",
+    "taller sinonimos y antonimos grado segundo",
+    "evaluacion sinonimos y antonimos grado segundo",
+    "sinonimos y antonimos para niños segundo grado",
+    "guia sinonimos y antonimos grado segundo"
+   ]
+  },
+  "sinónimos y antónimos primaria": {
+   "candidate": "synonyms",
+   "s": [
+    "sinónimos y antónimos primaria",
+    "sinonimos y antonimos primaria pdf",
+    "sinonimos y antonimos 5 primaria",
+    "sinónimos y antónimos 1 primaria",
+    "sinonimos y antonimos 3 primaria",
+    "sinonimos y antonimos 2 primaria",
+    "sinonimos y antonimos 6 primaria",
+    "sinonimos y antonimos 4 primaria",
+    "sinónimos y antónimos 5 primaria pdf",
+    "sinónimos y antónimos 2 primaria pdf"
+   ]
+  },
+  "palabras homófonas": {
+   "candidate": "homophones",
+   "s": [
+    "palabras homófonas",
+    "palabras homófonas ejemplos 100",
+    "palabras homófonas ejemplos",
+    "palabras homófonas y homógrafas",
+    "palabras homófonas con su significado",
+    "palabras homófonas y homónimas",
+    "palabras homófonas con su dibujo",
+    "palabras homófonas con b y v",
+    "palabras homófonas en inglés",
+    "palabras homófonas 10 ejemplos"
+   ]
+  },
+  "palabras homófonas ficha": {
+   "candidate": "homophones",
+   "s": [
+    "palabras homofonas ficha",
+    "palabras homofonas fichas para imprimir",
+    "palabras homofonas ficha de trabajo",
+    "fichas palabras homofonas y homografas",
+    "fichas palabras homofonas 4 primaria",
+    "ficha palabras homofonas 5 primaria pdf",
+    "fichas palabras homofonas 5 primaria",
+    "ficha palabras homofonas 2 primaria",
+    "fichas palabras homofonas 4 primaria pdf"
+   ]
+  },
+  "palabras homófonas para imprimir": {
+   "candidate": "homophones",
+   "s": [
+    "palabras homofonas para imprimir",
+    "palabras homofonas ejercicios para imprimir",
+    "palabras homofonas fichas para imprimir",
+    "sopa de letras con palabras homófonas para imprimir",
+    "ejercicios de palabras homófonas y homógrafas para imprimir",
+    "ejercicios de palabras homofonas con csz para imprimir",
+    "ejercicios de palabras homofonas y homografas para imprimir secundaria"
+   ]
+  },
+  "palabras homófonas primer grado": {
+   "candidate": "homophones",
+   "s": [
+    "palabras homofonas primer grado",
+    "palabras homofonas para primer grado"
+   ]
+  },
+  "palabras homófonas segundo grado": {
+   "candidate": "homophones",
+   "s": [
+    "palabras homofonas segundo grado",
+    "palabras homófonas para segundo grado de primaria",
+    "ejercicios de palabras homofonas para segundo grado"
+   ]
+  },
+  "palabras homófonas primaria": {
+   "candidate": "homophones",
+   "s": [
+    "palabras homófonas primaria",
+    "palabras homofonas primaria ejercicios",
+    "palabras homofonas 4 primaria",
+    "palabras homofonas 5 primaria",
+    "palabras homófonas 4 primaria pdf",
+    "palabras homófonas para primaria",
+    "palabras homófonas actividades primaria",
+    "palabras homofonas 2 primaria",
+    "palabras homofonas 6 primaria",
+    "palabras homofonas 5 primaria pdf"
+   ]
+  },
+  "hay ahí ay": {
+   "candidate": "homophones",
+   "s": [
+    "hay ahí ay",
+    "hay ahí ay significado",
+    "hay ahí ay allí",
+    "hay ahí ay ejemplos",
+    "hay ahí ay diferencia",
+    "hay ahí ay meme",
+    "hay ahí ay ejemplos español",
+    "hay ahí ay para niños",
+    "hay ahí ay ejercicios",
+    "hay ahí ay allí ejemplos"
+   ]
+  },
+  "hay ahí ay ficha": {
+   "candidate": "homophones",
+   "s": [
+    "ahi hay ay ficha",
+    "ficha interactiva hay ahi ay"
+   ]
+  },
+  "educación vial": {
+   "candidate": "road-safety",
+   "s": [
+    "educación vial",
+    "educación vial citas",
+    "educación vial cosevi",
+    "educación vial para niños de primaria",
+    "educacion vial para niños",
+    "educación vial costa rica",
+    "educación vial rio grande",
+    "educación vial citas prácticas",
+    "educación vial prueba práctica",
+    "educación vial go cr"
+   ]
+  },
+  "educación vial ficha": {
+   "candidate": "road-safety",
+   "s": [
+    "educacion vial fichas",
+    "educacion vial ficha de trabajo",
+    "fichas educacion vial para niños",
+    "fichas educacion vial para niños actividades",
+    "ficha educacion vial primaria",
+    "fichas educacion vial infantil",
+    "fichas educación vial para niños para imprimir"
+   ]
+  },
+  "educación vial para imprimir": {
+   "candidate": "road-safety",
+   "s": [
+    "educación vial para imprimir",
+    "educación vial actividades para imprimir",
+    "imágenes de educación vial para imprimir",
+    "caratula de educación vial para imprimir",
+    "fichas de educación vial para imprimir",
+    "rompecabezas de educacion vial para imprimir",
+    "señales de educación vial para imprimir",
+    "dibujos de educación vial para imprimir",
+    "educacion vial para niños actividades para imprimir",
+    "fichas educación vial para niños para imprimir"
+   ]
+  },
+  "educación vial preescolar": {
+   "candidate": "road-safety",
+   "s": [
+    "educación vial preescolar",
+    "educacion vial preescolar actividades",
+    "proyecto educacion vial preescolar",
+    "planeacion educacion vial preescolar"
+   ]
+  },
+  "educación vial primer grado": {
+   "candidate": "road-safety",
+   "s": [
+    "educacion vial primer grado",
+    "educación vial para primer grado de primaria",
+    "proyecto educacion vial primer grado",
+    "secuencia didactica educacion vial primer grado",
+    "sesion de educacion vial primer grado",
+    "actividades de educación vial para primer grado"
+   ]
+  },
+  "educación vial segundo grado": {
+   "candidate": "road-safety",
+   "s": [
+    "educación vial segundo grado",
+    "educación vial para segundo grado de primaria",
+    "clase preparada educación vial grado segundo primaria",
+    "actividades de educacion vial para segundo grado",
+    "proyecto de educación vial para segundo grado"
+   ]
+  },
+  "educación vial primaria": {
+   "candidate": "road-safety",
+   "s": [
+    "educación vial primaria",
+    "educación vial primaria pdf",
+    "educación vial primaria actividades",
+    "proyecto educación vial primaria",
+    "educacion vial niños primaria",
+    "ficha educacion vial primaria",
+    "educación vial 3 primaria",
+    "educacion vial segundo de primaria",
+    "sesion de educacion vial primaria",
+    "educacion vial primero de primaria"
+   ]
+  },
+  "señales de tránsito": {
+   "candidate": "road-safety",
+   "s": [
+    "señales de transito",
+    "señales de tránsito y sus nombres",
+    "señales de transito y su significado",
+    "señales de tránsito en méxico",
+    "señales de transito preventivas",
+    "señales de transito informativas",
+    "señales de tránsito y su significado pdf",
+    "señales de transito restrictivas",
+    "señales de tránsito para niños de primaria",
+    "señales de transito para niños"
+   ]
+  },
+  "señales de tránsito ficha": {
+   "candidate": "road-safety",
+   "s": [
+    "señales de transito ficha",
+    "señales de transito ficha para niños",
+    "señales de transito ficha de trabajo",
+    "actividades fichas señales de transito para niños",
+    "ficha de señales de transito para colorear",
+    "ficha sobre señales de transito",
+    "ficha tecnica de señales de transito"
+   ]
+  },
+  "señales de tránsito para imprimir": {
+   "candidate": "road-safety",
+   "s": [
+    "señales de tránsito para imprimir pdf",
+    "señales de transito para imprimir",
+    "señales de transito para imprimir y recortar",
+    "señales de transito para imprimir grandes",
+    "señales de tránsito para imprimir y colorear",
+    "señales de transito para imprimir argentina",
+    "señales de transito para imprimir maqueta",
+    "señales de transito para imprimir en blanco y negro",
+    "señales de transito para imprimir colombia",
+    "señales de transito para imprimir y armar"
+   ]
+  },
+  "señales de tránsito preescolar": {
+   "candidate": "road-safety",
+   "s": [
+    "señales de transito preescolar",
+    "señales de transito preescolar actividades",
+    "señales de transito para preescolar para colorear",
+    "planeacion señales de transito preescolar",
+    "señales de transito para niños preescolar",
+    "hoja de trabajo señales de transito preescolar",
+    "preescolar señales de transito informativas para niños para colorear",
+    "proyecto de señales de tránsito para preescolar",
+    "imagenes de señales de transito para preescolar",
+    "preescolar dibujos señales de transito para niños"
+   ]
+  },
+  "señales de tránsito primer grado": {
+   "candidate": "road-safety",
+   "s": [
+    "señales de transito primer grado",
+    "señales de transito para primer grado",
+    "señales de transito primer grado de primaria",
+    "sesión de aprendizaje señales de tránsito primer grado",
+    "actividades de señales de transito para primer grado",
+    "imágenes de señales de tránsito para niños de primer grado",
+    "fichas de señales de transito para primer grado de primaria"
+   ]
+  },
+  "señales de tránsito segundo grado": {
+   "candidate": "road-safety",
+   "s": [
+    "señales de transito segundo grado",
+    "señales de transito para segundo grado",
+    "señales de transito para niños de segundo grado",
+    "señales de transito para segundo grado de primaria",
+    "actividades sobre las señales de tránsito grado segundo",
+    "imágenes de señales de tránsito para niños de segundo grado"
+   ]
+  },
+  "señales de tránsito primaria": {
+   "candidate": "road-safety",
+   "s": [
+    "señales de transito primaria",
+    "señales de transito para primaria",
+    "señales de transito tercero primaria",
+    "señales de transito segundo primaria",
+    "señales de transito actividades para primaria",
+    "señales de transito primero de primaria",
+    "señales de transito para niños primaria",
+    "señales de transito para niños de primaria peru",
+    "señales de tránsito para niños de primaria para colorear",
+    "señales de transito para cuarto de primaria"
+   ]
+  },
+  "los continentes": {
+   "candidate": "maps",
+   "s": [
+    "los continentes",
+    "los continentes del mundo",
+    "los continentes y los océanos",
+    "los continentes para niños",
+    "los continentes de la tierra",
+    "los continentes y sus países",
+    "los continentes de américa",
+    "los continentes del mundo para niños",
+    "los continentes en ingles",
+    "los continentes en el mapa"
+   ]
+  },
+  "los continentes ficha": {
+   "candidate": "maps",
+   "s": [
+    "los continentes ficha",
+    "los continentes ficha de trabajo",
+    "los continentes fichas para imprimir",
+    "los continentes para niños fichas",
+    "origen de los continentes ficha",
+    "ficha los continentes y oceanos",
+    "ficha los continentes del mundo"
+   ]
+  },
+  "los continentes para imprimir": {
+   "candidate": "maps",
+   "s": [
+    "los continentes para imprimir",
+    "los continentes para imprimir pdf",
+    "los continentes para imprimir y colorear",
+    "los 5 continentes para imprimir",
+    "los 6 continentes para imprimir",
+    "los continentes fichas para imprimir",
+    "los 7 continentes para imprimir",
+    "todos los continentes para imprimir",
+    "mapa de los continentes para imprimir",
+    "mapa de los continentes para imprimir pdf"
+   ]
+  },
+  "los continentes preescolar": {
+   "candidate": "maps",
+   "s": [
+    "los continentes para preescolar",
+    "los continentes para niños de preescolar",
+    "los continentes para niños en preescolar mundo kuku"
+   ]
+  },
+  "los continentes primer grado": {
+   "candidate": "maps",
+   "s": [
+    "los continentes primer grado",
+    "los continentes para primer grado de primaria",
+    "ficha de los continentes para primer grado"
+   ]
+  },
+  "los continentes segundo grado": {
+   "candidate": "maps",
+   "s": [
+    "los continentes segundo grado",
+    "los continentes para segundo grado de primaria",
+    "los continentes para segundo grado",
+    "los continentes y oceanos para segundo grado de primaria",
+    "ficha de los continentes para segundo grado de primaria"
+   ]
+  },
+  "los continentes primaria": {
+   "candidate": "maps",
+   "s": [
+    "los continentes primaria",
+    "los continentes primaria pdf",
+    "los continentes para primaria",
+    "los continentes 3 primaria",
+    "los continentes 2 primaria",
+    "los continentes 4 primaria",
+    "proyecto los continentes primaria",
+    "examen de los continentes primaria",
+    "los continentes explicado para primaria",
+    "los continentes quinto de primaria"
+   ]
+  },
+  "puntos cardinales": {
+   "candidate": "maps",
+   "s": [
+    "puntos cardinales",
+    "puntos cardinales para niños",
+    "puntos cardinales en ingles",
+    "puntos cardinales en el mapa",
+    "puntos cardinales españa",
+    "puntos cardinales de argentina",
+    "puntos cardinales chile",
+    "puntos cardinales de colombia",
+    "puntos cardinales oriente y poniente",
+    "puntos cardinales del peru"
+   ]
+  },
+  "puntos cardinales ficha": {
+   "candidate": "maps",
+   "s": [
+    "puntos cardinales ficha",
+    "puntos cardinales fichas para niños",
+    "puntos cardinales ficha de trabajo"
+   ]
+  },
+  "puntos cardinales para imprimir": {
+   "candidate": "maps",
+   "s": [
+    "puntos cardinales para imprimir",
+    "ejercicios puntos cardinales para imprimir",
+    "puntos cardinales para niños imprimir",
+    "imagen de puntos cardinales para imprimir"
+   ]
+  },
+  "puntos cardinales preescolar": {
+   "candidate": "maps",
+   "s": [
+    "puntos cardinales preescolar"
+   ]
+  },
+  "puntos cardinales primer grado": {
+   "candidate": "maps",
+   "s": [
+    "puntos cardinales primer grado",
+    "puntos cardinales para primer grado de primaria",
+    "actividades puntos cardinales primer grado",
+    "actividades de puntos cardinales para primer grado",
+    "concepto de puntos cardinales para primer grado",
+    "ficha de los puntos cardinales para primer grado"
+   ]
+  },
+  "puntos cardinales segundo grado": {
+   "candidate": "maps",
+   "s": [
+    "puntos cardinales segundo grado",
+    "puntos cardinales segundo grado de primaria",
+    "puntos cardinales para segundo grado",
+    "practica puntos cardinales segundo grado",
+    "actividad puntos cardinales segundo grado",
+    "puntos cardinales para niños segundo grado",
+    "evaluacion puntos cardinales grado segundo",
+    "taller puntos cardinales grado segundo",
+    "guia puntos cardinales grado segundo",
+    "ejercicios de puntos cardinales para segundo grado"
+   ]
+  },
+  "puntos cardinales primaria": {
+   "candidate": "maps",
+   "s": [
+    "puntos cardinales primaria",
+    "puntos cardinales actividades primaria",
+    "puntos cardinales 4 primaria",
+    "puntos cardinales segundo primaria",
+    "puntos cardinales 3 primaria",
+    "puntos cardinales ejercicios primaria",
+    "puntos cardinales primero primaria",
+    "puntos cardinales niños de primaria",
+    "puntos cardinales para segundo primaria",
+    "puntos cardinales grado tercero primaria"
+   ]
+  },
+  "la familia": {
+   "candidate": "family",
+   "s": [
+    "la familia ingalls",
+    "la familia del futuro",
+    "la familia farsta",
+    "la familia romand",
+    "la familia",
+    "la familia peluche",
+    "la familia peluche reparto",
+    "la familia del barrio",
+    "la familia de mi novia",
+    "la familia benetton 2"
+   ]
+  },
+  "la familia ficha": {
+   "candidate": "family",
+   "s": [
+    "la familia fichas para imprimir",
+    "la familia ficha",
+    "la familia ficha de trabajo",
+    "la familia fichas para niños",
+    "la familia ficha primer grado",
+    "la familia ficha para colorear",
+    "la familia ficha interactiva",
+    "la familia ficha de aplicacion",
+    "la familia ficha segundo grado",
+    "la sagrada familia fichas"
+   ]
+  },
+  "la familia para imprimir": {
+   "candidate": "family",
+   "s": [
+    "la familia para imprimir",
+    "la familia para imprimir y colorear",
+    "la familia fichas para imprimir",
+    "la sagrada familia para imprimir",
+    "la familia guácatela para imprimir",
+    "la palabra familia para imprimir",
+    "la familia imagenes para imprimir",
+    "la familia letras para imprimir",
+    "la familia animada para imprimir",
+    "la familia dedo para imprimir"
+   ]
+  },
+  "la familia preescolar": {
+   "candidate": "family",
+   "s": [
+    "la familia preescolar",
+    "la familia preescolar actividades",
+    "la familia para preescolar",
+    "planeacion la familia preescolar",
+    "proyecto la familia preescolar",
+    "tema la familia preescolar",
+    "la familia grado preescolar",
+    "plan la familia preescolar",
+    "cancion la familia preescolar",
+    "cuento la familia preescolar"
+   ]
+  },
+  "la familia primer grado": {
+   "candidate": "family",
+   "s": [
+    "la familia primer grado",
+    "la familia primer grado de primaria",
+    "la familia primer grado actividades",
+    "la familia para primer grado",
+    "secuencia la familia primer grado",
+    "la sagrada familia primer grado",
+    "la familia escolar primer grado",
+    "proyecto la familia primer grado",
+    "tema la familia primer grado",
+    "la familia ficha primer grado"
+   ]
+  },
+  "la familia segundo grado": {
+   "candidate": "family",
+   "s": [
+    "la familia segundo grado",
+    "la familia segundo grado de primaria",
+    "la familia para segundo grado",
+    "secuencia la familia segundo grado",
+    "tema la familia segundo grado",
+    "la sagrada familia segundo grado",
+    "la familia ficha segundo grado",
+    "la familia escolar segundo grado",
+    "la familia escolar para segundo grado",
+    "la familia actividades para segundo grado"
+   ]
+  },
+  "la familia primaria": {
+   "candidate": "family",
+   "s": [
+    "la familia primaria",
+    "la familia para primaria",
+    "proyecto la familia primaria",
+    "la familia primero primaria",
+    "la familia 4to primaria",
+    "la familia 5to primaria",
+    "la familia segundo primaria",
+    "la sagrada familia primaria",
+    "tema la familia primaria",
+    "la familia tercero primaria"
+   ]
+  },
+  "árbol genealógico": {
+   "candidate": "family",
+   "s": [
+    "árbol genealógico",
+    "árbol genealógico familiar",
+    "árbol genealógico targaryen",
+    "árbol genealógico en inglés",
+    "árbol genealógico gratis",
+    "árbol genealógico de los buendía",
+    "árbol genealógico familiar completo",
+    "arbol genealogico cien años de soledad",
+    "árbol genealógico creativo",
+    "árbol genealógico creativo a mano"
+   ]
+  },
+  "árbol genealógico ficha": {
+   "candidate": "family",
+   "s": [
+    "arbol genealogico ficha",
+    "arbol genealogico ficha de trabajo",
+    "arbol genealogico fichas para trabajar la familia",
+    "mi arbol genealogico ficha",
+    "arbol genealogico para niños ficha",
+    "ficha arbol genealogico primaria",
+    "ficha arbol genealogico inicial"
+   ]
+  },
+  "árbol genealógico para imprimir": {
+   "candidate": "family",
+   "s": [
+    "árbol genealógico para imprimir",
+    "árbol genealógico para imprimir y rellenar",
+    "árbol genealógico para imprimir grande",
+    "árbol genealógico para imprimir pdf",
+    "árbol genealógico para imprimir letras",
+    "árbol genealógico para imprimir y rellenar en ingles",
+    "arbol genealogico para imprimir para niños",
+    "árbol genealógico para imprimir blanco y negro",
+    "árbol genealógico para imprimir a color",
+    "árbol genealógico para imprimir en inglés"
+   ]
+  },
+  "árbol genealógico preescolar": {
+   "candidate": "family",
+   "s": [
+    "árbol genealógico preescolar",
+    "arbol genealogico para preescolar",
+    "actividad arbol genealogico preescolar",
+    "manualidad arbol genealogico preescolar",
+    "mi arbol genealogico preescolar",
+    "arbol genealogico creativo preescolar",
+    "árbol genealógico familiar preescolar",
+    "proyecto arbol genealogico preescolar",
+    "arbol genealógico niños preescolar",
+    "planeacion arbol genealogico preescolar"
+   ]
+  },
+  "árbol genealógico primer grado": {
+   "candidate": "family",
+   "s": [
+    "árbol genealógico primer grado",
+    "arbol genealogico primer grado de primaria",
+    "árbol genealógico para primer grado",
+    "arbol genealogico para primer grado de primaria",
+    "mi arbol genealogico primer grado",
+    "sesion del arbol genealogico primer grado",
+    "arbol genealogico niños de primer grado",
+    "árbol genealógico familiar para primer grado",
+    "arbol genealogico de la familia primer grado"
+   ]
+  },
+  "árbol genealógico segundo grado": {
+   "candidate": "family",
+   "s": [
+    "árbol genealógico segundo grado",
+    "arbol genealogico segundo grado primaria",
+    "mi arbol genealogico segundo grado de primaria",
+    "arbol genealogico para niños segundo grado",
+    "arbol genealogico hasta el.segundo grado",
+    "árbol genealógico para niños de segundo grado de primaria",
+    "sesión de aprendizaje árbol genealógico segundo grado",
+    "sesion de arbol genealogico para segundo grado",
+    "cómo hacer un árbol genealógico de segundo grado",
+    "cómo hacer un árbol genealógico para segundo grado de primaria"
+   ]
+  },
+  "árbol genealógico primaria": {
+   "candidate": "family",
+   "s": [
+    "árbol genealógico primaria",
+    "arbol genealogico primaria ingles",
+    "arbol genealogico primaria sud",
+    "árbol genealógico para primaria",
+    "arbol genealogico niños primaria",
+    "actividad arbol genealogico primaria",
+    "arbol genealogico 2 primaria",
+    "arbol genealogico familiar primaria",
+    "proyecto árbol genealógico primaria",
+    "arbol genealogico 1 primaria"
+   ]
+  }
+ }
+}

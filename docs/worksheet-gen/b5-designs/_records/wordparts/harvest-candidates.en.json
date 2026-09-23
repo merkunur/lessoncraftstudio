@@ -1,0 +1,330 @@
+{
+ "locale": "en",
+ "market": {
+  "hl": "en",
+  "gl": "us"
+ },
+ "generatedAt": "2026-09-23T00:18:34.435Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds-wordparts.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "word-parts": {
+   "heads": [
+    "prefixes and suffixes",
+    "root words"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 115,
+   "suggestions": [
+    "10 prefixes and suffixes",
+    "20 root words with prefixes and suffixes",
+    "3rd grade root words",
+    "common prefixes and suffixes 2nd grade",
+    "common prefixes and suffixes 3rd grade",
+    "hebrew prefixes and suffixes chart printable",
+    "latin root words 3rd grade",
+    "pre prefix words 3rd grade",
+    "prefix and suffix bingo printable",
+    "prefix and suffix flashcards printable free",
+    "prefix and suffix games 3rd grade",
+    "prefix and suffix games printable",
+    "prefix and suffix grade 1 worksheet",
+    "prefix and suffix grade 3 ppt",
+    "prefix and suffix grade 3 worksheets with answers",
+    "prefix and suffix list 2nd grade",
+    "prefix and suffix worksheets 1st grade",
+    "prefix and suffix worksheets 2nd grade pdf",
+    "prefix non words 3rd grade",
+    "prefix pre words 2nd grade",
+    "prefix re words 2nd grade",
+    "prefix un words 2nd grade",
+    "prefix un words 3rd grade",
+    "prefix words 2nd grade",
+    "prefix words 3rd grade",
+    "prefix words for 1st grade",
+    "prefix words grade 1",
+    "prefixes and suffixes",
+    "prefixes and suffixes 1st grade",
+    "prefixes and suffixes 2nd grade",
+    "prefixes and suffixes 2nd grade worksheet",
+    "prefixes and suffixes 3rd grade",
+    "prefixes and suffixes 3rd grade video",
+    "prefixes and suffixes 3rd grade worksheets",
+    "prefixes and suffixes anchor chart 2nd grade",
+    "prefixes and suffixes anchor chart printable",
+    "prefixes and suffixes examples",
+    "prefixes and suffixes exercises",
+    "prefixes and suffixes exercises with answers pdf",
+    "prefixes and suffixes first grade",
+    "prefixes and suffixes for kindergarten",
+    "prefixes and suffixes free printable worksheets",
+    "prefixes and suffixes grade 1",
+    "prefixes and suffixes grade 3",
+    "prefixes and suffixes grade 3 worksheets",
+    "prefixes and suffixes list",
+    "prefixes and suffixes list for 1st grade",
+    "prefixes and suffixes list pdf",
+    "prefixes and suffixes list with examples",
+    "prefixes and suffixes meaning",
+    "prefixes and suffixes meaning in hindi",
+    "prefixes and suffixes printable",
+    "prefixes and suffixes printable worksheets",
+    "prefixes and suffixes video for 2nd grade",
+    "prefixes and suffixes word list for 2nd grade",
+    "prefixes and suffixes worksheets",
+    "prefixes and suffixes worksheets grade 2",
+    "prefixes and suffixes worksheets grade 3",
+    "prefixes and suffixes worksheets grade 4",
+    "prefixes and suffixes worksheets grade 5",
+    "prefixes and suffixes worksheets grade 6",
+    "prefixes and suffixes worksheets grade 7",
+    "prefixes and suffixes worksheets grade 8",
+    "prefixes and suffixes worksheets pdf",
+    "prefixes and suffixes worksheets with answers",
+    "printable medical terminology prefixes and suffixes list",
+    "printable stories with prefixes and suffixes",
+    "related root words 2nd grade",
+    "root word anchor chart 2nd grade",
+    "root word definition 3rd grade",
+    "root word examples 2nd grade",
+    "root word examples 3rd grade",
+    "root word worksheets 6th grade",
+    "root word worksheets high school",
+    "root words",
+    "root words 1st grade",
+    "root words 2nd grade",
+    "root words 3rd grade",
+    "root words 3rd grade worksheets",
+    "root words examples",
+    "root words grade 1",
+    "root words grade 1 worksheet",
+    "root words grade 3",
+    "root words in english",
+    "root words kindergarten",
+    "root words list",
+    "root words list 2nd grade",
+    "root words list 3rd grade",
+    "root words meaning",
+    "root words medical terminology",
+    "root words pdf",
+    "root words prefixes and suffixes",
+    "root words prefixes and suffixes list",
+    "root words video 2nd grade",
+    "root words worksheet grade 1",
+    "root words worksheet grade 2",
+    "root words worksheet grade 3",
+    "root words worksheet grade 4",
+    "root words worksheet grade 4 pdf",
+    "root words worksheet grade 5",
+    "root words worksheet grade 6",
+    "root words worksheet pdf",
+    "root words worksheet with answers",
+    "root words worksheets",
+    "root words worksheets for grade 1",
+    "root words worksheets for grade 2",
+    "root words worksheets for grade 3",
+    "root words worksheets for grade 4",
+    "root words worksheets for kindergarten",
+    "root words worksheets pdf",
+    "root words worksheets with answers pdf",
+    "teaching prefixes and suffixes 2nd grade",
+    "teaching prefixes and suffixes 3rd grade",
+    "what is a prefix and a suffix examples",
+    "words with prefixes and suffixes 2nd grade"
+   ]
+  }
+ },
+ "suggestions": {
+  "prefixes and suffixes": {
+   "candidate": "word-parts",
+   "s": [
+    "prefixes and suffixes",
+    "prefixes and suffixes list",
+    "prefixes and suffixes worksheets",
+    "prefixes and suffixes examples",
+    "prefixes and suffixes meaning",
+    "prefixes and suffixes exercises with answers pdf",
+    "prefixes and suffixes list with examples",
+    "prefixes and suffixes exercises",
+    "prefixes and suffixes meaning in hindi",
+    "prefixes and suffixes list pdf"
+   ]
+  },
+  "prefixes and suffixes worksheets": {
+   "candidate": "word-parts",
+   "s": [
+    "prefixes and suffixes worksheets",
+    "prefixes and suffixes worksheets grade 4",
+    "prefixes and suffixes worksheets pdf",
+    "prefixes and suffixes worksheets with answers",
+    "prefixes and suffixes worksheets grade 6",
+    "prefixes and suffixes worksheets grade 5",
+    "prefixes and suffixes worksheets grade 3",
+    "prefixes and suffixes worksheets grade 2",
+    "prefixes and suffixes worksheets grade 7",
+    "prefixes and suffixes worksheets grade 8"
+   ]
+  },
+  "prefixes and suffixes printable": {
+   "candidate": "word-parts",
+   "s": [
+    "prefixes and suffixes printable worksheets",
+    "prefixes and suffixes printable",
+    "prefixes and suffixes free printable worksheets",
+    "prefixes and suffixes anchor chart printable",
+    "prefix and suffix flashcards printable free",
+    "prefix and suffix games printable",
+    "prefix and suffix bingo printable",
+    "hebrew prefixes and suffixes chart printable",
+    "printable medical terminology prefixes and suffixes list",
+    "printable stories with prefixes and suffixes"
+   ]
+  },
+  "prefixes and suffixes kindergarten": {
+   "candidate": "word-parts",
+   "s": [
+    "prefixes and suffixes for kindergarten",
+    "10 prefixes and suffixes",
+    "20 root words with prefixes and suffixes"
+   ]
+  },
+  "prefixes and suffixes 1st grade": {
+   "candidate": "word-parts",
+   "s": [
+    "prefixes and suffixes 1st grade",
+    "prefixes and suffixes first grade",
+    "prefixes and suffixes grade 1",
+    "prefix and suffix worksheets 1st grade",
+    "prefix and suffix grade 1 worksheet",
+    "prefixes and suffixes list for 1st grade",
+    "what is a prefix and a suffix examples"
+   ]
+  },
+  "prefixes and suffixes 2nd grade": {
+   "candidate": "word-parts",
+   "s": [
+    "prefixes and suffixes 2nd grade",
+    "prefixes and suffixes 2nd grade worksheet",
+    "common prefixes and suffixes 2nd grade",
+    "teaching prefixes and suffixes 2nd grade",
+    "prefix and suffix worksheets 2nd grade pdf",
+    "prefix and suffix list 2nd grade",
+    "prefixes and suffixes video for 2nd grade",
+    "words with prefixes and suffixes 2nd grade",
+    "prefixes and suffixes anchor chart 2nd grade",
+    "prefixes and suffixes word list for 2nd grade"
+   ]
+  },
+  "prefixes and suffixes 3rd grade": {
+   "candidate": "word-parts",
+   "s": [
+    "prefixes and suffixes 3rd grade",
+    "prefixes and suffixes 3rd grade worksheets",
+    "prefixes and suffixes 3rd grade video",
+    "prefixes and suffixes grade 3",
+    "prefixes and suffixes grade 3 worksheets",
+    "prefix and suffix grade 3 worksheets with answers",
+    "prefix and suffix grade 3 ppt",
+    "teaching prefixes and suffixes 3rd grade",
+    "common prefixes and suffixes 3rd grade",
+    "prefix and suffix games 3rd grade"
+   ]
+  },
+  "root words": {
+   "candidate": "word-parts",
+   "s": [
+    "root words",
+    "root words in english",
+    "root words list",
+    "root words prefixes and suffixes",
+    "root words examples",
+    "root words meaning",
+    "root words pdf",
+    "root words medical terminology",
+    "root words prefixes and suffixes list",
+    "root words grade 3"
+   ]
+  },
+  "root words worksheets": {
+   "candidate": "word-parts",
+   "s": [
+    "root words worksheets",
+    "root words worksheets with answers pdf",
+    "root words worksheets for grade 3",
+    "root words worksheets for grade 4",
+    "root words worksheets pdf",
+    "root words worksheets for kindergarten",
+    "root words worksheets for grade 1",
+    "root words worksheets for grade 2",
+    "root word worksheets high school",
+    "root word worksheets 6th grade"
+   ]
+  },
+  "root words printable": {
+   "candidate": "word-parts",
+   "s": [
+    "root words worksheet grade 3",
+    "root words worksheet grade 4",
+    "root words worksheets with answers pdf",
+    "root words worksheet grade 2",
+    "root words worksheet grade 1",
+    "root words worksheet grade 5",
+    "root words worksheet grade 4 pdf",
+    "root words worksheet pdf",
+    "root words worksheet with answers",
+    "root words worksheet grade 6"
+   ]
+  },
+  "root words kindergarten": {
+   "candidate": "word-parts",
+   "s": [
+    "root words kindergarten",
+    "root words worksheets for kindergarten",
+    "3rd grade root words"
+   ]
+  },
+  "root words 1st grade": {
+   "candidate": "word-parts",
+   "s": [
+    "root words 1st grade",
+    "root words grade 1",
+    "root words grade 1 worksheet",
+    "prefix words for 1st grade",
+    "prefix words grade 1"
+   ]
+  },
+  "root words 2nd grade": {
+   "candidate": "word-parts",
+   "s": [
+    "root words 2nd grade",
+    "prefix words 2nd grade",
+    "related root words 2nd grade",
+    "root words video 2nd grade",
+    "root words list 2nd grade",
+    "root word examples 2nd grade",
+    "prefix re words 2nd grade",
+    "prefix pre words 2nd grade",
+    "prefix un words 2nd grade",
+    "root word anchor chart 2nd grade"
+   ]
+  },
+  "root words 3rd grade": {
+   "candidate": "word-parts",
+   "s": [
+    "root words 3rd grade",
+    "root words 3rd grade worksheets",
+    "prefix words 3rd grade",
+    "root words list 3rd grade",
+    "latin root words 3rd grade",
+    "root word examples 3rd grade",
+    "root word definition 3rd grade",
+    "prefix non words 3rd grade",
+    "prefix un words 3rd grade",
+    "pre prefix words 3rd grade"
+   ]
+  }
+ }
+}

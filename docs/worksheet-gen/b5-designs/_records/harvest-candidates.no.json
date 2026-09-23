@@ -1,0 +1,794 @@
+{
+ "locale": "no",
+ "market": {
+  "hl": "no",
+  "gl": "no"
+ },
+ "generatedAt": "2026-09-23T00:14:30.103Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds.json",
+ "requestCount": 168,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "plants": {
+   "heads": [
+    "plantens deler",
+    "planter"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 11,
+   "suggestions": [
+    "plantens deler",
+    "planter",
+    "planter fra sverige til norge",
+    "planter ikea",
+    "planter kryssord",
+    "planter rådyr ikke spiser",
+    "planter som tåler lite lys",
+    "planter som tåler mye sol",
+    "planter strømstad",
+    "planter til badet",
+    "planter til gravsted"
+   ]
+  },
+  "life-cycles": {
+   "heads": [
+    "sommerfuglens livssyklus",
+    "froskens utvikling"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 2,
+   "suggestions": [
+    "froskens utvikling",
+    "sommerfuglens livssyklus"
+   ]
+  },
+  "materials": {
+   "heads": [
+    "materialer",
+    "magnetisk"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 20,
+   "suggestions": [
+    "magnetisk knivholder",
+    "magnetisk kortholder",
+    "magnetisk krok",
+    "magnetisk powerbank",
+    "magnetisk skohorn",
+    "magnetisk tape",
+    "magnetisk tavle",
+    "magnetisk vindusvasker",
+    "magnetiske byggeklosser",
+    "magnetiske vipper",
+    "materialer",
+    "materialer eik",
+    "materialer kryssord",
+    "materialer til badstubenk",
+    "materialer til gjerde",
+    "materialer til levegg",
+    "materialer til pergola",
+    "materialer til platting",
+    "materialer til terrasse",
+    "materialer tre"
+   ]
+  },
+  "space": {
+   "heads": [
+    "solsystemet",
+    "månefaser"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 21,
+   "suggestions": [
+    "månefaser",
+    "månefaser 2025",
+    "månefaser 2026",
+    "månefaser 2026 tromsø",
+    "månefaser 2027",
+    "månefaser august 2026",
+    "månefaser juli 2026",
+    "månefaser oslo",
+    "månefaser oslo 2026",
+    "månefaser trondheim",
+    "solsystemet",
+    "solsystemet for barn",
+    "solsystemet modell",
+    "solsystemet oppgaver",
+    "solsystemet planeter",
+    "solsystemet rekkefølge",
+    "solsystemet sang",
+    "solsystemet snap",
+    "solsystemet snapchat",
+    "solsystemet tegning",
+    "solsystemet vårt"
+   ]
+  },
+  "colors": {
+   "heads": [
+    "farger",
+    "fargene"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 22,
+   "suggestions": [
+    "fargene",
+    "fargene forteller",
+    "fargene i det norske flagget",
+    "fargene i pride flagget",
+    "fargene i regnbueflagget",
+    "fargene i regnbuen",
+    "fargene på engelsk",
+    "fargene på spansk",
+    "fargene på tysk",
+    "fargenes betydning",
+    "farger",
+    "farger oppgaver",
+    "fargerike",
+    "fargerike asker",
+    "fargerike fredrikstad",
+    "fargerike halden",
+    "fargerike kongsberg",
+    "fargerike oslo",
+    "fargerike tromsø",
+    "fargerike tønsberg",
+    "fargeriket",
+    "klær og farger oppgaver"
+   ]
+  },
+  "2d-shapes": {
+   "heads": [
+    "geometriske figurer",
+    "former"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 26,
+   "suggestions": [
+    "former",
+    "former 1 trinn",
+    "former kryssord",
+    "former nrk",
+    "former nrk spill",
+    "former og mønster 1 trinn",
+    "former til cookies",
+    "former – spill fra nrk",
+    "formere seg kryssord",
+    "formeres kryssord",
+    "formering",
+    "formering kryssord",
+    "geometriske figurer",
+    "geometriske figurer 1 trinn",
+    "geometriske figurer 3d",
+    "geometriske figurer 3d norsk",
+    "geometriske figurer bilder",
+    "geometriske figurer kryssord",
+    "geometriske figurer med navn",
+    "geometriske figurer navn",
+    "geometriske figurer oppgaver",
+    "geometriske figurer plakat",
+    "geometriske figurer rombe",
+    "geometriske former oppgaver",
+    "oppgaver former",
+    "sammensatte geometriske figurer oppgaver"
+   ]
+  },
+  "digraphs": {
+   "heads": [
+    "kj-lyd",
+    "skj-lyd"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 19,
+   "suggestions": [
+    "kj lyd og sj lyd",
+    "kj lyd oppgaver",
+    "kj lyd ord",
+    "kj lyd salaby",
+    "kj lyden fonetisk",
+    "kj lyden nrk",
+    "kj lyden oppgaver utskrift",
+    "kj lyden undervisning",
+    "kj-lyden",
+    "kj-lyden forsvinner",
+    "kj-lyden oppgaver",
+    "ord med kj lyd oppgaver",
+    "skj kj sj lyd",
+    "skj lyd",
+    "skj lyd og kj lyd",
+    "skj lyd oppgaver",
+    "skj lyd ord",
+    "skj og kj lyden oppgaver",
+    "skj sj sk lyden"
+   ]
+  },
+  "synonyms": {
+   "heads": [
+    "synonymer",
+    "ord som betyr det samme"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 22,
+   "suggestions": [
+    "fem ord som betyr det samme på norsk og svensk",
+    "norske ord som betyr det samme",
+    "oppgaver synonymer og antonymer",
+    "ord som betyr det samme",
+    "ord som betyr det samme baklengs",
+    "ord som betyr det samme begge veier",
+    "synonymer",
+    "synonymer 3 trinn",
+    "synonymer antonymer oppgaver",
+    "synonymer engelsk",
+    "synonymer kryssord",
+    "synonymer liste",
+    "synonymer norsk",
+    "synonymer norsk liste",
+    "synonymer oppgaver",
+    "synonymer oppgaver 2 trinn",
+    "synonymer oppgaver 3 trinn",
+    "synonymer oppgaver utskrift",
+    "synonymer ordbok",
+    "synonymer svenska",
+    "synonymer til fantastisk",
+    "synonymer til god"
+   ]
+  },
+  "homophones": {
+   "heads": [
+    "homofoner",
+    "ord som høres like ut"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 13,
+   "suggestions": [
+    "homofoner",
+    "homofoner dansk",
+    "homofoner eksempler",
+    "homofoner engelsk",
+    "homofoner exempel",
+    "homofoner lista",
+    "homofoner liste",
+    "homofoner liste dansk",
+    "homofoner norsk",
+    "norske ord som høres like ut",
+    "ord som høres like ut",
+    "ord som høres nesten like ut",
+    "svenska homofoner"
+   ]
+  },
+  "road-safety": {
+   "heads": [
+    "trafikksikkerhet",
+    "trafikkskilt"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 22,
+   "suggestions": [
+    "trafikksikkerhet",
+    "trafikksikkerhet barnehage",
+    "trafikksikkerhet oslo",
+    "trafikksikkerhetsforeningen",
+    "trafikksikkerhetshåndboken",
+    "trafikksikkerhetskonferansen",
+    "trafikksikkerhetskonferansen 2026",
+    "trafikksikkerhetsplan",
+    "trafikksikkerhetstiltak",
+    "trafikksikkerhetstiltak kryssord",
+    "trafikkskilt",
+    "trafikkskilt betydning",
+    "trafikkskilt bilder",
+    "trafikkskilt i norge",
+    "trafikkskilt oppgaver",
+    "trafikkskilt oversikt",
+    "trafikkskilt quiz",
+    "trafikkskilt sverige",
+    "trafikkskilt test",
+    "trafikkskilt utskrift",
+    "trafikkskiltene",
+    "trafikkskilter"
+   ]
+  },
+  "maps": {
+   "heads": [
+    "verdensdeler",
+    "himmelretninger"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 21,
+   "suggestions": [
+    "himmelretninger",
+    "himmelretninger engelsk",
+    "himmelretninger fransk",
+    "himmelretninger google maps",
+    "himmelretninger grader",
+    "himmelretninger kart",
+    "himmelretninger kompass",
+    "himmelretninger kryssord",
+    "himmelretninger spansk",
+    "himmelretninger stor bokstav",
+    "verdensdeler",
+    "verdensdeler areal",
+    "verdensdeler engelsk",
+    "verdensdeler etter størrelse",
+    "verdensdeler hvor mange",
+    "verdensdeler i verden",
+    "verdensdeler kart",
+    "verdensdeler kryssord",
+    "verdensdeler navn",
+    "verdensdeler oppgaver",
+    "verdensdeler størrelse"
+   ]
+  },
+  "family": {
+   "heads": [
+    "familien",
+    "slektstre"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 22,
+   "suggestions": [
+    "familien",
+    "familien adampour",
+    "familien glum",
+    "familien gøteborg",
+    "familien knotten",
+    "familien lykke",
+    "familien lykke skuespillere",
+    "familien lykke-karakterer",
+    "familien macahan",
+    "familien min oppgaver",
+    "familienavn",
+    "slektstre",
+    "slektstre gratis",
+    "slektstre house of dragon",
+    "slektstre kong harald",
+    "slektstre kongefamilien",
+    "slektstre kongefamilien norge",
+    "slektstre kryssord",
+    "slektstre mal",
+    "slektstre plakat",
+    "slektstre utskrift",
+    "slektstreff"
+   ]
+  }
+ },
+ "suggestions": {
+  "plantens deler": {
+   "candidate": "plants",
+   "s": [
+    "plantens deler"
+   ]
+  },
+  "planter": {
+   "candidate": "plants",
+   "s": [
+    "planter",
+    "planter kryssord",
+    "planter fra sverige til norge",
+    "planter strømstad",
+    "planter til badet",
+    "planter som tåler mye sol",
+    "planter rådyr ikke spiser",
+    "planter som tåler lite lys",
+    "planter ikea",
+    "planter til gravsted"
+   ]
+  },
+  "sommerfuglens livssyklus": {
+   "candidate": "life-cycles",
+   "s": [
+    "sommerfuglens livssyklus"
+   ]
+  },
+  "froskens utvikling": {
+   "candidate": "life-cycles",
+   "s": [
+    "froskens utvikling"
+   ]
+  },
+  "materialer": {
+   "candidate": "materials",
+   "s": [
+    "materialer",
+    "materialer kryssord",
+    "materialer tre",
+    "materialer til platting",
+    "materialer til gjerde",
+    "materialer til levegg",
+    "materialer eik",
+    "materialer til pergola",
+    "materialer til terrasse",
+    "materialer til badstubenk"
+   ]
+  },
+  "magnetisk": {
+   "candidate": "materials",
+   "s": [
+    "magnetisk tavle",
+    "magnetiske byggeklosser",
+    "magnetiske vipper",
+    "magnetisk powerbank",
+    "magnetisk knivholder",
+    "magnetisk vindusvasker",
+    "magnetisk tape",
+    "magnetisk skohorn",
+    "magnetisk krok",
+    "magnetisk kortholder"
+   ]
+  },
+  "solsystemet": {
+   "candidate": "space",
+   "s": [
+    "solsystemet",
+    "solsystemet snap",
+    "solsystemet vårt",
+    "solsystemet snapchat",
+    "solsystemet rekkefølge",
+    "solsystemet planeter",
+    "solsystemet for barn",
+    "solsystemet tegning",
+    "solsystemet sang",
+    "solsystemet modell"
+   ]
+  },
+  "solsystemet oppgaver": {
+   "candidate": "space",
+   "s": [
+    "solsystemet oppgaver"
+   ]
+  },
+  "månefaser": {
+   "candidate": "space",
+   "s": [
+    "månefaser",
+    "månefaser 2026",
+    "månefaser oslo 2026",
+    "månefaser 2027",
+    "månefaser 2025",
+    "månefaser oslo",
+    "månefaser juli 2026",
+    "månefaser august 2026",
+    "månefaser 2026 tromsø",
+    "månefaser trondheim"
+   ]
+  },
+  "farger": {
+   "candidate": "colors",
+   "s": [
+    "fargerike",
+    "farger",
+    "fargerike fredrikstad",
+    "fargerike halden",
+    "fargeriket",
+    "fargerike tromsø",
+    "fargerike kongsberg",
+    "fargerike asker",
+    "fargerike tønsberg",
+    "fargerike oslo"
+   ]
+  },
+  "farger oppgaver": {
+   "candidate": "colors",
+   "s": [
+    "farger oppgaver",
+    "klær og farger oppgaver"
+   ]
+  },
+  "fargene": {
+   "candidate": "colors",
+   "s": [
+    "fargene i regnbuen",
+    "fargene i pride flagget",
+    "fargene",
+    "fargene på spansk",
+    "fargene på tysk",
+    "fargene i det norske flagget",
+    "fargenes betydning",
+    "fargene forteller",
+    "fargene på engelsk",
+    "fargene i regnbueflagget"
+   ]
+  },
+  "geometriske figurer": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriske figurer",
+    "geometriske figurer navn",
+    "geometriske figurer 3d",
+    "geometriske figurer bilder",
+    "geometriske figurer kryssord",
+    "geometriske figurer plakat",
+    "geometriske figurer oppgaver",
+    "geometriske figurer rombe",
+    "geometriske figurer 3d norsk",
+    "geometriske figurer med navn"
+   ]
+  },
+  "geometriske figurer oppgaver": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriske figurer oppgaver",
+    "sammensatte geometriske figurer oppgaver"
+   ]
+  },
+  "geometriske figurer 1. trinn": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriske figurer 1 trinn"
+   ]
+  },
+  "former": {
+   "candidate": "2d-shapes",
+   "s": [
+    "former nrk",
+    "former",
+    "formering",
+    "formeres kryssord",
+    "formere seg kryssord",
+    "former kryssord",
+    "formering kryssord",
+    "former – spill fra nrk",
+    "former nrk spill",
+    "former til cookies"
+   ]
+  },
+  "former oppgaver": {
+   "candidate": "2d-shapes",
+   "s": [
+    "oppgaver former",
+    "geometriske former oppgaver"
+   ]
+  },
+  "former 1. trinn": {
+   "candidate": "2d-shapes",
+   "s": [
+    "former 1 trinn",
+    "former og mønster 1 trinn"
+   ]
+  },
+  "kj-lyd": {
+   "candidate": "digraphs",
+   "s": [
+    "kj-lyden",
+    "kj-lyden forsvinner",
+    "kj-lyden oppgaver",
+    "kj lyd ord",
+    "kj lyd og sj lyd",
+    "kj lyden undervisning",
+    "kj lyden nrk",
+    "kj lyden fonetisk",
+    "kj lyd salaby",
+    "kj lyden oppgaver utskrift"
+   ]
+  },
+  "kj-lyd oppgaver": {
+   "candidate": "digraphs",
+   "s": [
+    "kj lyd oppgaver",
+    "ord med kj lyd oppgaver"
+   ]
+  },
+  "skj-lyd": {
+   "candidate": "digraphs",
+   "s": [
+    "skj lyd",
+    "skj lyd oppgaver",
+    "skj lyd ord",
+    "skj lyd og kj lyd",
+    "skj sj sk lyden",
+    "skj kj sj lyd",
+    "skj og kj lyden oppgaver"
+   ]
+  },
+  "skj-lyd oppgaver": {
+   "candidate": "digraphs",
+   "s": [
+    "skj lyd oppgaver"
+   ]
+  },
+  "synonymer": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymer",
+    "synonymer svenska",
+    "synonymer norsk",
+    "synonymer ordbok",
+    "synonymer kryssord",
+    "synonymer liste",
+    "synonymer norsk liste",
+    "synonymer engelsk",
+    "synonymer til fantastisk",
+    "synonymer til god"
+   ]
+  },
+  "synonymer oppgaver": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymer oppgaver utskrift",
+    "synonymer oppgaver",
+    "synonymer oppgaver 2 trinn",
+    "synonymer oppgaver 3 trinn",
+    "oppgaver synonymer og antonymer",
+    "synonymer antonymer oppgaver"
+   ]
+  },
+  "synonymer 2. trinn": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymer oppgaver 2 trinn"
+   ]
+  },
+  "synonymer 3. trinn": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymer 3 trinn",
+    "synonymer oppgaver 3 trinn"
+   ]
+  },
+  "ord som betyr det samme": {
+   "candidate": "synonyms",
+   "s": [
+    "ord som betyr det samme",
+    "ord som betyr det samme begge veier",
+    "ord som betyr det samme baklengs",
+    "norske ord som betyr det samme",
+    "fem ord som betyr det samme på norsk og svensk"
+   ]
+  },
+  "homofoner": {
+   "candidate": "homophones",
+   "s": [
+    "homofoner",
+    "homofoner eksempler",
+    "homofoner norsk",
+    "homofoner liste",
+    "svenska homofoner",
+    "homofoner engelsk",
+    "homofoner exempel",
+    "homofoner dansk",
+    "homofoner liste dansk",
+    "homofoner lista"
+   ]
+  },
+  "ord som høres like ut": {
+   "candidate": "homophones",
+   "s": [
+    "ord som høres like ut",
+    "ord som høres nesten like ut",
+    "norske ord som høres like ut"
+   ]
+  },
+  "trafikksikkerhet": {
+   "candidate": "road-safety",
+   "s": [
+    "trafikksikkerhet",
+    "trafikksikkerhet oslo",
+    "trafikksikkerhetsforeningen",
+    "trafikksikkerhetshåndboken",
+    "trafikksikkerhetskonferansen 2026",
+    "trafikksikkerhetsplan",
+    "trafikksikkerhetstiltak",
+    "trafikksikkerhetskonferansen",
+    "trafikksikkerhet barnehage",
+    "trafikksikkerhetstiltak kryssord"
+   ]
+  },
+  "trafikkskilt": {
+   "candidate": "road-safety",
+   "s": [
+    "trafikkskilt",
+    "trafikkskilt oversikt",
+    "trafikkskilt sverige",
+    "trafikkskilt i norge",
+    "trafikkskilt betydning",
+    "trafikkskilt quiz",
+    "trafikkskilt bilder",
+    "trafikkskilt test",
+    "trafikkskiltene",
+    "trafikkskilter"
+   ]
+  },
+  "trafikkskilt oppgaver": {
+   "candidate": "road-safety",
+   "s": [
+    "trafikkskilt oppgaver"
+   ]
+  },
+  "trafikkskilt til utskrift": {
+   "candidate": "road-safety",
+   "s": [
+    "trafikkskilt utskrift"
+   ]
+  },
+  "verdensdeler": {
+   "candidate": "maps",
+   "s": [
+    "verdensdeler",
+    "verdensdeler kart",
+    "verdensdeler kryssord",
+    "verdensdeler engelsk",
+    "verdensdeler areal",
+    "verdensdeler navn",
+    "verdensdeler etter størrelse",
+    "verdensdeler størrelse",
+    "verdensdeler hvor mange",
+    "verdensdeler i verden"
+   ]
+  },
+  "verdensdeler oppgaver": {
+   "candidate": "maps",
+   "s": [
+    "verdensdeler oppgaver"
+   ]
+  },
+  "himmelretninger": {
+   "candidate": "maps",
+   "s": [
+    "himmelretninger",
+    "himmelretninger kart",
+    "himmelretninger kompass",
+    "himmelretninger engelsk",
+    "himmelretninger spansk",
+    "himmelretninger grader",
+    "himmelretninger google maps",
+    "himmelretninger kryssord",
+    "himmelretninger fransk",
+    "himmelretninger stor bokstav"
+   ]
+  },
+  "familien": {
+   "candidate": "family",
+   "s": [
+    "familien lykke",
+    "familien",
+    "familien adampour",
+    "familien lykke skuespillere",
+    "familien glum",
+    "familien macahan",
+    "familien knotten",
+    "familien lykke-karakterer",
+    "familienavn",
+    "familien gøteborg"
+   ]
+  },
+  "familien oppgaver": {
+   "candidate": "family",
+   "s": [
+    "familien min oppgaver"
+   ]
+  },
+  "slektstre": {
+   "candidate": "family",
+   "s": [
+    "slektstre",
+    "slektstre kong harald",
+    "slektstre kongefamilien norge",
+    "slektstre mal",
+    "slektstre kongefamilien",
+    "slektstreff",
+    "slektstre gratis",
+    "slektstre house of dragon",
+    "slektstre plakat",
+    "slektstre kryssord"
+   ]
+  },
+  "slektstre til utskrift": {
+   "candidate": "family",
+   "s": [
+    "slektstre utskrift"
+   ]
+  }
+ }
+}

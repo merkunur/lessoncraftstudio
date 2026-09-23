@@ -1,0 +1,251 @@
+{
+ "locale": "es",
+ "market": {
+  "hl": "es",
+  "gl": "mx"
+ },
+ "generatedAt": "2026-09-23T00:18:44.439Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds-wordparts.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "word-parts": {
+   "heads": [
+    "familias de palabras",
+    "prefijos y sufijos"
+   ],
+   "requests": 14,
+   "productiveSeeds": 12,
+   "unique": 81,
+   "suggestions": [
+    "actividades de familias de palabras para primer grado",
+    "actividades de familias de palabras para segundo grado",
+    "actividades de prefijos y sufijos para segundo grado",
+    "ejemplos de familias de palabras para primer grado",
+    "ejemplos de familias de palabras para segundo grado",
+    "ejemplos de prefijos y sufijos para niños de segundo grado",
+    "ejercicios de familias de palabras para niños de segundo grado",
+    "ejercicios prefijos y sufijos 3 primaria para imprimir",
+    "ejercicios prefijos y sufijos primaria para imprimir",
+    "familias de palabras",
+    "familias de palabras 1 primaria",
+    "familias de palabras 2 primaria",
+    "familias de palabras 2 primaria pdf",
+    "familias de palabras 2 primaria wordwall",
+    "familias de palabras 3 primaria",
+    "familias de palabras 3 primaria pdf",
+    "familias de palabras 4 primaria",
+    "familias de palabras 5 primaria",
+    "familias de palabras con sol",
+    "familias de palabras de casa",
+    "familias de palabras de flor",
+    "familias de palabras de libro",
+    "familias de palabras de mar",
+    "familias de palabras de pan",
+    "familias de palabras de zapato",
+    "familias de palabras ejemplos",
+    "familias de palabras ejemplos para niños",
+    "familias de palabras ficha",
+    "familias de palabras para imprimir",
+    "familias de palabras para niños de segundo grado",
+    "familias de palabras para primaria",
+    "familias de palabras para primer grado",
+    "familias de palabras para segundo grado de primaria",
+    "familias de palabras primaria",
+    "familias de palabras primer grado",
+    "familias de palabras segundo grado",
+    "ficha prefijos y sufijos 4 primaria",
+    "ficha prefijos y sufijos pdf",
+    "fichas de familias de palabras para imprimir",
+    "fichas familias de palabras 2 primaria",
+    "fichas familias de palabras 3 primaria",
+    "fichas familias de palabras 4 primaria",
+    "fichas familias de palabras 5 primaria",
+    "fichas interactivas familias de palabras",
+    "fichas para crear familias de palabras",
+    "fichas para trabajar familias de palabras",
+    "fichas prefijos y sufijos 3 primaria",
+    "fichas prefijos y sufijos 4 primaria pdf",
+    "fichas prefijos y sufijos 5 primaria",
+    "fichas prefijos y sufijos 6 primaria",
+    "fichas prefijos y sufijos 6 primaria pdf",
+    "juego de prefijos y sufijos para imprimir",
+    "prefijos y sufijos",
+    "prefijos y sufijos 3 primaria",
+    "prefijos y sufijos 4 primaria",
+    "prefijos y sufijos 4 primaria pdf",
+    "prefijos y sufijos 5 primaria",
+    "prefijos y sufijos 5 primaria pdf",
+    "prefijos y sufijos 6 primaria",
+    "prefijos y sufijos actividades",
+    "prefijos y sufijos del sistema internacional",
+    "prefijos y sufijos ejercicios para imprimir",
+    "prefijos y sufijos ejercicios resueltos",
+    "prefijos y sufijos en enfermería",
+    "prefijos y sufijos en ingles",
+    "prefijos y sufijos en medicina",
+    "prefijos y sufijos fichas",
+    "prefijos y sufijos fichas interactivas",
+    "prefijos y sufijos fichas para imprimir",
+    "prefijos y sufijos griegos",
+    "prefijos y sufijos medicos",
+    "prefijos y sufijos para imprimir",
+    "prefijos y sufijos para niños",
+    "prefijos y sufijos para niños de primer grado",
+    "prefijos y sufijos para segundo grado",
+    "prefijos y sufijos para segundo grado de primaria",
+    "prefijos y sufijos primaria",
+    "prefijos y sufijos primaria ejemplos",
+    "prefijos y sufijos primaria ejercicios",
+    "prefijos y sufijos primaria pdf",
+    "prefijos y sufijos segundo grado"
+   ]
+  }
+ },
+ "suggestions": {
+  "familias de palabras": {
+   "candidate": "word-parts",
+   "s": [
+    "familias de palabras",
+    "familias de palabras ejemplos",
+    "familias de palabras ejemplos para niños",
+    "familias de palabras de casa",
+    "familias de palabras de pan",
+    "familias de palabras de libro",
+    "familias de palabras de flor",
+    "familias de palabras de mar",
+    "familias de palabras con sol",
+    "familias de palabras de zapato"
+   ]
+  },
+  "familias de palabras ficha": {
+   "candidate": "word-parts",
+   "s": [
+    "familias de palabras ficha",
+    "fichas familias de palabras 3 primaria",
+    "fichas familias de palabras 2 primaria",
+    "fichas familias de palabras 4 primaria",
+    "fichas familias de palabras 5 primaria",
+    "fichas de familias de palabras para imprimir",
+    "fichas interactivas familias de palabras",
+    "fichas para trabajar familias de palabras",
+    "fichas para crear familias de palabras"
+   ]
+  },
+  "familias de palabras para imprimir": {
+   "candidate": "word-parts",
+   "s": [
+    "familias de palabras para imprimir",
+    "fichas de familias de palabras para imprimir"
+   ]
+  },
+  "familias de palabras primer grado": {
+   "candidate": "word-parts",
+   "s": [
+    "familias de palabras primer grado",
+    "familias de palabras para primer grado",
+    "actividades de familias de palabras para primer grado",
+    "ejemplos de familias de palabras para primer grado"
+   ]
+  },
+  "familias de palabras segundo grado": {
+   "candidate": "word-parts",
+   "s": [
+    "familias de palabras segundo grado",
+    "familias de palabras para niños de segundo grado",
+    "familias de palabras para segundo grado de primaria",
+    "actividades de familias de palabras para segundo grado",
+    "ejemplos de familias de palabras para segundo grado",
+    "ejercicios de familias de palabras para niños de segundo grado"
+   ]
+  },
+  "familias de palabras primaria": {
+   "candidate": "word-parts",
+   "s": [
+    "familias de palabras primaria",
+    "familias de palabras 2 primaria",
+    "familias de palabras 3 primaria",
+    "familias de palabras 4 primaria",
+    "familias de palabras 5 primaria",
+    "familias de palabras 1 primaria",
+    "familias de palabras 3 primaria pdf",
+    "familias de palabras 2 primaria pdf",
+    "familias de palabras para primaria",
+    "familias de palabras 2 primaria wordwall"
+   ]
+  },
+  "prefijos y sufijos": {
+   "candidate": "word-parts",
+   "s": [
+    "prefijos y sufijos",
+    "prefijos y sufijos en ingles",
+    "prefijos y sufijos para niños",
+    "prefijos y sufijos medicos",
+    "prefijos y sufijos del sistema internacional",
+    "prefijos y sufijos actividades",
+    "prefijos y sufijos ejercicios resueltos",
+    "prefijos y sufijos en medicina",
+    "prefijos y sufijos griegos",
+    "prefijos y sufijos en enfermería"
+   ]
+  },
+  "prefijos y sufijos ficha": {
+   "candidate": "word-parts",
+   "s": [
+    "prefijos y sufijos fichas para imprimir",
+    "prefijos y sufijos fichas",
+    "prefijos y sufijos fichas interactivas",
+    "ficha prefijos y sufijos 4 primaria",
+    "fichas prefijos y sufijos 3 primaria",
+    "fichas prefijos y sufijos 5 primaria",
+    "fichas prefijos y sufijos 6 primaria",
+    "fichas prefijos y sufijos 4 primaria pdf",
+    "fichas prefijos y sufijos 6 primaria pdf",
+    "ficha prefijos y sufijos pdf"
+   ]
+  },
+  "prefijos y sufijos para imprimir": {
+   "candidate": "word-parts",
+   "s": [
+    "prefijos y sufijos para imprimir",
+    "prefijos y sufijos ejercicios para imprimir",
+    "prefijos y sufijos fichas para imprimir",
+    "juego de prefijos y sufijos para imprimir",
+    "ejercicios prefijos y sufijos primaria para imprimir",
+    "ejercicios prefijos y sufijos 3 primaria para imprimir"
+   ]
+  },
+  "prefijos y sufijos primer grado": {
+   "candidate": "word-parts",
+   "s": [
+    "prefijos y sufijos para niños de primer grado"
+   ]
+  },
+  "prefijos y sufijos segundo grado": {
+   "candidate": "word-parts",
+   "s": [
+    "prefijos y sufijos segundo grado",
+    "prefijos y sufijos para segundo grado",
+    "prefijos y sufijos para segundo grado de primaria",
+    "actividades de prefijos y sufijos para segundo grado",
+    "ejemplos de prefijos y sufijos para niños de segundo grado"
+   ]
+  },
+  "prefijos y sufijos primaria": {
+   "candidate": "word-parts",
+   "s": [
+    "prefijos y sufijos primaria",
+    "prefijos y sufijos primaria pdf",
+    "prefijos y sufijos primaria ejercicios",
+    "prefijos y sufijos primaria ejemplos",
+    "prefijos y sufijos 4 primaria",
+    "prefijos y sufijos 5 primaria",
+    "prefijos y sufijos 3 primaria",
+    "prefijos y sufijos 6 primaria",
+    "prefijos y sufijos 4 primaria pdf",
+    "prefijos y sufijos 5 primaria pdf"
+   ]
+  }
+ }
+}

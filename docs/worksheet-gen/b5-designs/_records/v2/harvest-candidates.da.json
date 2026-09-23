@@ -1,0 +1,981 @@
+{
+ "locale": "da",
+ "market": {
+  "hl": "da",
+  "gl": "dk"
+ },
+ "generatedAt": "2026-09-23T00:19:34.597Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds-nordic-v2.json",
+ "requestCount": 231,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "plants": {
+   "heads": [
+    "plantens dele",
+    "blomstens dele",
+    "fra frø til plante"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 11,
+   "suggestions": [
+    "agurk fra frø til plante",
+    "blomstens dele",
+    "chili fra frø til plante",
+    "fra frø til plante",
+    "fra frø til plante film",
+    "fra frø til plante undervisning",
+    "frø fra planter",
+    "plantens dele",
+    "rapsplanten fra frø til plante",
+    "squash fra frø til plante",
+    "tomatplante fra frø til plante"
+   ]
+  },
+  "life-cycles": {
+   "heads": [
+    "sommerfuglens livscyklus",
+    "frøens livscyklus",
+    "livscyklus"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 14,
+   "suggestions": [
+    "frøens livscyklus",
+    "hvordan er sommerfuglens livscyklus",
+    "livscyklus",
+    "livscyklus egeprocessionsspinder",
+    "livscyklus flåt",
+    "livscyklus guldsmed",
+    "livscyklus larven fra helvede",
+    "livscyklus møl",
+    "livscyklus sommerfugl",
+    "livscyklusanalyse",
+    "livscyklusfaser",
+    "livscyklusvurdering",
+    "sommerfuglens livscyklus",
+    "sommerfuglens livscyklus film"
+   ]
+  },
+  "materials": {
+   "heads": [
+    "magnetisme",
+    "materialer og egenskaber",
+    "flyde eller synke"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 21,
+   "suggestions": [
+    "afføring flyde eller synke",
+    "flyde eller synke",
+    "flyde eller synke æg",
+    "magnetisme",
+    "magnetisme behandling",
+    "magnetisme epilepsie",
+    "magnetisme forklaring",
+    "magnetisme fysik kemi",
+    "magnetisme gyldendal",
+    "magnetisme og elektromagnetisme",
+    "magnetisme opgaver",
+    "magnetisme video",
+    "magnetisme youtube",
+    "magnetismen",
+    "skal afføring flyde eller synke",
+    "skal blåbær flyde eller synke",
+    "skal friske æg flyde eller synke",
+    "skal gode æg flyde eller synke",
+    "skal pølser flyde eller synke",
+    "skal æg flyde eller synke",
+    "skal æg flyde eller synke i vand"
+   ]
+  },
+  "space": {
+   "heads": [
+    "solsystemet",
+    "planeterne",
+    "månens faser"
+   ],
+   "requests": 21,
+   "productiveSeeds": 8,
+   "unique": 37,
+   "suggestions": [
+    "månens faser",
+    "månens faser 2026",
+    "månens faser 2026 juli",
+    "månens faser betydning",
+    "månens faser fysik",
+    "månens faser i dag",
+    "månens faser kalender",
+    "månens faser model",
+    "månens faser navne",
+    "månens faser tegning",
+    "planeterne",
+    "planeterne 1916",
+    "planeterne i solsystemet",
+    "planeterne i vores solsystem",
+    "planeterne komponist",
+    "planeterne snapchat",
+    "planeternes navne",
+    "planeternes placering",
+    "planeternes rækkefølge",
+    "planeternes størrelse",
+    "solsystemet",
+    "solsystemet 1 klasse",
+    "solsystemet 2 klasse",
+    "solsystemet 3 klasse",
+    "solsystemet for børn",
+    "solsystemet for børn opgaver",
+    "solsystemet for børn undervisning",
+    "solsystemet opgaver",
+    "solsystemet opgaver indskoling",
+    "solsystemet print",
+    "solsystemet rækkefølge",
+    "solsystemet snap",
+    "solsystemet snapchat",
+    "solsystemet uro",
+    "solsystemets opbygning",
+    "solsystemets planeter",
+    "solsystemets største måne"
+   ]
+  },
+  "colors": {
+   "heads": [
+    "farveord",
+    "primærfarver",
+    "blande farver"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 23,
+   "suggestions": [
+    "blande farver",
+    "blande farver gul og blå",
+    "blande farver skema",
+    "blande farver til blå",
+    "blande farver til brun",
+    "blande farver til grøn",
+    "blande farver til gul",
+    "blande farver til lilla",
+    "blande farver til rød",
+    "blande farver til sort",
+    "bøger i farveorden",
+    "farveorden",
+    "grundfarver primærfarver",
+    "primærfarver",
+    "primærfarver akryl",
+    "primærfarver billedkunst",
+    "primærfarver lys",
+    "primærfarver magenta",
+    "primærfarver maling",
+    "primærfarver navne",
+    "primærfarver og sekundærfarver",
+    "primærfarverne",
+    "regnbue farveorden"
+   ]
+  },
+  "2d-shapes": {
+   "heads": [
+    "geometriske figurer",
+    "former og figurer"
+   ],
+   "requests": 14,
+   "productiveSeeds": 9,
+   "unique": 22,
+   "suggestions": [
+    "former figurer",
+    "former og figurer",
+    "former og figurer 0 klasse",
+    "former og figurer 1 klasse",
+    "former og figurer 2 klasse",
+    "former og figurer matematik",
+    "former og figurer opgaver",
+    "geometriske figurer",
+    "geometriske figurer 1 klasse",
+    "geometriske figurer 3 klasse",
+    "geometriske figurer 3d",
+    "geometriske figurer krydsord",
+    "geometriske figurer matematik",
+    "geometriske figurer navne",
+    "geometriske figurer opgaver",
+    "geometriske figurer oversigt",
+    "geometriske figurer plakat",
+    "geometriske figurer print",
+    "geometriske figurer rombe",
+    "geometriske figurer til print",
+    "geometriske former og figurer",
+    "matematikk former og figurer"
+   ]
+  },
+  "digraphs": {
+   "heads": [
+    "stumme bogstaver",
+    "lange og korte vokaler",
+    "ikke lydrette ord"
+   ],
+   "requests": 21,
+   "productiveSeeds": 6,
+   "unique": 25,
+   "suggestions": [
+    "hva betyr ikke lydrette ord",
+    "hvad er ikke lydrette ord",
+    "høyfrekvente ikke lydrette ord",
+    "ikke lydrette ord",
+    "ikke lydrette ord eksempler",
+    "ikke lydrette ord kryssord",
+    "ikke lydrette ord liste",
+    "ikke lydrette ord opgaver",
+    "ikke lydrette ord oppgaver",
+    "korte og lange vokaler eksempler",
+    "korte og lange vokaler opgaver",
+    "lange og korte vokaler",
+    "lydrette og ikke lydrette ord",
+    "mit hæfte om lange og korte vokaler",
+    "ord med lange og korte vokaler",
+    "stumme bogstaver",
+    "stumme bogstaver alinea",
+    "stumme bogstaver engelsk",
+    "stumme bogstaver hæfte",
+    "stumme bogstaver opgaver",
+    "stumme bogstaver ord",
+    "stumme bogstaver på dansk",
+    "stumme bogstaver på fransk",
+    "stumme bogstaver regler",
+    "stumme bogstaver spil"
+   ]
+  },
+  "synonyms": {
+   "heads": [
+    "synonymer",
+    "ord der betyder det samme"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 24,
+   "suggestions": [
+    "2 ord der betyder det samme",
+    "danske ord der betyder det samme",
+    "et ord der betyder det samme som for",
+    "hvad kalder man ord der betyder det samme",
+    "hvilket ord betyder det samme som at udpege noget bestemt",
+    "hvilket ord betyder det samme som at være følelseskold eller hensynsløs",
+    "hvilket ord betyder det samme som bureaukrati",
+    "opgaver synonymer og antonymer",
+    "ord der betyder det samme",
+    "ord der betyder det samme forfra og bagfra",
+    "ord der betyder det samme som mirakel",
+    "synonymer",
+    "synonymer 2 klasse",
+    "synonymer dansk",
+    "synonymer dansk opgaver",
+    "synonymer engelsk",
+    "synonymer for fantastisk",
+    "synonymer for glad",
+    "synonymer for god",
+    "synonymer for godt",
+    "synonymer for hund",
+    "synonymer for meget",
+    "synonymer for smuk",
+    "synonymer opgaver"
+   ]
+  },
+  "homophones": {
+   "heads": [
+    "ord der lyder ens",
+    "nutids-r",
+    "homofoner"
+   ],
+   "requests": 21,
+   "productiveSeeds": 5,
+   "unique": 25,
+   "suggestions": [
+    "danske ord der lyder ens",
+    "homofoner",
+    "homofoner betydning",
+    "homofoner dansk",
+    "homofoner eksempler",
+    "homofoner engelsk",
+    "homofoner liste",
+    "homofoner liste dansk",
+    "homofoner norsk",
+    "homofoner ord",
+    "nutids r huskeregel",
+    "nutids r ord",
+    "nutids r regel",
+    "nutids r regler",
+    "nutids r test",
+    "nutids r øvelser",
+    "nutids r øvelser print",
+    "nutids-r",
+    "nutids-r eksempler",
+    "nutids-r opgaver",
+    "ord der lyder ens",
+    "ord der lyder ens men betyder noget forskelligt",
+    "ord der lyder ens men staves forskelligt",
+    "ord på dansk der lyder ens",
+    "svenska homofoner"
+   ]
+  },
+  "road-safety": {
+   "heads": [
+    "færdselslære",
+    "færdselstavler",
+    "trafik for børn"
+   ],
+   "requests": 21,
+   "productiveSeeds": 5,
+   "unique": 25,
+   "suggestions": [
+    "emu færdselslære",
+    "færdselslære",
+    "færdselslære folkeskolen",
+    "færdselslære fælles mål",
+    "færdselslære indskoling",
+    "færdselstavler",
+    "færdselstavler betydning",
+    "færdselstavler forbudstavler",
+    "færdselstavler hastighed",
+    "færdselstavler oversigt",
+    "færdselstavler oversigt pdf",
+    "færdselstavler parkering",
+    "færdselstavler test",
+    "færdselstavler til print",
+    "færdselstavler tyskland",
+    "færdselstavler undertavler",
+    "sikker trafik for børn",
+    "trafik børnehave",
+    "trafik børnehaveklassen",
+    "trafik for børn",
+    "trafik for børn opgaver",
+    "trafik historier for børn",
+    "trafik quiz for børn",
+    "trafikfilm for børn",
+    "trafikspil for børn"
+   ]
+  },
+  "maps": {
+   "heads": [
+    "verdensdele",
+    "verdenshjørner",
+    "kortforståelse"
+   ],
+   "requests": 21,
+   "productiveSeeds": 2,
+   "unique": 18,
+   "suggestions": [
+    "verdensdele",
+    "verdensdele efter størrelse",
+    "verdensdele kort",
+    "verdensdele størrelse",
+    "verdensdele vs kontinenter",
+    "verdensdelen",
+    "verdensdelene i verden",
+    "verdensdeler hvor mange",
+    "verdenshjørner",
+    "verdenshjørner app",
+    "verdenshjørner blomst",
+    "verdenshjørner engelsk",
+    "verdenshjørner kompas",
+    "verdenshjørner leg",
+    "verdenshjørner på google maps",
+    "verdenshjørner på kort",
+    "verdenshjørner sang",
+    "verdenshjørner sten"
+   ]
+  },
+  "family": {
+   "heads": [
+    "min familie",
+    "stamtræ"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 25,
+   "suggestions": [
+    "mig og min familie opgaver",
+    "min familie",
+    "min familie er historie",
+    "min familie jurist",
+    "min familie og andre dyr",
+    "min familie og andre dyr bog",
+    "min familie og andre dyr dr",
+    "min familie og andre dyr film",
+    "min familie og andre dyr tv serie",
+    "min familie opgaver",
+    "min familie på italiensk",
+    "min familie ydelse",
+    "stamtræ",
+    "stamtræ engelsk",
+    "stamtræ house of dragon",
+    "stamtræ krydsord",
+    "stamtræ online",
+    "stamtræ print",
+    "stamtræ skabelon",
+    "stamtræ skabelon gratis",
+    "stamtræ skabelon print",
+    "stamtræ skabelon til print",
+    "stamtræ skabelon word",
+    "stamtræ targaryen",
+    "stamtræ til print"
+   ]
+  }
+ },
+ "suggestions": {
+  "plantens dele": {
+   "candidate": "plants",
+   "s": [
+    "plantens dele"
+   ]
+  },
+  "blomstens dele": {
+   "candidate": "plants",
+   "s": [
+    "blomstens dele"
+   ]
+  },
+  "fra frø til plante": {
+   "candidate": "plants",
+   "s": [
+    "fra frø til plante",
+    "fra frø til plante film",
+    "fra frø til plante undervisning",
+    "tomatplante fra frø til plante",
+    "rapsplanten fra frø til plante",
+    "chili fra frø til plante",
+    "frø fra planter",
+    "agurk fra frø til plante",
+    "squash fra frø til plante"
+   ]
+  },
+  "sommerfuglens livscyklus": {
+   "candidate": "life-cycles",
+   "s": [
+    "sommerfuglens livscyklus",
+    "sommerfuglens livscyklus film",
+    "hvordan er sommerfuglens livscyklus"
+   ]
+  },
+  "frøens livscyklus": {
+   "candidate": "life-cycles",
+   "s": [
+    "frøens livscyklus"
+   ]
+  },
+  "livscyklus": {
+   "candidate": "life-cycles",
+   "s": [
+    "livscyklus",
+    "livscyklusanalyse",
+    "livscyklus egeprocessionsspinder",
+    "livscyklusvurdering",
+    "livscyklus larven fra helvede",
+    "livscyklus flåt",
+    "livscyklus sommerfugl",
+    "livscyklus guldsmed",
+    "livscyklus møl",
+    "livscyklusfaser"
+   ]
+  },
+  "magnetisme": {
+   "candidate": "materials",
+   "s": [
+    "magnetisme",
+    "magnetisme forklaring",
+    "magnetisme behandling",
+    "magnetisme gyldendal",
+    "magnetisme fysik kemi",
+    "magnetisme video",
+    "magnetismen",
+    "magnetisme epilepsie",
+    "magnetisme youtube",
+    "magnetisme og elektromagnetisme"
+   ]
+  },
+  "magnetisme opgaver": {
+   "candidate": "materials",
+   "s": [
+    "magnetisme opgaver"
+   ]
+  },
+  "flyde eller synke": {
+   "candidate": "materials",
+   "s": [
+    "flyde eller synke æg",
+    "flyde eller synke",
+    "afføring flyde eller synke",
+    "skal æg flyde eller synke",
+    "skal afføring flyde eller synke",
+    "skal æg flyde eller synke i vand",
+    "skal pølser flyde eller synke",
+    "skal blåbær flyde eller synke",
+    "skal gode æg flyde eller synke",
+    "skal friske æg flyde eller synke"
+   ]
+  },
+  "solsystemet": {
+   "candidate": "space",
+   "s": [
+    "solsystemet",
+    "solsystemets planeter",
+    "solsystemet rækkefølge",
+    "solsystemet snap",
+    "solsystemet for børn",
+    "solsystemet snapchat",
+    "solsystemets største måne",
+    "solsystemet uro",
+    "solsystemets opbygning",
+    "solsystemet for børn undervisning"
+   ]
+  },
+  "solsystemet opgaver": {
+   "candidate": "space",
+   "s": [
+    "solsystemet opgaver",
+    "solsystemet opgaver indskoling",
+    "solsystemet for børn opgaver"
+   ]
+  },
+  "solsystemet til print": {
+   "candidate": "space",
+   "s": [
+    "solsystemet print"
+   ]
+  },
+  "solsystemet 1. klasse": {
+   "candidate": "space",
+   "s": [
+    "solsystemet 1 klasse"
+   ]
+  },
+  "solsystemet 2. klasse": {
+   "candidate": "space",
+   "s": [
+    "solsystemet 2 klasse"
+   ]
+  },
+  "solsystemet 3. klasse": {
+   "candidate": "space",
+   "s": [
+    "solsystemet 3 klasse"
+   ]
+  },
+  "planeterne": {
+   "candidate": "space",
+   "s": [
+    "planeterne",
+    "planeternes rækkefølge",
+    "planeterne komponist",
+    "planeterne i solsystemet",
+    "planeternes placering",
+    "planeterne 1916",
+    "planeterne i vores solsystem",
+    "planeterne snapchat",
+    "planeternes størrelse",
+    "planeternes navne"
+   ]
+  },
+  "månens faser": {
+   "candidate": "space",
+   "s": [
+    "månens faser",
+    "månens faser i dag",
+    "månens faser 2026",
+    "månens faser navne",
+    "månens faser tegning",
+    "månens faser fysik",
+    "månens faser kalender",
+    "månens faser 2026 juli",
+    "månens faser betydning",
+    "månens faser model"
+   ]
+  },
+  "farveord": {
+   "candidate": "colors",
+   "s": [
+    "farveorden",
+    "bøger i farveorden",
+    "regnbue farveorden"
+   ]
+  },
+  "primærfarver": {
+   "candidate": "colors",
+   "s": [
+    "primærfarver",
+    "primærfarver og sekundærfarver",
+    "primærfarverne",
+    "primærfarver billedkunst",
+    "primærfarver magenta",
+    "primærfarver lys",
+    "primærfarver akryl",
+    "primærfarver navne",
+    "primærfarver maling",
+    "grundfarver primærfarver"
+   ]
+  },
+  "blande farver": {
+   "candidate": "colors",
+   "s": [
+    "blande farver",
+    "blande farver skema",
+    "blande farver til lilla",
+    "blande farver til brun",
+    "blande farver til blå",
+    "blande farver til grøn",
+    "blande farver til rød",
+    "blande farver til gul",
+    "blande farver til sort",
+    "blande farver gul og blå"
+   ]
+  },
+  "geometriske figurer": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriske figurer",
+    "geometriske figurer navne",
+    "geometriske figurer krydsord",
+    "geometriske figurer matematik",
+    "geometriske figurer 3d",
+    "geometriske figurer print",
+    "geometriske figurer rombe",
+    "geometriske figurer oversigt",
+    "geometriske figurer plakat"
+   ]
+  },
+  "geometriske figurer opgaver": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriske figurer opgaver"
+   ]
+  },
+  "geometriske figurer til print": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriske figurer til print"
+   ]
+  },
+  "geometriske figurer 1. klasse": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriske figurer 1 klasse"
+   ]
+  },
+  "geometriske figurer 3. klasse": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriske figurer 3 klasse"
+   ]
+  },
+  "former og figurer": {
+   "candidate": "2d-shapes",
+   "s": [
+    "former og figurer",
+    "former og figurer 0 klasse",
+    "former og figurer 1 klasse",
+    "former og figurer opgaver",
+    "former og figurer matematik",
+    "former og figurer 2 klasse",
+    "geometriske former og figurer",
+    "former figurer",
+    "matematikk former og figurer"
+   ]
+  },
+  "former og figurer opgaver": {
+   "candidate": "2d-shapes",
+   "s": [
+    "former og figurer opgaver"
+   ]
+  },
+  "former og figurer 1. klasse": {
+   "candidate": "2d-shapes",
+   "s": [
+    "former og figurer 1 klasse"
+   ]
+  },
+  "former og figurer 2. klasse": {
+   "candidate": "2d-shapes",
+   "s": [
+    "former og figurer 2 klasse"
+   ]
+  },
+  "stumme bogstaver": {
+   "candidate": "digraphs",
+   "s": [
+    "stumme bogstaver",
+    "stumme bogstaver opgaver",
+    "stumme bogstaver regler",
+    "stumme bogstaver på dansk",
+    "stumme bogstaver engelsk",
+    "stumme bogstaver spil",
+    "stumme bogstaver ord",
+    "stumme bogstaver alinea",
+    "stumme bogstaver hæfte",
+    "stumme bogstaver på fransk"
+   ]
+  },
+  "stumme bogstaver opgaver": {
+   "candidate": "digraphs",
+   "s": [
+    "stumme bogstaver opgaver"
+   ]
+  },
+  "lange og korte vokaler": {
+   "candidate": "digraphs",
+   "s": [
+    "lange og korte vokaler",
+    "ord med lange og korte vokaler",
+    "mit hæfte om lange og korte vokaler",
+    "korte og lange vokaler eksempler",
+    "korte og lange vokaler opgaver"
+   ]
+  },
+  "lange og korte vokaler opgaver": {
+   "candidate": "digraphs",
+   "s": [
+    "korte og lange vokaler opgaver"
+   ]
+  },
+  "ikke lydrette ord": {
+   "candidate": "digraphs",
+   "s": [
+    "ikke lydrette ord",
+    "ikke lydrette ord liste",
+    "ikke lydrette ord opgaver",
+    "ikke lydrette ord eksempler",
+    "ikke lydrette ord kryssord",
+    "lydrette og ikke lydrette ord",
+    "hvad er ikke lydrette ord",
+    "hva betyr ikke lydrette ord",
+    "ikke lydrette ord oppgaver",
+    "høyfrekvente ikke lydrette ord"
+   ]
+  },
+  "ikke lydrette ord opgaver": {
+   "candidate": "digraphs",
+   "s": [
+    "ikke lydrette ord opgaver"
+   ]
+  },
+  "synonymer": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymer",
+    "synonymer dansk",
+    "synonymer for fantastisk",
+    "synonymer engelsk",
+    "synonymer for smuk",
+    "synonymer for godt",
+    "synonymer for hund",
+    "synonymer for meget",
+    "synonymer for god",
+    "synonymer for glad"
+   ]
+  },
+  "synonymer opgaver": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymer opgaver",
+    "opgaver synonymer og antonymer",
+    "synonymer dansk opgaver"
+   ]
+  },
+  "synonymer 2. klasse": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymer 2 klasse"
+   ]
+  },
+  "ord der betyder det samme": {
+   "candidate": "synonyms",
+   "s": [
+    "ord der betyder det samme",
+    "ord der betyder det samme som mirakel",
+    "ord der betyder det samme forfra og bagfra",
+    "et ord der betyder det samme som for",
+    "danske ord der betyder det samme",
+    "2 ord der betyder det samme",
+    "hvad kalder man ord der betyder det samme",
+    "hvilket ord betyder det samme som at være følelseskold eller hensynsløs",
+    "hvilket ord betyder det samme som at udpege noget bestemt",
+    "hvilket ord betyder det samme som bureaukrati"
+   ]
+  },
+  "ord der lyder ens": {
+   "candidate": "homophones",
+   "s": [
+    "ord der lyder ens men staves forskelligt",
+    "ord der lyder ens",
+    "ord der lyder ens men betyder noget forskelligt",
+    "danske ord der lyder ens",
+    "ord på dansk der lyder ens"
+   ]
+  },
+  "nutids-r": {
+   "candidate": "homophones",
+   "s": [
+    "nutids-r",
+    "nutids-r opgaver",
+    "nutids-r eksempler",
+    "nutids r regel",
+    "nutids r regler",
+    "nutids r øvelser",
+    "nutids r huskeregel",
+    "nutids r ord",
+    "nutids r øvelser print",
+    "nutids r test"
+   ]
+  },
+  "nutids-r opgaver": {
+   "candidate": "homophones",
+   "s": [
+    "nutids-r opgaver"
+   ]
+  },
+  "nutids-r til print": {
+   "candidate": "homophones",
+   "s": [
+    "nutids r øvelser print"
+   ]
+  },
+  "homofoner": {
+   "candidate": "homophones",
+   "s": [
+    "homofoner",
+    "homofoner eksempler",
+    "homofoner liste",
+    "homofoner ord",
+    "svenska homofoner",
+    "homofoner engelsk",
+    "homofoner norsk",
+    "homofoner dansk",
+    "homofoner liste dansk",
+    "homofoner betydning"
+   ]
+  },
+  "færdselslære": {
+   "candidate": "road-safety",
+   "s": [
+    "færdselslære",
+    "færdselslære folkeskolen",
+    "færdselslære fælles mål",
+    "færdselslære indskoling",
+    "emu færdselslære"
+   ]
+  },
+  "færdselstavler": {
+   "candidate": "road-safety",
+   "s": [
+    "færdselstavler",
+    "færdselstavler betydning",
+    "færdselstavler oversigt",
+    "færdselstavler hastighed",
+    "færdselstavler parkering",
+    "færdselstavler oversigt pdf",
+    "færdselstavler undertavler",
+    "færdselstavler test",
+    "færdselstavler tyskland",
+    "færdselstavler forbudstavler"
+   ]
+  },
+  "færdselstavler til print": {
+   "candidate": "road-safety",
+   "s": [
+    "færdselstavler til print"
+   ]
+  },
+  "trafik for børn": {
+   "candidate": "road-safety",
+   "s": [
+    "trafik for børn",
+    "trafik for børn opgaver",
+    "trafikfilm for børn",
+    "trafik quiz for børn",
+    "trafik historier for børn",
+    "sikker trafik for børn",
+    "trafikspil for børn",
+    "trafik børnehave",
+    "trafik børnehaveklassen"
+   ]
+  },
+  "trafik for børn opgaver": {
+   "candidate": "road-safety",
+   "s": [
+    "trafik for børn opgaver"
+   ]
+  },
+  "verdensdele": {
+   "candidate": "maps",
+   "s": [
+    "verdensdele",
+    "verdensdele kort",
+    "verdensdele efter størrelse",
+    "verdensdelen",
+    "verdensdelene i verden",
+    "verdensdele størrelse",
+    "verdensdele vs kontinenter",
+    "verdensdeler hvor mange"
+   ]
+  },
+  "verdenshjørner": {
+   "candidate": "maps",
+   "s": [
+    "verdenshjørner",
+    "verdenshjørner app",
+    "verdenshjørner på kort",
+    "verdenshjørner på google maps",
+    "verdenshjørner engelsk",
+    "verdenshjørner blomst",
+    "verdenshjørner sten",
+    "verdenshjørner sang",
+    "verdenshjørner leg",
+    "verdenshjørner kompas"
+   ]
+  },
+  "min familie": {
+   "candidate": "family",
+   "s": [
+    "min familie og andre dyr",
+    "min familie",
+    "min familie og andre dyr tv serie",
+    "min familie jurist",
+    "min familie og andre dyr film",
+    "min familie og andre dyr dr",
+    "min familie på italiensk",
+    "min familie er historie",
+    "min familie ydelse",
+    "min familie og andre dyr bog"
+   ]
+  },
+  "min familie opgaver": {
+   "candidate": "family",
+   "s": [
+    "min familie opgaver",
+    "mig og min familie opgaver"
+   ]
+  },
+  "stamtræ": {
+   "candidate": "family",
+   "s": [
+    "stamtræ",
+    "stamtræ skabelon",
+    "stamtræ krydsord",
+    "stamtræ skabelon gratis",
+    "stamtræ engelsk",
+    "stamtræ house of dragon",
+    "stamtræ skabelon word",
+    "stamtræ online",
+    "stamtræ targaryen",
+    "stamtræ skabelon print"
+   ]
+  },
+  "stamtræ til print": {
+   "candidate": "family",
+   "s": [
+    "stamtræ til print",
+    "stamtræ skabelon til print",
+    "stamtræ print"
+   ]
+  }
+ }
+}

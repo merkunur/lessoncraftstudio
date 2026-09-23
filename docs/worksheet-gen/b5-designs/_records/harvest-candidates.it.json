@@ -1,0 +1,2427 @@
+{
+ "locale": "it",
+ "market": {
+  "hl": "it",
+  "gl": "it"
+ },
+ "generatedAt": "2026-09-23T00:11:50.455Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds.json",
+ "requestCount": 168,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "plants": {
+   "heads": [
+    "le parti della pianta",
+    "ciclo vitale della pianta"
+   ],
+   "requests": 14,
+   "productiveSeeds": 11,
+   "unique": 50,
+   "suggestions": [
+    "ciclo vitale della pianta",
+    "ciclo vitale della pianta classe prima",
+    "ciclo vitale della pianta classe prima primaria",
+    "ciclo vitale della pianta classe seconda",
+    "ciclo vitale della pianta da colorare",
+    "ciclo vitale della pianta di pomodoro",
+    "ciclo vitale della pianta disegno",
+    "ciclo vitale della pianta immagini",
+    "ciclo vitale della pianta pdf",
+    "ciclo vitale della pianta schema",
+    "ciclo vitale della pianta scuola primaria",
+    "le parti della pianta",
+    "le parti della pianta classe prima",
+    "le parti della pianta classe prima elementare",
+    "le parti della pianta classe prima lapbook",
+    "le parti della pianta classe prima video",
+    "le parti della pianta classe prima wordwall",
+    "le parti della pianta classe quarta primaria",
+    "le parti della pianta classe seconda",
+    "le parti della pianta classe seconda lapbook",
+    "le parti della pianta classe seconda maestra mary",
+    "le parti della pianta classe seconda maestra mile",
+    "le parti della pianta classe seconda primaria",
+    "le parti della pianta classe seconda primaria video",
+    "le parti della pianta classe seconda schede",
+    "le parti della pianta classe seconda verifica",
+    "le parti della pianta classe seconda video",
+    "le parti della pianta classe seconda wordwall",
+    "le parti della pianta classe terza",
+    "le parti della pianta classe terza primaria",
+    "le parti della pianta da stampare",
+    "le parti della pianta del piede",
+    "le parti della pianta e le loro funzioni",
+    "le parti della pianta e le loro funzioni classe seconda",
+    "le parti della pianta e le loro funzioni classe terza",
+    "le parti della pianta in inglese scuola primaria",
+    "le parti della pianta scheda didattica",
+    "le parti della pianta schede",
+    "le parti della pianta schede classe prima",
+    "le parti della pianta schede didattiche scuola primaria",
+    "le parti della pianta scienze classe seconda",
+    "le parti della pianta scuola primaria",
+    "le parti della pianta scuola primaria classe prima",
+    "le parti della pianta scuola primaria classe quarta",
+    "le parti della pianta scuola primaria classe seconda",
+    "le parti della pianta scuola primaria classe terza",
+    "le parti della pianta scuola primaria video",
+    "verifica le parti della pianta scuola primaria",
+    "wordwall le parti della pianta classe terza",
+    "youtube le parti della pianta scuola primaria"
+   ]
+  },
+  "life-cycles": {
+   "heads": [
+    "ciclo vitale della farfalla",
+    "ciclo vitale della rana"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 24,
+   "suggestions": [
+    "ciclo vitale della farfalla",
+    "ciclo vitale della farfalla classe prima",
+    "ciclo vitale della farfalla classe seconda",
+    "ciclo vitale della farfalla da colorare",
+    "ciclo vitale della farfalla immagini",
+    "ciclo vitale della farfalla pdf",
+    "ciclo vitale della farfalla per bambini",
+    "ciclo vitale della farfalla prima elementare",
+    "ciclo vitale della farfalla scuola infanzia",
+    "ciclo vitale della farfalla scuola primaria",
+    "ciclo vitale della farfalla video",
+    "ciclo vitale della rana",
+    "ciclo vitale della rana classe prima",
+    "ciclo vitale della rana da colorare",
+    "ciclo vitale della rana disegno",
+    "ciclo vitale della rana pdf",
+    "ciclo vitale della rana per bambini",
+    "ciclo vitale della rana schede didattiche",
+    "ciclo vitale della rana scuola primaria",
+    "ciclo vitale della rana video",
+    "ciclo vitale della rana wikipedia",
+    "il ciclo vitale della farfalla video scuola primaria",
+    "il ciclo vitale della rana classe seconda",
+    "schema ciclo vitale della rana scuola primaria"
+   ]
+  },
+  "materials": {
+   "heads": [
+    "i materiali",
+    "materiali magnetici"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 60,
+   "suggestions": [
+    "classificazione materiali magnetici",
+    "i materiali",
+    "i materiali che non irritano",
+    "i materiali che non irritano cruciverba",
+    "i materiali che non irritano dizy",
+    "i materiali che vengono a contatto con gli alimenti ad esempio gli imballaggi",
+    "i materiali classe prima",
+    "i materiali classe prima elementare",
+    "i materiali classe prima quaderno",
+    "i materiali classe prima schede",
+    "i materiali classe prima schede didattiche",
+    "i materiali classe prima scienze",
+    "i materiali classe prima scuola primaria maestra chiara",
+    "i materiali classe prima tecnologia",
+    "i materiali classe prima video",
+    "i materiali classe prima wordwall",
+    "i materiali classe seconda",
+    "i materiali classe seconda maestra mihaela",
+    "i materiali classe seconda primaria",
+    "i materiali classe seconda primaria video",
+    "i materiali classe seconda quaderno",
+    "i materiali classe seconda schede didattiche",
+    "i materiali classe seconda scienze",
+    "i materiali classe seconda tecnologia",
+    "i materiali classe seconda video",
+    "i materiali classe seconda wordwall",
+    "i materiali classe terza",
+    "i materiali classe terza maestra chiara",
+    "i materiali classe terza primaria",
+    "i materiali classe terza scienze",
+    "i materiali classe terza tecnologia",
+    "i materiali classe terza video",
+    "i materiali classe terza wordwall",
+    "i materiali consigliati per l'avvio di un processo partecipativo sono",
+    "i materiali di scarto ed i rifiuti devono essere",
+    "i materiali naturali e artificiali classe terza",
+    "i materiali per ristrutturazione sono detraibili",
+    "i materiali quando si riscaldano si",
+    "i materiali scheda didattica",
+    "i materiali scuola primaria",
+    "i materiali scuola primaria classe prima",
+    "i materiali scuola primaria classe quarta",
+    "i materiali scuola primaria classe seconda",
+    "i materiali scuola primaria classe terza",
+    "i materiali scuola primaria pdf",
+    "i materiali scuola primaria quaderno",
+    "i materiali scuola primaria tecnologia",
+    "i materiali scuola primaria video",
+    "i materiali scuola primaria wordwall",
+    "i materiali tecnologia classe terza primaria",
+    "materiali isolanti magnetici",
+    "materiali magnetici",
+    "materiali magnetici diamagnetici e paramagnetici",
+    "materiali magnetici dolci",
+    "materiali magnetici duri",
+    "materiali magnetici duri e dolci",
+    "materiali metallici non magnetici",
+    "materiali non magnetici",
+    "tipi di materiali magnetici",
+    "verifica i materiali classe terza"
+   ]
+  },
+  "space": {
+   "heads": [
+    "il sistema solare",
+    "le fasi lunari"
+   ],
+   "requests": 14,
+   "productiveSeeds": 11,
+   "unique": 58,
+   "suggestions": [
+    "cosa sono le fasi lunari scuola primaria",
+    "fasi lunari da stampare e colorare",
+    "fasi lunari scheda didattica",
+    "il sistema solare",
+    "il sistema solare classe prima",
+    "il sistema solare classe quinta primaria",
+    "il sistema solare classe quinta primaria video",
+    "il sistema solare classe terza primaria",
+    "il sistema solare da stampare",
+    "il sistema solare da stampare e colorare",
+    "il sistema solare didattica creativa",
+    "il sistema solare immagini da stampare",
+    "il sistema solare lapbook da stampare",
+    "il sistema solare opposto al tolemaico",
+    "il sistema solare per bambini",
+    "il sistema solare per bambini da stampare",
+    "il sistema solare per bambini di 5 elementare",
+    "il sistema solare riassunto",
+    "il sistema solare scheda didattica",
+    "il sistema solare schede didattiche da stampare",
+    "il sistema solare scuola primaria",
+    "il sistema solare scuola primaria classe 5",
+    "il sistema solare scuola primaria immagini",
+    "il sistema solare scuola primaria maestra giulia",
+    "il sistema solare scuola primaria maestra mary",
+    "il sistema solare scuola primaria mappa concettuale",
+    "il sistema solare scuola primaria paxi",
+    "il sistema solare scuola primaria pdf",
+    "il sistema solare scuola primaria schede",
+    "il sistema solare scuola primaria video",
+    "il sistema solare semplificato",
+    "il sistema solare si muove",
+    "il sistema solare si trova nella via lattea",
+    "la luna e le fasi lunari classe quinta primaria",
+    "la luna e le fasi lunari scuola primaria",
+    "la luna e le fasi lunari scuola primaria video",
+    "le fasi lunari",
+    "le fasi lunari classe quinta primaria",
+    "le fasi lunari da stampare",
+    "le fasi lunari di agosto",
+    "le fasi lunari di luglio",
+    "le fasi lunari di questo mese",
+    "le fasi lunari influiscono sul parto",
+    "le fasi lunari oggi",
+    "le fasi lunari quante sono",
+    "le fasi lunari savigliano",
+    "le fasi lunari scuola primaria",
+    "le fasi lunari scuola primaria schede didattiche",
+    "le fasi lunari scuola primaria video",
+    "le fasi lunari spiegate ai bambini",
+    "le fasi lunari spiegate ai bambini scuola primaria",
+    "le fasi lunari spiegazione semplice",
+    "scienze classe quinta primaria il sistema solare",
+    "sistema solare classe terza",
+    "sistema solare da stampare e costruire",
+    "sistema solare da stampare gratis",
+    "sistema solare da stampare pdf",
+    "youtube le fasi lunari scuola primaria"
+   ]
+  },
+  "colors": {
+   "heads": [
+    "i colori",
+    "colori"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 121,
+   "suggestions": [
+    "cartella colori da stampare",
+    "colori",
+    "colori acromatici scuola primaria",
+    "colori arcobaleno",
+    "colori caldi e freddi classe terza primaria",
+    "colori caldi scuola primaria",
+    "colori classe prima",
+    "colori classe prima inglese",
+    "colori complementari",
+    "colori complementari classe seconda",
+    "colori complementari classe seconda primaria",
+    "colori complementari classe terza",
+    "colori complementari classe terza primaria",
+    "colori complementari scuola primaria",
+    "colori con la d",
+    "colori con la e",
+    "colori da stampare",
+    "colori da stampare e colorare",
+    "colori francese scheda didattica",
+    "colori freddi classe prima",
+    "colori freddi classe seconda",
+    "colori freddi scuola primaria",
+    "colori in inglese classe terza",
+    "colori in inglese scheda didattica",
+    "colori inglese classe seconda",
+    "colori iphone 17",
+    "colori iphone 18",
+    "colori primari",
+    "colori primari classe 1",
+    "colori primari classe prima elementare",
+    "colori primari classe quarta",
+    "colori primari classe seconda",
+    "colori primari classe terza",
+    "colori primari da stampare",
+    "colori primari e secondari classe terza",
+    "colori primari scuola primaria classe prima",
+    "colori scuola primaria",
+    "colori scuola primaria inglese",
+    "colori secondari classe prima",
+    "colori secondari classe prima elementare",
+    "colori secondari classe seconda",
+    "colori secondari classe seconda primaria",
+    "colori secondari scuola primaria",
+    "colori terziari scuola primaria",
+    "colori unghie estate 2026",
+    "colorificio vicino a me",
+    "flashcard colori da stampare",
+    "giochi e colori classe terza",
+    "i colori caldi scuola primaria",
+    "i colori classe prima",
+    "i colori classe prima inglese",
+    "i colori classe seconda",
+    "i colori complementari classe seconda",
+    "i colori complementari classe terza",
+    "i colori complementari classe terza scuola primaria",
+    "i colori complementari scuola primaria",
+    "i colori da stampare",
+    "i colori del male",
+    "i colori del male nero",
+    "i colori del male nero film",
+    "i colori del male nero trama completa",
+    "i colori del male rosso",
+    "i colori del male trilogia",
+    "i colori del natale testo da stampare",
+    "i colori del tempo",
+    "i colori del tempo film",
+    "i colori dell amicizia da stampare",
+    "i colori dell anno liturgico da stampare",
+    "i colori dell'arcobaleno",
+    "i colori dell'autunno classe terza",
+    "i colori dell'autunno scheda didattica",
+    "i colori delle emozioni",
+    "i colori delle emozioni da stampare",
+    "i colori delle emozioni pdf da stampare",
+    "i colori delle emozioni schede da stampare",
+    "i colori delle emozioni storia da stampare",
+    "i colori freddi classe prima",
+    "i colori freddi scuola primaria",
+    "i colori in inglese da stampare",
+    "i colori in inglese scheda didattica",
+    "i colori inglese scuola primaria",
+    "i colori nelle carte geografiche classe terza",
+    "i colori neutri scuola primaria",
+    "i colori primari classe 1",
+    "i colori primari classe prima elementare",
+    "i colori primari classe quarta",
+    "i colori primari classe seconda",
+    "i colori primari classe seconda elementare",
+    "i colori primari classe terza",
+    "i colori primari da stampare",
+    "i colori primari e secondari classe terza",
+    "i colori primari scheda didattica",
+    "i colori scheda didattica",
+    "i colori scuola primaria",
+    "i colori scuola primaria classe prima",
+    "i colori secondari classe prima",
+    "i colori secondari classe prima primaria",
+    "i colori secondari classe prima video",
+    "i colori secondari classe seconda",
+    "i colori secondari classe seconda primaria",
+    "i colori secondari scuola primaria",
+    "i colori terziari classe seconda",
+    "i colori terziari scuola primaria",
+    "i colori terziari scuola primaria video",
+    "i nomi a colori scheda didattica",
+    "il giardino dei colori scheda didattica",
+    "maestre a colori classe terza",
+    "memory colori da stampare",
+    "palette colori da stampare",
+    "ruota colori da stampare",
+    "scheda didattica colori caldi e freddi",
+    "scheda didattica colori in spagnolo",
+    "scheda didattica colori primari",
+    "scheda didattica colori primari e secondari",
+    "scheda didattica colori secondari",
+    "tabella colori da stampare",
+    "tavolozza colori da stampare",
+    "un cielo a colori classe terza",
+    "wordwall colori classe prima",
+    "wordwall colori scuola primaria",
+    "wordwall inglese colori classe terza"
+   ]
+  },
+  "2d-shapes": {
+   "heads": [
+    "figure geometriche",
+    "le forme geometriche"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 82,
+   "suggestions": [
+    "attività con le forme geometriche classe prima",
+    "attività figure geometriche scuola primaria",
+    "costruire con le forme geometriche scuola primaria",
+    "esercizi figure geometriche scuola primaria",
+    "fantavolando le forme geometriche classe prima",
+    "figure geometriche",
+    "figure geometriche 3d",
+    "figure geometriche a 4 lati",
+    "figure geometriche classe prima",
+    "figure geometriche classe prima elementare",
+    "figure geometriche classe prima wordwall",
+    "figure geometriche classe seconda",
+    "figure geometriche classe seconda primaria",
+    "figure geometriche classe terza",
+    "figure geometriche classe terza primaria",
+    "figure geometriche colorate da stampare",
+    "figure geometriche da stampare",
+    "figure geometriche da stampare e colorare",
+    "figure geometriche da stampare e costruire",
+    "figure geometriche da stampare e ritagliare",
+    "figure geometriche da stampare gratis",
+    "figure geometriche equivalenti",
+    "figure geometriche in inglese",
+    "figure geometriche in italiano",
+    "figure geometriche nomi",
+    "figure geometriche piane",
+    "figure geometriche piane classe prima",
+    "figure geometriche piane classe seconda",
+    "figure geometriche piane classe seconda primaria",
+    "figure geometriche piane classe terza",
+    "figure geometriche piane da stampare",
+    "figure geometriche piane scuola primaria",
+    "figure geometriche scuola primaria",
+    "figure geometriche scuola primaria classe prima",
+    "figure geometriche scuola primaria pdf",
+    "figure geometriche scuola primaria wordwall",
+    "figure geometriche solide",
+    "figure geometriche solide classe seconda",
+    "figure geometriche solide da stampare",
+    "figure geometriche solide da stampare e ritagliare",
+    "figure geometriche solide scuola primaria",
+    "forme geometriche classe seconda primaria",
+    "forme geometriche classe terza primaria",
+    "forme geometriche da stampare e colorare",
+    "forme geometriche da stampare e ritagliare",
+    "forme geometriche da stampare infanzia",
+    "forme geometriche scheda didattica",
+    "forme geometriche scuola primaria classe prima",
+    "giochi con le forme geometriche scuola primaria",
+    "immagini figure geometriche da stampare",
+    "le forme geometriche",
+    "le forme geometriche canzone",
+    "le forme geometriche canzone per bambini",
+    "le forme geometriche classe prima",
+    "le forme geometriche classe prima filastrocca",
+    "le forme geometriche classe prima maestra anita",
+    "le forme geometriche classe prima primaria",
+    "le forme geometriche classe prima quaderno",
+    "le forme geometriche classe prima schede didattiche",
+    "le forme geometriche classe prima video",
+    "le forme geometriche classe prima wordwall",
+    "le forme geometriche classe seconda",
+    "le forme geometriche classe terza",
+    "le forme geometriche da stampare",
+    "le forme geometriche in inglese",
+    "le forme geometriche in italiano",
+    "le forme geometriche infanzia",
+    "le forme geometriche per bambini",
+    "le forme geometriche scuola infanzia",
+    "le forme geometriche scuola primaria",
+    "rotazione figure geometriche scuola primaria",
+    "scheda didattica figure geometriche",
+    "scheda figure geometriche classe prima",
+    "scheda figure geometriche classe seconda",
+    "schede figure geometriche scuola primaria",
+    "verifica figure geometriche classe prima",
+    "verifica figure geometriche classe seconda",
+    "verifica figure geometriche classe terza",
+    "video figure geometriche classe prima",
+    "video figure geometriche classe prima elementare",
+    "wordwall figure geometriche classe seconda",
+    "wordwall figure geometriche classe terza"
+   ]
+  },
+  "digraphs": {
+   "heads": [
+    "digrammi",
+    "gn gl sc"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 23,
+   "suggestions": [
+    "dettato ortografico gn gl sc",
+    "diagrammi di flusso",
+    "diagrammi scuola primaria",
+    "digrammi",
+    "digrammi classe prima",
+    "digrammi cosa sono",
+    "digrammi e trigrammi",
+    "digrammi e trigrammi classe prima",
+    "digrammi e trigrammi cosa sono",
+    "digrammi e trigrammi esempi",
+    "digrammi e trigrammi scuola primaria",
+    "digrammi esempi",
+    "digrammi italiano",
+    "digrammi significato",
+    "esercizi gn gl sc",
+    "gn gl sc",
+    "gn gl scuola primaria",
+    "i suoni gn sc gl e altri",
+    "parole con gn gl sc",
+    "schede gn gl",
+    "suoni gn sc gl",
+    "verifica gn gl sc",
+    "wordwall gn gl sc"
+   ]
+  },
+  "synonyms": {
+   "heads": [
+    "sinonimi",
+    "sinonimi e contrari"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 79,
+   "suggestions": [
+    "aggettivi sinonimi classe seconda",
+    "aggettivi sinonimi e contrari classe seconda",
+    "aggettivi sinonimi e contrari classe terza",
+    "aggettivi sinonimi scuola primaria",
+    "attività sinonimi e contrari scuola primaria",
+    "dizionario sinonimi e contrari scuola primaria",
+    "esercizi sinonimi classe seconda",
+    "esercizi sinonimi classe terza",
+    "esercizi sinonimi e contrari classe seconda",
+    "esercizi sinonimi e contrari classe terza",
+    "esercizi sinonimi e contrari scuola primaria",
+    "esercizi sinonimi e contrari scuola primaria classe quinta",
+    "esercizi sinonimi e contrari scuola primaria classe seconda",
+    "esercizi sinonimi scuola primaria",
+    "i sinonimi classe terza maestra anita",
+    "i sinonimi scuola primaria classe seconda",
+    "maestra mary sinonimi e contrari classe terza",
+    "omonimi e sinonimi classe terza",
+    "omonimi sinonimi e contrari classe seconda",
+    "omonimi sinonimi e contrari classe terza",
+    "omonimi sinonimi e contrari scuola primaria",
+    "scheda sinonimi classe seconda",
+    "scheda sinonimi scuola primaria",
+    "sinonimi",
+    "sinonimi classe prima",
+    "sinonimi classe seconda",
+    "sinonimi classe seconda primaria",
+    "sinonimi classe terza",
+    "sinonimi classe terza primaria",
+    "sinonimi contrari",
+    "sinonimi contrari classe seconda",
+    "sinonimi contrari classe terza",
+    "sinonimi di bello",
+    "sinonimi di fare",
+    "sinonimi e contrari",
+    "sinonimi e contrari classe quarta primaria",
+    "sinonimi e contrari classe quinta primaria",
+    "sinonimi e contrari classe seconda",
+    "sinonimi e contrari classe seconda maestra anita",
+    "sinonimi e contrari classe seconda maestra ilaria",
+    "sinonimi e contrari classe seconda maestra mile",
+    "sinonimi e contrari classe seconda primaria",
+    "sinonimi e contrari classe seconda schede",
+    "sinonimi e contrari classe seconda wordwall",
+    "sinonimi e contrari classe terza",
+    "sinonimi e contrari classe terza maestra anita",
+    "sinonimi e contrari classe terza primaria",
+    "sinonimi e contrari corriere",
+    "sinonimi e contrari da stampare",
+    "sinonimi e contrari dizionario",
+    "sinonimi e contrari inglese",
+    "sinonimi e contrari online",
+    "sinonimi e contrari online gratis",
+    "sinonimi e contrari scheda didattica",
+    "sinonimi e contrari schede classe terza",
+    "sinonimi e contrari schede da stampare",
+    "sinonimi e contrari scuola primaria",
+    "sinonimi e contrari scuola primaria classe quarta",
+    "sinonimi e contrari scuola primaria classe quinta",
+    "sinonimi e contrari scuola primaria classe seconda",
+    "sinonimi e contrari scuola primaria classe terza",
+    "sinonimi e contrari treccani",
+    "sinonimi e contrari virgilio",
+    "sinonimi e contrari zanichelli",
+    "sinonimi esempi scuola primaria",
+    "sinonimi inglese",
+    "sinonimi omonimi contrari classe terza",
+    "sinonimi scheda didattica",
+    "sinonimi scuola primaria",
+    "sinonimi scuola primaria classe 3",
+    "sinonimi scuola primaria classe quarta",
+    "sinonimi scuola primaria seconda",
+    "sinonimi virgilio",
+    "verbi sinonimi e contrari scuola primaria",
+    "verbi sinonimi scuola primaria",
+    "verifica sinonimi e contrari classe terza",
+    "wordwall sinonimi classe seconda",
+    "wordwall sinonimi classe terza",
+    "wordwall sinonimi e contrari classe terza"
+   ]
+  },
+  "homophones": {
+   "heads": [
+    "è e",
+    "ha a"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 61,
+   "suggestions": [
+    "c è e ci sono classe prima",
+    "c è tempo e tempo classe prima",
+    "c è tempo e tempo scheda didattica",
+    "c è tempo e tempo scuola primaria",
+    "cose da stampare e colorare",
+    "dettato e è classe seconda",
+    "e ed è classe prima",
+    "e ed è classe seconda",
+    "e ed è classe terza",
+    "e ed è spiegazione scuola primaria",
+    "e è classe seconda primaria",
+    "e è scuola primaria classe seconda",
+    "e è scuola primaria classe terza",
+    "esercizi con e è classe seconda elementare",
+    "esercizi e è classe terza",
+    "esercizi ha a scuola primaria",
+    "esercizi è e scuola primaria",
+    "ha a classe seconda",
+    "ha a scuola primaria",
+    "ha abbandonato il gruppo",
+    "ha accesso alle informazioni riservate di una società",
+    "ha anche un presidio ospedaliero",
+    "ha anche un timpano cruciverba",
+    "ha ancora tanto da vivere",
+    "ha aperto primark a giugliano",
+    "ha are ca",
+    "ha avuto",
+    "ha avuto come presidente eamon de valera",
+    "ha avuto corso in slovenia",
+    "ha e a scuola primaria",
+    "ha l a classe seconda",
+    "ha oa scuola primaria",
+    "ha oppure a scuola primaria",
+    "scheda didattica e è",
+    "schede e è classe seconda",
+    "schede e è classe terza",
+    "verifica e è classe seconda",
+    "wordwall e è classe prima",
+    "wordwall e è classe seconda",
+    "wordwall e è classe terza",
+    "è che spiega e che unisce classe prima",
+    "è che spiega e che unisce classe terza",
+    "è e classe prima",
+    "è e classe seconda",
+    "è e classe terza",
+    "è e scuola primaria",
+    "è emerso sinonimo",
+    "è entrato un geco in casa",
+    "è equivalente a più di 3 anni luce",
+    "è equivalente a più di tre anni luce cruciverba",
+    "è errato prima di zero",
+    "è esistito ulisse",
+    "è esperto di titoli",
+    "è esperto di titoli cruciverba",
+    "è estate",
+    "è estate cincia",
+    "è oppure e classe seconda",
+    "è oppure e classe terza",
+    "è verbo e congiunzione classe seconda",
+    "è verbo e congiunzione classe terza",
+    "è verbo e congiunzione scuola primaria"
+   ]
+  },
+  "road-safety": {
+   "heads": [
+    "educazione stradale",
+    "segnali stradali"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 68,
+   "suggestions": [
+    "cartellone segnali stradali scuola primaria",
+    "educazione stradale",
+    "educazione stradale bambini",
+    "educazione stradale classe 5 primaria",
+    "educazione stradale classe prima",
+    "educazione stradale classe prima elementare",
+    "educazione stradale classe quarta primaria",
+    "educazione stradale classe seconda",
+    "educazione stradale classe seconda primaria",
+    "educazione stradale classe terza",
+    "educazione stradale classe terza primaria",
+    "educazione stradale infanzia",
+    "educazione stradale infanzia maestra mary",
+    "educazione stradale infanzia pdf",
+    "educazione stradale nelle scuole",
+    "educazione stradale patente per bambini da stampare",
+    "educazione stradale pdf",
+    "educazione stradale scuola infanzia",
+    "educazione stradale scuola media pdf",
+    "educazione stradale scuola primaria",
+    "educazione stradale scuola primaria classe prima",
+    "educazione stradale scuola primaria classe seconda",
+    "educazione stradale scuola primaria classe terza",
+    "educazione stradale scuola primaria obiettivi",
+    "educazione stradale scuola primaria pdf",
+    "educazione stradale scuola primaria pianetabambini",
+    "educazione stradale scuola primaria ppt",
+    "educazione stradale scuola primaria schede didattiche",
+    "educazione stradale scuola primaria video",
+    "i segnali stradali scuola primaria da colorare",
+    "lapbook educazione stradale da stampare",
+    "scheda didattica educazione stradale",
+    "scheda didattica segnali stradali",
+    "schede didattiche segnali stradali scuola primaria",
+    "segnali stradali",
+    "segnali stradali blu",
+    "segnali stradali classe prima",
+    "segnali stradali classe seconda",
+    "segnali stradali classe seconda primaria",
+    "segnali stradali colorati da stampare",
+    "segnali stradali da stampare",
+    "segnali stradali da stampare e colorare",
+    "segnali stradali da stampare e ritagliare",
+    "segnali stradali da stampare gratis",
+    "segnali stradali da stampare pdf",
+    "segnali stradali da stampare per bambini",
+    "segnali stradali di obbligo",
+    "segnali stradali di pericolo",
+    "segnali stradali di pericolo da stampare",
+    "segnali stradali divieto",
+    "segnali stradali divieto di sosta",
+    "segnali stradali immagini",
+    "segnali stradali immagini da stampare",
+    "segnali stradali immagini e significato",
+    "segnali stradali inglese scuola primaria",
+    "segnali stradali per scuola primaria",
+    "segnali stradali scuola primaria",
+    "segnali stradali scuola primaria video",
+    "segnali stradali significato",
+    "segnali stradali significato scuola primaria",
+    "segnali stradali verticali",
+    "tutti i segnali stradali da stampare",
+    "uda educazione stradale scuola primaria classe terza",
+    "verifica segnali stradali scuola primaria",
+    "wordwall educazione stradale classe prima",
+    "wordwall educazione stradale classe seconda",
+    "wordwall segnali stradali classe seconda",
+    "wordwall segnali stradali scuola primaria"
+   ]
+  },
+  "maps": {
+   "heads": [
+    "i continenti",
+    "punti cardinali"
+   ],
+   "requests": 14,
+   "productiveSeeds": 12,
+   "unique": 65,
+   "suggestions": [
+    "esercizi punti cardinali classe terza primaria",
+    "geografia i continenti scuola primaria",
+    "i cinque continenti scuola primaria",
+    "i continenti",
+    "i continenti classe quinta primaria",
+    "i continenti classe terza",
+    "i continenti da stampare",
+    "i continenti da stampare e colorare",
+    "i continenti del mondo",
+    "i continenti di canada messico e brasile",
+    "i continenti piu grandi",
+    "i continenti quali sono",
+    "i continenti quanti sono",
+    "i continenti scheda scuola primaria",
+    "i continenti scuola primaria",
+    "i continenti scuola primaria classe quinta",
+    "i continenti scuola primaria da colorare",
+    "i continenti scuola primaria pdf",
+    "i continenti scuola primaria sostegno",
+    "i continenti scuola primaria video",
+    "i continenti sono 5",
+    "i continenti sono 5 o 6",
+    "i continenti sono 5 o 7",
+    "i continenti sono 6 o 7",
+    "i punti cardinali classe seconda primaria",
+    "i punti cardinali classe terza maestra mile",
+    "i punti cardinali scuola primaria classe terza video",
+    "i punti cardinali scuola primaria video",
+    "i sei continenti scuola primaria",
+    "lapbook punti cardinali da stampare",
+    "orientamento e punti cardinali classe terza primaria",
+    "orientamento e punti cardinali scuola primaria classe quarta",
+    "orientamento punti cardinali classe terza",
+    "punti cardinali",
+    "punti cardinali bussola",
+    "punti cardinali classe quarta primaria",
+    "punti cardinali classe seconda",
+    "punti cardinali classe terza",
+    "punti cardinali classe terza elementare",
+    "punti cardinali classe terza primaria",
+    "punti cardinali da stampare",
+    "punti cardinali da stampare e colorare",
+    "punti cardinali immagini da stampare",
+    "punti cardinali in inglese",
+    "punti cardinali in tedesco",
+    "punti cardinali italia",
+    "punti cardinali regione puglia",
+    "punti cardinali regione puglia 2026",
+    "punti cardinali sardegna",
+    "punti cardinali scheda didattica",
+    "punti cardinali scuola primaria",
+    "punti cardinali scuola primaria classe terza",
+    "punti cardinali scuola primaria da colorare",
+    "punti cardinali scuola primaria da stampare",
+    "punti cardinali scuola primaria disegni",
+    "punti cardinali scuola primaria pdf",
+    "punti cardinali scuola primaria schede didattiche",
+    "punti cardinali scuola primaria sostegno",
+    "punti cardinali scuola primaria wordwall",
+    "punti cardinali su google maps",
+    "schede punti cardinali classe terza",
+    "verifica punti cardinali classe terza",
+    "verifica punti cardinali classe terza primaria",
+    "video punti cardinali classe terza",
+    "wordwall punti cardinali classe terza"
+   ]
+  },
+  "family": {
+   "heads": [
+    "la famiglia",
+    "albero genealogico"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 86,
+   "suggestions": [
+    "albero genealogico",
+    "albero genealogico buendia",
+    "albero genealogico classe prima",
+    "albero genealogico classe seconda",
+    "albero genealogico classe seconda primaria",
+    "albero genealogico classe terza",
+    "albero genealogico classe terza primaria",
+    "albero genealogico da completare scuola primaria",
+    "albero genealogico da stampare",
+    "albero genealogico da stampare e compilare",
+    "albero genealogico da stampare gratis",
+    "albero genealogico da stampare per bambini",
+    "albero genealogico famiglia",
+    "albero genealogico famiglia da stampare",
+    "albero genealogico famiglia reale inglese",
+    "albero genealogico famiglia scuola primaria",
+    "albero genealogico gratuito",
+    "albero genealogico house of dragon",
+    "albero genealogico inglese scuola primaria",
+    "albero genealogico online",
+    "albero genealogico per successione",
+    "albero genealogico regina elisabetta",
+    "albero genealogico scheda didattica",
+    "albero genealogico scuola primaria",
+    "albero genealogico scuola primaria classe seconda",
+    "albero genealogico scuola primaria da stampare",
+    "albero genealogico storia scuola primaria",
+    "albero genealogico targaryen",
+    "albero genealogico vuoto da stampare",
+    "creare albero genealogico da stampare",
+    "disegno albero genealogico da stampare",
+    "disegno albero genealogico scuola primaria",
+    "immagini albero genealogico da stampare",
+    "la famiglia",
+    "la famiglia acqua classe prima",
+    "la famiglia acqua classe prima filastrocca",
+    "la famiglia acqua classe prima maestra anita",
+    "la famiglia acqua classe prima maestra ilaria",
+    "la famiglia acqua classe prima maestra mary",
+    "la famiglia acqua classe prima maestra mile",
+    "la famiglia acqua classe prima quaderno",
+    "la famiglia acqua classe seconda",
+    "la famiglia acqua classe seconda maestra anita",
+    "la famiglia acqua classe seconda maestra ilaria",
+    "la famiglia acqua classe seconda maestra mary",
+    "la famiglia acqua classe seconda maestra mile",
+    "la famiglia acqua classe terza",
+    "la famiglia acqua da stampare",
+    "la famiglia acqua scheda didattica",
+    "la famiglia acqua schede didattiche classe seconda",
+    "la famiglia acqua scuola primaria",
+    "la famiglia acqua scuola primaria classe seconda",
+    "la famiglia addams",
+    "la famiglia addams da stampare e colorare",
+    "la famiglia addams film",
+    "la famiglia addams scheda didattica",
+    "la famiglia addams scuola primaria",
+    "la famiglia belier",
+    "la famiglia bradford",
+    "la famiglia bélier scheda didattica",
+    "la famiglia classe prima",
+    "la famiglia classe seconda",
+    "la famiglia da stampare",
+    "la famiglia da stampare e colorare",
+    "la famiglia del bosco",
+    "la famiglia di piante comprendente il pelargonio",
+    "la famiglia egizia scuola primaria",
+    "la famiglia greca scuola primaria",
+    "la famiglia in inglese classe seconda",
+    "la famiglia inglese classe terza",
+    "la famiglia inglese scuola primaria",
+    "la famiglia leroy",
+    "la famiglia nel bosco",
+    "la famiglia orologio classe seconda",
+    "la famiglia orologio scuola primaria",
+    "la famiglia reale svedese",
+    "la famiglia romana scuola primaria",
+    "la famiglia scheda didattica",
+    "la famiglia scompiglio classe prima",
+    "la famiglia scuola primaria",
+    "la mia famiglia classe prima elementare",
+    "la mia famiglia scuola primaria",
+    "la nostra famiglia scuola primaria",
+    "scheda albero genealogico scuola primaria",
+    "schema albero genealogico da stampare",
+    "schema albero genealogico scuola primaria"
+   ]
+  }
+ },
+ "suggestions": {
+  "le parti della pianta": {
+   "candidate": "plants",
+   "s": [
+    "le parti della pianta",
+    "le parti della pianta e le loro funzioni",
+    "le parti della pianta classe prima",
+    "le parti della pianta classe seconda",
+    "le parti della pianta del piede",
+    "le parti della pianta e le loro funzioni classe seconda",
+    "le parti della pianta scuola primaria",
+    "le parti della pianta classe seconda primaria",
+    "le parti della pianta classe terza",
+    "le parti della pianta schede"
+   ]
+  },
+  "le parti della pianta scheda didattica": {
+   "candidate": "plants",
+   "s": [
+    "le parti della pianta scheda didattica"
+   ]
+  },
+  "le parti della pianta da stampare": {
+   "candidate": "plants",
+   "s": [
+    "le parti della pianta da stampare"
+   ]
+  },
+  "le parti della pianta scuola primaria": {
+   "candidate": "plants",
+   "s": [
+    "le parti della pianta scuola primaria",
+    "le parti della pianta scuola primaria classe seconda",
+    "le parti della pianta scuola primaria classe prima",
+    "le parti della pianta scuola primaria classe quarta",
+    "le parti della pianta scuola primaria classe terza",
+    "le parti della pianta scuola primaria video",
+    "verifica le parti della pianta scuola primaria",
+    "youtube le parti della pianta scuola primaria",
+    "le parti della pianta schede didattiche scuola primaria",
+    "le parti della pianta in inglese scuola primaria"
+   ]
+  },
+  "le parti della pianta classe prima": {
+   "candidate": "plants",
+   "s": [
+    "le parti della pianta classe prima",
+    "le parti della pianta classe prima elementare",
+    "le parti della pianta classe prima wordwall",
+    "le parti della pianta classe prima video",
+    "le parti della pianta classe prima lapbook",
+    "le parti della pianta classe seconda primaria",
+    "le parti della pianta classe quarta primaria",
+    "le parti della pianta classe terza primaria",
+    "le parti della pianta classe seconda primaria video",
+    "le parti della pianta schede classe prima"
+   ]
+  },
+  "le parti della pianta classe seconda": {
+   "candidate": "plants",
+   "s": [
+    "le parti della pianta classe seconda",
+    "le parti della pianta classe seconda primaria",
+    "le parti della pianta classe seconda schede",
+    "le parti della pianta classe seconda lapbook",
+    "le parti della pianta classe seconda wordwall",
+    "le parti della pianta classe seconda video",
+    "le parti della pianta classe seconda verifica",
+    "le parti della pianta classe seconda maestra mary",
+    "le parti della pianta classe seconda maestra mile",
+    "le parti della pianta scienze classe seconda"
+   ]
+  },
+  "le parti della pianta classe terza": {
+   "candidate": "plants",
+   "s": [
+    "le parti della pianta classe terza",
+    "le parti della pianta classe terza primaria",
+    "wordwall le parti della pianta classe terza",
+    "le parti della pianta e le loro funzioni classe terza"
+   ]
+  },
+  "ciclo vitale della pianta": {
+   "candidate": "plants",
+   "s": [
+    "ciclo vitale della pianta",
+    "ciclo vitale della pianta di pomodoro",
+    "ciclo vitale della pianta classe seconda",
+    "ciclo vitale della pianta classe prima",
+    "ciclo vitale della pianta scuola primaria",
+    "ciclo vitale della pianta schema",
+    "ciclo vitale della pianta da colorare",
+    "ciclo vitale della pianta disegno",
+    "ciclo vitale della pianta pdf",
+    "ciclo vitale della pianta immagini"
+   ]
+  },
+  "ciclo vitale della pianta scuola primaria": {
+   "candidate": "plants",
+   "s": [
+    "ciclo vitale della pianta scuola primaria"
+   ]
+  },
+  "ciclo vitale della pianta classe prima": {
+   "candidate": "plants",
+   "s": [
+    "ciclo vitale della pianta classe prima",
+    "ciclo vitale della pianta classe prima primaria"
+   ]
+  },
+  "ciclo vitale della pianta classe seconda": {
+   "candidate": "plants",
+   "s": [
+    "ciclo vitale della pianta classe seconda"
+   ]
+  },
+  "ciclo vitale della farfalla": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo vitale della farfalla",
+    "ciclo vitale della farfalla pdf",
+    "ciclo vitale della farfalla scuola primaria",
+    "ciclo vitale della farfalla per bambini",
+    "ciclo vitale della farfalla classe prima",
+    "ciclo vitale della farfalla da colorare",
+    "ciclo vitale della farfalla prima elementare",
+    "ciclo vitale della farfalla video",
+    "ciclo vitale della farfalla scuola infanzia",
+    "ciclo vitale della farfalla immagini"
+   ]
+  },
+  "ciclo vitale della farfalla scuola primaria": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo vitale della farfalla scuola primaria",
+    "il ciclo vitale della farfalla video scuola primaria"
+   ]
+  },
+  "ciclo vitale della farfalla classe prima": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo vitale della farfalla classe prima"
+   ]
+  },
+  "ciclo vitale della farfalla classe seconda": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo vitale della farfalla classe seconda"
+   ]
+  },
+  "ciclo vitale della rana": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo vitale della rana",
+    "ciclo vitale della rana wikipedia",
+    "ciclo vitale della rana scuola primaria",
+    "ciclo vitale della rana per bambini",
+    "ciclo vitale della rana pdf",
+    "ciclo vitale della rana da colorare",
+    "ciclo vitale della rana classe prima",
+    "ciclo vitale della rana video",
+    "ciclo vitale della rana schede didattiche",
+    "ciclo vitale della rana disegno"
+   ]
+  },
+  "ciclo vitale della rana scuola primaria": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo vitale della rana scuola primaria",
+    "schema ciclo vitale della rana scuola primaria"
+   ]
+  },
+  "ciclo vitale della rana classe prima": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo vitale della rana classe prima"
+   ]
+  },
+  "ciclo vitale della rana classe seconda": {
+   "candidate": "life-cycles",
+   "s": [
+    "il ciclo vitale della rana classe seconda"
+   ]
+  },
+  "i materiali": {
+   "candidate": "materials",
+   "s": [
+    "i materiali che non irritano",
+    "i materiali che non irritano dizy",
+    "i materiali",
+    "i materiali che non irritano cruciverba",
+    "i materiali quando si riscaldano si",
+    "i materiali di scarto ed i rifiuti devono essere",
+    "i materiali per ristrutturazione sono detraibili",
+    "i materiali consigliati per l'avvio di un processo partecipativo sono",
+    "i materiali che vengono a contatto con gli alimenti ad esempio gli imballaggi",
+    "i materiali scuola primaria"
+   ]
+  },
+  "i materiali scheda didattica": {
+   "candidate": "materials",
+   "s": [
+    "i materiali scheda didattica"
+   ]
+  },
+  "i materiali scuola primaria": {
+   "candidate": "materials",
+   "s": [
+    "i materiali scuola primaria",
+    "i materiali scuola primaria pdf",
+    "i materiali scuola primaria classe terza",
+    "i materiali scuola primaria classe prima",
+    "i materiali scuola primaria quaderno",
+    "i materiali scuola primaria classe seconda",
+    "i materiali scuola primaria classe quarta",
+    "i materiali scuola primaria video",
+    "i materiali scuola primaria wordwall",
+    "i materiali scuola primaria tecnologia"
+   ]
+  },
+  "i materiali classe prima": {
+   "candidate": "materials",
+   "s": [
+    "i materiali classe prima quaderno",
+    "i materiali classe prima scuola primaria maestra chiara",
+    "i materiali classe prima",
+    "i materiali classe prima schede",
+    "i materiali classe prima schede didattiche",
+    "i materiali classe prima wordwall",
+    "i materiali classe prima video",
+    "i materiali classe prima tecnologia",
+    "i materiali classe prima elementare",
+    "i materiali classe prima scienze"
+   ]
+  },
+  "i materiali classe seconda": {
+   "candidate": "materials",
+   "s": [
+    "i materiali classe seconda maestra mihaela",
+    "i materiali classe seconda",
+    "i materiali classe seconda primaria",
+    "i materiali classe seconda quaderno",
+    "i materiali classe seconda schede didattiche",
+    "i materiali classe seconda tecnologia",
+    "i materiali classe seconda wordwall",
+    "i materiali classe seconda video",
+    "i materiali classe seconda scienze",
+    "i materiali classe seconda primaria video"
+   ]
+  },
+  "i materiali classe terza": {
+   "candidate": "materials",
+   "s": [
+    "i materiali classe terza",
+    "i materiali classe terza primaria",
+    "i materiali classe terza tecnologia",
+    "i materiali classe terza maestra chiara",
+    "i materiali classe terza scienze",
+    "i materiali classe terza video",
+    "i materiali classe terza wordwall",
+    "i materiali tecnologia classe terza primaria",
+    "verifica i materiali classe terza",
+    "i materiali naturali e artificiali classe terza"
+   ]
+  },
+  "materiali magnetici": {
+   "candidate": "materials",
+   "s": [
+    "materiali magnetici",
+    "materiali magnetici diamagnetici e paramagnetici",
+    "materiali magnetici duri",
+    "materiali magnetici duri e dolci",
+    "materiali magnetici dolci",
+    "materiali non magnetici",
+    "classificazione materiali magnetici",
+    "materiali isolanti magnetici",
+    "tipi di materiali magnetici",
+    "materiali metallici non magnetici"
+   ]
+  },
+  "il sistema solare": {
+   "candidate": "space",
+   "s": [
+    "il sistema solare",
+    "il sistema solare opposto al tolemaico",
+    "il sistema solare per bambini",
+    "il sistema solare scuola primaria",
+    "il sistema solare per bambini di 5 elementare",
+    "il sistema solare riassunto",
+    "il sistema solare semplificato",
+    "il sistema solare si trova nella via lattea",
+    "il sistema solare scuola primaria pdf",
+    "il sistema solare si muove"
+   ]
+  },
+  "il sistema solare scheda didattica": {
+   "candidate": "space",
+   "s": [
+    "il sistema solare scheda didattica",
+    "il sistema solare didattica creativa"
+   ]
+  },
+  "il sistema solare da stampare": {
+   "candidate": "space",
+   "s": [
+    "il sistema solare da stampare",
+    "il sistema solare da stampare e colorare",
+    "il sistema solare lapbook da stampare",
+    "il sistema solare immagini da stampare",
+    "il sistema solare schede didattiche da stampare",
+    "il sistema solare per bambini da stampare",
+    "sistema solare da stampare e costruire",
+    "sistema solare da stampare pdf",
+    "sistema solare da stampare gratis"
+   ]
+  },
+  "il sistema solare scuola primaria": {
+   "candidate": "space",
+   "s": [
+    "il sistema solare scuola primaria",
+    "il sistema solare scuola primaria pdf",
+    "il sistema solare scuola primaria classe 5",
+    "il sistema solare scuola primaria maestra mary",
+    "il sistema solare scuola primaria schede",
+    "il sistema solare scuola primaria video",
+    "il sistema solare scuola primaria mappa concettuale",
+    "il sistema solare scuola primaria paxi",
+    "il sistema solare scuola primaria immagini",
+    "il sistema solare scuola primaria maestra giulia"
+   ]
+  },
+  "il sistema solare classe prima": {
+   "candidate": "space",
+   "s": [
+    "il sistema solare classe prima",
+    "il sistema solare classe quinta primaria",
+    "il sistema solare classe quinta primaria video",
+    "il sistema solare classe terza primaria",
+    "scienze classe quinta primaria il sistema solare"
+   ]
+  },
+  "il sistema solare classe terza": {
+   "candidate": "space",
+   "s": [
+    "il sistema solare classe terza primaria",
+    "sistema solare classe terza"
+   ]
+  },
+  "le fasi lunari": {
+   "candidate": "space",
+   "s": [
+    "le fasi lunari",
+    "le fasi lunari spiegazione semplice",
+    "le fasi lunari oggi",
+    "le fasi lunari spiegate ai bambini",
+    "le fasi lunari quante sono",
+    "le fasi lunari influiscono sul parto",
+    "le fasi lunari savigliano",
+    "le fasi lunari di agosto",
+    "le fasi lunari di questo mese",
+    "le fasi lunari di luglio"
+   ]
+  },
+  "le fasi lunari scheda didattica": {
+   "candidate": "space",
+   "s": [
+    "fasi lunari scheda didattica"
+   ]
+  },
+  "le fasi lunari da stampare": {
+   "candidate": "space",
+   "s": [
+    "le fasi lunari da stampare",
+    "fasi lunari da stampare e colorare"
+   ]
+  },
+  "le fasi lunari scuola primaria": {
+   "candidate": "space",
+   "s": [
+    "le fasi lunari scuola primaria",
+    "le fasi lunari scuola primaria schede didattiche",
+    "le fasi lunari scuola primaria video",
+    "youtube le fasi lunari scuola primaria",
+    "cosa sono le fasi lunari scuola primaria",
+    "la luna e le fasi lunari scuola primaria",
+    "la luna e le fasi lunari scuola primaria video",
+    "le fasi lunari spiegate ai bambini scuola primaria"
+   ]
+  },
+  "le fasi lunari classe prima": {
+   "candidate": "space",
+   "s": [
+    "le fasi lunari classe quinta primaria",
+    "la luna e le fasi lunari classe quinta primaria"
+   ]
+  },
+  "i colori": {
+   "candidate": "colors",
+   "s": [
+    "i colori del male nero",
+    "i colori del tempo",
+    "i colori del male",
+    "i colori del male rosso",
+    "i colori dell'arcobaleno",
+    "i colori del tempo film",
+    "i colori delle emozioni",
+    "i colori del male nero trama completa",
+    "i colori del male trilogia",
+    "i colori del male nero film"
+   ]
+  },
+  "i colori scheda didattica": {
+   "candidate": "colors",
+   "s": [
+    "i colori scheda didattica",
+    "i colori primari scheda didattica",
+    "i nomi a colori scheda didattica",
+    "i colori in inglese scheda didattica",
+    "i colori dell'autunno scheda didattica"
+   ]
+  },
+  "i colori da stampare": {
+   "candidate": "colors",
+   "s": [
+    "i colori da stampare",
+    "i colori primari da stampare",
+    "i colori delle emozioni da stampare",
+    "i colori dell amicizia da stampare",
+    "i colori in inglese da stampare",
+    "i colori delle emozioni storia da stampare",
+    "i colori del natale testo da stampare",
+    "i colori delle emozioni pdf da stampare",
+    "i colori dell anno liturgico da stampare",
+    "i colori delle emozioni schede da stampare"
+   ]
+  },
+  "i colori scuola primaria": {
+   "candidate": "colors",
+   "s": [
+    "i colori scuola primaria",
+    "i colori scuola primaria classe prima",
+    "i colori complementari scuola primaria",
+    "i colori secondari scuola primaria",
+    "i colori terziari scuola primaria",
+    "i colori freddi scuola primaria",
+    "i colori caldi scuola primaria",
+    "i colori neutri scuola primaria",
+    "i colori inglese scuola primaria",
+    "i colori terziari scuola primaria video"
+   ]
+  },
+  "i colori classe prima": {
+   "candidate": "colors",
+   "s": [
+    "i colori classe prima",
+    "i colori classe prima inglese",
+    "i colori primari classe seconda",
+    "i colori primari classe seconda elementare",
+    "i colori primari classe quarta",
+    "i colori primari classe terza",
+    "i colori primari classe 1",
+    "i colori secondari classe prima",
+    "i colori primari classe prima elementare",
+    "i colori freddi classe prima"
+   ]
+  },
+  "i colori classe seconda": {
+   "candidate": "colors",
+   "s": [
+    "i colori classe seconda",
+    "i colori secondari classe prima",
+    "i colori secondari classe prima primaria",
+    "i colori secondari classe prima video",
+    "i colori primari classe seconda",
+    "i colori complementari classe seconda",
+    "i colori secondari classe seconda",
+    "i colori primari classe seconda elementare",
+    "i colori terziari classe seconda",
+    "i colori secondari classe seconda primaria"
+   ]
+  },
+  "i colori classe terza": {
+   "candidate": "colors",
+   "s": [
+    "i colori complementari classe terza scuola primaria",
+    "i colori primari classe terza",
+    "i colori complementari classe terza",
+    "i colori dell'autunno classe terza",
+    "i colori nelle carte geografiche classe terza",
+    "i colori primari e secondari classe terza"
+   ]
+  },
+  "colori": {
+   "candidate": "colors",
+   "s": [
+    "colori arcobaleno",
+    "colori primari",
+    "colori unghie estate 2026",
+    "colori",
+    "colori con la e",
+    "colori complementari",
+    "colori con la d",
+    "colori iphone 17",
+    "colori iphone 18",
+    "colorificio vicino a me"
+   ]
+  },
+  "colori scheda didattica": {
+   "candidate": "colors",
+   "s": [
+    "colori francese scheda didattica",
+    "i colori scheda didattica",
+    "colori in inglese scheda didattica",
+    "i nomi a colori scheda didattica",
+    "scheda didattica colori caldi e freddi",
+    "scheda didattica colori primari",
+    "scheda didattica colori primari e secondari",
+    "scheda didattica colori in spagnolo",
+    "scheda didattica colori secondari",
+    "il giardino dei colori scheda didattica"
+   ]
+  },
+  "colori da stampare": {
+   "candidate": "colors",
+   "s": [
+    "colori da stampare",
+    "colori da stampare e colorare",
+    "tavolozza colori da stampare",
+    "memory colori da stampare",
+    "colori primari da stampare",
+    "tabella colori da stampare",
+    "ruota colori da stampare",
+    "palette colori da stampare",
+    "cartella colori da stampare",
+    "flashcard colori da stampare"
+   ]
+  },
+  "colori scuola primaria": {
+   "candidate": "colors",
+   "s": [
+    "colori scuola primaria",
+    "colori scuola primaria inglese",
+    "colori secondari scuola primaria",
+    "colori complementari scuola primaria",
+    "colori freddi scuola primaria",
+    "colori terziari scuola primaria",
+    "colori caldi scuola primaria",
+    "colori acromatici scuola primaria",
+    "wordwall colori scuola primaria",
+    "colori primari scuola primaria classe prima"
+   ]
+  },
+  "colori classe prima": {
+   "candidate": "colors",
+   "s": [
+    "colori classe prima inglese",
+    "colori classe prima",
+    "colori primari classe seconda",
+    "colori primari classe 1",
+    "colori primari classe quarta",
+    "colori primari classe terza",
+    "colori secondari classe prima",
+    "wordwall colori classe prima",
+    "colori primari classe prima elementare",
+    "colori freddi classe prima"
+   ]
+  },
+  "colori classe seconda": {
+   "candidate": "colors",
+   "s": [
+    "colori secondari classe prima",
+    "colori secondari classe prima elementare",
+    "colori primari classe seconda",
+    "colori secondari classe seconda",
+    "colori complementari classe seconda",
+    "colori inglese classe seconda",
+    "colori secondari classe seconda primaria",
+    "colori complementari classe seconda primaria",
+    "i colori classe seconda",
+    "colori freddi classe seconda"
+   ]
+  },
+  "colori classe terza": {
+   "candidate": "colors",
+   "s": [
+    "colori complementari classe terza primaria",
+    "colori primari classe terza",
+    "colori complementari classe terza",
+    "maestre a colori classe terza",
+    "giochi e colori classe terza",
+    "colori in inglese classe terza",
+    "wordwall inglese colori classe terza",
+    "colori primari e secondari classe terza",
+    "colori caldi e freddi classe terza primaria",
+    "un cielo a colori classe terza"
+   ]
+  },
+  "figure geometriche": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figure geometriche",
+    "figure geometriche piane",
+    "figure geometriche solide",
+    "figure geometriche in inglese",
+    "figure geometriche nomi",
+    "figure geometriche 3d",
+    "figure geometriche scuola primaria",
+    "figure geometriche a 4 lati",
+    "figure geometriche in italiano",
+    "figure geometriche equivalenti"
+   ]
+  },
+  "figure geometriche scheda didattica": {
+   "candidate": "2d-shapes",
+   "s": [
+    "scheda didattica figure geometriche"
+   ]
+  },
+  "figure geometriche da stampare": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figure geometriche da stampare",
+    "figure geometriche da stampare e colorare",
+    "figure geometriche da stampare gratis",
+    "figure geometriche da stampare e ritagliare",
+    "figure geometriche da stampare e costruire",
+    "figure geometriche piane da stampare",
+    "figure geometriche colorate da stampare",
+    "figure geometriche solide da stampare e ritagliare",
+    "immagini figure geometriche da stampare",
+    "figure geometriche solide da stampare"
+   ]
+  },
+  "figure geometriche scuola primaria": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figure geometriche scuola primaria",
+    "figure geometriche scuola primaria pdf",
+    "figure geometriche scuola primaria classe prima",
+    "figure geometriche scuola primaria wordwall",
+    "figure geometriche piane scuola primaria",
+    "schede figure geometriche scuola primaria",
+    "figure geometriche solide scuola primaria",
+    "rotazione figure geometriche scuola primaria",
+    "esercizi figure geometriche scuola primaria",
+    "attività figure geometriche scuola primaria"
+   ]
+  },
+  "figure geometriche classe prima": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figure geometriche classe prima",
+    "figure geometriche classe prima wordwall",
+    "figure geometriche classe prima elementare",
+    "scheda figure geometriche classe prima",
+    "figure geometriche piane classe prima",
+    "verifica figure geometriche classe prima",
+    "video figure geometriche classe prima elementare",
+    "figure geometriche classe terza primaria",
+    "figure geometriche classe seconda primaria",
+    "video figure geometriche classe prima"
+   ]
+  },
+  "figure geometriche classe seconda": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figure geometriche classe seconda",
+    "figure geometriche classe seconda primaria",
+    "wordwall figure geometriche classe seconda",
+    "figure geometriche piane classe seconda primaria",
+    "verifica figure geometriche classe seconda",
+    "figure geometriche solide classe seconda",
+    "figure geometriche piane classe seconda",
+    "scheda figure geometriche classe seconda"
+   ]
+  },
+  "figure geometriche classe terza": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figure geometriche classe terza",
+    "figure geometriche classe terza primaria",
+    "wordwall figure geometriche classe terza",
+    "figure geometriche piane classe terza",
+    "verifica figure geometriche classe terza"
+   ]
+  },
+  "le forme geometriche": {
+   "candidate": "2d-shapes",
+   "s": [
+    "le forme geometriche",
+    "le forme geometriche in inglese",
+    "le forme geometriche canzone",
+    "le forme geometriche classe prima",
+    "le forme geometriche infanzia",
+    "le forme geometriche scuola primaria",
+    "le forme geometriche in italiano",
+    "le forme geometriche scuola infanzia",
+    "le forme geometriche canzone per bambini",
+    "le forme geometriche per bambini"
+   ]
+  },
+  "le forme geometriche scheda didattica": {
+   "candidate": "2d-shapes",
+   "s": [
+    "forme geometriche scheda didattica"
+   ]
+  },
+  "le forme geometriche da stampare": {
+   "candidate": "2d-shapes",
+   "s": [
+    "le forme geometriche da stampare",
+    "forme geometriche da stampare e ritagliare",
+    "forme geometriche da stampare e colorare",
+    "forme geometriche da stampare infanzia"
+   ]
+  },
+  "le forme geometriche scuola primaria": {
+   "candidate": "2d-shapes",
+   "s": [
+    "le forme geometriche scuola primaria",
+    "giochi con le forme geometriche scuola primaria",
+    "costruire con le forme geometriche scuola primaria",
+    "forme geometriche scuola primaria classe prima"
+   ]
+  },
+  "le forme geometriche classe prima": {
+   "candidate": "2d-shapes",
+   "s": [
+    "le forme geometriche classe prima",
+    "le forme geometriche classe prima wordwall",
+    "le forme geometriche classe prima quaderno",
+    "le forme geometriche classe prima schede didattiche",
+    "le forme geometriche classe prima video",
+    "le forme geometriche classe prima maestra anita",
+    "le forme geometriche classe prima filastrocca",
+    "fantavolando le forme geometriche classe prima",
+    "le forme geometriche classe prima primaria",
+    "attività con le forme geometriche classe prima"
+   ]
+  },
+  "le forme geometriche classe seconda": {
+   "candidate": "2d-shapes",
+   "s": [
+    "le forme geometriche classe seconda",
+    "forme geometriche classe seconda primaria"
+   ]
+  },
+  "le forme geometriche classe terza": {
+   "candidate": "2d-shapes",
+   "s": [
+    "le forme geometriche classe terza",
+    "forme geometriche classe terza primaria"
+   ]
+  },
+  "digrammi": {
+   "candidate": "digraphs",
+   "s": [
+    "digrammi e trigrammi",
+    "digrammi",
+    "digrammi cosa sono",
+    "digrammi esempi",
+    "digrammi e trigrammi cosa sono",
+    "digrammi italiano",
+    "digrammi significato",
+    "diagrammi di flusso",
+    "digrammi e trigrammi esempi",
+    "digrammi e trigrammi scuola primaria"
+   ]
+  },
+  "digrammi scuola primaria": {
+   "candidate": "digraphs",
+   "s": [
+    "diagrammi scuola primaria",
+    "digrammi e trigrammi scuola primaria"
+   ]
+  },
+  "digrammi classe prima": {
+   "candidate": "digraphs",
+   "s": [
+    "digrammi classe prima",
+    "digrammi e trigrammi classe prima"
+   ]
+  },
+  "gn gl sc": {
+   "candidate": "digraphs",
+   "s": [
+    "gn gl scuola primaria",
+    "gn gl sc",
+    "wordwall gn gl sc",
+    "verifica gn gl sc",
+    "esercizi gn gl sc",
+    "dettato ortografico gn gl sc",
+    "suoni gn sc gl",
+    "parole con gn gl sc",
+    "schede gn gl",
+    "i suoni gn sc gl e altri"
+   ]
+  },
+  "sinonimi": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimi",
+    "sinonimi e contrari",
+    "sinonimi contrari",
+    "sinonimi e contrari virgilio",
+    "sinonimi virgilio",
+    "sinonimi di bello",
+    "sinonimi inglese",
+    "sinonimi e contrari treccani",
+    "sinonimi e contrari online",
+    "sinonimi di fare"
+   ]
+  },
+  "sinonimi scheda didattica": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimi scheda didattica",
+    "sinonimi e contrari scheda didattica"
+   ]
+  },
+  "sinonimi da stampare": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimi e contrari da stampare",
+    "sinonimi e contrari schede da stampare"
+   ]
+  },
+  "sinonimi scuola primaria": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimi scuola primaria",
+    "sinonimi scuola primaria classe 3",
+    "sinonimi scuola primaria seconda",
+    "sinonimi scuola primaria classe quarta",
+    "i sinonimi scuola primaria classe seconda",
+    "sinonimi esempi scuola primaria",
+    "esercizi sinonimi scuola primaria",
+    "aggettivi sinonimi scuola primaria",
+    "verbi sinonimi scuola primaria",
+    "scheda sinonimi scuola primaria"
+   ]
+  },
+  "sinonimi classe prima": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimi classe prima",
+    "sinonimi classe seconda primaria",
+    "sinonimi classe terza primaria",
+    "sinonimi scuola primaria classe quarta"
+   ]
+  },
+  "sinonimi classe seconda": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimi classe seconda",
+    "sinonimi classe seconda primaria",
+    "wordwall sinonimi classe seconda",
+    "scheda sinonimi classe seconda",
+    "esercizi sinonimi classe seconda",
+    "aggettivi sinonimi classe seconda",
+    "sinonimi contrari classe seconda",
+    "sinonimi e contrari classe seconda maestra anita",
+    "sinonimi e contrari classe seconda maestra mile",
+    "sinonimi e contrari classe seconda primaria"
+   ]
+  },
+  "sinonimi classe terza": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimi classe terza",
+    "sinonimi classe terza primaria",
+    "wordwall sinonimi classe terza",
+    "i sinonimi classe terza maestra anita",
+    "sinonimi contrari classe terza",
+    "esercizi sinonimi classe terza",
+    "sinonimi e contrari classe terza primaria",
+    "sinonimi omonimi contrari classe terza",
+    "omonimi e sinonimi classe terza",
+    "sinonimi e contrari classe terza maestra anita"
+   ]
+  },
+  "sinonimi e contrari": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimi e contrari",
+    "sinonimi e contrari virgilio",
+    "sinonimi e contrari treccani",
+    "sinonimi e contrari online",
+    "sinonimi e contrari inglese",
+    "sinonimi e contrari zanichelli",
+    "sinonimi e contrari dizionario",
+    "sinonimi e contrari scuola primaria",
+    "sinonimi e contrari online gratis",
+    "sinonimi e contrari corriere"
+   ]
+  },
+  "sinonimi e contrari scheda didattica": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimi e contrari scheda didattica"
+   ]
+  },
+  "sinonimi e contrari da stampare": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimi e contrari da stampare",
+    "sinonimi e contrari schede da stampare"
+   ]
+  },
+  "sinonimi e contrari scuola primaria": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimi e contrari scuola primaria",
+    "sinonimi e contrari scuola primaria classe quarta",
+    "sinonimi e contrari scuola primaria classe terza",
+    "sinonimi e contrari scuola primaria classe seconda",
+    "sinonimi e contrari scuola primaria classe quinta",
+    "esercizi sinonimi e contrari scuola primaria",
+    "omonimi sinonimi e contrari scuola primaria",
+    "dizionario sinonimi e contrari scuola primaria",
+    "attività sinonimi e contrari scuola primaria",
+    "verbi sinonimi e contrari scuola primaria"
+   ]
+  },
+  "sinonimi e contrari classe prima": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimi e contrari classe seconda primaria",
+    "sinonimi e contrari classe terza primaria",
+    "sinonimi e contrari classe quarta primaria",
+    "sinonimi e contrari classe quinta primaria",
+    "esercizi sinonimi e contrari scuola primaria classe quinta",
+    "esercizi sinonimi e contrari scuola primaria classe seconda"
+   ]
+  },
+  "sinonimi e contrari classe seconda": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimi e contrari classe seconda primaria",
+    "sinonimi e contrari classe seconda",
+    "sinonimi e contrari classe seconda maestra anita",
+    "sinonimi e contrari classe seconda maestra mile",
+    "sinonimi e contrari classe seconda maestra ilaria",
+    "sinonimi e contrari classe seconda wordwall",
+    "sinonimi e contrari classe seconda schede",
+    "esercizi sinonimi e contrari classe seconda",
+    "omonimi sinonimi e contrari classe seconda",
+    "aggettivi sinonimi e contrari classe seconda"
+   ]
+  },
+  "sinonimi e contrari classe terza": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimi e contrari classe terza",
+    "sinonimi e contrari classe terza primaria",
+    "sinonimi e contrari classe terza maestra anita",
+    "omonimi sinonimi e contrari classe terza",
+    "wordwall sinonimi e contrari classe terza",
+    "verifica sinonimi e contrari classe terza",
+    "esercizi sinonimi e contrari classe terza",
+    "aggettivi sinonimi e contrari classe terza",
+    "sinonimi e contrari schede classe terza",
+    "maestra mary sinonimi e contrari classe terza"
+   ]
+  },
+  "è e": {
+   "candidate": "homophones",
+   "s": [
+    "è equivalente a più di 3 anni luce",
+    "è esperto di titoli",
+    "è esperto di titoli cruciverba",
+    "è errato prima di zero",
+    "è esistito ulisse",
+    "è emerso sinonimo",
+    "è estate cincia",
+    "è equivalente a più di tre anni luce cruciverba",
+    "è entrato un geco in casa",
+    "è estate"
+   ]
+  },
+  "è e scheda didattica": {
+   "candidate": "homophones",
+   "s": [
+    "scheda didattica e è",
+    "c è tempo e tempo scheda didattica"
+   ]
+  },
+  "è e da stampare": {
+   "candidate": "homophones",
+   "s": [
+    "cose da stampare e colorare"
+   ]
+  },
+  "è e scuola primaria": {
+   "candidate": "homophones",
+   "s": [
+    "è e scuola primaria",
+    "esercizi è e scuola primaria",
+    "è verbo e congiunzione scuola primaria",
+    "c è tempo e tempo scuola primaria",
+    "e ed è spiegazione scuola primaria"
+   ]
+  },
+  "è e classe prima": {
+   "candidate": "homophones",
+   "s": [
+    "è e classe prima",
+    "wordwall e è classe prima",
+    "e è scuola primaria classe seconda",
+    "e è scuola primaria classe terza",
+    "e ed è classe prima",
+    "c è e ci sono classe prima",
+    "è che spiega e che unisce classe prima",
+    "c è tempo e tempo classe prima"
+   ]
+  },
+  "è e classe seconda": {
+   "candidate": "homophones",
+   "s": [
+    "è e classe seconda",
+    "e è classe seconda primaria",
+    "è oppure e classe seconda",
+    "wordwall e è classe seconda",
+    "dettato e è classe seconda",
+    "schede e è classe seconda",
+    "verifica e è classe seconda",
+    "esercizi con e è classe seconda elementare",
+    "è verbo e congiunzione classe seconda",
+    "e ed è classe seconda"
+   ]
+  },
+  "è e classe terza": {
+   "candidate": "homophones",
+   "s": [
+    "è e classe terza",
+    "è oppure e classe terza",
+    "wordwall e è classe terza",
+    "esercizi e è classe terza",
+    "schede e è classe terza",
+    "e è scuola primaria classe terza",
+    "è verbo e congiunzione classe terza",
+    "e ed è classe terza",
+    "è che spiega e che unisce classe terza"
+   ]
+  },
+  "ha a": {
+   "candidate": "homophones",
+   "s": [
+    "ha ancora tanto da vivere",
+    "ha avuto",
+    "ha are ca",
+    "ha anche un presidio ospedaliero",
+    "ha accesso alle informazioni riservate di una società",
+    "ha avuto come presidente eamon de valera",
+    "ha aperto primark a giugliano",
+    "ha avuto corso in slovenia",
+    "ha abbandonato il gruppo",
+    "ha anche un timpano cruciverba"
+   ]
+  },
+  "ha a scuola primaria": {
+   "candidate": "homophones",
+   "s": [
+    "ha a scuola primaria",
+    "ha oppure a scuola primaria",
+    "esercizi ha a scuola primaria",
+    "ha oa scuola primaria",
+    "ha e a scuola primaria"
+   ]
+  },
+  "ha a classe seconda": {
+   "candidate": "homophones",
+   "s": [
+    "ha a classe seconda",
+    "ha l a classe seconda"
+   ]
+  },
+  "educazione stradale": {
+   "candidate": "road-safety",
+   "s": [
+    "educazione stradale",
+    "educazione stradale bambini",
+    "educazione stradale scuola primaria pdf",
+    "educazione stradale infanzia maestra mary",
+    "educazione stradale infanzia",
+    "educazione stradale infanzia pdf",
+    "educazione stradale pdf",
+    "educazione stradale nelle scuole",
+    "educazione stradale scuola infanzia",
+    "educazione stradale scuola media pdf"
+   ]
+  },
+  "educazione stradale scheda didattica": {
+   "candidate": "road-safety",
+   "s": [
+    "scheda didattica educazione stradale"
+   ]
+  },
+  "educazione stradale da stampare": {
+   "candidate": "road-safety",
+   "s": [
+    "lapbook educazione stradale da stampare",
+    "educazione stradale patente per bambini da stampare"
+   ]
+  },
+  "educazione stradale scuola primaria": {
+   "candidate": "road-safety",
+   "s": [
+    "educazione stradale scuola primaria pdf",
+    "educazione stradale scuola primaria",
+    "educazione stradale scuola primaria schede didattiche",
+    "educazione stradale scuola primaria classe terza",
+    "educazione stradale scuola primaria obiettivi",
+    "educazione stradale scuola primaria video",
+    "educazione stradale scuola primaria classe seconda",
+    "educazione stradale scuola primaria classe prima",
+    "educazione stradale scuola primaria ppt",
+    "educazione stradale scuola primaria pianetabambini"
+   ]
+  },
+  "educazione stradale classe prima": {
+   "candidate": "road-safety",
+   "s": [
+    "educazione stradale classe prima",
+    "educazione stradale classe prima elementare",
+    "educazione stradale classe terza primaria",
+    "educazione stradale classe seconda primaria",
+    "educazione stradale classe quarta primaria",
+    "wordwall educazione stradale classe prima",
+    "educazione stradale classe 5 primaria",
+    "uda educazione stradale scuola primaria classe terza"
+   ]
+  },
+  "educazione stradale classe seconda": {
+   "candidate": "road-safety",
+   "s": [
+    "educazione stradale classe seconda",
+    "educazione stradale classe seconda primaria",
+    "wordwall educazione stradale classe seconda"
+   ]
+  },
+  "educazione stradale classe terza": {
+   "candidate": "road-safety",
+   "s": [
+    "educazione stradale classe terza primaria",
+    "educazione stradale classe terza",
+    "uda educazione stradale scuola primaria classe terza"
+   ]
+  },
+  "segnali stradali": {
+   "candidate": "road-safety",
+   "s": [
+    "segnali stradali",
+    "segnali stradali significato",
+    "segnali stradali divieto",
+    "segnali stradali immagini e significato",
+    "segnali stradali di pericolo",
+    "segnali stradali immagini",
+    "segnali stradali blu",
+    "segnali stradali divieto di sosta",
+    "segnali stradali di obbligo",
+    "segnali stradali verticali"
+   ]
+  },
+  "segnali stradali scheda didattica": {
+   "candidate": "road-safety",
+   "s": [
+    "scheda didattica segnali stradali"
+   ]
+  },
+  "segnali stradali da stampare": {
+   "candidate": "road-safety",
+   "s": [
+    "segnali stradali da stampare pdf",
+    "segnali stradali da stampare gratis",
+    "segnali stradali da stampare",
+    "segnali stradali da stampare e colorare",
+    "segnali stradali da stampare per bambini",
+    "segnali stradali da stampare e ritagliare",
+    "segnali stradali immagini da stampare",
+    "segnali stradali colorati da stampare",
+    "tutti i segnali stradali da stampare",
+    "segnali stradali di pericolo da stampare"
+   ]
+  },
+  "segnali stradali scuola primaria": {
+   "candidate": "road-safety",
+   "s": [
+    "segnali stradali scuola primaria",
+    "segnali stradali scuola primaria video",
+    "segnali stradali significato scuola primaria",
+    "segnali stradali inglese scuola primaria",
+    "cartellone segnali stradali scuola primaria",
+    "segnali stradali per scuola primaria",
+    "verifica segnali stradali scuola primaria",
+    "i segnali stradali scuola primaria da colorare",
+    "wordwall segnali stradali scuola primaria",
+    "schede didattiche segnali stradali scuola primaria"
+   ]
+  },
+  "segnali stradali classe prima": {
+   "candidate": "road-safety",
+   "s": [
+    "segnali stradali classe prima",
+    "segnali stradali classe seconda primaria"
+   ]
+  },
+  "segnali stradali classe seconda": {
+   "candidate": "road-safety",
+   "s": [
+    "segnali stradali classe seconda primaria",
+    "segnali stradali classe seconda",
+    "wordwall segnali stradali classe seconda"
+   ]
+  },
+  "i continenti": {
+   "candidate": "maps",
+   "s": [
+    "i continenti",
+    "i continenti del mondo",
+    "i continenti quanti sono",
+    "i continenti quali sono",
+    "i continenti sono 5 o 6",
+    "i continenti sono 5 o 7",
+    "i continenti sono 5",
+    "i continenti sono 6 o 7",
+    "i continenti di canada messico e brasile",
+    "i continenti piu grandi"
+   ]
+  },
+  "i continenti da stampare": {
+   "candidate": "maps",
+   "s": [
+    "i continenti da stampare",
+    "i continenti da stampare e colorare"
+   ]
+  },
+  "i continenti scuola primaria": {
+   "candidate": "maps",
+   "s": [
+    "i continenti scuola primaria pdf",
+    "i continenti scuola primaria",
+    "i continenti scuola primaria classe quinta",
+    "i continenti scuola primaria video",
+    "i continenti scuola primaria da colorare",
+    "i continenti scuola primaria sostegno",
+    "i sei continenti scuola primaria",
+    "i cinque continenti scuola primaria",
+    "i continenti scheda scuola primaria",
+    "geografia i continenti scuola primaria"
+   ]
+  },
+  "i continenti classe prima": {
+   "candidate": "maps",
+   "s": [
+    "i continenti classe quinta primaria"
+   ]
+  },
+  "i continenti classe terza": {
+   "candidate": "maps",
+   "s": [
+    "i continenti classe terza"
+   ]
+  },
+  "punti cardinali": {
+   "candidate": "maps",
+   "s": [
+    "punti cardinali",
+    "punti cardinali in inglese",
+    "punti cardinali italia",
+    "punti cardinali bussola",
+    "punti cardinali regione puglia",
+    "punti cardinali regione puglia 2026",
+    "punti cardinali su google maps",
+    "punti cardinali sardegna",
+    "punti cardinali scuola primaria",
+    "punti cardinali in tedesco"
+   ]
+  },
+  "punti cardinali scheda didattica": {
+   "candidate": "maps",
+   "s": [
+    "punti cardinali scheda didattica"
+   ]
+  },
+  "punti cardinali da stampare": {
+   "candidate": "maps",
+   "s": [
+    "punti cardinali da stampare e colorare",
+    "punti cardinali da stampare",
+    "lapbook punti cardinali da stampare",
+    "punti cardinali immagini da stampare",
+    "punti cardinali scuola primaria da stampare"
+   ]
+  },
+  "punti cardinali scuola primaria": {
+   "candidate": "maps",
+   "s": [
+    "punti cardinali scuola primaria",
+    "punti cardinali scuola primaria pdf",
+    "punti cardinali scuola primaria da stampare",
+    "punti cardinali scuola primaria schede didattiche",
+    "punti cardinali scuola primaria da colorare",
+    "punti cardinali scuola primaria sostegno",
+    "punti cardinali scuola primaria disegni",
+    "i punti cardinali scuola primaria video",
+    "punti cardinali scuola primaria classe terza",
+    "punti cardinali scuola primaria wordwall"
+   ]
+  },
+  "punti cardinali classe prima": {
+   "candidate": "maps",
+   "s": [
+    "punti cardinali classe terza primaria",
+    "punti cardinali classe quarta primaria",
+    "i punti cardinali classe seconda primaria",
+    "esercizi punti cardinali classe terza primaria",
+    "verifica punti cardinali classe terza primaria",
+    "orientamento e punti cardinali classe terza primaria",
+    "i punti cardinali scuola primaria classe terza video",
+    "orientamento e punti cardinali scuola primaria classe quarta"
+   ]
+  },
+  "punti cardinali classe seconda": {
+   "candidate": "maps",
+   "s": [
+    "punti cardinali classe seconda",
+    "i punti cardinali classe seconda primaria"
+   ]
+  },
+  "punti cardinali classe terza": {
+   "candidate": "maps",
+   "s": [
+    "punti cardinali classe terza",
+    "punti cardinali classe terza primaria",
+    "punti cardinali classe terza elementare",
+    "wordwall punti cardinali classe terza",
+    "i punti cardinali classe terza maestra mile",
+    "verifica punti cardinali classe terza",
+    "schede punti cardinali classe terza",
+    "video punti cardinali classe terza",
+    "esercizi punti cardinali classe terza primaria",
+    "orientamento punti cardinali classe terza"
+   ]
+  },
+  "la famiglia": {
+   "candidate": "family",
+   "s": [
+    "la famiglia reale svedese",
+    "la famiglia nel bosco",
+    "la famiglia addams",
+    "la famiglia belier",
+    "la famiglia",
+    "la famiglia di piante comprendente il pelargonio",
+    "la famiglia bradford",
+    "la famiglia leroy",
+    "la famiglia del bosco",
+    "la famiglia addams film"
+   ]
+  },
+  "la famiglia scheda didattica": {
+   "candidate": "family",
+   "s": [
+    "la famiglia scheda didattica",
+    "la famiglia bélier scheda didattica",
+    "la famiglia addams scheda didattica",
+    "la famiglia acqua scheda didattica"
+   ]
+  },
+  "la famiglia da stampare": {
+   "candidate": "family",
+   "s": [
+    "la famiglia da stampare",
+    "la famiglia da stampare e colorare",
+    "la famiglia addams da stampare e colorare",
+    "la famiglia acqua da stampare"
+   ]
+  },
+  "la famiglia scuola primaria": {
+   "candidate": "family",
+   "s": [
+    "la famiglia scuola primaria",
+    "la famiglia romana scuola primaria",
+    "la famiglia acqua scuola primaria",
+    "la famiglia egizia scuola primaria",
+    "la famiglia orologio scuola primaria",
+    "la famiglia addams scuola primaria",
+    "la nostra famiglia scuola primaria",
+    "la famiglia inglese scuola primaria",
+    "la mia famiglia scuola primaria",
+    "la famiglia greca scuola primaria"
+   ]
+  },
+  "la famiglia classe prima": {
+   "candidate": "family",
+   "s": [
+    "la famiglia classe prima",
+    "la famiglia acqua classe prima",
+    "la famiglia acqua classe prima maestra anita",
+    "la famiglia acqua classe prima maestra ilaria",
+    "la famiglia scompiglio classe prima",
+    "la famiglia acqua classe prima maestra mile",
+    "la famiglia acqua classe prima maestra mary",
+    "la famiglia acqua classe prima filastrocca",
+    "la famiglia acqua classe prima quaderno",
+    "la mia famiglia classe prima elementare"
+   ]
+  },
+  "la famiglia classe seconda": {
+   "candidate": "family",
+   "s": [
+    "la famiglia classe seconda",
+    "la famiglia acqua classe seconda",
+    "la famiglia acqua classe seconda maestra mile",
+    "la famiglia orologio classe seconda",
+    "la famiglia acqua classe seconda maestra anita",
+    "la famiglia acqua classe seconda maestra mary",
+    "la famiglia acqua classe seconda maestra ilaria",
+    "la famiglia in inglese classe seconda",
+    "la famiglia acqua schede didattiche classe seconda",
+    "la famiglia acqua scuola primaria classe seconda"
+   ]
+  },
+  "la famiglia classe terza": {
+   "candidate": "family",
+   "s": [
+    "la famiglia acqua classe terza",
+    "la famiglia inglese classe terza"
+   ]
+  },
+  "albero genealogico": {
+   "candidate": "family",
+   "s": [
+    "albero genealogico targaryen",
+    "albero genealogico",
+    "albero genealogico online",
+    "albero genealogico gratuito",
+    "albero genealogico famiglia",
+    "albero genealogico house of dragon",
+    "albero genealogico buendia",
+    "albero genealogico per successione",
+    "albero genealogico regina elisabetta",
+    "albero genealogico famiglia reale inglese"
+   ]
+  },
+  "albero genealogico scheda didattica": {
+   "candidate": "family",
+   "s": [
+    "albero genealogico scheda didattica"
+   ]
+  },
+  "albero genealogico da stampare": {
+   "candidate": "family",
+   "s": [
+    "albero genealogico da stampare",
+    "albero genealogico da stampare gratis",
+    "albero genealogico da stampare e compilare",
+    "albero genealogico da stampare per bambini",
+    "schema albero genealogico da stampare",
+    "immagini albero genealogico da stampare",
+    "albero genealogico vuoto da stampare",
+    "disegno albero genealogico da stampare",
+    "albero genealogico famiglia da stampare",
+    "creare albero genealogico da stampare"
+   ]
+  },
+  "albero genealogico scuola primaria": {
+   "candidate": "family",
+   "s": [
+    "albero genealogico scuola primaria",
+    "albero genealogico scuola primaria da stampare",
+    "albero genealogico scuola primaria classe seconda",
+    "albero genealogico inglese scuola primaria",
+    "scheda albero genealogico scuola primaria",
+    "albero genealogico famiglia scuola primaria",
+    "albero genealogico storia scuola primaria",
+    "disegno albero genealogico scuola primaria",
+    "schema albero genealogico scuola primaria",
+    "albero genealogico da completare scuola primaria"
+   ]
+  },
+  "albero genealogico classe prima": {
+   "candidate": "family",
+   "s": [
+    "albero genealogico classe prima",
+    "albero genealogico classe terza primaria",
+    "albero genealogico classe seconda primaria"
+   ]
+  },
+  "albero genealogico classe seconda": {
+   "candidate": "family",
+   "s": [
+    "albero genealogico classe seconda primaria",
+    "albero genealogico classe seconda"
+   ]
+  },
+  "albero genealogico classe terza": {
+   "candidate": "family",
+   "s": [
+    "albero genealogico classe terza primaria",
+    "albero genealogico classe terza"
+   ]
+  }
+ }
+}

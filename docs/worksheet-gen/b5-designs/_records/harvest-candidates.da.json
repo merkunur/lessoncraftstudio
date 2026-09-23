@@ -1,0 +1,946 @@
+{
+ "locale": "da",
+ "market": {
+  "hl": "da",
+  "gl": "dk"
+ },
+ "generatedAt": "2026-09-23T00:13:50.296Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds.json",
+ "requestCount": 168,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "plants": {
+   "heads": [
+    "plantens dele",
+    "planter"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 17,
+   "suggestions": [
+    "plantens dele",
+    "planter",
+    "planter ikea",
+    "planter krydsord",
+    "planter print on demand",
+    "planter printables",
+    "planter printemps",
+    "planter printemps jardin",
+    "planter printer",
+    "planter printing",
+    "planter til badeværelset",
+    "planter til fuld sol udendørs",
+    "planter til krukker",
+    "planter til skygge",
+    "planteray rum",
+    "plantereol",
+    "plantereol udendørs"
+   ]
+  },
+  "life-cycles": {
+   "heads": [
+    "sommerfuglens livscyklus",
+    "frøens udvikling"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 5,
+   "suggestions": [
+    "frøens udvikling",
+    "frøens udviklingsfaser",
+    "hvordan er sommerfuglens livscyklus",
+    "sommerfuglens livscyklus",
+    "sommerfuglens livscyklus film"
+   ]
+  },
+  "materials": {
+   "heads": [
+    "materialer",
+    "magnetisk"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 24,
+   "suggestions": [
+    "børnehaveklasse materialer",
+    "dansk materialer 1 klasse",
+    "magnetisk knivholder",
+    "magnetisk næsestrips",
+    "magnetisk opslagstavle",
+    "magnetisk powerbank",
+    "magnetisk printerpapir",
+    "magnetisk skohorn",
+    "magnetisk tavle",
+    "magnetisk tegnetavle",
+    "magnetisk vinduespudser",
+    "magnetiske byggeklodser",
+    "magnetiske øjenvipper",
+    "materialer",
+    "materialer engelsk",
+    "materialer krydsord",
+    "materialer og produktion aau",
+    "materialer til 3d printer",
+    "materialer til hjemmelavede kort",
+    "materialer til plantefarvning",
+    "materialer til ryatæpper",
+    "materialer til smykkefremstilling",
+    "materialer til træterrasse",
+    "materialerne"
+   ]
+  },
+  "space": {
+   "heads": [
+    "solsystemet",
+    "månens faser"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 27,
+   "suggestions": [
+    "månens faser",
+    "månens faser 2026",
+    "månens faser 2026 juli",
+    "månens faser betydning",
+    "månens faser fysik",
+    "månens faser i dag",
+    "månens faser kalender",
+    "månens faser model",
+    "månens faser navne",
+    "månens faser tegning",
+    "solsystemet",
+    "solsystemet 1 klasse",
+    "solsystemet 2 klasse",
+    "solsystemet 3 klasse",
+    "solsystemet for børn",
+    "solsystemet for børn opgaver",
+    "solsystemet for børn undervisning",
+    "solsystemet opgaver",
+    "solsystemet opgaver indskoling",
+    "solsystemet print",
+    "solsystemet rækkefølge",
+    "solsystemet snap",
+    "solsystemet snapchat",
+    "solsystemet uro",
+    "solsystemets opbygning",
+    "solsystemets planeter",
+    "solsystemets største måne"
+   ]
+  },
+  "colors": {
+   "heads": [
+    "farver",
+    "farverne"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 29,
+   "suggestions": [
+    "farver",
+    "farver efterår 2026",
+    "farver i regnbuen",
+    "farver krydsord",
+    "farver opgaver",
+    "farver print",
+    "farver på studenterhuer",
+    "farver til 3d printer",
+    "farver til brother printer",
+    "farver til canon printer",
+    "farver til epson printer",
+    "farver til hp printer",
+    "farver til printer",
+    "farvergården ebeltoft",
+    "farvergården kerteminde",
+    "farverig kjole",
+    "farverige plakater",
+    "farverigt tøj",
+    "farverne",
+    "farverne i regnbuen",
+    "farverne på fransk",
+    "farverne på spansk",
+    "farverne på studenterhuerne",
+    "farverne på tysk",
+    "farvernes betydning",
+    "farvernes landskab",
+    "farvernes landskab melodi",
+    "farvernes landskab tekst",
+    "tysk farver opgaver"
+   ]
+  },
+  "2d-shapes": {
+   "heads": [
+    "geometriske figurer",
+    "former"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 32,
+   "suggestions": [
+    "former",
+    "former 1 klasse",
+    "former krydsord",
+    "former og figurer 1 klasse",
+    "former og figurer 2 klasse",
+    "former og figurer opgaver",
+    "former opgaver",
+    "former print",
+    "former printer",
+    "former printing",
+    "former til print",
+    "formere lavendel",
+    "formering af figentræ",
+    "formering af hortensia",
+    "formering af kaprifolie",
+    "formering af klematis",
+    "formering af lavendel",
+    "formering af roser",
+    "formering af sommerfuglebusk",
+    "geometriske figurer",
+    "geometriske figurer 1 klasse",
+    "geometriske figurer 3 klasse",
+    "geometriske figurer 3d",
+    "geometriske figurer krydsord",
+    "geometriske figurer matematik",
+    "geometriske figurer navne",
+    "geometriske figurer opgaver",
+    "geometriske figurer oversigt",
+    "geometriske figurer plakat",
+    "geometriske figurer print",
+    "geometriske figurer rombe",
+    "geometriske figurer til print"
+   ]
+  },
+  "digraphs": {
+   "heads": [
+    "lydrette ord",
+    "vokaler"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 29,
+   "suggestions": [
+    "ikke lydrette ord opgaver",
+    "lydrette ord",
+    "lydrette ord 1 klasse",
+    "lydrette ord 2 bogstaver",
+    "lydrette ord 3 bogstaver",
+    "lydrette ord 4 bogstaver",
+    "lydrette ord 5 bogstaver",
+    "lydrette ord der starter med i",
+    "lydrette ord liste",
+    "lydrette ord med a",
+    "lydrette ord med o",
+    "lydrette ord opgaver",
+    "prik vokaler opgaver",
+    "vokaler",
+    "vokaler 1 klasse",
+    "vokaler dansk",
+    "vokaler engelsk",
+    "vokaler krydsord",
+    "vokaler og konsonanter",
+    "vokaler og konsonanter engelsk",
+    "vokaler og konsonanter opgaver",
+    "vokaler og konsonanter plakat",
+    "vokaler og konsonanter til print",
+    "vokaler opgaver",
+    "vokaler print",
+    "vokaler til print",
+    "vokalerne",
+    "vokalernes lyde",
+    "vokalernes lyde plakat"
+   ]
+  },
+  "synonyms": {
+   "heads": [
+    "synonymer",
+    "ord der betyder det samme"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 24,
+   "suggestions": [
+    "2 ord der betyder det samme",
+    "danske ord der betyder det samme",
+    "et ord der betyder det samme som for",
+    "hvad kalder man ord der betyder det samme",
+    "hvilket ord betyder det samme som at udpege noget bestemt",
+    "hvilket ord betyder det samme som at være følelseskold eller hensynsløs",
+    "hvilket ord betyder det samme som bureaukrati",
+    "opgaver synonymer og antonymer",
+    "ord der betyder det samme",
+    "ord der betyder det samme forfra og bagfra",
+    "ord der betyder det samme som mirakel",
+    "synonymer",
+    "synonymer 2 klasse",
+    "synonymer dansk",
+    "synonymer dansk opgaver",
+    "synonymer engelsk",
+    "synonymer for fantastisk",
+    "synonymer for glad",
+    "synonymer for god",
+    "synonymer for godt",
+    "synonymer for hund",
+    "synonymer for meget",
+    "synonymer for smuk",
+    "synonymer opgaver"
+   ]
+  },
+  "homophones": {
+   "heads": [
+    "homofoner",
+    "ord der lyder ens"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 15,
+   "suggestions": [
+    "danske ord der lyder ens",
+    "homofoner",
+    "homofoner betydning",
+    "homofoner dansk",
+    "homofoner eksempler",
+    "homofoner engelsk",
+    "homofoner liste",
+    "homofoner liste dansk",
+    "homofoner norsk",
+    "homofoner ord",
+    "ord der lyder ens",
+    "ord der lyder ens men betyder noget forskelligt",
+    "ord der lyder ens men staves forskelligt",
+    "ord på dansk der lyder ens",
+    "svenska homofoner"
+   ]
+  },
+  "road-safety": {
+   "heads": [
+    "færdselslære",
+    "færdselstavler"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 16,
+   "suggestions": [
+    "emu færdselslære",
+    "færdselslære",
+    "færdselslære folkeskolen",
+    "færdselslære fælles mål",
+    "færdselslære indskoling",
+    "færdselstavler",
+    "færdselstavler betydning",
+    "færdselstavler forbudstavler",
+    "færdselstavler hastighed",
+    "færdselstavler oversigt",
+    "færdselstavler oversigt pdf",
+    "færdselstavler parkering",
+    "færdselstavler test",
+    "færdselstavler til print",
+    "færdselstavler tyskland",
+    "færdselstavler undertavler"
+   ]
+  },
+  "maps": {
+   "heads": [
+    "verdensdele",
+    "verdenshjørner"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 18,
+   "suggestions": [
+    "verdensdele",
+    "verdensdele efter størrelse",
+    "verdensdele kort",
+    "verdensdele størrelse",
+    "verdensdele vs kontinenter",
+    "verdensdelen",
+    "verdensdelene i verden",
+    "verdensdeler hvor mange",
+    "verdenshjørner",
+    "verdenshjørner app",
+    "verdenshjørner blomst",
+    "verdenshjørner engelsk",
+    "verdenshjørner kompas",
+    "verdenshjørner leg",
+    "verdenshjørner på google maps",
+    "verdenshjørner på kort",
+    "verdenshjørner sang",
+    "verdenshjørner sten"
+   ]
+  },
+  "family": {
+   "heads": [
+    "familien",
+    "stamtræ"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 25,
+   "suggestions": [
+    "familien",
+    "familien addams",
+    "familien fra bryggen",
+    "familien ga 1 klasse",
+    "familien gyldenkål",
+    "familien hardacre medvirkende",
+    "familien hardacre sæson 3",
+    "familien hassan",
+    "familien jul",
+    "familien print",
+    "familien thunderman",
+    "familiens ishus",
+    "stamtræ",
+    "stamtræ engelsk",
+    "stamtræ game of thrones",
+    "stamtræ house of dragon",
+    "stamtræ krydsord",
+    "stamtræ online",
+    "stamtræ print",
+    "stamtræ skabelon gratis",
+    "stamtræ skabelon print",
+    "stamtræ skabelon til print",
+    "stamtræ skabelon word",
+    "stamtræ targaryen",
+    "stamtræ til print"
+   ]
+  }
+ },
+ "suggestions": {
+  "plantens dele": {
+   "candidate": "plants",
+   "s": [
+    "plantens dele"
+   ]
+  },
+  "planter": {
+   "candidate": "plants",
+   "s": [
+    "planter krydsord",
+    "planter",
+    "planter til skygge",
+    "planter til krukker",
+    "planter til fuld sol udendørs",
+    "planter til badeværelset",
+    "plantereol",
+    "planter ikea",
+    "planteray rum",
+    "plantereol udendørs"
+   ]
+  },
+  "planter til print": {
+   "candidate": "plants",
+   "s": [
+    "planter printer",
+    "planter printables",
+    "planter printing",
+    "planter printemps",
+    "planter print on demand",
+    "planter printemps jardin"
+   ]
+  },
+  "sommerfuglens livscyklus": {
+   "candidate": "life-cycles",
+   "s": [
+    "sommerfuglens livscyklus",
+    "sommerfuglens livscyklus film",
+    "hvordan er sommerfuglens livscyklus"
+   ]
+  },
+  "frøens udvikling": {
+   "candidate": "life-cycles",
+   "s": [
+    "frøens udviklingsfaser",
+    "frøens udvikling"
+   ]
+  },
+  "materialer": {
+   "candidate": "materials",
+   "s": [
+    "materialer",
+    "materialer krydsord",
+    "materialer til træterrasse",
+    "materialerne",
+    "materialer til hjemmelavede kort",
+    "materialer til plantefarvning",
+    "materialer til ryatæpper",
+    "materialer til smykkefremstilling",
+    "materialer engelsk",
+    "materialer og produktion aau"
+   ]
+  },
+  "materialer til print": {
+   "candidate": "materials",
+   "s": [
+    "materialer til 3d printer"
+   ]
+  },
+  "materialer børnehaveklasse": {
+   "candidate": "materials",
+   "s": [
+    "børnehaveklasse materialer"
+   ]
+  },
+  "materialer 1. klasse": {
+   "candidate": "materials",
+   "s": [
+    "dansk materialer 1 klasse"
+   ]
+  },
+  "magnetisk": {
+   "candidate": "materials",
+   "s": [
+    "magnetisk tavle",
+    "magnetisk powerbank",
+    "magnetiske byggeklodser",
+    "magnetisk knivholder",
+    "magnetisk tegnetavle",
+    "magnetisk opslagstavle",
+    "magnetiske øjenvipper",
+    "magnetisk skohorn",
+    "magnetisk vinduespudser",
+    "magnetisk næsestrips"
+   ]
+  },
+  "magnetisk til print": {
+   "candidate": "materials",
+   "s": [
+    "magnetisk printerpapir"
+   ]
+  },
+  "solsystemet": {
+   "candidate": "space",
+   "s": [
+    "solsystemet",
+    "solsystemets planeter",
+    "solsystemet rækkefølge",
+    "solsystemet snap",
+    "solsystemet for børn",
+    "solsystemet snapchat",
+    "solsystemets største måne",
+    "solsystemet uro",
+    "solsystemets opbygning",
+    "solsystemet for børn undervisning"
+   ]
+  },
+  "solsystemet opgaver": {
+   "candidate": "space",
+   "s": [
+    "solsystemet opgaver",
+    "solsystemet opgaver indskoling",
+    "solsystemet for børn opgaver"
+   ]
+  },
+  "solsystemet til print": {
+   "candidate": "space",
+   "s": [
+    "solsystemet print"
+   ]
+  },
+  "solsystemet 1. klasse": {
+   "candidate": "space",
+   "s": [
+    "solsystemet 1 klasse"
+   ]
+  },
+  "solsystemet 2. klasse": {
+   "candidate": "space",
+   "s": [
+    "solsystemet 2 klasse"
+   ]
+  },
+  "solsystemet 3. klasse": {
+   "candidate": "space",
+   "s": [
+    "solsystemet 3 klasse"
+   ]
+  },
+  "månens faser": {
+   "candidate": "space",
+   "s": [
+    "månens faser",
+    "månens faser i dag",
+    "månens faser 2026",
+    "månens faser navne",
+    "månens faser tegning",
+    "månens faser fysik",
+    "månens faser kalender",
+    "månens faser 2026 juli",
+    "månens faser betydning",
+    "månens faser model"
+   ]
+  },
+  "farver": {
+   "candidate": "colors",
+   "s": [
+    "farver",
+    "farverig kjole",
+    "farver krydsord",
+    "farverigt tøj",
+    "farvergården ebeltoft",
+    "farver efterår 2026",
+    "farverige plakater",
+    "farver på studenterhuer",
+    "farvergården kerteminde",
+    "farver i regnbuen"
+   ]
+  },
+  "farver opgaver": {
+   "candidate": "colors",
+   "s": [
+    "farver opgaver",
+    "tysk farver opgaver"
+   ]
+  },
+  "farver til print": {
+   "candidate": "colors",
+   "s": [
+    "farver til printer",
+    "farver til 3d printer",
+    "farver til hp printer",
+    "farver til canon printer",
+    "farver til epson printer",
+    "farver til brother printer",
+    "farver print"
+   ]
+  },
+  "farverne": {
+   "candidate": "colors",
+   "s": [
+    "farvernes landskab tekst",
+    "farvernes landskab",
+    "farvernes betydning",
+    "farverne i regnbuen",
+    "farverne på tysk",
+    "farverne",
+    "farverne på fransk",
+    "farverne på spansk",
+    "farvernes landskab melodi",
+    "farverne på studenterhuerne"
+   ]
+  },
+  "geometriske figurer": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriske figurer",
+    "geometriske figurer navne",
+    "geometriske figurer krydsord",
+    "geometriske figurer matematik",
+    "geometriske figurer 3d",
+    "geometriske figurer print",
+    "geometriske figurer rombe",
+    "geometriske figurer oversigt",
+    "geometriske figurer plakat"
+   ]
+  },
+  "geometriske figurer opgaver": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriske figurer opgaver"
+   ]
+  },
+  "geometriske figurer til print": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriske figurer til print"
+   ]
+  },
+  "geometriske figurer 1. klasse": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriske figurer 1 klasse"
+   ]
+  },
+  "geometriske figurer 3. klasse": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriske figurer 3 klasse"
+   ]
+  },
+  "former": {
+   "candidate": "2d-shapes",
+   "s": [
+    "formering af lavendel",
+    "formering af hortensia",
+    "formering af sommerfuglebusk",
+    "former",
+    "formering af roser",
+    "formering af figentræ",
+    "former krydsord",
+    "formering af klematis",
+    "formere lavendel",
+    "formering af kaprifolie"
+   ]
+  },
+  "former opgaver": {
+   "candidate": "2d-shapes",
+   "s": [
+    "former opgaver",
+    "former og figurer opgaver"
+   ]
+  },
+  "former til print": {
+   "candidate": "2d-shapes",
+   "s": [
+    "former til print",
+    "former print",
+    "former printer",
+    "former printing"
+   ]
+  },
+  "former 1. klasse": {
+   "candidate": "2d-shapes",
+   "s": [
+    "former 1 klasse",
+    "former og figurer 1 klasse"
+   ]
+  },
+  "former 2. klasse": {
+   "candidate": "2d-shapes",
+   "s": [
+    "former og figurer 2 klasse"
+   ]
+  },
+  "lydrette ord": {
+   "candidate": "digraphs",
+   "s": [
+    "lydrette ord",
+    "lydrette ord 2 bogstaver",
+    "lydrette ord 3 bogstaver",
+    "lydrette ord 4 bogstaver",
+    "lydrette ord opgaver",
+    "lydrette ord liste",
+    "lydrette ord 5 bogstaver",
+    "lydrette ord med a",
+    "lydrette ord der starter med i",
+    "lydrette ord med o"
+   ]
+  },
+  "lydrette ord opgaver": {
+   "candidate": "digraphs",
+   "s": [
+    "lydrette ord opgaver",
+    "ikke lydrette ord opgaver"
+   ]
+  },
+  "lydrette ord 1. klasse": {
+   "candidate": "digraphs",
+   "s": [
+    "lydrette ord 1 klasse"
+   ]
+  },
+  "vokaler": {
+   "candidate": "digraphs",
+   "s": [
+    "vokaler",
+    "vokaler og konsonanter",
+    "vokaler dansk",
+    "vokaler engelsk",
+    "vokalerne",
+    "vokaler krydsord",
+    "vokaler og konsonanter engelsk",
+    "vokalernes lyde plakat",
+    "vokalernes lyde",
+    "vokaler og konsonanter plakat"
+   ]
+  },
+  "vokaler opgaver": {
+   "candidate": "digraphs",
+   "s": [
+    "vokaler opgaver",
+    "prik vokaler opgaver",
+    "vokaler og konsonanter opgaver"
+   ]
+  },
+  "vokaler til print": {
+   "candidate": "digraphs",
+   "s": [
+    "vokaler til print",
+    "vokaler print",
+    "vokaler og konsonanter til print"
+   ]
+  },
+  "vokaler 1. klasse": {
+   "candidate": "digraphs",
+   "s": [
+    "vokaler 1 klasse"
+   ]
+  },
+  "synonymer": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymer",
+    "synonymer dansk",
+    "synonymer for fantastisk",
+    "synonymer engelsk",
+    "synonymer for smuk",
+    "synonymer for godt",
+    "synonymer for hund",
+    "synonymer for meget",
+    "synonymer for god",
+    "synonymer for glad"
+   ]
+  },
+  "synonymer opgaver": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymer opgaver",
+    "opgaver synonymer og antonymer",
+    "synonymer dansk opgaver"
+   ]
+  },
+  "synonymer 2. klasse": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymer 2 klasse"
+   ]
+  },
+  "ord der betyder det samme": {
+   "candidate": "synonyms",
+   "s": [
+    "ord der betyder det samme",
+    "ord der betyder det samme som mirakel",
+    "ord der betyder det samme forfra og bagfra",
+    "et ord der betyder det samme som for",
+    "danske ord der betyder det samme",
+    "2 ord der betyder det samme",
+    "hvad kalder man ord der betyder det samme",
+    "hvilket ord betyder det samme som at være følelseskold eller hensynsløs",
+    "hvilket ord betyder det samme som at udpege noget bestemt",
+    "hvilket ord betyder det samme som bureaukrati"
+   ]
+  },
+  "homofoner": {
+   "candidate": "homophones",
+   "s": [
+    "homofoner",
+    "homofoner eksempler",
+    "homofoner liste",
+    "homofoner ord",
+    "svenska homofoner",
+    "homofoner engelsk",
+    "homofoner norsk",
+    "homofoner dansk",
+    "homofoner liste dansk",
+    "homofoner betydning"
+   ]
+  },
+  "ord der lyder ens": {
+   "candidate": "homophones",
+   "s": [
+    "ord der lyder ens men staves forskelligt",
+    "ord der lyder ens",
+    "ord der lyder ens men betyder noget forskelligt",
+    "danske ord der lyder ens",
+    "ord på dansk der lyder ens"
+   ]
+  },
+  "færdselslære": {
+   "candidate": "road-safety",
+   "s": [
+    "færdselslære",
+    "færdselslære folkeskolen",
+    "færdselslære fælles mål",
+    "færdselslære indskoling",
+    "emu færdselslære"
+   ]
+  },
+  "færdselstavler": {
+   "candidate": "road-safety",
+   "s": [
+    "færdselstavler",
+    "færdselstavler betydning",
+    "færdselstavler oversigt",
+    "færdselstavler hastighed",
+    "færdselstavler parkering",
+    "færdselstavler oversigt pdf",
+    "færdselstavler undertavler",
+    "færdselstavler test",
+    "færdselstavler tyskland",
+    "færdselstavler forbudstavler"
+   ]
+  },
+  "færdselstavler til print": {
+   "candidate": "road-safety",
+   "s": [
+    "færdselstavler til print"
+   ]
+  },
+  "verdensdele": {
+   "candidate": "maps",
+   "s": [
+    "verdensdele",
+    "verdensdele kort",
+    "verdensdele efter størrelse",
+    "verdensdelene i verden",
+    "verdensdele størrelse",
+    "verdensdele vs kontinenter",
+    "verdensdeler hvor mange",
+    "verdensdelen"
+   ]
+  },
+  "verdenshjørner": {
+   "candidate": "maps",
+   "s": [
+    "verdenshjørner",
+    "verdenshjørner app",
+    "verdenshjørner på kort",
+    "verdenshjørner på google maps",
+    "verdenshjørner engelsk",
+    "verdenshjørner blomst",
+    "verdenshjørner sten",
+    "verdenshjørner sang",
+    "verdenshjørner leg",
+    "verdenshjørner kompas"
+   ]
+  },
+  "familien": {
+   "candidate": "family",
+   "s": [
+    "familien fra bryggen",
+    "familien addams",
+    "familien gyldenkål",
+    "familien jul",
+    "familien",
+    "familien hardacre sæson 3",
+    "familien thunderman",
+    "familien hassan",
+    "familien hardacre medvirkende",
+    "familiens ishus"
+   ]
+  },
+  "familien til print": {
+   "candidate": "family",
+   "s": [
+    "familien print"
+   ]
+  },
+  "familien 1. klasse": {
+   "candidate": "family",
+   "s": [
+    "familien ga 1 klasse"
+   ]
+  },
+  "stamtræ": {
+   "candidate": "family",
+   "s": [
+    "stamtræ",
+    "stamtræ krydsord",
+    "stamtræ skabelon gratis",
+    "stamtræ engelsk",
+    "stamtræ house of dragon",
+    "stamtræ skabelon word",
+    "stamtræ online",
+    "stamtræ targaryen",
+    "stamtræ skabelon print",
+    "stamtræ game of thrones"
+   ]
+  },
+  "stamtræ til print": {
+   "candidate": "family",
+   "s": [
+    "stamtræ til print",
+    "stamtræ skabelon til print",
+    "stamtræ print"
+   ]
+  }
+ }
+}

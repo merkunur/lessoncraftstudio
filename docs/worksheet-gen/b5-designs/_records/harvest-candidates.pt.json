@@ -1,0 +1,2062 @@
+{
+ "locale": "pt",
+ "market": {
+  "hl": "pt",
+  "gl": "br"
+ },
+ "generatedAt": "2026-09-23T00:11:09.797Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds.json",
+ "requestCount": 168,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "plants": {
+   "heads": [
+    "partes da planta",
+    "ciclo de vida das plantas"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 55,
+   "suggestions": [
+    "atividade ciclo de vida das plantas 3 ano",
+    "atividade ciclo de vida das plantas educação infantil",
+    "atividade de ciências ciclo de vida das plantas",
+    "atividade partes da planta 2 ano fundamental",
+    "atividade partes da planta 4 ano",
+    "atividades sobre o ciclo de vida das plantas 1 ano",
+    "cartaz partes da planta educação infantil",
+    "cartaz partes da planta para imprimir",
+    "ciclo de vida das plantas",
+    "ciclo de vida das plantas 2 ano",
+    "ciclo de vida das plantas 2 ano atividades",
+    "ciclo de vida das plantas 2 ano fundamental",
+    "ciclo de vida das plantas 3 ano",
+    "ciclo de vida das plantas atividade 2 ano",
+    "ciclo de vida das plantas atividades",
+    "ciclo de vida das plantas desenho",
+    "ciclo de vida das plantas educação infantil",
+    "ciclo de vida das plantas haplonte diplonte",
+    "ciclo de vida das plantas para imprimir",
+    "ciclo de vida das plantas resumo",
+    "desenho partes da planta para imprimir",
+    "funções das partes da planta educação infantil",
+    "imagem das partes da planta para imprimir",
+    "música as partes da planta educação infantil",
+    "painel partes da planta para imprimir",
+    "partes da planta",
+    "partes da planta 1o ano",
+    "partes da planta 2 ano",
+    "partes da planta 2o ano",
+    "partes da planta atividade educação infantil",
+    "partes da planta atividade infantil",
+    "partes da planta atividade interativa",
+    "partes da planta atividades",
+    "partes da planta atividades 1 ano",
+    "partes da planta atividades 2 ano",
+    "partes da planta atividades 3 ano",
+    "partes da planta do pé",
+    "partes da planta e suas funções",
+    "partes da planta e suas funções 2 ano",
+    "partes da planta e suas funções 4 ano",
+    "partes da planta e suas funções atividades",
+    "partes da planta e suas funções proteção",
+    "partes da planta educação infantil",
+    "partes da planta educação infantil atividades",
+    "partes da planta educação infantil para imprimir",
+    "partes da planta para imprimir",
+    "partes da planta para imprimir colorido",
+    "partes da planta para imprimir e montar",
+    "partes da planta separadas para imprimir",
+    "plano de aula ciclo de vida das plantas educação infantil",
+    "plano de aula partes da planta educação infantil",
+    "plano de aula partes da planta educação infantil bncc",
+    "quebra cabeça partes da planta educação infantil",
+    "quebra cabeça partes da planta para imprimir",
+    "video partes da planta educação infantil"
+   ]
+  },
+  "life-cycles": {
+   "heads": [
+    "ciclo de vida da borboleta",
+    "ciclo de vida do sapo"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 31,
+   "suggestions": [
+    "atividade ciclo de vida da borboleta educação infantil",
+    "atividade ciclo de vida do sapo educação infantil",
+    "ciclo de vida da borboleta",
+    "ciclo de vida da borboleta atividades",
+    "ciclo de vida da borboleta desenho",
+    "ciclo de vida da borboleta educação infantil",
+    "ciclo de vida da borboleta imprimir",
+    "ciclo de vida da borboleta maquete",
+    "ciclo de vida da borboleta monarca",
+    "ciclo de vida da borboleta para colorir",
+    "ciclo de vida da borboleta para educação infantil",
+    "ciclo de vida da borboleta para educação infantil para colorir",
+    "ciclo de vida da borboleta para imprimir",
+    "ciclo de vida da borboleta para imprimir e colorir",
+    "ciclo de vida da borboleta pdf",
+    "ciclo de vida da borboleta tempo",
+    "ciclo de vida do sapo",
+    "ciclo de vida do sapo 3 ano fundamental",
+    "ciclo de vida do sapo atividades",
+    "ciclo de vida do sapo cururu",
+    "ciclo de vida do sapo desenho",
+    "ciclo de vida do sapo educação infantil",
+    "ciclo de vida do sapo metamorfose",
+    "ciclo de vida do sapo para colorir",
+    "ciclo de vida do sapo para crianças",
+    "ciclo de vida do sapo para imprimir",
+    "livrinho do ciclo de vida da borboleta para imprimir",
+    "metamorfose ciclo de vida do sapo educação infantil",
+    "plano de aula ciclo de vida da borboleta educação infantil",
+    "plano de aula ciclo de vida do sapo educação infantil",
+    "projeto ciclo de vida da borboleta educação infantil"
+   ]
+  },
+  "materials": {
+   "heads": [
+    "materiais e suas propriedades",
+    "ímã objetos"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 18,
+   "suggestions": [
+    "atividade materiais e suas propriedades",
+    "atividade materiais e suas propriedades 2 ano",
+    "atividades sobre materiais e suas propriedades 5 ano",
+    "ima atraindo objetos",
+    "ima para objetos",
+    "ima para pegar objetos",
+    "imã para procurar objetos",
+    "materiais e suas propriedades",
+    "materiais e suas propriedades 2 ano",
+    "materiais e suas propriedades 5 ano",
+    "materiais e suas propriedades 6 ano",
+    "materiais e suas propriedades 9 ano",
+    "materiais e suas propriedades ensino fundamental atividades 2 ano",
+    "materiais e suas propriedades fisicas",
+    "materiais e suas propriedades pdf",
+    "materiais e suas propriedades quimica",
+    "materiais e suas propriedades ufabc",
+    "objetos ima"
+   ]
+  },
+  "space": {
+   "heads": [
+    "sistema solar",
+    "fases da lua"
+   ],
+   "requests": 14,
+   "productiveSeeds": 11,
+   "unique": 76,
+   "suggestions": [
+    "4 fases da lua para imprimir",
+    "atividade fases da lua para imprimir",
+    "atividades fases da lua educação infantil",
+    "cartaz sistema solar educação infantil",
+    "como ensinar as fases da lua para educação infantil",
+    "como trabalhar as fases da lua na educação infantil",
+    "fases da lua",
+    "fases da lua 2026",
+    "fases da lua 2026 para imprimir",
+    "fases da lua 3o ano",
+    "fases da lua agosto 2026",
+    "fases da lua atividade",
+    "fases da lua atividade 3 ano",
+    "fases da lua atividade 8 ano",
+    "fases da lua atividade adaptada",
+    "fases da lua atividade pdf",
+    "fases da lua atividades 2 ano",
+    "fases da lua atividades 4 ano",
+    "fases da lua atividades 5 ano",
+    "fases da lua desenho para imprimir",
+    "fases da lua educação infantil",
+    "fases da lua em agosto",
+    "fases da lua em julho de 2026",
+    "fases da lua hoje",
+    "fases da lua junho 2026",
+    "fases da lua no mês de agosto",
+    "fases da lua no mês de julho",
+    "fases da lua para imprimir",
+    "fases da lua para imprimir e colorir",
+    "fases da lua para imprimir educação infantil",
+    "fases da lua setembro 2026",
+    "imagens fases da lua para imprimir",
+    "lapbook fases da lua para imprimir",
+    "maquete sistema solar educação infantil",
+    "molde fases da lua para imprimir",
+    "painel sistema solar educação infantil",
+    "plano de aula fases da lua educação infantil",
+    "projeto fases da lua educação infantil",
+    "projeto sistema solar educação infantil",
+    "projeto sistema solar educação infantil justificativa",
+    "sistema solar",
+    "sistema solar 2o ano",
+    "sistema solar 3d",
+    "sistema solar 3o ano",
+    "sistema solar 3o ano fundamental",
+    "sistema solar atividade 3 ano",
+    "sistema solar atividade 4 ano",
+    "sistema solar atividade 5 ano",
+    "sistema solar atividade adaptada",
+    "sistema solar atividade interativa",
+    "sistema solar atividades",
+    "sistema solar atividades 2 ano",
+    "sistema solar atividades 6 ano",
+    "sistema solar atividades educação infantil",
+    "sistema solar desenho",
+    "sistema solar educação infantil",
+    "sistema solar educação infantil 4 anos",
+    "sistema solar educação infantil atividades",
+    "sistema solar maquete",
+    "sistema solar off grid",
+    "sistema solar ordem",
+    "sistema solar ordem dos planetas",
+    "sistema solar para colorir",
+    "sistema solar para imprimir",
+    "sistema solar para imprimir 3d",
+    "sistema solar para imprimir e colorir",
+    "sistema solar para imprimir e montar",
+    "sistema solar para imprimir e recortar",
+    "sistema solar para imprimir em portugues",
+    "sistema solar para imprimir grande",
+    "sistema solar para imprimir pdf",
+    "sistema solar para imprimir pdf gratis",
+    "sistema solar planetas",
+    "sistema solar planetas educação infantil",
+    "video fases da lua educação infantil",
+    "vídeo sistema solar educação infantil"
+   ]
+  },
+  "colors": {
+   "heads": [
+    "cores",
+    "as cores"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 80,
+   "suggestions": [
+    "aprendendo as cores atividades",
+    "aprendendo as cores educação infantil",
+    "aprendendo as cores para imprimir",
+    "as cores",
+    "as cores atividades",
+    "as cores atividades educação infantil",
+    "as cores da bandeira do brasil",
+    "as cores de corina atividades",
+    "as cores do amor",
+    "as cores do arco-íris",
+    "as cores do mal",
+    "as cores do mal preto",
+    "as cores do mal preto filme",
+    "as cores do mal vermelho",
+    "as cores do mundinho para imprimir",
+    "as cores do tempo",
+    "as cores educação infantil",
+    "as cores em inglês",
+    "as cores em inglês atividade",
+    "as cores em inglês para imprimir",
+    "as cores em libras para imprimir",
+    "as cores para educação infantil",
+    "as cores para imprimir",
+    "as cores para imprimir educação infantil",
+    "as cores primarias educação infantil",
+    "as cores primárias atividades",
+    "as cores primárias para imprimir",
+    "atividade as cores educação infantil",
+    "atividade cores educação infantil pdf",
+    "atividade cores primarias",
+    "atividade cores primarias e secundarias",
+    "atividades cores maternal 2",
+    "atividades cores primárias educação infantil",
+    "caça as cores educação infantil",
+    "cores",
+    "cores atividade educação infantil",
+    "cores atividade infantil",
+    "cores atividade maternal",
+    "cores atividades",
+    "cores atividades de arte",
+    "cores atividades em ingles",
+    "cores da bandeira do brasil",
+    "cores do arco-íris",
+    "cores do iphone 17 pro max",
+    "cores do iphone 18 pro max",
+    "cores educação infantil",
+    "cores educação infantil atividades",
+    "cores educação infantil bncc",
+    "cores educação infantil musica",
+    "cores educação infantil objetivo",
+    "cores educação infantil para imprimir",
+    "cores educação infantil plano de aula",
+    "cores em inglês",
+    "cores iphone 17",
+    "cores para imprimir",
+    "cores para imprimir cmyk ou rgb",
+    "cores para imprimir e colorir",
+    "cores para imprimir e recortar",
+    "cores para imprimir e testar impressora",
+    "cores para imprimir educação infantil",
+    "cores para imprimir educação infantil pdf",
+    "cores para imprimir na impressora",
+    "cores para imprimir pdf",
+    "cores para imprimir teste",
+    "cores primarias",
+    "cores primárias educação infantil",
+    "cores que combinam com marrom",
+    "cores secundárias",
+    "história sobre as cores para imprimir",
+    "ligue as cores atividade",
+    "misturando as cores atividade",
+    "misturando as cores educação infantil",
+    "projeto as cores educação infantil",
+    "projeto cores educação infantil",
+    "separando as cores educação infantil",
+    "tarsilinha e as cores atividades",
+    "tarsilinha e as cores atividades educação infantil",
+    "tarsilinha e as cores para imprimir",
+    "todas as cores para imprimir",
+    "trabalhando as cores educação infantil"
+   ]
+  },
+  "2d-shapes": {
+   "heads": [
+    "formas geométricas",
+    "figuras geométricas planas"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 77,
+   "suggestions": [
+    "atividades figuras geometricas planas educação infantil",
+    "atividades figuras geométricas planas para imprimir",
+    "cartaz figuras geométricas planas para imprimir",
+    "figuras geometricas planas educação infantil",
+    "figuras geométricas não planas para imprimir",
+    "figuras geométricas planas",
+    "figuras geométricas planas 1o ano",
+    "figuras geométricas planas 2 ano",
+    "figuras geométricas planas 2o ano",
+    "figuras geométricas planas 3 ano",
+    "figuras geométricas planas 3 ano fundamental",
+    "figuras geométricas planas 3o ano",
+    "figuras geométricas planas 3o ano fundamental",
+    "figuras geométricas planas 4 ano",
+    "figuras geométricas planas 5 ano",
+    "figuras geométricas planas atividades",
+    "figuras geométricas planas atividades 1 ano",
+    "figuras geométricas planas atividades 2 ano",
+    "figuras geométricas planas atividades 3 ano",
+    "figuras geométricas planas atividades 3 ano pdf",
+    "figuras geométricas planas atividades 4 ano",
+    "figuras geométricas planas atividades 5 ano",
+    "figuras geométricas planas atividades 6 ano",
+    "figuras geométricas planas e espaciais",
+    "figuras geométricas planas e não planas",
+    "figuras geométricas planas nomes",
+    "figuras geométricas planas para imprimir",
+    "figuras geométricas planas para imprimir e colorir",
+    "figuras geométricas planas para imprimir e montar",
+    "figuras geométricas planas para imprimir e recortar",
+    "figuras geométricas planas para imprimir pdf",
+    "formas geometricas atividade infantil",
+    "formas geometricas atividade maternal",
+    "formas geometricas atividades ludicas",
+    "formas geométricas",
+    "formas geométricas 1o ano",
+    "formas geométricas 1o ano fundamental",
+    "formas geométricas 2o ano",
+    "formas geométricas 2o ano fundamental",
+    "formas geométricas 3d",
+    "formas geométricas 3o ano",
+    "formas geométricas 3o ano fundamental",
+    "formas geométricas atividade educação infantil",
+    "formas geométricas atividades",
+    "formas geométricas atividades 1 ano",
+    "formas geométricas atividades 2 ano",
+    "formas geométricas atividades 3 ano",
+    "formas geométricas atividades 4 ano",
+    "formas geométricas atividades 5 ano",
+    "formas geométricas básicas",
+    "formas geométricas da bandeira do brasil",
+    "formas geométricas educação infantil",
+    "formas geométricas educação infantil 4 anos",
+    "formas geométricas educação infantil 5 anos",
+    "formas geométricas educação infantil atividades",
+    "formas geométricas educação infantil bncc",
+    "formas geométricas educação infantil cartaz",
+    "formas geométricas educação infantil objetivo",
+    "formas geométricas educação infantil para colorir",
+    "formas geométricas educação infantil para imprimir",
+    "formas geométricas educação infantil pdf",
+    "formas geométricas em inglês",
+    "formas geométricas espaciais",
+    "formas geométricas nomes",
+    "formas geométricas para imprimir",
+    "formas geométricas para imprimir 3d",
+    "formas geométricas para imprimir e colorir",
+    "formas geométricas para imprimir e montar",
+    "formas geométricas para imprimir e montar pdf",
+    "formas geométricas para imprimir e recortar",
+    "formas geométricas para imprimir educação infantil",
+    "formas geométricas para imprimir grande",
+    "formas geométricas para imprimir pdf",
+    "formas geométricas para imprimir quadrado",
+    "formas geométricas planas",
+    "moldes de figuras geométricas planas para imprimir",
+    "moldes de figuras geométricas planas para imprimir pdf"
+   ]
+  },
+  "digraphs": {
+   "heads": [
+    "dígrafos",
+    "nh lh ch"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 51,
+   "suggestions": [
+    "atividade digrafos 3 ano fundamental",
+    "atividade lh nh ch 4 ano",
+    "atividade nh lh ch 1 ano",
+    "atividade nh lh ch 2 ano",
+    "atividade nh lh ch wordwall",
+    "atividades com dígrafos para imprimir",
+    "atividades com dígrafos para imprimir 4 ano",
+    "atividades com nh lh ch para imprimir",
+    "atividades dígrafos 4 ano acessaber",
+    "atividades lh nh ch 5 ano",
+    "atividades nh lh ch 3 ano",
+    "bingo dos dígrafos para imprimir",
+    "caça palavras com digrafos para imprimir",
+    "cruzadinha nh lh ch",
+    "digrafos atividades 1 ano",
+    "digrafos atividades 2 ano",
+    "digrafos atividades 6 ano",
+    "digrafos atividades 7 ano",
+    "digrafos educação infantil",
+    "dígrafos",
+    "dígrafos 3o ano",
+    "dígrafos atividades",
+    "dígrafos atividades 3 ano",
+    "dígrafos atividades 4 ano",
+    "dígrafos atividades 5 ano",
+    "dígrafos consonantais",
+    "dígrafos consonantais e vocálicos",
+    "dígrafos e encontros consonantais",
+    "dígrafos encontros vocálicos e consonantais",
+    "dígrafos exemplos",
+    "dígrafos exercícios",
+    "dígrafos para imprimir",
+    "dígrafos separáveis e inseparáveis",
+    "dígrafos significado",
+    "dígrafos vocálicos",
+    "ejercicios de dígrafos para imprimir",
+    "fichas digrafos para imprimir",
+    "jogo dos dígrafos para imprimir",
+    "lh nh ch 3 ano",
+    "nh lh ch",
+    "nh lh ch 1 ano",
+    "nh lh ch 2 ano",
+    "nh lh ch atividades",
+    "nh lh ch palavras",
+    "nh lh ch são dígrafos",
+    "nh lh ch são encontros consonantais",
+    "nh lh ch wordwall",
+    "ortografia nh lh e ch atividades",
+    "palavras com digrafos para imprimir",
+    "palavras com nh ch lh para imprimir",
+    "palavras com nh lh ch atividades"
+   ]
+  },
+  "synonyms": {
+   "heads": [
+    "sinônimos",
+    "sinônimos e antônimos"
+   ],
+   "requests": 14,
+   "productiveSeeds": 11,
+   "unique": 62,
+   "suggestions": [
+    "atividades sinonimos e antonimos",
+    "atividades sinônimos e antônimos 2 ano fundamental para imprimir",
+    "atividades sinônimos e antônimos 4 ano",
+    "atividades sinônimos e antônimos 4 ano para imprimir",
+    "bingo de sinônimos para imprimir",
+    "caça palavras de sinonimos para imprimir",
+    "domino dos sinônimos para imprimir",
+    "jogo da memória sinônimos e antônimos para imprimir",
+    "jogo da memória sinônimos para imprimir",
+    "jogo dos sinônimos para imprimir",
+    "jogos de sinônimos e antônimos para imprimir",
+    "jogos de sinônimos e antônimos para imprimir gratis",
+    "sinonimos atividade fisica",
+    "sinonimos atividades 1 ano",
+    "sinonimos atividades 3 ano",
+    "sinonimos atividades 5 ano",
+    "sinonimos atividades 6 ano",
+    "sinonimos con imagenes para imprimir",
+    "sinonimos e antonimos atividades 1 ano",
+    "sinonimos e antonimos atividades 2 ano",
+    "sinonimos e antonimos atividades 5 ano",
+    "sinonimos e antonimos atividades 6 ano",
+    "sinonimos e antonimos atividades 7 ano",
+    "sinonimos e antonimos atividades ensino medio",
+    "sinonimos e antonimos atividades pdf",
+    "sinonimos e antonimos educação infantil",
+    "sinonimos ficha para imprimir",
+    "sinonimos imprimir",
+    "sinonimos y antonimos para imprimir 6 primaria",
+    "sinônimos",
+    "sinônimos 2o ano",
+    "sinônimos atividades",
+    "sinônimos atividades 2 ano",
+    "sinônimos atividades 4 ano",
+    "sinônimos de atividade na educação infantil",
+    "sinônimos de desenvolvimento",
+    "sinônimos de dificuldade",
+    "sinônimos de importante",
+    "sinônimos de necessidade",
+    "sinônimos de portanto",
+    "sinônimos de problema",
+    "sinônimos e antônimos",
+    "sinônimos e antônimos 2o ano",
+    "sinônimos e antônimos 3 ano",
+    "sinônimos e antônimos 3o ano",
+    "sinônimos e antônimos 4 ano",
+    "sinônimos e antônimos atividade 3 ano",
+    "sinônimos e antônimos atividades",
+    "sinônimos e antônimos atividades 4 ano",
+    "sinônimos e antônimos de grande",
+    "sinônimos e antônimos exercícios",
+    "sinônimos e antônimos exercícios 5 ano com gabarito",
+    "sinônimos e antônimos exercícios 6 ano",
+    "sinônimos e antônimos exercícios 6o ano com gabarito",
+    "sinônimos e antônimos exercícios 7 ano",
+    "sinônimos e antônimos exercícios com gabarito",
+    "sinônimos e antônimos para imprimir",
+    "sinônimos educação infantil",
+    "sinônimos exemplos",
+    "sinônimos música",
+    "sinônimos para imprimir",
+    "tareas sinonimos antonimos para imprimir"
+   ]
+  },
+  "homophones": {
+   "heads": [
+    "palavras homófonas",
+    "mas mais"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 33,
+   "suggestions": [
+    "atividade palavras homofonas e homografas",
+    "atividades palavras homofonas 5 ano",
+    "mas e mais atividades 4 ano",
+    "mas e mais atividades 5 ano",
+    "mas e mais atividades 6 ano",
+    "mas e mais atividades 7 ano",
+    "mas mais",
+    "mas mais adora um proibido",
+    "mas mais atividades",
+    "mas mais diferença",
+    "mas mais do que isso",
+    "mas mais e más exercícios",
+    "mas mais más atividades",
+    "mas mais ou mas ja",
+    "mas mais ou más",
+    "mas mais ou más atividades",
+    "mas mais tarde",
+    "mas ou mais atividades",
+    "mas ou mais atividades 4 ano",
+    "mas ou mais atividades 5 ano",
+    "mas ou mais atividades com gabarito",
+    "ortografia mas e mais atividades",
+    "palavras homófonas",
+    "palavras homófonas atividades",
+    "palavras homófonas e homógrafas",
+    "palavras homófonas e parônimas",
+    "palavras homófonas em inglês",
+    "palavras homófonas em português",
+    "palavras homófonas exemplos",
+    "palavras homófonas exercícios",
+    "palavras homófonas exercícios com gabarito",
+    "palavras homófonas exercícios pdf",
+    "palavras homófonas homógrafas homónimas e parónimas"
+   ]
+  },
+  "road-safety": {
+   "heads": [
+    "educação no trânsito",
+    "placas de trânsito"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 57,
+   "suggestions": [
+    "atividade educação no transito 2 ano",
+    "atividade educação no transito educação infantil",
+    "atividade placas de transito para colorir",
+    "atividade placas de trânsito 1 ano",
+    "atividade sobre placas de transito",
+    "atividades com placas de trânsito para o ensino fundamental",
+    "atividades de educação no transito para ensino fundamental",
+    "atividades de placas de trânsito para imprimir",
+    "atividades placas de trânsito 4 ano",
+    "atividades sobre educação no transito para 4 ano",
+    "atividades sobre educação no trânsito 5 ano",
+    "atividades sobre placas de trânsito 3 ano",
+    "como trabalhar educação no trânsito na educação infantil",
+    "educação infantil transito atividades",
+    "educação no transito",
+    "educação no transito atividades",
+    "educação no transito para crianças",
+    "educação no trânsito 2 ano",
+    "educação no trânsito 2 ano fundamental",
+    "educação no trânsito educação infantil",
+    "educação no trânsito educação infantil pdf",
+    "educação no trânsito ensino fundamental",
+    "educação no trânsito não tem idade",
+    "educação no trânsito pdf",
+    "educação no trânsito redação",
+    "educação no trânsito resumo",
+    "jogo placas de transito educação infantil",
+    "placas de transito atividade",
+    "placas de transito atividades 2 ano",
+    "placas de transito educação infantil",
+    "placas de transito educação infantil para",
+    "placas de transito educação infantil pdf",
+    "placas de trânsito",
+    "placas de trânsito amarelas",
+    "placas de trânsito amarelas e significados",
+    "placas de trânsito e seus significados",
+    "placas de trânsito educação infantil atividades",
+    "placas de trânsito educação infantil para colorir",
+    "placas de trânsito educação infantil para imprimir",
+    "placas de trânsito nomes",
+    "placas de trânsito para estudar",
+    "placas de trânsito para imprimir",
+    "placas de trânsito para imprimir e colorir",
+    "placas de trânsito para imprimir e estudar",
+    "placas de trânsito para imprimir educação infantil",
+    "placas de trânsito para imprimir festa infantil",
+    "placas de trânsito para imprimir grande",
+    "placas de trânsito para imprimir maquete",
+    "placas de trânsito para imprimir pdf",
+    "placas de trânsito para imprimir pdf educação infantil",
+    "placas de trânsito para imprimir png",
+    "placas de trânsito significado",
+    "plano de aula educação no transito educação infantil",
+    "projeto educação no transito educação infantil",
+    "sinal placas de transito educação infantil",
+    "video sobre educação no transito para educação infantil",
+    "video sobre placas de transito educação infantil"
+   ]
+  },
+  "maps": {
+   "heads": [
+    "continentes",
+    "pontos cardeais"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 64,
+   "suggestions": [
+    "6 continentes para imprimir",
+    "atividade continentes 3 ano",
+    "atividade continentes 8 ano",
+    "atividade continentes e oceanos",
+    "atividade continentes e oceanos 5o ano",
+    "atividades continentes e oceanos 4 ano",
+    "atividades continentes e oceanos 5 ano com gabarito",
+    "atividades continentes educação infantil",
+    "atividades pontos cardeais educação infantil",
+    "caça palavras sobre pontos cardeais para imprimir",
+    "como ensinar pontos cardeais na educação infantil",
+    "continentes",
+    "continentes africanos",
+    "continentes americano para imprimir",
+    "continentes atividade adaptada",
+    "continentes atividades",
+    "continentes atividades 4 ano",
+    "continentes atividades 5 ano",
+    "continentes da terra",
+    "continentes do brasil",
+    "continentes do mundo",
+    "continentes e oceanos",
+    "continentes e seus países",
+    "continentes educação infantil",
+    "continentes em ingles",
+    "continentes mapa",
+    "continentes no mapa mundi",
+    "continentes para imprimir",
+    "continentes para imprimir e colorir",
+    "continentes para imprimir e recortar",
+    "continentes para imprimir grande",
+    "continentes para imprimir pdf",
+    "continentes para imprimir separados",
+    "continentes para imprimir y recortar por separado",
+    "desenho dos pontos cardeais para imprimir",
+    "maquete pontos cardeais para imprimir",
+    "molde continentes para imprimir",
+    "pontos cardeais",
+    "pontos cardeais 2o ano",
+    "pontos cardeais 3o ano",
+    "pontos cardeais 4 ano",
+    "pontos cardeais atividade 1 ano",
+    "pontos cardeais atividade adaptada",
+    "pontos cardeais atividade interativa",
+    "pontos cardeais atividades",
+    "pontos cardeais atividades 2 ano",
+    "pontos cardeais atividades 3 ano",
+    "pontos cardeais atividades 4 ano",
+    "pontos cardeais atividades 5 ano",
+    "pontos cardeais atividades 6 ano",
+    "pontos cardeais atividades para imprimir",
+    "pontos cardeais colaterais e subcolaterais",
+    "pontos cardeais da rosa dos ventos",
+    "pontos cardeais do brasil",
+    "pontos cardeais e colaterais",
+    "pontos cardeais e colaterais 4 ano",
+    "pontos cardeais e colaterais da rosa dos ventos",
+    "pontos cardeais e colaterais para imprimir",
+    "pontos cardeais educação infantil",
+    "pontos cardeais em ingles",
+    "pontos cardeais onde nasce o sol",
+    "pontos cardeais para imprimir",
+    "projeto continentes educação infantil",
+    "rosa dos ventos pontos cardeais para imprimir"
+   ]
+  },
+  "family": {
+   "heads": [
+    "família",
+    "árvore genealógica"
+   ],
+   "requests": 14,
+   "productiveSeeds": 9,
+   "unique": 79,
+   "suggestions": [
+    "arvore genealogica atividade 2 ano",
+    "arvore genealogica atividade 3 ano",
+    "arvore genealogica atividade 4 ano",
+    "arvore genealogica atividade escolar",
+    "arvore genealogica atividade infantil",
+    "arvore genealogica atividade ingles",
+    "arvore genealogica criativa educação infantil",
+    "arvore genealogica educação infantil",
+    "arvore genealogica para imprimir e montar",
+    "atividade familia silabica",
+    "atividade familia silabica b",
+    "atividade árvore genealógica educação infantil",
+    "atividades familia educação infantil pinterest",
+    "atividades família educação infantil imprimir",
+    "cartaz árvore genealógica educação infantil",
+    "familia atividade 3 ano",
+    "familia atividade infantil",
+    "familia atividade ingles",
+    "familia atividade maternal",
+    "familia atividades 1 ano",
+    "familia buscapé",
+    "familia educação infantil",
+    "familia educação infantil atividades",
+    "familia educação infantil bncc",
+    "familia educação infantil musica",
+    "familia educação infantil objetivo",
+    "familia educação infantil plano de aula",
+    "familia para imprimir desenho",
+    "familia para imprimir e recortar",
+    "familia silabica para imprimir",
+    "família",
+    "família addams",
+    "família atividade",
+    "família atividade 2 ano",
+    "família atividades para educação infantil",
+    "família da pesada",
+    "família dinossauro",
+    "família do bagulho",
+    "família do futuro",
+    "família em inglês",
+    "família matsunaga",
+    "família para imprimir",
+    "família para imprimir e colorir",
+    "família silábica para imprimir colorido",
+    "família silábica para imprimir e recortar",
+    "família soprano",
+    "nome família para imprimir",
+    "painel arvore genealogica educação infantil",
+    "palavra família para imprimir",
+    "projeto família educação infantil bncc",
+    "projeto família educação infantil creche",
+    "projeto árvore genealógica educação infantil",
+    "sagrada familia para imprimir",
+    "árvore genealógica",
+    "árvore genealógica 2o ano",
+    "árvore genealógica atividade",
+    "árvore genealógica atividade 1 ano",
+    "árvore genealógica atividade educação infantil",
+    "árvore genealógica atividades para imprimir",
+    "árvore genealógica cem anos de solidão",
+    "árvore genealógica como fazer",
+    "árvore genealógica da família",
+    "árvore genealógica da família grátis",
+    "árvore genealógica de daenerys targaryen",
+    "árvore genealógica desenho para imprimir",
+    "árvore genealógica educação infantil objetivo",
+    "árvore genealógica educação infantil para imprimir",
+    "árvore genealógica em inglês",
+    "árvore genealógica família educação infantil",
+    "árvore genealógica grátis",
+    "árvore genealógica para imprimir",
+    "árvore genealógica para imprimir colorida",
+    "árvore genealógica para imprimir e completar",
+    "árvore genealógica para imprimir e preencher",
+    "árvore genealógica para imprimir educação infantil",
+    "árvore genealógica para imprimir em inglês",
+    "árvore genealógica para imprimir grande",
+    "árvore genealógica para imprimir pdf",
+    "árvore genealógica targaryen"
+   ]
+  }
+ },
+ "suggestions": {
+  "partes da planta": {
+   "candidate": "plants",
+   "s": [
+    "partes da planta",
+    "partes da planta e suas funções",
+    "partes da planta 2 ano",
+    "partes da planta e suas funções 2 ano",
+    "partes da planta para imprimir",
+    "partes da planta educação infantil",
+    "partes da planta e suas funções proteção",
+    "partes da planta e suas funções 4 ano",
+    "partes da planta atividades",
+    "partes da planta do pé"
+   ]
+  },
+  "partes da planta atividade": {
+   "candidate": "plants",
+   "s": [
+    "partes da planta atividades",
+    "partes da planta atividades 2 ano",
+    "partes da planta atividades 1 ano",
+    "partes da planta atividade educação infantil",
+    "partes da planta atividades 3 ano",
+    "partes da planta atividade interativa",
+    "partes da planta atividade infantil",
+    "partes da planta e suas funções atividades",
+    "atividade partes da planta 2 ano fundamental",
+    "atividade partes da planta 4 ano"
+   ]
+  },
+  "partes da planta para imprimir": {
+   "candidate": "plants",
+   "s": [
+    "partes da planta para imprimir",
+    "partes da planta para imprimir e montar",
+    "partes da planta para imprimir colorido",
+    "desenho partes da planta para imprimir",
+    "partes da planta separadas para imprimir",
+    "cartaz partes da planta para imprimir",
+    "painel partes da planta para imprimir",
+    "partes da planta educação infantil para imprimir",
+    "imagem das partes da planta para imprimir",
+    "quebra cabeça partes da planta para imprimir"
+   ]
+  },
+  "partes da planta educação infantil": {
+   "candidate": "plants",
+   "s": [
+    "partes da planta educação infantil",
+    "partes da planta educação infantil para imprimir",
+    "partes da planta educação infantil atividades",
+    "video partes da planta educação infantil",
+    "cartaz partes da planta educação infantil",
+    "funções das partes da planta educação infantil",
+    "música as partes da planta educação infantil",
+    "quebra cabeça partes da planta educação infantil",
+    "plano de aula partes da planta educação infantil",
+    "plano de aula partes da planta educação infantil bncc"
+   ]
+  },
+  "partes da planta 1º ano": {
+   "candidate": "plants",
+   "s": [
+    "partes da planta 1o ano"
+   ]
+  },
+  "partes da planta 2º ano": {
+   "candidate": "plants",
+   "s": [
+    "partes da planta 2o ano"
+   ]
+  },
+  "ciclo de vida das plantas": {
+   "candidate": "plants",
+   "s": [
+    "ciclo de vida das plantas",
+    "ciclo de vida das plantas 2 ano",
+    "ciclo de vida das plantas educação infantil",
+    "ciclo de vida das plantas resumo",
+    "ciclo de vida das plantas atividades",
+    "ciclo de vida das plantas 3 ano",
+    "ciclo de vida das plantas 2 ano atividades",
+    "ciclo de vida das plantas 2 ano fundamental",
+    "ciclo de vida das plantas haplonte diplonte",
+    "ciclo de vida das plantas desenho"
+   ]
+  },
+  "ciclo de vida das plantas atividade": {
+   "candidate": "plants",
+   "s": [
+    "ciclo de vida das plantas atividades",
+    "ciclo de vida das plantas atividade 2 ano",
+    "atividade ciclo de vida das plantas educação infantil",
+    "atividade ciclo de vida das plantas 3 ano",
+    "atividades sobre o ciclo de vida das plantas 1 ano",
+    "atividade de ciências ciclo de vida das plantas"
+   ]
+  },
+  "ciclo de vida das plantas para imprimir": {
+   "candidate": "plants",
+   "s": [
+    "ciclo de vida das plantas para imprimir"
+   ]
+  },
+  "ciclo de vida das plantas educação infantil": {
+   "candidate": "plants",
+   "s": [
+    "ciclo de vida das plantas educação infantil",
+    "atividade ciclo de vida das plantas educação infantil",
+    "plano de aula ciclo de vida das plantas educação infantil"
+   ]
+  },
+  "ciclo de vida da borboleta": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida da borboleta",
+    "ciclo de vida da borboleta para educação infantil",
+    "ciclo de vida da borboleta para imprimir",
+    "ciclo de vida da borboleta tempo",
+    "ciclo de vida da borboleta monarca",
+    "ciclo de vida da borboleta pdf",
+    "ciclo de vida da borboleta desenho",
+    "ciclo de vida da borboleta para colorir",
+    "ciclo de vida da borboleta atividades",
+    "ciclo de vida da borboleta maquete"
+   ]
+  },
+  "ciclo de vida da borboleta atividade": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida da borboleta atividades",
+    "atividade ciclo de vida da borboleta educação infantil"
+   ]
+  },
+  "ciclo de vida da borboleta para imprimir": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida da borboleta para imprimir",
+    "ciclo de vida da borboleta para imprimir e colorir",
+    "ciclo de vida da borboleta imprimir",
+    "livrinho do ciclo de vida da borboleta para imprimir"
+   ]
+  },
+  "ciclo de vida da borboleta educação infantil": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida da borboleta educação infantil",
+    "atividade ciclo de vida da borboleta educação infantil",
+    "ciclo de vida da borboleta para educação infantil para colorir",
+    "projeto ciclo de vida da borboleta educação infantil",
+    "plano de aula ciclo de vida da borboleta educação infantil"
+   ]
+  },
+  "ciclo de vida do sapo": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida do sapo",
+    "ciclo de vida do sapo educação infantil",
+    "ciclo de vida do sapo cururu",
+    "ciclo de vida do sapo para imprimir",
+    "ciclo de vida do sapo desenho",
+    "ciclo de vida do sapo metamorfose",
+    "ciclo de vida do sapo para colorir",
+    "ciclo de vida do sapo atividades",
+    "ciclo de vida do sapo 3 ano fundamental",
+    "ciclo de vida do sapo para crianças"
+   ]
+  },
+  "ciclo de vida do sapo atividade": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida do sapo atividades",
+    "atividade ciclo de vida do sapo educação infantil"
+   ]
+  },
+  "ciclo de vida do sapo para imprimir": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida do sapo para imprimir"
+   ]
+  },
+  "ciclo de vida do sapo educação infantil": {
+   "candidate": "life-cycles",
+   "s": [
+    "ciclo de vida do sapo educação infantil",
+    "atividade ciclo de vida do sapo educação infantil",
+    "metamorfose ciclo de vida do sapo educação infantil",
+    "plano de aula ciclo de vida do sapo educação infantil"
+   ]
+  },
+  "materiais e suas propriedades": {
+   "candidate": "materials",
+   "s": [
+    "materiais e suas propriedades",
+    "materiais e suas propriedades ufabc",
+    "materiais e suas propriedades 2 ano",
+    "materiais e suas propriedades ensino fundamental atividades 2 ano",
+    "materiais e suas propriedades 5 ano",
+    "materiais e suas propriedades pdf",
+    "materiais e suas propriedades quimica",
+    "materiais e suas propriedades fisicas",
+    "materiais e suas propriedades 9 ano",
+    "materiais e suas propriedades 6 ano"
+   ]
+  },
+  "materiais e suas propriedades atividade": {
+   "candidate": "materials",
+   "s": [
+    "materiais e suas propriedades ensino fundamental atividades 2 ano",
+    "atividade materiais e suas propriedades",
+    "atividade materiais e suas propriedades 2 ano",
+    "atividades sobre materiais e suas propriedades 5 ano"
+   ]
+  },
+  "ímã objetos": {
+   "candidate": "materials",
+   "s": [
+    "objetos ima",
+    "ima para objetos",
+    "ima atraindo objetos",
+    "ima para pegar objetos",
+    "imã para procurar objetos"
+   ]
+  },
+  "sistema solar": {
+   "candidate": "space",
+   "s": [
+    "sistema solar",
+    "sistema solar planetas",
+    "sistema solar maquete",
+    "sistema solar desenho",
+    "sistema solar 3d",
+    "sistema solar para imprimir",
+    "sistema solar off grid",
+    "sistema solar ordem",
+    "sistema solar para colorir",
+    "sistema solar ordem dos planetas"
+   ]
+  },
+  "sistema solar atividade": {
+   "candidate": "space",
+   "s": [
+    "sistema solar atividades",
+    "sistema solar atividade 3 ano",
+    "sistema solar atividade 5 ano",
+    "sistema solar atividade 4 ano",
+    "sistema solar atividade adaptada",
+    "sistema solar atividades 2 ano",
+    "sistema solar atividades 6 ano",
+    "sistema solar atividade interativa",
+    "sistema solar atividades educação infantil"
+   ]
+  },
+  "sistema solar para imprimir": {
+   "candidate": "space",
+   "s": [
+    "sistema solar para imprimir",
+    "sistema solar para imprimir pdf",
+    "sistema solar para imprimir e recortar",
+    "sistema solar para imprimir grande",
+    "sistema solar para imprimir e colorir",
+    "sistema solar para imprimir e montar",
+    "sistema solar para imprimir em portugues",
+    "sistema solar para imprimir pdf gratis",
+    "sistema solar para imprimir 3d"
+   ]
+  },
+  "sistema solar educação infantil": {
+   "candidate": "space",
+   "s": [
+    "sistema solar educação infantil",
+    "sistema solar educação infantil atividades",
+    "sistema solar educação infantil 4 anos",
+    "projeto sistema solar educação infantil",
+    "vídeo sistema solar educação infantil",
+    "painel sistema solar educação infantil",
+    "projeto sistema solar educação infantil justificativa",
+    "cartaz sistema solar educação infantil",
+    "maquete sistema solar educação infantil",
+    "sistema solar planetas educação infantil"
+   ]
+  },
+  "sistema solar 2º ano": {
+   "candidate": "space",
+   "s": [
+    "sistema solar 2o ano"
+   ]
+  },
+  "sistema solar 3º ano": {
+   "candidate": "space",
+   "s": [
+    "sistema solar 3o ano",
+    "sistema solar 3o ano fundamental"
+   ]
+  },
+  "fases da lua": {
+   "candidate": "space",
+   "s": [
+    "fases da lua",
+    "fases da lua agosto 2026",
+    "fases da lua hoje",
+    "fases da lua em julho de 2026",
+    "fases da lua 2026",
+    "fases da lua junho 2026",
+    "fases da lua setembro 2026",
+    "fases da lua no mês de julho",
+    "fases da lua em agosto",
+    "fases da lua no mês de agosto"
+   ]
+  },
+  "fases da lua atividade": {
+   "candidate": "space",
+   "s": [
+    "fases da lua atividade",
+    "fases da lua atividades 5 ano",
+    "fases da lua atividades 4 ano",
+    "fases da lua atividades 2 ano",
+    "fases da lua atividade 3 ano",
+    "fases da lua atividade 8 ano",
+    "fases da lua atividade adaptada",
+    "fases da lua atividade pdf"
+   ]
+  },
+  "fases da lua para imprimir": {
+   "candidate": "space",
+   "s": [
+    "fases da lua para imprimir",
+    "fases da lua para imprimir e colorir",
+    "fases da lua para imprimir educação infantil",
+    "4 fases da lua para imprimir",
+    "molde fases da lua para imprimir",
+    "imagens fases da lua para imprimir",
+    "fases da lua desenho para imprimir",
+    "fases da lua 2026 para imprimir",
+    "atividade fases da lua para imprimir",
+    "lapbook fases da lua para imprimir"
+   ]
+  },
+  "fases da lua educação infantil": {
+   "candidate": "space",
+   "s": [
+    "fases da lua educação infantil",
+    "atividades fases da lua educação infantil",
+    "projeto fases da lua educação infantil",
+    "video fases da lua educação infantil",
+    "fases da lua para imprimir educação infantil",
+    "plano de aula fases da lua educação infantil",
+    "como ensinar as fases da lua para educação infantil",
+    "como trabalhar as fases da lua na educação infantil"
+   ]
+  },
+  "fases da lua 3º ano": {
+   "candidate": "space",
+   "s": [
+    "fases da lua 3o ano"
+   ]
+  },
+  "cores": {
+   "candidate": "colors",
+   "s": [
+    "cores",
+    "cores primarias",
+    "cores do arco-íris",
+    "cores do iphone 17 pro max",
+    "cores em inglês",
+    "cores iphone 17",
+    "cores da bandeira do brasil",
+    "cores que combinam com marrom",
+    "cores do iphone 18 pro max",
+    "cores secundárias"
+   ]
+  },
+  "cores atividade": {
+   "candidate": "colors",
+   "s": [
+    "cores atividades",
+    "cores atividade educação infantil",
+    "cores atividade infantil",
+    "cores atividade maternal",
+    "cores atividades em ingles",
+    "cores atividades de arte",
+    "atividade cores primarias",
+    "atividades cores primárias educação infantil",
+    "atividades cores maternal 2",
+    "atividade cores primarias e secundarias"
+   ]
+  },
+  "cores para imprimir": {
+   "candidate": "colors",
+   "s": [
+    "cores para imprimir",
+    "cores para imprimir educação infantil",
+    "cores para imprimir pdf",
+    "cores para imprimir na impressora",
+    "cores para imprimir teste",
+    "cores para imprimir educação infantil pdf",
+    "cores para imprimir e colorir",
+    "cores para imprimir e testar impressora",
+    "cores para imprimir cmyk ou rgb",
+    "cores para imprimir e recortar"
+   ]
+  },
+  "cores educação infantil": {
+   "candidate": "colors",
+   "s": [
+    "cores educação infantil",
+    "cores educação infantil para imprimir",
+    "cores educação infantil atividades",
+    "cores educação infantil bncc",
+    "cores educação infantil objetivo",
+    "cores educação infantil plano de aula",
+    "cores educação infantil musica",
+    "cores primárias educação infantil",
+    "projeto cores educação infantil",
+    "atividade cores educação infantil pdf"
+   ]
+  },
+  "as cores": {
+   "candidate": "colors",
+   "s": [
+    "as cores do mal vermelho",
+    "as cores do mal",
+    "as cores do tempo",
+    "as cores do mal preto",
+    "as cores do amor",
+    "as cores do arco-íris",
+    "as cores da bandeira do brasil",
+    "as cores do mal preto filme",
+    "as cores",
+    "as cores em inglês"
+   ]
+  },
+  "as cores atividade": {
+   "candidate": "colors",
+   "s": [
+    "as cores atividades",
+    "as cores atividades educação infantil",
+    "aprendendo as cores atividades",
+    "misturando as cores atividade",
+    "as cores primárias atividades",
+    "ligue as cores atividade",
+    "tarsilinha e as cores atividades",
+    "as cores em inglês atividade",
+    "tarsilinha e as cores atividades educação infantil",
+    "as cores de corina atividades"
+   ]
+  },
+  "as cores para imprimir": {
+   "candidate": "colors",
+   "s": [
+    "as cores para imprimir",
+    "as cores para imprimir educação infantil",
+    "todas as cores para imprimir",
+    "aprendendo as cores para imprimir",
+    "as cores primárias para imprimir",
+    "tarsilinha e as cores para imprimir",
+    "as cores em inglês para imprimir",
+    "as cores do mundinho para imprimir",
+    "história sobre as cores para imprimir",
+    "as cores em libras para imprimir"
+   ]
+  },
+  "as cores educação infantil": {
+   "candidate": "colors",
+   "s": [
+    "as cores educação infantil",
+    "aprendendo as cores educação infantil",
+    "misturando as cores educação infantil",
+    "atividade as cores educação infantil",
+    "as cores para educação infantil",
+    "as cores primarias educação infantil",
+    "trabalhando as cores educação infantil",
+    "projeto as cores educação infantil",
+    "separando as cores educação infantil",
+    "caça as cores educação infantil"
+   ]
+  },
+  "formas geométricas": {
+   "candidate": "2d-shapes",
+   "s": [
+    "formas geométricas",
+    "formas geométricas nomes",
+    "formas geométricas educação infantil",
+    "formas geométricas planas",
+    "formas geométricas espaciais",
+    "formas geométricas da bandeira do brasil",
+    "formas geométricas 3d",
+    "formas geométricas para imprimir",
+    "formas geométricas básicas",
+    "formas geométricas em inglês"
+   ]
+  },
+  "formas geométricas atividade": {
+   "candidate": "2d-shapes",
+   "s": [
+    "formas geométricas atividades",
+    "formas geométricas atividade educação infantil",
+    "formas geométricas atividades 2 ano",
+    "formas geométricas atividades 3 ano",
+    "formas geométricas atividades 5 ano",
+    "formas geométricas atividades 1 ano",
+    "formas geométricas atividades 4 ano",
+    "formas geometricas atividade infantil",
+    "formas geometricas atividades ludicas",
+    "formas geometricas atividade maternal"
+   ]
+  },
+  "formas geométricas para imprimir": {
+   "candidate": "2d-shapes",
+   "s": [
+    "formas geométricas para imprimir",
+    "formas geométricas para imprimir e montar",
+    "formas geométricas para imprimir pdf",
+    "formas geométricas para imprimir educação infantil",
+    "formas geométricas para imprimir grande",
+    "formas geométricas para imprimir e colorir",
+    "formas geométricas para imprimir e recortar",
+    "formas geométricas para imprimir 3d",
+    "formas geométricas para imprimir e montar pdf",
+    "formas geométricas para imprimir quadrado"
+   ]
+  },
+  "formas geométricas educação infantil": {
+   "candidate": "2d-shapes",
+   "s": [
+    "formas geométricas educação infantil",
+    "formas geométricas educação infantil para imprimir",
+    "formas geométricas educação infantil bncc",
+    "formas geométricas educação infantil atividades",
+    "formas geométricas educação infantil 4 anos",
+    "formas geométricas educação infantil objetivo",
+    "formas geométricas educação infantil pdf",
+    "formas geométricas educação infantil para colorir",
+    "formas geométricas educação infantil cartaz",
+    "formas geométricas educação infantil 5 anos"
+   ]
+  },
+  "formas geométricas 1º ano": {
+   "candidate": "2d-shapes",
+   "s": [
+    "formas geométricas 1o ano",
+    "formas geométricas 1o ano fundamental"
+   ]
+  },
+  "formas geométricas 2º ano": {
+   "candidate": "2d-shapes",
+   "s": [
+    "formas geométricas 2o ano",
+    "formas geométricas 2o ano fundamental"
+   ]
+  },
+  "formas geométricas 3º ano": {
+   "candidate": "2d-shapes",
+   "s": [
+    "formas geométricas 3o ano",
+    "formas geométricas 3o ano fundamental"
+   ]
+  },
+  "figuras geométricas planas": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figuras geométricas planas",
+    "figuras geométricas planas e não planas",
+    "figuras geométricas planas e espaciais",
+    "figuras geométricas planas 3 ano",
+    "figuras geométricas planas para imprimir",
+    "figuras geométricas planas 2 ano",
+    "figuras geométricas planas 3 ano fundamental",
+    "figuras geométricas planas nomes",
+    "figuras geométricas planas 4 ano",
+    "figuras geométricas planas 5 ano"
+   ]
+  },
+  "figuras geométricas planas atividade": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figuras geométricas planas atividades",
+    "figuras geométricas planas atividades 3 ano",
+    "figuras geométricas planas atividades 2 ano",
+    "figuras geométricas planas atividades 1 ano",
+    "figuras geométricas planas atividades 4 ano",
+    "figuras geométricas planas atividades 5 ano",
+    "figuras geométricas planas atividades 6 ano",
+    "figuras geométricas planas atividades 3 ano pdf"
+   ]
+  },
+  "figuras geométricas planas para imprimir": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figuras geométricas planas para imprimir",
+    "figuras geométricas planas para imprimir e montar",
+    "figuras geométricas planas para imprimir pdf",
+    "figuras geométricas planas para imprimir e colorir",
+    "figuras geométricas planas para imprimir e recortar",
+    "figuras geométricas não planas para imprimir",
+    "cartaz figuras geométricas planas para imprimir",
+    "atividades figuras geométricas planas para imprimir",
+    "moldes de figuras geométricas planas para imprimir",
+    "moldes de figuras geométricas planas para imprimir pdf"
+   ]
+  },
+  "figuras geométricas planas educação infantil": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figuras geometricas planas educação infantil",
+    "atividades figuras geometricas planas educação infantil"
+   ]
+  },
+  "figuras geométricas planas 1º ano": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figuras geométricas planas 1o ano"
+   ]
+  },
+  "figuras geométricas planas 2º ano": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figuras geométricas planas 2o ano"
+   ]
+  },
+  "figuras geométricas planas 3º ano": {
+   "candidate": "2d-shapes",
+   "s": [
+    "figuras geométricas planas 3o ano",
+    "figuras geométricas planas 3o ano fundamental"
+   ]
+  },
+  "dígrafos": {
+   "candidate": "digraphs",
+   "s": [
+    "dígrafos",
+    "dígrafos consonantais",
+    "dígrafos vocálicos",
+    "dígrafos consonantais e vocálicos",
+    "dígrafos e encontros consonantais",
+    "dígrafos exemplos",
+    "dígrafos significado",
+    "dígrafos exercícios",
+    "dígrafos encontros vocálicos e consonantais",
+    "dígrafos separáveis e inseparáveis"
+   ]
+  },
+  "dígrafos atividade": {
+   "candidate": "digraphs",
+   "s": [
+    "dígrafos atividades",
+    "dígrafos atividades 3 ano",
+    "dígrafos atividades 5 ano",
+    "dígrafos atividades 4 ano",
+    "digrafos atividades 2 ano",
+    "digrafos atividades 6 ano",
+    "digrafos atividades 1 ano",
+    "digrafos atividades 7 ano",
+    "atividade digrafos 3 ano fundamental",
+    "atividades dígrafos 4 ano acessaber"
+   ]
+  },
+  "dígrafos para imprimir": {
+   "candidate": "digraphs",
+   "s": [
+    "dígrafos para imprimir",
+    "fichas digrafos para imprimir",
+    "jogo dos dígrafos para imprimir",
+    "bingo dos dígrafos para imprimir",
+    "palavras com digrafos para imprimir",
+    "atividades com dígrafos para imprimir 4 ano",
+    "atividades com dígrafos para imprimir",
+    "caça palavras com digrafos para imprimir",
+    "ejercicios de dígrafos para imprimir"
+   ]
+  },
+  "dígrafos educação infantil": {
+   "candidate": "digraphs",
+   "s": [
+    "digrafos educação infantil"
+   ]
+  },
+  "dígrafos 3º ano": {
+   "candidate": "digraphs",
+   "s": [
+    "dígrafos 3o ano"
+   ]
+  },
+  "nh lh ch": {
+   "candidate": "digraphs",
+   "s": [
+    "nh lh ch",
+    "nh lh ch atividades",
+    "nh lh ch wordwall",
+    "nh lh ch são encontros consonantais",
+    "nh lh ch são dígrafos",
+    "nh lh ch 2 ano",
+    "nh lh ch 1 ano",
+    "nh lh ch palavras",
+    "lh nh ch 3 ano",
+    "cruzadinha nh lh ch"
+   ]
+  },
+  "nh lh ch atividade": {
+   "candidate": "digraphs",
+   "s": [
+    "nh lh ch atividades",
+    "palavras com nh lh ch atividades",
+    "atividades nh lh ch 3 ano",
+    "atividade nh lh ch 2 ano",
+    "atividade nh lh ch 1 ano",
+    "ortografia nh lh e ch atividades",
+    "atividade nh lh ch wordwall",
+    "atividades com nh lh ch para imprimir",
+    "atividades lh nh ch 5 ano",
+    "atividade lh nh ch 4 ano"
+   ]
+  },
+  "nh lh ch para imprimir": {
+   "candidate": "digraphs",
+   "s": [
+    "atividades com nh lh ch para imprimir",
+    "palavras com nh ch lh para imprimir"
+   ]
+  },
+  "sinônimos": {
+   "candidate": "synonyms",
+   "s": [
+    "sinônimos",
+    "sinônimos de problema",
+    "sinônimos de desenvolvimento",
+    "sinônimos de dificuldade",
+    "sinônimos de necessidade",
+    "sinônimos de importante",
+    "sinônimos música",
+    "sinônimos exemplos",
+    "sinônimos de portanto",
+    "sinônimos e antônimos"
+   ]
+  },
+  "sinônimos atividade": {
+   "candidate": "synonyms",
+   "s": [
+    "sinônimos atividades",
+    "sinônimos atividades 2 ano",
+    "sinônimos atividades 4 ano",
+    "sinonimos atividades 3 ano",
+    "sinonimos atividades 5 ano",
+    "sinonimos atividades 6 ano",
+    "sinonimos atividade fisica",
+    "sinonimos atividades 1 ano",
+    "atividades sinonimos e antonimos",
+    "atividades sinônimos e antônimos 4 ano"
+   ]
+  },
+  "sinônimos para imprimir": {
+   "candidate": "synonyms",
+   "s": [
+    "sinônimos para imprimir",
+    "jogo dos sinônimos para imprimir",
+    "sinônimos e antônimos para imprimir",
+    "bingo de sinônimos para imprimir",
+    "domino dos sinônimos para imprimir",
+    "jogo da memória sinônimos para imprimir",
+    "caça palavras de sinonimos para imprimir",
+    "sinonimos ficha para imprimir",
+    "sinonimos imprimir",
+    "sinonimos con imagenes para imprimir"
+   ]
+  },
+  "sinônimos educação infantil": {
+   "candidate": "synonyms",
+   "s": [
+    "sinônimos educação infantil",
+    "sinonimos e antonimos educação infantil",
+    "sinônimos de atividade na educação infantil"
+   ]
+  },
+  "sinônimos 2º ano": {
+   "candidate": "synonyms",
+   "s": [
+    "sinônimos 2o ano"
+   ]
+  },
+  "sinônimos e antônimos": {
+   "candidate": "synonyms",
+   "s": [
+    "sinônimos e antônimos",
+    "sinônimos e antônimos exercícios",
+    "sinônimos e antônimos exercícios 7 ano",
+    "sinônimos e antônimos exercícios com gabarito",
+    "sinônimos e antônimos exercícios 6o ano com gabarito",
+    "sinônimos e antônimos 4 ano",
+    "sinônimos e antônimos exercícios 5 ano com gabarito",
+    "sinônimos e antônimos 3 ano",
+    "sinônimos e antônimos exercícios 6 ano",
+    "sinônimos e antônimos de grande"
+   ]
+  },
+  "sinônimos e antônimos atividade": {
+   "candidate": "synonyms",
+   "s": [
+    "sinônimos e antônimos atividades",
+    "sinônimos e antônimos atividades 4 ano",
+    "sinônimos e antônimos atividade 3 ano",
+    "sinonimos e antonimos atividades 2 ano",
+    "sinonimos e antonimos atividades 5 ano",
+    "sinonimos e antonimos atividades 6 ano",
+    "sinonimos e antonimos atividades 1 ano",
+    "sinonimos e antonimos atividades 7 ano",
+    "sinonimos e antonimos atividades ensino medio",
+    "sinonimos e antonimos atividades pdf"
+   ]
+  },
+  "sinônimos e antônimos para imprimir": {
+   "candidate": "synonyms",
+   "s": [
+    "sinônimos e antônimos para imprimir",
+    "jogos de sinônimos e antônimos para imprimir",
+    "jogos de sinônimos e antônimos para imprimir gratis",
+    "jogo da memória sinônimos e antônimos para imprimir",
+    "atividades sinônimos e antônimos 4 ano para imprimir",
+    "atividades sinônimos e antônimos 2 ano fundamental para imprimir",
+    "sinonimos y antonimos para imprimir 6 primaria",
+    "tareas sinonimos antonimos para imprimir"
+   ]
+  },
+  "sinônimos e antônimos educação infantil": {
+   "candidate": "synonyms",
+   "s": [
+    "sinonimos e antonimos educação infantil"
+   ]
+  },
+  "sinônimos e antônimos 2º ano": {
+   "candidate": "synonyms",
+   "s": [
+    "sinônimos e antônimos 2o ano"
+   ]
+  },
+  "sinônimos e antônimos 3º ano": {
+   "candidate": "synonyms",
+   "s": [
+    "sinônimos e antônimos 3o ano"
+   ]
+  },
+  "palavras homófonas": {
+   "candidate": "homophones",
+   "s": [
+    "palavras homófonas",
+    "palavras homófonas exemplos",
+    "palavras homófonas em inglês",
+    "palavras homófonas e homógrafas",
+    "palavras homófonas homógrafas homónimas e parónimas",
+    "palavras homófonas exercícios com gabarito",
+    "palavras homófonas exercícios",
+    "palavras homófonas em português",
+    "palavras homófonas exercícios pdf",
+    "palavras homófonas e parônimas"
+   ]
+  },
+  "palavras homófonas atividade": {
+   "candidate": "homophones",
+   "s": [
+    "palavras homófonas atividades",
+    "atividade palavras homofonas e homografas",
+    "atividades palavras homofonas 5 ano"
+   ]
+  },
+  "mas mais": {
+   "candidate": "homophones",
+   "s": [
+    "mas mais",
+    "mas mais ou más",
+    "mas mais ou mas ja",
+    "mas mais adora um proibido",
+    "mas mais diferença",
+    "mas mais tarde",
+    "mas mais más atividades",
+    "mas mais e más exercícios",
+    "mas mais ou más atividades",
+    "mas mais do que isso"
+   ]
+  },
+  "mas mais atividade": {
+   "candidate": "homophones",
+   "s": [
+    "mas mais atividades",
+    "mas ou mais atividades",
+    "mas e mais atividades 5 ano",
+    "mas e mais atividades 4 ano",
+    "mas ou mais atividades 5 ano",
+    "mas ou mais atividades 4 ano",
+    "mas e mais atividades 6 ano",
+    "mas e mais atividades 7 ano",
+    "mas ou mais atividades com gabarito",
+    "ortografia mas e mais atividades"
+   ]
+  },
+  "educação no trânsito": {
+   "candidate": "road-safety",
+   "s": [
+    "educação no transito",
+    "educação no trânsito educação infantil",
+    "educação no trânsito redação",
+    "educação no transito para crianças",
+    "educação no trânsito 2 ano",
+    "educação no trânsito resumo",
+    "educação no trânsito 2 ano fundamental",
+    "educação no trânsito não tem idade",
+    "educação no trânsito pdf",
+    "educação no trânsito ensino fundamental"
+   ]
+  },
+  "educação no trânsito atividade": {
+   "candidate": "road-safety",
+   "s": [
+    "educação no transito atividades",
+    "educação infantil transito atividades",
+    "atividade educação no transito 2 ano",
+    "atividades de educação no transito para ensino fundamental",
+    "atividades sobre educação no trânsito 5 ano",
+    "atividades sobre educação no transito para 4 ano"
+   ]
+  },
+  "educação no trânsito educação infantil": {
+   "candidate": "road-safety",
+   "s": [
+    "educação no trânsito educação infantil",
+    "educação no trânsito educação infantil pdf",
+    "atividade educação no transito educação infantil",
+    "projeto educação no transito educação infantil",
+    "plano de aula educação no transito educação infantil",
+    "video sobre educação no transito para educação infantil",
+    "como trabalhar educação no trânsito na educação infantil"
+   ]
+  },
+  "placas de trânsito": {
+   "candidate": "road-safety",
+   "s": [
+    "placas de trânsito",
+    "placas de trânsito significado",
+    "placas de trânsito e seus significados",
+    "placas de trânsito para estudar",
+    "placas de trânsito nomes",
+    "placas de trânsito para imprimir",
+    "placas de trânsito para imprimir pdf",
+    "placas de trânsito amarelas",
+    "placas de trânsito para imprimir e estudar",
+    "placas de trânsito amarelas e significados"
+   ]
+  },
+  "placas de trânsito atividade": {
+   "candidate": "road-safety",
+   "s": [
+    "placas de transito atividade",
+    "placas de transito atividades 2 ano",
+    "placas de trânsito educação infantil atividades",
+    "atividade placas de trânsito 1 ano",
+    "atividade placas de transito para colorir",
+    "atividades placas de trânsito 4 ano",
+    "atividade sobre placas de transito",
+    "atividades com placas de trânsito para o ensino fundamental",
+    "atividades sobre placas de trânsito 3 ano",
+    "atividades de placas de trânsito para imprimir"
+   ]
+  },
+  "placas de trânsito para imprimir": {
+   "candidate": "road-safety",
+   "s": [
+    "placas de trânsito para imprimir",
+    "placas de trânsito para imprimir pdf",
+    "placas de trânsito para imprimir e estudar",
+    "placas de trânsito para imprimir pdf educação infantil",
+    "placas de trânsito para imprimir grande",
+    "placas de trânsito para imprimir e colorir",
+    "placas de trânsito para imprimir educação infantil",
+    "placas de trânsito para imprimir maquete",
+    "placas de trânsito para imprimir png",
+    "placas de trânsito para imprimir festa infantil"
+   ]
+  },
+  "placas de trânsito educação infantil": {
+   "candidate": "road-safety",
+   "s": [
+    "placas de trânsito educação infantil para imprimir",
+    "placas de transito educação infantil",
+    "placas de transito educação infantil pdf",
+    "placas de trânsito educação infantil atividades",
+    "placas de transito educação infantil para",
+    "placas de trânsito educação infantil para colorir",
+    "sinal placas de transito educação infantil",
+    "jogo placas de transito educação infantil",
+    "video sobre placas de transito educação infantil",
+    "placas de trânsito para imprimir pdf educação infantil"
+   ]
+  },
+  "continentes": {
+   "candidate": "maps",
+   "s": [
+    "continentes",
+    "continentes do mundo",
+    "continentes e seus países",
+    "continentes do brasil",
+    "continentes da terra",
+    "continentes no mapa mundi",
+    "continentes e oceanos",
+    "continentes mapa",
+    "continentes africanos",
+    "continentes em ingles"
+   ]
+  },
+  "continentes atividade": {
+   "candidate": "maps",
+   "s": [
+    "continentes atividades",
+    "continentes atividades 5 ano",
+    "continentes atividades 4 ano",
+    "continentes atividade adaptada",
+    "atividades continentes e oceanos 5 ano com gabarito",
+    "atividade continentes e oceanos",
+    "atividade continentes e oceanos 5o ano",
+    "atividades continentes e oceanos 4 ano",
+    "atividade continentes 8 ano",
+    "atividade continentes 3 ano"
+   ]
+  },
+  "continentes para imprimir": {
+   "candidate": "maps",
+   "s": [
+    "continentes para imprimir",
+    "continentes para imprimir pdf",
+    "continentes para imprimir e recortar",
+    "continentes para imprimir separados",
+    "continentes para imprimir e colorir",
+    "continentes para imprimir grande",
+    "continentes para imprimir y recortar por separado",
+    "molde continentes para imprimir",
+    "6 continentes para imprimir",
+    "continentes americano para imprimir"
+   ]
+  },
+  "continentes educação infantil": {
+   "candidate": "maps",
+   "s": [
+    "continentes educação infantil",
+    "projeto continentes educação infantil",
+    "atividades continentes educação infantil"
+   ]
+  },
+  "pontos cardeais": {
+   "candidate": "maps",
+   "s": [
+    "pontos cardeais",
+    "pontos cardeais e colaterais",
+    "pontos cardeais em ingles",
+    "pontos cardeais do brasil",
+    "pontos cardeais 4 ano",
+    "pontos cardeais colaterais e subcolaterais",
+    "pontos cardeais e colaterais da rosa dos ventos",
+    "pontos cardeais onde nasce o sol",
+    "pontos cardeais da rosa dos ventos",
+    "pontos cardeais e colaterais 4 ano"
+   ]
+  },
+  "pontos cardeais atividade": {
+   "candidate": "maps",
+   "s": [
+    "pontos cardeais atividades",
+    "pontos cardeais atividades 4 ano",
+    "pontos cardeais atividades 3 ano",
+    "pontos cardeais atividades 2 ano",
+    "pontos cardeais atividade adaptada",
+    "pontos cardeais atividade interativa",
+    "pontos cardeais atividades 6 ano",
+    "pontos cardeais atividades 5 ano",
+    "pontos cardeais atividades para imprimir",
+    "pontos cardeais atividade 1 ano"
+   ]
+  },
+  "pontos cardeais para imprimir": {
+   "candidate": "maps",
+   "s": [
+    "pontos cardeais para imprimir",
+    "pontos cardeais atividades para imprimir",
+    "maquete pontos cardeais para imprimir",
+    "desenho dos pontos cardeais para imprimir",
+    "pontos cardeais e colaterais para imprimir",
+    "caça palavras sobre pontos cardeais para imprimir",
+    "rosa dos ventos pontos cardeais para imprimir"
+   ]
+  },
+  "pontos cardeais educação infantil": {
+   "candidate": "maps",
+   "s": [
+    "pontos cardeais educação infantil",
+    "atividades pontos cardeais educação infantil",
+    "como ensinar pontos cardeais na educação infantil"
+   ]
+  },
+  "pontos cardeais 2º ano": {
+   "candidate": "maps",
+   "s": [
+    "pontos cardeais 2o ano"
+   ]
+  },
+  "pontos cardeais 3º ano": {
+   "candidate": "maps",
+   "s": [
+    "pontos cardeais 3o ano"
+   ]
+  },
+  "família": {
+   "candidate": "family",
+   "s": [
+    "família",
+    "família addams",
+    "família dinossauro",
+    "família em inglês",
+    "família do bagulho",
+    "família soprano",
+    "família do futuro",
+    "família da pesada",
+    "família matsunaga",
+    "familia buscapé"
+   ]
+  },
+  "família atividade": {
+   "candidate": "family",
+   "s": [
+    "família atividade",
+    "família atividade 2 ano",
+    "família atividades para educação infantil",
+    "familia atividades 1 ano",
+    "familia atividade infantil",
+    "familia atividade maternal",
+    "familia atividade ingles",
+    "familia atividade 3 ano",
+    "atividade familia silabica",
+    "atividade familia silabica b"
+   ]
+  },
+  "família para imprimir": {
+   "candidate": "family",
+   "s": [
+    "família para imprimir",
+    "família para imprimir e colorir",
+    "familia para imprimir e recortar",
+    "familia para imprimir desenho",
+    "familia silabica para imprimir",
+    "palavra família para imprimir",
+    "nome família para imprimir",
+    "família silábica para imprimir e recortar",
+    "sagrada familia para imprimir",
+    "família silábica para imprimir colorido"
+   ]
+  },
+  "família educação infantil": {
+   "candidate": "family",
+   "s": [
+    "familia educação infantil",
+    "familia educação infantil atividades",
+    "familia educação infantil musica",
+    "familia educação infantil plano de aula",
+    "familia educação infantil objetivo",
+    "familia educação infantil bncc",
+    "atividades família educação infantil imprimir",
+    "projeto família educação infantil creche",
+    "projeto família educação infantil bncc",
+    "atividades familia educação infantil pinterest"
+   ]
+  },
+  "árvore genealógica": {
+   "candidate": "family",
+   "s": [
+    "árvore genealógica",
+    "árvore genealógica da família",
+    "árvore genealógica grátis",
+    "árvore genealógica targaryen",
+    "árvore genealógica em inglês",
+    "árvore genealógica da família grátis",
+    "árvore genealógica cem anos de solidão",
+    "árvore genealógica como fazer",
+    "árvore genealógica de daenerys targaryen",
+    "árvore genealógica para imprimir"
+   ]
+  },
+  "árvore genealógica atividade": {
+   "candidate": "family",
+   "s": [
+    "árvore genealógica atividade",
+    "árvore genealógica atividade educação infantil",
+    "árvore genealógica atividade 1 ano",
+    "árvore genealógica atividades para imprimir",
+    "arvore genealogica atividade infantil",
+    "arvore genealogica atividade 2 ano",
+    "arvore genealogica atividade escolar",
+    "arvore genealogica atividade 3 ano",
+    "arvore genealogica atividade 4 ano",
+    "arvore genealogica atividade ingles"
+   ]
+  },
+  "árvore genealógica para imprimir": {
+   "candidate": "family",
+   "s": [
+    "árvore genealógica para imprimir",
+    "árvore genealógica para imprimir e completar",
+    "árvore genealógica para imprimir educação infantil",
+    "árvore genealógica para imprimir colorida",
+    "árvore genealógica para imprimir e preencher",
+    "árvore genealógica para imprimir em inglês",
+    "árvore genealógica para imprimir pdf",
+    "arvore genealogica para imprimir e montar",
+    "árvore genealógica para imprimir grande",
+    "árvore genealógica desenho para imprimir"
+   ]
+  },
+  "árvore genealógica educação infantil": {
+   "candidate": "family",
+   "s": [
+    "árvore genealógica educação infantil para imprimir",
+    "arvore genealogica educação infantil",
+    "árvore genealógica educação infantil objetivo",
+    "atividade árvore genealógica educação infantil",
+    "árvore genealógica família educação infantil",
+    "arvore genealogica criativa educação infantil",
+    "cartaz árvore genealógica educação infantil",
+    "projeto árvore genealógica educação infantil",
+    "painel arvore genealogica educação infantil"
+   ]
+  },
+  "árvore genealógica 2º ano": {
+   "candidate": "family",
+   "s": [
+    "árvore genealógica 2o ano"
+   ]
+  }
+ }
+}

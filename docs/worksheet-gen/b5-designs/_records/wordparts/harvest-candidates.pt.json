@@ -1,0 +1,113 @@
+{
+ "locale": "pt",
+ "market": {
+  "hl": "pt",
+  "gl": "br"
+ },
+ "generatedAt": "2026-09-23T00:18:47.815Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds-wordparts.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "word-parts": {
+   "heads": [
+    "família de palavras",
+    "prefixos e sufixos"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 30,
+   "suggestions": [
+    "atividade família de palavras 3 ano",
+    "atividade prefixos e sufixos 3 ano fundamental",
+    "atividades prefixos e sufixos 5 ano",
+    "atividades prefixos e sufixos 6 ano",
+    "atividades prefixos e sufixos 7 ano",
+    "familia de palavras atividades",
+    "familia de palavras fichas para imprimir",
+    "família de palavras",
+    "família de palavras boi",
+    "família de palavras de branco",
+    "família de palavras de flor",
+    "família de palavras de livro",
+    "família de palavras de mar",
+    "família de palavras de terra",
+    "família de palavras em inglês",
+    "família de palavras exemplos",
+    "prefixos e sufixos",
+    "prefixos e sufixos 7 ano",
+    "prefixos e sufixos atividades",
+    "prefixos e sufixos atividades 3 ano",
+    "prefixos e sufixos atividades 4 ano",
+    "prefixos e sufixos cirurgicos",
+    "prefixos e sufixos em inglês",
+    "prefixos e sufixos em inglês atividades pdf",
+    "prefixos e sufixos em inglês atividades tudo sala de aula",
+    "prefixos e sufixos em inglês pdf",
+    "prefixos e sufixos enfermagem",
+    "prefixos e sufixos enfermagem pdf",
+    "prefixos e sufixos gregos e latinos",
+    "prefixos e sufixos na formação de palavras"
+   ]
+  }
+ },
+ "suggestions": {
+  "família de palavras": {
+   "candidate": "word-parts",
+   "s": [
+    "família de palavras",
+    "família de palavras de branco",
+    "família de palavras de mar",
+    "família de palavras exemplos",
+    "família de palavras em inglês",
+    "família de palavras de flor",
+    "família de palavras boi",
+    "família de palavras de livro",
+    "família de palavras de terra"
+   ]
+  },
+  "família de palavras atividade": {
+   "candidate": "word-parts",
+   "s": [
+    "familia de palavras atividades",
+    "atividade família de palavras 3 ano"
+   ]
+  },
+  "família de palavras para imprimir": {
+   "candidate": "word-parts",
+   "s": [
+    "familia de palavras fichas para imprimir"
+   ]
+  },
+  "prefixos e sufixos": {
+   "candidate": "word-parts",
+   "s": [
+    "prefixos e sufixos",
+    "prefixos e sufixos em inglês",
+    "prefixos e sufixos na formação de palavras",
+    "prefixos e sufixos em inglês atividades pdf",
+    "prefixos e sufixos cirurgicos",
+    "prefixos e sufixos em inglês pdf",
+    "prefixos e sufixos 7 ano",
+    "prefixos e sufixos enfermagem pdf",
+    "prefixos e sufixos enfermagem",
+    "prefixos e sufixos gregos e latinos"
+   ]
+  },
+  "prefixos e sufixos atividade": {
+   "candidate": "word-parts",
+   "s": [
+    "prefixos e sufixos atividades",
+    "prefixos e sufixos atividades 3 ano",
+    "prefixos e sufixos atividades 4 ano",
+    "prefixos e sufixos em inglês atividades pdf",
+    "prefixos e sufixos em inglês atividades tudo sala de aula",
+    "atividades prefixos e sufixos 5 ano",
+    "atividade prefixos e sufixos 3 ano fundamental",
+    "atividades prefixos e sufixos 7 ano",
+    "atividades prefixos e sufixos 6 ano"
+   ]
+  }
+ }
+}

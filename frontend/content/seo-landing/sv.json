@@ -140748,6 +140748,2236 @@
    ],
    "title": "Avrunda till tiotal och hundratal – samma tal – åk 3 | PDF gratis",
    "metaDescription": "Åtta tresiffriga tal som ska avrundas två gånger, först till närmaste tiotal och sedan till närmaste hundratal. Åk 3. Gratis PDF."
+  },
+  {
+   "slug": "geometriska-former",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "base",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad geometriska former",
+   "h1": "Geometriska former: vad heter formen?",
+   "strand": "Geometri",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "geometriska-former",
+    "forskola"
+   ],
+   "p1": "Sidan har sex numrerade kort, två i bredd och tre i höjd. På varje kort står en form i en vit ring och till höger tre namn att välja mellan, tagna ur cirkel, kvadrat, triangel och rektangel. Formerna är medvetet inte de raka skolboksformerna. Triangeln på kort 1 är lång, spetsig och ligger på sned, kvadraten på kort 3 är lite vriden, rektangeln på kort 4 är smal och lutar, och kort 5 visar en kvadrat som står på ett hörn. Barnet tittar på formen och ringar in det namn som stämmer.",
+   "p2": "Många barn i förskoleklass säger att en kvadrat som står på ett hörn är en diamant, och att en triangel bara är en triangel när den står på sin bas. Det här bladet arbetar just med den föreställningen: en form behåller sitt namn när den vrids, lutas eller dras ut. Lgr22 tar i matematiken för årskurs 1–3 upp grundläggande geometriska objekt och hur de kan beskrivas, och här börjar det arbetet med de fyra vanligaste namnen. Ordet fyrkant används inte på sidan; barnet möter kvadrat och rektangel från början. Fråga gärna varför kort 5 fortfarande är en kvadrat: fyra lika långa sidor och fyra hörn som är lika stora.",
+   "p3": "Det här är grundsidan i serien om geometriska former och den som passar först. Barnet behöver inte skriva, bara läsa namnen eller få dem upplästa. Tänk på att kvadraterna på kort 3 och 5 inte har rektangel bland alternativen, så skillnaden mellan kvadrat och rektangel prövas bara på kort 4. Vill du arbeta just med den skillnaden passar sidan där barnet avgör om en form verkligen är den form som namnet säger. Bladet fungerar i svartvitt. Gå sedan vidare till formerna i vardagen eller till sidan där namnen skrivs för hand.",
+   "canonicalDeckSlug": "geometriska-former-k368",
+   "carousel": [
+    {
+     "label": "Känna igen geometriska former: är det rätt form?",
+     "href": "kanna-igen-geometriska-former"
+    },
+    {
+     "label": "Geometriska former i vardagen: cirkel eller rektangel?",
+     "href": "geometriska-former-i-vardagen"
+    },
+    {
+     "label": "Skriv namnet på formen: sex geometriska former",
+     "href": "skriv-namnet-pa-formen"
+    },
+    {
+     "label": "Gåtor om geometriska former",
+     "href": "gator-om-geometriska-former"
+    }
+   ],
+   "title": "Geometriska former – vad heter formen? Förskoleklass | PDF gratis",
+   "metaDescription": "Sex kort med en cirkel, kvadrat, triangel eller rektangel som är vriden eller smal. Barnet ringar in rätt namn. Förskoleklass. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "trafikregler-for-barn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "base",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad trafikregler",
+   "h1": "Trafikregler för barn: vad visar trafikljuset?",
+   "strand": "Trafikkunskap",
+   "slotTokens": [
+    "trafikmarken-och-trafikregler",
+    "forskola"
+   ],
+   "p1": "Sidan är delad i fält, och i varje fält står ett trafikljus där bara lampan som lyser är färgad och har små strålar runt sig. De andra lamporna är vita. På var sin sida om ljuset sitter ett ord att ringa in, och under orden en liten bild som hjälper. Hälften av ljusen är vanliga trafikljus med tre runda lampor. Där är orden stanna och kör, och bilderna visar en bil som står still och en bil som åker. De andra är ljus för gående med en stående och en gående gubbe. Där är orden vänta och gå, och bilderna visar en person som står och en som går vid ett övergångsställe. Barnet ser vilken lampa som lyser och ringar in vad man ska göra.",
+   "p2": "Trafikljuset är ofta det första trafikmärke barnet möter på egen hand, på väg till skolan eller fritids. Bladet skiljer medvetet på två sorters ljus. Bilföraren ska stanna eller köra, men barnet som går ska vänta eller gå, och det är barnets egna ljus som är viktigast att förstå. Orden står bredvid bilden, så även ett barn som ännu inte läser flytande kan få dem upplästa och sedan välja. Lgr22 tar i de samhällsorienterande ämnena upp trafikregler och hur man rör sig säkert i trafiken, och det här är en tidig början för förskoleklass. Prata gärna om varför man väntar på grönt även när ingen bil syns.",
+   "p3": "Det här är grundsidan i serien om trafikregler för barn. Gult ljus finns inte med på just det här bladet; det kommer i sidan där barnet färglägger trafikljusen. Skriv gärna ut i färg, eftersom röd och grön lampa bär svaret. Bladet passar före en promenad i närområdet där klassen tittar på riktiga trafikljus. Nästa steg är sidan om hur man går säkert över gatan.",
+   "canonicalDeckSlug": "trafikmarken-och-trafikregler-k369",
+   "carousel": [
+    {
+     "label": "Färglägg trafikljuset: rött, gult eller grönt?",
+     "href": "farglagg-trafikljuset"
+    },
+    {
+     "label": "Gå säkert över gatan: steg för steg",
+     "href": "ga-sakert-over-gatan"
+    },
+    {
+     "label": "Trafikmärken för barn och vad de betyder",
+     "href": "trafikmarken-och-vad-de-betyder"
+    },
+    {
+     "label": "Trafikmärken åk 2: varningsmärken, förbudsmärken och påbudsmärken",
+     "href": "varningsmarken-forbudsmarken-pabudsmarken"
+    }
+   ],
+   "title": "Trafikregler för barn – vad visar trafikljuset? | skriva ut PDF gratis",
+   "metaDescription": "Trafikljus för bilar och för gående där en lampa lyser. Barnet ringar in stanna, kör, vänta eller gå. Förskoleklass. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "familj-och-slakt",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "base",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad familj och släkt",
+   "h1": "Familj och släkt: vem är vem?",
+   "strand": "SO: familj och släkt",
+   "slotTokens": [
+    "familj-och-slakt",
+    "forskola"
+   ],
+   "p1": "Överst på sidan växer ett släktträd med sex porträtt i ramar. Längst ner står Axel, markerad med en orange ram och en stjärna, och bredvid honom en flicka som är ritad lite större än han. I mitten sitter två vuxna, och högst upp två äldre personer med glasögon, den ena med skägg, som är kopplade till den ena av de vuxna med ett streck. Alla utom Axel har en siffra. Under trädet står fem familjeord i avlånga rutor: storasyster, mamma, farmor, farfar och pappa. Barnet hittar varje person och skriver personens siffra i den tomma rutan bredvid rätt ord.",
+   "p2": "Allt utgår från Axel. Frågan är inte vem personen är i största allmänhet utan vem den är för honom, och det är just det som gör släktord svåra för små barn. Farmor och farfar är pappas föräldrar, och det ser barnet genom att följa strecket från de två äldre till pappa. Den skillnaden mellan farmor och mormor, farfar och morfar, finns inte i alla språk men är självklar i svenskan, och här läggs grunden till den. Lgr22 tar i SO för de yngsta upp familj och släkt, och sidan ger ett konkret sätt att börja. Porträtten är enkla linjeteckningar utan text.",
+   "p3": "Det här är grundsidan i serien om familj och släkt och den som passar först, i förskoleklass. Barnet behöver bara kunna skriva siffrorna 1 till 5. Läs gärna orden högt tillsammans. Tänk på att klassens barn har många sorters familjer; sidan handlar om Axels släkt, inte om barnets egen, vilket gör det lättare att prata om den utan att någon känner sig utpekad. Nästa steg är sidan där familjeorden spåras och skrivs, och mallen för ett eget släktträd.",
+   "canonicalDeckSlug": "familj-och-slakt-k370",
+   "carousel": [
+    {
+     "label": "Generationer i släkten: från äldst till yngst",
+     "href": "generationer-i-slakten"
+    },
+    {
+     "label": "Familjeord: spåra och skriv",
+     "href": "familjeord-spara-och-skriv"
+    },
+    {
+     "label": "Släktträd: läs ledtrådarna",
+     "href": "slakttrad-las-ledtradarna"
+    },
+    {
+     "label": "Släktgåtor: mormor, farfar, moster eller farbror?",
+     "href": "slaktgator-mormor-farfar-moster-farbror"
+    }
+   ],
+   "title": "Familj och släkt – vem är vem i släktträdet? | skriva ut PDF gratis",
+   "metaDescription": "Ett släktträd med fem numrerade personer och Axel. Barnet skriver siffran bredvid storasyster, mamma, pappa, farmor och farfar. Förskoleklass. Gratis PDF."
+  },
+  {
+   "slug": "vaxtens-delar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "base",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad växtens delar",
+   "h1": "Växtens delar",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vaxtens-delar",
+    "ak-1"
+   ],
+   "p1": "En hel växt är ritad från roten i jorden till blomman högst upp. Den har blad längs stjälken, en vit blomma och en grön ärtbalja med fyra ärtor som hänger från stjälken. Sex orange lappar med siffror sitter runt växten och varje lapp pekar med ett streck på en del. Överst på sidan står en ordruta med sex ord: frö, blad, stjälk, frukt, rot och blomma. Till höger finns sex numrerade skrivrader. Barnet följer varje lapp till delen, hittar ordet i rutan och skriver det på raden med samma siffra.",
+   "p2": "Att sätta namn på växtens delar är grunden för allt barnet senare ska lära om hur växter lever. Här finns alla sex delar på en och samma växt, också frukten och fröet, vilket inte är självklart på en förenklad bild. Baljan är frukten och ärtorna inuti är fröna. Två lappar pekar på samma balja, den ena på en ärta och den andra på baljans topp, så var beredd på att barnet blandar ihop frö och frukt. Varje streck slutar i en liten ring som visar exakt vilken del som menas. Lgr22 tar i de naturorienterande ämnena för årskurs 1–3 upp växter i närmiljön och deras livscykler, och bladet ger orden som behövs.",
+   "p3": "Det här är grundsidan i serien om växtens delar och passar i åk 1. Alla ord står i rutan, så barnet behöver bara kunna skriva av. Ta gärna med en riktig växt, gärna en ärtplanta, och låt barnen peka ut delarna innan de skriver. Sidan fungerar i svartvitt. Nästa steg är sidan om vad delarna gör, och i åk 3 sidan om blommans delar.",
+   "canonicalDeckSlug": "vaxtens-delar-g1376",
+   "carousel": [
+    {
+     "label": "Vad behöver en växt för att växa?",
+     "href": "vad-behover-en-vaxt"
+    },
+    {
+     "label": "Från frö till växt: klipp och klistra",
+     "href": "fran-fro-till-vaxt"
+    },
+    {
+     "label": "Vilka delar av växten äter vi?",
+     "href": "vilka-delar-av-vaxten-ater-vi"
+    },
+    {
+     "label": "Växtens delar och vad de gör",
+     "href": "vaxtens-delar-och-vad-de-gor"
+    }
+   ],
+   "title": "Växtens delar – arbetsblad åk 1 | skriva ut PDF gratis",
+   "metaDescription": "En växt med sex numrerade lappar och en ordruta: frö, blad, stjälk, frukt, rot och blomma. Barnet skriver delens namn på rätt rad. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "fjarilens-livscykel",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "base",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad fjärilens livscykel",
+   "h1": "Fjärilens livscykel: från ägg till fjäril",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "fjarilens-och-grodans-livscykel",
+    "ak-1"
+   ],
+   "p1": "Mitt på sidan står en växt med blad och en blomma, och på fyra ställen är en liten ring ritad runt något som knappt syns: ett ägg på ett blad, en larv på ett annat, en puppa som hänger under ett blad och en fjäril på blomman. Från varje ring går ett streck ut till ett stort förstoringsglas där samma sak visas i närbild. Ägget har redan siffran 1. Under de andra tre finns tomma rutor. Längst ner, under en streckad linje, står fjärilen igen med en pil till en sista tom ruta. Barnet skriver 2, 3 och 4 i rätt ordning och i sista rutan numret på bilden som kommer efter fjärilen.",
+   "p2": "Sidan lär ut de fyra stadierna ägg, larv, puppa och fjäril och att de hör ihop i en cykel. Den sista rutan är nyckeln. När barnet skriver 1 där, alltså ägget, har det förstått att fjärilen lägger nya ägg och att allt börjar om. Förstoringsglasen visar också något viktigt: de riktiga stadierna är små och gömda på växten, och man måste titta noga för att hitta dem. Lgr22 tar upp djurs livscykler i de naturorienterande ämnena för årskurs 1–3, och fjärilen är det klassiska första exemplet i svenska klassrum.",
+   "p3": "Det här är grundsidan i serien om fjärilens och grodans livscykel och passar i åk 1. Barnet behöver bara kunna skriva siffror. Om klassen föder upp fjärilslarver på våren blir bladet en naturlig dokumentation. Fjärilen är i färg, men bladet fungerar också i svartvitt. Nästa steg är sidan där barnet skriver stadiernas namn och sidan om grodans livscykel.",
+   "canonicalDeckSlug": "fjarilens-och-grodans-livscykel-g1377",
+   "carousel": [
+    {
+     "label": "Grodans livscykel: klipp och klistra",
+     "href": "grodans-livscykel-klipp-och-klistra"
+    },
+    {
+     "label": "Fjärilens livscykel: skriv namnen på stadierna",
+     "href": "fjarilens-livscykel-skriv-stadierna"
+    },
+    {
+     "label": "Metamorfos: vilket djur blir det till slut?",
+     "href": "metamorfos-vilket-djur-blir-ungen"
+    },
+    {
+     "label": "Fjärilens och grodans livscykel: jämför",
+     "href": "jamfor-fjarilens-och-grodans-livscykel"
+    }
+   ],
+   "title": "Fjärilens livscykel – från ägg till fjäril – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "En växt med fyra förstoringsglas: ägg, larv, puppa och fjäril. Barnet numrerar stadierna 1 till 4 och avgör vad som kommer efter fjärilen. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "solen-jorden-och-manen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "base",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad solsystemet",
+   "h1": "Solen, Jorden och Månen",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "solsystemet",
+    "ak-1"
+   ],
+   "p1": "Sidan är en tabell. Överst står tre kolumner med en bild och ett namn: en stor orange sol, en liten jordglob och en ännu mindre grå måne med kratrar, och under dem orden Solen, Jorden och Månen. Därefter följer åtta numrerade påståenden, var och en med tre tomma rutor i samma kolumner. Påståendena är korta: Den går varv efter varv runt vår planet, När den snurrar får vi dag och natt, Den är störst av de tre, Dess form ser ut att ändras, Den är en stjärna, Den är täckt av kratrar, Den är en planet och Den är varmast av de tre. Barnet läser och kryssar för om meningen handlar om Solen, Jorden eller Månen.",
+   "p2": "Barnet får här de första fakta som skiljer de tre himlakropparna åt: Solen är en stjärna, störst och varmast, Jorden är en planet som snurrar så att vi får dag och natt, och Månen går runt Jorden, har kratrar och verkar byta form. Lgr22 tar i de naturorienterande ämnena för årskurs 1–3 upp solsystemets himlakroppar och hur dag och natt uppstår, och bladet är ett första steg. Påståendet om Månens bana säger vår planet och inte Jorden, så barnet måste själv göra kopplingen. Det är en bra fråga att ställa högt: vilken planet är vår? Tre påståenden hör till Solen, tre till Månen och två till Jorden.",
+   "p3": "Det här är grundsidan i serien om solsystemet och passar i åk 1, gärna med högläsning. Låt barnen förklara sina kryss för varandra, särskilt påståendet om vår planet. Bladet fungerar i svartvitt. Serien fortsätter med månens faser, dag och natt och i åk 3 planeterna i ordning från Solen.",
+   "canonicalDeckSlug": "solsystemet-g1378",
+   "carousel": [
+    {
+     "label": "Månens faser i rätt ordning",
+     "href": "manens-faser-i-ratt-ordning"
+    },
+    {
+     "label": "Månens faser: skriv namnen",
+     "href": "manens-faser-skriv-namnen"
+    },
+    {
+     "label": "Varför blir det dag och natt?",
+     "href": "varfor-blir-det-dag-och-natt"
+    },
+    {
+     "label": "Planeterna i ordning från Solen",
+     "href": "planeterna-i-ordning-fran-solen"
+    }
+   ],
+   "title": "Solsystemet åk 1 – Solen, Jorden och Månen | skriva ut PDF gratis",
+   "metaDescription": "Åtta påståenden och tre kolumner under Solen, Jorden och Månen. Barnet kryssar för vilken himlakropp meningen handlar om. Åk 1. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "kartkunskap",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "base",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad kartkunskap",
+   "h1": "Kartkunskap: läs teckenförklaringen",
+   "strand": "Samhällsorienterande ämnen",
+   "slotTokens": [
+    "kartor-och-vaderstreck",
+    "ak-1"
+   ],
+   "p1": "En stor karta fyller övre halvan av sidan. Den visar en ö eller park sedd uppifrån, omgiven av vatten, med en väg som går tvärs över och en bäck som korsar vägen under en bro. På kartan finns små symboler för träd, buskar, bänkar och blomrabatter, och i hörnet en nordpil med N. Under kartan står en teckenförklaring med fem symboler och deras namn: blomrabatt, bro, bänk, träd och buske. Längst ner finns fem kort med orden bro, träd, bänk, buske och blomrabatt och en tom ruta under varje. Barnet tittar på teckenförklaringen, hittar varje sak på kartan och skriver i rutan hur många det finns.",
+   "p2": "En karta är en bild där verkligheten har bytts mot symboler, och teckenförklaringen är nyckeln. Det är den tanken barnet ska förstå här. Genom att räkna träd och buskar måste barnet jämföra symbolerna noga, eftersom trädet och busken liknar varandra. Lgr22 tar upp kartor och hur de används i SO för årskurs 1–3, och det här är en första ingång. Varje symbol i teckenförklaringen har ett eget kort, så barnet kan kontrollera sig själv: fem symboler, fem svar. Vägen, bäcken och vattnet runt ön syns tydligt men står inte i teckenförklaringen, och det är värt att fråga barnen hur de ändå förstår vad de är.",
+   "p3": "Det här är grundsidan i serien om kartkunskap och passar i åk 1. Efter bladet kan klassen rita en egen karta över skolgården med en teckenförklaring och räkna symbolerna på varandras kartor. Bladet fungerar i svartvitt, men blomrabatterna är tydligast i färg. Nästa sida i serien handlar om att se saker från sidan och uppifrån.",
+   "canonicalDeckSlug": "kartor-och-vaderstreck-g1379",
+   "carousel": [
+    {
+     "label": "Fågelperspektiv: från sidan och uppifrån",
+     "href": "fagelperspektiv-fran-sidan-och-uppifran"
+    },
+    {
+     "label": "Väderstreck: norr, öster, söder och väster",
+     "href": "vaderstreck-kompassros"
+    },
+    {
+     "label": "Världsdelar: skriv namnen",
+     "href": "varldsdelar-skriv-namnen"
+    },
+    {
+     "label": "Världsdelar och världshav",
+     "href": "varldsdelar-och-varldshav"
+    }
+   ],
+   "title": "Kartkunskap – läs teckenförklaringen – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "En karta över en park med träd, buskar, bänkar, blomrabatter och en bro och en teckenförklaring. Barnet räknar sakerna och skriver antalet. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "synonymer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "base",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad synonymer",
+   "h1": "Synonymer: ringa in ordet som betyder samma sak",
+   "strand": "Ord och begrepp",
+   "standard": "L.2.5",
+   "slotTokens": [
+    "synonymer",
+    "ak-2"
+   ],
+   "p1": "Sidan har åtta numrerade kort, två i bredd. Överst på varje kort står ett ord i stor stil på en ljusgrön rad, och under det fyra ord i ramar. På det här bladet är de stora orden tyst, stänga, vråla, le, överraskad, bullrig, ilsken och kvick. Ett av de fyra orden under betyder samma sak, till exempel ljudlös under tyst och häpen under överraskad, medan de tre andra är helt andra ord. Barnet läser det stora ordet på varje kort och ringar in det ord under som betyder samma sak.",
+   "p2": "Synonymer är ord som betyder ungefär samma sak, och att hitta dem bygger ett rikare ordförråd. Svenskan har gott om dem: flina och le, vråla och skrika, bullrig och högljudd. Bladet blandar verb och adjektiv, så barnet får tänka på vad ordet gör i en mening, inte bara hur det låter. Lockbetena är sällan lika det rätta ordet, så uppgiften handlar om betydelse och inte om stavning. Lgr22 lyfter i svenska för årskurs 1–3 ords betydelse och hur man kan uttrycka sig på olika sätt. Kortet med stänga har ett uttryck i två ord, slå igen, som svar, och det visar att en synonym inte alltid behöver vara ett enda ord.",
+   "p3": "Det här är grundsidan i serien om synonymer och passar i åk 2. Barnet behöver kunna läsa korta ord själv. Låt gärna barnen byta ord i en mening efteråt för att pröva att betydelsen håller. Bladet fungerar i svartvitt. Serien fortsätter med synonympar att dra streck mellan och synonymer till sa.",
+   "canonicalDeckSlug": "synonymer-g2358",
+   "carousel": [
+    {
+     "label": "Synonymer med bilder: två ord till en bild",
+     "href": "synonymer-med-bilder"
+    },
+    {
+     "label": "Synonympar: para ihop ord som betyder samma sak",
+     "href": "para-ihop-synonymer"
+    },
+    {
+     "label": "Ordens styrka: från lite till mycket",
+     "href": "ordens-styrka"
+    },
+    {
+     "label": "Synonymer till sa: välj ordet som passar",
+     "href": "synonymer-till-sa"
+    }
+   ],
+   "title": "Synonymer – ringa in ordet som betyder samma sak – åk 2 | PDF gratis",
+   "metaDescription": "Åtta kort med ett stort ord, som tyst, vråla och kvick, och fyra ord under. Barnet ringar in synonymen. Åk 2. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "slaktord",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "base",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad släktord",
+   "h1": "Släktord: sortera orden efter ordstammen",
+   "strand": "Ord och begrepp",
+   "standard": "L.2.4.c",
+   "slotTokens": [
+    "slaktord-prefix-och-suffix",
+    "ak-2"
+   ],
+   "p1": "Överst står tio ord i ramar: hjälplös, motspelare, spelbar, hjälpa, spelplan, hjälpsam, hjälpare, spela, hjälpsamhet och spelare. Under dem står två murar, var och en med fem skrivrader som stenar. Murarna vilar på en grundsten där ordstammen står i stor stil: spel under den vänstra muren och hjälp under den högra. Barnet läser varje ord överst och skriver det på en rad i den mur som står på ordets ordstam.",
+   "p2": "Släktord, eller ordfamiljer, är ord som är byggda av samma ordstam. Spelare, spelbar och motspelare hör alla till spel, och hjälpsam, hjälplös och hjälpsamhet till hjälp. När barnet ser att ett långt ord är byggt av ett kort och bekant ord blir det lättare att både läsa och förstå det. Muren är en bra bild: ordstammen är grunden och de andra orden byggs ovanpå. Några ord är längre byggda än andra, som hjälpsamhet med två ändelser, och motspelare som har något både före och efter stammen. Lgr22 lyfter i svenska för årskurs 1–3 hur ord är uppbyggda och vad de betyder. Varje mur har exakt fem rader, lika många som orden.",
+   "p3": "Det här är grundsidan i serien om släktord och passar i åk 2. Be gärna barnen ringa in ordstammen i varje ord innan de skriver det i muren. Bladet fungerar i svartvitt. Serien fortsätter med att hitta ordstammen, prefixen åter, miss och över och släktord i meningar.",
+   "canonicalDeckSlug": "slaktord-prefix-och-suffix-g2359",
+   "carousel": [
+    {
+     "label": "Släktord med bilder: ringa in rätt ord",
+     "href": "slaktord-med-bilder"
+    },
+    {
+     "label": "Hitta ordstammen",
+     "href": "hitta-ordstammen"
+    },
+    {
+     "label": "Prefixen åter-, miss- och över-: välj efter betydelse",
+     "href": "prefix-ater-miss-over"
+    },
+    {
+     "label": "Vem gör det? Skriv ordet för personen",
+     "href": "vem-gor-det-ord-for-personer"
+    }
+   ],
+   "title": "Släktord – sortera orden efter ordstammen – åk 2 | skriva ut PDF gratis",
+   "metaDescription": "Tio ord, som spelbar, hjälpsam och motspelare, och två murar med ordstammarna spel och hjälp. Barnet skriver varje släktord i rätt mur. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "kanna-igen-geometriska-former",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shapes-real-or-not",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Känna igen geometriska former",
+   "h1": "Känna igen geometriska former: är det rätt form?",
+   "strand": "Geometri",
+   "standard": "1.G.A.1",
+   "slotTokens": [
+    "geometriska-former",
+    "ak-1"
+   ],
+   "p1": "Här står namnet först. Sidan har tre breda rader, och överst i varje rad sitter en mörk etikett med ett formnamn: triangel, rektangel och kvadrat. Under etiketten står fyra former i vita ringar. Några är riktiga exempel, andra är nästan-former som lurar ögat. I triangelraden har en av formerna en böjd sida. I rektangelraden står en rak rektangel bredvid en fyrhörning utan räta hörn, en rektangel med ett glapp i ena sidan och en med rundade hörn. I kvadratraden finns en kvadrat med en öppning, en sned fyrhörning, en liten rak kvadrat och en stor vriden kvadrat. Barnet ringar in alla former som verkligen är den som etiketten säger.",
+   "p2": "Uppgiften vänder på frågan. I stället för att ge en form ett namn ska barnet pröva namnet mot formen och säga nej när något fattas. En triangel måste ha tre raka sidor som möts, en rektangel fyra räta hörn och en kvadrat dessutom fyra lika långa sidor. Former med glapp, böjda sidor eller rundade hörn är inte slarv i ritningen, de är själva lektionen. Lgr22 lyfter i årskurs 1–3 att geometriska objekt ska kunna beskrivas med sina egenskaper, och här blir egenskaperna ett verktyg för att sortera bort. Antalet rätt svar varierar mellan raderna – på det här bladet tre trianglar, en enda rektangel och två kvadrater – så barnet kan inte räkna sig till svaret. Den vridna kvadraten är värd ett samtal, eftersom många barn tror att den slutar vara en kvadrat när den lutar.",
+   "p3": "Sidan passar i åk 1, efter att barnet har lärt sig namnen på grundsidan om geometriska former. Den kräver ingen skrift, bara noggranna ögon och ett resonemang som är värt att säga högt: varför är den sneda fyrhörningen inte en kvadrat? Låt gärna två barn jämföra sina ringar och förklara för varandra. Skriv ut ett blad per barn. Nästa steg i serien är gåtorna om geometriska former, där egenskaperna står i ord i stället för i bild.",
+   "canonicalDeckSlug": "geometriska-former-g1381",
+   "carousel": [
+    {
+     "label": "Geometriska former: vad heter formen?",
+     "href": "geometriska-former"
+    },
+    {
+     "label": "Geometriska former i vardagen: cirkel eller rektangel?",
+     "href": "geometriska-former-i-vardagen"
+    },
+    {
+     "label": "Skriv namnet på formen: sex geometriska former",
+     "href": "skriv-namnet-pa-formen"
+    },
+    {
+     "label": "Gåtor om geometriska former",
+     "href": "gator-om-geometriska-former"
+    }
+   ],
+   "title": "Känna igen geometriska former – rätt eller fel form? Åk 1 | PDF gratis",
+   "metaDescription": "Tre rader med namnet triangel, rektangel och kvadrat och fyra former i varje. Barnet ringar in alla som verkligen är formen. Åk 1. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "geometriska-former-i-vardagen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shapes-around-us",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Geometriska former i vardagen",
+   "h1": "Geometriska former i vardagen: cirkel eller rektangel?",
+   "strand": "Geometri",
+   "standard": "K.G.A.1",
+   "slotTokens": [
+    "geometriska-former",
+    "forskola"
+   ],
+   "p1": "Åtta numrerade kort, två i bredd. På varje kort sitter en färgbild av en sak som barnet känner igen hemifrån eller från skolan, och bredvid två knappar: en med en tom cirkel och ordet cirkel, en med en tom rektangel och ordet rektangel. På det här bladet är sakerna ett kuvert, en tallrik, en klubba, en dörr, en väggklocka, en världskarta som hänger på väggen, en whiteboard och en pizza. Barnet tittar på saken, bestämmer vilken form den har och färglägger den form som passar.",
+   "p2": "Formerna blir riktiga först när barnet ser dem i sin omgivning. Tallriken, klockan och pizzan är cirklar fast de har kanter, mönster och visare, och dörren och kartan är rektanglar fast den ena har ett handtag och den andra är full av länder och hav. Att se förbi detaljerna och hitta grundformen är samma förmåga som barnet behöver när formerna i matematikboken vrids. Klubban är ett bra samtalsämne: bara själva godisbiten är en cirkel, inte pinnen. Lgr22 lyfter i matematiken för de yngsta att geometriska objekt finns i vår omgivning, och bladet gör just den kopplingen utan att barnet behöver skriva ett enda ord.",
+   "p3": "Sidan passar i förskoleklass och kräver bara färgpennor. Bilderna är i färg, så bladet blir tydligast om det skrivs ut i färg, men sakerna går att känna igen även i svartvitt. Efter bladet kan klassen gå på formjakt i klassrummet och leta efter fler cirklar och rektanglar. Den här sidan har bara två former att välja mellan; grundsidan om geometriska former lägger till kvadrat och triangel och prövar formerna när de är vridna.",
+   "canonicalDeckSlug": "geometriska-former-k371",
+   "carousel": [
+    {
+     "label": "Geometriska former: vad heter formen?",
+     "href": "geometriska-former"
+    },
+    {
+     "label": "Känna igen geometriska former: är det rätt form?",
+     "href": "kanna-igen-geometriska-former"
+    },
+    {
+     "label": "Skriv namnet på formen: sex geometriska former",
+     "href": "skriv-namnet-pa-formen"
+    },
+    {
+     "label": "Gåtor om geometriska former",
+     "href": "gator-om-geometriska-former"
+    }
+   ],
+   "title": "Geometriska former i vardagen – cirkel eller rektangel? | PDF gratis",
+   "metaDescription": "Åtta färgbilder av vardagssaker: kuvert, tallrik, klubba, dörr, klocka, världskarta, whiteboard och pizza. Barnet färglägger cirkel eller rektangel. Gratis PDF."
+  },
+  {
+   "slug": "skriv-namnet-pa-formen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shapes-write-the-names",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Skriv namnet på formen",
+   "h1": "Skriv namnet på formen: sex geometriska former",
+   "strand": "Geometri",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "geometriska-former",
+    "ak-1"
+   ],
+   "p1": "Överst sitter en streckad ordruta med fyra namn: rektangel, triangel, kvadrat och cirkel. Under den står sex breda rader, och i varje rad finns en form i en vit ring till vänster och en skrivrad med hjälplinje till höger. Formerna på det här bladet är en rektangel som lutar, en cirkel, en kvadrat som är vriden, en smal triangel, en rak rektangel och en rak kvadrat. Eftersom det är sex former men bara fyra namn används rektangel och kvadrat två gånger. Barnet tittar på formen och skriver dess namn på raden.",
+   "p2": "Att skriva ett namn är ett större steg än att ringa in det. Barnet måste själv komma ihåg vilket ord som hör till formen och sedan stava det, med ordrutan som stöd. Rektangel och kvadrat är de ord som oftast förväxlas, och de förekommer båda två gånger på sidan, en gång raka och en gång vridna. Det ger ett naturligt tillfälle att prata om vad som skiljer dem åt. Samtidigt tränas skrivandet på en rad med mittlinje, så sidan fungerar både i matematik och svenska. Lgr22 lyfter att eleverna ska kunna använda matematikens begrepp i tal och skrift, och här är det skriften som står i centrum.",
+   "p3": "Sidan passar i åk 1, när barnet redan känner igen formerna på grundsidan och har börjat skriva egna ord. Om skrivandet fortfarande är mödosamt kan barnet först peka på rätt ord i rutan och sedan skriva. Lägg märke till att den vridna kvadraten och den lutande rektangeln är de svåraste raderna. Nästa steg är gåtorna om geometriska former, där barnet läser egenskaperna i stället för att se formen.",
+   "canonicalDeckSlug": "geometriska-former-g1382",
+   "carousel": [
+    {
+     "label": "Geometriska former: vad heter formen?",
+     "href": "geometriska-former"
+    },
+    {
+     "label": "Känna igen geometriska former: är det rätt form?",
+     "href": "kanna-igen-geometriska-former"
+    },
+    {
+     "label": "Geometriska former i vardagen: cirkel eller rektangel?",
+     "href": "geometriska-former-i-vardagen"
+    },
+    {
+     "label": "Gåtor om geometriska former",
+     "href": "gator-om-geometriska-former"
+    }
+   ],
+   "title": "Skriv namnet på formen – geometriska former åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Sex former och fyra namn i en ordruta: rektangel, triangel, kvadrat och cirkel. Barnet skriver formens namn på skrivraden. Åk 1. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "gator-om-geometriska-former",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shape-riddles",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Gåtor om former",
+   "h1": "Gåtor om geometriska former",
+   "strand": "Geometri",
+   "standard": "1.G.A.1",
+   "slotTokens": [
+    "geometriska-former",
+    "ak-1"
+   ],
+   "p1": "Varje gåta står på ett eget kort med ett orange frågetecken i hörnet, och alla är skrivna i jagform, till exempel Jag har 3 sidor och 3 hörn. Vad är jag? Under gåtan står några formnamn att välja mellan, och barnet ringar in det som stämmer. Gåtorna beskriver formerna med ord i stället för bilder: hur många sidor och hörn de har, om sidorna är lika långa och om formen är rund hela vägen runt. På det här bladet handlar gåtorna om cirkeln, kvadraten, triangeln, rektangeln och sexhörningen. Det finns ingen bild av formen på sidan, bara text och namn.",
+   "p2": "Gåtorna kräver att barnet läser en mening och håller en egenskap i huvudet medan namnen prövas. Kvadratgåtan och rektangelgåtan är de intressantaste. Båda börjar med fyra hörn som på en bok, alltså räta hörn, och det är först andra halvan av meningen som avgör: fyra lika långa sidor eller två sidor som är längre än de andra. Vid rektangelgåtan står kvadrat bland alternativen, så där räcker det inte att räkna hörn, utan barnet måste läsa hela meningen. Sexhörningen är ny för många sjuåringar och ett bra tillfälle att räkna sidor på riktigt. Lgr22 lyfter i matematiken för årskurs 1–3 att geometriska objekt ska kunna beskrivas med sina egenskaper, och här är det språket som bär egenskaperna.",
+   "p3": "Sidan passar i åk 1 när barnet kan läsa korta meningar på egen hand, eller som läsning i par. Den fungerar bra som avslutning efter grundsidan och efter sidan med rätt och fel former. Be gärna barnen hitta på en egen gåta om en form till en kamrat. Bladet är helt i svartvitt och tar ungefär tio minuter.",
+   "canonicalDeckSlug": "geometriska-former-g1383",
+   "carousel": [
+    {
+     "label": "Geometriska former: vad heter formen?",
+     "href": "geometriska-former"
+    },
+    {
+     "label": "Känna igen geometriska former: är det rätt form?",
+     "href": "kanna-igen-geometriska-former"
+    },
+    {
+     "label": "Geometriska former i vardagen: cirkel eller rektangel?",
+     "href": "geometriska-former-i-vardagen"
+    },
+    {
+     "label": "Skriv namnet på formen: sex geometriska former",
+     "href": "skriv-namnet-pa-formen"
+    }
+   ],
+   "title": "Gåtor om geometriska former – läs och ringa in – åk 1 | PDF gratis",
+   "metaDescription": "Korta gåtor om hörn, sidor och lika långa sidor. Barnet läser och ringar in cirkel, kvadrat, rektangel, triangel eller sexhörning. Åk 1. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "rita-former-pa-prickar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shapes-draw-on-dots",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Rita former på prickar",
+   "h1": "Rita geometriska former på prickar",
+   "strand": "Geometri",
+   "standard": "K.G.B.5",
+   "slotTokens": [
+    "geometriska-former",
+    "forskola"
+   ],
+   "p1": "Sidan har fyra stora fält med prickar, sex i bredd och sex i höjd. Överst i varje fält sitter ett formnamn i en mörk etikett: triangel, kvadrat, kvadrat och rektangel. I de två första fälten är prickarna tomma och barnet ritar formen helt själv. I det tredje och fjärde fältet finns redan ett tjockt orange streck mellan två prickar, ett vågrätt i kvadratfältet och ett lodrätt i rektangelfältet. Barnet läser namnet och drar raka streck från prick till prick så att formen blir ritad, och börjar vid det tjocka strecket när det finns ett.",
+   "p2": "Att rita en form är något annat än att känna igen den. Barnet måste bestämma hur många sidor som behövs, var hörnen ska ligga och se till att strecken möts. Prickarna gör det möjligt att dra raka linjer och lika långa sidor utan linjal. Det tjocka strecket är en start som bestämmer storleken. Kvadratens sida är redan tre prickavstånd lång, så de tre andra sidorna måste bli lika långa. Rektangelns sida är fyra avstånd, och barnet får själv välja hur lång den andra sidan ska vara, bara den inte blir lika lång. Strecken går rakt längs raderna, vilket gör uppgiften rimlig i förskoleklass. Tänk på att de tjocka strecken passerar över prickar på vägen, så visa gärna att det är en enda sida och inte flera korta.",
+   "p3": "Låt barnen börja med de två tomma fälten, där de själva väljer storlek, och ta sedan fälten med det tjocka strecket. Sidan passar bra efter grundsidan om geometriska former, när namnen redan sitter. Använd blyerts och sudd. Prickfälten kan också användas fritt efteråt för egna figurer, och den som är klar tidigt kan pröva att rita en kvadrat som står på ett hörn.",
+   "canonicalDeckSlug": "geometriska-former-k372",
+   "carousel": [
+    {
+     "label": "Geometriska former: vad heter formen?",
+     "href": "geometriska-former"
+    },
+    {
+     "label": "Känna igen geometriska former: är det rätt form?",
+     "href": "kanna-igen-geometriska-former"
+    },
+    {
+     "label": "Geometriska former i vardagen: cirkel eller rektangel?",
+     "href": "geometriska-former-i-vardagen"
+    },
+    {
+     "label": "Skriv namnet på formen: sex geometriska former",
+     "href": "skriv-namnet-pa-formen"
+    }
+   ],
+   "title": "Rita geometriska former på prickar – förskoleklass | skriva ut PDF gratis",
+   "metaDescription": "Fyra prickfält med sex gånger sex prickar och ett formnamn: triangel, två kvadrater och en rektangel. Barnet drar streck mellan prickarna. Gratis PDF."
+  },
+  {
+   "slug": "farglagg-trafikljuset",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "road-safety-color-the-traffic-lights",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Färglägg trafikljuset",
+   "h1": "Färglägg trafikljuset: rött, gult eller grönt?",
+   "strand": "Trafikkunskap",
+   "slotTokens": [
+    "trafikmarken-och-trafikregler",
+    "forskola"
+   ],
+   "p1": "Sex trafikljus står på två gator, tre i varje rad, och alla är utan färg. Fyra av dem är billjus med tre runda lampor och två är gångljus med en stående och en gående gubbe. I varje ljus har en lampa små strålar runt sig. Det är den lampan som lyser. Barnet letar reda på den och färglägger den i rätt färg. På det här bladet lyser mittenlampan i två billjus, den översta i ett och den nedersta i ett, medan det ena gångljuset visar den stående gubben och det andra den gående.",
+   "p2": "Här är det placeringen som bär kunskapen. Barnet måste veta att den översta lampan alltid är röd, den i mitten gul och den nedersta grön, och att den stående gubben i ett gångljus är röd och den gående grön. Det är samma ordning överallt i Sverige, och den gör att även ett barn som inte ser färger bra kan läsa ett trafikljus. Gult ljus finns med två gånger, så bladet ger ett tillfälle att prata om vad gult betyder för den som kör. Lgr22 nämner trafikregler i SO för de yngsta, och sidan tränar dessutom finmotorik och noggrannhet.",
+   "p3": "Sidan passar i förskoleklass. Barnet behöver röd, gul och grön färgpenna, och bladet skrivs lämpligast ut i svartvitt så att allt ska färgläggas. Kontrollera efteråt tillsammans: stämmer färgen med platsen? Grundsidan om trafikregler visar färdiga ljus och frågar vad man ska göra; den här sidan vänder på det och låter barnet bygga ljuset själv. Nästa steg är sidan om att gå säkert över gatan.",
+   "canonicalDeckSlug": "trafikmarken-och-trafikregler-k373",
+   "carousel": [
+    {
+     "label": "Trafikregler för barn: vad visar trafikljuset?",
+     "href": "trafikregler-for-barn"
+    },
+    {
+     "label": "Gå säkert över gatan: steg för steg",
+     "href": "ga-sakert-over-gatan"
+    },
+    {
+     "label": "Trafikmärken för barn och vad de betyder",
+     "href": "trafikmarken-och-vad-de-betyder"
+    },
+    {
+     "label": "Trafikmärken åk 2: varningsmärken, förbudsmärken och påbudsmärken",
+     "href": "varningsmarken-forbudsmarken-pabudsmarken"
+    }
+   ],
+   "title": "Färglägg trafikljuset – trafikregler för barn | skriva ut PDF gratis",
+   "metaDescription": "Sex ofärgade trafikljus, fyra för bilar och två för gående. Barnet hittar lampan med strålar och färglägger den rött, gult eller grönt. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "ga-sakert-over-gatan",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "crossing-the-road-safely-steps",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Gå säkert över gatan",
+   "h1": "Gå säkert över gatan: steg för steg",
+   "strand": "Trafikkunskap",
+   "slotTokens": [
+    "trafikmarken-och-trafikregler",
+    "forskola"
+   ],
+   "p1": "Sidan visar samma övergångsställe uppifrån på fyra kort, med ett barn med ryggsäck som ses bakifrån. På korten gör barnet ett steg i taget: står still vid trottoarkanten, tittar åt vänster, tittar åt höger och går över de vita ränderna när gatan är fri. Pilar visar åt vilket håll barnet tittar och går, och det gående barnet tar ett långt kliv framåt. Under varje kort finns en streckad ruta, och barnet skriver 1 till 4 i rutorna så att korten visar i vilken ordning man går säkert över gatan.",
+   "p2": "Att stanna, titta åt båda hållen och först sedan gå är den regel många svenska förskoleklasser lär ut, och den passar högertrafik där de närmaste bilarna kommer från vänster. Att sätta ordningen på papper hjälper barnet att förstå att man inte kliver ut förrän man har tittat åt båda hållen. Barnet på bilden ses bakifrån, så vänster och höger på bilden är också barnets eget vänster och höger, och det gör rörelserna lätta att härma. Många svenska barn lär sig dessutom att titta åt vänster en gång till innan de går. Det steget har inget eget kort här, så säg det högt när ni går igenom bladet. Lgr22 tar upp säkert beteende i trafiken i SO.",
+   "p3": "Sidan passar i förskoleklass och fungerar bäst om ni först övar stegen på skolgården eller i korridoren. Barnet behöver bara kunna skriva siffrorna 1 till 4. Bladet fungerar i svartvitt. Det hör till serien om trafikregler för barn, efter trafikljussidorna, och följs av sidorna om trafikmärken i åk 1 och åk 2.",
+   "canonicalDeckSlug": "trafikmarken-och-trafikregler-k374",
+   "carousel": [
+    {
+     "label": "Trafikregler för barn: vad visar trafikljuset?",
+     "href": "trafikregler-for-barn"
+    },
+    {
+     "label": "Färglägg trafikljuset: rött, gult eller grönt?",
+     "href": "farglagg-trafikljuset"
+    },
+    {
+     "label": "Trafikmärken för barn och vad de betyder",
+     "href": "trafikmarken-och-vad-de-betyder"
+    },
+    {
+     "label": "Trafikmärken åk 2: varningsmärken, förbudsmärken och påbudsmärken",
+     "href": "varningsmarken-forbudsmarken-pabudsmarken"
+    }
+   ],
+   "title": "Gå säkert över gatan – steg för steg – förskoleklass | PDF gratis",
+   "metaDescription": "Fyra bilder av ett barn vid ett övergångsställe. Barnet skriver 1 till 4: stanna, titta åt vänster, titta åt höger och gå över. Förskoleklass. Gratis PDF."
+  },
+  {
+   "slug": "trafikmarken-och-vad-de-betyder",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "road-safety-signs-and-meanings",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Trafikmärken för barn",
+   "h1": "Trafikmärken för barn och vad de betyder",
+   "strand": "Trafikkunskap",
+   "slotTokens": [
+    "trafikmarken-och-trafikregler",
+    "ak-1"
+   ],
+   "p1": "Till vänster står sex trafikmärken under varandra, alla på stolpe, och till höger sex korta meningar. Märkena är de svenska: förbud mot infart, varning för barn med gul triangel och röd kant, stopp, påbjuden cykelbana, övergångsställe på blå skylt och påbjuden gångbana. Meningarna är skrivna så att ett barn förstår dem, till exempel Den här vägen är bara för gående och Här måste alla bilar stanna helt och släppa fram de andra. Mellan märke och mening finns en orange prick på var sida, och barnet drar ett streck mellan dem.",
+   "p2": "Trafikmärken är ett bildspråk som barnet ser varje dag men sällan får förklarat. Bladet samlar märken som berör en sjuåring direkt: var man får cykla, var man ska gå, var bilar måste stanna och var barn kan springa ut. Det lär också ut att formen säger något. Den röda triangeln varnar, den blå runda skylten talar om vad som gäller och den blå fyrkanten informerar. Meningarna står inte i samma ordning som märkena, så barnet måste verkligen läsa. Lgr22 tar upp trafikregler och säkert beteende i trafiken i SO för årskurs 1–3.",
+   "p3": "Sidan passar i åk 1, när barnet kan läsa en kort mening, och går även att göra i par med högläsning. Skriv ut i färg, eftersom märkenas färger hör till betydelsen. Efter bladet kan klassen leta efter samma märken på skolvägen. Sidan om tre sorters märken i åk 2 bygger vidare genom att sortera märkena efter vad de gör, och quizet om trafikmärken prövar samma kunskap åt andra hållet.",
+   "canonicalDeckSlug": "trafikmarken-och-trafikregler-g1384",
+   "carousel": [
+    {
+     "label": "Trafikregler för barn: vad visar trafikljuset?",
+     "href": "trafikregler-for-barn"
+    },
+    {
+     "label": "Färglägg trafikljuset: rött, gult eller grönt?",
+     "href": "farglagg-trafikljuset"
+    },
+    {
+     "label": "Gå säkert över gatan: steg för steg",
+     "href": "ga-sakert-over-gatan"
+    },
+    {
+     "label": "Trafikmärken åk 2: varningsmärken, förbudsmärken och påbudsmärken",
+     "href": "varningsmarken-forbudsmarken-pabudsmarken"
+    }
+   ],
+   "title": "Trafikmärken för barn och vad de betyder – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Sex svenska trafikmärken och sex meningar om vad de betyder. Barnet drar streck från märket till rätt mening. Åk 1. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "varningsmarken-forbudsmarken-pabudsmarken",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "road-safety-kinds-of-signs",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Tre sorters trafikmärken",
+   "h1": "Trafikmärken åk 2: varningsmärken, förbudsmärken och påbudsmärken",
+   "strand": "Trafikkunskap",
+   "slotTokens": [
+    "trafikmarken-och-trafikregler",
+    "ak-2"
+   ],
+   "p1": "Sex stora trafikmärken på stolpar fyller sidan, tre i varje rad, och varje märke har en bokstav från A till F. Längst ner står tre fack med rubrikerna Varningsmärken, Förbudsmärken och Påbudsmärken, och i varje fack finns två tomma rutor. Barnet skriver bokstaven för varje märke i en ruta under rätt sorts märke. På det här bladet är märkena två blå runda påbudsmärken för gång och cykel, två förbudsmärken med röd ring och gul botten och två gula varningstrianglar med röd kant.",
+   "p2": "Nu handlar det inte om vad ett enskilt märke betyder utan om vilken sort det tillhör. I Sverige varnar en gul triangel med röd kant, ett runt märke med röd ring och gul botten förbjuder, och ett runt blått märke påbjuder. Det är färg och form som avgör, och när barnet väl ser mönstret kan det tolka märken det aldrig har sett. Förbudsmärket utan symbol är ett bra samtalsämne: det betyder att inga fordon alls får köra där. Lgr22 tar upp trafikregler i SO för årskurs 1–3. En svaghet att känna till är att varje fack har exakt två rutor, vilket avslöjar att det finns två märken av varje sort.",
+   "p3": "Sidan passar i åk 2, efter sidan om trafikmärken och vad de betyder. Vill du att barnet verkligen ska pröva varje märke kan du täcka över eller stryka en ruta i varje fack innan kopiering, så att antalet inte ger svaret. Skriv ut i färg; utan färg blir förbudsmärkena och påbudsmärkena svåra att skilja åt. Nästa steg är quizet om trafikmärken.",
+   "canonicalDeckSlug": "trafikmarken-och-trafikregler-g2360",
+   "carousel": [
+    {
+     "label": "Trafikregler för barn: vad visar trafikljuset?",
+     "href": "trafikregler-for-barn"
+    },
+    {
+     "label": "Färglägg trafikljuset: rött, gult eller grönt?",
+     "href": "farglagg-trafikljuset"
+    },
+    {
+     "label": "Gå säkert över gatan: steg för steg",
+     "href": "ga-sakert-over-gatan"
+    },
+    {
+     "label": "Trafikmärken för barn och vad de betyder",
+     "href": "trafikmarken-och-vad-de-betyder"
+    }
+   ],
+   "title": "Varningsmärken, förbudsmärken och påbudsmärken – åk 2 | PDF gratis",
+   "metaDescription": "Sex trafikmärken med bokstäverna A till F. Barnet skriver varje bokstav under varningsmärken, förbudsmärken eller påbudsmärken. Åk 2. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "quiz-om-trafikmarken",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "road-safety-sign-quiz",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Trafikmärken quiz",
+   "h1": "Quiz om trafikmärken för lågstadiet",
+   "strand": "Trafikkunskap",
+   "slotTokens": [
+    "trafikmarken-och-trafikregler",
+    "ak-2"
+   ],
+   "p1": "Sidan har sex rader. Till vänster står en mening i en ram, till höger tre trafikmärken i var sin ruta. Meningarna beskriver en situation, till exempel Se upp, snart kommer ett trafikljus eller Bilarna ska släppa fram barnen som går över på de vita ränderna. Märkena i varje rad är valda så att de liknar varandra: flera röda trianglar, flera runda märken med röd ring och flera blå skyltar. Barnet läser meningen och ringar in det enda märke som passar.",
+   "p2": "Quizet vänder på uppgiften från åk 1. Där stod märket först och barnet letade betydelsen; här står betydelsen först och barnet letar märket bland tre som ser nästan likadana ut. Det kräver att barnet läser noga och vet vad både form, färg och symbol betyder. Varning för trafikljus och varning för gående är båda röda trianglar, och det är symbolen i mitten som skiljer dem. Lgr22 lyfter trafikregler i SO för årskurs 1–3. Förbudsmärkena är de svåraste raderna: ett runt märke med röd ring och gul botten betyder att inga fordon får köra där, och samma märke med en gående i mitten betyder att ingen får gå där.",
+   "p3": "Sidan passar i slutet av åk 2 som en kontroll av det barnet har lärt sig om trafikmärken, eller som avslutning på ett temaarbete om trafik. Skriv ut i färg. Den fungerar också som gemensam genomgång på tavlan, en rad i taget. Ta med den i samtalet inför en utflykt eller en cykeldag.",
+   "canonicalDeckSlug": "trafikmarken-och-trafikregler-g2361",
+   "carousel": [
+    {
+     "label": "Trafikregler för barn: vad visar trafikljuset?",
+     "href": "trafikregler-for-barn"
+    },
+    {
+     "label": "Färglägg trafikljuset: rött, gult eller grönt?",
+     "href": "farglagg-trafikljuset"
+    },
+    {
+     "label": "Gå säkert över gatan: steg för steg",
+     "href": "ga-sakert-over-gatan"
+    },
+    {
+     "label": "Trafikmärken för barn och vad de betyder",
+     "href": "trafikmarken-och-vad-de-betyder"
+    }
+   ],
+   "title": "Quiz om trafikmärken för lågstadiet – åk 2 | skriva ut PDF gratis",
+   "metaDescription": "Sex meningar om vad som gäller på gatan och tre trafikmärken vid varje. Barnet läser och ringar in det enda märke som passar. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "generationer-i-slakten",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-generations-oldest-to-youngest",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Generationer i släkten",
+   "h1": "Generationer i släkten: från äldst till yngst",
+   "strand": "SO: familj och släkt",
+   "slotTokens": [
+    "familj-och-slakt",
+    "ak-1"
+   ],
+   "p1": "Överst hänger tre tavlor på en lina, numrerade 1, 2 och 3. På tavla 1 syns två äldre personer med grått hår, på tavla 2 två vuxna och på tavla 3 två barn. Det är nyckeln till hela sidan: tre generationer. Under tavlorna följer sex rader med tre familjeord i var sin ruta. På det här bladet står till exempel farbror, kusin och farmor i första raden och storasyster, farmor och mamma i femte. Barnet skriver 1, 2 eller 3 i rutan bredvid varje ord, så att orden i raden ordnas från den äldsta generationen till den yngsta.",
+   "p2": "Här räcker det inte att veta vad ordet betyder. Barnet måste också placera personen i rätt generation, och det är inte alltid samma sak som ålder. En farbror hör till samma generation som pappa, en kusin till barnets egen och en lillebror också till barnets egen, även om han är yngst av alla. Orden på bladet är de svenska med mor och far inbyggda – morfar, morbror, faster, moster – och sammanlagt förekommer femton olika ord. Lgr22 lyfter familj och släkt i SO för årskurs 1–3. Tavlorna överst gör det begripligt även för den som ännu inte läser flytande.",
+   "p3": "Sidan passar i åk 1, efter grundsidan om familj och släkt. Läs gärna orden högt i helklass först, så att alla vet vad faster och morbror betyder, och låt sedan barnen arbeta själva. Några ord förekommer i mer än en rad, till exempel farmor, morfar och kusin, vilket ger bra repetition. Nästa steg är sidan där barnet läser ledtrådar och fyller i namnen i ett släktträd.",
+   "canonicalDeckSlug": "familj-och-slakt-g1385",
+   "carousel": [
+    {
+     "label": "Familj och släkt: vem är vem?",
+     "href": "familj-och-slakt"
+    },
+    {
+     "label": "Familjeord: spåra och skriv",
+     "href": "familjeord-spara-och-skriv"
+    },
+    {
+     "label": "Släktträd: läs ledtrådarna",
+     "href": "slakttrad-las-ledtradarna"
+    },
+    {
+     "label": "Släktgåtor: mormor, farfar, moster eller farbror?",
+     "href": "slaktgator-mormor-farfar-moster-farbror"
+    }
+   ],
+   "title": "Generationer i släkten – från äldst till yngst – åk 1 | PDF gratis",
+   "metaDescription": "Sex rader med tre familjeord, till exempel farbror, kusin och farmor. Barnet skriver 1, 2 och 3 från äldsta generationen till yngsta. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "familjeord-spara-och-skriv",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-words-trace-and-write",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Familjeord att spåra",
+   "h1": "Familjeord: spåra och skriv",
+   "strand": "SO: familj och släkt",
+   "slotTokens": [
+    "familj-och-slakt",
+    "forskola"
+   ],
+   "p1": "Till vänster står ett litet släktträd. Längst ner är Maja, markerad med orange ram och stjärna, och bredvid henne en pojke. Ovanför dem sitter två vuxna och högst upp två äldre personer som är kopplade till Majas mamma. Alla utom Maja har en siffra. Till höger står fem familjeord i streckad grå text att spåra: morfar, mormor, storebror, mamma och pappa. Varje ord har en siffra framför sig, samma siffra som personen det gäller i trädet, och morfar känns igen på skägget. Under orden följer fem numrerade skrivrader. Barnet hittar personen med samma siffra, spårar ordet och skriver det en gång till på raden med samma siffra.",
+   "p2": "Sidan förenar två saker som förskoleklassen arbetar med samtidigt: att förstå vem som är vem i en familj och att forma bokstäver. Siffran framför ordet leder till rätt porträtt, så barnet ser vem ordet handlar om innan det börjar spåra. Mormor och morfar är bra exempel på hur svenskan bygger släktord. De är mammas mor och mammas far, och det ser barnet genom att följa strecket från de äldre ner till mamma. Att först spåra och sedan skriva själv ger stöd utan att ta bort ansträngningen. Lgr22 lyfter familj och släkt i SO och att eleverna ska börja skriva för hand i svenska, och här möts de två. Peka gärna ut morfar och mormor tillsammans först, eftersom porträtten är små.",
+   "p3": "Sidan passar i förskoleklass när barnet har börjat skriva små bokstäver. Använd blyerts så att det går att sudda. Vill du förenkla kan du låta barnet bara spåra och hoppa över den tomma raden. Grundsidan om familj och släkt tränar samma ord med siffror i stället för skrift. Den tomma raden ger också en bra bild av vilka bokstäver som behöver mer träning.",
+   "canonicalDeckSlug": "familj-och-slakt-k375",
+   "carousel": [
+    {
+     "label": "Familj och släkt: vem är vem?",
+     "href": "familj-och-slakt"
+    },
+    {
+     "label": "Generationer i släkten: från äldst till yngst",
+     "href": "generationer-i-slakten"
+    },
+    {
+     "label": "Släktträd: läs ledtrådarna",
+     "href": "slakttrad-las-ledtradarna"
+    },
+    {
+     "label": "Släktgåtor: mormor, farfar, moster eller farbror?",
+     "href": "slaktgator-mormor-farfar-moster-farbror"
+    }
+   ],
+   "title": "Familjeord att spåra och skriva – förskoleklass | skriva ut PDF gratis",
+   "metaDescription": "Ett släktträd med Maja och numrerade personer. Barnet spårar morfar, mormor, storebror, mamma och pappa och skriver orden igen. Förskoleklass. Gratis PDF."
+  },
+  {
+   "slug": "slakttrad-las-ledtradarna",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-tree-read-the-clues",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Släktträd med ledtrådar",
+   "h1": "Släktträd: läs ledtrådarna",
+   "strand": "SO: familj och släkt",
+   "slotTokens": [
+    "familj-och-slakt",
+    "ak-1"
+   ],
+   "p1": "Ett släktträd med sju porträtt fyller större delen av sidan. Ivar är markerad med orange ram och stjärna längst ner, och tre namn står redan utskrivna: Ivar, Ida högst upp och Leo i mitten. Under fyra av porträtten finns i stället en tom namnruta med skrivlinje. Under trädet står fyra numrerade ledtrådar: Hugo är Ivars storebror, Maja är Ivars mamma, Axel är Ivars morfar och Saga är Ivars moster. Barnet läser ledtrådarna och skriver varje namn i rätt namnruta i trädet.",
+   "p2": "Nu ska barnet läsa ett släktträd på riktigt. Strecken visar vem som hör ihop. Ida och en man högst upp har två döttrar, och den ena av dem har barn tillsammans med Leo. Det betyder att hon är Maja, att hennes syster är Saga och att mannen bredvid Ida är Axel, Ivars morfar. Varje ledtråd kräver att barnet följer ett streck, och ledtråden om morfar kräver två steg. Det är ett resonemang som liknar det barnet senare möter i matematikens logikuppgifter. Lgr22 tar upp familj och släkt i SO för årskurs 1–3, och här tränas också läsförståelse.",
+   "p3": "Sidan passar i åk 1, när barnet kan läsa korta meningar själv. Låt gärna barnet först peka på Ivar och sedan följa strecken högt innan något skrivs. Sidan är svårare än grundsidan och generationssidan, eftersom inget ord står bredvid personerna. Den som vill ha ett eget träd att fylla i kan gå vidare till mallen för släktträd.",
+   "canonicalDeckSlug": "familj-och-slakt-g1386",
+   "carousel": [
+    {
+     "label": "Familj och släkt: vem är vem?",
+     "href": "familj-och-slakt"
+    },
+    {
+     "label": "Generationer i släkten: från äldst till yngst",
+     "href": "generationer-i-slakten"
+    },
+    {
+     "label": "Familjeord: spåra och skriv",
+     "href": "familjeord-spara-och-skriv"
+    },
+    {
+     "label": "Släktgåtor: mormor, farfar, moster eller farbror?",
+     "href": "slaktgator-mormor-farfar-moster-farbror"
+    }
+   ],
+   "title": "Släktträd med ledtrådar – läs och skriv namnen – åk 1 | PDF gratis",
+   "metaDescription": "Ett släktträd med sju porträtt, tre namn givna och fyra tomma. Barnet läser fyra ledtrådar om Ivar och skriver Hugo, Maja, Axel och Saga. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "slaktgator-mormor-farfar-moster-farbror",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-relationships-riddles",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Släktord i gåtor",
+   "h1": "Släktgåtor: mormor, farfar, moster eller farbror?",
+   "strand": "SO: familj och släkt",
+   "slotTokens": [
+    "familj-och-slakt",
+    "ak-2"
+   ],
+   "p1": "Till vänster står Olle i en ram med stjärna, och till höger en streckad ordruta med åtta familjeord: morbror, farbror, farfar, farmor, moster, morfar, faster och mormor. Under dem följer åtta numrerade gåtor som alla har samma form, till exempel Olles mammas syster är Olles och en tom skrivruta. Hälften av gåtorna går via mamma och hälften via pappa. Barnet läser varje gåta och skriver rätt familjeord från rutan på raden.",
+   "p2": "Gåtorna gör den svenska logiken synlig. Mammas syster heter moster och pappas syster faster, mammas pappa heter morfar och pappas pappa farfar. Ordet bär svaret inom sig, och det barnet ska upptäcka är att mor och far i början av ordet talar om vilken sida av släkten det gäller. Det är en skillnad som engelskan och många andra språk saknar, och den är värd att göra tydlig för barn med annat modersmål. Lgr22 tar upp familj och släkt i SO för årskurs 1–3. Varje ord i rutan används exakt en gång, så den sista gåtan går att lösa genom uteslutning. Be gärna barnet säga svaret högt innan det letar i rutan, så att det verkligen resonerar.",
+   "p3": "Sidan passar i åk 2, efter att barnet har mött orden på grundsidan och generationssidan. Den fungerar också bra som samtalsunderlag i en klass med många språk: hur säger man moster och faster på andra språk? Låt barnen hitta på egna gåtor om sin egen eller en påhittad släkt. Bladet är i svartvitt och tar ungefär en kvart.",
+   "canonicalDeckSlug": "familj-och-slakt-g2362",
+   "carousel": [
+    {
+     "label": "Familj och släkt: vem är vem?",
+     "href": "familj-och-slakt"
+    },
+    {
+     "label": "Generationer i släkten: från äldst till yngst",
+     "href": "generationer-i-slakten"
+    },
+    {
+     "label": "Familjeord: spåra och skriv",
+     "href": "familjeord-spara-och-skriv"
+    },
+    {
+     "label": "Släktträd: läs ledtrådarna",
+     "href": "slakttrad-las-ledtradarna"
+    }
+   ],
+   "title": "Släktgåtor – mormor, farfar, moster eller farbror? Åk 2 | PDF gratis",
+   "metaDescription": "Åtta gåtor om Olle, som Olles mammas syster är Olles …, och en ordruta med åtta familjeord. Barnet skriver rätt ord på raden. Åk 2. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "slakttrad-mall",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-tree-template",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Mall för släktträd",
+   "h1": "Släktträd: mall att fylla i själv",
+   "strand": "SO: familj och släkt",
+   "slotTokens": [
+    "familj-och-slakt",
+    "ak-1"
+   ],
+   "p1": "Hela sidan är ett träd med tomma ramar. Tre ramar hänger på den översta grenen, fyra på nästa och två på den nedersta grenen, en på var sida om stammen. Mitt på stammen sitter en ram med ordet jag under. Under marken står ytterligare fyra ramar på en rad. Ramarna har olika former, runda, fyrkantiga och med rundad topp, och under varje ram finns en skrivrad, också bredvid ordet jag. Barnet ritar de människor som är viktiga för just det barnet i ramarna och skriver deras namn på raderna.",
+   "p2": "Mallen är gjord för att passa alla familjer. Ingen ram har en etikett som mamma, pappa eller mormor, så barnet bestämmer själv vilka som ska med och var de ska sitta: föräldrar, syskon, bonusföräldrar, far- och morföräldrar, en granne eller ett husdjur. Det är ett medvetet val eftersom en fast mall med två föräldrar och fyra morföräldrar och farföräldrar inte stämmer för många barn i en svensk klass. Lgr22 tar upp familj och andra relationer i SO för årskurs 1–3, och sidan ger en öppen ingång där barnets egen berättelse står i centrum.",
+   "p3": "Sidan passar i åk 1 men fungerar även i förskoleklass om en vuxen skriver namnen. Den lämpar sig för ett tema om mig och min familj eller inför ett föräldramöte, och kan gärna tas hem och göras tillsammans med någon hemma. Skriv ut på styvare papper om teckningarna ska sitta uppe. De övriga sidorna i serien om familj och släkt använder en påhittad släkt; den här är den enda som handlar om barnets egen.",
+   "canonicalDeckSlug": "familj-och-slakt-g1387",
+   "carousel": [
+    {
+     "label": "Familj och släkt: vem är vem?",
+     "href": "familj-och-slakt"
+    },
+    {
+     "label": "Generationer i släkten: från äldst till yngst",
+     "href": "generationer-i-slakten"
+    },
+    {
+     "label": "Familjeord: spåra och skriv",
+     "href": "familjeord-spara-och-skriv"
+    },
+    {
+     "label": "Släktträd: läs ledtrådarna",
+     "href": "slakttrad-las-ledtradarna"
+    }
+   ],
+   "title": "Släktträd mall att fylla i själv – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "En tom mall för släktträd med ramar på grenarna, en ram för jag och en rad under marken. Barnet ritar viktiga personer och skriver namnen. Gratis PDF."
+  },
+  {
+   "slug": "vad-behover-en-vaxt",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "what-plants-need-to-grow",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Vad behöver en växt?",
+   "h1": "Vad behöver en växt för att växa?",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vaxtens-delar",
+    "forskola"
+   ],
+   "p1": "Sidan har tio kort i fem rader med två kort i varje. På varje kort står en liten planta i kruka, och från var sin sida pekar en pil in mot krukan från en bild av det växten får. Ibland är det en sol och en vattendroppe, ibland sol och ett tåg, vatten och en bil, vatten och en robot, sol och en handske eller en sko och en penna. Barnet tittar på vad växterna får och ringar in i varje rad den växt som får båda sakerna den behöver för att växa: ljus och vatten.",
+   "p2": "Tanken är enkel men viktig. En växt behöver både ljus och vatten, och det räcker inte med det ena. Bladet prövar det genom att blanda in saker som saknar betydelse för växten, som leksaker och kläder, och genom att ge vissa växter bara sol eller bara vatten. Barnet måste kontrollera båda sakerna varje gång. Det är en tidig övning i att jämföra villkor, samma tänkande som sedan behövs i enkla experiment. Lgr22 lyfter i de naturorienterande ämnena att yngre elever ska undersöka växter i närmiljön. I varje rad får exakt en av de två växterna både sol och vatten, fem av tio på hela sidan.",
+   "p3": "Sidan passar i förskoleklass och kräver ingen läsning alls; instruktionen kan läsas upp. I varje rad ska barnet ringa in en växt, och raderna är tydligt avgränsade. Bladet blir tydligast i färg. Följ gärna upp med ett försök där två krukor får vatten men bara en får stå i ljus. Nästa steg är sidan från frö till växt.",
+   "canonicalDeckSlug": "vaxtens-delar-k376",
+   "carousel": [
+    {
+     "label": "Växtens delar",
+     "href": "vaxtens-delar"
+    },
+    {
+     "label": "Från frö till växt: klipp och klistra",
+     "href": "fran-fro-till-vaxt"
+    },
+    {
+     "label": "Vilka delar av växten äter vi?",
+     "href": "vilka-delar-av-vaxten-ater-vi"
+    },
+    {
+     "label": "Växtens delar och vad de gör",
+     "href": "vaxtens-delar-och-vad-de-gor"
+    }
+   ],
+   "title": "Vad behöver en växt för att växa? Förskoleklass | skriva ut PDF gratis",
+   "metaDescription": "Tio blomkrukor i fem rader som får sol, vatten eller något annat. Barnet ringar in växten i varje rad som får både sol och vatten. Förskoleklass. Gratis PDF."
+  },
+  {
+   "slug": "fran-fro-till-vaxt",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "plant-life-cycle-seed-to-plant",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Från frö till växt",
+   "h1": "Från frö till växt: klipp och klistra",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vaxtens-delar",
+    "ak-1"
+   ],
+   "p1": "Överst sitter en ruta med ett frö i jorden. Från den går pilar runt i en ring genom fyra tomma streckade rutor och tillbaka till fröet igen. Längst ner på sidan står fyra bilder i en klippremsa med sax. De visar ett frö som har skjutit en rot och ett skott, en liten planta med två hjärtblad, en växt med blad och en blomma och en växt med en ärtbalja. Barnet klipper ut de fyra bilderna och klistrar in dem i de tomma rutorna i pilarnas riktning, med början vid fröet.",
+   "p2": "Bladet visar växtens liv som en cirkel, inte som en rak linje. Från fröet kommer ett skott, sedan en liten planta, sedan en blommande växt och till sist en växt med frukt, och i frukten finns nya frön som för ringen tillbaka till början. Det är den insikten som gör en livscykel till en cykel. Att bilderna ska klippas ut och flyttas gör att barnet kan pröva olika ordningar innan det bestämmer sig. Lgr22 tar upp växters livscykler i de naturorienterande ämnena för årskurs 1–3. Skillnaden mellan den blommande växten och växten med balja är den som barnet oftast behöver prata om.",
+   "p3": "Sidan passar i åk 1 och kräver sax och lim. Så gärna bönor eller ärtor i klassrummet samtidigt, så att barnen kan se stegen på riktigt under några veckor. Sidan är i svartvitt och fungerar bra i båda utförandena. Den hör till serien om växtens delar, där grundsidan lär ut namnen på delarna.",
+   "canonicalDeckSlug": "vaxtens-delar-g1388",
+   "carousel": [
+    {
+     "label": "Växtens delar",
+     "href": "vaxtens-delar"
+    },
+    {
+     "label": "Vad behöver en växt för att växa?",
+     "href": "vad-behover-en-vaxt"
+    },
+    {
+     "label": "Vilka delar av växten äter vi?",
+     "href": "vilka-delar-av-vaxten-ater-vi"
+    },
+    {
+     "label": "Växtens delar och vad de gör",
+     "href": "vaxtens-delar-och-vad-de-gor"
+    }
+   ],
+   "title": "Från frö till växt – klipp och klistra – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Ett frö i jorden och fyra tomma rutor i en ring med pilar. Barnet klipper ut fyra bilder och klistrar dem i ordning från frö till växt med ärtbalja. Gratis PDF."
+  },
+  {
+   "slug": "vilka-delar-av-vaxten-ater-vi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "parts-of-a-plant-we-eat",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Växtdelar vi äter",
+   "h1": "Vilka delar av växten äter vi?",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vaxtens-delar",
+    "ak-2"
+   ],
+   "p1": "Sidan har åtta kort, två i bredd. På varje kort sitter en färgbild av en matvara och bredvid den tre knappar med en liten symbol och ett ord för en växtdel: rot, stjälk, blad, blomma, frukt eller frö. Matvarorna på det här bladet är en stjälk selleri, en rödbeta eller rädisa, en majskolv, ett salladshuvud, en morot, en aubergine, en blomkål och ett spenatblad. Barnet tittar på varje matvara och ringar in den del av växten som vi äter.",
+   "p2": "Bladet kopplar ihop två saker barnet redan vet på var sitt håll: vad växtens delar heter och vad som ligger på tallriken. Moroten och rödbetan är rötter, sellerin är en stjälk, sallad och spenat är blad, blomkålen är faktiskt en blomma, auberginen är en frukt och majskornen är frön. Blomkålen och auberginen brukar väcka mest förvåning, och det är precis de korten som ger bäst samtal. Att auberginen räknas som frukt beror på att den bär fröna. Lgr22 lyfter i de naturorienterande ämnena för årskurs 1–3 växter och hur människor använder dem. Symbolerna vid orden hjälper den som ännu läser långsamt.",
+   "p3": "Sidan passar i åk 2, efter grundsidan om växtens delar. Den blir tydligast utskriven i färg eftersom matvarorna är fotoliknande bilder. Ta gärna med riktiga grönsaker och låt barnen sortera dem på bänken innan de gör bladet. Majskolven kan väcka frågor, eftersom kornen också räknas som frukter av botaniker; på bladet är frö det enda alternativ som passar. Nästa steg är sidan om vad växtens delar gör.",
+   "canonicalDeckSlug": "vaxtens-delar-g2363",
+   "carousel": [
+    {
+     "label": "Växtens delar",
+     "href": "vaxtens-delar"
+    },
+    {
+     "label": "Vad behöver en växt för att växa?",
+     "href": "vad-behover-en-vaxt"
+    },
+    {
+     "label": "Från frö till växt: klipp och klistra",
+     "href": "fran-fro-till-vaxt"
+    },
+    {
+     "label": "Växtens delar och vad de gör",
+     "href": "vaxtens-delar-och-vad-de-gor"
+    }
+   ],
+   "title": "Vilka delar av växten äter vi? Åk 2 | skriva ut PDF gratis",
+   "metaDescription": "Åtta grönsaker i färg, som morot, majs, aubergine och blomkål, med tre växtdelar vid varje. Barnet ringar in delen vi äter. Åk 2. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "vaxtens-delar-och-vad-de-gor",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "parts-of-a-plant-and-their-functions",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Växtens delar och deras uppgifter",
+   "h1": "Växtens delar och vad de gör",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vaxtens-delar",
+    "ak-2"
+   ],
+   "p1": "Till vänster står samma växt som på grundsidan, med rötter i jorden, stjälk, blad, en blomma och en ärtbalja, men nu med fem numrerade lappar och inga ord alls på bilden. Till höger står fem meningar, var och en med en tom ruta framför: kan gro och bli en ny växt, gör näring åt växten med hjälp av solljus, suger upp vatten ur jorden, håller upp växten så att den står rakt och lockar till sig bin. Barnet läser vad varje del gör, hittar delen på växten och skriver numret på dess lapp i rutan.",
+   "p2": "Nu räcker det inte att kunna namnen, barnet måste förstå vad delarna är till för. Roten suger upp vatten, stjälken håller upp växten, bladen tillverkar näring med hjälp av ljus, blomman lockar insekter och fröet kan bli en ny växt. Det finns ingen ordruta, så barnet måste själv koppla uppgiften till rätt del. Lgr22 lyfter i de naturorienterande ämnena hur växter lever och utvecklas. Meningen om blomman säger bara att den lockar bin, så fråga gärna barnen hur den gör det. Färg och doft är de vanligaste svaren, och på den svartvita bilden kan barnen gärna färglägga blomman efteråt.",
+   "p3": "Sidan passar i åk 2 och bygger direkt på grundsidan om växtens delar. Den kräver att barnet kan läsa korta meningar själv. Fröet sitter inne i ärtbaljan, och lappen pekar på en av ärtorna, så påminn om att ärtan är ett frö. Bladet fungerar i svartvitt. För den som vill gå vidare finns sidan om blommans delar, som hör hemma i åk 3.",
+   "canonicalDeckSlug": "vaxtens-delar-g2364",
+   "carousel": [
+    {
+     "label": "Växtens delar",
+     "href": "vaxtens-delar"
+    },
+    {
+     "label": "Vad behöver en växt för att växa?",
+     "href": "vad-behover-en-vaxt"
+    },
+    {
+     "label": "Från frö till växt: klipp och klistra",
+     "href": "fran-fro-till-vaxt"
+    },
+    {
+     "label": "Vilka delar av växten äter vi?",
+     "href": "vilka-delar-av-vaxten-ater-vi"
+    }
+   ],
+   "title": "Växtens delar och vad de gör – åk 2 | skriva ut PDF gratis",
+   "metaDescription": "En växt med fem numrerade lappar och fem meningar om vad rot, stjälk, blad, blomma och frö gör. Barnet skriver lappens nummer vid rätt mening. Gratis PDF."
+  },
+  {
+   "slug": "blommans-delar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "parts-of-a-flower",
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Blommans delar",
+   "h1": "Blommans delar",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "vaxtens-delar",
+    "ak-3"
+   ],
+   "p1": "Mitt på sidan står en stor genomskärning av en blomma med kronblad, ståndare med mörka knappar, en pistill i mitten, gröna foderblad under och en stjälk. Fyra orange lappar pekar på delarna, och i en liten ruta vid sidan visas växten med stjälk och blad så att barnet ser var blomman sitter. Överst står en ordruta med fem ord: foderblad, ståndare, rot, kronblad och pistill. Längst ner finns fyra numrerade skrivrader. Barnet skriver namnet på varje numrerad del på dess rad och stryker det ord i rutan som inte är en del av en blomma.",
+   "p2": "Blommans inre delar är ett steg upp från växtens delar. Kronblad och foderblad går att se med blotta ögat, men ståndare och pistill kräver att barnet vet att blomman har delar för att bilda frön. Lapparna pekar på ett foderblad, en ståndare, pistillen och ett kronblad. Roten är det ord som ska strykas, eftersom den sitter i jorden och inte i blomman. Stjälken syns på bilden men har ingen lapp. Innehållet ligger i överkant för lågstadiet: Lgr22 nämner växters livscykler redan i årskurs 1–3, men blommans delar med pistill och ståndare tas i många svenska skolor upp först i åk 3 eller åk 4.",
+   "p3": "Sidan passar i slutet av åk 3 eller som utmaning för den som redan kan växtens delar. Ta gärna in en riktig blomma, till exempel en tulpan, och låt barnen plocka isär den med pincett innan de skriver. Bladet fungerar i svartvitt. Det är den mest avancerade sidan i serien om växtens delar; börja med grundsidan i åk 1 och sidan om vad delarna gör i åk 2.",
+   "canonicalDeckSlug": "vaxtens-delar-g3392",
+   "carousel": [
+    {
+     "label": "Växtens delar",
+     "href": "vaxtens-delar"
+    },
+    {
+     "label": "Vad behöver en växt för att växa?",
+     "href": "vad-behover-en-vaxt"
+    },
+    {
+     "label": "Från frö till växt: klipp och klistra",
+     "href": "fran-fro-till-vaxt"
+    },
+    {
+     "label": "Vilka delar av växten äter vi?",
+     "href": "vilka-delar-av-vaxten-ater-vi"
+    }
+   ],
+   "title": "Blommans delar – kronblad, ståndare och pistill – åk 3 | PDF gratis",
+   "metaDescription": "En förstorad blomma med fyra numrerade delar och en ordruta: foderblad, ståndare, rot, kronblad och pistill. Barnet skriver namnen och stryker ett ord. Åk 3."
+  },
+  {
+   "slug": "grodans-livscykel-klipp-och-klistra",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "frog-life-cycle-cut-and-paste",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Grodans livscykel",
+   "h1": "Grodans livscykel: klipp och klistra",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "fjarilens-och-grodans-livscykel",
+    "ak-1"
+   ],
+   "p1": "En stor damm fyller sidan. Runt kanten ligger fem näckrosblad i en ring med orange pilar mellan dem. På det översta ligger redan grodrom, ett klot av ägg i vattnet. De andra fyra näckrosbladen är tomma, med en streckad ruta på varje. Längst ner finns en klippremsa med fyra runda bilder: ett grodyngel utan ben, ett grodyngel med ben, en liten groda som fortfarande har svans och en fullvuxen groda. Barnet klipper ut de fyra rutorna och klistrar var och en på sitt näckrosblad, runt dammen från grodrommen till grodan.",
+   "p2": "Grodans utveckling är mer gradvis än fjärilens. Det finns ingen puppa; grodynglet växer ut bakben, sedan framben, tappar svansen och går till sist upp på land. Därför är de mellersta stegen svårast att ordna. Att klippa och flytta gör att barnet kan lägga om ordningen tills den stämmer. Lgr22 tar upp djurs livscykler i de naturorienterande ämnena för årskurs 1–3, och grodan är en bra jämförelse med fjärilen eftersom förändringen sker steg för steg.",
+   "p3": "Sidan passar i åk 1 och kräver sax och lim. Den passar särskilt bra på våren, när grodrom finns i dammar och diken och klassen kan titta på riktigt. Den fungerar i svartvitt. Jämför gärna med grundsidan om fjärilens livscykel. I åk 3 finns en sida där barnet jämför de två livscyklerna med meningar.",
+   "canonicalDeckSlug": "fjarilens-och-grodans-livscykel-g1389",
+   "carousel": [
+    {
+     "label": "Fjärilens livscykel: från ägg till fjäril",
+     "href": "fjarilens-livscykel"
+    },
+    {
+     "label": "Fjärilens livscykel: skriv namnen på stadierna",
+     "href": "fjarilens-livscykel-skriv-stadierna"
+    },
+    {
+     "label": "Metamorfos: vilket djur blir det till slut?",
+     "href": "metamorfos-vilket-djur-blir-ungen"
+    },
+    {
+     "label": "Fjärilens och grodans livscykel: jämför",
+     "href": "jamfor-fjarilens-och-grodans-livscykel"
+    }
+   ],
+   "title": "Grodans livscykel – klipp och klistra – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "En damm med grodrom och fyra tomma näckrosblad. Barnet klipper ut grodyngel, grodyngel med ben, ung groda och groda och klistrar dem i ordning. Gratis PDF."
+  },
+  {
+   "slug": "fjarilens-livscykel-skriv-stadierna",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "label-the-butterfly-life-cycle",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Fjärilens livscykel",
+   "h1": "Fjärilens livscykel: skriv namnen på stadierna",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "fjarilens-och-grodans-livscykel",
+    "ak-2"
+   ],
+   "p1": "Fyra stora runda bilder står i en fyrkant med pilar mellan sig: ett ägg på ett löv, en larv på ett blad, en puppa som hänger under ett blad och en fjäril. Pilarna går medurs och sluter cirkeln. Under varje bild finns en skrivrad. Överst står en ordruta med fem ord: de fyra stadierna ägg, larv, puppa och fjäril och dessutom ordet grodyngel. Barnet skriver varje namn från ordrutan på raden under rätt bild och stryker det enda namnet som inte hör dit.",
+   "p2": "Ordningen är redan given, så nu handlar det om orden. Barnet ska koppla rätt benämning till rätt stadium och stava den. Ordet grodyngel finns med som lockbete: det är ett ungt djur och ett stadium i en livscykel, men i grodans, inte fjärilens. Att stryka det kräver att barnet vet vilket djur som går igenom vilka stadier. Puppa är det ord som oftast förväxlas; kokong är fel ord här, eftersom dagfjärilar bildar en puppa utan spunnen kokong. Lgr22 tar upp djurs livscykler i de naturorienterande ämnena för årskurs 1–3.",
+   "p3": "Sidan passar i åk 2, när barnet kan skriva ord på egen hand. Den bygger på grundsidan om fjärilens livscykel, där ordningen tränas med siffror. Bladet fungerar i svartvitt, även om fjärilen är färglagd. Nästa steg är sidan om metamorfos, där fler djur är med.",
+   "canonicalDeckSlug": "fjarilens-och-grodans-livscykel-g2365",
+   "carousel": [
+    {
+     "label": "Fjärilens livscykel: från ägg till fjäril",
+     "href": "fjarilens-livscykel"
+    },
+    {
+     "label": "Grodans livscykel: klipp och klistra",
+     "href": "grodans-livscykel-klipp-och-klistra"
+    },
+    {
+     "label": "Metamorfos: vilket djur blir det till slut?",
+     "href": "metamorfos-vilket-djur-blir-ungen"
+    },
+    {
+     "label": "Fjärilens och grodans livscykel: jämför",
+     "href": "jamfor-fjarilens-och-grodans-livscykel"
+    }
+   ],
+   "title": "Fjärilens livscykel – skriv stadiernas namn – åk 2 | PDF gratis",
+   "metaDescription": "Fyra bilder av ägg, larv, puppa och fjäril i en cirkel och en ordruta med fem ord. Barnet skriver namnen och stryker grodyngel. Åk 2. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "metamorfos-vilket-djur-blir-ungen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "metamorphosis-which-animal-will-it-become",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Metamorfos",
+   "h1": "Metamorfos: vilket djur blir det till slut?",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "fjarilens-och-grodans-livscykel",
+    "ak-2"
+   ],
+   "p1": "Överst står åtta runda bilder med bokstäverna A till H: en puppa under ett blad, en nyckelpigepuppa, ett grodyngel med ben, en nyckelpigelarv, grodrom, en ung groda med svans, en fjärilslarv och ett grodyngel. Längst ner står tre höga kort med ett vuxet djur överst: en fjäril, en groda och en nyckelpiga. Under varje djur finns fyra tomma rutor, fler än det behövs. Barnet tittar på varje stadium och skriver dess bokstav i en ruta under det djur som det blir, och några rutor förblir tomma.",
+   "p2": "Metamorfos betyder att ungen ser helt annorlunda ut än den vuxna, och bladet arbetar med de två vanligaste missuppfattningarna. Många barn tror att grodynglet är en fisk och att nyckelpigans larv är ett skadedjur som inte har något med nyckelpigan att göra. Nyckelpigan är med just för att den är okänd som ung. Lgr22 tar upp djurs livscykler och hur djur utvecklas i de naturorienterande ämnena för årskurs 1–3. Grodrommen på bild E är ägg, och därför talar instruktionen om stadier och inte om ungar. Eftersom varje djur har fyra rutor avslöjar antalet rutor inte hur många bilder som hör dit, så barnet måste pröva varje bild.",
+   "p3": "Sidan passar i åk 2, efter att barnet har arbetat med fjärilens och grodans livscykler var för sig. Låt gärna barnet förklara varför en ruta blir tom under ett djur. Bladet blir tydligast i färg. Samtala gärna om vilka fler djur i Sverige som genomgår metamorfos.",
+   "canonicalDeckSlug": "fjarilens-och-grodans-livscykel-g2366",
+   "carousel": [
+    {
+     "label": "Fjärilens livscykel: från ägg till fjäril",
+     "href": "fjarilens-livscykel"
+    },
+    {
+     "label": "Grodans livscykel: klipp och klistra",
+     "href": "grodans-livscykel-klipp-och-klistra"
+    },
+    {
+     "label": "Fjärilens livscykel: skriv namnen på stadierna",
+     "href": "fjarilens-livscykel-skriv-stadierna"
+    },
+    {
+     "label": "Fjärilens och grodans livscykel: jämför",
+     "href": "jamfor-fjarilens-och-grodans-livscykel"
+    }
+   ],
+   "title": "Metamorfos – vilket djur blir det till slut? Åk 2 | PDF gratis",
+   "metaDescription": "Åtta stadier med bokstäverna A till H och tre vuxna djur: fjäril, groda och nyckelpiga. Barnet skriver bokstaven under djuret det blir. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "jamfor-fjarilens-och-grodans-livscykel",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "butterfly-and-frog-life-cycles-compared",
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Jämför livscykler",
+   "h1": "Fjärilens och grodans livscykel: jämför",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "fjarilens-och-grodans-livscykel",
+    "ak-3"
+   ],
+   "p1": "Överst till höger står två runda bilder, en fjäril och en groda. Under dem följer åtta rader med ett påstående till vänster och två tomma kryssrutor till höger, en under varje djur. Påståendena handlar om hela livscykeln, till exempel Det vuxna djuret har sex ben, Den kläcks ur ett ägg, Ungen simmar med hjälp av en svans och Under en tid är den en puppa. Barnet läser varje mening och kryssar för fjärilen, grodan eller båda när meningen stämmer för djuret.",
+   "p2": "Att jämföra två livscykler är ett tydligt steg upp från att ordna en. Barnet måste hålla två djur i huvudet samtidigt och avgöra vad de har gemensamt och vad som skiljer dem åt. Båda kläcks ur ägg och båda har ungar som ser helt annorlunda ut än de vuxna, men bara fjärilen har en puppa och bara grodynglet simmar med svans. Påståendet om att ungen saknar ben i början gäller bara grodan; larven har sex små ben redan när den kläcks, och det överraskar många. Lgr22 tar upp djurs livscykler i de naturorienterande ämnena för årskurs 1–3; jämförelsen passar i åk 3 men ligger i överkant.",
+   "p3": "Sidan passar i åk 3, när barnet kan läsa påståenden på egen hand, och fungerar som sammanfattning efter sidorna om fjärilen och grodan. Låt gärna barnen motivera sina kryss i par. Rutorna är tomma, så barnet måste själv avgöra när båda djuren ska kryssas. Bladet fungerar i svartvitt.",
+   "canonicalDeckSlug": "fjarilens-och-grodans-livscykel-g3393",
+   "carousel": [
+    {
+     "label": "Fjärilens livscykel: från ägg till fjäril",
+     "href": "fjarilens-livscykel"
+    },
+    {
+     "label": "Grodans livscykel: klipp och klistra",
+     "href": "grodans-livscykel-klipp-och-klistra"
+    },
+    {
+     "label": "Fjärilens livscykel: skriv namnen på stadierna",
+     "href": "fjarilens-livscykel-skriv-stadierna"
+    },
+    {
+     "label": "Metamorfos: vilket djur blir det till slut?",
+     "href": "metamorfos-vilket-djur-blir-ungen"
+    }
+   ],
+   "title": "Jämför fjärilens och grodans livscykel – åk 3 | skriva ut PDF gratis",
+   "metaDescription": "Åtta påståenden och två rutor per rad under en fjäril och en groda. Barnet kryssar för fjärilen, grodan eller båda. Åk 3. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "vad-kommer-sedan-fjaril-groda-nyckelpiga",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "what-comes-next-butterfly-frog-and-ladybug",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Vad kommer sedan?",
+   "h1": "Vad kommer sedan? Fjäril, groda och nyckelpiga",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "fjarilens-och-grodans-livscykel",
+    "ak-1"
+   ],
+   "p1": "Sidan har sex rader. Längst till vänster i varje rad står en bild i en beige ruta, sedan en orange pil och tre bilder att välja mellan. Första bilden är ett stadium i livet hos en groda, en fjäril eller en nyckelpiga: grodrom, en fjärilspuppa, ett grodyngel med ben, en vuxen nyckelpiga, en fjäril och nyckelpigans ägg. Barnet tittar på den första bilden i varje rad och ringar in den bild som kommer direkt efter.",
+   "p2": "Frågan är inte vad djuret blir till slut utan vad som kommer härnäst. Därför innehåller varje rad lockbeten som ligger längre fram eller längre bak i samma cykel, till exempel en vuxen groda i raden med grodrom eller ett grodyngel utan ben i raden där grodynglet redan har fått ben. Två av raderna börjar med ett vuxet djur, och då är svaret ett ägg, eftersom cykeln börjar om. Det är just den insikten som skiljer en livscykel från en tidslinje. Lgr22 tar upp djurs livscykler i de naturorienterande ämnena för årskurs 1–3.",
+   "p3": "Sidan passar i åk 1 och kräver ingen läsning. Den fungerar bra som repetition efter grundsidan om fjärilens livscykel och sidan om grodans livscykel, eftersom den blandar djuren. Nyckelpigan är ny för många barn, så titta gärna på den tillsammans först. Bladet blir tydligast i färg.",
+   "canonicalDeckSlug": "fjarilens-och-grodans-livscykel-g1390",
+   "carousel": [
+    {
+     "label": "Fjärilens livscykel: från ägg till fjäril",
+     "href": "fjarilens-livscykel"
+    },
+    {
+     "label": "Grodans livscykel: klipp och klistra",
+     "href": "grodans-livscykel-klipp-och-klistra"
+    },
+    {
+     "label": "Fjärilens livscykel: skriv namnen på stadierna",
+     "href": "fjarilens-livscykel-skriv-stadierna"
+    },
+    {
+     "label": "Metamorfos: vilket djur blir det till slut?",
+     "href": "metamorfos-vilket-djur-blir-ungen"
+    }
+   ],
+   "title": "Vad kommer sedan? Livscykel för fjäril, groda och nyckelpiga | PDF gratis",
+   "metaDescription": "Sex rader med ett stadium och tre bilder att välja mellan. Barnet ringar in det som kommer direkt efter hos fjäril, groda eller nyckelpiga. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "manens-faser-i-ratt-ordning",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "moon-phases-in-order",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Månens faser",
+   "h1": "Månens faser i rätt ordning",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "solsystemet",
+    "ak-1"
+   ],
+   "p1": "Sidan har två stora rutor med en rad var. Överst i varje ruta sitter en kil, en avlång triangel, och en orange pil. I den övre rutan blir kilen bredare åt höger, i den nedre smalare. Under kilen står fem månar i blandad ordning, ritade som cirklar där den upplysta delen är vit och den mörka grå: en helt grå nymåne, en tunn skära, en halvmåne, en nästan full måne och en helt vit fullmåne. Under varje måne finns en tom ruta. Barnet tittar på kilen, avgör om månen växer eller krymper och skriver 1 till 5 under månarna i den ordningen.",
+   "p2": "Månens faser är ett mönster som upprepas, och det är mönstret som är lärandet här. I den övre raden ska barnet ordna från nymåne till fullmåne, i den nedre tvärtom. Kilen är ett enkelt verktyg som visar riktningen utan ord. Samma fem former finns i båda raderna men i spegelvända varianter, eftersom en växande måne är upplyst på höger sida och en avtagande på vänster sida, så som vi ser den i Sverige. Lgr22 tar upp himlakropparnas rörelser i de naturorienterande ämnena för årskurs 1–3. Bladet innehåller inga fasnamn; de kommer på nästa sida i serien.",
+   "p3": "Sidan passar i åk 1. Förklara att vitt betyder det upplysta och grått det som är mörkt, eftersom en del barn läser tvärtom. Titta gärna på månen hemma under några kvällar och rita av den. Bladet fungerar i svartvitt. Det hör till serien om solsystemet och följs av sidan där faserna får sina namn.",
+   "canonicalDeckSlug": "solsystemet-g1391",
+   "carousel": [
+    {
+     "label": "Solen, Jorden och Månen",
+     "href": "solen-jorden-och-manen"
+    },
+    {
+     "label": "Månens faser: skriv namnen",
+     "href": "manens-faser-skriv-namnen"
+    },
+    {
+     "label": "Varför blir det dag och natt?",
+     "href": "varfor-blir-det-dag-och-natt"
+    },
+    {
+     "label": "Planeterna i ordning från Solen",
+     "href": "planeterna-i-ordning-fran-solen"
+    }
+   ],
+   "title": "Månens faser i rätt ordning – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Två rader med fem månar och en kil som visar om månen växer eller krymper. Barnet skriver 1 till 5 under månarna i rätt ordning. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "manens-faser-skriv-namnen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "name-the-moon-phases",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Månens faser",
+   "h1": "Månens faser: skriv namnen",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "solsystemet",
+    "ak-2"
+   ],
+   "p1": "Överst står en ordruta med fyra namn: nymåne, avtagande halvmåne, fullmåne och växande halvmåne. Därunder följer åtta kort, två i bredd, med en måne till vänster och två skrivrader till höger. Månarna är ritade som cirklar där det upplysta är vitt och det mörka grått. På det här bladet finns två fullmånar, två nymånar, två halvmånar som är upplysta på höger sida och två som är upplysta på vänster sida. Barnet tittar på varje måne och skriver dess namn på raderna; varje ord i ordrutan används två gånger.",
+   "p2": "Fullmåne och nymåne är lätta att skilja åt. Det svåra är halvmånarna. En halvmåne som är upplyst till höger är växande, en som är upplyst till vänster är avtagande, och det gäller så som vi ser månen från norra halvklotet. Barnet måste alltså titta på vilken sida som lyser, inte bara på att halva månen syns. Att varje namn används två gånger ger barnet chansen att rätta sig själv: om växande halvmåne redan har skrivits tre gånger är något fel. Tvåradiga skrivfält ger plats för de långa orden. Lgr22 tar upp himlakropparnas rörelser i de naturorienterande ämnena för årskurs 1–3.",
+   "p3": "Sidan passar i åk 2, efter sidan där faserna ordnas utan namn. Lär gärna ut en minnesregel: när månen är upplyst åt höger växer den. Bladet fungerar i svartvitt. Det hör till serien om solsystemet; nästa sida handlar om varför det blir dag och natt.",
+   "canonicalDeckSlug": "solsystemet-g2367",
+   "carousel": [
+    {
+     "label": "Solen, Jorden och Månen",
+     "href": "solen-jorden-och-manen"
+    },
+    {
+     "label": "Månens faser i rätt ordning",
+     "href": "manens-faser-i-ratt-ordning"
+    },
+    {
+     "label": "Varför blir det dag och natt?",
+     "href": "varfor-blir-det-dag-och-natt"
+    },
+    {
+     "label": "Planeterna i ordning från Solen",
+     "href": "planeterna-i-ordning-fran-solen"
+    }
+   ],
+   "title": "Månens faser – skriv namnen på faserna – åk 2 | skriva ut PDF gratis",
+   "metaDescription": "Åtta månar och fyra fasnamn: nymåne, växande halvmåne, fullmåne och avtagande halvmåne. Barnet skriver varje namn två gånger. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "varfor-blir-det-dag-och-natt",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "why-do-we-have-day-and-night",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Dag och natt",
+   "h1": "Varför blir det dag och natt?",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "solsystemet",
+    "ak-2"
+   ],
+   "p1": "Till vänster på sidan syns en bit av en stor orange sol med strålar och streckade pilar som pekar mot höger. Till höger ligger Jorden, ritad som en stor cirkel sedd ovanifrån, med en pil i mitten som visar att den snurrar. Runt kanten sitter sex orange nålar med siffrorna 1 till 6, några på sidan som vetter mot solen och några på den bortre sidan. Under bilden står en tabell med en rad för varje nål och orden Dag och Natt. Barnet tittar var Solen är och ringar in dag eller natt för varje numrerad nål.",
+   "p2": "Barnet får här använda en modell för att förklara något det upplever varje dag. Den halva av Jorden som är vänd mot Solen har dag och den andra halvan natt, och eftersom Jorden snurrar flyttar sig platserna mellan dag och natt. Nålarna är placerade så att barnet måste bestämma sida själv; ingen del av Jorden är skuggad. Det är just det som gör uppgiften till ett resonemang och inte en avläsning. Lgr22 tar i de naturorienterande ämnena för årskurs 1–3 upp hur dag och natt kan förklaras med Jordens rörelse. På det här bladet ligger tre nålar på solsidan och tre på den mörka sidan.",
+   "p3": "Sidan passar i åk 2. Gör gärna en demonstration först med en lampa och en jordglob eller en boll med en fastsatt figur, så att barnen ser hur figuren vandrar från ljus till mörker. Låt sedan barnen föreställa sig var Sverige ligger och när det är natt hos oss. Bladet fungerar i svartvitt. Det hör till serien om solsystemet.",
+   "canonicalDeckSlug": "solsystemet-g2368",
+   "carousel": [
+    {
+     "label": "Solen, Jorden och Månen",
+     "href": "solen-jorden-och-manen"
+    },
+    {
+     "label": "Månens faser i rätt ordning",
+     "href": "manens-faser-i-ratt-ordning"
+    },
+    {
+     "label": "Månens faser: skriv namnen",
+     "href": "manens-faser-skriv-namnen"
+    },
+    {
+     "label": "Planeterna i ordning från Solen",
+     "href": "planeterna-i-ordning-fran-solen"
+    }
+   ],
+   "title": "Varför blir det dag och natt? Åk 2 | skriva ut PDF gratis",
+   "metaDescription": "Solen till vänster och Jorden sedd ovanifrån med sex numrerade nålar. Barnet avgör för varje nål om det är dag eller natt och ringar in. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "planeterna-i-ordning-fran-solen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "planets-in-order-from-the-sun",
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Planeterna",
+   "h1": "Planeterna i ordning från Solen",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "solsystemet",
+    "ak-3"
+   ],
+   "p1": "Överst står åtta rutor, var och en med en liten bild av en planet och dess namn, i blandad ordning: Mars, Neptunus, Jorden, Saturnus, Uranus, Jupiter, Merkurius och Venus. I sidans övre vänstra hörn syns en bit av Solen med strålar. Därifrån går åtta streckade banor ut i en båge, och vid varje bana sitter en numrerad ring och en skrivrad, från 1 närmast Solen till 8 längst bort. Barnet skriver varje planets namn på dess rad, börjar närmast Solen och använder varje namn i rutan en gång.",
+   "p2": "Att kunna planeternas ordning är en klassisk skolkunskap, och många svenska barn lär sig den med en ramsa. Bladet kräver att barnet själv kan ordningen, eftersom bilderna inte ger några ledtrådar om avstånd. Planeterna är ritade ungefär lika stora, så barnet kan inte gissa sig till ordningen från storleken. Här kan klassen prata om att Jorden är nummer tre och om skillnaden mellan de fyra inre och de fyra yttre planeterna. Innehållet ligger i överkant för lågstadiet; Lgr22 tar upp solsystemets himlakroppar i årskurs 1–3, men planeternas ordning hör oftast hemma i åk 3 eller senare.",
+   "p3": "Sidan passar i åk 3. Lär gärna ut en minnesramsa innan bladet delas ut och låt barnen hitta på en egen. Bladet fungerar i svartvitt. Det hör till serien om solsystemet och följs av sidan där planeterna sorteras i jätteplaneter och stenplaneter.",
+   "canonicalDeckSlug": "solsystemet-g3394",
+   "carousel": [
+    {
+     "label": "Solen, Jorden och Månen",
+     "href": "solen-jorden-och-manen"
+    },
+    {
+     "label": "Månens faser i rätt ordning",
+     "href": "manens-faser-i-ratt-ordning"
+    },
+    {
+     "label": "Månens faser: skriv namnen",
+     "href": "manens-faser-skriv-namnen"
+    },
+    {
+     "label": "Varför blir det dag och natt?",
+     "href": "varfor-blir-det-dag-och-natt"
+    }
+   ],
+   "title": "Planeterna i ordning från Solen – åk 3 | skriva ut PDF gratis",
+   "metaDescription": "Åtta planeter med bild och namn i en ruta och åtta numrerade rader i en båge från Solen. Barnet skriver planeterna i rätt ordning. Åk 3. Gratis PDF."
+  },
+  {
+   "slug": "jatteplaneter-och-stenplaneter",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "giant-and-rocky-planets",
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Planeternas storlek",
+   "h1": "Jätteplaneter och stenplaneter",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "solsystemet",
+    "ak-3"
+   ],
+   "p1": "Överst står en ordruta med tio namn: Neptunus, Venus, Uranus, Mars, Merkurius, Jupiter, Månen, Saturnus, Jorden och Solen. Under den står tre höga kolumner. Den första har en stor cirkel och rubriken jätteplanet, den andra en liten cirkel och rubriken liten stenplanet, och den tredje en överstruken cirkel och rubriken inte en planet. I varje kolumn finns fem skrivrader. Barnet sorterar namnen och skriver vart och ett i rätt kolumn.",
+   "p2": "Sidan lägger till en ny dimension: planeterna är inte bara olika långt från Solen, de är också av olika slag. De fyra inre, Merkurius, Venus, Jorden och Mars, är små och har fast yta av sten. De fyra yttre, Jupiter, Saturnus, Uranus och Neptunus, är jätteplaneter utan fast yta. Månen och Solen är med som lockbeten; de är himlakroppar men inte planeter, och det är en vanlig missuppfattning att Solen skulle vara en planet. Eftersom varje kolumn har fem rader avslöjar inte antalet rader hur många namn som hör dit. Lgr22 tar upp solsystemets himlakroppar i årskurs 1–3; indelningen ligger i överkant och passar bäst i åk 3.",
+   "p3": "Sidan passar i åk 3, gärna direkt efter sidan om planeternas ordning. Visa en bild av planeterna i rätt storleksförhållande efteråt; skillnaden mellan Jorden och Jupiter brukar göra intryck. Bladet fungerar i svartvitt. Det är den mest avancerade sidan i serien om solsystemet.",
+   "canonicalDeckSlug": "solsystemet-g3395",
+   "carousel": [
+    {
+     "label": "Solen, Jorden och Månen",
+     "href": "solen-jorden-och-manen"
+    },
+    {
+     "label": "Månens faser i rätt ordning",
+     "href": "manens-faser-i-ratt-ordning"
+    },
+    {
+     "label": "Månens faser: skriv namnen",
+     "href": "manens-faser-skriv-namnen"
+    },
+    {
+     "label": "Varför blir det dag och natt?",
+     "href": "varfor-blir-det-dag-och-natt"
+    }
+   ],
+   "title": "Jätteplaneter och stenplaneter – sortera – åk 3 | skriva ut PDF gratis",
+   "metaDescription": "Tio namn: åtta planeter samt Månen och Solen. Barnet sorterar dem i jätteplanet, liten stenplanet eller inte en planet. Åk 3. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "fagelperspektiv-fran-sidan-och-uppifran",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-birds-eye-view",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Fågelperspektiv",
+   "h1": "Fågelperspektiv: från sidan och uppifrån",
+   "strand": "Samhällsorienterande ämnen",
+   "slotTokens": [
+    "kartor-och-vaderstreck",
+    "forskola"
+   ],
+   "p1": "Två kolumner står på sidan. Överst till vänster syns ett öga med en pil åt sidan och överst till höger ett öga med en pil nedåt. I den vänstra kolumnen står fem saker ritade från sidan: en bil, en mugg med öra, ett bord, en trafikkon och en stol. I den högra kolumnen står samma fem saker sedda uppifrån, i en annan ordning: en cirkel med ringar på en mörk ruta, en rektangel, en fyrkant med en rand längs ena kanten, en orange avlång form med ett fönster och en cirkel med ett litet handtag. Barnet drar ett streck från varje sak till samma sak sedd uppifrån.",
+   "p2": "Innan ett barn kan läsa en karta måste det förstå att saker ser annorlunda ut uppifrån. En kon som är spetsig från sidan blir en cirkel med ringar uppifrån, och ett bord med fyra ben blir bara en rektangel. Det kallas fågelperspektiv, och det är just det perspektivet varje karta är ritad i. Muggen är den lättaste att börja med eftersom örat syns från båda hållen. Bordet och stolen kräver mer eftertanke: stolens rygg blir en smal rand. Lgr22 tar upp kartor i SO för årskurs 1–3, och det här är förberedelsen för förskoleklass.",
+   "p3": "Sidan passar i förskoleklass och kräver ingen läsning. Gör gärna övningen på riktigt först: ställ en mugg eller en kon på golvet och låt barnen titta rakt ovanifrån. Bladet fungerar i svartvitt. Det hör till serien om kartkunskap och följs av grundsidan om teckenförklaringen i åk 1.",
+   "canonicalDeckSlug": "kartor-och-vaderstreck-k377",
+   "carousel": [
+    {
+     "label": "Kartkunskap: läs teckenförklaringen",
+     "href": "kartkunskap"
+    },
+    {
+     "label": "Väderstreck: norr, öster, söder och väster",
+     "href": "vaderstreck-kompassros"
+    },
+    {
+     "label": "Världsdelar: skriv namnen",
+     "href": "varldsdelar-skriv-namnen"
+    },
+    {
+     "label": "Världsdelar och världshav",
+     "href": "varldsdelar-och-varldshav"
+    }
+   ],
+   "title": "Fågelperspektiv – från sidan och uppifrån – förskoleklass | PDF gratis",
+   "metaDescription": "Fem saker ritade från sidan och samma fem sedda uppifrån: bil, mugg, bord, kon och stol. Barnet drar streck mellan dem. Förskoleklass. Gratis PDF."
+  },
+  {
+   "slug": "vaderstreck-kompassros",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-north-east-south-west",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Väderstreck",
+   "h1": "Väderstreck: norr, öster, söder och väster",
+   "strand": "Samhällsorienterande ämnen",
+   "slotTokens": [
+    "kartor-och-vaderstreck",
+    "ak-2"
+   ],
+   "p1": "Sidan har sex kort med var sin kompassros, en fyruddig stjärna med en cirkel i mitten. Vid varje udd sitter en ruta. I en av rutorna står redan en bokstav, och de andra tre är tomma och streckade. De svenska bokstäverna används: N för norr, Ö för öster, S för söder och V för väster. På varje ros är en spets orange, och den visar var norr är. På tre av rosorna pekar den orange spetsen uppåt, på de andra åt vänster, åt höger eller nedåt, och den givna bokstaven är aldrig N. Barnet skriver de tre andra bokstäverna i de tomma rutorna.",
+   "p2": "Väderstrecken har en fast ordning runt rosen. Går man medurs från norr kommer öster, söder och väster, och det är den ordningen barnet ska använda. Barnet börjar med att sätta N vid den orange spetsen och går sedan runt. När norr pekar uppåt räcker det att komma ihåg var bokstäverna brukar sitta, men när den orange spetsen pekar åt sidan eller nedåt måste barnet tänka i ordning, och då kan S hamna högst upp. Det förbereder för riktiga kartor och kompasser, som inte alltid har norr uppåt. En ramsa hjälper många barn att komma ihåg ordningen. Lgr22 tar upp väderstreck och kartor i SO för årskurs 1–3.",
+   "p3": "Sidan passar i åk 2. Märk gärna upp väggarna i klassrummet med N, Ö, S och V innan bladet delas ut, så att barnen kan vända sig åt rätt håll. Bladet fungerar i svartvitt. Det hör till serien om kartkunskap och följs av sidan där väderstrecken används på en karta.",
+   "canonicalDeckSlug": "kartor-och-vaderstreck-g2369",
+   "carousel": [
+    {
+     "label": "Kartkunskap: läs teckenförklaringen",
+     "href": "kartkunskap"
+    },
+    {
+     "label": "Fågelperspektiv: från sidan och uppifrån",
+     "href": "fagelperspektiv-fran-sidan-och-uppifran"
+    },
+    {
+     "label": "Världsdelar: skriv namnen",
+     "href": "varldsdelar-skriv-namnen"
+    },
+    {
+     "label": "Världsdelar och världshav",
+     "href": "varldsdelar-och-varldshav"
+    }
+   ],
+   "title": "Väderstreck på kompassrosen – N, Ö, S och V – åk 2 | PDF gratis",
+   "metaDescription": "Sex kompassrosor med en bokstav given och tre tomma rutor. Barnet skriver N, Ö, S och V på rätt plats, även när rosen är vriden. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "varldsdelar-skriv-namnen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-label-the-continents",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Världsdelar",
+   "h1": "Världsdelar: skriv namnen",
+   "strand": "Samhällsorienterande ämnen",
+   "slotTokens": [
+    "kartor-och-vaderstreck",
+    "ak-2"
+   ],
+   "p1": "En världskarta i en rundad ram fyller övre delen av sidan. Havet är ljusblått och land är vitt, och gränsen mellan Europa och Asien är markerad med en streckad linje. Sju orange cirklar med siffror sitter på världsdelarna, och Antarktis längst ner nås med ett streck. Under kartan står en ordruta med sju namn: Antarktis, Europa, Asien, Nordamerika, Oceanien, Afrika och Sydamerika. Längst ner finns sju numrerade skrivrader. Barnet skriver namnet på varje numrerad världsdel på dess rad och tar namnen från rutan.",
+   "p2": "I svensk skola räknas sju världsdelar, med Antarktis och med Oceanien i stället för bara Australien, och det är de sju som står på bladet. Siffrorna är inte i geografisk ordning, så barnet måste verkligen känna igen formerna: Afrika och Sydamerika som två trianglar, Nordamerika uppe till vänster och Asien som den största. Europa är den svåraste eftersom den sitter ihop med Asien, och den streckade gränsen gör det möjligt att se var den ena slutar. Lgr22 tar upp kartor och geografiska namn i SO för årskurs 1–3, och världsdelarna är ett vanligt första steg ut i världen i åk 2 och åk 3.",
+   "p3": "Sidan passar i åk 2. Ha gärna en jordglob framme så att barnen ser att kartan är en platt bild av något runt. Fråga var Sverige ligger innan barnen börjar skriva. Bladet fungerar i svartvitt. Det hör till serien om kartkunskap och följs i åk 3 av sidan om världsdelar och världshav.",
+   "canonicalDeckSlug": "kartor-och-vaderstreck-g2370",
+   "carousel": [
+    {
+     "label": "Kartkunskap: läs teckenförklaringen",
+     "href": "kartkunskap"
+    },
+    {
+     "label": "Fågelperspektiv: från sidan och uppifrån",
+     "href": "fagelperspektiv-fran-sidan-och-uppifran"
+    },
+    {
+     "label": "Väderstreck: norr, öster, söder och väster",
+     "href": "vaderstreck-kompassros"
+    },
+    {
+     "label": "Världsdelar och världshav",
+     "href": "varldsdelar-och-varldshav"
+    }
+   ],
+   "title": "Världsdelar – skriv namnen på kartan – åk 2 | skriva ut PDF gratis",
+   "metaDescription": "En världskarta med sju numrerade världsdelar och en ordruta med namnen. Barnet skriver Europa, Asien, Afrika och de andra på rätt rad. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "varldsdelar-och-varldshav",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-continents-and-oceans",
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Världsdelar och världshav",
+   "h1": "Världsdelar och världshav",
+   "strand": "Samhällsorienterande ämnen",
+   "slotTokens": [
+    "kartor-och-vaderstreck",
+    "ak-3"
+   ],
+   "p1": "Samma världskarta som i åk 2, men nu med tolv siffror. Sju sitter på världsdelarna och fem i haven: Stilla havet har siffran 4 på båda sidor av kartan, eftersom det sträcker sig runt jorden, och Norra ishavet och Södra ishavet nås med streck från hörnen. Under kartan står tolv namn i tre kolumner, var och en med en tom ruta: Antarktis, Oceanien, Indiska oceanen, Stilla havet, Sydamerika, Nordamerika, Norra ishavet, Afrika, Atlanten, Asien, Södra ishavet och Europa. Barnet hittar varje världsdel och världshav på kartan och skriver dess siffra i rutan bredvid namnet.",
+   "p2": "Här läggs vattnet till landet. Barnet ska inte bara känna igen världsdelarna utan också förstå att haven har namn och gränser, fast de hänger ihop. Siffran 4 på båda kanterna är en viktig detalj: den visar att en världskarta är en utvikt jordglob, och att det som ser ut som två hav är ett. Uppgiften vänder också på riktningen jämfört med åk 2; nu står namnet först och barnet letar platsen. Lgr22 tar upp kartor och geografiska namn i SO för årskurs 1–3. Världshaven ligger i överkant och brukar komma i åk 3 eller i början av mellanstadiet.",
+   "p3": "Sidan passar i åk 3, efter sidan där världsdelarna får sina namn. Visa gärna på en jordglob hur Stilla havet fortsätter runt. Bladet fungerar i svartvitt men blir tydligare i färg, där havet är blått. Det är den mest avancerade sidan i serien om kartkunskap.",
+   "canonicalDeckSlug": "kartor-och-vaderstreck-g3396",
+   "carousel": [
+    {
+     "label": "Kartkunskap: läs teckenförklaringen",
+     "href": "kartkunskap"
+    },
+    {
+     "label": "Fågelperspektiv: från sidan och uppifrån",
+     "href": "fagelperspektiv-fran-sidan-och-uppifran"
+    },
+    {
+     "label": "Väderstreck: norr, öster, söder och väster",
+     "href": "vaderstreck-kompassros"
+    },
+    {
+     "label": "Världsdelar: skriv namnen",
+     "href": "varldsdelar-skriv-namnen"
+    }
+   ],
+   "title": "Världsdelar och världshav – arbetsblad åk 3 | skriva ut PDF gratis",
+   "metaDescription": "En världskarta med siffror på sju världsdelar och fem världshav och en lista med tolv namn. Barnet skriver rätt siffra vid varje namn. Åk 3. Gratis PDF."
+  },
+  {
+   "slug": "vaderstreck-pa-kartan",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-directions-on-a-map",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Väderstreck på kartan",
+   "h1": "Väderstreck på kartan",
+   "strand": "Samhällsorienterande ämnen",
+   "slotTokens": [
+    "kartor-och-vaderstreck",
+    "ak-2"
+   ],
+   "p1": "Överst står en karta över en park, omgiven av vatten, med en väg och en bäck som korsar under en bro. På kartan finns symboler för bland annat ett hus, ett träd, en buske, en damm, en bänk, ett tält och en blomrabatt, och bredvid kartan sitter en kompassros med N, Ö, S och V. En teckenförklaring på sidan ger varje symbol ett namn. Under kartan följer numrerade rader. Varje rad börjar med en symbol, sedan ett väderstreck i en ruta, väster, öster, norr eller söder, och till sist tre symboler att välja mellan. Barnet hittar den första bilden på kartan, tittar åt det håll som ordet säger och ringar in den av de tre bilderna som ligger där.",
+   "p2": "Nu blir väderstrecken ett verktyg. Barnet ska utgå från en plats och beskriva var något annat ligger, precis som när man läser en riktig karta. Det kräver att barnet håller reda på både kartan och kompassrosen samtidigt och vet att väster är till vänster när norr är uppåt. Teckenförklaringen gör att barnet kan säga svaret med ord, till exempel att dammen ligger väster om huset. Lgr22 tar upp kartor och väderstreck i SO för årskurs 1–3. Vägen och bäcken står inte i teckenförklaringen, men de går att använda som stöd när barnet ska hitta rätt i parken.",
+   "p3": "Sidan passar i åk 2, efter sidan om väderstreck på kompassrosen. Låt gärna barnen ställa egna frågor till en kamrat, till exempel vad som ligger söder om bänken. Bladet fungerar i svartvitt men symbolerna blir tydligast i färg. Det hör till serien om kartkunskap.",
+   "canonicalDeckSlug": "kartor-och-vaderstreck-g2371",
+   "carousel": [
+    {
+     "label": "Kartkunskap: läs teckenförklaringen",
+     "href": "kartkunskap"
+    },
+    {
+     "label": "Fågelperspektiv: från sidan och uppifrån",
+     "href": "fagelperspektiv-fran-sidan-och-uppifran"
+    },
+    {
+     "label": "Väderstreck: norr, öster, söder och väster",
+     "href": "vaderstreck-kompassros"
+    },
+    {
+     "label": "Världsdelar: skriv namnen",
+     "href": "varldsdelar-skriv-namnen"
+    }
+   ],
+   "title": "Väderstreck på kartan – norr, söder, öster, väster – åk 2 | PDF gratis",
+   "metaDescription": "En parkkarta med symboler och teckenförklaring och uppgifter som börjar vid en sak och följer ett väderstreck. Barnet ringar in rätt symbol av tre. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "synonymer-med-bilder",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "synonyms-with-pictures",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Synonymer med bilder",
+   "h1": "Synonymer med bilder: två ord till en bild",
+   "strand": "Ord och begrepp",
+   "slotTokens": [
+    "synonymer",
+    "ak-1"
+   ],
+   "p1": "Sidan har sex kort, två i bredd. Överst på varje kort sitter en färgbild och under den fyra ord. Bilderna på det här bladet är fyra ansikten, ett argt, ett överraskat, ett trött och ett glatt, och dessutom en grön racerbil och en val. Två av orden under varje bild betyder samma sak och passar till bilden, till exempel arg och ilsken under det arga ansiktet, snabb och kvick under racerbilen och stor och jättelik under valen. Barnet tittar på bilden och ringar in de två orden.",
+   "p2": "Bilden gör synonymer begripliga för ett barn som just har börjat läsa. I stället för att jämföra två abstrakta ord kan barnet utgå från det det ser och fråga sig vilka ord som beskriver bilden. Att det finns två rätt svar är poängen: samma sak kan sägas på olika sätt. Orden återkommer också som lockbeten på andra kort, så barnet kan inte bara känna igen ett ord utan måste koppla det till rätt bild. Lgr22 lyfter i svenska för årskurs 1–3 att eleverna ska utveckla sitt ordförråd. Ansiktena kräver att barnet läser känslan i bilden, och överraskad och häpen är ett par som många sjuåringar inte har hört tillsammans förut.",
+   "p3": "Sidan passar i åk 1 och kan göras med högläsning om barnet ännu läser långsamt. Samtala gärna om valen: är den stor eller jättelik? Båda, och det är just poängen. Bladet blir tydligast i färg. Det är den första sidan i serien om synonymer; grundsidan i åk 2 tar bort bilderna.",
+   "canonicalDeckSlug": "synonymer-g1395",
+   "carousel": [
+    {
+     "label": "Synonymer: ringa in ordet som betyder samma sak",
+     "href": "synonymer"
+    },
+    {
+     "label": "Synonympar: para ihop ord som betyder samma sak",
+     "href": "para-ihop-synonymer"
+    },
+    {
+     "label": "Ordens styrka: från lite till mycket",
+     "href": "ordens-styrka"
+    },
+    {
+     "label": "Synonymer till sa: välj ordet som passar",
+     "href": "synonymer-till-sa"
+    }
+   ],
+   "title": "Synonymer med bilder – två ord till en bild – åk 1 | PDF gratis",
+   "metaDescription": "Sex bilder, som ett argt ansikte, en racerbil och en val, med fyra ord under varje. Barnet ringar in de två ord som betyder samma sak. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "para-ihop-synonymer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "synonym-pairs",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Synonympar",
+   "h1": "Synonympar: para ihop ord som betyder samma sak",
+   "strand": "Ord och begrepp",
+   "standard": "L.2.5",
+   "slotTokens": [
+    "synonymer",
+    "ak-2"
+   ],
+   "p1": "Sidan har två kolumner med åtta ord i var sin ram. Till vänster står hoppa, ombonad, laga, klyftig, stökig, välja, modig och överraskad. Till höger står reparera, plocka ut, skutta, mysig, förvånad, tapper, rörig och smart, i en annan ordning. Mellan kolumnerna finns en orange prick vid varje ord. Barnet drar ett streck från varje ord till vänster till det ord till höger som betyder samma sak.",
+   "p2": "Här finns inga lockbeten. Varje ord har exakt en partner, så när barnet har hittat de lätta paren blir de svåra enklare genom uteslutning. Ändå kräver sidan ett gott ordförråd. Ombonad och klyftig är ord som många barn i åk 2 inte använder själva, men som de möter i högläsningsböcker, och paret gör betydelsen tydlig: ombonad är som mysig, klyftig som smart. Blandningen av verb och adjektiv tränar också barnet att se att synonymer hör till samma ordklass. Lgr22 lyfter i svenska för årskurs 1–3 ords betydelse och ordförråd.",
+   "p3": "Sidan passar i åk 2, gärna efter grundsidan om synonymer. Låt barnen använda blyerts så att streck kan suddas. Be dem efteråt välja ett par och skriva en mening med båda orden. Bladet fungerar i svartvitt och tar ungefär tio minuter. Serien fortsätter med synonymer till sa och ordens styrka.",
+   "canonicalDeckSlug": "synonymer-g2373",
+   "carousel": [
+    {
+     "label": "Synonymer: ringa in ordet som betyder samma sak",
+     "href": "synonymer"
+    },
+    {
+     "label": "Synonymer med bilder: två ord till en bild",
+     "href": "synonymer-med-bilder"
+    },
+    {
+     "label": "Ordens styrka: från lite till mycket",
+     "href": "ordens-styrka"
+    },
+    {
+     "label": "Synonymer till sa: välj ordet som passar",
+     "href": "synonymer-till-sa"
+    }
+   ],
+   "title": "Para ihop synonymer – synonympar – åk 2 | skriva ut PDF gratis",
+   "metaDescription": "Åtta ord till vänster och åtta till höger, som laga och reparera eller modig och tapper. Barnet drar streck mellan synonymerna. Åk 2. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "ordens-styrka",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "shades-of-meaning",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Ordens styrka",
+   "h1": "Ordens styrka: från lite till mycket",
+   "strand": "Ord och begrepp",
+   "standard": "L.1.5.d",
+   "slotTokens": [
+    "synonymer",
+    "ak-1"
+   ],
+   "p1": "Överst på sidan står tre staplar som växer, märkta 1, 2 och 3. Under dem följer rader med tre ord, var och en med en liten trappa av staplar längst till vänster och en tom ruta under varje ord. Orden på det här bladet hör ihop tre och tre: prata, viska och skrika, fuktig, genomblöt och blöt, bra, okej och fantastisk, utsvulten, hungrig och sugen, kokhet, varm och ljummen, och smutta, svepa och dricka. Barnet läser de tre orden i varje rad och skriver 1, 2 och 3 i rutorna, från det svagaste ordet till det starkaste.",
+   "p2": "Ord som betyder nästan samma sak är inte alltid utbytbara. Viska, prata och skrika handlar alla om att säga något, men med olika styrka, och det är den nyansen barnet tränar här. Att sätta ord i ordning kräver att barnet jämför betydelser, inte bara känner igen dem. Här finns också ord som vuxna tar för givna, som utsvulten och svepa, och de är värda ett samtal. Lgr22 lyfter i svenska för årskurs 1–3 att eleverna ska kunna välja ord för att uttrycka sig. Staplarna gör uppgiften begriplig även innan barnet kan läsa instruktionen.",
+   "p3": "Sidan passar i åk 1, gärna med högläsning, och fungerar även i åk 2. Låt barnen visa orden med rösten eller kroppen: viska, prata, skrika. Bladet fungerar i svartvitt. Det hör till serien om synonymer, där grundsidan handlar om ord som betyder samma sak.",
+   "canonicalDeckSlug": "synonymer-g1396",
+   "carousel": [
+    {
+     "label": "Synonymer: ringa in ordet som betyder samma sak",
+     "href": "synonymer"
+    },
+    {
+     "label": "Synonymer med bilder: två ord till en bild",
+     "href": "synonymer-med-bilder"
+    },
+    {
+     "label": "Synonympar: para ihop ord som betyder samma sak",
+     "href": "para-ihop-synonymer"
+    },
+    {
+     "label": "Synonymer till sa: välj ordet som passar",
+     "href": "synonymer-till-sa"
+    }
+   ],
+   "title": "Ordens styrka – från svagaste till starkaste ord – åk 1 | PDF gratis",
+   "metaDescription": "Rader med tre ord, som viska, prata och skrika eller ljummen, varm och kokhet. Barnet skriver 1, 2 och 3 från svagaste till starkaste. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "synonymer-till-sa",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "synonyms-for-said",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Synonymer till sa",
+   "h1": "Synonymer till sa: välj ordet som passar",
+   "strand": "Ord och begrepp",
+   "standard": "L.2.5.b",
+   "slotTokens": [
+    "synonymer",
+    "ak-2"
+   ],
+   "p1": "Överst står en stor pratbubbla. I den står ordet sa överstruket och sex andra ord: svarade, förklarade, viskade, ropade, frågade och lovade. Under bubblan följer sex numrerade meningar med en tom streckad ruta där verbet ska stå. Meningarna ger ledtrådar, till exempel en replik som slutar med ett frågetecken, Elias som säger något tyst i mormors öra eller Maja som säger det lovar jag. Barnet läser varje mening och skriver det ord från pratbubblan som passar bäst i rutan i stället för sa.",
+   "p2": "Sa är ett av de vanligaste orden i barns egna berättelser, och det är lätt att upprepa det. Bladet visar att ett mer precist verb berättar mer: viskade säger hur, frågade säger att det var en fråga och lovade att det var ett löfte. Varje ord i bubblan används en gång, och alla meningar fungerar också med sa, så barnet ser verkligen utbytet. Lgr22 lyfter i svenska för årskurs 1–3 att eleverna ska kunna variera sitt språk när de skriver. Mening 6 börjar med mammas fråga, Är du hungrig?, och därför passar svarade där, medan mening 5 beskriver hur man sår ett frö och kallar på förklarade. Prata gärna om skillnaden mellan de två orden.",
+   "p3": "Sidan passar i åk 2 och gärna i samband med att barnen skriver egna berättelser. Be dem efteråt leta efter sa i en egen text och byta ut ett par av dem. Bladet fungerar i svartvitt. Det hör till serien om synonymer och följs i åk 3 av sidan om synonymer till gå och titta.",
+   "canonicalDeckSlug": "synonymer-g2374",
+   "carousel": [
+    {
+     "label": "Synonymer: ringa in ordet som betyder samma sak",
+     "href": "synonymer"
+    },
+    {
+     "label": "Synonymer med bilder: två ord till en bild",
+     "href": "synonymer-med-bilder"
+    },
+    {
+     "label": "Synonympar: para ihop ord som betyder samma sak",
+     "href": "para-ihop-synonymer"
+    },
+    {
+     "label": "Ordens styrka: från lite till mycket",
+     "href": "ordens-styrka"
+    }
+   ],
+   "title": "Synonymer till sa – välj ordet som passar – åk 2 | PDF gratis",
+   "metaDescription": "En pratbubbla med svarade, förklarade, viskade, ropade, frågade och lovade och sex meningar. Barnet skriver rätt ord i stället för sa. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "synonymer-till-ga-och-titta",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "word-fields-go-and-look",
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Synonymer till gå och titta",
+   "h1": "Synonymer till gå och titta: sortera orden",
+   "strand": "Ord och begrepp",
+   "standard": "L.3.5",
+   "slotTokens": [
+    "synonymer",
+    "ak-3"
+   ],
+   "p1": "Överst står en ordruta med tio verb: plira, smyga, strosa, betrakta, skynda, kika, glutta, iaktta, promenera och glo. Under den står två höga fält som ser ut som anteckningsblock, det ena med rubriken gå och det andra med rubriken titta, och i varje fält finns sex skrivrader. Barnet läser de tio orden och skriver varje ord i fältet gå eller i fältet titta, där det hör hemma. På det här bladet hör fyra ord till gå och sex till titta.",
+   "p2": "Ett ordfält är en samling ord som handlar om samma sak. Att sortera verben efter betydelse visar barnet hur många sätt det finns att säga gå och titta, och att varje ord har en egen färg. Strosa är att gå långsamt och utan mål, smyga att gå tyst, plira att titta med kisande ögon och glo att stirra ohövligt. Glutta och plira är ord som många barn inte känner till, och de är ett bra tillfälle att slå upp eller gissa utifrån sammanhanget. Eftersom varje fält har sex rader avslöjar inte antalet hur många ord som hör dit. Lgr22 lyfter ordförråd och ords betydelse i svenska för årskurs 1–3.",
+   "p3": "Sidan passar i åk 3 och är den mest avancerade i serien om synonymer. Låt gärna barnen spela upp orden, till exempel att smyga och strosa över golvet, innan de sorterar. Använd sedan orden i en egen berättelse. Bladet fungerar i svartvitt.",
+   "canonicalDeckSlug": "synonymer-g3397",
+   "carousel": [
+    {
+     "label": "Synonymer: ringa in ordet som betyder samma sak",
+     "href": "synonymer"
+    },
+    {
+     "label": "Synonymer med bilder: två ord till en bild",
+     "href": "synonymer-med-bilder"
+    },
+    {
+     "label": "Synonympar: para ihop ord som betyder samma sak",
+     "href": "para-ihop-synonymer"
+    },
+    {
+     "label": "Ordens styrka: från lite till mycket",
+     "href": "ordens-styrka"
+    }
+   ],
+   "title": "Synonymer till gå och titta – sortera orden – åk 3 | PDF gratis",
+   "metaDescription": "Tio verb, som strosa, smyga, kika och glo, och två fält för gå och titta. Barnet skriver varje ord i rätt fält. Åk 3. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "slaktord-med-bilder",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "root-words-with-pictures",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Släktord med bilder",
+   "h1": "Släktord med bilder: ringa in rätt ord",
+   "strand": "Ord och begrepp",
+   "slotTokens": [
+    "slaktord-prefix-och-suffix",
+    "ak-1"
+   ],
+   "p1": "Sidan har sex kort i två rader. Överst på varje kort står tre ord och under dem en färgbild. Bilderna på det här bladet är ett tält, ett berg, ett moln, ett huvud med långt rött hår och en pil som pekar på håret, en fisk och en tand. Ett av de tre orden är byggt av bildens ord: tälta av tält, bergig av berg, molnig av moln, hårig av hår, fiskare av fisk och tandlös av tand. De andra två börjar på samma bokstäver men har inget med bilden att göra, som tävling och tärning eller mobil och moped. Barnet säger vad varje bild föreställer och ringar in det enda ord ovanför som är byggt av bildens ord.",
+   "p2": "Det här är ett första steg mot släktord för barn som just har lärt sig läsa. Bilden ger ordstammen, och barnet ska känna igen den inuti ett längre ord. Lockbetena är valda så att de börjar likadant, så barnet kan inte gissa från första bokstaven utan måste läsa hela ordet och fundera på vad det betyder. Lgr22 lyfter i svenska för årskurs 1–3 hur ord är uppbyggda. Två bilder kan ge andra ord än de avsedda: berget kan kallas fjäll, och bilden med håret kan kallas flicka, så pilen som pekar på håret är värd att visa. Säg gärna orden högt tillsammans först.",
+   "p3": "Sidan passar i åk 1 och är den lättaste i serien om släktord. Rätt ord är inte alltid det längsta, så barnet kan inte heller gissa på längden. Bladet blir tydligast i färg. Nästa steg är grundsidan i åk 2, där orden sorteras efter ordstam.",
+   "canonicalDeckSlug": "slaktord-prefix-och-suffix-g1397",
+   "carousel": [
+    {
+     "label": "Släktord: sortera orden efter ordstammen",
+     "href": "slaktord"
+    },
+    {
+     "label": "Hitta ordstammen",
+     "href": "hitta-ordstammen"
+    },
+    {
+     "label": "Prefixen åter-, miss- och över-: välj efter betydelse",
+     "href": "prefix-ater-miss-over"
+    },
+    {
+     "label": "Vem gör det? Skriv ordet för personen",
+     "href": "vem-gor-det-ord-for-personer"
+    }
+   ],
+   "title": "Släktord med bilder – ringa in rätt ord – åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Sex bilder, som ett tält, ett berg och en tand, med tre ord ovanför. Barnet säger vad bilden föreställer och ringar in ordet byggt av det. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "hitta-ordstammen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "find-the-root-word",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Hitta ordstammen",
+   "h1": "Hitta ordstammen",
+   "strand": "Ord och begrepp",
+   "standard": "L.2.4.c",
+   "slotTokens": [
+    "slaktord-prefix-och-suffix",
+    "ak-2"
+   ],
+   "p1": "Sidan har nio kort, tre i bredd. På varje kort står tre ord under varandra och under dem en tom sten med skrivrad. Det första kortet är ett exempel: i betänketid, tänkare och tänka är tänk inringat och står redan i stenen. På de andra åtta korten gör barnet samma sak med ord som bygga, byggnad och byggare, läsare, läsa och läsning, vänlighet, väninna och vänskaplig eller välsmakande, smakfull och smaka. Barnet ringar in den del som de tre orden har gemensamt och skriver ordstammen i den tomma stenen.",
+   "p2": "Här vänds uppgiften från grundsidan om släktord. I stället för att sortera ord efter en given ordstam ska barnet själv hitta stammen. Det kräver att barnet ser igenom förstavelser som be, in, med, över och väl och ändelser som are, ning, lig, bar och ande. Orden är valda så att stammen ibland står först och ibland mitt i ordet, som tänk i betänketid och lär i inlärning. Väninna och lärling är ord som är värda att prata om. Lgr22 lyfter i svenska för årskurs 1–3 hur ord är uppbyggda. Kortet med spela, spelning och medspelare bygger på samma stam som grundsidan och fungerar som repetition.",
+   "p3": "Sidan passar i åk 2, efter grundsidan om släktord. Gå igenom exempelkortet tillsammans och låt barnen säga stammen högt. Bladet fungerar i svartvitt. Serien fortsätter med prefixen åter, miss och över och med släktord i meningar i åk 3.",
+   "canonicalDeckSlug": "slaktord-prefix-och-suffix-g2375",
+   "carousel": [
+    {
+     "label": "Släktord: sortera orden efter ordstammen",
+     "href": "slaktord"
+    },
+    {
+     "label": "Släktord med bilder: ringa in rätt ord",
+     "href": "slaktord-med-bilder"
+    },
+    {
+     "label": "Prefixen åter-, miss- och över-: välj efter betydelse",
+     "href": "prefix-ater-miss-over"
+    },
+    {
+     "label": "Vem gör det? Skriv ordet för personen",
+     "href": "vem-gor-det-ord-for-personer"
+    }
+   ],
+   "title": "Hitta ordstammen – släktord åk 2 | skriva ut PDF gratis",
+   "metaDescription": "Nio kort med tre släktord, som flyga, flygning och överflygning. Barnet ringar in delen de har gemensamt och skriver ordstammen. Åk 2. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "prefix-ater-miss-over",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "prefixes-re-pre-mis",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Prefix",
+   "h1": "Prefixen åter-, miss- och över-: välj efter betydelse",
+   "strand": "Ord och begrepp",
+   "standard": "L.2.4.b",
+   "slotTokens": [
+    "slaktord-prefix-och-suffix",
+    "ak-2"
+   ],
+   "p1": "Överst står en nyckel med tre pusselbitar och deras betydelse: åter betyder igen eller en gång till, miss betyder fel och över betyder för mycket. Under den följer åtta rader. Till vänster står en förklaring av ett nytt ord, till exempel komma tillbaka hem efter en lång resa eller inte klara det som man försöker göra, och till höger ett verb i en pusselbit med en tom bit framför. Verben är berätta, vända, koka, förstå, använda, fylla, få och lyckas. Barnet läser vad varje nytt ord betyder, hittar dess prefix i nyckeln och skriver det i den tomma biten.",
+   "p2": "Ett prefix är en förstavelse som ändrar ordets betydelse. Med åter blir berätta återberätta, med miss blir lyckas misslyckas och med över blir fylla överfylla. Pusselbitarna visar att prefixet och verbet sätts ihop till ett nytt ord. Förklaringarna upprepar inte nyckelns ord utan beskriver situationer, så barnet måste förstå vad som händer: att komma tillbaka är att göra något igen, att inte klara något är att det blir fel och att hälla så att saften rinner över är för mycket. Hälften av verben tar åter, och resten delas lika mellan miss och över. Lgr22 lyfter hur ord är uppbyggda i svenska för årskurs 1–3.",
+   "p3": "Sidan passar i åk 2 men ligger i överkant; återfå och överkoka är inga vardagsord för en åttaåring. Läs gärna förklaringarna högt och prata om varje nytt ord innan barnen skriver. Bladet fungerar i svartvitt. Det hör till serien om släktord och följs av sidan om ord för personer i åk 3.",
+   "canonicalDeckSlug": "slaktord-prefix-och-suffix-g2376",
+   "carousel": [
+    {
+     "label": "Släktord: sortera orden efter ordstammen",
+     "href": "slaktord"
+    },
+    {
+     "label": "Släktord med bilder: ringa in rätt ord",
+     "href": "slaktord-med-bilder"
+    },
+    {
+     "label": "Hitta ordstammen",
+     "href": "hitta-ordstammen"
+    },
+    {
+     "label": "Vem gör det? Skriv ordet för personen",
+     "href": "vem-gor-det-ord-for-personer"
+    }
+   ],
+   "title": "Prefix åter-, miss- och över- – välj efter betydelse – åk 2 | PDF gratis",
+   "metaDescription": "En nyckel med åter (igen), miss (fel) och över (för mycket) och åtta verb, som berätta och förstå. Barnet skriver rätt prefix framför. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "vem-gor-det-ord-for-personer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "who-does-it-person-words",
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Ord för personer",
+   "h1": "Vem gör det? Skriv ordet för personen",
+   "strand": "Ord och begrepp",
+   "standard": "L.3.4.b",
+   "slotTokens": [
+    "slaktord-prefix-och-suffix",
+    "ak-3"
+   ],
+   "p1": "Sidan har åtta kort, två i bredd. På varje kort står en färgbild av en person i arbete och bredvid den ett ord i en ram, med en streckad skrivruta under. Personerna och orden är en läkare med ordet läka, en apotekare med apotek, en byggare med bygga, en löpare med löpa, en lärare med lära, en städare med städa, en dansare med dans och en sångare med sång. Barnet tittar på varje person, läser ordet bredvid och skriver ordet för personen i den streckade rutan.",
+   "p2": "Ändelsen are gör ett verb eller substantiv till ett ord för den som gör något. Löpa blir löpare, städa blir städare och sång blir sångare, och alla åtta svar slutar på are. Inget av orden ändras på vägen: från verben tas slutets a bort innan are läggs till, och till substantiven läggs are direkt, som när apotek blir apotekare. Bilden på byggaren visar en man med hjälm och verktygsbälte, som också kan kallas byggarbetare eller snickare, och dansaren är en balettdansös, så säg gärna orden högt först. Lgr22 lyfter hur ord är uppbyggda i svenska för årskurs 1–3.",
+   "p3": "Sidan passar i åk 3. Gör gärna en lista i helklass med fler are-ord efteråt, som målare och simmare, och lägg till ord med andra ändelser. Bladet blir tydligast i färg. Det hör till serien om släktord och följs av sidan om släktord i meningar.",
+   "canonicalDeckSlug": "slaktord-prefix-och-suffix-g3398",
+   "carousel": [
+    {
+     "label": "Släktord: sortera orden efter ordstammen",
+     "href": "slaktord"
+    },
+    {
+     "label": "Släktord med bilder: ringa in rätt ord",
+     "href": "slaktord-med-bilder"
+    },
+    {
+     "label": "Hitta ordstammen",
+     "href": "hitta-ordstammen"
+    },
+    {
+     "label": "Prefixen åter-, miss- och över-: välj efter betydelse",
+     "href": "prefix-ater-miss-over"
+    }
+   ],
+   "title": "Vem gör det? Ord för personer med -are – åk 3 | skriva ut PDF gratis",
+   "metaDescription": "Åtta personer i arbete och ett ord vid varje, som läka, bygga, städa och sång. Barnet skriver ordet för personen, som läkare och städare. Åk 3. Gratis PDF."
+  },
+  {
+   "slug": "slaktord-i-meningar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "root-words-in-sentences",
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Släktord i meningar",
+   "h1": "Släktord i meningar",
+   "strand": "Ord och begrepp",
+   "standard": "L.3.4.c",
+   "slotTokens": [
+    "slaktord-prefix-och-suffix",
+    "ak-3"
+   ],
+   "p1": "Sidan har två block. Överst i varje block står fyra ord i ramar och under dem en sten med ordstammen. I det första blocket är orden lära, lärare, lärobok och lärorik och stammen lär, i det andra hjälpsam, hjälpare, hjälpmedel och hjälpa och stammen hjälp. Under varje block följer fyra meningar med en tom ruta, till exempel Storasyster ska … mig att cykla i sommar och Glasögon är ett … för den som ser dåligt. Barnet skriver vart och ett av de fyra orden i den mening där det passar.",
+   "p2": "Nu ska släktorden användas. Det räcker inte att se att orden hör ihop; barnet måste välja det ord i familjen som passar grammatiskt och betydelsemässigt i meningen. Ett verb efter ska, ett substantiv efter ett och ett adjektiv efter vara eller efter rolig och. Det kopplar ordkunskap till grammatik. Lgr22 lyfter hur ord är uppbyggda och hur meningar byggs i svenska för årskurs 1–3. Alla luckor fylls med ordet precis som det står i rutan, utan att det behöver böjas, vilket gör sidan lagom svår som en första övning. Lär-familjen passar bra för samtal, eftersom lära och lärare finns i barnets vardag varje dag.",
+   "p3": "Sidan passar i åk 3 och är den mest avancerade i serien om släktord. Låt barnen efteråt skriva egna meningar med ett femte ord i varje familj, till exempel lärling eller hjälplös. Bladet fungerar i svartvitt.",
+   "canonicalDeckSlug": "slaktord-prefix-och-suffix-g3399",
+   "carousel": [
+    {
+     "label": "Släktord: sortera orden efter ordstammen",
+     "href": "slaktord"
+    },
+    {
+     "label": "Släktord med bilder: ringa in rätt ord",
+     "href": "slaktord-med-bilder"
+    },
+    {
+     "label": "Hitta ordstammen",
+     "href": "hitta-ordstammen"
+    },
+    {
+     "label": "Prefixen åter-, miss- och över-: välj efter betydelse",
+     "href": "prefix-ater-miss-over"
+    }
+   ],
+   "title": "Släktord i meningar – åk 3 | skriva ut PDF gratis",
+   "metaDescription": "Två ordfamiljer, lär och hjälp, med fyra ord var och åtta meningar med luckor. Barnet skriver varje släktord i den mening där det passar. Åk 3. Gratis PDF."
   }
  ]
 }

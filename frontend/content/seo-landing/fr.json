@@ -142317,6 +142317,2445 @@
    ],
    "title": "Arrondir le même nombre à la dizaine et à la centaine | PDF CE2",
    "metaDescription": "Huit nombres arrondis deux fois, une colonne dizaine et une colonne centaine : cinq d'entre eux montent d'un côté et descendent de l'autre. Fiche CE2 en PDF."
+  },
+  {
+   "slug": "les-figures-planes-maternelle",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "base",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Maternelle · Figures planes",
+   "h1": "Les figures planes : entoure le nom, même quand la figure est tournée",
+   "strand": "Espace et géométrie",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "figures-planes",
+    "maternelle"
+   ],
+   "p1": "Six cartes numérotées remplissent la page, sur deux colonnes. Dans chacune, une figure tracée au trait vert occupe un disque blanc, et trois étiquettes attendent à côté : cercle, carré, triangle ou rectangle, selon la carte. L’enfant regarde la figure et entoure son nom. Sur la page que nous avons imprimée, on trouve deux triangles, deux carrés, un cercle et un rectangle, et presque aucune n’est posée « comme dans le livre » : un triangle est long et couché, l’autre étroit et pointu vers le haut, un carré penche légèrement, l’autre repose sur une pointe, et le rectangle traverse sa carte en diagonale. Cette fiche de maternelle pour la grande section vise précisément ce moment où l’on nomme une forme sans se fier à sa position.",
+   "p2": "C’est tout l’enjeu de la page. Beaucoup d’enfants de cinq ans ne reconnaissent le triangle que « debout », sa base en bas, et baptisent « losange » le carré posé sur sa pointe. Les programmes officiels de l’école maternelle demandent justement de reconnaître et nommer quelques formes planes, quelle que soit leur orientation, avant que le CP ne parle de côtés et de sommets. Les noms sont écrits : l’enfant non lecteur s’appuie sur l’adulte qui les lit à voix haute, puis sur la première lettre de chaque étiquette.",
+   "p3": "Une page, six figures, trois noms par carte, et tout fonctionne en noir et blanc puisque seules les lignes comptent. Un bon prolongement : faire tourner la feuille pour « redresser » le carré posé sur la pointe et constater qu’il reste un carré. Les autres pages de la famille changent chacune un seul élément : repérer les vraies figures parmi les fausses, retrouver les formes dans des objets du quotidien, écrire le nom, résoudre des devinettes, tracer sur des points.",
+   "canonicalDeckSlug": "figures-planes-k368",
+   "carousel": [
+    {
+     "label": "Reconnaître les figures planes : vraie ou fausse ?",
+     "href": "reconnaitre-les-figures-planes-cp"
+    },
+    {
+     "label": "Les figures planes autour de nous : cercle ou rectangle ?",
+     "href": "figures-planes-autour-de-nous-maternelle"
+    },
+    {
+     "label": "Écris le nom des figures planes",
+     "href": "ecrire-le-nom-des-figures-planes-cp"
+    },
+    {
+     "label": "Devinettes sur les figures planes : qui suis-je ?",
+     "href": "devinettes-figures-planes-cp"
+    }
+   ],
+   "title": "Les figures planes en maternelle | à imprimer en PDF gratuit",
+   "metaDescription": "Six figures planes, dont certaines tournées ou très allongées, et trois noms à côté de chacune : cercle, carré, triangle ou rectangle. L’enfant entoure le bon."
+  },
+  {
+   "slug": "securite-routiere-maternelle-les-feux",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "base",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Maternelle · Sécurité routière",
+   "h1": "Sécurité routière : les feux, s’arrêter ou passer",
+   "strand": "Éducation à la sécurité routière",
+   "slotTokens": [
+    "securite-routiere",
+    "maternelle"
+   ],
+   "p1": "La page est découpée en six scènes de rue, chacune construite autour d’un feu. Trois feux sont des feux tricolores pour les voitures, trois sont des feux piétons avec le bonhomme. Dans chaque scène, une seule lampe est allumée en couleur, et deux étiquettes attendent de part et d’autre : « la voiture s’arrête » et « la voiture passe » sous les feux tricolores, « j’attends » et « je traverse » près des feux piétons, chaque fois avec un petit dessin. Sur notre exemplaire, le rouge s’allume deux fois pour les voitures et le vert une fois ; côté piétons, le bonhomme rouge apparaît une fois et le vert deux fois. L’enfant regarde la lampe allumée et entoure ce qu’on doit faire.",
+   "p2": "C’est la première règle que l’on enseigne en sécurité routière à l’école maternelle, et la plus concrète : le rouge arrête, le vert autorise. La page mêle volontairement les deux points de vue, celui de la voiture et celui du piéton, parce que l’enfant de cinq ans ne sait pas encore que le feu des voitures et le feu des piétons ne disent pas la même chose au même moment. L’Attestation de première éducation à la route, l’APER, commence précisément par ces situations de piéton.",
+   "p3": "Une page, six situations, aucune lecture indispensable grâce aux dessins qui accompagnent chaque étiquette. Pour prolonger, observez un vrai passage piéton près de l’école et nommez à voix haute ce que fait chacun. Les pages sœurs abordent le coloriage des feux, les étapes pour traverser, puis les panneaux de signalisation pour les plus grands.",
+   "canonicalDeckSlug": "securite-routiere-k369",
+   "carousel": [
+    {
+     "label": "Sécurité routière : colorie les feux",
+     "href": "colorier-les-feux-securite-routiere"
+    },
+    {
+     "label": "Traverser la rue en sécurité : les étapes dans l’ordre",
+     "href": "traverser-la-rue-en-securite-etapes"
+    },
+    {
+     "label": "Sécurité routière : les panneaux et leur sens",
+     "href": "panneaux-de-signalisation-et-leur-sens-cp"
+    },
+    {
+     "label": "Sécurité routière : classer les panneaux de danger, d’interdiction et d’obligation",
+     "href": "classer-les-panneaux-de-signalisation-ce1"
+    }
+   ],
+   "title": "Sécurité routière en maternelle : les feux | à imprimer en PDF gratuit",
+   "metaDescription": "Six feux, pour les voitures et pour les piétons, avec une lampe allumée. L’enfant entoure ce qu’on doit faire : la voiture s’arrête ou passe, j’attends ou je traverse."
+  },
+  {
+   "slug": "les-membres-de-la-famille-maternelle",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "base",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Maternelle · Famille",
+   "h1": "Les membres de la famille : qui est qui ?",
+   "strand": "Questionner le monde : le temps, les générations",
+   "slotTokens": [
+    "membres-de-la-famille",
+    "maternelle"
+   ],
+   "p1": "Un arbre en forme de nuage réunit six portraits. Au pied, Nino, repéré par une étoile, et à côté de lui une fille dessinée plus grande que lui, sa grande sœur. Au milieu, une femme aux cheveux bouclés et un homme, reliés par un trait qui descend vers les enfants. En haut, une grand-mère et un grand-père, tous deux à lunettes, lui avec une barbe et une moustache, dont la ligne mène au papa. Cinq portraits portent un numéro. Sous l’arbre, cinq étiquettes : la sœur, la maman, la mamie, le papi, le papa, chacune suivie d’une case. L’enfant trouve la personne sur l’arbre et écrit son numéro à côté du mot qui la nomme. Cette page de maternelle ouvre toute la famille de fiches sur la famille.",
+   "p2": "Tout se joue du point de vue de Nino : « la maman », c’est la maman de Nino. Comprendre qu’un mot de parenté désigne une relation, et pas une personne en soi, est une vraie découverte pour un enfant de cinq ans ; la mamie de Nino est aussi la maman de son papa. Les programmes de l’école maternelle et, au cycle 2, Questionner le monde abordent ces liens entre générations. Les traits de l’arbre aident : la grand-mère et le grand-père sont en haut, les enfants en bas.",
+   "p3": "Écrire un chiffre suffit ; les mots peuvent être lus par l’adulte. En atelier, chaque enfant peut ensuite montrer sa propre mamie ou son papi sur une photo. Les pages sœurs vont plus loin : ranger les générations, tracer les mots de la famille, lire des indices sur un arbre généalogique ou en compléter un vierge.",
+   "canonicalDeckSlug": "membres-de-la-famille-k370",
+   "carousel": [
+    {
+     "label": "Les générations de la famille : du plus âgé au plus jeune",
+     "href": "les-generations-de-la-famille-cp"
+    },
+    {
+     "label": "Le vocabulaire de la famille : trace et écris",
+     "href": "vocabulaire-de-la-famille-tracer-et-ecrire"
+    },
+    {
+     "label": "L’arbre généalogique : lis les indices",
+     "href": "arbre-genealogique-lire-les-indices-cp"
+    },
+    {
+     "label": "Les liens de parenté : devinettes",
+     "href": "liens-de-parente-devinettes-ce1"
+    }
+   ],
+   "title": "Les membres de la famille en maternelle | à imprimer en PDF gratuit",
+   "metaDescription": "Un petit arbre avec Nino et cinq personnes numérotées, et cinq mots : maman, papa, mamie, papi, sœur. L’enfant écrit le bon numéro à côté de chaque mot."
+  },
+  {
+   "slug": "les-parties-de-la-plante-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "base",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Le vivant",
+   "h1": "Les parties de la plante : légende le dessin",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "parties-de-la-plante",
+    "cp"
+   ],
+   "p1": "Une grande plante occupe la moitié gauche de la page : des racines dans un bac de terre, une tige droite, quatre feuilles, une fleur à cinq pétales et une gousse de pois ouverte qui laisse voir ses graines. Six pastilles orange numérotées sont reliées par un trait à un petit rond posé sur une partie. À droite, six lignes numérotées attendent un mot, et en haut une liste en donne six : graine, feuille, tige, fruit, racines, fleur. L’enfant suit chaque trait jusqu’à la partie désignée et écrit son nom sur la ligne du même numéro. Toutes les parties sont sur un seul et même dessin, ce qui montre la plante entière, du sol à la graine.",
+   "p2": "Nommer les parties de la plante est l’un des premiers savoirs sur le vivant au cycle 2, dans le programme de Questionner le monde. La gousse porte deux étiquettes : l’une sur son extrémité, pour le fruit, l’autre sur une graine sombre à l’intérieur. C’est une belle occasion d’expliquer que la graine est à l’intérieur du fruit ; montrez la différence au doigt si des élèves hésitent. La fleur est désignée par un de ses pétales et la feuille par une feuille du haut, bien détachée de la tige, ce qui laisse peu de place au doute ailleurs sur le dessin.",
+   "p3": "Une page, un dessin, six mots à écrire. Si possible, apportez une vraie gousse de pois ou de haricot et ouvrez-la devant la classe. Les pages sœurs de la famille changent chacune un point : ce dont la plante a besoin pour pousser, son cycle de vie, les parties que l’on mange, le rôle de chaque partie et, pour le CE2, les parties de la fleur.",
+   "canonicalDeckSlug": "parties-de-la-plante-g1376",
+   "carousel": [
+    {
+     "label": "De quoi une plante a-t-elle besoin pour pousser ?",
+     "href": "besoins-des-plantes-pour-pousser-maternelle"
+    },
+    {
+     "label": "Le cycle de vie d’une plante : de la graine à la plante",
+     "href": "cycle-de-vie-d-une-plante-decouper-coller"
+    },
+    {
+     "label": "Les parties des plantes que l’on mange",
+     "href": "parties-des-plantes-que-l-on-mange-ce1"
+    },
+    {
+     "label": "Le rôle de chaque partie de la plante",
+     "href": "parties-de-la-plante-et-leurs-fonctions-ce1"
+    }
+   ],
+   "title": "Les parties de la plante au CP | à imprimer en PDF gratuit",
+   "metaDescription": "Une plante en pot avec six étiquettes numérotées et une liste : racines, tige, feuille, fleur, fruit, graine. L’enfant écrit chaque nom sur la bonne ligne."
+  },
+  {
+   "slug": "le-cycle-de-vie-du-papillon-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "base",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Le vivant",
+   "h1": "Le cycle de vie du papillon",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "cycles-de-vie-des-animaux",
+    "cp"
+   ],
+   "p1": "Une plante fleurie se dresse au centre. Quatre loupes rondes, reliées par un trait à un petit détail sur la plante, grossissent chaque étape : l’œuf posé sur une feuille, déjà marqué du chiffre 1 ; la chenille qui mange une feuille ; la chrysalide suspendue sous une autre ; le papillon posé sur la fleur. Sous trois loupes, une case vide. L’enfant y écrit 2, 3 et 4, dans l’ordre de la croissance. En bas, séparé par un pointillé, le papillon revient seul, suivi d’une flèche et d’une dernière case : l’enfant y écrit le numéro de l’image qui suit le papillon. La réponse est 1, l’œuf, et le cycle se referme.",
+   "p2": "Le cycle de vie du papillon est un grand classique du cycle 2 en France, dans le domaine du vivant de Questionner le monde, souvent accompagné d’un élevage de chenilles en classe. La dernière case évite le piège de la frise qui s’arrête au papillon : elle oblige à penser la boucle. Les étapes sont placées là où on les trouve vraiment dans la nature, sur la plante, ce qui donne une indication supplémentaire aux élèves attentifs.",
+   "p3": "Quatre chiffres à écrire, rien d’autre à lire que la consigne. Demandez aux élèves de raconter l’histoire du papillon en quatre phrases, en suivant leurs numéros. Les pages sœurs de la famille proposent le cycle de la grenouille à découper et coller, la légende du cycle du papillon, la métamorphose de plusieurs animaux et une comparaison papillon-grenouille.",
+   "canonicalDeckSlug": "cycles-de-vie-des-animaux-g1377",
+   "carousel": [
+    {
+     "label": "Le cycle de vie de la grenouille : découper et coller",
+     "href": "cycle-de-vie-de-la-grenouille-decouper-coller"
+    },
+    {
+     "label": "Légender le cycle de vie du papillon",
+     "href": "legender-le-cycle-de-vie-du-papillon-ce1"
+    },
+    {
+     "label": "La métamorphose : quel animal va-t-il devenir ?",
+     "href": "la-metamorphose-des-animaux-ce1"
+    },
+    {
+     "label": "Comparer le cycle de vie du papillon et de la grenouille",
+     "href": "comparer-cycle-de-vie-papillon-grenouille-ce2"
+    }
+   ],
+   "title": "Le cycle de vie du papillon au CP | à imprimer en PDF gratuit",
+   "metaDescription": "Un œuf, une chenille, une chrysalide, un papillon autour d’une plante : l’enfant écrit 2, 3 et 4 dans l’ordre, puis retrouve ce qui vient après le papillon."
+  },
+  {
+   "slug": "le-soleil-la-terre-et-la-lune-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "base",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Le ciel et la Terre",
+   "h1": "Le Soleil, la Terre et la Lune : de qui parle la phrase ?",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "soleil-terre-lune-planetes",
+    "cp"
+   ],
+   "p1": "Un tableau à trois colonnes occupe la page, sous un soleil orange, une Terre bleue et verte et une petite Lune à cratères, chacun avec son nom. Huit phrases numérotées forment les lignes : « Cet astre tourne autour de notre planète. », « Sa rotation nous donne le jour et la nuit. », « Cet astre est le plus grand des trois. », « Sa forme semble changer. », « C’est une étoile. », « Cet astre est couvert de cratères. », « C’est une planète. », « Cet astre est le plus chaud des trois. » L’enfant coche une case par ligne. Sur notre page, trois phrases vont au Soleil, deux à la Terre et trois à la Lune.",
+   "p2": "Distinguer les trois astres est le socle de tout ce qui suit sur le ciel : le Soleil est une étoile, la Terre est notre planète, la Lune tourne autour d’elle. Une phrase demande de la réflexion : « Cet astre tourne autour de notre planète » parle de la Lune, et il faut savoir que notre planète, c’est la Terre. Deux autres jouent sur la comparaison, le plus grand et le plus chaud des trois. En France, ces notions apparaissent dans Questionner le monde surtout au CE1 et au CE2 ; au CP, la page se travaille à l’oral, phrase par phrase, avec un globe et une lampe si possible.",
+   "p3": "Huit coches, une par ligne. Aucun astre n’est piégé par le dessin : c’est la phrase qui décide. Dans la même famille, d’autres pages portent sur les phases de la Lune, l’alternance du jour et de la nuit, puis, pour le CE2, les planètes du système solaire. Cette page n’en montre aucune : elle se concentre sur les trois astres que l’enfant voit.",
+   "canonicalDeckSlug": "soleil-terre-lune-planetes-g1378",
+   "carousel": [
+    {
+     "label": "Les phases de la Lune dans l’ordre",
+     "href": "les-phases-de-la-lune-dans-l-ordre"
+    },
+    {
+     "label": "Nommer les phases de la Lune",
+     "href": "nommer-les-phases-de-la-lune-ce1"
+    },
+    {
+     "label": "Pourquoi y a-t-il le jour et la nuit ?",
+     "href": "l-alternance-du-jour-et-de-la-nuit-ce1"
+    },
+    {
+     "label": "Les planètes du système solaire dans l’ordre",
+     "href": "les-planetes-du-systeme-solaire-dans-l-ordre"
+    }
+   ],
+   "title": "Le Soleil, la Terre et la Lune au CP | à imprimer en PDF gratuit",
+   "metaDescription": "Huit phrases, comme « C’est une étoile » ou « Sa forme semble changer », et trois colonnes : l’enfant coche le Soleil, la Terre ou la Lune."
+  },
+  {
+   "slug": "lire-la-legende-d-un-plan-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "base",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Se repérer sur un plan",
+   "h1": "Lire la légende d’un plan",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "lire-une-carte",
+    "cp"
+   ],
+   "p1": "Le plan d’un parc, vu de dessus, occupe le haut de la page : une île entourée d’eau, un chemin qui la traverse de part en part, un ruisseau et, disséminés, des arbres, des buissons, des bancs et des massifs de fleurs, avec un pont là où le chemin croise le ruisseau. Une flèche marquée N indique le nord. Sous le plan, une légende de cinq symboles : massif de fleurs, pont, banc, arbre, buisson. En bas, cinq cartes reprennent ces mots, chacune avec une case. L’enfant regarde la légende, trouve chaque chose sur le plan, la compte et écrit le nombre dans la case. Sur notre plan, on trouve un pont, cinq arbres, quatre bancs, deux buissons et trois massifs de fleurs.",
+   "p2": "Se repérer sur un plan commence par comprendre qu’un dessin vu de dessus représente un lieu, et qu’un symbole remplace un objet. C’est au cœur de la partie « se situer dans l’espace » de Questionner le monde au CP. L’arbre et le buisson se ressemblent : l’un a un feuillage festonné, l’autre un contour lisse en trois bosses. Sans la légende, impossible de les séparer, et c’est exactement ce que la page veut faire comprendre. Les nombres restent petits, de un à cinq, pour que l’attention porte sur la lecture des symboles plutôt que sur le comptage.",
+   "p3": "Cinq nombres à écrire. Proposez ensuite de dessiner le plan de la classe avec sa propre légende. Les pages sœurs de la famille abordent la vue de dessus en maternelle, la rose des vents, les continents et les océans, puis les points cardinaux sur une carte.",
+   "canonicalDeckSlug": "lire-une-carte-g1379",
+   "carousel": [
+    {
+     "label": "Vu de côté, vu de dessus : relie les objets",
+     "href": "vue-de-dessus-vue-de-cote-maternelle"
+    },
+    {
+     "label": "Les points cardinaux : complète la rose des vents",
+     "href": "la-rose-des-vents-points-cardinaux-ce1"
+    },
+    {
+     "label": "Les continents : écris leur nom",
+     "href": "les-continents-ecrire-leur-nom-ce1"
+    },
+    {
+     "label": "Les continents et les océans sur la carte",
+     "href": "les-continents-et-les-oceans-ce2"
+    }
+   ],
+   "title": "Se repérer sur un plan : lire la légende, CP | à imprimer en PDF gratuit",
+   "metaDescription": "Le plan d’un parc et sa légende de cinq symboles : massif de fleurs, pont, banc, arbre, buisson. L’enfant compte chaque chose sur le plan et écrit le nombre."
+  },
+  {
+   "slug": "sons-complexes-ou-on-oi-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "digraphs",
+    "mode": "base",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Sons complexes",
+   "h1": "Sons complexes ou, on, oi : quel son entends-tu ?",
+   "strand": "Lecture et compréhension de l’écrit",
+   "standard": "RF.1.3.a",
+   "slotTokens": [
+    "sons-complexes",
+    "cp"
+   ],
+   "p1": "Un tableau de huit lignes et trois colonnes, coiffées des sons ou, on et oi. À gauche de chaque ligne, une image numérotée ; à droite, les trois sons répétés dans des étiquettes. Sur notre exemplaire, les images sont une passoire, un coussin, un papillon, des tongs, une bougie, un couteau, un miroir et un citron. L’enfant dit le nom de chaque image et entoure le son qu’il entend. Trois images font entendre ou, trois font entendre on et deux font entendre oi. Chaque mot ne contient qu’un seul de ces trois sons, ce qui évite les hésitations au moment d’entourer.",
+   "p2": "Les sons complexes sont un grand chantier du CP : deux lettres pour un seul son, qu’il faut apprendre à entendre avant de savoir le lire. Les programmes officiels du cycle 2 placent cette correspondance entre graphèmes et phonèmes au cœur de l’apprentissage de la lecture. Tout se joue ici à l’oral, car l’enfant n’a pas les mots écrits. D’où une précaution : quelques images acceptent un autre nom. La passoire peut devenir un égouttoir, qui fait entendre à la fois ou et oi ; les tongs, des sandales ou des claquettes, sans aucun des trois sons ; le coussin, un oreiller ; le miroir, une glace. Nommez les images ensemble avant de commencer.",
+   "p3": "Une page, huit sons à entourer, aucune lecture. Faites prononcer lentement chaque mot en tapant les syllabes. C’est la page de base de la famille ; les autres ajoutent un seul élément : trier deux sons en maternelle, compléter des mots, lire et relier, situer le son dans le mot, puis retrouver le son ou dans des phrases.",
+   "canonicalDeckSlug": "sons-complexes-g1380",
+   "carousel": [
+    {
+     "label": "Sons complexes en maternelle : trier ou et on",
+     "href": "sons-ou-et-on-maternelle-trier"
+    },
+    {
+     "label": "Sons complexes : complète avec ou, on ou oi",
+     "href": "completer-avec-ou-on-oi-cp"
+    },
+    {
+     "label": "Lire des mots avec ou, on, oi et les relier aux images",
+     "href": "lire-des-mots-avec-ou-on-oi-cp"
+    },
+    {
+     "label": "Où entends-tu le son ou, on ou oi dans le mot ?",
+     "href": "ou-entends-tu-le-son-ou-on-oi"
+    }
+   ],
+   "title": "Les sons complexes ou, on, oi au CP | à imprimer en PDF gratuit",
+   "metaDescription": "Huit images, de la passoire au citron, et trois sons à chaque ligne : ou, on, oi. L’enfant dit le nom de chaque image et entoure le son qu’il entend."
+  },
+  {
+   "slug": "les-synonymes-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "base",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Le lexique",
+   "h1": "Les synonymes : entoure le mot qui veut dire la même chose",
+   "strand": "Le lexique",
+   "standard": "L.2.5",
+   "slotTokens": [
+    "synonymes",
+    "ce1"
+   ],
+   "p1": "Huit cartes numérotées remplissent la page, sur deux colonnes. En haut de chaque carte, un mot écrit en grand, précédé de deux anneaux entrelacés : crier, sauter, étonné, choisir, tranquille, en colère, ordonné, simple. Dessous, quatre étiquettes, dont une seule veut dire la même chose. L’enfant lit le grand mot et entoure, en dessous, son synonyme. Sur notre exemplaire, il faut trouver hurler, bondir, surpris, sélectionner, paisible, fâché, rangé et facile. Les trois autres étiquettes de chaque carte sont des mots sans rapport de sens, parfois de la même nature, parfois non.",
+   "p2": "Les synonymes sont au programme du CE1 en étude de la langue, dans le lexique : comprendre que plusieurs mots peuvent dire presque la même chose, et choisir le plus juste. Cette page mêle des verbes, des adjectifs et une expression, « en colère », pour montrer que la notion ne concerne pas qu’une sorte de mots. Chaque carte n’a qu’une bonne réponse. Certains couples ne sont pas parfaitement équivalents, comme crier et hurler, plus fort : c’est l’occasion de dire qu’un synonyme est rarement un mot identique.",
+   "p3": "Huit mots à entourer. En prolongement, faites utiliser chaque paire dans une phrase. C’est la page de base de la famille ; les autres proposent les synonymes en images, les paires à relier, les nuances de sens, les synonymes du verbe dire et, pour le CE2, un champ lexical.",
+   "canonicalDeckSlug": "synonymes-g2358",
+   "carousel": [
+    {
+     "label": "Les synonymes en images : deux mots pour une image",
+     "href": "les-synonymes-en-images-cp"
+    },
+    {
+     "label": "Relier les synonymes deux à deux",
+     "href": "relier-les-synonymes-ce1"
+    },
+    {
+     "label": "Les nuances de sens : du plus faible au plus fort",
+     "href": "nuances-de-sens-du-plus-faible-au-plus-fort-cp"
+    },
+    {
+     "label": "Les synonymes du verbe dire : choisis le mot juste",
+     "href": "synonymes-du-verbe-dire-ce1"
+    }
+   ],
+   "title": "Les synonymes au CE1 | à imprimer en PDF gratuit",
+   "metaDescription": "Huit cartes, un mot en gros et quatre mots dessous : crier, sauter, étonné, choisir… L’enfant entoure le synonyme, le mot qui veut dire la même chose."
+  },
+  {
+   "slug": "prefixes-suffixes-et-radical-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "base",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Le lexique",
+   "h1": "Le radical : trier les mots selon leur radical",
+   "strand": "Le lexique",
+   "standard": "L.2.4.c",
+   "slotTokens": [
+    "prefixes-et-suffixes",
+    "ce1"
+   ],
+   "p1": "En haut, dix mots dans des cadres : agrandir, grandeur, terreux, terrestre, grandir, enterrement, agrandissement, grandissant, enterrer, extraterrestre. Dessous, deux murs de cinq lignes chacun, posés sur une pierre qui porte un mot : terre à gauche, grand à droite. L’enfant lit chaque mot du haut et l’écrit sur une ligne du mur qui s’élève sur son mot de base. Cinq mots vont sur chaque mur. Autour du mot de base, les mots portent des préfixes, a-, en-, extra-, et des suffixes, -eur, -eux, -estre, -ment, -issant : la page les rend visibles sans les nommer.",
+   "p2": "Trier par radical, c’est comprendre qu’un mot se construit : une base qui porte le sens, et des morceaux ajoutés devant ou derrière. Au CE1, les programmes officiels du cycle 2 rattachent ce travail au lexique. Ici, les deux mots de base se lisent en entier dans chacun de leurs cinq mots, terre dans terreux comme dans extraterrestre, grand dans agrandissement comme dans grandissant, ce qui permet à l’élève de vérifier son tri lettre par lettre. Les mots les plus longs, enterrement ou agrandissement, empilent un préfixe et un suffixe : c’est l’occasion de les découper ensemble.",
+   "p3": "Dix mots à recopier sur deux murs. Faites surligner ensuite, dans chaque mot, la partie commune. C’est la page de base de la famille ; les autres ajoutent les images, la recherche du radical commun, le choix d’un préfixe selon le sens et, pour le CE2, le radical dans la phrase.",
+   "canonicalDeckSlug": "prefixes-et-suffixes-g2359",
+   "carousel": [
+    {
+     "label": "Le radical en images : entoure le mot construit",
+     "href": "le-radical-en-images-cp"
+    },
+    {
+     "label": "Trouver le radical commun à trois mots",
+     "href": "trouver-le-mot-de-base-ce1"
+    },
+    {
+     "label": "Les préfixes re-, pré- et sur- : choisis selon le sens",
+     "href": "les-prefixes-re-pre-sur-ce1"
+    },
+    {
+     "label": "Le radical dans les phrases",
+     "href": "le-radical-dans-la-phrase-ce2"
+    }
+   ],
+   "title": "Préfixes, suffixes et radical au CE1 | à imprimer en PDF gratuit",
+   "metaDescription": "Dix mots, agrandir, terreux, grandeur, enterrer… et deux murs posés sur terre et grand : l’enfant écrit chaque mot sur le mur de son mot de base."
+  },
+  {
+   "slug": "reconnaitre-les-figures-planes-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shapes-real-or-not",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Figures planes",
+   "h1": "Reconnaître les figures planes : vraie ou fausse ?",
+   "strand": "Espace et géométrie",
+   "standard": "1.G.A.1",
+   "slotTokens": [
+    "figures-planes",
+    "cp"
+   ],
+   "p1": "Trois bandeaux se suivent, chacun coiffé d’un mot : triangle, rectangle, carré. Sous chaque mot, quatre disques blancs montrent quatre figures, et l’enfant entoure toutes celles qui portent vraiment ce nom. Les pièges sont soignés. Dans la rangée des triangles, un quart de disque, avec son côté arrondi, se glisse parmi trois vrais triangles. Dans celle des rectangles, un seul rectangle franc côtoie un quadrilatère irrégulier, un rectangle dont un côté n’est pas fermé et un rectangle aux coins arrondis. Dans celle des carrés, deux vrais carrés, dont un tourné, voisinent avec un carré ouvert et un parallélogramme penché. Sur notre exemplaire, il y a donc trois bonnes réponses, puis une, puis deux : le nombre change d’une rangée à l’autre.",
+   "p2": "Reconnaître une figure au CP, c’est vérifier ses propriétés plutôt que sa silhouette. Une figure ouverte n’est pas un polygone, un coin arrondi n’est pas un sommet, un côté courbe ne fait pas un triangle. Les programmes officiels du cycle 2 placent là le passage de la perception globale à l’examen des côtés et des angles droits. La consigne dit « toutes » : l’enfant ne peut pas s’arrêter à la première figure qui convient, il doit juger chacune.",
+   "p3": "Une seule page, douze figures, trois noms. Au moment de la correction, demandez à l’enfant de justifier chaque refus avec ses mots : « il manque un bout », « le coin est tout rond », « les côtés ne sont pas pareils ». La page de base de la famille se contente de nommer des figures tournées ; celle-ci ajoute les fausses figures, qui obligent à regarder de près.",
+   "canonicalDeckSlug": "figures-planes-g1381",
+   "carousel": [
+    {
+     "label": "Les figures planes : entoure le nom, même quand la figure est tournée",
+     "href": "les-figures-planes-maternelle"
+    },
+    {
+     "label": "Les figures planes autour de nous : cercle ou rectangle ?",
+     "href": "figures-planes-autour-de-nous-maternelle"
+    },
+    {
+     "label": "Écris le nom des figures planes",
+     "href": "ecrire-le-nom-des-figures-planes-cp"
+    },
+    {
+     "label": "Devinettes sur les figures planes : qui suis-je ?",
+     "href": "devinettes-figures-planes-cp"
+    }
+   ],
+   "title": "Reconnaître les figures planes au CP | à imprimer en PDF gratuit",
+   "metaDescription": "Trois rangées, un nom par rangée et quatre figures : l’enfant entoure seulement celles qui portent vraiment ce nom, pas celles qui y ressemblent presque."
+  },
+  {
+   "slug": "figures-planes-autour-de-nous-maternelle",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shapes-around-us",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Maternelle · Figures planes",
+   "h1": "Les figures planes autour de nous : cercle ou rectangle ?",
+   "strand": "Espace et géométrie",
+   "standard": "K.G.A.1",
+   "slotTokens": [
+    "figures-planes",
+    "maternelle"
+   ],
+   "p1": "Huit objets de tous les jours, dessinés en couleur, occupent huit cartes : une enveloppe, une assiette, une sucette, une porte, une horloge, une carte du monde accrochée au mur, un tableau blanc et une pizza. À côté de chaque objet, deux cadres identiques proposent un cercle vide avec le mot cercle, et un rectangle vide avec le mot rectangle. L’enfant regarde l’objet et colorie la forme qui lui correspond. Le partage est équilibré sur notre page : quatre objets ronds, quatre objets rectangulaires, mélangés d’une carte à l’autre. Seules ces deux formes sont en jeu, ce qui suffit en maternelle pour passer du dessin d’un objet à la figure qui en fait le contour.",
+   "p2": "C’est un premier pas vers l’abstraction. L’enfant ne manipule plus une forme découpée, il la cherche dans une image : la pizza n’est pas un cercle, mais elle a la forme d’un cercle. Les programmes de l’école maternelle invitent à reconnaître les formes dans l’environnement, et cette page en fait un exercice court, sans lecture obligatoire puisque le petit dessin du cercle et du rectangle accompagne chaque mot. La sucette, ronde au bout de son bâton, et la carte du monde, dont on regarde le contour et non les continents, demandent un peu plus d’attention que la porte ou l’assiette.",
+   "p3": "Une page de huit objets, à colorier au crayon de couleur. Elle peut précéder une chasse aux formes dans la classe : une fenêtre, une horloge, une étiquette de porte-manteau. Dans la même famille, la page de base fait entourer le nom de figures tournées, et d’autres pages proposent d’écrire les noms ou de tracer les figures sur des points.",
+   "canonicalDeckSlug": "figures-planes-k371",
+   "carousel": [
+    {
+     "label": "Les figures planes : entoure le nom, même quand la figure est tournée",
+     "href": "les-figures-planes-maternelle"
+    },
+    {
+     "label": "Reconnaître les figures planes : vraie ou fausse ?",
+     "href": "reconnaitre-les-figures-planes-cp"
+    },
+    {
+     "label": "Écris le nom des figures planes",
+     "href": "ecrire-le-nom-des-figures-planes-cp"
+    },
+    {
+     "label": "Devinettes sur les figures planes : qui suis-je ?",
+     "href": "devinettes-figures-planes-cp"
+    }
+   ],
+   "title": "Les figures planes autour de nous, maternelle | à imprimer en PDF gratuit",
+   "metaDescription": "Une enveloppe, une assiette, une horloge, une porte, une pizza : pour chacun des huit objets, l’enfant colorie la forme qu’il a, le cercle ou le rectangle."
+  },
+  {
+   "slug": "ecrire-le-nom-des-figures-planes-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shapes-write-the-names",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Figures planes",
+   "h1": "Écris le nom des figures planes",
+   "strand": "Espace et géométrie",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "figures-planes",
+    "cp"
+   ],
+   "p1": "En haut de la page, un encadré en pointillés propose quatre noms : rectangle, triangle, carré, cercle. Dessous, six bandes horizontales montrent chacune une figure dans un disque blanc, suivie d’une ligne d’écriture avec interligne. Sur notre exemplaire, on trouve un rectangle penché, un cercle, un carré tourné, un triangle étroit, puis un rectangle et un carré posés droit. Six figures pour quatre noms : le rectangle et le carré servent donc deux fois chacun, et la consigne le précise : un même nom peut servir plusieurs fois. L’enfant regarde la figure, retrouve le mot dans l’encadré et le recopie sur la ligne, lettre par lettre.",
+   "p2": "Écrire un nom oblige à le fixer. Au CP, l’enfant qui entoure « carré » parmi trois étiquettes peut encore deviner ; celui qui l’écrit doit distinguer carré et rectangle avant de choisir le modèle. La page associe ainsi deux apprentissages des programmes officiels du cycle 2 : nommer les figures usuelles en géométrie et copier un mot sans erreur en écriture. Placer une même figure deux fois, une fois tournée et une fois droite, montre que l’orientation ne change pas le nom.",
+   "p3": "Lisez la consigne à voix haute avant de commencer : elle précise qu’un mot de l’encadré peut servir plusieurs fois, et sans cette phrase certains élèves chercheraient une cinquième ou une sixième étiquette qui n’existe pas. La ligne avec interligne convient à l’écriture cursive du CP. Cette page est la version « écriture » de la famille ; la page de base, plus courte, fait seulement entourer le bon nom.",
+   "canonicalDeckSlug": "figures-planes-g1382",
+   "carousel": [
+    {
+     "label": "Les figures planes : entoure le nom, même quand la figure est tournée",
+     "href": "les-figures-planes-maternelle"
+    },
+    {
+     "label": "Reconnaître les figures planes : vraie ou fausse ?",
+     "href": "reconnaitre-les-figures-planes-cp"
+    },
+    {
+     "label": "Les figures planes autour de nous : cercle ou rectangle ?",
+     "href": "figures-planes-autour-de-nous-maternelle"
+    },
+    {
+     "label": "Devinettes sur les figures planes : qui suis-je ?",
+     "href": "devinettes-figures-planes-cp"
+    }
+   ],
+   "title": "Écrire le nom des figures planes au CP | à imprimer en PDF gratuit",
+   "metaDescription": "Six figures, une ligne d’écriture pour chacune et un encadré avec quatre noms : rectangle, triangle, carré, cercle. L’enfant écrit le nom de chaque figure."
+  },
+  {
+   "slug": "devinettes-figures-planes-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shape-riddles",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Figures planes",
+   "h1": "Devinettes sur les figures planes : qui suis-je ?",
+   "strand": "Espace et géométrie",
+   "standard": "1.G.A.1",
+   "slotTokens": [
+    "figures-planes",
+    "cp"
+   ],
+   "p1": "« Je suis tout rond et je n’ai aucun coin. Qui suis-je ? » Cinq cartes posent chacune une devinette de ce genre, écrite dans un cadre bleu clair, avec trois noms à entourer dessous. Les réponses couvrent cinq figures différentes, une fois chacune : le cercle, le carré, le triangle, l’hexagone et le rectangle. Aucune figure n’est dessinée : tout passe par la lecture des propriétés, le nombre de côtés et de coins, leur longueur, les coins droits « comme ceux d’un livre ». C’est le point qui distingue cette page de toutes ses voisines de la famille, où l’on voit toujours la figure avant de la nommer.",
+   "p2": "Passer du dessin à la description est un vrai saut. Au CP, les programmes officiels demandent de reconnaître et de décrire les figures usuelles avec un vocabulaire précis, et la devinette oblige à faire le chemin inverse : partir de la description pour retrouver la figure. Les devinettes du carré et du rectangle précisent toutes deux que les coins sont droits, ce qui écarte le losange et le parallélogramme auxquels un élève attentif pourrait penser. L’hexagone, absent des autres pages de la famille, apparaît ici comme réponse et comme étiquette proposée : c’est souvent le premier grand polygone dont les enfants retiennent le nom.",
+   "p3": "Une page de cinq devinettes, à lire seul en fin de CP ou avec l’adulte en début d’année. On peut ensuite faire écrire aux élèves leur propre devinette sur le même modèle, puis la faire deviner à un camarade. Pour réviser les noms avant, la page de base de la famille fait entourer le nom sous des figures dessinées et tournées.",
+   "canonicalDeckSlug": "figures-planes-g1383",
+   "carousel": [
+    {
+     "label": "Les figures planes : entoure le nom, même quand la figure est tournée",
+     "href": "les-figures-planes-maternelle"
+    },
+    {
+     "label": "Reconnaître les figures planes : vraie ou fausse ?",
+     "href": "reconnaitre-les-figures-planes-cp"
+    },
+    {
+     "label": "Les figures planes autour de nous : cercle ou rectangle ?",
+     "href": "figures-planes-autour-de-nous-maternelle"
+    },
+    {
+     "label": "Écris le nom des figures planes",
+     "href": "ecrire-le-nom-des-figures-planes-cp"
+    }
+   ],
+   "title": "Devinettes sur les figures planes, CP | à imprimer en PDF gratuit",
+   "metaDescription": "Cinq devinettes sur les côtés et les coins, du cercle à l’hexagone : l’enfant lit chaque « Qui suis-je ? » et entoure le nom de la figure parmi trois."
+  },
+  {
+   "slug": "tracer-les-figures-planes-sur-les-points",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shapes-draw-on-dots",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Maternelle · Figures planes",
+   "h1": "Tracer les figures planes sur les points",
+   "strand": "Espace et géométrie",
+   "standard": "K.G.B.5",
+   "slotTokens": [
+    "figures-planes",
+    "maternelle"
+   ],
+   "p1": "Quatre grands cadres, chacun couvert d’une grille de trente-six points, six sur six. Au-dessus de chaque grille, une étiquette donne un nom : triangle, carré, carré encore, puis rectangle sur notre exemplaire. Pour le triangle et le premier carré, la grille est vierge et l’enfant choisit où tracer. Pour le second carré et le rectangle, un trait orange épais est déjà posé entre deux points : un trait horizontal de trois intervalles pour le carré, un trait vertical de quatre intervalles pour le rectangle. C’est le premier côté, et la figure doit partir de lui, ce qui fixe sa taille : trois intervalles de côté pour le carré, quatre de haut pour le rectangle.",
+   "p2": "Tracer une figure, c’est la construire à partir de ses propriétés : trois côtés droits qui se rejoignent, quatre côtés égaux, des coins droits. Les programmes de l’école maternelle parlent de reproduire et d’assembler des formes ; le travail sur réseau de points, qui prépare le quadrillage du CP, en est une étape. Les deux grilles vierges laissent l’enfant libre de la taille et de la position. Les deux grilles avec un côté donné demandent de compter les points pour que le carré ait vraiment quatre côtés égaux, ce qui convient aux grands de grande section ou se fait avec l’adulte.",
+   "p3": "Imprimez en noir et blanc, le trait orange reste visible en gris foncé. Une règle courte aide beaucoup, mais le tracé à main levée d’un point à l’autre est déjà une réussite. La consigne commence par « Avec un adulte, lis le nom » : l’adulte lit l’étiquette aux non-lecteurs. Parmi les pages sœurs, celle des objets du quotidien et la page de base restent sans tracé.",
+   "canonicalDeckSlug": "figures-planes-k372",
+   "carousel": [
+    {
+     "label": "Les figures planes : entoure le nom, même quand la figure est tournée",
+     "href": "les-figures-planes-maternelle"
+    },
+    {
+     "label": "Reconnaître les figures planes : vraie ou fausse ?",
+     "href": "reconnaitre-les-figures-planes-cp"
+    },
+    {
+     "label": "Les figures planes autour de nous : cercle ou rectangle ?",
+     "href": "figures-planes-autour-de-nous-maternelle"
+    },
+    {
+     "label": "Écris le nom des figures planes",
+     "href": "ecrire-le-nom-des-figures-planes-cp"
+    }
+   ],
+   "title": "Tracer les figures planes sur les points | à imprimer en PDF gratuit",
+   "metaDescription": "Quatre grilles de six points sur six et un nom au-dessus de chacune : triangle, carré, rectangle. L’enfant relie les points pour tracer la figure demandée."
+  },
+  {
+   "slug": "colorier-les-feux-securite-routiere",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "road-safety-color-the-traffic-lights",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Maternelle · Sécurité routière",
+   "h1": "Sécurité routière : colorie les feux",
+   "strand": "Éducation à la sécurité routière",
+   "slotTokens": [
+    "securite-routiere",
+    "maternelle"
+   ],
+   "p1": "Six feux en noir et blanc se dressent sur deux trottoirs. Quatre sont des feux tricolores à trois lampes, deux sont des feux piétons à deux cases, le bonhomme debout en haut et le bonhomme qui marche en bas. Sur chaque feu, de petits rayons entourent une seule lampe : c’est celle qui brille. L’enfant la repère et la colorie de la bonne couleur. Aucune couleur n’est donnée sur la page : il faut savoir que la lampe du haut est rouge, celle du milieu orange et celle du bas verte. Sur notre exemplaire, les rayons désignent l’orange deux fois, le rouge une fois et le vert une fois pour les voitures, puis le bonhomme rouge et le bonhomme vert pour les piétons.",
+   "p2": "Colorier, ici, c’est prouver que l’on connaît la place des couleurs. Un enfant qui ne voit un feu qu’allumé peut répondre en regardant la couleur ; celui qui doit la choisir apprend que le rouge est toujours en haut. Ce repère de position est précieux dans la rue, par exemple pour un enfant qui distingue mal les couleurs. L’orange, souvent oublié par les plus jeunes, revient deux fois sur notre page, ce qui permet d’en parler : il annonce le rouge.",
+   "p3": "Prévoyez des crayons rouge, orange et vert. Avant de commencer, montrez un feu en photo et nommez les trois lampes de haut en bas. La page de base de la famille fait le chemin inverse : les lampes sont déjà allumées et l’enfant entoure ce qu’il faut faire. Pour la suite, une autre page ordonne les étapes pour traverser la rue.",
+   "canonicalDeckSlug": "securite-routiere-k373",
+   "carousel": [
+    {
+     "label": "Sécurité routière : les feux, s’arrêter ou passer",
+     "href": "securite-routiere-maternelle-les-feux"
+    },
+    {
+     "label": "Traverser la rue en sécurité : les étapes dans l’ordre",
+     "href": "traverser-la-rue-en-securite-etapes"
+    },
+    {
+     "label": "Sécurité routière : les panneaux et leur sens",
+     "href": "panneaux-de-signalisation-et-leur-sens-cp"
+    },
+    {
+     "label": "Sécurité routière : classer les panneaux de danger, d’interdiction et d’obligation",
+     "href": "classer-les-panneaux-de-signalisation-ce1"
+    }
+   ],
+   "title": "Sécurité routière : colorier les feux | à imprimer en PDF gratuit",
+   "metaDescription": "Six feux à colorier, quatre pour les voitures et deux pour les piétons : sur chacun, l’enfant trouve la lampe entourée de rayons et la colorie de sa couleur."
+  },
+  {
+   "slug": "traverser-la-rue-en-securite-etapes",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "crossing-the-road-safely-steps",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Maternelle · Sécurité routière",
+   "h1": "Traverser la rue en sécurité : les étapes dans l’ordre",
+   "strand": "Éducation à la sécurité routière",
+   "slotTokens": [
+    "securite-routiere",
+    "maternelle"
+   ],
+   "p1": "Quatre cartes montrent le même enfant, vu de dos, cartable sur le dos, au bord d’un passage piéton. Sur l’une, il se tient immobile au bord du trottoir. Sur deux autres, une flèche indique qu’il tourne la tête, une fois vers la gauche, une fois vers la droite. Sur la dernière, une flèche vers le haut accompagne ses pas sur les bandes blanches : la rue est libre, il traverse. Les cartes sont mélangées, et sous chacune une case en pointillés attend un chiffre. L’enfant écrit de 1 à 4 pour remettre les gestes dans l’ordre, du bord du trottoir à l’autre côté de la rue.",
+   "p2": "En France, les voitures roulent à droite : celles qui arrivent en premier viennent de la gauche, d’où la routine de la page, s’arrêter, regarder à gauche, regarder à droite, puis traverser quand la rue est libre. Il n’y a qu’un seul ordre possible, ce qui rend la correction simple et évite les débats inutiles. La page transforme la règle en routine visible, étape par étape, dans l’esprit de l’APER, l’Attestation de première éducation à la route, qui commence à l’école maternelle. Beaucoup d’enseignants ajoutent à l’oral un dernier coup d’œil à gauche avant de s’engager : la fiche ne le dessine pas, mais c’est une bonne occasion d’en parler.",
+   "p3": "Écrire les chiffres de 1 à 4 suffit, il n’y a rien à lire. Faites mimer les gestes dans la cour avant la fiche, s’arrêter, regarder, écouter, traverser : la page devient alors un rappel. Parmi les pages voisines, l’une travaille les feux pour savoir quand passer, une autre les couleurs des lampes, et les suivantes, pour les plus grands, les panneaux de signalisation.",
+   "canonicalDeckSlug": "securite-routiere-k374",
+   "carousel": [
+    {
+     "label": "Sécurité routière : les feux, s’arrêter ou passer",
+     "href": "securite-routiere-maternelle-les-feux"
+    },
+    {
+     "label": "Sécurité routière : colorie les feux",
+     "href": "colorier-les-feux-securite-routiere"
+    },
+    {
+     "label": "Sécurité routière : les panneaux et leur sens",
+     "href": "panneaux-de-signalisation-et-leur-sens-cp"
+    },
+    {
+     "label": "Sécurité routière : classer les panneaux de danger, d’interdiction et d’obligation",
+     "href": "classer-les-panneaux-de-signalisation-ce1"
+    }
+   ],
+   "title": "Traverser la rue en sécurité : les étapes | à imprimer en PDF gratuit",
+   "metaDescription": "Quatre images d’un enfant au passage piéton, dans le désordre : il s’arrête, regarde à gauche, regarde à droite, puis traverse. À numéroter de 1 à 4."
+  },
+  {
+   "slug": "panneaux-de-signalisation-et-leur-sens-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "road-safety-signs-and-meanings",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Sécurité routière",
+   "h1": "Sécurité routière : les panneaux et leur sens",
+   "strand": "Éducation à la sécurité routière",
+   "slotTokens": [
+    "securite-routiere",
+    "cp"
+   ],
+   "p1": "À gauche, six panneaux sur leur poteau : le sens interdit, le triangle « attention enfants », le STOP, le rond bleu de la piste cyclable, le carré bleu du passage pour piétons et le rond bleu du chemin réservé aux piétons. À droite, six phrases simples, dans le désordre : « Cette voie est réservée aux vélos », « Toutes les voitures doivent s’arrêter ici », « Ici, un passage piéton est tracé pour traverser la rue »… Un point orange suit chaque panneau et précède chaque phrase : l’enfant trace un trait pour relier le panneau à son sens. Six panneaux, six phrases, une seule bonne liaison pour chacun.",
+   "p2": "Au CP, l’enfant commence à lire assez pour comprendre la phrase, et c’est le bon moment pour associer forme, couleur et message. Deux panneaux bleus portent un piéton, l’un carré, l’autre rond : la page oblige à les distinguer, et c’est tout l’intérêt de la discussion. Ces panneaux sont ceux que l’enfant croise en allant à l’école, et leur lecture fait partie de l’éducation à la sécurité routière, reprise en enseignement moral et civique et dans l’APER.",
+   "p3": "Une page recto, six liaisons à tracer à la règle ou à main levée. Lisez les six phrases ensemble avant de relier, puis demandez de repérer ces panneaux sur le trajet de l’école. Pour aller plus loin au CE1, deux autres pages de la famille font classer les panneaux par famille, puis choisir le bon panneau pour une phrase.",
+   "canonicalDeckSlug": "securite-routiere-g1384",
+   "carousel": [
+    {
+     "label": "Sécurité routière : les feux, s’arrêter ou passer",
+     "href": "securite-routiere-maternelle-les-feux"
+    },
+    {
+     "label": "Sécurité routière : colorie les feux",
+     "href": "colorier-les-feux-securite-routiere"
+    },
+    {
+     "label": "Traverser la rue en sécurité : les étapes dans l’ordre",
+     "href": "traverser-la-rue-en-securite-etapes"
+    },
+    {
+     "label": "Sécurité routière : classer les panneaux de danger, d’interdiction et d’obligation",
+     "href": "classer-les-panneaux-de-signalisation-ce1"
+    }
+   ],
+   "title": "Panneaux de signalisation et leur sens, CP | à imprimer en PDF gratuit",
+   "metaDescription": "Six panneaux, dont STOP, sens interdit et passage pour piétons, et six phrases en face : l’enfant relie chaque panneau à ce qu’il veut dire."
+  },
+  {
+   "slug": "classer-les-panneaux-de-signalisation-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "road-safety-kinds-of-signs",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Sécurité routière",
+   "h1": "Sécurité routière : classer les panneaux de danger, d’interdiction et d’obligation",
+   "strand": "Éducation à la sécurité routière",
+   "slotTokens": [
+    "securite-routiere",
+    "ce1"
+   ],
+   "p1": "Six panneaux occupent le haut de la page, chacun marqué d’une lettre de A à F : deux triangles rouges, l’un avec deux enfants, l’autre avec un piéton sur un passage ; deux ronds bleus, l’un avec un vélo, l’autre avec un piéton ; deux ronds cerclés de rouge, l’un vide, l’autre portant un piéton noir. En bas, trois boîtes portent un titre : « Panneaux de danger », « Panneaux d’interdiction », « Panneaux d’obligation ». Chaque boîte offre deux cases. L’enfant écrit la lettre de chaque panneau dans la boîte de sa famille.",
+   "p2": "Classer, c’est comprendre que la forme et la couleur d’un panneau annoncent déjà son type, avant même le dessin : le triangle rouge prévient d’un danger, le rond cerclé de rouge interdit, le rond bleu oblige. Au CE1, cette grille de lecture rend l’élève capable de comprendre un panneau qu’il n’a jamais vu. La page place côte à côte le piéton du rond bleu, qui indique un chemin obligatoire pour les piétons, et celui du rond rouge, qui leur interdit le passage : le même dessin change de sens selon le cadre.",
+   "p3": "Les trois boîtes ont le même nombre de cases, deux chacune, ce qui évite de deviner par élimination. Faites dire à voix haute la règle trouvée : « triangle rouge, danger ». Dans la même famille, une page relie chaque panneau à une phrase et une autre propose un quiz où l’on choisit le panneau qui convient.",
+   "canonicalDeckSlug": "securite-routiere-g2360",
+   "carousel": [
+    {
+     "label": "Sécurité routière : les feux, s’arrêter ou passer",
+     "href": "securite-routiere-maternelle-les-feux"
+    },
+    {
+     "label": "Sécurité routière : colorie les feux",
+     "href": "colorier-les-feux-securite-routiere"
+    },
+    {
+     "label": "Traverser la rue en sécurité : les étapes dans l’ordre",
+     "href": "traverser-la-rue-en-securite-etapes"
+    },
+    {
+     "label": "Sécurité routière : les panneaux et leur sens",
+     "href": "panneaux-de-signalisation-et-leur-sens-cp"
+    }
+   ],
+   "title": "Classer les panneaux de signalisation, CE1 | à imprimer en PDF gratuit",
+   "metaDescription": "Six panneaux marqués de A à F et trois groupes : danger, interdiction, obligation. L’enfant écrit la lettre de chaque panneau dans les cases de son groupe."
+  },
+  {
+   "slug": "quiz-securite-routiere-panneaux-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "road-safety-sign-quiz",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Sécurité routière",
+   "h1": "Quiz de sécurité routière : quel panneau convient ?",
+   "strand": "Éducation à la sécurité routière",
+   "slotTokens": [
+    "securite-routiere",
+    "ce1"
+   ],
+   "p1": "Chaque ligne du quiz associe une phrase à trois panneaux. « Il est interdit de marcher à pied sur cette route. » « Ni voiture ni moto : cette rue est fermée à la circulation. » « Prépare-toi : bientôt, un feu peut passer au rouge. » « Des vélos traversent souvent la route à cet endroit. » « Les vélos doivent rouler sur cette piste, pas sur la route. » « Bientôt, il y a un passage pour les piétons sur la route. » Six situations en tout, et l’enfant entoure le seul panneau qui convient. Chaque ligne n’a qu’une bonne réponse, et les deux autres panneaux ressemblent toujours un peu à la situation décrite.",
+   "p2": "Les leurres sont choisis pour faire réfléchir : sur la première ligne, le rond bleu au piéton voisine avec le rond rouge au piéton ; sur la cinquième, le rond bleu au vélo côtoie le rond bleu au piéton ; le triangle qui annonce un feu revient comme leurre sous la phrase du passage piéton. L’élève ne peut pas se contenter du dessin, il doit croiser la forme, la couleur et le sens de la phrase. C’est une lecture fine, bien adaptée au CE1, qui réinvestit ce que l’éducation à la sécurité routière et l’enseignement moral et civique installent au cycle 2. La phrase sur le feu tricolore introduit un panneau que l’on voit moins souvent en ville, celui qui annonce un feu.",
+   "p3": "Six phrases à lire, dix-huit panneaux à observer, une réponse par ligne. Le quiz fonctionne bien en évaluation après la page de classement de la même famille, qui installe les trois grands types de panneaux. Corrigez en demandant pourquoi chaque leurre ne convient pas : c’est là que la règle se fixe.",
+   "canonicalDeckSlug": "securite-routiere-g2361",
+   "carousel": [
+    {
+     "label": "Sécurité routière : les feux, s’arrêter ou passer",
+     "href": "securite-routiere-maternelle-les-feux"
+    },
+    {
+     "label": "Sécurité routière : colorie les feux",
+     "href": "colorier-les-feux-securite-routiere"
+    },
+    {
+     "label": "Traverser la rue en sécurité : les étapes dans l’ordre",
+     "href": "traverser-la-rue-en-securite-etapes"
+    },
+    {
+     "label": "Sécurité routière : les panneaux et leur sens",
+     "href": "panneaux-de-signalisation-et-leur-sens-cp"
+    }
+   ],
+   "title": "Quiz de sécurité routière : quel panneau ? CE1 | à imprimer en PDF gratuit",
+   "metaDescription": "Six phrases et, pour chacune, trois panneaux : l’enfant lit la situation et entoure le seul panneau qui lui correspond. Les leurres se ressemblent beaucoup."
+  },
+  {
+   "slug": "les-generations-de-la-famille-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-generations-oldest-to-youngest",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Famille",
+   "h1": "Les générations de la famille : du plus âgé au plus jeune",
+   "strand": "Questionner le monde : le temps, les générations",
+   "slotTokens": [
+    "membres-de-la-famille",
+    "cp"
+   ],
+   "p1": "En haut, une frise suspendue montre trois cadres numérotés : deux grands-parents aux cheveux gris, puis deux parents, puis deux enfants. Dessous, six lignes de trois étiquettes, chacune suivie d’une case. Sur chaque ligne, les trois mots viennent de trois générations différentes et sont mélangés : « le frère, la maman, le papi », « l’oncle, la mamie, la petite sœur », « la cousine, la mamie, l’oncle »… L’enfant écrit 1 à côté du mot de la génération la plus âgée, 2 à côté de celui du milieu et 3 à côté du plus jeune. La frise du haut sert de repère permanent : grands-parents, parents, enfants.",
+   "p2": "L’intérêt tient aux mots piégeux. L’oncle et la tante sont de la même génération que les parents, le cousin et la cousine de la même génération que les enfants, même si l’on ne vit pas avec eux. En les rangeant, l’élève de CP construit la notion de génération que le programme de Questionner le monde place au cycle 2, dans la partie consacrée au temps. Le papi et la mamie reviennent plusieurs fois, ce qui aide les lecteurs débutants à s’appuyer sur des mots connus.",
+   "p3": "Dix-huit étiquettes à lire, dix-huit chiffres à écrire. Lisez la frise ensemble avant de commencer et demandez : « Où se range l’oncle ? » Un bon prolongement consiste à placer les membres de sa propre famille sur trois étages. Dans la même famille de fiches, un arbre généalogique à compléter permet ensuite de dessiner ces trois générations.",
+   "canonicalDeckSlug": "membres-de-la-famille-g1385",
+   "carousel": [
+    {
+     "label": "Les membres de la famille : qui est qui ?",
+     "href": "les-membres-de-la-famille-maternelle"
+    },
+    {
+     "label": "Le vocabulaire de la famille : trace et écris",
+     "href": "vocabulaire-de-la-famille-tracer-et-ecrire"
+    },
+    {
+     "label": "L’arbre généalogique : lis les indices",
+     "href": "arbre-genealogique-lire-les-indices-cp"
+    },
+    {
+     "label": "Les liens de parenté : devinettes",
+     "href": "liens-de-parente-devinettes-ce1"
+    }
+   ],
+   "title": "Les générations de la famille au CP | à imprimer en PDF gratuit",
+   "metaDescription": "Six lignes de trois mots, comme le frère, la maman et le papi : l’enfant écrit 1, 2 et 3 pour ranger les générations de la plus âgée à la plus jeune."
+  },
+  {
+   "slug": "vocabulaire-de-la-famille-tracer-et-ecrire",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-words-trace-and-write",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Maternelle · Famille",
+   "h1": "Le vocabulaire de la famille : trace et écris",
+   "strand": "Questionner le monde : le temps, les générations",
+   "slotTokens": [
+    "membres-de-la-famille",
+    "maternelle"
+   ],
+   "p1": "À gauche, un arbre en nuage entoure Manon, marquée d’une étoile. Cinq personnes portent un numéro : en haut, la mamie à lunettes et le papi aux cheveux frisés et à la moustache ; au milieu, les deux parents ; en bas, le frère, à côté de Manon. À droite, un bandeau beige réunit cinq mots écrits en pointillés, le papi, la mamie, le frère, la maman et le papa, chacun précédé du numéro de la personne qu’il nomme. Dessous, cinq lignes d’écriture numérotées de 1 à 5. L’enfant retrouve sur l’arbre la personne qui porte le même numéro, repasse son mot en pointillés, puis l’écrit seul sur la ligne du même numéro, en script ou en cursive selon l’habitude de la classe.",
+   "p2": "Le geste d’écriture et le sens du mot avancent ensemble : avant de tracer « la mamie », l’enfant a suivi son numéro jusqu’à la dame âgée en haut de l’arbre. En grande section, les programmes de l’école maternelle associent la découverte du principe alphabétique à la copie de mots connus ; ceux de la famille sont parmi les premiers que l’enfant veut savoir écrire. L’article est conservé devant chaque nom, ce qui prépare le repérage du masculin et du féminin. Comme chaque mot porte le numéro de son portrait, l’enfant n’a pas à deviner : il vérifie. La moustache du papi, que l’on retrouve chez le papa, est un bon point de départ pour parler des ressemblances d’une génération à l’autre.",
+   "p3": "Imprimez la page telle quelle : les pointillés restent lisibles en noir et blanc. Cinq mots suffisent pour une séance ; on peut ajouter ensuite le prénom de l’enfant. La page de base de la famille fait seulement associer un numéro à un mot, sans écriture, et convient mieux aux plus jeunes.",
+   "canonicalDeckSlug": "membres-de-la-famille-k375",
+   "carousel": [
+    {
+     "label": "Les membres de la famille : qui est qui ?",
+     "href": "les-membres-de-la-famille-maternelle"
+    },
+    {
+     "label": "Les générations de la famille : du plus âgé au plus jeune",
+     "href": "les-generations-de-la-famille-cp"
+    },
+    {
+     "label": "L’arbre généalogique : lis les indices",
+     "href": "arbre-genealogique-lire-les-indices-cp"
+    },
+    {
+     "label": "Les liens de parenté : devinettes",
+     "href": "liens-de-parente-devinettes-ce1"
+    }
+   ],
+   "title": "Le vocabulaire de la famille : tracer et écrire | à imprimer en PDF gratuit",
+   "metaDescription": "Un arbre autour de Manon, cinq personnes numérotées et cinq mots en pointillés : le papi, la mamie, le frère, la maman, le papa. L’enfant repasse puis écrit."
+  },
+  {
+   "slug": "arbre-genealogique-lire-les-indices-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-tree-read-the-clues",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Famille",
+   "h1": "L’arbre généalogique : lis les indices",
+   "strand": "Questionner le monde : le temps, les générations",
+   "slotTokens": [
+    "membres-de-la-famille",
+    "cp"
+   ],
+   "p1": "L’arbre généalogique compte sept portraits sur trois étages. En haut, Lina et Hugo, les grands-parents, déjà nommés. Au milieu, deux femmes, filles de Lina et Hugo, et un homme relié à l’une d’elles. En bas, Jules, marqué d’une étoile, et un garçon à côté de lui. Quatre cases restent vides sous les portraits. Sous l’arbre, quatre indices numérotés : « Chloé est la maman de Jules. », « Noé est le grand frère de Jules. », « Léa est la tante de Jules. », « Tom est le papa de Jules. » L’enfant lit chaque indice et écrit le prénom dans la bonne case. Pour y arriver, il doit suivre les traits de l’arbre : la maman de Jules est la femme reliée à l’homme et aux enfants, la tante est sa sœur.",
+   "p2": "C’est un vrai raisonnement. L’arbre ne montre ni qui est la maman ni qui est la tante : seuls les traits le disent, et il faut comprendre qu’une tante est la sœur d’un parent. Le programme de Questionner le monde au cycle 2 parle de repérer les liens de parenté et les générations ; l’arbre généalogique en est l’outil classique au CP comme au CE1. Un détail aide les plus attentifs : Noé, « le grand frère », est dessiné un peu plus grand que Jules.",
+   "p3": "Une page, quatre indices, quatre prénoms à écrire. Laissez l’élève chercher la tante en dernier, par élimination s’il le faut, puis faites-lui expliquer pourquoi. Pour créer son propre arbre, la famille propose aussi un arbre généalogique vierge à compléter.",
+   "canonicalDeckSlug": "membres-de-la-famille-g1386",
+   "carousel": [
+    {
+     "label": "Les membres de la famille : qui est qui ?",
+     "href": "les-membres-de-la-famille-maternelle"
+    },
+    {
+     "label": "Les générations de la famille : du plus âgé au plus jeune",
+     "href": "les-generations-de-la-famille-cp"
+    },
+    {
+     "label": "Le vocabulaire de la famille : trace et écris",
+     "href": "vocabulaire-de-la-famille-tracer-et-ecrire"
+    },
+    {
+     "label": "Les liens de parenté : devinettes",
+     "href": "liens-de-parente-devinettes-ce1"
+    }
+   ],
+   "title": "Arbre généalogique au CP : lire les indices | à imprimer en PDF gratuit",
+   "metaDescription": "Un arbre de trois générations autour de Jules, trois prénoms déjà placés et quatre indices comme « Chloé est la maman de Jules ». L’enfant complète l’arbre."
+  },
+  {
+   "slug": "liens-de-parente-devinettes-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-relationships-riddles",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Famille",
+   "h1": "Les liens de parenté : devinettes",
+   "strand": "Questionner le monde : le temps, les générations",
+   "slotTokens": [
+    "membres-de-la-famille",
+    "ce1"
+   ],
+   "p1": "« La maman du papa de Louis, c’est… ». Huit phrases de ce type se suivent, chacune terminée par une ligne à remplir. Louis est dessiné en haut à gauche, et une boîte propose quatre mots : le papi, l’oncle, la mamie, la tante. Les devinettes combinent deux liens : le frère de la maman, la sœur du papa, le papa du papa, la maman de la maman… Sur notre exemplaire, chaque mot de la boîte sert exactement deux fois, une fois du côté de la maman et une fois du côté du papa, et la consigne prévient qu’un même mot peut aller avec plusieurs devinettes.",
+   "p2": "Comprendre qu’un lien de parenté se compose est l’objectif. La maman du papa et la maman de la maman sont toutes deux « la mamie » : la devinette fait découvrir que l’on a deux grands-mères, et de même deux grands-pères, des oncles et des tantes des deux côtés. Au CE1, ce travail relève de Questionner le monde, qui aborde les générations et les liens familiaux au cycle 2, et il entraîne la lecture de phrases à double complément, où l’ordre des mots change tout : la sœur du papa n’est pas le papa de la sœur.",
+   "p3": "Huit lignes à remplir avec quatre mots. Faire dessiner un petit arbre au brouillon aide les plus hésitants : Louis en bas, ses parents au-dessus, puis les frères, les sœurs et les parents de chacun. Cette page prolonge l’arbre à lire avec des indices de la même famille de fiches.",
+   "canonicalDeckSlug": "membres-de-la-famille-g2362",
+   "carousel": [
+    {
+     "label": "Les membres de la famille : qui est qui ?",
+     "href": "les-membres-de-la-famille-maternelle"
+    },
+    {
+     "label": "Les générations de la famille : du plus âgé au plus jeune",
+     "href": "les-generations-de-la-famille-cp"
+    },
+    {
+     "label": "Le vocabulaire de la famille : trace et écris",
+     "href": "vocabulaire-de-la-famille-tracer-et-ecrire"
+    },
+    {
+     "label": "L’arbre généalogique : lis les indices",
+     "href": "arbre-genealogique-lire-les-indices-cp"
+    }
+   ],
+   "title": "Les liens de parenté en devinettes, CE1 | à imprimer en PDF gratuit",
+   "metaDescription": "Huit devinettes comme « La maman du papa de Louis, c’est… » et quatre mots dans une boîte : papi, oncle, mamie, tante. L’enfant écrit le bon lien sur chaque ligne."
+  },
+  {
+   "slug": "arbre-genealogique-vierge-a-completer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-tree-template",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Famille",
+   "h1": "Arbre généalogique vierge à compléter",
+   "strand": "Questionner le monde : le temps, les générations",
+   "slotTokens": [
+    "membres-de-la-famille",
+    "cp"
+   ],
+   "p1": "Un arbre dessiné au trait remplit la page. Sur la branche du haut pendent trois cadres, ronds ou carrés ; sur la grande branche du milieu, quatre autres ; sur la branche basse, deux cadres encadrent celui du centre, marqué « moi ». Au pied de l’arbre, posés sur le sol, quatre cadres de plus. Sous chaque cadre, une ligne pour écrire un prénom. L’enfant dessine dans les cadres les personnes qui comptent pour lui et écrit leur prénom. Aucune case n’est imposée : ni « papa » ni « maman » n’est écrit, et l’enfant choisit qui placer où.",
+   "p2": "Ce modèle d’arbre généalogique vierge respecte toutes les configurations familiales, ce qui compte en classe. Les étages de branches invitent à placer les générations les unes au-dessus des autres, comme le fait le programme de Questionner le monde au cycle 2, mais rien n’interdit d’y mettre une nounou, un parrain ou le chat. Au CP, c’est souvent la première trace écrite de son histoire personnelle, et elle se prête à un projet mené avec les familles.",
+   "p3": "Treize cadres autour du sien, c’est beaucoup : l’enfant n’est pas obligé de tous les remplir. On peut aussi coller des photos au lieu de dessiner. La page se garde bien dans un cahier de vie ou un porte-vues. Les autres pages de la famille travaillent le vocabulaire : ranger les générations, lire un arbre avec des indices, résoudre des devinettes de parenté.",
+   "canonicalDeckSlug": "membres-de-la-famille-g1387",
+   "carousel": [
+    {
+     "label": "Les membres de la famille : qui est qui ?",
+     "href": "les-membres-de-la-famille-maternelle"
+    },
+    {
+     "label": "Les générations de la famille : du plus âgé au plus jeune",
+     "href": "les-generations-de-la-famille-cp"
+    },
+    {
+     "label": "Le vocabulaire de la famille : trace et écris",
+     "href": "vocabulaire-de-la-famille-tracer-et-ecrire"
+    },
+    {
+     "label": "L’arbre généalogique : lis les indices",
+     "href": "arbre-genealogique-lire-les-indices-cp"
+    }
+   ],
+   "title": "Arbre généalogique vierge à compléter, CP | à imprimer en PDF gratuit",
+   "metaDescription": "Un grand arbre à branches avec treize cadres vides et la case « moi » : l’enfant dessine les personnes qui comptent pour lui et écrit leur prénom."
+  },
+  {
+   "slug": "besoins-des-plantes-pour-pousser-maternelle",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "what-plants-need-to-grow",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Maternelle · Le vivant",
+   "h1": "De quoi une plante a-t-elle besoin pour pousser ?",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "parties-de-la-plante",
+    "maternelle"
+   ],
+   "p1": "Dix cartes, groupées par deux sur cinq lignes, montrent le même petit pot avec une jeune pousse. Deux flèches apportent à chaque pot ce qu’il reçoit, dessiné en couleur. Parfois le soleil et une goutte d’eau ; parfois le soleil et un petit train, l’eau et une voiture, l’eau et un robot, le soleil et un gant ; une fois même une chaussure et un crayon. L’enfant regarde ce que reçoit chaque plante et entoure celle qui a les deux choses dont elle a besoin pour pousser. Sur notre exemplaire, cinq pots sur dix ont la lumière et l’eau, un par ligne de deux, et les cinq autres n’en ont qu’une ou aucune.",
+   "p2": "En maternelle, les programmes invitent à observer une plantation et à découvrir ce dont elle a besoin. La page trace la conclusion de cette observation : une plante a besoin de lumière et d’eau, les deux à la fois. Les objets qui ne servent à rien sont de vrais objets, pas des symboles barrés ; l’enfant ne peut donc pas répondre en repérant une croix, il doit se demander si un robot aide une plante à grandir. La consigne le précise : sur chaque ligne, une seule plante reçoit les deux.",
+   "p3": "Lisez la consigne à voix haute : une plante à entourer sur chaque ligne, cinq en tout. Aucune lecture n’est nécessaire, tout est en images. L’idéal est de mener l’expérience en classe avec deux pots, l’un privé de lumière, l’autre privé d’eau. La page de base de la famille, pour le CP, passe au nom des parties de la plante.",
+   "canonicalDeckSlug": "parties-de-la-plante-k376",
+   "carousel": [
+    {
+     "label": "Les parties de la plante : légende le dessin",
+     "href": "les-parties-de-la-plante-cp"
+    },
+    {
+     "label": "Le cycle de vie d’une plante : de la graine à la plante",
+     "href": "cycle-de-vie-d-une-plante-decouper-coller"
+    },
+    {
+     "label": "Les parties des plantes que l’on mange",
+     "href": "parties-des-plantes-que-l-on-mange-ce1"
+    },
+    {
+     "label": "Le rôle de chaque partie de la plante",
+     "href": "parties-de-la-plante-et-leurs-fonctions-ce1"
+    }
+   ],
+   "title": "De quoi une plante a besoin pour pousser, maternelle | à imprimer en PDF",
+   "metaDescription": "Dix pots de jeunes pousses, chacun avec deux objets : le soleil, une goutte d’eau, une chaussure, un robot… L’enfant entoure les plantes qui ont eau et lumière."
+  },
+  {
+   "slug": "cycle-de-vie-d-une-plante-decouper-coller",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "plant-life-cycle-seed-to-plant",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Le vivant",
+   "h1": "Le cycle de vie d’une plante : de la graine à la plante",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "parties-de-la-plante",
+    "cp"
+   ],
+   "p1": "Cinq cases forment une ronde, reliées par des flèches qui tournent dans le sens des aiguilles d’une montre. La case du haut est déjà remplie : une graine dans la terre. Les quatre autres sont vides, bordées de pointillés. En bas de la page, une bande de quatre images, avec des ciseaux, attend d’être découpée : une graine qui germe, une jeune pousse à deux feuilles, une plante en fleur, une plante qui porte une gousse. Sur la bande, les images sont mélangées. L’enfant les découpe et colle chacune dans la case vide suivante, en partant de la graine et en suivant les flèches. La dernière flèche revient à la graine.",
+   "p2": "Cette dernière flèche fait tout le sens de la page : la gousse contient de nouvelles graines, et le cycle recommence. En France, le cycle de vie d’une plante se travaille au cycle 2 dans Questionner le monde, souvent après avoir semé des graines de haricot en classe. Parce que la graine est déjà placée, l’ordre est unique et l’enfant ne peut pas commencer au hasard. Découper et coller convient aussi aux élèves qui écrivent encore lentement.",
+   "p3": "Prévoyez ciseaux et colle ; la page se fait en vingt minutes environ. Faites nommer chaque étape à voix haute pendant le collage : germer, pousser, fleurir, donner des graines. Dans la même famille, d’autres pages portent sur les parties de la plante, ce qu’on en mange et le rôle de chaque partie.",
+   "canonicalDeckSlug": "parties-de-la-plante-g1388",
+   "carousel": [
+    {
+     "label": "Les parties de la plante : légende le dessin",
+     "href": "les-parties-de-la-plante-cp"
+    },
+    {
+     "label": "De quoi une plante a-t-elle besoin pour pousser ?",
+     "href": "besoins-des-plantes-pour-pousser-maternelle"
+    },
+    {
+     "label": "Les parties des plantes que l’on mange",
+     "href": "parties-des-plantes-que-l-on-mange-ce1"
+    },
+    {
+     "label": "Le rôle de chaque partie de la plante",
+     "href": "parties-de-la-plante-et-leurs-fonctions-ce1"
+    }
+   ],
+   "title": "Le cycle de vie d’une plante au CP : découper-coller | à imprimer en PDF",
+   "metaDescription": "Une graine en haut d’un cercle de cinq cases et quatre images à découper : la graine germe, devient une pousse, fleurit, puis donne des graines."
+  },
+  {
+   "slug": "parties-des-plantes-que-l-on-mange-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "parts-of-a-plant-we-eat",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Le vivant",
+   "h1": "Les parties des plantes que l’on mange",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "parties-de-la-plante",
+    "ce1"
+   ],
+   "p1": "Huit cartes associent un aliment dessiné en couleur à trois étiquettes illustrées d’un petit pictogramme. Sur notre exemplaire : une branche de céleri, un radis, un épi de maïs, une laitue, une carotte, une aubergine, un chou-fleur et une feuille d’épinard. Les étiquettes piochent parmi racines, tige, feuille, fleur, fruit et graine. L’enfant regarde l’aliment et entoure la partie de la plante que l’on mange. Les réponses couvrent les six parties : deux racines, le radis et la carotte ; deux feuilles, la laitue et l’épinard ; une tige, une graine, un fruit et une fleur.",
+   "p2": "La page relie la botanique à l’assiette. Au CE1, dans le programme de Questionner le monde, l’élève sait déjà nommer les parties de la plante ; il découvre ici qu’on ne mange pas toujours la même. Trois cas méritent une explication. Le céleri en branche est compté comme une tige, comme dans les manuels du cycle 2, même si le botaniste y voit le pétiole d’une feuille. L’aubergine est un fruit, puisqu’elle porte les graines, même si en cuisine on la range parmi les légumes. Du maïs, on mange les grains, qui sont des graines, et non l’épi entier. Le chou-fleur, lui, est bien un bouquet de fleurs encore fermées.",
+   "p3": "Une page de huit aliments, qui se prête à une dégustation ou à un marché de classe. Proposez aux élèves de trier les fruits et légumes de la cantine selon la partie consommée. Pour réviser les noms avant, la page de base de la famille fait légender une plante entière au CP.",
+   "canonicalDeckSlug": "parties-de-la-plante-g2363",
+   "carousel": [
+    {
+     "label": "Les parties de la plante : légende le dessin",
+     "href": "les-parties-de-la-plante-cp"
+    },
+    {
+     "label": "De quoi une plante a-t-elle besoin pour pousser ?",
+     "href": "besoins-des-plantes-pour-pousser-maternelle"
+    },
+    {
+     "label": "Le cycle de vie d’une plante : de la graine à la plante",
+     "href": "cycle-de-vie-d-une-plante-decouper-coller"
+    },
+    {
+     "label": "Le rôle de chaque partie de la plante",
+     "href": "parties-de-la-plante-et-leurs-fonctions-ce1"
+    }
+   ],
+   "title": "Les parties des plantes que l’on mange, CE1 | à imprimer en PDF gratuit",
+   "metaDescription": "Huit aliments, du radis au chou-fleur, et trois étiquettes chacun : racines, tige, feuille, fleur, fruit ou graine. L’enfant entoure la partie qu’on mange."
+  },
+  {
+   "slug": "parties-de-la-plante-et-leurs-fonctions-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "parts-of-a-plant-and-their-functions",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Le vivant",
+   "h1": "Le rôle de chaque partie de la plante",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "parties-de-la-plante",
+    "ce1"
+   ],
+   "p1": "À gauche, la même plante que sur la page de base de la famille, avec ses racines, sa tige, ses feuilles, sa fleur et sa gousse. Cinq pastilles numérotées pointent chacune une partie : la tige, la graine dans la gousse, un pétale de la fleur, une feuille et une racine. À droite, cinq phrases décrivent un rôle, chacune précédée d’une case : « donner naissance à une nouvelle plante », « fabriquer la nourriture de la plante grâce à la lumière », « puiser l’eau dans la terre », « tenir la plante bien droite », « attirer les abeilles ». L’enfant lit ce que fait chaque partie, la trouve sur la plante et écrit le numéro de son étiquette dans la case.",
+   "p2": "On passe du nom à la fonction : savoir que la racine s’appelle racine ne dit pas encore à quoi elle sert. Le programme de Questionner le monde au cycle 2 demande d’identifier les besoins et le fonctionnement du vivant, et cette page en donne une version simple pour le CE1. Les formulations restent à hauteur d’enfant ; « fabriquer la nourriture grâce à la lumière » annonce la photosynthèse sans la nommer. Cinq rôles pour cinq étiquettes : chaque numéro sert une fois.",
+   "p3": "Lisez les cinq phrases en collectif si la lecture est encore fragile. La tige tient la plante droite, mais elle transporte aussi l’eau : un élève qui le signale mérite qu’on s’y arrête. Les pages voisines de la famille abordent les parties que l’on mange et, pour le CE2, les parties de la fleur.",
+   "canonicalDeckSlug": "parties-de-la-plante-g2364",
+   "carousel": [
+    {
+     "label": "Les parties de la plante : légende le dessin",
+     "href": "les-parties-de-la-plante-cp"
+    },
+    {
+     "label": "De quoi une plante a-t-elle besoin pour pousser ?",
+     "href": "besoins-des-plantes-pour-pousser-maternelle"
+    },
+    {
+     "label": "Le cycle de vie d’une plante : de la graine à la plante",
+     "href": "cycle-de-vie-d-une-plante-decouper-coller"
+    },
+    {
+     "label": "Les parties des plantes que l’on mange",
+     "href": "parties-des-plantes-que-l-on-mange-ce1"
+    }
+   ],
+   "title": "Les parties de la plante et leurs fonctions, CE1 | PDF gratuit à imprimer",
+   "metaDescription": "Une plante légendée de 1 à 5 et cinq rôles à lire, comme « puiser l’eau dans la terre » : l’enfant écrit le numéro de la partie qui fait ce travail."
+  },
+  {
+   "slug": "les-parties-de-la-fleur-ce2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "parts-of-a-flower",
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "CE2 · Le vivant",
+   "h1": "Les parties de la fleur",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "parties-de-la-plante",
+    "ce2"
+   ],
+   "p1": "Une grande fleur est dessinée en coupe au centre de la page : trois pétales allongés, les étamines avec leurs anthères sombres, le pistil au milieu, les sépales verts à la base et la tige. Quatre pastilles numérotées désignent chacune une partie : un sépale, une étamine, le pistil et un pétale. Une petite vignette à droite rappelle la plante entière, la fleur entourée. En haut, une liste de cinq mots : sépale, étamine, racines, pétale, pistil. En bas, quatre lignes numérotées. L’enfant écrit le nom de chaque partie sur sa ligne, puis barre le mot de la liste qui n’en fait pas partie : les racines, qui ne sont pas dans la fleur.",
+   "p2": "Étamine, pistil et sépale sont des mots nouveaux pour la plupart des élèves. En France, l’organisation de la fleur et son rôle dans la reproduction relèvent surtout du cycle 3, en sciences et technologie ; au CE2, cette page sert d’introduction ou d’enrichissement. L’intrus demande un peu de réflexion : les racines ne figurent ni sur la fleur ni sur la vignette, coupée au ras du sol, et c’est justement parce qu’elles ne sont nulle part qu’il faut les barrer. La vraie difficulté est ailleurs : distinguer le sépale, vert et placé sous la fleur, du pétale, et l’étamine, qui porte le pollen, du pistil, dressé au centre.",
+   "p3": "Une page, quatre mots à écrire, un intrus à barrer. Observer une vraie fleur, un lis ou une tulipe dont les parties sont grandes, rend la séance mémorable. Les pages plus simples de la famille, pour le CP et le CE1, portent sur la plante entière et le rôle de chaque partie.",
+   "canonicalDeckSlug": "parties-de-la-plante-g3392",
+   "carousel": [
+    {
+     "label": "Les parties de la plante : légende le dessin",
+     "href": "les-parties-de-la-plante-cp"
+    },
+    {
+     "label": "De quoi une plante a-t-elle besoin pour pousser ?",
+     "href": "besoins-des-plantes-pour-pousser-maternelle"
+    },
+    {
+     "label": "Le cycle de vie d’une plante : de la graine à la plante",
+     "href": "cycle-de-vie-d-une-plante-decouper-coller"
+    },
+    {
+     "label": "Les parties des plantes que l’on mange",
+     "href": "parties-des-plantes-que-l-on-mange-ce1"
+    }
+   ],
+   "title": "Les parties de la fleur au CE2 | à imprimer en PDF gratuit",
+   "metaDescription": "Une fleur en coupe avec quatre parties numérotées et une liste de cinq mots : sépale, étamine, pétale, pistil… et racines, l’intrus à barrer."
+  },
+  {
+   "slug": "cycle-de-vie-de-la-grenouille-decouper-coller",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "frog-life-cycle-cut-and-paste",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Le vivant",
+   "h1": "Le cycle de vie de la grenouille : découper et coller",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "cycles-de-vie-des-animaux",
+    "cp"
+   ],
+   "p1": "Une mare ronde, vue de dessus, porte cinq nénuphars reliés par des flèches orange qui tournent dans le sens des aiguilles d’une montre. Celui du haut montre déjà la ponte, une grappe d’œufs dans l’eau. Les quatre autres sont vides, avec un carré en pointillés. En bas, une bande de quatre carrés à découper, dans le désordre : un têtard, un têtard qui a des pattes, une petite grenouille qui garde un bout de queue, une grenouille adulte. L’enfant découpe les quatre carrés et colle chacun sur son nénuphar, en faisant le tour de la mare depuis les œufs jusqu’à la grenouille.",
+   "p2": "La métamorphose de la grenouille se voit mieux que celle du papillon : les pattes poussent, la queue raccourcit, l’animal change de milieu. Au cycle 2, le programme de Questionner le monde invite à observer ces transformations, parfois avec des têtards élevés en classe au printemps. La petite grenouille à queue est l’étape que les enfants oublient le plus souvent ; ici, elle doit trouver sa place entre le têtard à pattes et l’adulte, et seule la queue les distingue.",
+   "p3": "Prévoyez ciseaux et colle. La ponte dessinée en grappe correspond bien à la grenouille, dont les œufs forment un amas, alors que le crapaud pond en cordons. Cette page applique à la grenouille ce que la page de base de la famille fait avec le papillon ; une autre page compare ensuite les deux cycles, au CE2.",
+   "canonicalDeckSlug": "cycles-de-vie-des-animaux-g1389",
+   "carousel": [
+    {
+     "label": "Le cycle de vie du papillon",
+     "href": "le-cycle-de-vie-du-papillon-cp"
+    },
+    {
+     "label": "Légender le cycle de vie du papillon",
+     "href": "legender-le-cycle-de-vie-du-papillon-ce1"
+    },
+    {
+     "label": "La métamorphose : quel animal va-t-il devenir ?",
+     "href": "la-metamorphose-des-animaux-ce1"
+    },
+    {
+     "label": "Comparer le cycle de vie du papillon et de la grenouille",
+     "href": "comparer-cycle-de-vie-papillon-grenouille-ce2"
+    }
+   ],
+   "title": "Cycle de vie de la grenouille à découper et coller | à imprimer en PDF",
+   "metaDescription": "Une mare, des œufs en haut et quatre nénuphars vides : l’enfant découpe le têtard, le têtard à pattes, la petite grenouille et la grenouille, puis les colle."
+  },
+  {
+   "slug": "legender-le-cycle-de-vie-du-papillon-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "label-the-butterfly-life-cycle",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Le vivant",
+   "h1": "Légender le cycle de vie du papillon",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "cycles-de-vie-des-animaux",
+    "ce1"
+   ],
+   "p1": "Quatre grands cercles occupent la page, reliés par des flèches qui dessinent un carré : l’œuf posé sur une feuille, la chenille sur une feuille, la chrysalide suspendue, le papillon aux ailes orange. Sous chaque cercle, une ligne d’écriture avec interligne. En haut, un encadré propose cinq mots mélangés : œuf, chenille, chrysalide et papillon, plus un intrus, têtard. L’enfant écrit chaque nom sur la ligne sous son image et barre le seul mot qui n’a pas sa place. L’intrus est le têtard, qui appartient au cycle de la grenouille : pour le barrer, il faut savoir qu’il ne se transforme jamais en papillon.",
+   "p2": "Au CE1, légender remplace l’ordre : les flèches donnent déjà la succession, et l’élève doit maintenant écrire le vocabulaire exact. « Chrysalide » est le mot qui pose problème, aussi bien à l’oral qu’à l’écrit, et beaucoup d’enfants disent « cocon ». La page le fixe. Ce travail relève du domaine du vivant de Questionner le monde au cycle 2, et il entraîne en même temps la copie de mots avec « ch », « ss » ou « œ ».",
+   "p3": "Cinq mots, quatre lignes, un intrus. Faites lire les cinq mots avant de commencer. Pour les élèves plus jeunes, la page de base de la famille fait seulement numéroter les étapes au CP. Au CE1, une page voisine élargit à la métamorphose de trois animaux.",
+   "canonicalDeckSlug": "cycles-de-vie-des-animaux-g2365",
+   "carousel": [
+    {
+     "label": "Le cycle de vie du papillon",
+     "href": "le-cycle-de-vie-du-papillon-cp"
+    },
+    {
+     "label": "Le cycle de vie de la grenouille : découper et coller",
+     "href": "cycle-de-vie-de-la-grenouille-decouper-coller"
+    },
+    {
+     "label": "La métamorphose : quel animal va-t-il devenir ?",
+     "href": "la-metamorphose-des-animaux-ce1"
+    },
+    {
+     "label": "Comparer le cycle de vie du papillon et de la grenouille",
+     "href": "comparer-cycle-de-vie-papillon-grenouille-ce2"
+    }
+   ],
+   "title": "Légender le cycle de vie du papillon, CE1 | à imprimer en PDF gratuit",
+   "metaDescription": "Quatre grandes images en cycle, de l’œuf au papillon, et cinq mots : œuf, chenille, chrysalide, papillon, têtard. L’enfant légende et barre l’intrus."
+  },
+  {
+   "slug": "la-metamorphose-des-animaux-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "metamorphosis-which-animal-will-it-become",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Le vivant",
+   "h1": "La métamorphose : quel animal va-t-il devenir ?",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "cycles-de-vie-des-animaux",
+    "ce1"
+   ],
+   "p1": "En haut, huit médaillons portent une lettre de A à H. Chacun montre un stade jeune : une chrysalide, une nymphe de coccinelle, un têtard à pattes, une larve de coccinelle, une ponte de grenouille, une petite grenouille à queue, une chenille et un têtard. En bas, trois grandes colonnes portent chacune un adulte : le papillon, la grenouille et la coccinelle, avec quatre cases en pointillés dessous. L’enfant regarde chaque stade et écrit sa lettre dans une case sous l’animal adulte qu’il deviendra. Sur notre exemplaire, le papillon reçoit deux lettres, la grenouille quatre et la coccinelle deux.",
+   "p2": "La coccinelle est la surprise de la page. Peu d’enfants savent qu’elle passe elle aussi par une métamorphose, et sa larve, allongée et hérissée, ne ressemble pas du tout à la petite bête ronde et tachetée qu’ils connaissent. Réunir trois animaux montre que la métamorphose n’est pas propre au papillon. Au CE1, dans Questionner le monde, c’est une bonne façon de faire chercher des indices : la feuille sous la chenille, l’eau autour du têtard, les taches sur la nymphe. La consigne parle d’« étape » : la ponte, faite d’œufs, en est une au même titre que la chrysalide ou la nymphe, et c’est l’occasion d’en discuter.",
+   "p3": "Une page, huit lettres, trois colonnes de quatre cases. Chaque adulte offre le même nombre de cases, et la consigne prévient que des cases restent vides : le nombre de places ne dit donc rien du nombre de stades, il faut observer chaque dessin. Vous pouvez demander de justifier chaque lettre. Les autres pages de la famille suivent un seul animal à la fois.",
+   "canonicalDeckSlug": "cycles-de-vie-des-animaux-g2366",
+   "carousel": [
+    {
+     "label": "Le cycle de vie du papillon",
+     "href": "le-cycle-de-vie-du-papillon-cp"
+    },
+    {
+     "label": "Le cycle de vie de la grenouille : découper et coller",
+     "href": "cycle-de-vie-de-la-grenouille-decouper-coller"
+    },
+    {
+     "label": "Légender le cycle de vie du papillon",
+     "href": "legender-le-cycle-de-vie-du-papillon-ce1"
+    },
+    {
+     "label": "Comparer le cycle de vie du papillon et de la grenouille",
+     "href": "comparer-cycle-de-vie-papillon-grenouille-ce2"
+    }
+   ],
+   "title": "La métamorphose des animaux au CE1 | à imprimer en PDF gratuit",
+   "metaDescription": "Huit jeunes stades marqués de A à H et trois adultes, papillon, grenouille et coccinelle : l’enfant écrit chaque lettre sous l’animal qu’il deviendra."
+  },
+  {
+   "slug": "comparer-cycle-de-vie-papillon-grenouille-ce2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "butterfly-and-frog-life-cycles-compared",
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "CE2 · Le vivant",
+   "h1": "Comparer le cycle de vie du papillon et de la grenouille",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "cycles-de-vie-des-animaux",
+    "ce2"
+   ],
+   "p1": "Un tableau à deux colonnes, coiffées d’un papillon et d’une grenouille, occupe toute la page. Huit phrases s’alignent à gauche, chacune face à deux cases : « L’adulte attrape des insectes pour se nourrir. », « L’adulte a six pattes. », « Il sort d’un œuf. », « Son petit n’a pas de pattes au début. », « L’adulte boit le nectar des fleurs. », « Son petit nage grâce à une queue. », « Son petit ne ressemble pas du tout à l’adulte. », « Il passe par une étape de chrysalide. » L’enfant lit chaque phrase et coche le papillon, la grenouille ou les deux quand la phrase est vraie pour cet animal. Deux phrases valent pour les deux animaux.",
+   "p2": "Comparer oblige à connaître les deux cycles et à les tenir côte à côte. Les deux animaux sortent d’un œuf et changent complètement de forme, mais par des chemins différents : chrysalide d’un côté, têtard qui nage de l’autre. Le CE2, fin du cycle 2, se prête bien à ce travail, que le cycle 3 reprend avec les notions de développement et de reproduction. Une phrase demande de la vigilance : « Son petit n’a pas de pattes au début » vaut pour le têtard, mais pas pour la chenille, qui a de vraies petites pattes.",
+   "p3": "Huit phrases à lire seul, idéales pour une évaluation de fin de séquence. La correction gagne à se faire en débat, surtout pour les lignes « les deux ». Les pages plus simples de la famille traitent chaque cycle séparément et conviennent au CP et au CE1.",
+   "canonicalDeckSlug": "cycles-de-vie-des-animaux-g3393",
+   "carousel": [
+    {
+     "label": "Le cycle de vie du papillon",
+     "href": "le-cycle-de-vie-du-papillon-cp"
+    },
+    {
+     "label": "Le cycle de vie de la grenouille : découper et coller",
+     "href": "cycle-de-vie-de-la-grenouille-decouper-coller"
+    },
+    {
+     "label": "Légender le cycle de vie du papillon",
+     "href": "legender-le-cycle-de-vie-du-papillon-ce1"
+    },
+    {
+     "label": "La métamorphose : quel animal va-t-il devenir ?",
+     "href": "la-metamorphose-des-animaux-ce1"
+    }
+   ],
+   "title": "Comparer le cycle de vie du papillon et de la grenouille | PDF gratuit",
+   "metaDescription": "Huit phrases comme « L’adulte a six pattes » ou « Il sort d’un œuf » : l’enfant coche le papillon, la grenouille ou les deux. Un tableau à double entrée au CE2."
+  },
+  {
+   "slug": "cycle-de-vie-qu-est-ce-qui-vient-apres-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "what-comes-next-butterfly-frog-and-ladybug",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Le vivant",
+   "h1": "Qu’est-ce qui vient après ? Papillon, grenouille et coccinelle",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "cycles-de-vie-des-animaux",
+    "cp"
+   ],
+   "p1": "Six rangées se suivent. Chacune commence par une image encadrée, suivie d’une flèche, puis de trois médaillons au choix. On part de la ponte de grenouille, de la chrysalide, du têtard à pattes, de la coccinelle adulte, du papillon et des œufs de coccinelle. L’enfant regarde la première image et entoure celle qui vient juste après. Trois animaux se partagent la page, deux rangées chacun. Deux rangées font repartir le cycle depuis l’adulte : après le papillon viennent les œufs, après la coccinelle aussi.",
+   "p2": "« Juste après » est la clé : parmi les trois choix, il y a souvent une étape plus lointaine du même animal, qui n’est pas la suivante. Après la ponte, ce n’est pas la grenouille mais le têtard ; après le têtard à pattes, ce n’est pas encore l’adulte mais la petite grenouille qui garde sa queue. L’enfant de CP doit donc avoir l’ordre complet en tête. Le programme de Questionner le monde au cycle 2 place l’observation du développement des animaux parmi les premiers savoirs sur le vivant. Les œufs de coccinelle, dessinés en petite grappe orange sur une feuille, sont minuscules : montrez-les avant.",
+   "p3": "Six choix à entourer, aucun mot à lire en dehors de la consigne. La bonne réponse n’est pas toujours au même endroit. Faites dire l’étape à voix haute : « après la chrysalide, le papillon sort ». Cette page réunit les trois animaux que les autres pages de la famille étudient séparément.",
+   "canonicalDeckSlug": "cycles-de-vie-des-animaux-g1390",
+   "carousel": [
+    {
+     "label": "Le cycle de vie du papillon",
+     "href": "le-cycle-de-vie-du-papillon-cp"
+    },
+    {
+     "label": "Le cycle de vie de la grenouille : découper et coller",
+     "href": "cycle-de-vie-de-la-grenouille-decouper-coller"
+    },
+    {
+     "label": "Légender le cycle de vie du papillon",
+     "href": "legender-le-cycle-de-vie-du-papillon-ce1"
+    },
+    {
+     "label": "La métamorphose : quel animal va-t-il devenir ?",
+     "href": "la-metamorphose-des-animaux-ce1"
+    }
+   ],
+   "title": "Cycle de vie : qu’est-ce qui vient après ? CP | à imprimer en PDF gratuit",
+   "metaDescription": "Six rangées : une image de départ, comme la ponte de grenouille ou la chrysalide, puis trois choix. L’enfant entoure l’étape qui vient juste après."
+  },
+  {
+   "slug": "les-phases-de-la-lune-dans-l-ordre",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "moon-phases-in-order",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Le ciel et la Terre",
+   "h1": "Les phases de la Lune dans l’ordre",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "soleil-terre-lune-planetes",
+    "cp"
+   ],
+   "p1": "Deux cadres de cinq lunes chacun. Chaque lune est un disque dont la partie éclairée est blanche et la partie sombre grise. Au-dessus de la première rangée, un coin qui s’élargit et une flèche montrent que la Lune grossit : nouvelle lune toute grise, fin croissant, premier quartier, Lune presque pleine, pleine lune, mélangés sur la ligne. Au-dessus de la seconde, un coin qui se rétrécit annonce la Lune qui décroît, de la pleine lune à la nouvelle lune. Sous chaque lune, une case. L’enfant écrit de 1 à 5 pour remettre chaque rangée dans l’ordre. Les lunes sont dessinées pour l’hémisphère nord : quand elle grossit, c’est son côté droit qui s’éclaire.",
+   "p2": "Ordonner les phases, c’est comprendre qu’elles ne changent pas au hasard. La consigne demande de regarder d’abord si la Lune grossit ou rapetisse sur chaque rangée ; l’indice est le petit coin dessiné au-dessus, qui s’élargit ou se rétrécit, avec la flèche qui montre le sens de lecture. Les deux rangées ne partent donc pas du même point : l’une commence par la nouvelle lune, l’autre par la pleine lune. En France, les phases de la Lune relèvent plutôt du cycle 3 ; au CP, cette page se fait avec l’adulte, après avoir observé la Lune le soir pendant quelques semaines.",
+   "p3": "Montrez le coin de chaque rangée avant de commencer et dites : « ici, elle grossit ; ici, elle rapetisse ». Dix chiffres à écrire, aucun mot à lire en dehors de la consigne. La page voisine de la famille, pour le CE1, fait écrire le nom des quatre phases principales.",
+   "canonicalDeckSlug": "soleil-terre-lune-planetes-g1391",
+   "carousel": [
+    {
+     "label": "Le Soleil, la Terre et la Lune : de qui parle la phrase ?",
+     "href": "le-soleil-la-terre-et-la-lune-cp"
+    },
+    {
+     "label": "Nommer les phases de la Lune",
+     "href": "nommer-les-phases-de-la-lune-ce1"
+    },
+    {
+     "label": "Pourquoi y a-t-il le jour et la nuit ?",
+     "href": "l-alternance-du-jour-et-de-la-nuit-ce1"
+    },
+    {
+     "label": "Les planètes du système solaire dans l’ordre",
+     "href": "les-planetes-du-systeme-solaire-dans-l-ordre"
+    }
+   ],
+   "title": "Les phases de la Lune dans l’ordre | à imprimer en PDF gratuit",
+   "metaDescription": "Deux rangées de cinq lunes mélangées : l’une pour la Lune qui grossit, l’autre pour la Lune qui rapetisse. L’enfant numérote de 1 à 5 dans chaque rangée."
+  },
+  {
+   "slug": "nommer-les-phases-de-la-lune-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "name-the-moon-phases",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Le ciel et la Terre",
+   "h1": "Nommer les phases de la Lune",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "soleil-terre-lune-planetes",
+    "ce1"
+   ],
+   "p1": "Un encadré donne quatre noms : nouvelle lune, dernier quartier, pleine lune, premier quartier. Dessous, huit cartes présentent chacune une lune dans un carré beige, avec deux lignes d’écriture à côté. Les lunes sont soit entièrement blanches, soit entièrement grises, soit coupées en deux moitiés, éclairée à droite ou éclairée à gauche. Sur notre page, chaque phase apparaît deux fois, dans le désordre. L’enfant regarde chaque lune et écrit son nom sur les lignes, en utilisant deux fois chaque mot de la liste. Les deux lignes ne sont pas de trop : chacun des quatre noms s’écrit en deux mots.",
+   "p2": "La difficulté est de ne pas confondre les deux quartiers. Dans l’hémisphère nord, le premier quartier est éclairé à droite, le dernier à gauche ; beaucoup d’enseignants donnent le moyen mnémotechnique du p et du d. La nouvelle lune, invisible dans le ciel, est ici dessinée en gris pour qu’on la voie sur la feuille. Les phases de la Lune figurent surtout au cycle 3 dans les programmes officiels ; au CE1, cette page sert d’enrichissement après une observation du ciel ou la lecture d’un album.",
+   "p3": "Huit noms à écrire, quatre mots à copier deux fois chacun. Écrivez au tableau le truc du p et du d avant de distribuer la page. Pour commencer par l’ordre plutôt que par les noms, la page voisine de la famille fait numéroter les lunes qui grossissent puis rapetissent.",
+   "canonicalDeckSlug": "soleil-terre-lune-planetes-g2367",
+   "carousel": [
+    {
+     "label": "Le Soleil, la Terre et la Lune : de qui parle la phrase ?",
+     "href": "le-soleil-la-terre-et-la-lune-cp"
+    },
+    {
+     "label": "Les phases de la Lune dans l’ordre",
+     "href": "les-phases-de-la-lune-dans-l-ordre"
+    },
+    {
+     "label": "Pourquoi y a-t-il le jour et la nuit ?",
+     "href": "l-alternance-du-jour-et-de-la-nuit-ce1"
+    },
+    {
+     "label": "Les planètes du système solaire dans l’ordre",
+     "href": "les-planetes-du-systeme-solaire-dans-l-ordre"
+    }
+   ],
+   "title": "Nommer les phases de la Lune au CE1 | à imprimer en PDF gratuit",
+   "metaDescription": "Huit lunes et quatre noms : nouvelle lune, premier quartier, pleine lune, dernier quartier. L’enfant écrit le nom de chaque lune, chaque nom servant deux fois."
+  },
+  {
+   "slug": "l-alternance-du-jour-et-de-la-nuit-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "why-do-we-have-day-and-night",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Le ciel et la Terre",
+   "h1": "Pourquoi y a-t-il le jour et la nuit ?",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "soleil-terre-lune-planetes",
+    "ce1"
+   ],
+   "p1": "À gauche, un grand morceau de Soleil orange envoie trois flèches de lumière. À droite, un cercle représente la Terre vue d’en haut, avec une flèche courbe au centre qui rappelle qu’elle tourne sur elle-même. Six épingles numérotées sont plantées au bord du cercle, trois du côté du Soleil et trois de l’autre. Sous le dessin, un tableau propose, pour chaque numéro, les mots « Jour » et « Nuit ». L’enfant regarde où est le Soleil et, pour chaque épingle, entoure jour ou nuit. La Terre est laissée toute blanche, sans moitié sombre : c’est à l’enfant de comprendre quel côté est éclairé.",
+   "p2": "C’est la bonne difficulté pour comprendre l’alternance du jour et de la nuit. Si la moitié nuit était grisée, la page se réduirait à lire une couleur ; ici, il faut se représenter la lumière qui arrive d’un seul côté. La flèche de rotation prépare l’étape suivante : en tournant, chaque épingle passera du jour à la nuit. En France, ce modèle est travaillé en fin de cycle 2 et repris au cycle 3 ; une lampe de poche et un ballon suffisent pour le montrer en classe.",
+   "p3": "Six mots à entourer. Faites ensuite tourner la page d’un quart de tour et demandez ce que devient chaque épingle. Parmi les pages voisines de la famille, l’une sépare le Soleil, la Terre et la Lune par leurs caractéristiques, deux autres travaillent les phases de la Lune.",
+   "canonicalDeckSlug": "soleil-terre-lune-planetes-g2368",
+   "carousel": [
+    {
+     "label": "Le Soleil, la Terre et la Lune : de qui parle la phrase ?",
+     "href": "le-soleil-la-terre-et-la-lune-cp"
+    },
+    {
+     "label": "Les phases de la Lune dans l’ordre",
+     "href": "les-phases-de-la-lune-dans-l-ordre"
+    },
+    {
+     "label": "Nommer les phases de la Lune",
+     "href": "nommer-les-phases-de-la-lune-ce1"
+    },
+    {
+     "label": "Les planètes du système solaire dans l’ordre",
+     "href": "les-planetes-du-systeme-solaire-dans-l-ordre"
+    }
+   ],
+   "title": "L’alternance du jour et de la nuit au CE1 | à imprimer en PDF gratuit",
+   "metaDescription": "Le Soleil à gauche, la Terre vue d’en haut qui tourne, six épingles numérotées : pour chacune, l’enfant entoure jour ou nuit selon qu’elle voit le Soleil."
+  },
+  {
+   "slug": "les-planetes-du-systeme-solaire-dans-l-ordre",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "planets-in-order-from-the-sun",
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "CE2 · Le ciel et la Terre",
+   "h1": "Les planètes du système solaire dans l’ordre",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "soleil-terre-lune-planetes",
+    "ce2"
+   ],
+   "p1": "En haut, huit vignettes présentent les planètes dans le désordre, chacune avec son dessin et son nom : Mars, Neptune, Terre, Saturne, Uranus, Jupiter, Mercure, Vénus. En bas à gauche, un quart de Soleil rayonne, et autour de lui s’étagent huit arcs en pointillés, les orbites, chacune menant à un numéro de 1 à 8 et à une ligne d’écriture. L’enfant écrit le nom de chaque planète sur sa ligne en partant du Soleil, et utilise une fois chaque nom de la liste. Les dessins aident à distinguer les planètes : les anneaux de Saturne, la tache de Jupiter, les continents de la Terre, la calotte polaire blanche de Mars.",
+   "p2": "Connaître l’ordre des planètes est une demande fréquente des élèves bien avant que l’école ne l’aborde. En France, le système solaire relève du cycle 3, en sciences et technologie ; au CE2, cette page est un enrichissement ou une réponse à la curiosité de la classe. Les phrases mnémotechniques, comme « Me Voici Toute Mouillée, Je Suis Une Nageuse », aident à retenir l’ordre de Mercure à Neptune. La page ne compte que huit planètes, conformément à la classification actuelle : Pluton n’en fait plus partie.",
+   "p3": "Huit noms à recopier ; les majuscules sont de règle puisque ce sont des noms propres. Laissez la liste visible pendant tout le travail. La page voisine de la famille, elle aussi pour le CE2, fait classer les planètes en planètes géantes et planètes rocheuses.",
+   "canonicalDeckSlug": "soleil-terre-lune-planetes-g3394",
+   "carousel": [
+    {
+     "label": "Le Soleil, la Terre et la Lune : de qui parle la phrase ?",
+     "href": "le-soleil-la-terre-et-la-lune-cp"
+    },
+    {
+     "label": "Les phases de la Lune dans l’ordre",
+     "href": "les-phases-de-la-lune-dans-l-ordre"
+    },
+    {
+     "label": "Nommer les phases de la Lune",
+     "href": "nommer-les-phases-de-la-lune-ce1"
+    },
+    {
+     "label": "Pourquoi y a-t-il le jour et la nuit ?",
+     "href": "l-alternance-du-jour-et-de-la-nuit-ce1"
+    }
+   ],
+   "title": "Les planètes du système solaire dans l’ordre, CE2 | PDF gratuit à imprimer",
+   "metaDescription": "Huit planètes dessinées, de Mercure à Neptune, présentées dans le désordre, et huit lignes numérotées depuis le Soleil : l’enfant écrit chaque nom à sa place."
+  },
+  {
+   "slug": "planetes-geantes-et-planetes-rocheuses-ce2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "giant-and-rocky-planets",
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "CE2 · Le ciel et la Terre",
+   "h1": "Planètes géantes et planètes rocheuses",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "soleil-terre-lune-planetes",
+    "ce2"
+   ],
+   "p1": "Un encadré réunit dix noms : Neptune, Vénus, Uranus, Mars, Mercure, Jupiter, Lune, Saturne, Terre, Soleil. Dessous, trois grandes colonnes à lignes d’écriture. La première, surmontée d’un grand cercle, s’intitule « planète géante » ; la deuxième, avec un petit cercle, « petite planète rocheuse » ; la troisième, avec un cercle barré, « pas une planète ». L’enfant classe les noms en écrivant chacun dans la bonne case. Le compte est régulier : quatre géantes, quatre rocheuses et deux intrus, la Lune et le Soleil. Chaque colonne offre le même nombre de lignes, cinq, ce qui empêche de deviner par le nombre de places.",
+   "p2": "Deux familles de planètes : les petites, proches du Soleil, faites de roche, et les géantes, lointaines, faites surtout de gaz ou de glace. Pour classer, l’élève doit savoir que Mercure est petite et Jupiter énorme, mais aussi que la Lune n’est pas une planète et que le Soleil est une étoile. Ces notions relèvent du cycle 3 dans les programmes officiels ; au CE2, cette page prolonge naturellement l’ordre des planètes et nourrit la curiosité des élèves.",
+   "p3": "Dix mots à écrire, trois colonnes, deux intrus. Un tableau de tailles comparées ou une maquette à l’échelle rendra la différence entre géantes et rocheuses spectaculaire. Faites d’abord la page voisine de la famille sur l’ordre des planètes : elle installe les huit noms.",
+   "canonicalDeckSlug": "soleil-terre-lune-planetes-g3395",
+   "carousel": [
+    {
+     "label": "Le Soleil, la Terre et la Lune : de qui parle la phrase ?",
+     "href": "le-soleil-la-terre-et-la-lune-cp"
+    },
+    {
+     "label": "Les phases de la Lune dans l’ordre",
+     "href": "les-phases-de-la-lune-dans-l-ordre"
+    },
+    {
+     "label": "Nommer les phases de la Lune",
+     "href": "nommer-les-phases-de-la-lune-ce1"
+    },
+    {
+     "label": "Pourquoi y a-t-il le jour et la nuit ?",
+     "href": "l-alternance-du-jour-et-de-la-nuit-ce1"
+    }
+   ],
+   "title": "Planètes géantes et planètes rocheuses, CE2 | à imprimer en PDF gratuit",
+   "metaDescription": "Dix noms, dont la Lune et le Soleil, et trois colonnes : planète géante, petite planète rocheuse, pas une planète. L’enfant écrit chaque nom au bon endroit."
+  },
+  {
+   "slug": "vue-de-dessus-vue-de-cote-maternelle",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-birds-eye-view",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Maternelle · Se repérer sur un plan",
+   "h1": "Vu de côté, vu de dessus : relie les objets",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "lire-une-carte",
+    "maternelle"
+   ],
+   "p1": "Deux colonnes se font face. À gauche, sous un œil qui regarde de côté, cinq objets dessinés vus de profil : une voiture, une tasse avec son anse, une table, un plot de chantier rayé et une chaise. À droite, sous un œil qui regarde vers le bas, les mêmes objets vus de dessus, dans un autre ordre : un carré sombre avec des cercles orange, un simple rectangle, un rectangle avec une bande en haut, une forme orange avec une fenêtre claire, un cercle avec une petite anse. L’enfant relie chaque objet à sa vue de dessus par un trait, d’un point orange à l’autre.",
+   "p2": "Changer de point de vue est une étape clé vers la lecture de plans. Vu de dessus, le plot devient des cercles emboîtés dans un carré, la tasse un cercle avec une anse, la chaise un rectangle bordé par son dossier. Les programmes de l’école maternelle parlent de se repérer dans l’espace et de représenter ; ce jeu d’appariement prépare, au cycle 2, le travail sur le plan. La table et la chaise sont les plus proches, et la bande du dossier fait la différence.",
+   "p3": "Aucune lecture : les deux yeux dessinés suffisent à expliquer la différence entre les colonnes. Avant la page, posez de vrais objets sur une table et faites-les regarder d’en haut, debout sur une chaise. La page de base de la famille, pour le CP, passe ensuite au plan d’un parc et à sa légende.",
+   "canonicalDeckSlug": "lire-une-carte-k377",
+   "carousel": [
+    {
+     "label": "Lire la légende d’un plan",
+     "href": "lire-la-legende-d-un-plan-cp"
+    },
+    {
+     "label": "Les points cardinaux : complète la rose des vents",
+     "href": "la-rose-des-vents-points-cardinaux-ce1"
+    },
+    {
+     "label": "Les continents : écris leur nom",
+     "href": "les-continents-ecrire-leur-nom-ce1"
+    },
+    {
+     "label": "Les continents et les océans sur la carte",
+     "href": "les-continents-et-les-oceans-ce2"
+    }
+   ],
+   "title": "Vue de dessus et vue de côté en maternelle | à imprimer en PDF gratuit",
+   "metaDescription": "Cinq objets vus de côté, une voiture, une tasse, une table, un plot, une chaise, et les mêmes vus de dessus : l’enfant relie chaque objet à sa vue de dessus."
+  },
+  {
+   "slug": "la-rose-des-vents-points-cardinaux-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-north-east-south-west",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Se repérer sur un plan",
+   "h1": "Les points cardinaux : complète la rose des vents",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "lire-une-carte",
+    "ce1"
+   ],
+   "p1": "Six cartes montrent chacune une rose des vents à quatre branches, entourée de quatre cases. Une seule case contient une lettre ; les trois autres sont vides. Une pointe orange marque toujours le nord. Sur trois roses, elle pointe vers le haut et la lettre donnée est S, E ou O : il suffit de compléter autour, comme sur une carte ordinaire. Sur les trois autres, la rose est tournée : l’aiguille orange pointe vers la gauche, vers le bas ou vers la droite, et la lettre donnée n’est plus à sa place habituelle. L’enfant part alors de l’aiguille du nord et place les autres en tournant dans le sens des aiguilles d’une montre : nord, est, sud, ouest.",
+   "p2": "C’est la vraie compétence : connaître l’ordre des points cardinaux, pas seulement leur place habituelle sur une feuille. Une rose tournée oblige à raisonner, exactement comme une carte que l’on tient de travers. En France, les points cardinaux sont inscrits au cycle 3 dans les programmes officiels, même si beaucoup de classes les abordent dès le CE2 ; au CE1, cette page convient aux élèves à l’aise. La consigne le rappelle en toutes lettres : la pointe orange montre toujours le nord, même quand la rose est tournée. Montrez-en une au tableau avant de commencer.",
+   "p3": "Dix-huit lettres à écrire. Une phrase mnémotechnique aide à retenir l’ordre, par exemple « Nous Explorons Sous l’Océan ». Affichez une rose des vents orientée dans la classe. Dans la même famille, une autre page applique les points cardinaux sur un plan, et la page de base travaille la légende.",
+   "canonicalDeckSlug": "lire-une-carte-g2369",
+   "carousel": [
+    {
+     "label": "Lire la légende d’un plan",
+     "href": "lire-la-legende-d-un-plan-cp"
+    },
+    {
+     "label": "Vu de côté, vu de dessus : relie les objets",
+     "href": "vue-de-dessus-vue-de-cote-maternelle"
+    },
+    {
+     "label": "Les continents : écris leur nom",
+     "href": "les-continents-ecrire-leur-nom-ce1"
+    },
+    {
+     "label": "Les continents et les océans sur la carte",
+     "href": "les-continents-et-les-oceans-ce2"
+    }
+   ],
+   "title": "La rose des vents et les points cardinaux, CE1 | à imprimer en PDF gratuit",
+   "metaDescription": "Six roses des vents, chacune avec une lettre déjà écrite, E, S ou O : l’enfant complète les trois autres. Sur trois roses, l’aiguille orange du nord est tournée."
+  },
+  {
+   "slug": "les-continents-ecrire-leur-nom-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-label-the-continents",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Se repérer sur une carte",
+   "h1": "Les continents : écris leur nom",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "lire-une-carte",
+    "ce1"
+   ],
+   "p1": "Un planisphère aux contours détaillés remplit le haut de la page. Six pastilles orange y sont posées : 1 sur l’Asie, 2 deux fois, sur l’Amérique du Nord et sur l’Amérique du Sud, 3 sur l’Europe, 4 relié par un trait à l’Antarctique, 5 sur l’Afrique et 6 sur l’Australie. Un encadré propose six noms : Europe, Asie, Amérique, Antarctique, Afrique, Océanie. En bas, six lignes numérotées. L’enfant écrit le nom de chaque continent sur la ligne de son numéro, en s’aidant de l’encadré. Une frontière en pointillés sépare l’Europe de l’Asie.",
+   "p2": "La page suit la présentation habituelle des manuels français : l’Amérique compte pour un seul continent, d’où le même numéro sur ses deux parties, et l’Antarctique est inclus, ce qui donne six continents. Beaucoup d’élèves ont entendu parler des « cinq continents » : c’est l’occasion d’expliquer que l’on compte parfois sans l’Antarctique, inhabité. Au cycle 2, le programme de Questionner le monde invite à situer quelques repères sur un planisphère, et les continents en sont les premiers.",
+   "p3": "Six noms à écrire, un planisphère à observer. Un globe à côté de la page aide à comprendre pourquoi l’Antarctique s’étire tout en bas. Les pages voisines de la famille ajoutent les océans pour le CE2, ou font travailler les points cardinaux.",
+   "canonicalDeckSlug": "lire-une-carte-g2370",
+   "carousel": [
+    {
+     "label": "Lire la légende d’un plan",
+     "href": "lire-la-legende-d-un-plan-cp"
+    },
+    {
+     "label": "Vu de côté, vu de dessus : relie les objets",
+     "href": "vue-de-dessus-vue-de-cote-maternelle"
+    },
+    {
+     "label": "Les points cardinaux : complète la rose des vents",
+     "href": "la-rose-des-vents-points-cardinaux-ce1"
+    },
+    {
+     "label": "Les continents et les océans sur la carte",
+     "href": "les-continents-et-les-oceans-ce2"
+    }
+   ],
+   "title": "Les continents au CE1 : écrire leur nom | à imprimer en PDF gratuit",
+   "metaDescription": "Un planisphère avec six continents numérotés, l’Amérique comptant pour un, et un encadré de noms : l’enfant écrit le nom de chaque continent sur sa ligne."
+  },
+  {
+   "slug": "les-continents-et-les-oceans-ce2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-continents-and-oceans",
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "CE2 · Se repérer sur une carte",
+   "h1": "Les continents et les océans sur la carte",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "lire-une-carte",
+    "ce2"
+   ],
+   "p1": "Le même planisphère que pour les continents seuls, mais cette fois onze numéros s’y posent. Les continents : l’Afrique, l’Asie, l’Amérique, dont le numéro figure deux fois, l’Europe, l’Océanie et l’Antarctique. Les océans : l’Atlantique au milieu, le Pacifique numéroté sur les deux bords de la carte puisqu’il s’étend de part et d’autre, l’océan Indien, l’océan Arctique en haut et l’océan Austral en bas. Sous la carte, onze noms sont rangés en trois colonnes, chacun suivi d’une case : Océanie, Europe, océan Arctique, Antarctique, océan Atlantique, océan Indien, Amérique, océan Pacifique, Asie, océan Austral, Afrique. L’enfant trouve chaque continent et chaque océan et écrit son numéro dans la case.",
+   "p2": "Ajouter les océans change la lecture : il faut regarder l’eau autant que les terres. Le Pacifique coupé en deux par les bords du planisphère surprend toujours les élèves ; c’est une excellente question pour comprendre qu’une carte plane déroule une sphère. Le programme de Questionner le monde au cycle 2 situe les grands repères sur le planisphère, et le CE2 est le bon moment pour les océans, que le cycle 3 reprend ensuite en géographie.",
+   "p3": "Onze numéros à reporter. L’ordre des noms est mélangé, l’enfant ne peut donc pas les recopier dans l’ordre des numéros. Si la classe n’a pas encore les continents, commencez par la page voisine de la famille, qui ne demande que les six noms.",
+   "canonicalDeckSlug": "lire-une-carte-g3396",
+   "carousel": [
+    {
+     "label": "Lire la légende d’un plan",
+     "href": "lire-la-legende-d-un-plan-cp"
+    },
+    {
+     "label": "Vu de côté, vu de dessus : relie les objets",
+     "href": "vue-de-dessus-vue-de-cote-maternelle"
+    },
+    {
+     "label": "Les points cardinaux : complète la rose des vents",
+     "href": "la-rose-des-vents-points-cardinaux-ce1"
+    },
+    {
+     "label": "Les continents : écris leur nom",
+     "href": "les-continents-ecrire-leur-nom-ce1"
+    }
+   ],
+   "title": "Les continents et les océans au CE2 | à imprimer en PDF gratuit",
+   "metaDescription": "Un planisphère avec onze numéros pour six continents et cinq océans, et la liste des noms : l’enfant écrit le bon numéro à côté de chacun."
+  },
+  {
+   "slug": "se-reperer-sur-une-carte-points-cardinaux",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-directions-on-a-map",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Se repérer sur un plan",
+   "h1": "Se repérer sur une carte avec les points cardinaux",
+   "strand": "Questionner le monde",
+   "slotTokens": [
+    "lire-une-carte",
+    "ce1"
+   ],
+   "p1": "Un plan de parc montre sept symboles répartis de part et d’autre d’un chemin : une maison vue de dessus, un arbre, une mare, une tente, un buisson, un massif de fleurs et un banc. À droite, une petite rose des vents indique N, E, S et O, et plus bas une légende nomme les sept symboles. Six lignes posent chacune une petite question en images : un symbole de départ, une direction écrite, ouest, est, nord ou sud, puis trois symboles au choix. L’enfant trouve la première image sur le plan, regarde dans la direction écrite et entoure celle des trois images qui s’y trouve. Deux questions vont vers l’ouest, deux vers le nord, une vers l’est, une vers le sud.",
+   "p2": "Utiliser les points cardinaux sur un plan est plus exigeant que les réciter : il faut garder le nord en haut en tête et se déplacer mentalement. En France, les points cardinaux sont au programme du cycle 3 ; beaucoup de classes les introduisent en CE2, et la page peut servir de défi en CE1. La légende lève les doutes sur les symboles les moins évidents : le carré à moitié sombre de la maison, le rond à rayons orange de la tente et le cercle ondulé de la mare. Aucun symbole n’est la bonne réponse plus de deux fois, et la maison, pourtant bien visible en haut du plan, n’en est jamais une : il faut vraiment suivre la direction.",
+   "p3": "Faites lire la légende ensemble avant de commencer, puis cherchez la première question tous ensemble. Six réponses à entourer, sans rien écrire. Pour installer d’abord l’ordre des points cardinaux, la page de la famille sur la rose des vents est un bon préalable, et la page de base sur la légende d’un plan prépare la lecture des symboles.",
+   "canonicalDeckSlug": "lire-une-carte-g2371",
+   "carousel": [
+    {
+     "label": "Lire la légende d’un plan",
+     "href": "lire-la-legende-d-un-plan-cp"
+    },
+    {
+     "label": "Vu de côté, vu de dessus : relie les objets",
+     "href": "vue-de-dessus-vue-de-cote-maternelle"
+    },
+    {
+     "label": "Les points cardinaux : complète la rose des vents",
+     "href": "la-rose-des-vents-points-cardinaux-ce1"
+    },
+    {
+     "label": "Les continents : écris leur nom",
+     "href": "les-continents-ecrire-leur-nom-ce1"
+    }
+   ],
+   "title": "Les points cardinaux sur un plan, CE1 | à imprimer en PDF gratuit",
+   "metaDescription": "Un plan de parc, sa légende de sept symboles et une rose des vents, puis six questions : depuis l’arbre, regarde à l’ouest… L’enfant entoure ce qu’il trouve."
+  },
+  {
+   "slug": "sons-ou-et-on-maternelle-trier",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "digraphs",
+    "mode": "digraphs-sort-by-letter-team",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Maternelle · Sons complexes",
+   "h1": "Sons complexes en maternelle : trier ou et on",
+   "strand": "Lecture et compréhension de l’écrit",
+   "slotTokens": [
+    "sons-complexes",
+    "maternelle"
+   ],
+   "p1": "Deux grandes colonnes encadrent la page : à gauche, le son ou ; à droite, le son on, chacun écrit en gros dans une bulle. Au centre, six images dessinées en couleur, les unes sous les autres, avec un point orange de chaque côté. Sur notre exemplaire : une poule, un moustique, un camion, des tongs, un coussin et un dragon. L’enfant dit le nom de chaque image et la relie par un trait au son qu’il entend. Trois images vont vers ou, la poule, le moustique et le coussin, et trois vers on, le camion, les tongs et le dragon. Il n’y a rien à lire en dehors des deux bulles.",
+   "p2": "En grande section, on ne lit pas encore les sons complexes ; on apprend à les entendre. Les programmes de l’école maternelle parlent d’une conscience phonologique qui se construit par le jeu : repérer un son, comparer deux sons proches. Cette page en est une étape de préparation au CP, pas un exercice de lecture. Deux sons seulement, bien contrastés, et six images familières. Quelques noms sont à fixer avant de relier : la poule, avec sa crête rouge, peut être appelée « coq », les tongs « sandales », le coussin « oreiller », et aucun de ces mots ne fait entendre le bon son. Le moustique, s’il devient une mouche, garde heureusement le son ou.",
+   "p3": "Tracer six traits suffit. Faites d’abord trouver d’autres mots avec ou, comme loup ou poule, puis avec on, comme bonbon ou citron. La page de base de la famille, pour le CP, ajoute le son oi et fait entourer le son au lieu de relier.",
+   "canonicalDeckSlug": "sons-complexes-k378",
+   "carousel": [
+    {
+     "label": "Sons complexes ou, on, oi : quel son entends-tu ?",
+     "href": "sons-complexes-ou-on-oi-cp"
+    },
+    {
+     "label": "Sons complexes : complète avec ou, on ou oi",
+     "href": "completer-avec-ou-on-oi-cp"
+    },
+    {
+     "label": "Lire des mots avec ou, on, oi et les relier aux images",
+     "href": "lire-des-mots-avec-ou-on-oi-cp"
+    },
+    {
+     "label": "Où entends-tu le son ou, on ou oi dans le mot ?",
+     "href": "ou-entends-tu-le-son-ou-on-oi"
+    }
+   ],
+   "title": "Trier les sons ou et on en maternelle | à imprimer en PDF gratuit",
+   "metaDescription": "Six images au centre, une poule, un moustique, un camion, des tongs, un coussin, un dragon : l’enfant relie chacune au son qu’il entend, ou ou on."
+  },
+  {
+   "slug": "completer-avec-ou-on-oi-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "digraphs",
+    "mode": "digraphs-write-the-missing-letter-team",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Sons complexes",
+   "h1": "Sons complexes : complète avec ou, on ou oi",
+   "strand": "Lecture et compréhension de l’écrit",
+   "standard": "RF.1.3.a",
+   "slotTokens": [
+    "sons-complexes",
+    "cp"
+   ],
+   "p1": "En haut, trois bulles rappellent les sons ou, on et oi. Dessous, huit lignes associent une image à un mot incomplet, où un cadre en pointillés remplace le son manquant : hériss… sous un hérisson, f…rmi sous une fourmi, …e sous une oie, v…ture sous une voiture, b…gie sous une bougie, t…gs sous des tongs, li… sous un lion, baign…re sous une baignoire. L’enfant dit le nom de l’image, entend le son qui manque, le choisit en haut et l’écrit dans l’espace en pointillés. Sur notre page, on revient trois fois, oi trois fois et ou deux fois. Le trou tombe au début, au milieu ou à la fin selon le mot.",
+   "p2": "Écrire le son, c’est passer de l’oreille à la main. L’enfant de CP qui entend « oi » dans baignoire doit encore se rappeler que ce son s’écrit o et i, et non « oa » ou « wa ». Les programmes officiels du cycle 2 lient ainsi lecture et écriture dès le début d’année. Le reste du mot étant donné, l’enfant se concentre sur un seul son et voit comment il s’intègre dans le mot entier. L’oie peut être prise pour un canard et les tongs pour des sandales : faites nommer les images avant de commencer, le début du mot écrit confirmera ensuite le bon nom.",
+   "p3": "Huit sons à écrire, en script ou en cursive selon la classe. Relisez ensuite chaque mot complet à voix haute. Dans la même famille, une page propose de lire des mots où le son est marqué, une autre de situer le son dans le mot, et la page de base se contente d’entourer le son entendu.",
+   "canonicalDeckSlug": "sons-complexes-g1392",
+   "carousel": [
+    {
+     "label": "Sons complexes ou, on, oi : quel son entends-tu ?",
+     "href": "sons-complexes-ou-on-oi-cp"
+    },
+    {
+     "label": "Sons complexes en maternelle : trier ou et on",
+     "href": "sons-ou-et-on-maternelle-trier"
+    },
+    {
+     "label": "Lire des mots avec ou, on, oi et les relier aux images",
+     "href": "lire-des-mots-avec-ou-on-oi-cp"
+    },
+    {
+     "label": "Où entends-tu le son ou, on ou oi dans le mot ?",
+     "href": "ou-entends-tu-le-son-ou-on-oi"
+    }
+   ],
+   "title": "Compléter les mots avec ou, on ou oi au CP | à imprimer en PDF gratuit",
+   "metaDescription": "Huit mots à trous sous leurs images, hériss…, f…rmi, v…ture, baign…re : l’enfant écrit ou, on ou oi dans l’espace en pointillés pour compléter chaque mot."
+  },
+  {
+   "slug": "lire-des-mots-avec-ou-on-oi-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "digraphs",
+    "mode": "digraphs-read-and-match",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Sons complexes",
+   "h1": "Lire des mots avec ou, on, oi et les relier aux images",
+   "strand": "Lecture et compréhension de l’écrit",
+   "standard": "RF.1.3.a",
+   "slotTokens": [
+    "sons-complexes",
+    "cp"
+   ],
+   "p1": "À gauche, six cartes présentent chacune un mot écrit en gros, dont le son complexe est entouré d’une bulle : étoile, fourmi, éponge, miroir, montagne, souris. À droite, six images dans le désordre : une montagne, une étoile, un miroir, une éponge, une souris, une fourmi. Un point orange suit chaque mot et précède chaque image. L’enfant lit chaque mot, en s’aidant du son marqué, et le relie par un trait à l’image qu’il nomme. Ici, c’est l’écrit qui mène : on lit d’abord, on vérifie ensuite avec l’image.",
+   "p2": "La bulle autour de ou, on ou oi aide le lecteur débutant à ne pas lire les lettres une à une : il voit d’emblée que o et u vont ensemble. C’est une étape entre le déchiffrage et la lecture fluide, que les programmes officiels du cycle 2 placent au CP. Chaque son revient deux fois : oi dans étoile et miroir, ou dans fourmi et souris, on dans éponge et montagne. Le son n’est pas toujours au même endroit, au début de montagne, à la fin de miroir, et c’est la bulle qui le montre d’un coup d’œil. Aucune image n’est ambiguë, ce qui laisse toute l’attention au déchiffrage.",
+   "p3": "Six mots, six traits. Faites relire les mots à voix haute après le travail, sans l’image. Les autres pages de la famille travaillent les mêmes sons de façons différentes : entourer le son entendu, compléter un mot, dire où l’on entend le son, puis lire des phrases.",
+   "canonicalDeckSlug": "sons-complexes-g1393",
+   "carousel": [
+    {
+     "label": "Sons complexes ou, on, oi : quel son entends-tu ?",
+     "href": "sons-complexes-ou-on-oi-cp"
+    },
+    {
+     "label": "Sons complexes en maternelle : trier ou et on",
+     "href": "sons-ou-et-on-maternelle-trier"
+    },
+    {
+     "label": "Sons complexes : complète avec ou, on ou oi",
+     "href": "completer-avec-ou-on-oi-cp"
+    },
+    {
+     "label": "Où entends-tu le son ou, on ou oi dans le mot ?",
+     "href": "ou-entends-tu-le-son-ou-on-oi"
+    }
+   ],
+   "title": "Lire des mots avec ou, on, oi au CP | à imprimer en PDF gratuit",
+   "metaDescription": "Six mots où le son est entouré, étoile, fourmi, éponge, miroir, montagne, souris, et six images en face : l’enfant lit chaque mot et le relie à son image."
+  },
+  {
+   "slug": "ou-entends-tu-le-son-ou-on-oi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "digraphs",
+    "mode": "digraphs-where-is-the-letter-team",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Sons complexes",
+   "h1": "Où entends-tu le son ou, on ou oi dans le mot ?",
+   "strand": "Lecture et compréhension de l’écrit",
+   "standard": "RF.1.3.a",
+   "slotTokens": [
+    "sons-complexes",
+    "cp"
+   ],
+   "p1": "Huit cartes associent chacune une image, une bulle qui donne le son à chercher et une flèche de gauche à droite posée sur trois cases en pointillés. Sur notre exemplaire : une poire avec oi, une poule avec ou, un doigt dont l’ongle est montré par une flèche, avec on, un cochon avec on, un hibou avec ou, un oiseau avec oi, une baignoire avec oi et un lion avec on. L’enfant dit le nom de l’image et colorie une case pour dire où il entend le son : au début, au milieu ou à la fin du mot. Ongle et oiseau le font entendre dès le début ; cochon, hibou et lion, à la fin ; poire et poule, au milieu.",
+   "p2": "Situer un son dans un mot oblige à écouter le mot en entier, du début à la fin, ce que la flèche matérialise. C’est un exercice classique de conscience phonologique au CP, dans la ligne des programmes officiels du cycle 2. Trois cartes demandent une attention particulière. L’ongle est montré sur un doigt, et l’enfant qui dit « doigt » entend oi, pas on : nommez cette image ensemble. La poule, avec sa crête rouge, peut devenir un coq, sans le son ou. Et dans baignoire, oi est dans la dernière syllabe, suivi du son r : un enfant qui hésite entre le milieu et la fin a bien entendu quelque chose.",
+   "p3": "Huit cases à colorier, rien à écrire. Faites « étirer » chaque mot à voix haute en suivant la flèche du doigt. Dans la famille, cette page complète la page de base, qui fait seulement reconnaître le son, et celle qui fait compléter les mots.",
+   "canonicalDeckSlug": "sons-complexes-g1394",
+   "carousel": [
+    {
+     "label": "Sons complexes ou, on, oi : quel son entends-tu ?",
+     "href": "sons-complexes-ou-on-oi-cp"
+    },
+    {
+     "label": "Sons complexes en maternelle : trier ou et on",
+     "href": "sons-ou-et-on-maternelle-trier"
+    },
+    {
+     "label": "Sons complexes : complète avec ou, on ou oi",
+     "href": "completer-avec-ou-on-oi-cp"
+    },
+    {
+     "label": "Lire des mots avec ou, on, oi et les relier aux images",
+     "href": "lire-des-mots-avec-ou-on-oi-cp"
+    }
+   ],
+   "title": "Où entends-tu le son ou, on, oi ? CP | à imprimer en PDF gratuit",
+   "metaDescription": "Huit images avec le son à chercher, ou, on ou oi, et trois cases : début, milieu, fin. L’enfant dit le mot et colorie la case où il entend le son."
+  },
+  {
+   "slug": "le-son-ou-dans-des-phrases-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "digraphs",
+    "mode": "digraphs-in-sentences",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Sons complexes",
+   "h1": "Le son ou dans des phrases : entoure et compte",
+   "strand": "Lecture et compréhension de l’écrit",
+   "standard": "RF.1.3.a",
+   "slotTokens": [
+    "sons-complexes",
+    "ce1"
+   ],
+   "p1": "Une seule bulle en haut : ou. Dessous, quatre bandes contiennent chacune une phrase écrite en gros caractères et une case à droite. « La poule a un joli poussin. » « Le poulet et la poule picorent dans la cour. » « Léa lit un livre sur le loup. » « La fourmi monte sur la tour. » L’enfant lit les phrases, entoure chaque ou et écrit dans la case combien il en a trouvé dans chaque phrase. Sur notre page, on en compte deux dans la première, trois dans la deuxième, un dans la troisième et deux dans la dernière, soit huit en tout.",
+   "p2": "Au CE1, le son ou est acquis pour la plupart des élèves ; cette page sert de révision en passant du mot isolé à la phrase. Chercher un son dans un texte oblige à relire lentement chaque mot, et compter donne une vérification. Aucune phrase ne contient le petit mot « ou », la conjonction, qui aurait posé la question de sa prononciation ; tous les ou de la page sont dans des mots comme poule, cour, loup ou tour. Ce travail s’inscrit dans l’étude du code, reprise au CE1 dans les programmes officiels du cycle 2.",
+   "p3": "Quatre phrases, quatre nombres. Faites lire chaque phrase à voix haute après avoir entouré. Pour les élèves encore fragiles, les pages de la famille pour le CP travaillent le même son sur des mots isolés. On peut aussi demander d’inventer une phrase avec trois ou.",
+   "canonicalDeckSlug": "sons-complexes-g2372",
+   "carousel": [
+    {
+     "label": "Sons complexes ou, on, oi : quel son entends-tu ?",
+     "href": "sons-complexes-ou-on-oi-cp"
+    },
+    {
+     "label": "Sons complexes en maternelle : trier ou et on",
+     "href": "sons-ou-et-on-maternelle-trier"
+    },
+    {
+     "label": "Sons complexes : complète avec ou, on ou oi",
+     "href": "completer-avec-ou-on-oi-cp"
+    },
+    {
+     "label": "Lire des mots avec ou, on, oi et les relier aux images",
+     "href": "lire-des-mots-avec-ou-on-oi-cp"
+    }
+   ],
+   "title": "Le son ou dans des phrases, CE1 | à imprimer en PDF gratuit",
+   "metaDescription": "Quatre phrases, comme « La fourmi monte sur la tour. » : l’enfant entoure chaque ou et écrit dans la case combien il en a trouvé dans chaque phrase."
+  },
+  {
+   "slug": "les-synonymes-en-images-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "synonyms-with-pictures",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Le lexique",
+   "h1": "Les synonymes en images : deux mots pour une image",
+   "strand": "Le lexique",
+   "slotTokens": [
+    "synonymes",
+    "cp"
+   ],
+   "p1": "Six cartes associent une image à quatre étiquettes. Quatre images sont des visages ronds et expressifs : un visage fâché, un visage étonné, un visage fatigué qui bâille, avec des « zzz », un visage content. Les deux autres montrent une baleine et une fourmi. L’enfant regarde chaque image et entoure, en dessous, les deux mots qui veulent dire la même chose et qui décrivent l’image : fâché et en colère, immense et énorme, étonné et surpris, épuisé et fatigué, heureux et content, minuscule et tout petit. Les deux autres mots de chaque carte viennent des cartes voisines et ne conviennent pas.",
+   "p2": "L’image sert d’ancre au sens : au CP, avant de manier les synonymes par la seule lecture, l’enfant constate que deux mots désignent la même chose qu’il voit. Les programmes officiels du cycle 2 font commencer le travail sur le lexique par l’oral et l’image. Un couple mérite une nuance : « épuisé » est plus fort que « fatigué », c’est l’occasion de dire que deux synonymes ne sont presque jamais parfaitement équivalents. Épuisé apparaît aussi comme leurre sous le visage étonné, ce qui oblige à regarder l’image avant de choisir.",
+   "p3": "Douze mots à entourer, deux par carte. Faites mimer chaque visage pour installer le vocabulaire des émotions. Dans la famille, la page de base, pour le CE1, retire les images et propose un seul synonyme à trouver pour chaque mot.",
+   "canonicalDeckSlug": "synonymes-g1395",
+   "carousel": [
+    {
+     "label": "Les synonymes : entoure le mot qui veut dire la même chose",
+     "href": "les-synonymes-ce1"
+    },
+    {
+     "label": "Relier les synonymes deux à deux",
+     "href": "relier-les-synonymes-ce1"
+    },
+    {
+     "label": "Les nuances de sens : du plus faible au plus fort",
+     "href": "nuances-de-sens-du-plus-faible-au-plus-fort-cp"
+    },
+    {
+     "label": "Les synonymes du verbe dire : choisis le mot juste",
+     "href": "synonymes-du-verbe-dire-ce1"
+    }
+   ],
+   "title": "Les synonymes en images au CP | à imprimer en PDF gratuit",
+   "metaDescription": "Six images, un visage fâché, une baleine, une fourmi… et quatre mots chacune : l’enfant entoure les deux mots qui veulent dire la même chose et décrivent l’image."
+  },
+  {
+   "slug": "relier-les-synonymes-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "synonym-pairs",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Le lexique",
+   "h1": "Relier les synonymes deux à deux",
+   "strand": "Le lexique",
+   "standard": "L.2.5",
+   "slotTokens": [
+    "synonymes",
+    "ce1"
+   ],
+   "p1": "Deux colonnes de huit cartes se font face. À gauche : étrange, savoureux, papoter, tomber, apeuré, heureux, facile, crier. À droite, dans un autre ordre : simple, bizarre, content, délicieux, hurler, effrayé, bavarder, chuter. Chaque carte porte une demi-anse, comme une chaussette qui attend sa paire, et un point orange pour accrocher le trait. L’enfant trace un trait pour relier chaque mot de gauche au mot de droite qui veut dire la même chose. Huit paires, sans intrus : chaque mot trouve exactement un partenaire, et le dernier trait se déduit des sept autres.",
+   "p2": "Relier demande de garder seize mots en tête et de tester les couples, ce qui est plus exigeant que choisir parmi quatre étiquettes. Les programmes officiels du cycle 2 placent l’étude des synonymes au CE1, dans le lexique. Plusieurs mots sont moins courants, comme chuter, apeuré ou savoureux, et c’est leur rencontre qui enrichit le vocabulaire. Papoter et bavarder, deux mots familiers, montrent qu’un synonyme n’est pas forcément un mot savant. Deux paires, crier et hurler, facile et simple, sont aussi des réponses de la page de base de la famille.",
+   "p3": "Huit traits à tracer, à la règle de préférence pour que la correction reste lisible. Si vous donnez les deux pages la même semaine, commencez par la page de base : plusieurs de ses leurres, comme étrange, savoureux, papoter ou chuter, deviennent ici des mots à relier. Les autres pages de la famille travaillent les nuances de sens et les synonymes du verbe dire.",
+   "canonicalDeckSlug": "synonymes-g2373",
+   "carousel": [
+    {
+     "label": "Les synonymes : entoure le mot qui veut dire la même chose",
+     "href": "les-synonymes-ce1"
+    },
+    {
+     "label": "Les synonymes en images : deux mots pour une image",
+     "href": "les-synonymes-en-images-cp"
+    },
+    {
+     "label": "Les nuances de sens : du plus faible au plus fort",
+     "href": "nuances-de-sens-du-plus-faible-au-plus-fort-cp"
+    },
+    {
+     "label": "Les synonymes du verbe dire : choisis le mot juste",
+     "href": "synonymes-du-verbe-dire-ce1"
+    }
+   ],
+   "title": "Relier les synonymes deux à deux, CE1 | à imprimer en PDF gratuit",
+   "metaDescription": "Huit mots à gauche, huit à droite : étrange, savoureux, papoter, tomber… L’enfant trace un trait pour relier chaque mot à son synonyme, sans aucun intrus."
+  },
+  {
+   "slug": "nuances-de-sens-du-plus-faible-au-plus-fort-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "shades-of-meaning",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Le lexique",
+   "h1": "Les nuances de sens : du plus faible au plus fort",
+   "strand": "Le lexique",
+   "standard": "L.1.5.d",
+   "slotTokens": [
+    "synonymes",
+    "cp"
+   ],
+   "p1": "Une petite échelle de trois barres, de plus en plus hautes, sert de légende en haut : 1, 2, 3. Dessous, six lignes de trois mots, chacun suivi d’une case, et la même échelle en miniature au début de chaque ligne. Sur notre exemplaire, les six lignes réunissent tapoter, taper et cogner ; humide, mouillé et trempé ; grignoter, manger et dévorer ; siroter, boire et engloutir ; tiède, chaud et brûlant ; apprécier, aimer et adorer. Sur la page, les mots sont mélangés dans chaque ligne. L’enfant lit les trois mots et écrit 1, 2 et 3 dans les cases, du mot le plus faible au mot le plus fort : tapoter, taper, cogner, par exemple.",
+   "p2": "Ranger des mots selon leur intensité fait découvrir que des mots proches ne sont pas interchangeables : on ne dévore pas un bonbon, on le grignote. Au CP, les programmes officiels du cycle 2 invitent à préciser le sens des mots et à les mettre en réseau ; les nuances de sens en sont un exemple très parlant. Une ligne mérite un débat : « engloutir » se dit plutôt pour la nourriture, et l’on attend ici boire goulûment. Si un élève propose un autre ordre et le justifie, écoutez-le.",
+   "p3": "Dix-huit chiffres à écrire. Faites mimer les trois mots d’une ligne, du plus doux au plus fort, c’est très efficace. Au CP, lisez les mots avec les élèves. Les pages voisines de la famille, pour le CE1, travaillent les synonymes au sens strict.",
+   "canonicalDeckSlug": "synonymes-g1396",
+   "carousel": [
+    {
+     "label": "Les synonymes : entoure le mot qui veut dire la même chose",
+     "href": "les-synonymes-ce1"
+    },
+    {
+     "label": "Les synonymes en images : deux mots pour une image",
+     "href": "les-synonymes-en-images-cp"
+    },
+    {
+     "label": "Relier les synonymes deux à deux",
+     "href": "relier-les-synonymes-ce1"
+    },
+    {
+     "label": "Les synonymes du verbe dire : choisis le mot juste",
+     "href": "synonymes-du-verbe-dire-ce1"
+    }
+   ],
+   "title": "Nuances de sens, du plus faible au plus fort, CP | PDF gratuit à imprimer",
+   "metaDescription": "Six lignes de trois mots proches, comme grignoter, manger, dévorer : l’enfant écrit 1, 2 et 3 pour les ranger du mot le plus faible au mot le plus fort."
+  },
+  {
+   "slug": "synonymes-du-verbe-dire-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "synonyms-for-said",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Le lexique",
+   "h1": "Les synonymes du verbe dire : choisis le mot juste",
+   "strand": "Le lexique",
+   "standard": "L.2.5.b",
+   "slotTokens": [
+    "synonymes",
+    "ce1"
+   ],
+   "p1": "Une grande bulle de parole ouvre la page. On y lit le mot « dit », barré, puis six verbes : répond, explique, chuchote, crie, demande, promet. Dessous, six phrases contiennent chacune une case vide à la place de « dit ». Inès voit son bus partir, Jules confie un secret à l’oreille de Mamie, Léa cherche son chapeau rouge, Emma jure de nourrir le poisson, Chloé explique comment planter une graine, Louis donne un résultat quand la maîtresse l’interroge. L’enfant lit chaque phrase et écrit dans la case le mot de la bulle qui convient le mieux. Chaque verbe sert une fois : crie, chuchote, demande, promet, explique et répond.",
+   "p2": "« Dit » est le verbe que les enfants écrivent partout. Le remplacer par le verbe juste rend un récit vivant et précis, et c’est un objectif constant de la production d’écrits au cycle 2. Les indices sont dans la phrase : un bus qui part fait crier, un secret se chuchote, un point d’interrogation appelle « demande », « c’est juré » appelle « promet ». Au CE1, les programmes officiels associent ce travail sur le lexique à l’écriture et à la ponctuation du dialogue.",
+   "p3": "Six verbes à recopier. Affichez ensuite la liste dans la classe pour les rédactions à venir, en l’enrichissant avec raconte, s’exclame ou murmure. La page de base de la famille travaille les synonymes hors contexte ; celle-ci les met en situation.",
+   "canonicalDeckSlug": "synonymes-g2374",
+   "carousel": [
+    {
+     "label": "Les synonymes : entoure le mot qui veut dire la même chose",
+     "href": "les-synonymes-ce1"
+    },
+    {
+     "label": "Les synonymes en images : deux mots pour une image",
+     "href": "les-synonymes-en-images-cp"
+    },
+    {
+     "label": "Relier les synonymes deux à deux",
+     "href": "relier-les-synonymes-ce1"
+    },
+    {
+     "label": "Les nuances de sens : du plus faible au plus fort",
+     "href": "nuances-de-sens-du-plus-faible-au-plus-fort-cp"
+    }
+   ],
+   "title": "Les synonymes du verbe dire, CE1 | à imprimer en PDF gratuit",
+   "metaDescription": "Six phrases avec un vide à la place de « dit » et une bulle de six verbes : répond, explique, chuchote, crie, demande, promet. L’enfant choisit le mot juste."
+  },
+  {
+   "slug": "champ-lexical-aller-regarder-ce2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "word-fields-go-and-look",
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "CE2 · Le lexique",
+   "h1": "Champ lexical : les mots pour aller et pour regarder",
+   "strand": "Le lexique",
+   "standard": "L.3.5",
+   "slotTokens": [
+    "synonymes",
+    "ce2"
+   ],
+   "p1": "En haut, un encadré réunit dix verbes : lorgner, foncer, errer, guetter, flâner, observer, épier, examiner, marcher, admirer. Dessous, deux grandes colonnes en forme de cahier à spirale, intitulées « aller » et « regarder », offrent chacune six lignes d’écriture. L’enfant lit les dix mots et écrit chacun dans le champ du verbe dont il est le plus proche par le sens. Sur notre exemplaire, quatre verbes vont avec « aller », foncer, errer, flâner et marcher, et six avec « regarder », lorgner, guetter, observer, épier, examiner et admirer. Les deux colonnes ayant le même nombre de lignes, la place disponible ne donne aucun indice.",
+   "p2": "Le champ lexical est une notion du CE2 : réunir les mots qui parlent d’une même idée. Ici, chaque verbe est une façon particulière d’aller ou de regarder, plus lente, plus rapide, plus discrète. Les programmes officiels du cycle 2 demandent d’enrichir le vocabulaire en organisant les mots en réseaux, et cette page le fait avec des verbes souvent rencontrés dans les albums. Lorgner, guetter et épier sont des mots rares à cet âge ; ce sont eux qui font la valeur de la page, à condition de les expliquer.",
+   "p3": "Dix mots à écrire. Demandez ensuite de classer les verbes de chaque champ du plus lent au plus rapide, ou du plus discret au plus visible. Les pages plus simples de la famille travaillent les synonymes deux par deux au CE1.",
+   "canonicalDeckSlug": "synonymes-g3397",
+   "carousel": [
+    {
+     "label": "Les synonymes : entoure le mot qui veut dire la même chose",
+     "href": "les-synonymes-ce1"
+    },
+    {
+     "label": "Les synonymes en images : deux mots pour une image",
+     "href": "les-synonymes-en-images-cp"
+    },
+    {
+     "label": "Relier les synonymes deux à deux",
+     "href": "relier-les-synonymes-ce1"
+    },
+    {
+     "label": "Les nuances de sens : du plus faible au plus fort",
+     "href": "nuances-de-sens-du-plus-faible-au-plus-fort-cp"
+    }
+   ],
+   "title": "Champ lexical : aller et regarder, CE2 | à imprimer en PDF gratuit",
+   "metaDescription": "Dix verbes, flâner, épier, foncer, examiner… et deux champs, « aller » et « regarder » : l’enfant écrit chaque mot dans le champ du verbe le plus proche."
+  },
+  {
+   "slug": "le-radical-en-images-cp",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "root-words-with-pictures",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "CP · Le lexique",
+   "h1": "Le radical en images : entoure le mot construit",
+   "strand": "Le lexique",
+   "slotTokens": [
+    "prefixes-et-suffixes",
+    "cp"
+   ],
+   "p1": "Six cartes présentent chacune une image en bas et trois mots au-dessus. Au-dessus d’un nuage : nuit, nuque, nuageux. D’un chat : chaton, chameau, chapeau. D’un ours : outil, ouvrir, ourson. D’un soleil : soupe, ensoleillé, souris. D’une fourmi : fourmilière, fontaine, forêt. D’une orange : oreille, orangeade, ordinateur. L’enfant nomme chaque image, puis entoure le seul mot construit à partir du nom de l’image. Les deux autres mots commencent par les mêmes lettres, parfois par la même syllabe, mais n’ont aucun lien de sens.",
+   "p2": "C’est le piège voulu : cha- dans chapeau n’a rien à voir avec chat, sou- dans souris rien à voir avec soleil. L’enfant apprend qu’un mot de la même famille garde le sens, pas seulement les lettres. Au CP, les programmes officiels du cycle 2 amorcent ce travail sur la formation des mots à l’oral et avec des images. Ensoleillé est la carte la plus fine : le mot soleil y est caché au milieu, derrière le préfixe en-. Si un enfant nomme l’animal « chaton », il a trouvé la réponse sans le vouloir : faites-lui dire d’abord « chat », puis chercher le mot construit.",
+   "p3": "Six mots à entourer. Lisez les trois mots de chaque carte à voix haute avec les lecteurs débutants. Pour prolonger, faites chercher d’autres mots construits sur nuage ou sur orange. Les pages suivantes de la famille, pour le CE1, travaillent le radical sans images.",
+   "canonicalDeckSlug": "prefixes-et-suffixes-g1397",
+   "carousel": [
+    {
+     "label": "Le radical : trier les mots selon leur radical",
+     "href": "prefixes-suffixes-et-radical-ce1"
+    },
+    {
+     "label": "Trouver le radical commun à trois mots",
+     "href": "trouver-le-mot-de-base-ce1"
+    },
+    {
+     "label": "Les préfixes re-, pré- et sur- : choisis selon le sens",
+     "href": "les-prefixes-re-pre-sur-ce1"
+    },
+    {
+     "label": "Le radical dans les phrases",
+     "href": "le-radical-dans-la-phrase-ce2"
+    }
+   ],
+   "title": "Le radical en images au CP | à imprimer en PDF gratuit",
+   "metaDescription": "Six images, nuage, chat, ours, soleil, fourmi, orange, et trois mots au-dessus : l’enfant entoure le seul mot construit à partir du nom de l’image."
+  },
+  {
+   "slug": "trouver-le-mot-de-base-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "find-the-root-word",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Le lexique",
+   "h1": "Trouver le radical commun à trois mots",
+   "strand": "Le lexique",
+   "standard": "L.2.4.c",
+   "slotTokens": [
+    "prefixes-et-suffixes",
+    "ce1"
+   ],
+   "p1": "Neuf cartes présentent chacune trois mots de la même famille et une pierre. La première sert d’exemple : dans arrondi, rondeur et arrondir, « rond » est entouré, et la pierre porte le mot rond. Viennent ensuite grandir, grandeur, agrandir ; chanteur, chantonner, chanter ; monter, surmonter, montagneux ; dentelure, denture, édenté ; allonger, longer, longuement ; rempoter, potager, poterie ; sautiller, sautillant, sauteur ; ventilateur, venter, éventer. L’enfant entoure la partie commune aux trois mots et écrit ce radical dans la pierre vide : grand, chant, mont, dent, long, pot, saut, vent.",
+   "p2": "Dans chacune des huit familles, le radical apparaît en entier dans les trois mots, ce qui permet à l’élève de CE1 de le trouver par observation. Certains sont cachés au milieu, comme dent dans édenté, long dans allonger ou pot dans rempoter, et obligent à regarder au-delà du début du mot. Les programmes officiels du cycle 2 font travailler ces familles de mots dans le lexique. Tous les mots sont construits avec un préfixe ou un suffixe, sans mot composé. Une famille mérite une explication : le potager, jardin où l’on cultivait autrefois les légumes du pot, se rattache bien à pot, mais son sens n’est plus transparent pour un enfant.",
+   "p3": "Huit radicaux à écrire, après l’exemple. Faites expliquer le sens de chaque famille : la denture, un dentier, un vieil homme édenté ont tous à voir avec les dents. Deux radicaux, grand et saut, reviennent ailleurs dans la famille, grand sur la page de base, qui fait trier des mots sur deux murs, grand et saut sur la page qui place les mots dans des phrases.",
+   "canonicalDeckSlug": "prefixes-et-suffixes-g2375",
+   "carousel": [
+    {
+     "label": "Le radical : trier les mots selon leur radical",
+     "href": "prefixes-suffixes-et-radical-ce1"
+    },
+    {
+     "label": "Le radical en images : entoure le mot construit",
+     "href": "le-radical-en-images-cp"
+    },
+    {
+     "label": "Les préfixes re-, pré- et sur- : choisis selon le sens",
+     "href": "les-prefixes-re-pre-sur-ce1"
+    },
+    {
+     "label": "Le radical dans les phrases",
+     "href": "le-radical-dans-la-phrase-ce2"
+    }
+   ],
+   "title": "Trouver le radical commun à trois mots, CE1 | à imprimer en PDF",
+   "metaDescription": "Neuf groupes de trois mots, comme grandir, grandeur, agrandir : l’enfant entoure la partie commune et écrit ce radical dans la pierre vide. Pour le CE1."
+  },
+  {
+   "slug": "les-prefixes-re-pre-sur-ce1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "prefixes-re-pre-mis",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "CE1 · Le lexique",
+   "h1": "Les préfixes re-, pré- et sur- : choisis selon le sens",
+   "strand": "Le lexique",
+   "standard": "L.2.4.b",
+   "slotTokens": [
+    "prefixes-et-suffixes",
+    "ce1"
+   ],
+   "p1": "En haut, une clé présente trois préfixes, chacun avec son sens : re, « de nouveau » ; pré, « avant » ; sur, « au-dessus, en plus ». Dessous, huit lignes donnent la définition d’un nouveau mot et, à droite, une pièce de puzzle vide suivie d’un verbe : faire, chauffer, charger, dire, lire, voler, venir, voir. L’enfant lit ce que veut dire le nouveau mot, trouve son préfixe dans la clé et l’écrit dans la pièce vide. Par exemple, « chauffer le four d’abord, puis faire cuire le gâteau » donne préchauffer, « voler très haut, loin des toits de la ville » donne survoler. Sur notre page, re- sert trois fois, pré- trois fois et sur- deux fois.",
+   "p2": "Le préfixe change le sens du mot, et c’est ce que la page fait vivre : on part du sens pour trouver la forme. Au CE1, les programmes officiels du cycle 2 abordent les préfixes dans le lexique, comme outil pour comprendre des mots nouveaux. Les définitions ne recopient pas la clé : « encore une fois » renvoie à « de nouveau », « d’abord » et « dès maintenant » à « avant », « beaucoup trop » et « très haut » à « au-dessus, en plus ». L’élève doit reconnaître le sens sous une autre formulation. Prévoir est le mot le plus fin : il ne veut pas dire voir avant, mais penser à l’avance.",
+   "p3": "Huit préfixes à écrire. Faites lire ensuite le mot entier, refaire, prédire, surcharger, pour vérifier qu’il existe. La page de base de la famille fait trier des mots par radical ; celle-ci se concentre sur ce qu’on ajoute devant.",
+   "canonicalDeckSlug": "prefixes-et-suffixes-g2376",
+   "carousel": [
+    {
+     "label": "Le radical : trier les mots selon leur radical",
+     "href": "prefixes-suffixes-et-radical-ce1"
+    },
+    {
+     "label": "Le radical en images : entoure le mot construit",
+     "href": "le-radical-en-images-cp"
+    },
+    {
+     "label": "Trouver le radical commun à trois mots",
+     "href": "trouver-le-mot-de-base-ce1"
+    },
+    {
+     "label": "Le radical dans les phrases",
+     "href": "le-radical-dans-la-phrase-ce2"
+    }
+   ],
+   "title": "Les préfixes re-, pré-, sur- au CE1 | à imprimer en PDF gratuit",
+   "metaDescription": "Une clé de trois préfixes, re- de nouveau, pré- avant, sur- au-dessus ou en plus, et huit définitions : l’enfant écrit le bon préfixe devant chaque verbe."
+  },
+  {
+   "slug": "le-radical-dans-la-phrase-ce2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "root-words-in-sentences",
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "CE2 · Le lexique",
+   "h1": "Le radical dans les phrases",
+   "strand": "Le lexique",
+   "standard": "L.3.4.c",
+   "slotTokens": [
+    "prefixes-et-suffixes",
+    "ce2"
+   ],
+   "p1": "La page est coupée en deux blocs. Dans le premier, quatre mots posés sur une pierre qui porte le radical grand : grand-père, grandir, grandeur, grandement. Dans le second, quatre mots autour de saut : sautillant, sauterelle, sauteur, sauter. Chaque bloc propose ensuite quatre phrases à trou. « Range les boîtes par ordre de … » « Merci, tu m’as … aidé ! » « Mon … me raconte des histoires le soir. » « Dans l’herbe, une … verte bondit. » « Le petit oiseau avance d’un pas … » L’enfant écrit chacun des quatre mots de la pierre dans la phrase qui lui convient ; chaque mot sert une fois.",
+   "p2": "Connaître une famille de mots ne suffit pas : il faut savoir quel mot employer. Grandeur est un nom, grandir un verbe, grandement un adverbe, et la phrase n’accepte que l’un d’eux. Au CE2, fin du cycle 2, les programmes officiels relient le lexique à la grammaire, et cette page fait sentir sans les nommer ces différentes natures de mots. Les deux radicaux reviennent d’autres pages de la famille, grand sur la page de base, grand et saut sur la page qui fait trouver le radical commun à trois mots.",
+   "p3": "Huit mots à écrire. La consigne précise « dans chaque bloc » : chaque pierre sert à ses quatre phrases, soit huit mots en tout. Faites relire chaque phrase complète à voix haute. Les pages plus simples de la famille, au CP et au CE1, travaillent le radical hors phrase.",
+   "canonicalDeckSlug": "prefixes-et-suffixes-g3399",
+   "carousel": [
+    {
+     "label": "Le radical : trier les mots selon leur radical",
+     "href": "prefixes-suffixes-et-radical-ce1"
+    },
+    {
+     "label": "Le radical en images : entoure le mot construit",
+     "href": "le-radical-en-images-cp"
+    },
+    {
+     "label": "Trouver le radical commun à trois mots",
+     "href": "trouver-le-mot-de-base-ce1"
+    },
+    {
+     "label": "Les préfixes re-, pré- et sur- : choisis selon le sens",
+     "href": "les-prefixes-re-pre-sur-ce1"
+    }
+   ],
+   "title": "Préfixes, suffixes et radical dans la phrase, CE2 | PDF gratuit à imprimer",
+   "metaDescription": "Deux familles de mots, autour de grand et de saut, et huit phrases à trou : l’enfant écrit chacun des quatre mots de la famille dans la phrase qui lui convient."
   }
  ]
 }

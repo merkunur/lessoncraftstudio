@@ -319,7 +319,7 @@ node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js || { echo "ERROR: a 
 node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js --expect=docs/worksheet-gen/b4-designs/hub-expectations.json || { echo "ERROR: an nt10-D family is missing or mis-counted on /worksheets — see docs/worksheet-gen/b4-designs/hub-expectations.json"; exit 1; }
 # nt10-E (b5): the same gate over the b5 matrix (0 cells = the rail must show NOTHING for that key there);
 # --warn-missing-keys until the b5 landings are committed (then dropped at close-out).
-node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js --expect=docs/worksheet-gen/b5-designs/hub-expectations.json --warn-missing-keys || { echo "ERROR: an nt10-E family is missing or mis-counted on /worksheets — see docs/worksheet-gen/b5-designs/hub-expectations.json"; exit 1; }
+node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js --expect=docs/worksheet-gen/b5-designs/hub-expectations.json || { echo "ERROR: an nt10-E family is missing or mis-counted on /worksheets — see docs/worksheet-gen/b5-designs/hub-expectations.json"; exit 1; }
 
 # Guard: a `font:` shorthand with an UNQUOTED family whose identifier starts with a
 # digit — `Baloo 2` — is INVALID CSS, and an invalid component invalidates the WHOLE

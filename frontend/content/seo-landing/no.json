@@ -147446,6 +147446,2236 @@
    ],
    "title": "Avrunding til tier og hundrer, 4. trinn | til utskrift PDF gratis",
    "metaDescription": "Avrunding for 4. trinn: åtte tresifrede tall som skal rundes av to ganger – først til nærmeste tier, så til nærmeste hundrer. Gratis PDF."
+  },
+  {
+   "slug": "geometriske-figurer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "base",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: geometriske figurer · 1. trinn",
+   "h1": "Geometriske figurer: hva heter figuren?",
+   "strand": "Geometri",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "geometriske-figurer",
+    "1-trinn"
+   ],
+   "p1": "Arket har seks kort i to kolonner. På hvert kort står én figur tegnet med tynn strek inne i en hvit, rund ramme, og til høyre tre navnelapper å ringe rundt. På dette arket møter barnet to trekanter, en sirkel, to kvadrater og ett rektangel – og nesten ingen av dem står «pent». Den ene trekanten er lang og spiss og ligger på skrå, det ene kvadratet står på hjørnet slik at mange barn vil kalle det en rombe, og rektangelet er vippet på skrå. Navnene som kan velges, er sirkel, kvadrat, trekant og rektangel, og hvert kort viser tre av dem.",
+   "p2": "Poenget er å kjenne igjen formen uansett hvordan den er snudd. Den runde rammen er valgt med vilje: et kvadrat inne i en firkantet ramme ser lett ut som en «diamant», fordi rammen gir en retning å sammenligne med. I en sirkel finnes ingen slik retning, så barnet må se på sidene og hjørnene i stedet. Snakk gjerne om kortet med kvadratet på hjørnet: Hvor mange sider har det? Er de like lange? Da blir det tydelig at det er den samme figuren, bare snudd.",
+   "p3": "Arket skrives ut på én side og passer i matematikk på 1. trinn, der LK20 legger vekt på å kjenne igjen, beskrive og sortere todimensjonale figurer. Dette er grunnarket i familien geometriske figurer. Videre finnes et ark der barnet skiller ekte figurer fra nesten-figurer, et med ting fra hverdagen, et der navnene skal skrives, gåter om figurer og prikkark der barnet tegner figurene selv.",
+   "canonicalDeckSlug": "geometriske-figurer-k368",
+   "carousel": [
+    {
+     "label": "Kjenne igjen geometriske figurer: er det riktig figur?",
+     "href": "kjenne-igjen-geometriske-figurer"
+    },
+    {
+     "label": "Geometriske figurer rundt oss: sirkel eller rektangel?",
+     "href": "geometriske-figurer-rundt-oss"
+    },
+    {
+     "label": "Geometriske figurer med navn: skriv navnene",
+     "href": "geometriske-figurer-skriv-navnet"
+    },
+    {
+     "label": "Gåter om geometriske figurer",
+     "href": "gater-om-geometriske-figurer"
+    }
+   ],
+   "title": "Geometriske figurer 1. trinn: hva heter figuren? | utskrift PDF gratis",
+   "metaDescription": "Geometriske figurer for 1. trinn: seks figurer i hver sin runde ramme, noen snudd og smale, og tre navn å ringe rundt ved hver. Gratis PDF."
+  },
+  {
+   "slug": "trafikkopplaering",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "base",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: trafikkopplæring · 1. trinn",
+   "h1": "Trafikkopplæring: hva viser trafikklyset?",
+   "strand": "Trafikkopplæring",
+   "slotTokens": [
+    "trafikkskilt-og-trafikkregler",
+    "1-trinn"
+   ],
+   "p1": "Arket er delt i seks scener. Tre av dem viser et vanlig trafikklys med tre lamper over en vei med to biler, og tre viser et fotgjengerlys med to lamper – en rød, stående mann og en grønn, gående mann – ved et gangfelt. I hver scene lyser én lampe; den har små stråler rundt seg. På hver side av lyset står et ord: stopp og kjør ved billysene, vent og gå ved fotgjengerlysene. Under ordene står en bil som står stille og en bil i fart, eller et barn som venter og et barn som går.",
+   "p2": "Barnet finner lampen med stråler og ringer rundt det man skal gjøre. På dette arket lyser rødt to ganger for bilene og én gang for fotgjengerne, mens grønt lyser én gang for bilene og to ganger for fotgjengerne. Ordene bytter side fra scene til scene, så barnet må lese lampen og ikke huske en plass. Bildene under ordene gjør at også barn som ikke leser ennå, kan løse arket. Det viktige er skillet mellom de to lysene: billyset har tre lamper og fotgjengerlyset to, og det er fotgjengerlyset barnet selv skal følge når det går over.",
+   "p3": "Trafikkopplæring er en del av LK20 fra første skoledag, og dette er et naturlig startark på 1. trinn, gjerne før en tur til nærmeste lysregulerte gangfelt. Skrives ut på én side. Grunnarket er det første i familien; de neste lar barnet fargelegge lysene, sette trinnene over veien i rekkefølge og lære trafikkskiltene og hva de betyr.",
+   "canonicalDeckSlug": "trafikkskilt-og-trafikkregler-k369",
+   "carousel": [
+    {
+     "label": "Trafikklys: fargelegg lampen som lyser",
+     "href": "fargelegg-trafikklyset"
+    },
+    {
+     "label": "Gå trygt over veien: steg for steg",
+     "href": "ga-trygt-over-veien"
+    },
+    {
+     "label": "Trafikkskilt og hva de betyr",
+     "href": "trafikkskilt-og-hva-de-betyr"
+    },
+    {
+     "label": "Trafikkskilt: fareskilt, forbudsskilt og opplysningsskilt",
+     "href": "fareskilt-forbudsskilt-og-opplysningsskilt"
+    }
+   ],
+   "title": "Trafikkopplæring 1. trinn: hva viser trafikklyset? | utskrift PDF gratis",
+   "metaDescription": "Trafikkopplæring for 1. trinn: seks trafikklys for biler og gående, og barnet ringer rundt stopp, kjør, vent eller gå etter lampen som lyser. Gratis PDF."
+  },
+  {
+   "slug": "familie-og-slekt",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "base",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: familie og slekt · 1. trinn",
+   "h1": "Familie og slekt: hvem er hvem?",
+   "strand": "Samfunnsfag: familie og slekt",
+   "slotTokens": [
+    "familie-og-slekt",
+    "1-trinn"
+   ],
+   "p1": "Et lite slektstre fyller øvre halvdel av arket. Nederst står Liam, merket med en stjerne, og ved siden av ham en jente som er tegnet høyere enn ham, så det synes at hun er eldst. Over dem står to voksne, og over den ene av de voksne står to eldre personer med briller; bestefaren har bart og skjegg. Alle unntatt Liam har et tall fra 1 til 5. Under treet står fem familieord, hvert med en tom rute ved siden av: storesøster, mamma, farmor, farfar og pappa.",
+   "p2": "Barnet finner hver person i treet og skriver tallet i ruten ved riktig ord. Alt ses fra Liams side, og det er det som gjør oppgaven til mer enn å kjenne igjen en bestemor: besteforeldrene henger over pappa, og derfor heter de farmor og farfar, ikke mormor og morfar. Det norske skillet mellom mors og fars foreldre er noe mange engelske ark ikke har, og det er verdt å snakke om. Spør: Hva ville de hett hvis de hang over mamma i stedet?",
+   "p3": "Arket er for 1. trinn og hører hjemme i samfunnsfag, der LK20 løfter fram familie og slekt tidlig. Barnet trenger bare å kunne tallene til 5. Skrives ut på én side. Husk at familier ser ulike ut; arket viser én familie, og det er lurt å si det høyt. I familien finnes også et ark der familieordene skal spores, et om generasjoner, et slektstre med ledetråder, slektsgåter og en tom mal til barnets egen familie.",
+   "canonicalDeckSlug": "familie-og-slekt-k370",
+   "carousel": [
+    {
+     "label": "Generasjoner i slekta: fra eldst til yngst",
+     "href": "generasjoner-i-slekta"
+    },
+    {
+     "label": "Familieord: spor og skriv",
+     "href": "familieord-spor-og-skriv"
+    },
+    {
+     "label": "Slektstre: les ledetrådene",
+     "href": "slektstre-med-ledetrader"
+    },
+    {
+     "label": "Slektsgåter: mormor, farfar, moster eller farbror?",
+     "href": "slektninger-gater"
+    }
+   ],
+   "title": "Familie og slekt for 1. trinn: hvem er hvem? | til utskrift PDF gratis",
+   "metaDescription": "Familie og slekt for 1. trinn: et slektstre med Liam og fem nummererte familiemedlemmer, og fem familieord der barnet skriver riktig tall. Gratis PDF."
+  },
+  {
+   "slug": "plantens-deler",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "base",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: plantens deler · 2. trinn",
+   "h1": "Plantens deler: skriv navnet på hver del",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "plantens-deler",
+    "2-trinn"
+   ],
+   "p1": "Midt på arket står én stor plante i en boks med jord, tegnet som en enkel strektegning. Den har røtter i jorda, en lang stengel, fire blad, en blomst øverst og en belg med frø som henger fra stengelen. Seks oransje lapper med tallene 1 til 6 peker på hver sin del med en tynn strek. Øverst står ordbanken med seks ord: frø, blad, stengel, frukt, rot og blomst. Til høyre er seks skrivelinjer merket 1 til 6.",
+   "p2": "Barnet følger hver lapp til delen den peker på og skriver navnet fra ordbanken på linjen med samme tall. Tallene er spredt rundt planten og går ikke ovenfra og ned, så barnet må følge streken. Belgen er det fineste på arket: én lapp peker på selve belgen – frukten – og en annen på et frø inne i den. Mange barn tror frukt bare er noe man spiser, og her ser de at frukten er den delen av planten som bærer frøene.",
+   "p3": "Plantens deler står i naturfag på småtrinnet i LK20, og arket er laget for 2. trinn. Skrives ut på én side. Dette er grunnarket i familien; variantene går videre til hva planten trenger for å vokse, fra frø til plante, hvilke deler vi spiser, hva hver del gjør og blomstens deler. Ta gjerne med en ekte plante med rot inn i klasserommet og finn de samme delene på den.",
+   "canonicalDeckSlug": "plantens-deler-g1376",
+   "carousel": [
+    {
+     "label": "Hva trenger en plante for å vokse?",
+     "href": "hva-trenger-en-plante-for-a-vokse"
+    },
+    {
+     "label": "Fra frø til plante: klipp og lim",
+     "href": "fra-fro-til-plante"
+    },
+    {
+     "label": "Hvilke deler av planten spiser vi?",
+     "href": "hvilke-deler-av-planten-spiser-vi"
+    },
+    {
+     "label": "Plantens deler og hva de gjør",
+     "href": "plantens-deler-og-hva-de-gjor"
+    }
+   ],
+   "title": "Plantens deler for 2. trinn – skriv navnene | til utskrift PDF gratis",
+   "metaDescription": "Plantens deler for 2. trinn: en plante med rot, stengel, blad, blomst, belg og frø, seks nummererte lapper og en ordbank med seks ord. Gratis PDF."
+  },
+  {
+   "slug": "sommerfuglens-livssyklus",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "base",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: sommerfuglens livssyklus · 2. trinn",
+   "h1": "Sommerfuglens livssyklus: fra egg til sommerfugl",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "sommerfuglens-og-froskens-livssyklus",
+    "2-trinn"
+   ],
+   "p1": "I midten står en plante med blomst og fire blad. Fra fire steder på planten går streker ut til fire store, runde bilder: et egg på et blad, en larve på et blad, en puppe som henger under et blad, og en sommerfugl ved blomsten. Egget har allerede tallet 1. Under de tre andre bildene står tomme ruter. Nederst, under en stiplet linje, står sommerfuglen igjen, med en pil som peker mot én tom rute til.",
+   "p2": "Barnet skriver 2, 3 og 4 i riktig rekkefølge, og i den siste ruten tallet på bildet som kommer etter sommerfuglen – altså 1 igjen, egget. Det er den lille ekstraoppgaven som gjør arket til en syklus og ikke bare en rekke. Bildene står ikke i rekkefølge rundt planten, så barnet må tenke på hvert stadium og kan ikke bare telle seg rundt. Strekene inn til planten viser hvor hvert stadium finnes i naturen.",
+   "p3": "Arket passer i naturfag på 2. trinn og kan godt kombineres med sommerfugllarver i klasserommet om våren. Ordene står ikke på arket; si dem høyt underveis – egg, larve, puppe, sommerfugl. Skrives ut på én side. Dette er grunnarket i familien; variantene tar for seg frosken, navnene på stadiene, metamorfose, hva som kommer etterpå og en sammenligning av to dyr. Mange barn liker å fargelegge bildene til slutt.",
+   "canonicalDeckSlug": "sommerfuglens-og-froskens-livssyklus-g1377",
+   "carousel": [
+    {
+     "label": "Froskens livssyklus: klipp og lim",
+     "href": "froskens-livssyklus-klipp-og-lim"
+    },
+    {
+     "label": "Sommerfuglens livssyklus: skriv navnene på stadiene",
+     "href": "sommerfuglens-livssyklus-skriv-navnene"
+    },
+    {
+     "label": "Metamorfose: hva blir hvert stadium til?",
+     "href": "metamorfose"
+    },
+    {
+     "label": "Sommerfuglens og froskens livssyklus: sammenlign",
+     "href": "sommerfugl-og-frosk-sammenlign-livssyklus"
+    }
+   ],
+   "title": "Sommerfuglens livssyklus for 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Sommerfuglens livssyklus for 2. trinn: egg, larve, puppe og sommerfugl i fire runde bilder rundt en plante, og barnet nummererer dem og lukker ringen. Gratis PDF."
+  },
+  {
+   "slug": "solsystemet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "base",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: solsystemet · 2. trinn",
+   "h1": "Solen, Jorden og Månen",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "solsystemet",
+    "2-trinn"
+   ],
+   "p1": "Arket er en tabell. Øverst står tre kolonner med bilde og navn: Solen, Jorden og Månen. Nedover står åtte nummererte setninger, og ved hver setning er det tre tomme ruter, én under hvert himmellegeme. Setningene er korte: «Den er en stjerne.», «Den er dekket av kratre.», «Når den snurrer, får vi dag og natt.» og «Den går i bane rundt planeten vi bor på.»",
+   "p2": "Barnet leser hver setning og setter kryss for om den handler om Solen, Jorden eller Månen. Hver setning passer til bare ett av de tre. Her møter barnet noen grunnleggende og ofte misforståtte fakta: Solen er en stjerne og den største av de tre, Jorden er en planet og det er den som snurrer, og Månen går rundt Jorden og ser ut til å endre form. Det siste – at formen bare ser ut til å endre seg – er verdt å stoppe ved.",
+   "p3": "I LK20 hører Solen, Jorden og Månen til naturfagsmålene etter 4. trinn, så arket er et tidlig møte med stoffet på 2. trinn. Det fungerer godt høytlest i fellesskap. Skrives ut på én side. Dette er grunnarket i familien om solsystemet; senere kommer månefaser, dag og natt, planetene i rekkefølge og planetene etter størrelse. Snakk også om at Månen ikke lyser selv, men blir lyst opp av Solen.",
+   "canonicalDeckSlug": "solsystemet-g1378",
+   "carousel": [
+    {
+     "label": "Månens faser i riktig rekkefølge",
+     "href": "manens-faser-i-rekkefolge"
+    },
+    {
+     "label": "Månens faser: skriv navnene",
+     "href": "manens-faser-skriv-navnene"
+    },
+    {
+     "label": "Hvorfor blir det dag og natt?",
+     "href": "hvorfor-blir-det-dag-og-natt"
+    },
+    {
+     "label": "Planetene i rekkefølge fra Solen",
+     "href": "planetene-i-rekkefolge"
+    }
+   ],
+   "title": "Solsystemet: Solen, Jorden og Månen, 2. trinn | utskrift PDF gratis",
+   "metaDescription": "Solen, Jorden og Månen for 2. trinn: åtte påstander og en tabell med tre kolonner – kryss av for om setningen handler om Solen, Jorden eller Månen. Gratis PDF."
+  },
+  {
+   "slug": "kartlesing-for-barn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "base",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: kart og himmelretninger · 2. trinn",
+   "h1": "Kartlesing: les tegnforklaringen",
+   "strand": "Samfunnsfag",
+   "slotTokens": [
+    "kart-og-himmelretninger",
+    "2-trinn"
+   ],
+   "p1": "Kartet viser en øy sett ovenfra, med vann rundt, en vei tvers over og en elv som renner ned mot sjøen. Oppe til høyre står en nordpil med N. På øya er det spredt små symboler. Under kartet står tegnforklaringen med fem symboler og navnene deres: blomst, bru, benk, løvtre og busk. Nederst står fem kort med de samme ordene, stokket om, hvert med en tom rute.",
+   "p2": "Barnet ser på tegnforklaringen, finner hver ting på kartet og skriver i ruten hvor mange det er. På dette arket er tallene forskjellige for alle fem – én bru, to busker, tre blomster, fire benker og fem løvtrær – så barnet må telle hvert symbol for seg. Det viktige er ideen om at et symbol står for en ting: en tegning av et tre er ikke et tre, men et tegn for et tre. Busk og løvtre ligner hverandre, og det er meningen.",
+   "p3": "Kart og tegnforklaring står i LK20 blant samfunnsfagsmålene etter 4. trinn, så dette er et tidlig og konkret møte på 2. trinn. Skrives ut på én side. Neste steg er å tegne et eget kart over klasserommet med egne symboler. I familien finnes også ark om fugleperspektiv, himmelretninger, verdensdeler og verdenshav. Kartet egner seg også til muntlige spørsmål: Hvor står benken nærmest brua?",
+   "canonicalDeckSlug": "kart-og-himmelretninger-g1379",
+   "carousel": [
+    {
+     "label": "Fugleperspektiv: fra siden og ovenfra",
+     "href": "fugleperspektiv"
+    },
+    {
+     "label": "Himmelretninger: nord, øst, sør og vest",
+     "href": "himmelretninger"
+    },
+    {
+     "label": "Verdensdeler: skriv navnene",
+     "href": "verdensdeler-skriv-navnene"
+    },
+    {
+     "label": "Verdensdeler og verdenshav",
+     "href": "verdensdeler-og-verdenshav"
+    }
+   ],
+   "title": "Kartlesing for barn: tegnforklaringen, 2. trinn | utskrift PDF gratis",
+   "metaDescription": "Kartlesing for 2. trinn: et kart over en øy med vei og elv, en tegnforklaring med fem symboler, og barnet teller hvor mange det er av hver ting. Gratis PDF."
+  },
+  {
+   "slug": "synonymer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "base",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: synonymer · 3. trinn",
+   "h1": "Synonymer: ring rundt ordet som betyr det samme",
+   "strand": "Ordforråd og ordbruk",
+   "standard": "L.2.5",
+   "slotTokens": [
+    "synonymer",
+    "3-trinn"
+   ],
+   "p1": "Åtte kort i to kolonner. Øverst på hvert kort står et stort ord med et lite symbol av to ringer i hverandre, og under står fire ord å velge mellom. De store ordene er lukke, smile, bykse, overrasket, bråkete, arg, kjapp og ordentlig – verb og adjektiv om hverandre.",
+   "p2": "Barnet leser det store ordet og ringer rundt det ordet under som betyr det samme. Riktig svar er stenge, glise, hoppe, forbauset, høylytt, sint, rask og ryddig. De tre andre ordene på hvert kort er ikke tilfeldige: de er ofte av samme ordklasse, som redd ved siden av forbauset, så barnet må tenke på meningen og ikke bare på hvilken type ord det er. Snakk om par der ordene betyr nesten det samme – å glise er ikke helt det samme som å smile, og ryddig er bare én av betydningene av ordentlig.",
+   "p3": "Synonymer er et naturlig tema på 3. trinn i norsk, og arket er grunnarket i familien. Skrives ut på én side. Variantene bruker bilder, streker mellom synonympar, ord etter styrke, andre ord for sa og ordfelt for gå og se. Et godt neste steg er å bytte ut ord i barnas egne tekster, der det samme ordet ofte går igjen mange ganger. Ordene er valgt slik at de fleste er kjent for barn på trinnet.",
+   "canonicalDeckSlug": "synonymer-g2358",
+   "carousel": [
+    {
+     "label": "Synonymer med bilder: to ord til ett bilde",
+     "href": "synonymer-med-bilder"
+    },
+    {
+     "label": "Synonympar: finn ordene som betyr det samme",
+     "href": "finn-synonymparene"
+    },
+    {
+     "label": "Ordenes styrke: fra litt til mye",
+     "href": "ord-fra-litt-til-mye"
+    },
+    {
+     "label": "Synonymer for sa: velg ordet som passer",
+     "href": "synonymer-for-si"
+    }
+   ],
+   "title": "Synonymer oppgaver for 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Synonymer for 3. trinn: åtte kort med et stort ord og fire valg, og barnet ringer rundt ordet som betyr det samme – som lukke og stenge. Gratis PDF."
+  },
+  {
+   "slug": "ordfamilier",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "base",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: ordfamilier · 3. trinn",
+   "h1": "Ordfamilier og rotord: sorter ordene etter roten",
+   "strand": "Ordforråd og ordbruk",
+   "standard": "L.2.4.c",
+   "slotTokens": [
+    "forstavelser-endelser-og-rotord",
+    "3-trinn"
+   ],
+   "p1": "Øverst ligger ti ordkort: spillebrett, hjelpende, hjelpe, spille, medhjelper, motspiller, medspiller, hjelpeløs, samspill og førstehjelp. Under står to murer. Nederst i hver mur ligger en grunnstein med et rotord – hjelp i den ene, spill i den andre – og over steinen er det fem tomme rader å skrive i.",
+   "p2": "Barnet leser hvert ord og skriver det på en rad i muren som står på roten til ordet. Fem ord hører til hver rot. Muren gjør tanken synlig: alle ordene i en familie står på den samme grunnsteinen, uansett hva som er lagt til foran eller bak. Noen har forstavelse (medhjelper, motspiller, samspill), noen endelse (hjelpende, hjelpeløs), og noen er sammensatte (spillebrett, førstehjelp). I førstehjelp står roten til og med sist. Snakk om hva som er likt i alle ordene i en mur.",
+   "p3": "Ordfamilier og ordstammer er et tema i norsk på 3. trinn, og arket er grunnarket i familien. Skrives ut på én side. Medspiller og motspiller er et fint par å snakke om: samme rot og samme endelse, men forstavelsen snur betydningen. Variantene bruker bilder, lar barnet finne rotordet selv, øver forstavelser og personord, og setter ordene inn i setninger. Når murene er fylt, kan barna finne et ellevte ord til hver rot og skrive det på baksiden – for eksempel hjelpsom eller spillekort – og sjekke at det står på samme grunnstein som de andre.",
+   "canonicalDeckSlug": "forstavelser-endelser-og-rotord-g2359",
+   "carousel": [
+    {
+     "label": "Rotord med bilder: ring rundt riktig ord",
+     "href": "rotord-med-bilder"
+    },
+    {
+     "label": "Finn rotordet",
+     "href": "finn-rotordet"
+    },
+    {
+     "label": "Forstavelsene gjen-, mis- og over-: velg etter betydning",
+     "href": "forstavelser-gjen-mis-over"
+    },
+    {
+     "label": "Hvem gjør det? Skriv ordet for personen",
+     "href": "personord-med-er"
+    }
+   ],
+   "title": "Ordfamilier og rotord for 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Ordfamilier for 3. trinn: ti ord som medhjelper, førstehjelp og samspill, og to murer med rotordene hjelp og spill der barnet skriver ordene. Gratis PDF."
+  },
+  {
+   "slug": "kjenne-igjen-geometriske-figurer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shapes-real-or-not",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: geometriske figurer · 2. trinn",
+   "h1": "Kjenne igjen geometriske figurer: er det riktig figur?",
+   "strand": "Geometri",
+   "standard": "1.G.A.1",
+   "slotTokens": [
+    "geometriske-figurer",
+    "2-trinn"
+   ],
+   "p1": "Her er det ikke navnet som skal finnes, men figurene. Arket har tre brede rader, og øverst i hver står ett navn: trekant, rektangel og kvadrat. Under navnet ligger fire figurer i runde, hvite rammer. Noen av dem er den figuren navnet sier, snudd og strukket i ulike retninger. Andre ligner bare: en «trekant» med én buet side, en firkant med skjeve sider, et rektangel der streken ikke er lukket, et rektangel med avrundede hjørner, en rombe og et kvadrat med en åpning i streken.",
+   "p2": "Barnet leser navnet og ringer rundt alle figurene som virkelig passer – på dette arket tre i trekantraden, én i rektangelraden og to i kvadratraden, så det hjelper ikke å lete etter «én riktig» i hver rad. Det som øves, er egenskapene som avgjør: rette sider, et bestemt antall hjørner, lukket strek og rette hjørner. Det er nettopp nesten-figurene som gjør arket verdifullt. Spør hvorfor figuren med den buede siden ikke er en trekant, og la barnet forklare med egne ord.",
+   "p3": "Arket passer på 2. trinn, når figurnavnene sitter og det er tid for å snakke om hva som gjør en figur til en figur. Det er ett av seks ark i familien geometriske figurer; grunnarket øver bare navnet, mens dette arket krever at barnet begrunner. Skrives ut på én side. Et godt neste steg er gåtene, der egenskapene står i tekst og figuren må finnes ut fra dem.",
+   "canonicalDeckSlug": "geometriske-figurer-g1381",
+   "carousel": [
+    {
+     "label": "Geometriske figurer: hva heter figuren?",
+     "href": "geometriske-figurer"
+    },
+    {
+     "label": "Geometriske figurer rundt oss: sirkel eller rektangel?",
+     "href": "geometriske-figurer-rundt-oss"
+    },
+    {
+     "label": "Geometriske figurer med navn: skriv navnene",
+     "href": "geometriske-figurer-skriv-navnet"
+    },
+    {
+     "label": "Gåter om geometriske figurer",
+     "href": "gater-om-geometriske-figurer"
+    }
+   ],
+   "title": "Kjenne igjen geometriske figurer, 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Kjenne igjen geometriske figurer: tre rader med trekant, rektangel og kvadrat, fire figurer i hver – ring rundt de ekte og la nesten-figurene stå. Gratis PDF."
+  },
+  {
+   "slug": "geometriske-figurer-rundt-oss",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shapes-around-us",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: geometriske figurer · 1. trinn",
+   "h1": "Geometriske figurer rundt oss: sirkel eller rektangel?",
+   "strand": "Geometri",
+   "standard": "K.G.A.1",
+   "slotTokens": [
+    "geometriske-figurer",
+    "1-trinn"
+   ],
+   "p1": "Åtte kort, åtte ting barnet kjenner fra før: en konvolutt, en tallerken, en kjærlighet på pinne, en dør, en klokke, et verdenskart på veggen, en tavle og en pizza. Ved siden av hvert bilde står to valg: en tom sirkel med ordet sirkel og et tomt rektangel med ordet rektangel. Det står ingen navn på tingene, bare bildene, og hvert kort har et nummer i hjørnet.",
+   "p2": "Barnet ser på tingen, bestemmer seg for hvilken form den har, og fargelegger den riktige figuren. Fire av tingene er runde og fire er rektangulære på dette arket, men de står om hverandre. Arbeidet handler om å se bort fra alt annet – farger, mønster, visere og pålegg – og bare se omrisset. Konvolutten er et fint samtaleemne: klaffen danner en trekant, men selve konvolutten er et rektangel. Kjærligheten på pinne er et annet: pinnen er lang og smal, men godteriet er en sirkel.",
+   "p3": "Arket er laget for 1. trinn, der LK20 knytter geometri til omgivelsene barna ferdes i. Fargelegging gjør svaret lett å se for læreren og lett å gjøre for et barn som ikke leser ennå, for ordene står rett ved figurene. Gå gjerne en tur i klasserommet etterpå og let etter flere sirkler og rektangler. Grunnarket i familien øver navnene på figurene i seg selv; dette arket tar dem med ut i hverdagen. Skrives ut på én side.",
+   "canonicalDeckSlug": "geometriske-figurer-k371",
+   "carousel": [
+    {
+     "label": "Geometriske figurer: hva heter figuren?",
+     "href": "geometriske-figurer"
+    },
+    {
+     "label": "Kjenne igjen geometriske figurer: er det riktig figur?",
+     "href": "kjenne-igjen-geometriske-figurer"
+    },
+    {
+     "label": "Geometriske figurer med navn: skriv navnene",
+     "href": "geometriske-figurer-skriv-navnet"
+    },
+    {
+     "label": "Gåter om geometriske figurer",
+     "href": "gater-om-geometriske-figurer"
+    }
+   ],
+   "title": "Geometriske figurer rundt oss, 1. trinn | til utskrift PDF gratis",
+   "metaDescription": "Geometriske figurer rundt oss for 1. trinn: åtte bilder av ting fra hverdagen, og barnet fargelegger sirkelen eller rektangelet tingen har. Gratis PDF."
+  },
+  {
+   "slug": "geometriske-figurer-skriv-navnet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shapes-write-the-names",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: geometriske figurer · 2. trinn",
+   "h1": "Geometriske figurer med navn: skriv navnene",
+   "strand": "Geometri",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "geometriske-figurer",
+    "2-trinn"
+   ],
+   "p1": "Øverst står en ordbank i en stiplet ramme med fire navn: rektangel, trekant, kvadrat og sirkel. Under følger seks rader. Hver rad har en figur i en rund, hvit ramme til venstre og en skrivelinje med hjelpelinje til høyre. På dette arket er figurene et skrått rektangel, en sirkel, et snudd kvadrat, en smal trekant, et liggende rektangel og et kvadrat som står rett.",
+   "p2": "Barnet skriver navnet på hver figur. Seks figurer og fire navn betyr at noen navn brukes to ganger – her rektangel og kvadrat – så barnet kan ikke krysse av ordene etter hvert og la det siste ordet «svare» for seg selv. Legg merke til paret som øver forskjellen: et kvadrat og et rektangel står på samme ark, både rett og snudd, og barnet må se om sidene er like lange eller ikke. Det er den vanligste forvekslingen på trinnet, og her kommer den fram på papiret.",
+   "p3": "Arket hører til 2. trinn: navnene fra 1. trinn skal nå skrives, ikke bare kjennes igjen. Skrives ut på én side. Grunnarket i familien lar barnet ringe rundt riktig navn; her må ordet hentes fram og staves. Bruk gjerne arket rett etter grunnarket, og la dem som blir ferdige, tegne en sjuende figur i margen og skrive navnet selv. I LK20 hører dette hjemme i geometri, der barna skal beskrive figurer med riktige ord.",
+   "canonicalDeckSlug": "geometriske-figurer-g1382",
+   "carousel": [
+    {
+     "label": "Geometriske figurer: hva heter figuren?",
+     "href": "geometriske-figurer"
+    },
+    {
+     "label": "Kjenne igjen geometriske figurer: er det riktig figur?",
+     "href": "kjenne-igjen-geometriske-figurer"
+    },
+    {
+     "label": "Geometriske figurer rundt oss: sirkel eller rektangel?",
+     "href": "geometriske-figurer-rundt-oss"
+    },
+    {
+     "label": "Gåter om geometriske figurer",
+     "href": "gater-om-geometriske-figurer"
+    }
+   ],
+   "title": "Geometriske figurer: skriv navnene, 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Skriv navnet på geometriske figurer: seks figurer, en ordbank med sirkel, kvadrat, trekant og rektangel, og en skrivelinje til hvert navn. 2. trinn. Gratis PDF."
+  },
+  {
+   "slug": "gater-om-geometriske-figurer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shape-riddles",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: geometriske figurer · 2. trinn",
+   "h1": "Gåter om geometriske figurer",
+   "strand": "Geometri",
+   "standard": "1.G.A.1",
+   "slotTokens": [
+    "geometriske-figurer",
+    "2-trinn"
+   ],
+   "p1": "«Jeg har 3 sider og 3 hjørner. Hva er jeg?» Arket har fem slike gåter, hver i sin boble med et spørsmålstegn i hjørnet. Under hver gåte står tre navn. Gåtene beskriver en sirkel («rund hele veien rundt og har ingen hjørner»), et kvadrat, en trekant, en sekskant og et rektangel. Det er ingen tegninger av figurene på arket, bare ord – det er det som skiller arket fra de andre i familien.",
+   "p2": "Barnet leser gåten og ringer rundt navnet. Det krever at egenskapene sitter: antall sider, antall hjørner og om sidene er like lange. De to vanskeligste gåtene handler om kvadrat og rektangel – begge har «hjørner som et bokhjørne», men bare det ene har fire like lange sider. I kvadratgåten står ikke rektangel blant valgene, for et kvadrat er jo også et rektangel; i rektangelgåten står kvadrat som felle, og der må barnet lese om de to lange og de to korte sidene. Bokhjørnet er et fint uttrykk å låne til tavla, for rett vinkel er ikke et ord barna har ennå. Sekskanten er med for å strekke seg litt forbi de fire vanlige figurene.",
+   "p3": "Arket passer på 2. trinn og kan godt leses høyt i fellesskap for barn som ikke leser flytende ennå. LK20 knytter geometri til å beskrive figurer med egne ord, og gåtene snur den oppgaven: nå er det beskrivelsen som kommer først, og figuren som skal finnes. Skrives ut på én side. La barna lage en egen gåte etterpå og prøve den på en venn. I familien finnes også ark med bilder, skriving og prikkark.",
+   "canonicalDeckSlug": "geometriske-figurer-g1383",
+   "carousel": [
+    {
+     "label": "Geometriske figurer: hva heter figuren?",
+     "href": "geometriske-figurer"
+    },
+    {
+     "label": "Kjenne igjen geometriske figurer: er det riktig figur?",
+     "href": "kjenne-igjen-geometriske-figurer"
+    },
+    {
+     "label": "Geometriske figurer rundt oss: sirkel eller rektangel?",
+     "href": "geometriske-figurer-rundt-oss"
+    },
+    {
+     "label": "Geometriske figurer med navn: skriv navnene",
+     "href": "geometriske-figurer-skriv-navnet"
+    }
+   ],
+   "title": "Gåter om geometriske figurer, 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Gåter om geometriske figurer for 2. trinn: fem gåter om sider og hjørner, og tre navn å ringe rundt ved hver – fra sirkel til sekskant. Gratis PDF."
+  },
+  {
+   "slug": "tegn-geometriske-figurer-pa-prikker",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "2d-shapes",
+    "mode": "2d-shapes-draw-on-dots",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: geometriske figurer · 1. trinn",
+   "h1": "Tegn geometriske figurer på prikkark",
+   "strand": "Geometri",
+   "standard": "K.G.B.5",
+   "slotTokens": [
+    "geometriske-figurer",
+    "1-trinn"
+   ],
+   "p1": "Fire store felt fyller arket, hvert med 36 prikker i seks rader og seks kolonner. Over hvert felt står et navn: trekant, kvadrat, kvadrat og rektangel. De to første feltene er helt tomme. I det tredje er én side av kvadratet allerede tegnet med en tykk oransje strek, og i det fjerde står en lang, loddrett oransje strek som den første siden av rektangelet.",
+   "p2": "Barnet leser navnet og trekker streker mellom prikkene til figuren er tegnet. Prikkene gjør det mulig å lage rette og like lange sider uten linjal: tell mellomrommene langs én side, og tell like mange langs den neste. Startstreken i kvadratfeltet er tre mellomrom lang, så resten av kvadratet må også få tre mellomrom på hver side. I rektangelfeltet må barnet selv bestemme hvor lang den korte siden skal være. Trekanten kan tegnes på mange måter, og det er meningen – sammenlign gjerne trekantene i klassen.",
+   "p3": "Arket er for 1. trinn, der det å tegne og bygge figurer er en del av geometrien i LK20. Skrives ut på én side; bruk blyant, så det går an å viske. Dette er det eneste arket i familien der barnet lager figurene selv i stedet for å kjenne dem igjen. Det passer godt etter grunnarket, og kan gjentas med geobrett og strikk hvis dere har det.",
+   "canonicalDeckSlug": "geometriske-figurer-k372",
+   "carousel": [
+    {
+     "label": "Geometriske figurer: hva heter figuren?",
+     "href": "geometriske-figurer"
+    },
+    {
+     "label": "Kjenne igjen geometriske figurer: er det riktig figur?",
+     "href": "kjenne-igjen-geometriske-figurer"
+    },
+    {
+     "label": "Geometriske figurer rundt oss: sirkel eller rektangel?",
+     "href": "geometriske-figurer-rundt-oss"
+    },
+    {
+     "label": "Geometriske figurer med navn: skriv navnene",
+     "href": "geometriske-figurer-skriv-navnet"
+    }
+   ],
+   "title": "Tegn geometriske figurer på prikker, 1. trinn | utskrift PDF gratis",
+   "metaDescription": "Tegn geometriske figurer på prikker for 1. trinn: fire felt med prikker, et navn over hvert, og i to felt en tykk startstrek å tegne videre fra. Gratis PDF."
+  },
+  {
+   "slug": "fargelegg-trafikklyset",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "road-safety-color-the-traffic-lights",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: trafikkopplæring · 1. trinn",
+   "h1": "Trafikklys: fargelegg lampen som lyser",
+   "strand": "Trafikkopplæring",
+   "slotTokens": [
+    "trafikkskilt-og-trafikkregler",
+    "1-trinn"
+   ],
+   "p1": "Seks trafikklys står langs to veier, tre ved hver. Fire er vanlige billys med tre runde lamper, og to er fotgjengerlys med en stående og en gående mann. Alle lampene er hvite. I hvert lys har én lampe små stråler rundt seg – det er lampen som lyser akkurat nå. På dette arket lyser den midterste lampen i to av billysene, den øverste i ett og den nederste i ett; i fotgjengerlysene lyser den stående mannen i det ene og den gående i det andre.",
+   "p2": "Barnet finner lampen med stråler og fargelegger den i riktig farge. Det står ingen farger på arket, så barnet må kunne rekkefølgen selv: rødt øverst, gult i midten og grønt nederst, og rød mann og grønn mann i fotgjengerlyset. Det er akkurat dette barnet trenger ute: å kunne lese et trafikklys på plasseringen også når sola blender og fargene er vanskelige å se. Når arket er ferdig, kan dere snakke om hva hver farge betyr – for bilene og for den som skal gå.",
+   "p3": "Arket er for 1. trinn og en del av trafikkopplæringen i LK20. Det krever ikke lesing, bare fargeblyanter i rødt, gult og grønt. Skrives ut på én side. Grunnarket i familien spør hva man skal gjøre når lyset viser en farge; her er det fargen selv som skal på plass, og det gule lyset er med.",
+   "canonicalDeckSlug": "trafikkskilt-og-trafikkregler-k373",
+   "carousel": [
+    {
+     "label": "Trafikkopplæring: hva viser trafikklyset?",
+     "href": "trafikkopplaering"
+    },
+    {
+     "label": "Gå trygt over veien: steg for steg",
+     "href": "ga-trygt-over-veien"
+    },
+    {
+     "label": "Trafikkskilt og hva de betyr",
+     "href": "trafikkskilt-og-hva-de-betyr"
+    },
+    {
+     "label": "Trafikkskilt: fareskilt, forbudsskilt og opplysningsskilt",
+     "href": "fareskilt-forbudsskilt-og-opplysningsskilt"
+    }
+   ],
+   "title": "Fargelegg trafikklyset – trafikk for barn, 1. trinn | utskrift PDF gratis",
+   "metaDescription": "Fargelegg trafikklyset: seks trafikklys for biler og gående, og barnet fargelegger lampen med stråler i rødt, gult eller grønt. For 1. trinn. Gratis PDF."
+  },
+  {
+   "slug": "ga-trygt-over-veien",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "crossing-the-road-safely-steps",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: trafikkopplæring · 1. trinn",
+   "h1": "Gå trygt over veien: steg for steg",
+   "strand": "Trafikkopplæring",
+   "slotTokens": [
+    "trafikkskilt-og-trafikkregler",
+    "1-trinn"
+   ],
+   "p1": "Fire kort i to rader viser det samme barnet med sekk på ryggen ved et gangfelt, sett bakfra, slik barnet selv står når det skal over. På ett kort står barnet stille ved fortauskanten. På to kort snur barnet hodet, med en pil som viser retningen – til venstre og til høyre. På det siste kortet går barnet ut i gangfeltet, med en liten pil rett fram. Under hvert kort er en tom, stiplet rute. Det er ingen biler og ingen ord på kortene; bildene forteller alt.",
+   "p2": "Barnet skriver tallene 1 til 4 slik at kortene viser den trygge rekkefølgen: stopp ved kanten, se til venstre, se til høyre, og gå når veien er fri. Kortene står ikke i den rekkefølgen på arket. Fordi barnet er tegnet bakfra, blir venstre og høyre de samme på arket som i virkeligheten, og det er en god grunn til å gjøre øvelsen med kroppen først: stå opp, snu deg samme vei som barnet på bildet, og pek. At veien er fri, ser man ikke på bildet – det må barnet si selv, og det er verdt å spørre om.",
+   "p3": "Trafikkopplæringen på 1. trinn i LK20 handler om å ferdes trygt i nærmiljøet, og denne rutinen er kjernen i den. Mange lærer barn å se til venstre igjen rett før de går; arket har fire trinn og tar ikke med den siste kikken, så si den gjerne høyt når dere går gjennom svarene. Skrives ut på én side. Gjør gjerne øvelsen ute ved et ekte gangfelt samme dag, og la barna si trinnene høyt mens de gjør dem.",
+   "canonicalDeckSlug": "trafikkskilt-og-trafikkregler-k374",
+   "carousel": [
+    {
+     "label": "Trafikkopplæring: hva viser trafikklyset?",
+     "href": "trafikkopplaering"
+    },
+    {
+     "label": "Trafikklys: fargelegg lampen som lyser",
+     "href": "fargelegg-trafikklyset"
+    },
+    {
+     "label": "Trafikkskilt og hva de betyr",
+     "href": "trafikkskilt-og-hva-de-betyr"
+    },
+    {
+     "label": "Trafikkskilt: fareskilt, forbudsskilt og opplysningsskilt",
+     "href": "fareskilt-forbudsskilt-og-opplysningsskilt"
+    }
+   ],
+   "title": "Gå trygt over veien: steg for steg, 1. trinn | til utskrift PDF gratis",
+   "metaDescription": "Gå trygt over veien for 1. trinn: fire bilder av et barn ved gangfeltet, sett bakfra, og barnet skriver 1 til 4 i riktig rekkefølge. Gratis PDF."
+  },
+  {
+   "slug": "trafikkskilt-og-hva-de-betyr",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "road-safety-signs-and-meanings",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: trafikkskilt · 2. trinn",
+   "h1": "Trafikkskilt og hva de betyr",
+   "strand": "Trafikkopplæring",
+   "slotTokens": [
+    "trafikkskilt-og-trafikkregler",
+    "2-trinn"
+   ],
+   "p1": "Til venstre står seks skilt på stolpe, tegnet slik de ser ut langs norske veier: innkjøring forbudt, fareskiltet for barn med rød kant og gul bunn, stoppskiltet, det blå skiltet for sykkelveg, det blå gangfeltskiltet og fareskiltet for trafikklys. Til høyre står seks forklaringer i hele setninger, for eksempel «Hit inn får ingen kjøre.» og «Pass på, her kan barn løpe ut i veien.» Mellom kolonnene er det god plass til streker.",
+   "p2": "Barnet leser forklaringene og trekker en strek fra hvert skilt til det skiltet betyr. Forklaringene står i en annen rekkefølge enn skiltene. Arket øver å lese symbolet, ikke å pugge navnet: et barn som ser to barn i en gul trekant, kan resonnere seg fram til meningen. Snakk om formene underveis – trekantene varsler, de runde skiltene forbyr, og de blå firkantene forteller noe – så er det neste arket i familien allerede forberedt.",
+   "p3": "Arket passer på 2. trinn, når barna begynner å gå mer på egen hånd i nærmiljøet. Skiltene er dem barna oftest møter på skoleveien, og fareskiltene har den gule bunnen som er typisk for Norge. Skrives ut på én side. I familien finnes også et ark der skiltene sorteres i fareskilt, forbudsskilt og opplysningsskilt, og en quiz der situasjonen kommer først og skiltet etterpå. Et eget skilt på skoleveien kan godt bli neste lekse.",
+   "canonicalDeckSlug": "trafikkskilt-og-trafikkregler-g1384",
+   "carousel": [
+    {
+     "label": "Trafikkopplæring: hva viser trafikklyset?",
+     "href": "trafikkopplaering"
+    },
+    {
+     "label": "Trafikklys: fargelegg lampen som lyser",
+     "href": "fargelegg-trafikklyset"
+    },
+    {
+     "label": "Gå trygt over veien: steg for steg",
+     "href": "ga-trygt-over-veien"
+    },
+    {
+     "label": "Trafikkskilt: fareskilt, forbudsskilt og opplysningsskilt",
+     "href": "fareskilt-forbudsskilt-og-opplysningsskilt"
+    }
+   ],
+   "title": "Trafikkskilt for barn og hva de betyr, 2. trinn | utskrift PDF gratis",
+   "metaDescription": "Trafikkskilt for barn og hva de betyr: seks norske skilt til venstre, seks korte forklaringer til høyre, og barnet trekker strek mellom dem. 2. trinn. Gratis PDF."
+  },
+  {
+   "slug": "fareskilt-forbudsskilt-og-opplysningsskilt",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "road-safety-kinds-of-signs",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: trafikkskilt · 3. trinn",
+   "h1": "Trafikkskilt: fareskilt, forbudsskilt og opplysningsskilt",
+   "strand": "Trafikkopplæring",
+   "slotTokens": [
+    "trafikkskilt-og-trafikkregler",
+    "3-trinn"
+   ],
+   "p1": "Seks skilt står i to rader, merket A til F. To er trekanter med rød kant og gul bunn – med to barn og med én gående. To er runde med rød kant og hvit bunn – ett helt uten symbol, som betyr at ingen kjøretøy får kjøre, og ett med en gående mann. To er blå firkanter – sykkelveg og gangfelt. Nederst står tre bokser med overskriftene Fareskilt, Forbudsskilt og Opplysningsskilt, og to tomme ruter i hver.",
+   "p2": "Barnet skriver bokstaven til hvert skilt i en rute under riktig gruppe. Oppgaven er å se at formen og fargen forteller hvilken familie skiltet hører til, før man vet hva det betyr: trekanten advarer, den røde ringen forbyr, og den blå firkanten opplyser. Det runde skiltet uten symbol er det mest interessante på arket – det ser tomt ut, men forbyr alle kjøretøy – og er vel verdt en samtale i klassen.",
+   "p3": "På norske skoler kommer skiltgruppene gjerne på 3. trinn, og arket er laget for det trinnet. Gruppene er de norske: påbudsskilt er ikke med, fordi det blå skiltet for sykkelveg er et opplysningsskilt her i landet. Skrives ut på én side. Før dette arket passer arket om skilt og betydning; etter kommer quizen, der barnet skal velge skilt ut fra en situasjon.",
+   "canonicalDeckSlug": "trafikkskilt-og-trafikkregler-g2360",
+   "carousel": [
+    {
+     "label": "Trafikkopplæring: hva viser trafikklyset?",
+     "href": "trafikkopplaering"
+    },
+    {
+     "label": "Trafikklys: fargelegg lampen som lyser",
+     "href": "fargelegg-trafikklyset"
+    },
+    {
+     "label": "Gå trygt over veien: steg for steg",
+     "href": "ga-trygt-over-veien"
+    },
+    {
+     "label": "Trafikkskilt og hva de betyr",
+     "href": "trafikkskilt-og-hva-de-betyr"
+    }
+   ],
+   "title": "Fareskilt, forbudsskilt, opplysningsskilt – 3. trinn | utskrift PDF gratis",
+   "metaDescription": "Sorter trafikkskilt i fareskilt, forbudsskilt og opplysningsskilt: seks skilt med bokstav og tre grupper med to ruter hver. For 3. trinn. Gratis PDF."
+  },
+  {
+   "slug": "trafikkskilt-quiz-for-barn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "road-safety",
+    "mode": "road-safety-sign-quiz",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: trafikkskilt · 3. trinn",
+   "h1": "Trafikkquiz for barn: hvilket skilt passer?",
+   "strand": "Trafikkopplæring",
+   "slotTokens": [
+    "trafikkskilt-og-trafikkregler",
+    "3-trinn"
+   ],
+   "p1": "Arket har seks rader. Til venstre står en setning om noe som skjer i trafikken, til høyre tre skilt. Setningene er skrevet som små situasjoner, ikke som definisjoner: «Her er det forbudt å sykle, du må trille sykkelen.» og «Bilene skal slippe fram barna som går over de hvite stripene.» Blant skiltene er forbudsskilt for sykkel og for gående, fareskilt for syklende og for gående, stoppskiltet og det blå gangfeltskiltet.",
+   "p2": "Barnet leser setningen og ringer rundt det ene skiltet som passer. Det vanskelige er de nære valgene: i sykkelraden står både forbudsskiltet med sykkel og det blå skiltet for sykkelveg, og i raden om fotgjengere står fareskiltet med en gående ved siden av fareskiltet med sykkel. Barnet må altså lese både symbolet og formen. Det riktige skiltet står ikke på samme plass i hver rad.",
+   "p3": "Quizen er den siste i familien og passer på 3. trinn, som en repetisjon etter at skiltgruppene er gjennomgått. Den kan brukes som en kort prøve uten poeng, eller løses i par der barna forklarer valget sitt for hverandre. Skrives ut på én side. Trafikkopplæring er en del av LK20 gjennom hele barneskolen, og arket knytter skiltene til det barna faktisk ser på veien. Når quizen er rettet, kan barna lage en ny situasjon til et av skiltene og prøve den på en medelev.",
+   "canonicalDeckSlug": "trafikkskilt-og-trafikkregler-g2361",
+   "carousel": [
+    {
+     "label": "Trafikkopplæring: hva viser trafikklyset?",
+     "href": "trafikkopplaering"
+    },
+    {
+     "label": "Trafikklys: fargelegg lampen som lyser",
+     "href": "fargelegg-trafikklyset"
+    },
+    {
+     "label": "Gå trygt over veien: steg for steg",
+     "href": "ga-trygt-over-veien"
+    },
+    {
+     "label": "Trafikkskilt og hva de betyr",
+     "href": "trafikkskilt-og-hva-de-betyr"
+    }
+   ],
+   "title": "Trafikkskilt quiz for barn, 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Trafikkskilt quiz for barn: seks setninger om en situasjon i trafikken, tre skilt ved hver, og barnet ringer rundt det ene som passer. 3. trinn. Gratis PDF."
+  },
+  {
+   "slug": "generasjoner-i-slekta",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-generations-oldest-to-youngest",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: familie og slekt · 2. trinn",
+   "h1": "Generasjoner i slekta: fra eldst til yngst",
+   "strand": "Samfunnsfag: familie og slekt",
+   "slotTokens": [
+    "familie-og-slekt",
+    "2-trinn"
+   ],
+   "p1": "Øverst henger tre bilderammer på en snor, merket 1, 2 og 3: et par besteforeldre med grått hår, et par voksne og et par barn. Det er nøkkelen. Under står seks rader med tre familieord hver, og ved hvert ord en tom rute. På dette arket er ordene mormor, morfar, farmor, farfar, mamma, pappa, morbror, farbror, moster, faster, fetter, kusine, storebror, storesøster, lillebror og lillesøster – noen av dem går igjen i flere rader.",
+   "p2": "Barnet skriver 1, 2 og 3 i hver rad slik at ordene står fra den eldste generasjonen til den yngste. I hver rad er det én besteforelder, én voksen og ett barn, men de står ikke på samme plass fra rad til rad. Oppgaven er å plassere ordet i en generasjon, ikke å vite hvem som er eldst i virkeligheten: en kusine er i samme generasjon som barnet selv, og en moster eller en farbror i samme generasjon som mamma og pappa. Nøkkelen øverst er en god hjelp for dem som trenger den.",
+   "p3": "Arket passer på 2. trinn i samfunnsfag. Ordene moster, faster, morbror og farbror er med fordi de er så typisk norske – de forteller både hvem personen er og hvilken side av slekta hun eller han hører til – og fordi de brukes hele tiden uten å bli forklart. Det samme gjelder fetter og kusine. Skrives ut på én side. Grunnarket i familien øver de nærmeste ordene i et lite tre; dette arket løfter blikket til hele slekta og til ordet generasjon. Snakk gjerne om hvor mange generasjoner som lever i barnas egne familier.",
+   "canonicalDeckSlug": "familie-og-slekt-g1385",
+   "carousel": [
+    {
+     "label": "Familie og slekt: hvem er hvem?",
+     "href": "familie-og-slekt"
+    },
+    {
+     "label": "Familieord: spor og skriv",
+     "href": "familieord-spor-og-skriv"
+    },
+    {
+     "label": "Slektstre: les ledetrådene",
+     "href": "slektstre-med-ledetrader"
+    },
+    {
+     "label": "Slektsgåter: mormor, farfar, moster eller farbror?",
+     "href": "slektninger-gater"
+    }
+   ],
+   "title": "Generasjoner i slekta, 2. trinn: eldst til yngst | utskrift PDF gratis",
+   "metaDescription": "Generasjoner for 2. trinn: seks rader med tre familieord, og barnet nummererer fra den eldste generasjonen til den yngste, med en bildenøkkel øverst. Gratis PDF."
+  },
+  {
+   "slug": "familieord-spor-og-skriv",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-words-trace-and-write",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: familieord · 1. trinn",
+   "h1": "Familieord: spor og skriv",
+   "strand": "Samfunnsfag: familie og slekt",
+   "slotTokens": [
+    "familie-og-slekt",
+    "1-trinn"
+   ],
+   "p1": "Til venstre står et slektstre med Ella nederst, merket med stjerne, og en gutt ved siden av henne. Over dem står mamma og pappa, og over mamma to besteforeldre – bestefaren med bart. De fem personene har tallene 1 til 5. Til høyre står fem familieord i stiplede bokstaver på skrivelinjer, hvert med et tall foran: morfar, mormor, storebror, mamma og pappa. Under dem følger fem tomme skrivelinjer, også de merket 1 til 5.",
+   "p2": "Barnet finner personen med samme tall i treet, sporer familieordet og skriver det en gang til på linjen med samme tall. Tallet knytter altså ord, person og skrivelinje sammen, så barnet ser hvem ordet handler om mens det skriver. Mormor og morfar er med fordi besteforeldrene henger over mamma – samme logikk som i grunnarket, men nå fra Ellas side. Å spore først gir barnet formen på ordet i hånda før det skal skrive det fritt.",
+   "p3": "Arket er laget for 1. trinn og kombinerer skriveopplæring med samfunnsfag i LK20. Skrivelinjene har hjelpelinje for de små bokstavene. Skrives ut på én side. Grunnarket i familien lar barnet koble tall og ord uten å skrive; dette er arket for dem som er klare til å forme ordene selv. Tips: la barnet skrive navnene på sine egne besteforeldre på baksiden. Ordene er korte nok til at også barn som akkurat har lært bokstavene, klarer å skrive dem uten hjelp.",
+   "canonicalDeckSlug": "familie-og-slekt-k375",
+   "carousel": [
+    {
+     "label": "Familie og slekt: hvem er hvem?",
+     "href": "familie-og-slekt"
+    },
+    {
+     "label": "Generasjoner i slekta: fra eldst til yngst",
+     "href": "generasjoner-i-slekta"
+    },
+    {
+     "label": "Slektstre: les ledetrådene",
+     "href": "slektstre-med-ledetrader"
+    },
+    {
+     "label": "Slektsgåter: mormor, farfar, moster eller farbror?",
+     "href": "slektninger-gater"
+    }
+   ],
+   "title": "Skriv familieord – spor og skriv, 1. trinn | til utskrift PDF gratis",
+   "metaDescription": "Skriv familieord for 1. trinn: et slektstre med Ella og fem nummererte personer, fem ord å spore med samme tall og fem skrivelinjer. Gratis PDF."
+  },
+  {
+   "slug": "slektstre-med-ledetrader",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-tree-read-the-clues",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: slektstre · 2. trinn",
+   "h1": "Slektstre: les ledetrådene",
+   "strand": "Samfunnsfag: familie og slekt",
+   "slotTokens": [
+    "familie-og-slekt",
+    "2-trinn"
+   ],
+   "p1": "Treet har sju personer i tre generasjoner. Tre av dem har navnet sitt: Nora øverst, Emil i midten og Iver nederst, merket med stjerne. Fire navneruter er tomme og stiplet. Under treet står fire nummererte ledetråder, alle sett fra Ivers side: «Noah er Ivers storebror.», «Ella er Ivers mamma.», «Liam er Ivers morfar.» og «Maja er Ivers moster.»",
+   "p2": "Barnet leser ledetrådene og skriver hvert navn i riktig rute. Tre av dem er greie, men moster-ledetråden krever mer: det står to kvinner i midten, og barnet må finne ut hvem av dem som er mamma – hun som er koblet til Emil og til barna – for at den andre skal bli moster, mammas søster. Morfar krever at barnet ser at besteforeldrene henger over mamma og ikke over pappa. Det er ekte resonnering på 2. trinn, og det er lurt å la barna forklare hvordan de tenkte.",
+   "p3": "Arket passer i samfunnsfag på 2. trinn, der LK20 åpner for å snakke om slekt og relasjoner. Skrives ut på én side. Grunnarket bruker tall; her brukes navn, og treet er større. Etterpå kan barna lage egne ledetråder om treet til hverandre, eller bruke malen i familien til å tegne sitt eget slektstre. Den som blir fort ferdig, kan skrive en femte ledetråd om Nora, som det ikke står noe om.",
+   "canonicalDeckSlug": "familie-og-slekt-g1386",
+   "carousel": [
+    {
+     "label": "Familie og slekt: hvem er hvem?",
+     "href": "familie-og-slekt"
+    },
+    {
+     "label": "Generasjoner i slekta: fra eldst til yngst",
+     "href": "generasjoner-i-slekta"
+    },
+    {
+     "label": "Familieord: spor og skriv",
+     "href": "familieord-spor-og-skriv"
+    },
+    {
+     "label": "Slektsgåter: mormor, farfar, moster eller farbror?",
+     "href": "slektninger-gater"
+    }
+   ],
+   "title": "Slektstre for 2. trinn: les ledetrådene | til utskrift PDF gratis",
+   "metaDescription": "Slektstre for 2. trinn: sju personer i tre generasjoner, tre navn står allerede, og fire ledetråder forteller hvor Noah, Ella, Liam og Maja skal stå. Gratis PDF."
+  },
+  {
+   "slug": "slektninger-gater",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-relationships-riddles",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: slektninger · 3. trinn",
+   "h1": "Slektsgåter: mormor, farfar, moster eller farbror?",
+   "strand": "Samfunnsfag: familie og slekt",
+   "slotTokens": [
+    "familie-og-slekt",
+    "3-trinn"
+   ],
+   "p1": "Øverst til venstre står et bilde av Isak, og ved siden av en ramme med åtte ord: mormor, morfar, farmor, farfar, moster, faster, morbror og farbror. Under følger åtte korte gåter, alle bygd på samme mønster: «Isaks mammas søster er Isaks ___.» og «Isaks pappas pappa er Isaks ___.» Hver gåte slutter med en stiplet skriverute og et punktum.",
+   "p2": "Barnet leser gåten og skriver riktig ord i ruten. Åtte gåter og åtte ord betyr at hvert ord brukes én gang. Alle ordene er bygd av veien dit: mormor er mammas mamma, farbror er pappas bror, og moster og faster kommer av mors søster og fars søster. Når barnet oppdager mønsteret, trenger det ikke pugge ordene lenger – det kan lese seg fram til dem. Det er en fin språkoppdagelse midt i samfunnsfaget, og en av de tingene norsk sier mer presist enn mange andre språk.",
+   "p3": "Arket er for 3. trinn. Moster, faster, morbror og farbror er ordene norske barn bruker om sin egen familie, og de følger nøyaktig samme mønster som mormor og farfar. Tante og onkel er ikke med, fordi de ikke sier hvilken side av slekta personen hører til. Skrives ut på én side. Grunnarket i familien er et tre med tall; her er det bare språket som bærer relasjonene, uten noe tre å se på. Det går også an å lese gåtene høyt og la klassen svare i kor før arket fylles ut.",
+   "canonicalDeckSlug": "familie-og-slekt-g2362",
+   "carousel": [
+    {
+     "label": "Familie og slekt: hvem er hvem?",
+     "href": "familie-og-slekt"
+    },
+    {
+     "label": "Generasjoner i slekta: fra eldst til yngst",
+     "href": "generasjoner-i-slekta"
+    },
+    {
+     "label": "Familieord: spor og skriv",
+     "href": "familieord-spor-og-skriv"
+    },
+    {
+     "label": "Slektstre: les ledetrådene",
+     "href": "slektstre-med-ledetrader"
+    }
+   ],
+   "title": "Slektninger for 3. trinn: gåter om slekta | til utskrift PDF gratis",
+   "metaDescription": "Slektninger for 3. trinn: åtte gåter om Isak, som «Isaks mammas bror er Isaks …», og åtte ord – fra moster og faster til morbror og farbror. Gratis PDF."
+  },
+  {
+   "slug": "slektstre-mal",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "family",
+    "mode": "family-tree-template",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: slektstre · 2. trinn",
+   "h1": "Slektstre: mal til å fylle ut selv",
+   "strand": "Samfunnsfag: familie og slekt",
+   "slotTokens": [
+    "familie-og-slekt",
+    "2-trinn"
+   ],
+   "p1": "Et stort tre med greiner fyller arket, og på greinene henger tomme rammer i ulike former – sirkler, kvadrater og buer. Det er tre rammer på den øverste greina, fire på den midterste og tre på den nederste, der rammen i midten er merket «jeg». Under bakkestreken står fire rammer til. Hver ramme har skrivelinjer under seg, fjorten rammer i alt.",
+   "p2": "Barnet tegner menneskene som er viktige for det i rammene og skriver navnene deres på strekene. Det står ingen familieord på malen, og det er med vilje: rammene kan fylles med to mammaer, en steforelder, en nabo eller en venn, og det blir aldri feil. Rammene under bakken passer fint til kjæledyr eller venner. Barnet bestemmer selv hvem som henger hvor, men mange vil sette de eldste øverst – og da har barnet laget et slektstre helt på egen hånd.",
+   "p3": "Malen passer på 2. trinn og kan sendes hjem som et lite samarbeid med familien. Den er den mest åpne i familien; de andre arkene øver familieord og slektslogikk, mens denne lar barnet bruke dem om sin egen familie. Skrives ut på én side, gjerne på litt tykkere papir. Snakk på forhånd om at alle familier er forskjellige, og at det er helt fint å la rammer stå tomme. Mange barn vil fortsette å tegne på baksiden.",
+   "canonicalDeckSlug": "familie-og-slekt-g1387",
+   "carousel": [
+    {
+     "label": "Familie og slekt: hvem er hvem?",
+     "href": "familie-og-slekt"
+    },
+    {
+     "label": "Generasjoner i slekta: fra eldst til yngst",
+     "href": "generasjoner-i-slekta"
+    },
+    {
+     "label": "Familieord: spor og skriv",
+     "href": "familieord-spor-og-skriv"
+    },
+    {
+     "label": "Slektstre: les ledetrådene",
+     "href": "slektstre-med-ledetrader"
+    }
+   ],
+   "title": "Slektstre mal til å fylle ut, 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Slektstre mal for 2. trinn: et tomt tre med rammer til tegning og skrivelinjer til navn, «jeg» nederst i midten og fire ekstra rammer under bakken. Gratis PDF."
+  },
+  {
+   "slug": "hva-trenger-en-plante-for-a-vokse",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "what-plants-need-to-grow",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: plantens deler · 1. trinn",
+   "h1": "Hva trenger en plante for å vokse?",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "plantens-deler",
+    "1-trinn"
+   ],
+   "p1": "Fem rader, to potter i hver. Alle pottene er like: en liten spire i en potte med jord. Mot hver potte peker to piler fra to bilder, ett på hver side – det er det planten «får». Noen potter får sol og vann. Andre får bare én av delene sammen med en vanlig ting som ikke hjelper en plante: et leketog, en lekebil, en robot eller en hanske. Én potte får verken sol eller vann, bare en sko og en blyant.",
+   "p2": "Barnet ringer rundt planten i hver rad som får begge tingene den trenger. Det er ingen kryss eller forbudstegn på arket, så svaret må komme fra kunnskap og ikke fra symboler. Fordi den feile potten ofte har én riktig ting, går det ikke an å se etter bare sola eller bare vanndråpen – barnet må sjekke begge. Den riktige planten står til venstre i noen rader og til høyre i andre.",
+   "p3": "Arket er for 1. trinn i naturfag og passer godt sammen med et eget spireforsøk: to potter i vinduet, én som vannes og én som ikke gjør det. Jord og luft er ikke med som valg, fordi alle pottene har jord. Skrives ut på én side, og ingen lesing er nødvendig. Grunnarket i familien lærer delene av planten; dette arket handler om hva planten trenger for å leve.",
+   "canonicalDeckSlug": "plantens-deler-k376",
+   "carousel": [
+    {
+     "label": "Plantens deler: skriv navnet på hver del",
+     "href": "plantens-deler"
+    },
+    {
+     "label": "Fra frø til plante: klipp og lim",
+     "href": "fra-fro-til-plante"
+    },
+    {
+     "label": "Hvilke deler av planten spiser vi?",
+     "href": "hvilke-deler-av-planten-spiser-vi"
+    },
+    {
+     "label": "Plantens deler og hva de gjør",
+     "href": "plantens-deler-og-hva-de-gjor"
+    }
+   ],
+   "title": "Hva trenger en plante for å vokse? 1. trinn | til utskrift PDF gratis",
+   "metaDescription": "Hva trenger en plante for å vokse? Fem rader med to potter, og barnet ringer rundt planten som får både sol og vann – ikke en sko. 1. trinn. Gratis PDF."
+  },
+  {
+   "slug": "fra-fro-til-plante",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "plant-life-cycle-seed-to-plant",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: plantens deler · 2. trinn",
+   "h1": "Fra frø til plante: klipp og lim",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "plantens-deler",
+    "2-trinn"
+   ],
+   "p1": "Øverst står en rute med et frø i jorda. Fra den går piler med klokka rundt til fire tomme, stiplede ruter, og fra den siste går en pil tilbake til frøet. Nederst er en stripe med fire bilder å klippe ut, stokket om hverandre: et frø som spirer med en liten rot, en spire med to små blad, en plante med blomst, og en plante med en belg der frøene synes.",
+   "p2": "Barnet klipper ut bildene og limer dem i de tomme rutene i retning av pilene, med start ved frøet. Rekkefølgen er spirende frø, spire, blomstrende plante og plante med frø. Pilen tilbake til frøet gjør at arket viser en syklus og ikke en linje: den ferdige planten lager nye frø, og da kan alt begynne på nytt. Barnet må se nøye på hvert bilde, for forskjellen mellom dem ligger i små ting som røtter, blad og belg.",
+   "p3": "Arket passer på 2. trinn i naturfag og er fint å gjøre mens et bønneforsøk står i vinduet. Klipp og lim gjør at barnet kan flytte bildene rundt før det limer, og mange oppdager ringen først når alt ligger på plass. Skrives ut på én side; limstift og saks trengs. Grunnarket i familien øver delene av planten; her er det tiden og veksten som er temaet. Noen barn vil tegne sin egen plante fra frø til blomst på baksiden.",
+   "canonicalDeckSlug": "plantens-deler-g1388",
+   "carousel": [
+    {
+     "label": "Plantens deler: skriv navnet på hver del",
+     "href": "plantens-deler"
+    },
+    {
+     "label": "Hva trenger en plante for å vokse?",
+     "href": "hva-trenger-en-plante-for-a-vokse"
+    },
+    {
+     "label": "Hvilke deler av planten spiser vi?",
+     "href": "hvilke-deler-av-planten-spiser-vi"
+    },
+    {
+     "label": "Plantens deler og hva de gjør",
+     "href": "plantens-deler-og-hva-de-gjor"
+    }
+   ],
+   "title": "Fra frø til plante, 2. trinn – klipp og lim | til utskrift PDF gratis",
+   "metaDescription": "Fra frø til plante for 2. trinn: et frø i jord øverst, fire bilder å klippe ut og lime i rekkefølge rundt pilene, og en pil tilbake til frøet. Gratis PDF."
+  },
+  {
+   "slug": "hvilke-deler-av-planten-spiser-vi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "parts-of-a-plant-we-eat",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: plantens deler · 3. trinn",
+   "h1": "Hvilke deler av planten spiser vi?",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "plantens-deler",
+    "3-trinn"
+   ],
+   "p1": "Åtte kort, hvert med bilde av en matvare fra kjøkkenet: stangselleri, en rød rot med blad, en maiskolbe, et salathode, en gulrot, en aubergine, en blomkål og et spinatblad. Det står ikke navn på matvarene. Ved siden av hvert bilde står tre valg, hvert med et lite symbol og et ord: rot, stengel, blad, blomst, frukt eller frø.",
+   "p2": "Barnet ser på matvaren og ringer rundt den delen av planten som vi spiser. Her kommer overraskelsene: av selleri spiser vi stengelen, av mais frøene, av blomkål blomsten og av aubergine frukten – fordi den har frø inni. Ordene er plantedeler, ikke «frukt eller grønnsak», og det er poenget. Navnene står ikke på bildene, fordi et ord som blomkål ville røpet svaret før barnet rakk å tenke.",
+   "p3": "Arket er laget for 3. trinn i naturfag og bygger på grunnarket om plantens deler. Det egner seg godt før eller etter en tur til butikken eller skolehagen, der barna kan finne flere eksempler. Skrives ut på én side. Neste steg i familien er hva hver del gjør for planten, og blomstens deler for dem som vil gå enda videre. Legg gjerne fram ekte grønnsaker på pulten: en gulrot med blad, en blomkål og en maiskolbe. Barna kan kjenne på dem og finne delen med egne hender før de ringer rundt på arket.",
+   "canonicalDeckSlug": "plantens-deler-g2363",
+   "carousel": [
+    {
+     "label": "Plantens deler: skriv navnet på hver del",
+     "href": "plantens-deler"
+    },
+    {
+     "label": "Hva trenger en plante for å vokse?",
+     "href": "hva-trenger-en-plante-for-a-vokse"
+    },
+    {
+     "label": "Fra frø til plante: klipp og lim",
+     "href": "fra-fro-til-plante"
+    },
+    {
+     "label": "Plantens deler og hva de gjør",
+     "href": "plantens-deler-og-hva-de-gjor"
+    }
+   ],
+   "title": "Hvilke deler av planten spiser vi? 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Hvilke deler av planten spiser vi? Åtte matvarer uten navn – selleri, mais og blomkål blant dem – og tre plantedeler å velge mellom ved hver. 3. trinn. Gratis PDF."
+  },
+  {
+   "slug": "plantens-deler-og-hva-de-gjor",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "parts-of-a-plant-and-their-functions",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: plantens deler · 3. trinn",
+   "h1": "Plantens deler og hva de gjør",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "plantens-deler",
+    "3-trinn"
+   ],
+   "p1": "Til venstre står den samme planten som i grunnarket: rot i jorda, stengel, blad, blomst og en belg med frø. Fem lapper, 1 til 5, peker på stengelen, et frø, blomsten, et blad og roten. Til høyre står fem setninger, hver med en tom rute: «kan spire og bli en ny plante», «lager næring til planten med hjelp av sollys», «suger opp vann fra jorda», «holder planten oppe slik at den står rett» og «lokker til seg bier».",
+   "p2": "Barnet leser hva delen gjør, finner delen på planten og skriver tallet på lappen i ruten. Det står ingen navn på delene noe sted, så arket tester funksjon og plassering, ikke stavemåte. Et barn som ikke husker ordet stengel, kan likevel vite at det er den som holder planten oppe. Setningen om sollys er et fint første møte med ideen om at bladene lager mat til planten – uten at ordet fotosyntese trenger å dukke opp.",
+   "p3": "Arket er for 3. trinn i naturfag og passer rett etter grunnarket. Skrives ut på én side. Snakk gjerne om hver setning før barnet begynner: Hva ville skjedd med planten uten røtter? Uten blad? I familien kommer også blomstens deler, der de minste delene inne i blomsten får navn. Arket egner seg også godt som en kort vurdering etter et prosjekt om planter.",
+   "canonicalDeckSlug": "plantens-deler-g2364",
+   "carousel": [
+    {
+     "label": "Plantens deler: skriv navnet på hver del",
+     "href": "plantens-deler"
+    },
+    {
+     "label": "Hva trenger en plante for å vokse?",
+     "href": "hva-trenger-en-plante-for-a-vokse"
+    },
+    {
+     "label": "Fra frø til plante: klipp og lim",
+     "href": "fra-fro-til-plante"
+    },
+    {
+     "label": "Hvilke deler av planten spiser vi?",
+     "href": "hvilke-deler-av-planten-spiser-vi"
+    }
+   ],
+   "title": "Plantens deler og hva de gjør, 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Plantens deler og hva de gjør: en plante med fem nummererte lapper og fem setninger om hva delene gjør. Barnet skriver tallet til riktig del. 3. trinn. Gratis PDF."
+  },
+  {
+   "slug": "blomstens-deler",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "plants",
+    "mode": "parts-of-a-flower",
+    "theme": "",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Oppgaveark: blomstens deler · 4. trinn",
+   "h1": "Blomstens deler",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "plantens-deler",
+    "4-trinn"
+   ],
+   "p1": "En stor blomst er tegnet som om den er skåret på langs, slik at man ser inn i den. Fire nummererte lapper peker på et grønt begerblad nederst, en støvbærer, støvveien i midten og et kronblad. Ved siden av står en liten tegning av planten, uten røtter, der blomsten er ringet inn, så barnet ser hvor på planten det nå zoomes inn. Ordbanken har fem ord: begerblad, støvbærer, rot, kronblad og støvvei. Nederst er fire skrivelinjer.",
+   "p2": "Barnet skriver navnet på hver nummererte del på linjen og stryker ordet i ordbanken som ikke er en del av en blomst – her roten. Det ekstra ordet gjør at den siste linjen ikke fylles av seg selv. Støvbærer og støvvei er nye ord for de fleste; snakk om at støvbæreren lager pollen og støvveien tar imot det, og at det er slik blomsten blir til frukt og frø.",
+   "p3": "Blomstens deler er et tema for 4. trinn eller senere i LK20, og arket er det vanskeligste i plantefamilien. Det bygger på grunnarket, der blomst bare var ett ord. Skrives ut på én side. Har dere tilgang til en tulipan eller en lilje, er det lett å skjære den over på langs og finne de samme delene i virkeligheten. En lupe gjør det enda lettere å se støvbærerne i en ekte blomst.",
+   "canonicalDeckSlug": "plantens-deler-g3392",
+   "carousel": [
+    {
+     "label": "Plantens deler: skriv navnet på hver del",
+     "href": "plantens-deler"
+    },
+    {
+     "label": "Hva trenger en plante for å vokse?",
+     "href": "hva-trenger-en-plante-for-a-vokse"
+    },
+    {
+     "label": "Fra frø til plante: klipp og lim",
+     "href": "fra-fro-til-plante"
+    },
+    {
+     "label": "Hvilke deler av planten spiser vi?",
+     "href": "hvilke-deler-av-planten-spiser-vi"
+    }
+   ],
+   "title": "Blomstens deler, 4. trinn – skriv navnene | til utskrift PDF gratis",
+   "metaDescription": "Blomstens deler for 4. trinn: en oppskåret blomst med fire nummererte deler og en ordbank der ett ord – rot – ikke er en del av blomsten. Gratis PDF."
+  },
+  {
+   "slug": "froskens-livssyklus-klipp-og-lim",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "frog-life-cycle-cut-and-paste",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: froskens livssyklus · 2. trinn",
+   "h1": "Froskens livssyklus: klipp og lim",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "sommerfuglens-og-froskens-livssyklus",
+    "2-trinn"
+   ],
+   "p1": "En dam fyller arket, og rundt den ligger fem store nøkkeroseblad med piler mellom seg. På det øverste ligger froskeegg – en klump med egg i vann. De fire andre bladene har tomme, stiplede ruter. Nederst er en klippestripe med fire runde bilder, stokket om hverandre: et rumpetroll, et rumpetroll med bein, en froskeunge som fortsatt har hale, og en voksen frosk.",
+   "p2": "Barnet klipper ut rutene og limer hver av dem på sitt blad, rundt dammen fra froskeegget til frosken. Rekkefølgen kan ses i bildene: beina kommer, halen blir kortere, og til slutt sitter frosken klar til å hoppe på land. Det er en forandring barnet kan se, ikke bare huske. Pilen fra frosken tilbake til eggene lukker ringen. Barnet må derfor se på bildene, ikke på plassen de har i stripen.",
+   "p3": "Arket passer på 2. trinn i naturfag, gjerne om våren når det er froskeegg i dammer i nærheten av skolen. Frosken har fem stadier på arket mot sommerfuglens fire, og barna kan sammenligne. Skrives ut på én side; saks og lim trengs. Grunnarket i familien handler om sommerfuglen; etter dette arket passer arket som sammenligner de to dyrene. Kanskje finner dere froskeegg i en dam i nærheten; da kan barna sammenligne bildene på arket med det de ser i vannet, uke for uke. Husk at froskeegg skal stå der de er.",
+   "canonicalDeckSlug": "sommerfuglens-og-froskens-livssyklus-g1389",
+   "carousel": [
+    {
+     "label": "Sommerfuglens livssyklus: fra egg til sommerfugl",
+     "href": "sommerfuglens-livssyklus"
+    },
+    {
+     "label": "Sommerfuglens livssyklus: skriv navnene på stadiene",
+     "href": "sommerfuglens-livssyklus-skriv-navnene"
+    },
+    {
+     "label": "Metamorfose: hva blir hvert stadium til?",
+     "href": "metamorfose"
+    },
+    {
+     "label": "Sommerfuglens og froskens livssyklus: sammenlign",
+     "href": "sommerfugl-og-frosk-sammenlign-livssyklus"
+    }
+   ],
+   "title": "Froskens livssyklus – klipp og lim, 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Froskens livssyklus for 2. trinn: froskeegg på det første bladet, fire stadier å klippe ut og lime på nøkkerosebladene rundt dammen. Gratis PDF."
+  },
+  {
+   "slug": "sommerfuglens-livssyklus-skriv-navnene",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "label-the-butterfly-life-cycle",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: sommerfuglens livssyklus · 3. trinn",
+   "h1": "Sommerfuglens livssyklus: skriv navnene på stadiene",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "sommerfuglens-og-froskens-livssyklus",
+    "3-trinn"
+   ],
+   "p1": "Fire store, runde bilder står i en firkant med piler mellom seg: egget på et blad øverst til venstre, larven øverst til høyre, puppen nede til høyre og sommerfuglen nede til venstre, med en pil tilbake til egget. Under hvert bilde er en skrivelinje. Øverst står en ordbank med fem ord: de fire stadiene egg, larve, puppe og sommerfugl – og rumpetroll.",
+   "p2": "Barnet skriver navnet på hvert stadium under riktig bilde og stryker det ene ordet som ikke hører til. Syklusen er ferdig ordnet på arket – her er det ordene som er oppgaven. Rumpetroll er valgt med vilje: det er et ekte stadium, men i et annet dyrs livssyklus, så barnet må vite hvilket dyr det hører til, ikke bare kjenne ordet. Puppe er ordet norske lærebøker bruker; kokong er noe annet og står ikke på arket.",
+   "p3": "Arket er for 3. trinn i naturfag og bygger på grunnarket, der stadiene bare skulle nummereres. Skrives ut på én side. Skrivelinjene har hjelpelinje. Et godt neste steg er metamorfosearket i familien, der unger fra tre ulike dyr skal kobles til det voksne dyret de blir til. Når navnene sitter, kan barna forklare for hverandre hva som skjer i hvert stadium: egget klekkes, larven spiser og vokser, puppen forvandles, og sommerfuglen legger nye egg.",
+   "canonicalDeckSlug": "sommerfuglens-og-froskens-livssyklus-g2365",
+   "carousel": [
+    {
+     "label": "Sommerfuglens livssyklus: fra egg til sommerfugl",
+     "href": "sommerfuglens-livssyklus"
+    },
+    {
+     "label": "Froskens livssyklus: klipp og lim",
+     "href": "froskens-livssyklus-klipp-og-lim"
+    },
+    {
+     "label": "Metamorfose: hva blir hvert stadium til?",
+     "href": "metamorfose"
+    },
+    {
+     "label": "Sommerfuglens og froskens livssyklus: sammenlign",
+     "href": "sommerfugl-og-frosk-sammenlign-livssyklus"
+    }
+   ],
+   "title": "Sommerfuglens livssyklus: skriv navnene, 3. trinn | utskrift PDF gratis",
+   "metaDescription": "Skriv navnene i sommerfuglens livssyklus: fire bilder i en ring, en ordbank med fem ord og ett ord som ikke hører til og skal strykes. 3. trinn. Gratis PDF."
+  },
+  {
+   "slug": "metamorfose",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "metamorphosis-which-animal-will-it-become",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: metamorfose · 3. trinn",
+   "h1": "Metamorfose: hva blir hvert stadium til?",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "sommerfuglens-og-froskens-livssyklus",
+    "3-trinn"
+   ],
+   "p1": "Øverst står åtte runde bilder med bokstavene A til H: en sommerfuglpuppe, en marihønepuppe, et rumpetroll med bein, en marihønelarve, froskeegg, en froskeunge, en sommerfugllarve og et rumpetroll. Under står tre store bokser, hver med et voksent dyr øverst – en sommerfugl, en frosk og en marihøne – og fire tomme ruter i hver.",
+   "p2": "Barnet ser på hvert stadium og skriver bokstaven i en rute under dyret det blir til. Noen ruter blir stående tomme, og det står også i instruksen. Marihønas larve er det store poenget: den ser ut som et lite, piggete kryp og ligner ikke det minste på en marihøne, og nettopp derfor tror mange at den er et skadedyr. Det samme gjelder rumpetrollet, som mange tror er en fisk. Arket viser at ungen kan se helt annerledes ut enn det voksne dyret.",
+   "p3": "Metamorfose passer på 3. trinn i naturfag. Skrives ut på én side. Det er lurt å gjøre sommerfugl- og froskearkene i familien først, så de to kjente syklusene sitter før marihøna kommer inn. Etterpå kan dere lete etter marihønelarver på rosebusker og brennesler i skolegården om sommeren. Arket egner seg godt til samtale i par: den ene peker på et stadium, den andre sier hvilket dyr det blir til, og hvorfor.",
+   "canonicalDeckSlug": "sommerfuglens-og-froskens-livssyklus-g2366",
+   "carousel": [
+    {
+     "label": "Sommerfuglens livssyklus: fra egg til sommerfugl",
+     "href": "sommerfuglens-livssyklus"
+    },
+    {
+     "label": "Froskens livssyklus: klipp og lim",
+     "href": "froskens-livssyklus-klipp-og-lim"
+    },
+    {
+     "label": "Sommerfuglens livssyklus: skriv navnene på stadiene",
+     "href": "sommerfuglens-livssyklus-skriv-navnene"
+    },
+    {
+     "label": "Sommerfuglens og froskens livssyklus: sammenlign",
+     "href": "sommerfugl-og-frosk-sammenlign-livssyklus"
+    }
+   ],
+   "title": "Metamorfose for 3. trinn: hva blir det til? | til utskrift PDF gratis",
+   "metaDescription": "Metamorfose for 3. trinn: åtte stadier merket A til H, og tre voksne dyr – sommerfugl, frosk og marihøne – med ruter der barnet skriver bokstavene. Gratis PDF."
+  },
+  {
+   "slug": "sommerfugl-og-frosk-sammenlign-livssyklus",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "butterfly-and-frog-life-cycles-compared",
+    "theme": "",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Oppgaveark: livssyklus · 4. trinn",
+   "h1": "Sommerfuglens og froskens livssyklus: sammenlign",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "sommerfuglens-og-froskens-livssyklus",
+    "4-trinn"
+   ],
+   "p1": "Øverst til høyre står to runde bilder, en sommerfugl og en frosk, og under hvert av dem en kolonne med ruter. Til venstre står åtte påstander, én på hver rad, for eksempel «Det voksne dyret har seks bein.», «Ungen svømmer med halen.», «Den begynner livet som et egg.» og «En stund er den en puppe.» Det står ingen dyrenavn over kolonnene, bare bildene.",
+   "p2": "Barnet setter kryss under sommerfuglen, frosken eller begge når påstanden stemmer. To av påstandene stemmer for begge: begge begynner som egg, og hos begge ser ungen helt annerledes ut enn den voksne. De andre skiller: seks bein, nektar og puppe hører til sommerfuglen, halen og fangst av insekter til frosken. Påstanden «Ungen har ingen bein i begynnelsen» er en fin felle – larven har små bein fra starten, mens rumpetrollet ikke har noen.",
+   "p3": "Sammenligningen er den vanskeligste i familien og er satt til 4. trinn, der livssykluser hører til naturfaget i LK20. Det er arket å ta når både sommerfuglen og frosken er gjennomgått. Skrives ut på én side. La barna forklare kryssene sine muntlig; det er i forklaringen læringen skjer, og det er der misforståelsene kommer fram. Påstandene kan også klippes opp og sorteres i tre hauger på pulten før barna krysser av.",
+   "canonicalDeckSlug": "sommerfuglens-og-froskens-livssyklus-g3393",
+   "carousel": [
+    {
+     "label": "Sommerfuglens livssyklus: fra egg til sommerfugl",
+     "href": "sommerfuglens-livssyklus"
+    },
+    {
+     "label": "Froskens livssyklus: klipp og lim",
+     "href": "froskens-livssyklus-klipp-og-lim"
+    },
+    {
+     "label": "Sommerfuglens livssyklus: skriv navnene på stadiene",
+     "href": "sommerfuglens-livssyklus-skriv-navnene"
+    },
+    {
+     "label": "Metamorfose: hva blir hvert stadium til?",
+     "href": "metamorfose"
+    }
+   ],
+   "title": "Sommerfugl og frosk – sammenlign livssyklus, 4. trinn | utskrift PDF gratis",
+   "metaDescription": "Sammenlign sommerfuglens og froskens livssyklus: åtte påstander og to avkrysningsruter – sommerfugl, frosk eller begge. For 4. trinn. Gratis PDF."
+  },
+  {
+   "slug": "hva-kommer-etterpa-livssyklus",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "animal-life-cycles",
+    "mode": "what-comes-next-butterfly-frog-and-ladybug",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: livssyklus · 2. trinn",
+   "h1": "Hva kommer etterpå? Sommerfugl, frosk og marihøne",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "sommerfuglens-og-froskens-livssyklus",
+    "2-trinn"
+   ],
+   "p1": "Seks rader. Til venstre står ett stadium på en beige plate, så en pil, og så tre runde bilder av det samme dyret. Radene starter med froskeegg, en sommerfuglpuppe, et rumpetroll med bein, en voksen marihøne, en voksen sommerfugl og marihøne-egg på et blad. Det står ingen ord ved bildene.",
+   "p2": "Barnet ringer rundt bildet som kommer rett etter det første. To av radene starter med et voksent dyr, og da er svaret eggene: marihøna legger egg, og sommerfuglen legger egg. Det står i instruksen at det begynner på nytt med egg, men mange barn stopper likevel opp – og det er dette arket handler om: at livssyklusen er en ring og ikke en linje. Valgene i hver rad er alltid fra samme dyr, så barnet kan ikke svare ved å se hvilket dyr som passer.",
+   "p3": "Arket er for 2. trinn i naturfag og fungerer som repetisjon etter grunnarket og froskearket, med marihøna som et nytt dyr. Skrives ut på én side. Svaret står på ulik plass i radene. Etterpå kan barna tegne sin egen ring for et av dyrene, med piler hele veien rundt. Marihøna er valgt fordi mange barn har sett henne i hagen, men få har sett eggene eller larven hennes. Arket gir dem noe å se etter neste gang de er ute.",
+   "canonicalDeckSlug": "sommerfuglens-og-froskens-livssyklus-g1390",
+   "carousel": [
+    {
+     "label": "Sommerfuglens livssyklus: fra egg til sommerfugl",
+     "href": "sommerfuglens-livssyklus"
+    },
+    {
+     "label": "Froskens livssyklus: klipp og lim",
+     "href": "froskens-livssyklus-klipp-og-lim"
+    },
+    {
+     "label": "Sommerfuglens livssyklus: skriv navnene på stadiene",
+     "href": "sommerfuglens-livssyklus-skriv-navnene"
+    },
+    {
+     "label": "Metamorfose: hva blir hvert stadium til?",
+     "href": "metamorfose"
+    }
+   ],
+   "title": "Hva kommer etterpå? Livssyklus for 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Hva kommer etterpå? Seks rader med ett stadium og tre bilder av samme dyr – sommerfugl, frosk eller marihøne – og barnet ringer rundt det neste. Gratis PDF."
+  },
+  {
+   "slug": "manens-faser-i-rekkefolge",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "moon-phases-in-order",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: månens faser · 2. trinn",
+   "h1": "Månens faser i riktig rekkefølge",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "solsystemet",
+    "2-trinn"
+   ],
+   "p1": "Arket har to rammer med fem måner i hver. Den lyse delen av månen er hvit og den mørke er grå. Øverst i hver ramme står en kile med en pil under: i den øverste rammen blir kilen bredere mot høyre, i den nederste blir den smalere. Månene står i blandet rekkefølge – nymåne, en tynn månesigd, halvmåne, en nesten full måne og fullmåne – med en tom rute under hver.",
+   "p2": "Barnet ser på kilen, bestemmer om månen vokser eller minker, og skriver 1 til 5 under månene i den rekkefølgen. I raden der månen vokser, starter det med den helt grå nymånen og slutter med den hvite fullmånen. I raden der den minker, er det motsatt. Det er ingen datoer og ingen månekalender på arket – bare mønsteret, at den lyse delen vokser natt for natt og så krymper igjen. Månene er tegnet slik de ser ut fra Norge, med lyset på høyre side når månen vokser.",
+   "p3": "Månefasene står i LK20 blant naturfagsmålene etter 4. trinn, så arket er tidlig ute på 2. trinn og kan brukes som en observasjonsøvelse: se på månen noen kvelder og tegn den. Skrives ut på én side. Neste ark i familien gir fasene navn. Kilen kan også tegnes på tavla og brukes om andre ting som vokser og minker.",
+   "canonicalDeckSlug": "solsystemet-g1391",
+   "carousel": [
+    {
+     "label": "Solen, Jorden og Månen",
+     "href": "solsystemet"
+    },
+    {
+     "label": "Månens faser: skriv navnene",
+     "href": "manens-faser-skriv-navnene"
+    },
+    {
+     "label": "Hvorfor blir det dag og natt?",
+     "href": "hvorfor-blir-det-dag-og-natt"
+    },
+    {
+     "label": "Planetene i rekkefølge fra Solen",
+     "href": "planetene-i-rekkefolge"
+    }
+   ],
+   "title": "Månens faser i rekkefølge, 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Månens faser i riktig rekkefølge: to rader med fem måner, en kile som viser om månen vokser eller minker, og tallene 1 til 5 under. 2. trinn. Gratis PDF."
+  },
+  {
+   "slug": "manens-faser-skriv-navnene",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "name-the-moon-phases",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: månens faser · 3. trinn",
+   "h1": "Månens faser: skriv navnene",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "solsystemet",
+    "3-trinn"
+   ],
+   "p1": "Øverst står en ordbank med fire navn: nymåne, minkende halvmåne, fullmåne og voksende halvmåne. Under følger åtte kort i to kolonner, hvert med én måne til venstre og to skrivelinjer til høyre. Det er to av hver fase: to hvite fullmåner, to grå nymåner, to halvmåner med lyset til høyre og to med lyset til venstre.",
+   "p2": "Barnet ser på hver måne og skriver navnet. Hvert ord i ordbanken brukes to ganger, og det står i instruksen. Nymåne og fullmåne er lette; det som øves, er de to halvmånene. Her i Norge betyr lyset på høyre side at månen vokser, og lyset på venstre side at den minker. De skrå mellomformene er ikke med på dette arket, så hvert navn passer til nøyaktig én form, og barnet kan konsentrere seg om høyre og venstre.",
+   "p3": "Arket passer på 3. trinn; i LK20 hører månefasene til naturfagsmålene etter 4. trinn. Skrives ut på én side. Skrivelinjene er delt i to, så navnene med to ord får plass. Arket bygger på rekkefølge-arket i familien, der fasene bare skulle nummereres, og det går fint å ta dem etter hverandre. Det kan være lurt å ha en lampe og en ball for hånden, så barna kan se halvmånene oppstå når ballen går rundt lampen, før de skriver navnene.",
+   "canonicalDeckSlug": "solsystemet-g2367",
+   "carousel": [
+    {
+     "label": "Solen, Jorden og Månen",
+     "href": "solsystemet"
+    },
+    {
+     "label": "Månens faser i riktig rekkefølge",
+     "href": "manens-faser-i-rekkefolge"
+    },
+    {
+     "label": "Hvorfor blir det dag og natt?",
+     "href": "hvorfor-blir-det-dag-og-natt"
+    },
+    {
+     "label": "Planetene i rekkefølge fra Solen",
+     "href": "planetene-i-rekkefolge"
+    }
+   ],
+   "title": "Månens faser: skriv navnene, 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Månens faser for 3. trinn: åtte måner og en ordbank med nymåne, voksende halvmåne, fullmåne og minkende halvmåne – hvert navn brukes to ganger. Gratis PDF."
+  },
+  {
+   "slug": "hvorfor-blir-det-dag-og-natt",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "why-do-we-have-day-and-night",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: dag og natt · 3. trinn",
+   "h1": "Hvorfor blir det dag og natt?",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "solsystemet",
+    "3-trinn"
+   ],
+   "p1": "Til venstre skinner en stor sol inn fra kanten av bildet med tre stiplede lyspiler. Til høyre står Jorden som en stor sirkel, sett ovenfra, med en pil i midten som viser at den snurrer. Seks oransje nåler med tallene 1 til 6 er satt på forskjellige steder rundt på Jorden. Under står en tabell der hvert tall har to valg: Dag og Natt.",
+   "p2": "Barnet ser hvor Solen er og ringer rundt dag eller natt for hver nål. Jorden er ikke skravert, så barnet må selv tenke seg at halvdelen som vender mot Solen har dag og den andre halvdelen natt. Tre nåler står på solsiden og tre på baksiden. Pilen i midten er viktig for samtalen etterpå: fordi Jorden snurrer, vil en nål som har natt nå, få dag senere. Det er svaret på spørsmålet i overskriften.",
+   "p3": "Dag og natt står i LK20 blant naturfagsmålene etter 4. trinn, så på 3. trinn er dette et tidlig, men godt møte med modellen. Gjør det gjerne med en lommelykt og en globus eller en ball først, i et mørkt klasserom. Skrives ut på én side. I familien finnes også ark om månefaser og om planetene. Barn som blir ferdige, kan tegne inn hvor de selv bor, og si om det er dag eller natt der akkurat nå.",
+   "canonicalDeckSlug": "solsystemet-g2368",
+   "carousel": [
+    {
+     "label": "Solen, Jorden og Månen",
+     "href": "solsystemet"
+    },
+    {
+     "label": "Månens faser i riktig rekkefølge",
+     "href": "manens-faser-i-rekkefolge"
+    },
+    {
+     "label": "Månens faser: skriv navnene",
+     "href": "manens-faser-skriv-navnene"
+    },
+    {
+     "label": "Planetene i rekkefølge fra Solen",
+     "href": "planetene-i-rekkefolge"
+    }
+   ],
+   "title": "Hvorfor blir det dag og natt? 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Hvorfor blir det dag og natt? Jorden sett ovenfra, Solen til venstre, seks nummererte steder, og barnet ringer rundt dag eller natt for hvert. 3. trinn. Gratis PDF."
+  },
+  {
+   "slug": "planetene-i-rekkefolge",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "planets-in-order-from-the-sun",
+    "theme": "",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Oppgaveark: planetene · 4. trinn",
+   "h1": "Planetene i rekkefølge fra Solen",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "solsystemet",
+    "4-trinn"
+   ],
+   "p1": "Øverst ligger åtte kort, hvert med en liten planet og navnet under, i blandet rekkefølge og tegnet i samme størrelse – Mars med en hvit iskappe, Jupiter med en rød flekk og Saturn med ring. Nede til venstre stikker et hjørne av Solen inn på arket, og ut fra den går åtte stiplede baner i en vifte, hver med et tall fra 1 til 8 og en skrivelinje.",
+   "p2": "Barnet skriver navnet på hver planet på streken, med start nærmest Solen, og bruker hvert navn én gang. Planetene er tegnet like store med vilje: oppgaven er rekkefølgen, ikke størrelsen, og et barn som vet at Jupiter er størst, skal ikke kunne gjette seg til plassen. Mange klasser lærer en regle for rekkefølgen, og dette er et godt tidspunkt å finne på en egen.",
+   "p3": "Planetene hører til naturfag på 3. og 4. trinn i LK20, og arket er satt til 4. trinn. Skrives ut på én side. Det neste arket i familien sorterer de samme navnene etter størrelse, sammen med Solen og Månen, som ikke er planeter. Heng gjerne opp en planetrekke i gangen etterpå. Legg gjerne kortene med planetene ut på gulvet i riktig rekkefølge etterpå, med god avstand mellom dem, så barna får en følelse av hvor langt ute de ytterste planetene er sammenlignet med de innerste.",
+   "canonicalDeckSlug": "solsystemet-g3394",
+   "carousel": [
+    {
+     "label": "Solen, Jorden og Månen",
+     "href": "solsystemet"
+    },
+    {
+     "label": "Månens faser i riktig rekkefølge",
+     "href": "manens-faser-i-rekkefolge"
+    },
+    {
+     "label": "Månens faser: skriv navnene",
+     "href": "manens-faser-skriv-navnene"
+    },
+    {
+     "label": "Hvorfor blir det dag og natt?",
+     "href": "hvorfor-blir-det-dag-og-natt"
+    }
+   ],
+   "title": "Planetene i rekkefølge fra Solen, 4. trinn | til utskrift PDF gratis",
+   "metaDescription": "Planetene i rekkefølge fra Solen: åtte planetkort med bilde og navn, og åtte baner der barnet skriver navnene fra Merkur til Neptun. 4. trinn. Gratis PDF."
+  },
+  {
+   "slug": "kjempeplaneter-og-steinplaneter",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "earth-and-space",
+    "mode": "giant-and-rocky-planets",
+    "theme": "",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Oppgaveark: planetene · 4. trinn",
+   "h1": "Planetene etter størrelse: kjempeplaneter og steinplaneter",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "solsystemet",
+    "4-trinn"
+   ],
+   "p1": "Øverst står ti navn i en stiplet ramme: Neptun, Venus, Uranus, Mars, Merkur, Jupiter, Månen, Saturn, Jorden og Solen. Under står tre høye bokser. Den første har en stor sirkel og ordet kjempeplanet, den andre en liten sirkel og ordene liten steinplanet, og den tredje en sirkel med strek over og ordene ikke en planet. Hver boks har fem skrivelinjer.",
+   "p2": "Barnet sorterer navnene og skriver hvert av dem i riktig boks. Fire er kjempeplaneter, fire er små steinplaneter, og to er ikke planeter i det hele tatt – Solen, som er en stjerne, og Månen, som går rundt Jorden. Den tredje boksen er det som gjør arket interessant, fordi mange barn regner både Solen og Månen som planeter. Alle boksene har like mange linjer, så antallet linjer røper ingenting.",
+   "p3": "Arket er satt til 4. trinn, i tråd med at planetene hører til naturfag på 3. og 4. trinn i LK20. Det passer rett etter arket om planetenes rekkefølge. Skrives ut på én side. Snakk gjerne om at kjempeplanetene består mest av gass og is, mens de små planetene har en fast overflate man kunne stått på. Barn som blir ferdige, kan finne ut hvilken av de små planetene vi bor på, og hvilken av kjempeplanetene som har de tydeligste ringene.",
+   "canonicalDeckSlug": "solsystemet-g3395",
+   "carousel": [
+    {
+     "label": "Solen, Jorden og Månen",
+     "href": "solsystemet"
+    },
+    {
+     "label": "Månens faser i riktig rekkefølge",
+     "href": "manens-faser-i-rekkefolge"
+    },
+    {
+     "label": "Månens faser: skriv navnene",
+     "href": "manens-faser-skriv-navnene"
+    },
+    {
+     "label": "Hvorfor blir det dag og natt?",
+     "href": "hvorfor-blir-det-dag-og-natt"
+    }
+   ],
+   "title": "Kjempeplaneter og steinplaneter, 4. trinn | til utskrift PDF gratis",
+   "metaDescription": "Kjempeplaneter og steinplaneter for 4. trinn: ti navn og tre bokser – kjempeplanet, liten steinplanet og ikke en planet. Solen og Månen er med. Gratis PDF."
+  },
+  {
+   "slug": "fugleperspektiv",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-birds-eye-view",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: kart og himmelretninger · 1. trinn",
+   "h1": "Fugleperspektiv: fra siden og ovenfra",
+   "strand": "Samfunnsfag",
+   "slotTokens": [
+    "kart-og-himmelretninger",
+    "1-trinn"
+   ],
+   "p1": "To kolonner. Over den venstre står et øye med en pil som peker bortover, over den høyre et øye med en pil som peker ned. Til venstre står fem ting tegnet fra siden: en bil, en kopp, et bord, en trafikkjegle og en stol. Til høyre står de samme fem tingene sett rett ovenfra, i en annen rekkefølge: en firkant med sirkler i, et rektangel, et kvadrat med en stripe, et oransje rektangel med et vindu og en sirkel med hank.",
+   "p2": "Barnet trekker en strek fra hver ting til den samme tingen sett ovenfra. Det krever at barnet forestiller seg tingen snudd: trafikkjegla blir til sirkler i en firkant, stolen blir et kvadrat med en smal stripe der ryggen er, og koppen kjennes igjen på hanken. Bordet er vanskeligst – ovenfra er det bare et rektangel. Ta gjerne med en kopp og en kjegle og se på dem ovenfra sammen før arket.",
+   "p3": "Fugleperspektiv er første steg mot kartlesing, og arket passer på 1. trinn. Det er det eneste arket i familien som ikke krever lesing. Skrives ut på én side. Etterpå kan barna legge noen ting på et ark og tegne dem ovenfra – da har de laget sitt første kart. Grunnarket i familien bruker en tegnforklaring på et ekte kart over en øy.",
+   "canonicalDeckSlug": "kart-og-himmelretninger-k377",
+   "carousel": [
+    {
+     "label": "Kartlesing: les tegnforklaringen",
+     "href": "kartlesing-for-barn"
+    },
+    {
+     "label": "Himmelretninger: nord, øst, sør og vest",
+     "href": "himmelretninger"
+    },
+    {
+     "label": "Verdensdeler: skriv navnene",
+     "href": "verdensdeler-skriv-navnene"
+    },
+    {
+     "label": "Verdensdeler og verdenshav",
+     "href": "verdensdeler-og-verdenshav"
+    }
+   ],
+   "title": "Fugleperspektiv for 1. trinn: fra siden og ovenfra | utskrift PDF gratis",
+   "metaDescription": "Fugleperspektiv for 1. trinn: fem ting tegnet fra siden og de samme fem sett ovenfra, og barnet trekker strek mellom dem. Første steg mot kartlesing. Gratis PDF."
+  },
+  {
+   "slug": "himmelretninger",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-north-east-south-west",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: himmelretninger · 3. trinn",
+   "h1": "Himmelretninger: nord, øst, sør og vest",
+   "strand": "Samfunnsfag",
+   "slotTokens": [
+    "kart-og-himmelretninger",
+    "3-trinn"
+   ],
+   "p1": "Seks kort, hvert med en kompassrose i midten og fire ruter rundt, én ved hver spiss. I hver rose er én av spissene oransje – den peker mot nord – og én av rutene har allerede en bokstav – V, S eller Ø, aldri N. De andre tre rutene er tomme. Tre av rosene peker nord oppover, og tre er snudd, slik at nord peker til venstre, ned eller til høyre.",
+   "p2": "Barnet skriver de tre manglende bokstavene i hver rose. Instruksen sier rett ut at den oransje spissen viser nord. Himmelretningene følger hverandre med klokka – nord, øst, sør, vest – og det er den rekkefølgen barnet må bruke, med utgangspunkt i den oransje spissen eller i bokstaven som står der fra før. På de snudde rosene hjelper det ikke å huske at øst er til høyre; barnet må tenke seg rundt. Norske bokstaver gjelder: Ø for øst og V for vest.",
+   "p3": "Himmelretninger står i LK20 blant samfunnsfagsmålene etter 4. trinn, og arket er et tidlig steg på 3. trinn. Skrives ut på én side. En huskeregel for rekkefølgen er nyttig; lag gjerne en egen i klassen. Neste ark i familien bruker himmelretningene på et kart, der barnet skal se i en bestemt retning fra et sted. Det går an å legge en ekte kompassrose på gulvet og la barna stille seg på den før de begynner på arket.",
+   "canonicalDeckSlug": "kart-og-himmelretninger-g2369",
+   "carousel": [
+    {
+     "label": "Kartlesing: les tegnforklaringen",
+     "href": "kartlesing-for-barn"
+    },
+    {
+     "label": "Fugleperspektiv: fra siden og ovenfra",
+     "href": "fugleperspektiv"
+    },
+    {
+     "label": "Verdensdeler: skriv navnene",
+     "href": "verdensdeler-skriv-navnene"
+    },
+    {
+     "label": "Verdensdeler og verdenshav",
+     "href": "verdensdeler-og-verdenshav"
+    }
+   ],
+   "title": "Himmelretninger: nord, øst, sør og vest, 3. trinn | utskrift PDF gratis",
+   "metaDescription": "Himmelretninger for 3. trinn: seks kompassroser med én bokstav hver, og barnet fyller inn N, Ø, S og V. Tre av rosene er snudd. Gratis PDF."
+  },
+  {
+   "slug": "verdensdeler-skriv-navnene",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-label-the-continents",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: verdensdeler · 3. trinn",
+   "h1": "Verdensdeler: skriv navnene",
+   "strand": "Samfunnsfag",
+   "slotTokens": [
+    "kart-og-himmelretninger",
+    "3-trinn"
+   ],
+   "p1": "Et verdenskart fyller øverste del av arket. Sju verdensdeler har et oransje tall, spredt over kartet uten noen fast retning. Grensen mellom Europa og Asia er tegnet med en stiplet linje, og Antarktis nederst er pekt ut med en strek. Under kartet står en ramme med de sju navnene – Antarktis, Europa, Asia, Nord-Amerika, Oseania, Afrika og Sør-Amerika – og nederst sju skrivelinjer merket 1 til 7.",
+   "p2": "Barnet skriver navnet på hver nummererte verdensdel og tar navnene fra ruten. Tallene følger ingen retning over kartet, så barnet må kjenne formene. Norske skoler regner med sju verdensdeler, og alle sju er med, også Antarktis og Oseania med Australia. Den stiplede linja mellom Europa og Asia er verdt å peke på: de to henger sammen, og grensen er noe mennesker har bestemt, ikke noe man kan se i naturen.",
+   "p3": "Verdensdeler står i LK20 blant samfunnsfagsmålene etter 4. trinn, så arket er tidlig ute på 3. trinn – men mange klasser starter med dem nettopp her. Skrives ut på én side. Neste ark i familien legger til de fem verdenshavene, og der er svaret et tall i stedet for et navn. Barn som blir ferdige, kan fargelegge verdensdelene i hver sin farge, og dere kan snakke om hvilken verdensdel Norge ligger i.",
+   "canonicalDeckSlug": "kart-og-himmelretninger-g2370",
+   "carousel": [
+    {
+     "label": "Kartlesing: les tegnforklaringen",
+     "href": "kartlesing-for-barn"
+    },
+    {
+     "label": "Fugleperspektiv: fra siden og ovenfra",
+     "href": "fugleperspektiv"
+    },
+    {
+     "label": "Himmelretninger: nord, øst, sør og vest",
+     "href": "himmelretninger"
+    },
+    {
+     "label": "Verdensdeler og verdenshav",
+     "href": "verdensdeler-og-verdenshav"
+    }
+   ],
+   "title": "Verdensdeler: skriv navnene, 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Verdensdeler for 3. trinn: et verdenskart med sju nummererte verdensdeler og en ramme med navnene, fra Afrika til Antarktis. Barnet skriver navnene. Gratis PDF."
+  },
+  {
+   "slug": "verdensdeler-og-verdenshav",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-continents-and-oceans",
+    "theme": "",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Oppgaveark: verdensdeler · 4. trinn",
+   "h1": "Verdensdeler og verdenshav",
+   "strand": "Samfunnsfag",
+   "slotTokens": [
+    "kart-og-himmelretninger",
+    "4-trinn"
+   ],
+   "p1": "Det samme verdenskartet som i arket om verdensdeler, men nå har både land og hav tall – tolv i alt. Stillehavet har tallet sitt på begge sider av kartet, fordi det ligger ved begge kanter. Under kartet står et register i tre kolonner med tolv navn, hvert med en tom rute: sju verdensdeler og fem verdenshav – Stillehavet, Atlanterhavet, Indiahavet, Nordishavet og Sørishavet.",
+   "p2": "Barnet finner hver verdensdel og hvert verdenshav og skriver tallet ved navnet, slik man slår opp i et atlas. Navnene står blandet, så barnet må først avgjøre om det er land eller hav, og så lete. Nordishavet og Sørishavet er de vanskeligste, fordi de ligger helt i kanten av kartet og pekes ut med en strek. At Stillehavet står to ganger, er et godt utgangspunkt for å snakke om at jorda er rund og kartet flatt.",
+   "p3": "Arket er satt til 4. trinn, der verdensdeler og hav hører til samfunnsfaget i LK20. Skrives ut på én side. Det bygger på arket der verdensdelene skal skrives; her er svaret et tall, så det er kunnskapen om kartet som testes, ikke stavingen. Legg gjerne en globus ved siden av når arket rettes. Til slutt kan barna finne Norge på kartet og si hvilket hav som ligger nærmest kysten vår.",
+   "canonicalDeckSlug": "kart-og-himmelretninger-g3396",
+   "carousel": [
+    {
+     "label": "Kartlesing: les tegnforklaringen",
+     "href": "kartlesing-for-barn"
+    },
+    {
+     "label": "Fugleperspektiv: fra siden og ovenfra",
+     "href": "fugleperspektiv"
+    },
+    {
+     "label": "Himmelretninger: nord, øst, sør og vest",
+     "href": "himmelretninger"
+    },
+    {
+     "label": "Verdensdeler: skriv navnene",
+     "href": "verdensdeler-skriv-navnene"
+    }
+   ],
+   "title": "Verdensdeler og verdenshav, 4. trinn | til utskrift PDF gratis",
+   "metaDescription": "Verdensdeler og verdenshav for 4. trinn: et verdenskart med tolv tall – sju verdensdeler og fem hav – og et register der barnet skriver tallet ved navnet. Gratis PDF."
+  },
+  {
+   "slug": "himmelretninger-pa-kartet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maps",
+    "mode": "maps-directions-on-a-map",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: himmelretninger · 3. trinn",
+   "h1": "Himmelretninger på kartet",
+   "strand": "Samfunnsfag",
+   "slotTokens": [
+    "kart-og-himmelretninger",
+    "3-trinn"
+   ],
+   "p1": "Øverst står et kart over en øy med vei og elv, og ved siden av en kompassrose med N, Ø, S og V. På øya er det sju ting: et hus, et løvtre, en dam, et telt, en busk, en blomst og en benk. Tegnforklaringen står nederst til høyre. Under kartet følger seks rader. Hver rad har et startbilde, et retningsord – vest, øst, nord eller sør – og tre bilder å velge mellom.",
+   "p2": "Barnet finner startbildet på kartet, ser i retningen ordet sier, og ringer rundt det av de tre bildene som ligger der. Det er ett blikk, ikke en vandring: barnet går ingen skritt og teller ingen ruter. Retningsordene står skrevet helt ut, ikke som bokstaver, og kompassrosen står utenfor kartet som en påminnelse. I hver rad er bare ett av valgene i riktig retning, men de andre ligger også på kartet, så barnet må virkelig se etter.",
+   "p3": "Arket er for 3. trinn og binder sammen de to andre himmelretningsarkene i familien – rosen og kartet. Himmelretninger på kart hører til samfunnsfaget i LK20. Skrives ut på én side. Lag gjerne tilsvarende oppgaver om skolegården etterpå: Hva ligger nord for gymsalen? Barna kan også lage oppgaver til hverandre om det samme kartet, med andre start-bilder og retninger.",
+   "canonicalDeckSlug": "kart-og-himmelretninger-g2371",
+   "carousel": [
+    {
+     "label": "Kartlesing: les tegnforklaringen",
+     "href": "kartlesing-for-barn"
+    },
+    {
+     "label": "Fugleperspektiv: fra siden og ovenfra",
+     "href": "fugleperspektiv"
+    },
+    {
+     "label": "Himmelretninger: nord, øst, sør og vest",
+     "href": "himmelretninger"
+    },
+    {
+     "label": "Verdensdeler: skriv navnene",
+     "href": "verdensdeler-skriv-navnene"
+    }
+   ],
+   "title": "Himmelretninger på kartet, 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Himmelretninger på kartet for 3. trinn: et kart over en øy med sju symboler, en kompassrose og seks oppgaver med tre bilder å velge mellom. Gratis PDF."
+  },
+  {
+   "slug": "synonymer-med-bilder",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "synonyms-with-pictures",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: synonymer · 2. trinn",
+   "h1": "Synonymer med bilder: to ord til ett bilde",
+   "strand": "Ordforråd og ordbruk",
+   "slotTokens": [
+    "synonymer",
+    "2-trinn"
+   ],
+   "p1": "Seks kort, hvert med et fargerikt bilde øverst og fire ord under. Bildene er et sint fjes, en grønn racerbil, et overrasket fjes, et trøtt fjes med «zzz», et blidt fjes og en stor hval. Under hvert bilde står fire ord, for eksempel sint, trøtt, arg og forbauset under det sinte fjeset.",
+   "p2": "Barnet ser på bildet og ringer rundt de to ordene som betyr det samme og passer til bildet: sint og arg til det sinte fjeset, rask og kjapp til bilen, stor og diger til hvalen. Bildet gjør oppgaven lettere enn på grunnarket, fordi barnet kan gå fra en følelse eller en egenskap det ser, til ordene. De to feile ordene på hvert kort hører til et annet bilde på arket, så barnet må velge, ikke bare kjenne igjen. Hvert ord er altså riktig ett sted og feil et annet.",
+   "p3": "Arket er for 2. trinn og er det letteste i synonymfamilien, en god start før grunnarket på 3. trinn. Skrives ut på én side. Lek gjerne med ansiktene etterpå: Kan dere se arge ut? Søvnige? Forbauset? Det gir ordene et minne i kroppen, og barna oppdager at to ord kan vise det samme ansiktet. Ansiktene kan også klippes ut og brukes som kort i en samtalelek der barna finner flere ord til hvert ansikt.",
+   "canonicalDeckSlug": "synonymer-g1395",
+   "carousel": [
+    {
+     "label": "Synonymer: ring rundt ordet som betyr det samme",
+     "href": "synonymer"
+    },
+    {
+     "label": "Synonympar: finn ordene som betyr det samme",
+     "href": "finn-synonymparene"
+    },
+    {
+     "label": "Ordenes styrke: fra litt til mye",
+     "href": "ord-fra-litt-til-mye"
+    },
+    {
+     "label": "Synonymer for sa: velg ordet som passer",
+     "href": "synonymer-for-si"
+    }
+   ],
+   "title": "Synonymer med bilder, 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Synonymer med bilder for 2. trinn: seks bilder – et sint fjes, en racerbil, en hval – og barnet ringer rundt de to ordene som betyr det samme. Gratis PDF."
+  },
+  {
+   "slug": "finn-synonymparene",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "synonym-pairs",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: synonymer · 3. trinn",
+   "h1": "Synonympar: finn ordene som betyr det samme",
+   "strand": "Ordforråd og ordbruk",
+   "standard": "L.2.5",
+   "slotTokens": [
+    "synonymer",
+    "3-trinn"
+   ],
+   "p1": "To kolonner med åtte ord i hver. Til venstre: hoppe, hyggelig, reparere, klok, rar, velge, modig og forbauset. Til høyre, stokket om: fikse, plukke ut, bykse, koselig, overrasket, uredd, underlig og smart. Hvert ord har en prikk på siden som vender mot midten, og det er god plass til streker mellom kolonnene.",
+   "p2": "Barnet trekker en strek fra hvert ord til venstre til ordet til høyre som betyr det samme. Arket har åtte par og ingen ekstra ord, så den siste streken går av seg selv – men før den er det mange valg å ta. Noen par er lette, som hoppe og bykse; andre krever mer, som velge og plukke ut, der det ene «ordet» er to ord. Modig og uredd er et fint par å stoppe ved: uredd betyr «uten redsel», og forstavelsen u- snur ordet redd til det motsatte.",
+   "p3": "Arket passer på 3. trinn i norsk, som et steg etter grunnarket. Skrives ut på én side. Etter arket kan barna finne et tredje ord til hvert par – da er de i gang med ordfelt, som er temaet for det siste arket i familien. Parene egner seg også som memory-kort i en lekeperiode. Når strekene er på plass, kan barna velge et par og lage en setning der ordene kan bytte plass.",
+   "canonicalDeckSlug": "synonymer-g2373",
+   "carousel": [
+    {
+     "label": "Synonymer: ring rundt ordet som betyr det samme",
+     "href": "synonymer"
+    },
+    {
+     "label": "Synonymer med bilder: to ord til ett bilde",
+     "href": "synonymer-med-bilder"
+    },
+    {
+     "label": "Ordenes styrke: fra litt til mye",
+     "href": "ord-fra-litt-til-mye"
+    },
+    {
+     "label": "Synonymer for sa: velg ordet som passer",
+     "href": "synonymer-for-si"
+    }
+   ],
+   "title": "Finn synonymparene – synonymer 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Finn synonymparene: åtte ord til venstre og åtte til høyre, og barnet trekker strek mellom ordene som betyr det samme, som modig og uredd. 3. trinn. Gratis PDF."
+  },
+  {
+   "slug": "ord-fra-litt-til-mye",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "shades-of-meaning",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: synonymer · 2. trinn",
+   "h1": "Ordenes styrke: fra litt til mye",
+   "strand": "Ordforråd og ordbruk",
+   "standard": "L.1.5.d",
+   "slotTokens": [
+    "synonymer",
+    "2-trinn"
+   ],
+   "p1": "Øverst står en liten skala med tre søyler, fra lys og lav til mørk og høy, merket 1, 2 og 3. Under følger seks rader, hver med tre ord og en tom rute under hvert. Radene handler om stemmen (hviske, snakke, rope), om å bli våt (fuktig, våt, søkkvåt), om å spise (smake på, spise, sluke), om sult (småsulten, sulten, skrubbsulten), om å drikke (nippe, drikke, helle i seg) og om varme (lunken, varm, brennhet). På arket står ordene stokket om i hver rad.",
+   "p2": "Barnet leser de tre ordene og skriver 1, 2 og 3 fra det svakeste til det sterkeste. Ordene betyr nesten det samme, men ikke helt – og det er hele poenget. Å nippe er å drikke litt, å helle i seg er å drikke mye og fort. Norsk har mange slike trinn, og flere av dem er sammensatte: småsulten, skrubbsulten, søkkvåt. Det er en god anledning til å se hvordan et forledd kan gjøre et ord svakere eller sterkere.",
+   "p3": "Arket er satt til 2. trinn og øver det som ofte kalles nyanser. Det ber ikke om synonymer i streng forstand, men om rekkefølge, så det står litt for seg selv i familien. Skrives ut på én side. Lek med stemmen etterpå: hvisk, snakk og rop den samme setningen, og kjenn forskjellen. Barna kan også finne en fjerde rad selv, for eksempel kald, kjølig og iskald.",
+   "canonicalDeckSlug": "synonymer-g1396",
+   "carousel": [
+    {
+     "label": "Synonymer: ring rundt ordet som betyr det samme",
+     "href": "synonymer"
+    },
+    {
+     "label": "Synonymer med bilder: to ord til ett bilde",
+     "href": "synonymer-med-bilder"
+    },
+    {
+     "label": "Synonympar: finn ordene som betyr det samme",
+     "href": "finn-synonymparene"
+    },
+    {
+     "label": "Synonymer for sa: velg ordet som passer",
+     "href": "synonymer-for-si"
+    }
+   ],
+   "title": "Ord fra litt til mye – ordenes styrke, 2. trinn | utskrift PDF gratis",
+   "metaDescription": "Ord fra litt til mye for 2. trinn: seks rader med tre ord som hviske, snakke og rope, og barnet nummererer fra det svakeste til det sterkeste. Gratis PDF."
+  },
+  {
+   "slug": "synonymer-for-si",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "synonyms-for-said",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: synonymer · 3. trinn",
+   "h1": "Synonymer for sa: velg ordet som passer",
+   "strand": "Ordforråd og ordbruk",
+   "standard": "L.2.5.b",
+   "slotTokens": [
+    "synonymer",
+    "3-trinn"
+   ],
+   "p1": "Øverst står en stor snakkeboble. Først i den står ordet sa, strøket over, og så seks andre ord: svarte, forklarte, hvisket, ropte, spurte og lovet. Under følger seks setninger med en replikk og en tom rute der sa ville stått, for eksempel «Hvor er den røde lua mi?» ___ Nora.",
+   "p2": "Barnet leser setningen og skriver ordet fra snakkeboblen som passer best. Hver setning har et hint: et spørsmålstegn, en hemmelighet som skal inn i øret til mormor, en buss som skal kjøre, en mamma som skal reise bort, en lillebror som aldri har sådd før, og en lærer som har spurt om noe. Alle seks ordene brukes én gang. I den første setningen står verbet foran navnet – «derfor ropte Sofie» – slik norsk ordstilling krever etter derfor, og det er verdt å legge merke til når barna skriver selv.",
+   "p3": "Arket er for 3. trinn og er et direkte verktøy for skriving: når barna skriver fortellinger med replikker, blir sa fort det eneste ordet. Heng gjerne snakkeboblen opp i klasserommet etterpå og fyll på med nye ord. Skrives ut på én side. I familien finnes også ordfelt for gå og se, der samme tanke brukes på to andre hverdagsverb. Til slutt kan barna lese setningene høyt med stemmen som passer til ordet de valgte – hviskende, ropende eller spørrende – og høre at ordet forandrer hvordan replikken skal leses.",
+   "canonicalDeckSlug": "synonymer-g2374",
+   "carousel": [
+    {
+     "label": "Synonymer: ring rundt ordet som betyr det samme",
+     "href": "synonymer"
+    },
+    {
+     "label": "Synonymer med bilder: to ord til ett bilde",
+     "href": "synonymer-med-bilder"
+    },
+    {
+     "label": "Synonympar: finn ordene som betyr det samme",
+     "href": "finn-synonymparene"
+    },
+    {
+     "label": "Ordenes styrke: fra litt til mye",
+     "href": "ord-fra-litt-til-mye"
+    }
+   ],
+   "title": "Synonymer for si og sa, 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Synonymer for si: seks setninger med replikk og en snakkeboble med svarte, forklarte, hvisket, ropte, spurte og lovet – barnet bytter ut sa. 3. trinn. Gratis PDF."
+  },
+  {
+   "slug": "ordfelt-ga-og-se",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "synonyms",
+    "mode": "word-fields-go-and-look",
+    "theme": "",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Oppgaveark: synonymer · 4. trinn",
+   "h1": "Synonymer for gå og se: sorter ordene",
+   "strand": "Ordforråd og ordbruk",
+   "standard": "L.3.5",
+   "slotTokens": [
+    "synonymer",
+    "4-trinn"
+   ],
+   "p1": "Øverst står ti ord i en stiplet ramme: skotte, snike, rusle, observere, skynde seg, kikke, glo, myse, spasere og speide. Under står to store felt med gjerde på toppen, som to hager. Det ene heter «gå», det andre «se», og hvert felt har seks skrivelinjer.",
+   "p2": "Barnet skriver hvert ord i feltet der det hører hjemme. Fire ord handler om å bevege seg – snike, rusle, skynde seg og spasere – og seks om å se: skotte, observere, kikke, glo, myse og speide. Feltene har like mange linjer, så antallet ord i hvert felt røper ingenting. Ordene sier mer enn gå og se: å snike er å gå stille, å glo er å se lenge og frekt, å myse er å se med halvlukkede øyne. Be barna vise ordene med kroppen.",
+   "p3": "Ordfelt passer på 4. trinn, når barna skriver lengre tekster og trenger mer presise ord. Skrives ut på én side. Arket er det siste i synonymfamilien og samler det de andre har øvd: at mange ord kan bety nesten det samme, men med ulik farge. La barna finne flere ord til hvert felt – det finnes mange. Et fint oppfølgingsspill er å trekke et ord fra feltene og la en medelev vise det uten å snakke, mens resten av klassen gjetter.",
+   "canonicalDeckSlug": "synonymer-g3397",
+   "carousel": [
+    {
+     "label": "Synonymer: ring rundt ordet som betyr det samme",
+     "href": "synonymer"
+    },
+    {
+     "label": "Synonymer med bilder: to ord til ett bilde",
+     "href": "synonymer-med-bilder"
+    },
+    {
+     "label": "Synonympar: finn ordene som betyr det samme",
+     "href": "finn-synonymparene"
+    },
+    {
+     "label": "Ordenes styrke: fra litt til mye",
+     "href": "ord-fra-litt-til-mye"
+    }
+   ],
+   "title": "Ordfelt: synonymer for gå og se, 4. trinn | til utskrift PDF gratis",
+   "metaDescription": "Ordfelt for 4. trinn: ti ord som rusle, snike, kikke og myse, og to felt – «gå» og «se» – der barnet skriver hvert ord der det hører hjemme. Gratis PDF."
+  },
+  {
+   "slug": "rotord-med-bilder",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "root-words-with-pictures",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: ordfamilier · 2. trinn",
+   "h1": "Rotord med bilder: ring rundt riktig ord",
+   "strand": "Ordforråd og ordbruk",
+   "slotTokens": [
+    "forstavelser-endelser-og-rotord",
+    "2-trinn"
+   ],
+   "p1": "Seks kort i to rader. Øverst på hvert kort står tre ord, og under dem et bilde i en ramme formet som en byggestein: en bil, en blomst, en sky, et hjerte, en stein og en sol. Det står ikke navn på bildene. De tre ordene på hvert kort begynner med de samme bokstavene – bingo, bibliotek og bilist, eller sokk, solrik og sofa.",
+   "p2": "Barnet sier hva bildet viser og ringer rundt det ene ordet som er laget av ordet for bildet: bilist av bil, blomstre av blomst, skyfri av sky, hjertelig av hjerte, steinete av stein og solrik av sol. Fordi alle tre ordene begynner likt, går det ikke an å velge etter første bokstav; barnet må finne hele bildeordet inni det lange ordet. Fellene er gode: blåbær begynner nesten som blomst, og stjerne nesten som stein. Det er selve kjernen i ordfamilier, gjort så konkret som mulig.",
+   "p3": "Arket er for 2. trinn og er det letteste i familien, et forstadium til grunnarket på 3. trinn. Skrives ut på én side. Pass på at barnet sier bildeordet høyt først – da blir oppgaven mulig også for dem som leser sakte. Etterpå kan barna finne flere ord av bildeordene: bilvei, blomsterbed, skyet, solskinn. Arket kan også gjøres muntlig i ring, der læreren viser bildet og barna leter etter ordet sammen.",
+   "canonicalDeckSlug": "forstavelser-endelser-og-rotord-g1397",
+   "carousel": [
+    {
+     "label": "Ordfamilier og rotord: sorter ordene etter roten",
+     "href": "ordfamilier"
+    },
+    {
+     "label": "Finn rotordet",
+     "href": "finn-rotordet"
+    },
+    {
+     "label": "Forstavelsene gjen-, mis- og over-: velg etter betydning",
+     "href": "forstavelser-gjen-mis-over"
+    },
+    {
+     "label": "Hvem gjør det? Skriv ordet for personen",
+     "href": "personord-med-er"
+    }
+   ],
+   "title": "Rotord med bilder, 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Rotord med bilder for 2. trinn: seks bilder – bil, blomst, sky, hjerte, stein og sol – og barnet ringer rundt ordet som er laget av ordet for bildet. Gratis PDF."
+  },
+  {
+   "slug": "finn-rotordet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "find-the-root-word",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: ordfamilier · 3. trinn",
+   "h1": "Finn rotordet",
+   "strand": "Ordforråd og ordbruk",
+   "standard": "L.2.4.c",
+   "slotTokens": [
+    "forstavelser-endelser-og-rotord",
+    "3-trinn"
+   ],
+   "p1": "Ni kort i tre rader, hvert med tre ord og en tom stein nederst. Det første kortet er et ferdig eksempel: i lyspære, lysende og lyse er lys ringet inn, og lys står i steinen. De åtte andre kortene har ord som arbeide, medarbeider og arbeidsløs, ettersmak, smakløs og bismak, eller venninne, venneløs og vennlig.",
+   "p2": "Barnet ringer rundt delen som de tre ordene har felles og skriver rotordet i den tomme steinen. Delen står ikke alltid først: i bismak og ettersmak kommer roten til slutt, og i medarbeider og innkjørsel står den midt i. Noen røtter er et helt ord for seg, som bygg, spill, smak og venn; andre er verbstammer, som tenk, les og kjør. Det er en fin anledning til å snakke om at roten er den delen som bærer betydningen.",
+   "p3": "Arket er for 3. trinn og snur grunnarket: der sto roten ferdig, her skal den finnes. Skrives ut på én side. Noen av ordene er lange for trinnet – medarbeider og innkjørsel – og kan leses sammen først. Neste ark i familien handler om forstavelser og hva de gjør med betydningen av et ord. Barn som blir ferdige, kan finne et fjerde ord til hvert kort og skrive det ved siden av steinen, for eksempel bygning eller smake.",
+   "canonicalDeckSlug": "forstavelser-endelser-og-rotord-g2375",
+   "carousel": [
+    {
+     "label": "Ordfamilier og rotord: sorter ordene etter roten",
+     "href": "ordfamilier"
+    },
+    {
+     "label": "Rotord med bilder: ring rundt riktig ord",
+     "href": "rotord-med-bilder"
+    },
+    {
+     "label": "Forstavelsene gjen-, mis- og over-: velg etter betydning",
+     "href": "forstavelser-gjen-mis-over"
+    },
+    {
+     "label": "Hvem gjør det? Skriv ordet for personen",
+     "href": "personord-med-er"
+    }
+   ],
+   "title": "Finn rotordet – ordfamilier, 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Finn rotordet for 3. trinn: ni kort med tre ord fra samme familie, et ferdig eksempel med lys, og barnet ringer rundt fellesdelen og skriver rotordet. Gratis PDF."
+  },
+  {
+   "slug": "forstavelser-gjen-mis-over",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "prefixes-re-pre-mis",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: forstavelser · 3. trinn",
+   "h1": "Forstavelsene gjen-, mis- og over-: velg etter betydning",
+   "strand": "Ordforråd og ordbruk",
+   "standard": "L.2.4.b",
+   "slotTokens": [
+    "forstavelser-endelser-og-rotord",
+    "3-trinn"
+   ],
+   "p1": "Øverst står en nøkkel med tre puslebiter: gjen betyr «igjen, en gang til», mis betyr «feil», og over betyr «for mye». Under følger åtte rader. Hver rad har en forklaring til venstre, for eksempel «forstå galt hva noen mener» eller «fylle et glass så fullt at det renner ut», og til høyre en tom puslebit festet foran et ord som fortelle, forstå, koke eller spise.",
+   "p2": "Barnet leser hva det nye ordet betyr, finner forstavelsen i nøkkelen og skriver den i den tomme biten. Da blir det misforstå, overfylle, gjenbruke og så videre. Tre av ordene får gjen-, to får mis- og tre får over-. Det er meningen som styrer: barnet må spørre seg om det handler om å gjøre noe på nytt, gjøre det feil eller gjøre det for mye. Gjenbruke er et fint ord å dvele ved, fordi mange barn kjenner det fra kildesortering.",
+   "p3": "Arket passer på 3. trinn i norsk. Forstavelsen u-, som i uvenn og ulykkelig, har sin egen plass blant arkene om motsetninger, så her er fokuset på tre andre. Skrives ut på én side. La barna finne flere ord med de tre forstavelsene etterpå; gjensyn og misfornøyd er gode å starte med. Det går også an å gjøre arket muntlig først, med puslebitene klippet ut.",
+   "canonicalDeckSlug": "forstavelser-endelser-og-rotord-g2376",
+   "carousel": [
+    {
+     "label": "Ordfamilier og rotord: sorter ordene etter roten",
+     "href": "ordfamilier"
+    },
+    {
+     "label": "Rotord med bilder: ring rundt riktig ord",
+     "href": "rotord-med-bilder"
+    },
+    {
+     "label": "Finn rotordet",
+     "href": "finn-rotordet"
+    },
+    {
+     "label": "Hvem gjør det? Skriv ordet for personen",
+     "href": "personord-med-er"
+    }
+   ],
+   "title": "Forstavelser gjen-, mis- og over-, 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Forstavelser for 3. trinn: en nøkkel med gjen-, mis- og over- og hva de betyr, og åtte forklaringer der barnet skriver riktig forstavelse foran ordet. Gratis PDF."
+  },
+  {
+   "slug": "personord-med-er",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "who-does-it-person-words",
+    "theme": "",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Oppgaveark: endelser · 4. trinn",
+   "h1": "Hvem gjør det? Skriv ordet for personen",
+   "strand": "Ordforråd og ordbruk",
+   "standard": "L.3.4.b",
+   "slotTokens": [
+    "forstavelser-endelser-og-rotord",
+    "4-trinn"
+   ],
+   "p1": "Åtte kort, hvert med en tegnet person og et ord på et lite kort: lese, sy, bygge, løpe, lære, bake, danse og sang. Personene er en gutt med en bok, en kvinne ved symaskinen, en bygningsarbeider med hjelm, en løper i fart, en lærer, en baker med brød, en ballettdanser og en gutt som synger med gitar. Under hvert ord er en stiplet rute med skrivelinjer.",
+   "p2": "Barnet ser på personen, leser ordet og skriver ordet for personen som gjør det: leser, syer, bygger, løper, lærer, baker, danser og sanger. Alle åtte følger den samme regelen – legg til -er, eller bare -r når ordet slutter på e – og det er poenget: barnet skal se mønsteret og bruke det. Sang skiller seg litt ut, for det er et substantiv og ikke et verb, men sanger blir laget på samme måte.",
+   "p3": "Arket er satt til 4. trinn og er det vanskeligste i familien. Skrives ut på én side. Snakk gjerne om at noen personord har andre former i dagligtale – en syerske, en ballettdanser – og at -er likevel er den vanligste måten norsk lager ord for den som gjør noe. I familien finnes også rotord, forstavelser og et ark der to ordfamilier skal inn i hver sine fire setninger. Barn som blir ferdige, kan finne flere personord selv – maler, fisker, spiller – og sjekke om de følger regelen.",
+   "canonicalDeckSlug": "forstavelser-endelser-og-rotord-g3398",
+   "carousel": [
+    {
+     "label": "Ordfamilier og rotord: sorter ordene etter roten",
+     "href": "ordfamilier"
+    },
+    {
+     "label": "Rotord med bilder: ring rundt riktig ord",
+     "href": "rotord-med-bilder"
+    },
+    {
+     "label": "Finn rotordet",
+     "href": "finn-rotordet"
+    },
+    {
+     "label": "Forstavelsene gjen-, mis- og over-: velg etter betydning",
+     "href": "forstavelser-gjen-mis-over"
+    }
+   ],
+   "title": "Hvem gjør det? Personord med -er, 4. trinn | til utskrift PDF gratis",
+   "metaDescription": "Personord med -er for 4. trinn: åtte personer – en leser, en løper, en baker – og et ord ved hver, der barnet skriver ordet for personen som gjør det. Gratis PDF."
+  },
+  {
+   "slug": "ordfamilier-i-setninger",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-parts",
+    "mode": "root-words-in-sentences",
+    "theme": "",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Oppgaveark: ordfamilier · 4. trinn",
+   "h1": "Rotord i setninger",
+   "strand": "Ordforråd og ordbruk",
+   "standard": "L.3.4.c",
+   "slotTokens": [
+    "forstavelser-endelser-og-rotord",
+    "4-trinn"
+   ],
+   "p1": "Arket har to felt. I det første står fire ordkort – vennlig, venninne, vennlighet og vennligst – over en stein med rotordet venn, og under dem fire setninger med en tom rute. I det andre står hjelpsom, medhjelper, førstehjelp og hjelpe over steinen hjelp, med fire nye setninger. Setningene er hverdagslige: «Vi ber dere ___ ta av dere skoene i gangen.» og «Kan du ___ meg å bære posen?»",
+   "p2": "Barnet skriver hvert av de fire ordene i setningen der det passer. Alle ordene i et felt har samme rot, så barnet kan ikke velge etter betydningen alene – det må se på hvilken ordklasse setningen trenger. Etter «ei» må det komme et substantiv, etter «Kan du» et verb, etter «var» et adjektiv. Vennligst er et fint ord å stoppe ved: det ser ut som vennlig, men brukes når vi ber pent om noe. Det er grammatikk uten at ordet grammatikk trenger å brukes.",
+   "p3": "Arket er det siste i familien og passer på 4. trinn. Skrives ut på én side. Hold feltene fra hverandre når dere går gjennom arket: «Takk for all hjelp» er god norsk, og hjelpsom passer også om bussjåføren, men ordene skal hentes fra kortene i sitt eget felt. Grunnarket sorterer ordene i familier; her skal de brukes. Barna kan også skrive en egen setning til hvert av ordene på baksiden av arket.",
+   "canonicalDeckSlug": "forstavelser-endelser-og-rotord-g3399",
+   "carousel": [
+    {
+     "label": "Ordfamilier og rotord: sorter ordene etter roten",
+     "href": "ordfamilier"
+    },
+    {
+     "label": "Rotord med bilder: ring rundt riktig ord",
+     "href": "rotord-med-bilder"
+    },
+    {
+     "label": "Finn rotordet",
+     "href": "finn-rotordet"
+    },
+    {
+     "label": "Forstavelsene gjen-, mis- og over-: velg etter betydning",
+     "href": "forstavelser-gjen-mis-over"
+    }
+   ],
+   "title": "Ordfamilier i setninger, 4. trinn | til utskrift PDF gratis",
+   "metaDescription": "Ordfamilier i setninger for 4. trinn: to familier – venn og hjelp – med fire ord hver og fire setninger til hver familie der barnet skriver riktig ord. Gratis PDF."
   }
  ]
 }

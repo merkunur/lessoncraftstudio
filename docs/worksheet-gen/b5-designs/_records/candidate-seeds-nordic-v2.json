@@ -1,0 +1,607 @@
+{
+ "_about": "nt10-E (b5) ROUND 2 — Nordic native-SEO panel re-probe (2026-09-23). sv/da/no/fi heads corrected to school register (see _work/_selection-seo-nordic.md §0); the 7 non-Nordic locales are the round-1 heads unchanged (the script validates all 11).",
+ "candidates": [
+  "plants",
+  "life-cycles",
+  "materials",
+  "space",
+  "colors",
+  "2d-shapes",
+  "digraphs",
+  "synonyms",
+  "homophones",
+  "road-safety",
+  "maps",
+  "family"
+ ],
+ "heads": {
+  "en": {
+   "plants": [
+    "parts of a plant",
+    "plant life cycle"
+   ],
+   "life-cycles": [
+    "butterfly life cycle",
+    "frog life cycle"
+   ],
+   "materials": [
+    "materials and their properties",
+    "magnetic or not"
+   ],
+   "space": [
+    "solar system",
+    "moon phases"
+   ],
+   "colors": [
+    "color words",
+    "colors"
+   ],
+   "2d-shapes": [
+    "2d shapes",
+    "shapes"
+   ],
+   "digraphs": [
+    "digraphs",
+    "sh ch th"
+   ],
+   "synonyms": [
+    "synonyms",
+    "synonyms and antonyms"
+   ],
+   "homophones": [
+    "homophones",
+    "there their they're"
+   ],
+   "road-safety": [
+    "road safety",
+    "traffic signs"
+   ],
+   "maps": [
+    "continents and oceans",
+    "map skills"
+   ],
+   "family": [
+    "family members",
+    "family tree"
+   ]
+  },
+  "de": {
+   "plants": [
+    "teile der pflanze",
+    "pflanzen"
+   ],
+   "life-cycles": [
+    "entwicklung schmetterling",
+    "entwicklung frosch"
+   ],
+   "materials": [
+    "materialien eigenschaften",
+    "magnetisch nicht magnetisch"
+   ],
+   "space": [
+    "planeten",
+    "mondphasen"
+   ],
+   "colors": [
+    "farben lernen",
+    "farben"
+   ],
+   "2d-shapes": [
+    "geometrische formen",
+    "formen"
+   ],
+   "digraphs": [
+    "sch ch",
+    "buchstabenverbindungen"
+   ],
+   "synonyms": [
+    "synonyme",
+    "wortfeld"
+   ],
+   "homophones": [
+    "das dass",
+    "gleich klingende wörter"
+   ],
+   "road-safety": [
+    "verkehrserziehung",
+    "verkehrszeichen"
+   ],
+   "maps": [
+    "himmelsrichtungen",
+    "kontinente"
+   ],
+   "family": [
+    "familie",
+    "stammbaum"
+   ]
+  },
+  "fr": {
+   "plants": [
+    "les parties de la plante",
+    "cycle de vie d'une plante"
+   ],
+   "life-cycles": [
+    "cycle de vie du papillon",
+    "cycle de vie de la grenouille"
+   ],
+   "materials": [
+    "les matériaux",
+    "objets magnétiques"
+   ],
+   "space": [
+    "le système solaire",
+    "les phases de la lune"
+   ],
+   "colors": [
+    "les couleurs",
+    "les couleurs maternelle"
+   ],
+   "2d-shapes": [
+    "les formes géométriques",
+    "les formes"
+   ],
+   "digraphs": [
+    "les sons complexes",
+    "son ou"
+   ],
+   "synonyms": [
+    "les synonymes",
+    "synonymes"
+   ],
+   "homophones": [
+    "homophones a à",
+    "homophones grammaticaux"
+   ],
+   "road-safety": [
+    "sécurité routière",
+    "panneaux de signalisation"
+   ],
+   "maps": [
+    "les continents",
+    "se repérer sur un plan"
+   ],
+   "family": [
+    "la famille",
+    "arbre généalogique"
+   ]
+  },
+  "es": {
+   "plants": [
+    "partes de la planta",
+    "ciclo de vida de las plantas"
+   ],
+   "life-cycles": [
+    "ciclo de vida de la mariposa",
+    "ciclo de vida de la rana"
+   ],
+   "materials": [
+    "materiales y sus propiedades",
+    "objetos magnéticos"
+   ],
+   "space": [
+    "el sistema solar",
+    "fases de la luna"
+   ],
+   "colors": [
+    "los colores",
+    "colores"
+   ],
+   "2d-shapes": [
+    "figuras geométricas",
+    "las figuras geométricas"
+   ],
+   "digraphs": [
+    "ch ll rr",
+    "sílabas trabadas"
+   ],
+   "synonyms": [
+    "sinónimos",
+    "sinónimos y antónimos"
+   ],
+   "homophones": [
+    "palabras homófonas",
+    "hay ahí ay"
+   ],
+   "road-safety": [
+    "educación vial",
+    "señales de tránsito"
+   ],
+   "maps": [
+    "los continentes",
+    "puntos cardinales"
+   ],
+   "family": [
+    "la familia",
+    "árbol genealógico"
+   ]
+  },
+  "pt": {
+   "plants": [
+    "partes da planta",
+    "ciclo de vida das plantas"
+   ],
+   "life-cycles": [
+    "ciclo de vida da borboleta",
+    "ciclo de vida do sapo"
+   ],
+   "materials": [
+    "materiais e suas propriedades",
+    "ímã objetos"
+   ],
+   "space": [
+    "sistema solar",
+    "fases da lua"
+   ],
+   "colors": [
+    "cores",
+    "as cores"
+   ],
+   "2d-shapes": [
+    "formas geométricas",
+    "figuras geométricas planas"
+   ],
+   "digraphs": [
+    "dígrafos",
+    "nh lh ch"
+   ],
+   "synonyms": [
+    "sinônimos",
+    "sinônimos e antônimos"
+   ],
+   "homophones": [
+    "palavras homófonas",
+    "mas mais"
+   ],
+   "road-safety": [
+    "educação no trânsito",
+    "placas de trânsito"
+   ],
+   "maps": [
+    "continentes",
+    "pontos cardeais"
+   ],
+   "family": [
+    "família",
+    "árvore genealógica"
+   ]
+  },
+  "it": {
+   "plants": [
+    "le parti della pianta",
+    "ciclo vitale della pianta"
+   ],
+   "life-cycles": [
+    "ciclo vitale della farfalla",
+    "ciclo vitale della rana"
+   ],
+   "materials": [
+    "i materiali",
+    "materiali magnetici"
+   ],
+   "space": [
+    "il sistema solare",
+    "le fasi lunari"
+   ],
+   "colors": [
+    "i colori",
+    "colori"
+   ],
+   "2d-shapes": [
+    "figure geometriche",
+    "le forme geometriche"
+   ],
+   "digraphs": [
+    "digrammi",
+    "gn gl sc"
+   ],
+   "synonyms": [
+    "sinonimi",
+    "sinonimi e contrari"
+   ],
+   "homophones": [
+    "è e",
+    "ha a"
+   ],
+   "road-safety": [
+    "educazione stradale",
+    "segnali stradali"
+   ],
+   "maps": [
+    "i continenti",
+    "punti cardinali"
+   ],
+   "family": [
+    "la famiglia",
+    "albero genealogico"
+   ]
+  },
+  "nl": {
+   "plants": [
+    "delen van een plant",
+    "plant"
+   ],
+   "life-cycles": [
+    "levenscyclus vlinder",
+    "van rups tot vlinder"
+   ],
+   "materials": [
+    "materialen",
+    "magnetisch"
+   ],
+   "space": [
+    "zonnestelsel",
+    "maanfasen"
+   ],
+   "colors": [
+    "kleuren",
+    "kleuren leren"
+   ],
+   "2d-shapes": [
+    "vormen",
+    "vlakke figuren"
+   ],
+   "digraphs": [
+    "tweetekenklanken",
+    "ui ei ou"
+   ],
+   "synonyms": [
+    "synoniemen",
+    "woorden met dezelfde betekenis"
+   ],
+   "homophones": [
+    "homofonen",
+    "ei ij"
+   ],
+   "road-safety": [
+    "verkeer",
+    "verkeersborden"
+   ],
+   "maps": [
+    "werelddelen",
+    "windrichtingen"
+   ],
+   "family": [
+    "familie",
+    "stamboom"
+   ]
+  },
+  "sv": {
+   "plants": [
+    "växtens delar",
+    "blommans delar",
+    "från frö till växt"
+   ],
+   "life-cycles": [
+    "fjärilens livscykel",
+    "grodans livscykel",
+    "livscykler"
+   ],
+   "materials": [
+    "magnetism",
+    "material och deras egenskaper",
+    "flyter eller sjunker"
+   ],
+   "space": [
+    "solsystemet",
+    "planeterna",
+    "månens faser"
+   ],
+   "colors": [
+    "färgord",
+    "grundfärger",
+    "blanda färger"
+   ],
+   "2d-shapes": [
+    "geometriska figurer",
+    "geometriska former",
+    "plana figurer"
+   ],
+   "digraphs": [
+    "sj-ljudet",
+    "tj-ljudet",
+    "ng-ljudet"
+   ],
+   "synonyms": [
+    "synonymer",
+    "ord som betyder samma sak"
+   ],
+   "homophones": [
+    "homofoner",
+    "ord som låter lika",
+    "de och dem"
+   ],
+   "road-safety": [
+    "trafik",
+    "trafikmärken",
+    "trafikregler för barn"
+   ],
+   "maps": [
+    "världsdelar",
+    "väderstreck",
+    "kartkunskap"
+   ],
+   "family": [
+    "min familj",
+    "släktträd",
+    "släktord"
+   ]
+  },
+  "da": {
+   "plants": [
+    "plantens dele",
+    "blomstens dele",
+    "fra frø til plante"
+   ],
+   "life-cycles": [
+    "sommerfuglens livscyklus",
+    "frøens livscyklus",
+    "livscyklus"
+   ],
+   "materials": [
+    "magnetisme",
+    "materialer og egenskaber",
+    "flyde eller synke"
+   ],
+   "space": [
+    "solsystemet",
+    "planeterne",
+    "månens faser"
+   ],
+   "colors": [
+    "farveord",
+    "primærfarver",
+    "blande farver"
+   ],
+   "2d-shapes": [
+    "geometriske figurer",
+    "former og figurer"
+   ],
+   "digraphs": [
+    "stumme bogstaver",
+    "lange og korte vokaler",
+    "ikke lydrette ord"
+   ],
+   "synonyms": [
+    "synonymer",
+    "ord der betyder det samme"
+   ],
+   "homophones": [
+    "ord der lyder ens",
+    "nutids-r",
+    "homofoner"
+   ],
+   "road-safety": [
+    "færdselslære",
+    "færdselstavler",
+    "trafik for børn"
+   ],
+   "maps": [
+    "verdensdele",
+    "verdenshjørner",
+    "kortforståelse"
+   ],
+   "family": [
+    "min familie",
+    "stamtræ"
+   ]
+  },
+  "no": {
+   "plants": [
+    "plantens deler",
+    "blomstens deler",
+    "fra frø til plante"
+   ],
+   "life-cycles": [
+    "sommerfuglens livssyklus",
+    "froskens livssyklus",
+    "livssyklus"
+   ],
+   "materials": [
+    "magnetisme",
+    "materialer og egenskaper",
+    "flyte eller synke"
+   ],
+   "space": [
+    "solsystemet",
+    "planetene",
+    "månefaser"
+   ],
+   "colors": [
+    "fargeord",
+    "primærfarger",
+    "blande farger"
+   ],
+   "2d-shapes": [
+    "geometriske figurer",
+    "former og mønster"
+   ],
+   "digraphs": [
+    "kj-lyden",
+    "skj-lyden",
+    "sj-lyden"
+   ],
+   "synonyms": [
+    "synonymer",
+    "ord som betyr det samme"
+   ],
+   "homophones": [
+    "ord som høres like ut",
+    "og og å",
+    "homofoner"
+   ],
+   "road-safety": [
+    "trafikk for barn",
+    "trafikkskilt",
+    "trafikkopplæring"
+   ],
+   "maps": [
+    "verdensdeler",
+    "himmelretninger",
+    "kart og kompass"
+   ],
+   "family": [
+    "familien min",
+    "slektstre"
+   ]
+  },
+  "fi": {
+   "plants": [
+    "kasvin osat",
+    "kukan osat",
+    "siemenestä kasviksi"
+   ],
+   "life-cycles": [
+    "perhosen kehitys",
+    "sammakon kehitysvaiheet",
+    "elämänkierto"
+   ],
+   "materials": [
+    "magneetin vetovoima",
+    "aineet ja materiaalit",
+    "kelluu vai uppoaa"
+   ],
+   "space": [
+    "aurinkokunta",
+    "planeetat",
+    "kuun vaiheet"
+   ],
+   "colors": [
+    "värien nimet",
+    "päävärit",
+    "värien sekoittaminen"
+   ],
+   "2d-shapes": [
+    "tasokuviot",
+    "geometriset muodot"
+   ],
+   "digraphs": [
+    "pitkät vokaalit",
+    "diftongit",
+    "lyhyt vai pitkä vokaali"
+   ],
+   "synonyms": [
+    "synonyymit",
+    "samaa tarkoittavat sanat"
+   ],
+   "homophones": [
+    "homofonit",
+    "samalta kuulostavat sanat"
+   ],
+   "road-safety": [
+    "liikennemerkit",
+    "liikenneturvallisuus",
+    "liikennesäännöt lapsille"
+   ],
+   "maps": [
+    "maanosat",
+    "ilmansuunnat",
+    "kartan merkit"
+   ],
+   "family": [
+    "sukupuu",
+    "perheenjäsenet",
+    "minun perheeni"
+   ]
+  }
+ }
+}

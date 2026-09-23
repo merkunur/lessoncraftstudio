@@ -1,0 +1,251 @@
+{
+ "locale": "de",
+ "market": {
+  "hl": "de",
+  "gl": "de"
+ },
+ "generatedAt": "2026-09-23T00:18:37.739Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds-wordparts.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "word-parts": {
+   "heads": [
+    "wortfamilien",
+    "vorsilben"
+   ],
+   "requests": 14,
+   "productiveSeeds": 11,
+   "unique": 78,
+   "suggestions": [
+    "arbeitsblatt vorsilben 3 klasse",
+    "arbeitsblatt vorsilben grundschule",
+    "arbeitsblatt vorsilben klasse 2",
+    "arbeitsblatt vorsilben klasse 4",
+    "arbeitsblatt vorsilben verben",
+    "arbeitsblatt wortfamilien 4 klasse",
+    "einführung vorsilben klasse 2",
+    "einführung wortfamilien klasse 2",
+    "vorsilben",
+    "vorsilben 3 klasse",
+    "vorsilben 3 klasse pdf",
+    "vorsilben 3 klasse übungen",
+    "vorsilben arbeitsblatt",
+    "vorsilben deutsch",
+    "vorsilben deutsch 2 klasse",
+    "vorsilben deutsch 3 klasse",
+    "vorsilben grundschule",
+    "vorsilben grundschule 2 klasse",
+    "vorsilben grundschule 3 klasse",
+    "vorsilben grundschule 4 klasse",
+    "vorsilben grundschule einführung",
+    "vorsilben grundschule klasse 2",
+    "vorsilben grundschule merksatz",
+    "vorsilben grundschule pdf",
+    "vorsilben klasse 2",
+    "vorsilben klasse 3",
+    "vorsilben liste",
+    "vorsilben liste grundschule",
+    "vorsilben mathe",
+    "vorsilben nachsilben 3 klasse",
+    "vorsilben physik",
+    "vorsilben ver vor arbeitsblatt",
+    "vorsilben verben",
+    "vorsilben verben grundschule",
+    "vorsilben verben grundschule arbeitsblatt",
+    "vorsilben verben klasse 2",
+    "vorsilben verben klasse 3",
+    "vorsilben wortbausteine klasse 2",
+    "vorsilben zehnerpotenzen",
+    "wortfamilie 3 klasse deutsch",
+    "wortfamilie arbeitsblatt klasse 2",
+    "wortfamilie arbeitsblatt klasse 3",
+    "wortfamilie arbeitsblatt kostenlos",
+    "wortfamilie deutsch klasse 2",
+    "wortfamilie grundschule frau locke",
+    "wortfamilien",
+    "wortfamilien 2 klasse übungen",
+    "wortfamilien 3 klasse beispiele",
+    "wortfamilien arbeitsblatt",
+    "wortfamilien arbeitsblatt grundschule",
+    "wortfamilien arbeitsblätter klasse 2",
+    "wortfamilien beispiele",
+    "wortfamilien bilden 3 klasse",
+    "wortfamilien englisch",
+    "wortfamilien englisch 10 klasse realschule",
+    "wortfamilien finden arbeitsblatt",
+    "wortfamilien grundschule",
+    "wortfamilien grundschule 4 klasse",
+    "wortfamilien grundschule arbeitsblätter",
+    "wortfamilien grundschule beispiele",
+    "wortfamilien grundschule klasse 2",
+    "wortfamilien grundschule klasse 3",
+    "wortfamilien grundschule pdf",
+    "wortfamilien grundschule übungen",
+    "wortfamilien klasse 2",
+    "wortfamilien klasse 2 beispiele",
+    "wortfamilien klasse 2 pdf",
+    "wortfamilien klasse 3",
+    "wortfamilien klasse 3 pdf",
+    "wortfamilien klasse 3 übungen",
+    "wortfamilien klasse 4",
+    "wortfamilien spiel grundschule",
+    "wortfamilien wortstamm klasse 2",
+    "wortfamilien übungen",
+    "wortfamilien übungen 3 klasse kostenlos",
+    "wortfamilien übungen pdf",
+    "wortstamm wortfamilie klasse 3",
+    "übungen vorsilben 2 klasse"
+   ]
+  }
+ },
+ "suggestions": {
+  "wortfamilien": {
+   "candidate": "word-parts",
+   "s": [
+    "wortfamilien",
+    "wortfamilien beispiele",
+    "wortfamilien klasse 2",
+    "wortfamilien grundschule",
+    "wortfamilien klasse 3",
+    "wortfamilien übungen",
+    "wortfamilien englisch",
+    "wortfamilien arbeitsblatt",
+    "wortfamilien klasse 4",
+    "wortfamilien übungen pdf"
+   ]
+  },
+  "wortfamilien arbeitsblatt": {
+   "candidate": "word-parts",
+   "s": [
+    "wortfamilien arbeitsblatt",
+    "wortfamilien arbeitsblatt grundschule",
+    "wortfamilie arbeitsblatt klasse 3",
+    "wortfamilie arbeitsblatt klasse 2",
+    "arbeitsblatt wortfamilien 4 klasse",
+    "wortfamilie arbeitsblatt kostenlos",
+    "wortfamilien finden arbeitsblatt"
+   ]
+  },
+  "wortfamilien grundschule": {
+   "candidate": "word-parts",
+   "s": [
+    "wortfamilien grundschule",
+    "wortfamilien grundschule klasse 2",
+    "wortfamilien grundschule klasse 3",
+    "wortfamilien grundschule 4 klasse",
+    "wortfamilien grundschule übungen",
+    "wortfamilien grundschule arbeitsblätter",
+    "wortfamilien grundschule pdf",
+    "wortfamilien grundschule beispiele",
+    "wortfamilie grundschule frau locke",
+    "wortfamilien spiel grundschule"
+   ]
+  },
+  "wortfamilien klasse 1": {
+   "candidate": "word-parts",
+   "s": [
+    "wortfamilien englisch 10 klasse realschule"
+   ]
+  },
+  "wortfamilien klasse 2": {
+   "candidate": "word-parts",
+   "s": [
+    "wortfamilien klasse 2",
+    "wortfamilien klasse 2 pdf",
+    "wortfamilien klasse 2 beispiele",
+    "wortfamilien 2 klasse übungen",
+    "wortfamilien grundschule klasse 2",
+    "einführung wortfamilien klasse 2",
+    "wortfamilien arbeitsblätter klasse 2",
+    "wortfamilien wortstamm klasse 2",
+    "wortfamilie deutsch klasse 2"
+   ]
+  },
+  "wortfamilien klasse 3": {
+   "candidate": "word-parts",
+   "s": [
+    "wortfamilien klasse 3",
+    "wortfamilien klasse 3 pdf",
+    "wortfamilien klasse 3 übungen",
+    "wortfamilien 3 klasse beispiele",
+    "wortfamilie 3 klasse deutsch",
+    "wortfamilien grundschule klasse 3",
+    "wortfamilie arbeitsblatt klasse 3",
+    "wortstamm wortfamilie klasse 3",
+    "wortfamilien übungen 3 klasse kostenlos",
+    "wortfamilien bilden 3 klasse"
+   ]
+  },
+  "vorsilben": {
+   "candidate": "word-parts",
+   "s": [
+    "vorsilben",
+    "vorsilben liste",
+    "vorsilben verben",
+    "vorsilben grundschule",
+    "vorsilben mathe",
+    "vorsilben zehnerpotenzen",
+    "vorsilben deutsch",
+    "vorsilben physik",
+    "vorsilben klasse 2",
+    "vorsilben 3 klasse"
+   ]
+  },
+  "vorsilben arbeitsblatt": {
+   "candidate": "word-parts",
+   "s": [
+    "vorsilben arbeitsblatt",
+    "arbeitsblatt vorsilben klasse 2",
+    "arbeitsblatt vorsilben 3 klasse",
+    "arbeitsblatt vorsilben klasse 4",
+    "arbeitsblatt vorsilben verben",
+    "arbeitsblatt vorsilben grundschule",
+    "vorsilben verben grundschule arbeitsblatt",
+    "vorsilben ver vor arbeitsblatt"
+   ]
+  },
+  "vorsilben grundschule": {
+   "candidate": "word-parts",
+   "s": [
+    "vorsilben grundschule",
+    "vorsilben grundschule 2 klasse",
+    "vorsilben grundschule 3 klasse",
+    "vorsilben grundschule 4 klasse",
+    "vorsilben grundschule merksatz",
+    "vorsilben grundschule pdf",
+    "vorsilben grundschule einführung",
+    "vorsilben verben grundschule",
+    "vorsilben liste grundschule",
+    "vorsilben verben grundschule arbeitsblatt"
+   ]
+  },
+  "vorsilben klasse 2": {
+   "candidate": "word-parts",
+   "s": [
+    "vorsilben klasse 2",
+    "arbeitsblatt vorsilben klasse 2",
+    "vorsilben wortbausteine klasse 2",
+    "vorsilben verben klasse 2",
+    "einführung vorsilben klasse 2",
+    "vorsilben grundschule klasse 2",
+    "übungen vorsilben 2 klasse",
+    "vorsilben deutsch 2 klasse"
+   ]
+  },
+  "vorsilben klasse 3": {
+   "candidate": "word-parts",
+   "s": [
+    "vorsilben klasse 3",
+    "vorsilben 3 klasse übungen",
+    "vorsilben 3 klasse pdf",
+    "vorsilben verben klasse 3",
+    "vorsilben grundschule 3 klasse",
+    "arbeitsblatt vorsilben 3 klasse",
+    "vorsilben nachsilben 3 klasse",
+    "vorsilben deutsch 3 klasse"
+   ]
+  }
+ }
+}

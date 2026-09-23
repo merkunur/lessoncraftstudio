@@ -1,0 +1,45 @@
+{
+ "locale": "da",
+ "market": {
+  "hl": "da",
+  "gl": "dk"
+ },
+ "generatedAt": "2026-09-23T00:19:01.146Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds-wordparts.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "word-parts": {
+   "heads": [
+    "ordfamilier",
+    "forstavelser"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 4,
+   "suggestions": [
+    "alle forstavelser",
+    "forstavelser",
+    "forstavelser eksempler",
+    "ordfamilier"
+   ]
+  }
+ },
+ "suggestions": {
+  "ordfamilier": {
+   "candidate": "word-parts",
+   "s": [
+    "ordfamilier"
+   ]
+  },
+  "forstavelser": {
+   "candidate": "word-parts",
+   "s": [
+    "forstavelser",
+    "forstavelser eksempler",
+    "alle forstavelser"
+   ]
+  }
+ }
+}

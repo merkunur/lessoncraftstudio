@@ -1,0 +1,14 @@
+{"_about":"nt10-E replacement candidate word-parts (pedagogy panel 2026-09-23): word families by stem + prefixes/suffixes.",
+"candidates":["word-parts"],
+"heads":{
+"en":{"word-parts":["prefixes and suffixes","root words"]},
+"de":{"word-parts":["wortfamilien","vorsilben"]},
+"fr":{"word-parts":["familles de mots","préfixes et suffixes"]},
+"es":{"word-parts":["familias de palabras","prefijos y sufijos"]},
+"pt":{"word-parts":["família de palavras","prefixos e sufixos"]},
+"it":{"word-parts":["famiglie di parole","alterati"]},
+"nl":{"word-parts":["woordfamilie","voorvoegsels"]},
+"sv":{"word-parts":["ordfamiljer","prefix och suffix"]},
+"da":{"word-parts":["ordfamilier","forstavelser"]},
+"no":{"word-parts":["ordfamilier","prefiks og suffiks"]},
+"fi":{"word-parts":["sanaperhe","johdokset"]}}}

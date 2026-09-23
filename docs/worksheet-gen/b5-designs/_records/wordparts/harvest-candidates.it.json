@@ -1,0 +1,194 @@
+{
+ "locale": "it",
+ "market": {
+  "hl": "it",
+  "gl": "it"
+ },
+ "generatedAt": "2026-09-23T00:18:51.138Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds-wordparts.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "word-parts": {
+   "heads": [
+    "famiglie di parole",
+    "alterati"
+   ],
+   "requests": 14,
+   "productiveSeeds": 12,
+   "unique": 50,
+   "suggestions": [
+    "alterati",
+    "alterati classe terza",
+    "alterati di carta",
+    "alterati di fiore",
+    "alterati e derivati",
+    "alterati e falsi alterati",
+    "alterati in chiave",
+    "alterati nomi",
+    "alterati scuola primaria",
+    "alterati significato",
+    "alterati sinonimo",
+    "alterations near me",
+    "esercizi sulle famiglie di parole classe seconda",
+    "falsi alterati classe terza",
+    "falsi alterati classe terza primaria",
+    "falsi alterati scuola primaria",
+    "famiglie allargate di parole classe terza primaria",
+    "famiglie di parole",
+    "famiglie di parole acqua",
+    "famiglie di parole classe seconda",
+    "famiglie di parole classe seconda maestra mile",
+    "famiglie di parole classe seconda primaria",
+    "famiglie di parole classe terza",
+    "famiglie di parole con gelo",
+    "famiglie di parole esempi",
+    "famiglie di parole fiore",
+    "famiglie di parole gelo",
+    "famiglie di parole occhio",
+    "famiglie di parole scuola primaria",
+    "famiglie di parole scuola primaria classe seconda",
+    "famiglie di parole scuola primaria esercizi",
+    "nomi alterati classe quarta primaria",
+    "nomi alterati classe seconda",
+    "nomi alterati classe terza",
+    "nomi alterati classe terza maestra anita",
+    "nomi alterati classe terza maestra ilaria",
+    "nomi alterati classe terza maestra mile",
+    "nomi alterati classe terza primaria",
+    "nomi alterati classe terza spiegazione",
+    "nomi alterati classe terza wordwall",
+    "nomi alterati scheda didattica",
+    "nomi alterati schede da stampare",
+    "nomi alterati scuola primaria",
+    "nomi alterati scuola primaria classe quarta",
+    "nomi alterati scuola primaria classe terza",
+    "nomi alterati scuola primaria maestra mile",
+    "nomi alterati scuola primaria mappa",
+    "nomi alterati scuola primaria pdf",
+    "nomi alterati scuola primaria regola",
+    "nomi alterati scuola primaria sostegno"
+   ]
+  }
+ },
+ "suggestions": {
+  "famiglie di parole": {
+   "candidate": "word-parts",
+   "s": [
+    "famiglie di parole",
+    "famiglie di parole esempi",
+    "famiglie di parole gelo",
+    "famiglie di parole occhio",
+    "famiglie di parole con gelo",
+    "famiglie di parole fiore",
+    "famiglie di parole acqua",
+    "famiglie di parole scuola primaria",
+    "famiglie di parole classe seconda",
+    "famiglie di parole classe seconda maestra mile"
+   ]
+  },
+  "famiglie di parole scuola primaria": {
+   "candidate": "word-parts",
+   "s": [
+    "famiglie di parole scuola primaria",
+    "famiglie di parole scuola primaria classe seconda",
+    "famiglie di parole scuola primaria esercizi"
+   ]
+  },
+  "famiglie di parole classe prima": {
+   "candidate": "word-parts",
+   "s": [
+    "famiglie di parole classe seconda primaria",
+    "famiglie allargate di parole classe terza primaria"
+   ]
+  },
+  "famiglie di parole classe seconda": {
+   "candidate": "word-parts",
+   "s": [
+    "famiglie di parole classe seconda",
+    "famiglie di parole classe seconda maestra mile",
+    "famiglie di parole classe seconda primaria",
+    "esercizi sulle famiglie di parole classe seconda"
+   ]
+  },
+  "famiglie di parole classe terza": {
+   "candidate": "word-parts",
+   "s": [
+    "famiglie di parole classe terza",
+    "famiglie allargate di parole classe terza primaria"
+   ]
+  },
+  "alterati": {
+   "candidate": "word-parts",
+   "s": [
+    "alterati",
+    "alterati nomi",
+    "alterati significato",
+    "alterati e derivati",
+    "alterati di fiore",
+    "alterati e falsi alterati",
+    "alterations near me",
+    "alterati di carta",
+    "alterati sinonimo",
+    "alterati in chiave"
+   ]
+  },
+  "alterati scheda didattica": {
+   "candidate": "word-parts",
+   "s": [
+    "nomi alterati scheda didattica"
+   ]
+  },
+  "alterati da stampare": {
+   "candidate": "word-parts",
+   "s": [
+    "nomi alterati schede da stampare"
+   ]
+  },
+  "alterati scuola primaria": {
+   "candidate": "word-parts",
+   "s": [
+    "alterati scuola primaria",
+    "nomi alterati scuola primaria",
+    "falsi alterati scuola primaria",
+    "nomi alterati scuola primaria pdf",
+    "nomi alterati scuola primaria classe quarta",
+    "nomi alterati scuola primaria classe terza",
+    "nomi alterati scuola primaria maestra mile",
+    "nomi alterati scuola primaria regola",
+    "nomi alterati scuola primaria sostegno",
+    "nomi alterati scuola primaria mappa"
+   ]
+  },
+  "alterati classe prima": {
+   "candidate": "word-parts",
+   "s": [
+    "nomi alterati classe terza primaria",
+    "nomi alterati classe quarta primaria",
+    "falsi alterati classe terza primaria"
+   ]
+  },
+  "alterati classe seconda": {
+   "candidate": "word-parts",
+   "s": [
+    "nomi alterati classe seconda"
+   ]
+  },
+  "alterati classe terza": {
+   "candidate": "word-parts",
+   "s": [
+    "alterati classe terza",
+    "nomi alterati classe terza",
+    "nomi alterati classe terza maestra anita",
+    "nomi alterati classe terza primaria",
+    "falsi alterati classe terza",
+    "nomi alterati classe terza wordwall",
+    "nomi alterati classe terza maestra mile",
+    "nomi alterati classe terza maestra ilaria",
+    "falsi alterati classe terza primaria",
+    "nomi alterati classe terza spiegazione"
+   ]
+  }
+ }
+}

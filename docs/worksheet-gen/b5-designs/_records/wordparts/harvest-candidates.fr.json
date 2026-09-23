@@ -1,0 +1,224 @@
+{
+ "locale": "fr",
+ "market": {
+  "hl": "fr",
+  "gl": "fr"
+ },
+ "generatedAt": "2026-09-23T00:18:41.128Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds-wordparts.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "word-parts": {
+   "heads": [
+    "familles de mots",
+    "préfixes et suffixes"
+   ],
+   "requests": 14,
+   "productiveSeeds": 12,
+   "unique": 65,
+   "suggestions": [
+    "evaluation famille de mots cp",
+    "evaluation prefixe et suffixe ce1",
+    "exercice ce2 préfixe et suffixe à imprimer",
+    "exercice famille de mots cm2 à imprimer",
+    "exercices préfixes et suffixes ce1/ce2",
+    "exercices préfixes et suffixes ce2 pdf",
+    "exercices sur les préfixes et suffixes cm2 à imprimer",
+    "famille de mots ce1 découverte",
+    "famille de mots ce1 exercices en ligne",
+    "famille de mots ce1 maitre lucas",
+    "famille de mots ce1 séquence",
+    "famille de mots ce2 découverte",
+    "famille de mots ce2 evaluation",
+    "famille de mots ce2 exercices en ligne",
+    "famille de mots ce2 maitre lucas",
+    "famille de mots ce2 séquence",
+    "famille de mots cp ce1",
+    "famille de mots cp exercices",
+    "famille de mots fiche",
+    "familles de mots",
+    "familles de mots ce1",
+    "familles de mots ce1 ce2",
+    "familles de mots ce1 exercices",
+    "familles de mots ce1 leçon",
+    "familles de mots ce1 lutin bazar",
+    "familles de mots ce1 évaluation",
+    "familles de mots ce2",
+    "familles de mots ce2 cm1",
+    "familles de mots ce2 exercices",
+    "familles de mots ce2 leçon",
+    "familles de mots ce2 pdf",
+    "familles de mots cm1",
+    "familles de mots cm2",
+    "familles de mots cp",
+    "familles de mots exemples",
+    "familles de mots exercices",
+    "familles de mots maitre lucas",
+    "familles de mots maternelle",
+    "fiche exercice les familles de mots ce2",
+    "fiche famille de mots cp",
+    "fiche familles de mots ce2",
+    "fiche préfixes et suffixes",
+    "jeu famille de mots cp",
+    "leçon familles de mots cp",
+    "leçon préfixe et suffixe ce1",
+    "préfixe et suffixe ce1 exercices",
+    "préfixe et suffixe ce1 exercices pdf",
+    "préfixe et suffixe ce2 leçon",
+    "préfixe et suffixe ce2 évaluation",
+    "préfixes et suffixes",
+    "préfixes et suffixes ce1",
+    "préfixes et suffixes ce1 ce2",
+    "préfixes et suffixes ce2",
+    "préfixes et suffixes ce2 cm1",
+    "préfixes et suffixes ce2 exercices",
+    "préfixes et suffixes cm2",
+    "préfixes et suffixes exercices",
+    "préfixes et suffixes exercices corrigés ce2",
+    "préfixes et suffixes exercices corrigés cm1",
+    "préfixes et suffixes exercices corrigés cm2",
+    "préfixes et suffixes exercices corrigés pdf",
+    "préfixes et suffixes exercices corrigés pdf cm2",
+    "préfixes et suffixes exercices pdf",
+    "séquence famille de mots cp",
+    "séquence préfixe et suffixe ce1"
+   ]
+  }
+ },
+ "suggestions": {
+  "familles de mots": {
+   "candidate": "word-parts",
+   "s": [
+    "familles de mots",
+    "familles de mots ce1",
+    "familles de mots cm1",
+    "familles de mots cp",
+    "familles de mots ce2",
+    "familles de mots cm2",
+    "familles de mots exercices",
+    "familles de mots maitre lucas",
+    "familles de mots exemples",
+    "familles de mots ce1 exercices"
+   ]
+  },
+  "familles de mots fiche": {
+   "candidate": "word-parts",
+   "s": [
+    "famille de mots fiche",
+    "fiche familles de mots ce2",
+    "fiche exercice les familles de mots ce2"
+   ]
+  },
+  "familles de mots à imprimer": {
+   "candidate": "word-parts",
+   "s": [
+    "exercice famille de mots cm2 à imprimer"
+   ]
+  },
+  "familles de mots maternelle": {
+   "candidate": "word-parts",
+   "s": [
+    "familles de mots maternelle"
+   ]
+  },
+  "familles de mots cp": {
+   "candidate": "word-parts",
+   "s": [
+    "familles de mots cp",
+    "famille de mots cp exercices",
+    "famille de mots cp ce1",
+    "leçon familles de mots cp",
+    "séquence famille de mots cp",
+    "evaluation famille de mots cp",
+    "jeu famille de mots cp",
+    "fiche famille de mots cp"
+   ]
+  },
+  "familles de mots ce1": {
+   "candidate": "word-parts",
+   "s": [
+    "familles de mots ce1",
+    "familles de mots ce1 exercices",
+    "familles de mots ce1 ce2",
+    "familles de mots ce1 leçon",
+    "familles de mots ce1 lutin bazar",
+    "familles de mots ce1 évaluation",
+    "famille de mots ce1 maitre lucas",
+    "famille de mots ce1 séquence",
+    "famille de mots ce1 découverte",
+    "famille de mots ce1 exercices en ligne"
+   ]
+  },
+  "familles de mots ce2": {
+   "candidate": "word-parts",
+   "s": [
+    "familles de mots ce2",
+    "familles de mots ce2 exercices",
+    "familles de mots ce2 cm1",
+    "familles de mots ce2 pdf",
+    "familles de mots ce2 leçon",
+    "famille de mots ce2 evaluation",
+    "famille de mots ce2 maitre lucas",
+    "famille de mots ce2 séquence",
+    "famille de mots ce2 exercices en ligne",
+    "famille de mots ce2 découverte"
+   ]
+  },
+  "préfixes et suffixes": {
+   "candidate": "word-parts",
+   "s": [
+    "préfixes et suffixes",
+    "préfixes et suffixes exercices corrigés pdf",
+    "préfixes et suffixes exercices corrigés pdf cm2",
+    "préfixes et suffixes exercices pdf",
+    "préfixes et suffixes exercices corrigés cm2",
+    "préfixes et suffixes ce1",
+    "préfixes et suffixes exercices",
+    "préfixes et suffixes exercices corrigés cm1",
+    "préfixes et suffixes cm2",
+    "préfixes et suffixes ce2"
+   ]
+  },
+  "préfixes et suffixes fiche": {
+   "candidate": "word-parts",
+   "s": [
+    "fiche préfixes et suffixes"
+   ]
+  },
+  "préfixes et suffixes à imprimer": {
+   "candidate": "word-parts",
+   "s": [
+    "exercice ce2 préfixe et suffixe à imprimer",
+    "exercices sur les préfixes et suffixes cm2 à imprimer"
+   ]
+  },
+  "préfixes et suffixes ce1": {
+   "candidate": "word-parts",
+   "s": [
+    "préfixes et suffixes ce1",
+    "préfixes et suffixes ce1 ce2",
+    "préfixe et suffixe ce1 exercices pdf",
+    "préfixe et suffixe ce1 exercices",
+    "exercices préfixes et suffixes ce1/ce2",
+    "evaluation prefixe et suffixe ce1",
+    "leçon préfixe et suffixe ce1",
+    "séquence préfixe et suffixe ce1"
+   ]
+  },
+  "préfixes et suffixes ce2": {
+   "candidate": "word-parts",
+   "s": [
+    "préfixes et suffixes ce2",
+    "préfixes et suffixes ce2 exercices",
+    "préfixes et suffixes ce2 cm1",
+    "préfixe et suffixe ce2 leçon",
+    "préfixe et suffixe ce2 évaluation",
+    "exercices préfixes et suffixes ce2 pdf",
+    "préfixes et suffixes ce1 ce2",
+    "préfixes et suffixes exercices corrigés ce2"
+   ]
+  }
+ }
+}

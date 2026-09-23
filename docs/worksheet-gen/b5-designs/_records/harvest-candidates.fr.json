@@ -1,0 +1,2634 @@
+{
+ "locale": "fr",
+ "market": {
+  "hl": "fr",
+  "gl": "fr"
+ },
+ "generatedAt": "2026-09-23T00:09:48.962Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds.json",
+ "requestCount": 168,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "plants": {
+   "heads": [
+    "les parties de la plante",
+    "cycle de vie d'une plante"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 26,
+   "suggestions": [
+    "cycle de vie d une plante ce1",
+    "cycle de vie d une plante ce2 evaluation",
+    "cycle de vie d une plante cm1",
+    "cycle de vie d une plante cm2",
+    "cycle de vie d une plante cp",
+    "cycle de vie d une plante pdf",
+    "cycle de vie d une plante à fleur 6eme",
+    "cycle de vie d une plante à fleur ce2",
+    "cycle de vie d'une plante",
+    "cycle de vie d'une plante 6eme",
+    "cycle de vie d'une plante ce2",
+    "cycle de vie d'une plante cycle 2",
+    "cycle de vie d'une plante maternelle",
+    "cycle de vie d'une plante à fleurs",
+    "exercice cycle de vie d une plante ce2",
+    "les grandes parties de la plante",
+    "les parties de la plante",
+    "les parties de la plante ce1",
+    "les parties de la plante ce2",
+    "les parties de la plante cp",
+    "les parties de la plante des pieds",
+    "les parties de la plante en anglais",
+    "les parties de la plante et ses fonctions",
+    "les parties de la plante maternelle",
+    "les parties de la plante pdf",
+    "séquence cycle de vie d une plante ce2"
+   ]
+  },
+  "life-cycles": {
+   "heads": [
+    "cycle de vie du papillon",
+    "cycle de vie de la grenouille"
+   ],
+   "requests": 14,
+   "productiveSeeds": 12,
+   "unique": 27,
+   "suggestions": [
+    "cycle de vie chenille papillon maternelle",
+    "cycle de vie de la grenouille",
+    "cycle de vie de la grenouille au cours des saisons",
+    "cycle de vie de la grenouille ce1",
+    "cycle de vie de la grenouille ce2",
+    "cycle de vie de la grenouille cm1",
+    "cycle de vie de la grenouille cp",
+    "cycle de vie de la grenouille exercice",
+    "cycle de vie de la grenouille maternelle",
+    "cycle de vie de la grenouille pdf",
+    "cycle de vie de la grenouille svt 6eme",
+    "cycle de vie du papillon",
+    "cycle de vie du papillon belle dame",
+    "cycle de vie du papillon ce1",
+    "cycle de vie du papillon ce2",
+    "cycle de vie du papillon cp",
+    "cycle de vie du papillon cp ce1",
+    "cycle de vie du papillon cycle 2",
+    "cycle de vie du papillon du palmier",
+    "cycle de vie du papillon evaluation ce2",
+    "cycle de vie du papillon machaon",
+    "cycle de vie du papillon maternelle",
+    "cycle de vie du papillon maternelle pdf",
+    "cycle de vie du papillon monarque",
+    "cycle de vie du papillon à imprimer",
+    "fiche cycle de vie du papillon",
+    "fiche cycle de vie du papillon maternelle"
+   ]
+  },
+  "materials": {
+   "heads": [
+    "les matériaux",
+    "objets magnétiques"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 24,
+   "suggestions": [
+    "les différents matériaux maternelle",
+    "les fiches matériels",
+    "les matières ce1",
+    "les matières ce2",
+    "les matières cp",
+    "les matières du ce1d",
+    "les matières maternelle",
+    "les matériaux",
+    "les matériaux ce1",
+    "les matériaux ce2",
+    "les matériaux cmpm",
+    "les matériaux cp",
+    "les matériaux de construction",
+    "les matériaux de construction en génie civil",
+    "les matériaux de l'environnement",
+    "les matériaux de l'ouest",
+    "les matériaux de la cité",
+    "les matériaux de plomberie",
+    "les matériaux maternelle",
+    "les matériaux nouveaux docks",
+    "les matériaux pagot savoie",
+    "les métaux ce2",
+    "objets magnétiques",
+    "trier les matières maternelle"
+   ]
+  },
+  "space": {
+   "heads": [
+    "le système solaire",
+    "les phases de la lune"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 67,
+   "suggestions": [
+    "apprendre le système solaire enfants",
+    "cycle de la lune ce2",
+    "evaluation ce2 les phases de la lune",
+    "exercice sur le système solaire cm2 à imprimer",
+    "expliquer le système solaire maternelle",
+    "expliquer les phases de la lune en maternelle",
+    "fiche documentaire sur le système solaire",
+    "la terre dans le système solaire ce1",
+    "la terre dans le système solaire ce1 ce2",
+    "le systeme solaire livre enfant",
+    "le systeme solaire pour les maternelles",
+    "le système solaire",
+    "le système solaire c'est pas sorcier",
+    "le système solaire ce1",
+    "le système solaire ce1 ce2",
+    "le système solaire ce1 leçon",
+    "le système solaire ce1 pdf",
+    "le système solaire ce1 séquence",
+    "le système solaire ce2",
+    "le système solaire ce2 cm1",
+    "le système solaire ce2 exercices",
+    "le système solaire ce2 leçon",
+    "le système solaire ce2 maitre lucas",
+    "le système solaire ce2 pdf",
+    "le système solaire ce2 pdf évaluation",
+    "le système solaire ce2 séquence",
+    "le système solaire ce2 vidéo",
+    "le système solaire ce2 évaluation",
+    "le système solaire cm1",
+    "le système solaire cm2",
+    "le système solaire compte combien de planète",
+    "le système solaire cp",
+    "le système solaire cp ce1",
+    "le système solaire cp pdf",
+    "le système solaire enfant",
+    "le système solaire expliqué aux enfants",
+    "le système solaire fiche",
+    "le système solaire fiche cm1",
+    "le système solaire maternelle",
+    "le système solaire pdf",
+    "le système solaire pour les enfants",
+    "le système solaire video enfant",
+    "le système solaire à colorier",
+    "le système solaire à imprimer",
+    "les phases de la lune",
+    "les phases de la lune 2026",
+    "les phases de la lune 6ème",
+    "les phases de la lune ce1",
+    "les phases de la lune ce2",
+    "les phases de la lune ce2 cm1",
+    "les phases de la lune cm1",
+    "les phases de la lune cm2",
+    "les phases de la lune cp",
+    "les phases de la lune cycle 2",
+    "les phases de la lune cycle 3",
+    "les phases de la lune explication simple",
+    "les phases de la lune maitre lucas",
+    "les phases de la lune maternelle",
+    "les phases de la lune sorcellerie pdf",
+    "panneau solaire à imprimer",
+    "phase de la lune à imprimer",
+    "système solaire à imprimer en couleur",
+    "système solaire à imprimer gratuit",
+    "séquence le système solaire ce1 ce2",
+    "travailler le système solaire en maternelle",
+    "évaluation le système solaire ce1",
+    "évaluation le système solaire fiche cm1"
+   ]
+  },
+  "colors": {
+   "heads": [
+    "les couleurs",
+    "les couleurs maternelle"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 69,
+   "suggestions": [
+    "anglais les couleurs ce1 ce2",
+    "apprendre les couleurs en maternelle à imprimer",
+    "apprendre les couleurs fiche",
+    "apprendre les couleurs fiches a imprimer",
+    "apprendre les couleurs maternelle",
+    "apprendre les couleurs à imprimer",
+    "couleur maternelle à imprimer",
+    "exercices pour apprendre les couleurs à imprimer",
+    "exercices sur les couleurs à imprimer",
+    "jeux pour apprendre les couleurs à imprimer",
+    "les alphas en couleur à imprimer",
+    "les couleurs",
+    "les couleurs anglais ce1 ce2",
+    "les couleurs anglais cp ce1",
+    "les couleurs ce1",
+    "les couleurs ce1 anglais",
+    "les couleurs ce1-ce2",
+    "les couleurs ce2",
+    "les couleurs ce2 anglais",
+    "les couleurs cp",
+    "les couleurs cp anglais",
+    "les couleurs cp arts visuels",
+    "les couleurs cp ce1",
+    "les couleurs cp exercices",
+    "les couleurs cp pdf",
+    "les couleurs de l'arc en ciel",
+    "les couleurs de la terre",
+    "les couleurs du mal",
+    "les couleurs du mal blanc",
+    "les couleurs du mal noir",
+    "les couleurs du mal noir avis",
+    "les couleurs du mal rouge",
+    "les couleurs en anglais",
+    "les couleurs en anglais ce1 chanson",
+    "les couleurs en anglais ce1 pdf",
+    "les couleurs en anglais ce2 cm1",
+    "les couleurs en anglais ce2 exercices",
+    "les couleurs en anglais ce2 pdf",
+    "les couleurs en anglais exercices à imprimer",
+    "les couleurs en anglais fiche",
+    "les couleurs en anglais à imprimer",
+    "les couleurs en espagnol fiche",
+    "les couleurs en espagnol fiche pdf",
+    "les couleurs enfant",
+    "les couleurs enfant 2 ans",
+    "les couleurs enfant 3 ans",
+    "les couleurs fiche",
+    "les couleurs fiche fle",
+    "les couleurs fiche maternelle",
+    "les couleurs fiche pdf",
+    "les couleurs maternelle",
+    "les couleurs maternelle affichage",
+    "les couleurs maternelle chanson",
+    "les couleurs maternelle pdf",
+    "les couleurs maternelle ps",
+    "les couleurs primaires",
+    "les couleurs primaires ce1",
+    "les couleurs primaires ce2",
+    "les couleurs primaires en peinture",
+    "les couleurs primaires et secondaires",
+    "les couleurs primaires et secondaires et tertiaires",
+    "les couleurs primaires sont",
+    "les couleurs prise electriques",
+    "les couleurs à imprimer",
+    "les couleurs à imprimer pdf",
+    "poésie sur les couleurs ce1",
+    "poésie sur les couleurs ce2",
+    "séquence les couleurs maternelle",
+    "évaluation anglais les couleurs ce2"
+   ]
+  },
+  "2d-shapes": {
+   "heads": [
+    "les formes géométriques",
+    "les formes"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 90,
+   "suggestions": [
+    "affichage les formes géométriques cp",
+    "apprendre les formes à imprimer",
+    "fiche les formes",
+    "fiche les formes ms",
+    "fiche maternelle les formes géométriques",
+    "fiche sur les formes géométriques",
+    "fiche sur les formes géométriques gs",
+    "formes géométriques à imprimer gratuit",
+    "formes géométriques à imprimer maternelle",
+    "formes géométriques à imprimer pdf",
+    "imprimer les formes géométriques à colorier",
+    "les fiches formation",
+    "les fiches types",
+    "les figures géométriques ce1",
+    "les figures géométriques ce1 exercices",
+    "les figures géométriques ce1 leçon",
+    "les figures géométriques ce2",
+    "les figures géométriques cp",
+    "les figures planes ce1",
+    "les figures planes ce1 exercices",
+    "les figures planes ce1 leçon",
+    "les formes",
+    "les formes ce1",
+    "les formes ce2",
+    "les formes cp",
+    "les formes d'intelligence",
+    "les formes de phrases",
+    "les formes de phrases ce2",
+    "les formes de phrases ce2 cm1",
+    "les formes de phrases ce2 evaluation",
+    "les formes de phrases ce2 exercices",
+    "les formes de phrases ce2 exercices pdf",
+    "les formes de phrases ce2 leçon",
+    "les formes de phrases ce2 nouveaux programmes",
+    "les formes de phrases cm1 exercices à imprimer",
+    "les formes de phrases cm2 exercices à imprimer",
+    "les formes de phrases exercices",
+    "les formes de phrases fiche pédagogique",
+    "les formes de pieds",
+    "les formes des ongles",
+    "les formes en anglais ce2",
+    "les formes fiche maternelle",
+    "les formes gs fiche",
+    "les formes géométriques",
+    "les formes géométriques 3d",
+    "les formes géométriques ce1",
+    "les formes géométriques ce1 exercices",
+    "les formes géométriques ce1 pdf",
+    "les formes géométriques ce2",
+    "les formes géométriques cp",
+    "les formes géométriques cp ce1",
+    "les formes géométriques cp exercices",
+    "les formes géométriques cp leçon",
+    "les formes géométriques cp maitre lucas",
+    "les formes géométriques cp pdf",
+    "les formes géométriques en maternelle gs",
+    "les formes géométriques en maternelle petite section",
+    "les formes géométriques en maternelle petite section pdf",
+    "les formes géométriques et leur nom pdf",
+    "les formes géométriques et leurs noms",
+    "les formes géométriques exercices ce2",
+    "les formes géométriques maternelle",
+    "les formes géométriques maternelle affichage",
+    "les formes géométriques maternelle chanson",
+    "les formes géométriques maternelle cycle 1",
+    "les formes géométriques maternelle pdf",
+    "les formes géométriques pdf",
+    "les formes géométriques à imprimer",
+    "les formes indeterminées des limites",
+    "les formes indéterminées",
+    "les formes juridiques des entreprises",
+    "les formes maternelle",
+    "les formes maternelle pdf",
+    "les formes maternelle ps",
+    "les formes maternelle à imprimer",
+    "les formes planes ce1",
+    "les formes à imprimer",
+    "les polygones ce1",
+    "les polygones ce1 ce2",
+    "les polygones ce1 exercices",
+    "les polygones ce1 exercices pdf",
+    "les polygones ce1 leçon",
+    "les polygones ce1 maitre lucas",
+    "les types de fiche de lecture",
+    "reconnaitre les figures géométriques ce2",
+    "reconnaitre les formes géométriques ce1",
+    "reconnaitre les formes géométriques cp",
+    "reconnaitre les formes géométriques maternelle",
+    "tracer les formes géométriques maternelle",
+    "évaluation les formes géométriques cp"
+   ]
+  },
+  "digraphs": {
+   "heads": [
+    "les sons complexes",
+    "son ou"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 74,
+   "suggestions": [
+    "apprendre les sons complexes cp",
+    "coloriage magique son ou cp",
+    "comptine son ou maternelle",
+    "dictée son ou ce1",
+    "exercice son ou ce2",
+    "exercices sur les sons complexes ce1",
+    "fiche son ou bout de gomme",
+    "fiche son ou ce1",
+    "fiche son ou ce2",
+    "fiche son ou cp",
+    "fiche son ou gs",
+    "fiche son ou maternelle",
+    "fiche sur les sons complexes",
+    "jeu sur les sons complexes ce1",
+    "jeu sur les sons complexes cp",
+    "lecture son ou ce1",
+    "les sons complexes",
+    "les sons complexes ce1",
+    "les sons complexes ce1 pdf",
+    "les sons complexes ce2",
+    "les sons complexes ce2 exercices",
+    "les sons complexes cp",
+    "les sons complexes cp exercices",
+    "les sons complexes cp pdf",
+    "les sons complexes en couleur",
+    "les sons complexes en couleur cp",
+    "les sons complexes en français",
+    "les sons complexes exercices pdf",
+    "les sons complexes liste",
+    "les sons complexes pdf",
+    "les sons complexes à imprimer",
+    "revoir les sons complexes ce1",
+    "revoir les sons complexes ce2",
+    "réviser les sons complexes ce1",
+    "son ce1 bout de gomme",
+    "son ce1 ipotame",
+    "son ce1 lutin bazar",
+    "son ce2 lutin bazar",
+    "son ce2 mais que fait la maitresse",
+    "son cp bout de gomme",
+    "son cp coccinelle",
+    "son cp ill",
+    "son cp ipotame",
+    "son gohan à imprimer",
+    "son goku à imprimer",
+    "son maternelle grande section",
+    "son ou",
+    "son ou ce1",
+    "son ou ce1 exercices",
+    "son ou ce2",
+    "son ou cp",
+    "son ou cp exercices",
+    "son ou cp lecture",
+    "son ou fiche",
+    "son ou fiche cp",
+    "son ou flocon d'avoine",
+    "son ou maternelle",
+    "son ou phonétique",
+    "son ou sa",
+    "son ou song",
+    "son ou sont",
+    "son ou sont ce1",
+    "son ou sont ce2",
+    "son ou sont ce2 exercices",
+    "son ou sont evaluation ce2",
+    "son ou sont exercices",
+    "son ouaouaron",
+    "son oumou sangare",
+    "son ours",
+    "son à imprimer",
+    "texte son ou ce1",
+    "texte son ou cp",
+    "travailler les sons complexes cp",
+    "travailler les sons complexes en ce1"
+   ]
+  },
+  "synonyms": {
+   "heads": [
+    "les synonymes",
+    "synonymes"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 107,
+   "suggestions": [
+    "definition cp",
+    "definition cpa",
+    "definition cpam",
+    "definition cpc",
+    "definition cpe",
+    "definition cpf",
+    "definition cpt",
+    "definition fiche de paie",
+    "definition fiche de poste",
+    "definition fiche s",
+    "definition fiche technique",
+    "definition maternelle",
+    "exercices sur les synonymes ce2 à imprimer",
+    "exercices sur les synonymes cm2 à imprimer",
+    "exercices synonymes ce1 à imprimer",
+    "exercices synonymes cm1 à imprimer",
+    "exercices synonymes cm2 à imprimer",
+    "exercices synonymes à imprimer",
+    "fiche les synonymes ce1",
+    "fiche les synonymes ce2",
+    "fiche les synonymes cm1",
+    "fiche synonymes ce1",
+    "fiche synonymes ce2",
+    "jeu des synonymes à imprimer",
+    "jeu synonymes maternelle",
+    "jeux sur les synonymes à imprimer",
+    "les fiches definition",
+    "les maternelles definition",
+    "les synonymes",
+    "les synonymes ce1",
+    "les synonymes ce1 bout de gomme",
+    "les synonymes ce1 ce2",
+    "les synonymes ce1 ce2 exercices",
+    "les synonymes ce1 exercices",
+    "les synonymes ce1 exercices pdf",
+    "les synonymes ce1 leçon",
+    "les synonymes ce1 lutin bazar",
+    "les synonymes ce1 maitre lucas",
+    "les synonymes ce1 pdf",
+    "les synonymes ce1 séquence",
+    "les synonymes ce2",
+    "les synonymes ce2 cm1",
+    "les synonymes ce2 evaluation",
+    "les synonymes ce2 exercices",
+    "les synonymes ce2 exercices pdf",
+    "les synonymes ce2 leçon",
+    "les synonymes ce2 leçon pdf",
+    "les synonymes ce2 maitre lucas",
+    "les synonymes ce2 pdf",
+    "les synonymes ce2 séquence",
+    "les synonymes cm1",
+    "les synonymes cp",
+    "les synonymes cp ce1",
+    "les synonymes cp exercices",
+    "les synonymes des mots",
+    "les synonymes des mots en français",
+    "les synonymes et les antonymes",
+    "les synonymes exercices",
+    "les synonymes exercices pdf corrigé",
+    "les synonymes fiche",
+    "les synonymes fiche de préparation",
+    "les synonymes maternelle",
+    "leçon les synonymes cp",
+    "synonyme fiche de paie",
+    "synonyme fiche de poste",
+    "synonyme fiche technique",
+    "synonymes",
+    "synonymes anglais",
+    "synonymes caen",
+    "synonymes ce1",
+    "synonymes ce1 bout de gomme",
+    "synonymes ce1 ce2",
+    "synonymes ce1 evaluation",
+    "synonymes ce1 exercices",
+    "synonymes ce1 exercices pdf",
+    "synonymes ce1 leçon",
+    "synonymes ce1 lutin bazar",
+    "synonymes ce1 maitre lucas",
+    "synonymes ce1 pdf",
+    "synonymes ce2",
+    "synonymes ce2 cm1",
+    "synonymes ce2 evaluation",
+    "synonymes ce2 exercices",
+    "synonymes ce2 exercices en ligne",
+    "synonymes ce2 exercices pdf",
+    "synonymes ce2 leçon",
+    "synonymes ce2 lutin bazar",
+    "synonymes ce2 pdf",
+    "synonymes ce2 séquence",
+    "synonymes cp",
+    "synonymes cp ce1",
+    "synonymes cp exercices",
+    "synonymes crisco",
+    "synonymes de bienveillance",
+    "synonymes de désabonnement",
+    "synonymes de langue maternelle",
+    "synonymes de pour",
+    "synonymes de pragmatique",
+    "synonymes des mots",
+    "synonymes dictionnaire",
+    "synonymes fiche",
+    "synonymes imprimer",
+    "synonymes imprimerie",
+    "synonymes maternelle",
+    "séquence les synonymes cp",
+    "train des synonymes maternelle",
+    "trouver des synonymes maternelle"
+   ]
+  },
+  "homophones": {
+   "heads": [
+    "homophones a à",
+    "homophones grammaticaux"
+   ],
+   "requests": 14,
+   "productiveSeeds": 12,
+   "unique": 66,
+   "suggestions": [
+    "evaluation homophones a à ce1",
+    "exercices ce2 homophones grammaticaux a à à imprimer",
+    "exercices homophones a à ce2 pdf",
+    "exercices homophones grammaticaux ce1 ce2",
+    "exercices homophones grammaticaux ce2 à imprimer",
+    "exercices homophones grammaticaux cm2 à imprimer",
+    "exercices homophones grammaticaux à imprimer",
+    "fiche homophones grammaticaux cm1",
+    "fiche homophones grammaticaux cm2",
+    "fiche homophones grammaticaux pdf",
+    "homonyme a à ce1",
+    "homonyme a à ce2",
+    "homonymes grammaticaux ce1",
+    "homophones a à",
+    "homophones a à as cm2",
+    "homophones a à as exercices à imprimer",
+    "homophones a à ce1",
+    "homophones a à ce1 exercices",
+    "homophones a à ce2",
+    "homophones a à ce2 exercices",
+    "homophones a à ce2 lutin bazar",
+    "homophones a à cm1",
+    "homophones a à et est",
+    "homophones a à et est son sont on ont",
+    "homophones a à exercices",
+    "homophones ce1 ce2",
+    "homophones ce1 lutin bazar",
+    "homophones ce2 cm1",
+    "homophones ce2 et est",
+    "homophones cp",
+    "homophones fiche",
+    "homophones grammaticaux",
+    "homophones grammaticaux a à ce1",
+    "homophones grammaticaux a à ce2",
+    "homophones grammaticaux ce1",
+    "homophones grammaticaux ce1 ce2",
+    "homophones grammaticaux ce1 exercices",
+    "homophones grammaticaux ce1 leçon",
+    "homophones grammaticaux ce2",
+    "homophones grammaticaux ce2 affichage",
+    "homophones grammaticaux ce2 cm1",
+    "homophones grammaticaux ce2 evaluation",
+    "homophones grammaticaux ce2 exercices",
+    "homophones grammaticaux ce2 exercices en ligne",
+    "homophones grammaticaux ce2 leçon",
+    "homophones grammaticaux ce2 lutin bazar",
+    "homophones grammaticaux ce2 nouveaux programmes",
+    "homophones grammaticaux ce2 programme",
+    "homophones grammaticaux cm",
+    "homophones grammaticaux cm1",
+    "homophones grammaticaux cm2",
+    "homophones grammaticaux exercices",
+    "homophones grammaticaux fiche",
+    "homophones grammaticaux nouveaux programmes",
+    "homophones grammaticaux pdf",
+    "homophones grammaticaux programmes 2025",
+    "homophones maternelle",
+    "homophones à imprimer",
+    "les homophones grammaticaux 6eme exercices à imprimer",
+    "les homophones grammaticaux fiche de préparation cm2",
+    "leçon homophone a à ce1",
+    "leçon homophones a à ce2",
+    "séquence homophones grammaticaux ce1",
+    "évaluation ce1 homophones a à et est",
+    "évaluation homophones a à ce2",
+    "évaluation homophones grammaticaux ce1"
+   ]
+  },
+  "road-safety": {
+   "heads": [
+    "sécurité routière",
+    "panneaux de signalisation"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 89,
+   "suggestions": [
+    "coloriage panneaux de signalisation à imprimer",
+    "dessin de panneau de signalisation à imprimer",
+    "emc la sécurité routière ce2",
+    "emc sécurité routière ce1",
+    "exercice panneaux de signalisation ce2",
+    "exercice sécurité routière ce2",
+    "exercices sur les panneaux de signalisation à imprimer",
+    "fiche panneaux de signalisation",
+    "fiche panneaux de signalisation cycle 3",
+    "fiche panneaux de signalisation routière",
+    "fiche sécurité routière",
+    "fiches pédagogiques jeux sur la sécurité routière à imprimer",
+    "images panneaux de signalisation à imprimer",
+    "jeu sécurité routière à imprimer",
+    "jeux sur la sécurité routière à imprimer maternelle",
+    "panneau de circulation à imprimer",
+    "panneau de signalisation fiche technique",
+    "panneau sécurité routière à imprimer",
+    "panneaux de signalisation",
+    "panneaux de signalisation ce1",
+    "panneaux de signalisation ce2",
+    "panneaux de signalisation cp",
+    "panneaux de signalisation maroc pdf",
+    "panneaux de signalisation maternelle",
+    "panneaux de signalisation routière",
+    "panneaux de signalisation routière en cote d ivoire pdf",
+    "panneaux de signalisation routière et leur signification",
+    "panneaux de signalisation routière et leur signification au maroc",
+    "panneaux de signalisation routière et leur signification belgique",
+    "panneaux de signalisation routière et leur signification pdf",
+    "panneaux de signalisation routière et leur signification pdf belgique",
+    "panneaux de signalisation routière gratuit",
+    "panneaux de signalisation routière maternelle",
+    "panneaux de signalisation routière vélo",
+    "panneaux de signalisation routière à imprimer",
+    "panneaux de signalisation suedois",
+    "panneaux de signalisation suisse pdf",
+    "panneaux de signalisation à imprimer",
+    "panneaux de signalisation à imprimer gratuit",
+    "panneaux de signalisation à imprimer pdf",
+    "panneaux de signalisation à télécharger gratuitement pdf",
+    "panneaux routiers ce1",
+    "panneaux routiers ce2",
+    "panneaux routiers panneau de signalisation à imprimer gratuit",
+    "piéton jeux sur la sécurité routière à imprimer",
+    "prévention routière ce1",
+    "prévention routière ce2",
+    "prévention routière cp",
+    "prévention routière maternelle",
+    "quiz sécurité routière à imprimer",
+    "securite routiere enfant 10 ans",
+    "securite routiere enfant devant",
+    "securite routiere enfant siege auto",
+    "stage sensibilisation sécurité routière cpf",
+    "stage sécurité routière cpf",
+    "sécurité domestique maternelle",
+    "sécurité routière",
+    "sécurité routière ce1",
+    "sécurité routière ce1 ce2",
+    "sécurité routière ce2",
+    "sécurité routière ce2 cm1",
+    "sécurité routière ce2 pdf",
+    "sécurité routière connexion",
+    "sécurité routière cp",
+    "sécurité routière cp ce1",
+    "sécurité routière cycle 2",
+    "sécurité routière cycle 2 fiches pédagogiques",
+    "sécurité routière cycle 3 fiches pédagogiques",
+    "sécurité routière en france",
+    "sécurité routière enfant",
+    "sécurité routière enfant à pied",
+    "sécurité routière gouv",
+    "sécurité routière gouv fr",
+    "sécurité routière gouv fr résultat permis",
+    "sécurité routière gs cp",
+    "sécurité routière maternelle",
+    "sécurité routière maternelle activités",
+    "sécurité routière maternelle fiche",
+    "sécurité routière permis",
+    "sécurité routière permis piéton ce2",
+    "sécurité routière rdv permis",
+    "sécurité routière résultat permis",
+    "sécurité routière sanléane dossier a fiches 1 et 2",
+    "sécurité routière vivre ensemble",
+    "sécurité routière vélo ce1",
+    "séquence sécurité routière cp",
+    "vidéo sécurité routière cp",
+    "évaluation sécurité routière ce1",
+    "évaluation sécurité routière ce2"
+   ]
+  },
+  "maps": {
+   "heads": [
+    "les continents",
+    "se repérer sur un plan"
+   ],
+   "requests": 14,
+   "productiveSeeds": 11,
+   "unique": 83,
+   "suggestions": [
+    "activité sur les continents cp",
+    "activité sur les continents maternelle",
+    "apprendre les continents ce1",
+    "apprendre les continents ce2",
+    "apprendre les continents cp",
+    "chanson les continents maternelle",
+    "evaluation les continents ce1",
+    "fiche les continents",
+    "les 5 continents ce1",
+    "les 5 continents cp",
+    "les 5 continents ecole maternelle",
+    "les 5 continents maternelle",
+    "les continents",
+    "les continents africains",
+    "les continents carte",
+    "les continents carte du monde",
+    "les continents carte vierge",
+    "les continents ce1",
+    "les continents ce1 ce2",
+    "les continents ce1 lutin bazar",
+    "les continents ce1 pdf",
+    "les continents ce2",
+    "les continents ce2 cm1",
+    "les continents ce2 evaluation",
+    "les continents ce2 lutin bazar",
+    "les continents ce2 pdf",
+    "les continents cp",
+    "les continents cp ce1",
+    "les continents cycle 2",
+    "les continents de la terre",
+    "les continents du monde",
+    "les continents du monde et leurs pays",
+    "les continents du monde et leurs pays pdf",
+    "les continents du monde maternelle",
+    "les continents et les océans",
+    "les continents et les océans cp",
+    "les continents et les océans pdf",
+    "les continents les plus grands du monde",
+    "les continents maternelle",
+    "les continents restaurant",
+    "les continents à colorier",
+    "les continents à imprimer",
+    "les regions ce2",
+    "leçon les continents ce2",
+    "poésie les continents ce1",
+    "projet les 5 continents maternelle",
+    "projet les continents en maternelle",
+    "qlm les continents ce1",
+    "repérage sur un plan cp",
+    "se repérer sur un plan",
+    "se repérer sur un plan ce1",
+    "se repérer sur un plan ce1 ce2",
+    "se repérer sur un plan ce1 exercices",
+    "se repérer sur un plan ce1 exercices pdf",
+    "se repérer sur un plan ce1 leçon",
+    "se repérer sur un plan ce1 pdf",
+    "se repérer sur un plan ce1 évaluation",
+    "se repérer sur un plan ce2",
+    "se repérer sur un plan ce2 bout de gomme",
+    "se repérer sur un plan ce2 cm1",
+    "se repérer sur un plan ce2 evaluation",
+    "se repérer sur un plan ce2 exercices",
+    "se repérer sur un plan ce2 exercices pdf",
+    "se repérer sur un plan ce2 géométrie",
+    "se repérer sur un plan ce2 leçon",
+    "se repérer sur un plan ce2 maitre lucas",
+    "se repérer sur un plan ce2 pdf",
+    "se repérer sur un plan cm1",
+    "se repérer sur un plan cm1 exercices",
+    "se repérer sur un plan cm2",
+    "se repérer sur un plan cp",
+    "se repérer sur un plan cp ce1",
+    "se repérer sur un plan de classe cp",
+    "se repérer sur un plan maitre lucas",
+    "se repérer sur un planisphère",
+    "se repérer sur une carte cp",
+    "se repérer sur une carte cp ce1",
+    "se situer sur un plan ce1",
+    "séquence se repérer sur un plan ce1",
+    "thème les 5 continents maternelle",
+    "thème les continents maternelle",
+    "vidéo les continents ce2",
+    "évaluation se repérer sur un plan cp"
+   ]
+  },
+  "family": {
+   "heads": [
+    "la famille",
+    "arbre généalogique"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 125,
+   "suggestions": [
+    "anglais la famille ce1 ce2",
+    "anglais la famille ce2 cm1",
+    "arbre généalogique",
+    "arbre généalogique anglais ce2",
+    "arbre généalogique ce1",
+    "arbre généalogique ce1 ce2",
+    "arbre généalogique ce1 exercice",
+    "arbre généalogique ce1 vierge",
+    "arbre généalogique ce1 évaluation",
+    "arbre généalogique ce2",
+    "arbre généalogique ce2 pdf",
+    "arbre généalogique cp",
+    "arbre généalogique cp ce1",
+    "arbre généalogique cp pdf",
+    "arbre généalogique côté maternelle",
+    "arbre généalogique dutton",
+    "arbre généalogique famille",
+    "arbre généalogique famille de gaulle",
+    "arbre généalogique famille maternelle",
+    "arbre généalogique famille royale suède",
+    "arbre généalogique fiche",
+    "arbre généalogique fiche pédagogique",
+    "arbre généalogique gratuit",
+    "arbre généalogique gs cp",
+    "arbre généalogique house of the dragon",
+    "arbre généalogique maternelle",
+    "arbre généalogique maternelle à imprimer",
+    "arbre généalogique mythologie grecque",
+    "arbre généalogique targaryen",
+    "arbre généalogique vierge cp",
+    "arbre généalogique à imprimer",
+    "arbre généalogique à imprimer 10 générations",
+    "arbre généalogique à imprimer a3",
+    "arbre généalogique à imprimer a4",
+    "arbre généalogique à imprimer avec photos",
+    "arbre généalogique à imprimer gratuit",
+    "arbre généalogique à imprimer pdf",
+    "arbre généalogique à imprimer pdf gratuit",
+    "arbre généalogique à imprimer pour enfant",
+    "arbre généalogique à imprimer vierge",
+    "arbre généalogique à remplir",
+    "chanson la famille maternelle",
+    "chanson sur la famille à imprimer",
+    "complète l arbre généalogique fiche à imprimer cp",
+    "comptine la famille tortue à imprimer",
+    "dictée la famille ce2",
+    "evar la famille cp",
+    "exercice arbre généalogique ce2",
+    "exercice arbre généalogique cp",
+    "exercice d anglais sur la famille à imprimer",
+    "fiche arbre généalogique ce1",
+    "l'arbre de la famille à imprimer",
+    "la famille",
+    "la famille 70 cp",
+    "la famille 80 cp",
+    "la famille addams",
+    "la famille anglais cp",
+    "la famille bélier",
+    "la famille bélier fiche pédagogique fle",
+    "la famille ce1",
+    "la famille ce1 anglais",
+    "la famille ce2",
+    "la famille ce2 anglais",
+    "la famille coloriage maternelle",
+    "la famille cp",
+    "la famille cp ce1",
+    "la famille de 10 cp",
+    "la famille de la jungle",
+    "la famille des aliments ce1",
+    "la famille des aliments ce2",
+    "la famille des alphas cp",
+    "la famille des alphas à imprimer",
+    "la famille des mots ce1",
+    "la famille des mots ce2",
+    "la famille des mots ce2 evaluation",
+    "la famille des mots ce2 exercices",
+    "la famille fiche",
+    "la famille fiche fle",
+    "la famille fiche maternelle",
+    "la famille fiche pedagogique fle",
+    "la famille fiche pédagogique",
+    "la famille fiche pédagogique pdf",
+    "la famille groulx",
+    "la famille indienne",
+    "la famille maternelle",
+    "la famille maternelle en arabe",
+    "la famille maternelle et paternelle",
+    "la famille maternelle moyenne section",
+    "la famille maternelle pdf",
+    "la famille pierrafeu",
+    "la famille pirate",
+    "la famille royale ce1",
+    "la famille royale ce2",
+    "la famille tortue",
+    "la famille tortue maternelle",
+    "la famille tortue paroles à imprimer",
+    "la famille ventura",
+    "la famille à imprimer",
+    "la fiche familiale",
+    "la fiche familiale de l état civil",
+    "la fiche familiale en arabe",
+    "les règles de la famille à imprimer",
+    "leçon arbre généalogique ce1",
+    "leçon arbre généalogique ce2",
+    "leçon arbre généalogique cp",
+    "ministère de la famille cpe",
+    "ministère de la famille cpe échelle salariale",
+    "mon arbre généalogique ce1",
+    "mon arbre généalogique ce2",
+    "poésie la famille ce1",
+    "poésie sur la famille ce2",
+    "projet arbre généalogique en maternelle",
+    "séquence arbre généalogique ce1",
+    "séquence arbre généalogique ce2",
+    "séquence arbre généalogique cp",
+    "tableau des responsabilités de la famille à imprimer gratuitement",
+    "texte sur la famille ce1",
+    "theme la famille maternelle",
+    "video arbre genealogique ce1",
+    "vidéo arbre généalogique cp",
+    "vocabulaire la famille ce1",
+    "vocabulaire la famille cp",
+    "vocabulaire la famille maternelle",
+    "évaluation arbre généalogique ce2",
+    "évaluation arbre généalogique cp"
+   ]
+  }
+ },
+ "suggestions": {
+  "les parties de la plante": {
+   "candidate": "plants",
+   "s": [
+    "les parties de la plante",
+    "les parties de la plante des pieds",
+    "les parties de la plante pdf",
+    "les parties de la plante ce1",
+    "les parties de la plante et ses fonctions",
+    "les parties de la plante en anglais",
+    "les parties de la plante maternelle",
+    "les parties de la plante cp",
+    "les parties de la plante ce2",
+    "les grandes parties de la plante"
+   ]
+  },
+  "les parties de la plante maternelle": {
+   "candidate": "plants",
+   "s": [
+    "les parties de la plante maternelle"
+   ]
+  },
+  "les parties de la plante cp": {
+   "candidate": "plants",
+   "s": [
+    "les parties de la plante cp"
+   ]
+  },
+  "les parties de la plante ce1": {
+   "candidate": "plants",
+   "s": [
+    "les parties de la plante ce1"
+   ]
+  },
+  "les parties de la plante ce2": {
+   "candidate": "plants",
+   "s": [
+    "les parties de la plante ce2"
+   ]
+  },
+  "cycle de vie d'une plante": {
+   "candidate": "plants",
+   "s": [
+    "cycle de vie d'une plante",
+    "cycle de vie d'une plante ce2",
+    "cycle de vie d'une plante à fleurs",
+    "cycle de vie d'une plante maternelle",
+    "cycle de vie d'une plante 6eme",
+    "cycle de vie d une plante à fleur 6eme",
+    "cycle de vie d une plante pdf",
+    "cycle de vie d une plante ce1",
+    "cycle de vie d une plante cm1",
+    "cycle de vie d une plante cm2"
+   ]
+  },
+  "cycle de vie d'une plante maternelle": {
+   "candidate": "plants",
+   "s": [
+    "cycle de vie d'une plante maternelle"
+   ]
+  },
+  "cycle de vie d'une plante cp": {
+   "candidate": "plants",
+   "s": [
+    "cycle de vie d une plante cp",
+    "cycle de vie d'une plante cycle 2"
+   ]
+  },
+  "cycle de vie d'une plante ce1": {
+   "candidate": "plants",
+   "s": [
+    "cycle de vie d une plante ce1"
+   ]
+  },
+  "cycle de vie d'une plante ce2": {
+   "candidate": "plants",
+   "s": [
+    "cycle de vie d'une plante ce2",
+    "cycle de vie d une plante ce2 evaluation",
+    "exercice cycle de vie d une plante ce2",
+    "séquence cycle de vie d une plante ce2",
+    "cycle de vie d une plante à fleur ce2"
+   ]
+  },
+  "cycle de vie du papillon": {
+   "candidate": "life-cycles",
+   "s": [
+    "cycle de vie du papillon",
+    "cycle de vie du papillon maternelle",
+    "cycle de vie du papillon monarque",
+    "cycle de vie du papillon cycle 2",
+    "cycle de vie du papillon ce1",
+    "cycle de vie du papillon machaon",
+    "cycle de vie du papillon du palmier",
+    "cycle de vie du papillon ce2",
+    "cycle de vie du papillon belle dame",
+    "cycle de vie du papillon cp"
+   ]
+  },
+  "cycle de vie du papillon fiche": {
+   "candidate": "life-cycles",
+   "s": [
+    "fiche cycle de vie du papillon maternelle",
+    "fiche cycle de vie du papillon"
+   ]
+  },
+  "cycle de vie du papillon à imprimer": {
+   "candidate": "life-cycles",
+   "s": [
+    "cycle de vie du papillon à imprimer"
+   ]
+  },
+  "cycle de vie du papillon maternelle": {
+   "candidate": "life-cycles",
+   "s": [
+    "cycle de vie du papillon maternelle",
+    "cycle de vie du papillon maternelle pdf",
+    "fiche cycle de vie du papillon maternelle",
+    "cycle de vie chenille papillon maternelle"
+   ]
+  },
+  "cycle de vie du papillon cp": {
+   "candidate": "life-cycles",
+   "s": [
+    "cycle de vie du papillon cp",
+    "cycle de vie du papillon cp ce1",
+    "cycle de vie du papillon cycle 2"
+   ]
+  },
+  "cycle de vie du papillon ce1": {
+   "candidate": "life-cycles",
+   "s": [
+    "cycle de vie du papillon ce1",
+    "cycle de vie du papillon cp ce1"
+   ]
+  },
+  "cycle de vie du papillon ce2": {
+   "candidate": "life-cycles",
+   "s": [
+    "cycle de vie du papillon ce2",
+    "cycle de vie du papillon evaluation ce2"
+   ]
+  },
+  "cycle de vie de la grenouille": {
+   "candidate": "life-cycles",
+   "s": [
+    "cycle de vie de la grenouille",
+    "cycle de vie de la grenouille maternelle",
+    "cycle de vie de la grenouille ce1",
+    "cycle de vie de la grenouille cp",
+    "cycle de vie de la grenouille pdf",
+    "cycle de vie de la grenouille exercice",
+    "cycle de vie de la grenouille ce2",
+    "cycle de vie de la grenouille svt 6eme",
+    "cycle de vie de la grenouille cm1",
+    "cycle de vie de la grenouille au cours des saisons"
+   ]
+  },
+  "cycle de vie de la grenouille maternelle": {
+   "candidate": "life-cycles",
+   "s": [
+    "cycle de vie de la grenouille maternelle"
+   ]
+  },
+  "cycle de vie de la grenouille cp": {
+   "candidate": "life-cycles",
+   "s": [
+    "cycle de vie de la grenouille cp"
+   ]
+  },
+  "cycle de vie de la grenouille ce1": {
+   "candidate": "life-cycles",
+   "s": [
+    "cycle de vie de la grenouille ce1"
+   ]
+  },
+  "cycle de vie de la grenouille ce2": {
+   "candidate": "life-cycles",
+   "s": [
+    "cycle de vie de la grenouille ce2"
+   ]
+  },
+  "les matériaux": {
+   "candidate": "materials",
+   "s": [
+    "les matériaux",
+    "les matériaux de l'environnement",
+    "les matériaux de construction",
+    "les matériaux de la cité",
+    "les matériaux cmpm",
+    "les matériaux de plomberie",
+    "les matériaux nouveaux docks",
+    "les matériaux de construction en génie civil",
+    "les matériaux de l'ouest",
+    "les matériaux pagot savoie"
+   ]
+  },
+  "les matériaux fiche": {
+   "candidate": "materials",
+   "s": [
+    "les fiches matériels"
+   ]
+  },
+  "les matériaux maternelle": {
+   "candidate": "materials",
+   "s": [
+    "les matériaux maternelle",
+    "les matières maternelle",
+    "les différents matériaux maternelle",
+    "trier les matières maternelle"
+   ]
+  },
+  "les matériaux cp": {
+   "candidate": "materials",
+   "s": [
+    "les matériaux cp",
+    "les matières cp"
+   ]
+  },
+  "les matériaux ce1": {
+   "candidate": "materials",
+   "s": [
+    "les matériaux ce1",
+    "les matières ce1",
+    "les matières du ce1d"
+   ]
+  },
+  "les matériaux ce2": {
+   "candidate": "materials",
+   "s": [
+    "les matériaux ce2",
+    "les métaux ce2",
+    "les matières ce2"
+   ]
+  },
+  "objets magnétiques": {
+   "candidate": "materials",
+   "s": [
+    "objets magnétiques"
+   ]
+  },
+  "le système solaire": {
+   "candidate": "space",
+   "s": [
+    "le système solaire",
+    "le système solaire compte combien de planète",
+    "le système solaire cm1",
+    "le système solaire expliqué aux enfants",
+    "le système solaire pdf",
+    "le système solaire ce2",
+    "le système solaire c'est pas sorcier",
+    "le système solaire pour les enfants",
+    "le système solaire cm2",
+    "le système solaire ce1"
+   ]
+  },
+  "le système solaire fiche": {
+   "candidate": "space",
+   "s": [
+    "le système solaire fiche cm1",
+    "le système solaire fiche",
+    "évaluation le système solaire fiche cm1",
+    "fiche documentaire sur le système solaire"
+   ]
+  },
+  "le système solaire à imprimer": {
+   "candidate": "space",
+   "s": [
+    "le système solaire à imprimer",
+    "le système solaire à colorier",
+    "système solaire à imprimer en couleur",
+    "système solaire à imprimer gratuit",
+    "panneau solaire à imprimer",
+    "exercice sur le système solaire cm2 à imprimer"
+   ]
+  },
+  "le système solaire maternelle": {
+   "candidate": "space",
+   "s": [
+    "le système solaire maternelle",
+    "le système solaire enfant",
+    "expliquer le système solaire maternelle",
+    "le systeme solaire pour les maternelles",
+    "apprendre le système solaire enfants",
+    "le système solaire video enfant",
+    "le systeme solaire livre enfant",
+    "travailler le système solaire en maternelle"
+   ]
+  },
+  "le système solaire cp": {
+   "candidate": "space",
+   "s": [
+    "le système solaire cp",
+    "le système solaire cp ce1",
+    "le système solaire cp pdf"
+   ]
+  },
+  "le système solaire ce1": {
+   "candidate": "space",
+   "s": [
+    "le système solaire ce1",
+    "le système solaire ce1 pdf",
+    "le système solaire ce1 leçon",
+    "le système solaire ce1 ce2",
+    "le système solaire ce1 séquence",
+    "le système solaire cp ce1",
+    "séquence le système solaire ce1 ce2",
+    "évaluation le système solaire ce1",
+    "la terre dans le système solaire ce1",
+    "la terre dans le système solaire ce1 ce2"
+   ]
+  },
+  "le système solaire ce2": {
+   "candidate": "space",
+   "s": [
+    "le système solaire ce2",
+    "le système solaire ce2 pdf",
+    "le système solaire ce2 exercices",
+    "le système solaire ce2 leçon",
+    "le système solaire ce2 pdf évaluation",
+    "le système solaire ce2 cm1",
+    "le système solaire ce2 vidéo",
+    "le système solaire ce2 maitre lucas",
+    "le système solaire ce2 évaluation",
+    "le système solaire ce2 séquence"
+   ]
+  },
+  "les phases de la lune": {
+   "candidate": "space",
+   "s": [
+    "les phases de la lune",
+    "les phases de la lune explication simple",
+    "les phases de la lune cycle 3",
+    "les phases de la lune cm1",
+    "les phases de la lune ce2",
+    "les phases de la lune sorcellerie pdf",
+    "les phases de la lune 2026",
+    "les phases de la lune cm2",
+    "les phases de la lune 6ème",
+    "les phases de la lune maitre lucas"
+   ]
+  },
+  "les phases de la lune à imprimer": {
+   "candidate": "space",
+   "s": [
+    "phase de la lune à imprimer"
+   ]
+  },
+  "les phases de la lune maternelle": {
+   "candidate": "space",
+   "s": [
+    "les phases de la lune maternelle",
+    "expliquer les phases de la lune en maternelle"
+   ]
+  },
+  "les phases de la lune cp": {
+   "candidate": "space",
+   "s": [
+    "les phases de la lune cp",
+    "les phases de la lune cycle 2"
+   ]
+  },
+  "les phases de la lune ce1": {
+   "candidate": "space",
+   "s": [
+    "les phases de la lune ce1"
+   ]
+  },
+  "les phases de la lune ce2": {
+   "candidate": "space",
+   "s": [
+    "les phases de la lune ce2",
+    "les phases de la lune ce2 cm1",
+    "cycle de la lune ce2",
+    "evaluation ce2 les phases de la lune"
+   ]
+  },
+  "les couleurs": {
+   "candidate": "colors",
+   "s": [
+    "les couleurs du mal noir",
+    "les couleurs du mal rouge",
+    "les couleurs du mal",
+    "les couleurs",
+    "les couleurs du mal blanc",
+    "les couleurs du mal noir avis",
+    "les couleurs primaires",
+    "les couleurs de l'arc en ciel",
+    "les couleurs en anglais",
+    "les couleurs de la terre"
+   ]
+  },
+  "les couleurs fiche": {
+   "candidate": "colors",
+   "s": [
+    "les couleurs fiche",
+    "les couleurs fiche maternelle",
+    "les couleurs fiche pdf",
+    "les couleurs fiche fle",
+    "les couleurs prise electriques",
+    "apprendre les couleurs fiches a imprimer",
+    "apprendre les couleurs fiche",
+    "les couleurs en espagnol fiche",
+    "les couleurs en anglais fiche",
+    "les couleurs en espagnol fiche pdf"
+   ]
+  },
+  "les couleurs à imprimer": {
+   "candidate": "colors",
+   "s": [
+    "les couleurs à imprimer",
+    "les couleurs à imprimer pdf",
+    "apprendre les couleurs à imprimer",
+    "exercices sur les couleurs à imprimer",
+    "les couleurs en anglais à imprimer",
+    "les alphas en couleur à imprimer",
+    "exercices pour apprendre les couleurs à imprimer",
+    "les couleurs en anglais exercices à imprimer",
+    "jeux pour apprendre les couleurs à imprimer",
+    "apprendre les couleurs en maternelle à imprimer"
+   ]
+  },
+  "les couleurs maternelle": {
+   "candidate": "colors",
+   "s": [
+    "les couleurs maternelle pdf",
+    "les couleurs maternelle",
+    "les couleurs maternelle affichage",
+    "les couleurs maternelle ps",
+    "les couleurs maternelle chanson",
+    "les couleurs enfant",
+    "les couleurs enfant 3 ans",
+    "les couleurs enfant 2 ans",
+    "apprendre les couleurs maternelle",
+    "séquence les couleurs maternelle"
+   ]
+  },
+  "les couleurs cp": {
+   "candidate": "colors",
+   "s": [
+    "les couleurs cp",
+    "les couleurs cp pdf",
+    "les couleurs cp exercices",
+    "les couleurs cp arts visuels",
+    "les couleurs cp anglais",
+    "les couleurs primaires",
+    "les couleurs primaires et secondaires",
+    "les couleurs primaires sont",
+    "les couleurs primaires et secondaires et tertiaires",
+    "les couleurs primaires en peinture"
+   ]
+  },
+  "les couleurs ce1": {
+   "candidate": "colors",
+   "s": [
+    "les couleurs ce1",
+    "les couleurs ce1 anglais",
+    "les couleurs ce1-ce2",
+    "les couleurs primaires ce1",
+    "anglais les couleurs ce1 ce2",
+    "les couleurs cp ce1",
+    "les couleurs en anglais ce1 pdf",
+    "poésie sur les couleurs ce1",
+    "les couleurs en anglais ce1 chanson",
+    "les couleurs anglais cp ce1"
+   ]
+  },
+  "les couleurs ce2": {
+   "candidate": "colors",
+   "s": [
+    "les couleurs ce2",
+    "les couleurs ce2 anglais",
+    "les couleurs primaires ce2",
+    "les couleurs ce1-ce2",
+    "les couleurs en anglais ce2 pdf",
+    "les couleurs en anglais ce2 exercices",
+    "les couleurs anglais ce1 ce2",
+    "poésie sur les couleurs ce2",
+    "évaluation anglais les couleurs ce2",
+    "les couleurs en anglais ce2 cm1"
+   ]
+  },
+  "les couleurs maternelle fiche": {
+   "candidate": "colors",
+   "s": [
+    "les couleurs fiche maternelle"
+   ]
+  },
+  "les couleurs maternelle à imprimer": {
+   "candidate": "colors",
+   "s": [
+    "apprendre les couleurs en maternelle à imprimer",
+    "couleur maternelle à imprimer"
+   ]
+  },
+  "les formes géométriques": {
+   "candidate": "2d-shapes",
+   "s": [
+    "les formes géométriques",
+    "les formes géométriques maternelle",
+    "les formes géométriques et leurs noms",
+    "les formes géométriques cp pdf",
+    "les formes géométriques cp",
+    "les formes géométriques cp exercices",
+    "les formes géométriques en maternelle petite section",
+    "les formes géométriques 3d",
+    "les formes géométriques pdf",
+    "les formes géométriques et leur nom pdf"
+   ]
+  },
+  "les formes géométriques fiche": {
+   "candidate": "2d-shapes",
+   "s": [
+    "fiche sur les formes géométriques gs",
+    "fiche maternelle les formes géométriques",
+    "fiche sur les formes géométriques"
+   ]
+  },
+  "les formes géométriques à imprimer": {
+   "candidate": "2d-shapes",
+   "s": [
+    "les formes géométriques à imprimer",
+    "imprimer les formes géométriques à colorier",
+    "formes géométriques à imprimer pdf",
+    "formes géométriques à imprimer gratuit",
+    "formes géométriques à imprimer maternelle"
+   ]
+  },
+  "les formes géométriques maternelle": {
+   "candidate": "2d-shapes",
+   "s": [
+    "les formes géométriques maternelle",
+    "les formes géométriques maternelle pdf",
+    "les formes géométriques maternelle affichage",
+    "les formes géométriques maternelle chanson",
+    "les formes géométriques maternelle cycle 1",
+    "les formes géométriques en maternelle petite section",
+    "tracer les formes géométriques maternelle",
+    "les formes géométriques en maternelle gs",
+    "les formes géométriques en maternelle petite section pdf",
+    "reconnaitre les formes géométriques maternelle"
+   ]
+  },
+  "les formes géométriques cp": {
+   "candidate": "2d-shapes",
+   "s": [
+    "les formes géométriques cp pdf",
+    "les formes géométriques cp",
+    "les formes géométriques cp exercices",
+    "les formes géométriques cp leçon",
+    "les formes géométriques cp maitre lucas",
+    "les formes géométriques cp ce1",
+    "les figures géométriques cp",
+    "reconnaitre les formes géométriques cp",
+    "évaluation les formes géométriques cp",
+    "affichage les formes géométriques cp"
+   ]
+  },
+  "les formes géométriques ce1": {
+   "candidate": "2d-shapes",
+   "s": [
+    "les formes géométriques ce1",
+    "les formes géométriques ce1 exercices",
+    "les formes géométriques ce1 pdf",
+    "les figures géométriques ce1",
+    "les formes planes ce1",
+    "les figures géométriques ce1 exercices",
+    "les figures géométriques ce1 leçon",
+    "reconnaitre les formes géométriques ce1",
+    "les formes géométriques cp ce1"
+   ]
+  },
+  "les formes géométriques ce2": {
+   "candidate": "2d-shapes",
+   "s": [
+    "les formes géométriques ce2",
+    "les figures géométriques ce2",
+    "les formes géométriques exercices ce2",
+    "reconnaitre les figures géométriques ce2"
+   ]
+  },
+  "les formes": {
+   "candidate": "2d-shapes",
+   "s": [
+    "les formes de phrases",
+    "les formes géométriques",
+    "les formes",
+    "les formes indéterminées",
+    "les formes des ongles",
+    "les formes indeterminées des limites",
+    "les formes de pieds",
+    "les formes d'intelligence",
+    "les formes de phrases exercices",
+    "les formes juridiques des entreprises"
+   ]
+  },
+  "les formes fiche": {
+   "candidate": "2d-shapes",
+   "s": [
+    "les formes fiche maternelle",
+    "les fiches formation",
+    "les fiches types",
+    "les formes gs fiche",
+    "les types de fiche de lecture",
+    "les formes de phrases fiche pédagogique",
+    "fiche les formes ms",
+    "fiche les formes"
+   ]
+  },
+  "les formes à imprimer": {
+   "candidate": "2d-shapes",
+   "s": [
+    "les formes à imprimer",
+    "les formes maternelle à imprimer",
+    "apprendre les formes à imprimer",
+    "les formes géométriques à imprimer",
+    "les formes de phrases cm2 exercices à imprimer",
+    "les formes de phrases cm1 exercices à imprimer",
+    "imprimer les formes géométriques à colorier"
+   ]
+  },
+  "les formes maternelle": {
+   "candidate": "2d-shapes",
+   "s": [
+    "les formes maternelle",
+    "les formes maternelle à imprimer",
+    "les formes maternelle pdf",
+    "les formes maternelle ps",
+    "les formes géométriques",
+    "les formes géométriques cp pdf",
+    "les formes géométriques et leurs noms",
+    "les formes géométriques cp",
+    "les formes géométriques cp exercices",
+    "les formes géométriques pdf"
+   ]
+  },
+  "les formes cp": {
+   "candidate": "2d-shapes",
+   "s": [
+    "les formes cp",
+    "les formes géométriques",
+    "les formes géométriques maternelle",
+    "les formes géométriques et leurs noms",
+    "les formes géométriques cp pdf",
+    "les formes géométriques cp"
+   ]
+  },
+  "les formes ce1": {
+   "candidate": "2d-shapes",
+   "s": [
+    "les formes ce1",
+    "les polygones ce1",
+    "les figures planes ce1",
+    "les polygones ce1 exercices",
+    "les polygones ce1 ce2",
+    "les figures planes ce1 exercices",
+    "les polygones ce1 maitre lucas",
+    "les polygones ce1 leçon",
+    "les figures planes ce1 leçon",
+    "les polygones ce1 exercices pdf"
+   ]
+  },
+  "les formes ce2": {
+   "candidate": "2d-shapes",
+   "s": [
+    "les formes ce2",
+    "les formes géométriques ce2",
+    "les formes de phrases ce2",
+    "les formes de phrases ce2 nouveaux programmes",
+    "les formes de phrases ce2 exercices",
+    "les formes de phrases ce2 exercices pdf",
+    "les formes de phrases ce2 leçon",
+    "les formes de phrases ce2 evaluation",
+    "les formes en anglais ce2",
+    "les formes de phrases ce2 cm1"
+   ]
+  },
+  "les sons complexes": {
+   "candidate": "digraphs",
+   "s": [
+    "les sons complexes",
+    "les sons complexes exercices pdf",
+    "les sons complexes cp pdf",
+    "les sons complexes liste",
+    "les sons complexes cp",
+    "les sons complexes ce1",
+    "les sons complexes ce2",
+    "les sons complexes en français",
+    "les sons complexes pdf",
+    "les sons complexes en couleur"
+   ]
+  },
+  "les sons complexes fiche": {
+   "candidate": "digraphs",
+   "s": [
+    "fiche sur les sons complexes"
+   ]
+  },
+  "les sons complexes à imprimer": {
+   "candidate": "digraphs",
+   "s": [
+    "les sons complexes à imprimer"
+   ]
+  },
+  "les sons complexes cp": {
+   "candidate": "digraphs",
+   "s": [
+    "les sons complexes cp pdf",
+    "les sons complexes cp",
+    "les sons complexes cp exercices",
+    "apprendre les sons complexes cp",
+    "travailler les sons complexes cp",
+    "les sons complexes en couleur cp",
+    "jeu sur les sons complexes cp"
+   ]
+  },
+  "les sons complexes ce1": {
+   "candidate": "digraphs",
+   "s": [
+    "les sons complexes ce1",
+    "les sons complexes ce1 pdf",
+    "revoir les sons complexes ce1",
+    "réviser les sons complexes ce1",
+    "exercices sur les sons complexes ce1",
+    "jeu sur les sons complexes ce1",
+    "travailler les sons complexes en ce1"
+   ]
+  },
+  "les sons complexes ce2": {
+   "candidate": "digraphs",
+   "s": [
+    "les sons complexes ce2",
+    "les sons complexes ce2 exercices",
+    "revoir les sons complexes ce2"
+   ]
+  },
+  "son ou": {
+   "candidate": "digraphs",
+   "s": [
+    "son ou sont",
+    "son ou",
+    "son ou sont exercices",
+    "son ou song",
+    "son ou flocon d'avoine",
+    "son ours",
+    "son ouaouaron",
+    "son oumou sangare",
+    "son ou phonétique",
+    "son ou sa"
+   ]
+  },
+  "son ou fiche": {
+   "candidate": "digraphs",
+   "s": [
+    "son ou fiche",
+    "son ou fiche cp",
+    "fiche son ou gs",
+    "fiche son ou bout de gomme"
+   ]
+  },
+  "son ou à imprimer": {
+   "candidate": "digraphs",
+   "s": [
+    "son à imprimer",
+    "son goku à imprimer",
+    "son gohan à imprimer"
+   ]
+  },
+  "son ou maternelle": {
+   "candidate": "digraphs",
+   "s": [
+    "son ou maternelle",
+    "comptine son ou maternelle",
+    "fiche son ou maternelle",
+    "son maternelle grande section"
+   ]
+  },
+  "son ou cp": {
+   "candidate": "digraphs",
+   "s": [
+    "son ou cp",
+    "son ou cp exercices",
+    "son ou cp lecture",
+    "fiche son ou cp",
+    "texte son ou cp",
+    "son cp ipotame",
+    "son cp bout de gomme",
+    "son cp coccinelle",
+    "son cp ill",
+    "coloriage magique son ou cp"
+   ]
+  },
+  "son ou ce1": {
+   "candidate": "digraphs",
+   "s": [
+    "son ou ce1",
+    "son ou ce1 exercices",
+    "fiche son ou ce1",
+    "son ou sont ce1",
+    "lecture son ou ce1",
+    "texte son ou ce1",
+    "dictée son ou ce1",
+    "son ce1 bout de gomme",
+    "son ce1 lutin bazar",
+    "son ce1 ipotame"
+   ]
+  },
+  "son ou ce2": {
+   "candidate": "digraphs",
+   "s": [
+    "son ou ce2",
+    "son ou sont ce2",
+    "son ou sont ce2 exercices",
+    "fiche son ou ce2",
+    "exercice son ou ce2",
+    "son ce2 lutin bazar",
+    "son ce2 mais que fait la maitresse",
+    "son ou sont evaluation ce2"
+   ]
+  },
+  "les synonymes": {
+   "candidate": "synonyms",
+   "s": [
+    "les synonymes",
+    "les synonymes des mots",
+    "les synonymes et les antonymes",
+    "les synonymes ce1",
+    "les synonymes exercices pdf corrigé",
+    "les synonymes exercices",
+    "les synonymes des mots en français",
+    "les synonymes ce2",
+    "les synonymes ce2 exercices",
+    "les synonymes cm1"
+   ]
+  },
+  "les synonymes fiche": {
+   "candidate": "synonyms",
+   "s": [
+    "les synonymes fiche de préparation",
+    "les synonymes fiche",
+    "les fiches definition",
+    "fiche les synonymes ce1",
+    "fiche les synonymes ce2",
+    "fiche les synonymes cm1"
+   ]
+  },
+  "les synonymes à imprimer": {
+   "candidate": "synonyms",
+   "s": [
+    "jeux sur les synonymes à imprimer",
+    "exercices sur les synonymes cm2 à imprimer",
+    "exercices sur les synonymes ce2 à imprimer"
+   ]
+  },
+  "les synonymes maternelle": {
+   "candidate": "synonyms",
+   "s": [
+    "les synonymes maternelle",
+    "les maternelles definition"
+   ]
+  },
+  "les synonymes cp": {
+   "candidate": "synonyms",
+   "s": [
+    "les synonymes cp",
+    "les synonymes cp exercices",
+    "les synonymes cp ce1",
+    "leçon les synonymes cp",
+    "séquence les synonymes cp"
+   ]
+  },
+  "les synonymes ce1": {
+   "candidate": "synonyms",
+   "s": [
+    "les synonymes ce1 leçon",
+    "les synonymes ce1 exercices",
+    "les synonymes ce1 pdf",
+    "les synonymes ce1 exercices pdf",
+    "les synonymes ce1 ce2 exercices",
+    "les synonymes ce1 ce2",
+    "les synonymes ce1 maitre lucas",
+    "les synonymes ce1 lutin bazar",
+    "les synonymes ce1 séquence",
+    "les synonymes ce1 bout de gomme"
+   ]
+  },
+  "les synonymes ce2": {
+   "candidate": "synonyms",
+   "s": [
+    "les synonymes ce2",
+    "les synonymes ce2 exercices",
+    "les synonymes ce2 evaluation",
+    "les synonymes ce2 leçon pdf",
+    "les synonymes ce2 cm1",
+    "les synonymes ce2 exercices pdf",
+    "les synonymes ce2 leçon",
+    "les synonymes ce2 pdf",
+    "les synonymes ce2 maitre lucas",
+    "les synonymes ce2 séquence"
+   ]
+  },
+  "synonymes": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymes",
+    "synonymes dictionnaire",
+    "synonymes anglais",
+    "synonymes de pragmatique",
+    "synonymes de désabonnement",
+    "synonymes caen",
+    "synonymes des mots",
+    "synonymes de bienveillance",
+    "synonymes crisco",
+    "synonymes de pour"
+   ]
+  },
+  "synonymes fiche": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymes fiche",
+    "definition fiche de poste",
+    "definition fiche s",
+    "synonyme fiche de poste",
+    "synonyme fiche de paie",
+    "definition fiche technique",
+    "synonyme fiche technique",
+    "fiche synonymes ce1",
+    "definition fiche de paie",
+    "fiche synonymes ce2"
+   ]
+  },
+  "synonymes à imprimer": {
+   "candidate": "synonyms",
+   "s": [
+    "exercices synonymes à imprimer",
+    "synonymes imprimer",
+    "synonymes imprimerie",
+    "jeu des synonymes à imprimer",
+    "exercices synonymes cm1 à imprimer",
+    "exercices synonymes ce1 à imprimer",
+    "exercices synonymes cm2 à imprimer"
+   ]
+  },
+  "synonymes maternelle": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymes maternelle",
+    "definition maternelle",
+    "jeu synonymes maternelle",
+    "train des synonymes maternelle",
+    "synonymes de langue maternelle",
+    "trouver des synonymes maternelle"
+   ]
+  },
+  "synonymes cp": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymes cp",
+    "synonymes cp ce1",
+    "synonymes cp exercices",
+    "definition cp",
+    "definition cpe",
+    "definition cpam",
+    "definition cpf",
+    "definition cpt",
+    "definition cpa",
+    "definition cpc"
+   ]
+  },
+  "synonymes ce1": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymes ce1",
+    "synonymes ce1 lutin bazar",
+    "synonymes ce1 exercices",
+    "synonymes ce1 ce2",
+    "synonymes ce1 evaluation",
+    "synonymes ce1 exercices pdf",
+    "synonymes ce1 leçon",
+    "synonymes ce1 pdf",
+    "synonymes ce1 maitre lucas",
+    "synonymes ce1 bout de gomme"
+   ]
+  },
+  "synonymes ce2": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymes ce2",
+    "synonymes ce2 evaluation",
+    "synonymes ce2 exercices pdf",
+    "synonymes ce2 exercices",
+    "synonymes ce2 cm1",
+    "synonymes ce2 leçon",
+    "synonymes ce2 lutin bazar",
+    "synonymes ce2 séquence",
+    "synonymes ce2 pdf",
+    "synonymes ce2 exercices en ligne"
+   ]
+  },
+  "homophones a à": {
+   "candidate": "homophones",
+   "s": [
+    "homophones a à",
+    "homophones a à ce1",
+    "homophones a à exercices",
+    "homophones a à ce2",
+    "homophones a à as cm2",
+    "homophones a à ce2 lutin bazar",
+    "homophones a à et est",
+    "homophones a à et est son sont on ont",
+    "homophones a à cm1",
+    "homophones a à ce1 exercices"
+   ]
+  },
+  "homophones a à fiche": {
+   "candidate": "homophones",
+   "s": [
+    "homophones fiche"
+   ]
+  },
+  "homophones a à à imprimer": {
+   "candidate": "homophones",
+   "s": [
+    "homophones a à as exercices à imprimer",
+    "homophones à imprimer",
+    "exercices ce2 homophones grammaticaux a à à imprimer"
+   ]
+  },
+  "homophones a à maternelle": {
+   "candidate": "homophones",
+   "s": [
+    "homophones maternelle"
+   ]
+  },
+  "homophones a à cp": {
+   "candidate": "homophones",
+   "s": [
+    "homophones cp"
+   ]
+  },
+  "homophones a à ce1": {
+   "candidate": "homophones",
+   "s": [
+    "homophones a à ce1",
+    "homophones a à ce1 exercices",
+    "homonyme a à ce1",
+    "evaluation homophones a à ce1",
+    "homophones grammaticaux a à ce1",
+    "homophones ce1 ce2",
+    "homophones ce1 lutin bazar",
+    "leçon homophone a à ce1",
+    "évaluation ce1 homophones a à et est"
+   ]
+  },
+  "homophones a à ce2": {
+   "candidate": "homophones",
+   "s": [
+    "homophones a à ce2",
+    "homophones a à ce2 lutin bazar",
+    "homophones a à ce2 exercices",
+    "homonyme a à ce2",
+    "exercices homophones a à ce2 pdf",
+    "leçon homophones a à ce2",
+    "évaluation homophones a à ce2",
+    "homophones grammaticaux a à ce2",
+    "homophones ce2 cm1",
+    "homophones ce2 et est"
+   ]
+  },
+  "homophones grammaticaux": {
+   "candidate": "homophones",
+   "s": [
+    "homophones grammaticaux",
+    "homophones grammaticaux cm2",
+    "homophones grammaticaux cm1",
+    "homophones grammaticaux exercices",
+    "homophones grammaticaux ce2",
+    "homophones grammaticaux ce1",
+    "homophones grammaticaux pdf",
+    "homophones grammaticaux cm",
+    "homophones grammaticaux nouveaux programmes",
+    "homophones grammaticaux programmes 2025"
+   ]
+  },
+  "homophones grammaticaux fiche": {
+   "candidate": "homophones",
+   "s": [
+    "homophones grammaticaux fiche",
+    "les homophones grammaticaux fiche de préparation cm2",
+    "fiche homophones grammaticaux cm2",
+    "fiche homophones grammaticaux cm1",
+    "fiche homophones grammaticaux pdf"
+   ]
+  },
+  "homophones grammaticaux à imprimer": {
+   "candidate": "homophones",
+   "s": [
+    "exercices homophones grammaticaux à imprimer",
+    "exercices homophones grammaticaux cm2 à imprimer",
+    "exercices homophones grammaticaux ce2 à imprimer",
+    "les homophones grammaticaux 6eme exercices à imprimer"
+   ]
+  },
+  "homophones grammaticaux ce1": {
+   "candidate": "homophones",
+   "s": [
+    "homophones grammaticaux ce1",
+    "homophones grammaticaux ce1 ce2",
+    "homophones grammaticaux ce1 exercices",
+    "homophones grammaticaux ce1 leçon",
+    "homonymes grammaticaux ce1",
+    "séquence homophones grammaticaux ce1",
+    "évaluation homophones grammaticaux ce1",
+    "exercices homophones grammaticaux ce1 ce2"
+   ]
+  },
+  "homophones grammaticaux ce2": {
+   "candidate": "homophones",
+   "s": [
+    "homophones grammaticaux ce2",
+    "homophones grammaticaux ce2 exercices",
+    "homophones grammaticaux ce2 leçon",
+    "homophones grammaticaux ce2 evaluation",
+    "homophones grammaticaux ce2 cm1",
+    "homophones grammaticaux ce2 lutin bazar",
+    "homophones grammaticaux ce2 exercices en ligne",
+    "homophones grammaticaux ce2 affichage",
+    "homophones grammaticaux ce2 programme",
+    "homophones grammaticaux ce2 nouveaux programmes"
+   ]
+  },
+  "sécurité routière": {
+   "candidate": "road-safety",
+   "s": [
+    "sécurité routière",
+    "sécurité routière gouv",
+    "sécurité routière résultat permis",
+    "sécurité routière permis",
+    "sécurité routière en france",
+    "sécurité routière gouv fr",
+    "sécurité routière vivre ensemble",
+    "sécurité routière connexion",
+    "sécurité routière rdv permis",
+    "sécurité routière gouv fr résultat permis"
+   ]
+  },
+  "sécurité routière fiche": {
+   "candidate": "road-safety",
+   "s": [
+    "sécurité routière maternelle fiche",
+    "sécurité routière cycle 3 fiches pédagogiques",
+    "sécurité routière cycle 2 fiches pédagogiques",
+    "fiche sécurité routière",
+    "sécurité routière sanléane dossier a fiches 1 et 2"
+   ]
+  },
+  "sécurité routière à imprimer": {
+   "candidate": "road-safety",
+   "s": [
+    "quiz sécurité routière à imprimer",
+    "jeu sécurité routière à imprimer",
+    "panneau sécurité routière à imprimer",
+    "jeux sur la sécurité routière à imprimer maternelle",
+    "piéton jeux sur la sécurité routière à imprimer",
+    "fiches pédagogiques jeux sur la sécurité routière à imprimer"
+   ]
+  },
+  "sécurité routière maternelle": {
+   "candidate": "road-safety",
+   "s": [
+    "sécurité routière maternelle",
+    "sécurité routière maternelle fiche",
+    "sécurité routière maternelle activités",
+    "prévention routière maternelle",
+    "sécurité domestique maternelle",
+    "sécurité routière enfant",
+    "securite routiere enfant devant",
+    "sécurité routière enfant à pied",
+    "securite routiere enfant siege auto",
+    "securite routiere enfant 10 ans"
+   ]
+  },
+  "sécurité routière cp": {
+   "candidate": "road-safety",
+   "s": [
+    "sécurité routière cp",
+    "sécurité routière cp ce1",
+    "prévention routière cp",
+    "sécurité routière cycle 2",
+    "séquence sécurité routière cp",
+    "sécurité routière gs cp",
+    "vidéo sécurité routière cp",
+    "stage sécurité routière cpf",
+    "stage sensibilisation sécurité routière cpf"
+   ]
+  },
+  "sécurité routière ce1": {
+   "candidate": "road-safety",
+   "s": [
+    "sécurité routière ce1",
+    "sécurité routière ce1 ce2",
+    "prévention routière ce1",
+    "sécurité routière cp ce1",
+    "évaluation sécurité routière ce1",
+    "emc sécurité routière ce1",
+    "sécurité routière vélo ce1"
+   ]
+  },
+  "sécurité routière ce2": {
+   "candidate": "road-safety",
+   "s": [
+    "sécurité routière ce2",
+    "sécurité routière ce2 pdf",
+    "sécurité routière ce2 cm1",
+    "prévention routière ce2",
+    "sécurité routière ce1 ce2",
+    "exercice sécurité routière ce2",
+    "évaluation sécurité routière ce2",
+    "sécurité routière permis piéton ce2",
+    "emc la sécurité routière ce2"
+   ]
+  },
+  "panneaux de signalisation": {
+   "candidate": "road-safety",
+   "s": [
+    "panneaux de signalisation suedois",
+    "panneaux de signalisation",
+    "panneaux de signalisation routière et leur signification pdf",
+    "panneaux de signalisation routière et leur signification",
+    "panneaux de signalisation à télécharger gratuitement pdf",
+    "panneaux de signalisation routière",
+    "panneaux de signalisation suisse pdf",
+    "panneaux de signalisation routière et leur signification belgique",
+    "panneaux de signalisation routière gratuit",
+    "panneaux de signalisation maroc pdf"
+   ]
+  },
+  "panneaux de signalisation fiche": {
+   "candidate": "road-safety",
+   "s": [
+    "panneau de signalisation fiche technique",
+    "fiche panneaux de signalisation routière",
+    "fiche panneaux de signalisation cycle 3",
+    "fiche panneaux de signalisation"
+   ]
+  },
+  "panneaux de signalisation à imprimer": {
+   "candidate": "road-safety",
+   "s": [
+    "panneaux de signalisation à imprimer gratuit",
+    "panneaux de signalisation à imprimer",
+    "panneaux de signalisation à imprimer pdf",
+    "panneau de circulation à imprimer",
+    "images panneaux de signalisation à imprimer",
+    "coloriage panneaux de signalisation à imprimer",
+    "panneaux de signalisation routière à imprimer",
+    "panneaux routiers panneau de signalisation à imprimer gratuit",
+    "dessin de panneau de signalisation à imprimer",
+    "exercices sur les panneaux de signalisation à imprimer"
+   ]
+  },
+  "panneaux de signalisation maternelle": {
+   "candidate": "road-safety",
+   "s": [
+    "panneaux de signalisation maternelle",
+    "panneaux de signalisation routière maternelle"
+   ]
+  },
+  "panneaux de signalisation cp": {
+   "candidate": "road-safety",
+   "s": [
+    "panneaux de signalisation cp",
+    "panneaux de signalisation routière et leur signification",
+    "panneaux de signalisation routière et leur signification pdf",
+    "panneaux de signalisation routière",
+    "panneaux de signalisation routière gratuit",
+    "panneaux de signalisation routière et leur signification belgique",
+    "panneaux de signalisation routière vélo",
+    "panneaux de signalisation routière et leur signification au maroc",
+    "panneaux de signalisation routière et leur signification pdf belgique",
+    "panneaux de signalisation routière en cote d ivoire pdf"
+   ]
+  },
+  "panneaux de signalisation ce1": {
+   "candidate": "road-safety",
+   "s": [
+    "panneaux de signalisation ce1",
+    "panneaux routiers ce1"
+   ]
+  },
+  "panneaux de signalisation ce2": {
+   "candidate": "road-safety",
+   "s": [
+    "panneaux de signalisation ce2",
+    "exercice panneaux de signalisation ce2",
+    "panneaux routiers ce2"
+   ]
+  },
+  "les continents": {
+   "candidate": "maps",
+   "s": [
+    "les continents du monde",
+    "les continents",
+    "les continents du monde et leurs pays",
+    "les continents et les océans",
+    "les continents du monde et leurs pays pdf",
+    "les continents les plus grands du monde",
+    "les continents africains",
+    "les continents de la terre",
+    "les continents restaurant",
+    "les continents et les océans pdf"
+   ]
+  },
+  "les continents fiche": {
+   "candidate": "maps",
+   "s": [
+    "les continents carte",
+    "les continents carte du monde",
+    "les continents carte vierge",
+    "fiche les continents"
+   ]
+  },
+  "les continents à imprimer": {
+   "candidate": "maps",
+   "s": [
+    "les continents à imprimer",
+    "les continents à colorier"
+   ]
+  },
+  "les continents maternelle": {
+   "candidate": "maps",
+   "s": [
+    "les continents maternelle",
+    "les 5 continents maternelle",
+    "chanson les continents maternelle",
+    "thème les continents maternelle",
+    "les continents du monde maternelle",
+    "activité sur les continents maternelle",
+    "thème les 5 continents maternelle",
+    "projet les continents en maternelle",
+    "projet les 5 continents maternelle",
+    "les 5 continents ecole maternelle"
+   ]
+  },
+  "les continents cp": {
+   "candidate": "maps",
+   "s": [
+    "les continents cp",
+    "les continents cp ce1",
+    "les continents cycle 2",
+    "les 5 continents cp",
+    "apprendre les continents cp",
+    "activité sur les continents cp",
+    "les continents et les océans cp"
+   ]
+  },
+  "les continents ce1": {
+   "candidate": "maps",
+   "s": [
+    "les continents ce1",
+    "les continents ce1 ce2",
+    "les continents ce1 lutin bazar",
+    "les continents ce1 pdf",
+    "les continents cp ce1",
+    "qlm les continents ce1",
+    "apprendre les continents ce1",
+    "poésie les continents ce1",
+    "les 5 continents ce1",
+    "evaluation les continents ce1"
+   ]
+  },
+  "les continents ce2": {
+   "candidate": "maps",
+   "s": [
+    "les continents ce2",
+    "les continents ce2 pdf",
+    "les continents ce2 evaluation",
+    "les continents ce2 cm1",
+    "les continents ce2 lutin bazar",
+    "les regions ce2",
+    "les continents ce1 ce2",
+    "leçon les continents ce2",
+    "vidéo les continents ce2",
+    "apprendre les continents ce2"
+   ]
+  },
+  "se repérer sur un plan": {
+   "candidate": "maps",
+   "s": [
+    "se repérer sur un plan ce1",
+    "se repérer sur un plan cp",
+    "se repérer sur un plan ce2",
+    "se repérer sur un plan",
+    "se repérer sur un plan cm1",
+    "se repérer sur un plan maitre lucas",
+    "se repérer sur un planisphère",
+    "se repérer sur un plan cm1 exercices",
+    "se repérer sur un plan ce1 évaluation",
+    "se repérer sur un plan cm2"
+   ]
+  },
+  "se repérer sur un plan cp": {
+   "candidate": "maps",
+   "s": [
+    "se repérer sur un plan cp",
+    "se repérer sur un plan cp ce1",
+    "évaluation se repérer sur un plan cp",
+    "se repérer sur un plan de classe cp",
+    "se repérer sur une carte cp",
+    "se repérer sur une carte cp ce1",
+    "repérage sur un plan cp"
+   ]
+  },
+  "se repérer sur un plan ce1": {
+   "candidate": "maps",
+   "s": [
+    "se repérer sur un plan ce1",
+    "se repérer sur un plan ce1 évaluation",
+    "se repérer sur un plan ce1 leçon",
+    "se repérer sur un plan ce1 exercices",
+    "se repérer sur un plan ce1 exercices pdf",
+    "se repérer sur un plan ce1 ce2",
+    "se repérer sur un plan ce1 pdf",
+    "se situer sur un plan ce1",
+    "se repérer sur un plan cp ce1",
+    "séquence se repérer sur un plan ce1"
+   ]
+  },
+  "se repérer sur un plan ce2": {
+   "candidate": "maps",
+   "s": [
+    "se repérer sur un plan ce2",
+    "se repérer sur un plan ce2 pdf",
+    "se repérer sur un plan ce2 géométrie",
+    "se repérer sur un plan ce2 exercices",
+    "se repérer sur un plan ce2 evaluation",
+    "se repérer sur un plan ce2 leçon",
+    "se repérer sur un plan ce2 maitre lucas",
+    "se repérer sur un plan ce2 cm1",
+    "se repérer sur un plan ce2 bout de gomme",
+    "se repérer sur un plan ce2 exercices pdf"
+   ]
+  },
+  "la famille": {
+   "candidate": "family",
+   "s": [
+    "la famille",
+    "la famille bélier",
+    "la famille ventura",
+    "la famille addams",
+    "la famille pirate",
+    "la famille de la jungle",
+    "la famille groulx",
+    "la famille tortue",
+    "la famille indienne",
+    "la famille pierrafeu"
+   ]
+  },
+  "la famille fiche": {
+   "candidate": "family",
+   "s": [
+    "la famille fiche",
+    "la famille fiche pedagogique fle",
+    "la famille fiche pédagogique",
+    "la famille fiche maternelle",
+    "la famille fiche pédagogique pdf",
+    "la famille fiche fle",
+    "la fiche familiale",
+    "la fiche familiale de l état civil",
+    "la fiche familiale en arabe",
+    "la famille bélier fiche pédagogique fle"
+   ]
+  },
+  "la famille à imprimer": {
+   "candidate": "family",
+   "s": [
+    "la famille à imprimer",
+    "la famille tortue paroles à imprimer",
+    "chanson sur la famille à imprimer",
+    "la famille des alphas à imprimer",
+    "les règles de la famille à imprimer",
+    "comptine la famille tortue à imprimer",
+    "l'arbre de la famille à imprimer",
+    "tableau des responsabilités de la famille à imprimer gratuitement",
+    "exercice d anglais sur la famille à imprimer"
+   ]
+  },
+  "la famille maternelle": {
+   "candidate": "family",
+   "s": [
+    "la famille maternelle",
+    "la famille maternelle et paternelle",
+    "la famille maternelle moyenne section",
+    "la famille maternelle pdf",
+    "la famille maternelle en arabe",
+    "la famille tortue maternelle",
+    "chanson la famille maternelle",
+    "la famille coloriage maternelle",
+    "vocabulaire la famille maternelle",
+    "theme la famille maternelle"
+   ]
+  },
+  "la famille cp": {
+   "candidate": "family",
+   "s": [
+    "la famille cp",
+    "la famille anglais cp",
+    "vocabulaire la famille cp",
+    "evar la famille cp",
+    "la famille 70 cp",
+    "la famille 80 cp",
+    "ministère de la famille cpe",
+    "la famille de 10 cp",
+    "la famille des alphas cp",
+    "ministère de la famille cpe échelle salariale"
+   ]
+  },
+  "la famille ce1": {
+   "candidate": "family",
+   "s": [
+    "la famille ce1",
+    "la famille ce1 anglais",
+    "vocabulaire la famille ce1",
+    "anglais la famille ce1 ce2",
+    "la famille royale ce1",
+    "poésie la famille ce1",
+    "la famille cp ce1",
+    "la famille des mots ce1",
+    "texte sur la famille ce1",
+    "la famille des aliments ce1"
+   ]
+  },
+  "la famille ce2": {
+   "candidate": "family",
+   "s": [
+    "la famille ce2",
+    "la famille ce2 anglais",
+    "dictée la famille ce2",
+    "la famille royale ce2",
+    "anglais la famille ce2 cm1",
+    "la famille des mots ce2",
+    "la famille des mots ce2 exercices",
+    "la famille des aliments ce2",
+    "la famille des mots ce2 evaluation",
+    "poésie sur la famille ce2"
+   ]
+  },
+  "arbre généalogique": {
+   "candidate": "family",
+   "s": [
+    "arbre généalogique",
+    "arbre généalogique targaryen",
+    "arbre généalogique famille royale suède",
+    "arbre généalogique gratuit",
+    "arbre généalogique house of the dragon",
+    "arbre généalogique dutton",
+    "arbre généalogique à remplir",
+    "arbre généalogique mythologie grecque",
+    "arbre généalogique famille de gaulle",
+    "arbre généalogique famille"
+   ]
+  },
+  "arbre généalogique fiche": {
+   "candidate": "family",
+   "s": [
+    "arbre généalogique fiche",
+    "arbre généalogique fiche pédagogique",
+    "complète l arbre généalogique fiche à imprimer cp",
+    "fiche arbre généalogique ce1"
+   ]
+  },
+  "arbre généalogique à imprimer": {
+   "candidate": "family",
+   "s": [
+    "arbre généalogique à imprimer pdf gratuit",
+    "arbre généalogique à imprimer",
+    "arbre généalogique à imprimer gratuit",
+    "arbre généalogique à imprimer pdf",
+    "arbre généalogique à imprimer pour enfant",
+    "arbre généalogique à imprimer 10 générations",
+    "arbre généalogique à imprimer a4",
+    "arbre généalogique à imprimer avec photos",
+    "arbre généalogique à imprimer a3",
+    "arbre généalogique à imprimer vierge"
+   ]
+  },
+  "arbre généalogique maternelle": {
+   "candidate": "family",
+   "s": [
+    "arbre généalogique maternelle",
+    "arbre généalogique maternelle à imprimer",
+    "arbre généalogique côté maternelle",
+    "arbre généalogique famille maternelle",
+    "projet arbre généalogique en maternelle"
+   ]
+  },
+  "arbre généalogique cp": {
+   "candidate": "family",
+   "s": [
+    "arbre généalogique cp",
+    "arbre généalogique cp ce1",
+    "arbre généalogique cp pdf",
+    "évaluation arbre généalogique cp",
+    "séquence arbre généalogique cp",
+    "exercice arbre généalogique cp",
+    "arbre généalogique vierge cp",
+    "arbre généalogique gs cp",
+    "vidéo arbre généalogique cp",
+    "leçon arbre généalogique cp"
+   ]
+  },
+  "arbre généalogique ce1": {
+   "candidate": "family",
+   "s": [
+    "arbre généalogique ce1",
+    "arbre généalogique ce1 vierge",
+    "arbre généalogique ce1 exercice",
+    "arbre généalogique ce1 ce2",
+    "arbre généalogique ce1 évaluation",
+    "leçon arbre généalogique ce1",
+    "arbre généalogique cp ce1",
+    "séquence arbre généalogique ce1",
+    "video arbre genealogique ce1",
+    "mon arbre généalogique ce1"
+   ]
+  },
+  "arbre généalogique ce2": {
+   "candidate": "family",
+   "s": [
+    "arbre généalogique ce2",
+    "arbre généalogique ce2 pdf",
+    "exercice arbre généalogique ce2",
+    "arbre généalogique ce1 ce2",
+    "évaluation arbre généalogique ce2",
+    "leçon arbre généalogique ce2",
+    "arbre généalogique anglais ce2",
+    "séquence arbre généalogique ce2",
+    "mon arbre généalogique ce2"
+   ]
+  }
+ }
+}

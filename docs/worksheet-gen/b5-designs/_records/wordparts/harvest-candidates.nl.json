@@ -1,0 +1,103 @@
+{
+ "locale": "nl",
+ "market": {
+  "hl": "nl",
+  "gl": "nl"
+ },
+ "generatedAt": "2026-09-23T00:18:54.439Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds-wordparts.json",
+ "requestCount": 14,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "word-parts": {
+   "heads": [
+    "woordfamilie",
+    "voorvoegsels"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 25,
+   "suggestions": [
+    "voorvoegsels",
+    "voorvoegsels achternaam",
+    "voorvoegsels betekenis",
+    "voorvoegsels eenheden",
+    "voorvoegsels fysica",
+    "voorvoegsels geboortenaam",
+    "voorvoegsels groep 4",
+    "voorvoegsels groep 5",
+    "voorvoegsels naam",
+    "voorvoegsels natuurkunde",
+    "voorvoegsels partner",
+    "voorvoegsels voorbeelden",
+    "voorvoegsels werkblad",
+    "werkblad voorvoegsels groep 4",
+    "werkblad voorvoegsels groep 6",
+    "woordfamilie",
+    "woordfamilie beschouwen",
+    "woordfamilie betekenis",
+    "woordfamilie complex",
+    "woordfamilie typeren",
+    "woordfamilie van destijds",
+    "woordfamilie van weerleggen",
+    "woordfamilie voorbeeld",
+    "woordfamilie zich baseren op",
+    "woordfamilies"
+   ]
+  }
+ },
+ "suggestions": {
+  "woordfamilie": {
+   "candidate": "word-parts",
+   "s": [
+    "woordfamilie",
+    "woordfamilies",
+    "woordfamilie betekenis",
+    "woordfamilie voorbeeld",
+    "woordfamilie complex",
+    "woordfamilie beschouwen",
+    "woordfamilie typeren",
+    "woordfamilie van destijds",
+    "woordfamilie zich baseren op",
+    "woordfamilie van weerleggen"
+   ]
+  },
+  "voorvoegsels": {
+   "candidate": "word-parts",
+   "s": [
+    "voorvoegsels",
+    "voorvoegsels naam",
+    "voorvoegsels fysica",
+    "voorvoegsels betekenis",
+    "voorvoegsels achternaam",
+    "voorvoegsels partner",
+    "voorvoegsels geboortenaam",
+    "voorvoegsels eenheden",
+    "voorvoegsels natuurkunde",
+    "voorvoegsels voorbeelden"
+   ]
+  },
+  "voorvoegsels werkblad": {
+   "candidate": "word-parts",
+   "s": [
+    "voorvoegsels werkblad",
+    "werkblad voorvoegsels groep 6",
+    "werkblad voorvoegsels groep 4"
+   ]
+  },
+  "voorvoegsels groep 4": {
+   "candidate": "word-parts",
+   "s": [
+    "voorvoegsels groep 4",
+    "werkblad voorvoegsels groep 4"
+   ]
+  },
+  "voorvoegsels groep 5": {
+   "candidate": "word-parts",
+   "s": [
+    "voorvoegsels groep 5"
+   ]
+  }
+ }
+}

@@ -1,0 +1,803 @@
+{
+ "locale": "fi",
+ "market": {
+  "hl": "fi",
+  "gl": "fi"
+ },
+ "generatedAt": "2026-09-23T00:21:22.051Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds-nordic-v2.json",
+ "requestCount": 231,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "plants": {
+   "heads": [
+    "kasvin osat",
+    "kukan osat",
+    "siemenestä kasviksi"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 20,
+   "suggestions": [
+    "kasvin eri osat",
+    "kasvin juuren osat",
+    "kasvin kukan osat",
+    "kasvin lehden osat",
+    "kasvin osat",
+    "kasvin osat englanniksi",
+    "kasvin osat ja niiden tehtävät",
+    "kasvin osat video",
+    "kasvin varren osat",
+    "kukan emin osat",
+    "kukan eri osat",
+    "kukan osat",
+    "kukan osat emi",
+    "kukan osat englanniksi",
+    "kukan osat ja niiden tehtävät",
+    "kukan osat suomeksi",
+    "mitkä ovat kukan osat",
+    "nimeä kasvin osat",
+    "siemenestä kasviksi",
+    "siemenestä kasviksi video"
+   ]
+  },
+  "life-cycles": {
+   "heads": [
+    "perhosen kehitys",
+    "sammakon kehitysvaiheet",
+    "elämänkierto"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 11,
+   "suggestions": [
+    "elämänkierto",
+    "elämänkierto kasvi",
+    "elämänkierto kurssi",
+    "perhosen kehitys",
+    "perhosen kehitys video",
+    "perhosen kehityskaari",
+    "perhosen kehitysvaiheet",
+    "perhosen toukan kehitys",
+    "punkin elämänkierto",
+    "sammakon kehitysvaiheet",
+    "solun elämänkierto"
+   ]
+  },
+  "materials": {
+   "heads": [
+    "magneetin vetovoima",
+    "aineet ja materiaalit",
+    "kelluu vai uppoaa"
+   ],
+   "requests": 21,
+   "productiveSeeds": 2,
+   "unique": 3,
+   "suggestions": [
+    "kelluu vai uppoaa",
+    "magneetin vetovoima",
+    "muna kelluu vai uppoaa"
+   ]
+  },
+  "space": {
+   "heads": [
+    "aurinkokunta",
+    "planeetat",
+    "kuun vaiheet"
+   ],
+   "requests": 21,
+   "productiveSeeds": 4,
+   "unique": 31,
+   "suggestions": [
+    "aurinkokunta",
+    "aurinkokunta englanniksi",
+    "aurinkokunta mobile",
+    "aurinkokunta pienoismalli",
+    "aurinkokunta snap",
+    "aurinkokunta snp",
+    "aurinkokuntamalli",
+    "aurinkokuntamalli helsinki",
+    "aurinkokuntamme",
+    "aurinkokuntamme planeetat",
+    "kuun vaiheet",
+    "kuun vaiheet 2026",
+    "kuun vaiheet 2027",
+    "kuun vaiheet elokuu 2026",
+    "kuun vaiheet heinäkuu 2026",
+    "kuun vaiheet kalenteri",
+    "kuun vaiheet kesäkuu 2026",
+    "kuun vaiheet kuvina",
+    "kuun vaiheet nyt",
+    "kuun vaiheet puutarhassa",
+    "planeetat",
+    "planeetat chords",
+    "planeetat englanniksi",
+    "planeetat järjestyksessä",
+    "planeetat järjestyksessä 2026",
+    "planeetat järjestyksessä auringosta",
+    "planeetat koon mukaan",
+    "planeetat linjassa 2026",
+    "planeetat nyt",
+    "planeetat taivaalla",
+    "tulostettavat planeetat"
+   ]
+  },
+  "colors": {
+   "heads": [
+    "värien nimet",
+    "päävärit",
+    "värien sekoittaminen"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 24,
+   "suggestions": [
+    "hevosen värien nimet",
+    "päävärit",
+    "päävärit elokuva",
+    "päävärit elokuva rooleissa",
+    "päävärit englanniksi",
+    "päävärit ja vastavärit",
+    "päävärit ja välivärit",
+    "päävärit maalaus",
+    "päävärit nimet",
+    "päävärit sekoitus",
+    "päävärit välivärit",
+    "sinisten värien nimet",
+    "teknos värien nimet",
+    "tikkurila värien nimet",
+    "vesivärien värien nimet",
+    "vesivärit värien sekoittaminen",
+    "värien nimet",
+    "värien nimet englanniksi",
+    "värien nimet suomeksi",
+    "värien sekoittaminen",
+    "värien sekoittaminen lasten kanssa",
+    "värien sekoittaminen ruskea",
+    "värioppi värien sekoittaminen",
+    "väriympyrä värien nimet"
+   ]
+  },
+  "2d-shapes": {
+   "heads": [
+    "tasokuviot",
+    "geometriset muodot"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 15,
+   "suggestions": [
+    "3d geometriset muodot",
+    "eri geometriset muodot",
+    "geometria tasokuviot",
+    "geometriset muodot",
+    "geometriset muodot englanniksi",
+    "geometriset muodot lapsille",
+    "geometriset muodot nimet",
+    "geometriset muodot nimet suomeksi",
+    "geometriset muodot suomeksi",
+    "geometriset muodot tehtävä",
+    "geometriset tasokuviot",
+    "kolmiulotteiset geometriset muodot",
+    "tasokuviot",
+    "tasokuviot alkuopetus",
+    "tasokuviot ja kappaleet"
+   ]
+  },
+  "digraphs": {
+   "heads": [
+    "pitkät vokaalit",
+    "diftongit",
+    "lyhyt vai pitkä vokaali"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 17,
+   "suggestions": [
+    "diftongi tavu",
+    "diftongit",
+    "diftongit harjoituksia",
+    "diftongit s2",
+    "diftongit suomen kieli",
+    "diftongit suomessa",
+    "diftongit suomi",
+    "diftongit tavutus",
+    "diftongit wordwall",
+    "kaikki diftongit",
+    "lyhyt ja pitkä vokaali",
+    "lyhyt ja pitkä vokaali harjoituksia",
+    "lyhyt vai pitkä vokaali",
+    "pitkät ja lyhyet vokaalit",
+    "pitkät vokaalit",
+    "wordwall lyhyt vai pitkä vokaali",
+    "wordwall pitkät vokaalit"
+   ]
+  },
+  "synonyms": {
+   "heads": [
+    "synonyymit",
+    "samaa tarkoittavat sanat"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 14,
+   "suggestions": [
+    "samaa asiaa tarkoittavat sanat",
+    "samaa tarkoittavat sanat",
+    "suomen kielen samaa tarkoittavat sanat",
+    "synonyymit",
+    "synonyymit englanniksi",
+    "synonyymit ja vastakohdat",
+    "synonyymit karhu sanalle",
+    "synonyymit naiselle",
+    "synonyymit sanakirja",
+    "synonyymit sanalle",
+    "synonyymit sanalle ihana",
+    "synonyymit sanalle kaunis",
+    "synonyymit suomi",
+    "synonyymit tehtäviä"
+   ]
+  },
+  "homophones": {
+   "heads": [
+    "homofonit",
+    "samalta kuulostavat sanat"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 2,
+   "suggestions": [
+    "homofonit",
+    "samalta kuulostavat sanat"
+   ]
+  },
+  "road-safety": {
+   "heads": [
+    "liikennemerkit",
+    "liikenneturvallisuus",
+    "liikennesäännöt lapsille"
+   ],
+   "requests": 21,
+   "productiveSeeds": 5,
+   "unique": 24,
+   "suggestions": [
+    "liikennemerkit",
+    "liikennemerkit harjoitus",
+    "liikennemerkit ja selitykset",
+    "liikennemerkit lapsille",
+    "liikennemerkit pysäköinti",
+    "liikennemerkit pysäköinti aika",
+    "liikennemerkit pysäköinti lisäkilvet",
+    "liikennemerkit suomessa",
+    "liikennemerkit testi",
+    "liikennemerkit tulostettavat",
+    "liikennemerkit värityskuva",
+    "liikennesäännöt lapsille",
+    "liikenneturvallisuus",
+    "liikenneturvallisuus lapsille",
+    "liikenneturvallisuus tehtäviä",
+    "liikenneturvallisuus värityskuva",
+    "liikenneturvallisuuskeskus",
+    "liikenneturvallisuusstrategia",
+    "liikenneturvallisuusviikko",
+    "liikenneturvallisuusviikko 2026",
+    "liikenneturvallisuusviikko materiaali",
+    "liikenneturvallisuusviikko varhaiskasvatus",
+    "liikenneturvallisuusviikko värityskuva",
+    "tulostettavat liikennemerkit lapsille"
+   ]
+  },
+  "maps": {
+   "heads": [
+    "maanosat",
+    "ilmansuunnat",
+    "kartan merkit"
+   ],
+   "requests": 21,
+   "productiveSeeds": 5,
+   "unique": 32,
+   "suggestions": [
+    "ilmansuunnat",
+    "ilmansuunnat asteina",
+    "ilmansuunnat englanniksi",
+    "ilmansuunnat kartalla",
+    "ilmansuunnat kompassi",
+    "ilmansuunnat kuva",
+    "ilmansuunnat ruotsiksi",
+    "ilmansuunnat suomeksi",
+    "ilmansuunnat suomen kartalla",
+    "ilmansuunnat tehtäviä",
+    "ilmansuunnat viroksi",
+    "karttamerkit",
+    "karttamerkit järvi",
+    "karttamerkit kivi",
+    "karttamerkit lähde",
+    "karttamerkit maastokartta",
+    "karttamerkit rastimääritteet",
+    "karttamerkit selitykset",
+    "karttamerkit suo",
+    "karttamerkit suunnistus",
+    "karttamerkit vesistö",
+    "maanosat",
+    "maanosat englanniksi",
+    "maanosat ja mantereet",
+    "maanosat ja meret",
+    "maanosat ja valtameret",
+    "maanosat kartta",
+    "maanosat montako",
+    "maanosat pinta ala järjestyksessä",
+    "maanosat suomi",
+    "maanosat suurimmasta pienimpään",
+    "maanosat tehtäviä"
+   ]
+  },
+  "family": {
+   "heads": [
+    "sukupuu",
+    "perheenjäsenet",
+    "minun perheeni"
+   ],
+   "requests": 21,
+   "productiveSeeds": 4,
+   "unique": 32,
+   "suggestions": [
+    "kotivakuutus perheenjäsenet",
+    "minun perheeni",
+    "minun perheeni askartelu",
+    "minun perheeni espanjaksi",
+    "minun perheeni italiaksi",
+    "minun perheeni kirja",
+    "minun perheeni rooleissa",
+    "minun perheeni ruotsiksi",
+    "minun perheeni saksaksi",
+    "minun perheeni tehtävä",
+    "minun perheeni varhaiskasvatus",
+    "netflix perheenjäsenet",
+    "perheenjäsenet",
+    "perheenjäsenet englanniksi",
+    "perheenjäsenet espanjaksi",
+    "perheenjäsenet italiaksi",
+    "perheenjäsenet japaniksi",
+    "perheenjäsenet ruotsiksi",
+    "perheenjäsenet saksaksi",
+    "perheenjäsenet suomeksi",
+    "sukupuu",
+    "sukupuu englanniksi",
+    "sukupuu netissä",
+    "sukupuu pohja",
+    "sukupuu tulostettava",
+    "sukupuu tulostettava pohja",
+    "sukupuun piirtäminen",
+    "sukupuutossa",
+    "sukupuutto",
+    "sukupuutto englanniksi",
+    "sukupuuttoon kuolleet eläimet",
+    "sukupuuttoon kuollut lintu"
+   ]
+  }
+ },
+ "suggestions": {
+  "kasvin osat": {
+   "candidate": "plants",
+   "s": [
+    "kasvin osat",
+    "kasvin osat ja niiden tehtävät",
+    "kasvin osat video",
+    "kasvin osat englanniksi",
+    "kasvin lehden osat",
+    "kasvin varren osat",
+    "kasvin kukan osat",
+    "kasvin eri osat",
+    "nimeä kasvin osat",
+    "kasvin juuren osat"
+   ]
+  },
+  "kukan osat": {
+   "candidate": "plants",
+   "s": [
+    "kukan osat",
+    "kukan osat ja niiden tehtävät",
+    "kukan osat suomeksi",
+    "kukan osat englanniksi",
+    "kukan osat emi",
+    "kukan emin osat",
+    "kukan eri osat",
+    "kasvin kukan osat",
+    "mitkä ovat kukan osat"
+   ]
+  },
+  "siemenestä kasviksi": {
+   "candidate": "plants",
+   "s": [
+    "siemenestä kasviksi",
+    "siemenestä kasviksi video"
+   ]
+  },
+  "perhosen kehitys": {
+   "candidate": "life-cycles",
+   "s": [
+    "perhosen kehitysvaiheet",
+    "perhosen kehitys",
+    "perhosen kehitys video",
+    "perhosen kehityskaari",
+    "perhosen toukan kehitys"
+   ]
+  },
+  "sammakon kehitysvaiheet": {
+   "candidate": "life-cycles",
+   "s": [
+    "sammakon kehitysvaiheet"
+   ]
+  },
+  "elämänkierto": {
+   "candidate": "life-cycles",
+   "s": [
+    "elämänkierto",
+    "elämänkierto kurssi",
+    "elämänkierto kasvi",
+    "solun elämänkierto",
+    "punkin elämänkierto"
+   ]
+  },
+  "magneetin vetovoima": {
+   "candidate": "materials",
+   "s": [
+    "magneetin vetovoima"
+   ]
+  },
+  "kelluu vai uppoaa": {
+   "candidate": "materials",
+   "s": [
+    "kelluu vai uppoaa",
+    "muna kelluu vai uppoaa"
+   ]
+  },
+  "aurinkokunta": {
+   "candidate": "space",
+   "s": [
+    "aurinkokunta",
+    "aurinkokuntamme planeetat",
+    "aurinkokunta englanniksi",
+    "aurinkokuntamalli",
+    "aurinkokunta snap",
+    "aurinkokunta pienoismalli",
+    "aurinkokuntamalli helsinki",
+    "aurinkokuntamme",
+    "aurinkokunta snp",
+    "aurinkokunta mobile"
+   ]
+  },
+  "planeetat": {
+   "candidate": "space",
+   "s": [
+    "planeetat",
+    "planeetat järjestyksessä",
+    "planeetat nyt",
+    "planeetat koon mukaan",
+    "planeetat järjestyksessä 2026",
+    "planeetat taivaalla",
+    "planeetat linjassa 2026",
+    "planeetat järjestyksessä auringosta",
+    "planeetat englanniksi",
+    "planeetat chords"
+   ]
+  },
+  "planeetat tulostettava": {
+   "candidate": "space",
+   "s": [
+    "tulostettavat planeetat"
+   ]
+  },
+  "kuun vaiheet": {
+   "candidate": "space",
+   "s": [
+    "kuun vaiheet kalenteri",
+    "kuun vaiheet",
+    "kuun vaiheet 2026",
+    "kuun vaiheet nyt",
+    "kuun vaiheet elokuu 2026",
+    "kuun vaiheet kuvina",
+    "kuun vaiheet heinäkuu 2026",
+    "kuun vaiheet puutarhassa",
+    "kuun vaiheet 2027",
+    "kuun vaiheet kesäkuu 2026"
+   ]
+  },
+  "värien nimet": {
+   "candidate": "colors",
+   "s": [
+    "värien nimet",
+    "värien nimet suomeksi",
+    "värien nimet englanniksi",
+    "väriympyrä värien nimet",
+    "vesivärien värien nimet",
+    "hevosen värien nimet",
+    "tikkurila värien nimet",
+    "sinisten värien nimet",
+    "teknos värien nimet"
+   ]
+  },
+  "päävärit": {
+   "candidate": "colors",
+   "s": [
+    "päävärit",
+    "päävärit ja välivärit",
+    "päävärit nimet",
+    "päävärit elokuva",
+    "päävärit englanniksi",
+    "päävärit välivärit",
+    "päävärit ja vastavärit",
+    "päävärit sekoitus",
+    "päävärit maalaus",
+    "päävärit elokuva rooleissa"
+   ]
+  },
+  "värien sekoittaminen": {
+   "candidate": "colors",
+   "s": [
+    "värien sekoittaminen",
+    "värien sekoittaminen lasten kanssa",
+    "värien sekoittaminen ruskea",
+    "värioppi värien sekoittaminen",
+    "vesivärit värien sekoittaminen"
+   ]
+  },
+  "tasokuviot": {
+   "candidate": "2d-shapes",
+   "s": [
+    "tasokuviot",
+    "tasokuviot ja kappaleet",
+    "tasokuviot alkuopetus",
+    "geometriset tasokuviot",
+    "geometria tasokuviot"
+   ]
+  },
+  "geometriset muodot": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometriset muodot",
+    "geometriset muodot suomeksi",
+    "geometriset muodot nimet suomeksi",
+    "geometriset muodot lapsille",
+    "geometriset muodot nimet",
+    "geometriset muodot tehtävä",
+    "geometriset muodot englanniksi",
+    "kolmiulotteiset geometriset muodot",
+    "3d geometriset muodot",
+    "eri geometriset muodot"
+   ]
+  },
+  "pitkät vokaalit": {
+   "candidate": "digraphs",
+   "s": [
+    "pitkät vokaalit",
+    "wordwall pitkät vokaalit",
+    "pitkät ja lyhyet vokaalit"
+   ]
+  },
+  "diftongit": {
+   "candidate": "digraphs",
+   "s": [
+    "diftongit",
+    "diftongi tavu",
+    "diftongit wordwall",
+    "diftongit suomen kieli",
+    "diftongit suomessa",
+    "diftongit harjoituksia",
+    "diftongit s2",
+    "diftongit suomi",
+    "diftongit tavutus",
+    "kaikki diftongit"
+   ]
+  },
+  "lyhyt vai pitkä vokaali": {
+   "candidate": "digraphs",
+   "s": [
+    "lyhyt vai pitkä vokaali",
+    "wordwall lyhyt vai pitkä vokaali",
+    "lyhyt ja pitkä vokaali",
+    "lyhyt ja pitkä vokaali harjoituksia"
+   ]
+  },
+  "synonyymit": {
+   "candidate": "synonyms",
+   "s": [
+    "synonyymit",
+    "synonyymit karhu sanalle",
+    "synonyymit englanniksi",
+    "synonyymit sanalle ihana",
+    "synonyymit naiselle",
+    "synonyymit sanalle kaunis",
+    "synonyymit sanalle",
+    "synonyymit ja vastakohdat",
+    "synonyymit suomi",
+    "synonyymit sanakirja"
+   ]
+  },
+  "synonyymit tehtäviä": {
+   "candidate": "synonyms",
+   "s": [
+    "synonyymit tehtäviä"
+   ]
+  },
+  "samaa tarkoittavat sanat": {
+   "candidate": "synonyms",
+   "s": [
+    "samaa tarkoittavat sanat",
+    "samaa asiaa tarkoittavat sanat",
+    "suomen kielen samaa tarkoittavat sanat"
+   ]
+  },
+  "homofonit": {
+   "candidate": "homophones",
+   "s": [
+    "homofonit"
+   ]
+  },
+  "samalta kuulostavat sanat": {
+   "candidate": "homophones",
+   "s": [
+    "samalta kuulostavat sanat"
+   ]
+  },
+  "liikennemerkit": {
+   "candidate": "road-safety",
+   "s": [
+    "liikennemerkit",
+    "liikennemerkit pysäköinti lisäkilvet",
+    "liikennemerkit pysäköinti",
+    "liikennemerkit ja selitykset",
+    "liikennemerkit testi",
+    "liikennemerkit pysäköinti aika",
+    "liikennemerkit suomessa",
+    "liikennemerkit harjoitus",
+    "liikennemerkit lapsille",
+    "liikennemerkit värityskuva"
+   ]
+  },
+  "liikennemerkit tulostettava": {
+   "candidate": "road-safety",
+   "s": [
+    "liikennemerkit tulostettavat",
+    "tulostettavat liikennemerkit lapsille"
+   ]
+  },
+  "liikenneturvallisuus": {
+   "candidate": "road-safety",
+   "s": [
+    "liikenneturvallisuus",
+    "liikenneturvallisuusviikko",
+    "liikenneturvallisuusviikko 2026",
+    "liikenneturvallisuusviikko varhaiskasvatus",
+    "liikenneturvallisuusviikko värityskuva",
+    "liikenneturvallisuus lapsille",
+    "liikenneturvallisuuskeskus",
+    "liikenneturvallisuusviikko materiaali",
+    "liikenneturvallisuus värityskuva",
+    "liikenneturvallisuusstrategia"
+   ]
+  },
+  "liikenneturvallisuus tehtäviä": {
+   "candidate": "road-safety",
+   "s": [
+    "liikenneturvallisuus tehtäviä"
+   ]
+  },
+  "liikennesäännöt lapsille": {
+   "candidate": "road-safety",
+   "s": [
+    "liikennesäännöt lapsille"
+   ]
+  },
+  "maanosat": {
+   "candidate": "maps",
+   "s": [
+    "maanosat",
+    "maanosat kartta",
+    "maanosat ja valtameret",
+    "maanosat suomi",
+    "maanosat englanniksi",
+    "maanosat suurimmasta pienimpään",
+    "maanosat montako",
+    "maanosat ja meret",
+    "maanosat ja mantereet",
+    "maanosat pinta ala järjestyksessä"
+   ]
+  },
+  "maanosat tehtäviä": {
+   "candidate": "maps",
+   "s": [
+    "maanosat tehtäviä"
+   ]
+  },
+  "ilmansuunnat": {
+   "candidate": "maps",
+   "s": [
+    "ilmansuunnat",
+    "ilmansuunnat ruotsiksi",
+    "ilmansuunnat englanniksi",
+    "ilmansuunnat suomeksi",
+    "ilmansuunnat kartalla",
+    "ilmansuunnat asteina",
+    "ilmansuunnat kuva",
+    "ilmansuunnat suomen kartalla",
+    "ilmansuunnat kompassi",
+    "ilmansuunnat viroksi"
+   ]
+  },
+  "ilmansuunnat tehtäviä": {
+   "candidate": "maps",
+   "s": [
+    "ilmansuunnat tehtäviä"
+   ]
+  },
+  "kartan merkit": {
+   "candidate": "maps",
+   "s": [
+    "karttamerkit",
+    "karttamerkit suunnistus",
+    "karttamerkit järvi",
+    "karttamerkit maastokartta",
+    "karttamerkit vesistö",
+    "karttamerkit rastimääritteet",
+    "karttamerkit lähde",
+    "karttamerkit suo",
+    "karttamerkit kivi",
+    "karttamerkit selitykset"
+   ]
+  },
+  "sukupuu": {
+   "candidate": "family",
+   "s": [
+    "sukupuu",
+    "sukupuuttoon kuolleet eläimet",
+    "sukupuu pohja",
+    "sukupuutto englanniksi",
+    "sukupuutto",
+    "sukupuu netissä",
+    "sukupuu englanniksi",
+    "sukupuun piirtäminen",
+    "sukupuuttoon kuollut lintu",
+    "sukupuutossa"
+   ]
+  },
+  "sukupuu tulostettava": {
+   "candidate": "family",
+   "s": [
+    "sukupuu tulostettava pohja",
+    "sukupuu tulostettava"
+   ]
+  },
+  "perheenjäsenet": {
+   "candidate": "family",
+   "s": [
+    "perheenjäsenet englanniksi",
+    "perheenjäsenet ruotsiksi",
+    "perheenjäsenet",
+    "perheenjäsenet espanjaksi",
+    "perheenjäsenet saksaksi",
+    "perheenjäsenet japaniksi",
+    "perheenjäsenet italiaksi",
+    "perheenjäsenet suomeksi",
+    "netflix perheenjäsenet",
+    "kotivakuutus perheenjäsenet"
+   ]
+  },
+  "minun perheeni": {
+   "candidate": "family",
+   "s": [
+    "minun perheeni",
+    "minun perheeni tehtävä",
+    "minun perheeni rooleissa",
+    "minun perheeni ruotsiksi",
+    "minun perheeni askartelu",
+    "minun perheeni kirja",
+    "minun perheeni varhaiskasvatus",
+    "minun perheeni italiaksi",
+    "minun perheeni espanjaksi",
+    "minun perheeni saksaksi"
+   ]
+  }
+ }
+}

@@ -1,0 +1,2413 @@
+{
+ "locale": "de",
+ "market": {
+  "hl": "de",
+  "gl": "de"
+ },
+ "generatedAt": "2026-09-23T00:09:07.699Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds.json",
+ "requestCount": 168,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "plants": {
+   "heads": [
+    "teile der pflanze",
+    "pflanzen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 61,
+   "suggestions": [
+    "arbeitsblatt pflanzen 5 klasse",
+    "arbeitsblatt pflanzen klasse 6",
+    "arbeitsblatt pflanzen und tierzelle",
+    "aufbau pflanzen arbeitsblatt",
+    "ausmalbilder pflanzen zum ausdrucken",
+    "befruchtung pflanzen arbeitsblatt",
+    "bohnen pflanzen 2 klasse",
+    "bohnen pflanzen grundschule",
+    "bohnen pflanzen klasse 1",
+    "c4 pflanzen arbeitsblatt",
+    "deckblatt pflanzen zum ausdrucken",
+    "frühblüher pflanzen grundschule",
+    "grundschule pflanzen als feedback symbol",
+    "kartoffel teile der pflanze",
+    "kresse pflanzen grundschule",
+    "kresse pflanzen klasse 1",
+    "löwenzahn teile der pflanze",
+    "mandala pflanzen zum ausdrucken",
+    "mariendistel welche teile der pflanze",
+    "pflanzen",
+    "pflanzen 3 klasse",
+    "pflanzen arbeitsblatt",
+    "pflanzen arbeitsblatt grundschule",
+    "pflanzen bestimmen",
+    "pflanzen bestimmen arbeitsblatt",
+    "pflanzen bewertung grundschule",
+    "pflanzen bilder zum ausdrucken",
+    "pflanzen der wiese 1 klasse",
+    "pflanzen erkennen",
+    "pflanzen erkennen online kostenlos",
+    "pflanzen erkennen online kostenlos ohne app",
+    "pflanzen grundschule",
+    "pflanzen grundschule arbeitsblätter",
+    "pflanzen grundschule klasse 2",
+    "pflanzen grundschule material",
+    "pflanzen klasse 1",
+    "pflanzen klasse 2",
+    "pflanzen kölle",
+    "pflanzen memory zum ausdrucken",
+    "pflanzen online kaufen",
+    "pflanzen poster zum ausdrucken",
+    "pflanzen quiz zum ausdrucken",
+    "pflanzen sachunterricht klasse 2",
+    "pflanzen sachunterricht klasse 3",
+    "pflanzen schablonen zum ausdrucken",
+    "pflanzen schweden",
+    "pflanzen stempel grundschule",
+    "pflanzen sticker zum ausdrucken",
+    "pflanzen zum ausdrucken",
+    "pflanzenbestimmungs app",
+    "pflanzenkohle",
+    "sachunterricht pflanzen 1 klasse",
+    "teile der pflanze",
+    "teile der pflanze grundschule",
+    "teile der pflanzen mit denen sie sich vermehren",
+    "teile der pflanzenzelle",
+    "teile einer pflanze arbeitsblatt",
+    "welche teile der ashwagandha pflanze enthalten den wirkstoff withanolide",
+    "welche teile der pflanze essen wir",
+    "welche teile der pflanzenzelle besitzen eine membran",
+    "überwinterung pflanzen arbeitsblatt"
+   ]
+  },
+  "life-cycles": {
+   "heads": [
+    "entwicklung schmetterling",
+    "entwicklung frosch"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 24,
+   "suggestions": [
+    "entwicklung frosch",
+    "entwicklung frosch arbeitsblatt",
+    "entwicklung frosch bilder",
+    "entwicklung frosch dauer",
+    "entwicklung frosch grundschule",
+    "entwicklung frosch grundschule film",
+    "entwicklung frosch stadien",
+    "entwicklung frosch video",
+    "entwicklung froschlaich",
+    "entwicklung froschlaich zum frosch",
+    "entwicklung raupe schmetterling grundschule",
+    "entwicklung schmetterling",
+    "entwicklung schmetterling arbeitsblatt",
+    "entwicklung schmetterling bilder",
+    "entwicklung schmetterling dauer",
+    "entwicklung schmetterling film kinder",
+    "entwicklung schmetterling für kinder",
+    "entwicklung schmetterling für kinder erklärt",
+    "entwicklung schmetterling grundschule",
+    "entwicklung schmetterling grundschule arbeitsblatt",
+    "entwicklung schmetterling grundschule film",
+    "entwicklung schmetterling klasse 1",
+    "entwicklung schmetterling raupe",
+    "entwicklung schmetterling video"
+   ]
+  },
+  "materials": {
+   "heads": [
+    "materialien eigenschaften",
+    "magnetisch nicht magnetisch"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 6,
+   "suggestions": [
+    "3d druck materialien eigenschaften",
+    "3d druck materialien eigenschaften tabelle",
+    "magnetisch nicht magnetisch",
+    "materialien eigenschaften",
+    "materialien und ihre eigenschaften",
+    "materialien und ihre eigenschaften grundschule"
+   ]
+  },
+  "space": {
+   "heads": [
+    "planeten",
+    "mondphasen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 84,
+   "suggestions": [
+    "arbeitsblatt planeten 1 klasse",
+    "arbeitsblatt planeten 3 klasse",
+    "arbeitsblatt planeten klasse 4",
+    "arbeitsblatt planeten sonnensystem",
+    "arbeitsblatt planeten vorschule",
+    "ausmalbilder planeten zum ausdrucken",
+    "kalender 2025 mit mondphasen zum ausdrucken",
+    "kalender 2026 mit mondphasen zum ausdrucken",
+    "kalender mit mondphasen zum ausdrucken",
+    "klassenarbeit planeten klasse 3",
+    "mondphasen",
+    "mondphasen 2 klasse",
+    "mondphasen 2026",
+    "mondphasen 2026 heute",
+    "mondphasen 2026 zum ausdrucken",
+    "mondphasen 2027",
+    "mondphasen 3 klasse",
+    "mondphasen arbeitsblatt",
+    "mondphasen arbeitsblatt grundschule",
+    "mondphasen arbeitsblatt klasse 4",
+    "mondphasen arbeitsblatt klasse 5",
+    "mondphasen arbeitsblatt klasse 6",
+    "mondphasen arbeitsblatt klasse 7",
+    "mondphasen arbeitsblatt klett",
+    "mondphasen arbeitsblatt lösungen",
+    "mondphasen arbeitsblatt pdf",
+    "mondphasen arbeitsblatt physik",
+    "mondphasen august 2026",
+    "mondphasen bilder zum ausdrucken",
+    "mondphasen erklären grundschule",
+    "mondphasen experiment grundschule",
+    "mondphasen grundschule",
+    "mondphasen grundschule arbeitsblatt",
+    "mondphasen grundschule video",
+    "mondphasen heute",
+    "mondphasen juli 2026",
+    "mondphasen kalender",
+    "mondphasen kalender 2026",
+    "mondphasen modell grundschule",
+    "mondphasen september 2026",
+    "mondphasen zum ausdrucken",
+    "planeten",
+    "planeten arbeitsblatt",
+    "planeten arbeitsblatt grundschule",
+    "planeten arbeitsblatt kindergarten",
+    "planeten arbeitsblatt klasse 5",
+    "planeten arbeitsblatt pdf",
+    "planeten arbeitsblatt volksschule",
+    "planeten bilder zum ausdrucken",
+    "planeten bilder zum ausdrucken kostenlos",
+    "planeten grundschule",
+    "planeten grundschule arbeitsblätter",
+    "planeten grundschule film",
+    "planeten grundschule ideenreise",
+    "planeten grundschule klasse 1",
+    "planeten grundschule klasse 2",
+    "planeten grundschule klasse 3",
+    "planeten grundschule klasse 4",
+    "planeten grundschule kunst",
+    "planeten grundschule material",
+    "planeten klasse 1",
+    "planeten klasse 2",
+    "planeten klasse 3",
+    "planeten memory zum ausdrucken",
+    "planeten merksatz",
+    "planeten reihenfolge",
+    "planeten snap",
+    "planeten snapchat",
+    "planeten sonnensystem",
+    "planeten sonnensystem 3 klasse",
+    "planeten sonnensystem zum ausdrucken",
+    "planeten vorlage zum ausdrucken",
+    "planeten zum ausdrucken",
+    "planeten zum ausdrucken kostenlos",
+    "planeten zum ausdrucken pdf",
+    "planeten zum ausdrucken und ausmalen",
+    "planetengetriebe",
+    "planetenname",
+    "planetenstände heute",
+    "planetensystem",
+    "sachunterricht planeten klasse 2",
+    "test planeten 3 klasse",
+    "thema planeten 2 klasse",
+    "thema planeten 3 klasse"
+   ]
+  },
+  "colors": {
+   "heads": [
+    "farben lernen",
+    "farben"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 84,
+   "suggestions": [
+    "arbeitsblatt farben mischen kindergarten",
+    "artikel farben grundschule",
+    "c klasse farben 2025",
+    "deutsch lernen farben arbeitsblatt pdf",
+    "englisch 1. klasse farben",
+    "englisch farben lernen 3 klasse",
+    "farben",
+    "farben arbeitsblatt",
+    "farben arbeitsblatt a1",
+    "farben arbeitsblatt daz",
+    "farben arbeitsblatt deutsch",
+    "farben arbeitsblatt englisch",
+    "farben arbeitsblatt grundschule",
+    "farben arbeitsblatt kindergarten",
+    "farben arbeitsblatt kostenlos",
+    "farben arbeitsblatt pdf",
+    "farben auf schwedisch",
+    "farben bilder zum ausdrucken",
+    "farben bingo zum ausdrucken",
+    "farben des bösen",
+    "farben des bösen rot",
+    "farben des bösen schwarz",
+    "farben domino zum ausdrucken",
+    "farben englisch klasse 3",
+    "farben grundschule",
+    "farben grundschule arbeitsblatt",
+    "farben grundschule englisch",
+    "farben grundschule kunst",
+    "farben grundschule pdf",
+    "farben karten zum ausdrucken",
+    "farben klasse 1",
+    "farben klasse 3",
+    "farben lernen",
+    "farben lernen 1 klasse",
+    "farben lernen ab 2 jahren",
+    "farben lernen arbeitsblatt",
+    "farben lernen buch",
+    "farben lernen deutsch",
+    "farben lernen deutsch arbeitsblatt",
+    "farben lernen englisch grundschule",
+    "farben lernen grundschule",
+    "farben lernen kinder",
+    "farben lernen kinder 3 jahre",
+    "farben lernen kinder arbeitsblatt",
+    "farben lernen kinder pdf",
+    "farben lernen kindergarten arbeitsblatt",
+    "farben lernen kindergarten arbeitsblatt deutsch",
+    "farben lernen kleinkind",
+    "farben lernen mit eiern",
+    "farben lernen spiel",
+    "farben lernen zum ausdrucken",
+    "farben memory zum ausdrucken",
+    "farben memory zum ausdrucken kostenlos",
+    "farben mischen grundschule klasse 1",
+    "farben mischen klasse 1",
+    "farben mischen klasse 2",
+    "farben mischen klasse 3",
+    "farben mischen kunst klasse 1",
+    "farben mischen tabelle",
+    "farben mit deckkraft klasse 1",
+    "farben quiz zum ausdrucken",
+    "farben regenbogen",
+    "farben und formen klasse 1",
+    "farben zum ausdrucken",
+    "farbengeschäft in der nähe",
+    "farbenlöwe",
+    "farbenspiel des winds",
+    "französisch farben lernen arbeitsblatt",
+    "französisch farben lernen grundschule",
+    "g klasse farben 2024",
+    "g klasse farben 2025",
+    "g klasse farben 2026",
+    "grundschule farben fächer",
+    "grundschule farben mischen",
+    "grundschule farben wortarten",
+    "kalte und warme farben klasse 1",
+    "kinder farben lernen zum ausdrucken",
+    "mercedes c klasse farben 2023",
+    "ral farben zum ausdrucken",
+    "satzglieder farben grundschule",
+    "thema farben 1 klasse",
+    "v klasse farben 2025",
+    "v klasse farben 2026",
+    "warme und kalte farben klasse 2"
+   ]
+  },
+  "2d-shapes": {
+   "heads": [
+    "geometrische formen",
+    "formen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 115,
+   "suggestions": [
+    "arbeitsblatt formen klasse 2",
+    "arbeitsblatt formen klasse 3",
+    "einführung formen klasse 1",
+    "einführung geometrische formen 2 klasse",
+    "formen",
+    "formen 2 klasse mathe",
+    "formen 2 klasse übungen",
+    "formen 3 klasse grundschule",
+    "formen 3 klasse mathe",
+    "formen arbeitsblatt",
+    "formen arbeitsblatt 1 klasse",
+    "formen arbeitsblatt 2 klasse",
+    "formen arbeitsblatt grundschule",
+    "formen arbeitsblatt kinder",
+    "formen arbeitsblatt kindergarten",
+    "formen arbeitsblatt kita",
+    "formen arbeitsblatt kostenlos",
+    "formen arbeitsblatt pdf",
+    "formen arbeitsblatt vorschule",
+    "formen ausmalbilder zum ausdrucken",
+    "formen erkennen 3 klasse",
+    "formen grundschule",
+    "formen grundschule 4. klasse",
+    "formen grundschule arbeitsblätter",
+    "formen grundschule klasse 1",
+    "formen grundschule klasse 2",
+    "formen grundschule klasse 3",
+    "formen grundschule mathe",
+    "formen grundschule plakat",
+    "formen kindergarten zum ausdrucken",
+    "formen klasse 1",
+    "formen klasse 1 arbeitsblatt",
+    "formen klasse 1 mathe",
+    "formen klasse 1 tafelmaterial",
+    "formen klasse 2",
+    "formen klasse 3",
+    "formen legen klasse 1",
+    "formen legen klasse 2",
+    "formen memory zum ausdrucken",
+    "formen und körper klasse 2",
+    "formen vorlagen zum ausdrucken",
+    "formen zum ausdrucken",
+    "formen zum ausdrucken kinder",
+    "formen zum ausdrucken kostenlos",
+    "formentera",
+    "formentera flughafen",
+    "formentera karte",
+    "formentera urlaub",
+    "formentera wetter",
+    "formentor",
+    "formentor cupra",
+    "formentor mallorca",
+    "formentor vz5",
+    "geometrie formen klasse 2",
+    "geometrie formen klasse 3",
+    "geometrische formen",
+    "geometrische formen 1 klasse arbeitsblätter kostenlos",
+    "geometrische formen 1 klasse geschichte",
+    "geometrische formen 10. klasse",
+    "geometrische formen 2 klasse arbeitsblätter",
+    "geometrische formen 2 klasse arbeitsblätter kostenlos",
+    "geometrische formen 3 klasse arbeitsblätter",
+    "geometrische formen 3 klasse übungen",
+    "geometrische formen 3d",
+    "geometrische formen 3d zum ausdrucken",
+    "geometrische formen arbeitsblatt",
+    "geometrische formen arbeitsblatt 1 klasse",
+    "geometrische formen arbeitsblatt 3 klasse",
+    "geometrische formen arbeitsblatt grundschule",
+    "geometrische formen arbeitsblatt kostenlos",
+    "geometrische formen arbeitsblatt pdf",
+    "geometrische formen bilder zum ausdrucken",
+    "geometrische formen eigenschaften arbeitsblatt",
+    "geometrische formen englisch",
+    "geometrische formen erkennen 2 klasse",
+    "geometrische formen erkennen arbeitsblatt",
+    "geometrische formen grundschule",
+    "geometrische formen grundschule 2 klasse",
+    "geometrische formen grundschule arbeitsblatt kostenlos",
+    "geometrische formen grundschule arbeitsblätter",
+    "geometrische formen grundschule frau locke",
+    "geometrische formen grundschule ideenreise",
+    "geometrische formen grundschule klasse 1",
+    "geometrische formen grundschule klasse 2",
+    "geometrische formen grundschule klasse 3",
+    "geometrische formen grundschule klasse 4",
+    "geometrische formen grundschule pdf",
+    "geometrische formen grundschule zum ausdrucken",
+    "geometrische formen klasse 1",
+    "geometrische formen klasse 1 arbeitsblatt",
+    "geometrische formen klasse 1 einführung",
+    "geometrische formen klasse 1 pikas",
+    "geometrische formen klasse 1 tafelmaterial",
+    "geometrische formen klasse 2",
+    "geometrische formen klasse 3",
+    "geometrische formen mathe 3 klasse",
+    "geometrische formen pdf kostenlos",
+    "geometrische formen rauten",
+    "geometrische formen rauten 5 buchstaben",
+    "geometrische formen rätsel",
+    "geometrische formen spiegeln 3 klasse",
+    "geometrische formen und körper klasse 2",
+    "geometrische formen zeichnen 2. klasse",
+    "geometrische formen zeichnen 3 klasse",
+    "geometrische formen zeichnen arbeitsblatt",
+    "geometrische formen zum ausdrucken",
+    "geometrische formen zum ausdrucken bunt",
+    "geometrische formen übersicht",
+    "grundschule formen geometrie",
+    "kunst geometrische formen klasse 1",
+    "körper und formen klasse 3",
+    "lapbook formen zum ausdrucken",
+    "pikas formen klasse 1",
+    "vorlage geometrische formen zum ausdrucken",
+    "übungen für 2 geometrische formen 2 klasse arbeitsblätter"
+   ]
+  },
+  "digraphs": {
+   "heads": [
+    "sch ch",
+    "buchstabenverbindungen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 20,
+   "suggestions": [
+    "buchstabenverbindungen",
+    "buchstabenverbindungen basisschrift",
+    "buchstabenverbindungen deutsch",
+    "buchstabenverbindungen grundschrift",
+    "buchstabenverbindungen grundschule",
+    "buchstabenverbindungen schreibschrift",
+    "buchstabenverbindungen schreibschrift üben",
+    "buchstabenverbindungen üben",
+    "chat ch",
+    "sch ch",
+    "sch ch sprachfehler",
+    "sch ch übungen",
+    "sch cham",
+    "sch champs élysées lyrics",
+    "sch chanteur",
+    "sch cheveux",
+    "sch cheveux détachés",
+    "sch chur",
+    "schulausgangsschrift buchstabenverbindungen",
+    "schwierige buchstabenverbindungen"
+   ]
+  },
+  "synonyms": {
+   "heads": [
+    "synonyme",
+    "wortfeld"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 76,
+   "suggestions": [
+    "adjektive synonyme arbeitsblatt",
+    "arbeitsblatt synonyme antonyme",
+    "arbeitsblatt synonyme finden",
+    "arbeitsblatt wortfeld gehen",
+    "arbeitsblatt wortfeld machen",
+    "arbeitsblatt wortfeld sagen",
+    "arbeitsblatt wortfeld sagen grundschule",
+    "arbeitsblatt wortfeld sehen",
+    "arbeitsblatt wortfelder klasse 2",
+    "arbeitsblatt wortfelder klasse 3",
+    "grundschule wortfeld gehen",
+    "grundschule wortfeld sagen",
+    "synonyme",
+    "synonyme 2 klasse",
+    "synonyme 3 klasse",
+    "synonyme antonyme arbeitsblatt pdf",
+    "synonyme arbeitsblatt",
+    "synonyme arbeitsblatt 6 klasse",
+    "synonyme arbeitsblatt pdf",
+    "synonyme deutsch",
+    "synonyme deutsch arbeitsblatt",
+    "synonyme finden",
+    "synonyme finden grundschule",
+    "synonyme fragen grundschule",
+    "synonyme für döner",
+    "synonyme für geld",
+    "synonyme für gut",
+    "synonyme für saufen",
+    "synonyme für schön",
+    "synonyme gehen arbeitsblatt",
+    "synonyme gehen grundschule",
+    "synonyme grundschule",
+    "synonyme grundschule übungen",
+    "synonyme machen grundschule",
+    "synonyme sagen arbeitsblatt",
+    "synonyme sagen grundschule",
+    "synonyme sehen grundschule",
+    "synonyme sprechen grundschule",
+    "synonyme woxikon",
+    "synonymer",
+    "wortfeld",
+    "wortfeld arbeitsblatt",
+    "wortfeld arbeitsblatt grundschule",
+    "wortfeld arbeitsblatt pdf",
+    "wortfeld essen",
+    "wortfeld gehen",
+    "wortfeld gehen arbeitsblatt pdf",
+    "wortfeld gehen klasse 2",
+    "wortfeld gehen klasse 3",
+    "wortfeld grundschule",
+    "wortfeld grundschule 3 klasse",
+    "wortfeld grundschule arbeitsblätter",
+    "wortfeld klasse 2",
+    "wortfeld klasse 3",
+    "wortfeld machen",
+    "wortfeld sagen",
+    "wortfeld sagen 3 klasse übungen",
+    "wortfeld sagen arbeitsblatt pdf",
+    "wortfeld sagen grundschule",
+    "wortfeld sagen klasse 2",
+    "wortfeld sagen klasse 3",
+    "wortfeld sehen",
+    "wortfelder",
+    "wortfelder 3 klasse übungen",
+    "wortfelder 3 klasse übungen kostenlos",
+    "wortfelder beispiele",
+    "wortfelder deutsch klasse 3",
+    "wortfelder grundschule",
+    "wortfelder grundschule beispiele",
+    "wortfelder grundschule klasse 2",
+    "wortfelder grundschule klasse 3",
+    "wortfelder grundschule klasse 4",
+    "wortfelder grundschule pdf",
+    "wortfelder grundschule verben",
+    "wortfelder klasse 2 einführung",
+    "wortfelder klasse 3 pdf"
+   ]
+  },
+  "homophones": {
+   "heads": [
+    "das dass",
+    "gleich klingende wörter"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 44,
+   "suggestions": [
+    "das dass",
+    "das dass arbeitsblatt",
+    "das dass arbeitsblatt 4 klasse",
+    "das dass arbeitsblatt 6 klasse",
+    "das dass arbeitsblatt pdf",
+    "das dass beispiele",
+    "das dass grundschule",
+    "das dass grundschule arbeitsblatt",
+    "das dass grundschule pdf",
+    "das dass online übungen",
+    "das dass regel",
+    "das dass schreibung",
+    "das dass schreibung arbeitsblatt",
+    "das dass schreibweise",
+    "das dass sätze",
+    "das dass übungen",
+    "das dass übungen 10 klasse",
+    "das dass übungen 10 klasse pdf",
+    "das dass übungen pdf",
+    "das dass übungen zum ausdrucken",
+    "das oder dass 3 klasse",
+    "das oder dass arbeitsblatt mit lösungen",
+    "das oder dass grundschule erklärung",
+    "das oder dass grundschule video",
+    "das oder dass übungen mit lösungen zum ausdrucken",
+    "dass das arbeitsblatt grundschule",
+    "dass das arbeitsblatt klasse 10",
+    "dass das arbeitsblatt klasse 7",
+    "dass das klasse 10",
+    "diktat dass das 10 klasse",
+    "einführung das dass grundschule",
+    "erklärvideo das oder dass grundschule",
+    "gleich klingende wörter",
+    "gleich klingende wörter beispiele",
+    "gleich klingende wörter deutsch",
+    "gleich klingende wörter englisch",
+    "gleich klingende wörter englisch deutsch",
+    "gleich und ähnlich klingende wörter",
+    "regel das dass grundschule",
+    "stilmittel gleich klingende wörter",
+    "unterschied das dass grundschule",
+    "übung das dass grundschule",
+    "übungen das dass arbeitsblatt",
+    "übungsblatt das dass zum ausdrucken"
+   ]
+  },
+  "road-safety": {
+   "heads": [
+    "verkehrserziehung",
+    "verkehrszeichen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 103,
+   "suggestions": [
+    "arbeitsblatt verkehrserziehung 1 klasse",
+    "arbeitsblatt verkehrserziehung 4 klasse",
+    "arbeitsblatt verkehrserziehung kita",
+    "arbeitsblatt verkehrserziehung klasse 2",
+    "arbeitsblatt verkehrserziehung vorschule",
+    "arbeitsblatt verkehrserziehung.grundschule",
+    "arbeitsblatt verkehrszeichen 1 klasse",
+    "arbeitsblatt verkehrszeichen 3 klasse",
+    "arbeitsblatt verkehrszeichen 4 klasse",
+    "arbeitsblatt verkehrszeichen fahrradprüfung 4 klasse",
+    "arbeitsblatt verkehrszeichen klasse 2",
+    "schlaukopf verkehrserziehung klasse 3",
+    "symmetrie verkehrszeichen arbeitsblatt",
+    "test verkehrserziehung klasse 3",
+    "test verkehrszeichen 3 klasse",
+    "test verkehrszeichen klasse 2",
+    "verkehrserziehung",
+    "verkehrserziehung 2 klasse test",
+    "verkehrserziehung 3 klasse arbeitsblätter",
+    "verkehrserziehung 3 klasse bayern",
+    "verkehrserziehung 3 klasse fahrrad",
+    "verkehrserziehung 3 klasse grundschule",
+    "verkehrserziehung 3 klasse volksschule",
+    "verkehrserziehung ampel arbeitsblatt",
+    "verkehrserziehung arbeitsblatt",
+    "verkehrserziehung arbeitsblatt kindergarten",
+    "verkehrserziehung grundschule",
+    "verkehrserziehung grundschule 1 klasse",
+    "verkehrserziehung grundschule 2 klasse",
+    "verkehrserziehung grundschule 4 klasse",
+    "verkehrserziehung grundschule arbeitsblätter",
+    "verkehrserziehung grundschule bayern",
+    "verkehrserziehung grundschule film",
+    "verkehrserziehung grundschule kostenloses material",
+    "verkehrserziehung grundschule pdf",
+    "verkehrserziehung grundschule rlp",
+    "verkehrserziehung kindergarten",
+    "verkehrserziehung kindergarten material kostenlos",
+    "verkehrserziehung klasse 1",
+    "verkehrserziehung klasse 1 2",
+    "verkehrserziehung klasse 1 arbeitsblätter kostenlos",
+    "verkehrserziehung klasse 1 film",
+    "verkehrserziehung klasse 1 frau locke",
+    "verkehrserziehung klasse 1 kostenlos",
+    "verkehrserziehung klasse 1 material",
+    "verkehrserziehung klasse 1 pdf",
+    "verkehrserziehung klasse 1 video",
+    "verkehrserziehung klasse 1 zaubereinmaleins",
+    "verkehrserziehung klasse 2",
+    "verkehrserziehung klasse 2 arbeitsblätter",
+    "verkehrserziehung klasse 2 arbeitsblätter kostenlos",
+    "verkehrserziehung klasse 2 bayern",
+    "verkehrserziehung klasse 2 eduki",
+    "verkehrserziehung klasse 2 film",
+    "verkehrserziehung klasse 2 grundschule",
+    "verkehrserziehung klasse 2 material",
+    "verkehrserziehung klasse 2 pdf",
+    "verkehrserziehung klasse 3",
+    "verkehrserziehung klasse 3 arbeitsblätter kostenlos",
+    "verkehrserziehung klasse 3 material",
+    "verkehrserziehung klasse 4",
+    "verkehrserziehungskurs",
+    "verkehrszeichen",
+    "verkehrszeichen 3 klasse arbeitsblätter",
+    "verkehrszeichen 365-62",
+    "verkehrszeichen arbeitsblatt",
+    "verkehrszeichen arbeitsblatt grundschule",
+    "verkehrszeichen arbeitsblatt kindergarten",
+    "verkehrszeichen arbeitsblatt pdf",
+    "verkehrszeichen bedeutung",
+    "verkehrszeichen bilder und bedeutung",
+    "verkehrszeichen deutschland",
+    "verkehrszeichen grundschule",
+    "verkehrszeichen grundschule 2 klasse",
+    "verkehrszeichen grundschule 3 klasse",
+    "verkehrszeichen grundschule 4 klasse",
+    "verkehrszeichen grundschule arbeitsblatt",
+    "verkehrszeichen grundschule fahrrad",
+    "verkehrszeichen grundschule film",
+    "verkehrszeichen grundschule klasse 1",
+    "verkehrszeichen grundschule pdf",
+    "verkehrszeichen grundschule video",
+    "verkehrszeichen grundschule zum ausdrucken kostenlos",
+    "verkehrszeichen grundschule übersicht",
+    "verkehrszeichen klasse 1",
+    "verkehrszeichen klasse 2",
+    "verkehrszeichen klasse 3",
+    "verkehrszeichen klasse 3 und 4",
+    "verkehrszeichen schweden",
+    "verkehrszeichen schweden bedeutung",
+    "verkehrszeichen schweden m",
+    "verkehrszeichen schweden wohnmobil",
+    "verkehrszeichen zum ausdrucken",
+    "verkehrszeichen zum ausdrucken für kinder",
+    "verkehrszeichen zum ausdrucken kostenlos",
+    "verkehrszeichen zum ausdrucken mit bedeutung",
+    "verkehrszeichen zum ausdrucken pdf",
+    "verkehrszeichen zum ausdrucken pdf kinder",
+    "verkehrszeichen zum ausdrucken pdf kostenlos",
+    "verkehrszeichen zum ausmalen ausdrucken",
+    "verkehrszeichen übersicht",
+    "verkehrszeichen übersicht zum ausdrucken",
+    "übung verkehrszeichen klasse 3"
+   ]
+  },
+  "maps": {
+   "heads": [
+    "himmelsrichtungen",
+    "kontinente"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 84,
+   "suggestions": [
+    "7 kontinente zum ausdrucken",
+    "arbeitsblatt himmelsrichtungen 3 klasse",
+    "arbeitsblatt himmelsrichtungen 3 klasse pdf",
+    "arbeitsblatt himmelsrichtungen 3 klasse pdf kostenlos",
+    "arbeitsblatt himmelsrichtungen 4 klasse",
+    "arbeitsblatt kontinente und ozeane",
+    "arbeitsblatt kontinente und ozeane beschriften kostenlos",
+    "einführung himmelsrichtungen klasse 3",
+    "himmelsrichtungen",
+    "himmelsrichtungen 2. klasse",
+    "himmelsrichtungen anzeigen",
+    "himmelsrichtungen arbeitsblatt",
+    "himmelsrichtungen arbeitsblatt 5 klasse",
+    "himmelsrichtungen arbeitsblatt grundschule",
+    "himmelsrichtungen arbeitsblatt kostenlos",
+    "himmelsrichtungen arbeitsblatt pdf",
+    "himmelsrichtungen arbeitsblatt pdf kostenlos",
+    "himmelsrichtungen auf russisch",
+    "himmelsrichtungen englisch",
+    "himmelsrichtungen französisch",
+    "himmelsrichtungen google maps",
+    "himmelsrichtungen grundschule",
+    "himmelsrichtungen grundschule 3 klasse",
+    "himmelsrichtungen grundschule 4 klasse",
+    "himmelsrichtungen grundschule arbeitsblätter",
+    "himmelsrichtungen grundschule film",
+    "himmelsrichtungen grundschule ideenreise",
+    "himmelsrichtungen grundschule material",
+    "himmelsrichtungen grundschule spiele",
+    "himmelsrichtungen grundschule video",
+    "himmelsrichtungen klasse 3",
+    "himmelsrichtungen klasse 3 arbeitsblätter",
+    "himmelsrichtungen kompass",
+    "himmelsrichtungen sachunterricht 3 klasse",
+    "himmelsrichtungen spanisch",
+    "himmelsrichtungen spruch",
+    "himmelsrichtungen türkisch",
+    "himmelsrichtungen zum ausdrucken",
+    "hsu himmelsrichtungen 3 klasse",
+    "klassenarbeit himmelsrichtungen klasse 3",
+    "kontinente",
+    "kontinente 7",
+    "kontinente arbeitsblatt",
+    "kontinente arbeitsblatt 4 klasse",
+    "kontinente arbeitsblatt 5 klasse",
+    "kontinente arbeitsblatt grundschule",
+    "kontinente arbeitsblatt kostenlos",
+    "kontinente arbeitsblatt pdf",
+    "kontinente arbeitsblatt pdf kostenlos",
+    "kontinente arbeitsblatt volksschule",
+    "kontinente bilder zum ausdrucken",
+    "kontinente der erde",
+    "kontinente der welt",
+    "kontinente grundschule",
+    "kontinente grundschule 3 klasse",
+    "kontinente grundschule 4 klasse",
+    "kontinente grundschule arbeitsblatt",
+    "kontinente grundschule arbeitsblätter kostenlos",
+    "kontinente grundschule film",
+    "kontinente grundschule material",
+    "kontinente grundschule pdf",
+    "kontinente grundschule video",
+    "kontinente grundschule zum ausdrucken",
+    "kontinente karte",
+    "kontinente klasse 1",
+    "kontinente klasse 2",
+    "kontinente klasse 3",
+    "kontinente länder",
+    "kontinente nach größe",
+    "kontinente puzzle zum ausdrucken",
+    "kontinente umrisse zum ausdrucken",
+    "kontinente umrisse zum ausdrucken din a4",
+    "kontinente und ozeane",
+    "kontinente und ozeane 3 klasse",
+    "kontinente wie viele",
+    "kontinente zum ausdrucken",
+    "kontinente zum ausdrucken din a4",
+    "kontinente zum ausdrucken kostenlos",
+    "kontinente zum ausdrucken pdf",
+    "kontinenten",
+    "test himmelsrichtungen klasse 3",
+    "weltkarte kontinente zum ausdrucken",
+    "windrose himmelsrichtungen grundschule",
+    "übungen himmelsrichtungen klasse 3"
+   ]
+  },
+  "family": {
+   "heads": [
+    "familie",
+    "stammbaum"
+   ],
+   "requests": 14,
+   "productiveSeeds": 14,
+   "unique": 106,
+   "suggestions": [
+    "arbeitsblatt familie englisch",
+    "arbeitsblatt stammbaum abraham",
+    "arbeitsblatt stammbaum erstellen",
+    "ausmalbilder familie zum ausdrucken",
+    "eduki familie klasse 1",
+    "eduki familie klasse 2",
+    "essensplan familie zum ausdrucken",
+    "familie",
+    "familie 1 klasse grundschule",
+    "familie arbeitsblatt",
+    "familie arbeitsblatt 1 klasse",
+    "familie arbeitsblatt a1",
+    "familie arbeitsblatt daf",
+    "familie arbeitsblatt daz",
+    "familie arbeitsblatt grundschule",
+    "familie arbeitsblatt kinder",
+    "familie arbeitsblatt kindergarten",
+    "familie arbeitsblatt pdf",
+    "familie auf schwedisch",
+    "familie bilder zum ausdrucken",
+    "familie bundschuh",
+    "familie englisch 3 klasse",
+    "familie ethik klasse 2",
+    "familie ethik klasse 3",
+    "familie grundschule",
+    "familie grundschule arbeitsblätter",
+    "familie grundschule ethik",
+    "familie grundschule film",
+    "familie grundschule klasse 1",
+    "familie grundschule klasse 2",
+    "familie grundschule klasse 3",
+    "familie grundschule sachunterricht",
+    "familie grundschule unterrichtsmaterial",
+    "familie grundschule video",
+    "familie hsu 1 klasse",
+    "familie klasse 1",
+    "familie klasse 1 ethik",
+    "familie klasse 2",
+    "familie klasse 2 sachunterricht",
+    "familie klasse 3",
+    "familie ritter",
+    "familie sachunterricht klasse 1",
+    "familie sachunterricht klasse 3",
+    "familie vorstellen englisch 3 klasse",
+    "familie wallenberg schweden",
+    "familie zum ausdrucken",
+    "familienfilme",
+    "familienkasse",
+    "familienkasse bayern nord",
+    "familienkost",
+    "familienversicherung",
+    "grundschule stammbaum vorlage für kinder",
+    "grundschule stammbaum vorlage zum ausdrucken",
+    "haushaltsplan familie zum ausdrucken",
+    "haushaltsplan familie zum ausdrucken kostenlos",
+    "mein stammbaum arbeitsblatt",
+    "mein stammbaum grundschule",
+    "meine familie klasse 1",
+    "meine familie klasse 2",
+    "monatsplaner familie zum ausdrucken",
+    "schriftzug familie zum ausdrucken",
+    "stammbaum",
+    "stammbaum 3 klasse",
+    "stammbaum arbeitsblatt",
+    "stammbaum arbeitsblatt grundschule",
+    "stammbaum bilder zum ausdrucken",
+    "stammbaum daf arbeitsblatt",
+    "stammbaum der wirbeltiere arbeitsblatt lösung",
+    "stammbaum donald duck",
+    "stammbaum englisch",
+    "stammbaum englisch klasse 3",
+    "stammbaum erstellen",
+    "stammbaum erstellen grundschule",
+    "stammbaum erstellen zum ausdrucken",
+    "stammbaum evolution arbeitsblatt",
+    "stammbaum familie",
+    "stammbaum familie arbeitsblatt",
+    "stammbaum familie grundschule",
+    "stammbaum familie zum ausdrucken",
+    "stammbaum grundschule",
+    "stammbaum grundschule arbeitsblatt",
+    "stammbaum grundschule englisch",
+    "stammbaum grundschule vorlage",
+    "stammbaum house of the dragon",
+    "stammbaum klasse 1",
+    "stammbaum klasse 2",
+    "stammbaum leer zum ausdrucken",
+    "stammbaum schwedische königsfamilie",
+    "stammbaum targaryen",
+    "stammbaum vorlage",
+    "stammbaum vorlage zum ausdrucken",
+    "stammbaum vorlage zum ausdrucken 3 generationen",
+    "stammbaum vorlage zum ausdrucken pdf",
+    "stammbaum vorlagen zum ausdrucken kostenlos",
+    "stammbaum wirbeltiere arbeitsblatt",
+    "stammbaum zeichnen grundschule",
+    "stammbaum zum ausdrucken",
+    "stammbaum zum ausdrucken kostenlos",
+    "stammbaumanalyse",
+    "thema familie klasse 1",
+    "thema familie klasse 2",
+    "unterrichtseinheit familie klasse 2",
+    "unterrichtsmaterial familie klasse 1",
+    "wochenplan familie zum ausdrucken",
+    "wochenplan familie zum ausdrucken pdf kostenlos",
+    "wordwall familie 3. klasse"
+   ]
+  }
+ },
+ "suggestions": {
+  "teile der pflanze": {
+   "candidate": "plants",
+   "s": [
+    "teile der pflanze",
+    "teile der pflanzenzelle",
+    "teile der pflanze grundschule",
+    "teile der pflanzen mit denen sie sich vermehren",
+    "löwenzahn teile der pflanze",
+    "welche teile der pflanze essen wir",
+    "welche teile der pflanzenzelle besitzen eine membran",
+    "kartoffel teile der pflanze",
+    "mariendistel welche teile der pflanze",
+    "welche teile der ashwagandha pflanze enthalten den wirkstoff withanolide"
+   ]
+  },
+  "teile der pflanze arbeitsblatt": {
+   "candidate": "plants",
+   "s": [
+    "teile einer pflanze arbeitsblatt"
+   ]
+  },
+  "teile der pflanze grundschule": {
+   "candidate": "plants",
+   "s": [
+    "teile der pflanze grundschule"
+   ]
+  },
+  "pflanzen": {
+   "candidate": "plants",
+   "s": [
+    "pflanzen erkennen",
+    "pflanzen kölle",
+    "pflanzenbestimmungs app",
+    "pflanzen",
+    "pflanzen bestimmen",
+    "pflanzen schweden",
+    "pflanzenkohle",
+    "pflanzen online kaufen",
+    "pflanzen erkennen online kostenlos ohne app",
+    "pflanzen erkennen online kostenlos"
+   ]
+  },
+  "pflanzen arbeitsblatt": {
+   "candidate": "plants",
+   "s": [
+    "pflanzen arbeitsblatt",
+    "pflanzen arbeitsblatt grundschule",
+    "arbeitsblatt pflanzen 5 klasse",
+    "arbeitsblatt pflanzen und tierzelle",
+    "arbeitsblatt pflanzen klasse 6",
+    "überwinterung pflanzen arbeitsblatt",
+    "befruchtung pflanzen arbeitsblatt",
+    "aufbau pflanzen arbeitsblatt",
+    "pflanzen bestimmen arbeitsblatt",
+    "c4 pflanzen arbeitsblatt"
+   ]
+  },
+  "pflanzen zum ausdrucken": {
+   "candidate": "plants",
+   "s": [
+    "pflanzen zum ausdrucken",
+    "pflanzen memory zum ausdrucken",
+    "pflanzen bilder zum ausdrucken",
+    "pflanzen schablonen zum ausdrucken",
+    "mandala pflanzen zum ausdrucken",
+    "pflanzen quiz zum ausdrucken",
+    "deckblatt pflanzen zum ausdrucken",
+    "pflanzen sticker zum ausdrucken",
+    "ausmalbilder pflanzen zum ausdrucken",
+    "pflanzen poster zum ausdrucken"
+   ]
+  },
+  "pflanzen grundschule": {
+   "candidate": "plants",
+   "s": [
+    "pflanzen grundschule",
+    "pflanzen grundschule klasse 2",
+    "pflanzen grundschule material",
+    "pflanzen grundschule arbeitsblätter",
+    "grundschule pflanzen als feedback symbol",
+    "bohnen pflanzen grundschule",
+    "pflanzen stempel grundschule",
+    "pflanzen bewertung grundschule",
+    "frühblüher pflanzen grundschule",
+    "kresse pflanzen grundschule"
+   ]
+  },
+  "pflanzen klasse 1": {
+   "candidate": "plants",
+   "s": [
+    "pflanzen klasse 1",
+    "kresse pflanzen klasse 1",
+    "bohnen pflanzen klasse 1",
+    "sachunterricht pflanzen 1 klasse",
+    "pflanzen der wiese 1 klasse"
+   ]
+  },
+  "pflanzen klasse 2": {
+   "candidate": "plants",
+   "s": [
+    "pflanzen klasse 2",
+    "pflanzen grundschule klasse 2",
+    "pflanzen sachunterricht klasse 2",
+    "bohnen pflanzen 2 klasse"
+   ]
+  },
+  "pflanzen klasse 3": {
+   "candidate": "plants",
+   "s": [
+    "pflanzen 3 klasse",
+    "pflanzen sachunterricht klasse 3"
+   ]
+  },
+  "entwicklung schmetterling": {
+   "candidate": "life-cycles",
+   "s": [
+    "entwicklung schmetterling",
+    "entwicklung schmetterling grundschule",
+    "entwicklung schmetterling für kinder",
+    "entwicklung schmetterling arbeitsblatt",
+    "entwicklung schmetterling film kinder",
+    "entwicklung schmetterling video",
+    "entwicklung schmetterling bilder",
+    "entwicklung schmetterling raupe",
+    "entwicklung schmetterling für kinder erklärt",
+    "entwicklung schmetterling dauer"
+   ]
+  },
+  "entwicklung schmetterling arbeitsblatt": {
+   "candidate": "life-cycles",
+   "s": [
+    "entwicklung schmetterling arbeitsblatt",
+    "entwicklung schmetterling grundschule arbeitsblatt"
+   ]
+  },
+  "entwicklung schmetterling grundschule": {
+   "candidate": "life-cycles",
+   "s": [
+    "entwicklung schmetterling grundschule",
+    "entwicklung schmetterling grundschule film",
+    "entwicklung schmetterling grundschule arbeitsblatt",
+    "entwicklung raupe schmetterling grundschule"
+   ]
+  },
+  "entwicklung schmetterling klasse 1": {
+   "candidate": "life-cycles",
+   "s": [
+    "entwicklung schmetterling klasse 1"
+   ]
+  },
+  "entwicklung frosch": {
+   "candidate": "life-cycles",
+   "s": [
+    "entwicklung frosch",
+    "entwicklung frosch grundschule",
+    "entwicklung frosch bilder",
+    "entwicklung frosch video",
+    "entwicklung frosch arbeitsblatt",
+    "entwicklung froschlaich zum frosch",
+    "entwicklung froschlaich",
+    "entwicklung frosch grundschule film",
+    "entwicklung frosch stadien",
+    "entwicklung frosch dauer"
+   ]
+  },
+  "entwicklung frosch arbeitsblatt": {
+   "candidate": "life-cycles",
+   "s": [
+    "entwicklung frosch arbeitsblatt"
+   ]
+  },
+  "entwicklung frosch grundschule": {
+   "candidate": "life-cycles",
+   "s": [
+    "entwicklung frosch grundschule",
+    "entwicklung frosch grundschule film"
+   ]
+  },
+  "materialien eigenschaften": {
+   "candidate": "materials",
+   "s": [
+    "materialien eigenschaften",
+    "3d druck materialien eigenschaften",
+    "materialien und ihre eigenschaften grundschule",
+    "3d druck materialien eigenschaften tabelle",
+    "materialien und ihre eigenschaften"
+   ]
+  },
+  "materialien eigenschaften grundschule": {
+   "candidate": "materials",
+   "s": [
+    "materialien und ihre eigenschaften grundschule"
+   ]
+  },
+  "magnetisch nicht magnetisch": {
+   "candidate": "materials",
+   "s": [
+    "magnetisch nicht magnetisch"
+   ]
+  },
+  "planeten": {
+   "candidate": "space",
+   "s": [
+    "planeten sonnensystem",
+    "planeten",
+    "planeten reihenfolge",
+    "planetenstände heute",
+    "planeten snapchat",
+    "planetengetriebe",
+    "planeten snap",
+    "planetensystem",
+    "planetenname",
+    "planeten merksatz"
+   ]
+  },
+  "planeten arbeitsblatt": {
+   "candidate": "space",
+   "s": [
+    "planeten arbeitsblatt pdf",
+    "planeten arbeitsblatt",
+    "planeten arbeitsblatt grundschule",
+    "planeten arbeitsblatt volksschule",
+    "planeten arbeitsblatt klasse 5",
+    "planeten arbeitsblatt kindergarten",
+    "arbeitsblatt planeten klasse 4",
+    "arbeitsblatt planeten vorschule",
+    "arbeitsblatt planeten sonnensystem",
+    "arbeitsblatt planeten 3 klasse"
+   ]
+  },
+  "planeten zum ausdrucken": {
+   "candidate": "space",
+   "s": [
+    "planeten zum ausdrucken pdf",
+    "planeten zum ausdrucken",
+    "planeten zum ausdrucken kostenlos",
+    "planeten zum ausdrucken und ausmalen",
+    "planeten vorlage zum ausdrucken",
+    "planeten bilder zum ausdrucken",
+    "planeten memory zum ausdrucken",
+    "planeten bilder zum ausdrucken kostenlos",
+    "planeten sonnensystem zum ausdrucken",
+    "ausmalbilder planeten zum ausdrucken"
+   ]
+  },
+  "planeten grundschule": {
+   "candidate": "space",
+   "s": [
+    "planeten grundschule",
+    "planeten grundschule klasse 3",
+    "planeten grundschule material",
+    "planeten grundschule klasse 4",
+    "planeten grundschule ideenreise",
+    "planeten grundschule klasse 2",
+    "planeten grundschule film",
+    "planeten grundschule klasse 1",
+    "planeten grundschule arbeitsblätter",
+    "planeten grundschule kunst"
+   ]
+  },
+  "planeten klasse 1": {
+   "candidate": "space",
+   "s": [
+    "planeten klasse 1",
+    "planeten grundschule klasse 1",
+    "arbeitsblatt planeten 1 klasse"
+   ]
+  },
+  "planeten klasse 2": {
+   "candidate": "space",
+   "s": [
+    "planeten klasse 2",
+    "planeten grundschule klasse 2",
+    "sachunterricht planeten klasse 2",
+    "thema planeten 2 klasse"
+   ]
+  },
+  "planeten klasse 3": {
+   "candidate": "space",
+   "s": [
+    "planeten klasse 3",
+    "planeten grundschule klasse 3",
+    "klassenarbeit planeten klasse 3",
+    "test planeten 3 klasse",
+    "planeten sonnensystem 3 klasse",
+    "arbeitsblatt planeten 3 klasse",
+    "thema planeten 3 klasse"
+   ]
+  },
+  "mondphasen": {
+   "candidate": "space",
+   "s": [
+    "mondphasen",
+    "mondphasen 2026",
+    "mondphasen heute",
+    "mondphasen kalender",
+    "mondphasen august 2026",
+    "mondphasen juli 2026",
+    "mondphasen 2027",
+    "mondphasen september 2026",
+    "mondphasen 2026 heute",
+    "mondphasen kalender 2026"
+   ]
+  },
+  "mondphasen arbeitsblatt": {
+   "candidate": "space",
+   "s": [
+    "mondphasen arbeitsblatt",
+    "mondphasen arbeitsblatt klasse 6",
+    "mondphasen arbeitsblatt klasse 7",
+    "mondphasen arbeitsblatt grundschule",
+    "mondphasen arbeitsblatt pdf",
+    "mondphasen arbeitsblatt klasse 5",
+    "mondphasen arbeitsblatt lösungen",
+    "mondphasen arbeitsblatt klasse 4",
+    "mondphasen arbeitsblatt klett",
+    "mondphasen arbeitsblatt physik"
+   ]
+  },
+  "mondphasen zum ausdrucken": {
+   "candidate": "space",
+   "s": [
+    "mondphasen zum ausdrucken",
+    "mondphasen bilder zum ausdrucken",
+    "mondphasen 2026 zum ausdrucken",
+    "kalender mit mondphasen zum ausdrucken",
+    "kalender 2026 mit mondphasen zum ausdrucken",
+    "kalender 2025 mit mondphasen zum ausdrucken"
+   ]
+  },
+  "mondphasen grundschule": {
+   "candidate": "space",
+   "s": [
+    "mondphasen grundschule",
+    "mondphasen grundschule arbeitsblatt",
+    "mondphasen grundschule video",
+    "mondphasen experiment grundschule",
+    "mondphasen modell grundschule",
+    "mondphasen erklären grundschule"
+   ]
+  },
+  "mondphasen klasse 2": {
+   "candidate": "space",
+   "s": [
+    "mondphasen 2 klasse"
+   ]
+  },
+  "mondphasen klasse 3": {
+   "candidate": "space",
+   "s": [
+    "mondphasen 3 klasse"
+   ]
+  },
+  "farben lernen": {
+   "candidate": "colors",
+   "s": [
+    "farben lernen kinder",
+    "farben lernen",
+    "farben lernen ab 2 jahren",
+    "farben lernen spiel",
+    "farben lernen kinder 3 jahre",
+    "farben lernen kinder pdf",
+    "farben lernen buch",
+    "farben lernen kleinkind",
+    "farben lernen mit eiern",
+    "farben lernen deutsch"
+   ]
+  },
+  "farben lernen arbeitsblatt": {
+   "candidate": "colors",
+   "s": [
+    "farben lernen arbeitsblatt",
+    "farben lernen deutsch arbeitsblatt",
+    "farben lernen kindergarten arbeitsblatt",
+    "französisch farben lernen arbeitsblatt",
+    "farben lernen kinder arbeitsblatt",
+    "farben lernen kindergarten arbeitsblatt deutsch",
+    "deutsch lernen farben arbeitsblatt pdf"
+   ]
+  },
+  "farben lernen zum ausdrucken": {
+   "candidate": "colors",
+   "s": [
+    "farben lernen zum ausdrucken",
+    "kinder farben lernen zum ausdrucken"
+   ]
+  },
+  "farben lernen grundschule": {
+   "candidate": "colors",
+   "s": [
+    "farben lernen grundschule",
+    "farben lernen englisch grundschule",
+    "französisch farben lernen grundschule"
+   ]
+  },
+  "farben lernen klasse 1": {
+   "candidate": "colors",
+   "s": [
+    "farben lernen 1 klasse"
+   ]
+  },
+  "farben lernen klasse 3": {
+   "candidate": "colors",
+   "s": [
+    "englisch farben lernen 3 klasse"
+   ]
+  },
+  "farben": {
+   "candidate": "colors",
+   "s": [
+    "farbenlöwe",
+    "farben",
+    "farben des bösen schwarz",
+    "farben auf schwedisch",
+    "farben des bösen",
+    "farben regenbogen",
+    "farbengeschäft in der nähe",
+    "farbenspiel des winds",
+    "farben des bösen rot",
+    "farben mischen tabelle"
+   ]
+  },
+  "farben arbeitsblatt": {
+   "candidate": "colors",
+   "s": [
+    "farben arbeitsblatt pdf",
+    "farben arbeitsblatt",
+    "farben arbeitsblatt kindergarten",
+    "farben arbeitsblatt englisch",
+    "farben arbeitsblatt a1",
+    "farben arbeitsblatt daz",
+    "farben arbeitsblatt deutsch",
+    "farben arbeitsblatt grundschule",
+    "farben arbeitsblatt kostenlos",
+    "arbeitsblatt farben mischen kindergarten"
+   ]
+  },
+  "farben zum ausdrucken": {
+   "candidate": "colors",
+   "s": [
+    "farben zum ausdrucken",
+    "farben quiz zum ausdrucken",
+    "farben memory zum ausdrucken",
+    "farben bingo zum ausdrucken",
+    "farben domino zum ausdrucken",
+    "farben lernen zum ausdrucken",
+    "farben memory zum ausdrucken kostenlos",
+    "ral farben zum ausdrucken",
+    "farben bilder zum ausdrucken",
+    "farben karten zum ausdrucken"
+   ]
+  },
+  "farben grundschule": {
+   "candidate": "colors",
+   "s": [
+    "farben grundschule",
+    "farben grundschule arbeitsblatt",
+    "farben grundschule englisch",
+    "farben grundschule kunst",
+    "farben grundschule pdf",
+    "grundschule farben mischen",
+    "grundschule farben fächer",
+    "grundschule farben wortarten",
+    "artikel farben grundschule",
+    "satzglieder farben grundschule"
+   ]
+  },
+  "farben klasse 1": {
+   "candidate": "colors",
+   "s": [
+    "farben klasse 1",
+    "farben mischen klasse 1",
+    "englisch 1. klasse farben",
+    "farben mischen grundschule klasse 1",
+    "farben lernen 1 klasse",
+    "farben und formen klasse 1",
+    "thema farben 1 klasse",
+    "farben mit deckkraft klasse 1",
+    "farben mischen kunst klasse 1",
+    "kalte und warme farben klasse 1"
+   ]
+  },
+  "farben klasse 2": {
+   "candidate": "colors",
+   "s": [
+    "farben mischen klasse 2",
+    "g klasse farben 2025",
+    "v klasse farben 2026",
+    "g klasse farben 2024",
+    "v klasse farben 2025",
+    "g klasse farben 2026",
+    "c klasse farben 2025",
+    "warme und kalte farben klasse 2",
+    "mercedes c klasse farben 2023"
+   ]
+  },
+  "farben klasse 3": {
+   "candidate": "colors",
+   "s": [
+    "farben klasse 3",
+    "farben mischen klasse 3",
+    "farben englisch klasse 3"
+   ]
+  },
+  "geometrische formen": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometrische formen",
+    "geometrische formen grundschule",
+    "geometrische formen 3d",
+    "geometrische formen rätsel",
+    "geometrische formen arbeitsblatt pdf",
+    "geometrische formen pdf kostenlos",
+    "geometrische formen übersicht",
+    "geometrische formen rauten 5 buchstaben",
+    "geometrische formen englisch",
+    "geometrische formen rauten"
+   ]
+  },
+  "geometrische formen arbeitsblatt": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometrische formen arbeitsblatt pdf",
+    "geometrische formen arbeitsblatt",
+    "geometrische formen arbeitsblatt kostenlos",
+    "geometrische formen arbeitsblatt 1 klasse",
+    "geometrische formen arbeitsblatt grundschule",
+    "geometrische formen arbeitsblatt 3 klasse",
+    "geometrische formen grundschule arbeitsblatt kostenlos",
+    "geometrische formen zeichnen arbeitsblatt",
+    "geometrische formen erkennen arbeitsblatt",
+    "geometrische formen eigenschaften arbeitsblatt"
+   ]
+  },
+  "geometrische formen zum ausdrucken": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometrische formen zum ausdrucken",
+    "geometrische formen zum ausdrucken bunt",
+    "vorlage geometrische formen zum ausdrucken",
+    "geometrische formen grundschule zum ausdrucken",
+    "geometrische formen 3d zum ausdrucken",
+    "geometrische formen bilder zum ausdrucken"
+   ]
+  },
+  "geometrische formen grundschule": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometrische formen grundschule",
+    "geometrische formen grundschule pdf",
+    "geometrische formen grundschule arbeitsblätter",
+    "geometrische formen grundschule klasse 1",
+    "geometrische formen grundschule frau locke",
+    "geometrische formen grundschule arbeitsblatt kostenlos",
+    "geometrische formen grundschule 2 klasse",
+    "geometrische formen grundschule klasse 4",
+    "geometrische formen grundschule ideenreise",
+    "geometrische formen grundschule zum ausdrucken"
+   ]
+  },
+  "geometrische formen klasse 1": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometrische formen klasse 1",
+    "geometrische formen klasse 1 einführung",
+    "geometrische formen klasse 1 arbeitsblatt",
+    "geometrische formen klasse 1 pikas",
+    "geometrische formen klasse 1 tafelmaterial",
+    "geometrische formen 1 klasse arbeitsblätter kostenlos",
+    "geometrische formen 1 klasse geschichte",
+    "geometrische formen 10. klasse",
+    "geometrische formen grundschule klasse 1",
+    "kunst geometrische formen klasse 1"
+   ]
+  },
+  "geometrische formen klasse 2": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometrische formen klasse 2",
+    "geometrische formen 2 klasse arbeitsblätter",
+    "geometrische formen 2 klasse arbeitsblätter kostenlos",
+    "geometrische formen grundschule klasse 2",
+    "geometrische formen zeichnen 2. klasse",
+    "geometrische formen und körper klasse 2",
+    "einführung geometrische formen 2 klasse",
+    "geometrische formen erkennen 2 klasse",
+    "übungen für 2 geometrische formen 2 klasse arbeitsblätter"
+   ]
+  },
+  "geometrische formen klasse 3": {
+   "candidate": "2d-shapes",
+   "s": [
+    "geometrische formen klasse 3",
+    "geometrische formen 3 klasse übungen",
+    "geometrische formen 3 klasse arbeitsblätter",
+    "geometrische formen grundschule klasse 3",
+    "geometrische formen zeichnen 3 klasse",
+    "geometrische formen spiegeln 3 klasse",
+    "geometrische formen mathe 3 klasse"
+   ]
+  },
+  "formen": {
+   "candidate": "2d-shapes",
+   "s": [
+    "formentera",
+    "formentor mallorca",
+    "formentera urlaub",
+    "formentor",
+    "formen",
+    "formentor cupra",
+    "formentera wetter",
+    "formentera flughafen",
+    "formentor vz5",
+    "formentera karte"
+   ]
+  },
+  "formen arbeitsblatt": {
+   "candidate": "2d-shapes",
+   "s": [
+    "formen arbeitsblatt",
+    "formen arbeitsblatt kindergarten",
+    "formen arbeitsblatt vorschule",
+    "formen arbeitsblatt 1 klasse",
+    "formen arbeitsblatt grundschule",
+    "formen arbeitsblatt pdf",
+    "formen arbeitsblatt kita",
+    "formen arbeitsblatt kinder",
+    "formen arbeitsblatt kostenlos",
+    "formen arbeitsblatt 2 klasse"
+   ]
+  },
+  "formen zum ausdrucken": {
+   "candidate": "2d-shapes",
+   "s": [
+    "formen zum ausdrucken",
+    "formen zum ausdrucken kostenlos",
+    "formen zum ausdrucken kinder",
+    "formen vorlagen zum ausdrucken",
+    "formen ausmalbilder zum ausdrucken",
+    "geometrische formen zum ausdrucken",
+    "formen kindergarten zum ausdrucken",
+    "lapbook formen zum ausdrucken",
+    "geometrische formen zum ausdrucken bunt",
+    "formen memory zum ausdrucken"
+   ]
+  },
+  "formen grundschule": {
+   "candidate": "2d-shapes",
+   "s": [
+    "formen grundschule",
+    "formen grundschule klasse 1",
+    "formen grundschule klasse 2",
+    "formen grundschule klasse 3",
+    "formen grundschule mathe",
+    "formen grundschule arbeitsblätter",
+    "formen grundschule plakat",
+    "formen grundschule 4. klasse",
+    "grundschule formen geometrie",
+    "geometrische formen grundschule"
+   ]
+  },
+  "formen klasse 1": {
+   "candidate": "2d-shapes",
+   "s": [
+    "formen klasse 1",
+    "formen klasse 1 mathe",
+    "formen klasse 1 tafelmaterial",
+    "formen klasse 1 arbeitsblatt",
+    "geometrische formen klasse 1",
+    "formen grundschule klasse 1",
+    "einführung formen klasse 1",
+    "geometrische formen klasse 1 einführung",
+    "pikas formen klasse 1",
+    "formen legen klasse 1"
+   ]
+  },
+  "formen klasse 2": {
+   "candidate": "2d-shapes",
+   "s": [
+    "formen klasse 2",
+    "formen 2 klasse mathe",
+    "formen 2 klasse übungen",
+    "geometrische formen klasse 2",
+    "formen grundschule klasse 2",
+    "geometrie formen klasse 2",
+    "formen legen klasse 2",
+    "arbeitsblatt formen klasse 2",
+    "geometrische formen 2 klasse arbeitsblätter",
+    "formen und körper klasse 2"
+   ]
+  },
+  "formen klasse 3": {
+   "candidate": "2d-shapes",
+   "s": [
+    "formen klasse 3",
+    "formen 3 klasse mathe",
+    "formen 3 klasse grundschule",
+    "geometrische formen klasse 3",
+    "geometrie formen klasse 3",
+    "arbeitsblatt formen klasse 3",
+    "geometrische formen 3 klasse übungen",
+    "körper und formen klasse 3",
+    "geometrische formen 3 klasse arbeitsblätter",
+    "formen erkennen 3 klasse"
+   ]
+  },
+  "sch ch": {
+   "candidate": "digraphs",
+   "s": [
+    "sch ch",
+    "sch ch sprachfehler",
+    "sch cham",
+    "sch ch übungen",
+    "chat ch",
+    "sch chur",
+    "sch champs élysées lyrics",
+    "sch chanteur",
+    "sch cheveux",
+    "sch cheveux détachés"
+   ]
+  },
+  "buchstabenverbindungen": {
+   "candidate": "digraphs",
+   "s": [
+    "buchstabenverbindungen",
+    "buchstabenverbindungen grundschule",
+    "buchstabenverbindungen üben",
+    "buchstabenverbindungen basisschrift",
+    "buchstabenverbindungen grundschrift",
+    "buchstabenverbindungen schreibschrift",
+    "buchstabenverbindungen deutsch",
+    "buchstabenverbindungen schreibschrift üben",
+    "schwierige buchstabenverbindungen",
+    "schulausgangsschrift buchstabenverbindungen"
+   ]
+  },
+  "buchstabenverbindungen grundschule": {
+   "candidate": "digraphs",
+   "s": [
+    "buchstabenverbindungen grundschule"
+   ]
+  },
+  "synonyme": {
+   "candidate": "synonyms",
+   "s": [
+    "synonymer",
+    "synonyme",
+    "synonyme für saufen",
+    "synonyme woxikon",
+    "synonyme finden",
+    "synonyme deutsch",
+    "synonyme für döner",
+    "synonyme für geld",
+    "synonyme für schön",
+    "synonyme für gut"
+   ]
+  },
+  "synonyme arbeitsblatt": {
+   "candidate": "synonyms",
+   "s": [
+    "synonyme arbeitsblatt",
+    "synonyme arbeitsblatt pdf",
+    "synonyme arbeitsblatt 6 klasse",
+    "arbeitsblatt synonyme finden",
+    "arbeitsblatt synonyme antonyme",
+    "synonyme antonyme arbeitsblatt pdf",
+    "adjektive synonyme arbeitsblatt",
+    "synonyme deutsch arbeitsblatt",
+    "synonyme gehen arbeitsblatt",
+    "synonyme sagen arbeitsblatt"
+   ]
+  },
+  "synonyme grundschule": {
+   "candidate": "synonyms",
+   "s": [
+    "synonyme grundschule",
+    "synonyme grundschule übungen",
+    "synonyme sagen grundschule",
+    "synonyme gehen grundschule",
+    "synonyme sprechen grundschule",
+    "synonyme sehen grundschule",
+    "synonyme finden grundschule",
+    "synonyme fragen grundschule",
+    "synonyme machen grundschule"
+   ]
+  },
+  "synonyme klasse 2": {
+   "candidate": "synonyms",
+   "s": [
+    "synonyme 2 klasse"
+   ]
+  },
+  "synonyme klasse 3": {
+   "candidate": "synonyms",
+   "s": [
+    "synonyme 3 klasse"
+   ]
+  },
+  "wortfeld": {
+   "candidate": "synonyms",
+   "s": [
+    "wortfeld sagen",
+    "wortfeld",
+    "wortfeld gehen",
+    "wortfelder",
+    "wortfeld essen",
+    "wortfeld sehen",
+    "wortfeld sagen grundschule",
+    "wortfelder beispiele",
+    "wortfelder grundschule",
+    "wortfeld machen"
+   ]
+  },
+  "wortfeld arbeitsblatt": {
+   "candidate": "synonyms",
+   "s": [
+    "wortfeld arbeitsblatt pdf",
+    "wortfeld arbeitsblatt",
+    "wortfeld arbeitsblatt grundschule",
+    "arbeitsblatt wortfeld sagen",
+    "arbeitsblatt wortfeld gehen",
+    "arbeitsblatt wortfeld sagen grundschule",
+    "arbeitsblatt wortfeld machen",
+    "arbeitsblatt wortfeld sehen",
+    "wortfeld sagen arbeitsblatt pdf",
+    "wortfeld gehen arbeitsblatt pdf"
+   ]
+  },
+  "wortfeld grundschule": {
+   "candidate": "synonyms",
+   "s": [
+    "wortfeld grundschule",
+    "wortfeld grundschule arbeitsblätter",
+    "wortfeld grundschule 3 klasse",
+    "wortfelder grundschule klasse 4",
+    "wortfelder grundschule klasse 2",
+    "grundschule wortfeld sagen",
+    "wortfelder grundschule pdf",
+    "wortfelder grundschule beispiele",
+    "grundschule wortfeld gehen",
+    "wortfelder grundschule verben"
+   ]
+  },
+  "wortfeld klasse 2": {
+   "candidate": "synonyms",
+   "s": [
+    "wortfeld klasse 2",
+    "wortfelder klasse 2 einführung",
+    "wortfeld sagen klasse 2",
+    "wortfeld gehen klasse 2",
+    "wortfelder grundschule klasse 2",
+    "arbeitsblatt wortfelder klasse 2"
+   ]
+  },
+  "wortfeld klasse 3": {
+   "candidate": "synonyms",
+   "s": [
+    "wortfeld klasse 3",
+    "wortfelder klasse 3 pdf",
+    "wortfelder 3 klasse übungen",
+    "wortfelder 3 klasse übungen kostenlos",
+    "wortfeld sagen klasse 3",
+    "wortfeld gehen klasse 3",
+    "wortfelder grundschule klasse 3",
+    "wortfelder deutsch klasse 3",
+    "arbeitsblatt wortfelder klasse 3",
+    "wortfeld sagen 3 klasse übungen"
+   ]
+  },
+  "das dass": {
+   "candidate": "homophones",
+   "s": [
+    "das dass regel",
+    "das dass",
+    "das dass sätze",
+    "das dass übungen",
+    "das dass übungen pdf",
+    "das dass schreibung",
+    "das dass schreibweise",
+    "das dass arbeitsblatt",
+    "das dass online übungen",
+    "das dass beispiele"
+   ]
+  },
+  "das dass arbeitsblatt": {
+   "candidate": "homophones",
+   "s": [
+    "das dass arbeitsblatt",
+    "das dass arbeitsblatt pdf",
+    "das dass arbeitsblatt 4 klasse",
+    "das dass arbeitsblatt 6 klasse",
+    "dass das arbeitsblatt klasse 7",
+    "dass das arbeitsblatt grundschule",
+    "dass das arbeitsblatt klasse 10",
+    "das oder dass arbeitsblatt mit lösungen",
+    "übungen das dass arbeitsblatt",
+    "das dass schreibung arbeitsblatt"
+   ]
+  },
+  "das dass zum ausdrucken": {
+   "candidate": "homophones",
+   "s": [
+    "übungsblatt das dass zum ausdrucken",
+    "das dass übungen zum ausdrucken",
+    "das oder dass übungen mit lösungen zum ausdrucken"
+   ]
+  },
+  "das dass grundschule": {
+   "candidate": "homophones",
+   "s": [
+    "das dass grundschule",
+    "das dass grundschule arbeitsblatt",
+    "das dass grundschule pdf",
+    "regel das dass grundschule",
+    "einführung das dass grundschule",
+    "unterschied das dass grundschule",
+    "übung das dass grundschule",
+    "das oder dass grundschule erklärung",
+    "das oder dass grundschule video",
+    "erklärvideo das oder dass grundschule"
+   ]
+  },
+  "das dass klasse 1": {
+   "candidate": "homophones",
+   "s": [
+    "dass das klasse 10",
+    "das dass übungen 10 klasse pdf",
+    "das dass übungen 10 klasse",
+    "dass das arbeitsblatt klasse 10",
+    "diktat dass das 10 klasse"
+   ]
+  },
+  "das dass klasse 3": {
+   "candidate": "homophones",
+   "s": [
+    "das oder dass 3 klasse"
+   ]
+  },
+  "gleich klingende wörter": {
+   "candidate": "homophones",
+   "s": [
+    "gleich klingende wörter",
+    "gleich klingende wörter englisch",
+    "gleich klingende wörter beispiele",
+    "gleich klingende wörter englisch deutsch",
+    "gleich klingende wörter deutsch",
+    "stilmittel gleich klingende wörter",
+    "gleich und ähnlich klingende wörter"
+   ]
+  },
+  "verkehrserziehung": {
+   "candidate": "road-safety",
+   "s": [
+    "verkehrserziehung",
+    "verkehrserziehung kindergarten",
+    "verkehrserziehung klasse 1",
+    "verkehrserziehung klasse 4",
+    "verkehrserziehung klasse 2",
+    "verkehrserziehung kindergarten material kostenlos",
+    "verkehrserziehung grundschule kostenloses material",
+    "verkehrserziehung klasse 3",
+    "verkehrserziehungskurs",
+    "verkehrserziehung grundschule 2 klasse"
+   ]
+  },
+  "verkehrserziehung arbeitsblatt": {
+   "candidate": "road-safety",
+   "s": [
+    "verkehrserziehung arbeitsblatt",
+    "verkehrserziehung arbeitsblatt kindergarten",
+    "arbeitsblatt verkehrserziehung vorschule",
+    "arbeitsblatt verkehrserziehung kita",
+    "arbeitsblatt verkehrserziehung 4 klasse",
+    "arbeitsblatt verkehrserziehung 1 klasse",
+    "arbeitsblatt verkehrserziehung klasse 2",
+    "arbeitsblatt verkehrserziehung.grundschule",
+    "verkehrserziehung ampel arbeitsblatt"
+   ]
+  },
+  "verkehrserziehung grundschule": {
+   "candidate": "road-safety",
+   "s": [
+    "verkehrserziehung grundschule",
+    "verkehrserziehung grundschule kostenloses material",
+    "verkehrserziehung grundschule 2 klasse",
+    "verkehrserziehung grundschule 1 klasse",
+    "verkehrserziehung grundschule pdf",
+    "verkehrserziehung grundschule 4 klasse",
+    "verkehrserziehung grundschule bayern",
+    "verkehrserziehung grundschule film",
+    "verkehrserziehung grundschule rlp",
+    "verkehrserziehung grundschule arbeitsblätter"
+   ]
+  },
+  "verkehrserziehung klasse 1": {
+   "candidate": "road-safety",
+   "s": [
+    "verkehrserziehung klasse 1",
+    "verkehrserziehung klasse 1 arbeitsblätter kostenlos",
+    "verkehrserziehung klasse 1 zaubereinmaleins",
+    "verkehrserziehung klasse 1 frau locke",
+    "verkehrserziehung klasse 1 film",
+    "verkehrserziehung klasse 1 pdf",
+    "verkehrserziehung klasse 1 kostenlos",
+    "verkehrserziehung klasse 1 video",
+    "verkehrserziehung klasse 1 material",
+    "verkehrserziehung klasse 1 2"
+   ]
+  },
+  "verkehrserziehung klasse 2": {
+   "candidate": "road-safety",
+   "s": [
+    "verkehrserziehung klasse 2",
+    "verkehrserziehung klasse 2 arbeitsblätter kostenlos",
+    "verkehrserziehung klasse 2 film",
+    "verkehrserziehung klasse 2 bayern",
+    "verkehrserziehung klasse 2 grundschule",
+    "verkehrserziehung klasse 2 arbeitsblätter",
+    "verkehrserziehung klasse 2 material",
+    "verkehrserziehung klasse 2 pdf",
+    "verkehrserziehung klasse 2 eduki",
+    "verkehrserziehung 2 klasse test"
+   ]
+  },
+  "verkehrserziehung klasse 3": {
+   "candidate": "road-safety",
+   "s": [
+    "verkehrserziehung klasse 3",
+    "verkehrserziehung klasse 3 arbeitsblätter kostenlos",
+    "verkehrserziehung klasse 3 material",
+    "verkehrserziehung 3 klasse arbeitsblätter",
+    "verkehrserziehung 3 klasse fahrrad",
+    "verkehrserziehung 3 klasse grundschule",
+    "verkehrserziehung 3 klasse bayern",
+    "verkehrserziehung 3 klasse volksschule",
+    "schlaukopf verkehrserziehung klasse 3",
+    "test verkehrserziehung klasse 3"
+   ]
+  },
+  "verkehrszeichen": {
+   "candidate": "road-safety",
+   "s": [
+    "verkehrszeichen schweden",
+    "verkehrszeichen",
+    "verkehrszeichen schweden wohnmobil",
+    "verkehrszeichen schweden bedeutung",
+    "verkehrszeichen schweden m",
+    "verkehrszeichen deutschland",
+    "verkehrszeichen 365-62",
+    "verkehrszeichen bedeutung",
+    "verkehrszeichen übersicht",
+    "verkehrszeichen bilder und bedeutung"
+   ]
+  },
+  "verkehrszeichen arbeitsblatt": {
+   "candidate": "road-safety",
+   "s": [
+    "verkehrszeichen arbeitsblatt pdf",
+    "verkehrszeichen arbeitsblatt",
+    "verkehrszeichen arbeitsblatt grundschule",
+    "verkehrszeichen arbeitsblatt kindergarten",
+    "arbeitsblatt verkehrszeichen fahrradprüfung 4 klasse",
+    "arbeitsblatt verkehrszeichen klasse 2",
+    "arbeitsblatt verkehrszeichen 3 klasse",
+    "arbeitsblatt verkehrszeichen 1 klasse",
+    "arbeitsblatt verkehrszeichen 4 klasse",
+    "symmetrie verkehrszeichen arbeitsblatt"
+   ]
+  },
+  "verkehrszeichen zum ausdrucken": {
+   "candidate": "road-safety",
+   "s": [
+    "verkehrszeichen zum ausdrucken pdf",
+    "verkehrszeichen zum ausdrucken kostenlos",
+    "verkehrszeichen zum ausdrucken",
+    "verkehrszeichen zum ausdrucken pdf kinder",
+    "verkehrszeichen zum ausdrucken pdf kostenlos",
+    "verkehrszeichen zum ausdrucken mit bedeutung",
+    "verkehrszeichen zum ausdrucken für kinder",
+    "verkehrszeichen grundschule zum ausdrucken kostenlos",
+    "verkehrszeichen zum ausmalen ausdrucken",
+    "verkehrszeichen übersicht zum ausdrucken"
+   ]
+  },
+  "verkehrszeichen grundschule": {
+   "candidate": "road-safety",
+   "s": [
+    "verkehrszeichen grundschule",
+    "verkehrszeichen grundschule zum ausdrucken kostenlos",
+    "verkehrszeichen grundschule pdf",
+    "verkehrszeichen grundschule arbeitsblatt",
+    "verkehrszeichen grundschule video",
+    "verkehrszeichen grundschule film",
+    "verkehrszeichen grundschule 2 klasse",
+    "verkehrszeichen grundschule 4 klasse",
+    "verkehrszeichen grundschule fahrrad",
+    "verkehrszeichen grundschule übersicht"
+   ]
+  },
+  "verkehrszeichen klasse 1": {
+   "candidate": "road-safety",
+   "s": [
+    "verkehrszeichen klasse 1",
+    "verkehrszeichen grundschule klasse 1",
+    "arbeitsblatt verkehrszeichen 1 klasse"
+   ]
+  },
+  "verkehrszeichen klasse 2": {
+   "candidate": "road-safety",
+   "s": [
+    "verkehrszeichen klasse 2",
+    "arbeitsblatt verkehrszeichen klasse 2",
+    "test verkehrszeichen klasse 2",
+    "verkehrszeichen grundschule 2 klasse"
+   ]
+  },
+  "verkehrszeichen klasse 3": {
+   "candidate": "road-safety",
+   "s": [
+    "verkehrszeichen klasse 3",
+    "verkehrszeichen klasse 3 und 4",
+    "verkehrszeichen 3 klasse arbeitsblätter",
+    "übung verkehrszeichen klasse 3",
+    "test verkehrszeichen 3 klasse",
+    "verkehrszeichen grundschule 3 klasse"
+   ]
+  },
+  "himmelsrichtungen": {
+   "candidate": "maps",
+   "s": [
+    "himmelsrichtungen",
+    "himmelsrichtungen anzeigen",
+    "himmelsrichtungen spruch",
+    "himmelsrichtungen englisch",
+    "himmelsrichtungen kompass",
+    "himmelsrichtungen spanisch",
+    "himmelsrichtungen französisch",
+    "himmelsrichtungen türkisch",
+    "himmelsrichtungen google maps",
+    "himmelsrichtungen auf russisch"
+   ]
+  },
+  "himmelsrichtungen arbeitsblatt": {
+   "candidate": "maps",
+   "s": [
+    "himmelsrichtungen arbeitsblatt pdf",
+    "himmelsrichtungen arbeitsblatt",
+    "himmelsrichtungen arbeitsblatt pdf kostenlos",
+    "himmelsrichtungen arbeitsblatt 5 klasse",
+    "himmelsrichtungen arbeitsblatt kostenlos",
+    "himmelsrichtungen arbeitsblatt grundschule",
+    "arbeitsblatt himmelsrichtungen 3 klasse pdf",
+    "arbeitsblatt himmelsrichtungen 3 klasse",
+    "arbeitsblatt himmelsrichtungen 4 klasse",
+    "arbeitsblatt himmelsrichtungen 3 klasse pdf kostenlos"
+   ]
+  },
+  "himmelsrichtungen zum ausdrucken": {
+   "candidate": "maps",
+   "s": [
+    "himmelsrichtungen zum ausdrucken"
+   ]
+  },
+  "himmelsrichtungen grundschule": {
+   "candidate": "maps",
+   "s": [
+    "himmelsrichtungen grundschule",
+    "himmelsrichtungen grundschule arbeitsblätter",
+    "himmelsrichtungen grundschule material",
+    "himmelsrichtungen grundschule 3 klasse",
+    "himmelsrichtungen grundschule ideenreise",
+    "himmelsrichtungen grundschule video",
+    "himmelsrichtungen grundschule spiele",
+    "himmelsrichtungen grundschule 4 klasse",
+    "himmelsrichtungen grundschule film",
+    "windrose himmelsrichtungen grundschule"
+   ]
+  },
+  "himmelsrichtungen klasse 2": {
+   "candidate": "maps",
+   "s": [
+    "himmelsrichtungen 2. klasse"
+   ]
+  },
+  "himmelsrichtungen klasse 3": {
+   "candidate": "maps",
+   "s": [
+    "himmelsrichtungen klasse 3 arbeitsblätter",
+    "himmelsrichtungen klasse 3",
+    "klassenarbeit himmelsrichtungen klasse 3",
+    "test himmelsrichtungen klasse 3",
+    "einführung himmelsrichtungen klasse 3",
+    "übungen himmelsrichtungen klasse 3",
+    "arbeitsblatt himmelsrichtungen 3 klasse pdf",
+    "himmelsrichtungen grundschule 3 klasse",
+    "himmelsrichtungen sachunterricht 3 klasse",
+    "hsu himmelsrichtungen 3 klasse"
+   ]
+  },
+  "kontinente": {
+   "candidate": "maps",
+   "s": [
+    "kontinente",
+    "kontinente der erde",
+    "kontinente der welt",
+    "kontinente karte",
+    "kontinente nach größe",
+    "kontinente wie viele",
+    "kontinente und ozeane",
+    "kontinenten",
+    "kontinente 7",
+    "kontinente länder"
+   ]
+  },
+  "kontinente arbeitsblatt": {
+   "candidate": "maps",
+   "s": [
+    "kontinente arbeitsblatt pdf kostenlos",
+    "kontinente arbeitsblatt",
+    "kontinente arbeitsblatt pdf",
+    "kontinente arbeitsblatt kostenlos",
+    "kontinente arbeitsblatt grundschule",
+    "kontinente arbeitsblatt volksschule",
+    "kontinente arbeitsblatt 5 klasse",
+    "kontinente arbeitsblatt 4 klasse",
+    "arbeitsblatt kontinente und ozeane beschriften kostenlos",
+    "arbeitsblatt kontinente und ozeane"
+   ]
+  },
+  "kontinente zum ausdrucken": {
+   "candidate": "maps",
+   "s": [
+    "kontinente zum ausdrucken pdf",
+    "kontinente zum ausdrucken",
+    "kontinente zum ausdrucken kostenlos",
+    "kontinente zum ausdrucken din a4",
+    "kontinente umrisse zum ausdrucken",
+    "weltkarte kontinente zum ausdrucken",
+    "7 kontinente zum ausdrucken",
+    "kontinente puzzle zum ausdrucken",
+    "kontinente bilder zum ausdrucken",
+    "kontinente umrisse zum ausdrucken din a4"
+   ]
+  },
+  "kontinente grundschule": {
+   "candidate": "maps",
+   "s": [
+    "kontinente grundschule",
+    "kontinente grundschule arbeitsblätter kostenlos",
+    "kontinente grundschule video",
+    "kontinente grundschule pdf",
+    "kontinente grundschule 4 klasse",
+    "kontinente grundschule arbeitsblatt",
+    "kontinente grundschule 3 klasse",
+    "kontinente grundschule film",
+    "kontinente grundschule material",
+    "kontinente grundschule zum ausdrucken"
+   ]
+  },
+  "kontinente klasse 1": {
+   "candidate": "maps",
+   "s": [
+    "kontinente klasse 1"
+   ]
+  },
+  "kontinente klasse 2": {
+   "candidate": "maps",
+   "s": [
+    "kontinente klasse 2"
+   ]
+  },
+  "kontinente klasse 3": {
+   "candidate": "maps",
+   "s": [
+    "kontinente klasse 3",
+    "kontinente grundschule 3 klasse",
+    "kontinente und ozeane 3 klasse"
+   ]
+  },
+  "familie": {
+   "candidate": "family",
+   "s": [
+    "familie",
+    "familienkasse",
+    "familienkasse bayern nord",
+    "familie bundschuh",
+    "familienversicherung",
+    "familie auf schwedisch",
+    "familienkost",
+    "familienfilme",
+    "familie ritter",
+    "familie wallenberg schweden"
+   ]
+  },
+  "familie arbeitsblatt": {
+   "candidate": "family",
+   "s": [
+    "familie arbeitsblatt",
+    "familie arbeitsblatt 1 klasse",
+    "familie arbeitsblatt pdf",
+    "familie arbeitsblatt a1",
+    "familie arbeitsblatt grundschule",
+    "familie arbeitsblatt kindergarten",
+    "familie arbeitsblatt daf",
+    "familie arbeitsblatt daz",
+    "familie arbeitsblatt kinder",
+    "arbeitsblatt familie englisch"
+   ]
+  },
+  "familie zum ausdrucken": {
+   "candidate": "family",
+   "s": [
+    "familie zum ausdrucken",
+    "haushaltsplan familie zum ausdrucken",
+    "wochenplan familie zum ausdrucken pdf kostenlos",
+    "wochenplan familie zum ausdrucken",
+    "ausmalbilder familie zum ausdrucken",
+    "haushaltsplan familie zum ausdrucken kostenlos",
+    "schriftzug familie zum ausdrucken",
+    "monatsplaner familie zum ausdrucken",
+    "familie bilder zum ausdrucken",
+    "essensplan familie zum ausdrucken"
+   ]
+  },
+  "familie grundschule": {
+   "candidate": "family",
+   "s": [
+    "familie grundschule",
+    "familie grundschule klasse 2",
+    "familie grundschule ethik",
+    "familie grundschule klasse 1",
+    "familie grundschule unterrichtsmaterial",
+    "familie grundschule klasse 3",
+    "familie grundschule film",
+    "familie grundschule video",
+    "familie grundschule sachunterricht",
+    "familie grundschule arbeitsblätter"
+   ]
+  },
+  "familie klasse 1": {
+   "candidate": "family",
+   "s": [
+    "familie klasse 1",
+    "familie klasse 1 ethik",
+    "familie 1 klasse grundschule",
+    "familie sachunterricht klasse 1",
+    "meine familie klasse 1",
+    "thema familie klasse 1",
+    "unterrichtsmaterial familie klasse 1",
+    "eduki familie klasse 1",
+    "familie arbeitsblatt 1 klasse",
+    "familie hsu 1 klasse"
+   ]
+  },
+  "familie klasse 2": {
+   "candidate": "family",
+   "s": [
+    "familie klasse 2",
+    "familie klasse 2 sachunterricht",
+    "familie grundschule klasse 2",
+    "familie ethik klasse 2",
+    "thema familie klasse 2",
+    "meine familie klasse 2",
+    "unterrichtseinheit familie klasse 2",
+    "eduki familie klasse 2"
+   ]
+  },
+  "familie klasse 3": {
+   "candidate": "family",
+   "s": [
+    "familie klasse 3",
+    "familie grundschule klasse 3",
+    "familie ethik klasse 3",
+    "familie sachunterricht klasse 3",
+    "familie englisch 3 klasse",
+    "familie vorstellen englisch 3 klasse",
+    "wordwall familie 3. klasse"
+   ]
+  },
+  "stammbaum": {
+   "candidate": "family",
+   "s": [
+    "stammbaum schwedische königsfamilie",
+    "stammbaum",
+    "stammbaum erstellen",
+    "stammbaum targaryen",
+    "stammbaum donald duck",
+    "stammbaum vorlage",
+    "stammbaum house of the dragon",
+    "stammbaumanalyse",
+    "stammbaum englisch",
+    "stammbaum familie"
+   ]
+  },
+  "stammbaum arbeitsblatt": {
+   "candidate": "family",
+   "s": [
+    "stammbaum arbeitsblatt",
+    "stammbaum arbeitsblatt grundschule",
+    "arbeitsblatt stammbaum erstellen",
+    "arbeitsblatt stammbaum abraham",
+    "stammbaum evolution arbeitsblatt",
+    "stammbaum wirbeltiere arbeitsblatt",
+    "mein stammbaum arbeitsblatt",
+    "stammbaum familie arbeitsblatt",
+    "stammbaum daf arbeitsblatt",
+    "stammbaum der wirbeltiere arbeitsblatt lösung"
+   ]
+  },
+  "stammbaum zum ausdrucken": {
+   "candidate": "family",
+   "s": [
+    "stammbaum zum ausdrucken",
+    "stammbaum zum ausdrucken kostenlos",
+    "stammbaum vorlage zum ausdrucken",
+    "stammbaum vorlagen zum ausdrucken kostenlos",
+    "stammbaum bilder zum ausdrucken",
+    "stammbaum leer zum ausdrucken",
+    "stammbaum erstellen zum ausdrucken",
+    "stammbaum vorlage zum ausdrucken 3 generationen",
+    "stammbaum vorlage zum ausdrucken pdf",
+    "stammbaum familie zum ausdrucken"
+   ]
+  },
+  "stammbaum grundschule": {
+   "candidate": "family",
+   "s": [
+    "stammbaum grundschule",
+    "stammbaum grundschule vorlage",
+    "stammbaum grundschule arbeitsblatt",
+    "stammbaum grundschule englisch",
+    "grundschule stammbaum vorlage für kinder",
+    "grundschule stammbaum vorlage zum ausdrucken",
+    "stammbaum familie grundschule",
+    "stammbaum erstellen grundschule",
+    "stammbaum zeichnen grundschule",
+    "mein stammbaum grundschule"
+   ]
+  },
+  "stammbaum klasse 1": {
+   "candidate": "family",
+   "s": [
+    "stammbaum klasse 1"
+   ]
+  },
+  "stammbaum klasse 2": {
+   "candidate": "family",
+   "s": [
+    "stammbaum klasse 2"
+   ]
+  },
+  "stammbaum klasse 3": {
+   "candidate": "family",
+   "s": [
+    "stammbaum 3 klasse",
+    "stammbaum englisch klasse 3"
+   ]
+  }
+ }
+}

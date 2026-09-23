@@ -1,0 +1,1689 @@
+{
+ "locale": "nl",
+ "market": {
+  "hl": "nl",
+  "gl": "nl"
+ },
+ "generatedAt": "2026-09-23T00:12:30.270Z",
+ "seedFile": "docs/worksheet-gen/b5-designs/_records/candidate-seeds.json",
+ "requestCount": 168,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "plants": {
+   "heads": [
+    "delen van een plant",
+    "plant"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 22,
+   "suggestions": [
+    "delen van een plant",
+    "delen van een plant benoemen",
+    "delen van een plant filmpje",
+    "delen van een plant werkblad",
+    "delen van een plantaardige cel",
+    "delen van een plantencel",
+    "eetbare delen van een plant",
+    "levenscyclus plant kleuters",
+    "plant",
+    "plant een olijfboom printen",
+    "plantagen",
+    "plantagen karlstad",
+    "plantagen växjö",
+    "plantain",
+    "plantar fasciitis",
+    "plantenwinkel in de buurt",
+    "planteray rum",
+    "plantskola",
+    "plantskola hagfors",
+    "welke delen van een plant gebruikt de mens als voedsel",
+    "welke delen van een plant zorgen voor gaswisseling",
+    "welke delen van een plant zorgen voor voortplanting"
+   ]
+  },
+  "life-cycles": {
+   "heads": [
+    "levenscyclus vlinder",
+    "van rups tot vlinder"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 16,
+   "suggestions": [
+    "filmpje van rups tot vlinder kleuters",
+    "levenscyclus atalanta vlinder",
+    "levenscyclus rups vlinder",
+    "levenscyclus vlinder",
+    "levenscyclus vlinder filmpje",
+    "levenscyclus vlinder kleuters",
+    "levenscyclus vlinder speelgoed",
+    "levenscyclus vlinder werkblad",
+    "van rups tot vlinder",
+    "van rups tot vlinder filmpje",
+    "van rups tot vlinder hoe lang duurt dat",
+    "van rups tot vlinder kleuters",
+    "van rups tot vlinder koninginnepage",
+    "van rups tot vlinder opvang",
+    "van rups tot vlinder sint pauwels",
+    "van rups tot vlinder werkblad"
+   ]
+  },
+  "materials": {
+   "heads": [
+    "materialen",
+    "magnetisch"
+   ],
+   "requests": 14,
+   "productiveSeeds": 11,
+   "unique": 43,
+   "suggestions": [
+    "dagritmekaarten kleuters magnetisch",
+    "educatieve materialen kleuters",
+    "magnetisch bord",
+    "magnetisch papier printen",
+    "magnetisch planbord kleuters",
+    "magnetisch printen",
+    "magnetisch speelgoed",
+    "magnetisch speelgoed kleuters",
+    "magnetisch tekenbord",
+    "magnetisch werkblad",
+    "magnetische blokken",
+    "magnetische bouwstenen",
+    "magnetische hor",
+    "magnetische hordeur",
+    "magnetische muursticker",
+    "magnetische tegels",
+    "magnetische wimpers",
+    "materialen",
+    "materialen 3d printen",
+    "materialen bouwhoek kleuters",
+    "materialen groep 3",
+    "materialen groep 4",
+    "materialen groep 5",
+    "materialen keukenblad",
+    "materialen kleuters",
+    "materialen lijst",
+    "materialen paradijs",
+    "materialen slimme kleuters",
+    "materialen werkblad",
+    "materialen werkblad keuken",
+    "materialenbank",
+    "materialenbank herent",
+    "materialenbank leuven",
+    "materialenbank roeselare",
+    "materialendecreet",
+    "materialenpaspoort",
+    "montessori materialen kleuters",
+    "nt2 materialen kleuters",
+    "onderwijs materialen kleuters",
+    "sensorische materialen kleuters",
+    "taal materialen kleuters",
+    "uitdagende materialen kleuters",
+    "werkbladen materialen"
+   ]
+  },
+  "space": {
+   "heads": [
+    "zonnestelsel",
+    "maanfasen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 28,
+   "suggestions": [
+    "maanfasen",
+    "maanfasen 2025",
+    "maanfasen 2026",
+    "maanfasen 2027",
+    "maanfasen juli 2026",
+    "maanfasen nederlands",
+    "maanfasen spiritueel",
+    "maanfasen tattoo",
+    "maanfasen tattoo betekenis",
+    "maanfasen uitleg",
+    "maanfasen werkblad",
+    "planeten zonnestelsel printen",
+    "spreekbeurt zonnestelsel groep 5",
+    "werkblad zonnestelsel",
+    "zonnestelsel",
+    "zonnestelsel engels",
+    "zonnestelsel groep 3",
+    "zonnestelsel kleuters",
+    "zonnestelsel knutselen kleuters",
+    "zonnestelsel lego",
+    "zonnestelsel model",
+    "zonnestelsel op schaal",
+    "zonnestelsel planeten",
+    "zonnestelsel printen",
+    "zonnestelsel snap",
+    "zonnestelsel snapchat",
+    "zonnestelsel snapchat plus",
+    "zonnestelsels"
+   ]
+  },
+  "colors": {
+   "heads": [
+    "kleuren",
+    "kleuren leren"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 76,
+   "suggestions": [
+    "boekenlegger kleuren groep 3",
+    "boekenlegger kleuren groep 4",
+    "boekenlegger kleuren groep 5",
+    "code kleuren groep 3",
+    "code kleuren groep 4",
+    "kleuren",
+    "kleuren groep 3",
+    "kleuren groep 4",
+    "kleuren groep 5",
+    "kleuren kleuters",
+    "kleuren kleuters online",
+    "kleuren leren",
+    "kleuren leren 2 jaar",
+    "kleuren leren 3 jaar",
+    "kleuren leren kinderen",
+    "kleuren leren kleuters",
+    "kleuren leren nederlands",
+    "kleuren leren peuter spel",
+    "kleuren leren peuters",
+    "kleuren leren spelletjes",
+    "kleuren leren werkblad",
+    "kleuren leren youtube",
+    "kleuren mengen groep 3",
+    "kleuren op cijfer groep 3",
+    "kleuren op code groep 3",
+    "kleuren op code groep 4",
+    "kleuren op code groep 4 rekenen",
+    "kleuren op code groep 5",
+    "kleuren op code kerst groep 4",
+    "kleuren op code rekenen groep 5",
+    "kleuren op nummer",
+    "kleuren op nummer groep 3",
+    "kleuren op nummer groep 4",
+    "kleuren op nummer groep 5",
+    "kleuren op nummer volwassenen",
+    "kleuren printen",
+    "kleuren printen a4",
+    "kleuren printen albert heijn",
+    "kleuren printen den haag",
+    "kleuren printen eindhoven",
+    "kleuren printen hema",
+    "kleuren printen niet goed",
+    "kleuren printen nijmegen",
+    "kleuren printen utrecht",
+    "kleuren printen waar",
+    "kleuren regenboog",
+    "kleuren van de regenboog",
+    "kleuren voor kleuters",
+    "kleuren werkblad",
+    "kleuren werkblad keuken",
+    "kleurenblind test",
+    "kleurencirkel",
+    "kleurenmonster",
+    "kleurenwaaier",
+    "kleurenwiel",
+    "kleuters kleuren en vormen",
+    "kleuters kleuren leren",
+    "kleuters kleuren mengen",
+    "kleuters kleuren oefenen",
+    "kleuters kleuren op nummer",
+    "kleuterspelletjes kleuren",
+    "letters kleuren groep 3",
+    "sommen kleuren groep 3",
+    "sommen kleuren groep 4",
+    "sommen kleuren groep 5",
+    "thema kleuren kleuters",
+    "werkblad kleuren en vormen",
+    "werkblad kleuren groep 3",
+    "werkblad kleuren kleuters",
+    "werkblad kleuren mengen",
+    "werkblad kleuren mengen kleuters",
+    "werkblad kleuren nt2",
+    "werkblad kleuren oefenen",
+    "werkblad kleuren op code",
+    "werkblad kleuren op nummer",
+    "werkblad sommen kleuren groep 4"
+   ]
+  },
+  "2d-shapes": {
+   "heads": [
+    "vormen",
+    "vlakke figuren"
+   ],
+   "requests": 14,
+   "productiveSeeds": 10,
+   "unique": 49,
+   "suggestions": [
+    "dictee vormen groep 3",
+    "dictee vormen groep 4",
+    "dictee vormen groep 5",
+    "kleuters vormen en kleuren",
+    "kleuters vormen leren",
+    "kleuters vormen oefenen",
+    "leuke dictee vormen groep 3",
+    "thema vormen kleuters",
+    "vlakke figuren",
+    "vlakke figuren benoemen",
+    "vlakke figuren definitie",
+    "vlakke figuren en ruimtefiguren",
+    "vlakke figuren en ruimtefiguren oefeningen",
+    "vlakke figuren herkennen",
+    "vlakke figuren kleuters",
+    "vlakke figuren namen",
+    "vlakke figuren oefeningen",
+    "vlakke figuren werkblad",
+    "vlakke figuren wiskunde",
+    "vormen",
+    "vormen 3d printen",
+    "vormen groep 3",
+    "vormen kleuters",
+    "vormen kleuters digibord",
+    "vormen kleuters filmpje",
+    "vormen kleuters materiaal",
+    "vormen kleuters werkblad",
+    "vormen nagels",
+    "vormen printen",
+    "vormen spel kleuters",
+    "vormen van autisme",
+    "vormen van dementie",
+    "vormen van huidkanker",
+    "vormen werkblad",
+    "vormen werkblad groep 1",
+    "vormen werkblad groep 2",
+    "vormen werkblad kleuters",
+    "vormend bestanddeel",
+    "vormend bestanddeel 7",
+    "vormend bestanddeel 7 letters",
+    "vormenstoof",
+    "vormenstoof little dutch",
+    "werkblad vormen groep 3",
+    "werkblad vormen groep 4",
+    "werkblad vormen herkennen",
+    "werkblad vormen knippen",
+    "werkblad vormen peuters",
+    "werkblad vormen sorteren",
+    "werkbladen kleuren en vormen"
+   ]
+  },
+  "digraphs": {
+   "heads": [
+    "tweetekenklanken",
+    "ui ei ou"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 20,
+   "suggestions": [
+    "tweetekenklanken",
+    "tweetekenklanken flitsen",
+    "tweetekenklanken flitsen groep 3",
+    "tweetekenklanken groep 3",
+    "tweetekenklanken groep 4",
+    "tweetekenklanken kaartjes",
+    "tweetekenklanken oefenen",
+    "tweetekenklanken oefenen groep 3",
+    "tweetekenklanken oefenen nt2",
+    "tweetekenklanken oefenen werkblad",
+    "tweetekenklanken poster",
+    "tweetekenklanken spel",
+    "tweetekenklanken werkblad",
+    "tweetekenklanken werkblad groep 3",
+    "werkblad tweetekenklanken groep 3",
+    "werkblad tweetekenklanken groep 4",
+    "werkblad tweetekenklanken groep 5",
+    "werkboekje tweetekenklanken groep 3",
+    "woorden met tweetekenklanken groep 3",
+    "woorden met tweetekenklanken groep 5"
+   ]
+  },
+  "synonyms": {
+   "heads": [
+    "synoniemen",
+    "woorden met dezelfde betekenis"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 31,
+   "suggestions": [
+    "2 woorden met dezelfde betekenis",
+    "2 woorden met dezelfde betekenis in een zin",
+    "andere woorden met dezelfde betekenis",
+    "meerdere woorden met dezelfde betekenis",
+    "nederlandse woorden met dezelfde betekenis",
+    "synoniemen",
+    "synoniemen betekenis",
+    "synoniemen engels",
+    "synoniemen groep 3",
+    "synoniemen groep 4",
+    "synoniemen groep 5",
+    "synoniemen kleuters",
+    "synoniemen mooi",
+    "synoniemen nederlands",
+    "synoniemen net",
+    "synoniemen voor leuk",
+    "synoniemen voor poepen",
+    "synoniemen voorbeelden",
+    "synoniemen voorbeelden groep 4",
+    "synoniemen voorbeelden groep 5",
+    "synoniemen werkblad",
+    "synoniemenwoordenboek",
+    "twee woorden met dezelfde betekenis achter elkaar",
+    "verschillende woorden met dezelfde betekenis",
+    "werkblad synoniemen en tegenstellingen",
+    "werkblad synoniemen groep 4",
+    "werkblad synoniemen groep 5",
+    "werkblad synoniemen groep 6",
+    "woorden met dezelfde betekenis",
+    "woorden met dezelfde betekenis in een zin",
+    "woorden met dezelfde betekenis voorbeelden"
+   ]
+  },
+  "homophones": {
+   "heads": [
+    "homofonen",
+    "ei ij"
+   ],
+   "requests": 14,
+   "productiveSeeds": 7,
+   "unique": 45,
+   "suggestions": [
+    "ei ij",
+    "ei ij groep 3",
+    "ei ij groep 4",
+    "ei ij groep 5",
+    "ei ij oefenen groep 4",
+    "ei ij werkblad",
+    "ei ij werkblad groep 4",
+    "ei ij werkblad groep 5",
+    "ei ij woorden",
+    "ei ij woorden groep 3",
+    "ei ij woorden groep 4",
+    "ei ij woorden groep 5",
+    "ei ijc aircraft",
+    "ei iji",
+    "ei iji aircraft",
+    "ei ijs",
+    "ei ijx",
+    "ei ijz",
+    "ei ijzer",
+    "ei ijzergehalte",
+    "homofonen",
+    "homofonen betekenis",
+    "homofonen en homografen",
+    "homofonen en homoniemen",
+    "homofonen homografen en homoniemen",
+    "homofonen lijst",
+    "homofonen nederlands",
+    "homofonen voorbeelden",
+    "homofonen voorbeelden nederlands",
+    "homofonen woorden",
+    "oefenen ei ij werkblad",
+    "spelling ei ij werkblad",
+    "spelling werkblad ei ij groep 4",
+    "werkblad ei ij au ou",
+    "werkblad ei ij groep 3",
+    "werkblad ei ij groep 4",
+    "werkblad ei ij groep 5",
+    "werkblad ei ij groep 6",
+    "werkblad ei ij groep 8",
+    "werkblad ei ij woorden groep 4",
+    "werkblad homofonen",
+    "werkblad spelling ei ij groep 5",
+    "woorden met ei ij werkblad",
+    "woordzoeker ei ij groep 4",
+    "woordzoeker ei ij groep 5"
+   ]
+  },
+  "road-safety": {
+   "heads": [
+    "verkeer",
+    "verkeersborden"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 92,
+   "suggestions": [
+    "filmpje verkeer groep 4",
+    "filmpje verkeersborden kleuters",
+    "kleurplaat verkeer groep 3",
+    "kleurplaat verkeer kleuters",
+    "knutselen verkeer groep 3",
+    "knutselen verkeer groep 4",
+    "les verkeersborden groep 4",
+    "les verkeersborden kleuters",
+    "liedje verkeer kleuters",
+    "praatplaat verkeer kleuters",
+    "prentenboek verkeer kleuters",
+    "schooltv verkeer kleuters",
+    "soorten verkeersborden werkblad",
+    "thema verkeer groep 3",
+    "thema verkeer groep 4",
+    "thema verkeer groep 5",
+    "thema verkeersborden kleuters",
+    "toets verkeer groep 5",
+    "veilig verkeer groep 4",
+    "veilig verkeer groep 5",
+    "veilig verkeer groep 5 6",
+    "verkeer groep 3",
+    "verkeer groep 3 werkblad",
+    "verkeer groep 3/4",
+    "verkeer groep 4",
+    "verkeer groep 4 werkblad",
+    "verkeer groep 5",
+    "verkeer groep 5 en 6",
+    "verkeer groep 5 oefenen",
+    "verkeer groep 5 werkbladen",
+    "verkeer kleuters",
+    "verkeer kleuters filmpje",
+    "verkeer kleuters thema",
+    "verkeer leren groep 5",
+    "verkeer les groep 3",
+    "verkeer oefenen groep 3",
+    "verkeer oefenen groep 4",
+    "verkeer oefenen groep 5 spelletjes",
+    "verkeer werkblad",
+    "verkeer werkblad groep 4",
+    "verkeer werkblad groep 5",
+    "verkeer werkblad groep 6",
+    "verkeer werkblad groep 7",
+    "verkeer werkbladen",
+    "verkeersboete",
+    "verkeersboetes zweden",
+    "verkeersbord",
+    "verkeersbord eland zweden",
+    "verkeersborden",
+    "verkeersborden belgie",
+    "verkeersborden betekenis",
+    "verkeersborden betekenis belgië",
+    "verkeersborden bingo printen",
+    "verkeersborden groep 3",
+    "verkeersborden groep 4",
+    "verkeersborden groep 5",
+    "verkeersborden in nederland",
+    "verkeersborden kleuters",
+    "verkeersborden leren",
+    "verkeersborden maken kleuters",
+    "verkeersborden memory printen",
+    "verkeersborden oefenen",
+    "verkeersborden oefenen groep 4",
+    "verkeersborden oefenen groep 5",
+    "verkeersborden oefenen werkblad",
+    "verkeersborden om te printen",
+    "verkeersborden overzicht",
+    "verkeersborden overzicht printen",
+    "verkeersborden printen",
+    "verkeersborden quiz groep 4",
+    "verkeersborden werkblad",
+    "verkeersborden werkblad groep 7",
+    "verkeersborden zweden",
+    "verkeersborden zweden betekenis",
+    "verkeerscentrum",
+    "verkeersinformatie",
+    "verkeersongeval",
+    "verkeersregels zweden",
+    "versje verkeer kleuters",
+    "werkblad verkeer groep 2",
+    "werkblad verkeer groep 3",
+    "werkblad verkeer groep 8",
+    "werkblad verkeer kleuters",
+    "werkblad verkeersborden groep 3",
+    "werkblad verkeersborden groep 4",
+    "werkblad verkeersborden groep 5",
+    "werkblad verkeersborden groep 6",
+    "werkblad verkeersborden groep 8",
+    "werkboekje verkeer groep 3",
+    "werkboekje verkeer groep 4",
+    "woordzoeker verkeer groep 3",
+    "woordzoeker verkeer groep 4"
+   ]
+  },
+  "maps": {
+   "heads": [
+    "werelddelen",
+    "windrichtingen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 25,
+   "suggestions": [
+    "werelddelen",
+    "werelddelen en continenten",
+    "werelddelen en continenten verschil",
+    "werelddelen en oceanen",
+    "werelddelen hoeveel",
+    "werelddelen kaart",
+    "werelddelen kaart met namen",
+    "werelddelen kleuters",
+    "werelddelen namen",
+    "werelddelen oefenen",
+    "werelddelen printen",
+    "werelddelen wateren en gebieden",
+    "werelddelen werkblad",
+    "werkblad windrichtingen groep 6",
+    "windrichtingen",
+    "windrichtingen belgië",
+    "windrichtingen engels",
+    "windrichtingen frankrijk",
+    "windrichtingen frans",
+    "windrichtingen kaart",
+    "windrichtingen met hoofdletter",
+    "windrichtingen nederland",
+    "windrichtingen vandaag",
+    "windrichtingen werkblad",
+    "windrichtingen zeilen"
+   ]
+  },
+  "family": {
+   "heads": [
+    "familie",
+    "stamboom"
+   ],
+   "requests": 14,
+   "productiveSeeds": 13,
+   "unique": 59,
+   "suggestions": [
+    "aldfaer stamboom printen",
+    "familie",
+    "familie coppens",
+    "familie coppens zweden",
+    "familie flodder",
+    "familie kleuters",
+    "familie over de kook",
+    "familie planner printen",
+    "familie tokkie",
+    "familie weekplanner printen",
+    "familie werkblad",
+    "familiehypotheek",
+    "familienet",
+    "familieopstelling",
+    "familieopstellingen",
+    "filmpje familie kleuters",
+    "heilige familie kleuterschool",
+    "heilige familie kleuterschool berchem",
+    "heilige familie kleuterschool sint niklaas",
+    "lege stamboom printen",
+    "mijn familie kleuters",
+    "mijn familie werkblad",
+    "myheritage stamboom printen",
+    "nobis printen familie",
+    "stamboom",
+    "stamboom familie",
+    "stamboom groep 3",
+    "stamboom groep 4",
+    "stamboom groep 5",
+    "stamboom house of the dragon",
+    "stamboom invullen werkblad",
+    "stamboom kleuters",
+    "stamboom knutselen groep 3",
+    "stamboom knutselen groep 4",
+    "stamboom knutselen kleuters",
+    "stamboom maken",
+    "stamboom maken en printen",
+    "stamboom maken groep 3",
+    "stamboom maken groep 4",
+    "stamboom maken kleuters",
+    "stamboom printen",
+    "stamboom targaryen",
+    "stamboom werkblad",
+    "stamboom zoeken",
+    "stamboom zoeken gratis",
+    "stamboom zoeken op achternaam gratis",
+    "stamboom zweedse koninklijke familie",
+    "stamboomonderzoek",
+    "thema familie groep 3",
+    "thema familie groep 4",
+    "thema familie kleuters",
+    "thema familie werkbladen",
+    "versje familie kleuters",
+    "werkblad familie kleuters",
+    "werkblad familie nt2",
+    "werkblad stamboom leeg",
+    "werkblad stamboom maken",
+    "werkboekje familie groep 3",
+    "woordkaarten familie kleuters"
+   ]
+  }
+ },
+ "suggestions": {
+  "delen van een plant": {
+   "candidate": "plants",
+   "s": [
+    "delen van een plant",
+    "delen van een plantaardige cel",
+    "delen van een plant benoemen",
+    "delen van een plantencel",
+    "delen van een plant filmpje",
+    "delen van een plant werkblad",
+    "welke delen van een plant gebruikt de mens als voedsel",
+    "eetbare delen van een plant",
+    "welke delen van een plant zorgen voor gaswisseling",
+    "welke delen van een plant zorgen voor voortplanting"
+   ]
+  },
+  "delen van een plant werkblad": {
+   "candidate": "plants",
+   "s": [
+    "delen van een plant werkblad"
+   ]
+  },
+  "plant": {
+   "candidate": "plants",
+   "s": [
+    "plantagen",
+    "plant",
+    "plantagen karlstad",
+    "plantskola",
+    "plantar fasciitis",
+    "plantenwinkel in de buurt",
+    "plantain",
+    "planteray rum",
+    "plantagen växjö",
+    "plantskola hagfors"
+   ]
+  },
+  "plant printen": {
+   "candidate": "plants",
+   "s": [
+    "plant een olijfboom printen"
+   ]
+  },
+  "plant kleuters": {
+   "candidate": "plants",
+   "s": [
+    "levenscyclus plant kleuters"
+   ]
+  },
+  "levenscyclus vlinder": {
+   "candidate": "life-cycles",
+   "s": [
+    "levenscyclus vlinder",
+    "levenscyclus vlinder werkblad",
+    "levenscyclus vlinder kleuters",
+    "levenscyclus vlinder speelgoed",
+    "levenscyclus vlinder filmpje",
+    "levenscyclus rups vlinder",
+    "levenscyclus atalanta vlinder"
+   ]
+  },
+  "levenscyclus vlinder werkblad": {
+   "candidate": "life-cycles",
+   "s": [
+    "levenscyclus vlinder werkblad"
+   ]
+  },
+  "levenscyclus vlinder kleuters": {
+   "candidate": "life-cycles",
+   "s": [
+    "levenscyclus vlinder kleuters"
+   ]
+  },
+  "van rups tot vlinder": {
+   "candidate": "life-cycles",
+   "s": [
+    "van rups tot vlinder filmpje",
+    "van rups tot vlinder",
+    "van rups tot vlinder kleuters",
+    "van rups tot vlinder werkblad",
+    "van rups tot vlinder hoe lang duurt dat",
+    "van rups tot vlinder koninginnepage",
+    "van rups tot vlinder opvang",
+    "van rups tot vlinder sint pauwels"
+   ]
+  },
+  "van rups tot vlinder werkblad": {
+   "candidate": "life-cycles",
+   "s": [
+    "van rups tot vlinder werkblad"
+   ]
+  },
+  "van rups tot vlinder kleuters": {
+   "candidate": "life-cycles",
+   "s": [
+    "van rups tot vlinder kleuters",
+    "filmpje van rups tot vlinder kleuters"
+   ]
+  },
+  "materialen": {
+   "candidate": "materials",
+   "s": [
+    "materialenbank leuven",
+    "materialen",
+    "materialenbank",
+    "materialenbank roeselare",
+    "materialendecreet",
+    "materialenpaspoort",
+    "materialenbank herent",
+    "materialen paradijs",
+    "materialen lijst",
+    "materialen keukenblad"
+   ]
+  },
+  "materialen werkblad": {
+   "candidate": "materials",
+   "s": [
+    "materialen werkblad keuken",
+    "materialen werkblad",
+    "werkbladen materialen"
+   ]
+  },
+  "materialen printen": {
+   "candidate": "materials",
+   "s": [
+    "materialen 3d printen"
+   ]
+  },
+  "materialen kleuters": {
+   "candidate": "materials",
+   "s": [
+    "materialen kleuters",
+    "educatieve materialen kleuters",
+    "sensorische materialen kleuters",
+    "materialen bouwhoek kleuters",
+    "montessori materialen kleuters",
+    "taal materialen kleuters",
+    "materialen slimme kleuters",
+    "uitdagende materialen kleuters",
+    "onderwijs materialen kleuters",
+    "nt2 materialen kleuters"
+   ]
+  },
+  "materialen groep 3": {
+   "candidate": "materials",
+   "s": [
+    "materialen groep 3"
+   ]
+  },
+  "materialen groep 4": {
+   "candidate": "materials",
+   "s": [
+    "materialen groep 4"
+   ]
+  },
+  "materialen groep 5": {
+   "candidate": "materials",
+   "s": [
+    "materialen groep 5"
+   ]
+  },
+  "magnetisch": {
+   "candidate": "materials",
+   "s": [
+    "magnetische tegels",
+    "magnetisch speelgoed",
+    "magnetische blokken",
+    "magnetische muursticker",
+    "magnetische hordeur",
+    "magnetisch tekenbord",
+    "magnetisch bord",
+    "magnetische hor",
+    "magnetische bouwstenen",
+    "magnetische wimpers"
+   ]
+  },
+  "magnetisch werkblad": {
+   "candidate": "materials",
+   "s": [
+    "magnetisch werkblad"
+   ]
+  },
+  "magnetisch printen": {
+   "candidate": "materials",
+   "s": [
+    "magnetisch printen",
+    "magnetisch papier printen"
+   ]
+  },
+  "magnetisch kleuters": {
+   "candidate": "materials",
+   "s": [
+    "magnetisch speelgoed kleuters",
+    "magnetisch planbord kleuters",
+    "dagritmekaarten kleuters magnetisch"
+   ]
+  },
+  "zonnestelsel": {
+   "candidate": "space",
+   "s": [
+    "zonnestelsel",
+    "zonnestelsel planeten",
+    "zonnestelsel snapchat",
+    "zonnestelsel snap",
+    "zonnestelsel op schaal",
+    "zonnestelsel engels",
+    "zonnestelsel lego",
+    "zonnestelsels",
+    "zonnestelsel model",
+    "zonnestelsel snapchat plus"
+   ]
+  },
+  "zonnestelsel werkblad": {
+   "candidate": "space",
+   "s": [
+    "werkblad zonnestelsel"
+   ]
+  },
+  "zonnestelsel printen": {
+   "candidate": "space",
+   "s": [
+    "zonnestelsel printen",
+    "planeten zonnestelsel printen"
+   ]
+  },
+  "zonnestelsel kleuters": {
+   "candidate": "space",
+   "s": [
+    "zonnestelsel kleuters",
+    "zonnestelsel knutselen kleuters"
+   ]
+  },
+  "zonnestelsel groep 3": {
+   "candidate": "space",
+   "s": [
+    "zonnestelsel groep 3"
+   ]
+  },
+  "zonnestelsel groep 5": {
+   "candidate": "space",
+   "s": [
+    "spreekbeurt zonnestelsel groep 5"
+   ]
+  },
+  "maanfasen": {
+   "candidate": "space",
+   "s": [
+    "maanfasen",
+    "maanfasen 2026",
+    "maanfasen spiritueel",
+    "maanfasen tattoo",
+    "maanfasen 2027",
+    "maanfasen uitleg",
+    "maanfasen juli 2026",
+    "maanfasen tattoo betekenis",
+    "maanfasen nederlands",
+    "maanfasen 2025"
+   ]
+  },
+  "maanfasen werkblad": {
+   "candidate": "space",
+   "s": [
+    "maanfasen werkblad"
+   ]
+  },
+  "kleuren": {
+   "candidate": "colors",
+   "s": [
+    "kleurencirkel",
+    "kleuren regenboog",
+    "kleuren van de regenboog",
+    "kleurenblind test",
+    "kleuren",
+    "kleuren op nummer",
+    "kleuren op nummer volwassenen",
+    "kleurenmonster",
+    "kleurenwaaier",
+    "kleurenwiel"
+   ]
+  },
+  "kleuren werkblad": {
+   "candidate": "colors",
+   "s": [
+    "kleuren werkblad",
+    "kleuren werkblad keuken",
+    "werkblad kleuren mengen",
+    "werkblad kleuren op nummer",
+    "werkblad kleuren nt2",
+    "werkblad kleuren mengen kleuters",
+    "werkblad kleuren kleuters",
+    "werkblad kleuren op code",
+    "werkblad kleuren oefenen",
+    "werkblad kleuren en vormen"
+   ]
+  },
+  "kleuren printen": {
+   "candidate": "colors",
+   "s": [
+    "kleuren printen",
+    "kleuren printen hema",
+    "kleuren printen waar",
+    "kleuren printen utrecht",
+    "kleuren printen niet goed",
+    "kleuren printen albert heijn",
+    "kleuren printen nijmegen",
+    "kleuren printen den haag",
+    "kleuren printen eindhoven",
+    "kleuren printen a4"
+   ]
+  },
+  "kleuren kleuters": {
+   "candidate": "colors",
+   "s": [
+    "kleuren kleuters",
+    "kleuren kleuters online",
+    "kleuters kleuren leren",
+    "kleuters kleuren mengen",
+    "kleuterspelletjes kleuren",
+    "kleuters kleuren oefenen",
+    "kleuters kleuren op nummer",
+    "kleuters kleuren en vormen",
+    "thema kleuren kleuters",
+    "kleuren voor kleuters"
+   ]
+  },
+  "kleuren groep 3": {
+   "candidate": "colors",
+   "s": [
+    "kleuren groep 3",
+    "boekenlegger kleuren groep 3",
+    "sommen kleuren groep 3",
+    "code kleuren groep 3",
+    "letters kleuren groep 3",
+    "kleuren mengen groep 3",
+    "werkblad kleuren groep 3",
+    "kleuren op code groep 3",
+    "kleuren op nummer groep 3",
+    "kleuren op cijfer groep 3"
+   ]
+  },
+  "kleuren groep 4": {
+   "candidate": "colors",
+   "s": [
+    "kleuren groep 4",
+    "boekenlegger kleuren groep 4",
+    "sommen kleuren groep 4",
+    "code kleuren groep 4",
+    "kleuren op code groep 4",
+    "kleuren op nummer groep 4",
+    "werkblad sommen kleuren groep 4",
+    "kleuren op code groep 4 rekenen",
+    "kleuren op code kerst groep 4"
+   ]
+  },
+  "kleuren groep 5": {
+   "candidate": "colors",
+   "s": [
+    "kleuren groep 5",
+    "boekenlegger kleuren groep 5",
+    "sommen kleuren groep 5",
+    "kleuren op code groep 5",
+    "kleuren op nummer groep 5",
+    "kleuren op code rekenen groep 5"
+   ]
+  },
+  "kleuren leren": {
+   "candidate": "colors",
+   "s": [
+    "kleuren leren",
+    "kleuren leren 3 jaar",
+    "kleuren leren peuters",
+    "kleuren leren 2 jaar",
+    "kleuren leren spelletjes",
+    "kleuren leren peuter spel",
+    "kleuren leren kleuters",
+    "kleuren leren nederlands",
+    "kleuren leren kinderen",
+    "kleuren leren youtube"
+   ]
+  },
+  "kleuren leren werkblad": {
+   "candidate": "colors",
+   "s": [
+    "kleuren leren werkblad"
+   ]
+  },
+  "kleuren leren kleuters": {
+   "candidate": "colors",
+   "s": [
+    "kleuren leren kleuters"
+   ]
+  },
+  "vormen": {
+   "candidate": "2d-shapes",
+   "s": [
+    "vormend bestanddeel 7 letters",
+    "vormend bestanddeel",
+    "vormen",
+    "vormenstoof",
+    "vormen van dementie",
+    "vormen van autisme",
+    "vormen van huidkanker",
+    "vormenstoof little dutch",
+    "vormend bestanddeel 7",
+    "vormen nagels"
+   ]
+  },
+  "vormen werkblad": {
+   "candidate": "2d-shapes",
+   "s": [
+    "vormen werkblad",
+    "vormen werkblad kleuters",
+    "vormen werkblad groep 1",
+    "vormen werkblad groep 2",
+    "werkblad vormen peuters",
+    "werkbladen kleuren en vormen",
+    "werkblad vormen herkennen",
+    "werkblad vormen groep 3",
+    "werkblad vormen sorteren",
+    "werkblad vormen knippen"
+   ]
+  },
+  "vormen printen": {
+   "candidate": "2d-shapes",
+   "s": [
+    "vormen printen",
+    "vormen 3d printen"
+   ]
+  },
+  "vormen kleuters": {
+   "candidate": "2d-shapes",
+   "s": [
+    "vormen kleuters",
+    "vormen kleuters werkblad",
+    "vormen kleuters digibord",
+    "vormen kleuters filmpje",
+    "vormen kleuters materiaal",
+    "kleuters vormen leren",
+    "kleuters vormen oefenen",
+    "kleuters vormen en kleuren",
+    "thema vormen kleuters",
+    "vormen spel kleuters"
+   ]
+  },
+  "vormen groep 3": {
+   "candidate": "2d-shapes",
+   "s": [
+    "vormen groep 3",
+    "werkblad vormen groep 3",
+    "dictee vormen groep 3",
+    "leuke dictee vormen groep 3"
+   ]
+  },
+  "vormen groep 4": {
+   "candidate": "2d-shapes",
+   "s": [
+    "dictee vormen groep 4",
+    "werkblad vormen groep 4"
+   ]
+  },
+  "vormen groep 5": {
+   "candidate": "2d-shapes",
+   "s": [
+    "dictee vormen groep 5"
+   ]
+  },
+  "vlakke figuren": {
+   "candidate": "2d-shapes",
+   "s": [
+    "vlakke figuren",
+    "vlakke figuren wiskunde",
+    "vlakke figuren en ruimtefiguren",
+    "vlakke figuren namen",
+    "vlakke figuren herkennen",
+    "vlakke figuren werkblad",
+    "vlakke figuren definitie",
+    "vlakke figuren oefeningen",
+    "vlakke figuren benoemen",
+    "vlakke figuren en ruimtefiguren oefeningen"
+   ]
+  },
+  "vlakke figuren werkblad": {
+   "candidate": "2d-shapes",
+   "s": [
+    "vlakke figuren werkblad"
+   ]
+  },
+  "vlakke figuren kleuters": {
+   "candidate": "2d-shapes",
+   "s": [
+    "vlakke figuren kleuters"
+   ]
+  },
+  "tweetekenklanken": {
+   "candidate": "digraphs",
+   "s": [
+    "tweetekenklanken",
+    "tweetekenklanken oefenen",
+    "tweetekenklanken werkblad",
+    "tweetekenklanken oefenen nt2",
+    "tweetekenklanken flitsen",
+    "tweetekenklanken oefenen groep 3",
+    "tweetekenklanken poster",
+    "tweetekenklanken spel",
+    "tweetekenklanken kaartjes",
+    "tweetekenklanken groep 3"
+   ]
+  },
+  "tweetekenklanken werkblad": {
+   "candidate": "digraphs",
+   "s": [
+    "tweetekenklanken werkblad",
+    "tweetekenklanken werkblad groep 3",
+    "werkblad tweetekenklanken groep 4",
+    "werkblad tweetekenklanken groep 5",
+    "tweetekenklanken oefenen werkblad"
+   ]
+  },
+  "tweetekenklanken groep 3": {
+   "candidate": "digraphs",
+   "s": [
+    "tweetekenklanken groep 3",
+    "werkblad tweetekenklanken groep 3",
+    "tweetekenklanken oefenen groep 3",
+    "werkboekje tweetekenklanken groep 3",
+    "tweetekenklanken flitsen groep 3",
+    "woorden met tweetekenklanken groep 3"
+   ]
+  },
+  "tweetekenklanken groep 4": {
+   "candidate": "digraphs",
+   "s": [
+    "tweetekenklanken groep 4",
+    "werkblad tweetekenklanken groep 4"
+   ]
+  },
+  "tweetekenklanken groep 5": {
+   "candidate": "digraphs",
+   "s": [
+    "werkblad tweetekenklanken groep 5",
+    "woorden met tweetekenklanken groep 5"
+   ]
+  },
+  "synoniemen": {
+   "candidate": "synonyms",
+   "s": [
+    "synoniemen",
+    "synoniemen net",
+    "synoniemenwoordenboek",
+    "synoniemen voor poepen",
+    "synoniemen engels",
+    "synoniemen voorbeelden",
+    "synoniemen voor leuk",
+    "synoniemen betekenis",
+    "synoniemen nederlands",
+    "synoniemen mooi"
+   ]
+  },
+  "synoniemen werkblad": {
+   "candidate": "synonyms",
+   "s": [
+    "synoniemen werkblad",
+    "werkblad synoniemen groep 5",
+    "werkblad synoniemen groep 6",
+    "werkblad synoniemen en tegenstellingen",
+    "werkblad synoniemen groep 4"
+   ]
+  },
+  "synoniemen kleuters": {
+   "candidate": "synonyms",
+   "s": [
+    "synoniemen kleuters"
+   ]
+  },
+  "synoniemen groep 3": {
+   "candidate": "synonyms",
+   "s": [
+    "synoniemen groep 3"
+   ]
+  },
+  "synoniemen groep 4": {
+   "candidate": "synonyms",
+   "s": [
+    "synoniemen groep 4",
+    "synoniemen voorbeelden groep 4",
+    "werkblad synoniemen groep 4"
+   ]
+  },
+  "synoniemen groep 5": {
+   "candidate": "synonyms",
+   "s": [
+    "synoniemen groep 5",
+    "werkblad synoniemen groep 5",
+    "synoniemen voorbeelden groep 5"
+   ]
+  },
+  "woorden met dezelfde betekenis": {
+   "candidate": "synonyms",
+   "s": [
+    "woorden met dezelfde betekenis",
+    "woorden met dezelfde betekenis voorbeelden",
+    "woorden met dezelfde betekenis in een zin",
+    "2 woorden met dezelfde betekenis",
+    "2 woorden met dezelfde betekenis in een zin",
+    "verschillende woorden met dezelfde betekenis",
+    "nederlandse woorden met dezelfde betekenis",
+    "twee woorden met dezelfde betekenis achter elkaar",
+    "meerdere woorden met dezelfde betekenis",
+    "andere woorden met dezelfde betekenis"
+   ]
+  },
+  "homofonen": {
+   "candidate": "homophones",
+   "s": [
+    "homofonen",
+    "homofonen betekenis",
+    "homofonen voorbeelden",
+    "homofonen lijst",
+    "homofonen nederlands",
+    "homofonen en homografen",
+    "homofonen en homoniemen",
+    "homofonen voorbeelden nederlands",
+    "homofonen woorden",
+    "homofonen homografen en homoniemen"
+   ]
+  },
+  "homofonen werkblad": {
+   "candidate": "homophones",
+   "s": [
+    "werkblad homofonen"
+   ]
+  },
+  "ei ij": {
+   "candidate": "homophones",
+   "s": [
+    "ei ijzer",
+    "ei ijzergehalte",
+    "ei ij",
+    "ei ijs",
+    "ei ij woorden",
+    "ei ijz",
+    "ei iji",
+    "ei ijx",
+    "ei iji aircraft",
+    "ei ijc aircraft"
+   ]
+  },
+  "ei ij werkblad": {
+   "candidate": "homophones",
+   "s": [
+    "ei ij werkblad",
+    "ei ij werkblad groep 4",
+    "ei ij werkblad groep 5",
+    "spelling ei ij werkblad",
+    "oefenen ei ij werkblad",
+    "woorden met ei ij werkblad",
+    "werkblad ei ij groep 3",
+    "werkblad ei ij groep 6",
+    "werkblad ei ij groep 8",
+    "werkblad ei ij au ou"
+   ]
+  },
+  "ei ij groep 3": {
+   "candidate": "homophones",
+   "s": [
+    "ei ij groep 3",
+    "werkblad ei ij groep 3",
+    "ei ij woorden groep 3"
+   ]
+  },
+  "ei ij groep 4": {
+   "candidate": "homophones",
+   "s": [
+    "ei ij groep 4",
+    "werkblad ei ij groep 4",
+    "ei ij woorden groep 4",
+    "woordzoeker ei ij groep 4",
+    "ei ij oefenen groep 4",
+    "spelling werkblad ei ij groep 4",
+    "werkblad ei ij woorden groep 4"
+   ]
+  },
+  "ei ij groep 5": {
+   "candidate": "homophones",
+   "s": [
+    "ei ij groep 5",
+    "werkblad ei ij groep 5",
+    "ei ij woorden groep 5",
+    "woordzoeker ei ij groep 5",
+    "werkblad spelling ei ij groep 5"
+   ]
+  },
+  "verkeer": {
+   "candidate": "road-safety",
+   "s": [
+    "verkeersongeval",
+    "verkeersboetes zweden",
+    "verkeersborden zweden",
+    "verkeersregels zweden",
+    "verkeersbord",
+    "verkeersinformatie",
+    "verkeersboete",
+    "verkeersborden zweden betekenis",
+    "verkeersbord eland zweden",
+    "verkeerscentrum"
+   ]
+  },
+  "verkeer werkblad": {
+   "candidate": "road-safety",
+   "s": [
+    "verkeer werkblad",
+    "verkeer werkbladen",
+    "verkeer werkblad groep 5",
+    "verkeer werkblad groep 7",
+    "verkeer werkblad groep 6",
+    "verkeer werkblad groep 4",
+    "werkblad verkeer kleuters",
+    "werkblad verkeer groep 3",
+    "werkblad verkeer groep 8",
+    "werkblad verkeer groep 2"
+   ]
+  },
+  "verkeer kleuters": {
+   "candidate": "road-safety",
+   "s": [
+    "verkeer kleuters",
+    "verkeer kleuters filmpje",
+    "verkeer kleuters thema",
+    "liedje verkeer kleuters",
+    "prentenboek verkeer kleuters",
+    "praatplaat verkeer kleuters",
+    "schooltv verkeer kleuters",
+    "versje verkeer kleuters",
+    "werkblad verkeer kleuters",
+    "kleurplaat verkeer kleuters"
+   ]
+  },
+  "verkeer groep 3": {
+   "candidate": "road-safety",
+   "s": [
+    "verkeer groep 3",
+    "verkeer groep 3/4",
+    "verkeer groep 3 werkblad",
+    "thema verkeer groep 3",
+    "werkboekje verkeer groep 3",
+    "knutselen verkeer groep 3",
+    "verkeer les groep 3",
+    "kleurplaat verkeer groep 3",
+    "verkeer oefenen groep 3",
+    "woordzoeker verkeer groep 3"
+   ]
+  },
+  "verkeer groep 4": {
+   "candidate": "road-safety",
+   "s": [
+    "verkeer groep 4",
+    "verkeer groep 4 werkblad",
+    "verkeer oefenen groep 4",
+    "werkboekje verkeer groep 4",
+    "thema verkeer groep 4",
+    "veilig verkeer groep 4",
+    "verkeer groep 3/4",
+    "filmpje verkeer groep 4",
+    "knutselen verkeer groep 4",
+    "woordzoeker verkeer groep 4"
+   ]
+  },
+  "verkeer groep 5": {
+   "candidate": "road-safety",
+   "s": [
+    "verkeer groep 5",
+    "verkeer groep 5 werkbladen",
+    "verkeer groep 5 en 6",
+    "verkeer groep 5 oefenen",
+    "verkeer oefenen groep 5 spelletjes",
+    "thema verkeer groep 5",
+    "toets verkeer groep 5",
+    "veilig verkeer groep 5",
+    "veilig verkeer groep 5 6",
+    "verkeer leren groep 5"
+   ]
+  },
+  "verkeersborden": {
+   "candidate": "road-safety",
+   "s": [
+    "verkeersborden zweden",
+    "verkeersborden zweden betekenis",
+    "verkeersborden",
+    "verkeersborden betekenis",
+    "verkeersborden oefenen",
+    "verkeersborden overzicht",
+    "verkeersborden belgie",
+    "verkeersborden in nederland",
+    "verkeersborden betekenis belgië",
+    "verkeersborden leren"
+   ]
+  },
+  "verkeersborden werkblad": {
+   "candidate": "road-safety",
+   "s": [
+    "verkeersborden werkblad",
+    "verkeersborden werkblad groep 7",
+    "werkblad verkeersborden groep 4",
+    "werkblad verkeersborden groep 6",
+    "werkblad verkeersborden groep 5",
+    "werkblad verkeersborden groep 8",
+    "werkblad verkeersborden groep 3",
+    "soorten verkeersborden werkblad",
+    "verkeersborden oefenen werkblad"
+   ]
+  },
+  "verkeersborden printen": {
+   "candidate": "road-safety",
+   "s": [
+    "verkeersborden printen",
+    "verkeersborden memory printen",
+    "verkeersborden overzicht printen",
+    "verkeersborden bingo printen",
+    "verkeersborden om te printen"
+   ]
+  },
+  "verkeersborden kleuters": {
+   "candidate": "road-safety",
+   "s": [
+    "verkeersborden kleuters",
+    "filmpje verkeersborden kleuters",
+    "verkeersborden maken kleuters",
+    "les verkeersborden kleuters",
+    "thema verkeersborden kleuters"
+   ]
+  },
+  "verkeersborden groep 3": {
+   "candidate": "road-safety",
+   "s": [
+    "verkeersborden groep 3",
+    "werkblad verkeersborden groep 3"
+   ]
+  },
+  "verkeersborden groep 4": {
+   "candidate": "road-safety",
+   "s": [
+    "verkeersborden groep 4",
+    "werkblad verkeersborden groep 4",
+    "verkeersborden oefenen groep 4",
+    "les verkeersborden groep 4",
+    "verkeersborden quiz groep 4"
+   ]
+  },
+  "verkeersborden groep 5": {
+   "candidate": "road-safety",
+   "s": [
+    "verkeersborden groep 5",
+    "verkeersborden oefenen groep 5",
+    "werkblad verkeersborden groep 5"
+   ]
+  },
+  "werelddelen": {
+   "candidate": "maps",
+   "s": [
+    "werelddelen",
+    "werelddelen kaart",
+    "werelddelen en continenten",
+    "werelddelen oefenen",
+    "werelddelen kaart met namen",
+    "werelddelen en oceanen",
+    "werelddelen wateren en gebieden",
+    "werelddelen namen",
+    "werelddelen hoeveel",
+    "werelddelen en continenten verschil"
+   ]
+  },
+  "werelddelen werkblad": {
+   "candidate": "maps",
+   "s": [
+    "werelddelen werkblad"
+   ]
+  },
+  "werelddelen printen": {
+   "candidate": "maps",
+   "s": [
+    "werelddelen printen"
+   ]
+  },
+  "werelddelen kleuters": {
+   "candidate": "maps",
+   "s": [
+    "werelddelen kleuters"
+   ]
+  },
+  "windrichtingen": {
+   "candidate": "maps",
+   "s": [
+    "windrichtingen",
+    "windrichtingen frans",
+    "windrichtingen met hoofdletter",
+    "windrichtingen nederland",
+    "windrichtingen zeilen",
+    "windrichtingen kaart",
+    "windrichtingen engels",
+    "windrichtingen vandaag",
+    "windrichtingen belgië",
+    "windrichtingen frankrijk"
+   ]
+  },
+  "windrichtingen werkblad": {
+   "candidate": "maps",
+   "s": [
+    "windrichtingen werkblad",
+    "werkblad windrichtingen groep 6"
+   ]
+  },
+  "familie": {
+   "candidate": "family",
+   "s": [
+    "familie",
+    "familie coppens",
+    "familieopstelling",
+    "familie flodder",
+    "familiehypotheek",
+    "familienet",
+    "familieopstellingen",
+    "familie coppens zweden",
+    "familie over de kook",
+    "familie tokkie"
+   ]
+  },
+  "familie werkblad": {
+   "candidate": "family",
+   "s": [
+    "familie werkblad",
+    "werkblad familie nt2",
+    "werkblad familie kleuters",
+    "mijn familie werkblad",
+    "thema familie werkbladen"
+   ]
+  },
+  "familie printen": {
+   "candidate": "family",
+   "s": [
+    "familie weekplanner printen",
+    "familie planner printen",
+    "nobis printen familie"
+   ]
+  },
+  "familie kleuters": {
+   "candidate": "family",
+   "s": [
+    "familie kleuters",
+    "thema familie kleuters",
+    "heilige familie kleuterschool",
+    "heilige familie kleuterschool sint niklaas",
+    "versje familie kleuters",
+    "filmpje familie kleuters",
+    "heilige familie kleuterschool berchem",
+    "woordkaarten familie kleuters",
+    "mijn familie kleuters",
+    "werkblad familie kleuters"
+   ]
+  },
+  "familie groep 3": {
+   "candidate": "family",
+   "s": [
+    "thema familie groep 3",
+    "werkboekje familie groep 3"
+   ]
+  },
+  "familie groep 4": {
+   "candidate": "family",
+   "s": [
+    "thema familie groep 4"
+   ]
+  },
+  "stamboom": {
+   "candidate": "family",
+   "s": [
+    "stamboom",
+    "stamboom zoeken",
+    "stamboom maken",
+    "stamboom zweedse koninklijke familie",
+    "stamboom zoeken op achternaam gratis",
+    "stamboom house of the dragon",
+    "stamboom zoeken gratis",
+    "stamboom targaryen",
+    "stamboom familie",
+    "stamboomonderzoek"
+   ]
+  },
+  "stamboom werkblad": {
+   "candidate": "family",
+   "s": [
+    "stamboom werkblad",
+    "werkblad stamboom leeg",
+    "werkblad stamboom maken",
+    "stamboom invullen werkblad"
+   ]
+  },
+  "stamboom printen": {
+   "candidate": "family",
+   "s": [
+    "stamboom printen",
+    "myheritage stamboom printen",
+    "lege stamboom printen",
+    "aldfaer stamboom printen",
+    "stamboom maken en printen"
+   ]
+  },
+  "stamboom kleuters": {
+   "candidate": "family",
+   "s": [
+    "stamboom kleuters",
+    "stamboom maken kleuters",
+    "stamboom knutselen kleuters"
+   ]
+  },
+  "stamboom groep 3": {
+   "candidate": "family",
+   "s": [
+    "stamboom groep 3",
+    "stamboom maken groep 3",
+    "stamboom knutselen groep 3"
+   ]
+  },
+  "stamboom groep 4": {
+   "candidate": "family",
+   "s": [
+    "stamboom groep 4",
+    "stamboom maken groep 4",
+    "stamboom knutselen groep 4"
+   ]
+  },
+  "stamboom groep 5": {
+   "candidate": "family",
+   "s": [
+    "stamboom groep 5"
+   ]
+  }
+ }
+}

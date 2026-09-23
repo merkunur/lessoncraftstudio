@@ -103,7 +103,7 @@ your `_selection-seo-*.md`.
 
 ## ⚠ THE REFUSALS — a refused id carries NO landing
 
-Your face table marks them, but know them going in. **626 of a possible 660 ship.** Every other
+Your face table marks them, but know them going in. **625 of a possible 660 ship.** Every other
 family ships 6 of 6 in every locale.
 
 - **`digraphs` (G1-380 + faces K-378 · G1-392 · G1-393 · G1-394 · G2-372)** — the WHOLE family is
@@ -115,6 +115,11 @@ family ships 6 of 6 in every locale.
 - **`G3-398` (word-parts F4, the person word)** — REFUSED in **es · fr** (compound-words owns the
   agent nouns).
 - **`G2-376` (word-parts F3, prefixes by meaning)** — REFUSED in **fi** (no prefixes).
+- **`G2-375` (word-parts F1, find the root word)** — REFUSED in **it** (panel ruling: Italian
+  roots drop their final vowel inside family members, so no honest whole-root family builds).
+
+Shipped as built (2026-09-23): en 60 · de 60 · nl 60 · pt 59 · fr 59 · fi 59 · sv 54 · da 54 ·
+no 54 · es 53 · it 53 = **625**.
 
 If the face table disagrees with this list (a design-time risk that materialised: sv F3 / da F4
 word-parts, the synonyms F1 lexicon floor in es / de, family F4 riddles), **the face table wins**

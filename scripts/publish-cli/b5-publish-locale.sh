@@ -54,6 +54,11 @@ tail -3 "$REC/$LOC-og.log"
 # 4. hreflang siblings across every locale
 node scripts/publish-cli/populate-and-inject-hreflang.js --confirm --locales=$ALL11 > "$REC/$LOC-hreflang.log" 2>&1 || { echo "HREFLANG FAILED — $REC/$LOC-hreflang.log"; tail -20 "$REC/$LOC-hreflang.log"; exit 2; }
 tail -3 "$REC/$LOC-hreflang.log"
+# 4b. publish-wave STEP 6b + 6c — the bX-publish-locale scripts skipped them, so ~420 printable decks per locale
+#     shipped without the site header/footer (fixed catalogue-wide 2026-09-23). Both are idempotent per locale.
+node scripts/publish-cli/inject-analytics-beacon.js --locale=$LOC > "$REC/$LOC-beacon.log" 2>&1 || { echo "BEACON FAILED — $REC/$LOC-beacon.log"; tail -10 "$REC/$LOC-beacon.log"; exit 2; }
+node scripts/publish-cli/inject-deck-site-chrome.js --locale=$LOC --slugs-file="$REC/$LOC-slugs.txt" > "$REC/$LOC-chrome.log" 2>&1 || { echo "SITE-CHROME FAILED — $REC/$LOC-chrome.log"; tail -10 "$REC/$LOC-chrome.log"; exit 2; }
+tail -1 "$REC/$LOC-chrome.log"
 # 5. audit the new decks
 node scripts/publish-cli/audit-deck-html.js --slugs-file="$REC/$LOC-slugs.txt" --locales=$LOC > "$REC/$LOC-audit.log" 2>&1 || true
 tail -6 "$REC/$LOC-audit.log"

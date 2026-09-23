@@ -2618,5 +2618,217 @@
   "G3-391": {
     "title": "Arrotondare alla decina e al centinaio",
     "instruction": "Arrotonda ogni numero due volte: alla decina nella prima casella e al centinaio nella seconda."
+  },
+  "K-368": {
+    "title": "Figure geometriche piane: cerchia il nome",
+    "instruction": "Guarda ogni figura, anche quelle girate o molto strette, e cerchia il suo nome."
+  },
+  "K-369": {
+    "title": "Educazione stradale: il semaforo, fermarsi o passare",
+    "instruction": "Guarda la luce accesa, poi cerchia che cosa bisogna fare."
+  },
+  "K-370": {
+    "title": "I membri della famiglia: chi è chi?",
+    "instruction": "Trova ogni persona sull’albero e scrivi il suo numero nel riquadro vicino alla parola che la indica."
+  },
+  "G1-376": {
+    "title": "Le parti della pianta",
+    "instruction": "Segui ogni etichetta numerata fino a una parte della pianta e scrivi il suo nome, preso dal riquadro, sulla riga con lo stesso numero."
+  },
+  "G1-377": {
+    "title": "Il ciclo vitale della farfalla",
+    "instruction": "L’uovo è 1: scrivi 2, 3 e 4 nei riquadri mentre cresce e, nell’ultimo, il numero dell’immagine che viene dopo la farfalla."
+  },
+  "G1-378": {
+    "title": "Sole, Terra e Luna: di chi si parla?",
+    "instruction": "Leggi ogni frase e segna un solo riquadro: il Sole, la Terra o la Luna."
+  },
+  "G1-379": {
+    "title": "Leggere la legenda di una mappa",
+    "instruction": "Guarda la legenda, trova ogni cosa sulla mappa, contale e scrivi quante sono nel riquadro."
+  },
+  "G2-358": {
+    "title": "I sinonimi: cerchia la parola che vuol dire la stessa cosa",
+    "instruction": "Leggi la parola grande su ogni cartellino e cerchia, sotto, la parola che vuol dire la stessa cosa."
+  },
+  "G2-359": {
+    "title": "Famiglie di parole: metti ogni parola al suo posto",
+    "instruction": "Leggi ogni parola in alto e scrivila su una riga del muro che sta sopra la sua parola primitiva."
+  },
+  "G1-381": {
+    "title": "Riconoscere le figure geometriche piane",
+    "instruction": "Leggi il nome di ogni riga e cerchia tutte le figure che sono davvero quella figura."
+  },
+  "K-371": {
+    "title": "Figure geometriche piane intorno a noi",
+    "instruction": "Guarda ogni disegno e colora la figura che ha: il cerchio o il rettangolo."
+  },
+  "G1-382": {
+    "title": "Scrivi il nome delle figure piane",
+    "instruction": "Guarda ogni figura e scrivi il suo nome sulla riga, usando i nomi del riquadro."
+  },
+  "G1-383": {
+    "title": "Indovinelli sulle figure geometriche piane",
+    "instruction": "Leggi ogni indovinello e cerchia il nome della figura."
+  },
+  "K-372": {
+    "title": "Disegna figure piane sui puntini",
+    "instruction": "Leggi il nome della figura e unisci i puntini per disegnarla, partendo dalla linea spessa quando c’è."
+  },
+  "K-373": {
+    "title": "Educazione stradale: colora il semaforo",
+    "instruction": "Su ogni semaforo trova la luce con i raggi e colorala del colore con cui si accende."
+  },
+  "K-374": {
+    "title": "Educazione stradale: come attraversare la strada",
+    "instruction": "Scrivi i numeri da 1 a 5 nei riquadri per mostrare come si attraversa la strada."
+  },
+  "G1-384": {
+    "title": "Educazione stradale: i segnali stradali e il loro significato",
+    "instruction": "Collega con una linea ogni segnale a quello che significa."
+  },
+  "G2-360": {
+    "title": "Educazione stradale: segnali di pericolo, divieto e obbligo",
+    "instruction": "Scrivi la lettera di ogni segnale nei riquadri del suo gruppo."
+  },
+  "G2-361": {
+    "title": "Educazione stradale: quale segnale è quello giusto?",
+    "instruction": "Leggi ogni frase e cerchia l’unico segnale che le corrisponde."
+  },
+  "G1-385": {
+    "title": "Le generazioni in famiglia: dalla più anziana alla più giovane",
+    "instruction": "In ogni riga scrivi 1, 2 e 3 nei riquadri per mettere in ordine le parole dalla generazione più anziana alla più giovane."
+  },
+  "K-375": {
+    "title": "Le parole della famiglia: ricalca e scrivi",
+    "instruction": "Trova sull’albero la persona con lo stesso numero, ricalca la sua parola e scrivila di nuovo sulla riga."
+  },
+  "G1-386": {
+    "title": "Albero genealogico da completare con gli indizi",
+    "instruction": "Leggi gli indizi e scrivi ogni nome nel riquadro giusto dell’albero genealogico."
+  },
+  "G2-362": {
+    "title": "I gradi di parentela: indovinelli",
+    "instruction": "Leggi ogni indovinello e scrivi sulla riga la parola giusta del riquadro: la stessa parola può andare bene per più indovinelli."
+  },
+  "G1-387": {
+    "title": "Albero genealogico vuoto da completare",
+    "instruction": "Disegna nelle cornici le persone importanti per te e scrivi i loro nomi sulle righe."
+  },
+  "K-376": {
+    "title": "Di che cosa ha bisogno una pianta per crescere",
+    "instruction": "Guarda che cosa riceve ogni pianta e cerchia quella che ha tutte e due le cose che le servono per crescere."
+  },
+  "G1-388": {
+    "title": "Il ciclo vitale della pianta: dal seme alla pianta",
+    "instruction": "Ritaglia le quattro figure e incolla ognuna nel riquadro vuoto che segue, girando lungo le frecce a partire dal seme."
+  },
+  "G2-363": {
+    "title": "Le parti della pianta che mangiamo",
+    "instruction": "Guarda ogni alimento e cerchia la parte della pianta che mangiamo."
+  },
+  "G2-364": {
+    "title": "Le parti della pianta e le loro funzioni",
+    "instruction": "Leggi a che cosa serve ogni parte, trovala sulla pianta e scrivi nel riquadro il numero della sua etichetta."
+  },
+  "G3-392": {
+    "title": "Le parti del fiore",
+    "instruction": "Scrivi sulla riga il nome di ogni parte numerata del fiore e barra la parola del riquadro che non è una parte del fiore."
+  },
+  "G1-389": {
+    "title": "Il ciclo vitale della rana: ritaglia e incolla",
+    "instruction": "Ritaglia i quattro quadrati e incolla ognuno sulla sua foglia di ninfea, girando intorno allo stagno dalle uova alla rana."
+  },
+  "G2-365": {
+    "title": "Scrivi le fasi del ciclo vitale della farfalla",
+    "instruction": "Scrivi ogni nome del riquadro sulla riga sotto la sua immagine e barra l’unico nome che non c’entra."
+  },
+  "G2-366": {
+    "title": "La metamorfosi: quale animale diventerà?",
+    "instruction": "Guarda ogni animale piccolo e scrivi la sua lettera in un riquadro sotto l’animale adulto che diventerà."
+  },
+  "G3-393": {
+    "title": "Il ciclo vitale della farfalla e della rana a confronto",
+    "instruction": "Leggi ogni frase e segna il riquadro della farfalla, della rana o di tutte e due, se la frase è vera per quell’animale."
+  },
+  "G1-390": {
+    "title": "Che cosa viene dopo? Farfalla, rana e coccinella",
+    "instruction": "Guarda la prima immagine di ogni riga e cerchia quella che viene subito dopo."
+  },
+  "G1-391": {
+    "title": "Le fasi lunari in ordine",
+    "instruction": "La Luna sembra crescere e poi calare: in ogni riga scrivi da 1 a 5 sotto le lune, in quest’ordine."
+  },
+  "G2-367": {
+    "title": "I nomi delle fasi lunari",
+    "instruction": "Guarda ogni luna e scrivi il suo nome sulle righe, usando due volte ogni parola del riquadro."
+  },
+  "G2-368": {
+    "title": "Perché ci sono il giorno e la notte?",
+    "instruction": "Guarda dov’è il Sole e, per ogni punto numerato, cerchia nella tabella se lì è giorno o notte."
+  },
+  "G3-394": {
+    "title": "I pianeti in ordine dal Sole",
+    "instruction": "Scrivi il nome di ogni pianeta sulla sua riga, partendo vicino al Sole, e usa una volta sola ogni nome del riquadro."
+  },
+  "G3-395": {
+    "title": "Pianeti giganti e pianeti rocciosi",
+    "instruction": "Scrivi ogni nome nel riquadro giusto: pianeta gigante, piccolo pianeta roccioso o non è un pianeta."
+  },
+  "K-377": {
+    "title": "Visto di lato e visto dall’alto: collega gli oggetti",
+    "instruction": "Ogni oggetto è disegnato visto di lato: collegalo con una linea allo stesso oggetto visto dall’alto."
+  },
+  "G2-369": {
+    "title": "I punti cardinali: completa la rosa dei venti",
+    "instruction": "Ogni rosa dei venti mostra una lettera: scrivi le altre tre lettere nei riquadri vuoti."
+  },
+  "G2-370": {
+    "title": "I continenti: scrivi i loro nomi",
+    "instruction": "Scrivi il nome di ogni continente sulla sua riga, usando i nomi del riquadro."
+  },
+  "G3-396": {
+    "title": "Continenti e oceani sulla carta geografica",
+    "instruction": "Trova ogni continente e ogni oceano sulla carta e scrivi il suo numero nel riquadro accanto al nome."
+  },
+  "G2-371": {
+    "title": "Orientarsi sulla mappa con i punti cardinali",
+    "instruction": "Trova la prima figura sulla mappa, guarda nella direzione scritta e cerchia quella delle tre figure che si trova lì."
+  },
+  "G1-395": {
+    "title": "I sinonimi con le immagini: due parole per un’immagine",
+    "instruction": "Guarda ogni immagine e cerchia, sotto, le due parole che vogliono dire la stessa cosa e descrivono l’immagine."
+  },
+  "G2-373": {
+    "title": "Collega le coppie di sinonimi",
+    "instruction": "Traccia una linea per collegare ogni parola a sinistra con la parola a destra che vuol dire la stessa cosa."
+  },
+  "G1-396": {
+    "title": "Le sfumature di significato: dalla più debole alla più forte",
+    "instruction": "Leggi le tre parole di ogni riga e scrivi 1, 2 e 3 nei riquadri, dalla parola più debole alla più forte."
+  },
+  "G2-374": {
+    "title": "I sinonimi di dire: scegli la parola giusta",
+    "instruction": "Leggi ogni frase e scrivi nel riquadro la parola del fumetto che sta meglio al posto di «dice»."
+  },
+  "G3-397": {
+    "title": "Il campo semantico di andare e di guardare",
+    "instruction": "Leggi le dieci parole e scrivi ognuna nel campo del verbo a cui è più vicina per significato."
+  },
+  "G1-397": {
+    "title": "Famiglie di parole con le immagini: cerchia la parola",
+    "instruction": "Dai un nome a ogni immagine e cerchia la sola parola sopra di essa che nasce da quel nome."
+  },
+  "G2-376": {
+    "title": "I prefissi ri-, pre- e sotto-: scegli dal significato",
+    "instruction": "Leggi che cosa significa ogni parola nuova, trova il suo prefisso nella tabella e scrivilo nel pezzo vuoto."
+  },
+  "G3-398": {
+    "title": "I nomi dei mestieri: chi fa questo lavoro?",
+    "instruction": "Guarda ogni persona al lavoro, leggi la parola accanto e scrivi nel mattone vuoto il nome di chi fa quel lavoro."
+  },
+  "G3-399": {
+    "title": "Famiglie di parole nelle frasi",
+    "instruction": "Scrivi ognuna delle quattro parole della pietra nella frase in cui sta bene."
   }
 }

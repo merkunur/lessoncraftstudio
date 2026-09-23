@@ -50,7 +50,7 @@ const EARTH_AND_SPACE_LOC = {
       air: 'It has air that we can breathe.',
       planet: 'It is a planet.',
       spinDay: 'Its turning gives us day and night.',
-      orbitsEarth: 'It goes around the Earth.',
+      orbitsEarth: 'It goes around our planet.',
       seemsToChange: 'Its shape seems to change.',
       craters: 'It is covered in craters.',
       smallest: 'It is the smallest of the three.',
@@ -71,11 +71,11 @@ const EARTH_AND_SPACE_LOC = {
     strings: {
       base: {
         title: 'Sun, Earth and Moon',
-        instruction: 'Read each sentence. Is it about the Sun, the Earth or the Moon? Tick one box.',
+        instruction: 'Read each sentence and put a check in the box under the Sun, the Earth or the Moon.',
       },
       'moon-phases-in-order': {
         title: 'Moon Phases in Order',
-        instruction: 'The Moon seems to grow, then shrink. In each row, write 1 to 5 under the moons in that order.',
+        instruction: 'The wedge in each row shows if the Moon grows or shrinks, so write 1 to 5 under the moons in that order.',
       },
       'moon-phase-names': {
         title: 'Name the Moon Phases',

@@ -4,7 +4,7 @@ const base = require('../k/K-369-road-safety.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"mode":"sign-kinds","signs":8,"boxes2":6,"boxes3":4,"boxW":56,"boxH":52,"gap":14,"binGap":24,"cardMinH":176,"signExt":112} };
+const D = { ...base.difficulty[2], ...{"mode":"sign-kinds","signs":8,"boxW":56,"boxH":52,"gap":14,"binGap":24,"cardMinH":176,"signExt":112} };
 module.exports = {
   ...base,
   id: 'G2-360',

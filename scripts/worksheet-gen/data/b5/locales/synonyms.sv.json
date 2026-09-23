@@ -1,0 +1,939 @@
+{
+  "head": "Synonymer",
+  "allowed": [
+    " ",
+    "-"
+  ],
+  "ban": [
+    "kul",
+    "lätt",
+    "god",
+    "fin",
+    "söt",
+    "dålig",
+    "snäll",
+    "stilla",
+    "hård",
+    "ljus",
+    "klar",
+    "härlig",
+    "stanna",
+    "häftig",
+    "cool",
+    "lugn"
+  ],
+  "regional": [],
+  "groups": [
+    {
+      "id": "g.happy",
+      "concept": "happy",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "glad",
+        "lycklig",
+        "munter"
+      ]
+    },
+    {
+      "id": "g.sad",
+      "concept": "sad",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "ledsen",
+        "sorgsen"
+      ]
+    },
+    {
+      "id": "g.angry",
+      "concept": "angry",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "arg",
+        "ilsken"
+      ]
+    },
+    {
+      "id": "g.scared",
+      "concept": "scared",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "rädd",
+        "skrämd"
+      ]
+    },
+    {
+      "id": "g.surprised",
+      "concept": "surprised",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 2,
+      "words": [
+        "förvånad",
+        "överraskad",
+        "häpen"
+      ]
+    },
+    {
+      "id": "g.tired",
+      "concept": "tired",
+      "pos": "adj",
+      "domain": "body",
+      "tier": 1,
+      "words": [
+        "trött",
+        "sömnig"
+      ]
+    },
+    {
+      "id": "g.strong",
+      "concept": "strong",
+      "pos": "adj",
+      "domain": "body",
+      "tier": 2,
+      "words": [
+        "stark",
+        "kraftfull"
+      ]
+    },
+    {
+      "id": "g.big",
+      "concept": "big",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "stor",
+        "jättelik"
+      ]
+    },
+    {
+      "id": "g.small",
+      "concept": "small",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "liten",
+        "pytteliten"
+      ]
+    },
+    {
+      "id": "g.fast",
+      "concept": "fast",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "snabb",
+        "kvick"
+      ]
+    },
+    {
+      "id": "g.difficult",
+      "concept": "difficult",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 2,
+      "words": [
+        "svår",
+        "knepig"
+      ]
+    },
+    {
+      "id": "g.smart",
+      "concept": "smart",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 2,
+      "words": [
+        "smart",
+        "klyftig"
+      ]
+    },
+    {
+      "id": "g.brave",
+      "concept": "brave",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "modig",
+        "tapper"
+      ]
+    },
+    {
+      "id": "g.funny",
+      "concept": "funny",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "lustig",
+        "komisk"
+      ]
+    },
+    {
+      "id": "g.strange",
+      "concept": "strange",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "konstig",
+        "underlig",
+        "märklig"
+      ]
+    },
+    {
+      "id": "g.loud",
+      "concept": "loud",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 1,
+      "words": [
+        "högljudd",
+        "bullrig"
+      ]
+    },
+    {
+      "id": "g.quiet",
+      "concept": "quiet",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 2,
+      "words": [
+        "tyst",
+        "ljudlös"
+      ]
+    },
+    {
+      "id": "g.tasty",
+      "concept": "tasty",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 1,
+      "words": [
+        "smaskig",
+        "välsmakande"
+      ]
+    },
+    {
+      "id": "g.cozy",
+      "concept": "cozy",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 2,
+      "words": [
+        "mysig",
+        "ombonad"
+      ]
+    },
+    {
+      "id": "g.pretty",
+      "concept": "pretty",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 1,
+      "words": [
+        "vacker",
+        "snygg"
+      ]
+    },
+    {
+      "id": "g.tidy",
+      "concept": "tidy",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 2,
+      "words": [
+        "städad",
+        "prydlig"
+      ]
+    },
+    {
+      "id": "g.messy",
+      "concept": "messy",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 2,
+      "words": [
+        "stökig",
+        "rörig"
+      ]
+    },
+    {
+      "id": "g.dirty",
+      "concept": "dirty",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 2,
+      "words": [
+        "smutsig",
+        "lortig"
+      ]
+    },
+    {
+      "id": "g.begin",
+      "concept": "begin",
+      "pos": "verb",
+      "domain": "begin-end",
+      "tier": 1,
+      "words": [
+        "börja",
+        "starta"
+      ]
+    },
+    {
+      "id": "g.end",
+      "concept": "end",
+      "pos": "verb",
+      "domain": "begin-end",
+      "tier": 1,
+      "words": [
+        "sluta",
+        "avsluta"
+      ]
+    },
+    {
+      "id": "g.shut",
+      "concept": "shut",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 1,
+      "words": [
+        "stänga",
+        "slå igen"
+      ]
+    },
+    {
+      "id": "g.fix",
+      "concept": "fix",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 1,
+      "words": [
+        "laga",
+        "reparera"
+      ]
+    },
+    {
+      "id": "g.choose",
+      "concept": "choose",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 2,
+      "words": [
+        "välja",
+        "plocka ut"
+      ]
+    },
+    {
+      "id": "g.help",
+      "concept": "help",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 2,
+      "words": [
+        "hjälpa",
+        "bistå"
+      ]
+    },
+    {
+      "id": "g.jump",
+      "concept": "jump",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 1,
+      "words": [
+        "hoppa",
+        "skutta"
+      ]
+    },
+    {
+      "id": "g.throw",
+      "concept": "throw",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 1,
+      "words": [
+        "kasta",
+        "slänga"
+      ]
+    },
+    {
+      "id": "g.fall",
+      "concept": "fall",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 2,
+      "words": [
+        "falla",
+        "ramla",
+        "trilla"
+      ]
+    },
+    {
+      "id": "g.talk",
+      "concept": "talk",
+      "pos": "verb",
+      "domain": "speak",
+      "tier": 1,
+      "words": [
+        "prata",
+        "tala"
+      ]
+    },
+    {
+      "id": "g.shout",
+      "concept": "shout",
+      "pos": "verb",
+      "domain": "speak",
+      "tier": 1,
+      "words": [
+        "skrika",
+        "vråla"
+      ]
+    },
+    {
+      "id": "g.cry",
+      "concept": "cry",
+      "pos": "verb",
+      "domain": "face",
+      "tier": 2,
+      "words": [
+        "gråta",
+        "lipa"
+      ]
+    },
+    {
+      "id": "g.smile",
+      "concept": "smile",
+      "pos": "verb",
+      "domain": "face",
+      "tier": 1,
+      "words": [
+        "le",
+        "flina"
+      ]
+    }
+  ],
+  "near": [
+    {
+      "a": "varm",
+      "b": "ljummen",
+      "why": "shade: ljummen är mindre varm"
+    },
+    {
+      "a": "kall",
+      "b": "sval",
+      "why": "shade"
+    },
+    {
+      "a": "blöt",
+      "b": "fuktig",
+      "why": "shade"
+    },
+    {
+      "a": "arg",
+      "b": "irriterad",
+      "why": "shade: irriterad är lite arg"
+    },
+    {
+      "a": "rädd",
+      "b": "nervös",
+      "why": "nervös är en annan känsla, inte bara lite rädd"
+    },
+    {
+      "a": "ledsen",
+      "b": "förtvivlad",
+      "why": "shade: förtvivlad är mycket mer än ledsen"
+    },
+    {
+      "a": "stor",
+      "b": "enorm",
+      "why": "shade: enorm är mycket större än stor"
+    },
+    {
+      "a": "tyst",
+      "b": "mysig",
+      "why": "tyst är utan ljud; mysig är en känsla"
+    },
+    {
+      "a": "stökig",
+      "b": "smutsig",
+      "why": "stökig är inte städad; smutsig är inte ren"
+    },
+    {
+      "a": "stark",
+      "b": "modig",
+      "why": "kroppens styrka mot mod"
+    },
+    {
+      "a": "prata",
+      "b": "skrika",
+      "why": "att skrika är att prata mycket högt"
+    },
+    {
+      "a": "välja",
+      "b": "hjälpa",
+      "why": "olika handlingar som barn ibland blandar i meningar"
+    }
+  ],
+  "nearOnly": [
+    "nervös",
+    "förtvivlad",
+    "enorm"
+  ],
+  "falseOf": {
+    "happy": [
+      "ledsen",
+      "sorgsen",
+      "arg",
+      "ilsken",
+      "rädd",
+      "skrämd",
+      "förvånad",
+      "överraskad",
+      "häpen",
+      "trött",
+      "sömnig",
+      "snabb",
+      "kvick",
+      "stor",
+      "jättelik",
+      "liten",
+      "pytteliten"
+    ],
+    "sad": [
+      "glad",
+      "lycklig",
+      "munter",
+      "arg",
+      "ilsken",
+      "förvånad",
+      "överraskad",
+      "häpen",
+      "snabb",
+      "kvick",
+      "stor",
+      "jättelik",
+      "liten",
+      "pytteliten"
+    ],
+    "angry": [
+      "glad",
+      "lycklig",
+      "munter",
+      "ledsen",
+      "sorgsen",
+      "rädd",
+      "skrämd",
+      "förvånad",
+      "överraskad",
+      "häpen",
+      "trött",
+      "sömnig",
+      "snabb",
+      "kvick",
+      "stor",
+      "jättelik",
+      "liten",
+      "pytteliten"
+    ],
+    "scared": [
+      "glad",
+      "lycklig",
+      "munter",
+      "ledsen",
+      "sorgsen",
+      "trött",
+      "sömnig",
+      "snabb",
+      "kvick",
+      "stor",
+      "jättelik",
+      "liten",
+      "pytteliten"
+    ],
+    "surprised": [
+      "glad",
+      "lycklig",
+      "munter",
+      "ledsen",
+      "sorgsen",
+      "arg",
+      "ilsken",
+      "trött",
+      "sömnig",
+      "snabb",
+      "kvick",
+      "stor",
+      "jättelik",
+      "liten",
+      "pytteliten"
+    ],
+    "tired": [
+      "glad",
+      "lycklig",
+      "munter",
+      "arg",
+      "ilsken",
+      "rädd",
+      "skrämd",
+      "förvånad",
+      "överraskad",
+      "häpen",
+      "snabb",
+      "kvick",
+      "stor",
+      "jättelik",
+      "liten",
+      "pytteliten"
+    ],
+    "fast": [
+      "glad",
+      "lycklig",
+      "munter",
+      "ledsen",
+      "sorgsen",
+      "arg",
+      "ilsken",
+      "rädd",
+      "skrämd",
+      "förvånad",
+      "överraskad",
+      "häpen",
+      "trött",
+      "sömnig"
+    ],
+    "big": [
+      "ledsen",
+      "sorgsen",
+      "arg",
+      "ilsken",
+      "rädd",
+      "skrämd",
+      "förvånad",
+      "överraskad",
+      "häpen",
+      "snabb",
+      "kvick",
+      "liten",
+      "pytteliten"
+    ],
+    "small": [
+      "ledsen",
+      "sorgsen",
+      "rädd",
+      "skrämd",
+      "förvånad",
+      "överraskad",
+      "häpen",
+      "trött",
+      "sömnig",
+      "stor",
+      "jättelik"
+    ]
+  },
+  "scales": [
+    {
+      "id": "s.heat",
+      "pos": "adj",
+      "words": [
+        "ljummen",
+        "varm",
+        "kokhet"
+      ]
+    },
+    {
+      "id": "s.cold",
+      "pos": "adj",
+      "words": [
+        "sval",
+        "kall",
+        "iskall"
+      ]
+    },
+    {
+      "id": "s.wet",
+      "pos": "adj",
+      "words": [
+        "fuktig",
+        "blöt",
+        "genomblöt"
+      ]
+    },
+    {
+      "id": "s.angry",
+      "pos": "adj",
+      "words": [
+        "irriterad",
+        "arg",
+        "rasande"
+      ]
+    },
+    {
+      "id": "s.good",
+      "pos": "adj",
+      "words": [
+        "okej",
+        "bra",
+        "fantastisk"
+      ]
+    },
+    {
+      "id": "s.hunger",
+      "pos": "adj",
+      "words": [
+        "sugen",
+        "hungrig",
+        "utsvulten"
+      ]
+    },
+    {
+      "id": "s.drink",
+      "pos": "verb",
+      "words": [
+        "smutta",
+        "dricka",
+        "svepa"
+      ]
+    },
+    {
+      "id": "s.like",
+      "pos": "verb",
+      "words": [
+        "gilla",
+        "älska",
+        "avguda"
+      ]
+    },
+    {
+      "id": "s.voice",
+      "pos": "verb",
+      "words": [
+        "viska",
+        "prata",
+        "skrika"
+      ]
+    }
+  ],
+  "fields": {
+    "say": {
+      "head": "sa",
+      "form": "preteritum",
+      "words": [
+        "viskade",
+        "ropade",
+        "frågade",
+        "svarade",
+        "förklarade",
+        "lovade"
+      ],
+      "sentences": [
+        {
+          "id": "f1",
+          "text": "Bebisen sov, därför {gap} {name} alldeles tyst.",
+          "fit": {
+            "viskade": true,
+            "ropade": false,
+            "frågade": false,
+            "svarade": false,
+            "förklarade": false,
+            "lovade": false
+          }
+        },
+        {
+          "id": "f2",
+          "text": "{name} {gap} hemligheten i mormors öra.",
+          "fit": {
+            "viskade": true,
+            "ropade": false,
+            "frågade": false,
+            "svarade": false,
+            "förklarade": false,
+            "lovade": false
+          }
+        },
+        {
+          "id": "f3",
+          "text": "Bussen skulle just åka, därför {gap} {name}: ”Vänta på mig!”",
+          "fit": {
+            "viskade": false,
+            "ropade": true,
+            "frågade": false,
+            "svarade": false,
+            "förklarade": false,
+            "lovade": false
+          }
+        },
+        {
+          "id": "f4",
+          "text": "{name} {gap} högt över hela skolgården.",
+          "fit": {
+            "viskade": false,
+            "ropade": true,
+            "frågade": false,
+            "svarade": false,
+            "förklarade": false,
+            "lovade": false
+          }
+        },
+        {
+          "id": "f5",
+          "text": "”Var är min röda mössa?” {gap} {name}.",
+          "fit": {
+            "viskade": false,
+            "ropade": false,
+            "frågade": true,
+            "svarade": false,
+            "förklarade": false,
+            "lovade": false
+          }
+        },
+        {
+          "id": "f6",
+          "text": "{name} {gap} på lärarens fråga med ett stort leende.",
+          "fit": {
+            "viskade": false,
+            "ropade": false,
+            "frågade": false,
+            "svarade": true,
+            "förklarade": false,
+            "lovade": false
+          }
+        },
+        {
+          "id": "f7",
+          "text": "{name} {gap} steg för steg hur man planterar ett frö.",
+          "fit": {
+            "viskade": false,
+            "ropade": false,
+            "frågade": false,
+            "svarade": false,
+            "förklarade": true,
+            "lovade": false
+          }
+        },
+        {
+          "id": "f8",
+          "text": "”Jag ska mata fiskarna varje dag, det är ett löfte!” {gap} {name}.",
+          "fit": {
+            "viskade": false,
+            "ropade": false,
+            "frågade": false,
+            "svarade": false,
+            "förklarade": false,
+            "lovade": true
+          }
+        }
+      ]
+    },
+    "go": {
+      "head": "gå",
+      "words": [
+        "promenera",
+        "marschera",
+        "krypa",
+        "skynda",
+        "strosa",
+        "vandra",
+        "smyga",
+        "rusa"
+      ]
+    },
+    "look": {
+      "head": "titta",
+      "words": [
+        "kika",
+        "stirra",
+        "glutta",
+        "glo",
+        "spana",
+        "betrakta",
+        "iaktta",
+        "plira"
+      ]
+    }
+  },
+  "quotes": [
+    "”",
+    "”"
+  ],
+  "instructionBans": {
+    "base": [
+      "streck",
+      "ruta",
+      "rutan",
+      "bild",
+      "bilden"
+    ],
+    "pictures": [
+      "streck",
+      "ruta",
+      "rutan",
+      "kort",
+      "kortet"
+    ],
+    "pairs": [
+      "ruta",
+      "rutan",
+      "kort",
+      "kortet",
+      "bild",
+      "ringa"
+    ],
+    "shades": [
+      "streck",
+      "kort",
+      "kortet",
+      "samma"
+    ],
+    "say": [
+      "streck",
+      "kort",
+      "kortet"
+    ],
+    "fields": [
+      "streck",
+      "kort",
+      "kortet",
+      "ruta",
+      "rutan"
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Synonymer: ringa in ordet som betyder samma sak",
+      "instruction": "Läs det stora ordet på varje kort och ringa in det ord under som betyder samma sak."
+    },
+    "pictures": {
+      "title": "Synonymer med bilder: två ord till en bild",
+      "instruction": "Titta på varje bild och ringa in de två ord under den som betyder samma sak och passar till bilden."
+    },
+    "pairs": {
+      "title": "Synonympar: para ihop ord som betyder samma sak",
+      "instruction": "Dra ett streck från varje ord till vänster till det ord till höger som betyder samma sak."
+    },
+    "shades": {
+      "title": "Ordens styrka: från lite till mycket",
+      "instruction": "Läs de tre orden i varje rad och skriv 1, 2 och 3 i rutorna, från det svagaste ordet till det starkaste."
+    },
+    "say": {
+      "title": "Synonymer till sa: välj ordet som passar",
+      "instruction": "Läs varje mening och skriv det ord från pratbubblan som passar bäst i rutan i stället för sa."
+    },
+    "fields": {
+      "title": "Synonymer till gå och titta: sortera orden",
+      "instruction": "Läs de tio orden och skriv varje ord i fältet gå eller i fältet titta, där det hör hemma."
+    }
+  }
+}

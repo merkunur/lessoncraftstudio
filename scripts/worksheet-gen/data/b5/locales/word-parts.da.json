@@ -1,0 +1,1328 @@
+{
+  "familyHead": "Forstavelser, endelser og rodord",
+  "inflections": [
+    "en",
+    "erne",
+    "ene",
+    "ede",
+    "te",
+    "s",
+    "n",
+    "t"
+  ],
+  "families": [
+    {
+      "id": "hjælp",
+      "stem": "hjælp",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "hjælp"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "hjælpe",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "hjælper",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "hjælpsom",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "hjælpsomhed",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "hjælpeløs",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "medhjælper",
+          "kind": "prefixed",
+          "slot": "noun-person"
+        },
+        {
+          "word": "førstehjælp",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "hjul",
+          "whyNotFamily": "det sidder på en cykel; der er ingen hjælp i det"
+        },
+        {
+          "word": "hjort",
+          "whyNotFamily": "et dyr i skoven"
+        },
+        {
+          "word": "hjem",
+          "whyNotFamily": "der, hvor man bor"
+        }
+      ]
+    },
+    {
+      "id": "mal",
+      "stem": "mal",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "mal"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "male",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "maler",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "maleri",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "maling",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "malerisk",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "overmale",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "malerpensel",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "mad",
+          "whyNotFamily": "det, man spiser"
+        },
+        {
+          "word": "mave",
+          "whyNotFamily": "en del af kroppen"
+        },
+        {
+          "word": "mand",
+          "whyNotFamily": "en voksen person; kun \"ma\" er ens"
+        }
+      ]
+    },
+    {
+      "id": "glem",
+      "stem": "glem",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "glem"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "glemme",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "glemsom",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "glemsomhed",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "glemsel",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "forglemme",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "forglemmelse",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "glemmebog",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "glas",
+          "whyNotFamily": "man drikker af det"
+        },
+        {
+          "word": "glat",
+          "whyNotFamily": "isen er glat om vinteren"
+        },
+        {
+          "word": "glad",
+          "whyNotFamily": "i godt humør; kun \"gl\" er ens"
+        }
+      ]
+    },
+    {
+      "id": "ven",
+      "stem": "ven",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "ven"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "veninde",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "venlig",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "venlighed",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "venskab",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "venskabelig",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "venligst",
+          "kind": "derived",
+          "slot": "adverb"
+        },
+        {
+          "word": "vennekreds",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "vej",
+          "whyNotFamily": "man går og kører på den"
+        },
+        {
+          "word": "vest",
+          "whyNotFamily": "et verdenshjørne"
+        },
+        {
+          "word": "vejr",
+          "whyNotFamily": "sol, regn og blæst"
+        }
+      ]
+    },
+    {
+      "id": "byg",
+      "stem": "byg",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "byg"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "bygge",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "bygning",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "ombygge",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "ombygning",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "opbygge",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "tilbygning",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "bygmester",
+          "kind": "compound",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "by",
+          "whyNotFamily": "et sted med mange huse"
+        },
+        {
+          "word": "bytte",
+          "whyNotFamily": "at give én ting for en anden"
+        },
+        {
+          "word": "byrde",
+          "whyNotFamily": "noget tungt at bære"
+        }
+      ]
+    },
+    {
+      "id": "frygt",
+      "stem": "frygt",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "frygt"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "frygte",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "frygtelig",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "frygtløs",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "frygtløshed",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "frygtsom",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "frygtsomhed",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "frygtindgydende",
+          "kind": "compound",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "frø",
+          "whyNotFamily": "et lille dyr, der hopper, eller det, en plante vokser fra"
+        },
+        {
+          "word": "fri",
+          "whyNotFamily": "når man ikke skal i skole"
+        },
+        {
+          "word": "frisk",
+          "whyNotFamily": "ny og god, som frisk brød"
+        }
+      ]
+    }
+  ],
+  "rootFamilies": [
+    {
+      "id": "læs",
+      "stem": "læs",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "læs"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "læse",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "læsning",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "læselig",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "oplæse",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "oplæsning",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "gennemlæse",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "læsebog",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "læbe",
+          "whyNotFamily": "en del af munden"
+        },
+        {
+          "word": "læge",
+          "whyNotFamily": "én, der gør syge raske"
+        },
+        {
+          "word": "lænestol",
+          "whyNotFamily": "en blød stol"
+        }
+      ]
+    },
+    {
+      "id": "arbejd",
+      "stem": "arbejd",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "arbejd"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "arbejde",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "arbejdsom",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "arbejdsløs",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "medarbejder",
+          "kind": "prefixed",
+          "slot": "noun-person"
+        },
+        {
+          "word": "samarbejde",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "bearbejde",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "arbejdsplads",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "arm",
+          "whyNotFamily": "en del af kroppen"
+        },
+        {
+          "word": "art",
+          "whyNotFamily": "en slags dyr eller plante"
+        },
+        {
+          "word": "artig",
+          "whyNotFamily": "sød og lydig"
+        }
+      ]
+    },
+    {
+      "id": "skriv",
+      "stem": "skriv",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "skriv"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "skrivning",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "beskrive",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "beskrivelse",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "afskrive",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "omskrive",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "indskrive",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "skrivehæfte",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "skib",
+          "whyNotFamily": "en stor båd"
+        },
+        {
+          "word": "skov",
+          "whyNotFamily": "et sted med mange træer"
+        },
+        {
+          "word": "skål",
+          "whyNotFamily": "man spiser grød af den"
+        }
+      ]
+    }
+  ],
+  "picFamilies": [
+    {
+      "id": "sol",
+      "stem": "sol",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "sol",
+        "pic": {
+          "theme": "weather",
+          "noun": "sun"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "solrig",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "sofa",
+          "whyNotFamily": "begynder som \"sol\", men er ikke bygget af det"
+        },
+        {
+          "word": "sokker",
+          "whyNotFamily": "begynder som \"sol\", men er ikke bygget af det"
+        },
+        {
+          "word": "sove",
+          "whyNotFamily": "begynder som \"sol\", men er ikke bygget af det"
+        }
+      ]
+    },
+    {
+      "id": "sky",
+      "stem": "sky",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "sky",
+        "pic": {
+          "theme": "spring",
+          "noun": "cloud"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "skyet",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "ski",
+          "whyNotFamily": "begynder som \"sky\", men er ikke bygget af det"
+        },
+        {
+          "word": "skole",
+          "whyNotFamily": "begynder som \"sky\", men er ikke bygget af det"
+        },
+        {
+          "word": "skinke",
+          "whyNotFamily": "begynder som \"sky\", men er ikke bygget af det"
+        }
+      ]
+    },
+    {
+      "id": "fisk",
+      "stem": "fisk",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "fisk",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "fisker",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "fiskeri",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "finger",
+          "whyNotFamily": "begynder som \"fisk\", men er ikke bygget af det"
+        },
+        {
+          "word": "fire",
+          "whyNotFamily": "begynder som \"fisk\", men er ikke bygget af det"
+        },
+        {
+          "word": "figur",
+          "whyNotFamily": "begynder som \"fisk\", men er ikke bygget af det"
+        }
+      ]
+    },
+    {
+      "id": "tand",
+      "stem": "tand",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "tand",
+        "pic": {
+          "theme": "body parts",
+          "noun": "tooth"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "tandløs",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "tante",
+          "whyNotFamily": "begynder som \"tand\", men er ikke bygget af det"
+        },
+        {
+          "word": "taske",
+          "whyNotFamily": "begynder som \"tand\", men er ikke bygget af det"
+        },
+        {
+          "word": "tavle",
+          "whyNotFamily": "begynder som \"tand\", men er ikke bygget af det"
+        }
+      ]
+    },
+    {
+      "id": "blomst",
+      "stem": "blomst",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "blomst",
+        "pic": {
+          "theme": "spring",
+          "noun": "flower"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "blomstre",
+          "kind": "derived",
+          "slot": "verb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "blyant",
+          "whyNotFamily": "begynder som \"blomst\", men er ikke bygget af det"
+        },
+        {
+          "word": "blød",
+          "whyNotFamily": "begynder som \"blomst\", men er ikke bygget af det"
+        },
+        {
+          "word": "blå",
+          "whyNotFamily": "begynder som \"blomst\", men er ikke bygget af det"
+        }
+      ]
+    },
+    {
+      "id": "guitar",
+      "stem": "guitar",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "guitar",
+        "pic": {
+          "theme": "music",
+          "noun": "guitar"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "guitarist",
+          "kind": "derived",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "gulerod",
+          "whyNotFamily": "begynder som \"guitar\", men er ikke bygget af det"
+        },
+        {
+          "word": "guld",
+          "whyNotFamily": "begynder som \"guitar\", men er ikke bygget af det"
+        },
+        {
+          "word": "gummi",
+          "whyNotFamily": "begynder som \"guitar\", men er ikke bygget af det"
+        }
+      ]
+    },
+    {
+      "id": "violin",
+      "stem": "violin",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "violin",
+        "pic": {
+          "theme": "music",
+          "noun": "violin"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "violinist",
+          "kind": "derived",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "vind",
+          "whyNotFamily": "begynder som \"violin\", men er ikke bygget af det"
+        },
+        {
+          "word": "vinter",
+          "whyNotFamily": "begynder som \"violin\", men er ikke bygget af det"
+        },
+        {
+          "word": "vindue",
+          "whyNotFamily": "begynder som \"violin\", men er ikke bygget af det"
+        }
+      ]
+    },
+    {
+      "id": "trompet",
+      "stem": "trompet",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "trompet",
+        "pic": {
+          "theme": "music",
+          "noun": "trumpet"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "trompetist",
+          "kind": "derived",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "tromme",
+          "whyNotFamily": "begynder som \"trompet\", men er ikke bygget af det"
+        },
+        {
+          "word": "trold",
+          "whyNotFamily": "begynder som \"trompet\", men er ikke bygget af det"
+        },
+        {
+          "word": "trappe",
+          "whyNotFamily": "begynder som \"trompet\", men er ikke bygget af det"
+        }
+      ]
+    },
+    {
+      "id": "hjerte",
+      "stem": "hjerte",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "hjerte",
+        "pic": {
+          "theme": "shapes",
+          "noun": "heart"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "hjertelig",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "hjelm",
+          "whyNotFamily": "begynder som \"hjerte\", men er ikke bygget af det"
+        },
+        {
+          "word": "hjørne",
+          "whyNotFamily": "begynder som \"hjerte\", men er ikke bygget af det"
+        },
+        {
+          "word": "hjemme",
+          "whyNotFamily": "begynder som \"hjerte\", men er ikke bygget af det"
+        }
+      ]
+    }
+  ],
+  "sentences": {
+    "hjælp": [
+      {
+        "word": "hjælpe",
+        "slot": "verb",
+        "frame": "Vil du {gap} mig med at bære kassen?"
+      },
+      {
+        "word": "hjælper",
+        "slot": "noun-person",
+        "frame": "Mormor fik en god {gap} til at rydde op i haven."
+      },
+      {
+        "word": "hjælpsomhed",
+        "slot": "noun-thing",
+        "frame": "Vi takkede Ali for hans store {gap}."
+      },
+      {
+        "word": "hjælpsom",
+        "slot": "adjective",
+        "frame": "Min lillebror er altid {gap} og dækker bord."
+      }
+    ],
+    "mal": [
+      {
+        "word": "male",
+        "slot": "verb",
+        "frame": "I dag skal vi {gap} et billede af en hest."
+      },
+      {
+        "word": "maler",
+        "slot": "noun-person",
+        "frame": "Far ringede efter en {gap}, som kunne give huset ny farve."
+      },
+      {
+        "word": "maleri",
+        "slot": "noun-thing",
+        "frame": "På væggen hænger et flot {gap} af havet."
+      },
+      {
+        "word": "malerisk",
+        "slot": "adjective",
+        "frame": "Den lille by ved havet er meget {gap}."
+      }
+    ]
+  },
+  "prefixKey": {
+    "prefixes": [
+      {
+        "prefix": "gen",
+        "meaning": "igen"
+      },
+      {
+        "prefix": "ind",
+        "meaning": "inden i noget"
+      },
+      {
+        "prefix": "ud",
+        "meaning": "væk fra noget"
+      }
+    ],
+    "rows": [
+      {
+        "base": "bruge",
+        "prefix": "gen",
+        "word": "genbruge",
+        "gloss": "at bruge en gammel ting en gang til"
+      },
+      {
+        "base": "læse",
+        "prefix": "gen",
+        "word": "genlæse",
+        "gloss": "at læse historien en gang til"
+      },
+      {
+        "base": "fortælle",
+        "prefix": "gen",
+        "word": "genfortælle",
+        "gloss": "at fortælle historien igen med egne ord"
+      },
+      {
+        "base": "åbne",
+        "prefix": "gen",
+        "word": "genåbne",
+        "gloss": "at åbne butikken igen efter ferien"
+      },
+      {
+        "base": "ånde",
+        "prefix": "ind",
+        "word": "indånde",
+        "gloss": "at trække luft ned i lungerne gennem næsen"
+      },
+      {
+        "base": "pakke",
+        "prefix": "ind",
+        "word": "indpakke",
+        "gloss": "at lægge gaven i flot papir, så man ikke kan se den"
+      },
+      {
+        "base": "sætte",
+        "prefix": "ind",
+        "word": "indsætte",
+        "gloss": "at give banken dine penge, så de står på din konto"
+      },
+      {
+        "base": "låne",
+        "prefix": "ud",
+        "word": "udlåne",
+        "gloss": "at lade en ven låne en bog fra dig"
+      },
+      {
+        "base": "klippe",
+        "prefix": "ud",
+        "word": "udklippe",
+        "gloss": "at klippe et billede fri af avisen med en saks"
+      },
+      {
+        "base": "skifte",
+        "prefix": "ud",
+        "word": "udskifte",
+        "gloss": "at tage den gamle pære af og sætte en ny i"
+      }
+    ],
+    "crossCheck": [
+      {
+        "base": "bruge",
+        "prefix": "gen",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "bruge",
+        "prefix": "ind",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "bruge",
+        "prefix": "ud",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "læse",
+        "prefix": "gen",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "læse",
+        "prefix": "ind",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "læse",
+        "prefix": "ud",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "fortælle",
+        "prefix": "gen",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "fortælle",
+        "prefix": "ind",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "fortælle",
+        "prefix": "ud",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "åbne",
+        "prefix": "gen",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "åbne",
+        "prefix": "ind",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "åbne",
+        "prefix": "ud",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "ånde",
+        "prefix": "gen",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "ånde",
+        "prefix": "ind",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "ånde",
+        "prefix": "ud",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "pakke",
+        "prefix": "gen",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "pakke",
+        "prefix": "ind",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "pakke",
+        "prefix": "ud",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "sætte",
+        "prefix": "gen",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "sætte",
+        "prefix": "ind",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "sætte",
+        "prefix": "ud",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "låne",
+        "prefix": "gen",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "låne",
+        "prefix": "ind",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "låne",
+        "prefix": "ud",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "klippe",
+        "prefix": "gen",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "klippe",
+        "prefix": "ind",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "klippe",
+        "prefix": "ud",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "skifte",
+        "prefix": "gen",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "skifte",
+        "prefix": "ind",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "skifte",
+        "prefix": "ud",
+        "isWord": true,
+        "fitsGloss": true
+      }
+    ]
+  },
+  "negating": [
+    "u",
+    "mis"
+  ],
+  "agents": [
+    {
+      "key": "baker",
+      "base": "bage",
+      "answer": {
+        "any": "bager"
+      }
+    },
+    {
+      "key": "musician",
+      "base": "musik",
+      "answer": {
+        "any": "musiker"
+      }
+    },
+    {
+      "key": "singer",
+      "base": "sang",
+      "answer": {
+        "any": "sanger"
+      }
+    },
+    {
+      "key": "photographer",
+      "base": "foto",
+      "answer": {
+        "any": "fotograf"
+      }
+    },
+    {
+      "key": "pharmacist",
+      "base": "apotek",
+      "answer": {
+        "any": "apoteker"
+      }
+    },
+    {
+      "key": "judge",
+      "base": "dom",
+      "answer": {
+        "any": "dommer"
+      }
+    },
+    {
+      "key": "teacher",
+      "base": "lære",
+      "answer": {
+        "any": "lærer"
+      }
+    },
+    {
+      "key": "cashier",
+      "base": "kasse",
+      "answer": {
+        "any": "kasserer"
+      }
+    },
+    {
+      "key": "athlete",
+      "base": "løbe",
+      "answer": {
+        "any": "løber"
+      }
+    },
+    {
+      "key": "ballerina",
+      "base": "danse",
+      "answer": {
+        "any": "danser"
+      }
+    }
+  ],
+  "exemplar": {
+    "base": [
+      "hjælp",
+      "mal"
+    ],
+    "F1": [
+      "weather/sun",
+      "spring/cloud",
+      "ocean life/fish",
+      "body parts/tooth",
+      "spring/flower",
+      "music/guitar",
+      "music/violin",
+      "music/trumpet",
+      "shapes/heart"
+    ],
+    "F2": [
+      "hjælp",
+      "mal",
+      "glem",
+      "ven",
+      "byg",
+      "frygt",
+      "læs",
+      "arbejd",
+      "skriv"
+    ],
+    "F5": [
+      "hjælp",
+      "mal"
+    ]
+  },
+  "refuse": {
+    "base": false,
+    "picture-family": false,
+    "root-word": false,
+    "prefix-key": false,
+    "who-does-it": false,
+    "family-in-sentence": false
+  },
+  "instructionBans": {},
+  "strings": {
+    "base": {
+      "title": "Rodord: sortér ordene efter roden",
+      "instruction": "Læs hvert ord foroven, og skriv det på en linje i den mur, der står på ordets rod."
+    },
+    "picture-family": {
+      "title": "Rodord med billeder: find ordet",
+      "instruction": "Sig, hvad du ser på hvert billede, og sæt ring om det ene ord over det, der er bygget af billedets ord."
+    },
+    "root-word": {
+      "title": "Find rodordet",
+      "instruction": "Sæt ring om den del, de tre ord har til fælles, og skriv rodordet i den tomme sten."
+    },
+    "prefix-key": {
+      "title": "Forstavelserne gen-, ind- og ud-: vælg efter betydning",
+      "instruction": "Læs, hvad hvert nyt ord betyder, find forstavelsen i nøglen, og skriv den i den tomme brik."
+    },
+    "who-does-it": {
+      "title": "Hvem gør det? Ord for personer",
+      "instruction": "Se på hver person på arbejde, læs ordet ved siden af, og skriv personordet i den tomme brik."
+    },
+    "family-in-sentence": {
+      "title": "Rodord i sætninger",
+      "instruction": "Skriv hvert af de fire ord på stenen ind i den sætning, det passer i."
+    }
+  }
+}

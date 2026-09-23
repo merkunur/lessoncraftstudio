@@ -89,6 +89,49 @@ const APPARATUS_ALLOWED = {
   'sign-quiz': ['sentence', 'circle', 'sign'],
 };
 
+/**
+ * rule 13 — THE GATE'S OWN MEANING MODEL (never read off the bank): each role -> the claims a sentence about
+ * that sign makes, which that sign SATISFIES. Two roles sharing a claim can BOTH fit one sign-quiz sentence
+ * (a row with two right answers: "Bicycles are not allowed here" fits no-bikes AND no-vehicles), so every
+ * such pair must sit in COMMON.confusable (the build keeps confusable pairs off one row). The table may carry
+ * MORE pairs (look-alike glyphs); it may never carry fewer. Audit 2026-09-23 (native panels on G2-361).
+ */
+const ROLE_SATISFIES = {
+  stop: ['give-way', 'halt'],
+  yield: ['give-way'],
+  crossing: ['people-cross'],
+  'pedestrian-warning': ['people-cross', 'people-walk-along'],
+  children: ['people-cross', 'children'],
+  school: ['people-cross', 'children'],
+  'signal-ahead': ['light-ahead'],
+  'bike-warning': ['bikes-ride', 'children'],
+  'no-entry': ['no-cars-in'],
+  'no-vehicles': ['no-cars-in', 'no-bikes'],
+  'no-bikes': ['no-bikes'],
+  'no-pedestrians': ['no-walkers'],
+  footpath: ['people-walk-along', 'no-bikes'],
+  'bike-path': ['bikes-ride', 'no-walkers'],
+  'shared-path': ['people-walk-along', 'bikes-ride'],
+  'info-1': ['info-1'],
+  'info-2': ['info-2'],
+};
+/** true when one sentence can be satisfied by both roles (the gate's model) */
+function bothSatisfy(a, b) {
+  if (a === b) return false;
+  const A = ROLE_SATISFIES[a] || [], B = ROLE_SATISFIES[b] || [];
+  return A.some((x) => B.includes(x));
+}
+function validateConfusable(common = COMMON) {
+  const E = [];
+  const has = (a, b) => (common.confusable || []).some(([x, y]) => (x === a && y === b) || (x === b && y === a));
+  for (const r of common.roles) if (!ROLE_SATISFIES[r]) E.push(`rule 13: role "${r}" has no entry in the gate's meaning model`);
+  for (let i = 0; i < common.roles.length; i++) for (let j = i + 1; j < common.roles.length; j++) {
+    const a = common.roles[i], b = common.roles[j];
+    if (bothSatisfy(a, b) && !has(a, b)) E.push(`rule 13: ${a} / ${b} both satisfy one sentence but the pair is not in COMMON.confusable (a quiz row could have two right answers)`);
+  }
+  return E;
+}
+
 function validateBank(block, loc, common = COMMON) {
   const E = [];
   const e = (rule, msg) => E.push(`rule ${rule}: ${loc}: ${msg}`);
@@ -306,6 +349,20 @@ function fixture(loc) {
     familyHead: 'Verkehrserziehung', signHead: 'Verkehrszeichen', childAnchors: ['Grundschule', 'für Kinder'], strings: fixStrings('Verkehrserziehung', 'Verkehrszeichen') };
 }
 
+function confusablePoisons() {
+  const ctl = K.control('P18 control: COMMON.confusable covers the meaning model', validateConfusable());
+  const drop = (a, b) => { const c = clone(COMMON); c.confusable = c.confusable.filter(([x, y]) => !((x === a && y === b) || (x === b && y === a))); return c; };
+  K.judge('P18 confusable without [no-bikes, no-vehicles]', validateConfusable(drop('no-bikes', 'no-vehicles')), /rule 13: no-vehicles \/ no-bikes both satisfy one sentence/, ctl);
+  K.judge('P19 confusable without [no-pedestrians, bike-path]', validateConfusable(drop('no-pedestrians', 'bike-path')), /rule 13: no-pedestrians \/ bike-path both satisfy one sentence/, ctl);
+  // the other direction: a pair the model does NOT derive is never demanded (dropping a look-alike pair stays green),
+  // and the model never calls two unrelated signs a double fit
+  const c20 = validateConfusable(drop('signal-ahead', 'crossing'));
+  K.control('P20 must-pass: dropping the look-alike [signal-ahead, crossing] is not a rule-13 finding', c20);
+  ok(!c20.length, `P20 must-pass: dropping a look-alike pair raised ${JSON.stringify(c20)}`);
+  ok(!bothSatisfy('stop', 'school') && !bothSatisfy('no-bikes', 'bike-path') && !bothSatisfy('no-pedestrians', 'footpath'), 'rule 13 model: an unrelated / opposite pair reads as a double fit');
+  ok(bothSatisfy('no-bikes', 'no-vehicles') && bothSatisfy('bike-path', 'no-pedestrians'), 'rule 13 model: the audited double fits are not derived');
+}
+
 function dataPoisons(en) {
   const ctl = {};
   for (const [loc, b] of [['en', en], ['de', fixture('de')], ['sv', fixture('sv')], ['nl', fixture('nl')], ['es', fixture('es')], ['pt', fixture('pt')]]) {
@@ -479,8 +536,13 @@ async function renderPoisons(page) {
   let m11 = ''; try { SPEC._buildWith({ block: en, config: { ...SPEC.difficulty[2], mode: 'colour-light' } }, { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m11 = e.message; }
   K.judge('PR11b a misspelt face mode', m11 ? [m11] : [], /unknown mode "colour-light"/, ctl);
   // refusal: an unauthored locale / an unset pedLight.stop
-  let m2 = ''; try { SPEC.build({ difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); } catch (e) { m2 = e.message; }
-  K.judge('PR12 an unauthored locale (de) refuses', m2 ? [m2] : [], /has no de block/, ctl);
+  // the probe locale is the first one NO panel has authored yet (de was the probe until its panel applied it)
+  const authored = Object.keys(require('../lib/b5-common.js').bankModule('road-safety'));
+  const un = ['fi', 'no', 'da', 'sv', 'nl', 'it', 'fr', 'es', 'pt', 'de'].find((l) => !authored.includes(l));
+  if (un) {
+    let m2 = ''; try { SPEC.build({ difficulty: 2, locale: un }, { rng: makeRng('x') }); } catch (e) { m2 = e.message; }
+    K.judge(`PR12 an unauthored locale (${un}) refuses`, m2 ? [m2] : [], new RegExp(`has no ${un} block`), ctl);
+  }
   const b13 = clone(en); delete b13.pedLight.stop; let m3 = '';
   try { SPEC._buildWith({ block: b13, config: SPEC.difficulty[2] }, { locale: 'pt' }, { rng: makeRng('x') }); } catch (e) { m3 = e.message; }
   K.judge('PR13 pedLight.stop unset refuses (the pt case)', m3 ? [m3] : [], /pedLight\.stop is undefined — the pt panel must SET it/, ctl);
@@ -492,13 +554,15 @@ async function main() {
   const locs = Object.keys(mod);
   for (const loc of locs) { const f = validateBank(mod[loc], loc); ok(!f.length, `bank ${loc}: ${JSON.stringify(f.slice(0, 5))}`); }
   console.log(`validateBank: ${locs.length} authored block(s) (${locs.join(', ')})`);
+  { const f = validateConfusable(); ok(!f.length, `COMMON.confusable: ${JSON.stringify(f.slice(0, 5))}`); }
+  confusablePoisons();
   dataPoisons(mod.en);
   fs.mkdirSync(OUTDIR, { recursive: true });
   const rows = await H.withBrowser(async (page) => {
     const r = await renderGate(page, quick);
     await renderPoisons(page);
     // Phase E: the five faces (sweeps, renders at 814 / 722 / 677, FILL + SPARSE, greyscale, the face poisons)
-    r.push(...await require('./b5-road-safety-faces.js').faceGate({ page, K, validateBank, fixture, quick, OUTDIR }));
+    r.push(...await require('./b5-road-safety-faces.js').faceGate({ page, K, validateBank, fixture, quick, OUTDIR, bothSatisfy }));
     return r;
   });
   console.log('render:\n  ' + rows.join('\n  '));
@@ -509,4 +573,4 @@ async function main() {
   return pass;
 }
 if (require.main === module) main().then((p) => process.exit(p ? 0 : 1), (e) => { console.error(e); process.exit(1); });
-module.exports = { validateBank, fixture, REG, main };
+module.exports = { validateBank, validateConfusable, bothSatisfy, ROLE_SATISFIES, fixture, REG, main };

@@ -378,5 +378,45 @@
   "rounding": {
     "full": "Arrondir un nombre à la dizaine et à la centaine : l'enfant regarde le chiffre des unités ou des dizaines et décide d'arrondir au-dessus ou en dessous.",
     "short": "Arrondir à la dizaine et à la centaine"
+  },
+  "2d-shapes": {
+    "full": "Nommer le cercle, le carré, le triangle et le rectangle même tournés, étirés ou petits, et repérer ceux qui leur ressemblent seulement, pour bien connaître les figures planes.",
+    "short": "Nommer les figures planes dans toutes les positions"
+  },
+  "road-safety": {
+    "full": "Lire le feu allumé, suivre les étapes pour traverser la rue et comprendre ce que demande chaque panneau : les règles qui protègent l’enfant piéton dehors.",
+    "short": "Les feux, la traversée et les panneaux"
+  },
+  "family": {
+    "full": "Retrouver chaque personne sur un arbre généalogique et la nommer du point de vue d’un enfant fait travailler les mots de la famille, de la mamie au cousin.",
+    "short": "Les mots de la famille et la lecture d’un arbre"
+  },
+  "plants": {
+    "full": "Légender les racines, la tige, la feuille, la fleur, le fruit et la graine, puis dire à quoi sert chaque partie et ce dont la plante a besoin : un premier vocabulaire de sciences.",
+    "short": "Les parties de la plante et leur rôle"
+  },
+  "animal-life-cycles": {
+    "full": "Remettre dans l’ordre l’œuf, la chenille, la chrysalide et le papillon, puis les étapes de la grenouille, montre que les animaux changent en grandissant.",
+    "short": "Les cycles de vie du papillon et de la grenouille"
+  },
+  "earth-and-space": {
+    "full": "Dire si une phrase parle du Soleil, de la Terre ou de la Lune, ranger les phases de la Lune et les planètes, et expliquer le jour et la nuit.",
+    "short": "Le Soleil, la Terre, la Lune et les planètes"
+  },
+  "maps": {
+    "full": "Lire la légende d’un plan, passer de la vue de côté à la vue de dessus, utiliser les points cardinaux et nommer les continents et les océans.",
+    "short": "Légende, points cardinaux et continents"
+  },
+  "digraphs": {
+    "full": "Dire le nom de chaque image et trouver les deux lettres qui font un seul son, comme ou, on et oi, pour entendre et lire les sons complexes dans de nouveaux mots.",
+    "short": "Entendre et lire les sons complexes ou, on, oi"
+  },
+  "synonyms": {
+    "full": "Trouver le mot qui veut dire la même chose, ranger des mots proches du plus faible au plus fort et remplacer « dit » par un verbe plus précis enrichit le vocabulaire.",
+    "short": "Les synonymes et les nuances de sens"
+  },
+  "word-parts": {
+    "full": "Trier des mots selon leur radical, trouver la partie commune à trois mots et choisir un préfixe selon son sens montre à l’enfant comment les mots sont construits.",
+    "short": "Le radical, les préfixes et les suffixes"
   }
 }

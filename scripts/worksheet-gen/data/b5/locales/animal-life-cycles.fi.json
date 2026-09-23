@@ -1,0 +1,112 @@
+{
+  "stageWords": {
+    "butterfly": {
+      "egg": "muna",
+      "larva": "toukka",
+      "pupa": "kotelo",
+      "adult": "perhonen"
+    }
+  },
+  "decoy": {
+    "frog.tadpole": "nuijapää"
+  },
+  "landingWords": {
+    "frog": {
+      "spawn": "sammakonkutu",
+      "tadpole": "nuijapää",
+      "legged": "jalallinen nuijapää",
+      "froglet": "sammakonpoikanen",
+      "adult": "sammakko"
+    },
+    "ladybird": {
+      "egg": "muna",
+      "larva": "toukka",
+      "pupa": "kotelo",
+      "adult": "leppäkerttu"
+    }
+  },
+  "statements": {
+    "egg": "Se kuoriutuu munasta.",
+    "change": "Poikanen näyttää aivan erilaiselta kuin aikuinen eläin.",
+    "pupa": "Jonkin aikaa se on kotelona.",
+    "wings": "Aikuisella eläimellä on siivet.",
+    "sixlegs": "Aikuisella eläimellä on kuusi jalkaa.",
+    "nectar": "Aikuinen eläin juo kukista mettä.",
+    "tail": "Poikanen ui hännän avulla.",
+    "water": "Poikanen elää vedessä.",
+    "nolegs": "Aluksi poikasella ei ole jalkoja lainkaan.",
+    "fourlegs": "Aikuisella eläimellä on neljä jalkaa.",
+    "insects": "Aikuinen eläin pyydystää hyönteisiä ja syö niitä."
+  },
+  "drop": [],
+  "familyName": "Perhosen ja sammakon kehitysvaiheet",
+  "spawnForm": "clump",
+  "forbidden": [
+    "kokoon",
+    "kotilo"
+  ],
+  "genreBare": [],
+  "pictureWord": "kuva",
+  "instructionBans": {
+    "G1-377": [
+      "leikkaa",
+      "liimaa",
+      "rasti",
+      "rengasta",
+      "kirjain"
+    ],
+    "G1-389": [
+      "kirjoita",
+      "rasti",
+      "rengasta"
+    ],
+    "G2-365": [
+      "leikkaa",
+      "rasti",
+      "rengasta"
+    ],
+    "G2-366": [
+      "leikkaa",
+      "rasti",
+      "rengasta",
+      "numero"
+    ],
+    "G3-393": [
+      "rengasta",
+      "leikkaa",
+      "kirjoita"
+    ],
+    "G1-390": [
+      "kirjoita",
+      "rasti",
+      "leikkaa"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "G1-377": {
+      "title": "Perhosen kehitysvaiheet: munasta perhoseksi",
+      "instruction": "Muna on 1: kirjoita ruutuihin 2, 3 ja 4 oikeassa järjestyksessä ja viimeiseen ruutuun sen kuvan numero, joka tulee perhosen jälkeen."
+    },
+    "G1-389": {
+      "title": "Sammakon kehitysvaiheet: leikkaa ja liimaa",
+      "instruction": "Leikkaa neljä ruutua irti ja liimaa jokainen omalle lumpeenlehdelleen lammen ympäri sammakonkudusta sammakkoon."
+    },
+    "G2-365": {
+      "title": "Perhosen kehitysvaiheet: kirjoita vaiheiden nimet",
+      "instruction": "Kirjoita jokainen nimi sanapankista oikean kuvan alla olevalle viivalle ja vedä yli se ainoa nimi, joka ei kuulu joukkoon."
+    },
+    "G2-366": {
+      "title": "Muodonvaihdos: miksi eläimeksi poikanen kasvaa?",
+      "instruction": "Katso jokaista eläimen poikasta ja kirjoita sen kirjain ruutuun sen aikuisen eläimen alle, joksi se kasvaa."
+    },
+    "G3-393": {
+      "title": "Perhosen ja sammakon kehitysvaiheet: vertaile",
+      "instruction": "Lue jokainen lause ja merkitse rasti perhosen, sammakon tai molempien kohdalle, kun lause pitää paikkansa."
+    },
+    "G1-390": {
+      "title": "Mitä tulee seuraavaksi? Perhonen, sammakko ja leppäkerttu",
+      "instruction": "Katso jokaisen rivin ensimmäistä kuvaa ja rengasta se kuva, joka tulee heti sen jälkeen."
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "keyTitle": "Teckenförklaring",
+  "symbolWords": {
+    "house": "hus",
+    "tree": "träd",
+    "bush": "buske",
+    "pond": "damm",
+    "bench": "bänk",
+    "tent": "tält",
+    "flowerBed": "blomrabatt",
+    "bridge": "bro"
+  },
+  "dirWords": {
+    "n": "norr",
+    "e": "öster",
+    "s": "söder",
+    "w": "väster"
+  },
+  "dirLetters": {
+    "n": "N",
+    "e": "Ö",
+    "s": "S",
+    "w": "V"
+  },
+  "continentSet": [
+    {
+      "id": "northAmerica",
+      "regions": [
+        "northAmerica"
+      ]
+    },
+    {
+      "id": "southAmerica",
+      "regions": [
+        "southAmerica"
+      ]
+    },
+    {
+      "id": "europe",
+      "regions": [
+        "europe"
+      ]
+    },
+    {
+      "id": "asia",
+      "regions": [
+        "asia"
+      ]
+    },
+    {
+      "id": "africa",
+      "regions": [
+        "africa"
+      ]
+    },
+    {
+      "id": "oceania",
+      "regions": [
+        "oceania"
+      ]
+    },
+    {
+      "id": "antarctica",
+      "regions": [
+        "antarctica"
+      ]
+    }
+  ],
+  "continentNames": {
+    "northAmerica": "Nordamerika",
+    "southAmerica": "Sydamerika",
+    "europe": "Europa",
+    "asia": "Asien",
+    "africa": "Afrika",
+    "oceania": "Oceanien",
+    "antarctica": "Antarktis"
+  },
+  "oceanSet": [
+    "pacific",
+    "atlantic",
+    "indian",
+    "arctic",
+    "southern"
+  ],
+  "oceanNames": {
+    "pacific": "Stilla havet",
+    "atlantic": "Atlanten",
+    "indian": "Indiska oceanen",
+    "arctic": "Norra ishavet",
+    "southern": "Södra ishavet"
+  },
+  "setSource": "Svenska läromedel i SO för lågstadiet (Lgr22 SO åk 1-3: kartor och väderstreck) räknar sju världsdelar (med Oceanien och Antarktis) och fem världshav (med Södra ishavet)",
+  "mnemonic": "Nils Öppnar Stora Väskor",
+  "refuse": [],
+  "instructionBans": {},
+  "strings": {
+    "base": {
+      "title": "Kartkunskap: läs teckenförklaringen",
+      "instruction": "Titta på teckenförklaringen, hitta varje sak på kartan och skriv i rutan hur många det finns."
+    },
+    "top-view": {
+      "title": "Fågelperspektiv: från sidan och uppifrån",
+      "instruction": "Varje sak är ritad från sidan, så dra ett streck till samma sak sedd uppifrån."
+    },
+    "compass-rose": {
+      "title": "Väderstreck: norr, öster, söder och väster",
+      "instruction": "Varje kompassros visar en bokstav, så skriv de tre andra bokstäverna i de tomma rutorna."
+    },
+    "continents": {
+      "title": "Världsdelar: skriv namnen",
+      "instruction": "Skriv namnet på varje numrerad världsdel på dess rad och ta namnen från rutan."
+    },
+    "continents-oceans": {
+      "title": "Världsdelar och världshav",
+      "instruction": "Hitta varje världsdel och världshav på kartan och skriv dess siffra i rutan bredvid namnet."
+    },
+    "directions-on-map": {
+      "title": "Väderstreck på kartan",
+      "instruction": "Hitta den första bilden på kartan, titta åt det håll som ordet säger och ringa in den av de tre bilderna som ligger där."
+    }
+  }
+}

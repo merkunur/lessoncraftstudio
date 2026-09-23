@@ -1,0 +1,286 @@
+{
+  "convention": "vienna",
+  "signs": {
+    "stop": {
+      "code": "B2",
+      "regRef": "Vägmärkesförordningen (2007:90), väjningspliktsmärken, B2 Stopplikt",
+      "shape": "octagon",
+      "rim": "white",
+      "field": "red",
+      "glyph": "text",
+      "text": "STOP",
+      "slash": false,
+      "class": "priority",
+      "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending"
+    },
+    "crossing": {
+      "code": "B7",
+      "regRef": "Vägmärkesförordningen (2007:90), väjningspliktsmärken, B7 Övergångsställe (kod osäker; blå kvadrat med gående på övergångsställe, utan triangel)",
+      "shape": "square",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "walkerOnStripes",
+      "text": "",
+      "slash": false,
+      "class": "information",
+      "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending; the code number is marked (kod osäker) and needs checking against the bilaga"
+    },
+    "children": {
+      "code": "A15",
+      "regRef": "Vägmärkesförordningen (2007:90), varningsmärken, Varning för barn (kod osäker); gul triangel med röd kant",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "yellow",
+      "glyph": "twoChildren",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending; the code number is marked (kod osäker) and needs checking against the bilaga"
+    },
+    "pedestrian-warning": {
+      "code": "A14",
+      "regRef": "Vägmärkesförordningen (2007:90), varningsmärken, Varning för gående (kod osäker); gul triangel med röd kant",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "yellow",
+      "glyph": "walker",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending; the code number is marked (kod osäker) and needs checking against the bilaga"
+    },
+    "signal-ahead": {
+      "code": "A19",
+      "regRef": "Vägmärkesförordningen (2007:90), varningsmärken, Varning för flerfärgssignal (kod osäker); gul triangel med röd kant",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "yellow",
+      "glyph": "trafficLightMini",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending; the code number is marked (kod osäker) and needs checking against the bilaga"
+    },
+    "bike-warning": {
+      "code": "A16",
+      "regRef": "Vägmärkesförordningen (2007:90), varningsmärken, Varning för cyklande och mopedförare (kod osäker); gul triangel med röd kant",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "yellow",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending; the code number is marked (kod osäker) and needs checking against the bilaga"
+    },
+    "no-entry": {
+      "code": "C1",
+      "regRef": "Vägmärkesförordningen (2007:90), förbudsmärken, C1 Förbud mot infart med fordon",
+      "shape": "circle",
+      "rim": null,
+      "field": "red",
+      "glyph": "bar",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending"
+    },
+    "no-vehicles": {
+      "code": "C2",
+      "regRef": "Vägmärkesförordningen (2007:90), förbudsmärken, C2 Förbud mot trafik med fordon; gul botten med röd kant",
+      "shape": "circle",
+      "rim": "red",
+      "field": "yellow",
+      "glyph": "none",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending"
+    },
+    "no-pedestrians": {
+      "code": "C",
+      "regRef": "Vägmärkesförordningen (2007:90), förbudsmärken, Förbud mot gångtrafik (kod osäker); gul botten med röd kant, gående utan snedstreck",
+      "shape": "circle",
+      "rim": "red",
+      "field": "yellow",
+      "glyph": "walker",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending; the code number is marked (kod osäker) and needs checking against the bilaga"
+    },
+    "footpath": {
+      "code": "D5",
+      "regRef": "Vägmärkesförordningen (2007:90), påbudsmärken, Påbjuden gångbana (kod och symbolens figurer osäkra)",
+      "shape": "circle",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "adultChild",
+      "text": "",
+      "slash": false,
+      "class": "mandatory",
+      "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending; the code number is marked (kod osäker) and needs checking against the bilaga"
+    },
+    "bike-path": {
+      "code": "D4",
+      "regRef": "Vägmärkesförordningen (2007:90), påbudsmärken, D4 Påbjuden cykelbana",
+      "shape": "circle",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "mandatory",
+      "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending"
+    }
+  },
+  "setG1": [
+    "stop",
+    "crossing",
+    "children",
+    "no-entry",
+    "footpath",
+    "bike-path"
+  ],
+  "kindsPool": [
+    "children",
+    "pedestrian-warning",
+    "signal-ahead",
+    "bike-warning",
+    "no-vehicles",
+    "no-pedestrians",
+    "footpath",
+    "bike-path"
+  ],
+  "classes": [
+    {
+      "key": "warning",
+      "label": "Varningsmärken"
+    },
+    {
+      "key": "prohibition",
+      "label": "Förbudsmärken"
+    },
+    {
+      "key": "mandatory",
+      "label": "Påbudsmärken"
+    }
+  ],
+  "pedLight": {
+    "stop": "standing",
+    "go": "walking",
+    "lamps": 2
+  },
+  "amber": {
+    "token": "codeYellow",
+    "word": "gul"
+  },
+  "amberMeans": "stop",
+  "chipWords": {
+    "ped": {
+      "stop": "vänta",
+      "go": "gå"
+    },
+    "car": {
+      "stop": "stanna",
+      "go": "kör"
+    }
+  },
+  "meanings": {
+    "stop": "Här måste alla bilar stanna helt och släppa fram de andra.",
+    "crossing": "Här är ett övergångsställe där du kan gå över gatan.",
+    "children": "Se upp, här kan barn springa ut på gatan.",
+    "no-entry": "Hit in får inga fordon köra.",
+    "footpath": "Den här vägen är bara för gående.",
+    "bike-path": "Den här vägen är bara för cyklister."
+  },
+  "situations": {
+    "stop": [
+      "I den här korsningen måste varje bil stanna helt, även om ingen kommer.",
+      "Här måste bilförarna stanna och titta så att vägen är fri."
+    ],
+    "crossing": [
+      "Här finns ett övergångsställe där du kan gå säkert över gatan.",
+      "Bilarna ska släppa fram barnen som går över på de vita ränderna."
+    ],
+    "children": [
+      "Bredvid den här gatan ligger en skola, så här går många barn.",
+      "Se upp, bilförare: precis vid vägen finns en lekplats."
+    ],
+    "no-entry": [
+      "In på den här gatan får man inte köra härifrån.",
+      "Här är det förbjudet att köra in, bilarna måste ta en annan väg."
+    ],
+    "footpath": [
+      "Den här vägen är bara för människor som går.",
+      "Här är en gångbana där folk går till fots."
+    ],
+    "bike-path": [
+      "Den här vägen är bara gjord för cyklar.",
+      "Här cyklar du på en egen bana bredvid bilvägen."
+    ],
+    "pedestrian-warning": [
+      "Se upp, här går ofta människor över vägen.",
+      "Kör försiktigt: här kan gående komma ut på vägen."
+    ],
+    "signal-ahead": [
+      "Se upp, snart kommer ett trafikljus.",
+      "Lite längre fram finns lampor som kan slå om till rött."
+    ],
+    "bike-warning": [
+      "Se upp, bilförare: här cyklar många barn över vägen.",
+      "På den här vägen kommer det ofta cyklister."
+    ],
+    "no-vehicles": [
+      "Här får inga fordon köra, varken bilar eller cyklar.",
+      "Den här gatan är stängd för alla fordon, både bilar och mopeder."
+    ],
+    "no-pedestrians": [
+      "På den här vägen får ingen gå, bara fordon får köra.",
+      "Här är det förbjudet att gå till fots, men bilar får köra."
+    ]
+  },
+  "steps": [
+    "stop-kerb",
+    "look-left",
+    "look-right",
+    "look-left",
+    "walk-across"
+  ],
+  "listenStep": null,
+  "familyHead": "Trafikmärken och trafikregler",
+  "signHead": "Trafikmärken",
+  "childAnchors": [
+    "för barn",
+    "förskoleklass",
+    "lågstadiet",
+    "åk 1",
+    "åk 2"
+  ],
+  "strings": {
+    "base": {
+      "title": "Trafikregler för barn: vad visar trafikljuset?",
+      "instruction": "Titta på lampan som lyser och ringa in vad du ska göra."
+    },
+    "colour-lights": {
+      "title": "Trafikregler för barn: färglägg trafikljusen",
+      "instruction": "Hitta lampan med strålar i varje trafikljus och färglägg den i den färg som den lyser med."
+    },
+    "crossing-steps": {
+      "title": "Gå säkert över gatan: steg för steg",
+      "instruction": "Skriv 1 till 5 i rutorna så att de visar hur du går säkert över gatan."
+    },
+    "sign-meaning": {
+      "title": "Trafikmärken för barn och vad de betyder",
+      "instruction": "Dra ett streck från varje trafikmärke till det som märket betyder."
+    },
+    "sign-kinds": {
+      "title": "Trafikmärken åk 2: varnings-, förbuds- och påbudsmärken",
+      "instruction": "Skriv bokstaven för varje trafikmärke i en ruta under rätt sorts märken."
+    },
+    "sign-quiz": {
+      "title": "Quiz om trafikmärken för lågstadiet",
+      "instruction": "Läs varje mening och ringa in det enda trafikmärke som passar."
+    }
+  }
+}

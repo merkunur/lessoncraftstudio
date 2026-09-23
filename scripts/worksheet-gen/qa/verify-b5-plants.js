@@ -340,8 +340,13 @@ async function faceSection(page, judge, log, quick, banks) {
     ok(F.i18n.en.title === banks.en.strings[L].title && F.i18n.en.instruction === banks.en.strings[L].instruction, `${FACE_IDS[L]}: i18n.en ≠ PLANTS.en.strings.${L}`);
     ok(F.exerciseType === 'plants' && F.themeAxis.applicable === false, `${FACE_IDS[L]}: exerciseType / themeAxis`);
     // an unauthored locale refuses; a bank.refuse of this face refuses
-    let m = null; try { F.build({ difficulty: 2, locale: 'sv' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } ok(m && /no sv block|refuse/.test(m), `${FACE_IDS[L]}: an unauthored sv REFUSES (got ${m})`);
-    m = null; try { F._buildWith({ ...banks.en, refuse: [L] }, F.difficulty[2], { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } ok(m && /refuses the/.test(m), `${FACE_IDS[L]}: bank.refuse [${L}] must REFUSE (got ${m})`);
+    {
+      const U = require('./b5-unauthored.js');
+      const p = U.refusalProbe('plants', 'sv', () => F.build({ difficulty: 2, locale: 'sv' }, { rng: makeRng('x') }));
+      ok(U.refused(p.hidden, /no sv block/), `${FACE_IDS[L]}: an unauthored sv REFUSES (got ${p.hidden})`);
+      ok(!U.refused(p.real, /no sv block/), `${FACE_IDS[L]}: poison — the authored sv page passed the unauthored-refusal check (got ${p.real})`);
+    }
+    let m = null; try { F._buildWith({ ...banks.en, refuse: [L] }, F.difficulty[2], { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } ok(m && /refuses the/.test(m), `${FACE_IDS[L]}: bank.refuse [${L}] must REFUSE (got ${m})`);
   }
   // node sweeps over 400 seeds: no tell on ANY seed, and the draw is locale-neutral
   {
@@ -459,7 +464,12 @@ async function main() {
   for (const loc of Object.keys(banks)) { const bf = validateBank(banks[loc], loc); bf.forEach((x) => ok(false, x)); console.log(`bank ${loc}: ${bf.length} findings`); }
   ok(banks.en.strings.base.title === TYPE.i18n.en.title && banks.en.strings.base.instruction === TYPE.i18n.en.instruction, 'the bank\'s base strings ≠ the spec\'s i18n.en');
   // unauthored locale refuses
-  { let m = null; try { TYPE.build({ difficulty: 2, locale: 'sv' }, { rng: makeRng('seed-1') }); } catch (e) { m = e.message; } ok(m && /no sv block|refuse/.test(m), `an unauthored sv REFUSES (got ${m})`); }
+  {
+    const U = require('./b5-unauthored.js');
+    const p = U.refusalProbe('plants', 'sv', () => TYPE.build({ difficulty: 2, locale: 'sv' }, { rng: makeRng('seed-1') }));
+    ok(U.refused(p.hidden, /no sv block/), `an unauthored sv REFUSES (got ${p.hidden})`);
+    ok(!U.refused(p.real, /no sv block/), `poison — the authored sv page passed the unauthored-refusal check (got ${p.real})`);
+  }
   // node sweep: numbering / bank tells, locale-neutral draw
   {
     let tells = 0, bankTells = 0; const picks = new Set();

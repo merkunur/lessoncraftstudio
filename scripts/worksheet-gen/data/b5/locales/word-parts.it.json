@@ -1,0 +1,1564 @@
+{
+  "familyHead": "Famiglie di parole",
+  "families": [
+    {
+      "id": "fiore",
+      "stem": "fior",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "fiore"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "fioraio",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "fiorito",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "fiorire",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "fioritura",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "fioriera",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "fiorente",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "rifiorire",
+          "kind": "prefixed",
+          "slot": "verb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "fiocco",
+          "whyNotFamily": "un nodo fatto con il nastro"
+        },
+        {
+          "word": "fiume",
+          "whyNotFamily": "un corso d’acqua"
+        },
+        {
+          "word": "fischio",
+          "whyNotFamily": "il suono che fai con le labbra"
+        }
+      ]
+    },
+    {
+      "id": "terra",
+      "stem": "terr",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "terra"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "terreno",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "terriccio",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "terrestre",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "terroso",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "atterrare",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "terrario",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "terremoto",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "tetto",
+          "whyNotFamily": "la parte più alta della casa"
+        },
+        {
+          "word": "tenda",
+          "whyNotFamily": "si usa in campeggio"
+        },
+        {
+          "word": "tesoro",
+          "whyNotFamily": "uno scrigno pieno di monete"
+        }
+      ]
+    },
+    {
+      "id": "mare",
+      "stem": "mar",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "mare"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "marino",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "marinaio",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "marittimo",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "mareggiata",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "marina",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "marea",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "maremoto",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "matita",
+          "whyNotFamily": "serve per scrivere e disegnare"
+        },
+        {
+          "word": "mago",
+          "whyNotFamily": "fa le magie"
+        },
+        {
+          "word": "maglia",
+          "whyNotFamily": "un vestito caldo"
+        }
+      ]
+    },
+    {
+      "id": "gioco",
+      "stem": "gioc",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "gioco"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "giocare",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "giocattolo",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "giocatore",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "giocoso",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "giocoliere",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "giocattolaio",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "giocosamente",
+          "kind": "derived",
+          "slot": "adverb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "giostra",
+          "whyNotFamily": "la trovi al luna park"
+        },
+        {
+          "word": "giorno",
+          "whyNotFamily": "viene dopo la notte"
+        },
+        {
+          "word": "giugno",
+          "whyNotFamily": "un mese dell’anno"
+        }
+      ]
+    },
+    {
+      "id": "dente",
+      "stem": "dent",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "dente"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "dentista",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "dentiera",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "dentatura",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "dentale",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "dentato",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "addentare",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "dentifricio",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "delfino",
+          "whyNotFamily": "un animale che vive nel mare"
+        },
+        {
+          "word": "destra",
+          "whyNotFamily": "il contrario di sinistra"
+        },
+        {
+          "word": "deserto",
+          "whyNotFamily": "un luogo pieno di sabbia"
+        }
+      ]
+    },
+    {
+      "id": "latte",
+      "stem": "latt",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "latte"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "lattaio",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "latteria",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "latteo",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "allattare",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "lattiera",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "lattante",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "latticino",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "lampada",
+          "whyNotFamily": "fa luce nella stanza"
+        },
+        {
+          "word": "lana",
+          "whyNotFamily": "viene dalla pecora"
+        },
+        {
+          "word": "lavagna",
+          "whyNotFamily": "ci si scrive con il gesso"
+        }
+      ]
+    },
+    {
+      "id": "pesce",
+      "stem": "pesc",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "pesce"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "pescare",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "pescatore",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "pescheria",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "peschereccio",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "pescoso",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "ripescare",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "pescivendolo",
+          "kind": "compound",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "pera",
+          "whyNotFamily": "un frutto"
+        },
+        {
+          "word": "pettine",
+          "whyNotFamily": "serve per pettinarsi"
+        },
+        {
+          "word": "penna",
+          "whyNotFamily": "serve per scrivere"
+        }
+      ]
+    }
+  ],
+  "rootFamilies": [
+    {
+      "id": "gelo",
+      "stem": "gel",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "gelo"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "gelato",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "gelateria",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "gelataio",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "gelare",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "gelido",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "congelare",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "congelatore",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "gennaio",
+          "whyNotFamily": "un mese dell’anno"
+        },
+        {
+          "word": "gente",
+          "whyNotFamily": "tante persone"
+        },
+        {
+          "word": "germoglio",
+          "whyNotFamily": "una piantina appena nata"
+        }
+      ]
+    },
+    {
+      "id": "nave",
+      "stem": "nav",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "nave"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "navigare",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "navigatore",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "navale",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "navigazione",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "naviglio",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "navigabile",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "astronave",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "naso",
+          "whyNotFamily": "è in mezzo alla faccia"
+        },
+        {
+          "word": "nastro",
+          "whyNotFamily": "si usa per i pacchi regalo"
+        },
+        {
+          "word": "natale",
+          "whyNotFamily": "una festa d’inverno"
+        }
+      ]
+    },
+    {
+      "id": "dolce",
+      "stem": "dolc",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "dolce"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "dolcezza",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "dolcemente",
+          "kind": "derived",
+          "slot": "adverb"
+        },
+        {
+          "word": "dolcificare",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "addolcire",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "dolciume",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "dolciario",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "dolcificante",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "dottore",
+          "whyNotFamily": "cura chi sta male"
+        },
+        {
+          "word": "dopo",
+          "whyNotFamily": "il contrario di prima"
+        },
+        {
+          "word": "domenica",
+          "whyNotFamily": "un giorno della settimana"
+        }
+      ]
+    },
+    {
+      "id": "vento",
+      "stem": "vent",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "vento"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "ventoso",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "ventilatore",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "ventaglio",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "ventata",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "ventilare",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "ventilazione",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "paravento",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "vela",
+          "whyNotFamily": "fa andare la barca"
+        },
+        {
+          "word": "verde",
+          "whyNotFamily": "il colore dell’erba"
+        },
+        {
+          "word": "vespa",
+          "whyNotFamily": "un insetto che punge"
+        }
+      ]
+    }
+  ],
+  "picFamilies": [
+    {
+      "id": "sole",
+      "stem": "sole",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "sole",
+        "pic": {
+          "theme": "weather",
+          "noun": "sun"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "soleggiato",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "sonno",
+          "whyNotFamily": "comincia come «sole» ma non nasce da questa parola"
+        },
+        {
+          "word": "sorriso",
+          "whyNotFamily": "comincia come «sole» ma non nasce da questa parola"
+        },
+        {
+          "word": "soffitto",
+          "whyNotFamily": "comincia come «sole» ma non nasce da questa parola"
+        }
+      ]
+    },
+    {
+      "id": "luna",
+      "stem": "luna",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "luna",
+        "pic": {
+          "theme": "camping",
+          "noun": "moon"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "lunare",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "lupo",
+          "whyNotFamily": "comincia come «luna» ma non nasce da questa parola"
+        },
+        {
+          "word": "lumaca",
+          "whyNotFamily": "comincia come «luna» ma non nasce da questa parola"
+        },
+        {
+          "word": "lucertola",
+          "whyNotFamily": "comincia come «luna» ma non nasce da questa parola"
+        }
+      ]
+    },
+    {
+      "id": "stella",
+      "stem": "stella",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "stella",
+        "pic": {
+          "theme": "christmas",
+          "noun": "star"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "stellato",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "stivale",
+          "whyNotFamily": "comincia come «stella» ma non nasce da questa parola"
+        },
+        {
+          "word": "strada",
+          "whyNotFamily": "comincia come «stella» ma non nasce da questa parola"
+        },
+        {
+          "word": "stufa",
+          "whyNotFamily": "comincia come «stella» ma non nasce da questa parola"
+        }
+      ]
+    },
+    {
+      "id": "pane",
+      "stem": "pane",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "pane",
+        "pic": {
+          "theme": "At the Supermarket",
+          "noun": "bread"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "panettiere",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "panetteria",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "palla",
+          "whyNotFamily": "comincia come «pane» ma non nasce da questa parola"
+        },
+        {
+          "word": "pacco",
+          "whyNotFamily": "comincia come «pane» ma non nasce da questa parola"
+        },
+        {
+          "word": "patata",
+          "whyNotFamily": "comincia come «pane» ma non nasce da questa parola"
+        }
+      ]
+    },
+    {
+      "id": "latte",
+      "stem": "latte",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "latte",
+        "pic": {
+          "theme": "breakfast",
+          "noun": "milk"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "latteria",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "lana",
+          "whyNotFamily": "comincia come «latte» ma non nasce da questa parola"
+        },
+        {
+          "word": "lampo",
+          "whyNotFamily": "comincia come «latte» ma non nasce da questa parola"
+        },
+        {
+          "word": "lavagna",
+          "whyNotFamily": "comincia come «latte» ma non nasce da questa parola"
+        }
+      ]
+    },
+    {
+      "id": "arancia",
+      "stem": "arancia",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "arancia",
+        "pic": {
+          "theme": "fruits",
+          "noun": "orange"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "aranciata",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "aratro",
+          "whyNotFamily": "comincia come «arancia» ma non nasce da questa parola"
+        },
+        {
+          "word": "arco",
+          "whyNotFamily": "comincia come «arancia» ma non nasce da questa parola"
+        },
+        {
+          "word": "armadio",
+          "whyNotFamily": "comincia come «arancia» ma non nasce da questa parola"
+        }
+      ]
+    },
+    {
+      "id": "rosa",
+      "stem": "rosa",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "rosa",
+        "pic": {
+          "theme": "flowers",
+          "noun": "rose"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "rosaio",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "rospo",
+          "whyNotFamily": "comincia come «rosa» ma non nasce da questa parola"
+        },
+        {
+          "word": "robot",
+          "whyNotFamily": "comincia come «rosa» ma non nasce da questa parola"
+        },
+        {
+          "word": "rondine",
+          "whyNotFamily": "comincia come «rosa» ma non nasce da questa parola"
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "stem": "pizza",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "pizza",
+        "pic": {
+          "theme": "At the Supermarket",
+          "noun": "pizza"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "pizzaiolo",
+          "kind": "derived",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "pigiama",
+          "whyNotFamily": "comincia come «pizza» ma non nasce da questa parola"
+        },
+        {
+          "word": "pino",
+          "whyNotFamily": "comincia come «pizza» ma non nasce da questa parola"
+        },
+        {
+          "word": "pioggia",
+          "whyNotFamily": "comincia come «pizza» ma non nasce da questa parola"
+        }
+      ]
+    },
+    {
+      "id": "lampada",
+      "stem": "lampada",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "lampada",
+        "pic": {
+          "theme": "around the house",
+          "noun": "lamp"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "lampadario",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "lampone",
+          "whyNotFamily": "comincia come «lampada» ma non nasce da questa parola"
+        },
+        {
+          "word": "lampo",
+          "whyNotFamily": "comincia come «lampada» ma non nasce da questa parola"
+        },
+        {
+          "word": "lametta",
+          "whyNotFamily": "comincia come «lampada» ma non nasce da questa parola"
+        }
+      ]
+    },
+    {
+      "id": "foglia",
+      "stem": "foglia",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "foglia",
+        "pic": {
+          "theme": "spring",
+          "noun": "leaf"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "fogliame",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "foca",
+          "whyNotFamily": "comincia come «foglia» ma non nasce da questa parola"
+        },
+        {
+          "word": "forchetta",
+          "whyNotFamily": "comincia come «foglia» ma non nasce da questa parola"
+        },
+        {
+          "word": "fontana",
+          "whyNotFamily": "comincia come «foglia» ma non nasce da questa parola"
+        }
+      ]
+    }
+  ],
+  "sentences": {
+    "fiore": [
+      {
+        "word": "fiorire",
+        "slot": "verb",
+        "frame": "In primavera gli alberi cominciano a {gap}."
+      },
+      {
+        "word": "fioraio",
+        "slot": "noun-person",
+        "frame": "Il {gap} prepara un mazzo di rose per la festa."
+      },
+      {
+        "word": "fioriera",
+        "slot": "noun-thing",
+        "frame": "Sul balcone c’è una {gap} piena di gerani."
+      },
+      {
+        "word": "fiorito",
+        "slot": "adjective",
+        "frame": "Il prato {gap} è pieno di api e farfalle."
+      }
+    ],
+    "pesce": [
+      {
+        "word": "pescare",
+        "slot": "verb",
+        "frame": "Il nonno va a {gap} sul lago ogni domenica."
+      },
+      {
+        "word": "pescatore",
+        "slot": "noun-person",
+        "frame": "Il {gap} è tornato con la barca piena."
+      },
+      {
+        "word": "pescheria",
+        "slot": "noun-thing",
+        "frame": "La mamma compra il merluzzo in {gap}."
+      },
+      {
+        "word": "pescoso",
+        "slot": "adjective",
+        "frame": "Questo lago è così {gap} che tutti prendono qualcosa."
+      }
+    ],
+    "gioco": [
+      {
+        "word": "giocare",
+        "slot": "verb",
+        "frame": "Dopo i compiti andiamo a {gap} in giardino."
+      },
+      {
+        "word": "giocatore",
+        "slot": "noun-person",
+        "frame": "Il {gap} più veloce ha segnato un gol."
+      },
+      {
+        "word": "giocattolo",
+        "slot": "noun-thing",
+        "frame": "Il mio {gap} preferito è un trenino di legno."
+      },
+      {
+        "word": "giocoso",
+        "slot": "adjective",
+        "frame": "Il cucciolo è allegro e {gap}: rincorre sempre la palla."
+      }
+    ],
+    "dente": [
+      {
+        "word": "addentare",
+        "slot": "verb",
+        "frame": "Il cane corre ad {gap} il suo osso."
+      },
+      {
+        "word": "dentista",
+        "slot": "noun-person",
+        "frame": "Oggi vado dal {gap} a farmi guardare la bocca."
+      },
+      {
+        "word": "dentiera",
+        "slot": "noun-thing",
+        "frame": "Di sera il nonno mette la {gap} nel bicchiere."
+      },
+      {
+        "word": "dentale",
+        "slot": "adjective",
+        "frame": "Dopo cena uso il filo {gap}."
+      }
+    ]
+  },
+  "prefixKey": {
+    "prefixes": [
+      {
+        "prefix": "ri",
+        "meaning": "di nuovo"
+      },
+      {
+        "prefix": "pre",
+        "meaning": "prima"
+      },
+      {
+        "prefix": "sotto",
+        "meaning": "più in basso"
+      }
+    ],
+    "rows": [
+      {
+        "base": "leggere",
+        "prefix": "ri",
+        "word": "rileggere",
+        "gloss": "leggere una storia di nuovo"
+      },
+      {
+        "base": "fare",
+        "prefix": "ri",
+        "word": "rifare",
+        "gloss": "fare il letto di nuovo"
+      },
+      {
+        "base": "scrivere",
+        "prefix": "ri",
+        "word": "riscrivere",
+        "gloss": "scrivere un testo di nuovo"
+      },
+      {
+        "base": "contare",
+        "prefix": "ri",
+        "word": "ricontare",
+        "gloss": "contare le monete di nuovo"
+      },
+      {
+        "base": "vedere",
+        "prefix": "pre",
+        "word": "prevedere",
+        "gloss": "sapere prima che cosa succederà"
+      },
+      {
+        "base": "dire",
+        "prefix": "pre",
+        "word": "predire",
+        "gloss": "dire prima che cosa succederà"
+      },
+      {
+        "base": "vendita",
+        "prefix": "pre",
+        "word": "prevendita",
+        "gloss": "la vendita dei biglietti prima dello spettacolo"
+      },
+      {
+        "base": "suolo",
+        "prefix": "sotto",
+        "word": "sottosuolo",
+        "gloss": "la terra che sta più in basso del suolo"
+      },
+      {
+        "base": "bosco",
+        "prefix": "sotto",
+        "word": "sottobosco",
+        "gloss": "le piante basse che crescono ai piedi degli alberi del bosco"
+      },
+      {
+        "base": "marino",
+        "prefix": "sotto",
+        "word": "sottomarino",
+        "gloss": "una nave che naviga giù in fondo al mare"
+      },
+      {
+        "base": "tetto",
+        "prefix": "sotto",
+        "word": "sottotetto",
+        "gloss": "la stanza che sta appena più in basso del tetto"
+      }
+    ],
+    "crossCheck": [
+      {
+        "base": "leggere",
+        "prefix": "ri",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "leggere",
+        "prefix": "pre",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "leggere",
+        "prefix": "sotto",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "fare",
+        "prefix": "ri",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "fare",
+        "prefix": "pre",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "fare",
+        "prefix": "sotto",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "scrivere",
+        "prefix": "ri",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "scrivere",
+        "prefix": "pre",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "scrivere",
+        "prefix": "sotto",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "contare",
+        "prefix": "ri",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "contare",
+        "prefix": "pre",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "contare",
+        "prefix": "sotto",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "vedere",
+        "prefix": "ri",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "vedere",
+        "prefix": "pre",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "vedere",
+        "prefix": "sotto",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "dire",
+        "prefix": "ri",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "dire",
+        "prefix": "pre",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "dire",
+        "prefix": "sotto",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "vendita",
+        "prefix": "ri",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "vendita",
+        "prefix": "pre",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "vendita",
+        "prefix": "sotto",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "suolo",
+        "prefix": "ri",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "suolo",
+        "prefix": "pre",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "suolo",
+        "prefix": "sotto",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "bosco",
+        "prefix": "ri",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "bosco",
+        "prefix": "pre",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "bosco",
+        "prefix": "sotto",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "marino",
+        "prefix": "ri",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "marino",
+        "prefix": "pre",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "marino",
+        "prefix": "sotto",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "tetto",
+        "prefix": "ri",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "tetto",
+        "prefix": "pre",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "tetto",
+        "prefix": "sotto",
+        "isWord": true,
+        "fitsGloss": true
+      }
+    ]
+  },
+  "negating": [
+    "anti",
+    "non"
+  ],
+  "inflections": [
+    "i",
+    "e"
+  ],
+  "agents": [
+    {
+      "key": "baker",
+      "base": "pane",
+      "answer": {
+        "m": "panettiere",
+        "f": "panettiera"
+      }
+    },
+    {
+      "key": "teacher",
+      "base": "insegnare",
+      "answer": {
+        "f": "insegnante",
+        "m": "insegnante"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "ballerina",
+      "base": "ballare",
+      "answer": {
+        "f": "ballerina",
+        "m": "ballerino"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "cashier",
+      "base": "cassa",
+      "answer": {
+        "f": "cassiera",
+        "m": "cassiere"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "barber",
+      "base": "barba",
+      "answer": {
+        "m": "barbiere",
+        "f": "barbiera"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "pharmacist",
+      "base": "farmacia",
+      "answer": {
+        "m": "farmacista",
+        "f": "farmacista"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "mail_carrier_2",
+      "base": "posta",
+      "answer": {
+        "f": "postina",
+        "m": "postino"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "police_officer",
+      "base": "polizia",
+      "answer": {
+        "m": "poliziotto",
+        "f": "poliziotta"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "construction_worker",
+      "base": "muro",
+      "answer": {
+        "m": "muratore",
+        "f": "muratrice"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "musician",
+      "base": "musica",
+      "answer": {
+        "m": "musicista",
+        "f": "musicista"
+      },
+      "stemSigned": true
+    }
+  ],
+  "exemplar": {
+    "base": [
+      "fiore",
+      "dente"
+    ],
+    "F1": [
+      "weather/sun",
+      "camping/moon",
+      "christmas/star",
+      "At the Supermarket/bread",
+      "breakfast/milk",
+      "fruits/orange",
+      "flowers/rose",
+      "At the Supermarket/pizza",
+      "around the house/lamp",
+      "spring/leaf"
+    ],
+    "F2": [
+      "fiore",
+      "terra",
+      "mare",
+      "gioco",
+      "dente",
+      "latte",
+      "pesce",
+      "gelo",
+      "nave",
+      "dolce",
+      "vento"
+    ],
+    "F5": [
+      "fiore",
+      "pesce",
+      "gioco",
+      "dente"
+    ]
+  },
+  "refuse": {
+    "base": false,
+    "picture-family": false,
+    "root-word": true,
+    "prefix-key": false,
+    "who-does-it": false,
+    "family-in-sentence": false
+  },
+  "strings": {
+    "base": {
+      "title": "Famiglie di parole: metti ogni parola al suo posto",
+      "instruction": "Leggi ogni parola in alto e scrivila su una riga del muro che sta sopra la sua parola primitiva."
+    },
+    "picture-family": {
+      "title": "Famiglie di parole con le immagini: cerchia la parola",
+      "instruction": "Dai un nome a ogni immagine e cerchia la sola parola sopra di essa che nasce da quel nome."
+    },
+    "prefix-key": {
+      "title": "I prefissi ri-, pre- e sotto-: scegli dal significato",
+      "instruction": "Leggi che cosa significa ogni parola nuova, trova il suo prefisso nella tabella e scrivilo nel pezzo vuoto."
+    },
+    "who-does-it": {
+      "title": "I nomi dei mestieri: chi fa questo lavoro?",
+      "instruction": "Guarda ogni persona al lavoro, leggi la parola accanto e scrivi nel mattone vuoto il nome di chi fa quel lavoro."
+    },
+    "family-in-sentence": {
+      "title": "Famiglie di parole nelle frasi",
+      "instruction": "Scrivi ognuna delle quattro parole della pietra nella frase in cui sta bene."
+    }
+  }
+}

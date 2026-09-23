@@ -32,6 +32,8 @@
  *    its face prints) and the picFamilies / rootFamilies rules live in validateBank.
  */
 'use strict';
+/** the probe for 'an unauthored locale refuses': the first locale no panel has applied yet (sv was the probe until its panel landed) */
+const UNAUTH = ['fi', 'no', 'da', 'sv', 'nl', 'it', 'fr', 'es', 'pt', 'de'].find((l) => !Object.keys(require('../lib/b5-common.js').bankModule('word-parts')).includes(l)) || 'xx';
 const path = require('path');
 const puppeteer = require('puppeteer');
 const { renderInstance } = require('../render/render-instance.js');
@@ -315,7 +317,14 @@ function validateBank(b, loc) {
   }
   // rules 13 + 14: strings
   const S = b.strings || {};
-  if (Object.keys(S).sort().join() !== MODES.slice().sort().join()) push(`strings ids [${Object.keys(S).join()}] ≠ [${MODES.join()}] (rule 14)`);
+  // A face the bank itself declares refused (b.refuse[mode] === true) is exempt: its string may be
+  // absent or null. Every OTHER face must carry a string (absent OR null is a finding), and no id
+  // outside MODES may appear.
+  const refusedModes = MODES.filter((m) => b.refuse && b.refuse[m] === true);
+  const liveModes = MODES.filter((m) => !refusedModes.includes(m));
+  const extraIds = Object.keys(S).filter((k) => !MODES.includes(k));
+  const missIds = liveModes.filter((m) => !S[m]);
+  if (extraIds.length || missIds.length) push(`strings ids [${Object.keys(S).join()}] ≠ [${liveModes.join()}]${refusedModes.length ? ` (refused: ${refusedModes.join()})` : ''} (rule 14)`);
   const owned = [...OWNED.all, ...(OWNED[loc] || [])];
   const titles = [];
   for (const id of MODES) {
@@ -410,7 +419,7 @@ async function main() {
   for (const loc of Object.keys(banks)) { const bf = validateBank(banks[loc], loc); bf.forEach((x) => ok(false, x)); console.log(`bank ${loc}: ${bf.length} findings (${banks[loc].families.length} families, ${banks[loc].families.reduce((s, x) => s + x.members.length, 0)} members)`); }
   ok(banks.en.strings.base.title === TYPE.i18n.en.title && banks.en.strings.base.instruction === TYPE.i18n.en.instruction, 'the bank\'s base strings ≠ the spec\'s i18n.en');
   { const n = TAX.axes['exercise-type']['word-parts'] && TAX.axes['exercise-type']['word-parts'].name && TAX.axes['exercise-type']['word-parts'].name.en; console.log(`taxonomy en name today: "${n}"${/word famil/i.test(n || '') ? ' — WITHDRAWN by the design (rule 13); re-register before any landing ships (shared file, not this build)' : ''}`); }
-  { let m = null; try { TYPE.build({ difficulty: 2, locale: 'sv' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } ok(m && /no sv block|refuse/.test(m), `an unauthored sv REFUSES (got ${m})`); }
+  { let m = null; try { TYPE.build({ difficulty: 2, locale: UNAUTH }, { rng: makeRng('x') }); } catch (e) { m = e.message; } ok(m && new RegExp('no ' + UNAUTH + ' block|refuse').test(m), `an unauthored ${UNAUTH} REFUSES (got ${m})`); }
   // node sweep: tells + locale-neutral pattern
   {
     const relabel = JSON.parse(JSON.stringify(banks.en));
@@ -491,6 +500,17 @@ async function main() {
     P('P14 member "handbag"', (b) => { fam(b, 'help').members.push({ word: 'handbag', kind: 'compound', slot: 'noun-thing', stemSigned: true }); }, /"handbag": a compound-words bank word/);
     P('P15 member "unhelpful"', (b) => { fam(b, 'help').members.push({ word: 'unhelpful', kind: 'prefixed', slot: 'adjective' }); }, /"unhelpful": begins with the negating prefix "un"/);
     { const b = en(); b.prefixKey.rows.push({ base: 'entrer', prefix: 're', word: 'rentrer', gloss: 'entrer de nouveau' }); judge('P16 fr re + entrer = rentrer', validateBank(b, 'fr'), /row "rentrer": prefix \+ base "reentrer" ≠ the word/); }
+    // rule 14 × refusals: a face the bank declares refused may omit its string; any other may not.
+    P('R14a root-word string missing (not refused)', (b) => { delete b.strings['root-word']; }, /strings ids \[.*\] ≠ \[.*root-word.*\] \(rule 14\)/);
+    P('R14b root-word string null (not refused)', (b) => { b.strings['root-word'] = null; }, /strings ids \[.*\] ≠ \[.*root-word.*\] \(rule 14\)/);
+    P('R14c who-does-it string missing, NOT declared refused', (b) => { b.refuse = { ...(b.refuse || {}), 'who-does-it': false }; delete b.strings['who-does-it']; }, /strings ids \[.*\] ≠ \[.*who-does-it.*\] \(rule 14\)/);
+    P('R14d who-does-it refused, root-word string missing', (b) => { b.refuse = { ...(b.refuse || {}), 'who-does-it': true }; delete b.strings['who-does-it']; delete b.strings['root-word']; }, /strings ids \[.*\] ≠ \[.*root-word.*\] \(refused: who-does-it\) \(rule 14\)/);
+    for (const [cn, mut] of [['absent', (b) => { delete b.strings['who-does-it']; }], ['null', (b) => { b.strings['who-does-it'] = null; }]]) {
+      const b = en(); b.refuse = { ...(b.refuse || {}), 'who-does-it': true }; mut(b);
+      const f = validateBank(b, 'en').filter((x) => /strings ids/.test(x));
+      log.push(`  C2 who-does-it refused, string ${cn}: ${f.length ? 'WRONGLY FIRES — ' + f[0] : 'passes rule 14 (control)'}`);
+      ok(!f.length, `C2: a refused who-does-it with its string ${cn} must pass rule 14`);
+    }
     P('P17 familyHead "Word Families and Word Parts"', (b) => { b.familyHead = 'Word Families and Word Parts'; }, /familyHead .* owned head/);
     { const b = en(); b.prefixKey.prefixes[2].prefix = 'sotto'; const f = validateBank(b, 'it').filter((x) => /negating prefix/.test(x)); log.push(`  C1 it key "sotto" (G2-320 bans the token "s"): ${f.length ? 'WRONGLY FIRES — ' + f[0] : 'passes rule 8 (control)'}`); ok(!f.length, 'C1: "sotto" must pass rule 8 (whole-token compare)'); }
     P('P18 two compounds in one family', (b) => { fam(b, 'help').members.push({ word: 'helpdesk', kind: 'compound', slot: 'noun-thing' }); }, /family help: 2 compound members/);

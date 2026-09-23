@@ -1,0 +1,122 @@
+{
+  "names": {
+    "circle": "cirkel",
+    "square": "kvadrat",
+    "triangle": "triangel",
+    "rectangle": "rektangel",
+    "hexagon": "sexhörning"
+  },
+  "overrides": {},
+  "inflections": {
+    "circle": [
+      "cirkeln",
+      "cirklar",
+      "cirklarna",
+      "cirkelns"
+    ],
+    "square": [
+      "kvadraten",
+      "kvadrater",
+      "kvadraterna",
+      "kvadratens"
+    ],
+    "triangle": [
+      "triangeln",
+      "trianglar",
+      "trianglarna",
+      "triangelns"
+    ],
+    "rectangle": [
+      "rektangeln",
+      "rektanglar",
+      "rektanglarna",
+      "rektangelns"
+    ],
+    "hexagon": [
+      "sexhörningen",
+      "sexhörningar",
+      "sexhörningarna"
+    ]
+  },
+  "inventory": {
+    "hexagon": true
+  },
+  "riddles": {
+    "circle": [
+      {
+        "text": "Jag är rund hela vägen runt och har inga hörn. Vad är jag?",
+        "clue": "round"
+      },
+      {
+        "text": "Jag har inga raka sidor och inga hörn alls. Vad är jag?",
+        "clue": "round"
+      }
+    ],
+    "square": [
+      {
+        "text": "Alla mina 4 sidor är lika långa. Vad är jag?",
+        "clue": "equal"
+      },
+      {
+        "text": "Jag har 4 hörn och 4 sidor som är lika långa. Vad är jag?",
+        "clue": "equal"
+      }
+    ],
+    "triangle": [
+      {
+        "text": "Jag har 3 sidor och 3 hörn. Vad är jag?",
+        "clue": "three"
+      },
+      {
+        "text": "Jag har bara 3 raka sidor. Vad är jag?",
+        "clue": "three"
+      }
+    ],
+    "rectangle": [
+      {
+        "text": "Jag har 2 långa sidor och 2 korta sidor. Vad är jag?",
+        "clue": "longShort"
+      },
+      {
+        "text": "Jag har 4 hörn, 2 långa sidor och 2 korta sidor. Vad är jag?",
+        "clue": "longShort"
+      }
+    ],
+    "hexagon": [
+      {
+        "text": "Jag har 6 sidor och 6 hörn. Vad är jag?",
+        "clue": "six"
+      },
+      {
+        "text": "Jag har 6 raka sidor. Vad är jag?",
+        "clue": "six"
+      }
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Geometriska former: vad heter formen?",
+      "instruction": "Titta på varje form, också de vridna och de smala, och ringa in formens namn."
+    },
+    "real-or-not": {
+      "title": "Geometriska former: är det rätt form?",
+      "instruction": "Läs namnet i varje rad och ringa in alla former som verkligen är en sådan form."
+    },
+    "around-us": {
+      "title": "Geometriska former runt omkring oss",
+      "instruction": "Titta på varje bild och färglägg den form som saken har: cirkel eller rektangel."
+    },
+    "write-name": {
+      "title": "Geometriska former: skriv namnen",
+      "instruction": "Titta på varje form och skriv dess namn på raden, namnen står i rutan."
+    },
+    "riddles": {
+      "title": "Gåtor om geometriska former",
+      "instruction": "Läs varje gåta och ringa in formens namn."
+    },
+    "dot-draw": {
+      "title": "Rita geometriska former med prickar",
+      "instruction": "Läs formens namn och dra streck mellan prickarna så att formen blir ritad, börja vid det tjocka strecket om det finns ett."
+    }
+  }
+}

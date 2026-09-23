@@ -1,0 +1,136 @@
+{
+  "keyTitle": "Legenda",
+  "symbolWords": {
+    "house": "casa",
+    "tree": "albero",
+    "bush": "cespuglio",
+    "pond": "stagno",
+    "bench": "panchina",
+    "tent": "tenda",
+    "flowerBed": "aiuola",
+    "bridge": "ponte"
+  },
+  "dirWords": {
+    "n": "nord",
+    "e": "est",
+    "s": "sud",
+    "w": "ovest"
+  },
+  "dirLetters": {
+    "n": "N",
+    "e": "E",
+    "s": "S",
+    "w": "O"
+  },
+  "continentSet": [
+    {
+      "id": "america",
+      "regions": [
+        "northAmerica",
+        "southAmerica"
+      ]
+    },
+    {
+      "id": "europe",
+      "regions": [
+        "europe"
+      ]
+    },
+    {
+      "id": "asia",
+      "regions": [
+        "asia"
+      ]
+    },
+    {
+      "id": "africa",
+      "regions": [
+        "africa"
+      ]
+    },
+    {
+      "id": "oceania",
+      "regions": [
+        "oceania"
+      ]
+    },
+    {
+      "id": "antarctica",
+      "regions": [
+        "antarctica"
+      ]
+    }
+  ],
+  "continentNames": {
+    "america": "America",
+    "europe": "Europa",
+    "asia": "Asia",
+    "africa": "Africa",
+    "oceania": "Oceania",
+    "antarctica": "Antartide"
+  },
+  "oceanSet": [
+    "pacific",
+    "atlantic",
+    "indian",
+    "arctic",
+    "southern"
+  ],
+  "oceanNames": {
+    "pacific": "Oceano Pacifico",
+    "atlantic": "Oceano Atlantico",
+    "indian": "Oceano Indiano",
+    "arctic": "Mar Glaciale Artico",
+    "southern": "Oceano Antartico"
+  },
+  "setSource": "Sussidiari italiani di geografia per la scuola primaria (Indicazioni nazionali 2012): sei continenti, con l’America contata come un solo continente e l’Antartide inclusa, e cinque oceani, con il Mar Glaciale Artico",
+  "mnemonic": "Nonna Elsa Sa Orientarsi",
+  "refuse": [],
+  "instructionBans": {
+    "base": [
+      "linea",
+      "cerchia"
+    ],
+    "top-view": [
+      "riquadro",
+      "lettera"
+    ],
+    "compass-rose": [
+      "bussola",
+      "linea"
+    ],
+    "continents": [
+      "numero"
+    ],
+    "directions-on-map": [
+      "bussola",
+      "scrivi"
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Leggere la legenda di una mappa",
+      "instruction": "Guarda la legenda, trova ogni cosa sulla mappa, contale e scrivi quante sono nel riquadro."
+    },
+    "top-view": {
+      "title": "Visto di lato e visto dall’alto: collega gli oggetti",
+      "instruction": "Ogni oggetto è disegnato visto di lato: collegalo con una linea allo stesso oggetto visto dall’alto."
+    },
+    "compass-rose": {
+      "title": "I punti cardinali: completa la rosa dei venti",
+      "instruction": "Ogni rosa dei venti mostra una lettera: scrivi le altre tre lettere nei riquadri vuoti."
+    },
+    "continents": {
+      "title": "I continenti: scrivi i loro nomi",
+      "instruction": "Scrivi il nome di ogni continente sulla sua riga, usando i nomi del riquadro."
+    },
+    "continents-oceans": {
+      "title": "Continenti e oceani sulla carta geografica",
+      "instruction": "Trova ogni continente e ogni oceano sulla carta e scrivi il suo numero nel riquadro accanto al nome."
+    },
+    "directions-on-map": {
+      "title": "Orientarsi sulla mappa con i punti cardinali",
+      "instruction": "Trova la prima figura sulla mappa, guarda nella direzione scritta e cerchia quella delle tre figure che si trova lì."
+    }
+  }
+}

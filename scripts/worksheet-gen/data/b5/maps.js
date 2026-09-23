@@ -66,15 +66,15 @@ const MAPS_LOC = {
     strings: {
       base: {
         title: 'Read the Map Key',
-        instruction: 'Look at the map key. Find each thing on the map. Count them and write how many in the box.',
+        instruction: 'Find each thing from the map key on the map, then write how many there are in its box.',
       },
       'top-view': {
         title: "Bird's-Eye View: From the Side and From Above",
         instruction: 'Each thing is drawn from the side. Draw a line to the same thing seen from above.',
       },
       'compass-rose': {
-        title: 'North, East, South, West: Finish the Rose',
-        instruction: 'Each compass rose shows one letter. Write the other three letters in the empty boxes.',
+        title: 'North, East, South, West: Label the Four Directions',
+        instruction: 'Each compass rose shows one letter, so write the other three letters in the empty boxes.',
       },
       continents: {
         title: 'Label the Continents',
@@ -86,7 +86,7 @@ const MAPS_LOC = {
       },
       'directions-on-map': {
         title: 'Cardinal Directions on a Map',
-        instruction: 'Find the first picture on the map. Look the way the word says. Circle the one of the three pictures that lies that way.',
+        instruction: 'Start at the first picture on the map, look the way the word says, and circle the one of the three pictures that lies that way.',
       },
     },
   },

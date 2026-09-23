@@ -1,0 +1,105 @@
+{
+  "hemisphere": "N",
+  "bodies": {
+    "sun": "Solen",
+    "earth": "Jorden",
+    "moon": "Månen"
+  },
+  "facts": {
+    "ownLight": "Jeg laver mit eget lys.",
+    "star": "Jeg er en stjerne.",
+    "hottest": "Jeg er den varmeste af os tre.",
+    "biggest": "Jeg er den største af os tre.",
+    "liveOn": "Mennesker og dyr bor på mig.",
+    "oceans": "Der er store oceaner på mig.",
+    "air": "Jeg har luft, som man kan trække vejret i.",
+    "planet": "Jeg er en planet.",
+    "spinDay": "Fordi jeg drejer rundt, er der dag og nat.",
+    "orbitsEarth": "Jeg kredser rundt om Jorden.",
+    "seemsToChange": "Min form ser ud til at skifte fra aften til aften.",
+    "craters": "Jeg er fuld af kratere.",
+    "smallest": "Jeg er den mindste af os tre."
+  },
+  "leakForms": [],
+  "genderNeutral": true,
+  "forbiddenStems": [
+    "giver lys",
+    "giver os lys",
+    "skinner",
+    "lyser",
+    "om natten",
+    "om solen",
+    "står op",
+    "går ned",
+    "er rund",
+    "på himlen",
+    "gået på",
+    "ingen luft",
+    "spejler",
+    "bevæger sig over",
+    "sommer",
+    "vinter",
+    "forår",
+    "efterår",
+    "regn",
+    "sne",
+    "sky",
+    "skyer",
+    "vejr",
+    "varm dag",
+    "kold dag"
+  ],
+  "phaseNames": {
+    "0": "nymåne",
+    "2": "tiltagende",
+    "4": "fuldmåne",
+    "6": "aftagende"
+  },
+  "planets": {
+    "mercury": "Merkur",
+    "venus": "Venus",
+    "earth": "Jorden",
+    "mars": "Mars",
+    "jupiter": "Jupiter",
+    "saturn": "Saturn",
+    "uranus": "Uranus",
+    "neptune": "Neptun"
+  },
+  "notPlanet": {
+    "sun": "Solen",
+    "moon": "Månen"
+  },
+  "classLabels": {
+    "giant": "kæmpeplanet",
+    "rocky": "lille stenplanet",
+    "notPlanet": "ikke en planet"
+  },
+  "mnemonic": "",
+  "refuse": [],
+  "strings": {
+    "base": {
+      "title": "Solen, Jorden og Månen",
+      "instruction": "Læs hver sætning, og sæt kryds i feltet under Solen, Jorden eller Månen."
+    },
+    "moon-phases-in-order": {
+      "title": "Månens faser i rækkefølge",
+      "instruction": "Kilen i hver række viser, om Månen tager til eller af, så skriv 1 til 5 under månerne i den rækkefølge."
+    },
+    "moon-phase-names": {
+      "title": "Månens faser: skriv navnene",
+      "instruction": "Se på hver måne, og skriv dens navn på linjerne; brug hvert ord fra ordboksen to gange."
+    },
+    "day-and-night-model": {
+      "title": "Hvorfor er der dag og nat?",
+      "instruction": "Se, hvor Solen er, og sæt i tabellen ring om dag eller nat for hvert punkt med et tal."
+    },
+    "planets-in-order": {
+      "title": "Planeternes rækkefølge fra Solen",
+      "instruction": "Skriv navnet på hver planet på dens linje; begynd ved Solen, og brug hvert navn fra boksen én gang."
+    },
+    "planet-sizes": {
+      "title": "Kæmpeplaneter og stenplaneter",
+      "instruction": "Sortér navnene, og skriv hvert navn i det rigtige felt: kæmpeplanet, lille stenplanet eller ikke en planet."
+    }
+  }
+}

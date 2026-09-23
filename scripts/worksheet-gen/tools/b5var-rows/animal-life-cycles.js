@@ -15,7 +15,7 @@
  *   F1 G1-389  frog-cut-paste  5 lily pads round a pond (frogspawn given), cut 4 squares and glue each on its pad
  *   F2 G2-365  label           the butterfly loop printed in order; write each name on its lane; cross out the tadpole
  *   F3 G2-366  metamorphosis   8 lettered young stages into 3 bins crowned by butterfly / frog / ladybird
- *   F4 G3-393  compare         8 animal-free statements; tick butterfly, frog or both
+ *   F4 G3-393  compare         8 animal-free statements; check butterfly, frog or both
  *   F5 G1-390  next            6 rows: circle the stage that comes right after (2 ask what follows an adult)
  *
  * EN title + instruction = the bank's strings[<id>] verbatim (data/b5/animal-life-cycles.js;

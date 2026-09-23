@@ -4306,13 +4306,27 @@
           "en": "2d-shapes",
           "es": "figuras-geometricas-planas",
           "pt": "figuras-geometricas-planas",
-          "de": "geometrische-formen"
+          "de": "geometrische-formen",
+          "fr": "figures-planes",
+          "it": "figure-geometriche-piane",
+          "sv": "geometriska-former",
+          "nl": "vlakke-figuren",
+          "da": "geometriske-figurer",
+          "no": "geometriske-figurer",
+          "fi": "tasokuviot"
         },
         "name": {
           "en": "2D Shapes",
           "es": "Figuras geométricas planas",
           "pt": "Figuras geométricas planas",
-          "de": "Geometrische Formen"
+          "de": "Geometrische Formen",
+          "fr": "Les figures planes",
+          "it": "Figure geometriche piane",
+          "sv": "Geometriska former",
+          "nl": "Vlakke figuren",
+          "da": "Geometriske figurer",
+          "no": "Geometriske figurer",
+          "fi": "Tasokuviot"
         }
       },
       "road-safety": {
@@ -4320,13 +4334,27 @@
           "en": "road-safety",
           "es": "educacion-vial",
           "pt": "educacao-no-transito",
-          "de": "verkehrserziehung"
+          "de": "verkehrserziehung",
+          "fr": "securite-routiere",
+          "it": "educazione-stradale",
+          "sv": "trafikmarken-och-trafikregler",
+          "nl": "verkeer-en-verkeersborden",
+          "da": "faerdselslaere",
+          "no": "trafikkskilt-og-trafikkregler",
+          "fi": "liikenneturvallisuus"
         },
         "name": {
           "en": "Road Safety",
           "es": "Educación vial",
           "pt": "Educação no trânsito",
-          "de": "Verkehrserziehung"
+          "de": "Verkehrserziehung",
+          "fr": "Sécurité routière",
+          "it": "Educazione stradale",
+          "sv": "Trafikmärken och trafikregler",
+          "nl": "Verkeer en verkeersborden",
+          "da": "Færdselslære",
+          "no": "Trafikkskilt og trafikkregler",
+          "fi": "Liikenneturvallisuus"
         }
       },
       "family": {
@@ -4334,13 +4362,27 @@
           "en": "family",
           "es": "miembros-de-la-familia",
           "pt": "membros-da-familia",
-          "de": "familie-und-verwandtschaft"
+          "de": "familie-und-verwandtschaft",
+          "fr": "membres-de-la-famille",
+          "it": "membri-della-famiglia",
+          "sv": "familj-och-slakt",
+          "nl": "familie-en-stamboom",
+          "da": "familie-og-stamtrae",
+          "no": "familie-og-slekt",
+          "fi": "perhe-ja-sukulaiset"
         },
         "name": {
           "en": "Family Members",
           "es": "Miembros de la familia",
           "pt": "Membros da família",
-          "de": "Familie und Verwandtschaft"
+          "de": "Familie und Verwandtschaft",
+          "fr": "Les membres de la famille",
+          "it": "I membri della famiglia",
+          "sv": "Familj och släkt",
+          "nl": "Familie en stamboom",
+          "da": "Familie og stamtræ",
+          "no": "Familie og slekt",
+          "fi": "Perhe ja sukulaiset"
         }
       },
       "plants": {
@@ -4348,13 +4390,27 @@
           "en": "plants",
           "es": "partes-de-la-planta",
           "pt": "partes-da-planta",
-          "de": "teile-der-pflanze"
+          "de": "teile-der-pflanze",
+          "fr": "parties-de-la-plante",
+          "it": "le-parti-della-pianta",
+          "sv": "vaxtens-delar",
+          "nl": "delen-van-een-plant",
+          "da": "plantens-dele",
+          "no": "plantens-deler",
+          "fi": "kasvin-osat"
         },
         "name": {
           "en": "Parts of a Plant",
           "es": "Partes de la planta",
           "pt": "Partes da planta",
-          "de": "Teile der Pflanze"
+          "de": "Teile der Pflanze",
+          "fr": "Les parties de la plante",
+          "it": "Le parti della pianta",
+          "sv": "Växtens delar",
+          "nl": "Delen van een plant",
+          "da": "Plantens dele",
+          "no": "Plantens deler",
+          "fi": "Kasvin osat"
         }
       },
       "animal-life-cycles": {
@@ -4362,13 +4418,27 @@
           "en": "animal-life-cycles",
           "es": "ciclo-de-vida-de-los-animales",
           "pt": "ciclos-de-vida-dos-animais",
-          "de": "entwicklung-von-tieren"
+          "de": "entwicklung-von-tieren",
+          "fr": "cycles-de-vie-des-animaux",
+          "it": "ciclo-vitale-degli-animali",
+          "sv": "fjarilens-och-grodans-livscykel",
+          "nl": "groei-van-dieren",
+          "da": "dyrs-udvikling",
+          "no": "sommerfuglens-og-froskens-livssyklus",
+          "fi": "perhosen-ja-sammakon-kehitysvaiheet"
         },
         "name": {
           "en": "Animal Life Cycles",
           "es": "Ciclo de vida de los animales",
           "pt": "Ciclos de vida dos animais",
-          "de": "Entwicklung von Tieren"
+          "de": "Entwicklung von Tieren",
+          "fr": "Les cycles de vie des animaux",
+          "it": "Il ciclo vitale degli animali",
+          "sv": "Fjärilens och grodans livscykel",
+          "nl": "Groei van dieren",
+          "da": "Dyrs udvikling fra æg til voksen",
+          "no": "Sommerfuglens og froskens livssyklus",
+          "fi": "Perhosen ja sammakon kehitysvaiheet"
         }
       },
       "earth-and-space": {
@@ -4376,13 +4446,27 @@
           "en": "earth-and-space",
           "es": "sistema-solar-y-fases-de-la-luna",
           "pt": "sol-lua-e-planetas",
-          "de": "sonne-mond-und-planeten"
+          "de": "sonne-mond-und-planeten",
+          "fr": "soleil-terre-lune-planetes",
+          "it": "sole-luna-e-pianeti",
+          "sv": "solsystemet",
+          "nl": "zon-maan-en-planeten",
+          "da": "solsystemet",
+          "no": "solsystemet",
+          "fi": "aurinkokunta"
         },
         "name": {
           "en": "Sun, Moon and Planets",
           "es": "Sistema solar y fases de la luna",
           "pt": "Sol, Lua e planetas",
-          "de": "Sonne, Mond und Planeten"
+          "de": "Sonne, Mond und Planeten",
+          "fr": "Le Soleil, la Lune et les planètes",
+          "it": "Sole, Luna e pianeti",
+          "sv": "Solsystemet",
+          "nl": "Zon, maan en planeten",
+          "da": "Solen, Jorden og planeterne",
+          "no": "Solsystemet",
+          "fi": "Aurinkokunta"
         }
       },
       "maps": {
@@ -4390,13 +4474,27 @@
           "en": "maps",
           "es": "mapas-y-puntos-cardinales",
           "pt": "mapas-e-orientacao",
-          "de": "karten-und-himmelsrichtungen"
+          "de": "karten-und-himmelsrichtungen",
+          "fr": "lire-une-carte",
+          "it": "mappe-e-punti-cardinali",
+          "sv": "kartor-och-vaderstreck",
+          "nl": "kaartlezen-en-windrichtingen",
+          "da": "kort-og-verdenshjoerner",
+          "no": "kart-og-himmelretninger",
+          "fi": "kartat-ja-ilmansuunnat"
         },
         "name": {
           "en": "Map Skills",
           "es": "Mapas y puntos cardinales",
           "pt": "Mapas e orientação",
-          "de": "Karten und Himmelsrichtungen"
+          "de": "Karten und Himmelsrichtungen",
+          "fr": "Lire une carte",
+          "it": "Mappe e punti cardinali",
+          "sv": "Kartor och väderstreck",
+          "nl": "Kaartlezen en windrichtingen",
+          "da": "Kort og verdenshjørner",
+          "no": "Kart og himmelretninger",
+          "fi": "Kartat ja ilmansuunnat"
         }
       },
       "digraphs": {
@@ -4404,13 +4502,27 @@
           "en": "digraphs",
           "es": "digrafos",
           "pt": "digrafos",
-          "de": "buchstabengruppen"
+          "de": "buchstabengruppen",
+          "fr": "sons-complexes",
+          "it": "digrammi",
+          "sv": "bokstavskombinationer",
+          "nl": "tweetekenklanken",
+          "da": "digrafer",
+          "no": "bokstavkombinasjoner",
+          "fi": "pitka-vokaali"
         },
         "name": {
           "en": "Digraphs",
           "es": "Dígrafos",
           "pt": "Dígrafos",
-          "de": "Buchstabengruppen"
+          "de": "Buchstabengruppen",
+          "fr": "Les sons complexes",
+          "it": "Digrammi",
+          "sv": "Bokstavskombinationer",
+          "nl": "Tweetekenklanken",
+          "da": "Digrafer",
+          "no": "Bokstavkombinasjoner",
+          "fi": "Pitkä vokaali"
         }
       },
       "synonyms": {
@@ -4418,13 +4530,27 @@
           "en": "synonyms",
           "es": "sinonimos",
           "pt": "sinonimos",
-          "de": "wortfelder-und-synonyme"
+          "de": "wortfelder-und-synonyme",
+          "fr": "synonymes",
+          "it": "i-sinonimi",
+          "sv": "synonymer",
+          "nl": "synoniemen",
+          "da": "synonymer",
+          "no": "synonymer",
+          "fi": "synonyymit"
         },
         "name": {
           "en": "Synonyms",
           "es": "Sinónimos",
           "pt": "Sinônimos",
-          "de": "Wortfelder und Synonyme"
+          "de": "Wortfelder und Synonyme",
+          "fr": "Les synonymes",
+          "it": "I sinonimi",
+          "sv": "Synonymer",
+          "nl": "Synoniemen",
+          "da": "Synonymer",
+          "no": "Synonymer",
+          "fi": "Synonyymit"
         }
       },
       "word-parts": {
@@ -4432,13 +4558,27 @@
           "en": "word-parts",
           "es": "palabras-primitivas-y-derivadas",
           "pt": "familia-de-palavras",
-          "de": "wortfamilien-und-wortbausteine"
+          "de": "wortfamilien-und-wortbausteine",
+          "fr": "prefixes-et-suffixes",
+          "it": "famiglie-di-parole",
+          "sv": "slaktord-prefix-och-suffix",
+          "nl": "woordfamilies-en-voorvoegsels",
+          "da": "forstavelser-endelser-og-rodord",
+          "no": "forstavelser-endelser-og-rotord",
+          "fi": "kantasana-ja-johdokset"
         },
         "name": {
           "en": "Prefixes, Suffixes and Root Words",
           "es": "Palabras primitivas y derivadas",
           "pt": "Família de palavras",
-          "de": "Wortfamilien, Vorsilben und Nachsilben"
+          "de": "Wortfamilien, Vorsilben und Nachsilben",
+          "fr": "Préfixes et suffixes",
+          "it": "Famiglie di parole",
+          "sv": "Släktord, prefix och suffix",
+          "nl": "Woordfamilies en voorvoegsels",
+          "da": "Forstavelser, endelser og rodord",
+          "no": "Forstavelser, endelser og rotord",
+          "fi": "Kantasana ja johdokset"
         }
       }
     },

@@ -1,0 +1,269 @@
+{
+  "kin": {
+    "M": "mom",
+    "F": "dad",
+    "Z": "sister",
+    "B": "brother",
+    "Zy": "babySister",
+    "By": "babyBrother",
+    "MM": "grandma",
+    "FM": "grandma",
+    "MF": "grandpa",
+    "FF": "grandpa",
+    "MZ": "aunt",
+    "FZ": "aunt",
+    "MB": "unclem",
+    "FB": "unclef",
+    "MZD": "cousin",
+    "MZS": "cousin",
+    "MBD": "cousin",
+    "MBS": "cousin",
+    "FZD": "cousin",
+    "FZS": "cousin",
+    "FBD": "cousin",
+    "FBS": "cousin"
+  },
+  "words": {
+    "mom": {
+      "text": "äiti",
+      "register": "K"
+    },
+    "dad": {
+      "text": "isä",
+      "register": "K"
+    },
+    "sister": {
+      "text": "sisko",
+      "register": "K"
+    },
+    "brother": {
+      "text": "veli",
+      "register": "K"
+    },
+    "babySister": {
+      "text": "pikkusisko",
+      "register": "K"
+    },
+    "babyBrother": {
+      "text": "pikkuveli",
+      "register": "K"
+    },
+    "grandma": {
+      "text": "isoäiti",
+      "register": "K"
+    },
+    "grandpa": {
+      "text": "isoisä",
+      "register": "K"
+    },
+    "aunt": {
+      "text": "täti",
+      "register": "K"
+    },
+    "unclem": {
+      "text": "eno",
+      "register": "K"
+    },
+    "unclef": {
+      "text": "setä",
+      "register": "K"
+    },
+    "cousin": {
+      "text": "serkku",
+      "register": "K"
+    }
+  },
+  "names": [
+    {
+      "name": "Aino",
+      "sex": "f",
+      "gen": "Ainon"
+    },
+    {
+      "name": "Eeli",
+      "sex": "m",
+      "gen": "Eelin"
+    },
+    {
+      "name": "Aada",
+      "sex": "f",
+      "gen": "Aadan"
+    },
+    {
+      "name": "Onni",
+      "sex": "m",
+      "gen": "Onnin"
+    },
+    {
+      "name": "Elsa",
+      "sex": "f",
+      "gen": "Elsan"
+    },
+    {
+      "name": "Leo",
+      "sex": "m",
+      "gen": "Leon"
+    },
+    {
+      "name": "Emma",
+      "sex": "f",
+      "gen": "Emman"
+    },
+    {
+      "name": "Aaro",
+      "sex": "m",
+      "gen": "Aaron"
+    },
+    {
+      "name": "Iida",
+      "sex": "f",
+      "gen": "Iidan"
+    },
+    {
+      "name": "Otto",
+      "sex": "m",
+      "gen": "Oton"
+    },
+    {
+      "name": "Ella",
+      "sex": "f",
+      "gen": "Ellan"
+    },
+    {
+      "name": "Juho",
+      "sex": "m",
+      "gen": "Juhon"
+    },
+    {
+      "name": "Alma",
+      "sex": "f",
+      "gen": "Alman"
+    },
+    {
+      "name": "Niko",
+      "sex": "m",
+      "gen": "Nikon"
+    },
+    {
+      "name": "Anni",
+      "sex": "f",
+      "gen": "Annin"
+    },
+    {
+      "name": "Eino",
+      "sex": "m",
+      "gen": "Einon"
+    }
+  ],
+  "clueFrames": {
+    "M": "{name} on {egoGen} äiti.",
+    "F": "{name} on {egoGen} isä.",
+    "Z": "{name} on {egoGen} sisko.",
+    "B": "{name} on {egoGen} veli.",
+    "Zy": "{name} on {egoGen} pikkusisko.",
+    "By": "{name} on {egoGen} pikkuveli.",
+    "MM": "{name} on {egoGen} isoäiti.",
+    "FM": "{name} on {egoGen} isoäiti.",
+    "MF": "{name} on {egoGen} isoisä.",
+    "FF": "{name} on {egoGen} isoisä.",
+    "MZ": "{name} on {egoGen} täti.",
+    "FZ": "{name} on {egoGen} täti.",
+    "MB": "{name} on {egoGen} eno.",
+    "FB": "{name} on {egoGen} setä.",
+    "MZD": "{name} on {egoGen} serkku.",
+    "MZS": "{name} on {egoGen} serkku.",
+    "MBD": "{name} on {egoGen} serkku.",
+    "MBS": "{name} on {egoGen} serkku.",
+    "FZD": "{name} on {egoGen} serkku.",
+    "FZS": "{name} on {egoGen} serkku.",
+    "FBD": "{name} on {egoGen} serkku.",
+    "FBS": "{name} on {egoGen} serkku."
+  },
+  "riddleFrames": {
+    "MM": "{egoGen} äidin äiti on {egoGen} ___.",
+    "FM": "{egoGen} isän äiti on {egoGen} ___.",
+    "MF": "{egoGen} äidin isä on {egoGen} ___.",
+    "FF": "{egoGen} isän isä on {egoGen} ___.",
+    "MZ": "{egoGen} äidin sisko on {egoGen} ___.",
+    "FZ": "{egoGen} isän sisko on {egoGen} ___.",
+    "MB": "{egoGen} äidin veli on {egoGen} ___.",
+    "FB": "{egoGen} isän veli on {egoGen} ___."
+  },
+  "distractors": [
+    "mom",
+    "dad"
+  ],
+  "repeatsNote": true,
+  "repeatsNoteText": "sama sana voi sopia useampaan arvoitukseen",
+  "generationOK": [
+    "grandma",
+    "grandpa",
+    "mom",
+    "dad",
+    "aunt",
+    "unclem",
+    "unclef",
+    "sister",
+    "brother",
+    "cousin",
+    "babySister",
+    "babyBrother"
+  ],
+  "agreeing": [],
+  "firstPerson": [
+    "minä",
+    "minun",
+    "minua",
+    "minulla",
+    "minulle",
+    "me",
+    "meidän",
+    "meitä",
+    "mun",
+    "mä"
+  ],
+  "meWord": "minä",
+  "forbiddenInTemplate": [
+    "äiti",
+    "isä",
+    "vanhemmat",
+    "perheesi",
+    "sinun perheesi"
+  ],
+  "instructionBans": [
+    "rastita",
+    "rasti",
+    "leikkaa",
+    "väritä",
+    "ilmainen",
+    "maksuton",
+    "vastaukset"
+  ],
+  "familyHead": "Perhe ja sukulaiset",
+  "strings": {
+    "base": {
+      "title": "Perhe ja sukulaiset: kuka on kuka?",
+      "instruction": "Etsi jokainen henkilö perhepuusta ja kirjoita hänen numeronsa oikean sukulaissanan viereiseen ruutuun."
+    },
+    "generations": {
+      "title": "Sukupolvet: vanhimmasta nuorimpaan",
+      "instruction": "Kirjoita jokaisen rivin ruutuihin 1, 2 ja 3 niin, että sanat ovat järjestyksessä vanhimmasta sukupolvesta nuorimpaan."
+    },
+    "trace-words": {
+      "title": "Sukulaissanat: jäljennä ja kirjoita",
+      "instruction": "Etsi puusta henkilö, jolla on sama numero, jäljennä hänen sukulaissanansa ja kirjoita se vielä kerran viivalle."
+    },
+    "tree-clues": {
+      "title": "Perhepuu: lue vihjeet",
+      "instruction": "Lue vihjeet ja kirjoita jokainen nimi oikeaan nimiruutuun perhepuussa."
+    },
+    "relation-riddles": {
+      "title": "Sukulaisarvoitukset: isoäiti, eno, setä vai täti?",
+      "instruction": "Lue jokainen arvoitus ja kirjoita viivalle oikea sukulaissana laatikosta, ja sama sana voi sopia useampaan arvoitukseen."
+    },
+    "tree-template": {
+      "title": "Perhepuun pohja: täytä itse",
+      "instruction": "Piirrä kehyksiin ihmiset, jotka ovat sinulle tärkeitä, ja kirjoita heidän nimensä viivoille."
+    }
+  }
+}

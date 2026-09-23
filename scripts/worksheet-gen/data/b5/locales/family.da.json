@@ -1,0 +1,278 @@
+{
+  "kin": {
+    "M": "mor",
+    "F": "far",
+    "Z": "soester",
+    "B": "bror",
+    "Zy": "lillesoester",
+    "By": "lillebror",
+    "MM": "mormor",
+    "MF": "morfar",
+    "FM": "farmor",
+    "FF": "farfar",
+    "MZ": "moster",
+    "FZ": "faster",
+    "MB": "morbror",
+    "FB": "farbror",
+    "MZD": "kusine",
+    "MBD": "kusine",
+    "FZD": "kusine",
+    "FBD": "kusine",
+    "MZS": "faetter",
+    "MBS": "faetter",
+    "FZS": "faetter",
+    "FBS": "faetter"
+  },
+  "words": {
+    "mor": {
+      "text": "mor",
+      "register": "K"
+    },
+    "far": {
+      "text": "far",
+      "register": "K"
+    },
+    "soester": {
+      "text": "søster",
+      "register": "K"
+    },
+    "bror": {
+      "text": "bror",
+      "register": "K"
+    },
+    "lillesoester": {
+      "text": "lillesøster",
+      "register": "K"
+    },
+    "lillebror": {
+      "text": "lillebror",
+      "register": "K"
+    },
+    "mormor": {
+      "text": "mormor",
+      "register": "K"
+    },
+    "morfar": {
+      "text": "morfar",
+      "register": "K"
+    },
+    "farmor": {
+      "text": "farmor",
+      "register": "K"
+    },
+    "farfar": {
+      "text": "farfar",
+      "register": "K"
+    },
+    "moster": {
+      "text": "moster",
+      "register": "K"
+    },
+    "faster": {
+      "text": "faster",
+      "register": "K"
+    },
+    "morbror": {
+      "text": "morbror",
+      "register": "K"
+    },
+    "farbror": {
+      "text": "farbror",
+      "register": "K"
+    },
+    "kusine": {
+      "text": "kusine",
+      "register": "K"
+    },
+    "faetter": {
+      "text": "fætter",
+      "register": "K"
+    }
+  },
+  "names": [
+    {
+      "name": "Ida",
+      "sex": "f",
+      "gen": "Idas"
+    },
+    {
+      "name": "Emil",
+      "sex": "m",
+      "gen": "Emils"
+    },
+    {
+      "name": "Freja",
+      "sex": "f",
+      "gen": "Frejas"
+    },
+    {
+      "name": "Oscar",
+      "sex": "m",
+      "gen": "Oscars"
+    },
+    {
+      "name": "Alma",
+      "sex": "f",
+      "gen": "Almas"
+    },
+    {
+      "name": "Noah",
+      "sex": "m",
+      "gen": "Noahs"
+    },
+    {
+      "name": "Clara",
+      "sex": "f",
+      "gen": "Claras"
+    },
+    {
+      "name": "Victor",
+      "sex": "m",
+      "gen": "Victors"
+    },
+    {
+      "name": "Ella",
+      "sex": "f",
+      "gen": "Ellas"
+    },
+    {
+      "name": "Alfred",
+      "sex": "m",
+      "gen": "Alfreds"
+    },
+    {
+      "name": "Sofia",
+      "sex": "f",
+      "gen": "Sofias"
+    },
+    {
+      "name": "Malthe",
+      "sex": "m",
+      "gen": "Malthes"
+    }
+  ],
+  "clueFrames": {
+    "M": "{name} er {egoGen} mor.",
+    "F": "{name} er {egoGen} far.",
+    "Z": "{name} er {egoGen} søster.",
+    "B": "{name} er {egoGen} bror.",
+    "Zy": "{name} er {egoGen} lillesøster.",
+    "By": "{name} er {egoGen} lillebror.",
+    "MM": "{name} er {egoGen} mormor.",
+    "MF": "{name} er {egoGen} morfar.",
+    "FM": "{name} er {egoGen} farmor.",
+    "FF": "{name} er {egoGen} farfar.",
+    "MZ": "{name} er {egoGen} moster.",
+    "FZ": "{name} er {egoGen} faster.",
+    "MB": "{name} er {egoGen} morbror.",
+    "FB": "{name} er {egoGen} farbror.",
+    "MZD": "{name} er {egoGen} kusine.",
+    "MBD": "{name} er {egoGen} kusine.",
+    "FZD": "{name} er {egoGen} kusine.",
+    "FBD": "{name} er {egoGen} kusine.",
+    "MZS": "{name} er {egoGen} fætter.",
+    "MBS": "{name} er {egoGen} fætter.",
+    "FZS": "{name} er {egoGen} fætter.",
+    "FBS": "{name} er {egoGen} fætter."
+  },
+  "riddleFrames": {
+    "MM": "{egoGen} mors mor er {egoGen} ___.",
+    "FM": "{egoGen} fars mor er {egoGen} ___.",
+    "MF": "{egoGen} mors far er {egoGen} ___.",
+    "FF": "{egoGen} fars far er {egoGen} ___.",
+    "MZ": "{egoGen} mors søster er {egoGen} ___.",
+    "FZ": "{egoGen} fars søster er {egoGen} ___.",
+    "MB": "{egoGen} mors bror er {egoGen} ___.",
+    "FB": "{egoGen} fars bror er {egoGen} ___."
+  },
+  "distractors": [
+    "mor",
+    "far"
+  ],
+  "repeatsNote": false,
+  "generationOK": [
+    "mormor",
+    "morfar",
+    "farmor",
+    "farfar",
+    "mor",
+    "far",
+    "moster",
+    "faster",
+    "morbror",
+    "farbror",
+    "soester",
+    "bror",
+    "lillesoester",
+    "lillebror",
+    "kusine",
+    "faetter"
+  ],
+  "agreeing": [
+    "en",
+    "et",
+    "den",
+    "det",
+    "hans",
+    "hendes",
+    "sin",
+    "sit",
+    "lille"
+  ],
+  "firstPerson": [
+    "jeg",
+    "mig",
+    "min",
+    "mit",
+    "mine",
+    "vi",
+    "os",
+    "vores"
+  ],
+  "meWord": "mig",
+  "forbiddenInTemplate": [
+    "mor",
+    "far",
+    "mormor",
+    "morfar",
+    "farmor",
+    "farfar",
+    "forældre",
+    "din familie",
+    "dine forældre"
+  ],
+  "instructionBans": [
+    "sæt kryds",
+    "klip",
+    "farvelæg",
+    "facit",
+    "gratis"
+  ],
+  "familyHead": "Familie og stamtræ",
+  "strings": {
+    "base": {
+      "title": "Familiemedlemmer: hvem er hvem?",
+      "instruction": "Find hver person i stamtræet, og skriv personens tal i feltet ved det rigtige familieord."
+    },
+    "generations": {
+      "title": "Generationer i familien: fra ældst til yngst",
+      "instruction": "Skriv 1, 2 og 3 i felterne i hver række, så familieordene står fra den ældste generation til den yngste."
+    },
+    "trace-words": {
+      "title": "Familieord: skriv efter og skriv selv",
+      "instruction": "Find personen med samme tal i stamtræet, skriv familieordet efter, og skriv det igen på linjen."
+    },
+    "tree-clues": {
+      "title": "Stamtræet: læs ledetrådene",
+      "instruction": "Læs ledetrådene, og skriv hvert navn i det rigtige navnefelt i stamtræet."
+    },
+    "relation-riddles": {
+      "title": "Mormor eller farmor? Gåder om familien",
+      "instruction": "Læs hver gåde, og skriv det rigtige familieord fra boksen på linjen."
+    },
+    "tree-template": {
+      "title": "Stamtræ-skabelon til børn",
+      "instruction": "Tegn de mennesker, der betyder noget for dig, i rammerne, og skriv deres navne på linjerne."
+    }
+  }
+}

@@ -2614,5 +2614,241 @@
   "G3-391": {
     "title": "Pyöristäminen kymmenien ja satojen tarkkuuteen",
     "instruction": "Pyöristä jokainen luku kahdesti: ensimmäiseen ruutuun lähimpään kymmeneen ja toiseen lähimpään sataan."
+  },
+  "K-368": {
+    "title": "Tasokuviot: tunnista ja nimeä",
+    "instruction": "Katso jokaista kuviota, myös käännettyjä ja kapeita, ja rengasta kuvion nimi."
+  },
+  "K-369": {
+    "title": "Liikenneturvallisuus: mitä liikennevalo näyttää?",
+    "instruction": "Katso palavaa valoa ja rengasta se, mitä sinun pitää tehdä."
+  },
+  "K-370": {
+    "title": "Perhe ja sukulaiset: kuka on kuka?",
+    "instruction": "Etsi jokainen henkilö perhepuusta ja kirjoita hänen numeronsa oikean sukulaissanan viereiseen ruutuun."
+  },
+  "G1-376": {
+    "title": "Kasvin osat",
+    "instruction": "Seuraa jokaista numeroitua lappua kasvin osaan ja kirjoita osan nimi sanapankista viivalle, jolla on sama numero."
+  },
+  "G1-377": {
+    "title": "Perhosen kehitysvaiheet: munasta perhoseksi",
+    "instruction": "Muna on 1: kirjoita ruutuihin 2, 3 ja 4 oikeassa järjestyksessä ja viimeiseen ruutuun sen kuvan numero, joka tulee perhosen jälkeen."
+  },
+  "G1-378": {
+    "title": "Aurinko, Maa ja Kuu",
+    "instruction": "Lue jokainen lause ja merkitse rasti Auringon, Maan tai Kuun alla olevaan ruutuun."
+  },
+  "G1-379": {
+    "title": "Karttamerkit: etsi ja laske",
+    "instruction": "Katso karttamerkkejä, etsi jokainen asia kartalta ja kirjoita ruutuun, montako niitä on."
+  },
+  "G1-380": {
+    "title": "Pitkä vokaali aa, uu vai ää: mikä kuuluu sanassa?",
+    "instruction": "Sano jokaisen kuvan nimi ja rengasta se pitkä vokaali, jonka kuulet."
+  },
+  "G2-358": {
+    "title": "Synonyymit: rengasta sana, joka tarkoittaa samaa",
+    "instruction": "Lue jokaisen kortin iso sana ja rengasta sen alta sana, joka tarkoittaa samaa."
+  },
+  "G2-359": {
+    "title": "Kantasana: lajittele sanat vartalon mukaan",
+    "instruction": "Lue jokainen ylhäällä oleva sana ja kirjoita se sen muurin riville, jonka kivessä on sanan kantasana."
+  },
+  "G1-381": {
+    "title": "Tasokuviot: onko se oikea kuvio?",
+    "instruction": "Lue nimi rivin alusta ja rengasta rivistä jokainen kuvio, joka todella on sen niminen."
+  },
+  "K-371": {
+    "title": "Tasokuviot ympärillämme",
+    "instruction": "Katso jokaista kuvaa ja väritä se kuvio, jonka muotoinen esine on: ympyrä tai suorakulmio."
+  },
+  "G1-382": {
+    "title": "Tasokuviot: kirjoita nimet",
+    "instruction": "Kirjoita jokaisen kuvion nimi sen viereen viivalle ja ota nimet laatikosta."
+  },
+  "G1-383": {
+    "title": "Tasokuvioiden arvoitukset",
+    "instruction": "Lue jokainen arvoitus ja rengasta kuvion nimi."
+  },
+  "K-372": {
+    "title": "Piirrä tasokuviot pisteisiin",
+    "instruction": "Lue kuvion nimi ja piirrä kuvio yhdistämällä pisteitä, ja aloita paksusta viivasta, jos sellainen on."
+  },
+  "K-373": {
+    "title": "Väritä liikennevalot oikein",
+    "instruction": "Etsi jokaisesta liikennevalosta lamppu, jonka ympärillä on säteitä, ja väritä se sillä värillä, jolla se palaa."
+  },
+  "K-374": {
+    "title": "Kadun ylitys turvallisesti: vaihe vaiheelta",
+    "instruction": "Kirjoita ruutuihin numerot 1–5 siinä järjestyksessä, jossa ylität kadun turvallisesti."
+  },
+  "G1-384": {
+    "title": "Liikennemerkit lapsille ja niiden merkitys",
+    "instruction": "Yhdistä viivalla jokainen liikennemerkki siihen, mitä merkki tarkoittaa."
+  },
+  "G2-360": {
+    "title": "Liikennemerkkien ryhmät: varoitus-, kielto- ja määräysmerkit",
+    "instruction": "Kirjoita jokaisen liikennemerkin kirjain oikean merkkiryhmän ruutuihin."
+  },
+  "G2-361": {
+    "title": "Liikennemerkkivisa lapsille: mikä merkki sopii?",
+    "instruction": "Lue jokainen lause ja rengasta se ainoa liikennemerkki, joka sopii siihen."
+  },
+  "G1-385": {
+    "title": "Sukupolvet: vanhimmasta nuorimpaan",
+    "instruction": "Kirjoita jokaisen rivin ruutuihin 1, 2 ja 3 niin, että sanat ovat järjestyksessä vanhimmasta sukupolvesta nuorimpaan."
+  },
+  "K-375": {
+    "title": "Sukulaissanat: jäljennä ja kirjoita",
+    "instruction": "Etsi puusta henkilö, jolla on sama numero, jäljennä hänen sukulaissanansa ja kirjoita se vielä kerran viivalle."
+  },
+  "G1-386": {
+    "title": "Perhepuu: lue vihjeet",
+    "instruction": "Lue vihjeet ja kirjoita jokainen nimi oikeaan nimiruutuun perhepuussa."
+  },
+  "G2-362": {
+    "title": "Sukulaisarvoitukset: isoäiti, eno, setä vai täti?",
+    "instruction": "Lue jokainen arvoitus ja kirjoita viivalle oikea sukulaissana laatikosta, ja sama sana voi sopia useampaan arvoitukseen."
+  },
+  "G1-387": {
+    "title": "Perhepuun pohja: täytä itse",
+    "instruction": "Piirrä kehyksiin ihmiset, jotka ovat sinulle tärkeitä, ja kirjoita heidän nimensä viivoille."
+  },
+  "K-376": {
+    "title": "Mitä kasvi tarvitsee kasvaakseen?",
+    "instruction": "Katso, mitä kukin kasvi saa, ja rengasta jokaiselta riviltä kasvi, joka saa molemmat asiat, joita se tarvitsee kasvaakseen."
+  },
+  "G1-388": {
+    "title": "Siemenestä kasviksi",
+    "instruction": "Leikkaa irti neljä kuvaa ja liimaa ne tyhjiin ruutuihin nuolten suuntaan siemenestä alkaen."
+  },
+  "G2-363": {
+    "title": "Mitä kasvin osaa syömme?",
+    "instruction": "Katso jokaista ruokaa ja rengasta se kasvin osa, jota syömme."
+  },
+  "G2-364": {
+    "title": "Kasvin osat ja mitä ne tekevät",
+    "instruction": "Lue, mitä kukin osa tekee, etsi osa kasvista ja kirjoita sen lapun numero ruutuun."
+  },
+  "G3-392": {
+    "title": "Kukan osat",
+    "instruction": "Kirjoita jokaisen numeroidun kukan osan nimi sen viivalle ja vedä yli se sanapankin sana, joka ei ole kukan osa."
+  },
+  "G1-389": {
+    "title": "Sammakon kehitysvaiheet: leikkaa ja liimaa",
+    "instruction": "Leikkaa neljä ruutua irti ja liimaa jokainen omalle lumpeenlehdelleen lammen ympäri sammakonkudusta sammakkoon."
+  },
+  "G2-365": {
+    "title": "Perhosen kehitysvaiheet: kirjoita vaiheiden nimet",
+    "instruction": "Kirjoita jokainen nimi sanapankista oikean kuvan alla olevalle viivalle ja vedä yli se ainoa nimi, joka ei kuulu joukkoon."
+  },
+  "G2-366": {
+    "title": "Muodonvaihdos: miksi eläimeksi poikanen kasvaa?",
+    "instruction": "Katso jokaista eläimen poikasta ja kirjoita sen kirjain ruutuun sen aikuisen eläimen alle, joksi se kasvaa."
+  },
+  "G3-393": {
+    "title": "Perhosen ja sammakon kehitysvaiheet: vertaile",
+    "instruction": "Lue jokainen lause ja merkitse rasti perhosen, sammakon tai molempien kohdalle, kun lause pitää paikkansa."
+  },
+  "G1-390": {
+    "title": "Mitä tulee seuraavaksi? Perhonen, sammakko ja leppäkerttu",
+    "instruction": "Katso jokaisen rivin ensimmäistä kuvaa ja rengasta se kuva, joka tulee heti sen jälkeen."
+  },
+  "G1-391": {
+    "title": "Kuun vaiheet oikeassa järjestyksessä",
+    "instruction": "Katso rivin kiilasta, kasvaako vai pieneneekö kuu, ja kirjoita kuiden alle numerot 1–5 siinä järjestyksessä."
+  },
+  "G2-367": {
+    "title": "Kuun vaiheiden nimet",
+    "instruction": "Katso jokaista kuuta ja kirjoita sen nimi viivoille, ja käytä jokaista sanapankin sanaa kahdesti."
+  },
+  "G2-368": {
+    "title": "Miksi on päivä ja yö?",
+    "instruction": "Katso, missä Aurinko on, ja rengasta taulukosta jokaisen numeroidun nastan kohdalta päivä tai yö."
+  },
+  "G3-394": {
+    "title": "Planeetat järjestyksessä Auringosta",
+    "instruction": "Kirjoita jokaisen planeetan nimi sen viivalle alkaen Aurinkoa lähimmästä, ja käytä jokaista laatikon nimeä kerran."
+  },
+  "G3-395": {
+    "title": "Jättiläisplaneetat ja kiviplaneetat",
+    "instruction": "Lajittele nimet ja kirjoita jokainen oikeaan laatikkoon: jättiläisplaneetta, pieni kiviplaneetta tai ei planeetta."
+  },
+  "K-377": {
+    "title": "Ylhäältä katsottuna: sivulta ja ylhäältä",
+    "instruction": "Jokainen asia on piirretty sivulta, joten yhdistä se viivalla samaan asiaan ylhäältä katsottuna."
+  },
+  "G2-369": {
+    "title": "Ilmansuunnat: pohjoinen, itä, etelä ja länsi",
+    "instruction": "Jokaisessa ilmansuuntaruusussa on yksi kirjain, joten kirjoita kolme muuta kirjainta tyhjiin ruutuihin."
+  },
+  "G2-370": {
+    "title": "Maanosat: kirjoita nimet",
+    "instruction": "Kirjoita jokaisen numeroidun maanosan nimi sen viivalle ja ota nimet laatikosta."
+  },
+  "G3-396": {
+    "title": "Maanosat ja valtameret",
+    "instruction": "Etsi jokainen maanosa ja valtameri kartalta ja kirjoita sen numero nimen viereiseen ruutuun."
+  },
+  "G2-371": {
+    "title": "Ilmansuunnat kartalla",
+    "instruction": "Etsi kartalta ensimmäinen kuva, katso siihen suuntaan, jonka sana kertoo, ja rengasta kolmesta kuvasta se, joka on siellä."
+  },
+  "K-378": {
+    "title": "Pitkä vokaali: lajittele kuvat, aa vai uu?",
+    "instruction": "Sano jokaisen kuvan nimi ja yhdistä se viivalla siihen pitkään vokaaliin, jonka kuulet."
+  },
+  "G1-392": {
+    "title": "Kirjoita puuttuva pitkä vokaali: aa, uu vai ää",
+    "instruction": "Sano jokaisen kuvan sana ja kirjoita ylhäältä puuttuva pitkä vokaali katkoviivalla merkittyyn kohtaan."
+  },
+  "G1-393": {
+    "title": "Pitkä vokaali: lue sanat ja yhdistä kuviin",
+    "instruction": "Lue jokainen sana, jonka pitkä vokaali on merkitty, ja yhdistä se viivalla oikeaan kuvaan."
+  },
+  "G1-394": {
+    "title": "Missä kohdassa pitkä vokaali kuuluu?",
+    "instruction": "Sano jokaisen kuvan sana ja väritä yksi kohta sen mukaan, missä kuulet pitkän vokaalin: alussa, keskellä vai lopussa."
+  },
+  "G2-372": {
+    "title": "Pitkät vokaalit lauseissa: etsi ja laske aa",
+    "instruction": "Lue lauseet, rengasta jokainen aa ja kirjoita ruutuun, montako niitä on kussakin lauseessa."
+  },
+  "G1-395": {
+    "title": "Synonyymit kuvien avulla: kaksi sanaa, yksi kuva",
+    "instruction": "Katso jokaista kuvaa ja rengasta sen alta kaksi sanaa, jotka tarkoittavat samaa ja sopivat kuvaan."
+  },
+  "G2-373": {
+    "title": "Synonyymiparit: yhdistä samaa tarkoittavat sanat",
+    "instruction": "Yhdistä viivalla jokainen vasemman puolen sana siihen oikean puolen sanaan, joka tarkoittaa samaa."
+  },
+  "G1-396": {
+    "title": "Sanojen voimakkuus: heikoimmasta voimakkaimpaan",
+    "instruction": "Lue rivin kolme sanaa ja kirjoita ruutuihin 1, 2 ja 3 heikoimmasta sanasta voimakkaimpaan."
+  },
+  "G2-374": {
+    "title": "Sanoi-sanan synonyymit: valitse sopiva sana",
+    "instruction": "Lue jokainen lause ja kirjoita ruutuun puhekuplasta se sana, joka sopii parhaiten sanan sanoi tilalle."
+  },
+  "G3-397": {
+    "title": "Mennä ja katsoa: lajittele synonyymit",
+    "instruction": "Lue kymmenen sanaa ja kirjoita jokainen sana joko mennä-kenttään tai katsoa-kenttään sen mukaan, mihin se kuuluu."
+  },
+  "G1-397": {
+    "title": "Kantasana kuvasta: rengasta oikea sana",
+    "instruction": "Sano, mitä kuva esittää, ja rengasta sen yläpuolelta se ainoa sana, joka on tehty kuvan sanasta."
+  },
+  "G2-375": {
+    "title": "Etsi kantasana",
+    "instruction": "Rengasta osa, joka on kaikissa kolmessa sanassa, ja kirjoita kantasana tyhjään kiveen."
+  },
+  "G3-398": {
+    "title": "Kuka tekee? Tekijää tarkoittava sana",
+    "instruction": "Katso jokaista työssä olevaa ihmistä, lue sana hänen vieressään ja kirjoita tekijän nimi tyhjään tiileen."
+  },
+  "G3-399": {
+    "title": "Johdokset lauseissa",
+    "instruction": "Kirjoita jokainen kiven neljästä sanasta siihen lauseeseen, johon se sopii."
   }
 }

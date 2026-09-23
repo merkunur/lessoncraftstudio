@@ -1,0 +1,119 @@
+{
+  "stageWords": {
+    "butterfly": {
+      "egg": "ägg",
+      "larva": "larv",
+      "pupa": "puppa",
+      "adult": "fjäril"
+    }
+  },
+  "decoy": {
+    "frog.tadpole": "grodyngel"
+  },
+  "landingWords": {
+    "frog": {
+      "spawn": "grodrom",
+      "tadpole": "grodyngel",
+      "legged": "grodyngel med ben",
+      "froglet": "grodunge",
+      "adult": "groda"
+    },
+    "ladybird": {
+      "egg": "ägg",
+      "larva": "larv",
+      "pupa": "puppa",
+      "adult": "nyckelpiga"
+    }
+  },
+  "statements": {
+    "egg": "Den kläcks ur ett ägg.",
+    "change": "Ungen ser helt annorlunda ut än det vuxna djuret.",
+    "pupa": "Under en tid är den en puppa.",
+    "wings": "Det vuxna djuret har vingar.",
+    "sixlegs": "Det vuxna djuret har sex ben.",
+    "nectar": "Det vuxna djuret dricker nektar från blommor.",
+    "tail": "Ungen simmar med hjälp av en svans.",
+    "water": "Ungen lever i vattnet.",
+    "nolegs": "Ungen har inga ben i början.",
+    "fourlegs": "Det vuxna djuret har fyra ben.",
+    "insects": "Det vuxna djuret fångar insekter och äter dem."
+  },
+  "drop": [],
+  "familyName": "Fjärilens och grodans livscykel",
+  "spawnForm": "clump",
+  "forbidden": [
+    "kokong",
+    "kokongen",
+    "kokonger"
+  ],
+  "genreBare": [
+    "livscykel",
+    "livscykeln",
+    "livscykler"
+  ],
+  "pictureWord": "bild",
+  "instructionBans": {
+    "G1-377": [
+      "klipp",
+      "klistra",
+      "kryssa",
+      "ringa",
+      "bokstav",
+      "bokstaven"
+    ],
+    "G1-389": [
+      "skriv",
+      "kryssa",
+      "ringa"
+    ],
+    "G2-365": [
+      "klipp",
+      "kryssa",
+      "ringa"
+    ],
+    "G2-366": [
+      "klipp",
+      "kryssa",
+      "ringa",
+      "siffra",
+      "numret"
+    ],
+    "G3-393": [
+      "ringa",
+      "klipp",
+      "skriv"
+    ],
+    "G1-390": [
+      "skriv",
+      "kryssa",
+      "klipp"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "G1-377": {
+      "title": "Fjärilens livscykel: från ägg till fjäril",
+      "instruction": "Ägget är 1: skriv 2, 3 och 4 i rutorna i rätt ordning och i sista rutan numret på bilden som kommer efter fjärilen."
+    },
+    "G1-389": {
+      "title": "Grodans livscykel: klipp och klistra",
+      "instruction": "Klipp ut de fyra rutorna och klistra var och en på sitt näckrosblad, runt dammen från grodrommen till grodan."
+    },
+    "G2-365": {
+      "title": "Fjärilens livscykel: skriv namnen på stadierna",
+      "instruction": "Skriv varje namn från ordrutan på raden under rätt bild och stryk det enda namn som inte hör dit."
+    },
+    "G2-366": {
+      "title": "Metamorfos: vilket djur blir ungen?",
+      "instruction": "Titta på varje ungt djur och skriv dess bokstav i en ruta under det vuxna djur som det blir."
+    },
+    "G3-393": {
+      "title": "Fjärilens och grodans livscykel: jämför",
+      "instruction": "Läs varje mening och kryssa för fjärilen, grodan eller båda när meningen stämmer för djuret."
+    },
+    "G1-390": {
+      "title": "Vad kommer sedan? Fjäril, groda och nyckelpiga",
+      "instruction": "Titta på den första bilden i varje rad och ringa in den bild som kommer direkt efter."
+    }
+  }
+}

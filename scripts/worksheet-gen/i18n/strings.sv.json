@@ -2618,5 +2618,221 @@
   "G3-391": {
     "title": "Avrundning till tiotal och hundratal",
     "instruction": "Avrunda varje tal två gånger: till närmaste tiotal i första rutan och till närmaste hundratal i den andra."
+  },
+  "K-368": {
+    "title": "Geometriska former: vad heter formen?",
+    "instruction": "Titta på varje form, också de vridna och de smala, och ringa in formens namn."
+  },
+  "K-369": {
+    "title": "Trafikregler för barn: vad visar trafikljuset?",
+    "instruction": "Titta på lampan som lyser och ringa in vad du ska göra."
+  },
+  "K-370": {
+    "title": "Familj och släkt: vem är vem?",
+    "instruction": "Hitta varje person i släktträdet och skriv personens siffra i rutan bredvid rätt familjeord."
+  },
+  "G1-376": {
+    "title": "Växtens delar",
+    "instruction": "Följ varje numrerad lapp till en del av växten och skriv delens namn från ordrutan på raden med samma siffra."
+  },
+  "G1-377": {
+    "title": "Fjärilens livscykel: från ägg till fjäril",
+    "instruction": "Ägget är 1: skriv 2, 3 och 4 i rutorna i rätt ordning och i sista rutan numret på bilden som kommer efter fjärilen."
+  },
+  "G1-378": {
+    "title": "Solen, Jorden och Månen",
+    "instruction": "Läs varje mening och kryssa för om den handlar om Solen, Jorden eller Månen."
+  },
+  "G1-379": {
+    "title": "Kartkunskap: läs teckenförklaringen",
+    "instruction": "Titta på teckenförklaringen, hitta varje sak på kartan och skriv i rutan hur många det finns."
+  },
+  "G2-358": {
+    "title": "Synonymer: ringa in ordet som betyder samma sak",
+    "instruction": "Läs det stora ordet på varje kort och ringa in det ord under som betyder samma sak."
+  },
+  "G2-359": {
+    "title": "Släktord: sortera orden efter ordstammen",
+    "instruction": "Läs varje ord överst och skriv det på en rad i den mur som står på ordets ordstam."
+  },
+  "G1-381": {
+    "title": "Geometriska former: är det rätt form?",
+    "instruction": "Läs namnet i varje rad och ringa in alla former som verkligen är en sådan form."
+  },
+  "K-371": {
+    "title": "Geometriska former runt omkring oss",
+    "instruction": "Titta på varje bild och färglägg den form som saken har: cirkel eller rektangel."
+  },
+  "G1-382": {
+    "title": "Geometriska former: skriv namnen",
+    "instruction": "Titta på varje form och skriv dess namn på raden, namnen står i rutan."
+  },
+  "G1-383": {
+    "title": "Gåtor om geometriska former",
+    "instruction": "Läs varje gåta och ringa in formens namn."
+  },
+  "K-372": {
+    "title": "Rita geometriska former med prickar",
+    "instruction": "Läs formens namn och dra streck mellan prickarna så att formen blir ritad, börja vid det tjocka strecket om det finns ett."
+  },
+  "K-373": {
+    "title": "Trafikregler för barn: färglägg trafikljusen",
+    "instruction": "Hitta lampan med strålar i varje trafikljus och färglägg den i den färg som den lyser med."
+  },
+  "K-374": {
+    "title": "Gå säkert över gatan: steg för steg",
+    "instruction": "Skriv 1 till 5 i rutorna så att de visar hur du går säkert över gatan."
+  },
+  "G1-384": {
+    "title": "Trafikmärken för barn och vad de betyder",
+    "instruction": "Dra ett streck från varje trafikmärke till det som märket betyder."
+  },
+  "G2-360": {
+    "title": "Trafikmärken åk 2: varnings-, förbuds- och påbudsmärken",
+    "instruction": "Skriv bokstaven för varje trafikmärke i en ruta under rätt sorts märken."
+  },
+  "G2-361": {
+    "title": "Quiz om trafikmärken för lågstadiet",
+    "instruction": "Läs varje mening och ringa in det enda trafikmärke som passar."
+  },
+  "G1-385": {
+    "title": "Generationer i släkten: från äldst till yngst",
+    "instruction": "Skriv 1, 2 och 3 i rutorna i varje rad så att orden står från den äldsta generationen till den yngsta."
+  },
+  "K-375": {
+    "title": "Familjeord: spåra och skriv",
+    "instruction": "Hitta personen med samma siffra i trädet, spåra familjeordet och skriv det en gång till på raden."
+  },
+  "G1-386": {
+    "title": "Släktträd: läs ledtrådarna",
+    "instruction": "Läs ledtrådarna och skriv varje namn i rätt namnruta i släktträdet."
+  },
+  "G2-362": {
+    "title": "Släktgåtor: mormor, farfar, moster eller farbror?",
+    "instruction": "Läs varje gåta och skriv rätt familjeord från rutan på raden."
+  },
+  "G1-387": {
+    "title": "Släktträd: mall att fylla i själv",
+    "instruction": "Rita de människor som är viktiga för dig i ramarna och skriv deras namn på raderna."
+  },
+  "K-376": {
+    "title": "Vad behöver en växt för att växa?",
+    "instruction": "Titta på vad varje växt får och ringa in den växt som får båda sakerna den behöver för att växa."
+  },
+  "G1-388": {
+    "title": "Från frö till växt",
+    "instruction": "Klipp ut de fyra bilderna och klistra in dem i de tomma rutorna i pilarnas riktning, börja vid fröet."
+  },
+  "G2-363": {
+    "title": "Vilka delar av växten äter vi?",
+    "instruction": "Titta på varje matvara och ringa in den del av växten som vi äter."
+  },
+  "G2-364": {
+    "title": "Växtens delar och vad de gör",
+    "instruction": "Läs vad varje del gör, hitta delen på växten och skriv numret på dess lapp i rutan."
+  },
+  "G3-392": {
+    "title": "Blommans delar",
+    "instruction": "Skriv namnet på varje numrerad del av blomman på dess rad och stryk det ord i ordrutan som inte är en del av en blomma."
+  },
+  "G1-389": {
+    "title": "Grodans livscykel: klipp och klistra",
+    "instruction": "Klipp ut de fyra rutorna och klistra var och en på sitt näckrosblad, runt dammen från grodrommen till grodan."
+  },
+  "G2-365": {
+    "title": "Fjärilens livscykel: skriv namnen på stadierna",
+    "instruction": "Skriv varje namn från ordrutan på raden under rätt bild och stryk det enda namn som inte hör dit."
+  },
+  "G2-366": {
+    "title": "Metamorfos: vilket djur blir ungen?",
+    "instruction": "Titta på varje ungt djur och skriv dess bokstav i en ruta under det vuxna djur som det blir."
+  },
+  "G3-393": {
+    "title": "Fjärilens och grodans livscykel: jämför",
+    "instruction": "Läs varje mening och kryssa för fjärilen, grodan eller båda när meningen stämmer för djuret."
+  },
+  "G1-390": {
+    "title": "Vad kommer sedan? Fjäril, groda och nyckelpiga",
+    "instruction": "Titta på den första bilden i varje rad och ringa in den bild som kommer direkt efter."
+  },
+  "G1-391": {
+    "title": "Månens faser i rätt ordning",
+    "instruction": "Titta på kilen i varje rad, om månen växer eller krymper, och skriv 1 till 5 under månarna i den ordningen."
+  },
+  "G2-367": {
+    "title": "Månens faser: skriv namnen",
+    "instruction": "Titta på varje måne och skriv dess namn på raderna, varje ord i ordrutan används två gånger."
+  },
+  "G2-368": {
+    "title": "Varför blir det dag och natt?",
+    "instruction": "Titta var Solen är och ringa in dag eller natt i tabellen för varje numrerad nål."
+  },
+  "G3-394": {
+    "title": "Planeterna i ordning från Solen",
+    "instruction": "Skriv varje planets namn på dess rad, börja närmast Solen och använd varje namn i rutan en gång."
+  },
+  "G3-395": {
+    "title": "Jätteplaneter och stenplaneter",
+    "instruction": "Sortera namnen och skriv vart och ett i rätt ruta: jätteplanet, liten stenplanet eller inte en planet."
+  },
+  "K-377": {
+    "title": "Fågelperspektiv: från sidan och uppifrån",
+    "instruction": "Varje sak är ritad från sidan, så dra ett streck till samma sak sedd uppifrån."
+  },
+  "G2-369": {
+    "title": "Väderstreck: norr, öster, söder och väster",
+    "instruction": "Varje kompassros visar en bokstav, så skriv de tre andra bokstäverna i de tomma rutorna."
+  },
+  "G2-370": {
+    "title": "Världsdelar: skriv namnen",
+    "instruction": "Skriv namnet på varje numrerad världsdel på dess rad och ta namnen från rutan."
+  },
+  "G3-396": {
+    "title": "Världsdelar och världshav",
+    "instruction": "Hitta varje världsdel och världshav på kartan och skriv dess siffra i rutan bredvid namnet."
+  },
+  "G2-371": {
+    "title": "Väderstreck på kartan",
+    "instruction": "Hitta den första bilden på kartan, titta åt det håll som ordet säger och ringa in den av de tre bilderna som ligger där."
+  },
+  "G1-395": {
+    "title": "Synonymer med bilder: två ord till en bild",
+    "instruction": "Titta på varje bild och ringa in de två ord under den som betyder samma sak och passar till bilden."
+  },
+  "G2-373": {
+    "title": "Synonympar: para ihop ord som betyder samma sak",
+    "instruction": "Dra ett streck från varje ord till vänster till det ord till höger som betyder samma sak."
+  },
+  "G1-396": {
+    "title": "Ordens styrka: från lite till mycket",
+    "instruction": "Läs de tre orden i varje rad och skriv 1, 2 och 3 i rutorna, från det svagaste ordet till det starkaste."
+  },
+  "G2-374": {
+    "title": "Synonymer till sa: välj ordet som passar",
+    "instruction": "Läs varje mening och skriv det ord från pratbubblan som passar bäst i rutan i stället för sa."
+  },
+  "G3-397": {
+    "title": "Synonymer till gå och titta: sortera orden",
+    "instruction": "Läs de tio orden och skriv varje ord i fältet gå eller i fältet titta, där det hör hemma."
+  },
+  "G1-397": {
+    "title": "Släktord med bilder: ringa in rätt ord",
+    "instruction": "Säg vad varje bild föreställer och ringa in det enda ord ovanför som är byggt av bildens ord."
+  },
+  "G2-375": {
+    "title": "Hitta ordstammen",
+    "instruction": "Ringa in den del som de tre orden har gemensamt och skriv ordstammen i den tomma stenen."
+  },
+  "G2-376": {
+    "title": "Prefixen åter-, miss- och över-: välj efter betydelse",
+    "instruction": "Läs vad varje nytt ord betyder, hitta dess prefix i nyckeln och skriv det i den tomma biten."
+  },
+  "G3-398": {
+    "title": "Vem gör det? Skriv ordet för personen",
+    "instruction": "Titta på varje person som arbetar, läs ordet bredvid och skriv ordet för personen i den tomma tegelstenen."
+  },
+  "G3-399": {
+    "title": "Släktord i meningar",
+    "instruction": "Skriv vart och ett av de fyra orden på stenen i den mening där det passar."
   }
 }

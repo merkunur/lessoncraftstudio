@@ -378,5 +378,45 @@
   "rounding": {
     "full": "Avrunding til nærmeste tier og hundrer: rund av tall under 1000, sorter opp eller ned, gjør overslag og finn hvilke tall som blir samme tier.",
     "short": "Avrunding til tier og hundrer"
+  },
+  "2d-shapes": {
+    "full": "Geometriske figurer: kjenne igjen og sette navn på sirkel, kvadrat, trekant og rektangel, også snudde, finne figurer rundt oss, skrive navnene og tegne figurene.",
+    "short": "Navn på sirkel, kvadrat, trekant, rektangel"
+  },
+  "road-safety": {
+    "full": "Trafikk for barn: lese trafikklyset, gå trygt over veien, forstå trafikkskilt og hva de betyr, og sortere fareskilt, forbudsskilt og opplysningsskilt.",
+    "short": "Trafikklys, trafikkskilt og trafikkregler"
+  },
+  "family": {
+    "full": "Familie og slekt: familieord som mormor, farmor, tante og onkel, ordne generasjoner, fylle ut et slektstre med ledetråder og løse slektsgåter.",
+    "short": "Familieord, slektstre og slektsgåter"
+  },
+  "plants": {
+    "full": "Plantens deler: rot, stengel, blad, blomst, frukt og frø, hva en plante trenger for å vokse, fra frø til plante og blomstens deler.",
+    "short": "Plantens deler og hva de gjør"
+  },
+  "animal-life-cycles": {
+    "full": "Sommerfuglens og froskens livssyklus: fra egg til sommerfugl og fra froskeegg til frosk, ordne og sette navn på stadiene og sammenligne de to dyrene.",
+    "short": "Sommerfuglens og froskens livssyklus"
+  },
+  "earth-and-space": {
+    "full": "Solsystemet: skille mellom Solen, Jorden og Månen, ordne og sette navn på månens faser, forstå dag og natt og lære planetene i rekkefølge og etter størrelse.",
+    "short": "Solen, månens faser og planetene"
+  },
+  "maps": {
+    "full": "Kartlesing: lese tegnforklaringen, se ting i fugleperspektiv, himmelretningene nord, øst, sør og vest og verdensdeler og verdenshav på kartet.",
+    "short": "Kart, himmelretninger og verdensdeler"
+  },
+  "digraphs": {
+    "full": "Bokstavkombinasjoner: høre, sortere og skrive lyder som skrives med to bokstaver, lese ord og finne lyden i ordet og i setninger.",
+    "short": "Lyder som skrives med to bokstaver"
+  },
+  "synonyms": {
+    "full": "Synonymer: finne ord som betyr det samme, med bilder og ordpar, ordne ord etter styrke og velge riktig synonym for sa, gå og se.",
+    "short": "Ord som betyr det samme"
+  },
+  "word-parts": {
+    "full": "Forstavelser, endelser og rotord: sortere ord etter roten, finne rotordet, velge forstavelse etter betydning og lage ord for personer.",
+    "short": "Rotord, forstavelser og endelser"
   }
 }

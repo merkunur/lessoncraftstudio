@@ -1,0 +1,112 @@
+{
+  "hemisphere": "N",
+  "bodies": {
+    "sun": "Soleil",
+    "earth": "Terre",
+    "moon": "Lune"
+  },
+  "facts": {
+    "ownLight": "Cet astre fabrique sa propre lumière.",
+    "star": "C’est une étoile.",
+    "hottest": "Cet astre est le plus chaud des trois.",
+    "biggest": "Cet astre est le plus grand des trois.",
+    "liveOn": "Les humains et les animaux y vivent.",
+    "oceans": "On y trouve de grands océans d’eau.",
+    "air": "On y trouve de l’air que l’on peut respirer.",
+    "planet": "C’est une planète.",
+    "spinDay": "Sa rotation nous donne le jour et la nuit.",
+    "orbitsEarth": "Cet astre tourne autour de la Terre.",
+    "seemsToChange": "Sa forme semble changer.",
+    "craters": "Cet astre est couvert de cratères.",
+    "smallest": "Cet astre est le plus petit des trois."
+  },
+  "leakForms": [
+    "il",
+    "elle",
+    "lui",
+    "ils",
+    "elles",
+    "chaude",
+    "grande",
+    "petite",
+    "couverte",
+    "ronde"
+  ],
+  "genderNeutral": true,
+  "forbiddenStems": [
+    "donne de la lumière",
+    "nous éclaire",
+    "brille",
+    "brille la nuit",
+    "tourne autour du Soleil",
+    "se lève",
+    "se couche",
+    "est rond",
+    "dans le ciel",
+    "a marché",
+    "pas d’air",
+    "reflète",
+    "traverse le ciel",
+    "hiver",
+    "printemps",
+    "automne",
+    "pluie",
+    "neige",
+    "nuage",
+    "nuages",
+    "météo"
+  ],
+  "phaseNames": {
+    "0": "nouvelle lune",
+    "2": "premier quartier",
+    "4": "pleine lune",
+    "6": "dernier quartier"
+  },
+  "planets": {
+    "mercury": "Mercure",
+    "venus": "Vénus",
+    "earth": "Terre",
+    "mars": "Mars",
+    "jupiter": "Jupiter",
+    "saturn": "Saturne",
+    "uranus": "Uranus",
+    "neptune": "Neptune"
+  },
+  "notPlanet": {
+    "sun": "Soleil",
+    "moon": "Lune"
+  },
+  "classLabels": {
+    "giant": "planète géante",
+    "rocky": "petite planète rocheuse",
+    "notPlanet": "pas une planète"
+  },
+  "mnemonic": "Me Voici Toute Mignonne, Je Suis Une Nébuleuse",
+  "refuse": [],
+  "strings": {
+    "base": {
+      "title": "Le Soleil, la Terre et la Lune",
+      "instruction": "Lis chaque phrase et coche une case : parle-t-elle du Soleil, de la Terre ou de la Lune ?"
+    },
+    "moon-phases-in-order": {
+      "title": "Les phases de la Lune dans l’ordre",
+      "instruction": "La Lune semble grossir puis rapetisser : sur chaque rangée, écris de 1 à 5 sous les lunes dans cet ordre."
+    },
+    "moon-phase-names": {
+      "title": "Nommer les phases de la Lune",
+      "instruction": "Regarde chaque lune et écris son nom sur les lignes, en utilisant deux fois chaque mot de la liste."
+    },
+    "day-and-night-model": {
+      "title": "Pourquoi y a-t-il le jour et la nuit ?",
+      "instruction": "Regarde où est le Soleil et, pour chaque épingle numérotée, entoure dans le tableau le mot jour ou le mot nuit."
+    },
+    "planets-in-order": {
+      "title": "Les planètes du système solaire dans l’ordre",
+      "instruction": "Écris le nom de chaque planète sur sa ligne en partant du Soleil et utilise une fois chaque nom de la liste."
+    },
+    "planet-sizes": {
+      "title": "Planètes géantes et planètes rocheuses",
+      "instruction": "Classe les noms : écris chacun dans la bonne case, planète géante, petite planète rocheuse ou pas une planète."
+    }
+  }
+}

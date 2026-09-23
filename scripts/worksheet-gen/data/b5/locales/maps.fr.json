@@ -1,0 +1,135 @@
+{
+  "keyTitle": "Légende",
+  "symbolWords": {
+    "house": "maison",
+    "tree": "arbre",
+    "bush": "buisson",
+    "pond": "mare",
+    "bench": "banc",
+    "tent": "tente",
+    "flowerBed": "massif de fleurs",
+    "bridge": "pont"
+  },
+  "dirWords": {
+    "n": "nord",
+    "e": "est",
+    "s": "sud",
+    "w": "ouest"
+  },
+  "dirLetters": {
+    "n": "N",
+    "e": "E",
+    "s": "S",
+    "w": "O"
+  },
+  "continentSet": [
+    {
+      "id": "america",
+      "regions": [
+        "northAmerica",
+        "southAmerica"
+      ]
+    },
+    {
+      "id": "europe",
+      "regions": [
+        "europe"
+      ]
+    },
+    {
+      "id": "asia",
+      "regions": [
+        "asia"
+      ]
+    },
+    {
+      "id": "africa",
+      "regions": [
+        "africa"
+      ]
+    },
+    {
+      "id": "oceania",
+      "regions": [
+        "oceania"
+      ]
+    },
+    {
+      "id": "antarctica",
+      "regions": [
+        "antarctica"
+      ]
+    }
+  ],
+  "continentNames": {
+    "america": "Amérique",
+    "europe": "Europe",
+    "asia": "Asie",
+    "africa": "Afrique",
+    "oceania": "Océanie",
+    "antarctica": "Antarctique"
+  },
+  "oceanSet": [
+    "pacific",
+    "atlantic",
+    "indian",
+    "arctic",
+    "southern"
+  ],
+  "oceanNames": {
+    "pacific": "océan Pacifique",
+    "atlantic": "océan Atlantique",
+    "indian": "océan Indien",
+    "arctic": "océan Arctique",
+    "southern": "océan Austral"
+  },
+  "setSource": "Programmes de géographie des cycles 2 et 3 (MEN) et manuels français de CE2-CM1 : six continents (l’Amérique comptée comme un seul continent, l’Antarctique inclus) et cinq océans",
+  "mnemonic": "Nous Explorons Sous l’Océan",
+  "refuse": [],
+  "instructionBans": {
+    "base": [
+      "entoure",
+      "ligne"
+    ],
+    "top-view": [
+      "écris",
+      "mot"
+    ],
+    "compass-rose": [
+      "boussole"
+    ],
+    "continents": [
+      "numéro"
+    ],
+    "directions-on-map": [
+      "écris",
+      "boussole"
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Lire la légende d’un plan",
+      "instruction": "Regarde la légende, trouve chaque chose sur le plan, compte-les et écris combien il y en a dans la case."
+    },
+    "top-view": {
+      "title": "Vu de côté, vu de dessus : relie les objets",
+      "instruction": "Chaque objet est dessiné vu de côté : relie-le au même objet vu de dessus."
+    },
+    "compass-rose": {
+      "title": "Les points cardinaux : complète la rose des vents",
+      "instruction": "Chaque rose des vents montre une lettre : écris les trois autres lettres dans les cases vides."
+    },
+    "continents": {
+      "title": "Les continents : écris leur nom",
+      "instruction": "Écris le nom de chaque continent sur sa ligne, en t’aidant des noms de l’encadré."
+    },
+    "continents-oceans": {
+      "title": "Les continents et les océans sur la carte",
+      "instruction": "Trouve chaque continent et chaque océan sur la carte et écris son numéro dans la case à côté de son nom."
+    },
+    "directions-on-map": {
+      "title": "Se repérer sur une carte avec les points cardinaux",
+      "instruction": "Trouve la première image sur la carte, regarde dans la direction écrite et entoure celle des trois images qui s’y trouve."
+    }
+  }
+}

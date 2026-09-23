@@ -2614,5 +2614,241 @@
   "G3-391": {
     "title": "Arrondir deux fois : à la dizaine, puis à la centaine",
     "instruction": "Arrondis chaque nombre deux fois : à la dizaine dans la première case et à la centaine dans la seconde."
+  },
+  "K-368": {
+    "title": "Les figures planes",
+    "instruction": "Regarde chaque figure, même tournée ou très allongée, et entoure son nom."
+  },
+  "K-369": {
+    "title": "Sécurité routière : les feux, s’arrêter ou passer",
+    "instruction": "Regarde la lampe allumée, puis entoure ce qu’on doit faire."
+  },
+  "K-370": {
+    "title": "Les membres de la famille : qui est qui ?",
+    "instruction": "Trouve chaque personne sur l’arbre et écris son numéro dans la case à côté du mot qui la nomme."
+  },
+  "G1-376": {
+    "title": "Les parties de la plante",
+    "instruction": "Suis chaque étiquette numérotée jusqu’à une partie de la plante et écris son nom, pris dans la liste, sur la ligne du même numéro."
+  },
+  "G1-377": {
+    "title": "Le cycle de vie du papillon",
+    "instruction": "L’œuf porte le 1 : écris 2, 3 et 4 dans les cases au fil de sa croissance, puis dans la dernière case le numéro de l’image qui suit le papillon."
+  },
+  "G1-378": {
+    "title": "Le Soleil, la Terre et la Lune",
+    "instruction": "Lis chaque phrase et coche une case : parle-t-elle du Soleil, de la Terre ou de la Lune ?"
+  },
+  "G1-379": {
+    "title": "Lire la légende d’un plan",
+    "instruction": "Regarde la légende, trouve chaque chose sur le plan, compte-les et écris combien il y en a dans la case."
+  },
+  "G1-380": {
+    "title": "Sons complexes ou, on, oi : quel son entends-tu ?",
+    "instruction": "Dis le nom de chaque image et entoure le son que tu entends."
+  },
+  "G2-358": {
+    "title": "Les synonymes : entoure le mot qui veut dire la même chose",
+    "instruction": "Lis le grand mot de chaque carte et entoure, en dessous, le mot qui veut dire la même chose."
+  },
+  "G2-359": {
+    "title": "Le radical : trier les mots selon leur radical",
+    "instruction": "Lis chaque mot du haut et écris-le sur une ligne du mur posé sur son radical."
+  },
+  "G1-381": {
+    "title": "Reconnaître les figures planes : vraie ou fausse ?",
+    "instruction": "Lis le nom écrit sur chaque ligne et entoure toutes les figures qui portent vraiment ce nom."
+  },
+  "K-371": {
+    "title": "Les figures planes autour de nous",
+    "instruction": "Regarde chaque image et colorie la forme de l’objet : le cercle ou le rectangle."
+  },
+  "G1-382": {
+    "title": "Écris le nom des figures planes",
+    "instruction": "Regarde chaque figure et écris son nom sur la ligne, en t’aidant des noms de l’encadré."
+  },
+  "G1-383": {
+    "title": "Devinettes sur les figures planes",
+    "instruction": "Lis chaque devinette et entoure le nom de la figure."
+  },
+  "K-372": {
+    "title": "Tracer les figures planes sur les points",
+    "instruction": "Lis le nom de la figure et relie les points pour la tracer, en partant du trait épais quand il y en a un."
+  },
+  "K-373": {
+    "title": "Sécurité routière : colorie les feux",
+    "instruction": "Sur chaque feu, trouve la lampe entourée de rayons et colorie-la de la couleur qui brille."
+  },
+  "K-374": {
+    "title": "Traverser la rue en sécurité : les étapes",
+    "instruction": "Écris de 1 à 5 dans les cases pour montrer comment on traverse la rue."
+  },
+  "G1-384": {
+    "title": "Sécurité routière : les panneaux et leur sens",
+    "instruction": "Relie chaque panneau à ce qu’il veut dire."
+  },
+  "G2-360": {
+    "title": "Sécurité routière : classer les panneaux",
+    "instruction": "Écris la lettre de chaque panneau dans les cases de son groupe."
+  },
+  "G2-361": {
+    "title": "Quiz de sécurité routière : quel panneau convient ?",
+    "instruction": "Lis chaque phrase et entoure le seul panneau qui lui correspond."
+  },
+  "G1-385": {
+    "title": "Les générations de la famille : du plus âgé au plus jeune",
+    "instruction": "Sur chaque ligne, écris 1, 2 et 3 dans les cases pour ranger les mots de la génération la plus âgée à la plus jeune."
+  },
+  "K-375": {
+    "title": "Le vocabulaire de la famille : trace et écris",
+    "instruction": "Trouve sur l’arbre la personne qui a le même numéro, repasse son mot en pointillés et écris-le sur la ligne."
+  },
+  "G1-386": {
+    "title": "L’arbre généalogique : lis les indices",
+    "instruction": "Lis les indices et écris chaque prénom dans la bonne case de l’arbre."
+  },
+  "G2-362": {
+    "title": "Les liens de parenté : devinettes",
+    "instruction": "Lis chaque devinette et écris sur la ligne le bon mot de la boîte : un même mot peut aller avec plusieurs devinettes."
+  },
+  "G1-387": {
+    "title": "Arbre généalogique vierge à compléter",
+    "instruction": "Dessine dans les cadres les personnes qui comptent pour toi et écris leur prénom sur les lignes."
+  },
+  "K-376": {
+    "title": "De quoi une plante a-t-elle besoin pour pousser ?",
+    "instruction": "Regarde ce que reçoit chaque plante et entoure celle qui a les deux choses dont elle a besoin pour pousser."
+  },
+  "G1-388": {
+    "title": "Le cycle de vie d’une plante : de la graine à la plante",
+    "instruction": "Découpe les quatre images et colle chacune dans la case vide suivante, en suivant les flèches depuis la graine."
+  },
+  "G2-363": {
+    "title": "Les parties des plantes que l’on mange",
+    "instruction": "Regarde chaque aliment et entoure la partie de la plante que l’on mange."
+  },
+  "G2-364": {
+    "title": "Le rôle de chaque partie de la plante",
+    "instruction": "Lis ce que fait chaque partie, trouve-la sur la plante et écris le numéro de son étiquette dans la case."
+  },
+  "G3-392": {
+    "title": "Les parties de la fleur",
+    "instruction": "Écris le nom de chaque partie numérotée de la fleur sur sa ligne et barre le mot de la liste qui n’en fait pas partie."
+  },
+  "G1-389": {
+    "title": "Le cycle de vie de la grenouille : découper et coller",
+    "instruction": "Découpe les quatre carrés et colle chacun sur son nénuphar, en faisant le tour de la mare depuis les œufs jusqu’à la grenouille."
+  },
+  "G2-365": {
+    "title": "Légender le cycle de vie du papillon",
+    "instruction": "Écris chaque nom de la liste sur la ligne sous son image et barre le seul nom qui n’a pas sa place."
+  },
+  "G2-366": {
+    "title": "La métamorphose : quel animal va-t-il devenir ?",
+    "instruction": "Regarde chaque jeune animal et écris sa lettre dans une case sous l’animal adulte qu’il deviendra."
+  },
+  "G3-393": {
+    "title": "Comparer le cycle de vie du papillon et de la grenouille",
+    "instruction": "Lis chaque phrase et coche le papillon, la grenouille ou les deux quand la phrase est vraie pour cet animal."
+  },
+  "G1-390": {
+    "title": "Qu’est-ce qui vient après ? Papillon, grenouille et coccinelle",
+    "instruction": "Regarde la première image de chaque rangée et entoure celle qui vient juste après."
+  },
+  "G1-391": {
+    "title": "Les phases de la Lune dans l’ordre",
+    "instruction": "La Lune semble grossir puis rapetisser : sur chaque rangée, écris de 1 à 5 sous les lunes dans cet ordre."
+  },
+  "G2-367": {
+    "title": "Nommer les phases de la Lune",
+    "instruction": "Regarde chaque lune et écris son nom sur les lignes, en utilisant deux fois chaque mot de la liste."
+  },
+  "G2-368": {
+    "title": "Pourquoi y a-t-il le jour et la nuit ?",
+    "instruction": "Regarde où est le Soleil et, pour chaque épingle numérotée, entoure dans le tableau le mot jour ou le mot nuit."
+  },
+  "G3-394": {
+    "title": "Les planètes du système solaire dans l’ordre",
+    "instruction": "Écris le nom de chaque planète sur sa ligne en partant du Soleil et utilise une fois chaque nom de la liste."
+  },
+  "G3-395": {
+    "title": "Planètes géantes et planètes rocheuses",
+    "instruction": "Classe les noms : écris chacun dans la bonne case, planète géante, petite planète rocheuse ou pas une planète."
+  },
+  "K-377": {
+    "title": "Vu de côté, vu de dessus : relie les objets",
+    "instruction": "Chaque objet est dessiné vu de côté : relie-le au même objet vu de dessus."
+  },
+  "G2-369": {
+    "title": "Les points cardinaux : complète la rose des vents",
+    "instruction": "Chaque rose des vents montre une lettre : écris les trois autres lettres dans les cases vides."
+  },
+  "G2-370": {
+    "title": "Les continents : écris leur nom",
+    "instruction": "Écris le nom de chaque continent sur sa ligne, en t’aidant des noms de l’encadré."
+  },
+  "G3-396": {
+    "title": "Les continents et les océans sur la carte",
+    "instruction": "Trouve chaque continent et chaque océan sur la carte et écris son numéro dans la case à côté de son nom."
+  },
+  "G2-371": {
+    "title": "Se repérer sur une carte avec les points cardinaux",
+    "instruction": "Trouve la première image sur la carte, regarde dans la direction écrite et entoure celle des trois images qui s’y trouve."
+  },
+  "K-378": {
+    "title": "Sons complexes en maternelle : trier ou et on",
+    "instruction": "Dis le nom de chaque image et relie-la par un trait au son que tu entends."
+  },
+  "G1-392": {
+    "title": "Sons complexes : complète avec ou, on ou oi",
+    "instruction": "Dis le nom de chaque image et écris dans l’espace en pointillés le son qui manque, choisi en haut."
+  },
+  "G1-393": {
+    "title": "Lire des mots avec ou, on, oi et les relier aux images",
+    "instruction": "Lis chaque mot, dont le son est marqué, et relie-le par un trait à l’image qu’il nomme."
+  },
+  "G1-394": {
+    "title": "Où entends-tu le son ou, on ou oi dans le mot ?",
+    "instruction": "Dis le nom de chaque image et colorie une case pour dire où tu entends le son : au début, au milieu ou à la fin."
+  },
+  "G2-372": {
+    "title": "Le son ou dans des phrases : entoure et compte",
+    "instruction": "Lis les phrases, entoure chaque ou et écris dans la case combien tu en as trouvé dans chaque phrase."
+  },
+  "G1-395": {
+    "title": "Les synonymes en images : deux mots pour une image",
+    "instruction": "Regarde chaque image et entoure, en dessous, les deux mots qui veulent dire la même chose et qui décrivent l’image."
+  },
+  "G2-373": {
+    "title": "Relier les synonymes deux à deux",
+    "instruction": "Trace un trait pour relier chaque mot de gauche au mot de droite qui veut dire la même chose."
+  },
+  "G1-396": {
+    "title": "Les nuances de sens : du plus faible au plus fort",
+    "instruction": "Lis les trois mots de chaque ligne et écris 1, 2 et 3 dans les cases, du mot le plus faible au mot le plus fort."
+  },
+  "G2-374": {
+    "title": "Les synonymes du verbe dire : choisis le mot juste",
+    "instruction": "Lis chaque phrase et écris dans la case le mot de la bulle qui convient le mieux à la place de « dit »."
+  },
+  "G3-397": {
+    "title": "Champ lexical : les mots pour aller et pour regarder",
+    "instruction": "Lis les dix mots et écris chacun dans le champ du verbe dont il est le plus proche par le sens."
+  },
+  "G1-397": {
+    "title": "Le radical en images : entoure le mot construit",
+    "instruction": "Nomme chaque image, puis entoure, au-dessus, le seul mot construit à partir du nom de l’image."
+  },
+  "G2-375": {
+    "title": "Trouver le radical commun à trois mots",
+    "instruction": "Entoure la partie commune aux trois mots et écris ce mot de base dans la pierre vide."
+  },
+  "G2-376": {
+    "title": "Les préfixes re-, pré- et sur- : choisis selon le sens",
+    "instruction": "Lis ce que veut dire chaque nouveau mot, trouve son préfixe dans la clé et écris-le dans la pièce vide."
+  },
+  "G3-399": {
+    "title": "Le radical dans les phrases",
+    "instruction": "Écris chacun des quatre mots de la pierre dans la phrase qui lui convient."
   }
 }

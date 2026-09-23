@@ -20,7 +20,7 @@
  *    the GREYSCALE proof (every code colour -> one grey; verify() still clean, the same derived answers).
  * D. POISONS — each must FAIL for its OWN reason (the untouched face is the control): PR2 an F1 lamp
  *    pre-filled · PR3 an F2 look-left chevron pointing right · PR4 an F5 row {school, crossing, stop}
- *    targeting school (confusable) · PR8 F4 bins with 6 / 4 boxes · per-page tells AT1-AT7 · FR1 an F4
+ *    targeting school (confusable) · PR8 / PR8b an F4 group whose box count ≠ its signs (short / extra) · per-page tells AT1-AT7 · FR1 an F4
  *    filled red disc · FR2 STOP on a Vienna sort · MR1 an F3 meaning printing the sign's word · BX1 an F2 box
  *    written in · RY1 an F1 light with no rays · FLR1 an F3 sign below the G1 floor · SP1-SP5 slack moved
  *    between blocks at 814 · FL1 FL2 FILL both ways · AP1-AP5 an instruction naming apparatus the face
@@ -73,7 +73,42 @@ function fillFindings(name, m) {
   return f;
 }
 
-async function faceGate({ page, K, validateBank, fixture, quick, OUTDIR }) {
+/**
+ * rule 13 on the PAGE: read every F5 row out of the composed html (its target + the roles drawn on its tiles)
+ * and fail any row that offers a second sign which the gate's own meaning model (bothSatisfy, passed in from
+ * verify-b5-road-safety.js) says also satisfies the sentence — never the stamped confusable table.
+ */
+function quizDoubleFits(html, bothSatisfy) {
+  const f = [];
+  const rows = String(html).split('data-lcs-qrow="').slice(1);
+  if (!rows.length) return ['no sign-quiz row in the html (the check read nothing)'];
+  rows.forEach((chunk, i) => {
+    const target = chunk.slice(0, chunk.indexOf('"'));
+    const roles = [...chunk.matchAll(/data-lcs-role="([^"]*)"/g)].map((m) => m[1]);
+    if (!roles.includes(target)) f.push(`row ${i + 1}: the target ${target} is not drawn on a tile`);
+    for (const r of roles) if (r !== target && bothSatisfy(r, target)) f.push(`row ${i + 1}: ${target} and ${r} both satisfy the sentence (two right answers)`);
+  });
+  return f;
+}
+
+/**
+ * F4 EQUAL GROUP SIZES on the composed html: every card's class (the card stamp) counted per bin; every group the
+ * same size AND each bin shows exactly that many boxes. Refuses to report success on a page with no card or no bin.
+ */
+function kindsGroups(html) {
+  const f = [];
+  const cls = [...String(html).matchAll(/class="rs-lcard" data-lcs-class="([^"]*)"/g)].map((m) => m[1]);
+  const bins = String(html).split('data-lcs-bin="').slice(1).map((chunk) => ({ cls: chunk.slice(0, chunk.indexOf('"')), boxes: (chunk.match(/data-lcs-bin-box/g) || []).length }));
+  if (!cls.length || !bins.length) return { f: [`sign-kinds: read ${cls.length} cards and ${bins.length} bins (the check read nothing)`], sizes: [] };
+  const per = {}; for (const c of cls) per[c] = (per[c] || 0) + 1;
+  const sizes = bins.map((b) => per[b.cls] || 0);
+  if (new Set(sizes).size > 1) f.push(`unequal group sizes ${bins.map((b, i) => `${b.cls} ${sizes[i]}`).join(' / ')}`);
+  bins.forEach((b, i) => { if (b.boxes !== sizes[i]) f.push(`bin ${b.cls}: ${b.boxes} boxes ≠ its ${sizes[i]} signs`); });
+  for (const c of Object.keys(per)) if (!bins.some((b) => b.cls === c)) f.push(`class ${c} has no bin`);
+  return { f, sizes };
+}
+
+async function faceGate({ page, K, validateBank, fixture, quick, OUTDIR, bothSatisfy }) {
   const { ok } = K;
   const rows = [];
   const en = bankMod.ROAD_SAFETY.en;
@@ -98,9 +133,10 @@ async function faceGate({ page, K, validateBank, fixture, quick, OUTDIR }) {
 
   // B. sweep
   const SEEDS = quick ? 5 : 20;
+  const kindsSizes = {};
   for (const x of FACES) {
     const pos = [];            // per reading position: value -> count
-    let pages = 0, fails = 0;
+    let pages = 0, fails = 0, doubleFitPages = 0;
     const tally = (i, v) => { pos[i] = pos[i] || {}; pos[i][v] = (pos[i][v] || 0) + 1; };
     for (let v = 1; v <= SEEDS; v++) {
       const rng = () => makeRng(instanceSeed({ typeId: x.id, theme: null, difficulty: 2, seedEpoch: 1, variant: v }));
@@ -111,8 +147,27 @@ async function faceGate({ page, K, validateBank, fixture, quick, OUTDIR }) {
       if (x.mode === 'colour-lights') [...m.answers].forEach((c, i) => tally(i, c));
       if (x.mode === 'crossing-steps') m.printed.split(',').forEach((k, i) => tally(i, k));
       if (x.mode === 'sign-meaning') { const L = m.left.split(','), R = m.right.split(','); L.forEach((r, i) => tally(0, (R.indexOf(r) - i + L.length) % L.length)); }
-      if (x.mode === 'sign-kinds') m.order.split(',').forEach((r, i) => tally(i, en.signs[r].class));
-      if (x.mode === 'sign-quiz') [...m.answers].forEach((s) => tally(0, s));
+      if (x.mode === 'sign-kinds') {
+        m.order.split(',').forEach((r, i) => tally(i, en.signs[r].class));
+        for (const [locK, blk] of Object.entries(require('../lib/b5-common.js').bankModule('road-safety')).concat([['de-fixture', de]])) {
+          let oK;
+          try { oK = TYPES[x.id]._buildWith({ block: blk, config: TYPES[x.id].difficulty[2] }, { locale: locK.slice(0, 2) }, { rng: rng() }); } catch (e) { ok(false, `${x.id} seed ${v} ${locK}: threw ${e.message}`); continue; }
+          const g = kindsGroups(oK.bodyHtml);
+          for (const e of g.f) ok(false, `${x.id} seed ${v} ${locK}: ${e}`);
+          kindsSizes[locK] = kindsSizes[locK] || new Set(); kindsSizes[locK].add(g.sizes.join('+'));
+        }
+      }
+      if (x.mode === 'sign-quiz') {
+        [...m.answers].forEach((s) => tally(0, s));
+        for (const v13 of quizDoubleFits(out.bodyHtml, bothSatisfy)) ok(false, `${x.id} seed ${v}: ${v13}`);
+        for (const [loc13, blk] of Object.entries(require('../lib/b5-common.js').bankModule('road-safety')).concat([['de-fixture', de]])) {
+          if (loc13 === 'en') continue;
+          let o13;
+          try { o13 = TYPES[x.id]._buildWith({ block: blk, config: TYPES[x.id].difficulty[2] }, { locale: loc13.slice(0, 2) }, { rng: rng() }); } catch (e) { ok(false, `${x.id} seed ${v} ${loc13}: threw ${e.message}`); continue; }
+          for (const v13 of quizDoubleFits(o13.bodyHtml, bothSatisfy)) ok(false, `${x.id} seed ${v} ${loc13}: ${v13}`);
+          doubleFitPages++;
+        }
+      }
       try { TYPES[x.id]._buildWith({ block: de, config: TYPES[x.id].difficulty[2] }, { locale: 'de' }, { rng: rng() }); } catch (e) { ok(false, `${x.id} seed ${v}: the Vienna fixture (de) throws ${e.message}`); }
     }
     const cap = { 'colour-lights': 0.6, 'crossing-steps': 0.6, 'sign-meaning': 0.4, 'sign-kinds': 0.75, 'sign-quiz': 0.6 }[x.mode];
@@ -120,7 +175,13 @@ async function faceGate({ page, K, validateBank, fixture, quick, OUTDIR }) {
     const worst = Math.max(...shares);
     // a pooled share is a statistic: it is asserted over the full 20-page sweep, never over the 5-page --quick sample
     if (SEEDS >= 20) ok(worst <= cap, `${x.id}: a pooled position share ${worst.toFixed(2)} > ${cap} over ${pages} pages (${JSON.stringify(pos)})`);
-    rows.push(`face sweep ${x.id} ${x.mode}: ${pages}/${SEEDS} pages composed under the per-page rules${fails ? ` (${fails} THREW)` : ''}; the Vienna fixture composes on every seed; worst pooled ${x.mode === 'sign-meaning' ? 'line-direction' : x.mode === 'sign-quiz' ? 'answer-slot' : 'per-position'} share ${worst.toFixed(2)} (<= ${cap})`);
+    if (x.mode === 'sign-quiz') ok(doubleFitPages > 0, `${x.id}: the rule-13 double-fit sweep read no non-en page`);
+    if (x.mode === 'sign-kinds') {
+      const locs = Object.keys(require('../lib/b5-common.js').bankModule('road-safety'));
+      ok(locs.length === 11, `${x.id}: the equal-groups sweep read ${locs.length} locale blocks (11)`);
+      rows.push(`face sweep ${x.id} equal groups x ${SEEDS} seeds: ${Object.entries(kindsSizes).map(([l, s]) => `${l} ${[...s].join('|')}`).join(' · ')}`);
+    }
+    rows.push(`face sweep ${x.id} ${x.mode}: ${pages}/${SEEDS} pages composed under the per-page rules${fails ? ` (${fails} THREW)` : ''}${x.mode === 'sign-quiz' ? `; rule 13 (no row offers two signs that both satisfy its sentence) held on ${pages} en + ${doubleFitPages} other-locale pages` : ''}; the Vienna fixture composes on every seed; worst pooled ${x.mode === 'sign-meaning' ? 'line-direction' : x.mode === 'sign-quiz' ? 'answer-slot' : 'per-position'} share ${worst.toFixed(2)} (<= ${cap})`);
   }
 
   // C. renders
@@ -199,8 +260,42 @@ async function faceGate({ page, K, validateBank, fixture, quick, OUTDIR }) {
     const st = { rows: plan.rows.map((r, i) => { const tiles = r.tiles.filter((t) => t !== r.target && t !== 'crossing'); while (tiles.length < 2) tiles.push('stop' === r.target ? 'no-entry' : 'stop'); tiles.splice(i % 3, 0, r.target); return { ...r, tiles }; }) };
     J('G2-361', 'AT7 F5 answer slots 012012 (a staircase)', await gateOf(rewire('G2-361', { plan: st }), 'AT7'), /the answer slots run in a staircase \(012012\)/);
   }
-  // PR8 — F4 bins with 6 / 4 boxes
-  J('G2-360', 'PR8 F4 bins with 6 / 4 boxes', await gateOf(rewire('G2-360', { fn: (h) => { let n = 0; return h.replace(/<span class="ws-blankbox" data-lcs-bin-box[^>]*><\/span>/g, (m) => (++n > 10 ? '' : m)); } }), 'PR8'), /bins hold 6 \/ 4 boxes/);
+  // DF1 / DF2 — rule 13 on a composed Vienna (de fixture) page: a row whose distractor ALSO satisfies the sentence
+  {
+    const sitD = (r) => de.situations[r][0];
+    const good = { rows: [
+      { target: 'no-bikes', text: sitD('no-bikes'), tiles: ['no-bikes', 'stop', 'signal-ahead'] },
+      { target: 'no-pedestrians', text: sitD('no-pedestrians'), tiles: ['stop', 'no-pedestrians', 'children'] },
+      { target: 'stop', text: sitD('stop'), tiles: ['no-entry', 'bike-warning', 'stop'] },
+      { target: 'children', text: sitD('children'), tiles: ['no-bikes', 'children', 'no-entry'] },
+      { target: 'signal-ahead', text: sitD('signal-ahead'), tiles: ['signal-ahead', 'no-vehicles', 'footpath'] },
+      { target: 'bike-path', text: sitD('bike-path'), tiles: ['stop', 'signal-ahead', 'bike-path'] },
+    ] };
+    const build = (plan) => { try { return quizDoubleFits(TYPES['G2-361']._buildWith({ block: de, config: TYPES['G2-361'].difficulty[2], plan }, { locale: 'de' }, { rng: makeRng('df') }).bodyHtml, bothSatisfy); } catch (e) { return [`threw: ${e.message}`]; } };
+    const ctlDF = K.control('DF control: a Vienna F5 page with no double fit', build(good));
+    ok(ctlDF, 'DF control: the clean Vienna F5 page raised a rule-13 finding');
+    const swap = (i, tiles) => ({ rows: good.rows.map((r, k) => (k === i ? { ...r, tiles } : r)) });
+    K.judge('DF1 an F5 row no-bikes offering no-vehicles', build(swap(0, ['no-bikes', 'no-vehicles', 'signal-ahead'])), /row 1: no-bikes and no-vehicles both satisfy the sentence/, ctlDF);
+    K.judge('DF2 an F5 row no-pedestrians offering bike-path', build(swap(1, ['stop', 'no-pedestrians', 'bike-path'])), /row 2: no-pedestrians and bike-path both satisfy the sentence/, ctlDF);
+    // the other direction: an opposite pair (no-bikes / bike-path) is NOT a double fit
+    const opp = build(swap(0, ['no-bikes', 'bike-path', 'signal-ahead']));
+    ok(!opp.some((x) => /both satisfy/.test(x)), `DF3 must-pass: the opposite pair no-bikes / bike-path read as a double fit ${JSON.stringify(opp)}`);
+  }
+  // PR8 / PR8b — a group's box count ≠ its signs, both ways: one box missing (a sign has no box) and one box too many
+  // (the child thinks a sign is missing); the untouched G2-360 page is the control
+  const BOX = /<span class="ws-blankbox" data-lcs-bin-box[^>]*><\/span>/;
+  J('G2-360', 'PR8 F4 a group one box short', await gateOf(rewire('G2-360', { fn: (h) => h.replace(BOX, '') }), 'PR8'), /bin [\w-]+: \d boxes ≠ its \d signs/);
+  J('G2-360', 'PR8b F4 a group one box too many', await gateOf(rewire('G2-360', { fn: (h) => h.replace(BOX, (m) => m + m) }), 'PR8b'), /bin [\w-]+: \d boxes ≠ its \d signs/);
+  // EQ1 / EQ2 — UNEQUAL group sizes with boxes = signs (the count becomes a clue): must FAIL; EQ0 an equal page passes
+  J('G2-360', 'EQ1 F4 en groups 2 / 4 (boxes = signs)', await gateOf(rewire('G2-360', { plan: { order: ['crossing', 'stop', 'signal-ahead', 'yield', 'bike-warning', 'school'] } }), 'EQ1'), /unequal group sizes regulatory 2 \/ warning 4/);
+  {
+    const eqHtml = (plan, block = en) => TYPES['G2-360']._buildWith({ block, config: TYPES['G2-360'].difficulty[2], plan }, { locale: 'en' }, { rng: makeRng('eq') }).bodyHtml;
+    const c0 = kindsGroups(eqHtml(null)).f;
+    const ctlEq = K.control('EQ0 kindsGroups control: a composed en page', c0);
+    K.judge('EQ3 kindsGroups: groups 2 / 4', kindsGroups(eqHtml({ order: ['crossing', 'stop', 'signal-ahead', 'yield', 'bike-warning', 'school'] })).f, /unequal group sizes/, ctlEq);
+    K.judge('EQ4 kindsGroups: a box short', kindsGroups(eqHtml(null).replace(BOX, '')).f, /boxes ≠ its \d signs/, ctlEq);
+    K.judge('EQ5 kindsGroups: an empty page', kindsGroups('<div></div>').f, /the check read nothing/, ctlEq);
+  }
   // AT1 — F1 row 2 repeats row 1
   J('K-373', 'AT1 F1 row 2 repeats row 1', await gateOf(rewire('K-373', { plan: { actors: Array(6).fill('car'), on: [0, 1, 2, 0, 1, 2] } }), 'AT1'), /the second row repeats the first/);
   // AT2 AT3 — F2 printed in routine order / the two look-left cards side by side
@@ -221,11 +316,12 @@ async function faceGate({ page, K, validateBank, fixture, quick, OUTDIR }) {
   J('G2-360', 'AT6 F4 three neighbouring rule signs', await gateOf(rewire('G2-360', { plan: { order: ['stop', 'yield', 'no-bikes', 'crossing', 'no-pedestrians', 'school', 'signal-ahead', 'bike-warning'] } }), 'AT6'), /three neighbouring cards of one class/);
   // FR1 FR2 — the Vienna fixture sort with a filled red disc / with STOP
   const deStr = { strings: de.strings['sign-kinds'], locale: 'de' };
-  const deOrder = ['children', 'no-vehicles', 'footpath', 'no-bikes', 'pedestrian-warning', 'bike-path', 'no-pedestrians', 'signal-ahead'];
+  const deOrder = ['children', 'no-vehicles', 'footpath', 'no-bikes', 'pedestrian-warning', 'bike-path'];            // 2 / 2 / 2
   const dePlain = await gateOf(rewire('G2-360', { block: de, plan: { order: deOrder } }), 'FR0', deStr);
   const deCtl = K.control('FR0 the Vienna fixture sort (control)', dePlain);
-  K.judge('FR1 F4 a filled red disc (no-entry) on the sort', await gateOf(rewire('G2-360', { block: de, plan: { order: [...deOrder.slice(0, 7), 'no-entry'] } }), 'FR1', deStr), /a filled red disc/, deCtl);
-  K.judge('FR2 F4 STOP on a Vienna sort', await gateOf(rewire('G2-360', { block: de, plan: { order: [...deOrder.slice(0, 7), 'stop'] } }), 'FR2', deStr), /a priority sign \(STOP \/ yield\) on a Vienna sort/, deCtl);
+  K.judge('FR1 F4 a filled red disc (no-entry) on the sort', await gateOf(rewire('G2-360', { block: de, plan: { order: [...deOrder, 'no-entry'] } }), 'FR1', deStr), /a filled red disc/, deCtl);
+  K.judge('FR2 F4 STOP on a Vienna sort', await gateOf(rewire('G2-360', { block: de, plan: { order: [...deOrder, 'stop'] } }), 'FR2', deStr), /a priority sign \(STOP \/ yield\) on a Vienna sort/, deCtl);
+  K.judge('EQ2 F4 Vienna groups 3 / 3 / 2 (boxes = signs)', await gateOf(rewire('G2-360', { block: de, plan: { order: ['children', 'no-vehicles', 'footpath', 'no-bikes', 'pedestrian-warning', 'bike-path', 'no-pedestrians', 'signal-ahead'] } }), 'EQ2', deStr), /unequal group sizes warning 3 \/ prohibition 3 \/ mandatory 2/, deCtl);
   // MR1 — an F3 meaning printing its sign's word
   J('G1-384', 'MR1 F3 a meaning printing the sign\'s word', await gateOf(rewire('G1-384', { fn: (h) => h.replace(/(data-lcs-meaning="stop"[\s\S]*?<p class="rs-mtext"[^>]*>)[^<]*</, '$1Every car must STOP here.<') }), 'MR1'), /prints the stop sign's own word "STOP"/);
   // FLR1 — an F3 sign below the G1 floor

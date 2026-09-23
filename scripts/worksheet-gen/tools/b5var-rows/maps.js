@@ -26,7 +26,7 @@ const ROWS = [
     "Bird's-Eye View: From the Side and From Above", 'Each thing is drawn from the side. Draw a line to the same thing seen from above.', { gradeBand: 'K' }],
   ['g2', 'G2-369', 'maps-north-east-south-west', BASE, 2,
     { layout: 'compass-rose', roses: 6, rotations: [0, 0, 0, 90, 180, 270], givenUpright: ['e', 's', 'w'], cols: 2, px: 198, cardW: 312, cardH: 214, gapMin: 8 },
-    'North, East, South, West: Finish the Rose', 'Each compass rose shows one letter. Write the other three letters in the empty boxes.', { gradeBand: 'G2' }],
+    'North, East, South, West: Label the Four Directions', 'Each compass rose shows one letter, so write the other three letters in the empty boxes.', { gradeBand: 'G2' }],
   ['g2', 'G2-370', 'maps-label-the-continents', BASE, 2,
     { layout: 'continents', bank: true, answer: 'write', perRow: 2, laneW: 257, laneH: 44, glyphH: 24, gapMin: 8 },
     'Label the Continents', 'Write the name of each numbered continent on its line. Use the names in the box.', { gradeBand: 'G2' }],
@@ -35,7 +35,7 @@ const ROWS = [
     'Continents and Oceans', 'Find each continent and ocean on the map. Write its number in the box next to its name.', { gradeBand: 'G3' }],
   ['g2', 'G2-371', 'maps-directions-on-a-map', BASE, 2,
     { layout: 'directions-on-map', places: 7, rows: 6, chips: 3, distinctStarts: 6, inDeg: 30, outDeg: 90, symPx: 40, islandW: 533, minApartPx: 72, rosePx: 96, gapMin: 6 },
-    'Cardinal Directions on a Map', 'Find the first picture on the map. Look the way the word says. Circle the one of the three pictures that lies that way.', { gradeBand: 'G2' }],
+    'Cardinal Directions on a Map', 'Start at the first picture on the map, look the way the word says, and circle the one of the three pictures that lies that way.', { gradeBand: 'G2' }],
 ];
 const HANDWRITTEN = [];
 module.exports = { ROWS, HANDWRITTEN };

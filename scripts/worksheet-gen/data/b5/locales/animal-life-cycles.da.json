@@ -1,0 +1,122 @@
+{
+  "stageWords": {
+    "butterfly": {
+      "egg": "æg",
+      "larva": "larve",
+      "pupa": "puppe",
+      "adult": "sommerfugl"
+    }
+  },
+  "decoy": {
+    "frog.tadpole": "haletudse"
+  },
+  "landingWords": {
+    "frog": {
+      "spawn": "frøæg",
+      "tadpole": "haletudse",
+      "legged": "haletudse med ben",
+      "froglet": "lille frø",
+      "adult": "frø"
+    },
+    "ladybird": {
+      "egg": "æg",
+      "larva": "larve",
+      "pupa": "puppe",
+      "adult": "mariehøne"
+    }
+  },
+  "statements": {
+    "egg": "Det kommer ud af et æg.",
+    "change": "Ungen ser helt anderledes ud end det voksne dyr.",
+    "pupa": "En tid er det en puppe.",
+    "wings": "Det voksne dyr har vinger.",
+    "sixlegs": "Det voksne dyr har seks ben.",
+    "nectar": "Det voksne dyr drikker nektar fra blomster.",
+    "tail": "Ungen svømmer med en hale.",
+    "water": "Ungen lever i vand.",
+    "nolegs": "Ungen har først slet ingen ben.",
+    "fourlegs": "Det voksne dyr har fire ben.",
+    "insects": "Det voksne dyr fanger insekter og spiser dem."
+  },
+  "drop": [],
+  "familyName": "Dyrs udvikling fra æg til voksen",
+  "spawnForm": "clump",
+  "forbidden": [
+    "kokon",
+    "kokoner",
+    "kokonen"
+  ],
+  "genreBare": [
+    "livscyklus",
+    "livscyklusser"
+  ],
+  "pictureWord": "billede",
+  "instructionBans": {
+    "G1-377": [
+      "klip",
+      "lim",
+      "sæt kryds",
+      "sæt ring",
+      "bogstav",
+      "bogstavet"
+    ],
+    "G1-389": [
+      "skriv",
+      "sæt kryds",
+      "sæt ring"
+    ],
+    "G2-365": [
+      "klip",
+      "lim",
+      "sæt kryds",
+      "sæt ring"
+    ],
+    "G2-366": [
+      "klip",
+      "lim",
+      "sæt kryds",
+      "sæt ring",
+      "tal",
+      "tallet"
+    ],
+    "G3-393": [
+      "sæt ring",
+      "klip",
+      "lim",
+      "skriv"
+    ],
+    "G1-390": [
+      "skriv",
+      "sæt kryds",
+      "klip",
+      "lim"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "G1-377": {
+      "title": "Sommerfuglens livscyklus",
+      "instruction": "Ægget er 1: skriv 2, 3 og 4 under billederne, i den rækkefølge ægget udvikler sig, og i det sidste felt tallet på billedet efter sommerfuglen."
+    },
+    "G1-389": {
+      "title": "Frøens livscyklus: klip ud og lim på",
+      "instruction": "Klip de fire firkanter ud, og lim hver af dem på sit åkandeblad, rundt om dammen fra frøæggene til frøen."
+    },
+    "G2-365": {
+      "title": "Sommerfuglens livscyklus: skriv stadierne",
+      "instruction": "Skriv hvert navn fra ordboksen på linjen under dets billede, og streg det ene navn ud, der ikke hører til."
+    },
+    "G2-366": {
+      "title": "Metamorfose: hvilket dyr bliver ungen til?",
+      "instruction": "Se på hver dyreunge, og skriv dens bogstav i et felt under det voksne dyr, den bliver til."
+    },
+    "G3-393": {
+      "title": "Sommerfuglens og frøens livscyklus sammenlignet",
+      "instruction": "Læs hver sætning, og sæt kryds under sommerfuglen, frøen eller begge, når sætningen passer på dyret."
+    },
+    "G1-390": {
+      "title": "Hvad kommer bagefter? Sommerfugl, frø og mariehøne",
+      "instruction": "Se på det første billede i hver række, og sæt ring om det billede, der kommer lige efter."
+    }
+  }
+}

@@ -378,5 +378,45 @@
   "rounding": {
     "full": "Lapsi pyöristää luvut lähimpään kymmeneen ja sataan, lajittelee ne ylös- ja alaspäin pyöristyviin ja arvioi summan pyöristettyjen lukujen avulla.",
     "short": "Pyöristäminen kymmeniin ja satoihin"
+  },
+  "2d-shapes": {
+    "full": "Tasokuviot: ympyrän, neliön, kolmion ja suorakulmion tunnistaminen ja nimeäminen myös käännettyinä, kuviot ympäristössä, nimien kirjoittaminen ja piirtäminen.",
+    "short": "Ympyrä, neliö, kolmio ja suorakulmio"
+  },
+  "road-safety": {
+    "full": "Liikenneturvallisuus: liikennevalojen lukeminen, kadun turvallinen ylittäminen, liikennemerkit ja niiden merkitys sekä varoitus-, kielto- ja määräysmerkit.",
+    "short": "Liikennevalot ja liikennemerkit"
+  },
+  "family": {
+    "full": "Perhe ja sukulaiset: sukulaissanat kuten isoäiti, täti, eno ja setä, sukupolvien järjestys, perhepuu vihjeiden avulla ja sukulaisarvoitukset.",
+    "short": "Sukulaissanat, perhepuu ja arvoitukset"
+  },
+  "plants": {
+    "full": "Kasvin osat: juuri, varsi, lehti, kukka, hedelmä ja siemen, mitä kasvi tarvitsee kasvaakseen, siemenestä kasviksi ja kukan osat.",
+    "short": "Kasvin osat ja mitä ne tekevät"
+  },
+  "animal-life-cycles": {
+    "full": "Perhosen ja sammakon kehitysvaiheet: munasta perhoseksi ja sammakonkudusta sammakoksi, vaiheiden järjestäminen ja nimeäminen sekä kahden eläimen vertailu.",
+    "short": "Perhosen ja sammakon kehitysvaiheet"
+  },
+  "earth-and-space": {
+    "full": "Aurinkokunta: Aurinko, Maa ja Kuu, kuun vaiheet järjestyksessä ja nimettyinä, miksi on päivä ja yö sekä planeetat järjestyksessä ja koon mukaan.",
+    "short": "Aurinko, kuun vaiheet ja planeetat"
+  },
+  "maps": {
+    "full": "Kartat ja ilmansuunnat: karttamerkkien lukeminen, asiat ylhäältä katsottuina, ilmansuunnat pohjoinen, itä, etelä ja länsi sekä maanosat ja valtameret.",
+    "short": "Karttamerkit, ilmansuunnat ja maanosat"
+  },
+  "digraphs": {
+    "full": "Pitkä vokaali: pitkien vokaalien aa, uu ja ää kuuleminen ja kirjoittaminen, kuvien lajittelu, sanojen lukeminen ja pitkien vokaalien etsiminen lauseista.",
+    "short": "Pitkät vokaalit aa, uu ja ää"
+  },
+  "synonyms": {
+    "full": "Synonyymit: samaa tarkoittavat sanat kuvien ja sanaparien avulla, sanojen voimakkuus sekä sanoi-, mennä- ja katsoa-sanojen synonyymit.",
+    "short": "Samaa tarkoittavat sanat"
+  },
+  "word-parts": {
+    "full": "Kantasana ja johdokset: sanojen lajittelu kantasanan mukaan, kantasanan etsiminen, johdokset lauseissa ja tekijää tarkoittavat sanat kuten laulaja ja leipuri.",
+    "short": "Kantasana, vartalo ja johdokset"
   }
 }

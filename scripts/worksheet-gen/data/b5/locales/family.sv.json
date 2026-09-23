@@ -1,0 +1,272 @@
+{
+  "kin": {
+    "M": "mamma",
+    "F": "pappa",
+    "Z": "storasyster",
+    "B": "storebror",
+    "Zy": "lillasyster",
+    "By": "lillebror",
+    "MM": "mormor",
+    "MF": "morfar",
+    "FM": "farmor",
+    "FF": "farfar",
+    "MZ": "moster",
+    "FZ": "faster",
+    "MB": "morbror",
+    "FB": "farbror",
+    "MZD": "kusin",
+    "MZS": "kusin",
+    "MBD": "kusin",
+    "MBS": "kusin",
+    "FZD": "kusin",
+    "FZS": "kusin",
+    "FBD": "kusin",
+    "FBS": "kusin"
+  },
+  "words": {
+    "mamma": {
+      "text": "mamma",
+      "register": "K"
+    },
+    "pappa": {
+      "text": "pappa",
+      "register": "K"
+    },
+    "storasyster": {
+      "text": "storasyster",
+      "register": "K"
+    },
+    "storebror": {
+      "text": "storebror",
+      "register": "K"
+    },
+    "lillasyster": {
+      "text": "lillasyster",
+      "register": "K"
+    },
+    "lillebror": {
+      "text": "lillebror",
+      "register": "K"
+    },
+    "mormor": {
+      "text": "mormor",
+      "register": "K"
+    },
+    "morfar": {
+      "text": "morfar",
+      "register": "K"
+    },
+    "farmor": {
+      "text": "farmor",
+      "register": "K"
+    },
+    "farfar": {
+      "text": "farfar",
+      "register": "K"
+    },
+    "moster": {
+      "text": "moster",
+      "register": "K"
+    },
+    "faster": {
+      "text": "faster",
+      "register": "K"
+    },
+    "morbror": {
+      "text": "morbror",
+      "register": "K"
+    },
+    "farbror": {
+      "text": "farbror",
+      "register": "K"
+    },
+    "kusin": {
+      "text": "kusin",
+      "register": "K"
+    }
+  },
+  "names": [
+    {
+      "name": "Ida",
+      "sex": "f",
+      "gen": "Idas"
+    },
+    {
+      "name": "Leo",
+      "sex": "m",
+      "gen": "Leos"
+    },
+    {
+      "name": "Alva",
+      "sex": "f",
+      "gen": "Alvas"
+    },
+    {
+      "name": "Hugo",
+      "sex": "m",
+      "gen": "Hugos"
+    },
+    {
+      "name": "Maja",
+      "sex": "f",
+      "gen": "Majas"
+    },
+    {
+      "name": "Olle",
+      "sex": "m",
+      "gen": "Olles"
+    },
+    {
+      "name": "Vera",
+      "sex": "f",
+      "gen": "Veras"
+    },
+    {
+      "name": "Otto",
+      "sex": "m",
+      "gen": "Ottos"
+    },
+    {
+      "name": "Elsa",
+      "sex": "f",
+      "gen": "Elsas"
+    },
+    {
+      "name": "Ivar",
+      "sex": "m",
+      "gen": "Ivars"
+    },
+    {
+      "name": "Saga",
+      "sex": "f",
+      "gen": "Sagas"
+    },
+    {
+      "name": "Axel",
+      "sex": "m",
+      "gen": "Axels"
+    }
+  ],
+  "clueFrames": {
+    "M": "{name} är {egoGen} mamma.",
+    "F": "{name} är {egoGen} pappa.",
+    "Z": "{name} är {egoGen} storasyster.",
+    "B": "{name} är {egoGen} storebror.",
+    "Zy": "{name} är {egoGen} lillasyster.",
+    "By": "{name} är {egoGen} lillebror.",
+    "MM": "{name} är {egoGen} mormor.",
+    "MF": "{name} är {egoGen} morfar.",
+    "FM": "{name} är {egoGen} farmor.",
+    "FF": "{name} är {egoGen} farfar.",
+    "MZ": "{name} är {egoGen} moster.",
+    "FZ": "{name} är {egoGen} faster.",
+    "MB": "{name} är {egoGen} morbror.",
+    "FB": "{name} är {egoGen} farbror.",
+    "MZD": "{name} är {egoGen} kusin.",
+    "MZS": "{name} är {egoGen} kusin.",
+    "MBD": "{name} är {egoGen} kusin.",
+    "MBS": "{name} är {egoGen} kusin.",
+    "FZD": "{name} är {egoGen} kusin.",
+    "FZS": "{name} är {egoGen} kusin.",
+    "FBD": "{name} är {egoGen} kusin.",
+    "FBS": "{name} är {egoGen} kusin."
+  },
+  "riddleFrames": {
+    "MM": "{egoGen} mammas mamma är {egoGen} ___.",
+    "FM": "{egoGen} pappas mamma är {egoGen} ___.",
+    "MF": "{egoGen} mammas pappa är {egoGen} ___.",
+    "FF": "{egoGen} pappas pappa är {egoGen} ___.",
+    "MZ": "{egoGen} mammas syster är {egoGen} ___.",
+    "FZ": "{egoGen} pappas syster är {egoGen} ___.",
+    "MB": "{egoGen} mammas bror är {egoGen} ___.",
+    "FB": "{egoGen} pappas bror är {egoGen} ___."
+  },
+  "distractors": [
+    "mamma",
+    "pappa"
+  ],
+  "repeatsNote": false,
+  "repeatsNoteText": "ett ord kan passa till flera gåtor",
+  "generationOK": [
+    "mamma",
+    "pappa",
+    "storasyster",
+    "storebror",
+    "lillasyster",
+    "lillebror",
+    "mormor",
+    "morfar",
+    "farmor",
+    "farfar",
+    "moster",
+    "faster",
+    "morbror",
+    "farbror",
+    "kusin"
+  ],
+  "agreeing": [
+    "en",
+    "ett",
+    "hans",
+    "hennes",
+    "sin",
+    "sitt",
+    "den",
+    "det"
+  ],
+  "firstPerson": [
+    "jag",
+    "mig",
+    "min",
+    "mitt",
+    "mina",
+    "vi",
+    "oss",
+    "vår",
+    "vårt",
+    "våra"
+  ],
+  "meWord": "jag",
+  "forbiddenInTemplate": [
+    "mamma",
+    "pappa",
+    "mor",
+    "far",
+    "föräldrar",
+    "din familj"
+  ],
+  "instructionBans": [
+    "kryssa",
+    "klipp",
+    "färglägg",
+    "gratis",
+    "facit"
+  ],
+  "familyHead": "Familj och släkt",
+  "strings": {
+    "base": {
+      "title": "Familj och släkt: vem är vem?",
+      "instruction": "Hitta varje person i släktträdet och skriv personens siffra i rutan bredvid rätt familjeord."
+    },
+    "generations": {
+      "title": "Generationer i släkten: från äldst till yngst",
+      "instruction": "Skriv 1, 2 och 3 i rutorna i varje rad så att orden står från den äldsta generationen till den yngsta."
+    },
+    "trace-words": {
+      "title": "Familjeord: spåra och skriv",
+      "instruction": "Hitta personen med samma siffra i trädet, spåra familjeordet och skriv det en gång till på raden."
+    },
+    "tree-clues": {
+      "title": "Släktträd: läs ledtrådarna",
+      "instruction": "Läs ledtrådarna och skriv varje namn i rätt namnruta i släktträdet."
+    },
+    "relation-riddles": {
+      "title": "Släktgåtor: mormor, farfar, moster eller farbror?",
+      "instruction": "Läs varje gåta och skriv rätt familjeord från rutan på raden."
+    },
+    "tree-template": {
+      "title": "Släktträd: mall att fylla i själv",
+      "instruction": "Rita de människor som är viktiga för dig i ramarna och skriv deras namn på raderna."
+    }
+  }
+}

@@ -218,7 +218,7 @@ function rsLetterCard({ letter, signHtml, w, cls }) {
     `<div style="flex:1 1 auto;display:flex;flex-direction:column;align-items:center;min-height:0;width:100%">${signHtml}</div></div>`;
 }
 
-/** F4 — a meaning-class bin: its word label and `boxes` EMPTY letter boxes (every bin the same count). */
+/** F4 — a meaning-class bin: its word label and `boxes` EMPTY letter boxes (one box per sign; every group the same size). */
 function rsClassBin({ label, cls, boxes, cols, boxW, boxH, w }) {
   const cells = Array.from({ length: boxes }, () => blankNumeralBox({ w: boxW, h: boxH, answer: '', attrs: 'data-lcs-bin-box' })).join('');
   return `<div class="rs-bin" data-lcs-bin="${esc(cls)}" style="box-sizing:border-box;width:${w}px;padding:10px 12px 12px;border:2.5px solid ${T.teal};border-radius:16px;background:${T.tealSoft};display:flex;flex-direction:column;align-items:center;gap:10px">` +

@@ -1,0 +1,112 @@
+{
+  "partWords": {
+    "root": "rot",
+    "stem": "stjälk",
+    "leaf": "blad",
+    "flower": "blomma",
+    "fruit": "frukt",
+    "seed": "frö"
+  },
+  "flowerWords": {
+    "petal": "kronblad",
+    "sepal": "foderblad",
+    "stamen": "ståndare",
+    "pistil": "pistill",
+    "stalk": "stjälk",
+    "ovary": "fruktämne"
+  },
+  "jobs": {
+    "root": "suger upp vatten ur jorden",
+    "stem": "håller upp växten så att den står rakt",
+    "leaf": "gör näring åt växten med hjälp av solljus",
+    "flower": "lockar till sig bin med sina färger",
+    "seed": "kan gro och bli en ny växt"
+  },
+  "partStems": [
+    "rot",
+    "rötter",
+    "rötterna",
+    "stjälk",
+    "stjälkar",
+    "stjälken",
+    "blad",
+    "bladen",
+    "blomma",
+    "blomman",
+    "blommor",
+    "blommorna",
+    "blom",
+    "frukt",
+    "frukter",
+    "frukten",
+    "frö",
+    "frön",
+    "fröet",
+    "kronblad"
+  ],
+  "forbidden": [
+    "roten",
+    "stjälken",
+    "bladet",
+    "blomman",
+    "frukten",
+    "fröet",
+    "stam",
+    "knopp",
+    "grönsak",
+    "grönsaker"
+  ],
+  "refuseItems": [],
+  "refuse": [],
+  "instructionBans": {
+    "base": [
+      "ringa",
+      "färglägg",
+      "klipp"
+    ],
+    "flower": [
+      "ringa",
+      "färglägg",
+      "klipp"
+    ],
+    "needs": [
+      "ord",
+      "orden",
+      "skriv"
+    ],
+    "eat": [
+      "grönsak",
+      "grönsaker"
+    ],
+    "jobs": [
+      "ordrutan",
+      "ordruta"
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Växtens delar",
+      "instruction": "Följ varje numrerad lapp till en del av växten och skriv delens namn från ordrutan på raden med samma siffra."
+    },
+    "needs": {
+      "title": "Vad behöver en växt för att växa?",
+      "instruction": "Titta på vad varje växt får och ringa in den växt som får båda sakerna den behöver för att växa."
+    },
+    "cycle": {
+      "title": "Från frö till växt",
+      "instruction": "Klipp ut de fyra bilderna och klistra in dem i de tomma rutorna i pilarnas riktning, börja vid fröet."
+    },
+    "eat": {
+      "title": "Vilka delar av växten äter vi?",
+      "instruction": "Titta på varje matvara och ringa in den del av växten som vi äter."
+    },
+    "jobs": {
+      "title": "Växtens delar och vad de gör",
+      "instruction": "Läs vad varje del gör, hitta delen på växten och skriv numret på dess lapp i rutan."
+    },
+    "flower": {
+      "title": "Blommans delar",
+      "instruction": "Skriv namnet på varje numrerad del av blomman på dess rad och stryk det ord i ordrutan som inte är en del av en blomma."
+    }
+  }
+}

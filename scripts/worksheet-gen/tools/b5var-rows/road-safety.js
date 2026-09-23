@@ -24,7 +24,7 @@ const ROWS = [
     { mode: 'sign-meaning', pairs: 6, signS: 74, leftW: 130, rightW: 340, minH: 96, px: 16, gap: 12, padX: 30 },
     'Road Safety: Traffic Signs and Their Meanings', 'Draw a line from each road sign to what it means.', { gradeBand: 'G1' }],
   ['g2', 'G2-360', 'road-safety-kinds-of-signs', BASE, 2,
-    { mode: 'sign-kinds', signs: 8, boxes2: 6, boxes3: 4, boxW: 56, boxH: 52, gap: 14, binGap: 24, cardMinH: 176, signExt: 112 },
+    { mode: 'sign-kinds', signs: 8, boxW: 56, boxH: 52, gap: 14, binGap: 24, cardMinH: 176, signExt: 112 },
     'Road Safety: Kinds of Traffic Signs', 'Write the letter of each road sign in the boxes of its group.', { gradeBand: 'G2' }],
   ['g2', 'G2-361', 'road-safety-sign-quiz', BASE, 2,
     { mode: 'sign-quiz', rows: 6, chips: 3, boxW: 360, tile: 88, signExt: 72, px: 16, minRow: 96, gap: 10 },

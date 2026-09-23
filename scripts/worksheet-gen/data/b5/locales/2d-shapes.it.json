@@ -1,0 +1,114 @@
+{
+  "names": {
+    "circle": "cerchio",
+    "square": "quadrato",
+    "triangle": "triangolo",
+    "rectangle": "rettangolo",
+    "hexagon": "esagono"
+  },
+  "overrides": {},
+  "inflections": {
+    "circle": [
+      "cerchi",
+      "cerchietto"
+    ],
+    "square": [
+      "quadrati",
+      "quadrata",
+      "quadrate"
+    ],
+    "triangle": [
+      "triangoli",
+      "triangolare"
+    ],
+    "rectangle": [
+      "rettangoli",
+      "rettangolare"
+    ],
+    "hexagon": [
+      "esagoni",
+      "esagonale"
+    ]
+  },
+  "inventory": {
+    "hexagon": true
+  },
+  "riddles": {
+    "circle": [
+      {
+        "text": "Sono tondo tutto intorno e non ho angoli. Chi sono?",
+        "clue": "round"
+      },
+      {
+        "text": "Non ho lati dritti e non ho nessun angolo. Chi sono?",
+        "clue": "round"
+      }
+    ],
+    "square": [
+      {
+        "text": "I miei 4 lati sono tutti uguali e i miei 4 angoli sono retti. Chi sono?",
+        "clue": "equal"
+      },
+      {
+        "text": "Ho 4 angoli retti e 4 lati tutti uguali. Chi sono?",
+        "clue": "equal"
+      }
+    ],
+    "triangle": [
+      {
+        "text": "Ho 3 lati e 3 angoli. Chi sono?",
+        "clue": "three"
+      },
+      {
+        "text": "Ho soltanto 3 lati dritti. Chi sono?",
+        "clue": "three"
+      }
+    ],
+    "rectangle": [
+      {
+        "text": "Ho 2 lati lunghi e 2 lati corti. Chi sono?",
+        "clue": "longShort"
+      },
+      {
+        "text": "Ho 4 angoli retti, 2 lati lunghi e 2 lati corti. Chi sono?",
+        "clue": "longShort"
+      }
+    ],
+    "hexagon": [
+      {
+        "text": "Ho 6 lati e 6 angoli. Chi sono?",
+        "clue": "six"
+      },
+      {
+        "text": "Ho 6 lati dritti. Chi sono?",
+        "clue": "six"
+      }
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Figure geometriche piane: cerchia il nome",
+      "instruction": "Guarda ogni figura, anche quelle girate o molto strette, e cerchia il suo nome."
+    },
+    "real-or-not": {
+      "title": "Riconoscere le figure geometriche piane",
+      "instruction": "Leggi il nome di ogni riga e cerchia tutte le figure che sono davvero quella figura."
+    },
+    "around-us": {
+      "title": "Figure geometriche piane intorno a noi",
+      "instruction": "Guarda ogni disegno e colora la figura che ha: il cerchio o il rettangolo."
+    },
+    "write-name": {
+      "title": "Scrivi il nome delle figure piane",
+      "instruction": "Guarda ogni figura e scrivi il suo nome sulla riga, usando i nomi del riquadro."
+    },
+    "riddles": {
+      "title": "Indovinelli sulle figure geometriche piane",
+      "instruction": "Leggi ogni indovinello e cerchia il nome della figura."
+    },
+    "dot-draw": {
+      "title": "Disegna figure piane sui puntini",
+      "instruction": "Leggi il nome della figura e unisci i puntini per disegnarla, partendo dalla linea spessa quando c’è."
+    }
+  }
+}

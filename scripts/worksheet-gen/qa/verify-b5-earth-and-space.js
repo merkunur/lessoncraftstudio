@@ -79,7 +79,15 @@ const FACE_RULE = {
   'planet-sizes': { ban: /(?<!\p{L})draw(?!\p{L})/iu },
 };
 /** Estimated width of a word-bank chip at Nunito 800 18 (0.58 em / char + 24 padding); the F2 render gate is the final word (Phase E). */
-const chipW = (w) => [...w].length * 0.58 * 18 + 24;
+// rule 5 — the phase bank's one-row width, MEASURED (never a per-character guess; the old 0.58·18 px/char +
+// 24 estimate condemned the fr bank at ~717 px while the real G2-367 render put it on one row at 643.5 px):
+// each `.ws-bankword` pill = Nunito 800 18 text (primitives/bankword-nunito800.advances.json, measured by
+// tools/measure-bankword-advances.js) + padding 28 + border 4; `.ws-bank` gap 10; the banner's inner width
+// on the G2-367 page = 675 − padding 24 − border 4 = 647 (measured on the render; the render gate at
+// G1-378 'moon-phase-names' asserts the bank does not wrap, so a drift in this constant is caught there too).
+const BW = require('../primitives/bankword-width.js');
+const BANK_PX = 18, BANK_GAP = 10, BANK_ROW = 647;
+const chipW = (w) => BW.pillWidth(w, BANK_PX);
 
 function validateBank(block, loc, model) {
   const f = [];
@@ -131,8 +139,9 @@ function validateBank(block, loc, model) {
   distinct(block.phaseNames, 'phaseNames');
   distinct(block.planets, 'planets');
   const pn = Mo.NAMED_PHASES.map((p) => block.phaseNames && block.phaseNames[p]).filter((x) => typeof x === 'string');
-  const bankW = pn.reduce((a, w) => a + chipW(w), 0) + 12 * (pn.length - 1);
-  if (bankW > 639) E(`the 4 phase names measure ~${Math.round(bankW)} px at 18 px + chip padding > 639 (one row) (rule 5)`);
+  let bankW = null;
+  try { bankW = pn.reduce((a, w) => a + chipW(w), 0) + BANK_GAP * (pn.length - 1); } catch (e) { E(`the phase bank cannot be measured: ${e.message} (rule 5)`); }
+  if (bankW !== null && bankW > BANK_ROW) E(`the 4 phase names measure ${bankW.toFixed(1)} px (Nunito 800 ${BANK_PX} + pill padding, gap ${BANK_GAP}) > ${BANK_ROW} (one row) (rule 5)`);
   // rule 6 — no Pluto
   for (const [k, v] of Object.entries(block.planets || {})) for (const p of Mo.PLUTO) if (typeof v === 'string' && hasWord(v, p, l)) E(`planets.${k} "${v}" is Pluto (rule 6)`);
   // rule 6b (Phase E, the F4 bank tell) — the panel's planet literals sort into the model's PLANET_ALPHA order for this
@@ -349,6 +358,16 @@ async function main() {
     b = clone(en); b.strings.base.title = 'Space'; P('P11 base title "Space"', b, 'en', /strings\.base\.title "Space" contains the space theme name/);
     b = syntheticBlock('de'); b.strings.base.title = 'Weltraum'; P('P11 de base title "Weltraum"', b, 'de', /strings\.base\.title "Weltraum" contains the space theme name/);
     b = clone(en); b.facts.hottest = 'It is 150 million km away.'; P('P12 en fact "It is 150 million km away."', b, 'en', /facts\.hottest .* carries a digit \(rule 3\)/);
+    // rule 5, measured (2026-09-23): both sides of the 647 px row, each checked on the real G2-367 fr render —
+    // the fr panel's set = 643.5 px on ONE row; "dernier quartier." = 647.7 px and "nouvelle Lune / pleine Lune" =
+    // 651.8 px each WRAP the bank to 2 rows (render verify: 'the word bank wraps to 2 rows').
+    const FR4 = { 0: 'nouvelle lune', 2: 'premier quartier', 4: 'pleine lune', 6: 'dernier quartier' };
+    { b = syntheticBlock('fr'); b.phaseNames = { ...FR4 }; const f = validateBank(b, 'fr').filter((x) => /phase bank|phase names measure/.test(x));
+      poisonLog.push(`  C5 fr phase bank "${Object.values(FR4).join(' / ')}" (643.5 px, one row on the render): ${f.length ? 'WRONGLY FIRES — ' + f[0] : 'passes rule 5 (control)'}`);
+      ok(!f.length, 'C5: the fr phase bank that renders on one row must pass rule 5'); }
+    b = syntheticBlock('fr'); b.phaseNames = { ...FR4, 6: 'dernier quartier.' }; P('R5a fr phase bank 647.7 px (wraps on the render)', b, 'fr', /phase names measure 647\.7 px .* > 647 \(one row\) \(rule 5\)/);
+    b = syntheticBlock('fr'); b.phaseNames = { ...FR4, 0: 'nouvelle Lune', 4: 'pleine Lune' }; P('R5b fr phase bank "nouvelle Lune / pleine Lune" 651.8 px', b, 'fr', /phase names measure 651\.8 px .*\(rule 5\)/);
+    b = syntheticBlock('fr'); b.phaseNames = { ...FR4, 2: 'premier quartierł' }; P('R5c fr phase name with an unmeasured character', b, 'fr', /phase bank cannot be measured: .*no measured advance .*\(rule 5\)/);
     b = syntheticBlock('fi'); b.planets = { ...b.planets, earth: 'Maa' }; P('P13 fi "Maa" against an en-ordered PLANET_ALPHA.fi', b, 'fi', /the fi planet names sort as .* ≠ PLANET_ALPHA\.fi .*\(rule 6b\)/, { ...M, PLANET_ALPHA: { ...M.PLANET_ALPHA, fi: M.PLANET_ALPHA.en } });
   }
 
@@ -412,9 +431,11 @@ async function main() {
       console.log('render sweep: d2 seeds 2..20 rendered + verified');
     }
     {
-      const deFile = path.join(__dirname, '..', 'data', 'b5', 'locales', 'earth-and-space.de.json');
-      if (fs.existsSync(deFile)) console.log('refusal check skipped: data/b5/locales/earth-and-space.de.json exists');
-      else { let m = null; try { TYPE.build({ difficulty: 2, locale: 'de' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } ok(!!m && /has no de block/.test(m), `an unauthored locale must REFUSE: ${m || 'built'}`); }
+      // the de block is hidden for the probe (all 11 locales are authored; see qa/b5-unauthored.js)
+      const U = require('./b5-unauthored.js');
+      const p = U.refusalProbe('earth-and-space', 'de', () => TYPE.build({ difficulty: 2, locale: 'de' }, { rng: makeRng('x') }));
+      ok(U.refused(p.hidden, /has no de block/), `an unauthored locale must REFUSE: ${p.hidden || 'built'}`);
+      ok(!U.refused(p.real, /has no de block/), `poison — the authored de page passed the unauthored-refusal check (got ${p.real})`);
     }
 
     // 4. render poisons

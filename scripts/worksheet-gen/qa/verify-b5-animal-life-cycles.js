@@ -72,14 +72,15 @@ const GENRE_FLOOR = { en: ['life cycle'], de: ['Lebenszyklus'], es: ['ciclo de v
 /** rule 10, en: per-face bans (word boundaries by Unicode letters, never \b) */
 const W = (w) => new RegExp(`(?<!\\p{L})${w}(?!\\p{L})`, 'iu');
 const INSTR_BANS_EN = {
-  'G1-377': [W('cut'), W('glue'), W('tick'), W('circle'), W('letters?')],
+  // 2026-09-23 review: the ANIMAL grows (never "the egg grows"), and the numbers go in BOXES (never "under the pictures")
+  'G1-377': [W('cut'), W('glue'), W('tick'), W('circle'), W('letters?'), W('egg grows'), W('under')],
   'G1-389': [W('write'), W('tick'), W('circle')],
   'G2-365': [W('cut'), W('tick'), W('circle')],
   'G2-366': [W('cut'), W('tick'), W('circle'), W('numbers?')],
-  'G3-393': [W('circle'), W('cut'), W('write')],
+  'G3-393': [W('circle'), W('cut'), W('write'), W('tick')],
   'G1-390': [W('write'), W('tick'), W('cut')],
 };
-const INSTR_MUST_EN = { 'G1-389': [W('cut'), W('glue')], 'G2-365': [W('write'), W('cross')], 'G2-366': [W('letter')], 'G3-393': [W('tick')], 'G1-390': [W('circle')] };
+const INSTR_MUST_EN = { 'G1-377': [W('boxes')], 'G1-389': [W('cut'), W('glue')], 'G2-365': [W('write'), W('cross')], 'G2-366': [W('letter')], 'G3-393': [W('check')], 'G1-390': [W('circle')] };
 
 let assertions = 0;
 const fails = [];
@@ -347,7 +348,12 @@ async function main() {
   for (const loc of Object.keys(banks)) { const bf = validateBank(banks[loc], loc); bf.forEach((x) => ok(false, x)); console.log(`bank ${loc}: ${bf.length} findings`); }
   ok(banks.en.strings[ID].title === TYPE.i18n.en.title && banks.en.strings[ID].instruction === TYPE.i18n.en.instruction, 'the bank\'s G1-377 strings ≠ the spec\'s i18n.en');
   for (const loc of ['de', 'pt', 'sv', 'fi', 'fr']) { const cf = validateBank(draft(loc), loc); ok(!cf.length, `the synthetic ${loc} control draft must be clean: ${cf.slice(0, 3).join(' | ')}`); }
-  { let m = null; try { TYPE.build({ difficulty: 2, locale: 'sv' }, { rng: makeRng('seed-1') }); } catch (e) { m = e.message; } ok(m && /no sv block|refuse/.test(m), `an unauthored sv REFUSES (got ${m})`); }
+  {
+    const U = require('./b5-unauthored.js');
+    const p = U.refusalProbe('animal-life-cycles', 'sv', () => TYPE.build({ difficulty: 2, locale: 'sv' }, { rng: makeRng('seed-1') }));
+    ok(U.refused(p.hidden, /no sv block/), `an unauthored sv REFUSES (got ${p.hidden})`);
+    ok(!U.refused(p.real, /no sv block/), `poison — the authored sv page passed the unauthored-refusal check (got ${p.real})`);
+  }
   // node sweep: locale-neutral, pooled share, per-page answer placement
   {
     const share = {}; const eggAt = new Set(); let perPageBad = 0;
@@ -425,6 +431,10 @@ async function main() {
     judge('P7 sv familyName = the science-sequence name', validateBank(draft('sv', { familyName: 'Ordningsföljd och livscykler' }), 'sv'), /familyName .* equals the science-sequence name \(rule 8\)/);
     { const b = draft('fi'); b.statements.wings = 'Aikuisella perhonen on siivet.'; judge('P8 fi statement names "perhonen"', validateBank(b, 'fi'), /statements\.wings .* names an animal \("perhonen", rule 5\)/); }
     judge('P9 base instruction without "picture"', validateBank({ ...clone(en), strings: { ...en.strings, [ID]: { ...en.strings[ID], instruction: 'The egg is 1: write 2, 3 and 4 in the boxes as it grows, and in the last box the number that comes after the butterfly.' } } }, 'en'), /does not name the "picture"/);
+    const baseIns = (instruction) => validateBank({ ...clone(en), strings: { ...en.strings, [ID]: { ...en.strings[ID], instruction } } }, 'en');
+    judge('P9b base "as the egg grows" (the animal grows)', baseIns('The egg is 1: write 2, 3 and 4 in the boxes as the egg grows, and in the last box the number of the picture that comes after the butterfly.'), /instruction names "egg grows"/);
+    judge('P9c base "under the pictures" (the page has boxes)', baseIns('The egg is 1: write 2, 3 and 4 under the pictures as the butterfly grows, and in the last box the number of the picture after the butterfly.'), /instruction names "under"|instruction lacks .*boxes/);
+    judge('P9d base instruction names no box', baseIns('The egg is 1: write 2, 3 and 4 as the butterfly grows, and last the number of the picture that comes after the butterfly.'), /instruction lacks .*boxes/);
     judge('P10 base "Cut out the pictures"', validateBank({ ...clone(en), strings: { ...en.strings, [ID]: { ...en.strings[ID], instruction: 'Cut out the pictures and put the number of each picture in its box.' } } }, 'en'), /instruction names "Cut" .* \(rule 10\)/);
     judge('P11 a library picture', nPoison((n) => { n.LIBRARY_PICTURES = ['insects and bugs/caterpillar']; }), /LIBRARY_PICTURES not empty/);
     judge('P12 fr spawnForm "string"', validateBank(draft('fr', { spawnForm: 'string' }), 'fr'), /spawnForm "string" outside pt \(rule 12\)/);

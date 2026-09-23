@@ -10,6 +10,6 @@ module.exports = {
   id: 'G1-391',
   slug: 'moon-phases-in-order',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Moon Phases in Order", instruction: "The Moon seems to grow, then shrink. In each row, write 1 to 5 under the moons in that order." } },
+  i18n: { en: { title: "Moon Phases in Order", instruction: "The wedge in each row shows if the Moon grows or shrinks, so write 1 to 5 under the moons in that order." } },
   gradeBand: "G1",
 };

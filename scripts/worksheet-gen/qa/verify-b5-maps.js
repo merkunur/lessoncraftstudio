@@ -40,6 +40,8 @@
  *    apparatus per face + P11b (PR6 is killed by verify-top-side-view in section 0).
  */
 'use strict';
+/** the probe for 'an unauthored locale refuses': the first locale no panel has applied yet (sv was the probe until its panel landed) */
+const UNAUTH = ['fi', 'no', 'da', 'sv', 'nl', 'it', 'fr', 'es', 'pt', 'de'].find((l) => !Object.keys(require('../lib/b5-common.js').bankModule('maps')).includes(l)) || 'xx';
 const path = require('path');
 const { spawnSync } = require('child_process');
 const puppeteer = require('puppeteer');
@@ -275,7 +277,7 @@ async function main() {
   const banks = bankMod.MAPS_LOC;
   for (const loc of Object.keys(banks)) { const bf = validateBank(banks[loc], loc); bf.forEach((x) => ok(false, x)); console.log(`bank ${loc}: ${bf.length} findings`); }
   ok(banks.en.strings.base.title === TYPE.i18n.en.title && banks.en.strings.base.instruction === TYPE.i18n.en.instruction, 'the bank\'s base strings ≠ the spec\'s i18n.en');
-  { let m = null; try { TYPE.build({ difficulty: 2, locale: 'sv' }, { rng: makeRng('seed-1') }); } catch (e) { m = e.message; } ok(m && /no sv block|refuse/.test(m), `an unauthored sv REFUSES (got ${m})`); }
+  { let m = null; try { TYPE.build({ difficulty: 2, locale: UNAUTH }, { rng: makeRng('seed-1') }); } catch (e) { m = e.message; } ok(m && new RegExp('no ' + UNAUTH + ' block|refuse').test(m), `an unauthored ${UNAUTH} REFUSES (got ${m})`); }
   // 4 (node). tells per PAGE, 400 seeds per level
   for (const d of [1, 2, 3]) {
     const cfg = TYPE.difficulty[d];

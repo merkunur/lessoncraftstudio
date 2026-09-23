@@ -1,0 +1,2253 @@
+{
+  "head": "Les sons complexes",
+  "refused": null,
+  "phonemes": [
+    "p",
+    "b",
+    "t",
+    "d",
+    "k",
+    "g",
+    "f",
+    "v",
+    "s",
+    "z",
+    "ʃ",
+    "ʒ",
+    "m",
+    "n",
+    "ɲ",
+    "l",
+    "ʁ",
+    "j",
+    "w",
+    "ɥ",
+    "ks",
+    "a",
+    "ɑ",
+    "e",
+    "ɛ",
+    "i",
+    "o",
+    "ɔ",
+    "u",
+    "y",
+    "ø",
+    "œ",
+    "ə",
+    "ɑ̃",
+    "ɔ̃",
+    "ɛ̃",
+    "wa",
+    "∅"
+  ],
+  "teams": {
+    "ou": {
+      "t": "ou",
+      "sound": [
+        "u"
+      ],
+      "items": [
+        {
+          "vocabKey": "ant",
+          "theme": "insects and bugs",
+          "noun": "ant",
+          "word": "fourmi",
+          "seg": [
+            "f",
+            "ou",
+            "r",
+            "m",
+            "i"
+          ],
+          "snd": [
+            "f",
+            "u",
+            "ʁ",
+            "m",
+            "i"
+          ],
+          "silent": [],
+          "stem": "fourmi",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bear",
+          "theme": "zoo animals",
+          "noun": "bear",
+          "word": "ours",
+          "seg": [
+            "ou",
+            "r",
+            "s"
+          ],
+          "snd": [
+            "u",
+            "ʁ",
+            "s"
+          ],
+          "silent": [],
+          "stem": "ours",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bottle",
+          "theme": "kitchen tools",
+          "noun": "bottle",
+          "word": "bouteille",
+          "seg": [
+            "b",
+            "ou",
+            "t",
+            "ei",
+            "ll",
+            "e"
+          ],
+          "snd": [
+            "b",
+            "u",
+            "t",
+            "ɛ",
+            "j",
+            "∅"
+          ],
+          "silent": [
+            5
+          ],
+          "stem": "bouteille",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cabbage",
+          "theme": "vegetables",
+          "noun": "cabbage",
+          "word": "chou",
+          "seg": [
+            "ch",
+            "ou"
+          ],
+          "snd": [
+            "ʃ",
+            "u"
+          ],
+          "silent": [],
+          "stem": "chou",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "chick",
+          "theme": "farm animals",
+          "noun": "chick",
+          "word": "poussin",
+          "seg": [
+            "p",
+            "ou",
+            "ss",
+            "in"
+          ],
+          "snd": [
+            "p",
+            "u",
+            "s",
+            "ɛ̃"
+          ],
+          "silent": [],
+          "stem": "poule",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "hen",
+          "theme": "farm animals",
+          "noun": "hen",
+          "word": "poule",
+          "seg": [
+            "p",
+            "ou",
+            "l",
+            "e"
+          ],
+          "snd": [
+            "p",
+            "u",
+            "l",
+            "∅"
+          ],
+          "silent": [
+            3
+          ],
+          "stem": "poule",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cushion",
+          "theme": "around the house",
+          "noun": "cushion",
+          "word": "coussin",
+          "seg": [
+            "c",
+            "ou",
+            "ss",
+            "in"
+          ],
+          "snd": [
+            "k",
+            "u",
+            "s",
+            "ɛ̃"
+          ],
+          "silent": [],
+          "stem": "coussin",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "doll",
+          "theme": "toys",
+          "noun": "doll",
+          "word": "poupée",
+          "seg": [
+            "p",
+            "ou",
+            "p",
+            "ée"
+          ],
+          "snd": [
+            "p",
+            "u",
+            "p",
+            "e"
+          ],
+          "silent": [],
+          "stem": "poupée",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "drum",
+          "theme": "music",
+          "noun": "drum",
+          "word": "tambour",
+          "seg": [
+            "t",
+            "am",
+            "b",
+            "ou",
+            "r"
+          ],
+          "snd": [
+            "t",
+            "ɑ̃",
+            "b",
+            "u",
+            "ʁ"
+          ],
+          "silent": [],
+          "stem": "tambour",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "knife",
+          "theme": "kitchen tools",
+          "noun": "knife",
+          "word": "couteau",
+          "seg": [
+            "c",
+            "ou",
+            "t",
+            "eau"
+          ],
+          "snd": [
+            "k",
+            "u",
+            "t",
+            "o"
+          ],
+          "silent": [],
+          "stem": "couteau",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mitten",
+          "theme": "clothing",
+          "noun": "mitten",
+          "word": "moufle",
+          "seg": [
+            "m",
+            "ou",
+            "f",
+            "l",
+            "e"
+          ],
+          "snd": [
+            "m",
+            "u",
+            "f",
+            "l",
+            "∅"
+          ],
+          "silent": [
+            4
+          ],
+          "stem": "moufle",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mosquito",
+          "theme": "insects and bugs",
+          "noun": "mosquito",
+          "word": "moustique",
+          "seg": [
+            "m",
+            "ou",
+            "s",
+            "t",
+            "i",
+            "qu",
+            "e"
+          ],
+          "snd": [
+            "m",
+            "u",
+            "s",
+            "t",
+            "i",
+            "k",
+            "∅"
+          ],
+          "silent": [
+            6
+          ],
+          "stem": "moustique",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mouse",
+          "theme": "pets",
+          "noun": "mouse",
+          "word": "souris",
+          "seg": [
+            "s",
+            "ou",
+            "r",
+            "i",
+            "s"
+          ],
+          "snd": [
+            "s",
+            "u",
+            "ʁ",
+            "i",
+            "∅"
+          ],
+          "silent": [
+            4
+          ],
+          "stem": "souris",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "owl",
+          "theme": "Things That Fly",
+          "noun": "owl",
+          "word": "hibou",
+          "seg": [
+            "h",
+            "i",
+            "b",
+            "ou"
+          ],
+          "snd": [
+            "∅",
+            "i",
+            "b",
+            "u"
+          ],
+          "silent": [
+            0
+          ],
+          "stem": "hibou",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "sunflower",
+          "theme": "flowers",
+          "noun": "sunflower",
+          "word": "tournesol",
+          "seg": [
+            "t",
+            "ou",
+            "r",
+            "n",
+            "e",
+            "s",
+            "o",
+            "l"
+          ],
+          "snd": [
+            "t",
+            "u",
+            "ʁ",
+            "n",
+            "ə",
+            "s",
+            "ɔ",
+            "l"
+          ],
+          "silent": [],
+          "stem": "tournesol",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "thumb",
+          "theme": "body parts",
+          "noun": "thumb",
+          "word": "pouce",
+          "seg": [
+            "p",
+            "ou",
+            "c",
+            "e"
+          ],
+          "snd": [
+            "p",
+            "u",
+            "s",
+            "∅"
+          ],
+          "silent": [
+            3
+          ],
+          "stem": "pouce",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "wolf",
+          "theme": "animals",
+          "noun": "wolf",
+          "word": "loup",
+          "seg": [
+            "l",
+            "ou",
+            "p"
+          ],
+          "snd": [
+            "l",
+            "u",
+            "∅"
+          ],
+          "silent": [
+            2
+          ],
+          "stem": "loup",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "otter",
+          "theme": "zoo animals",
+          "noun": "otter",
+          "word": "loutre",
+          "seg": [
+            "l",
+            "ou",
+            "t",
+            "r",
+            "e"
+          ],
+          "snd": [
+            "l",
+            "u",
+            "t",
+            "ʁ",
+            "∅"
+          ],
+          "silent": [
+            4
+          ],
+          "stem": "loutre",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "candle",
+          "theme": "christmas",
+          "noun": "candle",
+          "word": "bougie",
+          "seg": [
+            "b",
+            "ou",
+            "g",
+            "ie"
+          ],
+          "snd": [
+            "b",
+            "u",
+            "ʒ",
+            "i"
+          ],
+          "silent": [],
+          "stem": "bougie",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "stool",
+          "theme": "furniture",
+          "noun": "stool",
+          "word": "tabouret",
+          "seg": [
+            "t",
+            "a",
+            "b",
+            "ou",
+            "r",
+            "et"
+          ],
+          "snd": [
+            "t",
+            "a",
+            "b",
+            "u",
+            "ʁ",
+            "ɛ"
+          ],
+          "silent": [],
+          "stem": "tabouret",
+          "picOpened": true
+        }
+      ]
+    },
+    "on": {
+      "t": "on",
+      "sound": [
+        "ɔ̃"
+      ],
+      "items": [
+        {
+          "vocabKey": "airplane",
+          "theme": "Things That Fly",
+          "noun": "airplane",
+          "word": "avion",
+          "seg": [
+            "a",
+            "v",
+            "i",
+            "on"
+          ],
+          "snd": [
+            "a",
+            "v",
+            "j",
+            "ɔ̃"
+          ],
+          "silent": [],
+          "stem": "avion",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "ball",
+          "theme": "toys",
+          "noun": "ball",
+          "word": "ballon",
+          "seg": [
+            "b",
+            "a",
+            "ll",
+            "on"
+          ],
+          "snd": [
+            "b",
+            "a",
+            "l",
+            "ɔ̃"
+          ],
+          "silent": [],
+          "stem": "ballon",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "butterfly",
+          "theme": "insects and bugs",
+          "noun": "butterfly",
+          "word": "papillon",
+          "seg": [
+            "p",
+            "a",
+            "p",
+            "i",
+            "ll",
+            "on"
+          ],
+          "snd": [
+            "p",
+            "a",
+            "p",
+            "i",
+            "j",
+            "ɔ̃"
+          ],
+          "silent": [],
+          "stem": "papillon",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "dragon",
+          "theme": "Things That Fly",
+          "noun": "dragon",
+          "word": "dragon",
+          "seg": [
+            "d",
+            "r",
+            "a",
+            "g",
+            "on"
+          ],
+          "snd": [
+            "d",
+            "ʁ",
+            "a",
+            "g",
+            "ɔ̃"
+          ],
+          "silent": [],
+          "stem": "dragon",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "ham",
+          "theme": "At the Supermarket",
+          "noun": "ham",
+          "word": "jambon",
+          "seg": [
+            "j",
+            "am",
+            "b",
+            "on"
+          ],
+          "snd": [
+            "ʒ",
+            "ɑ̃",
+            "b",
+            "ɔ̃"
+          ],
+          "silent": [],
+          "stem": "jambon",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "hedgehog",
+          "theme": "forest creatures",
+          "noun": "hedgehog",
+          "word": "hérisson",
+          "seg": [
+            "h",
+            "é",
+            "r",
+            "i",
+            "ss",
+            "on"
+          ],
+          "snd": [
+            "∅",
+            "e",
+            "ʁ",
+            "i",
+            "s",
+            "ɔ̃"
+          ],
+          "silent": [
+            0
+          ],
+          "stem": "hérisson",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "house",
+          "theme": "miscellaneous",
+          "noun": "house",
+          "word": "maison",
+          "seg": [
+            "m",
+            "ai",
+            "s",
+            "on"
+          ],
+          "snd": [
+            "m",
+            "ɛ",
+            "z",
+            "ɔ̃"
+          ],
+          "silent": [],
+          "stem": "maison",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lemon",
+          "theme": "fruits",
+          "noun": "lemon",
+          "word": "citron",
+          "seg": [
+            "c",
+            "i",
+            "t",
+            "r",
+            "on"
+          ],
+          "snd": [
+            "s",
+            "i",
+            "t",
+            "ʁ",
+            "ɔ̃"
+          ],
+          "silent": [],
+          "stem": "citron",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lion",
+          "theme": "zoo animals",
+          "noun": "lion",
+          "word": "lion",
+          "seg": [
+            "l",
+            "i",
+            "on"
+          ],
+          "snd": [
+            "l",
+            "j",
+            "ɔ̃"
+          ],
+          "silent": [],
+          "stem": "lion",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "melon",
+          "theme": "breakfast",
+          "noun": "melon",
+          "word": "melon",
+          "seg": [
+            "m",
+            "e",
+            "l",
+            "on"
+          ],
+          "snd": [
+            "m",
+            "ə",
+            "l",
+            "ɔ̃"
+          ],
+          "silent": [],
+          "stem": "melon",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mountain",
+          "theme": "camping",
+          "noun": "mountain",
+          "word": "montagne",
+          "seg": [
+            "m",
+            "on",
+            "t",
+            "a",
+            "gn",
+            "e"
+          ],
+          "snd": [
+            "m",
+            "ɔ̃",
+            "t",
+            "a",
+            "ɲ",
+            "∅"
+          ],
+          "silent": [
+            5
+          ],
+          "stem": "montagne",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mushroom",
+          "theme": "vegetables",
+          "noun": "mushroom",
+          "word": "champignon",
+          "seg": [
+            "ch",
+            "am",
+            "p",
+            "i",
+            "gn",
+            "on"
+          ],
+          "snd": [
+            "ʃ",
+            "ɑ̃",
+            "p",
+            "i",
+            "ɲ",
+            "ɔ̃"
+          ],
+          "silent": [],
+          "stem": "champignon",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pig",
+          "theme": "animals",
+          "noun": "pig",
+          "word": "cochon",
+          "seg": [
+            "c",
+            "o",
+            "ch",
+            "on"
+          ],
+          "snd": [
+            "k",
+            "ɔ",
+            "ʃ",
+            "ɔ̃"
+          ],
+          "silent": [],
+          "stem": "cochon",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "truck",
+          "theme": "vehicles",
+          "noun": "truck",
+          "word": "camion",
+          "seg": [
+            "c",
+            "a",
+            "m",
+            "i",
+            "on"
+          ],
+          "snd": [
+            "k",
+            "a",
+            "m",
+            "j",
+            "ɔ̃"
+          ],
+          "silent": [],
+          "stem": "camion",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "watch",
+          "theme": "accessories",
+          "noun": "watch",
+          "word": "montre",
+          "seg": [
+            "m",
+            "on",
+            "t",
+            "r",
+            "e"
+          ],
+          "snd": [
+            "m",
+            "ɔ̃",
+            "t",
+            "ʁ",
+            "∅"
+          ],
+          "silent": [
+            4
+          ],
+          "stem": "montre",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "sponge",
+          "theme": "kitchen tools",
+          "noun": "sponge",
+          "word": "éponge",
+          "seg": [
+            "é",
+            "p",
+            "on",
+            "g",
+            "e"
+          ],
+          "snd": [
+            "e",
+            "p",
+            "ɔ̃",
+            "ʒ",
+            "∅"
+          ],
+          "silent": [
+            4
+          ],
+          "stem": "éponge",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "macaron",
+          "theme": "desserts and sweets",
+          "noun": "macaron",
+          "word": "macaron",
+          "seg": [
+            "m",
+            "a",
+            "c",
+            "a",
+            "r",
+            "on"
+          ],
+          "snd": [
+            "m",
+            "a",
+            "k",
+            "a",
+            "ʁ",
+            "ɔ̃"
+          ],
+          "silent": [],
+          "stem": "macaron",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "jam",
+          "theme": "breakfast",
+          "noun": "jam",
+          "word": "confiture",
+          "seg": [
+            "c",
+            "on",
+            "f",
+            "i",
+            "t",
+            "u",
+            "r",
+            "e"
+          ],
+          "snd": [
+            "k",
+            "ɔ̃",
+            "f",
+            "i",
+            "t",
+            "y",
+            "ʁ",
+            "∅"
+          ],
+          "silent": [
+            7
+          ],
+          "stem": "confiture",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "flip-flops",
+          "theme": "clothing",
+          "noun": "flip-flops",
+          "word": "tongs",
+          "seg": [
+            "t",
+            "on",
+            "g",
+            "s"
+          ],
+          "snd": [
+            "t",
+            "ɔ̃",
+            "g",
+            "∅"
+          ],
+          "silent": [
+            3
+          ],
+          "stem": "tongs",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "nail",
+          "theme": "body parts",
+          "noun": "nail",
+          "word": "ongle",
+          "seg": [
+            "on",
+            "g",
+            "l",
+            "e"
+          ],
+          "snd": [
+            "ɔ̃",
+            "g",
+            "l",
+            "∅"
+          ],
+          "silent": [
+            3
+          ],
+          "stem": "ongle",
+          "picOpened": true
+        }
+      ]
+    },
+    "oi": {
+      "t": "oi",
+      "sound": [
+        "wa"
+      ],
+      "items": [
+        {
+          "vocabKey": "bathtub",
+          "theme": "around the house",
+          "noun": "bathtub",
+          "word": "baignoire",
+          "seg": [
+            "b",
+            "ai",
+            "gn",
+            "oi",
+            "r",
+            "e"
+          ],
+          "snd": [
+            "b",
+            "ɛ",
+            "ɲ",
+            "wa",
+            "ʁ",
+            "∅"
+          ],
+          "silent": [
+            5
+          ],
+          "stem": "baignoire",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bird",
+          "theme": "spring",
+          "noun": "bird",
+          "word": "oiseau",
+          "seg": [
+            "oi",
+            "s",
+            "eau"
+          ],
+          "snd": [
+            "wa",
+            "z",
+            "o"
+          ],
+          "silent": [],
+          "stem": "oiseau",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "wardrobe",
+          "theme": "around the house",
+          "noun": "wardrobe",
+          "word": "armoire",
+          "seg": [
+            "a",
+            "r",
+            "m",
+            "oi",
+            "r",
+            "e"
+          ],
+          "snd": [
+            "a",
+            "ʁ",
+            "m",
+            "wa",
+            "ʁ",
+            "∅"
+          ],
+          "silent": [
+            5
+          ],
+          "stem": "armoire",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "car",
+          "theme": "vehicles",
+          "noun": "car",
+          "word": "voiture",
+          "seg": [
+            "v",
+            "oi",
+            "t",
+            "u",
+            "r",
+            "e"
+          ],
+          "snd": [
+            "v",
+            "wa",
+            "t",
+            "y",
+            "ʁ",
+            "∅"
+          ],
+          "silent": [
+            5
+          ],
+          "stem": "voiture",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "colander",
+          "theme": "kitchen tools",
+          "noun": "colander",
+          "word": "passoire",
+          "seg": [
+            "p",
+            "a",
+            "ss",
+            "oi",
+            "r",
+            "e"
+          ],
+          "snd": [
+            "p",
+            "a",
+            "s",
+            "wa",
+            "ʁ",
+            "∅"
+          ],
+          "silent": [
+            5
+          ],
+          "stem": "passoire",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cross",
+          "theme": "easter",
+          "noun": "cross",
+          "word": "croix",
+          "seg": [
+            "c",
+            "r",
+            "oi",
+            "x"
+          ],
+          "snd": [
+            "k",
+            "ʁ",
+            "wa",
+            "∅"
+          ],
+          "silent": [
+            3
+          ],
+          "stem": "croix",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "leek",
+          "theme": "vegetables",
+          "noun": "leek",
+          "word": "poireau",
+          "seg": [
+            "p",
+            "oi",
+            "r",
+            "eau"
+          ],
+          "snd": [
+            "p",
+            "wa",
+            "ʁ",
+            "o"
+          ],
+          "silent": [],
+          "stem": "poire",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mirror",
+          "theme": "around the house",
+          "noun": "mirror",
+          "word": "miroir",
+          "seg": [
+            "m",
+            "i",
+            "r",
+            "oi",
+            "r"
+          ],
+          "snd": [
+            "m",
+            "i",
+            "ʁ",
+            "wa",
+            "ʁ"
+          ],
+          "silent": [],
+          "stem": "miroir",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pear",
+          "theme": "fruits",
+          "noun": "pear",
+          "word": "poire",
+          "seg": [
+            "p",
+            "oi",
+            "r",
+            "e"
+          ],
+          "snd": [
+            "p",
+            "wa",
+            "ʁ",
+            "∅"
+          ],
+          "silent": [
+            3
+          ],
+          "stem": "poire",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "star",
+          "theme": "christmas",
+          "noun": "star",
+          "word": "étoile",
+          "seg": [
+            "é",
+            "t",
+            "oi",
+            "l",
+            "e"
+          ],
+          "snd": [
+            "e",
+            "t",
+            "wa",
+            "l",
+            "∅"
+          ],
+          "silent": [
+            4
+          ],
+          "stem": "étoile",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "swing",
+          "theme": "toys",
+          "noun": "swing",
+          "word": "balançoire",
+          "seg": [
+            "b",
+            "a",
+            "l",
+            "an",
+            "ç",
+            "oi",
+            "r",
+            "e"
+          ],
+          "snd": [
+            "b",
+            "a",
+            "l",
+            "ɑ̃",
+            "s",
+            "wa",
+            "ʁ",
+            "∅"
+          ],
+          "silent": [
+            7
+          ],
+          "stem": "balançoire",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "toilet",
+          "theme": "around the house",
+          "noun": "toilet",
+          "word": "toilettes",
+          "seg": [
+            "t",
+            "oi",
+            "l",
+            "e",
+            "tt",
+            "e",
+            "s"
+          ],
+          "snd": [
+            "t",
+            "wa",
+            "l",
+            "ɛ",
+            "t",
+            "∅",
+            "∅"
+          ],
+          "silent": [
+            5,
+            6
+          ],
+          "stem": "toilettes",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "raspberry",
+          "theme": "fruits",
+          "noun": "raspberry",
+          "word": "framboise",
+          "seg": [
+            "f",
+            "r",
+            "am",
+            "b",
+            "oi",
+            "s",
+            "e"
+          ],
+          "snd": [
+            "f",
+            "ʁ",
+            "ɑ̃",
+            "b",
+            "wa",
+            "z",
+            "∅"
+          ],
+          "silent": [
+            6
+          ],
+          "stem": "framboise",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "croissant",
+          "theme": "bakery",
+          "noun": "croissant",
+          "word": "croissant",
+          "seg": [
+            "c",
+            "r",
+            "oi",
+            "ss",
+            "an",
+            "t"
+          ],
+          "snd": [
+            "k",
+            "ʁ",
+            "wa",
+            "s",
+            "ɑ̃",
+            "∅"
+          ],
+          "silent": [
+            5
+          ],
+          "stem": "croissant",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "goose",
+          "theme": "farm animals",
+          "noun": "goose",
+          "word": "oie",
+          "seg": [
+            "oi",
+            "e"
+          ],
+          "snd": [
+            "wa",
+            "∅"
+          ],
+          "silent": [
+            1
+          ],
+          "stem": "oie",
+          "picOpened": true
+        }
+      ]
+    }
+  },
+  "samesound": [],
+  "falsePairs": [
+    {
+      "word": "oignon",
+      "letters": "oi",
+      "why": "dans oignon, o et i se lisent /ɔ/ : ce n’est pas le son oi"
+    },
+    {
+      "word": "bonnet",
+      "letters": "on",
+      "why": "on est suivi d’un deuxième n : on entend /ɔ/, pas le son on"
+    },
+    {
+      "word": "téléphone",
+      "letters": "on",
+      "why": "o et n se lisent séparément devant le e : pas de son on"
+    },
+    {
+      "word": "couronne",
+      "letters": "on",
+      "why": "onne se lit /ɔn/ : pas de son on"
+    },
+    {
+      "word": "bonhomme",
+      "letters": "on",
+      "why": "bon-homme se lit /bɔnɔm/ : pas de son on"
+    },
+    {
+      "word": "oui",
+      "letters": "ou",
+      "why": "dans oui, ou se lit /w/ devant le i : pas le son /u/"
+    },
+    {
+      "word": "coïncidence",
+      "letters": "oi",
+      "why": "le tréma sépare o et ï : deux sons, pas le son oi"
+    }
+  ],
+  "sets": {
+    "exemplar": [
+      "ou",
+      "on",
+      "oi"
+    ],
+    "k": [
+      "ou",
+      "on"
+    ],
+    "position": [
+      "ou",
+      "on",
+      "oi"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Le loup court dans le bois.",
+      "target": "ou",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "Le",
+          "seg": [
+            "L",
+            "e"
+          ]
+        },
+        {
+          "w": "loup",
+          "seg": [
+            "l",
+            "ou",
+            "p"
+          ]
+        },
+        {
+          "w": "court",
+          "seg": [
+            "c",
+            "ou",
+            "r",
+            "t"
+          ]
+        },
+        {
+          "w": "dans",
+          "seg": [
+            "d",
+            "an",
+            "s"
+          ]
+        },
+        {
+          "w": "le",
+          "seg": [
+            "l",
+            "e"
+          ]
+        },
+        {
+          "w": "bois",
+          "seg": [
+            "b",
+            "oi",
+            "s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "text": "La poule a un joli poussin.",
+      "target": "ou",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "La",
+          "seg": [
+            "L",
+            "a"
+          ]
+        },
+        {
+          "w": "poule",
+          "seg": [
+            "p",
+            "ou",
+            "l",
+            "e"
+          ]
+        },
+        {
+          "w": "a",
+          "seg": [
+            "a"
+          ]
+        },
+        {
+          "w": "un",
+          "seg": [
+            "un"
+          ]
+        },
+        {
+          "w": "joli",
+          "seg": [
+            "j",
+            "o",
+            "l",
+            "i"
+          ]
+        },
+        {
+          "w": "poussin",
+          "seg": [
+            "p",
+            "ou",
+            "ss",
+            "in"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "text": "Je joue avec la roue du loup.",
+      "target": "ou",
+      "hits": 3,
+      "tokens": [
+        {
+          "w": "Je",
+          "seg": [
+            "J",
+            "e"
+          ]
+        },
+        {
+          "w": "joue",
+          "seg": [
+            "j",
+            "ou",
+            "e"
+          ]
+        },
+        {
+          "w": "avec",
+          "seg": [
+            "a",
+            "v",
+            "e",
+            "c"
+          ]
+        },
+        {
+          "w": "la",
+          "seg": [
+            "l",
+            "a"
+          ]
+        },
+        {
+          "w": "roue",
+          "seg": [
+            "r",
+            "ou",
+            "e"
+          ]
+        },
+        {
+          "w": "du",
+          "seg": [
+            "d",
+            "u"
+          ]
+        },
+        {
+          "w": "loup",
+          "seg": [
+            "l",
+            "ou",
+            "p"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "text": "Le hibou dort sous la lune.",
+      "target": "ou",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "Le",
+          "seg": [
+            "L",
+            "e"
+          ]
+        },
+        {
+          "w": "hibou",
+          "seg": [
+            "h",
+            "i",
+            "b",
+            "ou"
+          ]
+        },
+        {
+          "w": "dort",
+          "seg": [
+            "d",
+            "o",
+            "r",
+            "t"
+          ]
+        },
+        {
+          "w": "sous",
+          "seg": [
+            "s",
+            "ou",
+            "s"
+          ]
+        },
+        {
+          "w": "la",
+          "seg": [
+            "l",
+            "a"
+          ]
+        },
+        {
+          "w": "lune",
+          "seg": [
+            "l",
+            "u",
+            "n",
+            "e"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "text": "Mon ours joue sur le tapis.",
+      "target": "ou",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "Mon",
+          "seg": [
+            "M",
+            "on"
+          ]
+        },
+        {
+          "w": "ours",
+          "seg": [
+            "ou",
+            "r",
+            "s"
+          ]
+        },
+        {
+          "w": "joue",
+          "seg": [
+            "j",
+            "ou",
+            "e"
+          ]
+        },
+        {
+          "w": "sur",
+          "seg": [
+            "s",
+            "u",
+            "r"
+          ]
+        },
+        {
+          "w": "le",
+          "seg": [
+            "l",
+            "e"
+          ]
+        },
+        {
+          "w": "tapis",
+          "seg": [
+            "t",
+            "a",
+            "p",
+            "i",
+            "s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "text": "Le poulet et la poule picorent dans la cour.",
+      "target": "ou",
+      "hits": 3,
+      "tokens": [
+        {
+          "w": "Le",
+          "seg": [
+            "L",
+            "e"
+          ]
+        },
+        {
+          "w": "poulet",
+          "seg": [
+            "p",
+            "ou",
+            "l",
+            "et"
+          ]
+        },
+        {
+          "w": "et",
+          "seg": [
+            "et"
+          ]
+        },
+        {
+          "w": "la",
+          "seg": [
+            "l",
+            "a"
+          ]
+        },
+        {
+          "w": "poule",
+          "seg": [
+            "p",
+            "ou",
+            "l",
+            "e"
+          ]
+        },
+        {
+          "w": "picorent",
+          "seg": [
+            "p",
+            "i",
+            "c",
+            "o",
+            "r",
+            "e",
+            "nt"
+          ]
+        },
+        {
+          "w": "dans",
+          "seg": [
+            "d",
+            "an",
+            "s"
+          ]
+        },
+        {
+          "w": "la",
+          "seg": [
+            "l",
+            "a"
+          ]
+        },
+        {
+          "w": "cour",
+          "seg": [
+            "c",
+            "ou",
+            "r"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "text": "Papa a un couteau.",
+      "target": "ou",
+      "hits": 1,
+      "tokens": [
+        {
+          "w": "Papa",
+          "seg": [
+            "P",
+            "a",
+            "p",
+            "a"
+          ]
+        },
+        {
+          "w": "a",
+          "seg": [
+            "a"
+          ]
+        },
+        {
+          "w": "un",
+          "seg": [
+            "un"
+          ]
+        },
+        {
+          "w": "couteau",
+          "seg": [
+            "c",
+            "ou",
+            "t",
+            "eau"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "text": "Tout le jour, je joue dans la cour.",
+      "target": "ou",
+      "hits": 4,
+      "tokens": [
+        {
+          "w": "Tout",
+          "seg": [
+            "T",
+            "ou",
+            "t"
+          ]
+        },
+        {
+          "w": "le",
+          "seg": [
+            "l",
+            "e"
+          ]
+        },
+        {
+          "w": "jour",
+          "seg": [
+            "j",
+            "ou",
+            "r"
+          ]
+        },
+        {
+          "w": "je",
+          "seg": [
+            "j",
+            "e"
+          ]
+        },
+        {
+          "w": "joue",
+          "seg": [
+            "j",
+            "ou",
+            "e"
+          ]
+        },
+        {
+          "w": "dans",
+          "seg": [
+            "d",
+            "an",
+            "s"
+          ]
+        },
+        {
+          "w": "la",
+          "seg": [
+            "l",
+            "a"
+          ]
+        },
+        {
+          "w": "cour",
+          "seg": [
+            "c",
+            "ou",
+            "r"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "text": "Le chat voit une souris.",
+      "target": "ou",
+      "hits": 1,
+      "tokens": [
+        {
+          "w": "Le",
+          "seg": [
+            "L",
+            "e"
+          ]
+        },
+        {
+          "w": "chat",
+          "seg": [
+            "ch",
+            "a",
+            "t"
+          ]
+        },
+        {
+          "w": "voit",
+          "seg": [
+            "v",
+            "oi",
+            "t"
+          ]
+        },
+        {
+          "w": "une",
+          "seg": [
+            "u",
+            "n",
+            "e"
+          ]
+        },
+        {
+          "w": "souris",
+          "seg": [
+            "s",
+            "ou",
+            "r",
+            "i",
+            "s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "Nous avons douze moutons.",
+      "target": "ou",
+      "hits": 3,
+      "tokens": [
+        {
+          "w": "Nous",
+          "seg": [
+            "N",
+            "ou",
+            "s"
+          ]
+        },
+        {
+          "w": "avons",
+          "seg": [
+            "a",
+            "v",
+            "on",
+            "s"
+          ]
+        },
+        {
+          "w": "douze",
+          "seg": [
+            "d",
+            "ou",
+            "z",
+            "e"
+          ]
+        },
+        {
+          "w": "moutons",
+          "seg": [
+            "m",
+            "ou",
+            "t",
+            "on",
+            "s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "text": "La fourmi monte sur la tour.",
+      "target": "ou",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "La",
+          "seg": [
+            "L",
+            "a"
+          ]
+        },
+        {
+          "w": "fourmi",
+          "seg": [
+            "f",
+            "ou",
+            "r",
+            "m",
+            "i"
+          ]
+        },
+        {
+          "w": "monte",
+          "seg": [
+            "m",
+            "on",
+            "t",
+            "e"
+          ]
+        },
+        {
+          "w": "sur",
+          "seg": [
+            "s",
+            "u",
+            "r"
+          ]
+        },
+        {
+          "w": "la",
+          "seg": [
+            "l",
+            "a"
+          ]
+        },
+        {
+          "w": "tour",
+          "seg": [
+            "t",
+            "ou",
+            "r"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "text": "Léa lit un livre sur le loup.",
+      "target": "ou",
+      "hits": 1,
+      "tokens": [
+        {
+          "w": "Léa",
+          "seg": [
+            "L",
+            "é",
+            "a"
+          ]
+        },
+        {
+          "w": "lit",
+          "seg": [
+            "l",
+            "i",
+            "t"
+          ]
+        },
+        {
+          "w": "un",
+          "seg": [
+            "un"
+          ]
+        },
+        {
+          "w": "livre",
+          "seg": [
+            "l",
+            "i",
+            "v",
+            "r",
+            "e"
+          ]
+        },
+        {
+          "w": "sur",
+          "seg": [
+            "s",
+            "u",
+            "r"
+          ]
+        },
+        {
+          "w": "le",
+          "seg": [
+            "l",
+            "e"
+          ]
+        },
+        {
+          "w": "loup",
+          "seg": [
+            "l",
+            "ou",
+            "p"
+          ]
+        }
+      ]
+    }
+  ],
+  "rejectedPics": [
+    {
+      "pic": "fruits/cherry",
+      "why": "reads as an apple (design §4)"
+    },
+    {
+      "pic": "fruits/peach",
+      "why": "reads as an apple (design §4)"
+    },
+    {
+      "pic": "christmas/chimney",
+      "why": "a fireplace (design §4)"
+    },
+    {
+      "pic": "body parts/mouth",
+      "why": "said \"lèvres\" / \"sourire\", not \"bouche\" (design §4)"
+    },
+    {
+      "pic": "colors/white",
+      "why": "a white paint drop (design §1)"
+    },
+    {
+      "pic": "shapes/cone",
+      "why": "a frustum / lampshade (design §1)"
+    },
+    {
+      "pic": "easter/chick",
+      "why": "reads as a duckling: a child says \"caneton\" / \"canard\" (design review 2026-09-23)"
+    },
+    {
+      "pic": "classroom/lunchbox",
+      "why": "reads as a treasure chest (design review 2026-09-23)"
+    },
+    {
+      "pic": "tools/nail",
+      "why": "a metal nail: a French child says \"clou\" (ou), not \"ongle\" (fr panel, opened)"
+    },
+    {
+      "pic": "body parts/finger",
+      "why": "said \"doigt\" (oi) — kept off the pool so the nail card (ongle) is never confused with it (fr panel, opened)"
+    },
+    {
+      "pic": "vegetables/onion",
+      "why": "oignon: oi = /ɔ/, a false pair (fr panel)"
+    },
+    {
+      "pic": "body parts/elbow",
+      "why": "a bent arm, said \"bras\" (fr panel, opened)"
+    },
+    {
+      "pic": "body parts/knee",
+      "why": "a leg with a sock, said \"jambe\" (fr panel, opened)"
+    },
+    {
+      "pic": "body parts/neck",
+      "why": "a throat with a necklace, said \"collier\" (fr panel, opened)"
+    },
+    {
+      "pic": "kitchen tools/oven",
+      "why": "a whole cooker: a French child says \"cuisinière\", not \"four\" (fr panel, opened)"
+    },
+    {
+      "pic": "around the house/oven",
+      "why": "a whole cooker: said \"cuisinière\" (fr panel, opened)"
+    },
+    {
+      "pic": "kitchen tools/ladle",
+      "why": "reads as a spoon: said \"cuillère\" (fr panel, opened)"
+    },
+    {
+      "pic": "farm animals/chicken",
+      "why": "poulet or poule: two words for one picture (fr panel, opened)"
+    },
+    {
+      "pic": "birds 2/sparrow",
+      "why": "said \"oiseau\", not \"moineau\" (fr panel, opened)"
+    },
+    {
+      "pic": "ocean life/tuna",
+      "why": "a fish: said \"poisson\" (oi + on), not \"thon\" (fr panel, opened)"
+    },
+    {
+      "pic": "birds 2/heron",
+      "why": "said \"oiseau\" (fr panel, opened)"
+    },
+    {
+      "pic": "clothing/pants",
+      "why": "yellow shorts: said \"short\", not \"pantalon\" (fr panel, opened)"
+    },
+    {
+      "pic": "post office/stamp",
+      "why": "a postage stamp: said \"timbre\", not \"tampon\" (fr panel, opened)"
+    },
+    {
+      "pic": "birds 2/falcon",
+      "why": "reads as a penguin (fr panel, opened)"
+    },
+    {
+      "pic": "insects and bugs/cricket",
+      "why": "said \"sauterelle\", not \"grillon\" (fr panel, opened)"
+    },
+    {
+      "pic": "accessories/crown",
+      "why": "couronne shows the letters o n without the on sound (a false pair)"
+    }
+  ],
+  "strings": {
+    "base": {
+      "title": "Sons complexes ou, on, oi : quel son entends-tu ?",
+      "instruction": "Dis le nom de chaque image et entoure le son que tu entends."
+    },
+    "sort-two": {
+      "title": "Sons complexes en maternelle : trier ou et on",
+      "instruction": "Dis le nom de chaque image et relie-la par un trait au son que tu entends."
+    },
+    "gap": {
+      "title": "Sons complexes : complète avec ou, on ou oi",
+      "instruction": "Dis le nom de chaque image et écris dans l’espace en pointillés le son qui manque, choisi en haut."
+    },
+    "match": {
+      "title": "Lire des mots avec ou, on, oi et les relier aux images",
+      "instruction": "Lis chaque mot, dont le son est marqué, et relie-le par un trait à l’image qu’il nomme."
+    },
+    "position": {
+      "title": "Où entends-tu le son ou, on ou oi dans le mot ?",
+      "instruction": "Dis le nom de chaque image et colorie une case pour dire où tu entends le son : au début, au milieu ou à la fin."
+    },
+    "text": {
+      "title": "Le son ou dans des phrases : entoure et compte",
+      "instruction": "Lis les phrases, entoure chaque ou et écris dans la case combien tu en as trouvé dans chaque phrase."
+    }
+  }
+}

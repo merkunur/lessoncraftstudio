@@ -131,7 +131,7 @@ const TYPE = {
   i18n: {
     en: {
       title: 'Read the Map Key',
-      instruction: 'Look at the map key. Find each thing on the map. Count them and write how many in the box.',
+      instruction: 'Find each thing from the map key on the map, then write how many there are in its box.',
     },
   },
 

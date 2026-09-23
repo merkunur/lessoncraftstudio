@@ -1,0 +1,1377 @@
+{
+  "familyHead": "Släktord, prefix och suffix",
+  "inflections": [
+    "ar",
+    "er",
+    "or",
+    "en",
+    "et",
+    "na",
+    "arna",
+    "erna",
+    "orna",
+    "ade",
+    "de",
+    "te",
+    "s"
+  ],
+  "families": [
+    {
+      "id": "hjälp",
+      "stem": "hjälp",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "hjälp"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "hjälpa",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "hjälpare",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "hjälpsam",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "hjälpsamhet",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "hjälplös",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "medhjälpare",
+          "kind": "prefixed",
+          "slot": "noun-person"
+        },
+        {
+          "word": "hjälpmedel",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "hjärta",
+          "whyNotFamily": "ett organ i kroppen; det har inget med hjälp att göra"
+        },
+        {
+          "word": "hjul",
+          "whyNotFamily": "sitter på en cykel; bara \"hj\" är lika"
+        },
+        {
+          "word": "hjort",
+          "whyNotFamily": "ett djur i skogen"
+        }
+      ]
+    },
+    {
+      "id": "spel",
+      "stem": "spel",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "spel"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "spela",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "spelare",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "spelbar",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "spelning",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "medspelare",
+          "kind": "prefixed",
+          "slot": "noun-person"
+        },
+        {
+          "word": "motspelare",
+          "kind": "prefixed",
+          "slot": "noun-person"
+        },
+        {
+          "word": "spelplan",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "spegel",
+          "whyNotFamily": "du ser dig själv i den; inte ett spel"
+        },
+        {
+          "word": "spade",
+          "whyNotFamily": "man gräver med den"
+        },
+        {
+          "word": "spenat",
+          "whyNotFamily": "en grön grönsak"
+        }
+      ]
+    },
+    {
+      "id": "bygg",
+      "stem": "bygg",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "bygg"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "bygga",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "byggare",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "byggnad",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "bygge",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "tillbyggnad",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "påbyggnad",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "byggkloss",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "byxor",
+          "whyNotFamily": "kläder på benen"
+        },
+        {
+          "word": "by",
+          "whyNotFamily": "en liten ort på landet; bara \"by\" är lika"
+        },
+        {
+          "word": "byrå",
+          "whyNotFamily": "en möbel med lådor"
+        }
+      ]
+    },
+    {
+      "id": "arbete",
+      "stem": "arbet",
+      "rootIsFreeWord": false,
+      "root": {
+        "word": "arbet"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "arbete",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "arbeta",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "arbetare",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "arbetsam",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "arbetslös",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "bearbeta",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "medarbetare",
+          "kind": "prefixed",
+          "slot": "noun-person"
+        },
+        {
+          "word": "arbetsdag",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "armband",
+          "whyNotFamily": "ett smycke runt handleden"
+        },
+        {
+          "word": "arg",
+          "whyNotFamily": "en känsla; bara \"ar\" är lika"
+        },
+        {
+          "word": "ark",
+          "whyNotFamily": "ett papper"
+        }
+      ]
+    },
+    {
+      "id": "smak",
+      "stem": "smak",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "smak"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "smaka",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "smaklig",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "smaklös",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "smakfull",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "välsmakande",
+          "kind": "prefixed",
+          "slot": "adjective"
+        },
+        {
+          "word": "eftersmak",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "smakprov",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "smal",
+          "whyNotFamily": "inte tjock"
+        },
+        {
+          "word": "smycke",
+          "whyNotFamily": "något fint att bära"
+        },
+        {
+          "word": "smör",
+          "whyNotFamily": "man bre på smörgåsen"
+        }
+      ]
+    },
+    {
+      "id": "läs",
+      "stem": "läs",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "läs"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "läsa",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "läsare",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "läsning",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "läsbar",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "uppläsning",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "uppläsare",
+          "kind": "prefixed",
+          "slot": "noun-person"
+        },
+        {
+          "word": "läsebok",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "läpp",
+          "whyNotFamily": "en del av munnen"
+        },
+        {
+          "word": "läder",
+          "whyNotFamily": "ett material till skor"
+        },
+        {
+          "word": "läge",
+          "whyNotFamily": "en plats där något står"
+        }
+      ]
+    },
+    {
+      "id": "vän",
+      "stem": "vän",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "vän"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "vänlig",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "vänlighet",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "vänskap",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "vänskaplig",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "väninna",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "vänligen",
+          "kind": "derived",
+          "slot": "adverb"
+        },
+        {
+          "word": "barndomsvän",
+          "kind": "compound",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "vänta",
+          "whyNotFamily": "att stå still tills något händer; inte om vänner"
+        },
+        {
+          "word": "vänster",
+          "whyNotFamily": "motsatsen till höger"
+        },
+        {
+          "word": "väska",
+          "whyNotFamily": "något man bär saker i"
+        }
+      ]
+    },
+    {
+      "id": "tänk",
+      "stem": "tänk",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "tänk"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "tänka",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "tänkare",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "tänkbar",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "tänkande",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "eftertänksam",
+          "kind": "prefixed",
+          "slot": "adjective"
+        },
+        {
+          "word": "betänka",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "betänketid",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "tänder",
+          "whyNotFamily": "man biter med dem"
+        },
+        {
+          "word": "tävla",
+          "whyNotFamily": "att försöka vinna; bara \"tä\" är lika"
+        },
+        {
+          "word": "täcke",
+          "whyNotFamily": "man har det över sig i sängen"
+        }
+      ]
+    }
+  ],
+  "rootFamilies": [
+    {
+      "id": "flyg",
+      "stem": "flyg",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "flyg"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "flyga",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "flygare",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "flygning",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "flygande",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "avflygning",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "överflygning",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "flygplan",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "flicka",
+          "whyNotFamily": "ett barn; bara \"fl\" är lika"
+        },
+        {
+          "word": "flaska",
+          "whyNotFamily": "man häller saft ur den"
+        },
+        {
+          "word": "flagga",
+          "whyNotFamily": "ett tyg med färger på en stång"
+        }
+      ]
+    },
+    {
+      "id": "dans",
+      "stem": "dans",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "dans"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "dansa",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "dansare",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "dansös",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "dansant",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "dansbar",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "dansande",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "dansbana",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "dator",
+          "whyNotFamily": "en maskin man skriver på"
+        },
+        {
+          "word": "dag",
+          "whyNotFamily": "motsatsen till natt"
+        },
+        {
+          "word": "dam",
+          "whyNotFamily": "en vuxen kvinna"
+        }
+      ]
+    }
+  ],
+  "picFamilies": [
+    {
+      "id": "sol",
+      "stem": "sol",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "sol",
+        "pic": {
+          "theme": "weather",
+          "noun": "sun"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "solig",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "soffa",
+          "whyNotFamily": "börjar som \"sol\" men är inte byggt av ordet"
+        },
+        {
+          "word": "socker",
+          "whyNotFamily": "börjar som \"sol\" men är inte byggt av ordet"
+        },
+        {
+          "word": "sopor",
+          "whyNotFamily": "börjar som \"sol\" men är inte byggt av ordet"
+        }
+      ]
+    },
+    {
+      "id": "moln",
+      "stem": "moln",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "moln",
+        "pic": {
+          "theme": "spring",
+          "noun": "cloud"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "molnig",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "morot",
+          "whyNotFamily": "börjar som \"moln\" men är inte byggt av ordet"
+        },
+        {
+          "word": "mobil",
+          "whyNotFamily": "börjar som \"moln\" men är inte byggt av ordet"
+        },
+        {
+          "word": "moped",
+          "whyNotFamily": "börjar som \"moln\" men är inte byggt av ordet"
+        }
+      ]
+    },
+    {
+      "id": "hår",
+      "stem": "hår",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "hår",
+        "pic": {
+          "theme": "body parts",
+          "noun": "hair"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "hårig",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "hål",
+          "whyNotFamily": "börjar som \"hår\" men är inte byggt av ordet"
+        },
+        {
+          "word": "håv",
+          "whyNotFamily": "börjar som \"hår\" men är inte byggt av ordet"
+        },
+        {
+          "word": "hålla",
+          "whyNotFamily": "börjar som \"hår\" men är inte byggt av ordet"
+        }
+      ]
+    },
+    {
+      "id": "hand",
+      "stem": "hand",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "hand",
+        "pic": {
+          "theme": "body parts",
+          "noun": "hand"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "handlig",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "hammare",
+          "whyNotFamily": "börjar som \"hand\" men är inte byggt av ordet"
+        },
+        {
+          "word": "hatt",
+          "whyNotFamily": "börjar som \"hand\" men är inte byggt av ordet"
+        },
+        {
+          "word": "hare",
+          "whyNotFamily": "börjar som \"hand\" men är inte byggt av ordet"
+        }
+      ]
+    },
+    {
+      "id": "tand",
+      "stem": "tand",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "tand",
+        "pic": {
+          "theme": "body parts",
+          "noun": "tooth"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "tandlös",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "tavla",
+          "whyNotFamily": "börjar som \"tand\" men är inte byggt av ordet"
+        },
+        {
+          "word": "tallrik",
+          "whyNotFamily": "börjar som \"tand\" men är inte byggt av ordet"
+        },
+        {
+          "word": "tak",
+          "whyNotFamily": "börjar som \"tand\" men är inte byggt av ordet"
+        }
+      ]
+    },
+    {
+      "id": "fisk",
+      "stem": "fisk",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "fisk",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "fiskare",
+          "kind": "derived",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "fika",
+          "whyNotFamily": "börjar som \"fisk\" men är inte byggt av ordet"
+        },
+        {
+          "word": "fil",
+          "whyNotFamily": "börjar som \"fisk\" men är inte byggt av ordet"
+        },
+        {
+          "word": "finger",
+          "whyNotFamily": "börjar som \"fisk\" men är inte byggt av ordet"
+        }
+      ]
+    },
+    {
+      "id": "tält",
+      "stem": "tält",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "tält",
+        "pic": {
+          "theme": "camping",
+          "noun": "tent"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "tälta",
+          "kind": "derived",
+          "slot": "verb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "tärning",
+          "whyNotFamily": "börjar som \"tält\" men är inte byggt av ordet"
+        },
+        {
+          "word": "tävling",
+          "whyNotFamily": "börjar som \"tält\" men är inte byggt av ordet"
+        },
+        {
+          "word": "tända",
+          "whyNotFamily": "börjar som \"tält\" men är inte byggt av ordet"
+        }
+      ]
+    },
+    {
+      "id": "berg",
+      "stem": "berg",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "berg",
+        "pic": {
+          "theme": "camping",
+          "noun": "mountain"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "bergig",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "bebis",
+          "whyNotFamily": "börjar som \"berg\" men är inte byggt av ordet"
+        },
+        {
+          "word": "bestick",
+          "whyNotFamily": "börjar som \"berg\" men är inte byggt av ordet"
+        },
+        {
+          "word": "bensin",
+          "whyNotFamily": "börjar som \"berg\" men är inte byggt av ordet"
+        }
+      ]
+    }
+  ],
+  "sentences": {
+    "hjälp": [
+      {
+        "word": "hjälpa",
+        "slot": "verb",
+        "frame": "Kan du {gap} mig att bära kassen?"
+      },
+      {
+        "word": "hjälpare",
+        "slot": "noun-person",
+        "frame": "Mormor fick en liten {gap} i köket."
+      },
+      {
+        "word": "hjälpmedel",
+        "slot": "noun-thing",
+        "frame": "Glasögon är ett {gap} för den som ser dåligt."
+      },
+      {
+        "word": "hjälpsam",
+        "slot": "adjective",
+        "frame": "Det är fint att vara {gap} mot sina vänner."
+      }
+    ],
+    "arbete": [
+      {
+        "word": "arbeta",
+        "slot": "verb",
+        "frame": "Pappa brukar {gap} i trädgården på lördagar."
+      },
+      {
+        "word": "arbetare",
+        "slot": "noun-person",
+        "frame": "En {gap} lagade vägen utanför skolan."
+      },
+      {
+        "word": "arbetsdag",
+        "slot": "noun-thing",
+        "frame": "Efter en lång {gap} vill mamma vila."
+      },
+      {
+        "word": "arbetsam",
+        "slot": "adjective",
+        "frame": "Myran är ett litet men {gap} djur."
+      }
+    ]
+  },
+  "prefixKey": {
+    "prefixes": [
+      {
+        "prefix": "åter",
+        "meaning": "igen, en gång till"
+      },
+      {
+        "prefix": "miss",
+        "meaning": "fel"
+      },
+      {
+        "prefix": "över",
+        "meaning": "för mycket"
+      }
+    ],
+    "rows": [
+      {
+        "base": "använda",
+        "prefix": "åter",
+        "word": "återanvända",
+        "gloss": "använda en burk en gång till"
+      },
+      {
+        "base": "berätta",
+        "prefix": "åter",
+        "word": "återberätta",
+        "gloss": "berätta en saga igen med egna ord"
+      },
+      {
+        "base": "besöka",
+        "prefix": "åter",
+        "word": "återbesöka",
+        "gloss": "besöka samma plats en gång till"
+      },
+      {
+        "base": "förstå",
+        "prefix": "miss",
+        "word": "missförstå",
+        "gloss": "förstå fel vad någon menar"
+      },
+      {
+        "base": "höra",
+        "prefix": "miss",
+        "word": "misshöra",
+        "gloss": "höra fel vad någon säger"
+      },
+      {
+        "base": "lyckas",
+        "prefix": "miss",
+        "word": "misslyckas",
+        "gloss": "när det går fel och man inte klarar det"
+      },
+      {
+        "base": "äta",
+        "prefix": "över",
+        "word": "överäta",
+        "gloss": "äta alldeles för mycket"
+      },
+      {
+        "base": "fylla",
+        "prefix": "över",
+        "word": "överfylla",
+        "gloss": "fylla ett glas för mycket"
+      },
+      {
+        "base": "koka",
+        "prefix": "över",
+        "word": "överkoka",
+        "gloss": "låta maten koka för länge"
+      },
+      {
+        "base": "driva",
+        "prefix": "över",
+        "word": "överdriva",
+        "gloss": "göra en sak större och värre än den var när man berättar"
+      }
+    ],
+    "crossCheck": [
+      {
+        "base": "använda",
+        "prefix": "åter",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "använda",
+        "prefix": "miss",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "använda",
+        "prefix": "över",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "berätta",
+        "prefix": "åter",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "berätta",
+        "prefix": "miss",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "berätta",
+        "prefix": "över",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "besöka",
+        "prefix": "åter",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "besöka",
+        "prefix": "miss",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "besöka",
+        "prefix": "över",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "förstå",
+        "prefix": "åter",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "förstå",
+        "prefix": "miss",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "förstå",
+        "prefix": "över",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "höra",
+        "prefix": "åter",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "höra",
+        "prefix": "miss",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "höra",
+        "prefix": "över",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "lyckas",
+        "prefix": "åter",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "lyckas",
+        "prefix": "miss",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "lyckas",
+        "prefix": "över",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "äta",
+        "prefix": "åter",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "äta",
+        "prefix": "miss",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "äta",
+        "prefix": "över",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "fylla",
+        "prefix": "åter",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "fylla",
+        "prefix": "miss",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "fylla",
+        "prefix": "över",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "koka",
+        "prefix": "åter",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "koka",
+        "prefix": "miss",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "koka",
+        "prefix": "över",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "driva",
+        "prefix": "åter",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "driva",
+        "prefix": "miss",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "driva",
+        "prefix": "över",
+        "isWord": true,
+        "fitsGloss": true
+      }
+    ]
+  },
+  "negating": [
+    "o",
+    "icke"
+  ],
+  "agents": [
+    {
+      "key": "baker",
+      "base": "baka",
+      "answer": {
+        "any": "bagare"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "teacher",
+      "base": "lära",
+      "answer": {
+        "any": "lärare"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "singer",
+      "base": "sång",
+      "answer": {
+        "any": "sångare"
+      }
+    },
+    {
+      "key": "musician",
+      "base": "musik",
+      "answer": {
+        "any": "musiker"
+      }
+    },
+    {
+      "key": "photographer",
+      "base": "foto",
+      "answer": {
+        "any": "fotograf"
+      }
+    },
+    {
+      "key": "athlete",
+      "base": "löpa",
+      "answer": {
+        "any": "löpare"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "ballerina",
+      "base": "dans",
+      "answer": {
+        "any": "dansare"
+      }
+    },
+    {
+      "key": "cashier",
+      "base": "kassa",
+      "answer": {
+        "m": "kassör",
+        "f": "kassörska"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "pharmacist",
+      "base": "apotek",
+      "answer": {
+        "any": "apotekare"
+      }
+    },
+    {
+      "key": "doctor",
+      "base": "läka",
+      "answer": {
+        "any": "läkare"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "judge",
+      "base": "döma",
+      "answer": {
+        "any": "domare"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "carpenter",
+      "base": "snickra",
+      "answer": {
+        "any": "snickare"
+      },
+      "stemSigned": true
+    }
+  ],
+  "exemplar": {
+    "base": [
+      "bygg",
+      "hjälp"
+    ],
+    "F1": [
+      "weather/sun",
+      "spring/cloud",
+      "body parts/hair",
+      "body parts/hand",
+      "body parts/tooth",
+      "ocean life/fish",
+      "camping/tent",
+      "camping/mountain"
+    ],
+    "F2": [
+      "hjälp",
+      "spel",
+      "bygg",
+      "arbete",
+      "smak",
+      "läs",
+      "vän",
+      "tänk"
+    ],
+    "F5": [
+      "hjälp",
+      "arbete"
+    ]
+  },
+  "refuse": {
+    "base": false,
+    "picture-family": false,
+    "root-word": false,
+    "prefix-key": false,
+    "who-does-it": false,
+    "family-in-sentence": false
+  },
+  "strings": {
+    "base": {
+      "title": "Släktord: sortera orden efter ordstammen",
+      "instruction": "Läs varje ord överst och skriv det på en rad i den mur som står på ordets ordstam."
+    },
+    "picture-family": {
+      "title": "Släktord med bilder: ringa in rätt ord",
+      "instruction": "Säg vad varje bild föreställer och ringa in det enda ord ovanför som är byggt av bildens ord."
+    },
+    "root-word": {
+      "title": "Hitta ordstammen",
+      "instruction": "Ringa in den del som de tre orden har gemensamt och skriv ordstammen i den tomma stenen."
+    },
+    "prefix-key": {
+      "title": "Prefixen åter-, miss- och över-: välj efter betydelse",
+      "instruction": "Läs vad varje nytt ord betyder, hitta dess prefix i nyckeln och skriv det i den tomma biten."
+    },
+    "who-does-it": {
+      "title": "Vem gör det? Skriv ordet för personen",
+      "instruction": "Titta på varje person som arbetar, läs ordet bredvid och skriv ordet för personen i den tomma tegelstenen."
+    },
+    "family-in-sentence": {
+      "title": "Släktord i meningar",
+      "instruction": "Skriv vart och ett av de fyra orden på stenen i den mening där det passar."
+    }
+  }
+}

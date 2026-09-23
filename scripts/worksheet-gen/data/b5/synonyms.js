@@ -50,6 +50,8 @@
  *   - `huge`, `tiny`, `boiling` … are SHADES of a group word (big -> huge): they live
  *     in `scales` and `near`, never in a group (rule 6: a group is one strength).
  *   - no group word is a field word (the F5 pile and the base never share a literal).
+ *   - 2026-09-23 review: quiet / silent differ in DEGREE (silent = no sound at all) -> quiet / hushed;
+ *     sloppy means CARELESS, not messy -> messy / cluttered. Neither old word is printed anywhere.
  *
  * `data/` is gitignored — the reviewer force-adds this module.
  */
@@ -65,7 +67,7 @@ const SYNONYMS = {
       // adjectives ------------------------------------------------------------ 25
       { id: 'g.happy', concept: 'happy', pos: 'adj', domain: 'feelings', tier: 1, words: ['happy', 'glad', 'cheerful'] },
       { id: 'g.sad', concept: 'sad', pos: 'adj', domain: 'feelings', tier: 1, words: ['sad', 'gloomy'] },
-      { id: 'g.angry', concept: 'angry', pos: 'adj', domain: 'feelings', tier: 1, words: ['angry', 'mad'] },
+      { id: 'g.angry', concept: 'angry', pos: 'adj', domain: 'feelings', tier: 1, words: ['angry', 'grumpy'] },
       { id: 'g.scared', concept: 'scared', pos: 'adj', domain: 'feelings', tier: 1, words: ['scared', 'afraid', 'frightened'] },
       { id: 'g.surprised', concept: 'surprised', pos: 'adj', domain: 'feelings', tier: 2, words: ['surprised', 'amazed', 'astonished'] },
       { id: 'g.calm', concept: 'calm', pos: 'adj', domain: 'feelings', tier: 2, words: ['calm', 'peaceful'] },
@@ -82,29 +84,27 @@ const SYNONYMS = {
       { id: 'g.funny', concept: 'funny', pos: 'adj', domain: 'character', tier: 2, words: ['funny', 'amusing'] },
       { id: 'g.strange', concept: 'strange', pos: 'adj', domain: 'character', tier: 2, words: ['strange', 'weird'] },
       { id: 'g.loud', concept: 'loud', pos: 'adj', domain: 'senses', tier: 1, words: ['loud', 'noisy'] },
-      { id: 'g.quiet', concept: 'quiet', pos: 'adj', domain: 'senses', tier: 2, words: ['quiet', 'silent'] },
+      { id: 'g.quiet', concept: 'quiet', pos: 'adj', domain: 'senses', tier: 2, words: ['quiet', 'hushed'] },
       { id: 'g.tasty', concept: 'tasty', pos: 'adj', domain: 'senses', tier: 1, words: ['tasty', 'yummy', 'delicious'] },
       { id: 'g.cozy', concept: 'cozy', pos: 'adj', domain: 'senses', tier: 2, words: ['cozy', 'snug'] },
       { id: 'g.pretty', concept: 'pretty', pos: 'adj', domain: 'looks', tier: 1, words: ['pretty', 'beautiful', 'lovely'] },
       { id: 'g.tidy', concept: 'tidy', pos: 'adj', domain: 'looks', tier: 2, words: ['tidy', 'neat'] },
-      { id: 'g.messy', concept: 'messy', pos: 'adj', domain: 'looks', tier: 2, words: ['messy', 'sloppy'] },
+      { id: 'g.messy', concept: 'messy', pos: 'adj', domain: 'looks', tier: 2, words: ['messy', 'cluttered'] },
       { id: 'g.dirty', concept: 'dirty', pos: 'adj', domain: 'looks', tier: 2, words: ['dirty', 'grubby'] },
-      // verbs ------------------------------------------------------------------ 15
+      // verbs ------------------------------------------------------------------ 13 (2026-09-23: throw dropped — toss is off-register, no clean partner; smile dropped — grin is a bigger smile, a shade not a synonym)
       { id: 'g.begin', concept: 'begin', pos: 'verb', domain: 'begin-end', tier: 1, words: ['begin', 'start'] },
       { id: 'g.end', concept: 'end', pos: 'verb', domain: 'begin-end', tier: 1, words: ['end', 'finish'] },
       { id: 'g.shut', concept: 'shut', pos: 'verb', domain: 'hands', tier: 1, words: ['shut', 'close'] },
-      { id: 'g.fix', concept: 'fix', pos: 'verb', domain: 'hands', tier: 1, words: ['fix', 'repair', 'mend'] },
+      { id: 'g.fix', concept: 'fix', pos: 'verb', domain: 'hands', tier: 1, words: ['fix', 'repair'] },
       { id: 'g.choose', concept: 'choose', pos: 'verb', domain: 'hands', tier: 2, words: ['choose', 'pick', 'select'] },
       { id: 'g.collect', concept: 'collect', pos: 'verb', domain: 'hands', tier: 2, words: ['collect', 'gather'] },
       { id: 'g.help', concept: 'help', pos: 'verb', domain: 'hands', tier: 2, words: ['help', 'assist'] },
       { id: 'g.jump', concept: 'jump', pos: 'verb', domain: 'move', tier: 1, words: ['jump', 'leap'] },
-      { id: 'g.throw', concept: 'throw', pos: 'verb', domain: 'move', tier: 1, words: ['throw', 'toss'] },
       { id: 'g.fall', concept: 'fall', pos: 'verb', domain: 'move', tier: 2, words: ['fall', 'tumble'] },
       { id: 'g.stay', concept: 'stay', pos: 'verb', domain: 'move', tier: 2, words: ['stay', 'remain'] },
       { id: 'g.talk', concept: 'talk', pos: 'verb', domain: 'speak', tier: 1, words: ['talk', 'speak', 'chat'] },
       { id: 'g.shout', concept: 'shout', pos: 'verb', domain: 'speak', tier: 1, words: ['shout', 'yell'] },
       { id: 'g.cry', concept: 'cry', pos: 'verb', domain: 'face', tier: 2, words: ['cry', 'weep'] },
-      { id: 'g.smile', concept: 'smile', pos: 'verb', domain: 'face', tier: 1, words: ['smile', 'grin'] },
     ],
     near: [
       { a: 'big', b: 'huge', why: 'shade: huge is much more than big' },
@@ -115,8 +115,7 @@ const SYNONYMS = {
       { a: 'scared', b: 'nervous', why: 'shade' },
       { a: 'sad', b: 'miserable', why: 'shade' },
       { a: 'quiet', b: 'calm', why: 'quiet is no sound; calm is a feeling' },
-      { a: 'messy', b: 'dirty', why: 'messy is not tidy; dirty is not clean' },
-      { a: 'strong', b: 'brave', why: 'strength of body vs courage' },
+      { a: 'messy', b: 'dirty', why: 'messy is not tidy; dirty is not clean' },      { a: 'strong', b: 'brave', why: 'strength of body vs courage' },
       { a: 'close', b: 'end', why: 'close can mean end (close a meeting)' },
       { a: 'pick', b: 'collect', why: 'pick flowers = gather them' },
       { a: 'good', b: 'great', why: 'shade' },
@@ -130,14 +129,14 @@ const SYNONYMS = {
     // tired face: sad · race car: size words (size is relative) · elephant calf: happy + tired (it sits and
     // smiles) · ant: fast (ants scurry), happy, angry (a cartoon ant).
     falseOf: {
-      happy: ['sad', 'gloomy', 'angry', 'mad', 'scared', 'afraid', 'frightened', 'surprised', 'amazed', 'astonished', 'tired', 'sleepy', 'fast', 'quick', 'speedy', 'big', 'large', 'small', 'little'],
-      sad: ['happy', 'glad', 'cheerful', 'angry', 'mad', 'surprised', 'amazed', 'astonished', 'fast', 'quick', 'speedy', 'big', 'large', 'small', 'little'],
+      happy: ['sad', 'gloomy', 'angry', 'grumpy', 'scared', 'afraid', 'frightened', 'surprised', 'amazed', 'astonished', 'tired', 'sleepy', 'fast', 'quick', 'speedy', 'big', 'large', 'small', 'little'],
+      sad: ['happy', 'glad', 'cheerful', 'angry', 'grumpy', 'surprised', 'amazed', 'astonished', 'fast', 'quick', 'speedy', 'big', 'large', 'small', 'little'],
       angry: ['happy', 'glad', 'cheerful', 'sad', 'gloomy', 'scared', 'afraid', 'frightened', 'surprised', 'amazed', 'astonished', 'tired', 'sleepy', 'fast', 'quick', 'speedy', 'big', 'large', 'small', 'little'],
       scared: ['happy', 'glad', 'cheerful', 'sad', 'gloomy', 'tired', 'sleepy', 'fast', 'quick', 'speedy', 'big', 'large', 'small', 'little'],
-      surprised: ['happy', 'glad', 'cheerful', 'sad', 'gloomy', 'angry', 'mad', 'tired', 'sleepy', 'fast', 'quick', 'speedy', 'big', 'large', 'small', 'little'],
-      tired: ['happy', 'glad', 'cheerful', 'angry', 'mad', 'scared', 'afraid', 'frightened', 'surprised', 'amazed', 'astonished', 'fast', 'quick', 'speedy', 'big', 'large', 'small', 'little'],
-      fast: ['happy', 'glad', 'cheerful', 'sad', 'gloomy', 'angry', 'mad', 'scared', 'afraid', 'frightened', 'surprised', 'amazed', 'astonished', 'tired', 'sleepy'],
-      big: ['sad', 'gloomy', 'angry', 'mad', 'scared', 'afraid', 'frightened', 'surprised', 'amazed', 'astonished', 'fast', 'quick', 'speedy', 'small', 'little'],
+      surprised: ['happy', 'glad', 'cheerful', 'sad', 'gloomy', 'angry', 'grumpy', 'tired', 'sleepy', 'fast', 'quick', 'speedy', 'big', 'large', 'small', 'little'],
+      tired: ['happy', 'glad', 'cheerful', 'angry', 'grumpy', 'scared', 'afraid', 'frightened', 'surprised', 'amazed', 'astonished', 'fast', 'quick', 'speedy', 'big', 'large', 'small', 'little'],
+      fast: ['happy', 'glad', 'cheerful', 'sad', 'gloomy', 'angry', 'grumpy', 'scared', 'afraid', 'frightened', 'surprised', 'amazed', 'astonished', 'tired', 'sleepy'],
+      big: ['sad', 'gloomy', 'angry', 'grumpy', 'scared', 'afraid', 'frightened', 'surprised', 'amazed', 'astonished', 'fast', 'quick', 'speedy', 'small', 'little'],
       small: ['sad', 'gloomy', 'scared', 'afraid', 'frightened', 'surprised', 'amazed', 'astonished', 'tired', 'sleepy', 'big', 'large'],
     },
     // nearOnly: words that live ONLY in `near` (kept off every card beside their partner) since their F3
@@ -164,14 +163,14 @@ const SYNONYMS = {
         form: 'past',
         words: ['whispered', 'shouted', 'asked', 'answered', 'explained', 'promised'],
         sentences: [
-          { id: 'f1', text: 'The baby was asleep, so {name} {gap} very softly.', fit: { whispered: true, shouted: false, asked: false, answered: false, explained: false, promised: false } },
+          { id: 'f1', text: '“Shh, the baby is sleeping,” {name} {gap} very softly.', fit: { whispered: true, shouted: false, asked: false, answered: false, explained: false, promised: false } },
           { id: 'f2', text: '{name} {gap} the secret into Grandma’s ear.', fit: { whispered: true, shouted: false, asked: false, answered: false, explained: false, promised: false } },
           { id: 'f3', text: 'The bus was leaving, so {name} {gap}, “Wait for me!”', fit: { whispered: false, shouted: true, asked: false, answered: false, explained: false, promised: false } },
           { id: 'f4', text: '{name} {gap} loudly across the big field.', fit: { whispered: false, shouted: true, asked: false, answered: false, explained: false, promised: false } },
           { id: 'f5', text: '“Where is my red hat?” {name} {gap}.', fit: { whispered: false, shouted: false, asked: true, answered: false, explained: false, promised: false } },
           { id: 'f6', text: '{name} {gap} the teacher’s question with a big smile.', fit: { whispered: false, shouted: false, asked: false, answered: true, explained: false, promised: false } },
           { id: 'f7', text: '{name} {gap} how to plant a seed, one step at a time.', fit: { whispered: false, shouted: false, asked: false, answered: false, explained: true, promised: false } },
-          { id: 'f8', text: '“Cross my heart, I will feed the fish every day,” {name} {gap}.', fit: { whispered: false, shouted: false, asked: false, answered: false, explained: false, promised: true } },
+          { id: 'f8', text: '{name} {gap} to feed the fish every day, and never missed a day.', fit: { whispered: false, shouted: false, asked: false, answered: false, explained: false, promised: true } },
         ],
       },
       go: { head: 'go', words: ['walk', 'march', 'crawl', 'hurry', 'stroll', 'wander', 'creep', 'dash'] },
@@ -184,7 +183,7 @@ const SYNONYMS = {
       pairs: { title: 'Synonym Pairs: Match the Words That Mean the Same', instruction: 'Draw a line to link each word on the left with the word on the right that means the same.' },
       shades: { title: 'Shades of Meaning: From a Little to a Lot', instruction: 'Read the three words in each row and write 1, 2 and 3 in the boxes, from the weakest word to the strongest.' },
       say: { title: 'Synonyms for Said: Pick the Word That Fits', instruction: 'Read each sentence and write the word from the bubble that fits best in the box instead of said.' },
-      fields: { title: 'Word Fields: Words for Go and Look', instruction: 'Read the ten words and write each one in the field of the word it means nearly the same as.' },
+      fields: { title: 'Word Fields: Words for Go and Look', instruction: 'Write each word in the field it belongs to.' },
     },
   },
 };

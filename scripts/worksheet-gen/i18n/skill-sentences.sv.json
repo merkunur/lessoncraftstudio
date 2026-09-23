@@ -378,5 +378,45 @@
   "rounding": {
     "full": "Avrundning för åk 3: avrunda tal uppåt eller nedåt till närmaste tiotal och hundratal, göra överslag till en summa och hitta talen som blir 50.",
     "short": "Avrunda tal till närmaste tiotal"
+  },
+  "2d-shapes": {
+    "full": "Geometriska former: känna igen och namnge cirkel, kvadrat, triangel och rektangel, också vridna, hitta former omkring oss, skriva namnen och rita formerna.",
+    "short": "Namnge cirkel, kvadrat, triangel, rektangel"
+  },
+  "road-safety": {
+    "full": "Trafikregler för barn: läsa trafikljuset, gå säkert över gatan, förstå trafikmärken och vad de betyder samt sortera varnings-, förbuds- och påbudsmärken.",
+    "short": "Trafikljus, trafikmärken och trafikregler"
+  },
+  "family": {
+    "full": "Familj och släkt: familjeord som mormor, farmor, moster och farbror, ordna generationer, fylla i ett släktträd med ledtrådar och lösa släktgåtor.",
+    "short": "Familjeord, släktträd och släktgåtor"
+  },
+  "plants": {
+    "full": "Växtens delar: rot, stjälk, blad, blomma, frukt och frö, vad en växt behöver för att växa, från frö till växt och blommans delar.",
+    "short": "Växtens delar och vad de gör"
+  },
+  "animal-life-cycles": {
+    "full": "Fjärilens och grodans livscykel: från ägg till fjäril och från grodrom till groda, ordna och namnge stadierna och jämför de två djurens utveckling.",
+    "short": "Fjärilens och grodans livscykel"
+  },
+  "earth-and-space": {
+    "full": "Solsystemet: skilja på Solen, Jorden och Månen, ordna och namnge månens faser, förstå dag och natt och lära sig planeterna i ordning och efter storlek.",
+    "short": "Solen, månens faser och planeterna"
+  },
+  "maps": {
+    "full": "Kartkunskap: läsa teckenförklaringen, se saker i fågelperspektiv, väderstrecken norr, öster, söder och väster samt världsdelar och världshav på kartan.",
+    "short": "Kartor, väderstreck och världsdelar"
+  },
+  "digraphs": {
+    "full": "Bokstavskombinationer: höra, sortera och skriva ljud som stavas med två bokstäver, läsa ord och hitta ljudet i ordet och i meningar.",
+    "short": "Ljud som stavas med två bokstäver"
+  },
+  "synonyms": {
+    "full": "Synonymer: hitta ord som betyder samma sak, med bilder och ordpar, ordna ord efter styrka och välja rätt synonym till sa, gå och titta.",
+    "short": "Ord som betyder samma sak"
+  },
+  "word-parts": {
+    "full": "Släktord, prefix och suffix: sortera ord efter ordstammen, hitta ordstammen, välja prefix efter betydelse och bilda ord för personer.",
+    "short": "Släktord, ordstam och prefix"
   }
 }

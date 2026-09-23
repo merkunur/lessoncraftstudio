@@ -1,0 +1,123 @@
+{
+  "names": {
+    "circle": "sirkel",
+    "square": "kvadrat",
+    "triangle": "trekant",
+    "rectangle": "rektangel",
+    "hexagon": "sekskant"
+  },
+  "overrides": {},
+  "inflections": {
+    "circle": [
+      "sirkelen",
+      "sirkler",
+      "sirklene",
+      "sirkelens"
+    ],
+    "square": [
+      "kvadratet",
+      "kvadrater",
+      "kvadratene",
+      "kvadratets"
+    ],
+    "triangle": [
+      "trekanten",
+      "trekanter",
+      "trekantene",
+      "trekantens"
+    ],
+    "rectangle": [
+      "rektangelet",
+      "rektanglet",
+      "rektangler",
+      "rektanglene",
+      "rektangelets"
+    ],
+    "hexagon": [
+      "sekskanten",
+      "sekskanter",
+      "sekskantene"
+    ]
+  },
+  "inventory": {
+    "hexagon": true
+  },
+  "riddles": {
+    "circle": [
+      {
+        "text": "Jeg er rund hele veien rundt og har ingen hjørner. Hva er jeg?",
+        "clue": "round"
+      },
+      {
+        "text": "Jeg har ingen rette sider og ingen hjørner i det hele tatt. Hva er jeg?",
+        "clue": "round"
+      }
+    ],
+    "square": [
+      {
+        "text": "Alle mine 4 sider er like lange. Hva er jeg?",
+        "clue": "equal"
+      },
+      {
+        "text": "Jeg har 4 hjørner og 4 sider som er like lange. Hva er jeg?",
+        "clue": "equal"
+      }
+    ],
+    "triangle": [
+      {
+        "text": "Jeg har 3 sider og 3 hjørner. Hva er jeg?",
+        "clue": "three"
+      },
+      {
+        "text": "Jeg har bare 3 rette sider. Hva er jeg?",
+        "clue": "three"
+      }
+    ],
+    "rectangle": [
+      {
+        "text": "Jeg har 2 lange sider og 2 korte sider. Hva er jeg?",
+        "clue": "longShort"
+      },
+      {
+        "text": "Jeg har 4 hjørner, 2 lange sider og 2 korte sider. Hva er jeg?",
+        "clue": "longShort"
+      }
+    ],
+    "hexagon": [
+      {
+        "text": "Jeg har 6 sider og 6 hjørner. Hva er jeg?",
+        "clue": "six"
+      },
+      {
+        "text": "Jeg har 6 rette sider. Hva er jeg?",
+        "clue": "six"
+      }
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Geometriske figurer: hva heter figuren?",
+      "instruction": "Se på hver figur, også de som er snudd og smale, og ring rundt navnet til figuren."
+    },
+    "real-or-not": {
+      "title": "Geometriske figurer: er det riktig figur?",
+      "instruction": "Les navnet i hver rad og ring rundt alle figurene som virkelig er en slik figur."
+    },
+    "around-us": {
+      "title": "Geometriske figurer rundt oss",
+      "instruction": "Se på hvert bilde og fargelegg figuren som tingen har: sirkel eller rektangel."
+    },
+    "write-name": {
+      "title": "Geometriske figurer med navn: skriv navnene",
+      "instruction": "Se på hver figur og skriv navnet på streken, navnene står i ruten."
+    },
+    "riddles": {
+      "title": "Gåter om geometriske figurer",
+      "instruction": "Les hver gåte og ring rundt navnet til figuren."
+    },
+    "dot-draw": {
+      "title": "Tegn geometriske figurer på prikkark",
+      "instruction": "Les navnet og trekk streker mellom prikkene slik at figuren blir tegnet, start ved den tykke streken hvis det er en."
+    }
+  }
+}

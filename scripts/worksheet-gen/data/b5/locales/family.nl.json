@@ -1,0 +1,260 @@
+{
+  "kin": {
+    "M": "mama",
+    "F": "papa",
+    "Z": "zus",
+    "B": "broer",
+    "Zy": "zusje",
+    "By": "broertje",
+    "MM": "oma",
+    "FM": "oma",
+    "MF": "opa",
+    "FF": "opa",
+    "MZ": "tante",
+    "FZ": "tante",
+    "MB": "oom",
+    "FB": "oom",
+    "MZD": "nicht",
+    "MBD": "nicht",
+    "FZD": "nicht",
+    "FBD": "nicht",
+    "MZS": "neef",
+    "MBS": "neef",
+    "FZS": "neef",
+    "FBS": "neef"
+  },
+  "words": {
+    "mama": {
+      "text": "mama",
+      "register": "K"
+    },
+    "papa": {
+      "text": "papa",
+      "register": "K"
+    },
+    "zus": {
+      "text": "zus",
+      "register": "K"
+    },
+    "broer": {
+      "text": "broer",
+      "register": "K"
+    },
+    "zusje": {
+      "text": "zusje",
+      "register": "K"
+    },
+    "broertje": {
+      "text": "broertje",
+      "register": "K"
+    },
+    "oma": {
+      "text": "oma",
+      "register": "K"
+    },
+    "opa": {
+      "text": "opa",
+      "register": "K"
+    },
+    "tante": {
+      "text": "tante",
+      "register": "K"
+    },
+    "oom": {
+      "text": "oom",
+      "register": "K"
+    },
+    "nicht": {
+      "text": "nicht",
+      "register": "K"
+    },
+    "neef": {
+      "text": "neef",
+      "register": "K"
+    }
+  },
+  "names": [
+    {
+      "name": "Emma",
+      "sex": "f",
+      "gen": "Emma’s"
+    },
+    {
+      "name": "Daan",
+      "sex": "m",
+      "gen": "Daans"
+    },
+    {
+      "name": "Julia",
+      "sex": "f",
+      "gen": "Julia’s"
+    },
+    {
+      "name": "Sem",
+      "sex": "m",
+      "gen": "Sems"
+    },
+    {
+      "name": "Lotte",
+      "sex": "f",
+      "gen": "Lottes"
+    },
+    {
+      "name": "Finn",
+      "sex": "m",
+      "gen": "Finns"
+    },
+    {
+      "name": "Sara",
+      "sex": "f",
+      "gen": "Sara’s"
+    },
+    {
+      "name": "Noah",
+      "sex": "m",
+      "gen": "Noahs"
+    },
+    {
+      "name": "Mila",
+      "sex": "f",
+      "gen": "Mila’s"
+    },
+    {
+      "name": "Bram",
+      "sex": "m",
+      "gen": "Brams"
+    },
+    {
+      "name": "Anna",
+      "sex": "f",
+      "gen": "Anna’s"
+    },
+    {
+      "name": "Luuk",
+      "sex": "m",
+      "gen": "Luuks"
+    }
+  ],
+  "clueFrames": {
+    "M": "{name} is {egoGen} mama.",
+    "F": "{name} is {egoGen} papa.",
+    "Z": "{name} is {egoGen} zus.",
+    "B": "{name} is {egoGen} broer.",
+    "Zy": "{name} is {egoGen} zusje.",
+    "By": "{name} is {egoGen} broertje.",
+    "MM": "{name} is {egoGen} oma.",
+    "FM": "{name} is {egoGen} oma.",
+    "MF": "{name} is {egoGen} opa.",
+    "FF": "{name} is {egoGen} opa.",
+    "MZ": "{name} is {egoGen} tante.",
+    "FZ": "{name} is {egoGen} tante.",
+    "MB": "{name} is {egoGen} oom.",
+    "FB": "{name} is {egoGen} oom.",
+    "MZD": "{name} is {egoGen} nicht.",
+    "MBD": "{name} is {egoGen} nicht.",
+    "FZD": "{name} is {egoGen} nicht.",
+    "FBD": "{name} is {egoGen} nicht.",
+    "MZS": "{name} is {egoGen} neef.",
+    "MBS": "{name} is {egoGen} neef.",
+    "FZS": "{name} is {egoGen} neef.",
+    "FBS": "{name} is {egoGen} neef."
+  },
+  "riddleFrames": {
+    "MM": "De mama van {egoGen} mama is {egoGen} ___.",
+    "FM": "De mama van {egoGen} papa is {egoGen} ___.",
+    "MF": "De papa van {egoGen} mama is {egoGen} ___.",
+    "FF": "De papa van {egoGen} papa is {egoGen} ___.",
+    "MZ": "De zus van {egoGen} mama is {egoGen} ___.",
+    "FZ": "De zus van {egoGen} papa is {egoGen} ___.",
+    "MB": "De broer van {egoGen} mama is {egoGen} ___.",
+    "FB": "De broer van {egoGen} papa is {egoGen} ___."
+  },
+  "distractors": [
+    "mama",
+    "papa"
+  ],
+  "repeatsNote": true,
+  "repeatsNoteText": "een woord kan bij meer raadsels horen",
+  "generationOK": [
+    "oma",
+    "opa",
+    "mama",
+    "papa",
+    "tante",
+    "oom",
+    "zus",
+    "broer",
+    "zusje",
+    "broertje"
+  ],
+  "f1Exclude": [
+    "broer"
+  ],
+  "agreeing": [
+    "de",
+    "het",
+    "een",
+    "zijn",
+    "haar",
+    "kleine",
+    "grote",
+    "lieve"
+  ],
+  "firstPerson": [
+    "ik",
+    "mij",
+    "me",
+    "mijn",
+    "wij",
+    "we",
+    "ons",
+    "onze"
+  ],
+  "meWord": "ik",
+  "forbiddenInTemplate": [
+    "mama",
+    "papa",
+    "moeder",
+    "vader",
+    "ouders",
+    "je familie",
+    "jouw familie",
+    "je gezin"
+  ],
+  "instructionBans": [
+    "knip",
+    "knippen",
+    "kleur",
+    "kleuren",
+    "gratis",
+    "antwoorden",
+    "oplossingen"
+  ],
+  "familyHead": "Familie en stamboom",
+  "strings": {
+    "base": {
+      "title": "Familieleden: wie is wie in de stamboom?",
+      "instruction": "Zoek elke persoon in de stamboom en schrijf het nummer in het vakje naast het goede familiewoord."
+    },
+    "generations": {
+      "title": "Generaties in de familie: van oud naar jong",
+      "instruction": "Schrijf in elke rij 1, 2 en 3 in de vakjes, van de oudste generatie naar de jongste."
+    },
+    "trace-words": {
+      "title": "Familiewoorden overtrekken en schrijven",
+      "instruction": "Zoek de persoon met hetzelfde nummer in de stamboom, trek het familiewoord over en schrijf het nog een keer op de lijn."
+    },
+    "tree-clues": {
+      "title": "Stamboom invullen met aanwijzingen",
+      "instruction": "Lees de aanwijzingen en schrijf elke naam in het goede naamvak van de stamboom."
+    },
+    "relation-riddles": {
+      "title": "Raadsels over familie: wie is het?",
+      "instruction": "Lees elk raadsel en schrijf het goede familiewoord uit het kader op de lijn; een woord kan bij meer raadsels horen."
+    },
+    "tree-template": {
+      "title": "Lege stamboom om zelf in te vullen",
+      "instruction": "Teken de mensen die belangrijk voor je zijn in de lijstjes en schrijf hun namen op de lijnen."
+    }
+  }
+}

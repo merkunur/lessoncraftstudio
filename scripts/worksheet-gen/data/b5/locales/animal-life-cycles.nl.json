@@ -1,0 +1,81 @@
+{
+  "stageWords": {
+    "butterfly": {
+      "egg": "ei",
+      "larva": "rups",
+      "pupa": "pop",
+      "adult": "vlinder"
+    }
+  },
+  "decoy": {
+    "frog.tadpole": "kikkervisje"
+  },
+  "landingWords": {
+    "frog": {
+      "spawn": "kikkerdril",
+      "tadpole": "kikkervisje",
+      "legged": "kikkervisje met pootjes",
+      "froglet": "jonge kikker",
+      "adult": "kikker"
+    },
+    "ladybird": {
+      "egg": "ei",
+      "larva": "larve",
+      "pupa": "pop",
+      "adult": "lieveheersbeestje"
+    }
+  },
+  "statements": {
+    "egg": "Het komt uit een ei.",
+    "change": "Het jong ziet er heel anders uit dan het volwassen dier.",
+    "pupa": "Een tijdje is het een pop.",
+    "wings": "Het volwassen dier heeft vleugels.",
+    "sixlegs": "Het volwassen dier heeft zes poten.",
+    "nectar": "Het volwassen dier drinkt nectar uit bloemen.",
+    "tail": "Het jong zwemt met een staart.",
+    "water": "Het jong leeft in het water.",
+    "nolegs": "Het jong heeft eerst helemaal geen poten.",
+    "fourlegs": "Het volwassen dier heeft vier poten.",
+    "insects": "Het volwassen dier vangt insecten om op te eten."
+  },
+  "drop": [],
+  "familyName": "Groei van dieren",
+  "spawnForm": "clump",
+  "forbidden": [
+    "cocon",
+    "cocons"
+  ],
+  "genreBare": [
+    "levenscyclus",
+    "levenscycli"
+  ],
+  "pictureWord": "plaatje",
+  "instructionBans": {},
+  "refuse": [],
+  "strings": {
+    "G1-377": {
+      "title": "Van rups tot vlinder",
+      "instruction": "Het ei is 1: schrijf 2, 3 en 4 in de vakjes zoals het groeit, en in het laatste vakje het nummer van het plaatje dat na de vlinder komt."
+    },
+    "G1-389": {
+      "title": "Van kikkerdril tot kikker: knippen en plakken",
+      "instruction": "Knip de vier vierkantjes uit en plak elk op zijn waterlelieblad, rond de vijver van het kikkerdril tot de kikker."
+    },
+    "G2-365": {
+      "title": "Levenscyclus van de vlinder: benoem elke fase",
+      "instruction": "Schrijf elke naam uit de woordrij op de lijn onder het plaatje en streep de ene naam door die er niet bij hoort."
+    },
+    "G2-366": {
+      "title": "Gedaanteverwisseling: welk dier wordt het?",
+      "instruction": "Kijk naar elk jong dier en schrijf zijn letter in een vakje onder het volwassen dier dat het wordt."
+    },
+    "G3-393": {
+      "title": "Vlinder en kikker: hoe groeien ze op?",
+      "instruction": "Lees elke zin en zet een kruisje bij de vlinder, de kikker of allebei als de zin klopt voor dat dier."
+    },
+    "G1-390": {
+      "title": "Wat komt daarna? Vlinder, kikker en lieveheersbeestje",
+      "instruction": "Kijk naar het eerste plaatje in elke rij en omcirkel het plaatje dat daar direct na komt."
+    }
+  }
+}

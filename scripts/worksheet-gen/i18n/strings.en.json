@@ -888,7 +888,7 @@
     "instruction": "Look at each shape, even the turned and skinny ones, and circle its name."
   },
   "K-369": {
-    "title": "Road Safety: Traffic Lights, Stop or Go",
+    "title": "Road Safety: Read the Traffic Light",
     "instruction": "Look at the lamp that is on, then circle what to do."
   },
   "K-370": {
@@ -917,7 +917,7 @@
   },
   "K-376": {
     "title": "What Plants Need to Grow",
-    "instruction": "Look at what each plant gets. Circle the plant that gets both things it needs to grow."
+    "instruction": "In each row, circle the plant that gets both things it needs to grow."
   },
   "K-377": {
     "title": "Bird's-Eye View: From the Side and From Above",
@@ -1781,15 +1781,15 @@
   },
   "G1-377": {
     "title": "Butterfly Life Cycle",
-    "instruction": "The egg is 1: write 2, 3 and 4 in the boxes as it grows, and in the last box the number of the picture that comes after the butterfly."
+    "instruction": "The egg is 1: write 2, 3 and 4 in the boxes as the butterfly grows, and in the last box the number of the picture that comes after the butterfly."
   },
   "G1-378": {
     "title": "Sun, Earth and Moon",
-    "instruction": "Read each sentence. Is it about the Sun, the Earth or the Moon? Tick one box."
+    "instruction": "Read each sentence and put a check in the box under the Sun, the Earth or the Moon."
   },
   "G1-379": {
     "title": "Read the Map Key",
-    "instruction": "Look at the map key. Find each thing on the map. Count them and write how many in the box."
+    "instruction": "Find each thing from the map key on the map, then write how many there are in its box."
   },
   "G1-380": {
     "title": "Digraphs sh, ch and th: Which Letter Team Do You Hear?",
@@ -1837,7 +1837,7 @@
   },
   "G1-391": {
     "title": "Moon Phases in Order",
-    "instruction": "The Moon seems to grow, then shrink. In each row, write 1 to 5 under the moons in that order."
+    "instruction": "The wedge in each row shows if the Moon grows or shrinks, so write 1 to 5 under the moons in that order."
   },
   "G1-392": {
     "title": "Missing Digraphs: Write sh, ch or th",
@@ -2488,8 +2488,8 @@
     "instruction": "Look where the Sun is. At each numbered pin, is it day or night? Circle the word in the table."
   },
   "G2-369": {
-    "title": "North, East, South, West: Finish the Rose",
-    "instruction": "Each compass rose shows one letter. Write the other three letters in the empty boxes."
+    "title": "North, East, South, West: Label the Four Directions",
+    "instruction": "Each compass rose shows one letter, so write the other three letters in the empty boxes."
   },
   "G2-370": {
     "title": "Label the Continents",
@@ -2497,7 +2497,7 @@
   },
   "G2-371": {
     "title": "Cardinal Directions on a Map",
-    "instruction": "Find the first picture on the map. Look the way the word says. Circle the one of the three pictures that lies that way."
+    "instruction": "Start at the first picture on the map, look the way the word says, and circle the one of the three pictures that lies that way."
   },
   "G2-372": {
     "title": "Digraphs in Sentences: Circle and Count sh",
@@ -2845,7 +2845,7 @@
   },
   "G3-393": {
     "title": "Butterfly and Frog Life Cycles Compared",
-    "instruction": "Read each sentence and tick the butterfly, the frog or both when the sentence is true for that animal."
+    "instruction": "Read each sentence and put a check under the butterfly, the frog or both when it is true for that animal."
   },
   "G3-394": {
     "title": "Planets in Order from the Sun",
@@ -2861,7 +2861,7 @@
   },
   "G3-397": {
     "title": "Word Fields: Words for Go and Look",
-    "instruction": "Read the ten words and write each one in the field of the word it means nearly the same as."
+    "instruction": "Write each word in the field it belongs to."
   },
   "G3-398": {
     "title": "Who Does It? The Person Word",

@@ -40,6 +40,8 @@
  *    section 0: the faces draw that primitive unchanged.)
  */
 'use strict';
+/** the probe for 'an unauthored locale refuses': the first locale no panel has applied yet (sv was the probe until its panel landed) */
+const UNAUTH = ['fi', 'no', 'da', 'sv', 'nl', 'it', 'fr', 'es', 'pt', 'de'].find((l) => !Object.keys(require('../lib/b5-common.js').bankModule('maps')).includes(l)) || 'xx';
 const path = require('path');
 const fs = require('fs');
 const { renderInstance } = require('../render/render-instance.js');
@@ -100,8 +102,8 @@ async function faceGate({ page, ok, judge, fails, log, validateBank, quick }) {
     ok(stringsEn[f.id] && stringsEn[f.id].title === s.title, `${f.id}: i18n/strings.en.json does not carry the face (run node i18n/build-en.js)`);
     let m = null; try { build(T, { ...en, refuse: [f.layout] }, {}, 1); } catch (e) { m = e.message; }
     ok(m && /refuses the/.test(m), `${f.id}: a bank refusing ${f.layout} must THROW (got ${m})`);
-    m = null; try { T.build({ difficulty: 2, locale: 'sv' }, { rng: seedOf(f.id, 1) }); } catch (e) { m = e.message; }
-    ok(m && /no sv block|refuse/.test(m), `${f.id}: an unauthored sv must REFUSE (got ${m})`);
+    m = null; try { T.build({ difficulty: 2, locale: UNAUTH }, { rng: seedOf(f.id, 1) }); } catch (e) { m = e.message; }
+    ok(m && new RegExp('no ' + UNAUTH + ' block|refuse').test(m), `${f.id}: an unauthored ${UNAUTH} must REFUSE (got ${m})`);
   }
   for (const r of ROWS) ok(!Object.keys(r[5]).some((k) => /^force/.test(k)), `${r[1]}: a shipped row carries a gate-only force* seam`);
 

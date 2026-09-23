@@ -54,16 +54,16 @@ const SHAPES_2D = {
         { text: 'I have no straight sides and no corners at all. What am I?', clue: 'round' },
       ],
       square: [
-        { text: 'All my 4 sides are the same length. What am I?', clue: 'equal' },
-        { text: 'I have 4 corners, and my 4 sides are all equal. What am I?', clue: 'equal' },
+        { text: 'I have 4 equal sides and 4 corners like the corner of a book. What am I?', clue: 'equal' },
+        { text: 'All my 4 sides are the same length, and my corners are like a book corner. What am I?', clue: 'equal' },
       ],
       triangle: [
         { text: 'I have 3 sides and 3 corners. What am I?', clue: 'three' },
         { text: 'I have only 3 straight sides. What am I?', clue: 'three' },
       ],
       rectangle: [
-        { text: 'I have 2 long sides and 2 short sides. What am I?', clue: 'longShort' },
-        { text: 'I have 4 corners, 2 long sides and 2 short sides. What am I?', clue: 'longShort' },
+        { text: 'I have 2 long sides, 2 short sides and 4 corners like the corner of a book. What am I?', clue: 'longShort' },
+        { text: 'My 4 corners are like a book corner, and I have 2 long and 2 short sides. What am I?', clue: 'longShort' },
       ],
       hexagon: [
         { text: 'I have 6 sides and 6 corners. What am I?', clue: 'six' },

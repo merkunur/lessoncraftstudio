@@ -1,0 +1,2256 @@
+{
+  "head": "Tweetekenklanken",
+  "refused": null,
+  "phonemes": [
+    "p",
+    "b",
+    "t",
+    "d",
+    "k",
+    "ɡ",
+    "f",
+    "v",
+    "s",
+    "z",
+    "x",
+    "ɣ",
+    "ɦ",
+    "m",
+    "n",
+    "ŋ",
+    "l",
+    "r",
+    "ʋ",
+    "j",
+    "ʃ",
+    "ʒ",
+    "ɑ",
+    "aː",
+    "ɛ",
+    "eː",
+    "ɪ",
+    "i",
+    "ɔ",
+    "oː",
+    "ʏ",
+    "y",
+    "u",
+    "øː",
+    "ə",
+    "ɛi",
+    "œy",
+    "ʌu"
+  ],
+  "teams": {
+    "oe": {
+      "t": "oe",
+      "sound": [
+        "u"
+      ],
+      "items": [
+        {
+          "vocabKey": "book",
+          "theme": "classroom",
+          "noun": "book",
+          "word": "boek",
+          "seg": [
+            "b",
+            "oe",
+            "k"
+          ],
+          "snd": [
+            "b",
+            "u",
+            "k"
+          ],
+          "silent": [],
+          "stem": "boek",
+          "noGap": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cow",
+          "theme": "farm animals",
+          "noun": "cow",
+          "word": "koe",
+          "seg": [
+            "k",
+            "oe"
+          ],
+          "snd": [
+            "k",
+            "u"
+          ],
+          "silent": [],
+          "stem": "koe",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "farmer",
+          "theme": "occupations",
+          "noun": "farmer",
+          "word": "boer",
+          "seg": [
+            "b",
+            "oe",
+            "r"
+          ],
+          "snd": [
+            "b",
+            "u",
+            "r"
+          ],
+          "silent": [],
+          "stem": "boer",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "flower",
+          "theme": "spring",
+          "noun": "flower",
+          "word": "bloem",
+          "seg": [
+            "b",
+            "l",
+            "oe",
+            "m"
+          ],
+          "snd": [
+            "b",
+            "l",
+            "u",
+            "m"
+          ],
+          "silent": [],
+          "stem": "bloem",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "foot",
+          "theme": "body parts",
+          "noun": "foot",
+          "word": "voet",
+          "seg": [
+            "v",
+            "oe",
+            "t"
+          ],
+          "snd": [
+            "v",
+            "u",
+            "t"
+          ],
+          "silent": [],
+          "stem": "voet",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "glove",
+          "theme": "clothing",
+          "noun": "glove",
+          "word": "handschoen",
+          "seg": [
+            "h",
+            "a",
+            "n",
+            "d",
+            "s",
+            "ch",
+            "oe",
+            "n"
+          ],
+          "snd": [
+            "ɦ",
+            "ɑ",
+            "n",
+            "t",
+            "s",
+            "x",
+            "u",
+            "n"
+          ],
+          "silent": [],
+          "stem": "schoen",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "hat",
+          "theme": "clothing",
+          "noun": "hat",
+          "word": "hoed",
+          "seg": [
+            "h",
+            "oe",
+            "d"
+          ],
+          "snd": [
+            "ɦ",
+            "u",
+            "t"
+          ],
+          "silent": [],
+          "stem": "hoed",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pants",
+          "theme": "clothing",
+          "noun": "pants",
+          "word": "broek",
+          "seg": [
+            "b",
+            "r",
+            "oe",
+            "k"
+          ],
+          "snd": [
+            "b",
+            "r",
+            "u",
+            "k"
+          ],
+          "silent": [],
+          "stem": "broek",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pumpkin",
+          "theme": "vegetables",
+          "noun": "pumpkin",
+          "word": "pompoen",
+          "seg": [
+            "p",
+            "o",
+            "m",
+            "p",
+            "oe",
+            "n"
+          ],
+          "snd": [
+            "p",
+            "ɔ",
+            "m",
+            "p",
+            "u",
+            "n"
+          ],
+          "silent": [],
+          "stem": "pompoen",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "shoe",
+          "theme": "clothing",
+          "noun": "shoe",
+          "word": "schoen",
+          "seg": [
+            "s",
+            "ch",
+            "oe",
+            "n"
+          ],
+          "snd": [
+            "s",
+            "x",
+            "u",
+            "n"
+          ],
+          "silent": [],
+          "stem": "schoen",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "turkey",
+          "theme": "farm animals",
+          "noun": "turkey",
+          "word": "kalkoen",
+          "seg": [
+            "k",
+            "a",
+            "l",
+            "k",
+            "oe",
+            "n"
+          ],
+          "snd": [
+            "k",
+            "ɑ",
+            "l",
+            "k",
+            "u",
+            "n"
+          ],
+          "silent": [],
+          "stem": "kalkoen",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lemon",
+          "theme": "fruits",
+          "noun": "lemon",
+          "word": "citroen",
+          "seg": [
+            "c",
+            "i",
+            "t",
+            "r",
+            "oe",
+            "n"
+          ],
+          "snd": [
+            "s",
+            "i",
+            "t",
+            "r",
+            "u",
+            "n"
+          ],
+          "silent": [],
+          "stem": "citroen",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cookie",
+          "theme": "bakery",
+          "noun": "cookie",
+          "word": "koekje",
+          "seg": [
+            "k",
+            "oe",
+            "k",
+            "j",
+            "e"
+          ],
+          "snd": [
+            "k",
+            "u",
+            "k",
+            "j",
+            "ə"
+          ],
+          "silent": [],
+          "stem": "koekje",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mushroom",
+          "theme": "vegetables",
+          "noun": "mushroom",
+          "word": "paddenstoel",
+          "seg": [
+            "p",
+            "a",
+            "dd",
+            "e",
+            "n",
+            "s",
+            "t",
+            "oe",
+            "l"
+          ],
+          "snd": [
+            "p",
+            "ɑ",
+            "d",
+            "ə",
+            "n",
+            "s",
+            "t",
+            "u",
+            "l"
+          ],
+          "silent": [],
+          "stem": "stoel",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "chair",
+          "theme": "furniture",
+          "noun": "chair",
+          "word": "stoel",
+          "seg": [
+            "s",
+            "t",
+            "oe",
+            "l"
+          ],
+          "snd": [
+            "s",
+            "t",
+            "u",
+            "l"
+          ],
+          "silent": [],
+          "stem": "stoel",
+          "picOpened": true
+        }
+      ]
+    },
+    "ui": {
+      "t": "ui",
+      "sound": [
+        "œy"
+      ],
+      "items": [
+        {
+          "vocabKey": "bat",
+          "theme": "animals",
+          "noun": "bat",
+          "word": "vleermuis",
+          "seg": [
+            "v",
+            "l",
+            "ee",
+            "r",
+            "m",
+            "ui",
+            "s"
+          ],
+          "snd": [
+            "v",
+            "l",
+            "eː",
+            "r",
+            "m",
+            "œy",
+            "s"
+          ],
+          "silent": [],
+          "stem": "muis",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bathtub",
+          "theme": "around the house",
+          "noun": "bathtub",
+          "word": "badkuip",
+          "seg": [
+            "b",
+            "a",
+            "d",
+            "k",
+            "ui",
+            "p"
+          ],
+          "snd": [
+            "b",
+            "ɑ",
+            "t",
+            "k",
+            "œy",
+            "p"
+          ],
+          "silent": [],
+          "stem": "badkuip",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "dove",
+          "theme": "birds 2",
+          "noun": "dove",
+          "word": "duif",
+          "seg": [
+            "d",
+            "ui",
+            "f"
+          ],
+          "snd": [
+            "d",
+            "œy",
+            "f"
+          ],
+          "silent": [],
+          "stem": "duif",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "flute",
+          "theme": "music",
+          "noun": "flute",
+          "word": "fluit",
+          "seg": [
+            "f",
+            "l",
+            "ui",
+            "t"
+          ],
+          "snd": [
+            "f",
+            "l",
+            "œy",
+            "t"
+          ],
+          "silent": [],
+          "stem": "fluit",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "garden",
+          "theme": "spring",
+          "noun": "garden",
+          "word": "tuin",
+          "seg": [
+            "t",
+            "ui",
+            "n"
+          ],
+          "snd": [
+            "t",
+            "œy",
+            "n"
+          ],
+          "silent": [],
+          "stem": "tuin",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "grapes",
+          "theme": "breakfast",
+          "noun": "grapes",
+          "word": "druiven",
+          "seg": [
+            "d",
+            "r",
+            "ui",
+            "v",
+            "e",
+            "n"
+          ],
+          "snd": [
+            "d",
+            "r",
+            "œy",
+            "v",
+            "ə",
+            "n"
+          ],
+          "silent": [],
+          "stem": "druiven",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "house",
+          "theme": "miscellaneous",
+          "noun": "house",
+          "word": "huis",
+          "seg": [
+            "h",
+            "ui",
+            "s"
+          ],
+          "snd": [
+            "ɦ",
+            "œy",
+            "s"
+          ],
+          "silent": [],
+          "stem": "huis",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mouse",
+          "theme": "pets",
+          "noun": "mouse",
+          "word": "muis",
+          "seg": [
+            "m",
+            "ui",
+            "s"
+          ],
+          "snd": [
+            "m",
+            "œy",
+            "s"
+          ],
+          "silent": [],
+          "stem": "muis",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "onion",
+          "theme": "vegetables",
+          "noun": "onion",
+          "word": "ui",
+          "seg": [
+            "ui"
+          ],
+          "snd": [
+            "œy"
+          ],
+          "silent": [],
+          "stem": "ui",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "owl",
+          "theme": "birds",
+          "noun": "owl",
+          "word": "uil",
+          "seg": [
+            "ui",
+            "l"
+          ],
+          "snd": [
+            "œy",
+            "l"
+          ],
+          "silent": [],
+          "stem": "uil",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "sweater",
+          "theme": "clothing",
+          "noun": "sweater",
+          "word": "trui",
+          "seg": [
+            "t",
+            "r",
+            "ui"
+          ],
+          "snd": [
+            "t",
+            "r",
+            "œy"
+          ],
+          "silent": [],
+          "stem": "trui",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "thumb",
+          "theme": "body parts",
+          "noun": "thumb",
+          "word": "duim",
+          "seg": [
+            "d",
+            "ui",
+            "m"
+          ],
+          "snd": [
+            "d",
+            "œy",
+            "m"
+          ],
+          "silent": [],
+          "stem": "duim",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "whistle",
+          "theme": "accessories",
+          "noun": "whistle",
+          "word": "fluitje",
+          "seg": [
+            "f",
+            "l",
+            "ui",
+            "t",
+            "j",
+            "e"
+          ],
+          "snd": [
+            "f",
+            "l",
+            "œy",
+            "t",
+            "j",
+            "ə"
+          ],
+          "silent": [],
+          "stem": "fluit",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cross",
+          "theme": "easter",
+          "noun": "cross",
+          "word": "kruis",
+          "seg": [
+            "k",
+            "r",
+            "ui",
+            "s"
+          ],
+          "snd": [
+            "k",
+            "r",
+            "œy",
+            "s"
+          ],
+          "silent": [],
+          "stem": "kruis",
+          "picOpened": true
+        }
+      ]
+    },
+    "eu": {
+      "t": "eu",
+      "sound": [
+        "øː"
+      ],
+      "items": [
+        {
+          "vocabKey": "door",
+          "theme": "around the house",
+          "noun": "door",
+          "word": "deur",
+          "seg": [
+            "d",
+            "eu",
+            "r"
+          ],
+          "snd": [
+            "d",
+            "øː",
+            "r"
+          ],
+          "silent": [],
+          "stem": "deur",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "foal",
+          "theme": "farm animals",
+          "noun": "foal",
+          "word": "veulen",
+          "seg": [
+            "v",
+            "eu",
+            "l",
+            "e",
+            "n"
+          ],
+          "snd": [
+            "v",
+            "øː",
+            "l",
+            "ə",
+            "n"
+          ],
+          "silent": [],
+          "stem": "veulen",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "key",
+          "theme": "around the house",
+          "noun": "key",
+          "word": "sleutel",
+          "seg": [
+            "s",
+            "l",
+            "eu",
+            "t",
+            "e",
+            "l"
+          ],
+          "snd": [
+            "s",
+            "l",
+            "øː",
+            "t",
+            "ə",
+            "l"
+          ],
+          "silent": [],
+          "stem": "sleutel",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "kitchen",
+          "theme": "around the house",
+          "noun": "kitchen",
+          "word": "keuken",
+          "seg": [
+            "k",
+            "eu",
+            "k",
+            "e",
+            "n"
+          ],
+          "snd": [
+            "k",
+            "øː",
+            "k",
+            "ə",
+            "n"
+          ],
+          "silent": [],
+          "stem": "keuken",
+          "noGap": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "nose",
+          "theme": "body parts",
+          "noun": "nose",
+          "word": "neus",
+          "seg": [
+            "n",
+            "eu",
+            "s"
+          ],
+          "snd": [
+            "n",
+            "øː",
+            "s"
+          ],
+          "silent": [],
+          "stem": "neus",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "crayons",
+          "theme": "toys",
+          "noun": "crayons",
+          "word": "kleurpotloden",
+          "seg": [
+            "k",
+            "l",
+            "eu",
+            "r",
+            "p",
+            "o",
+            "t",
+            "l",
+            "o",
+            "d",
+            "e",
+            "n"
+          ],
+          "snd": [
+            "k",
+            "l",
+            "øː",
+            "r",
+            "p",
+            "ɔ",
+            "t",
+            "l",
+            "oː",
+            "d",
+            "ə",
+            "n"
+          ],
+          "silent": [],
+          "stem": "kleurpotloden",
+          "picOpened": true
+        }
+      ]
+    },
+    "oo": {
+      "t": "oo",
+      "sound": [
+        "oː"
+      ],
+      "items": [
+        {
+          "vocabKey": "boat",
+          "theme": "vehicles",
+          "noun": "boat",
+          "word": "boot",
+          "seg": [
+            "b",
+            "oo",
+            "t"
+          ],
+          "snd": [
+            "b",
+            "oː",
+            "t"
+          ],
+          "silent": [],
+          "stem": "boot",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bread",
+          "theme": "At the Supermarket",
+          "noun": "bread",
+          "word": "brood",
+          "seg": [
+            "b",
+            "r",
+            "oo",
+            "d"
+          ],
+          "snd": [
+            "b",
+            "r",
+            "oː",
+            "t"
+          ],
+          "silent": [],
+          "stem": "brood",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "crown",
+          "theme": "accessories",
+          "noun": "crown",
+          "word": "kroon",
+          "seg": [
+            "k",
+            "r",
+            "oo",
+            "n"
+          ],
+          "snd": [
+            "k",
+            "r",
+            "oː",
+            "n"
+          ],
+          "silent": [],
+          "stem": "kroon",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "ear",
+          "theme": "body parts",
+          "noun": "ear",
+          "word": "oor",
+          "seg": [
+            "oo",
+            "r"
+          ],
+          "snd": [
+            "oː",
+            "r"
+          ],
+          "silent": [],
+          "stem": "oor",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "eye",
+          "theme": "body parts",
+          "noun": "eye",
+          "word": "oog",
+          "seg": [
+            "oo",
+            "g"
+          ],
+          "snd": [
+            "oː",
+            "x"
+          ],
+          "silent": [],
+          "stem": "oog",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "gate",
+          "theme": "around the house",
+          "noun": "gate",
+          "word": "poort",
+          "seg": [
+            "p",
+            "oo",
+            "r",
+            "t"
+          ],
+          "snd": [
+            "p",
+            "oː",
+            "r",
+            "t"
+          ],
+          "silent": [],
+          "stem": "poort",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "ghost",
+          "theme": "miscellaneous",
+          "noun": "ghost",
+          "word": "spook",
+          "seg": [
+            "s",
+            "p",
+            "oo",
+            "k"
+          ],
+          "snd": [
+            "s",
+            "p",
+            "oː",
+            "k"
+          ],
+          "silent": [],
+          "stem": "spook",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pencil",
+          "theme": "classroom",
+          "noun": "pencil",
+          "word": "potlood",
+          "seg": [
+            "p",
+            "o",
+            "t",
+            "l",
+            "oo",
+            "d"
+          ],
+          "snd": [
+            "p",
+            "ɔ",
+            "t",
+            "l",
+            "oː",
+            "t"
+          ],
+          "silent": [],
+          "stem": "potlood",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "rainbow",
+          "theme": "weather",
+          "noun": "rainbow",
+          "word": "regenboog",
+          "seg": [
+            "r",
+            "e",
+            "g",
+            "e",
+            "n",
+            "b",
+            "oo",
+            "g"
+          ],
+          "snd": [
+            "r",
+            "eː",
+            "ɣ",
+            "ə",
+            "n",
+            "b",
+            "oː",
+            "x"
+          ],
+          "silent": [],
+          "stem": "regenboog",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "rose",
+          "theme": "flowers",
+          "noun": "rose",
+          "word": "roos",
+          "seg": [
+            "r",
+            "oo",
+            "s"
+          ],
+          "snd": [
+            "r",
+            "oː",
+            "s"
+          ],
+          "silent": [],
+          "stem": "roos",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "coconut",
+          "theme": "fruits",
+          "noun": "coconut",
+          "word": "kokosnoot",
+          "seg": [
+            "k",
+            "o",
+            "k",
+            "o",
+            "s",
+            "n",
+            "oo",
+            "t"
+          ],
+          "snd": [
+            "k",
+            "oː",
+            "k",
+            "ɔ",
+            "s",
+            "n",
+            "oː",
+            "t"
+          ],
+          "silent": [],
+          "stem": "kokosnoot",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "telephone",
+          "theme": "around the house",
+          "noun": "telephone",
+          "word": "telefoon",
+          "seg": [
+            "t",
+            "e",
+            "l",
+            "e",
+            "f",
+            "oo",
+            "n"
+          ],
+          "snd": [
+            "t",
+            "eː",
+            "l",
+            "ə",
+            "f",
+            "oː",
+            "n"
+          ],
+          "silent": [],
+          "stem": "telefoon",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cabbage",
+          "theme": "vegetables",
+          "noun": "cabbage",
+          "word": "kool",
+          "seg": [
+            "k",
+            "oo",
+            "l"
+          ],
+          "snd": [
+            "k",
+            "oː",
+            "l"
+          ],
+          "silent": [],
+          "stem": "kool",
+          "picOpened": true
+        }
+      ]
+    },
+    "ie": {
+      "t": "ie",
+      "sound": [
+        "i"
+      ],
+      "items": [
+        {
+          "vocabKey": "ant",
+          "theme": "insects and bugs",
+          "noun": "ant",
+          "word": "mier",
+          "seg": [
+            "m",
+            "ie",
+            "r"
+          ],
+          "snd": [
+            "m",
+            "i",
+            "r"
+          ],
+          "silent": [],
+          "stem": "mier",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "belt",
+          "theme": "accessories",
+          "noun": "belt",
+          "word": "riem",
+          "seg": [
+            "r",
+            "ie",
+            "m"
+          ],
+          "snd": [
+            "r",
+            "i",
+            "m"
+          ],
+          "silent": [],
+          "stem": "riem",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bicycle",
+          "theme": "vehicles",
+          "noun": "bicycle",
+          "word": "fiets",
+          "seg": [
+            "f",
+            "ie",
+            "t",
+            "s"
+          ],
+          "snd": [
+            "f",
+            "i",
+            "t",
+            "s"
+          ],
+          "silent": [],
+          "stem": "fiets",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "canary",
+          "theme": "birds 2",
+          "noun": "canary",
+          "word": "kanarie",
+          "seg": [
+            "k",
+            "a",
+            "n",
+            "a",
+            "r",
+            "ie"
+          ],
+          "snd": [
+            "k",
+            "aː",
+            "n",
+            "aː",
+            "r",
+            "i"
+          ],
+          "silent": [],
+          "stem": "kanarie",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "knee",
+          "theme": "body parts",
+          "noun": "knee",
+          "word": "knie",
+          "seg": [
+            "k",
+            "n",
+            "ie"
+          ],
+          "snd": [
+            "k",
+            "n",
+            "i"
+          ],
+          "silent": [],
+          "stem": "knie",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lily",
+          "theme": "flowers",
+          "noun": "lily",
+          "word": "lelie",
+          "seg": [
+            "l",
+            "e",
+            "l",
+            "ie"
+          ],
+          "snd": [
+            "l",
+            "eː",
+            "l",
+            "i"
+          ],
+          "silent": [],
+          "stem": "lelie",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "kite",
+          "theme": "toys",
+          "noun": "kite",
+          "word": "vlieger",
+          "seg": [
+            "v",
+            "l",
+            "ie",
+            "g",
+            "e",
+            "r"
+          ],
+          "snd": [
+            "v",
+            "l",
+            "i",
+            "ɣ",
+            "ə",
+            "r"
+          ],
+          "silent": [],
+          "stem": "vlieger",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "letter",
+          "theme": "post office",
+          "noun": "letter",
+          "word": "brief",
+          "seg": [
+            "b",
+            "r",
+            "ie",
+            "f"
+          ],
+          "snd": [
+            "b",
+            "r",
+            "i",
+            "f"
+          ],
+          "silent": [],
+          "stem": "brief",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "crib",
+          "theme": "furniture",
+          "noun": "crib",
+          "word": "wieg",
+          "seg": [
+            "w",
+            "ie",
+            "g"
+          ],
+          "snd": [
+            "ʋ",
+            "i",
+            "x"
+          ],
+          "silent": [],
+          "stem": "wieg",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "heel",
+          "theme": "body parts",
+          "noun": "heel",
+          "word": "hiel",
+          "seg": [
+            "h",
+            "ie",
+            "l"
+          ],
+          "snd": [
+            "ɦ",
+            "i",
+            "l"
+          ],
+          "silent": [],
+          "stem": "hiel",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mirror",
+          "theme": "around the house",
+          "noun": "mirror",
+          "word": "spiegel",
+          "seg": [
+            "s",
+            "p",
+            "ie",
+            "g",
+            "e",
+            "l"
+          ],
+          "snd": [
+            "s",
+            "p",
+            "i",
+            "ɣ",
+            "ə",
+            "l"
+          ],
+          "silent": [],
+          "stem": "spiegel",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "vulture",
+          "theme": "birds",
+          "noun": "vulture",
+          "word": "gier",
+          "seg": [
+            "g",
+            "ie",
+            "r"
+          ],
+          "snd": [
+            "ɣ",
+            "i",
+            "r"
+          ],
+          "silent": [],
+          "stem": "gier",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "paper",
+          "theme": "classroom",
+          "noun": "paper",
+          "word": "papier",
+          "seg": [
+            "p",
+            "a",
+            "p",
+            "ie",
+            "r"
+          ],
+          "snd": [
+            "p",
+            "aː",
+            "p",
+            "i",
+            "r"
+          ],
+          "silent": [],
+          "stem": "papier",
+          "picOpened": true
+        }
+      ]
+    }
+  },
+  "samesound": [],
+  "falsePairs": [
+    {
+      "word": "poëzie",
+      "letters": "oe",
+      "why": "po-ë-zie: het trema zegt dat o en e twee klanken zijn, geen oe"
+    },
+    {
+      "word": "museum",
+      "letters": "eu",
+      "why": "mu-se-um: e en u horen bij twee lettergrepen, geen eu"
+    },
+    {
+      "word": "jubileum",
+      "letters": "eu",
+      "why": "ju-bi-le-um: e en u zijn twee klanken"
+    },
+    {
+      "word": "reünie",
+      "letters": "eu",
+      "why": "re-ü-nie: het trema scheidt e en u"
+    },
+    {
+      "word": "ruïne",
+      "letters": "ui",
+      "why": "ru-ï-ne: het trema scheidt u en i, geen ui"
+    },
+    {
+      "word": "coöperatie",
+      "letters": "oo",
+      "why": "co-ö-pe-ra-tie: twee o-klanken, geen oo"
+    },
+    {
+      "word": "Italië",
+      "letters": "ie",
+      "why": "I-ta-li-ë: i en e zijn twee klanken, geen ie"
+    }
+  ],
+  "sets": {
+    "exemplar": [
+      "oe",
+      "ui",
+      "eu"
+    ],
+    "k": [
+      "oe",
+      "ui"
+    ],
+    "position": [
+      "oo",
+      "ie",
+      "ui"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Ik zoek mijn boek.",
+      "target": "oe",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "Ik",
+          "seg": [
+            "I",
+            "k"
+          ]
+        },
+        {
+          "w": "zoek",
+          "seg": [
+            "z",
+            "oe",
+            "k"
+          ]
+        },
+        {
+          "w": "mijn",
+          "seg": [
+            "m",
+            "ij",
+            "n"
+          ]
+        },
+        {
+          "w": "boek",
+          "seg": [
+            "b",
+            "oe",
+            "k"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "text": "De koe staat bij de boer.",
+      "target": "oe",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "De",
+          "seg": [
+            "D",
+            "e"
+          ]
+        },
+        {
+          "w": "koe",
+          "seg": [
+            "k",
+            "oe"
+          ]
+        },
+        {
+          "w": "staat",
+          "seg": [
+            "s",
+            "t",
+            "aa",
+            "t"
+          ]
+        },
+        {
+          "w": "bij",
+          "seg": [
+            "b",
+            "ij"
+          ]
+        },
+        {
+          "w": "de",
+          "seg": [
+            "d",
+            "e"
+          ]
+        },
+        {
+          "w": "boer",
+          "seg": [
+            "b",
+            "oe",
+            "r"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "text": "Oma zoekt haar hoed en haar schoen.",
+      "target": "oe",
+      "hits": 3,
+      "tokens": [
+        {
+          "w": "Oma",
+          "seg": [
+            "O",
+            "m",
+            "a"
+          ]
+        },
+        {
+          "w": "zoekt",
+          "seg": [
+            "z",
+            "oe",
+            "k",
+            "t"
+          ]
+        },
+        {
+          "w": "haar",
+          "seg": [
+            "h",
+            "aa",
+            "r"
+          ]
+        },
+        {
+          "w": "hoed",
+          "seg": [
+            "h",
+            "oe",
+            "d"
+          ]
+        },
+        {
+          "w": "en",
+          "seg": [
+            "e",
+            "n"
+          ]
+        },
+        {
+          "w": "haar",
+          "seg": [
+            "h",
+            "aa",
+            "r"
+          ]
+        },
+        {
+          "w": "schoen",
+          "seg": [
+            "s",
+            "ch",
+            "oe",
+            "n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "text": "Het boek ligt op de stoel.",
+      "target": "oe",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "Het",
+          "seg": [
+            "H",
+            "e",
+            "t"
+          ]
+        },
+        {
+          "w": "boek",
+          "seg": [
+            "b",
+            "oe",
+            "k"
+          ]
+        },
+        {
+          "w": "ligt",
+          "seg": [
+            "l",
+            "i",
+            "g",
+            "t"
+          ]
+        },
+        {
+          "w": "op",
+          "seg": [
+            "o",
+            "p"
+          ]
+        },
+        {
+          "w": "de",
+          "seg": [
+            "d",
+            "e"
+          ]
+        },
+        {
+          "w": "stoel",
+          "seg": [
+            "s",
+            "t",
+            "oe",
+            "l"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "text": "De poes is moe.",
+      "target": "oe",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "De",
+          "seg": [
+            "D",
+            "e"
+          ]
+        },
+        {
+          "w": "poes",
+          "seg": [
+            "p",
+            "oe",
+            "s"
+          ]
+        },
+        {
+          "w": "is",
+          "seg": [
+            "i",
+            "s"
+          ]
+        },
+        {
+          "w": "moe",
+          "seg": [
+            "m",
+            "oe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "text": "Wat doe je met die groene bloem?",
+      "target": "oe",
+      "hits": 3,
+      "tokens": [
+        {
+          "w": "Wat",
+          "seg": [
+            "W",
+            "a",
+            "t"
+          ]
+        },
+        {
+          "w": "doe",
+          "seg": [
+            "d",
+            "oe"
+          ]
+        },
+        {
+          "w": "je",
+          "seg": [
+            "j",
+            "e"
+          ]
+        },
+        {
+          "w": "met",
+          "seg": [
+            "m",
+            "e",
+            "t"
+          ]
+        },
+        {
+          "w": "die",
+          "seg": [
+            "d",
+            "ie"
+          ]
+        },
+        {
+          "w": "groene",
+          "seg": [
+            "g",
+            "r",
+            "oe",
+            "n",
+            "e"
+          ]
+        },
+        {
+          "w": "bloem",
+          "seg": [
+            "b",
+            "l",
+            "oe",
+            "m"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "text": "Papa eet een koekje.",
+      "target": "oe",
+      "hits": 1,
+      "tokens": [
+        {
+          "w": "Papa",
+          "seg": [
+            "P",
+            "a",
+            "p",
+            "a"
+          ]
+        },
+        {
+          "w": "eet",
+          "seg": [
+            "ee",
+            "t"
+          ]
+        },
+        {
+          "w": "een",
+          "seg": [
+            "ee",
+            "n"
+          ]
+        },
+        {
+          "w": "koekje",
+          "seg": [
+            "k",
+            "oe",
+            "k",
+            "j",
+            "e"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "text": "De boer zoekt zijn hoed en zijn koe.",
+      "target": "oe",
+      "hits": 4,
+      "tokens": [
+        {
+          "w": "De",
+          "seg": [
+            "D",
+            "e"
+          ]
+        },
+        {
+          "w": "boer",
+          "seg": [
+            "b",
+            "oe",
+            "r"
+          ]
+        },
+        {
+          "w": "zoekt",
+          "seg": [
+            "z",
+            "oe",
+            "k",
+            "t"
+          ]
+        },
+        {
+          "w": "zijn",
+          "seg": [
+            "z",
+            "ij",
+            "n"
+          ]
+        },
+        {
+          "w": "hoed",
+          "seg": [
+            "h",
+            "oe",
+            "d"
+          ]
+        },
+        {
+          "w": "en",
+          "seg": [
+            "e",
+            "n"
+          ]
+        },
+        {
+          "w": "zijn",
+          "seg": [
+            "z",
+            "ij",
+            "n"
+          ]
+        },
+        {
+          "w": "koe",
+          "seg": [
+            "k",
+            "oe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "text": "We lezen samen een boek.",
+      "target": "oe",
+      "hits": 1,
+      "tokens": [
+        {
+          "w": "We",
+          "seg": [
+            "W",
+            "e"
+          ]
+        },
+        {
+          "w": "lezen",
+          "seg": [
+            "l",
+            "e",
+            "z",
+            "e",
+            "n"
+          ]
+        },
+        {
+          "w": "samen",
+          "seg": [
+            "s",
+            "a",
+            "m",
+            "e",
+            "n"
+          ]
+        },
+        {
+          "w": "een",
+          "seg": [
+            "ee",
+            "n"
+          ]
+        },
+        {
+          "w": "boek",
+          "seg": [
+            "b",
+            "oe",
+            "k"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "Ik doe mijn schoen en mijn broek aan.",
+      "target": "oe",
+      "hits": 3,
+      "tokens": [
+        {
+          "w": "Ik",
+          "seg": [
+            "I",
+            "k"
+          ]
+        },
+        {
+          "w": "doe",
+          "seg": [
+            "d",
+            "oe"
+          ]
+        },
+        {
+          "w": "mijn",
+          "seg": [
+            "m",
+            "ij",
+            "n"
+          ]
+        },
+        {
+          "w": "schoen",
+          "seg": [
+            "s",
+            "ch",
+            "oe",
+            "n"
+          ]
+        },
+        {
+          "w": "en",
+          "seg": [
+            "e",
+            "n"
+          ]
+        },
+        {
+          "w": "mijn",
+          "seg": [
+            "m",
+            "ij",
+            "n"
+          ]
+        },
+        {
+          "w": "broek",
+          "seg": [
+            "b",
+            "r",
+            "oe",
+            "k"
+          ]
+        },
+        {
+          "w": "aan",
+          "seg": [
+            "aa",
+            "n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "text": "Moeder bakt een pannenkoek.",
+      "target": "oe",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "Moeder",
+          "seg": [
+            "M",
+            "oe",
+            "d",
+            "e",
+            "r"
+          ]
+        },
+        {
+          "w": "bakt",
+          "seg": [
+            "b",
+            "a",
+            "k",
+            "t"
+          ]
+        },
+        {
+          "w": "een",
+          "seg": [
+            "ee",
+            "n"
+          ]
+        },
+        {
+          "w": "pannenkoek",
+          "seg": [
+            "p",
+            "a",
+            "n",
+            "n",
+            "e",
+            "n",
+            "k",
+            "oe",
+            "k"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "text": "Het kind zit op een stoel.",
+      "target": "oe",
+      "hits": 1,
+      "tokens": [
+        {
+          "w": "Het",
+          "seg": [
+            "H",
+            "e",
+            "t"
+          ]
+        },
+        {
+          "w": "kind",
+          "seg": [
+            "k",
+            "i",
+            "n",
+            "d"
+          ]
+        },
+        {
+          "w": "zit",
+          "seg": [
+            "z",
+            "i",
+            "t"
+          ]
+        },
+        {
+          "w": "op",
+          "seg": [
+            "o",
+            "p"
+          ]
+        },
+        {
+          "w": "een",
+          "seg": [
+            "ee",
+            "n"
+          ]
+        },
+        {
+          "w": "stoel",
+          "seg": [
+            "s",
+            "t",
+            "oe",
+            "l"
+          ]
+        }
+      ]
+    }
+  ],
+  "rejectedPics": [
+    {
+      "pic": "fruits/cherry",
+      "why": "reads as an apple (design §4)"
+    },
+    {
+      "pic": "fruits/peach",
+      "why": "reads as an apple (design §4)"
+    },
+    {
+      "pic": "christmas/chimney",
+      "why": "a fireplace (design §4)"
+    },
+    {
+      "pic": "body parts/mouth",
+      "why": "said \"lips\" / \"lippen\" (design §4)"
+    },
+    {
+      "pic": "colors/white",
+      "why": "a white paint drop (design §1)"
+    },
+    {
+      "pic": "shapes/cone",
+      "why": "a frustum / lampshade (design §1)"
+    },
+    {
+      "pic": "easter/chick",
+      "why": "reads as a duckling: a Dutch child says \"eendje\", not \"kuiken\" (design + nl panel)"
+    },
+    {
+      "pic": "classroom/lunchbox",
+      "why": "reads as a treasure chest: \"schatkist\" (design)"
+    },
+    {
+      "pic": "farm animals/chick",
+      "why": "nl panel, opened: same duckling look as easter/chick, said \"eendje\""
+    },
+    {
+      "pic": "fruits/plum",
+      "why": "nl panel, opened: a red apple, said \"appel\" (pruim would be a ui item)"
+    },
+    {
+      "pic": "ocean life/manatee",
+      "why": "nl panel, opened: said \"zeehond\", not \"zeekoe\""
+    },
+    {
+      "pic": "ocean life/oyster",
+      "why": "reads as a shell: \"schelp\" (design §4)"
+    },
+    {
+      "pic": "emotions/tired",
+      "why": "nl panel, opened: a yawning face, said \"gapen\" / \"slaperig\" as often as \"moe\""
+    },
+    {
+      "pic": "breakfast/pancake",
+      "why": "nl panel, opened: a stack with jam, said \"hamburger\" / \"koek\""
+    },
+    {
+      "pic": "breakfast/biscuit",
+      "why": "nl panel, opened: reads as a pie (\"taart\")"
+    },
+    {
+      "pic": "body parts/elbow",
+      "why": "nl panel, opened: an L-shaped limb, said \"arm\""
+    },
+    {
+      "pic": "body parts/head",
+      "why": "nl panel, opened: a face, said \"gezicht\" / \"jongen\""
+    },
+    {
+      "pic": "christmas/tree",
+      "why": "nl panel, opened: a decorated tree, said \"kerstboom\""
+    },
+    {
+      "pic": "vegetables/garlic",
+      "why": "nl panel, opened: reads as an onion, said \"ui\" (a foil team)"
+    },
+    {
+      "pic": "occupations/pilot",
+      "why": "nl panel, opened: a plane, said \"vliegtuig\""
+    },
+    {
+      "pic": "thanksgivinng/harvest",
+      "why": "nl panel, opened: a sheaf of wheat, said \"graan\" / \"tarwe\""
+    },
+    {
+      "pic": "around the house/stove",
+      "why": "nl panel, opened: said \"oven\" / \"keuken\" as often as \"fornuis\""
+    },
+    {
+      "pic": "farm animals/bull",
+      "why": "nl panel, opened: a calf with horns, said \"koe\" (an oe foil)"
+    },
+    {
+      "pic": "christmas/reindeer",
+      "why": "nl panel, opened: said \"hert\""
+    },
+    {
+      "pic": "occupations/actor",
+      "why": "nl panel, opened: a man on a stage; \"acteur\" is a French loan (-eur)"
+    },
+    {
+      "pic": "occupations/mechanic",
+      "why": "nl panel, opened: a man at a car, said \"man\" / \"garage\"; \"monteur\" is a loan"
+    }
+  ],
+  "strings": {
+    "base": {
+      "title": "Tweetekenklanken oe, ui en eu: welke klank hoor je?",
+      "instruction": "Zeg wat je op elk plaatje ziet en omcirkel de tweetekenklank die je hoort."
+    },
+    "sort-two": {
+      "title": "Tweetekenklanken sorteren voor kleuters: oe of ui",
+      "instruction": "Zeg wat je op elk plaatje ziet en trek een lijn naar de klank die je hoort: oe of ui."
+    },
+    "gap": {
+      "title": "Tweetekenklanken invullen: oe, ui of eu",
+      "instruction": "Zeg wat je op elk plaatje ziet en schrijf de klank die mist van bovenaan in de open plek met de stippellijn."
+    },
+    "match": {
+      "title": "Woorden met tweetekenklanken lezen en koppelen",
+      "instruction": "Lees elk woord, de tweetekenklank is gemarkeerd, en trek een lijn naar het plaatje dat bij het woord hoort."
+    },
+    "position": {
+      "title": "Waar hoor je oo, ie en ui in het woord?",
+      "instruction": "Zeg wat je op elk plaatje ziet en kleur één rondje: hoor je de klank vooraan, in het midden of achteraan?"
+    },
+    "text": {
+      "title": "Tweetekenklanken in zinnen: omcirkel en tel oe",
+      "instruction": "Lees de zinnen, omcirkel elke oe en schrijf in het vakje hoeveel je er in die zin vond."
+    }
+  }
+}

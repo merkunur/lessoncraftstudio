@@ -1,0 +1,118 @@
+{
+  "names": {
+    "circle": "cirkel",
+    "square": "vierkant",
+    "triangle": "driehoek",
+    "rectangle": "rechthoek",
+    "hexagon": "zeshoek"
+  },
+  "overrides": {},
+  "inflections": {
+    "circle": [
+      "cirkels",
+      "cirkeltje",
+      "cirkeltjes"
+    ],
+    "square": [
+      "vierkanten",
+      "vierkantje",
+      "vierkantjes"
+    ],
+    "triangle": [
+      "driehoeken",
+      "driehoekje",
+      "driehoekjes"
+    ],
+    "rectangle": [
+      "rechthoeken",
+      "rechthoekje",
+      "rechthoekjes"
+    ],
+    "hexagon": [
+      "zeshoeken",
+      "zeshoekje",
+      "zeshoekjes"
+    ]
+  },
+  "inventory": {
+    "hexagon": true
+  },
+  "riddles": {
+    "circle": [
+      {
+        "text": "Ik ben helemaal rond en heb geen hoeken. Wat ben ik?",
+        "clue": "round"
+      },
+      {
+        "text": "Ik heb geen rechte zijden en ook geen hoeken. Wat ben ik?",
+        "clue": "round"
+      }
+    ],
+    "square": [
+      {
+        "text": "Ik heb 4 even lange zijden en 4 rechte hoeken. Wat ben ik?",
+        "clue": "equal"
+      },
+      {
+        "text": "Mijn zijden zijn even lang en mijn hoeken recht. Wat ben ik?",
+        "clue": "equal"
+      }
+    ],
+    "triangle": [
+      {
+        "text": "Ik heb 3 zijden en 3 hoeken. Wat ben ik?",
+        "clue": "three"
+      },
+      {
+        "text": "Ik heb maar 3 rechte zijden. Wat ben ik?",
+        "clue": "three"
+      }
+    ],
+    "rectangle": [
+      {
+        "text": "Ik heb 2 lange zijden, 2 korte zijden en 4 rechte hoeken. Wat ben ik?",
+        "clue": "longShort"
+      },
+      {
+        "text": "Al mijn 4 hoeken zijn recht en ik heb 2 lange en 2 korte zijden. Wat ben ik?",
+        "clue": "longShort"
+      }
+    ],
+    "hexagon": [
+      {
+        "text": "Ik heb 6 zijden en 6 hoeken. Wat ben ik?",
+        "clue": "six"
+      },
+      {
+        "text": "Ik heb 6 rechte zijden. Wat ben ik?",
+        "clue": "six"
+      }
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Vlakke figuren benoemen",
+      "instruction": "Kijk naar elke figuur, ook de gedraaide en de smalle, en omcirkel de goede naam."
+    },
+    "real-or-not": {
+      "title": "Vlakke figuren herkennen: klopt het of niet?",
+      "instruction": "Lees de naam in elke rij en omcirkel alle figuren die echt zo heten."
+    },
+    "around-us": {
+      "title": "Vlakke figuren om je heen: cirkel of rechthoek",
+      "instruction": "Kijk naar elk plaatje en kleur de vorm die het heeft: de cirkel of de rechthoek."
+    },
+    "write-name": {
+      "title": "Vlakke figuren: schrijf de namen",
+      "instruction": "Kijk naar elke figuur en schrijf de naam op de lijn, de namen staan in het kader."
+    },
+    "riddles": {
+      "title": "Raadsels over vlakke figuren",
+      "instruction": "Lees elk raadsel en omcirkel de naam van de figuur."
+    },
+    "dot-draw": {
+      "title": "Vlakke figuren tekenen op stippenpapier",
+      "instruction": "Lees de naam van de figuur en verbind de stippen, begin bij de dikke lijn als die er staat."
+    }
+  }
+}

@@ -2614,5 +2614,245 @@
   "G2-354": {
     "title": "Bezittelijke voornaamwoorden: zijn, haar of hun",
     "instruction": "Kijk van wie het ding is. Omcirkel het woord dat bij die persoon hoort."
+  },
+  "K-368": {
+    "title": "Vlakke figuren benoemen",
+    "instruction": "Kijk naar elke figuur, ook de gedraaide en de smalle, en omcirkel de goede naam."
+  },
+  "K-369": {
+    "title": "Verkeer voor kleuters: stoplicht en voetgangerslicht",
+    "instruction": "Kijk welke lamp brandt en omcirkel wat je dan moet doen."
+  },
+  "K-370": {
+    "title": "Familieleden: wie is wie in de stamboom?",
+    "instruction": "Zoek elke persoon in de stamboom en schrijf het nummer in het vakje naast het goede familiewoord."
+  },
+  "G1-376": {
+    "title": "Delen van een plant",
+    "instruction": "Volg elk nummer langs het lijntje naar een deel van de plant en schrijf de naam uit de woordrij op de lijn met hetzelfde nummer."
+  },
+  "G1-377": {
+    "title": "Van rups tot vlinder",
+    "instruction": "Het ei is 1: schrijf 2, 3 en 4 in de vakjes zoals het groeit, en in het laatste vakje het nummer van het plaatje dat na de vlinder komt."
+  },
+  "G1-378": {
+    "title": "Zon, Aarde en Maan: wie zegt het?",
+    "instruction": "Lees elke zin en zet een kruisje bij wie dat zegt: de Zon, de Aarde of de Maan."
+  },
+  "G1-379": {
+    "title": "Een plattegrond lezen met de legenda",
+    "instruction": "Kijk naar de legenda, zoek elk ding op de kaart en schrijf in het vakje hoeveel er zijn."
+  },
+  "G1-380": {
+    "title": "Tweetekenklanken oe, ui en eu: welke klank hoor je?",
+    "instruction": "Zeg wat je op elk plaatje ziet en omcirkel de tweetekenklank die je hoort."
+  },
+  "G2-358": {
+    "title": "Synoniemen: omcirkel het woord dat hetzelfde betekent",
+    "instruction": "Lees het grote woord op elke kaart en omcirkel daaronder het woord dat hetzelfde betekent."
+  },
+  "G2-359": {
+    "title": "Woordfamilies: sorteer op het stamwoord",
+    "instruction": "Lees elk woord bovenaan en schrijf het op een lijn van de muur die op zijn stamwoord staat."
+  },
+  "G1-381": {
+    "title": "Vlakke figuren herkennen: klopt het of niet?",
+    "instruction": "Lees de naam in elke rij en omcirkel alle figuren die echt zo heten."
+  },
+  "K-371": {
+    "title": "Vlakke figuren om je heen: cirkel of rechthoek",
+    "instruction": "Kijk naar elk plaatje en kleur de vorm die het heeft: de cirkel of de rechthoek."
+  },
+  "G1-382": {
+    "title": "Vlakke figuren: schrijf de namen",
+    "instruction": "Kijk naar elke figuur en schrijf de naam op de lijn, de namen staan in het kader."
+  },
+  "G1-383": {
+    "title": "Raadsels over vlakke figuren",
+    "instruction": "Lees elk raadsel en omcirkel de naam van de figuur."
+  },
+  "K-372": {
+    "title": "Vlakke figuren tekenen op stippenpapier",
+    "instruction": "Lees de naam van de figuur en verbind de stippen, begin bij de dikke lijn als die er staat."
+  },
+  "K-373": {
+    "title": "Verkeer: kleur de lamp van het stoplicht",
+    "instruction": "Zoek bij elk stoplicht de lamp met de streepjes en kleur hem in de kleur waarin hij brandt."
+  },
+  "K-374": {
+    "title": "Veilig oversteken: stap voor stap",
+    "instruction": "Schrijf 1 tot en met 5 in de vakjes: zo steek je veilig over."
+  },
+  "G1-384": {
+    "title": "Verkeersborden en hun betekenis voor kinderen",
+    "instruction": "Trek een lijn van elk verkeersbord naar de zin die zegt wat het bord betekent."
+  },
+  "G2-360": {
+    "title": "Soorten verkeersborden voor groep 4",
+    "instruction": "Schrijf de letter van elk verkeersbord in een vakje van zijn groep."
+  },
+  "G2-361": {
+    "title": "Welk verkeersbord past? Een quiz voor groep 5",
+    "instruction": "Lees elke zin en omcirkel het ene verkeersbord dat erbij past."
+  },
+  "G1-385": {
+    "title": "Generaties in de familie: van oud naar jong",
+    "instruction": "Schrijf in elke rij 1, 2 en 3 in de vakjes, van de oudste generatie naar de jongste."
+  },
+  "K-375": {
+    "title": "Familiewoorden overtrekken en schrijven",
+    "instruction": "Zoek de persoon met hetzelfde nummer in de stamboom, trek het familiewoord over en schrijf het nog een keer op de lijn."
+  },
+  "G1-386": {
+    "title": "Stamboom invullen met aanwijzingen",
+    "instruction": "Lees de aanwijzingen en schrijf elke naam in het goede naamvak van de stamboom."
+  },
+  "G2-362": {
+    "title": "Raadsels over familie: wie is het?",
+    "instruction": "Lees elk raadsel en schrijf het goede familiewoord uit het kader op de lijn; een woord kan bij meer raadsels horen."
+  },
+  "G1-387": {
+    "title": "Lege stamboom om zelf in te vullen",
+    "instruction": "Teken de mensen die belangrijk voor je zijn in de lijstjes en schrijf hun namen op de lijnen."
+  },
+  "K-376": {
+    "title": "Wat heeft een plant nodig om te groeien?",
+    "instruction": "Omcirkel in elke rij de plant die allebei de dingen krijgt die hij nodig heeft om te groeien."
+  },
+  "G1-388": {
+    "title": "Van zaadje tot plant: knippen en plakken",
+    "instruction": "Knip de vier plaatjes uit en plak ze langs de pijlen in de lege vakjes, te beginnen bij het zaadje."
+  },
+  "G2-363": {
+    "title": "Welk deel van de plant eten we?",
+    "instruction": "Kijk naar elk plaatje en omcirkel het deel van de plant dat we ervan eten."
+  },
+  "G2-364": {
+    "title": "Delen van een plant en wat ze doen",
+    "instruction": "Lees wat elk deel doet, zoek dat deel op de plant en schrijf het nummer dat erbij staat in het vakje."
+  },
+  "G3-392": {
+    "title": "Delen van een bloem benoemen",
+    "instruction": "Schrijf de naam van elk genummerd deel van de bloem op zijn lijn en streep in de woordrij het woord door dat geen deel van een bloem is."
+  },
+  "G1-389": {
+    "title": "Van kikkerdril tot kikker: knippen en plakken",
+    "instruction": "Knip de vier vierkantjes uit en plak elk op zijn waterlelieblad, rond de vijver van het kikkerdril tot de kikker."
+  },
+  "G2-365": {
+    "title": "Levenscyclus van de vlinder: benoem elke fase",
+    "instruction": "Schrijf elke naam uit de woordrij op de lijn onder het plaatje en streep de ene naam door die er niet bij hoort."
+  },
+  "G2-366": {
+    "title": "Gedaanteverwisseling: welk dier wordt het?",
+    "instruction": "Kijk naar elk jong dier en schrijf zijn letter in een vakje onder het volwassen dier dat het wordt."
+  },
+  "G3-393": {
+    "title": "Vlinder en kikker: hoe groeien ze op?",
+    "instruction": "Lees elke zin en zet een kruisje bij de vlinder, de kikker of allebei als de zin klopt voor dat dier."
+  },
+  "G1-390": {
+    "title": "Wat komt daarna? Vlinder, kikker en lieveheersbeestje",
+    "instruction": "Kijk naar het eerste plaatje in elke rij en omcirkel het plaatje dat daar direct na komt."
+  },
+  "G1-391": {
+    "title": "Maanfasen op volgorde zetten",
+    "instruction": "Kijk in elke rij naar de wig of de maan groeit of krimpt, en schrijf 1 tot en met 5 onder de manen in die volgorde."
+  },
+  "G2-367": {
+    "title": "Maanfasen benoemen",
+    "instruction": "Schrijf de naam van elke maan op de lijnen en gebruik elk woord uit de woordrij twee keer."
+  },
+  "G2-368": {
+    "title": "Waarom is het dag en nacht?",
+    "instruction": "Kijk waar de Zon is en omcirkel in de tabel bij elk nummer of het daar dag of nacht is."
+  },
+  "G3-394": {
+    "title": "De planeten op volgorde vanaf de Zon",
+    "instruction": "Schrijf de naam van elke planeet op zijn lijn, begin naast de Zon en gebruik elke naam uit het kader één keer."
+  },
+  "G3-395": {
+    "title": "Reuzenplaneten en rotsplaneten sorteren",
+    "instruction": "Sorteer de namen en schrijf elke naam in het goede vak: reuzenplaneet, kleine rotsplaneet of geen planeet."
+  },
+  "K-377": {
+    "title": "In vogelvlucht: van opzij en van bovenaf",
+    "instruction": "Elk ding is van opzij getekend: trek een lijn naar hetzelfde ding, van bovenaf gezien."
+  },
+  "G2-369": {
+    "title": "Windroos invullen: noord, oost, zuid en west",
+    "instruction": "Elke windroos laat één letter zien: schrijf de andere drie letters in de lege vakjes."
+  },
+  "G2-370": {
+    "title": "Werelddelen benoemen op de wereldkaart",
+    "instruction": "Schrijf de naam van elk genummerd werelddeel op zijn lijn, de namen staan in het kader."
+  },
+  "G3-396": {
+    "title": "Werelddelen en oceanen op de kaart",
+    "instruction": "Zoek elk werelddeel en elke oceaan op de kaart en schrijf het nummer in het vakje naast de naam."
+  },
+  "G2-371": {
+    "title": "Windrichtingen op een plattegrond",
+    "instruction": "Zoek het eerste plaatje op de kaart, kijk in de richting van het woord en omcirkel het plaatje van de drie dat daar ligt."
+  },
+  "K-378": {
+    "title": "Tweetekenklanken sorteren voor kleuters: oe of ui",
+    "instruction": "Zeg wat je op elk plaatje ziet en trek een lijn naar de klank die je hoort: oe of ui."
+  },
+  "G1-392": {
+    "title": "Tweetekenklanken invullen: oe, ui of eu",
+    "instruction": "Zeg wat je op elk plaatje ziet en schrijf de klank die mist van bovenaan in de open plek met de stippellijn."
+  },
+  "G1-393": {
+    "title": "Woorden met tweetekenklanken lezen en koppelen",
+    "instruction": "Lees elk woord, de tweetekenklank is gemarkeerd, en trek een lijn naar het plaatje dat bij het woord hoort."
+  },
+  "G1-394": {
+    "title": "Waar hoor je oo, ie en ui in het woord?",
+    "instruction": "Zeg wat je op elk plaatje ziet en kleur één rondje: hoor je de klank vooraan, in het midden of achteraan?"
+  },
+  "G2-372": {
+    "title": "Tweetekenklanken in zinnen: omcirkel en tel oe",
+    "instruction": "Lees de zinnen, omcirkel elke oe en schrijf in het vakje hoeveel je er in die zin vond."
+  },
+  "G1-395": {
+    "title": "Synoniemen met plaatjes: twee woorden, één plaatje",
+    "instruction": "Kijk naar elk plaatje en omcirkel daaronder de twee woorden die hetzelfde betekenen en bij het plaatje passen."
+  },
+  "G2-373": {
+    "title": "Synoniemen koppelen: woordparen met dezelfde betekenis",
+    "instruction": "Trek een lijn van elk woord links naar het woord rechts dat hetzelfde betekent."
+  },
+  "G1-396": {
+    "title": "Woorden op sterkte zetten: van een beetje tot heel erg",
+    "instruction": "Lees de drie woorden in elke rij en schrijf 1, 2 en 3 in de vakjes, van het zwakste naar het sterkste woord."
+  },
+  "G2-374": {
+    "title": "Andere woorden voor ‘zegt’: kies het woord dat past",
+    "instruction": "Lees elke zin en schrijf in het vakje het woord uit het wolkje dat daar het best past in plaats van ‘zegt’."
+  },
+  "G3-397": {
+    "title": "Woorden voor ‘gaan’ en ‘kijken’ sorteren",
+    "instruction": "Lees de tien woorden en schrijf elk woord in het vak van het woord dat bijna hetzelfde betekent."
+  },
+  "G1-397": {
+    "title": "Woordfamilies met plaatjes: omcirkel het woord",
+    "instruction": "Zeg wat je op elk plaatje ziet en omcirkel daarboven het ene woord dat van dat plaatjeswoord is gemaakt."
+  },
+  "G2-375": {
+    "title": "Het stamwoord vinden",
+    "instruction": "Omcirkel het stukje dat de drie woorden delen en schrijf dat stamwoord in de lege steen."
+  },
+  "G2-376": {
+    "title": "Voorvoegsels her-, mee- en uit-: kies op betekenis",
+    "instruction": "Lees wat elk nieuw woord betekent, zoek het voorvoegsel in de sleutel en schrijf het in het lege stukje."
+  },
+  "G3-398": {
+    "title": "Wie doet het? Woorden voor beroepen maken",
+    "instruction": "Kijk naar elke persoon aan het werk, lees het woord ernaast en schrijf het persoonswoord in de lege steen."
+  },
+  "G3-399": {
+    "title": "Woordfamilies in zinnen",
+    "instruction": "Schrijf elk van de vier woorden op de steen in de zin waar het in past."
   }
 }

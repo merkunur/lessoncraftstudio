@@ -1,0 +1,319 @@
+{
+  "convention": "vienna",
+  "signs": {
+    "stop": {
+      "code": "B7",
+      "regRef": "RVV 1990 Bijlage 1, B7 Stop. Verplicht te stoppen en voorrang te verlenen",
+      "shape": "octagon",
+      "rim": "white",
+      "field": "red",
+      "glyph": "text",
+      "text": "STOP",
+      "slash": false,
+      "class": "priority",
+      "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending"
+    },
+    "yield": {
+      "code": "B6",
+      "regRef": "RVV 1990 Bijlage 1, B6 Verleen voorrang aan bestuurders op de kruisende weg (haaientanden-driehoek, geen tekst)",
+      "shape": "triDown",
+      "rim": "red",
+      "field": "white",
+      "glyph": "none",
+      "text": "",
+      "slash": false,
+      "class": "priority",
+      "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending"
+    },
+    "crossing": {
+      "code": "L2",
+      "regRef": "RVV 1990 Bijlage 1, L2 Voetgangersoversteekplaats",
+      "shape": "square",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "crossingTriangle",
+      "text": "",
+      "slash": false,
+      "class": "information",
+      "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending"
+    },
+    "footpath": {
+      "code": "G7",
+      "regRef": "RVV 1990 Bijlage 1, G7 Voetpad (blauw vierkant bord)",
+      "shape": "square",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "walker",
+      "text": "",
+      "slash": false,
+      "class": "information",
+      "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending; the G7 figure (one walker or adult with child) is UNSURE"
+    },
+    "children": {
+      "code": "J21",
+      "regRef": "RVV 1990 Bijlage 1, J-serie waarschuwingsbord Kinderen",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "twoChildren",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending; the J/C code number is UNSURE (the picture and meaning are sure), confirm the code against the current RVV 1990 Bijlage 1"
+    },
+    "pedestrian-warning": {
+      "code": "J22",
+      "regRef": "RVV 1990 Bijlage 1, J-serie waarschuwingsbord Voetgangersoversteekplaats",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "walkerOnStripes",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending; the J/C code number is UNSURE (the picture and meaning are sure), confirm the code against the current RVV 1990 Bijlage 1"
+    },
+    "signal-ahead": {
+      "code": "J32",
+      "regRef": "RVV 1990 Bijlage 1, J-serie waarschuwingsbord Verkeerslichten",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "trafficLightMini",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending; the J/C code number is UNSURE (the picture and meaning are sure), confirm the code against the current RVV 1990 Bijlage 1"
+    },
+    "bike-warning": {
+      "code": "J24",
+      "regRef": "RVV 1990 Bijlage 1, J-serie waarschuwingsbord Fietsers en bromfietsers",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending; the J/C code number is UNSURE (the picture and meaning are sure), confirm the code against the current RVV 1990 Bijlage 1"
+    },
+    "no-entry": {
+      "code": "C2",
+      "regRef": "RVV 1990 Bijlage 1, C2 Gesloten in één rijrichting (eenrichtingsweg, inrijden verboden)",
+      "shape": "circle",
+      "rim": null,
+      "field": "red",
+      "glyph": "bar",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending"
+    },
+    "no-vehicles": {
+      "code": "C1",
+      "regRef": "RVV 1990 Bijlage 1, C1 Gesloten in beide rijrichtingen voor voertuigen",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "none",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending"
+    },
+    "no-bikes": {
+      "code": "C14",
+      "regRef": "RVV 1990 Bijlage 1, C-serie Gesloten voor fietsers (geen schuine streep)",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending; the J/C code number is UNSURE (the picture and meaning are sure), confirm the code against the current RVV 1990 Bijlage 1"
+    },
+    "no-pedestrians": {
+      "code": "C16",
+      "regRef": "RVV 1990 Bijlage 1, C16 Gesloten voor voetgangers (geen schuine streep)",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "walker",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending"
+    },
+    "bike-path": {
+      "code": "G11",
+      "regRef": "RVV 1990 Bijlage 1, G11 Verplicht fietspad",
+      "shape": "circle",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "mandatory",
+      "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending"
+    }
+  },
+  "setG1": [
+    "stop",
+    "yield",
+    "crossing",
+    "children",
+    "no-entry",
+    "bike-path"
+  ],
+  "kindsPool": [
+    "children",
+    "pedestrian-warning",
+    "signal-ahead",
+    "bike-warning",
+    "no-vehicles",
+    "no-bikes",
+    "no-pedestrians",
+    "crossing",
+    "footpath"
+  ],
+  "classes": [
+    {
+      "key": "warning",
+      "label": "waarschuwingsborden"
+    },
+    {
+      "key": "prohibition",
+      "label": "verbodsborden"
+    },
+    {
+      "key": "information",
+      "label": "aanwijzingsborden"
+    }
+  ],
+  "pedLight": {
+    "stop": "standing",
+    "go": "walking",
+    "lamps": 2
+  },
+  "amber": {
+    "token": "codeOrange",
+    "word": "oranje"
+  },
+  "amberMeans": "stop",
+  "chipWords": {
+    "ped": {
+      "stop": "wachten",
+      "go": "lopen"
+    },
+    "car": {
+      "stop": "stoppen",
+      "go": "rijden"
+    }
+  },
+  "meanings": {
+    "stop": "Elke auto moet hier helemaal stilstaan en voorrang geven.",
+    "yield": "Laat het verkeer op de andere weg eerst gaan.",
+    "crossing": "Hier is een zebrapad om veilig over te steken.",
+    "children": "Let op, hier kunnen kinderen de weg op lopen.",
+    "no-entry": "Hier mag geen enkel voertuig de straat in.",
+    "bike-path": "Dit pad is alleen voor fietsers."
+  },
+  "situations": {
+    "stop": [
+      "Op deze kruising moet elke auto helemaal stilstaan, ook als er niemand komt.",
+      "Hier moet een auto echt even stilstaan en goed kijken of de weg vrij is."
+    ],
+    "yield": [
+      "Wacht even en laat de auto’s op de grote weg eerst gaan.",
+      "Hier geef je voorrang: het andere verkeer mag eerst."
+    ],
+    "crossing": [
+      "Hier is een zebrapad: wie loopt, kan hier veilig oversteken.",
+      "Auto’s moeten wachten als er iemand over het zebrapad wil."
+    ],
+    "children": [
+      "Naast deze straat staat een school, dus er lopen vaak kinderen.",
+      "Let op, automobilisten: vlak naast de weg is een speeltuin."
+    ],
+    "no-entry": [
+      "Deze straat mag je hier niet in rijden.",
+      "Hier is inrijden verboden, auto’s moeten een andere weg nemen."
+    ],
+    "bike-path": [
+      "Dit pad is alleen voor fietsers gemaakt.",
+      "Hier fiets je op je eigen pad, naast de weg."
+    ],
+    "pedestrian-warning": [
+      "Let op, automobilisten: verderop steken mensen de weg over.",
+      "Pas op, straks komt er een plek waar voetgangers oversteken."
+    ],
+    "signal-ahead": [
+      "Let op, straks komt er een stoplicht.",
+      "Een stukje verderop staat een verkeerslicht dat op rood kan springen."
+    ],
+    "bike-warning": [
+      "Let op: op deze weg rijden veel fietsers.",
+      "Pas op, automobilisten: hier steken vaak kinderen op de fiets over."
+    ],
+    "no-vehicles": [
+      "Hier mag geen enkel voertuig rijden, geen auto en ook geen fiets.",
+      "Deze weg is dicht voor alle voertuigen, of het nu een auto of een brommer is."
+    ],
+    "no-bikes": [
+      "Auto’s mogen hier rijden, maar fietsen niet.",
+      "Fietsen is hier verboden, maar auto’s mogen doorrijden."
+    ],
+    "no-pedestrians": [
+      "Op deze weg mag je niet lopen, alleen voertuigen mogen hier rijden.",
+      "Lopen is hier verboden, maar auto’s mogen er wel rijden."
+    ],
+    "footpath": [
+      "Dit pad is alleen voor mensen die lopen.",
+      "Hier is een voetpad: hier lopen de mensen te voet."
+    ]
+  },
+  "steps": [
+    "stop-kerb",
+    "look-left",
+    "look-right",
+    "look-left",
+    "walk-across"
+  ],
+  "listenStep": null,
+  "familyHead": "Verkeer",
+  "signHead": "Verkeersborden",
+  "childAnchors": [
+    "voor kinderen",
+    "kleuters",
+    "groep 3",
+    "groep 4",
+    "groep 5"
+  ],
+  "strings": {
+    "base": {
+      "title": "Verkeer voor kleuters: stoplicht en voetgangerslicht",
+      "instruction": "Kijk welke lamp brandt en omcirkel wat je dan moet doen."
+    },
+    "colour-lights": {
+      "title": "Verkeer: kleur de lamp van het stoplicht",
+      "instruction": "Zoek bij elk stoplicht de lamp met de streepjes en kleur hem in de kleur waarin hij brandt."
+    },
+    "crossing-steps": {
+      "title": "Veilig oversteken: stap voor stap",
+      "instruction": "Schrijf 1 tot en met 5 in de vakjes: zo steek je veilig over."
+    },
+    "sign-meaning": {
+      "title": "Verkeersborden en hun betekenis voor kinderen",
+      "instruction": "Trek een lijn van elk verkeersbord naar de zin die zegt wat het bord betekent."
+    },
+    "sign-kinds": {
+      "title": "Soorten verkeersborden voor groep 4",
+      "instruction": "Schrijf de letter van elk verkeersbord in een vakje van zijn groep."
+    },
+    "sign-quiz": {
+      "title": "Welk verkeersbord past? Een quiz voor groep 5",
+      "instruction": "Lees elke zin en omcirkel het ene verkeersbord dat erbij past."
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "names": {
+    "circle": "cirkel",
+    "square": "kvadrat",
+    "triangle": "trekant",
+    "rectangle": "rektangel",
+    "hexagon": "sekskant"
+  },
+  "overrides": {},
+  "inflections": {
+    "circle": [
+      "cirklen",
+      "cirkler",
+      "cirklerne",
+      "cirklens",
+      "cirkels"
+    ],
+    "square": [
+      "kvadratet",
+      "kvadrater",
+      "kvadraterne",
+      "kvadratets",
+      "kvadrats"
+    ],
+    "triangle": [
+      "trekanten",
+      "trekanter",
+      "trekanterne",
+      "trekantens",
+      "trekants"
+    ],
+    "rectangle": [
+      "rektanglet",
+      "rektangler",
+      "rektanglerne",
+      "rektanglets",
+      "rektangels"
+    ],
+    "hexagon": [
+      "sekskanten",
+      "sekskanter",
+      "sekskanterne",
+      "sekskantens",
+      "sekskants"
+    ]
+  },
+  "inventory": {
+    "hexagon": true
+  },
+  "riddles": {
+    "circle": [
+      {
+        "text": "Jeg er helt rund og har ingen hjørner. Hvad er jeg?",
+        "clue": "round"
+      },
+      {
+        "text": "Jeg har ingen lige sider og slet ingen hjørner. Hvad er jeg?",
+        "clue": "round"
+      }
+    ],
+    "square": [
+      {
+        "text": "Mine 4 sider er alle lige lange. Hvad er jeg?",
+        "clue": "equal"
+      },
+      {
+        "text": "Jeg har 4 hjørner og 4 sider, der er lige lange. Hvad er jeg?",
+        "clue": "equal"
+      }
+    ],
+    "triangle": [
+      {
+        "text": "Jeg har 3 sider og 3 hjørner. Hvad er jeg?",
+        "clue": "three"
+      },
+      {
+        "text": "Jeg har kun 3 lige sider. Hvad er jeg?",
+        "clue": "three"
+      }
+    ],
+    "rectangle": [
+      {
+        "text": "Jeg har 2 lange og 2 korte sider. Hvad er jeg?",
+        "clue": "longShort"
+      },
+      {
+        "text": "Jeg har 4 hjørner, 2 lange sider og 2 korte sider. Hvad er jeg?",
+        "clue": "longShort"
+      }
+    ],
+    "hexagon": [
+      {
+        "text": "Jeg har 6 sider og 6 hjørner. Hvad er jeg?",
+        "clue": "six"
+      },
+      {
+        "text": "Jeg har 6 lige sider. Hvad er jeg?",
+        "clue": "six"
+      }
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Geometriske figurer: sæt ring om navnet",
+      "instruction": "Se på hver figur, også de drejede og de smalle, og sæt ring om dens navn."
+    },
+    "real-or-not": {
+      "title": "Geometriske figurer: rigtig eller ej?",
+      "instruction": "Læs navnet i hver række, og sæt ring om alle de figurer, der virkelig er den figur."
+    },
+    "around-us": {
+      "title": "Geometriske figurer omkring os",
+      "instruction": "Se på hvert billede, og farvelæg den figur, tingen har form som: cirkel eller rektangel."
+    },
+    "write-name": {
+      "title": "Geometriske figurer: skriv navnene",
+      "instruction": "Se på hver figur, og skriv dens navn på linjen; navnene står i boksen."
+    },
+    "riddles": {
+      "title": "Gåder om geometriske figurer",
+      "instruction": "Læs hver gåde, og sæt ring om navnet på figuren."
+    },
+    "dot-draw": {
+      "title": "Tegn geometriske figurer på prikpapir",
+      "instruction": "Læs navnet på figuren, og forbind prikkerne, så du tegner den; begynd ved den tykke streg, hvis der er en."
+    }
+  }
+}

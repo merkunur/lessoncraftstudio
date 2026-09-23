@@ -10,5 +10,5 @@ module.exports = {
   id: 'G1-390',
   slug: 'what-comes-next-butterfly-frog-and-ladybug',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "What Comes Next? Butterfly, Frog and Ladybug", instruction: "Look at the first picture in each row and circle the one that comes right after it." } },
+  i18n: { en: { title: "What Comes Next? Butterfly, Frog and Ladybug", instruction: "Look at the first picture in each row and circle the one that comes right after it; after the grown-up, the cycle starts again." } },
 };

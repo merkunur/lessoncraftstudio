@@ -10,6 +10,6 @@ module.exports = {
   id: 'G3-398',
   slug: 'who-does-it-person-words',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Who Does It? The Person Word", instruction: "Look at each person at work, read the word beside them and write the person word in the empty brick." } },
+  i18n: { en: { title: "Who Does It? The Person Word", instruction: "Look at each person, read the word beside them and write the person word in the empty brick." } },
   gradeBand: "G3",
 };

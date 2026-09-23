@@ -236,11 +236,16 @@ const TYPE = {
     const order = d.forceCards || this._drawLegal(rng, () => rng.shuffle(d.cards), legal, 'F3 strip');
     const letters = 'ABCDEFGHIJKL';
     const cards = order.map((c, i) => ({ animal: animalOf(c), stage: c.split('.')[1], letter: letters[i] }));
-    const bins = animals.map((a) => ({ animal: a, cap: cards.filter((c) => c.animal === a).length, expect: cards.filter((c) => c.animal === a).map((c) => c.letter) }));
-    if (bins.some((b) => !b.cap)) throw new Error(`${ID}: F3 an empty bin`);
+    // 2026-09-23 landing panels (en/de/es/pt/fr/it): caps 2 / 4 / 2 = the answer counts. Every bin now
+    // carries the SAME `boxesPerBin` boxes (>= the largest group), so a box count carries no information.
+    const nOf = (a) => cards.filter((c) => c.animal === a).length;
+    const most = Math.max(...animals.map(nOf));
+    if (!(Number.isInteger(d.boxesPerBin) && d.boxesPerBin >= most)) throw new Error(`${ID}: F3 boxesPerBin ${d.boxesPerBin} must be an integer >= the largest group (${most})`);
+    const bins = animals.map((a) => ({ animal: a, cap: (d.forceCaps && d.forceCaps[a]) || d.boxesPerBin, expect: cards.filter((c) => c.animal === a).map((c) => c.letter) }));
+    if (bins.some((b) => !b.expect.length)) throw new Error(`${ID}: F3 an empty bin`);
     const parts = [C5.lifeYoungStrip({ cards, lensD: d.lensD, lensMax: d.lensMax, spawnForm }), C5.lifeAdultBins({ bins, adultD: d.adultD, adultMax: d.adultMax, box: d.box, boxMax: d.boxMax, maxH: d.binsMax })];
     // FILL: the root is a size container so the young lenses can grow with the body (lifeYoungStrip)
-    return { parts, gap: 30, rootCss: ';container-type:size', cfg: { animals, lensD: d.lensD, lensMax: d.lensMax, adultD: d.adultD, adultMax: d.adultMax, box: d.box, n: d.cards.length }, meta: { cards: order } };
+    return { parts, gap: 30, rootCss: ';container-type:size', cfg: { animals, lensD: d.lensD, lensMax: d.lensMax, adultD: d.adultD, adultMax: d.adultMax, box: d.box, n: d.cards.length, boxesPerBin: d.boxesPerBin }, meta: { cards: order } };
   },
 
   _faceCompare(block, d, loc, rng) {
@@ -435,12 +440,14 @@ const TYPE = {
           const a = b.dataset.lcsBin, mine = C.filter((c) => c.a === a).map((c) => c.letter);
           const ad = b.querySelector('[data-lcs-bin-adult]');
           if (!ad || ad.dataset.lcsStage !== `${a}.adult`) f.push(`bin ${a} is not crowned by its adult`); else if (diam(ad) < cfg.adultD - 0.6 || diam(ad) > cfg.adultMax + 0.6) f.push(`adult lens ${diam(ad).toFixed(1)} px outside [${cfg.adultD}, ${cfg.adultMax}]`);
-          if (+b.dataset.lcsCap !== mine.length) f.push(`bin ${a} cap ${b.dataset.lcsCap} ≠ ${mine.length} cards`);
+          if (+b.dataset.lcsCap !== cfg.boxesPerBin) f.push(`box-count tell: bin ${a} cap ${b.dataset.lcsCap} ≠ the page's ${cfg.boxesPerBin} per bin`);
+          if (+b.dataset.lcsCap < mine.length) f.push(`bin ${a} cap ${b.dataset.lcsCap} < ${mine.length} cards`);
           if ((b.dataset.lcsExpect || '').split(',').filter(Boolean).sort().join() !== mine.slice().sort().join()) f.push(`bin ${a} expects ${b.dataset.lcsExpect} ≠ ${mine}`);
           const boxes = [...b.querySelectorAll('[data-lcs-bin-box]')];
-          if (boxes.length !== mine.length) f.push(`bin ${a} has ${boxes.length} boxes ≠ ${mine.length}`);
+          if (boxes.length !== +b.dataset.lcsCap) f.push(`bin ${a} has ${boxes.length} boxes ≠ cap ${b.dataset.lcsCap}`);
           for (const x of boxes) { if (x.textContent.trim()) f.push(`answer printed in bin ${a}`); if (R(x).width < Math.max(FLOOR, cfg.box) - 0.6) f.push('bin box under the floor'); }
         }
+        { const caps = bins.map((b) => +b.dataset.lcsCap); if (new Set(caps).size > 1) f.push(`box-count tell: the bins carry ${caps.join(' / ')} boxes (a box count may never differ between bins)`); }
         if (C.some((c) => c.st.endsWith('.adult'))) f.push('an adult among the young cards');
         texts((el) => !!el.closest('[data-lcs-card]'));
         return f;

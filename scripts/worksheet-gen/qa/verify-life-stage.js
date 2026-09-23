@@ -24,10 +24,10 @@
  *     the froglet's stub reaches beyond the body ellipse
  *   - the three egg drawings pairwise distinct (scenery x egg element x count)
  * RENDER at 92 px (puppeteer, file://): the magnified butterfly egg >= 28 px tall, each
- * legged-tadpole leg >= 14 px long, the froglet stub >= 6 px visible below the body,
+ * legged-tadpole leg >= 14 px long, the froglet stub >= 6 px visible below the body and >= 4 px below the hind feet,
  * every ladybird adult spot >= 5 px wide.
  * POISON (each must FAIL for its own reason; the real primitive is the control):
- *   L1 drop the froglet stub · L2 a silk strand on the chrysalis · L3 an antenna on the
+ *   L1 drop the froglet stub · L1b the pre-2026-09-23 stub hidden between the hind feet · L2 a silk strand on the chrysalis · L3 an antenna on the
  *   caterpillar · L4 the butterfly egg back at true scale (rx 4.5 ry 6) · L5 a ladybird
  *   spot outside the elytra · L6 the legged tadpole's legs at the FRONT · L7 render at 88.
  * SHEETS: out/dev/G1-377-life-stage-sheet-{colour,grey}.png (every stage at 90, 132, 144).
@@ -201,6 +201,10 @@ function checkStage(svg, key, size) {
   if (key === 'frog.froglet') {
     const body = shapes.find((s) => s.part === 'body'), tail = shapes.find((s) => s.part === 'tail');
     if (tail && body && bboxOf(tail.pts).y1 - bboxOf(body.pts).y1 < 10) push('the stub does not reach 10 units beyond the body');
+    // 2026-09-23 landing panels: a stub hidden between the hind feet reads as "no tail" — the froglet
+    // and the frog then differ only by size. The stub must also clear the lowest FOOT.
+    const feet = shapes.filter((x) => x.part === 'foot');
+    if (tail && feet.length && bboxOf(tail.pts).y1 - Math.max(...feet.map((x) => bboxOf(x.pts).y1)) < 10) push('the stub does not reach 10 units beyond the hind feet');
   }
   return f;
 }
@@ -230,6 +234,8 @@ async function measure(page, list, tag) {
       if (legs.length) r.legPx = legs.map((l) => (l.getTotalLength ? l.getTotalLength() * scale : 0));
       const tail = svg.querySelector('[data-part="tail"]'), body = svg.querySelector('[data-part="body"]');
       if (tail && body) r.stubPx = tail.getBoundingClientRect().bottom - body.getBoundingClientRect().bottom;
+      const feet = [...svg.querySelectorAll('[data-part="foot"]')];
+      if (tail && feet.length) r.stubPastFeetPx = tail.getBoundingClientRect().bottom - Math.max(...feet.map((x) => x.getBoundingClientRect().bottom));
       const spots = [...svg.querySelectorAll('[data-part="spot"]')];
       if (spots.length) r.spotW = spots.map((s) => s.getBoundingClientRect().width);
       res[k] = r;
@@ -244,6 +250,7 @@ function judgeMeasure(m) {
   if (!lg || !lg.legPx || lg.legPx.length !== 2 || !lg.legPx.every((x) => x >= 14)) f.push(`render: legged-tadpole legs ${lg && lg.legPx && lg.legPx.map((x) => x.toFixed(1))} px at 92 (want 2 x >= 14)`);
   const fl = m['frog.froglet'];
   if (!fl || !(fl.stubPx >= 6)) f.push(`render: the froglet stub shows ${fl && fl.stubPx != null ? fl.stubPx.toFixed(1) : '?'} px below the body at 92 (< 6)`);
+  if (!fl || !(fl.stubPastFeetPx >= 4)) f.push(`render: the froglet stub shows ${fl && fl.stubPastFeetPx != null ? fl.stubPastFeetPx.toFixed(1) : '?'} px below the hind feet at 92 (< 4)`);
   const la = m['ladybird.adult'];
   if (!la || !la.spotW || !la.spotW.every((w) => w >= 5)) f.push(`render: a ladybird adult spot under 5 px at 92 (${la && la.spotW && la.spotW.map((x) => x.toFixed(1))})`);
   return f;
@@ -286,6 +293,8 @@ async function main() {
   const svgOf = (key, size = 92, o = {}) => { const [a, s] = key.split('.'); return LS.lifeStage({ animal: a, stage: s, size, ...o }).svg; };
   const POISONS = [
     ['L1 froglet stub dropped', 'frog.froglet', (s) => s.replace(/<path[^>]*data-part="tail"[^>]*\/>/, ''), /part count tail 0 ≠ 1|stub/],
+    // L1b: the pre-2026-09-23 stub (hidden between the feet; the panels could not see it)
+    ['L1b froglet stub hidden between the feet', 'frog.froglet', (s) => s.replace(/<path d="M [^"]*"([^>]*data-tail="stub"[^>]*)\/>/,'<path d="M 103.18 118.6 Q 106.28 135.96 110 139.06 Q 113.72 135.96 116.82 118.6 Z"$1/>'), /beyond the hind feet|below the hind feet/],
     ['L2 silk strand on the chrysalis', 'butterfly.pupa', (s) => s.replace('data-part="stalk"/>', 'data-part="stalk"/><line x1="100" y1="66" x2="120" y2="40" stroke="#146B5E" stroke-width="2" data-part="silk"/>'), /part count silk 1 ≠ 0/],
     ['L3 caterpillar antenna', 'butterfly.larva', (s) => s.replace('data-part="head"/>', 'data-part="head"/><line x1="172" y1="86" x2="180" y2="76" stroke="#146B5E" stroke-width="2" data-part="antenna"/>'), /part count antenna 1 ≠ 0/],
     ['L4 egg back at true scale', 'butterfly.egg', (s) => s.replace(/<path d="M 82 114[^>]*data-part="egg"([^>]*)\/>/, '<ellipse cx="100" cy="108" rx="4.5" ry="6" fill="#FFFFFF" stroke="#146B5E" stroke-width="4.35" data-part="egg"$1/>'), /units tall|px tall at 92/],

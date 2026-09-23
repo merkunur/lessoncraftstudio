@@ -9,17 +9,18 @@
  *   N Ö S V · fi P I E L): exactly ONE given, three blanks, every box's letter === the set's
  *   letter for the direction its POSITION points at, derived INDEPENDENTLY here from the box
  *   angle (0/90/180/270 clockwise from up) minus the rotation — the gate never calls
- *   posToDir; the N marker only on rotation 0; token hexes only.
- *   THROWS: the marker asked on a turned rose, px 179 with boxes, rotation 45, a reference
+ *   posToDir; the N marker on EVERY rose, on the kite pointing north (landing round 1,
+ *   2026-09-23); token hexes only.
+ *   THROWS: px 179 with boxes, rotation 45, a reference
  *   rose turned, a missing letter.
  * RENDER — every rose drawn in Chromium: the pin's rendered centre is the rose centre; each
  *   box's rendered centre is classified by its ANGLE round that centre (never read from the
  *   stamp), the direction recomputed from that angle and data-lcs-rot, and the stamped letter
- *   (given text or hidden answer) must be the set's letter for it; coral pixels only on an
- *   upright rose; given letters >= 22 px, boxes >= 36 px (the G2 floors at px 196); reference
+ *   (given text or hidden answer) must be the set's letter for it; the coral marker drawn on
+ *   every rose, its centroid pointing north (= the turn); given letters >= 22 px, boxes >= 36 px (the G2 floors at px 196); reference
  *   letters >= 14 px at px 96; blanks print nothing.
- * POISON — PR7 a turned rose carrying the coral marker (doctored markup) -> "marker on a turned
- *   rose"; PR8 an upright rose whose RIGHT box carries S -> "letter from position".
+ * POISON — PR7 a turned rose drawn without its marker -> "no N marker"; PR7b the marker doctored
+ *   onto a kite that does not point north -> "marker off north"; PR8 an upright rose whose RIGHT box carries S -> "letter from position".
  * SHEET — out/dev/G1-379-compass-rose-{colour,grey}.png (px 196 + reference 96; en, de, fi).
  */
 'use strict';
@@ -51,8 +52,10 @@ function nodeCheck(svg, loc, rot) {
     const pos = +b[1], want = SETS[loc][dirAt(pos * 90, rot)];
     if (b[4] !== want) f.push(`${loc} rot ${rot} pos ${pos}: stamps "${b[4]}", the position points ${dirAt(pos * 90, rot)} = "${want}"`);
   }
-  if (rot !== 0 && /data-lcs-marker/.test(svg)) f.push(`marker on a turned rose (rot ${rot})`);
-  if (rot === 0 && !/data-lcs-marker/.test(svg)) f.push('no N marker on an upright rose');
+  // every rose marks north (landing round 1): the marker sits on the kite that points north (kite index = rot / 90)
+  const mk = /data-lcs-kite="(\d)" data-lcs-marker="n"/.exec(svg);
+  if (!mk) f.push(`no N marker (rot ${rot})`);
+  else if (+mk[1] !== rot / 90) f.push(`the N marker is on kite ${mk[1]}, the kite pointing north is ${rot / 90} (rot ${rot})`);
   return f;
 }
 
@@ -76,10 +79,10 @@ async function renderCheck(page, roses) {
         out.push({ i, ang, rot, stamped, letters: list[i].letters, given: !!g.dataset.lcsGiven, ref: !!g.dataset.lcsRef, boxPx: r.width, textPx: g.querySelector('text') ? parseFloat(g.querySelector('text').getAttribute('font-size')) * k : null, text: g.querySelector('text') ? g.querySelector('text').textContent : '' });
       }
       const ras = await window.__raster(svg, 1);
-      let coral = 0;
+      let coral = 0, sx = 0, sy = 0;
       // the KITES only (radius < 57 units round the centre): the blank boxes are coral-dashed on every rose
-      for (let p = 0; p < ras.w * ras.h; p++) { const x = (p % ras.w) / k, y = Math.floor(p / ras.w) / k; if (Math.hypot(x - 100, y - 100) > 57) continue; const r = ras.rgb[p * 3], gg = ras.rgb[p * 3 + 1], b = ras.rgb[p * 3 + 2]; if (Math.abs(r - 242) < 12 && Math.abs(gg - 120) < 14 && Math.abs(b - 75) < 14) coral++; }
-      out.push({ i, coral, rot, rose: true });
+      for (let p = 0; p < ras.w * ras.h; p++) { const x = (p % ras.w) / k, y = Math.floor(p / ras.w) / k; if (Math.hypot(x - 100, y - 100) > 57) continue; const r = ras.rgb[p * 3], gg = ras.rgb[p * 3 + 1], b = ras.rgb[p * 3 + 2]; if (Math.abs(r - 242) < 12 && Math.abs(gg - 120) < 14 && Math.abs(b - 75) < 14) { coral++; sx += x - 100; sy += y - 100; } }
+      out.push({ i, coral, rot, rose: true, ang: coral ? ((Math.atan2(sx, -sy) * 180) / Math.PI + 360) % 360 : null });
     }
     return out;
   }, roses.map((r) => ({ letters: r.letters })));
@@ -88,7 +91,12 @@ async function renderCheck(page, roses) {
 function judge(rs) {
   const f = [];
   for (const m of rs) {
-    if (m.rose) { if (m.rot !== 0 && m.coral > 20) f.push(`rose ${m.i}: coral marker on a turned rose (rot ${m.rot}, ${m.coral} px)`); continue; }
+    if (m.rose) {
+      // the rendered coral marker exists on every rose and points NORTH: its centroid's angle clockwise from up = the turn
+      if (m.coral <= 20) f.push(`rose ${m.i}: no coral N marker drawn (rot ${m.rot}, ${m.coral} px)`);
+      else { const d = Math.abs(((m.ang - m.rot) % 360 + 540) % 360 - 180); if (d > 20) f.push(`rose ${m.i}: the coral marker points ${Math.round(m.ang)}°, north on a rose turned ${m.rot}° is ${m.rot}° (marker off north)`); }
+      continue;
+    }
     const dir = { 0: 'n', 90: 'e', 180: 's', 270: 'w' }[(((Math.round(m.ang / 90) * 90 - m.rot) % 360) + 360) % 360];
     if (m.stamped !== m.letters[dir]) f.push(`rose ${m.i}: the box at ${Math.round(m.ang)}° on a rose turned ${m.rot}° carries "${m.stamped}", its position points ${dir} = "${m.letters[dir]}" (letter from position)`);
     if (m.ref) { if (m.textPx < 13.9) f.push(`rose ${m.i}: reference letter ${m.textPx.toFixed(1)} px < 14`); continue; }
@@ -108,7 +116,6 @@ async function main() {
   }
   for (const loc of ['en', 'fi']) roses.push({ svg: CR.compassRose({ px: 96, reference: true, letters: SETS[loc] }).svg, letters: SETS[loc] });
   for (const [what, fn] of [
-    ['marker on a turned rose', () => CR.compassRose({ rotation: 90, marker: true, letters: SETS.en })],
     ['px 179 with boxes', () => CR.compassRose({ px: 179, letters: SETS.en })],
     ['rotation 45', () => CR.compassRose({ rotation: 45, letters: SETS.en })],
     ['reference px 90 (letter < 14 px)', () => CR.compassRose({ px: 90, reference: true, letters: SETS.en })],
@@ -124,10 +131,13 @@ async function main() {
     assertions += rs.length;
     console.log(`render: ${roses.length} roses, ${rs.filter((m) => !m.rose).length} boxes classified from their rendered angle; ${f.length} findings`);
     log.push(`  control: ${f.length} findings`);
-    // PR7: a turned rose doctored to carry the coral marker
-    const turned = CR.compassRose({ rotation: 90, given: 'n', letters: SETS.en }).svg;
-    const doctored = turned.replace(/(<g transform="rotate\(90 100 100\)" data-lcs-kite="1">)<path d="M100 46 L113 87 L100 100 Z" fill="#146B5E"\/><path d="M100 46 L100 100 L87 87 Z" fill="#FFFFFF"\/>/, `$1<path d="M100 46 L113 87 L100 100 Z" fill="${tokens.color.coral}"/><path d="M100 46 L100 100 L87 87 Z" fill="${tokens.color.coralSoft}"/>`);
-    judgeP('PR7 marker on a turned rose', [...nodeCheck(doctored.replace('data-lcs-kite="1"', 'data-lcs-kite="1" data-lcs-marker="n"'), 'en', 90), ...judge(await renderCheck(page, [{ svg: doctored, letters: SETS.en }]))], /marker on a turned rose/);
+    // PR7 (landing round 1): a turned rose drawn WITHOUT its marker -> "no N marker" (node) + "no coral N marker drawn" (render)
+    const bare = CR.compassRose({ rotation: 90, given: 'e', letters: SETS.en, marker: false }).svg;
+    judgeP('PR7 a turned rose without its N marker', [...nodeCheck(bare, 'en', 90), ...judge(await renderCheck(page, [{ svg: bare, letters: SETS.en }]))], /no N marker|no coral N marker drawn/);
+    // PR7b: the marker doctored onto the UP kite of a rose turned 90° (it must point right = north)
+    const turned = CR.compassRose({ rotation: 90, given: 'e', letters: SETS.en, marker: false }).svg;
+    const doctored = turned.replace(/(<g transform="rotate\(0 100 100\)" data-lcs-kite="0">)<path d="M100 46 L113 87 L100 100 Z" fill="#146B5E"\/><path d="M100 46 L100 100 L87 87 Z" fill="#FFFFFF"\/>/, `$1<path d="M100 46 L113 87 L100 100 Z" fill="${tokens.color.coral}"/><path d="M100 46 L100 100 L87 87 Z" fill="${tokens.color.coralSoft}"/>`).replace('data-lcs-kite="0">', 'data-lcs-kite="0" data-lcs-marker="n">');
+    judgeP('PR7b the N marker on a kite that does not point north', [...nodeCheck(doctored, 'en', 90), ...judge(await renderCheck(page, [{ svg: doctored, letters: SETS.en }]))], /marker off north|the N marker is on kite 0/);
     // PR8: an upright rose whose right box carries S
     const up = CR.compassRose({ rotation: 0, given: 'n', letters: SETS.en }).svg.replace('data-lcs-pos="1" data-lcs-dir="e" data-lcs-answer="E"', 'data-lcs-pos="1" data-lcs-dir="e" data-lcs-answer="S"');
     judgeP('PR8 right box carries S at rot 0', judge(await renderCheck(page, [{ svg: up, letters: SETS.en }])), /letter from position/);

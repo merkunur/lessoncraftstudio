@@ -1,0 +1,11 @@
+{
+  "locale": "sv",
+  "refusals": {
+    "G1-380": "sv refuses the whole digraphs family: its letter teams (sj-, tj-, ng-ljudet) are already owned by the shipped spelling-rules family (G2-315 Stavningsregler), and no other Swedish team reaches 3 teams x 6 pictured approved words",
+    "K-378": "sv refuses the whole digraphs family: its letter teams (sj-, tj-, ng-ljudet) are already owned by the shipped spelling-rules family (G2-315 Stavningsregler), and no other Swedish team reaches 3 teams x 6 pictured approved words",
+    "G1-392": "sv refuses the whole digraphs family: its letter teams (sj-, tj-, ng-ljudet) are already owned by the shipped spelling-rules family (G2-315 Stavningsregler), and no other Swedish team reaches 3 teams x 6 pictured approved words",
+    "G1-393": "sv refuses the whole digraphs family: its letter teams (sj-, tj-, ng-ljudet) are already owned by the shipped spelling-rules family (G2-315 Stavningsregler), and no other Swedish team reaches 3 teams x 6 pictured approved words",
+    "G1-394": "sv refuses the whole digraphs family: its letter teams (sj-, tj-, ng-ljudet) are already owned by the shipped spelling-rules family (G2-315 Stavningsregler), and no other Swedish team reaches 3 teams x 6 pictured approved words",
+    "G2-372": "sv refuses the whole digraphs family: its letter teams (sj-, tj-, ng-ljudet) are already owned by the shipped spelling-rules family (G2-315 Stavningsregler), and no other Swedish team reaches 3 teams x 6 pictured approved words"
+  }
+}

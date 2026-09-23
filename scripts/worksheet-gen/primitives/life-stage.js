@@ -97,8 +97,11 @@ function FROG(s, cx, cy, tail, S) {
     }
   }
   if (tail) {
-    out.push(el('path', { d: `M ${r2(cx - 11 * s)} ${r2(cy + 30 * s)} Q ${r2(cx - 6 * s)} ${r2(cy + 58 * s)} ${r2(cx)} ${r2(cy + 63 * s)} Q ${r2(cx + 6 * s)} ${r2(cy + 58 * s)} ${r2(cx + 11 * s)} ${r2(cy + 30 * s)} Z`,
-      fill: T.creamDeep, stroke: T.teal, 'stroke-width': r2(0.8 * S.O), 'stroke-linejoin': 'round', 'data-part': 'tail', 'data-tail': 'stub' }));
+    // The stub must read at 92 px BELOW THE HIND FEET (Y 74), not merely below the body — the
+    // landing panels (en/es/it, 2026-09-23) saw froglet and frog as one drawing differing by size.
+    out.push(el('path', { d: `M ${r2(cx - 13 * s)} ${r2(cy + 24 * s)} C ${r2(cx - 13 * s)} ${r2(cy + 66 * s)} ${r2(cx - 5 * s)} ${r2(cy + 96 * s)} ${r2(cx)} ${r2(cy + 108 * s)} C ${r2(cx + 5 * s)} ${r2(cy + 96 * s)} ${r2(cx + 13 * s)} ${r2(cy + 66 * s)} ${r2(cx + 13 * s)} ${r2(cy + 24 * s)} Z`,
+      fill: T.creamDeep, stroke: T.teal, 'stroke-width': r2(S.O), 'stroke-linejoin': 'round', 'data-part': 'tail', 'data-tail': 'stub' }));
+    out.push(el('path', { d: `M ${r2(cx)} ${r2(cy + 42 * s)} Q ${r2(cx - 2 * s)} ${r2(cy + 72 * s)} ${r2(cx)} ${r2(cy + 98 * s)}`, fill: 'none', stroke: T.teal, 'stroke-width': r2(S.D), 'stroke-linecap': 'round' }));
   }
   out.push(el('ellipse', { cx: r2(cx), cy: r2(cy), rx: r2(30 * s), ry: r2(38 * s), fill: T.teal, stroke: T.teal, 'stroke-width': r2(S.O), 'data-part': 'body' }));
   for (const m of [-1, 1]) {

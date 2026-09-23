@@ -98,11 +98,11 @@ const APPARATUS_ALLOWED = {
  */
 const ROLE_SATISFIES = {
   stop: ['give-way', 'halt'],
-  yield: ['give-way'],
-  crossing: ['people-cross'],
+  yield: ['give-way', 'may-roll'],               // may-roll: slow down, no full halt (a stop sign does NOT satisfy it)
+  crossing: ['people-cross', 'crossing-place'],  // crossing-place: a marked place to cross is HERE (a warning of children is not)
   'pedestrian-warning': ['people-cross', 'people-walk-along'],
   children: ['people-cross', 'children'],
-  school: ['people-cross', 'children'],
+  school: ['people-cross', 'children', 'school-near'],
   'signal-ahead': ['light-ahead'],
   'bike-warning': ['bikes-ride', 'children'],
   'no-entry': ['no-cars-in'],
@@ -115,6 +115,42 @@ const ROLE_SATISFIES = {
   'info-1': ['info-1'],
   'info-2': ['info-2'],
 };
+/**
+ * rule 14 (landing round 1, 2026-09-23; G1-384 sign-meaning rows): every meaning on the matching page must be
+ * satisfied by EXACTLY ONE sign of that page — its own (the en panel: "Watch for people crossing the road" fitted
+ * the school sign too). The model is ROLE_SATISFIES above; the CLAIM each printed meaning makes is READ by hand per
+ * locale and pinned to the exact text, so an edited meaning FAILS until its claim is re-read (never trusted).
+ */
+const MEANING_READ = {
+  en: { "stop": ["Every car must halt here, then look.", 'halt'], "yield": ["Slow down and let the others go first.", 'may-roll'], "crossing": ["This is a marked place where people cross the road.", 'crossing-place'], "school": ["A school is near, so look out for children.", 'school-near'], "no-entry": ["No car may drive into the street from this side.", 'no-cars-in'], "signal-ahead": ["Watch out, a traffic light is coming.", 'light-ahead'] },
+  de: { "stop": ["Ganz anhalten und die anderen zuerst fahren lassen.", 'halt'], "crossing": ["Hier ist ein Zebrastreifen zum sicheren Überqueren.", 'crossing-place'], "children": ["Achtung, hier können Kinder auf die Straße laufen.", 'children'], "no-entry": ["Hier darf kein Fahrzeug hineinfahren.", 'no-cars-in'], "footpath": ["Dieser Weg ist nur für Fußgänger.", 'people-walk-along'], "bike-path": ["Dieser Weg ist nur für Radfahrer.", 'bikes-ride'] },
+  es: { "stop": ["Todos los carros deben detenerse por completo aquí.", 'halt'], "yield": ["Frena y deja pasar primero a los demás.", 'may-roll'], "crossing": ["Cuidado: aquí cruzan personas a pie.", 'people-cross'], "school": ["Cerca hay una escuela y cruzan niños.", 'school-near'], "signal-ahead": ["Más adelante hay un semáforo.", 'light-ahead'], "no-bikes": ["Aquí no pueden circular las bicicletas.", 'no-bikes'] },
+  pt: { "stop": ["Todo carro deve parar aqui e olhar antes de seguir.", 'halt'], "yield": ["Diminua e deixe os outros passarem primeiro.", 'may-roll'], "crossing": ["Atenção: aqui as pessoas atravessam na faixa.", 'crossing-place'], "school": ["Perto daqui tem uma escola com muitas crianças.", 'school-near'], "signal-ahead": ["Atenção: logo à frente tem um semáforo.", 'light-ahead'], "no-bikes": ["Bicicletas não podem andar nesta rua.", 'no-bikes'] },
+  fr: { "stop": ["Toutes les voitures doivent s’arrêter ici.", 'halt'], "crossing": ["Ici, les piétons traversent la rue.", 'people-cross'], "children": ["Attention, des enfants passent souvent ici.", 'children'], "no-entry": ["Les voitures n’ont pas le droit d’entrer par ici.", 'no-cars-in'], "footpath": ["Ce chemin est réservé aux piétons.", 'people-walk-along'], "bike-path": ["Cette voie est réservée aux vélos.", 'bikes-ride'] },
+  it: { "stop": ["Tutte le auto devono fermarsi qui e dare la precedenza.", 'halt'], "crossing": ["Qui i pedoni attraversano la strada.", 'people-cross'], "children": ["Attenzione, qui passano spesso dei bambini.", 'children'], "no-entry": ["Le auto non possono entrare da questa parte.", 'no-cars-in'], "footpath": ["Questo percorso è solo per chi va a piedi.", 'people-walk-along'], "bike-path": ["Questa pista è solo per le biciclette.", 'bikes-ride'] },
+  nl: { "stop": ["Elke auto moet hier helemaal stilstaan en voorrang geven.", 'halt'], "yield": ["Laat het verkeer op de andere weg eerst gaan.", 'give-way'], "crossing": ["Hier is een zebrapad om veilig over te steken.", 'crossing-place'], "children": ["Let op, hier kunnen kinderen de weg op lopen.", 'children'], "no-entry": ["Hier mag geen enkel voertuig de straat in.", 'no-cars-in'], "bike-path": ["Dit pad is alleen voor fietsers.", 'bikes-ride'] },
+  sv: { "stop": ["Här måste alla bilar stanna helt och släppa fram de andra.", 'halt'], "crossing": ["Här är ett övergångsställe där du kan gå över gatan.", 'crossing-place'], "children": ["Se upp, här kan barn springa ut på gatan.", 'children'], "no-entry": ["Hit in får inga fordon köra.", 'no-cars-in'], "footpath": ["Den här vägen är bara för gående.", 'people-walk-along'], "bike-path": ["Den här vägen är bara för cyklister.", 'bikes-ride'] },
+  da: { "stop": ["Alle biler skal holde helt stille her og se sig for.", 'halt'], "crossing": ["Her er en fodgængerovergang, hvor man går over vejen.", 'crossing-place'], "children": ["Pas på, her kan børn løbe ud på vejen.", 'children'], "no-entry": ["Her må ingen køre ind.", 'no-cars-in'], "footpath": ["Denne sti er kun for dem, der går.", 'people-walk-along'], "bike-path": ["Denne sti er kun for cykler.", 'bikes-ride'] },
+  no: { "stop": ["Her må alle biler stoppe helt og slippe fram de andre.", 'halt'], "crossing": ["Her er et gangfelt der du kan gå over veien.", 'crossing-place'], "children": ["Pass på, her kan barn løpe ut i veien.", 'children'], "no-entry": ["Hit inn får ingen kjøre.", 'no-cars-in'], "signal-ahead": ["Pass på, snart kommer et trafikklys.", 'light-ahead'], "bike-path": ["Denne veien er laget for sykler.", 'bikes-ride'] },
+  fi: { "stop": ["Jokaisen auton täytyy pysähtyä kokonaan ennen risteystä.", 'halt'], "crossing": ["Tässä on suojatie, jota pitkin voit ylittää kadun.", 'crossing-place'], "children": ["Varo, tässä lähellä voi olla lapsia.", 'children'], "no-entry": ["Tähän suuntaan ei saa ajaa.", 'no-cars-in'], "footpath": ["Tämä tie on vain kävelijöille.", 'people-walk-along'], "bike-path": ["Tämä tie on pyöräilijöille.", 'bikes-ride'] },
+};
+/** Readings whose meaning also fits another sign on the page — a native must re-author them. A RATCHET: an entry
+ *  that no longer fires FAILS (remove it), a new overlap outside it FAILS; it may only shrink. */
+const MEANING_PENDING = { es: ['crossing'], fr: ['crossing'], it: ['crossing'], nl: ['yield'] };
+function meaningFindings(block, loc) {
+  const F = [];
+  const set = block.setG1 || [], M = block.meanings || {}, R = MEANING_READ[loc];
+  if (!R) return [`rule 14: ${loc}: no meaning readings for this locale`];
+  for (const r of set) {
+    const rd = R[r];
+    if (!rd) { F.push(`rule 14: ${loc}: meanings.${r} has no reading (read its claim into MEANING_READ)`); continue; }
+    if (rd[0] !== M[r]) { F.push(`rule 14: ${loc}: meanings.${r} "${M[r]}" changed since it was read ("${rd[0]}") — re-read its claim`); continue; }
+    if (!(ROLE_SATISFIES[r] || []).includes(rd[1])) F.push(`rule 14: ${loc}: meanings.${r} claims "${rd[1]}", which its own sign does not satisfy`);
+    const also = set.filter((x) => x !== r && (ROLE_SATISFIES[x] || []).includes(rd[1]));
+    if (also.length) F.push(`rule 14: ${loc}: meanings.${r} ("${M[r]}", claim ${rd[1]}) also fits the ${also.join(' / ')} sign on the same page`);
+  }
+  return F;
+}
 /** true when one sentence can be satisfied by both roles (the gate's model) */
 function bothSatisfy(a, b) {
   if (a === b) return false;
@@ -222,6 +258,7 @@ function validateBank(block, loc, common = COMMON) {
   if (st[0] !== 'stop-kerb') e(7, `steps start "${st[0]}" (stop-kerb)`);
   if (st[st.length - 1] !== 'walk-across') e(7, `steps end "${st[st.length - 1]}" (walk-across)`);
   for (const k of st) if (!common.stepKinds.includes(k)) e(7, `step "${k}" is not a step kind`);
+  if (new Set(st).size !== st.length) e(7, `steps ${st.join(',')} repeat an action (landing round 1: every card a different action)`);
   const il = st.indexOf('look-left'), ir = st.indexOf('look-right');
   if (ir >= 0 && (il < 0 || il > ir)) e(7, 'look-right comes before look-left (right-hand traffic: the near lane comes from the LEFT)');
   // rule 8 — chip words
@@ -279,6 +316,8 @@ function validateBank(block, loc, common = COMMON) {
       for (const [word, re] of Object.entries(APPARATUS)) if (re.test(ins) && !allowed.includes(word)) e(9, `strings.${m}.instruction names "${word}", which is not on the ${m} page`);
     }
   }
+  // rule 14 — the G1-384 meanings are mutually exclusive on their page (fixtures carry placeholder meanings: skipped)
+  if (!block._fixture) for (const m of meaningFindings(block, loc)) if (!(MEANING_PENDING[loc] || []).some((r) => m.includes(`meanings.${r} (`))) E.push(m);
   return E;
 }
 
@@ -316,10 +355,10 @@ function fixture(loc) {
     };
     const setG1 = ['stop', 'yield', 'crossing', 'school', 'signal-ahead', 'no-bikes'];
     const kindsPool = ['crossing', 'school', 'signal-ahead', 'bike-warning', 'stop', 'yield', 'no-bikes', 'no-pedestrians', 'info-1', 'info-2'];
-    return { convention: br ? 'br' : 'mx', signs, setG1, kindsPool, classes: [{ key: warn, label: 'Fixture A' }, { key: reg, label: 'Fixture B' }, { key: info, label: 'Fixture C' }],
+    return { _fixture: true, convention: br ? 'br' : 'mx', signs, setG1, kindsPool, classes: [{ key: warn, label: 'Fixture A' }, { key: reg, label: 'Fixture B' }, { key: info, label: 'Fixture C' }],
       pedLight: { stop: 'standing', go: 'walking', lamps: 2 }, amber: { token: 'codeYellow', word: words[loc] }, amberMeans: 'stop',
       chipWords: { ped: { stop: 'a', go: 'b' }, car: { stop: 'c', go: 'd' } }, meanings: Object.fromEntries(setG1.map((r) => [r, `Fixture meaning of this sign.`])),
-      situations: sits([...new Set([...setG1, ...kindsPool])]), steps: ['stop-kerb', 'look-left', 'look-right', 'look-left', 'walk-across'], listenStep: null,
+      situations: sits([...new Set([...setG1, ...kindsPool])]), steps: ['stop-kerb', 'look-left', 'look-right', 'wait-clear', 'walk-across'], listenStep: null,
       familyHead: 'Fixture Family', signHead: 'Fixture Signs', childAnchors: ['fixture kids'], strings: fixStrings('Fixture Family', 'Fixture Signs') };
   }
   // Vienna (de, sv, nl)
@@ -342,10 +381,10 @@ function fixture(loc) {
   const setG1 = ['stop', 'crossing', 'children', 'no-entry', 'footpath', 'bike-path'];
   const kindsPool = ['children', 'pedestrian-warning', 'signal-ahead', 'bike-warning', 'no-vehicles', 'no-bikes', 'no-pedestrians', 'footpath', 'bike-path', 'shared-path'];
   const tok = REG.amberToken[loc] || 'codeYellow';
-  return { convention: 'vienna', signs, setG1, kindsPool, classes: [{ key: 'warning', label: 'Fixture A' }, { key: 'prohibition', label: 'Fixture B' }, { key: 'mandatory', label: 'Fixture C' }],
+  return { _fixture: true, convention: 'vienna', signs, setG1, kindsPool, classes: [{ key: 'warning', label: 'Fixture A' }, { key: 'prohibition', label: 'Fixture B' }, { key: 'mandatory', label: 'Fixture C' }],
     pedLight: { stop: 'standing', go: 'walking', lamps: 2 }, amber: { token: tok, word: words[loc] }, amberMeans: 'stop',
     chipWords: { ped: { stop: 'a', go: 'b' }, car: { stop: 'c', go: 'd' } }, meanings: Object.fromEntries(setG1.map((r) => [r, 'Fixture meaning of this sign.'])),
-    situations: sits([...new Set([...setG1, ...kindsPool])]), steps: ['stop-kerb', 'look-left', 'look-right', 'look-left', 'walk-across'], listenStep: null,
+    situations: sits([...new Set([...setG1, ...kindsPool])]), steps: ['stop-kerb', 'look-left', 'look-right', 'wait-clear', 'walk-across'], listenStep: null,
     familyHead: 'Verkehrserziehung', signHead: 'Verkehrszeichen', childAnchors: ['Grundschule', 'für Kinder'], strings: fixStrings('Verkehrserziehung', 'Verkehrszeichen') };
 }
 
@@ -377,7 +416,8 @@ function dataPoisons(en) {
   P('P6 nl amber codeYellow with word "oranje"', 'nl', (b) => { b.amber.token = 'codeYellow'; }, /rule 6: nl: amber\.token "codeYellow" ≠ the nl crayon "codeOrange"/);
   P('P7 en pedLight.stop standing', 'en', (b) => { b.pedLight.stop = 'standing'; }, /rule 5: en: a MUTCD pedestrian light shows the HAND/);
   P('P8 pt pedLight.stop unset', 'pt', (b) => { delete b.pedLight.stop; }, /rule 5: pt: pedLight\.stop is undefined/);
-  P('P9 steps with look-right first', 'en', (b) => { b.steps = ['stop-kerb', 'look-right', 'look-left', 'look-right', 'walk-across']; }, /rule 7: en: look-right comes before look-left/);
+  P('P9 steps with look-right first', 'en', (b) => { b.steps = ['stop-kerb', 'look-right', 'look-left', 'wait-clear', 'walk-across']; }, /rule 7: en: look-right comes before look-left/);
+  P('P9b steps looking left twice (one action on two cards)', 'en', (b) => { b.steps = ['stop-kerb', 'look-left', 'look-right', 'look-left', 'walk-across']; }, /rule 7: en: steps .* repeat an action/);
   P('P10 stop situation "Here is a STOP sign."', 'en', (b) => { b.situations.stop[0] = 'Here is a STOP sign.'; }, /rule 4: en: role stop: the situation prints the sign's own word "stop"/);
   P('P11 a Vienna classes list with priority', 'de', (b) => { b.classes.push({ key: 'priority', label: 'Fixture D' }); }, /rule 3: de: a Vienna classes list carries "priority"/);
   P('P12 kindsPool with no-entry (filled red disc)', 'de', (b) => { b.kindsPool.push('no-entry'); }, /rule 3: de: kindsPool role no-entry is a filled red disc/);
@@ -419,8 +459,10 @@ function pageChecks(tag, r, block, expectStrings) {
   ok(!out.qa.lints.length, `${tag}: lints ${JSON.stringify(out.qa.lints.slice(0, 4))}`);
   ok(!floors.f.length, `${tag}: floors ${JSON.stringify(floors.f.slice(0, 3))}`);
   if (expectStrings) {
-    ok(floors.title === expectStrings.title, `${tag}: printed title "${floors.title}" ≠ the bank "${expectStrings.title}"`);
-    ok(floors.instr === expectStrings.instruction, `${tag}: printed instruction ≠ the bank`);
+    // the fr page prints a no-break space where the string has a plain one (page/shell.js frTypo, landing round 1)
+    const sp = (s) => String(s).replace(/[  ]/g, ' ');
+    ok(sp(floors.title) === sp(expectStrings.title), `${tag}: printed title "${floors.title}" ≠ the bank "${expectStrings.title}"`);
+    ok(sp(floors.instr) === sp(expectStrings.instruction), `${tag}: printed instruction ≠ the bank`);
   }
   for (const p of floors.pills) ok(p.text === block.chipWords[p.actor][p.side], `${tag}: pill "${p.text}" ≠ the bank chipWords.${p.actor}.${p.side}`);
   ok(!ANSWER_KEY.test(floors.visible), `${tag}: visible copy promises an answer key`);
@@ -554,6 +596,22 @@ async function main() {
   const locs = Object.keys(mod);
   for (const loc of locs) { const f = validateBank(mod[loc], loc); ok(!f.length, `bank ${loc}: ${JSON.stringify(f.slice(0, 5))}`); }
   console.log(`validateBank: ${locs.length} authored block(s) (${locs.join(', ')})`);
+  // rule 14 ratchet: each pending reading must STILL overlap (else remove it); report them for the native fixers
+  for (const [loc, roles] of Object.entries(MEANING_PENDING)) for (const r of roles) {
+    const hit = meaningFindings(mod[loc], loc).filter((m) => m.includes(`meanings.${r} (`));
+    ok(hit.length > 0, `rule 14 ratchet: ${loc} ${r} no longer overlaps — remove it from MEANING_PENDING`);
+    if (hit.length) console.log(`  rule 14 PENDING (native re-author): ${hit[0]}`);
+  }
+  {
+    const ctl21 = K.control('P21 control: the shipped en meanings', validateBank(mod.en, 'en').filter((x) => /rule 14/.test(x)));
+    const b = clone(mod.en); b.meanings.crossing = 'Watch for people crossing the road.';
+    const r0 = MEANING_READ.en.crossing; MEANING_READ.en.crossing = [b.meanings.crossing, 'people-cross'];
+    const f21 = validateBank(b, 'en');
+    MEANING_READ.en.crossing = r0;
+    K.judge('P21 en G1-384 crossing meaning "Watch for people crossing the road." (fits school too)', f21, /rule 14: en: meanings.crossing .* also fits the school sign/, ctl21);
+    const b2 = clone(mod.en); b2.meanings.school = 'Children walk here on their way to class.';
+    K.judge('P22 en school meaning edited without a re-read', validateBank(b2, 'en'), /rule 14: en: meanings.school .* changed since it was read/);
+  }
   { const f = validateConfusable(); ok(!f.length, `COMMON.confusable: ${JSON.stringify(f.slice(0, 5))}`); }
   confusablePoisons();
   dataPoisons(mod.en);

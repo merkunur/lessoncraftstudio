@@ -19,7 +19,7 @@
     "root": "absorbe el agua de la tierra",
     "stem": "sostiene la planta derecha",
     "leaf": "fabrica el alimento de la planta con la luz del sol",
-    "flower": "atrae a las abejas con sus colores",
+    "flower": "atrae a las abejas",
     "seed": "puede crecer y convertirse en una planta nueva"
   },
   "partStems": [

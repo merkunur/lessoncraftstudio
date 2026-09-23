@@ -109,7 +109,9 @@ const OBJECTS = [
   { theme: 'around the house', noun: 'door', shape: 'rectangle', picOpened: true },
   { theme: 'post office', noun: 'envelope', shape: 'rectangle', picOpened: true },
   { theme: 'classroom', noun: 'whiteboard', shape: 'rectangle', picOpened: true },
-  { theme: 'classroom', noun: 'tablet', shape: 'rectangle', picOpened: true },
+  // landing-panel round 1 (2026-09-23): the tablet has ROUNDED corners — K-371 called it a rectangle while G1-381
+  // teaches that a rounded-corner outline is NOT one. Replaced by the wall map (opened: a crisp square-cornered sheet).
+  { theme: 'classroom', noun: 'map', shape: 'rectangle', picOpened: true },
 ];
 
 /** Pictures OPENED and REJECTED by the design (§3 F2): never an object, whatever the theme. */
@@ -117,6 +119,8 @@ const REJECTED = [
   'classroom/notebook', 'classroom/ruler', 'classroom/eraser', 'desserts and sweets/chocolate_bar',
   'around the house/carpet', 'furniture/rug', 'breakfast/pancake', 'At the Supermarket/donut',
   'around the house/clock', 'classroom/folder', 'around the house/picture_frame',
+  // ROUNDED CORNERS (landing round 1, 2026-09-23): a rounded-corner rectangle is a G1-381 near-miss, never a K-371 rectangle
+  'classroom/tablet', 'toys/domino', 'around the house/fridge', 'around the house/television',
 ];
 
 const KINDS = ['circle', 'square', 'triangle', 'rectangle'];

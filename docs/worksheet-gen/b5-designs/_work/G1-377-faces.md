@@ -49,3 +49,10 @@ None forced by shape: every face reads only `stageWords.butterfly`, `decoy`, `st
 - `node i18n/build-en.js`: `688 types … (title lint clean)`
 - `node tools/b3-baseline.js --check --quick`: **`checked build 3760 + enum 277 in 21s: 0 drifted (0 expected), 0 missing` / `PASS`**
 - Renders read by me: `out/dev/G1-377-faces-d2-en.png` (all five, en), `out/dev/G1-377-faces-longchrome-fi.png` (677), `out/dev/G1-377-faces-en-grey.png` (greyscale), `out/dev/G1-377-fill-one.png` (814 chrome, F1-F3), per-face gate PNGs under `out/dev/G1-377-gate/`. Frog stages read in order frogspawn → tadpole → tadpole with legs → froglet (small, stub) → frog; no clipping, nothing under the footer.
+
+## Landing-panel round 1 fixes (2026-09-23)
+- G1-389/G1-390/G2-366 froglet: the stub was hidden between the hind feet (panels en/es/it read froglet = small frog). `primitives/life-stage.js` stub now reaches Y+108·s, full outline + midline; `verify-life-stage.js` asserts it clears the lowest foot (node ≥ 10 units, render ≥ 4 px at 92); poison L1b (the old stub) KILLED.
+- G2-366: caps 2/4/2 leaked the answer counts. New knob `boxesPerBin: 4` — every bin 4 boxes (12 for 8 cards); verify: every cap = boxesPerBin, caps equal across bins ("box-count tell"), cap ≥ the bin's cards; build throws below the largest group. Poisons PR9b (forceCaps 2/4/2), PR9c (boxesPerBin 3). EN instruction: "stage" (never "young animal"), says some boxes stay empty — PI4, PI5.
+- G2-365: EN "Write the four stage names … then cross out the name that does not belong." (ban each/every/all name|word, PI6).
+- G1-390: EN "… ; after the grown-up, the cycle starts again." (must "again", PI7).
+- Locale strings needing a native rewrite (unchanged): all 10 non-EN locales × G2-366 (young animal → stage + some boxes stay empty), G2-365 (each name → the four stage names), G1-390 (add the cycle starts again).

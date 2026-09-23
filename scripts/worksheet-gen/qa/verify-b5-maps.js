@@ -381,6 +381,10 @@ async function main() {
       await rp('PR18 an edge label "A / 1"', t, /a digit is printed on the base/); }
     { const t = { ...TYPE, build(o, ctx) { const r = TYPE.build(o, ctx); r.bodyHtml = r.bodyHtml.replace(/data-lcs-answer="\d+"/, 'data-lcs-answer="undefined"'); return r; } };
       await rp('PR19 answerBox (no answer) in place of blankNumeralBox', t, /answer stamp "undefined" is not a count/); }
+    // PK (landing round 1, 2026-09-23): the old d2 key — 6 symbols, 5 count boxes (one symbol "unasked") -> every key
+    // symbol must have its count box; the shipped d2 (5 / 5) is the control above
+    { const t = { ...TYPE, build(o, ctx) { return TYPE._buildWith(require('../lib/b5-common.js').bank('maps', 'en'), { ...TYPE.difficulty[2], keySize: 6, asked: 5, unasked: 1, unaskedMax: 3 }, { locale: 'en' }, ctx); } };
+      await rp('PK the key lists a symbol with no count box (6 symbols, 5 boxes)', t, /key symbol \w+ has no count box/); }
     { const t = { ...TYPE, build(o, ctx) { const r = TYPE.build(o, ctx); r.bodyHtml = r.bodyHtml.replace(/gap:20px">/, 'gap:150px">'); return r; } };
       const r = await renderWith(page, t, { difficulty: 2, baseName: 'G1-379-gate-poison-PS' });
       const before = fails.length; assertRender('PS', r); const f = fails.splice(before);

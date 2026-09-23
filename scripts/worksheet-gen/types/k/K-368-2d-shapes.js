@@ -411,27 +411,47 @@ function buildWriteName(block, d, loc, rng) {
 }
 
 /* ---------------------------------------------------------------- F4 riddles (G1) */
+/**
+ * Landing-panel round 1 (2026-09-23, en/de/es/pt/fr panels): the six-card page repeated two kinds, and every
+ * bank's two riddles of one kind state ONE fact (the clue is fixed per kind: round / equal / three / longShort /
+ * six), so a repeated kind printed the same fact twice; and a square card never offered `rectangle`, so every
+ * riddle was solvable by counting corners. Now: ONE card per kind — the four core kinds + the hexagon (all 11
+ * inventories carry it) = FIVE distinct facts, five distinct answers — and the confusable neighbour is ALWAYS an
+ * option: a square card offers `rectangle`, a rectangle card offers `square` (the riddles state equal sides vs
+ * long / short sides AND the right corners — validator rule 11 — so the neighbour is honestly wrong). The page
+ * cannot carry six distinct facts (5 kinds × 1 clue each), so it prints five cards: 2 + 2 + one full-width card.
+ */
+const RIDDLE_NEIGHBOUR = { square: 'rectangle', rectangle: 'square' };
 function f4Cfg(d) {
-  const c = { cards: 6, tags: 3, tagW: 132, tagH: 44, tagPx: 18, px: 16, lh: 20, slotMaxShare: 0.6, cols: 2, rows: 3, ...d };
-  if (c.cols * c.rows !== c.cards || c.cards < 4 || c.cards > 8) throw new Error(`${ID} riddles: ${c.cards} cards in a ${c.cols}x${c.rows} grid`);
+  const c = { cards: 5, tags: 3, tagW: 132, tagH: 44, tagPx: 18, px: 16, lh: 20, slotMaxShare: 0.6, cols: 2, rows: 3, ...d };
+  if (!(c.cards >= 4 && c.cards <= 5) || c.cols * c.rows < c.cards || c.cols * (c.rows - 1) >= c.cards) throw new Error(`${ID} riddles: ${c.cards} cards in a ${c.cols}x${c.rows} grid (4-5 cards: one per kind, never a fact twice)`);
   if (c.tags !== 3) throw new Error(`${ID} riddles: ${c.tags} tags (the shipped face offers 3)`);
   if (!(c.tagH >= TAG_H_G1 && c.px >= 16)) throw new Error(`${ID} riddles: tag ${c.tagH} / text ${c.px} px below the G1 floors ${TAG_H_G1} / 16`);
   return c;
 }
+/** a card spanning the whole last row (5 cards in a 2-column grid) */
+const spanLast = (html, n) => html.split(`<section class="ws-card" data-lcs-card="${n}">`).join(`<section class="ws-card" data-lcs-card="${n}" style="grid-column:1 / -1">`);
 function buildRiddles(block, d, loc, rng) {
   const cfg = f4Cfg(d);
-  const names = namesFor(block, CORE, loc);
+  const kindsAll = cfg.cards === 5 ? [...CORE, 'hexagon'] : CORE.slice();
+  if (cfg.cards === 5 && !(block.inventory && block.inventory.hexagon)) throw new Error(`${ID} riddles: the ${loc} inventory has no hexagon — five distinct facts need it (refuse)`);
+  const names = namesFor(block, kindsAll, loc);
   const strings = faceStrings(block, 'riddles', loc);
-  const leak = [...Object.values(names), ...CORE.flatMap((k) => (block.inflections && block.inflections[k]) || [])];
-  const extra = rng.sample(CORE, cfg.cards - 4);
-  const kinds = rng.shuffle([...CORE, ...extra]);
-  const used = {};
-  const items = kinds.map((k) => { used[k] = (used[k] || 0); const avail = [0, 1].filter((i) => !(used[k + ':' + i])); const i = rng.pick(avail); used[k + ':' + i] = true; return { kind: k, i, r: riddle(block, k, i, loc) }; });
-  const sets = items.map((it) => [it.kind, ...(it.kind === 'square' ? ['circle', 'triangle'] : rng.sample(CORE.filter((k) => k !== it.kind), cfg.tags - 1))]);
+  const leak = [...Object.values(names), ...kindsAll.flatMap((k) => (block.inflections && block.inflections[k]) || [])];
+  const kinds = rng.shuffle(kindsAll);
+  const items = kinds.map((k) => { const i = rng.pick([0, 1]); return { kind: k, i, r: riddle(block, k, i, loc) }; });
+  const sets = items.map((it) => {
+    const nb = RIDDLE_NEIGHBOUR[it.kind];
+    const rest = kindsAll.filter((k) => k !== it.kind && k !== nb);
+    return nb ? [it.kind, nb, ...rng.sample(rest, cfg.tags - 2)] : [it.kind, ...rng.sample(rest, cfg.tags - 1)];
+  });
   const orders = orderTags(sets, { tags: cfg.tags, slotMaxShare: cfg.slotMaxShare }, rng);
-  const cards = items.map((it, ci) => C5.riddleCard({ key: `${it.kind}:${it.i}`, text: it.r.text, tags: orders[ci].map((k) => ({ kind: k, label: names[k] })), tagW: cfg.tagW, tagH: cfg.tagH, tagPx: cfg.tagPx, px: cfg.px, lh: cfg.lh }));
-  const stamp = { mode: 'riddles', cards: cfg.cards, tags: cfg.tags, tagH: cfg.tagH, tagPx: cfg.tagPx, px: cfg.px, lh: cfg.lh, slotMaxShare: cfg.slotMaxShare };
-  return { bodyHtml: root('riddles', stamp, names, badgeOnTop(cardGrid({ cards, cols: cfg.cols, rows: cfg.rows, numbered: true })), ` data-lcs-leak="${esc(JSON.stringify(leak))}"`),
+  const allNames = namesFor(block, [...new Set(orders.flat())], loc);
+  const cards = items.map((it, ci) => C5.riddleCard({ key: `${it.kind}:${it.i}`, text: it.r.text, tags: orders[ci].map((k) => ({ kind: k, label: allNames[k] })), tagW: cfg.tagW, tagH: cfg.tagH, tagPx: cfg.tagPx, px: cfg.px, lh: cfg.lh }));
+  const stamp = { mode: 'riddles', cards: cfg.cards, tags: cfg.tags, tagH: cfg.tagH, tagPx: cfg.tagPx, px: cfg.px, lh: cfg.lh, slotMaxShare: cfg.slotMaxShare, kinds: kindsAll };
+  let grid = badgeOnTop(cardGrid({ cards, cols: cfg.cols, rows: cfg.rows, numbered: true }));
+  if (cfg.cards < cfg.cols * cfg.rows) grid = spanLast(grid, cfg.cards);
+  return { bodyHtml: root('riddles', stamp, names, grid, ` data-lcs-leak="${esc(JSON.stringify(leak))}"`),
     meta: { cfg: stamp, strings, riddles: items.map((it) => `${it.kind}:${it.i}`), slots: orders.map((o, i) => o.indexOf(items[i].kind)) } };
 }
 
@@ -444,12 +464,16 @@ function completions(p, v, ratio, n) {
   return [[qx, qy], [-qx, -qy]].filter(([a, b]) => inside(p[0] + a, p[1] + b) && inside(p[0] + v[0] + a, p[1] + v[1] + b));
 }
 function f5Cfg(d) {
-  const c = { cards: 4, kinds: ['triangle', 'square', 'square', 'rectangle'], given: [null, null, [1, 2], [2, 4]], pitch: 46, n: 6, pillPx: 22, cols: 2, rows: 2, ...d };
+  // landing round 1 (2026-09-23, en/de/es/fr/pt panels): the design's SLANTED givens [1,2] / [2,4] asked a K child to
+  // build a TILTED square / rectangle (a perpendicular on a lattice: late Klasse 2 Geobrett work). At K every given
+  // side is AXIS-ALIGNED (one component 0); a tilted given needs an explicit `tilted: true` face (never K).
+  const c = { cards: 4, kinds: ['triangle', 'square', 'square', 'rectangle'], given: [null, null, [3, 0], [0, 4]], pitch: 46, n: 6, pillPx: 22, cols: 2, rows: 2, tilted: false, ...d };
   if (c.cols * c.rows !== c.cards || c.kinds.length !== c.cards || c.given.length !== c.cards) throw new Error(`${ID} dot-draw: ${c.cards} cards / ${c.kinds.length} kinds / ${c.given.length} givens`);
   if (!c.kinds.every((k) => ['triangle', 'square', 'rectangle'].includes(k))) throw new Error(`${ID} dot-draw: kinds ${c.kinds} (a circle is not drawable on dots)`);
   if (!(c.pitch >= 46 && c.n === 6)) throw new Error(`${ID} dot-draw: a ${c.n}-lattice at pitch ${c.pitch} (6 at >= 46)`);
   c.given.forEach((g, i) => {
     if (g && c.kinds[i] === 'triangle') throw new Error(`${ID} dot-draw: card ${i + 1} gives a triangle side (only square / rectangle cards carry one)`);
+    if (g && !c.tilted && g[0] !== 0 && g[1] !== 0) throw new Error(`${ID} dot-draw: card ${i + 1} gives a TILTED side ${JSON.stringify(g)} (a K face gives only axis-aligned sides)`);
   });
   return c;
 }
@@ -474,7 +498,7 @@ function buildDotDraw(block, d, loc, rng) {
     return { kind: k, given: [p[0], p[1], p[0] + v[0], p[1] + v[1]] };
   });
   const cards = placed.map((c) => C5.dotCard({ kind: c.kind, label: names[c.kind], given: c.given, n: cfg.n, pitch: cfg.pitch, pillPx: cfg.pillPx }));
-  const stamp = { mode: 'dot-draw', cards: cfg.cards, kinds: cfg.kinds, pitch: cfg.pitch, n: cfg.n };
+  const stamp = { mode: 'dot-draw', cards: cfg.cards, kinds: cfg.kinds, pitch: cfg.pitch, n: cfg.n, tilted: !!cfg.tilted };
   return { bodyHtml: root('dot-draw', stamp, names, cardGrid({ cards, cols: cfg.cols, rows: cfg.rows, numbered: true })), meta: { cfg: stamp, strings, cards: placed } };
 }
 
@@ -654,7 +678,9 @@ function faceVerifyInPage({ ID, TEAL, CORAL }) {
       const tk = tags.map((t) => t.dataset.lcsTag);
       const hits = tk.filter((x) => x === k).length;
       if (hits !== 1) f.push(`${tag}: ${hits} tags name the answer ${k}`);
-      if (k === 'square' && tk.includes('rectangle')) f.push(`${tag}: a square riddle offers a rectangle tag`);
+      // the confusable neighbour is ALWAYS an option (landing round 1): square <-> rectangle
+      if (k === 'square' && !tk.includes('rectangle')) f.push(`${tag}: neighbour — a square riddle does not offer rectangle`);
+      if (k === 'rectangle' && !tk.includes('square')) f.push(`${tag}: neighbour — a rectangle riddle does not offer square`);
       if (new Set(tk).size !== tk.length) f.push(`${tag}: a tag repeats`);
       slots.push(tk.indexOf(k));
       tagChecks(tags, cfg.tagH, cfg.tagPx, tag);
@@ -662,6 +688,9 @@ function faceVerifyInPage({ ID, TEAL, CORAL }) {
       for (const t of tags) { const r = R(t); if (r.left < cr.left - 0.5 || r.right > cr.right + 0.5 || r.bottom > cr.bottom + 0.5) f.push(`${tag}: tag "${t.textContent}" leaves its card`); }
     });
     for (const k of ['circle', 'square', 'triangle', 'rectangle']) if (!kinds.includes(k)) f.push(`no ${k} riddle`);
+    // one fact per page: a kind's two riddles state ONE fact, so no kind twice; >= 4 distinct answers
+    for (const k of new Set(kinds)) if (kinds.filter((x) => x === k).length > 1) f.push(`fact twice — ${kinds.filter((x) => x === k).length} ${k} riddles on one page`);
+    if (new Set(kinds).size < Math.min(4, kinds.length)) f.push(`balance — ${new Set(kinds).size} distinct answers on ${kinds.length} cards (< 4)`);
     const counts = {}; for (const s of slots) counts[s] = (counts[s] || 0) + 1;
     if (Object.keys(counts).length < Math.min(cfg.tags, slots.length)) f.push(`slot spread: answers use only slots ${Object.keys(counts).map((x) => +x + 1).join(',')} of ${cfg.tags}`);
     if (Math.max(...Object.values(counts)) > Math.floor(cfg.slotMaxShare * slots.length + 1e-9)) f.push(`slot spread: ${JSON.stringify(counts)} — one slot holds > ${cfg.slotMaxShare * 100} %`);
@@ -694,6 +723,7 @@ function faceVerifyInPage({ ID, TEAL, CORAL }) {
       if ([...p0, ...p1].some((i) => i < 0)) { f.push(`${tag}: the given side does not join two lattice points`); return; }
       if (k === 'triangle') f.push(`${tag}: a triangle card carries a given side`);
       const v = [p1[0] - p0[0], p1[1] - p0[1]];
+      if (!cfg.tilted && v[0] !== 0 && v[1] !== 0) f.push(`${tag}: tilted given — the given side ${JSON.stringify(v)} is not axis-aligned (K)`);
       const inside = (x, y) => x >= 0 && y >= 0 && x < n && y < n;
       const fits = (ratio) => { const qx = -v[1] * ratio, qy = v[0] * ratio; if (!Number.isInteger(qx) || !Number.isInteger(qy)) return false; return [[qx, qy], [-qx, -qy]].some(([a, b]) => inside(p0[0] + a, p0[1] + b) && inside(p1[0] + a, p1[1] + b)); };
       if (k === 'square' && !fits(1)) f.push(`${tag}: no square completion of the given side fits the lattice`);

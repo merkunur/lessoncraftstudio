@@ -75,12 +75,16 @@ const INSTR_BANS_EN = {
   // 2026-09-23 review: the ANIMAL grows (never "the egg grows"), and the numbers go in BOXES (never "under the pictures")
   'G1-377': [W('cut'), W('glue'), W('tick'), W('circle'), W('letters?'), W('egg grows'), W('under')],
   'G1-389': [W('write'), W('tick'), W('circle')],
-  'G2-365': [W('cut'), W('tick'), W('circle')],
-  'G2-366': [W('cut'), W('tick'), W('circle'), W('numbers?')],
+  // 2026-09-23 landing panels: 'write EACH name' + 'cross out one' over 5 words and 4 lines is two contradictory orders
+  'G2-365': [W('cut'), W('tick'), W('circle'), W('(?:each|every|all)(?: the)? (?:names?|words?)')],
+  // eggs and pupae are STAGES, not 'young animals' (landing panels en/de/es/pt/fr/it)
+  'G2-366': [W('cut'), W('tick'), W('circle'), W('numbers?'), W('young animals?'), W('young')],
   'G3-393': [W('circle'), W('cut'), W('write'), W('tick')],
   'G1-390': [W('write'), W('tick'), W('cut')],
 };
-const INSTR_MUST_EN = { 'G1-377': [W('boxes')], 'G1-389': [W('cut'), W('glue')], 'G2-365': [W('write'), W('cross')], 'G2-366': [W('letter')], 'G3-393': [W('check')], 'G1-390': [W('circle')] };
+// G2-366 every bin carries the same box count, so the instruction must say some stay empty; G1-390 two rows wrap
+// adult -> first stage, so the instruction must say the cycle starts again (landing panels de/it)
+const INSTR_MUST_EN = { 'G1-377': [W('boxes')], 'G1-389': [W('cut'), W('glue')], 'G2-365': [W('write'), W('cross')], 'G2-366': [W('letter'), W('empty')], 'G3-393': [W('check')], 'G1-390': [W('circle'), W('again')] };
 
 let assertions = 0;
 const fails = [];
@@ -490,7 +494,7 @@ async function main() {
     const FLOORS = {
       'frog-cut-paste': (m) => [['pad lens 132', m.padLens.length === 1 && m.padLens.every((x) => Math.abs(x - 132) < 0.6)], ['tile lenses >= 92', m.tileLens.length === 4 && m.tileLens.every((x) => x >= 92 - 0.6)], ['ghost >= cell + 12', m.ghost.length === 4 && m.ghost.every((g) => g >= Math.max(...m.cell) + 12 - 0.6)], ['cells >= 44', m.cell.every((x) => x >= 44)]],
       label: (m) => [['lenses >= 130', m.labelLens.length === 4 && m.labelLens.every((x) => x >= 130 - 0.6)], ['lanes 56 >= 36', m.lanes.length === 4 && m.lanes.every((x) => x >= 56 - 0.6)], ['bank 18 px', m.bankPx.length === 5 && m.bankPx.every((x) => x >= 18 - 0.01)], ['bank pills >= 36 tall', m.bankWordH.every((x) => x >= 36 - 0.5)], ['bank one or two rows', m.bankH > 0 && m.bankH <= 120]],
-      metamorphosis: (m) => [['young lenses >= 100', m.young.length === 8 && m.young.every((x) => x >= 100 - 0.6)], ['adult lenses >= 132', m.adult.length === 3 && m.adult.every((x) => x >= 132 - 0.6)], ['boxes >= 52', m.binBox.length === 8 && m.binBox.every((x) => x >= 52 - 0.6)]],
+      metamorphosis: (m) => [['young lenses >= 100', m.young.length === 8 && m.young.every((x) => x >= 100 - 0.6)], ['adult lenses >= 132', m.adult.length === 3 && m.adult.every((x) => x >= 132 - 0.6)], ['boxes >= 52, 4 per bin', m.binBox.length === 12 && m.binBox.every((x) => x >= 52 - 0.6)]],
       compare: (m) => [['head lenses 110', m.head.length === 2 && m.head.every((x) => Math.abs(x - 110) < 0.6)], ['ticks >= 40', m.ticks.length === 16 && m.ticks.every((x) => x >= 40 - 0.6)], ['statements 17 px', m.stmtPx.length === 8 && m.stmtPx.every((x) => x >= 17 - 0.01)], ['statements <= 2 lines', m.stmtLines.every((x) => x <= 2)]],
       next: (m) => [['prompt lenses 100', m.prompt.length === 6 && m.prompt.every((x) => Math.abs(x - 100) < 0.6)], ['chips >= 92', m.chips.length === 18 && m.chips.every((x) => x >= 92 - 0.6)]],
     };
@@ -567,6 +571,8 @@ async function main() {
     await rpf('PR8 F3 cards include butterfly.egg (build refuses)', withFace(F.metamorphosis, { cards: ['butterfly.egg', 'butterfly.pupa', 'frog.spawn', 'frog.tadpole', 'frog.legged', 'frog.froglet', 'ladybird.larva', 'ladybird.pupa'] }), /SORT_EXCLUDE/);
     await rpf('PR8b F3 a butterfly.egg card rendered (verify)', dFace(F.metamorphosis, (h) => h.replace('data-lcs-stage="butterfly.larva"', 'data-lcs-stage="butterfly.egg"').replace('data-lcs-figure="life-butterfly-larva"', 'data-lcs-figure="life-butterfly-egg"')), /SORT_EXCLUDE: butterfly\.egg/);
     await rpf('PR9 F3 strip grouped in bin order', withFace(F.metamorphosis, { forceCards: ['butterfly.larva', 'butterfly.pupa', 'frog.spawn', 'frog.tadpole', 'frog.legged', 'frog.froglet', 'ladybird.larva', 'ladybird.pupa'] }), /grouping tell/);
+    await rpf('PR9b F3 box counts = the answer counts (2 / 4 / 2)', withFace(F.metamorphosis, { forceCaps: { butterfly: 2, frog: 4, ladybird: 2 } }), /box-count tell/);
+    await rpf('PR9c F3 boxesPerBin below the largest group (build refuses)', withFace(F.metamorphosis, { boxesPerBin: 3 }), /boxesPerBin 3 must be an integer >= the largest group \(4\)/);
     judge('PR10 F4 sixlegs truth [butterfly, frog] (data)', nPoison((n) => { n.COMPARE.find((c) => c.id === 'sixlegs').truth = ['butterfly', 'frog']; }), /COMPARE sixlegs: tick truth/);
     await rpf('PR10b F4 a row stamped with the wrong ticks (render)', dFace(F.compare, (h) => h.replace(/data-lcs-expect="(butterfly|frog)" data-lcs-class/, 'data-lcs-expect="butterfly,frog" data-lcs-class')), /tick truth/);
     await rpf('PR11 F4 class sequence both, butterfly, frog, both, butterfly, frog', withFace(F.compare, { forceStmts: ['egg', 'pupa', 'tail', 'change', 'wings', 'water', 'sixlegs', 'nolegs'] }), /staircase/);
@@ -593,6 +599,10 @@ async function main() {
     judge('PI1 F5 instruction says "write"', validateBank(S('G1-390', { instruction: 'Look at the first picture in each row and write the one that comes right after it.' }), 'en'), /strings\.G1-390 instruction names "write"/);
     judge('PI2 F1 instruction without "glue"', validateBank(S('G1-389', { instruction: 'Cut out the four squares and put each one on its lily pad, going round the pond from the frogspawn to the frog.' }), 'en'), /strings\.G1-389 instruction lacks .*glue/);
     judge('PI3 F3 instruction asks for a number', validateBank(S('G2-366', { instruction: 'Look at each young animal and write its number in a box under the grown-up animal it will become.' }), 'en'), /strings\.G2-366 instruction names "number"/);
+    judge('PI4 F3 instruction calls the stages young animals', validateBank(S('G2-366', { instruction: 'Look at each young animal and write its letter in a box under the animal it will grow into; some boxes stay empty.' }), 'en'), /strings\.G2-366 instruction names "young animal"/);
+    judge('PI5 F3 instruction does not say some boxes stay empty', validateBank(S('G2-366', { instruction: 'Look at each stage and write its letter in a box under the animal it will grow into.' }), 'en'), /strings\.G2-366 instruction lacks .*empty/);
+    judge('PI6 F2 instruction says write EACH name', validateBank(S('G2-365', { instruction: 'Write each name from the word bank on the line under its picture, and cross out the one name that does not belong.' }), 'en'), /strings\.G2-365 instruction names "each name"/);
+    judge('PI7 F5 instruction does not say the cycle starts again', validateBank(S('G1-390', { instruction: 'Look at the first picture in each row and circle the one that comes right after it.' }), 'en'), /strings\.G1-390 instruction lacks .*again/);
     judge('PC F5 title names the chicken', validateBank(S('G1-390', { title: 'What Comes Next? Butterfly, Frog and Chicken' }), 'en'), /the chicken never appears \(rule 13\)/);
     log.push('  PR7 froglet stub dropped: covered by the primitive gate (section 0, L1 KILLED)');
   } finally { await browser.close(); }

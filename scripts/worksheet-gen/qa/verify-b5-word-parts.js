@@ -82,6 +82,21 @@ const F1_REFUSED = ['weather/raindrop', 'weather/snowflake', 'spring/garden', 's
 const AGENT_EXCLUDED = { all: ['author', 'librarian', 'coach'], en: ['waitress'] };
 const BW = /(^|\s)(bw|sw|bn|nb|zw|sh|pb|mv|sv)(\s|\d|$)/i;
 const SPARSE_MAX = 40;
+/** Round 1 (rule 20): portraits of children at PLAY — a face drawing them may not call its people workers / professions. */
+const PLAY_KEYS = ['athlete', 'ballerina', 'girl', 'student'];
+const PROFESSION_WORD = {
+  en: /(?<!\p{L})(at work|jobs?|professions?|occupations?|working|workers?)(?!\p{L})/iu, de: /beruf\p{L}*|bei der arbeit|(?<!\p{L})arbeite\p{L}*/iu,
+  nl: /beroep\p{L}*|aan het werk|(?<!\p{L})werk(t|en)?(?!\p{L})/iu, pt: /profiss\p{L}*|trabalh\p{L}*/iu, it: /mestier\p{L}*|(?<!\p{L})lavor\p{L}*/iu,
+  sv: /yrke\p{L}*|(?<!\p{L})arbeta\p{L}*|(?<!\p{L})jobba\p{L}*/iu, da: /erhverv\p{L}*|(?<!\p{L})arbejd\p{L}*|(?<!\p{L})job\p{L}*/iu,
+  no: /yrke\p{L}*|(?<!\p{L})jobb\p{L}*|(?<!\p{L})arbeid\p{L}*/iu, fi: /ammat\p{L}*|työssä|(?<!\p{L})työ\p{L}*/iu, es: /profesi\p{L}*|trabaj\p{L}*|oficio\p{L}*/iu, fr: /métier\p{L}*|travail\p{L}*/iu,
+};
+const TYPE_REFUSED = TYPE._rules.REFUSED_FACES;
+let _faceTypes = null;
+/** The five face specs (lazy: tools/b5-probe-child.js requires this module for validateBank). */
+function FACE_TYPES() {
+  if (!_faceTypes) { const { loadType } = require('../lib/load-types.js'); _faceTypes = Object.fromEntries([['picture-family', 'G1-397'], ['root-word', 'G2-375'], ['prefix-key', 'G2-376'], ['who-does-it', 'G3-398'], ['family-in-sentence', 'G3-399']].map(([m, id]) => [m, loadType(id)])); }
+  return _faceTypes;
+}
 
 let assertions = 0;
 const fails = [];
@@ -315,6 +330,79 @@ function validateBank(b, loc) {
       if (WB.brickWidthFor('word', s.word, 18) > 147) push(`F5 block ${id}: "${s.word}" brick > 147 px (rule 15)`);
     }
   }
+  // ---- round 1 (2026-09-23, the landing panels' findings): rules 16-21, every locale ----
+  const R1 = TYPE._rules;
+  const wallFamsR = [...fams, ...rootFams];
+  const refused = (mode) => !!(b.refuse && b.refuse[mode]) || (TYPE_REFUSED[mode] || []).includes(loc);
+  // rule 16: every member CONTAINS the root the page prints (root.word), case-folded — a stemSigned mark no longer
+  // exempts (fr terre / terrain, pt escola / escolar, nl spel / speelster, nl tover / tovenaar)
+  for (const fam of wallFamsR) {
+    const r = fam.root && fam.root.word;
+    if (typeof r !== 'string') continue;
+    for (const mm of fam.members || []) if (typeof mm.word === 'string' && !low(mm.word, loc).includes(low(r, loc))) push(`family ${fam.id} member "${mm.word}": does not contain the displayed root "${r}" (rule 16)`);
+  }
+  // rule 17: ONE stem convention on every page (de printed "Spiel" beside "wohn"): all roots free words, or all bound stems in lower case
+  {
+    const free = wallFamsR.filter((x) => x.rootIsFreeWord).map((x) => x.root && x.root.word), bound = wallFamsR.filter((x) => !x.rootIsFreeWord).map((x) => x.root && x.root.word);
+    if (free.length && bound.length) push(`families mix free-word roots (${free.slice(0, 3).join(', ')}…) with bound stems (${bound.join(', ')}) — one page would print both conventions (rule 17)`);
+    for (const w of bound) if (typeof w === 'string' && /^\p{Lu}/u.test(w)) push(`the bound stem "${w}" is capitalised (rule 17)`);
+  }
+  // rule 18: G2-375 — a family the root-word face can draw must offer a triple whose shared part, accent-folded, IS its root (es mar / marítimo -> "mari")
+  if (!refused('root-word')) for (const fam of wallFamsR.filter((x) => x.rootIsFreeWord && x.root && low(x.stem || '', loc) === low(x.root.word || '', loc))) {
+    const ws = (fam.members || []).filter((mm) => !mm.stemSigned && typeof mm.word === 'string').map((mm) => mm.word);
+    let good = 0;
+    for (let i = 0; i < ws.length; i++) for (let j = i + 1; j < ws.length; j++) for (let k = j + 1; k < ws.length; k++) if (R1.commonPartFolded([ws[i], ws[j], ws[k]], loc) === R1.fold(fam.root.word, loc)) good++;
+    if (ws.length >= 3 && !good) push(`family ${fam.id}: no three members share exactly "${fam.root.word}" (accent-folded) — a child circling the common part writes a longer string (rule 18)`);
+  }
+  // rule 19: G2-376 — no meaning line quotes the key's meaning words (the row is then solvable by word-spotting)
+  if (!refused('prefix-key') && pk && Array.isArray(pk.prefixes) && Array.isArray(pk.rows)) {
+    const meanings = pk.prefixes.map((p) => p.meaning).filter(Boolean);
+    for (const r of pk.rows) { const q = R1.glossQuotesKey(r.gloss || '', meanings, loc); if (q.length) push(`prefixKey row "${r.word}": the meaning line "${r.gloss}" quotes the key ("${q.join('", "')}") (rule 19)`); }
+  }
+  // rule 20: G3-398 — the locale declares its agent suffixes and every answer obeys them; a profession/work word
+  // in the face's strings while play portraits (runner, dancer) are drawn is false
+  if (!refused('who-does-it')) {
+    const suf = Array.isArray(b.agentSuffixes) ? b.agentSuffixes.map((x) => low(x, loc)) : [];
+    if (!suf.length) push('agentSuffixes missing — the who-does-it face must declare the person-word suffixes it teaches (rule 20)');
+    else for (const a of b.agents || []) for (const v of Object.values(a.answer || {})) if (typeof v === 'string' && !suf.some((s) => low(v, loc).endsWith(s))) push(`agent ${a.key}: answer "${v}" ends in none of the declared suffixes -${suf.join(' / -')} (rule 20)`);
+    const S4 = (b.strings || {})['who-does-it'];
+    const play = (b.agents || []).filter((a) => PLAY_KEYS.includes(a.key)).map((a) => a.key);
+    const re = PROFESSION_WORD[loc];
+    if (S4 && re && play.length) for (const x of [S4.title, S4.instruction]) { const m = re.exec(x || ''); if (m) push(`strings.who-does-it says "${m[0]}" (work / profession) but the face draws play portraits (${play.join(', ')}) (rule 20)`); }
+  }
+  // rule 21: G1-397 — the picture families must let the composer keep the member off the strictly-longest brick on >= 40 % of the cards
+  if (!refused('picture-family') && picFams.length) {
+    const FACE = FACE_TYPES()['picture-family'];
+    const dd = FACE.difficulty[2];
+    const capable = picFams.filter((fam) => {
+      const r = low(fam.root && fam.root.word || '', loc);
+      const mem = (fam.members || []).filter((mm) => mm.kind !== 'compound' && low(mm.word || '', loc).includes(r)).map((mm) => mm.word);
+      const looks = (fam.lookAlikes || []).map((x) => x.word).filter((w) => typeof w === 'string' && !low(w, loc).includes(r));
+      return mem.some((m) => looks.some((w) => glyphs(w) >= glyphs(m)));
+    });
+    const need = dd.cards - Math.floor(R1.LONGEST_MAX_SHARE * dd.cards);
+    if (capable.length < need) push(`picture-family: only ${capable.length} picture families offer a look-alike at least as long as a member (need >= ${need}) — the answer is the longest brick on more than 60 % of a page's cards (rule 21)`);
+  }
+  // rules 18 + 21 on the COMPOSED pages (20 seeds), when the block is otherwise sound
+  if (!f.length) {
+    const FT = FACE_TYPES();
+    for (let s = 1; s <= 20; s++) {
+      if (!refused('picture-family') && picFams.length) {
+        try {
+          const r = FT['picture-family']._buildWith(b, FT['picture-family'].difficulty[2], { locale: loc }, { rng: makeRng(`G1-397-probe-${loc}-${s}`) });
+          const lt = R1.longestTell(r.meta.members.map((m, i) => ({ member: m, foils: r.meta.foils[i] })));
+          if (lt) push(`picture-family probe ${s}: ${lt} (rule 21)`);
+        } catch (e) { push(`picture-family probe ${s}: ${e.message.slice(0, 160)} (rule 21)`); break; }
+      }
+      if (!refused('root-word')) {
+        try {
+          const r = FT['root-word']._buildWith(b, FT['root-word'].difficulty[2], { locale: loc }, { rng: makeRng(`G2-375-probe-${loc}-${s}`) });
+          const byId = Object.fromEntries(wallFamsR.map((x) => [x.id, x]));
+          r.meta.families.forEach((id, i) => { if (R1.commonPartFolded(r.meta.members[i], loc) !== R1.fold(byId[id].root.word, loc)) push(`root-word probe ${s}: ${id} prints [${r.meta.members[i].join(', ')}] whose shared part is not "${byId[id].root.word}" (rule 18)`); });
+        } catch (e) { push(`root-word probe ${s}: ${e.message.slice(0, 160)} (rule 18)`); break; }
+      }
+    }
+  }
   // rules 13 + 14: strings
   const S = b.strings || {};
   // A face the bank itself declares refused (b.refuse[mode] === true) is exempt: its string may be
@@ -484,7 +572,8 @@ async function main() {
     P('P1 member "helped"', (b) => { fam(b, 'help').members.push({ word: 'helped', kind: 'derived', slot: 'verb' }); }, /"helped": an inflected form/);
     const deBlock = () => { const b = en(); b.families.push({ id: 'fahr', stem: 'fahr', rootIsFreeWord: false, root: { word: 'fahr' }, signed: true,
       members: ['Fahrer', 'Fahrt', 'Abfahrt', 'Ausfahrt', 'Einfahrt', 'Fähre', 'Fahrzeug'].map((w, i) => ({ word: w, kind: i === 6 ? 'compound' : 'derived', slot: 'noun-thing' })), lookAlikes: [] }); b.strings = en().strings; b.prefixKey = en().prefixKey; return b; };
-    { const ctl = validateBank((() => { const b = deBlock(); fam(b, 'fahr').members[5].stemSigned = true; return b; })(), 'de').filter((x) => /fahr|Fähre/.test(x)); log.push(`  control de fahr family (Fähre stemSigned): ${ctl.length} fahr findings${ctl.length ? ' — ' + ctl.join(' | ') : ''}`); ok(!ctl.length, 'the de fahr control must be clean'); }
+    { const ctl = validateBank((() => { const b = deBlock(); fam(b, 'fahr').members[5].stemSigned = true; return b; })(), 'de').filter((x) => /does not contain the stem "fahr"/.test(x)); log.push(`  control de fahr family (Fähre stemSigned): ${ctl.length} rule-2 fahr findings${ctl.length ? ' — ' + ctl.join(' | ') : ''} (round 1: rule 16 now refuses Fähre regardless — see W16r)`); ok(!ctl.length, 'the de fahr control must pass rule 2 (stemSigned)'); }
+    P('W16r de Fähre stemSigned still fails rule 16 (the page prints "fahr")', (b) => { fam(b, 'fahr').members[5].stemSigned = true; }, /member "Fähre": does not contain the displayed root "fahr" \(rule 16\)/, 'de', deBlock);
     P('P2 de Fähre without stemSigned', () => {}, /"Fähre": does not contain the stem "fahr"/, 'de', deBlock);
     P('P3 foil "Sunday" for sun', (b) => { b.families.push({ id: 'sun', stem: 'sun', rootIsFreeWord: true, root: { word: 'sun' }, signed: true, members: ['sunny', 'sunless', 'Sunday', 'sunnily', 'sunniness', 'sunward', 'sunlit'].map((w) => ({ word: w, kind: 'derived', slot: 'adjective' })), lookAlikes: [{ word: 'Sunday', whyNotFamily: 'a day' }] }); }, /look-alike "Sunday": is a family member/);
     P('P4 exemplar stems sun / sunflow', (b) => { b.families.push({ id: 'sun', stem: 'sun', rootIsFreeWord: true, root: { word: 'sun' }, signed: true, members: [], lookAlikes: [] }, { id: 'sunflow', stem: 'sunflow', rootIsFreeWord: false, root: { word: 'sunflow' }, signed: true, members: [], lookAlikes: [] }); b.exemplar.base = ['sun', 'sunflow']; }, /exemplar\.base: stems "sun" \/ "sunflow" are substrings/);
@@ -540,7 +629,7 @@ async function main() {
   } finally { await browser.close(); }
 
   console.log('poison:\n' + log.join('\n'));
-  if (fails.length) console.log('FAILS:\n  ' + fails.slice(0, 40).join('\n  '));
+  if (fails.length) console.log('FAILS:\n  ' + fails.slice(0, process.env.GATE_ALL_FAILS ? Infinity : 40).join('\n  '));
   const pass = !fails.length && killed === total;
   console.log(pass ? `PASS (${assertions} assertions, ${killed}/${total} poisons killed)` : `FAIL (${fails.length} findings, ${killed}/${total} poisons killed)`);
   return pass;

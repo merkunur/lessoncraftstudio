@@ -74,7 +74,11 @@ const INSTR_BANS_EN = {
   base: [/circle/i, /colou?r/i, /(?<!\p{L})cut(?!\p{L})/iu, /letter box/i], flower: [/circle/i, /colou?r/i, /(?<!\p{L})cut(?!\p{L})/iu, /letter box/i],
   needs: [/(?<!\p{L})words?(?!\p{L})/iu, /write/i], eat: [/vegetable/i], jobs: [/word bank/i], cycle: [],
 };
-const INSTR_MUST_EN = { cycle: [/(?<!\p{L})cut(?!\p{L})/iu, /glue/i] };
+const INSTR_MUST_EN = { cycle: [/(?<!\p{L})cut(?!\p{L})/iu, /glue/i], needs: [/each row/i] };   // needs: landing review 2026-09-23 — five winners, one per row
+/** Rule 7b (landing review 2026-09-23): the plant is uncoloured line art, so no job may describe a colour. */
+const COLOUR_WORDS = /colou?r|(?<!\p{L})bright(?!\p{L})|farb|(?<!\p{L})cor(es)?(?!\p{L})|couleur|kleur|färg|farv|farg|väri/iu;
+/** Rule 13 (landing review 2026-09-23): the F5 labels are parts OF the flower only; no label word is another plant part's word. */
+const NON_FLOWER_PARTS = ['root', 'stem', 'leaf', 'fruit', 'seed'];
 const SPARSE_MAX = 40;   // nt10-D SPARSE ruling (coordinator review 2026-09-23): bank bottom -> first drawn element
 const MIX_D2 = { root: 2, leaf: 2, flower: 1, stem: 1, seed: 1, fruit: 1 };
 const MIX_NO_STEM = { root: 2, leaf: 2, flower: 1, seed: 1, fruit: 2 };
@@ -105,6 +109,7 @@ function validateNeutral(N) {
     for (const a of it.allow || []) if (!N.PARTS.includes(a)) push(`${what}: allow "${a}" ∉ PARTS (rule 4)`);
     if (N.EAT_BLOCKED.includes(it.noun)) push(`${what}: a blocked noun (rule 4)`);
     if (it.picOpened !== true) push(`${what}: picOpened is not true (rule 4)`);
+    if (it.depicts !== it.part) push(`${what}: the picture shows the ${it.depicts} but the answer is the ${it.part} (rule 4b: picture and answer agree)`);
     if (it.part === 'root' && (it.allow || []).some((a) => a === 'leaf' || a === 'stem')) push(`${what}: a root item allows leaf/stem (leafy tops shown; rule 4)`);
     if (it.part === 'flower' && (it.allow || []).some((a) => a === 'stem' || a === 'leaf')) push(`${what}: a flower item allows stem/leaf (rule 4)`);
     if (['tomato', 'cucumber', 'eggplant', 'pepper'].includes(it.noun) && (it.allow || []).some((a) => a === 'seed' || a === 'flower')) push(`${what}: a fruit item allows seed/flower (rule 4)`);
@@ -166,6 +171,11 @@ function validateBank(b, loc) {
     for (const w of leak) if (wordRe(low(w, loc)).test(low(j, loc))) push(`jobs.${k} "${j}" contains the part word "${w}" (rule 7)`);
   }
   if (!Array.isArray(b.partStems) || b.partStems.length < 3) push('partStems lists < 3 forms (rule 7)');
+  for (const k of N.JOB_PARTS) if (JB[k] && COLOUR_WORDS.test(JB[k])) push(`jobs.${k} "${JB[k]}" names a colour the uncoloured plant does not show (rule 7b)`);
+  // rule 13: every SHIPPED F5 label is a part of the flower only, and its word is no other plant part's word
+  const LABELS = loadFace('flower').difficulty[2].labels;
+  if (LABELS.includes('stalk')) push('the F5 labels carry the stalk — not a part only of the flower (rule 13)');
+  for (const k of LABELS) if (FW[k]) for (const q of NON_FLOWER_PARTS) if (PW[q] && wordRe(low(PW[q], loc)).test(low(FW[k], loc))) push(`flowerWords.${k} "${FW[k]}" is the ${q} word "${PW[q]}": two non-flower words in the F5 bank (rule 13)`);
   // rule 8: the F5 decoy (root) never inside a flower word
   if (PW.root) for (const k of fk) if (FW[k] && low(FW[k], loc).includes(low(PW.root, loc))) push(`the decoy partWords.root "${PW.root}" is inside flowerWords.${k} "${FW[k]}" (rule 8)`);
   // rule 11: capitalisation
@@ -284,7 +294,7 @@ function withBlock(block, extra = {}) {
 const FACE_IDS = { needs: 'K-376', cycle: 'G1-388', eat: 'G2-363', jobs: 'G2-364', flower: 'G3-392' };
 /** Coordinator review (2026-09-23, the nt10-D "a short face grows its elements to fill" rule): F4 + F5 must
  *  END at >= 85 % of the body at the default chrome and stay inside it at the worst (677) chrome. */
-const FILL_FACES = ['jobs', 'flower'], FILL_MIN = 0.85;
+const FILL_FACES = ['needs', 'eat', 'jobs', 'flower'], FILL_MIN = 0.85;   // needs + eat joined 2026-09-23 (the K-376 82 % / G2-363 78 % review)
 const FACE_DIR = { needs: 'k', cycle: 'g1', eat: 'g2', jobs: 'g2', flower: 'g3' };
 function loadFace(L) {
   const fs = require('fs');
@@ -351,8 +361,8 @@ async function faceSection(page, judge, log, quick, banks) {
   // node sweeps over 400 seeds: no tell on ANY seed, and the draw is locale-neutral
   {
     const synth = { ...banks.en, partWords: { root: 'Wurzeln', stem: 'Stängel', leaf: 'Blatt', flower: 'Blüte', fruit: 'Frucht', seed: 'Samen' },
-      flowerWords: { petal: 'Kronblatt', sepal: 'Kelchblatt', stamen: 'Staubblatt', pistil: 'Stempel', stalk: 'Stiel' },
-      jobs: { root: 'nimmt Wasser aus der Erde auf', stem: 'hält die Pflanze aufrecht', leaf: 'macht mit Sonnenlicht Nahrung', flower: 'lockt mit bunten Farben Bienen an', seed: 'kann zu einer neuen Pflanze wachsen' }, partStems: ['Pflanzenteil'] };
+      flowerWords: { petal: 'Kronblatt', sepal: 'Kelchblatt', stamen: 'Staubblatt', pistil: 'Stempel', stalk: 'Stiel', ovary: 'Fruchtknoten' },
+      jobs: { root: 'nimmt Wasser aus der Erde auf', stem: 'hält die Pflanze aufrecht', leaf: 'macht mit Sonnenlicht Nahrung', flower: 'lockt Bienen an', seed: 'kann zu einer neuen Pflanze wachsen' }, partStems: ['Pflanzenteil'] };
     const tells = { needs: 0, cycle: 0, eat: 0, jobs: 0, flower: 0 }, neutral = { ...tells };
     const seenCorn = new Set();
     for (let s = 1; s <= 400; s++) {
@@ -372,6 +382,18 @@ async function faceSection(page, judge, log, quick, banks) {
     }
     for (const L of LAYOUTS) { ok(tells[L] === 0, `node sweep ${L}: ${tells[L]} position tells in 400 seeds`); ok(neutral[L] === 0, `node sweep ${L}: ${neutral[L]} seeds draw differently per locale`); }
     ok(seenCorn.size > 0, 'node sweep eat: corn never drawn (the seed bucket is not exercised)');
+    // G3-392 variety, measured on its whole legal space (4 labels since the stalk left, landing review 2026-09-23):
+    // 22 off-order numberings x ~70 bank orders. The 8-seed render sweep below may then meet ONE birthday collision
+    // (measured: epochs 2 and 4 draw the same page) — the variety claim is made HERE, over 2000 seeds.
+    {
+      const F = FACES.flower;
+      const space = (cfg) => { const seen = new Set(); for (let s = 1; s <= 2000; s++) { const m = F._buildWith(banks.en, cfg, { locale: 'en' }, { rng: makeRng(instanceSeed({ typeId: F.id, theme: null, difficulty: 2, seedEpoch: s })) }).meta; seen.add(JSON.stringify(m.numbers) + m.bank.join()); } return seen.size; };
+      const real = space(F.difficulty[2]);
+      ok(real >= 500, `node sweep flower: only ${real} distinct pages in 2000 seeds (< 500)`);
+      const frozen = space({ ...F.difficulty[2], forceBank: ['petal', 'sepal', 'decoy', 'stamen', 'pistil'] });   // poison: the bank order frozen
+      ok(frozen < 500, `poison — a frozen flower bank still reported ${frozen} distinct pages (the space assertion cannot fail)`);
+      console.log(`faces node sweep flower: ${real} distinct pages in 2000 seeds (frozen-bank poison: ${frozen})`);
+    }
     console.log(`faces node sweep 400 seeds: tells ${JSON.stringify(tells)} locale-draw diffs ${JSON.stringify(neutral)}`);
   }
   // renders: d2 en at the default chrome and the worst legal chrome (fi 4-line title + 3-line instruction)
@@ -405,11 +427,12 @@ async function faceSection(page, judge, log, quick, banks) {
     for (let s = 1; s <= n; s++) {
       const q = await faceRender(L, `${L}-sweep-${s}`, { seedEpoch: s });
       ok(!q.verify.length && !q.lints.length, `${FACE_IDS[L]} sweep ${s}: ${JSON.stringify(q.verify.slice(0, 2))}`);
-      pages.add(await page.evaluate(() => document.querySelector('[data-lcs-type="plants"]').innerHTML.length + ':' + [...document.querySelectorAll('[data-lcs-gifts],[data-lcs-cut-card],[data-lcs-food],[data-lcs-job],[data-lcs-bank]')].map((e) => e.getAttribute('data-lcs-gifts') || e.getAttribute('data-lcs-stage') || e.getAttribute('data-lcs-food') || e.getAttribute('data-lcs-job') || e.getAttribute('data-lcs-bank')).join()));
+      // the tag numbering is part of what makes two pages different (G3-392 with 4 labels: same bank order, other numbers)
+      pages.add(await page.evaluate(() => document.querySelector('[data-lcs-type="plants"]').innerHTML.length + ':' + (document.querySelector('[data-lcs-type="plants"]').getAttribute('data-lcs-numbers') || '') + ':' + [...document.querySelectorAll('[data-lcs-gifts],[data-lcs-cut-card],[data-lcs-food],[data-lcs-job],[data-lcs-bank]')].map((e) => e.getAttribute('data-lcs-gifts') || e.getAttribute('data-lcs-stage') || e.getAttribute('data-lcs-food') || e.getAttribute('data-lcs-job') || e.getAttribute('data-lcs-bank')).join()));
     }
     // F2's only free draw is the strip order: 4 cards have 9 derangements, one of them the reverse ->
     // exactly 8 legal pages, so a seed sweep must COLLIDE; assert it varies, not that it never repeats.
-    const want = L === 'cycle' ? Math.min(n, 2) : n;
+    const want = L === 'cycle' ? Math.min(n, 2) : L === 'flower' ? n - 1 : n;   // flower: see the 2000-seed space assertion above
     ok(pages.size >= want, `${FACE_IDS[L]} sweep: ${pages.size} distinct pages of ${n} (want >= ${want})`);
   }
 
@@ -421,13 +444,15 @@ async function faceSection(page, judge, log, quick, banks) {
     judge(name, [...r.verify, ...r.lints.map((l) => JSON.stringify(l)), ...r.app, ...r.fillF], re);
   };
   await fp('PR1 two winners in a row', 'needs', { config: { forceGrows: true } }, /one winner per row/);
+  await fp('PS-flower-ink short label card under a width-limited flower', 'flower', { config: { rowH: 64, glyphH: 26 } }, /the flower's ink and the label card/);
+  await fp('PR14 row bands removed (one 10-pot grid)', 'needs', { config: { forceNoBand: true } }, /no visible row band/);
   await fp('PR2 alternating winner side', 'needs', { config: { forceSides: ['L', 'R', 'L', 'R', 'L'] } }, /alternating tell/);
   await fp('PR3 strip = slot order', 'cycle', { config: { forceStrip: ['sprout', 'seedling', 'flowering', 'fruiting'] } }, /not a derangement/);
   await fp('PR4 return arrow removed', 'cycle', { config: { dropReturn: true } }, /cycle not closed/);
   await fp('PR5 answer staircase', 'eat', { config: { forceSlots: [0, 1, 2, 0, 1, 2, 0, 1] } }, /staircase \(slot tell\)/);
   await fp('PR6 food caption printed', 'eat', { config: { forceCaption: true } }, /food name in body/);
   await fp('PR10 part word in a job', 'jobs', { config: { forceLeak: 'the roots' } }, /job \w+ leak: .* names the part word/);
-  await fp('PR11 decoy first in the bank', 'flower', { config: { forceBank: ['decoy', 'petal', 'sepal', 'stamen', 'pistil', 'stalk'] } }, /decoy position tell/);
+  await fp('PR11 decoy first in the bank', 'flower', { config: { forceBank: ['decoy', 'petal', 'sepal', 'stamen', 'pistil'] } }, /decoy position tell/);
   await fp('PR12 answerBox on the jobs face', 'jobs', { config: { forceAnswerBox: true } }, /data-lcs-answer="undefined"/);
   for (const L of LAYOUTS) {
     // F4/F5 FILL their body (a 1fr row), so the pushed-off-the-top poison must first undo the growth
@@ -439,6 +464,11 @@ async function faceSection(page, judge, log, quick, banks) {
   const noGrow = (h) => h.replace(/minmax\((\d+)px,1fr\)/, '$1px').replace(/;height:100%">/g, '">');
   await fp('PF-jobs fixed stage (under-fill)', 'jobs', { html: noGrow }, /FILL — the content ends at \d+ %/);
   await fp('PF-flower fixed stage (under-fill)', 'flower', { html: (h) => h.replace(/minmax\((\d+)px,1fr\)/, '$1px') }, /FILL — the content ends at \d+ %/);
+  // needs + eat (2026-09-23 review): K-376 shipped 82 %, G2-363 78 % with fixed row tracks — the pre-fix page is the poison
+  await fp('PF-needs fixed rows (under-fill)', 'needs', { html: (h) => h.replace(/minmax\((\d+)px,1fr\)/, '$1px') }, /FILL — the content ends at \d+ %/);
+  await fp('PF-eat fixed card rows (under-fill)', 'eat', { html: (h) => h.replace(/minmax\((\d+)px,1fr\)/, '$1px') }, /FILL — the content ends at \d+ %/);
+  await fp('PO-needs rows past the 677 body', 'needs', { html: (h) => h.replace(/minmax\((\d+)px,1fr\)/, 'minmax(150px,1fr)') }, /FILL overflow|reaches the footer/, { strings: LONG.fi });
+  await fp('PO-eat card rows past the 677 body', 'eat', { html: (h) => h.replace(/minmax\((\d+)px,1fr\)/, 'minmax(180px,1fr)') }, /FILL overflow|reaches the footer/, { strings: LONG.fi });
   // (jobs has no bank: its whole body is the row, so it needs a row > 667 to overflow; flower's row sits under a 69 px bank)
   await fp('PO-jobs stage past the 677 body', 'jobs', { html: (h) => h.replace(/minmax\((\d+)px,1fr\)/, 'minmax(700px,1fr)') }, /FILL overflow|reaches the footer/, { strings: LONG.fi });
   await fp('PO-flower stage past the 677 body', 'flower', { html: (h) => h.replace(/minmax\((\d+)px,1fr\)/, 'minmax(640px,1fr)') }, /FILL overflow|reaches the footer/, { strings: LONG.fi });
@@ -531,8 +561,8 @@ async function main() {
     judge('P4 bell_pepper', nPoison((n) => { n.EAT.push({ theme: 'vegetables', noun: 'bell_pepper', part: 'fruit', allow: ['root', 'leaf'], picOpened: true }); }), /bell_pepper: (a blocked noun|the picture does not resolve|no vocab key)/);
     const locBlock = (loc, words, extra = {}) => ({ ...clone(banks.en), partWords: words, forbidden: [], ...extra });
     const DE = { root: 'Wurzel', stem: 'Stängel', leaf: 'Blatt', flower: 'Blüte', fruit: 'Frucht', seed: 'Samen' };
-    const deFlower = { petal: 'Kronblatt', sepal: 'Kelchblatt', stamen: 'Staubblatt', pistil: 'Stempel', stalk: 'Stiel' };
-    const deCtl = locBlock('de', DE, { flowerWords: deFlower, jobs: { root: 'nimmt Wasser aus der Erde auf', stem: 'hält die Pflanze aufrecht', leaf: 'macht mit Sonnenlicht Nahrung', flower: 'lockt mit bunten Farben Bienen an', seed: 'kann zu einer neuen Pflanze wachsen' }, partStems: ['Wurzeln', 'Blätter', 'Blüten', 'Früchte', 'Pflanzenteil'] });
+    const deFlower = { petal: 'Kronblatt', sepal: 'Kelchblatt', stamen: 'Staubblatt', pistil: 'Stempel', stalk: 'Stiel', ovary: 'Fruchtknoten' };
+    const deCtl = locBlock('de', DE, { flowerWords: deFlower, jobs: { root: 'nimmt Wasser aus der Erde auf', stem: 'hält die Pflanze aufrecht', leaf: 'macht mit Sonnenlicht Nahrung', flower: 'lockt Bienen an', seed: 'kann zu einer neuen Pflanze wachsen' }, partStems: ['Wurzeln', 'Blätter', 'Blüten', 'Früchte', 'Pflanzenteil'] });
     const deCtlF = validateBank(deCtl, 'de'); log.push(`  control de draft: ${deCtlF.length} findings${deCtlF.length ? ' — ' + deCtlF.slice(0, 3).join(' | ') : ''}`); ok(!deCtlF.length, 'the de control draft must be clean');
     judge('P5 de flower Blume', validateBank({ ...deCtl, partWords: { ...DE, flower: 'Blume' } }, 'de'), /partWords\.flower "Blume" is a forbidden/);
     judge('P6 es fruit fruta', validateBank(locBlock('es', { root: 'raíz', stem: 'tallo', leaf: 'hoja', flower: 'flor', fruit: 'fruta', seed: 'semilla' }, { flowerWords: { petal: 'pétalo', sepal: 'sépalo', stamen: 'estambre', pistil: 'pistilo', stalk: 'tallo' } }), 'es'), /partWords\.fruit "fruta" is a forbidden/);
@@ -543,6 +573,13 @@ async function main() {
     judge('P11 water bottle as a non-need', nPoison((n) => { n.NON_NEEDS.push({ theme: 'At the Supermarket', noun: 'water', picOpened: true }); }), /NON_NEEDS At the Supermarket\/water: a need or a need-cue/);
     judge('P12 bare "Life Cycle" title', validateBank({ ...clone(banks.en), strings: { ...banks.en.strings, cycle: { ...banks.en.strings.cycle, title: 'Life Cycle' } } }, 'en'), /strings\.cycle title "Life Cycle" carries a bare life-cycle head/);
     judge('P13 base "Circle the parts"', validateBank({ ...clone(banks.en), strings: { ...banks.en.strings, base: { ...banks.en.strings.base, instruction: 'Circle the parts of the plant.' } } }, 'en'), /strings\.base instruction names "Circle"/);
+    judge('P16 peas pod answered seed', nPoison((n) => { n.EAT.push({ theme: 'At the Supermarket', noun: 'peas', part: 'seed', depicts: 'fruit', allow: ['root', 'stem', 'flower'], picOpened: true }); }), /peas: the picture shows the fruit but the answer is the seed/);
+    { let m = null; const F = loadFace('eat'); const corn = N.EAT.find((x) => x.noun === 'corn'); corn.depicts = 'fruit'; try { F._buildWith(banks.en, F.difficulty[2], { locale: 'en' }, { rng: makeRng('p16b') }); } catch (e) { m = e.message; } finally { corn.depicts = 'seed'; } judge('P16b builder refuses a picture/answer mismatch', m ? [m] : [], /pictures the fruit while its answer is the seed/); }
+    judge('P17 en flower job "bright colors"', validateBank({ ...clone(banks.en), jobs: { ...banks.en.jobs, flower: 'calls bees with its bright colors' } }, 'en'), /jobs\.flower .* names a colour/);
+    judge('P17b de flower job "bunten Farben"', validateBank({ ...deCtl, jobs: { ...deCtl.jobs, flower: 'lockt mit bunten Farben Bienen an' } }, 'de'), /jobs\.flower .* names a colour/);
+    judge('P18 es pistil word = the stem word', validateBank(locBlock('es', { root: 'raíz', stem: 'tallo', leaf: 'hoja', flower: 'flor', fruit: 'fruto', seed: 'semilla' }, { flowerWords: { petal: 'pétalo', sepal: 'sépalo', stamen: 'estambre', pistil: 'tallo', stalk: 'pedúnculo' } }), 'es'), /flowerWords\.pistil "tallo" is the stem word/);
+    { let m = null; const F = loadFace('flower'); try { F._buildWith(banks.en, { ...F.difficulty[2], labels: ['petal', 'sepal', 'stamen', 'pistil', 'stalk'] }, { locale: 'en' }, { rng: makeRng('p18b') }); } catch (e) { m = e.message; } judge('P18b builder refuses the stalk label', m ? [m] : [], /stalk is not a part only of the flower/); }
+    { let m = null; const F = loadFace('flower'); const b2 = { ...clone(banks.en), partWords: { ...banks.en.partWords, stem: 'petal' } }; try { F._buildWith(b2, F.difficulty[2], { locale: 'en' }, { rng: makeRng('p18c') }); } catch (e) { m = e.message; } judge('P18c builder refuses a label word = a part word', m ? [m] : [], /is the stem word "petal"/); }
     judge('P14 EAT picOpened false', nPoison((n) => { n.EAT[0].picOpened = false; }), /carrot: picOpened is not true/);
 
     // 5. poisons — render

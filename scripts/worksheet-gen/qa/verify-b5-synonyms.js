@@ -29,6 +29,11 @@
  *    REASON; either exits 1); the correct EN bank is the control. Design §5 P1-P5 P7-P9
  *    P11-P14 P17-P19 + PR1 PR2 PR6 PR7 + PS (SPARSE). PR3 / PR4 (the sock) are void:
  *    the sock was RETIRED 2026-09-23 (lead ruling); F2 uses the half-ring tags.
+ * ROUND 1 (2026-09-23, the landing panels' findings) — validateBank rules 16-19, every locale:
+ *    16 no group word inside another (nl kiezen/uitkiezen) · 17 one synonym per card + the per-locale
+ *    second-sense floor (pt bravo~corajoso, de brüllen~heulen) · 18 every F4 frame asserts plainVerbOK
+ *    (en: direct speech) · 19 the pairs face repeats <= 2 base concepts on the same instance (the
+ *    composer avoids them). Poisons R16-R19 each fire on the defect AND stay quiet on its correct twin.
  */
 'use strict';
 /** the probe for 'an unauthored locale refuses': the first locale no panel has applied yet (sv was the probe until its panel landed) */
@@ -63,6 +68,26 @@ const APPARATUS = { card: /(?<!\p{L})cards?(?!\p{L})/iu, picture: /picture/i, li
 const OWN = { base: ['card'], pictures: ['picture'], pairs: ['line', 'link'], shades: ['box'], say: ['sentence', 'bubble', 'box'], fields: ['field'] };
 const INSTR_BAN_ALL = /(?<!\p{L})(tick|cut|colou?r|teal)(?!\p{L})/iu;
 const MAX = { base: 13, pictures: 11, pairs: 14, shades: 12, say: 12, fields: 12 };
+
+/** Rule 17 (round 1): a word whose SECOND everyday sense is another group's word (pt bravo = brave AND angry;
+ *  de brüllen ~ heulen, both a loud voice). The pair must be a `near` pair so no card offers both. */
+const SECOND_SENSE_FLOOR = { pt: [['bravo', 'corajoso'], ['bravo', 'valente']], de: [['brüllen', 'heulen']] };
+/** Rule 16/17 on a drawn base card: exactly ONE tag belongs to the headword's group (the answer), no tag is near the headword,
+ *  and neither the headword nor the answer spells the other. */
+function cardSynonymFindings(c, groupOfW, near) {
+  const out = [];
+  const gT = groupOfW(c.target);
+  const same = c.tags.filter((t) => groupOfW(t) === gT);
+  if (same.length !== 1) out.push(`card "${c.target}": ${same.length} options are synonyms of the headword (${same.join(', ')}) — exactly one (rule 17)`);
+  for (const t of c.tags) if (t !== c.answer && near.has(low(c.target) + '|' + low(t))) out.push(`card "${c.target}": the option "${t}" is near the headword (rule 17)`);
+  if (nfd(c.answer).includes(nfd(c.target)) || nfd(c.target).includes(nfd(c.answer))) out.push(`card "${c.target}": the answer "${c.answer}" and the headword spell each other (rule 16)`);
+  return out;
+}
+/** Rule 19: the pairs face may repeat at most 2 of the base page's concepts on the same instance. */
+function pairsOverlapFinding(baseConcepts, faceConcepts, max = 2) {
+  const shared = [...new Set(faceConcepts.filter((c) => c && baseConcepts.includes(c)))];
+  return shared.length > max ? `${shared.length} of its pairs repeat the base page's concepts (${shared.join(', ')}) > ${max} (rule 19)` : null;
+}
 
 let assertions = 0;
 const fails = [];
@@ -255,15 +280,43 @@ function validateBank(b, loc) {
     }
   }
   if (new Set(titles).size !== titles.length) push('two modes share a title (rule 13)');
+  // ---- round 1 (2026-09-23, the landing panels' findings; qa/verify-b5-synonyms.js rules 16-19) ----
+  // rule 16: the headword may not spell its answer — no group word CONTAINS another word of its group
+  // (nl kiezen -> uitkiezen): accent-folded, case-folded, whole group (base G2-358 and pairs G2-373 draw both sides from one group)
+  for (const g of groups) for (const a of g.words || []) for (const c of g.words || []) if (a !== c && typeof a === 'string' && typeof c === 'string' && nfd(c).includes(nfd(a))) push(`group ${g.id}: "${a}" is inside "${c}" — a card or pair would print its answer inside its headword (rule 16)`);
+  // rule 17: a word of TWO everyday senses whose other sense is another group's word must be kept off that group's cards (`near`)
+  for (const [a, c] of SECOND_SENSE_FLOOR[loc] || []) if (inBank.has(low(a)) && inBank.has(low(c)) && !near.has(low(a) + '|' + low(c))) push(`"${a}" also means "${c}" (a second everyday sense) — add near ${a}~${c} so one card never offers both as the same (rule 17)`);
+  // rule 18: every F4 frame asserts the struck head can stand in its gap (the instruction says "instead of <head>")
+  if (say && Array.isArray(say.sentences) && !(b.refuse || []).includes('say')) for (const s of say.sentences) {
+    if (s.plainVerbOK !== true) push(`say sentence ${s.id}: no plainVerbOK:true — "${say.head}" must be able to stand in the gap unchanged in meaning (rule 18)`);
+    if (loc === 'en' && !String(s.text || '').includes((b.quotes || ['“'])[0])) push(`say sentence ${s.id}: not direct speech — "${say.head}" cannot stand for a verb that takes an object ("${s.text}", rule 18)`);
+  }
   // rule 10: the base build probe (20 seeds x d2) — only when the block is otherwise sound
   if (!f.length) {
     const TY = TYPE();
+    const groupOfW = (w) => groupOf.get(low(w));
     for (let s = 1; s <= 20; s++) {
       try {
         const r = TY._buildWith(b, TY.difficulty[2], { locale: loc }, { rng: makeRng(`G2-358-probe-${loc}-${s}`) });
         const words = r.meta.cards.flatMap((c) => [c.target, ...c.tags]).map(low);
         if (new Set(words).size !== 40) push(`probe seed ${s}: ${new Set(words).size} distinct words ≠ 40 (rule 10)`);
+        for (const c of r.meta.cards) for (const x of cardSynonymFindings(c, groupOfW, near)) push(`probe seed ${s}: ${x}`);
       } catch (e) { push(`probe seed ${s}: the base draw refuses — ${e.message.slice(0, 120)} (rule 10)`); break; }
+    }
+    // rule 19: the pairs face G2-373 repeats at most 2 of the base page's concepts on the SAME instance (typeId swapped, variant kept)
+    if (!(b.refuse || []).includes('pairs')) {
+      const { instanceSeed } = require('../lib/rng.js');
+      const { loadType } = require('../lib/load-types.js');
+      const FT = loadType(DATA.FACES.pairs);
+      for (let v = 1; v <= 20; v++) {
+        try {
+          const rb = TY._buildWith(b, TY.difficulty[2], { locale: loc }, { rng: makeRng(instanceSeed({ typeId: 'G2-358', theme: null, difficulty: 2, seedEpoch: 1, variant: v })) });
+          const rf = FT._buildWith(b, FT.difficulty[2], { locale: loc }, { rng: makeRng(instanceSeed({ typeId: FT.id, theme: null, difficulty: 2, seedEpoch: 1, variant: v })) });
+          const x = pairsOverlapFinding(rb.meta.cards.map((c) => c.concept), rf.meta.left.map((w) => (groups.find((g) => g.words.includes(w)) || {}).concept));
+          if (x) push(`pairs v${v}: ${x}`);
+          rf.meta.left.forEach((w, i) => { const r2 = rf.meta.right[rf.meta.rOrder.indexOf(i)]; if (r2 && (nfd(r2).includes(nfd(w)) || nfd(w).includes(nfd(r2)))) push(`pairs v${v}: "${w}" / "${r2}" — one word of the pair is inside the other (rule 16)`); });
+        } catch (e) { push(`pairs v${v}: ${e.message.slice(0, 120)} (rule 19)`); break; }
+      }
     }
     // rule 10, Phase E: every face the block does not refuse composes 20 seeds (F2: 16 distinct words)
     const { loadType } = require('../lib/load-types.js');
@@ -469,6 +522,29 @@ async function main() {
     judge('P13 en chip unhappy', withGroups((b) => { b.groups[1].words = ['sad', 'gloomy', 'unhappy']; }), /"unhappy" (is a prefix antonym|is a banned word)/);
     judge('P14 a one-word group', withGroups((b) => { b.groups[0].words = ['happy']; }), /1 word\(s\) — a group needs >= 2/);
     judge('P17 a 14-glyph de tag', withGroups((b) => { b.groups[13].words = ['schwierigkeits', 'kniffelig']; }, 'de'), /has 14 glyphs > 13 \(rule 11\)/);
+    // round 1 (rules 16-19): each poisoned both ways — must FIRE on the defect, must NOT fire on its correct twin
+    const quiet = (name, f, re) => ok(!f.some((x) => re.test(x)), `${name}: fired on the CORRECT twin — ${f.filter((x) => re.test(x)).slice(0, 2).join(' | ')}`);
+    judge('R16 group fall / befall (headword inside its answer)', withGroups((b) => { b.groups.find((g) => g.id === 'g.fall').words = ['fall', 'befall']; }), /"fall" is inside "befall"/);
+    quiet('R16 twin fall / tumble', withGroups((b) => { b.groups.find((g) => g.id === 'g.fall').words = ['fall', 'tumble']; }), /is inside/);
+    {
+      const pt = clone(en); pt.ban = []; pt.groups.find((g) => g.id === 'g.angry').words = ['angry', 'bravo']; pt.groups.find((g) => g.id === 'g.brave').words = ['brave', 'corajoso'];
+      judge('R17 pt bravo beside corajoso with no near pair', validateBank(pt, 'pt'), /"bravo" also means "corajoso"/);
+      const pt2 = clone(pt); pt2.near.push({ a: 'bravo', b: 'corajoso', why: 'bravo = brave and angry' });
+      quiet('R17 twin pt bravo~corajoso near', validateBank(pt2, 'pt'), /also means "corajoso"/);
+    }
+    judge('R18 a say frame without plainVerbOK', withGroups((b) => { delete b.fields.say.sentences[2].plainVerbOK; }), /say sentence f3: no plainVerbOK:true/);
+    judge('R18 an en say frame that is not direct speech', withGroups((b) => { b.fields.say.sentences[6].text = '{name} {gap} how to plant a seed, one step at a time.'; }), /say sentence f7: not direct speech/);
+    quiet('R18 twin: the shipped en frames', ctl, /plainVerbOK|not direct speech/);
+    {
+      const gw = (w) => ({ glad: 'g.happy', happy: 'g.happy', cheerful: 'g.happy', gloomy: 'g.sad', fast: 'g.fast', quick: 'g.fast', huge: null })[w];
+      const nr = new Set(['big|huge', 'huge|big']);
+      const bad = cardSynonymFindings({ target: 'happy', answer: 'glad', tags: ['glad', 'cheerful', 'gloomy', 'fast'] }, gw, nr);
+      judge('R17 a card with two synonyms of its headword', bad, /2 options are synonyms of the headword/);
+      quiet('R17 twin: one synonym, three foils', cardSynonymFindings({ target: 'happy', answer: 'glad', tags: ['glad', 'gloomy', 'fast', 'quick'] }, gw, nr), /synonyms of the headword/);
+      judge('R16 a card whose answer spells its headword', cardSynonymFindings({ target: 'kiezen', answer: 'uitkiezen', tags: ['uitkiezen', 'a', 'b', 'c'] }, () => 'g', new Set()), /spell each other/);
+      judge('R19 pairs repeating 3 base concepts', [pairsOverlapFinding(['happy', 'sad', 'fast', 'big'], ['happy', 'sad', 'fast', 'jump'])].filter(Boolean), /3 of its pairs repeat/);
+      quiet('R19 twin: 2 repeats', [pairsOverlapFinding(['happy', 'sad', 'fast', 'big'], ['happy', 'sad', 'loud', 'jump'])].filter(Boolean), /repeat the base/);
+    }
     judge('P19 F3 instruction "means the same"', withGroups((b) => { b.strings.shades.instruction = 'Read the three words in each row and write 1, 2 and 3 in the boxes, even if they mean the same.'; }), /strings\.shades says "same"/);
 
     // 5. poisons — render
@@ -524,11 +600,11 @@ async function main() {
   } finally { await browser.close(); }
 
   console.log('poison:\n' + log.join('\n'));
-  if (fails.length) console.log('FAILS:\n  ' + fails.slice(0, 40).join('\n  '));
+  if (fails.length) console.log('FAILS:\n  ' + fails.slice(0, process.env.GATE_ALL_FAILS ? Infinity : 40).join('\n  '));
   const pass = !fails.length && killed === total;
   console.log(pass ? `PASS (${assertions} assertions, ${killed}/${total} poisons killed)` : `FAIL (${fails.length} findings, ${killed}/${total} poisons killed)`);
   return pass;
 }
 
 if (require.main === module) main().then((p) => process.exit(p ? 0 : 1), (e) => { console.error(e); process.exit(1); });
-module.exports = { validateBank };
+module.exports = { validateBank, cardSynonymFindings, pairsOverlapFinding, SECOND_SENSE_FLOOR };

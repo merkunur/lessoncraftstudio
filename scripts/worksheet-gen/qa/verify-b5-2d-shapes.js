@@ -122,6 +122,36 @@ const APPARATUS_NEED = {
   'write-name': ['line', /(?<!\p{L})line(?!\p{L})/iu], riddles: ['riddle', /(?<!\p{L})riddles?(?!\p{L})/iu], 'dot-draw': ['dots', /(?<!\p{L})dots?(?!\p{L})/iu],
 };
 
+/** rule 11: the phrase that names a RIGHT corner, per locale (a book / square corner); letter-bounded, NFC, case-free */
+const RB = '(?<!\\p{L})', RE = '(?!\\p{L})';
+const RIGHT_CORNER = {
+  en: new RegExp(`${RB}(corners? (like|of) (a|the) book|book corners?|right (corners?|angles?)|square corners?)${RE}`, 'iu'),
+  de: new RegExp(`${RB}(rechte[nr]? (Ecken?|Winkel)|Ecken (sind )?(alle )?(gerade|rechtwinklig)|rechtwinklig\\p{L}*|gerade[nr]? Ecken?|Buchecken?|Ecken? (wie|von) (bei )?(einem|ein) Buch)${RE}`, 'iu'),
+  es: new RegExp(`${RB}(esquinas? (son |es )?rectas?|ángulos? (son |es )?rectos?|esquinas? (como|de) (un|la esquina de un) libro)${RE}`, 'iu'),
+  pt: new RegExp(`${RB}(cantos? (são |é )?retos?|ângulos? (são |é )?retos?|cantos? (como|de) (um|o canto de um) livro)${RE}`, 'iu'),
+  fr: new RegExp(`${RB}(coins? (sont |est )?droits?|angles? (sont |est )?droits?|coins? (comme|d[’']un) (celui d[’']un )?livre)${RE}`, 'iu'),
+  it: new RegExp(`${RB}(angol[io] (sono |è )?rett[io]|spigol[io] rett[io]|angol[io] come (quell[io] di )?un libro)${RE}`, 'iu'),
+  nl: new RegExp(`${RB}(rechte hoek(en)?|hoeken (zijn )?recht|hoek(en)? (als|van) een boek)${RE}`, 'iu'),
+  sv: new RegExp(`${RB}(räta? (hörn|vinklar)|hörn(en)? är räta|rät vinkel|bokhörn\\p{L}*|hörn (som|på) (på )?en bok)${RE}`, 'iu'),
+  da: new RegExp(`${RB}(rette (hjørner|vinkler)|hjørner(ne)? er rette|ret vinkel|retvinklede? hjørner|hjørner? (som|på) (på )?en bog)${RE}`, 'iu'),
+  no: new RegExp(`${RB}(rette (hjørner|vinkler)|hjørner(ne)? er rette|rett vinkel|rettvinklede? hjørner|hjørner? (som|på) (på )?en bok)${RE}`, 'iu'),
+  fi: new RegExp(`${RB}(kirjan kulm\\p{L}*|suor(a|at|ia|an|aa) kulm\\p{L}*)${RE}`, 'iu'),
+};
+/**
+ * rule 11 (landing round 1, 2026-09-23): every square AND rectangle riddle names the RIGHT ("book") corners — "4 equal
+ * sides" alone fits a rhombus, "2 long and 2 short sides" a parallelogram / kite (de/pt/fr panels). A FAMILY-GATE rule,
+ * deliberately NOT in validateBank: tools/apply-b5-locale.js aborts a whole locale on any validator error, so a
+ * pending native re-author here must not block the other nine families' applies. The gate FAILS until it is fixed.
+ */
+function rightCornerFindings(block, loc) {
+  const E = [];
+  const l = String(loc).slice(0, 2);
+  const rc = RIGHT_CORNER[l];
+  if (!rc) return [`rule 11: no right-corner lexicon for ${l}`];
+  for (const k of ['square', 'rectangle']) ((block && block.riddles && block.riddles[k]) || []).forEach((r, i) => { if (r && typeof r.text === 'string' && !rc.test(r.text.normalize('NFC'))) E.push(`riddles.${k}[${i}] "${r.text}" does not name the right corners (rule 11)`); });
+  return E;
+}
+
 /* =================================================================== 1. BANK */
 function validateBank(block, loc) {
   const f = [];
@@ -447,6 +477,14 @@ async function main() {
       const sf = validateBank(syntheticBlock(loc), loc).filter((x) => /\(rule (1|2|5|8|9)\b/.test(x));
       ok(sf.length === 0, `synthetic ${loc} block (vocab names): ${sf.length} name / object findings\n    ` + sf.join('\n    '));
     }
+    ok(rightCornerFindings(en, 'en').length === 0, `RIGHT CORNERS en: ${rightCornerFindings(en, 'en').join(' ; ')}`);
+    // rule 11 over the REAL applied locale banks (data/b5/locales/2d-shapes.<loc>.json): a native panel must author a
+    // square / rectangle riddle that names the right corners wherever this fails (landing round 1, 2026-09-23)
+    for (const loc of LOCALES.filter((l) => l !== 'en')) {
+      let blk = null; try { blk = require(`../data/b5/locales/2d-shapes.${loc}.json`); } catch (e) { ok(false, `${loc}: no applied 2d-shapes bank`); continue; }
+      const r11 = rightCornerFindings(blk, loc);
+      ok(r11.length === 0, `RIGHT CORNERS ${loc}: ${r11.length} square / rectangle riddle(s) do not name the right corners — a native must author them\n    ` + r11.join('\n    '));
+    }
     ok(en.strings.base.title === TYPE.i18n.en.title && en.strings.base.instruction === TYPE.i18n.en.instruction, 'the bank strings.base ≠ the spec i18n.en');
     const strEn = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'i18n', 'strings.en.json'), 'utf8'))['K-368'];
     ok(!!strEn && strEn.title === en.strings.base.title && strEn.instruction === en.strings.base.instruction, `i18n/strings.en.json K-368 ${JSON.stringify(strEn)} ≠ the bank strings.base (run node i18n/build-en.js)`);
@@ -467,6 +505,15 @@ async function main() {
     b = syntheticBlock('pt'); b.strings.base.title = 'Formas'; P('P10 pt title "Formas"', b, 'pt', /title "Formas" is the shapes theme name \/ slug \(rule 7\)/);
     b = clone(en); b.inventory.hexagon = false; delete b.names.hexagon; P('P11 inventory.hexagon false with a hexagon riddle', b, 'en', /riddles\.hexagon: .*\(rule 9/);
     b = syntheticBlock('de'); b.strings.base.title = 'Geometrische Formen benennen kostenlos'; P('P12 de title with "kostenlos"', b, 'de', /claims free \("kostenlos"\) \(rule 7\)/);
+    // P13 rule 11 both ways: must-FIRE a de square riddle without the right corners; must-PASS the same riddle with them
+    b = syntheticBlock('de'); b.riddles.square[0].text = 'Meine 4 Seiten sind alle gleich lang. Wer bin ich?'; judge('P13 de square riddle without right corners', rightCornerFindings(b, 'de'), /riddles\.square\[0\].*does not name the right corners \(rule 11\)/);
+    for (const [loc, k, t] of [['de', 'square', 'Ich habe 4 gleich lange Seiten und 4 rechte Ecken. Wer bin ich?'], ['sv', 'rectangle', 'Jag har 2 långa och 2 korta sidor och 4 räta hörn. Vad är jag?'], ['fr', 'square', 'Mes 4 côtés sont égaux et mes coins sont droits. Qui suis-je ?'], ['fi', 'rectangle', 'Minulla on 2 pitkää ja 2 lyhyttä sivua ja 4 suoraa kulmaa. Mikä olen?'], ['pt', 'square', 'Tenho 4 lados iguais e 4 cantos retos. Quem sou eu?']]) {
+      b = syntheticBlock(loc); for (const kk of ['square', 'rectangle']) b.riddles[kk] = b.riddles[kk].map(() => ({ text: t, clue: CLUE_OF[kk] }));
+      const r11 = rightCornerFindings(b, loc);
+      ok(r11.length === 0, `P13 control ${loc} "${t}": rule 11 fired on a riddle that names the right corners: ${r11.join(' ; ')}`);
+    }
+    // P14 (landing round 1): the rounded-corner tablet re-added to K-371 -> rejected (rule 8); the shipped objects are the control
+    b = clone(en); b.objects = [...bankMod.OBJECTS.filter((o) => o.noun !== 'map'), { theme: 'classroom', noun: 'tablet', shape: 'rectangle', picOpened: true }]; P('P14 the rounded-corner tablet re-added', b, 'en', /object classroom\/tablet was OPENED and REJECTED by the design \(rule 8\)/);
     // the controls: the EN block and the de synthetic block with a correct de base title are clean on the poisoned rules
     b = syntheticBlock('de'); b.strings.base.title = 'Geometrische Formen benennen';
     ok(validateBank(b, 'de').filter((x) => /rule 7/.test(x)).length === 0, `control de: ${JSON.stringify(validateBank(b, 'de').filter((x) => /rule 7/.test(x)))}`);

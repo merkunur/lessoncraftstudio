@@ -8,8 +8,11 @@
  *             outline teal 2 — the shading is rotation-invariant, so a turned rose looks the
  *             same as an upright one and only its LETTERS tell the way round.
  *   ring      r 30 stroke grid 2; centre pin r 4 ink.
- *   N marker  the N kite's halves coral / coralSoft — drawn ONLY on an upright rose
- *             (rotation 0); asking for it on a turned rose THROWS.
+ *   N marker  the N kite's halves coral / coralSoft — drawn on EVERY rose, on the kite that
+ *             points north (kite rotation / 90). Landing round 1 (2026-09-23): a turned rose
+ *             without its marker was a rose with no north at all (the fr/es panels: nothing on
+ *             the page said a rose may be turned); a real map's rose always marks north, and
+ *             reading north off a turned rose is the map skill. marker:false is a poison seam only.
  *   boxes     40 x 40 r 8 centred at radius 80 on each axis: (100,20) (180,100) (100,180)
  *             (20,100) = positions 0 1 2 3 (up right down left). Given = white, teal 2, the
  *             letter Baloo 2 700 26 units ink, data-lcs-given; blank = white, coral 2.5 dash
@@ -28,7 +31,7 @@
  *   compassRose({ px = 196, rotation = 0, given = 'n', letters, reference = false, marker })
  *     -> { svg, meta:{ rotation, boxes:[{pos, dir, letter, given}] } }
  *     letters = {n,e,s,w} (the locale's dirLetters; every one a non-empty literal); rotation
- *     ∈ {0,90,180,270}; marker defaults to rotation === 0 (reference forces it); px < 180 with
+ *     ∈ {0,90,180,270}; marker defaults to true (reference forces it); px < 180 with
  *     boxes THROWS (a letter under 22 px); a reference px that puts the letter under 14 px THROWS.
  *   posToDir(pos, rotation), DIRS, VIEW (200), BOX_CENTRES
  * Root: <svg data-lcs-prim="compass-rose" data-lcs-rot data-lcs-reference?>
@@ -68,8 +71,7 @@ function compassRose({ px = 196, rotation = 0, given = 'n', letters, reference =
     if (px < 180) throw new Error(`compass-rose: px ${px} < 180 with letter boxes (a 22 px letter floor)`);
     if (!DIRS.includes(given)) throw new Error(`compass-rose: given "${given}" ∉ n e s w`);
   }
-  const showMarker = reference ? true : (marker === undefined ? rotation === 0 : marker);
-  if (showMarker && rotation !== 0) throw new Error('compass-rose: the N marker is drawn only on an upright rose (rotation 0)');
+  const showMarker = reference ? true : (marker === undefined ? true : marker);
   const northPos = rotation / 90;   // the kite that points north
   const parts = [];
   for (let k = 0; k < 4; k++) parts.push(kite(k, showMarker && k === northPos));

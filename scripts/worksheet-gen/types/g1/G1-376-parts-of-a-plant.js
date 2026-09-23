@@ -210,6 +210,7 @@ const TYPE = {
       const kinds = Object.entries(mix).flatMap(([k, n]) => Array(n).fill(k));
       if (kinds.length !== d.rows) throw new Error(`${ID}: needs mix sums to ${kinds.length} ≠ rows ${d.rows}`);
       for (const k of kinds) if (!['noWater', 'noLight', 'neither'].includes(k)) throw new Error(`${ID}: needs mix kind "${k}"`);
+      if (d.band && d.rowH - 2 * d.band - 4 < d.potH) throw new Error(`${ID}: needs band ${d.band} leaves the pot box ${d.rowH - 2 * d.band - 4} < potH ${d.potH}`);
       if (d.rows * d.rowH + (d.rows - 1) * d.rowGap > FACE_BODY) throw new Error(`${ID}: needs stack ${d.rows * d.rowH + (d.rows - 1) * d.rowGap} > ${FACE_BODY}`);
       const order = rng.shuffle(kinds);
       const sideOk = (s) => { const nl = s.filter((x) => x === 'L').length; if (Math.abs(nl - (s.length - nl)) > 1) return false; if (new Set(s).size < 2) return false; if (s.every((x, i) => i === 0 || x !== s[i - 1])) return false; return true; };
@@ -223,14 +224,19 @@ const TYPE = {
         const win = rng.shuffle([sun, drop]);
         const lose = kind === 'noWater' ? [sun, pic(nn[q++])] : kind === 'noLight' ? [drop, pic(nn[q++])] : [pic(nn[q++]), pic(nn[q++])];
         const loseO = rng.shuffle(lose);
-        const W = C5.plantNeedUnit({ gifts: win, grows: true, potH: d.potH, gift: d.gift, h: d.rowH });
-        const Lo = C5.plantNeedUnit({ gifts: loseO, grows: false, potH: d.potH, gift: d.gift, h: d.rowH });
+        const uh = d.rowH - 2 * (d.band || 0);
+        const W = C5.plantNeedUnit({ gifts: win, grows: true, potH: d.potH, gift: d.gift, h: uh, fill: !!d.fill });
+        const Lo = C5.plantNeedUnit({ gifts: loseO, grows: false, potH: d.potH, gift: d.gift, h: uh, fill: !!d.fill });
         const pair = sides[i] === 'L' ? W + Lo : Lo + W;
-        return `<div data-lcs-need-row="${i + 1}" data-lcs-kind="${kind}" data-lcs-block style="display:flex;justify-content:center;gap:39px;height:${d.rowH}px">${pair}</div>`;
+        // landing review 2026-09-23 (es/pt/fr/it): the ten pots read as one 2-column grid, so "the plant" had five answers.
+        // Each row is a visible BAND (C5.plantNeedRow) holding its two pots — one winner per band.
+        return d.band ? C5.plantNeedRow({ n: i + 1, kind, html: pair, h: d.rowH, pad: d.band, fill: !!d.fill })
+          : `<div data-lcs-need-row="${i + 1}" data-lcs-kind="${kind}" data-lcs-block style="display:flex;justify-content:center;gap:39px;height:${d.rowH}px">${pair}</div>`;
       });
+      if (d.forceNoBand) for (let i = 0; i < rows.length; i++) rows[i] = rows[i].replace(/ data-lcs-row-band style="[^"]*"/, ' style="display:flex;justify-content:center;align-items:center;gap:39px"');
       if (d.forceGrows) rows[0] = rows[0].replace('data-lcs-grows="0"', 'data-lcs-grows="1"');
       const bodyHtml = rootOpen(`data-lcs-mix='${js(mix)}' data-lcs-needs="${N.NEEDS.join(',')}" data-lcs-sides="${sides.join('')}"`,
-        `grid-template-rows:repeat(${d.rows},${d.rowH}px);row-gap:${d.rowGap}px`) + rows.join('') + `</div>`;
+        `grid-template-rows:repeat(${d.rows},${d.fill ? `minmax(${d.rowH}px,1fr)` : `${d.rowH}px`});row-gap:${d.rowGap}px`) + rows.join('') + `</div>`;
       return { bodyHtml, meta: { layout: L, kinds: order, sides } };
     }
 
@@ -262,6 +268,8 @@ const TYPE = {
       for (const p of N.PARTS) words[p] = literal(PW, p, 'partWords', loc);
       const refused = new Set(bankLoc.refuseItems || []);
       const pool = N.EAT.filter((x) => !refused.has(x.noun));
+      // landing review 2026-09-23: the picture must SHOW the part the answer names (the open pea pod is the fruit, not the seed)
+      for (const x of pool) if (x.depicts !== x.part) throw new Error(`${ID}: eat item ${x.noun} pictures the ${x.depicts} while its answer is the ${x.part} (refuse)`);
       const mix = pool.some((x) => x.part === 'stem') ? d.mix : d.mixNoStem;
       const cards = Object.values(mix).reduce((a, b) => a + b, 0);
       if (cards !== d.cols * d.rows) throw new Error(`${ID}: eat mix ${cards} ≠ ${d.cols} x ${d.rows}`);
@@ -285,12 +293,12 @@ const TYPE = {
         const chips = [];
         let q = 0;
         for (let s = 0; s < C; s++) chips.push(s === slots[i] ? it.part : dis[q++]);
-        let card = C5.plantEatCard({ src: fileUri(it.theme, it.noun), food: it.theme + '/' + it.noun, answer: it.part, chips: chips.map((p) => ({ part: p, word: words[p] })), pic: d.pic, chipW: d.chipW, chipH: d.chipH, chipPx: d.chipPx, w: d.cardW, h: d.cardH });
+        let card = C5.plantEatCard({ src: fileUri(it.theme, it.noun), food: it.theme + '/' + it.noun, answer: it.part, chips: chips.map((p) => ({ part: p, word: words[p] })), pic: d.pic, chipW: d.chipW, chipH: d.chipH, chipPx: d.chipPx, w: d.cardW, h: d.cardH, fill: !!d.fill });
         if (d.forceCaption && i === 0) card = card.replace('<div data-lcs-chips', `<span data-lcs-caption style="font-size:17px">${it.noun}</span><div data-lcs-chips`);
         return card;
       });
       const bodyHtml = rootOpen(`data-lcs-mix='${js(mix)}' data-lcs-slots="${slots.join('')}"`,
-        `grid-template-columns:repeat(${d.cols},${d.cardW}px);column-gap:${d.colGap}px;grid-template-rows:repeat(${d.rows},${d.cardH}px);row-gap:${d.rowGap}px`) + html.join('') + `</div>`;
+        `grid-template-columns:repeat(${d.cols},${d.cardW}px);column-gap:${d.colGap}px;grid-template-rows:repeat(${d.rows},${d.fill ? `minmax(${d.cardH}px,1fr)` : `${d.cardH}px`});row-gap:${d.rowGap}px`) + html.join('') + `</div>`;
       return { bodyHtml, meta: { layout: L, items: items.map((x) => x.noun), slots } };
     }
 
@@ -329,12 +337,17 @@ const TYPE = {
     const FW = bankLoc && bankLoc.flowerWords, PW = bankLoc && bankLoc.partWords;
     if (!FW || !PW) throw new Error(`${ID}: ${loc} bank has no flowerWords / partWords (refuse)`);
     for (const p of d.labels) if (!N.FLOWER_PARTS.includes(p) || !FLOWER_ANCHORS[p]) throw new Error(`${ID}: flower label "${p}"`);
+    // landing review 2026-09-23 (es/fr/en): the STALK is labelled as a flower part while the child strikes out the one
+    // word that is not — in es/fr/fi/sv its word IS the plant's stem word, so the bank held two strike-out candidates.
+    // A label must be a part OF the flower only, and its word may not be any other plant part's word.
+    if (d.labels.includes('stalk')) throw new Error(`${ID}: the stalk is not a part only of the flower (two strike-out candidates)`);
     if (d.decoy !== 'root') throw new Error(`${ID}: the flower decoy must be the root (the section draws none)`);
     if (!(d.glyphH >= 24)) throw new Error(`${ID}: flower glyphH ${d.glyphH} < the G3 24`);
     const words = {};
     for (const p of d.labels) words[p] = literal(FW, p, 'flowerWords', loc);
     const decoyWord = literal(PW, 'root', 'partWords', loc);
     const lw = (s) => s.normalize('NFC').toLocaleLowerCase(loc);
+    for (const p of d.labels) for (const q of ['root', 'stem', 'leaf', 'fruit', 'seed']) { const w = PW[q]; if (w && wordRe(w, loc).test(lw(words[p]))) throw new Error(`${ID}: ${loc} flowerWords.${p} "${words[p]}" is the ${q} word "${w}" — a second non-flower word in the bank (refuse)`); }
     for (const p of d.labels) if (lw(words[p]).includes(lw(decoyWord))) throw new Error(`${ID}: ${loc} the decoy "${decoyWord}" is inside flowerWords.${p} "${words[p]}" (refuse)`);
     const seenW = new Set();
     for (const w of [...Object.values(words), decoyWord]) { if (seenW.has(lw(w))) throw new Error(`${ID}: ${loc} two bank words print "${w}"`); seenW.add(lw(w)); }
@@ -386,6 +399,13 @@ const TYPE = {
         let edge = rect(root).top, gap = 0, at = 'the body top', prev = 'the body top';
         for (const [t, b, n] of iv) { if (t - edge > gap) { gap = t - edge; at = `${prev} -> ${n}`; } if (b > edge) { edge = b; prev = n; } }
         if (gap > SPARSE) fails.push(`SPARSE — ${gap.toFixed(0)} px blank band between content blocks (${at}; > ${SPARSE})`);
+        // flower: the stage BLOCK fills its 1fr row while the meet-scaled drawing stops at its width limit, so the block
+        // measure above cannot see a blank band under the INK (landing review 2026-09-23, the 4-label card) — measure the ink
+        if (L === 'flower') {
+          const ink = Math.max(...all('[data-lcs-flower-stage] svg g[data-lcs-part], [data-lcs-flower-stage] svg g[data-lcs-tag]').map((e) => rect(e).bottom));
+          const card = root.querySelector('[data-lcs-label-card]');
+          if (card && isFinite(ink) && rect(card).top - ink > SPARSE) fails.push(`SPARSE — ${(rect(card).top - ink).toFixed(0)} px blank band between the flower's ink and the label card (> ${SPARSE})`);
+        }
       }
       const noText = (el, what) => { const c = el.cloneNode(true); c.querySelectorAll('title').forEach((t) => t.remove()); if (c.textContent.trim()) fails.push(`${what} prints "${c.textContent.trim().slice(0, 40)}"`); };
       const tagsCheck = (svg, parts, numbers, anchors, slotY) => {
@@ -421,8 +441,19 @@ const TYPE = {
         if (rows.length !== want) fails.push(`${rows.length} rows ≠ the mix ${want}`);
         const got = {}, sides = [];
         let plantSvg = null;
+        let prevBottom = -Infinity;
         rows.forEach((r, i) => {
           const units = all('[data-lcs-need-unit]', r);
+          // ROW BAND (landing review 2026-09-23): each row must be VISIBLY a row — a painted band that holds both of its pots,
+          // clear of the next band — or "circle the plant in each row" reads as one 10-pot grid with five answers
+          {
+            const cs = getComputedStyle(r), rr = rect(r);
+            const painted = cs.backgroundColor && !/rgba\(0, 0, 0, 0\)|transparent|^rgb\(255, 255, 255\)$/.test(cs.backgroundColor);
+            if (!painted) fails.push(`row ${i + 1}: no visible row band (background ${cs.backgroundColor})`);
+            units.forEach((u) => { const ur = rect(u); if (ur.left < rr.left + 3 || ur.right > rr.right - 3 || ur.top < rr.top + 3 || ur.bottom > rr.bottom - 3) fails.push(`row ${i + 1}: a pot is not inside its row band`); });
+            if (rr.top < prevBottom + 6) fails.push(`row ${i + 1}: the row band touches the band above (${(rr.top - prevBottom).toFixed(0)} px)`);
+            prevBottom = rr.bottom;
+          }
           if (units.length !== 2) fails.push(`row ${i + 1}: ${units.length} pots ≠ 2`);
           const winners = units.filter((u) => u.dataset.lcsGrows === '1');
           if (winners.length !== 1) fails.push(`row ${i + 1}: ${winners.length} growing pots — one winner per row`);

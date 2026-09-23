@@ -19,7 +19,7 @@
     "root": "neemt water op uit de grond",
     "stem": "houdt de plant rechtop",
     "leaf": "maakt met zonlicht voedsel voor de plant",
-    "flower": "lokt bijen met felle kleuren",
+    "flower": "lokt bijen",
     "seed": "kan uitgroeien tot een nieuwe plant"
   },
   "partStems": [

@@ -89,6 +89,46 @@ const BW = require('../primitives/bankword-width.js');
 const BANK_PX = 18, BANK_GAP = 10, BANK_ROW = 647;
 const chipW = (w) => BW.pillWidth(w, BANK_PX);
 
+/**
+ * rule 13 (landing round 1, 2026-09-23): no fact may contain a COLUMN-HEAD name in any form the locale prints it —
+ * the body's name, its article-less form, its plurals / cases / definite forms (de "Ich kreise um die Erde." sat in
+ * the table whose Erde column the child ticks; the answer was the Moon). Per-locale form lists, letter-bounded,
+ * NFC + locale case-fold. A fact listed in EXCLUDED_FACTS (benched from every page) is reported, not failed here —
+ * main() runs the ratchet.
+ */
+const HEAD_FORMS = {
+  en: ['sun', 'suns', 'earth', 'moon', 'moons'],
+  de: ['sonne', 'sonnen', 'erde', 'erden', 'mond', 'mondes', 'monde', 'monden'],
+  es: ['sol', 'soles', 'tierra', 'luna', 'lunas'],
+  pt: ['sol', 'sóis', 'terra', 'lua', 'luas'],
+  fr: ['soleil', 'soleils', 'terre', 'lune', 'lunes'],
+  it: ['sole', 'soli', 'terra', 'luna', 'lune'],
+  nl: ['zon', 'zonnen', 'aarde', 'maan', 'manen'],
+  sv: ['sol', 'solen', 'solens', 'jord', 'jorden', 'jordens', 'måne', 'månen', 'månens'],
+  da: ['sol', 'solen', 'solens', 'jord', 'jorden', 'jordens', 'måne', 'månen', 'månens'],
+  no: ['sol', 'sola', 'solen', 'solens', 'jord', 'jorda', 'jorden', 'jordens', 'måne', 'månen', 'månens'],
+  fi: ['aurinko', 'auringon', 'aurinkoa', 'auringossa', 'aurinkoon', 'auringolla', 'auringosta', 'auringolle', 'auringoksi',
+    'maa', 'maan', 'maata', 'maassa', 'maahan', 'maalla', 'maasta', 'maalle', 'maaksi',
+    'kuu', 'kuun', 'kuuta', 'kuussa', 'kuuhun', 'kuulla', 'kuusta', 'kuulle', 'kuuksi'],
+};
+/** the column-head forms of a block: the locale list + the printed body literals (with / without an article) */
+function headForms(block, l) {
+  const out = new Set(HEAD_FORMS[l] || []);
+  for (const v of Object.values((block && block.bodies) || {})) if (typeof v === 'string') { out.add(v); const last = v.trim().split(/\s+/).pop(); out.add(last); }
+  return [...out].filter(Boolean);
+}
+function headFindings(block, l) {
+  const f = [];
+  if (!HEAD_FORMS[l]) return [`no column-head form list for ${l} (rule 13)`];
+  const forms = headForms(block, l);
+  for (const [id, t] of Object.entries((block && block.facts) || {})) {
+    if (typeof t !== 'string') continue;
+    const w = forms.find((x) => hasWord(t, x, l));
+    if (w) f.push(`facts.${id} "${t}" names the column head "${w}" (rule 13)`);
+  }
+  return f;
+}
+
 function validateBank(block, loc, model) {
   const f = [];
   const E = (m) => f.push(m);
@@ -117,10 +157,14 @@ function validateBank(block, loc, model) {
   }
   for (const id of have) if (Mo.FORBIDDEN_FACT_IDS.includes(id)) E(`facts.${id} is a FORBIDDEN fact (rule 2)`);
   const need = Math.max(...TYPE.difficulty[2].counts);
+  const excl = Object.keys(Mo.EXCLUDED_FACTS || {});
   for (const [bi, b] of Mo.BODIES.entries()) {
-    const n = Object.values(Mo.FACTS).filter((fx) => fx.truth && fx.truth[bi] === 1 && !fx.size).length;
-    if (n < need) E(`${b}: ${n} non-size facts < ${need} (d2 reachability) (rule 2)`);
+    // d2 reachability in CONCEPTS (<= 1 fact per concept on a page; benched facts out)
+    const n = new Set(Object.entries(Mo.FACTS).filter(([id, fx]) => fx.truth && fx.truth[bi] === 1 && (TYPE.difficulty[2].sizeFacts || !fx.size) && !excl.includes(id)).map(([id, fx]) => fx.concept || id)).size;
+    if (n < need) E(`${b}: ${n} drawable concepts < ${need} (d2 reachability) (rule 2)`);
   }
+  // rule 13 — no fact names a column head (a benched fact is the ratchet's, not a finding here)
+  for (const m of headFindings(block, l)) if (!excl.some((id) => m.startsWith(`facts.${id} `))) E(m);
   // rules 3, 4, 11 — the fact literals
   const gendered = Mo.GENDERED_LOCALES.includes(l);
   if (gendered && !(Array.isArray(block.leakForms) && block.leakForms.length)) E(`leakForms empty in ${l} (a gendered-body locale) (rule 4)`);
@@ -221,6 +265,10 @@ function checkPage(name, html, cfg) {
   for (let i = 2; i < seq.length; i++) if (seq[i] === seq[i - 1] && seq[i] === seq[i - 2]) { f.push(`${name}: a run of three ${seq[i]} facts (tell)`); break; }
   for (const p of [2, 3]) if (seq.every((b, i) => i + p >= seq.length || b === seq[i + p])) f.push(`${name}: periodic answer pattern (period ${p}) (tell)`);
   if (new Set(rows.map((r) => r.id)).size !== rows.length) f.push(`${name}: a fact repeats`);
+  // landing round 1: <= 1 fact per concept; never a benched fact
+  const cpts = rows.map((r) => M.FACTS[r.id].concept || r.id);
+  for (const c of new Set(cpts)) if (cpts.filter((x) => x === c).length > 1) f.push(`${name}: concept twice — ${rows.filter((r) => (M.FACTS[r.id].concept || r.id) === c).map((r) => r.id).join(' + ')} state one fact`);
+  for (const r of rows) if ((M.EXCLUDED_FACTS || {})[r.id]) f.push(`${name}: the benched fact ${r.id} is drawn`);
   if (/<img\b/.test(html)) f.push(`${name}: an <img> in the body`);
   return { f, seq, cnt };
 }
@@ -336,6 +384,48 @@ async function main() {
     for (const loc of LOCALES.filter((x) => x !== 'en')) {
       const sf = validateBank(syntheticBlock(loc), loc).filter((x) => /\(rule (2|4|6|7|8)\)/.test(x));
       ok(sf.length === 0, `synthetic ${loc} block: ${sf.length} convention findings\n    ` + sf.join('\n    '));
+    }
+    // rule 13 over the REAL applied banks + the EXCLUDED_FACTS ratchet (landing round 1)
+    const benched = {};
+    for (const loc of LOCALES) {
+      const blk = loc === 'en' ? en : require(`../data/b5/locales/earth-and-space.${loc}.json`);
+      const all = headFindings(blk, loc);
+      const r13 = validateBank(blk, loc).filter((x) => /\(rule 13\)/.test(x));
+      ok(r13.length === 0, `COLUMN HEAD ${loc}: ${r13.join(' ; ')}`);
+      for (const id of Object.keys(M.EXCLUDED_FACTS || {})) { const h = all.find((m) => m.startsWith(`facts.${id} `)); if (h) (benched[id] = benched[id] || []).push(`${loc}: ${h}`); }
+      // every d2 page of this locale (the shipped seed + 9) prints no head name
+      for (let e = 1; e <= (QUICK ? 3 : 10); e++) {
+        let out; try { out = TYPE._buildWith(blk, TYPE.difficulty[2], { locale: loc }, { rng: makeRng(instanceSeed({ typeId: 'G1-378', theme: null, difficulty: 2, seedEpoch: e })) }); } catch (err) { ok(false, `${loc} d2 seed ${e}: threw ${err.message}`); continue; }
+        const printed = JSON.parse(/data-lcs-facts="([^"]+)"/.exec(out.bodyHtml)[1].replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/&#39;/g, "'"));
+        const hit = headFindings({ bodies: blk.bodies, facts: printed }, loc);
+        ok(hit.length === 0, `${loc} d2 seed ${e}: a printed fact names a column head — ${hit.join(' ; ')}`);
+      }
+    }
+    for (const id of Object.keys(M.EXCLUDED_FACTS || {})) {
+      ok(!!benched[id], `EXCLUDED_FACTS ratchet: ${id} no longer names a column head in any locale — re-admit it (remove it from EXCLUDED_FACTS)`);
+      if (benched[id]) console.log(`  BENCHED ${id} (a native must author a head-free fact): ${benched[id].length} locale(s)\n    ${benched[id].join('\n    ')}`);
+    }
+    // poisons both ways: P13 a de fact naming the Erde head (not benched) fails; the same fact without the head passes
+    {
+      const de = clone(require('../data/b5/locales/earth-and-space.de.json'));
+      de.facts.hottest = 'Ich bin heißer als die Erde.';
+      judge('P13 de fact naming the Erde column head', validateBank(de, 'de'), /facts\.hottest .* names the column head "(Erde|erde)" \(rule 13\)/);
+      de.facts.hottest = 'Ich bin am heißesten von uns dreien.';
+      ok(!validateBank(de, 'de').some((x) => /\(rule 13\)/.test(x)), 'P13 control: the head-free de fact fired rule 13');
+      const fi = clone(require('../data/b5/locales/earth-and-space.fi.json'));
+      fi.facts.craters = 'Se kiertää Maan ympäri.';
+      judge('P13b fi fact naming Maa in the genitive', validateBank(fi, 'fi'), /facts\.craters .* names the column head "maan" \(rule 13\)/);
+    }
+    // P14 one concept twice on a page (the shipped d2 page, one Sun row re-stamped to the other self-light fact)
+    {
+      const out = TYPE._buildWith(en, TYPE.difficulty[2], { locale: 'en' }, { rng: makeRng(instanceSeed({ typeId: 'G1-378', theme: null, difficulty: 2, seedEpoch: 1 })) });
+      const ctl = checkPage('P14 control', out.bodyHtml, cfgFromHtml(out.bodyHtml)).f;
+      ok(ctl.length === 0, `P14 control (the shipped d2 page): ${ctl.join(' ; ')}`);
+      const ids = rowsFromHtml(out.bodyHtml).map((r) => r.id);
+      const self = ids.find((x) => M.FACTS[x].concept === 'selfLight');
+      const other = ids.find((x) => M.FACTS[x].truth[0] === 1 && x !== self);
+      const bad = out.bodyHtml.replace(`data-lcs-fact="${other}"`, `data-lcs-fact="${self === 'star' ? 'ownLight' : 'star'}"`);
+      judge('P14 "a star" + "its own light" on one page', self && other ? checkPage('P14', bad, cfgFromHtml(bad)).f : ['no self-light + second Sun row on the shipped page'], /concept twice — .*(star.*ownLight|ownLight.*star)/);
     }
     ok(en.strings.base.title === TYPE.i18n.en.title && en.strings.base.instruction === TYPE.i18n.en.instruction, 'the bank strings.base ≠ the spec i18n.en');
     const strEn = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'i18n', 'strings.en.json'), 'utf8'))['G1-378'];

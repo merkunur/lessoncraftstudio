@@ -179,7 +179,10 @@ function backChild({ stance = 'stand', look = 0, ahead = false, swing = false })
  * zebra. Below: an EMPTY numeral box (blankNumeralBox, answer '').
  */
 function rsCrossingCard({ step, w, figH, minFrameH, box }) {
-  const FIG = { 'stop-kerb': {}, 'look-left': { look: -1 }, 'look-left-again': { look: -1, swing: true }, 'look-right': { look: 1 }, 'look-both': { look: 'both' }, 'walk-across': { stance: 'walk', ahead: true }, listen: {} };
+  // 'wait-clear' (landing round 1, 2026-09-23): the child stands still at the kerb while a CAR drives past on the near
+  // lane — the frame that replaced the second look-left (two look-left cards differed only by an arrow's curve, so
+  // steps 2 and 4 had two answers: every card must carry a different ACTION)
+  const FIG = { 'stop-kerb': {}, 'look-left': { look: -1 }, 'look-left-again': { look: -1, swing: true }, 'look-right': { look: 1 }, 'look-both': { look: 'both' }, 'walk-across': { stance: 'walk', ahead: true }, listen: {}, 'wait-clear': {} };
   if (!FIG[step]) throw new Error(`rsCrossingCard: step "${step}"`);
   const NEAR = 44, FAR = 22;
   const onRoad = step === 'walk-across';
@@ -190,6 +193,7 @@ function rsCrossingCard({ step, w, figH, minFrameH, box }) {
     `<div style="position:absolute;left:0;right:0;top:0;height:${FAR}px;background:${T.tealSoft};border-bottom:2px solid ${T.teal}"></div>` +
     `<div class="rs-zebra" style="position:absolute;left:24%;right:24%;top:${FAR + 6}px;bottom:${NEAR + 6}px;background:${zebra}"></div>` +
     `<div style="position:absolute;left:0;right:0;bottom:0;height:${NEAR}px;background:${T.tealSoft};border-top:2px solid ${T.teal}"></div>` +
+    (step === 'wait-clear' ? `<div class="rs-ccar" data-lcs-car style="position:absolute;left:3%;bottom:${NEAR + 10}px;line-height:0">${car({ state: 'driving', w: 88, data: { passing: 1 } }).svg}</div>` : '') +
     `<div class="rs-cfig" data-lcs-step-fig style="position:absolute;left:50%;bottom:${figBottom}px;width:${figH}px;height:${fmt(figH * 1.18)}px;margin-left:${-figH / 2}px">${figSvg}</div></div>`;
   return `<div class="rs-ccard" data-lcs-step="${esc(step)}" style="box-sizing:border-box;width:${w}px;height:100%;display:flex;flex-direction:column;align-items:stretch;gap:10px;padding:6px;border:2px solid ${T.creamDeep};border-radius:14px;background:${T.cream}">` +
     frame + `<div style="display:flex;justify-content:center">${blankNumeralBox({ w: box.w, h: box.h, answer: '' })}</div></div>`;

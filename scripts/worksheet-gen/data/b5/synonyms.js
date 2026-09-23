@@ -161,16 +161,18 @@ const SYNONYMS = {
       say: {
         head: 'said',
         form: 'past',
+        // plainVerbOK (round 1, 2026-09-23): the panel asserts the struck head ("said") could stand in the gap
+        // unchanged in meaning — the face's instruction says "instead of said", so every frame is direct speech.
         words: ['whispered', 'shouted', 'asked', 'answered', 'explained', 'promised'],
         sentences: [
-          { id: 'f1', text: '“Shh, the baby is sleeping,” {name} {gap} very softly.', fit: { whispered: true, shouted: false, asked: false, answered: false, explained: false, promised: false } },
-          { id: 'f2', text: '{name} {gap} the secret into Grandma’s ear.', fit: { whispered: true, shouted: false, asked: false, answered: false, explained: false, promised: false } },
-          { id: 'f3', text: 'The bus was leaving, so {name} {gap}, “Wait for me!”', fit: { whispered: false, shouted: true, asked: false, answered: false, explained: false, promised: false } },
-          { id: 'f4', text: '{name} {gap} loudly across the big field.', fit: { whispered: false, shouted: true, asked: false, answered: false, explained: false, promised: false } },
-          { id: 'f5', text: '“Where is my red hat?” {name} {gap}.', fit: { whispered: false, shouted: false, asked: true, answered: false, explained: false, promised: false } },
-          { id: 'f6', text: '{name} {gap} the teacher’s question with a big smile.', fit: { whispered: false, shouted: false, asked: false, answered: true, explained: false, promised: false } },
-          { id: 'f7', text: '{name} {gap} how to plant a seed, one step at a time.', fit: { whispered: false, shouted: false, asked: false, answered: false, explained: true, promised: false } },
-          { id: 'f8', text: '{name} {gap} to feed the fish every day, and never missed a day.', fit: { whispered: false, shouted: false, asked: false, answered: false, explained: false, promised: true } },
+          { id: 'f1', text: '“Shh, the baby is sleeping,” {name} {gap} very softly.', plainVerbOK: true, fit: { whispered: true, shouted: false, asked: false, answered: false, explained: false, promised: false } },
+          { id: 'f2', text: '“I have a secret for you,” {name} {gap} into Grandma’s ear.', plainVerbOK: true, fit: { whispered: true, shouted: false, asked: false, answered: false, explained: false, promised: false } },
+          { id: 'f3', text: 'The bus was leaving, so {name} {gap}, “Wait for me!”', plainVerbOK: true, fit: { whispered: false, shouted: true, asked: false, answered: false, explained: false, promised: false } },
+          { id: 'f4', text: '“Come and play!” {name} {gap} across the big field.', plainVerbOK: true, fit: { whispered: false, shouted: true, asked: false, answered: false, explained: false, promised: false } },
+          { id: 'f5', text: '“Where is my red hat?” {name} {gap}.', plainVerbOK: true, fit: { whispered: false, shouted: false, asked: true, answered: false, explained: false, promised: false } },
+          { id: 'f6', text: '“Seven and three make ten,” {name} {gap} with a big smile.', plainVerbOK: true, fit: { whispered: false, shouted: false, asked: false, answered: true, explained: false, promised: false } },
+          { id: 'f7', text: '“First dig a hole, then drop in the seed,” {name} {gap}.', plainVerbOK: true, fit: { whispered: false, shouted: false, asked: false, answered: false, explained: true, promised: false } },
+          { id: 'f8', text: '“I will feed the fish every day,” {name} {gap}.', plainVerbOK: true, fit: { whispered: false, shouted: false, asked: false, answered: false, explained: false, promised: true } },
         ],
       },
       go: { head: 'go', words: ['walk', 'march', 'crawl', 'hurry', 'stroll', 'wander', 'creep', 'dash'] },

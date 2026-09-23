@@ -100,10 +100,17 @@ const EARTH_AND_SPACE_LOC = {
 /** The locale-neutral model (design §5). truth = [sun, earth, moon]; exactly one 1. */
 const EARTH_AND_SPACE = {
   BODIES: ['sun', 'earth', 'moon'],
+  // concept (landing round 1, 2026-09-23): facts that state ONE fact through two frames share a concept, and a page
+  // prints <= 1 fact per concept ("It is a star." + "It makes its own light." is the Sun's self-light twice — en/es panels)
   FACTS: {
-    ownLight: { truth: [1, 0, 0] }, star: { truth: [1, 0, 0] }, hottest: { truth: [1, 0, 0] }, biggest: { truth: [1, 0, 0], size: true },
-    liveOn: { truth: [0, 1, 0] }, oceans: { truth: [0, 1, 0] }, air: { truth: [0, 1, 0] }, planet: { truth: [0, 1, 0] }, spinDay: { truth: [0, 1, 0] },
-    orbitsEarth: { truth: [0, 0, 1] }, seemsToChange: { truth: [0, 0, 1] }, craters: { truth: [0, 0, 1] }, smallest: { truth: [0, 0, 1], size: true },
+    ownLight: { truth: [1, 0, 0], concept: 'selfLight' }, star: { truth: [1, 0, 0], concept: 'selfLight' }, hottest: { truth: [1, 0, 0], concept: 'hottest' }, biggest: { truth: [1, 0, 0], size: true, concept: 'biggest' },
+    liveOn: { truth: [0, 1, 0], concept: 'liveOn' }, oceans: { truth: [0, 1, 0], concept: 'oceans' }, air: { truth: [0, 1, 0], concept: 'air' }, planet: { truth: [0, 1, 0], concept: 'planet' }, spinDay: { truth: [0, 1, 0], concept: 'spinDay' },
+    orbitsEarth: { truth: [0, 0, 1], concept: 'orbitsEarth' }, seemsToChange: { truth: [0, 0, 1], concept: 'seemsToChange' }, craters: { truth: [0, 0, 1], concept: 'craters' }, smallest: { truth: [0, 0, 1], size: true, concept: 'smallest' },
+  },
+  /** Facts the composer may not draw (the page is locale-neutral, so one locale's defect benches the id everywhere).
+   *  A RATCHET in qa/verify-b5-earth-and-space.js: an id stays here only while >= 1 locale's literal still fails. */
+  EXCLUDED_FACTS: {
+    orbitsEarth: 'names the Earth column head in de/es/fr/it/nl/sv/da/fi ("um die Erde", "alrededor de la Tierra" …; landing round 1, 2026-09-23) — a native re-authors it head-free (pt/no already are: "our planet")',
   },
   FORBIDDEN_FACT_IDS: ['givesLight', 'shinesAtNight', 'orbitsSun', 'isRound', 'spins', 'seenInSky', 'walkedOn', 'noAir', 'reflects', 'sunMoves'],
   PHASES: [0, 1, 2, 3, 4, 5, 6, 7],

@@ -137,8 +137,10 @@ function frameTree({ meWord, w = 675, shelf = 4 } = {}) {
   const crownM = qcurve(P(218, 10), P(320, -2), P(422, 10), 7, 7);
   const crownR = qcurve(P(422, 10), P(500, 2), P(578, 16), 7, 4);
   const low = qcurve(P(334, 344), P(470, 350), P(612, 340), 9, 4);
-  const twig = qcurve(P(300, 498), P(250, 488), P(196, 452), 8, 3);
-  branches.push(boughL, boughR, riserL, riserR, crownL, crownM, crownR, low, twig);
+  // review round 1: the old bare twig (300,498 -> 196,452) carried no frame and read as a MISSING frame; the left
+  // low branch now mirrors the right one and holds a mat, so every branch bears weight (gated: no orphan branch)
+  const lowL = qcurve(P(306, 344), P(170, 350), P(28, 340), 9, 4);
+  branches.push(boughL, boughR, riserL, riserR, crownL, crownM, crownR, low, lowL);
   const crownY = (x) => yAt([...crownL.pts, ...crownM.pts, ...crownR.pts], X(x));
   /* ---- the frames */
   for (const cx of [120, 320, 520]) hang(cx, 18, crownY(cx));
@@ -149,9 +151,17 @@ function frameTree({ meWord, w = 675, shelf = 4 } = {}) {
   mats.push({ cx: X(320), top: meTop, w: MAT_W, h: MAT_H, shape: 'rect', me: true, box: matBox('rect', X(320), meTop, MAT_W, MAT_H) });
   shapeI = 2;
   hang(530, 356, yAt(low.pts, X(530)));
+  shapeI = 3;
+  hang(110, 356, yAt(lowL.pts, X(110)));
+  // the me mat's OWN name line (one line per frame): ONE white plate under the me mat, "me | ____"
+  const ME_LINE_W = 110;
+  const mePlateW = Math.max(72, 18 + 12 * [...String(meWord)].length);
+  const meX0 = X(320) - (mePlateW + ME_LINE_W + 8) / 2;
+  lines.push({ x: meX0 + mePlateW + 4, y: meTop + MAT_H + LINE_GAP, w: ME_LINE_W, h: LINE_H, me: true });
   /* ---- the plate (the ONE label) */
-  const plateW = Math.max(72, 18 + 12 * [...String(meWord)].length);
-  const plate = { x: X(320) - plateW / 2, y: meTop + MAT_H + 6, w: plateW, h: 30 };
+  const plateW = mePlateW;
+  // the plate: the WHOLE "me | ____" card (white, teal), the meWord in its left part, the name line in its right part
+  const plate = { x: meX0, y: meTop + MAT_H + LINE_GAP - 2, w: mePlateW + ME_LINE_W + 8, h: LINE_H + 4, textW: plateW };
   /* ---- leaf clusters (tealSoft almonds, teal outline; each placed clear of every mat / line — gated) */
   const leafBoxes = [];
   const leafPath = (bx, by, rot, len = 26, wid = 11) => {
@@ -168,7 +178,7 @@ function frameTree({ meWord, w = 675, shelf = 4 } = {}) {
   };
   const cluster = (cx, cy, base) => [leafPath(X(cx), cy, base - 40), leafPath(X(cx), cy, base + 40), leafPath(X(cx), cy, base)].join('');
   const leaves = [cluster(16, 164, 190), cluster(624, 164, -10), cluster(60, 16, 200), cluster(580, 16, -20),
-    cluster(198, 44, 250), cluster(442, 44, -70), cluster(612, 340, 60), cluster(194, 452, 200)];
+    cluster(198, 44, 250), cluster(442, 44, -70), cluster(612, 340, 60), cluster(28, 340, 120)];
 
   /* ---- the shelf (its OWN svg: the page puts a flexible gap between tree and shelf — the FILL rule) */
   const shelfY = SMALL + 2;              // the shelf line the small mats stand on
@@ -182,7 +192,7 @@ function frameTree({ meWord, w = 675, shelf = 4 } = {}) {
   const shelfH = shelfY + SHELF_LINE_Y_PAD + 4 + LINE_H;
 
   /* ---- markup */
-  const nameLines = (ls) => ls.map((l) => writingRow({ w: l.w, h: l.h, glyphH: 22 }).svg.replace('<svg ', `<svg x="${S(l.x)}" y="${S(l.y)}" data-lcs-nameline="" `)).join('');
+  const nameLines = (ls) => ls.map((l) => writingRow({ w: l.w, h: l.h, glyphH: 22 }).svg.replace('<svg ', `<svg x="${S(l.x)}" y="${S(l.y)}" data-lcs-nameline=""${l.me ? ' data-lcs-me-line=""' : ''} `)).join('');
   const parts = [];
   parts.push(`<path d="${trunk}" fill="${T.creamDeep}" stroke="${T.teal}" stroke-width="3" stroke-linejoin="round" data-lcs-trunk=""/>` + bark);
   for (const b of branches) parts.push(`<path d="${b.d}" fill="${T.teal}" stroke="${T.teal}" stroke-width="1" stroke-linejoin="round" data-lcs-branch="" data-lcs-pts="${b.pts.map((q) => S(q[0]) + ',' + S(q[1]) + ',' + S(q[2])).join(';')}"/>`);
@@ -190,8 +200,8 @@ function frameTree({ meWord, w = 675, shelf = 4 } = {}) {
   parts.push(`<line x1="0" y1="${GROUND_Y}" x2="${w}" y2="${GROUND_Y}" stroke="${T.teal}" stroke-width="3" stroke-linecap="round" data-lcs-ground=""/>`);
   for (const c of cords) parts.push(`<line x1="${S(c[0])}" y1="${S(c[1])}" x2="${S(c[2])}" y2="${S(c[3])}" stroke="${T.teal}" stroke-width="1.5" stroke-linecap="round" data-lcs-cord=""/>`);
   for (const m of mats) parts.push(matSvg({ cx: m.cx, top: m.top, w: m.w, h: m.h, shape: m.shape, attrs: m.me ? ' data-lcs-me-mat=""' : '' }));
-  parts.push(`<rect x="${S(plate.x)}" y="${S(plate.y)}" width="${plate.w}" height="${plate.h}" rx="15" ry="15" fill="${T.white}" stroke="${T.teal}" stroke-width="2.5" data-lcs-me=""/>` +
-    `<text x="${S(plate.x + plate.w / 2)}" y="${S(plate.y + plate.h / 2 + 0.5)}" font-family="${F.display}, cursive" font-size="20" font-weight="700" fill="${T.ink}" text-anchor="middle" dominant-baseline="central" data-lcs-me-text="">${esc(meWord)}</text>`);
+  parts.push(`<rect x="${S(plate.x)}" y="${S(plate.y)}" width="${plate.w}" height="${plate.h}" rx="14" ry="14" fill="${T.white}" stroke="${T.teal}" stroke-width="2.5" data-lcs-me=""/>` +
+    `<text x="${S(plate.x + plate.textW / 2)}" y="${S(plate.y + plate.h / 2 + 0.5)}" font-family="${F.display}, cursive" font-size="20" font-weight="700" fill="${T.ink}" text-anchor="middle" dominant-baseline="central" data-lcs-me-text="">${esc(meWord)}</text>`);
   parts.push(nameLines(lines));
   const treeSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${TREE_H}" viewBox="0 0 ${w} ${TREE_H}" role="img" aria-label="" style="display:block;overflow:visible" data-lcs-frame-tree="">${parts.join('')}</svg>`;
   const shelfParts = [`<line x1="${S(X(12))}" y1="${shelfY}" x2="${S(X(FIELD - 12))}" y2="${shelfY}" stroke="${T.teal}" stroke-width="3" stroke-linecap="round" data-lcs-shelf=""/>`];

@@ -1,0 +1,6 @@
+{
+  "locale": "fi",
+  "refusals": {
+    "G2-376": "fi refuses the prefix-key face: Finnish forms new words with SUFFIXES (johtimet) and has no productive meaning-prefixes like re- / pre- / mis-; the only word-initial derivation a G2 child meets is the negating epä-, which the design bans (opposites owns it). Design §4 records F3 fi REFUSED."
+  }
+}

@@ -10,6 +10,6 @@ module.exports = {
   id: 'G2-365',
   slug: 'label-the-butterfly-life-cycle',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Label the Butterfly Life Cycle", instruction: "Write each name from the word bank on the line under its picture, and cross out the one name that does not belong." } },
+  i18n: { en: { title: "Label the Butterfly Life Cycle", instruction: "Write the four stage names from the word bank on the lines under their pictures, then cross out the name that does not belong." } },
   gradeBand: "G2",
 };

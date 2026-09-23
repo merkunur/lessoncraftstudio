@@ -4,7 +4,7 @@ const base = require('../g1/G1-379-map-skills.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"layout":"directions-on-map","places":7,"rows":6,"chips":3,"distinctStarts":6,"inDeg":30,"outDeg":90,"symPx":40,"islandW":533,"minApartPx":72,"rosePx":96,"gapMin":6} };
+const D = { ...base.difficulty[2], ...{"layout":"directions-on-map","places":7,"rows":6,"chips":3,"distinctStarts":6,"inDeg":30,"outDeg":90,"symPx":40,"islandW":533,"minApartPx":72,"rosePx":96,"gapMin":6,"legend":true} };
 module.exports = {
   ...base,
   id: 'G2-371',

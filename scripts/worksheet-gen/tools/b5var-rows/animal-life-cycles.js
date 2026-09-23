@@ -14,7 +14,7 @@
  *
  *   F1 G1-389  frog-cut-paste  5 lily pads round a pond (frogspawn given), cut 4 squares and glue each on its pad
  *   F2 G2-365  label           the butterfly loop printed in order; write each name on its lane; cross out the tadpole
- *   F3 G2-366  metamorphosis   8 lettered young stages into 3 bins crowned by butterfly / frog / ladybird
+ *   F3 G2-366  metamorphosis   8 lettered stages into 3 bins crowned by butterfly / frog / ladybird, 4 boxes in EVERY bin
  *   F4 G3-393  compare         8 animal-free statements; check butterfly, frog or both
  *   F5 G1-390  next            6 rows: circle the stage that comes right after (2 ask what follows an adult)
  *
@@ -34,7 +34,7 @@ const ROWS = [
     { layout: 'label', animal: 'butterfly', decoy: 'frog.tadpole', bank: true, lensD: 130, lensMax: 200, loopMax: 650, lane: [260, 56], glyphH: 26, wordPx: 18 },
     S['G2-365'].title, S['G2-365'].instruction, { gradeBand: 'G2' }],
   ['g2', 'G2-366', 'metamorphosis-which-animal-will-it-become', BASE, 2,
-    { layout: 'metamorphosis', animals: ['butterfly', 'frog', 'ladybird'], cards: ['butterfly.larva', 'butterfly.pupa', 'frog.spawn', 'frog.tadpole', 'frog.legged', 'frog.froglet', 'ladybird.larva', 'ladybird.pupa'], lensD: 100, lensMax: 128, adultD: 132, adultMax: 164, box: 52, boxMax: 64, binsMax: 420 },
+    { layout: 'metamorphosis', animals: ['butterfly', 'frog', 'ladybird'], cards: ['butterfly.larva', 'butterfly.pupa', 'frog.spawn', 'frog.tadpole', 'frog.legged', 'frog.froglet', 'ladybird.larva', 'ladybird.pupa'], lensD: 100, lensMax: 128, adultD: 132, adultMax: 164, box: 52, boxMax: 64, binsMax: 420, boxesPerBin: 4 },
     S['G2-366'].title, S['G2-366'].instruction, { gradeBand: 'G2' }],
   ['g3', 'G3-393', 'butterfly-and-frog-life-cycles-compared', BASE, 2,
     { layout: 'compare', rows: 8, mix: { both: 2, butterfly: 3, frog: 3 }, rowMinH: 58, textPx: 17, tick: 40, headD: 110 },

@@ -300,13 +300,16 @@ async function faceGate({ page, K, validateBank, fixture, quick, OUTDIR, bothSat
   J('K-373', 'AT1 F1 row 2 repeats row 1', await gateOf(rewire('K-373', { plan: { actors: Array(6).fill('car'), on: [0, 1, 2, 0, 1, 2] } }), 'AT1'), /the second row repeats the first/);
   // AT2 AT3 — F2 printed in routine order / the two look-left cards side by side
   J('K-374', 'AT2 F2 printed in routine order', await gateOf(rewire('K-374', { plan: { order: [0, 1, 2, 3, 4] } }), 'AT2'), /differs from the routine in 0 places/);
-  // ID1 — the look-left-AGAIN frame drawn like the first look-left (the coordinator's defect): identical frames FAIL
+  // ID1 — the wait-clear frame with its passing car removed = the stop-kerb frame: identical frames FAIL (and the car count)
+  J('K-374', 'ID1 F2 wait-clear drawn without its car (= stop-kerb)', await gateOf(rewire('K-374', { fn: (h) => h.replace(/<div class="rs-ccar"[\s\S]*?<\/svg><\/div>/, '') }), 'ID1'), /draw the SAME frame/);
+  // DA1 — landing round 1 (2026-09-23): the old routine's second look-left (drawn with the ↶ swing) in place of
+  // wait-clear — a different FRAME but the same ACTION as card look-left: steps swappable -> "duplicate action"
   {
     const C5 = require('../templates/components-b5.js');
-    const plain = C5.rsCrossingCard({ step: 'look-left', w: 200, figH: 130, minFrameH: 196, box: { w: 64, h: 60 } });
-    const figL = /<div class="rs-cfig"[\s\S]*?<\/svg><\/div>/.exec(plain)[0];
-    const fn = (h) => h.replace(/(data-lcs-step="look-left-again"[\s\S]*?)<div class="rs-cfig"[\s\S]*?<\/svg><\/div>/, (m, pre) => pre + figL);
-    J('K-374', 'ID1 F2 look-left-again drawn like look-left', await gateOf(rewire('K-374', { fn }), 'ID1'), /draw the SAME frame/);
+    const again = C5.rsCrossingCard({ step: 'look-left-again', w: 200, figH: 130, minFrameH: 196, box: { w: 64, h: 60 } });
+    const figA = /<div class="rs-cfig"[\s\S]*?<\/svg><\/div>/.exec(again)[0];
+    const fn = (h) => h.replace(/(data-lcs-step="wait-clear"[\s\S]*?)<div class="rs-ccar"[\s\S]*?<\/svg><\/div><div class="rs-cfig"[\s\S]*?<\/svg><\/div>/, (m, pre) => pre + figA);
+    J('K-374', 'DA1 F2 a second look-left (swing arrow) in place of wait-clear', await gateOf(rewire('K-374', { fn }), 'DA1'), /duplicate action — card \d \(look-left\) and card \d \(wait-clear\)|duplicate action — card \d \(wait-clear\) and card \d \(look-left\)/);
   }
   // AT4 AT5 — F3 straight across / every line the same way
   const L = ['stop', 'yield', 'crossing', 'school', 'no-entry', 'signal-ahead'];

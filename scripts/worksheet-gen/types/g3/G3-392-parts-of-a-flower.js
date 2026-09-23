@@ -4,7 +4,7 @@ const base = require('../g1/G1-376-parts-of-a-plant.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"layout":"flower","labels":["petal","sepal","stamen","pistil","stalk"],"decoy":"root","figureH":330,"vbTop":110,"insetH":200,"insetColW":140,"rowGap":12,"rowH":64,"glyphH":26,"boxW":205,"bankPx":18} };
+const D = { ...base.difficulty[2], ...{"layout":"flower","labels":["petal","sepal","stamen","pistil"],"decoy":"root","figureH":330,"vbTop":110,"insetH":180,"insetColW":128,"rowGap":12,"rowH":104,"glyphH":34,"boxW":205,"bankPx":18} };
 module.exports = {
   ...base,
   id: 'G3-392',

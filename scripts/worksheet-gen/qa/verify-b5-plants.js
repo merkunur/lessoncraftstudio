@@ -2,8 +2,9 @@
 /**
  * verify-b5-plants.js — the G1-376 `plants` family gate (design
  * docs/worksheet-gen/b5-designs/G1-376-plants.md §5; the nt10-E build brief deliverable 4).
- * BASE build (2026-09-23): sections 0-5 below; the face renders / face poisons (PR1-PR6,
- * PR10-PR12) join in Phase 2 with the faces.
+ * BASE build (2026-09-23): sections 0-5 below. FACES (Phase 2, 2026-09-23): section 6 — the five
+ * CODE faces K-376 needs · G1-388 cycle · G2-363 eat · G2-364 jobs · G3-392 flower (record
+ * docs/worksheet-gen/b5-designs/_work/G1-376-faces.md).
  *
  *   node scripts/worksheet-gen/qa/verify-b5-plants.js [--quick]
  *
@@ -28,6 +29,13 @@
  * 5. POISON — each must FAIL for its OWN reason (no fail = SILENT, another fail = WRONG
  *    REASON; either exits 1); the correct EN bank is the control. Design §5 P1-P14 +
  *    the base render poisons PR7 PR8 PR9 PR13.
+ * 6. FACES — per face: the emitted spec (layout, band, strings === the bank), an unauthored
+ *    locale and a bank.refuse REFUSE; a 400-seed node sweep (0 position tells: F1 winner side,
+ *    F2 derangement, F3 answer slot, F4 job order, F5 decoy position; the draw locale-neutral);
+ *    d2 en + the worst chrome (fi 4-line title) render verify/lint clean and every apparatus
+ *    word of the instruction is drawn on the page; a render sweep of distinct pages. Poisons:
+ *    PR1-PR6 PR10-PR12 (design §5), PS-<face> (SPARSE, the stage pushed off the top), PA1/PA2
+ *    (an instruction naming apparatus the face does not draw), P15 (corn allows flower).
  */
 'use strict';
 const path = require('path');
@@ -100,6 +108,7 @@ function validateNeutral(N) {
     if (it.part === 'root' && (it.allow || []).some((a) => a === 'leaf' || a === 'stem')) push(`${what}: a root item allows leaf/stem (leafy tops shown; rule 4)`);
     if (it.part === 'flower' && (it.allow || []).some((a) => a === 'stem' || a === 'leaf')) push(`${what}: a flower item allows stem/leaf (rule 4)`);
     if (['tomato', 'cucumber', 'eggplant', 'pepper'].includes(it.noun) && (it.allow || []).some((a) => a === 'seed' || a === 'flower')) push(`${what}: a fruit item allows seed/flower (rule 4)`);
+    if (it.noun === 'corn' && (it.allow || []).includes('flower')) push(`${what}: allows flower (an ear of corn IS an inflorescence and baby corn is eaten whole; faces build, rule 4)`);
     pic(it.theme, it.noun, what);
   }
   const nouns = N.EAT.map((x) => x.theme + '/' + x.noun);
@@ -259,6 +268,178 @@ function withBlock(block, extra = {}) {
   return { ...TYPE, build({ difficulty }, ctx) { return this._buildWith(block, { ...this.difficulty[difficulty], ...extra }, { locale: 'en' }, ctx); } };
 }
 
+
+/* ================================================================ 6. FACES (Phase 2, 2026-09-23)
+ * The five CODE faces (layout knob) through the real pipeline at d2 en + the worst legal chrome;
+ * verify() re-derives every answer from the stamps (it also measures SPARSE, the per-page position
+ * tells, the floors and the node literal cross-check); this section adds the apparatus-in-instruction
+ * lint, the node tell sweeps, the refusals and the deferred face poisons (PR1-PR6, PR10-PR12) + one
+ * SPARSE poison per face (align-content:end = the stage pushed off the top). */
+const FACE_IDS = { needs: 'K-376', cycle: 'G1-388', eat: 'G2-363', jobs: 'G2-364', flower: 'G3-392' };
+/** Coordinator review (2026-09-23, the nt10-D "a short face grows its elements to fill" rule): F4 + F5 must
+ *  END at >= 85 % of the body at the default chrome and stay inside it at the worst (677) chrome. */
+const FILL_FACES = ['jobs', 'flower'], FILL_MIN = 0.85;
+const FACE_DIR = { needs: 'k', cycle: 'g1', eat: 'g2', jobs: 'g2', flower: 'g3' };
+function loadFace(L) {
+  const fs = require('fs');
+  const dir = path.join(__dirname, '..', 'types', FACE_DIR[L]);
+  const f = fs.readdirSync(dir).find((x) => x.startsWith(FACE_IDS[L] + '-'));
+  if (!f) throw new Error('face spec missing: ' + FACE_IDS[L]);
+  return require(path.join(dir, f));
+}
+/**
+ * Apparatus-in-instruction (nt10-E addition 4): every apparatus noun the EN instruction names must be
+ * PRESENT on that face's page. Each entry = [the word, the selector that proves the thing is drawn].
+ */
+const APPARATUS_EN = [
+  [/(?<!\p{L})tags?(?!\p{L})/iu, 'g[data-lcs-tag]'],
+  [/word bank|(?<!\p{L})bank(?!\p{L})/iu, '[data-lcs-bank-banner]'],
+  [/(?<!\p{L})lines?(?!\p{L})/iu, 'svg[data-lcs-prim="writing-row"]'],
+  [/(?<!\p{L})box(es)?(?!\p{L})/iu, '.ws-blankbox, [data-lcs-slot]'],
+  [/(?<!\p{L})arrows?(?!\p{L})/iu, '[data-lcs-arrow], [data-lcs-gift-arrow]'],
+  [/(?<!\p{L})pots?(?!\p{L})/iu, '[data-lcs-pot]'],
+  [/(?<!\p{L})pictures?(?!\p{L})/iu, '[data-lcs-cut-card], img'],
+  [/(?<!\p{L})food(s)?(?!\p{L})/iu, '[data-lcs-food]'],
+  [/(?<!\p{L})cut(?!\p{L})/iu, '[data-lcs-cutlines]'],
+  [/(?<!\p{L})glue(?!\p{L})/iu, '[data-lcs-slot]'],
+  [/(?<!\p{L})words?(?!\p{L})/iu, '[data-lcs-bank-banner], [data-lcs-chip-text]'],
+  // "the part of the plant that we eat" (F3): the plant is present as its drawn PART icons on the chips
+  [/(?<!\p{L})plants?(?!\p{L})/iu, 'svg[data-lcs-plant], svg[data-lcs-figure^="plant-"], svg[data-lcs-part-icon]'],
+  [/(?<!\p{L})flowers?(?!\p{L})/iu, 'svg[data-lcs-figure="flower"], svg[data-lcs-plant] g[data-lcs-part="flower"]'],
+  [/(?<!\p{L})seeds?(?!\p{L})/iu, '[data-lcs-seed], [data-lcs-seed-coat]'],
+  [/(?<!\p{L})numbers?(?!\p{L})|numbered/iu, 'g[data-lcs-tag], [data-lcs-row-badge]'],
+];
+async function apparatusFindings(page) {
+  return page.evaluate((rules) => {
+    const out = [];
+    const ins = document.querySelector('.ws-instruction');
+    const text = ins ? ins.textContent.replace(/\s+/g, ' ').trim() : '';
+    for (const [src, flags, sel] of rules) {
+      const re = new RegExp(src, flags);
+      if (re.test(text) && !document.querySelector('[data-ws-content] ' + sel.split(', ').join(', [data-ws-content] '))) out.push(`the instruction names "${text.match(re)[0]}" but the page draws no ${sel}`);
+    }
+    return out;
+  }, APPARATUS_EN.map(([re, sel]) => [re.source, re.flags, sel]));
+}
+
+async function faceSection(page, judge, log, quick, banks) {
+  const N = bankMod.PLANTS_NEUTRAL;
+  const FACES = {};
+  for (const L of LAYOUTS) FACES[L] = loadFace(L);
+  // the emitted specs: id, band, knob, strings === the bank's
+  for (const L of LAYOUTS) {
+    const F = FACES[L];
+    ok(F.difficulty[2].layout === L, `${FACE_IDS[L]}: difficulty.layout ${F.difficulty[2].layout} ≠ ${L}`);
+    ok(F.gradeBand === BAND[L], `${FACE_IDS[L]}: gradeBand ${F.gradeBand} ≠ ${BAND[L]}`);
+    ok(F.i18n.en.title === banks.en.strings[L].title && F.i18n.en.instruction === banks.en.strings[L].instruction, `${FACE_IDS[L]}: i18n.en ≠ PLANTS.en.strings.${L}`);
+    ok(F.exerciseType === 'plants' && F.themeAxis.applicable === false, `${FACE_IDS[L]}: exerciseType / themeAxis`);
+    // an unauthored locale refuses; a bank.refuse of this face refuses
+    let m = null; try { F.build({ difficulty: 2, locale: 'sv' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } ok(m && /no sv block|refuse/.test(m), `${FACE_IDS[L]}: an unauthored sv REFUSES (got ${m})`);
+    m = null; try { F._buildWith({ ...banks.en, refuse: [L] }, F.difficulty[2], { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } ok(m && /refuses the/.test(m), `${FACE_IDS[L]}: bank.refuse [${L}] must REFUSE (got ${m})`);
+  }
+  // node sweeps over 400 seeds: no tell on ANY seed, and the draw is locale-neutral
+  {
+    const synth = { ...banks.en, partWords: { root: 'Wurzeln', stem: 'Stängel', leaf: 'Blatt', flower: 'Blüte', fruit: 'Frucht', seed: 'Samen' },
+      flowerWords: { petal: 'Kronblatt', sepal: 'Kelchblatt', stamen: 'Staubblatt', pistil: 'Stempel', stalk: 'Stiel' },
+      jobs: { root: 'nimmt Wasser aus der Erde auf', stem: 'hält die Pflanze aufrecht', leaf: 'macht mit Sonnenlicht Nahrung', flower: 'lockt mit bunten Farben Bienen an', seed: 'kann zu einer neuen Pflanze wachsen' }, partStems: ['Pflanzenteil'] };
+    const tells = { needs: 0, cycle: 0, eat: 0, jobs: 0, flower: 0 }, neutral = { ...tells };
+    const seenCorn = new Set();
+    for (let s = 1; s <= 400; s++) {
+      for (const L of LAYOUTS) {
+        const F = FACES[L], rng = () => makeRng(`${FACE_IDS[L]}-sweep-${s}`);
+        const a = F._buildWith(banks.en, F.difficulty[2], { locale: 'en' }, { rng: rng() });
+        const b = F._buildWith(synth, F.difficulty[2], { locale: 'de' }, { rng: rng() });
+        const strip = (h) => h.replace(/data-lcs-locale="\w+"/, '').replace(/>[^<]*</g, '><');   // words differ, structure must not
+        if (JSON.stringify(a.meta) !== JSON.stringify(b.meta) || (L !== 'flower' && L !== 'eat' && L !== 'jobs' && strip(a.bodyHtml) !== strip(b.bodyHtml))) neutral[L]++;
+        const m = a.meta;
+        if (L === 'needs') { const sd = m.sides; const nl = sd.filter((x) => x === 'L').length; if (Math.abs(2 * nl - sd.length) > 1 || new Set(sd).size < 2 || sd.every((x, i) => !i || x !== sd[i - 1])) tells.needs++; }
+        if (L === 'cycle') { const rest = F.difficulty[2].stages.slice(1); if (m.strip.some((x, i) => x === rest[i]) || m.strip.join() === rest.slice().reverse().join()) tells.cycle++; }
+        if (L === 'eat') { const sl = m.slots, cnt = [0, 0, 0]; sl.forEach((x) => cnt[x]++); if (cnt.some((c) => c < 2 || c > 3) || [1, -1].some((d) => sl.every((x, i) => x === ((sl[0] + d * i) % 3 + 3) % 3))) tells.eat++; for (const it of m.items) if (it === 'corn') seenCorn.add(s); }
+        if (L === 'jobs') { const to = F.difficulty[2].parts.slice().sort((x, y) => m.numbers[x] - m.numbers[y]); if (m.jobs.join() === to.join() || m.jobs.join() === to.slice().reverse().join()) tells.jobs++; }
+        if (L === 'flower') { if (m.bank[0] === 'decoy' || m.bank[m.bank.length - 1] === 'decoy') tells.flower++; }
+      }
+    }
+    for (const L of LAYOUTS) { ok(tells[L] === 0, `node sweep ${L}: ${tells[L]} position tells in 400 seeds`); ok(neutral[L] === 0, `node sweep ${L}: ${neutral[L]} seeds draw differently per locale`); }
+    ok(seenCorn.size > 0, 'node sweep eat: corn never drawn (the seed bucket is not exercised)');
+    console.log(`faces node sweep 400 seeds: tells ${JSON.stringify(tells)} locale-draw diffs ${JSON.stringify(neutral)}`);
+  }
+  // renders: d2 en at the default chrome and the worst legal chrome (fi 4-line title + 3-line instruction)
+  const faceRender = async (L, name, opts = {}) => {
+    const out = await renderInstance({ type: opts.type || FACES[L], theme: null, difficulty: 2, locale: 'en', page, outDir: OUT, baseName: `G1-376-gate-face-${name}`, strings: opts.strings, seedEpoch: opts.seedEpoch });
+    const app = await apparatusFindings(page);
+    const body = await page.evaluate(() => { const b = document.querySelector('.ws-body'); return b ? b.getBoundingClientRect().height : 0; });
+    // FILL: the lowest DRAWN thing (cards + the figure's own part groups, never an svg box) as a share of the body
+    const fill = await page.evaluate(() => {
+      const b = document.querySelector('.ws-body').getBoundingClientRect(), foot = document.querySelector('.ws-foot');
+      const els = [...document.querySelectorAll('[data-ws-content] [data-lcs-fill], [data-ws-content] svg g[data-lcs-part], [data-ws-content] [data-lcs-block]:not([data-lcs-plant-stage]):not([data-lcs-flower-stage])')];
+      const low = Math.max(...els.map((e) => e.getBoundingClientRect().bottom));
+      return { share: (low - b.top) / b.height, low, bodyBottom: b.bottom, foot: foot ? foot.getBoundingClientRect().top : Infinity };
+    });
+    const fillF = [];
+    if (FILL_FACES.includes(L)) {
+      if (fill.share < FILL_MIN) fillF.push(`FILL — the content ends at ${(fill.share * 100).toFixed(0)} % of the body (< ${FILL_MIN * 100} %: a short face floats a small stage)`);
+      if (fill.low > fill.bodyBottom + 0.6 || fill.low > fill.foot + 0.6) fillF.push(`FILL overflow — the content ends ${(fill.low - fill.bodyBottom).toFixed(0)} px past the body`);
+    }
+    return { verify: out.qa.verify, lints: out.qa.lints, app, body, fill, fillF };
+  };
+  for (const L of LAYOUTS) {
+    const r = await faceRender(L, `${L}-d2`);
+    ok(!r.verify.length && !r.lints.length && !r.app.length && !r.fillF.length, `${FACE_IDS[L]} d2: verify ${JSON.stringify(r.verify.slice(0, 3))} lints ${r.lints.length} apparatus ${JSON.stringify(r.app)} fill ${JSON.stringify(r.fillF)}`);
+    const w = await faceRender(L, `${L}-d2-worstchrome`, { strings: { ...LONG.fi, instruction: LONG.fi.instruction } });
+    ok(!w.verify.length && !w.lints.length && !w.fillF.length, `${FACE_IDS[L]} worst chrome: verify ${JSON.stringify(w.verify.slice(0, 3))} lints ${JSON.stringify(w.lints.slice(0, 2))} fill ${JSON.stringify(w.fillF)}`);
+    ok(w.body <= 677.6, `${FACE_IDS[L]} worst chrome: body ${w.body.toFixed(0)} — the fixture did not squeeze to <= 677`);
+    console.log(`face ${FACE_IDS[L]} (${L}): d2 body ${r.body.toFixed(0)} fill ${(r.fill.share * 100).toFixed(0)} % verify ${r.verify.length} lints ${r.lints.length} apparatus ${r.app.length} · worst chrome body ${w.body.toFixed(0)} fill ${(w.fill.share * 100).toFixed(0)} % verify ${w.verify.length} lints ${w.lints.length}`);
+    const pages = new Set();
+    const n = quick ? 3 : 8;
+    for (let s = 1; s <= n; s++) {
+      const q = await faceRender(L, `${L}-sweep-${s}`, { seedEpoch: s });
+      ok(!q.verify.length && !q.lints.length, `${FACE_IDS[L]} sweep ${s}: ${JSON.stringify(q.verify.slice(0, 2))}`);
+      pages.add(await page.evaluate(() => document.querySelector('[data-lcs-type="plants"]').innerHTML.length + ':' + [...document.querySelectorAll('[data-lcs-gifts],[data-lcs-cut-card],[data-lcs-food],[data-lcs-job],[data-lcs-bank]')].map((e) => e.getAttribute('data-lcs-gifts') || e.getAttribute('data-lcs-stage') || e.getAttribute('data-lcs-food') || e.getAttribute('data-lcs-job') || e.getAttribute('data-lcs-bank')).join()));
+    }
+    // F2's only free draw is the strip order: 4 cards have 9 derangements, one of them the reverse ->
+    // exactly 8 legal pages, so a seed sweep must COLLIDE; assert it varies, not that it never repeats.
+    const want = L === 'cycle' ? Math.min(n, 2) : n;
+    ok(pages.size >= want, `${FACE_IDS[L]} sweep: ${pages.size} distinct pages of ${n} (want >= ${want})`);
+  }
+
+  // poisons — the deferred face poisons of §5 + per-face SPARSE + apparatus + data
+  const fp = async (name, L, patch, re, opts = {}) => {
+    const F = FACES[L];
+    const t = { ...F, build(o, ctx) { const d = { ...F.difficulty[o.difficulty], ...(patch.config || {}) }; const r = F._buildWith(bankMod.PLANTS.en, d, { locale: 'en' }, ctx); if (patch.html) r.bodyHtml = patch.html(r.bodyHtml); return r; } };
+    const r = await faceRender(L, 'poison-' + name.split(' ')[0], { type: t, strings: opts.strings });
+    judge(name, [...r.verify, ...r.lints.map((l) => JSON.stringify(l)), ...r.app, ...r.fillF], re);
+  };
+  await fp('PR1 two winners in a row', 'needs', { config: { forceGrows: true } }, /one winner per row/);
+  await fp('PR2 alternating winner side', 'needs', { config: { forceSides: ['L', 'R', 'L', 'R', 'L'] } }, /alternating tell/);
+  await fp('PR3 strip = slot order', 'cycle', { config: { forceStrip: ['sprout', 'seedling', 'flowering', 'fruiting'] } }, /not a derangement/);
+  await fp('PR4 return arrow removed', 'cycle', { config: { dropReturn: true } }, /cycle not closed/);
+  await fp('PR5 answer staircase', 'eat', { config: { forceSlots: [0, 1, 2, 0, 1, 2, 0, 1] } }, /staircase \(slot tell\)/);
+  await fp('PR6 food caption printed', 'eat', { config: { forceCaption: true } }, /food name in body/);
+  await fp('PR10 part word in a job', 'jobs', { config: { forceLeak: 'the roots' } }, /job \w+ leak: .* names the part word/);
+  await fp('PR11 decoy first in the bank', 'flower', { config: { forceBank: ['decoy', 'petal', 'sepal', 'stamen', 'pistil', 'stalk'] } }, /decoy position tell/);
+  await fp('PR12 answerBox on the jobs face', 'jobs', { config: { forceAnswerBox: true } }, /data-lcs-answer="undefined"/);
+  for (const L of LAYOUTS) {
+    // F4/F5 FILL their body (a 1fr row), so the pushed-off-the-top poison must first undo the growth
+    const sparse = (h) => (FILL_FACES.includes(L) ? h.replace(/minmax\((\d+)px,1fr\)/, '$1px') : h).replace('align-content:start', 'align-content:end');
+    await fp(`PS-${L} stage pushed off the top (sparse)`, L, { html: sparse }, /SPARSE — \d+ px blank band/);
+  }
+  // FILL, poisoned BOTH ways: (a) the pre-review fixed stage (no growth) floats at the default chrome;
+  // (b) a stage forced taller than the worst body runs past it at the 677 chrome
+  const noGrow = (h) => h.replace(/minmax\((\d+)px,1fr\)/, '$1px').replace(/;height:100%">/g, '">');
+  await fp('PF-jobs fixed stage (under-fill)', 'jobs', { html: noGrow }, /FILL — the content ends at \d+ %/);
+  await fp('PF-flower fixed stage (under-fill)', 'flower', { html: (h) => h.replace(/minmax\((\d+)px,1fr\)/, '$1px') }, /FILL — the content ends at \d+ %/);
+  // (jobs has no bank: its whole body is the row, so it needs a row > 667 to overflow; flower's row sits under a 69 px bank)
+  await fp('PO-jobs stage past the 677 body', 'jobs', { html: (h) => h.replace(/minmax\((\d+)px,1fr\)/, 'minmax(700px,1fr)') }, /FILL overflow|reaches the footer/, { strings: LONG.fi });
+  await fp('PO-flower stage past the 677 body', 'flower', { html: (h) => h.replace(/minmax\((\d+)px,1fr\)/, 'minmax(640px,1fr)') }, /FILL overflow|reaches the footer/, { strings: LONG.fi });
+  // apparatus: an instruction that names a thing this face does not draw
+  await fp('PA1 needs names a word bank + lines', 'needs', {}, /the instruction names "(word|line)/i, { strings: { title: 'What Plants Need to Grow', instruction: 'Write the word from the word bank on the line.' } });
+  await fp('PA2 jobs names the word bank', 'jobs', {}, /the instruction names "(word bank|bank)"/i, { strings: { title: 'Parts of a Plant and Their Functions', instruction: 'Choose a name from the word bank for each job.' } });
+  log.push(`  PA control: every shipped face instruction names only its own apparatus (asserted above)`);
+  // data: corn never allows flower (an ear of corn IS an inflorescence)
+  const n = JSON.parse(JSON.stringify(N)); n.EAT.find((x) => x.noun === 'corn').allow.push('flower');
+  judge('P15 corn allows flower', validateNeutral(n), /corn: allows flower/);
+}
+
 async function main() {
   const quick = process.argv.includes('--quick');
   const banks = bankMod.PLANTS;
@@ -383,6 +564,8 @@ async function main() {
       const wide = { ...banks.en, partWords: { root: 'Wurzelwerkteile', stem: 'Stängelabschnitt', leaf: 'Laubblattfläche', flower: 'Blütenköpfchen', fruit: 'Fruchtkapselhülle', seed: 'Samenkörnchen' } };
       await rp('PR13 two-row bank', withBlock(wide), /word bank wraps|footer|reaches the footer|overflow/i, { strings: LONG.fi });
     }
+    // 6. faces
+    await faceSection(page, judge, log, quick, banks);
   } finally { await browser.close(); }
 
   console.log('poison:\n' + log.join('\n'));

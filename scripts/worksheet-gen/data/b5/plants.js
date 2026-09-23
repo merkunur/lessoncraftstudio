@@ -92,7 +92,8 @@ const PLANTS_NEUTRAL = {
     { theme: 'vegetables', noun: 'broccoli', part: 'flower', allow: ['root', 'fruit', 'seed'], picOpened: true },
     { theme: 'vegetables', noun: 'cauliflower', part: 'flower', allow: ['root', 'fruit', 'seed'], picOpened: true },
     { theme: 'vegetables', noun: 'celery', part: 'stem', allow: ['root', 'flower', 'fruit', 'seed'], picOpened: true },
-    { theme: 'vegetables', noun: 'corn', part: 'seed', allow: ['root', 'stem', 'flower'], picOpened: true },
+    { theme: 'vegetables', noun: 'corn', part: 'seed', allow: ['root', 'stem'], picOpened: true },   // flower OUT (faces build, opened): an ear of corn IS an inflorescence and baby corn is eaten whole as one
+
     { theme: 'At the Supermarket', noun: 'peas', part: 'seed', allow: ['root', 'stem', 'flower'], picOpened: true },
     { theme: 'vegetables', noun: 'tomato', part: 'fruit', allow: ['root', 'leaf', 'stem'], picOpened: true },
     { theme: 'vegetables', noun: 'cucumber', part: 'fruit', allow: ['root', 'leaf', 'stem'], picOpened: true },

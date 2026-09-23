@@ -28,7 +28,6 @@ const { EARTH_LAND } = require('./sky-bodies.js');
 const C = T.color;
 const IDS = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune'];
 const R = 30;
-let _n = 0;
 
 const disc = (fill) => el('circle', { cx: 50, cy: 50, r: R, fill, 'data-lcs-part': 'disc' });
 const outline = () => el('circle', { cx: 50, cy: 50, r: R, fill: 'none', stroke: C.ink, 'stroke-width': 2, 'data-lcs-part': 'outline' });
@@ -65,7 +64,7 @@ function recipe(id, cid) {
 function planetGlyph({ id, box = 64 } = {}) {
   if (!IDS.includes(id)) throw new Error(`planets: unknown planet "${id}"`);
   if (!(box >= 56)) throw new Error(`planets: box ${box} < 56`);
-  const cid = 'es-planet-clip-' + (++_n);
+  const cid = 'es-planet-clip';   // deterministic: every planet clips to the same circle
   const svg = svgRoot({ width: box, height: box, viewBox: '0 0 100 100', label: '' }, [clipDefs(cid), ...recipe(id, cid)], { 'data-lcs-planet': id, 'data-lcs-sig': SIG[id] });
   return { svg, width: box, height: box, sig: SIG[id] };
 }

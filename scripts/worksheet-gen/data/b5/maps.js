@@ -73,7 +73,7 @@ const MAPS_LOC = {
         instruction: 'Each thing is drawn from the side. Draw a line to the same thing seen from above.',
       },
       'compass-rose': {
-        title: 'Compass Rose: North, East, South, West',
+        title: 'North, East, South, West: Finish the Rose',
         instruction: 'Each compass rose shows one letter. Write the other three letters in the empty boxes.',
       },
       continents: {

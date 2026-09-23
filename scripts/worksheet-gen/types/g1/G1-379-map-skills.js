@@ -68,6 +68,50 @@ function literal(obj, key, what, loc) {
   return v;
 }
 
+/* ------------------------------------------------------------ face helpers (Phase E) */
+const TSV = require('../../primitives/top-side-view.js');
+const CR = require('../../primitives/compass-rose.js');
+const WM = require('../../primitives/world-map.js');
+const MS = require('../../primitives/map-symbol.js');
+const { WORLD_MAP: WM_DATA } = require('../../data/b5/world-map.js');
+/** F1 d1 scaffold pool leaves out the two hardest reads (chair, bucket) */
+const TOPVIEW_HARD = ['chair', 'bucket'];
+const DIR_VEC = { n: [0, -1], e: [1, 0], s: [0, 1], w: [-1, 0] };
+const PLACES = ['house', 'tree', 'bush', 'pond', 'bench', 'tent', 'flowerBed'];
+const WORLD_W = 635;          // the map inside its 2 px card frame: 635 + 2 x 2 = 639
+const TARGET_STACK = 700;     // FILL: the stack with every band at its 36 px cap reaches >= 85 % of an 814 body
+const GAP_CAP = 36;
+
+const countBy = (arr, f) => arr.reduce((o, x) => { const k = f(x); o[k] = (o[k] || 0) + 1; return o; }, {});
+/** b is a cyclic shift of a by k (1..n-1) — a constant-offset order is a position tell */
+function isRotation(a, b) { const n = a.length; for (let k = 1; k < n; k++) if (a.every((x, i) => b[(i + k) % n] === x)) return true; return false; }
+/** seq repeats with some period p < n (a periodic sequence is a tell) */
+function isPeriodic(seq) { const n = seq.length; for (let p = 1; p <= Math.floor(n / 2); p++) if (seq.every((x, i) => i + p >= n || seq[i + p] === x)) return true; return false; }
+/** the angle (deg, 0..180) between the bearing a -> b and direction d (y DOWN, north = up) */
+function bearingOff(a, b, d) {
+  const v = [b[0] - a[0], b[1] - a[1]], u = DIR_VEC[d];
+  const c = (v[0] * u[0] + v[1] * u[1]) / Math.hypot(v[0], v[1]);
+  return Math.acos(Math.max(-1, Math.min(1, c))) * 180 / Math.PI;
+}
+/** F1 family limits (pedagogy): <= 2 per class; never cup + bucket, never rectTable + bed */
+function topViewLimits(models) {
+  const f = [];
+  const c = countBy(models, (k) => MAPS.TOPSIDE[k].cls);
+  for (const [k, n] of Object.entries(c)) if (n > 2) f.push(`${n} ${k}-class models on one page (<= 2)`);
+  for (const [a, b] of MAPS.TOPSIDE_NEVER_TOGETHER) if (models.includes(a) && models.includes(b)) f.push(`${a} and ${b} on one page (never together)`);
+  return f;
+}
+/** F4: numbering kinds must interleave (never every continent before every ocean or the reverse) */
+function blockyKinds(kinds) { const i = kinds.indexOf('sea'), j = kinds.lastIndexOf('land'), k = kinds.indexOf('land'), l = kinds.lastIndexOf('sea'); return j < i || l < k; }
+/** F3: the word bank's row count, estimated from the names (Nunito 800 17: ~8.9 px a grapheme + 30 px chip
+ *  padding / border, 10 px gaps, 610 px inside the bank; measured on the en chips: Asia 67, Antarctica 115.5, North America 150.7) — 1 row = 59 px, 2 rows = 108 px */
+function bankHeightEst(names) {
+  let rows = 1, x = 0;
+  for (const n of names) { const w = 8.9 * [...n].length + 30; if (x && x + 10 + w > 610) { rows++; x = w; } else x = x ? x + 10 + w : w; }
+  return 59 + (rows - 1) * 49;
+}
+function maxRun(kinds) { let m = 0, r = 0; kinds.forEach((x, i) => { r = i && x === kinds[i - 1] ? r + 1 : 1; m = Math.max(m, r); }); return m; }
+
 const TYPE = {
   id: ID,
   slug: 'map-skills',
@@ -153,7 +197,7 @@ const TYPE = {
     const loc = (locale || 'en').slice(0, 2);
     const rng = ctx && ctx.rng;
     if (!rng) throw new Error(`${ID}: no rng in ctx (a seeded page)`);
-    if (d.layout) throw new Error(`${ID}: layout "${d.layout}" is a Phase-2 face (not built yet)`);
+    if (d.layout) return this._buildFace(bankLoc, d, loc, rng);   // the five faces (Phase E); the base path below is untouched
     // guards on the RESOLVED config
     if (d.island !== IM.ISLE_1.id) throw new Error(`${ID}: unknown island "${d.island}"`);
     if (!(d.symPx >= G1_FLOOR)) throw new Error(`${ID}: symPx ${d.symPx} < the G1 floor ${G1_FLOOR}`);
@@ -188,7 +232,550 @@ const TYPE = {
     return { bodyHtml, meta: { keyOrder: c.keyOrder, asked: c.asked, unasked: c.unasked, counts: c.counts, cards: c.cards, footpaths: c.footpaths, symbols: c.symbols, capacity: c.capacity } };
   },
 
+  /* ================================================================== FACES (Phase E)
+   * Five CODE faces on ONE additive knob `layout` (design §3; record _work/G1-379-faces.md).
+   * Every composer is LOCALE-NEUTRAL (it never reads a word), so a face draws the same page in
+   * all 11 locales — except F3 / F4, whose member SET is locale data (a merged America, no
+   * Antarctica), and whose bank / index order re-draws against the locale's OWN alphabetical
+   * order (the only locale-dependent re-draw; recorded). Guards key on the resolved config. */
+
+  /** F1 — the models and the right column's order. */
+  _composeTopView(d, rng) {
+    const pool = Object.keys(MAPS.TOPSIDE).filter((k) => d.pool !== 'easy' || !TOPVIEW_HARD.includes(k));
+    const want = (d.classMix || []).slice().sort((a, b) => b - a).join();
+    let left = null;
+    for (let t = 0; t < TRIES && !left; t++) {
+      const m = rng.sample(pool, d.pairs);
+      if (topViewLimits(m).length) continue;
+      if (want && Object.values(countBy(m, (k) => MAPS.TOPSIDE[k].cls)).sort((a, b) => b - a).join() !== want) continue;
+      left = m;
+    }
+    if (!left) throw new Error(`${ID}: no F1 model draw meets the class mix ${want}`);
+    let right = null;
+    for (let t = 0; t < TRIES && !right; t++) {
+      const o = rng.shuffle(left);
+      if (o.some((x, i) => x === left[i])) continue;                    // a derangement: no partner level with its own
+      if (o.join() === left.slice().reverse().join()) continue;         // not reversed
+      if (isRotation(left, o)) continue;                                // no constant offset
+      right = o;
+    }
+    if (!right) throw new Error(`${ID}: no F1 right order clears the order rules`);
+    return { left, right };
+  },
+
+  /** F2 — rose rotations by card position and the one given letter per rose. */
+  _composeRoses(d, rng) {
+    const n = d.roses, cols = d.cols;
+    for (let t = 0; t < TRIES; t++) {
+      const rots = rng.shuffle(d.rotations);
+      const up = rots.map((r, i) => (r === 0 ? i : -1)).filter((i) => i >= 0);
+      if (up.length > 1 && new Set(up.map((i) => i % cols)).size < 2) continue;              // never one column
+      if (up.length > 1 && new Set(up.map((i) => Math.floor(i / cols))).size < 2) continue;  // never one row
+      const upGiven = rng.shuffle(d.givenUpright);
+      const turned = n - up.length;
+      const turnedGiven = rng.shuffle(['n', ...rng.sample(MAPS.DIRS.filter((x) => x !== 'n'), turned - 1)]);
+      let a = 0, b = 0;
+      const given = rots.map((r) => (r === 0 ? upGiven[a++] : turnedGiven[b++]));
+      if (isPeriodic(given)) continue;
+      if (new Set(given).size < 4) continue;
+      // the given box's POSITION on the card (up/right/down/left) is never one place on every rose
+      const pos = given.map((g, i) => [0, 1, 2, 3].find((p) => CR.posToDir(p, rots[i]) === g));
+      if (new Set(pos).size < 2) continue;
+      return { rots, given, pos };
+    }
+    throw new Error(`${ID}: no F2 rose layout clears the order rules`);
+  },
+
+  /** F3 / F4 — the seed's ONE permutation of the ids; a member's rank = its FIRST region's rank. */
+  _numbering(set, oceans, rng) {
+    const perm = rng.shuffle(oceans.length ? [...MAPS.REGIONS, ...MAPS.OCEAN_IDS] : MAPS.REGIONS);
+    const items = [...set.map((m) => ({ id: m.id, kind: 'land', rank: perm.indexOf(m.regions[0]) })), ...oceans.map((o) => ({ id: o, kind: 'sea', rank: perm.indexOf(o) }))];
+    items.sort((a, b) => a.rank - b.rank);
+    const numbers = {};
+    items.forEach((x, i) => { numbers[x.id] = i + 1; });
+    return { numbers, byNumber: items.map((x) => x.id), kinds: items.map((x) => x.kind) };
+  },
+
+  _composeContinents(d, rng, set, alpha) {
+    const num = this._numbering(set, [], rng);
+    const fwd = num.byNumber.join(), rev = num.byNumber.slice().reverse().join();
+    for (let t = 0; t < TRIES; t++) {
+      const o = rng.shuffle(num.byNumber);
+      if (o.join() === fwd || o.join() === rev || o.join() === alpha.join()) continue;
+      return { ...num, bank: d.forceBank ? d.forceBank.slice() : o };
+    }
+    throw new Error(`${ID}: no F3 bank order clears the order rules`);
+  },
+
+  _composeAtlas(d, rng, set, oceans, alpha) {
+    let num = null;
+    for (let t = 0; t < TRIES && !num; t++) { const x = this._numbering(set, oceans, rng); if (!blockyKinds(x.kinds)) num = x; }
+    if (!num) throw new Error(`${ID}: no F4 numbering interleaves land and sea`);
+    const kindOf = Object.fromEntries(num.byNumber.map((id, i) => [id, num.kinds[i]]));
+    for (let t = 0; t < TRIES; t++) {
+      const o = rng.shuffle(num.byNumber);
+      if (maxRun(o.map((id) => kindOf[id])) > d.runMax) continue;
+      if (o.join() === num.byNumber.join() || o.join() === alpha.join()) continue;
+      return { ...num, kindOf, index: d.forceIndex ? d.forceIndex.slice() : o };
+    }
+    throw new Error(`${ID}: no F4 index order clears the order rules`);
+  },
+
+  /** F5 — 7 places on island slots >= minApartPx pairwise, then 6 rows (6 distinct starts, all 4 directions). */
+  _composeDirections(d, rng) {
+    const key = IM.slotKey(d.symPx, d.islandW);
+    const slots = IM.ISLE_1.slots[key] && IM.ISLE_1.slots[key].none;
+    if (!slots) throw new Error(`${ID}: no committed slots ${key}/none`);
+    const minU = d.minApartPx / (d.islandW / IM.ISLE_1.view.w);
+    for (let t = 0; t < 4000; t++) {
+      const picked = [];
+      for (const s of rng.shuffle(slots)) { if (picked.every((p) => Math.hypot(p[0] - s[0], p[1] - s[1]) >= minU)) picked.push(s); if (picked.length === d.places) break; }
+      if (picked.length < d.places) continue;
+      const ids = rng.shuffle(PLACES).slice(0, d.places);
+      const at = Object.fromEntries(ids.map((id, i) => [id, picked[i]]));
+      // every legal (direction, correct place, wrong places) per start
+      const opts = {};
+      for (const X of ids) {
+        opts[X] = [];
+        for (const dir of MAPS.DIRS) {
+          const others = ids.filter((y) => y !== X);
+          const ins = others.filter((y) => bearingOff(at[X], at[y], dir) <= d.inDeg);
+          const outs = others.filter((y) => bearingOff(at[X], at[y], dir) >= d.outDeg);
+          if (ins.length && outs.length >= d.chips - 1) opts[X].push({ dir, ins, outs });
+        }
+      }
+      const starts = rng.shuffle(ids.filter((X) => opts[X].length));
+      if (starts.length < d.rows) continue;
+      const use = starts.slice(0, d.rows);
+      // directions: every start one of its legal directions, all four covered (seeded backtracking)
+      const choice = [];
+      const pickDirs = (i, seen) => {
+        if (i === use.length) return seen.size === 4;
+        for (const o of rng.shuffle(opts[use[i]])) { choice[i] = o; const s2 = new Set(seen); s2.add(o.dir); if (s2.size + (use.length - i - 1) >= 4 && pickDirs(i + 1, s2)) return true; }
+        return false;
+      };
+      if (!pickDirs(0, new Set())) continue;
+      // chips: the correct place + (chips-1) wrong ones (one of them opposite-ish when the layout allows); never tree + bush together
+      const rows = [];
+      let bad = false;
+      for (let i = 0; i < use.length && !bad; i++) {
+        const { dir, ins, outs } = choice[i];
+        let row = null;
+        for (let k = 0; k < 60 && !row; k++) {
+          const y = rng.pick(ins);
+          const far = outs.filter((z) => bearingOff(at[use[i]], at[z], dir) >= 135);
+          const first = far.length ? [rng.pick(far)] : [];
+          const wrong = [...first, ...rng.sample(outs.filter((z) => !first.includes(z)), d.chips - 1 - first.length)];
+          const chips = [y, ...wrong];
+          if (chips.includes('tree') && chips.includes('bush')) continue;
+          row = { start: use[i], dir, answer: y, wrong };
+        }
+        if (!row) bad = true; else rows.push(row);
+      }
+      if (bad) continue;
+      // the correct chip's position: every position used, the sequence not periodic
+      let pos = null;
+      for (let k = 0; k < 200 && !pos; k++) { const p = rows.map(() => rng.int(0, d.chips - 1)); if (new Set(p).size === d.chips && !isPeriodic(p)) pos = p; }
+      if (!pos) continue;
+      for (let i = 0; i < rows.length; i++) { const w = rng.shuffle(rows[i].wrong); w.splice(pos[i], 0, rows[i].answer); rows[i].chips = w; }
+      return { places: ids.map((id) => ({ id, x: at[id][0], y: at[id][1] })), at, rows, pos };
+    }
+    throw new Error(`${ID}: no F5 island draw meets the single-answer construction`);
+  },
+
+  /** A face over an injected bank + resolved config. */
+  _buildFace(bankLoc, d, loc, rng) {
+    const L = d.layout;
+    if (!MAPS.LAYOUTS.includes(L)) throw new Error(`${ID}: unknown layout "${L}"`);
+    if (Array.isArray(bankLoc && bankLoc.refuse) && bankLoc.refuse.includes(L)) throw new Error(`${ID}: ${loc} refuses the ${L} face (bank.refuse)`);
+    const js = (o) => JSON.stringify(o).replace(/'/g, '&#39;');
+    const letters = () => Object.fromEntries(MAPS.DIRS.map((x) => [x, literal(bankLoc.dirLetters, x, 'dirLetters', loc)]));
+    const blocks = [];
+    let stamps = {}, meta = {}, gapMin = 8;
+    if (L === 'top-view') {
+      if (!(d.box >= 84)) throw new Error(`${ID}: F1 box ${d.box} < 84 (the K floor puts every view's larger side >= 56)`);
+      const c = d.forceModels ? { left: d.forceModels.slice(), right: d.forceRight.slice() } : this._composeTopView(d, rng);
+      blocks.push(C5.viewHeads({ w: d.rowW, itemW: d.itemW, tileW: d.tileW }));
+      c.left.forEach((m, i) => {
+        const s = TSV.topSideView({ model: m, view: 'side', box: d.box });
+        const tp = TSV.topSideView({ model: c.right[i], view: 'top', box: d.box });
+        blocks.push(C5.viewPair({ leftModel: m, rightModel: c.right[i], side: { svg: s.svg, x0: s.meta.x0, w: s.meta.w }, top: tp.svg, box: d.box, itemW: d.itemW, tileW: d.tileW, rowH: d.rowH, w: d.rowW }));
+      });
+      stamps = { left: c.left, right: c.right, box: d.box };
+      meta = c;
+    } else if (L === 'compass-rose') {
+      if (!(d.px >= 180)) throw new Error(`${ID}: F2 rose px ${d.px} < 180`);
+      const c = d.forceRoses ? JSON.parse(JSON.stringify(d.forceRoses)) : this._composeRoses(d, rng);   // forceRoses: the GATE's poison seam
+      const lt = letters();
+      const cards = c.rots.map((r, i) => C5.roseCard({ i, w: d.cardW, h: d.cardH, rose: CR.compassRose({ px: d.px, rotation: r, given: c.given[i], letters: lt }).svg }));
+      for (let i = 0; i < cards.length; i += d.cols) blocks.push(C5.roseRow({ cards: cards.slice(i, i + d.cols) }));
+      stamps = { rots: c.rots, given: c.given, 'rot-set': d.rotations, cols: d.cols };
+      meta = c;
+    } else if (L === 'continents' || L === 'continents-oceans') {
+      const set = bankLoc.continentSet;
+      if (!Array.isArray(set) || set.length < 5 || set.length > 7) throw new Error(`${ID}: ${loc} has no continentSet of 5..7 (refuse)`);
+      const names = Object.fromEntries(set.map((m) => [m.id, literal(bankLoc.continentNames, m.id, 'continentNames', loc)]));
+      const oceans = L === 'continents-oceans' ? (bankLoc.oceanSet || []) : [];
+      if (L === 'continents-oceans') {
+        if (oceans.length < 3 || oceans.length > 5 || !oceans.includes('pacific')) throw new Error(`${ID}: ${loc} oceanSet [${oceans}] is not 3..5 with the Pacific (refuse)`);
+        for (const o of oceans) names[o] = literal(bankLoc.oceanNames, o, 'oceanNames', loc);
+      }
+      const coll = new Intl.Collator(loc);
+      const ids = [...set.map((m) => m.id), ...oceans];
+      const alpha = ids.slice().sort((a, b) => coll.compare(names[a], names[b]));
+      const c = L === 'continents' ? this._composeContinents(d, rng, set, alpha) : this._composeAtlas(d, rng, set, oceans, alpha);
+      const map = WM.worldMap({ w: WORLD_W, set, oceans, numbers: c.numbers });
+      const mapH = map.height + 4;
+      blocks.push(C5.worldMapCard({ map: map.svg }));
+      if (L === 'continents') {
+        const rows = Math.ceil(set.length / d.perRow);
+        const bankH = bankHeightEst(set.map((m) => names[m.id]));
+        const laneH = Math.max(d.laneH, Math.ceil((TARGET_STACK - mapH - bankH - GAP_CAP * (rows + 1)) / rows));
+        const glyphH = Math.round(d.glyphH * laneH / d.laneH);
+        blocks.push(C5.nameBank({ names: c.bank.map((id) => ({ id, name: names[id] })) }));
+        const lanes = c.byNumber.map((id, i) => C5.nameLane({ n: i + 1, answer: id, laneW: d.laneW, laneH, glyphH }));
+        for (let i = 0; i < lanes.length; i += d.perRow) blocks.push(C5.laneRow({ lanes: lanes.slice(i, i + d.perRow) }));
+        stamps = { numbers: c.numbers, bank: c.bank, alpha, 'lane-h': laneH, 'glyph-h': glyphH, regions: Object.fromEntries(set.map((m) => [m.id, m.regions])) };
+      } else {
+        // a small locale set (<= narrowMax entries: 5 continents + 3 oceans) takes 2 wider columns, so its rows stay
+        // near the 56 px entry instead of stretching to ~104 px to FILL the page (measured on the 8-entry shape)
+        const cols = ids.length <= d.index.narrowMax ? 2 : d.index.cols;
+        const nameW = cols === 2 ? d.index.nameW2 : d.index.nameW;
+        const rows = Math.ceil(ids.length / cols);
+        const rowH = Math.max(d.index.rowH, Math.ceil((TARGET_STACK - mapH - GAP_CAP * rows) / rows));
+        const entries = c.index.map((id) => ({ id, name: names[id], n: c.numbers[id], kind: c.kindOf[id] }));
+        for (let i = 0; i < entries.length; i += cols) blocks.push(C5.atlasRow({ entries: entries.slice(i, i + cols), nameW, box: d.index.box, rowH, gap: cols === 2 ? 31 : 13.5 }));
+        stamps = { numbers: c.numbers, index: c.index, alpha, kinds: c.kindOf, 'row-h': rowH, regions: Object.fromEntries(set.map((m) => [m.id, m.regions])), oceans };
+      }
+      meta = { ...c, names, alpha, antarctica: set.some((m) => m.regions.includes('antarctica')) };
+    } else if (L === 'directions-on-map') {
+      const words = Object.fromEntries(MAPS.DIRS.map((x) => [x, literal(bankLoc.dirWords, x, 'dirWords', loc)]));
+      const lt = letters();
+      const c = this._composeDirections(d, rng);
+      if (d.forceRows) c.rows = d.forceRows.map((r) => ({ ...r }));   // the GATE's poison seam
+      const island = IM.islandMap({ w: d.islandW, symbols: c.places, footpaths: [], northArrow: null, symPx: d.symPx });
+      const rose = CR.compassRose({ px: d.rosePx, reference: true, letters: lt });
+      blocks.push(`<div data-lcs-dir-plate style="display:flex;align-items:flex-start;gap:10px;width:639px;flex:0 0 auto">` +
+        `<div class="mp-field" style="line-height:0;outline:2px solid ${require('../../primitives/_tokens.js').color.teal};outline-offset:-2px;border-radius:2px">${island.svg}</div>` +
+        `<div data-lcs-ref-rose style="line-height:0">${rose.svg}</div></div>`);
+      c.rows.forEach((r, i) => blocks.push(C5.directionRow({ n: i + 1, start: r.start, dir: r.dir, answer: r.answer, word: words[r.dir],
+        startSvg: MS.mapSymbol({ id: r.start, px: d.symPx }).svg, chips: r.chips.map((id) => ({ id, svg: MS.mapSymbol({ id, px: d.symPx }).svg })) })));
+      stamps = { 'in-deg': d.inDeg, 'out-deg': d.outDeg, chips: d.chips, pos: c.pos };
+      gapMin = 6;
+      meta = c;
+    }
+    if (d.gapMin != null) gapMin = d.gapMin;
+    const st = Object.entries(stamps).map(([k, v]) => ` data-lcs-${k}='${js(v)}'`).join('');
+    const bodyHtml = `<div data-ws-content data-lcs-type="${KEY}" data-lcs-locale="${loc}" data-lcs-layout="${L}"${st} ` +
+      `style="flex:1;min-height:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-start">` +
+      blocks.join(C5.mpGap({ min: gapMin })) + `</div>`;
+    return { bodyHtml, meta: { layout: L, ...meta } };
+  },
+
+  /** verify() for a face: DOM facts in the page, the rules in node (against the neutral MAPS + the bank). */
+  async _verifyFace(page, layout) {
+    const got = await page.evaluate(async () => {
+      const fails = [], facts = {};
+      /** the INK x/y extents of an svg's own markup, rasterised at 4x (a stroke is ink; a geometry bbox is not) */
+      const rasterInk = async (svg) => {
+        const W = +svg.getAttribute('width'), H = +svg.getAttribute('height'), S = 4;
+        const img = new Image();
+        await new Promise((ok, bad) => { img.onload = ok; img.onerror = bad; img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(new XMLSerializer().serializeToString(svg)); });
+        const c = document.createElement('canvas'); c.width = W * S; c.height = H * S;
+        const g = c.getContext('2d'); g.drawImage(img, 0, 0, W * S, H * S);
+        const d = g.getImageData(0, 0, c.width, c.height).data;
+        let x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity;
+        for (let y = 0; y < c.height; y++) for (let x = 0; x < c.width; x++) if (d[(y * c.width + x) * 4 + 3] > 64) { if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
+        const vb = svg.viewBox && svg.viewBox.baseVal && svg.viewBox.baseVal.width;
+        const k = svg.getScreenCTM().a * (vb ? vb / W : 1);   // rendered px per svg px (a NESTED svg's bounding rect is its ink, not its box)
+        return { w: (x1 - x0 + 1) / S * k, h: (y1 - y0 + 1) / S * k, x0: x0 / S * k, x1: (x1 + 1) / S * k };
+      };
+      const root = document.querySelector('[data-ws-content][data-lcs-type="maps"]');
+      const R = (el) => el.getBoundingClientRect();
+      const J = (k) => { const v = root.getAttribute('data-lcs-' + k); try { return v == null ? null : JSON.parse(v); } catch (e) { return null; } };
+      const L = root.dataset.lcsLayout;
+      facts.loc = root.dataset.lcsLocale; facts.layout = L;
+      if (root.querySelector('img')) fails.push('an <img> on the face (no library picture)');
+      // SPARSE + OVERLAP between consecutive blocks; nothing under the footer
+      const blocks = [...root.children].filter((c) => !c.hasAttribute('data-lcs-gap'));
+      const body = document.querySelector('.ws-body') || root;
+      const bands = [];
+      if (blocks.length) bands.push(R(blocks[0]).top - R(root).top);
+      for (let i = 1; i < blocks.length; i++) {
+        const g = R(blocks[i]).top - R(blocks[i - 1]).bottom;
+        bands.push(g);
+        if (g < -0.5) fails.push(`OVERLAP — block ${i} rides ${(-g).toFixed(1)} px into block ${i - 1}`);
+      }
+      bands.forEach((g, i) => { if (g > 40) fails.push(`SPARSE — ${g.toFixed(0)} px blank band before block ${i} (> 40)`); });
+      facts.bands = bands;
+      const last = blocks[blocks.length - 1];
+      facts.fill = last ? (R(last).bottom - R(body).top) / R(body).height : 0;
+      const foot = document.querySelector('.ws-foot');
+      if (foot && last && R(last).bottom > R(foot).top + 0.6) fails.push('the face reaches the footer');
+      if (last && R(last).bottom > R(body).bottom + 0.6) fails.push('the face overflows the body');
+      if (root.scrollWidth > root.clientWidth + 0.6) fails.push('the body overflows horizontally');
+
+      if (L === 'top-view') {
+        const side = [...root.querySelectorAll('[data-lcs-item="side"]')], top = [...root.querySelectorAll('[data-lcs-item="top"]')];
+        facts.left = side.map((e) => e.dataset.lcsModel); facts.right = top.map((e) => e.dataset.lcsModel);
+        const sl = J('left'), sr = J('right');
+        if (!sl || facts.left.join() !== sl.join() || !sr || facts.right.join() !== sr.join()) fails.push('the drawn columns ≠ the stamped left / right orders');
+        facts.ext = {};
+        for (const [items, view] of [[side, 'side'], [top, 'top']]) for (const it of items) {
+          const svg = it.querySelector('svg[data-lcs-prim="top-side-view"]');
+          if (!svg) { fails.push(`${view} item ${it.dataset.lcsModel} has no view`); continue; }
+          if (svg.dataset.lcsModel !== it.dataset.lcsModel || svg.dataset.lcsView !== view) fails.push(`${view} item ${it.dataset.lcsModel} draws ${svg.dataset.lcsModel}/${svg.dataset.lcsView}`);
+          if (svg.querySelector('text')) fails.push(`a <text> in the ${view} view of ${it.dataset.lcsModel}`);
+          const ib = await rasterInk(svg), px = +svg.getAttribute('width');
+          const k = svg.getScreenCTM().a;   // px per unit (the primitive's viewBox is its own px box)
+          (facts.ext[it.dataset.lcsModel] = facts.ext[it.dataset.lcsModel] || {})[view] = { w: ib.w, h: ib.h, x0: ib.x0, x1: ib.x1, scale: +svg.dataset.lcsScale * k };
+          if (Math.max(ib.w, ib.h) < 56) fails.push(`the ${view} view of ${it.dataset.lcsModel} is ${Math.max(ib.w, ib.h).toFixed(0)} px (< the K floor 56)`);
+          const ir = R(it); if (ir.width < 99.5 || ir.height < 99.5) fails.push(`${view} item ${it.dataset.lcsModel} is ${ir.width.toFixed(0)} x ${ir.height.toFixed(0)} (< 100)`);
+          if (view === 'side' && !it.querySelector('[data-lcs-ground]')) fails.push(`the side view of ${it.dataset.lcsModel} has no ground line`);
+        }
+        const stray = [...root.querySelectorAll('line, polyline')].filter((x) => !x.closest('[data-lcs-item], [data-lcs-view-glyph]'));
+        if (stray.length) fails.push(`${stray.length} line(s) drawn between the columns (the child draws them)`);
+        if (root.querySelectorAll('[data-lcs-view-glyph]').length !== 2) fails.push('the two view heads are missing');
+      } else if (L === 'compass-rose') {
+        const cards = [...root.querySelectorAll('[data-lcs-rose-card]')];
+        facts.cards = [];
+        for (const c of cards) {
+          const svg = c.querySelector('svg[data-lcs-prim="compass-rose"]');
+          if (!svg) { fails.push(`rose card ${c.dataset.lcsRoseCard} has no rose`); continue; }
+          const rot = +svg.dataset.lcsRot, sr = R(svg), cx = (sr.left + sr.right) / 2, cy = (sr.top + sr.bottom) / 2, k = sr.width / 200;
+          const card = { rot, pairs: [], given: null, givenPos: null, marker: !!svg.querySelector('[data-lcs-marker]') };
+          if (card.marker && rot !== 0) fails.push(`marker on turned — rose ${c.dataset.lcsRoseCard} (rot ${rot}) draws the coral N marker`);
+          if (!card.marker && rot === 0) fails.push(`upright rose ${c.dataset.lcsRoseCard} lacks the coral N marker`);
+          let nGiven = 0;
+          for (const g of svg.querySelectorAll('g[data-lcs-pos]')) {
+            const box = g.querySelector('[data-lcs-box]'); const b = R(box);
+            const a = Math.atan2((b.left + b.right) / 2 - cx, cy - (b.top + b.bottom) / 2) * 180 / Math.PI;
+            const pos = ((Math.round(a / 90) % 4) + 4) % 4;
+            const dir = ['n', 'e', 's', 'w'][((pos - rot / 90) % 4 + 4) % 4];
+            if (dir !== g.dataset.lcsDir) fails.push(`rose ${c.dataset.lcsRoseCard}: the box drawn at position ${pos} is stamped ${g.dataset.lcsDir}, its position says ${dir}`);
+            if (b.width < 36 || b.height < 36) fails.push(`rose ${c.dataset.lcsRoseCard}: a letter box is ${b.width.toFixed(0)} px (< 36)`);
+            const txt = g.querySelector('text');
+            if (g.hasAttribute('data-lcs-given')) {
+              nGiven++;
+              const letter = txt ? txt.textContent : '';
+              if (letter !== g.dataset.lcsGiven) fails.push(`rose ${c.dataset.lcsRoseCard}: the given box prints "${letter}" ≠ its stamp`);
+              if (+txt.getAttribute('font-size') * k < 22) fails.push(`rose ${c.dataset.lcsRoseCard}: the letter renders ${(+txt.getAttribute('font-size') * k).toFixed(1)} px (< 22)`);
+              card.pairs.push([dir, letter]); card.given = dir; card.givenPos = pos;
+            } else {
+              if (txt && txt.textContent.trim()) fails.push(`rose ${c.dataset.lcsRoseCard}: a blank box prints "${txt.textContent}"`);
+              card.pairs.push([dir, g.dataset.lcsAnswer]);
+            }
+          }
+          if (nGiven !== 1) fails.push(`rose ${c.dataset.lcsRoseCard} shows ${nGiven} given letters (exactly 1)`);
+          facts.cards.push(card);
+        }
+        facts.rotSet = J('rot-set'); facts.cols = J('cols');
+      } else if (L === 'continents' || L === 'continents-oceans') {
+        const svg = root.querySelector('svg[data-lcs-prim="world-map"]');
+        if (!svg) { fails.push('no world map'); return { fails, facts }; }
+        const lands = svg.querySelectorAll('[data-lcs-land]');
+        if (lands.length !== 1 || (lands[0].getAttribute('fill') || '').toUpperCase() !== '#FFFFFF') fails.push('the land is not ONE white fill (a colour-coded map prints the grouping)');
+        const land = lands[0], sea = svg.querySelector('[data-lcs-sea]');
+        const pt = (x, y) => { const p = svg.createSVGPoint(); p.x = x; p.y = y; return p; };
+        const k = R(svg).width / +svg.viewBox.baseVal.width;   // px per unit
+        facts.crop = +svg.dataset.lcsCrop;
+        facts.markers = [];
+        for (const m of svg.querySelectorAll('g[data-lcs-marker]')) {
+          const cs = m.querySelectorAll('circle'), disc = cs[1] || cs[0], txt = m.querySelector('text');
+          const x = +disc.getAttribute('cx'), y = +disc.getAttribute('cy');
+          const f = { id: m.dataset.lcsMarker, n: +m.dataset.lcsN, x, y, text: txt ? txt.textContent : '', region: m.dataset.lcsRegion || null, ocean: m.dataset.lcsOcean || null, leader: m.hasAttribute('data-lcs-via-leader') };
+          if (String(f.n) !== f.text) fails.push(`marker ${f.id} prints "${f.text}" ≠ its stamp ${f.n}`);
+          if (+cs[0].getAttribute('r') * 2 * k < 35.5) fails.push(`marker ${f.id}: the halo is ${(+cs[0].getAttribute('r') * 2 * k).toFixed(1)} px (< 36)`);
+          if (txt && +txt.getAttribute('font-size') * k < 19.5) fails.push(`marker ${f.id}: the numeral is ${(+txt.getAttribute('font-size') * k).toFixed(1)} px (< 20)`);
+          if (f.region) {
+            if (!land.isPointInFill(pt(x, y))) fails.push(`anchor rule — continent disc ${f.id} sits on water`);
+          } else if (f.ocean) {
+            const rr = 21 / k; let wet = !land.isPointInFill(pt(x, y));
+            for (let a = 0; a < 24 && wet; a++) if (land.isPointInFill(pt(x + rr * Math.cos(a * Math.PI / 12), y + rr * Math.sin(a * Math.PI / 12)))) wet = false;
+            if (!wet) fails.push(`ocean disc ${f.id} is on land or within 6 px of the coast`);
+          }
+          facts.markers.push(f);
+        }
+        facts.leaders = {};
+        for (const dEl of svg.querySelectorAll('[data-lcs-leader-dot]')) {
+          const id = dEl.dataset.lcsLeaderDot, x = +dEl.getAttribute('cx'), y = +dEl.getAttribute('cy');
+          const okDot = id === 'antarctica' ? land.isPointInFill(pt(x, y)) : (!land.isPointInFill(pt(x, y)) && sea.isPointInFill(pt(x, y)));
+          if (!okDot) fails.push(`the ${id} leader dot is off its target`);
+          facts.leaders[id] = [x, y];
+        }
+        facts.numbers = J('numbers'); facts.regions = J('regions'); facts.alpha = J('alpha');
+        if (L === 'continents') {
+          facts.bank = [...root.querySelectorAll('[data-lcs-bank-word]')].map((b) => [b.dataset.lcsBankWord, b.textContent.trim()]);
+          for (const b of root.querySelectorAll('.ws-bankword')) if (parseFloat(getComputedStyle(b).fontSize) < 17) fails.push('a bank name under 17 px');
+          facts.lanes = [...root.querySelectorAll('[data-lcs-lane]')].map((l) => {
+            const box = l.querySelector('.ws-blankbox'), num = l.querySelector('[data-lcs-lane-n]');
+            if (box.textContent.trim()) fails.push(`lane ${l.dataset.lcsLane} prints "${box.textContent.trim()}"`);
+            if (R(box).height < 43.5) fails.push(`lane ${l.dataset.lcsLane} is ${R(box).height.toFixed(0)} px tall (< 44)`);
+            if (num.textContent !== l.dataset.lcsLane) fails.push(`lane ${l.dataset.lcsLane} shows the number "${num.textContent}"`);
+            return [+l.dataset.lcsLane, box.getAttribute('data-lcs-answer')];
+          });
+        } else {
+          facts.index = [...root.querySelectorAll('[data-lcs-index]')].map((e) => {
+            const box = e.querySelector('[data-lcs-answer]'), nm = e.querySelector('[data-lcs-index-name]');
+            if (box.textContent.trim()) fails.push(`index box ${e.dataset.lcsIndex} prints "${box.textContent.trim()}"`);
+            const br = R(box); if (br.width < 43.5 || br.height < 39.5) fails.push(`index box ${e.dataset.lcsIndex} is ${br.width.toFixed(0)} x ${br.height.toFixed(0)} (< 44 x 40)`);
+            if (parseFloat(getComputedStyle(nm).fontSize) < 17) fails.push(`index name ${e.dataset.lcsIndex} under 17 px`);
+            const rg = document.createRange(); rg.selectNodeContents(nm);
+            const rects = [...rg.getClientRects()];
+            if (new Set(rects.map((q) => Math.round(q.top))).size > 2) fails.push(`index name "${nm.textContent}" runs past 2 lines`);
+            if (rects.some((q) => q.right > R(nm).right + 1)) fails.push(`index name "${nm.textContent}" is wider than its column`);
+            if (rects.some((q) => q.bottom > R(e).bottom + 1 || q.top < R(e).top - 1)) fails.push(`index name "${nm.textContent}" spills out of its row`);
+            return { id: e.dataset.lcsIndex, kind: e.dataset.lcsKind, name: nm.textContent, answer: box.getAttribute('data-lcs-answer') };
+          });
+          facts.kinds = J('kinds'); facts.oceans = J('oceans');
+        }
+      } else if (L === 'directions-on-map') {
+        const field = root.querySelector('.mp-field svg[data-lcs-prim="island-map"]');
+        if (!field) { fails.push('no island map'); return { fails, facts }; }
+        if (field.querySelector('[data-lcs-north]')) fails.push('a north arrow on the F5 island (the reference rose is the tool)');
+        if (field.querySelector('text')) fails.push('a letter / number on the plate (the G2-279 fence)');
+        const ctm = field.getScreenCTM();
+        facts.at = {};
+        const placed = [...field.querySelectorAll('svg[data-lcs-sym]')].filter((s) => s.dataset.lcsSym !== 'bridge');
+        for (const s of placed) {
+          const x = +s.getAttribute('x'), y = +s.getAttribute('y'), w = +s.getAttribute('width');
+          const id = s.dataset.lcsSym;
+          if (facts.at[id]) fails.push(`${id} is drawn twice on the island`);
+          facts.at[id] = [ctm.a * (x + w / 2) + ctm.e, ctm.d * (y + w / 2) + ctm.f];
+          if (Math.abs(ctm.a * w - 40) > 0.6) fails.push(`${id} renders ${(ctm.a * w).toFixed(1)} px on the island (≠ 40)`);
+        }
+        const ids = Object.keys(facts.at);
+        for (let i = 0; i < ids.length; i++) for (let j = i + 1; j < ids.length; j++) { const a = facts.at[ids[i]], b = facts.at[ids[j]]; if (Math.hypot(a[0] - b[0], a[1] - b[1]) < 71.5) fails.push(`${ids[i]} and ${ids[j]} are ${Math.hypot(a[0] - b[0], a[1] - b[1]).toFixed(0)} px apart (< 72)`); }
+        facts.rows = [...root.querySelectorAll('[data-lcs-dir-row]')].map((r) => {
+          const chips = [...r.querySelectorAll('[data-lcs-chip]')];
+          for (const ch of chips) {
+            const sym = ch.querySelector('svg[data-lcs-symbol]');
+            if (!sym || sym.dataset.lcsSymbol !== ch.dataset.lcsChip) fails.push(`row ${r.dataset.lcsDirRow}: chip ${ch.dataset.lcsChip} draws ${sym && sym.dataset.lcsSymbol}`);
+            if (R(ch).width < 51.5) fails.push(`row ${r.dataset.lcsDirRow}: a chip is ${R(ch).width.toFixed(0)} px (< 52)`);
+            if (sym && R(sym).width < 39.5) fails.push(`row ${r.dataset.lcsDirRow}: a chip symbol is ${R(sym).width.toFixed(0)} px (< 40)`);
+            if (ch.querySelector('[data-lcs-circled], ellipse')) fails.push(`row ${r.dataset.lcsDirRow}: a chip is circled`);
+          }
+          const st = r.querySelector('[data-lcs-start-frame] svg[data-lcs-symbol]');
+          if (!st || st.dataset.lcsSymbol !== r.dataset.lcsStart) fails.push(`row ${r.dataset.lcsDirRow}: the start frame draws ${st && st.dataset.lcsSymbol} ≠ ${r.dataset.lcsStart}`);
+          const w = r.querySelector('[data-lcs-dir-word]');
+          if (parseFloat(getComputedStyle(w).fontSize) < 17) fails.push(`row ${r.dataset.lcsDirRow}: the direction word under 17 px`);
+          const rg = document.createRange(); rg.selectNodeContents(w); if (rg.getBoundingClientRect().width > R(w).width - 4) fails.push(`row ${r.dataset.lcsDirRow}: the word "${w.textContent}" is wider than its chip`);
+          return { n: +r.dataset.lcsDirRow, start: r.dataset.lcsStart, dir: r.dataset.lcsDir, answer: r.dataset.lcsAnswer, chips: chips.map((c) => c.dataset.lcsChip), word: w.textContent };
+        });
+        const rose = root.querySelector('[data-lcs-ref-rose] svg[data-lcs-prim="compass-rose"][data-lcs-reference]');
+        if (!rose) fails.push('no reference rose');
+        else {
+          const k = R(rose).width / 200;
+          facts.rose = [...rose.querySelectorAll('[data-lcs-ref]')].map((g) => { const t = g.querySelector('text'); if (+t.getAttribute('font-size') * k < 14) fails.push(`the reference rose letter renders ${(+t.getAttribute('font-size') * k).toFixed(1)} px (< 14)`); return [g.dataset.lcsDir, t.textContent]; });
+          if (+rose.dataset.lcsRot !== 0) fails.push('the reference rose is turned');
+        }
+        facts.inDeg = J('in-deg'); facts.outDeg = J('out-deg'); facts.nChips = J('chips');
+      }
+      return { fails, facts };
+    });
+    const fails = got.fails, F = got.facts;
+    let b = null;
+    try { b = loadBank(BANK, F.loc); } catch (e) { fails.push(`no ${F.loc} bank for the cross-check: ${e.message}`); }
+    if (layout === 'top-view') {
+      const { left, right, ext } = F;
+      if (new Set(left).size !== left.length || left.slice().sort().join() !== right.slice().sort().join()) fails.push(`the columns [${left}] / [${right}] are not one set of models`);
+      for (const m of left) if (!MAPS.TOPSIDE[m]) fails.push(`unknown model ${m}`);
+      topViewLimits(left).forEach((x) => fails.push(`class limit — ${x}`));
+      if (left.some((m, i) => right[i] === m)) fails.push('a model sits level with its own top view (not a derangement)');
+      if (right.join() === left.slice().reverse().join()) fails.push('the right column is the left reversed (tell)');
+      if (isRotation(left, right)) fails.push('the right column is the left shifted by a constant (tell)');
+      for (const m of left) {
+        const e = ext[m]; if (!e || !e.side || !e.top) continue;
+        // per EDGE, in each view's own box (both centre the model's x-extent): the design's +-1 px ink rule (the tree's scalloped crown +-6 units)
+        const tol = m === 'tree' ? 6 * e.side.scale : 1;
+        const dx = Math.max(Math.abs(e.side.x0 - e.top.x0), Math.abs(e.side.x1 - e.top.x1));
+        if (dx > tol) fails.push(`${m}: the side and top ink edges differ by ${dx.toFixed(2)} px (> ${tol.toFixed(1)}; one model, one scale)`);
+      }
+    } else if (layout === 'compass-rose') {
+      for (const c of F.cards) for (const [dir, letter] of c.pairs) if (b && b.dirLetters[dir] !== letter) fails.push(`letter from position — the ${dir} box carries "${letter}" ≠ dirLetters.${dir} "${b.dirLetters[dir]}"`);
+      if (F.rotSet && F.cards.map((c) => c.rot).sort().join() !== F.rotSet.slice().sort().join()) fails.push(`the rotations [${F.cards.map((c) => c.rot)}] ≠ the configured multiset`);
+      const given = F.cards.map((c) => c.given);
+      if (new Set(given).size < 4) fails.push(`the given letters [${given}] do not cover all four directions`);
+      if (isPeriodic(given)) fails.push(`the given letters [${given}] repeat periodically (tell)`);
+      if (new Set(F.cards.map((c) => c.givenPos)).size < 2) fails.push('every given letter sits in the same box position (tell)');
+      const up = F.cards.map((c, i) => (c.rot === 0 ? i : -1)).filter((i) => i >= 0);
+      if (up.length > 1 && F.cols && (new Set(up.map((i) => i % F.cols)).size < 2 || new Set(up.map((i) => Math.floor(i / F.cols))).size < 2)) fails.push('the upright roses form one line (tell)');
+    } else if (layout === 'continents' || layout === 'continents-oceans') {
+      const nums = F.numbers || {}, regs = F.regions || {};
+      const ant = Object.values(regs).some((r) => r.includes('antarctica'));
+      if ((F.crop === -90) !== ant) fails.push(`Antarctica ${F.crop === -90 ? 'drawn' : 'cropped'} but ${ant ? 'in' : 'not in'} the set`);
+      for (const [id, rs] of Object.entries(regs)) {
+        const ms = F.markers.filter((m) => m.id === id);
+        if (ms.length !== rs.length) fails.push(`member ${id} shows ${ms.length} numerals for ${rs.length} region(s)`);
+        for (const r of rs) if (r !== 'antarctica' && !ms.some((m) => m.region === r)) fails.push(`member ${id} has no numeral on ${r}`);
+        if (rs.includes('antarctica') && !ms.some((m) => m.leader)) fails.push(`member ${id} (Antarctica) has no leader`);
+        if (ms.some((m) => m.n !== nums[id])) fails.push(`member ${id}: a numeral ≠ its number ${nums[id]}`);
+        for (const m of ms) if (m.region) { const A = WM_DATA.anchors[m.region]; if (!A || Math.hypot(A.x - m.x, A.y - m.y) > 0.5) fails.push(`anchor rule — the ${id} disc on ${m.region} is not at the gated anchor`); }
+      }
+      const allIds = Object.keys(nums);
+      if (allIds.map((id) => nums[id]).sort((a, c) => a - c).join() !== allIds.map((_, i) => i + 1).join()) fails.push('the numbers are not 1..N once each');
+      const byNumber = allIds.slice().sort((a, c) => nums[a] - nums[c]);
+      if (layout === 'continents') {
+        if (F.markers.some((m) => m.ocean)) fails.push('an ocean marker on the continents face');
+        const bankIds = F.bank.map((x) => x[0]);
+        if (bankIds.slice().sort().join() !== Object.keys(regs).sort().join()) fails.push(`the bank [${bankIds}] ≠ the set`);
+        if (b) for (const [id, t] of F.bank) if (b.continentNames[id] !== t) fails.push(`the bank prints "${t}" ≠ continentNames.${id}`);
+        if (bankIds.join() === byNumber.join()) fails.push('the bank order equals the numeral order (tell)');
+        if (bankIds.join() === byNumber.slice().reverse().join()) fails.push('the bank order is the numeral order reversed (tell)');
+        if (F.alpha && bankIds.join() === F.alpha.join()) fails.push('the bank order is alphabetical (tell)');
+        F.lanes.forEach(([n, a], i) => { if (n !== i + 1) fails.push(`lane ${i + 1} is numbered ${n}`); if (a !== byNumber[n - 1]) fails.push(`lane ${n}: the hidden answer "${a}" ≠ member ${byNumber[n - 1]}`); });
+        if (F.lanes.length !== byNumber.length) fails.push(`${F.lanes.length} lanes for ${byNumber.length} continents`);
+      } else {
+        const kinds = F.kinds || {};
+        const idx = F.index.map((e) => e.id);
+        if (idx.slice().sort().join() !== allIds.slice().sort().join()) fails.push(`the index [${idx}] ≠ continents ∪ oceans once each`);
+        for (const e of F.index) {
+          if (+e.answer !== nums[e.id]) fails.push(`index ${e.id}: the hidden answer ${e.answer} ≠ its number ${nums[e.id]}`);
+          if (b) { const want = kinds[e.id] === 'sea' ? b.oceanNames[e.id] : b.continentNames[e.id]; if (want !== e.name) fails.push(`index ${e.id} prints "${e.name}" ≠ the bank "${want}"`); }
+        }
+        for (const oc of F.oceans || []) {
+          const ms = F.markers.filter((m) => m.id === oc);
+          const want = oc === 'pacific' ? 2 : 1;
+          if (ms.length !== want) fails.push(`ocean ${oc} shows ${ms.length} numerals (≠ ${want})`);
+          if (['arctic', 'southern'].includes(oc) && !(ms.length && ms[0].leader)) fails.push(`ocean ${oc} has no corner leader`);
+        }
+        const kseq = idx.map((id) => kinds[id]);
+        let run = 0, mx = 0; kseq.forEach((x, i) => { run = i && x === kseq[i - 1] ? run + 1 : 1; mx = Math.max(mx, run); });
+        if (mx > 2) fails.push(`the index runs ${mx} of one kind in a row (tell)`);
+        if (idx.join() === byNumber.join()) fails.push('the index order equals the numeral order (tell)');
+        if (F.alpha && idx.join() === F.alpha.join()) fails.push('the index order is alphabetical (tell)');
+        const nk = byNumber.map((id) => kinds[id]);
+        if (blockyKinds(nk)) fails.push('the numbering runs land-then-sea (tell)');
+      }
+    } else if (layout === 'directions-on-map') {
+      const at = F.at;
+      if (Object.keys(at).length !== PLACES.length) fails.push(`${Object.keys(at).length} places on the island (≠ ${PLACES.length})`);
+      const starts = F.rows.map((r) => r.start);
+      if (new Set(starts).size !== F.rows.length) fails.push(`the rows reuse a start [${starts}] (6 distinct starts)`);
+      if (new Set(F.rows.map((r) => r.dir)).size < 4) fails.push('the rows do not ask all four directions');
+      const posSeq = [];
+      for (const r of F.rows) {
+        if (!at[r.start]) { fails.push(`row ${r.n}: the start ${r.start} is not on the island`); continue; }
+        if (r.chips.length !== F.nChips) fails.push(`row ${r.n} offers ${r.chips.length} chips`);
+        if (r.chips.includes(r.start)) fails.push(`row ${r.n}: the start is one of its own chips`);
+        if (r.chips.includes('tree') && r.chips.includes('bush')) fails.push(`row ${r.n}: tree and bush are both chips`);
+        const offs = r.chips.map((c) => (at[c] ? bearingOff(at[r.start], at[c], r.dir) : NaN));
+        const inside = r.chips.filter((c, i) => offs[i] <= F.inDeg);
+        if (inside.length !== 1) fails.push(`bearing rule — row ${r.n}: ${inside.length} chips lie within ${F.inDeg}° of ${r.dir} [${offs.map((o) => o.toFixed(0))}]`);
+        else if (inside[0] !== r.answer) fails.push(`row ${r.n}: the chip within ${F.inDeg}° is ${inside[0]}, the stamp says ${r.answer}`);
+        r.chips.forEach((c, i) => { if (c !== inside[0] && !(offs[i] >= F.outDeg)) fails.push(`bearing rule — row ${r.n}: chip ${c} lies ${offs[i].toFixed(0)}° off ${r.dir} (< ${F.outDeg})`); });
+        posSeq.push(r.chips.indexOf(r.answer));
+        if (b && r.word !== b.dirWords[r.dir]) fails.push(`row ${r.n} prints "${r.word}" ≠ dirWords.${r.dir}`);
+      }
+      if (new Set(posSeq).size < 2 || isPeriodic(posSeq)) fails.push(`the correct chip positions [${posSeq}] are constant or periodic (tell)`);
+      if (b && F.rose) for (const [dir, t] of F.rose) if (b.dirLetters[dir] !== t) fails.push(`the reference rose prints "${t}" at ${dir} ≠ dirLetters.${dir}`);
+    }
+    return fails;
+  },
+
   async verify(page) {
+    const faceLayout = await page.evaluate(() => { const r = document.querySelector('[data-ws-content][data-lcs-type="maps"]'); return r ? (r.getAttribute('data-lcs-layout') || '') : ''; });
+    if (faceLayout && MAPS.LAYOUTS.includes(faceLayout)) return this._verifyFace(page, faceLayout);
     const fails = await page.evaluate(() => {
       const fails = [];
       const root = document.querySelector('[data-ws-content][data-lcs-type="maps"]');

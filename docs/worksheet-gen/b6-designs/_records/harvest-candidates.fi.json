@@ -1,0 +1,297 @@
+{
+ "locale": "fi",
+ "market": {
+  "hl": "fi",
+  "gl": "fi"
+ },
+ "generatedAt": "2026-09-23T15:57:47.904Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/candidate-seeds.json",
+ "requestCount": 98,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "kaunokirjoitus",
+    "kaunokirjoitus harjoitus",
+    "yhdyskirjaimet"
+   ],
+   "requests": 21,
+   "productiveSeeds": 4,
+   "unique": 14,
+   "suggestions": [
+    "kaunokirjoitus b",
+    "kaunokirjoitus f kirjain",
+    "kaunokirjoitus fontteja",
+    "kaunokirjoitus g",
+    "kaunokirjoitus harjoituksia tulostettava",
+    "kaunokirjoitus harjoitus",
+    "kaunokirjoitus harjoitus aikuisille",
+    "kaunokirjoitus k",
+    "kaunokirjoitus m",
+    "kaunokirjoitus onnea",
+    "kaunokirjoitus pieni z",
+    "kaunokirjoitus t",
+    "kaunokirjoitus tehtäviä",
+    "kaunokirjoitusta"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "kuvasarja",
+    "tarina oikeaan järjestykseen",
+    "kuvakertomus"
+   ],
+   "requests": 21,
+   "productiveSeeds": 2,
+   "unique": 11,
+   "suggestions": [
+    "kuvasarja",
+    "kuvasarja android",
+    "kuvasarja englanniksi",
+    "kuvasarja iphone",
+    "kuvasarja kerronta",
+    "kuvasarja samsung",
+    "kuvasarja tarinan kirjoittamiseen",
+    "kuvasarja valokuvaus",
+    "kuvasarjan tekeminen",
+    "kuvasarjasta kirjoittaminen",
+    "mikä on kuvakertomus"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "hygienia",
+    "käsienpesu",
+    "terveystieto"
+   ],
+   "requests": 21,
+   "productiveSeeds": 5,
+   "unique": 38,
+   "suggestions": [
+    "hygienia alusta",
+    "hygienia koulutus",
+    "hygienia tehtäviä lapsille",
+    "hygieniaopas",
+    "hygieniapassi arabiaksi",
+    "hygieniapassi imatra",
+    "hygieniapassi kuinka kauan voimassa",
+    "hygieniapassi tehtäviä",
+    "hygieniapussi miehet",
+    "hygieniasuoja sänkyyn",
+    "hygieniatrimmeri ladattava",
+    "hygieniavastaava",
+    "käsienpesu kanisteri",
+    "käsienpesu ulkona",
+    "käsienpesuallas ikea",
+    "käsienpesuallas malja",
+    "käsienpesuallas seinään",
+    "käsienpesuallas teräs",
+    "käsienpesualtaan poistoputki",
+    "käsienpesualtaan tulppa",
+    "käsienpesuneste",
+    "käsienpesuöljy",
+    "syke 8 terveystieto tehtäviä",
+    "terveystieto 1",
+    "terveystieto 2025 kevät",
+    "terveystieto 3",
+    "terveystieto 7 lk tehtäviä",
+    "terveystieto 8 lk tehtäviä",
+    "terveystieto 9 lk tehtäviä",
+    "terveystieto kevät 26",
+    "terveystieto sivuaine",
+    "terveystieto syksy 2024",
+    "terveystieto syksy 2026",
+    "terveystieto tehtäviä",
+    "terveystieto tehtäviä yläkoulu",
+    "terveystieto yo 2025",
+    "terveystieto yo koe 2026",
+    "terveystieto yo koe syksy 2023"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "eläinten elinympäristöt",
+    "missä eläimet asuvat",
+    "eläinten kodit"
+   ],
+   "requests": 21,
+   "productiveSeeds": 2,
+   "unique": 11,
+   "suggestions": [
+    "eläinten kodit",
+    "kodittomien eläinten päivä",
+    "kodittomien eläinten päivä 2025",
+    "kodittomien eläinten päivä 2026",
+    "kodittomien eläinten sos",
+    "kodittomien eläinten sos kokemuksia",
+    "kodittomien eläinten sos ry",
+    "kodittomien eläinten sos ry kokemuksia",
+    "kodittomien eläinten turvakoti",
+    "kodittomien eläinten yhdistys bim mustakorva ry",
+    "missä eläimet asuvat"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "kelluuko vai uppoaako",
+    "kellua ja upota"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 2,
+   "suggestions": [
+    "kelluuko vai uppoaako",
+    "kelluuko vai uppoaako kananmuna"
+   ]
+  }
+ },
+ "suggestions": {
+  "kaunokirjoitus": {
+   "candidate": "cursive-writing",
+   "s": [
+    "kaunokirjoitus k",
+    "kaunokirjoitus onnea",
+    "kaunokirjoitusta",
+    "kaunokirjoitus t",
+    "kaunokirjoitus g",
+    "kaunokirjoitus fontteja",
+    "kaunokirjoitus m",
+    "kaunokirjoitus pieni z",
+    "kaunokirjoitus f kirjain",
+    "kaunokirjoitus b"
+   ]
+  },
+  "kaunokirjoitus tehtäviä": {
+   "candidate": "cursive-writing",
+   "s": [
+    "kaunokirjoitus tehtäviä"
+   ]
+  },
+  "kaunokirjoitus tulostettava": {
+   "candidate": "cursive-writing",
+   "s": [
+    "kaunokirjoitus harjoituksia tulostettava"
+   ]
+  },
+  "kaunokirjoitus harjoitus": {
+   "candidate": "cursive-writing",
+   "s": [
+    "kaunokirjoitus harjoitus",
+    "kaunokirjoitus harjoitus aikuisille"
+   ]
+  },
+  "kuvasarja": {
+   "candidate": "story-sequencing",
+   "s": [
+    "kuvasarja",
+    "kuvasarja iphone",
+    "kuvasarja englanniksi",
+    "kuvasarjan tekeminen",
+    "kuvasarja tarinan kirjoittamiseen",
+    "kuvasarja valokuvaus",
+    "kuvasarja android",
+    "kuvasarja kerronta",
+    "kuvasarjasta kirjoittaminen",
+    "kuvasarja samsung"
+   ]
+  },
+  "kuvakertomus": {
+   "candidate": "story-sequencing",
+   "s": [
+    "mikä on kuvakertomus"
+   ]
+  },
+  "hygienia": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hygieniapussi miehet",
+    "hygieniapassi kuinka kauan voimassa",
+    "hygieniaopas",
+    "hygieniasuoja sänkyyn",
+    "hygieniapassi imatra",
+    "hygieniatrimmeri ladattava",
+    "hygieniapassi arabiaksi",
+    "hygienia alusta",
+    "hygienia koulutus",
+    "hygieniavastaava"
+   ]
+  },
+  "hygienia tehtäviä": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hygieniapassi tehtäviä",
+    "hygienia tehtäviä lapsille"
+   ]
+  },
+  "käsienpesu": {
+   "candidate": "healthy-habits",
+   "s": [
+    "käsienpesu ulkona",
+    "käsienpesuneste",
+    "käsienpesuallas seinään",
+    "käsienpesualtaan tulppa",
+    "käsienpesuöljy",
+    "käsienpesu kanisteri",
+    "käsienpesuallas ikea",
+    "käsienpesualtaan poistoputki",
+    "käsienpesuallas malja",
+    "käsienpesuallas teräs"
+   ]
+  },
+  "terveystieto": {
+   "candidate": "healthy-habits",
+   "s": [
+    "terveystieto yo koe 2026",
+    "terveystieto syksy 2026",
+    "terveystieto 3",
+    "terveystieto 1",
+    "terveystieto 2025 kevät",
+    "terveystieto yo 2025",
+    "terveystieto sivuaine",
+    "terveystieto kevät 26",
+    "terveystieto yo koe syksy 2023",
+    "terveystieto syksy 2024"
+   ]
+  },
+  "terveystieto tehtäviä": {
+   "candidate": "healthy-habits",
+   "s": [
+    "terveystieto tehtäviä",
+    "terveystieto tehtäviä yläkoulu",
+    "terveystieto 7 lk tehtäviä",
+    "terveystieto 8 lk tehtäviä",
+    "terveystieto 9 lk tehtäviä",
+    "syke 8 terveystieto tehtäviä"
+   ]
+  },
+  "missä eläimet asuvat": {
+   "candidate": "habitats",
+   "s": [
+    "missä eläimet asuvat"
+   ]
+  },
+  "eläinten kodit": {
+   "candidate": "habitats",
+   "s": [
+    "eläinten kodit",
+    "kodittomien eläinten sos ry",
+    "kodittomien eläinten sos ry kokemuksia",
+    "kodittomien eläinten päivä 2025",
+    "kodittomien eläinten sos",
+    "kodittomien eläinten päivä",
+    "kodittomien eläinten yhdistys bim mustakorva ry",
+    "kodittomien eläinten päivä 2026",
+    "kodittomien eläinten sos kokemuksia",
+    "kodittomien eläinten turvakoti"
+   ]
+  },
+  "kelluuko vai uppoaako": {
+   "candidate": "sink-or-float",
+   "s": [
+    "kelluuko vai uppoaako kananmuna",
+    "kelluuko vai uppoaako"
+   ]
+  }
+ }
+}

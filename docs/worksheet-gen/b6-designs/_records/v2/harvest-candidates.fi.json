@@ -1,0 +1,211 @@
+{
+ "locale": "fi",
+ "market": {
+  "hl": "fi",
+  "gl": "fi"
+ },
+ "generatedAt": "2026-09-23T16:12:35.594Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/v2/candidate-seeds-v2.json",
+ "requestCount": 84,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "tekstaus harjoitus",
+    "käsialakirjoitus"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 6,
+   "suggestions": [
+    "kalligrafia ja tekstaus harjoituskirja",
+    "käsialakirjoitus",
+    "käsialakirjoitus harjoituksia",
+    "käsialakirjoitus tulostettava",
+    "tekstaus harjoitus",
+    "vanha käsialakirjoitus"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "kuvakertomus tehtävä",
+    "kuvat järjestykseen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 2,
+   "suggestions": [
+    "kuvat järjestykseen",
+    "laita kuvat järjestykseen"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "hampaiden pesu",
+    "terveelliset elintavat",
+    "käsienpesu ohje"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 17,
+   "suggestions": [
+    "hampaiden pesu ajastin",
+    "hampaiden pesu ennen vai jälkeen aamiaisen",
+    "hampaiden pesu ennen vai jälkeen ruokailun",
+    "hampaiden pesu huuhtelu",
+    "hampaiden pesu luonnossa",
+    "hampaiden pesu oksentamisen jälkeen",
+    "hampaiden pesu suolavedellä",
+    "hampaiden pesu unessa",
+    "hampaiden pesu valkaisun jälkeen",
+    "hampaiden pesu vauva",
+    "käsienpesu ohjeet",
+    "käsienpesuohje kuva",
+    "käsienpesuohje lapsille",
+    "terveelliset elintavat",
+    "terveelliset elintavat englanniksi",
+    "terveelliset elintavat thl",
+    "thl käsienpesuohje"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "eläinten talvehtiminen",
+    "eläinten pesät",
+    "eläinten kodit"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 19,
+   "suggestions": [
+    "eläinten kodit",
+    "eläinten pesät",
+    "eläinten talvehtiminen",
+    "eläinten talvehtiminen esiopetus",
+    "eläinten talvehtiminen lapsille",
+    "eläinten talvehtiminen tehtävä",
+    "eläinten talvehtiminen varhaiskasvatus",
+    "eläinten talvehtiminen video",
+    "eläinten talvehtiminen yle areena",
+    "kodittomien eläinten päivä",
+    "kodittomien eläinten päivä 2025",
+    "kodittomien eläinten päivä 2026",
+    "kodittomien eläinten sos",
+    "kodittomien eläinten sos kokemuksia",
+    "kodittomien eläinten sos ry",
+    "kodittomien eläinten sos ry kokemuksia",
+    "kodittomien eläinten turvakoti",
+    "kodittomien eläinten yhdistys bim mustakorva ry",
+    "metsän eläinten talvehtiminen"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "kelluminen tehtävä",
+    "kelluuko vai uppoaako kokeilu"
+   ],
+   "requests": 14,
+   "productiveSeeds": 0,
+   "unique": 0,
+   "suggestions": []
+  }
+ },
+ "suggestions": {
+  "tekstaus harjoitus": {
+   "candidate": "cursive-writing",
+   "s": [
+    "tekstaus harjoitus",
+    "kalligrafia ja tekstaus harjoituskirja"
+   ]
+  },
+  "käsialakirjoitus": {
+   "candidate": "cursive-writing",
+   "s": [
+    "käsialakirjoitus harjoituksia",
+    "käsialakirjoitus",
+    "käsialakirjoitus tulostettava",
+    "vanha käsialakirjoitus"
+   ]
+  },
+  "käsialakirjoitus tulostettava": {
+   "candidate": "cursive-writing",
+   "s": [
+    "käsialakirjoitus tulostettava"
+   ]
+  },
+  "kuvat järjestykseen": {
+   "candidate": "story-sequencing",
+   "s": [
+    "kuvat järjestykseen",
+    "laita kuvat järjestykseen"
+   ]
+  },
+  "hampaiden pesu": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hampaiden pesu ajastin",
+    "hampaiden pesu oksentamisen jälkeen",
+    "hampaiden pesu suolavedellä",
+    "hampaiden pesu ennen vai jälkeen ruokailun",
+    "hampaiden pesu unessa",
+    "hampaiden pesu ennen vai jälkeen aamiaisen",
+    "hampaiden pesu luonnossa",
+    "hampaiden pesu huuhtelu",
+    "hampaiden pesu vauva",
+    "hampaiden pesu valkaisun jälkeen"
+   ]
+  },
+  "terveelliset elintavat": {
+   "candidate": "healthy-habits",
+   "s": [
+    "terveelliset elintavat",
+    "terveelliset elintavat thl",
+    "terveelliset elintavat englanniksi"
+   ]
+  },
+  "käsienpesu ohje": {
+   "candidate": "healthy-habits",
+   "s": [
+    "käsienpesu ohjeet",
+    "käsienpesuohje lapsille",
+    "käsienpesuohje kuva",
+    "thl käsienpesuohje"
+   ]
+  },
+  "eläinten talvehtiminen": {
+   "candidate": "habitats",
+   "s": [
+    "eläinten talvehtiminen",
+    "eläinten talvehtiminen lapsille",
+    "eläinten talvehtiminen video",
+    "eläinten talvehtiminen yle areena",
+    "eläinten talvehtiminen tehtävä",
+    "eläinten talvehtiminen varhaiskasvatus",
+    "eläinten talvehtiminen esiopetus",
+    "metsän eläinten talvehtiminen"
+   ]
+  },
+  "eläinten pesät": {
+   "candidate": "habitats",
+   "s": [
+    "eläinten pesät"
+   ]
+  },
+  "eläinten kodit": {
+   "candidate": "habitats",
+   "s": [
+    "eläinten kodit",
+    "kodittomien eläinten sos ry",
+    "kodittomien eläinten sos ry kokemuksia",
+    "kodittomien eläinten päivä 2025",
+    "kodittomien eläinten sos",
+    "kodittomien eläinten päivä",
+    "kodittomien eläinten yhdistys bim mustakorva ry",
+    "kodittomien eläinten päivä 2026",
+    "kodittomien eläinten sos kokemuksia",
+    "kodittomien eläinten turvakoti"
+   ]
+  }
+ }
+}

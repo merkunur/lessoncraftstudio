@@ -1,0 +1,418 @@
+{
+ "locale": "da",
+ "market": {
+  "hl": "da",
+  "gl": "dk"
+ },
+ "generatedAt": "2026-09-23T15:57:00.909Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/candidate-seeds.json",
+ "requestCount": 98,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "sammenhængende skrift",
+    "skråskrift",
+    "håndskrift"
+   ],
+   "requests": 21,
+   "productiveSeeds": 11,
+   "unique": 37,
+   "suggestions": [
+    "håndskrift",
+    "håndskrift 1 klasse",
+    "håndskrift 2. klasse",
+    "håndskrift 3. klasse",
+    "håndskrift font",
+    "håndskrift hæfte",
+    "håndskrift krydsord",
+    "håndskrift opgaver",
+    "håndskrift print",
+    "håndskrift til tekst",
+    "håndskrift til tekst app",
+    "håndskrift typer",
+    "håndskrift øvelser",
+    "håndskrift øvelser børn",
+    "håndskrift øvelser voksne",
+    "sammenhængende skrift",
+    "sammenhængende skrift alfabet",
+    "sammenhængende skrift engelsk",
+    "sammenhængende skrift font",
+    "sammenhængende skrift generator",
+    "sammenhængende skrift hæfte",
+    "sammenhængende skrift opgaver",
+    "sammenhængende skrift print",
+    "sammenhængende skrift øvelser",
+    "sammenhængende skrifttyper",
+    "skråskrift",
+    "skråskrift alfabet",
+    "skråskrift bogstaver",
+    "skråskrift dansk",
+    "skråskrift engelsk",
+    "skråskrift generator",
+    "skråskrift i",
+    "skråskrift opgaver",
+    "skråskrift s",
+    "skråskrift store bogstaver",
+    "skråskrift øvelser pdf",
+    "øve håndskrift opgaver"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "billedserie",
+    "rækkefølge billeder",
+    "fortælle historie"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 14,
+   "suggestions": [
+    "at fortælle historier i juraen i litteraturen og i livet",
+    "billedserie",
+    "billedserie der viser et forløb",
+    "billedserie engelsk",
+    "billedserie instagram",
+    "billedserie iphone",
+    "billedserie til væg",
+    "damms billedserier",
+    "fortælle historier",
+    "fortælle historier for børn",
+    "ikea billedserie",
+    "lav en billedserie",
+    "lær at fortælle historier",
+    "ændre rækkefølge billeder facebook"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "hygiejne",
+    "vaske hænder",
+    "sundhed"
+   ],
+   "requests": 21,
+   "productiveSeeds": 4,
+   "unique": 31,
+   "suggestions": [
+    "hygiejne",
+    "hygiejne krydsord",
+    "hygiejne opgaver",
+    "hygiejne på engelsk",
+    "hygiejnebevis",
+    "hygiejnebind",
+    "hygiejneforordningen",
+    "hygiejnekursus",
+    "hygiejnekursus tatovør",
+    "hygiejneuge",
+    "hygiejnevejledningen",
+    "sundhed",
+    "sundhed.dk find behandler",
+    "sundhedsforsikring",
+    "sundhedsjobs",
+    "sundhedsjournalen",
+    "sundhedskort",
+    "sundhedsplatform",
+    "sundhedsplejerske",
+    "sundhedsstyrelsen",
+    "sundhedsvejen",
+    "vaske hænder",
+    "vaske hænder billeder",
+    "vaske hænder børn",
+    "vaske hænder guide",
+    "vaske hænder i koldt eller varmt vand",
+    "vaske hænder plakat",
+    "vaske hænder plakat børn",
+    "vaske hænder sang",
+    "vaske hænder sang tekst",
+    "vaske hænder tegning"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "dyrs levesteder",
+    "hvor bor dyrene",
+    "dyr og natur"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 15,
+   "suggestions": [
+    "bøger om dyr og natur",
+    "børn dyr og natur",
+    "dyr natur",
+    "dyr naturgummi",
+    "dyr og natur",
+    "dyrs levesteder",
+    "enghave dyre og naturpark",
+    "hvor bor dyrene",
+    "hvor bor dyrene om vinteren",
+    "hvor bor dyrene spil",
+    "hvor bor dyrene spill",
+    "hvordan påvirker vindmøller dyr og natur",
+    "jeopardy dyr og natur",
+    "plakater dyr og natur",
+    "uddannelser med dyr og natur"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "flyde eller synke",
+    "flyder eller synker"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 16,
+   "suggestions": [
+    "afføring flyde eller synke",
+    "flyde eller synke",
+    "flyde eller synke æg",
+    "flyder eller synker",
+    "flyder eller synker din afføring",
+    "flyder eller synker dårlige æg",
+    "flyder eller synker en appelsin",
+    "flyder eller synker friske æg",
+    "flyder eller synker æg",
+    "skal afføring flyde eller synke",
+    "skal blåbær flyde eller synke",
+    "skal friske æg flyde eller synke",
+    "skal gode æg flyde eller synke",
+    "skal pølser flyde eller synke",
+    "skal æg flyde eller synke",
+    "skal æg flyde eller synke i vand"
+   ]
+  }
+ },
+ "suggestions": {
+  "sammenhængende skrift": {
+   "candidate": "cursive-writing",
+   "s": [
+    "sammenhængende skrift",
+    "sammenhængende skrift print",
+    "sammenhængende skrift øvelser",
+    "sammenhængende skrift opgaver",
+    "sammenhængende skrift engelsk",
+    "sammenhængende skrifttyper",
+    "sammenhængende skrift font",
+    "sammenhængende skrift hæfte",
+    "sammenhængende skrift alfabet",
+    "sammenhængende skrift generator"
+   ]
+  },
+  "sammenhængende skrift opgaver": {
+   "candidate": "cursive-writing",
+   "s": [
+    "sammenhængende skrift opgaver"
+   ]
+  },
+  "sammenhængende skrift til print": {
+   "candidate": "cursive-writing",
+   "s": [
+    "sammenhængende skrift print"
+   ]
+  },
+  "skråskrift": {
+   "candidate": "cursive-writing",
+   "s": [
+    "skråskrift",
+    "skråskrift alfabet",
+    "skråskrift dansk",
+    "skråskrift engelsk",
+    "skråskrift bogstaver",
+    "skråskrift generator",
+    "skråskrift øvelser pdf",
+    "skråskrift store bogstaver",
+    "skråskrift s",
+    "skråskrift i"
+   ]
+  },
+  "skråskrift opgaver": {
+   "candidate": "cursive-writing",
+   "s": [
+    "skråskrift opgaver"
+   ]
+  },
+  "håndskrift": {
+   "candidate": "cursive-writing",
+   "s": [
+    "håndskrift",
+    "håndskrift krydsord",
+    "håndskrift øvelser voksne",
+    "håndskrift øvelser",
+    "håndskrift typer",
+    "håndskrift øvelser børn",
+    "håndskrift font",
+    "håndskrift hæfte",
+    "håndskrift til tekst",
+    "håndskrift til tekst app"
+   ]
+  },
+  "håndskrift opgaver": {
+   "candidate": "cursive-writing",
+   "s": [
+    "håndskrift opgaver",
+    "øve håndskrift opgaver"
+   ]
+  },
+  "håndskrift til print": {
+   "candidate": "cursive-writing",
+   "s": [
+    "håndskrift print"
+   ]
+  },
+  "håndskrift 1. klasse": {
+   "candidate": "cursive-writing",
+   "s": [
+    "håndskrift 1 klasse"
+   ]
+  },
+  "håndskrift 2. klasse": {
+   "candidate": "cursive-writing",
+   "s": [
+    "håndskrift 2. klasse"
+   ]
+  },
+  "håndskrift 3. klasse": {
+   "candidate": "cursive-writing",
+   "s": [
+    "håndskrift 3. klasse"
+   ]
+  },
+  "billedserie": {
+   "candidate": "story-sequencing",
+   "s": [
+    "billedserie",
+    "billedserie til væg",
+    "billedserie der viser et forløb",
+    "billedserie iphone",
+    "billedserie instagram",
+    "billedserie engelsk",
+    "lav en billedserie",
+    "ikea billedserie",
+    "damms billedserier"
+   ]
+  },
+  "rækkefølge billeder": {
+   "candidate": "story-sequencing",
+   "s": [
+    "ændre rækkefølge billeder facebook"
+   ]
+  },
+  "fortælle historie": {
+   "candidate": "story-sequencing",
+   "s": [
+    "fortælle historier for børn",
+    "fortælle historier",
+    "at fortælle historier i juraen i litteraturen og i livet",
+    "lær at fortælle historier"
+   ]
+  },
+  "hygiejne": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hygiejne",
+    "hygiejnebevis",
+    "hygiejnekursus",
+    "hygiejnebind",
+    "hygiejne på engelsk",
+    "hygiejnevejledningen",
+    "hygiejneuge",
+    "hygiejneforordningen",
+    "hygiejne krydsord",
+    "hygiejnekursus tatovør"
+   ]
+  },
+  "hygiejne opgaver": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hygiejne opgaver"
+   ]
+  },
+  "vaske hænder": {
+   "candidate": "healthy-habits",
+   "s": [
+    "vaske hænder",
+    "vaske hænder sang",
+    "vaske hænder sang tekst",
+    "vaske hænder plakat",
+    "vaske hænder børn",
+    "vaske hænder tegning",
+    "vaske hænder i koldt eller varmt vand",
+    "vaske hænder guide",
+    "vaske hænder billeder",
+    "vaske hænder plakat børn"
+   ]
+  },
+  "sundhed": {
+   "candidate": "healthy-habits",
+   "s": [
+    "sundhed",
+    "sundhedsvejen",
+    "sundhedsforsikring",
+    "sundhedsstyrelsen",
+    "sundhed.dk find behandler",
+    "sundhedsplejerske",
+    "sundhedsjournalen",
+    "sundhedskort",
+    "sundhedsjobs",
+    "sundhedsplatform"
+   ]
+  },
+  "dyrs levesteder": {
+   "candidate": "habitats",
+   "s": [
+    "dyrs levesteder"
+   ]
+  },
+  "hvor bor dyrene": {
+   "candidate": "habitats",
+   "s": [
+    "hvor bor dyrene",
+    "hvor bor dyrene om vinteren",
+    "hvor bor dyrene spil",
+    "hvor bor dyrene spill"
+   ]
+  },
+  "dyr og natur": {
+   "candidate": "habitats",
+   "s": [
+    "dyr og natur",
+    "plakater dyr og natur",
+    "børn dyr og natur",
+    "jeopardy dyr og natur",
+    "enghave dyre og naturpark",
+    "dyr natur",
+    "dyr naturgummi",
+    "uddannelser med dyr og natur",
+    "bøger om dyr og natur",
+    "hvordan påvirker vindmøller dyr og natur"
+   ]
+  },
+  "flyde eller synke": {
+   "candidate": "sink-or-float",
+   "s": [
+    "flyde eller synke æg",
+    "flyde eller synke",
+    "afføring flyde eller synke",
+    "skal æg flyde eller synke",
+    "skal afføring flyde eller synke",
+    "skal æg flyde eller synke i vand",
+    "skal pølser flyde eller synke",
+    "skal blåbær flyde eller synke",
+    "skal gode æg flyde eller synke",
+    "skal friske æg flyde eller synke"
+   ]
+  },
+  "flyder eller synker": {
+   "candidate": "sink-or-float",
+   "s": [
+    "flyder eller synker friske æg",
+    "flyder eller synker din afføring",
+    "flyder eller synker",
+    "flyder eller synker dårlige æg",
+    "flyder eller synker æg",
+    "flyder eller synker en appelsin"
+   ]
+  }
+ }
+}

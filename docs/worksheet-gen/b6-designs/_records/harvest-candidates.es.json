@@ -1,0 +1,1450 @@
+{
+ "locale": "es",
+ "market": {
+  "hl": "es",
+  "gl": "mx"
+ },
+ "generatedAt": "2026-09-23T15:55:03.400Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/candidate-seeds.json",
+ "requestCount": 98,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "letra cursiva",
+    "caligrafía",
+    "letra ligada"
+   ],
+   "requests": 21,
+   "productiveSeeds": 20,
+   "unique": 151,
+   "suggestions": [
+    "abecedario en letra cursiva para primer grado",
+    "abecedario en letra cursiva para segundo grado",
+    "abecedario letra ligada para imprimir",
+    "actividades caligrafia segundo grado",
+    "actividades en letra cursiva para primer grado para imprimir",
+    "actividades en letra cursiva para segundo grado para imprimir",
+    "actividades letra cursiva para preescolar",
+    "caligrafia ficha 12",
+    "caligrafia ficha 2",
+    "caligrafia ficha 3",
+    "caligrafia ficha 4",
+    "caligrafia ficha 5",
+    "caligrafia ficha 6",
+    "caligrafia ficha 8",
+    "caligrafia fichas para imprimir",
+    "caligrafia letra ligada para imprimir",
+    "caligrafia para imprimir 12 años",
+    "caligrafia para imprimir para niños de 5 años",
+    "caligrafia para niños",
+    "caligrafia preescolar 1 pdf",
+    "caligrafia preescolar 2",
+    "caligrafia preescolar 2 pdf",
+    "caligrafia preescolar para imprimir",
+    "caligrafia preescolar vocales para imprimir",
+    "caligrafia primaria alta",
+    "caligrafia primaria ejercicios",
+    "caligrafia primaria para imprimir",
+    "caligrafia primaria pdf gratis",
+    "caligrafia primaria segundo grado",
+    "caligrafia primer grado de primaria pdf",
+    "caligrafia primer grado doble raya",
+    "caligrafia primer grado libro",
+    "caligrafia primer grado preescolar",
+    "caligrafia primer grado vocales",
+    "caligrafia segundo grado de primaria pdf",
+    "caligrafia segundo grado larousse",
+    "caligrafía",
+    "caligrafía ejercicios",
+    "caligrafía ficha 1",
+    "caligrafía fichas",
+    "caligrafía para imprimir",
+    "caligrafía para imprimir adulto",
+    "caligrafía para imprimir gratis",
+    "caligrafía para imprimir niños",
+    "caligrafía para imprimir para mejorar la letra",
+    "caligrafía para imprimir pdf",
+    "caligrafía para imprimir pdf gratis",
+    "caligrafía para imprimir secundaria",
+    "caligrafía para mejorar la letra",
+    "caligrafía para niños de 10 a 12 años pdf",
+    "caligrafía para niños de 4 a 5 años pdf",
+    "caligrafía para niños de 7 a 8 años",
+    "caligrafía para niños de 7 a 8 años pdf",
+    "caligrafía para niños de 9 a 10 años",
+    "caligrafía para niños de 9 a 10 años pdf gratis",
+    "caligrafía para primer grado",
+    "caligrafía para segundo grado",
+    "caligrafía para segundo grado de primaria",
+    "caligrafía para segundo grado de secundaria",
+    "caligrafía para segundo grado para imprimir",
+    "caligrafía preescolar",
+    "caligrafía preescolar 1",
+    "caligrafía preescolar 3",
+    "caligrafía preescolar 3 pdf",
+    "caligrafía preescolar pdf",
+    "caligrafía primaria",
+    "caligrafía primaria 1",
+    "caligrafía primaria 2",
+    "caligrafía primaria pdf",
+    "caligrafía primaria santillana pdf",
+    "caligrafía primer grado",
+    "caligrafía primer grado para imprimir",
+    "caligrafía primer grado pdf",
+    "caligrafía primer grado primaria",
+    "caligrafía segundo grado",
+    "caligrafía segundo grado pdf",
+    "caligrafía segundo grado primaria",
+    "cuentos con letra ligada para imprimir",
+    "ejercicios letra cursiva para segundo grado",
+    "ejercicios letra cursiva primer grado",
+    "ejercicios letra ligada para imprimir",
+    "enseñar letra cursiva preescolar",
+    "enseñar letra cursiva primaria",
+    "ficha leitura cursiva e bastao",
+    "ficha letra cursiva maiuscula e minuscula",
+    "ficha letra cursiva nome",
+    "ficha letra cursiva para imprimir",
+    "fichas letra cursiva para imprimir gratis",
+    "fichas letra ligada para imprimir",
+    "lectura en letra cursiva para primer grado",
+    "lectura en letra cursiva para segundo grado",
+    "lecturas con letra ligada para primer grado",
+    "letra cursiva",
+    "letra cursiva abecedario",
+    "letra cursiva bonita",
+    "letra cursiva convertidor",
+    "letra cursiva copiar y pegar",
+    "letra cursiva elegante",
+    "letra cursiva en whatsapp",
+    "letra cursiva fichas",
+    "letra cursiva mayúscula",
+    "letra cursiva niños primaria",
+    "letra cursiva para escribir",
+    "letra cursiva para imprimir",
+    "letra cursiva para imprimir abecedario",
+    "letra cursiva para imprimir e",
+    "letra cursiva para imprimir gratis",
+    "letra cursiva para imprimir l",
+    "letra cursiva para imprimir m",
+    "letra cursiva para imprimir minuscula",
+    "letra cursiva para imprimir moldes",
+    "letra cursiva para imprimir pdf",
+    "letra cursiva para imprimir y practicar",
+    "letra cursiva para niños de preescolar",
+    "letra cursiva para niños de primaria abecedario",
+    "letra cursiva para practicar primer grado",
+    "letra cursiva para primaria",
+    "letra cursiva para primer grado",
+    "letra cursiva para segundo grado",
+    "letra cursiva preescolar",
+    "letra cursiva primaria",
+    "letra cursiva primer grado",
+    "letra cursiva rusa",
+    "letra cursiva segundo grado",
+    "letra e cursiva preescolar",
+    "letra e ligada para imprimir",
+    "letra ligada",
+    "letra ligada abecedario",
+    "letra ligada bonita",
+    "letra ligada copiar y pegar",
+    "letra ligada ejemplos",
+    "letra ligada en canva",
+    "letra ligada en word",
+    "letra ligada fichas",
+    "letra ligada para descargar",
+    "letra ligada para imprimir",
+    "letra ligada para niños",
+    "letra ligada para niños de primaria",
+    "letra ligada para primer grado",
+    "letra ligada para word",
+    "letra ligada preescolar",
+    "letra ligada primaria",
+    "letra ligada primer grado",
+    "letra m cursiva preescolar",
+    "letra m ligada para imprimir",
+    "letra p cursiva preescolar",
+    "oraciones en letra cursiva para primer grado",
+    "oraciones en letra cursiva para segundo grado",
+    "silabario letra ligada para imprimir",
+    "texto en letra cursiva para segundo grado",
+    "vocales letra ligada para imprimir"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "secuencias temporales",
+    "secuencia de imágenes",
+    "secuencias de cuentos"
+   ],
+   "requests": 21,
+   "productiveSeeds": 18,
+   "unique": 76,
+   "suggestions": [
+    "actividades secuencias temporales para imprimir",
+    "cuentos con secuencia de imagenes para primer grado",
+    "cuentos cortos con secuencias de imágenes para imprimir",
+    "cuentos en secuencia de imagenes para imprimir a color",
+    "cuentos en secuencia de imágenes para imprimir pdf",
+    "cuentos infantiles cuentos en secuencia de imagenes para imprimir a color",
+    "cuentos infantiles secuencias de cuentos para colorear e imprimir",
+    "fichas secuencias temporales para imprimir",
+    "fichas secuencias temporales para niños",
+    "fichas secuencias temporales para niños pdf",
+    "imagenes de secuencias de cuentos para imprimir",
+    "laminas secuencias temporales para imprimir",
+    "ordenar secuencias temporales primaria",
+    "para imprimir secuencia de imagenes de la fabula la liebre y la tortuga",
+    "pdf cuentos infantiles cuentos en secuencia de imagenes para imprimir a color",
+    "primer grado cuento corto secuencia de imagenes",
+    "secuencia de cuentos en imagenes para imprimir",
+    "secuencia de imagenes de cuentos tradicionales para imprimir",
+    "secuencia de imagenes del cuento de caperucita roja para imprimir",
+    "secuencia de imagenes fichas",
+    "secuencia de imagenes para crear cuentos primer grado",
+    "secuencia de imagenes para niños",
+    "secuencia de imagenes para niños de preescolar",
+    "secuencia de imagenes para niños de primaria",
+    "secuencia de imagenes para primaria",
+    "secuencia de imagenes preescolar",
+    "secuencia de imagenes primer grado",
+    "secuencia de imagenes primer grado liveworksheets",
+    "secuencia de imagenes segundo grado",
+    "secuencia de imágenes",
+    "secuencia de imágenes del cuento de caperucita roja para imprimir",
+    "secuencia de imágenes del cuento ricitos de oro para colorear",
+    "secuencia de imágenes del patito feo para imprimir",
+    "secuencia de imágenes para crear cuentos",
+    "secuencia de imágenes para crear cuentos para niños",
+    "secuencia de imágenes para crear cuentos pdf",
+    "secuencia de imágenes para crear cuentos secundaria",
+    "secuencia de imágenes para crear una historia",
+    "secuencia de imágenes para imprimir",
+    "secuencias de cuentos",
+    "secuencias de cuentos para colorear",
+    "secuencias de cuentos para colorear e imprimir",
+    "secuencias de cuentos para colorear e imprimir pdf",
+    "secuencias de cuentos para imprimir",
+    "secuencias de cuentos para niños",
+    "secuencias de cuentos para ordenar",
+    "secuencias de cuentos para ordenar y colorear",
+    "secuencias de cuentos para preescolar",
+    "secuencias de cuentos para primer grado",
+    "secuencias de cuentos preescolar",
+    "secuencias de cuentos tradicionales para imprimir",
+    "secuencias temporales",
+    "secuencias temporales 1 primaria",
+    "secuencias temporales 2 primaria",
+    "secuencias temporales 5 primaria",
+    "secuencias temporales de cuentos para imprimir",
+    "secuencias temporales en un texto",
+    "secuencias temporales fichas",
+    "secuencias temporales para imprimir",
+    "secuencias temporales para imprimir pdf",
+    "secuencias temporales para imprimir secuencia del cuento ricitos de oro",
+    "secuencias temporales para niños",
+    "secuencias temporales para niños de 4 a 5 años",
+    "secuencias temporales para niños de preescolar",
+    "secuencias temporales para niños de primaria",
+    "secuencias temporales para niños imprimir",
+    "secuencias temporales para niños para imprimir",
+    "secuencias temporales para niños pdf",
+    "secuencias temporales para segundo grado",
+    "secuencias temporales preescolar",
+    "secuencias temporales preescolar para imprimir",
+    "secuencias temporales primaria",
+    "secuencias temporales primer grado",
+    "secuencias temporales wordwall",
+    "tarjetas de secuencias temporales para imprimir",
+    "wordwall secuencias temporales primaria"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "hábitos de higiene",
+    "hábitos saludables",
+    "lavado de manos"
+   ],
+   "requests": 21,
+   "productiveSeeds": 21,
+   "unique": 157,
+   "suggestions": [
+    "actividad habitos saludables preescolar",
+    "actividades de habitos saludables para segundo grado",
+    "bingo de habitos saludables para imprimir",
+    "cartel lavado de manos para imprimir",
+    "correcto lavado de manos para imprimir",
+    "correcto lavado de manos para niños de primaria",
+    "dibujos de hábitos saludables para imprimir",
+    "ejercicios habitos saludables primaria",
+    "ficha de aplicacion lavado de manos",
+    "ficha de habitos de higiene para colorear",
+    "ficha de habitos de higiene para primer grado",
+    "ficha de lavado de manos oms",
+    "ficha de lavado de manos para inicial",
+    "ficha de trabajo lavado de manos",
+    "ficha del correcto lavado de manos",
+    "ficha habitos saludables 1o primaria",
+    "ficha habitos saludables 2o primaria",
+    "ficha habitos saludables 3 primaria",
+    "ficha habitos saludables primaria",
+    "ficha lavado de manos para colorear",
+    "ficha tecnica lavado de manos",
+    "fichas de habitos de higiene para niños para colorear",
+    "fichas de habitos de higiene para primaria",
+    "fichas hábitos saludables para niños pdf",
+    "fichas para trabajar habitos de higiene",
+    "folletos de lavado de manos para imprimir",
+    "habitos de higiene actividades para imprimir",
+    "habitos de higiene actividades primer grado",
+    "habitos de higiene dibujos para imprimir",
+    "habitos de higiene en la escuela primaria",
+    "habitos de higiene ficha de trabajo",
+    "habitos de higiene fichas",
+    "habitos de higiene imagenes para imprimir",
+    "habitos de higiene niños preescolar",
+    "habitos de higiene para imprimir e colorir",
+    "habitos de higiene para imprimir pdf",
+    "habitos de higiene para niños",
+    "habitos de higiene para niños fichas",
+    "habitos de higiene para niños imprimir",
+    "habitos de higiene para niños primaria",
+    "habitos de higiene para preescolar actividades",
+    "habitos de higiene para primaria",
+    "habitos de higiene para primer grado",
+    "habitos de higiene para segundo grado",
+    "habitos de higiene para segundo grado de primaria",
+    "habitos de higiene personal fichas",
+    "habitos de higiene preescolar",
+    "habitos de higiene preescolar actividades",
+    "habitos de higiene preescolar para colorear",
+    "habitos de higiene preescolar pdf",
+    "habitos de higiene primaria",
+    "habitos de higiene primero primaria",
+    "habitos de higiene segundo grado",
+    "habitos de higiene tercero de primaria",
+    "habitos saludables 3 primaria",
+    "habitos saludables 4 primaria",
+    "habitos saludables actividades primer grado",
+    "habitos saludables ficha",
+    "habitos saludables ficha de trabajo",
+    "habitos saludables ficha para niños",
+    "habitos saludables imagenes para imprimir",
+    "habitos saludables niños primaria",
+    "habitos saludables para imprimir y colorear",
+    "habitos saludables para niños",
+    "habitos saludables para niños de segundo grado de primaria",
+    "habitos saludables para niños imagenes para imprimir",
+    "habitos saludables para niños imprimir",
+    "habitos saludables para niños preescolar",
+    "habitos saludables para primer grado",
+    "habitos saludables para segundo grado",
+    "habitos saludables preescolar",
+    "habitos saludables primaria",
+    "habitos saludables primaria pdf",
+    "habitos saludables primer grado",
+    "habitos saludables segundo grado",
+    "hoja de trabajo lavado de manos preescolar",
+    "hábitos de higiene",
+    "hábitos de higiene en casa",
+    "hábitos de higiene en la comunidad",
+    "hábitos de higiene en la escuela",
+    "hábitos de higiene para imprimir",
+    "hábitos de higiene para primer grado de primaria",
+    "hábitos de higiene personal",
+    "hábitos de higiene personal para niños",
+    "hábitos de higiene primer grado",
+    "hábitos de higiene que se practican en casa",
+    "hábitos de higiene que se pueden mejorar o implementar en casa",
+    "hábitos de higiene y salud",
+    "hábitos saludables",
+    "hábitos saludables 1 primaria",
+    "hábitos saludables 2 primaria",
+    "hábitos saludables de alimentación",
+    "hábitos saludables dibujos",
+    "hábitos saludables ejemplos",
+    "hábitos saludables en familia",
+    "hábitos saludables en inglés",
+    "hábitos saludables fichas actividades didacticas para niños sobre los alimentos",
+    "hábitos saludables imágenes",
+    "hábitos saludables para imprimir",
+    "hábitos saludables para niños de primaria",
+    "hábitos saludables pdf",
+    "importancia del lavado de manos preescolar",
+    "laminas de habitos de higiene para imprimir",
+    "lavado correcto de manos preescolar",
+    "lavado de manos",
+    "lavado de manos 5 momentos",
+    "lavado de manos clinico",
+    "lavado de manos con gel",
+    "lavado de manos en enfermería",
+    "lavado de manos ficha",
+    "lavado de manos ficha para niños",
+    "lavado de manos imagenes para imprimir",
+    "lavado de manos letras para imprimir",
+    "lavado de manos niños de preescolar",
+    "lavado de manos oms",
+    "lavado de manos oms para imprimir",
+    "lavado de manos para imprimir",
+    "lavado de manos para imprimir pdf",
+    "lavado de manos para niños de primaria",
+    "lavado de manos para primer grado",
+    "lavado de manos para segundo grado",
+    "lavado de manos pasos para imprimir",
+    "lavado de manos preescolar",
+    "lavado de manos preescolar actividades",
+    "lavado de manos preescolar para colorear",
+    "lavado de manos primaria",
+    "lavado de manos primer grado",
+    "lavado de manos quirurgico",
+    "lavado de manos quirúrgico con cepillo",
+    "lavado de manos quirúrgico oms",
+    "lavado de manos según la oms",
+    "loteria de habitos saludables para imprimir",
+    "memorama de hábitos de higiene para imprimir",
+    "memorama de hábitos saludables para imprimir",
+    "pasos lavado de manos preescolar",
+    "plan habitos de higiene preescolar",
+    "planeacion habitos de higiene primaria",
+    "planeacion habitos saludables preescolar",
+    "planeación hábitos de higiene preescolar",
+    "protocolo lavado de manos para imprimir",
+    "proyecto habitos de higiene preescolar",
+    "proyecto habitos de higiene primaria",
+    "proyecto habitos saludables preescolar",
+    "proyecto hábitos saludables primaria",
+    "rompecabezas de habitos de higiene para imprimir",
+    "secuencia de lavado de manos preescolar",
+    "secuencia habitos saludables primer grado",
+    "sesion de lavado de manos para primer grado",
+    "sesion habitos de higiene primer grado",
+    "sesión de aprendizaje lavado de manos primaria",
+    "sesión de aprendizaje lavado de manos primer grado",
+    "sesión de aprendizaje sobre hábitos de higiene para segundo grado",
+    "sesión de lavado de manos primaria",
+    "situacion didactica habitos de higiene preescolar",
+    "sopa de letras hábitos saludables para imprimir",
+    "tecnica de lavado de manos preescolar",
+    "trabajo habitos saludables primaria"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "hábitat de los animales",
+    "dónde viven los animales",
+    "hábitats"
+   ],
+   "requests": 21,
+   "productiveSeeds": 18,
+   "unique": 66,
+   "suggestions": [
+    "actividades sobre el hábitat de los animales para preescolar",
+    "clasificacion de los animales segun su habitat grado segundo",
+    "clasificacion de los animales segun su habitat para preescolar",
+    "clasificacion de los animales segun su habitat para primaria",
+    "donde viven los animales ficha",
+    "donde viven los animales para preescolar",
+    "donde viven los animales preescolar",
+    "donde viven los animales primer grado",
+    "dónde viven los animales",
+    "dónde viven los animales acuáticos",
+    "dónde viven los animales carnívoros",
+    "dónde viven los animales herbívoros",
+    "dónde viven los animales invertebrados",
+    "dónde viven los animales mamíferos",
+    "dónde viven los animales ovíparos",
+    "dónde viven los animales para niños de primaria",
+    "dónde viven los animales salvajes",
+    "dónde viven los animales terrestres",
+    "dónde viven los animales vertebrados",
+    "ficha de aplicacion donde viven los animales",
+    "ficha de los animales segun su habitat",
+    "ficha de trabajo del habitat de los animales",
+    "ficha de trabajo donde viven los animales",
+    "ficha para trabajar donde viven los animales",
+    "ficha para trabajar el hábitat de los animales",
+    "fichas actividades para trabajar el habitat de los animales",
+    "fichas del hábitat de los animales para niños",
+    "fichas habitats",
+    "fichas habitats interes comunitario",
+    "fichas habitats miteco",
+    "fichas habitats rede natura 2000",
+    "habitat de los animales para niños",
+    "habitats para imprimir",
+    "habitats preescolar",
+    "habitats primaria",
+    "hábitat de los animales",
+    "hábitat de los animales acuáticos",
+    "hábitat de los animales ficha",
+    "hábitat de los animales invertebrados",
+    "hábitat de los animales marinos",
+    "hábitat de los animales para imprimir",
+    "hábitat de los animales para niños de preescolar",
+    "hábitat de los animales para niños de primaria",
+    "hábitat de los animales para niños de primer grado",
+    "hábitat de los animales para niños de segundo grado",
+    "hábitat de los animales para primero de primaria",
+    "hábitat de los animales para segundo de primaria",
+    "hábitat de los animales para segundo grado de primaria",
+    "hábitat de los animales preescolar",
+    "hábitat de los animales primaria",
+    "hábitat de los animales primer grado",
+    "hábitat de los animales salvajes",
+    "hábitat de los animales segundo grado",
+    "hábitat de los animales terrestres",
+    "hábitat de los animales vertebrados",
+    "hábitats",
+    "hábitats acuáticos",
+    "hábitats de animales",
+    "hábitats de animales en ingles",
+    "hábitats en inglés",
+    "hábitats naturales",
+    "hábitats para hamster",
+    "hábitats para tortugas",
+    "hábitats para tortugas de agua",
+    "hábitats pokopia",
+    "los animales y el lugar donde viven segundo grado"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "flota o se hunde",
+    "flotación"
+   ],
+   "requests": 14,
+   "productiveSeeds": 5,
+   "unique": 23,
+   "suggestions": [
+    "caca flota o se hunde",
+    "ficha flota o se hunde",
+    "flota o se hunde",
+    "flota o se hunde actividad",
+    "flota o se hunde en el agua",
+    "flota o se hunde en ingles",
+    "flota o se hunde experimento",
+    "flota o se hunde experimento preescolar",
+    "flota o se hunde huevo",
+    "flota o se hunde para niños",
+    "flota o se hunde preescolar",
+    "flotacion primaria",
+    "flotación",
+    "flotación de faust",
+    "flotación de minerales",
+    "flotación dorsal",
+    "flotación dorsal y ventral",
+    "flotación en física",
+    "flotación método de separación",
+    "flotación por aire disuelto",
+    "flotación primaria rougher",
+    "flotación ventral",
+    "flotación vertical natación"
+   ]
+  }
+ },
+ "suggestions": {
+  "letra cursiva": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra cursiva",
+    "letra cursiva copiar y pegar",
+    "letra cursiva convertidor",
+    "letra cursiva abecedario",
+    "letra cursiva elegante",
+    "letra cursiva rusa",
+    "letra cursiva para escribir",
+    "letra cursiva en whatsapp",
+    "letra cursiva bonita",
+    "letra cursiva mayúscula"
+   ]
+  },
+  "letra cursiva ficha": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra cursiva fichas",
+    "fichas letra cursiva para imprimir gratis",
+    "ficha letra cursiva maiuscula e minuscula",
+    "ficha letra cursiva nome",
+    "ficha letra cursiva para imprimir",
+    "ficha leitura cursiva e bastao"
+   ]
+  },
+  "letra cursiva para imprimir": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra cursiva para imprimir",
+    "letra cursiva para imprimir gratis",
+    "letra cursiva para imprimir pdf",
+    "letra cursiva para imprimir y practicar",
+    "letra cursiva para imprimir abecedario",
+    "letra cursiva para imprimir minuscula",
+    "letra cursiva para imprimir e",
+    "letra cursiva para imprimir moldes",
+    "letra cursiva para imprimir m",
+    "letra cursiva para imprimir l"
+   ]
+  },
+  "letra cursiva preescolar": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra cursiva preescolar",
+    "letra m cursiva preescolar",
+    "letra p cursiva preescolar",
+    "letra e cursiva preescolar",
+    "letra cursiva para niños de preescolar",
+    "actividades letra cursiva para preescolar",
+    "enseñar letra cursiva preescolar"
+   ]
+  },
+  "letra cursiva primer grado": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra cursiva primer grado",
+    "letra cursiva para primer grado",
+    "ejercicios letra cursiva primer grado",
+    "letra cursiva para practicar primer grado",
+    "actividades en letra cursiva para primer grado para imprimir",
+    "oraciones en letra cursiva para primer grado",
+    "lectura en letra cursiva para primer grado",
+    "abecedario en letra cursiva para primer grado"
+   ]
+  },
+  "letra cursiva segundo grado": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra cursiva segundo grado",
+    "letra cursiva para segundo grado",
+    "ejercicios letra cursiva para segundo grado",
+    "actividades en letra cursiva para segundo grado para imprimir",
+    "lectura en letra cursiva para segundo grado",
+    "oraciones en letra cursiva para segundo grado",
+    "texto en letra cursiva para segundo grado",
+    "abecedario en letra cursiva para segundo grado"
+   ]
+  },
+  "letra cursiva primaria": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra cursiva primaria",
+    "letra cursiva para primaria",
+    "letra cursiva niños primaria",
+    "enseñar letra cursiva primaria",
+    "letra cursiva para niños de primaria abecedario"
+   ]
+  },
+  "caligrafía": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafía",
+    "caligrafía para niños de 10 a 12 años pdf",
+    "caligrafía para mejorar la letra",
+    "caligrafía ejercicios",
+    "caligrafía para niños de 7 a 8 años",
+    "caligrafía para niños de 9 a 10 años",
+    "caligrafia para niños",
+    "caligrafía para niños de 7 a 8 años pdf",
+    "caligrafía para niños de 4 a 5 años pdf",
+    "caligrafía para niños de 9 a 10 años pdf gratis"
+   ]
+  },
+  "caligrafía ficha": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafía ficha 1",
+    "caligrafía fichas",
+    "caligrafia fichas para imprimir",
+    "caligrafia ficha 5",
+    "caligrafia ficha 3",
+    "caligrafia ficha 4",
+    "caligrafia ficha 2",
+    "caligrafia ficha 12",
+    "caligrafia ficha 6",
+    "caligrafia ficha 8"
+   ]
+  },
+  "caligrafía para imprimir": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafía para imprimir pdf",
+    "caligrafía para imprimir",
+    "caligrafía para imprimir adulto",
+    "caligrafía para imprimir gratis",
+    "caligrafía para imprimir para mejorar la letra",
+    "caligrafía para imprimir niños",
+    "caligrafía para imprimir pdf gratis",
+    "caligrafia para imprimir 12 años",
+    "caligrafia para imprimir para niños de 5 años",
+    "caligrafía para imprimir secundaria"
+   ]
+  },
+  "caligrafía preescolar": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafía preescolar",
+    "caligrafía preescolar pdf",
+    "caligrafía preescolar 1",
+    "caligrafía preescolar 3 pdf",
+    "caligrafía preescolar 3",
+    "caligrafia preescolar 2",
+    "caligrafia preescolar para imprimir",
+    "caligrafia preescolar vocales para imprimir",
+    "caligrafia preescolar 2 pdf",
+    "caligrafia preescolar 1 pdf"
+   ]
+  },
+  "caligrafía primer grado": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafía primer grado pdf",
+    "caligrafía primer grado",
+    "caligrafía primer grado para imprimir",
+    "caligrafía primer grado primaria",
+    "caligrafia primer grado de primaria pdf",
+    "caligrafia primer grado doble raya",
+    "caligrafia primer grado libro",
+    "caligrafia primer grado preescolar",
+    "caligrafia primer grado vocales",
+    "caligrafía para primer grado"
+   ]
+  },
+  "caligrafía segundo grado": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafía segundo grado",
+    "caligrafía segundo grado primaria",
+    "caligrafía segundo grado pdf",
+    "caligrafia segundo grado de primaria pdf",
+    "caligrafia segundo grado larousse",
+    "caligrafía para segundo grado",
+    "caligrafía para segundo grado de primaria",
+    "caligrafía para segundo grado para imprimir",
+    "actividades caligrafia segundo grado",
+    "caligrafía para segundo grado de secundaria"
+   ]
+  },
+  "caligrafía primaria": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafía primaria",
+    "caligrafía primaria pdf",
+    "caligrafia primaria ejercicios",
+    "caligrafia primaria para imprimir",
+    "caligrafia primaria alta",
+    "caligrafía primaria santillana pdf",
+    "caligrafia primaria segundo grado",
+    "caligrafia primaria pdf gratis",
+    "caligrafía primaria 1",
+    "caligrafía primaria 2"
+   ]
+  },
+  "letra ligada": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra ligada",
+    "letra ligada abecedario",
+    "letra ligada copiar y pegar",
+    "letra ligada para niños",
+    "letra ligada ejemplos",
+    "letra ligada para descargar",
+    "letra ligada en word",
+    "letra ligada en canva",
+    "letra ligada para word",
+    "letra ligada bonita"
+   ]
+  },
+  "letra ligada ficha": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra ligada fichas",
+    "fichas letra ligada para imprimir"
+   ]
+  },
+  "letra ligada para imprimir": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra ligada para imprimir",
+    "abecedario letra ligada para imprimir",
+    "fichas letra ligada para imprimir",
+    "caligrafia letra ligada para imprimir",
+    "vocales letra ligada para imprimir",
+    "silabario letra ligada para imprimir",
+    "ejercicios letra ligada para imprimir",
+    "letra m ligada para imprimir",
+    "letra e ligada para imprimir",
+    "cuentos con letra ligada para imprimir"
+   ]
+  },
+  "letra ligada preescolar": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra ligada preescolar"
+   ]
+  },
+  "letra ligada primer grado": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra ligada primer grado",
+    "letra ligada para primer grado",
+    "lecturas con letra ligada para primer grado"
+   ]
+  },
+  "letra ligada primaria": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra ligada primaria",
+    "letra ligada para niños de primaria"
+   ]
+  },
+  "secuencias temporales": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencias temporales",
+    "secuencias temporales para niños",
+    "secuencias temporales para niños pdf",
+    "secuencias temporales wordwall",
+    "secuencias temporales en un texto",
+    "secuencias temporales para imprimir pdf",
+    "secuencias temporales para niños de 4 a 5 años",
+    "secuencias temporales preescolar",
+    "secuencias temporales para niños para imprimir",
+    "secuencias temporales para imprimir"
+   ]
+  },
+  "secuencias temporales ficha": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencias temporales fichas",
+    "fichas secuencias temporales para niños",
+    "fichas secuencias temporales para imprimir",
+    "fichas secuencias temporales para niños pdf"
+   ]
+  },
+  "secuencias temporales para imprimir": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencias temporales para imprimir pdf",
+    "secuencias temporales para imprimir",
+    "secuencias temporales para imprimir secuencia del cuento ricitos de oro",
+    "fichas secuencias temporales para imprimir",
+    "secuencias temporales para niños imprimir",
+    "secuencias temporales preescolar para imprimir",
+    "laminas secuencias temporales para imprimir",
+    "actividades secuencias temporales para imprimir",
+    "tarjetas de secuencias temporales para imprimir",
+    "secuencias temporales de cuentos para imprimir"
+   ]
+  },
+  "secuencias temporales preescolar": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencias temporales preescolar",
+    "secuencias temporales preescolar para imprimir",
+    "secuencias temporales para niños de preescolar"
+   ]
+  },
+  "secuencias temporales primer grado": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencias temporales primer grado"
+   ]
+  },
+  "secuencias temporales segundo grado": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencias temporales para segundo grado"
+   ]
+  },
+  "secuencias temporales primaria": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencias temporales primaria",
+    "secuencias temporales 1 primaria",
+    "secuencias temporales 5 primaria",
+    "wordwall secuencias temporales primaria",
+    "secuencias temporales 2 primaria",
+    "ordenar secuencias temporales primaria",
+    "secuencias temporales para niños de primaria"
+   ]
+  },
+  "secuencia de imágenes": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencia de imágenes para crear cuentos pdf",
+    "secuencia de imágenes",
+    "secuencia de imágenes para imprimir",
+    "secuencia de imágenes para crear cuentos",
+    "secuencia de imágenes para crear cuentos para niños",
+    "secuencia de imágenes para crear cuentos secundaria",
+    "secuencia de imágenes del cuento de caperucita roja para imprimir",
+    "secuencia de imágenes del cuento ricitos de oro para colorear",
+    "secuencia de imágenes para crear una historia",
+    "secuencia de imagenes para niños"
+   ]
+  },
+  "secuencia de imágenes ficha": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencia de imagenes fichas"
+   ]
+  },
+  "secuencia de imágenes para imprimir": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencia de imágenes para imprimir",
+    "secuencia de cuentos en imagenes para imprimir",
+    "cuentos en secuencia de imágenes para imprimir pdf",
+    "cuentos en secuencia de imagenes para imprimir a color",
+    "secuencia de imágenes del patito feo para imprimir",
+    "secuencia de imagenes de cuentos tradicionales para imprimir",
+    "cuentos infantiles cuentos en secuencia de imagenes para imprimir a color",
+    "secuencia de imagenes del cuento de caperucita roja para imprimir",
+    "pdf cuentos infantiles cuentos en secuencia de imagenes para imprimir a color",
+    "para imprimir secuencia de imagenes de la fabula la liebre y la tortuga"
+   ]
+  },
+  "secuencia de imágenes preescolar": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencia de imagenes preescolar",
+    "secuencia de imagenes para niños de preescolar"
+   ]
+  },
+  "secuencia de imágenes primer grado": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencia de imagenes primer grado",
+    "secuencia de imagenes primer grado liveworksheets",
+    "secuencia de imagenes para crear cuentos primer grado",
+    "cuentos con secuencia de imagenes para primer grado",
+    "primer grado cuento corto secuencia de imagenes"
+   ]
+  },
+  "secuencia de imágenes segundo grado": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencia de imagenes segundo grado"
+   ]
+  },
+  "secuencia de imágenes primaria": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencia de imagenes para primaria",
+    "secuencia de imagenes para niños de primaria"
+   ]
+  },
+  "secuencias de cuentos": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencias de cuentos",
+    "secuencias de cuentos para niños",
+    "secuencias de cuentos para colorear e imprimir pdf",
+    "secuencias de cuentos para imprimir",
+    "secuencias de cuentos para colorear",
+    "secuencias de cuentos para ordenar",
+    "secuencias de cuentos para preescolar",
+    "secuencias de cuentos tradicionales para imprimir",
+    "secuencias de cuentos para ordenar y colorear"
+   ]
+  },
+  "secuencias de cuentos para imprimir": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencias de cuentos para imprimir",
+    "secuencias temporales de cuentos para imprimir",
+    "secuencias de cuentos tradicionales para imprimir",
+    "secuencias de cuentos para colorear e imprimir pdf",
+    "imagenes de secuencias de cuentos para imprimir",
+    "secuencias de cuentos para colorear e imprimir",
+    "cuentos infantiles secuencias de cuentos para colorear e imprimir",
+    "cuentos cortos con secuencias de imágenes para imprimir"
+   ]
+  },
+  "secuencias de cuentos preescolar": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencias de cuentos preescolar"
+   ]
+  },
+  "secuencias de cuentos primer grado": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencias de cuentos para primer grado"
+   ]
+  },
+  "hábitos de higiene": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hábitos de higiene",
+    "hábitos de higiene personal",
+    "habitos de higiene para niños",
+    "hábitos de higiene en casa",
+    "hábitos de higiene en la escuela",
+    "hábitos de higiene que se pueden mejorar o implementar en casa",
+    "hábitos de higiene personal para niños",
+    "hábitos de higiene que se practican en casa",
+    "hábitos de higiene en la comunidad",
+    "hábitos de higiene y salud"
+   ]
+  },
+  "hábitos de higiene ficha": {
+   "candidate": "healthy-habits",
+   "s": [
+    "habitos de higiene fichas",
+    "habitos de higiene ficha de trabajo",
+    "habitos de higiene personal fichas",
+    "habitos de higiene para niños fichas",
+    "ficha de habitos de higiene para colorear",
+    "fichas de habitos de higiene para niños para colorear",
+    "ficha de habitos de higiene para primer grado",
+    "fichas de habitos de higiene para primaria",
+    "fichas para trabajar habitos de higiene"
+   ]
+  },
+  "hábitos de higiene para imprimir": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hábitos de higiene para imprimir",
+    "habitos de higiene para imprimir pdf",
+    "habitos de higiene para imprimir e colorir",
+    "habitos de higiene actividades para imprimir",
+    "habitos de higiene imagenes para imprimir",
+    "habitos de higiene dibujos para imprimir",
+    "habitos de higiene para niños imprimir",
+    "memorama de hábitos de higiene para imprimir",
+    "rompecabezas de habitos de higiene para imprimir",
+    "laminas de habitos de higiene para imprimir"
+   ]
+  },
+  "hábitos de higiene preescolar": {
+   "candidate": "healthy-habits",
+   "s": [
+    "habitos de higiene preescolar",
+    "habitos de higiene preescolar actividades",
+    "habitos de higiene preescolar pdf",
+    "habitos de higiene preescolar para colorear",
+    "planeación hábitos de higiene preescolar",
+    "proyecto habitos de higiene preescolar",
+    "habitos de higiene niños preescolar",
+    "plan habitos de higiene preescolar",
+    "habitos de higiene para preescolar actividades",
+    "situacion didactica habitos de higiene preescolar"
+   ]
+  },
+  "hábitos de higiene primer grado": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hábitos de higiene primer grado",
+    "habitos de higiene para primer grado",
+    "sesion habitos de higiene primer grado",
+    "habitos de higiene actividades primer grado",
+    "hábitos de higiene para primer grado de primaria",
+    "ficha de habitos de higiene para primer grado"
+   ]
+  },
+  "hábitos de higiene segundo grado": {
+   "candidate": "healthy-habits",
+   "s": [
+    "habitos de higiene segundo grado",
+    "habitos de higiene para segundo grado",
+    "habitos de higiene para segundo grado de primaria",
+    "sesión de aprendizaje sobre hábitos de higiene para segundo grado"
+   ]
+  },
+  "hábitos de higiene primaria": {
+   "candidate": "healthy-habits",
+   "s": [
+    "habitos de higiene primaria",
+    "proyecto habitos de higiene primaria",
+    "habitos de higiene para primaria",
+    "habitos de higiene primero primaria",
+    "planeacion habitos de higiene primaria",
+    "habitos de higiene para niños primaria",
+    "habitos de higiene tercero de primaria",
+    "habitos de higiene en la escuela primaria",
+    "habitos de higiene para segundo grado de primaria",
+    "fichas de habitos de higiene para primaria"
+   ]
+  },
+  "hábitos saludables": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hábitos saludables",
+    "habitos saludables para niños",
+    "hábitos saludables para niños de primaria",
+    "hábitos saludables ejemplos",
+    "hábitos saludables en inglés",
+    "hábitos saludables imágenes",
+    "hábitos saludables dibujos",
+    "hábitos saludables en familia",
+    "hábitos saludables de alimentación",
+    "hábitos saludables pdf"
+   ]
+  },
+  "hábitos saludables ficha": {
+   "candidate": "healthy-habits",
+   "s": [
+    "habitos saludables ficha",
+    "hábitos saludables fichas actividades didacticas para niños sobre los alimentos",
+    "habitos saludables ficha de trabajo",
+    "habitos saludables ficha para niños",
+    "fichas hábitos saludables para niños pdf",
+    "ficha habitos saludables 3 primaria",
+    "ficha habitos saludables 1o primaria",
+    "ficha habitos saludables 2o primaria",
+    "ficha habitos saludables primaria"
+   ]
+  },
+  "hábitos saludables para imprimir": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hábitos saludables para imprimir",
+    "habitos saludables para imprimir y colorear",
+    "habitos saludables imagenes para imprimir",
+    "habitos saludables para niños imprimir",
+    "dibujos de hábitos saludables para imprimir",
+    "memorama de hábitos saludables para imprimir",
+    "bingo de habitos saludables para imprimir",
+    "loteria de habitos saludables para imprimir",
+    "sopa de letras hábitos saludables para imprimir",
+    "habitos saludables para niños imagenes para imprimir"
+   ]
+  },
+  "hábitos saludables preescolar": {
+   "candidate": "healthy-habits",
+   "s": [
+    "habitos saludables preescolar",
+    "planeacion habitos saludables preescolar",
+    "proyecto habitos saludables preescolar",
+    "actividad habitos saludables preescolar",
+    "habitos saludables para niños preescolar"
+   ]
+  },
+  "hábitos saludables primer grado": {
+   "candidate": "healthy-habits",
+   "s": [
+    "habitos saludables primer grado",
+    "habitos saludables para primer grado",
+    "habitos saludables actividades primer grado",
+    "secuencia habitos saludables primer grado"
+   ]
+  },
+  "hábitos saludables segundo grado": {
+   "candidate": "healthy-habits",
+   "s": [
+    "habitos saludables segundo grado",
+    "habitos saludables para segundo grado",
+    "habitos saludables para niños de segundo grado de primaria",
+    "actividades de habitos saludables para segundo grado"
+   ]
+  },
+  "hábitos saludables primaria": {
+   "candidate": "healthy-habits",
+   "s": [
+    "habitos saludables primaria",
+    "habitos saludables primaria pdf",
+    "proyecto hábitos saludables primaria",
+    "habitos saludables niños primaria",
+    "hábitos saludables 2 primaria",
+    "hábitos saludables 1 primaria",
+    "trabajo habitos saludables primaria",
+    "habitos saludables 4 primaria",
+    "ejercicios habitos saludables primaria",
+    "habitos saludables 3 primaria"
+   ]
+  },
+  "lavado de manos": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavado de manos",
+    "lavado de manos quirurgico",
+    "lavado de manos oms",
+    "lavado de manos clinico",
+    "lavado de manos en enfermería",
+    "lavado de manos con gel",
+    "lavado de manos quirúrgico oms",
+    "lavado de manos 5 momentos",
+    "lavado de manos según la oms",
+    "lavado de manos quirúrgico con cepillo"
+   ]
+  },
+  "lavado de manos ficha": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavado de manos ficha",
+    "lavado de manos ficha para niños",
+    "ficha lavado de manos para colorear",
+    "ficha tecnica lavado de manos",
+    "ficha de lavado de manos oms",
+    "ficha de lavado de manos para inicial",
+    "ficha de trabajo lavado de manos",
+    "ficha de aplicacion lavado de manos",
+    "ficha del correcto lavado de manos"
+   ]
+  },
+  "lavado de manos para imprimir": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavado de manos para imprimir",
+    "lavado de manos para imprimir pdf",
+    "lavado de manos imagenes para imprimir",
+    "protocolo lavado de manos para imprimir",
+    "cartel lavado de manos para imprimir",
+    "lavado de manos oms para imprimir",
+    "lavado de manos letras para imprimir",
+    "correcto lavado de manos para imprimir",
+    "lavado de manos pasos para imprimir",
+    "folletos de lavado de manos para imprimir"
+   ]
+  },
+  "lavado de manos preescolar": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavado de manos preescolar",
+    "lavado de manos preescolar para colorear",
+    "lavado de manos preescolar actividades",
+    "lavado correcto de manos preescolar",
+    "pasos lavado de manos preescolar",
+    "lavado de manos niños de preescolar",
+    "tecnica de lavado de manos preescolar",
+    "importancia del lavado de manos preescolar",
+    "secuencia de lavado de manos preescolar",
+    "hoja de trabajo lavado de manos preescolar"
+   ]
+  },
+  "lavado de manos primer grado": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavado de manos primer grado",
+    "lavado de manos para primer grado",
+    "sesión de aprendizaje lavado de manos primer grado",
+    "sesion de lavado de manos para primer grado"
+   ]
+  },
+  "lavado de manos segundo grado": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavado de manos para segundo grado"
+   ]
+  },
+  "lavado de manos primaria": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavado de manos primaria",
+    "sesión de lavado de manos primaria",
+    "lavado de manos para niños de primaria",
+    "sesión de aprendizaje lavado de manos primaria",
+    "correcto lavado de manos para niños de primaria"
+   ]
+  },
+  "hábitat de los animales": {
+   "candidate": "habitats",
+   "s": [
+    "hábitat de los animales",
+    "habitat de los animales para niños",
+    "hábitat de los animales marinos",
+    "hábitat de los animales acuáticos",
+    "hábitat de los animales terrestres",
+    "hábitat de los animales para niños de segundo grado",
+    "hábitat de los animales vertebrados",
+    "hábitat de los animales salvajes",
+    "hábitat de los animales invertebrados",
+    "hábitat de los animales para niños de primer grado"
+   ]
+  },
+  "hábitat de los animales ficha": {
+   "candidate": "habitats",
+   "s": [
+    "hábitat de los animales ficha",
+    "fichas del hábitat de los animales para niños",
+    "ficha de trabajo del habitat de los animales",
+    "ficha para trabajar el hábitat de los animales",
+    "ficha de los animales segun su habitat",
+    "fichas actividades para trabajar el habitat de los animales"
+   ]
+  },
+  "hábitat de los animales para imprimir": {
+   "candidate": "habitats",
+   "s": [
+    "hábitat de los animales para imprimir"
+   ]
+  },
+  "hábitat de los animales preescolar": {
+   "candidate": "habitats",
+   "s": [
+    "hábitat de los animales preescolar",
+    "hábitat de los animales para niños de preescolar",
+    "actividades sobre el hábitat de los animales para preescolar",
+    "clasificacion de los animales segun su habitat para preescolar"
+   ]
+  },
+  "hábitat de los animales primer grado": {
+   "candidate": "habitats",
+   "s": [
+    "hábitat de los animales primer grado",
+    "hábitat de los animales para niños de primer grado"
+   ]
+  },
+  "hábitat de los animales segundo grado": {
+   "candidate": "habitats",
+   "s": [
+    "hábitat de los animales segundo grado",
+    "hábitat de los animales para niños de segundo grado",
+    "hábitat de los animales para segundo grado de primaria",
+    "clasificacion de los animales segun su habitat grado segundo"
+   ]
+  },
+  "hábitat de los animales primaria": {
+   "candidate": "habitats",
+   "s": [
+    "hábitat de los animales primaria",
+    "hábitat de los animales para niños de primaria",
+    "hábitat de los animales para primero de primaria",
+    "hábitat de los animales para segundo de primaria",
+    "hábitat de los animales para segundo grado de primaria",
+    "clasificacion de los animales segun su habitat para primaria"
+   ]
+  },
+  "dónde viven los animales": {
+   "candidate": "habitats",
+   "s": [
+    "dónde viven los animales",
+    "dónde viven los animales acuáticos",
+    "dónde viven los animales salvajes",
+    "dónde viven los animales herbívoros",
+    "dónde viven los animales terrestres",
+    "dónde viven los animales carnívoros",
+    "dónde viven los animales invertebrados",
+    "dónde viven los animales ovíparos",
+    "dónde viven los animales mamíferos",
+    "dónde viven los animales vertebrados"
+   ]
+  },
+  "dónde viven los animales ficha": {
+   "candidate": "habitats",
+   "s": [
+    "donde viven los animales ficha",
+    "ficha de trabajo donde viven los animales",
+    "ficha de aplicacion donde viven los animales",
+    "ficha para trabajar donde viven los animales"
+   ]
+  },
+  "dónde viven los animales preescolar": {
+   "candidate": "habitats",
+   "s": [
+    "donde viven los animales preescolar",
+    "donde viven los animales para preescolar"
+   ]
+  },
+  "dónde viven los animales primer grado": {
+   "candidate": "habitats",
+   "s": [
+    "donde viven los animales primer grado"
+   ]
+  },
+  "dónde viven los animales segundo grado": {
+   "candidate": "habitats",
+   "s": [
+    "los animales y el lugar donde viven segundo grado"
+   ]
+  },
+  "dónde viven los animales primaria": {
+   "candidate": "habitats",
+   "s": [
+    "dónde viven los animales para niños de primaria"
+   ]
+  },
+  "hábitats": {
+   "candidate": "habitats",
+   "s": [
+    "hábitats",
+    "hábitats de animales",
+    "hábitats naturales",
+    "hábitats para tortugas",
+    "hábitats para hamster",
+    "hábitats pokopia",
+    "hábitats en inglés",
+    "hábitats para tortugas de agua",
+    "hábitats de animales en ingles",
+    "hábitats acuáticos"
+   ]
+  },
+  "hábitats ficha": {
+   "candidate": "habitats",
+   "s": [
+    "fichas habitats interes comunitario",
+    "fichas habitats",
+    "fichas habitats miteco",
+    "fichas habitats rede natura 2000"
+   ]
+  },
+  "hábitats para imprimir": {
+   "candidate": "habitats",
+   "s": [
+    "habitats para imprimir"
+   ]
+  },
+  "hábitats preescolar": {
+   "candidate": "habitats",
+   "s": [
+    "habitats preescolar"
+   ]
+  },
+  "hábitats primaria": {
+   "candidate": "habitats",
+   "s": [
+    "habitats primaria"
+   ]
+  },
+  "flota o se hunde": {
+   "candidate": "sink-or-float",
+   "s": [
+    "flota o se hunde",
+    "flota o se hunde experimento",
+    "flota o se hunde para niños",
+    "flota o se hunde preescolar",
+    "flota o se hunde experimento preescolar",
+    "flota o se hunde en ingles",
+    "flota o se hunde huevo",
+    "flota o se hunde actividad",
+    "flota o se hunde en el agua",
+    "caca flota o se hunde"
+   ]
+  },
+  "flota o se hunde ficha": {
+   "candidate": "sink-or-float",
+   "s": [
+    "ficha flota o se hunde"
+   ]
+  },
+  "flota o se hunde preescolar": {
+   "candidate": "sink-or-float",
+   "s": [
+    "flota o se hunde preescolar",
+    "flota o se hunde experimento preescolar"
+   ]
+  },
+  "flotación": {
+   "candidate": "sink-or-float",
+   "s": [
+    "flotación",
+    "flotación de minerales",
+    "flotación de faust",
+    "flotación método de separación",
+    "flotación dorsal",
+    "flotación por aire disuelto",
+    "flotación ventral",
+    "flotación en física",
+    "flotación vertical natación",
+    "flotación dorsal y ventral"
+   ]
+  },
+  "flotación primaria": {
+   "candidate": "sink-or-float",
+   "s": [
+    "flotación primaria rougher",
+    "flotacion primaria"
+   ]
+  }
+ }
+}

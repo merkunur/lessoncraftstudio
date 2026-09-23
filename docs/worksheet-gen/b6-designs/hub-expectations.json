@@ -1,0 +1,162 @@
+{
+ "source": "docs/worksheet-gen/b6-designs/README.md (hub-gate expectation matrix)",
+ "locales": [
+  "en",
+  "de",
+  "es",
+  "pt",
+  "fr",
+  "it",
+  "nl",
+  "sv",
+  "da",
+  "no",
+  "fi"
+ ],
+ "keys": {
+  "story-sequencing": {
+   "en": 6,
+   "de": 6,
+   "es": 6,
+   "pt": 6,
+   "fr": 6,
+   "it": 6,
+   "nl": 6,
+   "sv": 6,
+   "da": 6,
+   "no": 6,
+   "fi": 6
+  },
+  "healthy-habits": {
+   "en": 6,
+   "de": 6,
+   "es": 6,
+   "pt": 6,
+   "fr": 6,
+   "it": 6,
+   "nl": 6,
+   "sv": 6,
+   "da": 6,
+   "no": 6,
+   "fi": 6
+  },
+  "habitats": {
+   "en": 6,
+   "de": 6,
+   "es": 6,
+   "pt": 6,
+   "fr": 6,
+   "it": 6,
+   "nl": 6,
+   "sv": 6,
+   "da": 6,
+   "no": 6,
+   "fi": 6
+  },
+  "sink-or-float": {
+   "en": 6,
+   "de": 6,
+   "es": 6,
+   "pt": 6,
+   "fr": 6,
+   "it": 6,
+   "nl": 6,
+   "sv": 6,
+   "da": 6,
+   "no": 6,
+   "fi": 6
+  },
+  "cursive-writing": {
+   "en": 6,
+   "de": 6,
+   "es": 6,
+   "pt": 6,
+   "fr": 6,
+   "it": 6,
+   "nl": 6,
+   "sv": 0,
+   "da": 6,
+   "no": 6,
+   "fi": 0
+  }
+ },
+ "ceiling": {
+  "story-sequencing": {
+   "en": 6,
+   "de": 6,
+   "es": 6,
+   "pt": 6,
+   "fr": 6,
+   "it": 6,
+   "nl": 6,
+   "sv": 6,
+   "da": 6,
+   "no": 6,
+   "fi": 6
+  },
+  "healthy-habits": {
+   "en": 6,
+   "de": 6,
+   "es": 6,
+   "pt": 6,
+   "fr": 6,
+   "it": 6,
+   "nl": 6,
+   "sv": 6,
+   "da": 6,
+   "no": 6,
+   "fi": 6
+  },
+  "habitats": {
+   "en": 6,
+   "de": 6,
+   "es": 6,
+   "pt": 6,
+   "fr": 6,
+   "it": 6,
+   "nl": 6,
+   "sv": 6,
+   "da": 6,
+   "no": 6,
+   "fi": 6
+  },
+  "sink-or-float": {
+   "en": 6,
+   "de": 6,
+   "es": 6,
+   "pt": 6,
+   "fr": 6,
+   "it": 6,
+   "nl": 6,
+   "sv": 6,
+   "da": 6,
+   "no": 6,
+   "fi": 6
+  },
+  "cursive-writing": {
+   "en": 6,
+   "de": 6,
+   "es": 6,
+   "pt": 6,
+   "fr": 6,
+   "it": 6,
+   "nl": 6,
+   "sv": 0,
+   "da": 6,
+   "no": 6,
+   "fi": 0
+  }
+ },
+ "notes": {
+  "story-sequencing": "none",
+  "healthy-habits": "none",
+  "habitats": "none at design; per-locale habitat set is data",
+  "sink-or-float": "none",
+  "cursive-writing": "sv + fi REFUSED whole-type (no joined school script in Lgr22 / OPS 2014; no Playwrite SE/FI); it/es F2 capitals contingent on the native panel"
+ },
+ "controls": {
+  "articles": 4,
+  "word-tracing": 7,
+  "letter-tracing": 6
+ }
+}

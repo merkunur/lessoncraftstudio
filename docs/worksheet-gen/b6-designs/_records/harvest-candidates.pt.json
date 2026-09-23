@@ -1,0 +1,1122 @@
+{
+ "locale": "pt",
+ "market": {
+  "hl": "pt",
+  "gl": "br"
+ },
+ "generatedAt": "2026-09-23T15:55:26.800Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/candidate-seeds.json",
+ "requestCount": 98,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "letra cursiva",
+    "caligrafia",
+    "alfabeto cursivo"
+   ],
+   "requests": 21,
+   "productiveSeeds": 18,
+   "unique": 115,
+   "suggestions": [
+    "alfabeto cursivo",
+    "alfabeto cursivo atividade",
+    "alfabeto cursivo atividade 1 ano",
+    "alfabeto cursivo atividade de caligrafia",
+    "alfabeto cursivo atividade educação infantil",
+    "alfabeto cursivo atividade letra cursiva 2 ano",
+    "alfabeto cursivo atividades de alfabetização letra cursiva",
+    "alfabeto cursivo atividades de caligrafia para imprimir",
+    "alfabeto cursivo atividades de transição da letra bastão para cursiva",
+    "alfabeto cursivo atividades para imprimir",
+    "alfabeto cursivo bonito",
+    "alfabeto cursivo educação infantil",
+    "alfabeto cursivo maiúsculo",
+    "alfabeto cursivo maiúsculo e minúsculo",
+    "alfabeto cursivo maiúsculo e minúsculo para imprimir",
+    "alfabeto cursivo maiúsculo e minúsculo para imprimir pdf",
+    "alfabeto cursivo minúsculo",
+    "alfabeto cursivo para imprimir",
+    "alfabeto cursivo para imprimir caligrafia",
+    "alfabeto cursivo para imprimir colorido",
+    "alfabeto cursivo para imprimir e copiar",
+    "alfabeto cursivo para imprimir e treinar",
+    "alfabeto cursivo para imprimir educação infantil",
+    "alfabeto cursivo para imprimir grande",
+    "alfabeto cursivo para imprimir maiusculo e minusculo",
+    "alfabeto cursivo para imprimir pdf",
+    "alfabeto cursivo para imprimir pdf grátis",
+    "alfabeto cursivo para imprimir pontilhado",
+    "alfabeto cursivo pontilhado",
+    "alfabeto cursivo pontilhado para imprimir",
+    "alfabeto minúsculo cursivo atividade",
+    "atividade alfabeto cursivo educação infantil",
+    "atividade alfabeto cursivo maiusculo educação infantil",
+    "atividade caligrafia educação infantil",
+    "atividade letra cursiva educação infantil",
+    "atividades com alfabeto cursivo para educação infantil 5 anos",
+    "caderno de caligrafia educação infantil",
+    "caligrafia",
+    "caligrafia 1o ano",
+    "caligrafia 2o ano",
+    "caligrafia 3o ano",
+    "caligrafia 3o ano fundamental",
+    "caligrafia antiga",
+    "caligrafia atividade",
+    "caligrafia atividade 1 ano",
+    "caligrafia atividade 2 ano",
+    "caligrafia atividade 3 ano",
+    "caligrafia atividade 4 ano",
+    "caligrafia atividade pdf",
+    "caligrafia atividades 5 ano",
+    "caligrafia atividades para crianças de 6 anos",
+    "caligrafia atividades para imprimir",
+    "caligrafia bonita",
+    "caligrafia bonita para treinar",
+    "caligrafia cursiva",
+    "caligrafia cursiva educação infantil",
+    "caligrafia cursiva para imprimir",
+    "caligrafia educação infantil",
+    "caligrafia educação infantil para imprimir",
+    "caligrafia educação infantil pdf",
+    "caligrafia para adultos",
+    "caligrafia para copiar",
+    "caligrafia para imprimir",
+    "caligrafia para imprimir adulto",
+    "caligrafia para imprimir infantil",
+    "caligrafia para imprimir letra cursiva",
+    "caligrafia para imprimir letra cursiva pdf",
+    "caligrafia para imprimir letra cursiva pdf adulto",
+    "caligrafia para imprimir letra de forma",
+    "caligrafia para imprimir pdf",
+    "caligrafia para imprimir pdf adulto",
+    "caligrafia para imprimir pdf grátis",
+    "caligrafia tecnica",
+    "letra b cursiva educação infantil",
+    "letra c cursiva educação infantil",
+    "letra cursiva",
+    "letra cursiva 1o ano",
+    "letra cursiva 2o ano",
+    "letra cursiva 3o ano",
+    "letra cursiva alfabeto",
+    "letra cursiva atividade 1 ano",
+    "letra cursiva atividade 3 ano",
+    "letra cursiva atividade alfabeto",
+    "letra cursiva atividade para imprimir",
+    "letra cursiva atividades",
+    "letra cursiva atividades 2 ano",
+    "letra cursiva atividades de caligrafia para crianças",
+    "letra cursiva atividades pdf",
+    "letra cursiva bonita",
+    "letra cursiva e letra de forma",
+    "letra cursiva educação infantil",
+    "letra cursiva fonte",
+    "letra cursiva maiúscula",
+    "letra cursiva maiúscula e minúscula",
+    "letra cursiva na educação infantil bncc",
+    "letra cursiva para copiar",
+    "letra cursiva para educação infantil",
+    "letra cursiva para imprimir",
+    "letra cursiva para imprimir alfabeto",
+    "letra cursiva para imprimir atividades",
+    "letra cursiva para imprimir e treinar",
+    "letra cursiva para imprimir grande",
+    "letra cursiva para imprimir gratis",
+    "letra cursiva para imprimir minuscula",
+    "letra cursiva para imprimir molde",
+    "letra cursiva para imprimir pdf",
+    "letra cursiva para imprimir pontilhado",
+    "letra cursiva russa",
+    "letra d cursiva educação infantil",
+    "letra f cursiva educação infantil",
+    "letra j cursiva educação infantil",
+    "letra t cursiva educação infantil",
+    "plano de aula alfabeto cursivo educação infantil",
+    "plano de aula caligrafia educação infantil",
+    "video alfabeto cursivo educação infantil"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "sequência lógica",
+    "sequência de imagens",
+    "sequência de fatos"
+   ],
+   "requests": 21,
+   "productiveSeeds": 11,
+   "unique": 61,
+   "suggestions": [
+    "a sequencia de fatos que relaciona corretamente a leptospirose",
+    "atividade sequencia de fatos",
+    "atividade sequencia de fatos educação infantil",
+    "atividade sequencia de imagens 1 ano",
+    "atividade sequencia de imagens 2 ano",
+    "atividade sequencia logica 1 ano",
+    "atividade sequencia logica historia",
+    "atividade sequencia logica wordwall",
+    "atividade sequencia lógica 3 ano",
+    "atividade sequência lógica 2 ano",
+    "atividade sequência lógica educação infantil",
+    "atividade sequência lógica para imprimir",
+    "atividade sobre sequencia de imagens",
+    "atividades para trabalhar sequencia de fatos",
+    "como trabalhar sequência lógica na educação infantil",
+    "imagens de sequencia logica para imprimir",
+    "jogo de sequencia logica educação infantil",
+    "jogo sequencia logica para imprimir",
+    "objetivo sequência lógica educação infantil",
+    "plano de aula sequência lógica educação infantil",
+    "sequencia de fatos educação infantil",
+    "sequencia de fatos wordwall",
+    "sequencia de imagens atividade",
+    "sequencia de imagens educação infantil",
+    "sequencia de imagens para imprimir",
+    "sequencia de imagens para produção de texto",
+    "sequencia de imagens para produção de texto educação infantil",
+    "sequencia logica atividades carlu",
+    "sequencia logica atividades diarias",
+    "sequencia logica com figuras para imprimir",
+    "sequencia logica de animais para imprimir",
+    "sequencia logica de fatos",
+    "sequencia logica educação infantil",
+    "sequencia logica educação infantil para imprimir",
+    "sequencia lógica para imprimir",
+    "sequencia lógica para imprimir e colorir",
+    "sequencia lógica temporal para imprimir",
+    "sequencia temporal de fatos",
+    "sequência de fatos",
+    "sequência de fatos ilustrados",
+    "sequência de fatos relacionados entre si",
+    "sequência de imagens",
+    "sequência de imagens matemática",
+    "sequência de imagens para construir uma história",
+    "sequência de imagens para construir uma história educação infantil",
+    "sequência de imagens para contar histórias",
+    "sequência de imagens para produção de texto 2 ano",
+    "sequência de imagens para produção de texto 3 ano",
+    "sequência de imagens para produção de texto 4 ano",
+    "sequência de imagens para produção de texto 5 ano",
+    "sequência lógica",
+    "sequência lógica atividades",
+    "sequência lógica de figuras",
+    "sequência lógica exercícios",
+    "sequência lógica exercícios resolvidos",
+    "sequência lógica infantil",
+    "sequência lógica infantil para imprimir",
+    "sequência lógica pdf",
+    "sequência lógica raciocínio lógico",
+    "sequência lógica wordwall",
+    "wordwall sequencia logica educação infantil"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "hábitos de higiene",
+    "higiene pessoal",
+    "hábitos saudáveis"
+   ],
+   "requests": 21,
+   "productiveSeeds": 13,
+   "unique": 100,
+   "suggestions": [
+    "atividade habitos de higiene 1 ano fundamental",
+    "atividade habitos de higiene maternal",
+    "atividade higiene pessoal para imprimir",
+    "atividades hábitos de higiene infantil",
+    "atividades hábitos saudáveis 3 ano",
+    "atividades hábitos saudáveis educação infantil",
+    "atividades sobre habitos de higiene para imprimir",
+    "bingo da higiene pessoal para imprimir",
+    "cartaz de higiene pessoal para imprimir",
+    "cartaz habitos de higiene educação infantil",
+    "cartaz habitos de higiene para imprimir",
+    "como trabalhar hábitos saudáveis na educação infantil",
+    "desenhos de higiene pessoal para imprimir",
+    "desenhos de higiene pessoal para imprimir colorido",
+    "desenhos habitos de higiene para imprimir",
+    "habitos de higiene atividades 1 ano",
+    "habitos de higiene atividades 2 ano",
+    "habitos de higiene atividades 3 ano",
+    "habitos de higiene atividades 4 ano",
+    "habitos de higiene atividades educação infantil",
+    "habitos de higiene educação infantil",
+    "habitos de higiene educação infantil atividade",
+    "habitos de higiene educação infantil para colorir",
+    "habitos de higiene educação infantil para imprimir",
+    "habitos de higiene para imprimir e colorir",
+    "habitos de higiene para imprimir pdf",
+    "habitos saudaveis alimentação e atividade fisica",
+    "habitos saudaveis atividade 1 ano",
+    "habitos saudaveis atividade 2 ano",
+    "habitos saudaveis atividade fisica",
+    "habitos saudaveis atividades",
+    "habitos saudaveis educação infantil",
+    "higiene pessoal",
+    "higiene pessoal atividade 1 ano",
+    "higiene pessoal atividade 4 ano",
+    "higiene pessoal atividade educação infantil",
+    "higiene pessoal atividade infantil",
+    "higiene pessoal atividade ludica",
+    "higiene pessoal atividade maternal",
+    "higiene pessoal atividades",
+    "higiene pessoal atividades 2 ano",
+    "higiene pessoal atividades 3 ano",
+    "higiene pessoal atividades 6 ano",
+    "higiene pessoal educação infantil",
+    "higiene pessoal educação infantil atividades",
+    "higiene pessoal educação infantil bncc",
+    "higiene pessoal educação infantil cartaz",
+    "higiene pessoal educação infantil musica",
+    "higiene pessoal educação infantil objetivo",
+    "higiene pessoal educação infantil para imprimir",
+    "higiene pessoal educação infantil pdf",
+    "higiene pessoal educação infantil plano de aula",
+    "higiene pessoal educação infantil video",
+    "higiene pessoal em inglês",
+    "higiene pessoal lista",
+    "higiene pessoal na adolescência",
+    "higiene pessoal no ambiente de trabalho",
+    "higiene pessoal no trabalho",
+    "higiene pessoal para crianças",
+    "higiene pessoal para imprimir",
+    "higiene pessoal resumo",
+    "historia habitos de higiene educação infantil",
+    "hábitos alimentares saudáveis educação infantil",
+    "hábitos de higiene",
+    "hábitos de higiene 1 ano",
+    "hábitos de higiene 1o ano",
+    "hábitos de higiene atividade",
+    "hábitos de higiene corporal",
+    "hábitos de higiene educação infantil bncc",
+    "hábitos de higiene educação infantil para imprimir",
+    "hábitos de higiene educação infantil pdf",
+    "hábitos de higiene em inglês",
+    "hábitos de higiene no dia a dia",
+    "hábitos de higiene para crianças",
+    "hábitos de higiene para imprimir",
+    "hábitos de higiene pessoal",
+    "hábitos de higiene pessoal atividades",
+    "hábitos de higiene pessoal educação infantil",
+    "hábitos de higiene pessoal para imprimir",
+    "hábitos saudáveis",
+    "hábitos saudáveis cartaz higiene pessoal educação infantil",
+    "hábitos saudáveis do dia a dia",
+    "hábitos saudáveis e não saudáveis",
+    "hábitos saudáveis e prevenção de doenças",
+    "hábitos saudáveis e qualidade de vida",
+    "hábitos saudáveis em inglês",
+    "hábitos saudáveis na adolescência",
+    "hábitos saudáveis para o sistema respiratório",
+    "hábitos saudáveis que ajudam a evitar pedras nos rins",
+    "hábitos saudáveis texto",
+    "imagens de hábitos de higiene para imprimir colorido",
+    "imagens de hábitos saudáveis para imprimir",
+    "imagens habitos de higiene para imprimir",
+    "imagens higiene pessoal para imprimir",
+    "musica habitos de higiene educação infantil",
+    "nome higiene pessoal para imprimir",
+    "painel higiene pessoal para imprimir",
+    "plano de aula hábitos saudáveis educação infantil",
+    "produtos de higiene pessoal para imprimir",
+    "projeto hábitos saudáveis educação infantil"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "habitat dos animais",
+    "onde vivem os animais",
+    "moradia dos animais"
+   ],
+   "requests": 21,
+   "productiveSeeds": 10,
+   "unique": 48,
+   "suggestions": [
+    "atividade de ciencias habitat dos animais",
+    "atividade de ciências onde vivem os animais",
+    "atividade habitat dos animais 1 ano",
+    "atividade habitat dos animais 3 ano",
+    "atividade habitat dos animais 3o ano fundamental",
+    "atividade habitat dos animais educação infantil",
+    "atividade moradia dos animais 1 ano",
+    "atividade moradia dos animais educação infantil",
+    "atividade onde vivem os animais 3 ano",
+    "atividade onde vivem os animais educação infantil",
+    "atividade tipos de moradia dos animais",
+    "atividades moradia dos animais 2 ano",
+    "atividades onde vivem os animais 2 ano",
+    "atividades sobre habitat dos animais 4o ano",
+    "como trabalhar o habitat dos animais na educação infantil",
+    "habitat dos animais",
+    "habitat dos animais 2 ano",
+    "habitat dos animais 3 ano",
+    "habitat dos animais 4 ano",
+    "habitat dos animais atividades",
+    "habitat dos animais atividades 2 ano",
+    "habitat dos animais educação infantil",
+    "habitat dos animais em inglês",
+    "habitat dos animais invertebrados",
+    "habitat dos animais para imprimir",
+    "habitat dos animais terrestres",
+    "habitat dos animais vertebrados",
+    "livro moradia dos animais",
+    "moradia dos animais",
+    "moradia dos animais 2 ano",
+    "moradia dos animais 3 ano",
+    "moradia dos animais atividades",
+    "moradia dos animais educação infantil",
+    "objetivo de trabalhar o habitat dos animais na educação infantil",
+    "onde vivem os animais",
+    "onde vivem os animais 2 ano fundamental",
+    "onde vivem os animais atividades",
+    "onde vivem os animais domésticos",
+    "onde vivem os animais educação infantil",
+    "onde vivem os animais invertebrados",
+    "onde vivem os animais selvagens",
+    "onde vivem os animais silvestres",
+    "onde vivem os animais terrestres",
+    "onde vivem os animais vertebrados",
+    "plano de aula habitat dos animais educação infantil",
+    "plano de aula moradia dos animais educação infantil",
+    "projeto habitat dos animais educação infantil",
+    "tipos de moradia dos animais educação infantil"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "afunda ou flutua",
+    "flutua ou afunda"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 27,
+   "suggestions": [
+    "afunda ou flutua",
+    "afunda ou flutua atividade",
+    "afunda ou flutua densidade",
+    "afunda ou flutua educação infantil",
+    "afunda ou flutua educação infantil objetivo",
+    "afunda ou flutua jogo",
+    "afunda ou flutua luna",
+    "afunda ou flutua musica",
+    "afunda ou flutua para imprimir",
+    "afunda ou flutua show da luna",
+    "afunda ou flutua 🍉 🍋 🍎",
+    "atividade afunda ou flutua educação infantil",
+    "atividade afunda ou flutua objetivo",
+    "atividade flutua ou afunda educação infantil",
+    "brincadeira afunda ou flutua educação infantil",
+    "experiência flutua ou afunda educação infantil",
+    "flutua ou afunda",
+    "flutua ou afunda 4 ano",
+    "flutua ou afunda atividade",
+    "flutua ou afunda densidade",
+    "flutua ou afunda desenho",
+    "flutua ou afunda educação infantil",
+    "flutua ou afunda explicação",
+    "flutua ou afunda luna",
+    "flutua ou afunda musica",
+    "flutua ou afunda show da luna",
+    "plano de aula flutua ou afunda educação infantil"
+   ]
+  }
+ },
+ "suggestions": {
+  "letra cursiva": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra cursiva",
+    "letra cursiva maiúscula",
+    "letra cursiva russa",
+    "letra cursiva fonte",
+    "letra cursiva alfabeto",
+    "letra cursiva maiúscula e minúscula",
+    "letra cursiva bonita",
+    "letra cursiva e letra de forma",
+    "letra cursiva para copiar",
+    "letra cursiva para imprimir"
+   ]
+  },
+  "letra cursiva atividade": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra cursiva atividades",
+    "letra cursiva atividades 2 ano",
+    "letra cursiva atividade 1 ano",
+    "letra cursiva atividade para imprimir",
+    "letra cursiva atividade 3 ano",
+    "letra cursiva atividades de caligrafia para crianças",
+    "letra cursiva atividades pdf",
+    "letra cursiva atividade alfabeto"
+   ]
+  },
+  "letra cursiva para imprimir": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra cursiva para imprimir",
+    "letra cursiva para imprimir pdf",
+    "letra cursiva para imprimir pontilhado",
+    "letra cursiva para imprimir alfabeto",
+    "letra cursiva para imprimir gratis",
+    "letra cursiva para imprimir minuscula",
+    "letra cursiva para imprimir grande",
+    "letra cursiva para imprimir molde",
+    "letra cursiva para imprimir e treinar",
+    "letra cursiva para imprimir atividades"
+   ]
+  },
+  "letra cursiva educação infantil": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra cursiva educação infantil",
+    "letra cursiva na educação infantil bncc",
+    "atividade letra cursiva educação infantil",
+    "letra cursiva para educação infantil",
+    "letra b cursiva educação infantil",
+    "letra c cursiva educação infantil",
+    "letra d cursiva educação infantil",
+    "letra t cursiva educação infantil",
+    "letra j cursiva educação infantil",
+    "letra f cursiva educação infantil"
+   ]
+  },
+  "letra cursiva 1º ano": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra cursiva 1o ano"
+   ]
+  },
+  "letra cursiva 2º ano": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra cursiva 2o ano"
+   ]
+  },
+  "letra cursiva 3º ano": {
+   "candidate": "cursive-writing",
+   "s": [
+    "letra cursiva 3o ano"
+   ]
+  },
+  "caligrafia": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafia",
+    "caligrafia cursiva",
+    "caligrafia para imprimir",
+    "caligrafia para adultos",
+    "caligrafia bonita",
+    "caligrafia antiga",
+    "caligrafia cursiva para imprimir",
+    "caligrafia tecnica",
+    "caligrafia bonita para treinar",
+    "caligrafia para copiar"
+   ]
+  },
+  "caligrafia atividade": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafia atividade",
+    "caligrafia atividades para imprimir",
+    "caligrafia atividade 4 ano",
+    "caligrafia atividade 2 ano",
+    "caligrafia atividade 1 ano",
+    "caligrafia atividade pdf",
+    "caligrafia atividade 3 ano",
+    "caligrafia atividades 5 ano",
+    "caligrafia atividades para crianças de 6 anos"
+   ]
+  },
+  "caligrafia para imprimir": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafia para imprimir",
+    "caligrafia para imprimir pdf grátis",
+    "caligrafia para imprimir adulto",
+    "caligrafia para imprimir pdf",
+    "caligrafia para imprimir letra cursiva pdf",
+    "caligrafia para imprimir infantil",
+    "caligrafia para imprimir pdf adulto",
+    "caligrafia para imprimir letra cursiva",
+    "caligrafia para imprimir letra cursiva pdf adulto",
+    "caligrafia para imprimir letra de forma"
+   ]
+  },
+  "caligrafia educação infantil": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafia educação infantil",
+    "caligrafia educação infantil para imprimir",
+    "caligrafia educação infantil pdf",
+    "atividade caligrafia educação infantil",
+    "caligrafia cursiva educação infantil",
+    "caderno de caligrafia educação infantil",
+    "plano de aula caligrafia educação infantil"
+   ]
+  },
+  "caligrafia 1º ano": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafia 1o ano"
+   ]
+  },
+  "caligrafia 2º ano": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafia 2o ano"
+   ]
+  },
+  "caligrafia 3º ano": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafia 3o ano",
+    "caligrafia 3o ano fundamental"
+   ]
+  },
+  "alfabeto cursivo": {
+   "candidate": "cursive-writing",
+   "s": [
+    "alfabeto cursivo",
+    "alfabeto cursivo maiúsculo",
+    "alfabeto cursivo maiúsculo e minúsculo",
+    "alfabeto cursivo minúsculo",
+    "alfabeto cursivo para imprimir",
+    "alfabeto cursivo maiúsculo e minúsculo para imprimir pdf",
+    "alfabeto cursivo pontilhado",
+    "alfabeto cursivo pontilhado para imprimir",
+    "alfabeto cursivo maiúsculo e minúsculo para imprimir",
+    "alfabeto cursivo bonito"
+   ]
+  },
+  "alfabeto cursivo atividade": {
+   "candidate": "cursive-writing",
+   "s": [
+    "alfabeto cursivo atividade",
+    "alfabeto cursivo atividades para imprimir",
+    "alfabeto cursivo atividade 1 ano",
+    "alfabeto cursivo atividade educação infantil",
+    "alfabeto cursivo atividades de transição da letra bastão para cursiva",
+    "alfabeto cursivo atividades de caligrafia para imprimir",
+    "alfabeto cursivo atividade de caligrafia",
+    "alfabeto cursivo atividade letra cursiva 2 ano",
+    "alfabeto cursivo atividades de alfabetização letra cursiva",
+    "alfabeto minúsculo cursivo atividade"
+   ]
+  },
+  "alfabeto cursivo para imprimir": {
+   "candidate": "cursive-writing",
+   "s": [
+    "alfabeto cursivo para imprimir",
+    "alfabeto cursivo para imprimir pdf",
+    "alfabeto cursivo para imprimir pdf grátis",
+    "alfabeto cursivo para imprimir pontilhado",
+    "alfabeto cursivo para imprimir grande",
+    "alfabeto cursivo para imprimir maiusculo e minusculo",
+    "alfabeto cursivo para imprimir e treinar",
+    "alfabeto cursivo para imprimir colorido",
+    "alfabeto cursivo para imprimir caligrafia",
+    "alfabeto cursivo para imprimir e copiar"
+   ]
+  },
+  "alfabeto cursivo educação infantil": {
+   "candidate": "cursive-writing",
+   "s": [
+    "alfabeto cursivo educação infantil",
+    "atividade alfabeto cursivo educação infantil",
+    "video alfabeto cursivo educação infantil",
+    "alfabeto cursivo para imprimir educação infantil",
+    "plano de aula alfabeto cursivo educação infantil",
+    "atividade alfabeto cursivo maiusculo educação infantil",
+    "atividades com alfabeto cursivo para educação infantil 5 anos"
+   ]
+  },
+  "sequência lógica": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequência lógica",
+    "sequência lógica wordwall",
+    "sequência lógica exercícios",
+    "sequência lógica infantil para imprimir",
+    "sequência lógica de figuras",
+    "sequência lógica infantil",
+    "sequência lógica pdf",
+    "sequência lógica raciocínio lógico",
+    "sequencia logica educação infantil",
+    "sequência lógica exercícios resolvidos"
+   ]
+  },
+  "sequência lógica atividade": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequência lógica atividades",
+    "sequencia logica atividades diarias",
+    "sequencia logica atividades carlu",
+    "atividade sequência lógica para imprimir",
+    "atividade sequência lógica educação infantil",
+    "atividade sequencia logica wordwall",
+    "atividade sequencia logica 1 ano",
+    "atividade sequência lógica 2 ano",
+    "atividade sequencia logica historia",
+    "atividade sequencia lógica 3 ano"
+   ]
+  },
+  "sequência lógica para imprimir": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequencia lógica para imprimir",
+    "sequencia lógica para imprimir e colorir",
+    "atividade sequência lógica para imprimir",
+    "sequência lógica infantil para imprimir",
+    "sequencia lógica temporal para imprimir",
+    "jogo sequencia logica para imprimir",
+    "imagens de sequencia logica para imprimir",
+    "sequencia logica de animais para imprimir",
+    "sequencia logica educação infantil para imprimir",
+    "sequencia logica com figuras para imprimir"
+   ]
+  },
+  "sequência lógica educação infantil": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequencia logica educação infantil",
+    "sequencia logica educação infantil para imprimir",
+    "atividade sequência lógica educação infantil",
+    "objetivo sequência lógica educação infantil",
+    "wordwall sequencia logica educação infantil",
+    "jogo de sequencia logica educação infantil",
+    "plano de aula sequência lógica educação infantil",
+    "como trabalhar sequência lógica na educação infantil"
+   ]
+  },
+  "sequência de imagens": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequência de imagens para construir uma história educação infantil",
+    "sequência de imagens para produção de texto 2 ano",
+    "sequência de imagens para produção de texto 3 ano",
+    "sequência de imagens para produção de texto 4 ano",
+    "sequência de imagens para contar histórias",
+    "sequência de imagens para construir uma história",
+    "sequência de imagens",
+    "sequencia de imagens para produção de texto",
+    "sequência de imagens para produção de texto 5 ano",
+    "sequência de imagens matemática"
+   ]
+  },
+  "sequência de imagens atividade": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequencia de imagens atividade",
+    "atividade sequencia de imagens 1 ano",
+    "atividade sequencia de imagens 2 ano",
+    "atividade sobre sequencia de imagens"
+   ]
+  },
+  "sequência de imagens para imprimir": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequencia de imagens para imprimir",
+    "imagens de sequencia logica para imprimir"
+   ]
+  },
+  "sequência de imagens educação infantil": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequencia de imagens educação infantil",
+    "sequência de imagens para construir uma história educação infantil",
+    "sequencia de imagens para produção de texto educação infantil"
+   ]
+  },
+  "sequência de fatos": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequência de fatos",
+    "sequencia de fatos educação infantil",
+    "sequência de fatos ilustrados",
+    "sequencia de fatos wordwall",
+    "sequência de fatos relacionados entre si",
+    "atividade sequencia de fatos",
+    "atividade sequencia de fatos educação infantil",
+    "sequencia logica de fatos",
+    "a sequencia de fatos que relaciona corretamente a leptospirose",
+    "sequencia temporal de fatos"
+   ]
+  },
+  "sequência de fatos atividade": {
+   "candidate": "story-sequencing",
+   "s": [
+    "atividade sequencia de fatos",
+    "atividade sequencia de fatos educação infantil",
+    "atividades para trabalhar sequencia de fatos"
+   ]
+  },
+  "sequência de fatos educação infantil": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequencia de fatos educação infantil",
+    "atividade sequencia de fatos educação infantil"
+   ]
+  },
+  "hábitos de higiene": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hábitos de higiene",
+    "hábitos de higiene pessoal",
+    "habitos de higiene educação infantil",
+    "hábitos de higiene 1 ano",
+    "hábitos de higiene no dia a dia",
+    "hábitos de higiene corporal",
+    "hábitos de higiene pessoal educação infantil",
+    "hábitos de higiene atividade",
+    "hábitos de higiene em inglês",
+    "hábitos de higiene para crianças"
+   ]
+  },
+  "hábitos de higiene atividade": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hábitos de higiene atividade",
+    "habitos de higiene atividades 1 ano",
+    "habitos de higiene atividades 2 ano",
+    "habitos de higiene atividades educação infantil",
+    "habitos de higiene atividades 4 ano",
+    "habitos de higiene atividades 3 ano",
+    "hábitos de higiene pessoal atividades",
+    "atividades hábitos de higiene infantil",
+    "atividade habitos de higiene 1 ano fundamental",
+    "atividade habitos de higiene maternal"
+   ]
+  },
+  "hábitos de higiene para imprimir": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hábitos de higiene para imprimir",
+    "habitos de higiene para imprimir pdf",
+    "habitos de higiene para imprimir e colorir",
+    "imagens habitos de higiene para imprimir",
+    "cartaz habitos de higiene para imprimir",
+    "desenhos habitos de higiene para imprimir",
+    "hábitos de higiene pessoal para imprimir",
+    "imagens de hábitos de higiene para imprimir colorido",
+    "hábitos de higiene educação infantil para imprimir",
+    "atividades sobre habitos de higiene para imprimir"
+   ]
+  },
+  "hábitos de higiene educação infantil": {
+   "candidate": "healthy-habits",
+   "s": [
+    "habitos de higiene educação infantil",
+    "hábitos de higiene educação infantil bncc",
+    "habitos de higiene educação infantil atividade",
+    "habitos de higiene educação infantil para imprimir",
+    "hábitos de higiene educação infantil pdf",
+    "habitos de higiene educação infantil para colorir",
+    "historia habitos de higiene educação infantil",
+    "hábitos de higiene pessoal educação infantil",
+    "musica habitos de higiene educação infantil",
+    "cartaz habitos de higiene educação infantil"
+   ]
+  },
+  "hábitos de higiene 1º ano": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hábitos de higiene 1o ano"
+   ]
+  },
+  "higiene pessoal": {
+   "candidate": "healthy-habits",
+   "s": [
+    "higiene pessoal",
+    "higiene pessoal educação infantil",
+    "higiene pessoal no ambiente de trabalho",
+    "higiene pessoal lista",
+    "higiene pessoal para crianças",
+    "higiene pessoal na adolescência",
+    "higiene pessoal no trabalho",
+    "higiene pessoal atividades",
+    "higiene pessoal em inglês",
+    "higiene pessoal resumo"
+   ]
+  },
+  "higiene pessoal atividade": {
+   "candidate": "healthy-habits",
+   "s": [
+    "higiene pessoal atividades",
+    "higiene pessoal atividade 1 ano",
+    "higiene pessoal atividade educação infantil",
+    "higiene pessoal atividades 2 ano",
+    "higiene pessoal atividades 3 ano",
+    "higiene pessoal atividade 4 ano",
+    "higiene pessoal atividade infantil",
+    "higiene pessoal atividade maternal",
+    "higiene pessoal atividades 6 ano",
+    "higiene pessoal atividade ludica"
+   ]
+  },
+  "higiene pessoal para imprimir": {
+   "candidate": "healthy-habits",
+   "s": [
+    "higiene pessoal para imprimir",
+    "painel higiene pessoal para imprimir",
+    "nome higiene pessoal para imprimir",
+    "atividade higiene pessoal para imprimir",
+    "imagens higiene pessoal para imprimir",
+    "cartaz de higiene pessoal para imprimir",
+    "desenhos de higiene pessoal para imprimir",
+    "produtos de higiene pessoal para imprimir",
+    "desenhos de higiene pessoal para imprimir colorido",
+    "bingo da higiene pessoal para imprimir"
+   ]
+  },
+  "higiene pessoal educação infantil": {
+   "candidate": "healthy-habits",
+   "s": [
+    "higiene pessoal educação infantil",
+    "higiene pessoal educação infantil atividades",
+    "higiene pessoal educação infantil pdf",
+    "higiene pessoal educação infantil para imprimir",
+    "higiene pessoal educação infantil plano de aula",
+    "higiene pessoal educação infantil bncc",
+    "higiene pessoal educação infantil objetivo",
+    "higiene pessoal educação infantil video",
+    "higiene pessoal educação infantil cartaz",
+    "higiene pessoal educação infantil musica"
+   ]
+  },
+  "hábitos saudáveis": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hábitos saudáveis",
+    "hábitos saudáveis do dia a dia",
+    "hábitos saudáveis e qualidade de vida",
+    "hábitos saudáveis em inglês",
+    "hábitos saudáveis texto",
+    "hábitos saudáveis e não saudáveis",
+    "hábitos saudáveis na adolescência",
+    "hábitos saudáveis para o sistema respiratório",
+    "hábitos saudáveis que ajudam a evitar pedras nos rins",
+    "hábitos saudáveis e prevenção de doenças"
+   ]
+  },
+  "hábitos saudáveis atividade": {
+   "candidate": "healthy-habits",
+   "s": [
+    "habitos saudaveis atividades",
+    "habitos saudaveis atividade fisica",
+    "habitos saudaveis atividade 1 ano",
+    "habitos saudaveis atividade 2 ano",
+    "habitos saudaveis alimentação e atividade fisica",
+    "atividades hábitos saudáveis educação infantil",
+    "atividades hábitos saudáveis 3 ano"
+   ]
+  },
+  "hábitos saudáveis para imprimir": {
+   "candidate": "healthy-habits",
+   "s": [
+    "imagens de hábitos saudáveis para imprimir"
+   ]
+  },
+  "hábitos saudáveis educação infantil": {
+   "candidate": "healthy-habits",
+   "s": [
+    "habitos saudaveis educação infantil",
+    "atividades hábitos saudáveis educação infantil",
+    "projeto hábitos saudáveis educação infantil",
+    "hábitos alimentares saudáveis educação infantil",
+    "plano de aula hábitos saudáveis educação infantil",
+    "hábitos saudáveis cartaz higiene pessoal educação infantil",
+    "como trabalhar hábitos saudáveis na educação infantil"
+   ]
+  },
+  "habitat dos animais": {
+   "candidate": "habitats",
+   "s": [
+    "habitat dos animais",
+    "habitat dos animais educação infantil",
+    "habitat dos animais 3 ano",
+    "habitat dos animais 2 ano",
+    "habitat dos animais atividades",
+    "habitat dos animais em inglês",
+    "habitat dos animais terrestres",
+    "habitat dos animais invertebrados",
+    "habitat dos animais vertebrados",
+    "habitat dos animais 4 ano"
+   ]
+  },
+  "habitat dos animais atividade": {
+   "candidate": "habitats",
+   "s": [
+    "habitat dos animais atividades",
+    "habitat dos animais atividades 2 ano",
+    "atividade habitat dos animais educação infantil",
+    "atividade habitat dos animais 3 ano",
+    "atividade habitat dos animais 1 ano",
+    "atividade habitat dos animais 3o ano fundamental",
+    "atividades sobre habitat dos animais 4o ano",
+    "atividade de ciencias habitat dos animais"
+   ]
+  },
+  "habitat dos animais para imprimir": {
+   "candidate": "habitats",
+   "s": [
+    "habitat dos animais para imprimir"
+   ]
+  },
+  "habitat dos animais educação infantil": {
+   "candidate": "habitats",
+   "s": [
+    "habitat dos animais educação infantil",
+    "atividade habitat dos animais educação infantil",
+    "projeto habitat dos animais educação infantil",
+    "plano de aula habitat dos animais educação infantil",
+    "como trabalhar o habitat dos animais na educação infantil",
+    "objetivo de trabalhar o habitat dos animais na educação infantil"
+   ]
+  },
+  "onde vivem os animais": {
+   "candidate": "habitats",
+   "s": [
+    "onde vivem os animais silvestres",
+    "onde vivem os animais",
+    "onde vivem os animais terrestres",
+    "onde vivem os animais invertebrados",
+    "onde vivem os animais selvagens",
+    "onde vivem os animais vertebrados",
+    "onde vivem os animais domésticos",
+    "onde vivem os animais atividades",
+    "onde vivem os animais educação infantil",
+    "onde vivem os animais 2 ano fundamental"
+   ]
+  },
+  "onde vivem os animais atividade": {
+   "candidate": "habitats",
+   "s": [
+    "onde vivem os animais atividades",
+    "atividades onde vivem os animais 2 ano",
+    "atividade onde vivem os animais 3 ano",
+    "atividade onde vivem os animais educação infantil",
+    "atividade de ciências onde vivem os animais"
+   ]
+  },
+  "onde vivem os animais educação infantil": {
+   "candidate": "habitats",
+   "s": [
+    "onde vivem os animais educação infantil",
+    "atividade onde vivem os animais educação infantil"
+   ]
+  },
+  "moradia dos animais": {
+   "candidate": "habitats",
+   "s": [
+    "moradia dos animais",
+    "moradia dos animais educação infantil",
+    "moradia dos animais atividades",
+    "moradia dos animais 2 ano",
+    "moradia dos animais 3 ano",
+    "atividade moradia dos animais educação infantil",
+    "atividades moradia dos animais 2 ano",
+    "atividade moradia dos animais 1 ano",
+    "livro moradia dos animais",
+    "tipos de moradia dos animais educação infantil"
+   ]
+  },
+  "moradia dos animais atividade": {
+   "candidate": "habitats",
+   "s": [
+    "moradia dos animais atividades",
+    "atividade moradia dos animais educação infantil",
+    "atividades moradia dos animais 2 ano",
+    "atividade moradia dos animais 1 ano",
+    "atividade tipos de moradia dos animais"
+   ]
+  },
+  "moradia dos animais educação infantil": {
+   "candidate": "habitats",
+   "s": [
+    "moradia dos animais educação infantil",
+    "atividade moradia dos animais educação infantil",
+    "tipos de moradia dos animais educação infantil",
+    "plano de aula moradia dos animais educação infantil"
+   ]
+  },
+  "afunda ou flutua": {
+   "candidate": "sink-or-float",
+   "s": [
+    "afunda ou flutua",
+    "afunda ou flutua show da luna",
+    "afunda ou flutua educação infantil",
+    "afunda ou flutua educação infantil objetivo",
+    "afunda ou flutua densidade",
+    "afunda ou flutua atividade",
+    "afunda ou flutua jogo",
+    "afunda ou flutua 🍉 🍋 🍎",
+    "afunda ou flutua luna",
+    "afunda ou flutua musica"
+   ]
+  },
+  "afunda ou flutua atividade": {
+   "candidate": "sink-or-float",
+   "s": [
+    "afunda ou flutua atividade",
+    "atividade afunda ou flutua educação infantil",
+    "atividade afunda ou flutua objetivo"
+   ]
+  },
+  "afunda ou flutua para imprimir": {
+   "candidate": "sink-or-float",
+   "s": [
+    "afunda ou flutua para imprimir"
+   ]
+  },
+  "afunda ou flutua educação infantil": {
+   "candidate": "sink-or-float",
+   "s": [
+    "afunda ou flutua educação infantil",
+    "afunda ou flutua educação infantil objetivo",
+    "atividade afunda ou flutua educação infantil",
+    "brincadeira afunda ou flutua educação infantil",
+    "experiência flutua ou afunda educação infantil",
+    "plano de aula flutua ou afunda educação infantil"
+   ]
+  },
+  "flutua ou afunda": {
+   "candidate": "sink-or-float",
+   "s": [
+    "flutua ou afunda",
+    "flutua ou afunda explicação",
+    "flutua ou afunda educação infantil",
+    "flutua ou afunda show da luna",
+    "flutua ou afunda densidade",
+    "flutua ou afunda 4 ano",
+    "flutua ou afunda desenho",
+    "flutua ou afunda atividade",
+    "flutua ou afunda luna",
+    "flutua ou afunda musica"
+   ]
+  },
+  "flutua ou afunda atividade": {
+   "candidate": "sink-or-float",
+   "s": [
+    "flutua ou afunda atividade",
+    "atividade flutua ou afunda educação infantil"
+   ]
+  },
+  "flutua ou afunda para imprimir": {
+   "candidate": "sink-or-float",
+   "s": [
+    "afunda ou flutua para imprimir"
+   ]
+  },
+  "flutua ou afunda educação infantil": {
+   "candidate": "sink-or-float",
+   "s": [
+    "flutua ou afunda educação infantil",
+    "atividade flutua ou afunda educação infantil",
+    "experiência flutua ou afunda educação infantil",
+    "plano de aula flutua ou afunda educação infantil",
+    "afunda ou flutua educação infantil objetivo",
+    "brincadeira afunda ou flutua educação infantil"
+   ]
+  }
+ }
+}

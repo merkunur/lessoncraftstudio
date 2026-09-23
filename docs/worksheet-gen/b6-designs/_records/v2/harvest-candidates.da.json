@@ -1,0 +1,264 @@
+{
+ "locale": "da",
+ "market": {
+  "hl": "da",
+  "gl": "dk"
+ },
+ "generatedAt": "2026-09-23T16:11:55.241Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/v2/candidate-seeds-v2.json",
+ "requestCount": 77,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "formskrift",
+    "løkkeskrift"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 19,
+   "suggestions": [
+    "formskrift",
+    "formskrift bogstaver",
+    "formskrift eksempler",
+    "formskrift engelsk",
+    "formskrift og skråskrift",
+    "formskrift opgaver",
+    "formskrift skråskrift",
+    "formskrift store bogstaver",
+    "formskrift øvelser",
+    "løkkeskrift",
+    "løkkeskrift b",
+    "løkkeskrift bok",
+    "løkkeskrift bokstaver",
+    "løkkeskrift engelsk",
+    "løkkeskrift f",
+    "løkkeskrift k",
+    "løkkeskrift opgaver",
+    "løkkeskrift r",
+    "løkkeskrift vs stavskrift"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "billedfortælling",
+    "først så til sidst"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 10,
+   "suggestions": [
+    "billedfortælling",
+    "billedfortælling analyse",
+    "billedfortælling broderi",
+    "billedfortælling krydsord",
+    "billedfortællinger",
+    "billedfortællinger 1",
+    "billedfortællinger alinea",
+    "billedfortællinger gyldendal",
+    "forskellige billedfortællinger",
+    "indidansk billedfortællinger"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "børste tænder",
+    "gode vaner",
+    "vaske hænder"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 30,
+   "suggestions": [
+    "børste tænder",
+    "børste tænder baby",
+    "børste tænder før eller efter kaffe",
+    "børste tænder før eller efter morgenmad",
+    "børste tænder i kokosolie",
+    "børste tænder på hund",
+    "børste tænder på kat",
+    "børste tænder sang",
+    "børste tænder sang bille",
+    "børste tænder video børn",
+    "gode vaner",
+    "gode vaner app",
+    "gode vaner bog",
+    "gode vaner før under og efter graviditet",
+    "gode vaner glade børn",
+    "gode vaner glade børn bøger",
+    "gode vaner gravid",
+    "gode vaner i hverdagen",
+    "gode vaner til vægttab",
+    "gode vaner under graviditet",
+    "vaske hænder",
+    "vaske hænder billeder",
+    "vaske hænder børn",
+    "vaske hænder guide",
+    "vaske hænder i koldt eller varmt vand",
+    "vaske hænder plakat",
+    "vaske hænder plakat børn",
+    "vaske hænder sang",
+    "vaske hænder sang tekst",
+    "vaske hænder tegning"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "dyrenes boliger",
+    "dyr om vinteren",
+    "dyrs levesteder"
+   ],
+   "requests": 21,
+   "productiveSeeds": 2,
+   "unique": 11,
+   "suggestions": [
+    "danske dyr om vinteren",
+    "dyr i dvale om vinteren",
+    "dyr i hi om vinteren",
+    "dyr i skoven om vinteren",
+    "dyr om vinteren",
+    "dyr om vinteren dyreparken",
+    "dyr om vinteren film",
+    "dyr om vinteren ugler i mosen",
+    "dyr om vinteren undervisning",
+    "dyrs levesteder",
+    "hvilke dyr sover om vinteren"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "flyde synke forsøg"
+   ],
+   "requests": 7,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "flyde synke forsøg"
+   ]
+  }
+ },
+ "suggestions": {
+  "formskrift": {
+   "candidate": "cursive-writing",
+   "s": [
+    "formskrift",
+    "formskrift øvelser",
+    "formskrift og skråskrift",
+    "formskrift engelsk",
+    "formskrift store bogstaver",
+    "formskrift eksempler",
+    "formskrift bogstaver",
+    "formskrift skråskrift"
+   ]
+  },
+  "formskrift opgaver": {
+   "candidate": "cursive-writing",
+   "s": [
+    "formskrift opgaver"
+   ]
+  },
+  "løkkeskrift": {
+   "candidate": "cursive-writing",
+   "s": [
+    "løkkeskrift",
+    "løkkeskrift opgaver",
+    "løkkeskrift bokstaver",
+    "løkkeskrift engelsk",
+    "løkkeskrift bok",
+    "løkkeskrift f",
+    "løkkeskrift vs stavskrift",
+    "løkkeskrift r",
+    "løkkeskrift k",
+    "løkkeskrift b"
+   ]
+  },
+  "billedfortælling": {
+   "candidate": "story-sequencing",
+   "s": [
+    "billedfortællinger",
+    "billedfortælling broderi",
+    "billedfortælling",
+    "billedfortællinger gyldendal",
+    "billedfortællinger alinea",
+    "billedfortælling analyse",
+    "billedfortælling krydsord",
+    "billedfortællinger 1",
+    "forskellige billedfortællinger",
+    "indidansk billedfortællinger"
+   ]
+  },
+  "børste tænder": {
+   "candidate": "healthy-habits",
+   "s": [
+    "børste tænder sang",
+    "børste tænder før eller efter morgenmad",
+    "børste tænder",
+    "børste tænder på hund",
+    "børste tænder baby",
+    "børste tænder på kat",
+    "børste tænder sang bille",
+    "børste tænder video børn",
+    "børste tænder før eller efter kaffe",
+    "børste tænder i kokosolie"
+   ]
+  },
+  "gode vaner": {
+   "candidate": "healthy-habits",
+   "s": [
+    "gode vaner",
+    "gode vaner glade børn bøger",
+    "gode vaner glade børn",
+    "gode vaner i hverdagen",
+    "gode vaner før under og efter graviditet",
+    "gode vaner gravid",
+    "gode vaner bog",
+    "gode vaner til vægttab",
+    "gode vaner under graviditet",
+    "gode vaner app"
+   ]
+  },
+  "vaske hænder": {
+   "candidate": "healthy-habits",
+   "s": [
+    "vaske hænder",
+    "vaske hænder sang",
+    "vaske hænder sang tekst",
+    "vaske hænder plakat",
+    "vaske hænder børn",
+    "vaske hænder tegning",
+    "vaske hænder i koldt eller varmt vand",
+    "vaske hænder guide",
+    "vaske hænder billeder",
+    "vaske hænder plakat børn"
+   ]
+  },
+  "dyr om vinteren": {
+   "candidate": "habitats",
+   "s": [
+    "dyr om vinteren",
+    "dyr om vinteren undervisning",
+    "dyr om vinteren film",
+    "dyr om vinteren dyreparken",
+    "dyr om vinteren ugler i mosen",
+    "danske dyr om vinteren",
+    "dyr i skoven om vinteren",
+    "hvilke dyr sover om vinteren",
+    "dyr i dvale om vinteren",
+    "dyr i hi om vinteren"
+   ]
+  },
+  "dyrs levesteder": {
+   "candidate": "habitats",
+   "s": [
+    "dyrs levesteder"
+   ]
+  },
+  "flyde synke forsøg": {
+   "candidate": "sink-or-float",
+   "s": [
+    "flyde synke forsøg"
+   ]
+  }
+ }
+}

@@ -1,0 +1,1802 @@
+{
+ "locale": "en",
+ "market": {
+  "hl": "en",
+  "gl": "us"
+ },
+ "generatedAt": "2026-09-23T16:08:54.159Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/v2/candidate-seeds-v2.json",
+ "requestCount": 119,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "cursive connecting letters",
+    "cursive sentences",
+    "cursive words"
+   ],
+   "requests": 21,
+   "productiveSeeds": 15,
+   "unique": 100,
+   "suggestions": [
+    "connected cursive letters generator",
+    "cursive 2 letter words",
+    "cursive 3 letter words",
+    "cursive connecting letters",
+    "cursive connecting letters font",
+    "cursive connecting letters worksheets",
+    "cursive joining letters",
+    "cursive joining letters a to z",
+    "cursive joining letters generator",
+    "cursive joining letters pdf",
+    "cursive joining letters worksheets",
+    "cursive letters 3rd grade",
+    "cursive letters grade 1",
+    "cursive letters printable",
+    "cursive letters printable free",
+    "cursive letters printable pdf",
+    "cursive letters printable practice",
+    "cursive sentences",
+    "cursive sentences for beginners",
+    "cursive sentences for grade 3 worksheets",
+    "cursive sentences for kids",
+    "cursive sentences grade 3",
+    "cursive sentences pdf",
+    "cursive sentences practice",
+    "cursive sentences practice pdf",
+    "cursive sentences practice sheets",
+    "cursive sentences printable",
+    "cursive sentences to copy",
+    "cursive sentences to practice",
+    "cursive sentences to read",
+    "cursive sentences worksheets",
+    "cursive sentences worksheets free",
+    "cursive sentences worksheets grade 2",
+    "cursive sentences worksheets pdf",
+    "cursive three letter words",
+    "cursive words",
+    "cursive words a to z",
+    "cursive words copy and paste",
+    "cursive words for kids",
+    "cursive words generator",
+    "cursive words list",
+    "cursive words printable",
+    "cursive words tattoo",
+    "cursive words that are hard to read",
+    "cursive words to practice",
+    "cursive words to write",
+    "cursive words worksheets",
+    "cursive words worksheets free",
+    "cursive words worksheets pdf",
+    "cursive writing 1st grade",
+    "cursive writing 2 letter words",
+    "cursive writing 2nd grade",
+    "cursive writing 3 letter words",
+    "cursive writing 3rd grade",
+    "cursive writing book 3rd grade",
+    "cursive writing for 3rd graders",
+    "cursive writing grade 1",
+    "cursive writing in english sentences",
+    "cursive writing joining letters worksheets pdf",
+    "cursive writing kindergarten",
+    "cursive writing practice 2nd grade",
+    "cursive writing practice 3rd grade",
+    "cursive writing printable",
+    "cursive writing printable free",
+    "cursive writing printable pages",
+    "cursive writing printable pdf",
+    "cursive writing printable practice",
+    "cursive writing sentences for class 2",
+    "cursive writing sentences for class 3",
+    "cursive writing sentences for class 5",
+    "cursive writing sentences grade 3",
+    "cursive writing sentences printable",
+    "cursive writing sentences worksheets",
+    "cursive writing sentences worksheets pdf",
+    "cursive writing sentences worksheets pdf for adults",
+    "cursive writing words for beginners",
+    "cursive writing words for class 1",
+    "cursive writing worksheets",
+    "cursive writing worksheets 3rd grade",
+    "cursive writing worksheets a to z",
+    "cursive writing worksheets for class 1",
+    "cursive writing worksheets for grade 2",
+    "cursive writing worksheets for ukg pdf",
+    "cursive writing worksheets pdf",
+    "cursive writing worksheets pdf free download",
+    "example of cursive sentence",
+    "handwriting connecting letters",
+    "handwriting practice sentences 2nd grade",
+    "handwriting sentences grade 1",
+    "handwriting sentences grade 3",
+    "handwriting sentences printable",
+    "handwriting sentences worksheets",
+    "handwriting sentences worksheets pdf",
+    "how to connect cursive letters",
+    "how to learn cursive letters",
+    "how to teach cursive letters for kindergarten",
+    "sentences handwriting 2nd grade writing worksheets",
+    "sentences handwriting first grade writing worksheets free printable",
+    "simple sentences for cursive writing",
+    "two letter words in english cursive writing"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "beginning middle end",
+    "sequencing cut and paste",
+    "what happens next"
+   ],
+   "requests": 21,
+   "productiveSeeds": 18,
+   "unique": 108,
+   "suggestions": [
+    "beginning middle and end of a story 2nd grade",
+    "beginning middle end",
+    "beginning middle end 1st grade",
+    "beginning middle end 2nd grade",
+    "beginning middle end a novel valeria luiselli",
+    "beginning middle end activities 1st grade",
+    "beginning middle end activities for kindergarten",
+    "beginning middle end anchor chart 1st grade",
+    "beginning middle end anchor chart 2nd grade",
+    "beginning middle end anchor chart 3rd grade",
+    "beginning middle end book",
+    "beginning middle end book review",
+    "beginning middle end by valeria luiselli",
+    "beginning middle end examples",
+    "beginning middle end grade 1",
+    "beginning middle end graphic organizer",
+    "beginning middle end graphic organizer 1st grade",
+    "beginning middle end graphic organizer 2nd grade",
+    "beginning middle end graphic organizer 3rd grade",
+    "beginning middle end graphic organizer free printable",
+    "beginning middle end graphic organizer kindergarten",
+    "beginning middle end graphic organizer kindergarten pdf",
+    "beginning middle end kindergarten",
+    "beginning middle end kindergarten anchor chart",
+    "beginning middle end kindergarten worksheets",
+    "beginning middle end lyrics",
+    "beginning middle end meaning",
+    "beginning middle end novel",
+    "beginning middle end of a story",
+    "beginning middle end printable",
+    "beginning middle end reviews",
+    "beginning middle end song",
+    "beginning middle end story kindergarten",
+    "beginning middle end story worksheets kindergarten",
+    "beginning middle end structure",
+    "beginning middle end template kindergarten",
+    "beginning middle end worksheet 1st grade",
+    "beginning middle end worksheet 2nd grade",
+    "beginning middle end worksheet for kids",
+    "beginning middle end worksheet free",
+    "beginning middle end worksheet free printable",
+    "beginning middle end worksheet kindergarten",
+    "beginning middle end worksheet pdf",
+    "beginning middle end worksheet with story",
+    "beginning middle end worksheets",
+    "beginning middle ending sounds kindergarten worksheets",
+    "can you fail 1st grade",
+    "can you fail 3rd grade",
+    "cut and paste instructions",
+    "cut and paste number words",
+    "cut and paste sequencing worksheets 3rd grade",
+    "cut and paste sequencing worksheets for kindergarten",
+    "cut and paste sequencing worksheets free",
+    "cut and paste story sequencing worksheets for kindergarten",
+    "draw what comes next worksheets",
+    "first day of the first grade",
+    "number sequencing cut and paste",
+    "predict what happens next worksheet",
+    "sequence cut and paste free printables",
+    "sequence of events cut and paste worksheets",
+    "sequencing cut and paste",
+    "sequencing cut and paste activity",
+    "sequencing cut and paste kindergarten",
+    "sequencing cut and paste worksheets",
+    "sequencing cut and stick",
+    "sequencing events cut and paste",
+    "sequencing worksheets kindergarten cut and paste",
+    "story sequencing cut and paste",
+    "story sequencing cut and paste worksheets",
+    "teaching beginning middle and end 2nd grade",
+    "what comes after 1st grade",
+    "what comes after 3rd grade",
+    "what comes after grade 1",
+    "what comes after grade 1 in jjk",
+    "what comes after grade 3",
+    "what comes next after kindergarten",
+    "what comes next grade 1",
+    "what comes next kindergarten",
+    "what comes next kindergarten worksheet",
+    "what comes next math worksheets",
+    "what comes next pattern kindergarten",
+    "what comes next printable",
+    "what comes next worksheets",
+    "what comes next worksheets for kindergarten",
+    "what comes next worksheets for preschoolers",
+    "what happens after grade 3 fatty liver",
+    "what happens after kindergarten",
+    "what happens next",
+    "what happens next after a mistrial",
+    "what happens next in clancy trial",
+    "what happens next in house of the dragon",
+    "what happens next in the lindsay clancy case",
+    "what happens next in the lindsay clancy trial",
+    "what happens next max lucado",
+    "what happens next movie",
+    "what happens next webcomic",
+    "what happens next with fauci",
+    "what happens next worksheet kindergarten",
+    "what happens next worksheets",
+    "what is after grade 1 in type soul",
+    "what is after grade 3 fatty liver",
+    "what is next after kindergarten",
+    "what is next to kindergarten",
+    "what number comes next kindergarten",
+    "what number comes next kindergarten worksheet",
+    "what number comes next worksheets",
+    "what to do after grade 1 archived",
+    "what to do after grade 1 type soul"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "brushing teeth",
+    "dental health",
+    "germs",
+    "daily routine"
+   ],
+   "requests": 28,
+   "productiveSeeds": 25,
+   "unique": 189,
+   "suggestions": [
+    "4 steps in brushing teeth",
+    "brush teeth printable pdf",
+    "brush your teeth kindergarten song",
+    "brushing teeth",
+    "brushing teeth after eating",
+    "brushing teeth after tooth extraction",
+    "brushing teeth after wisdom teeth removal",
+    "brushing teeth grade 1",
+    "brushing teeth kindergarten",
+    "brushing teeth kindergarten activities",
+    "brushing teeth lesson",
+    "brushing teeth lesson plan",
+    "brushing teeth lesson plan preschool",
+    "brushing teeth lesson plans for kindergarten",
+    "brushing teeth preschool",
+    "brushing teeth preschool activities",
+    "brushing teeth preschool song",
+    "brushing teeth print",
+    "brushing teeth print out",
+    "brushing teeth printable",
+    "brushing teeth printable for kids",
+    "brushing teeth song",
+    "brushing teeth video for kindergarten",
+    "brushing teeth with baking soda",
+    "brushing teeth with baking soda and peroxide",
+    "brushing teeth with coconut oil",
+    "brushing teeth with hydrogen peroxide",
+    "brushing teeth with salt",
+    "brushing teeth worksheet",
+    "brushing teeth worksheet for kids",
+    "brushing teeth worksheet kindergarten",
+    "brushing teeth worksheet kindergarten free printable",
+    "brushing teeth worksheets",
+    "brushing teeth worksheets for kindergarten",
+    "brushing teeth worksheets pdf",
+    "brushing teeth worksheets preschool",
+    "can you get sick from your own germs",
+    "daily activities grade 3",
+    "daily activities kindergarten",
+    "daily morning work 2nd grade",
+    "daily morning work 3rd grade",
+    "daily routine",
+    "daily routine 1st grade",
+    "daily routine 1st grade homeschool schedule",
+    "daily routine 2nd grade",
+    "daily routine 3 grade",
+    "daily routine 3rd grade",
+    "daily routine app",
+    "daily routine chart",
+    "daily routine chart for kids",
+    "daily routine for healthy body and mind",
+    "daily routine for kids",
+    "daily routine grade 1 worksheet",
+    "daily routine in spanish",
+    "daily routine kindergarten",
+    "daily routine kindergarten worksheets",
+    "daily routine planner",
+    "daily routine preschool",
+    "daily routine printable",
+    "daily routine printable chart",
+    "daily routine printable flashcards",
+    "daily routine printable for adults",
+    "daily routine printable for kids",
+    "daily routine printable free",
+    "daily routine printable pdf",
+    "daily routine printable template",
+    "daily routine printable worksheets",
+    "daily routine schedule",
+    "daily routine template",
+    "daily routine worksheet 2nd grade",
+    "daily routine worksheet grade 3",
+    "daily routine worksheets",
+    "daily routine worksheets for adults",
+    "daily routine worksheets for beginners",
+    "daily routine worksheets for grade 2",
+    "daily routine worksheets for kids",
+    "daily routine worksheets for kids pdf",
+    "daily routine worksheets for kindergarten",
+    "daily routine worksheets for preschool",
+    "daily routine worksheets islcollective",
+    "daily routine worksheets pdf",
+    "daily routines kindergarten pdf",
+    "daily schedule 1st grade",
+    "daily schedule 2nd grade",
+    "daily schedule 3rd grade",
+    "daily schedule for 1st grade class",
+    "daily schedule for 3rd grade classroom",
+    "daily schedule kindergarten",
+    "daily schedule kindergarten printable",
+    "daily schedule kindergarten template",
+    "daily schedule printable",
+    "dental care kindergarten",
+    "dental care worksheets for kindergarten",
+    "dental health",
+    "dental health alliance",
+    "dental health associates",
+    "dental health center",
+    "dental health coloring pages printable",
+    "dental health diet score",
+    "dental health free printables",
+    "dental health insurance",
+    "dental health insurance plans",
+    "dental health kindergarten",
+    "dental health kindergarten activities",
+    "dental health kindergarten video",
+    "dental health lesson plans for 2nd grade",
+    "dental health month",
+    "dental health preschool",
+    "dental health preschool activities",
+    "dental health preschool books",
+    "dental health preschool crafts",
+    "dental health preschool video",
+    "dental health preschool worksheets",
+    "dental health printable activities",
+    "dental health printables",
+    "dental health printables for kids",
+    "dental health products",
+    "dental health score",
+    "dental health services",
+    "dental health week 2027",
+    "dental health week free printables",
+    "dental health worksheets",
+    "dental health worksheets for 1st grade",
+    "dental health worksheets for kids",
+    "dental health worksheets for kindergarten",
+    "dental health worksheets for preschool",
+    "earth day activities 2nd grade",
+    "earth day activities 3rd grade",
+    "first day activities 2nd grade",
+    "free dental health worksheets for preschool",
+    "free preschool dental health printables",
+    "free printable dental health worksheets",
+    "free printable germs",
+    "germ worksheets for elementary",
+    "germ worksheets for preschoolers",
+    "german shepherd",
+    "germany",
+    "germs",
+    "germs and diseases worksheets",
+    "germs are most commonly found",
+    "germs band",
+    "germs book for kindergarten",
+    "germs experiment for kindergarten",
+    "germs grade 1",
+    "germs guns and steel",
+    "germs in spanish",
+    "germs kindergarten",
+    "germs kindergarten activities",
+    "germs kindergarten video",
+    "germs kindergarten worksheet",
+    "germs lesson plan for 2nd grade",
+    "germs lesson plan for 3rd grade",
+    "germs meaning",
+    "germs on hands",
+    "germs printable",
+    "germs printable coloring pages",
+    "germs printable for kids",
+    "germs under a microscope",
+    "germs vs bacteria",
+    "germs worksheet for 2nd grade",
+    "germs worksheets",
+    "germs worksheets for kids",
+    "germs worksheets printables",
+    "glow day activities 2nd grade",
+    "homeschool daily schedule 1st grade",
+    "homeschool daily schedule 2nd grade",
+    "kindergarten germs lesson",
+    "morning meeting routine 1st grade",
+    "morning meeting routine 2nd grade",
+    "morning meeting routine 3rd grade",
+    "morning routine 1st grade",
+    "morning routine 2nd grade",
+    "morning routine 3rd grade",
+    "morning routine for 1st graders",
+    "morning routine grade 1",
+    "morning routine kindergarten",
+    "morning routine kindergarten classroom",
+    "oral health printable",
+    "oral health worksheets",
+    "pre k dental health worksheets",
+    "preschool dental health printable activities",
+    "preschool dental health printables",
+    "steps to brushing teeth kindergarten",
+    "teeth brushing printable chart",
+    "teeth brushing printable free",
+    "tooth brushing printable",
+    "tooth brushing printables for preschoolers",
+    "what are germs class 2",
+    "what are germs for preschoolers"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "rainforest animals",
+    "arctic animals",
+    "pond habitat",
+    "ocean habitat",
+    "animal adaptations"
+   ],
+   "requests": 35,
+   "productiveSeeds": 26,
+   "unique": 167,
+   "suggestions": [
+    "10 examples of animal adaptations",
+    "2nd grade ocean habitat diorama",
+    "amazon rainforest animals printable",
+    "animal adaptation activities 3rd grade",
+    "animal adaptation activities for 1st grade",
+    "animal adaptations",
+    "animal adaptations 1st grade",
+    "animal adaptations 2nd grade",
+    "animal adaptations 3rd grade",
+    "animal adaptations 3rd grade worksheets",
+    "animal adaptations anchor chart 3rd grade",
+    "animal adaptations book",
+    "animal adaptations examples",
+    "animal adaptations for kids",
+    "animal adaptations grade 1",
+    "animal adaptations grade 3",
+    "animal adaptations grade 3 science worksheet",
+    "animal adaptations in the desert",
+    "animal adaptations in the tropical rainforest",
+    "animal adaptations kindergarten",
+    "animal adaptations lesson plans 1st grade",
+    "animal adaptations lesson plans 2nd grade",
+    "animal adaptations lesson plans 3rd grade",
+    "animal adaptations near me",
+    "animal adaptations project",
+    "animal adaptations project 3rd grade",
+    "animal adaptations quiz 3rd grade",
+    "animal adaptations video for kids",
+    "animal adaptations worksheet",
+    "animal adaptations worksheets",
+    "animal adaptations worksheets 3rd grade pdf",
+    "animal adaptations worksheets 4th grade pdf",
+    "animal adaptations worksheets 5th grade pdf",
+    "animal adaptations worksheets free",
+    "animal adaptations worksheets grade 2",
+    "animal adaptations worksheets grade 3",
+    "animal adaptations worksheets grade 4",
+    "animal adaptations worksheets grade 5",
+    "animal adaptations worksheets pdf",
+    "arctic animals",
+    "arctic animals 1st grade",
+    "arctic animals book",
+    "arctic animals clipart",
+    "arctic animals coloring pages",
+    "arctic animals for kids",
+    "arctic animals kindergarten",
+    "arctic animals kindergarten activities",
+    "arctic animals kindergarten unit",
+    "arctic animals kindergarten worksheets",
+    "arctic animals list",
+    "arctic animals penguin",
+    "arctic animals pictures",
+    "arctic animals planet zoo",
+    "arctic animals preschool",
+    "arctic animals preschool activities",
+    "arctic animals preschool crafts",
+    "arctic animals preschool lesson plans",
+    "arctic animals preschool printables",
+    "arctic animals printable",
+    "arctic animals printable book",
+    "arctic animals printable coloring pages",
+    "arctic animals printable free",
+    "arctic animals printable pictures",
+    "arctic animals toys",
+    "arctic animals worksheet pdf",
+    "arctic animals worksheets",
+    "arctic animals worksheets for kids",
+    "arctic animals worksheets for preschool free",
+    "arctic animals worksheets free",
+    "arctic animals worksheets kindergarten",
+    "arctic animals worksheets preschool",
+    "arctic fox kindergarten",
+    "arctic fox printable",
+    "arctic fox printable coloring page",
+    "arctic fox printable pictures",
+    "arctic fox worksheets",
+    "different animals and their adaptations",
+    "explain pond as a habitat",
+    "jungle animals kindergarten",
+    "jungle animals printable",
+    "jungle animals printable coloring pages",
+    "jungle animals printable free",
+    "jungle animals printable pdf",
+    "jungle animals printable pictures",
+    "jungle animals worksheets",
+    "jungle animals worksheets for kids",
+    "jungle animals worksheets for kindergarten",
+    "jungle animals worksheets for preschoolers",
+    "list of animal adaptations",
+    "ocean habitat 2nd grade",
+    "ocean habitat activities",
+    "ocean habitat and wildlife rescue inc",
+    "ocean habitat animals",
+    "ocean habitat animals list",
+    "ocean habitat characteristics",
+    "ocean habitat coloring page",
+    "ocean habitat coloring page printable",
+    "ocean habitat diorama",
+    "ocean habitat diorama printables",
+    "ocean habitat facts",
+    "ocean habitat facts for 2nd grade",
+    "ocean habitat for 1st grade",
+    "ocean habitat for kids",
+    "ocean habitat grade 3",
+    "ocean habitat information",
+    "ocean habitat kindergarten",
+    "ocean habitat preschool",
+    "ocean habitat printables",
+    "ocean habitat project",
+    "ocean habitat project 2nd grade",
+    "ocean habitat project for 1st grade",
+    "ocean habitat project for 3rd grade",
+    "ocean habitat project for kindergarten",
+    "ocean habitat project ideas",
+    "ocean habitat project printable",
+    "ocean habitat video for 2nd grade",
+    "ocean habitat video for kids",
+    "ocean habitat video for kindergarten",
+    "ocean habitat worksheets",
+    "ocean habitat worksheets 2nd grade",
+    "ocean habitat worksheets for kindergarten",
+    "ocean habitats",
+    "ocean life printable coloring pages",
+    "ocean life printables",
+    "ocean life worksheets",
+    "ocean life worksheets for preschool",
+    "polar animals kindergarten",
+    "polar animals printable",
+    "polar animals worksheets",
+    "polar animals worksheets kindergarten",
+    "pond habitat",
+    "pond habitat animals",
+    "pond habitat diagram",
+    "pond habitat drawing",
+    "pond habitat drawing easy",
+    "pond habitat drawing for kids",
+    "pond habitat for kids",
+    "pond habitat images",
+    "pond habitat plants",
+    "pond habitat project",
+    "pond habitat worksheet",
+    "pond life kindergarten",
+    "pond life printables",
+    "pond life printables for preschoolers",
+    "pond life worksheets",
+    "pond life worksheets for preschoolers",
+    "printable ocean habitat animals",
+    "rainforest animals",
+    "rainforest animals and plants",
+    "rainforest animals clipart",
+    "rainforest animals coloring page",
+    "rainforest animals for kids",
+    "rainforest animals for kindergarten",
+    "rainforest animals list",
+    "rainforest animals list a-z",
+    "rainforest animals list with pictures",
+    "rainforest animals photos",
+    "rainforest animals preschool",
+    "rainforest animals printable",
+    "rainforest animals printable free",
+    "rainforest animals printable pdf",
+    "rainforest animals printable pictures",
+    "rainforest animals printables",
+    "rainforest animals toys",
+    "rainforest animals worksheets",
+    "what are the animals in the rainforest",
+    "where do arctic animals live"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "make it float",
+    "sink or float experiment"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 31,
+   "suggestions": [
+    "items for sink or float experiment",
+    "make floaters go away",
+    "make floating frame",
+    "make floating frame for canvas",
+    "make floating keyboard bigger ipad",
+    "make floating shelf",
+    "make floating shelves",
+    "make floating shelves diy",
+    "make it float",
+    "make it float keep it jesser",
+    "make it real floaty pens",
+    "sink or float experiment",
+    "sink or float experiment 1st grade",
+    "sink or float experiment 2nd grade",
+    "sink or float experiment 3rd grade",
+    "sink or float experiment explanation",
+    "sink or float experiment explanation for kindergarten",
+    "sink or float experiment for 3 year olds",
+    "sink or float experiment for kids",
+    "sink or float experiment for preschoolers",
+    "sink or float experiment for toddlers",
+    "sink or float experiment ideas",
+    "sink or float experiment kindergarten",
+    "sink or float experiment objects",
+    "sink or float experiment pdf",
+    "sink or float experiment worksheet",
+    "sink or float experiment worksheet free printable",
+    "sink or float lab worksheet",
+    "sink or float science experiment worksheet",
+    "sink or float science project for kindergarten",
+    "will it sink or float worksheet"
+   ]
+  }
+ },
+ "suggestions": {
+  "cursive connecting letters": {
+   "candidate": "cursive-writing",
+   "s": [
+    "cursive connecting letters",
+    "cursive connecting letters worksheets",
+    "cursive connecting letters font",
+    "cursive joining letters",
+    "cursive joining letters a to z",
+    "cursive joining letters worksheets",
+    "handwriting connecting letters",
+    "cursive joining letters pdf",
+    "cursive joining letters generator",
+    "connected cursive letters generator"
+   ]
+  },
+  "cursive connecting letters worksheets": {
+   "candidate": "cursive-writing",
+   "s": [
+    "cursive connecting letters worksheets",
+    "cursive joining letters worksheets",
+    "cursive writing joining letters worksheets pdf",
+    "how to connect cursive letters",
+    "how to learn cursive letters"
+   ]
+  },
+  "cursive sentences": {
+   "candidate": "cursive-writing",
+   "s": [
+    "cursive sentences",
+    "cursive sentences to practice",
+    "cursive sentences worksheets",
+    "cursive sentences to read",
+    "cursive sentences to copy",
+    "cursive sentences worksheets pdf",
+    "cursive sentences for beginners",
+    "cursive sentences practice sheets",
+    "cursive sentences for kids",
+    "cursive sentences pdf"
+   ]
+  },
+  "cursive sentences worksheets": {
+   "candidate": "cursive-writing",
+   "s": [
+    "cursive sentences worksheets",
+    "cursive sentences worksheets pdf",
+    "cursive sentences worksheets grade 2",
+    "cursive sentences worksheets free",
+    "handwriting sentences worksheets",
+    "handwriting sentences worksheets pdf",
+    "cursive sentences practice sheets",
+    "cursive writing sentences worksheets pdf",
+    "cursive writing sentences worksheets",
+    "cursive writing sentences worksheets pdf for adults"
+   ]
+  },
+  "cursive sentences printable": {
+   "candidate": "cursive-writing",
+   "s": [
+    "cursive sentences printable",
+    "handwriting sentences printable",
+    "cursive sentences practice",
+    "cursive sentences worksheets",
+    "cursive sentences worksheets pdf",
+    "cursive sentences practice pdf",
+    "cursive sentences practice sheets",
+    "cursive sentences worksheets grade 2",
+    "cursive sentences worksheets free",
+    "cursive writing sentences printable"
+   ]
+  },
+  "cursive sentences 1st grade": {
+   "candidate": "cursive-writing",
+   "s": [
+    "sentences handwriting first grade writing worksheets free printable",
+    "handwriting sentences grade 1",
+    "example of cursive sentence",
+    "cursive sentences for beginners",
+    "cursive writing sentences for class 5",
+    "simple sentences for cursive writing"
+   ]
+  },
+  "cursive sentences 2nd grade": {
+   "candidate": "cursive-writing",
+   "s": [
+    "sentences handwriting 2nd grade writing worksheets",
+    "handwriting practice sentences 2nd grade",
+    "example of cursive sentence",
+    "cursive writing sentences for class 2",
+    "cursive sentences for beginners",
+    "cursive writing sentences for class 3"
+   ]
+  },
+  "cursive sentences 3rd grade": {
+   "candidate": "cursive-writing",
+   "s": [
+    "cursive sentences grade 3",
+    "handwriting sentences grade 3",
+    "cursive writing sentences grade 3",
+    "cursive sentences for grade 3 worksheets",
+    "cursive writing sentences for class 3",
+    "example of cursive sentence",
+    "cursive writing in english sentences"
+   ]
+  },
+  "cursive words": {
+   "candidate": "cursive-writing",
+   "s": [
+    "cursive words",
+    "cursive words generator",
+    "cursive words to practice",
+    "cursive words copy and paste",
+    "cursive words a to z",
+    "cursive words tattoo",
+    "cursive words worksheets",
+    "cursive words to write",
+    "cursive words for kids",
+    "cursive words that are hard to read"
+   ]
+  },
+  "cursive words worksheets": {
+   "candidate": "cursive-writing",
+   "s": [
+    "cursive words worksheets",
+    "cursive words worksheets pdf",
+    "cursive words worksheets free",
+    "cursive writing worksheets",
+    "cursive writing worksheets pdf",
+    "cursive writing worksheets pdf free download",
+    "cursive writing worksheets a to z",
+    "cursive writing worksheets for ukg pdf",
+    "cursive writing worksheets for grade 2",
+    "cursive writing worksheets for class 1"
+   ]
+  },
+  "cursive words printable": {
+   "candidate": "cursive-writing",
+   "s": [
+    "cursive words printable",
+    "cursive letters printable",
+    "cursive writing printable",
+    "cursive letters printable pdf",
+    "cursive writing printable pdf",
+    "cursive letters printable free",
+    "cursive writing printable free",
+    "cursive letters printable practice",
+    "cursive writing printable pages",
+    "cursive writing printable practice"
+   ]
+  },
+  "cursive words kindergarten": {
+   "candidate": "cursive-writing",
+   "s": [
+    "cursive writing kindergarten",
+    "how to teach cursive letters for kindergarten"
+   ]
+  },
+  "cursive words 1st grade": {
+   "candidate": "cursive-writing",
+   "s": [
+    "cursive writing 1st grade",
+    "cursive writing grade 1",
+    "cursive letters grade 1",
+    "cursive writing words for class 1",
+    "cursive writing words for beginners",
+    "cursive words list"
+   ]
+  },
+  "cursive words 2nd grade": {
+   "candidate": "cursive-writing",
+   "s": [
+    "cursive writing 2nd grade",
+    "cursive writing practice 2nd grade",
+    "cursive 2 letter words",
+    "cursive writing 2 letter words",
+    "two letter words in english cursive writing",
+    "cursive writing 3 letter words"
+   ]
+  },
+  "cursive words 3rd grade": {
+   "candidate": "cursive-writing",
+   "s": [
+    "cursive writing 3rd grade",
+    "cursive letters 3rd grade",
+    "cursive writing for 3rd graders",
+    "cursive writing practice 3rd grade",
+    "cursive writing worksheets 3rd grade",
+    "cursive writing book 3rd grade",
+    "cursive 3 letter words",
+    "cursive writing 3 letter words",
+    "cursive three letter words"
+   ]
+  },
+  "beginning middle end": {
+   "candidate": "story-sequencing",
+   "s": [
+    "beginning middle end",
+    "beginning middle end book",
+    "beginning middle end by valeria luiselli",
+    "beginning middle end lyrics",
+    "beginning middle end graphic organizer",
+    "beginning middle end book review",
+    "beginning middle end a novel valeria luiselli",
+    "beginning middle end novel",
+    "beginning middle end reviews",
+    "beginning middle end song"
+   ]
+  },
+  "beginning middle end worksheets": {
+   "candidate": "story-sequencing",
+   "s": [
+    "beginning middle end worksheets",
+    "beginning middle end worksheet pdf",
+    "beginning middle end worksheet 1st grade",
+    "beginning middle end worksheet free printable",
+    "beginning middle end worksheet kindergarten",
+    "beginning middle end worksheet 2nd grade",
+    "beginning middle end worksheet with story",
+    "beginning middle end worksheet free",
+    "beginning middle end worksheet for kids",
+    "beginning middle end story worksheets kindergarten"
+   ]
+  },
+  "beginning middle end printable": {
+   "candidate": "story-sequencing",
+   "s": [
+    "beginning middle end printable",
+    "beginning middle end worksheet free printable",
+    "beginning middle end graphic organizer free printable",
+    "beginning middle end examples",
+    "beginning middle end meaning"
+   ]
+  },
+  "beginning middle end kindergarten": {
+   "candidate": "story-sequencing",
+   "s": [
+    "beginning middle end kindergarten",
+    "beginning middle end kindergarten worksheets",
+    "beginning middle end kindergarten anchor chart",
+    "beginning middle end template kindergarten",
+    "beginning middle end story kindergarten",
+    "beginning middle ending sounds kindergarten worksheets",
+    "beginning middle end story worksheets kindergarten",
+    "beginning middle end graphic organizer kindergarten pdf",
+    "beginning middle end activities for kindergarten",
+    "beginning middle end graphic organizer kindergarten"
+   ]
+  },
+  "beginning middle end 1st grade": {
+   "candidate": "story-sequencing",
+   "s": [
+    "beginning middle end 1st grade",
+    "beginning middle end worksheet 1st grade",
+    "beginning middle end grade 1",
+    "beginning middle end activities 1st grade",
+    "beginning middle end anchor chart 1st grade",
+    "beginning middle end graphic organizer 1st grade",
+    "first day of the first grade"
+   ]
+  },
+  "beginning middle end 2nd grade": {
+   "candidate": "story-sequencing",
+   "s": [
+    "beginning middle end 2nd grade",
+    "beginning middle end worksheet 2nd grade",
+    "beginning middle end anchor chart 2nd grade",
+    "beginning middle end graphic organizer 2nd grade",
+    "teaching beginning middle and end 2nd grade",
+    "beginning middle and end of a story 2nd grade",
+    "beginning middle end examples",
+    "beginning middle end meaning",
+    "beginning middle end of a story"
+   ]
+  },
+  "beginning middle end 3rd grade": {
+   "candidate": "story-sequencing",
+   "s": [
+    "beginning middle end anchor chart 3rd grade",
+    "beginning middle end graphic organizer 3rd grade",
+    "beginning middle end examples",
+    "beginning middle end meaning",
+    "beginning middle end structure"
+   ]
+  },
+  "sequencing cut and paste": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequencing cut and paste worksheets",
+    "sequencing cut and paste",
+    "sequencing cut and paste kindergarten",
+    "sequencing cut and paste activity",
+    "sequence cut and paste free printables",
+    "sequencing events cut and paste",
+    "story sequencing cut and paste",
+    "number sequencing cut and paste",
+    "story sequencing cut and paste worksheets",
+    "sequencing cut and stick"
+   ]
+  },
+  "sequencing cut and paste worksheets": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequencing cut and paste worksheets",
+    "sequencing cut and paste activity",
+    "story sequencing cut and paste worksheets",
+    "sequence of events cut and paste worksheets",
+    "cut and paste sequencing worksheets free",
+    "cut and paste sequencing worksheets 3rd grade",
+    "cut and paste sequencing worksheets for kindergarten",
+    "cut and paste story sequencing worksheets for kindergarten"
+   ]
+  },
+  "sequencing cut and paste printable": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequencing cut and paste worksheets",
+    "sequence cut and paste free printables",
+    "story sequencing cut and paste worksheets"
+   ]
+  },
+  "sequencing cut and paste kindergarten": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequencing cut and paste kindergarten",
+    "sequencing worksheets kindergarten cut and paste",
+    "cut and paste story sequencing worksheets for kindergarten",
+    "cut and paste instructions",
+    "cut and paste number words"
+   ]
+  },
+  "sequencing cut and paste 3rd grade": {
+   "candidate": "story-sequencing",
+   "s": [
+    "cut and paste sequencing worksheets 3rd grade"
+   ]
+  },
+  "what happens next": {
+   "candidate": "story-sequencing",
+   "s": [
+    "what happens next",
+    "what happens next in the lindsay clancy trial",
+    "what happens next in the lindsay clancy case",
+    "what happens next after a mistrial",
+    "what happens next in clancy trial",
+    "what happens next movie",
+    "what happens next max lucado",
+    "what happens next webcomic",
+    "what happens next with fauci",
+    "what happens next in house of the dragon"
+   ]
+  },
+  "what happens next worksheets": {
+   "candidate": "story-sequencing",
+   "s": [
+    "what happens next worksheets",
+    "what comes next worksheets",
+    "what comes next worksheets for preschoolers",
+    "what comes next worksheets for kindergarten",
+    "what happens next worksheet kindergarten",
+    "what comes next math worksheets",
+    "what number comes next worksheets",
+    "draw what comes next worksheets",
+    "predict what happens next worksheet"
+   ]
+  },
+  "what happens next printable": {
+   "candidate": "story-sequencing",
+   "s": [
+    "what comes next printable"
+   ]
+  },
+  "what happens next kindergarten": {
+   "candidate": "story-sequencing",
+   "s": [
+    "what comes next kindergarten worksheet",
+    "what happens after kindergarten",
+    "what comes next kindergarten",
+    "what happens next worksheet kindergarten",
+    "what is next to kindergarten",
+    "what is next after kindergarten",
+    "what number comes next kindergarten",
+    "what comes next after kindergarten",
+    "what number comes next kindergarten worksheet",
+    "what comes next pattern kindergarten"
+   ]
+  },
+  "what happens next 1st grade": {
+   "candidate": "story-sequencing",
+   "s": [
+    "what comes after 1st grade",
+    "what comes next grade 1",
+    "what comes after grade 1",
+    "what to do after grade 1 type soul",
+    "what is after grade 1 in type soul",
+    "what comes after grade 1 in jjk",
+    "what to do after grade 1 archived",
+    "can you fail 1st grade"
+   ]
+  },
+  "what happens next 3rd grade": {
+   "candidate": "story-sequencing",
+   "s": [
+    "what comes after 3rd grade",
+    "what happens after grade 3 fatty liver",
+    "what is after grade 3 fatty liver",
+    "what comes after grade 3",
+    "can you fail 3rd grade"
+   ]
+  },
+  "brushing teeth": {
+   "candidate": "healthy-habits",
+   "s": [
+    "brushing teeth",
+    "brushing teeth with baking soda",
+    "brushing teeth after wisdom teeth removal",
+    "brushing teeth with hydrogen peroxide",
+    "brushing teeth song",
+    "brushing teeth after tooth extraction",
+    "brushing teeth with coconut oil",
+    "brushing teeth with baking soda and peroxide",
+    "brushing teeth with salt",
+    "brushing teeth after eating"
+   ]
+  },
+  "brushing teeth worksheets": {
+   "candidate": "healthy-habits",
+   "s": [
+    "brushing teeth worksheets",
+    "brushing teeth worksheets pdf",
+    "brushing teeth worksheets preschool",
+    "brushing teeth worksheets for kindergarten",
+    "brushing teeth worksheet for kids",
+    "brushing teeth worksheet kindergarten free printable",
+    "brushing teeth lesson plans for kindergarten",
+    "brushing teeth lesson",
+    "brushing teeth lesson plan preschool",
+    "brushing teeth lesson plan"
+   ]
+  },
+  "brushing teeth printable": {
+   "candidate": "healthy-habits",
+   "s": [
+    "brushing teeth printable",
+    "brushing teeth printable for kids",
+    "brush teeth printable pdf",
+    "teeth brushing printable chart",
+    "teeth brushing printable free",
+    "brushing teeth print out",
+    "brushing teeth print",
+    "tooth brushing printables for preschoolers",
+    "tooth brushing printable",
+    "brushing teeth worksheet"
+   ]
+  },
+  "brushing teeth kindergarten": {
+   "candidate": "healthy-habits",
+   "s": [
+    "brushing teeth kindergarten activities",
+    "brushing teeth kindergarten",
+    "brushing teeth preschool activities",
+    "brushing teeth preschool",
+    "brushing teeth preschool song",
+    "brushing teeth worksheet kindergarten",
+    "brushing teeth worksheet kindergarten free printable",
+    "brush your teeth kindergarten song",
+    "steps to brushing teeth kindergarten",
+    "brushing teeth video for kindergarten"
+   ]
+  },
+  "brushing teeth 1st grade": {
+   "candidate": "healthy-habits",
+   "s": [
+    "brushing teeth grade 1",
+    "4 steps in brushing teeth"
+   ]
+  },
+  "dental health": {
+   "candidate": "healthy-habits",
+   "s": [
+    "dental health",
+    "dental health insurance",
+    "dental health associates",
+    "dental health products",
+    "dental health month",
+    "dental health alliance",
+    "dental health services",
+    "dental health center",
+    "dental health insurance plans",
+    "dental health week 2027"
+   ]
+  },
+  "dental health worksheets": {
+   "candidate": "healthy-habits",
+   "s": [
+    "dental health worksheets for preschool",
+    "dental health worksheets",
+    "dental health worksheets for kindergarten",
+    "dental health worksheets for kids",
+    "dental health worksheets for 1st grade",
+    "oral health worksheets",
+    "dental care worksheets for kindergarten",
+    "free dental health worksheets for preschool",
+    "free printable dental health worksheets",
+    "pre k dental health worksheets"
+   ]
+  },
+  "dental health printable": {
+   "candidate": "healthy-habits",
+   "s": [
+    "dental health printables for kids",
+    "dental health printable activities",
+    "dental health printables",
+    "oral health printable",
+    "preschool dental health printables",
+    "dental health free printables",
+    "preschool dental health printable activities",
+    "dental health week free printables",
+    "dental health coloring pages printable",
+    "free preschool dental health printables"
+   ]
+  },
+  "dental health kindergarten": {
+   "candidate": "healthy-habits",
+   "s": [
+    "dental health kindergarten activities",
+    "dental health kindergarten",
+    "dental health kindergarten video",
+    "dental care kindergarten",
+    "dental health preschool activities",
+    "dental health preschool crafts",
+    "dental health preschool",
+    "dental health preschool books",
+    "dental health preschool worksheets",
+    "dental health preschool video"
+   ]
+  },
+  "dental health 1st grade": {
+   "candidate": "healthy-habits",
+   "s": [
+    "dental health worksheets for 1st grade",
+    "dental health score",
+    "dental health diet score"
+   ]
+  },
+  "dental health 2nd grade": {
+   "candidate": "healthy-habits",
+   "s": [
+    "dental health lesson plans for 2nd grade"
+   ]
+  },
+  "germs": {
+   "candidate": "healthy-habits",
+   "s": [
+    "germs",
+    "germs under a microscope",
+    "germs band",
+    "germs in spanish",
+    "germs guns and steel",
+    "german shepherd",
+    "germany",
+    "germs meaning",
+    "germs vs bacteria",
+    "germs on hands"
+   ]
+  },
+  "germs worksheets": {
+   "candidate": "healthy-habits",
+   "s": [
+    "germs worksheets printables",
+    "germs worksheets",
+    "germs worksheets for kids",
+    "germ worksheets for elementary",
+    "germ worksheets for preschoolers",
+    "germs and diseases worksheets"
+   ]
+  },
+  "germs printable": {
+   "candidate": "healthy-habits",
+   "s": [
+    "germs printable",
+    "germs printable coloring pages",
+    "germs printable for kids",
+    "germs worksheets printables",
+    "free printable germs",
+    "can you get sick from your own germs",
+    "germs are most commonly found"
+   ]
+  },
+  "germs kindergarten": {
+   "candidate": "healthy-habits",
+   "s": [
+    "germs kindergarten",
+    "germs kindergarten video",
+    "germs kindergarten activities",
+    "germs kindergarten worksheet",
+    "kindergarten germs lesson",
+    "germs experiment for kindergarten",
+    "germs book for kindergarten",
+    "what are germs for preschoolers"
+   ]
+  },
+  "germs 1st grade": {
+   "candidate": "healthy-habits",
+   "s": [
+    "germs grade 1",
+    "germs are most commonly found"
+   ]
+  },
+  "germs 2nd grade": {
+   "candidate": "healthy-habits",
+   "s": [
+    "germs worksheet for 2nd grade",
+    "germs lesson plan for 2nd grade",
+    "what are germs class 2"
+   ]
+  },
+  "germs 3rd grade": {
+   "candidate": "healthy-habits",
+   "s": [
+    "germs lesson plan for 3rd grade",
+    "what are germs for preschoolers"
+   ]
+  },
+  "daily routine": {
+   "candidate": "healthy-habits",
+   "s": [
+    "daily routine",
+    "daily routine chart for kids",
+    "daily routine template",
+    "daily routine schedule",
+    "daily routine chart",
+    "daily routine app",
+    "daily routine for kids",
+    "daily routine in spanish",
+    "daily routine for healthy body and mind",
+    "daily routine planner"
+   ]
+  },
+  "daily routine worksheets": {
+   "candidate": "healthy-habits",
+   "s": [
+    "daily routine worksheets",
+    "daily routine worksheets for kids",
+    "daily routine worksheets for kindergarten",
+    "daily routine worksheets pdf",
+    "daily routine worksheets islcollective",
+    "daily routine worksheets for adults",
+    "daily routine worksheets for kids pdf",
+    "daily routine worksheets for beginners",
+    "daily routine worksheets for preschool",
+    "daily routine worksheets for grade 2"
+   ]
+  },
+  "daily routine printable": {
+   "candidate": "healthy-habits",
+   "s": [
+    "daily routine printable",
+    "daily routine printable free",
+    "daily routine printable template",
+    "daily routine printable for kids",
+    "daily routine printable pdf",
+    "daily routine printable for adults",
+    "daily routine printable worksheets",
+    "daily routine printable flashcards",
+    "daily routine printable chart",
+    "daily schedule printable"
+   ]
+  },
+  "daily routine kindergarten": {
+   "candidate": "healthy-habits",
+   "s": [
+    "daily routine kindergarten",
+    "daily routine kindergarten worksheets",
+    "daily routines kindergarten pdf",
+    "morning routine kindergarten",
+    "daily schedule kindergarten",
+    "morning routine kindergarten classroom",
+    "daily activities kindergarten",
+    "daily schedule kindergarten template",
+    "daily schedule kindergarten printable",
+    "daily routine preschool"
+   ]
+  },
+  "daily routine 1st grade": {
+   "candidate": "healthy-habits",
+   "s": [
+    "daily routine 1st grade homeschool schedule",
+    "daily routine 1st grade",
+    "morning routine 1st grade",
+    "daily schedule 1st grade",
+    "daily routine grade 1 worksheet",
+    "morning routine grade 1",
+    "daily schedule for 1st grade class",
+    "morning routine for 1st graders",
+    "morning meeting routine 1st grade",
+    "homeschool daily schedule 1st grade"
+   ]
+  },
+  "daily routine 2nd grade": {
+   "candidate": "healthy-habits",
+   "s": [
+    "daily routine 2nd grade",
+    "morning routine 2nd grade",
+    "daily schedule 2nd grade",
+    "daily routine worksheet 2nd grade",
+    "homeschool daily schedule 2nd grade",
+    "daily morning work 2nd grade",
+    "morning meeting routine 2nd grade",
+    "earth day activities 2nd grade",
+    "first day activities 2nd grade",
+    "glow day activities 2nd grade"
+   ]
+  },
+  "daily routine 3rd grade": {
+   "candidate": "healthy-habits",
+   "s": [
+    "daily routine 3rd grade",
+    "daily routine 3 grade",
+    "morning routine 3rd grade",
+    "daily schedule 3rd grade",
+    "daily activities grade 3",
+    "daily schedule for 3rd grade classroom",
+    "daily morning work 3rd grade",
+    "morning meeting routine 3rd grade",
+    "earth day activities 3rd grade",
+    "daily routine worksheet grade 3"
+   ]
+  },
+  "rainforest animals": {
+   "candidate": "habitats",
+   "s": [
+    "rainforest animals",
+    "rainforest animals list",
+    "rainforest animals and plants",
+    "rainforest animals for kids",
+    "rainforest animals coloring page",
+    "rainforest animals list a-z",
+    "rainforest animals photos",
+    "rainforest animals clipart",
+    "rainforest animals toys",
+    "rainforest animals list with pictures"
+   ]
+  },
+  "rainforest animals worksheets": {
+   "candidate": "habitats",
+   "s": [
+    "rainforest animals worksheets",
+    "jungle animals worksheets for kindergarten",
+    "jungle animals worksheets",
+    "jungle animals worksheets for kids",
+    "jungle animals worksheets for preschoolers",
+    "rainforest animals printables"
+   ]
+  },
+  "rainforest animals printable": {
+   "candidate": "habitats",
+   "s": [
+    "rainforest animals printable",
+    "rainforest animals printable free",
+    "rainforest animals printable pdf",
+    "rainforest animals printable pictures",
+    "jungle animals printable",
+    "jungle animals printable coloring pages",
+    "jungle animals printable free",
+    "jungle animals printable pdf",
+    "jungle animals printable pictures",
+    "amazon rainforest animals printable"
+   ]
+  },
+  "rainforest animals kindergarten": {
+   "candidate": "habitats",
+   "s": [
+    "rainforest animals for kindergarten",
+    "jungle animals kindergarten",
+    "rainforest animals preschool",
+    "what are the animals in the rainforest"
+   ]
+  },
+  "arctic animals": {
+   "candidate": "habitats",
+   "s": [
+    "arctic animals",
+    "arctic animals list",
+    "arctic animals toys",
+    "arctic animals for kids",
+    "arctic animals coloring pages",
+    "arctic animals planet zoo",
+    "arctic animals pictures",
+    "arctic animals clipart",
+    "arctic animals book",
+    "arctic animals penguin"
+   ]
+  },
+  "arctic animals worksheets": {
+   "candidate": "habitats",
+   "s": [
+    "arctic animals worksheets for preschool free",
+    "arctic animals worksheets",
+    "arctic animals worksheets kindergarten",
+    "arctic animals worksheets free",
+    "arctic animals worksheets for kids",
+    "arctic animals worksheets preschool",
+    "polar animals worksheets kindergarten",
+    "polar animals worksheets",
+    "arctic fox worksheets",
+    "arctic animals worksheet pdf"
+   ]
+  },
+  "arctic animals printable": {
+   "candidate": "habitats",
+   "s": [
+    "arctic animals printable",
+    "arctic animals printable free",
+    "arctic animals printable coloring pages",
+    "arctic animals printable pictures",
+    "arctic animals printable book",
+    "arctic fox printable",
+    "polar animals printable",
+    "arctic fox printable coloring page",
+    "arctic fox printable pictures",
+    "arctic animals preschool printables"
+   ]
+  },
+  "arctic animals kindergarten": {
+   "candidate": "habitats",
+   "s": [
+    "arctic animals kindergarten",
+    "arctic animals kindergarten unit",
+    "arctic animals kindergarten activities",
+    "arctic animals kindergarten worksheets",
+    "polar animals kindergarten",
+    "arctic fox kindergarten",
+    "arctic animals preschool",
+    "arctic animals preschool activities",
+    "arctic animals preschool crafts",
+    "arctic animals preschool lesson plans"
+   ]
+  },
+  "arctic animals 1st grade": {
+   "candidate": "habitats",
+   "s": [
+    "arctic animals 1st grade",
+    "where do arctic animals live"
+   ]
+  },
+  "pond habitat": {
+   "candidate": "habitats",
+   "s": [
+    "pond habitat",
+    "pond habitat animals",
+    "pond habitat project",
+    "pond habitat for kids",
+    "pond habitat drawing",
+    "pond habitat images",
+    "pond habitat diagram",
+    "pond habitat plants",
+    "pond habitat drawing easy",
+    "pond habitat drawing for kids"
+   ]
+  },
+  "pond habitat worksheets": {
+   "candidate": "habitats",
+   "s": [
+    "pond life worksheets for preschoolers",
+    "pond life worksheets",
+    "pond habitat worksheet",
+    "explain pond as a habitat"
+   ]
+  },
+  "pond habitat printable": {
+   "candidate": "habitats",
+   "s": [
+    "pond life printables for preschoolers",
+    "pond life printables",
+    "explain pond as a habitat"
+   ]
+  },
+  "pond habitat kindergarten": {
+   "candidate": "habitats",
+   "s": [
+    "pond life kindergarten",
+    "explain pond as a habitat"
+   ]
+  },
+  "ocean habitat": {
+   "candidate": "habitats",
+   "s": [
+    "ocean habitats",
+    "ocean habitat for kids",
+    "ocean habitat project",
+    "ocean habitat animals",
+    "ocean habitat diorama",
+    "ocean habitat coloring page",
+    "ocean habitat and wildlife rescue inc",
+    "ocean habitat project ideas",
+    "ocean habitat video for kids",
+    "ocean habitat facts"
+   ]
+  },
+  "ocean habitat worksheets": {
+   "candidate": "habitats",
+   "s": [
+    "ocean habitat worksheets",
+    "ocean habitat worksheets for kindergarten",
+    "ocean habitat worksheets 2nd grade",
+    "ocean life worksheets",
+    "ocean life worksheets for preschool",
+    "ocean habitat printables",
+    "ocean habitat activities",
+    "ocean habitat information",
+    "ocean habitat characteristics",
+    "ocean habitat animals list"
+   ]
+  },
+  "ocean habitat printable": {
+   "candidate": "habitats",
+   "s": [
+    "ocean habitat printables",
+    "ocean life printables",
+    "ocean life printable coloring pages",
+    "ocean habitat diorama printables",
+    "ocean habitat project printable",
+    "ocean habitat coloring page printable",
+    "printable ocean habitat animals",
+    "ocean habitat information",
+    "ocean habitat activities",
+    "ocean habitat animals list"
+   ]
+  },
+  "ocean habitat kindergarten": {
+   "candidate": "habitats",
+   "s": [
+    "ocean habitat kindergarten",
+    "ocean habitat preschool",
+    "ocean habitat project for kindergarten",
+    "ocean habitat worksheets for kindergarten",
+    "ocean habitat video for kindergarten",
+    "ocean habitat activities",
+    "ocean habitat information"
+   ]
+  },
+  "ocean habitat 1st grade": {
+   "candidate": "habitats",
+   "s": [
+    "ocean habitat for 1st grade",
+    "ocean habitat project for 1st grade",
+    "ocean habitat activities",
+    "ocean habitat information"
+   ]
+  },
+  "ocean habitat 2nd grade": {
+   "candidate": "habitats",
+   "s": [
+    "ocean habitat 2nd grade",
+    "ocean habitat worksheets 2nd grade",
+    "ocean habitat project 2nd grade",
+    "ocean habitat facts for 2nd grade",
+    "ocean habitat video for 2nd grade",
+    "2nd grade ocean habitat diorama",
+    "ocean habitat activities",
+    "ocean habitat information"
+   ]
+  },
+  "ocean habitat 3rd grade": {
+   "candidate": "habitats",
+   "s": [
+    "ocean habitat grade 3",
+    "ocean habitat project for 3rd grade",
+    "ocean habitat activities",
+    "ocean habitat information"
+   ]
+  },
+  "animal adaptations": {
+   "candidate": "habitats",
+   "s": [
+    "animal adaptations",
+    "animal adaptations examples",
+    "animal adaptations for kids",
+    "animal adaptations video for kids",
+    "animal adaptations near me",
+    "animal adaptations project",
+    "animal adaptations worksheet",
+    "animal adaptations in the desert",
+    "animal adaptations book",
+    "animal adaptations in the tropical rainforest"
+   ]
+  },
+  "animal adaptations worksheets": {
+   "candidate": "habitats",
+   "s": [
+    "animal adaptations worksheets grade 3",
+    "animal adaptations worksheets 3rd grade pdf",
+    "animal adaptations worksheets pdf",
+    "animal adaptations worksheets",
+    "animal adaptations worksheets grade 4",
+    "animal adaptations worksheets 4th grade pdf",
+    "animal adaptations worksheets 5th grade pdf",
+    "animal adaptations worksheets free",
+    "animal adaptations worksheets grade 2",
+    "animal adaptations worksheets grade 5"
+   ]
+  },
+  "animal adaptations kindergarten": {
+   "candidate": "habitats",
+   "s": [
+    "animal adaptations kindergarten",
+    "list of animal adaptations"
+   ]
+  },
+  "animal adaptations 1st grade": {
+   "candidate": "habitats",
+   "s": [
+    "animal adaptations 1st grade",
+    "animal adaptations grade 1",
+    "animal adaptations lesson plans 1st grade",
+    "animal adaptation activities for 1st grade",
+    "10 examples of animal adaptations"
+   ]
+  },
+  "animal adaptations 2nd grade": {
+   "candidate": "habitats",
+   "s": [
+    "animal adaptations 2nd grade",
+    "animal adaptations lesson plans 2nd grade",
+    "different animals and their adaptations"
+   ]
+  },
+  "animal adaptations 3rd grade": {
+   "candidate": "habitats",
+   "s": [
+    "animal adaptations 3rd grade worksheets",
+    "animal adaptations 3rd grade",
+    "animal adaptations grade 3",
+    "animal adaptations grade 3 science worksheet",
+    "animal adaptations worksheets 3rd grade pdf",
+    "animal adaptations project 3rd grade",
+    "animal adaptations quiz 3rd grade",
+    "animal adaptation activities 3rd grade",
+    "animal adaptations lesson plans 3rd grade",
+    "animal adaptations anchor chart 3rd grade"
+   ]
+  },
+  "make it float": {
+   "candidate": "sink-or-float",
+   "s": [
+    "make it float",
+    "make it float keep it jesser",
+    "make it real floaty pens",
+    "make floating shelves",
+    "make floating shelf",
+    "make floating shelves diy",
+    "make floating frame for canvas",
+    "make floating keyboard bigger ipad",
+    "make floating frame",
+    "make floaters go away"
+   ]
+  },
+  "sink or float experiment": {
+   "candidate": "sink-or-float",
+   "s": [
+    "sink or float experiment",
+    "sink or float experiment for kids",
+    "sink or float experiment explanation",
+    "sink or float experiment for preschoolers",
+    "sink or float experiment worksheet",
+    "sink or float experiment objects",
+    "sink or float experiment 1st grade",
+    "sink or float experiment for 3 year olds",
+    "sink or float experiment for toddlers",
+    "sink or float experiment pdf"
+   ]
+  },
+  "sink or float experiment worksheets": {
+   "candidate": "sink-or-float",
+   "s": [
+    "sink or float experiment worksheet",
+    "sink or float experiment worksheet free printable",
+    "sink or float lab worksheet",
+    "sink or float science experiment worksheet",
+    "will it sink or float worksheet",
+    "sink or float experiment explanation"
+   ]
+  },
+  "sink or float experiment printable": {
+   "candidate": "sink-or-float",
+   "s": [
+    "sink or float experiment worksheet",
+    "sink or float experiment worksheet free printable",
+    "sink or float science experiment worksheet",
+    "sink or float experiment explanation",
+    "sink or float experiment ideas"
+   ]
+  },
+  "sink or float experiment kindergarten": {
+   "candidate": "sink-or-float",
+   "s": [
+    "sink or float experiment kindergarten",
+    "sink or float experiment explanation for kindergarten",
+    "sink or float science project for kindergarten",
+    "sink or float experiment for preschoolers",
+    "sink or float experiment explanation",
+    "sink or float experiment ideas"
+   ]
+  },
+  "sink or float experiment 1st grade": {
+   "candidate": "sink-or-float",
+   "s": [
+    "sink or float experiment 1st grade",
+    "sink or float experiment ideas",
+    "sink or float experiment explanation"
+   ]
+  },
+  "sink or float experiment 2nd grade": {
+   "candidate": "sink-or-float",
+   "s": [
+    "sink or float experiment 2nd grade",
+    "sink or float experiment ideas",
+    "sink or float experiment explanation",
+    "items for sink or float experiment"
+   ]
+  },
+  "sink or float experiment 3rd grade": {
+   "candidate": "sink-or-float",
+   "s": [
+    "sink or float experiment 3rd grade",
+    "sink or float experiment explanation",
+    "sink or float experiment ideas",
+    "items for sink or float experiment"
+   ]
+  }
+ }
+}

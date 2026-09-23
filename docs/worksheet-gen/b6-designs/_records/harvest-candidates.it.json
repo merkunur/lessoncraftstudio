@@ -1,0 +1,926 @@
+{
+ "locale": "it",
+ "market": {
+  "hl": "it",
+  "gl": "it"
+ },
+ "generatedAt": "2026-09-23T15:55:49.919Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/candidate-seeds.json",
+ "requestCount": 98,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "corsivo",
+    "corsivo minuscolo",
+    "pregrafismo corsivo"
+   ],
+   "requests": 21,
+   "productiveSeeds": 13,
+   "unique": 81,
+   "suggestions": [
+    "alfabetiere corsivo da stampare",
+    "alfabeto corsivo da stampare gratis",
+    "alfabeto corsivo maiuscolo e minuscolo da stampare",
+    "alfabeto corsivo maiuscolo e minuscolo da stampare pdf",
+    "alfabeto corsivo maiuscolo e minuscolo scuola primaria",
+    "alfabeto corsivo minuscolo da stampare",
+    "alfabeto corsivo scuola primaria",
+    "alfabeto italiano corsivo maiuscolo e minuscolo da stampare",
+    "attività corsivo scuola primaria",
+    "avvio al corsivo classe prima",
+    "avvio al corsivo classe seconda",
+    "corsivo",
+    "corsivo bella calligrafia da copiare",
+    "corsivo classe prima",
+    "corsivo classe prima maestra anita",
+    "corsivo classe seconda",
+    "corsivo classe seconda elementare",
+    "corsivo classe terza",
+    "corsivo da stampare",
+    "corsivo da stampare schede corsivo pdf",
+    "corsivo font",
+    "corsivo in inglese",
+    "corsivo italiano",
+    "corsivo italiano scuola primaria",
+    "corsivo maiuscolo",
+    "corsivo maiuscolo e minuscolo da stampare",
+    "corsivo minuscolo",
+    "corsivo minuscolo alfabeto",
+    "corsivo minuscolo come si scrive",
+    "corsivo minuscolo da stampare",
+    "corsivo minuscolo e maiuscolo",
+    "corsivo minuscolo elegante",
+    "corsivo minuscolo elementari",
+    "corsivo minuscolo esempio",
+    "corsivo minuscolo font",
+    "corsivo minuscolo lettere",
+    "corsivo minuscolo prima elementare",
+    "corsivo russo",
+    "corsivo scrittura",
+    "corsivo scuola primaria",
+    "corsivo scuola primaria ciro di salvo",
+    "corsivo scuola primaria font",
+    "corsivo scuola primaria schede",
+    "corsivo su whatsapp",
+    "esercizi corsivo classe prima",
+    "esercizi corsivo classe seconda",
+    "esercizi corsivo da stampare",
+    "esercizi corsivo scuola primaria",
+    "esercizi pregrafismo corsivo",
+    "font corsivo scuola primaria canva",
+    "font corsivo scuola primaria word",
+    "insegnare il corsivo classe prima",
+    "insegnare il corsivo classe seconda",
+    "lettere corsivo da stampare",
+    "lettere in corsivo minuscolo da stampare",
+    "letture in corsivo classe seconda",
+    "pregrafismo corsivo",
+    "pregrafismo corsivo classe prima",
+    "pregrafismo corsivo da stampare",
+    "pregrafismo corsivo maiuscolo",
+    "pregrafismo corsivo minuscolo",
+    "pregrafismo corsivo pdf",
+    "pregrafismo corsivo schede",
+    "pregrafismo lettere corsivo da stampare",
+    "pregrafismo lettere corsivo pdf",
+    "pregrafismo vocali corsivo",
+    "presentazione corsivo classe prima",
+    "quaderno corsivo classe prima",
+    "quaderno corsivo classe seconda",
+    "ripasso corsivo classe seconda",
+    "ripasso corsivo classe terza",
+    "scheda corsivo classe seconda",
+    "scheda didattica corsivo",
+    "schede corsivo classe prima",
+    "schede corsivo da stampare",
+    "schede pregrafismo alfabeto corsivo da stampare",
+    "striscia corsivo da stampare",
+    "tabella corsivo da stampare",
+    "vocali in corsivo maiuscolo e minuscolo da stampare",
+    "wordwall corsivo classe prima",
+    "wordwall corsivo classe seconda"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "sequenze temporali",
+    "sequenze logiche",
+    "storie in sequenza"
+   ],
+   "requests": 21,
+   "productiveSeeds": 15,
+   "unique": 64,
+   "suggestions": [
+    "maestra mary sequenze temporali erickson da stampare",
+    "riordinare sequenze temporali classe seconda",
+    "schede sequenze temporali da stampare",
+    "sequenza da stampare storie in sequenza erickson",
+    "sequenze logiche",
+    "sequenze logiche autismo",
+    "sequenze logiche da stampare",
+    "sequenze logiche di figure",
+    "sequenze logiche lettere scuola primaria",
+    "sequenze logiche numeriche",
+    "sequenze logiche pdf",
+    "sequenze logiche per bambini",
+    "sequenze logiche per bambini da stampare",
+    "sequenze logiche scuola infanzia",
+    "sequenze logiche scuola primaria",
+    "sequenze logiche wordwall",
+    "sequenze temporali",
+    "sequenze temporali classe prima",
+    "sequenze temporali classe prima primaria",
+    "sequenze temporali classe seconda",
+    "sequenze temporali da riordinare",
+    "sequenze temporali da riordinare classe prima",
+    "sequenze temporali da riordinare pdf",
+    "sequenze temporali da stampare",
+    "sequenze temporali da stampare autismo",
+    "sequenze temporali da stampare scuola infanzia",
+    "sequenze temporali erickson",
+    "sequenze temporali erickson da stampare",
+    "sequenze temporali immagini per scrivere una storia scuola primaria",
+    "sequenze temporali infanzia",
+    "sequenze temporali pdf",
+    "sequenze temporali per bambini da stampare",
+    "sequenze temporali prima dopo",
+    "sequenze temporali prima dopo infine",
+    "sequenze temporali scuola primaria",
+    "sequenze temporali storia scuola primaria",
+    "sequenze temporali wordwall",
+    "storie da riordinare in sequenza classe prima",
+    "storie da riordinare in sequenza classe seconda",
+    "storie illustrate in sequenza classe prima",
+    "storie in sequenza",
+    "storie in sequenza classe prima",
+    "storie in sequenza classe prima maestra mary",
+    "storie in sequenza classe prima primaria",
+    "storie in sequenza classe seconda",
+    "storie in sequenza classe terza",
+    "storie in sequenza da riordinare",
+    "storie in sequenza da riordinare scuola primaria",
+    "storie in sequenza da riordinare scuola primaria classe prima",
+    "storie in sequenza da stampare",
+    "storie in sequenza da stampare autunno",
+    "storie in sequenza da stampare classe prima",
+    "storie in sequenza da stampare pdf",
+    "storie in sequenza pdf",
+    "storie in sequenza pdf autismo",
+    "storie in sequenza pdf classe prima",
+    "storie in sequenza pdf classe seconda",
+    "storie in sequenza pdf classe terza",
+    "storie in sequenza per bambini da stampare",
+    "storie in sequenza scuola infanzia da stampare",
+    "storie in sequenza scuola primaria",
+    "storie in sequenza wordwall",
+    "wordwall sequenze logiche classe prima",
+    "wordwall sequenze temporali classe prima"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "igiene personale",
+    "educazione alla salute",
+    "lavarsi le mani"
+   ],
+   "requests": 21,
+   "productiveSeeds": 10,
+   "unique": 49,
+   "suggestions": [
+    "attività di educazione alla salute scuola primaria",
+    "cartello come lavarsi le mani da stampare",
+    "educazione alla salute",
+    "educazione alla salute a scuola pdf",
+    "educazione alla salute classe prima",
+    "educazione alla salute classe seconda primaria",
+    "educazione alla salute e al benessere",
+    "educazione alla salute e al benessere agenda 2030",
+    "educazione alla salute e al benessere pdf",
+    "educazione alla salute e al benessere scuola primaria",
+    "educazione alla salute e al benessere scuola secondaria",
+    "educazione alla salute nella scuola primaria",
+    "educazione alla salute powerpoint",
+    "educazione alla salute prevenzione e igiene",
+    "educazione alla salute scuola primaria",
+    "educazione alla salute scuola primaria schede didattiche",
+    "igiene personale",
+    "igiene personale a domicilio",
+    "igiene personale anziano",
+    "igiene personale classe prima",
+    "igiene personale in inglese",
+    "igiene personale nel 1500",
+    "igiene personale nel 1800",
+    "igiene personale oss",
+    "igiene personale pdf",
+    "igiene personale quotidiana",
+    "igiene personale scuola primaria",
+    "igiene personale scuola primaria pdf",
+    "igiene personale scuola primaria video",
+    "igiene personale sinonimo",
+    "lavarsi le mani",
+    "lavarsi le mani come ponzio pilato",
+    "lavarsi le mani con il sale",
+    "lavarsi le mani con il sale grosso",
+    "lavarsi le mani con il sale significato",
+    "lavarsi le mani con la cannella",
+    "lavarsi le mani in continuazione",
+    "lavarsi le mani in inglese",
+    "lavarsi le mani scuola primaria",
+    "lavarsi le mani significato",
+    "lavarsi le mani sinonimo",
+    "progetto educazione alla salute scuola primaria",
+    "progetto igiene personale scuola primaria",
+    "regole igiene personale scuola primaria",
+    "regole schede didattiche sull igiene personale scuola primaria",
+    "schede igiene personale scuola primaria",
+    "schede sull igiene personale classe prima",
+    "uda educazione alla salute scuola primaria",
+    "uda igiene personale scuola primaria"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "habitat degli animali",
+    "dove vivono gli animali",
+    "ambienti animali"
+   ],
+   "requests": 21,
+   "productiveSeeds": 14,
+   "unique": 43,
+   "suggestions": [
+    "ambienti animali",
+    "ambienti animali e ambienti umani",
+    "ambienti animali e ambienti umani pdf",
+    "ambienti e animali",
+    "ambienti e animali scuola primaria",
+    "animali ambienti caldi",
+    "animali ambienti freddi",
+    "animali e ambienti classe prima",
+    "animali e ambienti classe seconda",
+    "deodorante ambienti animali",
+    "dove vivono gli animali",
+    "dove vivono gli animali classe prima",
+    "dove vivono gli animali classe prima primaria",
+    "dove vivono gli animali classe prima video",
+    "dove vivono gli animali classe prima wordwall",
+    "dove vivono gli animali classe seconda",
+    "dove vivono gli animali classe seconda primaria",
+    "dove vivono gli animali classe seconda schede didattiche",
+    "dove vivono gli animali classe seconda video",
+    "dove vivono gli animali classe seconda wordwall",
+    "dove vivono gli animali classe terza",
+    "dove vivono gli animali più pericolosi al mondo",
+    "dove vivono gli animali scheda",
+    "dove vivono gli animali schede didattiche",
+    "dove vivono gli animali scienze classe seconda",
+    "dove vivono gli animali scuola primaria",
+    "dove vivono gli animali wordwall",
+    "gli ambienti degli animali classe prima",
+    "gli ambienti degli animali classe seconda",
+    "gli ambienti degli animali scuola primaria",
+    "gli ambienti di vita degli animali scuola primaria",
+    "gli habitat degli animali classe seconda",
+    "habitat degli animali",
+    "habitat degli animali classe prima",
+    "habitat degli animali scuola primaria",
+    "quali sono gli habitat degli animali",
+    "scheda didattica dove vivono gli animali",
+    "scheda dove vivono gli animali classe prima",
+    "scienze classe prima dove vivono gli animali",
+    "uexkull ambienti animali",
+    "video dove vivono gli animali scuola primaria",
+    "wordwall ambienti animali",
+    "youtube dove vivono gli animali scuola primaria"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "galleggia o affonda",
+    "galleggiamento"
+   ],
+   "requests": 14,
+   "productiveSeeds": 6,
+   "unique": 29,
+   "suggestions": [
+    "alluminio galleggia o affonda",
+    "arancia galleggia o affonda",
+    "blippi galleggia o affonda",
+    "cacca galleggia o affonda",
+    "esperimento galleggia o affonda",
+    "esperimento galleggiamento scuola primaria",
+    "galleggia o affonda",
+    "galleggia o affonda in inglese",
+    "galleggia o affonda scuola dell infanzia",
+    "galleggia o affonda scuola primaria",
+    "galleggiamento",
+    "galleggiamento archimede",
+    "galleggiamento archimede scuola primaria",
+    "galleggiamento classe seconda primaria",
+    "galleggiamento dei corpi",
+    "galleggiamento dei corpi scuola primaria",
+    "galleggiamento in inglese",
+    "galleggiamento navi",
+    "galleggiamento negativo",
+    "galleggiamento prono",
+    "galleggiamento scuola primaria",
+    "galleggiamento segretario comunale",
+    "galleggiamento uova",
+    "galleggiamento verticale",
+    "schede didattiche galleggiamento scuola primaria",
+    "uda galleggiamento scuola primaria",
+    "uovo galleggia o affonda",
+    "verifica sul galleggiamento scuola primaria",
+    "video galleggiamento scuola primaria"
+   ]
+  }
+ },
+ "suggestions": {
+  "corsivo": {
+   "candidate": "cursive-writing",
+   "s": [
+    "corsivo",
+    "corsivo su whatsapp",
+    "corsivo maiuscolo",
+    "corsivo russo",
+    "corsivo bella calligrafia da copiare",
+    "corsivo in inglese",
+    "corsivo scrittura",
+    "corsivo font",
+    "corsivo italiano",
+    "corsivo minuscolo"
+   ]
+  },
+  "corsivo scheda didattica": {
+   "candidate": "cursive-writing",
+   "s": [
+    "scheda didattica corsivo"
+   ]
+  },
+  "corsivo da stampare": {
+   "candidate": "cursive-writing",
+   "s": [
+    "corsivo da stampare",
+    "corsivo da stampare schede corsivo pdf",
+    "alfabeto corsivo da stampare gratis",
+    "schede corsivo da stampare",
+    "alfabetiere corsivo da stampare",
+    "pregrafismo corsivo da stampare",
+    "esercizi corsivo da stampare",
+    "tabella corsivo da stampare",
+    "lettere corsivo da stampare",
+    "striscia corsivo da stampare"
+   ]
+  },
+  "corsivo scuola primaria": {
+   "candidate": "cursive-writing",
+   "s": [
+    "corsivo scuola primaria",
+    "corsivo scuola primaria font",
+    "corsivo scuola primaria ciro di salvo",
+    "corsivo scuola primaria schede",
+    "font corsivo scuola primaria canva",
+    "esercizi corsivo scuola primaria",
+    "corsivo italiano scuola primaria",
+    "font corsivo scuola primaria word",
+    "attività corsivo scuola primaria",
+    "alfabeto corsivo scuola primaria"
+   ]
+  },
+  "corsivo classe prima": {
+   "candidate": "cursive-writing",
+   "s": [
+    "corsivo classe prima",
+    "corsivo classe prima maestra anita",
+    "quaderno corsivo classe prima",
+    "wordwall corsivo classe prima",
+    "pregrafismo corsivo classe prima",
+    "schede corsivo classe prima",
+    "esercizi corsivo classe prima",
+    "presentazione corsivo classe prima",
+    "avvio al corsivo classe prima",
+    "insegnare il corsivo classe prima"
+   ]
+  },
+  "corsivo classe seconda": {
+   "candidate": "cursive-writing",
+   "s": [
+    "corsivo classe seconda",
+    "corsivo classe seconda elementare",
+    "quaderno corsivo classe seconda",
+    "wordwall corsivo classe seconda",
+    "esercizi corsivo classe seconda",
+    "ripasso corsivo classe seconda",
+    "scheda corsivo classe seconda",
+    "letture in corsivo classe seconda",
+    "avvio al corsivo classe seconda",
+    "insegnare il corsivo classe seconda"
+   ]
+  },
+  "corsivo classe terza": {
+   "candidate": "cursive-writing",
+   "s": [
+    "corsivo classe terza",
+    "ripasso corsivo classe terza"
+   ]
+  },
+  "corsivo minuscolo": {
+   "candidate": "cursive-writing",
+   "s": [
+    "corsivo minuscolo",
+    "corsivo minuscolo alfabeto",
+    "corsivo minuscolo e maiuscolo",
+    "corsivo minuscolo font",
+    "corsivo minuscolo esempio",
+    "corsivo minuscolo come si scrive",
+    "corsivo minuscolo elementari",
+    "corsivo minuscolo prima elementare",
+    "corsivo minuscolo lettere",
+    "corsivo minuscolo elegante"
+   ]
+  },
+  "corsivo minuscolo da stampare": {
+   "candidate": "cursive-writing",
+   "s": [
+    "corsivo minuscolo da stampare",
+    "alfabeto corsivo minuscolo da stampare",
+    "corsivo maiuscolo e minuscolo da stampare",
+    "lettere in corsivo minuscolo da stampare",
+    "alfabeto corsivo maiuscolo e minuscolo da stampare",
+    "alfabeto corsivo maiuscolo e minuscolo da stampare pdf",
+    "vocali in corsivo maiuscolo e minuscolo da stampare",
+    "alfabeto italiano corsivo maiuscolo e minuscolo da stampare"
+   ]
+  },
+  "corsivo minuscolo scuola primaria": {
+   "candidate": "cursive-writing",
+   "s": [
+    "alfabeto corsivo maiuscolo e minuscolo scuola primaria"
+   ]
+  },
+  "pregrafismo corsivo": {
+   "candidate": "cursive-writing",
+   "s": [
+    "pregrafismo corsivo",
+    "pregrafismo corsivo da stampare",
+    "pregrafismo corsivo pdf",
+    "pregrafismo corsivo classe prima",
+    "pregrafismo corsivo minuscolo",
+    "pregrafismo corsivo schede",
+    "pregrafismo corsivo maiuscolo",
+    "pregrafismo lettere corsivo pdf",
+    "pregrafismo vocali corsivo",
+    "esercizi pregrafismo corsivo"
+   ]
+  },
+  "pregrafismo corsivo da stampare": {
+   "candidate": "cursive-writing",
+   "s": [
+    "pregrafismo corsivo da stampare",
+    "pregrafismo lettere corsivo da stampare",
+    "schede pregrafismo alfabeto corsivo da stampare"
+   ]
+  },
+  "pregrafismo corsivo classe prima": {
+   "candidate": "cursive-writing",
+   "s": [
+    "pregrafismo corsivo classe prima"
+   ]
+  },
+  "sequenze temporali": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequenze temporali",
+    "sequenze temporali da riordinare pdf",
+    "sequenze temporali wordwall",
+    "sequenze temporali da stampare",
+    "sequenze temporali erickson",
+    "sequenze temporali infanzia",
+    "sequenze temporali pdf",
+    "sequenze temporali prima dopo infine",
+    "sequenze temporali da riordinare",
+    "sequenze temporali prima dopo"
+   ]
+  },
+  "sequenze temporali da stampare": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequenze temporali da stampare",
+    "sequenze temporali da stampare autismo",
+    "sequenze temporali da stampare scuola infanzia",
+    "sequenze temporali erickson da stampare",
+    "schede sequenze temporali da stampare",
+    "sequenze temporali per bambini da stampare",
+    "maestra mary sequenze temporali erickson da stampare"
+   ]
+  },
+  "sequenze temporali scuola primaria": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequenze temporali scuola primaria",
+    "sequenze temporali storia scuola primaria",
+    "sequenze temporali immagini per scrivere una storia scuola primaria"
+   ]
+  },
+  "sequenze temporali classe prima": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequenze temporali classe prima",
+    "wordwall sequenze temporali classe prima",
+    "sequenze temporali classe prima primaria",
+    "sequenze temporali da riordinare classe prima"
+   ]
+  },
+  "sequenze temporali classe seconda": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequenze temporali classe seconda",
+    "riordinare sequenze temporali classe seconda"
+   ]
+  },
+  "sequenze logiche": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequenze logiche",
+    "sequenze logiche per bambini da stampare",
+    "sequenze logiche wordwall",
+    "sequenze logiche per bambini",
+    "sequenze logiche numeriche",
+    "sequenze logiche di figure",
+    "sequenze logiche pdf",
+    "sequenze logiche scuola infanzia",
+    "sequenze logiche scuola primaria",
+    "sequenze logiche autismo"
+   ]
+  },
+  "sequenze logiche da stampare": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequenze logiche da stampare",
+    "sequenze logiche per bambini da stampare"
+   ]
+  },
+  "sequenze logiche scuola primaria": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequenze logiche scuola primaria",
+    "sequenze logiche lettere scuola primaria"
+   ]
+  },
+  "sequenze logiche classe prima": {
+   "candidate": "story-sequencing",
+   "s": [
+    "wordwall sequenze logiche classe prima"
+   ]
+  },
+  "storie in sequenza": {
+   "candidate": "story-sequencing",
+   "s": [
+    "storie in sequenza pdf",
+    "storie in sequenza",
+    "storie in sequenza da stampare",
+    "storie in sequenza wordwall",
+    "storie in sequenza scuola infanzia da stampare",
+    "storie in sequenza pdf classe prima",
+    "storie in sequenza pdf autismo",
+    "storie in sequenza da riordinare",
+    "storie in sequenza pdf classe terza",
+    "storie in sequenza pdf classe seconda"
+   ]
+  },
+  "storie in sequenza da stampare": {
+   "candidate": "story-sequencing",
+   "s": [
+    "storie in sequenza da stampare",
+    "storie in sequenza da stampare classe prima",
+    "storie in sequenza da stampare autunno",
+    "storie in sequenza da stampare pdf",
+    "storie in sequenza scuola infanzia da stampare",
+    "storie in sequenza per bambini da stampare",
+    "sequenza da stampare storie in sequenza erickson"
+   ]
+  },
+  "storie in sequenza scuola primaria": {
+   "candidate": "story-sequencing",
+   "s": [
+    "storie in sequenza scuola primaria",
+    "storie in sequenza da riordinare scuola primaria",
+    "storie in sequenza da riordinare scuola primaria classe prima"
+   ]
+  },
+  "storie in sequenza classe prima": {
+   "candidate": "story-sequencing",
+   "s": [
+    "storie in sequenza classe prima maestra mary",
+    "storie in sequenza classe prima",
+    "storie in sequenza pdf classe prima",
+    "storie in sequenza classe prima primaria",
+    "storie illustrate in sequenza classe prima",
+    "storie in sequenza da stampare classe prima",
+    "storie da riordinare in sequenza classe prima"
+   ]
+  },
+  "storie in sequenza classe seconda": {
+   "candidate": "story-sequencing",
+   "s": [
+    "storie in sequenza classe seconda",
+    "storie in sequenza pdf classe seconda",
+    "storie da riordinare in sequenza classe seconda"
+   ]
+  },
+  "storie in sequenza classe terza": {
+   "candidate": "story-sequencing",
+   "s": [
+    "storie in sequenza classe terza",
+    "storie in sequenza pdf classe terza"
+   ]
+  },
+  "igiene personale": {
+   "candidate": "healthy-habits",
+   "s": [
+    "igiene personale",
+    "igiene personale oss",
+    "igiene personale anziano",
+    "igiene personale in inglese",
+    "igiene personale pdf",
+    "igiene personale quotidiana",
+    "igiene personale sinonimo",
+    "igiene personale a domicilio",
+    "igiene personale nel 1800",
+    "igiene personale nel 1500"
+   ]
+  },
+  "igiene personale scuola primaria": {
+   "candidate": "healthy-habits",
+   "s": [
+    "igiene personale scuola primaria pdf",
+    "igiene personale scuola primaria",
+    "igiene personale scuola primaria video",
+    "progetto igiene personale scuola primaria",
+    "regole igiene personale scuola primaria",
+    "uda igiene personale scuola primaria",
+    "schede igiene personale scuola primaria",
+    "regole schede didattiche sull igiene personale scuola primaria"
+   ]
+  },
+  "igiene personale classe prima": {
+   "candidate": "healthy-habits",
+   "s": [
+    "igiene personale classe prima",
+    "schede sull igiene personale classe prima"
+   ]
+  },
+  "educazione alla salute": {
+   "candidate": "healthy-habits",
+   "s": [
+    "educazione alla salute",
+    "educazione alla salute e al benessere agenda 2030",
+    "educazione alla salute a scuola pdf",
+    "educazione alla salute scuola primaria",
+    "educazione alla salute prevenzione e igiene",
+    "educazione alla salute powerpoint",
+    "educazione alla salute e al benessere",
+    "educazione alla salute e al benessere scuola secondaria",
+    "educazione alla salute scuola primaria schede didattiche",
+    "educazione alla salute e al benessere pdf"
+   ]
+  },
+  "educazione alla salute scuola primaria": {
+   "candidate": "healthy-habits",
+   "s": [
+    "educazione alla salute scuola primaria",
+    "educazione alla salute scuola primaria schede didattiche",
+    "uda educazione alla salute scuola primaria",
+    "educazione alla salute nella scuola primaria",
+    "progetto educazione alla salute scuola primaria",
+    "attività di educazione alla salute scuola primaria",
+    "educazione alla salute e al benessere scuola primaria"
+   ]
+  },
+  "educazione alla salute classe prima": {
+   "candidate": "healthy-habits",
+   "s": [
+    "educazione alla salute classe prima",
+    "educazione alla salute classe seconda primaria"
+   ]
+  },
+  "educazione alla salute classe seconda": {
+   "candidate": "healthy-habits",
+   "s": [
+    "educazione alla salute classe seconda primaria"
+   ]
+  },
+  "lavarsi le mani": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavarsi le mani",
+    "lavarsi le mani con il sale",
+    "lavarsi le mani con la cannella",
+    "lavarsi le mani in continuazione",
+    "lavarsi le mani con il sale grosso",
+    "lavarsi le mani in inglese",
+    "lavarsi le mani significato",
+    "lavarsi le mani con il sale significato",
+    "lavarsi le mani come ponzio pilato",
+    "lavarsi le mani sinonimo"
+   ]
+  },
+  "lavarsi le mani da stampare": {
+   "candidate": "healthy-habits",
+   "s": [
+    "cartello come lavarsi le mani da stampare"
+   ]
+  },
+  "lavarsi le mani scuola primaria": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavarsi le mani scuola primaria"
+   ]
+  },
+  "habitat degli animali": {
+   "candidate": "habitats",
+   "s": [
+    "habitat degli animali",
+    "habitat degli animali scuola primaria",
+    "habitat degli animali classe prima",
+    "gli habitat degli animali classe seconda",
+    "quali sono gli habitat degli animali"
+   ]
+  },
+  "habitat degli animali scuola primaria": {
+   "candidate": "habitats",
+   "s": [
+    "habitat degli animali scuola primaria"
+   ]
+  },
+  "habitat degli animali classe prima": {
+   "candidate": "habitats",
+   "s": [
+    "habitat degli animali classe prima"
+   ]
+  },
+  "habitat degli animali classe seconda": {
+   "candidate": "habitats",
+   "s": [
+    "gli habitat degli animali classe seconda"
+   ]
+  },
+  "dove vivono gli animali": {
+   "candidate": "habitats",
+   "s": [
+    "dove vivono gli animali",
+    "dove vivono gli animali più pericolosi al mondo",
+    "dove vivono gli animali classe seconda",
+    "dove vivono gli animali classe prima",
+    "dove vivono gli animali scuola primaria",
+    "dove vivono gli animali schede didattiche",
+    "dove vivono gli animali wordwall",
+    "dove vivono gli animali classe seconda schede didattiche",
+    "dove vivono gli animali classe terza",
+    "dove vivono gli animali scheda"
+   ]
+  },
+  "dove vivono gli animali scheda didattica": {
+   "candidate": "habitats",
+   "s": [
+    "scheda didattica dove vivono gli animali"
+   ]
+  },
+  "dove vivono gli animali scuola primaria": {
+   "candidate": "habitats",
+   "s": [
+    "dove vivono gli animali scuola primaria",
+    "video dove vivono gli animali scuola primaria",
+    "youtube dove vivono gli animali scuola primaria"
+   ]
+  },
+  "dove vivono gli animali classe prima": {
+   "candidate": "habitats",
+   "s": [
+    "dove vivono gli animali classe prima",
+    "dove vivono gli animali classe prima video",
+    "dove vivono gli animali classe prima wordwall",
+    "dove vivono gli animali classe seconda primaria",
+    "dove vivono gli animali classe prima primaria",
+    "scheda dove vivono gli animali classe prima",
+    "scienze classe prima dove vivono gli animali"
+   ]
+  },
+  "dove vivono gli animali classe seconda": {
+   "candidate": "habitats",
+   "s": [
+    "dove vivono gli animali classe seconda",
+    "dove vivono gli animali classe seconda schede didattiche",
+    "dove vivono gli animali classe seconda primaria",
+    "dove vivono gli animali classe seconda video",
+    "dove vivono gli animali classe seconda wordwall",
+    "dove vivono gli animali scienze classe seconda"
+   ]
+  },
+  "dove vivono gli animali classe terza": {
+   "candidate": "habitats",
+   "s": [
+    "dove vivono gli animali classe terza"
+   ]
+  },
+  "ambienti animali": {
+   "candidate": "habitats",
+   "s": [
+    "ambienti animali e ambienti umani",
+    "ambienti animali e ambienti umani pdf",
+    "ambienti animali",
+    "animali ambienti freddi",
+    "animali ambienti caldi",
+    "ambienti e animali",
+    "ambienti e animali scuola primaria",
+    "wordwall ambienti animali",
+    "deodorante ambienti animali",
+    "uexkull ambienti animali"
+   ]
+  },
+  "ambienti animali scuola primaria": {
+   "candidate": "habitats",
+   "s": [
+    "ambienti e animali scuola primaria",
+    "gli ambienti degli animali scuola primaria",
+    "gli ambienti di vita degli animali scuola primaria"
+   ]
+  },
+  "ambienti animali classe prima": {
+   "candidate": "habitats",
+   "s": [
+    "gli ambienti degli animali classe prima",
+    "animali e ambienti classe prima"
+   ]
+  },
+  "ambienti animali classe seconda": {
+   "candidate": "habitats",
+   "s": [
+    "gli ambienti degli animali classe seconda",
+    "animali e ambienti classe seconda"
+   ]
+  },
+  "galleggia o affonda": {
+   "candidate": "sink-or-float",
+   "s": [
+    "galleggia o affonda",
+    "galleggia o affonda scuola primaria",
+    "galleggia o affonda scuola dell infanzia",
+    "galleggia o affonda in inglese",
+    "uovo galleggia o affonda",
+    "blippi galleggia o affonda",
+    "cacca galleggia o affonda",
+    "alluminio galleggia o affonda",
+    "esperimento galleggia o affonda",
+    "arancia galleggia o affonda"
+   ]
+  },
+  "galleggia o affonda scuola primaria": {
+   "candidate": "sink-or-float",
+   "s": [
+    "galleggia o affonda scuola primaria"
+   ]
+  },
+  "galleggiamento": {
+   "candidate": "sink-or-float",
+   "s": [
+    "galleggiamento",
+    "galleggiamento dei corpi",
+    "galleggiamento prono",
+    "galleggiamento verticale",
+    "galleggiamento segretario comunale",
+    "galleggiamento uova",
+    "galleggiamento in inglese",
+    "galleggiamento negativo",
+    "galleggiamento navi",
+    "galleggiamento archimede"
+   ]
+  },
+  "galleggiamento scuola primaria": {
+   "candidate": "sink-or-float",
+   "s": [
+    "galleggiamento scuola primaria",
+    "esperimento galleggiamento scuola primaria",
+    "uda galleggiamento scuola primaria",
+    "galleggiamento archimede scuola primaria",
+    "video galleggiamento scuola primaria",
+    "schede didattiche galleggiamento scuola primaria",
+    "galleggiamento dei corpi scuola primaria",
+    "verifica sul galleggiamento scuola primaria"
+   ]
+  },
+  "galleggiamento classe prima": {
+   "candidate": "sink-or-float",
+   "s": [
+    "galleggiamento classe seconda primaria"
+   ]
+  },
+  "galleggiamento classe seconda": {
+   "candidate": "sink-or-float",
+   "s": [
+    "galleggiamento classe seconda primaria"
+   ]
+  }
+ }
+}

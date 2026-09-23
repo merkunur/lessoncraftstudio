@@ -53,7 +53,7 @@ function lintLocale(locale) {
   // missing id is still an error.
   // refusal records of every design batch that ships refusals (nt20-C b3 + nt10-D b4); a refused id is exempt from the key-set check
   const refused = {};
-  for (const batchDir of ['b3-designs', 'b4-designs', 'b5-designs']) {
+  for (const batchDir of ['b3-designs', 'b4-designs', 'b5-designs', 'b6-designs']) {
     const refusalsPath = path.join(__dirname, '..', '..', '..', 'docs', 'worksheet-gen', batchDir, '_records', 'refusals.' + locale + '.json');
     if (fs.existsSync(refusalsPath)) Object.assign(refused, readJson(refusalsPath).refusals || {});
   }

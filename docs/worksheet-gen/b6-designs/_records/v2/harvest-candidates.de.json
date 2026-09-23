@@ -1,0 +1,805 @@
+{
+ "locale": "de",
+ "market": {
+  "hl": "de",
+  "gl": "de"
+ },
+ "generatedAt": "2026-09-23T16:09:20.202Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/v2/candidate-seeds-v2.json",
+ "requestCount": 112,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "buchstabenverbindungen schreibschrift",
+    "schreibschrift wörter",
+    "schulausgangsschrift"
+   ],
+   "requests": 21,
+   "productiveSeeds": 11,
+   "unique": 36,
+   "suggestions": [
+    "buchstabenverbindungen schreibschrift",
+    "buchstabenverbindungen schreibschrift üben",
+    "niko 1 schreiblehrgang schulausgangsschrift klasse 1",
+    "schreiblehrgang schulausgangsschrift klasse 1",
+    "schreibschrift wörter",
+    "schreibschrift wörter 1 klasse",
+    "schreibschrift wörter 2 klasse",
+    "schreibschrift wörter mit f",
+    "schreibschrift wörter mit n",
+    "schreibschrift wörter mit r",
+    "schreibschrift wörter mit s",
+    "schreibschrift wörter mit w",
+    "schreibschrift wörter pdf",
+    "schreibschrift wörter schreiben",
+    "schreibschrift wörter üben",
+    "schulausgangsschrift",
+    "schulausgangsschrift alphabet zum ausdrucken",
+    "schulausgangsschrift arbeitsblatt",
+    "schulausgangsschrift der grundschule bexhövede",
+    "schulausgangsschrift download",
+    "schulausgangsschrift download kostenlos",
+    "schulausgangsschrift grundschule",
+    "schulausgangsschrift klasse 1",
+    "schulausgangsschrift klasse 2",
+    "schulausgangsschrift pdf",
+    "schulausgangsschrift plakat",
+    "schulausgangsschrift sas",
+    "schulausgangsschrift schreibschrift",
+    "schulausgangsschrift schreibschrift alphabet zum ausdrucken",
+    "schulausgangsschrift zum ausdrucken",
+    "schulausgangsschrift üben 3 klasse",
+    "schulausgangsschrift übersicht",
+    "schulausgangsschrift übungsblätter",
+    "schulausgangsschrift übungsblätter pdf kostenlos",
+    "schulausgangsschrift übungsblätter zum ausdrucken",
+    "zebra 1 schreiblehrgang schulausgangsschrift klasse 1"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "bildergeschichte schreiben",
+    "bildergeschichte ausschneiden",
+    "erzählwörter"
+   ],
+   "requests": 21,
+   "productiveSeeds": 6,
+   "unique": 25,
+   "suggestions": [
+    "anleitung bildergeschichte schreiben grundschule",
+    "bilder geschichte schreiben 3 klasse",
+    "bildergeschichte schreiben",
+    "bildergeschichte schreiben 1 klasse gymnasium",
+    "bildergeschichte schreiben 2 klasse pdf",
+    "bildergeschichte schreiben 3 klasse beispiele",
+    "bildergeschichte schreiben 3 klasse kostenlos",
+    "bildergeschichte schreiben 3 klasse pdf",
+    "bildergeschichte schreiben 3 klasse tipps",
+    "bildergeschichte schreiben 3 klasse übungen",
+    "bildergeschichte schreiben 3. klasse",
+    "bildergeschichte schreiben 4 klasse",
+    "bildergeschichte schreiben arbeitsblatt",
+    "bildergeschichte schreiben grundschule",
+    "bildergeschichte schreiben grundschule 3 klasse",
+    "bildergeschichte schreiben grundschule klasse 2",
+    "bildergeschichte schreiben klasse 1",
+    "bildergeschichte schreiben klasse 2",
+    "bildergeschichte schreiben klasse 3",
+    "bildergeschichte schreiben klasse 3 pdf",
+    "bildergeschichte schreiben klasse 5",
+    "bildergeschichte schreiben klasse 5 arbeitsblatt",
+    "bildergeschichte schreiben pdf",
+    "bildergeschichten schreiben lernen grundschule",
+    "bildergeschichten schreiben üben 2 klasse"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "zähne putzen",
+    "körperpflege",
+    "tagesablauf"
+   ],
+   "requests": 21,
+   "productiveSeeds": 16,
+   "unique": 112,
+   "suggestions": [
+    "arbeitsblatt körperpflege altenpflege",
+    "arbeitsblatt körperpflege klasse 1",
+    "arbeitsblatt körperpflege pflege",
+    "arbeitsblatt körperpflege pubertät",
+    "arbeitsblatt körperpflege thieme",
+    "arbeitsblatt tagesablauf 2 klasse",
+    "arbeitsblatt tagesablauf kindergarten",
+    "arbeitsblatt zähne putzen klasse 1",
+    "bilder tagesablauf zum ausdrucken",
+    "bilder tagesablauf zum ausdrucken kostenlos",
+    "eduki körperpflege klasse 1",
+    "hygiene körperpflege arbeitsblatt",
+    "körperpflege",
+    "körperpflege 1 klasse grundschule",
+    "körperpflege 3 buchstaben",
+    "körperpflege arbeitsblatt",
+    "körperpflege arbeitsblatt grundschule",
+    "körperpflege dm-drogerie markt",
+    "körperpflege englisch",
+    "körperpflege grundschule",
+    "körperpflege grundschule 1 klasse",
+    "körperpflege grundschule arbeitsblatt",
+    "körperpflege grundschule film",
+    "körperpflege grundschule ideenreise",
+    "körperpflege grundschule material",
+    "körperpflege grundschule video",
+    "körperpflege im bett",
+    "körperpflege in der pflege",
+    "körperpflege kinder grundschule",
+    "körperpflege klasse 1",
+    "körperpflege klasse 1 sachunterricht",
+    "körperpflege klasse 2",
+    "körperpflege männer",
+    "körperpflege unterrichtsmaterial grundschule",
+    "körperpflegemittel",
+    "körperpflegemittel rätsel",
+    "körperpflegeprodukte",
+    "mein tagesablauf klasse 1",
+    "mein tagesablauf klasse 2",
+    "richtig zähne putzen arbeitsblatt",
+    "richtig zähne putzen grundschule",
+    "richtig zähne putzen klasse 1",
+    "symbole tagesablauf kinder zum ausdrucken kostenlos",
+    "tagesablauf",
+    "tagesablauf 1 klasse arbeitsblatt",
+    "tagesablauf arbeitsblatt",
+    "tagesablauf arbeitsblatt 1 klasse",
+    "tagesablauf arbeitsblatt a1",
+    "tagesablauf arbeitsblatt daz",
+    "tagesablauf arbeitsblatt daz a1",
+    "tagesablauf arbeitsblatt grundschule",
+    "tagesablauf arbeitsblatt kostenlos",
+    "tagesablauf arbeitsblatt pdf",
+    "tagesablauf baby 2 monate beispiel",
+    "tagesablauf baby 3 monate beispiel",
+    "tagesablauf baby 4 monate beispiel",
+    "tagesablauf baby 5 monate",
+    "tagesablauf baby 6 monate",
+    "tagesablauf bildkarten zum ausdrucken",
+    "tagesablauf englisch",
+    "tagesablauf für gutachter erwerbsminderungsrente",
+    "tagesablauf grundschule",
+    "tagesablauf grundschule arbeitsblätter",
+    "tagesablauf grundschule bilder",
+    "tagesablauf grundschule bildkarten",
+    "tagesablauf grundschule frau locke",
+    "tagesablauf grundschule klasse 1",
+    "tagesablauf grundschule klasse 2",
+    "tagesablauf grundschule sachunterricht",
+    "tagesablauf grundschule video",
+    "tagesablauf grundschule zaubereinmaleins",
+    "tagesablauf hochzeit",
+    "tagesablauf hsu 1 klasse",
+    "tagesablauf karten zum ausdrucken",
+    "tagesablauf kinder zum ausdrucken",
+    "tagesablauf kinder zum ausdrucken kostenlos",
+    "tagesablauf kinder zum ausdrucken pdf",
+    "tagesablauf klasse 1",
+    "tagesablauf klasse 1 sachunterricht",
+    "tagesablauf klasse 2",
+    "tagesablauf mathe klasse 1",
+    "tagesablauf piktogramme für kinder zum ausdrucken",
+    "tagesablauf sachunterricht klasse 2",
+    "tagesablauf schulkind 1 klasse",
+    "tagesablauf u-haft",
+    "tagesablauf uhrzeit klasse 1",
+    "tagesablauf zum ausdrucken",
+    "thema körperpflege grundschule",
+    "unterrichtsentwurf tagesablauf klasse 1",
+    "zum ausdrucken zähne putzen kinder plakat",
+    "zähne putzen",
+    "zähne putzen arbeitsblatt",
+    "zähne putzen baby",
+    "zähne putzen bilder zum ausdrucken",
+    "zähne putzen englisch",
+    "zähne putzen grundschule",
+    "zähne putzen grundschule arbeitsblatt",
+    "zähne putzen grundschule film",
+    "zähne putzen grundschule kai",
+    "zähne putzen grundschule klasse 1",
+    "zähne putzen grundschule video",
+    "zähne putzen hund",
+    "zähne putzen kai arbeitsblatt",
+    "zähne putzen klasse 1",
+    "zähne putzen lied",
+    "zähne putzen lied grundschule",
+    "zähne putzen lied text",
+    "zähne putzen nach weisheitszahn op",
+    "zähne putzen pullern und ab ins bett",
+    "zähne putzen spanisch",
+    "zähne putzen vor oder nach dem frühstück",
+    "zähne putzen zum ausdrucken"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "lebensraum wald",
+    "lebensraum wiese",
+    "lebensraum teich",
+    "tierbauten",
+    "tierwohnungen"
+   ],
+   "requests": 35,
+   "productiveSeeds": 15,
+   "unique": 55,
+   "suggestions": [
+    "lebensraum teich",
+    "lebensraum teich arbeitsblatt",
+    "lebensraum teich arbeitsblätter",
+    "lebensraum teich grundschule",
+    "lebensraum teich grundschule video",
+    "lebensraum teich klasse 4",
+    "lebensraum teich pflanzen und tiere 4 klasse",
+    "lebensraum teich video",
+    "lebensraum teichfrosch",
+    "lebensraum teichmolch",
+    "lebensraum teichmuschel",
+    "lebensraum teichrohrsänger",
+    "lebensraum wald",
+    "lebensraum wald 3 klasse",
+    "lebensraum wald arbeitsblatt",
+    "lebensraum wald film",
+    "lebensraum wald für kinder erklärt",
+    "lebensraum wald grundschule",
+    "lebensraum wald grundschule film",
+    "lebensraum wald grundschule klasse 4",
+    "lebensraum wald grundschule klasse 4 sachunterricht",
+    "lebensraum wald grundschule video",
+    "lebensraum wald naturgeräusche",
+    "lebensraum waldameise",
+    "lebensraum waldkauz",
+    "lebensraum waldmaus",
+    "lebensraum waldohreule",
+    "lebensraum waldschabe",
+    "lebensraum wiese",
+    "lebensraum wiese arbeitsblatt",
+    "lebensraum wiese film",
+    "lebensraum wiese für kinder erklärt",
+    "lebensraum wiese grundschule",
+    "lebensraum wiese grundschule unterrichtsmaterial",
+    "lebensraum wiese klasse 1",
+    "lebensraum wiese klasse 2",
+    "lebensraum wiese klasse 3",
+    "lebensraum wiese tiere",
+    "lebensraum wiese unterrichtsmaterial",
+    "lebensraum wiesel",
+    "lebensraum wiesen herisau",
+    "tierbauten",
+    "tierbauten bestimmen",
+    "tierbauten erkennen",
+    "tierbauten im garten",
+    "tierbauten im wald",
+    "tierbauten rätsel",
+    "tierbauten unter der erde",
+    "tiere im lebensraum teich arbeitsblatt",
+    "tierwohnungen",
+    "tierwohnungen namen",
+    "tierwohnungen top 7",
+    "unterirdische tierbauten",
+    "welche tierwohnungen gibt es",
+    "wie heißen tierwohnungen"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "versuchsprotokoll schwimmen sinken",
+    "knete schwimmt"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 4,
+   "suggestions": [
+    "experiment knete schwimmt",
+    "knete schwimmt",
+    "knete schwimmt im wasser",
+    "knete schwimmt oder sinkt"
+   ]
+  }
+ },
+ "suggestions": {
+  "buchstabenverbindungen schreibschrift": {
+   "candidate": "cursive-writing",
+   "s": [
+    "buchstabenverbindungen schreibschrift",
+    "buchstabenverbindungen schreibschrift üben"
+   ]
+  },
+  "schreibschrift wörter": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift wörter",
+    "schreibschrift wörter üben",
+    "schreibschrift wörter schreiben",
+    "schreibschrift wörter mit f",
+    "schreibschrift wörter mit s",
+    "schreibschrift wörter mit w",
+    "schreibschrift wörter mit r",
+    "schreibschrift wörter mit n",
+    "schreibschrift wörter 2 klasse",
+    "schreibschrift wörter pdf"
+   ]
+  },
+  "schreibschrift wörter klasse 1": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift wörter 1 klasse"
+   ]
+  },
+  "schreibschrift wörter klasse 2": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift wörter 2 klasse"
+   ]
+  },
+  "schulausgangsschrift": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schulausgangsschrift",
+    "schulausgangsschrift übungsblätter",
+    "schulausgangsschrift download",
+    "schulausgangsschrift schreibschrift",
+    "schulausgangsschrift übersicht",
+    "schulausgangsschrift pdf",
+    "schulausgangsschrift sas",
+    "schulausgangsschrift übungsblätter pdf kostenlos",
+    "schulausgangsschrift download kostenlos",
+    "schulausgangsschrift plakat"
+   ]
+  },
+  "schulausgangsschrift arbeitsblatt": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schulausgangsschrift arbeitsblatt"
+   ]
+  },
+  "schulausgangsschrift zum ausdrucken": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schulausgangsschrift zum ausdrucken",
+    "schulausgangsschrift alphabet zum ausdrucken",
+    "schulausgangsschrift übungsblätter zum ausdrucken",
+    "schulausgangsschrift schreibschrift alphabet zum ausdrucken"
+   ]
+  },
+  "schulausgangsschrift grundschule": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schulausgangsschrift grundschule",
+    "schulausgangsschrift der grundschule bexhövede"
+   ]
+  },
+  "schulausgangsschrift klasse 1": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schulausgangsschrift klasse 1",
+    "schreiblehrgang schulausgangsschrift klasse 1",
+    "zebra 1 schreiblehrgang schulausgangsschrift klasse 1",
+    "niko 1 schreiblehrgang schulausgangsschrift klasse 1"
+   ]
+  },
+  "schulausgangsschrift klasse 2": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schulausgangsschrift klasse 2"
+   ]
+  },
+  "schulausgangsschrift klasse 3": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schulausgangsschrift üben 3 klasse"
+   ]
+  },
+  "bildergeschichte schreiben": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte schreiben",
+    "bildergeschichte schreiben 3. klasse",
+    "bildergeschichte schreiben 3 klasse pdf",
+    "bildergeschichte schreiben klasse 2",
+    "bildergeschichte schreiben 4 klasse",
+    "bildergeschichte schreiben 2 klasse pdf",
+    "bildergeschichte schreiben klasse 5",
+    "bildergeschichte schreiben grundschule",
+    "bildergeschichte schreiben pdf",
+    "bildergeschichte schreiben 3 klasse beispiele"
+   ]
+  },
+  "bildergeschichte schreiben arbeitsblatt": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte schreiben arbeitsblatt",
+    "bildergeschichte schreiben klasse 5 arbeitsblatt"
+   ]
+  },
+  "bildergeschichte schreiben grundschule": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte schreiben grundschule",
+    "bildergeschichte schreiben grundschule klasse 2",
+    "bildergeschichte schreiben grundschule 3 klasse",
+    "anleitung bildergeschichte schreiben grundschule",
+    "bildergeschichten schreiben lernen grundschule"
+   ]
+  },
+  "bildergeschichte schreiben klasse 1": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte schreiben klasse 1",
+    "bildergeschichte schreiben 1 klasse gymnasium"
+   ]
+  },
+  "bildergeschichte schreiben klasse 2": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte schreiben klasse 2",
+    "bildergeschichte schreiben 2 klasse pdf",
+    "bildergeschichte schreiben grundschule klasse 2",
+    "bildergeschichten schreiben üben 2 klasse"
+   ]
+  },
+  "bildergeschichte schreiben klasse 3": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte schreiben klasse 3",
+    "bildergeschichte schreiben klasse 3 pdf",
+    "bildergeschichte schreiben 3 klasse beispiele",
+    "bildergeschichte schreiben 3 klasse übungen",
+    "bilder geschichte schreiben 3 klasse",
+    "bildergeschichte schreiben 3 klasse kostenlos",
+    "bildergeschichte schreiben 3 klasse tipps",
+    "bildergeschichte schreiben grundschule 3 klasse"
+   ]
+  },
+  "zähne putzen": {
+   "candidate": "healthy-habits",
+   "s": [
+    "zähne putzen",
+    "zähne putzen lied",
+    "zähne putzen hund",
+    "zähne putzen vor oder nach dem frühstück",
+    "zähne putzen nach weisheitszahn op",
+    "zähne putzen pullern und ab ins bett",
+    "zähne putzen baby",
+    "zähne putzen lied text",
+    "zähne putzen englisch",
+    "zähne putzen spanisch"
+   ]
+  },
+  "zähne putzen arbeitsblatt": {
+   "candidate": "healthy-habits",
+   "s": [
+    "zähne putzen arbeitsblatt",
+    "zähne putzen kai arbeitsblatt",
+    "zähne putzen grundschule arbeitsblatt",
+    "richtig zähne putzen arbeitsblatt",
+    "arbeitsblatt zähne putzen klasse 1"
+   ]
+  },
+  "zähne putzen zum ausdrucken": {
+   "candidate": "healthy-habits",
+   "s": [
+    "zähne putzen zum ausdrucken",
+    "zähne putzen bilder zum ausdrucken",
+    "zum ausdrucken zähne putzen kinder plakat"
+   ]
+  },
+  "zähne putzen grundschule": {
+   "candidate": "healthy-habits",
+   "s": [
+    "zähne putzen grundschule",
+    "zähne putzen grundschule arbeitsblatt",
+    "zähne putzen grundschule film",
+    "zähne putzen grundschule video",
+    "zähne putzen grundschule klasse 1",
+    "zähne putzen grundschule kai",
+    "zähne putzen lied grundschule",
+    "richtig zähne putzen grundschule"
+   ]
+  },
+  "zähne putzen klasse 1": {
+   "candidate": "healthy-habits",
+   "s": [
+    "zähne putzen klasse 1",
+    "richtig zähne putzen klasse 1",
+    "arbeitsblatt zähne putzen klasse 1",
+    "zähne putzen grundschule klasse 1"
+   ]
+  },
+  "körperpflege": {
+   "candidate": "healthy-habits",
+   "s": [
+    "körperpflege",
+    "körperpflege in der pflege",
+    "körperpflege 3 buchstaben",
+    "körperpflegemittel",
+    "körperpflege englisch",
+    "körperpflegeprodukte",
+    "körperpflegemittel rätsel",
+    "körperpflege im bett",
+    "körperpflege dm-drogerie markt",
+    "körperpflege männer"
+   ]
+  },
+  "körperpflege arbeitsblatt": {
+   "candidate": "healthy-habits",
+   "s": [
+    "körperpflege arbeitsblatt",
+    "körperpflege arbeitsblatt grundschule",
+    "arbeitsblatt körperpflege klasse 1",
+    "arbeitsblatt körperpflege altenpflege",
+    "arbeitsblatt körperpflege pflege",
+    "arbeitsblatt körperpflege pubertät",
+    "arbeitsblatt körperpflege thieme",
+    "hygiene körperpflege arbeitsblatt"
+   ]
+  },
+  "körperpflege grundschule": {
+   "candidate": "healthy-habits",
+   "s": [
+    "körperpflege grundschule film",
+    "körperpflege grundschule",
+    "körperpflege grundschule ideenreise",
+    "körperpflege grundschule 1 klasse",
+    "körperpflege grundschule arbeitsblatt",
+    "körperpflege grundschule video",
+    "körperpflege grundschule material",
+    "körperpflege kinder grundschule",
+    "körperpflege unterrichtsmaterial grundschule",
+    "thema körperpflege grundschule"
+   ]
+  },
+  "körperpflege klasse 1": {
+   "candidate": "healthy-habits",
+   "s": [
+    "körperpflege klasse 1",
+    "körperpflege klasse 1 sachunterricht",
+    "körperpflege 1 klasse grundschule",
+    "arbeitsblatt körperpflege klasse 1",
+    "eduki körperpflege klasse 1"
+   ]
+  },
+  "körperpflege klasse 2": {
+   "candidate": "healthy-habits",
+   "s": [
+    "körperpflege klasse 2"
+   ]
+  },
+  "tagesablauf": {
+   "candidate": "healthy-habits",
+   "s": [
+    "tagesablauf",
+    "tagesablauf baby 3 monate beispiel",
+    "tagesablauf baby 4 monate beispiel",
+    "tagesablauf u-haft",
+    "tagesablauf baby 6 monate",
+    "tagesablauf für gutachter erwerbsminderungsrente",
+    "tagesablauf hochzeit",
+    "tagesablauf baby 2 monate beispiel",
+    "tagesablauf englisch",
+    "tagesablauf baby 5 monate"
+   ]
+  },
+  "tagesablauf arbeitsblatt": {
+   "candidate": "healthy-habits",
+   "s": [
+    "tagesablauf arbeitsblatt",
+    "tagesablauf arbeitsblatt pdf",
+    "tagesablauf arbeitsblatt grundschule",
+    "tagesablauf arbeitsblatt kostenlos",
+    "tagesablauf arbeitsblatt a1",
+    "tagesablauf arbeitsblatt 1 klasse",
+    "tagesablauf arbeitsblatt daz",
+    "tagesablauf arbeitsblatt daz a1",
+    "arbeitsblatt tagesablauf 2 klasse",
+    "arbeitsblatt tagesablauf kindergarten"
+   ]
+  },
+  "tagesablauf zum ausdrucken": {
+   "candidate": "healthy-habits",
+   "s": [
+    "tagesablauf zum ausdrucken",
+    "tagesablauf kinder zum ausdrucken",
+    "bilder tagesablauf zum ausdrucken",
+    "tagesablauf kinder zum ausdrucken kostenlos",
+    "tagesablauf bildkarten zum ausdrucken",
+    "tagesablauf karten zum ausdrucken",
+    "bilder tagesablauf zum ausdrucken kostenlos",
+    "tagesablauf kinder zum ausdrucken pdf",
+    "symbole tagesablauf kinder zum ausdrucken kostenlos",
+    "tagesablauf piktogramme für kinder zum ausdrucken"
+   ]
+  },
+  "tagesablauf grundschule": {
+   "candidate": "healthy-habits",
+   "s": [
+    "tagesablauf grundschule",
+    "tagesablauf grundschule bildkarten",
+    "tagesablauf grundschule klasse 1",
+    "tagesablauf grundschule zaubereinmaleins",
+    "tagesablauf grundschule arbeitsblätter",
+    "tagesablauf grundschule video",
+    "tagesablauf grundschule sachunterricht",
+    "tagesablauf grundschule klasse 2",
+    "tagesablauf grundschule frau locke",
+    "tagesablauf grundschule bilder"
+   ]
+  },
+  "tagesablauf klasse 1": {
+   "candidate": "healthy-habits",
+   "s": [
+    "tagesablauf klasse 1",
+    "tagesablauf klasse 1 sachunterricht",
+    "tagesablauf 1 klasse arbeitsblatt",
+    "tagesablauf grundschule klasse 1",
+    "mein tagesablauf klasse 1",
+    "tagesablauf uhrzeit klasse 1",
+    "tagesablauf mathe klasse 1",
+    "unterrichtsentwurf tagesablauf klasse 1",
+    "tagesablauf schulkind 1 klasse",
+    "tagesablauf hsu 1 klasse"
+   ]
+  },
+  "tagesablauf klasse 2": {
+   "candidate": "healthy-habits",
+   "s": [
+    "tagesablauf klasse 2",
+    "tagesablauf sachunterricht klasse 2",
+    "tagesablauf grundschule klasse 2",
+    "mein tagesablauf klasse 2",
+    "arbeitsblatt tagesablauf 2 klasse"
+   ]
+  },
+  "lebensraum wald": {
+   "candidate": "habitats",
+   "s": [
+    "lebensraum wald",
+    "lebensraum wald grundschule",
+    "lebensraum waldkauz",
+    "lebensraum waldohreule",
+    "lebensraum waldmaus",
+    "lebensraum waldameise",
+    "lebensraum waldschabe",
+    "lebensraum wald film",
+    "lebensraum wald naturgeräusche",
+    "lebensraum wald für kinder erklärt"
+   ]
+  },
+  "lebensraum wald arbeitsblatt": {
+   "candidate": "habitats",
+   "s": [
+    "lebensraum wald arbeitsblatt"
+   ]
+  },
+  "lebensraum wald grundschule": {
+   "candidate": "habitats",
+   "s": [
+    "lebensraum wald grundschule",
+    "lebensraum wald grundschule klasse 4",
+    "lebensraum wald grundschule video",
+    "lebensraum wald grundschule klasse 4 sachunterricht",
+    "lebensraum wald grundschule film"
+   ]
+  },
+  "lebensraum wald klasse 3": {
+   "candidate": "habitats",
+   "s": [
+    "lebensraum wald 3 klasse"
+   ]
+  },
+  "lebensraum wiese": {
+   "candidate": "habitats",
+   "s": [
+    "lebensraum wiese",
+    "lebensraum wiese grundschule",
+    "lebensraum wiese unterrichtsmaterial",
+    "lebensraum wiesel",
+    "lebensraum wiese film",
+    "lebensraum wiese klasse 1",
+    "lebensraum wiese grundschule unterrichtsmaterial",
+    "lebensraum wiesen herisau",
+    "lebensraum wiese tiere",
+    "lebensraum wiese für kinder erklärt"
+   ]
+  },
+  "lebensraum wiese arbeitsblatt": {
+   "candidate": "habitats",
+   "s": [
+    "lebensraum wiese arbeitsblatt"
+   ]
+  },
+  "lebensraum wiese grundschule": {
+   "candidate": "habitats",
+   "s": [
+    "lebensraum wiese grundschule",
+    "lebensraum wiese grundschule unterrichtsmaterial"
+   ]
+  },
+  "lebensraum wiese klasse 1": {
+   "candidate": "habitats",
+   "s": [
+    "lebensraum wiese klasse 1"
+   ]
+  },
+  "lebensraum wiese klasse 2": {
+   "candidate": "habitats",
+   "s": [
+    "lebensraum wiese klasse 2"
+   ]
+  },
+  "lebensraum wiese klasse 3": {
+   "candidate": "habitats",
+   "s": [
+    "lebensraum wiese klasse 3"
+   ]
+  },
+  "lebensraum teich": {
+   "candidate": "habitats",
+   "s": [
+    "lebensraum teich",
+    "lebensraum teich grundschule",
+    "lebensraum teich pflanzen und tiere 4 klasse",
+    "lebensraum teichmolch",
+    "lebensraum teichrohrsänger",
+    "lebensraum teichmuschel",
+    "lebensraum teichfrosch",
+    "lebensraum teich arbeitsblätter",
+    "lebensraum teich klasse 4",
+    "lebensraum teich video"
+   ]
+  },
+  "lebensraum teich arbeitsblatt": {
+   "candidate": "habitats",
+   "s": [
+    "lebensraum teich arbeitsblatt",
+    "tiere im lebensraum teich arbeitsblatt"
+   ]
+  },
+  "lebensraum teich grundschule": {
+   "candidate": "habitats",
+   "s": [
+    "lebensraum teich grundschule",
+    "lebensraum teich grundschule video"
+   ]
+  },
+  "tierbauten": {
+   "candidate": "habitats",
+   "s": [
+    "tierbauten",
+    "tierbauten erkennen",
+    "tierbauten bestimmen",
+    "tierbauten unter der erde",
+    "tierbauten im garten",
+    "tierbauten rätsel",
+    "tierbauten im wald",
+    "unterirdische tierbauten"
+   ]
+  },
+  "tierwohnungen": {
+   "candidate": "habitats",
+   "s": [
+    "tierwohnungen top 7",
+    "tierwohnungen",
+    "tierwohnungen namen",
+    "welche tierwohnungen gibt es",
+    "wie heißen tierwohnungen"
+   ]
+  },
+  "knete schwimmt": {
+   "candidate": "sink-or-float",
+   "s": [
+    "knete schwimmt oder sinkt",
+    "knete schwimmt",
+    "knete schwimmt im wasser",
+    "experiment knete schwimmt"
+   ]
+  }
+ }
+}

@@ -1,0 +1,427 @@
+{
+ "locale": "no",
+ "market": {
+  "hl": "no",
+  "gl": "no"
+ },
+ "generatedAt": "2026-09-23T15:57:23.849Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/candidate-seeds.json",
+ "requestCount": 98,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "løkkeskrift",
+    "stavskrift",
+    "sammenhengende skrift"
+   ],
+   "requests": 21,
+   "productiveSeeds": 8,
+   "unique": 28,
+   "suggestions": [
+    "hva er sammenhengende skrift",
+    "lære sammenhengende skrift",
+    "løkkeskrift",
+    "løkkeskrift alfabet",
+    "løkkeskrift alfabetet",
+    "løkkeskrift bok",
+    "løkkeskrift bokstaver",
+    "løkkeskrift engelsk",
+    "løkkeskrift font",
+    "løkkeskrift norsk",
+    "løkkeskrift oppgaver",
+    "løkkeskrift s",
+    "løkkeskrift store bokstaver",
+    "løkkeskrift utskrift",
+    "sammenhengende skrift",
+    "sammenhengende skrift engelsk",
+    "sammenhengende skrift oppgaver",
+    "stavskrift",
+    "stavskrift 3 trinn",
+    "stavskrift alfabet",
+    "stavskrift b",
+    "stavskrift bok",
+    "stavskrift bokstaver",
+    "stavskrift i",
+    "stavskrift løkkeskrift",
+    "stavskrift oppgaver",
+    "stavskrift vs løkkeskrift",
+    "stavskrift øving"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "bildeserie",
+    "rekkefølge bilder",
+    "fortelle i riktig rekkefølge"
+   ],
+   "requests": 21,
+   "productiveSeeds": 2,
+   "unique": 13,
+   "suggestions": [
+    "bildeserie",
+    "bildeserie 3 bilder",
+    "bildeserie engelsk",
+    "bildeserie iphone",
+    "bildeserie kong harald",
+    "bildeserie mac",
+    "bildeserie stue",
+    "bildeserie vegg",
+    "bildeserier",
+    "endre rekkefølge bilder facebook",
+    "endre rekkefølge bilder instagram",
+    "endre rekkefølge bilder iphone",
+    "ikea bildeserie"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "hygiene",
+    "vaske hender",
+    "helse"
+   ],
+   "requests": 21,
+   "productiveSeeds": 8,
+   "unique": 51,
+   "suggestions": [
+    "helse",
+    "helse og omsorgsdepartementet oppgaver",
+    "helseboka",
+    "helsedirektoratet",
+    "helsefagarbeider",
+    "helsekost",
+    "helsenorge",
+    "helsenorge logg inn med kodebrikke",
+    "helsenorge – din helse på nett - helsenorge",
+    "helsestasjon",
+    "helsetrygdkort",
+    "hygiene",
+    "hygiene engelsk",
+    "hygiene kryssord",
+    "hygiene oppgaver",
+    "hygieneartikkel kryssord",
+    "hygieneartikler",
+    "hygienegruppen",
+    "hygieneovertrekk termometer",
+    "hygienesett peltor",
+    "hygienesett peltor ws alert x",
+    "hygienesett peltor ws alert xp",
+    "innsatsleder helse oppgaver",
+    "kompetansemål mat og helse 2 trinn",
+    "kompetansemål mat og helse 4 trinn",
+    "læreplan mat og helse 4 trinn",
+    "mat og helse 2 trinn",
+    "mat og helse 3 trinn",
+    "mat og helse 4 trinn",
+    "mat og helse 4 trinn opplegg",
+    "mat og helse 4 trinn årsplan",
+    "mat og helse oppgaver",
+    "mat og helse oppgaver 4 trinn",
+    "mat og helse oppgaver 9 klasse",
+    "medisinsk leder helse oppgaver",
+    "oppgaver psykisk helse",
+    "psykisk helse 3.trinn",
+    "psykisk helse 4.trinn",
+    "udir mat og helse 4 trinn",
+    "undervisningsopplegg mat og helse 4 trinn",
+    "vaske hender",
+    "vaske hender barn",
+    "vaske hender bilde",
+    "vaske hender før man tar på baby",
+    "vaske hender illustrasjon",
+    "vaske hender med zalo",
+    "vaske hender plakat",
+    "vaske hender plakat barn",
+    "vaske hender sang",
+    "vaske hender tegning",
+    "årsplan mat og helse 3 trinn"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "dyrs leveområder",
+    "hvor bor dyrene",
+    "dyr og natur"
+   ],
+   "requests": 21,
+   "productiveSeeds": 2,
+   "unique": 14,
+   "suggestions": [
+    "børn dyr og natur",
+    "dyr natur",
+    "dyr og natur",
+    "dyr og natur i australia",
+    "dyr og natur quiz",
+    "dyrnaturligvis",
+    "fakta om dyr og natur",
+    "folkehøgskole dyr og natur",
+    "hvor bor dyrene",
+    "hvor bor dyrene om vinteren",
+    "hvor bor dyrene spil",
+    "hvor bor dyrene spill",
+    "plakater dyr og natur",
+    "spørsmål om dyr og natur"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "flyte eller synke",
+    "flyter eller synker"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 14,
+   "suggestions": [
+    "avføring flyte eller synke",
+    "flyte eller synke",
+    "flyte eller synke egg",
+    "flyter eller synker",
+    "flyter eller synker dårlige egg",
+    "flyter eller synker egg",
+    "flyter eller synker ferske egg",
+    "flyter eller synker gamle egg",
+    "kokt egg flyter eller synker",
+    "skal avføring flyte eller synke",
+    "skal egg flyte eller synke i vann",
+    "skal et egg flyte eller synke",
+    "skal friske egg flyte eller synke",
+    "skal gode egg flyte eller synke"
+   ]
+  }
+ },
+ "suggestions": {
+  "løkkeskrift": {
+   "candidate": "cursive-writing",
+   "s": [
+    "løkkeskrift",
+    "løkkeskrift bokstaver",
+    "løkkeskrift engelsk",
+    "løkkeskrift alfabetet",
+    "løkkeskrift bok",
+    "løkkeskrift alfabet",
+    "løkkeskrift font",
+    "løkkeskrift norsk",
+    "løkkeskrift store bokstaver",
+    "løkkeskrift s"
+   ]
+  },
+  "løkkeskrift oppgaver": {
+   "candidate": "cursive-writing",
+   "s": [
+    "løkkeskrift oppgaver"
+   ]
+  },
+  "løkkeskrift til utskrift": {
+   "candidate": "cursive-writing",
+   "s": [
+    "løkkeskrift utskrift"
+   ]
+  },
+  "stavskrift": {
+   "candidate": "cursive-writing",
+   "s": [
+    "stavskrift",
+    "stavskrift alfabet",
+    "stavskrift vs løkkeskrift",
+    "stavskrift bok",
+    "stavskrift oppgaver",
+    "stavskrift bokstaver",
+    "stavskrift b",
+    "stavskrift øving",
+    "stavskrift løkkeskrift",
+    "stavskrift i"
+   ]
+  },
+  "stavskrift oppgaver": {
+   "candidate": "cursive-writing",
+   "s": [
+    "stavskrift oppgaver"
+   ]
+  },
+  "stavskrift 3. trinn": {
+   "candidate": "cursive-writing",
+   "s": [
+    "stavskrift 3 trinn"
+   ]
+  },
+  "sammenhengende skrift": {
+   "candidate": "cursive-writing",
+   "s": [
+    "sammenhengende skrift",
+    "sammenhengende skrift oppgaver",
+    "sammenhengende skrift engelsk",
+    "lære sammenhengende skrift",
+    "hva er sammenhengende skrift"
+   ]
+  },
+  "sammenhengende skrift oppgaver": {
+   "candidate": "cursive-writing",
+   "s": [
+    "sammenhengende skrift oppgaver"
+   ]
+  },
+  "bildeserie": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildeserie",
+    "bildeserier",
+    "bildeserie iphone",
+    "bildeserie mac",
+    "bildeserie kong harald",
+    "bildeserie vegg",
+    "bildeserie engelsk",
+    "bildeserie 3 bilder",
+    "ikea bildeserie",
+    "bildeserie stue"
+   ]
+  },
+  "rekkefølge bilder": {
+   "candidate": "story-sequencing",
+   "s": [
+    "endre rekkefølge bilder instagram",
+    "endre rekkefølge bilder iphone",
+    "endre rekkefølge bilder facebook"
+   ]
+  },
+  "hygiene": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hygiene",
+    "hygienesett peltor",
+    "hygienesett peltor ws alert x",
+    "hygiene kryssord",
+    "hygiene engelsk",
+    "hygienesett peltor ws alert xp",
+    "hygienegruppen",
+    "hygieneartikler",
+    "hygieneartikkel kryssord",
+    "hygieneovertrekk termometer"
+   ]
+  },
+  "hygiene oppgaver": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hygiene oppgaver"
+   ]
+  },
+  "vaske hender": {
+   "candidate": "healthy-habits",
+   "s": [
+    "vaske hender",
+    "vaske hender sang",
+    "vaske hender plakat",
+    "vaske hender plakat barn",
+    "vaske hender barn",
+    "vaske hender bilde",
+    "vaske hender tegning",
+    "vaske hender illustrasjon",
+    "vaske hender med zalo",
+    "vaske hender før man tar på baby"
+   ]
+  },
+  "helse": {
+   "candidate": "healthy-habits",
+   "s": [
+    "helsenorge",
+    "helse",
+    "helsenorge logg inn med kodebrikke",
+    "helsedirektoratet",
+    "helsenorge – din helse på nett - helsenorge",
+    "helseboka",
+    "helsestasjon",
+    "helsekost",
+    "helsetrygdkort",
+    "helsefagarbeider"
+   ]
+  },
+  "helse oppgaver": {
+   "candidate": "healthy-habits",
+   "s": [
+    "oppgaver psykisk helse",
+    "innsatsleder helse oppgaver",
+    "mat og helse oppgaver",
+    "helse og omsorgsdepartementet oppgaver",
+    "mat og helse oppgaver 4 trinn",
+    "medisinsk leder helse oppgaver",
+    "mat og helse oppgaver 9 klasse"
+   ]
+  },
+  "helse 2. trinn": {
+   "candidate": "healthy-habits",
+   "s": [
+    "mat og helse 2 trinn",
+    "kompetansemål mat og helse 2 trinn"
+   ]
+  },
+  "helse 3. trinn": {
+   "candidate": "healthy-habits",
+   "s": [
+    "psykisk helse 3.trinn",
+    "mat og helse 3 trinn",
+    "årsplan mat og helse 3 trinn"
+   ]
+  },
+  "helse 4. trinn": {
+   "candidate": "healthy-habits",
+   "s": [
+    "psykisk helse 4.trinn",
+    "mat og helse 4 trinn",
+    "mat og helse 4 trinn opplegg",
+    "mat og helse 4 trinn årsplan",
+    "kompetansemål mat og helse 4 trinn",
+    "læreplan mat og helse 4 trinn",
+    "undervisningsopplegg mat og helse 4 trinn",
+    "udir mat og helse 4 trinn"
+   ]
+  },
+  "hvor bor dyrene": {
+   "candidate": "habitats",
+   "s": [
+    "hvor bor dyrene",
+    "hvor bor dyrene spill",
+    "hvor bor dyrene om vinteren",
+    "hvor bor dyrene spil"
+   ]
+  },
+  "dyr og natur": {
+   "candidate": "habitats",
+   "s": [
+    "dyr og natur quiz",
+    "dyr og natur",
+    "dyr og natur i australia",
+    "folkehøgskole dyr og natur",
+    "dyrnaturligvis",
+    "spørsmål om dyr og natur",
+    "fakta om dyr og natur",
+    "plakater dyr og natur",
+    "børn dyr og natur",
+    "dyr natur"
+   ]
+  },
+  "flyte eller synke": {
+   "candidate": "sink-or-float",
+   "s": [
+    "flyte eller synke egg",
+    "flyte eller synke",
+    "avføring flyte eller synke",
+    "skal egg flyte eller synke i vann",
+    "skal avføring flyte eller synke",
+    "skal friske egg flyte eller synke",
+    "skal gode egg flyte eller synke",
+    "skal et egg flyte eller synke"
+   ]
+  },
+  "flyter eller synker": {
+   "candidate": "sink-or-float",
+   "s": [
+    "flyter eller synker gamle egg",
+    "flyter eller synker dårlige egg",
+    "flyter eller synker",
+    "flyter eller synker egg",
+    "flyter eller synker ferske egg",
+    "kokt egg flyter eller synker"
+   ]
+  }
+ }
+}

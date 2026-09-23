@@ -1,0 +1,234 @@
+{
+ "locale": "no",
+ "market": {
+  "hl": "no",
+  "gl": "no"
+ },
+ "generatedAt": "2026-09-23T16:12:15.657Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/v2/candidate-seeds-v2.json",
+ "requestCount": 84,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "håndskrift oppgaver",
+    "løkkeskrift oppgaver",
+    "skrivehefte"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 4,
+   "suggestions": [
+    "håndskrift oppgaver",
+    "løkkeskrift oppgaver",
+    "skrivehefte",
+    "øve håndskrift oppgaver"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "bildefortelling",
+    "sett bildene i riktig rekkefølge"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 5,
+   "suggestions": [
+    "bildefortelling",
+    "bildefortelling eksempel",
+    "bildefortelling mal",
+    "digital bildefortelling",
+    "min bildefortelling"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "pusse tenner",
+    "gode vaner",
+    "vaske hender"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 30,
+   "suggestions": [
+    "gode vaner",
+    "gode vaner 2026",
+    "gode vaner app",
+    "gode vaner bok",
+    "gode vaner engelsk",
+    "gode vaner er vonde å vende",
+    "gode vaner for god helse",
+    "gode vaner gravid",
+    "gode vaner i hverdagen",
+    "gode vaner under graviditet",
+    "pusse tenner",
+    "pusse tenner baby",
+    "pusse tenner barn",
+    "pusse tenner etter oppkast",
+    "pusse tenner før eller etter frokost",
+    "pusse tenner hund",
+    "pusse tenner katt",
+    "pusse tenner med bakepulver",
+    "pusse tenner med natron",
+    "pusse tenner sang",
+    "vaske hender",
+    "vaske hender barn",
+    "vaske hender bilde",
+    "vaske hender før man tar på baby",
+    "vaske hender illustrasjon",
+    "vaske hender med zalo",
+    "vaske hender plakat",
+    "vaske hender plakat barn",
+    "vaske hender sang",
+    "vaske hender tegning"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "dyr om vinteren",
+    "dyrenes hjem",
+    "hvor bor dyrene"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 17,
+   "suggestions": [
+    "dyr om vinteren",
+    "dyr om vinteren barnehage",
+    "dyr om vinteren dyreparken",
+    "dyr om vinteren film",
+    "dyr om vinteren i norge",
+    "dyr om vinteren nrk",
+    "dyr om vinteren ugler i mosen",
+    "dyr om vinteren undervisning",
+    "dyrenes beskyttelse hjemmeside",
+    "dyrenes beskyttelses hjemmeside",
+    "dyrenes hjem",
+    "hvor bor dyrene",
+    "hvor bor dyrene om vinteren",
+    "hvor bor dyrene spil",
+    "hvor bor dyrene spill",
+    "kråkeklubben dyr om vinteren",
+    "skogens dyr om vinteren"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "flyte synke forsøk"
+   ],
+   "requests": 7,
+   "productiveSeeds": 0,
+   "unique": 0,
+   "suggestions": []
+  }
+ },
+ "suggestions": {
+  "håndskrift oppgaver": {
+   "candidate": "cursive-writing",
+   "s": [
+    "håndskrift oppgaver",
+    "øve håndskrift oppgaver"
+   ]
+  },
+  "løkkeskrift oppgaver": {
+   "candidate": "cursive-writing",
+   "s": [
+    "løkkeskrift oppgaver"
+   ]
+  },
+  "skrivehefte": {
+   "candidate": "cursive-writing",
+   "s": [
+    "skrivehefte"
+   ]
+  },
+  "bildefortelling": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildefortelling",
+    "bildefortelling eksempel",
+    "bildefortelling mal",
+    "min bildefortelling",
+    "digital bildefortelling"
+   ]
+  },
+  "pusse tenner": {
+   "candidate": "healthy-habits",
+   "s": [
+    "pusse tenner før eller etter frokost",
+    "pusse tenner baby",
+    "pusse tenner hund",
+    "pusse tenner",
+    "pusse tenner sang",
+    "pusse tenner katt",
+    "pusse tenner med bakepulver",
+    "pusse tenner med natron",
+    "pusse tenner etter oppkast",
+    "pusse tenner barn"
+   ]
+  },
+  "gode vaner": {
+   "candidate": "healthy-habits",
+   "s": [
+    "gode vaner",
+    "gode vaner for god helse",
+    "gode vaner i hverdagen",
+    "gode vaner gravid",
+    "gode vaner er vonde å vende",
+    "gode vaner bok",
+    "gode vaner 2026",
+    "gode vaner engelsk",
+    "gode vaner under graviditet",
+    "gode vaner app"
+   ]
+  },
+  "vaske hender": {
+   "candidate": "healthy-habits",
+   "s": [
+    "vaske hender",
+    "vaske hender sang",
+    "vaske hender plakat",
+    "vaske hender plakat barn",
+    "vaske hender barn",
+    "vaske hender bilde",
+    "vaske hender tegning",
+    "vaske hender illustrasjon",
+    "vaske hender med zalo",
+    "vaske hender før man tar på baby"
+   ]
+  },
+  "dyr om vinteren": {
+   "candidate": "habitats",
+   "s": [
+    "dyr om vinteren",
+    "dyr om vinteren undervisning",
+    "dyr om vinteren film",
+    "dyr om vinteren i norge",
+    "dyr om vinteren dyreparken",
+    "dyr om vinteren barnehage",
+    "dyr om vinteren ugler i mosen",
+    "dyr om vinteren nrk",
+    "kråkeklubben dyr om vinteren",
+    "skogens dyr om vinteren"
+   ]
+  },
+  "dyrenes hjem": {
+   "candidate": "habitats",
+   "s": [
+    "dyrenes hjem",
+    "dyrenes beskyttelse hjemmeside",
+    "dyrenes beskyttelses hjemmeside"
+   ]
+  },
+  "hvor bor dyrene": {
+   "candidate": "habitats",
+   "s": [
+    "hvor bor dyrene",
+    "hvor bor dyrene spill",
+    "hvor bor dyrene om vinteren",
+    "hvor bor dyrene spil"
+   ]
+  }
+ }
+}

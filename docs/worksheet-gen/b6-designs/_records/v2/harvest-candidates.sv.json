@@ -1,0 +1,250 @@
+{
+ "locale": "sv",
+ "market": {
+  "hl": "sv",
+  "gl": "se"
+ },
+ "generatedAt": "2026-09-23T16:11:37.118Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/v2/candidate-seeds-v2.json",
+ "requestCount": 91,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "skrivstil åk 2",
+    "skrivstil åk 3"
+   ],
+   "requests": 14,
+   "productiveSeeds": 0,
+   "unique": 0,
+   "suggestions": []
+  },
+  "story-sequencing": {
+   "heads": [
+    "bildberättelse",
+    "först sen sist",
+    "bildserie åk 1"
+   ],
+   "requests": 21,
+   "productiveSeeds": 2,
+   "unique": 6,
+   "suggestions": [
+    "bildberättelse",
+    "bildberättelse för barn",
+    "bildberättelse korsord",
+    "först sedan sist",
+    "först sen sist",
+    "stämmarsund en bildberättelse"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "borsta tänderna",
+    "nysa i armvecket",
+    "goda vanor"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 22,
+   "suggestions": [
+    "7 goda vanor",
+    "borsta tänderna",
+    "borsta tänderna babblarna",
+    "borsta tänderna före eller efter frukost",
+    "borsta tänderna låt",
+    "borsta tänderna med bikarbonat",
+    "borsta tänderna med bikarbonat och kokosolja",
+    "borsta tänderna med salt",
+    "borsta tänderna på hund",
+    "borsta tänderna på katt",
+    "borsta tänderna sång text",
+    "goda vanor",
+    "goda vanor 365",
+    "goda vanor app",
+    "goda vanor för ett friskare liv",
+    "goda vanor i långa banor",
+    "goda vanor kanin och igelkott",
+    "goda vanor korsord",
+    "goda vanor linda palm",
+    "goda vanor synonym",
+    "nysa i armvecket",
+    "varför ska man nysa i armvecket"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "djurens bon",
+    "djur på vintern",
+    "djurens hem"
+   ],
+   "requests": 21,
+   "productiveSeeds": 6,
+   "unique": 26,
+   "suggestions": [
+    "bilduppgift djur på vintern",
+    "djur bondestenåldern",
+    "djur bondgård",
+    "djur bondgård barn",
+    "djur bondgård leksaker",
+    "djur bongo",
+    "djur på vintern",
+    "djur på vintern arbetsblad",
+    "djur på vintern film",
+    "djur på vintern förskola",
+    "djur på vintern förskoleklass",
+    "djur på vintern åk 1",
+    "djur ute på vintern",
+    "djurens bon",
+    "djurens hemtjänst",
+    "fryser djur på vintern",
+    "husdjurens hemliga liv",
+    "husdjurens hemliga liv 1",
+    "husdjurens hemliga liv 2",
+    "husdjurens hemliga liv 2 stream",
+    "husdjurens hemliga liv 2 svenska röster",
+    "husdjurens hemliga liv 3",
+    "husdjurens hemliga liv engelska",
+    "husdjurens hemliga liv kanin",
+    "husdjurens hemliga liv svenska röster",
+    "svenska djur på vintern"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "flyta eller sjunka åk 1",
+    "flyta sjunka experiment"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 3,
+   "suggestions": [
+    "experiment flyta sjunka apelsin",
+    "flyta sjunka experiment",
+    "flyta sjunka experiment förskola"
+   ]
+  }
+ },
+ "suggestions": {
+  "bildberättelse": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildberättelse",
+    "bildberättelse korsord",
+    "bildberättelse för barn",
+    "stämmarsund en bildberättelse"
+   ]
+  },
+  "först sen sist": {
+   "candidate": "story-sequencing",
+   "s": [
+    "först sen sist",
+    "först sedan sist"
+   ]
+  },
+  "borsta tänderna": {
+   "candidate": "healthy-habits",
+   "s": [
+    "borsta tänderna",
+    "borsta tänderna låt",
+    "borsta tänderna före eller efter frukost",
+    "borsta tänderna med bikarbonat",
+    "borsta tänderna på katt",
+    "borsta tänderna på hund",
+    "borsta tänderna med bikarbonat och kokosolja",
+    "borsta tänderna med salt",
+    "borsta tänderna sång text",
+    "borsta tänderna babblarna"
+   ]
+  },
+  "nysa i armvecket": {
+   "candidate": "healthy-habits",
+   "s": [
+    "nysa i armvecket",
+    "varför ska man nysa i armvecket"
+   ]
+  },
+  "goda vanor": {
+   "candidate": "healthy-habits",
+   "s": [
+    "goda vanor",
+    "goda vanor linda palm",
+    "goda vanor kanin och igelkott",
+    "goda vanor för ett friskare liv",
+    "goda vanor i långa banor",
+    "goda vanor app",
+    "goda vanor synonym",
+    "goda vanor korsord",
+    "goda vanor 365",
+    "7 goda vanor"
+   ]
+  },
+  "djurens bon": {
+   "candidate": "habitats",
+   "s": [
+    "djurens bon",
+    "djur bondgård",
+    "djur bondgård leksaker",
+    "djur bondgård barn",
+    "djur bondestenåldern",
+    "djur bongo"
+   ]
+  },
+  "djur på vintern": {
+   "candidate": "habitats",
+   "s": [
+    "djur på vintern",
+    "djur på vintern åk 1",
+    "djur på vintern arbetsblad",
+    "djur på vintern film",
+    "djur på vintern förskoleklass",
+    "djur på vintern förskola",
+    "bilduppgift djur på vintern",
+    "fryser djur på vintern",
+    "djur ute på vintern",
+    "svenska djur på vintern"
+   ]
+  },
+  "djur på vintern arbetsblad": {
+   "candidate": "habitats",
+   "s": [
+    "djur på vintern arbetsblad"
+   ]
+  },
+  "djur på vintern förskoleklass": {
+   "candidate": "habitats",
+   "s": [
+    "djur på vintern förskoleklass"
+   ]
+  },
+  "djur på vintern åk 1": {
+   "candidate": "habitats",
+   "s": [
+    "djur på vintern åk 1"
+   ]
+  },
+  "djurens hem": {
+   "candidate": "habitats",
+   "s": [
+    "husdjurens hemliga liv",
+    "husdjurens hemliga liv 2",
+    "djurens hemtjänst",
+    "husdjurens hemliga liv svenska röster",
+    "husdjurens hemliga liv 3",
+    "husdjurens hemliga liv 2 svenska röster",
+    "husdjurens hemliga liv kanin",
+    "husdjurens hemliga liv 1",
+    "husdjurens hemliga liv 2 stream",
+    "husdjurens hemliga liv engelska"
+   ]
+  },
+  "flyta sjunka experiment": {
+   "candidate": "sink-or-float",
+   "s": [
+    "flyta sjunka experiment",
+    "flyta sjunka experiment förskola",
+    "experiment flyta sjunka apelsin"
+   ]
+  }
+ }
+}

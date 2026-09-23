@@ -48,8 +48,8 @@ let baseWave, varWave;
 if (batch === 'b2') {
   rows = require('./gen-b2var-specs.js').ROWS;
   baseWave = 'wave-b2-en.json'; varWave = 'wave-b2var-en.json';
-} else if (batch === 'b3' || batch === 'b4' || batch === 'b5') {
-  const gen = require(batch === 'b5' ? './gen-b5var-specs.js' : batch === 'b4' ? './gen-b4var-specs.js' : './gen-b3var-specs.js');
+} else if (batch === 'b3' || batch === 'b4' || batch === 'b5' || batch === 'b6') {
+  const gen = require(batch === 'b6' ? './gen-b6var-specs.js' : batch === 'b5' ? './gen-b5var-specs.js' : batch === 'b4' ? './gen-b4var-specs.js' : './gen-b3var-specs.js');
   const loaded = gen.loadRows();
   rows = loaded.rows; hand = loaded.hand;
   if (family) {

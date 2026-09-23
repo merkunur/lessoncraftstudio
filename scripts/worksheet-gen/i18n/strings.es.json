@@ -2618,5 +2618,217 @@
   "G3-391": {
     "title": "Redondeo de números a la decena y a la centena",
     "instruction": "Redondea cada número dos veces: a la decena en la primera casilla y a la centena en la segunda."
+  },
+  "K-368": {
+    "title": "Figuras geométricas planas y sus nombres",
+    "instruction": "Mira cada figura, aunque esté girada o sea muy delgada, y rodea su nombre."
+  },
+  "K-369": {
+    "title": "Educación vial: el semáforo, ¿qué hago?",
+    "instruction": "Mira la luz encendida de cada semáforo y rodea lo que debes hacer."
+  },
+  "K-370": {
+    "title": "Miembros de la familia: ¿quién es quién?",
+    "instruction": "Busca a cada persona en el árbol y escribe su número en el cuadro junto a la palabra de la familia."
+  },
+  "G1-376": {
+    "title": "Partes de la planta para completar",
+    "instruction": "Sigue cada etiqueta con número hasta una parte de la planta y escribe su nombre, del banco de palabras, en la línea con el mismo número."
+  },
+  "G1-377": {
+    "title": "Ciclo de vida de la mariposa",
+    "instruction": "El huevo es el 1: escribe 2, 3 y 4 en los cuadros según crece, y en el último cuadro el número del dibujo que sigue después de la mariposa."
+  },
+  "G1-378": {
+    "title": "El Sol, la Tierra y la Luna",
+    "instruction": "Lee cada oración y marca una sola casilla: ¿habla del Sol, de la Tierra o de la Luna?"
+  },
+  "G1-379": {
+    "title": "Lee la simbología del mapa",
+    "instruction": "Mira la simbología, busca cada cosa en el mapa y escribe en el cuadro cuántas hay."
+  },
+  "G2-358": {
+    "title": "Sinónimos: rodea la palabra que significa lo mismo",
+    "instruction": "Lee la palabra grande de cada tarjeta y rodea la palabra de abajo que significa lo mismo."
+  },
+  "G2-359": {
+    "title": "Palabras primitivas y derivadas: acomoda cada palabra",
+    "instruction": "Lee cada palabra de arriba y escríbela en una línea del muro que está sobre su palabra primitiva."
+  },
+  "G1-381": {
+    "title": "Figuras planas: ¿es o no es?",
+    "instruction": "Lee el nombre de cada fila y rodea todas las figuras que de verdad son esa figura."
+  },
+  "K-371": {
+    "title": "Figuras planas en los objetos de todos los días",
+    "instruction": "Mira cada dibujo y colorea la figura que tiene: el círculo o el rectángulo."
+  },
+  "G1-382": {
+    "title": "Figuras planas: escribe sus nombres",
+    "instruction": "Mira cada figura y escribe su nombre en la línea con los nombres del recuadro."
+  },
+  "G1-383": {
+    "title": "Adivinanzas de figuras geométricas",
+    "instruction": "Lee cada adivinanza y rodea el nombre de la figura."
+  },
+  "K-372": {
+    "title": "Dibuja figuras planas uniendo puntos",
+    "instruction": "Lee el nombre de la figura y une los puntos para dibujarla, empezando por la línea gruesa si la hay."
+  },
+  "K-373": {
+    "title": "Educación vial: colorea el semáforo",
+    "instruction": "Busca la luz con rayitos en cada semáforo y coloréala del color con el que brilla."
+  },
+  "K-374": {
+    "title": "Cómo cruzar la calle: los pasos en orden",
+    "instruction": "Escribe del 1 al 5 en los cuadros para mostrar cómo se cruza la calle."
+  },
+  "G1-384": {
+    "title": "Señales de tránsito y su significado para primer grado",
+    "instruction": "Une con una línea cada señal con lo que significa."
+  },
+  "G2-360": {
+    "title": "Señales de tránsito preventivas y restrictivas para niños",
+    "instruction": "Escribe la letra de cada señal en los cuadros de su grupo."
+  },
+  "G2-361": {
+    "title": "Educación vial: ¿qué señal de tránsito es?",
+    "instruction": "Lee cada oración y rodea la única señal que le corresponde."
+  },
+  "G1-385": {
+    "title": "Generaciones de la familia: de la mayor a la menor",
+    "instruction": "En cada fila, escribe 1, 2 y 3 en los cuadros para ordenar las palabras de la generación mayor a la menor."
+  },
+  "K-375": {
+    "title": "Palabras de la familia: repasa y escribe",
+    "instruction": "Busca en el árbol a la persona con el mismo número, repasa su palabra y escríbela otra vez en la línea."
+  },
+  "G1-386": {
+    "title": "Árbol genealógico: lee las pistas",
+    "instruction": "Lee las pistas y escribe cada nombre en el cuadro correcto del árbol genealógico."
+  },
+  "G2-362": {
+    "title": "Adivinanzas del parentesco en la familia",
+    "instruction": "Lee cada adivinanza y escribe en la línea la palabra correcta del recuadro; una palabra puede servir para más de una adivinanza."
+  },
+  "G1-387": {
+    "title": "Árbol genealógico para rellenar",
+    "instruction": "Dibuja en los marcos a las personas importantes para ti y escribe sus nombres en las líneas."
+  },
+  "K-376": {
+    "title": "¿Qué necesitan las plantas para crecer?",
+    "instruction": "Mira lo que recibe cada planta y rodea la planta que tiene las dos cosas que necesita para crecer."
+  },
+  "G1-388": {
+    "title": "Ciclo de vida de las plantas: de la semilla a la planta",
+    "instruction": "Recorta los cuatro dibujos y pega cada uno en el siguiente cuadro vacío, siguiendo las flechas desde la semilla."
+  },
+  "G2-363": {
+    "title": "Partes de la planta que comemos",
+    "instruction": "Mira cada alimento y rodea la parte de la planta que nos comemos."
+  },
+  "G2-364": {
+    "title": "Partes de la planta y sus funciones",
+    "instruction": "Lee lo que hace cada parte, búscala en la planta y escribe en el cuadro el número de su etiqueta."
+  },
+  "G3-392": {
+    "title": "Partes de la flor",
+    "instruction": "Escribe en su línea el nombre de cada parte numerada de la flor y tacha la palabra del banco que no es parte de una flor."
+  },
+  "G1-389": {
+    "title": "Ciclo de vida de la rana para recortar y pegar",
+    "instruction": "Recorta los cuatro cuadros y pega cada uno en su nenúfar, dando la vuelta al estanque desde los huevos hasta la rana."
+  },
+  "G2-365": {
+    "title": "Ciclo de vida de la mariposa: escribe las etapas",
+    "instruction": "Escribe cada nombre del banco de palabras en la línea bajo su dibujo y tacha el nombre que no corresponde."
+  },
+  "G2-366": {
+    "title": "Metamorfosis: ¿en qué animal se convertirá?",
+    "instruction": "Mira cada animal joven y escribe su letra en un cuadro bajo el animal adulto en el que se convertirá."
+  },
+  "G3-393": {
+    "title": "Compara el ciclo de vida de la mariposa y de la rana",
+    "instruction": "Lee cada oración y marca la mariposa, la rana o las dos cuando la oración sea cierta para ese animal."
+  },
+  "G1-390": {
+    "title": "¿Qué sigue? Mariposa, rana y catarina",
+    "instruction": "Mira el primer dibujo de cada fila y rodea el que sigue justo después."
+  },
+  "G1-391": {
+    "title": "Fases de la luna en orden",
+    "instruction": "La Luna parece crecer y luego achicarse: en cada fila, escribe del 1 al 5 bajo las lunas en ese orden."
+  },
+  "G2-367": {
+    "title": "Fases de la luna con sus nombres",
+    "instruction": "Mira cada luna y escribe su nombre en las líneas, usando dos veces cada palabra del banco."
+  },
+  "G2-368": {
+    "title": "¿Por qué hay día y noche?",
+    "instruction": "Mira dónde está el Sol y, en cada marca con número, rodea en la tabla si es de día o de noche."
+  },
+  "G3-394": {
+    "title": "El sistema solar: los planetas en orden",
+    "instruction": "Escribe el nombre de cada planeta en su línea, empezando junto al Sol y usando una vez cada nombre del banco."
+  },
+  "G3-395": {
+    "title": "Planetas gigantes y planetas rocosos",
+    "instruction": "Clasifica los nombres y escribe cada uno en su cuadro: planeta gigante, planeta pequeño y rocoso o no es planeta."
+  },
+  "K-377": {
+    "title": "Vista de lado y vista desde arriba",
+    "instruction": "Cada cosa está dibujada de lado: únela con una línea con la misma cosa vista desde arriba."
+  },
+  "G2-369": {
+    "title": "Puntos cardinales: completa la rosa de los vientos",
+    "instruction": "Cada rosa de los vientos muestra una letra: escribe las otras tres en los cuadros vacíos."
+  },
+  "G2-370": {
+    "title": "Los continentes: escribe sus nombres",
+    "instruction": "Escribe en su línea el nombre de cada continente con número, usando los nombres del recuadro."
+  },
+  "G3-396": {
+    "title": "Continentes y océanos del mundo",
+    "instruction": "Busca en el mapa cada continente y cada océano y escribe su número en el cuadro junto a su nombre."
+  },
+  "G2-371": {
+    "title": "Puntos cardinales en el mapa",
+    "instruction": "Busca el primer dibujo en el mapa, mira hacia donde dice la palabra y rodea, de los tres dibujos, el que está en esa dirección."
+  },
+  "G1-395": {
+    "title": "Sinónimos con imágenes: dos palabras para un dibujo",
+    "instruction": "Mira cada dibujo y rodea las dos palabras de abajo que significan lo mismo y describen el dibujo."
+  },
+  "G2-373": {
+    "title": "Sinónimos: une las parejas de palabras",
+    "instruction": "Une con una línea cada palabra de la izquierda con la palabra de la derecha que significa lo mismo."
+  },
+  "G1-396": {
+    "title": "Intensidad de las palabras: de poco a mucho",
+    "instruction": "Lee las tres palabras de cada fila y escribe 1, 2 y 3 en los cuadros, de la más suave a la más fuerte."
+  },
+  "G2-374": {
+    "title": "Sinónimos de dice: elige la palabra que va mejor",
+    "instruction": "Lee cada oración y escribe en el cuadro la palabra de la burbuja que va mejor en lugar de dice."
+  },
+  "G3-397": {
+    "title": "Campos semánticos: palabras para ir y para mirar",
+    "instruction": "Lee las diez palabras y escribe cada una en el campo de la palabra a la que más se parece en significado."
+  },
+  "G1-397": {
+    "title": "Palabras derivadas con dibujos: rodea la palabra",
+    "instruction": "Di el nombre de cada dibujo y rodea la única palabra de arriba que se forma con esa palabra."
+  },
+  "G2-375": {
+    "title": "Encuentra la palabra primitiva",
+    "instruction": "Rodea la parte que tienen en común las tres palabras y escribe la palabra primitiva en la piedra vacía."
+  },
+  "G2-376": {
+    "title": "Prefijos re-, pre- y sobre-: elige por el significado",
+    "instruction": "Lee lo que significa cada palabra nueva, busca su prefijo en la clave y escríbelo en la pieza vacía."
+  },
+  "G3-399": {
+    "title": "Palabras derivadas en oraciones",
+    "instruction": "Escribe cada una de las cuatro palabras de la piedra en la oración donde va."
   }
 }

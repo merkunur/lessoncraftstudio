@@ -1,0 +1,122 @@
+{
+  "hemisphere": "N",
+  "bodies": {
+    "sun": "el Sol",
+    "earth": "la Tierra",
+    "moon": "la Luna"
+  },
+  "facts": {
+    "ownLight": "Produce su propia luz.",
+    "star": "Es una estrella.",
+    "hottest": "De los tres, tiene la temperatura más alta.",
+    "biggest": "De los tres, tiene el mayor tamaño.",
+    "liveOn": "Ahí viven las personas y los animales.",
+    "oceans": "Tiene grandes océanos de agua.",
+    "air": "Tiene aire que podemos respirar.",
+    "planet": "Es un planeta.",
+    "spinDay": "Su giro nos da el día y la noche.",
+    "orbitsEarth": "Gira alrededor de la Tierra.",
+    "seemsToChange": "Parece que cambia de forma.",
+    "craters": "Tiene muchísimos cráteres.",
+    "smallest": "De los tres, tiene el menor tamaño."
+  },
+  "leakForms": [
+    "él",
+    "ella",
+    "lo",
+    "el más",
+    "la más",
+    "redondo",
+    "redonda",
+    "caliente",
+    "grande",
+    "pequeño",
+    "pequeña",
+    "cubierto",
+    "cubierta",
+    "mismo",
+    "misma"
+  ],
+  "genderNeutral": true,
+  "forbiddenStems": [
+    "da luz",
+    "nos da luz",
+    "alumbra",
+    "brilla",
+    "de noche",
+    "en la noche",
+    "alrededor del Sol",
+    "sale",
+    "se oculta",
+    "se mete",
+    "en el cielo",
+    "caminaron",
+    "sin aire",
+    "refleja",
+    "se mueve por",
+    "verano",
+    "invierno",
+    "primavera",
+    "otoño",
+    "lluvia",
+    "nieve",
+    "nube",
+    "nubes",
+    "clima",
+    "día caluroso",
+    "día frío"
+  ],
+  "phaseNames": {
+    "0": "luna nueva",
+    "2": "luna creciente",
+    "4": "luna llena",
+    "6": "luna menguante"
+  },
+  "planets": {
+    "mercury": "Mercurio",
+    "venus": "Venus",
+    "earth": "Tierra",
+    "mars": "Marte",
+    "jupiter": "Júpiter",
+    "saturn": "Saturno",
+    "uranus": "Urano",
+    "neptune": "Neptuno"
+  },
+  "notPlanet": {
+    "sun": "Sol",
+    "moon": "Luna"
+  },
+  "classLabels": {
+    "giant": "planeta gigante",
+    "rocky": "planeta pequeño y rocoso",
+    "notPlanet": "no es planeta"
+  },
+  "mnemonic": "Mi Vieja Tía Marta Jamás Supo Usar Números",
+  "refuse": [],
+  "strings": {
+    "base": {
+      "title": "El Sol, la Tierra y la Luna",
+      "instruction": "Lee cada oración y marca una sola casilla: ¿habla del Sol, de la Tierra o de la Luna?"
+    },
+    "moon-phases-in-order": {
+      "title": "Fases de la luna en orden",
+      "instruction": "La Luna parece crecer y luego achicarse: en cada fila, escribe del 1 al 5 bajo las lunas en ese orden."
+    },
+    "moon-phase-names": {
+      "title": "Fases de la luna con sus nombres",
+      "instruction": "Mira cada luna y escribe su nombre en las líneas, usando dos veces cada palabra del banco."
+    },
+    "day-and-night-model": {
+      "title": "¿Por qué hay día y noche?",
+      "instruction": "Mira dónde está el Sol y, en cada marca con número, rodea en la tabla si es de día o de noche."
+    },
+    "planets-in-order": {
+      "title": "El sistema solar: los planetas en orden",
+      "instruction": "Escribe el nombre de cada planeta en su línea, empezando junto al Sol y usando una vez cada nombre del banco."
+    },
+    "planet-sizes": {
+      "title": "Planetas gigantes y planetas rocosos",
+      "instruction": "Clasifica los nombres y escribe cada uno en su cuadro: planeta gigante, planeta pequeño y rocoso o no es planeta."
+    }
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "convention": "mx",
+  "signs": {
+    "stop": {
+      "code": "SR-6",
+      "regRef": "Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022, señales restrictivas: ALTO",
+      "shape": "octagon",
+      "rim": "white",
+      "field": "red",
+      "glyph": "text",
+      "text": "ALTO",
+      "slash": false,
+      "class": "restrictiva",
+      "signedBy": "es-MX panel 2026-09-23, compared by eye with the Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022 figure; codes marked (reg ?) in enAudit where the panel is not sure of the number"
+    },
+    "yield": {
+      "code": "SR-7",
+      "regRef": "Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022, señales restrictivas: CEDA EL PASO",
+      "shape": "triDown",
+      "rim": "red",
+      "field": "white",
+      "glyph": "none",
+      "text": "",
+      "slash": false,
+      "class": "restrictiva",
+      "signedBy": "es-MX panel 2026-09-23, compared by eye with the Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022 figure; codes marked (reg ?) in enAudit where the panel is not sure of the number"
+    },
+    "crossing": {
+      "code": "SP-32",
+      "regRef": "Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022, señales preventivas: cruce de peatones",
+      "shape": "diamond",
+      "rim": "ink",
+      "field": "yellow",
+      "glyph": "walker",
+      "text": "",
+      "slash": false,
+      "class": "preventiva",
+      "signedBy": "es-MX panel 2026-09-23, compared by eye with the Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022 figure; codes marked (reg ?) in enAudit where the panel is not sure of the number"
+    },
+    "school": {
+      "code": "SP-33",
+      "regRef": "Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022, señales preventivas: cruce de escolares",
+      "shape": "diamond",
+      "rim": "ink",
+      "field": "yellow",
+      "glyph": "twoChildren",
+      "text": "",
+      "slash": false,
+      "class": "preventiva",
+      "signedBy": "es-MX panel 2026-09-23, compared by eye with the Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022 figure; codes marked (reg ?) in enAudit where the panel is not sure of the number"
+    },
+    "signal-ahead": {
+      "code": "SP-31",
+      "regRef": "Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022, señales preventivas: semáforo",
+      "shape": "diamond",
+      "rim": "ink",
+      "field": "yellow",
+      "glyph": "trafficLightMini",
+      "text": "",
+      "slash": false,
+      "class": "preventiva",
+      "signedBy": "es-MX panel 2026-09-23, compared by eye with the Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022 figure; codes marked (reg ?) in enAudit where the panel is not sure of the number"
+    },
+    "bike-warning": {
+      "code": "SP (ciclistas)",
+      "regRef": "Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022, señales preventivas: cruce de ciclistas",
+      "shape": "diamond",
+      "rim": "ink",
+      "field": "yellow",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "preventiva",
+      "signedBy": "es-MX panel 2026-09-23, compared by eye with the Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022 figure; codes marked (reg ?) in enAudit where the panel is not sure of the number"
+    },
+    "no-bikes": {
+      "code": "SR (prohibido bicicletas)",
+      "regRef": "Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022, señales restrictivas: prohibida la circulación de bicicletas",
+      "shape": "plateCircle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": true,
+      "class": "restrictiva",
+      "signedBy": "es-MX panel 2026-09-23, compared by eye with the Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022 figure; codes marked (reg ?) in enAudit where the panel is not sure of the number"
+    },
+    "no-pedestrians": {
+      "code": "SR (prohibido peatones)",
+      "regRef": "Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022, señales restrictivas: prohibido el paso de peatones",
+      "shape": "plateCircle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "walker",
+      "text": "",
+      "slash": true,
+      "class": "restrictiva",
+      "signedBy": "es-MX panel 2026-09-23, compared by eye with the Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022 figure; codes marked (reg ?) in enAudit where the panel is not sure of the number"
+    }
+  },
+  "setG1": [
+    "stop",
+    "yield",
+    "crossing",
+    "school",
+    "signal-ahead",
+    "no-bikes"
+  ],
+  "kindsPool": [
+    "crossing",
+    "school",
+    "signal-ahead",
+    "bike-warning",
+    "stop",
+    "yield",
+    "no-bikes",
+    "no-pedestrians"
+  ],
+  "classes": [
+    {
+      "key": "preventiva",
+      "label": "Señales preventivas"
+    },
+    {
+      "key": "restrictiva",
+      "label": "Señales restrictivas"
+    }
+  ],
+  "pedLight": {
+    "stop": "standing",
+    "go": "walking",
+    "lamps": 2
+  },
+  "amber": {
+    "token": "codeYellow",
+    "word": "amarillo"
+  },
+  "amberMeans": "slow",
+  "chipWords": {
+    "ped": {
+      "stop": "espera",
+      "go": "cruza"
+    },
+    "car": {
+      "stop": "alto",
+      "go": "avanza"
+    }
+  },
+  "meanings": {
+    "stop": "Todos los carros deben detenerse por completo aquí.",
+    "yield": "Frena y deja pasar primero a los demás.",
+    "crossing": "Cuidado: aquí cruzan personas a pie.",
+    "school": "Cerca hay una escuela y cruzan niños.",
+    "signal-ahead": "Más adelante hay un semáforo.",
+    "no-bikes": "Aquí no pueden circular las bicicletas."
+  },
+  "situations": {
+    "stop": [
+      "Todos los carros tienen que frenar por completo en esta esquina.",
+      "Los conductores se detienen del todo y miran a los dos lados."
+    ],
+    "yield": [
+      "Los carros van despacio y dejan que otros crucen primero.",
+      "Hay que esperar un hueco y dejar que pasen los demás."
+    ],
+    "crossing": [
+      "Aquí la gente cruza la calle a pie, así que los carros tienen cuidado.",
+      "En este lugar las personas atraviesan la calle caminando."
+    ],
+    "school": [
+      "Muchos niños llegan caminando a clases por esta calle en la mañana.",
+      "Los carros van despacio porque hay niños que van y vienen de clases."
+    ],
+    "signal-ahead": [
+      "Un poco más adelante en esta calle hay un semáforo.",
+      "Prepárate: pronto habrá luces que se ponen en rojo."
+    ],
+    "bike-warning": [
+      "Cuidado con los niños que andan en bicicleta por esta calle.",
+      "Por esta calle circulan ciclistas, así que maneja con cuidado."
+    ],
+    "no-bikes": [
+      "En esta calle no se permite andar en bicicleta.",
+      "Aquí las bicicletas no pueden pasar; bájate y camina por otro lado."
+    ],
+    "no-pedestrians": [
+      "En este lugar la gente no puede cruzar la calle a pie.",
+      "Aquí los peatones no deben cruzar; usen el cruce de más adelante."
+    ]
+  },
+  "steps": [
+    "stop-kerb",
+    "look-left",
+    "look-right",
+    "look-left",
+    "walk-across"
+  ],
+  "listenStep": null,
+  "familyHead": "Educación vial",
+  "signHead": "Señales de tránsito",
+  "childAnchors": [
+    "para niños",
+    "preescolar",
+    "primer grado",
+    "segundo grado"
+  ],
+  "strings": {
+    "base": {
+      "title": "Educación vial: el semáforo, ¿qué hago?",
+      "instruction": "Mira la luz encendida de cada semáforo y rodea lo que debes hacer."
+    },
+    "colour-lights": {
+      "title": "Educación vial: colorea el semáforo",
+      "instruction": "Busca la luz con rayitos en cada semáforo y coloréala del color con el que brilla."
+    },
+    "crossing-steps": {
+      "title": "Cómo cruzar la calle: los pasos en orden",
+      "instruction": "Escribe del 1 al 5 en los cuadros para mostrar cómo se cruza la calle."
+    },
+    "sign-meaning": {
+      "title": "Señales de tránsito y su significado para primer grado",
+      "instruction": "Une con una línea cada señal con lo que significa."
+    },
+    "sign-kinds": {
+      "title": "Señales de tránsito preventivas y restrictivas para niños",
+      "instruction": "Escribe la letra de cada señal en los cuadros de su grupo."
+    },
+    "sign-quiz": {
+      "title": "Educación vial: ¿qué señal de tránsito es?",
+      "instruction": "Lee cada oración y rodea la única señal que le corresponde."
+    }
+  }
+}

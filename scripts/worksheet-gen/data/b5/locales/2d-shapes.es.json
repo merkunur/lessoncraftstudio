@@ -1,0 +1,108 @@
+{
+  "names": {
+    "circle": "círculo",
+    "square": "cuadrado",
+    "triangle": "triángulo",
+    "rectangle": "rectángulo",
+    "hexagon": "hexágono"
+  },
+  "overrides": {},
+  "inflections": {
+    "circle": [
+      "círculos"
+    ],
+    "square": [
+      "cuadrados"
+    ],
+    "triangle": [
+      "triángulos"
+    ],
+    "rectangle": [
+      "rectángulos"
+    ],
+    "hexagon": [
+      "hexágonos"
+    ]
+  },
+  "inventory": {
+    "hexagon": true
+  },
+  "riddles": {
+    "circle": [
+      {
+        "text": "Soy redondo por todos lados y no tengo esquinas. ¿Quién soy?",
+        "clue": "round"
+      },
+      {
+        "text": "No tengo lados rectos ni esquinas. ¿Quién soy?",
+        "clue": "round"
+      }
+    ],
+    "square": [
+      {
+        "text": "Mis 4 lados miden lo mismo y mis 4 esquinas son rectas. ¿Quién soy?",
+        "clue": "equal"
+      },
+      {
+        "text": "Tengo 4 lados iguales y 4 esquinas rectas. ¿Quién soy?",
+        "clue": "equal"
+      }
+    ],
+    "triangle": [
+      {
+        "text": "Tengo 3 lados y 3 esquinas. ¿Quién soy?",
+        "clue": "three"
+      },
+      {
+        "text": "Solo tengo 3 lados rectos. ¿Quién soy?",
+        "clue": "three"
+      }
+    ],
+    "rectangle": [
+      {
+        "text": "Tengo 2 lados largos y 2 lados cortos. ¿Quién soy?",
+        "clue": "longShort"
+      },
+      {
+        "text": "Tengo 4 esquinas rectas, 2 lados largos y 2 lados cortos. ¿Quién soy?",
+        "clue": "longShort"
+      }
+    ],
+    "hexagon": [
+      {
+        "text": "Tengo 6 lados y 6 esquinas. ¿Quién soy?",
+        "clue": "six"
+      },
+      {
+        "text": "Tengo 6 lados rectos. ¿Quién soy?",
+        "clue": "six"
+      }
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Figuras geométricas planas y sus nombres",
+      "instruction": "Mira cada figura, aunque esté girada o sea muy delgada, y rodea su nombre."
+    },
+    "real-or-not": {
+      "title": "Figuras planas: ¿es o no es?",
+      "instruction": "Lee el nombre de cada fila y rodea todas las figuras que de verdad son esa figura."
+    },
+    "around-us": {
+      "title": "Figuras planas en los objetos de todos los días",
+      "instruction": "Mira cada dibujo y colorea la figura que tiene: el círculo o el rectángulo."
+    },
+    "write-name": {
+      "title": "Figuras planas: escribe sus nombres",
+      "instruction": "Mira cada figura y escribe su nombre en la línea con los nombres del recuadro."
+    },
+    "riddles": {
+      "title": "Adivinanzas de figuras geométricas",
+      "instruction": "Lee cada adivinanza y rodea el nombre de la figura."
+    },
+    "dot-draw": {
+      "title": "Dibuja figuras planas uniendo puntos",
+      "instruction": "Lee el nombre de la figura y une los puntos para dibujarla, empezando por la línea gruesa si la hay."
+    }
+  }
+}

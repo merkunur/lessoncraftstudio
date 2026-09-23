@@ -1,0 +1,255 @@
+{
+  "kin": {
+    "M": "mama",
+    "F": "papa",
+    "Z": "hermana",
+    "B": "hermano",
+    "Zy": "hermanita",
+    "By": "hermanito",
+    "MM": "abuela",
+    "FM": "abuela",
+    "MF": "abuelo",
+    "FF": "abuelo",
+    "MZ": "tia",
+    "FZ": "tia",
+    "MB": "tio",
+    "FB": "tio",
+    "MZD": "prima",
+    "MZS": "primo",
+    "MBD": "prima",
+    "MBS": "primo",
+    "FZD": "prima",
+    "FZS": "primo",
+    "FBD": "prima",
+    "FBS": "primo"
+  },
+  "words": {
+    "mama": {
+      "text": "mamá",
+      "register": "K"
+    },
+    "papa": {
+      "text": "papá",
+      "register": "K"
+    },
+    "hermana": {
+      "text": "hermana",
+      "register": "K"
+    },
+    "hermano": {
+      "text": "hermano",
+      "register": "K"
+    },
+    "hermanita": {
+      "text": "hermanita",
+      "register": "K"
+    },
+    "hermanito": {
+      "text": "hermanito",
+      "register": "K"
+    },
+    "abuela": {
+      "text": "abuela",
+      "register": "K"
+    },
+    "abuelo": {
+      "text": "abuelo",
+      "register": "K"
+    },
+    "tia": {
+      "text": "tía",
+      "register": "K"
+    },
+    "tio": {
+      "text": "tío",
+      "register": "K"
+    },
+    "prima": {
+      "text": "prima",
+      "register": "K"
+    },
+    "primo": {
+      "text": "primo",
+      "register": "K"
+    }
+  },
+  "names": [
+    {
+      "name": "Sofía",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Mateo",
+      "sex": "m",
+      "gen": null
+    },
+    {
+      "name": "Valeria",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Diego",
+      "sex": "m",
+      "gen": null
+    },
+    {
+      "name": "Ximena",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Iker",
+      "sex": "m",
+      "gen": null
+    },
+    {
+      "name": "Regina",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Pablo",
+      "sex": "m",
+      "gen": null
+    },
+    {
+      "name": "Camila",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Luis",
+      "sex": "m",
+      "gen": null
+    },
+    {
+      "name": "Renata",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Hugo",
+      "sex": "m",
+      "gen": null
+    }
+  ],
+  "clueFrames": {
+    "M": "{name} es la mamá de {egoName}.",
+    "F": "{name} es el papá de {egoName}.",
+    "Z": "{name} es la hermana mayor de {egoName}.",
+    "B": "{name} es el hermano mayor de {egoName}.",
+    "Zy": "{name} es la hermanita bebé de {egoName}.",
+    "By": "{name} es el hermanito bebé de {egoName}.",
+    "MM": "{name} es la abuela de {egoName}, la mamá de su mamá.",
+    "FM": "{name} es la abuela de {egoName}, la mamá de su papá.",
+    "MF": "{name} es el abuelo de {egoName}, el papá de su mamá.",
+    "FF": "{name} es el abuelo de {egoName}, el papá de su papá.",
+    "MZ": "{name} es la tía de {egoName}, la hermana de su mamá.",
+    "FZ": "{name} es la tía de {egoName}, la hermana de su papá.",
+    "MB": "{name} es el tío de {egoName}, el hermano de su mamá.",
+    "FB": "{name} es el tío de {egoName}, el hermano de su papá.",
+    "MZD": "{name} es prima de {egoName}: es hija de la hermana de su mamá.",
+    "MZS": "{name} es primo de {egoName}: es hijo de la hermana de su mamá.",
+    "MBD": "{name} es prima de {egoName}: es hija del hermano de su mamá.",
+    "MBS": "{name} es primo de {egoName}: es hijo del hermano de su mamá.",
+    "FZD": "{name} es prima de {egoName}: es hija de la hermana de su papá.",
+    "FZS": "{name} es primo de {egoName}: es hijo de la hermana de su papá.",
+    "FBD": "{name} es prima de {egoName}: es hija del hermano de su papá.",
+    "FBS": "{name} es primo de {egoName}: es hijo del hermano de su papá."
+  },
+  "riddleFrames": {
+    "MM": "{egoName} le dice ___ a la mamá de su mamá.",
+    "FM": "{egoName} le dice ___ a la mamá de su papá.",
+    "MF": "{egoName} le dice ___ al papá de su mamá.",
+    "FF": "{egoName} le dice ___ al papá de su papá.",
+    "MZ": "{egoName} le dice ___ a la hermana de su mamá.",
+    "FZ": "{egoName} le dice ___ a la hermana de su papá.",
+    "MB": "{egoName} le dice ___ al hermano de su mamá.",
+    "FB": "{egoName} le dice ___ al hermano de su papá."
+  },
+  "distractors": [
+    "mama",
+    "papa"
+  ],
+  "repeatsNote": true,
+  "repeatsNoteText": "una palabra puede servir para más de una adivinanza",
+  "generationOK": [
+    "abuela",
+    "abuelo",
+    "mama",
+    "papa",
+    "tia",
+    "tio",
+    "hermana",
+    "hermano",
+    "prima",
+    "primo",
+    "hermanita",
+    "hermanito"
+  ],
+  "agreeing": [
+    "el",
+    "la",
+    "los",
+    "las",
+    "un",
+    "una",
+    "su",
+    "sus",
+    "del",
+    "al"
+  ],
+  "firstPerson": [
+    "mi",
+    "mis",
+    "yo",
+    "me",
+    "nosotros",
+    "nuestra",
+    "nuestro"
+  ],
+  "meWord": "yo",
+  "forbiddenInTemplate": [
+    "mamá",
+    "papá",
+    "madre",
+    "padre",
+    "tu familia"
+  ],
+  "instructionBans": [
+    "recorta",
+    "colorea",
+    "palomea",
+    "marca",
+    "gratis"
+  ],
+  "familyHead": "Miembros de la familia",
+  "strings": {
+    "base": {
+      "title": "Miembros de la familia: ¿quién es quién?",
+      "instruction": "Busca a cada persona en el árbol y escribe su número en el cuadro junto a la palabra de la familia."
+    },
+    "generations": {
+      "title": "Generaciones de la familia: de la mayor a la menor",
+      "instruction": "En cada fila, escribe 1, 2 y 3 en los cuadros para ordenar las palabras de la generación mayor a la menor."
+    },
+    "trace-words": {
+      "title": "Palabras de la familia: repasa y escribe",
+      "instruction": "Busca en el árbol a la persona con el mismo número, repasa su palabra y escríbela otra vez en la línea."
+    },
+    "tree-clues": {
+      "title": "Árbol genealógico: lee las pistas",
+      "instruction": "Lee las pistas y escribe cada nombre en el cuadro correcto del árbol genealógico."
+    },
+    "relation-riddles": {
+      "title": "Adivinanzas del parentesco en la familia",
+      "instruction": "Lee cada adivinanza y escribe en la línea la palabra correcta del recuadro; una palabra puede servir para más de una adivinanza."
+    },
+    "tree-template": {
+      "title": "Árbol genealógico para rellenar",
+      "instruction": "Dibuja en los marcos a las personas importantes para ti y escribe sus nombres en las líneas."
+    }
+  }
+}

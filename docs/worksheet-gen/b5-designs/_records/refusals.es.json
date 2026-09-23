@@ -1,0 +1,12 @@
+{
+  "locale": "es",
+  "refusals": {
+    "G1-380": "Base de dígrafos: se rechaza toda la familia de dígrafos en es-MX: ll, rr, qu y gu ya los enseña nuestra ficha de reglas de ortografía (spelling-rules) y las sílabas trabadas pertenecen a lectura de sílabas (syllable-reading); solo queda ch, que no alcanza para 3 equipos de letras con 6 palabras con dibujo",
+    "K-378": "Clasificar dígrafos (K): se rechaza toda la familia de dígrafos en es-MX: ll, rr, qu y gu ya los enseña nuestra ficha de reglas de ortografía (spelling-rules) y las sílabas trabadas pertenecen a lectura de sílabas (syllable-reading); solo queda ch, que no alcanza para 3 equipos de letras con 6 palabras con dibujo",
+    "G1-392": "Dígrafo que falta: se rechaza toda la familia de dígrafos en es-MX: ll, rr, qu y gu ya los enseña nuestra ficha de reglas de ortografía (spelling-rules) y las sílabas trabadas pertenecen a lectura de sílabas (syllable-reading); solo queda ch, que no alcanza para 3 equipos de letras con 6 palabras con dibujo",
+    "G1-393": "Leer palabras con dígrafo: se rechaza toda la familia de dígrafos en es-MX: ll, rr, qu y gu ya los enseña nuestra ficha de reglas de ortografía (spelling-rules) y las sílabas trabadas pertenecen a lectura de sílabas (syllable-reading); solo queda ch, que no alcanza para 3 equipos de letras con 6 palabras con dibujo",
+    "G1-394": "¿Dónde está el dígrafo?: se rechaza toda la familia de dígrafos en es-MX: ll, rr, qu y gu ya los enseña nuestra ficha de reglas de ortografía (spelling-rules) y las sílabas trabadas pertenecen a lectura de sílabas (syllable-reading); solo queda ch, que no alcanza para 3 equipos de letras con 6 palabras con dibujo",
+    "G2-372": "Dígrafos en oraciones: se rechaza toda la familia de dígrafos en es-MX: ll, rr, qu y gu ya los enseña nuestra ficha de reglas de ortografía (spelling-rules) y las sílabas trabadas pertenecen a lectura de sílabas (syllable-reading); solo queda ch, que no alcanza para 3 equipos de letras con 6 palabras con dibujo",
+    "G3-398": "Quién lo hace (F4 de word-parts): los sustantivos de oficio en -ero/-ería (panadero, florista) son el banco de familias-de-palabras G2-316 (compound-words es), así que esta cara lo canibaliza; se rechaza según el diseño"
+  }
+}

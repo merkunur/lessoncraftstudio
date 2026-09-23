@@ -359,9 +359,12 @@ const FLOWER_ANCHORS = {
   stalk: { x: 200, y: 400, slot: { x: 360, y: 400 } },
   ovary: { x: 200, y: 298, slot: { x: 360, y: 320 } },
 };
-function flowerSection({ h = 418, tags = [] } = {}) {
+function flowerSection({ h = 418, tags = [], vbTop = 0 } = {}) {
   if (!(h >= 240)) throw new Error(`plant-figure: flowerSection h ${h} < 240`);
-  const VW = 400, VH = 440, scale = h / VH, width = VW * scale, u = (px) => px / scale;
+  // vbTop (faces, additive; default 0 = the original drawing byte-identical): crop the empty sky above
+  // the petal tips (min y 120) so a top-anchored stage does not open with a ~110 px blank band.
+  if (!(vbTop >= 0 && vbTop <= 110)) throw new Error(`plant-figure: flowerSection vbTop ${vbTop} outside 0..110 (the petal tips start at y 120)`);
+  const VW = 400, VH = 440 - vbTop, scale = h / VH, width = VW * scale, u = (px) => px / scale;
   const sw3 = u(3), sw15 = u(1.5);
   const mirror = (d) => d.replace(/(-?\d+(?:\.\d+)?) (-?\d+(?:\.\d+)?)/g, (m, x, y) => `${f1(400 - +x)} ${y}`);
   const SEPAL_L = 'M 186 322 Q 150 330 128 360 Q 164 350 192 330 Z';
@@ -391,10 +394,10 @@ function flowerSection({ h = 418, tags = [] } = {}) {
     discs.push(`<g data-lcs-tag data-lcs-part="${esc(t.part)}" data-lcs-n="${t.n}">` + el('circle', { cx: S[0], cy: S[1], r: f1(u(TAG_HALO - 2)), fill: T.white, stroke: T.white, 'stroke-width': f1(u(4)) }) +
       el('circle', { cx: S[0], cy: S[1], r: f1(u(TAG_R)), fill: T.coral }) +
       el('text', { x: S[0], y: f1(S[1] + u(1)), 'font-family': `${F.display}, cursive`, 'font-size': f1(u(TAG_PX)), 'font-weight': 700, fill: T.white, 'text-anchor': 'middle', 'dominant-baseline': 'central' }, String(t.n)) + `</g>`);
-    anchors[t.part] = { x: f1(A[0] * scale), y: f1(A[1] * scale) };
+    anchors[t.part] = { x: f1(A[0] * scale), y: f1((A[1] - vbTop) * scale) };
   }
   if (tags.length) o.push(`<g data-lcs-threads>${threads.join('')}${ends.join('')}</g><g data-lcs-tags>${discs.join('')}</g>`);
-  const svg = svgRoot({ width: f1(width), height: f1(h), viewBox: `0 0 ${VW} ${VH}`, label: 'a flower cut open' }, o, { 'data-lcs-figure': 'flower', 'data-lcs-scale': f1(scale), style: 'display:block' });
+  const svg = svgRoot({ width: f1(width), height: f1(h), viewBox: `0 ${vbTop} ${VW} ${VH}`, label: 'a flower cut open' }, o, { 'data-lcs-figure': 'flower', 'data-lcs-scale': f1(scale), style: 'display:block' });
   return { svg, width: f1(width), height: h, scale, anchors };
 }
 
@@ -415,7 +418,11 @@ function plantPartIcon({ part, size = 32 } = {}) {
   } else if (part === 'flower') {
     g = drawFlower(sw3, sw15, 32, 33, 0.55);
   } else if (part === 'fruit') {
-    g = pathEl(capsuleD([18, 14], [46, 50], 10), T.tealSoft, T.teal, sw3) + pathEl('M 24 10 Q 20 4 14 4', null, T.teal, sw3) + pathEl('M 23 12 L 50 46', null, T.teal, sw15);
+    // the OPENED pod of the big plant (window + seeds), not a closed capsule: the build review read the
+    // closed capsule as a pill at 32 px (faces F3 chips, 2026-09-23)
+    g = pathEl(capsuleD([18, 14], [46, 50], 11), T.tealSoft, T.teal, sw3) + pathEl('M 24 9 Q 20 3 13 3', null, T.teal, sw3) +
+      axisWindow([18, 14], [46, 50], 19, 45, 11, 4, { fill: T.white, stroke: T.teal, 'stroke-width': f1(sw15) }) +
+      [[25.3, 23.4], [35.4, 36.4]].map(([x, y]) => el('circle', { cx: x, cy: y, r: 4.6, fill: T.teal })).join('');
   } else if (part === 'seed') {
     g = [[20, 26, -18], [42, 24, 20], [31, 44, 0]].map(([x, y, r]) => el('ellipse', { cx: x, cy: y, rx: 9, ry: 6, transform: `rotate(${r} ${x} ${y})`, fill: T.teal })).join('');
   }

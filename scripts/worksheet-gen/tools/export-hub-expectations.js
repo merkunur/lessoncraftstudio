@@ -22,9 +22,9 @@ const path = require('path');
 // the verifier still reads the b3 JSON until the b4 batch is built and its keys are wired in).
 const BATCH_ARG = process.argv.find((a) => a.startsWith('--batch='));
 const BATCH = BATCH_ARG ? BATCH_ARG.slice('--batch='.length) : 'b3';
-if (!/^b[345]$/.test(BATCH)) { console.error('export-hub-expectations: --batch must be b3, b4 or b5'); process.exit(1); }
+if (!/^b[3456]$/.test(BATCH)) { console.error('export-hub-expectations: --batch must be b3, b4, b5 or b6'); process.exit(1); }
 const DIR = BATCH + '-designs';
-const MIN_KEYS = (BATCH === 'b4' || BATCH === 'b5') ? 10 : 20;
+const MIN_KEYS = BATCH === 'b6' ? 5 : (BATCH === 'b4' || BATCH === 'b5') ? 10 : 20;
 const README = path.resolve(__dirname, '..', '..', '..', 'docs', 'worksheet-gen', DIR, 'README.md');
 const OUT = path.resolve(__dirname, '..', '..', '..', 'docs', 'worksheet-gen', DIR, 'hub-expectations.json');
 const LOCALES = ['en', 'de', 'es', 'pt', 'fr', 'it', 'nl', 'sv', 'da', 'no', 'fi'];

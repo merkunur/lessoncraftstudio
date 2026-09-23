@@ -674,6 +674,31 @@
       "default_subject": "letters",
       "default_age_range": "7-9",
       "exercise_type_axis_key": "word-parts"
+    },
+    "story-sequencing": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "story-sequencing"
+    },
+    "healthy-habits": {
+      "default_subject": "science",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "healthy-habits"
+    },
+    "habitats": {
+      "default_subject": "science",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "habitats"
+    },
+    "sink-or-float": {
+      "default_subject": "science",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "sink-or-float"
+    },
+    "cursive-writing": {
+      "default_subject": "letters",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "cursive-writing"
     }
   },
   "$comment_subjects": "Subject×grade hub registry (2026-07-05). Powers /[locale]/topic/<subject>/<grade> hub pages that match how teachers search (Fach×Klasse, e.g. 'Mathe Klasse 1'). Keys = the apps.*.default_subject buckets (math/logic/letters/spatial-reasoning/science). slug+name per locale; bucket→exercise-type mapping derived from apps.* in code (exerciseTypeKeysForSubject). NOTE: the older $comment_subject_vocabulary claim of '4 values, no science' is stale — the corpus has 5 (science = science-sort/match/sequence). Added de+en at MVP; other locales added per the per-locale SEO rollout with native Fach terms.",
@@ -4579,6 +4604,46 @@
           "da": "Forstavelser, endelser og rodord",
           "no": "Forstavelser, endelser og rotord",
           "fi": "Kantasana ja johdokset"
+        }
+      },
+      "story-sequencing": {
+        "slug": {
+          "en": "story-sequencing"
+        },
+        "name": {
+          "en": "Story Sequencing"
+        }
+      },
+      "healthy-habits": {
+        "slug": {
+          "en": "healthy-habits"
+        },
+        "name": {
+          "en": "Healthy Habits and Hygiene"
+        }
+      },
+      "habitats": {
+        "slug": {
+          "en": "habitats"
+        },
+        "name": {
+          "en": "Animal Habitats"
+        }
+      },
+      "sink-or-float": {
+        "slug": {
+          "en": "sink-or-float"
+        },
+        "name": {
+          "en": "Sink or Float"
+        }
+      },
+      "cursive-writing": {
+        "slug": {
+          "en": "cursive-writing"
+        },
+        "name": {
+          "en": "Cursive Writing"
         }
       }
     },

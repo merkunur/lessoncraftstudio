@@ -1,0 +1,741 @@
+{
+ "locale": "pt",
+ "market": {
+  "hl": "pt",
+  "gl": "br"
+ },
+ "generatedAt": "2026-09-23T16:10:31.232Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/v2/candidate-seeds-v2.json",
+ "requestCount": 98,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "alfabeto cursivo maiúsculo",
+    "palavras em letra cursiva",
+    "caligrafia cursiva"
+   ],
+   "requests": 21,
+   "productiveSeeds": 10,
+   "unique": 61,
+   "suggestions": [
+    "alfabeto cursivo maiusculo e minúsculo para imprimir pdf pontilhado",
+    "alfabeto cursivo maiúsculo",
+    "alfabeto cursivo maiúsculo atividade",
+    "alfabeto cursivo maiúsculo bonito",
+    "alfabeto cursivo maiúsculo e minusculo para imprimir pdf colorido",
+    "alfabeto cursivo maiúsculo e minusculo para imprimir pontilhado",
+    "alfabeto cursivo maiúsculo e minúsculo",
+    "alfabeto cursivo maiúsculo e minúsculo atividade",
+    "alfabeto cursivo maiúsculo e minúsculo para copiar",
+    "alfabeto cursivo maiúsculo e minúsculo para imprimir",
+    "alfabeto cursivo maiúsculo e minúsculo para imprimir colorido",
+    "alfabeto cursivo maiúsculo e minúsculo para imprimir pdf",
+    "alfabeto cursivo maiúsculo e minúsculo para imprimir pdf colorido",
+    "alfabeto cursivo maiúsculo e minúsculo para imprimir pdf grátis",
+    "alfabeto cursivo maiúsculo e minúsculo pontilhado",
+    "alfabeto cursivo maiúsculo e minúsculo pontilhado para imprimir",
+    "alfabeto cursivo maiúsculo para imprimir",
+    "alfabeto cursivo maiúsculo para imprimir pdf",
+    "alfabeto cursivo minúsculo pontilhado para imprimir",
+    "atividade alfabeto cursivo maiúsculo e minúsculo pontilhado",
+    "atividade caligrafia cursiva 1 ano",
+    "atividade caligrafia cursiva 2 ano",
+    "atividade caligrafia cursiva 4 ano",
+    "atividade caligrafia cursiva alfabeto",
+    "atividade caligrafia cursiva pdf",
+    "atividade caligrafia cursiva texto",
+    "atividade de caligrafia letra cursiva educação infantil",
+    "atividades com palavras em letra cursiva",
+    "caderno de caligrafia cursiva atividades",
+    "caligrafia cursiva",
+    "caligrafia cursiva alfabeto",
+    "caligrafia cursiva atividades",
+    "caligrafia cursiva bonita",
+    "caligrafia cursiva educação infantil",
+    "caligrafia cursiva elegante",
+    "caligrafia cursiva para adultos",
+    "caligrafia cursiva para imprimir",
+    "caligrafia cursiva para imprimir 2 ano fundamental",
+    "caligrafia cursiva para imprimir 3 ano fundamental",
+    "caligrafia cursiva para imprimir 5 ano",
+    "caligrafia cursiva para imprimir adulto",
+    "caligrafia cursiva para imprimir frases",
+    "caligrafia cursiva para imprimir pdf",
+    "caligrafia cursiva para imprimir pdf grátis",
+    "caligrafia cursiva para imprimir pontilhado",
+    "caligrafia cursiva para imprimir texto",
+    "caligrafia cursiva para treinar",
+    "caligrafia cursiva pdf",
+    "caligrafia cursiva pontilhada para imprimir",
+    "caligrafia cursiva texto",
+    "caligrafia letra cursiva atividade",
+    "palavras em letra cursiva",
+    "palavras em letra cursiva para cobrir",
+    "palavras em letra cursiva para copiar",
+    "palavras em letra cursiva para imprimir",
+    "palavras em letra cursiva para treinar",
+    "palavras em letra cursiva pontilhada",
+    "palavras em letra cursiva pontilhada para imprimir",
+    "palavras escritas em letra cursiva",
+    "palavras simples em letra cursiva",
+    "transformar palavras em letra cursiva"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "sequência de fatos",
+    "sequência de imagens para recortar",
+    "reconto de história"
+   ],
+   "requests": 21,
+   "productiveSeeds": 6,
+   "unique": 26,
+   "suggestions": [
+    "a sequencia de fatos que relaciona corretamente a leptospirose",
+    "atividade para reconto de história",
+    "atividade reconto de história",
+    "atividade sequencia de fatos",
+    "atividade sequencia de fatos educação infantil",
+    "atividades de reconto de histórias na educação infantil",
+    "atividades para trabalhar sequencia de fatos",
+    "bncc reconto de história",
+    "como trabalhar o reconto de história na educação infantil",
+    "objetivo do reconto de história na educação infantil",
+    "plano de aula reconto de história educação infantil",
+    "projeto reconto de histórias",
+    "projeto reconto de histórias na educação infantil",
+    "reconto de historia wordwall",
+    "reconto de história educação infantil",
+    "reconto de história infantil",
+    "reconto de história na educação infantil",
+    "reconto de histórias",
+    "reconto de histórias objetivo",
+    "sequencia de fatos educação infantil",
+    "sequencia de fatos wordwall",
+    "sequencia logica de fatos",
+    "sequencia temporal de fatos",
+    "sequência de fatos",
+    "sequência de fatos ilustrados",
+    "sequência de fatos relacionados entre si"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "escovar os dentes",
+    "higiene bucal",
+    "lavar as mãos"
+   ],
+   "requests": 21,
+   "productiveSeeds": 12,
+   "unique": 98,
+   "suggestions": [
+    "atividade escovar os dentes educação infantil",
+    "atividade higiene bucal 4 ano",
+    "atividade higiene bucal educação infantil pdf",
+    "atividade higiene bucal maternal 2",
+    "atividade higiene bucal para imprimir",
+    "atividade higiene lavar as mãos",
+    "atividade infantil escovar os dentes",
+    "atividade lavar as maos educação infantil",
+    "atividade lavar as mãos 2 ano",
+    "atividade lavar as mãos maternal",
+    "atividade lúdica lavar as mãos",
+    "atividade para escovar os dentes",
+    "atividade sobre escovar os dentes",
+    "atividade sobre lavar as mãos",
+    "atividade vamos escovar os dentes",
+    "atividades higiene bucal maternal",
+    "atividades lúdicas escovar os dentes",
+    "boca para escovar os dentes educação infantil",
+    "boca para escovar os dentes para imprimir",
+    "cartaz lavar as mãos educação infantil",
+    "como escovar os dentes corretamente educação infantil",
+    "desenho de higiene bucal para imprimir",
+    "ensinando a lavar as mãos educação infantil",
+    "escovar os dentes",
+    "escovar os dentes antes ou depois do café da manhã",
+    "escovar os dentes ao acordar ou depois do café",
+    "escovar os dentes atividade",
+    "escovar os dentes com bicarbonato",
+    "escovar os dentes com bicarbonato de sódio",
+    "escovar os dentes com bicarbonato de sódio clareia os dentes",
+    "escovar os dentes desenho para imprimir",
+    "escovar os dentes educação infantil",
+    "escovar os dentes em espanhol",
+    "escovar os dentes em inglês",
+    "escovar os dentes higiene bucal na educação infantil",
+    "escovar os dentes para imprimir",
+    "escovar os dentes quantas vezes ao dia",
+    "escovar os dentes quebra o jejum",
+    "escovar os dentes é uma atividade física",
+    "higiene bucal",
+    "higiene bucal atividade",
+    "higiene bucal atividade 1 ano",
+    "higiene bucal atividade educação infantil",
+    "higiene bucal atividade infantil",
+    "higiene bucal atividade ludica",
+    "higiene bucal atividades 2 ano",
+    "higiene bucal bebe",
+    "higiene bucal cachorro",
+    "higiene bucal do paciente hospitalizado",
+    "higiene bucal educação infantil",
+    "higiene bucal educação infantil atividades",
+    "higiene bucal educação infantil bncc",
+    "higiene bucal educação infantil objetivo",
+    "higiene bucal educação infantil para imprimir",
+    "higiene bucal educação infantil pdf",
+    "higiene bucal educação infantil pinterest",
+    "higiene bucal educação infantil plano de aula",
+    "higiene bucal educação infantil video",
+    "higiene bucal gatos",
+    "higiene bucal infantil",
+    "higiene bucal ou bocal",
+    "higiene bucal para imprimir",
+    "higiene bucal pet",
+    "higiene bucal produtos",
+    "história sobre escovar os dentes educação infantil",
+    "história sobre lavar as mãos educação infantil",
+    "imagens de higiene bucal para imprimir",
+    "importância de lavar as mãos educação infantil",
+    "kit higiene bucal para imprimir",
+    "lavar as maos para imprimir",
+    "lavar as mãos",
+    "lavar as mãos arnaldo antunes",
+    "lavar as mãos atividades",
+    "lavar as mãos com açúcar",
+    "lavar as mãos com açúcar e café",
+    "lavar as mãos com açúcar e canela",
+    "lavar as mãos com sal grosso",
+    "lavar as mãos educação infantil",
+    "lavar as mãos em inglês",
+    "lavar as mãos letra",
+    "lavar as mãos música infantil castelo rá-tim-bum",
+    "lavar as mãos música infantil letra",
+    "musica escovar os dentes educação infantil",
+    "música lavar as mãos educação infantil",
+    "nome higiene bucal para imprimir",
+    "o elefante que não sabia escovar os dentes para imprimir",
+    "objetivo lavar as mãos educação infantil",
+    "painel higiene bucal para imprimir",
+    "painel higiene bucal para imprimir gratis",
+    "plano de aula escovar os dentes educação infantil",
+    "plano de aula lavar as mãos educação infantil",
+    "por que escovar os dentes é uma atividade importante",
+    "porque escovar os dentes educação infantil",
+    "produtos de higiene bucal para imprimir",
+    "projeto escovar os dentes educação infantil",
+    "projeto lavar as mãos na educação infantil",
+    "rotina visual escovar os dentes para imprimir",
+    "viseira higiene bucal para imprimir"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "onde vivem os animais",
+    "casa dos animais",
+    "adaptação dos animais"
+   ],
+   "requests": 21,
+   "productiveSeeds": 8,
+   "unique": 42,
+   "suggestions": [
+    "a casa dos animais para imprimir",
+    "adaptação dos animais",
+    "adaptação dos animais ao ambiente",
+    "adaptação dos animais ao frio",
+    "adaptação dos animais aquáticos",
+    "adaptação dos animais da caatinga",
+    "adaptação dos animais da savana",
+    "adaptação dos animais em relação ao seu ambiente confere maior",
+    "adaptação dos animais no deserto",
+    "adaptação fisiológica dos animais ao estresse térmico",
+    "atividade de ciências onde vivem os animais",
+    "atividade onde vivem os animais 3 ano",
+    "atividade onde vivem os animais educação infantil",
+    "atividade sobre a casa dos animais",
+    "atividades casa dos animais educação infantil",
+    "atividades onde vivem os animais 2 ano",
+    "brinquedo de atividades casa dos animais 2 em 1 chicco",
+    "casa dos animais",
+    "casa dos animais atividade",
+    "casa dos animais clash of clans",
+    "casa dos animais coc",
+    "casa dos animais de lisboa",
+    "casa dos animais educação infantil",
+    "casa dos animais goiânia",
+    "casa dos animais interessantes",
+    "casa dos animais janaúba",
+    "casa dos animais paraíso do tocantins",
+    "casa dos animais pet shop",
+    "casa dos animais ribeirão preto",
+    "história a casa dos animais para imprimir",
+    "livro a casa dos animais para imprimir",
+    "mecanismo de adaptação dos animais",
+    "onde vivem os animais",
+    "onde vivem os animais 2 ano fundamental",
+    "onde vivem os animais atividades",
+    "onde vivem os animais domésticos",
+    "onde vivem os animais educação infantil",
+    "onde vivem os animais invertebrados",
+    "onde vivem os animais selvagens",
+    "onde vivem os animais silvestres",
+    "onde vivem os animais terrestres",
+    "onde vivem os animais vertebrados"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "o que flutua e o que afunda",
+    "flutua ou afunda 1 ano"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 4,
+   "suggestions": [
+    "o ovo que flutua e o ovo que afunda",
+    "o ovo que flutua e o ovo que afunda explicação",
+    "o que flutua e o que afunda",
+    "o que flutua e o que afunda na água"
+   ]
+  }
+ },
+ "suggestions": {
+  "alfabeto cursivo maiúsculo": {
+   "candidate": "cursive-writing",
+   "s": [
+    "alfabeto cursivo maiúsculo",
+    "alfabeto cursivo maiúsculo e minúsculo",
+    "alfabeto cursivo maiúsculo e minúsculo para imprimir pdf",
+    "alfabeto cursivo maiúsculo e minúsculo para imprimir",
+    "alfabeto cursivo maiúsculo para imprimir",
+    "alfabeto cursivo maiúsculo e minúsculo pontilhado para imprimir",
+    "alfabeto cursivo maiúsculo e minúsculo para copiar",
+    "alfabeto cursivo maiúsculo e minúsculo pontilhado",
+    "alfabeto cursivo maiúsculo e minúsculo para imprimir pdf colorido",
+    "alfabeto cursivo maiúsculo bonito"
+   ]
+  },
+  "alfabeto cursivo maiúsculo atividade": {
+   "candidate": "cursive-writing",
+   "s": [
+    "alfabeto cursivo maiúsculo atividade",
+    "alfabeto cursivo maiúsculo e minúsculo atividade",
+    "atividade alfabeto cursivo maiúsculo e minúsculo pontilhado"
+   ]
+  },
+  "alfabeto cursivo maiúsculo para imprimir": {
+   "candidate": "cursive-writing",
+   "s": [
+    "alfabeto cursivo maiúsculo para imprimir",
+    "alfabeto cursivo maiúsculo para imprimir pdf",
+    "alfabeto cursivo minúsculo pontilhado para imprimir",
+    "alfabeto cursivo maiúsculo e minúsculo para imprimir pdf",
+    "alfabeto cursivo maiúsculo e minúsculo para imprimir",
+    "alfabeto cursivo maiusculo e minúsculo para imprimir pdf pontilhado",
+    "alfabeto cursivo maiúsculo e minúsculo para imprimir pdf grátis",
+    "alfabeto cursivo maiúsculo e minusculo para imprimir pontilhado",
+    "alfabeto cursivo maiúsculo e minúsculo para imprimir colorido",
+    "alfabeto cursivo maiúsculo e minusculo para imprimir pdf colorido"
+   ]
+  },
+  "palavras em letra cursiva": {
+   "candidate": "cursive-writing",
+   "s": [
+    "palavras em letra cursiva",
+    "palavras em letra cursiva pontilhada para imprimir",
+    "palavras em letra cursiva para treinar",
+    "palavras em letra cursiva para copiar",
+    "palavras em letra cursiva para imprimir",
+    "palavras em letra cursiva pontilhada",
+    "palavras em letra cursiva para cobrir",
+    "palavras escritas em letra cursiva",
+    "palavras simples em letra cursiva",
+    "transformar palavras em letra cursiva"
+   ]
+  },
+  "palavras em letra cursiva atividade": {
+   "candidate": "cursive-writing",
+   "s": [
+    "atividades com palavras em letra cursiva"
+   ]
+  },
+  "palavras em letra cursiva para imprimir": {
+   "candidate": "cursive-writing",
+   "s": [
+    "palavras em letra cursiva para imprimir",
+    "palavras em letra cursiva pontilhada para imprimir"
+   ]
+  },
+  "caligrafia cursiva": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafia cursiva",
+    "caligrafia cursiva para imprimir",
+    "caligrafia cursiva elegante",
+    "caligrafia cursiva pdf",
+    "caligrafia cursiva para treinar",
+    "caligrafia cursiva pontilhada para imprimir",
+    "caligrafia cursiva para adultos",
+    "caligrafia cursiva alfabeto",
+    "caligrafia cursiva bonita",
+    "caligrafia cursiva texto"
+   ]
+  },
+  "caligrafia cursiva atividade": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafia cursiva atividades",
+    "caligrafia letra cursiva atividade",
+    "caderno de caligrafia cursiva atividades",
+    "atividade caligrafia cursiva 2 ano",
+    "atividade caligrafia cursiva 1 ano",
+    "atividade caligrafia cursiva 4 ano",
+    "atividade caligrafia cursiva pdf",
+    "atividade caligrafia cursiva alfabeto",
+    "atividade caligrafia cursiva texto"
+   ]
+  },
+  "caligrafia cursiva para imprimir": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafia cursiva para imprimir",
+    "caligrafia cursiva para imprimir pdf grátis",
+    "caligrafia cursiva para imprimir pdf",
+    "caligrafia cursiva para imprimir texto",
+    "caligrafia cursiva para imprimir adulto",
+    "caligrafia cursiva para imprimir 3 ano fundamental",
+    "caligrafia cursiva para imprimir frases",
+    "caligrafia cursiva para imprimir 5 ano",
+    "caligrafia cursiva para imprimir pontilhado",
+    "caligrafia cursiva para imprimir 2 ano fundamental"
+   ]
+  },
+  "caligrafia cursiva educação infantil": {
+   "candidate": "cursive-writing",
+   "s": [
+    "caligrafia cursiva educação infantil",
+    "atividade de caligrafia letra cursiva educação infantil"
+   ]
+  },
+  "sequência de fatos": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequência de fatos",
+    "sequencia de fatos educação infantil",
+    "sequência de fatos ilustrados",
+    "sequencia de fatos wordwall",
+    "sequência de fatos relacionados entre si",
+    "atividade sequencia de fatos",
+    "atividade sequencia de fatos educação infantil",
+    "sequencia logica de fatos",
+    "a sequencia de fatos que relaciona corretamente a leptospirose",
+    "sequencia temporal de fatos"
+   ]
+  },
+  "sequência de fatos atividade": {
+   "candidate": "story-sequencing",
+   "s": [
+    "atividade sequencia de fatos",
+    "atividade sequencia de fatos educação infantil",
+    "atividades para trabalhar sequencia de fatos"
+   ]
+  },
+  "sequência de fatos educação infantil": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequencia de fatos educação infantil",
+    "atividade sequencia de fatos educação infantil"
+   ]
+  },
+  "reconto de história": {
+   "candidate": "story-sequencing",
+   "s": [
+    "reconto de histórias",
+    "reconto de história infantil",
+    "reconto de história na educação infantil",
+    "reconto de histórias objetivo",
+    "reconto de historia wordwall",
+    "atividade reconto de história",
+    "projeto reconto de histórias na educação infantil",
+    "bncc reconto de história",
+    "projeto reconto de histórias",
+    "atividades de reconto de histórias na educação infantil"
+   ]
+  },
+  "reconto de história atividade": {
+   "candidate": "story-sequencing",
+   "s": [
+    "atividade reconto de história",
+    "atividade para reconto de história"
+   ]
+  },
+  "reconto de história educação infantil": {
+   "candidate": "story-sequencing",
+   "s": [
+    "reconto de história educação infantil",
+    "plano de aula reconto de história educação infantil",
+    "objetivo do reconto de história na educação infantil",
+    "como trabalhar o reconto de história na educação infantil"
+   ]
+  },
+  "escovar os dentes": {
+   "candidate": "healthy-habits",
+   "s": [
+    "escovar os dentes",
+    "escovar os dentes com bicarbonato",
+    "escovar os dentes em inglês",
+    "escovar os dentes antes ou depois do café da manhã",
+    "escovar os dentes com bicarbonato de sódio clareia os dentes",
+    "escovar os dentes em espanhol",
+    "escovar os dentes com bicarbonato de sódio",
+    "escovar os dentes quebra o jejum",
+    "escovar os dentes ao acordar ou depois do café",
+    "escovar os dentes quantas vezes ao dia"
+   ]
+  },
+  "escovar os dentes atividade": {
+   "candidate": "healthy-habits",
+   "s": [
+    "escovar os dentes atividade",
+    "escovar os dentes é uma atividade física",
+    "atividade escovar os dentes educação infantil",
+    "atividades lúdicas escovar os dentes",
+    "atividade sobre escovar os dentes",
+    "atividade para escovar os dentes",
+    "atividade infantil escovar os dentes",
+    "atividade vamos escovar os dentes",
+    "por que escovar os dentes é uma atividade importante"
+   ]
+  },
+  "escovar os dentes para imprimir": {
+   "candidate": "healthy-habits",
+   "s": [
+    "escovar os dentes para imprimir",
+    "escovar os dentes desenho para imprimir",
+    "rotina visual escovar os dentes para imprimir",
+    "boca para escovar os dentes para imprimir",
+    "o elefante que não sabia escovar os dentes para imprimir"
+   ]
+  },
+  "escovar os dentes educação infantil": {
+   "candidate": "healthy-habits",
+   "s": [
+    "escovar os dentes educação infantil",
+    "atividade escovar os dentes educação infantil",
+    "musica escovar os dentes educação infantil",
+    "projeto escovar os dentes educação infantil",
+    "porque escovar os dentes educação infantil",
+    "história sobre escovar os dentes educação infantil",
+    "boca para escovar os dentes educação infantil",
+    "plano de aula escovar os dentes educação infantil",
+    "escovar os dentes higiene bucal na educação infantil",
+    "como escovar os dentes corretamente educação infantil"
+   ]
+  },
+  "higiene bucal": {
+   "candidate": "healthy-habits",
+   "s": [
+    "higiene bucal",
+    "higiene bucal educação infantil",
+    "higiene bucal ou bocal",
+    "higiene bucal cachorro",
+    "higiene bucal bebe",
+    "higiene bucal infantil",
+    "higiene bucal do paciente hospitalizado",
+    "higiene bucal gatos",
+    "higiene bucal pet",
+    "higiene bucal produtos"
+   ]
+  },
+  "higiene bucal atividade": {
+   "candidate": "healthy-habits",
+   "s": [
+    "higiene bucal atividade",
+    "higiene bucal atividade educação infantil",
+    "higiene bucal atividade 1 ano",
+    "higiene bucal atividade infantil",
+    "higiene bucal atividade ludica",
+    "higiene bucal atividades 2 ano",
+    "atividade higiene bucal educação infantil pdf",
+    "atividade higiene bucal 4 ano",
+    "atividades higiene bucal maternal",
+    "atividade higiene bucal maternal 2"
+   ]
+  },
+  "higiene bucal para imprimir": {
+   "candidate": "healthy-habits",
+   "s": [
+    "higiene bucal para imprimir",
+    "painel higiene bucal para imprimir",
+    "painel higiene bucal para imprimir gratis",
+    "nome higiene bucal para imprimir",
+    "atividade higiene bucal para imprimir",
+    "kit higiene bucal para imprimir",
+    "viseira higiene bucal para imprimir",
+    "imagens de higiene bucal para imprimir",
+    "produtos de higiene bucal para imprimir",
+    "desenho de higiene bucal para imprimir"
+   ]
+  },
+  "higiene bucal educação infantil": {
+   "candidate": "healthy-habits",
+   "s": [
+    "higiene bucal educação infantil",
+    "higiene bucal educação infantil pdf",
+    "higiene bucal educação infantil atividades",
+    "higiene bucal educação infantil objetivo",
+    "higiene bucal educação infantil bncc",
+    "higiene bucal educação infantil pinterest",
+    "higiene bucal educação infantil para imprimir",
+    "higiene bucal educação infantil video",
+    "higiene bucal educação infantil plano de aula",
+    "atividade higiene bucal educação infantil pdf"
+   ]
+  },
+  "lavar as mãos": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavar as mãos",
+    "lavar as mãos música infantil letra",
+    "lavar as mãos com açúcar e canela",
+    "lavar as mãos em inglês",
+    "lavar as mãos arnaldo antunes",
+    "lavar as mãos com açúcar e café",
+    "lavar as mãos com sal grosso",
+    "lavar as mãos música infantil castelo rá-tim-bum",
+    "lavar as mãos com açúcar",
+    "lavar as mãos letra"
+   ]
+  },
+  "lavar as mãos atividade": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavar as mãos atividades",
+    "atividade lavar as maos educação infantil",
+    "atividade lavar as mãos maternal",
+    "atividade lavar as mãos 2 ano",
+    "atividade sobre lavar as mãos",
+    "atividade lúdica lavar as mãos",
+    "atividade higiene lavar as mãos"
+   ]
+  },
+  "lavar as mãos para imprimir": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavar as maos para imprimir"
+   ]
+  },
+  "lavar as mãos educação infantil": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavar as mãos educação infantil",
+    "cartaz lavar as mãos educação infantil",
+    "atividade lavar as maos educação infantil",
+    "música lavar as mãos educação infantil",
+    "objetivo lavar as mãos educação infantil",
+    "importância de lavar as mãos educação infantil",
+    "história sobre lavar as mãos educação infantil",
+    "ensinando a lavar as mãos educação infantil",
+    "plano de aula lavar as mãos educação infantil",
+    "projeto lavar as mãos na educação infantil"
+   ]
+  },
+  "onde vivem os animais": {
+   "candidate": "habitats",
+   "s": [
+    "onde vivem os animais silvestres",
+    "onde vivem os animais",
+    "onde vivem os animais terrestres",
+    "onde vivem os animais invertebrados",
+    "onde vivem os animais selvagens",
+    "onde vivem os animais vertebrados",
+    "onde vivem os animais domésticos",
+    "onde vivem os animais atividades",
+    "onde vivem os animais educação infantil",
+    "onde vivem os animais 2 ano fundamental"
+   ]
+  },
+  "onde vivem os animais atividade": {
+   "candidate": "habitats",
+   "s": [
+    "onde vivem os animais atividades",
+    "atividades onde vivem os animais 2 ano",
+    "atividade onde vivem os animais 3 ano",
+    "atividade onde vivem os animais educação infantil",
+    "atividade de ciências onde vivem os animais"
+   ]
+  },
+  "onde vivem os animais educação infantil": {
+   "candidate": "habitats",
+   "s": [
+    "onde vivem os animais educação infantil",
+    "atividade onde vivem os animais educação infantil"
+   ]
+  },
+  "casa dos animais": {
+   "candidate": "habitats",
+   "s": [
+    "casa dos animais",
+    "casa dos animais goiânia",
+    "casa dos animais clash of clans",
+    "casa dos animais pet shop",
+    "casa dos animais coc",
+    "casa dos animais paraíso do tocantins",
+    "casa dos animais interessantes",
+    "casa dos animais de lisboa",
+    "casa dos animais ribeirão preto",
+    "casa dos animais janaúba"
+   ]
+  },
+  "casa dos animais atividade": {
+   "candidate": "habitats",
+   "s": [
+    "casa dos animais atividade",
+    "atividades casa dos animais educação infantil",
+    "atividade sobre a casa dos animais",
+    "brinquedo de atividades casa dos animais 2 em 1 chicco"
+   ]
+  },
+  "casa dos animais para imprimir": {
+   "candidate": "habitats",
+   "s": [
+    "a casa dos animais para imprimir",
+    "história a casa dos animais para imprimir",
+    "livro a casa dos animais para imprimir"
+   ]
+  },
+  "casa dos animais educação infantil": {
+   "candidate": "habitats",
+   "s": [
+    "casa dos animais educação infantil",
+    "atividades casa dos animais educação infantil"
+   ]
+  },
+  "adaptação dos animais": {
+   "candidate": "habitats",
+   "s": [
+    "adaptação dos animais",
+    "adaptação dos animais da savana",
+    "adaptação dos animais ao ambiente",
+    "adaptação dos animais da caatinga",
+    "adaptação dos animais no deserto",
+    "adaptação dos animais aquáticos",
+    "adaptação dos animais em relação ao seu ambiente confere maior",
+    "adaptação dos animais ao frio",
+    "adaptação fisiológica dos animais ao estresse térmico",
+    "mecanismo de adaptação dos animais"
+   ]
+  },
+  "o que flutua e o que afunda": {
+   "candidate": "sink-or-float",
+   "s": [
+    "o que flutua e o que afunda",
+    "o que flutua e o que afunda na água",
+    "o ovo que flutua e o ovo que afunda",
+    "o ovo que flutua e o ovo que afunda explicação"
+   ]
+  }
+ }
+}

@@ -418,5 +418,25 @@
   "word-parts": {
     "full": "Sorting words by their root word, finding the root that three words share and adding a prefix or a suffix shows children how words are built and what they mean.",
     "short": "Builds root words, prefixes and suffixes."
+  },
+  "story-sequencing": {
+    "full": "Numbering the pictures of a short story, choosing what happens next and retelling it with first, next, then and last builds the order and words children need to tell a story.",
+    "short": "Builds ordering a picture story and retelling it."
+  },
+  "healthy-habits": {
+    "full": "Matching each habit to what we use, putting hand washing and tooth brushing in order and choosing the healthy way to cough gives children the daily habits that keep them well.",
+    "short": "Builds hand washing, tooth brushing and hygiene habits."
+  },
+  "habitats": {
+    "full": "Matching animals to the ocean, forest, pond or polar ice, pairing them with their homes and seeing how their bodies suit a place builds a first picture of where animals live.",
+    "short": "Builds animal habitats, homes and adaptations."
+  },
+  "sink-or-float": {
+    "full": "Predicting whether each object will sink or float, testing it in water and recording what happened shows children that size alone does not decide, and starts real science thinking.",
+    "short": "Builds predicting, testing and recording sink or float."
+  },
+  "cursive-writing": {
+    "full": "Tracing and writing joined letters in the school handwriting, practising the connections between letters and copying whole words builds a fluent, readable cursive hand.",
+    "short": "Builds joined cursive letters, words and sentences."
   }
 }

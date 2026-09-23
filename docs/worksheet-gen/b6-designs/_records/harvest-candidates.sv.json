@@ -1,0 +1,321 @@
+{
+ "locale": "sv",
+ "market": {
+  "hl": "sv",
+  "gl": "se"
+ },
+ "generatedAt": "2026-09-23T15:56:37.730Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/candidate-seeds.json",
+ "requestCount": 98,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "skrivstil",
+    "skrivstil övningar",
+    "sammanbunden skrivstil"
+   ],
+   "requests": 21,
+   "productiveSeeds": 5,
+   "unique": 17,
+   "suggestions": [
+    "skrivstil",
+    "skrivstil alfabetet",
+    "skrivstil arbetsblad",
+    "skrivstil bokstäver",
+    "skrivstil engelska",
+    "skrivstil f",
+    "skrivstil generator",
+    "skrivstil i",
+    "skrivstil mall att skriva ut",
+    "skrivstil s",
+    "skrivstil typsnitt",
+    "skrivstil övningar",
+    "skrivstil övningar gratis",
+    "skrivstil övningar pdf",
+    "skrivstil övningar pdf gratis",
+    "skrivstilar",
+    "träna skrivstil arbetsblad"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "bildserie",
+    "berätta i rätt ordning",
+    "ordningsföljd bilder"
+   ],
+   "requests": 21,
+   "productiveSeeds": 1,
+   "unique": 10,
+   "suggestions": [
+    "bildserie",
+    "bildserie att skriva till",
+    "bildserie engelska",
+    "bildserie instagram",
+    "bildserie iphone",
+    "bildserie samsung",
+    "bildserie självutlösare iphone",
+    "bildserie åtelkamera",
+    "bildserier",
+    "bildserier för barn"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "hygien",
+    "tvätta händerna",
+    "hälsa och livsstil"
+   ],
+   "requests": 21,
+   "productiveSeeds": 4,
+   "unique": 31,
+   "suggestions": [
+    "arbetsblad hygien",
+    "björks hälsa och livsstil",
+    "hygien",
+    "hygienartiklar",
+    "hygienkörkort",
+    "hygiensats peltor",
+    "hygiensats peltor ws alert xp",
+    "hygienshoppen",
+    "hygienstol",
+    "hygienteknik",
+    "hygienunderlägg",
+    "hygienunderlägg engångs",
+    "hälsa och livsstil",
+    "hälsa och livsstil bok",
+    "hälsa och livsstil falköping",
+    "hälsa och livsstil halmstad",
+    "hälsa och livsstil halmstad högskola",
+    "hälsa och livsstil utbildning",
+    "jobu hälsa och livsstil",
+    "master hälsa och livsstil halmstad",
+    "masterprogram hälsa och livsstil",
+    "tvätta händerna",
+    "tvätta händerna barn",
+    "tvätta händerna bild",
+    "tvätta händerna bildstöd",
+    "tvätta händerna med salt",
+    "tvätta händerna poster",
+    "tvätta händerna skylt",
+    "tvätta händerna sång",
+    "tvätta händerna utan vatten",
+    "tvätta händerna utedass"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "djurens livsmiljöer",
+    "var bor djuren",
+    "djur och natur"
+   ],
+   "requests": 21,
+   "productiveSeeds": 2,
+   "unique": 13,
+   "suggestions": [
+    "djur och natur",
+    "djur och natur erikstad",
+    "djur och natur falköping",
+    "djur och natur kampanjblad",
+    "djur och natur lidköping",
+    "djur och natur skara",
+    "djur och natur skövde",
+    "djur och natur sortiment",
+    "djur och natur vara",
+    "djur och natur vårgårda",
+    "var bor djuren",
+    "var bor djuren bok",
+    "var bor djuren på vintern"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "flyta eller sjunka",
+    "flyter eller sjunker"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 14,
+   "suggestions": [
+    "flyta eller sjunka",
+    "flyta eller sjunka film",
+    "flyta eller sjunka förskola",
+    "flyta eller sjunka ägg",
+    "flyter eller sjunker",
+    "flyter eller sjunker bajs",
+    "flyter eller sjunker dåliga ägg",
+    "flyter eller sjunker experiment",
+    "flyter eller sjunker färska ägg",
+    "flyter eller sjunker gamla ägg",
+    "flyter eller sjunker ägg",
+    "nta flyta eller sjunka",
+    "varför flyter eller sjunker bajs",
+    "varför flyter eller sjunker saker"
+   ]
+  }
+ },
+ "suggestions": {
+  "skrivstil": {
+   "candidate": "cursive-writing",
+   "s": [
+    "skrivstil",
+    "skrivstil bokstäver",
+    "skrivstil generator",
+    "skrivstil engelska",
+    "skrivstil typsnitt",
+    "skrivstil alfabetet",
+    "skrivstilar",
+    "skrivstil s",
+    "skrivstil i",
+    "skrivstil f"
+   ]
+  },
+  "skrivstil arbetsblad": {
+   "candidate": "cursive-writing",
+   "s": [
+    "skrivstil arbetsblad",
+    "träna skrivstil arbetsblad"
+   ]
+  },
+  "skrivstil skriva ut": {
+   "candidate": "cursive-writing",
+   "s": [
+    "skrivstil mall att skriva ut"
+   ]
+  },
+  "skrivstil övningar": {
+   "candidate": "cursive-writing",
+   "s": [
+    "skrivstil övningar pdf",
+    "skrivstil övningar gratis",
+    "skrivstil övningar pdf gratis",
+    "skrivstil övningar"
+   ]
+  },
+  "skrivstil övningar arbetsblad": {
+   "candidate": "cursive-writing",
+   "s": [
+    "träna skrivstil arbetsblad"
+   ]
+  },
+  "bildserie": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildserie iphone",
+    "bildserie",
+    "bildserier",
+    "bildserie att skriva till",
+    "bildserie självutlösare iphone",
+    "bildserie samsung",
+    "bildserie engelska",
+    "bildserie instagram",
+    "bildserier för barn",
+    "bildserie åtelkamera"
+   ]
+  },
+  "hygien": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hygienshoppen",
+    "hygiensats peltor",
+    "hygien",
+    "hygienteknik",
+    "hygienunderlägg",
+    "hygiensats peltor ws alert xp",
+    "hygienstol",
+    "hygienkörkort",
+    "hygienartiklar",
+    "hygienunderlägg engångs"
+   ]
+  },
+  "hygien arbetsblad": {
+   "candidate": "healthy-habits",
+   "s": [
+    "arbetsblad hygien"
+   ]
+  },
+  "tvätta händerna": {
+   "candidate": "healthy-habits",
+   "s": [
+    "tvätta händerna",
+    "tvätta händerna sång",
+    "tvätta händerna bildstöd",
+    "tvätta händerna poster",
+    "tvätta händerna utedass",
+    "tvätta händerna skylt",
+    "tvätta händerna bild",
+    "tvätta händerna med salt",
+    "tvätta händerna utan vatten",
+    "tvätta händerna barn"
+   ]
+  },
+  "hälsa och livsstil": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hälsa och livsstil",
+    "hälsa och livsstil halmstad",
+    "hälsa och livsstil bok",
+    "hälsa och livsstil falköping",
+    "hälsa och livsstil utbildning",
+    "hälsa och livsstil halmstad högskola",
+    "master hälsa och livsstil halmstad",
+    "masterprogram hälsa och livsstil",
+    "jobu hälsa och livsstil",
+    "björks hälsa och livsstil"
+   ]
+  },
+  "var bor djuren": {
+   "candidate": "habitats",
+   "s": [
+    "var bor djuren",
+    "var bor djuren på vintern",
+    "var bor djuren bok"
+   ]
+  },
+  "djur och natur": {
+   "candidate": "habitats",
+   "s": [
+    "djur och natur",
+    "djur och natur skara",
+    "djur och natur skövde",
+    "djur och natur falköping",
+    "djur och natur lidköping",
+    "djur och natur vara",
+    "djur och natur vårgårda",
+    "djur och natur erikstad",
+    "djur och natur sortiment",
+    "djur och natur kampanjblad"
+   ]
+  },
+  "flyta eller sjunka": {
+   "candidate": "sink-or-float",
+   "s": [
+    "flyta eller sjunka",
+    "flyta eller sjunka ägg",
+    "flyta eller sjunka film",
+    "flyta eller sjunka förskola",
+    "flyter eller sjunker gamla ägg",
+    "flyter eller sjunker färska ägg",
+    "flyter eller sjunker dåliga ägg",
+    "flyter eller sjunker bajs",
+    "flyter eller sjunker experiment",
+    "nta flyta eller sjunka"
+   ]
+  },
+  "flyter eller sjunker": {
+   "candidate": "sink-or-float",
+   "s": [
+    "flyter eller sjunker färska ägg",
+    "flyter eller sjunker dåliga ägg",
+    "flyter eller sjunker gamla ägg",
+    "flyter eller sjunker",
+    "flyter eller sjunker ägg",
+    "flyter eller sjunker bajs",
+    "flyter eller sjunker experiment",
+    "varför flyter eller sjunker saker",
+    "varför flyter eller sjunker bajs"
+   ]
+  }
+ }
+}

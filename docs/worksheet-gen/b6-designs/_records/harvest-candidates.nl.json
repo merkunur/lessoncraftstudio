@@ -1,0 +1,610 @@
+{
+ "locale": "nl",
+ "market": {
+  "hl": "nl",
+  "gl": "nl"
+ },
+ "generatedAt": "2026-09-23T15:56:14.614Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/candidate-seeds.json",
+ "requestCount": 105,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "schrijven aan elkaar",
+    "lopend schrift",
+    "schrijfletters"
+   ],
+   "requests": 21,
+   "productiveSeeds": 12,
+   "unique": 50,
+   "suggestions": [
+    "aan elkaar leren schrijven groep 3",
+    "aan elkaar schrijven alfabet",
+    "aan elkaar schrijven groep 3",
+    "aan elkaar schrijven groep 4",
+    "aan elkaar schrijven oefenen",
+    "aan elkaar schrijven voorbeeld",
+    "aan elkaar schrijven werkblad",
+    "aan elkaar schrijven werkbladen",
+    "alfabet schrijfletters printen",
+    "hoeveel mensen schrijven aan elkaar",
+    "hoofdletters lopend schrift",
+    "leren schrijven aan elkaar",
+    "lopend onverbonden schrift",
+    "lopend schrift",
+    "lopend schrift engels",
+    "lopend schrift lettertype",
+    "lopend schrift of blokschrift",
+    "lopend verbonden schrift",
+    "p schrijven aan elkaar",
+    "s schrijven aan elkaar",
+    "schrijfletters",
+    "schrijfletters alfabet",
+    "schrijfletters basisschool",
+    "schrijfletters groep 3",
+    "schrijfletters groep 3 hoofdletters",
+    "schrijfletters groep 3 oefenen",
+    "schrijfletters groep 3 pennenstreken",
+    "schrijfletters groep 3 poster",
+    "schrijfletters groep 3 printen",
+    "schrijfletters groep 3 werkbladen",
+    "schrijfletters groep 4",
+    "schrijfletters groep 5",
+    "schrijfletters hoofdletters",
+    "schrijfletters kleuters",
+    "schrijfletters leren groep 3",
+    "schrijfletters leren schrijven",
+    "schrijfletters oefenen",
+    "schrijfletters oefenen groep 4",
+    "schrijfletters oefenen werkbladen",
+    "schrijfletters oefenen werkbladen groep 3",
+    "schrijfletters pennenstreken",
+    "schrijfletters pennenstreken groep 3 werkbladen",
+    "schrijfletters printen",
+    "schrijfletters werkblad",
+    "schrijfletters werkblad maken",
+    "schrijven aan elkaar",
+    "schrijven basisschool aan elkaar",
+    "t schrijven aan elkaar",
+    "wat is lopend schrift",
+    "werkblad schrijfletters groep 3"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "verhaalplaten volgorde",
+    "volgorde plaatjes",
+    "tijdsvolgorde"
+   ],
+   "requests": 21,
+   "productiveSeeds": 2,
+   "unique": 12,
+   "suggestions": [
+    "tijdsvolgorde",
+    "tijdsvolgorde betekenis",
+    "tijdsvolgorde boek",
+    "tijdsvolgorde diagram",
+    "tijdsvolgorde engels",
+    "tijdsvolgorde marvel",
+    "tijdsvolgorde marvel films",
+    "tijdsvolgorde signaalwoorden",
+    "tijdsvolgorde synoniem",
+    "tijdsvolgorde tekstverband",
+    "volgorde plaatjes",
+    "volgorde plaatjes kaarten"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "hygiëne",
+    "handen wassen",
+    "tanden poetsen",
+    "gezonde gewoontes"
+   ],
+   "requests": 28,
+   "productiveSeeds": 10,
+   "unique": 51,
+   "suggestions": [
+    "filmpje tanden poetsen kleuters",
+    "gezonde gewoontes",
+    "gezonde gewoontes aanleren",
+    "gezonde gewoontes afvallen",
+    "gezonde gewoontes arie boomsma",
+    "gezonde gewoontes boek",
+    "gezonde gewoontes met yarno",
+    "gezonde gewoontes plan",
+    "gezonde gewoontes plan hilmar",
+    "gezonde gewoontes plan libelle",
+    "gezonde gewoontes sandra bekkari",
+    "handen wassen",
+    "handen wassen in onschuld",
+    "handen wassen in pisbak",
+    "handen wassen kleuters",
+    "handen wassen met koud of warm water",
+    "handen wassen na toiletbezoek",
+    "handen wassen pictogram",
+    "handen wassen stappenplan",
+    "handen wassen zonder water",
+    "handen wassen zonder water kruidvat",
+    "handen wassen zonder zeep",
+    "hygiëne",
+    "hygiëne betekenis",
+    "hygiëne doekjes",
+    "hygiëne doekjes intiem",
+    "hygiëne politie",
+    "hygiënecode",
+    "hygiënecode horeca",
+    "hygiënecode horeca boek kopen",
+    "hygiënecode horeca gratis downloaden",
+    "hygiënesluis",
+    "poster handen wassen kleuters",
+    "stappenplan handen wassen kleuters",
+    "stappenplan tandenpoetsen kleuters",
+    "tanden poetsen",
+    "tanden poetsen baby",
+    "tanden poetsen hond",
+    "tanden poetsen kat",
+    "tanden poetsen kat onzin",
+    "tanden poetsen kleuters",
+    "tanden poetsen liedje juf roos",
+    "tanden poetsen met baking soda",
+    "tanden poetsen met kokosolie",
+    "tanden poetsen na kies trekken",
+    "tanden poetsen voor of na ontbijt",
+    "tanden poetsen werkblad",
+    "thema hygiene kleuters",
+    "thema tanden poetsen kleuters",
+    "werkblad handen wassen",
+    "werkblad hygiene"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "leefomgeving dieren",
+    "waar wonen dieren",
+    "dierenverblijven"
+   ],
+   "requests": 21,
+   "productiveSeeds": 4,
+   "unique": 23,
+   "suggestions": [
+    "dierenverblijven",
+    "dierenverblijven 7 letters",
+    "dierenverblijven kruiningen",
+    "dierenverblijven lunteren",
+    "dierenverblijven methorst",
+    "dierenverblijven nl",
+    "dierenverblijven op maat",
+    "dierenverblijven van der land",
+    "dierenverblijven van der land groot kippenhok kopen in bouwpakketten alle soorten dierenverblijven",
+    "dierenverblijven veenendaal",
+    "leefomgeving dieren",
+    "leefomgeving dieren en planten",
+    "leefomgeving dieren en planten 7 letters",
+    "leefomgeving van dieren en planten",
+    "leefomgeving van dieren en planten 7 letters",
+    "leefomgeving voor dieren en planten",
+    "waar dieren wonen boek",
+    "waar wonen de dieren werkblad",
+    "waar wonen de meeste dieren",
+    "waar wonen dieren",
+    "waar wonen of slapen deze dieren vooral",
+    "waar wonen verschillende dieren",
+    "waar wonen wilde dieren"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "drijven en zinken",
+    "zinken of drijven"
+   ],
+   "requests": 14,
+   "productiveSeeds": 9,
+   "unique": 32,
+   "suggestions": [
+    "activiteit drijven en zinken kleuters",
+    "drijven en zinken",
+    "drijven en zinken groep 1 2",
+    "drijven en zinken groep 3",
+    "drijven en zinken groep 4",
+    "drijven en zinken huisje boompje beestje",
+    "drijven en zinken kleuters",
+    "drijven en zinken kleuters filmpje",
+    "drijven en zinken les kleuters",
+    "drijven en zinken proefjes",
+    "drijven en zinken uitleg",
+    "drijven en zinken uitleggen aan kleuters",
+    "drijven en zinken werkblad",
+    "drijven en zinken werkblad kleuters",
+    "drijven of zinken werkblad",
+    "ei goed zinken of drijven",
+    "eieren zinken of drijven",
+    "eitjes zinken of drijven",
+    "les drijven en zinken groep 3",
+    "les drijven en zinken groep 4",
+    "ontlasting zinken of drijven",
+    "poep zinken of drijven",
+    "thema drijven en zinken kleuters",
+    "verse eieren zinken of drijven",
+    "werkblad drijven en zinken groep 1 2",
+    "werkblad drijven en zinken groep 3",
+    "werkblad drijven en zinken kleuters",
+    "zinken drijven zweven",
+    "zinken en drijven groep 3",
+    "zinken of drijven",
+    "zinken of drijven ei",
+    "zinken of drijven kleuters"
+   ]
+  }
+ },
+ "suggestions": {
+  "schrijven aan elkaar": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schrijven aan elkaar",
+    "leren schrijven aan elkaar",
+    "s schrijven aan elkaar",
+    "t schrijven aan elkaar",
+    "p schrijven aan elkaar",
+    "schrijven basisschool aan elkaar",
+    "hoeveel mensen schrijven aan elkaar",
+    "aan elkaar schrijven alfabet",
+    "aan elkaar schrijven voorbeeld",
+    "aan elkaar schrijven oefenen"
+   ]
+  },
+  "schrijven aan elkaar werkblad": {
+   "candidate": "cursive-writing",
+   "s": [
+    "aan elkaar schrijven werkblad",
+    "aan elkaar schrijven werkbladen"
+   ]
+  },
+  "schrijven aan elkaar groep 3": {
+   "candidate": "cursive-writing",
+   "s": [
+    "aan elkaar schrijven groep 3",
+    "aan elkaar leren schrijven groep 3"
+   ]
+  },
+  "schrijven aan elkaar groep 4": {
+   "candidate": "cursive-writing",
+   "s": [
+    "aan elkaar schrijven groep 4"
+   ]
+  },
+  "lopend schrift": {
+   "candidate": "cursive-writing",
+   "s": [
+    "lopend schrift",
+    "lopend schrift lettertype",
+    "lopend schrift engels",
+    "lopend schrift of blokschrift",
+    "lopend verbonden schrift",
+    "lopend onverbonden schrift",
+    "hoofdletters lopend schrift",
+    "wat is lopend schrift"
+   ]
+  },
+  "schrijfletters": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schrijfletters",
+    "schrijfletters groep 3",
+    "schrijfletters oefenen",
+    "schrijfletters alfabet",
+    "schrijfletters hoofdletters",
+    "schrijfletters groep 3 oefenen",
+    "schrijfletters groep 3 werkbladen",
+    "schrijfletters pennenstreken",
+    "schrijfletters leren schrijven",
+    "schrijfletters basisschool"
+   ]
+  },
+  "schrijfletters werkblad": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schrijfletters werkblad",
+    "schrijfletters werkblad maken",
+    "werkblad schrijfletters groep 3",
+    "schrijfletters oefenen werkbladen",
+    "schrijfletters oefenen werkbladen groep 3"
+   ]
+  },
+  "schrijfletters printen": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schrijfletters printen",
+    "alfabet schrijfletters printen",
+    "schrijfletters groep 3 printen"
+   ]
+  },
+  "schrijfletters kleuters": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schrijfletters kleuters"
+   ]
+  },
+  "schrijfletters groep 3": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schrijfletters groep 3",
+    "schrijfletters groep 3 werkbladen",
+    "schrijfletters groep 3 oefenen",
+    "schrijfletters groep 3 poster",
+    "schrijfletters groep 3 hoofdletters",
+    "schrijfletters groep 3 pennenstreken",
+    "schrijfletters groep 3 printen",
+    "schrijfletters leren groep 3",
+    "schrijfletters pennenstreken groep 3 werkbladen",
+    "schrijfletters oefenen werkbladen groep 3"
+   ]
+  },
+  "schrijfletters groep 4": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schrijfletters groep 4",
+    "schrijfletters oefenen groep 4"
+   ]
+  },
+  "schrijfletters groep 5": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schrijfletters groep 5"
+   ]
+  },
+  "volgorde plaatjes": {
+   "candidate": "story-sequencing",
+   "s": [
+    "volgorde plaatjes kaarten",
+    "volgorde plaatjes"
+   ]
+  },
+  "tijdsvolgorde": {
+   "candidate": "story-sequencing",
+   "s": [
+    "tijdsvolgorde signaalwoorden",
+    "tijdsvolgorde",
+    "tijdsvolgorde diagram",
+    "tijdsvolgorde betekenis",
+    "tijdsvolgorde tekstverband",
+    "tijdsvolgorde marvel films",
+    "tijdsvolgorde engels",
+    "tijdsvolgorde marvel",
+    "tijdsvolgorde synoniem",
+    "tijdsvolgorde boek"
+   ]
+  },
+  "hygiëne": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hygiëne",
+    "hygiënecode horeca",
+    "hygiëne politie",
+    "hygiëne betekenis",
+    "hygiënecode",
+    "hygiënecode horeca gratis downloaden",
+    "hygiëne doekjes",
+    "hygiënesluis",
+    "hygiëne doekjes intiem",
+    "hygiënecode horeca boek kopen"
+   ]
+  },
+  "hygiëne werkblad": {
+   "candidate": "healthy-habits",
+   "s": [
+    "werkblad hygiene"
+   ]
+  },
+  "hygiëne kleuters": {
+   "candidate": "healthy-habits",
+   "s": [
+    "thema hygiene kleuters"
+   ]
+  },
+  "handen wassen": {
+   "candidate": "healthy-habits",
+   "s": [
+    "handen wassen",
+    "handen wassen zonder water",
+    "handen wassen zonder zeep",
+    "handen wassen in onschuld",
+    "handen wassen in pisbak",
+    "handen wassen met koud of warm water",
+    "handen wassen stappenplan",
+    "handen wassen zonder water kruidvat",
+    "handen wassen pictogram",
+    "handen wassen na toiletbezoek"
+   ]
+  },
+  "handen wassen werkblad": {
+   "candidate": "healthy-habits",
+   "s": [
+    "werkblad handen wassen"
+   ]
+  },
+  "handen wassen kleuters": {
+   "candidate": "healthy-habits",
+   "s": [
+    "handen wassen kleuters",
+    "stappenplan handen wassen kleuters",
+    "poster handen wassen kleuters"
+   ]
+  },
+  "tanden poetsen": {
+   "candidate": "healthy-habits",
+   "s": [
+    "tanden poetsen met baking soda",
+    "tanden poetsen voor of na ontbijt",
+    "tanden poetsen hond",
+    "tanden poetsen",
+    "tanden poetsen baby",
+    "tanden poetsen kat",
+    "tanden poetsen met kokosolie",
+    "tanden poetsen liedje juf roos",
+    "tanden poetsen na kies trekken",
+    "tanden poetsen kat onzin"
+   ]
+  },
+  "tanden poetsen werkblad": {
+   "candidate": "healthy-habits",
+   "s": [
+    "tanden poetsen werkblad"
+   ]
+  },
+  "tanden poetsen kleuters": {
+   "candidate": "healthy-habits",
+   "s": [
+    "tanden poetsen kleuters",
+    "filmpje tanden poetsen kleuters",
+    "stappenplan tandenpoetsen kleuters",
+    "thema tanden poetsen kleuters"
+   ]
+  },
+  "gezonde gewoontes": {
+   "candidate": "healthy-habits",
+   "s": [
+    "gezonde gewoontes plan",
+    "gezonde gewoontes",
+    "gezonde gewoontes plan libelle",
+    "gezonde gewoontes plan hilmar",
+    "gezonde gewoontes aanleren",
+    "gezonde gewoontes met yarno",
+    "gezonde gewoontes sandra bekkari",
+    "gezonde gewoontes afvallen",
+    "gezonde gewoontes boek",
+    "gezonde gewoontes arie boomsma"
+   ]
+  },
+  "leefomgeving dieren": {
+   "candidate": "habitats",
+   "s": [
+    "leefomgeving dieren en planten 7 letters",
+    "leefomgeving dieren en planten",
+    "leefomgeving dieren",
+    "leefomgeving van dieren en planten",
+    "leefomgeving van dieren en planten 7 letters",
+    "leefomgeving voor dieren en planten"
+   ]
+  },
+  "waar wonen dieren": {
+   "candidate": "habitats",
+   "s": [
+    "waar wonen dieren",
+    "waar dieren wonen boek",
+    "waar wonen verschillende dieren",
+    "waar wonen wilde dieren",
+    "waar wonen de dieren werkblad",
+    "waar wonen de meeste dieren",
+    "waar wonen of slapen deze dieren vooral"
+   ]
+  },
+  "waar wonen dieren werkblad": {
+   "candidate": "habitats",
+   "s": [
+    "waar wonen de dieren werkblad"
+   ]
+  },
+  "dierenverblijven": {
+   "candidate": "habitats",
+   "s": [
+    "dierenverblijven methorst",
+    "dierenverblijven",
+    "dierenverblijven van der land",
+    "dierenverblijven op maat",
+    "dierenverblijven veenendaal",
+    "dierenverblijven van der land groot kippenhok kopen in bouwpakketten alle soorten dierenverblijven",
+    "dierenverblijven lunteren",
+    "dierenverblijven nl",
+    "dierenverblijven kruiningen",
+    "dierenverblijven 7 letters"
+   ]
+  },
+  "drijven en zinken": {
+   "candidate": "sink-or-float",
+   "s": [
+    "drijven en zinken",
+    "drijven en zinken kleuters",
+    "drijven en zinken werkblad",
+    "drijven en zinken kleuters filmpje",
+    "drijven en zinken proefjes",
+    "drijven en zinken huisje boompje beestje",
+    "drijven en zinken groep 1 2",
+    "drijven en zinken groep 3",
+    "drijven en zinken groep 4",
+    "drijven en zinken uitleg"
+   ]
+  },
+  "drijven en zinken werkblad": {
+   "candidate": "sink-or-float",
+   "s": [
+    "drijven en zinken werkblad",
+    "drijven en zinken werkblad kleuters",
+    "werkblad drijven en zinken groep 3",
+    "werkblad drijven en zinken groep 1 2"
+   ]
+  },
+  "drijven en zinken kleuters": {
+   "candidate": "sink-or-float",
+   "s": [
+    "drijven en zinken kleuters",
+    "drijven en zinken kleuters filmpje",
+    "werkblad drijven en zinken kleuters",
+    "drijven en zinken les kleuters",
+    "thema drijven en zinken kleuters",
+    "activiteit drijven en zinken kleuters",
+    "drijven en zinken uitleggen aan kleuters"
+   ]
+  },
+  "drijven en zinken groep 3": {
+   "candidate": "sink-or-float",
+   "s": [
+    "drijven en zinken groep 3",
+    "werkblad drijven en zinken groep 3",
+    "les drijven en zinken groep 3"
+   ]
+  },
+  "drijven en zinken groep 4": {
+   "candidate": "sink-or-float",
+   "s": [
+    "drijven en zinken groep 4",
+    "les drijven en zinken groep 4"
+   ]
+  },
+  "zinken of drijven": {
+   "candidate": "sink-or-float",
+   "s": [
+    "zinken of drijven ei",
+    "zinken of drijven",
+    "zinken of drijven kleuters",
+    "eieren zinken of drijven",
+    "eitjes zinken of drijven",
+    "ontlasting zinken of drijven",
+    "poep zinken of drijven",
+    "zinken drijven zweven",
+    "ei goed zinken of drijven",
+    "verse eieren zinken of drijven"
+   ]
+  },
+  "zinken of drijven werkblad": {
+   "candidate": "sink-or-float",
+   "s": [
+    "drijven of zinken werkblad"
+   ]
+  },
+  "zinken of drijven kleuters": {
+   "candidate": "sink-or-float",
+   "s": [
+    "zinken of drijven kleuters"
+   ]
+  },
+  "zinken of drijven groep 3": {
+   "candidate": "sink-or-float",
+   "s": [
+    "zinken en drijven groep 3"
+   ]
+  }
+ }
+}

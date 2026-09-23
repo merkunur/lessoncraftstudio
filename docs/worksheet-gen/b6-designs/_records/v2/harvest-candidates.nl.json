@@ -1,0 +1,355 @@
+{
+ "locale": "nl",
+ "market": {
+  "hl": "nl",
+  "gl": "nl"
+ },
+ "generatedAt": "2026-09-23T16:11:15.487Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/v2/candidate-seeds-v2.json",
+ "requestCount": 91,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "verbonden schrift",
+    "schrijfletters oefenen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 23,
+   "suggestions": [
+    "alfabet schrijfletters oefenen",
+    "hoofdletters schrijfletters oefenen",
+    "pennenstreken verbonden schrift groep 3",
+    "schrijfletters oefenen",
+    "schrijfletters oefenen app",
+    "schrijfletters oefenen groep 2",
+    "schrijfletters oefenen groep 3",
+    "schrijfletters oefenen groep 4",
+    "schrijfletters oefenen pdf",
+    "schrijfletters oefenen werkbladen",
+    "schrijfletters oefenen werkbladen groep 3",
+    "verbonden schrift",
+    "verbonden schrift alfabet",
+    "verbonden schrift groep 3",
+    "verbonden schrift groep 4",
+    "verbonden schrift hoofdletters",
+    "verbonden schrift klinkers",
+    "verbonden schrift letters",
+    "verbonden schrift lettertype",
+    "verbonden schrift oefenen",
+    "verbonden schrift of blokschrift",
+    "verbonden schrift pennenstreken",
+    "verbonden schrift werkbladen"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "plaatjes op volgorde leggen",
+    "verhaal op volgorde",
+    "volgordeplaatjes"
+   ],
+   "requests": 21,
+   "productiveSeeds": 5,
+   "unique": 6,
+   "suggestions": [
+    "plaatjes op volgorde leggen",
+    "plaatjes op volgorde leggen kleuters",
+    "verhaal op volgorde leggen",
+    "verhaal op volgorde leggen kleuters",
+    "verhaal volgorde",
+    "werkblad verhaal op volgorde leggen"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "tanden poetsen",
+    "handen wassen stappenplan",
+    "lichaamsverzorging"
+   ],
+   "requests": 21,
+   "productiveSeeds": 6,
+   "unique": 32,
+   "suggestions": [
+    "filmpje tanden poetsen kleuters",
+    "handen wassen stappenplan",
+    "handen wassen stappenplan kinderen",
+    "handen wassen stappenplan kleuters",
+    "lichaamsverzorging",
+    "lichaamsverzorging mannen",
+    "lichaamsverzorging producten",
+    "lichaamsverzorging routine",
+    "lichaamsverzorging schoonheidssalon",
+    "lichaamsverzorging set",
+    "lichaamsverzorging vrouwen",
+    "lichaamsverzorging zwangerschap",
+    "lichaamsverzorgingsset the sol tote body essentials",
+    "lichaamsverzorgingsset wanna get a ouai kit",
+    "stappenplan handen wassen anna",
+    "stappenplan handen wassen jules",
+    "stappenplan handen wassen peuters",
+    "stappenplan handen wassen zorg",
+    "stappenplan tandenpoetsen kleuters",
+    "tanden poetsen",
+    "tanden poetsen baby",
+    "tanden poetsen hond",
+    "tanden poetsen kat",
+    "tanden poetsen kat onzin",
+    "tanden poetsen kleuters",
+    "tanden poetsen liedje juf roos",
+    "tanden poetsen met baking soda",
+    "tanden poetsen met kokosolie",
+    "tanden poetsen na kies trekken",
+    "tanden poetsen voor of na ontbijt",
+    "tanden poetsen werkblad",
+    "thema tanden poetsen kleuters"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "dierenwoningen",
+    "dieren in het bos",
+    "leefgebied dieren"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 12,
+   "suggestions": [
+    "dieren in het bos",
+    "dieren in het bos boek",
+    "dieren in het bos cottage",
+    "dieren in het bos cottage center parcs",
+    "dieren in het bos cottage erperheide",
+    "dieren in het bos film",
+    "dieren in het bos kleuters",
+    "dieren in het bos liedje",
+    "dieren in het bos nederland",
+    "dieren in het bos tekenfilm",
+    "dieren in het bos thema kleuters",
+    "leefgebied dieren"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "drijven en zinken proefje",
+    "wat drijft wat zinkt"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 2,
+   "suggestions": [
+    "drijven en zinken proefjes",
+    "wat drijft en wat zinkt"
+   ]
+  }
+ },
+ "suggestions": {
+  "verbonden schrift": {
+   "candidate": "cursive-writing",
+   "s": [
+    "verbonden schrift",
+    "verbonden schrift oefenen",
+    "verbonden schrift lettertype",
+    "verbonden schrift werkbladen",
+    "verbonden schrift pennenstreken",
+    "verbonden schrift alfabet",
+    "verbonden schrift letters",
+    "verbonden schrift of blokschrift",
+    "verbonden schrift klinkers",
+    "verbonden schrift hoofdletters"
+   ]
+  },
+  "verbonden schrift werkblad": {
+   "candidate": "cursive-writing",
+   "s": [
+    "verbonden schrift werkbladen"
+   ]
+  },
+  "verbonden schrift groep 3": {
+   "candidate": "cursive-writing",
+   "s": [
+    "verbonden schrift groep 3",
+    "pennenstreken verbonden schrift groep 3"
+   ]
+  },
+  "verbonden schrift groep 4": {
+   "candidate": "cursive-writing",
+   "s": [
+    "verbonden schrift groep 4"
+   ]
+  },
+  "schrijfletters oefenen": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schrijfletters oefenen",
+    "schrijfletters oefenen groep 3",
+    "schrijfletters oefenen werkbladen",
+    "schrijfletters oefenen groep 4",
+    "schrijfletters oefenen pdf",
+    "schrijfletters oefenen groep 2",
+    "schrijfletters oefenen werkbladen groep 3",
+    "schrijfletters oefenen app",
+    "alfabet schrijfletters oefenen",
+    "hoofdletters schrijfletters oefenen"
+   ]
+  },
+  "schrijfletters oefenen werkblad": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schrijfletters oefenen werkbladen",
+    "schrijfletters oefenen werkbladen groep 3"
+   ]
+  },
+  "schrijfletters oefenen groep 3": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schrijfletters oefenen groep 3",
+    "schrijfletters oefenen werkbladen groep 3"
+   ]
+  },
+  "schrijfletters oefenen groep 4": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schrijfletters oefenen groep 4"
+   ]
+  },
+  "plaatjes op volgorde leggen": {
+   "candidate": "story-sequencing",
+   "s": [
+    "plaatjes op volgorde leggen kleuters",
+    "plaatjes op volgorde leggen"
+   ]
+  },
+  "plaatjes op volgorde leggen kleuters": {
+   "candidate": "story-sequencing",
+   "s": [
+    "plaatjes op volgorde leggen kleuters"
+   ]
+  },
+  "verhaal op volgorde": {
+   "candidate": "story-sequencing",
+   "s": [
+    "verhaal op volgorde leggen",
+    "verhaal op volgorde leggen kleuters",
+    "werkblad verhaal op volgorde leggen",
+    "verhaal volgorde"
+   ]
+  },
+  "verhaal op volgorde werkblad": {
+   "candidate": "story-sequencing",
+   "s": [
+    "werkblad verhaal op volgorde leggen"
+   ]
+  },
+  "verhaal op volgorde kleuters": {
+   "candidate": "story-sequencing",
+   "s": [
+    "verhaal op volgorde leggen kleuters"
+   ]
+  },
+  "tanden poetsen": {
+   "candidate": "healthy-habits",
+   "s": [
+    "tanden poetsen met baking soda",
+    "tanden poetsen voor of na ontbijt",
+    "tanden poetsen hond",
+    "tanden poetsen",
+    "tanden poetsen baby",
+    "tanden poetsen kat",
+    "tanden poetsen met kokosolie",
+    "tanden poetsen liedje juf roos",
+    "tanden poetsen na kies trekken",
+    "tanden poetsen kat onzin"
+   ]
+  },
+  "tanden poetsen werkblad": {
+   "candidate": "healthy-habits",
+   "s": [
+    "tanden poetsen werkblad"
+   ]
+  },
+  "tanden poetsen kleuters": {
+   "candidate": "healthy-habits",
+   "s": [
+    "tanden poetsen kleuters",
+    "filmpje tanden poetsen kleuters",
+    "stappenplan tandenpoetsen kleuters",
+    "thema tanden poetsen kleuters"
+   ]
+  },
+  "handen wassen stappenplan": {
+   "candidate": "healthy-habits",
+   "s": [
+    "handen wassen stappenplan",
+    "handen wassen stappenplan kleuters",
+    "handen wassen stappenplan kinderen",
+    "stappenplan handen wassen jules",
+    "stappenplan handen wassen peuters",
+    "stappenplan handen wassen anna",
+    "stappenplan handen wassen zorg"
+   ]
+  },
+  "handen wassen stappenplan kleuters": {
+   "candidate": "healthy-habits",
+   "s": [
+    "handen wassen stappenplan kleuters"
+   ]
+  },
+  "lichaamsverzorging": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lichaamsverzorging",
+    "lichaamsverzorging vrouwen",
+    "lichaamsverzorging schoonheidssalon",
+    "lichaamsverzorging mannen",
+    "lichaamsverzorging producten",
+    "lichaamsverzorging set",
+    "lichaamsverzorging zwangerschap",
+    "lichaamsverzorging routine",
+    "lichaamsverzorgingsset the sol tote body essentials",
+    "lichaamsverzorgingsset wanna get a ouai kit"
+   ]
+  },
+  "dieren in het bos": {
+   "candidate": "habitats",
+   "s": [
+    "dieren in het bos",
+    "dieren in het bos nederland",
+    "dieren in het bos cottage erperheide",
+    "dieren in het bos liedje",
+    "dieren in het bos tekenfilm",
+    "dieren in het bos boek",
+    "dieren in het bos film",
+    "dieren in het bos cottage",
+    "dieren in het bos kleuters",
+    "dieren in het bos cottage center parcs"
+   ]
+  },
+  "dieren in het bos kleuters": {
+   "candidate": "habitats",
+   "s": [
+    "dieren in het bos kleuters",
+    "dieren in het bos thema kleuters"
+   ]
+  },
+  "leefgebied dieren": {
+   "candidate": "habitats",
+   "s": [
+    "leefgebied dieren"
+   ]
+  },
+  "drijven en zinken proefje": {
+   "candidate": "sink-or-float",
+   "s": [
+    "drijven en zinken proefjes"
+   ]
+  },
+  "wat drijft wat zinkt": {
+   "candidate": "sink-or-float",
+   "s": [
+    "wat drijft en wat zinkt"
+   ]
+  }
+ }
+}

@@ -1,0 +1,998 @@
+{
+ "locale": "fr",
+ "market": {
+  "hl": "fr",
+  "gl": "fr"
+ },
+ "generatedAt": "2026-09-23T16:09:43.273Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/v2/candidate-seeds-v2.json",
+ "requestCount": 98,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "écriture cursive cp",
+    "écriture cursive majuscules",
+    "liaisons écriture cursive"
+   ],
+   "requests": 21,
+   "productiveSeeds": 10,
+   "unique": 51,
+   "suggestions": [
+    "affichage alphabet majuscule cursive ce1",
+    "alphabet cursive cp à imprimer",
+    "alphabet cursive majuscule à imprimer",
+    "alphabet cursive majuscule à imprimer pdf",
+    "alphabet cursive majuscules",
+    "alphabet majuscule cursive maternelle",
+    "alphabet majuscule script maternelle",
+    "alphabet script majuscule à imprimer",
+    "alphabet script majuscules",
+    "cahier d écriture cursive cp gratuit à imprimer",
+    "cahier d'écriture cursive cp ce1",
+    "cursive cp fiche d écriture à imprimer pdf",
+    "ecriture cursive cp ce1",
+    "ecriture cursive cp fiche",
+    "ecriture cursive majuscule cp",
+    "ecriture cursive majuscules",
+    "ecriture manuscrite majuscules",
+    "fiche d entrainement écriture cursive cp",
+    "fiche écriture cursive cp à imprimer",
+    "fiche écriture majuscule cursive ce1",
+    "fiche écriture majuscule cursive ce2",
+    "fiche écriture majuscule cursive cp",
+    "imprimer écriture cursive cp à télécharger",
+    "lettre cursive majuscule cp",
+    "lettre cursive majuscules",
+    "lettre majuscule cursive ce1",
+    "lettre majuscule cursive ce2",
+    "lettres cursives majuscules et minuscules",
+    "lettres cursives majuscules à imprimer",
+    "lettres majuscules cursives à imprimer pdf",
+    "lettres majuscules cursives à imprimer pdf ce2",
+    "lettres majuscules cursives à imprimer pdf cm1",
+    "lettres majuscules cursives à imprimer pdf cp",
+    "lettres majuscules script à imprimer pdf",
+    "lettres script majuscules",
+    "pdf exercice d écriture cursive cp ce1 fiches à imprimer",
+    "progression écriture majuscule cursive ce1",
+    "écriture cursive cp",
+    "écriture cursive cp exercices",
+    "écriture cursive cp pdf",
+    "écriture cursive cp police",
+    "écriture cursive cp à imprimer",
+    "écriture cursive cp à imprimer pdf",
+    "écriture cursive cp à télécharger",
+    "écriture cursive cp à télécharger pdf",
+    "écriture cursive majuscule ce1",
+    "écriture cursive majuscule ce2",
+    "écriture cursive majuscule et minuscule",
+    "écriture cursive majuscule maternelle",
+    "écriture cursive majuscule à imprimer",
+    "écriture script majuscules et minuscules"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "images séquentielles",
+    "remettre dans l'ordre",
+    "début milieu fin histoire"
+   ],
+   "requests": 21,
+   "productiveSeeds": 15,
+   "unique": 102,
+   "suggestions": [
+    "3 images séquentielles ce1",
+    "6 images séquentielles à imprimer",
+    "bd à remettre dans l ordre ce1",
+    "bd à remettre dans l'ordre ce2",
+    "début milieu fin histoire",
+    "exercice remettre les mots dans l ordre ce2",
+    "exercice remettre les phrases dans l'ordre ce2",
+    "expression écrite images séquentielles ce2",
+    "fiche images séquentielles",
+    "fiche images séquentielles gs",
+    "fiche images séquentielles ms",
+    "fiche remettre les mots dans l ordre",
+    "fiche remettre les nombres dans l ordre",
+    "histoire a remettre dans l'ordre ce1",
+    "histoires séquentielles images séquentielles à imprimer",
+    "images séquentielles",
+    "images séquentielles ce1",
+    "images séquentielles ce1 bout de gomme",
+    "images séquentielles ce1 ce2",
+    "images séquentielles ce1 lutin bazar",
+    "images séquentielles ce1 noel",
+    "images séquentielles ce1 pdf",
+    "images séquentielles ce1 production d écrit",
+    "images séquentielles ce1 sanleane",
+    "images séquentielles ce2",
+    "images séquentielles ce2 cm1",
+    "images séquentielles ce2 pdf",
+    "images séquentielles ce2 production d'écrit",
+    "images séquentielles cp",
+    "images séquentielles cp ce1",
+    "images séquentielles cp pdf",
+    "images séquentielles cp pour écrire",
+    "images séquentielles cp production d'écrit",
+    "images séquentielles cp à imprimer",
+    "images séquentielles cp à remettre dans lordre",
+    "images séquentielles elmer maternelle",
+    "images séquentielles germination maternelle",
+    "images séquentielles gs",
+    "images séquentielles gs à imprimer",
+    "images séquentielles journée cp",
+    "images séquentielles journée maternelle",
+    "images séquentielles maternelle",
+    "images séquentielles maternelle compétence",
+    "images séquentielles maternelle en ligne",
+    "images séquentielles maternelle gs",
+    "images séquentielles maternelle pdf",
+    "images séquentielles maternelle ps",
+    "images séquentielles maternelle à imprimer",
+    "images séquentielles montessori à imprimer",
+    "images séquentielles ms",
+    "images séquentielles ms à imprimer",
+    "images séquentielles noel ce2",
+    "images séquentielles noel cp",
+    "images séquentielles piscine cp",
+    "images séquentielles se repérer dans la journée maternelle",
+    "images séquentielles à imprimer",
+    "images séquentielles à imprimer gratuit",
+    "images séquentielles à télécharger",
+    "images à remettre dans l'ordre chronologique maternelle",
+    "mettre dans l ordre alphabétique ce1",
+    "mettre dans l'ordre alphabétique ce2",
+    "phrase à remettre dans l'ordre cp piano",
+    "phrase à remettre dans l'ordre à imprimer",
+    "phrase à remettre dans l'ordre à imprimer cp",
+    "phrases à remettre dans l ordre cp taoki",
+    "remettre dans l ordre alphabétique",
+    "remettre dans l ordre chronologique",
+    "remettre dans l ordre des images séquentielles maternelle",
+    "remettre dans l ordre en anglais",
+    "remettre dans l ordre les mots",
+    "remettre dans l'ordre",
+    "remettre dans l'ordre les lettres",
+    "remettre dans l'ordre les opérations de consignation suivantes",
+    "remettre dans l'ordre pdf",
+    "remettre des mots dans l ordre cp taoki",
+    "remettre des étiquettes dans l ordre cp",
+    "remettre histoire dans l ordre ce2",
+    "remettre histoire dans l ordre cp",
+    "remettre histoire dans l ordre maternelle",
+    "remettre images dans l ordre cp",
+    "remettre les chiffres dans l ordre maternelle",
+    "remettre les images dans l ordre maternelle",
+    "remettre les lettres dans l ordre ce1",
+    "remettre les lettres dans l ordre maternelle",
+    "remettre les phrases dans l'ordre ce1 pdf",
+    "remettre les phrases dans l'ordre ce2 pdf",
+    "remettre les syllabes dans l ordre ce1",
+    "remettre lettres dans l ordre cp",
+    "remettre mots dans l ordre ce1",
+    "remettre mots dans l ordre ce2",
+    "remettre mots dans l ordre cp",
+    "remettre phrase dans l ordre ce1",
+    "remettre phrase dans l ordre ce2",
+    "remettre phrase dans l ordre cp",
+    "remettre syllabes dans l ordre cp",
+    "remettre texte dans l ordre ce1",
+    "remettre texte dans l ordre ce2",
+    "remettre un texte dans l'ordre chronologique ce2",
+    "remettre une histoire dans l'ordre",
+    "remettre une recette dans l'ordre ce1",
+    "rédaction images séquentielles ce2",
+    "écrire avec des images séquentielles ce2"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "se brosser les dents",
+    "les microbes",
+    "lavage des mains"
+   ],
+   "requests": 21,
+   "productiveSeeds": 18,
+   "unique": 92,
+   "suggestions": [
+    "activité lavage des mains maternelle",
+    "affiche hygiène des mains cpias",
+    "affiche lavage des mains cpias",
+    "affiche lavage des mains maternelle",
+    "affiche lavage des mains obligatoire à imprimer",
+    "affiche lavage des mains à imprimer",
+    "bien se brosser les dents enfants",
+    "chanson pour se brosser les dents maternelle",
+    "coloriage lavage des mains à imprimer",
+    "comment se brosser les dents cp",
+    "comment se brosser les dents enfant",
+    "comment se brosser les dents maternelle",
+    "comptine lavage des mains maternelle",
+    "expliquer les microbes en maternelle",
+    "fiche comment se brosser les dents",
+    "fiche lavage des mains cap aepe",
+    "fiche lavage des mains cuisine",
+    "fiche lavage des mains enfants",
+    "fiche lavage des mains ep1",
+    "fiche lavage des mains haccp",
+    "fiche technique lavage des mains cap petite enfance",
+    "fiche technique lavage des mains en crèche",
+    "fiche technique lavage des mains pdf",
+    "hygiene des mains cpias ile de france",
+    "hygiene des mains maternelle",
+    "hygiène des mains cp",
+    "hygiène des mains cpias",
+    "hygiène des mains cpias occitanie",
+    "image lavage des mains maternelle",
+    "image lavage des mains à imprimer",
+    "image se brosser les dents a imprimer",
+    "image se brosser les dents enfant",
+    "l hygiène des mains ce1",
+    "lavage des mains",
+    "lavage des mains a imprimer",
+    "lavage des mains affiche",
+    "lavage des mains affiche pdf",
+    "lavage des mains ce1",
+    "lavage des mains chirurgical",
+    "lavage des mains cp",
+    "lavage des mains cpias",
+    "lavage des mains en 7 temps",
+    "lavage des mains enfants",
+    "lavage des mains fiche",
+    "lavage des mains fiche technique",
+    "lavage des mains maternelle",
+    "lavage des mains maternelle chanson",
+    "lavage des mains maternelle pdf",
+    "lavage des mains obligatoire affiche gratuite à imprimer",
+    "lavage des mains oms pdf",
+    "lavage des mains pdf",
+    "lavage des mains protocole",
+    "lavage simple des mains cpias",
+    "les microbes",
+    "les microbes ce1",
+    "les microbes ce2",
+    "les microbes cp",
+    "les microbes cp ce1",
+    "les microbes dessin animé",
+    "les microbes et leurs maladies",
+    "les microbes expliqués aux enfants",
+    "les microbes fiche pédagogique",
+    "les microbes maternelle",
+    "les microbes pathogènes",
+    "les microbes pathogènes et leurs maladies",
+    "les microbes sont ils vivants",
+    "les microbes sous les ongles",
+    "les microbes sur les mains",
+    "pourquoi se brosser les dents enfant",
+    "protocole lavage des mains cpias",
+    "se brosser les dents",
+    "se brosser les dents 3 fois par jour",
+    "se brosser les dents avant ou après le petit déjeuner",
+    "se brosser les dents avec de l'huile de coco",
+    "se brosser les dents avec du bicarbonate",
+    "se brosser les dents avec du bicarbonate de soude",
+    "se brosser les dents avec du savon",
+    "se brosser les dents ce2",
+    "se brosser les dents cp",
+    "se brosser les dents cycle 2",
+    "se brosser les dents en anglais",
+    "se brosser les dents en espagnol",
+    "se brosser les dents enfants",
+    "se brosser les dents maternelle",
+    "se brosser les dents sans dentifrice",
+    "se brosser les dents signal enfant",
+    "séquence lavage des mains maternelle",
+    "video se brosser les dents enfants",
+    "vidéo lavage des mains maternelle",
+    "vidéo les microbes maternelle",
+    "vidéo se brosser les dents cp",
+    "évaluation sur les microbes ce2"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "milieux de vie",
+    "maisons des animaux",
+    "adaptation des animaux"
+   ],
+   "requests": 21,
+   "productiveSeeds": 9,
+   "unique": 46,
+   "suggestions": [
+    "adaptation des animaux",
+    "adaptation des animaux 2eme science",
+    "adaptation des animaux au froid",
+    "adaptation des animaux aux facteurs climatiques",
+    "adaptation des animaux aux facteurs climatiques 2eme science",
+    "adaptation des animaux à l'hiver",
+    "adaptation des animaux à la température",
+    "adaptation des animaux à leur milieu",
+    "adaptation des animaux à leur milieu cm1",
+    "adaptation des animaux à leur milieu pdf",
+    "les différents milieux de vie des animaux ce1",
+    "les différents milieux de vie des animaux cp",
+    "les habitats des animaux cp",
+    "les habitats des animaux maternelle",
+    "les milieux de vie ce1",
+    "les milieux de vie ce2",
+    "lieu de vie",
+    "lieu de vie 8 lettres",
+    "lieu de vie animaux maternelle",
+    "lieu de vie cpcv",
+    "lieu de vie cpcv normandie",
+    "lieu de vie et d accueil",
+    "lieu de vie mots fléchés",
+    "maison des animaux avis",
+    "maison des animaux haiti",
+    "maison des animaux jouet",
+    "maison des animaux le locle",
+    "maison des animaux maternelle",
+    "maison des animaux paris",
+    "maison des animaux photos",
+    "maison des animaux playmobil",
+    "maison des animaux playmobil junior",
+    "maison des animaux saint etienne",
+    "maisons des animaux",
+    "milieu de vie",
+    "milieu de vie 7 lettres",
+    "milieu de vie animaux cp",
+    "milieu de vie animaux maternelle",
+    "milieu de vie cp",
+    "milieu de vie des animaux ce1",
+    "milieu de vie des animaux ce2",
+    "milieux de vie",
+    "milieux de vie complets",
+    "milieux de vie des animaux",
+    "milieux de vie des animaux cp",
+    "mon lieu de vie ce2"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "qui flotte qui coule",
+    "ça flotte ou ça coule"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 18,
+   "suggestions": [
+    "ca flotte ca coule ca vole enigme",
+    "ca flotte ca coule ca vole jeu",
+    "ca flotte ca coule gs",
+    "caca qui flotte ou qui coule",
+    "ce qui flotte et ce qui coule",
+    "difference caca qui flotte et qui coule",
+    "graine qui flotte ou qui coule",
+    "liste objets qui flotte et qui coule",
+    "moule qui flotte ou qui coule",
+    "objet qui flotte et qui coule",
+    "oeuf qui flotte qui coule",
+    "oeuf qui flotte vs oeuf qui coule",
+    "pourquoi ca flotte ou ca coule",
+    "ça flotte ou ça coule",
+    "ça flotte ou ça coule jeu",
+    "ça flotte ou ça coule maternelle",
+    "ça flotte ou ça coule ça vole",
+    "ça flotte ça coule cycle 2"
+   ]
+  }
+ },
+ "suggestions": {
+  "écriture cursive cp": {
+   "candidate": "cursive-writing",
+   "s": [
+    "écriture cursive cp",
+    "écriture cursive cp à télécharger",
+    "écriture cursive cp pdf",
+    "écriture cursive cp exercices",
+    "écriture cursive cp à imprimer",
+    "écriture cursive cp à imprimer pdf",
+    "écriture cursive cp à télécharger pdf",
+    "ecriture cursive cp ce1",
+    "ecriture cursive cp fiche",
+    "écriture cursive cp police"
+   ]
+  },
+  "écriture cursive cp fiche": {
+   "candidate": "cursive-writing",
+   "s": [
+    "ecriture cursive cp fiche",
+    "fiche écriture cursive cp à imprimer",
+    "cursive cp fiche d écriture à imprimer pdf",
+    "pdf exercice d écriture cursive cp ce1 fiches à imprimer",
+    "fiche d entrainement écriture cursive cp",
+    "fiche écriture majuscule cursive cp"
+   ]
+  },
+  "écriture cursive cp à imprimer": {
+   "candidate": "cursive-writing",
+   "s": [
+    "écriture cursive cp à imprimer",
+    "écriture cursive cp à imprimer pdf",
+    "alphabet cursive cp à imprimer",
+    "fiche écriture cursive cp à imprimer",
+    "imprimer écriture cursive cp à télécharger",
+    "cahier d écriture cursive cp gratuit à imprimer",
+    "cursive cp fiche d écriture à imprimer pdf",
+    "pdf exercice d écriture cursive cp ce1 fiches à imprimer"
+   ]
+  },
+  "écriture cursive cp ce1": {
+   "candidate": "cursive-writing",
+   "s": [
+    "ecriture cursive cp ce1",
+    "cahier d'écriture cursive cp ce1",
+    "pdf exercice d écriture cursive cp ce1 fiches à imprimer"
+   ]
+  },
+  "écriture cursive majuscules": {
+   "candidate": "cursive-writing",
+   "s": [
+    "ecriture cursive majuscules",
+    "alphabet cursive majuscules",
+    "écriture script majuscules et minuscules",
+    "lettre cursive majuscules",
+    "lettres cursives majuscules à imprimer",
+    "lettres cursives majuscules et minuscules",
+    "lettres script majuscules",
+    "alphabet script majuscules",
+    "ecriture manuscrite majuscules",
+    "écriture cursive majuscule et minuscule"
+   ]
+  },
+  "écriture cursive majuscules à imprimer": {
+   "candidate": "cursive-writing",
+   "s": [
+    "écriture cursive majuscule à imprimer",
+    "lettres cursives majuscules à imprimer",
+    "alphabet cursive majuscule à imprimer",
+    "alphabet cursive majuscule à imprimer pdf",
+    "alphabet script majuscule à imprimer",
+    "lettres majuscules cursives à imprimer pdf",
+    "lettres majuscules cursives à imprimer pdf ce2",
+    "lettres majuscules script à imprimer pdf",
+    "lettres majuscules cursives à imprimer pdf cp",
+    "lettres majuscules cursives à imprimer pdf cm1"
+   ]
+  },
+  "écriture cursive majuscules maternelle": {
+   "candidate": "cursive-writing",
+   "s": [
+    "écriture cursive majuscule maternelle",
+    "alphabet majuscule cursive maternelle",
+    "alphabet majuscule script maternelle"
+   ]
+  },
+  "écriture cursive majuscules cp": {
+   "candidate": "cursive-writing",
+   "s": [
+    "ecriture cursive majuscule cp",
+    "lettre cursive majuscule cp",
+    "fiche écriture majuscule cursive cp"
+   ]
+  },
+  "écriture cursive majuscules ce1": {
+   "candidate": "cursive-writing",
+   "s": [
+    "écriture cursive majuscule ce1",
+    "lettre majuscule cursive ce1",
+    "progression écriture majuscule cursive ce1",
+    "fiche écriture majuscule cursive ce1",
+    "affichage alphabet majuscule cursive ce1"
+   ]
+  },
+  "écriture cursive majuscules ce2": {
+   "candidate": "cursive-writing",
+   "s": [
+    "écriture cursive majuscule ce2",
+    "lettre majuscule cursive ce2",
+    "fiche écriture majuscule cursive ce2"
+   ]
+  },
+  "images séquentielles": {
+   "candidate": "story-sequencing",
+   "s": [
+    "images séquentielles",
+    "images séquentielles cp",
+    "images séquentielles gs",
+    "images séquentielles ce1",
+    "images séquentielles maternelle",
+    "images séquentielles se repérer dans la journée maternelle",
+    "images séquentielles à télécharger",
+    "images séquentielles maternelle à imprimer",
+    "images séquentielles ce2",
+    "images séquentielles ms"
+   ]
+  },
+  "images séquentielles fiche": {
+   "candidate": "story-sequencing",
+   "s": [
+    "fiche images séquentielles ms",
+    "fiche images séquentielles gs",
+    "fiche images séquentielles"
+   ]
+  },
+  "images séquentielles à imprimer": {
+   "candidate": "story-sequencing",
+   "s": [
+    "images séquentielles à imprimer",
+    "images séquentielles à imprimer gratuit",
+    "images séquentielles maternelle à imprimer",
+    "6 images séquentielles à imprimer",
+    "images séquentielles gs à imprimer",
+    "images séquentielles cp à imprimer",
+    "images séquentielles ms à imprimer",
+    "images séquentielles montessori à imprimer",
+    "histoires séquentielles images séquentielles à imprimer"
+   ]
+  },
+  "images séquentielles maternelle": {
+   "candidate": "story-sequencing",
+   "s": [
+    "images séquentielles maternelle",
+    "images séquentielles maternelle à imprimer",
+    "images séquentielles maternelle pdf",
+    "images séquentielles maternelle compétence",
+    "images séquentielles maternelle en ligne",
+    "images séquentielles maternelle gs",
+    "images séquentielles maternelle ps",
+    "images séquentielles journée maternelle",
+    "images séquentielles elmer maternelle",
+    "images séquentielles germination maternelle"
+   ]
+  },
+  "images séquentielles cp": {
+   "candidate": "story-sequencing",
+   "s": [
+    "images séquentielles cp",
+    "images séquentielles cp à remettre dans lordre",
+    "images séquentielles cp pdf",
+    "images séquentielles cp production d'écrit",
+    "images séquentielles cp ce1",
+    "images séquentielles cp à imprimer",
+    "images séquentielles cp pour écrire",
+    "images séquentielles noel cp",
+    "images séquentielles piscine cp",
+    "images séquentielles journée cp"
+   ]
+  },
+  "images séquentielles ce1": {
+   "candidate": "story-sequencing",
+   "s": [
+    "images séquentielles ce1",
+    "images séquentielles ce1 production d écrit",
+    "images séquentielles ce1 lutin bazar",
+    "images séquentielles ce1 ce2",
+    "images séquentielles ce1 pdf",
+    "images séquentielles ce1 bout de gomme",
+    "images séquentielles ce1 noel",
+    "images séquentielles ce1 sanleane",
+    "images séquentielles cp ce1",
+    "3 images séquentielles ce1"
+   ]
+  },
+  "images séquentielles ce2": {
+   "candidate": "story-sequencing",
+   "s": [
+    "images séquentielles ce2",
+    "images séquentielles ce2 pdf",
+    "images séquentielles ce2 production d'écrit",
+    "images séquentielles ce2 cm1",
+    "images séquentielles ce1 ce2",
+    "images séquentielles noel ce2",
+    "rédaction images séquentielles ce2",
+    "expression écrite images séquentielles ce2",
+    "écrire avec des images séquentielles ce2"
+   ]
+  },
+  "remettre dans l'ordre": {
+   "candidate": "story-sequencing",
+   "s": [
+    "remettre dans l'ordre",
+    "remettre dans l'ordre pdf",
+    "remettre dans l'ordre les lettres",
+    "remettre dans l ordre en anglais",
+    "remettre dans l ordre alphabétique",
+    "remettre dans l ordre chronologique",
+    "remettre dans l ordre des images séquentielles maternelle",
+    "remettre dans l'ordre les opérations de consignation suivantes",
+    "remettre une histoire dans l'ordre",
+    "remettre dans l ordre les mots"
+   ]
+  },
+  "remettre dans l'ordre fiche": {
+   "candidate": "story-sequencing",
+   "s": [
+    "fiche remettre les mots dans l ordre",
+    "fiche remettre les nombres dans l ordre"
+   ]
+  },
+  "remettre dans l'ordre à imprimer": {
+   "candidate": "story-sequencing",
+   "s": [
+    "phrase à remettre dans l'ordre à imprimer",
+    "phrase à remettre dans l'ordre à imprimer cp"
+   ]
+  },
+  "remettre dans l'ordre maternelle": {
+   "candidate": "story-sequencing",
+   "s": [
+    "remettre histoire dans l ordre maternelle",
+    "remettre les images dans l ordre maternelle",
+    "remettre les chiffres dans l ordre maternelle",
+    "remettre les lettres dans l ordre maternelle",
+    "remettre dans l ordre des images séquentielles maternelle",
+    "images à remettre dans l'ordre chronologique maternelle"
+   ]
+  },
+  "remettre dans l'ordre cp": {
+   "candidate": "story-sequencing",
+   "s": [
+    "remettre phrase dans l ordre cp",
+    "remettre mots dans l ordre cp",
+    "remettre syllabes dans l ordre cp",
+    "remettre images dans l ordre cp",
+    "remettre histoire dans l ordre cp",
+    "remettre lettres dans l ordre cp",
+    "remettre des mots dans l ordre cp taoki",
+    "remettre des étiquettes dans l ordre cp",
+    "phrases à remettre dans l ordre cp taoki",
+    "phrase à remettre dans l'ordre cp piano"
+   ]
+  },
+  "remettre dans l'ordre ce1": {
+   "candidate": "story-sequencing",
+   "s": [
+    "remettre mots dans l ordre ce1",
+    "remettre phrase dans l ordre ce1",
+    "histoire a remettre dans l'ordre ce1",
+    "remettre texte dans l ordre ce1",
+    "remettre les phrases dans l'ordre ce1 pdf",
+    "remettre une recette dans l'ordre ce1",
+    "remettre les syllabes dans l ordre ce1",
+    "bd à remettre dans l ordre ce1",
+    "remettre les lettres dans l ordre ce1",
+    "mettre dans l ordre alphabétique ce1"
+   ]
+  },
+  "remettre dans l'ordre ce2": {
+   "candidate": "story-sequencing",
+   "s": [
+    "remettre phrase dans l ordre ce2",
+    "remettre mots dans l ordre ce2",
+    "remettre texte dans l ordre ce2",
+    "remettre histoire dans l ordre ce2",
+    "bd à remettre dans l'ordre ce2",
+    "remettre les phrases dans l'ordre ce2 pdf",
+    "mettre dans l'ordre alphabétique ce2",
+    "exercice remettre les phrases dans l'ordre ce2",
+    "remettre un texte dans l'ordre chronologique ce2",
+    "exercice remettre les mots dans l ordre ce2"
+   ]
+  },
+  "début milieu fin histoire": {
+   "candidate": "story-sequencing",
+   "s": [
+    "début milieu fin histoire"
+   ]
+  },
+  "se brosser les dents": {
+   "candidate": "healthy-habits",
+   "s": [
+    "se brosser les dents",
+    "se brosser les dents avec du bicarbonate",
+    "se brosser les dents sans dentifrice",
+    "se brosser les dents 3 fois par jour",
+    "se brosser les dents en espagnol",
+    "se brosser les dents en anglais",
+    "se brosser les dents avec de l'huile de coco",
+    "se brosser les dents avec du bicarbonate de soude",
+    "se brosser les dents avant ou après le petit déjeuner",
+    "se brosser les dents avec du savon"
+   ]
+  },
+  "se brosser les dents fiche": {
+   "candidate": "healthy-habits",
+   "s": [
+    "fiche comment se brosser les dents"
+   ]
+  },
+  "se brosser les dents à imprimer": {
+   "candidate": "healthy-habits",
+   "s": [
+    "image se brosser les dents a imprimer"
+   ]
+  },
+  "se brosser les dents maternelle": {
+   "candidate": "healthy-habits",
+   "s": [
+    "se brosser les dents maternelle",
+    "se brosser les dents enfants",
+    "comment se brosser les dents maternelle",
+    "chanson pour se brosser les dents maternelle",
+    "video se brosser les dents enfants",
+    "comment se brosser les dents enfant",
+    "bien se brosser les dents enfants",
+    "pourquoi se brosser les dents enfant",
+    "image se brosser les dents enfant",
+    "se brosser les dents signal enfant"
+   ]
+  },
+  "se brosser les dents cp": {
+   "candidate": "healthy-habits",
+   "s": [
+    "se brosser les dents cp",
+    "se brosser les dents cycle 2",
+    "comment se brosser les dents cp",
+    "vidéo se brosser les dents cp"
+   ]
+  },
+  "se brosser les dents ce2": {
+   "candidate": "healthy-habits",
+   "s": [
+    "se brosser les dents ce2"
+   ]
+  },
+  "les microbes": {
+   "candidate": "healthy-habits",
+   "s": [
+    "les microbes",
+    "les microbes dessin animé",
+    "les microbes expliqués aux enfants",
+    "les microbes pathogènes et leurs maladies",
+    "les microbes cp",
+    "les microbes sont ils vivants",
+    "les microbes sous les ongles",
+    "les microbes et leurs maladies",
+    "les microbes sur les mains",
+    "les microbes pathogènes"
+   ]
+  },
+  "les microbes fiche": {
+   "candidate": "healthy-habits",
+   "s": [
+    "les microbes fiche pédagogique"
+   ]
+  },
+  "les microbes maternelle": {
+   "candidate": "healthy-habits",
+   "s": [
+    "les microbes maternelle",
+    "vidéo les microbes maternelle",
+    "expliquer les microbes en maternelle"
+   ]
+  },
+  "les microbes cp": {
+   "candidate": "healthy-habits",
+   "s": [
+    "les microbes cp"
+   ]
+  },
+  "les microbes ce1": {
+   "candidate": "healthy-habits",
+   "s": [
+    "les microbes ce1",
+    "les microbes cp ce1"
+   ]
+  },
+  "les microbes ce2": {
+   "candidate": "healthy-habits",
+   "s": [
+    "les microbes ce2",
+    "évaluation sur les microbes ce2"
+   ]
+  },
+  "lavage des mains": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavage des mains",
+    "lavage des mains protocole",
+    "lavage des mains affiche",
+    "lavage des mains chirurgical",
+    "lavage des mains affiche pdf",
+    "lavage des mains enfants",
+    "lavage des mains en 7 temps",
+    "lavage des mains oms pdf",
+    "lavage des mains pdf",
+    "lavage des mains maternelle"
+   ]
+  },
+  "lavage des mains fiche": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavage des mains fiche technique",
+    "lavage des mains fiche",
+    "fiche lavage des mains enfants",
+    "fiche lavage des mains cuisine",
+    "fiche lavage des mains cap aepe",
+    "fiche lavage des mains haccp",
+    "fiche lavage des mains ep1",
+    "fiche technique lavage des mains pdf",
+    "fiche technique lavage des mains cap petite enfance",
+    "fiche technique lavage des mains en crèche"
+   ]
+  },
+  "lavage des mains à imprimer": {
+   "candidate": "healthy-habits",
+   "s": [
+    "image lavage des mains à imprimer",
+    "affiche lavage des mains à imprimer",
+    "coloriage lavage des mains à imprimer",
+    "lavage des mains a imprimer",
+    "affiche lavage des mains obligatoire à imprimer",
+    "lavage des mains obligatoire affiche gratuite à imprimer"
+   ]
+  },
+  "lavage des mains maternelle": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavage des mains maternelle",
+    "lavage des mains maternelle pdf",
+    "lavage des mains maternelle chanson",
+    "hygiene des mains maternelle",
+    "comptine lavage des mains maternelle",
+    "séquence lavage des mains maternelle",
+    "affiche lavage des mains maternelle",
+    "activité lavage des mains maternelle",
+    "image lavage des mains maternelle",
+    "vidéo lavage des mains maternelle"
+   ]
+  },
+  "lavage des mains cp": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavage des mains cpias",
+    "lavage des mains cp",
+    "hygiène des mains cpias",
+    "hygiène des mains cpias occitanie",
+    "hygiène des mains cp",
+    "hygiene des mains cpias ile de france",
+    "affiche lavage des mains cpias",
+    "lavage simple des mains cpias",
+    "protocole lavage des mains cpias",
+    "affiche hygiène des mains cpias"
+   ]
+  },
+  "lavage des mains ce1": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavage des mains ce1",
+    "l hygiène des mains ce1"
+   ]
+  },
+  "milieux de vie": {
+   "candidate": "habitats",
+   "s": [
+    "milieux de vie des animaux",
+    "milieux de vie",
+    "milieux de vie complets",
+    "milieux de vie des animaux cp",
+    "lieu de vie",
+    "milieu de vie",
+    "lieu de vie mots fléchés",
+    "lieu de vie et d accueil",
+    "milieu de vie 7 lettres",
+    "lieu de vie 8 lettres"
+   ]
+  },
+  "milieux de vie maternelle": {
+   "candidate": "habitats",
+   "s": [
+    "lieu de vie animaux maternelle",
+    "milieu de vie animaux maternelle"
+   ]
+  },
+  "milieux de vie cp": {
+   "candidate": "habitats",
+   "s": [
+    "milieu de vie cp",
+    "lieu de vie cpcv normandie",
+    "lieu de vie cpcv",
+    "milieu de vie animaux cp",
+    "les différents milieux de vie des animaux cp"
+   ]
+  },
+  "milieux de vie ce1": {
+   "candidate": "habitats",
+   "s": [
+    "les milieux de vie ce1",
+    "milieu de vie des animaux ce1",
+    "les différents milieux de vie des animaux ce1"
+   ]
+  },
+  "milieux de vie ce2": {
+   "candidate": "habitats",
+   "s": [
+    "les milieux de vie ce2",
+    "mon lieu de vie ce2",
+    "milieu de vie des animaux ce2"
+   ]
+  },
+  "maisons des animaux": {
+   "candidate": "habitats",
+   "s": [
+    "maisons des animaux",
+    "maison des animaux playmobil",
+    "maison des animaux saint etienne",
+    "maison des animaux le locle",
+    "maison des animaux haiti",
+    "maison des animaux jouet",
+    "maison des animaux photos",
+    "maison des animaux paris",
+    "maison des animaux avis",
+    "maison des animaux playmobil junior"
+   ]
+  },
+  "maisons des animaux maternelle": {
+   "candidate": "habitats",
+   "s": [
+    "maison des animaux maternelle",
+    "les habitats des animaux maternelle"
+   ]
+  },
+  "maisons des animaux cp": {
+   "candidate": "habitats",
+   "s": [
+    "les habitats des animaux cp"
+   ]
+  },
+  "adaptation des animaux": {
+   "candidate": "habitats",
+   "s": [
+    "adaptation des animaux à leur milieu pdf",
+    "adaptation des animaux",
+    "adaptation des animaux aux facteurs climatiques 2eme science",
+    "adaptation des animaux à leur milieu cm1",
+    "adaptation des animaux à leur milieu",
+    "adaptation des animaux aux facteurs climatiques",
+    "adaptation des animaux au froid",
+    "adaptation des animaux à la température",
+    "adaptation des animaux 2eme science",
+    "adaptation des animaux à l'hiver"
+   ]
+  },
+  "qui flotte qui coule": {
+   "candidate": "sink-or-float",
+   "s": [
+    "oeuf qui flotte qui coule",
+    "caca qui flotte ou qui coule",
+    "graine qui flotte ou qui coule",
+    "objet qui flotte et qui coule",
+    "moule qui flotte ou qui coule",
+    "liste objets qui flotte et qui coule",
+    "difference caca qui flotte et qui coule",
+    "ce qui flotte et ce qui coule",
+    "oeuf qui flotte vs oeuf qui coule"
+   ]
+  },
+  "ça flotte ou ça coule": {
+   "candidate": "sink-or-float",
+   "s": [
+    "ça flotte ou ça coule",
+    "ça flotte ou ça coule maternelle",
+    "ça flotte ou ça coule jeu",
+    "ça flotte ou ça coule ça vole",
+    "pourquoi ca flotte ou ca coule",
+    "ça flotte ça coule cycle 2",
+    "ca flotte ca coule ca vole enigme",
+    "ca flotte ca coule ca vole jeu"
+   ]
+  },
+  "ça flotte ou ça coule maternelle": {
+   "candidate": "sink-or-float",
+   "s": [
+    "ça flotte ou ça coule maternelle",
+    "ça flotte ça coule cycle 2",
+    "ca flotte ca coule gs"
+   ]
+  },
+  "ça flotte ou ça coule cp": {
+   "candidate": "sink-or-float",
+   "s": [
+    "ça flotte ça coule cycle 2"
+   ]
+  }
+ }
+}

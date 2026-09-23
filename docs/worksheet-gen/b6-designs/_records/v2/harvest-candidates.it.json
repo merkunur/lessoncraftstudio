@@ -1,0 +1,735 @@
+{
+ "locale": "it",
+ "market": {
+  "hl": "it",
+  "gl": "it"
+ },
+ "generatedAt": "2026-09-23T16:10:54.159Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/v2/candidate-seeds-v2.json",
+ "requestCount": 98,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "corsivo maiuscolo",
+    "corsivo classe prima",
+    "parole in corsivo"
+   ],
+   "requests": 21,
+   "productiveSeeds": 8,
+   "unique": 46,
+   "suggestions": [
+    "alfabeto corsivo maiuscolo da stampare",
+    "alfabeto corsivo maiuscolo e minuscolo da stampare",
+    "alfabeto corsivo maiuscolo e minuscolo da stampare pdf",
+    "alfabeto corsivo maiuscolo e minuscolo scuola primaria",
+    "alfabeto corsivo maiuscolo scuola primaria",
+    "alfabeto italiano corsivo maiuscolo e minuscolo da stampare",
+    "avvio al corsivo classe prima",
+    "corsivo classe prima",
+    "corsivo classe prima maestra anita",
+    "corsivo classe prima scuola primaria",
+    "corsivo maiuscolo",
+    "corsivo maiuscolo alfabeto",
+    "corsivo maiuscolo da stampare",
+    "corsivo maiuscolo e minuscolo",
+    "corsivo maiuscolo e minuscolo da stampare",
+    "corsivo maiuscolo elegante",
+    "corsivo maiuscolo elementari",
+    "corsivo maiuscolo f",
+    "corsivo maiuscolo h",
+    "corsivo maiuscolo lettere",
+    "corsivo maiuscolo s",
+    "corsivo maiuscolo scuola primaria",
+    "esercizi corsivo classe prima",
+    "insegnare il corsivo classe prima",
+    "lettere in corsivo maiuscolo da stampare",
+    "lettere in corsivo maiuscolo scuola primaria",
+    "parole in corsivo",
+    "parole in corsivo da copiare",
+    "parole in corsivo da ripassare",
+    "parole in corsivo da scrivere",
+    "parole in corsivo da stampare",
+    "parole in corsivo maiuscolo",
+    "parole in corsivo minuscolo",
+    "parole in corsivo prima elementare",
+    "parole in corsivo russo",
+    "parole in corsivo scuola primaria",
+    "parole in corsivo tratteggiate da stampare",
+    "pregrafismo corsivo classe prima",
+    "presentazione corsivo classe prima",
+    "quaderno corsivo classe prima",
+    "s corsivo maiuscolo scuola primaria",
+    "schede corsivo classe prima",
+    "schede parole corsivo da stampare",
+    "t corsivo maiuscolo scuola primaria",
+    "vocali in corsivo maiuscolo e minuscolo da stampare",
+    "wordwall corsivo classe prima"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "storie in sequenza",
+    "sequenze di una storia",
+    "riordina la storia"
+   ],
+   "requests": 21,
+   "productiveSeeds": 15,
+   "unique": 48,
+   "suggestions": [
+    "ascolta la storia e riordina le sequenze classe prima",
+    "ascolta la storia e riordina le sequenze classe seconda",
+    "ascolta la storia e riordina le sequenze classe terza",
+    "riordina la storia",
+    "riordina la storia classe prima",
+    "riordina la storia classe seconda",
+    "riordina la storia classe terza",
+    "riordina la storia di cappuccetto rosso",
+    "riordina la storia in sequenze",
+    "riordina la storia scuola primaria",
+    "riordina la storia wordwall",
+    "riordina una storia classe prima",
+    "riordinare sequenze di una storia",
+    "riordinare sequenze di una storia classe prima",
+    "riordinare sequenze di una storia classe seconda",
+    "schede didattiche riordina la storia autunno classe prima",
+    "sequenza da stampare storie in sequenza erickson",
+    "sequenze di immagini per raccontare una storia",
+    "sequenze di immagini per raccontare una storia classe prima",
+    "sequenze di immagini per raccontare una storia classe seconda",
+    "sequenze di immagini per raccontare una storia classe terza",
+    "sequenze di una storia",
+    "sequenze di una storia da riordinare",
+    "storie da riordinare in sequenza classe prima",
+    "storie da riordinare in sequenza classe seconda",
+    "storie illustrate in sequenza classe prima",
+    "storie in sequenza",
+    "storie in sequenza classe prima",
+    "storie in sequenza classe prima maestra mary",
+    "storie in sequenza classe prima primaria",
+    "storie in sequenza classe seconda",
+    "storie in sequenza classe terza",
+    "storie in sequenza da riordinare",
+    "storie in sequenza da riordinare scuola primaria",
+    "storie in sequenza da riordinare scuola primaria classe prima",
+    "storie in sequenza da stampare",
+    "storie in sequenza da stampare autunno",
+    "storie in sequenza da stampare classe prima",
+    "storie in sequenza da stampare pdf",
+    "storie in sequenza pdf",
+    "storie in sequenza pdf autismo",
+    "storie in sequenza pdf classe prima",
+    "storie in sequenza pdf classe seconda",
+    "storie in sequenza pdf classe terza",
+    "storie in sequenza per bambini da stampare",
+    "storie in sequenza scuola infanzia da stampare",
+    "storie in sequenza scuola primaria",
+    "storie in sequenza wordwall"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "igiene orale",
+    "lavarsi i denti",
+    "igiene personale"
+   ],
+   "requests": 21,
+   "productiveSeeds": 7,
+   "unique": 43,
+   "suggestions": [
+    "i denti el igiene orale scuola primaria",
+    "igiene orale",
+    "igiene orale cane",
+    "igiene orale dentista",
+    "igiene orale gatto",
+    "igiene orale gbt",
+    "igiene orale in gravidanza",
+    "igiene orale neonato",
+    "igiene orale prezzo",
+    "igiene orale professionale",
+    "igiene orale scuola primaria",
+    "igiene orale è detraibile",
+    "igiene personale",
+    "igiene personale a domicilio",
+    "igiene personale anziano",
+    "igiene personale classe prima",
+    "igiene personale in inglese",
+    "igiene personale nel 1500",
+    "igiene personale nel 1800",
+    "igiene personale oss",
+    "igiene personale pdf",
+    "igiene personale quotidiana",
+    "igiene personale scuola primaria",
+    "igiene personale scuola primaria pdf",
+    "igiene personale scuola primaria video",
+    "igiene personale sinonimo",
+    "lavarsi i denti",
+    "lavarsi i denti 5 volte al giorno",
+    "lavarsi i denti con il bicarbonato",
+    "lavarsi i denti con olio di cocco",
+    "lavarsi i denti dopo il caffè",
+    "lavarsi i denti in inglese",
+    "lavarsi i denti in spagnolo",
+    "lavarsi i denti per 10 minuti",
+    "lavarsi i denti prima o dopo colazione",
+    "lavarsi i denti scuola primaria",
+    "lavarsi i denti subito dopo mangiato",
+    "progetto igiene personale scuola primaria",
+    "regole igiene personale scuola primaria",
+    "regole schede didattiche sull igiene personale scuola primaria",
+    "schede igiene personale scuola primaria",
+    "schede sull igiene personale classe prima",
+    "uda igiene personale scuola primaria"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "le case degli animali",
+    "ambienti naturali",
+    "adattamento degli animali"
+   ],
+   "requests": 21,
+   "productiveSeeds": 14,
+   "unique": 50,
+   "suggestions": [
+    "adattamento degli animali",
+    "adattamento degli animali al freddo",
+    "adattamento degli animali all ambiente",
+    "adattamento degli animali all ambiente scuola primaria",
+    "adattamento degli animali all ambiente scuola primaria mappa",
+    "adattamento degli animali classe seconda",
+    "adattamento degli animali classe terza",
+    "adattamento degli animali scuola primaria",
+    "ambienti naturali",
+    "ambienti naturali classe seconda",
+    "ambienti naturali classe terza",
+    "ambienti naturali e antropici",
+    "ambienti naturali e antropici classe seconda",
+    "ambienti naturali e antropici classe terza",
+    "ambienti naturali e artificiali",
+    "ambienti naturali e artificiali classe prima",
+    "ambienti naturali e artificiali classe seconda",
+    "ambienti naturali e artificiali scuola primaria",
+    "ambienti naturali esempi",
+    "ambienti naturali in europa",
+    "ambienti naturali in inglese",
+    "ambienti naturali in inglese scuola primaria",
+    "ambienti naturali quali sono",
+    "ambienti naturali scuola primaria",
+    "esempi di adattamento degli animali all ambiente",
+    "geografia ambienti naturali scuola primaria",
+    "gli ambienti naturali classe prima",
+    "gli ambienti naturali classe terza elementare",
+    "gli ambienti naturali scienze classe terza",
+    "gli ambienti naturali scuola primaria classe prima",
+    "gli ambienti naturali scuola primaria classe seconda",
+    "gli ambienti naturali scuola primaria classe terza",
+    "gli ambienti naturali scuola primaria classe terza scienze",
+    "gli ambienti naturali scuola primaria scienze",
+    "immagini di ambienti naturali da stampare",
+    "le case degli animali",
+    "le case degli animali albo illustrato",
+    "le case degli animali classe prima",
+    "le case degli animali classe seconda",
+    "le case degli animali libro",
+    "le case degli animali marianne dubuc",
+    "le case degli animali pimpa",
+    "le case degli animali schede didattiche",
+    "le case degli animali scuola primaria",
+    "le case degli animali video",
+    "schede ambienti naturali scuola primaria",
+    "strategie di adattamento degli animali scuola primaria",
+    "video adattamento degli animali all ambiente scuola primaria",
+    "video ambienti naturali e artificiali classe seconda",
+    "video ambienti naturali scuola primaria"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "cosa galleggia e cosa affonda",
+    "galleggia o va a fondo"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 11,
+   "suggestions": [
+    "cacca galleggia o va a fondo",
+    "cosa galleggia e cosa affonda",
+    "il ferro galleggia o va a fondo",
+    "il vetro galleggia o va a fondo",
+    "l olio galleggia o va a fondo",
+    "oro galleggia o va a fondo",
+    "sughero galleggia o va a fondo",
+    "un cadavere galleggia o va a fondo",
+    "uovo buono galleggia o va a fondo",
+    "uovo fresco galleggia o va a fondo",
+    "uovo galleggia o va a fondo"
+   ]
+  }
+ },
+ "suggestions": {
+  "corsivo maiuscolo": {
+   "candidate": "cursive-writing",
+   "s": [
+    "corsivo maiuscolo",
+    "corsivo maiuscolo e minuscolo",
+    "corsivo maiuscolo alfabeto",
+    "corsivo maiuscolo elementari",
+    "corsivo maiuscolo lettere",
+    "corsivo maiuscolo h",
+    "corsivo maiuscolo elegante",
+    "corsivo maiuscolo f",
+    "corsivo maiuscolo s",
+    "corsivo maiuscolo e minuscolo da stampare"
+   ]
+  },
+  "corsivo maiuscolo da stampare": {
+   "candidate": "cursive-writing",
+   "s": [
+    "corsivo maiuscolo da stampare",
+    "alfabeto corsivo maiuscolo da stampare",
+    "lettere in corsivo maiuscolo da stampare",
+    "corsivo maiuscolo e minuscolo da stampare",
+    "alfabeto corsivo maiuscolo e minuscolo da stampare",
+    "alfabeto corsivo maiuscolo e minuscolo da stampare pdf",
+    "vocali in corsivo maiuscolo e minuscolo da stampare",
+    "alfabeto italiano corsivo maiuscolo e minuscolo da stampare"
+   ]
+  },
+  "corsivo maiuscolo scuola primaria": {
+   "candidate": "cursive-writing",
+   "s": [
+    "corsivo maiuscolo scuola primaria",
+    "s corsivo maiuscolo scuola primaria",
+    "t corsivo maiuscolo scuola primaria",
+    "alfabeto corsivo maiuscolo scuola primaria",
+    "lettere in corsivo maiuscolo scuola primaria",
+    "alfabeto corsivo maiuscolo e minuscolo scuola primaria"
+   ]
+  },
+  "corsivo classe prima": {
+   "candidate": "cursive-writing",
+   "s": [
+    "corsivo classe prima",
+    "corsivo classe prima maestra anita",
+    "quaderno corsivo classe prima",
+    "wordwall corsivo classe prima",
+    "pregrafismo corsivo classe prima",
+    "schede corsivo classe prima",
+    "esercizi corsivo classe prima",
+    "presentazione corsivo classe prima",
+    "avvio al corsivo classe prima",
+    "insegnare il corsivo classe prima"
+   ]
+  },
+  "corsivo classe prima scuola primaria": {
+   "candidate": "cursive-writing",
+   "s": [
+    "corsivo classe prima scuola primaria"
+   ]
+  },
+  "parole in corsivo": {
+   "candidate": "cursive-writing",
+   "s": [
+    "parole in corsivo",
+    "parole in corsivo da copiare",
+    "parole in corsivo maiuscolo",
+    "parole in corsivo da stampare",
+    "parole in corsivo minuscolo",
+    "parole in corsivo prima elementare",
+    "parole in corsivo da ripassare",
+    "parole in corsivo russo",
+    "parole in corsivo tratteggiate da stampare",
+    "parole in corsivo da scrivere"
+   ]
+  },
+  "parole in corsivo da stampare": {
+   "candidate": "cursive-writing",
+   "s": [
+    "parole in corsivo da stampare",
+    "parole in corsivo tratteggiate da stampare",
+    "schede parole corsivo da stampare"
+   ]
+  },
+  "parole in corsivo scuola primaria": {
+   "candidate": "cursive-writing",
+   "s": [
+    "parole in corsivo scuola primaria"
+   ]
+  },
+  "storie in sequenza": {
+   "candidate": "story-sequencing",
+   "s": [
+    "storie in sequenza pdf",
+    "storie in sequenza",
+    "storie in sequenza da stampare",
+    "storie in sequenza wordwall",
+    "storie in sequenza scuola infanzia da stampare",
+    "storie in sequenza pdf classe prima",
+    "storie in sequenza pdf autismo",
+    "storie in sequenza da riordinare",
+    "storie in sequenza pdf classe terza",
+    "storie in sequenza pdf classe seconda"
+   ]
+  },
+  "storie in sequenza da stampare": {
+   "candidate": "story-sequencing",
+   "s": [
+    "storie in sequenza da stampare",
+    "storie in sequenza da stampare classe prima",
+    "storie in sequenza da stampare autunno",
+    "storie in sequenza da stampare pdf",
+    "storie in sequenza scuola infanzia da stampare",
+    "storie in sequenza per bambini da stampare",
+    "sequenza da stampare storie in sequenza erickson"
+   ]
+  },
+  "storie in sequenza scuola primaria": {
+   "candidate": "story-sequencing",
+   "s": [
+    "storie in sequenza scuola primaria",
+    "storie in sequenza da riordinare scuola primaria",
+    "storie in sequenza da riordinare scuola primaria classe prima"
+   ]
+  },
+  "storie in sequenza classe prima": {
+   "candidate": "story-sequencing",
+   "s": [
+    "storie in sequenza classe prima maestra mary",
+    "storie in sequenza classe prima",
+    "storie in sequenza pdf classe prima",
+    "storie in sequenza classe prima primaria",
+    "storie illustrate in sequenza classe prima",
+    "storie in sequenza da stampare classe prima",
+    "storie da riordinare in sequenza classe prima"
+   ]
+  },
+  "storie in sequenza classe seconda": {
+   "candidate": "story-sequencing",
+   "s": [
+    "storie in sequenza classe seconda",
+    "storie in sequenza pdf classe seconda",
+    "storie da riordinare in sequenza classe seconda"
+   ]
+  },
+  "storie in sequenza classe terza": {
+   "candidate": "story-sequencing",
+   "s": [
+    "storie in sequenza classe terza",
+    "storie in sequenza pdf classe terza"
+   ]
+  },
+  "sequenze di una storia": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequenze di una storia",
+    "sequenze di una storia da riordinare",
+    "riordinare sequenze di una storia classe seconda",
+    "riordinare sequenze di una storia classe prima",
+    "riordinare sequenze di una storia",
+    "sequenze di immagini per raccontare una storia",
+    "sequenze di immagini per raccontare una storia classe prima",
+    "sequenze di immagini per raccontare una storia classe terza",
+    "sequenze di immagini per raccontare una storia classe seconda"
+   ]
+  },
+  "sequenze di una storia classe prima": {
+   "candidate": "story-sequencing",
+   "s": [
+    "riordinare sequenze di una storia classe prima",
+    "sequenze di immagini per raccontare una storia classe prima"
+   ]
+  },
+  "sequenze di una storia classe seconda": {
+   "candidate": "story-sequencing",
+   "s": [
+    "riordinare sequenze di una storia classe seconda",
+    "sequenze di immagini per raccontare una storia classe seconda"
+   ]
+  },
+  "sequenze di una storia classe terza": {
+   "candidate": "story-sequencing",
+   "s": [
+    "sequenze di immagini per raccontare una storia classe terza"
+   ]
+  },
+  "riordina la storia": {
+   "candidate": "story-sequencing",
+   "s": [
+    "riordina la storia",
+    "riordina la storia classe prima",
+    "riordina la storia classe seconda",
+    "riordina la storia in sequenze",
+    "riordina la storia wordwall",
+    "riordina la storia di cappuccetto rosso",
+    "riordina la storia scuola primaria",
+    "riordina la storia classe terza",
+    "schede didattiche riordina la storia autunno classe prima"
+   ]
+  },
+  "riordina la storia scuola primaria": {
+   "candidate": "story-sequencing",
+   "s": [
+    "riordina la storia scuola primaria"
+   ]
+  },
+  "riordina la storia classe prima": {
+   "candidate": "story-sequencing",
+   "s": [
+    "riordina la storia classe prima",
+    "riordina una storia classe prima",
+    "schede didattiche riordina la storia autunno classe prima",
+    "ascolta la storia e riordina le sequenze classe prima"
+   ]
+  },
+  "riordina la storia classe seconda": {
+   "candidate": "story-sequencing",
+   "s": [
+    "riordina la storia classe seconda",
+    "ascolta la storia e riordina le sequenze classe seconda"
+   ]
+  },
+  "riordina la storia classe terza": {
+   "candidate": "story-sequencing",
+   "s": [
+    "riordina la storia classe terza",
+    "ascolta la storia e riordina le sequenze classe terza"
+   ]
+  },
+  "igiene orale": {
+   "candidate": "healthy-habits",
+   "s": [
+    "igiene orale",
+    "igiene orale dentista",
+    "igiene orale neonato",
+    "igiene orale cane",
+    "igiene orale gbt",
+    "igiene orale prezzo",
+    "igiene orale professionale",
+    "igiene orale in gravidanza",
+    "igiene orale gatto",
+    "igiene orale è detraibile"
+   ]
+  },
+  "igiene orale scuola primaria": {
+   "candidate": "healthy-habits",
+   "s": [
+    "igiene orale scuola primaria",
+    "i denti el igiene orale scuola primaria"
+   ]
+  },
+  "lavarsi i denti": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavarsi i denti con il bicarbonato",
+    "lavarsi i denti prima o dopo colazione",
+    "lavarsi i denti",
+    "lavarsi i denti in inglese",
+    "lavarsi i denti subito dopo mangiato",
+    "lavarsi i denti 5 volte al giorno",
+    "lavarsi i denti per 10 minuti",
+    "lavarsi i denti in spagnolo",
+    "lavarsi i denti dopo il caffè",
+    "lavarsi i denti con olio di cocco"
+   ]
+  },
+  "lavarsi i denti scuola primaria": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavarsi i denti scuola primaria"
+   ]
+  },
+  "igiene personale": {
+   "candidate": "healthy-habits",
+   "s": [
+    "igiene personale",
+    "igiene personale oss",
+    "igiene personale anziano",
+    "igiene personale in inglese",
+    "igiene personale pdf",
+    "igiene personale quotidiana",
+    "igiene personale sinonimo",
+    "igiene personale a domicilio",
+    "igiene personale nel 1800",
+    "igiene personale nel 1500"
+   ]
+  },
+  "igiene personale scuola primaria": {
+   "candidate": "healthy-habits",
+   "s": [
+    "igiene personale scuola primaria pdf",
+    "igiene personale scuola primaria",
+    "igiene personale scuola primaria video",
+    "progetto igiene personale scuola primaria",
+    "regole igiene personale scuola primaria",
+    "uda igiene personale scuola primaria",
+    "schede igiene personale scuola primaria",
+    "regole schede didattiche sull igiene personale scuola primaria"
+   ]
+  },
+  "igiene personale classe prima": {
+   "candidate": "healthy-habits",
+   "s": [
+    "igiene personale classe prima",
+    "schede sull igiene personale classe prima"
+   ]
+  },
+  "le case degli animali": {
+   "candidate": "habitats",
+   "s": [
+    "le case degli animali",
+    "le case degli animali classe seconda",
+    "le case degli animali scuola primaria",
+    "le case degli animali schede didattiche",
+    "le case degli animali libro",
+    "le case degli animali pimpa",
+    "le case degli animali marianne dubuc",
+    "le case degli animali classe prima",
+    "le case degli animali video",
+    "le case degli animali albo illustrato"
+   ]
+  },
+  "le case degli animali scuola primaria": {
+   "candidate": "habitats",
+   "s": [
+    "le case degli animali scuola primaria"
+   ]
+  },
+  "le case degli animali classe prima": {
+   "candidate": "habitats",
+   "s": [
+    "le case degli animali classe prima"
+   ]
+  },
+  "le case degli animali classe seconda": {
+   "candidate": "habitats",
+   "s": [
+    "le case degli animali classe seconda"
+   ]
+  },
+  "ambienti naturali": {
+   "candidate": "habitats",
+   "s": [
+    "ambienti naturali",
+    "ambienti naturali e artificiali",
+    "ambienti naturali scuola primaria",
+    "ambienti naturali e antropici",
+    "ambienti naturali e artificiali scuola primaria",
+    "ambienti naturali in inglese scuola primaria",
+    "ambienti naturali in europa",
+    "ambienti naturali esempi",
+    "ambienti naturali quali sono",
+    "ambienti naturali in inglese"
+   ]
+  },
+  "ambienti naturali da stampare": {
+   "candidate": "habitats",
+   "s": [
+    "immagini di ambienti naturali da stampare"
+   ]
+  },
+  "ambienti naturali scuola primaria": {
+   "candidate": "habitats",
+   "s": [
+    "ambienti naturali scuola primaria",
+    "gli ambienti naturali scuola primaria classe terza",
+    "video ambienti naturali scuola primaria",
+    "gli ambienti naturali scuola primaria classe prima",
+    "geografia ambienti naturali scuola primaria",
+    "gli ambienti naturali scuola primaria classe terza scienze",
+    "gli ambienti naturali scuola primaria scienze",
+    "gli ambienti naturali scuola primaria classe seconda",
+    "schede ambienti naturali scuola primaria",
+    "ambienti naturali e artificiali scuola primaria"
+   ]
+  },
+  "ambienti naturali classe prima": {
+   "candidate": "habitats",
+   "s": [
+    "gli ambienti naturali classe prima",
+    "ambienti naturali e artificiali classe prima",
+    "gli ambienti naturali scuola primaria classe terza",
+    "gli ambienti naturali scuola primaria classe terza scienze",
+    "gli ambienti naturali scuola primaria classe seconda"
+   ]
+  },
+  "ambienti naturali classe seconda": {
+   "candidate": "habitats",
+   "s": [
+    "ambienti naturali classe seconda",
+    "ambienti naturali e antropici classe seconda",
+    "ambienti naturali e artificiali classe seconda",
+    "video ambienti naturali e artificiali classe seconda",
+    "gli ambienti naturali scuola primaria classe seconda"
+   ]
+  },
+  "ambienti naturali classe terza": {
+   "candidate": "habitats",
+   "s": [
+    "ambienti naturali classe terza",
+    "gli ambienti naturali classe terza elementare",
+    "ambienti naturali e antropici classe terza",
+    "gli ambienti naturali scienze classe terza"
+   ]
+  },
+  "adattamento degli animali": {
+   "candidate": "habitats",
+   "s": [
+    "adattamento degli animali scuola primaria",
+    "adattamento degli animali",
+    "adattamento degli animali all ambiente",
+    "adattamento degli animali all ambiente scuola primaria",
+    "adattamento degli animali all ambiente scuola primaria mappa",
+    "adattamento degli animali classe terza",
+    "adattamento degli animali al freddo",
+    "adattamento degli animali classe seconda",
+    "video adattamento degli animali all ambiente scuola primaria",
+    "esempi di adattamento degli animali all ambiente"
+   ]
+  },
+  "adattamento degli animali scuola primaria": {
+   "candidate": "habitats",
+   "s": [
+    "adattamento degli animali scuola primaria",
+    "adattamento degli animali all ambiente scuola primaria",
+    "adattamento degli animali all ambiente scuola primaria mappa",
+    "strategie di adattamento degli animali scuola primaria",
+    "video adattamento degli animali all ambiente scuola primaria"
+   ]
+  },
+  "adattamento degli animali classe seconda": {
+   "candidate": "habitats",
+   "s": [
+    "adattamento degli animali classe seconda"
+   ]
+  },
+  "adattamento degli animali classe terza": {
+   "candidate": "habitats",
+   "s": [
+    "adattamento degli animali classe terza"
+   ]
+  },
+  "cosa galleggia e cosa affonda": {
+   "candidate": "sink-or-float",
+   "s": [
+    "cosa galleggia e cosa affonda"
+   ]
+  },
+  "galleggia o va a fondo": {
+   "candidate": "sink-or-float",
+   "s": [
+    "uovo galleggia o va a fondo",
+    "cacca galleggia o va a fondo",
+    "oro galleggia o va a fondo",
+    "sughero galleggia o va a fondo",
+    "uovo fresco galleggia o va a fondo",
+    "un cadavere galleggia o va a fondo",
+    "uovo buono galleggia o va a fondo",
+    "il vetro galleggia o va a fondo",
+    "l olio galleggia o va a fondo",
+    "il ferro galleggia o va a fondo"
+   ]
+  }
+ }
+}

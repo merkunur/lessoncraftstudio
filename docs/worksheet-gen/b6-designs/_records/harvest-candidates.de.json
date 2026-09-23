@@ -1,0 +1,1224 @@
+{
+ "locale": "de",
+ "market": {
+  "hl": "de",
+  "gl": "de"
+ },
+ "generatedAt": "2026-09-23T15:54:16.619Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/candidate-seeds.json",
+ "requestCount": 112,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "schreibschrift",
+    "schreibschrift üben",
+    "lateinische ausgangsschrift",
+    "vereinfachte ausgangsschrift"
+   ],
+   "requests": 28,
+   "productiveSeeds": 27,
+   "unique": 131,
+   "suggestions": [
+    "arbeitsblatt schreibschrift 1 klasse",
+    "arbeitsblatt schreibschrift l",
+    "arbeitsblatt schreibschrift m",
+    "arbeitsblatt schreibschrift s",
+    "arbeitsblatt schreibschrift u",
+    "arbeitsblatt schreibschrift üben",
+    "lateinische ausgangsschrift",
+    "lateinische ausgangsschrift alphabet zum ausdrucken",
+    "lateinische ausgangsschrift arbeitsblatt",
+    "lateinische ausgangsschrift arbeitsblätter kostenlos",
+    "lateinische ausgangsschrift download",
+    "lateinische ausgangsschrift font",
+    "lateinische ausgangsschrift grundschule",
+    "lateinische ausgangsschrift klasse 1",
+    "lateinische ausgangsschrift klasse 2",
+    "lateinische ausgangsschrift klasse 3",
+    "lateinische ausgangsschrift kostenlos herunterladen",
+    "lateinische ausgangsschrift pdf",
+    "lateinische ausgangsschrift poster",
+    "lateinische ausgangsschrift zum ausdrucken",
+    "lateinische ausgangsschrift übungen",
+    "lateinische ausgangsschrift übungen grundschule",
+    "lateinische ausgangsschrift übungen klasse 2",
+    "lateinische ausgangsschrift übungen klasse 3",
+    "lateinische ausgangsschrift übungsblätter pdf kostenlos",
+    "schreibschrift",
+    "schreibschrift 1 klasse alphabet",
+    "schreibschrift 1 klasse baden württemberg",
+    "schreibschrift 1 klasse bayern",
+    "schreibschrift 1 klasse pdf",
+    "schreibschrift 1 klasse sachsen",
+    "schreibschrift 1 klasse zum ausdrucken",
+    "schreibschrift 1 klasse üben",
+    "schreibschrift 1 klasse übungsblätter",
+    "schreibschrift 2 klasse baden württemberg",
+    "schreibschrift 2 klasse bayern",
+    "schreibschrift 2 klasse buchstaben",
+    "schreibschrift 2 klasse zum ausdrucken",
+    "schreibschrift 2 klasse österreich",
+    "schreibschrift 2 klasse übungsblätter",
+    "schreibschrift 3 klasse bayern",
+    "schreibschrift 3 klasse lineatur",
+    "schreibschrift 3 klasse übungen",
+    "schreibschrift alphabet",
+    "schreibschrift alphabet zum ausdrucken kostenlos",
+    "schreibschrift alphabet zum ausdrucken pdf",
+    "schreibschrift alphabet zum ausdrucken pdf kostenlos",
+    "schreibschrift arbeitsblatt",
+    "schreibschrift arbeitsblatt 2 klasse",
+    "schreibschrift arbeitsblatt kostenlos",
+    "schreibschrift arbeitsblatt pdf",
+    "schreibschrift b",
+    "schreibschrift buchstaben",
+    "schreibschrift buchstaben zum ausdrucken",
+    "schreibschrift buchstaben üben grundschule",
+    "schreibschrift f",
+    "schreibschrift generator",
+    "schreibschrift grundschule",
+    "schreibschrift grundschule bayern",
+    "schreibschrift grundschule brandenburg",
+    "schreibschrift grundschule bw",
+    "schreibschrift grundschule download",
+    "schreibschrift grundschule generator",
+    "schreibschrift grundschule heute",
+    "schreibschrift grundschule niedersachsen",
+    "schreibschrift grundschule nrw",
+    "schreibschrift grundschule rlp",
+    "schreibschrift heft klasse 1",
+    "schreibschrift heft klasse 3",
+    "schreibschrift i",
+    "schreibschrift klasse 1",
+    "schreibschrift klasse 2",
+    "schreibschrift klasse 2 einführung",
+    "schreibschrift klasse 2 pdf",
+    "schreibschrift klasse 2 übungen",
+    "schreibschrift klasse 3",
+    "schreibschrift klasse 3 pdf",
+    "schreibschrift l",
+    "schreibschrift lernen und üben schulausgangsschrift klasse 2 4",
+    "schreibschrift linien klasse 3",
+    "schreibschrift s",
+    "schreibschrift vorlagen zum ausdrucken",
+    "schreibschrift vorlagen zum ausdrucken kostenlos",
+    "schreibschrift z",
+    "schreibschrift zum ausdrucken",
+    "schreibschrift zum ausdrucken pdf",
+    "schreibschrift österreich zum ausdrucken",
+    "schreibschrift üben",
+    "schreibschrift üben 1 klasse pdf",
+    "schreibschrift üben 1. klasse",
+    "schreibschrift üben 2 klasse arbeitsblätter",
+    "schreibschrift üben 2 klasse bayern",
+    "schreibschrift üben 2 klasse heft",
+    "schreibschrift üben 2 klasse kostenlos",
+    "schreibschrift üben 2. klasse",
+    "schreibschrift üben 2. klasse zum ausdrucken",
+    "schreibschrift üben 3 klasse pdf",
+    "schreibschrift üben 4 klasse",
+    "schreibschrift üben arbeitsblatt",
+    "schreibschrift üben arbeitsblätter",
+    "schreibschrift üben erwachsene",
+    "schreibschrift üben grundschule",
+    "schreibschrift üben heft",
+    "schreibschrift üben klasse 1",
+    "schreibschrift üben klasse 2",
+    "schreibschrift üben klasse 2 pdf",
+    "schreibschrift üben klasse 3",
+    "schreibschrift üben kostenlos",
+    "schreibschrift üben pdf",
+    "schreibschrift üben zum ausdrucken",
+    "schreibschrift übungen klasse 3 pdf",
+    "schreibschrift übungsblätter zum ausdrucken",
+    "schreibschrift übungsheft klasse 3",
+    "vereinfachte ausgangsschrift",
+    "vereinfachte ausgangsschrift (va)",
+    "vereinfachte ausgangsschrift 2 klasse",
+    "vereinfachte ausgangsschrift alphabet zum ausdrucken",
+    "vereinfachte ausgangsschrift arbeitsblatt",
+    "vereinfachte ausgangsschrift bayern",
+    "vereinfachte ausgangsschrift download",
+    "vereinfachte ausgangsschrift download kostenlos",
+    "vereinfachte ausgangsschrift grundschule",
+    "vereinfachte ausgangsschrift klasse 3",
+    "vereinfachte ausgangsschrift lineatur klasse 3",
+    "vereinfachte ausgangsschrift pdf",
+    "vereinfachte ausgangsschrift schreibschrift",
+    "vereinfachte ausgangsschrift text",
+    "vereinfachte ausgangsschrift zum ausdrucken",
+    "vereinfachte ausgangsschrift übungen",
+    "vereinfachte ausgangsschrift übungen pdf",
+    "wiederholung schreibschrift klasse 3"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "bildergeschichte",
+    "bildergeschichten ordnen",
+    "reihenfolge bilder"
+   ],
+   "requests": 21,
+   "productiveSeeds": 14,
+   "unique": 87,
+   "suggestions": [
+    "arbeitsblatt bildergeschichte 2 klasse",
+    "arbeitsblatt bildergeschichte 3 klasse",
+    "arbeitsblatt bildergeschichte 4 klasse",
+    "arbeitsblatt bildergeschichte 5 klasse",
+    "arbeitsblatt bildergeschichte schreiben",
+    "arbeitsblatt bildergeschichte vater und sohn",
+    "aschenputtel bildergeschichte zum ausdrucken",
+    "bilder reihenfolge grundschule",
+    "bildergeschichte",
+    "bildergeschichte 1 klasse gymnasium",
+    "bildergeschichte 1 klasse gymnasium beispiele",
+    "bildergeschichte 1 klasse gymnasium mit lösung",
+    "bildergeschichte 1 klasse gymnasium schularbeit",
+    "bildergeschichte 1 klasse mittelschule",
+    "bildergeschichte 1 klasse volksschule",
+    "bildergeschichte 2. klasse",
+    "bildergeschichte 3 klasse",
+    "bildergeschichte 4 klasse",
+    "bildergeschichte 5 klasse",
+    "bildergeschichte arbeitsblatt",
+    "bildergeschichte arbeitsblatt kostenlos",
+    "bildergeschichte arbeitsblatt pdf",
+    "bildergeschichte fußball zum ausdrucken",
+    "bildergeschichte grundschule",
+    "bildergeschichte grundschule 4 bilder",
+    "bildergeschichte grundschule arbeitsblätter",
+    "bildergeschichte grundschule klasse 2",
+    "bildergeschichte grundschule klasse 3",
+    "bildergeschichte grundschule klasse 4",
+    "bildergeschichte grundschule kostenlos",
+    "bildergeschichte grundschule pdf",
+    "bildergeschichte grundschule winter",
+    "bildergeschichte grundschule zeitform",
+    "bildergeschichte klasse 1",
+    "bildergeschichte klasse 1 2",
+    "bildergeschichte klasse 1 kostenlos",
+    "bildergeschichte klasse 1 pdf",
+    "bildergeschichte klasse 2",
+    "bildergeschichte klasse 2 eduki",
+    "bildergeschichte klasse 2 einführung",
+    "bildergeschichte klasse 2 frau locke",
+    "bildergeschichte klasse 2 frühling",
+    "bildergeschichte klasse 2 kostenlos",
+    "bildergeschichte klasse 2 mit worthilfen",
+    "bildergeschichte klasse 2 pdf",
+    "bildergeschichte klasse 2 vater und sohn",
+    "bildergeschichte klasse 2 winter",
+    "bildergeschichte klasse 3",
+    "bildergeschichte klasse 3 klassenarbeit",
+    "bildergeschichte klasse 3 kostenlos",
+    "bildergeschichte klasse 3 pdf",
+    "bildergeschichte klasse 3 pdf kostenlos",
+    "bildergeschichte klasse 3 vater und sohn",
+    "bildergeschichte klasse 3 winter",
+    "bildergeschichte klasse 3 üben",
+    "bildergeschichte klasse 3 üben kostenlos",
+    "bildergeschichte klasse 3 übung pdf",
+    "bildergeschichte ordnen 1 klasse",
+    "bildergeschichte ordnen arbeitsblatt",
+    "bildergeschichte ordnen grundschule",
+    "bildergeschichte ordnen klasse 2",
+    "bildergeschichte rätsel",
+    "bildergeschichte vater und sohn",
+    "bildergeschichte weihnachten zum ausdrucken",
+    "bildergeschichte winter zum ausdrucken",
+    "bildergeschichte zum ausdrucken",
+    "bildergeschichte zum ausdrucken für kindergarten",
+    "bildergeschichte zum ausdrucken kostenlos",
+    "bildergeschichte zum ausdrucken pdf",
+    "bildergeschichten",
+    "bildergeschichten 2 klasse zum ausdrucken",
+    "bildergeschichten ordnen",
+    "bildergeschichten ordnen kindergarten",
+    "bildergeschichten ordnen teil 2",
+    "reihenfolge bilder",
+    "reihenfolge bilder einer ausstellung",
+    "reihenfolge bilder facebook ändern",
+    "reihenfolge bilder im status ändern",
+    "reihenfolge bilder instagram post ändern",
+    "reihenfolge bilder instagram ändern",
+    "reihenfolge bilder iphone ändern",
+    "reihenfolge bilder whatsapp status",
+    "reihenfolge bilder whatsapp ändern",
+    "reihenfolge bildergeschichte",
+    "rotkäppchen bildergeschichte zum ausdrucken kostenlos",
+    "schneewittchen bildergeschichte zum ausdrucken",
+    "sternchenverlag bildergeschichten ordnen"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "hygiene",
+    "zähne putzen",
+    "hände waschen",
+    "gesunde lebensweise"
+   ],
+   "requests": 28,
+   "productiveSeeds": 18,
+   "unique": 95,
+   "suggestions": [
+    "arbeitsblatt hygiene in der küche",
+    "arbeitsblatt hygiene in der schulküche",
+    "arbeitsblatt hygiene pflege",
+    "arbeitsblatt hygiene pubertät",
+    "arbeitsblatt zähne putzen klasse 1",
+    "bitte hände waschen schild zum ausdrucken",
+    "experimente hygiene grundschule",
+    "gesunde lebensweise",
+    "gesunde lebensweise arbeitsblatt",
+    "gesunde lebensweise bei bluthochdruck",
+    "gesunde lebensweise beispiele",
+    "gesunde lebensweise definition",
+    "gesunde lebensweise führen",
+    "gesunde lebensweise grundschule",
+    "gesunde lebensweise in der schwangerschaft",
+    "gesunde lebensweise plan",
+    "gesunde lebensweise tipps",
+    "hygiene",
+    "hygiene arbeitsblatt",
+    "hygiene arbeitsblatt grundschule",
+    "hygiene arbeitsblatt pdf",
+    "hygiene bilder zum ausdrucken",
+    "hygiene englisch",
+    "hygiene grundschule",
+    "hygiene grundschule arbeitsblätter",
+    "hygiene grundschule ideenreise",
+    "hygiene grundschule klasse 1",
+    "hygiene hinweisschilder zum ausdrucken",
+    "hygiene kinder grundschule",
+    "hygiene klasse 1",
+    "hygiene körperpflege arbeitsblatt",
+    "hygiene plakate zum ausdrucken",
+    "hygiene pubertät grundschule",
+    "hygiene sachunterricht grundschule",
+    "hygiene shop",
+    "hygiene unterrichtsmaterial grundschule",
+    "hygiene waschmittel",
+    "hygieneartikel",
+    "hygienebelehrung",
+    "hygienebeutel",
+    "hygieneschulung",
+    "hygienespeicher",
+    "hygienespüler",
+    "hände waschen",
+    "hände waschen anleitung zum ausdrucken",
+    "hände waschen anleitung zum ausdrucken kostenlos",
+    "hände waschen anleitung zum ausdrucken pdf",
+    "hände waschen arbeitsblatt",
+    "hände waschen bild",
+    "hände waschen bild zum ausdrucken",
+    "hände waschen grundschule",
+    "hände waschen grundschule frau locke",
+    "hände waschen hände waschen muss ein jedes kind text",
+    "hände waschen kinderlied",
+    "hände waschen klasse 1",
+    "hände waschen lied",
+    "hände waschen lied pdf",
+    "hände waschen lied text",
+    "hände waschen muss ein jedes kind",
+    "hände waschen ohne wasser",
+    "hände waschen text",
+    "hände waschen und desinfizieren anleitung zum ausdrucken",
+    "persönliche hygiene arbeitsblatt",
+    "piktogramm hände waschen zum ausdrucken",
+    "projekt hygiene grundschule",
+    "richtig hände waschen arbeitsblatt",
+    "richtig hände waschen grundschule",
+    "richtig zähne putzen arbeitsblatt",
+    "richtig zähne putzen grundschule",
+    "richtig zähne putzen klasse 1",
+    "schild hände waschen zum ausdrucken kostenlos",
+    "vorgangsbeschreibung hände waschen grundschule",
+    "zum ausdrucken zähne putzen kinder plakat",
+    "zähne putzen",
+    "zähne putzen arbeitsblatt",
+    "zähne putzen baby",
+    "zähne putzen bilder zum ausdrucken",
+    "zähne putzen englisch",
+    "zähne putzen grundschule",
+    "zähne putzen grundschule arbeitsblatt",
+    "zähne putzen grundschule film",
+    "zähne putzen grundschule kai",
+    "zähne putzen grundschule klasse 1",
+    "zähne putzen grundschule video",
+    "zähne putzen hund",
+    "zähne putzen kai arbeitsblatt",
+    "zähne putzen klasse 1",
+    "zähne putzen lied",
+    "zähne putzen lied grundschule",
+    "zähne putzen lied text",
+    "zähne putzen nach weisheitszahn op",
+    "zähne putzen pullern und ab ins bett",
+    "zähne putzen spanisch",
+    "zähne putzen vor oder nach dem frühstück",
+    "zähne putzen zum ausdrucken"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "lebensraum tiere",
+    "wo wohnen die tiere",
+    "tiere und ihre lebensräume"
+   ],
+   "requests": 21,
+   "productiveSeeds": 6,
+   "unique": 25,
+   "suggestions": [
+    "lebensraum für tiere",
+    "lebensraum tiere",
+    "lebensraum tiere englisch",
+    "lebensraum tiere grundschule",
+    "lebensraum tiere synonym",
+    "lebensraum tiere und pflanzen",
+    "lebensraum tiere wald",
+    "mein riesen pappebuch natur tiere und ihre lebensräume",
+    "mit herz und hand für tiere und ihre lebensräume",
+    "tiere lebensraum wasser",
+    "tiere lebensraum wiese",
+    "tiere lebensraum zuordnen",
+    "tiere und ihre lebensräume",
+    "tiere und ihre lebensräume grundschule",
+    "tiere und ihre lebensräume kindergarten",
+    "wo die wilden tiere wohnen",
+    "wo die wilden tiere wohnen buch",
+    "wo wohnen die magischen tiere",
+    "wo wohnen die schule der magischen tiere",
+    "wo wohnen die tiere",
+    "wo wohnen die tiere arbeitsblatt",
+    "wo wohnen die tiere buch",
+    "wo wohnen die tiere im wald",
+    "wo wohnen. die tiere im winter",
+    "zieh und sieh wo wohnen die tiere"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "schwimmen und sinken",
+    "schwimmt oder sinkt"
+   ],
+   "requests": 14,
+   "productiveSeeds": 8,
+   "unique": 41,
+   "suggestions": [
+    "arbeitsblatt schwimmen und sinken klasse 1",
+    "einheit schwimmen und sinken klasse 2",
+    "sachunterricht klasse 1 schwimmen und sinken",
+    "sachunterricht klasse 2 schwimmen und sinken",
+    "sachunterricht klasse 3 schwimmen und sinken",
+    "schwimmen schweben sinken arbeitsblatt",
+    "schwimmen und sinken",
+    "schwimmen und sinken arbeitsblatt",
+    "schwimmen und sinken checker tobi",
+    "schwimmen und sinken erklärung",
+    "schwimmen und sinken grundschule",
+    "schwimmen und sinken grundschule arbeitsblatt",
+    "schwimmen und sinken grundschule erklärung",
+    "schwimmen und sinken grundschule film",
+    "schwimmen und sinken grundschule klasse 1",
+    "schwimmen und sinken grundschule klasse 2",
+    "schwimmen und sinken grundschule klasse 3",
+    "schwimmen und sinken grundschule material",
+    "schwimmen und sinken grundschule unterrichtsentwurf",
+    "schwimmen und sinken grundschule video",
+    "schwimmen und sinken klasse 1",
+    "schwimmen und sinken klasse 1 arbeitsblätter",
+    "schwimmen und sinken klasse 1 erklärung",
+    "schwimmen und sinken klasse 1 unterrichtsentwurf",
+    "schwimmen und sinken klasse 2",
+    "schwimmen und sinken klasse 3",
+    "schwimmen und sinken material",
+    "schwimmt oder sinkt",
+    "schwimmt oder sinkt ein apfel",
+    "schwimmt oder sinkt ein ei",
+    "schwimmt oder sinkt ein radiergummi",
+    "schwimmt oder sinkt ein schwamm",
+    "schwimmt oder sinkt eine büroklammer",
+    "schwimmt oder sinkt experiment",
+    "schwimmt oder sinkt glas",
+    "schwimmt oder sinkt holz",
+    "schwimmt oder sinkt plastik",
+    "sinkt oder schwimmt arbeitsblatt",
+    "unterrichtseinheit schwimmen und sinken klasse 1",
+    "unterrichtseinheit schwimmen und sinken klasse 2",
+    "unterrichtsreihe schwimmen und sinken klasse 1"
+   ]
+  }
+ },
+ "suggestions": {
+  "schreibschrift": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift",
+    "schreibschrift buchstaben",
+    "schreibschrift s",
+    "schreibschrift generator",
+    "schreibschrift i",
+    "schreibschrift alphabet",
+    "schreibschrift l",
+    "schreibschrift z",
+    "schreibschrift f",
+    "schreibschrift b"
+   ]
+  },
+  "schreibschrift arbeitsblatt": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift arbeitsblatt",
+    "schreibschrift arbeitsblatt pdf",
+    "schreibschrift arbeitsblatt 2 klasse",
+    "schreibschrift arbeitsblatt kostenlos",
+    "arbeitsblatt schreibschrift üben",
+    "arbeitsblatt schreibschrift l",
+    "arbeitsblatt schreibschrift s",
+    "arbeitsblatt schreibschrift 1 klasse",
+    "arbeitsblatt schreibschrift m",
+    "arbeitsblatt schreibschrift u"
+   ]
+  },
+  "schreibschrift zum ausdrucken": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift zum ausdrucken pdf",
+    "schreibschrift zum ausdrucken",
+    "schreibschrift alphabet zum ausdrucken pdf",
+    "schreibschrift vorlagen zum ausdrucken",
+    "schreibschrift alphabet zum ausdrucken pdf kostenlos",
+    "schreibschrift alphabet zum ausdrucken kostenlos",
+    "schreibschrift übungsblätter zum ausdrucken",
+    "schreibschrift österreich zum ausdrucken",
+    "schreibschrift buchstaben zum ausdrucken",
+    "schreibschrift vorlagen zum ausdrucken kostenlos"
+   ]
+  },
+  "schreibschrift grundschule": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift grundschule",
+    "schreibschrift grundschule heute",
+    "schreibschrift grundschule bw",
+    "schreibschrift grundschule bayern",
+    "schreibschrift grundschule niedersachsen",
+    "schreibschrift grundschule generator",
+    "schreibschrift grundschule download",
+    "schreibschrift grundschule nrw",
+    "schreibschrift grundschule rlp",
+    "schreibschrift grundschule brandenburg"
+   ]
+  },
+  "schreibschrift klasse 1": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift klasse 1",
+    "schreibschrift 1 klasse übungsblätter",
+    "schreibschrift 1 klasse zum ausdrucken",
+    "schreibschrift 1 klasse bayern",
+    "schreibschrift 1 klasse sachsen",
+    "schreibschrift 1 klasse baden württemberg",
+    "schreibschrift 1 klasse alphabet",
+    "schreibschrift 1 klasse üben",
+    "schreibschrift 1 klasse pdf",
+    "schreibschrift heft klasse 1"
+   ]
+  },
+  "schreibschrift klasse 2": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift klasse 2 übungen",
+    "schreibschrift klasse 2 einführung",
+    "schreibschrift klasse 2",
+    "schreibschrift klasse 2 pdf",
+    "schreibschrift 2 klasse zum ausdrucken",
+    "schreibschrift 2 klasse bayern",
+    "schreibschrift 2 klasse übungsblätter",
+    "schreibschrift 2 klasse österreich",
+    "schreibschrift 2 klasse buchstaben",
+    "schreibschrift 2 klasse baden württemberg"
+   ]
+  },
+  "schreibschrift klasse 3": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift klasse 3",
+    "schreibschrift klasse 3 pdf",
+    "schreibschrift 3 klasse übungen",
+    "schreibschrift 3 klasse bayern",
+    "schreibschrift 3 klasse lineatur",
+    "schreibschrift heft klasse 3",
+    "wiederholung schreibschrift klasse 3",
+    "schreibschrift linien klasse 3",
+    "schreibschrift übungen klasse 3 pdf",
+    "schreibschrift übungsheft klasse 3"
+   ]
+  },
+  "schreibschrift üben": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift üben",
+    "schreibschrift üben 2. klasse",
+    "schreibschrift üben 3 klasse pdf",
+    "schreibschrift üben pdf",
+    "schreibschrift üben arbeitsblätter",
+    "schreibschrift üben kostenlos",
+    "schreibschrift üben 4 klasse",
+    "schreibschrift üben heft",
+    "schreibschrift üben 1. klasse",
+    "schreibschrift üben erwachsene"
+   ]
+  },
+  "schreibschrift üben arbeitsblatt": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift üben arbeitsblatt"
+   ]
+  },
+  "schreibschrift üben zum ausdrucken": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift üben zum ausdrucken",
+    "schreibschrift üben 2. klasse zum ausdrucken"
+   ]
+  },
+  "schreibschrift üben grundschule": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift üben grundschule",
+    "schreibschrift buchstaben üben grundschule"
+   ]
+  },
+  "schreibschrift üben klasse 1": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift üben klasse 1",
+    "schreibschrift üben 1 klasse pdf"
+   ]
+  },
+  "schreibschrift üben klasse 2": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift üben klasse 2",
+    "schreibschrift üben klasse 2 pdf",
+    "schreibschrift üben 2 klasse kostenlos",
+    "schreibschrift üben 2 klasse arbeitsblätter",
+    "schreibschrift üben 2 klasse bayern",
+    "schreibschrift üben 2 klasse heft",
+    "schreibschrift üben 2. klasse zum ausdrucken",
+    "schreibschrift lernen und üben schulausgangsschrift klasse 2 4"
+   ]
+  },
+  "schreibschrift üben klasse 3": {
+   "candidate": "cursive-writing",
+   "s": [
+    "schreibschrift üben klasse 3",
+    "schreibschrift üben 3 klasse pdf"
+   ]
+  },
+  "lateinische ausgangsschrift": {
+   "candidate": "cursive-writing",
+   "s": [
+    "lateinische ausgangsschrift",
+    "lateinische ausgangsschrift pdf",
+    "lateinische ausgangsschrift übungsblätter pdf kostenlos",
+    "lateinische ausgangsschrift übungen",
+    "lateinische ausgangsschrift poster",
+    "lateinische ausgangsschrift download",
+    "lateinische ausgangsschrift font",
+    "lateinische ausgangsschrift grundschule",
+    "lateinische ausgangsschrift arbeitsblätter kostenlos",
+    "lateinische ausgangsschrift kostenlos herunterladen"
+   ]
+  },
+  "lateinische ausgangsschrift arbeitsblatt": {
+   "candidate": "cursive-writing",
+   "s": [
+    "lateinische ausgangsschrift arbeitsblatt"
+   ]
+  },
+  "lateinische ausgangsschrift zum ausdrucken": {
+   "candidate": "cursive-writing",
+   "s": [
+    "lateinische ausgangsschrift zum ausdrucken",
+    "lateinische ausgangsschrift alphabet zum ausdrucken"
+   ]
+  },
+  "lateinische ausgangsschrift grundschule": {
+   "candidate": "cursive-writing",
+   "s": [
+    "lateinische ausgangsschrift grundschule",
+    "lateinische ausgangsschrift übungen grundschule"
+   ]
+  },
+  "lateinische ausgangsschrift klasse 1": {
+   "candidate": "cursive-writing",
+   "s": [
+    "lateinische ausgangsschrift klasse 1"
+   ]
+  },
+  "lateinische ausgangsschrift klasse 2": {
+   "candidate": "cursive-writing",
+   "s": [
+    "lateinische ausgangsschrift klasse 2",
+    "lateinische ausgangsschrift übungen klasse 2"
+   ]
+  },
+  "lateinische ausgangsschrift klasse 3": {
+   "candidate": "cursive-writing",
+   "s": [
+    "lateinische ausgangsschrift klasse 3",
+    "lateinische ausgangsschrift übungen klasse 3"
+   ]
+  },
+  "vereinfachte ausgangsschrift": {
+   "candidate": "cursive-writing",
+   "s": [
+    "vereinfachte ausgangsschrift",
+    "vereinfachte ausgangsschrift übungen pdf",
+    "vereinfachte ausgangsschrift pdf",
+    "vereinfachte ausgangsschrift schreibschrift",
+    "vereinfachte ausgangsschrift download kostenlos",
+    "vereinfachte ausgangsschrift (va)",
+    "vereinfachte ausgangsschrift übungen",
+    "vereinfachte ausgangsschrift bayern",
+    "vereinfachte ausgangsschrift download",
+    "vereinfachte ausgangsschrift text"
+   ]
+  },
+  "vereinfachte ausgangsschrift arbeitsblatt": {
+   "candidate": "cursive-writing",
+   "s": [
+    "vereinfachte ausgangsschrift arbeitsblatt"
+   ]
+  },
+  "vereinfachte ausgangsschrift zum ausdrucken": {
+   "candidate": "cursive-writing",
+   "s": [
+    "vereinfachte ausgangsschrift zum ausdrucken",
+    "vereinfachte ausgangsschrift alphabet zum ausdrucken"
+   ]
+  },
+  "vereinfachte ausgangsschrift grundschule": {
+   "candidate": "cursive-writing",
+   "s": [
+    "vereinfachte ausgangsschrift grundschule"
+   ]
+  },
+  "vereinfachte ausgangsschrift klasse 2": {
+   "candidate": "cursive-writing",
+   "s": [
+    "vereinfachte ausgangsschrift 2 klasse"
+   ]
+  },
+  "vereinfachte ausgangsschrift klasse 3": {
+   "candidate": "cursive-writing",
+   "s": [
+    "vereinfachte ausgangsschrift klasse 3",
+    "vereinfachte ausgangsschrift lineatur klasse 3"
+   ]
+  },
+  "bildergeschichte": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte",
+    "bildergeschichte 3 klasse",
+    "bildergeschichte 5 klasse",
+    "bildergeschichten",
+    "bildergeschichte 2. klasse",
+    "bildergeschichte 4 klasse",
+    "bildergeschichte rätsel",
+    "bildergeschichte grundschule",
+    "bildergeschichten 2 klasse zum ausdrucken",
+    "bildergeschichte vater und sohn"
+   ]
+  },
+  "bildergeschichte arbeitsblatt": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte arbeitsblatt",
+    "bildergeschichte arbeitsblatt pdf",
+    "bildergeschichte arbeitsblatt kostenlos",
+    "arbeitsblatt bildergeschichte 3 klasse",
+    "arbeitsblatt bildergeschichte 5 klasse",
+    "arbeitsblatt bildergeschichte 2 klasse",
+    "arbeitsblatt bildergeschichte 4 klasse",
+    "arbeitsblatt bildergeschichte schreiben",
+    "arbeitsblatt bildergeschichte vater und sohn",
+    "bildergeschichte ordnen arbeitsblatt"
+   ]
+  },
+  "bildergeschichte zum ausdrucken": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte zum ausdrucken",
+    "bildergeschichte zum ausdrucken kostenlos",
+    "bildergeschichte zum ausdrucken pdf",
+    "bildergeschichte zum ausdrucken für kindergarten",
+    "bildergeschichte winter zum ausdrucken",
+    "bildergeschichte weihnachten zum ausdrucken",
+    "schneewittchen bildergeschichte zum ausdrucken",
+    "aschenputtel bildergeschichte zum ausdrucken",
+    "bildergeschichte fußball zum ausdrucken",
+    "rotkäppchen bildergeschichte zum ausdrucken kostenlos"
+   ]
+  },
+  "bildergeschichte grundschule": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte grundschule",
+    "bildergeschichte grundschule klasse 3",
+    "bildergeschichte grundschule klasse 2",
+    "bildergeschichte grundschule pdf",
+    "bildergeschichte grundschule klasse 4",
+    "bildergeschichte grundschule 4 bilder",
+    "bildergeschichte grundschule winter",
+    "bildergeschichte grundschule kostenlos",
+    "bildergeschichte grundschule zeitform",
+    "bildergeschichte grundschule arbeitsblätter"
+   ]
+  },
+  "bildergeschichte klasse 1": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte klasse 1",
+    "bildergeschichte klasse 1 pdf",
+    "bildergeschichte klasse 1 2",
+    "bildergeschichte klasse 1 kostenlos",
+    "bildergeschichte 1 klasse gymnasium mit lösung",
+    "bildergeschichte 1 klasse gymnasium",
+    "bildergeschichte 1 klasse mittelschule",
+    "bildergeschichte 1 klasse gymnasium schularbeit",
+    "bildergeschichte 1 klasse volksschule",
+    "bildergeschichte 1 klasse gymnasium beispiele"
+   ]
+  },
+  "bildergeschichte klasse 2": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte klasse 2",
+    "bildergeschichte klasse 2 frau locke",
+    "bildergeschichte klasse 2 pdf",
+    "bildergeschichte klasse 2 einführung",
+    "bildergeschichte klasse 2 kostenlos",
+    "bildergeschichte klasse 2 winter",
+    "bildergeschichte klasse 2 eduki",
+    "bildergeschichte klasse 2 frühling",
+    "bildergeschichte klasse 2 vater und sohn",
+    "bildergeschichte klasse 2 mit worthilfen"
+   ]
+  },
+  "bildergeschichte klasse 3": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte klasse 3",
+    "bildergeschichte klasse 3 pdf",
+    "bildergeschichte klasse 3 pdf kostenlos",
+    "bildergeschichte klasse 3 klassenarbeit",
+    "bildergeschichte klasse 3 üben",
+    "bildergeschichte klasse 3 üben kostenlos",
+    "bildergeschichte klasse 3 kostenlos",
+    "bildergeschichte klasse 3 vater und sohn",
+    "bildergeschichte klasse 3 winter",
+    "bildergeschichte klasse 3 übung pdf"
+   ]
+  },
+  "bildergeschichten ordnen": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichten ordnen",
+    "bildergeschichten ordnen kindergarten",
+    "bildergeschichten ordnen teil 2",
+    "sternchenverlag bildergeschichten ordnen"
+   ]
+  },
+  "bildergeschichten ordnen arbeitsblatt": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte ordnen arbeitsblatt"
+   ]
+  },
+  "bildergeschichten ordnen grundschule": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte ordnen grundschule"
+   ]
+  },
+  "bildergeschichten ordnen klasse 1": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte ordnen 1 klasse"
+   ]
+  },
+  "bildergeschichten ordnen klasse 2": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bildergeschichte ordnen klasse 2"
+   ]
+  },
+  "reihenfolge bilder": {
+   "candidate": "story-sequencing",
+   "s": [
+    "reihenfolge bilder whatsapp status",
+    "reihenfolge bilder whatsapp ändern",
+    "reihenfolge bilder im status ändern",
+    "reihenfolge bilder instagram post ändern",
+    "reihenfolge bilder instagram ändern",
+    "reihenfolge bilder",
+    "reihenfolge bilder einer ausstellung",
+    "reihenfolge bilder iphone ändern",
+    "reihenfolge bildergeschichte",
+    "reihenfolge bilder facebook ändern"
+   ]
+  },
+  "reihenfolge bilder grundschule": {
+   "candidate": "story-sequencing",
+   "s": [
+    "bilder reihenfolge grundschule"
+   ]
+  },
+  "hygiene": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hygiene",
+    "hygienespüler",
+    "hygiene waschmittel",
+    "hygieneschulung",
+    "hygieneartikel",
+    "hygienebeutel",
+    "hygienespeicher",
+    "hygiene shop",
+    "hygienebelehrung",
+    "hygiene englisch"
+   ]
+  },
+  "hygiene arbeitsblatt": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hygiene arbeitsblatt pdf",
+    "hygiene arbeitsblatt",
+    "hygiene arbeitsblatt grundschule",
+    "arbeitsblatt hygiene pflege",
+    "arbeitsblatt hygiene in der küche",
+    "arbeitsblatt hygiene in der schulküche",
+    "arbeitsblatt hygiene pubertät",
+    "hygiene körperpflege arbeitsblatt",
+    "persönliche hygiene arbeitsblatt"
+   ]
+  },
+  "hygiene zum ausdrucken": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hygiene plakate zum ausdrucken",
+    "hygiene bilder zum ausdrucken",
+    "hygiene hinweisschilder zum ausdrucken"
+   ]
+  },
+  "hygiene grundschule": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hygiene grundschule",
+    "hygiene grundschule ideenreise",
+    "hygiene grundschule arbeitsblätter",
+    "hygiene grundschule klasse 1",
+    "hygiene kinder grundschule",
+    "hygiene unterrichtsmaterial grundschule",
+    "hygiene pubertät grundschule",
+    "experimente hygiene grundschule",
+    "hygiene sachunterricht grundschule",
+    "projekt hygiene grundschule"
+   ]
+  },
+  "hygiene klasse 1": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hygiene klasse 1",
+    "hygiene grundschule klasse 1"
+   ]
+  },
+  "zähne putzen": {
+   "candidate": "healthy-habits",
+   "s": [
+    "zähne putzen",
+    "zähne putzen lied",
+    "zähne putzen hund",
+    "zähne putzen vor oder nach dem frühstück",
+    "zähne putzen nach weisheitszahn op",
+    "zähne putzen pullern und ab ins bett",
+    "zähne putzen baby",
+    "zähne putzen lied text",
+    "zähne putzen englisch",
+    "zähne putzen spanisch"
+   ]
+  },
+  "zähne putzen arbeitsblatt": {
+   "candidate": "healthy-habits",
+   "s": [
+    "zähne putzen arbeitsblatt",
+    "zähne putzen kai arbeitsblatt",
+    "zähne putzen grundschule arbeitsblatt",
+    "richtig zähne putzen arbeitsblatt",
+    "arbeitsblatt zähne putzen klasse 1"
+   ]
+  },
+  "zähne putzen zum ausdrucken": {
+   "candidate": "healthy-habits",
+   "s": [
+    "zähne putzen zum ausdrucken",
+    "zähne putzen bilder zum ausdrucken",
+    "zum ausdrucken zähne putzen kinder plakat"
+   ]
+  },
+  "zähne putzen grundschule": {
+   "candidate": "healthy-habits",
+   "s": [
+    "zähne putzen grundschule",
+    "zähne putzen grundschule arbeitsblatt",
+    "zähne putzen grundschule film",
+    "zähne putzen grundschule video",
+    "zähne putzen grundschule klasse 1",
+    "zähne putzen grundschule kai",
+    "zähne putzen lied grundschule",
+    "richtig zähne putzen grundschule"
+   ]
+  },
+  "zähne putzen klasse 1": {
+   "candidate": "healthy-habits",
+   "s": [
+    "zähne putzen klasse 1",
+    "richtig zähne putzen klasse 1",
+    "arbeitsblatt zähne putzen klasse 1",
+    "zähne putzen grundschule klasse 1"
+   ]
+  },
+  "hände waschen": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hände waschen lied",
+    "hände waschen",
+    "hände waschen muss ein jedes kind",
+    "hände waschen kinderlied",
+    "hände waschen lied text",
+    "hände waschen hände waschen muss ein jedes kind text",
+    "hände waschen bild",
+    "hände waschen lied pdf",
+    "hände waschen text",
+    "hände waschen ohne wasser"
+   ]
+  },
+  "hände waschen arbeitsblatt": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hände waschen arbeitsblatt",
+    "richtig hände waschen arbeitsblatt"
+   ]
+  },
+  "hände waschen zum ausdrucken": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hände waschen bild zum ausdrucken",
+    "hände waschen anleitung zum ausdrucken",
+    "schild hände waschen zum ausdrucken kostenlos",
+    "hände waschen anleitung zum ausdrucken kostenlos",
+    "piktogramm hände waschen zum ausdrucken",
+    "hände waschen anleitung zum ausdrucken pdf",
+    "bitte hände waschen schild zum ausdrucken",
+    "hände waschen und desinfizieren anleitung zum ausdrucken"
+   ]
+  },
+  "hände waschen grundschule": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hände waschen grundschule",
+    "hände waschen grundschule frau locke",
+    "richtig hände waschen grundschule",
+    "vorgangsbeschreibung hände waschen grundschule"
+   ]
+  },
+  "hände waschen klasse 1": {
+   "candidate": "healthy-habits",
+   "s": [
+    "hände waschen klasse 1"
+   ]
+  },
+  "gesunde lebensweise": {
+   "candidate": "healthy-habits",
+   "s": [
+    "gesunde lebensweise",
+    "gesunde lebensweise plan",
+    "gesunde lebensweise tipps",
+    "gesunde lebensweise arbeitsblatt",
+    "gesunde lebensweise definition",
+    "gesunde lebensweise grundschule",
+    "gesunde lebensweise führen",
+    "gesunde lebensweise beispiele",
+    "gesunde lebensweise bei bluthochdruck",
+    "gesunde lebensweise in der schwangerschaft"
+   ]
+  },
+  "gesunde lebensweise arbeitsblatt": {
+   "candidate": "healthy-habits",
+   "s": [
+    "gesunde lebensweise arbeitsblatt"
+   ]
+  },
+  "gesunde lebensweise grundschule": {
+   "candidate": "healthy-habits",
+   "s": [
+    "gesunde lebensweise grundschule"
+   ]
+  },
+  "lebensraum tiere": {
+   "candidate": "habitats",
+   "s": [
+    "lebensraum tiere",
+    "lebensraum tiere und pflanzen",
+    "lebensraum tiere englisch",
+    "lebensraum tiere synonym",
+    "lebensraum tiere wald",
+    "lebensraum tiere grundschule",
+    "tiere lebensraum zuordnen",
+    "tiere lebensraum wiese",
+    "tiere lebensraum wasser",
+    "lebensraum für tiere"
+   ]
+  },
+  "lebensraum tiere grundschule": {
+   "candidate": "habitats",
+   "s": [
+    "lebensraum tiere grundschule"
+   ]
+  },
+  "wo wohnen die tiere": {
+   "candidate": "habitats",
+   "s": [
+    "wo wohnen die tiere",
+    "wo wohnen die tiere buch",
+    "wo wohnen die tiere arbeitsblatt",
+    "wo wohnen. die tiere im winter",
+    "wo wohnen die tiere im wald",
+    "wo wohnen die magischen tiere",
+    "zieh und sieh wo wohnen die tiere",
+    "wo wohnen die schule der magischen tiere",
+    "wo die wilden tiere wohnen",
+    "wo die wilden tiere wohnen buch"
+   ]
+  },
+  "wo wohnen die tiere arbeitsblatt": {
+   "candidate": "habitats",
+   "s": [
+    "wo wohnen die tiere arbeitsblatt"
+   ]
+  },
+  "tiere und ihre lebensräume": {
+   "candidate": "habitats",
+   "s": [
+    "tiere und ihre lebensräume",
+    "tiere und ihre lebensräume kindergarten",
+    "tiere und ihre lebensräume grundschule",
+    "mein riesen pappebuch natur tiere und ihre lebensräume",
+    "mit herz und hand für tiere und ihre lebensräume"
+   ]
+  },
+  "tiere und ihre lebensräume grundschule": {
+   "candidate": "habitats",
+   "s": [
+    "tiere und ihre lebensräume grundschule"
+   ]
+  },
+  "schwimmen und sinken": {
+   "candidate": "sink-or-float",
+   "s": [
+    "schwimmen und sinken",
+    "schwimmen und sinken grundschule",
+    "schwimmen und sinken checker tobi",
+    "schwimmen und sinken klasse 1",
+    "schwimmen und sinken klasse 2",
+    "schwimmen und sinken grundschule video",
+    "schwimmen und sinken klasse 3",
+    "schwimmen und sinken erklärung",
+    "schwimmen und sinken grundschule arbeitsblatt",
+    "schwimmen und sinken material"
+   ]
+  },
+  "schwimmen und sinken arbeitsblatt": {
+   "candidate": "sink-or-float",
+   "s": [
+    "schwimmen und sinken arbeitsblatt",
+    "schwimmen und sinken grundschule arbeitsblatt",
+    "schwimmen schweben sinken arbeitsblatt",
+    "arbeitsblatt schwimmen und sinken klasse 1"
+   ]
+  },
+  "schwimmen und sinken grundschule": {
+   "candidate": "sink-or-float",
+   "s": [
+    "schwimmen und sinken grundschule",
+    "schwimmen und sinken grundschule video",
+    "schwimmen und sinken grundschule arbeitsblatt",
+    "schwimmen und sinken grundschule material",
+    "schwimmen und sinken grundschule film",
+    "schwimmen und sinken grundschule klasse 1",
+    "schwimmen und sinken grundschule klasse 2",
+    "schwimmen und sinken grundschule unterrichtsentwurf",
+    "schwimmen und sinken grundschule erklärung",
+    "schwimmen und sinken grundschule klasse 3"
+   ]
+  },
+  "schwimmen und sinken klasse 1": {
+   "candidate": "sink-or-float",
+   "s": [
+    "schwimmen und sinken klasse 1",
+    "schwimmen und sinken klasse 1 arbeitsblätter",
+    "schwimmen und sinken klasse 1 erklärung",
+    "schwimmen und sinken klasse 1 unterrichtsentwurf",
+    "schwimmen und sinken grundschule klasse 1",
+    "unterrichtseinheit schwimmen und sinken klasse 1",
+    "unterrichtsreihe schwimmen und sinken klasse 1",
+    "sachunterricht klasse 1 schwimmen und sinken"
+   ]
+  },
+  "schwimmen und sinken klasse 2": {
+   "candidate": "sink-or-float",
+   "s": [
+    "schwimmen und sinken klasse 2",
+    "schwimmen und sinken grundschule klasse 2",
+    "unterrichtseinheit schwimmen und sinken klasse 2",
+    "einheit schwimmen und sinken klasse 2",
+    "sachunterricht klasse 2 schwimmen und sinken"
+   ]
+  },
+  "schwimmen und sinken klasse 3": {
+   "candidate": "sink-or-float",
+   "s": [
+    "schwimmen und sinken klasse 3",
+    "schwimmen und sinken grundschule klasse 3",
+    "sachunterricht klasse 3 schwimmen und sinken"
+   ]
+  },
+  "schwimmt oder sinkt": {
+   "candidate": "sink-or-float",
+   "s": [
+    "schwimmt oder sinkt",
+    "schwimmt oder sinkt experiment",
+    "schwimmt oder sinkt plastik",
+    "schwimmt oder sinkt ein ei",
+    "schwimmt oder sinkt eine büroklammer",
+    "schwimmt oder sinkt ein schwamm",
+    "schwimmt oder sinkt ein radiergummi",
+    "schwimmt oder sinkt glas",
+    "schwimmt oder sinkt ein apfel",
+    "schwimmt oder sinkt holz"
+   ]
+  },
+  "schwimmt oder sinkt arbeitsblatt": {
+   "candidate": "sink-or-float",
+   "s": [
+    "sinkt oder schwimmt arbeitsblatt"
+   ]
+  }
+ }
+}

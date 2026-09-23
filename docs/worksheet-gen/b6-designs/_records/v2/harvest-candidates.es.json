@@ -1,0 +1,750 @@
+{
+ "locale": "es",
+ "market": {
+  "hl": "es",
+  "gl": "mx"
+ },
+ "generatedAt": "2026-09-23T16:10:08.087Z",
+ "seedFile": "docs/worksheet-gen/b6-designs/_records/v2/candidate-seeds-v2.json",
+ "requestCount": 105,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "cursive-writing": {
+   "heads": [
+    "abecedario en letra cursiva",
+    "planas de letra cursiva",
+    "enlaces letra cursiva"
+   ],
+   "requests": 21,
+   "productiveSeeds": 10,
+   "unique": 36,
+   "suggestions": [
+    "abecedario en cursiva para imprimir letra por letra",
+    "abecedario en letra cursiva",
+    "abecedario en letra cursiva elegante",
+    "abecedario en letra cursiva grande para imprimir",
+    "abecedario en letra cursiva mayuscula para imprimir",
+    "abecedario en letra cursiva mayuscula y minuscula para imprimir",
+    "abecedario en letra cursiva mayúscula",
+    "abecedario en letra cursiva mayúscula y minúscula",
+    "abecedario en letra cursiva mayúscula y minúscula para imprimir",
+    "abecedario en letra cursiva minúscula",
+    "abecedario en letra cursiva para copiar y pegar",
+    "abecedario en letra cursiva para imprimir",
+    "abecedario en letra cursiva para imprimir gratis",
+    "abecedario en letra cursiva para imprimir pdf",
+    "abecedario en letra cursiva para niños",
+    "abecedario en letra cursiva para niños de preescolar",
+    "abecedario en letra cursiva para primaria",
+    "abecedario en letra cursiva para primer grado",
+    "abecedario en letra cursiva para remarcar",
+    "abecedario en letra cursiva para segundo grado",
+    "abecedario letra cursiva ejercicios para imprimir",
+    "el abecedario en letra cursiva mayuscula y minuscula para imprimir 0bepinterest",
+    "enlaces letra cursiva",
+    "fichas del abecedario en letra cursiva para imprimir",
+    "planas de abecedario en letra cursiva",
+    "planas de caligrafia letra cursiva",
+    "planas de caligrafia letra cursiva abecedario",
+    "planas de caligrafia para letra cursiva",
+    "planas de las vocales en letra cursiva para imprimir",
+    "planas de letra cursiva",
+    "planas de letra cursiva para imprimir",
+    "planas de letra cursiva para niños",
+    "planas de letra cursiva pdf",
+    "planas de vocales en letra cursiva",
+    "planas para letra cursiva",
+    "planas para mejorar la letra cursiva para imprimir"
+   ]
+  },
+  "story-sequencing": {
+   "heads": [
+    "secuencias de un cuento",
+    "qué pasa después",
+    "inicio desarrollo y final"
+   ],
+   "requests": 21,
+   "productiveSeeds": 5,
+   "unique": 32,
+   "suggestions": [
+    "cuentos cortos con inicio desarrollo y final para imprimir",
+    "inicio desarrollo y final",
+    "inicio desarrollo y final de la primera guerra mundial",
+    "inicio desarrollo y final de un cuento",
+    "inicio desarrollo y final de un cuento para niños",
+    "inicio desarrollo y final de una historia",
+    "inicio desarrollo y final del cuento de caperucita roja",
+    "inicio desarrollo y final del cuento de los tres cerditos",
+    "inicio desarrollo y final del cuento de los tres cerditos corto",
+    "inicio desarrollo y final en ingles",
+    "inicio desarrollo y final para niños",
+    "ordenar secuencias de un cuento",
+    "primaria cuento corto con inicio desarrollo y final",
+    "que pasa después de la menopausia",
+    "qué pasa después",
+    "qué pasa después de extirpar un tumor maligno",
+    "qué pasa después de la muerte",
+    "qué pasa después de morir",
+    "qué pasa después de que te desparasitas",
+    "qué pasa después de que te mueres",
+    "qué pasa después de un aborto",
+    "qué pasa después de una histerectomía por cáncer",
+    "qué pasa después meme",
+    "secuencias de cuentos para colorear",
+    "secuencias de cuentos para colorear e imprimir pdf",
+    "secuencias de cuentos para niños",
+    "secuencias de cuentos para ordenar y colorear",
+    "secuencias de cuentos tradicionales para imprimir",
+    "secuencias de un cuento",
+    "secuencias de un cuento corto",
+    "secuencias de un cuento para ordenar",
+    "secuencias narrativas de un cuento"
+   ]
+  },
+  "healthy-habits": {
+   "heads": [
+    "cepillado de dientes",
+    "lavado de manos pasos",
+    "higiene personal"
+   ],
+   "requests": 21,
+   "productiveSeeds": 15,
+   "unique": 94,
+   "suggestions": [
+    "actividad cepillado de dientes preescolar",
+    "actividades de cepillado de dientes para preescolar",
+    "actividades de higiene personal para imprimir",
+    "actividades de higiene personal para segundo grado",
+    "actividades de higiene personal primaria",
+    "actividades de higiene personal primer grado",
+    "cepillado de dientes",
+    "cepillado de dientes animado",
+    "cepillado de dientes con brackets",
+    "cepillado de dientes correcto",
+    "cepillado de dientes dibujo",
+    "cepillado de dientes en niños",
+    "cepillado de dientes oms",
+    "cepillado de dientes para imprimir",
+    "cepillado de dientes para niños",
+    "cepillado de dientes para niños de primaria",
+    "cepillado de dientes pasos",
+    "cepillado de dientes perros",
+    "cepillado de dientes preescolar",
+    "concepto de higiene personal para segundo grado",
+    "elementos de higiene personal primer grado",
+    "ficha cepillado de dientes",
+    "ficha de higiene personal para primer grado",
+    "fichas higiene personal primaria",
+    "habitos de higiene personal fichas",
+    "habitos de higiene personal para primer grado",
+    "habitos de higiene personal para segundo grado",
+    "habitos de higiene personal preescolar",
+    "habitos de higiene personal primer grado",
+    "higiene personal",
+    "higiene personal concepto",
+    "higiene personal dibujos",
+    "higiene personal dibujos para imprimir",
+    "higiene personal en cocina",
+    "higiene personal en ingles",
+    "higiene personal en la adolescencia",
+    "higiene personal en la escuela",
+    "higiene personal ficha",
+    "higiene personal fichas para imprimir",
+    "higiene personal imagenes para imprimir",
+    "higiene personal imágenes",
+    "higiene personal letras para imprimir",
+    "higiene personal niños de primaria",
+    "higiene personal niños preescolar",
+    "higiene personal para cuarto de primaria",
+    "higiene personal para imprimir",
+    "higiene personal para niños",
+    "higiene personal para niños de primaria pdf",
+    "higiene personal para niños de primer grado",
+    "higiene personal para niños fichas",
+    "higiene personal para preescolar",
+    "higiene personal para primaria",
+    "higiene personal para primer grado",
+    "higiene personal para primer grado de primaria",
+    "higiene personal para segundo grado",
+    "higiene personal para segundo grado de primaria",
+    "higiene personal pdf",
+    "higiene personal preescolar",
+    "higiene personal preescolar actividades",
+    "higiene personal preescolar para colorear",
+    "higiene personal preescolar planeacion",
+    "higiene personal primaria",
+    "higiene personal primer grado",
+    "higiene personal segundo grado",
+    "imagenes cepillado de dientes para imprimir",
+    "imagenes de higiene personal preescolar",
+    "juego de cepillado de dientes para imprimir",
+    "lavado de manos imagenes para imprimir",
+    "lavado de manos letras para imprimir",
+    "lavado de manos oms para imprimir",
+    "lavado de manos para imprimir",
+    "lavado de manos para imprimir pdf",
+    "lavado de manos pasos",
+    "lavado de manos pasos 5 momentos",
+    "lavado de manos pasos enfermeria",
+    "lavado de manos pasos imagenes",
+    "lavado de manos pasos minsa",
+    "lavado de manos pasos msp",
+    "lavado de manos pasos oms",
+    "lavado de manos pasos para imprimir",
+    "lavado de manos pasos para niños",
+    "lavado de manos pasos pdf",
+    "loteria de higiene personal para imprimir",
+    "memorama de higiene personal para imprimir",
+    "palabra higiene personal para imprimir",
+    "pasos imágenes de lavado de manos para imprimir",
+    "pasos lavado de manos preescolar",
+    "planeación de higiene personal primaria",
+    "proyecto de higiene personal para primer grado",
+    "proyecto de higiene personal preescolar pdf",
+    "proyecto higiene personal preescolar",
+    "proyecto higiene personal primaria",
+    "secuencia didactica higiene personal primaria",
+    "triptico de higiene personal para imprimir"
+   ]
+  },
+  "habitats": {
+   "heads": [
+    "animales y su hábitat",
+    "casas de los animales",
+    "adaptación de los animales"
+   ],
+   "requests": 21,
+   "productiveSeeds": 10,
+   "unique": 38,
+   "suggestions": [
+    "10 animales y su hábitat",
+    "adaptacion de los animales para niños",
+    "adaptación de los animales",
+    "adaptación de los animales a la temperatura",
+    "adaptación de los animales acuáticos",
+    "adaptación de los animales aeroterrestres",
+    "adaptación de los animales al medio ambiente",
+    "adaptación de los animales dibujo",
+    "adaptación de los animales ejemplos",
+    "adaptación de los animales grado segundo",
+    "adaptación de los animales terrestres",
+    "adaptación de los animales y vegetales al ambiente",
+    "animales segun su habitat para segundo grado",
+    "animales segun su habitat primer grado",
+    "animales y su habitat en ingles para niños",
+    "animales y su habitat wordwall",
+    "animales y su hábitat",
+    "animales y su hábitat actividades",
+    "animales y su hábitat en inglés",
+    "animales y su hábitat natural",
+    "animales y su hábitat para colorear",
+    "animales y su hábitat para imprimir",
+    "animales y su hábitat para niños",
+    "animales y su hábitat para preescolar",
+    "casas de animales con figuras geométricas",
+    "casas de animales en minecraft",
+    "casas de animales lego minecraft",
+    "casas de animales nombres",
+    "casas de animales para imprimir",
+    "casas de animales salvajes",
+    "casas de los animales",
+    "casas de los animales para colorear",
+    "casas de los animales para niños",
+    "diferentes casas de los animales",
+    "las casas de los animales libro",
+    "los animales y su hábitat 2 primaria",
+    "planeación animales y su hábitat preescolar",
+    "situación didáctica los animales y su hábitat preescolar"
+   ]
+  },
+  "sink-or-float": {
+   "heads": [
+    "objetos que flotan y se hunden",
+    "qué flota y qué se hunde",
+    "experimento de flotación"
+   ],
+   "requests": 21,
+   "productiveSeeds": 4,
+   "unique": 24,
+   "suggestions": [
+    "caca que flota y caca que se hunde",
+    "ejemplos de objetos que flotan y se hunden",
+    "experimento de flotación",
+    "experimento de flotación para niños",
+    "experimento de flotación y hundimiento",
+    "experimento del huevo que flota y el huevo que se hunde",
+    "experimento flotacion de un huevo",
+    "experimento flotación infantil",
+    "experimento objetos que flotan y se hunde",
+    "experimento que flota y que se hunde",
+    "huevo que flota y huevo que se hunde",
+    "imagenes de objetos que flotan y se hunden",
+    "objetos que flotan y se hunden",
+    "objetos que flotan y se hunden en el agua",
+    "objetos que flotan y se hunden para colorear",
+    "objetos que flotan y se hunden para inicial",
+    "objetos que flotan y se hunden para niños",
+    "objetos que flotan y se hunden preescolar",
+    "porque hay caca que flota y caca que se hunde",
+    "porque hay objetos que flotan y otros se hunden",
+    "que flota y que se hunde",
+    "que flota y se hunde en el agua",
+    "que objetos flotan y cuales se hunden",
+    "que se hunde y que flota cuento"
+   ]
+  }
+ },
+ "suggestions": {
+  "abecedario en letra cursiva": {
+   "candidate": "cursive-writing",
+   "s": [
+    "abecedario en letra cursiva",
+    "abecedario en letra cursiva mayúscula y minúscula",
+    "abecedario en letra cursiva mayúscula",
+    "abecedario en letra cursiva para imprimir",
+    "abecedario en letra cursiva elegante",
+    "abecedario en letra cursiva minúscula",
+    "abecedario en letra cursiva para copiar y pegar",
+    "abecedario en letra cursiva para niños",
+    "abecedario en letra cursiva para remarcar",
+    "abecedario en letra cursiva mayúscula y minúscula para imprimir"
+   ]
+  },
+  "abecedario en letra cursiva ficha": {
+   "candidate": "cursive-writing",
+   "s": [
+    "fichas del abecedario en letra cursiva para imprimir"
+   ]
+  },
+  "abecedario en letra cursiva para imprimir": {
+   "candidate": "cursive-writing",
+   "s": [
+    "abecedario en letra cursiva para imprimir",
+    "abecedario en letra cursiva para imprimir gratis",
+    "abecedario en letra cursiva para imprimir pdf",
+    "abecedario en letra cursiva grande para imprimir",
+    "abecedario en letra cursiva mayuscula para imprimir",
+    "fichas del abecedario en letra cursiva para imprimir",
+    "abecedario en letra cursiva mayuscula y minuscula para imprimir",
+    "abecedario letra cursiva ejercicios para imprimir",
+    "abecedario en cursiva para imprimir letra por letra",
+    "el abecedario en letra cursiva mayuscula y minuscula para imprimir 0bepinterest"
+   ]
+  },
+  "abecedario en letra cursiva preescolar": {
+   "candidate": "cursive-writing",
+   "s": [
+    "abecedario en letra cursiva para niños de preescolar"
+   ]
+  },
+  "abecedario en letra cursiva primer grado": {
+   "candidate": "cursive-writing",
+   "s": [
+    "abecedario en letra cursiva para primer grado"
+   ]
+  },
+  "abecedario en letra cursiva segundo grado": {
+   "candidate": "cursive-writing",
+   "s": [
+    "abecedario en letra cursiva para segundo grado"
+   ]
+  },
+  "abecedario en letra cursiva primaria": {
+   "candidate": "cursive-writing",
+   "s": [
+    "abecedario en letra cursiva para primaria"
+   ]
+  },
+  "planas de letra cursiva": {
+   "candidate": "cursive-writing",
+   "s": [
+    "planas de letra cursiva",
+    "planas de letra cursiva para niños",
+    "planas de letra cursiva para imprimir",
+    "planas de letra cursiva pdf",
+    "planas de caligrafia letra cursiva abecedario",
+    "planas de caligrafia letra cursiva",
+    "planas de abecedario en letra cursiva",
+    "planas de caligrafia para letra cursiva",
+    "planas de vocales en letra cursiva",
+    "planas para letra cursiva"
+   ]
+  },
+  "planas de letra cursiva para imprimir": {
+   "candidate": "cursive-writing",
+   "s": [
+    "planas de letra cursiva para imprimir",
+    "planas de las vocales en letra cursiva para imprimir",
+    "planas para mejorar la letra cursiva para imprimir"
+   ]
+  },
+  "enlaces letra cursiva": {
+   "candidate": "cursive-writing",
+   "s": [
+    "enlaces letra cursiva"
+   ]
+  },
+  "secuencias de un cuento": {
+   "candidate": "story-sequencing",
+   "s": [
+    "secuencias de un cuento",
+    "secuencias de un cuento para ordenar",
+    "secuencias de un cuento corto",
+    "ordenar secuencias de un cuento",
+    "secuencias narrativas de un cuento",
+    "secuencias de cuentos para niños",
+    "secuencias de cuentos para colorear e imprimir pdf",
+    "secuencias de cuentos para colorear",
+    "secuencias de cuentos tradicionales para imprimir",
+    "secuencias de cuentos para ordenar y colorear"
+   ]
+  },
+  "qué pasa después": {
+   "candidate": "story-sequencing",
+   "s": [
+    "qué pasa después de la muerte",
+    "qué pasa después de morir",
+    "qué pasa después de extirpar un tumor maligno",
+    "qué pasa después",
+    "qué pasa después de una histerectomía por cáncer",
+    "qué pasa después de que te mueres",
+    "qué pasa después meme",
+    "qué pasa después de un aborto",
+    "que pasa después de la menopausia",
+    "qué pasa después de que te desparasitas"
+   ]
+  },
+  "inicio desarrollo y final": {
+   "candidate": "story-sequencing",
+   "s": [
+    "inicio desarrollo y final",
+    "inicio desarrollo y final de un cuento",
+    "inicio desarrollo y final del cuento de los tres cerditos corto",
+    "inicio desarrollo y final del cuento de caperucita roja",
+    "inicio desarrollo y final en ingles",
+    "inicio desarrollo y final para niños",
+    "inicio desarrollo y final de un cuento para niños",
+    "inicio desarrollo y final del cuento de los tres cerditos",
+    "inicio desarrollo y final de una historia",
+    "inicio desarrollo y final de la primera guerra mundial"
+   ]
+  },
+  "inicio desarrollo y final para imprimir": {
+   "candidate": "story-sequencing",
+   "s": [
+    "cuentos cortos con inicio desarrollo y final para imprimir"
+   ]
+  },
+  "inicio desarrollo y final primaria": {
+   "candidate": "story-sequencing",
+   "s": [
+    "primaria cuento corto con inicio desarrollo y final"
+   ]
+  },
+  "cepillado de dientes": {
+   "candidate": "healthy-habits",
+   "s": [
+    "cepillado de dientes",
+    "cepillado de dientes para niños",
+    "cepillado de dientes correcto",
+    "cepillado de dientes perros",
+    "cepillado de dientes con brackets",
+    "cepillado de dientes en niños",
+    "cepillado de dientes oms",
+    "cepillado de dientes dibujo",
+    "cepillado de dientes pasos",
+    "cepillado de dientes animado"
+   ]
+  },
+  "cepillado de dientes ficha": {
+   "candidate": "healthy-habits",
+   "s": [
+    "ficha cepillado de dientes"
+   ]
+  },
+  "cepillado de dientes para imprimir": {
+   "candidate": "healthy-habits",
+   "s": [
+    "cepillado de dientes para imprimir",
+    "imagenes cepillado de dientes para imprimir",
+    "juego de cepillado de dientes para imprimir"
+   ]
+  },
+  "cepillado de dientes preescolar": {
+   "candidate": "healthy-habits",
+   "s": [
+    "cepillado de dientes preescolar",
+    "actividad cepillado de dientes preescolar",
+    "actividades de cepillado de dientes para preescolar"
+   ]
+  },
+  "cepillado de dientes primaria": {
+   "candidate": "healthy-habits",
+   "s": [
+    "cepillado de dientes para niños de primaria"
+   ]
+  },
+  "lavado de manos pasos": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavado de manos pasos",
+    "lavado de manos pasos oms",
+    "lavado de manos pasos enfermeria",
+    "lavado de manos pasos 5 momentos",
+    "lavado de manos pasos minsa",
+    "lavado de manos pasos imagenes",
+    "lavado de manos pasos pdf",
+    "lavado de manos pasos msp",
+    "lavado de manos pasos para niños"
+   ]
+  },
+  "lavado de manos pasos para imprimir": {
+   "candidate": "healthy-habits",
+   "s": [
+    "lavado de manos pasos para imprimir",
+    "lavado de manos para imprimir",
+    "lavado de manos para imprimir pdf",
+    "lavado de manos imagenes para imprimir",
+    "lavado de manos oms para imprimir",
+    "lavado de manos letras para imprimir",
+    "pasos imágenes de lavado de manos para imprimir"
+   ]
+  },
+  "lavado de manos pasos preescolar": {
+   "candidate": "healthy-habits",
+   "s": [
+    "pasos lavado de manos preescolar"
+   ]
+  },
+  "higiene personal": {
+   "candidate": "healthy-habits",
+   "s": [
+    "higiene personal",
+    "higiene personal para niños",
+    "higiene personal dibujos",
+    "higiene personal en la adolescencia",
+    "higiene personal en ingles",
+    "higiene personal imágenes",
+    "higiene personal en cocina",
+    "higiene personal concepto",
+    "higiene personal en la escuela",
+    "higiene personal pdf"
+   ]
+  },
+  "higiene personal ficha": {
+   "candidate": "healthy-habits",
+   "s": [
+    "higiene personal ficha",
+    "higiene personal fichas para imprimir",
+    "higiene personal para niños fichas",
+    "habitos de higiene personal fichas",
+    "fichas higiene personal primaria"
+   ]
+  },
+  "higiene personal para imprimir": {
+   "candidate": "healthy-habits",
+   "s": [
+    "higiene personal para imprimir",
+    "higiene personal letras para imprimir",
+    "palabra higiene personal para imprimir",
+    "higiene personal imagenes para imprimir",
+    "higiene personal fichas para imprimir",
+    "higiene personal dibujos para imprimir",
+    "actividades de higiene personal para imprimir",
+    "triptico de higiene personal para imprimir",
+    "loteria de higiene personal para imprimir",
+    "memorama de higiene personal para imprimir"
+   ]
+  },
+  "higiene personal preescolar": {
+   "candidate": "healthy-habits",
+   "s": [
+    "higiene personal preescolar",
+    "higiene personal preescolar actividades",
+    "higiene personal preescolar para colorear",
+    "higiene personal preescolar planeacion",
+    "proyecto higiene personal preescolar",
+    "higiene personal para preescolar",
+    "higiene personal niños preescolar",
+    "proyecto de higiene personal preescolar pdf",
+    "habitos de higiene personal preescolar",
+    "imagenes de higiene personal preescolar"
+   ]
+  },
+  "higiene personal primer grado": {
+   "candidate": "healthy-habits",
+   "s": [
+    "higiene personal primer grado",
+    "higiene personal para primer grado",
+    "higiene personal para primer grado de primaria",
+    "habitos de higiene personal primer grado",
+    "elementos de higiene personal primer grado",
+    "actividades de higiene personal primer grado",
+    "higiene personal para niños de primer grado",
+    "proyecto de higiene personal para primer grado",
+    "habitos de higiene personal para primer grado",
+    "ficha de higiene personal para primer grado"
+   ]
+  },
+  "higiene personal segundo grado": {
+   "candidate": "healthy-habits",
+   "s": [
+    "higiene personal segundo grado",
+    "higiene personal para segundo grado",
+    "higiene personal para segundo grado de primaria",
+    "actividades de higiene personal para segundo grado",
+    "habitos de higiene personal para segundo grado",
+    "concepto de higiene personal para segundo grado"
+   ]
+  },
+  "higiene personal primaria": {
+   "candidate": "healthy-habits",
+   "s": [
+    "higiene personal primaria",
+    "higiene personal para primaria",
+    "proyecto higiene personal primaria",
+    "fichas higiene personal primaria",
+    "planeación de higiene personal primaria",
+    "higiene personal niños de primaria",
+    "secuencia didactica higiene personal primaria",
+    "actividades de higiene personal primaria",
+    "higiene personal para niños de primaria pdf",
+    "higiene personal para cuarto de primaria"
+   ]
+  },
+  "animales y su hábitat": {
+   "candidate": "habitats",
+   "s": [
+    "animales y su hábitat",
+    "animales y su hábitat para niños",
+    "animales y su hábitat en inglés",
+    "animales y su hábitat para colorear",
+    "animales y su hábitat actividades",
+    "animales y su hábitat natural",
+    "animales y su hábitat para preescolar",
+    "animales y su habitat en ingles para niños",
+    "animales y su habitat wordwall",
+    "10 animales y su hábitat"
+   ]
+  },
+  "animales y su hábitat para imprimir": {
+   "candidate": "habitats",
+   "s": [
+    "animales y su hábitat para imprimir"
+   ]
+  },
+  "animales y su hábitat preescolar": {
+   "candidate": "habitats",
+   "s": [
+    "animales y su hábitat para preescolar",
+    "planeación animales y su hábitat preescolar",
+    "situación didáctica los animales y su hábitat preescolar"
+   ]
+  },
+  "animales y su hábitat primer grado": {
+   "candidate": "habitats",
+   "s": [
+    "animales segun su habitat primer grado"
+   ]
+  },
+  "animales y su hábitat segundo grado": {
+   "candidate": "habitats",
+   "s": [
+    "animales segun su habitat para segundo grado"
+   ]
+  },
+  "animales y su hábitat primaria": {
+   "candidate": "habitats",
+   "s": [
+    "los animales y su hábitat 2 primaria"
+   ]
+  },
+  "casas de los animales": {
+   "candidate": "habitats",
+   "s": [
+    "casas de los animales",
+    "casas de los animales para niños",
+    "casas de los animales para colorear",
+    "las casas de los animales libro",
+    "diferentes casas de los animales",
+    "casas de animales con figuras geométricas",
+    "casas de animales nombres",
+    "casas de animales salvajes",
+    "casas de animales en minecraft",
+    "casas de animales lego minecraft"
+   ]
+  },
+  "casas de los animales para imprimir": {
+   "candidate": "habitats",
+   "s": [
+    "casas de animales para imprimir"
+   ]
+  },
+  "adaptación de los animales": {
+   "candidate": "habitats",
+   "s": [
+    "adaptación de los animales",
+    "adaptación de los animales al medio ambiente",
+    "adaptacion de los animales para niños",
+    "adaptación de los animales acuáticos",
+    "adaptación de los animales y vegetales al ambiente",
+    "adaptación de los animales ejemplos",
+    "adaptación de los animales a la temperatura",
+    "adaptación de los animales aeroterrestres",
+    "adaptación de los animales terrestres",
+    "adaptación de los animales dibujo"
+   ]
+  },
+  "adaptación de los animales segundo grado": {
+   "candidate": "habitats",
+   "s": [
+    "adaptación de los animales grado segundo"
+   ]
+  },
+  "objetos que flotan y se hunden": {
+   "candidate": "sink-or-float",
+   "s": [
+    "objetos que flotan y se hunden",
+    "objetos que flotan y se hunden para niños",
+    "objetos que flotan y se hunden en el agua",
+    "objetos que flotan y se hunden para inicial",
+    "objetos que flotan y se hunden para colorear",
+    "experimento objetos que flotan y se hunde",
+    "que objetos flotan y cuales se hunden",
+    "imagenes de objetos que flotan y se hunden",
+    "ejemplos de objetos que flotan y se hunden",
+    "porque hay objetos que flotan y otros se hunden"
+   ]
+  },
+  "objetos que flotan y se hunden preescolar": {
+   "candidate": "sink-or-float",
+   "s": [
+    "objetos que flotan y se hunden preescolar"
+   ]
+  },
+  "qué flota y qué se hunde": {
+   "candidate": "sink-or-float",
+   "s": [
+    "que flota y que se hunde",
+    "experimento que flota y que se hunde",
+    "caca que flota y caca que se hunde",
+    "huevo que flota y huevo que se hunde",
+    "que flota y se hunde en el agua",
+    "porque hay caca que flota y caca que se hunde",
+    "experimento del huevo que flota y el huevo que se hunde",
+    "que se hunde y que flota cuento"
+   ]
+  },
+  "experimento de flotación": {
+   "candidate": "sink-or-float",
+   "s": [
+    "experimento de flotación",
+    "experimento de flotación y hundimiento",
+    "experimento de flotación para niños",
+    "experimento flotación infantil",
+    "experimento flotacion de un huevo"
+   ]
+  }
+ }
+}

@@ -60,10 +60,11 @@ const LAND = [
   'M 12 -41 L 21 -42 L 24 -37 L 19 -31 L 14 -33 L 11 -37 Z',
 ];
 const CLOUD = 'M -40 12 Q -32 6 -24 12 Q -20 15 -16 12';
-let _clipN = 0;
+// Clip ids are DETERMINISTIC (a module-level counter made the same page build differently depending on what the process
+// built before it — caught by the release baseline). Identical geometry may share one id: duplicates resolve identically.
 function earthDisc({ d } = {}) {
   if (!(d > 0)) throw new Error(`sky-bodies earthDisc: d ${d}`);
-  const cid = 'es-earth-clip-' + (++_clipN);
+  const cid = 'es-earth-clip';
   const parts = [
     el('defs', {}, el('clipPath', { id: cid }, el('circle', { cx: 0, cy: 0, r: 45 }))),
     el('circle', { cx: 0, cy: 0, r: 46, fill: C.tealSoft, 'data-lcs-part': 'disc' }),
@@ -94,7 +95,7 @@ function sunEdge({ side = 'left', w, h, depth } = {}) {
   const cxL = depth - R, cy = h / 2;
   const cx = side === 'left' ? cxL : w - cxL;
   const nx = side === 'left' ? 1 : -1;
-  const cid = 'es-sunedge-clip-' + (++_clipN);
+  const cid = `es-sunedge-clip-${side}-${String(w).replace('.', '_')}-${String(h).replace('.', '_')}-${String(depth).replace('.', '_')}`;
   const rays = [-40, -20, 0, 20, 40].map((deg) => {
     const a = deg * Math.PI / 180;
     const ux = nx * Math.cos(a), uy = Math.sin(a);

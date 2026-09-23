@@ -5,7 +5,7 @@
  * Composes the nt10-E landing entries (10 base types + 50 variation faces) for
  * one locale from a native panel's prose bank and merges them into
  * frontend/content/seo-landing/<locale>.json. A clone of gen-b2var-landings.js
- * (same validation, same idempotent merge by slug) with the batch-3 differences (nt10-E = batch 4, same shape):
+ * (same validation, same idempotent merge by slug) with the batch-3 differences (nt10-E = batch 5, same shape as nt10-D):
  *
  *  1. The face table is DERIVED from the spec modules (family, band, theme
  *     applicability) — base ids from gen-b5var-specs FAMILIES, face ids from
@@ -49,32 +49,34 @@ freeClaim.selfTest();
  * Per-id CCSS code (the JSON-LD `educationalAlignment.targetName`, kept as the
  * machine anchor in every locale per §20.10 / §22.3 R3; the prose names the
  * national framework), or null for a readiness face carrying no standard.
- * Transcribed from each design file's §1 "CCSS" row (the primary code where a
- * face lists two). Faces the design ruled readiness carry null; whole readiness
- * families (human-body, five-senses, weather-symbols, recycling) too — the four
- * science families cite NGSS in en PROSE only, never in the JSON-LD.
+ * Transcribed from each nt10-E design file's §1 "CCSS en (honest)" row, checked
+ * against its §3 face entries and §6 SEO table (the primary code where a face
+ * lists two). The three science families (plants, animal-life-cycles,
+ * earth-and-space) and the three social-studies-like ones (road-safety, family,
+ * maps) carry NO CCSS on any face: NGSS / C3 codes are not CCSS, so they are
+ * named in en PROSE only, never in the JSON-LD (as nt10-D did).
  */
 const STANDARD = {
-  // tangram (K-353 §1: base + F1 K.G.B.6 · F2 / F3 1.G.A.2 · F4 readiness · F5 K.G.A.2)
-  'K-353': 'K.G.B.6', 'K-358': 'K.G.B.6', 'G1-354': '1.G.A.2', 'G1-355': '1.G.A.2', 'G2-347': null, 'K-359': 'K.G.A.2',
-  // human-body (K-354 §1: no K-2 CCSS / NGSS body standard — all six readiness)
-  'K-354': null, 'K-360': null, 'K-361': null, 'G1-356': null, 'K-362': null, 'K-363': null,
-  // five-senses (K-355 §1: no K-2 code; NGSS 1-LS1-1 / 4-LS1-2 not claimed — all six readiness)
-  'K-355': null, 'G1-357': null, 'G1-358': null, 'G1-359': null, 'G1-360': null, 'G1-361': null,
-  // weather-symbols (K-356 §1: NONE on any face; NGSS K-ESS2-1 named in en PROSE only)
-  'K-356': null, 'G1-362': null, 'K-364': null, 'K-365': null, 'G3-385': null, 'G1-363': null,
-  // recycling (K-357 §1: NONE on any face; NGSS K-ESS3-3 named in en PROSE only)
-  'K-357': null, 'K-366': null, 'G1-364': null, 'G2-348': null, 'K-367': null, 'G1-365': null,
-  // cloze (G1-350 §1: base / F1 / F2 L.1.1.b · F3 L.1.1.c · F4 RF.2.4.c · F5 RF.1.4.c)
-  'G1-350': 'L.1.1.b', 'G1-366': 'L.1.1.b', 'G1-367': 'L.1.1.b', 'G2-349': 'L.1.1.c', 'G2-350': 'RF.2.4.c', 'G1-368': 'RF.1.4.c',
-  // odd-and-even (G1-351 §1: base / F2 / F5 readiness · F1 / F3 2.OA.C.3 · F4 3.OA.D.9)
-  'G1-351': null, 'G2-351': '2.OA.C.3', 'G1-369': null, 'G2-352': '2.OA.C.3', 'G3-386': '3.OA.D.9', 'G1-370': null,
-  // pronouns (G1-352 §1: L.1.1.d on every face; F5 also L.1.1.j — the JSON-LD carries ONE code)
-  'G1-352': 'L.1.1.d', 'G1-371': 'L.1.1.d', 'G2-353': 'L.1.1.d', 'G2-354': 'L.1.1.d', 'G1-372': 'L.1.1.d', 'G2-355': 'L.1.1.d',
-  // question-words (G1-353 §1: base / F1 / F3 L.K.1.d · F2 / F4 / F5 L.1.1.j)
-  'G1-353': 'L.K.1.d', 'G1-373': 'L.K.1.d', 'G1-374': 'L.1.1.j', 'G1-375': 'L.K.1.d', 'G2-356': 'L.1.1.j', 'G2-357': 'L.1.1.j',
-  // rounding (G2-346 §1: 3.NBT.A.1 on every face; F3 also 3.OA.D.8 — ONE code in the JSON-LD)
-  'G2-346': '3.NBT.A.1', 'G3-387': '3.NBT.A.1', 'G3-388': '3.NBT.A.1', 'G3-389': '3.NBT.A.1', 'G3-390': '3.NBT.A.1', 'G3-391': '3.NBT.A.1',
+  // 2d-shapes (K-368 §1: base K.G.A.2 · F1 1.G.A.1 · F2 K.G.A.1 · F3 K.G.A.2 (G1 page, no G1 code) · F4 1.G.A.1 · F5 K.G.B.5)
+  'K-368': 'K.G.A.2', 'G1-381': '1.G.A.1', 'K-371': 'K.G.A.1', 'G1-382': 'K.G.A.2', 'G1-383': '1.G.A.1', 'K-372': 'K.G.B.5',
+  // road-safety (K-369 §1: no CCSS / NGSS road-safety standard — all six null)
+  'K-369': null, 'K-373': null, 'K-374': null, 'G1-384': null, 'G2-360': null, 'G2-361': null,
+  // family (K-370 §1: social-studies readiness, no CCSS — all six null)
+  'K-370': null, 'G1-385': null, 'K-375': null, 'G1-386': null, 'G2-362': null, 'G1-387': null,
+  // plants (G1-376 §1: science, NONE on any face; NGSS 1-LS1-1 / K-LS1-1 / 3-LS1-1 / 4-LS1-1 in en PROSE only)
+  'G1-376': null, 'K-376': null, 'G1-388': null, 'G2-363': null, 'G2-364': null, 'G3-392': null,
+  // animal-life-cycles (G1-377 §1: science, NONE on any face; NGSS 3-LS1-1 (+ 1-LS3-1 on F3) in en PROSE only)
+  'G1-377': null, 'G1-389': null, 'G2-365': null, 'G2-366': null, 'G3-393': null, 'G1-390': null,
+  // earth-and-space (G1-378 §1: science, NONE on any face; NGSS 1-ESS1-1 / 5-ESS1-2 in en PROSE only)
+  'G1-378': null, 'G1-391': null, 'G2-367': null, 'G2-368': null, 'G3-394': null, 'G3-395': null,
+  // maps (G1-379 §1: NONE; C3 D2.Geo.1.K-2 in en PROSE only on base / F1 / F5)
+  'G1-379': null, 'K-377': null, 'G2-369': null, 'G2-370': null, 'G3-396': null, 'G2-371': null,
+  // digraphs (G1-380 §1: base / F2 / F3 / F4 RF.1.3.a · F1 (K) readiness · F5 (G2) RF.1.3.a as grade-1 review)
+  'G1-380': 'RF.1.3.a', 'K-378': null, 'G1-392': 'RF.1.3.a', 'G1-393': 'RF.1.3.a', 'G1-394': 'RF.1.3.a', 'G2-372': 'RF.1.3.a',
+  // synonyms (G2-358 §1: base L.2.5 · F1 readiness · F2 L.2.5 · F3 L.1.5.d · F4 L.2.5.b · F5 L.3.5)
+  'G2-358': 'L.2.5', 'G1-395': null, 'G2-373': 'L.2.5', 'G1-396': 'L.1.5.d', 'G2-374': 'L.2.5.b', 'G3-397': 'L.3.5',
+  // word-parts (G2-359 §1: base L.2.4.c · F1 readiness (L.1.4.c is inflection) · F2 L.2.4.c · F3 L.2.4.b · F4 L.3.4.b · F5 L.3.4.c)
+  'G2-359': 'L.2.4.c', 'G1-397': null, 'G2-375': 'L.2.4.c', 'G2-376': 'L.2.4.b', 'G3-398': 'L.3.4.b', 'G3-399': 'L.3.4.c',
 };
 
 // per-locale coordinate.level keys — must match the keys already in each corpus

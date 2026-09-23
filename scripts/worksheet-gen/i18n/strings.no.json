@@ -2626,5 +2626,221 @@
   "G3-391": {
     "title": "Avrunding til tier og hundrer",
     "instruction": "Rund av hvert tall to ganger: til nærmeste tier i den første ruta og til nærmeste hundrer i den andre."
+  },
+  "K-368": {
+    "title": "Geometriske figurer: hva heter figuren?",
+    "instruction": "Se på hver figur, også de som er snudd og smale, og ring rundt navnet til figuren."
+  },
+  "K-369": {
+    "title": "Trafikk for barn: hva viser trafikklyset?",
+    "instruction": "Se på lampen som lyser, og ring rundt det du skal gjøre."
+  },
+  "K-370": {
+    "title": "Familie og slekt: hvem er hvem?",
+    "instruction": "Finn hver person i slektstreet og skriv tallet til personen i ruten ved siden av riktig familieord."
+  },
+  "G1-376": {
+    "title": "Plantens deler",
+    "instruction": "Følg hver nummererte lapp til en del av planten og skriv navnet på delen fra ordbanken på streken med samme tall."
+  },
+  "G1-377": {
+    "title": "Sommerfuglens livssyklus: fra egg til sommerfugl",
+    "instruction": "Egget er 1: skriv 2, 3 og 4 i rutene i riktig rekkefølge, og i den siste ruten tallet på bildet som kommer etter sommerfuglen."
+  },
+  "G1-378": {
+    "title": "Solen, Jorden og Månen",
+    "instruction": "Les hver setning og sett kryss for om den handler om Solen, Jorden eller Månen."
+  },
+  "G1-379": {
+    "title": "Kartlesing: les tegnforklaringen",
+    "instruction": "Se på tegnforklaringen, finn hver ting på kartet og skriv i ruten hvor mange det er."
+  },
+  "G2-358": {
+    "title": "Synonymer: ring rundt ordet som betyr det samme",
+    "instruction": "Les det store ordet på hvert kort og ring rundt ordet under som betyr det samme."
+  },
+  "G2-359": {
+    "title": "Rotord: sorter ordene etter roten",
+    "instruction": "Les hvert ord øverst og skriv det på en rad i muren som står på roten til ordet."
+  },
+  "G1-381": {
+    "title": "Geometriske figurer: er det riktig figur?",
+    "instruction": "Les navnet i hver rad og ring rundt alle figurene som virkelig er en slik figur."
+  },
+  "K-371": {
+    "title": "Geometriske figurer rundt oss",
+    "instruction": "Se på hvert bilde og fargelegg figuren som tingen har: sirkel eller rektangel."
+  },
+  "G1-382": {
+    "title": "Geometriske figurer med navn: skriv navnene",
+    "instruction": "Se på hver figur og skriv navnet på streken, navnene står i ruten."
+  },
+  "G1-383": {
+    "title": "Gåter om geometriske figurer",
+    "instruction": "Les hver gåte og ring rundt navnet til figuren."
+  },
+  "K-372": {
+    "title": "Tegn geometriske figurer på prikkark",
+    "instruction": "Les navnet og trekk streker mellom prikkene slik at figuren blir tegnet, start ved den tykke streken hvis det er en."
+  },
+  "K-373": {
+    "title": "Trafikk for barn: fargelegg trafikklysene",
+    "instruction": "Finn lampen med stråler i hvert trafikklys og fargelegg den med fargen den lyser med."
+  },
+  "K-374": {
+    "title": "Gå trygt over veien: steg for steg",
+    "instruction": "Skriv 1 til 5 i rutene slik at de viser hvordan du går trygt over veien."
+  },
+  "G1-384": {
+    "title": "Trafikkskilt for barn og hva de betyr",
+    "instruction": "Trekk en strek fra hvert trafikkskilt til det skiltet betyr."
+  },
+  "G2-360": {
+    "title": "Trafikkskilt 2. trinn: fareskilt, forbudsskilt og opplysningsskilt",
+    "instruction": "Skriv bokstaven til hvert trafikkskilt i en rute under riktig gruppe skilt."
+  },
+  "G2-361": {
+    "title": "Trafikkquiz for barn: hvilket skilt passer?",
+    "instruction": "Les hver setning og ring rundt det ene trafikkskiltet som passer."
+  },
+  "G1-385": {
+    "title": "Generasjoner i slekta: fra eldst til yngst",
+    "instruction": "Skriv 1, 2 og 3 i rutene i hver rad slik at ordene står fra den eldste generasjonen til den yngste."
+  },
+  "K-375": {
+    "title": "Familieord: spor og skriv",
+    "instruction": "Finn personen med samme tall i treet, spor familieordet og skriv det en gang til på streken."
+  },
+  "G1-386": {
+    "title": "Slektstre: les ledetrådene",
+    "instruction": "Les ledetrådene og skriv hvert navn i riktig navnerute i slektstreet."
+  },
+  "G2-362": {
+    "title": "Slektsgåter: mormor, farfar, tante eller onkel?",
+    "instruction": "Les hver gåte og skriv riktig familieord fra ruten på streken, ett ord kan passe til flere gåter."
+  },
+  "G1-387": {
+    "title": "Slektstre: mal til å fylle ut selv",
+    "instruction": "Tegn menneskene som er viktige for deg i rammene og skriv navnene deres på strekene."
+  },
+  "K-376": {
+    "title": "Hva trenger en plante for å vokse?",
+    "instruction": "Se på hva hver plante får, og ring rundt planten som får begge tingene den trenger for å vokse."
+  },
+  "G1-388": {
+    "title": "Fra frø til plante",
+    "instruction": "Klipp ut de fire bildene og lim dem inn i de tomme rutene i retning av pilene, start ved frøet."
+  },
+  "G2-363": {
+    "title": "Hvilke deler av planten spiser vi?",
+    "instruction": "Se på hver matvare og ring rundt den delen av planten som vi spiser."
+  },
+  "G2-364": {
+    "title": "Plantens deler og hva de gjør",
+    "instruction": "Les hva hver del gjør, finn delen på planten og skriv tallet på lappen i ruten."
+  },
+  "G3-392": {
+    "title": "Blomstens deler",
+    "instruction": "Skriv navnet på hver nummererte del av blomsten på streken, og stryk ordet i ordbanken som ikke er en del av en blomst."
+  },
+  "G1-389": {
+    "title": "Froskens livssyklus: klipp og lim",
+    "instruction": "Klipp ut de fire rutene og lim hver av dem på sitt nøkkeroseblad, rundt dammen fra froskeegget til frosken."
+  },
+  "G2-365": {
+    "title": "Sommerfuglens livssyklus: skriv navnene på stadiene",
+    "instruction": "Skriv hvert navn fra ordbanken på streken under riktig bilde, og stryk det ene navnet som ikke hører til."
+  },
+  "G2-366": {
+    "title": "Metamorfose: hvilket dyr blir ungen til?",
+    "instruction": "Se på hvert unge dyr og skriv bokstaven i en rute under det voksne dyret som ungen blir til."
+  },
+  "G3-393": {
+    "title": "Sommerfuglens og froskens livssyklus: sammenlign",
+    "instruction": "Les hver setning og sett kryss under sommerfuglen, frosken eller begge når setningen stemmer for dyret."
+  },
+  "G1-390": {
+    "title": "Hva kommer etterpå? Sommerfugl, frosk og marihøne",
+    "instruction": "Se på det første bildet i hver rad og ring rundt bildet som kommer rett etter."
+  },
+  "G1-391": {
+    "title": "Månens faser i riktig rekkefølge",
+    "instruction": "Se på kilen i hver rad, om månen vokser eller minker, og skriv 1 til 5 under månene i den rekkefølgen."
+  },
+  "G2-367": {
+    "title": "Månens faser: skriv navnene",
+    "instruction": "Se på hver måne og skriv navnet på strekene, hvert ord i ordbanken brukes to ganger."
+  },
+  "G2-368": {
+    "title": "Hvorfor blir det dag og natt?",
+    "instruction": "Se hvor Solen er, og ring rundt dag eller natt i tabellen for hver nummererte nål."
+  },
+  "G3-394": {
+    "title": "Planetene i rekkefølge fra Solen",
+    "instruction": "Skriv navnet på hver planet på streken, start nærmest Solen og bruk hvert navn i ruten én gang."
+  },
+  "G3-395": {
+    "title": "Planetene etter størrelse: kjempeplaneter og steinplaneter",
+    "instruction": "Sorter navnene og skriv hvert av dem i riktig rute: kjempeplanet, liten steinplanet eller ikke en planet."
+  },
+  "K-377": {
+    "title": "Fugleperspektiv: fra siden og ovenfra",
+    "instruction": "Hver ting er tegnet fra siden, så trekk en strek til den samme tingen sett ovenfra."
+  },
+  "G2-369": {
+    "title": "Himmelretninger: nord, øst, sør og vest",
+    "instruction": "Hver kompassrose viser én bokstav, så skriv de tre andre bokstavene i de tomme rutene."
+  },
+  "G2-370": {
+    "title": "Verdensdeler: skriv navnene",
+    "instruction": "Skriv navnet på hver nummererte verdensdel på streken og ta navnene fra ruten."
+  },
+  "G3-396": {
+    "title": "Verdensdeler og verdenshav",
+    "instruction": "Finn hver verdensdel og hvert verdenshav på kartet og skriv tallet i ruten ved siden av navnet."
+  },
+  "G2-371": {
+    "title": "Himmelretninger på kartet",
+    "instruction": "Finn det første bildet på kartet, se i retningen ordet sier, og ring rundt det av de tre bildene som ligger der."
+  },
+  "G1-395": {
+    "title": "Synonymer med bilder: to ord til ett bilde",
+    "instruction": "Se på hvert bilde og ring rundt de to ordene under som betyr det samme og passer til bildet."
+  },
+  "G2-373": {
+    "title": "Synonympar: finn ordene som betyr det samme",
+    "instruction": "Trekk en strek fra hvert ord til venstre til ordet til høyre som betyr det samme."
+  },
+  "G1-396": {
+    "title": "Ordenes styrke: fra litt til mye",
+    "instruction": "Les de tre ordene i hver rad og skriv 1, 2 og 3 i rutene, fra det svakeste ordet til det sterkeste."
+  },
+  "G2-374": {
+    "title": "Synonymer for sa: velg ordet som passer",
+    "instruction": "Les hver setning og skriv ordet fra snakkeboblen som passer best i ruten i stedet for sa."
+  },
+  "G3-397": {
+    "title": "Synonymer for gå og se: sorter ordene",
+    "instruction": "Les de ti ordene og skriv hvert ord i feltet gå eller i feltet se, der det hører hjemme."
+  },
+  "G1-397": {
+    "title": "Rotord med bilder: ring rundt riktig ord",
+    "instruction": "Si hva hvert bilde viser, og ring rundt det ene ordet ovenfor som er laget av ordet for bildet."
+  },
+  "G2-375": {
+    "title": "Finn rotordet",
+    "instruction": "Ring rundt delen som de tre ordene har felles, og skriv rotordet i den tomme steinen."
+  },
+  "G2-376": {
+    "title": "Forstavelsene gjen-, mis- og over-: velg etter betydning",
+    "instruction": "Les hva hvert nytt ord betyr, finn forstavelsen i nøkkelen og skriv den i den tomme biten."
+  },
+  "G3-398": {
+    "title": "Hvem gjør det? Skriv ordet for personen",
+    "instruction": "Se på hver person som jobber, les ordet ved siden av og skriv ordet for personen i den tomme mursteinen."
+  },
+  "G3-399": {
+    "title": "Rotord i setninger",
+    "instruction": "Skriv hvert av de fire ordene på steinen i den setningen der det passer."
   }
 }

@@ -37,7 +37,17 @@ const COMMON = {
     mx: { diamond: 'preventiva', octagon: 'restrictiva', triDown: 'restrictiva', plateCircle: 'restrictiva', square: 'informativa' },
     br: { diamond: 'advertencia', octagon: 'regulamentacao', triDown: 'regulamentacao', 'circle+rim': 'regulamentacao', square: 'indicacao' },
   },
-  confusable: [['children', 'crossing'], ['crossing', 'footpath'], ['stop', 'yield'], ['signal-ahead', 'crossing'], ['no-entry', 'no-vehicles'], ['school', 'crossing']],
+  // Two roles are CONFUSABLE when one sentence can be satisfied by BOTH signs (a sign-quiz row would then have two
+  // right answers) or when they read alike at a glance. The gate owns the meaning model (ROLE_SATISFIES in
+  // qa/verify-b5-road-safety.js, rule 13) and FAILS if a pair it derives is missing here. Audit 2026-09-23 added the
+  // bans that overlap (no-vehicles also bans bikes; a footpath bans bikes and vehicles; a bike path bans walkers),
+  // the walking / crossing / children cluster and the riding cluster.
+  confusable: [['children', 'crossing'], ['crossing', 'footpath'], ['stop', 'yield'], ['signal-ahead', 'crossing'], ['no-entry', 'no-vehicles'], ['school', 'crossing'],
+    ['no-bikes', 'no-vehicles'], ['no-bikes', 'footpath'], ['no-vehicles', 'footpath'], ['no-pedestrians', 'bike-path'],
+    ['crossing', 'pedestrian-warning'], ['pedestrian-warning', 'children'], ['pedestrian-warning', 'school'], ['children', 'school'],
+    ['children', 'bike-warning'], ['school', 'bike-warning'],
+    ['pedestrian-warning', 'footpath'], ['pedestrian-warning', 'shared-path'], ['footpath', 'shared-path'],
+    ['bike-warning', 'bike-path'], ['bike-warning', 'shared-path'], ['bike-path', 'shared-path']],
   lightRule: { ped: { 0: 'stop', 1: 'go' }, ped3: { 0: 'stop', 2: 'go' }, car: { 0: 'stop', 1: 'stop', 2: 'go' } },
   stepKinds: ['stop-kerb', 'look-left', 'look-right', 'look-both', 'walk-across', 'listen'],
   modes: ['base', 'colour-lights', 'crossing-steps', 'sign-meaning', 'sign-kinds', 'sign-quiz'],
@@ -74,15 +84,16 @@ const ROAD_SAFETY = {
     // MUTCD 4I: the upraised HAND (Portland orange) and the WALKING PERSON (lunar white on a dark lens), 2 lamps
     pedLight: { stop: 'hand', go: 'walking', lamps: 2 },
     amber: { token: 'codeYellow', word: 'yellow' },
-    // US K teaching: red stop, yellow SLOW DOWN, green go — so en never lights amber on a stop / go item (single answer)
-    amberMeans: 'slow',
+    // yellow = GET READY TO STOP (Danish panel 2026-09-23: 'slow down' is the unsafe reading; MUTCD 4F: a steady yellow
+    // warns the red is coming) — so an en amber car answers the stop chip, one answer
+    amberMeans: 'stop',
     chipWords: { ped: { stop: 'wait', go: 'walk' }, car: { stop: 'stop', go: 'go' } },
     meanings: {
       stop: 'Every car must halt here, then look.',
       yield: 'Slow down and let the others go first.',
       crossing: 'Watch for people crossing the road.',   // W11-2 WARNS drivers; "may walk" read as permission (review 2026-09-23)
       school: 'Children walk here on their way to class.',
-      'no-entry': 'Cars may never drive in this way.',
+      'no-entry': 'No car may drive into the street from this side.',
       'signal-ahead': 'Watch out, a traffic light is coming.',
     },
     situations: {
@@ -92,7 +103,7 @@ const ROAD_SAFETY = {
       school: ['Many children walk to class here in the morning.', 'Drivers go slowly because kids are going to and from class.'],
       'no-entry': ['Cars may never drive into this street from here.', 'This is the wrong way in, so drivers must turn around.'],
       'signal-ahead': ['There is a traffic light a little way down this road.', 'Get ready: soon there will be lights that turn red.'],
-      'bike-warning': ['Watch out for children riding bikes on this road.', 'People on bicycles use this road, so drive with care.'],
+      'bike-warning': ['Watch out for people riding bikes on this road.', 'People on bicycles use this road, so drive with care.'],
       'no-bikes': ['You may not ride a bicycle on this road.', 'Bicycles are not allowed here. Push yours on another path.'],
       'no-pedestrians': ['People may not cross the street on foot at this spot.', 'Walkers must not cross here. Use the crossing further on.'],
     },
@@ -102,7 +113,7 @@ const ROAD_SAFETY = {
     signHead: 'Traffic Signs',
     childAnchors: ['for Kids', 'Kindergarten', 'Grade 1', 'Grade 2'],
     strings: {
-      base: { title: 'Road Safety: Traffic Lights, Stop or Go', instruction: 'Look at the lamp that is on, then circle what to do.' },
+      base: { title: 'Road Safety: Read the Traffic Light', instruction: 'Look at the lamp that is on, then circle what to do.' },
       'colour-lights': { title: 'Road Safety: Color the Traffic Lights', instruction: 'Find the lamp with rays on each traffic light and color it the color it shines.' },
       'crossing-steps': { title: 'Crossing the Road Safely: the Steps', instruction: 'Write 1 to 5 in the boxes to show how to cross the road.' },
       'sign-meaning': { title: 'Road Safety: Traffic Signs and Their Meanings', instruction: 'Draw a line from each road sign to what it means.' },

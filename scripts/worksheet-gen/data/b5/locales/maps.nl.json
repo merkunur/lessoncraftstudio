@@ -1,0 +1,121 @@
+{
+  "keyTitle": "Legenda",
+  "symbolWords": {
+    "house": "huis",
+    "tree": "boom",
+    "bush": "struik",
+    "pond": "vijver",
+    "bench": "bankje",
+    "tent": "tent",
+    "flowerBed": "bloemperk",
+    "bridge": "brug"
+  },
+  "dirWords": {
+    "n": "noord",
+    "e": "oost",
+    "s": "zuid",
+    "w": "west"
+  },
+  "dirLetters": {
+    "n": "N",
+    "e": "O",
+    "s": "Z",
+    "w": "W"
+  },
+  "continentSet": [
+    {
+      "id": "northAmerica",
+      "regions": [
+        "northAmerica"
+      ]
+    },
+    {
+      "id": "southAmerica",
+      "regions": [
+        "southAmerica"
+      ]
+    },
+    {
+      "id": "europe",
+      "regions": [
+        "europe"
+      ]
+    },
+    {
+      "id": "asia",
+      "regions": [
+        "asia"
+      ]
+    },
+    {
+      "id": "africa",
+      "regions": [
+        "africa"
+      ]
+    },
+    {
+      "id": "oceania",
+      "regions": [
+        "oceania"
+      ]
+    },
+    {
+      "id": "antarctica",
+      "regions": [
+        "antarctica"
+      ]
+    }
+  ],
+  "continentNames": {
+    "northAmerica": "Noord-Amerika",
+    "southAmerica": "Zuid-Amerika",
+    "europe": "Europa",
+    "asia": "Azië",
+    "africa": "Afrika",
+    "oceania": "Oceanië",
+    "antarctica": "Antarctica"
+  },
+  "oceanSet": [
+    "pacific",
+    "atlantic",
+    "indian",
+    "arctic",
+    "southern"
+  ],
+  "oceanNames": {
+    "pacific": "Stille Oceaan",
+    "atlantic": "Atlantische Oceaan",
+    "indian": "Indische Oceaan",
+    "arctic": "Noordelijke IJszee",
+    "southern": "Zuidelijke Oceaan"
+  },
+  "setSource": "Nederlandse basisschool, aardrijkskunde groep 4-5 (Junior Einstein, Schooltv, Bosatlas-register): 7 werelddelen met Noord- en Zuid-Amerika apart, Antarctica meegeteld en het werelddeel Oceanië (Australië is het land); 5 oceanen met de Zuidelijke Oceaan. Sommige methodes tellen 6 werelddelen (Amerika als één); de kaart tekent 7 genummerde gebieden, dus 7.",
+  "mnemonic": "Nooit Oma Zonder Wandelstok",
+  "refuse": [],
+  "strings": {
+    "base": {
+      "title": "Een plattegrond lezen met de legenda",
+      "instruction": "Kijk naar de legenda, zoek elk ding op de kaart en schrijf in het vakje hoeveel er zijn."
+    },
+    "top-view": {
+      "title": "In vogelvlucht: van opzij en van bovenaf",
+      "instruction": "Elk ding is van opzij getekend: trek een lijn naar hetzelfde ding, van bovenaf gezien."
+    },
+    "compass-rose": {
+      "title": "Windroos invullen: noord, oost, zuid en west",
+      "instruction": "Elke windroos laat één letter zien: schrijf de andere drie letters in de lege vakjes."
+    },
+    "continents": {
+      "title": "Werelddelen benoemen op de wereldkaart",
+      "instruction": "Schrijf de naam van elk genummerd werelddeel op zijn lijn, de namen staan in het kader."
+    },
+    "continents-oceans": {
+      "title": "Werelddelen en oceanen op de kaart",
+      "instruction": "Zoek elk werelddeel en elke oceaan op de kaart en schrijf het nummer in het vakje naast de naam."
+    },
+    "directions-on-map": {
+      "title": "Windrichtingen op een plattegrond",
+      "instruction": "Zoek het eerste plaatje op de kaart, kijk in de richting van het woord en omcirkel het plaatje van de drie dat daar ligt."
+    }
+  }
+}

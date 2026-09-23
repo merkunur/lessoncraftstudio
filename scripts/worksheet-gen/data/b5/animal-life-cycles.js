@@ -72,7 +72,7 @@ const ANIMAL_LIFE_CYCLES = {
     strings: {
       'G1-377': {
         title: 'Butterfly Life Cycle',
-        instruction: 'The egg is 1: write 2, 3 and 4 in the boxes as it grows, and in the last box the number of the picture that comes after the butterfly.',
+        instruction: 'The egg is 1: write 2, 3 and 4 in the boxes as the butterfly grows, and in the last box the number of the picture that comes after the butterfly.',
       },
       'G1-389': {
         title: 'Frog Life Cycle: Cut and Paste',
@@ -88,7 +88,7 @@ const ANIMAL_LIFE_CYCLES = {
       },
       'G3-393': {
         title: 'Butterfly and Frog Life Cycles Compared',
-        instruction: 'Read each sentence and tick the butterfly, the frog or both when the sentence is true for that animal.',
+        instruction: 'Read each sentence and put a check under the butterfly, the frog or both when it is true for that animal.',
       },
       'G1-390': {
         title: 'What Comes Next? Butterfly, Frog and Ladybug',

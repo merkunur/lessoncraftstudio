@@ -1,0 +1,799 @@
+{
+  "head": "Synoniemen",
+  "allowed": [
+    " ",
+    "-"
+  ],
+  "ban": [
+    "leuk",
+    "mooi",
+    "lekker",
+    "knap",
+    "hard",
+    "zacht",
+    "gek",
+    "tof",
+    "vet",
+    "gaaf",
+    "flink",
+    "rustig",
+    "licht",
+    "zwaar",
+    "fijn",
+    "gemeen",
+    "lief"
+  ],
+  "regional": [],
+  "groups": [
+    {
+      "id": "g.happy",
+      "concept": "happy",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "blij",
+        "vrolijk"
+      ]
+    },
+    {
+      "id": "g.sad",
+      "concept": "sad",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "verdrietig",
+        "bedroefd"
+      ]
+    },
+    {
+      "id": "g.angry",
+      "concept": "angry",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "boos",
+        "kwaad"
+      ]
+    },
+    {
+      "id": "g.scared",
+      "concept": "scared",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "bang",
+        "angstig"
+      ]
+    },
+    {
+      "id": "g.surprised",
+      "concept": "surprised",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 2,
+      "words": [
+        "verbaasd",
+        "verrast"
+      ]
+    },
+    {
+      "id": "g.tired",
+      "concept": "tired",
+      "pos": "adj",
+      "domain": "body",
+      "tier": 1,
+      "words": [
+        "moe",
+        "vermoeid"
+      ]
+    },
+    {
+      "id": "g.strong",
+      "concept": "strong",
+      "pos": "adj",
+      "domain": "body",
+      "tier": 2,
+      "words": [
+        "sterk",
+        "krachtig"
+      ]
+    },
+    {
+      "id": "g.big",
+      "concept": "big",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "groot",
+        "fors"
+      ]
+    },
+    {
+      "id": "g.fast",
+      "concept": "fast",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "snel",
+        "vlug",
+        "rap"
+      ]
+    },
+    {
+      "id": "g.easy",
+      "concept": "easy",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 1,
+      "words": [
+        "makkelijk",
+        "eenvoudig"
+      ]
+    },
+    {
+      "id": "g.difficult",
+      "concept": "difficult",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 2,
+      "words": [
+        "moeilijk",
+        "lastig"
+      ]
+    },
+    {
+      "id": "g.smart",
+      "concept": "smart",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 2,
+      "words": [
+        "slim",
+        "pienter"
+      ]
+    },
+    {
+      "id": "g.brave",
+      "concept": "brave",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "dapper",
+        "moedig"
+      ]
+    },
+    {
+      "id": "g.funny",
+      "concept": "funny",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "grappig",
+        "komisch"
+      ]
+    },
+    {
+      "id": "g.strange",
+      "concept": "strange",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "raar",
+        "vreemd"
+      ]
+    },
+    {
+      "id": "g.loud",
+      "concept": "loud",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 1,
+      "words": [
+        "luid",
+        "lawaaierig"
+      ]
+    },
+    {
+      "id": "g.cozy",
+      "concept": "cozy",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 2,
+      "words": [
+        "gezellig",
+        "knus"
+      ]
+    },
+    {
+      "id": "g.tidy",
+      "concept": "tidy",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 2,
+      "words": [
+        "netjes",
+        "opgeruimd"
+      ]
+    },
+    {
+      "id": "g.messy",
+      "concept": "messy",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 2,
+      "words": [
+        "rommelig",
+        "slordig"
+      ]
+    },
+    {
+      "id": "g.dirty",
+      "concept": "dirty",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 2,
+      "words": [
+        "vies",
+        "vuil",
+        "smerig"
+      ]
+    },
+    {
+      "id": "g.begin",
+      "concept": "begin",
+      "pos": "verb",
+      "domain": "begin-end",
+      "tier": 1,
+      "words": [
+        "beginnen",
+        "starten"
+      ]
+    },
+    {
+      "id": "g.end",
+      "concept": "end",
+      "pos": "verb",
+      "domain": "begin-end",
+      "tier": 1,
+      "words": [
+        "ophouden",
+        "stoppen"
+      ]
+    },
+    {
+      "id": "g.shut",
+      "concept": "shut",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 1,
+      "words": [
+        "sluiten",
+        "dichtdoen"
+      ]
+    },
+    {
+      "id": "g.fix",
+      "concept": "fix",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 1,
+      "words": [
+        "repareren",
+        "herstellen"
+      ]
+    },
+    {
+      "id": "g.choose",
+      "concept": "choose",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 2,
+      "words": [
+        "kiezen",
+        "uitkiezen"
+      ]
+    },
+    {
+      "id": "g.throw",
+      "concept": "throw",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 1,
+      "words": [
+        "gooien",
+        "werpen"
+      ]
+    },
+    {
+      "id": "g.fall",
+      "concept": "fall",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 2,
+      "words": [
+        "vallen",
+        "tuimelen"
+      ]
+    },
+    {
+      "id": "g.talk",
+      "concept": "talk",
+      "pos": "verb",
+      "domain": "speak",
+      "tier": 1,
+      "words": [
+        "praten",
+        "spreken"
+      ]
+    },
+    {
+      "id": "g.shout",
+      "concept": "shout",
+      "pos": "verb",
+      "domain": "speak",
+      "tier": 1,
+      "words": [
+        "schreeuwen",
+        "brullen"
+      ]
+    },
+    {
+      "id": "g.cry",
+      "concept": "cry",
+      "pos": "verb",
+      "domain": "face",
+      "tier": 2,
+      "words": [
+        "huilen",
+        "janken"
+      ]
+    }
+  ],
+  "near": [
+    {
+      "a": "heet",
+      "b": "warm",
+      "why": "gradatie: heet is veel meer dan warm"
+    },
+    {
+      "a": "koud",
+      "b": "koel",
+      "why": "gradatie"
+    },
+    {
+      "a": "nat",
+      "b": "vochtig",
+      "why": "gradatie"
+    },
+    {
+      "a": "boos",
+      "b": "geërgerd",
+      "why": "gradatie: geërgerd is zwakker"
+    },
+    {
+      "a": "moe",
+      "b": "uitgeput",
+      "why": "gradatie: uitgeput is veel meer dan moe"
+    },
+    {
+      "a": "verdrietig",
+      "b": "somber",
+      "why": "een ander gevoel, niet hetzelfde"
+    },
+    {
+      "a": "groot",
+      "b": "reusachtig",
+      "why": "gradatie: reusachtig is veel meer dan groot"
+    },
+    {
+      "a": "sterk",
+      "b": "dapper",
+      "why": "kracht in je lijf is geen moed"
+    },
+    {
+      "a": "praten",
+      "b": "schreeuwen",
+      "why": "schreeuwen is heel hard praten"
+    },
+    {
+      "a": "sluiten",
+      "b": "ophouden",
+      "why": "een winkel sluit = hij stopt; niet hetzelfde woord"
+    },
+    {
+      "a": "blij",
+      "b": "grappig",
+      "why": "blij = goed gehumeurd; grappig = maakt je aan het lachen"
+    },
+    {
+      "a": "groot",
+      "b": "sterk",
+      "why": "grootte is geen kracht"
+    },
+    {
+      "a": "verbaasd",
+      "b": "bang",
+      "why": "schrikken is verrast zijn met angst"
+    },
+    {
+      "a": "gezellig",
+      "b": "netjes",
+      "why": "een kamer kan allebei zijn; niet hetzelfde"
+    }
+  ],
+  "nearOnly": [
+    "uitgeput",
+    "somber",
+    "reusachtig"
+  ],
+  "falseOf": {
+    "happy": [
+      "verdrietig",
+      "bedroefd",
+      "boos",
+      "kwaad",
+      "bang",
+      "angstig",
+      "verbaasd",
+      "verrast",
+      "moe",
+      "vermoeid",
+      "snel",
+      "vlug",
+      "rap",
+      "groot",
+      "fors"
+    ],
+    "sad": [
+      "blij",
+      "vrolijk",
+      "boos",
+      "kwaad",
+      "verbaasd",
+      "verrast",
+      "snel",
+      "vlug",
+      "rap",
+      "groot",
+      "fors"
+    ],
+    "angry": [
+      "blij",
+      "vrolijk",
+      "verdrietig",
+      "bedroefd",
+      "bang",
+      "angstig",
+      "verbaasd",
+      "verrast",
+      "moe",
+      "vermoeid",
+      "snel",
+      "vlug",
+      "rap",
+      "groot",
+      "fors"
+    ],
+    "scared": [
+      "blij",
+      "vrolijk",
+      "verdrietig",
+      "bedroefd",
+      "moe",
+      "vermoeid",
+      "snel",
+      "vlug",
+      "rap",
+      "groot",
+      "fors"
+    ],
+    "surprised": [
+      "blij",
+      "vrolijk",
+      "verdrietig",
+      "bedroefd",
+      "boos",
+      "kwaad",
+      "moe",
+      "vermoeid",
+      "snel",
+      "vlug",
+      "rap",
+      "groot",
+      "fors"
+    ],
+    "tired": [
+      "blij",
+      "vrolijk",
+      "boos",
+      "kwaad",
+      "bang",
+      "angstig",
+      "verbaasd",
+      "verrast",
+      "snel",
+      "vlug",
+      "rap",
+      "groot",
+      "fors"
+    ],
+    "fast": [
+      "blij",
+      "vrolijk",
+      "verdrietig",
+      "bedroefd",
+      "boos",
+      "kwaad",
+      "bang",
+      "angstig",
+      "verbaasd",
+      "verrast",
+      "moe",
+      "vermoeid"
+    ],
+    "big": [
+      "verdrietig",
+      "bedroefd",
+      "boos",
+      "kwaad",
+      "bang",
+      "angstig",
+      "verbaasd",
+      "verrast",
+      "snel",
+      "vlug",
+      "rap"
+    ]
+  },
+  "scales": [
+    {
+      "id": "s.heat",
+      "pos": "adj",
+      "words": [
+        "lauw",
+        "warm",
+        "heet"
+      ]
+    },
+    {
+      "id": "s.cold",
+      "pos": "adj",
+      "words": [
+        "koel",
+        "koud",
+        "ijskoud"
+      ]
+    },
+    {
+      "id": "s.wet",
+      "pos": "adj",
+      "words": [
+        "vochtig",
+        "nat",
+        "kletsnat"
+      ]
+    },
+    {
+      "id": "s.angry",
+      "pos": "adj",
+      "words": [
+        "geërgerd",
+        "boos",
+        "woedend"
+      ]
+    },
+    {
+      "id": "s.eat",
+      "pos": "verb",
+      "words": [
+        "knabbelen",
+        "eten",
+        "schrokken"
+      ]
+    },
+    {
+      "id": "s.voice",
+      "pos": "verb",
+      "words": [
+        "fluisteren",
+        "praten",
+        "schreeuwen"
+      ]
+    },
+    {
+      "id": "s.knock",
+      "pos": "verb",
+      "words": [
+        "tikken",
+        "kloppen",
+        "bonken"
+      ]
+    },
+    {
+      "id": "s.rain",
+      "pos": "verb",
+      "words": [
+        "miezeren",
+        "regenen",
+        "gieten"
+      ]
+    }
+  ],
+  "fields": {
+    "say": {
+      "head": "zegt",
+      "form": "present-3sg",
+      "words": [
+        "fluistert",
+        "roept",
+        "vraagt",
+        "antwoordt",
+        "vertelt",
+        "belooft"
+      ],
+      "sentences": [
+        {
+          "id": "f1",
+          "text": "De baby slaapt, dus {gap} {name} heel zachtjes.",
+          "fit": {
+            "fluistert": true,
+            "roept": false,
+            "vraagt": false,
+            "antwoordt": false,
+            "vertelt": false,
+            "belooft": false
+          }
+        },
+        {
+          "id": "f2",
+          "text": "{name} {gap} oma een geheimpje in het oor.",
+          "fit": {
+            "fluistert": true,
+            "roept": false,
+            "vraagt": false,
+            "antwoordt": false,
+            "vertelt": false,
+            "belooft": false
+          }
+        },
+        {
+          "id": "f3",
+          "text": "De bus gaat bijna weg, dus {gap} {name}: ‘Wacht op mij!’",
+          "fit": {
+            "fluistert": false,
+            "roept": true,
+            "vraagt": false,
+            "antwoordt": false,
+            "vertelt": false,
+            "belooft": false
+          }
+        },
+        {
+          "id": "f4",
+          "text": "{name} {gap} luid over het hele schoolplein.",
+          "fit": {
+            "fluistert": false,
+            "roept": true,
+            "vraagt": false,
+            "antwoordt": false,
+            "vertelt": false,
+            "belooft": false
+          }
+        },
+        {
+          "id": "f5",
+          "text": "‘Waar is mijn rode muts?’ {gap} {name}.",
+          "fit": {
+            "fluistert": false,
+            "roept": false,
+            "vraagt": true,
+            "antwoordt": false,
+            "vertelt": false,
+            "belooft": false
+          }
+        },
+        {
+          "id": "f6",
+          "text": "{name} {gap} met een grote glimlach op de vraag van de juf.",
+          "fit": {
+            "fluistert": false,
+            "roept": false,
+            "vraagt": false,
+            "antwoordt": true,
+            "vertelt": false,
+            "belooft": false
+          }
+        },
+        {
+          "id": "f7",
+          "text": "In de kring {gap} {name} een lang verhaal over de vakantie.",
+          "fit": {
+            "fluistert": false,
+            "roept": false,
+            "vraagt": false,
+            "antwoordt": false,
+            "vertelt": true,
+            "belooft": false
+          }
+        },
+        {
+          "id": "f8",
+          "text": "{name} {gap} met de hand op het hart dat de vissen elke dag eten krijgen.",
+          "fit": {
+            "fluistert": false,
+            "roept": false,
+            "vraagt": false,
+            "antwoordt": false,
+            "vertelt": false,
+            "belooft": true
+          }
+        }
+      ]
+    },
+    "go": {
+      "head": "gaan",
+      "words": [
+        "lopen",
+        "wandelen",
+        "rennen",
+        "sluipen",
+        "kruipen",
+        "slenteren",
+        "marcheren",
+        "huppelen"
+      ]
+    },
+    "look": {
+      "head": "kijken",
+      "words": [
+        "staren",
+        "gluren",
+        "turen",
+        "loeren",
+        "bekijken",
+        "spieden",
+        "observeren",
+        "bestuderen"
+      ]
+    }
+  },
+  "quotes": [
+    "‘",
+    "’"
+  ],
+  "strings": {
+    "base": {
+      "title": "Synoniemen: omcirkel het woord dat hetzelfde betekent",
+      "instruction": "Lees het grote woord op elke kaart en omcirkel daaronder het woord dat hetzelfde betekent."
+    },
+    "pictures": {
+      "title": "Synoniemen met plaatjes: twee woorden, één plaatje",
+      "instruction": "Kijk naar elk plaatje en omcirkel daaronder de twee woorden die hetzelfde betekenen en bij het plaatje passen."
+    },
+    "pairs": {
+      "title": "Synoniemen koppelen: woordparen met dezelfde betekenis",
+      "instruction": "Trek een lijn van elk woord links naar het woord rechts dat hetzelfde betekent."
+    },
+    "shades": {
+      "title": "Woorden op sterkte zetten: van een beetje tot heel erg",
+      "instruction": "Lees de drie woorden in elke rij en schrijf 1, 2 en 3 in de vakjes, van het zwakste naar het sterkste woord."
+    },
+    "say": {
+      "title": "Andere woorden voor ‘zegt’: kies het woord dat past",
+      "instruction": "Lees elke zin en schrijf in het vakje het woord uit het wolkje dat daar het best past in plaats van ‘zegt’."
+    },
+    "fields": {
+      "title": "Woorden voor ‘gaan’ en ‘kijken’ sorteren",
+      "instruction": "Lees de tien woorden en schrijf elk woord in het vak van het woord dat bijna hetzelfde betekent."
+    }
+  }
+}

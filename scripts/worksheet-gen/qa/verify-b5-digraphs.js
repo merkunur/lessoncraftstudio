@@ -299,7 +299,12 @@ async function main() {
   }
   // 2. refusals
   for (const loc of N.REFUSED_LOCALES) { let m = null; try { TYPE.build({ difficulty: 2, locale: loc }, { rng: makeRng('r') }); } catch (e) { m = e.message; } ok(m && /REFUSED whole-family/.test(m), `${loc} must REFUSE (got ${m})`); }
-  { let m = null; try { TYPE.build({ difficulty: 2, locale: 'de' }, { rng: makeRng('r') }); } catch (e) { m = e.message; } ok(m && /no de block|refuse/.test(m), `an unauthored de must REFUSE (got ${m})`); }
+  {
+    const U = require('./b5-unauthored.js');
+    const p = U.refusalProbe('digraphs', 'de', () => TYPE.build({ difficulty: 2, locale: 'de' }, { rng: makeRng('r') }));
+    ok(U.refused(p.hidden, /no de block/), `an unauthored de must REFUSE (got ${p.hidden})`);
+    ok(!U.refused(p.real, /no de block/), `poison — the authored de page passed the unauthored-refusal check (got ${p.real})`);
+  }
   { let m = null; try { TYPE._buildWith({ ...EN, refused: { reason: 'test' } }, TYPE.difficulty[2], { locale: 'en' }, { rng: makeRng('r') }); } catch (e) { m = e.message; } ok(m && /REFUSED/.test(m), `a refused block must REFUSE (got ${m})`); }
   { let m = null; try { TYPE._buildWith(EN, { ...TYPE.difficulty[2], mode: 'gap-2' }, { locale: 'en' }, { rng: makeRng('r') }); } catch (e) { m = e.message; } ok(m && /unknown mode/.test(m), `an unknown mode must refuse (got ${m})`); }
   // 4. node sweep: answer tells on the shipped instance, per page

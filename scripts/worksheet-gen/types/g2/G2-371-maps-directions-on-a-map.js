@@ -10,6 +10,6 @@ module.exports = {
   id: 'G2-371',
   slug: 'maps-directions-on-a-map',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Cardinal Directions on a Map", instruction: "Find the first picture on the map. Look the way the word says. Circle the one of the three pictures that lies that way." } },
+  i18n: { en: { title: "Cardinal Directions on a Map", instruction: "Start at the first picture on the map, look the way the word says, and circle the one of the three pictures that lies that way." } },
   gradeBand: "G2",
 };

@@ -30,6 +30,8 @@
  *      the face does not print.
  */
 'use strict';
+/** the probe for 'an unauthored locale refuses': the first locale no panel has applied yet (sv was the probe until its panel landed) */
+const UNAUTH = ['fi', 'no', 'da', 'sv', 'nl', 'it', 'fr', 'es', 'pt', 'de'].find((l) => !Object.keys(require('../lib/b5-common.js').bankModule('synonyms')).includes(l)) || 'xx';
 const path = require('path');
 const fs = require('fs');
 const { loadType } = require('../lib/load-types.js');
@@ -193,8 +195,8 @@ async function faceGate({ page, ok, judge, fails, validateBank, CHROME, QUICK, O
   }
   // an unauthored locale and a refused mode REFUSE
   for (const x of FACES) {
-    let m = null; try { TYPES[x.id].build({ difficulty: 2, locale: 'sv' }, { rng: makeRng('x') }); } catch (e) { m = e.message; }
-    ok(m && /no sv block|refuse/.test(m), `${x.id}: an unauthored sv REFUSES (got ${m})`);
+    let m = null; try { TYPES[x.id].build({ difficulty: 2, locale: UNAUTH }, { rng: makeRng('x') }); } catch (e) { m = e.message; }
+    ok(m && new RegExp('no ' + UNAUTH + ' block|refuse').test(m), `${x.id}: an unauthored ${UNAUTH} REFUSES (got ${m})`);
     const b = JSON.parse(JSON.stringify(en)); b.refuse = [x.mode];
     m = null; try { TYPES[x.id]._buildWith(b, TYPES[x.id].difficulty[2], { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m = e.message; }
     ok(m && /refuses the .* face/.test(m), `${x.id}: a block that refuses ${x.mode} must throw (got ${m})`);

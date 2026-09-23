@@ -71,7 +71,8 @@ const WORD_PARTS = {
         id: 'help', stem: 'help', rootIsFreeWord: true, root: { word: 'help' }, signed: true,
         members: [
           m('helper', 'derived', 'noun-person'), m('helpful', 'derived', 'adjective'), m('helpfully', 'derived', 'adverb'),
-          m('helpfulness', 'derived', 'noun-thing'), m('helpless', 'derived', 'adjective'), m('helplessly', 'derived', 'adverb'),
+          m('helpless', 'derived', 'adjective'), m('helplessly', 'derived', 'adverb'),
+          m('helpfulness', 'derived', 'noun-thing'),   // kept: rule 4 needs 7 members and help has no other grade-2 derived form (no un-); the F5 sentence that printed it is gone
           m('helpline', 'compound', 'noun-thing'),
         ],
         lookAlikes: [{ word: 'helmet', whyNotFamily: 'a hat that keeps your head safe; it has nothing to do with helping' },
@@ -92,7 +93,7 @@ const WORD_PARTS = {
         members: [
           m('careful', 'derived', 'adjective'), m('carefully', 'derived', 'adverb'), m('carefulness', 'derived', 'noun-thing'),
           m('careless', 'derived', 'adjective'), m('carelessly', 'derived', 'adverb'), m('carelessness', 'derived', 'noun-thing'),
-          m('caregiver', 'compound', 'noun-person'),
+          m('daycare', 'compound', 'noun-thing'),
         ],
         lookAlikes: [{ word: 'carrot', whyNotFamily: 'a vegetable' }, { word: 'cart', whyNotFamily: 'a thing with wheels' },
           { word: 'carpet', whyNotFamily: 'a rug on the floor' }],
@@ -104,7 +105,7 @@ const WORD_PARTS = {
           m('useless', 'derived', 'adjective'), m('uselessly', 'derived', 'adverb'), m('user', 'derived', 'noun-person'),
           m('reuse', 'prefixed', 'verb'), m('misuse', 'prefixed', 'verb'),
         ],
-        lookAlikes: [{ word: 'usher', whyNotFamily: 'a person who shows you to your seat; not "use"' }],
+        lookAlikes: [{ word: 'usual', whyNotFamily: 'what happens most days; not built from "use"' }],
       },
       {
         id: 'joy', stem: 'joy', rootIsFreeWord: true, root: { word: 'joy', pic: { theme: 'emotions', noun: 'merry' }, picOpened: true }, signed: true,
@@ -173,9 +174,9 @@ const WORD_PARTS = {
         members: [
           m('restful', 'derived', 'adjective'), m('restfully', 'derived', 'adverb'), m('restfulness', 'derived', 'noun-thing'),
           m('restless', 'derived', 'adjective'), m('restlessly', 'derived', 'adverb'), m('restlessness', 'derived', 'noun-thing'),
-          m('restroom', 'compound', 'noun-thing'),
+          m('armrest', 'compound', 'noun-thing'),
         ],
-        lookAlikes: [{ word: 'red', whyNotFamily: 'a colour' }, { word: 'rescue', whyNotFamily: 'to save someone' },
+        lookAlikes: [{ word: 'red', whyNotFamily: 'a color' }, { word: 'rescue', whyNotFamily: 'to save someone' },
           { word: 'recess', whyNotFamily: 'break time at school' }],
       },
     ],
@@ -183,7 +184,7 @@ const WORD_PARTS = {
     picFamilies: [
       pf('sun', 'weather', 'sun', [m('sunny', 'derived', 'adjective')], ['summer', 'supper', 'super']),
       pf('cloud', 'spring', 'cloud', [m('cloudy', 'derived', 'adjective')], ['clock', 'clown', 'close']),
-      pf('hair', 'body parts', 'hair', [m('hairy', 'derived', 'adjective')], ['hammer', 'happy', 'hat']),
+      pf('grass', 'spring', 'grass', [m('grassy', 'derived', 'adjective')], ['grape', 'gravy', 'grab']),
       pf('hand', 'body parts', 'hand', [m('handful', 'derived', 'noun-thing'), m('handy', 'derived', 'adjective')], ['hamster', 'hanger', 'happen']),
       pf('tooth', 'body parts', 'tooth', [m('toothless', 'derived', 'adjective'), m('toothy', 'derived', 'adjective')], ['today', 'tomato', 'toad']),
       pf('drum', 'music', 'drum', [m('drummer', 'derived', 'noun-person')], ['dream', 'dress', 'drop']),
@@ -208,17 +209,17 @@ const WORD_PARTS = {
         { word: 'action', slot: 'noun-thing', frame: 'That movie was full of fast {gap} and chases.' },
         { word: 'active', slot: 'adjective', frame: 'Grandpa stays {gap} by walking every day.' },
       ],
-      help: [
-        { word: 'helper', slot: 'noun-person', frame: 'Mom\'s little {gap} set the table for us.' },
-        { word: 'helpful', slot: 'adjective', frame: 'It is {gap} to hold the door open.' },
-        { word: 'helpfully', slot: 'adverb', frame: 'Tom {gap} carried the box for Grandma.' },
-        { word: 'helpfulness', slot: 'noun-thing', frame: 'We thanked Ana for all her {gap}.' },
+      use: [
+        { word: 'reuse', slot: 'verb', frame: 'We {gap} old jars to hold our crayons.' },
+        { word: 'user', slot: 'noun-person', frame: 'Every {gap} of the slide must wait in line.' },
+        { word: 'useful', slot: 'adjective', frame: 'A ruler is {gap} for drawing straight lines.' },
+        { word: 'usefully', slot: 'adverb', frame: 'Sam spent the rainy day {gap}, tidying his room.' },
       ],
-      care: [
-        { word: 'careful', slot: 'adjective', frame: 'Be {gap} when you cross the road.' },
-        { word: 'carefully', slot: 'adverb', frame: 'Carry the eggs {gap} so they do not break.' },
-        { word: 'caregiver', slot: 'noun-person', frame: 'The {gap} fed the baby and sang to her.' },
-        { word: 'carefulness', slot: 'noun-thing', frame: 'A tall card tower takes lots of {gap}.' },
+      sleep: [
+        { word: 'sleeper', slot: 'noun-person', frame: 'Our baby is a light {gap} and wakes at every sound.' },
+        { word: 'sleepy', slot: 'adjective', frame: 'After the long trip, I felt {gap} and yawned.' },
+        { word: 'sleepily', slot: 'adverb', frame: 'The cat stretched {gap} in the warm sun.' },
+        { word: 'sleepover', slot: 'noun-thing', frame: 'Five friends came to my birthday {gap}.' },
       ],
       joy: [
         { word: 'enjoy', slot: 'verb', frame: 'I {gap} reading books in bed.' },
@@ -228,6 +229,8 @@ const WORD_PARTS = {
       ],
     },
     prefixKey: {
+      // mis- is KEPT (Danish panel 2026-09-23 asked): it means "wrongly / badly" — the action still happens, done wrong —
+      // so it does not NEGATE the base the way un- / dis- / non- do (misspell is still spelling). CCSS L.2.4b + the face title name it.
       prefixes: [{ prefix: 're', meaning: 'again' }, { prefix: 'pre', meaning: 'before' }, { prefix: 'mis', meaning: 'wrongly' }],
       rows: [
         { base: 'read', prefix: 're', word: 'reread', gloss: 'to read a story again' },
@@ -266,13 +269,12 @@ const WORD_PARTS = {
       { key: 'photographer', base: 'photograph', answer: { any: 'photographer' } },
       { key: 'athlete', base: 'run', answer: { any: 'runner' } },
       { key: 'ballerina', base: 'dance', answer: { any: 'dancer' } },
-      { key: 'cashier', base: 'cash', answer: { any: 'cashier' } },
     ],
     exemplar: {
       base: ['help', 'fear'],
-      F1: ['weather/sun', 'spring/cloud', 'body parts/hair', 'body parts/hand', 'body parts/tooth', 'music/drum', 'classroom/book', 'ocean life/fish', 'spring/flower', 'camping/rock', 'christmas/star', 'spring/leaf'],
+      F1: ['weather/sun', 'spring/cloud', 'spring/grass', 'body parts/hand', 'body parts/tooth', 'music/drum', 'classroom/book', 'ocean life/fish', 'spring/flower', 'camping/rock', 'christmas/star', 'spring/leaf'],
       F2: ['help', 'play', 'care', 'use', 'joy', 'fear', 'act', 'sleep', 'cheer', 'power', 'rest'],
-      F5: ['play', 'act', 'help', 'care', 'joy'],
+      F5: ['play', 'act', 'use', 'sleep', 'joy'],
     },
     refuse: { base: false, 'picture-family': false, 'root-word': false, 'prefix-key': false, 'who-does-it': false, 'family-in-sentence': false },
     strings: {

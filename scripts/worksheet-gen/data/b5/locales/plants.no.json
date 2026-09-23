@@ -1,0 +1,120 @@
+{
+  "partWords": {
+    "root": "rot",
+    "stem": "stengel",
+    "leaf": "blad",
+    "flower": "blomst",
+    "fruit": "frukt",
+    "seed": "frø"
+  },
+  "flowerWords": {
+    "petal": "kronblad",
+    "sepal": "begerblad",
+    "stamen": "støvbærer",
+    "pistil": "støvvei",
+    "stalk": "stilk",
+    "ovary": "fruktemne"
+  },
+  "jobs": {
+    "root": "suger opp vann fra jorda",
+    "stem": "holder planten oppe slik at den står rett",
+    "leaf": "lager næring til planten med hjelp av sollys",
+    "flower": "lokker til seg bier med fargene sine",
+    "seed": "kan spire og bli en ny plante"
+  },
+  "partStems": [
+    "rot",
+    "roten",
+    "rota",
+    "røtter",
+    "røttene",
+    "stengel",
+    "stengelen",
+    "stengler",
+    "stilk",
+    "stilken",
+    "stilker",
+    "blad",
+    "bladet",
+    "bladene",
+    "blomst",
+    "blomsten",
+    "blomster",
+    "blomstene",
+    "blomstre",
+    "frukt",
+    "frukten",
+    "frukter",
+    "fruktene",
+    "frø",
+    "frøet",
+    "frøene",
+    "kronblad"
+  ],
+  "forbidden": [
+    "roten",
+    "rota",
+    "stengelen",
+    "bladet",
+    "blomsten",
+    "frukten",
+    "frøet",
+    "stamme",
+    "knopp",
+    "grønnsak",
+    "grønnsaker"
+  ],
+  "refuseItems": [],
+  "refuse": [],
+  "instructionBans": {
+    "base": [
+      "ring",
+      "fargelegg",
+      "klipp"
+    ],
+    "flower": [
+      "ring",
+      "fargelegg",
+      "klipp"
+    ],
+    "needs": [
+      "ord",
+      "ordene",
+      "skriv"
+    ],
+    "eat": [
+      "grønnsak",
+      "grønnsaker"
+    ],
+    "jobs": [
+      "ordbanken",
+      "ordbank"
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Plantens deler",
+      "instruction": "Følg hver nummererte lapp til en del av planten og skriv navnet på delen fra ordbanken på streken med samme tall."
+    },
+    "needs": {
+      "title": "Hva trenger en plante for å vokse?",
+      "instruction": "Se på hva hver plante får, og ring rundt planten som får begge tingene den trenger for å vokse."
+    },
+    "cycle": {
+      "title": "Fra frø til plante",
+      "instruction": "Klipp ut de fire bildene og lim dem inn i de tomme rutene i retning av pilene, start ved frøet."
+    },
+    "eat": {
+      "title": "Hvilke deler av planten spiser vi?",
+      "instruction": "Se på hver matvare og ring rundt den delen av planten som vi spiser."
+    },
+    "jobs": {
+      "title": "Plantens deler og hva de gjør",
+      "instruction": "Les hva hver del gjør, finn delen på planten og skriv tallet på lappen i ruten."
+    },
+    "flower": {
+      "title": "Blomstens deler",
+      "instruction": "Skriv navnet på hver nummererte del av blomsten på streken, og stryk ordet i ordbanken som ikke er en del av en blomst."
+    }
+  }
+}

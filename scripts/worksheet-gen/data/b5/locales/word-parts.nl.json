@@ -1,0 +1,1461 @@
+{
+  "familyHead": "Woordfamilies en voorvoegsels",
+  "inflections": [
+    "e",
+    "en",
+    "s",
+    "t",
+    "te",
+    "ten",
+    "de",
+    "den"
+  ],
+  "families": [
+    {
+      "id": "spel",
+      "stem": "spel",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "spel"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "speler",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "speelster",
+          "kind": "derived",
+          "slot": "noun-person",
+          "stemSigned": true
+        },
+        {
+          "word": "speels",
+          "kind": "derived",
+          "slot": "adjective",
+          "stemSigned": true
+        },
+        {
+          "word": "meespelen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "naspelen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "uitspelen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "spelregel",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "spin",
+          "whyNotFamily": "een dier met acht poten; er zit geen spel in"
+        },
+        {
+          "word": "spek",
+          "whyNotFamily": "iets om te eten"
+        },
+        {
+          "word": "spiegel",
+          "whyNotFamily": "daarin zie je jezelf; alleen \"sp\" is hetzelfde"
+        }
+      ]
+    },
+    {
+      "id": "vriend",
+      "stem": "vriend",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "vriend"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "vriendin",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "vriendelijk",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "vriendschap",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "bevriend",
+          "kind": "prefixed",
+          "slot": "adjective"
+        },
+        {
+          "word": "vriendelijkheid",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "vriendschappelijk",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "schoolvriend",
+          "kind": "compound",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "vrij",
+          "whyNotFamily": "als je geen school hebt"
+        },
+        {
+          "word": "vrachtwagen",
+          "whyNotFamily": "een grote auto voor spullen"
+        },
+        {
+          "word": "vriezen",
+          "whyNotFamily": "als het water ijs wordt; alleen \"vri\" is hetzelfde"
+        }
+      ]
+    },
+    {
+      "id": "werk",
+      "stem": "werk",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "werk"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "medewerker",
+          "kind": "prefixed",
+          "slot": "noun-person"
+        },
+        {
+          "word": "bewerken",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "meewerken",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "samenwerken",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "samenwerking",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "werkloos",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "werkplaats",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "wereld",
+          "whyNotFamily": "de hele aarde"
+        },
+        {
+          "word": "wespen",
+          "whyNotFamily": "insecten die kunnen steken"
+        },
+        {
+          "word": "wel",
+          "whyNotFamily": "het tegendeel van niet"
+        }
+      ]
+    },
+    {
+      "id": "bouw",
+      "stem": "bouw",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "bouw"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "gebouw",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "opbouwen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "ombouwen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "verbouwen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "verbouwing",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "bouwer",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "bouwvakker",
+          "kind": "compound",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "boter",
+          "whyNotFamily": "dat smeer je op brood"
+        },
+        {
+          "word": "bos",
+          "whyNotFamily": "een plek met veel bomen"
+        },
+        {
+          "word": "bouillon",
+          "whyNotFamily": "soep zonder stukjes; alleen \"bou\" is hetzelfde"
+        }
+      ]
+    },
+    {
+      "id": "tover",
+      "stem": "tover",
+      "rootIsFreeWord": false,
+      "root": {
+        "word": "tover"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "betoveren",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "betoverend",
+          "kind": "prefixed",
+          "slot": "adjective"
+        },
+        {
+          "word": "toverij",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "tovenaar",
+          "kind": "derived",
+          "slot": "noun-person",
+          "stemSigned": true
+        },
+        {
+          "word": "tovenares",
+          "kind": "derived",
+          "slot": "noun-person",
+          "stemSigned": true
+        },
+        {
+          "word": "wegtoveren",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "toverstaf",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "toren",
+          "whyNotFamily": "een hoog gebouw"
+        },
+        {
+          "word": "tomaat",
+          "whyNotFamily": "een rode vrucht"
+        },
+        {
+          "word": "toeter",
+          "whyNotFamily": "daar blaas je op"
+        }
+      ]
+    },
+    {
+      "id": "koop",
+      "stem": "koop",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "koop"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "aankoop",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "verkoop",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "uitverkoop",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "verkoper",
+          "kind": "prefixed",
+          "slot": "noun-person",
+          "stemSigned": true
+        },
+        {
+          "word": "verkopen",
+          "kind": "prefixed",
+          "slot": "verb",
+          "stemSigned": true
+        },
+        {
+          "word": "inkopen",
+          "kind": "prefixed",
+          "slot": "verb",
+          "stemSigned": true
+        },
+        {
+          "word": "koopman",
+          "kind": "compound",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "koor",
+          "whyNotFamily": "een groep die samen zingt"
+        },
+        {
+          "word": "kok",
+          "whyNotFamily": "iemand die kookt"
+        },
+        {
+          "word": "kool",
+          "whyNotFamily": "een groente"
+        }
+      ]
+    }
+  ],
+  "rootFamilies": [
+    {
+      "id": "kleur",
+      "stem": "kleur",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "kleur"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "kleurig",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "kleurloos",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "kleurrijk",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "verkleuren",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "inkleuren",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "bijkleuren",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "kleurpotlood",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "klei",
+          "whyNotFamily": "daar maak je figuren van"
+        },
+        {
+          "word": "kleed",
+          "whyNotFamily": "een doek op de vloer of tafel"
+        },
+        {
+          "word": "klein",
+          "whyNotFamily": "het tegendeel van groot"
+        }
+      ]
+    },
+    {
+      "id": "dans",
+      "stem": "dans",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "dans"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "danser",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "danseres",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "dansant",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "meedansen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "wegdansen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "afdansen",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "rondedans",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "das",
+          "whyNotFamily": "die draag je om je nek"
+        },
+        {
+          "word": "dak",
+          "whyNotFamily": "bovenop een huis"
+        },
+        {
+          "word": "dankjewel",
+          "whyNotFamily": "dat zeg je als je iets krijgt"
+        }
+      ]
+    },
+    {
+      "id": "hulp",
+      "stem": "hulp",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "hulp"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "behulpzaam",
+          "kind": "prefixed",
+          "slot": "adjective"
+        },
+        {
+          "word": "behulpzaamheid",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "hulpeloos",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "hulpeloosheid",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "hulpvaardig",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "hulpvaardigheid",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "hulpverlener",
+          "kind": "compound",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "huis",
+          "whyNotFamily": "daar woon je"
+        },
+        {
+          "word": "hut",
+          "whyNotFamily": "een klein huisje van takken"
+        },
+        {
+          "word": "huilen",
+          "whyNotFamily": "als je verdrietig bent"
+        }
+      ]
+    },
+    {
+      "id": "reis",
+      "stem": "reis",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "reis"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "reiziger",
+          "kind": "derived",
+          "slot": "noun-person",
+          "stemSigned": true
+        },
+        {
+          "word": "rondreis",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "terugreis",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "heenreis",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "bereisd",
+          "kind": "prefixed",
+          "slot": "adjective"
+        },
+        {
+          "word": "doorreis",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "wereldreis",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "reiger",
+          "whyNotFamily": "een vogel met lange poten"
+        },
+        {
+          "word": "regen",
+          "whyNotFamily": "water uit de wolken"
+        },
+        {
+          "word": "reus",
+          "whyNotFamily": "een heel grote man"
+        }
+      ]
+    }
+  ],
+  "picFamilies": [
+    {
+      "id": "zon",
+      "stem": "zon",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "zon",
+        "pic": {
+          "theme": "weather",
+          "noun": "sun"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "zonnig",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "zomer",
+          "whyNotFamily": "begint zoals \"zon\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "zolder",
+          "whyNotFamily": "begint zoals \"zon\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "zoen",
+          "whyNotFamily": "begint zoals \"zon\", maar is er niet van gemaakt"
+        }
+      ]
+    },
+    {
+      "id": "wolk",
+      "stem": "wolk",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "wolk",
+        "pic": {
+          "theme": "spring",
+          "noun": "cloud"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "bewolkt",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "wolf",
+          "whyNotFamily": "begint zoals \"wolk\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "wol",
+          "whyNotFamily": "begint zoals \"wolk\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "worst",
+          "whyNotFamily": "begint zoals \"wolk\", maar is er niet van gemaakt"
+        }
+      ]
+    },
+    {
+      "id": "hand",
+      "stem": "hand",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "hand",
+        "pic": {
+          "theme": "body parts",
+          "noun": "hand"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "handig",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "haan",
+          "whyNotFamily": "begint zoals \"hand\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "haas",
+          "whyNotFamily": "begint zoals \"hand\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "hamer",
+          "whyNotFamily": "begint zoals \"hand\", maar is er niet van gemaakt"
+        }
+      ]
+    },
+    {
+      "id": "tand",
+      "stem": "tand",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "tand",
+        "pic": {
+          "theme": "body parts",
+          "noun": "tooth"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "tandeloos",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "tafel",
+          "whyNotFamily": "begint zoals \"tand\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "taart",
+          "whyNotFamily": "begint zoals \"tand\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "tas",
+          "whyNotFamily": "begint zoals \"tand\", maar is er niet van gemaakt"
+        }
+      ]
+    },
+    {
+      "id": "vis",
+      "stem": "vis",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "vis",
+        "pic": {
+          "theme": "ocean life",
+          "noun": "fish"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "visser",
+          "kind": "derived",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "vier",
+          "whyNotFamily": "begint zoals \"vis\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "vijf",
+          "whyNotFamily": "begint zoals \"vis\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "vilt",
+          "whyNotFamily": "begint zoals \"vis\", maar is er niet van gemaakt"
+        }
+      ]
+    },
+    {
+      "id": "bloem",
+      "stem": "bloem",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "bloem",
+        "pic": {
+          "theme": "spring",
+          "noun": "flower"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "bloemist",
+          "kind": "derived",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "blok",
+          "whyNotFamily": "begint zoals \"bloem\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "blauw",
+          "whyNotFamily": "begint zoals \"bloem\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "blad",
+          "whyNotFamily": "begint zoals \"bloem\", maar is er niet van gemaakt"
+        }
+      ]
+    },
+    {
+      "id": "boer",
+      "stem": "boer",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "boer",
+        "pic": {
+          "theme": "occupations",
+          "noun": "farmer"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "boerderij",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "boek",
+          "whyNotFamily": "begint zoals \"boer\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "boom",
+          "whyNotFamily": "begint zoals \"boer\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "boot",
+          "whyNotFamily": "begint zoals \"boer\", maar is er niet van gemaakt"
+        }
+      ]
+    },
+    {
+      "id": "spook",
+      "stem": "spook",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "spook",
+        "pic": {
+          "theme": "miscellaneous",
+          "noun": "ghost"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "spookachtig",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "spoor",
+          "whyNotFamily": "begint zoals \"spook\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "spin",
+          "whyNotFamily": "begint zoals \"spook\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "spons",
+          "whyNotFamily": "begint zoals \"spook\", maar is er niet van gemaakt"
+        }
+      ]
+    },
+    {
+      "id": "fluit",
+      "stem": "fluit",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "fluit",
+        "pic": {
+          "theme": "music",
+          "noun": "flute"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "fluitist",
+          "kind": "derived",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "fles",
+          "whyNotFamily": "begint zoals \"fluit\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "flat",
+          "whyNotFamily": "begint zoals \"fluit\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "fluweel",
+          "whyNotFamily": "begint zoals \"fluit\", maar is er niet van gemaakt"
+        }
+      ]
+    },
+    {
+      "id": "rots",
+      "stem": "rots",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "rots",
+        "pic": {
+          "theme": "camping",
+          "noun": "rock"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "rotsachtig",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "rok",
+          "whyNotFamily": "begint zoals \"rots\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "roos",
+          "whyNotFamily": "begint zoals \"rots\", maar is er niet van gemaakt"
+        },
+        {
+          "word": "rood",
+          "whyNotFamily": "begint zoals \"rots\", maar is er niet van gemaakt"
+        }
+      ]
+    }
+  ],
+  "sentences": {
+    "spel": [
+      {
+        "word": "meespelen",
+        "slot": "verb",
+        "frame": "Mag ik bij jullie {gap}?"
+      },
+      {
+        "word": "speler",
+        "slot": "noun-person",
+        "frame": "De beste {gap} van ons team scoort een doelpunt."
+      },
+      {
+        "word": "spelregel",
+        "slot": "noun-thing",
+        "frame": "Lees eerst elke {gap} voordat je begint."
+      },
+      {
+        "word": "speels",
+        "slot": "adjective",
+        "frame": "Ons jonge katje is heel {gap}."
+      }
+    ],
+    "tover": [
+      {
+        "word": "betoveren",
+        "slot": "verb",
+        "frame": "Kan de heks de prins in een kikker {gap}?"
+      },
+      {
+        "word": "tovenaar",
+        "slot": "noun-person",
+        "frame": "De {gap} draagt een hoed met sterren."
+      },
+      {
+        "word": "toverstaf",
+        "slot": "noun-thing",
+        "frame": "Hij tikt met zijn {gap} op de hoed."
+      },
+      {
+        "word": "betoverend",
+        "slot": "adjective",
+        "frame": "Het kasteel in de sneeuw ziet er {gap} uit."
+      }
+    ]
+  },
+  "prefixKey": {
+    "prefixes": [
+      {
+        "prefix": "her",
+        "meaning": "opnieuw"
+      },
+      {
+        "prefix": "mee",
+        "meaning": "samen met"
+      },
+      {
+        "prefix": "uit",
+        "meaning": "helemaal of eruit"
+      }
+    ],
+    "rows": [
+      {
+        "base": "lezen",
+        "prefix": "her",
+        "word": "herlezen",
+        "gloss": "een boek nog een keer lezen"
+      },
+      {
+        "base": "tellen",
+        "prefix": "her",
+        "word": "hertellen",
+        "gloss": "de stemmen nog een keer tellen"
+      },
+      {
+        "base": "bouwen",
+        "prefix": "her",
+        "word": "herbouwen",
+        "gloss": "een kapot huis opnieuw neerzetten"
+      },
+      {
+        "base": "zingen",
+        "prefix": "mee",
+        "word": "meezingen",
+        "gloss": "samen met de anderen een lied zingen"
+      },
+      {
+        "base": "nemen",
+        "prefix": "mee",
+        "word": "meenemen",
+        "gloss": "iets bij je hebben als je weggaat"
+      },
+      {
+        "base": "helpen",
+        "prefix": "mee",
+        "word": "meehelpen",
+        "gloss": "samen met anderen een klus doen"
+      },
+      {
+        "base": "pakken",
+        "prefix": "uit",
+        "word": "uitpakken",
+        "gloss": "het papier van een cadeau halen"
+      },
+      {
+        "base": "drinken",
+        "prefix": "uit",
+        "word": "uitdrinken",
+        "gloss": "je glas helemaal leeg drinken"
+      },
+      {
+        "base": "blazen",
+        "prefix": "uit",
+        "word": "uitblazen",
+        "gloss": "met je adem de kaarsjes op de taart doven"
+      },
+      {
+        "base": "trekken",
+        "prefix": "uit",
+        "word": "uittrekken",
+        "gloss": "je jas van je lijf halen"
+      }
+    ],
+    "crossCheck": [
+      {
+        "base": "lezen",
+        "prefix": "her",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "lezen",
+        "prefix": "mee",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "lezen",
+        "prefix": "uit",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "tellen",
+        "prefix": "her",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "tellen",
+        "prefix": "mee",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "tellen",
+        "prefix": "uit",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "bouwen",
+        "prefix": "her",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "bouwen",
+        "prefix": "mee",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "bouwen",
+        "prefix": "uit",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "zingen",
+        "prefix": "her",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "zingen",
+        "prefix": "mee",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "zingen",
+        "prefix": "uit",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "nemen",
+        "prefix": "her",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "nemen",
+        "prefix": "mee",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "nemen",
+        "prefix": "uit",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "helpen",
+        "prefix": "her",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "helpen",
+        "prefix": "mee",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "helpen",
+        "prefix": "uit",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "pakken",
+        "prefix": "her",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "pakken",
+        "prefix": "mee",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "pakken",
+        "prefix": "uit",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "drinken",
+        "prefix": "her",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "drinken",
+        "prefix": "mee",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "drinken",
+        "prefix": "uit",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "blazen",
+        "prefix": "her",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "blazen",
+        "prefix": "mee",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "blazen",
+        "prefix": "uit",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "trekken",
+        "prefix": "her",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "trekken",
+        "prefix": "mee",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "trekken",
+        "prefix": "uit",
+        "isWord": true,
+        "fitsGloss": true
+      }
+    ]
+  },
+  "negating": [
+    "on",
+    "wan"
+  ],
+  "agents": [
+    {
+      "key": "baker",
+      "base": "bakken",
+      "answer": {
+        "m": "bakker",
+        "f": "bakster"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "musician",
+      "base": "muziek",
+      "answer": {
+        "m": "muzikant",
+        "f": "muzikante"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "photographer",
+      "base": "foto",
+      "answer": {
+        "m": "fotograaf",
+        "f": "fotografe"
+      }
+    },
+    {
+      "key": "singer",
+      "base": "zingen",
+      "answer": {
+        "m": "zanger",
+        "f": "zangeres"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "gardener",
+      "base": "tuin",
+      "answer": {
+        "m": "tuinier",
+        "f": "tuinierster"
+      }
+    },
+    {
+      "key": "carpenter",
+      "base": "timmeren",
+      "answer": {
+        "m": "timmerman",
+        "f": "timmervrouw"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "teacher",
+      "base": "leren",
+      "answer": {
+        "m": "leraar",
+        "f": "lerares"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "athlete",
+      "base": "hardlopen",
+      "answer": {
+        "m": "hardloper",
+        "f": "hardloopster"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "ballerina",
+      "base": "dansen",
+      "answer": {
+        "m": "danser",
+        "f": "danseres"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "cashier",
+      "base": "kassa",
+      "answer": {
+        "m": "kassier",
+        "f": "kassière"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "tailor",
+      "base": "naaien",
+      "answer": {
+        "m": "naaier",
+        "f": "naaister"
+      },
+      "stemSigned": true
+    },
+    {
+      "key": "florist",
+      "base": "bloem",
+      "answer": {
+        "m": "bloemist",
+        "f": "bloemiste"
+      }
+    }
+  ],
+  "exemplar": {
+    "base": [
+      "spel",
+      "vriend"
+    ],
+    "F1": [
+      "weather/sun",
+      "spring/cloud",
+      "body parts/hand",
+      "body parts/tooth",
+      "ocean life/fish",
+      "spring/flower",
+      "occupations/farmer",
+      "miscellaneous/ghost",
+      "music/flute",
+      "camping/rock"
+    ],
+    "F2": [
+      "spel",
+      "vriend",
+      "werk",
+      "bouw",
+      "koop",
+      "reis",
+      "kleur",
+      "dans",
+      "hulp"
+    ],
+    "F5": [
+      "spel",
+      "tover"
+    ]
+  },
+  "refuse": {
+    "base": false,
+    "picture-family": false,
+    "root-word": false,
+    "prefix-key": false,
+    "who-does-it": false,
+    "family-in-sentence": false
+  },
+  "strings": {
+    "base": {
+      "title": "Woordfamilies: sorteer op het stamwoord",
+      "instruction": "Lees elk woord bovenaan en schrijf het op een lijn van de muur die op zijn stamwoord staat."
+    },
+    "picture-family": {
+      "title": "Woordfamilies met plaatjes: omcirkel het woord",
+      "instruction": "Zeg wat je op elk plaatje ziet en omcirkel daarboven het ene woord dat van dat plaatjeswoord is gemaakt."
+    },
+    "root-word": {
+      "title": "Het stamwoord vinden",
+      "instruction": "Omcirkel het stukje dat de drie woorden delen en schrijf dat stamwoord in de lege steen."
+    },
+    "prefix-key": {
+      "title": "Voorvoegsels her-, mee- en uit-: kies op betekenis",
+      "instruction": "Lees wat elk nieuw woord betekent, zoek het voorvoegsel in de sleutel en schrijf het in het lege stukje."
+    },
+    "who-does-it": {
+      "title": "Wie doet het? Woorden voor beroepen maken",
+      "instruction": "Kijk naar elke persoon aan het werk, lees het woord ernaast en schrijf het persoonswoord in de lege steen."
+    },
+    "family-in-sentence": {
+      "title": "Woordfamilies in zinnen",
+      "instruction": "Schrijf elk van de vier woorden op de steen in de zin waar het in past."
+    }
+  }
+}

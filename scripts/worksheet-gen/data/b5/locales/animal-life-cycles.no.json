@@ -1,0 +1,119 @@
+{
+  "stageWords": {
+    "butterfly": {
+      "egg": "egg",
+      "larva": "larve",
+      "pupa": "puppe",
+      "adult": "sommerfugl"
+    }
+  },
+  "decoy": {
+    "frog.tadpole": "rumpetroll"
+  },
+  "landingWords": {
+    "frog": {
+      "spawn": "froskeegg",
+      "tadpole": "rumpetroll",
+      "legged": "rumpetroll med bein",
+      "froglet": "froskeunge",
+      "adult": "frosk"
+    },
+    "ladybird": {
+      "egg": "egg",
+      "larva": "larve",
+      "pupa": "puppe",
+      "adult": "marihøne"
+    }
+  },
+  "statements": {
+    "egg": "Den begynner livet som et egg.",
+    "change": "Ungen ser helt annerledes ut enn det voksne dyret.",
+    "pupa": "En stund er den en puppe.",
+    "wings": "Det voksne dyret har vinger.",
+    "sixlegs": "Det voksne dyret har seks bein.",
+    "nectar": "Det voksne dyret drikker nektar fra blomster.",
+    "tail": "Ungen svømmer med halen.",
+    "water": "Ungen lever i vann.",
+    "nolegs": "Ungen har ingen bein i begynnelsen.",
+    "fourlegs": "Det voksne dyret har fire bein.",
+    "insects": "Det voksne dyret fanger insekter og spiser dem."
+  },
+  "drop": [],
+  "familyName": "Sommerfuglens og froskens livssyklus",
+  "spawnForm": "clump",
+  "forbidden": [
+    "kokong",
+    "kokongen",
+    "kokonger"
+  ],
+  "genreBare": [
+    "livssyklus",
+    "livssyklusen",
+    "livssykluser"
+  ],
+  "pictureWord": "bildet",
+  "instructionBans": {
+    "G1-377": [
+      "klipp",
+      "lim",
+      "kryss",
+      "ring",
+      "bokstav",
+      "bokstaven"
+    ],
+    "G1-389": [
+      "skriv",
+      "kryss",
+      "ring"
+    ],
+    "G2-365": [
+      "klipp",
+      "kryss",
+      "ring"
+    ],
+    "G2-366": [
+      "klipp",
+      "kryss",
+      "ring",
+      "tall",
+      "tallet"
+    ],
+    "G3-393": [
+      "ring",
+      "klipp",
+      "skriv"
+    ],
+    "G1-390": [
+      "skriv",
+      "kryss",
+      "klipp"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "G1-377": {
+      "title": "Sommerfuglens livssyklus: fra egg til sommerfugl",
+      "instruction": "Egget er 1: skriv 2, 3 og 4 i rutene i riktig rekkefølge, og i den siste ruten tallet på bildet som kommer etter sommerfuglen."
+    },
+    "G1-389": {
+      "title": "Froskens livssyklus: klipp og lim",
+      "instruction": "Klipp ut de fire rutene og lim hver av dem på sitt nøkkeroseblad, rundt dammen fra froskeegget til frosken."
+    },
+    "G2-365": {
+      "title": "Sommerfuglens livssyklus: skriv navnene på stadiene",
+      "instruction": "Skriv hvert navn fra ordbanken på streken under riktig bilde, og stryk det ene navnet som ikke hører til."
+    },
+    "G2-366": {
+      "title": "Metamorfose: hvilket dyr blir ungen til?",
+      "instruction": "Se på hvert unge dyr og skriv bokstaven i en rute under det voksne dyret som ungen blir til."
+    },
+    "G3-393": {
+      "title": "Sommerfuglens og froskens livssyklus: sammenlign",
+      "instruction": "Les hver setning og sett kryss under sommerfuglen, frosken eller begge når setningen stemmer for dyret."
+    },
+    "G1-390": {
+      "title": "Hva kommer etterpå? Sommerfugl, frosk og marihøne",
+      "instruction": "Se på det første bildet i hver rad og ring rundt bildet som kommer rett etter."
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "partWords": {
+    "root": "racines",
+    "stem": "tige",
+    "leaf": "feuille",
+    "flower": "fleur",
+    "fruit": "fruit",
+    "seed": "graine"
+  },
+  "flowerWords": {
+    "petal": "pétale",
+    "sepal": "sépale",
+    "stamen": "étamine",
+    "pistil": "pistil",
+    "stalk": "tige",
+    "ovary": "ovaire"
+  },
+  "jobs": {
+    "root": "puiser l’eau dans la terre",
+    "stem": "tenir la plante bien droite",
+    "leaf": "fabriquer la nourriture de la plante grâce à la lumière",
+    "flower": "attirer les abeilles avec ses couleurs vives",
+    "seed": "donner naissance à une nouvelle plante"
+  },
+  "partStems": [
+    "racine",
+    "racines",
+    "tige",
+    "tiges",
+    "feuille",
+    "feuilles",
+    "feuillage",
+    "fleur",
+    "fleurs",
+    "fleurir",
+    "floraison",
+    "fruit",
+    "fruits",
+    "graine",
+    "graines",
+    "pétale",
+    "pétales"
+  ],
+  "forbidden": [
+    "semence",
+    "pépin",
+    "tronc",
+    "légume"
+  ],
+  "refuseItems": [],
+  "refuse": [],
+  "instructionBans": {
+    "base": [
+      "entoure",
+      "colorie",
+      "découpe"
+    ],
+    "flower": [
+      "entoure",
+      "colorie",
+      "découpe"
+    ],
+    "needs": [
+      "mot",
+      "mots",
+      "écris"
+    ],
+    "eat": [
+      "légume",
+      "légumes"
+    ],
+    "jobs": [
+      "liste"
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Les parties de la plante",
+      "instruction": "Suis chaque étiquette numérotée jusqu’à une partie de la plante et écris son nom, pris dans la liste, sur la ligne du même numéro."
+    },
+    "needs": {
+      "title": "De quoi une plante a-t-elle besoin pour pousser ?",
+      "instruction": "Regarde ce que reçoit chaque plante et entoure celle qui a les deux choses dont elle a besoin pour pousser."
+    },
+    "cycle": {
+      "title": "Le cycle de vie d’une plante : de la graine à la plante",
+      "instruction": "Découpe les quatre images et colle chacune dans la case vide suivante, en suivant les flèches depuis la graine."
+    },
+    "eat": {
+      "title": "Les parties des plantes que l’on mange",
+      "instruction": "Regarde chaque aliment et entoure la partie de la plante que l’on mange."
+    },
+    "jobs": {
+      "title": "Le rôle de chaque partie de la plante",
+      "instruction": "Lis ce que fait chaque partie, trouve-la sur la plante et écris le numéro de son étiquette dans la case."
+    },
+    "flower": {
+      "title": "Les parties de la fleur",
+      "instruction": "Écris le nom de chaque partie numérotée de la fleur sur sa ligne et barre le mot de la liste qui n’en fait pas partie."
+    }
+  }
+}

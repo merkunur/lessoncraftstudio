@@ -1,0 +1,104 @@
+{
+  "hemisphere": "N",
+  "bodies": {
+    "sun": "Aurinko",
+    "earth": "Maa",
+    "moon": "Kuu"
+  },
+  "facts": {
+    "ownLight": "Se tuottaa omaa valoaan.",
+    "star": "Se on tähti.",
+    "hottest": "Se on kolmesta kuumin.",
+    "biggest": "Se on kolmesta suurin.",
+    "liveOn": "Sen pinnalla asuu ihmisiä ja eläimiä.",
+    "oceans": "Siellä on suuria meriä täynnä vettä.",
+    "air": "Siellä on ilmaa, jota voimme hengittää.",
+    "planet": "Se on planeetta.",
+    "spinDay": "Koska se pyörii, meillä on vuorotellen päivä ja yö.",
+    "orbitsEarth": "Se kiertää Maata.",
+    "seemsToChange": "Sen muoto näyttää muuttuvan.",
+    "craters": "Sen pinnalla on paljon kraattereita.",
+    "smallest": "Se on kolmesta pienin."
+  },
+  "leakForms": [],
+  "genderNeutral": true,
+  "forbiddenStems": [
+    "antaa valoa",
+    "antaa meille valoa",
+    "loistaa",
+    "paistaa",
+    "kiertää aurinkoa",
+    "kiertää auringon",
+    "nousee",
+    "laskee",
+    "yöllä",
+    "taivaalla",
+    "pyöreä",
+    "ei ole ilmaa",
+    "heijastaa",
+    "liikkuu taivaan",
+    "kesä",
+    "talvi",
+    "syksy",
+    "kevät",
+    "sade",
+    "lumi",
+    "pilvi",
+    "sää",
+    "lämmin päivä",
+    "kylmä päivä"
+  ],
+  "phaseNames": {
+    "0": "uusikuu",
+    "2": "kasvava puolikuu",
+    "4": "täysikuu",
+    "6": "vähenevä puolikuu"
+  },
+  "planets": {
+    "mercury": "Merkurius",
+    "venus": "Venus",
+    "earth": "Maa",
+    "mars": "Mars",
+    "jupiter": "Jupiter",
+    "saturn": "Saturnus",
+    "uranus": "Uranus",
+    "neptune": "Neptunus"
+  },
+  "notPlanet": {
+    "sun": "Aurinko",
+    "moon": "Kuu"
+  },
+  "classLabels": {
+    "giant": "jättiläisplaneetta",
+    "rocky": "pieni kiviplaneetta",
+    "notPlanet": "ei planeetta"
+  },
+  "mnemonic": "Minä Vien Maijan Marjaan, Jos Sää Uudestaan Näyttää",
+  "refuse": [],
+  "strings": {
+    "base": {
+      "title": "Aurinko, Maa ja Kuu",
+      "instruction": "Lue jokainen lause ja merkitse rasti Auringon, Maan tai Kuun alla olevaan ruutuun."
+    },
+    "moon-phases-in-order": {
+      "title": "Kuun vaiheet oikeassa järjestyksessä",
+      "instruction": "Katso rivin kiilasta, kasvaako vai pieneneekö kuu, ja kirjoita kuiden alle numerot 1–5 siinä järjestyksessä."
+    },
+    "moon-phase-names": {
+      "title": "Kuun vaiheiden nimet",
+      "instruction": "Katso jokaista kuuta ja kirjoita sen nimi viivoille, ja käytä jokaista sanapankin sanaa kahdesti."
+    },
+    "day-and-night-model": {
+      "title": "Miksi on päivä ja yö?",
+      "instruction": "Katso, missä Aurinko on, ja rengasta taulukosta jokaisen numeroidun nastan kohdalta päivä tai yö."
+    },
+    "planets-in-order": {
+      "title": "Planeetat järjestyksessä Auringosta",
+      "instruction": "Kirjoita jokaisen planeetan nimi sen viivalle alkaen Aurinkoa lähimmästä, ja käytä jokaista laatikon nimeä kerran."
+    },
+    "planet-sizes": {
+      "title": "Jättiläisplaneetat ja kiviplaneetat",
+      "instruction": "Lajittele nimet ja kirjoita jokainen oikeaan laatikkoon: jättiläisplaneetta, pieni kiviplaneetta tai ei planeetta."
+    }
+  }
+}

@@ -1,0 +1,1892 @@
+{
+  "head": "Pitkä vokaali",
+  "refused": null,
+  "phonemes": [
+    "aː",
+    "b",
+    "a",
+    "n",
+    "i",
+    "p",
+    "r",
+    "s",
+    "k",
+    "l",
+    "u",
+    "kː",
+    "pː",
+    "t",
+    "h",
+    "tː",
+    "m",
+    "o",
+    "e",
+    "v",
+    "j",
+    "d",
+    "æ",
+    "uː",
+    "sː",
+    "ŋ",
+    "æː",
+    "y",
+    "ø",
+    "lː"
+  ],
+  "teams": {
+    "aa": {
+      "t": "aa",
+      "sound": [
+        "aː"
+      ],
+      "items": [
+        {
+          "vocabKey": "banana",
+          "theme": "fruits",
+          "noun": "banana",
+          "word": "banaani",
+          "seg": [
+            "b",
+            "a",
+            "n",
+            "aa",
+            "n",
+            "i"
+          ],
+          "snd": [
+            "b",
+            "a",
+            "n",
+            "aː",
+            "n",
+            "i"
+          ],
+          "silent": [],
+          "stem": "banaani",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "broccoli",
+          "theme": "vegetables",
+          "noun": "broccoli",
+          "word": "parsakaali",
+          "seg": [
+            "p",
+            "a",
+            "r",
+            "s",
+            "a",
+            "k",
+            "aa",
+            "l",
+            "i"
+          ],
+          "snd": [
+            "p",
+            "a",
+            "r",
+            "s",
+            "a",
+            "k",
+            "aː",
+            "l",
+            "i"
+          ],
+          "silent": [],
+          "stem": "kaali",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cabbage",
+          "theme": "vegetables",
+          "noun": "cabbage",
+          "word": "kaali",
+          "seg": [
+            "k",
+            "aa",
+            "l",
+            "i"
+          ],
+          "snd": [
+            "k",
+            "aː",
+            "l",
+            "i"
+          ],
+          "silent": [],
+          "stem": "kaali",
+          "noGap": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cauliflower",
+          "theme": "vegetables",
+          "noun": "cauliflower",
+          "word": "kukkakaali",
+          "seg": [
+            "k",
+            "u",
+            "kk",
+            "a",
+            "k",
+            "aa",
+            "l",
+            "i"
+          ],
+          "snd": [
+            "k",
+            "u",
+            "kː",
+            "a",
+            "k",
+            "aː",
+            "l",
+            "i"
+          ],
+          "silent": [],
+          "stem": "kaali",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cabinet",
+          "theme": "furniture",
+          "noun": "cabinet",
+          "word": "kaappi",
+          "seg": [
+            "k",
+            "aa",
+            "pp",
+            "i"
+          ],
+          "snd": [
+            "k",
+            "aː",
+            "pː",
+            "i"
+          ],
+          "silent": [],
+          "stem": "kaappi",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "chocolate",
+          "theme": "easter",
+          "noun": "chocolate",
+          "word": "suklaa",
+          "seg": [
+            "s",
+            "u",
+            "k",
+            "l",
+            "aa"
+          ],
+          "snd": [
+            "s",
+            "u",
+            "k",
+            "l",
+            "aː"
+          ],
+          "silent": [],
+          "stem": "suklaa",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "donkey",
+          "theme": "farm animals",
+          "noun": "donkey",
+          "word": "aasi",
+          "seg": [
+            "aa",
+            "s",
+            "i"
+          ],
+          "snd": [
+            "aː",
+            "s",
+            "i"
+          ],
+          "silent": [],
+          "stem": "aasi",
+          "noGap": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "grater",
+          "theme": "kitchen tools",
+          "noun": "grater",
+          "word": "raastin",
+          "seg": [
+            "r",
+            "aa",
+            "s",
+            "t",
+            "i",
+            "n"
+          ],
+          "snd": [
+            "r",
+            "aː",
+            "s",
+            "t",
+            "i",
+            "n"
+          ],
+          "silent": [],
+          "stem": "raastin",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "island",
+          "theme": "beach",
+          "noun": "island",
+          "word": "saari",
+          "seg": [
+            "s",
+            "aa",
+            "r",
+            "i"
+          ],
+          "snd": [
+            "s",
+            "aː",
+            "r",
+            "i"
+          ],
+          "silent": [],
+          "stem": "saari",
+          "noGap": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "jumpsuit",
+          "theme": "clothing",
+          "noun": "jumpsuit",
+          "word": "haalari",
+          "seg": [
+            "h",
+            "aa",
+            "l",
+            "a",
+            "r",
+            "i"
+          ],
+          "snd": [
+            "h",
+            "aː",
+            "l",
+            "a",
+            "r",
+            "i"
+          ],
+          "silent": [],
+          "stem": "haalari",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "ladder",
+          "theme": "tools",
+          "noun": "ladder",
+          "word": "tikkaat",
+          "seg": [
+            "t",
+            "i",
+            "kk",
+            "aa",
+            "t"
+          ],
+          "snd": [
+            "t",
+            "i",
+            "kː",
+            "aː",
+            "t"
+          ],
+          "silent": [],
+          "stem": "tikkaat",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lettuce",
+          "theme": "vegetables",
+          "noun": "lettuce",
+          "word": "salaatti",
+          "seg": [
+            "s",
+            "a",
+            "l",
+            "aa",
+            "tt",
+            "i"
+          ],
+          "snd": [
+            "s",
+            "a",
+            "l",
+            "aː",
+            "tː",
+            "i"
+          ],
+          "silent": [],
+          "stem": "salaatti",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "llama",
+          "theme": "farm animals",
+          "noun": "llama",
+          "word": "laama",
+          "seg": [
+            "l",
+            "aa",
+            "m",
+            "a"
+          ],
+          "snd": [
+            "l",
+            "aː",
+            "m",
+            "a"
+          ],
+          "silent": [],
+          "stem": "laama",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mailbox",
+          "theme": "around the house",
+          "noun": "mailbox",
+          "word": "postilaatikko",
+          "seg": [
+            "p",
+            "o",
+            "s",
+            "t",
+            "i",
+            "l",
+            "aa",
+            "t",
+            "i",
+            "kk",
+            "o"
+          ],
+          "snd": [
+            "p",
+            "o",
+            "s",
+            "t",
+            "i",
+            "l",
+            "aː",
+            "t",
+            "i",
+            "kː",
+            "o"
+          ],
+          "silent": [],
+          "stem": "laatikko",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "sandbox",
+          "theme": "toys",
+          "noun": "sandbox",
+          "word": "hiekkalaatikko",
+          "seg": [
+            "h",
+            "i",
+            "e",
+            "kk",
+            "a",
+            "l",
+            "aa",
+            "t",
+            "i",
+            "kk",
+            "o"
+          ],
+          "snd": [
+            "h",
+            "i",
+            "e",
+            "kː",
+            "a",
+            "l",
+            "aː",
+            "t",
+            "i",
+            "kː",
+            "o"
+          ],
+          "silent": [],
+          "stem": "laatikko",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mechanic",
+          "theme": "occupations",
+          "noun": "mechanic",
+          "word": "mekaanikko",
+          "seg": [
+            "m",
+            "e",
+            "k",
+            "aa",
+            "n",
+            "i",
+            "kk",
+            "o"
+          ],
+          "snd": [
+            "m",
+            "e",
+            "k",
+            "aː",
+            "n",
+            "i",
+            "kː",
+            "o"
+          ],
+          "silent": [],
+          "stem": "mekaanikko",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "photographer",
+          "theme": "occupations",
+          "noun": "photographer",
+          "word": "valokuvaaja",
+          "seg": [
+            "v",
+            "a",
+            "l",
+            "o",
+            "k",
+            "u",
+            "v",
+            "aa",
+            "j",
+            "a"
+          ],
+          "snd": [
+            "v",
+            "a",
+            "l",
+            "o",
+            "k",
+            "u",
+            "v",
+            "aː",
+            "j",
+            "a"
+          ],
+          "silent": [],
+          "stem": "valokuvaaja",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "sandals",
+          "theme": "beach",
+          "noun": "sandals",
+          "word": "sandaalit",
+          "seg": [
+            "s",
+            "a",
+            "n",
+            "d",
+            "aa",
+            "l",
+            "i",
+            "t"
+          ],
+          "snd": [
+            "s",
+            "a",
+            "n",
+            "d",
+            "aː",
+            "l",
+            "i",
+            "t"
+          ],
+          "silent": [],
+          "stem": "sandaalit",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "scale",
+          "theme": "post office",
+          "noun": "scale",
+          "word": "vaaka",
+          "seg": [
+            "v",
+            "aa",
+            "k",
+            "a"
+          ],
+          "snd": [
+            "v",
+            "aː",
+            "k",
+            "a"
+          ],
+          "silent": [],
+          "stem": "vaaka",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "stairs",
+          "theme": "around the house",
+          "noun": "stairs",
+          "word": "portaat",
+          "seg": [
+            "p",
+            "o",
+            "r",
+            "t",
+            "aa",
+            "t"
+          ],
+          "snd": [
+            "p",
+            "o",
+            "r",
+            "t",
+            "aː",
+            "t"
+          ],
+          "silent": [],
+          "stem": "portaat",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "toaster",
+          "theme": "kitchen tools",
+          "noun": "toaster",
+          "word": "leivänpaahdin",
+          "seg": [
+            "l",
+            "e",
+            "i",
+            "v",
+            "ä",
+            "n",
+            "p",
+            "aa",
+            "h",
+            "d",
+            "i",
+            "n"
+          ],
+          "snd": [
+            "l",
+            "e",
+            "i",
+            "v",
+            "æ",
+            "n",
+            "p",
+            "aː",
+            "h",
+            "d",
+            "i",
+            "n"
+          ],
+          "silent": [],
+          "stem": "leivänpaahdin",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "tomato",
+          "theme": "vegetables",
+          "noun": "tomato",
+          "word": "tomaatti",
+          "seg": [
+            "t",
+            "o",
+            "m",
+            "aa",
+            "tt",
+            "i"
+          ],
+          "snd": [
+            "t",
+            "o",
+            "m",
+            "aː",
+            "tː",
+            "i"
+          ],
+          "silent": [],
+          "stem": "tomaatti",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "toucan",
+          "theme": "birds",
+          "noun": "toucan",
+          "word": "tukaani",
+          "seg": [
+            "t",
+            "u",
+            "k",
+            "aa",
+            "n",
+            "i"
+          ],
+          "snd": [
+            "t",
+            "u",
+            "k",
+            "aː",
+            "n",
+            "i"
+          ],
+          "silent": [],
+          "stem": "tukaani",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "tulip",
+          "theme": "flowers",
+          "noun": "tulip",
+          "word": "tulppaani",
+          "seg": [
+            "t",
+            "u",
+            "l",
+            "pp",
+            "aa",
+            "n",
+            "i"
+          ],
+          "snd": [
+            "t",
+            "u",
+            "l",
+            "pː",
+            "aː",
+            "n",
+            "i"
+          ],
+          "silent": [],
+          "stem": "tulppaani",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "wave",
+          "theme": "beach",
+          "noun": "wave",
+          "word": "aalto",
+          "seg": [
+            "aa",
+            "l",
+            "t",
+            "o"
+          ],
+          "snd": [
+            "aː",
+            "l",
+            "t",
+            "o"
+          ],
+          "silent": [],
+          "stem": "aalto",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "fork",
+          "theme": "kitchen tools",
+          "noun": "fork",
+          "word": "haarukka",
+          "seg": [
+            "h",
+            "aa",
+            "r",
+            "u",
+            "kk",
+            "a"
+          ],
+          "snd": [
+            "h",
+            "aː",
+            "r",
+            "u",
+            "kː",
+            "a"
+          ],
+          "silent": [],
+          "stem": "haarukka",
+          "picOpened": true
+        }
+      ]
+    },
+    "uu": {
+      "t": "uu",
+      "sound": [
+        "uː"
+      ],
+      "items": [
+        {
+          "vocabKey": "ant",
+          "theme": "insects and bugs",
+          "noun": "ant",
+          "word": "muurahainen",
+          "seg": [
+            "m",
+            "uu",
+            "r",
+            "a",
+            "h",
+            "a",
+            "i",
+            "n",
+            "e",
+            "n"
+          ],
+          "snd": [
+            "m",
+            "uː",
+            "r",
+            "a",
+            "h",
+            "a",
+            "i",
+            "n",
+            "e",
+            "n"
+          ],
+          "silent": [],
+          "stem": "muurahainen",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "beetroot",
+          "theme": "vegetables",
+          "noun": "beetroot",
+          "word": "punajuuri",
+          "seg": [
+            "p",
+            "u",
+            "n",
+            "a",
+            "j",
+            "uu",
+            "r",
+            "i"
+          ],
+          "snd": [
+            "p",
+            "u",
+            "n",
+            "a",
+            "j",
+            "uː",
+            "r",
+            "i"
+          ],
+          "silent": [],
+          "stem": "punajuuri",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "broom",
+          "theme": "around the house",
+          "noun": "broom",
+          "word": "luuta",
+          "seg": [
+            "l",
+            "uu",
+            "t",
+            "a"
+          ],
+          "snd": [
+            "l",
+            "uː",
+            "t",
+            "a"
+          ],
+          "silent": [],
+          "stem": "luuta",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cheese",
+          "theme": "breakfast",
+          "noun": "cheese",
+          "word": "juusto",
+          "seg": [
+            "j",
+            "uu",
+            "s",
+            "t",
+            "o"
+          ],
+          "snd": [
+            "j",
+            "uː",
+            "s",
+            "t",
+            "o"
+          ],
+          "silent": [],
+          "stem": "juusto",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "crown",
+          "theme": "accessories",
+          "noun": "crown",
+          "word": "kruunu",
+          "seg": [
+            "k",
+            "r",
+            "uu",
+            "n",
+            "u"
+          ],
+          "snd": [
+            "k",
+            "r",
+            "uː",
+            "n",
+            "u"
+          ],
+          "silent": [],
+          "stem": "kruunu",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "fan",
+          "theme": "around the house",
+          "noun": "fan",
+          "word": "tuuletin",
+          "seg": [
+            "t",
+            "uu",
+            "l",
+            "e",
+            "t",
+            "i",
+            "n"
+          ],
+          "snd": [
+            "t",
+            "uː",
+            "l",
+            "e",
+            "t",
+            "i",
+            "n"
+          ],
+          "silent": [],
+          "stem": "tuuletin",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "gardener",
+          "theme": "occupations",
+          "noun": "gardener",
+          "word": "puutarhuri",
+          "seg": [
+            "p",
+            "uu",
+            "t",
+            "a",
+            "r",
+            "h",
+            "u",
+            "r",
+            "i"
+          ],
+          "snd": [
+            "p",
+            "uː",
+            "t",
+            "a",
+            "r",
+            "h",
+            "u",
+            "r",
+            "i"
+          ],
+          "silent": [],
+          "stem": "puutarhuri",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "jellyfish",
+          "theme": "ocean life",
+          "noun": "jellyfish",
+          "word": "meduusa",
+          "seg": [
+            "m",
+            "e",
+            "d",
+            "uu",
+            "s",
+            "a"
+          ],
+          "snd": [
+            "m",
+            "e",
+            "d",
+            "uː",
+            "s",
+            "a"
+          ],
+          "silent": [],
+          "stem": "meduusa",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lemon",
+          "theme": "fruits",
+          "noun": "lemon",
+          "word": "sitruuna",
+          "seg": [
+            "s",
+            "i",
+            "t",
+            "r",
+            "uu",
+            "n",
+            "a"
+          ],
+          "snd": [
+            "s",
+            "i",
+            "t",
+            "r",
+            "uː",
+            "n",
+            "a"
+          ],
+          "silent": [],
+          "stem": "sitruuna",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lip",
+          "theme": "body parts",
+          "noun": "lip",
+          "word": "huuli",
+          "seg": [
+            "h",
+            "uu",
+            "l",
+            "i"
+          ],
+          "snd": [
+            "h",
+            "uː",
+            "l",
+            "i"
+          ],
+          "silent": [],
+          "stem": "huuli",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "moon",
+          "theme": "space",
+          "noun": "moon",
+          "word": "kuu",
+          "seg": [
+            "k",
+            "uu"
+          ],
+          "snd": [
+            "k",
+            "uː"
+          ],
+          "silent": [],
+          "stem": "kuu",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "porridge",
+          "theme": "breakfast",
+          "noun": "porridge",
+          "word": "puuro",
+          "seg": [
+            "p",
+            "uu",
+            "r",
+            "o"
+          ],
+          "snd": [
+            "p",
+            "uː",
+            "r",
+            "o"
+          ],
+          "silent": [],
+          "stem": "puuro",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "oven",
+          "theme": "around the house",
+          "noun": "oven",
+          "word": "uuni",
+          "seg": [
+            "uu",
+            "n",
+            "i"
+          ],
+          "snd": [
+            "uː",
+            "n",
+            "i"
+          ],
+          "silent": [],
+          "stem": "uuni",
+          "noGap": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "rose",
+          "theme": "flowers",
+          "noun": "rose",
+          "word": "ruusu",
+          "seg": [
+            "r",
+            "uu",
+            "s",
+            "u"
+          ],
+          "snd": [
+            "r",
+            "uː",
+            "s",
+            "u"
+          ],
+          "silent": [],
+          "stem": "ruusu",
+          "noGap": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "screwdriver",
+          "theme": "tools",
+          "noun": "screwdriver",
+          "word": "ruuvimeisseli",
+          "seg": [
+            "r",
+            "uu",
+            "v",
+            "i",
+            "m",
+            "e",
+            "i",
+            "ss",
+            "e",
+            "l",
+            "i"
+          ],
+          "snd": [
+            "r",
+            "uː",
+            "v",
+            "i",
+            "m",
+            "e",
+            "i",
+            "sː",
+            "e",
+            "l",
+            "i"
+          ],
+          "silent": [],
+          "stem": "ruuvimeisseli",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "skeleton",
+          "theme": "body parts",
+          "noun": "skeleton",
+          "word": "luuranko",
+          "seg": [
+            "l",
+            "uu",
+            "r",
+            "a",
+            "n",
+            "k",
+            "o"
+          ],
+          "snd": [
+            "l",
+            "uː",
+            "r",
+            "a",
+            "ŋ",
+            "k",
+            "o"
+          ],
+          "silent": [],
+          "stem": "luuranko",
+          "picOpened": true
+        }
+      ]
+    },
+    "ää": {
+      "t": "ää",
+      "sound": [
+        "æː"
+      ],
+      "items": [
+        {
+          "vocabKey": "doctor",
+          "theme": "occupations",
+          "noun": "doctor",
+          "word": "lääkäri",
+          "seg": [
+            "l",
+            "ää",
+            "k",
+            "ä",
+            "r",
+            "i"
+          ],
+          "snd": [
+            "l",
+            "æː",
+            "k",
+            "æ",
+            "r",
+            "i"
+          ],
+          "silent": [],
+          "stem": "lääkäri",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "veterinarian",
+          "theme": "occupations",
+          "noun": "veterinarian",
+          "word": "eläinlääkäri",
+          "seg": [
+            "e",
+            "l",
+            "ä",
+            "i",
+            "n",
+            "l",
+            "ää",
+            "k",
+            "ä",
+            "r",
+            "i"
+          ],
+          "snd": [
+            "e",
+            "l",
+            "æ",
+            "i",
+            "n",
+            "l",
+            "æː",
+            "k",
+            "æ",
+            "r",
+            "i"
+          ],
+          "silent": [],
+          "stem": "lääkäri",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "dragon",
+          "theme": "Things That Fly",
+          "noun": "dragon",
+          "word": "lohikäärme",
+          "seg": [
+            "l",
+            "o",
+            "h",
+            "i",
+            "k",
+            "ää",
+            "r",
+            "m",
+            "e"
+          ],
+          "snd": [
+            "l",
+            "o",
+            "h",
+            "i",
+            "k",
+            "æː",
+            "r",
+            "m",
+            "e"
+          ],
+          "silent": [],
+          "stem": "lohikäärme",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "hockey",
+          "theme": "winter",
+          "noun": "hockey",
+          "word": "jääkiekko",
+          "seg": [
+            "j",
+            "ää",
+            "k",
+            "i",
+            "e",
+            "kk",
+            "o"
+          ],
+          "snd": [
+            "j",
+            "æː",
+            "k",
+            "i",
+            "e",
+            "kː",
+            "o"
+          ],
+          "silent": [],
+          "stem": "jää",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "icicle",
+          "theme": "winter",
+          "noun": "icicle",
+          "word": "jääpuikko",
+          "seg": [
+            "j",
+            "ää",
+            "p",
+            "u",
+            "i",
+            "kk",
+            "o"
+          ],
+          "snd": [
+            "j",
+            "æː",
+            "p",
+            "u",
+            "i",
+            "kː",
+            "o"
+          ],
+          "silent": [],
+          "stem": "jää",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "medicine",
+          "theme": "hospital",
+          "noun": "medicine",
+          "word": "lääke",
+          "seg": [
+            "l",
+            "ää",
+            "k",
+            "e"
+          ],
+          "snd": [
+            "l",
+            "æː",
+            "k",
+            "e"
+          ],
+          "silent": [],
+          "stem": "lääke",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pear",
+          "theme": "fruits",
+          "noun": "pear",
+          "word": "päärynä",
+          "seg": [
+            "p",
+            "ää",
+            "r",
+            "y",
+            "n",
+            "ä"
+          ],
+          "snd": [
+            "p",
+            "æː",
+            "r",
+            "y",
+            "n",
+            "æ"
+          ],
+          "silent": [],
+          "stem": "päärynä",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "swallow",
+          "theme": "birds 2",
+          "noun": "swallow",
+          "word": "pääskynen",
+          "seg": [
+            "p",
+            "ää",
+            "s",
+            "k",
+            "y",
+            "n",
+            "e",
+            "n"
+          ],
+          "snd": [
+            "p",
+            "æː",
+            "s",
+            "k",
+            "y",
+            "n",
+            "e",
+            "n"
+          ],
+          "silent": [],
+          "stem": "pääskynen",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "heel",
+          "theme": "body parts",
+          "noun": "heel",
+          "word": "kantapää",
+          "seg": [
+            "k",
+            "a",
+            "n",
+            "t",
+            "a",
+            "p",
+            "ää"
+          ],
+          "snd": [
+            "k",
+            "a",
+            "n",
+            "t",
+            "a",
+            "p",
+            "æː"
+          ],
+          "silent": [],
+          "stem": "pää",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "shoulder",
+          "theme": "body parts",
+          "noun": "shoulder",
+          "word": "olkapää",
+          "seg": [
+            "o",
+            "l",
+            "k",
+            "a",
+            "p",
+            "ää"
+          ],
+          "snd": [
+            "o",
+            "l",
+            "k",
+            "a",
+            "p",
+            "æː"
+          ],
+          "silent": [],
+          "stem": "pää",
+          "picOpened": true
+        }
+      ]
+    }
+  },
+  "samesound": [],
+  "falsePairs": [
+    {
+      "word": "laiva",
+      "letters": "ai",
+      "why": "ai on diftongi: kaksi eri vokaalia, ei pitkä vokaali (aa)"
+    },
+    {
+      "word": "auto",
+      "letters": "au",
+      "why": "au on diftongi: a ja u, ei pitkä vokaali (aa tai uu)"
+    },
+    {
+      "word": "ruoka",
+      "letters": "uo",
+      "why": "uo on diftongi, ei pitkä vokaali uu"
+    },
+    {
+      "word": "kieli",
+      "letters": "ie",
+      "why": "ie on diftongi, ei pitkä vokaali"
+    },
+    {
+      "word": "koira",
+      "letters": "oi",
+      "why": "oi on diftongi: o ja i, kaksi eri kirjainta"
+    },
+    {
+      "word": "täi",
+      "letters": "äi",
+      "why": "äi on diftongi, ei pitkä vokaali ää"
+    },
+    {
+      "word": "hauki",
+      "letters": "au",
+      "why": "au on diftongi: kaksi eri vokaalia"
+    }
+  ],
+  "sets": {
+    "exemplar": [
+      "aa",
+      "uu",
+      "ää"
+    ],
+    "k": [
+      "aa",
+      "uu"
+    ],
+    "position": [
+      "aa",
+      "uu",
+      "ää"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Aasi syö kaalia saaressa.",
+      "target": "aa",
+      "hits": 3,
+      "tokens": [
+        {
+          "w": "Aasi",
+          "seg": [
+            "Aa",
+            "s",
+            "i"
+          ]
+        },
+        {
+          "w": "syö",
+          "seg": [
+            "s",
+            "y",
+            "ö"
+          ]
+        },
+        {
+          "w": "kaalia",
+          "seg": [
+            "k",
+            "aa",
+            "l",
+            "i",
+            "a"
+          ]
+        },
+        {
+          "w": "saaressa",
+          "seg": [
+            "s",
+            "aa",
+            "r",
+            "e",
+            "ss",
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "text": "Laama ja aasi juoksevat.",
+      "target": "aa",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "Laama",
+          "seg": [
+            "L",
+            "aa",
+            "m",
+            "a"
+          ]
+        },
+        {
+          "w": "ja",
+          "seg": [
+            "j",
+            "a"
+          ]
+        },
+        {
+          "w": "aasi",
+          "seg": [
+            "aa",
+            "s",
+            "i"
+          ]
+        },
+        {
+          "w": "juoksevat",
+          "seg": [
+            "j",
+            "u",
+            "o",
+            "k",
+            "s",
+            "e",
+            "v",
+            "a",
+            "t"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "text": "Äiti ostaa banaanin ja tomaatin.",
+      "target": "aa",
+      "hits": 3,
+      "tokens": [
+        {
+          "w": "Äiti",
+          "seg": [
+            "Ä",
+            "i",
+            "t",
+            "i"
+          ]
+        },
+        {
+          "w": "ostaa",
+          "seg": [
+            "o",
+            "s",
+            "t",
+            "aa"
+          ]
+        },
+        {
+          "w": "banaanin",
+          "seg": [
+            "b",
+            "a",
+            "n",
+            "aa",
+            "n",
+            "i",
+            "n"
+          ]
+        },
+        {
+          "w": "ja",
+          "seg": [
+            "j",
+            "a"
+          ]
+        },
+        {
+          "w": "tomaatin",
+          "seg": [
+            "t",
+            "o",
+            "m",
+            "aa",
+            "t",
+            "i",
+            "n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "text": "Kaapissa on suklaata.",
+      "target": "aa",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "Kaapissa",
+          "seg": [
+            "K",
+            "aa",
+            "p",
+            "i",
+            "ss",
+            "a"
+          ]
+        },
+        {
+          "w": "on",
+          "seg": [
+            "o",
+            "n"
+          ]
+        },
+        {
+          "w": "suklaata",
+          "seg": [
+            "s",
+            "u",
+            "k",
+            "l",
+            "aa",
+            "t",
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "text": "Vaaka on pöydällä.",
+      "target": "aa",
+      "hits": 1,
+      "tokens": [
+        {
+          "w": "Vaaka",
+          "seg": [
+            "V",
+            "aa",
+            "k",
+            "a"
+          ]
+        },
+        {
+          "w": "on",
+          "seg": [
+            "o",
+            "n"
+          ]
+        },
+        {
+          "w": "pöydällä",
+          "seg": [
+            "p",
+            "ö",
+            "y",
+            "d",
+            "ä",
+            "ll",
+            "ä"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "text": "Haarukka on laatikossa.",
+      "target": "aa",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "Haarukka",
+          "seg": [
+            "H",
+            "aa",
+            "r",
+            "u",
+            "kk",
+            "a"
+          ]
+        },
+        {
+          "w": "on",
+          "seg": [
+            "o",
+            "n"
+          ]
+        },
+        {
+          "w": "laatikossa",
+          "seg": [
+            "l",
+            "aa",
+            "t",
+            "i",
+            "k",
+            "o",
+            "ss",
+            "a"
+          ]
+        }
+      ]
+    }
+  ],
+  "rejectedPics": [
+    {
+      "pic": "fruits/cherry",
+      "why": "näyttää omenalta (design §4)"
+    },
+    {
+      "pic": "fruits/peach",
+      "why": "näyttää omenalta (design §4)"
+    },
+    {
+      "pic": "christmas/chimney",
+      "why": "takka, ei savupiippu (design §4)"
+    },
+    {
+      "pic": "body parts/mouth",
+      "why": "huulet, lapsi sanoo \"huulet\" eikä \"suu\" (design §4)"
+    },
+    {
+      "pic": "colors/white",
+      "why": "valkoinen väriläiskä (design §1)"
+    },
+    {
+      "pic": "shapes/cone",
+      "why": "katkaistu kartio / lampunvarjostin (design §1)"
+    },
+    {
+      "pic": "easter/chick",
+      "why": "näyttää ankanpoikaselta (review 2026-09-23)"
+    },
+    {
+      "pic": "classroom/lunchbox",
+      "why": "näyttää aarrearkulta (review 2026-09-23)"
+    },
+    {
+      "pic": "reptiles and Amphibians/alligator",
+      "why": "suomalainen lapsi sanoo \"krokotiili\" (ii), ei \"alligaattori\" (fi panel, avattu)"
+    },
+    {
+      "pic": "music/cymbals",
+      "why": "kuvassa on koko rumpusetti: lapsi sanoo \"rummut\" (fi panel, avattu)"
+    },
+    {
+      "pic": "space/earth",
+      "why": "maapallo: lapsi sanoo \"maapallo\" eikä \"maa\", sanan loppu ei ole varma (fi panel, avattu)"
+    },
+    {
+      "pic": "classroom/globe",
+      "why": "karttapallo, ei \"maapallo\" (fi panel, avattu)"
+    },
+    {
+      "pic": "vehicles/jeep",
+      "why": "lapsi sanoo \"auto\" tai \"jeeppi\" (fi panel, avattu)"
+    },
+    {
+      "pic": "ocean life/manatee",
+      "why": "lapsi ei tunne manaattia, näyttää hylkeeltä (fi panel, avattu)"
+    },
+    {
+      "pic": "occupations/nurse",
+      "why": "lapsi voi sanoa \"lääkäri\" (ää): vieras pitkä vokaali (fi panel, avattu)"
+    },
+    {
+      "pic": "activities/painting",
+      "why": "väripaletti ja sivellin, ei maalaus (fi panel, avattu)"
+    },
+    {
+      "pic": "birds/pelican",
+      "why": "näyttää haikaralta tai kurjelta (fi panel, avattu)"
+    },
+    {
+      "pic": "vegetables/spinach",
+      "why": "yksi lehti: lapsi sanoo \"lehti\" (fi panel, avattu)"
+    },
+    {
+      "pic": "hospital/stretcher",
+      "why": "lapsi ei tunne sanaa \"paarit\" (fi panel, avattu)"
+    },
+    {
+      "pic": "bakery/toast",
+      "why": "lapsi sanoo \"leipä\" (ei aa) (fi panel, avattu)"
+    },
+    {
+      "pic": "occupations/farmer",
+      "why": "lapsi sanoo \"viljelijä\" tai \"farmari\" (fi panel, avattu)"
+    },
+    {
+      "pic": "occupations/carpenter",
+      "why": "lapsi sanoo \"rakennusmies\" (fi panel, avattu)"
+    },
+    {
+      "pic": "beach/driftwood",
+      "why": "näyttää oksalta tai kepiltä (fi panel, avattu)"
+    },
+    {
+      "pic": "bakery/eclair",
+      "why": "näyttää hodarilta tai voileivältä (fi panel, avattu)"
+    },
+    {
+      "pic": "occupations/musician",
+      "why": "poika ja kitara: lapsi sanoo \"kitaristi\" (fi panel, avattu)"
+    },
+    {
+      "pic": "music/trombone",
+      "why": "näyttää trumpetilta (fi panel, avattu)"
+    },
+    {
+      "pic": "christmas/tree",
+      "why": "koristeltu joulukuusi, ei \"puu\" (fi panel, avattu)"
+    },
+    {
+      "pic": "fruits/plum",
+      "why": "näyttää punaiselta omenalta (havainto sv #35)"
+    },
+    {
+      "pic": "body parts/head",
+      "why": "kasvot: lapsi sanoo \"naama\" tai \"kasvot\" (fi panel, avattu)"
+    },
+    {
+      "pic": "winter/ice",
+      "why": "avanto, ei varmasti \"jää\" (fi panel, avattu)"
+    },
+    {
+      "pic": "body parts/leg",
+      "why": "lapsi sanoo \"jalka\" eikä \"sääri\" (fi panel, avattu)"
+    },
+    {
+      "pic": "occupations/tailor",
+      "why": "nainen ompelukoneella: lapsi sanoo \"ompelija\" (fi panel, avattu)"
+    },
+    {
+      "pic": "body parts/elbow",
+      "why": "kyynärpäässä on kaksi pitkää vokaalia (yy ja ää) (fi panel, avattu)"
+    }
+  ],
+  "strings": {
+    "base": {
+      "title": "Pitkä vokaali aa, uu vai ää: mikä kuuluu sanassa?",
+      "instruction": "Sano jokaisen kuvan nimi ja rengasta se pitkä vokaali, jonka kuulet."
+    },
+    "sort-two": {
+      "title": "Pitkä vokaali: lajittele kuvat, aa vai uu?",
+      "instruction": "Sano jokaisen kuvan nimi ja yhdistä se viivalla siihen pitkään vokaaliin, jonka kuulet."
+    },
+    "gap": {
+      "title": "Kirjoita puuttuva pitkä vokaali: aa, uu vai ää",
+      "instruction": "Sano jokaisen kuvan sana ja kirjoita ylhäältä puuttuva pitkä vokaali katkoviivalla merkittyyn kohtaan."
+    },
+    "match": {
+      "title": "Pitkä vokaali: lue sanat ja yhdistä kuviin",
+      "instruction": "Lue jokainen sana, jonka pitkä vokaali on merkitty, ja yhdistä se viivalla oikeaan kuvaan."
+    },
+    "position": {
+      "title": "Missä kohdassa pitkä vokaali kuuluu?",
+      "instruction": "Sano jokaisen kuvan sana ja väritä yksi kohta sen mukaan, missä kuulet pitkän vokaalin: alussa, keskellä vai lopussa."
+    },
+    "text": {
+      "title": "Pitkät vokaalit lauseissa: etsi ja laske aa",
+      "instruction": "Lue lauseet, rengasta jokainen aa ja kirjoita ruutuun, montako niitä on kussakin lauseessa."
+    }
+  }
+}

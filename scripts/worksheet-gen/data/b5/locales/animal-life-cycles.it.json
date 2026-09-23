@@ -1,0 +1,83 @@
+{
+  "stageWords": {
+    "butterfly": {
+      "egg": "uovo",
+      "larva": "bruco",
+      "pupa": "crisalide",
+      "adult": "farfalla"
+    }
+  },
+  "decoy": {
+    "frog.tadpole": "girino"
+  },
+  "landingWords": {
+    "frog": {
+      "spawn": "uova di rana",
+      "tadpole": "girino",
+      "legged": "girino con le zampe",
+      "froglet": "giovane rana",
+      "adult": "rana"
+    },
+    "ladybird": {
+      "egg": "uovo",
+      "larva": "larva",
+      "pupa": "pupa",
+      "adult": "coccinella"
+    }
+  },
+  "statements": {
+    "egg": "Nasce da un uovo.",
+    "change": "I suoi piccoli sono molto diversi dagli adulti.",
+    "pupa": "Passa una fase della sua vita come crisalide.",
+    "wings": "L’adulto ha le ali.",
+    "sixlegs": "L’adulto ha sei zampe.",
+    "nectar": "L’adulto beve il nettare dei fiori.",
+    "tail": "I suoi piccoli nuotano con la coda.",
+    "water": "I suoi piccoli vivono nell’acqua.",
+    "nolegs": "All’inizio i suoi piccoli non hanno le zampe.",
+    "fourlegs": "L’adulto ha quattro zampe.",
+    "insects": "L’adulto cattura gli insetti per mangiarli."
+  },
+  "drop": [],
+  "familyName": "Il ciclo vitale degli animali",
+  "spawnForm": "clump",
+  "forbidden": [
+    "bozzolo",
+    "bozzoli"
+  ],
+  "genreBare": [
+    "ciclo vitale",
+    "cicli vitali",
+    "ciclo di vita",
+    "cicli di vita"
+  ],
+  "pictureWord": "immagine",
+  "instructionBans": {},
+  "refuse": [],
+  "strings": {
+    "G1-377": {
+      "title": "Il ciclo vitale della farfalla",
+      "instruction": "L’uovo è 1: scrivi 2, 3 e 4 nei riquadri mentre cresce e, nell’ultimo, il numero dell’immagine che viene dopo la farfalla."
+    },
+    "G1-389": {
+      "title": "Il ciclo vitale della rana: ritaglia e incolla",
+      "instruction": "Ritaglia i quattro quadrati e incolla ognuno sulla sua foglia di ninfea, girando intorno allo stagno dalle uova alla rana."
+    },
+    "G2-365": {
+      "title": "Scrivi le fasi del ciclo vitale della farfalla",
+      "instruction": "Scrivi ogni nome del riquadro sulla riga sotto la sua immagine e barra l’unico nome che non c’entra."
+    },
+    "G2-366": {
+      "title": "La metamorfosi: quale animale diventerà?",
+      "instruction": "Guarda ogni animale piccolo e scrivi la sua lettera in un riquadro sotto l’animale adulto che diventerà."
+    },
+    "G3-393": {
+      "title": "Il ciclo vitale della farfalla e della rana a confronto",
+      "instruction": "Leggi ogni frase e segna il riquadro della farfalla, della rana o di tutte e due, se la frase è vera per quell’animale."
+    },
+    "G1-390": {
+      "title": "Che cosa viene dopo? Farfalla, rana e coccinella",
+      "instruction": "Guarda la prima immagine di ogni riga e cerchia quella che viene subito dopo."
+    }
+  }
+}

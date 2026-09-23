@@ -1,0 +1,83 @@
+{
+  "partWords": {
+    "root": "radici",
+    "stem": "fusto",
+    "leaf": "foglia",
+    "flower": "fiore",
+    "fruit": "frutto",
+    "seed": "seme"
+  },
+  "flowerWords": {
+    "petal": "petalo",
+    "sepal": "sepalo",
+    "stamen": "stame",
+    "pistil": "pistillo",
+    "stalk": "peduncolo",
+    "ovary": "ovario"
+  },
+  "jobs": {
+    "root": "assorbire l’acqua dal terreno",
+    "stem": "tenere dritta la pianta e sostenerla",
+    "leaf": "preparare il cibo della pianta con la luce del sole",
+    "flower": "attirare le api con i suoi colori vivaci",
+    "seed": "far nascere una nuova pianta"
+  },
+  "partStems": [
+    "radice",
+    "radici",
+    "fusto",
+    "fusti",
+    "stelo",
+    "steli",
+    "foglia",
+    "foglie",
+    "fogliame",
+    "fiore",
+    "fiori",
+    "fiorire",
+    "fioritura",
+    "frutto",
+    "frutti",
+    "frutta",
+    "seme",
+    "semi",
+    "petalo",
+    "petali"
+  ],
+  "forbidden": [
+    "stelo",
+    "gambo",
+    "tronco",
+    "verdura",
+    "ortaggio",
+    "bocciolo"
+  ],
+  "refuseItems": [],
+  "refuse": [],
+  "strings": {
+    "base": {
+      "title": "Le parti della pianta",
+      "instruction": "Segui ogni etichetta numerata fino a una parte della pianta e scrivi il suo nome, preso dal riquadro, sulla riga con lo stesso numero."
+    },
+    "needs": {
+      "title": "Di che cosa ha bisogno una pianta per crescere",
+      "instruction": "Guarda che cosa riceve ogni pianta e cerchia quella che ha tutte e due le cose che le servono per crescere."
+    },
+    "cycle": {
+      "title": "Il ciclo vitale della pianta: dal seme alla pianta",
+      "instruction": "Ritaglia le quattro figure e incolla ognuna nel riquadro vuoto che segue, girando lungo le frecce a partire dal seme."
+    },
+    "eat": {
+      "title": "Le parti della pianta che mangiamo",
+      "instruction": "Guarda ogni alimento e cerchia la parte della pianta che mangiamo."
+    },
+    "jobs": {
+      "title": "Le parti della pianta e le loro funzioni",
+      "instruction": "Leggi a che cosa serve ogni parte, trovala sulla pianta e scrivi nel riquadro il numero della sua etichetta."
+    },
+    "flower": {
+      "title": "Le parti del fiore",
+      "instruction": "Scrivi sulla riga il nome di ogni parte numerata del fiore e barra la parola del riquadro che non è una parte del fiore."
+    }
+  }
+}

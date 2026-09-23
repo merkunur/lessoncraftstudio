@@ -1,0 +1,107 @@
+{
+  "partWords": {
+    "root": "rod",
+    "stem": "stængel",
+    "leaf": "blad",
+    "flower": "blomst",
+    "fruit": "frugt",
+    "seed": "frø"
+  },
+  "flowerWords": {
+    "petal": "kronblad",
+    "sepal": "bægerblad",
+    "stamen": "støvdrager",
+    "pistil": "støvvej",
+    "stalk": "stilk",
+    "ovary": "frugtknude"
+  },
+  "jobs": {
+    "root": "suger vand op fra jorden",
+    "stem": "holder planten oppe",
+    "leaf": "laver næring til planten ved hjælp af sollys",
+    "flower": "lokker bierne til med sine klare farver",
+    "seed": "kan vokse op og blive til en ny plante"
+  },
+  "partStems": [
+    "rod",
+    "rødder",
+    "roden",
+    "stængel",
+    "stængler",
+    "stilk",
+    "stilke",
+    "blad",
+    "blade",
+    "blomst",
+    "blomster",
+    "blomstre",
+    "frugt",
+    "frugter",
+    "frø",
+    "frøet",
+    "kronblad",
+    "knop"
+  ],
+  "forbidden": [
+    "roden",
+    "stænglen",
+    "bladet",
+    "blomsten",
+    "frugten",
+    "frøet",
+    "grøntsag",
+    "stamme"
+  ],
+  "refuseItems": [],
+  "refuse": [],
+  "instructionBans": {
+    "base": [
+      "sæt ring",
+      "farvelæg",
+      "klip"
+    ],
+    "flower": [
+      "sæt ring",
+      "farvelæg",
+      "klip"
+    ],
+    "needs": [
+      "ord",
+      "skriv"
+    ],
+    "eat": [
+      "grøntsag",
+      "grøntsager"
+    ],
+    "jobs": [
+      "ordboks",
+      "ordboksen"
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Plantens dele",
+      "instruction": "Følg hver streg fra tallet hen til planten, og skriv navnet på delen fra ordboksen på linjen med samme tal."
+    },
+    "needs": {
+      "title": "Hvad har planter brug for for at vokse?",
+      "instruction": "Se, hvad hver plante får, og sæt ring om den plante, der får begge de ting, den har brug for."
+    },
+    "cycle": {
+      "title": "Fra frø til plante: læg billederne i rækkefølge",
+      "instruction": "Klip de fire billeder ud, og lim dem i de tomme felter efter pilene; begynd ved frøet."
+    },
+    "eat": {
+      "title": "Hvilke dele af planten spiser vi?",
+      "instruction": "Se på hver madvare, og sæt ring om den del af planten, vi spiser."
+    },
+    "jobs": {
+      "title": "Plantens dele og hvad de gør",
+      "instruction": "Læs, hvad hver del gør, find delen på planten, og skriv tallet fra dens skilt i feltet."
+    },
+    "flower": {
+      "title": "Blomstens dele",
+      "instruction": "Skriv navnet på hver nummereret del af blomsten på dens linje, og streg det ord ud, der ikke er en del af blomsten."
+    }
+  }
+}

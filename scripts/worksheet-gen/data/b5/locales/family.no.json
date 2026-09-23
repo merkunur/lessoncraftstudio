@@ -1,0 +1,271 @@
+{
+  "lineage": false,
+  "kin": {
+    "M": "mamma",
+    "F": "pappa",
+    "Z": "storesøster",
+    "B": "storebror",
+    "Zy": "lillesøster",
+    "By": "lillebror",
+    "MM": "mormor",
+    "MF": "morfar",
+    "FM": "farmor",
+    "FF": "farfar",
+    "MZ": "tante",
+    "FZ": "tante",
+    "MB": "onkel",
+    "FB": "onkel",
+    "MZD": "kusine",
+    "MZS": "fetter",
+    "MBD": "kusine",
+    "MBS": "fetter",
+    "FZD": "kusine",
+    "FZS": "fetter",
+    "FBD": "kusine",
+    "FBS": "fetter"
+  },
+  "words": {
+    "mamma": {
+      "text": "mamma",
+      "register": "K"
+    },
+    "pappa": {
+      "text": "pappa",
+      "register": "K"
+    },
+    "storesøster": {
+      "text": "storesøster",
+      "register": "K"
+    },
+    "storebror": {
+      "text": "storebror",
+      "register": "K"
+    },
+    "lillesøster": {
+      "text": "lillesøster",
+      "register": "K"
+    },
+    "lillebror": {
+      "text": "lillebror",
+      "register": "K"
+    },
+    "mormor": {
+      "text": "mormor",
+      "register": "K"
+    },
+    "morfar": {
+      "text": "morfar",
+      "register": "K"
+    },
+    "farmor": {
+      "text": "farmor",
+      "register": "K"
+    },
+    "farfar": {
+      "text": "farfar",
+      "register": "K"
+    },
+    "tante": {
+      "text": "tante",
+      "register": "K"
+    },
+    "onkel": {
+      "text": "onkel",
+      "register": "K"
+    },
+    "kusine": {
+      "text": "kusine",
+      "register": "K"
+    },
+    "fetter": {
+      "text": "fetter",
+      "register": "K"
+    }
+  },
+  "names": [
+    {
+      "name": "Nora",
+      "sex": "f",
+      "gen": "Noras"
+    },
+    {
+      "name": "Emil",
+      "sex": "m",
+      "gen": "Emils"
+    },
+    {
+      "name": "Emma",
+      "sex": "f",
+      "gen": "Emmas"
+    },
+    {
+      "name": "Noah",
+      "sex": "m",
+      "gen": "Noahs"
+    },
+    {
+      "name": "Ella",
+      "sex": "f",
+      "gen": "Ellas"
+    },
+    {
+      "name": "Isak",
+      "sex": "m",
+      "gen": "Isaks"
+    },
+    {
+      "name": "Ida",
+      "sex": "f",
+      "gen": "Idas"
+    },
+    {
+      "name": "Odin",
+      "sex": "m",
+      "gen": "Odins"
+    },
+    {
+      "name": "Tuva",
+      "sex": "f",
+      "gen": "Tuvas"
+    },
+    {
+      "name": "Iver",
+      "sex": "m",
+      "gen": "Ivers"
+    },
+    {
+      "name": "Maja",
+      "sex": "f",
+      "gen": "Majas"
+    },
+    {
+      "name": "Liam",
+      "sex": "m",
+      "gen": "Liams"
+    }
+  ],
+  "clueFrames": {
+    "M": "{name} er {egoGen} mamma.",
+    "F": "{name} er {egoGen} pappa.",
+    "Z": "{name} er {egoGen} storesøster.",
+    "B": "{name} er {egoGen} storebror.",
+    "Zy": "{name} er {egoGen} lillesøster.",
+    "By": "{name} er {egoGen} lillebror.",
+    "MM": "{name} er {egoGen} mormor.",
+    "MF": "{name} er {egoGen} morfar.",
+    "FM": "{name} er {egoGen} farmor.",
+    "FF": "{name} er {egoGen} farfar.",
+    "MZ": "{name} er {egoGen} tante.",
+    "FZ": "{name} er {egoGen} tante.",
+    "MB": "{name} er {egoGen} onkel.",
+    "FB": "{name} er {egoGen} onkel.",
+    "MZD": "{name} er {egoGen} kusine.",
+    "MZS": "{name} er {egoGen} fetter.",
+    "MBD": "{name} er {egoGen} kusine.",
+    "MBS": "{name} er {egoGen} fetter.",
+    "FZD": "{name} er {egoGen} kusine.",
+    "FZS": "{name} er {egoGen} fetter.",
+    "FBD": "{name} er {egoGen} kusine.",
+    "FBS": "{name} er {egoGen} fetter."
+  },
+  "riddleFrames": {
+    "MM": "{egoGen} mammas mamma er {egoGen} ___.",
+    "FM": "{egoGen} pappas mamma er {egoGen} ___.",
+    "MF": "{egoGen} mammas pappa er {egoGen} ___.",
+    "FF": "{egoGen} pappas pappa er {egoGen} ___.",
+    "MZ": "{egoGen} mammas søster er {egoGen} ___.",
+    "FZ": "{egoGen} pappas søster er {egoGen} ___.",
+    "MB": "{egoGen} mammas bror er {egoGen} ___.",
+    "FB": "{egoGen} pappas bror er {egoGen} ___."
+  },
+  "distractors": [
+    "mamma",
+    "pappa"
+  ],
+  "repeatsNote": true,
+  "repeatsNoteText": "ett ord kan passe til flere gåter",
+  "generationOK": [
+    "mamma",
+    "pappa",
+    "storesøster",
+    "storebror",
+    "lillesøster",
+    "lillebror",
+    "mormor",
+    "morfar",
+    "farmor",
+    "farfar",
+    "tante",
+    "onkel",
+    "kusine",
+    "fetter"
+  ],
+  "agreeing": [
+    "en",
+    "ei",
+    "et",
+    "hans",
+    "hennes",
+    "sin",
+    "si",
+    "sitt",
+    "den",
+    "det"
+  ],
+  "firstPerson": [
+    "jeg",
+    "meg",
+    "min",
+    "mi",
+    "mitt",
+    "mine",
+    "vi",
+    "oss",
+    "vår",
+    "vårt",
+    "våre"
+  ],
+  "meWord": "jeg",
+  "forbiddenInTemplate": [
+    "mamma",
+    "pappa",
+    "mor",
+    "far",
+    "foreldre",
+    "familien din"
+  ],
+  "instructionBans": [
+    "kryss",
+    "klipp",
+    "fargelegg",
+    "gratis",
+    "fasit"
+  ],
+  "familyHead": "Familie og slekt",
+  "strings": {
+    "base": {
+      "title": "Familie og slekt: hvem er hvem?",
+      "instruction": "Finn hver person i slektstreet og skriv tallet til personen i ruten ved siden av riktig familieord."
+    },
+    "generations": {
+      "title": "Generasjoner i slekta: fra eldst til yngst",
+      "instruction": "Skriv 1, 2 og 3 i rutene i hver rad slik at ordene står fra den eldste generasjonen til den yngste."
+    },
+    "trace-words": {
+      "title": "Familieord: spor og skriv",
+      "instruction": "Finn personen med samme tall i treet, spor familieordet og skriv det en gang til på streken."
+    },
+    "tree-clues": {
+      "title": "Slektstre: les ledetrådene",
+      "instruction": "Les ledetrådene og skriv hvert navn i riktig navnerute i slektstreet."
+    },
+    "relation-riddles": {
+      "title": "Slektsgåter: mormor, farfar, tante eller onkel?",
+      "instruction": "Les hver gåte og skriv riktig familieord fra ruten på streken, ett ord kan passe til flere gåter."
+    },
+    "tree-template": {
+      "title": "Slektstre: mal til å fylle ut selv",
+      "instruction": "Tegn menneskene som er viktige for deg i rammene og skriv navnene deres på strekene."
+    }
+  }
+}

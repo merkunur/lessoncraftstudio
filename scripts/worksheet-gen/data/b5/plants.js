@@ -55,7 +55,7 @@ const PLANTS = {
     refuse: [],
     strings: {
       base: { title: 'Parts of a Plant', instruction: 'Follow each numbered tag to a part of the plant. Write the name of that part from the word bank on the line with the same number.' },
-      needs: { title: 'What Plants Need to Grow', instruction: 'Look at what each plant gets. Circle the plant that gets both things it needs to grow.' },
+      needs: { title: 'What Plants Need to Grow', instruction: 'In each row, circle the plant that gets both things it needs to grow.' },
       cycle: { title: 'Plant Life Cycle: From Seed to Plant', instruction: 'Cut out the four pictures. Glue each one in the next empty box, going round the arrows from the seed.' },
       eat: { title: 'Parts of a Plant We Eat', instruction: 'Look at each food. Circle the part of the plant that we eat.' },
       jobs: { title: 'Parts of a Plant and Their Functions', instruction: 'Read what each part does. Find that part on the plant and write the number of its tag in the box.' },

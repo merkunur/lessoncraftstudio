@@ -1,0 +1,287 @@
+{
+  "convention": "vienna",
+  "signs": {
+    "stop": {
+      "code": "204",
+      "regRef": "Skiltforskriften, vikepliktskilt: 204 Stopp (rød åttekant med hvit kant og STOP); NB: 202 er Vikeplikt, ikke Stopp",
+      "shape": "octagon",
+      "rim": "white",
+      "field": "red",
+      "glyph": "text",
+      "text": "STOP",
+      "slash": false,
+      "class": "priority",
+      "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending"
+    },
+    "crossing": {
+      "code": "516",
+      "regRef": "Skiltforskriften, opplysningsskilt: 516 Gangfelt (blått kvadrat med hvit trekant og fotgjenger)",
+      "shape": "square",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "crossingTriangle",
+      "text": "",
+      "slash": false,
+      "class": "information",
+      "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending"
+    },
+    "bike-path": {
+      "code": "unsure (522?)",
+      "regRef": "Skiltforskriften, opplysningsskilt: Sykkelveg (blått kvadrat med hvit sykkel); nummeret er usikkert",
+      "shape": "square",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "information",
+      "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending; the skilt number is marked unsure and must be checked against the forskrift before print"
+    },
+    "children": {
+      "code": "unsure (140?)",
+      "regRef": "Skiltforskriften, fareskilt: Barn (trekant med rød kant og gul bunn, to barn); nummeret er usikkert",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "yellow",
+      "glyph": "twoChildren",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending; the skilt number is marked unsure and must be checked against the forskrift before print"
+    },
+    "pedestrian-warning": {
+      "code": "unsure (138?)",
+      "regRef": "Skiltforskriften, fareskilt: Gangfelt/gående (trekant med rød kant og gul bunn, fotgjenger); nummeret er usikkert",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "yellow",
+      "glyph": "walker",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending; the skilt number is marked unsure and must be checked against the forskrift before print"
+    },
+    "signal-ahead": {
+      "code": "unsure (136?)",
+      "regRef": "Skiltforskriften, fareskilt: Trafikklys (trekant med rød kant og gul bunn, lite trafikklys); nummeret er usikkert",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "yellow",
+      "glyph": "trafficLightMini",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending; the skilt number is marked unsure and must be checked against the forskrift before print"
+    },
+    "bike-warning": {
+      "code": "unsure (142?)",
+      "regRef": "Skiltforskriften, fareskilt: Syklende (trekant med rød kant og gul bunn, sykkel); nummeret er usikkert",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "yellow",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending; the skilt number is marked unsure and must be checked against the forskrift before print"
+    },
+    "no-entry": {
+      "code": "302",
+      "regRef": "Skiltforskriften, forbudsskilt: 302 Innkjøring forbudt (rød skive med hvit vannrett strek)",
+      "shape": "circle",
+      "rim": null,
+      "field": "red",
+      "glyph": "bar",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending"
+    },
+    "no-vehicles": {
+      "code": "unsure (306.0?)",
+      "regRef": "Skiltforskriften, forbudsskilt: Forbudt for alle kjøretøy (hvit skive med rød kant, uten symbol); nummeret er usikkert",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "none",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending; the skilt number is marked unsure and must be checked against the forskrift before print"
+    },
+    "no-bikes": {
+      "code": "unsure (306.7?)",
+      "regRef": "Skiltforskriften, forbudsskilt: Forbudt for syklende (hvit skive med rød kant og sykkel, uten skråstrek); nummeret er usikkert",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending; the skilt number is marked unsure and must be checked against the forskrift before print"
+    },
+    "no-pedestrians": {
+      "code": "unsure (306.8?)",
+      "regRef": "Skiltforskriften, forbudsskilt: Forbudt for gående (hvit skive med rød kant og fotgjenger, uten skråstrek); nummeret er usikkert",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "walker",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending; the skilt number is marked unsure and must be checked against the forskrift before print"
+    }
+  },
+  "setG1": [
+    "stop",
+    "crossing",
+    "children",
+    "no-entry",
+    "signal-ahead",
+    "bike-path"
+  ],
+  "kindsPool": [
+    "children",
+    "pedestrian-warning",
+    "signal-ahead",
+    "bike-warning",
+    "no-vehicles",
+    "no-bikes",
+    "no-pedestrians",
+    "crossing",
+    "bike-path"
+  ],
+  "classes": [
+    {
+      "key": "warning",
+      "label": "Fareskilt"
+    },
+    {
+      "key": "prohibition",
+      "label": "Forbudsskilt"
+    },
+    {
+      "key": "information",
+      "label": "Opplysningsskilt"
+    }
+  ],
+  "pedLight": {
+    "stop": "standing",
+    "go": "walking",
+    "lamps": 2
+  },
+  "amber": {
+    "token": "codeYellow",
+    "word": "gul"
+  },
+  "amberMeans": "stop",
+  "chipWords": {
+    "ped": {
+      "stop": "vent",
+      "go": "gå"
+    },
+    "car": {
+      "stop": "stopp",
+      "go": "kjør"
+    }
+  },
+  "meanings": {
+    "stop": "Her må alle biler stoppe helt og slippe fram de andre.",
+    "crossing": "Her er et gangfelt der du kan gå over veien.",
+    "children": "Pass på, her kan barn løpe ut i veien.",
+    "no-entry": "Hit inn får ingen kjøre.",
+    "signal-ahead": "Pass på, snart kommer et trafikklys.",
+    "bike-path": "Denne veien er laget for sykler."
+  },
+  "situations": {
+    "stop": [
+      "I dette krysset må hver bil stå helt stille, selv om ingen kommer.",
+      "Her må bilførerne stanse helt og se at veien er fri."
+    ],
+    "crossing": [
+      "Her er et gangfelt der du kan gå trygt over veien.",
+      "Bilene skal slippe fram barna som går over de hvite stripene."
+    ],
+    "children": [
+      "Ved denne veien ligger en barnehage, så her er det mange små barn.",
+      "Pass på, bilførere: rett ved veien er det en lekeplass."
+    ],
+    "no-entry": [
+      "Inn i denne gata får ingen kjøre herfra.",
+      "Her er det forbudt å kjøre inn, bilene må ta en annen vei."
+    ],
+    "signal-ahead": [
+      "Pass på, snart kommer et trafikklys.",
+      "Litt lenger fram er det lys som kan skifte til rødt."
+    ],
+    "bike-path": [
+      "Denne veien er laget bare for sykler.",
+      "Her sykler du på en egen vei ved siden av bilveien."
+    ],
+    "pedestrian-warning": [
+      "Pass på, her går det ofte folk over veien.",
+      "Kjør forsiktig: her kan fotgjengere komme ut i veien."
+    ],
+    "bike-warning": [
+      "Pass på, bilførere: her sykler mange barn over veien.",
+      "På denne veien kommer det ofte syklister."
+    ],
+    "no-vehicles": [
+      "Her får ingen kjøretøy kjøre, verken biler eller sykler.",
+      "Denne gata er stengt for alle kjøretøy, både biler og mopeder."
+    ],
+    "no-bikes": [
+      "Her er det forbudt å sykle, du må trille sykkelen.",
+      "På denne veien får du ikke sykle, men du kan gå."
+    ],
+    "no-pedestrians": [
+      "På denne veien får ingen gå, bare kjøretøy får kjøre.",
+      "Her er det forbudt å gå til fots, men biler får kjøre."
+    ]
+  },
+  "steps": [
+    "stop-kerb",
+    "look-left",
+    "look-right",
+    "look-left",
+    "walk-across"
+  ],
+  "listenStep": null,
+  "familyHead": "Trafikkskilt og trafikkregler",
+  "signHead": "Trafikkskilt",
+  "childAnchors": [
+    "for barn",
+    "barnehage",
+    "småskolen",
+    "1. trinn",
+    "2. trinn"
+  ],
+  "strings": {
+    "base": {
+      "title": "Trafikk for barn: hva viser trafikklyset?",
+      "instruction": "Se på lampen som lyser, og ring rundt det du skal gjøre."
+    },
+    "colour-lights": {
+      "title": "Trafikk for barn: fargelegg trafikklysene",
+      "instruction": "Finn lampen med stråler i hvert trafikklys og fargelegg den med fargen den lyser med."
+    },
+    "crossing-steps": {
+      "title": "Gå trygt over veien: steg for steg",
+      "instruction": "Skriv 1 til 5 i rutene slik at de viser hvordan du går trygt over veien."
+    },
+    "sign-meaning": {
+      "title": "Trafikkskilt for barn og hva de betyr",
+      "instruction": "Trekk en strek fra hvert trafikkskilt til det skiltet betyr."
+    },
+    "sign-kinds": {
+      "title": "Trafikkskilt 2. trinn: fareskilt, forbudsskilt og opplysningsskilt",
+      "instruction": "Skriv bokstaven til hvert trafikkskilt i en rute under riktig gruppe skilt."
+    },
+    "sign-quiz": {
+      "title": "Trafikkquiz for barn: hvilket skilt passer?",
+      "instruction": "Les hver setning og ring rundt det ene trafikkskiltet som passer."
+    }
+  }
+}

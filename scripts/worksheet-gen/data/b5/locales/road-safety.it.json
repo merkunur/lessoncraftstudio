@@ -1,0 +1,303 @@
+{
+  "convention": "vienna",
+  "signs": {
+    "stop": {
+      "code": "Fig. II.37 (art. 107) Fermarsi e dare precedenza",
+      "regRef": "Regolamento di esecuzione del Codice della strada, D.P.R. 16 dicembre 1992 n. 495, tabelle delle figure",
+      "shape": "octagon",
+      "rim": "white",
+      "field": "red",
+      "glyph": "text",
+      "text": "STOP",
+      "slash": false,
+      "class": "priority",
+      "signedBy": "it panel 2026-09-23, compared with the figure tables of the Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992)"
+    },
+    "crossing": {
+      "code": "Fig. II.303 (art. 135) Attraversamento pedonale",
+      "regRef": "Regolamento di esecuzione del Codice della strada, D.P.R. 16 dicembre 1992 n. 495, tabelle delle figure",
+      "shape": "square",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "crossingTriangle",
+      "text": "",
+      "slash": false,
+      "class": "information",
+      "signedBy": "it panel 2026-09-23, compared with the figure tables of the Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992)"
+    },
+    "children": {
+      "code": "Fig. II.23 (art. 88) Bambini",
+      "regRef": "Regolamento di esecuzione del Codice della strada, D.P.R. 16 dicembre 1992 n. 495, tabelle delle figure",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "twoChildren",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "it panel 2026-09-23, compared with the figure tables of the Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992); the figure NUMBER is unsure (the sign itself is certain), recheck against the Gazzetta Ufficiale tables"
+    },
+    "pedestrian-warning": {
+      "code": "Fig. II.21 (art. 88) Attraversamento pedonale (pericolo)",
+      "regRef": "Regolamento di esecuzione del Codice della strada, D.P.R. 16 dicembre 1992 n. 495, tabelle delle figure",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "walkerOnStripes",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "it panel 2026-09-23, compared with the figure tables of the Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992); the figure NUMBER is unsure (the sign itself is certain), recheck against the Gazzetta Ufficiale tables"
+    },
+    "signal-ahead": {
+      "code": "Fig. II.31 (art. 88) Semaforo",
+      "regRef": "Regolamento di esecuzione del Codice della strada, D.P.R. 16 dicembre 1992 n. 495, tabelle delle figure",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "trafficLightMini",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "it panel 2026-09-23, compared with the figure tables of the Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992); the figure NUMBER is unsure (the sign itself is certain), recheck against the Gazzetta Ufficiale tables"
+    },
+    "bike-warning": {
+      "code": "Fig. II.22 (art. 88) Attraversamento ciclabile",
+      "regRef": "Regolamento di esecuzione del Codice della strada, D.P.R. 16 dicembre 1992 n. 495, tabelle delle figure",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "it panel 2026-09-23, compared with the figure tables of the Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992); the figure NUMBER is unsure (the sign itself is certain), recheck against the Gazzetta Ufficiale tables"
+    },
+    "no-entry": {
+      "code": "Fig. II.47 (art. 116) Senso vietato",
+      "regRef": "Regolamento di esecuzione del Codice della strada, D.P.R. 16 dicembre 1992 n. 495, tabelle delle figure",
+      "shape": "circle",
+      "rim": null,
+      "field": "red",
+      "glyph": "bar",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "it panel 2026-09-23, compared with the figure tables of the Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992)"
+    },
+    "no-vehicles": {
+      "code": "Fig. II.46 (art. 116) Divieto di transito",
+      "regRef": "Regolamento di esecuzione del Codice della strada, D.P.R. 16 dicembre 1992 n. 495, tabelle delle figure",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "none",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "it panel 2026-09-23, compared with the figure tables of the Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992)"
+    },
+    "no-bikes": {
+      "code": "Fig. II.51 (art. 116) Transito vietato alle biciclette",
+      "regRef": "Regolamento di esecuzione del Codice della strada, D.P.R. 16 dicembre 1992 n. 495, tabelle delle figure",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "it panel 2026-09-23, compared with the figure tables of the Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992); the figure NUMBER is unsure (the sign itself is certain), recheck against the Gazzetta Ufficiale tables"
+    },
+    "no-pedestrians": {
+      "code": "Fig. II.58 (art. 116) Transito vietato ai pedoni",
+      "regRef": "Regolamento di esecuzione del Codice della strada, D.P.R. 16 dicembre 1992 n. 495, tabelle delle figure",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "walker",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "it panel 2026-09-23, compared with the figure tables of the Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992); the figure NUMBER is unsure (the sign itself is certain), recheck against the Gazzetta Ufficiale tables"
+    },
+    "footpath": {
+      "code": "Fig. II.88 (art. 122) Percorso pedonale",
+      "regRef": "Regolamento di esecuzione del Codice della strada, D.P.R. 16 dicembre 1992 n. 495, tabelle delle figure",
+      "shape": "circle",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "walker",
+      "text": "",
+      "slash": false,
+      "class": "mandatory",
+      "signedBy": "it panel 2026-09-23, compared with the figure tables of the Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992)"
+    },
+    "bike-path": {
+      "code": "Fig. II.90 (art. 122) Pista ciclabile",
+      "regRef": "Regolamento di esecuzione del Codice della strada, D.P.R. 16 dicembre 1992 n. 495, tabelle delle figure",
+      "shape": "circle",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "mandatory",
+      "signedBy": "it panel 2026-09-23, compared with the figure tables of the Regolamento di esecuzione del Codice della strada (D.P.R. 495/1992)"
+    }
+  },
+  "setG1": [
+    "stop",
+    "crossing",
+    "children",
+    "no-entry",
+    "footpath",
+    "bike-path"
+  ],
+  "kindsPool": [
+    "children",
+    "pedestrian-warning",
+    "signal-ahead",
+    "bike-warning",
+    "no-vehicles",
+    "no-bikes",
+    "no-pedestrians",
+    "footpath",
+    "bike-path"
+  ],
+  "classes": [
+    {
+      "key": "warning",
+      "label": "Segnali di pericolo"
+    },
+    {
+      "key": "prohibition",
+      "label": "Segnali di divieto"
+    },
+    {
+      "key": "mandatory",
+      "label": "Segnali di obbligo"
+    }
+  ],
+  "pedLight": {
+    "stop": "standing",
+    "go": "walking",
+    "lamps": 2
+  },
+  "amber": {
+    "token": "codeYellow",
+    "word": "giallo"
+  },
+  "amberMeans": "stop",
+  "chipWords": {
+    "ped": {
+      "stop": "aspetto",
+      "go": "attraverso"
+    },
+    "car": {
+      "stop": "si ferma",
+      "go": "passa"
+    }
+  },
+  "meanings": {
+    "stop": "Tutte le auto devono fermarsi qui e dare la precedenza.",
+    "crossing": "Qui i pedoni attraversano la strada.",
+    "children": "Attenzione, qui passano spesso dei bambini.",
+    "no-entry": "Le auto non possono entrare da questa parte.",
+    "footpath": "Questo percorso è solo per chi va a piedi.",
+    "bike-path": "Questa pista è solo per le biciclette."
+  },
+  "situations": {
+    "stop": [
+      "A questo incrocio ogni auto deve fermarsi del tutto.",
+      "L’autista si ferma, guarda bene e poi riparte."
+    ],
+    "crossing": [
+      "Qui le strisce bianche mostrano dove si attraversa a piedi.",
+      "Questo è il posto giusto per attraversare la strada a piedi."
+    ],
+    "children": [
+      "Vicino alla scuola molti bambini camminano sul marciapiede.",
+      "Attenzione: qui dei bambini possono sbucare sulla strada."
+    ],
+    "no-entry": [
+      "Le auto non possono entrare in questa via da qui.",
+      "Questa via va nell’altro senso: bisogna tornare indietro."
+    ],
+    "pedestrian-warning": [
+      "Attenzione, poco più avanti le persone attraversano la strada.",
+      "Tra poco, sulla strada, c’è un passaggio per i pedoni."
+    ],
+    "signal-ahead": [
+      "Poco più avanti, su questa strada, c’è un semaforo.",
+      "Preparati: tra poco un semaforo può diventare rosso."
+    ],
+    "bike-warning": [
+      "Attenzione, qui dei ciclisti possono arrivare sulla strada.",
+      "In questo punto le biciclette attraversano spesso la strada."
+    ],
+    "no-vehicles": [
+      "Nessun veicolo può circolare in questa via.",
+      "Né auto né moto: questa strada è chiusa al traffico."
+    ],
+    "no-bikes": [
+      "Qui non si può andare in bicicletta.",
+      "Le biciclette sono vietate su questa strada."
+    ],
+    "no-pedestrians": [
+      "Qui i pedoni non possono passare.",
+      "Su questa strada è vietato camminare a piedi."
+    ],
+    "footpath": [
+      "Su questo sentiero si cammina: niente auto e niente bici.",
+      "Qui possono passare solo i pedoni, non le biciclette."
+    ],
+    "bike-path": [
+      "Questa corsia è fatta per chi va in bicicletta.",
+      "Le biciclette devono andare qui e non in mezzo alle auto."
+    ]
+  },
+  "steps": [
+    "stop-kerb",
+    "look-left",
+    "look-right",
+    "look-left",
+    "walk-across"
+  ],
+  "listenStep": null,
+  "familyHead": "Educazione stradale",
+  "signHead": "Segnali stradali",
+  "childAnchors": [
+    "per bambini",
+    "scuola dell’infanzia",
+    "classe prima",
+    "classe seconda",
+    "scuola primaria"
+  ],
+  "strings": {
+    "base": {
+      "title": "Educazione stradale: il semaforo, fermarsi o passare",
+      "instruction": "Guarda la luce accesa, poi cerchia che cosa bisogna fare."
+    },
+    "colour-lights": {
+      "title": "Educazione stradale: colora il semaforo",
+      "instruction": "Su ogni semaforo trova la luce con i raggi e colorala del colore con cui si accende."
+    },
+    "crossing-steps": {
+      "title": "Educazione stradale: come attraversare la strada",
+      "instruction": "Scrivi i numeri da 1 a 5 nei riquadri per mostrare come si attraversa la strada."
+    },
+    "sign-meaning": {
+      "title": "Educazione stradale: i segnali stradali e il loro significato",
+      "instruction": "Collega con una linea ogni segnale a quello che significa."
+    },
+    "sign-kinds": {
+      "title": "Educazione stradale: segnali di pericolo, divieto e obbligo",
+      "instruction": "Scrivi la lettera di ogni segnale nei riquadri del suo gruppo."
+    },
+    "sign-quiz": {
+      "title": "Educazione stradale: quale segnale è quello giusto?",
+      "instruction": "Leggi ogni frase e cerchia l’unico segnale che le corrisponde."
+    }
+  }
+}

@@ -1,0 +1,1383 @@
+{
+  "familyHead": "Préfixes et suffixes",
+  "families": [
+    {
+      "id": "terre",
+      "stem": "terr",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "terre"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "terrain",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "terreux",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "terrestre",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "atterrir",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "atterrissage",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "enterrer",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "souterrain",
+          "kind": "prefixed",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "tennis",
+          "whyNotFamily": "un sport de raquette"
+        },
+        {
+          "word": "tente",
+          "whyNotFamily": "une maison de toile pour camper"
+        },
+        {
+          "word": "tempête",
+          "whyNotFamily": "un vent très fort"
+        }
+      ]
+    },
+    {
+      "id": "chant",
+      "stem": "chant",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "chant"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "chanter",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "chanteur",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "chanteuse",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "chantonner",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "chantant",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "chanson",
+          "kind": "derived",
+          "slot": "noun-thing",
+          "stemSigned": true
+        },
+        {
+          "word": "chansonnette",
+          "kind": "derived",
+          "slot": "noun-thing",
+          "stemSigned": true
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "chat",
+          "whyNotFamily": "un animal"
+        },
+        {
+          "word": "chapeau",
+          "whyNotFamily": "ce qu’on met sur la tête"
+        },
+        {
+          "word": "chantier",
+          "whyNotFamily": "un lieu où l’on construit : rien à voir avec le chant"
+        }
+      ]
+    },
+    {
+      "id": "saut",
+      "stem": "saut",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "saut"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "sauter",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "sauteur",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "sautiller",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "sauterelle",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "sursauter",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "sautillant",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "saute-mouton",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "sac",
+          "whyNotFamily": "on y range des affaires"
+        },
+        {
+          "word": "salade",
+          "whyNotFamily": "une plante que l’on mange"
+        },
+        {
+          "word": "sapin",
+          "whyNotFamily": "un arbre"
+        }
+      ]
+    },
+    {
+      "id": "grand",
+      "stem": "grand",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "grand"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "grandir",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "grandeur",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "agrandir",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "grandement",
+          "kind": "derived",
+          "slot": "adverb"
+        },
+        {
+          "word": "grandissant",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "agrandissement",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "grand-père",
+          "kind": "compound",
+          "slot": "noun-person"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "grenouille",
+          "whyNotFamily": "un animal"
+        },
+        {
+          "word": "grue",
+          "whyNotFamily": "un oiseau ou une machine"
+        },
+        {
+          "word": "gris",
+          "whyNotFamily": "une couleur"
+        }
+      ]
+    },
+    {
+      "id": "mont",
+      "stem": "mont",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "mont"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "montagne",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "montagnard",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "montagneux",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "monter",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "remonter",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "montée",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "surmonter",
+          "kind": "prefixed",
+          "slot": "verb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "moto",
+          "whyNotFamily": "un véhicule"
+        },
+        {
+          "word": "mouton",
+          "whyNotFamily": "un animal"
+        },
+        {
+          "word": "mouche",
+          "whyNotFamily": "un insecte"
+        }
+      ]
+    },
+    {
+      "id": "lait",
+      "stem": "lait",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "lait"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "laitier",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "laitière",
+          "kind": "derived",
+          "slot": "noun-person"
+        },
+        {
+          "word": "laitage",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "laiteux",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "allaiter",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "laiterie",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "petit-lait",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "lapin",
+          "whyNotFamily": "un animal"
+        },
+        {
+          "word": "lampe",
+          "whyNotFamily": "elle éclaire"
+        },
+        {
+          "word": "lacet",
+          "whyNotFamily": "on le noue à la chaussure"
+        }
+      ]
+    }
+  ],
+  "rootFamilies": [
+    {
+      "id": "long",
+      "stem": "long",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "long"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "longueur",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "allonger",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "rallonger",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "longuement",
+          "kind": "derived",
+          "slot": "adverb"
+        },
+        {
+          "word": "longer",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "rallonge",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "allongement",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "loup",
+          "whyNotFamily": "un animal"
+        },
+        {
+          "word": "loto",
+          "whyNotFamily": "un jeu"
+        },
+        {
+          "word": "loupe",
+          "whyNotFamily": "elle grossit ce qu’on regarde"
+        }
+      ]
+    },
+    {
+      "id": "dent",
+      "stem": "dent",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "dent"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "dentier",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "dentaire",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "dentition",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "dentelé",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "édenté",
+          "kind": "prefixed",
+          "slot": "adjective"
+        },
+        {
+          "word": "dentelure",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "denture",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "dessin",
+          "whyNotFamily": "une image faite au crayon"
+        },
+        {
+          "word": "devoir",
+          "whyNotFamily": "un travail à faire"
+        },
+        {
+          "word": "dentelle",
+          "whyNotFamily": "un tissu ajouré : rien à voir avec les dents"
+        }
+      ]
+    },
+    {
+      "id": "vent",
+      "stem": "vent",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "vent"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "venteux",
+          "kind": "derived",
+          "slot": "adjective"
+        },
+        {
+          "word": "venter",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "éventail",
+          "kind": "prefixed",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "ventilateur",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "ventiler",
+          "kind": "derived",
+          "slot": "verb"
+        },
+        {
+          "word": "éventer",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "paravent",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "verre",
+          "whyNotFamily": "on boit dedans"
+        },
+        {
+          "word": "veste",
+          "whyNotFamily": "un vêtement"
+        },
+        {
+          "word": "ventre",
+          "whyNotFamily": "une partie du corps : rien à voir avec le vent"
+        }
+      ]
+    },
+    {
+      "id": "rond",
+      "stem": "rond",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "rond"
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "rondeur",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "arrondir",
+          "kind": "prefixed",
+          "slot": "verb"
+        },
+        {
+          "word": "arrondi",
+          "kind": "prefixed",
+          "slot": "adjective"
+        },
+        {
+          "word": "rondelle",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "rondement",
+          "kind": "derived",
+          "slot": "adverb"
+        },
+        {
+          "word": "rondin",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "rond-point",
+          "kind": "compound",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "robe",
+          "whyNotFamily": "un vêtement"
+        },
+        {
+          "word": "roi",
+          "whyNotFamily": "il porte une couronne"
+        },
+        {
+          "word": "rose",
+          "whyNotFamily": "une fleur"
+        }
+      ]
+    }
+  ],
+  "picFamilies": [
+    {
+      "id": "soleil",
+      "stem": "soleil",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "soleil",
+        "pic": {
+          "theme": "weather",
+          "noun": "sun"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "ensoleillé",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "souris",
+          "whyNotFamily": "commence comme « soleil » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "sorcière",
+          "whyNotFamily": "commence comme « soleil » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "soupe",
+          "whyNotFamily": "commence comme « soleil » mais n’est pas construit à partir de ce mot"
+        }
+      ]
+    },
+    {
+      "id": "nuage",
+      "stem": "nuage",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "nuage",
+        "pic": {
+          "theme": "spring",
+          "noun": "cloud"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "nuageux",
+          "kind": "derived",
+          "slot": "adjective"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "nuit",
+          "whyNotFamily": "commence comme « nuage » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "numéro",
+          "whyNotFamily": "commence comme « nuage » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "nuque",
+          "whyNotFamily": "commence comme « nuage » mais n’est pas construit à partir de ce mot"
+        }
+      ]
+    },
+    {
+      "id": "tambour",
+      "stem": "tambour",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "tambour",
+        "pic": {
+          "theme": "music",
+          "noun": "drum"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "tambourin",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "tambouriner",
+          "kind": "derived",
+          "slot": "verb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "table",
+          "whyNotFamily": "commence comme « tambour » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "tapis",
+          "whyNotFamily": "commence comme « tambour » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "tasse",
+          "whyNotFamily": "commence comme « tambour » mais n’est pas construit à partir de ce mot"
+        }
+      ]
+    },
+    {
+      "id": "fourmi",
+      "stem": "fourmi",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "fourmi",
+        "pic": {
+          "theme": "insects and bugs",
+          "noun": "ant"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "fourmilière",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "fontaine",
+          "whyNotFamily": "commence comme « fourmi » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "forêt",
+          "whyNotFamily": "commence comme « fourmi » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "fourchette",
+          "whyNotFamily": "commence comme « fourmi » mais n’est pas construit à partir de ce mot"
+        }
+      ]
+    },
+    {
+      "id": "orange",
+      "stem": "orange",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "orange",
+        "pic": {
+          "theme": "fruits",
+          "noun": "orange"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "orangeade",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "oreille",
+          "whyNotFamily": "commence comme « orange » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "orteil",
+          "whyNotFamily": "commence comme « orange » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "ordinateur",
+          "whyNotFamily": "commence comme « orange » mais n’est pas construit à partir de ce mot"
+        }
+      ]
+    },
+    {
+      "id": "chat",
+      "stem": "chat",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "chat",
+        "pic": {
+          "theme": "animals",
+          "noun": "cat"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "chaton",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "chatière",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "chapeau",
+          "whyNotFamily": "commence comme « chat » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "chaise",
+          "whyNotFamily": "commence comme « chat » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "chameau",
+          "whyNotFamily": "commence comme « chat » mais n’est pas construit à partir de ce mot"
+        }
+      ]
+    },
+    {
+      "id": "lion",
+      "stem": "lion",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "lion",
+        "pic": {
+          "theme": "zoo animals",
+          "noun": "lion"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "lionne",
+          "kind": "derived",
+          "slot": "noun-thing"
+        },
+        {
+          "word": "lionceau",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "lit",
+          "whyNotFamily": "commence comme « lion » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "livre",
+          "whyNotFamily": "commence comme « lion » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "lime",
+          "whyNotFamily": "commence comme « lion » mais n’est pas construit à partir de ce mot"
+        }
+      ]
+    },
+    {
+      "id": "ours",
+      "stem": "ours",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "ours",
+        "pic": {
+          "theme": "zoo animals",
+          "noun": "bear"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "ourson",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "outil",
+          "whyNotFamily": "commence comme « ours » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "ouvrir",
+          "whyNotFamily": "commence comme « ours » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "oublier",
+          "whyNotFamily": "commence comme « ours » mais n’est pas construit à partir de ce mot"
+        }
+      ]
+    },
+    {
+      "id": "cochon",
+      "stem": "cochon",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "cochon",
+        "pic": {
+          "theme": "animals",
+          "noun": "pig"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "cochonnet",
+          "kind": "derived",
+          "slot": "noun-thing"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "coq",
+          "whyNotFamily": "commence comme « cochon » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "cocotte",
+          "whyNotFamily": "commence comme « cochon » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "collier",
+          "whyNotFamily": "commence comme « cochon » mais n’est pas construit à partir de ce mot"
+        }
+      ]
+    },
+    {
+      "id": "papillon",
+      "stem": "papillon",
+      "rootIsFreeWord": true,
+      "root": {
+        "word": "papillon",
+        "pic": {
+          "theme": "insects and bugs",
+          "noun": "butterfly"
+        },
+        "picOpened": true
+      },
+      "signed": true,
+      "members": [
+        {
+          "word": "papillonner",
+          "kind": "derived",
+          "slot": "verb"
+        }
+      ],
+      "lookAlikes": [
+        {
+          "word": "papa",
+          "whyNotFamily": "commence comme « papillon » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "papier",
+          "whyNotFamily": "commence comme « papillon » mais n’est pas construit à partir de ce mot"
+        },
+        {
+          "word": "pantalon",
+          "whyNotFamily": "commence comme « papillon » mais n’est pas construit à partir de ce mot"
+        }
+      ]
+    }
+  ],
+  "sentences": {
+    "chant": [
+      {
+        "word": "chanter",
+        "slot": "verb",
+        "frame": "Ce soir, nous allons {gap} pour la fête de Mamie."
+      },
+      {
+        "word": "chanteur",
+        "slot": "noun-person",
+        "frame": "Le {gap} monte sur la scène avec son micro."
+      },
+      {
+        "word": "chanson",
+        "slot": "noun-thing",
+        "frame": "La maîtresse nous apprend une nouvelle {gap}."
+      },
+      {
+        "word": "chantant",
+        "slot": "adjective",
+        "frame": "Papi parle avec un accent {gap} du Sud."
+      }
+    ],
+    "saut": [
+      {
+        "word": "sauter",
+        "slot": "verb",
+        "frame": "Le chat va {gap} sur la table."
+      },
+      {
+        "word": "sauteur",
+        "slot": "noun-person",
+        "frame": "Ce {gap} a passé la barre la plus haute."
+      },
+      {
+        "word": "sauterelle",
+        "slot": "noun-thing",
+        "frame": "Dans l’herbe, une {gap} verte bondit."
+      },
+      {
+        "word": "sautillant",
+        "slot": "adjective",
+        "frame": "Le petit oiseau avance d’un pas {gap}."
+      }
+    ],
+    "grand": [
+      {
+        "word": "grandir",
+        "slot": "verb",
+        "frame": "Les plantes ont besoin d’eau pour {gap}."
+      },
+      {
+        "word": "grandeur",
+        "slot": "noun-thing",
+        "frame": "Range les boîtes par ordre de {gap}."
+      },
+      {
+        "word": "grandement",
+        "slot": "adverb",
+        "frame": "Merci, tu m’as {gap} aidé !"
+      },
+      {
+        "word": "grand-père",
+        "slot": "noun-person",
+        "frame": "Mon {gap} me raconte des histoires le soir."
+      }
+    ]
+  },
+  "prefixKey": {
+    "prefixes": [
+      {
+        "prefix": "re",
+        "meaning": "de nouveau"
+      },
+      {
+        "prefix": "pré",
+        "meaning": "avant"
+      },
+      {
+        "prefix": "sur",
+        "meaning": "au-dessus, en plus"
+      }
+    ],
+    "rows": [
+      {
+        "base": "lire",
+        "prefix": "re",
+        "word": "relire",
+        "gloss": "lire une histoire de nouveau"
+      },
+      {
+        "base": "faire",
+        "prefix": "re",
+        "word": "refaire",
+        "gloss": "faire un dessin encore une fois"
+      },
+      {
+        "base": "coller",
+        "prefix": "re",
+        "word": "recoller",
+        "gloss": "coller de nouveau une image qui s’est décollée"
+      },
+      {
+        "base": "venir",
+        "prefix": "re",
+        "word": "revenir",
+        "gloss": "venir encore une fois au même endroit"
+      },
+      {
+        "base": "chauffer",
+        "prefix": "pré",
+        "word": "préchauffer",
+        "gloss": "chauffer le four avant de faire cuire le gâteau"
+      },
+      {
+        "base": "dire",
+        "prefix": "pré",
+        "word": "prédire",
+        "gloss": "dire avant ce qui va arriver"
+      },
+      {
+        "base": "payer",
+        "prefix": "pré",
+        "word": "prépayer",
+        "gloss": "payer avant de recevoir la chose"
+      },
+      {
+        "base": "voler",
+        "prefix": "sur",
+        "word": "survoler",
+        "gloss": "voler au-dessus de la ville"
+      },
+      {
+        "base": "charger",
+        "prefix": "sur",
+        "word": "surcharger",
+        "gloss": "mettre beaucoup trop de choses dans le camion"
+      },
+      {
+        "base": "élever",
+        "prefix": "sur",
+        "word": "surélever",
+        "gloss": "monter une maison plus haut encore"
+      }
+    ],
+    "crossCheck": [
+      {
+        "base": "lire",
+        "prefix": "re",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "lire",
+        "prefix": "pré",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "lire",
+        "prefix": "sur",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "faire",
+        "prefix": "re",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "faire",
+        "prefix": "pré",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "faire",
+        "prefix": "sur",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "coller",
+        "prefix": "re",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "coller",
+        "prefix": "pré",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "coller",
+        "prefix": "sur",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "venir",
+        "prefix": "re",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "venir",
+        "prefix": "pré",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "venir",
+        "prefix": "sur",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "chauffer",
+        "prefix": "re",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "chauffer",
+        "prefix": "pré",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "chauffer",
+        "prefix": "sur",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "dire",
+        "prefix": "re",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "dire",
+        "prefix": "pré",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "dire",
+        "prefix": "sur",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "payer",
+        "prefix": "re",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "payer",
+        "prefix": "pré",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "payer",
+        "prefix": "sur",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "voler",
+        "prefix": "re",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "voler",
+        "prefix": "pré",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "voler",
+        "prefix": "sur",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "charger",
+        "prefix": "re",
+        "isWord": true,
+        "fitsGloss": false
+      },
+      {
+        "base": "charger",
+        "prefix": "pré",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "charger",
+        "prefix": "sur",
+        "isWord": true,
+        "fitsGloss": true
+      },
+      {
+        "base": "élever",
+        "prefix": "re",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "élever",
+        "prefix": "pré",
+        "isWord": false,
+        "fitsGloss": false
+      },
+      {
+        "base": "élever",
+        "prefix": "sur",
+        "isWord": true,
+        "fitsGloss": true
+      }
+    ]
+  },
+  "negating": [
+    "dés",
+    "non",
+    "anti",
+    "mé"
+  ],
+  "inflections": [
+    "s",
+    "x",
+    "es",
+    "ent",
+    "ons",
+    "ez"
+  ],
+  "agents": [],
+  "exemplar": {
+    "base": [
+      "terre",
+      "chant"
+    ],
+    "F1": [
+      "weather/sun",
+      "spring/cloud",
+      "insects and bugs/ant",
+      "music/drum",
+      "fruits/orange",
+      "animals/cat",
+      "zoo animals/lion",
+      "zoo animals/bear",
+      "animals/pig",
+      "insects and bugs/butterfly"
+    ],
+    "F2": [
+      "chant",
+      "saut",
+      "grand",
+      "mont",
+      "lait",
+      "long",
+      "dent",
+      "vent",
+      "rond"
+    ],
+    "F5": [
+      "chant",
+      "saut",
+      "grand"
+    ]
+  },
+  "refuse": {
+    "base": false,
+    "picture-family": false,
+    "root-word": false,
+    "prefix-key": false,
+    "who-does-it": true,
+    "family-in-sentence": false
+  },
+  "strings": {
+    "base": {
+      "title": "Le radical : trier les mots selon leur radical",
+      "instruction": "Lis chaque mot du haut et écris-le sur une ligne du mur posé sur son radical."
+    },
+    "picture-family": {
+      "title": "Le radical en images : entoure le mot construit",
+      "instruction": "Nomme chaque image, puis entoure, au-dessus, le seul mot construit à partir du nom de l’image."
+    },
+    "root-word": {
+      "title": "Trouver le radical commun à trois mots",
+      "instruction": "Entoure la partie commune aux trois mots et écris ce mot de base dans la pierre vide."
+    },
+    "prefix-key": {
+      "title": "Les préfixes re-, pré- et sur- : choisis selon le sens",
+      "instruction": "Lis ce que veut dire chaque nouveau mot, trouve son préfixe dans la clé et écris-le dans la pièce vide."
+    },
+    "family-in-sentence": {
+      "title": "Le radical dans les phrases",
+      "instruction": "Écris chacun des quatre mots de la pierre dans la phrase qui lui convient."
+    }
+  }
+}

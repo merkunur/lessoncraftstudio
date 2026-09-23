@@ -1,0 +1,121 @@
+{
+  "hemisphere": "N",
+  "bodies": {
+    "sun": "Sole",
+    "earth": "Terra",
+    "moon": "Luna"
+  },
+  "facts": {
+    "ownLight": "Questo astro produce una luce tutta sua.",
+    "star": "È una stella.",
+    "hottest": "Questo astro è il più caldo dei tre.",
+    "biggest": "Questo astro è il più grande dei tre.",
+    "liveOn": "Ci vivono persone e animali.",
+    "oceans": "Ci sono grandi oceani d’acqua.",
+    "air": "C’è l’aria che possiamo respirare.",
+    "planet": "È un pianeta.",
+    "spinDay": "Il suo movimento di rotazione ci dà il giorno e la notte.",
+    "orbitsEarth": "Questo astro gira intorno alla Terra.",
+    "seemsToChange": "La sua forma sembra cambiare.",
+    "craters": "Questo astro è coperto di crateri.",
+    "smallest": "Questo astro è il più piccolo dei tre."
+  },
+  "leakForms": [
+    "lui",
+    "lei",
+    "esso",
+    "essa",
+    "stesso",
+    "stessa",
+    "calda",
+    "piccola",
+    "coperta",
+    "rotonda",
+    "rotondo"
+  ],
+  "genderNeutral": true,
+  "forbiddenStems": [
+    "dà luce",
+    "ci dà la luce",
+    "fa luce",
+    "illumina",
+    "splende",
+    "brilla",
+    "di notte",
+    "gira intorno al Sole",
+    "orbita intorno al Sole",
+    "sorge",
+    "tramonta",
+    "è rotondo",
+    "è rotonda",
+    "nel cielo",
+    "ci hanno camminato",
+    "non ha aria",
+    "riflette",
+    "attraversa il cielo",
+    "estate",
+    "inverno",
+    "primavera",
+    "autunno",
+    "pioggia",
+    "neve",
+    "nuvola",
+    "nuvole",
+    "meteo",
+    "giornata calda",
+    "giornata fredda"
+  ],
+  "phaseNames": {
+    "0": "luna nuova",
+    "2": "primo quarto",
+    "4": "luna piena",
+    "6": "ultimo quarto"
+  },
+  "planets": {
+    "mercury": "Mercurio",
+    "venus": "Venere",
+    "earth": "Terra",
+    "mars": "Marte",
+    "jupiter": "Giove",
+    "saturn": "Saturno",
+    "uranus": "Urano",
+    "neptune": "Nettuno"
+  },
+  "notPlanet": {
+    "sun": "Sole",
+    "moon": "Luna"
+  },
+  "classLabels": {
+    "giant": "pianeta gigante",
+    "rocky": "piccolo pianeta roccioso",
+    "notPlanet": "non è un pianeta"
+  },
+  "mnemonic": "Mia Vecchia Tartaruga Mangia Gelati Sotto Un Noce",
+  "refuse": [],
+  "strings": {
+    "base": {
+      "title": "Sole, Terra e Luna: di chi si parla?",
+      "instruction": "Leggi ogni frase e segna un solo riquadro: il Sole, la Terra o la Luna."
+    },
+    "moon-phases-in-order": {
+      "title": "Le fasi lunari in ordine",
+      "instruction": "La Luna sembra crescere e poi calare: in ogni riga scrivi da 1 a 5 sotto le lune, in quest’ordine."
+    },
+    "moon-phase-names": {
+      "title": "I nomi delle fasi lunari",
+      "instruction": "Guarda ogni luna e scrivi il suo nome sulle righe, usando due volte ogni parola del riquadro."
+    },
+    "day-and-night-model": {
+      "title": "Perché ci sono il giorno e la notte?",
+      "instruction": "Guarda dov’è il Sole e, per ogni punto numerato, cerchia nella tabella se lì è giorno o notte."
+    },
+    "planets-in-order": {
+      "title": "I pianeti in ordine dal Sole",
+      "instruction": "Scrivi il nome di ogni pianeta sulla sua riga, partendo vicino al Sole, e usa una volta sola ogni nome del riquadro."
+    },
+    "planet-sizes": {
+      "title": "Pianeti giganti e pianeti rocciosi",
+      "instruction": "Scrivi ogni nome nel riquadro giusto: pianeta gigante, piccolo pianeta roccioso o non è un pianeta."
+    }
+  }
+}

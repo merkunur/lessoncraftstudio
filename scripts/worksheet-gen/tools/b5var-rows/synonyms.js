@@ -30,7 +30,7 @@ const ROWS = [
     'Synonyms for Said: Pick the Word That Fits', 'Read each sentence and write the word from the bubble that fits best in the box instead of said.'],
   ['g3', 'G3-397', 'word-fields-go-and-look', BASE, 2,
     { mode: 'fields', words: 10, fields: ['go', 'look'], split: [4, 6], plotRows: 6, rowH: 62, glyphH: 34, pileRowsMax: 3, wordPx: 18, maxGlyphs: 12 },
-    'Word Fields: Words for Go and Look', 'Read the ten words and write each one in the field of the word it means nearly the same as.', { gradeBand: 'G3' }],
+    'Word Fields: Words for Go and Look', 'Write each word in the field it belongs to.', { gradeBand: 'G3' }],
 ];
 const HANDWRITTEN = [];
 module.exports = { ROWS, HANDWRITTEN };

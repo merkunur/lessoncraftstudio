@@ -1,0 +1,890 @@
+{
+  "head": "Les synonymes",
+  "allowed": [
+    " ",
+    "-",
+    "'",
+    "’"
+  ],
+  "ban": [
+    "fort",
+    "bon",
+    "chouette",
+    "drôle",
+    "brave",
+    "dur",
+    "sympa",
+    "super",
+    "génial",
+    "malin",
+    "gros",
+    "vif",
+    "bien"
+  ],
+  "regional": [],
+  "groups": [
+    {
+      "id": "g.happy",
+      "concept": "happy",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "content",
+        "heureux"
+      ]
+    },
+    {
+      "id": "g.sad",
+      "concept": "sad",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "triste",
+        "peiné"
+      ]
+    },
+    {
+      "id": "g.angry",
+      "concept": "angry",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "fâché",
+        "en colère"
+      ]
+    },
+    {
+      "id": "g.scared",
+      "concept": "scared",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "effrayé",
+        "apeuré"
+      ]
+    },
+    {
+      "id": "g.surprised",
+      "concept": "surprised",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "surpris",
+        "étonné"
+      ]
+    },
+    {
+      "id": "g.calm",
+      "concept": "calm",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 2,
+      "words": [
+        "calme",
+        "tranquille",
+        "paisible"
+      ]
+    },
+    {
+      "id": "g.tired",
+      "concept": "tired",
+      "pos": "adj",
+      "domain": "body",
+      "tier": 1,
+      "words": [
+        "fatigué",
+        "las"
+      ]
+    },
+    {
+      "id": "g.sick",
+      "concept": "sick",
+      "pos": "adj",
+      "domain": "body",
+      "tier": 1,
+      "words": [
+        "malade",
+        "souffrant"
+      ]
+    },
+    {
+      "id": "g.strong",
+      "concept": "strong",
+      "pos": "adj",
+      "domain": "body",
+      "tier": 2,
+      "words": [
+        "costaud",
+        "robuste"
+      ]
+    },
+    {
+      "id": "g.big",
+      "concept": "big",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "énorme",
+        "immense",
+        "gigantesque"
+      ]
+    },
+    {
+      "id": "g.small",
+      "concept": "small",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "minuscule",
+        "tout petit"
+      ]
+    },
+    {
+      "id": "g.easy",
+      "concept": "easy",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 1,
+      "words": [
+        "facile",
+        "simple"
+      ]
+    },
+    {
+      "id": "g.difficult",
+      "concept": "difficult",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 2,
+      "words": [
+        "difficile",
+        "compliqué"
+      ]
+    },
+    {
+      "id": "g.smart",
+      "concept": "smart",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 2,
+      "words": [
+        "intelligent",
+        "futé"
+      ]
+    },
+    {
+      "id": "g.brave",
+      "concept": "brave",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "courageux",
+        "vaillant"
+      ]
+    },
+    {
+      "id": "g.funny",
+      "concept": "funny",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 1,
+      "words": [
+        "amusant",
+        "comique"
+      ]
+    },
+    {
+      "id": "g.strange",
+      "concept": "strange",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "bizarre",
+        "étrange"
+      ]
+    },
+    {
+      "id": "g.tasty",
+      "concept": "tasty",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 1,
+      "words": [
+        "délicieux",
+        "savoureux"
+      ]
+    },
+    {
+      "id": "g.cozy",
+      "concept": "cozy",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 2,
+      "words": [
+        "douillet",
+        "confortable"
+      ]
+    },
+    {
+      "id": "g.pretty",
+      "concept": "pretty",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 1,
+      "words": [
+        "joli",
+        "beau"
+      ]
+    },
+    {
+      "id": "g.tidy",
+      "concept": "tidy",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 2,
+      "words": [
+        "rangé",
+        "ordonné"
+      ]
+    },
+    {
+      "id": "g.dirty",
+      "concept": "dirty",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 2,
+      "words": [
+        "sale",
+        "crasseux"
+      ]
+    },
+    {
+      "id": "g.begin",
+      "concept": "begin",
+      "pos": "verb",
+      "domain": "begin-end",
+      "tier": 1,
+      "words": [
+        "commencer",
+        "débuter"
+      ]
+    },
+    {
+      "id": "g.end",
+      "concept": "end",
+      "pos": "verb",
+      "domain": "begin-end",
+      "tier": 1,
+      "words": [
+        "finir",
+        "terminer",
+        "achever"
+      ]
+    },
+    {
+      "id": "g.choose",
+      "concept": "choose",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 2,
+      "words": [
+        "choisir",
+        "sélectionner"
+      ]
+    },
+    {
+      "id": "g.collect",
+      "concept": "collect",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 2,
+      "words": [
+        "rassembler",
+        "réunir"
+      ]
+    },
+    {
+      "id": "g.jump",
+      "concept": "jump",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 1,
+      "words": [
+        "sauter",
+        "bondir"
+      ]
+    },
+    {
+      "id": "g.throw",
+      "concept": "throw",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 1,
+      "words": [
+        "lancer",
+        "jeter"
+      ]
+    },
+    {
+      "id": "g.fall",
+      "concept": "fall",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 2,
+      "words": [
+        "tomber",
+        "chuter"
+      ]
+    },
+    {
+      "id": "g.stay",
+      "concept": "stay",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 2,
+      "words": [
+        "rester",
+        "demeurer"
+      ]
+    },
+    {
+      "id": "g.talk",
+      "concept": "talk",
+      "pos": "verb",
+      "domain": "speak",
+      "tier": 1,
+      "words": [
+        "parler",
+        "discuter"
+      ]
+    },
+    {
+      "id": "g.shout",
+      "concept": "shout",
+      "pos": "verb",
+      "domain": "speak",
+      "tier": 1,
+      "words": [
+        "crier",
+        "hurler"
+      ]
+    },
+    {
+      "id": "g.build",
+      "concept": "build",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 2,
+      "words": [
+        "construire",
+        "bâtir"
+      ]
+    },
+    {
+      "id": "g.hide",
+      "concept": "hide",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 2,
+      "words": [
+        "cacher",
+        "dissimuler"
+      ]
+    }
+  ],
+  "near": [
+    {
+      "a": "fâché",
+      "b": "agacé",
+      "why": "nuance : agacé est moins fort que fâché"
+    },
+    {
+      "a": "effrayé",
+      "b": "inquiet",
+      "why": "inquiet est un autre sentiment, pas une peur plus faible"
+    },
+    {
+      "a": "content",
+      "b": "ravi",
+      "why": "nuance : ravi est plus fort que content"
+    },
+    {
+      "a": "fatigué",
+      "b": "épuisé",
+      "why": "nuance : épuisé est beaucoup plus fort"
+    },
+    {
+      "a": "calme",
+      "b": "silencieux",
+      "why": "silencieux dit qu’il n’y a pas de bruit ; calme parle d’un sentiment"
+    },
+    {
+      "a": "costaud",
+      "b": "courageux",
+      "why": "la force du corps n’est pas le courage"
+    },
+    {
+      "a": "chaud",
+      "b": "tiède",
+      "why": "nuance"
+    },
+    {
+      "a": "froid",
+      "b": "frais",
+      "why": "nuance"
+    },
+    {
+      "a": "mouillé",
+      "b": "humide",
+      "why": "nuance"
+    },
+    {
+      "a": "parler",
+      "b": "crier",
+      "why": "crier, c’est parler très fort"
+    },
+    {
+      "a": "aimer",
+      "b": "adorer",
+      "why": "nuance"
+    },
+    {
+      "a": "manger",
+      "b": "dévorer",
+      "why": "nuance"
+    },
+    {
+      "a": "malade",
+      "b": "fatigué",
+      "why": "être fatigué, ce n’est pas être malade"
+    },
+    {
+      "a": "énorme",
+      "b": "grand",
+      "why": "nuance : énorme est bien plus que grand"
+    },
+    {
+      "a": "minuscule",
+      "b": "petit",
+      "why": "nuance : minuscule est bien plus que petit"
+    },
+    {
+      "a": "sale",
+      "b": "désordonné",
+      "why": "sale, ce n’est pas mal rangé"
+    }
+  ],
+  "nearOnly": [
+    "agacé",
+    "inquiet",
+    "ravi",
+    "épuisé",
+    "silencieux",
+    "grand",
+    "petit",
+    "désordonné"
+  ],
+  "falseOf": {
+    "happy": [
+      "triste",
+      "peiné",
+      "fâché",
+      "en colère",
+      "effrayé",
+      "apeuré",
+      "surpris",
+      "étonné",
+      "fatigué",
+      "las",
+      "énorme",
+      "immense",
+      "gigantesque",
+      "minuscule",
+      "tout petit"
+    ],
+    "sad": [
+      "content",
+      "heureux",
+      "fâché",
+      "en colère",
+      "surpris",
+      "étonné",
+      "énorme",
+      "immense",
+      "gigantesque",
+      "minuscule",
+      "tout petit"
+    ],
+    "angry": [
+      "content",
+      "heureux",
+      "triste",
+      "peiné",
+      "effrayé",
+      "apeuré",
+      "surpris",
+      "étonné",
+      "fatigué",
+      "las",
+      "énorme",
+      "immense",
+      "gigantesque",
+      "minuscule",
+      "tout petit"
+    ],
+    "scared": [
+      "content",
+      "heureux",
+      "triste",
+      "peiné",
+      "fatigué",
+      "las",
+      "énorme",
+      "immense",
+      "gigantesque",
+      "minuscule",
+      "tout petit"
+    ],
+    "surprised": [
+      "content",
+      "heureux",
+      "triste",
+      "peiné",
+      "fâché",
+      "en colère",
+      "fatigué",
+      "las",
+      "énorme",
+      "immense",
+      "gigantesque",
+      "minuscule",
+      "tout petit"
+    ],
+    "tired": [
+      "content",
+      "heureux",
+      "fâché",
+      "en colère",
+      "effrayé",
+      "apeuré",
+      "surpris",
+      "étonné",
+      "énorme",
+      "immense",
+      "gigantesque",
+      "minuscule",
+      "tout petit"
+    ],
+    "big": [
+      "triste",
+      "peiné",
+      "fâché",
+      "en colère",
+      "effrayé",
+      "apeuré",
+      "surpris",
+      "étonné",
+      "minuscule",
+      "tout petit"
+    ],
+    "small": [
+      "triste",
+      "peiné",
+      "effrayé",
+      "apeuré",
+      "surpris",
+      "étonné",
+      "fatigué",
+      "las",
+      "énorme",
+      "immense",
+      "gigantesque"
+    ]
+  },
+  "scales": [
+    {
+      "id": "s.heat",
+      "pos": "adj",
+      "words": [
+        "tiède",
+        "chaud",
+        "brûlant"
+      ]
+    },
+    {
+      "id": "s.cold",
+      "pos": "adj",
+      "words": [
+        "frais",
+        "froid",
+        "glacé"
+      ]
+    },
+    {
+      "id": "s.wet",
+      "pos": "adj",
+      "words": [
+        "humide",
+        "mouillé",
+        "trempé"
+      ]
+    },
+    {
+      "id": "s.angry",
+      "pos": "adj",
+      "words": [
+        "agacé",
+        "fâché",
+        "furieux"
+      ]
+    },
+    {
+      "id": "s.eat",
+      "pos": "verb",
+      "words": [
+        "grignoter",
+        "manger",
+        "dévorer"
+      ]
+    },
+    {
+      "id": "s.drink",
+      "pos": "verb",
+      "words": [
+        "siroter",
+        "boire",
+        "engloutir"
+      ]
+    },
+    {
+      "id": "s.like",
+      "pos": "verb",
+      "words": [
+        "apprécier",
+        "aimer",
+        "adorer"
+      ]
+    },
+    {
+      "id": "s.voice",
+      "pos": "verb",
+      "words": [
+        "chuchoter",
+        "parler",
+        "crier"
+      ]
+    },
+    {
+      "id": "s.knock",
+      "pos": "verb",
+      "words": [
+        "tapoter",
+        "taper",
+        "cogner"
+      ]
+    }
+  ],
+  "fields": {
+    "say": {
+      "head": "dit",
+      "form": "présent, 3e personne du singulier",
+      "words": [
+        "chuchote",
+        "crie",
+        "demande",
+        "répond",
+        "explique",
+        "promet"
+      ],
+      "sentences": [
+        {
+          "id": "f1",
+          "text": "Le bébé dort, alors {name} {gap} tout doucement.",
+          "fit": {
+            "chuchote": true,
+            "crie": false,
+            "demande": false,
+            "répond": false,
+            "explique": false,
+            "promet": false
+          }
+        },
+        {
+          "id": "f2",
+          "text": "{name} {gap} un secret à l’oreille de Mamie.",
+          "fit": {
+            "chuchote": true,
+            "crie": false,
+            "demande": false,
+            "répond": false,
+            "explique": false,
+            "promet": false
+          }
+        },
+        {
+          "id": "f3",
+          "text": "Le bus part, alors {name} {gap} : « Attendez-moi ! »",
+          "fit": {
+            "chuchote": false,
+            "crie": true,
+            "demande": false,
+            "répond": false,
+            "explique": false,
+            "promet": false
+          }
+        },
+        {
+          "id": "f4",
+          "text": "Au bout du grand champ, {name} {gap} pour appeler son chien.",
+          "fit": {
+            "chuchote": false,
+            "crie": true,
+            "demande": false,
+            "répond": false,
+            "explique": false,
+            "promet": false
+          }
+        },
+        {
+          "id": "f5",
+          "text": "« Où est mon chapeau rouge ? » {gap} {name}.",
+          "fit": {
+            "chuchote": false,
+            "crie": false,
+            "demande": true,
+            "répond": false,
+            "explique": false,
+            "promet": false
+          }
+        },
+        {
+          "id": "f6",
+          "text": "{name} {gap} à la question de la maîtresse avec un grand sourire.",
+          "fit": {
+            "chuchote": false,
+            "crie": false,
+            "demande": false,
+            "répond": true,
+            "explique": false,
+            "promet": false
+          }
+        },
+        {
+          "id": "f7",
+          "text": "{name} {gap} comment planter une graine, étape par étape.",
+          "fit": {
+            "chuchote": false,
+            "crie": false,
+            "demande": false,
+            "répond": false,
+            "explique": true,
+            "promet": false
+          }
+        },
+        {
+          "id": "f8",
+          "text": "« Je nourrirai le poisson tous les jours, c’est juré ! » {gap} {name}.",
+          "fit": {
+            "chuchote": false,
+            "crie": false,
+            "demande": false,
+            "répond": false,
+            "explique": false,
+            "promet": true
+          }
+        }
+      ]
+    },
+    "go": {
+      "head": "aller",
+      "words": [
+        "marcher",
+        "courir",
+        "ramper",
+        "flâner",
+        "errer",
+        "trottiner",
+        "foncer",
+        "se promener"
+      ]
+    },
+    "look": {
+      "head": "regarder",
+      "words": [
+        "observer",
+        "contempler",
+        "épier",
+        "admirer",
+        "scruter",
+        "guetter",
+        "examiner",
+        "lorgner"
+      ]
+    }
+  },
+  "quotes": [
+    "«",
+    "»"
+  ],
+  "instructionBans": {
+    "base": [
+      "ligne",
+      "case",
+      "bulle"
+    ],
+    "pictures": [
+      "ligne",
+      "case"
+    ],
+    "pairs": [
+      "case",
+      "bulle"
+    ],
+    "shades": [
+      "bulle",
+      "trait"
+    ],
+    "say": [
+      "trait"
+    ],
+    "fields": [
+      "trait",
+      "bulle"
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Les synonymes : entoure le mot qui veut dire la même chose",
+      "instruction": "Lis le grand mot de chaque carte et entoure, en dessous, le mot qui veut dire la même chose."
+    },
+    "pictures": {
+      "title": "Les synonymes en images : deux mots pour une image",
+      "instruction": "Regarde chaque image et entoure, en dessous, les deux mots qui veulent dire la même chose et qui décrivent l’image."
+    },
+    "pairs": {
+      "title": "Relier les synonymes deux à deux",
+      "instruction": "Trace un trait pour relier chaque mot de gauche au mot de droite qui veut dire la même chose."
+    },
+    "shades": {
+      "title": "Les nuances de sens : du plus faible au plus fort",
+      "instruction": "Lis les trois mots de chaque ligne et écris 1, 2 et 3 dans les cases, du mot le plus faible au mot le plus fort."
+    },
+    "say": {
+      "title": "Les synonymes du verbe dire : choisis le mot juste",
+      "instruction": "Lis chaque phrase et écris dans la case le mot de la bulle qui convient le mieux à la place de « dit »."
+    },
+    "fields": {
+      "title": "Champ lexical : les mots pour aller et pour regarder",
+      "instruction": "Lis les dix mots et écris chacun dans le champ du verbe dont il est le plus proche par le sens."
+    }
+  }
+}

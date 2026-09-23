@@ -92,7 +92,7 @@ const TYPE = {
   i18n: {
     en: {
       title: 'Butterfly Life Cycle',
-      instruction: 'The egg is 1: write 2, 3 and 4 in the boxes as it grows, and in the last box the number of the picture that comes after the butterfly.',
+      instruction: 'The egg is 1: write 2, 3 and 4 in the boxes as the butterfly grows, and in the last box the number of the picture that comes after the butterfly.',
     },
   },
   stageWord, statement, decoyWord, successor, statementPool, stringsFor,

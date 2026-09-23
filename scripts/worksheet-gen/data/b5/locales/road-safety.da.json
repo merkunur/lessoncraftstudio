@@ -1,0 +1,286 @@
+{
+  "convention": "vienna",
+  "signs": {
+    "stop": {
+      "code": "B 12?",
+      "regRef": "Bekendtgørelse om vejtavler, B-tavler (vigepligtstavler): \"Stop\" = ubetinget vigepligt og stop, rød ottekant med hvid kant og STOP (tavlenummer B 12 ikke bekræftet; B 11 er ubetinget vigepligt)",
+      "shape": "octagon",
+      "rim": "white",
+      "field": "red",
+      "glyph": "text",
+      "text": "STOP",
+      "slash": false,
+      "class": "priority",
+      "signedBy": "da native panel (nt10-E, 2026-09-23): shape, rim, field and pictogram checked against the picture of the named tavle in Bekendtgørelse om vejtavler (bilag 1, tavleoversigten); a \"?\" in the code marks a tavle number the panel could not confirm from memory, operator review pending"
+    },
+    "crossing": {
+      "code": "E 17",
+      "regRef": "Bekendtgørelse om vejtavler, E-tavler (oplysningstavler): E 17 Fodgængerovergang, blå firkant med hvid trekant og fodgænger",
+      "shape": "square",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "crossingTriangle",
+      "text": "",
+      "slash": false,
+      "class": "information",
+      "signedBy": "da native panel (nt10-E, 2026-09-23): shape, rim, field and pictogram checked against the picture of the named tavle in Bekendtgørelse om vejtavler (bilag 1, tavleoversigten); a \"?\" in the code marks a tavle number the panel could not confirm from memory, operator review pending"
+    },
+    "children": {
+      "code": "A 17?",
+      "regRef": "Bekendtgørelse om vejtavler, A-tavler (advarselstavler): \"Børn\", hvid trekant med rød kant og to børn (nummer A 17 ikke bekræftet)",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "twoChildren",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "da native panel (nt10-E, 2026-09-23): shape, rim, field and pictogram checked against the picture of the named tavle in Bekendtgørelse om vejtavler (bilag 1, tavleoversigten); a \"?\" in the code marks a tavle number the panel could not confirm from memory, operator review pending"
+    },
+    "signal-ahead": {
+      "code": "A 72?",
+      "regRef": "Bekendtgørelse om vejtavler, A-tavler (advarselstavler): \"Signalregulering\", hvid trekant med rød kant og lille lyskurv (nummer ikke bekræftet)",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "trafficLightMini",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "da native panel (nt10-E, 2026-09-23): shape, rim, field and pictogram checked against the picture of the named tavle in Bekendtgørelse om vejtavler (bilag 1, tavleoversigten); a \"?\" in the code marks a tavle number the panel could not confirm from memory, operator review pending"
+    },
+    "bike-warning": {
+      "code": "A 21?",
+      "regRef": "Bekendtgørelse om vejtavler, A-tavler (advarselstavler): \"Cyklister\", hvid trekant med rød kant og cykel (nummer ikke bekræftet)",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "da native panel (nt10-E, 2026-09-23): shape, rim, field and pictogram checked against the picture of the named tavle in Bekendtgørelse om vejtavler (bilag 1, tavleoversigten); a \"?\" in the code marks a tavle number the panel could not confirm from memory, operator review pending"
+    },
+    "no-entry": {
+      "code": "C 19",
+      "regRef": "Bekendtgørelse om vejtavler, C-tavler (forbudstavler): C 19 Indkørsel forbudt, rød skive med hvid vandret bjælke",
+      "shape": "circle",
+      "rim": null,
+      "field": "red",
+      "glyph": "bar",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "da native panel (nt10-E, 2026-09-23): shape, rim, field and pictogram checked against the picture of the named tavle in Bekendtgørelse om vejtavler (bilag 1, tavleoversigten); a \"?\" in the code marks a tavle number the panel could not confirm from memory, operator review pending"
+    },
+    "no-vehicles": {
+      "code": "C 1?",
+      "regRef": "Bekendtgørelse om vejtavler, C-tavler (forbudstavler): \"Kørsel forbudt i begge retninger\", hvid skive med rød kant uden symbol (nummer ikke bekræftet)",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "none",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "da native panel (nt10-E, 2026-09-23): shape, rim, field and pictogram checked against the picture of the named tavle in Bekendtgørelse om vejtavler (bilag 1, tavleoversigten); a \"?\" in the code marks a tavle number the panel could not confirm from memory, operator review pending"
+    },
+    "no-bikes": {
+      "code": "C 22.1?",
+      "regRef": "Bekendtgørelse om vejtavler, C-tavler (forbudstavler): \"Cykling forbudt\", hvid skive med rød kant og cykel, ingen skråstreg (nummer ikke bekræftet)",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "da native panel (nt10-E, 2026-09-23): shape, rim, field and pictogram checked against the picture of the named tavle in Bekendtgørelse om vejtavler (bilag 1, tavleoversigten); a \"?\" in the code marks a tavle number the panel could not confirm from memory, operator review pending"
+    },
+    "no-pedestrians": {
+      "code": "C 23?",
+      "regRef": "Bekendtgørelse om vejtavler, C-tavler (forbudstavler): \"Færdsel til fods forbudt\", hvid skive med rød kant og fodgænger, ingen skråstreg (nummer ikke bekræftet)",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "walker",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "da native panel (nt10-E, 2026-09-23): shape, rim, field and pictogram checked against the picture of the named tavle in Bekendtgørelse om vejtavler (bilag 1, tavleoversigten); a \"?\" in the code marks a tavle number the panel could not confirm from memory, operator review pending"
+    },
+    "footpath": {
+      "code": "D 22?",
+      "regRef": "Bekendtgørelse om vejtavler, D-tavler (påbudstavler): \"Gangsti\", blå skive med hvid voksen og barn (nummer ikke bekræftet)",
+      "shape": "circle",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "adultChild",
+      "text": "",
+      "slash": false,
+      "class": "mandatory",
+      "signedBy": "da native panel (nt10-E, 2026-09-23): shape, rim, field and pictogram checked against the picture of the named tavle in Bekendtgørelse om vejtavler (bilag 1, tavleoversigten); a \"?\" in the code marks a tavle number the panel could not confirm from memory, operator review pending"
+    },
+    "bike-path": {
+      "code": "D 21?",
+      "regRef": "Bekendtgørelse om vejtavler, D-tavler (påbudstavler): \"Cyklesti\", blå skive med hvid cykel (nummer ikke bekræftet)",
+      "shape": "circle",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "mandatory",
+      "signedBy": "da native panel (nt10-E, 2026-09-23): shape, rim, field and pictogram checked against the picture of the named tavle in Bekendtgørelse om vejtavler (bilag 1, tavleoversigten); a \"?\" in the code marks a tavle number the panel could not confirm from memory, operator review pending"
+    }
+  },
+  "setG1": [
+    "stop",
+    "crossing",
+    "children",
+    "no-entry",
+    "footpath",
+    "bike-path"
+  ],
+  "kindsPool": [
+    "children",
+    "signal-ahead",
+    "bike-warning",
+    "no-vehicles",
+    "no-bikes",
+    "no-pedestrians",
+    "footpath",
+    "bike-path"
+  ],
+  "classes": [
+    {
+      "key": "warning",
+      "label": "Advarselstavler"
+    },
+    {
+      "key": "prohibition",
+      "label": "Forbudstavler"
+    },
+    {
+      "key": "mandatory",
+      "label": "Påbudstavler"
+    }
+  ],
+  "pedLight": {
+    "stop": "standing",
+    "go": "walking",
+    "lamps": 2
+  },
+  "amber": {
+    "token": "codeYellow",
+    "word": "gul"
+  },
+  "amberMeans": "stop",
+  "chipWords": {
+    "ped": {
+      "stop": "stå",
+      "go": "gå"
+    },
+    "car": {
+      "stop": "stop",
+      "go": "kør"
+    }
+  },
+  "meanings": {
+    "stop": "Alle biler skal holde helt stille her og se sig for.",
+    "crossing": "Her er en fodgængerovergang, hvor man går over vejen.",
+    "children": "Pas på, her kan børn løbe ud på vejen.",
+    "no-entry": "Her må ingen køre ind.",
+    "footpath": "Denne sti er kun for dem, der går.",
+    "bike-path": "Denne sti er kun for cykler."
+  },
+  "situations": {
+    "stop": [
+      "I dette kryds skal hver bil holde helt stille, også når der ingen kommer.",
+      "Her skal bilisterne standse og se efter, om vejen er fri."
+    ],
+    "crossing": [
+      "Her er stribet på vejen, så man kan gå sikkert over til fods.",
+      "Bilerne skal holde tilbage, når børn vil gå over vejen her."
+    ],
+    "children": [
+      "Lige ved vejen ligger en skole, så her løber der ofte børn.",
+      "Pas på, bilister: tæt ved vejen ligger en legeplads."
+    ],
+    "no-entry": [
+      "Ind i denne gade må man ikke køre herfra.",
+      "Her er indkørslen forbudt, så bilerne må finde en anden vej."
+    ],
+    "footpath": [
+      "Denne sti er kun for mennesker, der går til fods.",
+      "Her går man på sin egen sti, væk fra bilerne."
+    ],
+    "bike-path": [
+      "Denne sti er kun lavet til cykler.",
+      "Her cykler du på din egen sti, væk fra bilerne."
+    ],
+    "signal-ahead": [
+      "Pas på, lidt længere fremme kommer der en lyskurv.",
+      "Snart er der lys på vejen, som kan skifte til rødt."
+    ],
+    "bike-warning": [
+      "Pas på, bilister: her cykler børn ofte over vejen.",
+      "På denne vej kommer der mange cyklister."
+    ],
+    "no-vehicles": [
+      "Her må ingen køretøjer køre, hverken biler eller cykler.",
+      "Vejen er lukket for alle køretøjer, både biler og knallerter."
+    ],
+    "no-bikes": [
+      "Biler må godt køre her, men det må cykler ikke.",
+      "Her er det forbudt at cykle, men bilerne må køre videre."
+    ],
+    "no-pedestrians": [
+      "På denne vej må man ikke gå til fods, kun køre.",
+      "Her er det forbudt at gå, men bilerne må køre."
+    ]
+  },
+  "steps": [
+    "stop-kerb",
+    "look-left",
+    "look-right",
+    "look-left",
+    "walk-across"
+  ],
+  "listenStep": null,
+  "familyHead": "Færdselslære",
+  "signHead": "Færdselstavler",
+  "childAnchors": [
+    "for børn",
+    "indskolingen",
+    "indskoling",
+    "børnehaveklassen",
+    "klasse"
+  ],
+  "strings": {
+    "base": {
+      "title": "Færdselslære: Hvad viser lyskurven?",
+      "instruction": "Se, hvilken lampe der lyser, og sæt ring om det, du skal gøre."
+    },
+    "colour-lights": {
+      "title": "Færdselslære: farvelæg lyskurvene",
+      "instruction": "Find lampen med stråler på hver lyskurv, og farvelæg den i den farve, den lyser med."
+    },
+    "crossing-steps": {
+      "title": "Sådan går du sikkert over vejen: trin for trin",
+      "instruction": "Skriv 1 til 5 i felterne, så de viser, hvordan du går sikkert over vejen."
+    },
+    "sign-meaning": {
+      "title": "Færdselstavler og deres betydning for børn",
+      "instruction": "Tegn en streg fra hver færdselstavle til den sætning, der fortæller, hvad tavlen betyder."
+    },
+    "sign-kinds": {
+      "title": "Færdselslære: advarsels-, forbuds- og påbudstavler",
+      "instruction": "Skriv bogstavet for hver færdselstavle i et felt i tavlens gruppe."
+    },
+    "sign-quiz": {
+      "title": "Færdselslære: quiz om færdselstavler",
+      "instruction": "Læs hver sætning, og sæt ring om den ene færdselstavle, der passer til den."
+    }
+  }
+}

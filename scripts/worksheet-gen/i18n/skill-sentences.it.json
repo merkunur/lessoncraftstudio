@@ -378,5 +378,45 @@
   "rounding": {
     "full": "Schede stampabili gratuite per arrotondare i numeri alla decina e al centinaio, per eccesso o per difetto, e per stimare le somme senza calcolarle.",
     "short": "Arrotondare i numeri alla decina e al centinaio"
+  },
+  "2d-shapes": {
+    "full": "Figure geometriche piane per la scuola dell’infanzia e la classe prima: riconoscere e nominare cerchio, quadrato, triangolo e rettangolo, indovinelli e puntini.",
+    "short": "Riconoscere e nominare le figure geometriche piane"
+  },
+  "road-safety": {
+    "full": "Educazione stradale per la scuola dell’infanzia e la primaria: il semaforo, come attraversare la strada, i segnali di pericolo, divieto e obbligo e il loro significato.",
+    "short": "Il semaforo e i segnali stradali per bambini"
+  },
+  "family": {
+    "full": "I membri della famiglia per l’infanzia e la primaria: chi è chi nell’albero genealogico, le generazioni, le parole della famiglia, indizi e gradi di parentela.",
+    "short": "I membri della famiglia e l’albero genealogico"
+  },
+  "plants": {
+    "full": "Le parti della pianta per la primaria: radici, fusto, foglia, fiore, frutto e seme, le loro funzioni, di che cosa ha bisogno una pianta e il suo ciclo vitale.",
+    "short": "Le parti della pianta e le loro funzioni"
+  },
+  "animal-life-cycles": {
+    "full": "Il ciclo vitale della farfalla e della rana per la primaria: mettere in ordine le fasi, scriverne i nomi, la metamorfosi e il confronto tra i due cicli.",
+    "short": "Il ciclo vitale della farfalla e della rana"
+  },
+  "earth-and-space": {
+    "full": "Il Sole, la Terra e la Luna per la primaria: le fasi lunari, perché ci sono il giorno e la notte e i pianeti del sistema solare in ordine e per grandezza.",
+    "short": "Le fasi lunari e i pianeti del sistema solare"
+  },
+  "maps": {
+    "full": "Mappe per la primaria: leggere la legenda, la visione dall’alto, i punti cardinali nord, est, sud e ovest, la rosa dei venti, i continenti e gli oceani.",
+    "short": "Leggere una mappa e i punti cardinali"
+  },
+  "digraphs": {
+    "full": "Digrammi: due lettere che si leggono come un solo suono. In italiano gn, gl, sc, ch e gh si esercitano nelle schede sulle regole di ortografia.",
+    "short": "Digrammi: due lettere, un solo suono"
+  },
+  "synonyms": {
+    "full": "I sinonimi per la primaria: parole che vogliono dire la stessa cosa, coppie di sinonimi, sfumature di significato, i sinonimi di dire e i campi semantici.",
+    "short": "I sinonimi: parole che vogliono dire la stessa cosa"
+  },
+  "word-parts": {
+    "full": "Famiglie di parole per la primaria: la parola primitiva, le parole della stessa famiglia, i prefissi ri-, pre- e sotto- e i nomi dei mestieri.",
+    "short": "Famiglie di parole, parola primitiva e prefissi"
   }
 }

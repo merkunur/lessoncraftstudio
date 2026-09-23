@@ -10,6 +10,6 @@ module.exports = {
   id: 'G3-397',
   slug: 'word-fields-go-and-look',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Word Fields: Words for Go and Look", instruction: "Read the ten words and write each one in the field of the word it means nearly the same as." } },
+  i18n: { en: { title: "Word Fields: Words for Go and Look", instruction: "Write each word in the field it belongs to." } },
   gradeBand: "G3",
 };

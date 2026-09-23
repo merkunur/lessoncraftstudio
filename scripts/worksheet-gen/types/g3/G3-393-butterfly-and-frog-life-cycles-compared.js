@@ -10,6 +10,6 @@ module.exports = {
   id: 'G3-393',
   slug: 'butterfly-and-frog-life-cycles-compared',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Butterfly and Frog Life Cycles Compared", instruction: "Read each sentence and tick the butterfly, the frog or both when the sentence is true for that animal." } },
+  i18n: { en: { title: "Butterfly and Frog Life Cycles Compared", instruction: "Read each sentence and put a check under the butterfly, the frog or both when it is true for that animal." } },
   gradeBand: "G3",
 };

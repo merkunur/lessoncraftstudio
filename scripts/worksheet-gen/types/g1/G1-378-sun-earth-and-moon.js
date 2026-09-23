@@ -100,7 +100,7 @@ module.exports = {
   i18n: {
     en: {
       title: 'Sun, Earth and Moon',
-      instruction: 'Read each sentence. Is it about the Sun, the Earth or the Moon? Tick one box.',
+      instruction: 'Read each sentence and put a check in the box under the Sun, the Earth or the Moon.',
     },
   },
   FACE_MODES,

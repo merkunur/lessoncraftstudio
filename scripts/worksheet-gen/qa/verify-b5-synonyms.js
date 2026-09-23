@@ -31,6 +31,8 @@
  *    the sock was RETIRED 2026-09-23 (lead ruling); F2 uses the half-ring tags.
  */
 'use strict';
+/** the probe for 'an unauthored locale refuses': the first locale no panel has applied yet (sv was the probe until its panel landed) */
+const UNAUTH = ['fi', 'no', 'da', 'sv', 'nl', 'it', 'fr', 'es', 'pt', 'de'].find((l) => !Object.keys(require('../lib/b5-common.js').bankModule('synonyms')).includes(l)) || 'xx';
 const path = require('path');
 const freeClaim = require('../../lib/free-claim.js');
 const DATA = require('../data/b5/synonyms.js');
@@ -394,7 +396,7 @@ async function main() {
   ok(DATA.CONCEPTS.length >= 40, `CONCEPTS has ${DATA.CONCEPTS.length} < 40`);
   for (const c of DATA.CONCEPTS) for (const o of c.opp || []) ok(DATA.CONCEPTS.some((x) => x.id === o && (x.opp || []).includes(c.id)), `CONCEPTS: ${c.id} -> ${o} is not symmetric`);
   for (const c of en.groups) ok(DATA.CONCEPTS.find((x) => x.id === c.concept).domain === c.domain, `group ${c.id}: domain ${c.domain} ≠ the concept's`);
-  { let m = null; try { TY.build({ difficulty: 2, locale: 'sv' }, { rng: makeRng('x') }); } catch (e) { m = e.message; } ok(m && /no sv block|refuse/.test(m), `an unauthored sv REFUSES (got ${m})`); }
+  { let m = null; try { TY.build({ difficulty: 2, locale: UNAUTH }, { rng: makeRng('x') }); } catch (e) { m = e.message; } ok(m && new RegExp('no ' + UNAUTH + ' block|refuse').test(m), `an unauthored ${UNAUTH} REFUSES (got ${m})`); }
   // 2. node sweep
   nodeSweep();
 

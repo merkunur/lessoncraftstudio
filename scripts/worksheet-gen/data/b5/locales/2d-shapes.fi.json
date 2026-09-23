@@ -1,0 +1,139 @@
+{
+  "names": {
+    "circle": "ympyrä",
+    "square": "neliö",
+    "triangle": "kolmio",
+    "rectangle": "suorakulmio",
+    "hexagon": "kuusikulmio"
+  },
+  "overrides": {},
+  "inflections": {
+    "circle": [
+      "ympyrän",
+      "ympyrää",
+      "ympyrät",
+      "ympyröitä",
+      "ympyrässä",
+      "ympyrästä",
+      "ympyräksi",
+      "ympyröiden"
+    ],
+    "square": [
+      "neliön",
+      "neliötä",
+      "neliöt",
+      "neliöitä",
+      "neliössä",
+      "neliöstä",
+      "neliöksi",
+      "neliöiden"
+    ],
+    "triangle": [
+      "kolmion",
+      "kolmiota",
+      "kolmiot",
+      "kolmioita",
+      "kolmiossa",
+      "kolmiosta",
+      "kolmioksi",
+      "kolmioiden"
+    ],
+    "rectangle": [
+      "suorakulmion",
+      "suorakulmiota",
+      "suorakulmiot",
+      "suorakulmioita",
+      "suorakulmiossa",
+      "suorakulmioksi",
+      "suorakulmioiden"
+    ],
+    "hexagon": [
+      "kuusikulmion",
+      "kuusikulmiota",
+      "kuusikulmiot",
+      "kuusikulmioita",
+      "kuusikulmioksi"
+    ]
+  },
+  "inventory": {
+    "hexagon": true
+  },
+  "riddles": {
+    "circle": [
+      {
+        "text": "Olen pyöreä joka puolelta, eikä minulla ole yhtään kulmaa. Mikä olen?",
+        "clue": "round"
+      },
+      {
+        "text": "Minulla ei ole suoria sivuja eikä kulmia lainkaan. Mikä olen?",
+        "clue": "round"
+      }
+    ],
+    "square": [
+      {
+        "text": "Minulla on 4 yhtä pitkää sivua ja 4 kulmaa kuin kirjan kulma. Mikä olen?",
+        "clue": "equal"
+      },
+      {
+        "text": "Kaikki 4 sivuani ovat yhtä pitkiä, ja kulmani ovat kuin kirjan kulma. Mikä olen?",
+        "clue": "equal"
+      }
+    ],
+    "triangle": [
+      {
+        "text": "Minulla on 3 sivua ja 3 kulmaa. Mikä olen?",
+        "clue": "three"
+      },
+      {
+        "text": "Minulla on vain 3 suoraa sivua. Mikä olen?",
+        "clue": "three"
+      }
+    ],
+    "rectangle": [
+      {
+        "text": "Minulla on 2 pitkää ja 2 lyhyttä sivua sekä 4 kulmaa kuin kirjan kulma. Mikä olen?",
+        "clue": "longShort"
+      },
+      {
+        "text": "Kulmani ovat kuin kirjan kulma, ja sivuistani 2 on pitkiä ja 2 lyhyitä. Mikä olen?",
+        "clue": "longShort"
+      }
+    ],
+    "hexagon": [
+      {
+        "text": "Minulla on 6 sivua ja 6 kulmaa. Mikä olen?",
+        "clue": "six"
+      },
+      {
+        "text": "Minulla on 6 suoraa sivua. Mikä olen?",
+        "clue": "six"
+      }
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Tasokuviot: tunnista ja nimeä",
+      "instruction": "Katso jokaista kuviota, myös käännettyjä ja kapeita, ja rengasta kuvion nimi."
+    },
+    "real-or-not": {
+      "title": "Tasokuviot: onko se oikea kuvio?",
+      "instruction": "Lue nimi rivin alusta ja rengasta rivistä jokainen kuvio, joka todella on sen niminen."
+    },
+    "around-us": {
+      "title": "Tasokuviot ympärillämme",
+      "instruction": "Katso jokaista kuvaa ja väritä se kuvio, jonka muotoinen esine on: ympyrä tai suorakulmio."
+    },
+    "write-name": {
+      "title": "Tasokuviot: kirjoita nimet",
+      "instruction": "Kirjoita jokaisen kuvion nimi sen viereen viivalle ja ota nimet laatikosta."
+    },
+    "riddles": {
+      "title": "Tasokuvioiden arvoitukset",
+      "instruction": "Lue jokainen arvoitus ja rengasta kuvion nimi."
+    },
+    "dot-draw": {
+      "title": "Piirrä tasokuviot pisteisiin",
+      "instruction": "Lue kuvion nimi ja piirrä kuvio yhdistämällä pisteitä, ja aloita paksusta viivasta, jos sellainen on."
+    }
+  }
+}

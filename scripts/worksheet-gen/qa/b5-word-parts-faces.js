@@ -182,7 +182,7 @@ async function faceGate({ page, ok, judge, validateBank, quick, OUT }) {
     controls[x.id] = !c.length && controls[x.id] !== false;
   }
   const J = (id, name, findings, re) => judge(name + (controls[id] ? '' : ' [CONTROL DIRTY]'), controls[id] ? findings : [], re);
-  const PF = ['sun', 'cloud', 'hair', 'hand', 'drum', 'fish'];
+  const PF = ['sun', 'cloud', 'grass', 'hand', 'drum', 'fish'];
   // PR3 — F1 member slots in a staircase 012012; SL1 — every member in slot 0
   J('G1-397', 'PR3 F1 member slots 012012 (staircase)', await gateOf(rewire('G1-397', { plan: { families: PF, slots: [0, 1, 2, 0, 1, 2] } }), 'PR3'), /member slots run in a staircase \(012012\)/);
   J('G1-397', 'SL1 F1 every member in slot 0', await gateOf(rewire('G1-397', { plan: { families: PF, slots: [0, 0, 0, 0, 0, 0] } }), 'SL1'), /member sits in slot 0 on 6 of 6 cards/);
@@ -197,7 +197,7 @@ async function faceGate({ page, ok, judge, validateBank, quick, OUT }) {
   J('G2-376', 'AT1 F3 answers grouped by prefix', await gateOf(rewire('G2-376', { plan: { rows: ['read', 'fill', 'heat', 'view', 'spell', 'count', 'place', 'behave'] } }), 'AT1'), /grouped by prefix|three consecutive rows/);
   J('G2-376', 'AT2 F3 answers cycling re/pre/mis', await gateOf(rewire('G2-376', { plan: { rows: ['read', 'heat', 'spell', 'fill', 'view', 'count', 'tell', 'pay'] } }), 'AT2'), /cycle with period 3/);
   // SM1 — singer and musician on one page; AN1 — a base brick printing its answer
-  J('G3-398', 'SM1 F4 singer + musician', await gateOf(rewire('G3-398', { plan: { people: ['singer', 'musician', 'baker', 'teacher', 'farmer', 'gardener', 'athlete', 'cashier'] } }), 'SM1'), /singer and musician on one page/);
+  J('G3-398', 'SM1 F4 singer + musician', await gateOf(rewire('G3-398', { plan: { people: ['singer', 'musician', 'baker', 'teacher', 'farmer', 'gardener', 'athlete', 'ballerina'] } }), 'SM1'), /singer and musician on one page/);
   J('G3-398', 'AN1 F4 a base brick printing its answer', await gateOf(rewire('G3-398', { fn: (h) => h.replace(/(data-lcs-person="baker"[\s\S]*?data-lcs-brick-text="">)bake</, '$1baker<') }), 'AN1'), /the answer "baker" is printed|base brick prints "baker"/);
   // PR9 — an F5 frame with "an {gap}"; DR1 — a course in sentence order
   {

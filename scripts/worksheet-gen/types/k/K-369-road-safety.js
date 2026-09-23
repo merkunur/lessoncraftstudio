@@ -1,5 +1,5 @@
 /**
- * K-369 — Road Safety: Traffic Lights, Stop or Go (nt10-E; family key
+ * K-369 — Road Safety: Read the Traffic Light (nt10-E; family key
  * `road-safety`; K; science; no CCSS / NGSS standard exists — no
  * educationalAlignment). Design: docs/worksheet-gen/b5-designs/
  * K-369-road-safety.md §2 (base) + §5 (data + gates), under _BUILD-BRIEF.md;
@@ -34,7 +34,7 @@
  *   streets    strips on the page (d1 4 in 2 x 2, d2/d3 6 in 3 x 2)
  *   ped / car  actors (d1 4 / 0 — the perspective switch is what d2 teaches)
  *   amber      true = a car stop may be the lit AMBER lamp, only where the
- *              locale's amberMeans === 'stop' (en: slow down → never; en d3 is
+ *              locale's amberMeans === 'stop' (en: get ready to stop, 2026-09-23; en d3 is
  *              the d2 config minus the pills, recorded, never published)
  *   lampD      64 / 56 / 56 (the K element floor is 56)
  *   pillWords  on / on / off
@@ -256,33 +256,39 @@ function buildSignKinds(block, d, loc, rng, seam) {
   const byClass = {};
   for (const r of pool) (byClass[block.signs[r].class] = byClass[block.signs[r].class] || []).push(r);
   for (const c of classes) if (!((byClass[c.key] || []).length >= 2)) throw new Error(`K-369 ${loc}: class ${c.key} has ${(byClass[c.key] || []).length} drawable signs (< 2; refuse)`);
-  const boxes = classes.length === 2 ? d.boxes2 : d.boxes3;
-  const N = d.signs;
-  if (pool.length < N) throw new Error(`K-369 ${loc}: kindsPool has ${pool.length} drawable signs < ${N} (refuse)`);
+  // EQUAL GROUP SIZES (coordinator review 2026-09-23, two panels in conflict): every group takes the SAME number of
+  // signs and shows that many boxes, so boxes = signs (no "missing sign") AND the box count carries no information
+  // (the last group is never solved by counting). The size is the largest equal size the locale's classes can all
+  // supply within the page's d.signs cards (2 classes x 4, 3 classes x 2 today); below 2 the face refuses.
+  if (!(Number.isInteger(d.signs) && d.signs >= 4)) throw new Error(`K-369 sign-kinds: config signs is ${d.signs}`);
+  const perGroup = Math.min(Math.floor(d.signs / classes.length), ...classes.map((c) => byClass[c.key].length));
+  if (perGroup < 2) throw new Error(`K-369 ${loc}: sign-kinds equal group size ${perGroup} < 2 (refuse)`);
+  if ((perGroup * classes.length) % 2) throw new Error(`K-369 ${loc}: sign-kinds ${perGroup} x ${classes.length} signs cannot fill two card rows (refuse)`);
   let plan = seam && seam.plan ? seam.plan : null;
   for (let t = 0; t < TRIES && !plan; t++) {
     const picked = [];
-    for (const c of classes) picked.push(...rng.sample(byClass[c.key], 2));
-    const rest = rng.shuffle(pool.filter((r) => !picked.includes(r)));
-    picked.push(...rest.slice(0, N - picked.length));
-    const per = {}; for (const r of picked) per[block.signs[r].class] = (per[block.signs[r].class] || 0) + 1;
-    if (Object.values(per).some((v) => v > boxes)) continue;
+    for (const c of classes) picked.push(...rng.sample(byClass[c.key], perGroup));
     const order = rng.shuffle(picked);
     const cls = order.map((r) => block.signs[r].class);
     if (cls.some((c, i) => i >= 2 && c === cls[i - 1] && c === cls[i - 2])) continue;   // no class in 3 adjacent cards
     if (periodic(cls, 2) || periodic(cls, 3)) continue;                                // not a pure alternation / a repeated triple
-    const rowsOf = [cls.slice(0, N / 2), cls.slice(N / 2)];
+    const rowsOf = [cls.slice(0, order.length / 2), cls.slice(order.length / 2)];
     if (rowsOf.some((row) => row.every((c) => c === row[0]))) continue;
     plan = { order };
   }
   if (!plan) throw new Error(`K-369 ${loc}: no sign-kinds order in ${TRIES} tries (refuse)`);
-  const cols = N / 2;
+  const N = plan.order.length;
+  const cols = Math.ceil(N / 2);
   const cardW = Math.floor((PAGE_W - (cols - 1) * d.gap) / cols);
   const table = specTable(block, plan.order, loc);
   const cards = plan.order.map((r, i) => C5.rsLetterCard({ letter: LETTERS[i], w: cardW, cls: block.signs[r].class, signHtml: C5.rsSignOnPost({ spec: signSpec(block, r, loc), s: sForExtent(block.signs[r].shape, d.signExt), role: r, minPost: 14 }) }));
-  const binCols = classes.length === 2 ? 3 : 2;
   const binW = Math.floor((PAGE_W - (classes.length - 1) * d.gap) / classes.length);
-  const bins = classes.map((c) => C5.rsClassBin({ label: c.label, cls: c.key, boxes, cols: binCols, boxW: d.boxW, boxH: d.boxH, w: binW })).join('');
+  // each group shows exactly as many boxes as it has signs on the page (a gate-seam plan may be unequal; the
+  // composed page never is), in ONE row when it fits the bin
+  const perClass = {}; for (const r of plan.order) perClass[block.signs[r].class] = (perClass[block.signs[r].class] || 0) + 1;
+  const boxes = Math.max(...Object.values(perClass));
+  const binCols = boxes * d.boxW + (boxes - 1) * 10 + 29 <= binW ? boxes : Math.ceil(boxes / 2);
+  const bins = classes.map((c) => C5.rsClassBin({ label: c.label, cls: c.key, boxes: perClass[c.key] || 0, cols: binCols, boxW: d.boxW, boxH: d.boxH, w: binW })).join('');
   const inner = `<div style="flex:1 1 auto;align-self:center;width:${PAGE_W}px;display:flex;flex-direction:column;gap:${d.binGap}px;min-height:0">` +
     `<div style="flex:1 1 auto;display:grid;grid-template-columns:repeat(${cols},${cardW}px);justify-content:space-between;grid-template-rows:repeat(2,minmax(${d.cardMinH}px,1fr));row-gap:${d.gap}px">${cards.map((c) => `<div style="display:flex">${c}</div>`).join('')}</div>` +
     `<div style="flex:0 0 auto;display:flex;justify-content:space-between">${bins}</div></div>`;
@@ -539,13 +545,17 @@ async function faceVerify(page, mode) {
       });
       const per = {}; for (const c of cls) per[c] = (per[c] || 0) + 1;
       for (const b of cfg.bins) if (!(per[b] >= 2)) f.push(`bin ${b}: ${per[b] || 0} signs (>= 2)`);
+      // EQUAL GROUP SIZES, read off the drawn outlines: unequal groups make the box count a clue (or a "missing sign")
+      const sizes = cfg.bins.map((b) => per[b] || 0);
+      if (new Set(sizes).size > 1) f.push(`unequal group sizes ${cfg.bins.map((b, i) => `${b} ${sizes[i]}`).join(' / ')} (every group takes the same number of signs)`);
       for (const [c, v] of Object.entries(per)) if (!cfg.bins.includes(c)) f.push(`class ${c} (${v} signs) has no bin`); else if (v > cfg.boxes) f.push(`bin ${c}: ${v} signs > ${cfg.boxes} boxes`);
       if (cls.some((c, i) => i >= 2 && c === cls[i - 1] && c === cls[i - 2])) f.push(`three neighbouring cards of one class (${cls.join(' ')})`);
       if (periodic(cls, 2) || periodic(cls, 3)) f.push(`the classes run in a pattern (${cls.join(' ')})`);
       const bins = [...root.querySelectorAll('[data-lcs-bin]')];
       if (bins.map((b) => b.dataset.lcsBin).join() !== cfg.bins.join()) f.push(`bins ${bins.map((b) => b.dataset.lcsBin).join()} ≠ ${cfg.bins.join()}`);
       const counts = bins.map((b) => b.querySelectorAll('[data-lcs-bin-box]').length);
-      if (new Set(counts).size !== 1 || counts[0] !== cfg.boxes) f.push(`bins hold ${counts.join(' / ')} boxes (every bin ${cfg.boxes}: a box count must not tell a class's size)`);
+      // every group holds exactly as many boxes as its signs on the page, derived from the DRAWN geometry (never a stamp)
+      counts.forEach((n, i) => { const want = per[cfg.bins[i]] || 0; if (n !== want) f.push(`bin ${cfg.bins[i]}: ${n} boxes ≠ its ${want} signs (a group shows one box per sign)`); });
       bins.forEach((b, i) => {
         const lab = b.querySelector('[data-lcs-bin-label]');
         if (!lab || lab.textContent !== cfg.labels[i]) f.push(`bin ${i + 1}: label "${lab && lab.textContent}" ≠ the bank "${cfg.labels[i]}"`);
@@ -621,7 +631,7 @@ module.exports = {
   },
   i18n: {
     en: {
-      title: 'Road Safety: Traffic Lights, Stop or Go',
+      title: 'Road Safety: Read the Traffic Light',
       instruction: 'Look at the lamp that is on, then circle what to do.',
     },
   },

@@ -1,0 +1,81 @@
+{
+  "stageWords": {
+    "butterfly": {
+      "egg": "œuf",
+      "larva": "chenille",
+      "pupa": "chrysalide",
+      "adult": "papillon"
+    }
+  },
+  "decoy": {
+    "frog.tadpole": "têtard"
+  },
+  "landingWords": {
+    "frog": {
+      "spawn": "ponte",
+      "tadpole": "têtard",
+      "legged": "têtard à pattes",
+      "froglet": "jeune grenouille",
+      "adult": "grenouille"
+    },
+    "ladybird": {
+      "egg": "œuf",
+      "larva": "larve",
+      "pupa": "nymphe",
+      "adult": "coccinelle"
+    }
+  },
+  "statements": {
+    "egg": "Il sort d’un œuf.",
+    "change": "Son petit ne ressemble pas du tout à l’adulte.",
+    "pupa": "Il passe par une étape de chrysalide.",
+    "wings": "L’adulte a des ailes.",
+    "sixlegs": "L’adulte a six pattes.",
+    "nectar": "L’adulte boit le nectar des fleurs.",
+    "tail": "Son petit nage grâce à une queue.",
+    "water": "Son petit vit dans l’eau.",
+    "nolegs": "Son petit n’a pas de pattes au début.",
+    "fourlegs": "L’adulte a quatre pattes.",
+    "insects": "L’adulte attrape des insectes pour se nourrir."
+  },
+  "drop": [],
+  "familyName": "Les cycles de vie des animaux",
+  "spawnForm": "clump",
+  "forbidden": [
+    "cocon",
+    "cocons"
+  ],
+  "genreBare": [
+    "cycle de vie",
+    "cycles de vie"
+  ],
+  "pictureWord": "image",
+  "instructionBans": {},
+  "refuse": [],
+  "strings": {
+    "G1-377": {
+      "title": "Le cycle de vie du papillon",
+      "instruction": "L’œuf porte le 1 : écris 2, 3 et 4 dans les cases au fil de sa croissance, puis dans la dernière case le numéro de l’image qui suit le papillon."
+    },
+    "G1-389": {
+      "title": "Le cycle de vie de la grenouille : découper et coller",
+      "instruction": "Découpe les quatre carrés et colle chacun sur son nénuphar, en faisant le tour de la mare depuis les œufs jusqu’à la grenouille."
+    },
+    "G2-365": {
+      "title": "Légender le cycle de vie du papillon",
+      "instruction": "Écris chaque nom de la liste sur la ligne sous son image et barre le seul nom qui n’a pas sa place."
+    },
+    "G2-366": {
+      "title": "La métamorphose : quel animal va-t-il devenir ?",
+      "instruction": "Regarde chaque jeune animal et écris sa lettre dans une case sous l’animal adulte qu’il deviendra."
+    },
+    "G3-393": {
+      "title": "Comparer le cycle de vie du papillon et de la grenouille",
+      "instruction": "Lis chaque phrase et coche le papillon, la grenouille ou les deux quand la phrase est vraie pour cet animal."
+    },
+    "G1-390": {
+      "title": "Qu’est-ce qui vient après ? Papillon, grenouille et coccinelle",
+      "instruction": "Regarde la première image de chaque rangée et entoure celle qui vient juste après."
+    }
+  }
+}

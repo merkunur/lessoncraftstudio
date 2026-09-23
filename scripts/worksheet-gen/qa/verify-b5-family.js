@@ -533,7 +533,15 @@ async function main() {
     // P16
     { const b = clone(en); b.names[0] = { name: 'Mia', sex: 'f', gen: 'di Mia' }; expectFail('P16 it name "Mia"', validateBank(b, 'it'), /rule 3: name "Mia" is also a word \/ frame token in it/); }
     // a locale the panels have not authored REFUSES (never an en fallback)
-    expectThrow('refusal: the de block is absent', () => TYPE.build({ theme: null, difficulty: 2, locale: 'de' }, { rng: makeRng('de') }), /has no de block/);
+    // the de block is HIDDEN for the probe (all 11 locales are authored; qa/b5-unauthored.js), and the authored
+    // de page must fail the same check (a build that does not throw is never a refusal)
+    {
+      const U = require('./b5-unauthored.js');
+      const buildDe = () => TYPE.build({ theme: null, difficulty: 2, locale: 'de' }, { rng: makeRng('de') });
+      expectThrow('refusal: the de block is absent', () => U.withLocaleHidden('family', 'de', buildDe), /has no de block/);
+      const real = U.msgOf(buildDe);
+      ok(!U.refused(real, /has no de block/), `poison — the authored de page passed the absent-block refusal check (got ${real})`);
+    }
     // PR7 — the guard keys on the RESOLVED config: a face config fed to the base builds THAT face (stamped), never the
     //        base under a face's name; an unknown mode throws (a guard written `difficulty === 2` would be blind to both)
     { const b7 = TYPE._buildWith(en, { ...TYPE.difficulty[2], mode: 'generations', rows: 6, minSideline: 4, maxPerSlot: 3, legend: [170, 110], legendPx: 88, rowH: 60, rowGap: 8, chipPx: 20, box: [52, 48] }, { locale: 'en' }, { rng: makeRng('pr7') });

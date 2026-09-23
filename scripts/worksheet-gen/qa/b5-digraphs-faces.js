@@ -95,11 +95,28 @@ async function faceGate({ page, ok, judge, validateBank, log, QUICK, OUT }) {
   for (const f of FACES) {
     const t = types[f.mode];
     for (const loc of N.REFUSED_LOCALES) { let m = null; try { t.build({ difficulty: 2, locale: loc }, { rng: makeRng('r') }); } catch (e) { m = e.message; } ok(m && /REFUSED whole-family/.test(m), `${f.id} ${loc} must REFUSE (got ${m})`); }
-    { let m = null; try { t.build({ difficulty: 2, locale: 'nl' }, { rng: makeRng('r') }); } catch (e) { m = e.message; } ok(m && /no nl|refuse/i.test(m), `${f.id}: an unauthored nl must REFUSE (got ${m})`); }
+    {
+      const U = require('./b5-unauthored.js');
+      const p = U.refusalProbe('digraphs', 'nl', () => t.build({ difficulty: 2, locale: 'nl' }, { rng: makeRng('r') }));
+      ok(U.refused(p.hidden, /no nl block/), `${f.id}: an unauthored nl must REFUSE (got ${p.hidden})`);
+      ok(!U.refused(p.real, /no nl block/), `${f.id}: poison — the authored nl page passed the unauthored-refusal check (got ${p.real})`);
+    }
   }
   { let m = null; try { types.position.build({ difficulty: 2, locale: 'pt' }, { rng: makeRng('r') }); } catch (e) { m = e.message; } ok(m && /pt REFUSES the position face/.test(m), `pt F4 must REFUSE before any bank is read (got ${m})`); }
   { let m = null; try { BASE._buildWith({ ...EN }, types.position.difficulty[2], { locale: 'pt' }, { rng: makeRng('r') }); } catch (e) { m = e.message; } judge('PR8 pt F4 rendered (a pt bank in hand)', m ? [m] : [], /pt REFUSES the position face/); }
-  for (const f of FACES.filter((x) => x.mode !== 'position')) { let m = null; try { types[f.mode].build({ difficulty: 2, locale: 'pt' }, { rng: makeRng('r') }); } catch (e) { m = e.message; } ok(m && !/REFUSES the/.test(m), `${f.id}: pt is refused for a reason other than its bank (got ${m})`); }
+  // pt is AUTHORED (2026-09-23): only its F4 is refused, by the refusal map (above, real dir). Every other pt face
+  // must BUILD from the pt bank; with the pt block hidden it must refuse for the absent block, never for the F4 map.
+  {
+    const U = require('./b5-unauthored.js');
+    for (const f of FACES.filter((x) => x.mode !== 'position')) {
+      const p = U.refusalProbe('digraphs', 'pt', () => types[f.mode].build({ difficulty: 2, locale: 'pt' }, { rng: makeRng('r') }));
+      ok(p.real === null, `${f.id}: the authored pt bank must build this face (got ${p.real})`);
+      ok(U.refused(p.hidden, /no pt block/) && !/REFUSES the/.test(p.hidden), `${f.id}: a pt with no block must refuse for its bank, not the F4 map (got ${p.hidden})`);
+    }
+    // the other direction: the pt F4 map refusal is not an absent-bank refusal, and it still fires with the block hidden
+    const pos = U.refusalProbe('digraphs', 'pt', () => types.position.build({ difficulty: 2, locale: 'pt' }, { rng: makeRng('r') }));
+    ok(U.refused(pos.real, /pt REFUSES the position face/) && !U.refused(pos.real, /no pt block/), `pt F4 must refuse from the refusal map with the real dir (got ${pos.real})`);
+  }
 
   /* ---------------------------------------------------------------- C. node sweep */
   const SEEDS = 400;

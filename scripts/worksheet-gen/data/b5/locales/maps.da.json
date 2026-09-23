@@ -1,0 +1,154 @@
+{
+  "keyTitle": "Signaturforklaring",
+  "symbolWords": {
+    "house": "hus",
+    "tree": "træ",
+    "bush": "busk",
+    "pond": "dam",
+    "bench": "bænk",
+    "tent": "telt",
+    "flowerBed": "blomster",
+    "bridge": "bro"
+  },
+  "dirWords": {
+    "n": "nord",
+    "e": "øst",
+    "s": "syd",
+    "w": "vest"
+  },
+  "dirLetters": {
+    "n": "N",
+    "e": "Ø",
+    "s": "S",
+    "w": "V"
+  },
+  "continentSet": [
+    {
+      "id": "northAmerica",
+      "regions": [
+        "northAmerica"
+      ]
+    },
+    {
+      "id": "southAmerica",
+      "regions": [
+        "southAmerica"
+      ]
+    },
+    {
+      "id": "europe",
+      "regions": [
+        "europe"
+      ]
+    },
+    {
+      "id": "asia",
+      "regions": [
+        "asia"
+      ]
+    },
+    {
+      "id": "africa",
+      "regions": [
+        "africa"
+      ]
+    },
+    {
+      "id": "oceania",
+      "regions": [
+        "oceania"
+      ]
+    },
+    {
+      "id": "antarctica",
+      "regions": [
+        "antarctica"
+      ]
+    }
+  ],
+  "continentNames": {
+    "northAmerica": "Nordamerika",
+    "southAmerica": "Sydamerika",
+    "europe": "Europa",
+    "asia": "Asien",
+    "africa": "Afrika",
+    "oceania": "Oceanien",
+    "antarctica": "Antarktis"
+  },
+  "oceanSet": [
+    "pacific",
+    "atlantic",
+    "indian",
+    "arctic",
+    "southern"
+  ],
+  "oceanNames": {
+    "pacific": "Stillehavet",
+    "atlantic": "Atlanterhavet",
+    "indian": "Det Indiske Ocean",
+    "arctic": "Det Nordlige Ishav",
+    "southern": "Det Sydlige Ishav"
+  },
+  "setSource": "Danske skoleatlas til indskolingen og mellemtrinnet (fx Gyldendals og Alineas atlas) og Fælles Mål for natur/teknologi: 7 verdensdele med Nordamerika og Sydamerika hver for sig og Antarktis talt med, Australien undervist som en del af Oceanien; 5 verdenshave med Det Nordlige og Det Sydlige Ishav",
+  "mnemonic": "",
+  "refuse": [],
+  "instructionBans": {
+    "base": [
+      "streg",
+      "forbind",
+      "sæt ring"
+    ],
+    "top-view": [
+      "felt",
+      "feltet",
+      "skriv",
+      "sæt ring"
+    ],
+    "compass-rose": [
+      "streg",
+      "forbind",
+      "sæt ring"
+    ],
+    "continents": [
+      "forbind",
+      "sæt ring"
+    ],
+    "continents-oceans": [
+      "streg",
+      "forbind",
+      "sæt ring"
+    ],
+    "directions-on-map": [
+      "skriv",
+      "streg",
+      "felt",
+      "feltet"
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Kort og signaturforklaring: tæl tegnene",
+      "instruction": "Se på signaturforklaringen, find hvert tegn på kortet, og skriv i feltet, hvor mange der er."
+    },
+    "top-view": {
+      "title": "Set fra siden og set oppefra",
+      "instruction": "Hver ting er tegnet fra siden: tegn en streg til den samme ting, set oppefra."
+    },
+    "compass-rose": {
+      "title": "Verdenshjørner: udfyld kompasrosen",
+      "instruction": "Hver kompasrose viser ét bogstav: skriv de tre andre bogstaver i de tomme felter."
+    },
+    "continents": {
+      "title": "Verdensdele: skriv navnene på kortet",
+      "instruction": "Skriv navnet på hver nummereret verdensdel på dens linje; navnene står i boksen."
+    },
+    "continents-oceans": {
+      "title": "Verdensdele og verdenshave",
+      "instruction": "Find hver verdensdel og hvert verdenshav på kortet, og skriv dets tal i feltet ved navnet."
+    },
+    "directions-on-map": {
+      "title": "Verdenshjørner på kortet",
+      "instruction": "Find det første billede på kortet, se i den retning, ordet siger, og sæt ring om det af de tre billeder, der ligger dér."
+    }
+  }
+}

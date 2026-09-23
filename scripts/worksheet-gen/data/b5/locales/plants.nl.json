@@ -1,0 +1,86 @@
+{
+  "partWords": {
+    "root": "wortels",
+    "stem": "stengel",
+    "leaf": "blad",
+    "flower": "bloem",
+    "fruit": "vrucht",
+    "seed": "zaad"
+  },
+  "flowerWords": {
+    "petal": "kroonblad",
+    "sepal": "kelk",
+    "stamen": "meeldraad",
+    "pistil": "stamper",
+    "stalk": "steel",
+    "ovary": "vruchtbeginsel"
+  },
+  "jobs": {
+    "root": "neemt water op uit de grond",
+    "stem": "houdt de plant rechtop",
+    "leaf": "maakt met zonlicht voedsel voor de plant",
+    "flower": "lokt bijen met felle kleuren",
+    "seed": "kan uitgroeien tot een nieuwe plant"
+  },
+  "partStems": [
+    "wortel",
+    "wortels",
+    "stengel",
+    "stengels",
+    "steel",
+    "stelen",
+    "blad",
+    "bladeren",
+    "blaadje",
+    "blaadjes",
+    "bloem",
+    "bloemen",
+    "bloempje",
+    "bloesem",
+    "vrucht",
+    "vruchten",
+    "zaad",
+    "zaden",
+    "zaadje",
+    "zaadjes",
+    "kroonblad",
+    "kroonbladeren"
+  ],
+  "forbidden": [
+    "groente",
+    "fruit",
+    "stam",
+    "knop",
+    "pitje"
+  ],
+  "refuseItems": [
+    "carrot"
+  ],
+  "refuse": [],
+  "strings": {
+    "base": {
+      "title": "Delen van een plant",
+      "instruction": "Volg elk nummer langs het lijntje naar een deel van de plant en schrijf de naam uit de woordrij op de lijn met hetzelfde nummer."
+    },
+    "needs": {
+      "title": "Wat heeft een plant nodig om te groeien?",
+      "instruction": "Omcirkel in elke rij de plant die allebei de dingen krijgt die hij nodig heeft om te groeien."
+    },
+    "cycle": {
+      "title": "Van zaadje tot plant: knippen en plakken",
+      "instruction": "Knip de vier plaatjes uit en plak ze langs de pijlen in de lege vakjes, te beginnen bij het zaadje."
+    },
+    "eat": {
+      "title": "Welk deel van de plant eten we?",
+      "instruction": "Kijk naar elk plaatje en omcirkel het deel van de plant dat we ervan eten."
+    },
+    "jobs": {
+      "title": "Delen van een plant en wat ze doen",
+      "instruction": "Lees wat elk deel doet, zoek dat deel op de plant en schrijf het nummer dat erbij staat in het vakje."
+    },
+    "flower": {
+      "title": "Delen van een bloem benoemen",
+      "instruction": "Schrijf de naam van elk genummerd deel van de bloem op zijn lijn en streep in de woordrij het woord door dat geen deel van een bloem is."
+    }
+  }
+}

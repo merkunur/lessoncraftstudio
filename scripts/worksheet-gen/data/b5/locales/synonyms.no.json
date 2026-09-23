@@ -1,0 +1,877 @@
+{
+  "head": "Synonymer",
+  "allowed": [
+    " ",
+    "-"
+  ],
+  "ban": [
+    "lett",
+    "god",
+    "fin",
+    "søt",
+    "dårlig",
+    "snill",
+    "stille",
+    "hard",
+    "lys",
+    "klar",
+    "kul",
+    "artig",
+    "sur",
+    "lur",
+    "svær",
+    "dette",
+    "rolig",
+    "enkel",
+    "syk",
+    "sjuk"
+  ],
+  "regional": [
+    [
+      "syk",
+      "sjuk"
+    ]
+  ],
+  "groups": [
+    {
+      "id": "g.happy",
+      "concept": "happy",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "glad",
+        "blid",
+        "lykkelig"
+      ]
+    },
+    {
+      "id": "g.sad",
+      "concept": "sad",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "trist",
+        "lei seg"
+      ]
+    },
+    {
+      "id": "g.angry",
+      "concept": "angry",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "sint",
+        "arg"
+      ]
+    },
+    {
+      "id": "g.scared",
+      "concept": "scared",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "redd",
+        "skremt"
+      ]
+    },
+    {
+      "id": "g.surprised",
+      "concept": "surprised",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 2,
+      "words": [
+        "overrasket",
+        "forbauset"
+      ]
+    },
+    {
+      "id": "g.tired",
+      "concept": "tired",
+      "pos": "adj",
+      "domain": "body",
+      "tier": 1,
+      "words": [
+        "trøtt",
+        "søvnig"
+      ]
+    },
+    {
+      "id": "g.strong",
+      "concept": "strong",
+      "pos": "adj",
+      "domain": "body",
+      "tier": 2,
+      "words": [
+        "sterk",
+        "kraftig"
+      ]
+    },
+    {
+      "id": "g.big",
+      "concept": "big",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "stor",
+        "diger"
+      ]
+    },
+    {
+      "id": "g.fast",
+      "concept": "fast",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "rask",
+        "kjapp"
+      ]
+    },
+    {
+      "id": "g.difficult",
+      "concept": "difficult",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 2,
+      "words": [
+        "vanskelig",
+        "vrien"
+      ]
+    },
+    {
+      "id": "g.smart",
+      "concept": "smart",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 2,
+      "words": [
+        "smart",
+        "klok"
+      ]
+    },
+    {
+      "id": "g.brave",
+      "concept": "brave",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "modig",
+        "tapper"
+      ]
+    },
+    {
+      "id": "g.strange",
+      "concept": "strange",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "rar",
+        "merkelig",
+        "underlig"
+      ]
+    },
+    {
+      "id": "g.loud",
+      "concept": "loud",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 1,
+      "words": [
+        "høylytt",
+        "bråkete"
+      ]
+    },
+    {
+      "id": "g.tasty",
+      "concept": "tasty",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 1,
+      "words": [
+        "deilig",
+        "velsmakende"
+      ]
+    },
+    {
+      "id": "g.cozy",
+      "concept": "cozy",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 2,
+      "words": [
+        "koselig",
+        "hyggelig"
+      ]
+    },
+    {
+      "id": "g.pretty",
+      "concept": "pretty",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 1,
+      "words": [
+        "pen",
+        "vakker"
+      ]
+    },
+    {
+      "id": "g.tidy",
+      "concept": "tidy",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 2,
+      "words": [
+        "ryddig",
+        "ordentlig"
+      ]
+    },
+    {
+      "id": "g.dirty",
+      "concept": "dirty",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 2,
+      "words": [
+        "skitten",
+        "møkkete"
+      ]
+    },
+    {
+      "id": "g.begin",
+      "concept": "begin",
+      "pos": "verb",
+      "domain": "begin-end",
+      "tier": 1,
+      "words": [
+        "begynne",
+        "starte"
+      ]
+    },
+    {
+      "id": "g.shut",
+      "concept": "shut",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 1,
+      "words": [
+        "lukke",
+        "stenge"
+      ]
+    },
+    {
+      "id": "g.fix",
+      "concept": "fix",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 1,
+      "words": [
+        "reparere",
+        "fikse"
+      ]
+    },
+    {
+      "id": "g.choose",
+      "concept": "choose",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 2,
+      "words": [
+        "velge",
+        "plukke ut"
+      ]
+    },
+    {
+      "id": "g.collect",
+      "concept": "collect",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 2,
+      "words": [
+        "samle",
+        "sanke"
+      ]
+    },
+    {
+      "id": "g.help",
+      "concept": "help",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 2,
+      "words": [
+        "hjelpe",
+        "bistå"
+      ]
+    },
+    {
+      "id": "g.jump",
+      "concept": "jump",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 1,
+      "words": [
+        "hoppe",
+        "bykse"
+      ]
+    },
+    {
+      "id": "g.throw",
+      "concept": "throw",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 1,
+      "words": [
+        "kaste",
+        "slenge"
+      ]
+    },
+    {
+      "id": "g.fall",
+      "concept": "fall",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 2,
+      "words": [
+        "falle",
+        "ramle"
+      ]
+    },
+    {
+      "id": "g.talk",
+      "concept": "talk",
+      "pos": "verb",
+      "domain": "speak",
+      "tier": 1,
+      "words": [
+        "snakke",
+        "prate"
+      ]
+    },
+    {
+      "id": "g.cry",
+      "concept": "cry",
+      "pos": "verb",
+      "domain": "face",
+      "tier": 2,
+      "words": [
+        "gråte",
+        "grine"
+      ]
+    },
+    {
+      "id": "g.smile",
+      "concept": "smile",
+      "pos": "verb",
+      "domain": "face",
+      "tier": 1,
+      "words": [
+        "smile",
+        "glise"
+      ]
+    }
+  ],
+  "near": [
+    {
+      "a": "varm",
+      "b": "lunken",
+      "why": "shade: lunken er mindre varm"
+    },
+    {
+      "a": "kald",
+      "b": "kjølig",
+      "why": "shade: kjølig er litt kald"
+    },
+    {
+      "a": "våt",
+      "b": "fuktig",
+      "why": "shade: fuktig er litt våt"
+    },
+    {
+      "a": "sint",
+      "b": "irritert",
+      "why": "shade: irritert er litt sint"
+    },
+    {
+      "a": "redd",
+      "b": "engstelig",
+      "why": "engstelig er en annen følelse, ikke bare litt redd"
+    },
+    {
+      "a": "trist",
+      "b": "fortvilet",
+      "why": "shade: fortvilet er mye mer enn trist"
+    },
+    {
+      "a": "stor",
+      "b": "enorm",
+      "why": "shade: enorm er mye større enn stor"
+    },
+    {
+      "a": "snakke",
+      "b": "rope",
+      "why": "å rope er å snakke veldig høyt"
+    },
+    {
+      "a": "sterk",
+      "b": "modig",
+      "why": "kroppens styrke mot mot"
+    },
+    {
+      "a": "bra",
+      "b": "flott",
+      "why": "shade"
+    },
+    {
+      "a": "like",
+      "b": "elske",
+      "why": "shade"
+    },
+    {
+      "a": "spise",
+      "b": "sluke",
+      "why": "shade: å sluke er å spise fort og mye"
+    },
+    {
+      "a": "plukke ut",
+      "b": "samle",
+      "why": "plukke blomster = samle dem, men plukke ut = velge"
+    },
+    {
+      "a": "ryddig",
+      "b": "pen",
+      "why": "pent kan bety ordentlig (rydde pent), men pen er et ord om utseende"
+    }
+  ],
+  "nearOnly": [
+    "engstelig",
+    "fortvilet",
+    "enorm"
+  ],
+  "falseOf": {
+    "happy": [
+      "trist",
+      "lei seg",
+      "sint",
+      "arg",
+      "redd",
+      "skremt",
+      "overrasket",
+      "forbauset",
+      "trøtt",
+      "søvnig",
+      "rask",
+      "kjapp",
+      "stor",
+      "diger"
+    ],
+    "sad": [
+      "glad",
+      "blid",
+      "lykkelig",
+      "sint",
+      "arg",
+      "overrasket",
+      "forbauset",
+      "rask",
+      "kjapp",
+      "stor",
+      "diger"
+    ],
+    "angry": [
+      "glad",
+      "blid",
+      "lykkelig",
+      "trist",
+      "lei seg",
+      "redd",
+      "skremt",
+      "overrasket",
+      "forbauset",
+      "trøtt",
+      "søvnig",
+      "rask",
+      "kjapp",
+      "stor",
+      "diger"
+    ],
+    "scared": [
+      "glad",
+      "blid",
+      "lykkelig",
+      "trist",
+      "lei seg",
+      "trøtt",
+      "søvnig",
+      "rask",
+      "kjapp",
+      "stor",
+      "diger"
+    ],
+    "surprised": [
+      "glad",
+      "blid",
+      "lykkelig",
+      "trist",
+      "lei seg",
+      "sint",
+      "arg",
+      "trøtt",
+      "søvnig",
+      "rask",
+      "kjapp",
+      "stor",
+      "diger"
+    ],
+    "tired": [
+      "glad",
+      "blid",
+      "lykkelig",
+      "sint",
+      "arg",
+      "redd",
+      "skremt",
+      "overrasket",
+      "forbauset",
+      "rask",
+      "kjapp",
+      "stor",
+      "diger"
+    ],
+    "fast": [
+      "glad",
+      "blid",
+      "lykkelig",
+      "trist",
+      "lei seg",
+      "sint",
+      "arg",
+      "redd",
+      "skremt",
+      "overrasket",
+      "forbauset",
+      "trøtt",
+      "søvnig"
+    ],
+    "big": [
+      "trist",
+      "lei seg",
+      "sint",
+      "arg",
+      "redd",
+      "skremt",
+      "overrasket",
+      "forbauset",
+      "rask",
+      "kjapp"
+    ]
+  },
+  "scales": [
+    {
+      "id": "s.heat",
+      "pos": "adj",
+      "words": [
+        "lunken",
+        "varm",
+        "brennhet"
+      ]
+    },
+    {
+      "id": "s.cold",
+      "pos": "adj",
+      "words": [
+        "kjølig",
+        "kald",
+        "iskald"
+      ]
+    },
+    {
+      "id": "s.wet",
+      "pos": "adj",
+      "words": [
+        "fuktig",
+        "våt",
+        "søkkvåt"
+      ]
+    },
+    {
+      "id": "s.angry",
+      "pos": "adj",
+      "words": [
+        "irritert",
+        "sint",
+        "rasende"
+      ]
+    },
+    {
+      "id": "s.good",
+      "pos": "adj",
+      "words": [
+        "bra",
+        "flott",
+        "fantastisk"
+      ]
+    },
+    {
+      "id": "s.hunger",
+      "pos": "adj",
+      "words": [
+        "småsulten",
+        "sulten",
+        "skrubbsulten"
+      ]
+    },
+    {
+      "id": "s.eat",
+      "pos": "verb",
+      "words": [
+        "smake på",
+        "spise",
+        "sluke"
+      ]
+    },
+    {
+      "id": "s.drink",
+      "pos": "verb",
+      "words": [
+        "nippe",
+        "drikke",
+        "helle i seg"
+      ]
+    },
+    {
+      "id": "s.like",
+      "pos": "verb",
+      "words": [
+        "like",
+        "elske",
+        "forgude"
+      ]
+    },
+    {
+      "id": "s.voice",
+      "pos": "verb",
+      "words": [
+        "hviske",
+        "snakke",
+        "rope"
+      ]
+    }
+  ],
+  "fields": {
+    "say": {
+      "head": "sa",
+      "form": "preteritum",
+      "words": [
+        "hvisket",
+        "ropte",
+        "spurte",
+        "svarte",
+        "forklarte",
+        "lovet"
+      ],
+      "sentences": [
+        {
+          "id": "f1",
+          "text": "Babyen sov, derfor {gap} {name} veldig stille.",
+          "fit": {
+            "hvisket": true,
+            "ropte": false,
+            "spurte": false,
+            "svarte": false,
+            "forklarte": false,
+            "lovet": false
+          }
+        },
+        {
+          "id": "f2",
+          "text": "{name} {gap} hemmeligheten inn i øret til mormor.",
+          "fit": {
+            "hvisket": true,
+            "ropte": false,
+            "spurte": false,
+            "svarte": false,
+            "forklarte": false,
+            "lovet": false
+          }
+        },
+        {
+          "id": "f3",
+          "text": "Bussen skulle akkurat kjøre, derfor {gap} {name}: «Vent på meg!»",
+          "fit": {
+            "hvisket": false,
+            "ropte": true,
+            "spurte": false,
+            "svarte": false,
+            "forklarte": false,
+            "lovet": false
+          }
+        },
+        {
+          "id": "f4",
+          "text": "{name} {gap} høyt over hele skolegården.",
+          "fit": {
+            "hvisket": false,
+            "ropte": true,
+            "spurte": false,
+            "svarte": false,
+            "forklarte": false,
+            "lovet": false
+          }
+        },
+        {
+          "id": "f5",
+          "text": "«Hvor er den røde lua mi?» {gap} {name}.",
+          "fit": {
+            "hvisket": false,
+            "ropte": false,
+            "spurte": true,
+            "svarte": false,
+            "forklarte": false,
+            "lovet": false
+          }
+        },
+        {
+          "id": "f6",
+          "text": "{name} {gap} på lærerens spørsmål med et stort smil.",
+          "fit": {
+            "hvisket": false,
+            "ropte": false,
+            "spurte": false,
+            "svarte": true,
+            "forklarte": false,
+            "lovet": false
+          }
+        },
+        {
+          "id": "f7",
+          "text": "{name} {gap} steg for steg hvordan man planter et frø.",
+          "fit": {
+            "hvisket": false,
+            "ropte": false,
+            "spurte": false,
+            "svarte": false,
+            "forklarte": true,
+            "lovet": false
+          }
+        },
+        {
+          "id": "f8",
+          "text": "«Jeg skal mate fiskene hver dag, det er et løfte!» {gap} {name}.",
+          "fit": {
+            "hvisket": false,
+            "ropte": false,
+            "spurte": false,
+            "svarte": false,
+            "forklarte": false,
+            "lovet": true
+          }
+        }
+      ]
+    },
+    "go": {
+      "head": "gå",
+      "words": [
+        "spasere",
+        "marsjere",
+        "krype",
+        "skynde seg",
+        "rusle",
+        "vandre",
+        "snike",
+        "trave"
+      ]
+    },
+    "look": {
+      "head": "se",
+      "words": [
+        "kikke",
+        "stirre",
+        "glo",
+        "speide",
+        "betrakte",
+        "observere",
+        "myse",
+        "skotte"
+      ]
+    }
+  },
+  "quotes": [
+    "«",
+    "»"
+  ],
+  "instructionBans": {
+    "base": [
+      "strek",
+      "rute",
+      "ruten",
+      "bilde",
+      "bildet"
+    ],
+    "pictures": [
+      "strek",
+      "rute",
+      "ruten",
+      "kort",
+      "kortet"
+    ],
+    "pairs": [
+      "rute",
+      "ruten",
+      "kort",
+      "kortet",
+      "bilde",
+      "ring"
+    ],
+    "shades": [
+      "strek",
+      "kort",
+      "kortet",
+      "samme"
+    ],
+    "say": [
+      "strek",
+      "kort",
+      "kortet"
+    ],
+    "fields": [
+      "strek",
+      "kort",
+      "kortet",
+      "rute",
+      "ruten"
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Synonymer: ring rundt ordet som betyr det samme",
+      "instruction": "Les det store ordet på hvert kort og ring rundt ordet under som betyr det samme."
+    },
+    "pictures": {
+      "title": "Synonymer med bilder: to ord til ett bilde",
+      "instruction": "Se på hvert bilde og ring rundt de to ordene under som betyr det samme og passer til bildet."
+    },
+    "pairs": {
+      "title": "Synonympar: finn ordene som betyr det samme",
+      "instruction": "Trekk en strek fra hvert ord til venstre til ordet til høyre som betyr det samme."
+    },
+    "shades": {
+      "title": "Ordenes styrke: fra litt til mye",
+      "instruction": "Les de tre ordene i hver rad og skriv 1, 2 og 3 i rutene, fra det svakeste ordet til det sterkeste."
+    },
+    "say": {
+      "title": "Synonymer for sa: velg ordet som passer",
+      "instruction": "Les hver setning og skriv ordet fra snakkeboblen som passer best i ruten i stedet for sa."
+    },
+    "fields": {
+      "title": "Synonymer for gå og se: sorter ordene",
+      "instruction": "Les de ti ordene og skriv hvert ord i feltet gå eller i feltet se, der det hører hjemme."
+    }
+  }
+}

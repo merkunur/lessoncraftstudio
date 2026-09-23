@@ -1,0 +1,114 @@
+{
+  "partWords": {
+    "root": "juuri",
+    "stem": "varsi",
+    "leaf": "lehti",
+    "flower": "kukka",
+    "fruit": "hedelmä",
+    "seed": "siemen"
+  },
+  "flowerWords": {
+    "petal": "terälehti",
+    "sepal": "verholehti",
+    "stamen": "hede",
+    "pistil": "emi",
+    "stalk": "varsi",
+    "ovary": "sikiäin"
+  },
+  "jobs": {
+    "root": "ottaa vettä maasta",
+    "stem": "pitää kasvin pystyssä",
+    "leaf": "valmistaa kasville ravintoa auringonvalon avulla",
+    "flower": "houkuttelee mehiläisiä väreillään",
+    "seed": "voi itää ja kasvaa uudeksi kasviksi"
+  },
+  "partStems": [
+    "juuri",
+    "juuret",
+    "juuren",
+    "juurta",
+    "juuria",
+    "varsi",
+    "varren",
+    "vartta",
+    "varret",
+    "lehti",
+    "lehdet",
+    "lehden",
+    "lehteä",
+    "lehtiä",
+    "kukka",
+    "kukat",
+    "kukan",
+    "kukkaa",
+    "kukkia",
+    "hedelmä",
+    "hedelmät",
+    "hedelmän",
+    "siemen",
+    "siemenet",
+    "siemenen",
+    "siementä",
+    "terälehti"
+  ],
+  "forbidden": [
+    "runko",
+    "nuppu",
+    "vihannes",
+    "vihannekset",
+    "hedelmät ja vihannekset"
+  ],
+  "refuseItems": [],
+  "refuse": [],
+  "instructionBans": {
+    "base": [
+      "rengasta",
+      "väritä",
+      "leikkaa"
+    ],
+    "flower": [
+      "rengasta",
+      "väritä",
+      "leikkaa"
+    ],
+    "needs": [
+      "sana",
+      "sanat",
+      "kirjoita"
+    ],
+    "eat": [
+      "vihannes",
+      "vihannekset"
+    ],
+    "jobs": [
+      "sanapankki",
+      "sanapankista"
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Kasvin osat",
+      "instruction": "Seuraa jokaista numeroitua lappua kasvin osaan ja kirjoita osan nimi sanapankista viivalle, jolla on sama numero."
+    },
+    "needs": {
+      "title": "Mitä kasvi tarvitsee kasvaakseen?",
+      "instruction": "Katso, mitä kukin kasvi saa, ja rengasta jokaiselta riviltä kasvi, joka saa molemmat asiat, joita se tarvitsee kasvaakseen."
+    },
+    "cycle": {
+      "title": "Siemenestä kasviksi",
+      "instruction": "Leikkaa irti neljä kuvaa ja liimaa ne tyhjiin ruutuihin nuolten suuntaan siemenestä alkaen."
+    },
+    "eat": {
+      "title": "Mitä kasvin osaa syömme?",
+      "instruction": "Katso jokaista ruokaa ja rengasta se kasvin osa, jota syömme."
+    },
+    "jobs": {
+      "title": "Kasvin osat ja mitä ne tekevät",
+      "instruction": "Lue, mitä kukin osa tekee, etsi osa kasvista ja kirjoita sen lapun numero ruutuun."
+    },
+    "flower": {
+      "title": "Kukan osat",
+      "instruction": "Kirjoita jokaisen numeroidun kukan osan nimi sen viivalle ja vedä yli se sanapankin sana, joka ei ole kukan osa."
+    }
+  }
+}

@@ -89,6 +89,9 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   'Social Studies': {
     en: 'Social Studies',
     es: 'Ética, naturaleza y sociedades', // nt10-E panel (tools/apply-b5-locale.js)
+    fr: 'Questionner le monde : se repérer dans l’espace', // nt10-E panel (tools/apply-b5-locale.js)
+    it: 'Storia, geografia ed educazione civica', // nt10-E panel (tools/apply-b5-locale.js)
+    da: 'Natur/teknologi og historie', // nt10-E panel (tools/apply-b5-locale.js)
   },
   // Grown incrementally as the K.MD.A.2 "Comparing Length" activity fans out
   // per locale (each ship adds its sub-key). Absent locales fall back to en.
@@ -258,6 +261,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     sv: 'Ord och begrepp',
     da: 'Ord og begreber', // nt20-C panel (tools/apply-b3-locale.js)
     fi: 'Sanavaranto ja käsitteet', // nt20-C panel (tools/apply-b3-locale.js)
+    no: 'Ordforråd og ordbruk', // nt10-E panel (tools/apply-b5-locale.js)
   },
   'Number & Operations—Fractions': {
     en: 'Number & Operations—Fractions',

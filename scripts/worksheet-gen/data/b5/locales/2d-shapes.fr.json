@@ -1,0 +1,110 @@
+{
+  "names": {
+    "circle": "cercle",
+    "square": "carré",
+    "triangle": "triangle",
+    "rectangle": "rectangle",
+    "hexagon": "hexagone"
+  },
+  "overrides": {},
+  "inflections": {
+    "circle": [
+      "cercles"
+    ],
+    "square": [
+      "carrés",
+      "carrée",
+      "carrées"
+    ],
+    "triangle": [
+      "triangles"
+    ],
+    "rectangle": [
+      "rectangles"
+    ],
+    "hexagon": [
+      "hexagones"
+    ]
+  },
+  "inventory": {
+    "hexagon": true
+  },
+  "riddles": {
+    "circle": [
+      {
+        "text": "Je suis tout rond et je n’ai aucun coin. Qui suis-je ?",
+        "clue": "round"
+      },
+      {
+        "text": "Je n’ai ni côté droit ni coin. Qui suis-je ?",
+        "clue": "round"
+      }
+    ],
+    "square": [
+      {
+        "text": "Mes 4 côtés ont tous la même longueur. Qui suis-je ?",
+        "clue": "equal"
+      },
+      {
+        "text": "J’ai 4 coins et mes 4 côtés sont égaux. Qui suis-je ?",
+        "clue": "equal"
+      }
+    ],
+    "triangle": [
+      {
+        "text": "J’ai 3 côtés et 3 coins. Qui suis-je ?",
+        "clue": "three"
+      },
+      {
+        "text": "J’ai seulement 3 côtés droits. Qui suis-je ?",
+        "clue": "three"
+      }
+    ],
+    "rectangle": [
+      {
+        "text": "J’ai 2 grands côtés et 2 petits côtés. Qui suis-je ?",
+        "clue": "longShort"
+      },
+      {
+        "text": "J’ai 4 coins, 2 grands côtés et 2 petits côtés. Qui suis-je ?",
+        "clue": "longShort"
+      }
+    ],
+    "hexagon": [
+      {
+        "text": "J’ai 6 côtés et 6 coins. Qui suis-je ?",
+        "clue": "six"
+      },
+      {
+        "text": "J’ai 6 côtés droits. Qui suis-je ?",
+        "clue": "six"
+      }
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Les figures planes",
+      "instruction": "Regarde chaque figure, même tournée ou très allongée, et entoure son nom."
+    },
+    "real-or-not": {
+      "title": "Reconnaître les figures planes : vraie ou fausse ?",
+      "instruction": "Lis le nom écrit sur chaque ligne et entoure toutes les figures qui portent vraiment ce nom."
+    },
+    "around-us": {
+      "title": "Les figures planes autour de nous",
+      "instruction": "Regarde chaque image et colorie la forme de l’objet : le cercle ou le rectangle."
+    },
+    "write-name": {
+      "title": "Écris le nom des figures planes",
+      "instruction": "Regarde chaque figure et écris son nom sur la ligne, en t’aidant des noms de l’encadré."
+    },
+    "riddles": {
+      "title": "Devinettes sur les figures planes",
+      "instruction": "Lis chaque devinette et entoure le nom de la figure."
+    },
+    "dot-draw": {
+      "title": "Tracer les figures planes sur les points",
+      "instruction": "Lis le nom de la figure et relie les points pour la tracer, en partant du trait épais quand il y en a un."
+    }
+  }
+}

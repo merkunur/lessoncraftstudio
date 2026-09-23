@@ -1,0 +1,302 @@
+{
+  "convention": "vienna",
+  "signs": {
+    "stop": {
+      "code": "AB4",
+      "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+      "shape": "octagon",
+      "rim": "white",
+      "field": "red",
+      "glyph": "text",
+      "text": "STOP",
+      "slash": false,
+      "class": "priority",
+      "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+    },
+    "crossing": {
+      "code": "C20a",
+      "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+      "shape": "square",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "crossingTriangle",
+      "text": "",
+      "slash": false,
+      "class": "information",
+      "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+    },
+    "children": {
+      "code": "A13a",
+      "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "twoChildren",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+    },
+    "pedestrian-warning": {
+      "code": "A13b",
+      "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "walkerOnStripes",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+    },
+    "signal-ahead": {
+      "code": "A17",
+      "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "trafficLightMini",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+    },
+    "bike-warning": {
+      "code": "A21",
+      "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+    },
+    "no-entry": {
+      "code": "B1",
+      "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+      "shape": "circle",
+      "rim": null,
+      "field": "red",
+      "glyph": "bar",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+    },
+    "no-vehicles": {
+      "code": "B0",
+      "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "none",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+    },
+    "no-bikes": {
+      "code": "B9b",
+      "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+    },
+    "no-pedestrians": {
+      "code": "B9c",
+      "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "walker",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+    },
+    "footpath": {
+      "code": "B22b",
+      "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+      "shape": "circle",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "walker",
+      "text": "",
+      "slash": false,
+      "class": "mandatory",
+      "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+    },
+    "bike-path": {
+      "code": "B22a",
+      "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+      "shape": "circle",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "mandatory",
+      "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+    }
+  },
+  "setG1": [
+    "stop",
+    "crossing",
+    "children",
+    "no-entry",
+    "footpath",
+    "bike-path"
+  ],
+  "kindsPool": [
+    "children",
+    "pedestrian-warning",
+    "signal-ahead",
+    "bike-warning",
+    "no-vehicles",
+    "no-bikes",
+    "no-pedestrians",
+    "footpath",
+    "bike-path"
+  ],
+  "classes": [
+    {
+      "key": "warning",
+      "label": "Panneaux de danger"
+    },
+    {
+      "key": "prohibition",
+      "label": "Panneaux d’interdiction"
+    },
+    {
+      "key": "mandatory",
+      "label": "Panneaux d’obligation"
+    }
+  ],
+  "pedLight": {
+    "stop": "standing",
+    "go": "walking",
+    "lamps": 2
+  },
+  "amber": {
+    "token": "codeOrange",
+    "word": "orange"
+  },
+  "amberMeans": "stop",
+  "chipWords": {
+    "ped": {
+      "stop": "j’attends",
+      "go": "je traverse"
+    },
+    "car": {
+      "stop": "la voiture s’arrête",
+      "go": "la voiture passe"
+    }
+  },
+  "meanings": {
+    "stop": "Toutes les voitures doivent s’arrêter ici.",
+    "crossing": "Ici, les piétons traversent la rue.",
+    "children": "Attention, des enfants passent souvent ici.",
+    "no-entry": "Les voitures n’ont pas le droit d’entrer par ici.",
+    "footpath": "Ce chemin est réservé aux piétons.",
+    "bike-path": "Cette voie est réservée aux vélos."
+  },
+  "situations": {
+    "stop": [
+      "À ce carrefour, chaque voiture doit s’arrêter complètement.",
+      "Le conducteur s’arrête, regarde bien, puis repart."
+    ],
+    "crossing": [
+      "Ici, des bandes blanches montrent où les piétons traversent.",
+      "C’est l’endroit prévu pour traverser la rue à pied."
+    ],
+    "children": [
+      "Près de l’école, beaucoup d’enfants marchent sur le trottoir.",
+      "Attention, des enfants peuvent surgir sur la route ici."
+    ],
+    "no-entry": [
+      "Les voitures ne peuvent pas entrer dans cette rue par ici.",
+      "Cette rue va dans l’autre sens : il faut faire demi-tour."
+    ],
+    "pedestrian-warning": [
+      "Attention, un peu plus loin, des piétons traversent la route.",
+      "Bientôt, il y a un passage pour les piétons sur la route."
+    ],
+    "signal-ahead": [
+      "Un peu plus loin sur cette route, il y a un feu.",
+      "Prépare-toi : bientôt, un feu peut passer au rouge."
+    ],
+    "bike-warning": [
+      "Attention, des cyclistes peuvent arriver sur la route.",
+      "Des vélos traversent souvent la route à cet endroit."
+    ],
+    "no-vehicles": [
+      "Aucun véhicule n’a le droit de rouler dans cette rue.",
+      "Ni voiture ni moto : cette rue est fermée à la circulation."
+    ],
+    "no-bikes": [
+      "Ici, on n’a pas le droit de rouler à vélo.",
+      "Les vélos sont interdits sur cette route."
+    ],
+    "no-pedestrians": [
+      "Ici, les piétons n’ont pas le droit de passer.",
+      "Il est interdit de marcher à pied sur cette route."
+    ],
+    "footpath": [
+      "Ce chemin est seulement pour les personnes à pied.",
+      "Ici, seuls les piétons peuvent passer, pas les vélos."
+    ],
+    "bike-path": [
+      "Cette voie est prévue pour les cyclistes.",
+      "Les vélos doivent rouler sur cette piste, pas sur la route."
+    ]
+  },
+  "steps": [
+    "stop-kerb",
+    "look-left",
+    "look-right",
+    "look-left",
+    "walk-across"
+  ],
+  "listenStep": null,
+  "familyHead": "Sécurité routière",
+  "signHead": "Panneaux de signalisation",
+  "childAnchors": [
+    "pour enfants",
+    "maternelle",
+    "CP",
+    "CE1"
+  ],
+  "strings": {
+    "base": {
+      "title": "Sécurité routière : les feux, s’arrêter ou passer",
+      "instruction": "Regarde la lampe allumée, puis entoure ce qu’on doit faire."
+    },
+    "colour-lights": {
+      "title": "Sécurité routière : colorie les feux",
+      "instruction": "Sur chaque feu, trouve la lampe entourée de rayons et colorie-la de la couleur qui brille."
+    },
+    "crossing-steps": {
+      "title": "Traverser la rue en sécurité : les étapes",
+      "instruction": "Écris de 1 à 5 dans les cases pour montrer comment on traverse la rue."
+    },
+    "sign-meaning": {
+      "title": "Sécurité routière : les panneaux et leur sens",
+      "instruction": "Relie chaque panneau à ce qu’il veut dire."
+    },
+    "sign-kinds": {
+      "title": "Sécurité routière : classer les panneaux",
+      "instruction": "Écris la lettre de chaque panneau dans les cases de son groupe."
+    },
+    "sign-quiz": {
+      "title": "Quiz de sécurité routière : quel panneau convient ?",
+      "instruction": "Lis chaque phrase et entoure le seul panneau qui lui correspond."
+    }
+  }
+}

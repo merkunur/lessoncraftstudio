@@ -1,0 +1,840 @@
+{
+  "head": "I sinonimi",
+  "allowed": [
+    " ",
+    "-",
+    "'",
+    "’"
+  ],
+  "ban": [
+    "furbo",
+    "forte",
+    "buono",
+    "tirare",
+    "sveglio",
+    "bravo",
+    "piccino",
+    "carino",
+    "caro",
+    "fine",
+    "duro",
+    "pesante",
+    "leggero",
+    "grasso"
+  ],
+  "regional": [],
+  "groups": [
+    {
+      "id": "g.happy",
+      "concept": "happy",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "felice",
+        "contento",
+        "allegro"
+      ]
+    },
+    {
+      "id": "g.sad",
+      "concept": "sad",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "triste",
+        "malinconico"
+      ]
+    },
+    {
+      "id": "g.angry",
+      "concept": "angry",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "arrabbiato",
+        "adirato"
+      ]
+    },
+    {
+      "id": "g.scared",
+      "concept": "scared",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "spaventato",
+        "impaurito"
+      ]
+    },
+    {
+      "id": "g.surprised",
+      "concept": "surprised",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 2,
+      "words": [
+        "sorpreso",
+        "stupito"
+      ]
+    },
+    {
+      "id": "g.calm",
+      "concept": "calm",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 2,
+      "words": [
+        "calmo",
+        "tranquillo"
+      ]
+    },
+    {
+      "id": "g.tired",
+      "concept": "tired",
+      "pos": "adj",
+      "domain": "body",
+      "tier": 1,
+      "words": [
+        "stanco",
+        "affaticato"
+      ]
+    },
+    {
+      "id": "g.sick",
+      "concept": "sick",
+      "pos": "adj",
+      "domain": "body",
+      "tier": 1,
+      "words": [
+        "malato",
+        "ammalato"
+      ]
+    },
+    {
+      "id": "g.big",
+      "concept": "big",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "grande",
+        "grosso"
+      ]
+    },
+    {
+      "id": "g.fast",
+      "concept": "fast",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "veloce",
+        "rapido",
+        "svelto"
+      ]
+    },
+    {
+      "id": "g.easy",
+      "concept": "easy",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 1,
+      "words": [
+        "facile",
+        "semplice"
+      ]
+    },
+    {
+      "id": "g.difficult",
+      "concept": "difficult",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 2,
+      "words": [
+        "difficile",
+        "complicato"
+      ]
+    },
+    {
+      "id": "g.brave",
+      "concept": "brave",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "coraggioso",
+        "audace"
+      ]
+    },
+    {
+      "id": "g.funny",
+      "concept": "funny",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "buffo",
+        "comico"
+      ]
+    },
+    {
+      "id": "g.strange",
+      "concept": "strange",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "strano",
+        "bizzarro"
+      ]
+    },
+    {
+      "id": "g.loud",
+      "concept": "loud",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 1,
+      "words": [
+        "rumoroso",
+        "chiassoso"
+      ]
+    },
+    {
+      "id": "g.tasty",
+      "concept": "tasty",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 1,
+      "words": [
+        "gustoso",
+        "saporito"
+      ]
+    },
+    {
+      "id": "g.cozy",
+      "concept": "cozy",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 2,
+      "words": [
+        "accogliente",
+        "confortevole"
+      ]
+    },
+    {
+      "id": "g.pretty",
+      "concept": "pretty",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 1,
+      "words": [
+        "bello",
+        "grazioso"
+      ]
+    },
+    {
+      "id": "g.tidy",
+      "concept": "tidy",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 2,
+      "words": [
+        "ordinato",
+        "sistemato"
+      ]
+    },
+    {
+      "id": "g.dirty",
+      "concept": "dirty",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 2,
+      "words": [
+        "sporco",
+        "sudicio"
+      ]
+    },
+    {
+      "id": "g.begin",
+      "concept": "begin",
+      "pos": "verb",
+      "domain": "begin-end",
+      "tier": 1,
+      "words": [
+        "cominciare",
+        "iniziare"
+      ]
+    },
+    {
+      "id": "g.end",
+      "concept": "end",
+      "pos": "verb",
+      "domain": "begin-end",
+      "tier": 1,
+      "words": [
+        "finire",
+        "terminare"
+      ]
+    },
+    {
+      "id": "g.fix",
+      "concept": "fix",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 1,
+      "words": [
+        "aggiustare",
+        "riparare"
+      ]
+    },
+    {
+      "id": "g.choose",
+      "concept": "choose",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 2,
+      "words": [
+        "scegliere",
+        "selezionare"
+      ]
+    },
+    {
+      "id": "g.jump",
+      "concept": "jump",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 1,
+      "words": [
+        "saltare",
+        "balzare"
+      ]
+    },
+    {
+      "id": "g.throw",
+      "concept": "throw",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 1,
+      "words": [
+        "lanciare",
+        "gettare"
+      ]
+    },
+    {
+      "id": "g.fall",
+      "concept": "fall",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 2,
+      "words": [
+        "cadere",
+        "cascare"
+      ]
+    },
+    {
+      "id": "g.stay",
+      "concept": "stay",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 2,
+      "words": [
+        "restare",
+        "rimanere"
+      ]
+    },
+    {
+      "id": "g.shout",
+      "concept": "shout",
+      "pos": "verb",
+      "domain": "speak",
+      "tier": 1,
+      "words": [
+        "gridare",
+        "urlare"
+      ]
+    }
+  ],
+  "near": [
+    {
+      "a": "grande",
+      "b": "enorme",
+      "why": "sfumatura: enorme è molto più di grande"
+    },
+    {
+      "a": "arrabbiato",
+      "b": "irritato",
+      "why": "sfumatura: irritato è meno di arrabbiato"
+    },
+    {
+      "a": "triste",
+      "b": "disperato",
+      "why": "sfumatura: disperato è molto più di triste"
+    },
+    {
+      "a": "caldo",
+      "b": "tiepido",
+      "why": "sfumatura"
+    },
+    {
+      "a": "freddo",
+      "b": "fresco",
+      "why": "sfumatura"
+    },
+    {
+      "a": "bagnato",
+      "b": "umido",
+      "why": "sfumatura"
+    },
+    {
+      "a": "spaventato",
+      "b": "preoccupato",
+      "why": "preoccupato è un altro sentimento, non una paura più debole"
+    },
+    {
+      "a": "malato",
+      "b": "stanco",
+      "why": "chi è stanco non è malato"
+    },
+    {
+      "a": "sorpreso",
+      "b": "spaventato",
+      "why": "un viso sorpreso può sembrare spaventato"
+    },
+    {
+      "a": "buffo",
+      "b": "strano",
+      "why": "buffo fa ridere; strano è solo diverso dal solito"
+    },
+    {
+      "a": "gridare",
+      "b": "parlare",
+      "why": "gridare è parlare molto forte"
+    },
+    {
+      "a": "finire",
+      "b": "chiudere",
+      "why": "chiudere una festa vuol dire finirla, ma chiudere una porta no"
+    },
+    {
+      "a": "calmo",
+      "b": "accogliente",
+      "why": "una stanza accogliente fa sentire calmi, ma non è la stessa parola"
+    },
+    {
+      "a": "felice",
+      "b": "entusiasta",
+      "why": "sfumatura: entusiasta è molto più di felice"
+    },
+    {
+      "a": "stanco",
+      "b": "annoiato",
+      "why": "chi si annoia non è per forza stanco"
+    }
+  ],
+  "nearOnly": [
+    "enorme",
+    "disperato",
+    "preoccupato",
+    "chiudere",
+    "entusiasta",
+    "annoiato"
+  ],
+  "falseOf": {
+    "happy": [
+      "triste",
+      "malinconico",
+      "arrabbiato",
+      "adirato",
+      "spaventato",
+      "impaurito",
+      "sorpreso",
+      "stupito",
+      "stanco",
+      "affaticato",
+      "veloce",
+      "rapido",
+      "svelto",
+      "grande",
+      "grosso"
+    ],
+    "sad": [
+      "felice",
+      "contento",
+      "allegro",
+      "arrabbiato",
+      "adirato",
+      "sorpreso",
+      "stupito",
+      "veloce",
+      "rapido",
+      "svelto",
+      "grande",
+      "grosso"
+    ],
+    "angry": [
+      "felice",
+      "contento",
+      "allegro",
+      "triste",
+      "malinconico",
+      "spaventato",
+      "impaurito",
+      "sorpreso",
+      "stupito",
+      "stanco",
+      "affaticato",
+      "veloce",
+      "rapido",
+      "svelto",
+      "grande",
+      "grosso"
+    ],
+    "scared": [
+      "felice",
+      "contento",
+      "allegro",
+      "triste",
+      "malinconico",
+      "stanco",
+      "affaticato",
+      "veloce",
+      "rapido",
+      "svelto",
+      "grande",
+      "grosso"
+    ],
+    "surprised": [
+      "felice",
+      "contento",
+      "allegro",
+      "triste",
+      "malinconico",
+      "arrabbiato",
+      "adirato",
+      "stanco",
+      "affaticato",
+      "veloce",
+      "rapido",
+      "svelto",
+      "grande",
+      "grosso"
+    ],
+    "tired": [
+      "felice",
+      "contento",
+      "allegro",
+      "arrabbiato",
+      "adirato",
+      "spaventato",
+      "impaurito",
+      "sorpreso",
+      "stupito",
+      "veloce",
+      "rapido",
+      "svelto",
+      "grande",
+      "grosso"
+    ],
+    "fast": [
+      "felice",
+      "contento",
+      "allegro",
+      "triste",
+      "malinconico",
+      "arrabbiato",
+      "adirato",
+      "spaventato",
+      "impaurito",
+      "sorpreso",
+      "stupito",
+      "stanco",
+      "affaticato"
+    ],
+    "big": [
+      "triste",
+      "malinconico",
+      "arrabbiato",
+      "adirato",
+      "spaventato",
+      "impaurito",
+      "sorpreso",
+      "stupito",
+      "veloce",
+      "rapido",
+      "svelto"
+    ]
+  },
+  "scales": [
+    {
+      "id": "s.heat",
+      "pos": "adj",
+      "words": [
+        "tiepido",
+        "caldo",
+        "bollente"
+      ]
+    },
+    {
+      "id": "s.cold",
+      "pos": "adj",
+      "words": [
+        "fresco",
+        "freddo",
+        "gelido"
+      ]
+    },
+    {
+      "id": "s.wet",
+      "pos": "adj",
+      "words": [
+        "umido",
+        "bagnato",
+        "fradicio"
+      ]
+    },
+    {
+      "id": "s.angry",
+      "pos": "adj",
+      "words": [
+        "irritato",
+        "arrabbiato",
+        "furioso"
+      ]
+    },
+    {
+      "id": "s.eat",
+      "pos": "verb",
+      "words": [
+        "assaggiare",
+        "mangiare",
+        "divorare"
+      ]
+    },
+    {
+      "id": "s.drink",
+      "pos": "verb",
+      "words": [
+        "sorseggiare",
+        "bere",
+        "trangugiare"
+      ]
+    },
+    {
+      "id": "s.like",
+      "pos": "verb",
+      "words": [
+        "apprezzare",
+        "amare",
+        "adorare"
+      ]
+    },
+    {
+      "id": "s.voice",
+      "pos": "verb",
+      "words": [
+        "sussurrare",
+        "parlare",
+        "gridare"
+      ]
+    }
+  ],
+  "fields": {
+    "say": {
+      "head": "dice",
+      "form": "presente indicativo, terza persona singolare",
+      "words": [
+        "sussurra",
+        "grida",
+        "chiede",
+        "risponde",
+        "spiega",
+        "promette"
+      ],
+      "sentences": [
+        {
+          "id": "f1",
+          "text": "Il bebè dorme, così {name} {gap} pianissimo.",
+          "fit": {
+            "sussurra": true,
+            "grida": false,
+            "chiede": false,
+            "risponde": false,
+            "spiega": false,
+            "promette": false
+          }
+        },
+        {
+          "id": "f2",
+          "text": "{name} {gap} un segreto all’orecchio della nonna.",
+          "fit": {
+            "sussurra": true,
+            "grida": false,
+            "chiede": false,
+            "risponde": false,
+            "spiega": false,
+            "promette": false
+          }
+        },
+        {
+          "id": "f3",
+          "text": "L’autobus sta partendo, così {name} {gap}: «Aspettatemi!»",
+          "fit": {
+            "sussurra": false,
+            "grida": true,
+            "chiede": false,
+            "risponde": false,
+            "spiega": false,
+            "promette": false
+          }
+        },
+        {
+          "id": "f4",
+          "text": "Dall’altra parte del grande prato, {name} {gap} per chiamare il suo cane.",
+          "fit": {
+            "sussurra": false,
+            "grida": true,
+            "chiede": false,
+            "risponde": false,
+            "spiega": false,
+            "promette": false
+          }
+        },
+        {
+          "id": "f5",
+          "text": "«Dov’è il mio cappello rosso?» {gap} {name}.",
+          "fit": {
+            "sussurra": false,
+            "grida": false,
+            "chiede": true,
+            "risponde": false,
+            "spiega": false,
+            "promette": false
+          }
+        },
+        {
+          "id": "f6",
+          "text": "{name} {gap} alla domanda della maestra con un bel sorriso.",
+          "fit": {
+            "sussurra": false,
+            "grida": false,
+            "chiede": false,
+            "risponde": true,
+            "spiega": false,
+            "promette": false
+          }
+        },
+        {
+          "id": "f7",
+          "text": "{name} {gap} come si pianta un seme, un passo alla volta.",
+          "fit": {
+            "sussurra": false,
+            "grida": false,
+            "chiede": false,
+            "risponde": false,
+            "spiega": true,
+            "promette": false
+          }
+        },
+        {
+          "id": "f8",
+          "text": "«Darò da mangiare al pesce ogni giorno, lo giuro!» {gap} {name}.",
+          "fit": {
+            "sussurra": false,
+            "grida": false,
+            "chiede": false,
+            "risponde": false,
+            "spiega": false,
+            "promette": true
+          }
+        }
+      ]
+    },
+    "go": {
+      "head": "andare",
+      "words": [
+        "camminare",
+        "correre",
+        "strisciare",
+        "affrettarsi",
+        "passeggiare",
+        "vagare",
+        "gattonare",
+        "sfrecciare"
+      ]
+    },
+    "look": {
+      "head": "guardare",
+      "words": [
+        "osservare",
+        "fissare",
+        "sbirciare",
+        "ammirare",
+        "scrutare",
+        "contemplare",
+        "esaminare",
+        "spiare"
+      ]
+    }
+  },
+  "quotes": [
+    "«",
+    "»"
+  ],
+  "instructionBans": {
+    "base": [
+      "riga",
+      "riquadro",
+      "fumetto",
+      "linea"
+    ],
+    "pictures": [
+      "riga",
+      "riquadro",
+      "linea"
+    ],
+    "pairs": [
+      "riquadro",
+      "fumetto"
+    ],
+    "shades": [
+      "fumetto",
+      "linea"
+    ],
+    "say": [
+      "linea"
+    ],
+    "fields": [
+      "linea",
+      "fumetto"
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "I sinonimi: cerchia la parola che vuol dire la stessa cosa",
+      "instruction": "Leggi la parola grande su ogni cartellino e cerchia, sotto, la parola che vuol dire la stessa cosa."
+    },
+    "pictures": {
+      "title": "I sinonimi con le immagini: due parole per un’immagine",
+      "instruction": "Guarda ogni immagine e cerchia, sotto, le due parole che vogliono dire la stessa cosa e descrivono l’immagine."
+    },
+    "pairs": {
+      "title": "Collega le coppie di sinonimi",
+      "instruction": "Traccia una linea per collegare ogni parola a sinistra con la parola a destra che vuol dire la stessa cosa."
+    },
+    "shades": {
+      "title": "Le sfumature di significato: dalla più debole alla più forte",
+      "instruction": "Leggi le tre parole di ogni riga e scrivi 1, 2 e 3 nei riquadri, dalla parola più debole alla più forte."
+    },
+    "say": {
+      "title": "I sinonimi di dire: scegli la parola giusta",
+      "instruction": "Leggi ogni frase e scrivi nel riquadro la parola del fumetto che sta meglio al posto di «dice»."
+    },
+    "fields": {
+      "title": "Il campo semantico di andare e di guardare",
+      "instruction": "Leggi le dieci parole e scrivi ognuna nel campo del verbo a cui è più vicina per significato."
+    }
+  }
+}

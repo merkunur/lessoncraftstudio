@@ -1,0 +1,122 @@
+{
+  "keyTitle": "Karttamerkit",
+  "symbolWords": {
+    "house": "talo",
+    "tree": "puu",
+    "bush": "pensas",
+    "pond": "lampi",
+    "bench": "penkki",
+    "tent": "teltta",
+    "flowerBed": "kukkamaa",
+    "bridge": "silta"
+  },
+  "dirWords": {
+    "n": "pohjoinen",
+    "e": "itä",
+    "s": "etelä",
+    "w": "länsi"
+  },
+  "dirLetters": {
+    "n": "P",
+    "e": "I",
+    "s": "E",
+    "w": "L"
+  },
+  "continentSet": [
+    {
+      "id": "northAmerica",
+      "regions": [
+        "northAmerica"
+      ]
+    },
+    {
+      "id": "southAmerica",
+      "regions": [
+        "southAmerica"
+      ]
+    },
+    {
+      "id": "europe",
+      "regions": [
+        "europe"
+      ]
+    },
+    {
+      "id": "asia",
+      "regions": [
+        "asia"
+      ]
+    },
+    {
+      "id": "africa",
+      "regions": [
+        "africa"
+      ]
+    },
+    {
+      "id": "oceania",
+      "regions": [
+        "oceania"
+      ]
+    },
+    {
+      "id": "antarctica",
+      "regions": [
+        "antarctica"
+      ]
+    }
+  ],
+  "continentNames": {
+    "northAmerica": "Pohjois-Amerikka",
+    "southAmerica": "Etelä-Amerikka",
+    "europe": "Eurooppa",
+    "asia": "Aasia",
+    "africa": "Afrikka",
+    "oceania": "Oseania",
+    "antarctica": "Etelämanner"
+  },
+  "oceanSet": [
+    "pacific",
+    "atlantic",
+    "indian",
+    "arctic",
+    "southern"
+  ],
+  "oceanNames": {
+    "pacific": "Tyynimeri",
+    "atlantic": "Atlantti",
+    "indian": "Intian valtameri",
+    "arctic": "Pohjoinen jäämeri",
+    "southern": "Eteläinen jäämeri"
+  },
+  "setSource": "Suomalaiset alakoulun ympäristöopin ja maantiedon oppimateriaalit (POPS 2014, ympäristöoppi 1.–2. ja 3.–6. lk) luettelevat yleensä seitsemän maanosaa, joihin kuuluvat Oseania ja Etelämanner, sekä viisi valtamerta Eteläinen jäämeri mukaan lukien; [NSR-FLAG][fi] osa kirjoista laskee kuusi maanosaa (Amerikka yhtenä tai ilman Etelämannerta) ja neljä valtamerta",
+  "mnemonic": "Pieni Iloinen Eskimo Leikkii",
+  "refuse": [],
+  "instructionBans": {},
+  "strings": {
+    "base": {
+      "title": "Karttamerkit: etsi ja laske",
+      "instruction": "Katso karttamerkkejä, etsi jokainen asia kartalta ja kirjoita ruutuun, montako niitä on."
+    },
+    "top-view": {
+      "title": "Ylhäältä katsottuna: sivulta ja ylhäältä",
+      "instruction": "Jokainen asia on piirretty sivulta, joten yhdistä se viivalla samaan asiaan ylhäältä katsottuna."
+    },
+    "compass-rose": {
+      "title": "Ilmansuunnat: pohjoinen, itä, etelä ja länsi",
+      "instruction": "Jokaisessa ilmansuuntaruusussa on yksi kirjain, joten kirjoita kolme muuta kirjainta tyhjiin ruutuihin."
+    },
+    "continents": {
+      "title": "Maanosat: kirjoita nimet",
+      "instruction": "Kirjoita jokaisen numeroidun maanosan nimi sen viivalle ja ota nimet laatikosta."
+    },
+    "continents-oceans": {
+      "title": "Maanosat ja valtameret",
+      "instruction": "Etsi jokainen maanosa ja valtameri kartalta ja kirjoita sen numero nimen viereiseen ruutuun."
+    },
+    "directions-on-map": {
+      "title": "Ilmansuunnat kartalla",
+      "instruction": "Etsi kartalta ensimmäinen kuva, katso siihen suuntaan, jonka sana kertoo, ja rengasta kolmesta kuvasta se, joka on siellä."
+    }
+  }
+}

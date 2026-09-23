@@ -1,0 +1,122 @@
+{
+  "keyTitle": "Tegnforklaring",
+  "symbolWords": {
+    "house": "hus",
+    "tree": "løvtre",
+    "bush": "busk",
+    "pond": "dam",
+    "bench": "benk",
+    "tent": "telt",
+    "flowerBed": "blomst",
+    "bridge": "bru"
+  },
+  "dirWords": {
+    "n": "nord",
+    "e": "øst",
+    "s": "sør",
+    "w": "vest"
+  },
+  "dirLetters": {
+    "n": "N",
+    "e": "Ø",
+    "s": "S",
+    "w": "V"
+  },
+  "continentSet": [
+    {
+      "id": "northAmerica",
+      "regions": [
+        "northAmerica"
+      ]
+    },
+    {
+      "id": "southAmerica",
+      "regions": [
+        "southAmerica"
+      ]
+    },
+    {
+      "id": "europe",
+      "regions": [
+        "europe"
+      ]
+    },
+    {
+      "id": "asia",
+      "regions": [
+        "asia"
+      ]
+    },
+    {
+      "id": "africa",
+      "regions": [
+        "africa"
+      ]
+    },
+    {
+      "id": "oceania",
+      "regions": [
+        "oceania"
+      ]
+    },
+    {
+      "id": "antarctica",
+      "regions": [
+        "antarctica"
+      ]
+    }
+  ],
+  "continentNames": {
+    "northAmerica": "Nord-Amerika",
+    "southAmerica": "Sør-Amerika",
+    "europe": "Europa",
+    "asia": "Asia",
+    "africa": "Afrika",
+    "oceania": "Oseania",
+    "antarctica": "Antarktis"
+  },
+  "oceanSet": [
+    "pacific",
+    "atlantic",
+    "indian",
+    "arctic",
+    "southern"
+  ],
+  "oceanNames": {
+    "pacific": "Stillehavet",
+    "atlantic": "Atlanterhavet",
+    "indian": "Indiahavet",
+    "arctic": "Nordishavet",
+    "southern": "Sørishavet"
+  },
+  "setSource": "Norske læreverk i samfunnsfag for småskolen (LK20 samfunnsfag: kart og himmelretninger) og Store norske leksikon teller sju verdensdeler (med Oseania og Antarktis) og fem verdenshav (med Sørishavet)",
+  "mnemonic": "Nora Ønsker Seg Vafler",
+  "refuse": [],
+  "instructionBans": {},
+  "strings": {
+    "base": {
+      "title": "Kartlesing: les tegnforklaringen",
+      "instruction": "Se på tegnforklaringen, finn hver ting på kartet og skriv i ruten hvor mange det er."
+    },
+    "top-view": {
+      "title": "Fugleperspektiv: fra siden og ovenfra",
+      "instruction": "Hver ting er tegnet fra siden, så trekk en strek til den samme tingen sett ovenfra."
+    },
+    "compass-rose": {
+      "title": "Himmelretninger: nord, øst, sør og vest",
+      "instruction": "Hver kompassrose viser én bokstav, så skriv de tre andre bokstavene i de tomme rutene."
+    },
+    "continents": {
+      "title": "Verdensdeler: skriv navnene",
+      "instruction": "Skriv navnet på hver nummererte verdensdel på streken og ta navnene fra ruten."
+    },
+    "continents-oceans": {
+      "title": "Verdensdeler og verdenshav",
+      "instruction": "Finn hver verdensdel og hvert verdenshav på kartet og skriv tallet i ruten ved siden av navnet."
+    },
+    "directions-on-map": {
+      "title": "Himmelretninger på kartet",
+      "instruction": "Finn det første bildet på kartet, se i retningen ordet sier, og ring rundt det av de tre bildene som ligger der."
+    }
+  }
+}

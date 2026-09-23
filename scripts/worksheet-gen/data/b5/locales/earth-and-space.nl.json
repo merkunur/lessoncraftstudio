@@ -1,0 +1,114 @@
+{
+  "hemisphere": "N",
+  "bodies": {
+    "sun": "Zon",
+    "earth": "Aarde",
+    "moon": "Maan"
+  },
+  "facts": {
+    "ownLight": "Ik maak mijn eigen licht.",
+    "star": "Ik ben een ster.",
+    "hottest": "Ik ben de heetste van ons drieën.",
+    "biggest": "Ik ben de grootste van ons drieën.",
+    "liveOn": "Mensen en dieren wonen op mij.",
+    "oceans": "Op mij liggen grote zeeën vol water.",
+    "air": "Ik heb lucht die je kunt inademen.",
+    "planet": "Ik ben een planeet.",
+    "spinDay": "Doordat ik draai, is het dag en nacht.",
+    "orbitsEarth": "Ik draai rondjes om de Aarde.",
+    "seemsToChange": "Mijn vorm lijkt elke avond een beetje anders.",
+    "craters": "Ik zit vol kraters.",
+    "smallest": "Ik ben de kleinste van ons drieën."
+  },
+  "leakForms": [
+    "hij",
+    "zij",
+    "ze",
+    "hem",
+    "haar",
+    "zijn"
+  ],
+  "genderNeutral": true,
+  "forbiddenStems": [
+    "geeft licht",
+    "geeft ons licht",
+    "schijnt",
+    "straalt",
+    "nachts",
+    "in de nacht",
+    "om de Zon",
+    "om de zon",
+    "komt op",
+    "gaat onder",
+    "is rond",
+    "aan de hemel",
+    "in de lucht",
+    "betreden",
+    "geen lucht",
+    "weerspiegelt",
+    "zomer",
+    "winter",
+    "lente",
+    "herfst",
+    "regen",
+    "sneeuw",
+    "wolk",
+    "wolken",
+    "het weer",
+    "warme dag",
+    "koude dag"
+  ],
+  "phaseNames": {
+    "0": "nieuwe maan",
+    "2": "eerste kwartier",
+    "4": "volle maan",
+    "6": "laatste kwartier"
+  },
+  "planets": {
+    "mercury": "Mercurius",
+    "venus": "Venus",
+    "earth": "Aarde",
+    "mars": "Mars",
+    "jupiter": "Jupiter",
+    "saturn": "Saturnus",
+    "uranus": "Uranus",
+    "neptune": "Neptunus"
+  },
+  "notPlanet": {
+    "sun": "Zon",
+    "moon": "Maan"
+  },
+  "classLabels": {
+    "giant": "reuzenplaneet",
+    "rocky": "kleine rotsplaneet",
+    "notPlanet": "geen planeet"
+  },
+  "mnemonic": "Mijn Vader At Maandag Jam, Soep, Uien en Nootjes",
+  "refuse": [],
+  "strings": {
+    "base": {
+      "title": "Zon, Aarde en Maan: wie zegt het?",
+      "instruction": "Lees elke zin en zet een kruisje bij wie dat zegt: de Zon, de Aarde of de Maan."
+    },
+    "moon-phases-in-order": {
+      "title": "Maanfasen op volgorde zetten",
+      "instruction": "Kijk in elke rij naar de wig of de maan groeit of krimpt, en schrijf 1 tot en met 5 onder de manen in die volgorde."
+    },
+    "moon-phase-names": {
+      "title": "Maanfasen benoemen",
+      "instruction": "Schrijf de naam van elke maan op de lijnen en gebruik elk woord uit de woordrij twee keer."
+    },
+    "day-and-night-model": {
+      "title": "Waarom is het dag en nacht?",
+      "instruction": "Kijk waar de Zon is en omcirkel in de tabel bij elk nummer of het daar dag of nacht is."
+    },
+    "planets-in-order": {
+      "title": "De planeten op volgorde vanaf de Zon",
+      "instruction": "Schrijf de naam van elke planeet op zijn lijn, begin naast de Zon en gebruik elke naam uit het kader één keer."
+    },
+    "planet-sizes": {
+      "title": "Reuzenplaneten en rotsplaneten sorteren",
+      "instruction": "Sorteer de namen en schrijf elke naam in het goede vak: reuzenplaneet, kleine rotsplaneet of geen planeet."
+    }
+  }
+}

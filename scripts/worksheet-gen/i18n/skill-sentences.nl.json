@@ -378,5 +378,45 @@
   "rounding": {
     "full": "Afronden op tientallen voor groep 5: getallen naar boven of naar beneden afronden, ook op honderdtallen, sommen schatten en terugzoeken welke getallen 50 worden.",
     "short": "Getallen afronden op tientallen"
+  },
+  "2d-shapes": {
+    "full": "Vlakke figuren benoemen: cirkel, vierkant, driehoek en rechthoek herkennen, ook gedraaid, om je heen zoeken, namen schrijven en op stippenpapier tekenen.",
+    "short": "Cirkel, vierkant, driehoek en rechthoek"
+  },
+  "road-safety": {
+    "full": "Verkeer voor kleuters tot groep 5: stoplicht en voetgangerslicht lezen, veilig oversteken, verkeersborden en hun betekenis en de soorten verkeersborden.",
+    "short": "Stoplicht, oversteken en verkeersborden"
+  },
+  "family": {
+    "full": "Familie en stamboom: familiewoorden koppelen en schrijven, generaties ordenen, een stamboom invullen met aanwijzingen en raadsels over familie oplossen.",
+    "short": "Familiewoorden, stamboom en generaties"
+  },
+  "plants": {
+    "full": "Delen van een plant: wortels, stengel, blad, bloem, vrucht en zaad benoemen, wat een plant nodig heeft, van zaadje tot plant en de delen van een bloem.",
+    "short": "Delen van een plant benoemen en begrijpen"
+  },
+  "animal-life-cycles": {
+    "full": "Van rups tot vlinder en van kikkerdril tot kikker: fasen ordenen en benoemen, jonge dieren koppelen en de groei van vlinder en kikker vergelijken.",
+    "short": "Van rups tot vlinder en van dril tot kikker"
+  },
+  "earth-and-space": {
+    "full": "Zon, Aarde en Maan uit elkaar houden, maanfasen ordenen en benoemen, dag en nacht begrijpen en de acht planeten op volgorde en grootte leren.",
+    "short": "Zon, Maan, maanfasen en planeten"
+  },
+  "maps": {
+    "full": "Kaartlezen: de legenda gebruiken, van bovenaf kijken, de windroos invullen, werelddelen en oceanen benoemen en windrichtingen op een plattegrond.",
+    "short": "Legenda, windroos en werelddelen"
+  },
+  "digraphs": {
+    "full": "Tweetekenklanken oe, ui en eu horen, sorteren, invullen en lezen, oo, ie en ui in het woord vinden en oe tellen in zinnen voor groep 3 en 4.",
+    "short": "Tweetekenklanken oe, ui en eu"
+  },
+  "synonyms": {
+    "full": "Synoniemen: woorden die hetzelfde betekenen vinden en koppelen, woorden op sterkte zetten, andere woorden voor zegt kiezen en woorden voor gaan en kijken sorteren.",
+    "short": "Woorden die hetzelfde betekenen"
+  },
+  "word-parts": {
+    "full": "Woordfamilies en voorvoegsels: woorden sorteren op het stamwoord, het stamwoord vinden, de voorvoegsels her-, mee- en uit- en persoonswoorden maken.",
+    "short": "Stamwoorden, woordfamilies en voorvoegsels"
   }
 }

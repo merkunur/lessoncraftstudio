@@ -92,9 +92,13 @@ async function faceSection({ page, ok, judge, renderInstance, OUT, LONG, quick, 
     ok(F.gradeBand === FACE[L].band, `${id}: gradeBand ${F.gradeBand} ≠ ${FACE[L].band}`);
     ok(F.i18n.en.title === en.strings[L].title && F.i18n.en.instruction === en.strings[L].instruction, `${id}: i18n.en ≠ EARTH_AND_SPACE_LOC.en.strings.${L}`);
     ok(F.exerciseType === 'earth-and-space' && F.themeAxis.applicable === false, `${id}: exerciseType / themeAxis`);
-    let m = null; try { F.build({ difficulty: 2, locale: 'sv' }, { rng: makeRng('x') }); } catch (e) { m = e.message; }
-    ok(!!m && /no sv block|refuse/.test(m), `${id}: an unauthored sv must REFUSE (got ${m || 'a page'})`);
-    m = null; try { F._buildWith({ ...en, refuse: [L] }, F.difficulty[2], { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m = e.message; }
+    {
+      const U = require('./b5-unauthored.js');
+      const p = U.refusalProbe('earth-and-space', 'sv', () => F.build({ difficulty: 2, locale: 'sv' }, { rng: makeRng('x') }));
+      ok(U.refused(p.hidden, /no sv block/), `${id}: an unauthored sv must REFUSE (got ${p.hidden || 'a page'})`);
+      ok(!U.refused(p.real, /no sv block/), `${id}: poison — the authored sv page passed the unauthored-refusal check (got ${p.real})`);
+    }
+    let m = null; try { F._buildWith({ ...en, refuse: [L] }, F.difficulty[2], { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m = e.message; }
     ok(!!m && /refuses the/.test(m), `${id}: bank.refuse [${L}] must REFUSE (got ${m || 'a page'})`);
     m = null; try { F._buildWith({ ...en, strings: { ...en.strings, [L]: undefined } }, F.difficulty[2], { locale: 'en' }, { rng: makeRng('x') }); } catch (e) { m = e.message; }
     ok(!!m && /no strings\./.test(m), `${id}: a missing strings.${L} must REFUSE (got ${m || 'a page'})`);

@@ -1,0 +1,103 @@
+{
+  "hemisphere": "N",
+  "bodies": {
+    "sun": "Solen",
+    "earth": "Jorden",
+    "moon": "Månen"
+  },
+  "facts": {
+    "ownLight": "Den lager sitt eget lys.",
+    "star": "Den er en stjerne.",
+    "hottest": "Den er varmest av de tre.",
+    "biggest": "Den er størst av de tre.",
+    "liveOn": "Mennesker og dyr bor på den.",
+    "oceans": "Den har store hav med vann.",
+    "air": "Den har luft som vi kan puste inn.",
+    "planet": "Den er en planet.",
+    "spinDay": "Når den snurrer, får vi dag og natt.",
+    "orbitsEarth": "Den går i bane rundt planeten vi bor på.",
+    "seemsToChange": "Formen dens ser ut til å endre seg.",
+    "craters": "Den er dekket av kratre.",
+    "smallest": "Den er minst av de tre."
+  },
+  "leakForms": [],
+  "genderNeutral": true,
+  "forbiddenStems": [
+    "gir lys",
+    "gir oss lys",
+    "lyser",
+    "om natten",
+    "går rundt solen",
+    "kretser rundt solen",
+    "går opp",
+    "går ned",
+    "er rund",
+    "på himmelen",
+    "gått på",
+    "ingen luft",
+    "speiler",
+    "beveger seg over",
+    "sommer",
+    "vinter",
+    "høst",
+    "regn",
+    "snø",
+    "skyer",
+    "vær",
+    "varm dag",
+    "kald dag"
+  ],
+  "phaseNames": {
+    "0": "nymåne",
+    "2": "voksende halvmåne",
+    "4": "fullmåne",
+    "6": "minkende halvmåne"
+  },
+  "planets": {
+    "mercury": "Merkur",
+    "venus": "Venus",
+    "earth": "Jorden",
+    "mars": "Mars",
+    "jupiter": "Jupiter",
+    "saturn": "Saturn",
+    "uranus": "Uranus",
+    "neptune": "Neptun"
+  },
+  "notPlanet": {
+    "sun": "Solen",
+    "moon": "Månen"
+  },
+  "classLabels": {
+    "giant": "kjempeplanet",
+    "rocky": "liten steinplanet",
+    "notPlanet": "ikke en planet"
+  },
+  "mnemonic": "Min Venn Jens Maler Jordbær Så Utrolig Nydelig",
+  "refuse": [],
+  "strings": {
+    "base": {
+      "title": "Solen, Jorden og Månen",
+      "instruction": "Les hver setning og sett kryss for om den handler om Solen, Jorden eller Månen."
+    },
+    "moon-phases-in-order": {
+      "title": "Månens faser i riktig rekkefølge",
+      "instruction": "Se på kilen i hver rad, om månen vokser eller minker, og skriv 1 til 5 under månene i den rekkefølgen."
+    },
+    "moon-phase-names": {
+      "title": "Månens faser: skriv navnene",
+      "instruction": "Se på hver måne og skriv navnet på strekene, hvert ord i ordbanken brukes to ganger."
+    },
+    "day-and-night-model": {
+      "title": "Hvorfor blir det dag og natt?",
+      "instruction": "Se hvor Solen er, og ring rundt dag eller natt i tabellen for hver nummererte nål."
+    },
+    "planets-in-order": {
+      "title": "Planetene i rekkefølge fra Solen",
+      "instruction": "Skriv navnet på hver planet på streken, start nærmest Solen og bruk hvert navn i ruten én gang."
+    },
+    "planet-sizes": {
+      "title": "Planetene etter størrelse: kjempeplaneter og steinplaneter",
+      "instruction": "Sorter navnene og skriv hvert av dem i riktig rute: kjempeplanet, liten steinplanet eller ikke en planet."
+    }
+  }
+}

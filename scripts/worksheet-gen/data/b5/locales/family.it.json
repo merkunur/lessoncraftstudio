@@ -1,0 +1,248 @@
+{
+  "kin": {
+    "M": "mom",
+    "F": "dad",
+    "Z": "sister",
+    "B": "brother",
+    "Zy": "babySister",
+    "By": "babyBrother",
+    "MM": "grandma",
+    "FM": "grandma",
+    "MF": "grandpa",
+    "FF": "grandpa",
+    "MZ": "aunt",
+    "FZ": "aunt",
+    "MB": "uncle",
+    "FB": "uncle",
+    "MZD": "cousinF",
+    "MZS": "cousinM",
+    "MBD": "cousinF",
+    "MBS": "cousinM",
+    "FZD": "cousinF",
+    "FZS": "cousinM",
+    "FBD": "cousinF",
+    "FBS": "cousinM"
+  },
+  "words": {
+    "mom": {
+      "text": "la mamma",
+      "register": "K"
+    },
+    "dad": {
+      "text": "il papà",
+      "register": "K"
+    },
+    "sister": {
+      "text": "la sorella",
+      "register": "K"
+    },
+    "brother": {
+      "text": "il fratello",
+      "register": "K"
+    },
+    "babySister": {
+      "text": "la sorellina",
+      "register": "K"
+    },
+    "babyBrother": {
+      "text": "il fratellino",
+      "register": "K"
+    },
+    "grandma": {
+      "text": "la nonna",
+      "register": "K"
+    },
+    "grandpa": {
+      "text": "il nonno",
+      "register": "K"
+    },
+    "aunt": {
+      "text": "la zia",
+      "register": "K"
+    },
+    "uncle": {
+      "text": "lo zio",
+      "register": "K"
+    },
+    "cousinF": {
+      "text": "la cugina",
+      "register": "K"
+    },
+    "cousinM": {
+      "text": "il cugino",
+      "register": "K"
+    }
+  },
+  "names": [
+    {
+      "name": "Sofia",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Matteo",
+      "sex": "m",
+      "gen": null
+    },
+    {
+      "name": "Giulia",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Marco",
+      "sex": "m",
+      "gen": null
+    },
+    {
+      "name": "Aurora",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Luca",
+      "sex": "m",
+      "gen": null
+    },
+    {
+      "name": "Alice",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Diego",
+      "sex": "m",
+      "gen": null
+    },
+    {
+      "name": "Chiara",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Simone",
+      "sex": "m",
+      "gen": null
+    },
+    {
+      "name": "Elisa",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Paolo",
+      "sex": "m",
+      "gen": null
+    }
+  ],
+  "clueFrames": {
+    "M": "{name} è la mamma di {egoName}.",
+    "F": "{name} è il papà di {egoName}.",
+    "Z": "{name} è la sorella maggiore di {egoName}.",
+    "B": "{name} è il fratello maggiore di {egoName}.",
+    "Zy": "{name} è la sorellina di {egoName}.",
+    "By": "{name} è il fratellino di {egoName}.",
+    "MM": "{name} è la nonna di {egoName}.",
+    "FM": "{name} è la nonna di {egoName}.",
+    "MF": "{name} è il nonno di {egoName}.",
+    "FF": "{name} è il nonno di {egoName}.",
+    "MZ": "{name} è la zia di {egoName}.",
+    "FZ": "{name} è la zia di {egoName}.",
+    "MB": "{name} è lo zio di {egoName}.",
+    "FB": "{name} è lo zio di {egoName}.",
+    "MZD": "{name} è la cugina di {egoName}.",
+    "MZS": "{name} è il cugino di {egoName}.",
+    "MBD": "{name} è la cugina di {egoName}.",
+    "MBS": "{name} è il cugino di {egoName}.",
+    "FZD": "{name} è la cugina di {egoName}.",
+    "FZS": "{name} è il cugino di {egoName}.",
+    "FBD": "{name} è la cugina di {egoName}.",
+    "FBS": "{name} è il cugino di {egoName}."
+  },
+  "riddleFrames": {
+    "MM": "La mamma della mamma di {egoName} è ___.",
+    "FM": "La mamma del papà di {egoName} è ___.",
+    "MF": "Il papà della mamma di {egoName} è ___.",
+    "FF": "Il papà del papà di {egoName} è ___.",
+    "MZ": "La sorella della mamma di {egoName} è ___.",
+    "FZ": "La sorella del papà di {egoName} è ___.",
+    "MB": "Il fratello della mamma di {egoName} è ___.",
+    "FB": "Il fratello del papà di {egoName} è ___."
+  },
+  "distractors": [
+    "mom",
+    "dad"
+  ],
+  "repeatsNote": true,
+  "repeatsNoteText": "la stessa parola può andare bene per più indovinelli",
+  "generationOK": [
+    "grandma",
+    "grandpa",
+    "mom",
+    "dad",
+    "aunt",
+    "uncle",
+    "sister",
+    "brother",
+    "cousinF",
+    "cousinM",
+    "babySister",
+    "babyBrother"
+  ],
+  "agreeing": [],
+  "firstPerson": [
+    "io",
+    "me",
+    "mi",
+    "mio",
+    "mia",
+    "miei",
+    "mie",
+    "noi",
+    "nostro",
+    "nostra"
+  ],
+  "meWord": "io",
+  "forbiddenInTemplate": [
+    "mamma",
+    "papà",
+    "madre",
+    "padre",
+    "la tua famiglia"
+  ],
+  "instructionBans": [
+    "crocetta",
+    "ritaglia",
+    "colora",
+    "gratis",
+    "gratuito",
+    "soluzioni"
+  ],
+  "familyHead": "I membri della famiglia",
+  "strings": {
+    "base": {
+      "title": "I membri della famiglia: chi è chi?",
+      "instruction": "Trova ogni persona sull’albero e scrivi il suo numero nel riquadro vicino alla parola che la indica."
+    },
+    "generations": {
+      "title": "Le generazioni in famiglia: dalla più anziana alla più giovane",
+      "instruction": "In ogni riga scrivi 1, 2 e 3 nei riquadri per mettere in ordine le parole dalla generazione più anziana alla più giovane."
+    },
+    "trace-words": {
+      "title": "Le parole della famiglia: ricalca e scrivi",
+      "instruction": "Trova sull’albero la persona con lo stesso numero, ricalca la sua parola e scrivila di nuovo sulla riga."
+    },
+    "tree-clues": {
+      "title": "Albero genealogico da completare con gli indizi",
+      "instruction": "Leggi gli indizi e scrivi ogni nome nel riquadro giusto dell’albero genealogico."
+    },
+    "relation-riddles": {
+      "title": "I gradi di parentela: indovinelli",
+      "instruction": "Leggi ogni indovinello e scrivi sulla riga la parola giusta del riquadro: la stessa parola può andare bene per più indovinelli."
+    },
+    "tree-template": {
+      "title": "Albero genealogico vuoto da completare",
+      "instruction": "Disegna nelle cornici le persone importanti per te e scrivi i loro nomi sulle righe."
+    }
+  }
+}

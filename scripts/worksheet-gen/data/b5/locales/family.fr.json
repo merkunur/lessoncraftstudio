@@ -1,0 +1,259 @@
+{
+  "kin": {
+    "M": "mom",
+    "F": "dad",
+    "Z": "sister",
+    "B": "brother",
+    "Zy": "babySister",
+    "By": "babyBrother",
+    "MM": "grandma",
+    "FM": "grandma",
+    "MF": "grandpa",
+    "FF": "grandpa",
+    "MZ": "aunt",
+    "FZ": "aunt",
+    "MB": "uncle",
+    "FB": "uncle",
+    "MZD": "cousinF",
+    "MZS": "cousinM",
+    "MBD": "cousinF",
+    "MBS": "cousinM",
+    "FZD": "cousinF",
+    "FZS": "cousinM",
+    "FBD": "cousinF",
+    "FBS": "cousinM"
+  },
+  "words": {
+    "mom": {
+      "text": "la maman",
+      "register": "K"
+    },
+    "dad": {
+      "text": "le papa",
+      "register": "K"
+    },
+    "sister": {
+      "text": "la sœur",
+      "register": "K"
+    },
+    "brother": {
+      "text": "le frère",
+      "register": "K"
+    },
+    "babySister": {
+      "text": "la petite sœur",
+      "register": "K"
+    },
+    "babyBrother": {
+      "text": "le petit frère",
+      "register": "K"
+    },
+    "grandma": {
+      "text": "la mamie",
+      "register": "K"
+    },
+    "grandpa": {
+      "text": "le papi",
+      "register": "K"
+    },
+    "aunt": {
+      "text": "la tante",
+      "register": "K"
+    },
+    "uncle": {
+      "text": "l’oncle",
+      "register": "K"
+    },
+    "cousinF": {
+      "text": "la cousine",
+      "register": "K"
+    },
+    "cousinM": {
+      "text": "le cousin",
+      "register": "K"
+    }
+  },
+  "f2Exclude": [
+    "sister"
+  ],
+  "names": [
+    {
+      "name": "Léa",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Tom",
+      "sex": "m",
+      "gen": null
+    },
+    {
+      "name": "Chloé",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Hugo",
+      "sex": "m",
+      "gen": null
+    },
+    {
+      "name": "Manon",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Louis",
+      "sex": "m",
+      "gen": null
+    },
+    {
+      "name": "Jade",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Noé",
+      "sex": "m",
+      "gen": null
+    },
+    {
+      "name": "Louise",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Jules",
+      "sex": "m",
+      "gen": null
+    },
+    {
+      "name": "Zoé",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Léo",
+      "sex": "m",
+      "gen": null
+    },
+    {
+      "name": "Lina",
+      "sex": "f",
+      "gen": null
+    },
+    {
+      "name": "Nino",
+      "sex": "m",
+      "gen": null
+    }
+  ],
+  "clueFrames": {
+    "M": "{name} est la maman de {egoName}.",
+    "F": "{name} est le papa de {egoName}.",
+    "Z": "{name} est la grande sœur de {egoName}.",
+    "B": "{name} est le grand frère de {egoName}.",
+    "Zy": "{name} est la petite sœur de {egoName}.",
+    "By": "{name} est le petit frère de {egoName}.",
+    "MM": "{name} est la mamie de {egoName}.",
+    "FM": "{name} est la mamie de {egoName}.",
+    "MF": "{name} est le papi de {egoName}.",
+    "FF": "{name} est le papi de {egoName}.",
+    "MZ": "{name} est la tante de {egoName}.",
+    "FZ": "{name} est la tante de {egoName}.",
+    "MB": "{name} est l’oncle de {egoName}.",
+    "FB": "{name} est l’oncle de {egoName}.",
+    "MZD": "{name} est la cousine de {egoName}.",
+    "MZS": "{name} est le cousin de {egoName}.",
+    "MBD": "{name} est la cousine de {egoName}.",
+    "MBS": "{name} est le cousin de {egoName}.",
+    "FZD": "{name} est la cousine de {egoName}.",
+    "FZS": "{name} est le cousin de {egoName}.",
+    "FBD": "{name} est la cousine de {egoName}.",
+    "FBS": "{name} est le cousin de {egoName}."
+  },
+  "riddleFrames": {
+    "MM": "La maman de la maman de {egoName}, c’est ___.",
+    "FM": "La maman du papa de {egoName}, c’est ___.",
+    "MF": "Le papa de la maman de {egoName}, c’est ___.",
+    "FF": "Le papa du papa de {egoName}, c’est ___.",
+    "MZ": "La sœur de la maman de {egoName}, c’est ___.",
+    "FZ": "La sœur du papa de {egoName}, c’est ___.",
+    "MB": "Le frère de la maman de {egoName}, c’est ___.",
+    "FB": "Le frère du papa de {egoName}, c’est ___."
+  },
+  "distractors": [
+    "mom",
+    "dad"
+  ],
+  "repeatsNote": true,
+  "repeatsNoteText": "un même mot peut aller avec plusieurs devinettes",
+  "generationOK": [
+    "grandma",
+    "grandpa",
+    "mom",
+    "dad",
+    "aunt",
+    "uncle",
+    "sister",
+    "brother",
+    "cousinF",
+    "cousinM",
+    "babySister",
+    "babyBrother"
+  ],
+  "agreeing": [],
+  "firstPerson": [
+    "je",
+    "moi",
+    "mon",
+    "ma",
+    "mes",
+    "nous",
+    "notre",
+    "nos"
+  ],
+  "meWord": "moi",
+  "forbiddenInTemplate": [
+    "maman",
+    "papa",
+    "mère",
+    "père",
+    "ta famille"
+  ],
+  "instructionBans": [
+    "coche",
+    "cocher",
+    "découpe",
+    "colorie",
+    "gratuit",
+    "corrigé"
+  ],
+  "familyHead": "Les membres de la famille",
+  "strings": {
+    "base": {
+      "title": "Les membres de la famille : qui est qui ?",
+      "instruction": "Trouve chaque personne sur l’arbre et écris son numéro dans la case à côté du mot qui la nomme."
+    },
+    "generations": {
+      "title": "Les générations de la famille : du plus âgé au plus jeune",
+      "instruction": "Sur chaque ligne, écris 1, 2 et 3 dans les cases pour ranger les mots de la génération la plus âgée à la plus jeune."
+    },
+    "trace-words": {
+      "title": "Le vocabulaire de la famille : trace et écris",
+      "instruction": "Trouve sur l’arbre la personne qui a le même numéro, repasse son mot en pointillés et écris-le sur la ligne."
+    },
+    "tree-clues": {
+      "title": "L’arbre généalogique : lis les indices",
+      "instruction": "Lis les indices et écris chaque prénom dans la bonne case de l’arbre."
+    },
+    "relation-riddles": {
+      "title": "Les liens de parenté : devinettes",
+      "instruction": "Lis chaque devinette et écris sur la ligne le bon mot de la boîte : un même mot peut aller avec plusieurs devinettes."
+    },
+    "tree-template": {
+      "title": "Arbre généalogique vierge à compléter",
+      "instruction": "Dessine dans les cadres les personnes qui comptent pour toi et écris leur prénom sur les lignes."
+    }
+  }
+}

@@ -10,6 +10,6 @@ module.exports = {
   id: 'K-376',
   slug: 'what-plants-need-to-grow',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "What Plants Need to Grow", instruction: "Look at what each plant gets. Circle the plant that gets both things it needs to grow." } },
+  i18n: { en: { title: "What Plants Need to Grow", instruction: "In each row, circle the plant that gets both things it needs to grow." } },
   gradeBand: "K",
 };

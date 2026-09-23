@@ -2,8 +2,11 @@
 /**
  * verify-b5-2d-shapes.js — the K-368 `2d-shapes` family gate (design
  * docs/worksheet-gen/b5-designs/K-368-2d-shapes.md §5; the nt10-E build brief
- * deliverable 4). BASE PAGE ONLY (built 2026-09-23); the five faces and their
- * render poisons land in Phase E.
+ * deliverable 4). The base page (sections 0-4 below) AND, since Phase E
+ * (2026-09-23), the five faces G1-381 K-371 G1-382 G1-383 K-372 (section 5:
+ * qa/b5-2d-shapes-faces.js — sweeps, renders at 814 / 722 / 677, SPARSE +
+ * FILL + OVERLAP + answer-tell + apparatus gates, the face poisons PR2 PR6
+ * PR8 PR9 PR10 PR12 and their both-ways controls).
  *
  *   node scripts/worksheet-gen/qa/verify-b5-2d-shapes.js [--quick]
  *
@@ -101,6 +104,24 @@ const escRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const hasWord = (text, word, loc) => new RegExp('(?<!\\p{L})' + escRe(fold(word, loc)) + '(?!\\p{L})', 'u').test(fold(text, loc));
 const sentences = (s) => (String(s).trim().match(/[^.!?…]+[.!?…]+(?=\s|$)|[^.!?…]+$/gu) || []).filter((x) => x.trim()).length;
 
+/** Apparatus words (en) and the modes whose page carries that apparatus (rule 6, Phase E). */
+const APPARATUS = [
+  ['row', /(?<!\p{L})rows?(?!\p{L})/iu, ['real-or-not']],
+  ['picture', /(?<!\p{L})pictures?(?!\p{L})/iu, ['around-us']],
+  ['tile', /(?<!\p{L})tiles?(?!\p{L})/iu, ['around-us']],
+  ['line', /(?<!\p{L})lines?(?!\p{L})/iu, ['write-name', 'dot-draw']],
+  ['box', /(?<!\p{L})box(es)?(?!\p{L})/iu, ['write-name']],
+  ['dot', /(?<!\p{L})dots?(?!\p{L})/iu, ['dot-draw']],
+  ['riddle', /(?<!\p{L})riddles?(?!\p{L})/iu, ['riddles']],
+  ['bubble', /(?<!\p{L})bubbles?(?!\p{L})/iu, ['riddles']],
+  ['grid', /(?<!\p{L})(grid|lattice)s?(?!\p{L})/iu, ['dot-draw']],
+  ['tag', /(?<!\p{L})tags?(?!\p{L})/iu, []],
+];
+const APPARATUS_NEED = {
+  'real-or-not': ['row', /(?<!\p{L})rows?(?!\p{L})/iu], 'around-us': ['picture', /(?<!\p{L})pictures?(?!\p{L})/iu],
+  'write-name': ['line', /(?<!\p{L})line(?!\p{L})/iu], riddles: ['riddle', /(?<!\p{L})riddles?(?!\p{L})/iu], 'dot-draw': ['dots', /(?<!\p{L})dots?(?!\p{L})/iu],
+};
+
 /* =================================================================== 1. BANK */
 function validateBank(block, loc) {
   const f = [];
@@ -178,6 +199,13 @@ function validateBank(block, loc) {
       if (m === 'dot-draw' && !/(?<!\p{L})dots?(?!\p{L})/i.test(ins)) E('strings.dot-draw.instruction does not name the dots (rule 6)');
     }
     if (m === 'around-us') for (const k of ['circle', 'rectangle']) if (names[k] && !hasWord(ins, names[k], l)) E(`strings.around-us.instruction does not contain the ${k} literal "${names[k]}" (rule 6)`);
+    // rule 6 (Phase E): the instruction names ONLY apparatus present on this face's page, and names its own
+    // (the K-369 "stop or go" over "wait / walk" cards lesson). en only: the panels carry their own lexicon.
+    if (l === 'en') {
+      for (const [word, re, modes] of APPARATUS) if (re.test(ins) && !modes.includes(m)) E(`strings.${m}.instruction names "${word}", which is not on the ${m} page (rule 6: apparatus)`);
+      const need = APPARATUS_NEED[m];
+      if (need && !need[1].test(ins)) E(`strings.${m}.instruction does not name its own apparatus (${need[0]}) (rule 6: apparatus)`);
+    }
   }
   // rule 7
   const titles = MODES.map((m) => strings[m] && strings[m].title).filter((x) => typeof x === 'string');
@@ -552,8 +580,10 @@ async function main() {
     // PR11 — a face config at difficulty 2: the config guard fires before render
     {
       let m = null;
-      try { TYPE._buildWith(en, { ...TYPE.difficulty[2], mode: 'real-or-not', rows: ['triangle', 'rectangle', 'square'], perRow: 4 }, { locale: 'en' }, { rng: makeRng('pr11') }); } catch (e) { m = e.message; }
-      judge('PR11 a face config at difficulty 2', m ? [m] : [], /mode "real-or-not" is a face \(Phase E\)/);
+      // a face mode laid over the BASE level-2 entry (rows: 3 is a grid count, not F1's list of kinds): the
+      // face's CONFIG guard fires before anything renders (guards key on the resolved keys, never difficulty === 2)
+      try { TYPE._buildWith(en, { ...TYPE.difficulty[2], mode: 'real-or-not' }, { locale: 'en' }, { rng: makeRng('pr11') }); } catch (e) { m = e.message; }
+      judge('PR11 a face mode over the base d2 config', m ? [m] : [], /real-or-not: rows must be a list of 1-4 distinct core kinds/);
     }
     // PX — a 40 px tag: the spec guard, and the render floor past it
     {
@@ -577,9 +607,13 @@ async function main() {
     }
     // the control: the untouched d2 page renders clean through the same collector
     { const ctl = await gateOf(TYPE, 'control'); ok(ctl.length === 0, `poison control (untouched d2): ${JSON.stringify(ctl.slice(0, 3))}`); }
+
+    // 5. THE FIVE FACES (Phase E): bank-string parity, sweeps, renders at 814 / 722 / 677, face poisons (PR2 PR6
+    // PR8 PR9 PR10 PR12 + SPARSE / OVERLAP / answer-tell / apparatus per face) — qa/b5-2d-shapes-faces.js
+    await require('./b5-2d-shapes-faces.js').faceGate({ page, ok, judge, fails, pngs, validateBank, syntheticBlock, classifySvg, QUICK, OUT });
   } finally { await browser.close(); }
 
-  console.log('poison:\n' + poisonLog.join('\n') + '\n  deferred to Phase E (faces not built): PR2 PR6 PR8 PR9 PR10 PR12');
+  console.log('poison:\n' + poisonLog.join('\n'));
   console.log('renders:\n  ' + pngs.join('\n  '));
   if (fails.length) console.log('FAILS:\n  ' + fails.slice(0, 40).join('\n  ') + (fails.length > 40 ? `\n  … ${fails.length - 40} more` : ''));
   const pass = !fails.length && killed === total;

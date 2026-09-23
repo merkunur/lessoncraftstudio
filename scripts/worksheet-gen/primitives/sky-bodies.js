@@ -86,8 +86,10 @@ function moonDisc({ d } = {}) {
   return { svg: svgRoot({ width: d, height: d, viewBox: '-50 -50 100 100', label: '' }, parts, { 'data-lcs-prim': 'sky-body', 'data-lcs-body': 'moon' }), width: d, height: d, discPx: 92 * d / 100 };
 }
 
-/** The Sun cut by the box edge: its disc much bigger than the box, a limb and 5 rays showing (F3). */
-function sunEdge({ side = 'left', w, h, depth } = {}) {
+/** The Sun cut by the box edge: its disc much bigger than the box, a limb and 5 rays showing (F3).
+ *  `rayDeg` (additive, F3 face 2026-09-23): the ray angles; default [-40,-20,0,20,40] (byte-identical). With R >= 400
+ *  the ±40° rays leave the box, so the face re-aims them at the VISIBLE limb. */
+function sunEdge({ side = 'left', w, h, depth, rayDeg, asPath = false } = {}) {
   if (side !== 'left' && side !== 'right') throw new Error(`sky-bodies sunEdge: side "${side}"`);
   if (!(depth >= 60)) throw new Error(`sky-bodies sunEdge: depth ${depth} < 60`);
   if (!(w > depth && h > 0)) throw new Error(`sky-bodies sunEdge: box ${w}x${h} for depth ${depth}`);
@@ -96,15 +98,27 @@ function sunEdge({ side = 'left', w, h, depth } = {}) {
   const cx = side === 'left' ? cxL : w - cxL;
   const nx = side === 'left' ? 1 : -1;
   const cid = `es-sunedge-clip-${side}-${String(w).replace('.', '_')}-${String(h).replace('.', '_')}-${String(depth).replace('.', '_')}`;
-  const rays = [-40, -20, 0, 20, 40].map((deg) => {
+  if (rayDeg !== undefined && !(Array.isArray(rayDeg) && rayDeg.length && rayDeg.every((x) => Number.isFinite(x) && Math.abs(x) < 90))) throw new Error(`sky-bodies sunEdge: rayDeg ${JSON.stringify(rayDeg)}`);
+  const rays = (rayDeg || [-40, -20, 0, 20, 40]).map((deg) => {
     const a = deg * Math.PI / 180;
     const ux = nx * Math.cos(a), uy = Math.sin(a);
     return el('line', { x1: f2(cx + ux * (R + 10)), y1: f2(cy + uy * (R + 10)), x2: f2(cx + ux * (R + 30)), y2: f2(cy + uy * (R + 30)), stroke: C.coral, 'stroke-width': 4, 'stroke-linecap': 'round', 'data-lcs-part': 'ray' });
   });
-  const parts = [
-    el('defs', {}, el('clipPath', { id: cid }, el('rect', { x: 0, y: 0, width: w, height: h }))),
-    el('g', { 'clip-path': `url(#${cid})` }, [el('circle', { cx: f2(cx), cy, r: R, fill: C.coral, 'data-lcs-part': 'disc' }), ...rays]),
-  ];
+  // asPath (additive, the F3 face 2026-09-23): the VISIBLE part of the disc as one path (disc ∩ box), no clip — a clipped
+  // r-500 circle keeps its full bounding box, which runs off the page (qa/lints.js overflow + footer-overlap on a real page).
+  const regionPath = () => {
+    const dx = Math.sqrt(R * R - cy * cy);   // the circle meets y = 0 and y = h at x = cxL + dx (left-side frame)
+    const xt = f2(cxL + dx);
+    const X = (x) => f2(side === 'left' ? x : w - x);
+    return `M ${X(0)} 0 L ${X(xt)} 0 A ${R} ${R} 0 0 ${side === 'left' ? 1 : 0} ${X(xt)} ${h} L ${X(0)} ${h} Z`;
+  };
+  if (asPath && !(R * R - (cxL * cxL) >= cy * cy)) throw new Error(`sky-bodies sunEdge: asPath needs the disc to span the box height at the edge`);
+  const parts = asPath
+    ? [el('path', { d: regionPath(), fill: C.coral, 'data-lcs-part': 'disc' }), ...rays]
+    : [
+      el('defs', {}, el('clipPath', { id: cid }, el('rect', { x: 0, y: 0, width: w, height: h }))),
+      el('g', { 'clip-path': `url(#${cid})` }, [el('circle', { cx: f2(cx), cy, r: R, fill: C.coral, 'data-lcs-part': 'disc' }), ...rays]),
+    ];
   return { svg: svgRoot({ width: w, height: h, label: '' }, parts, { 'data-lcs-prim': 'sun-edge', 'data-lcs-body': 'sun', 'data-lcs-side': side, 'data-lcs-r': R }), width: w, height: h, R, cx, cy };
 }
 
@@ -115,7 +129,8 @@ function sunEdge({ side = 'left', w, h, depth } = {}) {
  * screen; day iff |angle| < 90. THROWS if a pin is within 40° of the terminator
  * (| |angle| - 90 | < 40), two pin centres are < 50 px apart, or r < 120.
  */
-function earthTop({ r, sunDir = 'left', pins = [] } = {}) {
+function earthTop({ r, sunDir = 'left', pins = [], spin = 'arc' } = {}) {
+  if (spin !== 'arc' && spin !== 'ring') throw new Error(`sky-bodies earthTop: spin "${spin}"`);
   if (!(r >= 120)) throw new Error(`sky-bodies earthTop: r ${r} < 120`);
   if (sunDir !== 'left' && sunDir !== 'right') throw new Error(`sky-bodies earthTop: sunDir "${sunDir}"`);
   const S = 2 * r + 40, Cc = r + 20;
@@ -134,16 +149,19 @@ function earthTop({ r, sunDir = 'left', pins = [] } = {}) {
   }
   // rotation arrow: radius 0.32 r, screen angle 200° -> 340° through 270° (the bottom), counter-clockwise on screen (sweep 0)
   const ar = 0.32 * r;
-  const [x0, y0] = [Cc + ar * Math.cos(200 * Math.PI / 180), Cc - ar * Math.sin(200 * Math.PI / 180)];
-  const [x1, y1] = [Cc + ar * Math.cos(340 * Math.PI / 180), Cc - ar * Math.sin(340 * Math.PI / 180)];
+  // spin 'ring' (additive, the F3 face 2026-09-23): a 300° counter-clockwise ring 100° -> 400° with its gap at the top —
+  // the default under-the-pole arc read as a SMILE under the pole dot (a face) on the F3 page.
+  const A0 = spin === 'ring' ? 100 : 200, A1 = spin === 'ring' ? 400 : 340;
+  const [x0, y0] = [Cc + ar * Math.cos(A0 * Math.PI / 180), Cc - ar * Math.sin(A0 * Math.PI / 180)];
+  const [x1, y1] = [Cc + ar * Math.cos(A1 * Math.PI / 180), Cc - ar * Math.sin(A1 * Math.PI / 180)];
   // travel direction at 340° going counter-clockwise (increasing math angle): tangent (-sin, cos) in math coords -> screen (-sin, -cos)
-  const t = 340 * Math.PI / 180;
+  const t = A1 * Math.PI / 180;
   const tx = -Math.sin(t), ty = -Math.cos(t);
   const nx = -ty, ny = tx;
   const head = `M ${f2(x1 + tx * 10)} ${f2(y1 + ty * 10)} L ${f2(x1 - tx * 2 + nx * 6)} ${f2(y1 - ty * 2 + ny * 6)} L ${f2(x1 - tx * 2 - nx * 6)} ${f2(y1 - ty * 2 - ny * 6)} Z`;
   const parts = [
     el('circle', { cx: Cc, cy: Cc, r, fill: C.white, stroke: C.teal, 'stroke-width': 3, 'data-lcs-part': 'disc' }),
-    el('path', { d: `M ${f2(x0)} ${f2(y0)} A ${f2(ar)} ${f2(ar)} 0 0 0 ${f2(x1)} ${f2(y1)}`, fill: 'none', stroke: C.teal, 'stroke-width': 3, 'stroke-linecap': 'round', 'data-lcs-part': 'spin' }),
+    el('path', { d: `M ${f2(x0)} ${f2(y0)} A ${f2(ar)} ${f2(ar)} 0 ${spin === 'ring' ? 1 : 0} 0 ${f2(x1)} ${f2(y1)}`, fill: 'none', stroke: C.teal, 'stroke-width': 3, 'stroke-linecap': 'round', 'data-lcs-part': 'spin' }),
     el('path', { d: head, fill: C.teal, 'data-lcs-part': 'spin-head' }),
     el('circle', { cx: Cc, cy: Cc, r: 5, fill: C.teal, 'data-lcs-part': 'pole' }),
     ...placed.map((p) => el('g', { 'data-lcs-pin': '', 'data-lcs-n': p.n, 'data-lcs-angle': p.angle }, [
@@ -152,7 +170,7 @@ function earthTop({ r, sunDir = 'left', pins = [] } = {}) {
       el('text', { x: f2(p.x), y: f2(p.y), 'font-family': "'Baloo 2', sans-serif", 'font-weight': 700, 'font-size': 16, fill: C.white, 'text-anchor': 'middle', 'dominant-baseline': 'central' }, esc(String(p.n))),
     ])),
   ];
-  return { svg: svgRoot({ width: S, height: S, label: '' }, parts, { 'data-lcs-prim': 'earth-top', 'data-lcs-body': 'earth', 'data-lcs-sundir': sunDir, 'data-lcs-r': r }), width: S, height: S, pins: placed, centre: [Cc, Cc] };
+  return { svg: svgRoot({ width: S, height: S, label: '' }, parts, { 'data-lcs-prim': 'earth-top', 'data-lcs-body': 'earth', 'data-lcs-sundir': sunDir, 'data-lcs-r': r, 'data-lcs-spin': spin === 'ring' ? 'ring' : undefined }), width: S, height: S, pins: placed, centre: [Cc, Cc] };
 }
 
 /** One orbit slot (F4): the same white disc + teal ring for every planet; only the numeral differs. */

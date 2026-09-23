@@ -109,6 +109,22 @@ const EARTH_AND_SPACE = {
   PHASES: [0, 1, 2, 3, 4, 5, 6, 7],
   NAMED_PHASES: [0, 2, 4, 6],
   PLANETS: ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune'],
+  /** F4 (Phase E): each locale's ALPHABETICAL order of the eight planet names (the standard school exonyms:
+   *  Erde / Tierra / Terre / Terra / Aarde / Jorden / Maa …). The seed carries no locale, so the F4 bank must be
+   *  clean against ALL of them on the one shipped draw; validateBank asserts a panel's literals sort this way. */
+  PLANET_ALPHA: {
+    en: ['earth', 'jupiter', 'mars', 'mercury', 'neptune', 'saturn', 'uranus', 'venus'],
+    de: ['earth', 'jupiter', 'mars', 'mercury', 'neptune', 'saturn', 'uranus', 'venus'],
+    nl: ['earth', 'jupiter', 'mars', 'mercury', 'neptune', 'saturn', 'uranus', 'venus'],
+    sv: ['earth', 'jupiter', 'mars', 'mercury', 'neptune', 'saturn', 'uranus', 'venus'],
+    da: ['earth', 'jupiter', 'mars', 'mercury', 'neptune', 'saturn', 'uranus', 'venus'],
+    no: ['earth', 'jupiter', 'mars', 'mercury', 'neptune', 'saturn', 'uranus', 'venus'],
+    es: ['jupiter', 'mars', 'mercury', 'neptune', 'saturn', 'earth', 'uranus', 'venus'],
+    fr: ['jupiter', 'mars', 'mercury', 'neptune', 'saturn', 'earth', 'uranus', 'venus'],
+    it: ['jupiter', 'mars', 'mercury', 'neptune', 'saturn', 'earth', 'uranus', 'venus'],
+    pt: ['jupiter', 'mars', 'mercury', 'neptune', 'saturn', 'earth', 'uranus', 'venus'],
+    fi: ['jupiter', 'earth', 'mars', 'mercury', 'neptune', 'saturn', 'uranus', 'venus'],
+  },
   DIAMETER_KM: { mercury: 4879, venus: 12104, earth: 12756, mars: 6792, jupiter: 142984, saturn: 120536, uranus: 51118, neptune: 49528, moon: 3475, sun: 1392700 },
   SIZE_CLASS: { mercury: 'rocky', venus: 'rocky', earth: 'rocky', mars: 'rocky', jupiter: 'giant', saturn: 'giant', uranus: 'giant', neptune: 'giant', sun: 'notPlanet', moon: 'notPlanet' },
   DAY_ANGLES: [0, 25, -25, 50, -50],

@@ -102,7 +102,7 @@ function isAncestor(aPath, bPath, present) {
 /* ---------------------------------------------------------------- the tree */
 function familyTree(o) {
   const { persons, frame, labelH = 0, coupleGap = 28, sibGap = 24, sepGap = 16, rowGap = 32, pad = 10,
-    skin = 'tree', badges = {}, egoId, plates = true, ground = 10, w = 675, nodeSvg } = o;
+    skin = 'tree', badges = {}, egoId, plates = true, ground = 10, w = 675, nodeSvg, crownClamp = false } = o;
   const nodeW = o.nodeW || frame.w;
   if (!Array.isArray(persons) || !persons.length) throw new Error('familyTree: no persons');
   const byPath = new Map();
@@ -202,9 +202,11 @@ function familyTree(o) {
     const crown = [];
     let crownBottom = null;
     if (upper.length) {
-      const x0 = Math.min(...upper.map((n) => n.x)) - CROWN_PAD, x1 = Math.max(...upper.map((n) => n.x + n.w)) + CROWN_PAD;
+      let x0 = Math.min(...upper.map((n) => n.x)) - CROWN_PAD, x1 = Math.max(...upper.map((n) => n.x + n.w)) + CROWN_PAD;
+      // crownClamp (F2, a 300 px stage beside the lanes): the canopy stays inside the stage; off on the base
+      if (crownClamp) { x0 = Math.max(x0, BUMP_R - 2); x1 = Math.min(x1, w - BUMP_R + 2); }
       const yTop = Math.max(CROWN_TOP_MIN + BUMP_R, Math.min(...upper.map((n) => n.y)) - CROWN_PAD);
-      const yBot = Math.max(...upper.map((n) => n.y + n.h)) + CROWN_PAD;
+      const yBot = Math.max(...upper.map((n) => n.y + n.h + labelH)) + CROWN_PAD;   // labelH 0 on the base (F3 hangs a name plate under every frame)
       crownBottom = yBot;
       crown.push(`<rect x="${S(x0)}" y="${S(yTop)}" width="${S(x1 - x0)}" height="${S(yBot - yTop)}" rx="60" ry="60" fill="${T.tealSoft}" data-lcs-crown=""/>`);
       // leafy bumps along the top edge and down the two sides, so the crown reads as a tree, not a card
@@ -219,7 +221,7 @@ function familyTree(o) {
       }
       for (const n of upper) {
         const cyc = n.y + n.h / 2;
-        const r = Math.min(CROWN_R, cyc - CROWN_TOP_MIN);
+        const r = crownClamp ? Math.min(CROWN_R, cyc - CROWN_TOP_MIN, n.cx - 2, w - 2 - n.cx) : Math.min(CROWN_R, cyc - CROWN_TOP_MIN);
         crown.push(`<circle cx="${S(n.cx)}" cy="${S(cyc)}" r="${S(r)}" fill="${T.tealSoft}" data-lcs-crown=""/>`);
       }
     }

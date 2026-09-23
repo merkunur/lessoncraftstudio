@@ -97,6 +97,7 @@ const FAMILY = {
     },
     distractors: ['mom', 'dad'],
     repeatsNote: true,
+    repeatsNoteText: 'one word can fit more than one riddle',   // (F4) the instruction clause, present IFF repeatsNote (validator rule 7)
     generationOK: ['grandma', 'grandpa', 'mom', 'dad', 'aunt', 'uncle', 'sister', 'brother', 'cousin', 'babySister', 'babyBrother'],
     agreeing: ['a', 'an', 'his', 'her', 'the'],
     firstPerson: ['my', 'I', 'me', 'mine', 'our', 'we'],
@@ -109,7 +110,7 @@ const FAMILY = {
       generations: { title: 'Family Generations: Oldest to Youngest', instruction: 'In each row, write 1, 2 and 3 in the boxes to put the family words in order from the oldest generation to the youngest.' },
       'trace-words': { title: 'Family Words: Trace and Write', instruction: 'Find the person with the same number on the tree, trace their family word and write it again on the line.' },
       'tree-clues': { title: 'Family Tree: Read the Clues', instruction: 'Read the clues and write each name in the right name box on the family tree.' },
-      'relation-riddles': { title: 'Family Relationships: Riddles', instruction: 'Read each riddle and write the right family word from the box on the line.' },
+      'relation-riddles': { title: 'Family Relationships: Riddles', instruction: 'Read each riddle and write the right family word from the box on the line; one word can fit more than one riddle.' },
       'tree-template': { title: 'Family Tree Template', instruction: 'Draw the people who are important to you in the frames and write their names on the lines.' },
     },
   },

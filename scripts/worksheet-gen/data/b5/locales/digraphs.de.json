@@ -1,0 +1,1866 @@
+{
+  "head": "Buchstabengruppen",
+  "refused": null,
+  "phonemes": [
+    "p",
+    "b",
+    "t",
+    "d",
+    "k",
+    "g",
+    "f",
+    "v",
+    "s",
+    "z",
+    "ʃ",
+    "ç",
+    "x",
+    "h",
+    "m",
+    "n",
+    "ŋ",
+    "l",
+    "ʁ",
+    "j",
+    "ts",
+    "pf",
+    "ks",
+    "a",
+    "aː",
+    "ɛ",
+    "ɛː",
+    "eː",
+    "ɪ",
+    "iː",
+    "ɔ",
+    "oː",
+    "ʊ",
+    "uː",
+    "ʏ",
+    "yː",
+    "œ",
+    "øː",
+    "ə",
+    "ɐ",
+    "aɪ",
+    "aʊ",
+    "ɔʏ"
+  ],
+  "teams": {
+    "sch": {
+      "t": "sch",
+      "sound": [
+        "ʃ"
+      ],
+      "items": [
+        {
+          "vocabKey": "sheep",
+          "theme": "farm animals",
+          "noun": "sheep",
+          "word": "Schaf",
+          "seg": [
+            "Sch",
+            "a",
+            "f"
+          ],
+          "snd": [
+            "ʃ",
+            "aː",
+            "f"
+          ],
+          "silent": [],
+          "stem": "schaf",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "ship",
+          "theme": "vehicles",
+          "noun": "ship",
+          "word": "Schiff",
+          "seg": [
+            "Sch",
+            "i",
+            "ff"
+          ],
+          "snd": [
+            "ʃ",
+            "ɪ",
+            "f"
+          ],
+          "silent": [],
+          "stem": "schiff",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "shoe",
+          "theme": "clothing",
+          "noun": "shoe",
+          "word": "Schuh",
+          "seg": [
+            "Sch",
+            "uh"
+          ],
+          "snd": [
+            "ʃ",
+            "uː"
+          ],
+          "silent": [],
+          "stem": "schuh",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "scarf",
+          "theme": "clothing",
+          "noun": "scarf",
+          "word": "Schal",
+          "seg": [
+            "Sch",
+            "a",
+            "l"
+          ],
+          "snd": [
+            "ʃ",
+            "aː",
+            "l"
+          ],
+          "silent": [],
+          "stem": "schal",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "scissors",
+          "theme": "classroom",
+          "noun": "scissors",
+          "word": "Schere",
+          "seg": [
+            "Sch",
+            "e",
+            "r",
+            "e"
+          ],
+          "snd": [
+            "ʃ",
+            "eː",
+            "ʁ",
+            "ə"
+          ],
+          "silent": [],
+          "stem": "schere",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "snail",
+          "theme": "forest creatures",
+          "noun": "snail",
+          "word": "Schnecke",
+          "seg": [
+            "Sch",
+            "n",
+            "e",
+            "ck",
+            "e"
+          ],
+          "snd": [
+            "ʃ",
+            "n",
+            "ɛ",
+            "k",
+            "ə"
+          ],
+          "silent": [],
+          "stem": "schnecke",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pig",
+          "theme": "farm animals",
+          "noun": "pig",
+          "word": "Schwein",
+          "seg": [
+            "Sch",
+            "w",
+            "ei",
+            "n"
+          ],
+          "snd": [
+            "ʃ",
+            "v",
+            "aɪ",
+            "n"
+          ],
+          "silent": [],
+          "stem": "schwein",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "swan",
+          "theme": "birds 2",
+          "noun": "swan",
+          "word": "Schwan",
+          "seg": [
+            "Sch",
+            "w",
+            "a",
+            "n"
+          ],
+          "snd": [
+            "ʃ",
+            "v",
+            "aː",
+            "n"
+          ],
+          "silent": [],
+          "stem": "schwan",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "key",
+          "theme": "around the house",
+          "noun": "key",
+          "word": "Schlüssel",
+          "seg": [
+            "Sch",
+            "l",
+            "ü",
+            "ss",
+            "e",
+            "l"
+          ],
+          "snd": [
+            "ʃ",
+            "l",
+            "ʏ",
+            "s",
+            "ə",
+            "l"
+          ],
+          "silent": [],
+          "stem": "schlüssel",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lock",
+          "theme": "around the house",
+          "noun": "lock",
+          "word": "Schloss",
+          "seg": [
+            "Sch",
+            "l",
+            "o",
+            "ss"
+          ],
+          "snd": [
+            "ʃ",
+            "l",
+            "ɔ",
+            "s"
+          ],
+          "silent": [],
+          "stem": "schloss",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "turtle",
+          "theme": "pets",
+          "noun": "turtle",
+          "word": "Schildkröte",
+          "seg": [
+            "Sch",
+            "i",
+            "l",
+            "d",
+            "k",
+            "r",
+            "ö",
+            "t",
+            "e"
+          ],
+          "snd": [
+            "ʃ",
+            "ɪ",
+            "l",
+            "t",
+            "k",
+            "ʁ",
+            "øː",
+            "t",
+            "ə"
+          ],
+          "silent": [],
+          "stem": "schildkröte",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "sled",
+          "theme": "winter",
+          "noun": "sled",
+          "word": "Schlitten",
+          "seg": [
+            "Sch",
+            "l",
+            "i",
+            "tt",
+            "e",
+            "n"
+          ],
+          "snd": [
+            "ʃ",
+            "l",
+            "ɪ",
+            "t",
+            "ə",
+            "n"
+          ],
+          "silent": [],
+          "stem": "schlitten",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "snowman",
+          "theme": "winter",
+          "noun": "snowman",
+          "word": "Schneemann",
+          "seg": [
+            "Sch",
+            "n",
+            "ee",
+            "m",
+            "a",
+            "nn"
+          ],
+          "snd": [
+            "ʃ",
+            "n",
+            "eː",
+            "m",
+            "a",
+            "n"
+          ],
+          "silent": [],
+          "stem": "schneemann",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "fish",
+          "theme": "ocean life",
+          "noun": "fish",
+          "word": "Fisch",
+          "seg": [
+            "F",
+            "i",
+            "sch"
+          ],
+          "snd": [
+            "f",
+            "ɪ",
+            "ʃ"
+          ],
+          "silent": [],
+          "stem": "fisch",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "table",
+          "theme": "furniture",
+          "noun": "table",
+          "word": "Tisch",
+          "seg": [
+            "T",
+            "i",
+            "sch"
+          ],
+          "snd": [
+            "t",
+            "ɪ",
+            "ʃ"
+          ],
+          "silent": [],
+          "stem": "tisch",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "frog",
+          "theme": "forest creatures",
+          "noun": "frog",
+          "word": "Frosch",
+          "seg": [
+            "F",
+            "r",
+            "o",
+            "sch"
+          ],
+          "snd": [
+            "f",
+            "ʁ",
+            "ɔ",
+            "ʃ"
+          ],
+          "silent": [],
+          "stem": "frosch",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bottle",
+          "theme": "kitchen tools",
+          "noun": "bottle",
+          "word": "Flasche",
+          "seg": [
+            "F",
+            "l",
+            "a",
+            "sch",
+            "e"
+          ],
+          "snd": [
+            "f",
+            "l",
+            "a",
+            "ʃ",
+            "ə"
+          ],
+          "silent": [],
+          "stem": "flasche",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "seashell",
+          "theme": "beach",
+          "noun": "seashell",
+          "word": "Muschel",
+          "seg": [
+            "M",
+            "u",
+            "sch",
+            "e",
+            "l"
+          ],
+          "snd": [
+            "m",
+            "ʊ",
+            "ʃ",
+            "ə",
+            "l"
+          ],
+          "silent": [],
+          "stem": "muschel",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "glove",
+          "theme": "clothing",
+          "noun": "glove",
+          "word": "Handschuh",
+          "seg": [
+            "H",
+            "a",
+            "n",
+            "d",
+            "sch",
+            "uh"
+          ],
+          "snd": [
+            "h",
+            "a",
+            "n",
+            "t",
+            "ʃ",
+            "uː"
+          ],
+          "silent": [],
+          "stem": "schuh",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "umbrella",
+          "theme": "weather",
+          "noun": "umbrella",
+          "word": "Regenschirm",
+          "seg": [
+            "R",
+            "e",
+            "g",
+            "e",
+            "n",
+            "sch",
+            "i",
+            "r",
+            "m"
+          ],
+          "snd": [
+            "ʁ",
+            "eː",
+            "g",
+            "ə",
+            "n",
+            "ʃ",
+            "ɪ",
+            "ʁ",
+            "m"
+          ],
+          "silent": [],
+          "stem": "regenschirm",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "slide",
+          "theme": "toys",
+          "noun": "slide",
+          "word": "Rutsche",
+          "seg": [
+            "R",
+            "u",
+            "t",
+            "sch",
+            "e"
+          ],
+          "snd": [
+            "ʁ",
+            "ʊ",
+            "t",
+            "ʃ",
+            "ə"
+          ],
+          "silent": [],
+          "stem": "rutsche",
+          "picOpened": true
+        }
+      ]
+    },
+    "ch": {
+      "t": "ch",
+      "sound": [
+        "ç",
+        "x"
+      ],
+      "items": [
+        {
+          "vocabKey": "book",
+          "theme": "classroom",
+          "noun": "book",
+          "word": "Buch",
+          "seg": [
+            "B",
+            "u",
+            "ch"
+          ],
+          "snd": [
+            "b",
+            "uː",
+            "x"
+          ],
+          "silent": [],
+          "stem": "buch",
+          "noGap": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "kitchen",
+          "theme": "around the house",
+          "noun": "kitchen",
+          "word": "Küche",
+          "seg": [
+            "K",
+            "ü",
+            "ch",
+            "e"
+          ],
+          "snd": [
+            "k",
+            "ʏ",
+            "ç",
+            "ə"
+          ],
+          "silent": [],
+          "stem": "küche",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "kite",
+          "theme": "toys",
+          "noun": "kite",
+          "word": "Drachen",
+          "seg": [
+            "D",
+            "r",
+            "a",
+            "ch",
+            "e",
+            "n"
+          ],
+          "snd": [
+            "d",
+            "ʁ",
+            "a",
+            "x",
+            "ə",
+            "n"
+          ],
+          "silent": [],
+          "stem": "drache",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "dragon",
+          "theme": "Things That Fly",
+          "noun": "dragon",
+          "word": "Drache",
+          "seg": [
+            "D",
+            "r",
+            "a",
+            "ch",
+            "e"
+          ],
+          "snd": [
+            "d",
+            "ʁ",
+            "a",
+            "x",
+            "ə"
+          ],
+          "silent": [],
+          "stem": "drache",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "cook",
+          "theme": "occupations",
+          "noun": "cook",
+          "word": "Koch",
+          "seg": [
+            "K",
+            "o",
+            "ch"
+          ],
+          "snd": [
+            "k",
+            "ɔ",
+            "x"
+          ],
+          "silent": [],
+          "stem": "koch",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "rug",
+          "theme": "around the house",
+          "noun": "rug",
+          "word": "Teppich",
+          "seg": [
+            "T",
+            "e",
+            "pp",
+            "i",
+            "ch"
+          ],
+          "snd": [
+            "t",
+            "ɛ",
+            "p",
+            "ɪ",
+            "ç"
+          ],
+          "silent": [],
+          "stem": "teppich",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "acorn",
+          "theme": "miscellaneous",
+          "noun": "acorn",
+          "word": "Eichel",
+          "seg": [
+            "Ei",
+            "ch",
+            "e",
+            "l"
+          ],
+          "snd": [
+            "aɪ",
+            "ç",
+            "ə",
+            "l"
+          ],
+          "silent": [],
+          "stem": "eichel",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "church",
+          "theme": "christmas",
+          "noun": "church",
+          "word": "Kirche",
+          "seg": [
+            "K",
+            "i",
+            "r",
+            "ch",
+            "e"
+          ],
+          "snd": [
+            "k",
+            "ɪ",
+            "ʁ",
+            "ç",
+            "ə"
+          ],
+          "silent": [],
+          "stem": "kirche",
+          "noGap": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "face",
+          "theme": "body parts",
+          "noun": "face",
+          "word": "Gesicht",
+          "seg": [
+            "G",
+            "e",
+            "s",
+            "i",
+            "ch",
+            "t"
+          ],
+          "snd": [
+            "g",
+            "ə",
+            "z",
+            "ɪ",
+            "ç",
+            "t"
+          ],
+          "silent": [],
+          "stem": "gesicht",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "rectangle",
+          "theme": "shapes",
+          "noun": "rectangle",
+          "word": "Rechteck",
+          "seg": [
+            "R",
+            "e",
+            "ch",
+            "t",
+            "e",
+            "ck"
+          ],
+          "snd": [
+            "ʁ",
+            "ɛ",
+            "ç",
+            "t",
+            "ɛ",
+            "k"
+          ],
+          "silent": [],
+          "stem": "rechteck",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "lights",
+          "theme": "christmas",
+          "noun": "lights",
+          "word": "Lichterkette",
+          "seg": [
+            "L",
+            "i",
+            "ch",
+            "t",
+            "e",
+            "r",
+            "k",
+            "e",
+            "tt",
+            "e"
+          ],
+          "snd": [
+            "l",
+            "ɪ",
+            "ç",
+            "t",
+            "ə",
+            "ʁ",
+            "k",
+            "ɛ",
+            "t",
+            "ə"
+          ],
+          "silent": [],
+          "stem": "lichterkette",
+          "picOpened": true
+        }
+      ]
+    },
+    "au": {
+      "t": "au",
+      "sound": [
+        "aʊ"
+      ],
+      "items": [
+        {
+          "vocabKey": "mouse",
+          "theme": "pets",
+          "noun": "mouse",
+          "word": "Maus",
+          "seg": [
+            "M",
+            "au",
+            "s"
+          ],
+          "snd": [
+            "m",
+            "aʊ",
+            "s"
+          ],
+          "silent": [],
+          "stem": "maus",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "house",
+          "theme": "miscellaneous",
+          "noun": "house",
+          "word": "Haus",
+          "seg": [
+            "H",
+            "au",
+            "s"
+          ],
+          "snd": [
+            "h",
+            "aʊ",
+            "s"
+          ],
+          "silent": [],
+          "stem": "haus",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "dove",
+          "theme": "birds 2",
+          "noun": "dove",
+          "word": "Taube",
+          "seg": [
+            "T",
+            "au",
+            "b",
+            "e"
+          ],
+          "snd": [
+            "t",
+            "aʊ",
+            "b",
+            "ə"
+          ],
+          "silent": [],
+          "stem": "taube",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "grapes",
+          "theme": "breakfast",
+          "noun": "grapes",
+          "word": "Trauben",
+          "seg": [
+            "T",
+            "r",
+            "au",
+            "b",
+            "e",
+            "n"
+          ],
+          "snd": [
+            "t",
+            "ʁ",
+            "aʊ",
+            "b",
+            "ə",
+            "n"
+          ],
+          "silent": [],
+          "stem": "trauben",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "thumb",
+          "theme": "body parts",
+          "noun": "thumb",
+          "word": "Daumen",
+          "seg": [
+            "D",
+            "au",
+            "m",
+            "e",
+            "n"
+          ],
+          "snd": [
+            "d",
+            "aʊ",
+            "m",
+            "ə",
+            "n"
+          ],
+          "silent": [],
+          "stem": "daumen",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "fence",
+          "theme": "around the house",
+          "noun": "fence",
+          "word": "Zaun",
+          "seg": [
+            "Z",
+            "au",
+            "n"
+          ],
+          "snd": [
+            "ts",
+            "aʊ",
+            "n"
+          ],
+          "silent": [],
+          "stem": "zaun",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "peacock",
+          "theme": "birds 2",
+          "noun": "peacock",
+          "word": "Pfau",
+          "seg": [
+            "Pf",
+            "au"
+          ],
+          "snd": [
+            "pf",
+            "aʊ"
+          ],
+          "silent": [],
+          "stem": "pfau",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "caterpillar",
+          "theme": "insects and bugs",
+          "noun": "caterpillar",
+          "word": "Raupe",
+          "seg": [
+            "R",
+            "au",
+            "p",
+            "e"
+          ],
+          "snd": [
+            "ʁ",
+            "aʊ",
+            "p",
+            "ə"
+          ],
+          "silent": [],
+          "stem": "raupe",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "sloth",
+          "theme": "zoo animals",
+          "noun": "sloth",
+          "word": "Faultier",
+          "seg": [
+            "F",
+            "au",
+            "l",
+            "t",
+            "ie",
+            "r"
+          ],
+          "snd": [
+            "f",
+            "aʊ",
+            "l",
+            "t",
+            "iː",
+            "ʁ"
+          ],
+          "silent": [],
+          "stem": "faultier",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "bat",
+          "theme": "forest creatures",
+          "noun": "bat",
+          "word": "Fledermaus",
+          "seg": [
+            "F",
+            "l",
+            "e",
+            "d",
+            "e",
+            "r",
+            "m",
+            "au",
+            "s"
+          ],
+          "snd": [
+            "f",
+            "l",
+            "eː",
+            "d",
+            "ə",
+            "ʁ",
+            "m",
+            "aʊ",
+            "s"
+          ],
+          "silent": [],
+          "stem": "maus",
+          "picOpened": true
+        }
+      ]
+    }
+  },
+  "samesound": [],
+  "falsePairs": [
+    {
+      "word": "Häschen",
+      "letters": "sch",
+      "why": "Häs-chen: s gehört zum Hasen, -chen ist die Verkleinerung; man spricht s und ch, kein sch"
+    },
+    {
+      "word": "Radieschen",
+      "letters": "sch",
+      "why": "Radies-chen: s und ch stehen an der Silbenfuge, zwei Laute"
+    },
+    {
+      "word": "Röschen",
+      "letters": "sch",
+      "why": "Rös-chen: kleine Rose, s und ch getrennt gesprochen"
+    },
+    {
+      "word": "Fuchs",
+      "letters": "ch",
+      "why": "chs spricht man hier /ks/, nicht den ch-Laut"
+    },
+    {
+      "word": "Dachs",
+      "letters": "ch",
+      "why": "chs = /ks/"
+    },
+    {
+      "word": "Ochse",
+      "letters": "ch",
+      "why": "chs = /ks/"
+    },
+    {
+      "word": "Eidechse",
+      "letters": "ch",
+      "why": "chs = /ks/"
+    },
+    {
+      "word": "Sechseck",
+      "letters": "ch",
+      "why": "chs = /ks/"
+    },
+    {
+      "word": "Chef",
+      "letters": "ch",
+      "why": "Lehnwort aus dem Französischen, ch = /ʃ/"
+    },
+    {
+      "word": "Chor",
+      "letters": "ch",
+      "why": "Lehnwort aus dem Griechischen, ch = /k/"
+    },
+    {
+      "word": "Aubergine",
+      "letters": "au",
+      "why": "Lehnwort aus dem Französischen, au = /oː/"
+    }
+  ],
+  "sets": {
+    "exemplar": [
+      "sch",
+      "ch",
+      "au"
+    ],
+    "k": [
+      "sch",
+      "au"
+    ],
+    "position": [
+      "sch",
+      "ch",
+      "au"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Das Schaf steht am Tisch.",
+      "target": "sch",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "Das",
+          "seg": [
+            "D",
+            "a",
+            "s"
+          ]
+        },
+        {
+          "w": "Schaf",
+          "seg": [
+            "Sch",
+            "a",
+            "f"
+          ]
+        },
+        {
+          "w": "steht",
+          "seg": [
+            "s",
+            "t",
+            "eh",
+            "t"
+          ]
+        },
+        {
+          "w": "am",
+          "seg": [
+            "a",
+            "m"
+          ]
+        },
+        {
+          "w": "Tisch",
+          "seg": [
+            "T",
+            "i",
+            "sch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "text": "Der Fisch schwimmt im Teich.",
+      "target": "sch",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "Der",
+          "seg": [
+            "D",
+            "e",
+            "r"
+          ]
+        },
+        {
+          "w": "Fisch",
+          "seg": [
+            "F",
+            "i",
+            "sch"
+          ]
+        },
+        {
+          "w": "schwimmt",
+          "seg": [
+            "sch",
+            "w",
+            "i",
+            "m",
+            "m",
+            "t"
+          ]
+        },
+        {
+          "w": "im",
+          "seg": [
+            "i",
+            "m"
+          ]
+        },
+        {
+          "w": "Teich",
+          "seg": [
+            "T",
+            "ei",
+            "ch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "text": "Die Schnecke kriecht schnell zur Schule.",
+      "target": "sch",
+      "hits": 3,
+      "tokens": [
+        {
+          "w": "Die",
+          "seg": [
+            "D",
+            "ie"
+          ]
+        },
+        {
+          "w": "Schnecke",
+          "seg": [
+            "Sch",
+            "n",
+            "e",
+            "ck",
+            "e"
+          ]
+        },
+        {
+          "w": "kriecht",
+          "seg": [
+            "k",
+            "r",
+            "ie",
+            "ch",
+            "t"
+          ]
+        },
+        {
+          "w": "schnell",
+          "seg": [
+            "sch",
+            "n",
+            "e",
+            "l",
+            "l"
+          ]
+        },
+        {
+          "w": "zur",
+          "seg": [
+            "z",
+            "u",
+            "r"
+          ]
+        },
+        {
+          "w": "Schule",
+          "seg": [
+            "Sch",
+            "u",
+            "l",
+            "e"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "text": "Papa wäscht die Schüssel.",
+      "target": "sch",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "Papa",
+          "seg": [
+            "P",
+            "a",
+            "p",
+            "a"
+          ]
+        },
+        {
+          "w": "wäscht",
+          "seg": [
+            "w",
+            "ä",
+            "sch",
+            "t"
+          ]
+        },
+        {
+          "w": "die",
+          "seg": [
+            "d",
+            "ie"
+          ]
+        },
+        {
+          "w": "Schüssel",
+          "seg": [
+            "Sch",
+            "ü",
+            "ss",
+            "e",
+            "l"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "text": "Im Schrank liegt ein Schal.",
+      "target": "sch",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "Im",
+          "seg": [
+            "I",
+            "m"
+          ]
+        },
+        {
+          "w": "Schrank",
+          "seg": [
+            "Sch",
+            "r",
+            "a",
+            "n",
+            "k"
+          ]
+        },
+        {
+          "w": "liegt",
+          "seg": [
+            "l",
+            "ie",
+            "g",
+            "t"
+          ]
+        },
+        {
+          "w": "ein",
+          "seg": [
+            "ei",
+            "n"
+          ]
+        },
+        {
+          "w": "Schal",
+          "seg": [
+            "Sch",
+            "a",
+            "l"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "text": "Der Frosch und der Fisch schwimmen im See.",
+      "target": "sch",
+      "hits": 3,
+      "tokens": [
+        {
+          "w": "Der",
+          "seg": [
+            "D",
+            "e",
+            "r"
+          ]
+        },
+        {
+          "w": "Frosch",
+          "seg": [
+            "F",
+            "r",
+            "o",
+            "sch"
+          ]
+        },
+        {
+          "w": "und",
+          "seg": [
+            "u",
+            "n",
+            "d"
+          ]
+        },
+        {
+          "w": "der",
+          "seg": [
+            "d",
+            "e",
+            "r"
+          ]
+        },
+        {
+          "w": "Fisch",
+          "seg": [
+            "F",
+            "i",
+            "sch"
+          ]
+        },
+        {
+          "w": "schwimmen",
+          "seg": [
+            "sch",
+            "w",
+            "i",
+            "m",
+            "m",
+            "e",
+            "n"
+          ]
+        },
+        {
+          "w": "im",
+          "seg": [
+            "i",
+            "m"
+          ]
+        },
+        {
+          "w": "See",
+          "seg": [
+            "S",
+            "ee"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "text": "Der Hund schläft im Garten.",
+      "target": "sch",
+      "hits": 1,
+      "tokens": [
+        {
+          "w": "Der",
+          "seg": [
+            "D",
+            "e",
+            "r"
+          ]
+        },
+        {
+          "w": "Hund",
+          "seg": [
+            "H",
+            "u",
+            "n",
+            "d"
+          ]
+        },
+        {
+          "w": "schläft",
+          "seg": [
+            "sch",
+            "l",
+            "ä",
+            "f",
+            "t"
+          ]
+        },
+        {
+          "w": "im",
+          "seg": [
+            "i",
+            "m"
+          ]
+        },
+        {
+          "w": "Garten",
+          "seg": [
+            "G",
+            "a",
+            "r",
+            "t",
+            "e",
+            "n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "text": "Schau, im Schrank sind Schuhe und eine Flasche.",
+      "target": "sch",
+      "hits": 4,
+      "tokens": [
+        {
+          "w": "Schau",
+          "seg": [
+            "Sch",
+            "au"
+          ]
+        },
+        {
+          "w": "im",
+          "seg": [
+            "i",
+            "m"
+          ]
+        },
+        {
+          "w": "Schrank",
+          "seg": [
+            "Sch",
+            "r",
+            "a",
+            "n",
+            "k"
+          ]
+        },
+        {
+          "w": "sind",
+          "seg": [
+            "s",
+            "i",
+            "n",
+            "d"
+          ]
+        },
+        {
+          "w": "Schuhe",
+          "seg": [
+            "Sch",
+            "uh",
+            "e"
+          ]
+        },
+        {
+          "w": "und",
+          "seg": [
+            "u",
+            "n",
+            "d"
+          ]
+        },
+        {
+          "w": "eine",
+          "seg": [
+            "ei",
+            "n",
+            "e"
+          ]
+        },
+        {
+          "w": "Flasche",
+          "seg": [
+            "F",
+            "l",
+            "a",
+            "sch",
+            "e"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "text": "Opa liest eine Geschichte vor.",
+      "target": "sch",
+      "hits": 1,
+      "tokens": [
+        {
+          "w": "Opa",
+          "seg": [
+            "O",
+            "p",
+            "a"
+          ]
+        },
+        {
+          "w": "liest",
+          "seg": [
+            "l",
+            "ie",
+            "s",
+            "t"
+          ]
+        },
+        {
+          "w": "eine",
+          "seg": [
+            "ei",
+            "n",
+            "e"
+          ]
+        },
+        {
+          "w": "Geschichte",
+          "seg": [
+            "G",
+            "e",
+            "sch",
+            "i",
+            "ch",
+            "t",
+            "e"
+          ]
+        },
+        {
+          "w": "vor",
+          "seg": [
+            "v",
+            "o",
+            "r"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "Ich wasche den Tisch und die Schüssel.",
+      "target": "sch",
+      "hits": 3,
+      "tokens": [
+        {
+          "w": "Ich",
+          "seg": [
+            "I",
+            "ch"
+          ]
+        },
+        {
+          "w": "wasche",
+          "seg": [
+            "w",
+            "a",
+            "sch",
+            "e"
+          ]
+        },
+        {
+          "w": "den",
+          "seg": [
+            "d",
+            "e",
+            "n"
+          ]
+        },
+        {
+          "w": "Tisch",
+          "seg": [
+            "T",
+            "i",
+            "sch"
+          ]
+        },
+        {
+          "w": "und",
+          "seg": [
+            "u",
+            "n",
+            "d"
+          ]
+        },
+        {
+          "w": "die",
+          "seg": [
+            "d",
+            "ie"
+          ]
+        },
+        {
+          "w": "Schüssel",
+          "seg": [
+            "Sch",
+            "ü",
+            "ss",
+            "e",
+            "l"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "text": "Das Schwein liegt im Matsch.",
+      "target": "sch",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "Das",
+          "seg": [
+            "D",
+            "a",
+            "s"
+          ]
+        },
+        {
+          "w": "Schwein",
+          "seg": [
+            "Sch",
+            "w",
+            "ei",
+            "n"
+          ]
+        },
+        {
+          "w": "liegt",
+          "seg": [
+            "l",
+            "ie",
+            "g",
+            "t"
+          ]
+        },
+        {
+          "w": "im",
+          "seg": [
+            "i",
+            "m"
+          ]
+        },
+        {
+          "w": "Matsch",
+          "seg": [
+            "M",
+            "a",
+            "t",
+            "sch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "text": "Am Strand liegt eine Muschel.",
+      "target": "sch",
+      "hits": 1,
+      "tokens": [
+        {
+          "w": "Am",
+          "seg": [
+            "A",
+            "m"
+          ]
+        },
+        {
+          "w": "Strand",
+          "seg": [
+            "S",
+            "t",
+            "r",
+            "a",
+            "n",
+            "d"
+          ]
+        },
+        {
+          "w": "liegt",
+          "seg": [
+            "l",
+            "ie",
+            "g",
+            "t"
+          ]
+        },
+        {
+          "w": "eine",
+          "seg": [
+            "ei",
+            "n",
+            "e"
+          ]
+        },
+        {
+          "w": "Muschel",
+          "seg": [
+            "M",
+            "u",
+            "sch",
+            "e",
+            "l"
+          ]
+        }
+      ]
+    }
+  ],
+  "rejectedPics": [
+    {
+      "pic": "fruits/cherry",
+      "why": "sieht aus wie ein Apfel (Design §4)"
+    },
+    {
+      "pic": "fruits/peach",
+      "why": "sieht aus wie ein Apfel (Design §4)"
+    },
+    {
+      "pic": "christmas/chimney",
+      "why": "ein Kamin, kein Schornstein (Design §4)"
+    },
+    {
+      "pic": "body parts/mouth",
+      "why": "ein Kind sagt „Lippen“ (Design §4)"
+    },
+    {
+      "pic": "colors/white",
+      "why": "ein weißer Farbklecks (Design §1)"
+    },
+    {
+      "pic": "shapes/cone",
+      "why": "ein Kegelstumpf / Lampenschirm (Design §1)"
+    },
+    {
+      "pic": "easter/chick",
+      "why": "wirkt wie ein Entenküken: ein Kind sagt „Ente“ (Review 2026-09-23)"
+    },
+    {
+      "pic": "classroom/lunchbox",
+      "why": "wirkt wie eine Schatzkiste (Review 2026-09-23)"
+    },
+    {
+      "pic": "breakfast/milk",
+      "why": "eine Milchflasche: ein Kind sagt „Flasche“ (sch) statt „Milch“ (de Panel, geöffnet)"
+    },
+    {
+      "pic": "forest creatures/moose",
+      "why": "wird als Hirsch oder Rentier gelesen; „Hirsch“ trägt sch (de Panel, geöffnet)"
+    },
+    {
+      "pic": "bakery/cake",
+      "why": "ein Tortenstück mit Sahne: ein Kind sagt „Torte“ (de Panel, geöffnet)"
+    },
+    {
+      "pic": "forest creatures/deer",
+      "why": "ein Kind sagt oft „Reh“ statt „Hirsch“ (de Panel)"
+    },
+    {
+      "pic": "around the house/brush",
+      "why": "ein Malpinsel, kein Bürste (de Panel, geöffnet)"
+    },
+    {
+      "pic": "fruits/plum",
+      "why": "sieht aus wie ein roter Apfel (Befund aus sv #35)"
+    },
+    {
+      "pic": "christmas/tree",
+      "why": "ein geschmückter Weihnachtsbaum: „Weihnachtsbaum“ trägt ch (de Panel)"
+    }
+  ],
+  "strings": {
+    "base": {
+      "title": "Buchstabengruppen sch, ch, au: Welche hörst du?",
+      "instruction": "Sprich den Namen jedes Bildes und kreise die Buchstabengruppe ein, die du hörst."
+    },
+    "sort-two": {
+      "title": "Buchstabengruppen sortieren: sch oder au",
+      "instruction": "Sprich den Namen jedes Bildes und verbinde es mit einer Linie mit der Buchstabengruppe, die du hörst."
+    },
+    "gap": {
+      "title": "Fehlende Buchstabengruppe einsetzen: sch, ch oder au",
+      "instruction": "Sprich jedes Bildwort und schreibe die fehlende Buchstabengruppe von oben in das gestrichelte Feld."
+    },
+    "match": {
+      "title": "Wörter mit sch, ch und au lesen und zuordnen",
+      "instruction": "Lies jedes Wort, die Buchstabengruppe ist markiert, und verbinde es mit einer Linie mit dem passenden Bild."
+    },
+    "position": {
+      "title": "Wo hörst du sch, ch oder au im Wort?",
+      "instruction": "Sprich jedes Bildwort und male das Feld an, wo du die Buchstabengruppe hörst: am Anfang, in der Mitte oder am Ende."
+    },
+    "text": {
+      "title": "Wörter mit sch in Sätzen finden und zählen",
+      "instruction": "Lies die Sätze, kreise jedes sch ein und schreibe in das Kästchen, wie oft es im Satz vorkommt."
+    }
+  }
+}

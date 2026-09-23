@@ -1,0 +1,265 @@
+{
+  "kin": {
+    "M": "mom",
+    "F": "dad",
+    "Z": "sister",
+    "B": "brother",
+    "Zy": "babySister",
+    "By": "babyBrother",
+    "MM": "grandma",
+    "FM": "grandma",
+    "MF": "grandpa",
+    "FF": "grandpa",
+    "MZ": "aunt",
+    "FZ": "aunt",
+    "MB": "uncle",
+    "FB": "uncle",
+    "MZD": "cousinF",
+    "MZS": "cousinM",
+    "MBD": "cousinF",
+    "MBS": "cousinM",
+    "FZD": "cousinF",
+    "FZS": "cousinM",
+    "FBD": "cousinF",
+    "FBS": "cousinM"
+  },
+  "words": {
+    "mom": {
+      "text": "mamãe",
+      "register": "K"
+    },
+    "dad": {
+      "text": "papai",
+      "register": "K"
+    },
+    "sister": {
+      "text": "irmã",
+      "register": "K"
+    },
+    "brother": {
+      "text": "irmão",
+      "register": "K"
+    },
+    "babySister": {
+      "text": "irmãzinha",
+      "register": "K"
+    },
+    "babyBrother": {
+      "text": "irmãozinho",
+      "register": "K"
+    },
+    "grandma": {
+      "text": "vovó",
+      "register": "K"
+    },
+    "grandpa": {
+      "text": "vovô",
+      "register": "K"
+    },
+    "aunt": {
+      "text": "tia",
+      "register": "K"
+    },
+    "uncle": {
+      "text": "tio",
+      "register": "K"
+    },
+    "cousinF": {
+      "text": "prima",
+      "register": "K"
+    },
+    "cousinM": {
+      "text": "primo",
+      "register": "K"
+    }
+  },
+  "names": [
+    {
+      "name": "Alice",
+      "sex": "f",
+      "gen": "da Alice"
+    },
+    {
+      "name": "Davi",
+      "sex": "m",
+      "gen": "do Davi"
+    },
+    {
+      "name": "Sofia",
+      "sex": "f",
+      "gen": "da Sofia"
+    },
+    {
+      "name": "Enzo",
+      "sex": "m",
+      "gen": "do Enzo"
+    },
+    {
+      "name": "Júlia",
+      "sex": "f",
+      "gen": "da Júlia"
+    },
+    {
+      "name": "Caio",
+      "sex": "m",
+      "gen": "do Caio"
+    },
+    {
+      "name": "Elisa",
+      "sex": "f",
+      "gen": "da Elisa"
+    },
+    {
+      "name": "Theo",
+      "sex": "m",
+      "gen": "do Theo"
+    },
+    {
+      "name": "Nina",
+      "sex": "f",
+      "gen": "da Nina"
+    },
+    {
+      "name": "Léo",
+      "sex": "m",
+      "gen": "do Léo"
+    },
+    {
+      "name": "Ana",
+      "sex": "f",
+      "gen": "da Ana"
+    },
+    {
+      "name": "Ian",
+      "sex": "m",
+      "gen": "do Ian"
+    },
+    {
+      "name": "Bia",
+      "sex": "f",
+      "gen": "da Bia"
+    },
+    {
+      "name": "Pedro",
+      "sex": "m",
+      "gen": "do Pedro"
+    }
+  ],
+  "clueFrames": {
+    "M": "{name} é a mãe {egoGen}.",
+    "F": "{name} é o pai {egoGen}.",
+    "Z": "{name} é a irmã {egoGen}.",
+    "B": "{name} é o irmão {egoGen}.",
+    "Zy": "{name} é a irmãzinha {egoGen}.",
+    "By": "{name} é o irmãozinho {egoGen}.",
+    "MM": "{name} é a avó {egoGen}.",
+    "FM": "{name} é a avó {egoGen}.",
+    "MF": "{name} é o avô {egoGen}.",
+    "FF": "{name} é o avô {egoGen}.",
+    "MZ": "{name} é a tia {egoGen}.",
+    "FZ": "{name} é a tia {egoGen}.",
+    "MB": "{name} é o tio {egoGen}.",
+    "FB": "{name} é o tio {egoGen}.",
+    "MZD": "{name} é a prima {egoGen}.",
+    "MZS": "{name} é o primo {egoGen}.",
+    "MBD": "{name} é a prima {egoGen}.",
+    "MBS": "{name} é o primo {egoGen}.",
+    "FZD": "{name} é a prima {egoGen}.",
+    "FZS": "{name} é o primo {egoGen}.",
+    "FBD": "{name} é a prima {egoGen}.",
+    "FBS": "{name} é o primo {egoGen}."
+  },
+  "riddleFrames": {
+    "MM": "A mãe da mãe {egoGen} é ___ {egoGen}.",
+    "FM": "A mãe do pai {egoGen} é ___ {egoGen}.",
+    "MF": "O pai da mãe {egoGen} é ___ {egoGen}.",
+    "FF": "O pai do pai {egoGen} é ___ {egoGen}.",
+    "MZ": "A irmã da mãe {egoGen} é ___ {egoGen}.",
+    "FZ": "A irmã do pai {egoGen} é ___ {egoGen}.",
+    "MB": "O irmão da mãe {egoGen} é ___ {egoGen}.",
+    "FB": "O irmão do pai {egoGen} é ___ {egoGen}."
+  },
+  "distractors": [
+    "mom",
+    "dad"
+  ],
+  "repeatsNote": true,
+  "repeatsNoteText": "uma palavra pode servir para mais de uma adivinha",
+  "generationOK": [
+    "grandma",
+    "grandpa",
+    "mom",
+    "dad",
+    "aunt",
+    "uncle",
+    "sister",
+    "brother",
+    "cousinF",
+    "cousinM",
+    "babySister",
+    "babyBrother"
+  ],
+  "agreeing": [
+    "o",
+    "a",
+    "os",
+    "as",
+    "um",
+    "uma",
+    "seu",
+    "sua"
+  ],
+  "firstPerson": [
+    "meu",
+    "minha",
+    "meus",
+    "minhas",
+    "eu",
+    "nós",
+    "nosso",
+    "nossa"
+  ],
+  "meWord": "eu",
+  "forbiddenInTemplate": [
+    "mamãe",
+    "papai",
+    "mãe",
+    "pai",
+    "sua família"
+  ],
+  "instructionBans": [
+    "marque",
+    "recorte",
+    "pinte",
+    "grátis",
+    "gabarito",
+    "com respostas"
+  ],
+  "familyHead": "Membros da família",
+  "strings": {
+    "base": {
+      "title": "Membros da família: quem é quem?",
+      "instruction": "Encontre cada pessoa na árvore e escreva o número dela no quadrinho ao lado da palavra que diz quem ela é."
+    },
+    "generations": {
+      "title": "Gerações da família: do mais velho ao mais novo",
+      "instruction": "Em cada fileira, escreva 1, 2 e 3 nos quadrinhos para pôr as palavras em ordem, da geração mais velha para a mais nova."
+    },
+    "trace-words": {
+      "title": "Membros da família: cubra e escreva",
+      "instruction": "Encontre na árvore a pessoa com o mesmo número, cubra a palavra pontilhada e escreva-a de novo na linha."
+    },
+    "tree-clues": {
+      "title": "Árvore genealógica: leia as pistas",
+      "instruction": "Leia as pistas e escreva cada nome no quadro de nome certo da árvore."
+    },
+    "relation-riddles": {
+      "title": "Graus de parentesco: adivinhas",
+      "instruction": "Leia cada adivinha e escreva na linha a palavra certa do quadro; uma palavra pode servir para mais de uma adivinha."
+    },
+    "tree-template": {
+      "title": "Árvore genealógica para completar",
+      "instruction": "Desenhe nas molduras as pessoas que são importantes para você e escreva o nome delas nas linhas."
+    }
+  }
+}

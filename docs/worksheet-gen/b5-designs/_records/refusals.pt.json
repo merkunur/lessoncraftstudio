@@ -1,0 +1,6 @@
+{
+  "locale": "pt",
+  "refusals": {
+    "G1-394": "Refused for pt-BR: nenhuma palavra portuguesa termina em nh, lh ou qu, so the \"end\" position is unreachable and the face would have only two answer positions (design §3 F4, FACE_REFUSALS pt)."
+  }
+}

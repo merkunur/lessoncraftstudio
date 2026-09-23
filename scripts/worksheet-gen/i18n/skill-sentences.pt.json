@@ -378,5 +378,45 @@
   "rounding": {
     "full": "Arredondamento de números no 3º ano: arredondar à dezena e à centena, separar para cima e para baixo, estimar somas e achar os números de um alvo.",
     "short": "Arredondar números à dezena e à centena"
+  },
+  "2d-shapes": {
+    "full": "Nomear o círculo, o quadrado, o triângulo e o retângulo mesmo virados, esticados ou pequenos, e separar os que só parecem, firma o nome das figuras planas.",
+    "short": "Nomear figuras planas em qualquer posição."
+  },
+  "road-safety": {
+    "full": "Ler a luz acesa do semáforo, seguir os passos para atravessar a rua e saber o que pede cada placa de trânsito do Brasil ensina as regras que protegem a criança na rua.",
+    "short": "Semáforo, travessia e placas de trânsito."
+  },
+  "family": {
+    "full": "Encontrar cada pessoa na árvore genealógica e dizer quem ela é para uma criança ensina as palavras de parentesco do dia a dia, de vovó a primo.",
+    "short": "Palavras de parentesco e a árvore genealógica."
+  },
+  "plants": {
+    "full": "Nomear raiz, caule, folha, flor, fruto e semente numa planta inteira, e depois ver o que cada parte faz e do que a planta precisa, forma o primeiro vocabulário de ciências.",
+    "short": "Partes da planta, suas funções e o que ela precisa."
+  },
+  "animal-life-cycles": {
+    "full": "Pôr em ordem as fases da borboleta e do sapo, nomear ovo, lagarta e crisálida e comparar as duas metamorfoses mostra como os animais crescem e mudam.",
+    "short": "Fases da borboleta, do sapo e da joaninha."
+  },
+  "earth-and-space": {
+    "full": "Separar o que vale para o Sol, a Terra e a Lua, ordenar as fases da Lua e os planetas e entender o dia e a noite dá à criança os primeiros fatos do Sistema Solar.",
+    "short": "Sol, Terra, Lua, fases da Lua e planetas."
+  },
+  "maps": {
+    "full": "Ler a legenda de um mapa, ver as coisas de cima, completar a rosa dos ventos com N, L, S e O e nomear os continentes ensina a ler mapas de verdade.",
+    "short": "Leitura de mapas e pontos cardeais."
+  },
+  "digraphs": {
+    "full": "Ouvir e ler os dígrafos nh, lh e qu em palavras com figuras e em frases ensina que duas letras juntas podem formar um só som na leitura.",
+    "short": "Ler e ouvir os dígrafos nh, lh e qu."
+  },
+  "synonyms": {
+    "full": "Achar palavras de significado parecido, ligar pares, ordenar palavras do mais fraco ao mais forte e trocar o disse por verbos melhores amplia o vocabulário da criança.",
+    "short": "Sinônimos, graus de intensidade e verbos de elocução."
+  },
+  "word-parts": {
+    "full": "Separar palavras pela palavra primitiva, achar o que três derivadas têm em comum e escolher prefixos e sufixos pelo significado mostra como as palavras se formam.",
+    "short": "Palavras primitivas, prefixos e sufixos."
   }
 }

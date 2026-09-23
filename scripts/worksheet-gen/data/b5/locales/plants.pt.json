@@ -1,0 +1,77 @@
+{
+  "partWords": {
+    "root": "raiz",
+    "stem": "caule",
+    "leaf": "folha",
+    "flower": "flor",
+    "fruit": "fruto",
+    "seed": "semente"
+  },
+  "flowerWords": {
+    "petal": "pétala",
+    "sepal": "sépala",
+    "stamen": "estame",
+    "pistil": "pistilo",
+    "stalk": "pedúnculo",
+    "ovary": "ovário"
+  },
+  "jobs": {
+    "root": "tira a água do solo e segura a planta na terra",
+    "stem": "mantém a planta em pé e leva a água para cima",
+    "leaf": "produz o alimento da planta com a luz do sol",
+    "flower": "atrai as abelhas com suas cores bonitas",
+    "seed": "pode germinar e virar uma nova planta"
+  },
+  "partStems": [
+    "raiz",
+    "raízes",
+    "caule",
+    "caules",
+    "folha",
+    "folhas",
+    "folhagem",
+    "flor",
+    "flores",
+    "florzinha",
+    "fruto",
+    "frutos",
+    "semente",
+    "sementes",
+    "pétala",
+    "pétalas"
+  ],
+  "forbidden": [
+    "fruta",
+    "tronco",
+    "talo",
+    "broto"
+  ],
+  "refuseItems": [],
+  "refuse": [],
+  "strings": {
+    "base": {
+      "title": "Partes da planta",
+      "instruction": "Siga cada etiqueta numerada até uma parte da planta e escreva o nome dessa parte, do quadro de palavras, na linha com o mesmo número."
+    },
+    "needs": {
+      "title": "Do que as plantas precisam para crescer",
+      "instruction": "Observe o que cada planta recebe e circule a planta que recebe as duas coisas de que precisa para crescer."
+    },
+    "cycle": {
+      "title": "Ciclo de vida das plantas: da semente à planta",
+      "instruction": "Recorte as quatro figuras e cole cada uma no próximo quadrinho vazio, seguindo as setas a partir da semente."
+    },
+    "eat": {
+      "title": "Partes da planta que comemos",
+      "instruction": "Observe cada alimento e circule a parte da planta que nós comemos."
+    },
+    "jobs": {
+      "title": "Partes da planta e suas funções",
+      "instruction": "Leia o que cada parte faz, encontre essa parte na planta e escreva o número da etiqueta dela no quadrinho."
+    },
+    "flower": {
+      "title": "Partes da flor",
+      "instruction": "Escreva o nome de cada parte numerada da flor na linha dela e risque a palavra do quadro que não é parte da flor."
+    }
+  }
+}

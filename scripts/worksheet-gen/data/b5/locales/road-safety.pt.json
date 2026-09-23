@@ -1,0 +1,250 @@
+{
+  "convention": "br",
+  "signs": {
+    "stop": {
+      "code": "R-1",
+      "regRef": "CTB Anexo II, R-1 Parada obrigatória",
+      "shape": "octagon",
+      "rim": "white",
+      "field": "red",
+      "glyph": "text",
+      "text": "PARE",
+      "slash": false,
+      "class": "regulamentacao",
+      "signedBy": "pt-BR panel nt10-E 2026-09-23: checked against CTB (Lei 9.503/1997) Anexo II and the Manual Brasileiro de Sinalização de Trânsito (Contran) Vol. I (regulamentação) / Vol. II (advertência); pictogram detail simplified for print"
+    },
+    "yield": {
+      "code": "R-2",
+      "regRef": "CTB Anexo II, R-2 Dê a preferência",
+      "shape": "triDown",
+      "rim": "red",
+      "field": "white",
+      "glyph": "none",
+      "text": "",
+      "slash": false,
+      "class": "regulamentacao",
+      "signedBy": "pt-BR panel nt10-E 2026-09-23: checked against CTB (Lei 9.503/1997) Anexo II and the Manual Brasileiro de Sinalização de Trânsito (Contran) Vol. I (regulamentação) / Vol. II (advertência); pictogram detail simplified for print"
+    },
+    "no-bikes": {
+      "code": "R-12",
+      "regRef": "CTB Anexo II, R-12 Proibido trânsito de bicicletas",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": true,
+      "class": "regulamentacao",
+      "signedBy": "pt-BR panel nt10-E 2026-09-23: checked against CTB (Lei 9.503/1997) Anexo II and the Manual Brasileiro de Sinalização de Trânsito (Contran) Vol. I (regulamentação) / Vol. II (advertência); pictogram detail simplified for print"
+    },
+    "no-pedestrians": {
+      "code": "R-29",
+      "regRef": "CTB Anexo II, R-29 Proibido trânsito de pedestres",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "walker",
+      "text": "",
+      "slash": true,
+      "class": "regulamentacao",
+      "signedBy": "pt-BR panel nt10-E 2026-09-23: checked against CTB (Lei 9.503/1997) Anexo II and the Manual Brasileiro de Sinalização de Trânsito (Contran) Vol. I (regulamentação) / Vol. II (advertência); pictogram detail simplified for print"
+    },
+    "crossing": {
+      "code": "A-32b",
+      "regRef": "CTB Anexo II, A-32b Passagem sinalizada de pedestres",
+      "shape": "diamond",
+      "rim": "ink",
+      "field": "yellow",
+      "glyph": "walkerOnStripes",
+      "text": "",
+      "slash": false,
+      "class": "advertencia",
+      "signedBy": "pt-BR panel nt10-E 2026-09-23: checked against CTB (Lei 9.503/1997) Anexo II and the Manual Brasileiro de Sinalização de Trânsito (Contran) Vol. I (regulamentação) / Vol. II (advertência); pictogram detail simplified for print"
+    },
+    "pedestrian-warning": {
+      "code": "A-32a",
+      "regRef": "CTB Anexo II, A-32a Trânsito de pedestres",
+      "shape": "diamond",
+      "rim": "ink",
+      "field": "yellow",
+      "glyph": "walker",
+      "text": "",
+      "slash": false,
+      "class": "advertencia",
+      "signedBy": "pt-BR panel nt10-E 2026-09-23: checked against CTB (Lei 9.503/1997) Anexo II and the Manual Brasileiro de Sinalização de Trânsito (Contran) Vol. I (regulamentação) / Vol. II (advertência); pictogram detail simplified for print"
+    },
+    "school": {
+      "code": "A-33a",
+      "regRef": "CTB Anexo II, A-33a Área escolar",
+      "shape": "diamond",
+      "rim": "ink",
+      "field": "yellow",
+      "glyph": "twoChildren",
+      "text": "",
+      "slash": false,
+      "class": "advertencia",
+      "signedBy": "pt-BR panel nt10-E 2026-09-23: checked against CTB (Lei 9.503/1997) Anexo II and the Manual Brasileiro de Sinalização de Trânsito (Contran) Vol. I (regulamentação) / Vol. II (advertência); pictogram detail simplified for print"
+    },
+    "signal-ahead": {
+      "code": "A-14",
+      "regRef": "CTB Anexo II, A-14 Semáforo à frente",
+      "shape": "diamond",
+      "rim": "ink",
+      "field": "yellow",
+      "glyph": "trafficLightMini",
+      "text": "",
+      "slash": false,
+      "class": "advertencia",
+      "signedBy": "pt-BR panel nt10-E 2026-09-23: checked against CTB (Lei 9.503/1997) Anexo II and the Manual Brasileiro de Sinalização de Trânsito (Contran) Vol. I (regulamentação) / Vol. II (advertência); pictogram detail simplified for print"
+    },
+    "bike-warning": {
+      "code": "A-30a",
+      "regRef": "CTB Anexo II, A-30a Trânsito de ciclistas",
+      "shape": "diamond",
+      "rim": "ink",
+      "field": "yellow",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "advertencia",
+      "signedBy": "pt-BR panel nt10-E 2026-09-23: checked against CTB (Lei 9.503/1997) Anexo II and the Manual Brasileiro de Sinalização de Trânsito (Contran) Vol. I (regulamentação) / Vol. II (advertência); pictogram detail simplified for print"
+    }
+  },
+  "setG1": [
+    "stop",
+    "yield",
+    "crossing",
+    "school",
+    "signal-ahead",
+    "no-bikes"
+  ],
+  "kindsPool": [
+    "stop",
+    "yield",
+    "no-bikes",
+    "no-pedestrians",
+    "crossing",
+    "pedestrian-warning",
+    "school",
+    "signal-ahead",
+    "bike-warning"
+  ],
+  "classes": [
+    {
+      "key": "regulamentacao",
+      "label": "Regulamentação"
+    },
+    {
+      "key": "advertencia",
+      "label": "Advertência"
+    }
+  ],
+  "pedLight": {
+    "stop": "standing",
+    "go": "walking",
+    "lamps": 2
+  },
+  "amber": {
+    "token": "codeYellow",
+    "word": "amarelo"
+  },
+  "amberMeans": "stop",
+  "chipWords": {
+    "ped": {
+      "stop": "espere",
+      "go": "atravesse"
+    },
+    "car": {
+      "stop": "pare",
+      "go": "siga"
+    }
+  },
+  "meanings": {
+    "stop": "Todo carro deve parar aqui e olhar antes de seguir.",
+    "yield": "Diminua e deixe os outros passarem primeiro.",
+    "crossing": "Atenção: aqui as pessoas atravessam na faixa.",
+    "school": "Perto daqui tem uma escola com muitas crianças.",
+    "signal-ahead": "Atenção: logo à frente tem um semáforo.",
+    "no-bikes": "Bicicletas não podem andar nesta rua."
+  },
+  "situations": {
+    "stop": [
+      "Nesta esquina, todo carro tem que parar antes de seguir.",
+      "O motorista precisa parar de vez e olhar para os dois lados."
+    ],
+    "yield": [
+      "Diminua e deixe os carros da rua grande passarem primeiro.",
+      "O motorista espera uma brecha e deixa os outros passarem antes."
+    ],
+    "crossing": [
+      "Aqui tem uma faixa onde as pessoas atravessam a rua.",
+      "Os motoristas ficam atentos: aqui as pessoas cruzam na faixa."
+    ],
+    "pedestrian-warning": [
+      "Nesta estrada pode haver pessoas andando pela beira.",
+      "Cuidado: gente caminha por esta rua, mesmo sem faixa."
+    ],
+    "school": [
+      "Muitas crianças passam por aqui a caminho da escola.",
+      "Os carros vão devagar, porque aqui tem alunos chegando e saindo."
+    ],
+    "signal-ahead": [
+      "Um pouco mais à frente, nesta rua, tem um semáforo.",
+      "Prepare-se: logo vai aparecer uma luz vermelha, amarela e verde."
+    ],
+    "no-bikes": [
+      "Nesta rua não é permitido andar de bicicleta.",
+      "Aqui as bicicletas não podem passar; leve a sua por outro caminho."
+    ],
+    "bike-warning": [
+      "Cuidado com as crianças que andam de bicicleta nesta rua.",
+      "Muitos ciclistas usam esta estrada; dirija com atenção."
+    ],
+    "no-pedestrians": [
+      "Neste lugar as pessoas não podem atravessar a pé.",
+      "Pedestres não podem passar aqui; use a faixa mais adiante."
+    ]
+  },
+  "steps": [
+    "stop-kerb",
+    "look-left",
+    "look-right",
+    "look-left",
+    "walk-across"
+  ],
+  "listenStep": null,
+  "familyHead": "Educação no trânsito",
+  "signHead": "Placas de trânsito",
+  "childAnchors": [
+    "educação infantil",
+    "1º ano",
+    "2º ano",
+    "para crianças"
+  ],
+  "strings": {
+    "base": {
+      "title": "Educação no trânsito: pode ir ou deve esperar?",
+      "instruction": "Olhe a luz que está acesa em cada semáforo e circule o que fazer."
+    },
+    "colour-lights": {
+      "title": "Educação no trânsito: pinte o semáforo",
+      "instruction": "Encontre a luz com raios em cada semáforo e pinte-a com a cor que ela acende."
+    },
+    "crossing-steps": {
+      "title": "Educação no trânsito: como atravessar a rua",
+      "instruction": "Escreva de 1 a 5 nos quadrinhos para mostrar como atravessar a rua."
+    },
+    "sign-meaning": {
+      "title": "Educação no trânsito: placas e seus significados",
+      "instruction": "Ligue cada placa de trânsito ao que ela quer dizer."
+    },
+    "sign-kinds": {
+      "title": "Educação no trânsito: placas de regulamentação e advertência",
+      "instruction": "Escreva a letra de cada placa nos quadrinhos do grupo dela."
+    },
+    "sign-quiz": {
+      "title": "Educação no trânsito: qual é a placa?",
+      "instruction": "Leia cada frase e circule a única placa que combina com ela."
+    }
+  }
+}

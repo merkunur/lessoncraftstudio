@@ -1,0 +1,135 @@
+{
+  "stageWords": {
+    "butterfly": {
+      "egg": "Ei",
+      "larva": "Raupe",
+      "pupa": "Puppe",
+      "adult": "Schmetterling"
+    }
+  },
+  "decoy": {
+    "frog.tadpole": "Kaulquappe"
+  },
+  "landingWords": {
+    "frog": {
+      "spawn": "Froschlaich",
+      "tadpole": "Kaulquappe",
+      "legged": "Kaulquappe mit Beinen",
+      "froglet": "Jungfrosch",
+      "adult": "Frosch"
+    },
+    "ladybird": {
+      "egg": "Ei",
+      "larva": "Larve",
+      "pupa": "Puppe",
+      "adult": "Marienkäfer"
+    }
+  },
+  "statements": {
+    "egg": "Es schlüpft aus einem Ei.",
+    "change": "Als Junges sieht es ganz anders aus als das erwachsene Tier.",
+    "pupa": "Eine Zeit lang ist es eine Puppe.",
+    "wings": "Das erwachsene Tier hat Flügel.",
+    "sixlegs": "Das erwachsene Tier hat sechs Beine.",
+    "nectar": "Das erwachsene Tier trinkt Nektar aus Blüten.",
+    "tail": "Als Junges schwimmt es mit einem Schwanz.",
+    "water": "Als Junges lebt es im Wasser.",
+    "nolegs": "Als Junges hat es zuerst gar keine Beine.",
+    "fourlegs": "Das erwachsene Tier hat vier Beine.",
+    "insects": "Das erwachsene Tier fängt Insekten und frisst sie."
+  },
+  "drop": [],
+  "familyName": "Entwicklung von Tieren",
+  "spawnForm": "clump",
+  "forbidden": [
+    "Kokon",
+    "Kokons",
+    "Lebenszyklus",
+    "Lebenszyklen"
+  ],
+  "genreBare": [
+    "Lebenszyklus",
+    "Lebenszyklen"
+  ],
+  "pictureWord": "Bild",
+  "instructionBans": {
+    "G1-377": [
+      "ausschneiden",
+      "schneide",
+      "kleben",
+      "klebe",
+      "ankreuzen",
+      "kreuze",
+      "einkreisen",
+      "kreise",
+      "Buchstabe",
+      "Buchstaben"
+    ],
+    "G1-389": [
+      "schreibe",
+      "ankreuzen",
+      "kreuze",
+      "einkreisen",
+      "kreise"
+    ],
+    "G2-365": [
+      "ausschneiden",
+      "schneide",
+      "ankreuzen",
+      "kreuze",
+      "einkreisen",
+      "kreise"
+    ],
+    "G2-366": [
+      "ausschneiden",
+      "schneide",
+      "ankreuzen",
+      "kreuze",
+      "einkreisen",
+      "kreise",
+      "Zahl",
+      "Zahlen"
+    ],
+    "G3-393": [
+      "einkreisen",
+      "kreise",
+      "ausschneiden",
+      "schneide",
+      "schreibe"
+    ],
+    "G1-390": [
+      "schreibe",
+      "ankreuzen",
+      "kreuze",
+      "ausschneiden",
+      "schneide"
+    ]
+  },
+  "refuse": [],
+  "strings": {
+    "G1-377": {
+      "title": "Vom Ei zum Schmetterling",
+      "instruction": "Das Ei ist die 1: schreibe 2, 3 und 4 der Reihe nach in die Kästchen und ins letzte die Zahl des Bildes, das nach dem Schmetterling kommt."
+    },
+    "G1-389": {
+      "title": "Vom Laich zum Frosch: ausschneiden und kleben",
+      "instruction": "Schneide die vier Quadrate aus und klebe jedes auf sein Seerosenblatt, rund um den Teich vom Froschlaich bis zum Frosch."
+    },
+    "G2-365": {
+      "title": "Entwicklung des Schmetterlings: Stadien beschriften",
+      "instruction": "Schreibe jeden Namen aus dem Wörterkasten auf die Linie unter seinem Bild und streiche den einen Namen durch, der nicht dazugehört."
+    },
+    "G2-366": {
+      "title": "Metamorphose: Welches Tier wird daraus?",
+      "instruction": "Schau dir jedes junge Tier an und schreibe seinen Buchstaben in ein Kästchen unter dem erwachsenen Tier, das aus ihm wird."
+    },
+    "G3-393": {
+      "title": "Schmetterling und Frosch: Entwicklung im Vergleich",
+      "instruction": "Lies jeden Satz und kreuze den Schmetterling, den Frosch oder beide an, wenn der Satz für das Tier stimmt."
+    },
+    "G1-390": {
+      "title": "Was kommt danach? Schmetterling, Frosch und Marienkäfer",
+      "instruction": "Schau dir das erste Bild in jeder Reihe an und kreise das Bild ein, das direkt danach kommt."
+    }
+  }
+}

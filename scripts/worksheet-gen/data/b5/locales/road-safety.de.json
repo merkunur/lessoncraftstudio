@@ -1,0 +1,285 @@
+{
+  "convention": "vienna",
+  "signs": {
+    "stop": {
+      "code": "Z 206",
+      "regRef": "StVO Anlage 2 (Vorschriftzeichen), Z 206 Halt. Vorfahrt gewähren.",
+      "shape": "octagon",
+      "rim": "white",
+      "field": "red",
+      "glyph": "text",
+      "text": "STOP",
+      "slash": false,
+      "class": "priority",
+      "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+    },
+    "crossing": {
+      "code": "Z 350",
+      "regRef": "StVO Anlage 3 (Richtzeichen), Z 350 Fußgängerüberweg",
+      "shape": "square",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "crossingTriangle",
+      "text": "",
+      "slash": false,
+      "class": "information",
+      "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+    },
+    "children": {
+      "code": "Z 136",
+      "regRef": "StVO Anlage 1 (Gefahrzeichen), Z 136 Kinder",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "twoChildren",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+    },
+    "signal-ahead": {
+      "code": "Z 131",
+      "regRef": "StVO Anlage 1 (Gefahrzeichen), Z 131 Lichtzeichenanlage",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "trafficLightMini",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+    },
+    "bike-warning": {
+      "code": "Z 138",
+      "regRef": "StVO Anlage 1 (Gefahrzeichen), Z 138 Radverkehr",
+      "shape": "triUp",
+      "rim": "red",
+      "field": "white",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "warning",
+      "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+    },
+    "no-entry": {
+      "code": "Z 267",
+      "regRef": "StVO Anlage 2 (Vorschriftzeichen), Z 267 Verbot der Einfahrt",
+      "shape": "circle",
+      "rim": null,
+      "field": "red",
+      "glyph": "bar",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+    },
+    "no-vehicles": {
+      "code": "Z 250",
+      "regRef": "StVO Anlage 2 (Vorschriftzeichen), Z 250 Verbot für Fahrzeuge aller Art",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "none",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+    },
+    "no-bikes": {
+      "code": "Z 254",
+      "regRef": "StVO Anlage 2 (Vorschriftzeichen), Z 254 Verbot für Radverkehr (kein Schrägbalken)",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+    },
+    "no-pedestrians": {
+      "code": "Z 259",
+      "regRef": "StVO Anlage 2 (Vorschriftzeichen), Z 259 Verbot für Fußgänger (kein Schrägbalken)",
+      "shape": "circle",
+      "rim": "red",
+      "field": "white",
+      "glyph": "walker",
+      "text": "",
+      "slash": false,
+      "class": "prohibition",
+      "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+    },
+    "footpath": {
+      "code": "Z 239",
+      "regRef": "StVO Anlage 2 (Vorschriftzeichen), Z 239 Gehweg (Frau mit Kind)",
+      "shape": "circle",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "adultChild",
+      "text": "",
+      "slash": false,
+      "class": "mandatory",
+      "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+    },
+    "bike-path": {
+      "code": "Z 237",
+      "regRef": "StVO Anlage 2 (Vorschriftzeichen), Z 237 Radweg",
+      "shape": "circle",
+      "rim": "white",
+      "field": "blue",
+      "glyph": "bicycle",
+      "text": "",
+      "slash": false,
+      "class": "mandatory",
+      "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+    }
+  },
+  "setG1": [
+    "stop",
+    "crossing",
+    "children",
+    "no-entry",
+    "footpath",
+    "bike-path"
+  ],
+  "kindsPool": [
+    "children",
+    "signal-ahead",
+    "bike-warning",
+    "no-vehicles",
+    "no-bikes",
+    "no-pedestrians",
+    "footpath",
+    "bike-path"
+  ],
+  "classes": [
+    {
+      "key": "warning",
+      "label": "Gefahrzeichen"
+    },
+    {
+      "key": "prohibition",
+      "label": "Verbotszeichen"
+    },
+    {
+      "key": "mandatory",
+      "label": "Gebotszeichen"
+    }
+  ],
+  "pedLight": {
+    "stop": "standing",
+    "go": "walking",
+    "lamps": 2
+  },
+  "amber": {
+    "token": "codeYellow",
+    "word": "gelb"
+  },
+  "amberMeans": "stop",
+  "chipWords": {
+    "ped": {
+      "stop": "stehen",
+      "go": "gehen"
+    },
+    "car": {
+      "stop": "halten",
+      "go": "fahren"
+    }
+  },
+  "meanings": {
+    "stop": "Ganz anhalten und die anderen zuerst fahren lassen.",
+    "crossing": "Hier ist ein Zebrastreifen zum sicheren Überqueren.",
+    "children": "Achtung, hier können Kinder auf die Straße laufen.",
+    "no-entry": "Hier darf kein Fahrzeug hineinfahren.",
+    "footpath": "Dieser Weg ist nur für Fußgänger.",
+    "bike-path": "Dieser Weg ist nur für Radfahrer."
+  },
+  "situations": {
+    "stop": [
+      "An dieser Kreuzung muss jedes Auto ganz anhalten, auch wenn niemand kommt.",
+      "Hier müssen Autofahrer stehen bleiben und schauen, ob die Straße frei ist."
+    ],
+    "crossing": [
+      "Hier ist ein Zebrastreifen: Wer zu Fuß geht, kommt sicher über die Straße.",
+      "Autos müssen hier warten, wenn Kinder über den Zebrastreifen gehen wollen."
+    ],
+    "children": [
+      "Neben dieser Straße ist eine Schule, deshalb laufen hier oft Kinder.",
+      "Achtung, Autofahrer: Gleich neben der Straße liegt ein Spielplatz."
+    ],
+    "no-entry": [
+      "In diese Straße darf man von hier aus nicht hineinfahren.",
+      "Diese Einfahrt ist verboten, die Autos müssen einen anderen Weg nehmen."
+    ],
+    "footpath": [
+      "Dieser Weg ist nur für Menschen, die zu Fuß gehen.",
+      "Hier ist ein Gehweg: Auf ihm gehen die Leute zu Fuß."
+    ],
+    "bike-path": [
+      "Dieser Weg ist nur für Fahrräder gemacht.",
+      "Hier fährst du mit dem Fahrrad auf einem eigenen Weg."
+    ],
+    "signal-ahead": [
+      "Achtung, gleich kommt eine Ampel.",
+      "Bald gibt es hier Lichter, die auf Rot springen können."
+    ],
+    "bike-warning": [
+      "Achtung, Autofahrer: Hier fahren oft Kinder mit dem Rad über die Straße.",
+      "Vorsicht: Auf dieser Straße kommen viele Radfahrer."
+    ],
+    "no-vehicles": [
+      "Hier darf gar kein Fahrzeug fahren, kein Auto und auch kein Fahrrad.",
+      "Diese Straße ist für alle Fahrzeuge gesperrt, egal ob Auto oder Motorrad."
+    ],
+    "no-bikes": [
+      "Autos dürfen hier fahren, aber Fahrräder nicht.",
+      "Radfahren ist hier verboten, aber Autos dürfen weiterfahren."
+    ],
+    "no-pedestrians": [
+      "Auf dieser Straße dürfen keine Fußgänger gehen, nur Fahrzeuge fahren.",
+      "Zu Fuß ist dieser Weg verboten, Autos dürfen hier aber fahren."
+    ]
+  },
+  "steps": [
+    "stop-kerb",
+    "look-left",
+    "look-right",
+    "look-left",
+    "walk-across"
+  ],
+  "listenStep": null,
+  "familyHead": "Verkehrserziehung",
+  "signHead": "Verkehrszeichen",
+  "childAnchors": [
+    "für Kinder",
+    "Grundschule",
+    "Vorschule",
+    "Klasse"
+  ],
+  "strings": {
+    "base": {
+      "title": "Verkehrserziehung: Was zeigt die Ampel?",
+      "instruction": "Schau, welche Lampe leuchtet, und kreise ein, was du tun musst."
+    },
+    "colour-lights": {
+      "title": "Verkehrserziehung: Ampeln ausmalen",
+      "instruction": "Finde bei jeder Ampel die Lampe mit den Strahlen und male sie in ihrer Farbe an."
+    },
+    "crossing-steps": {
+      "title": "Sicher über die Straße gehen: Schritt für Schritt",
+      "instruction": "Schreibe 1 bis 5 in die Kästchen: So gehst du sicher über die Straße."
+    },
+    "sign-meaning": {
+      "title": "Verkehrszeichen und ihre Bedeutung für Kinder",
+      "instruction": "Verbinde jedes Verkehrszeichen mit dem Satz, der sagt, was es bedeutet."
+    },
+    "sign-kinds": {
+      "title": "Verkehrserziehung: Gefahr-, Verbots- und Gebotszeichen",
+      "instruction": "Schreibe den Buchstaben jedes Verkehrszeichens in ein Kästchen seiner Gruppe."
+    },
+    "sign-quiz": {
+      "title": "Verkehrszeichen-Quiz für die Grundschule",
+      "instruction": "Lies jeden Satz und kreise das eine Verkehrszeichen ein, das dazu passt."
+    }
+  }
+}

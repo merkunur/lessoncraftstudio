@@ -2618,5 +2618,241 @@
   "G3-391": {
     "title": "Arredondamento à dezena e à centena",
     "instruction": "Arredonde cada número duas vezes: à dezena na primeira caixa e à centena na segunda."
+  },
+  "K-368": {
+    "title": "Figuras geométricas planas",
+    "instruction": "Observe cada figura, até as viradas e as bem finas, e circule o nome dela."
+  },
+  "K-369": {
+    "title": "Educação no trânsito: pode ir ou deve esperar?",
+    "instruction": "Olhe a luz que está acesa em cada semáforo e circule o que fazer."
+  },
+  "K-370": {
+    "title": "Membros da família: quem é quem?",
+    "instruction": "Encontre cada pessoa na árvore e escreva o número dela no quadrinho ao lado da palavra que diz quem ela é."
+  },
+  "G1-376": {
+    "title": "Partes da planta",
+    "instruction": "Siga cada etiqueta numerada até uma parte da planta e escreva o nome dessa parte, do quadro de palavras, na linha com o mesmo número."
+  },
+  "G1-377": {
+    "title": "Ciclo de vida da borboleta",
+    "instruction": "O ovo é o 1: escreva 2, 3 e 4 nos quadrinhos na ordem em que ela cresce e, no último, o número da figura que vem depois da borboleta."
+  },
+  "G1-378": {
+    "title": "Sol, Terra e Lua",
+    "instruction": "Leia cada frase e marque um quadrinho: ela fala do Sol, da Terra ou da Lua?"
+  },
+  "G1-379": {
+    "title": "Ler a legenda do mapa",
+    "instruction": "Olhe a legenda do mapa, encontre cada coisa no mapa, conte quantas são e escreva o número no quadrinho."
+  },
+  "G1-380": {
+    "title": "Dígrafos nh, lh e qu: qual você ouve?",
+    "instruction": "Diga o nome de cada figura e circule o dígrafo que você ouve."
+  },
+  "G2-358": {
+    "title": "Sinônimos: circule a palavra com o mesmo significado",
+    "instruction": "Leia a palavra grande de cada cartão e circule a palavra embaixo dela que tem o mesmo significado."
+  },
+  "G2-359": {
+    "title": "Família de palavras: palavras primitivas e derivadas",
+    "instruction": "Leia cada palavra lá de cima e escreva-a numa linha do muro que está sobre a sua palavra primitiva."
+  },
+  "G1-381": {
+    "title": "Reconhecer figuras geométricas planas",
+    "instruction": "Leia o nome em cada fileira e circule todas as figuras que são mesmo aquela figura."
+  },
+  "K-371": {
+    "title": "Figuras geométricas planas no dia a dia",
+    "instruction": "Observe cada objeto e pinte a figura que ele tem: o círculo ou o retângulo."
+  },
+  "G1-382": {
+    "title": "Escreva o nome das figuras geométricas planas",
+    "instruction": "Observe cada figura e escreva o nome dela na linha, usando os nomes do quadro."
+  },
+  "G1-383": {
+    "title": "Adivinhas de figuras geométricas planas",
+    "instruction": "Leia cada adivinha e circule o nome da figura."
+  },
+  "K-372": {
+    "title": "Desenhe figuras planas na malha pontilhada",
+    "instruction": "Leia o nome da figura e ligue os pontos para desenhá-la, começando pela linha grossa quando houver uma."
+  },
+  "K-373": {
+    "title": "Educação no trânsito: pinte o semáforo",
+    "instruction": "Encontre a luz com raios em cada semáforo e pinte-a com a cor que ela acende."
+  },
+  "K-374": {
+    "title": "Educação no trânsito: como atravessar a rua",
+    "instruction": "Escreva de 1 a 5 nos quadrinhos para mostrar como atravessar a rua."
+  },
+  "G1-384": {
+    "title": "Educação no trânsito: placas e seus significados",
+    "instruction": "Ligue cada placa de trânsito ao que ela quer dizer."
+  },
+  "G2-360": {
+    "title": "Educação no trânsito: placas de regulamentação e advertência",
+    "instruction": "Escreva a letra de cada placa nos quadrinhos do grupo dela."
+  },
+  "G2-361": {
+    "title": "Educação no trânsito: qual é a placa?",
+    "instruction": "Leia cada frase e circule a única placa que combina com ela."
+  },
+  "G1-385": {
+    "title": "Gerações da família: do mais velho ao mais novo",
+    "instruction": "Em cada fileira, escreva 1, 2 e 3 nos quadrinhos para pôr as palavras em ordem, da geração mais velha para a mais nova."
+  },
+  "K-375": {
+    "title": "Membros da família: cubra e escreva",
+    "instruction": "Encontre na árvore a pessoa com o mesmo número, cubra a palavra pontilhada e escreva-a de novo na linha."
+  },
+  "G1-386": {
+    "title": "Árvore genealógica: leia as pistas",
+    "instruction": "Leia as pistas e escreva cada nome no quadro de nome certo da árvore."
+  },
+  "G2-362": {
+    "title": "Graus de parentesco: adivinhas",
+    "instruction": "Leia cada adivinha e escreva na linha a palavra certa do quadro; uma palavra pode servir para mais de uma adivinha."
+  },
+  "G1-387": {
+    "title": "Árvore genealógica para completar",
+    "instruction": "Desenhe nas molduras as pessoas que são importantes para você e escreva o nome delas nas linhas."
+  },
+  "K-376": {
+    "title": "Do que as plantas precisam para crescer",
+    "instruction": "Observe o que cada planta recebe e circule a planta que recebe as duas coisas de que precisa para crescer."
+  },
+  "G1-388": {
+    "title": "Ciclo de vida das plantas: da semente à planta",
+    "instruction": "Recorte as quatro figuras e cole cada uma no próximo quadrinho vazio, seguindo as setas a partir da semente."
+  },
+  "G2-363": {
+    "title": "Partes da planta que comemos",
+    "instruction": "Observe cada alimento e circule a parte da planta que nós comemos."
+  },
+  "G2-364": {
+    "title": "Partes da planta e suas funções",
+    "instruction": "Leia o que cada parte faz, encontre essa parte na planta e escreva o número da etiqueta dela no quadrinho."
+  },
+  "G3-392": {
+    "title": "Partes da flor",
+    "instruction": "Escreva o nome de cada parte numerada da flor na linha dela e risque a palavra do quadro que não é parte da flor."
+  },
+  "G1-389": {
+    "title": "Ciclo de vida do sapo: recorte e cole",
+    "instruction": "Recorte os quatro quadrados e cole cada um na sua vitória-régia, dando a volta na lagoa desde os ovos até o sapo."
+  },
+  "G2-365": {
+    "title": "Nomeie as fases do ciclo de vida da borboleta",
+    "instruction": "Escreva cada nome do quadro de palavras na linha embaixo da figura certa e risque o único nome que não faz parte."
+  },
+  "G2-366": {
+    "title": "Metamorfose: em que animal ele vai se transformar?",
+    "instruction": "Observe cada filhote e escreva a letra dele num quadrinho embaixo do animal adulto em que ele vai se transformar."
+  },
+  "G3-393": {
+    "title": "Ciclos de vida da borboleta e do sapo comparados",
+    "instruction": "Leia cada frase e marque a borboleta, o sapo ou os dois quando a frase for verdadeira para aquele animal."
+  },
+  "G1-390": {
+    "title": "O que vem depois? Borboleta, sapo e joaninha",
+    "instruction": "Observe a primeira figura de cada fileira e circule a que vem logo depois dela."
+  },
+  "G1-391": {
+    "title": "Fases da Lua em ordem",
+    "instruction": "A Lua parece crescer e depois diminuir: em cada fileira, escreva de 1 a 5 embaixo das luas nessa ordem."
+  },
+  "G2-367": {
+    "title": "Nomes das fases da Lua",
+    "instruction": "Observe cada lua e escreva o nome dela nas linhas, usando duas vezes cada palavra do quadro."
+  },
+  "G2-368": {
+    "title": "Por que existem o dia e a noite?",
+    "instruction": "Veja onde está o Sol e, em cada alfinete numerado, circule na tabela se ali é dia ou noite."
+  },
+  "G3-394": {
+    "title": "Planetas do Sistema Solar em ordem",
+    "instruction": "Escreva o nome de cada planeta na linha dele, começando perto do Sol, e use cada nome do quadro uma vez."
+  },
+  "G3-395": {
+    "title": "Planetas gigantes e planetas rochosos",
+    "instruction": "Separe os nomes e escreva cada um no quadro certo: planeta gigante, planeta rochoso pequeno ou não é planeta."
+  },
+  "K-377": {
+    "title": "Visão de cima e visão de lado",
+    "instruction": "Cada objeto está desenhado de lado: ligue-o com um traço ao mesmo objeto visto de cima, lá do alto."
+  },
+  "G2-369": {
+    "title": "Rosa dos ventos: complete os pontos cardeais",
+    "instruction": "Cada rosa dos ventos mostra uma letra: escreva as outras três letras nos quadrinhos vazios."
+  },
+  "G2-370": {
+    "title": "Os continentes: escreva os nomes",
+    "instruction": "Olhe o mapa-múndi e escreva o nome de cada continente numerado na linha dele, usando os nomes do quadro."
+  },
+  "G3-396": {
+    "title": "Continentes e oceanos",
+    "instruction": "Encontre cada continente e oceano no mapa e escreva o número dele no quadrinho ao lado do nome."
+  },
+  "G2-371": {
+    "title": "Pontos cardeais no mapa",
+    "instruction": "Encontre a primeira figura no mapa, olhe para o lado que a palavra indica e circule, das três figuras, a que está daquele lado."
+  },
+  "K-378": {
+    "title": "Dígrafos nh e lh: ligue cada figura",
+    "instruction": "Diga o nome de cada figura e ligue-a ao dígrafo que você ouve."
+  },
+  "G1-392": {
+    "title": "Complete com nh, lh ou qu: o dígrafo que falta",
+    "instruction": "Diga o nome de cada figura e escreva no espaço tracejado o dígrafo que falta, escolhendo um dos de cima."
+  },
+  "G1-393": {
+    "title": "Leia palavras com dígrafos e ligue às figuras",
+    "instruction": "Leia cada palavra, que tem o dígrafo destacado, e ligue-a à figura que ela nomeia."
+  },
+  "G2-372": {
+    "title": "Dígrafo nh em frases: circule e conte",
+    "instruction": "Leia as frases, circule cada nh e escreva no quadrinho quantos você encontrou em cada frase."
+  },
+  "G1-395": {
+    "title": "Sinônimos com figuras: duas palavras para uma figura",
+    "instruction": "Observe cada figura e circule as duas palavras embaixo dela que têm o mesmo significado e combinam com a figura."
+  },
+  "G2-373": {
+    "title": "Pares de sinônimos: ligue as palavras de mesmo significado",
+    "instruction": "Ligue cada palavra da esquerda à palavra da direita que tem o mesmo significado."
+  },
+  "G1-396": {
+    "title": "Graus de intensidade: do mais fraco ao mais forte",
+    "instruction": "Leia as três palavras de cada fileira e escreva 1, 2 e 3 nos quadrinhos, da palavra mais fraca para a mais forte."
+  },
+  "G2-374": {
+    "title": "Sinônimos de disse: verbos de elocução",
+    "instruction": "Leia cada frase e escreva no quadrinho a palavra do balão que combina melhor no lugar de disse."
+  },
+  "G3-397": {
+    "title": "Campo semântico: palavras para ir e para olhar",
+    "instruction": "Leia as dez palavras e escreva cada uma no campo da palavra que tem quase o mesmo significado."
+  },
+  "G1-397": {
+    "title": "Família de palavras com figuras: circule a derivada",
+    "instruction": "Diga o nome de cada figura e circule a única palavra acima dela que é formada a partir desse nome."
+  },
+  "G2-375": {
+    "title": "Encontre a palavra primitiva",
+    "instruction": "Circule a parte que as três palavras têm em comum e escreva essa palavra primitiva na pedra vazia."
+  },
+  "G2-376": {
+    "title": "Prefixos re-, pre- e sub-: escolha pelo significado",
+    "instruction": "Leia o que cada palavra nova significa, encontre o prefixo no quadro e escreva-o na peça vazia."
+  },
+  "G3-398": {
+    "title": "Sufixos de profissões: quem faz?",
+    "instruction": "Observe cada pessoa trabalhando, leia a palavra ao lado dela e escreva no tijolo vazio a palavra que diz quem faz esse trabalho."
+  },
+  "G3-399": {
+    "title": "Família de palavras nas frases",
+    "instruction": "Escreva cada uma das quatro palavras da pedra na frase em que ela se encaixa."
   }
 }

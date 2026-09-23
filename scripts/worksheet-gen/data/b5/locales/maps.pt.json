@@ -1,0 +1,115 @@
+{
+  "keyTitle": "Legenda",
+  "symbolWords": {
+    "house": "casa",
+    "tree": "árvore",
+    "bush": "arbusto",
+    "pond": "lago",
+    "bench": "banco",
+    "tent": "barraca",
+    "flowerBed": "canteiro",
+    "bridge": "ponte"
+  },
+  "dirWords": {
+    "n": "norte",
+    "e": "leste",
+    "s": "sul",
+    "w": "oeste"
+  },
+  "dirLetters": {
+    "n": "N",
+    "e": "L",
+    "s": "S",
+    "w": "O"
+  },
+  "continentSet": [
+    {
+      "id": "america",
+      "regions": [
+        "northAmerica",
+        "southAmerica"
+      ]
+    },
+    {
+      "id": "europe",
+      "regions": [
+        "europe"
+      ]
+    },
+    {
+      "id": "asia",
+      "regions": [
+        "asia"
+      ]
+    },
+    {
+      "id": "africa",
+      "regions": [
+        "africa"
+      ]
+    },
+    {
+      "id": "oceania",
+      "regions": [
+        "oceania"
+      ]
+    },
+    {
+      "id": "antarctica",
+      "regions": [
+        "antarctica"
+      ]
+    }
+  ],
+  "continentNames": {
+    "america": "América",
+    "europe": "Europa",
+    "asia": "Ásia",
+    "africa": "África",
+    "oceania": "Oceania",
+    "antarctica": "Antártida"
+  },
+  "oceanSet": [
+    "pacific",
+    "atlantic",
+    "indian",
+    "arctic",
+    "southern"
+  ],
+  "oceanNames": {
+    "pacific": "Oceano Pacífico",
+    "atlantic": "Oceano Atlântico",
+    "indian": "Oceano Índico",
+    "arctic": "Oceano Glacial Ártico",
+    "southern": "Oceano Glacial Antártico"
+  },
+  "setSource": "Livros didáticos brasileiros de Geografia alinhados à BNCC (1º-5º ano): 6 continentes (América, Europa, Ásia, África, Oceania e Antártida) e 5 oceanos (Pacífico, Atlântico, Índico, Glacial Ártico e Glacial Antártico)",
+  "mnemonic": "Nina Lê Sobre Ovelhas",
+  "refuse": [],
+  "strings": {
+    "base": {
+      "title": "Ler a legenda do mapa",
+      "instruction": "Olhe a legenda do mapa, encontre cada coisa no mapa, conte quantas são e escreva o número no quadrinho."
+    },
+    "top-view": {
+      "title": "Visão de cima e visão de lado",
+      "instruction": "Cada objeto está desenhado de lado: ligue-o com um traço ao mesmo objeto visto de cima, lá do alto."
+    },
+    "compass-rose": {
+      "title": "Rosa dos ventos: complete os pontos cardeais",
+      "instruction": "Cada rosa dos ventos mostra uma letra: escreva as outras três letras nos quadrinhos vazios."
+    },
+    "continents": {
+      "title": "Os continentes: escreva os nomes",
+      "instruction": "Olhe o mapa-múndi e escreva o nome de cada continente numerado na linha dele, usando os nomes do quadro."
+    },
+    "continents-oceans": {
+      "title": "Continentes e oceanos",
+      "instruction": "Encontre cada continente e oceano no mapa e escreva o número dele no quadrinho ao lado do nome."
+    },
+    "directions-on-map": {
+      "title": "Pontos cardeais no mapa",
+      "instruction": "Encontre a primeira figura no mapa, olhe para o lado que a palavra indica e circule, das três figuras, a que está daquele lado."
+    }
+  }
+}

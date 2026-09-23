@@ -1,0 +1,1410 @@
+{
+  "head": "Dígrafos",
+  "refused": null,
+  "phonemes": [
+    "p",
+    "b",
+    "t",
+    "d",
+    "k",
+    "g",
+    "f",
+    "v",
+    "s",
+    "z",
+    "ʃ",
+    "ʒ",
+    "m",
+    "n",
+    "ɲ",
+    "l",
+    "ʎ",
+    "ɾ",
+    "ʁ",
+    "w",
+    "j",
+    "a",
+    "ɐ",
+    "e",
+    "ɛ",
+    "i",
+    "o",
+    "ɔ",
+    "u",
+    "ã",
+    "ẽ",
+    "ĩ",
+    "õ",
+    "ũ",
+    "ɐ̃w̃",
+    "ej",
+    "aj",
+    "ow"
+  ],
+  "teams": {
+    "nh": {
+      "t": "nh",
+      "sound": [
+        "ɲ"
+      ],
+      "items": [
+        {
+          "vocabKey": "bathtub",
+          "theme": "around the house",
+          "noun": "bathtub",
+          "word": "banheira",
+          "seg": [
+            "b",
+            "a",
+            "nh",
+            "ei",
+            "r",
+            "a"
+          ],
+          "snd": [
+            "b",
+            "a",
+            "ɲ",
+            "ej",
+            "ɾ",
+            "a"
+          ],
+          "silent": [],
+          "stem": "banheira",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "chick",
+          "theme": "farm animals",
+          "noun": "chick",
+          "word": "pintinho",
+          "seg": [
+            "p",
+            "in",
+            "t",
+            "i",
+            "nh",
+            "o"
+          ],
+          "snd": [
+            "p",
+            "ĩ",
+            "t",
+            "i",
+            "ɲ",
+            "u"
+          ],
+          "silent": [],
+          "stem": "pintinho",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "hen",
+          "theme": "farm animals",
+          "noun": "hen",
+          "word": "galinha",
+          "seg": [
+            "g",
+            "a",
+            "l",
+            "i",
+            "nh",
+            "a"
+          ],
+          "snd": [
+            "g",
+            "a",
+            "l",
+            "i",
+            "ɲ",
+            "a"
+          ],
+          "silent": [],
+          "stem": "galinha",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "dolphin",
+          "theme": "animals",
+          "noun": "dolphin",
+          "word": "golfinho",
+          "seg": [
+            "g",
+            "o",
+            "l",
+            "f",
+            "i",
+            "nh",
+            "o"
+          ],
+          "snd": [
+            "g",
+            "o",
+            "w",
+            "f",
+            "i",
+            "ɲ",
+            "u"
+          ],
+          "silent": [],
+          "stem": "golfinho",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "grasshopper",
+          "theme": "forest creatures",
+          "noun": "grasshopper",
+          "word": "gafanhoto",
+          "seg": [
+            "g",
+            "a",
+            "f",
+            "a",
+            "nh",
+            "o",
+            "t",
+            "o"
+          ],
+          "snd": [
+            "g",
+            "a",
+            "f",
+            "a",
+            "ɲ",
+            "o",
+            "t",
+            "u"
+          ],
+          "silent": [],
+          "stem": "gafanhoto",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mountain",
+          "theme": "camping",
+          "noun": "mountain",
+          "word": "montanha",
+          "seg": [
+            "m",
+            "on",
+            "t",
+            "a",
+            "nh",
+            "a"
+          ],
+          "snd": [
+            "m",
+            "õ",
+            "t",
+            "a",
+            "ɲ",
+            "a"
+          ],
+          "silent": [],
+          "stem": "montanha",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "nest",
+          "theme": "spring",
+          "noun": "nest",
+          "word": "ninho",
+          "seg": [
+            "n",
+            "i",
+            "nh",
+            "o"
+          ],
+          "snd": [
+            "n",
+            "i",
+            "ɲ",
+            "u"
+          ],
+          "silent": [],
+          "stem": "ninho",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "pinecone",
+          "theme": "camping",
+          "noun": "pinecone",
+          "word": "pinha",
+          "seg": [
+            "p",
+            "i",
+            "nh",
+            "a"
+          ],
+          "snd": [
+            "p",
+            "i",
+            "ɲ",
+            "a"
+          ],
+          "silent": [],
+          "stem": "pinha",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "stork",
+          "theme": "birds 2",
+          "noun": "stork",
+          "word": "cegonha",
+          "seg": [
+            "c",
+            "e",
+            "g",
+            "o",
+            "nh",
+            "a"
+          ],
+          "snd": [
+            "s",
+            "e",
+            "g",
+            "o",
+            "ɲ",
+            "a"
+          ],
+          "silent": [],
+          "stem": "cegonha",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "spider",
+          "theme": "forest creatures",
+          "noun": "spider",
+          "word": "aranha",
+          "seg": [
+            "a",
+            "r",
+            "a",
+            "nh",
+            "a"
+          ],
+          "snd": [
+            "a",
+            "ɾ",
+            "a",
+            "ɲ",
+            "a"
+          ],
+          "silent": [],
+          "stem": "aranha",
+          "picOpened": true
+        }
+      ]
+    },
+    "lh": {
+      "t": "lh",
+      "sound": [
+        "ʎ"
+      ],
+      "items": [
+        {
+          "vocabKey": "bee",
+          "theme": "insects and bugs",
+          "noun": "bee",
+          "word": "abelha",
+          "seg": [
+            "a",
+            "b",
+            "e",
+            "lh",
+            "a"
+          ],
+          "snd": [
+            "a",
+            "b",
+            "e",
+            "ʎ",
+            "a"
+          ],
+          "silent": [],
+          "stem": "abelha",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "corn",
+          "theme": "vegetables",
+          "noun": "corn",
+          "word": "milho",
+          "seg": [
+            "m",
+            "i",
+            "lh",
+            "o"
+          ],
+          "snd": [
+            "m",
+            "i",
+            "ʎ",
+            "u"
+          ],
+          "silent": [],
+          "stem": "milho",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "ear",
+          "theme": "body parts",
+          "noun": "ear",
+          "word": "orelha",
+          "seg": [
+            "o",
+            "r",
+            "e",
+            "lh",
+            "a"
+          ],
+          "snd": [
+            "o",
+            "ɾ",
+            "e",
+            "ʎ",
+            "a"
+          ],
+          "silent": [],
+          "stem": "orelha",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "eye",
+          "theme": "body parts",
+          "noun": "eye",
+          "word": "olho",
+          "seg": [
+            "o",
+            "lh",
+            "o"
+          ],
+          "snd": [
+            "o",
+            "ʎ",
+            "u"
+          ],
+          "silent": [],
+          "stem": "olho",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "island",
+          "theme": "beach",
+          "noun": "island",
+          "word": "ilha",
+          "seg": [
+            "i",
+            "lh",
+            "a"
+          ],
+          "snd": [
+            "i",
+            "ʎ",
+            "a"
+          ],
+          "silent": [],
+          "stem": "ilha",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "leaf",
+          "theme": "spring",
+          "noun": "leaf",
+          "word": "folha",
+          "seg": [
+            "f",
+            "o",
+            "lh",
+            "a"
+          ],
+          "snd": [
+            "f",
+            "o",
+            "ʎ",
+            "a"
+          ],
+          "silent": [],
+          "stem": "folha",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "llama",
+          "theme": "farm animals",
+          "noun": "llama",
+          "word": "lhama",
+          "seg": [
+            "lh",
+            "a",
+            "m",
+            "a"
+          ],
+          "snd": [
+            "ʎ",
+            "a",
+            "m",
+            "a"
+          ],
+          "silent": [],
+          "stem": "lhama",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "medal",
+          "theme": "accessories",
+          "noun": "medal",
+          "word": "medalha",
+          "seg": [
+            "m",
+            "e",
+            "d",
+            "a",
+            "lh",
+            "a"
+          ],
+          "snd": [
+            "m",
+            "e",
+            "d",
+            "a",
+            "ʎ",
+            "a"
+          ],
+          "silent": [],
+          "stem": "medalha",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mirror",
+          "theme": "around the house",
+          "noun": "mirror",
+          "word": "espelho",
+          "seg": [
+            "e",
+            "s",
+            "p",
+            "e",
+            "lh",
+            "o"
+          ],
+          "snd": [
+            "e",
+            "s",
+            "p",
+            "e",
+            "ʎ",
+            "u"
+          ],
+          "silent": [],
+          "stem": "espelho",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "peas",
+          "theme": "At the Supermarket",
+          "noun": "peas",
+          "word": "ervilhas",
+          "seg": [
+            "e",
+            "r",
+            "v",
+            "i",
+            "lh",
+            "a",
+            "s"
+          ],
+          "snd": [
+            "e",
+            "ɾ",
+            "v",
+            "i",
+            "ʎ",
+            "a",
+            "s"
+          ],
+          "silent": [],
+          "stem": "ervilhas",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "scarecrow",
+          "theme": "thanksgivinng",
+          "noun": "scarecrow",
+          "word": "espantalho",
+          "seg": [
+            "e",
+            "s",
+            "p",
+            "an",
+            "t",
+            "a",
+            "lh",
+            "o"
+          ],
+          "snd": [
+            "e",
+            "s",
+            "p",
+            "ã",
+            "t",
+            "a",
+            "ʎ",
+            "u"
+          ],
+          "silent": [],
+          "stem": "espantalho",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "sheep",
+          "theme": "farm animals",
+          "noun": "sheep",
+          "word": "ovelha",
+          "seg": [
+            "o",
+            "v",
+            "e",
+            "lh",
+            "a"
+          ],
+          "snd": [
+            "o",
+            "v",
+            "e",
+            "ʎ",
+            "a"
+          ],
+          "silent": [],
+          "stem": "ovelha",
+          "picOpened": true
+        }
+      ]
+    },
+    "qu": {
+      "t": "qu",
+      "sound": [
+        "k"
+      ],
+      "items": [
+        {
+          "vocabKey": "jacket",
+          "theme": "clothing",
+          "noun": "jacket",
+          "word": "jaqueta",
+          "seg": [
+            "j",
+            "a",
+            "qu",
+            "e",
+            "t",
+            "a"
+          ],
+          "snd": [
+            "ʒ",
+            "a",
+            "k",
+            "e",
+            "t",
+            "a"
+          ],
+          "silent": [],
+          "stem": "jaqueta",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "mosquito",
+          "theme": "insects and bugs",
+          "noun": "mosquito",
+          "word": "mosquito",
+          "seg": [
+            "m",
+            "o",
+            "s",
+            "qu",
+            "i",
+            "t",
+            "o"
+          ],
+          "snd": [
+            "m",
+            "o",
+            "s",
+            "k",
+            "i",
+            "t",
+            "u"
+          ],
+          "silent": [],
+          "stem": "mosquito",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "skeleton",
+          "theme": "body parts",
+          "noun": "skeleton",
+          "word": "esqueleto",
+          "seg": [
+            "e",
+            "s",
+            "qu",
+            "e",
+            "l",
+            "e",
+            "t",
+            "o"
+          ],
+          "snd": [
+            "e",
+            "s",
+            "k",
+            "e",
+            "l",
+            "e",
+            "t",
+            "u"
+          ],
+          "silent": [],
+          "stem": "esqueleto",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "squirrel",
+          "theme": "forest creatures",
+          "noun": "squirrel",
+          "word": "esquilo",
+          "seg": [
+            "e",
+            "s",
+            "qu",
+            "i",
+            "l",
+            "o"
+          ],
+          "snd": [
+            "e",
+            "s",
+            "k",
+            "i",
+            "l",
+            "u"
+          ],
+          "silent": [],
+          "stem": "esquilo",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "blender",
+          "theme": "kitchen tools",
+          "noun": "blender",
+          "word": "liquidificador",
+          "seg": [
+            "l",
+            "i",
+            "qu",
+            "i",
+            "d",
+            "i",
+            "f",
+            "i",
+            "c",
+            "a",
+            "d",
+            "o",
+            "r"
+          ],
+          "snd": [
+            "l",
+            "i",
+            "k",
+            "i",
+            "d",
+            "i",
+            "f",
+            "i",
+            "k",
+            "a",
+            "d",
+            "o",
+            "ɾ"
+          ],
+          "silent": [],
+          "stem": "liquidificador",
+          "picOpened": true
+        },
+        {
+          "vocabKey": "heater",
+          "theme": "around the house",
+          "noun": "heater",
+          "word": "aquecedor",
+          "seg": [
+            "a",
+            "qu",
+            "e",
+            "c",
+            "e",
+            "d",
+            "o",
+            "r"
+          ],
+          "snd": [
+            "a",
+            "k",
+            "e",
+            "s",
+            "e",
+            "d",
+            "o",
+            "ɾ"
+          ],
+          "silent": [],
+          "stem": "aquecedor",
+          "picOpened": true
+        }
+      ]
+    }
+  },
+  "samesound": [],
+  "falsePairs": [
+    {
+      "word": "quadrado",
+      "letters": "qu",
+      "why": "antes de a o u é pronunciado (/kw/): não é o dígrafo qu"
+    },
+    {
+      "word": "quatro",
+      "letters": "qu",
+      "why": "o u é pronunciado (/kw/): qu aqui são dois sons"
+    },
+    {
+      "word": "aquário",
+      "letters": "qu",
+      "why": "o u é pronunciado (/kw/) antes de a"
+    },
+    {
+      "word": "quarto",
+      "letters": "qu",
+      "why": "o u é pronunciado (/kw/) antes de a"
+    },
+    {
+      "word": "cinquenta",
+      "letters": "qu",
+      "why": "o u é pronunciado antes de e: qu aqui não é dígrafo"
+    },
+    {
+      "word": "tranquilo",
+      "letters": "qu",
+      "why": "o u é pronunciado antes de i: qu aqui não é dígrafo"
+    },
+    {
+      "word": "frequente",
+      "letters": "qu",
+      "why": "o u é pronunciado antes de e: qu aqui não é dígrafo"
+    }
+  ],
+  "sets": {
+    "exemplar": [
+      "nh",
+      "lh",
+      "qu"
+    ],
+    "k": [
+      "nh",
+      "lh"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "A galinha fez um ninho.",
+      "target": "nh",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "A",
+          "seg": [
+            "A"
+          ]
+        },
+        {
+          "w": "galinha",
+          "seg": [
+            "g",
+            "a",
+            "l",
+            "i",
+            "nh",
+            "a"
+          ]
+        },
+        {
+          "w": "fez",
+          "seg": [
+            "f",
+            "e",
+            "z"
+          ]
+        },
+        {
+          "w": "um",
+          "seg": [
+            "u",
+            "m"
+          ]
+        },
+        {
+          "w": "ninho",
+          "seg": [
+            "n",
+            "i",
+            "nh",
+            "o"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "text": "A aranha subiu a montanha.",
+      "target": "nh",
+      "hits": 2,
+      "tokens": [
+        {
+          "w": "A",
+          "seg": [
+            "A"
+          ]
+        },
+        {
+          "w": "aranha",
+          "seg": [
+            "a",
+            "r",
+            "a",
+            "nh",
+            "a"
+          ]
+        },
+        {
+          "w": "subiu",
+          "seg": [
+            "s",
+            "u",
+            "b",
+            "i",
+            "u"
+          ]
+        },
+        {
+          "w": "a",
+          "seg": [
+            "a"
+          ]
+        },
+        {
+          "w": "montanha",
+          "seg": [
+            "m",
+            "o",
+            "n",
+            "t",
+            "a",
+            "nh",
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "text": "O patinho e o pintinho brincam com a galinha.",
+      "target": "nh",
+      "hits": 3,
+      "tokens": [
+        {
+          "w": "O",
+          "seg": [
+            "O"
+          ]
+        },
+        {
+          "w": "patinho",
+          "seg": [
+            "p",
+            "a",
+            "t",
+            "i",
+            "nh",
+            "o"
+          ]
+        },
+        {
+          "w": "e",
+          "seg": [
+            "e"
+          ]
+        },
+        {
+          "w": "o",
+          "seg": [
+            "o"
+          ]
+        },
+        {
+          "w": "pintinho",
+          "seg": [
+            "p",
+            "i",
+            "n",
+            "t",
+            "i",
+            "nh",
+            "o"
+          ]
+        },
+        {
+          "w": "brincam",
+          "seg": [
+            "b",
+            "r",
+            "i",
+            "n",
+            "c",
+            "a",
+            "m"
+          ]
+        },
+        {
+          "w": "com",
+          "seg": [
+            "c",
+            "o",
+            "m"
+          ]
+        },
+        {
+          "w": "a",
+          "seg": [
+            "a"
+          ]
+        },
+        {
+          "w": "galinha",
+          "seg": [
+            "g",
+            "a",
+            "l",
+            "i",
+            "nh",
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "text": "O golfinho pula no mar.",
+      "target": "nh",
+      "hits": 1,
+      "tokens": [
+        {
+          "w": "O",
+          "seg": [
+            "O"
+          ]
+        },
+        {
+          "w": "golfinho",
+          "seg": [
+            "g",
+            "o",
+            "l",
+            "f",
+            "i",
+            "nh",
+            "o"
+          ]
+        },
+        {
+          "w": "pula",
+          "seg": [
+            "p",
+            "u",
+            "l",
+            "a"
+          ]
+        },
+        {
+          "w": "no",
+          "seg": [
+            "n",
+            "o"
+          ]
+        },
+        {
+          "w": "mar",
+          "seg": [
+            "m",
+            "a",
+            "r"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "text": "Minha vizinha tem um cachorrinho e um gatinho.",
+      "target": "nh",
+      "hits": 4,
+      "tokens": [
+        {
+          "w": "Minha",
+          "seg": [
+            "M",
+            "i",
+            "nh",
+            "a"
+          ]
+        },
+        {
+          "w": "vizinha",
+          "seg": [
+            "v",
+            "i",
+            "z",
+            "i",
+            "nh",
+            "a"
+          ]
+        },
+        {
+          "w": "tem",
+          "seg": [
+            "t",
+            "e",
+            "m"
+          ]
+        },
+        {
+          "w": "um",
+          "seg": [
+            "u",
+            "m"
+          ]
+        },
+        {
+          "w": "cachorrinho",
+          "seg": [
+            "c",
+            "a",
+            "ch",
+            "o",
+            "rr",
+            "i",
+            "nh",
+            "o"
+          ]
+        },
+        {
+          "w": "e",
+          "seg": [
+            "e"
+          ]
+        },
+        {
+          "w": "um",
+          "seg": [
+            "u",
+            "m"
+          ]
+        },
+        {
+          "w": "gatinho",
+          "seg": [
+            "g",
+            "a",
+            "t",
+            "i",
+            "nh",
+            "o"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "text": "A unha do gato é pequena.",
+      "target": "nh",
+      "hits": 1,
+      "tokens": [
+        {
+          "w": "A",
+          "seg": [
+            "A"
+          ]
+        },
+        {
+          "w": "unha",
+          "seg": [
+            "u",
+            "nh",
+            "a"
+          ]
+        },
+        {
+          "w": "do",
+          "seg": [
+            "d",
+            "o"
+          ]
+        },
+        {
+          "w": "gato",
+          "seg": [
+            "g",
+            "a",
+            "t",
+            "o"
+          ]
+        },
+        {
+          "w": "é",
+          "seg": [
+            "é"
+          ]
+        },
+        {
+          "w": "pequena",
+          "seg": [
+            "p",
+            "e",
+            "qu",
+            "e",
+            "n",
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "text": "O sapo pulou na banheira.",
+      "target": "nh",
+      "hits": 1,
+      "tokens": [
+        {
+          "w": "O",
+          "seg": [
+            "O"
+          ]
+        },
+        {
+          "w": "sapo",
+          "seg": [
+            "s",
+            "a",
+            "p",
+            "o"
+          ]
+        },
+        {
+          "w": "pulou",
+          "seg": [
+            "p",
+            "u",
+            "l",
+            "o",
+            "u"
+          ]
+        },
+        {
+          "w": "na",
+          "seg": [
+            "n",
+            "a"
+          ]
+        },
+        {
+          "w": "banheira",
+          "seg": [
+            "b",
+            "a",
+            "nh",
+            "e",
+            "i",
+            "r",
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "text": "De manhã, o passarinho canta no ninho.",
+      "target": "nh",
+      "hits": 3,
+      "tokens": [
+        {
+          "w": "De",
+          "seg": [
+            "D",
+            "e"
+          ]
+        },
+        {
+          "w": "manhã",
+          "seg": [
+            "m",
+            "a",
+            "nh",
+            "ã"
+          ]
+        },
+        {
+          "w": "o",
+          "seg": [
+            "o"
+          ]
+        },
+        {
+          "w": "passarinho",
+          "seg": [
+            "p",
+            "a",
+            "ss",
+            "a",
+            "r",
+            "i",
+            "nh",
+            "o"
+          ]
+        },
+        {
+          "w": "canta",
+          "seg": [
+            "c",
+            "a",
+            "n",
+            "t",
+            "a"
+          ]
+        },
+        {
+          "w": "no",
+          "seg": [
+            "n",
+            "o"
+          ]
+        },
+        {
+          "w": "ninho",
+          "seg": [
+            "n",
+            "i",
+            "nh",
+            "o"
+          ]
+        }
+      ]
+    }
+  ],
+  "rejectedPics": [
+    {
+      "pic": "fruits/cherry",
+      "why": "parece uma maçã (design §4)"
+    },
+    {
+      "pic": "fruits/peach",
+      "why": "parece uma maçã (design §4)"
+    },
+    {
+      "pic": "christmas/chimney",
+      "why": "uma lareira (design §4)"
+    },
+    {
+      "pic": "body parts/mouth",
+      "why": "a criança diz \"lábios\" / \"boca\" (design §4)"
+    },
+    {
+      "pic": "colors/white",
+      "why": "uma gota de tinta branca (design §1)"
+    },
+    {
+      "pic": "shapes/cone",
+      "why": "um tronco de cone / abajur (design §1)"
+    },
+    {
+      "pic": "easter/chick",
+      "why": "parece um patinho (revisão 2026-09-23)"
+    },
+    {
+      "pic": "classroom/lunchbox",
+      "why": "parece um baú de tesouro (revisão 2026-09-23)"
+    },
+    {
+      "pic": "bakery/bun",
+      "why": "um pão redondo: a criança diz \"pão\", não \"pãozinho\" (painel pt, aberto)"
+    },
+    {
+      "pic": "beach/spade",
+      "why": "a criança diz \"pá\", não \"pazinha\" (painel pt, aberto)"
+    },
+    {
+      "pic": "farm animals/duckling",
+      "why": "patinho e pintinho se confundem a 60 px; fica só o pintinho (painel pt, aberto)"
+    },
+    {
+      "pic": "vegetables/cabbage",
+      "why": "parece alface: a criança diz \"alface\", sem lh (painel pt, aberto)"
+    },
+    {
+      "pic": "vegetables/garlic",
+      "why": "roxo e redondo: a criança diz \"cebola\" (painel pt, aberto)"
+    },
+    {
+      "pic": "activities/basketball",
+      "why": "uma bola: a criança diz \"bola\", não \"basquete\" (painel pt, aberto)"
+    },
+    {
+      "pic": "breakfast/pancake",
+      "why": "pilha com geleia: a criança diz \"bolo\"; a panqueca brasileira é enrolada (painel pt, aberto)"
+    },
+    {
+      "pic": "fruits/persimmon",
+      "why": "parece tomate / laranja, não \"caqui\" (painel pt, aberto)"
+    },
+    {
+      "pic": "furniture/stool",
+      "why": "a criança diz \"banquinho\" (nh, um sonho-foil), não \"banqueta\" (painel pt, aberto)"
+    },
+    {
+      "pic": "body parts/nail",
+      "why": "um dedo com uma seta: a criança diz \"dedo\", sem nh (painel pt, aberto)"
+    },
+    {
+      "pic": "weather/hot",
+      "why": "um adjetivo, não um objeto: a criança diz \"sol\" / \"calor\" (painel pt)"
+    }
+  ],
+  "strings": {
+    "base": {
+      "title": "Dígrafos nh, lh e qu: qual você ouve?",
+      "instruction": "Diga o nome de cada figura e circule o dígrafo que você ouve."
+    },
+    "sort-two": {
+      "title": "Dígrafos nh e lh: ligue cada figura",
+      "instruction": "Diga o nome de cada figura e ligue-a ao dígrafo que você ouve."
+    },
+    "gap": {
+      "title": "Complete com nh, lh ou qu: o dígrafo que falta",
+      "instruction": "Diga o nome de cada figura e escreva no espaço tracejado o dígrafo que falta, escolhendo um dos de cima."
+    },
+    "match": {
+      "title": "Leia palavras com dígrafos e ligue às figuras",
+      "instruction": "Leia cada palavra, que tem o dígrafo destacado, e ligue-a à figura que ela nomeia."
+    },
+    "text": {
+      "title": "Dígrafo nh em frases: circule e conte",
+      "instruction": "Leia as frases, circule cada nh e escreva no quadrinho quantos você encontrou em cada frase."
+    }
+  }
+}

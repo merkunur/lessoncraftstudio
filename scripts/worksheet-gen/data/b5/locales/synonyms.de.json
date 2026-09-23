@@ -1,0 +1,936 @@
+{
+  "head": "Wortfelder und Synonyme",
+  "allowed": [
+    " ",
+    "-"
+  ],
+  "ban": [
+    "schwer",
+    "sauer",
+    "toll",
+    "hell",
+    "leicht",
+    "ruhig",
+    "komisch",
+    "super",
+    "cool",
+    "geil",
+    "nett"
+  ],
+  "regional": [
+    [
+      "gucken",
+      "schauen"
+    ]
+  ],
+  "groups": [
+    {
+      "id": "g.happy",
+      "concept": "happy",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "fröhlich",
+        "froh",
+        "glücklich"
+      ]
+    },
+    {
+      "id": "g.sad",
+      "concept": "sad",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "traurig",
+        "betrübt"
+      ]
+    },
+    {
+      "id": "g.angry",
+      "concept": "angry",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "wütend",
+        "zornig"
+      ]
+    },
+    {
+      "id": "g.scared",
+      "concept": "scared",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 1,
+      "words": [
+        "ängstlich",
+        "verängstigt"
+      ]
+    },
+    {
+      "id": "g.surprised",
+      "concept": "surprised",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 2,
+      "words": [
+        "überrascht",
+        "erstaunt",
+        "verblüfft"
+      ]
+    },
+    {
+      "id": "g.calm",
+      "concept": "calm",
+      "pos": "adj",
+      "domain": "feelings",
+      "tier": 2,
+      "words": [
+        "gelassen",
+        "entspannt"
+      ]
+    },
+    {
+      "id": "g.tired",
+      "concept": "tired",
+      "pos": "adj",
+      "domain": "body",
+      "tier": 1,
+      "words": [
+        "müde",
+        "schläfrig"
+      ]
+    },
+    {
+      "id": "g.strong",
+      "concept": "strong",
+      "pos": "adj",
+      "domain": "body",
+      "tier": 2,
+      "words": [
+        "stark",
+        "kräftig"
+      ]
+    },
+    {
+      "id": "g.big",
+      "concept": "big",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "groß",
+        "riesig"
+      ]
+    },
+    {
+      "id": "g.small",
+      "concept": "small",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "klein",
+        "winzig"
+      ]
+    },
+    {
+      "id": "g.fast",
+      "concept": "fast",
+      "pos": "adj",
+      "domain": "size-speed",
+      "tier": 1,
+      "words": [
+        "schnell",
+        "flink",
+        "rasch"
+      ]
+    },
+    {
+      "id": "g.easy",
+      "concept": "easy",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 1,
+      "words": [
+        "einfach",
+        "simpel"
+      ]
+    },
+    {
+      "id": "g.difficult",
+      "concept": "difficult",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 2,
+      "words": [
+        "schwierig",
+        "knifflig"
+      ]
+    },
+    {
+      "id": "g.smart",
+      "concept": "smart",
+      "pos": "adj",
+      "domain": "thinking",
+      "tier": 2,
+      "words": [
+        "klug",
+        "schlau",
+        "gescheit"
+      ]
+    },
+    {
+      "id": "g.brave",
+      "concept": "brave",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "mutig",
+        "tapfer"
+      ]
+    },
+    {
+      "id": "g.funny",
+      "concept": "funny",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "lustig",
+        "witzig"
+      ]
+    },
+    {
+      "id": "g.strange",
+      "concept": "strange",
+      "pos": "adj",
+      "domain": "character",
+      "tier": 2,
+      "words": [
+        "seltsam",
+        "merkwürdig"
+      ]
+    },
+    {
+      "id": "g.loud",
+      "concept": "loud",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 1,
+      "words": [
+        "laut",
+        "lärmend"
+      ]
+    },
+    {
+      "id": "g.quiet",
+      "concept": "quiet",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 2,
+      "words": [
+        "leise",
+        "still"
+      ]
+    },
+    {
+      "id": "g.tasty",
+      "concept": "tasty",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 1,
+      "words": [
+        "lecker",
+        "köstlich"
+      ]
+    },
+    {
+      "id": "g.cozy",
+      "concept": "cozy",
+      "pos": "adj",
+      "domain": "senses",
+      "tier": 2,
+      "words": [
+        "gemütlich",
+        "behaglich"
+      ]
+    },
+    {
+      "id": "g.pretty",
+      "concept": "pretty",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 1,
+      "words": [
+        "schön",
+        "hübsch"
+      ]
+    },
+    {
+      "id": "g.tidy",
+      "concept": "tidy",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 2,
+      "words": [
+        "ordentlich",
+        "aufgeräumt"
+      ]
+    },
+    {
+      "id": "g.dirty",
+      "concept": "dirty",
+      "pos": "adj",
+      "domain": "looks",
+      "tier": 2,
+      "words": [
+        "schmutzig",
+        "dreckig"
+      ]
+    },
+    {
+      "id": "g.begin",
+      "concept": "begin",
+      "pos": "verb",
+      "domain": "begin-end",
+      "tier": 1,
+      "words": [
+        "anfangen",
+        "beginnen"
+      ]
+    },
+    {
+      "id": "g.end",
+      "concept": "end",
+      "pos": "verb",
+      "domain": "begin-end",
+      "tier": 1,
+      "words": [
+        "aufhören",
+        "enden"
+      ]
+    },
+    {
+      "id": "g.shut",
+      "concept": "shut",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 1,
+      "words": [
+        "schließen",
+        "zumachen"
+      ]
+    },
+    {
+      "id": "g.choose",
+      "concept": "choose",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 2,
+      "words": [
+        "wählen",
+        "aussuchen"
+      ]
+    },
+    {
+      "id": "g.help",
+      "concept": "help",
+      "pos": "verb",
+      "domain": "hands",
+      "tier": 2,
+      "words": [
+        "helfen",
+        "unterstützen"
+      ]
+    },
+    {
+      "id": "g.jump",
+      "concept": "jump",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 1,
+      "words": [
+        "springen",
+        "hüpfen"
+      ]
+    },
+    {
+      "id": "g.fall",
+      "concept": "fall",
+      "pos": "verb",
+      "domain": "move",
+      "tier": 2,
+      "words": [
+        "fallen",
+        "stürzen"
+      ]
+    },
+    {
+      "id": "g.talk",
+      "concept": "talk",
+      "pos": "verb",
+      "domain": "speak",
+      "tier": 1,
+      "words": [
+        "sprechen",
+        "reden"
+      ]
+    },
+    {
+      "id": "g.shout",
+      "concept": "shout",
+      "pos": "verb",
+      "domain": "speak",
+      "tier": 1,
+      "words": [
+        "schreien",
+        "brüllen"
+      ]
+    },
+    {
+      "id": "g.cry",
+      "concept": "cry",
+      "pos": "verb",
+      "domain": "face",
+      "tier": 2,
+      "words": [
+        "weinen",
+        "heulen"
+      ]
+    },
+    {
+      "id": "g.smile",
+      "concept": "smile",
+      "pos": "verb",
+      "domain": "face",
+      "tier": 1,
+      "words": [
+        "lächeln",
+        "schmunzeln"
+      ]
+    }
+  ],
+  "near": [
+    {
+      "a": "heiß",
+      "b": "warm",
+      "why": "Abstufung: heiß ist viel mehr als warm"
+    },
+    {
+      "a": "kalt",
+      "b": "kühl",
+      "why": "Abstufung"
+    },
+    {
+      "a": "nass",
+      "b": "feucht",
+      "why": "Abstufung"
+    },
+    {
+      "a": "wütend",
+      "b": "verärgert",
+      "why": "Abstufung: verärgert ist schwächer"
+    },
+    {
+      "a": "müde",
+      "b": "erschöpft",
+      "why": "Abstufung: erschöpft ist viel mehr als müde"
+    },
+    {
+      "a": "traurig",
+      "b": "bedrückt",
+      "why": "ähnliches Gefühl, nicht dasselbe"
+    },
+    {
+      "a": "leise",
+      "b": "gelassen",
+      "why": "leise = ohne Geräusch; gelassen = ein Gefühl"
+    },
+    {
+      "a": "stark",
+      "b": "mutig",
+      "why": "Kraft im Körper ist nicht Mut"
+    },
+    {
+      "a": "reden",
+      "b": "schreien",
+      "why": "Schreien ist sehr lautes Sprechen"
+    },
+    {
+      "a": "schließen",
+      "b": "enden",
+      "why": "ein Laden schließt = er macht Schluss; nicht dasselbe"
+    },
+    {
+      "a": "mögen",
+      "b": "lieben",
+      "why": "Abstufung"
+    },
+    {
+      "a": "fröhlich",
+      "b": "lustig",
+      "why": "fröhlich = gute Laune; lustig = bringt zum Lachen"
+    },
+    {
+      "a": "gemütlich",
+      "b": "gelassen",
+      "why": "ein Zimmer ist gemütlich, ein Mensch gelassen"
+    },
+    {
+      "a": "groß",
+      "b": "stark",
+      "why": "Größe ist nicht Kraft"
+    },
+    {
+      "a": "überrascht",
+      "b": "ängstlich",
+      "why": "ein Schreck ist Überraschung mit Angst"
+    }
+  ],
+  "nearOnly": [
+    "verärgert",
+    "erschöpft",
+    "bedrückt"
+  ],
+  "falseOf": {
+    "happy": [
+      "traurig",
+      "betrübt",
+      "wütend",
+      "zornig",
+      "ängstlich",
+      "verängstigt",
+      "überrascht",
+      "erstaunt",
+      "verblüfft",
+      "müde",
+      "schläfrig",
+      "schnell",
+      "flink",
+      "rasch",
+      "groß",
+      "riesig",
+      "klein",
+      "winzig"
+    ],
+    "sad": [
+      "fröhlich",
+      "froh",
+      "glücklich",
+      "wütend",
+      "zornig",
+      "überrascht",
+      "erstaunt",
+      "verblüfft",
+      "schnell",
+      "flink",
+      "rasch",
+      "groß",
+      "riesig",
+      "klein",
+      "winzig"
+    ],
+    "angry": [
+      "fröhlich",
+      "froh",
+      "glücklich",
+      "traurig",
+      "betrübt",
+      "ängstlich",
+      "verängstigt",
+      "überrascht",
+      "erstaunt",
+      "verblüfft",
+      "müde",
+      "schläfrig",
+      "schnell",
+      "flink",
+      "rasch",
+      "groß",
+      "riesig",
+      "klein",
+      "winzig"
+    ],
+    "scared": [
+      "fröhlich",
+      "froh",
+      "glücklich",
+      "traurig",
+      "betrübt",
+      "müde",
+      "schläfrig",
+      "schnell",
+      "flink",
+      "rasch",
+      "groß",
+      "riesig",
+      "klein",
+      "winzig"
+    ],
+    "surprised": [
+      "fröhlich",
+      "froh",
+      "glücklich",
+      "traurig",
+      "betrübt",
+      "wütend",
+      "zornig",
+      "müde",
+      "schläfrig",
+      "schnell",
+      "flink",
+      "rasch",
+      "groß",
+      "riesig",
+      "klein",
+      "winzig"
+    ],
+    "tired": [
+      "fröhlich",
+      "froh",
+      "glücklich",
+      "wütend",
+      "zornig",
+      "ängstlich",
+      "verängstigt",
+      "überrascht",
+      "erstaunt",
+      "verblüfft",
+      "schnell",
+      "flink",
+      "rasch",
+      "groß",
+      "riesig",
+      "klein",
+      "winzig"
+    ],
+    "fast": [
+      "fröhlich",
+      "froh",
+      "glücklich",
+      "traurig",
+      "betrübt",
+      "wütend",
+      "zornig",
+      "ängstlich",
+      "verängstigt",
+      "überrascht",
+      "erstaunt",
+      "verblüfft",
+      "müde",
+      "schläfrig"
+    ],
+    "big": [
+      "traurig",
+      "betrübt",
+      "wütend",
+      "zornig",
+      "ängstlich",
+      "verängstigt",
+      "überrascht",
+      "erstaunt",
+      "verblüfft",
+      "schnell",
+      "flink",
+      "rasch",
+      "klein",
+      "winzig"
+    ],
+    "small": [
+      "traurig",
+      "betrübt",
+      "ängstlich",
+      "verängstigt",
+      "überrascht",
+      "erstaunt",
+      "verblüfft",
+      "müde",
+      "schläfrig",
+      "groß",
+      "riesig"
+    ]
+  },
+  "scales": [
+    {
+      "id": "s.heat",
+      "pos": "adj",
+      "words": [
+        "warm",
+        "heiß",
+        "kochend heiß"
+      ]
+    },
+    {
+      "id": "s.cold",
+      "pos": "adj",
+      "words": [
+        "kühl",
+        "kalt",
+        "eiskalt"
+      ]
+    },
+    {
+      "id": "s.wet",
+      "pos": "adj",
+      "words": [
+        "feucht",
+        "nass",
+        "klatschnass"
+      ]
+    },
+    {
+      "id": "s.eat",
+      "pos": "verb",
+      "words": [
+        "knabbern",
+        "essen",
+        "verschlingen"
+      ]
+    },
+    {
+      "id": "s.like",
+      "pos": "verb",
+      "words": [
+        "mögen",
+        "lieben",
+        "vergöttern"
+      ]
+    },
+    {
+      "id": "s.voice",
+      "pos": "verb",
+      "words": [
+        "flüstern",
+        "sprechen",
+        "schreien"
+      ]
+    },
+    {
+      "id": "s.knock",
+      "pos": "verb",
+      "words": [
+        "tippen",
+        "klopfen",
+        "hämmern"
+      ]
+    },
+    {
+      "id": "s.rain",
+      "pos": "verb",
+      "words": [
+        "nieseln",
+        "regnen",
+        "schütten"
+      ]
+    }
+  ],
+  "fields": {
+    "say": {
+      "head": "sagt",
+      "form": "praesens-3sg",
+      "words": [
+        "flüstert",
+        "ruft",
+        "fragt",
+        "antwortet",
+        "erklärt",
+        "verspricht"
+      ],
+      "sentences": [
+        {
+          "id": "f1",
+          "text": "Das Baby schläft, darum {gap} {name} ganz leise.",
+          "fit": {
+            "flüstert": true,
+            "ruft": false,
+            "fragt": false,
+            "antwortet": false,
+            "erklärt": false,
+            "verspricht": false
+          }
+        },
+        {
+          "id": "f2",
+          "text": "{name} {gap} Oma ein Geheimnis ins Ohr.",
+          "fit": {
+            "flüstert": true,
+            "ruft": false,
+            "fragt": false,
+            "antwortet": false,
+            "erklärt": false,
+            "verspricht": false
+          }
+        },
+        {
+          "id": "f3",
+          "text": "Der Bus fährt gleich ab, deshalb {gap} {name}: „Wartet auf mich!“",
+          "fit": {
+            "flüstert": false,
+            "ruft": true,
+            "fragt": false,
+            "antwortet": false,
+            "erklärt": false,
+            "verspricht": false
+          }
+        },
+        {
+          "id": "f4",
+          "text": "{name} {gap} laut über den ganzen Schulhof.",
+          "fit": {
+            "flüstert": false,
+            "ruft": true,
+            "fragt": false,
+            "antwortet": false,
+            "erklärt": false,
+            "verspricht": false
+          }
+        },
+        {
+          "id": "f5",
+          "text": "„Wo ist meine rote Mütze?“, {gap} {name}.",
+          "fit": {
+            "flüstert": false,
+            "ruft": false,
+            "fragt": true,
+            "antwortet": false,
+            "erklärt": false,
+            "verspricht": false
+          }
+        },
+        {
+          "id": "f6",
+          "text": "{name} {gap} mit einem Lächeln auf die Frage der Lehrerin.",
+          "fit": {
+            "flüstert": false,
+            "ruft": false,
+            "fragt": false,
+            "antwortet": true,
+            "erklärt": false,
+            "verspricht": false
+          }
+        },
+        {
+          "id": "f7",
+          "text": "{name} {gap} Schritt für Schritt, wie man einen Samen pflanzt.",
+          "fit": {
+            "flüstert": false,
+            "ruft": false,
+            "fragt": false,
+            "antwortet": false,
+            "erklärt": true,
+            "verspricht": false
+          }
+        },
+        {
+          "id": "f8",
+          "text": "„Ich füttere die Fische jeden Tag, großes Ehrenwort!“, {gap} {name}.",
+          "fit": {
+            "flüstert": false,
+            "ruft": false,
+            "fragt": false,
+            "antwortet": false,
+            "erklärt": false,
+            "verspricht": true
+          }
+        }
+      ]
+    },
+    "go": {
+      "head": "gehen",
+      "words": [
+        "rennen",
+        "schleichen",
+        "kriechen",
+        "marschieren",
+        "bummeln",
+        "eilen",
+        "spazieren",
+        "humpeln"
+      ]
+    },
+    "look": {
+      "head": "sehen",
+      "words": [
+        "schauen",
+        "gucken",
+        "starren",
+        "blinzeln",
+        "beobachten",
+        "spähen",
+        "glotzen",
+        "betrachten"
+      ]
+    }
+  },
+  "quotes": [
+    "„",
+    "“"
+  ],
+  "instructionBans": {
+    "base": [
+      "Linie",
+      "Socke",
+      "Kästchen",
+      "Bild"
+    ],
+    "pictures": [
+      "Linie",
+      "Socke",
+      "Kästchen",
+      "Karte"
+    ],
+    "pairs": [
+      "Kästchen",
+      "Karte",
+      "Bild",
+      "kreise"
+    ],
+    "shades": [
+      "Linie",
+      "Socke",
+      "Karte",
+      "gleich",
+      "dasselbe"
+    ],
+    "say": [
+      "Linie",
+      "Socke",
+      "Karte"
+    ],
+    "fields": [
+      "Socke",
+      "Karte",
+      "Kästchen"
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Synonyme: Wörter mit gleicher Bedeutung finden",
+      "instruction": "Lies das große Wort auf jeder Karte und kreise darunter das Wort ein, das dasselbe bedeutet."
+    },
+    "pictures": {
+      "title": "Synonyme mit Bildern: zwei Wörter, ein Bild",
+      "instruction": "Schau dir jedes Bild an und kreise darunter die zwei Wörter ein, die dasselbe bedeuten und zum Bild passen."
+    },
+    "pairs": {
+      "title": "Synonyme zuordnen: Wortpaare verbinden",
+      "instruction": "Jedes Wort hängt an einer Socke: Verbinde jede Socke links mit einer Linie mit der Socke rechts, deren Wort dasselbe bedeutet."
+    },
+    "shades": {
+      "title": "Wörter nach Stärke ordnen: von ein bisschen bis sehr",
+      "instruction": "Lies die drei Wörter in jeder Reihe und schreibe 1, 2 und 3 in die Kästchen, vom schwächsten bis zum stärksten Wort."
+    },
+    "say": {
+      "title": "Wortfeld „sagen“: das passende Verb einsetzen",
+      "instruction": "Lies jeden Satz und schreibe statt „sagt“ das Wort aus der Sprechblase in das Kästchen, das am besten passt."
+    },
+    "fields": {
+      "title": "Wortfelder „gehen“ und „sehen“: Verben sortieren",
+      "instruction": "Lies die zehn Wörter und schreibe jedes in das Wortfeld des Verbs, zu dem es gehört."
+    }
+  }
+}

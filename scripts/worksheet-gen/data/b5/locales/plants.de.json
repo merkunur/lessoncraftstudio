@@ -1,0 +1,112 @@
+{
+  "partWords": {
+    "root": "Wurzel",
+    "stem": "Stängel",
+    "leaf": "Blatt",
+    "flower": "Blüte",
+    "fruit": "Frucht",
+    "seed": "Samen"
+  },
+  "flowerWords": {
+    "petal": "Kronblatt",
+    "sepal": "Kelch",
+    "stamen": "Staubblatt",
+    "pistil": "Stempel",
+    "stalk": "Stiel",
+    "ovary": "Fruchtknoten"
+  },
+  "jobs": {
+    "root": "nimmt Wasser aus der Erde auf",
+    "stem": "hält die Pflanze aufrecht",
+    "leaf": "macht mit Sonnenlicht Nahrung für die Pflanze",
+    "flower": "lockt mit ihren bunten Farben die Bienen an",
+    "seed": "kann zu einer neuen Pflanze wachsen"
+  },
+  "partStems": [
+    "Wurzel",
+    "Wurzeln",
+    "Stängel",
+    "Stiel",
+    "Stiele",
+    "Blatt",
+    "Blätter",
+    "Blättern",
+    "Blüte",
+    "Blüten",
+    "Blume",
+    "Blumen",
+    "Frucht",
+    "Früchte",
+    "Samen",
+    "Kronblatt",
+    "Staubblatt"
+  ],
+  "forbidden": [
+    "Blume",
+    "Stengel",
+    "Stamm",
+    "Obst",
+    "Kern",
+    "Knospe"
+  ],
+  "refuseItems": [
+    "celery"
+  ],
+  "refuse": [],
+  "instructionBans": {
+    "base": [
+      "kreise",
+      "einkreisen",
+      "ausmalen",
+      "anmalen",
+      "ausschneiden",
+      "Buchstabenkästchen"
+    ],
+    "flower": [
+      "kreise",
+      "einkreisen",
+      "ausmalen",
+      "anmalen",
+      "ausschneiden"
+    ],
+    "needs": [
+      "Wort",
+      "Wörter",
+      "schreibe",
+      "schreiben"
+    ],
+    "eat": [
+      "Gemüse",
+      "Obst"
+    ],
+    "jobs": [
+      "Wörterkasten"
+    ]
+  },
+  "strings": {
+    "base": {
+      "title": "Teile der Pflanze",
+      "instruction": "Folge jedem Strich von der Zahl zur Pflanze und schreibe den Namen des Teils aus dem Wörterkasten in die Zeile mit derselben Zahl."
+    },
+    "needs": {
+      "title": "Was Pflanzen zum Wachsen brauchen",
+      "instruction": "Kreise in jeder Reihe die Pflanze ein, die beides bekommt, was sie zum Wachsen braucht."
+    },
+    "cycle": {
+      "title": "Vom Samen zur Pflanze",
+      "instruction": "Schneide die vier Bilder aus und klebe sie den Pfeilen nach in die leeren Kästchen, beginne beim Samen."
+    },
+    "eat": {
+      "title": "Welche Teile der Pflanze essen wir?",
+      "instruction": "Schau dir jedes Lebensmittel an und kreise den Teil der Pflanze ein, den wir davon essen."
+    },
+    "jobs": {
+      "title": "Teile der Pflanze und ihre Aufgaben",
+      "instruction": "Lies, was jeder Teil tut, finde ihn an der Pflanze und schreibe die Zahl seines Schildes in das Kästchen."
+    },
+    "flower": {
+      "title": "Aufbau der Blüte",
+      "instruction": "Schreibe den Namen jedes nummerierten Blütenteils auf seine Linie und streiche im Wörterkasten das Wort durch, das nicht dazugehört."
+    }
+  }
+}

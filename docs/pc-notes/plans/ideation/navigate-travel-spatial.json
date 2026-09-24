@@ -1,0 +1,258 @@
+[
+  {
+    "id": "navigate-spatial-01",
+    "name": "Robot Recess",
+    "mechanic": "The child snaps a sequence of direction tiles (up / down / left / right) into a program strip, then taps GO and watches a robot crawl those exact moves across a grid toward a friend. The move-sequence the child assembles IS the answer; nothing else moves the robot.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "Closest neighbor is path-journey, but path-journey advances ONE stop on a FIXED ordered track by answering a question — the child never chooses direction. Here the child authors an OPEN move-program in 2D and the spatial choice (which turns, how many) is the whole task. Separation: programming a route vs. answering-to-advance.",
+    "standards": [
+      {"code": "K.G.A.1", "grade": "K", "strand": "Geometry", "subject": "math"},
+      {"code": "K.CC.B.4", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"}
+    ],
+    "fun_no_competition": "The wobbly robot reunites with its lost puppy at the goal — a little reunion hug animation when the path is right; a wrong program just bonks gently into a hedge and the child re-orders the tiles. No clock, no fails.",
+    "interaction": "sequence",
+    "character_world": "Bolt the recess robot lost his puppy somewhere on the playground grid.",
+    "web_shell_feasibility": "feasible — CSS grid board, draggable direction-tile strip, step-through CSS transform animation per queued move.",
+    "asset_idea": "Stub: colored squares + arrow glyphs + a circle robot. CA5: playground-grid backdrop, Bolt sprite walk-cycle, puppy, hedge-bonk pose, reunion hug frame."
+  },
+  {
+    "id": "navigate-spatial-02",
+    "name": "Where's My Hat?",
+    "mechanic": "A scene shows objects around a character; a friend asks in words ('Put the hat ABOVE the box', 'the ball is UNDER the chair'). The child drags the object to the spot the positional word names, or taps the spot that matches the spoken relation. The positional word selects the location.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "Not i-spy-scene (which is find-the-named-thing in a busy picture); here nothing is hidden — the child must DECODE a spatial relation (above/under/beside/between) and act on it. Closest neighbor sort-home places by CATEGORY; this places by SPATIAL RELATION. Separation: relational placement vs. category sorting.",
+    "standards": [
+      {"code": "K.G.A.1", "grade": "K", "strand": "Geometry", "subject": "math"},
+      {"code": "L.K.1.e", "grade": "K", "strand": "Language", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each correct placement triggers a tiny world-reaction — put the cat ON the roof and it meows happily; put it UNDER the table and it naps. Delight is seeing the scene respond to where you placed things.",
+    "interaction": "drag",
+    "character_world": "A messy treehouse where a forgetful owl narrates where everything goes.",
+    "web_shell_feasibility": "feasible — absolutely-positioned drop zones over a backdrop, spoken prompt via TTS, snap-to-zone.",
+    "asset_idea": "Stub: gray boxes + labeled snap zones. CA5: treehouse scene, owl narrator, hat/ball/cat props with happy/nap reaction poses."
+  },
+  {
+    "id": "navigate-spatial-03",
+    "name": "Treasure Coordinates",
+    "mechanic": "A pirate map is a labeled grid (columns A-E, rows 1-5). A riddle gives a coordinate ('Dig at B-3') and the child taps that exact cell to reveal what's buried. The child reads the column+row pair to locate the square.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "Reveal-grid scratches cells to find a hidden picture with no addressing; here the cell is chosen by READING a coordinate pair (column letter × row number), the foundational ordered-pair skill. Separation: coordinate-addressed location vs. blind scratch-reveal.",
+    "standards": [
+      {"code": "5.G.A.1", "grade": "3", "strand": "Geometry / coordinate readiness", "subject": "math"},
+      {"code": "2.G.A.2", "grade": "2", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "Every dig reveals SOMETHING fun — a crab, a boot, a gem — so wrong taps are still little surprises, and the right coordinate unearths the treasure chest with a sparkle. Curiosity, not accuracy-pressure.",
+    "interaction": "tap",
+    "character_world": "Captain Quill's treasure island, each map a new island.",
+    "web_shell_feasibility": "feasible — labeled CSS grid, tap-to-reveal cell with flip animation.",
+    "asset_idea": "Stub: lettered/numbered grid + emoji buried items. CA5: parchment map, sand-dig reveal, treasure chest, parrot guide."
+  },
+  {
+    "id": "navigate-spatial-04",
+    "name": "River Steer",
+    "mechanic": "A boat floats down a branching number-river; at each fork two channels are labeled with numbers and a prompt asks 'steer toward the BIGGER number' (or the answer to a sum). The child taps the left or right channel to steer, and the boat drifts that way.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "Path-journey is a single fixed track; this is a BRANCHING route where the child's left/right steering choice determines which way the boat goes — directionality + a math decision fused. Magic-machine transforms an input; here the child chooses a DIRECTION at a junction. Separation: branching directional steering vs. fixed-track advance.",
+    "standards": [
+      {"code": "K.CC.C.7", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "1.OA.C.6", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "The river meanders past otters and lily pads; steering correctly opens a scenic channel, a wrong turn just bumps a friendly beaver dam that nudges you back to the fork. The journey downstream is the reward.",
+    "interaction": "tap",
+    "character_world": "A duckling captain rafting home down Comparison Creek.",
+    "web_shell_feasibility": "feasible — fork = two tappable channel zones, CSS path-follow animation for the boat.",
+    "asset_idea": "Stub: blue Y-shapes + number labels + a boat dot. CA5: river backdrop tiles, duckling raft, otters/beaver dam, channel-glint."
+  },
+  {
+    "id": "navigate-spatial-05",
+    "name": "Mail Route",
+    "mechanic": "A neighborhood map shows houses; a route card lists stops in order ('First Maple St, then Oak St, last the Park'). The child taps the houses in that exact left-to-right/ordinal sequence to plan the delivery route, drawing the path between them.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "Story-maker sequences narrative beats with no map; this sequences SPATIAL STOPS on a layout, so ordinal/sequence words become a physical route. Closest neighbor is path-journey, but here the child CHOOSES which stops and the ORDER over an open map rather than advancing along a pre-drawn line. Separation: ordinal route-planning over a map vs. linear track-advance.",
+    "standards": [
+      {"code": "K.CC.A.3", "grade": "K", "strand": "Counting & Cardinality / ordinals", "subject": "math"},
+      {"code": "RF.K.3.c", "grade": "K", "strand": "Reading Foundations", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each delivered letter pops a happy resident at the door (a waving grandma, a kid with a kite). Complete the route and the mail truck does a little victory loop. No timer — re-tap to reorder anytime.",
+    "interaction": "sequence",
+    "character_world": "Pip the postal mouse on her morning round.",
+    "web_shell_feasibility": "feasible — tappable house hotspots, SVG polyline drawn between taps in order.",
+    "asset_idea": "Stub: dots for houses + numbered route line. CA5: town map, mail-mouse truck, waving residents, letter-drop animation."
+  },
+  {
+    "id": "navigate-spatial-06",
+    "name": "Junction Maze",
+    "mechanic": "An open maze: at every junction a gate is locked by a question (a letter sound, a sum). The child first chooses WHICH way to turn (the maze has multiple valid routes), then answers the gate to open it. Both the route and the answers are the child's, so the maze can be solved many ways.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "Unlike path-journey's single ordered track, the maze is OPEN with branching corridors — the child has genuine route agency, choosing direction at each junction. The question gates movement but does NOT dictate the path. Separation: open multi-route maze navigation vs. single predetermined track.",
+    "standards": [
+      {"code": "RF.K.3.a", "grade": "K", "strand": "Reading Foundations / phonics", "subject": "ela"},
+      {"code": "1.OA.C.6", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "Wandering is encouraged — dead ends hide little friends (a sleeping snail, a glowing mushroom) so exploring is rewarded. Reaching the center finds the lost firefly's lantern. No optimal-path scoring.",
+    "interaction": "tap",
+    "character_world": "A firefly guiding you through the glowmoss hedge maze at dusk.",
+    "web_shell_feasibility": "feasible — grid-cell maze with wall styling, tap adjacent cell to step, gate modal on locked passage.",
+    "asset_idea": "Stub: maze grid + lock icons on passages. CA5: hedge-maze tiles, firefly sprite, dead-end critters, central lantern glow."
+  },
+  {
+    "id": "navigate-spatial-07",
+    "name": "Park the Truck",
+    "mechanic": "A parking lot grid; a sign says 'Park BETWEEN the red car and the tree' or 'Park to the LEFT of the bus'. The child drags the truck into the spot that satisfies the spatial relation among existing objects. The relation among landmarks defines the target spot.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "Where's-My-Hat (02) places ONE object relative to ONE landmark; this requires resolving a relation among TWO+ landmarks (between, left-of-X-but-right-of-Y), a harder relational-position skill. Sort-home places by category. Separation: multi-landmark relational positioning vs. single-relation placement / category sorting.",
+    "standards": [
+      {"code": "K.G.A.1", "grade": "K", "strand": "Geometry", "subject": "math"},
+      {"code": "L.1.1.i", "grade": "1", "strand": "Language / prepositions", "subject": "ela"}
+    ],
+    "fun_no_competition": "Park correctly and the truck honks a cheerful toot, headlights blink, the driver waves. Wrong spot just rolls back out with a polite reverse-beep. The satisfaction is tidy fitting-in-place.",
+    "interaction": "drag",
+    "character_world": "A bustling toy-town parking lot run by a beaver attendant.",
+    "web_shell_feasibility": "feasible — grid lot, draggable truck, validate spot against relational rule.",
+    "asset_idea": "Stub: lot grid + colored car blocks + a truck rectangle. CA5: parking-lot scene, trucks/cars, beaver attendant, headlight-blink frames."
+  },
+  {
+    "id": "navigate-spatial-08",
+    "name": "Step Counter",
+    "mechanic": "A character stands on a number line painted on the ground; the prompt says 'Hop FORWARD 3, then BACK 1 — where do you land?'. The child taps the arrow buttons to make the character physically hop along the line, watching each step, then reads the landing number.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "This is directional travel along a 1D number line where forward/back hops ENACT addition/subtraction as movement — the spatial journey is the arithmetic. Magic-machine outputs a transformed value invisibly; here the child SEES the hops traverse space. Separation: embodied directional number-line movement vs. hidden transform.",
+    "standards": [
+      {"code": "1.OA.C.5", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "2.MD.B.6", "grade": "2", "strand": "Measurement & Data / number line", "subject": "math"}
+    ],
+    "fun_no_competition": "The hopping frog leaves a trail of lily-pad splashes; landing on the right number makes a flower bloom there. Hop back and forth freely to explore — the line is a playground.",
+    "interaction": "tap",
+    "character_world": "Hopper the frog crossing the lily-pad number line.",
+    "web_shell_feasibility": "feasible — horizontal flex number line, frog sprite translateX per hop, forward/back buttons.",
+    "asset_idea": "Stub: tick-marked line + numbers + frog dot + arrow buttons. CA5: pond number-line, frog hop-cycle, lily-pad splash, bloom-on-landing."
+  },
+  {
+    "id": "navigate-spatial-09",
+    "name": "Compass Quest",
+    "mechanic": "A scene with a compass rose; a clue reads 'Walk NORTH to the mountain, then EAST to the cave'. The child taps N/S/E/W direction buttons in sequence to walk an explorer across the map toward the goal, using cardinal directions.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "Robot Recess (01) uses screen-relative up/down/left/right; this uses CARDINAL directions (N/S/E/W) tied to a map+compass, an early map-skills standard distinct from grid programming. Compass Quest's directions are absolute map bearings, not screen-relative arrows. Separation: cardinal map-bearing navigation vs. screen-relative move-programming.",
+    "standards": [
+      {"code": "L.1.1.i", "grade": "1", "strand": "Language / directional words", "subject": "ela"},
+      {"code": "2.G.A.2", "grade": "2", "strand": "Geometry / map grid", "subject": "math"}
+    ],
+    "fun_no_competition": "Each leg of the journey crosses a new biome — snowy peak, jungle, beach — and the explorer plants a little flag at each landmark. Arriving finds a friendly yeti who shares cocoa. The expedition itself is the joy.",
+    "interaction": "sequence",
+    "character_world": "Explorer Wren and her compass, mapping a storybook continent.",
+    "web_shell_feasibility": "feasible — map grid, compass-rose button cluster, explorer sprite move per cardinal step.",
+    "asset_idea": "Stub: grid + N/S/E/W buttons + explorer dot. CA5: illustrated continent map, explorer sprite, biome tiles, yeti, flag-plant frame."
+  },
+  {
+    "id": "navigate-spatial-10",
+    "name": "Thread the Gates",
+    "mechanic": "A flat thread must pass through numbered gates IN ORDER (1→2→3...). The child drags the needle-tip along, choosing which gate to enter next; entering them in the correct sequence stitches the thread through. The ordering of the spatial pass-throughs is the skill.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "Magic-trace follows a SINGLE prescribed line; here there are MANY gates scattered in space and the child chooses the next gate (sequence-as-route), so ordering + spatial routing combine. Mail Route (05) taps discrete house stops; Thread the Gates is a continuous DRAG threading through openings. Separation: continuous ordered threading through gates vs. tap-stop routing / single-line tracing.",
+    "standards": [
+      {"code": "K.CC.A.2", "grade": "K", "strand": "Counting & Cardinality / count-on sequence", "subject": "math"},
+      {"code": "K.CC.B.4", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"}
+    ],
+    "fun_no_competition": "Each gate threaded lights up and chimes a rising note, building a little melody; complete the order and the thread becomes a glowing string of beads — a friendship bracelet for a bear cub. Re-thread freely.",
+    "interaction": "drag",
+    "character_world": "A gentle bear cub waiting for a hand-stitched bracelet.",
+    "web_shell_feasibility": "feasible — SVG path drawn by pointer drag, gate hotspots validated in order, snap thread segment on correct entry.",
+    "asset_idea": "Stub: numbered ring gates + a draggable needle dot. CA5: cozy craft-table scene, needle/thread, glowing beads, bear cub reaction."
+  },
+  {
+    "id": "navigate-spatial-11",
+    "name": "Word Ladder Climb",
+    "mechanic": "A vertical ladder of rungs; the child climbs UP by tapping rungs in order, and each rung is unlocked by reading a CVC word and tapping it. The spatial climb is upward/downward and the word reading gates the ascent — directionality (up/top, down/bottom) plus decoding.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "This emphasizes the VERTICAL up/down axis (top/bottom/above/below positional language) with a climbing-character, distinct from the horizontal number line (08) and 2D grids. The reading gate is incidental; the spatial axis is the point. Separation: vertical up/down axis travel vs. horizontal/2D navigation.",
+    "standards": [
+      {"code": "K.G.A.1", "grade": "K", "strand": "Geometry / above-below", "subject": "math"},
+      {"code": "RF.K.3.b", "grade": "K", "strand": "Reading Foundations", "subject": "ela"}
+    ],
+    "fun_no_competition": "A koala climbs toward a treetop nest of eucalyptus snacks; reaching the TOP rung triggers a happy munch. Climbing back down to look at lower rungs is fine — the tree is to explore.",
+    "interaction": "tap",
+    "character_world": "Kip the koala climbing the storybook gum tree.",
+    "web_shell_feasibility": "feasible — vertical flex ladder, koala translateY per rung, word-tap unlock.",
+    "asset_idea": "Stub: stacked rungs + word labels + a koala dot. CA5: gum-tree backdrop, koala climb frames, treetop nest, leaf-munch."
+  },
+  {
+    "id": "navigate-spatial-12",
+    "name": "Grid Garden Plot",
+    "mechanic": "A garden grid; the gardener asks 'Plant the carrot in ROW 2, COLUMN 3'. The child taps the cell named by the row+column pair to plant. Locating cells by ordered (row, column) builds coordinate-grid reading.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "Treasure Coordinates (03) reveals a hidden item via a single dig at one coordinate; Grid Garden has the child PLACE objects at multiple stated (row,column) pairs to compose a garden — placement-by-coordinate over many cells, building an array/grid layout. Separation: place-by-coordinate composition vs. reveal-by-coordinate single dig.",
+    "standards": [
+      {"code": "2.G.A.2", "grade": "2", "strand": "Geometry / partition into rows & columns", "subject": "math"},
+      {"code": "2.OA.C.4", "grade": "2", "strand": "Operations / arrays readiness", "subject": "math"}
+    ],
+    "fun_no_competition": "Each planted cell sprouts immediately with a wiggle; once the row/column pattern fills, the whole garden blooms in a wave and butterflies arrive. Watching the array fill into a garden is the delight.",
+    "interaction": "tap",
+    "character_world": "Granny Mole's underground-window vegetable garden.",
+    "web_shell_feasibility": "feasible — CSS grid with row/column headers, tap-cell to plant sprite.",
+    "asset_idea": "Stub: labeled grid + veggie emoji. CA5: garden-plot scene, mole gardener, sprout-grow frames, butterflies, bloom-wave."
+  },
+  {
+    "id": "navigate-spatial-13",
+    "name": "Bus Stop Order",
+    "mechanic": "A bus drives a fixed road but the child decides the ORDER to visit a set of off-road stops shown on a small map, dragging stop-flags into a route-plan slot strip ('pick up at the school FIRST, the pool NEXT'). The child sequences spatial destinations, then the bus drives the plan.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "Mail Route (05) taps stops directly on the map in order; Bus Stop builds an explicit ORDERED PLAN STRIP (drag flags into 1st/2nd/3rd slots) abstracted from the map, then watches it execute — a planning/sequencing layer. Separation: abstract ordered-plan assembly vs. direct in-map tapping.",
+    "standards": [
+      {"code": "1.NBT.A.1", "grade": "1", "strand": "Number & Operations / ordinal sequence", "subject": "math"},
+      {"code": "RF.1.1", "grade": "1", "strand": "Reading Foundations / left-to-right order", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each stop the bus reaches, a giggling kid hops aboard and waves out the window; by the last stop the bus is a happy crowd singing. The growing busful of friends is the payoff.",
+    "interaction": "drag",
+    "character_world": "Sunny the school bus collecting a neighborhood of kids.",
+    "web_shell_feasibility": "feasible — drag flags into ordinal slots, then animate bus along stop sequence.",
+    "asset_idea": "Stub: stop dots + numbered slot strip. CA5: bus sprite, neighborhood map, kid passengers, window-wave frames."
+  },
+  {
+    "id": "navigate-spatial-14",
+    "name": "Tilt Marble Tray",
+    "mechanic": "A marble sits on a tray of tilt-arrows; the child taps a tilt-direction (left/right/up/down) to roll the marble that way, threading it past holes into a labeled target pocket named by the prompt ('roll the marble to the GREEN pocket in the corner'). Each tilt commits one directional roll.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "Robot Recess (01) pre-programs a full move sequence then runs it; Tilt Marble is STEP-BY-STEP reactive steering (tap a tilt, see the marble roll, decide the next tilt), so the child navigates live and adjusts. Continuous-correction navigation vs. batch-program-then-run. Also adds corner/edge/center positional targets. Separation: live reactive single-step steering vs. pre-planned program.",
+    "standards": [
+      {"code": "K.G.A.1", "grade": "K", "strand": "Geometry / position words", "subject": "math"},
+      {"code": "L.K.1.e", "grade": "K", "strand": "Language / prepositions", "subject": "ela"}
+    ],
+    "fun_no_competition": "The marble rolls with a satisfying wood-clack; reaching the target pocket plays a clink-and-twinkle and a confetti puff. Rolling around the tray exploring the holes is itself fun, no fail-state for taking the long way.",
+    "interaction": "tap",
+    "character_world": "A cozy wooden toy-marble tray on grandpa's workbench.",
+    "web_shell_feasibility": "feasible — grid tray, tap-tilt rolls marble until wall/hole, validate landing pocket.",
+    "asset_idea": "Stub: tray grid + holes + colored pockets + marble dot. CA5: wooden tray art, glass marble, hole shadows, confetti puff."
+  },
+  {
+    "id": "navigate-spatial-15",
+    "name": "Constellation Connect",
+    "mechanic": "Stars are scattered across a night sky with little letter or number labels; a star-map card shows the order to connect them ('A to B to C' or '1→2→3') to draw a constellation. The child drags a line star-to-star in the named sequence, routing across open space.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "Magic-trace follows one continuous prescribed stroke; Constellation Connect is dot-to-dot routing where the child SELECTS the next destination star by reading its label and the path between stars is open (no pre-drawn line). Thread-the-Gates (10) passes THROUGH ring-gates continuously; this hops point-to-point across empty sky. Separation: labeled point-to-point connect-the-dots routing vs. continuous gate-threading / single-stroke trace.",
+    "standards": [
+      {"code": "K.CC.A.2", "grade": "K", "strand": "Counting & Cardinality / count-on", "subject": "math"},
+      {"code": "RF.K.1.d", "grade": "K", "strand": "Reading Foundations / letter recognition", "subject": "ela"}
+    ],
+    "fun_no_competition": "As each segment connects, the stars brighten and a soft chime sounds; finishing the order reveals a glowing animal constellation (a bear, a swan) that twinkles and 'comes alive' drifting across the sky. Wonder, not winning.",
+    "interaction": "drag",
+    "character_world": "A sleepy stargazing hedgehog naming the night-sky animals.",
+    "web_shell_feasibility": "feasible — absolutely-positioned star hotspots, SVG line drawn on correct-order drag, glow reveal.",
+    "asset_idea": "Stub: dots + labels + line segments. CA5: night-sky backdrop, hedgehog stargazer, star-glow, constellation-animal reveal."
+  },
+  {
+    "id": "navigate-spatial-16",
+    "name": "Floor Plan Move-In",
+    "mechanic": "A house floor-plan with named rooms; the mover says 'Carry the bed INTO the bedroom, NEXT TO the window'. The child drags furniture room-to-room and places it relative to in-room features, combining room-navigation with within-room positional words.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "Sort-home places items by category into the right bin; Floor Plan layers SPATIAL navigation (which labeled room) PLUS relational placement (next-to/in-front-of the window/door) — a two-level positional task on a map-like plan. Where's-My-Hat (02) is a single scene; this routes across multiple rooms. Separation: two-level room-routing + in-room positioning vs. single-scene relation / category sort.",
+    "standards": [
+      {"code": "L.1.1.i", "grade": "1", "strand": "Language / prepositions", "subject": "ela"},
+      {"code": "K.G.A.1", "grade": "K", "strand": "Geometry / position words", "subject": "math"}
+    ],
+    "fun_no_competition": "Each piece placed makes the room feel homier — turn on the lamp, the cat curls on the new bed. When the house is fully furnished a family moves in and waves from the windows. Cozy world-building, no score.",
+    "interaction": "drag",
+    "character_world": "Help the Bramble family move into their new burrow-house.",
+    "web_shell_feasibility": "feasible — floor-plan layout with labeled room zones + in-room anchor points, drag-snap furniture.",
+    "asset_idea": "Stub: room rectangles + labels + furniture blocks. CA5: cutaway floor-plan, furniture sprites, family characters, lamp-on / cat-curl reactions."
+  }
+]

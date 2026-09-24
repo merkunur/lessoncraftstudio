@@ -1,0 +1,1850 @@
+[
+  {
+    "cluster_id": "C001",
+    "cluster_name": "Find-the-Missing-Addend Repair",
+    "core_mechanic": "Read an equation with one blank/wrong term embedded in a broken object and supply the value that makes it true to 'fix' the object.",
+    "keep": {"id": "repair-restore-01", "name": "Gadget Repair Shop", "lens": "applied-jobs-repair", "why_best": "Cleanest direct instantiation of find-the-missing-addend (1.OA.D.8); strong restore-payoff, fully DOM-feasible, most original repair frame."},
+    "absorbed": [
+      {"id": "repair-restore-03", "name": "Quilt Mender", "lens": "applied-jobs-repair"},
+      {"id": "repair-restore-06", "name": "Recipe Rescue", "lens": "applied-jobs-repair"},
+      {"id": "repair-restore-11", "name": "Bridge Engineer", "lens": "applied-jobs-repair"}
+    ],
+    "standards_span": ["1.OA.D.8", "1.OA.C.6", "K.OA.A.4", "1.OA.D.7", "2.OA.A.1"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C002",
+    "cluster_name": "Spelling/Letter Error-Repair",
+    "core_mechanic": "Diagnose the wrong or missing letter in a shown word and replace/restore it from a tray to make the correct spelling.",
+    "keep": {"id": "repair-restore-02", "name": "Word Doctor's Clinic", "lens": "applied-jobs-repair", "why_best": "Clear orthographic error-detection with TTS confirm; the clinic frame is warm and the diagnose-then-replace loop is the cleanest of the spelling-repair set."},
+    "absorbed": [
+      {"id": "repair-restore-08", "name": "Faded Sign Restorer", "lens": "applied-jobs-repair"}
+    ],
+    "standards_span": ["L.1.2.e", "RF.1.3", "RF.K.3.c", "RF.1.3.b"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C003",
+    "cluster_name": "Grammar/Sentence Error-Correction",
+    "core_mechanic": "Find the grammatically wrong word in a complete sentence and swap it for the correct form (agreement/tense/conventions).",
+    "keep": {"id": "repair-restore-04", "name": "Sentence Surgeon", "lens": "applied-jobs-repair", "why_best": "Whole-sentence syntactic diagnosis (agreement/tense) with TTS read-back; broader conventions coverage than the punctuation-only sibling."},
+    "absorbed": [
+      {"id": "repair-restore-14", "name": "Punctuation Electrician", "lens": "applied-jobs-repair"},
+      {"id": "narrate-roleplay-01", "name": "Fix the Silly Puppet", "lens": "narrate-roleplay-puppet"}
+    ],
+    "standards_span": ["L.2.1", "L.1.1.c", "L.1.2.a", "L.1.2.b", "L.K.2.b", "L.1.1.C", "L.K.1.F"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C004",
+    "cluster_name": "Set-the-Clock-Hands (radial drag)",
+    "core_mechanic": "Read a target time and drag the analog clock hands (radial atan2-snap) to that position.",
+    "keep": {"id": "draw-trace-04", "name": "Set the Clock Hands", "lens": "draw-trace-path", "why_best": "Direct radial-drag telling-time on the proven E10 clock-core; both half-hour and 5-minute ladders; identical-mechanic siblings (Clockwork Fixer) absorbed."},
+    "absorbed": [
+      {"id": "repair-restore-05", "name": "Clockwork Fixer", "lens": "applied-jobs-repair"}
+    ],
+    "standards_span": ["1.MD.B.3", "2.MD.C.7"],
+    "grades": ["1", "2"],
+    "subjects": ["math"],
+    "flags": ["needs-richer-runtime"]
+  },
+  {
+    "cluster_id": "C005",
+    "cluster_name": "Place-Value Mosaic / Tens-and-Ones Build",
+    "core_mechanic": "Build a target number by supplying ten-blocks and ones-tiles into a structured frame to show its tens-and-ones composition.",
+    "keep": {"id": "repair-restore-15", "name": "Ten-Frame Tile Restorer", "lens": "applied-jobs-repair", "why_best": "Base-ten composition as restoration; tens+ones into a mosaic gives a tactile place-value build distinct from the column-machine variant."},
+    "absorbed": [
+      {"id": "construct-build-04", "name": "Expand-O-Tron Columns", "lens": "construct-build"},
+      {"id": "collect-trade-13", "name": "Build-the-Number Trading Cards", "lens": "collect-album-trade"}
+    ],
+    "standards_span": ["1.NBT.B.2", "K.NBT.A.1", "2.NBT.A.1", "2.NBT.A.3"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C006",
+    "cluster_name": "Number-Line Sequence Completion",
+    "core_mechanic": "Drag missing numbered ties/tokens into the gaps of a number line so the sequence/skip-count reads correctly in order.",
+    "keep": {"id": "repair-restore-07", "name": "Number-Line Track Repair", "lens": "applied-jobs-repair", "why_best": "Reconstruct-the-missing-structure on a number line (sequence/skip-count) with a satisfying train payoff; cleaner than the open-slot sort sibling."},
+    "absorbed": [
+      {"id": "organize-order-01", "name": "The Tidy Number Line", "lens": "sort-curate-organize"}
+    ],
+    "standards_span": ["1.NBT.A.1", "2.NBT.A.2", "K.CC.A.3"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C007",
+    "cluster_name": "Comprehension/Vocabulary Cloze (whole-word in context)",
+    "core_mechanic": "Read a sentence/caption with a missing word and choose the one word that correctly completes its meaning.",
+    "keep": {"id": "repair-restore-12", "name": "Torn Picture Mender", "lens": "applied-jobs-repair", "why_best": "Meaning/context cloze (comprehension+vocabulary) with a warm seam-mend payoff and TTS read-back; distinct from phonics letter-restore."},
+    "absorbed": [
+      {"id": "narrate-roleplay-09", "name": "Finish My Sentence", "lens": "narrate-roleplay-puppet"}
+    ],
+    "standards_span": ["RF.1.4.a", "L.1.5", "L.K.5.B", "L.1.1.E", "L.K.5.A"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C008",
+    "cluster_name": "Word-Problem Solve (story to result)",
+    "core_mechanic": "Read/hear a narrated quantity story (join/separate/compare) and dial or tap the result number.",
+    "keep": {"id": "repair-restore-16", "name": "Vet's Diagnosis Window", "lens": "applied-jobs-repair", "why_best": "Cleanest add-to/take-from word-problem-to-result (1.OA.A.1) with a heal-the-patient payoff and a number dial; absorbs the dialogue-framed sibling."},
+    "absorbed": [
+      {"id": "narrate-roleplay-05", "name": "Help the Word-Problem Friend", "lens": "narrate-roleplay-puppet"}
+    ],
+    "standards_span": ["1.OA.A.1", "2.OA.A.1", "K.OA.A.2"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C009",
+    "cluster_name": "Pattern Completion (fill the missing unit)",
+    "core_mechanic": "Infer the repeating/growing rule from a partial pattern and supply the missing element(s) to continue it.",
+    "keep": {"id": "construct-build-09", "name": "Pattern Rail Builder", "lens": "construct-build", "why_best": "Pattern-extension by snapping the next rail-tiles; train-rolls payoff; strongest of the many pattern-continue variants and clean DOM ordered-slot check."},
+    "absorbed": [
+      {"id": "repair-restore-10", "name": "Pattern Weaver's Loom", "lens": "applied-jobs-repair"},
+      {"id": "organize-order-08", "name": "Build the Growing Pattern", "lens": "sort-curate-organize"},
+      {"id": "draw-trace-11", "name": "Draw to Continue the Pattern", "lens": "draw-trace-path"}
+    ],
+    "standards_span": ["K.OA.A.3", "1.OA.A.1", "2.OA.C.3", "K.CC.A.1"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C010",
+    "cluster_name": "Comparison / Balance to Equality (the equal sign)",
+    "core_mechanic": "Read two expressions/quantities and add or place a value so both sides are equal, with a tilting scale/balance as feedback.",
+    "keep": {"id": "construct-build-02", "name": "See-Saw Stack", "lens": "construct-build", "why_best": "Comparison-by-construction with real-time beam tilt covers =, >, < and the meaning of the equal sign; the richest balance variant, all DOM."},
+    "absorbed": [
+      {"id": "repair-restore-13", "name": "Scale Balance Mechanic", "lens": "applied-jobs-repair"},
+      {"id": "mimic-copy-05", "name": "Same Total, New Way", "lens": "mimic-copy-mirror"},
+      {"id": "mimic-copy-15", "name": "Make Both Sides the Same", "lens": "mimic-copy-mirror"},
+      {"id": "organize-order-03", "name": "Balance the Scale", "lens": "sort-curate-organize"},
+      {"id": "physical-metaphor-07", "name": "Stack 'til It Tips", "lens": "physical-metaphor"}
+    ],
+    "standards_span": ["K.CC.C.6", "1.OA.D.7", "K.OA.A.4", "2.OA.B.2"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C011",
+    "cluster_name": "Pipe/Comparison Balance with Flow Feedback",
+    "core_mechanic": "Evaluate a comparison/equality constraint and place the one patch/valve that balances a broken flow system.",
+    "keep": {"id": "repair-restore-09", "name": "Pipe Leak Patch", "lens": "applied-jobs-repair", "why_best": "Comparison/equality as a diagnostic with water-physics payoff; distinct enough from the symbolic balance scale by being choose-the-one-patch with system feedback."},
+    "absorbed": [],
+    "standards_span": ["1.OA.D.7", "K.CC.C.7"],
+    "grades": ["K", "1"],
+    "subjects": ["math"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C012",
+    "cluster_name": "Value-Equivalence Trade (different units, equal value)",
+    "core_mechanic": "Give up items whose total value equals an unlike target item, sealing a trade only when both sides balance.",
+    "keep": {"id": "collect-trade-01", "name": "The Fair-Trade Post", "lens": "collect-album-trade", "why_best": "Pure value-equivalence across unlike units (1.OA.D.7); the barter frame is original and the balance-seal is satisfying and DOM-trivial."},
+    "absorbed": [],
+    "standards_span": ["1.OA.D.7"],
+    "grades": ["1"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C013",
+    "cluster_name": "Base-Ten Regroup Trade (10-for-1 / break-1-into-10)",
+    "core_mechanic": "Exchange ten of a smaller unit for one of the next place (or break one larger into ten smaller), composing/decomposing base-ten units.",
+    "keep": {"id": "transform-machine-11", "name": "Tens-Frame Carry Machine", "lens": "transform-machine-causeeffect", "why_best": "Threshold auto-bundle (ten ones -> one ten) is the cleanest, most delightful regroup transform; absorbs the bank/cashier/packing-line variants."},
+    "absorbed": [
+      {"id": "collect-trade-02", "name": "Ten-for-One Bank", "lens": "collect-album-trade"},
+      {"id": "collect-trade-09", "name": "Break-the-Big-Coin Cashier", "lens": "collect-album-trade"},
+      {"id": "construct-build-01", "name": "Tower of Tens", "lens": "construct-build"},
+      {"id": "operate-system-04", "name": "Ten-Frame Packing Line", "lens": "operate-run-a-system"}
+    ],
+    "standards_span": ["1.NBT.B.2", "2.NBT.A.1", "2.MD.C.8", "K.NBT.A.1"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C014",
+    "cluster_name": "Make Exact Money (coins to a price)",
+    "core_mechanic": "Drag/tap mixed coins to compose exactly a target price from non-uniform denominations.",
+    "keep": {"id": "collect-trade-03", "name": "Exact-Change Market Stall", "lens": "collect-album-trade", "why_best": "Money composition to an exact total with running readout and return-on-overshoot; the canonical 2.MD.C.8 instantiation, absorbing the register/stack/ramp variants."},
+    "absorbed": [
+      {"id": "construct-build-17", "name": "Money Stack Vending", "lens": "construct-build"},
+      {"id": "operate-system-06", "name": "Cash-Register Coin Cashier", "lens": "operate-run-a-system"},
+      {"id": "physical-metaphor-12", "name": "Roll the Coin Down the Ramp", "lens": "physical-metaphor"}
+    ],
+    "standards_span": ["2.MD.C.8", "1.MD.C.4"],
+    "grades": ["1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C015",
+    "cluster_name": "Make-the-Total Combination (addends to a target)",
+    "core_mechanic": "Tap/add whole-number-valued items so the running tray total hits a target exactly (multiple decompositions allowed).",
+    "keep": {"id": "collect-trade-05", "name": "Make-the-Total Vending Wall", "lens": "collect-album-trade", "why_best": "Find-addend-combinations-to-target with many valid answers (1.OA.D.8/K.OA.A.4); freedom of choice is the fun, clean running-sum gate."},
+    "absorbed": [
+      {"id": "physical-metaphor-05", "name": "Drop in the Sum Bins", "lens": "physical-metaphor"}
+    ],
+    "standards_span": ["1.OA.D.8", "K.OA.A.4", "K.OA.A.2", "1.OA.C.6"],
+    "grades": ["K", "1"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C016",
+    "cluster_name": "Equivalent-Fraction Swap (proportional)",
+    "core_mechanic": "Swap a fraction tile for a different-looking but numerically-equal one, gated by equal shaded area.",
+    "keep": {"id": "collect-trade-04", "name": "Equivalent-Fraction Swap Meet", "lens": "collect-album-trade", "why_best": "Proportional equal-area equivalence (1/2 = 2/4); the only equivalent-fraction swap design and a clean SVG proportional check."},
+    "absorbed": [],
+    "standards_span": ["3.NF.A.3"],
+    "grades": ["3"],
+    "subjects": ["math"],
+    "flags": ["out-of-grade"]
+  },
+  {
+    "cluster_id": "C017",
+    "cluster_name": "Sort-by-Phonological-Family (rime/word family)",
+    "core_mechanic": "Route earned word cards into the page/bin whose rime or word-family they share.",
+    "keep": {"id": "collect-trade-06", "name": "Word-Family Sticker Vault", "lens": "collect-album-trade", "why_best": "Rime-gated acquisition into a curated album; the cleanest word-family sort with a satisfying complete-the-page payoff."},
+    "absorbed": [],
+    "standards_span": ["1.RF.2.c", "K.RF.2.d"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C018",
+    "cluster_name": "Accept/Reject by a Category Rule (curate a set)",
+    "core_mechanic": "Accept only the items that meet a stated category rule and wave away the rest to build a rule-matching collection.",
+    "keep": {"id": "collect-trade-07", "name": "Museum Wing Curator", "lens": "collect-album-trade", "why_best": "Binary keep/decline against a stated rule (classify-and-count readiness, geometry/phonics); the curator frame is original and the rule is explicit."},
+    "absorbed": [
+      {"id": "logic-deduction-07", "name": "If-This-Then-That (Rule Robot)", "lens": "logic-deduction-puzzle"}
+    ],
+    "standards_span": ["K.G.A.2", "K.RF.2.d", "K.MD.B.3", "2.G.A.1"],
+    "grades": ["K", "2"],
+    "subjects": ["math", "ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C019",
+    "cluster_name": "Complete-the-Numbered-Set (ordered cards)",
+    "core_mechanic": "Assemble a complete ordered/numbered set by placing revealed cards into their correct numbered frames (1..N).",
+    "keep": {"id": "collect-trade-08", "name": "Set-Completer Card Packs", "lens": "collect-album-trade", "why_best": "Sequence/cardinality via assembling an ordered set with pack-open thrill; distinct from a number line by being frame-by-number completion."},
+    "absorbed": [
+      {"id": "construct-build-10", "name": "Skeleton Snap", "lens": "construct-build"}
+    ],
+    "standards_span": ["K.CC.A.3", "K.CC.B.4", "K.CC.A.2", "K.G.A.1"],
+    "grades": ["K"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C020",
+    "cluster_name": "Synonym Trade (same-meaning gate)",
+    "core_mechanic": "Trade in a word that means the same as the trader's wanted word (semantic-equivalence gate).",
+    "keep": {"id": "collect-trade-10", "name": "Synonym Swap Bazaar", "lens": "collect-album-trade", "why_best": "Meaning-equivalence (synonyms) as a fair trade; clean curated-list gate and the canonical synonym design."},
+    "absorbed": [],
+    "standards_span": ["1.L.5.b", "2.L.5.b"],
+    "grades": ["1", "2"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C021",
+    "cluster_name": "Antonym Trade (opposite-meaning gate)",
+    "core_mechanic": "Trade in a word that is the opposite of the trader's wanted word (antonym gate).",
+    "keep": {"id": "collect-trade-14", "name": "Antonym Trading Post", "lens": "collect-album-trade", "why_best": "Opposite-meaning relation is a genuinely different cognitive task and CCSS skill from synonyms; clean antonym-pair gate."},
+    "absorbed": [],
+    "standards_span": ["K.L.5.b", "1.L.5.b"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C022",
+    "cluster_name": "Time-Equivalence Match (representations of one time)",
+    "core_mechanic": "Match an analog clock face to a different representation (digital / word) of the same time.",
+    "keep": {"id": "collect-trade-12", "name": "Same-Time Clock Trader", "lens": "collect-album-trade", "why_best": "Teaches time-telling equivalence across representations; distinct from setting hands (it is reading-and-matching), clean equality check."},
+    "absorbed": [],
+    "standards_span": ["2.MD.C.7", "1.MD.B.3"],
+    "grades": ["1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C023",
+    "cluster_name": "Count-then-Spend Token Loop",
+    "core_mechanic": "Count a scene to earn that many tokens, then spend exactly those tokens to buy an item (cardinality -> exact spend).",
+    "keep": {"id": "collect-trade-11", "name": "Tally-Token Earn & Spend", "lens": "collect-album-trade", "why_best": "Two linked acts (count to earn, pay exactly to spend) make cardinality concrete; the only earn-then-spend-by-count loop."},
+    "absorbed": [],
+    "standards_span": ["K.CC.B.5", "K.CC.C.6"],
+    "grades": ["K"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C024",
+    "cluster_name": "Rhyme-Gated Spend (feed-a-machine)",
+    "core_mechanic": "Feed the word-coin that rhymes with a machine's label to collect its prize (auditory rhyme gate).",
+    "keep": {"id": "collect-trade-16", "name": "Rhyme-Coin Gumball Shop", "lens": "collect-album-trade", "why_best": "Rhyme (sound relationship) as currency with a gumball-drop payoff; distinct from rime-spelling sort by being auditory and spend-to-collect."},
+    "absorbed": [
+      {"id": "operate-system-11", "name": "Switchboard Rhyme-Connector", "lens": "operate-run-a-system"},
+      {"id": "rhythm-sound-08", "name": "Rhyme Bell Match", "lens": "rhythm-sound-timing"},
+      {"id": "hide-reveal-13", "name": "Peek-a-Boo Rhyme Curtain", "lens": "hide-reveal-discover"}
+    ],
+    "standards_span": ["K.RF.2.a", "1.RF.2.c"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C025",
+    "cluster_name": "Measure-Equivalence Trade (length)",
+    "core_mechanic": "Measure objects against a unit ruler and trade across only the one whose measured length equals the wanted measure.",
+    "keep": {"id": "collect-trade-15", "name": "Measure-and-Match Length Trader", "lens": "collect-album-trade", "why_best": "Length-equality via counting units; distinct measurement-domain equivalence trade, clean unit-count gate."},
+    "absorbed": [],
+    "standards_span": ["1.MD.A.2", "2.MD.A.1"],
+    "grades": ["1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C026",
+    "cluster_name": "Bridge-the-Gap Length Composition",
+    "core_mechanic": "Lay numbered length-segments end-to-end to span exactly a measured gap (1D linear length/addend composition).",
+    "keep": {"id": "construct-build-03", "name": "Bridge the Gap", "lens": "construct-build", "why_best": "1D made-to-measure span encoding addend/length with a clean fit-check; distinct from area tiling and from number-line repair."},
+    "absorbed": [],
+    "standards_span": ["1.OA.D.8", "2.MD.A.1", "1.MD.A.2"],
+    "grades": ["1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C027",
+    "cluster_name": "Syllable-Count Tower (clap-and-stack)",
+    "core_mechanic": "Listen to a word and stack one floor/block per syllable so tower height equals the syllable count.",
+    "keep": {"id": "construct-build-05", "name": "Syllable Skyscraper", "lens": "construct-build", "why_best": "Syllable count = building height; recognition-first, no spelling; the cleanest syllable-as-height build with replay-per-floor."},
+    "absorbed": [
+      {"id": "rhythm-sound-01", "name": "Clap the Word", "lens": "rhythm-sound-timing"},
+      {"id": "rhythm-sound-10", "name": "Sort by Syllables", "lens": "rhythm-sound-timing"}
+    ],
+    "standards_span": ["RF.K.2.B", "RF.1.3.D", "RF.K.2.b"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C028",
+    "cluster_name": "Onset+Rime Blending Bricks (build a word)",
+    "core_mechanic": "Combine an onset segment and a rime segment into one real word that names the picture (sub-word blending).",
+    "keep": {"id": "construct-build-06", "name": "Word Wall Bricks", "lens": "construct-build", "why_best": "Two different segment-types assemble into a new word with TTS blend; the clean RF.K.2.c blending-by-construction design."},
+    "absorbed": [
+      {"id": "organize-order-11", "name": "Sound Sequence: Make the Word in Order", "lens": "sort-curate-organize"}
+    ],
+    "standards_span": ["RF.K.2.C", "RF.1.2.B", "K.RF.2.C", "1.RF.3.B"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C029",
+    "cluster_name": "Blueprint Tile Array (rows x columns)",
+    "core_mechanic": "Lay unit-square tiles to fill a blueprint exactly, forming a 2D array whose rows and columns can be counted.",
+    "keep": {"id": "construct-build-07", "name": "Blueprint Tiles", "lens": "construct-build", "why_best": "Builds array/area structure (rows x columns) by tiling; the foundation-of-multiplication design with a clean grid fill-check."},
+    "absorbed": [],
+    "standards_span": ["2.G.A.2", "2.OA.C.4", "3.MD.C.6"],
+    "grades": ["2", "3"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C030",
+    "cluster_name": "Fraction Pie Assembly (radial equal-partition)",
+    "core_mechanic": "Fit equal wedge-pieces into a tin to assemble a pie that exactly matches a target fraction.",
+    "keep": {"id": "construct-build-08", "name": "Fraction Pie Bakery", "lens": "construct-build", "why_best": "Construction-to-a-fraction by assembling equal wedges; the cleanest unit-fractions-by-building design, radial equal-partition."},
+    "absorbed": [],
+    "standards_span": ["2.G.A.3", "3.NF.A.1", "1.G.A.3"],
+    "grades": ["1", "2", "3"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C031",
+    "cluster_name": "Sentence-Order Scaffold Build",
+    "core_mechanic": "Assemble word-cards left-to-right into a frame so the structure reads as a complete, correctly-ordered, capitalized, end-punctuated sentence.",
+    "keep": {"id": "construct-build-11", "name": "Sentence Scaffold", "lens": "construct-build", "why_best": "Sentence-level word-order assembly enforcing capital-first/end-mark-last with TTS read; the cleanest productive-sentence build."},
+    "absorbed": [
+      {"id": "narrate-roleplay-08", "name": "Mailbag Reply", "lens": "narrate-roleplay-puppet"}
+    ],
+    "standards_span": ["K.L.1.A", "1.L.1.J", "L.K.2.B", "W.K.1", "W.1.1"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["needs-richer-runtime"]
+  },
+  {
+    "cluster_id": "C032",
+    "cluster_name": "Nesting / Seriation Order (whole-set ordering)",
+    "core_mechanic": "Order a whole set by value via fit-nesting or full sort so smaller-inside-larger / least-to-greatest holds across the set.",
+    "keep": {"id": "construct-build-12", "name": "Nesting Number Boxes", "lens": "construct-build", "why_best": "Full seriation by containment where a wrong-value box literally won't fit; tactile ordering distinct from two-way comparison."},
+    "absorbed": [
+      {"id": "organize-order-02", "name": "Line Them Up By Height", "lens": "sort-curate-organize"},
+      {"id": "organize-order-12", "name": "Shelve the Library Books by Number", "lens": "sort-curate-organize"},
+      {"id": "experiment-measure-14", "name": "Order-the-Lengths Bench", "lens": "experiment-sandbox-measure"}
+    ],
+    "standards_span": ["K.CC.C.7", "1.NBT.B.3", "K.MD.A.2", "1.MD.A.1", "2.NBT.A.4", "2.MD.A.4"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C033",
+    "cluster_name": "Number-Bond Part-Part-Whole Build",
+    "core_mechanic": "Build two part-pillars whose heights together support one whole (part + part = whole decomposition).",
+    "keep": {"id": "construct-build-13", "name": "Number Bond Bridge", "lens": "construct-build", "why_best": "Part-part-whole via twin load-bearing supports; clean level-rest check and the canonical decompose-into-two-addends build."},
+    "absorbed": [],
+    "standards_span": ["K.OA.A.3", "K.OA.A.4", "1.OA.B.4"],
+    "grades": ["K", "1"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C034",
+    "cluster_name": "Gear-Train Skip-Count Mesh",
+    "core_mechanic": "Fit intermediate gears so the chain meshes and a counter ticks the skip-count as the train turns.",
+    "keep": {"id": "construct-build-14", "name": "Gear Train Builder", "lens": "construct-build", "why_best": "2D connectivity-and-mesh build encoding skip-counting/equal-groups; distinct from linear pattern by being a connectivity construction."},
+    "absorbed": [],
+    "standards_span": ["2.NBT.A.2", "2.OA.C.3", "3.OA.A.1"],
+    "grades": ["2", "3"],
+    "subjects": ["math"],
+    "flags": ["needs-richer-runtime"]
+  },
+  {
+    "cluster_id": "C035",
+    "cluster_name": "Comparison Wall (build two towers + symbol)",
+    "core_mechanic": "Build two towers to given numerals and place the >,<,= symbol-brick so its mouth faces the larger, forming a written comparison.",
+    "keep": {"id": "construct-build-15", "name": "Comparison Wall", "lens": "construct-build", "why_best": "Produces a written comparison statement (12 > 8) rather than a felt relation; the only design that assembles the relational symbol explicitly."},
+    "absorbed": [
+      {"id": "operate-system-16", "name": "Toll-Booth Comparison Gatekeeper", "lens": "operate-run-a-system"},
+      {"id": "physical-metaphor-03", "name": "Tilt the Marble Maze", "lens": "physical-metaphor"}
+    ],
+    "standards_span": ["1.NBT.B.3", "2.NBT.A.4", "K.CC.C.7"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C036",
+    "cluster_name": "Compound-Word Weld (two whole words)",
+    "core_mechanic": "Fuse two full word-blocks into one compound word, welding only when they make a real compound.",
+    "keep": {"id": "construct-build-16", "name": "Compound Word Crane", "lens": "construct-build", "why_best": "Morphological build at the word level (sun+flower); distinct from sub-word blending; clean compound-list lookup with TTS."},
+    "absorbed": [],
+    "standards_span": ["L.1.4.C", "RF.1.3.B", "L.2.4.D"],
+    "grades": ["1", "2"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C037",
+    "cluster_name": "Symmetry Build (place the mirror half)",
+    "core_mechanic": "Place tiles/parts on the empty side of a mirror-line so the finished structure is symmetric (compute the reflected position).",
+    "keep": {"id": "construct-build-18", "name": "Symmetry Builder", "lens": "construct-build", "why_best": "Every part has one reflection-correct spot enforcing line-symmetry; the cleanest place-the-mirror-half design (absorbs the tap-cell and quadrant variants)."},
+    "absorbed": [
+      {"id": "mimic-copy-02", "name": "Mirror Butterfly", "lens": "mimic-copy-mirror"},
+      {"id": "mimic-copy-08", "name": "Fold-Match Shape", "lens": "mimic-copy-mirror"},
+      {"id": "mimic-copy-16", "name": "Reflect the Rangoli", "lens": "mimic-copy-mirror"},
+      {"id": "draw-trace-02", "name": "Fold the Butterfly", "lens": "draw-trace-path"}
+    ],
+    "standards_span": ["K.G.A.1", "1.G.A.2", "4.G.A.3", "2.G.A.1"],
+    "grades": ["K", "1", "2", "3"],
+    "subjects": ["math"],
+    "flags": ["out-of-grade"]
+  },
+  {
+    "cluster_id": "C038",
+    "cluster_name": "Draw-the-Equal-Cut Partition (area fractions)",
+    "core_mechanic": "Draw straight cut lines (snapped to valid axes) to partition a shape into the requested number of equal parts.",
+    "keep": {"id": "draw-trace-01", "name": "Slice the Snack", "lens": "draw-trace-path", "why_best": "Active-partition fractions facet (deferred in live E14) via a drawn snap-evaluated cut; the cleanest generate-the-partition design."},
+    "absorbed": [
+      {"id": "social-fairness-05", "name": "Split It Down the Middle", "lens": "social-fairness-empathy"},
+      {"id": "draw-trace-17", "name": "Fold for Equal Shares", "lens": "draw-trace-path"}
+    ],
+    "standards_span": ["1.G.A.3", "2.G.A.3"],
+    "grades": ["1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C039",
+    "cluster_name": "Draw-the-Symmetry-Axis (self-test fold)",
+    "core_mechanic": "Draw the line of symmetry onto a complete figure; the figure folds along the drawn stroke to self-test.",
+    "keep": {"id": "draw-trace-03", "name": "Draw the Mirror Line", "lens": "draw-trace-path", "why_best": "Locate-and-draw the axis (not given), figure self-tests by folding; distinct from placing/folding a half. Snap to pre-known axes keeps it feasible."},
+    "absorbed": [],
+    "standards_span": ["4.G.A.3", "1.G.A.1"],
+    "grades": ["1", "3"],
+    "subjects": ["math"],
+    "flags": ["out-of-grade"]
+  },
+  {
+    "cluster_id": "C040",
+    "cluster_name": "Cut-the-Length-into-Units (linear partition)",
+    "core_mechanic": "Draw cut-marks snapped to ruler ticks to divide a ribbon/tape into the requested number of equal unit pieces.",
+    "keep": {"id": "draw-trace-05", "name": "Cut the Ribbon into Units", "lens": "draw-trace-path", "why_best": "Linear length partition (unit iteration / measurement) distinct from area fractions; clean tick-snap split."},
+    "absorbed": [],
+    "standards_span": ["2.MD.A.1", "1.MD.A.2"],
+    "grades": ["1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C041",
+    "cluster_name": "Connect-the-Dots in Order (numeric/alpha trail)",
+    "core_mechanic": "Draw a continuous trail joining dots in numeric or alphabetic order; out-of-order dots reject; the reveal is the payoff.",
+    "keep": {"id": "draw-trace-06", "name": "Connect the Dots: Count to Reveal", "lens": "draw-trace-path", "why_best": "Ordered-trail-reveal for counting sequence; the cleanest numeric dot-to-dot. The alphabet variant absorbs as an ELA re-curriculum."},
+    "absorbed": [
+      {"id": "draw-trace-07", "name": "Connect the Letters: ABC Trail", "lens": "draw-trace-path"},
+      {"id": "navigate-spatial-15", "name": "Constellation Connect", "lens": "navigate-travel-spatial"},
+      {"id": "navigate-spatial-10", "name": "Thread the Gates", "lens": "navigate-travel-spatial"}
+    ],
+    "standards_span": ["K.CC.A.2", "K.CC.B.4", "L.K.1.a", "RF.K.1.d"],
+    "grades": ["K"],
+    "subjects": ["math", "ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C042",
+    "cluster_name": "Shade-the-Fraction (paint regions)",
+    "core_mechanic": "Swipe-paint exactly the requested number of regions of a pre-partitioned shape to show a fraction (numerator over set denominator).",
+    "keep": {"id": "draw-trace-08", "name": "Shade the Fraction", "lens": "draw-trace-path", "why_best": "Numerator-over-denominator via region-fill; distinct from creating the partition. Region-snapped painting is trivial DOM."},
+    "absorbed": [],
+    "standards_span": ["3.NF.A.1", "2.G.A.3"],
+    "grades": ["2", "3"],
+    "subjects": ["math"],
+    "flags": ["out-of-grade"]
+  },
+  {
+    "cluster_id": "C043",
+    "cluster_name": "Ring/Partition a Set into Equal Groups",
+    "core_mechanic": "Draw loops around objects to partition a discrete set into equal groups (early multiplication/division readiness).",
+    "keep": {"id": "draw-trace-09", "name": "Ring the Groups", "lens": "draw-trace-path", "why_best": "Free-drawn enclosure partitions a discrete set into equal groups; the cleanest equal-grouping-by-drawing design (grid-snap mitigates the loop-capture cost)."},
+    "absorbed": [
+      {"id": "social-fairness-08", "name": "Equal Teams", "lens": "social-fairness-empathy"},
+      {"id": "operate-system-15", "name": "Bottling-Line Equal-Group Operator", "lens": "operate-run-a-system"},
+      {"id": "social-fairness-13", "name": "Build the Same Tower for Each", "lens": "social-fairness-empathy"},
+      {"id": "organize-order-13", "name": "Equal Plates: Share It Out", "lens": "sort-curate-organize"}
+    ],
+    "standards_span": ["2.OA.C.4", "K.OA.A.3", "2.OA.C.3", "3.OA.A.3", "1.G.A.3"],
+    "grades": ["K", "1", "2", "3"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C044",
+    "cluster_name": "Build-the-Mirror-Half by Drawing",
+    "core_mechanic": "Draw the missing symmetric half stroke-by-stroke using a faint mirror grid-guide until the picture is whole.",
+    "keep": {"id": "draw-trace-10", "name": "Draw the Missing Half", "lens": "draw-trace-path", "why_best": "Generative copy-by-symmetry (produce the mirror half) distinct from placing tiles or drawing only the axis; lenient grid-cell ink-coverage keeps it K-3-true."},
+    "absorbed": [],
+    "standards_span": ["1.G.A.1", "4.G.A.3"],
+    "grades": ["1", "3"],
+    "subjects": ["math"],
+    "flags": ["out-of-grade", "needs-richer-runtime"]
+  },
+  {
+    "cluster_id": "C045",
+    "cluster_name": "Count-and-Trace the Numeral",
+    "core_mechanic": "Count a quantity, decide which numeral it is, then trace that numeral along a lenient directional stroke-guide.",
+    "keep": {"id": "draw-trace-12", "name": "Trace to Write the Numeral", "lens": "draw-trace-path", "why_best": "Couples cardinality with generative numeral formation (the child decides WHICH numeral then writes it); lenient checkpoint trace, no exact handwriting."},
+    "absorbed": [
+      {"id": "mimic-copy-06", "name": "Trace-Free Letter Twin", "lens": "mimic-copy-mirror"}
+    ],
+    "standards_span": ["K.CC.B.5", "K.CC.A.3", "L.K.1.A", "RF.K.1.A"],
+    "grades": ["K"],
+    "subjects": ["math", "ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C046",
+    "cluster_name": "Number-Line Hop-Arcs (draw the addition/subtraction)",
+    "core_mechanic": "Draw whole-number hop-arcs above a number line from start to target so the jumps sum exactly to the target.",
+    "keep": {"id": "draw-trace-13", "name": "Bridge the Number Line", "lens": "draw-trace-path", "why_best": "Drawn jump-arcs externalize add/subtract strategy on a number line; the arcs ARE the equation, distinct from tap/slide markers."},
+    "absorbed": [
+      {"id": "navigate-spatial-08", "name": "Step Counter", "lens": "navigate-travel-spatial"},
+      {"id": "physical-metaphor-16", "name": "Set the Spring-Jump Distance", "lens": "physical-metaphor"},
+      {"id": "experiment-measure-11", "name": "Number-Line Hop Predictor", "lens": "experiment-sandbox-measure"},
+      {"id": "transform-machine-04", "name": "Grow & Shrink Ray", "lens": "transform-machine-causeeffect"}
+    ],
+    "standards_span": ["1.OA.C.6", "2.MD.B.6", "1.OA.C.5", "1.OA.A.1"],
+    "grades": ["1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C047",
+    "cluster_name": "Trace-the-Letter-from-Sound (phonics formation)",
+    "core_mechanic": "Hear a letter sound, decide the letter, and form it by tracing a lenient stroke-order guide (sound->symbol->formation).",
+    "keep": {"id": "draw-trace-14", "name": "Trace the Letter, Hear the Sound", "lens": "draw-trace-path", "why_best": "Generative letter formation gated by phonics (infer the letter from audio); uses pre-recorded phoneme clips per the project's TTS finding."},
+    "absorbed": [],
+    "standards_span": ["L.K.1.a", "RF.K.3.a"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C048",
+    "cluster_name": "Decompose-a-Composite-Shape (cut the seam)",
+    "core_mechanic": "Draw one cut along the join of a composite figure to separate it into its two named component shapes.",
+    "keep": {"id": "draw-trace-15", "name": "Cut Apart the Two Shapes", "lens": "draw-trace-path", "why_best": "Decompose-a-composite (compose/decompose geometry) by cutting the seam; distinct from equal-partition cuts. Single valid seam keeps it a simple line-match."},
+    "absorbed": [],
+    "standards_span": ["1.G.A.2", "K.G.B.6"],
+    "grades": ["K", "1"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C049",
+    "cluster_name": "Color-by-Number-Word/Sum (gated paint-to-reveal)",
+    "core_mechanic": "Paint regions whose color is gated by reading a number-word or solving a small sum, revealing a picture.",
+    "keep": {"id": "draw-trace-16", "name": "Color by Number-Word", "lens": "draw-trace-path", "why_best": "Coloring gated by number-word literacy + addition; classic color-by-number calm, region-snapped, distinct from shading a fraction quantity."},
+    "absorbed": [],
+    "standards_span": ["K.CC.B.4", "1.OA.C.6"],
+    "grades": ["K", "1"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C050",
+    "cluster_name": "Position-a-Tool-and-Read-the-Scale (ruler)",
+    "core_mechanic": "Align a measuring tool (ruler) to an object's start and read the number on the scale where it ends.",
+    "keep": {"id": "experiment-measure-01", "name": "Ruler Lab", "lens": "experiment-sandbox-measure", "why_best": "Position-a-tool + read-a-continuous-scale is the canonical 2.MD.A.1; clean draggable-ruler + tap-to-read, reusable component."},
+    "absorbed": [
+      {"id": "experiment-measure-13", "name": "Shadow-Length Clock Lab", "lens": "experiment-sandbox-measure"},
+      {"id": "operate-system-08", "name": "Weather-Station Reader", "lens": "operate-run-a-system"}
+    ],
+    "standards_span": ["2.MD.A.1", "1.MD.A.2", "2.MD.A.6"],
+    "grades": ["1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C051",
+    "cluster_name": "Iterate-Identical-Units-to-Measure (length)",
+    "core_mechanic": "Lay identical unit objects end-to-end with no gaps/overlaps along an object, then count the units to report length.",
+    "keep": {"id": "experiment-measure-02", "name": "Unit-Train Lay-Down", "lens": "experiment-sandbox-measure", "why_best": "Constructs the unit count by iterating identical objects (no pre-marked scale); the canonical 1.MD.A.2 iterate-units design, distinct from reading a ruler."},
+    "absorbed": [],
+    "standards_span": ["1.MD.A.2"],
+    "grades": ["1"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C052",
+    "cluster_name": "Estimate-then-Verify (predict-and-check)",
+    "core_mechanic": "Commit a reasoned estimate (count/length/distance) on a slider, then reveal/measure the actual and compare.",
+    "keep": {"id": "experiment-measure-03", "name": "Estimate-Then-Reveal Jar", "lens": "experiment-sandbox-measure", "why_best": "The predict-then-check loop with a committed estimate then verified count; the cleanest estimation design, absorbs the length/distance variants."},
+    "absorbed": [
+      {"id": "experiment-measure-09", "name": "Estimate-the-Length Snap", "lens": "experiment-sandbox-measure"},
+      {"id": "experiment-measure-16", "name": "Estimate-the-Distance Drop", "lens": "experiment-sandbox-measure"}
+    ],
+    "standards_span": ["K.CC.B.5", "2.OA.A.1", "2.MD.A.3", "1.MD.A.2"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C053",
+    "cluster_name": "Balance-Scale Direct Weight Compare",
+    "core_mechanic": "Load objects on two pans and read the tilt to discover which is heavier/lighter (compare measurable attribute).",
+    "keep": {"id": "experiment-measure-04", "name": "Balance Discoverer", "lens": "experiment-sandbox-measure", "why_best": "Apparatus produces the verdict (heavier/lighter) by tipping; the canonical K.MD.A.2 weight-compare, distinct from balancing to equality."},
+    "absorbed": [
+      {"id": "hide-reveal-16", "name": "Weigh the Mystery Boxes", "lens": "hide-reveal-discover"}
+    ],
+    "standards_span": ["K.MD.A.2", "1.MD.A.1"],
+    "grades": ["K", "1"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C054",
+    "cluster_name": "Pour-to-a-Target-Level (capacity calibration)",
+    "core_mechanic": "Control a continuous pour to stop the liquid at a marked target fill-line on a graduated vessel.",
+    "keep": {"id": "experiment-measure-05", "name": "Pour-to-the-Line", "lens": "experiment-sandbox-measure", "why_best": "Tune-a-continuous-quantity-to-a-reading (capacity); clean hold-to-fill against a target marker, distinct from a comparison pour."},
+    "absorbed": [
+      {"id": "physical-metaphor-02", "name": "Pour the Potion", "lens": "physical-metaphor"}
+    ],
+    "standards_span": ["2.MD.A.1", "1.MD.A.1", "2.G.A.3", "3.NF.A.1"],
+    "grades": ["1", "2", "3"],
+    "subjects": ["math"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C055",
+    "cluster_name": "Capacity-Compare by Transfer (conservation)",
+    "core_mechanic": "Pour one container's contents into a differently-shaped one to discover which holds more (overflow / room left).",
+    "keep": {"id": "experiment-measure-06", "name": "Which Holds More?", "lens": "experiment-sandbox-measure", "why_best": "Conservation-of-volume comparison discovered by transfer, overturning the look-bigger trap; distinct from pour-to-a-line."},
+    "absorbed": [],
+    "standards_span": ["K.MD.A.2", "1.MD.A.1"],
+    "grades": ["K", "1"],
+    "subjects": ["math"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C056",
+    "cluster_name": "Tune-a-Dial-to-a-Target-Number",
+    "core_mechanic": "Rotate a dial to calibrate a numeric readout to a target value (continuous control to a number).",
+    "keep": {"id": "experiment-measure-07", "name": "Tune-the-Dial Number", "lens": "experiment-sandbox-measure", "why_best": "Calibrate a continuous control to a target number (numeral recognition/count); odometer flip is satisfying, distinct from a transform machine."},
+    "absorbed": [
+      {"id": "operate-system-01", "name": "Floor-by-Floor Elevator Operator", "lens": "operate-run-a-system"}
+    ],
+    "standards_span": ["K.CC.A.3", "1.NBT.A.1"],
+    "grades": ["K", "1"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C057",
+    "cluster_name": "Combinatorial Mix-Test Sandbox",
+    "core_mechanic": "Mix two inputs and observe the emergent result, testing combinations to find which produces the target, with a tried-record strip.",
+    "keep": {"id": "experiment-measure-10", "name": "Combo Mixer Test", "lens": "experiment-sandbox-measure", "why_best": "Hypothesis-testing sandbox with a data record (which combination produces an effect); distinct from a fixed transform. Absorbs the predict-the-color sibling."},
+    "absorbed": [
+      {"id": "transform-machine-14", "name": "Mixing Color Predictor", "lens": "transform-machine-causeeffect"}
+    ],
+    "standards_span": ["K.MD.B.3", "RI.K.1"],
+    "grades": ["K"],
+    "subjects": ["math", "ela"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C058",
+    "cluster_name": "Trial-and-Tally Data Collection",
+    "core_mechanic": "Run repeated trials (spins), record each into a tally/bar chart, then read which outcome occurs most.",
+    "keep": {"id": "experiment-measure-12", "name": "Tally Tester Spinner", "lens": "experiment-sandbox-measure", "why_best": "Trial -> record -> interpret produces a real dataset (represent & interpret data, 2.MD.D.10); the only data-generation design."},
+    "absorbed": [],
+    "standards_span": ["2.MD.D.10", "1.MD.C.4"],
+    "grades": ["1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C059",
+    "cluster_name": "Read-the-Text-Features Diagram (informational)",
+    "core_mechanic": "Use a diagram's labels/captions to identify the part that performs a stated function (use text features to find an answer).",
+    "keep": {"id": "experiment-measure-15", "name": "Read-the-Diagram Detective (ELA)", "lens": "experiment-sandbox-measure", "why_best": "Use-text-features comprehension (1.RI.5/2.RI.5) driven by reading labels, not visual search; the only diagram-reading design."},
+    "absorbed": [],
+    "standards_span": ["1.RI.5", "2.RI.5"],
+    "grades": ["1", "2"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C060",
+    "cluster_name": "Thermometer / Vertical-Scale Read",
+    "core_mechanic": "Read a vertical thermometer scale and tap/drag to the matching temperature value (or set-to-target zone).",
+    "keep": {"id": "experiment-measure-08", "name": "Thermometer Reader", "lens": "experiment-sandbox-measure", "why_best": "Vertical scale tied to a sensed thermal state with a set-to-target sub-mode (2.MD.B.6); distinct affordance from the horizontal ruler."},
+    "absorbed": [],
+    "standards_span": ["2.MD.B.6"],
+    "grades": ["2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C061",
+    "cluster_name": "Flashlight/Beam Phonics Reveal-Sweep",
+    "core_mechanic": "Sweep a flashlight beam over a dark scene; objects whose name begins with the target sound 'wake up' and glow to be collected.",
+    "keep": {"id": "hide-reveal-01", "name": "Flashlight Phonics Cave", "lens": "hide-reveal-discover", "why_best": "Continuous sweep-to-expose with the phonics match gating the reveal-glow; original beam-as-tool mechanic, clean pointer + opacity DOM."},
+    "absorbed": [
+      {"id": "hide-reveal-14", "name": "Heat-Sense Hidden Animals", "lens": "hide-reveal-discover"}
+    ],
+    "standards_span": ["RF.K.3.a", "K.CC.B.5"],
+    "grades": ["K"],
+    "subjects": ["ela", "math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C062",
+    "cluster_name": "X-Ray Window Count (hover-to-reveal subitize)",
+    "core_mechanic": "Slide an x-ray window over an object to reveal a hidden dot-cluster and tap the numeral matching how many you see.",
+    "keep": {"id": "hide-reveal-02", "name": "X-Ray Number Bones", "lens": "hide-reveal-discover", "why_best": "Temporary x-ray window forces real subitizing/counting (K.CC.B.5); clean clip/mask reveal, distinct from sweep or develop."},
+    "absorbed": [
+      {"id": "hide-reveal-07", "name": "Develop the Photo (Counting Darkroom)", "lens": "hide-reveal-discover"}
+    ],
+    "standards_span": ["K.CC.B.5", "K.CC.B.4"],
+    "grades": ["K"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C063",
+    "cluster_name": "Clue-Trail Attribute Deduction (forensic)",
+    "core_mechanic": "Gather evidence along a clue trail and deduce which suspect matches all accumulated attributes.",
+    "keep": {"id": "hide-reveal-03", "name": "Footprint Detective", "lens": "hide-reveal-discover", "why_best": "Inferential clue-gathering deduction (RL key details) where no single clue solves it; the forensic-trail framing is original."},
+    "absorbed": [],
+    "standards_span": ["RL.K.1"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C064",
+    "cluster_name": "Correct-Answer-Lifts-Fog Word Reveal",
+    "core_mechanic": "Each correct letter-sound/sight-word tap dissipates fog, progressively revealing a hidden word to read aloud.",
+    "keep": {"id": "hide-reveal-04", "name": "Fog-Lift Word Mountain", "lens": "hide-reveal-discover", "why_best": "Continuous reveal of a word into legibility tied to letter-sound/sight-word matching; the reading payoff distinguishes it from picture-reveal grids."},
+    "absorbed": [],
+    "standards_span": ["RF.K.3.c"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C065",
+    "cluster_name": "Magnify-to-Read Ordered Spelling",
+    "core_mechanic": "Drag a magnifier to make tiny hidden letters readable, then tap the bug-letters in order to spell the target word.",
+    "keep": {"id": "hide-reveal-06", "name": "Magnifier Spelling Bug Hunt", "lens": "hide-reveal-discover", "why_best": "Lens changes legibility (true reveal tool) and the task is ordered spelling (RF.K.3.b); distinct search-and-magnify discovery."},
+    "absorbed": [],
+    "standards_span": ["RF.K.3.b"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C066",
+    "cluster_name": "Audio-Sonar Detect-and-Identify (phoneme)",
+    "core_mechanic": "Ping to briefly reveal hidden creatures with an audio name/sound cue; tap where the named-sound target is hiding.",
+    "keep": {"id": "hide-reveal-08", "name": "Sound Sonar (Hidden in the Deep)", "lens": "hide-reveal-discover", "why_best": "Primary detection channel is audio/echo pairing a heard sound to a glimpsed location; the only sense-by-listening reveal, distinct from visual sweeps."},
+    "absorbed": [],
+    "standards_span": ["RF.K.2.a"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["needs-richer-runtime"]
+  },
+  {
+    "cluster_id": "C067",
+    "cluster_name": "Lift-the-Flap Hidden-Addend Decomposition",
+    "core_mechanic": "Given the whole and the visible part, lift flaps to discover the hidden quantity and identify the missing addend.",
+    "keep": {"id": "hide-reveal-09", "name": "Lift-the-Flap Math Story", "lens": "hide-reveal-discover", "why_best": "Part-part-whole decomposition where the reveal IS the unknown part (K.OA.A.3); classic lift-the-flap joy, distinct from picture reveal."},
+    "absorbed": [],
+    "standards_span": ["K.OA.A.3"],
+    "grades": ["K"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C068",
+    "cluster_name": "Choose-the-Decoder-Tool to Reveal",
+    "core_mechanic": "Pick the correct colored filter/lens that makes a hidden picture or word pop out of camouflage, then identify it.",
+    "keep": {"id": "hide-reveal-10", "name": "Color-Filter Lens Reveal", "lens": "hide-reveal-discover", "why_best": "Tool-selection-to-expose (which decoder unlocks the image) is a distinct discovery mechanic with secret-decoder delight; CSS blend/mask feasible."},
+    "absorbed": [],
+    "standards_span": ["RF.K.1.b"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C069",
+    "cluster_name": "Dust/Scratch-to-Reveal then Match/Infer",
+    "core_mechanic": "Brush/scratch away a covering to expose a hidden letter or image, then case-match or infer from the (partial) reveal.",
+    "keep": {"id": "hide-reveal-11", "name": "Dust-for-Prints Letter Match", "lens": "hide-reveal-discover", "why_best": "Uncover-then-match with a forensic dusting gesture targeting upper/lowercase matching (RF.K.1.d); canvas-brushing is a known simple recipe."},
+    "absorbed": [
+      {"id": "hide-reveal-15", "name": "Scratch-Off Secret Word", "lens": "hide-reveal-discover"}
+    ],
+    "standards_span": ["RF.K.1.d", "RF.K.3.a"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C070",
+    "cluster_name": "Rotate-a-Decoder-Wheel Cipher Spell",
+    "core_mechanic": "Turn a decoder wheel to map each cipher symbol to its hidden letter, then spell out the decoded word.",
+    "keep": {"id": "hide-reveal-17", "name": "Decoder Wheel Secret Message", "lens": "hide-reveal-discover", "why_best": "Rotary symbol->letter correspondence + spell (RF.K.3.b); the cipher-cracking flow is its own core, distinct from picking a filter."},
+    "absorbed": [],
+    "standards_span": ["RF.K.3.b"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C071",
+    "cluster_name": "Progressive-Clue Riddle Narrowing (vocabulary)",
+    "core_mechanic": "Descriptive clues arrive one at a time; the child eliminates candidates and guesses the described word/concept when ready.",
+    "keep": {"id": "logic-deduction-15", "name": "Riddle Reveal (Deduce the Mystery Word)", "lens": "logic-deduction-puzzle", "why_best": "Progressive clue-narrowing word deduction (vocabulary/category reasoning) with guess-when-ready; the cleanest riddle design, absorbs door/peephole variants."},
+    "absorbed": [
+      {"id": "hide-reveal-18", "name": "Riddle Reveal (Narrow It Down)", "lens": "hide-reveal-discover"},
+      {"id": "hide-reveal-05", "name": "What's Behind the Door (Deduce)", "lens": "hide-reveal-discover"},
+      {"id": "narrate-roleplay-13", "name": "Be the Question-Asker", "lens": "narrate-roleplay-puppet"}
+    ],
+    "standards_span": ["L.K.5.A", "L.1.5.A", "RI.K.1", "K.MD.B.3"],
+    "grades": ["K", "1"],
+    "subjects": ["ela", "math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C072",
+    "cluster_name": "Treasure-Map Ordered-Clue Path Reveal",
+    "core_mechanic": "Solve an ordered clue at each step (letter/number sequence) to uncover the next leg of a hidden route to the treasure.",
+    "keep": {"id": "hide-reveal-12", "name": "Treasure Map Clue Trail (Sequence)", "lens": "hide-reveal-discover", "why_best": "Discover/construct a hidden path by solving an ordered sequence clue per step (count-on/order); distinct from traversing a known path."},
+    "absorbed": [],
+    "standards_span": ["K.CC.A.2"],
+    "grades": ["K"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C073",
+    "cluster_name": "Logic-Grid Constraint Assignment",
+    "core_mechanic": "Cross-reference multiple positive/negative clues to assign each item to its unique owner by process-of-elimination.",
+    "keep": {"id": "logic-deduction-01", "name": "Detective's Clue Board", "lens": "logic-deduction-puzzle", "why_best": "True logic-grid constraint-satisfaction (no single clue solves it); clues glow as satisfied; the canonical multi-clue deduction engine."},
+    "absorbed": [
+      {"id": "logic-deduction-16", "name": "Logic Lockbox (Multi-Clue Combination)", "lens": "logic-deduction-puzzle"}
+    ],
+    "standards_span": ["K.MD.B.3", "1.OA.A.1", "2.G.A.1"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["math"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C074",
+    "cluster_name": "Latin-Square / Sudoku Constraint Grid",
+    "core_mechanic": "Place pictures so no row/column (and box) repeats, deducing the forced value for each cell from grid constraints.",
+    "keep": {"id": "logic-deduction-11", "name": "Sudoku Picture Path (Mini Constraint Grid)", "lens": "logic-deduction-puzzle", "why_best": "Cross-region constraint deduction with the 2x2-box adding genuine intersection reasoning; the richer of the two grid-constraint designs."},
+    "absorbed": [
+      {"id": "logic-deduction-02", "name": "No Two The Same (Constraint Garden)", "lens": "logic-deduction-puzzle"}
+    ],
+    "standards_span": ["2.G.A.1", "1.G.A.1", "K.MD.B.3"],
+    "grades": ["1", "2"],
+    "subjects": ["math"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C075",
+    "cluster_name": "Guess-the-Hidden-Rule (rule induction)",
+    "core_mechanic": "Infer a hidden classification rule from worked examples, then sort new items correctly to confirm it.",
+    "keep": {"id": "logic-deduction-03", "name": "Guess My Rule (Sorting Machine)", "lens": "logic-deduction-puzzle", "why_best": "Rule-INDUCTION from examples (the inverse of stated-category sort); the child generates the hypothesis. The only rule-discovery design."},
+    "absorbed": [],
+    "standards_span": ["K.MD.B.3", "L.K.5.A"],
+    "grades": ["K"],
+    "subjects": ["math", "ela"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C076",
+    "cluster_name": "Judge-and-Prove a Claim (true/false + evidence)",
+    "core_mechanic": "Judge a math/fact claim true or false and, on false, tap the evidence that proves why.",
+    "keep": {"id": "logic-deduction-04", "name": "True, False, or Why (Math Statement Court)", "lens": "logic-deduction-puzzle", "why_best": "Two-stage truth-evaluation + justification (locate the evidence) instantiates equality/comparison reasoning; the proof-tap is the distinct move."},
+    "absorbed": [
+      {"id": "narrate-roleplay-07", "name": "Catch the Fib", "lens": "narrate-roleplay-puppet"},
+      {"id": "logic-deduction-10", "name": "Spot the Impossible", "lens": "logic-deduction-puzzle"}
+    ],
+    "standards_span": ["1.OA.D.7", "K.CC.C.7", "1.NBT.B.3", "RI.K.1", "RL.1.1"],
+    "grades": ["K", "1"],
+    "subjects": ["math", "ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C077",
+    "cluster_name": "Odd-One-Out With a Reason",
+    "core_mechanic": "Tap the item that breaks the shared property, then tap the attribute-card that says WHY it is odd.",
+    "keep": {"id": "logic-deduction-05", "name": "Which One Breaks the Rule (Odd-One-Out With a Reason)", "lens": "logic-deduction-puzzle", "why_best": "Adds explicit attribute-articulation (the reason-card) over plain odd-one-out; instantiates attribute-classification, the distinct WHY layer."},
+    "absorbed": [],
+    "standards_span": ["2.G.A.1", "K.MD.B.3", "L.1.5.A"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["math", "ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C078",
+    "cluster_name": "Transitive Balance Deduction (chained weighings)",
+    "core_mechanic": "Infer an unobserved ordering by chaining two weighings (A>B, B>C, so A>C) and act on the deduced order.",
+    "keep": {"id": "logic-deduction-06", "name": "Balance Scale Detective", "lens": "logic-deduction-puzzle", "why_best": "Transitive/comparative deduction from physics-state clues; chaining two weighings is a meaningfully distinct reasoning shape from direct compare."},
+    "absorbed": [],
+    "standards_span": ["1.MD.A.1", "K.MD.A.2", "1.MD.A.2"],
+    "grades": ["K", "1"],
+    "subjects": ["math"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C079",
+    "cluster_name": "Complete-the-Analogy (relational mapping)",
+    "core_mechanic": "Extract the relation from the first picture-pair and transfer it to complete the second pair.",
+    "keep": {"id": "logic-deduction-08", "name": "Finish the Analogy (Pair Logic)", "lens": "logic-deduction-puzzle", "why_best": "Analogical reasoning (1:1 relation transfer across two pairs); distinct from feature matching and from sequence iteration. The only analogy design."},
+    "absorbed": [],
+    "standards_span": ["L.K.5.A", "L.1.5.A", "L.2.5.A"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C080",
+    "cluster_name": "Crack-the-Transformation-Sequence (rule induction)",
+    "core_mechanic": "Infer a hidden transformation rule along a sequence (grow/+2/rotate) and tap the next or missing term.",
+    "keep": {"id": "logic-deduction-09", "name": "Crack the Pattern Code", "lens": "logic-deduction-puzzle", "why_best": "Sequence rule-induction with a transformation (not just repeat); distinct from analogy and from repeat-pattern continue. The probe-the-interior variant is the distinguisher."},
+    "absorbed": [],
+    "standards_span": ["2.OA.C.3", "1.OA.A.1", "K.CC.A.1"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C081",
+    "cluster_name": "Whodunit Story-Clue Elimination",
+    "core_mechanic": "Cross-reference story-derived clues against suspects and accuse the one who fits all clues (narrative inference).",
+    "keep": {"id": "logic-deduction-12", "name": "Whodunit Story Clues", "lens": "logic-deduction-puzzle", "why_best": "Narrative inference + elimination from text/illustration evidence (RL inference); distinct from abstract logic-grid by requiring reading comprehension."},
+    "absorbed": [],
+    "standards_span": ["RL.1.1", "RL.2.1", "RI.1.1"],
+    "grades": ["1", "2"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C082",
+    "cluster_name": "Repair-to-Truth (fix the equation)",
+    "core_mechanic": "Reason backward from a desired truth-state and change a numeral/symbol/counter to make a false equation true.",
+    "keep": {"id": "logic-deduction-13", "name": "Make the Statement True (Fix the Equation)", "lens": "logic-deduction-puzzle", "why_best": "Repair-to-truth (the inverse of computing a sum) instantiating the equal sign + comparison; distinct from judging true/false. The choose-symbol variant is included."},
+    "absorbed": [],
+    "standards_span": ["1.OA.D.7", "1.OA.D.8", "1.NBT.B.3"],
+    "grades": ["1"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C083",
+    "cluster_name": "Even/Odd by Pairing (build the proof)",
+    "core_mechanic": "Pair objects with buddy-lines and reason from whether one is left over to call even or odd.",
+    "keep": {"id": "logic-deduction-14", "name": "Even/Odd Pair-Up Reasoning", "lens": "logic-deduction-puzzle", "why_best": "Deductive parity via the pairing argument (2.OA.C.3), constructing the proof from a leftover; the only pair-to-deduce-parity design."},
+    "absorbed": [],
+    "standards_span": ["2.OA.C.3"],
+    "grades": ["2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C084",
+    "cluster_name": "Reproduce-a-Quantity (build a twin set)",
+    "core_mechanic": "Reproduce exactly the quantity shown in a model by placing the same number of items (one-to-one equality).",
+    "keep": {"id": "mimic-copy-01", "name": "Build It Like Mine", "lens": "mimic-copy-mirror", "why_best": "A model defines a precise count the child must reproduce; equality-of-count is the win. Clean compare-placed-vs-model, distinct from free build."},
+    "absorbed": [
+      {"id": "mimic-copy-04", "name": "Match the Ten-Frame", "lens": "mimic-copy-mirror"},
+      {"id": "mimic-copy-11", "name": "Same Number, Same Spots (Subitize Copy)", "lens": "mimic-copy-mirror"}
+    ],
+    "standards_span": ["K.CC.B.5", "K.CC.C.6", "K.NBT.A.1", "K.CC.B.4.C"],
+    "grades": ["K"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C085",
+    "cluster_name": "Copy-the-Ordered-Pattern (sequence replication)",
+    "core_mechanic": "Reproduce a model's exact ordered sequence (bead/chunk order) tile-by-tile.",
+    "keep": {"id": "mimic-copy-03", "name": "Copy the Bead String", "lens": "mimic-copy-mirror", "why_best": "Reproduction of an ordered pattern (AB/ABC structure) by exact-order match; distinct from free composition. The chunk-order ELA variant absorbs."},
+    "absorbed": [
+      {"id": "mimic-copy-14", "name": "Sound-Spell Twin (Copy the Chunk Order)", "lens": "mimic-copy-mirror"}
+    ],
+    "standards_span": ["K.CC.B.4", "2.NBT.A.2", "RF.1.3.D", "RF.K.2.B"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["math", "ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C086",
+    "cluster_name": "Copy-a-Word (letter-sequence replication)",
+    "core_mechanic": "Copy a shown word letter-for-letter from a scrambled tray into your own strip (visible-model spelling).",
+    "keep": {"id": "mimic-copy-09", "name": "Echo the Word", "lens": "mimic-copy-mirror", "why_best": "Pure letter-sequence replication of a visible model (handwriting-copy analog) with TTS; distinct from decoding from picture/sound."},
+    "absorbed": [],
+    "standards_span": ["RF.K.3.C", "L.K.2.D"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C087",
+    "cluster_name": "Mirror-Pose Reflection Copy (L-R swap)",
+    "core_mechanic": "Reproduce a model body-pose under left-right reflection (true mirror) on a facing figure.",
+    "keep": {"id": "mimic-copy-10", "name": "Mirror Move Dance", "lens": "mimic-copy-mirror", "why_best": "Discrete pose-copy under reflection teaches the mirror L-R swap explicitly via dance partners; distinct from axis-reflection on a figure."},
+    "absorbed": [],
+    "standards_span": ["1.G.A.2", "K.G.A.1"],
+    "grades": ["K", "1"],
+    "subjects": ["math"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C088",
+    "cluster_name": "Copy-Heights Bar Profile (measurement copy)",
+    "core_mechanic": "Set each of your own bars/towers to the same height as the matching model bar (reproduce a multi-bar profile).",
+    "keep": {"id": "mimic-copy-12", "name": "Copy the Skyline (Bar Match)", "lens": "mimic-copy-mirror", "why_best": "Faithful reproduction of relative heights (measurement & comparison via copying); distinct from data-count chart and from quantity-twin."},
+    "absorbed": [],
+    "standards_span": ["1.MD.A.1", "K.MD.A.1"],
+    "grades": ["K", "1"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C089",
+    "cluster_name": "Compose-Shapes-to-Replicate a Figure",
+    "core_mechanic": "Place pattern-block shapes in the right positions/orientations to reproduce a shown composite figure.",
+    "keep": {"id": "mimic-copy-13", "name": "Replicate the Pattern Block Picture", "lens": "mimic-copy-mirror", "why_best": "2D shape-composition that reproduces a given figure (compose/decompose shapes); distinct from free composition and from grid-pack/tangram."},
+    "absorbed": [],
+    "standards_span": ["1.G.A.2", "K.G.B.6"],
+    "grades": ["K", "1"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C153",
+    "cluster_name": "Replicate-an-Array's-Structure (rows x columns twin)",
+    "core_mechanic": "Reproduce a shown array's exact shape (same rows, same per-row count) on an empty grid.",
+    "keep": {"id": "mimic-copy-07", "name": "Copy the Caterpillar (Array Twin)", "lens": "mimic-copy-mirror", "why_best": "Replicate-the-2D-structure (rows x columns) of a shown array; distinct from build-to-a-number (E13) and from compose-shapes-to-replicate by copying an array's exact shape."},
+    "absorbed": [],
+    "standards_span": ["2.OA.C.4", "2.G.A.2"],
+    "grades": ["2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C090",
+    "cluster_name": "Apply-a-Spoken-Rule to Fulfill a Request",
+    "core_mechanic": "Interpret a customer's natural-language request (count/attribute/phoneme) and assemble the matching order.",
+    "keep": {"id": "narrate-roleplay-02", "name": "Serve the Customer", "lens": "narrate-roleplay-puppet", "why_best": "Apply-a-spoken-rule in a server role with a varying single constraint; conversational request framing, absorbs the single-quantity order-window."},
+    "absorbed": [
+      {"id": "operate-system-02", "name": "Order-Window Quantity Filler", "lens": "operate-run-a-system"},
+      {"id": "operate-system-09", "name": "Zoo-Feeding Route Manager", "lens": "operate-run-a-system"},
+      {"id": "operate-system-17", "name": "Greenhouse Watering-Console Operator", "lens": "operate-run-a-system"}
+    ],
+    "standards_span": ["K.CC.B.5", "RF.K.3.A", "SL.K.2", "K.CC.B.4"],
+    "grades": ["K"],
+    "subjects": ["ela", "math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C091",
+    "cluster_name": "Author-a-Single-Command a Character Performs (prepositions)",
+    "core_mechanic": "Assemble an imperative command (often a prepositional phrase) and watch a literal character enact it.",
+    "keep": {"id": "narrate-roleplay-03", "name": "Tell the Robot What to Do", "lens": "narrate-roleplay-puppet", "why_best": "Child-authors-an-instruction (the reverse of comprehension games); preposition production with a comic enact. The single-step canonical."},
+    "absorbed": [],
+    "standards_span": ["L.K.1.E", "L.1.1.I"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C092",
+    "cluster_name": "Comprehension-as-Conversation (character interviews you)",
+    "core_mechanic": "After a short story, an in-story character asks a comprehension question and the child taps the best answer.",
+    "keep": {"id": "narrate-roleplay-04", "name": "Answer the Story Character", "lens": "narrate-roleplay-puppet", "why_best": "Comprehension recall framed as dialogue with the story's character; RL key details, distinct from authoring or retelling."},
+    "absorbed": [],
+    "standards_span": ["RL.K.1", "RL.1.3"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C093",
+    "cluster_name": "Choose-Your-Character's-Line (social-language flow)",
+    "core_mechanic": "Pick the polite/appropriate line for a puppet so the two-way conversation flows forward.",
+    "keep": {"id": "narrate-roleplay-06", "name": "Make the Puppet Speak", "lens": "narrate-roleplay-puppet", "why_best": "Choose-your-line improv where social/grammar appropriateness drives the partner's reaction; distinct from recall Q&A. Absorbs the mediation variant."},
+    "absorbed": [
+      {"id": "narrate-roleplay-16", "name": "Settle the Squabble", "lens": "narrate-roleplay-puppet"}
+    ],
+    "standards_span": ["SL.K.6", "SL.1.6", "L.1.1.J", "SL.K.1.B", "SL.1.1.B"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C094",
+    "cluster_name": "Direct-the-Delivery-Emotion (prosody/expression)",
+    "core_mechanic": "Choose the emotion that fits a line of dialogue and the puppet performs it in that mood (face + pacing).",
+    "keep": {"id": "narrate-roleplay-10", "name": "Whose Voice? (Read the Feeling)", "lens": "narrate-roleplay-puppet", "why_best": "Interpret tone and direct delivery (HOW it is said, not what); the only prosody/expression design, strong for read-with-expression."},
+    "absorbed": [],
+    "standards_span": ["SL.K.6", "RF.1.4.B", "RL.1.4"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["needs-richer-runtime"]
+  },
+  {
+    "cluster_id": "C095",
+    "cluster_name": "Parse-a-Compound-Request (conjunctions + multi-item)",
+    "core_mechanic": "Hold and reproduce a multi-part spoken order with conjunctions and quantities (listening span + connectives).",
+    "keep": {"id": "narrate-roleplay-11", "name": "Order at the Diner", "lens": "narrate-roleplay-puppet", "why_best": "Parse a compound 'and'-joined multi-item request and reproduce the whole list; distinct from a single-constraint request by exercising connectives/span."},
+    "absorbed": [
+      {"id": "operate-system-12", "name": "Soup-Pot Recipe Cook", "lens": "operate-run-a-system"},
+      {"id": "social-fairness-16", "name": "Fill Each Order", "lens": "social-fairness-empathy"}
+    ],
+    "standards_span": ["L.K.1.F", "SL.K.2", "L.1.6", "1.OA.A.2", "K.CC.B.5"],
+    "grades": ["K", "1"],
+    "subjects": ["ela", "math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C096",
+    "cluster_name": "Produce-a-Multi-Step Route Description (directions)",
+    "core_mechanic": "Author an ordered sequence of direction words to guide a character along a route to a destination.",
+    "keep": {"id": "narrate-roleplay-12", "name": "Guide the Lost Traveler", "lens": "narrate-roleplay-puppet", "why_best": "Produce a multi-step sequence of directions a character executes; sequencing + directional language, distinct from a single command."},
+    "absorbed": [
+      {"id": "navigate-spatial-09", "name": "Compass Quest", "lens": "navigate-travel-spatial"}
+    ],
+    "standards_span": ["L.K.5.C", "L.1.1.I", "SL.1.4", "2.G.A.2"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["ela", "math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C097",
+    "cluster_name": "Retell-in-Order (sequence a given story)",
+    "core_mechanic": "Reconstruct a heard story by sequencing beginning/middle/end statements and 'telling' it to a listener.",
+    "keep": {"id": "narrate-roleplay-14", "name": "Retell It to the Next Friend", "lens": "narrate-roleplay-puppet", "why_best": "Full sequenced retell to an audience (retell familiar stories, describe events in order); distinct from a single recall question and from reorder-cards."},
+    "absorbed": [
+      {"id": "organize-order-07", "name": "Story in Order", "lens": "sort-curate-organize"}
+    ],
+    "standards_span": ["RL.K.2", "RL.1.2", "SL.K.4", "K.RL.2", "1.RL.2"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C098",
+    "cluster_name": "Choose-the-Action-Verb-in-Context (procedure)",
+    "core_mechanic": "Pick the action verb that matches what a depicted step needs, directing a character's task verb-by-verb.",
+    "keep": {"id": "narrate-roleplay-15", "name": "Coach the Robot Chef", "lens": "narrate-roleplay-puppet", "why_best": "Choose-the-action-verb-in-context (verb meaning/category in a how-to) building a procedure; distinct from prepositions/directions."},
+    "absorbed": [],
+    "standards_span": ["L.K.5.C", "L.1.5.C", "RI.K.3"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C099",
+    "cluster_name": "Program-a-Move-Sequence (grid robot)",
+    "core_mechanic": "Assemble an open sequence of direction tiles into a program, then run it to navigate a character across a grid.",
+    "keep": {"id": "navigate-spatial-01", "name": "Robot Recess", "lens": "navigate-travel-spatial", "why_best": "Author an open 2D move-program (which turns, how many) and run it; spatial route-construction distinct from answering-to-advance. Absorbs the marble-run plan variant."},
+    "absorbed": [
+      {"id": "transform-machine-09", "name": "Marble Run Branch Picker", "lens": "transform-machine-causeeffect"},
+      {"id": "transform-machine-03", "name": "Domino Chain Setup", "lens": "transform-machine-causeeffect"}
+    ],
+    "standards_span": ["K.G.A.1", "K.CC.B.4", "K.CC.B.5"],
+    "grades": ["K"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C100",
+    "cluster_name": "Place-by-Spatial-Relation (positional words)",
+    "core_mechanic": "Decode a positional/relational word (above/under/between/left-of) and place an object at the named spot.",
+    "keep": {"id": "navigate-spatial-07", "name": "Park the Truck", "lens": "navigate-travel-spatial", "why_best": "Resolve a relation among two+ landmarks (between / left-of-X-right-of-Y), the harder relational-position skill; absorbs single-relation and floor-plan variants."},
+    "absorbed": [
+      {"id": "navigate-spatial-02", "name": "Where's My Hat?", "lens": "navigate-travel-spatial"},
+      {"id": "navigate-spatial-16", "name": "Floor Plan Move-In", "lens": "navigate-travel-spatial"},
+      {"id": "social-fairness-04", "name": "Seat the Friends", "lens": "social-fairness-empathy"},
+      {"id": "organize-order-09", "name": "Seating Chart by the Rule", "lens": "sort-curate-organize"}
+    ],
+    "standards_span": ["K.G.A.1", "L.K.1.e", "L.1.1.i", "K.MD.B.3", "RL.1.3"],
+    "grades": ["K", "1"],
+    "subjects": ["math", "ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C101",
+    "cluster_name": "Read-a-Coordinate to Locate/Place a Cell",
+    "core_mechanic": "Read a column+row coordinate pair and tap/place at that exact grid cell.",
+    "keep": {"id": "navigate-spatial-03", "name": "Treasure Coordinates", "lens": "navigate-travel-spatial", "why_best": "Foundational ordered-pair (column x row) addressing; clean labeled-grid tap-to-reveal. The reveal-by-coordinate canonical; place-by-coordinate variant absorbs."},
+    "absorbed": [
+      {"id": "navigate-spatial-12", "name": "Grid Garden Plot", "lens": "navigate-travel-spatial"}
+    ],
+    "standards_span": ["5.G.A.1", "2.G.A.2", "2.OA.C.4"],
+    "grades": ["2", "3"],
+    "subjects": ["math"],
+    "flags": ["out-of-grade"]
+  },
+  {
+    "cluster_id": "C102",
+    "cluster_name": "Steer-at-a-Branch (directional math choice)",
+    "core_mechanic": "At a fork, choose left/right to steer a traveler down the channel that satisfies a math decision (bigger/answer).",
+    "keep": {"id": "navigate-spatial-04", "name": "River Steer", "lens": "navigate-travel-spatial", "why_best": "Branching directional steering fused with a math decision per junction; distinct from a fixed-track advance. The canonical branch-steer."},
+    "absorbed": [
+      {"id": "navigate-spatial-06", "name": "Junction Maze", "lens": "navigate-travel-spatial"},
+      {"id": "navigate-spatial-14", "name": "Tilt Marble Tray", "lens": "navigate-travel-spatial"}
+    ],
+    "standards_span": ["K.CC.C.7", "1.OA.C.6", "RF.K.3.a", "K.G.A.1", "L.K.1.e"],
+    "grades": ["K", "1"],
+    "subjects": ["math", "ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C103",
+    "cluster_name": "Plan-an-Ordered-Route over a Map (ordinals)",
+    "core_mechanic": "Sequence spatial stops in a stated order (first/next/last) over a map, then watch the route execute.",
+    "keep": {"id": "navigate-spatial-05", "name": "Mail Route", "lens": "navigate-travel-spatial", "why_best": "Ordinal route-planning over an open map (which stops, what order); distinct from track-advance and from abstract plan-strip, which absorbs here."},
+    "absorbed": [
+      {"id": "navigate-spatial-13", "name": "Bus Stop Order", "lens": "navigate-travel-spatial"}
+    ],
+    "standards_span": ["K.CC.A.3", "RF.K.3.c", "1.NBT.A.1", "RF.1.1"],
+    "grades": ["K", "1"],
+    "subjects": ["math", "ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C104",
+    "cluster_name": "Vertical-Axis Climb (above/below, decode-gated)",
+    "core_mechanic": "Climb up/down a ladder by reading words at each rung, emphasizing the vertical top/bottom/above/below axis.",
+    "keep": {"id": "navigate-spatial-11", "name": "Word Ladder Climb", "lens": "navigate-travel-spatial", "why_best": "Emphasizes the vertical up/down positional axis with a climbing character; distinct from horizontal number line and 2D grids."},
+    "absorbed": [],
+    "standards_span": ["K.G.A.1", "RF.K.3.b"],
+    "grades": ["K"],
+    "subjects": ["math", "ela"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C105",
+    "cluster_name": "Operate-a-Routing-System by Reading a Number",
+    "core_mechanic": "Read each incoming item's number and set switches/route it to the matching numbered destination across a queue.",
+    "keep": {"id": "operate-system-03", "name": "Track-Switch Train Dispatcher", "lens": "operate-run-a-system", "why_best": "Configure switches to route a stream by reading numbers (numeral recognition/ordering); the ongoing-operator routing system, clean toggle-state logic."},
+    "absorbed": [
+      {"id": "operate-system-10", "name": "Library Return-Desk Shelver", "lens": "operate-run-a-system"}
+    ],
+    "standards_span": ["1.NBT.B.3", "RF.K.1.D"],
+    "grades": ["K", "1"],
+    "subjects": ["math", "ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C106",
+    "cluster_name": "Apply-a-Fixed-Rule Across a Stream (+10/-10 stamp)",
+    "core_mechanic": "Apply a posted arithmetic rule to each item in a stream and stamp the computed result.",
+    "keep": {"id": "operate-system-05", "name": "Stamp-Machine Rule Operator", "lens": "operate-run-a-system", "why_best": "Apply a stated rule repeatedly (mental +10/-10) across a parcel stream; the canonical rule-machine, distinct from a single delightful transform."},
+    "absorbed": [],
+    "standards_span": ["1.NBT.C.5"],
+    "grades": ["1"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C107",
+    "cluster_name": "Compute-to-Route (sum decides the lane)",
+    "core_mechanic": "Compute a sum/difference and grant passage to the lane whose number equals the answer (running a crossing).",
+    "keep": {"id": "operate-system-07", "name": "Traffic-Signal Crossing Operator", "lens": "operate-run-a-system", "why_best": "Compute a fact then route (2.OA.B.2) on a multi-road system; distinct from reading-a-given-number to route. The compute-then-route canonical."},
+    "absorbed": [],
+    "standards_span": ["2.OA.B.2"],
+    "grades": ["2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C108",
+    "cluster_name": "Balance-a-Scale-to-a-Target by Adding Units",
+    "core_mechanic": "Add standard unit-weights to a pan until the scale matches a target weight reading (measurement to target).",
+    "keep": {"id": "operate-system-13", "name": "Parcel-Scale Weigh Station", "lens": "operate-run-a-system", "why_best": "Read and match a measurement by adding standard units on a balance instrument (2.MD.A.1); distinct from value-compose and from compare-tilt."},
+    "absorbed": [],
+    "standards_span": ["2.MD.A.1"],
+    "grades": ["2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C109",
+    "cluster_name": "Complete-the-Spelling-in-Slots (CVC marquee)",
+    "core_mechanic": "Read a word + picture clue and slide letter tiles into the empty slots to complete the CVC spelling.",
+    "keep": {"id": "operate-system-14", "name": "Marquee Letter-Tile Sign Operator", "lens": "operate-run-a-system", "why_best": "Fill exact spelling slots (CVC phonics) from a tile rack with a picture clue; distinct from tracing and from free composition."},
+    "absorbed": [],
+    "standards_span": ["RF.K.3.B"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C110",
+    "cluster_name": "Aim-and-Launch a Skip-Count (cannon/hop)",
+    "core_mechanic": "Set hop-size and hop-count, then fire so equal arcs land exactly on a target (skip-count/multiplication).",
+    "keep": {"id": "physical-metaphor-01", "name": "Hop Cannon", "lens": "physical-metaphor", "why_best": "Set a launch quantity (hop-size x count) encoding skip-count/multiply in one aimed shot; the equal-interval arc is distinct from question-by-question advance."},
+    "absorbed": [
+      {"id": "physical-metaphor-10", "name": "Crank the Skip-Count Wheel", "lens": "physical-metaphor"},
+      {"id": "rhythm-sound-04", "name": "Skip-Count Drum Train", "lens": "rhythm-sound-timing"}
+    ],
+    "standards_span": ["2.MD.B.6", "2.NBT.A.2", "2.OA.C.3"],
+    "grades": ["2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C111",
+    "cluster_name": "Meter-a-Length-by-Stretching (ruler)",
+    "core_mechanic": "Drag to stretch an elastic body to a target length against a ruler, reading the live length.",
+    "keep": {"id": "physical-metaphor-04", "name": "Stretch the Caterpillar", "lens": "physical-metaphor", "why_best": "Meter a single elastic length against a ruler with a live readout; a distinct produce-a-measured-length act vs reading a static object."},
+    "absorbed": [],
+    "standards_span": ["1.MD.A.2", "2.MD.A.1"],
+    "grades": ["1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C112",
+    "cluster_name": "Aim-a-Launch-to-an-Equivalent-Representation",
+    "core_mechanic": "Pull-and-angle a slingshot/launcher so the projectile lands on the target that equals the given value (place-value / phonics match).",
+    "keep": {"id": "physical-metaphor-06", "name": "Slingshot to the Tens", "lens": "physical-metaphor", "why_best": "A single aim-and-launch carries an equivalence match (expanded/place-value forms); the trajectory replaces a tap-pair. Absorbs the letter-launcher ELA variant."},
+    "absorbed": [
+      {"id": "physical-metaphor-15", "name": "Aim the Letter Launcher", "lens": "physical-metaphor"}
+    ],
+    "standards_span": ["1.NBT.B.2", "2.NBT.A.3", "RF.K.3.a", "RF.K.2.d"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["math", "ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C113",
+    "cluster_name": "Partition-then-Fill a Stretched Band (fractions)",
+    "core_mechanic": "Place pegs to partition a 0-1 band into equal parts, then fill from 0 to a target point to show a fraction.",
+    "keep": {"id": "physical-metaphor-08", "name": "Stretch-Band Fractions", "lens": "physical-metaphor", "why_best": "Partition-then-fill on an elastic whole (number-line fraction, 3.NF.A.2) distinct from a pre-marked pour and from open-length stretch."},
+    "absorbed": [],
+    "standards_span": ["3.NF.A.2", "2.G.A.3"],
+    "grades": ["2", "3"],
+    "subjects": ["math"],
+    "flags": ["out-of-grade"]
+  },
+  {
+    "cluster_id": "C114",
+    "cluster_name": "Pour-Discrete-to-a-Level / Ten-Frame Fill",
+    "core_mechanic": "Pour/drop discrete items into a tube or ten-frame and stop when the accumulated level matches a target count.",
+    "keep": {"id": "physical-metaphor-17", "name": "Fill the Ten-Frame Tank", "lens": "physical-metaphor", "why_best": "Meter a discrete pour against a base-ten ten-frame structure (number sense + count); the structured-fill is richer than a plain level tube, which absorbs."},
+    "absorbed": [
+      {"id": "physical-metaphor-09", "name": "Funnel the Beads", "lens": "physical-metaphor"},
+      {"id": "physical-metaphor-11", "name": "Air-Pump the Number Balloon", "lens": "physical-metaphor"},
+      {"id": "rhythm-sound-03", "name": "Count the Beats", "lens": "rhythm-sound-timing"}
+    ],
+    "standards_span": ["K.NBT.A.1", "K.CC.B.5", "K.CC.B.4", "K.OA.A.1"],
+    "grades": ["K"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C115",
+    "cluster_name": "Aim-to-the-Nearest-Ten (rounding launch)",
+    "core_mechanic": "Wind a catapult to launch a numbered rock toward the nearer of two tens-pads (round to nearest ten).",
+    "keep": {"id": "physical-metaphor-13", "name": "Catapult the Rounding Rock", "lens": "physical-metaphor", "why_best": "Focused two-pad rounding decision via a wind-and-fire launch; the only rounding design, distinct from multi-target equivalence aiming."},
+    "absorbed": [],
+    "standards_span": ["3.NBT.A.1"],
+    "grades": ["3"],
+    "subjects": ["math"],
+    "flags": ["out-of-grade"]
+  },
+  {
+    "cluster_id": "C116",
+    "cluster_name": "Pour-to-Balance a Scale (continuous equality)",
+    "core_mechanic": "Pour liquid into one pan against a fixed weight until the beam levels, reading the measured amount.",
+    "keep": {"id": "physical-metaphor-14", "name": "Pour to Balance the Scale", "lens": "physical-metaphor", "why_best": "Continuous pour-to-balance (equality/measurement on a graduated cup); distinct from discrete stack-to-balance and from pour-to-a-line."},
+    "absorbed": [],
+    "standards_span": ["1.OA.D.7", "3.MD.A.2"],
+    "grades": ["1", "3"],
+    "subjects": ["math"],
+    "flags": ["out-of-grade", "touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C117",
+    "cluster_name": "Echo-the-Ordered-Sequence (call-and-response memory)",
+    "core_mechanic": "Watch/hear an ordered pad sequence and reproduce it in the same order (auditory-visual sequence memory).",
+    "keep": {"id": "rhythm-sound-02", "name": "Echo the Beat", "lens": "rhythm-sound-timing", "why_best": "Call-and-response reproduce-an-ordered-sequence (count/order, growing length); the only Simon-style memory mechanic."},
+    "absorbed": [
+      {"id": "rhythm-sound-09", "name": "Play the Number Song", "lens": "rhythm-sound-timing"}
+    ],
+    "standards_span": ["K.CC.A.1", "K.CC.A.2"],
+    "grades": ["K"],
+    "subjects": ["math"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C118",
+    "cluster_name": "Identify-a-Sound (auditory discrimination)",
+    "core_mechanic": "Hear a sound and tap the picture that produced it (input modality is audio, answer is visual).",
+    "keep": {"id": "rhythm-sound-06", "name": "Which Sound Was That?", "lens": "rhythm-sound-timing", "why_best": "Pure listen-then-identify (auditory discrimination); the input-modality-reversed mechanic, replayable. Needs a curated SFX library."},
+    "absorbed": [],
+    "standards_span": ["RF.K.1.a"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["needs-richer-runtime", "touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C119",
+    "cluster_name": "Continue-an-Auditory-Pattern (rhythm loop)",
+    "core_mechanic": "Hear a looping rhythm pattern and fill the blank slots with sound-shapes so the beat-pattern continues.",
+    "keep": {"id": "rhythm-sound-07", "name": "Conduct the Pattern", "lens": "rhythm-sound-timing", "why_best": "Continue a repeating pattern judged by ear/beat (auditory+temporal); distinct from the silent-visual pattern-continue (C009) by the auditory medium."},
+    "absorbed": [],
+    "standards_span": ["K.OA.A.1"],
+    "grades": ["K"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C120",
+    "cluster_name": "Blend-Phonemes-by-Sweep (auditory blending)",
+    "core_mechanic": "Tap phoneme buttons in order then sweep them together (child-paced) until separate sounds fuse into a word.",
+    "keep": {"id": "rhythm-sound-05", "name": "Blend it with Taps", "lens": "rhythm-sound-timing", "why_best": "Auditory phoneme blending paced by a sweep (RF.K.2.d); distinct from spelling builders. Needs pre-recorded phoneme clips."},
+    "absorbed": [],
+    "standards_span": ["RF.K.2.d"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["needs-richer-runtime"]
+  },
+  {
+    "cluster_id": "C121",
+    "cluster_name": "Segment-a-Word-by-Stretching (phoneme segmentation)",
+    "core_mechanic": "Press-and-hold to stretch a spoken word so its phonemes pull apart; count the sound-dots that pop out.",
+    "keep": {"id": "rhythm-sound-14", "name": "Stretch the Word", "lens": "rhythm-sound-timing", "why_best": "Hold-to-stretch phoneme segmentation (the inverse of blending, RF.K.2.d); the tangible stretch gesture is the novel core. Needs segmented audio."},
+    "absorbed": [
+      {"id": "transform-machine-16", "name": "Syllable Stretch & Squish", "lens": "transform-machine-causeeffect"}
+    ],
+    "standards_span": ["RF.K.2.d", "RF.1.3.d"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["needs-richer-runtime"]
+  },
+  {
+    "cluster_id": "C122",
+    "cluster_name": "Add-as-Two-Drumroll-Groups (counting-on by beat)",
+    "core_mechanic": "Tap two grouped drumrolls that join into one continuous count to perform addition as a temporal sequence.",
+    "keep": {"id": "rhythm-sound-11", "name": "Add with Drumrolls", "lens": "rhythm-sound-timing", "why_best": "Counting-on / joining heard as one drumroll flowing into the next (K.OA.A.2); a distinct temporal addition mechanic."},
+    "absorbed": [
+      {"id": "transform-machine-06", "name": "Combine & Split Blobs", "lens": "transform-machine-causeeffect"}
+    ],
+    "standards_span": ["K.OA.A.2", "K.OA.A.3"],
+    "grades": ["K"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C123",
+    "cluster_name": "Isolate-the-Beginning-Sound by Ear (probe words)",
+    "core_mechanic": "Tap pictures to hear them and pick the one that begins with a given spoken onset (auditory onset detection).",
+    "keep": {"id": "rhythm-sound-12", "name": "Where's the Sound?", "lens": "rhythm-sound-timing", "why_best": "Listen-first onset detection with no letters shown (RF.K.2.c); distinct from environmental-sound ID and from letter-anchored beginning-sound."},
+    "absorbed": [],
+    "standards_span": ["RF.K.2.c"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["needs-richer-runtime"]
+  },
+  {
+    "cluster_id": "C124",
+    "cluster_name": "Cross-Modal Pitch-to-Size Ordering",
+    "core_mechanic": "Decode a low-to-high pitch sequence as a size cue and order objects to match the heard order.",
+    "keep": {"id": "rhythm-sound-13", "name": "Hum the Pattern Up & Down", "lens": "rhythm-sound-timing", "why_best": "Maps pitch onto a math attribute (size) and asks the child to order by decoding sound; the only cross-modal pitch-to-size design."},
+    "absorbed": [],
+    "standards_span": ["K.MD.A.2"],
+    "grades": ["K"],
+    "subjects": ["math"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C125",
+    "cluster_name": "Tap-Each-Word-in-Order (concept of print)",
+    "core_mechanic": "Tap one pad per word left-to-right so each tap speaks that word, tracking one-to-one speech-to-print.",
+    "keep": {"id": "rhythm-sound-16", "name": "Read it to the Beat", "lens": "rhythm-sound-timing", "why_best": "One-tap-per-word in order instantiates print tracking (RF.K.1.c); the only concept-of-print word-correspondence design."},
+    "absorbed": [],
+    "standards_span": ["RF.K.1.c"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C126",
+    "cluster_name": "Sonify-Place-Value (tens vs ones beats)",
+    "core_mechanic": "Tap deep beats for tens and light beats for ones to sonify a two-digit number's place-value decomposition.",
+    "keep": {"id": "rhythm-sound-15", "name": "Tap the Tens & Ones Beat", "lens": "rhythm-sound-timing", "why_best": "Place value as a two-layer rhythm (heavy=tens, light=ones); a heard decomposition distinct from the visual column build."},
+    "absorbed": [],
+    "standards_span": ["1.NBT.B.2"],
+    "grades": ["1"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C127",
+    "cluster_name": "Compare-Quantities-by-Ear (beat counts)",
+    "core_mechanic": "Listen to two rhythmic beat-sequences and tap which has more beats (or 'same') by counting by ear.",
+    "keep": {"id": "rhythm-sound-17", "name": "Equal Beats", "lens": "rhythm-sound-timing", "why_best": "Auditory magnitude comparison (K.CC.C.6) by counting beats; distinct from every visual more/less comparison by the modality."},
+    "absorbed": [],
+    "standards_span": ["K.CC.C.6"],
+    "grades": ["K"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C128",
+    "cluster_name": "Deal-Equally to Recipients (partitive sharing)",
+    "core_mechanic": "Deal discrete items one-to-one onto plates until each recipient has an equal share (fair-share/partitive division).",
+    "keep": {"id": "social-fairness-01", "name": "Share It Fair", "lens": "social-fairness-empathy", "why_best": "Partitive division by dealing to equal shares with a leftover surfaced; the canonical fair-share. The round-robin process variant absorbs."},
+    "absorbed": [
+      {"id": "social-fairness-15", "name": "One for You, One for Me", "lens": "social-fairness-empathy"}
+    ],
+    "standards_span": ["3.OA.A.2", "K.CC.B.5", "K.CC.C.6"],
+    "grades": ["K", "3"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C129",
+    "cluster_name": "Build-Matching-Reference-Sets (equal sets)",
+    "core_mechanic": "Reproduce a multi-item reference set across several recipients so every set matches exactly (item-type and count).",
+    "keep": {"id": "social-fairness-02", "name": "Everyone Gets the Same", "lens": "social-fairness-empathy", "why_best": "Reproduce a multi-item reference set across recipients (one-to-one correspondence / equal sets); the unit of fairness is a whole bag, distinct from equal-totals."},
+    "absorbed": [],
+    "standards_span": ["K.CC.C.6"],
+    "grades": ["K"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C130",
+    "cluster_name": "Deliver-the-Need-Solving-Item (reading-to-act)",
+    "core_mechanic": "Read a character's stated need and deliver the one item that solves it (need->item rule application).",
+    "keep": {"id": "social-fairness-03", "name": "What Each Guest Needs", "lens": "social-fairness-empathy", "why_best": "Read a specific stated need and deliver the solving item (reading-comprehension + rule application); distinct from feeding by appetite or category sort."},
+    "absorbed": [],
+    "standards_span": ["RF.K.4", "RL.K.1"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C131",
+    "cluster_name": "Semantic-Relationship Pairing (owner->pet, tool->use)",
+    "core_mechanic": "Connect each character/item to its partner by a stated semantic relationship (not identity).",
+    "keep": {"id": "social-fairness-06", "name": "The Matchmaker", "lens": "social-fairness-empathy", "why_best": "Pairing gated by a semantic relationship (owner->pet, part->whole); a vocabulary-relationship skill distinct from identity match-pairs."},
+    "absorbed": [],
+    "standards_span": ["L.K.5.a", "L.1.5.b"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C132",
+    "cluster_name": "Equalize-Unequal-Piles (redistribute the difference)",
+    "core_mechanic": "Move items between two/several unequal holdings until they are equal (equalize a difference / even out).",
+    "keep": {"id": "social-fairness-07", "name": "Make It Even", "lens": "social-fairness-empathy", "why_best": "Redistribute existing unequal holdings to equal (equalize a difference, halved); distinct from dealing from a source. Absorbs the equal-towers variant."},
+    "absorbed": [
+      {"id": "organize-order-17", "name": "Make Equal Towers", "lens": "sort-curate-organize"}
+    ],
+    "standards_span": ["1.OA.D.8", "2.OA.A.1", "K.MD.A.2", "2.MD.B.5"],
+    "grades": ["K", "1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C133",
+    "cluster_name": "Share-a-Named-Fraction-of-a-Set",
+    "core_mechanic": "Count out a named unit fraction of a set ('one-third of 12') into each recipient's cup.",
+    "keep": {"id": "social-fairness-09", "name": "Give Each a Fraction of the Set", "lens": "social-fairness-empathy", "why_best": "Fractions OF A SET tied to division (3.NF.A.1/3.OA.A.2); bridges fraction language and equal sharing, distinct from partition-a-whole."},
+    "absorbed": [],
+    "standards_span": ["3.NF.A.1", "3.OA.A.2"],
+    "grades": ["3"],
+    "subjects": ["math"],
+    "flags": ["out-of-grade"]
+  },
+  {
+    "cluster_id": "C134",
+    "cluster_name": "Infer-a-Category-from-a-Clue (gift by hint)",
+    "core_mechanic": "Read a descriptive clue, infer the implied category, and choose the one item that fits it.",
+    "keep": {"id": "social-fairness-10", "name": "The Right Gift", "lens": "social-fairness-empathy", "why_best": "Infer a category from a descriptive clue ('things that float') and pick the fitting item; comprehension + attribute-classification, distinct from a fixed need->item map."},
+    "absorbed": [],
+    "standards_span": ["RL.1.1", "RI.1.4"],
+    "grades": ["1"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C135",
+    "cluster_name": "Build-a-Fair-Turn-Order (rotation by rule)",
+    "core_mechanic": "Arrange a turn-order so each actor gets exactly one turn before repeats, following an ordinal/sequence rule.",
+    "keep": {"id": "social-fairness-11", "name": "Take Turns Fairly", "lens": "social-fairness-empathy", "why_best": "Build a fair sequence/rotation (ordinal reasoning, one-turn-each); distinct from seating adjacency and from single-actor path movement."},
+    "absorbed": [],
+    "standards_span": ["K.CC.B.4", "1.OA.A.1"],
+    "grades": ["K", "1"],
+    "subjects": ["math"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C136",
+    "cluster_name": "Identify-a-Character's-Feeling (RL comprehension)",
+    "core_mechanic": "Read a short social scene and tap the face/word naming how a character feels and why.",
+    "keep": {"id": "social-fairness-12", "name": "How Are They Feeling?", "lens": "social-fairness-empathy", "why_best": "Comprehension-of-feelings (RL describe characters' feelings); interprets a narrated situation to an emotional state, distinct from need/clue->item maps."},
+    "absorbed": [],
+    "standards_span": ["RL.K.3", "RL.2.3"],
+    "grades": ["K", "2"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C137",
+    "cluster_name": "Resolve-a-Have/Want Swap Network",
+    "core_mechanic": "Tap two characters to trade so both get their wish, resolving a network of have->want swaps until all are satisfied.",
+    "keep": {"id": "social-fairness-14", "name": "Trade to Make Everyone Happy", "lens": "social-fairness-empathy", "why_best": "Directed have->want swap-resolution where the correct swap depends on reciprocal satisfaction; a distinct relational-matching puzzle."},
+    "absorbed": [],
+    "standards_span": ["K.OA.A.2", "RL.1.1"],
+    "grades": ["K", "1"],
+    "subjects": ["math", "ela"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C139",
+    "cluster_name": "Two-Attribute Cross-Classification Grid",
+    "core_mechanic": "Place items in a grid satisfying both a row-rule and a column-rule (nested category-and-subcategory).",
+    "keep": {"id": "organize-order-06", "name": "Tidy the Toy Shelf (Sort, Then Sort Again)", "lens": "sort-curate-organize", "why_best": "Two-attribute cross-classification (a cell correct only if both row+col rules hold); distinct from single-rule binning. The only cross-classify design."},
+    "absorbed": [],
+    "standards_span": ["K.MD.B.3", "1.MD.C.4"],
+    "grades": ["K", "1"],
+    "subjects": ["math"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C140",
+    "cluster_name": "Pack/Tile a Bounded Space (no gaps/overlaps)",
+    "core_mechanic": "Drag and rotate shapes to fill a bounded region edge-to-edge with no gaps or overlaps.",
+    "keep": {"id": "organize-order-04", "name": "Pack the Suitcase", "lens": "sort-curate-organize", "why_best": "Grid-pack tiling of a bounded space (compose shapes to fill a region); distinct from blueprint-array and from free-form tangram. Grid-snap keeps it feasible."},
+    "absorbed": [],
+    "standards_span": ["K.G.B.6", "1.G.A.2"],
+    "grades": ["K", "1"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C141",
+    "cluster_name": "Compose-a-Named-Figure (tangram)",
+    "core_mechanic": "Slide/rotate/flip free-form shapes to compose a target silhouette of a recognizable figure.",
+    "keep": {"id": "organize-order-16", "name": "Fit the Tangram Picture", "lens": "sort-curate-organize", "why_best": "Compose free-form geometric shapes into a named figure with rotation/flip; distinct from axis-aligned grid-pack. Constrained snap-angles keep it shell-feasible."},
+    "absorbed": [],
+    "standards_span": ["1.G.A.2", "2.G.A.1"],
+    "grades": ["1", "2"],
+    "subjects": ["math"],
+    "flags": ["needs-richer-runtime"]
+  },
+  {
+    "cluster_id": "C142",
+    "cluster_name": "Alphabetical-Order Queue",
+    "core_mechanic": "Arrange letters/words into a left-to-right queue in alphabetical order.",
+    "keep": {"id": "organize-order-05", "name": "The Alphabet Queue", "lens": "sort-curate-organize", "why_best": "Ordering by a symbolic sequence the child must know (the alphabet); distinct from numeric/measured order and from sound-sequencing within a word."},
+    "absorbed": [],
+    "standards_span": ["K.RF.1.D", "1.L.2.E"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C143",
+    "cluster_name": "Structured Ten-Frame Fill (subitizing composition)",
+    "core_mechanic": "Fill a ten-frame in conventional order to show a target number, revealing its 5+ structure.",
+    "keep": {"id": "organize-order-10", "name": "Fill the Ten-Frame Just Right", "lens": "sort-curate-organize", "why_best": "Bounded 5+5 composition where placement order reveals subitizing structure; distinct from a linear number line and from a continuous pour-fill."},
+    "absorbed": [],
+    "standards_span": ["K.CC.B.4", "1.NBT.B.2"],
+    "grades": ["K", "1"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C144",
+    "cluster_name": "Real-World Chronological Sequencing (lifecycle/routine)",
+    "core_mechanic": "Order informational cards (seed->tree, morning->night) by real-world temporal/causal order on a timeline.",
+    "keep": {"id": "organize-order-14", "name": "Chronological: What Came First?", "lens": "sort-curate-organize", "why_best": "Informational time-order/lifecycle sequencing (RI.3); distinct from narrative plot-order retell by ordering real-world chronology."},
+    "absorbed": [],
+    "standards_span": ["K.RI.3", "1.RI.3"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C145",
+    "cluster_name": "Sort-into-Value-Ordered Tubes (place value)",
+    "core_mechanic": "Sort coins/place-value tokens into the matching labeled tube AND arrange the tubes in least-to-greatest value order.",
+    "keep": {"id": "organize-order-15", "name": "Sort the Coins Into the Right Tubes", "lens": "sort-curate-organize", "why_best": "Couples category-binning with numeric value-ordering and place value; distinct from two-perceptual-attribute cross-sort and from plain ordering."},
+    "absorbed": [],
+    "standards_span": ["1.NBT.B.2", "2.NBT.A.1"],
+    "grades": ["1", "2"],
+    "subjects": ["math"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C146",
+    "cluster_name": "Set-up-then-Trigger a Cause-Effect Chain (count/sequence)",
+    "core_mechanic": "Complete a chain of triggers in the right count or first/next/last order, then run the contraption.",
+    "keep": {"id": "transform-machine-08", "name": "Rube-Goldberg Trigger Builder", "lens": "transform-machine-causeeffect", "why_best": "Multi-step cause-effect chain where ORDER/role matters (first/next/last sequencing); distinct from a homogeneous domino count (which folds into C099 program-and-run)."},
+    "absorbed": [],
+    "standards_span": ["RL.K.2"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C147",
+    "cluster_name": "Reversible-State-Transform via a Dial/Crank (ordered stages)",
+    "core_mechanic": "Turn a dial/crank to move a substance/plant through ordered states/stages and set it to a named stage.",
+    "keep": {"id": "transform-machine-12", "name": "Seed-to-Bloom Time Crank", "lens": "transform-machine-causeeffect", "why_best": "Reversible ordered-stage transform targeting first/next/last sequence language (RI.1.3); absorbs the melt-meter states variant."},
+    "absorbed": [
+      {"id": "transform-machine-05", "name": "Ice-to-Water Melt Meter", "lens": "transform-machine-causeeffect"}
+    ],
+    "standards_span": ["RI.1.3", "RI.K.1"],
+    "grades": ["K", "1"],
+    "subjects": ["ela"],
+    "flags": ["touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C148",
+    "cluster_name": "Pick-the-Cause-for-a-Stated-Effect",
+    "core_mechanic": "Press the cause button that produces a stated outcome on the scene (single cause->effect matching).",
+    "keep": {"id": "transform-machine-10", "name": "Weather Machine Cause-Effect", "lens": "transform-machine-causeeffect", "why_best": "Pure cause->effect reasoning: pick the input that yields the stated outcome (RI.1.3); distinct from a single-substance state dial."},
+    "absorbed": [],
+    "standards_span": ["RI.1.3"],
+    "grades": ["1"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C149",
+    "cluster_name": "Inflect-a-Word-by-Stamp (singular->plural, +s)",
+    "core_mechanic": "Add a grammatical ending (+s) to a word so it matches a depicted quantity (inflectional morphology).",
+    "keep": {"id": "transform-machine-07", "name": "Word Plus-S Machine", "lens": "transform-machine-causeeffect", "why_best": "Word transform by appending a grammatical ending matched to picture-count (L.K.1.c plurals); distinct from phoneme substitution and from compound-weld."},
+    "absorbed": [],
+    "standards_span": ["L.K.1.c"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C150",
+    "cluster_name": "Swap-One-Sound Word-Chain Morph",
+    "core_mechanic": "Change one letter/phoneme in a word to morph it into a new real word (phonemic substitution chains).",
+    "keep": {"id": "transform-machine-13", "name": "Letter-Swap Morph Lab", "lens": "transform-machine-causeeffect", "why_best": "Phonemic substitution (cat->cap->hat) with a picture confirm (RF.K.2.e); distinct from appending an ending and from building a word from scratch."},
+    "absorbed": [],
+    "standards_span": ["RF.K.2.e"],
+    "grades": ["K"],
+    "subjects": ["ela"],
+    "flags": ["none"]
+  },
+  {
+    "cluster_id": "C151",
+    "cluster_name": "Fold-a-Net into a Solid (2D->3D)",
+    "core_mechanic": "Tap fold-lines in sequence to fold a 2D net up into a named 3D solid.",
+    "keep": {"id": "transform-machine-15", "name": "Shape-Fold Transformer", "lens": "transform-machine-causeeffect", "why_best": "Geometric 2D->3D fold (which folds make the solid); the only net-fold design, teaching 2D/3D relationships. Pre-rendered fold sprite-sheets keep it feasible."},
+    "absorbed": [],
+    "standards_span": ["2.G.A.1"],
+    "grades": ["2"],
+    "subjects": ["math"],
+    "flags": ["needs-richer-runtime", "touch-not-instantiate"]
+  },
+  {
+    "cluster_id": "C152",
+    "cluster_name": "Ratio / Scale-a-Recipe Transform (proportional)",
+    "core_mechanic": "Adjust ingredient amounts to match a ratio or scale a whole recipe by a factor (double/half), then bake.",
+    "keep": {"id": "transform-machine-02", "name": "Recipe Double & Half", "lens": "transform-machine-causeeffect", "why_best": "Scale every line by the same factor (doubling/halving) — the more K-3-reachable of the proportional pair; the ratio-lab sibling absorbs (it is the 6.RP variant)."},
+    "absorbed": [
+      {"id": "transform-machine-01", "name": "Potion Ratio Lab", "lens": "transform-machine-causeeffect"}
+    ],
+    "standards_span": ["2.OA.C.4", "6.RP.A.1"],
+    "grades": ["2", "3"],
+    "subjects": ["math"],
+    "flags": ["out-of-grade", "touch-not-instantiate"]
+  }
+]

@@ -1,0 +1,258 @@
+[
+  {
+    "id": "mimic-copy-01",
+    "name": "Build It Like Mine",
+    "mechanic": "A character shows a finished tower made of N stacked blocks (or a scattered set of N items). The child drags blocks onto their own empty plate, one at a time, until their stack has EXACTLY the same number as the model. No counting prompt — the child reproduces the quantity to make a twin.",
+    "design_lens": "mimic-copy-mirror",
+    "why_distinct": "Closest neighbor is build-a-buddy/build-a-world, but those are open creative assembly with no correctness target. Here the model defines a precise quantity the child must REPRODUCE (one-to-one to a shown set) — equality of count is the whole win, not free building. Separation: a model exists and yours must equal it.",
+    "standards": [
+      {"code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "K.CC.C.6", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"}
+    ],
+    "fun_no_competition": "The 'it's a twin!' moment when both stacks line up identical, the character grins and the two towers do a little matching wobble.",
+    "interaction": "drag",
+    "character_world": "Twin Bears each building a matching block tower so they look the same",
+    "web_shell_feasibility": "feasible — DOM blocks, drag-to-slot, compare count of placed vs model",
+    "asset_idea": "stub: colored rectangle blocks + two bear sprites. CA5 art: a friendly bear holding a finished block tower, an empty matching plate, sparkle-twin effect"
+  },
+  {
+    "id": "mimic-copy-02",
+    "name": "Mirror Butterfly",
+    "mechanic": "Half a symmetrical figure (one butterfly wing, half a face, half a heart) is drawn on the left of a fold-line. The child taps cells / drags decorations onto the EMPTY right half so it mirrors the left exactly. The fold-line is the axis; correctness = each placed spot reflects its partner.",
+    "design_lens": "mimic-copy-mirror",
+    "why_distinct": "No template does reflection. Closest is reveal-grid (tapping cells) but there the target is hidden; here the target is the visible mirror of the other half. Separation: the answer is DERIVED by reflecting a shown half across an axis — symmetry, not memory.",
+    "standards": [
+      {"code": "1.G.A.2", "grade": "1", "strand": "Geometry", "subject": "math"},
+      {"code": "4.G.A.3", "grade": "3", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "When the last mirrored dot lands, the butterfly's wings flap symmetrically and it flutters off — the delight of making a perfect twin half.",
+    "interaction": "tap",
+    "character_world": "A butterfly waiting for its second wing to be painted to match the first",
+    "web_shell_feasibility": "feasible — grid of cells, reflect coordinate across vertical axis to check",
+    "asset_idea": "stub: dotted grid + one painted wing half. CA5 art: butterfly with one ornate wing, mirror fold-line shimmer, flap animation"
+  },
+  {
+    "id": "mimic-copy-03",
+    "name": "Copy the Bead String",
+    "mechanic": "A model necklace shows a color/shape bead pattern (red-blue-red-blue-yellow). The child threads beads onto their own empty string by tapping a bead palette, reproducing the same sequence in the same order. Correctness = exact ordered match, not just same beads.",
+    "design_lens": "mimic-copy-mirror",
+    "why_distinct": "Distinct from sort-home (no categorizing into bins) and from match-pairs (no pairing). Closest is build-a-buddy decoration, but here ORDER and SEQUENCE must replicate a model exactly. Separation: it's reproduction of an ordered pattern (AB/ABC/AABB structure).",
+    "standards": [
+      {"code": "K.CC.B.4", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "2.NBT.A.2", "grade": "2", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "The necklace clasps shut with a sparkle when the order matches the model exactly, and the character proudly wears the twin necklace.",
+    "interaction": "tap",
+    "character_world": "A friendly fox who wants a necklace that matches its best friend's",
+    "web_shell_feasibility": "feasible — ordered array compare, bead palette taps append to string",
+    "asset_idea": "stub: colored circle beads on a line. CA5 art: fox holding model necklace, empty string, palette of bead colors/shapes"
+  },
+  {
+    "id": "mimic-copy-04",
+    "name": "Match the Ten-Frame",
+    "mechanic": "The top ten-frame is filled with N counters in a specific dot arrangement. The child taps cells on their OWN empty ten-frame below to place the same number of counters in the same cells — making the second frame an exact copy of the first.",
+    "design_lens": "mimic-copy-mirror",
+    "why_distinct": "Uses a ten-frame manipulative but the mechanic is REPRODUCE-THE-ARRANGEMENT, not write-the-numeral or build-a-number. Closest neighbor is the existing E1 ten-frame activities, but those ask for a count; here you copy the exact spatial layout cell-for-cell. Separation: position-faithful replication.",
+    "standards": [
+      {"code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "K.NBT.A.1", "grade": "K", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "Both frames light up green and click together like a stamp when they match — the satisfaction of a perfect carbon copy.",
+    "interaction": "tap",
+    "character_world": "A robot stamping machine that needs the child to make an identical copy of its pattern",
+    "web_shell_feasibility": "feasible — two 2x5 grids, compare filled-cell sets",
+    "asset_idea": "stub: two ten-frame grids, model filled. CA5 art: cheerful copy-robot, two ten-frames, stamp/click effect"
+  },
+  {
+    "id": "mimic-copy-05",
+    "name": "Same Total, New Way",
+    "mechanic": "The model shows a number built one way (e.g. 6 = a tower of 6). The child must build the SAME total a DIFFERENT way (3+3, 4+2, 5+1) on their side — the structure differs but the total must MATCH the model. A balance-scale visual confirms when both sides weigh the same.",
+    "design_lens": "mimic-copy-mirror",
+    "why_distinct": "A subtle mimic: you copy the TOTAL/equality, not the arrangement (opposite of mimic-copy-04). Closest neighbor is magic-machine, but there's no transform here — it's reproduce-the-value-by-decomposing. Separation: match the quantity while deliberately changing the form (equality of different decompositions).",
+    "standards": [
+      {"code": "K.OA.A.3", "grade": "K", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "1.OA.D.7", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "The balance scale tips, then settles perfectly level with a chime — the delight of proving two different builds are 'the same amount'.",
+    "interaction": "drag",
+    "character_world": "A see-saw with two animal friends who balance only when both sides hold the same total",
+    "web_shell_feasibility": "feasible — sum compare + balance-tilt animation driven by sum difference",
+    "asset_idea": "stub: balance scale, two pans, draggable unit cubes. CA5 art: see-saw with two critters, level/chime celebration"
+  },
+  {
+    "id": "mimic-copy-06",
+    "name": "Trace-Free Letter Twin",
+    "mechanic": "A character shows a letter built from 2-4 straight/curved STROKE PIECES (like magnetic letter parts). The child drags the same stroke pieces from a tray to reproduce the identical letter shape in the empty frame — assembling a copy of the model letter from parts, no tracing.",
+    "design_lens": "mimic-copy-mirror",
+    "why_distinct": "Distinct from magic-trace (no path-following) and build-a-buddy. The skill is reproducing a letter's FORM by assembling shown components in the right positions/orientations. Separation: part-assembly replication of a letterform, not freehand trace.",
+    "standards": [
+      {"code": "L.K.1.A", "grade": "K", "strand": "Language", "subject": "ela"},
+      {"code": "RF.K.1.A", "grade": "K", "strand": "Reading: Foundational Skills", "subject": "ela"}
+    ],
+    "fun_no_competition": "The assembled letter snaps together and lights up, the character cheers its 'letter twin', and the letter says its sound aloud.",
+    "interaction": "drag",
+    "character_world": "A letter-building elf who makes alphabet twins out of magnetic stroke pieces",
+    "web_shell_feasibility": "feasible — drag stroke sprites to slots, check piece-in-correct-slot set",
+    "asset_idea": "stub: stroke-piece shapes + outline target. CA5 art: elf holding glowing model letter, tray of stroke pieces, snap-glow effect"
+  },
+  {
+    "id": "mimic-copy-07",
+    "name": "Copy the Caterpillar (Array Twin)",
+    "mechanic": "A model shows an arrangement laid out in rows and columns (3 rows of 4 dots). The child taps an empty grid to reproduce the EXACT same rows-and-columns array — same number of rows, same per-row count — making a twin array.",
+    "design_lens": "mimic-copy-mirror",
+    "why_distinct": "Reuses array structure but as REPLICATE-THE-STRUCTURE, not build-to-a-number or repeated-addition. Closest is the existing E13 build-the-array, which fills to R×C from a prompt; here you copy a SHOWN array's exact shape. Separation: structural replication of a 2D arrangement.",
+    "standards": [
+      {"code": "2.OA.C.4", "grade": "2", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "2.G.A.2", "grade": "2", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "The two caterpillars (each made of the array dots) wriggle in sync once they match — the joy of perfectly matched twin grids.",
+    "interaction": "tap",
+    "character_world": "Two caterpillar friends whose body-segments must match in rows and columns",
+    "web_shell_feasibility": "feasible — grid tap, compare row/col occupancy to model",
+    "asset_idea": "stub: dot grid + model array. CA5 art: two segmented caterpillars, dot-array bodies, sync-wriggle animation"
+  },
+  {
+    "id": "mimic-copy-08",
+    "name": "Fold-Match Shape",
+    "mechanic": "A shape with a fold-line is shown; one half is decorated/shaded. The child decides and taps cells to complete the OTHER half so the whole figure has line symmetry across the fold. Then taps 'fold' and the two halves animate together to confirm they overlap exactly.",
+    "design_lens": "mimic-copy-mirror",
+    "why_distinct": "Differs from mimic-copy-02 (free decoration mirror) by emphasizing the FOLD-OVERLAP test and identifying the line of symmetry on geometric shapes. Closest neighbor is its own mirror-butterfly sibling; separation = geometric shape symmetry with an explicit fold-verify step rather than ornamental wing-painting.",
+    "standards": [
+      {"code": "4.G.A.3", "grade": "3", "strand": "Geometry", "subject": "math"},
+      {"code": "1.G.A.2", "grade": "1", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "The 'fold' animation slaps the halves together and they overlap perfectly with a satisfying click and a star burst.",
+    "interaction": "tap",
+    "character_world": "An origami friend who folds paper shapes and needs both halves to line up",
+    "web_shell_feasibility": "feasible — reflect-and-overlap check, CSS fold animation",
+    "asset_idea": "stub: shape with fold-line, half shaded. CA5 art: origami creature, paper shape mid-fold, overlap-glow"
+  },
+  {
+    "id": "mimic-copy-09",
+    "name": "Echo the Word",
+    "mechanic": "A character shows a short CVC/sight word made of letter tiles in a display strip. The child drags letter tiles from a scrambled tray into their own empty strip to reproduce the EXACT same word, letter-for-letter, in order. Copying spelling, not decoding from a picture.",
+    "design_lens": "mimic-copy-mirror",
+    "why_distinct": "Distinct from existing word-builders that prompt by picture/sound. Here the model word is SHOWN and you copy it tile-by-tile — pure letter-sequence replication (handwriting-copy analog, digital). Separation: reproduce a visible written model exactly.",
+    "standards": [
+      {"code": "RF.K.3.C", "grade": "K", "strand": "Reading: Foundational Skills", "subject": "ela"},
+      {"code": "L.K.2.D", "grade": "K", "strand": "Language", "subject": "ela"}
+    ],
+    "fun_no_competition": "The copied word glows and the character reads it aloud, the two identical words high-five — 'you wrote my word!'.",
+    "interaction": "drag",
+    "character_world": "A parrot who shows a word and wants the child to 'echo' it letter for letter",
+    "web_shell_feasibility": "feasible — ordered letter-tile compare, TTS on success",
+    "asset_idea": "stub: model word strip + scrambled tile tray. CA5 art: parrot holding a word card, empty strip, echo-glow effect"
+  },
+  {
+    "id": "mimic-copy-10",
+    "name": "Mirror Move Dance",
+    "mechanic": "A character strikes a pose / makes a sequence of arm positions on a body-grid (left arm up, right arm out). The child taps the mirror-figure to reproduce the MIRRORED pose (as if facing the character in a mirror) — left/right swapped. Reproduce the model with left-right reflection.",
+    "design_lens": "mimic-copy-mirror",
+    "why_distinct": "A reflection/mimic of a body configuration with the L-R swap that defines a true mirror. Not in any template. Closest is mirror-butterfly (axis reflection) but this is a discrete pose-copy with the mirror-rule taught explicitly through facing dance partners. Separation: reproduce a configuration under reflection across the child's body axis.",
+    "standards": [
+      {"code": "1.G.A.2", "grade": "1", "strand": "Geometry", "subject": "math"},
+      {"code": "K.G.A.1", "grade": "K", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "When the mirror pose matches, the two dancers freeze in a perfect mirrored pose and confetti drops — the twinning delight of 'we're mirror partners!'.",
+    "interaction": "tap",
+    "character_world": "A dance partner facing the child across a mirror, doing copy-me poses",
+    "web_shell_feasibility": "feasible — discrete pose slots, compare with L-R swapped target",
+    "asset_idea": "stub: two facing stick-figures with selectable arm/leg positions. CA5 art: cute dancer + mirror-partner, pose-snap freeze"
+  },
+  {
+    "id": "mimic-copy-11",
+    "name": "Same Number, Same Spots (Subitize Copy)",
+    "mechanic": "A dot card flashes a small arrangement (like a dice/domino pattern of 3-6 dots). After it shows, the child taps an empty card to RECREATE the same dot arrangement in the same positions — reproducing both the count and the spatial pattern from a brief model.",
+    "design_lens": "mimic-copy-mirror",
+    "why_distinct": "Reproduce-a-perceived-arrangement; distinct from reveal-grid (no hidden picture) and from match-the-ten-frame (this uses free-position dot cards and a brief-show/subitize element). Separation: replicate a small quantity's canonical spatial form (dice/domino patterns).",
+    "standards": [
+      {"code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "K.CC.B.4.C", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"}
+    ],
+    "fun_no_competition": "The two dot cards flip face-to-face and stamp a matching imprint with a chime — 'your card is the same as mine!'.",
+    "interaction": "tap",
+    "character_world": "A ladybug whose spots the child copies onto a twin ladybug",
+    "web_shell_feasibility": "feasible — fixed dot-position slots, compare occupied set",
+    "asset_idea": "stub: dot-position grid + model dot card. CA5 art: ladybug with spots, empty twin ladybug, spot-stamp effect"
+  },
+  {
+    "id": "mimic-copy-12",
+    "name": "Copy the Skyline (Bar Match)",
+    "mechanic": "A model shows a row of buildings/towers of given heights (3 tall, 1 short, 2 medium). The child drags or taps to set each of their OWN towers to the SAME height as the matching model tower — reproducing a set of measured heights side by side.",
+    "design_lens": "mimic-copy-mirror",
+    "why_distinct": "Replicate a multi-bar height profile — distinct from chart-count (no data-counting; you copy heights) and from build-a-world (heights must precisely match a model). Separation: faithful reproduction of relative lengths/heights (measurement & comparison via copying).",
+    "standards": [
+      {"code": "1.MD.A.1", "grade": "1", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "K.MD.A.1", "grade": "K", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "When every tower matches its model height, the two skylines light their windows in sync at dusk — twin-city delight.",
+    "interaction": "drag",
+    "character_world": "A city-builder mouse making a mirror-city across the river that must look the same",
+    "web_shell_feasibility": "feasible — per-bar height set, compare each to model height",
+    "asset_idea": "stub: rows of resizable bar-buildings. CA5 art: mouse architect, two skylines across a river, windows-light-up effect"
+  },
+  {
+    "id": "mimic-copy-13",
+    "name": "Replicate the Pattern Block Picture",
+    "mechanic": "A model picture is built from pattern-block shapes (a fish made of 1 triangle + 2 squares + a hexagon) shown on a board. The child drags the same shapes onto their empty board in the same positions/orientations to reproduce the picture — composing shapes to match a model.",
+    "design_lens": "mimic-copy-mirror",
+    "why_distinct": "Compose-shapes-to-replicate; distinct from build-a-buddy (free composition) because positions/shapes must match a precise model, and distinct from sort-home. Separation: 2D shape composition that reproduces a given figure (composing/decomposing shapes).",
+    "standards": [
+      {"code": "1.G.A.2", "grade": "1", "strand": "Geometry", "subject": "math"},
+      {"code": "K.G.B.6", "grade": "K", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "Final shape snaps in and the picture comes alive (the fish swims) — the joy of rebuilding the character's shape-picture exactly.",
+    "interaction": "drag",
+    "character_world": "A shape-artist octopus who makes pattern-block pictures for the child to copy",
+    "web_shell_feasibility": "feasible — drag shape sprites to grid slots, check shape-in-slot match",
+    "asset_idea": "stub: pattern-block shapes (triangle/square/hexagon) + model figure. CA5 art: octopus artist, two boards, picture-comes-alive animation"
+  },
+  {
+    "id": "mimic-copy-14",
+    "name": "Sound-Spell Twin (Copy the Chunk Order)",
+    "mechanic": "A model shows a longer word split into syllable/chunk tiles in order (rain-bow). The child drags the SAME chunk tiles from a scrambled tray into their strip to reproduce the identical chunk sequence — copying a model word at the syllable-unit level.",
+    "design_lens": "mimic-copy-mirror",
+    "why_distinct": "Reproduce-an-ordered-chunk-sequence; distinct from echo-the-word (letter-level copy) by operating at the syllable/chunk unit and from existing sound-chunk builders (those build from sound, not from a shown model). Separation: copy a model's chunk order exactly.",
+    "standards": [
+      {"code": "RF.1.3.D", "grade": "1", "strand": "Reading: Foundational Skills", "subject": "ela"},
+      {"code": "RF.K.2.B", "grade": "K", "strand": "Reading: Foundational Skills", "subject": "ela"}
+    ],
+    "fun_no_competition": "The copied word claps its syllables aloud, both word-cards bump together with a chime — 'you matched my word's beats!'.",
+    "interaction": "drag",
+    "character_world": "A drumming bear who shows a word in beats and wants the child to copy the beats",
+    "web_shell_feasibility": "feasible — ordered chunk-tile compare, syllable TTS on success",
+    "asset_idea": "stub: chunk-tile model strip + scrambled tray. CA5 art: bear with a drum, syllable word-cards, beat-clap animation"
+  },
+  {
+    "id": "mimic-copy-15",
+    "name": "Make Both Sides the Same (Balance Equation Copy)",
+    "mechanic": "One side of an equation strip is shown (e.g. 5 + 2 on the left, with the right side blank but a target frame). The child drags number tiles to make the RIGHT side equal the left — reproducing the same VALUE so the equation 'balances'. The two expressions need not look the same, only be equal.",
+    "design_lens": "mimic-copy-mirror",
+    "why_distinct": "An equality-mimic at the symbolic level: copy the VALUE of a shown expression. Distinct from same-total-new-way (concrete blocks) by using number sentences and the = as 'same as'. Separation: reproduce equivalence symbolically (meaning of the equal sign).",
+    "standards": [
+      {"code": "1.OA.D.7", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "2.OA.B.2", "grade": "2", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "The equal sign glows and a balance beam levels out with a soft ding when both sides are the same value — 'they match!'.",
+    "interaction": "drag",
+    "character_world": "A wise owl tending a balance beam that only levels when both sides are equal",
+    "web_shell_feasibility": "feasible — evaluate both expressions, compare values, balance animation",
+    "asset_idea": "stub: equation strip with =, number tile tray, balance beam. CA5 art: owl on a balance beam, glowing equal sign, level-ding effect"
+  },
+  {
+    "id": "mimic-copy-16",
+    "name": "Reflect the Rangoli (Rotational/Reflective Tile Copy)",
+    "mechanic": "A model shows a decorative tile design in one quadrant. The child taps to fill the other quadrants so the full design has the same motif reflected/repeated across both a vertical and horizontal axis — reproducing one quadrant into a symmetric whole.",
+    "design_lens": "mimic-copy-mirror",
+    "why_distinct": "Extends mirror reflection to multi-axis symmetry (4-fold), distinct from the single-axis mirror-butterfly. Closest sibling is fold-match; separation = the child reproduces ONE shown unit across multiple symmetry axes to complete a full symmetric pattern (line-symmetry at scale, grade-3 ceiling).",
+    "standards": [
+      {"code": "4.G.A.3", "grade": "3", "strand": "Geometry", "subject": "math"},
+      {"code": "2.G.A.1", "grade": "2", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "Each quadrant completing triggers a bloom of color, and the finished symmetric design spins gently — the 'whoa, it's perfectly balanced!' delight.",
+    "interaction": "tap",
+    "character_world": "A festival decorator turtle laying a symmetric floor design for a celebration",
+    "web_shell_feasibility": "feasible — reflect across both axes, check all quadrants vs reflected model",
+    "asset_idea": "stub: 4-quadrant grid, one quadrant pre-filled. CA5 art: turtle decorator, symmetric tile pattern, quadrant-bloom + gentle spin"
+  }
+]

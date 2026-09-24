@@ -1,0 +1,273 @@
+[
+  {
+    "id": "physical-metaphor-01",
+    "name": "Hop Cannon",
+    "mechanic": "A friendly cannon sits at 0 on a big number line. The child drags a 'power dial' to set how far each hop jumps (1, 2, 5, or 10) and a counter to set how many hops, then fires — the cannonball arcs forward in equal bounces, landing on a glowing target number. Setting hop-size × hop-count so the ball lands exactly on the target IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is path-journey, but path-journey advances ONE stop per answered question along a fixed track. Here the child deliberately SETS a launch quantity (hop-size and count) before any motion, and the equal-interval arc lands wherever that quantity computes to — a single aimed launch encoding a multiplication/skip-count, not question-by-question advancement.",
+    "standards": [
+      {"code": "2.MD.B.6", "grade": "2", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "2.NBT.A.2", "grade": "2", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "The satisfying THWUMP of the launch and the bouncy equal hops that land plumb on the target with a confetti puff. A short shot lands wide and the cannonball just rolls back so the child re-dials — no miss penalty, no clock.",
+    "interaction": "aim",
+    "character_world": "Pip the squirrel fires acorns from a spring-cannon to reach the marked branch on the number-line tree.",
+    "web_shell_feasibility": "feasible — CSS-positioned number line, two drag sliders (hop-size, hop-count), and a sequence of CSS-keyframe arc hops; landing = hopSize*hopCount computed, not simulated.",
+    "asset_idea": "Stub: a box-cannon rectangle + circle ball + tick number line. CA5 art: spring-loaded acorn cannon, arc-trail sparkles, target branch with a glowing nest."
+  },
+  {
+    "id": "physical-metaphor-02",
+    "name": "Pour the Potion",
+    "mechanic": "A tall beaker has a fraction line marked on it (fill to 1/2, to 3/4, to 1/3). The child tilts a jug and holds to pour colored liquid; releasing stops the pour. The child must pour until the liquid level reaches exactly the labeled fraction line of the beaker. The amount poured (the level chosen) IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is magic-machine (input-output transform), but that swallows an input and emits a changed output the child reads. Here there is no transform — the child meters a continuous physical AMOUNT (pour-to-level) and the quantity itself is the answer. Distinct from feed-the-friend (discrete items into a mouth) by being a continuous measured fill against a fractional gauge.",
+    "standards": [
+      {"code": "2.G.A.3", "grade": "2", "strand": "Geometry", "subject": "math"},
+      {"code": "3.NF.A.1", "grade": "3", "strand": "Number & Operations—Fractions", "subject": "math"}
+    ],
+    "fun_no_competition": "The glug-glug pour, the liquid wobbling and settling, and a happy fizz when the level lands inside the target band. Overpour just overflows harmlessly into a tray and the child taps 'empty' to retry — no fail state, no timer.",
+    "interaction": "pour",
+    "character_world": "Wanda the gentle witch brews fizzy fruit potions; each recipe needs an exact fraction of the bottle.",
+    "web_shell_feasibility": "feasible — hold-to-pour increments a fill height (CSS height/clip animation); release checks level against the target fraction band; no fluid physics needed.",
+    "asset_idea": "Stub: a rectangle beaker with horizontal fraction lines + a tilting jug rectangle. CA5 art: bubbling cauldron-beaker with fraction ticks, colorful pouring stream, sparkle on success."
+  },
+  {
+    "id": "physical-metaphor-03",
+    "name": "Tilt the Marble Maze",
+    "mechanic": "A flat board holds a marble in the center and has two open chutes at the edges, each labeled with a number (or quantity-dot card). The child reads the prompt ('roll to the bigger number' / 'roll to 7'), then drags a tilt-handle to lean the board left or right; releasing lets the marble roll down the slope into the chosen chute. The tilt-direction chosen IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is navigate-travel-spatial, but that authors a multi-step route across a grid. Here it is a single binary/ternary PHYSICAL commitment — set the board's lean once and gravity carries the marble to exactly one labeled bin. The deliberate tilt-amount/direction (not a path) encodes a comparison choice.",
+    "standards": [
+      {"code": "K.CC.C.7", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "1.NBT.B.3", "grade": "1", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "The marble's wobble as the board leans and the clack as it drops into the chute, ending with a little bell. A wrong drop bounces the marble back to center for a calm re-tilt — no clock, no score.",
+    "interaction": "tilt",
+    "character_world": "Bramble the hedgehog rolls his acorn down the see-saw table into the matching bin.",
+    "web_shell_feasibility": "feasible — CSS rotate transform on the board driven by a drag handle; marble translateX/Y along the computed slope into the chosen chute; outcome from final tilt sign, not physics.",
+    "asset_idea": "Stub: a rotatable rectangle board + circle marble + two labeled chute boxes. CA5 art: cozy wooden see-saw table, glossy marble, two cushioned baskets with big number tiles."
+  },
+  {
+    "id": "physical-metaphor-04",
+    "name": "Stretch the Caterpillar",
+    "mechanic": "A spring-loaded caterpillar's tail is pinned at 0 on a ruler; the child drags its head along the ruler to stretch its body to a target length (e.g., 'make him 8 cm long'). A live readout shows the current length while dragging; releasing locks it. The stretch-length the child stops at IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is magic-trace (drawing a guided stroke), but tracing follows a predetermined path shape. Here nothing is traced — the child meters a single elastic LENGTH against a ruler and the measured extent is the whole answer. Distinct from Stretch-band fractions below by measuring a whole-unit length on a ruler, not partitioning a fixed band.",
+    "standards": [
+      {"code": "1.MD.A.2", "grade": "1", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "2.MD.A.1", "grade": "2", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "The bouncy elastic body that ripples as you stretch and the caterpillar's happy 'just right!' wiggle when the length matches. Overstretch springs back gently — no rush, no penalty.",
+    "interaction": "stretch",
+    "character_world": "Clementine the caterpillar wants to grow to exactly the right size to reach her leaf.",
+    "web_shell_feasibility": "feasible — drag handle sets element width along a ruler; live length readout = pixels mapped to cm; compare on release.",
+    "asset_idea": "Stub: a rectangle 'body' anchored left + draggable head circle + ruler ticks. CA5 art: stretchy striped caterpillar with a smiley face, segment markers as ruler units, leaf at target."
+  },
+  {
+    "id": "physical-metaphor-05",
+    "name": "Drop in the Sum Bins",
+    "mechanic": "A ball sits in a release claw at the top; below are several bins each labeled with a number. A flashed equation ('4 + 3') sits above. The child slides the claw horizontally to aim over a bin, then releases — the ball drops straight down into the bin under the claw. Choosing the bin whose label equals the sum, by sliding the drop-point, IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is sort-home (drag an item to its category) but sorting carries the item by hand the whole way. Here the child sets one horizontal AIM and gravity completes the drop — a deliberate launch-position commitment, not a hand-carried placement, and the answer is encoded by where the drop is aimed.",
+    "standards": [
+      {"code": "K.OA.A.2", "grade": "K", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "1.OA.C.6", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "The clunk of the claw releasing and the ball plopping into the right bin with a coin-drop chime. A wrong bin gently spits the ball back up the chute to re-aim — no timer, no streak.",
+    "interaction": "drag-set-release",
+    "character_world": "Gizmo the friendly factory bot drops gumballs into the labeled chutes.",
+    "web_shell_feasibility": "feasible — claw translateX via drag, ball CSS translateY drop into the bin under the claw's final x; result = label at that x.",
+    "asset_idea": "Stub: a small claw rectangle on a rail + circle ball + row of labeled bin boxes. CA5 art: candy-factory claw machine, gumball, glass chutes with number plates."
+  },
+  {
+    "id": "physical-metaphor-06",
+    "name": "Slingshot to the Tens",
+    "mechanic": "A slingshot at the left holds a numbered pebble (a two-digit number card). Floating targets on the right are labeled in expanded/place-value forms ('40 + 7', '4 tens 7 ones'). The child pulls the slingshot band back and angles it to aim, then releases; the pebble flies in a computed arc to whichever target the aim points at. Aiming at the equivalent representation IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is match-pairs, but match-pairs links two static cards by tapping both. Here the child performs a single deliberate AIM-and-launch — the pull-and-angle set-up directs a projectile to exactly one equivalent target. The physical trajectory, not a tap-pair, carries the matching choice.",
+    "standards": [
+      {"code": "1.NBT.B.2", "grade": "1", "strand": "Number & Operations in Base Ten", "subject": "math"},
+      {"code": "2.NBT.A.3", "grade": "2", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "The stretchy THWANG of the release and the pebble's gentle arc landing with a satisfying thock on the matching target balloon, which pops into confetti. A miss floats the pebble back to the pouch to re-aim — no clock.",
+    "interaction": "aim",
+    "character_world": "Bo the bunny launches berries with his slingshot to the matching basket in the sky.",
+    "web_shell_feasibility": "feasible — drag sets pull-distance and angle; on release compute the arc endpoint from angle and pick the nearest target; CSS keyframe arc; no physics engine.",
+    "asset_idea": "Stub: a Y-shaped slingshot rectangle + draggable pouch + floating target circles. CA5 art: leafy slingshot, glossy berry, balloon targets with place-value labels."
+  },
+  {
+    "id": "physical-metaphor-07",
+    "name": "Stack 'til It Tips",
+    "mechanic": "A balance plank rests on a fulcrum with a target weight marked on one side. The child taps to add numbered blocks (each worth its value) onto the empty pan one at a time; the plank tilts in real time toward the heavier side. The child stops adding when the plank balances level — the total value stacked to reach balance IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is construct-build (stacking to make a structure), but building cares about the structure's shape/completion. Here stacking is a metered PHYSICAL balancing act — the child adds value until a tilt indicator levels, so the chosen total (a sum/decomposition) is the answer, read from the balance, not the build.",
+    "standards": [
+      {"code": "1.OA.D.7", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "1.OA.D.8", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "The teetering wobble of the plank as each block lands and the gentle 'ding—level!' when both sides match, with the plank settling flat. Overloading just dips the pan and the child taps 'take one off' — no penalty, no rush.",
+    "interaction": "drag-set-release",
+    "character_world": "Otto the otter balances his seesaw of stacked pebbles against the big rock.",
+    "web_shell_feasibility": "feasible — running sum drives a CSS rotate on the plank; level when sums match; add/remove blocks by tap, outcome computed.",
+    "asset_idea": "Stub: a rotatable plank rectangle on a triangle fulcrum + numbered block squares. CA5 art: riverside seesaw, smooth pebbles, a boulder counterweight, level-up sparkle."
+  },
+  {
+    "id": "physical-metaphor-08",
+    "name": "Stretch-Band Fractions",
+    "mechanic": "A rubber band is stretched horizontally between 0 and 1 (a whole). The child drags pinch-pegs onto the band to partition it into equal parts, then drags a slider to fill from 0 up to a target point ('shade 3/4'). The fill-stop position on the partitioned band IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is Pour the Potion (fill a vertical beaker to a fraction), but here the child first PARTITIONS an elastic whole into equal parts by placing pegs, then meters a horizontal fill across those parts — partition-then-fill on a stretched band vs. a pre-marked vertical pour. Distinct from Stretch the Caterpillar by partitioning a fixed 0–1 whole rather than measuring an open length.",
+    "standards": [
+      {"code": "3.NF.A.2", "grade": "3", "strand": "Number & Operations—Fractions", "subject": "math"},
+      {"code": "2.G.A.3", "grade": "2", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "The twangy stretch of the band and the springy click as each peg snaps it into equal segments, then a warm glow filling the shaded part. Wrong fill slides back freely — no clock, no miss-count.",
+    "interaction": "stretch",
+    "character_world": "Twang the cricket plays his fraction-band like a guitar string, dividing it into even frets.",
+    "web_shell_feasibility": "feasible — band is a flex bar; pegs split it into equal CSS segments; a fill overlay slider sets the shaded width; check fill vs. target fraction.",
+    "asset_idea": "Stub: a horizontal band rectangle with 0/1 ends + draggable peg markers + fill overlay. CA5 art: a guitar-string band, frog/cricket strummer, glowing shaded frets."
+  },
+  {
+    "id": "physical-metaphor-09",
+    "name": "Funnel the Beads",
+    "mechanic": "A funnel hangs over a clear tube marked with a target count line. The child drags beads from a pile into the funnel mouth; each bead slides down and stacks in the tube, raising the bead-level. The child stops adding when the bead stack reaches exactly the target line ('fill to 10'). The count poured to hit the line IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is feed-the-friend (drop discrete items into a mouth to count), but feed-the-friend counts items against a number prompt with no spatial gauge. Here the discrete beads accumulate to a measured LEVEL line — the child meters the pour against a height target, blending discrete count with a physical fill gauge, so stopping at the right level is the act.",
+    "standards": [
+      {"code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "K.CC.B.4", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"}
+    ],
+    "fun_no_competition": "The clinky tumble of each bead down the funnel and the bead-stack rising to ping the target line with a sparkle. Overfill spills a bead back to the pile gently — no timer, no fail.",
+    "interaction": "pour",
+    "character_world": "Nibbles the mouse funnels acorns into his winter-store tube up to the marked line.",
+    "web_shell_feasibility": "feasible — each dropped bead increments a stack (CSS-positioned circles or a fill height); compare count/level to the line; no physics.",
+    "asset_idea": "Stub: a funnel triangle + tube rectangle with a target line + draggable bead circles. CA5 art: acorn funnel, glass storage tube with a notch line, cheerful mouse."
+  },
+  {
+    "id": "physical-metaphor-10",
+    "name": "Crank the Skip-Count Wheel",
+    "mechanic": "A big numbered dial wheel sits beside a counter readout. The child drags the wheel to crank it; each notch the wheel turns advances the counter by the skip-count step (count by 2s, 5s, 10s). The child cranks until the counter shows the target number, then lets go. The number of cranks (target ÷ step) IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is transform-machine-causeeffect (turn a crank to transform an input), but the machine lens reads a transformed OUTPUT from one input. Here cranking is a metered repeated-action: each notch is one skip-step and the child stops the rotation at the target — a deliberate rotational AMOUNT (how far to crank) encoding a skip-count, not an input→output transform.",
+    "standards": [
+      {"code": "2.NBT.A.2", "grade": "2", "strand": "Number & Operations in Base Ten", "subject": "math"},
+      {"code": "2.OA.C.3", "grade": "2", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "The ratchety click of each notch and the counter flipping in even leaps, ending on a chime when it lands on the target. Overshoot lets the child crank backward freely — no clock, no penalty.",
+    "interaction": "tilt",
+    "character_world": "Cog the friendly clock-mouse winds the counting wheel by the riverbank mill.",
+    "web_shell_feasibility": "feasible — drag-rotate a wheel; each notch (rotation threshold) increments counter by step; stop = current value; pure CSS rotate + counter.",
+    "asset_idea": "Stub: a rotatable dial circle with notches + a digital counter box. CA5 art: water-mill wheel with painted numbers, click-pawl, smiling clock-mouse."
+  },
+  {
+    "id": "physical-metaphor-11",
+    "name": "Air-Pump the Number Balloon",
+    "mechanic": "A balloon connects to a hand-pump; a target size is shown as a dashed outline ('pump to 6'). The child presses the pump plunger; each press inflates the balloon one unit bigger and ticks a size counter. The child stops pumping when the balloon fills the dashed target outline. The number of pumps to reach the target size IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is grow-tend (nurture something to grow over steps), but grow-tend is about tending/care cycles toward maturity. Here inflation is a precise metered PHYSICAL amount — each press is one counted unit and the child halts the pump exactly at a sized target outline, so the pump-count (a number) is the answer, read from a deliberate stop.",
+    "standards": [
+      {"code": "K.CC.B.4", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "K.OA.A.1", "grade": "K", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "The squeaky pump press and the balloon stretching bigger with each puff until it snugly fills the outline with a happy boing. Overpump just lets out a gentle hiss and shrinks one step — no rush, no fail.",
+    "interaction": "drag-set-release",
+    "character_world": "Pim the penguin pumps party balloons to exactly the right size for the iceberg fest.",
+    "web_shell_feasibility": "feasible — each plunger press scales the balloon (CSS transform scale) and increments a counter; compare size/count to target outline.",
+    "asset_idea": "Stub: a circle balloon that scales + a pump rectangle plunger + dashed target ring. CA5 art: bouncy party balloon, hand pump, dashed size-guide outline, penguin in a party hat."
+  },
+  {
+    "id": "physical-metaphor-12",
+    "name": "Roll the Coin Down the Ramp",
+    "mechanic": "A coin sits at the top of an adjustable ramp; at the bottom are value-bins ('make 25¢', 'show 1 dime + 3 pennies'). The child drags the ramp's exit gate to point the roll toward a chosen bin, then taps roll; the coin trundles down and into the aimed bin. Aiming the ramp-exit at the bin whose coins make the target value IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is Drop in the Sum Bins, but that drops straight down by horizontal aim. Here the child sets a RAMP-EXIT angle so the coin rolls along a slope to a side bin — a directional launch via slope-setting (not a vertical drop), applied to money values. The angled roll is the deliberate physical commitment.",
+    "standards": [
+      {"code": "2.MD.C.8", "grade": "2", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "1.MD.C.4", "grade": "1", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "The coin's trundling spin down the ramp and the clink as it drops into the right bin with a cash-register ding. A wrong bin rolls the coin back up to the top via a little lift — no timer, no streak.",
+    "interaction": "aim",
+    "character_world": "Penny the piggy-bank pig rolls coins down her ramp into the matching jar.",
+    "web_shell_feasibility": "feasible — drag sets ramp-exit angle; coin translates along the computed slope to the targeted bin; CSS rotate + translate; outcome from aimed bin.",
+    "asset_idea": "Stub: a tiltable ramp rectangle + circle coin + value-labeled bin jars. CA5 art: wooden coin ramp, shiny coin, piggy-bank jars with money-value tags."
+  },
+  {
+    "id": "physical-metaphor-13",
+    "name": "Catapult the Rounding Rock",
+    "mechanic": "A rock labeled with a number (e.g., 47) sits on a catapult between two 'landing pads' marked with the nearest tens (40 and 50). The child winds the catapult's tension to aim the launch toward the closer ten, then fires; the rock arcs to the chosen pad. Launching toward the nearest ten IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is Slingshot to the Tens (aim a pebble to a place-value match), but that targets equivalent representations among many balloons. Here it is a focused two-pad ROUNDING decision driven by a wind-and-fire catapult — the single launch commits to nearest-ten, a distinct standard and a distinct two-target physical choice from the slingshot's multi-target equivalence match.",
+    "standards": [
+      {"code": "3.NBT.A.1", "grade": "3", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "The creaky wind-up tension and the springy launch arc, the rock landing on the pad with a puff of dust and a thumbs-up. A wrong pad bounces the rock back to the cup to re-aim — no clock, no penalty.",
+    "interaction": "aim",
+    "character_world": "Rocky the mole catapults pebbles to the nearest mound on his number-meadow.",
+    "web_shell_feasibility": "feasible — wind-up sets aim direction (toward left or right pad); CSS arc to chosen pad; result from which pad aimed; no physics.",
+    "asset_idea": "Stub: a catapult arm rectangle + rock circle + two labeled pad rectangles. CA5 art: rustic wooden catapult, mossy rock with a number, two grassy landing mounds."
+  },
+  {
+    "id": "physical-metaphor-14",
+    "name": "Pour to Balance the Scale",
+    "mechanic": "A two-pan balance has a fixed weight on the left pan; the right pan holds an empty measuring cup with unit lines. The child tilts a jug to pour water into the right cup, watching the beam tilt; they stop pouring when the beam is level. The water level poured to balance (equal to the left weight) IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is Stack 'til It Tips (add discrete blocks to balance), but that meters by adding counted whole-value blocks. Here the child meters a CONTINUOUS pour against a beam-balance and reads a measured liquid amount — pour-to-balance vs. stack-to-balance — combining the pour metaphor with equality/measurement on a graduated cup.",
+    "standards": [
+      {"code": "1.OA.D.7", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "3.MD.A.2", "grade": "3", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "The glug of the pour and the slow swing of the beam toward level, with a gentle 'balanced!' chime and a glow when both sides match. Overpour dips the pan and a tap drains a unit — no rush, no fail.",
+    "interaction": "pour",
+    "character_world": "Bea the bear balances honey against river-stones on her kitchen scale.",
+    "web_shell_feasibility": "feasible — pour increments a fill height that drives the beam rotation (CSS); level when fill = target; graduated cup gives the readout.",
+    "asset_idea": "Stub: a beam rectangle on a fulcrum, a fixed weight square, a graduated cup rectangle + jug. CA5 art: honey jar, rustic balance scale, river-stone weights, golden glow."
+  },
+  {
+    "id": "physical-metaphor-15",
+    "name": "Aim the Letter Launcher",
+    "mechanic": "A picture (e.g., a SUN) sits center; a launcher holds a letter ball, and around the rim float letter targets. The child reads/sounds the prompt ('what letter does SUN start with?'), drags to angle the launcher at the matching letter target, and fires; the ball flies to the aimed letter. Aiming the launch at the correct beginning/ending sound letter IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is i-spy-scene / match-pairs for letter-sound work, but those are tap-to-find or tap-to-pair. Here the answer is committed by a deliberate AIM-and-launch trajectory toward a floating letter — a physical aiming act applied to phonics, not a tap. The launch metaphor (set angle, release) carries the ELA choice.",
+    "standards": [
+      {"code": "RF.K.3.a", "grade": "K", "strand": "Reading: Foundational Skills", "subject": "ela"},
+      {"code": "RF.K.2.d", "grade": "K", "strand": "Reading: Foundational Skills", "subject": "ela"}
+    ],
+    "fun_no_competition": "The spring-load and gentle arc of the letter ball thocking onto the right letter, which lights up and says its sound aloud. A miss floats the ball back to the launcher to re-aim — no clock, no streak.",
+    "interaction": "aim",
+    "character_world": "Zippy the firefly launches glowing letter-bugs to the matching sound on the night sky.",
+    "web_shell_feasibility": "feasible — drag sets launcher angle; CSS arc to nearest floating letter; pick by aimed angle; TTS reads the sound on landing.",
+    "asset_idea": "Stub: a launcher triangle + letter ball circle + ring of letter tiles + a picture card. CA5 art: glowing firefly launcher, letter-bug balls, starry rim of letters, picture card."
+  },
+  {
+    "id": "physical-metaphor-16",
+    "name": "Set the Spring-Jump Distance",
+    "mechanic": "A frog stands on a number line at a start number; a target lily-pad is at another number ('jump from 3 to 9 — set the jump'). The child compresses a spring gauge (drag down to set jump strength = distance) then releases; the frog leaps forward exactly that many units. Setting the spring strength equal to the difference (target − start) IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is Hop Cannon, but Hop Cannon sets equal repeated hops (skip-count/multiply). Here it is ONE single jump whose length the child meters via a compressed spring to cover a difference (subtraction/addition gap) — a single calibrated launch-distance encoding 'how far apart', not repeated equal bounces.",
+    "standards": [
+      {"code": "1.OA.A.1", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "2.MD.B.6", "grade": "2", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "The squishy spring compress and the BOING as the frog sails to the lily-pad, landing with a splash and a ribbit when it's exactly right. A short jump plops in the pond and the frog hops back to start — no penalty, no clock.",
+    "interaction": "drag-set-release",
+    "character_world": "Fern the frog spring-jumps between lily-pads on the pond number-line.",
+    "web_shell_feasibility": "feasible — drag a spring gauge to set distance; CSS translateX leap of that many units; compare landing to target; no physics.",
+    "asset_idea": "Stub: a frog circle on a tick number line + a vertical spring-strength slider + target pad. CA5 art: cute frog, coiled spring gauge, lily-pads with numbers, pond ripples."
+  },
+  {
+    "id": "physical-metaphor-17",
+    "name": "Fill the Ten-Frame Tank",
+    "mechanic": "A ten-frame is drawn as a clear tank of ten cells; a hose pours glowing dots that fill cells one by one from bottom-left. The child holds to pour and releases to stop, filling the tank to match a target number ('fill to 7'). The number of cells filled when the child stops IS the answer.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "Closest neighbor is Funnel the Beads (pour discrete beads to a level line), but that is a single stacking tube. Here the pour fills a structured TEN-FRAME (place-value-of-ten model) cell by cell, so the child meters the pour against the ten-frame's grid — a pour metered against a base-ten structure, tying the physical fill to ten-frame number sense, distinct from a plain tube level.",
+    "standards": [
+      {"code": "K.NBT.A.1", "grade": "K", "strand": "Number & Operations in Base Ten", "subject": "math"},
+      {"code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"}
+    ],
+    "fun_no_competition": "The bubbly pour and each cell lighting up with a soft pop as it fills, ending on a cheerful 'seven!' callout when it matches. Overfill drains the last cell with a tap — no timer, no fail.",
+    "interaction": "pour",
+    "character_world": "Dewey the duckling fills his ten-cell pond tray with glowing pondweed bubbles.",
+    "web_shell_feasibility": "feasible — hold-to-pour fills ten-frame cells sequentially; release stops; count filled vs. target; pure DOM cell toggling.",
+    "asset_idea": "Stub: a 2x5 cell grid 'tank' + a hose rectangle + dot fill. CA5 art: clear ten-frame aquarium, glowing bubble dots, duckling with a watering hose."
+  }
+]

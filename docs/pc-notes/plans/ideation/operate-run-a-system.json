@@ -1,0 +1,257 @@
+[
+  {
+    "id": "operate-system-01",
+    "name": "Floor-by-Floor Elevator Operator",
+    "mechanic": "Riders queue in the lobby each holding a numbered floor sign. You read the rider's number, then operate the elevator by tapping the floor buttons on the panel to take them to that exact floor. Each successful drop-off opens the doors and the rider walks out with a thank-you; the next rider steps in.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is magic-machine (single input-output), but here the SYSTEM is an ongoing queue of sequenced riders and the operator role persists across many demands — you are running the lift, not transforming one item. Separation from path-journey: there is no traveled path; you select a destination by reading and matching a numeral on a fixed panel.",
+    "standards": [
+      {"code": "K.CC.A.3", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"}
+    ],
+    "fun_no_competition": "The doors slide open with a happy 'ding' and each character rider waves thanks before stepping out; riders wait patiently with no rush.",
+    "interaction": "tap",
+    "character_world": "A cozy department-store elevator with a friendly operator cap, animal shoppers each going to a different numbered floor.",
+    "web_shell_feasibility": "feasible — DOM buttons + CSS elevator-car translate animation; numerals on rider signs are static sprites.",
+    "asset_idea": "Stub: gray box car + numbered button grid. CA5 art: brass elevator panel, animal riders holding floor placards, sliding-door frame, lobby backdrop."
+  },
+  {
+    "id": "operate-system-02",
+    "name": "Order-Window Quantity Filler",
+    "mechanic": "Tickets slide up to the order window one at a time, each printed with a food item and a quantity ('3 muffins'). You operate the counter by tapping the tray that many times to add exactly that many items, then ring the bell to send the order out. The system keeps feeding new tickets as long as you fill them correctly.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is feed-the-friend, but feed-the-friend is one creature wanting food; here the operator fills a STREAM of order tickets to an exact requested count, and the loop is running a service window with sequenced demands. Separation from build-a-world: nothing is assembled into a scene — each order is dispatched and cleared.",
+    "standards": [
+      {"code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"}
+    ],
+    "fun_no_competition": "Each filled tray slides down a chute with a satisfying whoosh and the customer's speech bubble says 'Yum, thank you!'; tickets queue calmly.",
+    "interaction": "tap",
+    "character_world": "A sunny bakery service window with a tap-bell, paper order tickets, and hungry animal customers lined up outside.",
+    "web_shell_feasibility": "feasible — tap-to-increment counter, tray sprite-stack, ticket queue is a simple array.",
+    "asset_idea": "Stub: plain ticket card + empty tray + counter number. CA5 art: bakery window, printed order tickets, muffin/cookie/bread item sprites, brass service bell."
+  },
+  {
+    "id": "operate-system-03",
+    "name": "Track-Switch Train Dispatcher",
+    "mechanic": "Trains roll in one at a time on the main line, each carrying a numbered platform sign. You operate the junction by flipping track-switch levers to route the train onto the correct numbered platform siding. Set the switches right and the train chugs home; then the next train approaches.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is path-journey, but path-journey moves a single traveler along a route the child draws; here the child does NOT move along a path — they configure SWITCHES at a junction to route a stream of incoming trains by reading their numbers. Separation from sort-home: sort-home drops items into bins; here you set rule-levers and the system carries the item itself.",
+    "standards": [
+      {"code": "1.NBT.B.3", "grade": "1", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "Levers clunk with a chunky toggle sound, the train toots and rolls happily into its bay; trains idle patiently while you decide.",
+    "interaction": "tap",
+    "character_world": "A miniature railway control tower with big colorful switch levers and cheerful steam engines bearing platform numbers.",
+    "web_shell_feasibility": "feasible — toggle-state levers + CSS path animation along predefined siding rails; route is determined by switch states.",
+    "asset_idea": "Stub: rectangles for tracks + toggle squares. CA5 art: railway junction, numbered platforms, friendly engines, signal-box levers."
+  },
+  {
+    "id": "operate-system-04",
+    "name": "Ten-Frame Packing Line",
+    "mechanic": "Loose items tumble onto a conveyor and you operate the packing line: drag items into the open ten-frame box; when ten items fill the frame it auto-seals into a 'pack of ten' that slides to the crate, and leftover singles wait in the partial box. The system shows the running total as 'X tens and Y ones' for each load.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is build-a-world (placing items), but nothing is being built into a scene — items are PACKED into tens repeatedly to keep a factory line flowing, and the operator role is the ongoing packing job. Separation from sort-home: there's no category sorting; it's quantity-grouping into base-ten units with auto-bundling.",
+    "standards": [
+      {"code": "1.NBT.B.2", "grade": "1", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "When the tenth slot fills, the box snaps shut with a 'pop!' and slides off on the belt; the conveyor pauses politely between loads.",
+    "interaction": "drag",
+    "character_world": "A whirring toy factory with a conveyor belt, ten-slot crates, and a robot foreman who gives a thumbs-up for each sealed ten.",
+    "web_shell_feasibility": "feasible — drag-to-slot ten-frame, auto-bundle on fill, CSS conveyor scroll; tens/ones readout is text.",
+    "asset_idea": "Stub: ten-slot grid + circle items. CA5 art: factory conveyor, ten-frame crates, item sprites (apples/blocks), robot foreman, shipping crate."
+  },
+  {
+    "id": "operate-system-05",
+    "name": "Stamp-Machine Rule Operator",
+    "mechanic": "Parcels travel down the mailroom belt, each marked with a starting number. You operate a stamp machine set to a posted rule ('+10') and tap each parcel to apply the rule, stamping it with the result before it ships. The same rule applies to a whole batch, so you operate the machine across a sequence of incoming parcels.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is magic-machine, but magic-machine is a single delightful transform per use; here the operator applies a STATED rule repeatedly across a stream of parcels (the running mailroom), and the standard is mental +10/-10. Separation from pop-the-right-ones: you don't pick which to act on — you apply a fixed rule to every item in turn.",
+    "standards": [
+      {"code": "1.NBT.C.5", "grade": "1", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "The stamp comes down with a satisfying THUNK and an ink-puff; the parcel slides off and the next one rolls up at a calm pace.",
+    "interaction": "tap",
+    "character_world": "A busy-but-gentle post office mailroom with a chunky rubber stamp, a rule placard, and parcels with smiley address labels.",
+    "web_shell_feasibility": "feasible — tap parcel, compute result, animate stamp + reveal stamped numeral; rule is a config value.",
+    "asset_idea": "Stub: brown box + number label + stamp icon. CA5 art: mailroom belt, ink stamper, parcel sprites, rule placard, outgoing chute."
+  },
+  {
+    "id": "operate-system-06",
+    "name": "Cash-Register Coin Cashier",
+    "mechanic": "Customers bring an item with a price tag to your register. You operate the till by tapping coins/bills from the drawer to make exactly that amount, then press TOTAL to complete the sale. Each finished sale dings the drawer open-and-shut, and the next shopper steps up.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is the order-window filler (operate-system-02), but that's counting identical items to a quantity; here the operator composes a money VALUE from mixed coin denominations to match a price — a distinct value-decomposition mechanic on a register system. Separation from match-pairs: nothing is paired; you build a sum from parts.",
+    "standards": [
+      {"code": "2.MD.C.8", "grade": "2", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "The drawer springs open with a cheerful 'cha-ching', the customer beams 'Thanks!'; shoppers wait in a patient, friendly line.",
+    "interaction": "tap",
+    "character_world": "A cozy corner shop register with a coin drawer, price-tagged goods, and grateful animal shoppers.",
+    "web_shell_feasibility": "feasible — tappable coin sprites accumulate a running value, compare to target; drawer is CSS animation.",
+    "asset_idea": "Stub: coin circles + value readout + price tag. CA5 art: vintage cash register, coin/bill sprites, shop goods, drawer, shopper characters."
+  },
+  {
+    "id": "operate-system-07",
+    "name": "Traffic-Signal Crossing Operator",
+    "mechanic": "Cars and pedestrians arrive at an intersection holding a small math fact card ('6+4'). You operate the signal by reading the card and tapping the matching numbered light/lane that equals the answer, giving that lane the green to flow through. Keep the crossing running smoothly as demands arrive on each road.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is the train dispatcher (operate-system-03), but the dispatcher routes by reading a single given number; here the operator must COMPUTE a sum/difference to decide which lane to clear, and the system is a four-way intersection with multiple incoming roads. Separation from pop-the-right-ones: you're granting passage to a flow, controlling an ongoing crossing, not popping isolated targets.",
+    "standards": [
+      {"code": "2.OA.B.2", "grade": "2", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "Green light glows, the little cars beep happily and roll across; vehicles idle calmly with no honking-rush.",
+    "interaction": "tap",
+    "character_world": "A friendly town intersection with a crossing-guard's signal box, smiling cars, and pedestrians on each road.",
+    "web_shell_feasibility": "feasible — tap a lane/light, validate against computed answer, CSS car-drive animation across the intersection.",
+    "asset_idea": "Stub: cross-roads diagram + light circles + fact cards. CA5 art: town intersection, traffic-signal box, car/animal sprites, crosswalk."
+  },
+  {
+    "id": "operate-system-08",
+    "name": "Weather-Station Reader",
+    "mechanic": "Each morning the weather station feeds you a set of readings: a thermometer to read to the nearest unit and a tally/picture-count of how many sunny vs rainy days. You operate the station by reading the thermometer's number-line scale and tapping the matching forecast value, then logging the daily count into the data board so the station's records stay current.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is reveal-grid, but reveal-grid uncovers hidden cells; here you READ a measuring instrument (number-line/thermometer scale) and record a value into an ongoing log — the operator role is maintaining the station's daily readings. Separation from i-spy-scene: you're not finding hidden objects, you're interpreting a calibrated scale.",
+    "standards": [
+      {"code": "2.MD.A.6", "grade": "2", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "Logging a reading flips the data board with a soft click and the weather-mascot tips its hat; new readings appear at an unhurried pace.",
+    "interaction": "tap",
+    "character_world": "A rooftop weather station with a big friendly thermometer, a spinning weather-vane mascot, and a daily log board.",
+    "web_shell_feasibility": "feasible — number-line/thermometer is a styled scale, tap the matching tick value; log board is a grid.",
+    "asset_idea": "Stub: vertical scale + tick marks + tally board. CA5 art: weather station, thermometer with mercury, weather-vane mascot, log clipboard, sky backdrop."
+  },
+  {
+    "id": "operate-system-09",
+    "name": "Zoo-Feeding Route Manager",
+    "mechanic": "It's feeding time and each enclosure card shows an animal name with how many portions it needs. You operate the feeding cart by tapping each enclosure on the route map in turn and scooping exactly the requested number of food portions into its trough; once every enclosure on the route is correctly fed, the rounds reset for the next feeding.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is feed-the-friend, but that's a single creature; here you run an entire feeding ROUTE — visiting multiple stations in a managed sequence, each with its own quantity demand — making you the route operator, not a single feeder. Separation from sticker-album: there's no collection grid; each station is a live demand cleared by the right count.",
+    "standards": [
+      {"code": "K.CC.B.4", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"}
+    ],
+    "fun_no_competition": "Each fed animal does a happy little chomp animation and a heart pops up; the cart waits at each gate until you're ready.",
+    "interaction": "tap",
+    "character_world": "A sweet little zoo with a feeding cart, enclosure gates, and animals who munch gratefully when fed the right amount.",
+    "web_shell_feasibility": "feasible — route is a list of stations, each a count-to-target sub-task; trough fills with sprite-stacks.",
+    "asset_idea": "Stub: station list + trough boxes + portion dots. CA5 art: zoo enclosures, feeding cart, food scoops, animal sprites, route map."
+  },
+  {
+    "id": "operate-system-10",
+    "name": "Library Return-Desk Shelver",
+    "mechanic": "Returned books pile up at the desk, each with a spine label. You operate the return desk by reading each book's label and routing it to the correct shelf section by its first letter (alphabetical sections A-Z), tapping the matching shelf so the book files itself. Keep the returns flowing and the shelves orderly.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is sort-home, but sort-home is dropping items into a few fixed category bins; here the operator runs an ongoing RETURN DESK using alphabetical ordering (first-letter routing across many lettered sections) — a literacy/alphabet system with a service-queue loop. Separation from match-pairs: no pairing; it's letter-position routing of a continuous stream.",
+    "standards": [
+      {"code": "RF.K.1.D", "grade": "K", "strand": "Reading: Foundational Skills (Print Concepts)", "subject": "ela"}
+    ],
+    "fun_no_competition": "The book slides onto its shelf with a soft thump and a tidy sparkle; the return cart refills calmly with no time pressure.",
+    "interaction": "tap",
+    "character_world": "A warm cozy library with a return desk, lettered shelf sections, and a spectacled owl librarian who nods approvingly.",
+    "web_shell_feasibility": "feasible — tap-to-route by first letter, shelf is a labeled grid; book sprites carry letter labels.",
+    "asset_idea": "Stub: book rectangles + lettered shelf slots. CA5 art: library shelves with A-Z signs, return cart, book spines, owl librarian."
+  },
+  {
+    "id": "operate-system-11",
+    "name": "Switchboard Rhyme-Connector",
+    "mechanic": "Callers light up on an old-style telephone switchboard, each speaking a word. You operate the board by listening to/reading the caller's word and plugging its cord into the jack of the word that RHYMES with it, connecting the call. Each correct connection lights green and the next caller buzzes in.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is match-pairs, but match-pairs flips and pairs static tiles on a board; here you operate a live SWITCHBOARD where callers arrive in a queue and you connect each by a rhyme relationship — the ongoing-operator role and the audio-call framing make it a running system, not a memory-pairing grid. Separation from path-journey: cords are connections, not a traveled route.",
+    "standards": [
+      {"code": "RF.K.2.A", "grade": "K", "strand": "Reading: Foundational Skills (Phonological Awareness)", "subject": "ela"}
+    ],
+    "fun_no_competition": "Plugging in the right cord makes a cheerful 'click-buzz-connected!' and the two callers chat happily; lines wait patiently to be answered.",
+    "interaction": "drag",
+    "character_world": "A retro telephone exchange with glowing jacks, curly cords, and chatty animal callers waiting for their rhyme-partner.",
+    "web_shell_feasibility": "feasible — drag a cord from caller jack to target jack, validate rhyme pair; TTS reads words; SVG cord line.",
+    "asset_idea": "Stub: two columns of labeled jacks + draggable cord. CA5 art: switchboard panel, glowing jacks, plush cords, caller portraits."
+  },
+  {
+    "id": "operate-system-12",
+    "name": "Soup-Pot Recipe Cook",
+    "mechanic": "Order tickets arrive at the kitchen, each listing a recipe of ingredients ('2 carrots, 1 onion, 3 beans'). You operate the soup station by dragging each named ingredient into the pot in the listed amounts, then stirring to serve. Fill the recipe exactly to send the bowl out; the next ticket is already on the rail.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is the order-window filler (operate-system-02), but that's a single item to a single count; here you assemble a MULTI-PART recipe (several different ingredients each to its own quantity, requiring reading a list and composing several counts) — a richer multi-quantity station. Separation from build-a-world: the pot result is dispatched, not arranged into a persistent scene.",
+    "standards": [
+      {"code": "1.OA.A.2", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "Stirring makes happy bubbling sounds and a steam-heart rises; the served bowl earns a 'Delicious!' from the diner; tickets queue gently.",
+    "interaction": "drag",
+    "character_world": "A snug soup kitchen with a bubbling pot, ingredient bins, a ticket rail, and hungry diners who slurp happily.",
+    "web_shell_feasibility": "feasible — drag ingredients to pot, per-ingredient count check, sum-to-total reveal; pot stir is CSS.",
+    "asset_idea": "Stub: pot circle + ingredient bins + recipe list. CA5 art: soup pot, veggie sprites, order rail, ladle, diner characters."
+  },
+  {
+    "id": "operate-system-13",
+    "name": "Parcel-Scale Weigh Station",
+    "mechanic": "Packages roll up to the shipping scale, each needing to be balanced. You operate the weigh station by reading the target weight and tapping unit-weights onto the balance pan until the needle/number matches, then stamping the package 'SHIPPED'. Keep the station running as packages line up.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is the cash-register cashier (operate-system-06), but that composes a money value from coins; here the operator reads and matches a MEASUREMENT (weight on a scale) by adding standard units — distinct measurement strand and a balance-instrument feel. Separation from grow-tend: nothing grows; you balance an instrument repeatedly.",
+    "standards": [
+      {"code": "2.MD.A.1", "grade": "2", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "When the scale balances, the needle settles with a gentle 'ding' and the SHIPPED stamp thumps down; packages wait their turn calmly.",
+    "interaction": "tap",
+    "character_world": "A tidy shipping depot with a big dial scale, unit-weight blocks, package sprites, and a courier who salutes each shipment.",
+    "web_shell_feasibility": "feasible — tap unit-weights onto pan, sum vs target, animate needle/numeral; stamp is overlay.",
+    "asset_idea": "Stub: balance bar + weight blocks + target number. CA5 art: dial weigh-scale, weight blocks, parcels, SHIPPED stamp, courier."
+  },
+  {
+    "id": "operate-system-14",
+    "name": "Marquee Letter-Tile Sign Operator",
+    "mechanic": "The theater marquee needs the next show's title posted. A request card shows a word with one or more missing letters (often the beginning/medial/ending sound blank). You operate the sign by reading the word and the picture clue, then sliding the correct letter tiles into the empty marquee slots to spell it. Post the word right and the marquee lights up for the next showing.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is magic-trace, but magic-trace forms a letter by tracing a stroke; here the operator SELECTS and places letter tiles to complete a word's spelling (CVC sounds) on a marquee that posts a queue of titles — a phonics-spelling station, not a tracing motor task. Separation from story-maker: you're filling exact spelling slots, not composing free sentences.",
+    "standards": [
+      {"code": "RF.K.3.B", "grade": "K", "strand": "Reading: Foundational Skills (Phonics & Word Recognition)", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each completed title makes the marquee bulbs flicker on with a twinkle and a tiny crowd cheers; sign requests wait patiently on the easel.",
+    "interaction": "drag",
+    "character_world": "A vintage cinema marquee with rows of letter-slots, a tile rack, and a bow-tied usher who applauds each finished sign.",
+    "web_shell_feasibility": "feasible — drag letter tiles to slots, validate spelling, light-up CSS animation; picture clue is a sprite.",
+    "asset_idea": "Stub: empty letter-slots + tile rack. CA5 art: marquee frame with bulbs, letter tiles, picture-clue cards, usher character."
+  },
+  {
+    "id": "operate-system-15",
+    "name": "Bottling-Line Equal-Group Operator",
+    "mechanic": "A request board posts an order like '4 crates of 3 bottles'. You operate the bottling line by filling each crate with the equal number of bottles, repeating across all the crates, then read the auto-shown total ('4 threes = 12') and tap it to ship the order. The line keeps issuing equal-group orders to fill.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is the ten-frame packing line (operate-system-04), but that bundles into tens specifically (base-ten); here the operator makes EQUAL GROUPS of arbitrary size and reads them as repeated addition / early multiplication — a distinct equal-grouping standard. Separation from build-a-world: crates are shipped, not assembled into a scene.",
+    "standards": [
+      {"code": "2.OA.C.4", "grade": "2", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "When all crates match, they roll off together with a row of pops and the line-mascot does a little dance; orders post calmly one after another.",
+    "interaction": "drag",
+    "character_world": "A cheerful juice bottling line with crates on a belt, a bottle dispenser, and a robot line-mascot who counts along.",
+    "web_shell_feasibility": "feasible — drag/tap bottles into N crates of equal size, validate per-crate count + total; belt is CSS.",
+    "asset_idea": "Stub: N crate boxes + bottle dots + total readout. CA5 art: bottling conveyor, crates, juice-bottle sprites, dispenser, line robot."
+  },
+  {
+    "id": "operate-system-16",
+    "name": "Toll-Booth Comparison Gatekeeper",
+    "mechanic": "Two cars pull up to twin toll lanes, each car showing a number. You operate the booth by reading both numbers and tapping the lane whose number is GREATER (or, per the posted rule, less) to raise that gate first and wave it through. Run the booth as a steady stream of car-pairs arrives.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is pop-the-right-ones, but pop-the-right-ones taps targets matching a fixed property; here the operator makes a relational COMPARISON between two presented numbers and acts on the result (raise the greater/lesser gate), running an ongoing toll system. Separation from sort-home: it's a binary greater/less judgment per pair, not category bucketing.",
+    "standards": [
+      {"code": "1.NBT.B.3", "grade": "1", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "The chosen gate lifts with a friendly 'beep-beep, go ahead!' and the car waves a thank-you; the next pair rolls up at an easy pace.",
+    "interaction": "tap",
+    "character_world": "A sunny highway toll booth with twin striped gates, a posted >/< rule sign, and grinning cartoon cars.",
+    "web_shell_feasibility": "feasible — two number sprites, tap the correct lane, raise-gate CSS animation; rule toggles greater/less.",
+    "asset_idea": "Stub: two number cards + two gate bars + rule sign. CA5 art: toll booth, striped gates, car sprites, >/< rule placard, road."
+  },
+  {
+    "id": "operate-system-17",
+    "name": "Greenhouse Watering-Console Operator",
+    "mechanic": "Plants in a greenhouse each show a little sign requesting a number of water-pumps ('water me 5 times'). You operate the watering console by selecting a plant and pumping the lever exactly that many times until its meter fills; satisfied plants perk up. Tend the whole row, keeping each plant's request met as new requests appear.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "Closest neighbor is grow-tend, but grow-tend nurtures one plant over stages toward growth; here the operator runs a watering CONSOLE meeting precise numeric pump-requests across a row of stations — the mechanic is count-to-target via a console lever, and the loop is operating the system, not watching growth. Separation from feed-the-friend: it's a metered request fulfilled by exact repetitions, framed as running equipment.",
+    "standards": [
+      {"code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"}
+    ],
+    "fun_no_competition": "Each pump squirts a happy water-arc and the meter ticks up; when full the plant blooms with a sparkle and a 'thank you'; plants wait without wilting.",
+    "interaction": "tap",
+    "character_world": "A bright greenhouse with a watering control console, a pump lever, and smiley potted plants holding little request signs.",
+    "web_shell_feasibility": "feasible — tap-pump increments a per-plant meter to target, bloom on completion; console is DOM lever.",
+    "asset_idea": "Stub: plant pots + fill-meters + pump button. CA5 art: greenhouse, watering console, pump lever, potted-plant faces, water spray."
+  }
+]

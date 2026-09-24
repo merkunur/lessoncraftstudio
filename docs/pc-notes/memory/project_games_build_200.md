@@ -1,0 +1,65 @@
+---
+name: project_games_build_200
+description: "ACTIVE — the 200 K-3 games BUILD program: trigger build-the-next-game -> games/BUILD-WORKFLOW.md, NEXT pointer in games/BUILD-LOG.md. 2 of 200 BUILT (002 Number Nest, 001 The Fox's Bowl); NEXT: 005 Shape Sorter. Local only, no deploy until 200."
+metadata:
+  node_type: memory
+  type: project
+  originSessionId: 5721f455-0e18-44ef-94d2-c9621b7ab512
+  modified: 2026-09-05T19:50:04.204Z
+---
+
+# The 200-game BUILD program — resume state
+
+**Trigger:** the operator says **"build the next game"** (or "build game NNN" / "build <slug>") → read `C:\Users\rkgen\lessoncraftstudio\games\BUILD-LOG.md` (`NEXT:` line) → follow **`games/BUILD-WORKFLOW.md`** to the letter (EnterPlanMode → expert ensemble → operator approval → build → gates → local link). NOT "build the next tool" (§23 Premium Tools) and NOT "continue" (§20.9 pt-BR fan-out). CLAUDE.md §24 routes; the old "games cancelled forever" ruling is superseded twice over (operator: "No decision is absolute").
+
+**State (2026-09-06): 2 of 200 BUILT — 002 Number Nest (`numeral-nest`) and 001 The Fox's Bowl (`feed-the-fox`), 11 locales each, local only. NEXT: 005 Shape Sorter.** Per-build detail lives in `games/BUILD-LOG.md`; only what changes how the NEXT build is done is repeated here.
+
+**⭐⭐ FROM 001 — the ensemble's most valuable single act was refusing the spec.** The pedagogue's opening finding was that spec 001 as written was **80% a re-skin of 002**, because one line printed the answer before asking the question. A spec is the basis, not the ceiling, and the *first* thing the ensemble should test is whether the game has an objective the catalogue's neighbours do not already own. 001 vs 002: **002 teaches the numeral, 001 teaches the tagging.**
+
+**⭐⭐ FROM 001 — a yoyo tween captures its return value WHEN IT STARTS.** `lastBeat` began while `numeralIn` was still tweening the same object's scale from 0.5, so the cardinality tag — the one numeral the game exists to produce — sat permanently at HALF SIZE. Every gate passed; only a pixel measurement off the render found it. Kill the running tween and settle the target before any yoyo.
+
+**⭐⭐ FROM 001 — a probe that waits on a shared state may be pointed at the wrong moment.** Two different code paths entered the same `"correcting"` phase, so the probe photographed the wrong one and the critic then measured the mascot as byte-identical across every play frame. It correctly refused to call that a defect OR a pass and named the measurement that would settle it. **Drive a real pointer and assert the STATE KEY, not the picture.**
+
+**⭐ FROM 001 — the palette has NO RED, and that is a CONTENT constraint.** A strawberry cannot be drawn in this palette. When the art cannot draw the object a title names, change the object or the title — never spend the one state colour. See ART-BIBLE §10 (incl. §9.4, the warm-body clause for orange mascots) and BUILD-CONVENTIONS §8.1 (distractor legality beats rank balance; `_tools/check-pools.js` re-derives it).
+
+**⭐ FROM 001 — new shared tooling:** `_tools/check-pools.js` (parses a built CONTENT block and re-checks every pool rule, so a comment claiming "equal thirds" cannot rot) and a fixed `check-build.js` comment stripper (an apostrophe in HTML text — `<title>The Fox's Bowl</title>` — used to swallow four lines and make NO-VH match a word inside a comment).
+
+**⭐⭐⭐ EIGHT DEFECTS REACHED THE OPERATOR ON GAME 002, ALL THROUGH A GREEN GATE SUITE.** Read this before building 003.
+
+*The gates proved the LOGIC and never proved the game could be TOUCHED.*
+- **A synthetic `emit("pointerdown"/"pointerup")` is not a tap** — it skips Phaser hit-testing. `game-core` passed `Phaser.Geom.Rectangle.contains` (3.90 only has `.Contains`), so `hitAreaCallback` was undefined and **nothing was clickable in any game**, while check-build, an 11-locale boot sweep and a full 8-item session at three widths all passed. `qa-game` now has POINTER + ALIGNMENT checks that drive a REAL `page.mouse.click`. Every game needs at least one.
+- **Sample the box, not the centre.** The first POINTER check clicked the button's middle, which sat exactly on the corner of a half-displaced hit rectangle — so it passed while three quarters of the button was dead and the operator had to hover to find the live part.
+- **Phaser offsets a container's hit area by its display origin.** Centre-drawn control → `Rectangle(0,0,w,h)`; drawn from its own top-left → `Rectangle(w/2,h/2,w,h)`; children moved to (cx,cy) with the container at 0,0 (the picker pills) → `Rectangle(cx,cy,w,h)`. Full table in BUILD-CONVENTIONS §3.1.
+
+*I never rendered what the operator sees.*
+- **Screenshot at DESKTOP width and DPR 2 before saying done.** All my QA ran at DPR 1 in a 704-900px window. The operator's screen magnified the 720x560 canvas **3.57x** and showed a layout I had never seen. Phaser 3.90 has **no** resolution option (scale.resolution / render.resolution / top-level all measured and ignored) — the skeleton now renders at `720*3 x 560*3` with `stageCam()` zooming each camera 3x, so world coords stay 720x560. `game-core.logicalSize()` exists because helpers that read `scene.scale.width` would otherwise centre things off-screen.
+- **After ANY change to shared drawing code, re-render and LOOK.** I changed hit rectangles, verified the geometry with a probe, and shipped with no screenshot — so a regression moving every shape by half its size went straight to the operator.
+
+*I broke working code with a careless edit.*
+- ⭐⭐⭐ **NEVER run a global regex over `_lib`.** `-w / 2, -h / 2, w, h` is in two `setInteractive` calls AND in `drawRoundedRect`, `makeTile`'s painter and all of `drawArt`'s shape branch. A global replace rewrote the drawing code and every centred shape drew from its corner. Patch by line number with a context assertion, then diff.
+
+*Other lessons, each bought by a real defect.*
+- **Chrome must float above game art** — picker at depth 1500. Anything given a depth, or destroyed and re-created (re-added at the top of the display list, e.g. a mascot on every pose change), otherwise covers the open language panel.
+- **Check countable art against the container's real silhouette, not its bounding box.** The nest bowl curves up (floor y 146 centre, 128.7 at 112 out); ten eggs that fit the box hung out of the nest.
+- **A check that models the thing it checks repeats its bug** — my first ALIGNMENT check reimplemented Phaser's transform assuming centre-drawn art, and condemned a correct control.
+- **Verify the measurement before the defect** (three false alarms in one session): `pointerover` fires only on entry; `LCS_TEST.wrong()` ENQUEUES so timing from the call is meaningless; a Phaser Container has no `displayWidth`, so a clearance check read 0 and passed vacuously.
+
+**Traps the first build paid for — all measured, all will recur:**
+- ⭐⭐⭐ **A SYNTHETIC `emit()` IS NOT A TAP, and it hid an unplayable build.** `game-core` passed `Phaser.Geom.Rectangle.contains`; 3.90 only has `.Contains` (capital C), so `hitAreaCallback` was undefined, Phaser threw on every pointer move, and **no real tap reached anything in any of the 200 games** — while check-build, an 11-locale boot sweep and a full 8-item SESSION at three widths all passed, because every one of them pressed buttons with `emit("pointerdown"/"pointerup")` on the container. The operator found it in ten seconds by clicking Start. Fixed in `_lib/game-core.js`; a **POINTER check** (callable hit area on every interactive object + a real `page.mouse.click` that must enter Play) is now in `_tools/qa-game.js`, poison-tested. **Every game must have at least one assertion that drives a real pointer.**
+- ⭐⭐ **`ANIM.appear`, or any tween of raw `scale`, is WRONG on a `kind:"svg"` entry.** `preloadArt` rasterises at 2x and `drawArt` compensates with a 0.5 object scale; an absolute `scale: 1` throws that away and renders at DOUBLE size. The eggs shipped 96px instead of 48 — a 21px overlap on a 48px pitch — with every gate green. Wrap the art in a container and animate the container.
+- ⭐⭐ **`qa-game` cannot answer a game that has an enacted hint.** It fires `correct()` 350ms after `wrong()` while the correction holds the tiles disabled for up to 8.3s, so the intent hits the disabled guard and evaporates. Fix = a deferred-intent queue in `LCS_TEST` dispatching via the tile's own pointerdown/pointerup; copy it from `numeral-nest/index.html`. It removes the RACE, not the PATH, so BUILD-CONVENTIONS §16 still holds.
+- ⭐⭐ **The gate never photographs the states a game exists for.** `shotWrong` latches on the first wrong answer (always an easy item) and attempt 3 is unreachable with one wrong per item, so a mirror cue / show-me ring is never captured and the visual critic grades a game whose most important frames nobody has seen. Ship a per-game probe — `_tools/probe-numeral-nest.js` is the template.
+- ⭐ **`makeLanguagePicker` leaks a game-global ScaleManager resize listener** (`game-core.js:702`), so any viewport change after a scene transition throws inside `setInteractive` — a child rotating a tablet. Work around it game-side with the `addPicker` listener-diff helper in `numeral-nest`. Real library bug; all 200 games have it.
+- ⭐ A non-square SVG ART row MUST set `size === w`, or `drawArt` renders a 64xN postage stamp **with no error and no warning**. And a Phaser **container has no `displayWidth`** — measuring one reads 0 and passes vacuously.
+- ⭐ `check-build` now scans **comment-stripped** code: the §1 skeleton's own "No ResizeObserver" comment made the canonical skeleton fail the canonical gate. That skeleton was also missing `art.js`, which the gate requires and `preloadArt` throws without. Both fixed, poison-tested both directions.
+- ⚠ Backticks inside `node -e "..."` are command substitution and silently delete text; an apostrophe inside a single-quoted shell string closes it. Write the payload to a file.
+
+**Art state:** `_lib/art.js` holds `hen.idle/think/happy/oops`, `egg`, `nest`, `nest.rim`, all indexed in ART-BIBLE §7. The hen is the roster template — ONE shared body string plus a swapped head group per pose is what makes four poses read as one bird. **The nest took four passes:** teal + a bright flat interior + a shallow cup reads as a BATHTUB with the eggs stuck to its outside wall; straw (the `surface2` darker tint), a deep ink-recessed cup, and a separate `nest.rim` entry drawn OVER the eggs is what fixed it. ⚠ **The visual critic graded an earlier state and has NOT re-run — re-grade before 003 inherits the style.**
+
+**State (2026-09-05, setup complete):** design phase COMPLETE (200/200 specs, lint 200/200, FINAL-REPORT written); workspace moved from `C:\Users\rkgen\local-games\` (gone) to **`C:\Users\rkgen\lessoncraftstudio\games\`** (git-tracked; `games/_qa/` + `games/**/*.png` gitignored). Tooling proven: `_lib/art.js` (LCSArt vector library, base64 data URLs), `GameCore.preloadArt/drawArt/makeTile/playAnim/tone`, `_test/run-tests.js` 85 tests, `_tools/check-build.js` (static gate, poison-tested both ways), `_tools/qa-game.js` (puppeteer runtime gate; `--self-test` PASS on `_test/demo.html`, screenshots to `_qa/`), `_tools/build-hub.js` (hub at `games/index.html`, 0 built / 200 unbuilt), `_tools/serve.js` (port 8480). Doctrine: `games/ART-BIBLE.md` (palette tints, character construction, motion rules, 14-point critic rubric, §7 library index), `BUILD-WORKFLOW.md`, `BUILD-LOG.md` (`NEXT: 002`; order = FINAL-REPORT's first twenty 002 001 005 003 007 004 006 008 009 010 043 028 018 049 069 063 091 019 105 116, then 011-200 skipping built). Plan file of the setup: `C:\Users\rkgen\.claude\plans\c-users-rkgen-downloads-game-design-brie-cozy-sky.md`.
+
+**Operator rulings (locked):** I build — no local AI anywhere, website or games (operator ruling 2026-09-05, CLAUDE.md top amendment); plan mode per game with the 7-role ensemble (pedagogue, content creator, game developer, art director; then artist, graphic designer, animation agent — `general-purpose`, ≤ 4 in flight); spec = basis not ceiling; visual quality is THE bar; all 11 locales per game; local build + local link after EVERY build (`http://localhost:8480/<slug>/index.html?lang=xx`); deploy all 200 at once later; everything lives in the project folder.
+
+**Per-build close-out (the memory half):** update this file's State line (built count + NEXT), append any new trap to CLAUDE.md §24.3 if it will recur, refresh the MEMORY.md line.
+
+**Traps paid for at setup (also in CLAUDE.md §24.3):** Phaser `atob()`s every `data:` URL → base64 only, else the loader stalls and the scene never leaves Boot; `makeButton` returns the container (press via `emit`); Phaser `preload` needs a wrapper; tag harness errors with lang/width/phase; heredocs eat `\n`/backslashes in JS strings (script files + Edit tool). Design-phase lessons still apply: catalogue row is binding over prompts; session limit kills all agents at once (check on-disk drafts before relaunch); poison every gate both directions.

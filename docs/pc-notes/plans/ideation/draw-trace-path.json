@@ -1,0 +1,274 @@
+[
+  {
+    "id": "draw-trace-01",
+    "name": "Slice the Snack",
+    "mechanic": "A whole food shape (pizza, cookie, cake) sits on a plate. The child drags one finger to draw a straight cut line across it; the line snaps to the nearest valid cut and the shape splits along it. The child draws enough cuts to make the requested number of EQUAL parts (halves, thirds, fourths), and each completed equal slice gently lifts and animates.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "The produced mark IS the partition — the cut line the child draws encodes the fraction, not a tap-the-pre-cut-piece choice. Closest neighbor is the existing E14 fractions recognition (tap the already-equal shape) and magic-trace (follow a fixed dotted guide); separation: here the child GENERATES a free-drawn cut line that is snap-evaluated for equal partition, the active-partition facet explicitly deferred in E14.",
+    "standards": [
+      {"code": "1.G.A.3", "grade": "1", "strand": "Geometry", "subject": "math"},
+      {"code": "2.G.A.3", "grade": "2", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "The satisfying SPLIT — the shape cleanly cleaves and the slices spring apart with a soft pop; no timer, you can cut as many times as you like and wrong cuts just bounce off without splitting.",
+    "interaction": "draw",
+    "character_world": "A friendly Baker Bear's snack stand where every treat needs fair-sharing cuts for the animal customers.",
+    "web_shell_feasibility": "feasible — SVG shape with a small set of valid cut-axes per shape; the child's drawn stroke is reduced to its endpoints/angle and snapped to the nearest valid axis, then equality is checked combinatorially against the target part-count. Free-draw is constrained to a snap set, avoiding hard free-form evaluation.",
+    "asset_idea": "stub: plain colored circle/square/rectangle on a gray plate. CA5 art: warm cream-and-coral baked goods (round cookie, square brownie, rectangular cake), Baker Bear, soft plate with crumb texture."
+  },
+  {
+    "id": "draw-trace-02",
+    "name": "Fold the Butterfly",
+    "mechanic": "Half a symmetric figure (one butterfly wing, half a heart, half a leaf) is shown beside a dashed center line. The child drags the half across the fold line; as they drag, a mirrored ghost-half follows on the other side. When they 'press' the fold closed the two halves meet and the complete symmetric creature comes alive — but only if they placed the fold on the true line of symmetry.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "The core is a FOLD action that mirrors geometry, not a drawn line or a tap. Closest neighbor is draw-trace-03 (draw the symmetry line) — separation: here symmetry is felt kinesthetically by folding/mirroring a half to make a whole, whereas 03 asks the child to DRAW the axis on a finished figure. Unlike dress-decorate it produces a geometric mirror, not decoration.",
+    "standards": [
+      {"code": "4.G.A.3", "grade": "3", "strand": "Geometry", "subject": "math"},
+      {"code": "1.G.A.2", "grade": "1", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "The reveal when the fold snaps shut and a plain half blooms into a whole, perfectly-mirrored butterfly that flaps once; lenient snap zone, no wrong-buzzer, just a gentle re-open if off.",
+    "interaction": "drag",
+    "character_world": "A meadow of paper-fold creatures waiting to be made whole and flutter away.",
+    "web_shell_feasibility": "feasible — render the half as an SVG group, apply a live CSS/SVG scale(-1) mirror transform pinned to the draggable fold line; correctness = fold line within tolerance of the figure's true axis. No free-form evaluation needed.",
+    "asset_idea": "stub: half a gray symmetric blob + dashed line. CA5 art: half-butterfly with one ornate teal wing, half-heart, half-leaf, half-mask; meadow backdrop in cream."
+  },
+  {
+    "id": "draw-trace-03",
+    "name": "Draw the Mirror Line",
+    "mechanic": "A complete symmetric object (snowman, vase, ladybug, capital letter A) is shown. The child draws a single straight stroke they think is the line of symmetry. On release the figure 'folds' along their drawn line: if it folds onto itself the two halves glow and lock; if not, the figure wobbles back unfolded so they can try a different stroke.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "Here the child draws the AXIS onto a finished figure and the figure self-tests by folding along the drawn stroke — distinct from 02 (fold a half to build the whole) and from magic-trace (no fixed dotted guide; the child must locate the line themselves). The drawn mark is the answer-line.",
+    "standards": [
+      {"code": "4.G.A.3", "grade": "3", "strand": "Geometry", "subject": "math"},
+      {"code": "1.G.A.1", "grade": "1", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "The whole figure hinges and folds along your line like real paper — a tactile snap when it lands on itself; figures with multiple symmetry lines accept any correct one and sparkle each found line.",
+    "interaction": "draw",
+    "character_world": "A folding-paper workshop where each cut-out shape hides one or more secret mirror lines to discover.",
+    "web_shell_feasibility": "feasible — drawn stroke reduced to a line; reflect the figure's vector outline across it and compare overlap with the original (point-sample or path-distance) within tolerance. Pre-known axes per asset make the check a simple angle/offset match.",
+    "asset_idea": "stub: gray symmetric outlines (vase, heart) on grid. CA5 art: paper-craft snowman, ladybug, vase, butterfly, big block letters; teal cutting-mat backdrop."
+  },
+  {
+    "id": "draw-trace-04",
+    "name": "Set the Clock Hands",
+    "mechanic": "A blank analog clock face with a center pivot. The child grabs the hour hand and the minute hand and drags each around the dial; the hands snap to discrete positions. A prompt names a time ('half past three' / '3:30') and the child draws/rotates the hands to show it, with a digital readout updating live as a scaffold.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "The produced 'mark' is the drawn hand-angle — a radial-drag generative act, not a tap-the-right-clock choice. Closest neighbor is the existing E10 clock activity (already radial-drag set-the-clock) — this entry is the design-lens articulation of that proven mechanic; separation from magic-trace is that the angle is free-rotated then snapped, encoding the answer, with no dotted guide.",
+    "standards": [
+      {"code": "1.MD.B.3", "grade": "1", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "2.MD.C.7", "grade": "2", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "Spinning the hands feels like turning a real clock; a soft tick as each hand passes a number and a chime when the time is set; no countdown, infinite re-tries.",
+    "interaction": "drag",
+    "character_world": "Owl's bedtime cottage where setting the right time on the cuckoo clock wakes a cheerful cuckoo.",
+    "web_shell_feasibility": "feasible — atan2 of pointer vs center, snap hour to 12 and minute to step; coupled render (hour advances with minute). Proven in the live E10 clock-core; minimal runtime.",
+    "asset_idea": "stub: plain circle with numbers + two line hands. CA5 art: carved cuckoo-clock face, owl in nightcap, cozy cottage interior cream/teal."
+  },
+  {
+    "id": "draw-trace-05",
+    "name": "Cut the Ribbon into Units",
+    "mechanic": "A long ribbon/tape lies along a ruler. The child drags scissors to draw cut marks across the ribbon at unit intervals to divide it into the requested number of equal pieces (cut a 6-unit ribbon into 6 one-unit pieces, or into 2 threes). The ribbon snaps cuts to whole-unit tick marks and each cut piece falls and stacks.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "Linear partition of a LENGTH by drawn cut-marks against a unit ruler — distinct from 01 (2D area partition of a shape into equal fractions) and from build/sort templates. The cut positions encode iteration of a length-unit (measurement), not area-fraction.",
+    "standards": [
+      {"code": "2.MD.A.1", "grade": "2", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "1.MD.A.2", "grade": "1", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "The crisp snip sound and the pieces tumbling into a neat stack; cuts snap to ticks so it always looks tidy; lenient — extra ticks just don't cut.",
+    "interaction": "draw",
+    "character_world": "A gift-wrap mouse who needs ribbons measured and snipped into fair lengths for the party parcels.",
+    "web_shell_feasibility": "feasible — ribbon is a rectangle over a tick scale; drawn cross-stroke snaps to nearest tick, splits the segment array; check piece-lengths equal/match target. Snap set keeps evaluation trivial.",
+    "asset_idea": "stub: gray bar over numbered ruler + scissor icon. CA5 art: glossy coral ribbon, brass scissors, gift-wrap mouse, parcels with bows."
+  },
+  {
+    "id": "draw-trace-06",
+    "name": "Connect the Dots: Count to Reveal",
+    "mechanic": "Scattered numbered dots hide a picture. The child draws one continuous trail from dot 1 to 2 to 3... in order; the line only 'sticks' to the next correct number in sequence and rejects out-of-order dots. When the last dot connects, the outline closes and the hidden creature fills in with color and animates.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "Generative ordered-trail drawing where the child's free path must visit dots in numeric (or alphabetic) sequence — the trail is the answer. Distinct from path-journey (navigate a fixed maze) because the child CONSTRUCTS the connecting line, and from magic-trace (no pre-drawn dotted outline; the order is the puzzle). Reveal is the payoff.",
+    "standards": [
+      {"code": "K.CC.A.2", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "K.CC.B.4", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"}
+    ],
+    "fun_no_competition": "The classic dot-to-dot delight — the picture emerging line by line and bursting into color at the final dot; wrong-order dots just don't connect, no penalty, gentle pulse points to the next number.",
+    "interaction": "draw",
+    "character_world": "A 'star-stitcher' firefly drawing constellations that turn into glowing animals.",
+    "web_shell_feasibility": "feasible — dots are points with an order index; track which dot the pointer is over, append to path only if it equals expected+1. Pure sequence check, no free-form geometry evaluation.",
+    "asset_idea": "stub: numbered dots on dark field + plain line. CA5 art: firefly with a glowing thread, dot-constellation that fills into a fox/whale, night-sky teal gradient."
+  },
+  {
+    "id": "draw-trace-07",
+    "name": "Connect the Letters: ABC Trail",
+    "mechanic": "Dots labeled with letters (A, B, C...) are scattered over a hidden picture. The child draws a continuous trail joining them in alphabetical order; the line snaps only to the next letter in the sequence. Completing the alphabet path reveals and animates the picture.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "Same generative-trail-reveal core as 06 but the ordering rule is the ALPHABET (ELA letter sequence), making it an ELA entry. Separation from 06 is the standard/strand and from magic-trace's fixed dotted letter-shape (here letters are waypoints, not a glyph to trace). Reinforces letter naming + alphabetic order.",
+    "standards": [
+      {"code": "L.K.1.a", "grade": "K", "strand": "Language", "subject": "ela"},
+      {"code": "RF.K.1.d", "grade": "K", "strand": "Reading: Foundational Skills", "subject": "ela"}
+    ],
+    "fun_no_competition": "Singing-the-alphabet-in-your-head pleasure as each letter clicks onto the trail; the picture blooms; uppercase/lowercase variants; misordered dots simply won't link, with a soft hint glow on the next letter.",
+    "interaction": "draw",
+    "character_world": "A snail named Alphie who leaves a shimmering trail spelling the alphabet across a garden.",
+    "web_shell_feasibility": "feasible — identical to 06 with letter-indexed dots; sequence check on A→Z. Trivial runtime.",
+    "asset_idea": "stub: lettered dots + plain trail. CA5 art: glittering snail trail, garden scene that fills in (flowers/bug), cream + teal palette, big friendly letters at each dot."
+  },
+  {
+    "id": "draw-trace-08",
+    "name": "Shade the Fraction",
+    "mechanic": "A shape pre-divided into equal parts (a 4-part chocolate bar, an 8-slice pizza outline) is shown empty. A prompt asks for a fraction (3/4, 5/8). The child drags a finger to PAINT/shade regions; each region fills fully when touched and un-fills if tapped again. They shade exactly the requested number of parts and the bar 'tastes ready' when the count matches.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "Region-shading where the painted area encodes the numerator over the pre-set denominator — a free paint-to-fill act, not a tap-one-piece choice and not a partition-cut. Closest neighbor is 01 (the child here does NOT create the partition; they shade an existing equal partition to show a quantity). Distinct from reveal-grid (no hidden picture; the fill IS the math).",
+    "standards": [
+      {"code": "3.NF.A.1", "grade": "3", "strand": "Number & Operations—Fractions", "subject": "math"},
+      {"code": "2.G.A.3", "grade": "2", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "The smooth swipe-to-fill, like coloring perfectly inside lines automatically; a yummy shimmer when the right amount is shaded; over-shade just lifts back off, no fail state.",
+    "interaction": "draw",
+    "character_world": "A chocolatier fox filling fraction-bars and pizza orders by the painted slice.",
+    "web_shell_feasibility": "feasible — each part is an SVG region with a filled boolean toggled by pointer-over; count filled vs target. No free-form geometry; coloring is region-snapped.",
+    "asset_idea": "stub: gray bar split into N cells. CA5 art: chocolate bar with embossed squares, pizza with slice lines, chocolatier fox, warm brown/cream."
+  },
+  {
+    "id": "draw-trace-09",
+    "name": "Ring the Groups",
+    "mechanic": "A scattered set of objects (10 acorns) sits in a clearing. The child draws free-form loops/rings around objects to partition the set into equal groups (draw 2 rings of 5, or 5 rings of 2). Each closed loop counts the objects inside it; rings glow green when all rings hold the same equal count.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "Free-drawn enclosure loops partition a SET (discrete grouping / early multiplication & division readiness) — the drawn ring is the answer. Distinct from sort-home (drag into bins) because the child draws the boundary themselves, and from 01/05 (continuous shape/length partition; this is discrete-set equal grouping).",
+    "standards": [
+      {"code": "2.OA.C.4", "grade": "2", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "K.OA.A.3", "grade": "K", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "Lassoing objects with a glowing loop and watching the count tally pop above each ring; equal rings sparkle together; uneven rings just stay neutral, redraw freely.",
+    "interaction": "draw",
+    "character_world": "A squirrel sorting its acorn hoard into fair piles for winter, drawing chalk circles in the dirt.",
+    "web_shell_feasibility": "needs-richer-runtime — point-in-polygon counting of a free-drawn closed loop is doable (ray-casting on the drawn path) but loops must be auto-closed and validated; honest flag: robust free-loop capture + which-objects-inside is moderate. Mitigate by snapping objects to a coarse grid so enclosure is cell-based.",
+    "asset_idea": "stub: dots on a grid + chalk loop. CA5 art: acorns, leaves, a squirrel with a tiny chalk stick, forest-floor texture, teal chalk loops."
+  },
+  {
+    "id": "draw-trace-10",
+    "name": "Draw the Missing Half",
+    "mechanic": "Half of a symmetric picture is printed; the other half is a faint mirrored grid-guide. The child draws their own strokes to complete the second half, square by square, using the grid to copy. As each grid cell's drawn line lands near the target mirror-path it locks in; finishing reveals the full colored picture.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "Generative copy-by-symmetry drawing — the child PRODUCES the mirror half stroke by stroke (lenient grid-snap), reinforcing symmetry through making rather than recognizing. Distinct from 02 (drag a ready-made half) and 03 (draw just the axis line); here they draw the actual missing form. Lenient grid-cell tolerance keeps it K-3-true.",
+    "standards": [
+      {"code": "1.G.A.1", "grade": "1", "strand": "Geometry", "subject": "math"},
+      {"code": "4.G.A.3", "grade": "3", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "The pride of drawing the matching half yourself and seeing it 'click' true at each square; the picture colors in once symmetric; very forgiving snap, no erasing penalty.",
+    "interaction": "draw",
+    "character_world": "An art-class panda showing how to finish mirror-pictures square by square.",
+    "web_shell_feasibility": "needs-richer-runtime — evaluating free strokes against a target path per grid cell requires path-distance tolerance checks; feasible per-cell but more involved than snap-set games. Honest: simplify by checking whether each guide cell has been substantially covered by ink rather than exact stroke shape.",
+    "asset_idea": "stub: half a gray figure + faint grid on the empty side. CA5 art: half-printed house/tree/face, soft pencil-grid, panda in an art smock, cream paper."
+  },
+  {
+    "id": "draw-trace-11",
+    "name": "Draw to Continue the Pattern",
+    "mechanic": "A visual pattern runs along a strip with the last unit missing (●▲▲●▲▲●__). The child draws the missing element by tracing along a faint template OR by choosing-and-drawing the correct next shape with a fingertip; the strip accepts the stroke only if it completes the repeating rule, then the whole pattern marches forward.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "The child GENERATES the next pattern element by drawing it, so producing the mark = stating the rule. Distinct from the existing pattern-train (tap/drag the right tile) because here the answer is drawn/traced into existence, and from magic-trace because the guide appears only after the rule is inferred (you must know WHAT to draw).",
+    "standards": [
+      {"code": "K.CC.A.1", "grade": "K", "strand": "Counting & Cardinality (patterning readiness)", "subject": "math"},
+      {"code": "K.OA.A.3", "grade": "K", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "Watching the train of shapes chug forward once you complete the unit; a happy whistle; wrong stroke just fades and the pattern waits, gentle pulse on the gap.",
+    "interaction": "draw",
+    "character_world": "A pattern-train conductor caterpillar whose carriages repeat in rhythm.",
+    "web_shell_feasibility": "feasible — present the correct next shape as a faint trace target; check the drawn stroke covers it (ink-coverage tolerance) rather than free recognition. Keeps evaluation simple and lenient.",
+    "asset_idea": "stub: shape strip with a blank box. CA5 art: caterpillar-train carriages as colored shapes, chugging animation, sunny meadow, teal/coral units."
+  },
+  {
+    "id": "draw-trace-12",
+    "name": "Trace to Write the Numeral",
+    "mechanic": "A 'how many' prompt shows a quantity (4 ducks). The child counts, then traces the corresponding numeral along directional arrows — but the guide is faint and lenient; the stroke just needs to follow the general path top-to-bottom in the right order. Correct count + traced numeral makes the ducks cheer.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "Couples counting with generative numeral FORMATION by tracing — the child writes the answer numeral, linking cardinality to symbol production. Distinct from magic-trace (here the numeral is determined by counting, so the child must decide WHICH numeral before tracing) and from tap-the-number choices (they form it by hand). Lenient directional trace, not exact.",
+    "standards": [
+      {"code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "K.CC.A.3", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"}
+    ],
+    "fun_no_competition": "The reward of forming a real number with your finger and the counted objects celebrating; arrows light up as you pass them; very forgiving, restart the stroke anytime.",
+    "interaction": "trace",
+    "character_world": "Counting Ducklings pond, where writing their number makes that many ducklings line up and quack.",
+    "web_shell_feasibility": "feasible — numeral as a directional stroke-path with ordered checkpoints; verify the stroke passes checkpoints roughly in order. The counting half is a quantity-to-numeral match. Lenient checkpoint tolerance is simple.",
+    "asset_idea": "stub: gray ducks + faint outline numeral with arrows. CA5 art: pond, fuzzy ducklings, big dotted numerals with friendly arrow cues, cream + teal water."
+  },
+  {
+    "id": "draw-trace-13",
+    "name": "Bridge the Number Line",
+    "mechanic": "A number line is shown with a start number and a target. The child draws hop-arcs (jumps) above the line — each drawn arc snaps to span a whole-number jump — to get from start to target (e.g., from 3, draw two hops of +1 then... to reach 5, or one hop of +2). The sum of the drawn jumps must land exactly on the target, then a frog hops the arcs.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "Drawn jump-arcs encode addition/subtraction on a number line — the produced arcs ARE the equation. Distinct from the existing number-line manipulative (tap/slide a marker) because the child draws the decomposed hops, externalizing strategy, and from path-journey (no maze; the line + drawn arcs are the math).",
+    "standards": [
+      {"code": "1.OA.C.6", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "2.MD.B.6", "grade": "2", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "Drawing springy arcs and watching a frog boing along them to land on the lily-pad target; arcs snap to whole numbers so they always look neat; overshoot just lets you redraw.",
+    "interaction": "draw",
+    "character_world": "A leapfrog crossing a pond by hopping numbered lily-pads along a number line.",
+    "web_shell_feasibility": "feasible — each drawn arc's horizontal span snaps to nearest integer jump; accumulate jumps and compare to target. The arc is cosmetic over a snapped integer delta — simple to evaluate.",
+    "asset_idea": "stub: horizontal line with ticks + plain arc. CA5 art: lily-pad number line, cheerful frog mid-leap, splash effects, teal pond, coral target pad."
+  },
+  {
+    "id": "draw-trace-14",
+    "name": "Trace the Letter, Hear the Sound",
+    "mechanic": "A prompt speaks a letter sound (/s/). The child must FORM that letter by tracing it along a faint, lenient stroke-order guide (decide which letter the sound makes, then write it). On a good trace the letter inks solid, its sound plays again, and a word starting with it pops up (s → sun).",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "Generative letter formation gated by phonics — the child chooses the letter from a SOUND then produces it by tracing, linking sound-symbol-formation. Distinct from magic-trace (the target letter isn't given, it's inferred from audio) and from tap-the-letter choices (they hand-form it). Forgiving stroke-order trace per L.K.1.a.",
+    "standards": [
+      {"code": "L.K.1.a", "grade": "K", "strand": "Language (print letters)", "subject": "ela"},
+      {"code": "RF.K.3.a", "grade": "K", "strand": "Reading: Foundational Skills", "subject": "ela"}
+    ],
+    "fun_no_competition": "The letter filling in like wet ink as you trace and the sound/word reward; arrows guide stroke order; endlessly re-traceable, no marks-against. Audio note: whole-letter NAME and a whole WORD play (TTS-safe), the isolated /sound/ is delivered as a pre-recorded clip not TTS.",
+    "interaction": "trace",
+    "character_world": "A sound-spark snail that leaves a letter of ink wherever you trace, then names a picture word.",
+    "web_shell_feasibility": "feasible — letter stroke-path with ordered checkpoints + lenient tolerance; sound-to-letter is a mapping. Per the project's TTS finding, isolated phonemes use audio clips, not synthesis; letter names + whole words are TTS-safe.",
+    "asset_idea": "stub: faint dotted letter + arrows + speaker icon. CA5 art: inky snail, glowing letter trail, reward picture (sun/cat), cream paper, teal ink."
+  },
+  {
+    "id": "draw-trace-15",
+    "name": "Cut Apart the Two Shapes",
+    "mechanic": "Two simple shapes are stuck together to make a composite (a square + triangle making a house outline, two rectangles making an L). The child draws a single cut line to separate the composite back into its two named component shapes; the cut snaps to the true seam and the pieces slide apart and label themselves.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "Drawing a DE-composition cut along the join of a composite shape (compose/decompose geometry) — the cut line reveals the parts. Distinct from 01/05 (equal partitions of one shape) because here the line decomposes a composite into DIFFERENT named shapes, and from build-a-world (no assembling; the child separates).",
+    "standards": [
+      {"code": "1.G.A.2", "grade": "1", "strand": "Geometry", "subject": "math"},
+      {"code": "K.G.B.6", "grade": "K", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "The clean slice that pops the house into a square and a triangle which then wear little name tags; the seam glows as a hint; off-cuts just bounce, redraw freely.",
+    "interaction": "draw",
+    "character_world": "A shape-tinkerer robot who builds things from two shapes and needs them taken apart to see how.",
+    "web_shell_feasibility": "feasible — composite has one true seam line; drawn stroke snaps to it within tolerance and triggers the pre-authored split. Single valid cut keeps evaluation a simple line-match.",
+    "asset_idea": "stub: gray composite outline + faint seam. CA5 art: blocky friendly robot, composite gadgets (house, rocket = triangle+rectangle), name-tag pieces, teal/coral."
+  },
+  {
+    "id": "draw-trace-16",
+    "name": "Color by Number-Word",
+    "mechanic": "A line-art picture is split into regions, each labeled with a number-word or a tiny sum ('three', 'two+one'). A palette maps numbers to colors. The child swipe-paints each region; the region accepts paint only if the chosen color matches its number-word/sum value, revealing the picture when all regions are correctly colored.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "Paint-to-reveal where the act of coloring is gated by reading number-words / solving small sums — generative shading that encodes a number↔color answer. Distinct from 08 (shade a fraction quantity) and reveal-grid (here the WHOLE picture is colored region-by-region and the gate is number-word literacy + addition).",
+    "standards": [
+      {"code": "K.CC.B.4", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "1.OA.C.6", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "The classic color-by-number calm — swiping color into outlined regions and the scene coming alive; a wrong color simply doesn't take (no harsh buzz), so it's pure, low-stakes coloring.",
+    "interaction": "draw",
+    "character_world": "A paint-pot parrot whose colorful jungle picture appears as you solve each region.",
+    "web_shell_feasibility": "feasible — SVG regions with a target-number attribute; selected palette color must match the region's solved value before fill applies. Region-snapped painting, simple gate.",
+    "asset_idea": "stub: outline picture with numbered regions + color palette. CA5 art: jungle scene (parrot, leaves, fruit), labeled regions, glossy paint pots, cream + tropical teal/coral."
+  },
+  {
+    "id": "draw-trace-17",
+    "name": "Fold for Equal Shares",
+    "mechanic": "A square 'sheet of paper' (cracker, napkin) is shown. The child drags fold-creases onto it (horizontal, vertical, or diagonal). Each drawn fold halves the current regions. The goal: fold to make a requested equal number of parts (fold once for halves, again for fourths) AND the prompt asks if the result is equal/fair — the child folds until equal shares appear and the paper 'unfolds' to show matching creased regions.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "Iterative FOLD-to-partition into equal halves/fourths via successive halvings — fold actions accumulate to make fair shares, distinct from 01 (free cut lines) and 02 (single fold for symmetry). Here folding is the partition strategy and the crease pattern encodes the fraction structure.",
+    "standards": [
+      {"code": "2.G.A.3", "grade": "2", "strand": "Geometry", "subject": "math"},
+      {"code": "1.G.A.3", "grade": "1", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "The paper visibly folding and creasing with a soft paper sound, then springing open to reveal neat equal sections; halves/fourths only, snap-to-fold lines, no fail.",
+    "interaction": "draw",
+    "character_world": "Origami crane teaching fair-sharing by folding picnic napkins for friends.",
+    "web_shell_feasibility": "feasible — folds are constrained to a small set of axes (mid-horizontal, mid-vertical, diagonals); each fold doubles region count; check region count = target and equality is guaranteed by construction. Animation via CSS fold transform.",
+    "asset_idea": "stub: plain square with snap fold-guides. CA5 art: textured paper napkin/cracker, origami crane, picnic blanket, crease shimmer, cream + teal."
+  }
+]

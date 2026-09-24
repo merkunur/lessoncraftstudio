@@ -1,0 +1,270 @@
+[
+  {
+    "id": "narrate-roleplay-01",
+    "name": "Fix the Silly Puppet",
+    "mechanic": "A puppet says a sentence out loud with one deliberate grammar mistake (\"Me goed to school\"). The child is the teacher: tap the wrong word, then choose the correct one from chips. The puppet happily repeats the fixed sentence.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "Core is ERROR-DETECTION-IN-SPEECH plus correction, with the child holding the teacher role over a character. Closest neighbor is narrate-roleplay-09 (complete-the-sentence), but there the child ADDS a missing word to a correct frame, whereas here the child FINDS and REPLACES a wrong word in a complete utterance. Different from all 15 templates (no sorting/matching/building — it's listen-spot-correct dialogue).",
+    "standards": [
+      {"code": "L.1.1.C", "grade": "1", "strand": "Language — Conventions", "subject": "ela"},
+      {"code": "L.K.1.F", "grade": "K", "strand": "Language — Conventions", "subject": "ela"}
+    ],
+    "fun_no_competition": "Being trusted to teach the puppet, and the puppet's delighted 'Oh! Thank you, teacher!' when it learns the right way.",
+    "interaction": "tap then choose",
+    "character_world": "Puppet pupil who is eager but makes adorable mistakes; child is the patient teacher.",
+    "web_shell_feasibility": "feasible — DOM sentence with tappable word spans, choice chips, browser TTS for the puppet voice and the corrected replay.",
+    "asset_idea": "stub: gray puppet head with two poses (confused, happy). CA5 art: expressive felt-puppet character, mouth-open and smiling variants."
+  },
+  {
+    "id": "narrate-roleplay-02",
+    "name": "Serve the Customer",
+    "mechanic": "A customer steps to your shop counter and asks for something using a rule (\"I'd like THREE red apples, please\" or \"Can I have the thing that starts with /b/?\"). The child applies the rule to assemble the order on a tray and hands it over.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "Core is APPLY-A-SPOKEN-RULE-TO-FULFILL-A-REQUEST while playing the shopkeeper role. Closest neighbor is the magic-machine template (input→transform→output) and narrate-roleplay-11 (robot instructions), but here the child is the SERVER interpreting a customer's natural-language ask and must satisfy a varying constraint (count, attribute, phoneme), not run a fixed machine or give commands. The conversational request framing is the mechanic.",
+    "standards": [
+      {"code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "RF.K.3.A", "grade": "K", "strand": "Reading — Foundational Skills", "subject": "ela"},
+      {"code": "SL.K.2", "grade": "K", "strand": "Speaking & Listening", "subject": "ela"}
+    ],
+    "fun_no_competition": "Being the trusted shopkeeper; the customer's warm 'That's exactly right, thank you!' and a happy wave goodbye.",
+    "interaction": "tap then drag-to-tray",
+    "character_world": "A cozy corner shop (bakery / fruit stall / pet shop) where friendly animal customers come with requests.",
+    "web_shell_feasibility": "feasible — choice/drag items into a tray slot region, TTS speaks the request, simple pose swaps for customers.",
+    "asset_idea": "stub: counter rectangle + 3 placeholder animal customers + item icons. CA5 art: shop scene background, rotating cast of cute animal customers, themed goods (fruit, buns, pet toys)."
+  },
+  {
+    "id": "narrate-roleplay-03",
+    "name": "Tell the Robot What to Do",
+    "mechanic": "A literal-minded robot waits for the child to give it a one-step spoken/chosen command using a target structure (e.g., a prepositional phrase: \"Put the ball UNDER the table\"). The robot acts it out exactly — comically wrong if the child picks the wrong word.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "Core is CHILD-AUTHORS-AN-INSTRUCTION (child speaks, character obeys), the reverse of comprehension games where the child obeys. Closest neighbor is narrate-roleplay-02 (serve customer) where the CHILD interprets someone else's request; here the child GIVES the command and watches it enacted. Distinct from all 15 templates — no template has the child issuing imperative language a character performs.",
+    "standards": [
+      {"code": "L.K.1.E", "grade": "K", "strand": "Language — Conventions (prepositions)", "subject": "ela"},
+      {"code": "L.1.1.I", "grade": "1", "strand": "Language — Conventions (prepositions)", "subject": "ela"}
+    ],
+    "fun_no_competition": "Bossing the silly robot around and watching it hilariously over-obey; the joy of authorship and cause-effect.",
+    "interaction": "choose then watch",
+    "character_world": "A goofy helper robot that does EXACTLY what you say, no more no less.",
+    "web_shell_feasibility": "feasible — assemble a sentence from word chips, then a short CSS-transition animation moves an object to the chosen relation; TTS reads the command.",
+    "asset_idea": "stub: blocky robot + a ball + a table outline. CA5 art: charming boxy robot with movable arm, props (ball, box, hat), simple room set."
+  },
+  {
+    "id": "narrate-roleplay-04",
+    "name": "Answer the Story Character",
+    "mechanic": "After a short illustrated story is read aloud, a character from the story leans in and ASKS the child a comprehension question about what happened (\"Why was I sad at the start?\"). The child taps the best answer chip; the character reacts as if the child remembered THEIR story.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "Core is COMPREHENSION-AS-CONVERSATION where the in-story character (not a quiz screen) interviews the child. Closest neighbor is the story-maker template, but story-maker has the child BUILD/SEQUENCE a story to watch; here the child RECALLS and answers about a given story through dialogue with its character. No competition/quiz framing — it's a chat.",
+    "standards": [
+      {"code": "RL.K.1", "grade": "K", "strand": "Reading — Literature (key details)", "subject": "ela"},
+      {"code": "RL.1.3", "grade": "1", "strand": "Reading — Literature (characters/events)", "subject": "ela"}
+    ],
+    "fun_no_competition": "The character treats you like a friend who paid attention; warm 'You DO remember!' reactions and a little story-callback.",
+    "interaction": "choose",
+    "character_world": "Short picture-story vignettes (a lost mitten, a shy bug) whose characters turn to ask you about themselves.",
+    "web_shell_feasibility": "feasible — DOM story panels, TTS narration, character-asks dialogue bubble, answer chips.",
+    "asset_idea": "stub: 3 story panels + a character bust. CA5 art: small illustrated story sets, each with one expressive recurring character who breaks the fourth wall."
+  },
+  {
+    "id": "narrate-roleplay-05",
+    "name": "Help the Word-Problem Friend",
+    "mechanic": "A friend tells a little money/quantity problem as a worry (\"I have 5 stickers and I want to give you 2 — how many will I have left?\"). The child talks it through with manipulatives and taps the answer; the friend acts out the result with relief.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "Core is MATH-WORD-PROBLEM-AS-DIALOGUE: the situation arrives as a character's spoken concern, and solving it is helping a friend, not filling a worksheet. Closest neighbor is the feed-the-friend template (give correct items to a creature), but feed-the-friend rewards a count match; here the child must INTERPRET a narrated story-problem (join/separate/compare) and reason to a number. Conversation framing + problem-type variety is the mechanic.",
+    "standards": [
+      {"code": "K.OA.A.2", "grade": "K", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "1.OA.A.1", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "Being the one who solves your friend's problem; their grateful hug and the acted-out 'phew!' relief.",
+    "interaction": "tap manipulatives then choose",
+    "character_world": "A worried-but-sweet friend (a little fox, a robot) who keeps running into small everyday counting situations.",
+    "web_shell_feasibility": "feasible — TTS narrates the problem, tappable counters/ten-frame, answer keypad or chips, character reaction pose.",
+    "asset_idea": "stub: friend bust + counter dots. CA5 art: one recurring friend with worried/relieved/happy poses, themed counters (stickers, coins, apples)."
+  },
+  {
+    "id": "narrate-roleplay-06",
+    "name": "Make the Puppet Speak",
+    "mechanic": "The child operates a puppet in a tiny two-character scene: choose what the puppet SAYS next from line options, but only the lines that are polite/appropriate or grammatically right move the conversation forward (\"May I please join?\" vs \"Gimme that!\"). The other puppet responds in kind.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "Core is CHOOSE-YOUR-CHARACTER'S-LINE in a live two-way exchange where social/grammar appropriateness drives the partner's reaction. Closest neighbor is narrate-roleplay-04 (answer the character), but that's recall Q&A about a past story; here the child PUPPETEERS one speaker in an unfolding present-tense conversation, authoring dialogue. Distinct from all 15 templates — it's improv puppetry.",
+    "standards": [
+      {"code": "SL.K.6", "grade": "K", "strand": "Speaking & Listening (speak audibly/express ideas)", "subject": "ela"},
+      {"code": "SL.1.6", "grade": "1", "strand": "Speaking & Listening (complete sentences)", "subject": "ela"},
+      {"code": "L.1.1.J", "grade": "1", "strand": "Language — Conventions (sentences)", "subject": "ela"}
+    ],
+    "fun_no_competition": "You're the puppeteer voicing a character; the satisfaction of a conversation that flows warmly when you pick kind, clear lines.",
+    "interaction": "choose",
+    "character_world": "A two-puppet stage (a hand puppet you control + a friend puppet) acting out playground/friendship moments.",
+    "web_shell_feasibility": "feasible — dialogue chips, speech bubbles, TTS for both voices, puppet pose swaps on a stage backdrop.",
+    "asset_idea": "stub: two puppet heads + stage. CA5 art: a felt puppet stage with two distinct puppets, mouth and emotion variants."
+  },
+  {
+    "id": "narrate-roleplay-07",
+    "name": "Catch the Fib",
+    "mechanic": "A boastful character narrates a picture scene but says things that DON'T match what's shown (\"And there were SIX birds!\" when three are visible; \"The cat is BLUE!\"). The child listens/looks and buzzes only the statements that contradict the picture, gently correcting the character.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "Core is COMPREHENSION-AS-VERIFICATION against a visual: judge each spoken claim true/false versus the scene, in a conversational 'catch the silly' frame. Closest neighbor is narrate-roleplay-01 (fix the puppet), but that targets GRAMMAR errors in the form of a sentence; this targets MEANING/FACT mismatches between a description and a picture (informational comprehension + attributes/counting). Different from i-spy-scene (which is find-an-object) — here the child evaluates the truth of statements.",
+    "standards": [
+      {"code": "RI.K.1", "grade": "K", "strand": "Reading — Informational (key details)", "subject": "ela"},
+      {"code": "SL.K.2", "grade": "K", "strand": "Speaking & Listening (confirm understanding)", "subject": "ela"},
+      {"code": "RI.1.1", "grade": "1", "strand": "Reading — Informational", "subject": "ela"}
+    ],
+    "fun_no_competition": "The thrill of catching the friendly fibber; the character's sheepish giggle 'Oops, you got me!' when you correct it.",
+    "interaction": "tap (buzz / agree)",
+    "character_world": "A loveable exaggerator (a bragging parrot, a tall-tale bear) describing scenes with cheerful inaccuracies.",
+    "web_shell_feasibility": "feasible — scene image, TTS speaks each claim sequentially, true/false (or buzzer) tap, character reaction.",
+    "asset_idea": "stub: scene with countable objects + character bust. CA5 art: themed scenes (pond, park) plus a colorful exaggerator character with smug/caught poses."
+  },
+  {
+    "id": "narrate-roleplay-08",
+    "name": "Mailbag Reply",
+    "mechanic": "A pen-pal character 'sends a letter' read aloud that asks the child a question (\"What's your favorite animal and why?\" / \"Tell me one thing you did today\"). The child composes a reply by selecting and ordering sentence-frame chips into a complete thought, then 'sends' it; the pen-pal writes back.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "Core is COMPOSE-A-RESPONSE-IN-A-CORRESPONDENCE: the child constructs an answer to an open prompt using sentence frames, role-playing a letter-writer. Closest neighbor is narrate-roleplay-06 (choose your line), but there the child PICKS one canned line; here the child BUILDS a multi-part reply from frame parts (subject + opinion + reason), exercising productive composition. No template builds expressive sentences in a dialogue.",
+    "standards": [
+      {"code": "W.K.1", "grade": "K", "strand": "Writing (opinion)", "subject": "ela"},
+      {"code": "W.1.1", "grade": "1", "strand": "Writing (opinion with reason)", "subject": "ela"},
+      {"code": "L.1.1.J", "grade": "1", "strand": "Language — Conventions (sentences)", "subject": "ela"}
+    ],
+    "fun_no_competition": "A friend across the world who writes just to you and is excited by your reply; the warm 'I loved your letter!' return note.",
+    "interaction": "choose then sequence",
+    "character_world": "A traveling pen-pal (an owl postmaster delivering letters) eager to hear about your life.",
+    "web_shell_feasibility": "feasible — letter card with TTS, drag/tap sentence-frame chips into an outgoing letter, TTS reads the assembled reply and the pen-pal's response.",
+    "asset_idea": "stub: envelope + owl postmaster. CA5 art: cozy mail/letter set, owl postmaster with poses, decorative stamps and stationery."
+  },
+  {
+    "id": "narrate-roleplay-09",
+    "name": "Finish My Sentence",
+    "mechanic": "A character starts a sentence and pauses expectantly mid-flow (\"Yesterday I ___ to the park\" or \"The OPPOSITE of hot is ___\"), looking at the child to finish it. The child taps the word that correctly completes the character's utterance, and the character finishes saying the whole thing.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "Core is CALL-AND-RESPONSE CLOZE inside live dialogue — the character supplies the frame, the child supplies the missing word, completing a shared utterance. Closest neighbor is narrate-roleplay-01 (fix the puppet) which REPLACES a wrong word in a finished sentence; this ADDS the missing word to an unfinished one (cloze, not correction). Different from magic-machine — it's conversational completion, targeting verb tense / opposites / vocabulary.",
+    "standards": [
+      {"code": "L.K.5.B", "grade": "K", "strand": "Language — Vocabulary (opposites)", "subject": "ela"},
+      {"code": "L.1.1.E", "grade": "1", "strand": "Language — Conventions (verb tense)", "subject": "ela"},
+      {"code": "L.K.5.A", "grade": "K", "strand": "Language — Vocabulary (categories)", "subject": "ela"}
+    ],
+    "fun_no_competition": "The duet feeling of finishing a friend's sentence together; the character's delighted nod when you nail the word.",
+    "interaction": "tap",
+    "character_world": "A chatty friend who can never quite finish their thought without your help.",
+    "web_shell_feasibility": "feasible — sentence with a blank slot, word chips, TTS reads the frame and then the completed sentence, character pose.",
+    "asset_idea": "stub: character bust + sentence strip with blank. CA5 art: one warm recurring friend with thinking/delighted poses."
+  },
+  {
+    "id": "narrate-roleplay-10",
+    "name": "Whose Voice? (Read the Feeling)",
+    "mechanic": "A line of dialogue appears and the child must make the puppet SAY it with the right feeling — choose the emotion (happy/sad/scared/excited) that fits the words and context, then the puppet performs the line in that mood (matching TTS tone + face). Mismatches are gently funny.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "Core is INTERPRET-TONE-AND-PERFORM: the child reads dialogue for emotional/contextual meaning and DIRECTS the delivery (a performance/expression choice), not a content answer. Closest neighbor is narrate-roleplay-06 (choose the line) which selects WHAT is said; this selects HOW it is said. No template touches prosody/expression. Strong for SL.K.6/fluency-with-expression.",
+    "standards": [
+      {"code": "SL.K.6", "grade": "K", "strand": "Speaking & Listening (express thoughts/feelings clearly)", "subject": "ela"},
+      {"code": "RF.1.4.B", "grade": "1", "strand": "Reading — Foundational (read with expression)", "subject": "ela"},
+      {"code": "RL.1.4", "grade": "1", "strand": "Reading — Literature (words/feelings)", "subject": "ela"}
+    ],
+    "fun_no_competition": "Being the director of the puppet's performance; the comedy of a 'scared' line said super-happy, and the satisfying right-mood delivery.",
+    "interaction": "choose then watch",
+    "character_world": "A drama-club puppet rehearsing lines who needs you to coach the feeling.",
+    "web_shell_feasibility": "feasible — emotion chips, puppet face swaps per emotion, TTS pitch/rate adjusted to suggest mood; flag: TTS emotional range is limited, so face + pacing carry most of the expression.",
+    "asset_idea": "stub: puppet with 4 emotion faces + a tiny stage. CA5 art: theatrical puppet with a full emotion face set, curtain/stage backdrop."
+  },
+  {
+    "id": "narrate-roleplay-11",
+    "name": "Order at the Diner",
+    "mechanic": "The child is the waiter taking a multi-part spoken order (\"I'll have two pancakes AND a milk, please\") and must read it back / assemble it correctly, handling conjunctions and quantities. The customer confirms with a happy 'Yes, that's my order!'",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "Core is HOLD-AND-REPRODUCE A MULTI-ITEM REQUEST involving conjunctions ('and') and counts — listening-memory + connective comprehension in a service role. Closest neighbor is narrate-roleplay-02 (serve the customer), which applies ONE rule/attribute per request; this requires PARSING A COMPOUND request (multiple items + 'and' + quantities) and reproducing the whole list, exercising connectives and listening span. Distinct enough to stand alone (compound vs single-constraint).",
+    "standards": [
+      {"code": "L.K.1.F", "grade": "K", "strand": "Language — Conventions (complete sentences)", "subject": "ela"},
+      {"code": "SL.K.2", "grade": "K", "strand": "Speaking & Listening (understand details)", "subject": "ela"},
+      {"code": "L.1.6", "grade": "1", "strand": "Language — Vocabulary (conjunctions: and/but)", "subject": "ela"}
+    ],
+    "fun_no_competition": "Being the trusted waiter who gets the whole order right; the customer's beaming 'Perfect, thank you!' and a tip of the hat.",
+    "interaction": "tap then drag-to-plate",
+    "character_world": "A bustling-but-friendly little diner with cheerful animal regulars.",
+    "web_shell_feasibility": "feasible — TTS speaks the compound order (with a replay button), food chips dragged onto a tray, count + item validation, customer confirm pose.",
+    "asset_idea": "stub: diner counter + food icons + customer. CA5 art: diner set, menu items, rotating animal diners with happy poses."
+  },
+  {
+    "id": "narrate-roleplay-12",
+    "name": "Guide the Lost Traveler",
+    "mechanic": "A lost character on a simple map asks the child for directions to a destination, and the child gives a step-by-step route by choosing/sequencing direction words (\"go LEFT, then UP to the bridge\"). The traveler walks exactly the path the child describes.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "Core is PRODUCE-A-SEQUENCE-OF-DIRECTIONS in a help-a-character dialogue; the child authors multi-step spatial instructions and the character executes them. Closest neighbor is narrate-roleplay-03 (tell the robot), but that's a SINGLE one-step preposition command; this is an ORDERED MULTI-STEP route (sequencing + positional/directional language). Distinct from path-journey template — there the player moves along a given path; here the child GENERATES the directions for a character.",
+    "standards": [
+      {"code": "L.K.5.C", "grade": "K", "strand": "Language — Vocabulary (verbs/directions in context)", "subject": "ela"},
+      {"code": "L.1.1.I", "grade": "1", "strand": "Language — Conventions (prepositions/directions)", "subject": "ela"},
+      {"code": "SL.1.4", "grade": "1", "strand": "Speaking & Listening (describe with detail)", "subject": "ela"}
+    ],
+    "fun_no_competition": "Being the helpful guide who gets a lost friend home; watching the traveler follow YOUR directions and cheer at the destination.",
+    "interaction": "choose then sequence",
+    "character_world": "A friendly lost traveler (a turtle, a little knight) on a storybook map needing your directions.",
+    "web_shell_feasibility": "feasible — grid/path map, direction-word chips sequenced into a route, CSS-stepped character movement, TTS reads the route back.",
+    "asset_idea": "stub: simple grid map + a token traveler + landmark icons. CA5 art: charming storybook map (forest paths, bridges) with a sweet recurring traveler character."
+  },
+  {
+    "id": "narrate-roleplay-13",
+    "name": "Be the Question-Asker",
+    "mechanic": "Flip the roles: a character holds a hidden picture and the child must ASK questions to figure it out, choosing question chips (\"Is it an animal?\" \"Does it have wheels?\"). The character answers yes/no, narrowing it down until the child names it. The child drives a guessing dialogue.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "Core is CHILD-GENERATES-QUESTIONS (interrogative formation + deductive narrowing) in a 20-questions dialogue, the inverse of every game where the child ANSWERS. Closest neighbor is narrate-roleplay-04 (answer the character); this is its mirror — the child is the INTERVIEWER, exercising question structure and category reasoning. No template has the child asking questions.",
+    "standards": [
+      {"code": "L.1.1.J", "grade": "1", "strand": "Language — Conventions (produce questions)", "subject": "ela"},
+      {"code": "L.K.5.A", "grade": "K", "strand": "Language — Vocabulary (sort into categories)", "subject": "ela"},
+      {"code": "SL.1.3", "grade": "1", "strand": "Speaking & Listening (ask questions)", "subject": "ela"}
+    ],
+    "fun_no_competition": "Being the detective who cracks the mystery by asking smart questions; the character's playful 'Yes!'/'Nope!' and the reveal delight.",
+    "interaction": "choose",
+    "character_world": "A playful keeper-of-secrets (a sphinx kitten, a riddle-mole) who answers your questions truthfully but only yes/no.",
+    "web_shell_feasibility": "feasible — question chips, yes/no character answers via TTS, a narrowing set of candidate pictures that visibly eliminates on each answer, final name choice.",
+    "asset_idea": "stub: hidden-card character + a row of candidate picture cards. CA5 art: mysterious-but-cute keeper character, themed candidate picture sets."
+  },
+  {
+    "id": "narrate-roleplay-14",
+    "name": "Retell It to the Next Friend",
+    "mechanic": "After hearing a short 3-part story, a character who 'missed it' asks the child to retell what happened. The child reconstructs the retelling by choosing the beginning/middle/end statements in order and 'tells' it back; the character reacts to each part as if hearing it fresh.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "Core is RETELL-A-STORY-TO-AN-AUDIENCE: the child reproduces a narrative sequence as an act of telling it to a listening character (audience-directed retell with first/next/last structure). Closest neighbor is the story-maker template (build a story to watch) — but story-maker invents/sequences NEW panels; here the child RETELLS a GIVEN story in correct order to a character who responds, which is comprehension + recount, not authoring. Also distinct from narrate-roleplay-04 (single recall question) — this is full sequenced retell.",
+    "standards": [
+      {"code": "RL.K.2", "grade": "K", "strand": "Reading — Literature (retell familiar stories)", "subject": "ela"},
+      {"code": "RL.1.2", "grade": "1", "strand": "Reading — Literature (retell, central message)", "subject": "ela"},
+      {"code": "SL.K.4", "grade": "K", "strand": "Speaking & Listening (describe events in order)", "subject": "ela"}
+    ],
+    "fun_no_competition": "Being the storyteller for a friend who missed out; their gasps and 'then what happened?!' as you tell it, and a happy thanks at the end.",
+    "interaction": "sequence",
+    "character_world": "A friend who napped through the story and now hangs on your every word as you retell it.",
+    "web_shell_feasibility": "feasible — story panels played first, then beginning/middle/end statement chips dragged into order, TTS reads each as the child 'tells' it, listener reactions.",
+    "asset_idea": "stub: 3 story panels + a wide-eyed listener bust. CA5 art: short illustrated stories + an expressive listener character (gasp, smile, clap poses)."
+  },
+  {
+    "id": "narrate-roleplay-15",
+    "name": "Coach the Robot Chef",
+    "mechanic": "A robot chef can only follow EXACT recipe commands; the child gives it the right verb each step (\"STIR the soup,\" \"POUR the milk,\" \"CHOP the carrot\") chosen to match what the picture shows needs doing. Wrong verb = a funny kitchen mishap; right verb = the recipe progresses.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "Core is CHOOSE-THE-ACTION-VERB-IN-CONTEXT to direct a character's task, building a procedure verb by verb. Closest neighbor is narrate-roleplay-03 (tell the robot — prepositions) and -12 (directions), but this targets ACTION VERBS matched to a depicted need (verb meaning/category in a procedural how-to context), not spatial relations or routes. Distinct from magic-machine (fixed transform) — the child selects the appropriate verb each turn from context, exercising verb vocabulary.",
+    "standards": [
+      {"code": "L.K.5.C", "grade": "K", "strand": "Language — Vocabulary (verbs in context)", "subject": "ela"},
+      {"code": "L.1.5.C", "grade": "1", "strand": "Language — Vocabulary (verb shades of meaning)", "subject": "ela"},
+      {"code": "RI.K.3", "grade": "K", "strand": "Reading — Informational (steps/connections)", "subject": "ela"}
+    ],
+    "fun_no_competition": "Being the head chef coaching a literal robot; the slapstick of a wrong verb (it stirs the dry flour everywhere) and the pride of a finished dish.",
+    "interaction": "choose then watch",
+    "character_world": "A clanky robot chef in a cozy kitchen who needs your verb-by-verb coaching to cook.",
+    "web_shell_feasibility": "feasible — step picture, action-verb chips, short CSS animation per verb (correct progresses, wrong = comic reset), TTS narrates the command and result.",
+    "asset_idea": "stub: robot chef + pot + ingredient icons. CA5 art: kitchen set, expressive robot chef with action poses, ingredients and recipe stages."
+  },
+  {
+    "id": "narrate-roleplay-16",
+    "name": "Settle the Squabble",
+    "mechanic": "Two puppet friends are stuck in a little disagreement (one took the only ball). They turn to the child as the helper to choose what each should SAY to make it fair (apology, sharing offer, polite ask). Good social-language choices resolve the scene warmly; the child mediates the dialogue.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "Core is MEDIATE-A-SOCIAL-DIALOGUE: the child chooses appropriate conversational moves (politeness, turn-taking, conflict words) for TWO characters to resolve a problem. Closest neighbor is narrate-roleplay-06 (puppet the line), but there the child voices ONE puppet's lines for flow; here the child is a neutral mediator selecting the right social language for BOTH sides to reach resolution — a distinct social-pragmatics + speaking goal. No template addresses conversation norms/conflict resolution.",
+    "standards": [
+      {"code": "SL.K.1.B", "grade": "K", "strand": "Speaking & Listening (conversation norms/turn-taking)", "subject": "ela"},
+      {"code": "SL.1.1.B", "grade": "1", "strand": "Speaking & Listening (respond to others)", "subject": "ela"},
+      {"code": "L.1.6", "grade": "1", "strand": "Language — Vocabulary (words/phrases for situations)", "subject": "ela"}
+    ],
+    "fun_no_competition": "Being the trusted peacemaker; the heartwarming hug-and-makeup when your choices help two friends sort it out fairly.",
+    "interaction": "choose",
+    "character_world": "Two sweet puppet friends who keep bumping into small fairness problems and need a kind mediator.",
+    "web_shell_feasibility": "feasible — two puppets + speech bubbles, social-line chips per turn, TTS for both voices, makeup/hug resolution pose.",
+    "asset_idea": "stub: two puppet busts + a contested toy. CA5 art: pair of friendly puppets with upset/listening/happy poses on a simple play set."
+  }
+]

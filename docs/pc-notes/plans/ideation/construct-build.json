@@ -1,0 +1,298 @@
+[
+  {
+    "id": "construct-build-01",
+    "name": "Tower of Tens",
+    "mechanic": "The child stacks unit-cubes one at a time into a vertical column; when the column reaches exactly 10 cubes it auto-snaps into a single glowing 'ten-rod' that slides into the tens shelf. To build a target number the child raises columns: e.g. for 34 they fill three ten-rods then stack 4 loose cubes. Height literally encodes magnitude.",
+    "design_lens": "construct-build",
+    "why_distinct": "Closest neighbor is build-a-world (drag earned parts onto a canvas), but here the act of building IS place-value: quantity-as-height and the 10-to-1-rod snap teaches base-ten composition. Distinct from my Tower-Balance (02) which is about comparison/equilibrium, and from Brick-Blueprint (07) which is 2D spatial fitting.",
+    "standards": [
+      {"code": "1.NBT.B.2", "grade": "1", "strand": "Number & Operations in Base Ten", "subject": "math"},
+      {"code": "K.NBT.A.1", "grade": "K", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "The satisfying CLINK-and-bloom when 10 loose cubes fuse into one shimmering rod; a tiny mason mole tips its hat each time a rod completes. No timer — you can restack forever.",
+    "interaction": "drag",
+    "character_world": "Molly the Mason Mole building cube towers in a cozy underground brickyard",
+    "web_shell_feasibility": "feasible — DOM stacked divs with CSS transitions; the 10-snap is a class swap, no game loop",
+    "asset_idea": "stub: colored square divs for cubes/rods; CA5 art: hand-painted clay cubes, a glowing amber ten-rod, and Molly the mole sprite-sheet (tip-hat, cheer)"
+  },
+  {
+    "id": "construct-build-02",
+    "name": "See-Saw Stack",
+    "mechanic": "A balance beam has two pans. The child stacks unit-blocks onto the left and right pans; the beam tilts in real DOM toward the heavier side. To answer 'make both sides equal' or 'make the left side more', the child adds/removes blocks until the beam settles level or tips the asked direction — the structure's equilibrium encodes the comparison.",
+    "design_lens": "construct-build",
+    "why_distinct": "Not match-pairs (no pairing) and not sort-home. Closest is Tower-of-Tens (01), but there height = a single magnitude; here the BUILT structure on two pans encodes a relation (=, >, <) and the child constructs to a balance condition. Comparison-by-construction.",
+    "standards": [
+      {"code": "K.CC.C.6", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "1.OA.D.7", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "The wobbly tip-and-settle animation and a delighted 'wheee!' from the two pan-creatures as the beam rocks; landing it perfectly level triggers a sparkle and a held balance pose. No countdown — wobble as long as you like.",
+    "interaction": "drag",
+    "character_world": "Two round fuzzball friends, Big and Bit, riding a wooden playground see-saw",
+    "web_shell_feasibility": "feasible — beam rotation via CSS transform tied to a block-count delta; settle = transition, not physics loop",
+    "asset_idea": "stub: gray beam + square blocks; CA5 art: weathered wooden see-saw, two expressive fuzzball riders, chunky toy blocks"
+  },
+  {
+    "id": "construct-build-03",
+    "name": "Bridge the Gap",
+    "mechanic": "A river gap of N planks-wide separates two cliffs. The child drags numbered plank-segments (lengths 1–10) and lays them end-to-end to span exactly the gap. For addition gaps ('the gap is 7, you have a 3-plank — what plank completes it?') the child must select and place the missing-length plank so the bridge meets the far edge with no overhang or shortfall.",
+    "design_lens": "construct-build",
+    "why_distinct": "Path-journey is about traversing a route; here nothing travels until the bridge is COMPLETE and the structure must measure-fit exactly. Distinct from number-line tools because the planks are physical segments the child assembles; the made-to-measure span encodes the addend/length. Different from Brick-Blueprint (2D fill) — this is 1D linear length composition.",
+    "standards": [
+      {"code": "1.OA.D.8", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "2.MD.A.1", "grade": "2", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "1.MD.A.2", "grade": "1", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "When the last plank clicks flush, the bridge plays a wooden 'ka-thunk', tiny lanterns light along it, and a hedgehog hops across happily. Overhang gives a gentle springy bounce-back, never a buzzer. Rebuild freely.",
+    "interaction": "drag",
+    "character_world": "Pip the hedgehog, a tiny builder crossing forest streams plank by plank",
+    "web_shell_feasibility": "feasible — planks are width-sized divs snapping to a grid track; fit check = sum of placed widths vs gap width",
+    "asset_idea": "stub: brown rectangles labeled with lengths; CA5 art: mossy wooden planks with rope, two leafy cliffs, Pip the hedgehog walk/hop sprite-sheet"
+  },
+  {
+    "id": "construct-build-04",
+    "name": "Expand-O-Tron Columns",
+    "mechanic": "A machine has three labeled chutes: Hundreds, Tens, Ones. The child drags hundred-flats, ten-rods, and one-cubes into the matching chutes to BUILD a target number physically, then a readout assembles the expanded form (200 + 30 + 4) as each column fills. To solve, the structure in the columns must total the spoken/shown number.",
+    "design_lens": "construct-build",
+    "why_distinct": "Magic-machine template is 'input transforms to output by rule'; here the machine is just a column-frame and the CHILD constructs the place-value structure — no transformation rule, the build itself is the answer. Distinct from Tower-of-Tens (01, single column, no hundreds, no expanded-form readout): this is 3-place column assembly producing expanded notation.",
+    "standards": [
+      {"code": "2.NBT.A.1", "grade": "2", "strand": "Number & Operations in Base Ten", "subject": "math"},
+      {"code": "2.NBT.A.3", "grade": "2", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "Each piece dropped in the chute makes a pneumatic 'fwoomp' and a gauge lights up; completing the number sets the whole contraption gently chugging and puffing happy steam. No score, just the machine purring when built right.",
+    "interaction": "drag",
+    "character_world": "A friendly brass-and-bolts contraption tended by Cog the robot mouse",
+    "web_shell_feasibility": "feasible — three drop-zone columns + a derived text readout; sprite steam puffs are CSS keyframes",
+    "asset_idea": "stub: 3 boxes + flat/rod/cube rectangles; CA5 art: steampunk place-value machine with brass chutes and gauges, Cog the robot mouse"
+  },
+  {
+    "id": "construct-build-05",
+    "name": "Syllable Skyscraper",
+    "mechanic": "A word's picture sits at the top; the child builds a tower by stacking one 'floor-block' per syllable they hear — clap-and-stack. For 'butterfly' (but-ter-fly) they stack 3 floors; each floor lights as they tap it. The finished tower's height must equal the syllable count, and tapping each floor replays that syllable chunk.",
+    "design_lens": "construct-build",
+    "why_distinct": "This is ELA-as-construction: syllable count = building height. Not story-maker (no sequence of events) and not magic-trace. Closest math neighbor is Tower-of-Tens, but here height encodes a phonological count from listening, not a number magnitude — recognition-first, no letter production.",
+    "standards": [
+      {"code": "RF.K.2.B", "grade": "K", "strand": "Reading: Foundational Skills", "subject": "ela"},
+      {"code": "RF.1.3.D", "grade": "1", "strand": "Reading: Foundational Skills", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each floor 'pops' into place with a chime as a window lights up; the top floor sprouts a little rooftop flag and a window-cat waves. Clap and rebuild as many words as you like — no timer.",
+    "interaction": "tap",
+    "character_world": "A city of cozy little buildings where word-cats live one floor per syllable",
+    "web_shell_feasibility": "feasible — stacked floor divs, audio chunks from existing TTS/clip set; height vs syllable count check",
+    "asset_idea": "stub: stacked rectangles as floors; CA5 art: whimsical storybook apartment floors with lit windows, rooftop flag, peeking window-cats"
+  },
+  {
+    "id": "construct-build-06",
+    "name": "Word Wall Bricks",
+    "mechanic": "Onset and rime bricks (sh-, -ip; b-, -at) are mortared into a wall. The child slides a target picture's bricks together — they snap with a satisfying mortar-squish ONLY when the onset and rime combine into a real word naming the picture. Building the wall word-by-word, each correct brick-pair becomes a solid block in the growing wall.",
+    "design_lens": "construct-build",
+    "why_distinct": "Not match-pairs (which pairs two equals) — here two DIFFERENT segment-types assemble into one new unit (a word), and the wall is a persistent growing structure you construct. Distinct from Syllable-Skyscraper (05, counting/height) — this is segment-assembly into words (blending), not counting.",
+    "standards": [
+      {"code": "RF.K.2.C", "grade": "K", "strand": "Reading: Foundational Skills", "subject": "ela"},
+      {"code": "RF.1.2.B", "grade": "1", "strand": "Reading: Foundational Skills", "subject": "ela"}
+    ],
+    "fun_no_competition": "The mortar-squish 'splat' and the blended word spoken aloud when bricks fuse; the wall slowly becomes a snug little house you keep. A bricklayer beaver nods approval. No scoring, just a house that grows.",
+    "interaction": "drag",
+    "character_world": "Barnaby the beaver mason building a cottage wall out of word-bricks",
+    "web_shell_feasibility": "feasible — two brick halves snap into a slot; validity = lookup against approved-words list; TTS blends on join",
+    "asset_idea": "stub: two-tone rectangles with text; CA5 art: clay bricks with wet mortar texture, a half-built cottage, Barnaby beaver with a trowel"
+  },
+  {
+    "id": "construct-build-07",
+    "name": "Blueprint Tiles",
+    "mechanic": "A faint blueprint outline shows a target shape made of unit-square tiles (e.g. a 3×4 rectangle). The child lays individual square tiles onto the grid to fill the blueprint exactly. When complete, the structure is partitioned and the child taps to count rows/columns — the assembled array reveals the row-and-column structure.",
+    "design_lens": "construct-build",
+    "why_distinct": "Not reveal-grid (which uncovers hidden cells) — here the child PLACES tiles to construct a 2D array from nothing, against a plan. Distinct from Brick-of-Tens; this teaches array/area structure (rows × columns) by physical tiling, the foundation of multiplication and area.",
+    "standards": [
+      {"code": "2.G.A.2", "grade": "2", "strand": "Geometry", "subject": "math"},
+      {"code": "2.OA.C.4", "grade": "2", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "3.MD.C.6", "grade": "3", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "Each tile snaps with a ceramic 'tick'; finishing the floor makes the whole pattern shimmer and a little gecko skitters across the new tiles delightedly. Rows glow as you count them. No timer — re-tile any pattern.",
+    "interaction": "drag",
+    "character_world": "Tilly the gecko, a mosaic-floor artist decorating sunny courtyards",
+    "web_shell_feasibility": "feasible — CSS grid drop-zones; fill-check = all blueprint cells covered; row/col tap-count is index math",
+    "asset_idea": "stub: gray grid + colored squares; CA5 art: glossy Mediterranean mosaic tiles, a courtyard floor, Tilly the gecko sprite"
+  },
+  {
+    "id": "construct-build-08",
+    "name": "Fraction Pie Bakery",
+    "mechanic": "An empty pie-tin shows a target like '3/4'. The child drags equal wedge-pieces (the bakery only stocks halves, thirds, fourths…) and fits them into the tin until the assembled pie shows exactly the fraction — they must pick the right-size wedges and place the right COUNT so the built pie matches the label and leaves the correct empty arc.",
+    "design_lens": "construct-build",
+    "why_distinct": "Not sort-home or match-pairs. This is construction-to-a-fraction: the child assembles a partitioned whole from equal pieces, fitting wedges so the structure equals the target. Distinct from Blueprint-Tiles (07, square array) — radial equal-partition of a whole, teaching unit fractions by building.",
+    "standards": [
+      {"code": "2.G.A.3", "grade": "2", "strand": "Geometry", "subject": "math"},
+      {"code": "3.NF.A.1", "grade": "3", "strand": "Number & Operations—Fractions", "subject": "math"},
+      {"code": "1.G.A.3", "grade": "1", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "Each wedge slots in with a soft 'plip' and a puff of cinnamon sparkles; a completed pie steams and a chef raccoon rings a tiny bell. Wrong-size wedges gently bounce out — no buzzer. Bake endless pies.",
+    "interaction": "drag",
+    "character_world": "Rocco the raccoon baker in a warm fraction-pie bakery",
+    "web_shell_feasibility": "feasible — wedge divs with rotation transforms slotting into a circular tin; fit-check = correct denominator wedges × count",
+    "asset_idea": "stub: pie-circle + colored wedge sectors; CA5 art: golden lattice pie wedges, a cozy bakery tin, Rocco raccoon with a chef hat"
+  },
+  {
+    "id": "construct-build-09",
+    "name": "Pattern Rail Builder",
+    "mechanic": "A train track is missing its next rail-segments. A repeating unit pattern (square-circle-square-circle…, or ABB ABB) is shown; the child snaps the next rail-tiles into the track so the pattern continues correctly. The built track must extend the rule; the engine only rolls forward when the assembled stretch follows the pattern.",
+    "design_lens": "construct-build",
+    "why_distinct": "Not path-journey (traversal) — the child CONSTRUCTS the continuation of the structure and nothing rolls until it's built right. Distinct from sticker-album. This is pattern-extension by assembly: laying segments that obey a unit rule.",
+    "standards": [
+      {"code": "K.OA.A.3", "grade": "K", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "1.OA.A.1", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "Rails clack into place with a railway 'cha-clunk'; when the pattern's right the little engine toots and chuffs along the new stretch, dropping a puff of confetti-smoke. Mis-snapped tiles just slide back. Build track forever.",
+    "interaction": "sequence",
+    "character_world": "Chuffer the little blue engine laying its own track across a toy landscape",
+    "web_shell_feasibility": "feasible — ordered drop-slots; pattern-rule check on the placed sequence; engine slide is a CSS transition",
+    "asset_idea": "stub: rail rectangles with shape icons; CA5 art: wooden toy train rails with shaped tokens, Chuffer engine with chuff-smoke sprite"
+  },
+  {
+    "id": "construct-build-10",
+    "name": "Skeleton Snap",
+    "mechanic": "A dinosaur/animal skeleton outline shows numbered bone-sockets. The child snaps bones into sockets in NUMBER ORDER (1→2→3…) or by following ordinal/positional clues ('the bone after the third', 'between the leg and the tail'). Assembling the skeleton in the correct sequence/position builds the creature.",
+    "design_lens": "construct-build",
+    "why_distinct": "Not build-a-buddy (free drag of earned parts onto a canvas with no constraint) — here each bone has ONE correct socket determined by ordinal/sequence/position rules, so the build encodes counting-order or positional language. Distinct from path-journey; it's a positional-assembly skill (number sequence / ordinals / position words).",
+    "standards": [
+      {"code": "K.CC.A.2", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "K.CC.A.3", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "K.G.A.1", "grade": "K", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "Each bone clicks with a hollow 'clok' and a tiny dust-puff; the last bone snapped makes the whole skeleton do a goofy rattle-dance and wiggle. A paleontologist owl cheers. Re-excavate and rebuild any time.",
+    "interaction": "drag",
+    "character_world": "Professor Hoot the owl paleontologist in a sandy dig-site museum",
+    "web_shell_feasibility": "feasible — sockets are positioned drop targets keyed to order/position; rattle-dance is a sprite animation",
+    "asset_idea": "stub: numbered bone shapes + outline; CA5 art: cartoon dino fossil bones, a dig-site sandbox, Professor Hoot owl with a tiny brush"
+  },
+  {
+    "id": "construct-build-11",
+    "name": "Sentence Scaffold",
+    "mechanic": "A sentence is built like scaffolding: word-cards (a capital-start word, naming/action words, an end-mark) must be assembled left-to-right into a frame so the structure reads as a complete, correctly-ordered sentence — capital brick first, period/question brick last. The child stacks word-bricks into the frame; the scaffold only locks when the order forms a valid sentence.",
+    "design_lens": "construct-build",
+    "why_distinct": "Not story-maker (which sequences scene/events) — here the child constructs ONE grammatical sentence as a built structure, enforcing capitalization-first and end-punctuation-last via the scaffold shape. Distinct from Word-Wall-Bricks (06, sub-word blending) — this is sentence-level word-order assembly.",
+    "standards": [
+      {"code": "K.L.1.A", "grade": "K", "strand": "Language", "subject": "ela"},
+      {"code": "1.L.1.J", "grade": "1", "strand": "Language", "subject": "ela"},
+      {"code": "L.K.2.B", "grade": "K", "strand": "Language", "subject": "ela"}
+    ],
+    "fun_no_competition": "Word-bricks clink as they lock into the scaffold; a completed sentence is read aloud and the scaffold lifts to reveal a little illustrated scene of the sentence. A friendly fox foreman gives a thumbs-up. Rebuild freely.",
+    "interaction": "drag",
+    "character_world": "Sentence-Site, a tiny construction yard run by Felix the fox foreman",
+    "web_shell_feasibility": "feasible — ordered slot frame; valid-order check (capital first, end-mark last, known sentence templates); TTS reads it",
+    "asset_idea": "stub: word-label rectangles in a frame; CA5 art: scaffolding poles with chunky word-bricks, a hard-hat fox foreman, reveal scene cards"
+  },
+  {
+    "id": "construct-build-12",
+    "name": "Nesting Number Boxes",
+    "mechanic": "A set of open boxes of graduated sizes must be nested smallest-inside-largest. Each box is labeled with a quantity (a dot-set or numeral); the child fits them so they nest in the correct ORDER of value — a box can only go inside one holding a larger number. Building the full nested stack orders the numbers concretely.",
+    "design_lens": "construct-build",
+    "why_distinct": "Not sort-home (binning) — physical fit-nesting where size/containment encodes magnitude order, and a wrong-value box literally won't fit. Distinct from See-Saw-Stack (02, two-way comparison) — this is full ordering/seriation of a whole set by construction.",
+    "standards": [
+      {"code": "K.CC.C.7", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "1.NBT.B.3", "grade": "1", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "Each box drops inside the next with a wooden 'tonk' and a peg-doll pops up waving; closing the final lid plays a music-box twinkle. Wrong fits bob back out gently. Nest and un-nest endlessly.",
+    "interaction": "drag",
+    "character_world": "A shelf of cheerful Russian-doll-style stacking boxes with peg-doll friends inside",
+    "web_shell_feasibility": "feasible — size-scaled divs with containment validity = value ordering; no physics, pure logic + transitions",
+    "asset_idea": "stub: nested squares with numbers; CA5 art: painted matryoshka-style nesting boxes, peg-doll characters, a sunny shelf backdrop"
+  },
+  {
+    "id": "construct-build-13",
+    "name": "Number Bond Bridge",
+    "mechanic": "A whole-number block sits atop two empty support-pillars (the parts). The child stacks unit-cubes into the two pillars so the two part-heights TOGETHER hold up the whole (part + part = whole). For 'make 10', if one pillar is built to 6, the child must build the other to 4 or the whole block tilts and won't rest level.",
+    "design_lens": "construct-build",
+    "why_distinct": "Not See-Saw (02, comparison balance across a fulcrum) — here two pillars SUPPORT one whole, encoding part-part-whole decomposition by load-bearing structure. Distinct from Tower-of-Tens (single column magnitude); this is composing/decomposing a number into two addends via twin supports.",
+    "standards": [
+      {"code": "K.OA.A.3", "grade": "K", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "K.OA.A.4", "grade": "K", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "1.OA.B.4", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "When the parts make the whole, the top block settles with a contented 'clunk' and tiny carved faces on the pillars smile; a lopsided build wobbles cutely until fixed. A builder badger gives a wink. Re-decompose endlessly.",
+    "interaction": "drag",
+    "character_world": "Bramble the badger building little bridges held up by two stone pillars",
+    "web_shell_feasibility": "feasible — two stack columns + a beam div; level-rest check = pillar1Count + pillar2Count === whole",
+    "asset_idea": "stub: two cube columns + a bar; CA5 art: carved stone pillars with friendly faces, a wooden whole-block beam, Bramble badger sprite"
+  },
+  {
+    "id": "construct-build-14",
+    "name": "Gear Train Builder",
+    "mechanic": "A crank turns a first gear; the child must fit intermediate gears into pegs so the chain connects crank → target wheel. The number of teeth / spacing acts as a skip-count: placing the right gears makes the final wheel turn, and a counter ticks the skip-count (2,4,6…) as teeth mesh. Building a working gear-train that meshes is the skill.",
+    "design_lens": "construct-build",
+    "why_distinct": "Not magic-machine (rule-based transform of input→output) — the child engineers the structural CHAIN; nothing turns until gears physically mesh in the right positions. The build encodes skip-counting / equal-groups. Distinct from Pattern-Rail (09, linear pattern) — this is a 2D connectivity-and-mesh construction.",
+    "standards": [
+      {"code": "2.NBT.A.2", "grade": "2", "strand": "Number & Operations in Base Ten", "subject": "math"},
+      {"code": "2.OA.C.3", "grade": "2", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "3.OA.A.1", "grade": "3", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "When the last gear meshes, the whole train spins with a happy whirr and a string of bells chimes the skip-count; un-meshed gears just sit still. A tinkerer hedgehog claps oil-stained mitts. Tinker as long as you like.",
+    "interaction": "drag",
+    "character_world": "Gizmo the tinkerer hedgehog in a clockwork workshop",
+    "web_shell_feasibility": "needs-richer-runtime — rotating meshed gears that visually drive each other want SVG rotation sync; mesh-validity logic is simple, but smooth coupled rotation is borderline for pure CSS",
+    "asset_idea": "stub: circle divs as gears on a peg-board; CA5 art: brass cogs with visible teeth, a workbench, Gizmo hedgehog with a wrench"
+  },
+  {
+    "id": "construct-build-15",
+    "name": "Comparison Wall",
+    "mechanic": "Two side-by-side towers must be built to two given quantities, then the child constructs a comparison-symbol brick (>, <, =) and snaps it into the gap between the towers so the open mouth faces the taller tower. The built towers plus the placed symbol assemble a true comparison statement.",
+    "design_lens": "construct-build",
+    "why_distinct": "Not See-Saw (02, physical balance) and not Nesting-Boxes (12, ordering by fit) — here the child builds two explicit towers to numerals AND assembles the relational symbol, producing a written comparison (12 > 8). Construction yields a symbolic statement, not just a felt relation.",
+    "standards": [
+      {"code": "1.NBT.B.3", "grade": "1", "strand": "Number & Operations in Base Ten", "subject": "math"},
+      {"code": "2.NBT.A.4", "grade": "2", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "The symbol-brick gulps toward the bigger tower with a cartoon 'chomp', the towers do a little victory shimmy, and a crocodile mascot (the > 'hungry mouth') grins. No buzzer — re-snap the symbol freely.",
+    "interaction": "drag",
+    "character_world": "Chompy the comparison-crocodile who always faces the bigger number",
+    "web_shell_feasibility": "feasible — two stack columns + a draggable symbol brick; validity = symbol orientation vs tower-height comparison",
+    "asset_idea": "stub: two cube columns + </>/= brick; CA5 art: two block towers, a toothy croc-mouth symbol-brick sprite, sunny block-yard"
+  },
+  {
+    "id": "construct-build-16",
+    "name": "Compound Word Crane",
+    "mechanic": "A crane lifts whole-word blocks (sun, flower, rain, bow, butter, fly). The child fuses two blocks together by lowering one onto another; they snap and weld into one bigger compound-word block ONLY if the two words make a real compound (sun+flower=sunflower). The crane then sets the new welded block onto the structure being built.",
+    "design_lens": "construct-build",
+    "why_distinct": "Not Word-Wall-Bricks (06, onset+rime sub-word blending) — here two FULL words assemble into a compound word, a morphological build at the word level. Not match-pairs (no equal-pairing). The weld-into-one mechanic encodes compound-word formation.",
+    "standards": [
+      {"code": "L.1.4.C", "grade": "1", "strand": "Language", "subject": "ela"},
+      {"code": "RF.1.3.B", "grade": "1", "strand": "Reading: Foundational Skills", "subject": "ela"},
+      {"code": "L.2.4.D", "grade": "2", "strand": "Language", "subject": "ela"}
+    ],
+    "fun_no_competition": "The weld throws cute friendly sparks, the new word is spoken aloud, and the crane operator squirrel cheers 'sunflower!'; non-compounds just clink apart unharmed. Build a whole compound-word skyline. No timer.",
+    "interaction": "drag",
+    "character_world": "Skip the squirrel crane-operator on a word-block construction site",
+    "web_shell_feasibility": "feasible — two word divs merge into one; validity = lookup in a compound-word list; TTS speaks the result",
+    "asset_idea": "stub: word rectangles + a crane hook line; CA5 art: a toy crane, chunky welded word-blocks, Skip squirrel in a hard hat"
+  },
+  {
+    "id": "construct-build-17",
+    "name": "Money Stack Vending",
+    "mechanic": "A target price is shown (e.g. 47¢). The child builds the exact amount by stacking coin-discs (pennies, nickels, dimes, quarters) into a clear coin-tube; the tube's running total displays as coins drop. The structure must total exactly the price — then the machine vends a toy. Counting-on by coin value is the building skill.",
+    "design_lens": "construct-build",
+    "why_distinct": "Not sort-home (binning coins) — here coins are STACKED into a total-tube and the assembled stack must equal a target value, mixing denominations. Distinct from Tower-of-Tens (uniform unit cubes) — coins carry different values, so it's value-composition, not unit counting.",
+    "standards": [
+      {"code": "2.MD.C.8", "grade": "2", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "Coins clink-drop into the tube with a real coin 'ching', the running total ticks up warmly, and hitting the price exactly makes the machine rattle and plop out a tiny capsule toy you keep in a collection shelf. No timer — refill and re-buy.",
+    "interaction": "drag",
+    "character_world": "A charming gumball-style toy vending machine tended by Penny the piggy-bank pig",
+    "web_shell_feasibility": "feasible — stacked coin divs in a tube + summed value readout; exact-total check vends a collectible (persisted)",
+    "asset_idea": "stub: circle coin divs + a tube outline; CA5 art: glossy coins, a retro vending machine, capsule-toy collectibles, Penny the pig"
+  },
+  {
+    "id": "construct-build-18",
+    "name": "Symmetry Builder",
+    "mechanic": "Half a creature/butterfly is drawn on the left of a mirror-line; the child places tiles/parts on the right side to BUILD the mirror image so the finished structure is symmetric. Each part must be set in the position that reflects its twin across the line — completing the symmetric build reveals the whole creature.",
+    "design_lens": "construct-build",
+    "why_distinct": "Not dress-decorate (free aesthetic placement) — every part has ONE reflection-correct spot, so the build enforces line-symmetry. Not Blueprint-Tiles (07, blueprint copy) — here the 'plan' is a mirror constraint the child must compute, not trace. Spatial-reasoning-by-construction.",
+    "standards": [
+      {"code": "K.G.A.1", "grade": "K", "strand": "Geometry", "subject": "math"},
+      {"code": "1.G.A.2", "grade": "1", "strand": "Geometry", "subject": "math"},
+      {"code": "4.G.A.3", "grade": "3", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "Each mirrored part snaps in with a glassy 'ting' and a soft glow ripples across the mirror-line; completing the symmetry makes the butterfly flap its now-whole wings and flutter up. Off-spots gently float back. Build symmetric creatures endlessly.",
+    "interaction": "drag",
+    "character_world": "Iris the firefly, painting symmetric butterflies in a moonlit garden",
+    "web_shell_feasibility": "feasible — left art is fixed; right drop-zones validate against reflected coordinates; flutter is a sprite animation",
+    "asset_idea": "stub: half-image + mirror line + part dots; CA5 art: glowing butterfly wing halves, a dewy garden, Iris firefly with a glow-trail"
+  }
+]

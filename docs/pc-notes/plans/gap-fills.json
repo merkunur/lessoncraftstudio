@@ -1,0 +1,449 @@
+[
+  {
+    "id": "gapfill-01",
+    "name": "Caption the Photo (All-About Frame)",
+    "mechanic": "An informational photo (a frog, a fire truck) sits above a 'topic + 2 facts' frame. The child taps the photo's topic word into the topic slot, then drags two true fact-cards (from a tray mixing true facts and off-topic/false ones) into the two fact slots, producing a tiny 'All About ___' caption the page reads back. The frame only completes when the topic names the picture AND both facts are true of it.",
+    "design_lens": "construct-build",
+    "why_distinct": "All the existing sentence work (C031 opinion-scaffold, C007 cloze, C036 compound) is single-sentence or word-level. This produces a structured INFORMATIVE text (topic statement + supplied facts) — the W.K.2/W.1.2 shape — by selecting true facts about a pictured topic. Not opinion (C031), not comprehension Q&A (C092).",
+    "standards": [
+      {"code": "W.K.2", "grade": "K", "strand": "Writing", "subject": "ela"},
+      {"code": "W.1.2", "grade": "1", "strand": "Writing", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each true fact dragged in makes a little fact-firefly land and glow on the caption card; when the All-About card is whole, a friendly owl 'reads' it aloud and stamps a paper-clip badge. No timer — swap facts and rebuild your caption as many times as you like.",
+    "interaction": "drag",
+    "character_world": "Professor Hoot the owl running a cozy nature-notebook studio",
+    "web_shell_feasibility": "feasible — slots are drop-zones; true/false fact cards carry a data-flag checked on drop; TTS read-back of assembled string. No game loop.",
+    "asset_idea": "stub: photo + gray slot rectangles + plain fact cards; CA5 art: hand-painted notebook page, fact-firefly sprite, Professor Hoot read/stamp sprite-sheet"
+  },
+  {
+    "id": "gapfill-02",
+    "name": "Tell the Story in Pictures (Narrative Builder)",
+    "mechanic": "Three empty story-frames labeled First / Next / Last sit on an easel. The child drags character + setting + action stickers into each frame to STAGE a tiny three-beat narrative, then taps a 'time-word' chip (First, Then, Finally) onto each frame. The story is accepted when each frame is non-empty, the actions form a sensible order the child chose, and each frame carries its sequence word — producing a narrated beginning-middle-end.",
+    "design_lens": "construct-build",
+    "why_distinct": "C097 RETELLS a given story; C144 orders given informational cards. This one has the child PRODUCE an original narrative by staging three beats and labeling them with temporal words — the W.K.3/W.1.3 narrative-writing shape (recount events in order, use temporal words). Generative, not reconstructive.",
+    "standards": [
+      {"code": "W.K.3", "grade": "K", "strand": "Writing", "subject": "ela"},
+      {"code": "W.1.3", "grade": "1", "strand": "Writing", "subject": "ela"}
+    ],
+    "fun_no_competition": "When all three frames are staged and labeled, a tiny puppet theater curtain sweeps and the three scenes play left-to-right with a gentle chime as each time-word lights. No score — restage the whole story freely.",
+    "interaction": "drag",
+    "character_world": "Mim the mouse stage-director in a paper puppet theater",
+    "web_shell_feasibility": "feasible — three drop-frames + sticker palette + sequence-word chips; acceptance = all-frames-filled + each has a time-word. Curtain/playback is a CSS sprite sequence, no physics.",
+    "asset_idea": "stub: three boxes + emoji-ish stickers; CA5 art: paper puppet stage, character/setting/action sticker set, Mim director sprite-sheet"
+  },
+  {
+    "id": "gapfill-03",
+    "name": "Two Reasons Why (Opinion + Because)",
+    "mechanic": "A topic card poses a choice ('Which pet is best?'). The child taps their opinion chip ('I think dogs are best'), then must drag exactly TWO 'because' reason-cards from a tray that actually support that opinion (true-of-dogs supports vs off-topic distractors) into two because-slots, building 'I think ___ because ___ and ___.' The opinion sentence completes only with a stated opinion plus two relevant linked reasons.",
+    "design_lens": "construct-build",
+    "why_distinct": "C031 builds a single opinion/declarative sentence; this extends to the grade-2 opinion shape (W.2.1: state an opinion + supply REASONS + use linking word 'because/and'). The relevance gate on the reason-cards is the distinct cognitive move.",
+    "standards": [
+      {"code": "W.2.1", "grade": "2", "strand": "Writing", "subject": "ela"},
+      {"code": "W.1.1", "grade": "1", "strand": "Writing", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each well-matched reason makes a vine grow another leaf up a trellis toward the opinion-flower; two good reasons bloom it open. Off-topic cards gently spring back with a soft 'hmm'. Rebuild your argument as often as you like.",
+    "interaction": "drag",
+    "character_world": "Bea the bee tending an opinion-garden trellis",
+    "web_shell_feasibility": "feasible — opinion chip + two because drop-slots; reason-cards carry supports-flag for the chosen opinion. Trellis grow = CSS height transitions.",
+    "asset_idea": "stub: opinion chip + slots + plain cards; CA5 art: garden trellis, opinion-flower bloom frames, Bea sprite-sheet"
+  },
+  {
+    "id": "gapfill-04",
+    "name": "Show-and-Tell Circle (Take-Turns Talk)",
+    "mechanic": "A circle of puppet friends passes a 'talking feather'. On the child's turn a prompt appears ('Tell one thing about your picture'); the child taps the sentence-tile sequence that makes a COMPLETE on-topic spoken turn, then must tap 'pass the feather' — and on others' turns must wait (the pass-button is disabled while a friend speaks) and then tap the chip that BUILDS ON what the last friend said (same topic). Models one-speaker-at-a-time, stay-on-topic, build-on-others.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "C093 is choose-a-polite-line two-way improv; C095 parses a compound request. None model the COLLABORATIVE-CONVERSATION RULES of SL.K.1/SL.1.1/SL.2.1 (take turns, one at a time, build on others, stay on topic). The waiting + build-on-the-last-turn mechanic is the instantiation.",
+    "standards": [
+      {"code": "SL.K.1", "grade": "K", "strand": "Speaking & Listening", "subject": "ela"},
+      {"code": "SL.1.1", "grade": "1", "strand": "Speaking & Listening", "subject": "ela"},
+      {"code": "SL.2.1", "grade": "2", "strand": "Speaking & Listening", "subject": "ela"}
+    ],
+    "fun_no_competition": "The talking feather glows and floats to each friend in turn; a small 'listening ear' lights above the friend who is speaking so you know to wait. Taking your turn and building on a friend makes both puppets nod warmly. No clock — the circle goes around as gently as you want.",
+    "interaction": "tap",
+    "character_world": "A ring of cozy classroom puppets sharing on a story rug",
+    "web_shell_feasibility": "feasible — turn-state machine (whose turn, pass disabled while speaking), sentence-tile assembly, build-on check = shared-topic flag. All DOM state, no loop.",
+    "asset_idea": "stub: circle of colored dots + feather icon; CA5 art: puppet friends on a rug, glowing feather, listening-ear glow, nod animations"
+  },
+  {
+    "id": "gapfill-05",
+    "name": "Ask the Right Question (Clarify the Mystery Box)",
+    "mechanic": "A friend holds a covered box and says 'I have something inside'. The child must PRODUCE clarifying questions by assembling question-word + frame tiles ('What ... is it?', 'How many ... ?', 'Where ... ?'). Each well-formed, relevant question the friend answers with a clue; the child asks until they can name the hidden thing. The skill is generating the question (ask-to-clarify), not answering one.",
+    "design_lens": "narrate-roleplay-puppet",
+    "why_distinct": "C071 narrows from clues the GAME gives; here the child PRODUCES the questions (SL.K.3/SL.1.3 ask and answer questions to seek help / get info / clarify). Generative question-asking with question-word grammar is absent from the 152.",
+    "standards": [
+      {"code": "SL.K.3", "grade": "K", "strand": "Speaking & Listening", "subject": "ela"},
+      {"code": "SL.1.3", "grade": "1", "strand": "Speaking & Listening", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each good question makes the box rattle and a clue-bubble pop with a soft pop sound; the cover turns gradually see-through as you learn more. Naming the thing lifts the lid with a happy reveal. No penalties for an off-target question — the friend just says 'I'm not sure how to answer that, try another!'",
+    "interaction": "tap",
+    "character_world": "Gus the gopher guarding a curious wrapped box",
+    "web_shell_feasibility": "feasible — question-tile assembler validates question-word + frame; each valid+relevant question maps to a stored clue; reveal = opacity transition. No loop.",
+    "asset_idea": "stub: box + question-word tiles; CA5 art: wrapped mystery box, clue-bubble pops, Gus gopher sprite-sheet"
+  },
+  {
+    "id": "gapfill-06",
+    "name": "What's It Mostly About? (Main-Idea Net)",
+    "mechanic": "A short illustrated informational paragraph (3-4 sentences, read aloud) appears with four 'idea-fish' swimming below — three are small supporting details, one is the big main topic. The child casts a net over the ONE main-idea fish (the umbrella the others fit under), then drags the three detail-fish under it to show they belong to it. Correct only when the chosen idea is the topic AND the details nest beneath it.",
+    "design_lens": "hide-reveal-discover",
+    "why_distinct": "C059 reads a diagram's labels for a specific function; C092/C094 are RL recall/feeling. None target MAIN-IDEA-vs-detail (RI.K.2/RI.1.2/RI.2.2: identify the main topic and retell key details). The detail-nesting move makes the topic/detail hierarchy explicit.",
+    "standards": [
+      {"code": "RI.K.2", "grade": "K", "strand": "Reading: Informational Text", "subject": "ela"},
+      {"code": "RI.1.2", "grade": "1", "strand": "Reading: Informational Text", "subject": "ela"},
+      {"code": "RI.2.2", "grade": "2", "strand": "Reading: Informational Text", "subject": "ela"}
+    ],
+    "fun_no_competition": "The main-idea fish glows golden and grows a little umbrella; the detail-fish swim into a happy school beneath it with bubbly chimes. A wrong cast just lets that fish wriggle free with a giggle. Re-read and recast freely.",
+    "interaction": "drag",
+    "character_world": "Nila the otter fishing for ideas in a calm reading-pond",
+    "web_shell_feasibility": "feasible — paragraph TTS + four tappable fish (one flagged main); net = tap-select; nesting = drop-zone under the chosen fish. Bubble/glow are CSS.",
+    "asset_idea": "stub: text + four labeled circles; CA5 art: reading-pond, idea-fish with umbrella, Nila otter sprite-sheet"
+  },
+  {
+    "id": "gapfill-07",
+    "name": "Why Did the Author Tell Me? (Purpose Sorter)",
+    "mechanic": "Short text snippets (a recipe step, a funny rhyme, a 'fact about bats') float in one at a time. The child sorts each into one of three labeled author-intent bins: 'to TELL me facts', 'to make me LAUGH/enjoy', 'to teach me HOW to do it'. The bin glows when the snippet's purpose matches; a why-chip then asks the child to confirm the textual cue that signals it.",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "Existing sorts classify by perceptual/phonological/category attributes (C018, C075, C139). None sort by AUTHOR'S PURPOSE/text-type (RI.2.6 identify the main purpose; RI.K.6/RI.1.6 role of author; RL.K.5 text types). Purpose-as-the-sorting-rule is a new comprehension axis.",
+    "standards": [
+      {"code": "RI.2.6", "grade": "2", "strand": "Reading: Informational Text", "subject": "ela"},
+      {"code": "RI.1.6", "grade": "1", "strand": "Reading: Informational Text", "subject": "ela"},
+      {"code": "RL.K.5", "grade": "K", "strand": "Reading: Literature", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each snippet sails into its bin on a little paper airplane; the matching bin puffs a colored confetti-poof matching its purpose (fact=blue, fun=pink, how-to=green). No streak counter — sort and re-sort as you read.",
+    "interaction": "drag",
+    "character_world": "Edda the editor-elephant sorting the morning mail at a tiny post office",
+    "web_shell_feasibility": "feasible — snippet cards carry a purpose-flag; three drop-bins; confirm-cue is a second tap on the signaling phrase. All DOM.",
+    "asset_idea": "stub: text cards + three labeled bins; CA5 art: post office, paper-airplane snippets, Edda elephant sprite-sheet"
+  },
+  {
+    "id": "gapfill-08",
+    "name": "Beginning, Middle, End Spine (Story Structure)",
+    "mechanic": "A heard story plays; below it a 'story spine' has three labeled bone-segments: Beginning (who/where), Middle (the problem), End (how it was solved). The child drags the one event-card that fills each STRUCTURAL role — not just time order, but the right KIND of event (a setting card can't go in the 'problem' slot). The spine clicks together only when each role-card matches its structural function.",
+    "design_lens": "construct-build",
+    "why_distinct": "C097 retells in time order; C144 orders real-world chronology. This targets STORY STRUCTURE/elements (RL.K.5/RL.1.5 recognize text structure; identify setting/problem/solution roles) — the cards are matched to a narrative FUNCTION, not merely sequenced. The role-typing is the distinct demand.",
+    "standards": [
+      {"code": "RL.1.5", "grade": "1", "strand": "Reading: Literature", "subject": "ela"},
+      {"code": "RL.K.5", "grade": "K", "strand": "Reading: Literature", "subject": "ela"},
+      {"code": "RL.2.5", "grade": "2", "strand": "Reading: Literature", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each correctly-placed role-card snaps onto the dino spine with a satisfying click; completing the spine makes a friendly story-dragon stretch and the whole tale replay along its back. Mis-typed cards wobble off gently. Rebuild freely.",
+    "interaction": "drag",
+    "character_world": "Dot the story-dragon whose back IS the story spine",
+    "web_shell_feasibility": "feasible — three role-slots with type-tags; event-cards carry a role-type; match on drop. Replay-along-the-spine is a CSS sprite walk.",
+    "asset_idea": "stub: three labeled segments + plain cards; CA5 art: dragon spine, story-event cards, Dot dragon sprite-sheet"
+  },
+  {
+    "id": "gapfill-09",
+    "name": "Whose Eyes? (Point of View Telescope)",
+    "mechanic": "A short scene is shown with two characters. A telescope can be pointed at either character; looking through it shows the scene 'from their eyes' (what they can see / how they'd describe it). The child reads a first-person line ('I was scared of the big wave') and aims the telescope at the character WHO is telling it / whose view it is, then taps the matching feeling-thought-bubble.",
+    "design_lens": "hide-reveal-discover",
+    "why_distinct": "C094 reads a line's feeling/tone; C092 recalls details. None address POINT OF VIEW / who is telling the story (RL.K.6/RL.1.6/RL.2.6 identify who is telling at points in a story). The perspective-swap telescope makes 'whose view' the explicit task.",
+    "standards": [
+      {"code": "RL.1.6", "grade": "1", "strand": "Reading: Literature", "subject": "ela"},
+      {"code": "RL.2.6", "grade": "2", "strand": "Reading: Literature", "subject": "ela"}
+    ],
+    "fun_no_competition": "Aiming the telescope tints the scene in that character's color and floats their thought-bubble; landing on the right speaker makes the lens sparkle and the character wave. No timer — sweep the telescope between characters as much as you like.",
+    "interaction": "tap",
+    "character_world": "Pim the penguin lighthouse-keeper with a story-telescope",
+    "web_shell_feasibility": "feasible — telescope = pointer-select over two characters; each speaker line maps to a character flag; tint/bubble are CSS overlays. No loop.",
+    "asset_idea": "stub: two character silhouettes + telescope icon; CA5 art: lighthouse balcony, perspective-tinted scenes, Pim penguin sprite-sheet"
+  },
+  {
+    "id": "gapfill-10",
+    "name": "Two Tales, One Difference (Compare Stories)",
+    "mechanic": "Two short illustrated story-strips about similar characters (two different 'lost mitten' tales) play side by side. The child is asked a compare question ('In which story does the mitten get found?') and taps the correct story-strip, then drags a 'same' card and a 'different' card to the elements that match vs differ across the two (same: both lose a mitten; different: who finds it). Builds same/different comparison across two texts.",
+    "design_lens": "logic-deduction-puzzle",
+    "why_distinct": "C079 is picture-pair analogy; C081 whodunit within one story. None COMPARE TWO TEXTS' adventures/characters (RL.K.9/RL.1.9/RL.2.9 compare/contrast experiences of characters in two stories). The cross-story same/different mapping is new.",
+    "standards": [
+      {"code": "RL.1.9", "grade": "1", "strand": "Reading: Literature", "subject": "ela"},
+      {"code": "RL.2.9", "grade": "2", "strand": "Reading: Literature", "subject": "ela"}
+    ],
+    "fun_no_competition": "Matching 'same' elements ties a friendly ribbon between the two strips; spotting a 'different' element pops a little compare-magnifier with a chime. Both stories' characters wave to each other when the comparison is complete. No score — explore both tales freely.",
+    "interaction": "drag",
+    "character_world": "Twin squirrel storytellers, Nutmeg and Acorn, sharing facing story-books",
+    "web_shell_feasibility": "feasible — two strip players + same/different drop-tags on tagged story elements; compare-question is tap-select. Ribbon/magnifier are CSS.",
+    "asset_idea": "stub: two strips + same/diff cards; CA5 art: facing storybooks, ribbon tie, twin squirrel sprite-sheets"
+  },
+  {
+    "id": "gapfill-11",
+    "name": "Name or Thing? (Proper-Noun Capitalizer)",
+    "mechanic": "Sentences scroll through a 'sign-painter's shop' with their first-letters lowercase. The child must tap each word that NAMES a specific person/place/day (proper noun — Sam, Monday, Paris) to flip its first letter to a capital, while leaving common nouns (dog, city) lowercase. The sentence's neon sign lights only when exactly the proper nouns (and the sentence start) are capitalized.",
+    "design_lens": "transform-machine-causeeffect",
+    "why_distinct": "C003 fixes whole-sentence grammar errors broadly; this is a focused PRODUCER for common-vs-proper noun capitalization (L.1.1.b / L.2.2.a capitalize holidays, product names, geographic names; L.K.2.a capitalize first word & 'I'). Tap-to-capitalize as the core verb is distinct.",
+    "standards": [
+      {"code": "L.1.1.b", "grade": "1", "strand": "Language", "subject": "ela"},
+      {"code": "L.2.2.a", "grade": "2", "strand": "Language", "subject": "ela"},
+      {"code": "L.K.2.a", "grade": "K", "strand": "Language", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each correct capital flips up with a neon 'tink' and lights one bulb of the shop sign; the whole sign blazes warmly when the sentence is correctly capitalized. A wrong cap just gently dims back to lowercase. Repaint freely.",
+    "interaction": "tap",
+    "character_world": "Vee the vole, a tiny neon sign-painter",
+    "web_shell_feasibility": "feasible — each word carries a proper/common flag; tap toggles case; sentence-valid when capital-set matches the flagged set. Neon = CSS glow.",
+    "asset_idea": "stub: plain words + bulb row; CA5 art: neon sign shop, glowing letters, Vee vole sprite-sheet"
+  },
+  {
+    "id": "gapfill-12",
+    "name": "When Did It Happen? (Verb-Tense Time Machine)",
+    "mechanic": "A sentence with a blank verb sits beside a three-zone time dial: Yesterday / Today / Tomorrow. The child reads the sentence's time cue ('Yesterday I ___ to the park') and drags the correctly-tensed verb form (walked / walk / will walk) into the blank so the verb agrees with the time zone. A picture confirms the action; the time machine 'travels' to the matching zone on success.",
+    "design_lens": "transform-machine-causeeffect",
+    "why_distinct": "C149 appends +s for plural; this targets VERB TENSE (L.1.1.e use verbs to convey past/present/future). Matching a verb FORM to a time cue (not a count) is a distinct inflection task — past/present/future is absent from the 152.",
+    "standards": [
+      {"code": "L.1.1.e", "grade": "1", "strand": "Language", "subject": "ela"}
+    ],
+    "fun_no_competition": "Picking the right tense makes the cardboard time-machine clatter and glow toward the matching time-zone window, where the scene plays in that tense. Wrong forms give a soft sputter and stay put. Time-travel back and forth as often as you like.",
+    "interaction": "drag",
+    "character_world": "Tock the tortoise piloting a cardboard time machine",
+    "web_shell_feasibility": "feasible — verb-form cards tagged past/present/future; time-cue tagged on the sentence; match on drop. Travel animation = CSS sprite sequence.",
+    "asset_idea": "stub: sentence + three labeled zones; CA5 art: cardboard time machine, three time-zone windows, Tock tortoise sprite-sheet"
+  },
+  {
+    "id": "gapfill-13",
+    "name": "Who Does It Mean? (Pronoun Swap Booth)",
+    "mechanic": "A sentence pair shows a named character then a follow-up with a blank ('Maya lost her hat. ___ looked everywhere.'). The child drags the right pronoun (She / He / They / It) into the blank so it matches the named character's gender/number, and a thought-cloud over the character confirms the reference. Plural and possessive variants ('Sam and I ... ___ / our') extend it.",
+    "design_lens": "construct-build",
+    "why_distinct": "No cluster handles PRONOUNS. L.K.1.d / L.1.1.d (use personal/possessive/indefinite pronouns) is uncovered. The referent-matching (which pronoun stands for THIS named noun) is a distinct grammar move from synonym/antonym trades.",
+    "standards": [
+      {"code": "L.1.1.d", "grade": "1", "strand": "Language", "subject": "ela"},
+      {"code": "L.K.1.d", "grade": "K", "strand": "Language", "subject": "ela"}
+    ],
+    "fun_no_competition": "The right pronoun makes a little spotlight swing onto the character it stands for and they take a tiny bow; a mismatch makes the spotlight wobble and search. Swap pronouns freely to see who each one points to.",
+    "interaction": "drag",
+    "character_world": "Lulu the lamb running a tiny spotlight stage-booth",
+    "web_shell_feasibility": "feasible — pronoun cards tagged gender/number/case; sentence carries referent tags; match on drop; spotlight = CSS-positioned glow. No loop.",
+    "asset_idea": "stub: sentence + pronoun cards; CA5 art: stage booth, swinging spotlight, Lulu lamb sprite-sheet"
+  },
+  {
+    "id": "gapfill-14",
+    "name": "Add-a-Color-Word (Adjective & Adverb Spice Rack)",
+    "mechanic": "A plain sentence ('The dog ran') sits under a spice-rack of describing words split into ADJECTIVE jars (big, fluffy) and ADVERB jars (quickly, softly). A request says which to add ('make it tell HOW it ran' = adverb; 'tell WHAT KIND of dog' = adjective). The child shakes the correct word-type into the matching slot, and the page reads the spicier sentence. Tells adjective (describes a noun) from adverb (describes the action).",
+    "design_lens": "construct-build",
+    "why_distinct": "Vocabulary trades (C020/C021) handle synonym/antonym; this is a PRODUCER distinguishing adjectives from adverbs by function (L.1.1.f frequently-occurring adjectives; L.2.1.e use adjectives and adverbs, choose between them). Word-CLASS-by-function is uncovered.",
+    "standards": [
+      {"code": "L.2.1.e", "grade": "2", "strand": "Language", "subject": "ela"},
+      {"code": "L.1.1.f", "grade": "1", "strand": "Language", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each right describing word sprinkles glittery seasoning over the sentence with a tasty 'shh-shh'; the sentence dish steams and a chef-mouse takes a delighted sniff. Wrong-type jars give a polite 'not that one' puff. Re-season as much as you like.",
+    "interaction": "drag",
+    "character_world": "Chef Remy-mouse at a describing-word spice rack",
+    "web_shell_feasibility": "feasible — word jars tagged adjective/adverb; request tagged with required type + slot; match on drop; TTS read-back. Steam/glitter are CSS.",
+    "asset_idea": "stub: sentence + two labeled jar groups; CA5 art: kitchen spice rack, glitter sprinkle, chef-mouse sprite-sheet"
+  },
+  {
+    "id": "gapfill-15",
+    "name": "Un-Re-Ful Word Factory (Prefix & Suffix Build)",
+    "mechanic": "A root word (happy, do, lock) rides a conveyor toward affix-stamps (un-, re-, -ful, -less). A picture/meaning target says the wanted meaning ('the OPPOSITE of locked'). The child taps the affix that, attached to the root, produces that meaning (un + lock), and the factory welds the new word, reading it and showing its meaning. Builds derivational morphology by meaning.",
+    "design_lens": "transform-machine-causeeffect",
+    "why_distinct": "C036 welds two whole words (compound); C149 adds +s; C150 swaps a phoneme. None handle DERIVATIONAL AFFIXES (L.1.4.b add prefixes; L.2.4.b/L.2.4.c prefixes & meaningful suffixes; L.2.4.d root-word knowledge). Meaning-driven affixation is a distinct morphology skill.",
+    "standards": [
+      {"code": "L.2.4.b", "grade": "2", "strand": "Language", "subject": "ela"},
+      {"code": "L.1.4.b", "grade": "1", "strand": "Language", "subject": "ela"}
+    ],
+    "fun_no_competition": "The chosen affix-stamp clunks down with a satisfying steam-hiss and the new word rolls off glowing; a meaning-bubble shows what it now means. A meaning-mismatch gives a gentle 'try a different stamp'. Rebuild words endlessly.",
+    "interaction": "tap",
+    "character_world": "Gizmo the badger running a cozy word-stamping factory",
+    "web_shell_feasibility": "feasible — root + affix-stamps; lookup table maps (root,affix)->valid word + meaning; meaning-target match. Conveyor/steam are CSS sprites.",
+    "asset_idea": "stub: root tile + affix buttons; CA5 art: factory conveyor, stamping press, Gizmo badger sprite-sheet"
+  },
+  {
+    "id": "gapfill-16",
+    "name": "Sides & Corners Lab (Analyze the Shape)",
+    "mechanic": "A 2D or 3D shape sits on an inspection table with two tally counters: SIDES/EDGES and CORNERS/VERTICES. The child taps each side and each corner once (it lights as counted), filling the two tallies, then drags the shape's NAME card that matches its attribute counts ('4 sides, 4 corners -> square'). Analyzes and names shapes by attribute count rather than by silhouette.",
+    "design_lens": "experiment-sandbox-measure",
+    "why_distinct": "Shapes are composed (C029/C089/C140), sorted (C018), and tiled in the 152, but never ANALYZED by counting attributes (K.G.B.4 analyze & compare 2D/3D shapes by sides/vertices; 2.G.A.1 recognize shapes by a specified number of angles/faces). Tap-to-count-attributes then name is the distinct instantiation.",
+    "standards": [
+      {"code": "K.G.B.4", "grade": "K", "strand": "Geometry", "subject": "math"},
+      {"code": "2.G.A.1", "grade": "2", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "Each tapped side traces a glowing edge-line and each corner pops a tiny dot, ticking the counters with a soft click; the right name-card snaps on and the shape does a happy spin. No timer — inspect each shape as slowly as you like.",
+    "interaction": "tap",
+    "character_world": "Iris the inspector-inchworm with a shape magnifier",
+    "web_shell_feasibility": "feasible — shape SVG with tappable edge/vertex hot-zones incrementing counters; name-card match on counts. 3D shapes use pre-rendered rotatable sprite frames. No loop.",
+    "asset_idea": "stub: SVG shapes + two counters; CA5 art: inspection table, glowing edges/vertices, Iris inchworm sprite-sheet"
+  },
+  {
+    "id": "gapfill-17",
+    "name": "Draw the Shape I Name (Attribute Sketch)",
+    "mechanic": "A request names a shape by ATTRIBUTE ('draw a shape with 3 sides' / 'a shape with 4 equal sides'). The child taps dots on a pegboard grid and the segments auto-connect into a closed figure; the figure is accepted when it satisfies the named attribute (closed, right side-count, equal-sides if asked). Lenient, dot-snapped — no precise handwriting.",
+    "design_lens": "draw-trace-path",
+    "why_distinct": "Existing draw games trace numerals/letters (C045/C047), cut/partition (C038/C040), or draw symmetry halves (retargeted). None DRAW A SHAPE TO AN ATTRIBUTE SPEC (1.G.A.1 build/draw shapes with defining attributes; 2.G.A.1 draw shapes with specified attributes). Producing a closed figure to a side-count is the new generative geometry move.",
+    "standards": [
+      {"code": "1.G.A.1", "grade": "1", "strand": "Geometry", "subject": "math"},
+      {"code": "2.G.A.1", "grade": "2", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "Each segment snaps between pegs with a twangy string sound; closing a valid shape makes it fill with a soft color and a paint-snail leaves a glossy trail around its border. An open or wrong-count figure just waits patiently for another peg. Sketch and re-sketch freely.",
+    "interaction": "tap",
+    "character_world": "Sketch the snail on a glowing geo-pegboard",
+    "web_shell_feasibility": "feasible — peg grid; taps add vertices, auto-segments; validity check = closed loop + side-count (+ equal-length test on snapped grid). All DOM/SVG, no loop.",
+    "asset_idea": "stub: peg dots + lines; CA5 art: geoboard, paint-snail trail, Sketch snail sprite-sheet"
+  },
+  {
+    "id": "gapfill-18",
+    "name": "Two-Step Story Counter (Multi-Step Word Problem)",
+    "mechanic": "A narrated two-event story plays ('5 ducks were on the pond. 3 more came. Then 2 flew away.'). The child must resolve it in ORDER: first set the running total after event 1+2 on a counter, confirm, then apply event 3, and dial the final result. The interim-then-final two-stage entry enforces the two-step structure rather than a single answer.",
+    "design_lens": "operate-run-a-system",
+    "why_distinct": "C008 solves a single add-to/take-from story; this instantiates TWO-STEP word problems (2.OA.A.1 use addition and subtraction within 100 to solve two-step problems). The required interim total makes the multi-step structure load-bearing, distinct from a one-shot result dial.",
+    "standards": [
+      {"code": "2.OA.A.1", "grade": "2", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "After each event the pond ripples and the running-total lily-pad number gently updates as you set it; nailing the final count makes all the ducks line up and quack a little tune. No clock — replay the story and re-count as much as you like.",
+    "interaction": "tap",
+    "character_world": "Dabble the duckling keeping count on a calm pond",
+    "web_shell_feasibility": "feasible — story TTS + two sequential number-dials (interim, final) with structural check. Ripples/ducks are CSS sprites. No loop.",
+    "asset_idea": "stub: counter + duck dots; CA5 art: pond scene, lily-pad number display, duckling sprite-sheet"
+  },
+  {
+    "id": "gapfill-19",
+    "name": "Add It on the Hundred Board (Within-100 Compute)",
+    "mechanic": "A 100-board (10×10) and a problem like '37 + 25'. The child places a marker on 37, then makes the jumps that ENCODE place-value addition: drag +2 ten-rows (down) then +5 ones (across), landing on the answer cell. The board's grid forces the tens-as-rows / ones-as-columns place-value strategy; the landing cell is the computed sum.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "C046 draws hop-arcs on a linear number line (within 20); C005/C013 compose/regroup place value but don't COMPUTE a two-digit sum. This instantiates 2.NBT.B.5/2.NBT.B.7 (add/subtract within 100/1000 using place-value strategies) by moving down-for-tens / across-for-ones on a hundred-board — the 2D place-value move is new.",
+    "standards": [
+      {"code": "2.NBT.B.5", "grade": "2", "strand": "Number & Operations in Base Ten", "subject": "math"},
+      {"code": "2.NBT.B.7", "grade": "2", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "The marker is a cheerful frog that hops down a column with a 'boing' per ten and skips across with a tick per one; landing on the answer cell makes it bloom a lily and croak happily. Overshoot just lets you hop back. Re-solve freely.",
+    "interaction": "drag",
+    "character_world": "Hopscotch the frog on a giant garden hundred-board",
+    "web_shell_feasibility": "feasible — 100-cell grid, marker position state, tens=row moves / ones=col moves; answer = target cell. All DOM grid math, no loop.",
+    "asset_idea": "stub: 10x10 number grid + token; CA5 art: garden hundred-board, lily-bloom cells, frog hop sprite-sheet"
+  },
+  {
+    "id": "gapfill-20",
+    "name": "Build the Line Plot (Measure & Plot)",
+    "mechanic": "A bin of objects (pencils, ribbons) must each be measured against a unit ruler; after measuring each, the child drops an X above that length's tick on a number-line line-plot. Once all are plotted, a question appears ('how many are 5 units long?' / 'which length has the most?') answered by reading the stack of Xs. Generates the data set, then reads it.",
+    "design_lens": "experiment-sandbox-measure",
+    "why_distinct": "C058 tallies spinner trials into a chart; C050/C051 measure but don't PLOT. This instantiates 2.MD.D.9 (generate measurement data and show it on a line plot) plus reading it — measure-then-line-plot is absent. Distinct from the bar/tally because it plots measured lengths on a marked number line.",
+    "standards": [
+      {"code": "2.MD.D.9", "grade": "2", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "2.MD.A.1", "grade": "2", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "Each measured object floats up and drops its X with a soft 'plink' onto the growing tower of Xs; the tallest stack gives a friendly little flag-wave when you read it. No timer — measure and re-plot the whole bin as you like.",
+    "interaction": "drag",
+    "character_world": "Plotter the platypus at a measuring-and-charting bench",
+    "web_shell_feasibility": "feasible — draggable ruler (reuse C050 component) + line-plot drop-zones per tick; read-question taps the stacks. All DOM, no loop.",
+    "asset_idea": "stub: ruler + number-line with X marks; CA5 art: measuring bench, X-token stacks, platypus sprite-sheet"
+  },
+  {
+    "id": "gapfill-21",
+    "name": "Read the Picture Graph (Answer the Graph)",
+    "mechanic": "A finished picture/bar graph (favorite fruits, pets in class) is shown. Questions arrive: 'How many MORE chose apples than pears?', 'Which got the fewest?', 'How many in all?'. The child reads the bars/icons and dials or taps the answer, with each icon worth a stated value. Pure read-and-interpret a given graph (with a compare/difference question).",
+    "design_lens": "logic-deduction-puzzle",
+    "why_distinct": "C058 GENERATES data and reads 'which is most'; this READS a GIVEN graph and answers compare/'how many more'/'total' questions (2.MD.D.10 draw a picture/bar graph and solve put-together/take-apart/compare problems using its information). The difference-from-a-graph question is the distinct comprehension demand.",
+    "standards": [
+      {"code": "2.MD.D.10", "grade": "2", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "1.MD.C.4", "grade": "1", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "Reading a bar highlights it with a gentle glow and the icons in it do a tiny wave as you count them; the right answer makes a ribbon stretch between the two compared bars to 'show the difference'. No score — re-read and re-answer freely.",
+    "interaction": "tap",
+    "character_world": "Quill the porcupine, keeper of the class survey-board",
+    "web_shell_feasibility": "feasible — static graph (DOM bars/icons) + question bank with computed answers; answer via tap or number-dial. Glow/ribbon are CSS.",
+    "asset_idea": "stub: bar/icon graph + question text; CA5 art: cork survey-board, icon stickers, porcupine sprite-sheet"
+  },
+  {
+    "id": "gapfill-22",
+    "name": "Tile the Garden Bed (Area by Square Units)",
+    "mechanic": "A rectangular garden bed must be fully covered with unit-square tiles, no gaps/overlaps; a counter ticks each tile placed. When the bed is full the child reads the total square units (the area) and answers 'how many square tiles cover it?'. Optionally the bed is shown as rows×columns to connect to repeated addition.",
+    "design_lens": "construct-build",
+    "why_distinct": "C029 builds an array to count rows×columns (multiplication readiness); this instantiates AREA as a count of unit squares covering a region (3.MD.C.5/3.MD.C.6 measure area by counting unit squares). The 'how many square units cover it' framing and full-coverage gate make it area, not array-structure. (If grade-3 in scope.)",
+    "standards": [
+      {"code": "3.MD.C.6", "grade": "3", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "3.MD.C.5", "grade": "3", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "Each tile snaps in with a soft 'pat' and a tiny sprout pokes up; covering the whole bed makes the whole patch bloom and a gardener-bunny reads the area number with a proud nod. Lift and re-tile as often as you like — no countdown.",
+    "interaction": "drag",
+    "character_world": "Sprout the bunny gardener tiling flower beds",
+    "web_shell_feasibility": "feasible — grid bed + unit-tile drop-cells, full-coverage check, area = filled-cell count. All DOM grid, no loop.",
+    "asset_idea": "stub: grid rectangle + square tiles; CA5 art: garden bed, sprouting tiles, gardener-bunny sprite-sheet"
+  },
+  {
+    "id": "gapfill-23",
+    "name": "Fence the Field (Perimeter Walk)",
+    "mechanic": "A rectilinear field on a unit grid needs a fence around its border. The child lays fence-segments along each edge unit; a length counter ticks per segment. When the border is closed, the child reads the total fence length (perimeter) and answers 'how many fence-units go around?'. The walk-the-border act builds perimeter as the distance around.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "Distinct from area-tiling (gapfill-22, fills the inside) — this traces only the BORDER. Instantiates 3.MD.D.8 (perimeter of polygons, find the perimeter given side lengths / by counting unit edges). No perimeter game exists in the 152. (If grade-3 in scope.)",
+    "standards": [
+      {"code": "3.MD.D.8", "grade": "3", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "Each fence-piece clicks into the border with a wooden 'tok' and a little sheep trots along the new rail; closing the loop pens the flock with a happy chorus of baas as the perimeter number tallies. Re-fence freely.",
+    "interaction": "tap",
+    "character_world": "Woolly the sheepdog fencing meadow paddocks",
+    "web_shell_feasibility": "feasible — grid field, tappable border edges, closed-loop check, perimeter = border-edge count. All DOM, no loop.",
+    "asset_idea": "stub: grid outline + fence segments; CA5 art: meadow, wooden rail fence, sheepdog + sheep sprite-sheets"
+  },
+  {
+    "id": "gapfill-24",
+    "name": "Skip-Count Orchard (Equal-Groups Multiply)",
+    "mechanic": "Baskets each hold the SAME number of apples (e.g. 4 baskets of 3). The child fills each basket to the equal group-size, then must read the situation two ways: tap the repeated-addition strip (3+3+3+3) AND dial the total, with the page naming it as 'groups OF' (4 groups of 3 = 12). Instantiates multiplication as equal groups.",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "C043 partitions a set into equal groups (readiness, retargeted to 2.OA.C.4); C034 meshes gears for skip-count. This explicitly instantiates 3.OA.A.1/3.OA.A.3 (interpret products of whole numbers as groups-of; use multiplication to solve equal-group problems) by coupling equal-group fill with the groups-of total. (If grade-3 in scope.)",
+    "standards": [
+      {"code": "3.OA.A.1", "grade": "3", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "3.OA.A.3", "grade": "3", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "Filling each basket to the equal count makes it glow and a friendly squirrel hops in; reading the groups-of total makes all the baskets line up and pour into one big crate with a tumble of happy thunks. No timer — refill the orchard freely.",
+    "interaction": "drag",
+    "character_world": "Pippa the squirrel in a sunny apple orchard",
+    "web_shell_feasibility": "feasible — N basket drop-zones with equal target counts; repeated-addition strip auto-builds; total dial. All DOM, no loop.",
+    "asset_idea": "stub: baskets + apple dots; CA5 art: orchard, glowing baskets, squirrel sprite-sheet"
+  },
+  {
+    "id": "gapfill-25",
+    "name": "Fair-Share Fraction Plate (Unit Fractions of a Whole)",
+    "mechanic": "A whole snack (a pancake) must be split among N friends. The child partitions the whole into N EQUAL parts (snap-cuts), gives one part to each, and then names the unit fraction each friend gets by tapping the fraction word/symbol ('one third', 1/3). Then 'shade' to show a non-unit fraction ('two thirds left'). Builds unit-fraction naming on a whole.",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "C030/C038/C042 partition or shade equal shares but were retargeted to 2.G.A.3 share-naming (half/quarter only). This goes to grade-3 fraction LANGUAGE proper (3.NF.A.1 understand a unit fraction 1/b as one part of b equal parts; name 1/b and a/b). Naming the unit fraction and a non-unit fraction is the grade-3 instantiation distinct from the equal-shares retarget. (If grade-3 in scope.)",
+    "standards": [
+      {"code": "3.NF.A.1", "grade": "3", "strand": "Number & Operations—Fractions", "subject": "math"}
+    ],
+    "fun_no_competition": "Each equal cut makes the pancake puff steam and a friend slides in with a plate; naming the fraction makes a syrup drizzle spell '1/3' in shiny letters. Unequal cuts gently re-merge so you can try again. Split and name freely.",
+    "interaction": "tap",
+    "character_world": "Flip the pancake-chef bear sharing breakfast",
+    "web_shell_feasibility": "feasible — snap-cut a whole into N equal SVG wedges/strips; fraction name/symbol taps; equal-partition check. All SVG, no loop.",
+    "asset_idea": "stub: circle + cut lines + fraction chips; CA5 art: pancake, syrup-letters, chef-bear sprite-sheet"
+  },
+  {
+    "id": "gapfill-26",
+    "name": "Snap to the Nearest Ten (Rounding Hill)",
+    "mechanic": "A numbered ball sits on a hill marked with ten-posts (e.g. 30 and 40, with the midpoint 35 flagged). The child reads the ball's number (e.g. 37), then rolls it toward the NEARER ten-post by deciding which side of the midpoint it's on, and confirms the rounded value. The hill's slope visualizes 'closer to which ten'.",
+    "design_lens": "physical-metaphor",
+    "why_distinct": "The original rounding design (C115) was DROPPED as off-grade; rounding (3.NBT.A.1 round whole numbers to the nearest 10/100) is now uncovered but IS in scope if grade-3 is included. This re-instantiates it cleanly with an explicit midpoint decision (the pedagogy of rounding) rather than a thrown launch — the midpoint-side reasoning is the fix. (If grade-3 in scope.)",
+    "standards": [
+      {"code": "3.NBT.A.1", "grade": "3", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "The ball wobbles at the midpoint flag, then rolls with a gentle 'whee' to the nearer post where a little gopher catches it and posts the rounded number on a flag. Wrong side just rolls back to the top to reconsider. Roll as many as you like.",
+    "interaction": "drag",
+    "character_world": "Rolo the gopher on a grassy number-hill",
+    "web_shell_feasibility": "feasible — number on a slider hill, midpoint compare decides nearer ten, roll = CSS transition. No loop.",
+    "asset_idea": "stub: hill line + two ten-posts + ball; CA5 art: grassy hill, flag posts, gopher catch sprite-sheet"
+  },
+  {
+    "id": "gapfill-27",
+    "name": "Apostrophe Splice (Contraction Welder)",
+    "mechanic": "Two words (do + not, I + am) sit on a workbench with a glowing apostrophe-spark. The child squishes the pair together and taps where the apostrophe replaces the dropped letters, welding the contraction (don't, I'm). A meaning-check confirms it still means the same. Reverse mode: split a contraction back into its two words.",
+    "design_lens": "transform-machine-causeeffect",
+    "why_distinct": "C036 welds two whole words into a compound (no letters dropped); this welds a CONTRACTION (letters drop, apostrophe inserted) — L.2.2.c (use apostrophes to form contractions). The drop-and-apostrophe move is mechanically and orthographically distinct from compounding.",
+    "standards": [
+      {"code": "L.2.2.c", "grade": "2", "strand": "Language", "subject": "ela"}
+    ],
+    "fun_no_competition": "The two words clank together and the apostrophe-spark zaps the dropped letters away with a tiny firework, leaving the contraction glowing; a meaning-bubble nods 'same idea!'. Wrong apostrophe spot fizzles softly. Weld and un-weld freely.",
+    "interaction": "tap",
+    "character_world": "Sparky the firefly running an apostrophe welding shop",
+    "web_shell_feasibility": "feasible — word-pair to contraction lookup; tap the correct drop-position; reverse split. Spark/firework are CSS sprites. No loop.",
+    "asset_idea": "stub: two word tiles + apostrophe icon; CA5 art: tiny welding bench, spark effects, firefly sprite-sheet"
+  },
+  {
+    "id": "gapfill-28",
+    "name": "Use the Map Key (Read Informational Visuals)",
+    "mechanic": "A simple illustrated map/infographic has a KEY (legend) of symbols (a tree = forest, a wavy line = river). Questions ask the child to USE the key + map to answer ('How do you get from the house to the pond — which symbols do you pass?', 'How many trees are on the map?'). The child taps map features, reading the key to interpret them. Use-images/diagrams to gain meaning.",
+    "design_lens": "navigate-travel-spatial",
+    "why_distinct": "C059 reads a labeled diagram for one part's function; C103 plans a route. This instantiates RI.1.7/RI.2.7 (use illustrations/the information gained from images, and use text features like a KEY to locate information). Reading a legend to interpret symbols on a map is a distinct informational-visual comprehension task.",
+    "standards": [
+      {"code": "RI.2.7", "grade": "2", "strand": "Reading: Informational Text", "subject": "ela"},
+      {"code": "RI.1.7", "grade": "1", "strand": "Reading: Informational Text", "subject": "ela"}
+    ],
+    "fun_no_competition": "Tapping a map symbol pops its key-meaning in a friendly speech-bubble; answering correctly draws a dotted explorer-trail across the map with little footprints and a chirpy 'aha!'. No timer — explore the map and its key as long as you like.",
+    "interaction": "tap",
+    "character_world": "Trek the fox-cub cartographer with a pocket map",
+    "web_shell_feasibility": "feasible — map image with tappable feature hot-zones mapped to key entries; question bank with feature-based answers. Trail = CSS dotted path.",
+    "asset_idea": "stub: simple map + legend boxes; CA5 art: storybook map, key symbols, fox-cub sprite-sheet"
+  }
+]

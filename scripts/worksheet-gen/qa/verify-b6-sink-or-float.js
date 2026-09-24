@@ -58,7 +58,8 @@ const norm = (s, loc) => low(s, loc).replace(/[^\p{L} ]+/gu, ' ').replace(/\s+/g
 const wordRe = (w) => new RegExp(`(?<!\\p{L})${String(w).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?!\\p{L})`, 'iu');
 
 /** fix round 2: the faces that run no test (their titles may not claim an experiment, rule 7b) */
-const NO_TEST = new Set(['G2-383', 'K-384']);
+// fix round 3 (da + fi landing panels): G1-408's scales are drawn already tipped; nothing is weighed or tested.
+const NO_TEST = new Set(['G2-383', 'K-384', 'G1-408']);
 /** fix round 2 (rule 7c): the lead of a title = the text before its first ':' / '?' (a leading '¿' dropped) */
 const leadOf = (t) => String(t).replace(/^[¿¡]/, '').split(/[:?]/)[0];
 /** function words that do not make a title its own question (conjunctions + interrogatives, all 11 locales) */
@@ -473,6 +474,7 @@ async function faceSection(page, judge, log, quick, banks) {
   { const b = clone(banks.en); delete b.strings['G3-400']; judge('PF3 a face string missing', validateBank(b, 'en'), /strings\.G3-400 missing \(rule 10\)/); }
   // ---- fix round 2 (the landing-audit panels): each new rule, poisoned; the shipped face / the en bank is its control
   judge('PF4 G2-383 titled an experiment (the page runs no test)', validateBank({ ...clone(banks.en), strings: { ...banks.en.strings, 'G2-383': { ...banks.en.strings['G2-383'], title: 'Sink or Float Experiment: True or False' } } }, 'en'), /strings\.G2-383 title .* claims an experiment/);
+  judge('PF4b G1-408 titled a test (the scales are drawn, nothing is weighed)', validateBank({ ...clone(banks.en), strings: { ...banks.en.strings, 'G1-408': { ...banks.en.strings['G1-408'], title: 'Heavy or Light? A Sink or Float Scale Test' } } }, 'en'), /strings\.G1-408 title .* claims an experiment/);
   judge('PF5 K-384 titled an experiment (one drawing tub, no test)', validateBank({ ...clone(banks.en), strings: { ...banks.en.strings, 'K-384': { ...banks.en.strings['K-384'], title: 'Draw What Floats and Sinks: A Sink or Float Experiment' } } }, 'en'), /strings\.K-384 title .* claims an experiment/);
   {
     const de = clone(banks.en); de.experimentWords = ['versuch']; de.strings = { ...de.strings, ...FACE_STRINGS.de, 'G1-399': { title: 'Schwimmen und Sinken: Versuch mit Vermutung', instruction: de.strings['G1-399'].instruction } };
@@ -493,22 +495,22 @@ async function faceSection(page, judge, log, quick, banks) {
 /** Control drafts carry all six strings (rule 10): the five face strings, written from the design §6 heads. */
 const FACE_STRINGS = {
   de: {
-    'G1-408': { title: 'Schwer oder leicht? Versuch zum Schwimmen und Sinken', instruction: 'Die Waage zeigt, was schwerer ist: kreise ein, was im Wasser oben schwimmt.' },
+    'G1-408': { title: 'Schwer oder leicht? Schwimmen und Sinken an der Waage', instruction: 'Die Waage zeigt, was schwerer ist: kreise ein, was im Wasser oben schwimmt.' },
     'G2-382': { title: 'Knete schwimmt: Versuch mit dem Knetboot', instruction: 'Male den Ring aus, wo jede Knetform landet, kreise ein, was schwimmt, und male dein Knetboot ins große Becken.' },
-    // gate FIXTURES (never shipped): fix round 2 — G2-383 / K-384 claim no experiment (rule 7b), K-384 does not restate G1-204 (7c)
+    // gate FIXTURES (never shipped): fix round 2 — G2-383 / K-384 claim no experiment (rule 7b), K-384 does not restate G1-204 (7c); fix round 3 — G1-408 too
     'G2-383': { title: 'Warum schwimmt etwas? Richtig oder falsch', instruction: 'Lies jeden Satz und kreise richtig oder falsch ein.' },
     'K-384': { title: 'Male Dinge im Wasser: oben und am Boden', instruction: 'Male zwei Dinge, die oben schwimmen, in die Kästchen am Wasser und zwei, die sinken, in die Kästchen am Boden.' },
     'G3-400': { title: 'Versuchsprotokoll: Schwimmen und Sinken', instruction: 'Wähle eine Frage, schreib deine Vermutung auf, mach den Versuch und schreib, was du gelernt hast.' },
   },
   fr: {
-    'G1-408': { title: "Lourd ou léger ? L'expérience flotte ou coule avec une balance", instruction: 'La balance montre ce qui est le plus lourd : entoure ce qui flotte.' },
+    'G1-408': { title: "Lourd ou léger ? Flotte ou coule sur la balance", instruction: 'La balance montre ce qui est le plus lourd : entoure ce qui flotte.' },
     'G2-382': { title: "La pâte à modeler qui flotte : l'expérience de la forme", instruction: "Colorie l'anneau où finit chaque forme, entoure ce qui flotte et dessine ton bateau dans le grand bassin." },
     'G2-383': { title: 'Pourquoi ça flotte ? Vrai ou faux', instruction: 'Lis chaque phrase et entoure vrai ou faux.' },
     'K-384': { title: 'Dessine les objets dans le bassin : mon dessin', instruction: "Dessine deux choses qui flottent dans les cases sur l'eau et deux qui coulent dans les cases au fond." },
     'G3-400': { title: "Mon compte rendu d'expérience : flotte ou coule", instruction: 'Choisis une question, écris ce que tu prévois, teste et écris ce que tu as appris.' },
   },
   es: {
-    'G1-408': { title: '¿Pesado o ligero? Experimento flota o se hunde con balanza', instruction: 'La balanza muestra qué pesa más: encierra lo que flota en el agua.' },
+    'G1-408': { title: '¿Pesado o ligero? Flota o se hunde en la balanza', instruction: 'La balanza muestra qué pesa más: encierra lo que flota en el agua.' },
     'G2-382': { title: 'La plastilina que flota: experimento de la forma', instruction: 'Colorea el anillo donde queda cada forma, encierra lo que flota y dibuja tu barco en el tanque grande.' },
     'G2-383': { title: '¿Por qué flota? Verdadero o falso', instruction: 'Lee cada oración y encierra verdadero o falso.' },
     'K-384': { title: 'Objetos que flotan y se hunden: mi dibujo', instruction: 'Dibuja dos cosas que flotan en los recuadros del agua y dos que se hunden en los recuadros del fondo.' },

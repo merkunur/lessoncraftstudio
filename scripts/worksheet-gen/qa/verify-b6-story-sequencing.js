@@ -172,8 +172,10 @@ function validateBank(block, loc, common = COMMON) {
     if (!Array.isArray(S) || S.length !== 4) { f.push(`r10: ${loc} ${id}: ${S && S.length} sentences ≠ 4`); continue; }
     if (!Array.isArray(W) || W.length !== 4) { f.push(`r10: ${loc} ${id}: ${W && W.length} stateWords ≠ 4`); continue; }
     S.forEach((sen, k) => {
-      const op = (block.openers4 || [])[k];
-      if (!op || !sen.normalize('NFC').startsWith(op.normalize('NFC'))) f.push(`r10: ${loc} ${id} sentence ${k + 1} does not start with "${op}"`);
+      // fix round 3: the G1-402 sentences carry NO order word (six landing panels: "First / Then / Last" numbered
+      // the sentences by their first word). Checked against every order literal the bank owns.
+      const hit = orderWordAt(sen, [...(block.openers4 || []), ...(block.starters4 || []), ...(block.words3 || [])]);
+      if (hit) f.push(`r10: ${loc} ${id} sentence ${k + 1} opens with the order word "${hit}"`);
       if ([...sen].length > long) f.push(`r10: ${loc} ${id} sentence ${k + 1} is ${[...sen].length} chars (> ${long})`);
       if (!hasWord(sen, W[k])) f.push(`r10: ${loc} ${id} sentence ${k + 1} lacks its stateWord "${W[k]}"`);
       S.forEach((other, j) => { if (j !== k && hasWord(other, W[k])) f.push(`r10: ${loc} ${id} stateWord "${W[k]}" also fits sentence ${j + 1} (two pictures)`); });
@@ -218,15 +220,21 @@ function validateBank(block, loc, common = COMMON) {
   return f;
 }
 
+/** the order literal a sentence OPENS with ("First," → "first" + a non-letter), or null */
+function orderWordAt(sentence, literals) {
+  const txt = String(sentence || '').trim().normalize('NFC').toLowerCase();
+  for (const o of literals) {
+    const w = String(o || '').replace(/[\s,;:.]+$/u, '').normalize('NFC').toLowerCase();
+    if (w && txt.startsWith(w) && !/\p{L}/u.test(txt.charAt(w.length))) return o;
+  }
+  return null;
+}
+
 /* ---------------------------------------------------------------- helpers for main */
 const clone = (x) => JSON.parse(JSON.stringify(x));
 function synthLocale(loc, openers, words3) {
   const b = clone(STORY_SEQUENCING.en);
-  const oldOp = b.openers4;
-  if (openers) {
-    b.openers4 = openers;
-    for (const st of Object.values(b.stories)) st.sentences = st.sentences.map((s, k) => openers[k] + s.slice(oldOp[k].length));
-  }
+  if (openers) b.openers4 = openers;
   if (words3) {
     b.words3 = words3;
     const i = b.strings['first-next-last-cut'];
@@ -266,8 +274,10 @@ async function main() {
     const de = synthLocale('de', ['Zuerst', 'Dann', 'Danach', 'Zum Schluss']);
     const ctl = validateBank(de, 'de');
     ok(!ctl.length, 'the synthetic de control validates clean: ' + ctl.slice(0, 3).join(' | '));
-    const bad = clone(de); bad.stories.apple.sentences[1] = 'Danach' + bad.stories.apple.sentences[1].slice('Dann'.length);
-    judge('P10 de sentence 2 starting "Danach"', validateBank(bad, 'de'), /^r10: de apple sentence 2 does not start with "Dann"/);
+    const bad = clone(de); bad.stories.apple.sentences[1] = 'Danach hat der Apfel einen Biss.';
+    judge('P10 de sentence 2 opening with the order word "Danach"', validateBank(bad, 'de'), /^r10: de apple sentence 2 opens with the order word "Danach"/);
+    const bad2 = clone(STORY_SEQUENCING.en); bad2.stories.fence.sentences[3] = 'Finally, the whole fence is painted.';
+    judge('P10b en sentence 4 opening with the starter "Finally,"', validateBank(bad2, 'en'), /^r10: en fence sentence 4 opens with the order word "Finally,"/);
   }
   {
     const bad = clone(STORY_SEQUENCING.en); bad.stories.apple.stateWords[1] = 'bite'; bad.stories.apple.sentences[2] = 'Then, bite after bite, the apple has three bites.';

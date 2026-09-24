@@ -271,7 +271,7 @@ const FACE_BUILD = {
     return { bodyHtml, meta: { mode: d.mode, stories: stories.map((s) => s.id).join(','), answers: '' } };
   },
 
-  /** F4 (G1): each story told in four sentences (each with its opener), printed SCRAMBLED with an order box to number; the four pictures SCRAMBLED too, never across from their own sentence; draw lines. */
+  /** F4 (G1): each story told in four sentences (NO order word: the child orders by content), printed SCRAMBLED with an order box to number; the four pictures SCRAMBLED too, never across from their own sentence; draw lines. */
   'sequencing-sentences'(block, d, loc, rng, seam) {
     if (d.answer !== 'line' || d.sentences !== true || d.order !== 'scrambled') throw new Error('K-379 F4: config is not the sentences face');
     const ex = new Set(block.excludeStories || []);
@@ -449,8 +449,11 @@ async function faceVerify(page, mode) {
         sen.forEach((s, k) => {
           const rank = +s.el.dataset.lcsRank;
           const t = s.el.querySelector('[data-lcs-sentence-text]');
-          // the opener belongs to the sentence's STORY rank, not to its printed row
-          if (!t.textContent.startsWith(openers[rank - 1])) fails.push(`${id}: the rank-${rank} sentence does not open with "${openers[rank - 1]}"`);
+          // fix round 3 (six landing panels): a sentence that opens with its order word numbers itself, so the
+          // ordering half of the task solved from the first word. No sentence may open with ANY order word.
+          const txt = t.textContent.trim().normalize('NFC').toLowerCase();
+          const hit = openers.find((o) => { const w = String(o).replace(/[\s,;:.]+$/u, '').normalize('NFC').toLowerCase(); return w && txt.startsWith(w) && !/\p{L}/u.test(txt.charAt(w.length)); });
+          if (hit) fails.push(`${id}: the rank-${rank} sentence opens with the order word "${hit}"`);
           const lh = parseFloat(getComputedStyle(t).lineHeight);
           if (t.getBoundingClientRect().height > 2 * lh + 1) fails.push(`${id}: sentence row ${k + 1} runs past 2 lines`);
           const boxes = s.el.querySelectorAll('[data-lcs-order-box]');

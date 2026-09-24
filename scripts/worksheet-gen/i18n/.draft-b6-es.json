@@ -66,7 +66,7 @@
       "instruction": "Escribe en el cuadro de cada oración la letra del animal del que habla; un animal sobra."
     },
     "G1-407": {
-      "title": "¿Qué necesitan los animales para vivir?",
+      "title": "Lo que necesitan los animales: comida y casa",
       "instruction": "Para cada animal, encierra en un círculo lo que come y la casa donde vive."
     },
     "G2-381": {
@@ -78,7 +78,7 @@
       "instruction": "Colorea un círculo en la primera pecera antes de la prueba, otro en la segunda pecera después y la estrella si te sorprendió."
     },
     "G1-408": {
-      "title": "¿Pesado o ligero? Experimento flota o se hunde con balanza",
+      "title": "¿Pesado o ligero? Flota o se hunde con la balanza",
       "instruction": "La balanza muestra qué objeto pesa más: encierra en un círculo el que flota en el agua."
     },
     "G2-382": {
@@ -86,7 +86,7 @@
       "instruction": "Colorea el círculo donde queda cada forma de plastilina, encierra en un círculo lo que flota y dibuja tu barco de plastilina en la pecera grande."
     },
     "G2-383": {
-      "title": "¿Por qué flotan las cosas? Verdadero o falso",
+      "title": "Flota o se hunde: ¿verdadero o falso?",
       "instruction": "Lee cada oración y encierra en un círculo verdadero o falso."
     },
     "K-384": {
@@ -94,7 +94,7 @@
       "instruction": "Dibuja dos cosas que flotan en los recuadros del agua y dos cosas que se hunden en los recuadros del fondo."
     },
     "G3-400": {
-      "title": "Investigación: ¿flota o se hunde? Mi reporte de laboratorio",
+      "title": "Investigación flota o se hunde: mi reporte de laboratorio",
       "instruction": "Elige una pregunta, escribe lo que crees, haz la prueba, dibuja lo que pasó y escribe lo que aprendiste."
     },
     "G2-377": {
@@ -200,10 +200,10 @@
       "stories": {
         "apple": {
           "sentences": [
-            "Primero, la manzana está entera.",
-            "Después, la manzana tiene una mordida.",
-            "Luego, la manzana tiene tres mordidas.",
-            "Al final, solo queda el corazón."
+            "La manzana está entera.",
+            "La manzana tiene una mordida.",
+            "La manzana tiene tres mordidas.",
+            "Solo queda el corazón."
           ],
           "stateWords": [
             "entera",
@@ -230,10 +230,10 @@
         },
         "banana": {
           "sentences": [
-            "Primero, el plátano está sin pelar.",
-            "Después, cuelga una tira de cáscara.",
-            "Luego, cuelgan tres tiras de cáscara.",
-            "Al final, solo queda la cáscara vacía."
+            "El plátano está sin pelar.",
+            "Cuelga una tira de cáscara.",
+            "Cuelgan tres tiras de cáscara.",
+            "Solo queda la cáscara vacía."
           ],
           "stateWords": [
             "sin pelar",
@@ -256,10 +256,10 @@
         },
         "sandwich": {
           "sentences": [
-            "Primero, hay dos rebanadas de pan.",
-            "Después, una rebanada tiene mermelada.",
-            "Luego, el sándwich está cortado a la mitad.",
-            "Al final, solo quedan la orilla y unas migajas."
+            "Hay dos rebanadas de pan.",
+            "Una rebanada tiene mermelada.",
+            "El sándwich está cortado a la mitad.",
+            "Solo quedan la orilla y unas migajas."
           ],
           "stateWords": [
             "dos rebanadas",
@@ -286,10 +286,10 @@
         },
         "cake": {
           "sentences": [
-            "Primero, el pastel está entero.",
-            "Después, ya le cortaron una rebanada.",
-            "Luego, ya se comieron la mitad del pastel.",
-            "Al final, solo quedan migajas."
+            "El pastel está entero.",
+            "Al pastel le falta una rebanada.",
+            "La mitad del pastel ya no está.",
+            "Solo quedan migajas."
           ],
           "stateWords": [
             "entero",
@@ -314,10 +314,10 @@
         },
         "fence": {
           "sentences": [
-            "Primero, la cerca está toda blanca.",
-            "Después, dos tablas están pintadas.",
-            "Luego, cuatro tablas están pintadas.",
-            "Al final, toda la cerca está pintada."
+            "La cerca está toda blanca.",
+            "Hay dos tablas pintadas.",
+            "Hay cuatro tablas pintadas.",
+            "Pintaron toda la cerca."
           ],
           "stateWords": [
             "toda blanca",
@@ -342,10 +342,10 @@
         },
         "letter": {
           "sentences": [
-            "Primero, la tarjeta está en blanco.",
-            "Después, hay una flor dibujada en la tarjeta.",
-            "Luego, le escriben tres renglones.",
-            "Al final, la tarjeta está en un sobre con timbre."
+            "La tarjeta está en blanco.",
+            "Hay una flor dibujada en la tarjeta.",
+            "Junto al dibujo escriben tres renglones.",
+            "La tarjeta está en un sobre con timbre."
           ],
           "stateWords": [
             "en blanco",
@@ -370,10 +370,10 @@
         },
         "paper-chain": {
           "sentences": [
-            "Primero, hay una hoja de papel.",
-            "Después, la hoja está cortada en cinco tiras.",
-            "Luego, con dos tiras hacen dos aros.",
-            "Al final, los cinco aros forman una cadena."
+            "Hay una hoja de papel.",
+            "La hoja está cortada en cinco tiras.",
+            "Con dos tiras hacen dos aros.",
+            "Los cinco aros forman una cadena."
           ],
           "stateWords": [
             "una hoja",
@@ -400,10 +400,10 @@
         },
         "beach-walk": {
           "sentences": [
-            "Primero, no hay huellas en la arena.",
-            "Después, una niña camina y deja tres huellas.",
-            "Luego, la niña encuentra una concha.",
-            "Al final, la niña regresa a la toalla con la concha."
+            "En la arena no hay huellas.",
+            "Una niña camina y deja tres huellas.",
+            "La niña encuentra una concha.",
+            "La niña regresa a la toalla con la concha."
           ],
           "stateWords": [
             "no hay huellas",
@@ -562,7 +562,7 @@
         ]
       },
       "reasons": {
-        "wash-hands": "Quita los gérmenes de todas las cosas que tocamos.",
+        "wash-hands": "Quita los gérmenes que se nos pegan cuando tocamos las cosas.",
         "brush-teeth": "Mantiene nuestra sonrisa limpia y brillante.",
         "sleep": "Nuestro cuerpo y nuestro cerebro descansan para un nuevo día.",
         "move-body": "Nos pone fuertes, rápidos y en forma.",
@@ -816,7 +816,7 @@
           "instruction": "Escribe en el cuadro de cada oración la letra del animal del que habla; un animal sobra."
         },
         "G1-407": {
-          "title": "¿Qué necesitan los animales para vivir?",
+          "title": "Lo que necesitan los animales: comida y casa",
           "instruction": "Para cada animal, encierra en un círculo lo que come y la casa donde vive."
         },
         "G2-381": {
@@ -984,7 +984,7 @@
           "instruction": "Colorea un círculo en la primera pecera antes de la prueba, otro en la segunda pecera después y la estrella si te sorprendió."
         },
         "G1-408": {
-          "title": "¿Pesado o ligero? Experimento flota o se hunde con balanza",
+          "title": "¿Pesado o ligero? Flota o se hunde con la balanza",
           "instruction": "La balanza muestra qué objeto pesa más: encierra en un círculo el que flota en el agua."
         },
         "G2-382": {
@@ -992,7 +992,7 @@
           "instruction": "Colorea el círculo donde queda cada forma de plastilina, encierra en un círculo lo que flota y dibuja tu barco de plastilina en la pecera grande."
         },
         "G2-383": {
-          "title": "¿Por qué flotan las cosas? Verdadero o falso",
+          "title": "Flota o se hunde: ¿verdadero o falso?",
           "instruction": "Lee cada oración y encierra en un círculo verdadero o falso."
         },
         "K-384": {
@@ -1000,7 +1000,7 @@
           "instruction": "Dibuja dos cosas que flotan en los recuadros del agua y dos cosas que se hunden en los recuadros del fondo."
         },
         "G3-400": {
-          "title": "Investigación: ¿flota o se hunde? Mi reporte de laboratorio",
+          "title": "Investigación flota o se hunde: mi reporte de laboratorio",
           "instruction": "Elige una pregunta, escribe lo que crees, haz la prueba, dibuja lo que pasó y escribe lo que aprendiste."
         }
       },

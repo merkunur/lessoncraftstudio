@@ -556,10 +556,11 @@ async function main() {
     {
       const f4 = (plan) => F4._buildWith({ block: STORY_SEQUENCING.en, config: F4.difficulty[2], plan: { stories: ['apple', 'fence'], ...plan } }, { locale: 'en' }, { rng: makeRng('x') }).bodyHtml;
       const P = [[3, 1, 4, 2], [2, 4, 1, 3]];
-      const good = f4({ perms: P, sperms: [[2, 4, 1, 3], [4, 1, 3, 2]] });
+      const good = f4({ perms: P, sperms: [[2, 4, 1, 3], [1, 3, 4, 2]] });   // fix round 3: fence was [4,1,3,2], a shift by one row (see PF4d)
       const c = await verifyHtml(page, good, F4, OUTD, 'pf4-ctl'); ok(!c.length, 'F4 control plan: ' + c.join(' | '));
       judge('PF4 the F4 sentences printed in story order', await verifyHtml(page, f4({ perms: P, sperms: [[1, 2, 3, 4], [4, 1, 3, 2]] }), F4, OUTD, 'pf4'), /the sentence column 1234 breaks the scramble law \(identity\)/);
       judge('PF4b an F4 picture straight across from its own sentence', await verifyHtml(page, f4({ perms: P, sperms: [[3, 4, 2, 1], [4, 1, 3, 2]] }), F4, OUTD, 'pf4b'), /the rank-3 picture sits straight across from its own sentence/);
+      judge('PF4d an F4 block whose sentences all sit one row from their pictures', await verifyHtml(page, f4({ perms: P, sperms: [[2, 4, 1, 3], [4, 1, 3, 2]] }), F4, OUTD, 'pf4d'), /give the matching away \(every sentence sits one row from its picture\)/);
       const filled = good.replace(/(<span class="ss-order"[^>]*>)(<\/span>)/, '$12$2');
       judge('PF4c an F4 order box carrying its numeral', filled === good ? ['POISON DID NOT APPLY'] : await verifyHtml(page, filled, F4, OUTD, 'pf4c'), /the order box of row 1 carries content/);
     }

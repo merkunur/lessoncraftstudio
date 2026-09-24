@@ -847,6 +847,9 @@
         "regnskoven",
         "jungle",
         "junglen"
+      ],
+      "excludeAnimals": [
+        "moose"
       ]
     },
     "sink-or-float": {

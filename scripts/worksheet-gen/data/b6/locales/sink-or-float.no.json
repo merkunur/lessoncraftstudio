@@ -27,7 +27,7 @@
     "nail": "spiker",
     "hammer": "hammer",
     "bolt": "bolt",
-    "pliers": "tang",
+    "pliers": "nebbtang",
     "scissors": "saks",
     "potato": "potet"
   },
@@ -143,7 +143,7 @@
       "instruction": "Fargelegg en ring i det første vannkaret før forsøket, en ring i det andre vannkaret etterpå, og stjerna hvis du ble overrasket."
     },
     "G1-408": {
-      "title": "Tung eller lett? Flyte eller synke, forsøk med vekt",
+      "title": "Tung eller lett? Flyte eller synke med skålvekt",
       "instruction": "Vekta viser hva som er tyngst: sett ring rundt det som flyter i vann."
     },
     "G2-382": {
@@ -151,7 +151,7 @@
       "instruction": "Fargelegg ringen der hver leirform havner, sett ring rundt det som flyter, og tegn så din egen leirbåt i det store vannkaret."
     },
     "G2-383": {
-      "title": "Hvorfor flyter ting? Sant eller usant om å flyte og synke",
+      "title": "Fakta om å flyte og synke: sant eller usant",
       "instruction": "Les hver setning, og sett ring rundt sant eller usant."
     },
     "K-384": {
@@ -159,7 +159,7 @@
       "instruction": "Tegn to ting som flyter, i de stiplede rutene på vannet, og to som synker, i de stiplede rutene på bunnen."
     },
     "G3-400": {
-      "title": "Mitt forsøk: flyter appelsinen?",
+      "title": "Min forsøksrapport: flyte eller synke",
       "instruction": "Velg et spørsmål, skriv hva du tror, test det, og tegn hva som skjedde og skriv hva du lærte."
     }
   },

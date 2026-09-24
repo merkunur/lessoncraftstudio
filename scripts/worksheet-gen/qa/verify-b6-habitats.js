@@ -279,6 +279,11 @@ function localeBankSweep() {
         let m;
         try { m = t._buildWith(b, { ...t.difficulty[2] }, { locale: l }, { rng: rng(id) }).meta; } catch (x) { if (!(b.refuse || []).includes(id) && !(b.refuse || []).includes(t.difficulty[2].layout)) ok(false, `${l} ${id} seed ${k}: refused (${x.message})`); continue; }
         n++;
+        // fix round 3 (da landing panel: no wild elk in Danish forests): a locale's excludeAnimals never reach a page
+        for (const ex of b.excludeAnimals || []) {
+          if (!HABITATS.ANIMALS.some((a) => a.key === ex)) ok(false, `${l}: excludeAnimals names an unknown animal "${ex}"`);
+          else if (JSON.stringify(m).includes(`"${ex}"`)) ok(false, `${l} ${id} seed ${k}: the excluded animal ${ex} reached the page`);
+        }
         if (id === 'G1-406') {
           for (const r of m.rows) for (const x of TYPE.oddRowOracle(r.habitat, r.residents, r.stranger, region)) ok(false, `${l} G1-406 seed ${k}: ${x}`);
           for (const x of TYPE.oddPageTells(m.rows.map((r) => r.stranger))) ok(false, `${l} G1-406 seed ${k}: ${x}`);

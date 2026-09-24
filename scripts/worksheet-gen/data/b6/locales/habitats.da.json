@@ -267,5 +267,8 @@
     "regnskoven",
     "jungle",
     "junglen"
+  ],
+  "excludeAnimals": [
+    "moose"
   ]
 }

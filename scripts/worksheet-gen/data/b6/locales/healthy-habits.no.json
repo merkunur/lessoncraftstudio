@@ -13,7 +13,7 @@
       "instruction": "Se på hvert bilde, og sett ring rundt før, under eller etter tannpussen."
     },
     "stop-the-germs": {
-      "title": "Stopp bakteriene: host og nys i albuen",
+      "title": "Stopp bakteriene: hva hindrer at de sprer seg?",
       "instruction": "Sett ring rundt bildet i hver rad som stopper bakterier fra å spre seg."
     },
     "why-habits": {
@@ -21,7 +21,7 @@
       "instruction": "Trekk en strek fra hver vane til setningen som forteller hvorfor vi gjør det."
     },
     "habit-chart": {
-      "title": "Ukeplan med gode vaner",
+      "title": "Vaneskjema for uka",
       "instruction": "Sett en hake i ruta hver dag for hver vane du har gjort."
     }
   },
@@ -114,7 +114,7 @@
     ]
   },
   "reasons": {
-    "wash-hands": "Det fjerner bakteriene fra alt vi har tatt på.",
+    "wash-hands": "Slik blir vi kvitt bakteriene vi fikk da vi tok på ting.",
     "brush-teeth": "Da holder smilet seg rent og fint.",
     "sleep": "Kroppen og hjernen hviler og blir klare for en ny dag.",
     "move-body": "Da blir vi spreke, raske og sterke.",

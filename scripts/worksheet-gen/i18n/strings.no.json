@@ -2861,7 +2861,7 @@
   },
   "G2-377": {
     "title": "Sammenhengende skrift: små bokstaver i, u og t",
-    "instruction": "Skriv over de grå bokstavene, og skriv videre selv med bokstavene bundet sammen til enden av linjen og på den tomme linjen under."
+    "instruction": "Skriv over de grå bokstavene, og skriv videre selv med bokstavene bundet sammen til enden av linjen og på de tomme linjene under."
   },
   "K-381": {
     "title": "Bildeserie med 3 bilder: først, så og til slutt",
@@ -2892,7 +2892,7 @@
     "instruction": "Se på hvert bilde, og sett ring rundt før, under eller etter tannpussen."
   },
   "G1-404": {
-    "title": "Stopp bakteriene: host og nys i albuen",
+    "title": "Stopp bakteriene: hva hindrer at de sprer seg?",
     "instruction": "Sett ring rundt bildet i hver rad som stopper bakterier fra å spre seg."
   },
   "G2-379": {
@@ -2900,7 +2900,7 @@
     "instruction": "Trekk en strek fra hver vane til setningen som forteller hvorfor vi gjør det."
   },
   "G1-405": {
-    "title": "Ukeplan med gode vaner",
+    "title": "Vaneskjema for uka",
     "instruction": "Sett en hake i ruta hver dag for hver vane du har gjort."
   },
   "K-383": {
@@ -2916,7 +2916,7 @@
     "instruction": "Skriv i hver rute bokstaven til dyret setningen handler om; ett dyr blir til overs."
   },
   "G1-407": {
-    "title": "Hva trenger dyrene for å leve?",
+    "title": "Hva dyrene trenger: mat og et hjem",
     "instruction": "Sett ring rundt maten og hjemmet til hvert dyr."
   },
   "G2-381": {
@@ -2924,7 +2924,7 @@
     "instruction": "Tegn tre dyr som lever der inne i bildet, skriv navnene deres og en plante som vokser der, og sett ring rundt ordet som passer til dette leveområdet."
   },
   "G1-408": {
-    "title": "Tung eller lett? Flyte eller synke, forsøk med vekt",
+    "title": "Tung eller lett? Flyte eller synke med skålvekt",
     "instruction": "Vekta viser hva som er tyngst: sett ring rundt det som flyter i vann."
   },
   "G2-382": {
@@ -2932,7 +2932,7 @@
     "instruction": "Fargelegg ringen der hver leirform havner, sett ring rundt det som flyter, og tegn så din egen leirbåt i det store vannkaret."
   },
   "G2-383": {
-    "title": "Hvorfor flyter ting? Sant eller usant om å flyte og synke",
+    "title": "Fakta om å flyte og synke: sant eller usant",
     "instruction": "Les hver setning, og sett ring rundt sant eller usant."
   },
   "K-384": {
@@ -2940,7 +2940,7 @@
     "instruction": "Tegn to ting som flyter, i de stiplede rutene på vannet, og to som synker, i de stiplede rutene på bunnen."
   },
   "G3-400": {
-    "title": "Mitt forsøk: flyter appelsinen?",
+    "title": "Min forsøksrapport: flyte eller synke",
     "instruction": "Velg et spørsmål, skriv hva du tror, test det, og tegn hva som skjedde og skriv hva du lærte."
   },
   "G2-384": {

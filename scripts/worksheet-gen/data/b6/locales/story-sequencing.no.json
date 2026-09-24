@@ -24,10 +24,10 @@
   "stories": {
     "apple": {
       "sentences": [
-        "Først er eplet helt.",
-        "Så er det tatt en bit av eplet.",
-        "Etterpå er det tatt tre biter av eplet.",
-        "Til slutt er det bare skrotten igjen."
+        "Eplet er helt.",
+        "Det er tatt en bit av eplet.",
+        "Det er tatt tre biter av eplet.",
+        "Bare skrotten er igjen."
       ],
       "stateWords": [
         "helt",
@@ -54,10 +54,10 @@
     },
     "banana": {
       "sentences": [
-        "Først er bananen ikke skrelt.",
-        "Så henger en flik av skallet ned.",
-        "Etterpå henger tre fliker ned.",
-        "Til slutt er bare det tomme skallet igjen."
+        "Bananen er ikke skrelt.",
+        "Bananen har en flik av skallet som henger ned.",
+        "Bananen har tre fliker som henger ned.",
+        "Bare det tomme skallet er igjen."
       ],
       "stateWords": [
         "ikke skrelt",
@@ -80,10 +80,10 @@
     },
     "sandwich": {
       "sentences": [
-        "Først ligger det to brødskiver på brettet.",
-        "Så er det syltetøy på den ene skiva.",
-        "Etterpå er sandwichen delt i to.",
-        "Til slutt er det bare skorpa og noen smuler igjen."
+        "Det ligger to brødskiver på brettet.",
+        "Den ene skiva har fått syltetøy på seg.",
+        "Sandwichen er delt i to.",
+        "Bare skorpa og noen smuler er igjen."
       ],
       "stateWords": [
         "to brødskiver",
@@ -110,10 +110,10 @@
     },
     "cake": {
       "sentences": [
-        "Først er kaken hel.",
-        "Så er ett stykke skåret ut.",
-        "Etterpå er halve kaken spist.",
-        "Til slutt er det bare smuler igjen."
+        "Kaken er hel.",
+        "Ett stykke er skåret ut av kaken.",
+        "Det er bare halve kaken igjen.",
+        "Bare smuler er igjen på fatet."
       ],
       "stateWords": [
         "hel",
@@ -138,10 +138,10 @@
     },
     "fence": {
       "sentences": [
-        "Først er gjerdet helt hvitt.",
-        "Så er to planker malt.",
-        "Etterpå er fire planker malt.",
-        "Til slutt er hele gjerdet malt."
+        "Gjerdet er helt hvitt.",
+        "Gjerdet har to planker som er malt.",
+        "Gjerdet har fire planker som er malt.",
+        "Det er malt på hele gjerdet."
       ],
       "stateWords": [
         "helt hvitt",
@@ -166,10 +166,10 @@
     },
     "letter": {
       "sentences": [
-        "Først er kortet tomt.",
-        "Så er det tegnet en blomst på kortet.",
-        "Etterpå er det skrevet tre linjer.",
-        "Til slutt ligger kortet i en konvolutt med frimerke."
+        "Kortet er tomt.",
+        "Det er tegnet en blomst på kortet.",
+        "Det er skrevet tre linjer ved siden av tegningen.",
+        "Kortet ligger i en konvolutt med frimerke."
       ],
       "stateWords": [
         "tomt",
@@ -194,10 +194,10 @@
     },
     "paper-chain": {
       "sentences": [
-        "Først er det ett ark.",
-        "Så er arket klippet i fem strimler.",
-        "Etterpå er to strimler limt til ringer.",
-        "Til slutt er alle fem ringene blitt en papirlenke."
+        "Det er ett ark.",
+        "Arket er klippet i fem strimler.",
+        "Det er limt to strimler til ringer.",
+        "Alle fem ringene er blitt en papirlenke."
       ],
       "stateWords": [
         "ett ark",
@@ -224,10 +224,10 @@
     },
     "beach-walk": {
       "sentences": [
-        "Først er det ingen fotspor i sanden.",
-        "Så går et barn og lager tre fotspor.",
-        "Etterpå finner barnet et skjell.",
-        "Til slutt er barnet tilbake på håndkleet med skjellet."
+        "Det er ingen fotspor i sanden.",
+        "Et barn går og lager tre fotspor.",
+        "Barnet finner et skjell.",
+        "Barnet er tilbake på håndkleet med skjellet."
       ],
       "stateWords": [
         "ingen fotspor",

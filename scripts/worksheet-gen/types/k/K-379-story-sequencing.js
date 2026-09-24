@@ -169,6 +169,7 @@ function sentencePerms(picPerms, rng) {
     for (let t = 0; t < 400 && !S; t++) {
       const c = drawPerm(4, rng);
       if (c.some((r, j) => r === P[j])) continue;
+      if (matchTell(P, c)) continue;
       if (out.some((q) => q.join('') === c.join('') || q.indexOf(1) === c.indexOf(1))) continue;
       S = c;
     }
@@ -176,6 +177,21 @@ function sentencePerms(picPerms, rng) {
     out.push(S);
   }
   return out;
+}
+/**
+ * fix round 3 (fr landing panel): the picture-row -> sentence-row map of an F4 block must not be solvable from one
+ * link. Refused: a shift by one row (every sentence one row above / below its picture — measured harmless to the
+ * rank-1 / rank-4 slot balance, 24.3 / 25.7 %). NOT refused, measured: the fr panel's neighbour-swap map (rows 1-2 and
+ * 3-4 trade places). Refusing it too pushes the rank-1 / rank-4 sentence slots to 17.8 / 32.2 %, outside the gate's
+ * 25 ± 6 — a tell on the NUMBERING (the task itself) to cure a tell on the line-drawing half; the numbering wins. `pics[j]` = the story rank drawn in
+ * picture row j, `sens[i]` = the rank printed in sentence row i. Returns the tell's name or null.
+ */
+function matchTell(pics, sens) {
+  const n = pics.length;
+  const m = pics.map((rank) => sens.indexOf(rank));
+  const off = m.map((i, j) => (i - j + n) % n);
+  if (off.every((x) => x === off[0]) && (off[0] === 1 || off[0] === n - 1)) return 'every sentence sits one row from its picture';
+  return null;
 }
 function faceRoot(mode, inner, stamps = {}, style = '') {
   const attrs = Object.entries(stamps).map(([k, v]) => ` data-lcs-${k}="${String(v).replace(/&/g, '&amp;').replace(/"/g, '&quot;')}"`).join('');
@@ -336,6 +352,13 @@ async function faceVerify(page, mode) {
       if (f > 1) return 'forward chain ' + f; if (b > 1) return 'backward chain ' + b; if (x > 1) return x + ' fixed points';
       return null;
     };
+    // the in-page copy of matchTell (page.evaluate cannot reach module scope; keep both in step)
+    const matchTell = (pics, sens) => {
+      const n = pics.length, m = pics.map((rank) => sens.indexOf(rank));
+      const off = m.map((i, j) => (i - j + n) % n);
+      if (off.every((x) => x === off[0]) && (off[0] === 1 || off[0] === n - 1)) return 'every sentence sits one row from its picture';
+      return null;
+    };
     const byX = (els) => els.map((el) => ({ el, r: el.getBoundingClientRect() })).sort((a, b) => a.r.left - b.r.left);
     const byY = (els) => els.map((el) => ({ el, r: el.getBoundingClientRect() })).sort((a, b) => a.r.top - b.r.top);
     const empty = (el) => !el.textContent.trim() && !el.querySelector('svg, img, text');
@@ -469,6 +492,7 @@ async function faceVerify(page, mode) {
         const seqs = pics.map((p) => +p.el.dataset.lcsSeq);
         if (seqs.slice().sort().join('') !== '1234') fails.push(`${id}: pictures ${seqs.join('')} are not 1..4`);
         const lf = law(seqs); if (lf) fails.push(`${id}: the picture column ${seqs.join('')} breaks the scramble law (${lf})`);
+        { const mt = matchTell(seqs, ranks); if (mt) fails.push(`${id}: picture/sentence rows give the matching away (${mt})`); }
         // fix round 2: no picture sits STRAIGHT ACROSS from its own sentence (measured: the picture whose vertical
         // centre lies inside a sentence's row)
         for (const s of sen) {

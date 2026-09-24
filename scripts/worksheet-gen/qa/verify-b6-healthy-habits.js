@@ -287,7 +287,7 @@ function validateBank(block, loc) {
  */
 const REASON_READ = {
   en: {
-    'wash-hands': ['It clears away the germs from all the things we touched.', 'wash-hands'],
+    'wash-hands': ['It gets rid of the germs we picked up when we touched things.', 'wash-hands'],
     'brush-teeth': ['It keeps our smile clean and bright.', 'brush-teeth'],
     sleep: ['Our body and brain rest and get ready for a new day.', 'sleep'],
     'move-body': ['It makes us fit, fast and strong.', 'move-body'],

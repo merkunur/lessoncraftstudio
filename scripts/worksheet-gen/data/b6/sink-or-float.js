@@ -160,10 +160,10 @@ const SINK_OR_FLOAT = {
         instruction: 'Color a ring in the first tank before the test, a ring in the second tank after it, and the star if you were surprised.',
       },
       // the five faces (Phase E; ids FIXED by _records/b6var-id-allocation.json). Titles = design §6 (en), instructions = §4.
-      'G1-408': { title: 'Heavy or Light? A Sink or Float Scale Test', instruction: 'The scale shows which thing is heavier: circle the thing that floats in water.' },
+      'G1-408': { title: 'Heavy or Light? Sink or Float on a Balance Scale', instruction: 'The scale shows which thing is heavier: circle the thing that floats in water.' },
       'G2-382': { title: 'Make Clay Float: A Change the Shape Experiment', instruction: 'Color the ring where each clay shape ends up, circle the thing that floats, then draw your own clay boat in the big tank.' },
       // fix round 2 (en / de panels): neither page runs a test, so neither title may claim an experiment
-      'G2-383': { title: 'Why Things Float: Sink or Float True or False', instruction: 'Read each sentence and circle true or false.' },
+      'G2-383': { title: 'Floating Facts: Sink or Float True or False', instruction: 'Read each sentence and circle true or false.' },
       'K-384': { title: 'Draw What Floats and Sinks: A Sink or Float Drawing', instruction: 'Draw two things that float in the dashed boxes on the water and two that sink in the dashed boxes on the bottom.' },
       'G3-400': { title: 'Sink or Float Investigation: My Lab Report', instruction: 'Choose a question, write what you think, test it, then draw what happened and write what you learned.' },
     },

@@ -75,7 +75,7 @@ const HEALTHY_HABITS = {
       // FIX ROUND 1 (native panels auditing the EN source, 2026-09-23): no reason names its habit's body part or
       // tool ("nose", "skin" were), the wash-hands reason no longer fits brushing, and "keeps holes away" (cavities)
       // is gone. Each is pinned to the one habit it fits in qa/verify-b6-healthy-habits.js REASON_READ.
-      'wash-hands': 'It clears away the germs from all the things we touched.',
+      'wash-hands': 'It gets rid of the germs we picked up when we touched things.',
       'brush-teeth': 'It keeps our smile clean and bright.',
       sleep: 'Our body and brain rest and get ready for a new day.',
       'move-body': 'It makes us fit, fast and strong.',

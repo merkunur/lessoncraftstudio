@@ -91,7 +91,7 @@ const HABITATS_LOC = {
       'K-383': { title: 'Animal Homes', instruction: 'Draw a line from each animal to its home.' },
       'G1-406': { title: 'Who Does Not Live Here?', instruction: 'For each habitat, cross out the animal that does not live there.' },
       'G2-380': { title: 'How Animals Adapt', instruction: 'Write the letter of the animal each sentence tells about in its box; one animal is left over.' },
-      'G1-407': { title: 'What Animals Need', instruction: 'For each animal, circle the food it eats and the home it lives in.' },
+      'G1-407': { title: 'What Animals Need: Food and a Home', instruction: 'For each animal, circle the food it eats and the home it lives in.' },
       'G2-381': { title: 'My Habitat Report', instruction: 'In the picture, draw three animals that live there, write their names and a plant that grows there, and circle the word that fits this habitat.' },
     },
   },

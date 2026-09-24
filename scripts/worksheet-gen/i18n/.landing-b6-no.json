@@ -54,7 +54,7 @@
       "strand": "Lesing: fortellinger",
       "p1": "Venstre side har åtte små bilder, høyre side åtte setninger, hver med en tom rute foran. De fire øverste radene hører til én historie og de fire nederste til en annen. Den første handler om en papirlenke: et ark, fem papirstrimler, to strimler limt til ringer og til slutt alle fem ringene i en lenke. Den andre handler om en banan som skrelles, fra hel til tomt skall. Innenfor hver historie står både bildene og setningene stokket.",
       "p2": "Arbeidet har to deler. Først leser barnet de fire setningene i en historie og skriver 1 til 4 i rutene. Så trekker det en strek fra hver setning til bildet sitt. Bananbildene ligner hverandre, så det holder ikke å kaste et blikk – barnet må lese om det er én flik eller tre fliker som henger ned. Slik bindes lesing og bildeforståelse sammen, akkurat det elevene øver på når de leser sine første korte fortellende tekster på 2. trinn.",
-      "p3": "Hver setning begynner med Først, Så, Etterpå eller Til slutt. Det hjelper et usikkert barn i gang med nummereringen, mens koblingen til bildet krever at hele setningen blir lest. Arket skrives ut på én side. Sammenlignet med grunnarket er det teksten som bærer oppgaven her, ikke bildene alene. Etterpå kan barnet skrive en egen setning om hva som skjer med papirlenka – kanskje den skal henge i klasserommet?"
+      "p3": "Setningene har ingen ord som «først» eller «til slutt» som røper rekkefølgen, så barnet må forstå hva som skjer: et ark må klippes før strimlene kan limes til ringer, og bananen må skrelles før bare skallet er igjen. Det gjør nummereringen til ekte leseforståelse. Arket skrives ut på én side. Sammenlignet med grunnarket er det teksten som bærer oppgaven her, ikke bildene alene. Etterpå kan barnet skrive en egen setning om hva som skjer med papirlenka – kanskje den skal henge i klasserommet?"
     },
     "G2-378": {
       "slug": "skriv-til-bildeserien-med-ordhjelp-3-trinn",
@@ -103,13 +103,13 @@
     "G1-404": {
       "slug": "stopp-bakteriene-host-og-nys-i-albuen-2-trinn",
       "eyebrow": "Oppgaveark: stopp bakteriene · 2. trinn",
-      "h1": "Stopp bakteriene: host og nys i albuen",
-      "title": "Stopp bakteriene – host og nys i albuen, 2. trinn | til utskrift PDF gratis",
-      "metaDescription": "Stopp bakteriene, 2. trinn: fire rader med to bilder – nys i albuen, vask med såpe, egen kopp og papir i søpla. Barnet ringer rundt det som stopper smitte. Gratis PDF.",
+      "h1": "Stopp bakteriene: hva hindrer at de sprer seg?",
+      "title": "Stopp bakteriene – hva hindrer smitte? 2. trinn | til utskrift PDF gratis",
+      "metaDescription": "Stopp bakteriene, 2. trinn: fire rader med to bilder – nys i albuen, vask med såpe, egen kopp og papir i bøtta. Barnet ringer rundt det som stopper smitte. Gratis PDF.",
       "strand": "Folkehelse og livsmestring",
       "p1": "Fire rader med to bilder hver fyller arket. I første rad hoster et barn i albuen, mens et annet nyser rett ut så dråpene står rundt. I andre rad vaskes hendene med såpe under kranen, og ved siden av er det hender dekket av bakterier. I tredje rad deler to barn samme kopp, mens to andre drikker av hver sin. I fjerde rad slipper et barn et papir på gulvet ved siden av søppelbøtta, og på det andre bildet havner papiret i bøtta.",
       "p2": "Barnet setter ring rundt bildet i hver rad som stopper bakterier fra å spre seg. Hver rad er et valg mellom to vaner, og barnet må kunne si hvorfor den ene er bedre: dråpene i lufta når andre, mens albuen fanger dem. Arket gjør usynlige bakterier synlige, og det hjelper barn på 2. trinn som fortsatt tenker konkret. Smittevern i hverdagen hører til folkehelse og livsmestring i LK20 og henger tett sammen med livet i klasserommet.",
-      "p3": "Overskriften nevner hosting og nysing i albuen, men bare første rad handler om det; de tre andre radene tar for seg håndvask, egen kopp og å kaste papiret. Arket skrives ut på én side. Øv gjerne albuenyset sammen etterpå – det sitter bedre i kroppen enn på papiret. Håndvask får en grundigere behandling på arket med fem bilder som skal nummereres."
+      "p3": "Overskriften spør hva som hindrer at bakteriene sprer seg, og de fire radene gir fire svar: albuen, såpen, egen kopp og søppelbøtta. Arket skrives ut på én side. Øv gjerne albuenyset sammen etterpå – det sitter bedre i kroppen enn på papiret. Håndvask får en grundigere behandling på arket med fem bilder som skal nummereres."
     },
     "G2-379": {
       "slug": "gode-vaner-hvorfor-gjor-vi-det-3-trinn",
@@ -118,16 +118,16 @@
       "title": "Gode vaner – hvorfor gjør vi det? 3. trinn | til utskrift PDF gratis",
       "metaDescription": "Gode vaner for 3. trinn: fem vaner – solhatt, bevegelse, håndvask, søvn og tannpuss – og fem setninger om hvorfor. Barnet trekker strek fra vane til grunn. Gratis PDF.",
       "strand": "Folkehelse og livsmestring",
-      "p1": "Til venstre står fem bilder av vaner: et barn med hatt i sola, et barn som løper, et barn som vasker hendene med såpe, et barn som sover under månen og et barn som pusser tennene. Til høyre står fem setninger i hver sin boks, i en annen rekkefølge. Én sier at kroppen og hjernen hviler og blir klare for en ny dag. En annen sier at vi blir spreke, raske og sterke. En tredje sier at vi ikke blir brent en varm sommerdag.",
+      "p1": "Til venstre står fem bilder av vaner: et barn med hatt i sola, et barn som løper, et barn som vasker hendene med såpe, et barn som sover under månen og et barn som pusser tennene. Til høyre står fem setninger i hver sin boks, i en annen rekkefølge. Én sier at kroppen og hjernen hviler og blir klare for en ny dag. En annen sier at vi blir spreke, raske og sterke. En tredje sier at vi ikke blir brent en varm sommerdag, og en fjerde at vi blir kvitt bakteriene vi fikk på hendene da vi tok på ting.",
       "p2": "Barnet trekker en strek fra hver vane til setningen som forteller hvorfor vi gjør det. Nå er det ikke nok å kjenne igjen vanen; barnet må lese og forstå en begrunnelse. Det gjør arket til et naturlig steg opp fra de enklere arkene i familien, og det passer 3. trinn, der de fleste leser korte setninger selv. Å kunne begrunne en vane står sentralt i folkehelse og livsmestring i LK20 – en vane sitter bedre når barnet vet hvorfor den er god.",
-      "p3": "Les setningene høyt sammen først hvis noen i gruppa leser sakte, og la barna forklare med egne ord etterpå. Arket skrives ut på én side. Til slutt kan hvert barn finne på en egen god vane, tegne den og skrive en setning om hvorfor den er viktig. Arbeidet passer godt sammen med ukeplanen i samme familie, der barna krysser av for vanene gjennom en hel uke."
+      "p3": "Les setningene høyt sammen først hvis noen i gruppa leser sakte, og la barna forklare med egne ord etterpå. Arket skrives ut på én side. Til slutt kan hvert barn finne på en egen god vane, tegne den og skrive en setning om hvorfor den er viktig. Arbeidet passer godt sammen med vaneskjemaet for uka i samme familie, der barna krysser av for vanene gjennom en hel uke."
     },
     "G1-405": {
       "slug": "ukeplan-med-gode-vaner-2-trinn",
       "eyebrow": "Oppgaveark: gode vaner · 2. trinn",
-      "h1": "Ukeplan med gode vaner",
-      "title": "Ukeplan med gode vaner – sett en hake hver dag | til utskrift PDF gratis",
-      "metaDescription": "Ukeplan med gode vaner for 2. trinn: pusse tenner, vaske hender, bevege seg, drikke vann og legge seg tidlig – sju ruter per vane fra mandag til søndag. Gratis PDF.",
+      "h1": "Vaneskjema for uka",
+      "title": "Vaneskjema for uka – gode vaner, en hake hver dag | til utskrift PDF gratis",
+      "metaDescription": "Vaneskjema for uka, 2. trinn: pusse tenner, vaske hender, bevege seg, drikke vann og legge seg tidlig – sju ruter per vane fra mandag til søndag. Gratis PDF.",
       "strand": "Folkehelse og livsmestring",
       "p1": "Arket er et skjema for én uke. Øverst står ukedagene fra man til søn, og nedover står fem vaner med et lite bilde og ord: pusse tenner, vaske hender, bevege seg, drikke vann og legge seg tidlig. Hver vane har sju tomme ruter, én for hver dag. Radene er annenhver hvit og beige, så barnet ser lett hvor det er. Uka begynner på mandag, slik den gjør i en norsk kalender.",
       "p2": "Hver dag setter barnet en hake i ruta for hver vane det har gjort. Her finnes ingen rette eller gale svar – arket er et speil, ikke en prøve. Poenget er at barnet selv legger merke til egne vaner over tid, og ser hvilke dager som går lett og hvilke som er tunge. Å ta ansvar for egen hverdag er en del av folkehelse og livsmestring i LK20, og på 2. trinn klarer de fleste barn å fylle ut skjemaet selv.",
@@ -180,9 +180,9 @@
     "G1-407": {
       "slug": "hva-trenger-dyrene-for-a-leve-mat-og-hjem-2-trinn",
       "eyebrow": "Oppgaveark: dyrenes leveområder · 2. trinn",
-      "h1": "Hva trenger dyrene for å leve?",
-      "title": "Hva trenger dyrene for å leve? Mat og hjem | til utskrift PDF gratis",
-      "metaDescription": "Hva trenger dyrene for å leve? Fire dyr – bever, edderkopp, fugl og kanin – med to matbilder og to hjem hver. Barnet ringer rundt mat og hjem. 2. trinn, gratis PDF.",
+      "h1": "Hva dyrene trenger: mat og et hjem",
+      "title": "Hva dyrene trenger: mat og et hjem, 2. trinn | til utskrift PDF gratis",
+      "metaDescription": "Hva dyrene trenger: fire dyr – bever, edderkopp, fugl og kanin – med to matbilder og to hjem hver. Barnet ringer rundt mat og hjem. 2. trinn, gratis PDF.",
       "strand": "Naturfag",
       "p1": "Øverst står setningen «Alle dyr trenger mat og et hjem.» Under den er det fire rader, én for hvert dyr: en bever, en edderkopp, en fugl og en kanin. Etter dyret følger to bilder under overskriften Mat og to under overskriften Hjem. Matbildene er et blad, gress og en mygg, og hjemmene er en beverhytte, et spindelvev, et reir og en hule. De samme bildene går igjen i flere rader, så hvert dyr må vurderes for seg.",
       "p2": "Barnet setter ring rundt maten og hjemmet til hvert dyr – én ring i hver gruppe. Beveren spiser blader og bor i hytta, edderkoppen fanger mygg i spindelvevet, fuglen spiser mygg og bor i reiret, og kaninen spiser gress og bor i hula. Myggen er riktig svar for både edderkoppen og fuglen, men feil svar for beveren og kaninen. Slik ser barnet at det som er mat for ett dyr, ikke betyr noe for et annet.",
@@ -206,15 +206,15 @@
       "title": "Flyte eller synke – gjett og test med et forsøk | til utskrift PDF gratis",
       "metaDescription": "Flyte eller synke – forsøk for 2. trinn: seks ting fra bolt til lekebåt. Barnet gjetter først, tester i vann og fargelegger en ring i to vannkar. Gratis PDF.",
       "strand": "Naturfag",
-      "p1": "Øverst forklarer to små vannkar hva ringene betyr: en ring på overflaten er flyter, en ring på bunnen er synker. Under står seks rader, én for hver ting: en bolt, en saks, en fotball, en tang, et gresskar og en lekebåt. Hver rad har to vannkar med to stiplede ringer – ett under overskriften Jeg gjetter og ett under Forsøket – og en stjerne under Overrasket?",
+      "p1": "Øverst forklarer to små vannkar hva ringene betyr: en ring på overflaten er flyter, en ring på bunnen er synker. Under står seks rader, én for hver ting: en bolt, en saks, en ball, en nebbtang, et gresskar og en lekebåt. Hver rad har to vannkar med to stiplede ringer – ett under overskriften Jeg gjetter og ett under Forsøket – og en stjerne under Overrasket?",
       "p2": "Før forsøket fargelegger barnet en ring i det første karet: tror jeg at tingen flyter eller synker? Så legges den i vann, og barnet fargelegger ringen i det andre karet. Stjerna fargelegges bare hvis resultatet kom som en overraskelse. Det er stjerna som gjør arket til et ekte forsøk: å gjette feil er ikke en feil, men en oppdagelse. Gresskaret er et godt eksempel – stort og tungt, men det flyter. Naturfag i LK20 legger vekt på å undre seg, gjette og undersøke på de første trinnene.",
       "p3": "Ha en balje eller et stort kar med vann klart, og helst de ekte tingene. Du kan godt bytte ut en ting med noe fra klasserommet. Arket skrives ut på én side og kan fylles ut i par. Tell stjernene til slutt: hvilke ting overrasket flest? Dette er grunnarket i familien. De andre arkene undersøker vekt med en skålvekt, form med leire og påstander om hva som flyter og synker."
     },
     "G1-408": {
       "slug": "tung-eller-lett-flyte-og-synke-forsok-2-trinn",
       "eyebrow": "Oppgaveark: flyte eller synke · 2. trinn",
-      "h1": "Tung eller lett? Flyte eller synke, forsøk med vekt",
-      "title": "Tung eller lett? Flyte og synke, forsøk | til utskrift PDF gratis",
+      "h1": "Tung eller lett? Flyte eller synke med skålvekt",
+      "title": "Tung eller lett? Flyte og synke med skålvekt | til utskrift PDF gratis",
       "metaDescription": "Tung eller lett? Fire skålvekter med to ting hver – potet og kongle, spiker og eple, fjær og stein, kubbe og hammer. Barnet ringer rundt det som flyter. Gratis PDF.",
       "strand": "Naturfag",
       "p1": "Arket har fire skålvekter under hverandre, og i hver vektskål ligger en ting. Vekta viser hva som er tyngst: skålen med den tyngste tingen henger lavest. På første vekt ligger en potet og en kongle, på andre en spiker og et eple, på tredje en fjær og en stein, og på fjerde en vedkubbe og en hammer. Tingene er tegnet i farger, og det står ingen ord på vektene.",
@@ -235,13 +235,13 @@
     "G2-383": {
       "slug": "hvorfor-flyter-ting-sant-eller-usant-3-trinn",
       "eyebrow": "Oppgaveark: flyte eller synke · 3. trinn",
-      "h1": "Hvorfor flyter ting? Sant eller usant om å flyte og synke",
-      "title": "Hvorfor flyter ting? Sant eller usant, forsøk | til utskrift PDF gratis",
-      "metaDescription": "Hvorfor flyter ting? Seks påstander om potet, skip, gresskar, fjær og eple for 3. trinn. Barnet ringer rundt sant eller usant og tester etterpå med et forsøk. Gratis PDF.",
+      "h1": "Fakta om å flyte og synke: sant eller usant",
+      "title": "Flyte og synke – sant eller usant før forsøket | til utskrift PDF gratis",
+      "metaDescription": "Sant eller usant om å flyte og synke, 3. trinn: seks påstander og sju ting på en hylle – spiker, fjær, vedkubbe, potet, gresskar, skip og eple. Gratis PDF.",
       "strand": "Naturfag",
-      "p1": "Øverst står en hylle med fem bilder og navn: potet, skip, gresskar, fjær og eple. Under følger seks nummererte setninger, hver med ordene sant og usant til høyre. Noen setninger handler om én ting, som «En fjær synker.» og «Et skip av stål synker.» Andre er generelle: «Noen tunge ting flyter.» og «Alle lette ting flyter.» Den siste sammenligner to ting: «Et eple flyter, men en potet synker.»",
-      "p2": "Barnet leser hver setning og setter ring rundt sant eller usant. Tre setninger er sanne og tre er usanne, og flere av dem tar tak i den vanligste misforståelsen – at det er tyngden som bestemmer. Et tungt gresskar flyter, et stort skip av stål flyter, og ikke alle lette ting gjør det. Småord som alle og noen gjør oppgaven til lesetrening også: ett lite ord snur svaret. Arket gir ikke selve forklaringen; det skaper spørsmålene som et forsøk kan svare på.",
-      "p3": "Bruk arket før forsøket: la barna svare, og test så påstandene med ekte potet, eple og fjær i en balje. Da blir arket en hypotese som prøves. Skipet må løses i tanken – eller med en båt av aluminiumsfolie. Arket skrives ut på én side og passer 3. trinn, der naturfag i LK20 handler om å undersøke og begrunne. Neste steg er arket der barnet former leire til en båt."
+      "p1": "Øverst står en hylle med sju bilder og navn: spiker, fjær, vedkubbe, potet, gresskar, skip og eple. Under følger seks nummererte setninger, hver med ordene sant og usant til høyre. Noen setninger handler om én ting, som «En fjær synker.» og «Et skip av stål synker.» Andre er generelle: «Noen tunge ting flyter.» og «Alle lette ting flyter.» Den siste sammenligner to ting: «Et eple flyter, men en potet synker.»",
+      "p2": "Barnet leser hver setning og setter ring rundt sant eller usant. Tre setninger er sanne og tre er usanne, og flere av dem tar tak i den vanligste misforståelsen – at det er tyngden som bestemmer. Hylla gir barnet bevisene: vedkubben er tung og flyter, og spikeren er lett og synker, så «Alle lette ting flyter» kan avvises med et eksempel. Småord som alle og noen gjør oppgaven til lesetrening også: ett lite ord snur svaret. Arket gir ikke selve forklaringen; det skaper spørsmålene som et forsøk kan svare på.",
+      "p3": "Bruk arket før forsøket: la barna svare, og test så påstandene med ekte potet, eple, spiker og fjær i en balje. Da blir arket en hypotese som prøves. Skipet må løses i tanken – eller med en båt av aluminiumsfolie. Arket skrives ut på én side og passer 3. trinn, der naturfag i LK20 handler om å undersøke og begrunne. Neste steg er arket der barnet former leire til en båt."
     },
     "K-384": {
       "slug": "tegn-det-som-flyter-og-synker-forsok-1-trinn",
@@ -257,13 +257,13 @@
     "G3-400": {
       "slug": "mitt-forsok-flyter-appelsinen-4-trinn",
       "eyebrow": "Oppgaveark: flyte eller synke · 4. trinn",
-      "h1": "Mitt forsøk: flyter appelsinen?",
-      "title": "Mitt forsøk: flyter appelsinen? 4. trinn | til utskrift PDF gratis",
+      "h1": "Min forsøksrapport: flyte eller synke",
+      "title": "Min forsøksrapport: flyte eller synke, 4. trinn | til utskrift PDF gratis",
       "metaDescription": "Forsøksrapport for 4. trinn: velg appelsinen med og uten skall eller leirbåten med klosser, skriv hva du tror, tegn resultatet og skriv hva du lærte. Gratis PDF.",
       "strand": "Naturfag",
       "p1": "Arket er en forsøksrapport i fire nummererte deler. Del 1, Mitt spørsmål, har to spørsmål med en avkrysningsboks foran: «Flyter en appelsin med skall? Flyter den uten skall?» med et bilde av en appelsin, og «Hvor mange klosser kan en leirbåt bære før den synker?» med en leirbåt og en kloss. Del 2, Jeg tror, har to skrivelinjer. Del 3, Dette skjedde, har to tomme vannkar å tegne i og to linjer. Del 4, Jeg lærte, begynner med «Nå vet jeg at».",
       "p2": "Barnet krysser av for ett av spørsmålene, skriver hva det tror, gjør forsøket, tegner hva som skjedde og skriver hva det lærte. Det er gangen i en ekte naturfaglig undersøkelse: spørsmål, hypotese, resultat og konklusjon. Appelsinen gir et overraskende svar – med skall flyter den, uten skall synker den, fordi skallet er fullt av små luftlommer. Leirbåten gir et svar man kan telle. LK20 venter at elevene etter 4. trinn kan planlegge og gjennomføre enkle undersøkelser.",
-      "p3": "Overskriften nevner bare appelsinen, men barnet kan like gjerne velge leirbåten. Ha en balje, to appelsiner og leire eller plastilina klar. Arket skrives ut på én side og kan fylles ut alene eller i par. Dette er det mest selvstendige arket i familien og passer som avslutning etter de andre: gjett og test, skålvekt, båt av leire og sant eller usant."
+      "p3": "Barnet kan like gjerne velge leirbåten; de to vannkarene i del 3 passer best til appelsinen med og uten skall, så til båten kan barnet tegne båten før og etter at den sank. Ha en balje, to appelsiner og leire eller plastilina klar. Arket skrives ut på én side og kan fylles ut alene eller i par. Dette er det mest selvstendige arket i familien og passer som avslutning etter de andre: gjett og test, skålvekt, båt av leire og sant eller usant."
     },
     "G2-377": {
       "slug": "sammenhengende-skrift-sma-bokstaver-i-u-og-t-3-trinn",
@@ -333,19 +333,21 @@
     }
   },
   "findings": [
-    "G2-379: the wash-hands reason printed on the page, \"Det fjerner bakteriene fra alt vi har tatt på.\" (data/b6/locales/healthy-habits.no.json reasons.wash-hands), says literally that washing our hands removes the bacteria FROM EVERYTHING WE HAVE TOUCHED (door handles, toys). That is false, and it is the one reason on the sheet a child will repeat. Suggested fix: \"Da vasker vi bort bakteriene vi har fått på hendene.\" The landing does not quote the sentence.",
-    "G1-404: the title \"Stopp bakteriene: host og nys i albuen\" leads with one behaviour, but only 1 of the 4 rows on the render is about coughing/sneezing into the elbow (the others: soap hand-washing vs germ-covered hands, a shared cup vs own cups, tissue dropped on the floor vs in the bin; config germPairs cough/tissue/cup/soap). The colon lead 'Stopp bakteriene' covers the page, but the h1 promises an elbow sheet. The landing p3 states openly that the other three rows are about other habits.",
-    "G3-400: the title \"Mitt forsøk: flyter appelsinen?\" names only the orange question, but part 1 of the render offers TWO questions with tick boxes (the orange with/without peel, and 'Hvor mange klosser kan en leirbåt bære før den synker?'; config questions [orange, cargo]) and the instruction says 'Velg et spørsmål'. A child who ticks the clay-boat question works under a title about an orange. Suggest a title that covers the choice (e.g. 'Mitt forsøk: flyte eller synke'), or ship one question. The landing says the child may choose the boat.",
-    "G2-377: the instruction says '... og på den tomme linjen under' (singular), but the render gives TWO empty ruled lines under each trace line for each of i, u and t (base writeRows 2). The sibling faces G2-384/385/386 do show exactly one empty line, so the base string was likely copied from them. Suggest 'på de tomme linjene under'. The landing describes two lines.",
-    "G1-402: every sentence opens with its order word (Først / Så / Etterpå / Til slutt, from openers4), so the numbering half of the task is solvable by reading only the first word. The picture-matching half still needs the whole sentence (the banana pictures differ only in how many peel flaps hang). Known tell, not a render/string disagreement; the landing names it openly.",
-    "G1-398: the d2 draw puts an øyenstikker (dragonfly) among the animals; for a Norwegian child an adult dragonfly is as much an eng insect as a vann one (only the larva lives in water), so writing B (Eng) is defensible. With it, Eng has only one unambiguous animal (gresshoppe). Suggest a pond animal without an adult land/meadow life (frosk, and, svane) for A. The landing treats the dragonfly as a talking point.",
-    "G1-407: the title \"Hva trenger dyrene for å leve?\" asks the full question, but the page covers exactly two needs (printed line 'Alle dyr trenger mat og et hjem.', columns Mat / Hjem); water and air are deliberately undrawn (bank needs.undrawn). Together with the title a teacher may read the page as the full answer. The landing says water and air are not on the sheet; the sheet title could be narrowed ('Mat og hjem: hva trenger dyrene?').",
-    "G1-399: the label 'tang' (pliers) is a homograph in Norwegian: tang is also SEAWEED, which floats. A reading child may predict 'flyter' from the word, not the picture. Suggest 'nebbtang' or 'avbitertang' for bank labels.pliers. The landing names the object as 'en tang' because that is what is printed.",
-    "G1-405: 'Ukeplan' is, in Norwegian schools, the established name of the weekly homework/timetable plan the teacher sends home; a teacher searching 'ukeplan' expects that, and a habits chart titled 'Ukeplan med gode vaner' competes with that meaning. Not a render defect (the render is a 5-habit × 7-day tick chart, man–søn, Monday start, correct). Suggest 'Vaneskjema for uka' or 'Ukeskjema: gode vaner' at the next string pass. The landing keeps the printed title for now.",
-    "G2-381: the d2 draw is the Vann habitat, so the wet/dry choice (vått/tørt) is self-evident, and the picture already shows two plants (siv, nøkkerose) that the child can copy onto the plant line. Not wrong, but the report face is weakest on this draw; on Eng or Skog the choice would carry more. The landing says both things openly.",
-    "G2-383: the title asks \"Hvorfor flyter ting?\" but none of the six statements gives or tests a reason; they are all 'what floats' claims (et tungt gresskar flyter, noen tunge ting flyter, alle lette ting flyter, et skip av stål synker, en fjær synker, et eple flyter men en potet synker). The page surfaces the misconception rather than the why. The landing says the sheet raises the questions and does not give the explanation.",
-    "K-383: the bee's home is drawn as honeycomb inside a hollow tree trunk (a wild nest), while the bank word is homeWord.hive = 'bikube' (a man-made hive box). The word is not printed on the sheet, so no child sees the mismatch; the landing avoids 'bikube' and says 'bol' / 'vokskaker i en hul trestamme'.",
-    "No render/string disagreement found on K-379, K-381, G1-400, G1-401, G2-378, K-380, K-382, G1-403, G2-380, G1-406, G1-408, G2-382, K-384, G2-384, G2-385, G2-386, G2-387, G3-401 (every count, label and instruction checked against the PNG). All 30 ids are shipped for no; none refused; every png present.",
-    "Lexical note for the whole no batch: the cursive font is unlooped, so no landing uses 'løkkeskrift' or 'stavskrift'; the habitats titles avoid the live G1-202 deck title 'Hvor bor dyrene?', and every sink-or-float title carries 'forsøk' and avoids the live G1-204 deck title 'Synker eller flyter?'."
+    "G1-398: still open (kept by fix round 3). The d2 draw puts an øyenstikker (dragonfly) among the animals; for a Norwegian child an adult dragonfly is as much an eng insect as a vann one, so writing B (Eng) is defensible, and with it Eng has only one unambiguous animal (gresshoppe). Needs a clearly water-bound picture (and, svane, frosk). The landing treats the dragonfly as a talking point.",
+    "G3-400: still open (low). Part 3 'Dette skjedde' prints two empty tanks with no labelled role; they fit the orange question (with / without peel) but have no role for the clay-boat question. The landing now tells the teacher to use them for the boat before/after.",
+    "G2-379: the new wash-hands reason 'Slik blir vi kvitt bakteriene vi fikk da vi tok på ting.' is correct (the germs are on the hands). Minor: the teeth-brushing and hand-washing pictograms both carry white bubble dots, so at print size the brushing figure can be read as washing the face; the five reasons are still each unique, so no two-right-answer risk.",
+    "K-383: the bee's home is drawn as honeycomb in a hollow trunk while the bank word is homeWord.hive = 'bikube'; the word is not printed, so no child sees it. The landing says 'bol' / 'vokskaker i en hul trestamme'.",
+    "G2-381: the d2 draw is the Vann habitat, so the wet/dry choice is self-evident; weakest draw for the report face, not wrong. The landing says so.",
+    "Verified fixed on the fresh no renders (and removed from the prose where it was warned about): G1-402 no order words; G2-379 wash-hands reason; G1-404 title; G2-383 title + nail/log witnesses; G1-408 title; G1-407 title; G3-400 title; G1-399 'nebbtang'; G1-405 'Vaneskjema for uka'; G2-377 'på de tomme linjene under' (two lines on the render).",
+    "Changed G1-402: p3 no longer says each sentence starts with Først/Så/Etterpå/Til slutt; it now says the order must be read from content.",
+    "Changed G1-404: h1/title/meta follow the new sheet title 'Stopp bakteriene: hva hindrer at de sprer seg?'; p3 no longer says the title only names the elbow row. Slug kept.",
+    "Changed G2-379: p1 now names the corrected hand-washing reason; p3 refers to the renamed sibling 'vaneskjemaet for uka' instead of 'ukeplanen'.",
+    "Changed G1-405: h1/title/meta follow the new sheet title 'Vaneskjema for uka' (slug 'ukeplan-med-gode-vaner-2-trinn' kept for URL stability).",
+    "Changed G1-407: h1/title/meta follow the narrowed sheet title 'Hva dyrene trenger: mat og et hjem'. Slug kept.",
+    "Changed G1-408: h1/title drop 'forsøk' (the scales are drawn, nothing is tested) and follow 'Tung eller lett? Flyte eller synke med skålvekt'. Note: this deliberately breaks the brief's 'always an experiment word' fence for this one face; 'skålvekt' carries the distinction from the live G1-204 title.",
+    "Changed G1-399: p1 names the printed labels 'ball' and 'nebbtang' (was 'fotball', 'tang').",
+    "Changed G3-400: h1/title follow 'Min forsøksrapport: flyte eller synke'; p3 no longer says the title names only the orange, and tells the teacher how to use the two tanks for the boat question. Slug kept.",
+    "Changed G2-383: h1/title/meta drop 'hvorfor' and follow 'Fakta om å flyte og synke: sant eller usant'; p1/p2/p3 describe the new seven-picture shelf (spiker and vedkubbe added) and use them as the witnesses for the two general statements. Slug kept (it still contains 'hvorfor').",
+    "Lexical note for the whole no batch: the cursive font is unlooped, so no landing uses 'løkkeskrift' or 'stavskrift'; habitats titles avoid the live G1-202 'Hvor bor dyrene?', and sink-or-float titles avoid the live G1-204 'Synker eller flyter?'."
   ]
 }

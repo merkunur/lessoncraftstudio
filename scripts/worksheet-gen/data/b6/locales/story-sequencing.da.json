@@ -24,10 +24,10 @@
   "stories": {
     "apple": {
       "sentences": [
-        "Først er æblet helt.",
-        "Så er der én bid i æblet.",
-        "Bagefter er der tre bid i æblet.",
-        "Til sidst er der kun skroget tilbage."
+        "Æblet er helt.",
+        "Der er taget én bid af æblet.",
+        "Der er taget tre bid af æblet.",
+        "Der er kun skroget tilbage."
       ],
       "stateWords": [
         "helt",
@@ -54,10 +54,10 @@
     },
     "banana": {
       "sentences": [
-        "Først er bananen ikke skrællet.",
-        "Så hænger én strimmel skræl ned.",
-        "Bagefter hænger tre strimler ned.",
-        "Til sidst er der kun den tomme skræl tilbage."
+        "Bananen er ikke skrællet.",
+        "Der hænger én strimmel skræl ned.",
+        "Der hænger tre strimler skræl ned.",
+        "Der er kun den tomme skræl tilbage."
       ],
       "stateWords": [
         "ikke skrællet",
@@ -80,10 +80,10 @@
     },
     "sandwich": {
       "sentences": [
-        "Først er der to skiver brød.",
-        "Så er der syltetøj på den ene skive.",
-        "Bagefter er klapsammenmaden skåret midt over.",
-        "Til sidst er der kun en skorpe og krummer tilbage."
+        "Der ligger to skiver brød.",
+        "Der er syltetøj på den ene skive.",
+        "Klapsammenmaden er skåret midt over.",
+        "Der er kun en skorpe og krummer tilbage."
       ],
       "stateWords": [
         "to skiver",
@@ -110,10 +110,10 @@
     },
     "cake": {
       "sentences": [
-        "Først er kagen hel.",
-        "Så er der skåret ét stykke ud.",
-        "Bagefter er halvdelen af kagen væk.",
-        "Til sidst er der kun krummer tilbage."
+        "Kagen er hel.",
+        "Der er skåret ét stykke ud af kagen.",
+        "Der er spist halvdelen af kagen.",
+        "Der er kun krummer tilbage."
       ],
       "stateWords": [
         "hel",
@@ -138,10 +138,10 @@
     },
     "fence": {
       "sentences": [
-        "Først er stakittet helt hvidt.",
-        "Så er to brædder malet.",
-        "Bagefter er fire brædder malet.",
-        "Til sidst er hele stakittet malet."
+        "Stakittet er helt hvidt.",
+        "Der er malet to brædder.",
+        "Der er malet fire brædder.",
+        "Hele stakittet er malet."
       ],
       "stateWords": [
         "helt hvidt",
@@ -166,10 +166,10 @@
     },
     "letter": {
       "sentences": [
-        "Først er kortet tomt.",
-        "Så er der tegnet en blomst på kortet.",
-        "Bagefter er der skrevet tre linjer på kortet.",
-        "Til sidst ligger kortet i en kuvert med et frimærke."
+        "Kortet er tomt.",
+        "Der er tegnet en blomst på kortet.",
+        "Ved siden af tegningen er der skrevet tre linjer.",
+        "Kortet ligger i en kuvert med et frimærke."
       ],
       "stateWords": [
         "tomt",
@@ -194,10 +194,10 @@
     },
     "paper-chain": {
       "sentences": [
-        "Først er der ét ark papir.",
-        "Så er arket klippet i fem strimler.",
-        "Bagefter er to strimler limet til ringe.",
-        "Til sidst er alle fem ringe blevet til en kæde."
+        "Der er ét ark papir.",
+        "Arket er klippet i fem strimler.",
+        "To strimler er limet sammen til ringe.",
+        "Alle fem ringe er blevet til en kæde."
       ],
       "stateWords": [
         "ét ark",
@@ -224,10 +224,10 @@
     },
     "beach-walk": {
       "sentences": [
-        "Først er der ingen fodspor i sandet.",
-        "Så går et barn og laver tre fodspor.",
-        "Bagefter finder barnet en muslingeskal.",
-        "Til sidst er barnet tilbage på håndklædet med skallen."
+        "Der er ingen fodspor i sandet.",
+        "Et barn går hen over sandet og laver tre fodspor.",
+        "Barnet finder en muslingeskal.",
+        "Barnet er tilbage på håndklædet med skallen."
       ],
       "stateWords": [
         "ingen fodspor",

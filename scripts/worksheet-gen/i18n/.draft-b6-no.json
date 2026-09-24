@@ -38,7 +38,7 @@
       "instruction": "Se på hvert bilde, og sett ring rundt før, under eller etter tannpussen."
     },
     "G1-404": {
-      "title": "Stopp bakteriene: host og nys i albuen",
+      "title": "Stopp bakteriene: hva hindrer at de sprer seg?",
       "instruction": "Sett ring rundt bildet i hver rad som stopper bakterier fra å spre seg."
     },
     "G2-379": {
@@ -46,7 +46,7 @@
       "instruction": "Trekk en strek fra hver vane til setningen som forteller hvorfor vi gjør det."
     },
     "G1-405": {
-      "title": "Ukeplan med gode vaner",
+      "title": "Vaneskjema for uka",
       "instruction": "Sett en hake i ruta hver dag for hver vane du har gjort."
     },
     "G1-398": {
@@ -66,7 +66,7 @@
       "instruction": "Skriv i hver rute bokstaven til dyret setningen handler om; ett dyr blir til overs."
     },
     "G1-407": {
-      "title": "Hva trenger dyrene for å leve?",
+      "title": "Hva dyrene trenger: mat og et hjem",
       "instruction": "Sett ring rundt maten og hjemmet til hvert dyr."
     },
     "G2-381": {
@@ -78,7 +78,7 @@
       "instruction": "Fargelegg en ring i det første vannkaret før forsøket, en ring i det andre vannkaret etterpå, og stjerna hvis du ble overrasket."
     },
     "G1-408": {
-      "title": "Tung eller lett? Flyte eller synke, forsøk med vekt",
+      "title": "Tung eller lett? Flyte eller synke med skålvekt",
       "instruction": "Vekta viser hva som er tyngst: sett ring rundt det som flyter i vann."
     },
     "G2-382": {
@@ -86,7 +86,7 @@
       "instruction": "Fargelegg ringen der hver leirform havner, sett ring rundt det som flyter, og tegn så din egen leirbåt i det store vannkaret."
     },
     "G2-383": {
-      "title": "Hvorfor flyter ting? Sant eller usant om å flyte og synke",
+      "title": "Fakta om å flyte og synke: sant eller usant",
       "instruction": "Les hver setning, og sett ring rundt sant eller usant."
     },
     "K-384": {
@@ -94,12 +94,12 @@
       "instruction": "Tegn to ting som flyter, i de stiplede rutene på vannet, og to som synker, i de stiplede rutene på bunnen."
     },
     "G3-400": {
-      "title": "Mitt forsøk: flyter appelsinen?",
+      "title": "Min forsøksrapport: flyte eller synke",
       "instruction": "Velg et spørsmål, skriv hva du tror, test det, og tegn hva som skjedde og skriv hva du lærte."
     },
     "G2-377": {
       "title": "Sammenhengende skrift: små bokstaver i, u og t",
-      "instruction": "Skriv over de grå bokstavene, og skriv videre selv med bokstavene bundet sammen til enden av linjen og på den tomme linjen under."
+      "instruction": "Skriv over de grå bokstavene, og skriv videre selv med bokstavene bundet sammen til enden av linjen og på de tomme linjene under."
     },
     "G2-384": {
       "title": "Store bokstaver i sammenhengende skrift: skriv navnene",
@@ -200,10 +200,10 @@
       "stories": {
         "apple": {
           "sentences": [
-            "Først er eplet helt.",
-            "Så er det tatt en bit av eplet.",
-            "Etterpå er det tatt tre biter av eplet.",
-            "Til slutt er det bare skrotten igjen."
+            "Eplet er helt.",
+            "Det er tatt en bit av eplet.",
+            "Det er tatt tre biter av eplet.",
+            "Bare skrotten er igjen."
           ],
           "stateWords": [
             "helt",
@@ -230,10 +230,10 @@
         },
         "banana": {
           "sentences": [
-            "Først er bananen ikke skrelt.",
-            "Så henger en flik av skallet ned.",
-            "Etterpå henger tre fliker ned.",
-            "Til slutt er bare det tomme skallet igjen."
+            "Bananen er ikke skrelt.",
+            "Bananen har en flik av skallet som henger ned.",
+            "Bananen har tre fliker som henger ned.",
+            "Bare det tomme skallet er igjen."
           ],
           "stateWords": [
             "ikke skrelt",
@@ -256,10 +256,10 @@
         },
         "sandwich": {
           "sentences": [
-            "Først ligger det to brødskiver på brettet.",
-            "Så er det syltetøy på den ene skiva.",
-            "Etterpå er sandwichen delt i to.",
-            "Til slutt er det bare skorpa og noen smuler igjen."
+            "Det ligger to brødskiver på brettet.",
+            "Den ene skiva har fått syltetøy på seg.",
+            "Sandwichen er delt i to.",
+            "Bare skorpa og noen smuler er igjen."
           ],
           "stateWords": [
             "to brødskiver",
@@ -286,10 +286,10 @@
         },
         "cake": {
           "sentences": [
-            "Først er kaken hel.",
-            "Så er ett stykke skåret ut.",
-            "Etterpå er halve kaken spist.",
-            "Til slutt er det bare smuler igjen."
+            "Kaken er hel.",
+            "Ett stykke er skåret ut av kaken.",
+            "Det er bare halve kaken igjen.",
+            "Bare smuler er igjen på fatet."
           ],
           "stateWords": [
             "hel",
@@ -314,10 +314,10 @@
         },
         "fence": {
           "sentences": [
-            "Først er gjerdet helt hvitt.",
-            "Så er to planker malt.",
-            "Etterpå er fire planker malt.",
-            "Til slutt er hele gjerdet malt."
+            "Gjerdet er helt hvitt.",
+            "Gjerdet har to planker som er malt.",
+            "Gjerdet har fire planker som er malt.",
+            "Det er malt på hele gjerdet."
           ],
           "stateWords": [
             "helt hvitt",
@@ -342,10 +342,10 @@
         },
         "letter": {
           "sentences": [
-            "Først er kortet tomt.",
-            "Så er det tegnet en blomst på kortet.",
-            "Etterpå er det skrevet tre linjer.",
-            "Til slutt ligger kortet i en konvolutt med frimerke."
+            "Kortet er tomt.",
+            "Det er tegnet en blomst på kortet.",
+            "Det er skrevet tre linjer ved siden av tegningen.",
+            "Kortet ligger i en konvolutt med frimerke."
           ],
           "stateWords": [
             "tomt",
@@ -370,10 +370,10 @@
         },
         "paper-chain": {
           "sentences": [
-            "Først er det ett ark.",
-            "Så er arket klippet i fem strimler.",
-            "Etterpå er to strimler limt til ringer.",
-            "Til slutt er alle fem ringene blitt en papirlenke."
+            "Det er ett ark.",
+            "Arket er klippet i fem strimler.",
+            "Det er limt to strimler til ringer.",
+            "Alle fem ringene er blitt en papirlenke."
           ],
           "stateWords": [
             "ett ark",
@@ -400,10 +400,10 @@
         },
         "beach-walk": {
           "sentences": [
-            "Først er det ingen fotspor i sanden.",
-            "Så går et barn og lager tre fotspor.",
-            "Etterpå finner barnet et skjell.",
-            "Til slutt er barnet tilbake på håndkleet med skjellet."
+            "Det er ingen fotspor i sanden.",
+            "Et barn går og lager tre fotspor.",
+            "Barnet finner et skjell.",
+            "Barnet er tilbake på håndkleet med skjellet."
           ],
           "stateWords": [
             "ingen fotspor",
@@ -470,7 +470,7 @@
           "instruction": "Se på hvert bilde, og sett ring rundt før, under eller etter tannpussen."
         },
         "stop-the-germs": {
-          "title": "Stopp bakteriene: host og nys i albuen",
+          "title": "Stopp bakteriene: hva hindrer at de sprer seg?",
           "instruction": "Sett ring rundt bildet i hver rad som stopper bakterier fra å spre seg."
         },
         "why-habits": {
@@ -478,7 +478,7 @@
           "instruction": "Trekk en strek fra hver vane til setningen som forteller hvorfor vi gjør det."
         },
         "habit-chart": {
-          "title": "Ukeplan med gode vaner",
+          "title": "Vaneskjema for uka",
           "instruction": "Sett en hake i ruta hver dag for hver vane du har gjort."
         }
       },
@@ -571,7 +571,7 @@
         ]
       },
       "reasons": {
-        "wash-hands": "Det fjerner bakteriene fra alt vi har tatt på.",
+        "wash-hands": "Slik blir vi kvitt bakteriene vi fikk da vi tok på ting.",
         "brush-teeth": "Da holder smilet seg rent og fint.",
         "sleep": "Kroppen og hjernen hviler og blir klare for en ny dag.",
         "move-body": "Da blir vi spreke, raske og sterke.",
@@ -817,7 +817,7 @@
           "instruction": "Skriv i hver rute bokstaven til dyret setningen handler om; ett dyr blir til overs."
         },
         "G1-407": {
-          "title": "Hva trenger dyrene for å leve?",
+          "title": "Hva dyrene trenger: mat og et hjem",
           "instruction": "Sett ring rundt maten og hjemmet til hvert dyr."
         },
         "G2-381": {
@@ -882,7 +882,7 @@
         "nail": "spiker",
         "hammer": "hammer",
         "bolt": "bolt",
-        "pliers": "tang",
+        "pliers": "nebbtang",
         "scissors": "saks",
         "potato": "potet"
       },
@@ -998,7 +998,7 @@
           "instruction": "Fargelegg en ring i det første vannkaret før forsøket, en ring i det andre vannkaret etterpå, og stjerna hvis du ble overrasket."
         },
         "G1-408": {
-          "title": "Tung eller lett? Flyte eller synke, forsøk med vekt",
+          "title": "Tung eller lett? Flyte eller synke med skålvekt",
           "instruction": "Vekta viser hva som er tyngst: sett ring rundt det som flyter i vann."
         },
         "G2-382": {
@@ -1006,7 +1006,7 @@
           "instruction": "Fargelegg ringen der hver leirform havner, sett ring rundt det som flyter, og tegn så din egen leirbåt i det store vannkaret."
         },
         "G2-383": {
-          "title": "Hvorfor flyter ting? Sant eller usant om å flyte og synke",
+          "title": "Fakta om å flyte og synke: sant eller usant",
           "instruction": "Les hver setning, og sett ring rundt sant eller usant."
         },
         "K-384": {
@@ -1014,7 +1014,7 @@
           "instruction": "Tegn to ting som flyter, i de stiplede rutene på vannet, og to som synker, i de stiplede rutene på bunnen."
         },
         "G3-400": {
-          "title": "Mitt forsøk: flyter appelsinen?",
+          "title": "Min forsøksrapport: flyte eller synke",
           "instruction": "Velg et spørsmål, skriv hva du tror, test det, og tegn hva som skjedde og skriv hva du lærte."
         }
       },
@@ -1181,7 +1181,7 @@
       "strings": {
         "G2-377": {
           "title": "Sammenhengende skrift: små bokstaver i, u og t",
-          "instruction": "Skriv over de grå bokstavene, og skriv videre selv med bokstavene bundet sammen til enden av linjen og på den tomme linjen under."
+          "instruction": "Skriv over de grå bokstavene, og skriv videre selv med bokstavene bundet sammen til enden av linjen og på de tomme linjene under."
         },
         "G2-384": {
           "title": "Store bokstaver i sammenhengende skrift: skriv navnene",

@@ -292,6 +292,7 @@ const TYPE = {
     const pools = Object.fromEntries(habs.map((h) => [h, []]));
     for (const a of HABITATS.ANIMALS) {
       if (a.faces && !a.faces.includes('base')) continue;
+      if ((bankLoc.excludeAnimals || []).includes(a.key)) continue;   // fix round 3: a locale's own exclusions (da: no wild elk)
       const meet = a.lives.filter((h) => habs.includes(h));
       if (meet.length !== 1) continue;
       if (meet[0] !== a.lives[0]) continue;   // primary habitat only (see pageOracle)
@@ -546,7 +547,7 @@ const TYPE = {
       const noApe = !!bankLoc.rainforestRegion;
       const clash = (a) => (hasArctic && a.lives.includes('polar-antarctic')) || a.lookalike.some((l) => used.has(l)) || [...used].some((u) => BY_KEY[u].lookalike.includes(a.key)) || (noApe && a.group === 'ape');
       const okFace = (a) => !a.faces || a.faces.includes('odd');
-      const okRegion = (a) => !a.onlyRegion || a.onlyRegion === bankLoc.rainforestRegion;
+      const okRegion = (a) => (!a.onlyRegion || a.onlyRegion === bankLoc.rainforestRegion) && !(bankLoc.excludeAnimals || []).includes(a.key);
       const rows = [];
       let bad = false;
       for (const h of habs) {
@@ -585,7 +586,7 @@ const TYPE = {
     const refuse = bankLoc.refuseClaims || [];
     const claims = HABITATS.ADAPT.filter((c) => !refuse.includes(c.key) && (c.answers || c.trueOf).length && bankLoc.adapt && typeof bankLoc.adapt[c.key] === 'string');
     if (claims.length < d.items) throw new Error(`${ID}: ${loc} has ${claims.length} adaptation claims < ${d.items} (refuse)`);
-    const allowed = HABITATS.ANIMALS.filter((a) => (!a.faces || a.faces.includes('adapt')) && !(bankLoc.rainforestRegion && a.group === 'ape') && (!a.onlyRegion || a.onlyRegion === bankLoc.rainforestRegion)).map((a) => a.key);
+    const allowed = HABITATS.ANIMALS.filter((a) => (!a.faces || a.faces.includes('adapt')) && !(bankLoc.rainforestRegion && a.group === 'ape') && (!a.onlyRegion || a.onlyRegion === bankLoc.rainforestRegion) && !(bankLoc.excludeAnimals || []).includes(a.key)).map((a) => a.key);
     const nDecoy = d.bank - d.items;
     for (let t = 0; t < TRIES; t++) {
       const cs = rng.sample(claims, d.items);

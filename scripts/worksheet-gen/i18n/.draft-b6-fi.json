@@ -70,7 +70,7 @@
    "instruction": "Ympyröi jokaisen eläimen kohdalta ruoka, jota se syö, ja koti, jossa se asuu."
   },
   "G2-381": {
-   "title": "Oma elinympäristöni: tutki ja piirrä",
+   "title": "Elinympäristön tutkimus: tutki ja piirrä",
    "instruction": "Piirrä kuvaan kolme täällä elävää eläintä, kirjoita niiden nimet ja täällä kasvava kasvi ja ympyröi sanaparista tähän sopiva sana."
   },
   "G1-399": {
@@ -78,7 +78,7 @@
    "instruction": "Väritä ennen kokeilua ympyrä ensimmäisessä astiassa, kokeilun jälkeen ympyrä toisessa astiassa ja tähti, jos yllätyit."
   },
   "G1-408": {
-   "title": "Painava vai kevyt? Kelluuko vai uppoaako -kokeilu vaa’alla",
+   "title": "Painava vai kevyt? Kelluminen ja uppoaminen vaa’an avulla",
    "instruction": "Vaaka näyttää, kumpi on painavampi: ympyröi se, joka kelluu vedessä."
   },
   "G2-382": {
@@ -86,7 +86,7 @@
    "instruction": "Väritä ympyrä sieltä, mihin kukin muovailuvahan muoto päätyy, ympyröi esine, joka kelluu, ja piirrä isoon astiaan oma muovailuvahaveneesi."
   },
   "G2-383": {
-   "title": "Miksi esine kelluu? Totta vai tarua kellumisesta ja uppoamisesta",
+   "title": "Totta vai tarua? Kelluminen ja uppoaminen",
    "instruction": "Lue jokainen lause ja ympyröi totta tai tarua."
   },
   "K-384": {
@@ -176,10 +176,10 @@
    "stories": {
     "apple": {
      "sentences": [
-      "Ensin omena on kokonainen.",
-      "Sitten omenassa on yksi haukkaus.",
-      "Seuraavaksi omenassa on kolme haukkausta.",
-      "Lopuksi omenasta on jäljellä vain kara."
+      "Omena on kokonainen.",
+      "Omenassa on yksi haukkaus.",
+      "Omenassa on kolme haukkausta.",
+      "Omenasta on jäljellä vain kara."
      ],
      "stateWords": [
       "kokonainen",
@@ -206,10 +206,10 @@
     },
     "banana": {
      "sentences": [
-      "Ensin banaani on vielä kuorimaton.",
-      "Sitten yksi kuoren liuska roikkuu alaspäin.",
-      "Seuraavaksi kolme liuskaa roikkuu alaspäin.",
-      "Lopuksi jäljellä on vain tyhjä kuori."
+      "Banaani on vielä kuorimaton.",
+      "Banaanista roikkuu alaspäin yksi kuoren liuska.",
+      "Banaanista roikkuu alaspäin kolme liuskaa.",
+      "Jäljellä on vain tyhjä kuori."
      ],
      "stateWords": [
       "kuorimaton",
@@ -232,10 +232,10 @@
     },
     "sandwich": {
      "sentences": [
-      "Ensin pöydällä on kaksi leipäviipaletta.",
-      "Sitten toisen viipaleen päällä on hilloa.",
-      "Seuraavaksi voileipä on leikattu kahtia.",
-      "Lopuksi jäljellä on vain leivänkuorta ja muruja."
+      "Pöydällä on kaksi leipäviipaletta.",
+      "Toisen viipaleen päällä on hilloa.",
+      "Voileipä on leikattu kahtia.",
+      "Jäljellä on vain leivänkuorta ja muruja."
      ],
      "stateWords": [
       "kaksi leipäviipaletta",
@@ -262,10 +262,10 @@
     },
     "cake": {
      "sentences": [
-      "Ensin kakku on kokonainen.",
-      "Sitten kakusta on leikattu yksi pala.",
-      "Seuraavaksi puolet kakusta on jo syöty.",
-      "Lopuksi jäljellä on vain muruja."
+      "Kakku on kokonainen.",
+      "Kakusta on leikattu yksi pala.",
+      "Kakusta on jo syöty puolet.",
+      "Jäljellä on vain muruja."
      ],
      "stateWords": [
       "kokonainen",
@@ -290,10 +290,10 @@
     },
     "fence": {
      "sentences": [
-      "Ensin aita on kokonaan valkoinen.",
-      "Sitten kaksi lautaa on maalattu.",
-      "Seuraavaksi neljä lautaa on maalattu.",
-      "Lopuksi koko aita on maalattu."
+      "Aita on kokonaan valkoinen.",
+      "Aidasta on maalattu kaksi lautaa.",
+      "Aidasta on maalattu neljä lautaa.",
+      "Kaikki laudat on maalattu, eli koko aita on valmis."
      ],
      "stateWords": [
       "valkoinen",
@@ -318,10 +318,10 @@
     },
     "letter": {
      "sentences": [
-      "Ensin kortti on tyhjä.",
-      "Sitten korttiin on piirretty kukka.",
-      "Seuraavaksi korttiin on kirjoitettu kolme riviä.",
-      "Lopuksi kortti on kirjekuoressa, jossa on postimerkki."
+      "Kortti on tyhjä.",
+      "Korttiin on piirretty kukka.",
+      "Piirroksen viereen on kirjoitettu kolme riviä.",
+      "Kortti on kirjekuoressa, jossa on postimerkki."
      ],
      "stateWords": [
       "tyhjä",
@@ -346,10 +346,10 @@
     },
     "paper-chain": {
      "sentences": [
-      "Ensin pöydällä on yksi paperiarkki.",
-      "Sitten arkki on leikattu viideksi suikaleeksi.",
-      "Seuraavaksi kaksi suikaletta on liimattu renkaiksi.",
-      "Lopuksi viisi rengasta muodostaa ketjun."
+      "Pöydällä on yksi paperiarkki.",
+      "Arkki on leikattu viideksi suikaleeksi.",
+      "Renkaiksi on liimattu kaksi suikaletta.",
+      "Viisi rengasta muodostaa ketjun."
      ],
      "stateWords": [
       "yksi paperiarkki",
@@ -376,10 +376,10 @@
     },
     "beach-walk": {
      "sentences": [
-      "Ensin hiekassa ei ole jalanjälkiä.",
-      "Sitten lapsi kävelee, ja hiekkaan jää kolme jalanjälkeä.",
-      "Seuraavaksi lapsi löytää simpukan.",
-      "Lopuksi lapsi on takaisin pyyhkeellä simpukka mukanaan."
+      "Hiekassa ei ole jalanjälkiä.",
+      "Lapsi kävelee, ja hiekkaan jää kolme jalanjälkeä.",
+      "Lapsi löytää simpukan.",
+      "Lapsi on takaisin pyyhkeellä simpukka mukanaan."
      ],
      "stateWords": [
       "ei ole jalanjälkiä",
@@ -553,7 +553,7 @@
     ]
    },
    "reasons": {
-    "wash-hands": "Se vie pois pöpöt, jotka tarttuivat meihin kaikesta, mihin koskimme.",
+    "wash-hands": "Se vie pois pöpöt, jotka tarttuivat meihin, kun koskimme eri asioihin.",
     "brush-teeth": "Hymy pysyy puhtaana ja kirkkaana.",
     "sleep": "Keho ja aivot lepäävät ja jaksavat taas uuden päivän.",
     "move-body": "Kunto kasvaa, ja meistä tulee nopeita ja vahvoja.",
@@ -588,7 +588,7 @@
     "camel-hump": "Sen kyttyrässä on rasvaa, joten se jaksaa pitkään ilman ruokaa.",
     "giraffe-neck": "Sen pitkä kaula ylettyy puiden korkealla kasvaviin lehtiin.",
     "elephant-trunk": "Sen pitkä kärsä imee vettä ja poimii ruokaa.",
-    "penguin-flippers": "Sen siivet ovat evät: se ui nopeasti, mutta ei osaa lentää.",
+    "penguin-flippers": "Sen siivet toimivat vedessä kuin evät: se ui nopeasti, mutta ei osaa lentää.",
     "walrus-tusks": "Se vetää painavan ruumiinsa pois vedestä pitkien syöksyhampaidensa avulla.",
     "woodpecker-beak": "Sen vahva ja terävä nokka hakkaa reikiä puunrunkoihin.",
     "beaver-teeth": "Sen isot etuhampaat kaatavat puita, joista se rakentaa kotinsa veteen.",
@@ -626,8 +626,8 @@
      "kala"
     ],
     "crab": [
-     "rapu",
-     "taskurapu"
+     "taskurapu",
+     "rapu"
     ],
     "ray": [
      "rausku"
@@ -747,9 +747,7 @@
      "hämähäkki"
     ],
     "rabbit": [
-     "kani",
-     "jänis",
-     "pupu"
+     "kani"
     ],
     "ant": [
      "muurahainen"
@@ -844,7 +842,7 @@
      "instruction": "Ympyröi jokaisen eläimen kohdalta ruoka, jota se syö, ja koti, jossa se asuu."
     },
     "G2-381": {
-     "title": "Oma elinympäristöni: tutki ja piirrä",
+     "title": "Elinympäristön tutkimus: tutki ja piirrä",
      "instruction": "Piirrä kuvaan kolme täällä elävää eläintä, kirjoita niiden nimet ja täällä kasvava kasvi ja ympyröi sanaparista tähän sopiva sana."
     }
    }
@@ -987,7 +985,7 @@
      "instruction": "Väritä ennen kokeilua ympyrä ensimmäisessä astiassa, kokeilun jälkeen ympyrä toisessa astiassa ja tähti, jos yllätyit."
     },
     "G1-408": {
-     "title": "Painava vai kevyt? Kelluuko vai uppoaako -kokeilu vaa’alla",
+     "title": "Painava vai kevyt? Kelluminen ja uppoaminen vaa’an avulla",
      "instruction": "Vaaka näyttää, kumpi on painavampi: ympyröi se, joka kelluu vedessä."
     },
     "G2-382": {
@@ -995,7 +993,7 @@
      "instruction": "Väritä ympyrä sieltä, mihin kukin muovailuvahan muoto päätyy, ympyröi esine, joka kelluu, ja piirrä isoon astiaan oma muovailuvahaveneesi."
     },
     "G2-383": {
-     "title": "Miksi esine kelluu? Totta vai tarua kellumisesta ja uppoamisesta",
+     "title": "Totta vai tarua? Kelluminen ja uppoaminen",
      "instruction": "Lue jokainen lause ja ympyröi totta tai tarua."
     },
     "K-384": {

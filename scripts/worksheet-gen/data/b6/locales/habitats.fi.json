@@ -21,7 +21,7 @@
     "camel-hump": "Sen kyttyrässä on rasvaa, joten se jaksaa pitkään ilman ruokaa.",
     "giraffe-neck": "Sen pitkä kaula ylettyy puiden korkealla kasvaviin lehtiin.",
     "elephant-trunk": "Sen pitkä kärsä imee vettä ja poimii ruokaa.",
-    "penguin-flippers": "Sen siivet ovat evät: se ui nopeasti, mutta ei osaa lentää.",
+    "penguin-flippers": "Sen siivet toimivat vedessä kuin evät: se ui nopeasti, mutta ei osaa lentää.",
     "walrus-tusks": "Se vetää painavan ruumiinsa pois vedestä pitkien syöksyhampaidensa avulla.",
     "woodpecker-beak": "Sen vahva ja terävä nokka hakkaa reikiä puunrunkoihin.",
     "beaver-teeth": "Sen isot etuhampaat kaatavat puita, joista se rakentaa kotinsa veteen.",
@@ -59,8 +59,8 @@
       "kala"
     ],
     "crab": [
-      "rapu",
-      "taskurapu"
+      "taskurapu",
+      "rapu"
     ],
     "ray": [
       "rausku"
@@ -180,9 +180,7 @@
       "hämähäkki"
     ],
     "rabbit": [
-      "kani",
-      "jänis",
-      "pupu"
+      "kani"
     ],
     "ant": [
       "muurahainen"
@@ -277,7 +275,7 @@
       "instruction": "Ympyröi jokaisen eläimen kohdalta ruoka, jota se syö, ja koti, jossa se asuu."
     },
     "G2-381": {
-      "title": "Oma elinympäristöni: tutki ja piirrä",
+      "title": "Elinympäristön tutkimus: tutki ja piirrä",
       "instruction": "Piirrä kuvaan kolme täällä elävää eläintä, kirjoita niiden nimet ja täällä kasvava kasvi ja ympyröi sanaparista tähän sopiva sana."
     }
   }

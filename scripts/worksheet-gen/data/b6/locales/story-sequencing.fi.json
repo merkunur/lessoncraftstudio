@@ -24,10 +24,10 @@
   "stories": {
     "apple": {
       "sentences": [
-        "Ensin omena on kokonainen.",
-        "Sitten omenassa on yksi haukkaus.",
-        "Seuraavaksi omenassa on kolme haukkausta.",
-        "Lopuksi omenasta on jäljellä vain kara."
+        "Omena on kokonainen.",
+        "Omenassa on yksi haukkaus.",
+        "Omenassa on kolme haukkausta.",
+        "Omenasta on jäljellä vain kara."
       ],
       "stateWords": [
         "kokonainen",
@@ -54,10 +54,10 @@
     },
     "banana": {
       "sentences": [
-        "Ensin banaani on vielä kuorimaton.",
-        "Sitten yksi kuoren liuska roikkuu alaspäin.",
-        "Seuraavaksi kolme liuskaa roikkuu alaspäin.",
-        "Lopuksi jäljellä on vain tyhjä kuori."
+        "Banaani on vielä kuorimaton.",
+        "Banaanista roikkuu alaspäin yksi kuoren liuska.",
+        "Banaanista roikkuu alaspäin kolme liuskaa.",
+        "Jäljellä on vain tyhjä kuori."
       ],
       "stateWords": [
         "kuorimaton",
@@ -80,10 +80,10 @@
     },
     "sandwich": {
       "sentences": [
-        "Ensin pöydällä on kaksi leipäviipaletta.",
-        "Sitten toisen viipaleen päällä on hilloa.",
-        "Seuraavaksi voileipä on leikattu kahtia.",
-        "Lopuksi jäljellä on vain leivänkuorta ja muruja."
+        "Pöydällä on kaksi leipäviipaletta.",
+        "Toisen viipaleen päällä on hilloa.",
+        "Voileipä on leikattu kahtia.",
+        "Jäljellä on vain leivänkuorta ja muruja."
       ],
       "stateWords": [
         "kaksi leipäviipaletta",
@@ -110,10 +110,10 @@
     },
     "cake": {
       "sentences": [
-        "Ensin kakku on kokonainen.",
-        "Sitten kakusta on leikattu yksi pala.",
-        "Seuraavaksi puolet kakusta on jo syöty.",
-        "Lopuksi jäljellä on vain muruja."
+        "Kakku on kokonainen.",
+        "Kakusta on leikattu yksi pala.",
+        "Kakusta on jo syöty puolet.",
+        "Jäljellä on vain muruja."
       ],
       "stateWords": [
         "kokonainen",
@@ -138,10 +138,10 @@
     },
     "fence": {
       "sentences": [
-        "Ensin aita on kokonaan valkoinen.",
-        "Sitten kaksi lautaa on maalattu.",
-        "Seuraavaksi neljä lautaa on maalattu.",
-        "Lopuksi koko aita on maalattu."
+        "Aita on kokonaan valkoinen.",
+        "Aidasta on maalattu kaksi lautaa.",
+        "Aidasta on maalattu neljä lautaa.",
+        "Kaikki laudat on maalattu, eli koko aita on valmis."
       ],
       "stateWords": [
         "valkoinen",
@@ -166,10 +166,10 @@
     },
     "letter": {
       "sentences": [
-        "Ensin kortti on tyhjä.",
-        "Sitten korttiin on piirretty kukka.",
-        "Seuraavaksi korttiin on kirjoitettu kolme riviä.",
-        "Lopuksi kortti on kirjekuoressa, jossa on postimerkki."
+        "Kortti on tyhjä.",
+        "Korttiin on piirretty kukka.",
+        "Piirroksen viereen on kirjoitettu kolme riviä.",
+        "Kortti on kirjekuoressa, jossa on postimerkki."
       ],
       "stateWords": [
         "tyhjä",
@@ -194,10 +194,10 @@
     },
     "paper-chain": {
       "sentences": [
-        "Ensin pöydällä on yksi paperiarkki.",
-        "Sitten arkki on leikattu viideksi suikaleeksi.",
-        "Seuraavaksi kaksi suikaletta on liimattu renkaiksi.",
-        "Lopuksi viisi rengasta muodostaa ketjun."
+        "Pöydällä on yksi paperiarkki.",
+        "Arkki on leikattu viideksi suikaleeksi.",
+        "Renkaiksi on liimattu kaksi suikaletta.",
+        "Viisi rengasta muodostaa ketjun."
       ],
       "stateWords": [
         "yksi paperiarkki",
@@ -224,10 +224,10 @@
     },
     "beach-walk": {
       "sentences": [
-        "Ensin hiekassa ei ole jalanjälkiä.",
-        "Sitten lapsi kävelee, ja hiekkaan jää kolme jalanjälkeä.",
-        "Seuraavaksi lapsi löytää simpukan.",
-        "Lopuksi lapsi on takaisin pyyhkeellä simpukka mukanaan."
+        "Hiekassa ei ole jalanjälkiä.",
+        "Lapsi kävelee, ja hiekkaan jää kolme jalanjälkeä.",
+        "Lapsi löytää simpukan.",
+        "Lapsi on takaisin pyyhkeellä simpukka mukanaan."
       ],
       "stateWords": [
         "ei ole jalanjälkiä",

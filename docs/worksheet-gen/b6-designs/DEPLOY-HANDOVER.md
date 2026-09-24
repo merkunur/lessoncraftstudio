@@ -38,7 +38,9 @@ G3-400/401). SoT: `docs/worksheet-gen/b6-designs/README.md`; memory note `projec
   Playwrite fonts 1-2 px differently and cannot judge cursive).
 - `verify-hub-type-rows.js --expect=docs/worksheet-gen/b6-designs/hub-expectations.json` PASS (318 b6 rows + 187
   control rows) against the composed landings.
-- `seo-landing/gate.js` over the 11 locale files: see the last commit message of the landings commit.
+- `seo-landing/gate.js` over all 11 locale files: exit 0 everywhere; 0 duplicate titles, 0 duplicate metas, 0
+  shared 50-char prefixes; no pair at similarity >= 0.80 in any locale. The only lint on the 318 b6 landings is the
+  ADVISORY "NO theme-noun in P1" (themeless families, as nt10-D/E — CLAUDE.md §27).
 - `b6-prepare-upload.js sv` tested end-to-end in the cloud: READY 24/24; refuses (exit 2) when a ZIP is missing.
 - Taxonomy: 140 exercise-type keys; the 5 b6 keys have `apps.<key>` + slug + name in all 11 locales.
 

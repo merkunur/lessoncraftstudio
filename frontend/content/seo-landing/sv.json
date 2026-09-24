@@ -142978,6 +142978,996 @@
    ],
    "title": "Släktord i meningar – åk 3 | skriva ut PDF gratis",
    "metaDescription": "Två ordfamiljer, lär och hjälp, med fyra ord var och åtta meningar med luckor. Barnet skriver varje släktord i den mening där det passar. Åk 3. Gratis PDF."
+  },
+  {
+   "slug": "bildserie-numrera-bilderna-forskoleklass",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "base",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad bildserier",
+   "h1": "Bildserie: numrera bilderna",
+   "strand": "Tala, lyssna och samtala",
+   "standard": "RL.K.2",
+   "slotTokens": [
+    "bildserier",
+    "forskola"
+   ],
+   "p1": "Sidan har två bildserier som hänger på varsin tvättlina med klädnypor. Varje bildserie består av fyra bilder, och under varje bild sitter en streckad ruta. Bilderna hänger i blandad ordning. På bladet som visas här skalas en banan: den är hel, sedan hänger en skalbit ner, sedan tre, och till sist ligger bara det tomma skalet kvar. I den andra serien ritar någon en hage med krita på asfalten, ruta för ruta, medan kritan blir kortare. Barnet tittar på vad som ändras mellan bilderna och skriver 1, 2, 3 och 4 i rutorna. Ingen text står på bilderna, så sidan fungerar innan barnet kan läsa.",
+   "p2": "Att sätta en bildserie i ordning är att förstå att en berättelse har en början och ett slut och att något händer däremellan. Barnet måste jämföra bilderna och hitta ledtråden: hur mycket skal som hänger, hur många rutor som finns på marken. Därför är det här mer än en pusselövning; det är förberedelse för att återberätta. I Lgr22 för svenska i årskurs 1–3 är muntligt berättande och samtal om berättelser en del av det centrala innehållet, och i förskoleklassen tränas samma sak genom lek och samtal. Låt gärna barnet berätta serien högt med orden först, sedan och till sist när siffrorna är skrivna.",
+   "p3": "Det här är grundsidan bland bildserierna och den enklaste att börja med: fyra bilder, en siffra per ruta, inget att klippa eller skriva. Bladet fungerar i svartvitt och kan göras vid ett eget bord eller tillsammans med en vuxen. Om fyra bilder är för många kan du vika bort en rad och börja med en serie. Nästa steg är sidan där bilderna klipps ut och klistras under först, sedan och till sist, och i åk 1 sidan där barnet själv väljer vad som händer sedan.",
+   "canonicalDeckSlug": "bildserier-k379",
+   "carousel": [
+    {
+     "label": "Bildserie att klippa ut: först, sedan, till sist",
+     "href": "bildserie-klippa-ut-forst-sedan-till-sist"
+    },
+    {
+     "label": "Bildserie: vad händer sedan?",
+     "href": "bildserie-vad-hander-sedan-ak-1"
+    },
+    {
+     "label": "Bildberättelse: början, mitten och slutet",
+     "href": "bildberattelse-borjan-mitten-slutet-ak-1"
+    },
+    {
+     "label": "Bildserie: ordna meningarna och para ihop dem med bilderna",
+     "href": "bildserie-med-meningar-ordna-och-para-ihop-ak-1"
+    }
+   ],
+   "title": "Bildserie – numrera bilderna i förskoleklass | skriva ut PDF gratis",
+   "metaDescription": "Två bildserier med fyra bilder var som hänger på en lina. Barnet skriver 1 till 4 i rutorna under bilderna. Förskoleklass. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "hygien-och-goda-vanor-forskoleklass",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "base",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad hygien",
+   "h1": "Hygien och goda vanor: vad använder barnen?",
+   "strand": "Hälsa",
+   "slotTokens": [
+    "hygien-och-goda-vanor",
+    "forskola"
+   ],
+   "p1": "Fem skyltar hänger från en stång högst upp på sidan, och på varje skylt står en barnfigur mitt i en vana. Ett barn i randig pyjamas sträcker på sig under månen och stjärnorna, ett tvättar händerna vid handfatet, ett står ute i solen, ett håller handen mot rufsigt hår och ett borstar tänderna så att skummet syns. Längst ner står fem saker på en hylla: en solhatt, en säng, en tandborste, en tvål och en kam. Sakerna står i en annan ordning än barnen. Barnet drar ett streck från pricken under varje barn till pricken ovanför saken som barnet använder.",
+   "p2": "Hygien blir begripligt för ett barn i förskoleklass när det kopplas till konkreta saker i vardagen: tvålen hör till handtvätten, kammen till håret, sängen till vilan. Figurerna saknar ansikten, så alla barn kan känna igen sig i dem. Sidan tar med sömn och solskydd, eftersom goda vanor handlar om mer än att tvätta sig, men den tar aldrig upp mat. I Lgr22 hör kroppen och vad som får oss att må bra, som sömn, hygien och rörelse, till de naturorienterande ämnena i de tidiga årskurserna, och i förskoleklassen är vardagsrutinerna en naturlig start.",
+   "p3": "Det här är grundsidan i serien om hygien och goda vanor. Barnet behöver inte läsa något, bara känna igen bilderna. Bladet fungerar i svartvitt. Prata gärna om när på dagen varje vana hör hemma och vem som hjälper till hemma. Nästa steg är sidan med bildstöd för handtvätt, och i åk 1 sidan om före, under och efter tandborstningen.",
+   "canonicalDeckSlug": "hygien-och-goda-vanor-k380",
+   "carousel": [
+    {
+     "label": "Tvätta händerna med bildstöd",
+     "href": "tvatta-handerna-med-bildstod-forskoleklass"
+    },
+    {
+     "label": "Borsta tänderna: före, under och efter",
+     "href": "borsta-tanderna-fore-under-efter-ak-1"
+    },
+    {
+     "label": "Stoppa bakterierna: vad hindrar dem från att spridas?",
+     "href": "nysa-och-hosta-i-armvecket-stoppa-bakterierna"
+    },
+    {
+     "label": "Goda vanor: varför gör vi så?",
+     "href": "goda-vanor-for-barn-varfor-gor-vi-sa-ak-2"
+    }
+   ],
+   "title": "Hygien och goda vanor – vad använder barnen? | skriva ut PDF gratis",
+   "metaDescription": "Fem barn med var sin vana, som att tvätta händerna och borsta tänderna, och fem saker på en hylla. Barnet drar streck. Förskoleklass. Gratis PDF."
+  },
+  {
+   "slug": "djurens-livsmiljoer-skog-ang-sjo-hav-ak-1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "base",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad djurens livsmiljöer",
+   "h1": "Djurens livsmiljöer: skog, äng, sjö och hav",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "djurens-livsmiljoer",
+    "ak-1"
+   ],
+   "p1": "Överst på sidan finns fyra ritade livsmiljöer med var sin bokstav och sitt namn. A är en sjö med kaveldun och en näckros, B en äng med blommor och högt gräs, C en skog med lövträd och granar och D ett hav med sjögräs och sandbotten. Under dem står åtta djurkort med en streckad ruta på varje. I exemplet är djuren en gräshoppa, en delfin, en trollslända, en val, en ekorre, en bäver, en sjöstjärna och en hackspett. Barnet skriver bokstaven för den livsmiljö där djuret bor i rutan under djuret.",
+   "p2": "Livsmiljöerna är de fyra som ett barn i Sverige kan möta på en utflykt: skogen, ängen, sjön och havet. Djuren fördelar sig inte jämnt, så barnet kan inte räkna sig fram till svaret; här bor tre djur i havet och bara ett på ängen. Att skriva en bokstav i stället för att dra streck gör sidan lugnare att rätta och tvingar barnet att gå tillbaka till bilderna. Lgr22 tar i de naturorienterande ämnena för åk 1–3 upp djur och växter i närmiljön och hur de kan sorteras, och sidan ger ett gemensamt ordförråd inför en skogsdag eller ett besök vid sjön.",
+   "p3": "Det här är grundsidan i serien om djurens livsmiljöer och passar i åk 1. Barnet behöver kunna läsa bokstäverna A till D, men inga ord. Skriv gärna ut i färg, eftersom djuren är färgbilder. Nästa steg är sidan om djurens bon i förskoleklass, eller sidan där barnet kryssar över djuret som inte bor i en viss livsmiljö. I åk 2 fortsätter serien med djurens anpassningar.",
+   "canonicalDeckSlug": "djurens-livsmiljoer-g1398",
+   "carousel": [
+    {
+     "label": "Djurens bon: fågelbo, spindelnät och myrstack",
+     "href": "djurens-bon-fagelbo-spindelnat-myrstack"
+    },
+    {
+     "label": "Livsmiljöer: vilket djur bor inte här?",
+     "href": "livsmiljoer-vilket-djur-bor-inte-har-ak-1"
+    },
+    {
+     "label": "Djurens anpassningar till livsmiljön",
+     "href": "djurens-anpassningar-till-livsmiljon-ak-2"
+    },
+    {
+     "label": "Vad behöver djuren? Mat och ett hem",
+     "href": "vad-behover-djuren-for-att-leva-mat-och-hem"
+    }
+   ],
+   "title": "Djurens livsmiljöer – skog, äng, sjö och hav, åk 1 | PDF gratis",
+   "metaDescription": "Fyra livsmiljöer med bokstäver, skog, äng, sjö och hav, och åtta djur. Barnet skriver rätt bokstav under varje djur. Åk 1. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "flyta-eller-sjunka-experiment-gissa-och-testa",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "base",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Experiment flyta eller sjunka",
+   "h1": "Flyta eller sjunka? Gissa och testa i ett experiment",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "flyta-eller-sjunka-experiment",
+    "ak-1"
+   ],
+   "p1": "Överst på bladet visar en ruta vad bilderna betyder: en sak som ligger i vattenytan flyter, en sak på botten sjunker. Sedan kommer sex rader, var och en med en sak och dess namn. I exemplet är sakerna en skruv, en sax, en fotboll, en tång, en pumpa och en leksaksbåt. Varje rad har två små kar med vatten under rubrikerna Jag gissar och Testet, och i varje kar finns två streckade ringar, en vid ytan och en på botten. Längst till höger står en stjärna under rubriken Förvånad?. Barnet färglägger en ring i det första karet före testet, en ring i det andra efter testet och stjärnan om det blev förvånat.",
+   "p2": "Det här är ett riktigt experiment i liten skala. Gissningen står kvar bredvid resultatet, så barnet kan se med egna ögon när det gissade fel, och stjärnan gör det till något roligt att bli överraskad i stället för något att skämmas över. Svaret finns inte på bladet utan i vattnet: klassen testar varje sak i en balja eller ett kar. Pumpan är den sak som oftast överraskar, eftersom den är tung men flyter. Att ställa en hypotes, göra en enkel undersökning och jämföra med resultatet är kärnan i de naturorienterande ämnena i Lgr22, redan i åk 1.",
+   "p3": "Bladet passar i åk 1 men fungerar också i förskoleklass om en vuxen läser rubrikerna. Förbered en balja med vatten och de sex sakerna, eller byt mot saker ni har i klassrummet, och låt barnen gissa innan någon sak läggs i vattnet. Det här är grundsidan i serien om flyta och sjunka. Nästa steg är sidan med en våg, där barnet ser vilken sak som är tyngst och ändå får avgöra vilken som flyter.",
+   "canonicalDeckSlug": "flyta-eller-sjunka-experiment-g1399",
+   "carousel": [
+    {
+     "label": "Tungt eller lätt? Titta på vågen: flyter eller sjunker det?",
+     "href": "tungt-eller-latt-experiment-med-vag-flyta-sjunka"
+    },
+    {
+     "label": "Kan lera flyta? Experiment med formen",
+     "href": "kan-lera-flyta-experiment-med-formen-ak-2"
+    },
+    {
+     "label": "Sant eller falskt? Fakta om att flyta och sjunka",
+     "href": "varfor-flyter-saker-sant-eller-falskt-ak-2"
+    },
+    {
+     "label": "Rita vad som flyter och sjunker i vattnet",
+     "href": "rita-vad-som-flyter-och-sjunker-forskoleklass"
+    }
+   ],
+   "title": "Flyta eller sjunka – experiment: gissa och testa, åk 1 | PDF gratis",
+   "metaDescription": "Sex saker, till exempel skruv, fotboll och pumpa. Barnet gissar i ett kar, testar i vatten och fyller i resultatet i nästa kar. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "bildserie-klippa-ut-forst-sedan-till-sist",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "story-sequencing-cut-and-paste-first-next-last",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Bildserie att klippa ut",
+   "h1": "Bildserie att klippa ut: först, sedan, till sist",
+   "strand": "Tala, lyssna och samtala",
+   "standard": "W.K.3",
+   "slotTokens": [
+    "bildserier",
+    "forskola"
+   ],
+   "p1": "Överst på bladet hänger två linor med tre tomma ramar var. Under ramarna står orden Först, Sedan och Till sist. Längst ner finns två remsor med sax-märke, och på varje remsa sitter tre bilder i fel ordning. Linorna och remsorna har samma märke, en prick och en triangel, så att barnet vet vilken remsa som hör till vilken lina. I exemplet visar den ena remsan ett äpple som är helt, ett äpple med tuggor och en skrutt, och den andra ett tomt kort, ett kort med en ritad blomma och text och kortet i ett kuvert med frimärke. Barnet klipper ut bilderna och klistrar dem i rätt ram.",
+   "p2": "Tre bilder och tre ordningsord är lagom för ett barn i förskoleklass som ännu inte skriver siffror säkert. Att klippa gör uppgiften konkret: barnet kan lägga bilderna på bordet, flytta runt dem och pröva innan limmet kommer fram. Orden först, sedan och till sist står färdigtryckta, så de kan läsas upp av en vuxen och sägas högt av barnet. Det är samma ord som barnet senare använder när det berättar och skriver. Lgr22 betonar att eleverna ska få berätta för andra och samtala om händelser, och den här sidan ger ett litet, tydligt underlag för just det.",
+   "p3": "Skriv ut bladet i färg eller svartvitt och se till att det finns sax och lim. Klipp gärna remsorna från sidan först, så att barnen inte råkar klippa i linorna. Jämfört med grundsidan, där fyra bilder numreras, är det här den praktiska varianten med tre bilder och färdiga ordningsord. När barnet har klistrat kan ni turas om att berätta serien med hela meningar. Gå sedan vidare till sidan där bildserien har en tom ruta i mitten som barnet ritar själv.",
+   "canonicalDeckSlug": "bildserier-k381",
+   "carousel": [
+    {
+     "label": "Bildserie: numrera bilderna",
+     "href": "bildserie-numrera-bilderna-forskoleklass"
+    },
+    {
+     "label": "Bildserie: vad händer sedan?",
+     "href": "bildserie-vad-hander-sedan-ak-1"
+    },
+    {
+     "label": "Bildberättelse: början, mitten och slutet",
+     "href": "bildberattelse-borjan-mitten-slutet-ak-1"
+    },
+    {
+     "label": "Bildserie: ordna meningarna och para ihop dem med bilderna",
+     "href": "bildserie-med-meningar-ordna-och-para-ihop-ak-1"
+    }
+   ],
+   "title": "Bildserie att klippa ut – först, sedan, till sist | PDF gratis",
+   "metaDescription": "Klipp ut tre bilder per remsa och klistra dem i ramarna ovanför Först, Sedan och Till sist. Två korta bildserier. Förskoleklass. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "bildserie-vad-hander-sedan-ak-1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "story-sequencing-what-happens-next",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Bildserier åk 1",
+   "h1": "Bildserie: vad händer sedan?",
+   "strand": "Läsa: berättande texter",
+   "standard": "RL.1.7",
+   "slotTokens": [
+    "bildserier",
+    "ak-1"
+   ],
+   "p1": "Vad händer sedan? Den frågan styr hela bladet. Sidan har tre berättelser, och varje berättelse hänger på en lina med tre bilder i rätt ordning och en fjärde ram med ett orange frågetecken. Under linan står tre bilder att välja mellan. Barnet ringar in den som hör hemma i ramen. I exemplet tar någon allt fler tuggor av ett äpple, en papperskedja växer fram ur ett papper och en snöboll rullas större och större. Bland alternativen finns rätt fortsättning, en bild från en annan berättelse och en bild som går bakåt, till exempel det hela äpplet igen.",
+   "p2": "Här är ordningen redan given, så uppgiften är att förutsäga. Barnet måste förstå vart berättelsen är på väg och dra en slutsats: om kedjan har två ringar och tre remsor kvar, blir den en lång kedja till slut. Den bakåtgående bilden avslöjar ett barn som bara letar efter en bekant bild utan att tänka på tiden. Att förutsäga vad som händer härnäst är en av de läsförståelsestrategier som arbetas med i svenskundervisningen i åk 1, och här tränas den med bilder innan texten tar över. Fråga gärna varför de andra två bilderna inte passar.",
+   "p3": "Sidan passar i åk 1 men går också att använda muntligt i förskoleklass, eftersom inga ord behöver läsas. Bladet fungerar i svartvitt. Jämfört med grundsidan, där fyra bilder ska numreras, är det här en valuppgift: barnet ringar in ett svar per berättelse. Den närmaste fortsättningen är sidan där början och slutet är givna och mitten ska ritas, och därefter sidan där korta meningar ordnas och paras ihop med bilder.",
+   "canonicalDeckSlug": "bildserier-g1400",
+   "carousel": [
+    {
+     "label": "Bildserie: numrera bilderna",
+     "href": "bildserie-numrera-bilderna-forskoleklass"
+    },
+    {
+     "label": "Bildserie att klippa ut: först, sedan, till sist",
+     "href": "bildserie-klippa-ut-forst-sedan-till-sist"
+    },
+    {
+     "label": "Bildberättelse: början, mitten och slutet",
+     "href": "bildberattelse-borjan-mitten-slutet-ak-1"
+    },
+    {
+     "label": "Bildserie: ordna meningarna och para ihop dem med bilderna",
+     "href": "bildserie-med-meningar-ordna-och-para-ihop-ak-1"
+    }
+   ],
+   "title": "Bildserie – vad händer sedan? Åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Tre berättelser med tre bilder och en ram med frågetecken. Barnet ringar in den av tre bilder som visar vad som händer sedan. Åk 1. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "bildberattelse-borjan-mitten-slutet-ak-1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "beginning-middle-and-end-of-a-story",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Bildberättelse åk 1",
+   "h1": "Bildberättelse: början, mitten och slutet",
+   "strand": "Tala, lyssna och samtala",
+   "standard": "W.1.3",
+   "slotTokens": [
+    "bildserier",
+    "ak-1"
+   ],
+   "p1": "Två berättelser fyller bladet, var och en på sin lina med tre stora ramar. Under ramarna står Början, Mitten och Slutet. Den första och den sista ramen är ritade, men mittramen är tom och har en streckad orange kant. I exemplet står en hel, oskalad banan i början och bara det tomma skalet i slutet. I den andra berättelsen ligger en liten snöboll på marken i början, och i slutet står en färdig snögubbe med hatt, morotsnäsa och pinnarmar. Barnet ritar själv det som hände där emellan.",
+   "p2": "Mitten är den del av en berättelse som barn oftast hoppar över. De berättar hur något började och hur det slutade, men inte vad som hände på vägen. Genom att rita mitten måste barnet hitta på ett rimligt steg som leder från början till slutet: en halvskalad banan, en snöboll som har blivit två. Det finns flera rätta svar, och just därför blir samtalet efteråt det viktiga. Lgr22 tar i svenska för åk 1–3 upp hur berättelser byggs upp med inledning, händelseförlopp och avslutning, och den här sidan gör den strukturen synlig utan att barnet behöver skriva.",
+   "p3": "Bladet passar i åk 1 och fungerar bra som samtalsunderlag i par: låt två barn jämföra sina mittbilder och berätta hela historien för varandra. Det här är den enda sidan bland bildserierna där barnet ritar i stället för att välja eller numrera. Skriv gärna ut i färg så att bananen och snögubben syns tydligt. Nästa steg är att skriva en mening till varje del, eller att gå vidare till sidan där meningar ordnas och paras ihop med bilderna.",
+   "canonicalDeckSlug": "bildserier-g1401",
+   "carousel": [
+    {
+     "label": "Bildserie: numrera bilderna",
+     "href": "bildserie-numrera-bilderna-forskoleklass"
+    },
+    {
+     "label": "Bildserie att klippa ut: först, sedan, till sist",
+     "href": "bildserie-klippa-ut-forst-sedan-till-sist"
+    },
+    {
+     "label": "Bildserie: vad händer sedan?",
+     "href": "bildserie-vad-hander-sedan-ak-1"
+    },
+    {
+     "label": "Bildserie: ordna meningarna och para ihop dem med bilderna",
+     "href": "bildserie-med-meningar-ordna-och-para-ihop-ak-1"
+    }
+   ],
+   "title": "Bildberättelse – början, mitten och slutet, åk 1 | PDF gratis",
+   "metaDescription": "Två bildberättelser där början och slutet är ritade. Barnet ritar det som händer i mitten i den tomma ramen. Åk 1. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "bildserie-med-meningar-ordna-och-para-ihop-ak-1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "story-sequencing-sentences-match-the-pictures",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Bildserier åk 1",
+   "h1": "Bildserie: ordna meningarna och para ihop dem med bilderna",
+   "strand": "Läsa: berättande texter",
+   "standard": "RL.1.7",
+   "slotTokens": [
+    "bildserier",
+    "ak-1"
+   ],
+   "p1": "Här blir bildserien en läsuppgift. Till vänster står åtta bilder i en kolumn, fyra för varje berättelse och i blandad ordning. Till höger står åtta korta meningar, också de i blandad ordning, var och en i en ram med en tom ruta. Mellan kolumnerna finns två prickar per rad att dra streck mellan. I exemplet handlar den ena berättelsen om en papperskedja, från ett papper som klipps i fem remsor till fem ringar som blir en kedja, och den andra om en banan som skalas. Barnet läser meningarna, skriver 1 till 4 i rutorna och drar sedan ett streck från varje mening till dess bild.",
+   "p2": "Meningarna är skrivna så att de bär innehållet: två remsor limmade till ringar, tre skalbitar som hänger ner. Barnet måste alltså läsa noga och jämföra med bilden för att dra rätt streck, eftersom bilderna i samma berättelse liknar varandra. Inga ordningsord som sedan eller till sist står i meningarna, så barnet numrerar utifrån vad som händer: ett helt papper, fem remsor, två ringar och en färdig kedja. Både numreringen och ihopparningen kräver alltså att hela meningen förstås, och en osäker läsare kan få meningarna upplästa och ändå göra tankearbetet själv. Läsa och förstå korta berättande texter är centralt i Lgr22 för svenska i åk 1.",
+   "p3": "Bladet passar i åk 1 när barnet läser enkla meningar på egen hand, och går att läsa högt tillsammans tidigare under läsåret. Det skiljer sig från syskonsidorna genom att texten styr: bilderna ensamma räcker inte. Skriv ut i svartvitt om du vill, meningarna är tydliga ändå. Nästa steg är sidan i åk 2 där barnet skriver egna meningar till en bildserie med hjälp av en ordruta.",
+   "canonicalDeckSlug": "bildserier-g1402",
+   "carousel": [
+    {
+     "label": "Bildserie: numrera bilderna",
+     "href": "bildserie-numrera-bilderna-forskoleklass"
+    },
+    {
+     "label": "Bildserie att klippa ut: först, sedan, till sist",
+     "href": "bildserie-klippa-ut-forst-sedan-till-sist"
+    },
+    {
+     "label": "Bildserie: vad händer sedan?",
+     "href": "bildserie-vad-hander-sedan-ak-1"
+    },
+    {
+     "label": "Bildberättelse: början, mitten och slutet",
+     "href": "bildberattelse-borjan-mitten-slutet-ak-1"
+    }
+   ],
+   "title": "Bildserie med meningar – ordna och para ihop, åk 1 | PDF gratis",
+   "metaDescription": "Två berättelser med fyra bilder och fyra meningar var. Barnet numrerar meningarna och drar streck till rätt bild. Läsförståelse åk 1. Gratis PDF."
+  },
+  {
+   "slug": "bildserie-att-skriva-till-med-ordstod-ak-2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "retell-the-story-with-starters",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Bildserie att skriva till",
+   "h1": "Bildserie att skriva till med ordstöd",
+   "strand": "Skriva",
+   "standard": "W.2.3",
+   "slotTokens": [
+    "bildserier",
+    "ak-2"
+   ],
+   "p1": "Längst upp står en ordruta. I exemplet innehåller den fem ord: staket, bräda, färg, pensel och färgburk. Under rutan löper en tidslinje med fyra bilder av samma staket. På den första är staketet vitt och penseln står i färgburken, på den andra är två brädor målade, på den tredje fyra, och på den sista är hela staketet orange. Bredvid varje bild finns två skrivrader, och på den första raden står ett startord i grått: Först, Sedan, Efter det och Till sist. Barnet skriver vad som händer på varje bild och börjar med startordet.",
+   "p2": "Att skriva till en bildserie är ett vanligt steg i svenskundervisningen i åk 2, och sidan ger två sorters stöd. Startorden bygger upp texten i tidsordning och gör att berättelsen hänger ihop. Ordrutan tar bort stavningsoron för de ord som barnet behöver mest, så att kraften kan läggas på meningarna. Bilderna visar hur arbetet går framåt i steg, vilket ger barnet något konkret att beskriva: hur många brädor som är målade nu. Lgr22 lyfter fram att eleverna ska skriva egna texter och använda ord som binder ihop meningar.",
+   "p3": "Det här är den mest skrivkrävande sidan bland bildserierna och passar i åk 2. Två rader per bild räcker för en eller två meningar. För en elev som behöver mer stöd kan ni först berätta serien muntligt och sedan skriva tillsammans. Bladet fungerar i svartvitt, men i färg syns de målade brädorna tydligare. Läs gärna texterna högt efteråt och jämför hur olika barn har beskrivit samma bilder.",
+   "canonicalDeckSlug": "bildserier-g2378",
+   "carousel": [
+    {
+     "label": "Bildserie: numrera bilderna",
+     "href": "bildserie-numrera-bilderna-forskoleklass"
+    },
+    {
+     "label": "Bildserie att klippa ut: först, sedan, till sist",
+     "href": "bildserie-klippa-ut-forst-sedan-till-sist"
+    },
+    {
+     "label": "Bildserie: vad händer sedan?",
+     "href": "bildserie-vad-hander-sedan-ak-1"
+    },
+    {
+     "label": "Bildberättelse: början, mitten och slutet",
+     "href": "bildberattelse-borjan-mitten-slutet-ak-1"
+    }
+   ],
+   "title": "Bildserie att skriva till med ordstöd, åk 2 | skriva ut PDF gratis",
+   "metaDescription": "En bildserie med fyra bilder, en ordruta och två skrivrader per bild som börjar med Först, Sedan, Efter det och Till sist. Åk 2. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "tvatta-handerna-med-bildstod-forskoleklass",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "hand-washing-steps",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Tvätta händerna med bildstöd",
+   "h1": "Tvätta händerna med bildstöd",
+   "strand": "Hälsa",
+   "slotTokens": [
+    "hygien-och-goda-vanor",
+    "forskola"
+   ],
+   "p1": "Fem kort visar en och samma handtvätt vid ett handfat, men i blandad ordning. På ett kort blöts händerna under kranen, på ett håller händerna tvålen, på ett gnuggas de så att skummet bubblar runt fingrarna, på ett sköljs skummet bort och bubblorna rinner ner i handfatet, och på ett torkas händerna med en handduk. Bredvid varje bild sitter en streckad ruta. Barnet skriver 1, 2, 3, 4 och 5 och visar på så sätt hur vi tvättar händerna.",
+   "p2": "Bildstöd för handtvätt finns på väggen vid många handfat i förskoleklass, och här får barnet bygga upp ordningen själv i stället för att bara titta på den. Det viktiga är skillnaden mellan korten som liknar varandra: kranen är på både när händerna blöts och när de sköljs, men bara på sköljbilden finns det skum som rinner av. Barnet måste alltså titta noga för att få ordningen rätt. Sidan visar ingen tid och ingen mängd tvål, eftersom råden skiljer sig åt; fokus ligger på ordningen. Lgr22 tar upp hygien som en del av hur vi tar hand om kroppen.",
+   "p3": "Bladet passar i förskoleklass och kräver bara att barnet kan skriva siffrorna 1 till 5. Skriv gärna ut ett extra exemplar och sätt upp det vid handfatet när ordningen är klar. Jämfört med grundsidan, där barnet parar ihop vanor med saker, handlar det här bara om en vana. Nästa steg är sidan i åk 1 om före, under och efter tandborstningen, som bygger på samma sätt att tänka i tur och ordning.",
+   "canonicalDeckSlug": "hygien-och-goda-vanor-k382",
+   "carousel": [
+    {
+     "label": "Hygien och goda vanor: vad använder barnen?",
+     "href": "hygien-och-goda-vanor-forskoleklass"
+    },
+    {
+     "label": "Borsta tänderna: före, under och efter",
+     "href": "borsta-tanderna-fore-under-efter-ak-1"
+    },
+    {
+     "label": "Stoppa bakterierna: vad hindrar dem från att spridas?",
+     "href": "nysa-och-hosta-i-armvecket-stoppa-bakterierna"
+    },
+    {
+     "label": "Goda vanor: varför gör vi så?",
+     "href": "goda-vanor-for-barn-varfor-gor-vi-sa-ak-2"
+    }
+   ],
+   "title": "Tvätta händerna med bildstöd – förskoleklass | skriva ut PDF gratis",
+   "metaDescription": "Fem bilder av handtvätt i blandad ordning: blöta, tvåla, gnugga, skölja och torka. Barnet skriver 1 till 5 i rutorna. Förskoleklass. Gratis PDF."
+  },
+  {
+   "slug": "borsta-tanderna-fore-under-efter-ak-1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "brushing-teeth-before-during-after",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Borsta tänderna åk 1",
+   "h1": "Borsta tänderna: före, under och efter",
+   "strand": "Hälsa",
+   "slotTokens": [
+    "hygien-och-goda-vanor",
+    "ak-1"
+   ],
+   "p1": "Sju kort fyller sidan, och varje kort har en bild och tre ord att ringa in: före, under och efter. Bilderna hör alla till tandborstningen. Någon trycker tandkräm på tandborsten, en tand har mörka fläckar, borsten rör sig längs de nedre tänderna och fram och tillbaka över tuggytorna, ett barn spottar och sköljer vid handfatet och en ren tand glänser med små stjärnor runt sig. Barnet tittar på varje bild och ringar in om den visar något som händer före, under eller efter att tänderna borstas.",
+   "p2": "Sidan tränar två saker på en gång: tandborstningens delar och tidsorden före, under och efter. Den fläckiga tanden och den glänsande tanden är nyckelbilderna, eftersom de visar varför vi borstar utan att någon säger det. De tre orden står lika på varje kort, så barnet kan inte gissa från var ordet står. Sidan visar ingen tid på klockan och ingen mängd tandkräm, eftersom råden skiljer sig åt mellan länder. I Lgr22 hör hygien och hur vi tar hand om kroppen till de naturorienterande ämnena i åk 1–3.",
+   "p3": "Bladet passar i åk 1 och kan läsas upp för den som inte läser själv än, eftersom orden är få och återkommer. Fråga gärna vilka kort som skulle kunna flyttas, till exempel om man sköljer munnen både före och efter. Sidan fungerar i svartvitt. Jämfört med handtvätten i förskoleklass, där korten numreras, sorteras bilderna här i tre tidsfack. Nästa steg är sidan om hur vi stoppar bakterierna.",
+   "canonicalDeckSlug": "hygien-och-goda-vanor-g1403",
+   "carousel": [
+    {
+     "label": "Hygien och goda vanor: vad använder barnen?",
+     "href": "hygien-och-goda-vanor-forskoleklass"
+    },
+    {
+     "label": "Tvätta händerna med bildstöd",
+     "href": "tvatta-handerna-med-bildstod-forskoleklass"
+    },
+    {
+     "label": "Stoppa bakterierna: vad hindrar dem från att spridas?",
+     "href": "nysa-och-hosta-i-armvecket-stoppa-bakterierna"
+    },
+    {
+     "label": "Goda vanor: varför gör vi så?",
+     "href": "goda-vanor-for-barn-varfor-gor-vi-sa-ak-2"
+    }
+   ],
+   "title": "Borsta tänderna – före, under och efter, åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Sju bilder från tandborstningen, som tandkräm på borsten och en ren tand. Barnet ringar in före, under eller efter. Åk 1. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "nysa-och-hosta-i-armvecket-stoppa-bakterierna",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "stop-the-germs",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Stoppa bakterierna åk 1",
+   "h1": "Stoppa bakterierna: vad hindrar dem från att spridas?",
+   "strand": "Hälsa",
+   "slotTokens": [
+    "hygien-och-goda-vanor",
+    "ak-1"
+   ],
+   "p1": "Bladet har fyra rader med två bilder i varje rad. I den första hostar ett barn i armvecket och ett annat rakt ut så att dropparna syns i luften. I den andra tvättas händerna med tvål under rinnande vatten, medan ett par händer bredvid är fulla av bakterier. I den tredje dricker två barn ur samma mugg, men på bilden bredvid har de var sin. I den sista ligger en använd näsduk på golvet bredvid papperskorgen, och bredvid slänger ett barn näsduken i korgen. Barnet ringar in den bild i varje rad som stoppar bakterierna från att spridas.",
+   "p2": "Sidan handlar om fyra vardagliga sätt att hindra smitta från att gå vidare. Bakterierna ritas som små runda prickar, så att det osynliga blir synligt för ett barn i åk 1. Varje par är byggt så att de två bilderna bara skiljer sig i det som spelar roll: samma barn, samma handfat, samma papperskorg. Det rätta svaret står ibland till vänster och ibland till höger. Att förstå hur vi skyddar oss själva och andra mot sjukdomar hör till det som tas upp om kroppen och hälsan i de naturorienterande ämnena i Lgr22.",
+   "p3": "Sidan passar bra i åk 1 inför förkylningssäsongen eller efter en vecka med många sjuka i klassen. Låt barnen visa armvecket med sin egen arm innan de ringar in. Bladet fungerar i svartvitt. Jämfört med tandborstningssidan, som följer en enda vana i tid, jämför den här två sätt att göra samma sak. Nästa steg är sidan i åk 2 där barnet läser varför vi har våra goda vanor.",
+   "canonicalDeckSlug": "hygien-och-goda-vanor-g1404",
+   "carousel": [
+    {
+     "label": "Hygien och goda vanor: vad använder barnen?",
+     "href": "hygien-och-goda-vanor-forskoleklass"
+    },
+    {
+     "label": "Tvätta händerna med bildstöd",
+     "href": "tvatta-handerna-med-bildstod-forskoleklass"
+    },
+    {
+     "label": "Borsta tänderna: före, under och efter",
+     "href": "borsta-tanderna-fore-under-efter-ak-1"
+    },
+    {
+     "label": "Goda vanor: varför gör vi så?",
+     "href": "goda-vanor-for-barn-varfor-gor-vi-sa-ak-2"
+    }
+   ],
+   "title": "Stoppa bakterierna – vad hindrar dem från att spridas? Åk 1 | PDF gratis",
+   "metaDescription": "Fyra rader med två bilder: armvecket eller rakt ut, tvål eller smutsiga händer, egen mugg, näsduken i papperskorgen. Barnet ringar in. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "goda-vanor-for-barn-varfor-gor-vi-sa-ak-2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "why-do-we-do-healthy-habits",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Goda vanor åk 2",
+   "h1": "Goda vanor: varför gör vi så?",
+   "strand": "Hälsa",
+   "slotTokens": [
+    "hygien-och-goda-vanor",
+    "ak-2"
+   ],
+   "p1": "Varför gör vi egentligen så? På den här sidan finns svaret i text. Till vänster står fem bilder av vanor: ett barn med hatt i solen, ett som springer, ett som tvättar händerna vid handfatet, ett som sover i sin säng under månen och ett som borstar tänderna. Till höger står fem meningar i stora rutor, i en annan ordning än bilderna. En mening säger att rörelse gör oss pigga, snabba och starka, en annan att kroppen och hjärnan vilar och blir redo för en ny dag. Barnet drar ett streck från varje vana till meningen som berättar varför.",
+   "p2": "I förskoleklass och åk 1 räcker det att veta vad man gör. I åk 2 kommer frågan varför, och den kräver att barnet läser och förstår en hel mening. Meningarna upprepar aldrig vanans eget ord, så den som söker efter ordet tand eller sova hittar det inte i meningen; barnet måste förstå innehållet. Det är en bra övning i att läsa för att förstå, samtidigt som den ger ett språk för att prata om hälsa. Kroppen, sömnen och rörelsens betydelse för att må bra tas upp i de naturorienterande ämnena i Lgr22 för åk 1–3.",
+   "p3": "Bladet passar i åk 2 och kan göras i par, där den ena läser högt och den andra drar strecket. Sidan fungerar i svartvitt. Jämfört med de tidigare sidorna i serien, som bygger på bilder, är det här den första där läsningen bär uppgiften. Samtala gärna om en egen mening för en vana som inte finns med. Veckoschemat för goda vanor passar bra att skicka hem efteråt.",
+   "canonicalDeckSlug": "hygien-och-goda-vanor-g2379",
+   "carousel": [
+    {
+     "label": "Hygien och goda vanor: vad använder barnen?",
+     "href": "hygien-och-goda-vanor-forskoleklass"
+    },
+    {
+     "label": "Tvätta händerna med bildstöd",
+     "href": "tvatta-handerna-med-bildstod-forskoleklass"
+    },
+    {
+     "label": "Borsta tänderna: före, under och efter",
+     "href": "borsta-tanderna-fore-under-efter-ak-1"
+    },
+    {
+     "label": "Stoppa bakterierna: vad hindrar dem från att spridas?",
+     "href": "nysa-och-hosta-i-armvecket-stoppa-bakterierna"
+    }
+   ],
+   "title": "Goda vanor för barn – varför gör vi så? Åk 2 | skriva ut PDF gratis",
+   "metaDescription": "Fem vanor som bilder och fem meningar om varför vi gör dem: solhatt, rörelse, handtvätt, sömn och tänder. Barnet drar streck. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "veckoschema-for-goda-vanor-bocka-av",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "healthy-habits-week-chart",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Veckoschema goda vanor",
+   "h1": "Veckoschema för goda vanor",
+   "strand": "Hälsa",
+   "slotTokens": [
+    "hygien-och-goda-vanor",
+    "ak-1"
+   ],
+   "p1": "Schemat har sju kolumner, från mån till sön, och fem rader med en vana i varje. På exemplet står borsta tänderna, tvätta händerna, röra på sig, dricka vatten och gå i säng tidigt, var och en med en liten bild av ett barn som gör just det. I varje rad finns sju tomma rutor, en för varje dag, alltså trettiofem rutor på hela bladet. Barnet sätter en bock i rutan för varje vana som det har gjort under dagen. Veckan börjar på måndag, så som den gör i en svensk almanacka.",
+   "p2": "Ett veckoschema flyttar vanorna från arbetsbladet in i barnets egen vardag. Här finns inget rätt eller fel svar; barnet registrerar vad det faktiskt har gjort och kan se sin vecka växa fram ruta för ruta. Det ger en naturlig anledning att prata om vanor varje morgon eller eftermiddag, och det ger också en enkel övning i att läsa en tabell med rader och kolumner. Bilderna gör att ett barn som ännu inte läser flytande ändå vet vilken rad som är vilken. Kroppen och vad som får oss att må bra hör till de naturorienterande ämnena i Lgr22.",
+   "p3": "Skriv ut ett schema per barn och vecka, gärna i färg. Det passar i åk 1 men fungerar även i förskoleklass om en vuxen läser raderna. Schemat kan skickas hem på fredagen och tas tillbaka på måndagen, eller sättas upp i klassrummet. Undvik att jämföra barnens scheman med varandra; poängen är att var och en ser sin egen vecka. Tillsammans med sidan om varför vi gör så blir det en liten temavecka om goda vanor.",
+   "canonicalDeckSlug": "hygien-och-goda-vanor-g1405",
+   "carousel": [
+    {
+     "label": "Hygien och goda vanor: vad använder barnen?",
+     "href": "hygien-och-goda-vanor-forskoleklass"
+    },
+    {
+     "label": "Tvätta händerna med bildstöd",
+     "href": "tvatta-handerna-med-bildstod-forskoleklass"
+    },
+    {
+     "label": "Borsta tänderna: före, under och efter",
+     "href": "borsta-tanderna-fore-under-efter-ak-1"
+    },
+    {
+     "label": "Stoppa bakterierna: vad hindrar dem från att spridas?",
+     "href": "nysa-och-hosta-i-armvecket-stoppa-bakterierna"
+    }
+   ],
+   "title": "Veckoschema för goda vanor – bocka av varje dag | PDF gratis",
+   "metaDescription": "Ett veckoschema från måndag till söndag med fem vanor, bland annat borsta tänderna och dricka vatten. Barnet bockar av varje dag. Åk 1. Gratis PDF."
+  },
+  {
+   "slug": "djurens-bon-fagelbo-spindelnat-myrstack",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "animal-homes",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Djurens bon",
+   "h1": "Djurens bon: fågelbo, spindelnät och myrstack",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "djurens-livsmiljoer",
+    "forskola"
+   ],
+   "p1": "Till vänster står sex djur i en kolumn: en myra, en kanin, en spindel, ett bi, en fågel och en bäver. Till höger står sex ritade hem i en annan ordning: ett spindelnät mellan två pinnar, en bäverhydda av pinnar i vattnet, ett fågelbo med tre ägg på en gren, en håla under marken, ett bibo med vaxkakor inne i en trädstam och en myrstack som visas i genomskärning med gångar inuti. Barnet drar ett streck från varje djur till dess hem. Inga ord står på sidan.",
+   "p2": "Ett hem är inte samma sak som en livsmiljö. Ett bo är något som djuret bygger eller använder, och det är lättare för ett barn i förskoleklass att förstå än en hel naturtyp. Hemmen är ritade i genomskärning så att barnet kan se in i dem: äggen i boet, gången ner i hålan, vaxkakorna i trädet. Därför fungerar sidan också som ett samtal om hur djuren bygger. Inga namn står under hemmen, eftersom barnet ska känna igen dem på bilden. I de naturorienterande ämnena i Lgr22 hör djurens levnadssätt till det som tas upp i de tidiga årskurserna.",
+   "p3": "Bladet passar i förskoleklass och kräver varken läsning eller skrivning. Säg gärna hemmets namn högt när barnet har dragit sitt streck: fågelbo, spindelnät, myrstack, bäverhydda. Skriv ut i färg så att djuren blir tydliga. Jämfört med grundsidan om livsmiljöer handlar det här om djurens egna hem. Ta gärna med sidan ut och leta efter en myrstack eller ett spindelnät på skolgården.",
+   "canonicalDeckSlug": "djurens-livsmiljoer-k383",
+   "carousel": [
+    {
+     "label": "Djurens livsmiljöer: skog, äng, sjö och hav",
+     "href": "djurens-livsmiljoer-skog-ang-sjo-hav-ak-1"
+    },
+    {
+     "label": "Livsmiljöer: vilket djur bor inte här?",
+     "href": "livsmiljoer-vilket-djur-bor-inte-har-ak-1"
+    },
+    {
+     "label": "Djurens anpassningar till livsmiljön",
+     "href": "djurens-anpassningar-till-livsmiljon-ak-2"
+    },
+    {
+     "label": "Vad behöver djuren? Mat och ett hem",
+     "href": "vad-behover-djuren-for-att-leva-mat-och-hem"
+    }
+   ],
+   "title": "Djurens bon – fågelbo, spindelnät och myrstack | skriva ut PDF gratis",
+   "metaDescription": "Sex djur och sex ritade djurhem, bland annat fågelbo, bäverhydda och myrstack. Barnet drar streck från djuret till dess hem. Förskoleklass. Gratis PDF."
+  },
+  {
+   "slug": "livsmiljoer-vilket-djur-bor-inte-har-ak-1",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "who-does-not-live-here",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Djurens livsmiljöer åk 1",
+   "h1": "Livsmiljöer: vilket djur bor inte här?",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "djurens-livsmiljoer",
+    "ak-1"
+   ],
+   "p1": "Ett av djuren passar inte in, och barnet ska hitta vilket. Sidan har fyra rader. Till vänster i varje rad står en livsmiljö med sitt namn: äng, sjö, hav och skog. Till höger står fyra djur. I exemplet finns ett bi, en nyckelpiga, en fjäril och en apa vid ängen, en bäver, en trollslända, en svan och en zebra vid sjön, en krabba, en manet, en val och en ekorre vid havet, och en älg, en grävling, en hackspett och en delfin vid skogen. Barnet kryssar över det djur i varje rad som inte bor där.",
+   "p2": "Att hitta det som inte hör hemma kräver att barnet vet något om alla fyra djuren, inte bara om ett. Tre djur i varje rad hör till livsmiljön, och det fjärde kommer ofta från en helt annan del av världen, som apan och zebran, eller från en annan livsmiljö här hemma, som ekorren som hamnat vid havet. Det ger bra anledningar att samtala: var bor apan då, och varför klarar sig inte delfinen i skogen? Livsmiljöerna följer grundsidan, så barnet känner igen dem. Lgr22 tar upp djur i närmiljön och deras livsmiljöer i de naturorienterande ämnena för åk 1–3.",
+   "p3": "Sidan passar i åk 1 och kräver ingen läsning utöver livsmiljöernas namn, som också syns på bilderna. Skriv ut i färg så att djuren blir lätta att känna igen. Jämfört med grundsidan, där barnet placerar djur, tänker barnet här baklänges och letar efter felet. Låt gärna barnet säga var det överkryssade djuret egentligen bor. Nästa steg är sidan om vad djuren behöver för att leva.",
+   "canonicalDeckSlug": "djurens-livsmiljoer-g1406",
+   "carousel": [
+    {
+     "label": "Djurens livsmiljöer: skog, äng, sjö och hav",
+     "href": "djurens-livsmiljoer-skog-ang-sjo-hav-ak-1"
+    },
+    {
+     "label": "Djurens bon: fågelbo, spindelnät och myrstack",
+     "href": "djurens-bon-fagelbo-spindelnat-myrstack"
+    },
+    {
+     "label": "Djurens anpassningar till livsmiljön",
+     "href": "djurens-anpassningar-till-livsmiljon-ak-2"
+    },
+    {
+     "label": "Vad behöver djuren? Mat och ett hem",
+     "href": "vad-behover-djuren-for-att-leva-mat-och-hem"
+    }
+   ],
+   "title": "Livsmiljöer – vilket djur bor inte här? Åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Äng, sjö, hav och skog med fyra djur var. Ett djur i varje rad bor inte där, som zebran vid sjön. Barnet kryssar över det. Åk 1. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "djurens-anpassningar-till-livsmiljon-ak-2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "how-animals-adapt",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Djurens livsmiljöer åk 2",
+   "h1": "Djurens anpassningar till livsmiljön",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "djurens-livsmiljoer",
+    "ak-2"
+   ],
+   "p1": "Längst upp står sju djur i en rad, märkta med bokstäverna A till G. I exemplet är det en elefant, en bäver, en kamel, en apa, en hackspett, en tukan och en pingvin. Under dem står sex meningar, var och en i en ram med en tom ruta till höger. Varje mening beskriver en kroppsdel och vad den är bra för, till exempel att puckeln lagrar fett så att djuret klarar sig länge utan mat, eller att vingarna är fenor så att djuret simmar snabbt men inte kan flyga. Barnet skriver bokstaven för rätt djur i rutan. Ett djur blir över.",
+   "p2": "Här tar serien steget från var djuren bor till varför de klarar sig just där. Meningarna nämner aldrig djurets namn, så barnet måste läsa beskrivningen och jämföra med bilden: vilket djur har en snabel, vilket har en jättestor näbb? Djuret som blir över gör att den sista meningen inte kan lösas genom att bara ta den bokstav som är kvar. Sidan ger ett första möte med ordet anpassning, som kommer tillbaka i biologin högre upp. I Lgr22 för åk 1–3 tar de naturorienterande ämnena upp djurs kännetecken och hur de lever, och den här sidan passar bäst i slutet av åk 2.",
+   "p3": "Bladet kräver att barnet läser korta meningar på egen hand, så det passar i åk 2 eller som högläsning tillsammans. Skriv ut i färg. Jämfört med sidorna i åk 1, där barnet placerar djur i en livsmiljö, handlar det här om djurens kroppar. Låt gärna barnen hitta på en egen mening om det djur som blev över. Nästa steg är livsmiljörapporten, där barnet ritar och skriver om djur och växter vid sjön.",
+   "canonicalDeckSlug": "djurens-livsmiljoer-g2380",
+   "carousel": [
+    {
+     "label": "Djurens livsmiljöer: skog, äng, sjö och hav",
+     "href": "djurens-livsmiljoer-skog-ang-sjo-hav-ak-1"
+    },
+    {
+     "label": "Djurens bon: fågelbo, spindelnät och myrstack",
+     "href": "djurens-bon-fagelbo-spindelnat-myrstack"
+    },
+    {
+     "label": "Livsmiljöer: vilket djur bor inte här?",
+     "href": "livsmiljoer-vilket-djur-bor-inte-har-ak-1"
+    },
+    {
+     "label": "Vad behöver djuren? Mat och ett hem",
+     "href": "vad-behover-djuren-for-att-leva-mat-och-hem"
+    }
+   ],
+   "title": "Djurens anpassningar till livsmiljön – åk 2 | skriva ut PDF gratis",
+   "metaDescription": "Sju djur med bokstäver och sex meningar om snabel, puckel, näbb och fenor. Barnet skriver rätt bokstav i varje mening; ett djur blir över. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "vad-behover-djuren-for-att-leva-mat-och-hem",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "what-animals-need",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Djurens livsmiljöer åk 1",
+   "h1": "Vad behöver djuren? Mat och ett hem",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "djurens-livsmiljoer",
+    "ak-1"
+   ],
+   "p1": "Överst står en mening: Alla djur behöver mat och ett hem. Under den finns två rubriker, Mat och Hem, och fyra rader. Varje rad börjar med ett djur och har sedan två matbilder och två hembilder. I exemplet är djuren en bäver, en spindel, en fågel och en kanin. Maten är ett löv, gräs och en liten insekt, och hemmen är en bäverhydda, ett spindelnät, ett fågelbo och en håla i marken. Barnet ringar in maten som varje djur äter och hemmet som det bor i, alltså två ringar per rad.",
+   "p2": "Sidan tar upp två av djurens behov och låter barnet tänka på båda för samma djur. Alternativen är valda så att de lockar: fågeln kan välja mellan insekten och lövet, bävern mellan bäverhyddan och spindelnätet. Vatten och luft ritas inte, eftersom de inte går att ringa in som ett val mellan två bilder; det är värt att ta upp muntligt så att barnet inte tror att mat och hem är allt. Hemmen är samma ritade hem som i förskoleklassens sida om djurens bon. Djurens behov och hur de lever är en del av de naturorienterande ämnena i Lgr22 för åk 1–3.",
+   "p3": "Bladet passar i åk 1 och kräver ingen läsning förutom den korta meningen överst. Skriv ut i färg. Jämfört med sidan om djurens bon kopplar barnet här ihop hem och mat för samma djur. Fråga gärna vad mer ett djur behöver och skriv upp svaren på tavlan. Nästa steg är sidan där barnet kryssar över djuret som inte bor i en viss livsmiljö.",
+   "canonicalDeckSlug": "djurens-livsmiljoer-g1407",
+   "carousel": [
+    {
+     "label": "Djurens livsmiljöer: skog, äng, sjö och hav",
+     "href": "djurens-livsmiljoer-skog-ang-sjo-hav-ak-1"
+    },
+    {
+     "label": "Djurens bon: fågelbo, spindelnät och myrstack",
+     "href": "djurens-bon-fagelbo-spindelnat-myrstack"
+    },
+    {
+     "label": "Livsmiljöer: vilket djur bor inte här?",
+     "href": "livsmiljoer-vilket-djur-bor-inte-har-ak-1"
+    },
+    {
+     "label": "Djurens anpassningar till livsmiljön",
+     "href": "djurens-anpassningar-till-livsmiljon-ak-2"
+    }
+   ],
+   "title": "Vad behöver djuren? Mat och ett hem, åk 1 | skriva ut PDF gratis",
+   "metaDescription": "Fyra djur med två bilder av mat och två av hem. Barnet ringar in maten som djuret äter och hemmet som det bor i. Åk 1. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "livsmiljorapport-djur-och-vaxter-vid-sjon",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "my-habitat-report",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Djurens livsmiljöer åk 2",
+   "h1": "Livsmiljörapport: djur och växter vid sjön",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "djurens-livsmiljoer",
+    "ak-2"
+   ],
+   "p1": "En stor ritad sjö tar upp övre halvan av bladet, med kaveldun vid stranden, en näckros på vattnet och stenar på botten. Under bilden står rubriken Djur som bor här med tre skrivrader, och sedan rubriken En växt som växer här med en rad. Längst ner står två ord att välja mellan: blött och torrt. Barnet ritar tre djur som bor vid sjön in i bilden, skriver deras namn på raderna, skriver namnet på en växt och ringar in det ord som passar livsmiljön. Inga djur är förritade.",
+   "p2": "En rapport är en öppen uppgift. Barnet bestämmer själv vilka djur som ska med och måste kunna deras namn, så sidan visar vad barnet redan vet om sjön. Det kan vara en groda, en and, en trollslända eller en gädda. Växten är ofta svårare, och där hjälper bilden: kaveldunet och näckrosen syns redan. Ordparet blött och torrt är en första beskrivning av en livsmiljö. I Lgr22 för åk 1–3 ska eleverna få undersöka och dokumentera natur i närmiljön, och det här bladet passar bra efter en utflykt till en sjö eller ett dike.",
+   "p3": "Det här är den mest öppna sidan i serien om djurens livsmiljöer och passar i åk 2. Barnet behöver kunna skriva korta ord. Skriv ut i svartvitt om bladet ska färgläggas. Samla gärna in rapporterna och gör en gemensam affisch om sjön. Jämfört med sidan om djurens anpassningar, där allt är givet, fyller barnet här i allt själv.",
+   "canonicalDeckSlug": "djurens-livsmiljoer-g2381",
+   "carousel": [
+    {
+     "label": "Djurens livsmiljöer: skog, äng, sjö och hav",
+     "href": "djurens-livsmiljoer-skog-ang-sjo-hav-ak-1"
+    },
+    {
+     "label": "Djurens bon: fågelbo, spindelnät och myrstack",
+     "href": "djurens-bon-fagelbo-spindelnat-myrstack"
+    },
+    {
+     "label": "Livsmiljöer: vilket djur bor inte här?",
+     "href": "livsmiljoer-vilket-djur-bor-inte-har-ak-1"
+    },
+    {
+     "label": "Djurens anpassningar till livsmiljön",
+     "href": "djurens-anpassningar-till-livsmiljon-ak-2"
+    }
+   ],
+   "title": "Livsmiljörapport – djur och växter vid sjön, åk 2 | PDF gratis",
+   "metaDescription": "En stor bild av en sjö, tre rader för djur, en rad för en växt och orden blött och torrt. Barnet ritar, skriver och ringar in. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "tungt-eller-latt-experiment-med-vag-flyta-sjunka",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "heavy-or-light-sink-or-float-scale",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Flyta eller sjunka åk 1",
+   "h1": "Tungt eller lätt? Titta på vågen: flyter eller sjunker det?",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "flyta-eller-sjunka-experiment",
+    "ak-1"
+   ],
+   "p1": "Fyra balansvågar står under varandra, och i varje vågskål ligger en sak. Den skål som är tyngst hänger längst ner, och den tyngre saken är också ritad större. I exemplet väger en potatis mer än en kotte, ett äpple mer än en spik, en sten mer än en fjäder och en stock mer än en hammare. Inga ord står vid bilderna. Instruktionen förklarar att vågen visar vilken sak som är tyngre och ber barnet ringa in den sak som flyter i vatten.",
+   "p2": "Många barn tror att tunga saker sjunker och lätta saker flyter. Den här sidan är byggd för att utmana den tanken. På två av vågarna flyter den tyngre saken, som äpplet och stocken, och på två flyter den lättare, som kotten och fjädern. Den som bara väljer den lättare saken får alltså hälften fel, och samma sak gäller för den som väljer den större. Barnet måste tänka på vad saken är gjord av. Att pröva sina föreställningar mot det man faktiskt ser är en grundtanke i de naturorienterande ämnena i Lgr22.",
+   "p3": "Sidan passar i åk 1, gärna efter grundsidan där barnet har gissat och testat med riktigt vatten. Om ni har en balansvåg i klassrummet kan ni väga några av sakerna först och sedan lägga dem i vatten. Bladet fungerar i svartvitt, eftersom vågens lutning bär informationen. Nästa steg är sidan i åk 2 där samma lera får olika former och plötsligt kan flyta.",
+   "canonicalDeckSlug": "flyta-eller-sjunka-experiment-g1408",
+   "carousel": [
+    {
+     "label": "Flyta eller sjunka? Gissa och testa i ett experiment",
+     "href": "flyta-eller-sjunka-experiment-gissa-och-testa"
+    },
+    {
+     "label": "Kan lera flyta? Experiment med formen",
+     "href": "kan-lera-flyta-experiment-med-formen-ak-2"
+    },
+    {
+     "label": "Sant eller falskt? Fakta om att flyta och sjunka",
+     "href": "varfor-flyter-saker-sant-eller-falskt-ak-2"
+    },
+    {
+     "label": "Rita vad som flyter och sjunker i vattnet",
+     "href": "rita-vad-som-flyter-och-sjunker-forskoleklass"
+    }
+   ],
+   "title": "Tungt eller lätt? Titta på vågen – flyter eller sjunker det? | PDF gratis",
+   "metaDescription": "Fyra vågar med en sak i varje vågskål, där den tyngre skålen hänger lägst. Barnet ringar in den sak som flyter i vatten. Åk 1. Gratis PDF att skriva ut."
+  },
+  {
+   "slug": "kan-lera-flyta-experiment-med-formen-ak-2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "make-clay-float-change-the-shape",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Experiment flyta eller sjunka",
+   "h1": "Kan lera flyta? Experiment med formen",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "flyta-eller-sjunka-experiment",
+    "ak-2"
+   ],
+   "p1": "Under rubriken Samma lera, olika former står två kort. På det ena formas en lerklump till en båt, på det andra till en kula, och under varje form står ett litet kar med två streckade ringar, en vid ytan och en på botten. Barnet färglägger ringen där lerformen hamnar. Därunder finns rutan Samma stål, olika former med en spik och ett fartyg, och barnet ringar in den som flyter. Längst ner tar ett stort, tomt kar med vatten upp nästan halva sidan. Där ritar barnet en egen lerbåt.",
+   "p2": "Sidan visar att det inte bara är materialet som avgör om något flyter. Samma lera sjunker som kula men flyter som båt, och samma stål sjunker som spik men flyter som fartyg. Det är ett av de första tillfällen då ett barn i åk 2 möter tanken att formen spelar roll. Försöket är lätt att göra på riktigt med modellera och en balja vatten, och bladet blir då ett protokoll för vad som hände. Det stora karet längst ner låter barnet visa sin egen idé om hur en båt ska se ut för att flyta. Undersökningar av material och deras egenskaper hör till de naturorienterande ämnena i Lgr22.",
+   "p3": "Bladet passar i åk 2 och bäst i samband med ett riktigt försök. Ta fram modellera som inte löses upp i vatten, en balja och gärna några klossar eller kulor att lasta båtarna med. Låt barnen fylla i karen först när de har testat. Jämfört med vågsidan, som handlar om vikt, handlar den här om form. Nästa steg är sidan med påståenden om att flyta och sjunka, eller experimentrapporten i åk 3.",
+   "canonicalDeckSlug": "flyta-eller-sjunka-experiment-g2382",
+   "carousel": [
+    {
+     "label": "Flyta eller sjunka? Gissa och testa i ett experiment",
+     "href": "flyta-eller-sjunka-experiment-gissa-och-testa"
+    },
+    {
+     "label": "Tungt eller lätt? Titta på vågen: flyter eller sjunker det?",
+     "href": "tungt-eller-latt-experiment-med-vag-flyta-sjunka"
+    },
+    {
+     "label": "Sant eller falskt? Fakta om att flyta och sjunka",
+     "href": "varfor-flyter-saker-sant-eller-falskt-ak-2"
+    },
+    {
+     "label": "Rita vad som flyter och sjunker i vattnet",
+     "href": "rita-vad-som-flyter-och-sjunker-forskoleklass"
+    }
+   ],
+   "title": "Kan lera flyta? Experiment med formen, åk 2 | skriva ut PDF gratis",
+   "metaDescription": "Samma lera som båt och som kula, en spik och ett fartyg av stål och ett stort kar att rita en egen lerbåt i. Barnet färglägger och ringar in. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "varfor-flyter-saker-sant-eller-falskt-ak-2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "why-things-float-true-or-false",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Flyta eller sjunka åk 2",
+   "h1": "Sant eller falskt? Fakta om att flyta och sjunka",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "flyta-eller-sjunka-experiment",
+    "ak-2"
+   ],
+   "p1": "Överst står en rad med sju bilder och deras namn: spik, fjäder, stock, potatis, pumpa, fartyg och äpple. Under raden följer sex numrerade meningar, och till höger om varje mening står orden sant och falskt att ringa in. I exemplet är meningarna att en tung pumpa flyter, att vissa tunga saker flyter, att alla lätta saker flyter, att ett fartyg av stål sjunker, att en fjäder sjunker och att ett äpple flyter men en potatis sjunker. Tre av meningarna är sanna och tre är falska. Barnet läser varje mening och ringar in sant eller falskt.",
+   "p2": "Påståendena är valda för att rubba vanliga föreställningar. Minst ett av de falska påståendena är en tanke som många barn har, som att alla lätta saker flyter. Några meningar handlar om en enda sak i raden överst, andra är allmänna och kräver att barnet drar en slutsats. Även för de allmänna finns stödet i raden: stocken är en tung sak som flyter och spiken en lätt sak som sjunker, så barnet kan pröva varje påstående mot en bild. Sidan frågar vad som flyter, inte varför, så samtala gärna efteråt om vad sakerna är gjorda av. Sidan innehåller inget försök, utan barnet resonerar med ord om det det har sett eller hört. Därför passar den efter ett eget experiment, när barnet har något att jämföra med. Att resonera om orsaker och pröva påståenden mot erfarenheter är en del av de naturorienterande ämnena i Lgr22.",
+   "p3": "Bladet passar i åk 2 när barnet läser korta meningar själv. Diskutera gärna de falska meningarna och låt barnen göra dem sanna: alla lätta saker flyter blir vissa lätta saker flyter. Bladet fungerar i svartvitt. Jämfört med lerasidan, där barnet undersöker, är det här en läs- och tänkuppgift. Nästa steg är experimentrapporten i åk 3.",
+   "canonicalDeckSlug": "flyta-eller-sjunka-experiment-g2383",
+   "carousel": [
+    {
+     "label": "Flyta eller sjunka? Gissa och testa i ett experiment",
+     "href": "flyta-eller-sjunka-experiment-gissa-och-testa"
+    },
+    {
+     "label": "Tungt eller lätt? Titta på vågen: flyter eller sjunker det?",
+     "href": "tungt-eller-latt-experiment-med-vag-flyta-sjunka"
+    },
+    {
+     "label": "Kan lera flyta? Experiment med formen",
+     "href": "kan-lera-flyta-experiment-med-formen-ak-2"
+    },
+    {
+     "label": "Rita vad som flyter och sjunker i vattnet",
+     "href": "rita-vad-som-flyter-och-sjunker-forskoleklass"
+    }
+   ],
+   "title": "Sant eller falskt om att flyta och sjunka, åk 2 | skriva ut PDF gratis",
+   "metaDescription": "Sex meningar om att flyta och sjunka, till exempel att en tung pumpa flyter. Barnet ringar in sant eller falskt. Sju bilder överst. Åk 2. Gratis PDF."
+  },
+  {
+   "slug": "rita-vad-som-flyter-och-sjunker-forskoleklass",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "draw-what-floats-and-sinks",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Flyta eller sjunka förskoleklass",
+   "h1": "Rita vad som flyter och sjunker i vattnet",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "flyta-eller-sjunka-experiment",
+    "forskola"
+   ],
+   "p1": "Hela bladet är ett enda stort kar med vatten. Två streckade rutor ligger över vattenytan och är halvt nedsänkta, och två står på botten. Till vänster pekar två skyltar ut nivåerna: flyter vid ytan, med en liten prick som guppar på vågen, och sjunker vid botten, med en prick som ligger på sanden. Barnet ritar två saker som flyter i rutorna vid ytan och två saker som sjunker i rutorna på botten.",
+   "p2": "Här finns inga färdiga bilder att välja bland, utan barnet måste själv komma på saker. Det visar vad barnet redan har upptäckt, kanske under badet, vid stranden eller efter ett försök i klassrummet. Rutorna vid ytan är placerade så att en ritad sak ligger halvt under vattnet, vilket är hur en flytande sak faktiskt ser ut. Skyltarna har symboler, så ett barn i förskoleklass kan förstå dem även om det inte läser orden. Samtala gärna om varför barnet valde just de sakerna. Att utforska och berätta om vardagliga fenomen hör till förskoleklassens och de naturorienterande ämnenas innehåll i Lgr22.",
+   "p3": "Det här är den enklaste sidan i serien om flyta och sjunka och passar i förskoleklass. Den fungerar bäst efter att barnen har provat själva, med en balja och några saker från klassrummet. Skriv ut i svartvitt, så att barnen kan färglägga sina teckningar. Nästa steg är grundsidan där barnet gissar och testar sex saker, eller vågsidan i åk 1.",
+   "canonicalDeckSlug": "flyta-eller-sjunka-experiment-k384",
+   "carousel": [
+    {
+     "label": "Flyta eller sjunka? Gissa och testa i ett experiment",
+     "href": "flyta-eller-sjunka-experiment-gissa-och-testa"
+    },
+    {
+     "label": "Tungt eller lätt? Titta på vågen: flyter eller sjunker det?",
+     "href": "tungt-eller-latt-experiment-med-vag-flyta-sjunka"
+    },
+    {
+     "label": "Kan lera flyta? Experiment med formen",
+     "href": "kan-lera-flyta-experiment-med-formen-ak-2"
+    },
+    {
+     "label": "Sant eller falskt? Fakta om att flyta och sjunka",
+     "href": "varfor-flyter-saker-sant-eller-falskt-ak-2"
+    }
+   ],
+   "title": "Rita vad som flyter och sjunker – förskoleklass | skriva ut PDF gratis",
+   "metaDescription": "Ett stort kar med vatten och fyra streckade rutor, två vid ytan och två på botten. Barnet ritar två saker som flyter och två som sjunker. Förskoleklass. Gratis PDF."
+  },
+  {
+   "slug": "experimentrapport-flyta-eller-sjunka-ak-3",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "sink-or-float-investigation-lab-report",
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Experiment flyta eller sjunka",
+   "h1": "Min experimentrapport: flyta eller sjunka",
+   "strand": "Naturorienterande ämnen",
+   "slotTokens": [
+    "flyta-eller-sjunka-experiment",
+    "ak-3"
+   ],
+   "p1": "Rapporten har fyra numrerade delar. I den första, Min fråga, står två frågor med en ruta att kryssa i: Flyter en apelsin med skal? Flyter den utan skal? och Hur många klossar kan en lerbåt bära innan den sjunker? Bredvid står en apelsin, en lerbåt och en kloss. Den andra delen, Jag tror, har två skrivrader. Den tredje, Det här hände, har två tomma kar att rita i och två skrivrader. Den fjärde, Jag lärde mig, börjar med de gråa orden Nu vet jag att. Barnet väljer en fråga, skriver sin gissning, testar, ritar resultatet och skriver vad det lärde sig.",
+   "p2": "Det här är det enda bladet i serien där barnet genomför en hel undersökning från fråga till slutsats. Båda frågorna prövar en sak i taget: apelsinen är samma frukt med och utan skal, och lerbåten är samma båt som lastas med allt fler klossar. Svaret står ingenstans på sidan, så barnet måste faktiskt göra försöket. Att formulera en fråga, göra en förutsägelse, genomföra en enkel undersökning och dokumentera resultatet i text och bild är just det arbetssätt som Lgr22 beskriver för de naturorienterande ämnena i åk 1–3.",
+   "p3": "Bladet passar i åk 3 och kräver att barnet kan skriva korta meningar själv. Förbered apelsiner, en kniv för att skala, modellera, klossar och en balja vatten. De två karen i den tredje delen passar apelsinfrågan, där ett kar kan visa apelsinen med skal och det andra utan. Jämfört med grundsidan, där barnet bara färglägger ringar, skriver barnet här hela sitt resonemang. Rapporten kan användas flera gånger med nya frågor.",
+   "canonicalDeckSlug": "flyta-eller-sjunka-experiment-g3400",
+   "carousel": [
+    {
+     "label": "Flyta eller sjunka? Gissa och testa i ett experiment",
+     "href": "flyta-eller-sjunka-experiment-gissa-och-testa"
+    },
+    {
+     "label": "Tungt eller lätt? Titta på vågen: flyter eller sjunker det?",
+     "href": "tungt-eller-latt-experiment-med-vag-flyta-sjunka"
+    },
+    {
+     "label": "Kan lera flyta? Experiment med formen",
+     "href": "kan-lera-flyta-experiment-med-formen-ak-2"
+    },
+    {
+     "label": "Sant eller falskt? Fakta om att flyta och sjunka",
+     "href": "varfor-flyter-saker-sant-eller-falskt-ak-2"
+    }
+   ],
+   "title": "Experimentrapport flyta eller sjunka – åk 3 | skriva ut PDF gratis",
+   "metaDescription": "En experimentrapport i fyra delar: min fråga, jag tror, det här hände och jag lärde mig. Frågor om en apelsin med skal och en lerbåt. Åk 3. Gratis PDF."
   }
  ]
 }

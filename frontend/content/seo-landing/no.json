@@ -149676,6 +149676,1242 @@
    ],
    "title": "Ordfamilier i setninger, 4. trinn | til utskrift PDF gratis",
    "metaDescription": "Ordfamilier i setninger for 4. trinn: to familier – venn og hjelp – med fire ord hver og fire setninger til hver familie der barnet skriver riktig ord. Gratis PDF."
+  },
+  {
+   "slug": "bildeserie-nummerer-bildene-1-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "base",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: bildeserier · 1. trinn",
+   "h1": "Bildeserie: nummerer bildene",
+   "strand": "Lesing: fortellinger",
+   "standard": "RL.K.2",
+   "slotTokens": [
+    "bildeserier",
+    "1-trinn"
+   ],
+   "p1": "To bildeserier henger på hver sin klessnor med klesklyper. Hver serie har fire bilder, og under hvert bilde står en stiplet rute. Bildene henger hulter til bulter. Den ene historien handler om en banan på en tallerken: hel, så med én flik av skallet nede, så med tre fliker, og til slutt bare et tomt skall. Den andre foregår på asfalten, der noen tegner et paradis med kritt, rute for rute. Ingen av bildene har tekst, så arket fungerer før barnet kan lese.",
+   "p2": "Barnet leter etter det som forandrer seg fra bilde til bilde, og skriver 1, 2, 3 og 4 i rutene. Ledetråden er konkret: hvor mye av skallet som henger ned, hvor mange ruter som står tegnet på bakken. Det er her fortellerforståelsen begynner – en historie har en start, en slutt og noe som skjer imellom. I norskfaget legger LK20 stor vekt på muntlig fortelling og samtale om fortellinger på de første trinnene, og en bildeserie gir barnet noe å fortelle om før det kan skrive selv.",
+   "p3": "Dette er grunnarket blant bildeseriene: fire bilder, ett tall per rute, ingenting å klippe. Det skrives ut på én side og tåler svart-hvitt. Blir to historier mye for et barn, kan du brette arket og ta den ene om gangen. Be barnet fortelle serien høyt med ordene først, så, etterpå og til slutt når tallene står på plass. Neste steg er arket med tre bilder som klippes ut og limes, og senere arket der barnet velger hva som skjer etterpå.",
+   "canonicalDeckSlug": "bildeserier-k379",
+   "carousel": [
+    {
+     "label": "Bildeserie med 3 bilder: først, så og til slutt",
+     "href": "bildeserie-med-3-bilder-klipp-ut-1-trinn"
+    },
+    {
+     "label": "Bildeserie: hva skjer etterpå?",
+     "href": "bildeserie-hva-skjer-etterpa-2-trinn"
+    },
+    {
+     "label": "Bildefortelling: begynnelse, midt og slutt",
+     "href": "bildefortelling-begynnelse-midt-og-slutt-2-trinn"
+    },
+    {
+     "label": "Bildeserie: sett setningene i rekkefølge og koble dem til bildene",
+     "href": "bildeserie-med-setninger-ordne-og-koble-2-trinn"
+    }
+   ],
+   "title": "Bildeserie – nummerer bildene, 1. trinn | til utskrift PDF gratis",
+   "metaDescription": "Bildeserie for 1. trinn: to historier med fire bilder hver på en klessnor. Barnet ser hva som endrer seg og skriver 1 til 4 i rutene. Gratis PDF til utskrift."
+  },
+  {
+   "slug": "hygiene-og-gode-vaner-hva-bruker-barnet-1-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "base",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: hygiene og gode vaner · 1. trinn",
+   "h1": "Gode vaner: hva bruker hvert barn?",
+   "strand": "Folkehelse og livsmestring",
+   "slotTokens": [
+    "hygiene-og-gode-vaner",
+    "1-trinn"
+   ],
+   "p1": "Fem barn henger i hver sin ramme øverst på arket, og nederst står fem ting på en hylle. Ett barn har pyjamas på og strekker seg under månen og stjernene. Ett står ved vasken med rennende vann. Ett står ute i sterk sol, ett har bustete hår og tar seg til hodet, og ett har skum rundt munnen. På hylla står en solhatt, en seng, en tannbørste, et såpestykke og en kam, i en annen rekkefølge enn barna. Under hvert barn og over hver ting er det en prikk.",
+   "p2": "Barnet trekker en strek fra prikk til prikk: fra barnet til det barnet trenger. Det trøtte barnet skal i seng, det som vasker hendene trenger såpe, det i sola trenger hatt, det bustete håret trenger kam, og munnen med skum trenger tannbørste. Oppgaven er lett å løse, og det er meningen – det viktige er samtalen om hvorfor. Vaner for kropp og hygiene hører til det tverrfaglige temaet folkehelse og livsmestring i LK20, og på 1. trinn handler det om hverdagen.",
+   "p3": "Dette er grunnarket blant arkene om hygiene og gode vaner. Det skrives ut på én side og har ingen ord å lese utenom oppgaveteksten, så det passer også for barn som ikke leser ennå. Bruk det gjerne i en samlingsstund, og la barna vise hvordan de pusser tennene eller vasker hendene. Arket handler om vaner, ikke om mat. De andre arkene i familien går dypere inn i én vane om gangen – håndvask, tannpuss og bakterier.",
+   "canonicalDeckSlug": "hygiene-og-gode-vaner-k380",
+   "carousel": [
+    {
+     "label": "Vaske hender: slik gjør du",
+     "href": "vaske-hender-slik-gjor-du-1-trinn"
+    },
+    {
+     "label": "Pusse tenner: før, under og etter",
+     "href": "pusse-tenner-for-under-og-etter-2-trinn"
+    },
+    {
+     "label": "Stopp bakteriene: hva hindrer at de sprer seg?",
+     "href": "stopp-bakteriene-host-og-nys-i-albuen-2-trinn"
+    },
+    {
+     "label": "Gode vaner: hvorfor gjør vi det?",
+     "href": "gode-vaner-hvorfor-gjor-vi-det-3-trinn"
+    }
+   ],
+   "title": "Hygiene og gode vaner – hva bruker barnet? | til utskrift PDF gratis",
+   "metaDescription": "Hygiene og gode vaner for 1. trinn: fem barn og fem ting – seng, såpe, solhatt, kam og tannbørste. Barnet trekker strek fra hvert barn til det det bruker. Gratis PDF."
+  },
+  {
+   "slug": "dyrenes-leveomrader-skog-eng-vann-og-hav-2-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "base",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: dyrenes leveområder · 2. trinn",
+   "h1": "Dyrenes leveområder: skog, eng, vann og hav",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "dyrenes-leveomrader",
+    "2-trinn"
+   ],
+   "p1": "Øverst på arket står fire leveområder, hvert i sin ramme med en bokstav. A er et vann med siv og en nøkkerose, B en eng med blomster og gress, C en skog med løvtrær og gran, og D havet med tare og bølger. Under står åtte dyr i hvert sitt kort med en tom rute under: en gresshoppe, en delfin, en øyenstikker, en hval, et ekorn, en bever, en sjøstjerne og en hakkespett.",
+   "p2": "Barnet skriver bokstaven til leveområdet der dyret lever. Ekornet og hakkespetten hører hjemme i skogen, delfinen, hvalen og sjøstjerna i havet, beveren ved vannet og gresshoppa på enga. Øyenstikkeren er verdt en samtale: den voksne flyr gjerne over enga, men larven lever i vannet. Å se at dyr hører til bestemte steder, og at stedet gir dem mat og ly, er noe av det første elevene undersøker i naturfag etter LK20, og 2. trinn er en god tid for det.",
+   "p3": "Dette er grunnarket blant arkene om dyrenes leveområder. Det skrives ut på én side og kan fint fargelegges etterpå. Ta gjerne arket med ut: hvilke av dyrene kan dere finne nær skolen? Leveområdene er de vi kjenner i Norge – vann, eng, skog og hav – uten ørken eller regnskog. De andre arkene i familien handler om hvilket dyr som ikke passer inn, dyrenes hjem og hva dyr trenger for å leve.",
+   "canonicalDeckSlug": "dyrenes-leveomrader-g1398",
+   "carousel": [
+    {
+     "label": "Dyrenes hjem: reir, hule og maurtue",
+     "href": "dyrenes-hjem-reir-hule-og-maurtue-1-trinn"
+    },
+    {
+     "label": "Leveområder: hvilket dyr bor ikke her?",
+     "href": "leveomrader-hvilket-dyr-bor-ikke-her-2-trinn"
+    },
+    {
+     "label": "Dyrenes tilpasninger til leveområdet",
+     "href": "dyrenes-tilpasninger-til-leveomradet-3-trinn"
+    },
+    {
+     "label": "Hva dyrene trenger: mat og et hjem",
+     "href": "hva-trenger-dyrene-for-a-leve-mat-og-hjem-2-trinn"
+    }
+   ],
+   "title": "Dyrenes leveområder – skog, eng, vann og hav | til utskrift PDF gratis",
+   "metaDescription": "Dyrenes leveområder for 2. trinn: fire tegnede leveområder merket A til D og åtte dyr, fra gresshoppe til sjøstjerne. Barnet skriver bokstaven under dyret. Gratis PDF."
+  },
+  {
+   "slug": "flyte-eller-synke-gjett-og-test-forsok-2-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "base",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: flyte eller synke · 2. trinn",
+   "h1": "Flyte eller synke: gjett og test med et forsøk",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "flyte-eller-synke-forsok",
+    "2-trinn"
+   ],
+   "p1": "Øverst forklarer to små vannkar hva ringene betyr: en ring på overflaten er flyter, en ring på bunnen er synker. Under står seks rader, én for hver ting: en bolt, en saks, en ball, en nebbtang, et gresskar og en lekebåt. Hver rad har to vannkar med to stiplede ringer – ett under overskriften Jeg gjetter og ett under Forsøket – og en stjerne under Overrasket?",
+   "p2": "Før forsøket fargelegger barnet en ring i det første karet: tror jeg at tingen flyter eller synker? Så legges den i vann, og barnet fargelegger ringen i det andre karet. Stjerna fargelegges bare hvis resultatet kom som en overraskelse. Det er stjerna som gjør arket til et ekte forsøk: å gjette feil er ikke en feil, men en oppdagelse. Gresskaret er et godt eksempel – stort og tungt, men det flyter. Naturfag i LK20 legger vekt på å undre seg, gjette og undersøke på de første trinnene.",
+   "p3": "Ha en balje eller et stort kar med vann klart, og helst de ekte tingene. Du kan godt bytte ut en ting med noe fra klasserommet. Arket skrives ut på én side og kan fylles ut i par. Tell stjernene til slutt: hvilke ting overrasket flest? Dette er grunnarket i familien. De andre arkene undersøker vekt med en skålvekt, form med leire og påstander om hva som flyter og synker.",
+   "canonicalDeckSlug": "flyte-eller-synke-forsok-g1399",
+   "carousel": [
+    {
+     "label": "Tung eller lett? Flyte eller synke med skålvekt",
+     "href": "tung-eller-lett-flyte-og-synke-forsok-2-trinn"
+    },
+    {
+     "label": "Båt av leire: forsøk med form",
+     "href": "bat-av-leire-forsok-med-form-3-trinn"
+    },
+    {
+     "label": "Fakta om å flyte og synke: sant eller usant",
+     "href": "hvorfor-flyter-ting-sant-eller-usant-3-trinn"
+    },
+    {
+     "label": "Tegn ting som flyter og synker: en tegneoppgave om vann",
+     "href": "tegn-det-som-flyter-og-synker-forsok-1-trinn"
+    }
+   ],
+   "title": "Flyte eller synke – gjett og test med et forsøk | til utskrift PDF gratis",
+   "metaDescription": "Flyte eller synke – forsøk for 2. trinn: seks ting fra bolt til lekebåt. Barnet gjetter først, tester i vann og fargelegger en ring i to vannkar. Gratis PDF."
+  },
+  {
+   "slug": "sammenhengende-skrift-sma-bokstaver-i-u-og-t-3-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "base",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: sammenhengende skrift · 3. trinn",
+   "h1": "Sammenhengende skrift: små bokstaver i, u og t",
+   "strand": "Skriving",
+   "slotTokens": [
+    "sammenhengende-skrift",
+    "3-trinn"
+   ],
+   "p1": "Øverst står bokstavene i, u og t i en ramme med merkelappen Sammenhengende skrift. Resten av arket er skrivelinjer i tre blokker, én for hver bokstav. Til venstre for en rød marglinje står bokstaven som forbilde i mørk skrift. Til høyre står to små grupper av grå bokstaver som henger sammen, og så er linjen tom helt ut til kanten. Under følger to tomme linjer til. Hjelpelinjene viser hvor høye de små bokstavene skal være.",
+   "p2": "Barnet skriver over de grå bokstavene og skriver så videre selv, med bokstavene bundet sammen, til enden av linjen og på linjene under. i, u og t er valgt fordi de bygges av de samme enkle bevegelsene – et opptrekk, et nedtrekk og en bue – og fordi de bindes sammen uten at blyanten løftes. Skriften på arket har ingen løkker; den er enkel og rett fram. Norskfaget i LK20 venter at elevene innen utgangen av 4. trinn skriver med en håndskrift som henger sammen, og mange skoler begynner på 3. trinn.",
+   "p3": "Arket skrives ut på én side. Vis bevegelsen på tavla først, og la barna skrive i lufta med fingeren før de tar blyanten. Hold blyanten lett – sammenhengende skrift skal gli. Dette er grunnarket i familien. De neste arkene går videre med store bokstaver og navn, bokstavpar som bindes sammen, hele ord med bilder, lesing av sammenhengende skrift og til slutt avskrift av setninger på 4. trinn.",
+   "canonicalDeckSlug": "sammenhengende-skrift-g2377",
+   "carousel": [
+    {
+     "label": "Store bokstaver i sammenhengende skrift: skriv navnene",
+     "href": "store-bokstaver-i-sammenhengende-skrift-navn-3-trinn"
+    },
+    {
+     "label": "Sammenhengende skrift: bind bokstavene sammen",
+     "href": "sammenhengende-skrift-bind-bokstavene-sammen-3-trinn"
+    },
+    {
+     "label": "Skriv ord med sammenhengende skrift",
+     "href": "skriv-ord-med-sammenhengende-skrift-bilder-3-trinn"
+    },
+    {
+     "label": "Les sammenhengende skrift: ord og bilde",
+     "href": "les-sammenhengende-skrift-ord-og-bilde-3-trinn"
+    }
+   ],
+   "title": "Sammenhengende skrift – små bokstaver i, u og t | til utskrift PDF gratis",
+   "metaDescription": "Sammenhengende skrift for 3. trinn: de små bokstavene i, u og t med forbilde, grå bokstaver å skrive over og tomme linjer til egen skriving. Gratis PDF til utskrift."
+  },
+  {
+   "slug": "bildeserie-med-3-bilder-klipp-ut-1-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "story-sequencing-cut-and-paste-first-next-last",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: bildeserier med klipp · 1. trinn",
+   "h1": "Bildeserie med 3 bilder: først, så og til slutt",
+   "strand": "Lesing: fortellinger",
+   "standard": "W.K.3",
+   "slotTokens": [
+    "bildeserier",
+    "1-trinn"
+   ],
+   "p1": "Øverst på arket henger to rader med tre tomme rammer. Under rammene står Først, Så og Til slutt, og hver snor har et merke helt til venstre – en prikk på den ene og en trekant på den andre. Nederst ligger to remser med tre bilder, merket på samme måte. Den ene remsa viser et eple som blir spist: helt, med bitemerker og til slutt bare skrotten. Den andre viser et kort: tomt, så med en blomst og noen linjer, og til slutt i en konvolutt med frimerke.",
+   "p2": "Barnet klipper ut én remse om gangen, finner raden med samme merke og limer bildene inn i riktig rekkefølge. Merkene sørger for at de to historiene ikke blandes når bitene ligger løst på pulten. Tre bilder er et oversiktlig format for de yngste – nok til at noe skjer, få nok til at hele historien får plass i hodet. Ordene først, så og til slutt står ferdig trykt, og barnet kan peke på dem mens det forteller. Slik blir fortellerspråket fra norskfaget i LK20 noe barnet bruker, ikke bare hører.",
+   "p3": "Sett av en hel økt og ha saks og lim klart. Arket skrives ut på én side. Sammenlignet med grunnarket, der fire bilder nummereres, er det her færre bilder og mer arbeid med hendene – et godt valg for barn som ennå ikke skriver tall sikkert. Når bildene sitter, kan dere snakke om kortet: hvem skal få det, og hva står det på linjene? Barn som vil mer, kan tegne en fjerde rute på baksiden med det som skjer etterpå.",
+   "canonicalDeckSlug": "bildeserier-k381",
+   "carousel": [
+    {
+     "label": "Bildeserie: nummerer bildene",
+     "href": "bildeserie-nummerer-bildene-1-trinn"
+    },
+    {
+     "label": "Bildeserie: hva skjer etterpå?",
+     "href": "bildeserie-hva-skjer-etterpa-2-trinn"
+    },
+    {
+     "label": "Bildefortelling: begynnelse, midt og slutt",
+     "href": "bildefortelling-begynnelse-midt-og-slutt-2-trinn"
+    },
+    {
+     "label": "Bildeserie: sett setningene i rekkefølge og koble dem til bildene",
+     "href": "bildeserie-med-setninger-ordne-og-koble-2-trinn"
+    }
+   ],
+   "title": "Bildeserie med 3 bilder – først, så, til slutt | til utskrift PDF gratis",
+   "metaDescription": "Bildeserie med 3 bilder for 1. trinn: to remser med bilder som klippes ut og limes over Først, Så og Til slutt – et eple som spises og et kort som sendes. Gratis PDF."
+  },
+  {
+   "slug": "bildeserie-hva-skjer-etterpa-2-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "story-sequencing-what-happens-next",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: bildeserier · 2. trinn",
+   "h1": "Bildeserie: hva skjer etterpå?",
+   "strand": "Lesing: fortellinger",
+   "standard": "RL.1.7",
+   "slotTokens": [
+    "bildeserier",
+    "2-trinn"
+   ],
+   "p1": "Tre korte historier henger på hver sin snor. Hver av dem har tre bilder og deretter en tom ramme med et stort spørsmålstegn. Et eple får stadig flere bitemerker. Et rosa ark blir til papirstrimler og så til to ringer. En snøball vokser og får en ball til på toppen. Under hver snor står tre bilder å velge mellom, og de er satt sammen med omtanke: ett fortsetter historien, ett er hentet fra starten av den samme historien, og ett hører til en helt annen fortelling.",
+   "p2": "Oppgaven er å sette ring rundt bildet som hører hjemme i rammen med spørsmålstegnet. Barnet må se hvilken vei historien går – eplet blir mindre, papirlenka blir lengre, snømannen blir høyere. Bildet fra begynnelsen avslører den som bare leter etter noe kjent, og bildet fra en annen historie avslører den som gjetter. Å forutsi hva som skjer videre er en lesestrategi elevene trenger i møte med bøker, og samtale om fortellinger står sentralt i norskfaget på 2. trinn i LK20.",
+   "p3": "Arket skrives ut på én side og egner seg som oppvarming før høytlesing: still samme spørsmål om boka dere skal lese. Til forskjell fra grunnarket står bildene allerede i rett rekkefølge – oppgaven er å fortsette, ikke å ordne. Når ringene er satt, kan barnet fortelle hver historie med alle fire bildene. Neste utfordring er arket med begynnelse og slutt, der det er midten som mangler og må tegnes.",
+   "canonicalDeckSlug": "bildeserier-g1400",
+   "carousel": [
+    {
+     "label": "Bildeserie: nummerer bildene",
+     "href": "bildeserie-nummerer-bildene-1-trinn"
+    },
+    {
+     "label": "Bildeserie med 3 bilder: først, så og til slutt",
+     "href": "bildeserie-med-3-bilder-klipp-ut-1-trinn"
+    },
+    {
+     "label": "Bildefortelling: begynnelse, midt og slutt",
+     "href": "bildefortelling-begynnelse-midt-og-slutt-2-trinn"
+    },
+    {
+     "label": "Bildeserie: sett setningene i rekkefølge og koble dem til bildene",
+     "href": "bildeserie-med-setninger-ordne-og-koble-2-trinn"
+    }
+   ],
+   "title": "Hva skjer etterpå? Bildeserie for 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Hva skjer etterpå? Tre bildeserier med tre bilder og en tom ramme med spørsmålstegn. Barnet setter ring rundt bildet som fortsetter historien. 2. trinn, gratis PDF."
+  },
+  {
+   "slug": "bildefortelling-begynnelse-midt-og-slutt-2-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "beginning-middle-and-end-of-a-story",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: bildefortelling · 2. trinn",
+   "h1": "Bildefortelling: begynnelse, midt og slutt",
+   "strand": "Lesing: fortellinger",
+   "standard": "W.1.3",
+   "slotTokens": [
+    "bildeserier",
+    "2-trinn"
+   ],
+   "p1": "Arket har to historier med tre rammer på en snor. Rammen til venstre heter Begynnelsen og rammen til høyre Slutten, og begge er ferdig tegnet. Rammen i midten er stor, stiplet og tom, og under den står Midten. I den ene historien står en hel banan på en tallerken i begynnelsen, mens slutten viser bare det tomme skallet. I den andre ligger en liten snøball i snøværet, og i slutten står en ferdig snømann med hatt, gulrotnese og knapper.",
+   "p2": "Her skal barnet tegne, ikke velge. For å fylle midten må det tenke ut hvordan man kommer fra første til siste bilde: bananen er halvveis skrelt, eller snøballen er rullet stor og har fått en ball til på toppen. Flere svar er gode, og nettopp det gjør arket verdifullt å snakke om. Å bygge en fortelling med begynnelse, midt og slutt er grunnmuren i både muntlig og skriftlig fortelling, slik norskfaget i LK20 beskriver det for de første trinnene.",
+   "p3": "Arket skrives ut på én side, og midtrammene har god plass til fargeblyanter. La barna vise tegningene til hverandre: tegnet alle det samme, eller fant noen en annen vei fra start til slutt? Sammenlignet med arket der barnet velger hva som skjer etterpå, er denne oppgaven mer åpen og tar lengre tid. Etterpå kan barnet si én setning til hver ramme – et naturlig steg mot arket der det skriver til en bildeserie.",
+   "canonicalDeckSlug": "bildeserier-g1401",
+   "carousel": [
+    {
+     "label": "Bildeserie: nummerer bildene",
+     "href": "bildeserie-nummerer-bildene-1-trinn"
+    },
+    {
+     "label": "Bildeserie med 3 bilder: først, så og til slutt",
+     "href": "bildeserie-med-3-bilder-klipp-ut-1-trinn"
+    },
+    {
+     "label": "Bildeserie: hva skjer etterpå?",
+     "href": "bildeserie-hva-skjer-etterpa-2-trinn"
+    },
+    {
+     "label": "Bildeserie: sett setningene i rekkefølge og koble dem til bildene",
+     "href": "bildeserie-med-setninger-ordne-og-koble-2-trinn"
+    }
+   ],
+   "title": "Bildefortelling: begynnelse, midt og slutt | til utskrift PDF gratis",
+   "metaDescription": "Bildefortelling for 2. trinn: to historier der begynnelsen og slutten er tegnet, og barnet tegner selv det som skjer i midten – en banan og en snømann. Gratis PDF."
+  },
+  {
+   "slug": "bildeserie-med-setninger-ordne-og-koble-2-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "story-sequencing-sentences-match-the-pictures",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: bildeserier med setninger · 2. trinn",
+   "h1": "Bildeserie: sett setningene i rekkefølge og koble dem til bildene",
+   "strand": "Lesing: fortellinger",
+   "standard": "RL.1.7",
+   "slotTokens": [
+    "bildeserier",
+    "2-trinn"
+   ],
+   "p1": "Venstre side har åtte små bilder, høyre side åtte setninger, hver med en tom rute foran. De fire øverste radene hører til én historie og de fire nederste til en annen. Den første handler om en papirlenke: et ark, fem papirstrimler, to strimler limt til ringer og til slutt alle fem ringene i en lenke. Den andre handler om en banan som skrelles, fra hel til tomt skall. Innenfor hver historie står både bildene og setningene stokket.",
+   "p2": "Arbeidet har to deler. Først leser barnet de fire setningene i en historie og skriver 1 til 4 i rutene. Så trekker det en strek fra hver setning til bildet sitt. Bananbildene ligner hverandre, så det holder ikke å kaste et blikk – barnet må lese om det er én flik eller tre fliker som henger ned. Slik bindes lesing og bildeforståelse sammen, akkurat det elevene øver på når de leser sine første korte fortellende tekster på 2. trinn.",
+   "p3": "Setningene har ingen ord som «først» eller «til slutt» som røper rekkefølgen, så barnet må forstå hva som skjer: et ark må klippes før strimlene kan limes til ringer, og bananen må skrelles før bare skallet er igjen. Det gjør nummereringen til ekte leseforståelse. Arket skrives ut på én side. Sammenlignet med grunnarket er det teksten som bærer oppgaven her, ikke bildene alene. Etterpå kan barnet skrive en egen setning om hva som skjer med papirlenka – kanskje den skal henge i klasserommet?",
+   "canonicalDeckSlug": "bildeserier-g1402",
+   "carousel": [
+    {
+     "label": "Bildeserie: nummerer bildene",
+     "href": "bildeserie-nummerer-bildene-1-trinn"
+    },
+    {
+     "label": "Bildeserie med 3 bilder: først, så og til slutt",
+     "href": "bildeserie-med-3-bilder-klipp-ut-1-trinn"
+    },
+    {
+     "label": "Bildeserie: hva skjer etterpå?",
+     "href": "bildeserie-hva-skjer-etterpa-2-trinn"
+    },
+    {
+     "label": "Bildefortelling: begynnelse, midt og slutt",
+     "href": "bildefortelling-begynnelse-midt-og-slutt-2-trinn"
+    }
+   ],
+   "title": "Bildeserie med setninger – ordne og koble | til utskrift PDF gratis",
+   "metaDescription": "Bildeserie med setninger for 2. trinn: åtte setninger om en papirlenke og en banan. Barnet nummererer setningene og trekker strek til riktig bilde. Gratis PDF."
+  },
+  {
+   "slug": "skriv-til-bildeserien-med-ordhjelp-3-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "retell-the-story-with-starters",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: skriv til bildeserien · 3. trinn",
+   "h1": "Skriv til bildeserien med ordhjelp",
+   "strand": "Skriving",
+   "standard": "W.2.3",
+   "slotTokens": [
+    "bildeserier",
+    "3-trinn"
+   ],
+   "p1": "Fire bilder står under hverandre langs en loddrett tidslinje: et hvitt gjerde med pensel og malingsspann, så to malte planker, så fire, og til slutt et helt oransje gjerde. Ved siden av hvert bilde er det to skrivelinjer, og den første linjen begynner med et grått ord – Først, Så, Etterpå og Til slutt. Øverst på arket står en ramme med fem hjelpeord: gjerde, planke, maling, pensel og malingsspann. Bildene står allerede i riktig rekkefølge.",
+   "p2": "Barnet skriver hva som skjer på hvert bilde og begynner med ordet på linjen. Siden rekkefølgen er gitt, går all energi til å formulere setningene. Hjelpeordene tar bort den vanskeligste stavingen, og startordene gir teksten sammenheng uten at barnet selv må finne bindeordene. Resultatet er en liten, hel fortellende tekst i fire ledd – den typen skriving norskfaget i LK20 bygger opp mot på mellomtrinnet, her med modell og støtte underveis.",
+   "p3": "Arket skrives ut på én side. Se etter at barnet skriver noe nytt til hvert bilde, ikke det samme fire ganger: hva er annerledes nå enn på bildet før? Dette er det mest skriftlige arket blant bildeseriene. Barn som trenger mer støtte, kan fortelle muntlig først og skrive etterpå. Til forskjell fra oppgaver der barnet skriver til ett enkelt bilde, handler arket her om rekkefølge og sammenheng mellom fire.",
+   "canonicalDeckSlug": "bildeserier-g2378",
+   "carousel": [
+    {
+     "label": "Bildeserie: nummerer bildene",
+     "href": "bildeserie-nummerer-bildene-1-trinn"
+    },
+    {
+     "label": "Bildeserie med 3 bilder: først, så og til slutt",
+     "href": "bildeserie-med-3-bilder-klipp-ut-1-trinn"
+    },
+    {
+     "label": "Bildeserie: hva skjer etterpå?",
+     "href": "bildeserie-hva-skjer-etterpa-2-trinn"
+    },
+    {
+     "label": "Bildefortelling: begynnelse, midt og slutt",
+     "href": "bildefortelling-begynnelse-midt-og-slutt-2-trinn"
+    }
+   ],
+   "title": "Skriv til bildeserien med ordhjelp, 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Skriv til bildeserien, 3. trinn: fire bilder av et gjerde som males, fem hjelpeord og skrivelinjer som starter med Først, Så, Etterpå og Til slutt. Gratis PDF."
+  },
+  {
+   "slug": "vaske-hender-slik-gjor-du-1-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "hand-washing-steps",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: vaske hender · 1. trinn",
+   "h1": "Vaske hender: slik gjør du",
+   "strand": "Folkehelse og livsmestring",
+   "slotTokens": [
+    "hygiene-og-gode-vaner",
+    "1-trinn"
+   ],
+   "p1": "Fem store bilder fyller arket, og alle viser en vask med kran og et par hender. Bildene står i blandet rekkefølge. På ett renner vannet over tomme, våte hender. På et annet holder hendene et såpestykke. Et tredje viser hender som gnis mot hverandre i skum, et fjerde skumhender under rennende vann, og et femte hender over et håndkle. Ved siden av hvert bilde står en stiplet rute til et tall.",
+   "p2": "Barnet skriver 1 til 5 i rutene slik at bildene viser hvordan vi vasker hendene: gjøre dem våte, ta såpe, gni godt, skylle og tørke. Mange små barn hopper over gnidingen eller skyllingen, og arket gjør hvert ledd synlig. Håndvask er noe barna gjør mange ganger om dagen på skolen, og i LK20 hører det til folkehelse og livsmestring. Å sette bildene i rekkefølge er også en øvelse i å tenke gjennom en handling før man gjør den.",
+   "p3": "Arket skrives ut på én side. Når tallene står på plass, kan bildene klippes ut og henges over vasken som en påminnelse. Syng gjerne en kort sang mens barna gnir – da varer gnidingen lenge nok. Grunnarket i familien handler om flere vaner på én gang; her er det én vane vist i fem bilder. Neste ark handler om tannpuss, med før, under og etter.",
+   "canonicalDeckSlug": "hygiene-og-gode-vaner-k382",
+   "carousel": [
+    {
+     "label": "Gode vaner: hva bruker hvert barn?",
+     "href": "hygiene-og-gode-vaner-hva-bruker-barnet-1-trinn"
+    },
+    {
+     "label": "Pusse tenner: før, under og etter",
+     "href": "pusse-tenner-for-under-og-etter-2-trinn"
+    },
+    {
+     "label": "Stopp bakteriene: hva hindrer at de sprer seg?",
+     "href": "stopp-bakteriene-host-og-nys-i-albuen-2-trinn"
+    },
+    {
+     "label": "Gode vaner: hvorfor gjør vi det?",
+     "href": "gode-vaner-hvorfor-gjor-vi-det-3-trinn"
+    }
+   ],
+   "title": "Vaske hender for barn – slik gjør du | til utskrift PDF gratis",
+   "metaDescription": "Vaske hender for barn i 1. trinn: fem bilder av håndvask i blandet rekkefølge – våte hender, såpe, gni, skylle og tørke. Barnet skriver 1 til 5. Gratis PDF."
+  },
+  {
+   "slug": "pusse-tenner-for-under-og-etter-2-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "brushing-teeth-before-during-after",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: pusse tenner · 2. trinn",
+   "h1": "Pusse tenner: før, under og etter",
+   "strand": "Folkehelse og livsmestring",
+   "slotTokens": [
+    "hygiene-og-gode-vaner",
+    "2-trinn"
+   ],
+   "p1": "Arket har sju kort, hvert med et bilde og tre ord under hverandre: før, under og etter. Bildene viser alt som hører til tannpussen. En tann med mørke prikker og en tube som klemmer tannkrem på børsten. Tannbørster som pusser en tannrad fra flere kanter, én med piler som viser at den går fram og tilbake. En skinnende ren tann med stjerner rundt, og et barn som bøyer seg over vasken og skyller munnen.",
+   "p2": "Barnet ser på hvert bilde og setter ring rundt ordet som passer: skjer dette før tannpussen, under den eller etter den? To bilder hører til før, tre til under og to til etter. Tanna med prikker er den som får barna til å tenke – den viser hvorfor vi pusser i det hele tatt. Tidsordene før, under og etter er samtidig språktrening, og tannhelse passer rett inn i folkehelse og livsmestring i LK20. På 2. trinn pusser de fleste barn selv, med en voksen som pusser over om kvelden.",
+   "p3": "Arket skrives ut på én side og trenger bare en blyant. Snakk om den skinnende tanna og tanna med prikker: hva skjer mellom dem? Til forskjell fra arket om håndvask, der bildene nummereres, sorteres bildene her i tre tider, og flere bilder kan høre til samme ord. Vil barnet gjøre mer, kan det tegne sin egen tannbørste og tube på baksiden.",
+   "canonicalDeckSlug": "hygiene-og-gode-vaner-g1403",
+   "carousel": [
+    {
+     "label": "Gode vaner: hva bruker hvert barn?",
+     "href": "hygiene-og-gode-vaner-hva-bruker-barnet-1-trinn"
+    },
+    {
+     "label": "Vaske hender: slik gjør du",
+     "href": "vaske-hender-slik-gjor-du-1-trinn"
+    },
+    {
+     "label": "Stopp bakteriene: hva hindrer at de sprer seg?",
+     "href": "stopp-bakteriene-host-og-nys-i-albuen-2-trinn"
+    },
+    {
+     "label": "Gode vaner: hvorfor gjør vi det?",
+     "href": "gode-vaner-hvorfor-gjor-vi-det-3-trinn"
+    }
+   ],
+   "title": "Pusse tenner for barn – før, under og etter | til utskrift PDF gratis",
+   "metaDescription": "Pusse tenner for barn i 2. trinn: sju bilder fra tannpussen – tannkrem på børsten, en skitten tann, børsting og skylling. Barnet ringer rundt før, under eller etter."
+  },
+  {
+   "slug": "stopp-bakteriene-host-og-nys-i-albuen-2-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "stop-the-germs",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: stopp bakteriene · 2. trinn",
+   "h1": "Stopp bakteriene: hva hindrer at de sprer seg?",
+   "strand": "Folkehelse og livsmestring",
+   "slotTokens": [
+    "hygiene-og-gode-vaner",
+    "2-trinn"
+   ],
+   "p1": "Fire rader med to bilder hver fyller arket. I første rad hoster et barn i albuen, mens et annet nyser rett ut så dråpene står rundt. I andre rad vaskes hendene med såpe under kranen, og ved siden av er det hender dekket av bakterier. I tredje rad deler to barn samme kopp, mens to andre drikker av hver sin. I fjerde rad slipper et barn et papir på gulvet ved siden av søppelbøtta, og på det andre bildet havner papiret i bøtta.",
+   "p2": "Barnet setter ring rundt bildet i hver rad som stopper bakterier fra å spre seg. Hver rad er et valg mellom to vaner, og barnet må kunne si hvorfor den ene er bedre: dråpene i lufta når andre, mens albuen fanger dem. Arket gjør usynlige bakterier synlige, og det hjelper barn på 2. trinn som fortsatt tenker konkret. Smittevern i hverdagen hører til folkehelse og livsmestring i LK20 og henger tett sammen med livet i klasserommet.",
+   "p3": "Overskriften spør hva som hindrer at bakteriene sprer seg, og de fire radene gir fire svar: albuen, såpen, egen kopp og søppelbøtta. Arket skrives ut på én side. Øv gjerne albuenyset sammen etterpå – det sitter bedre i kroppen enn på papiret. Håndvask får en grundigere behandling på arket med fem bilder som skal nummereres.",
+   "canonicalDeckSlug": "hygiene-og-gode-vaner-g1404",
+   "carousel": [
+    {
+     "label": "Gode vaner: hva bruker hvert barn?",
+     "href": "hygiene-og-gode-vaner-hva-bruker-barnet-1-trinn"
+    },
+    {
+     "label": "Vaske hender: slik gjør du",
+     "href": "vaske-hender-slik-gjor-du-1-trinn"
+    },
+    {
+     "label": "Pusse tenner: før, under og etter",
+     "href": "pusse-tenner-for-under-og-etter-2-trinn"
+    },
+    {
+     "label": "Gode vaner: hvorfor gjør vi det?",
+     "href": "gode-vaner-hvorfor-gjor-vi-det-3-trinn"
+    }
+   ],
+   "title": "Stopp bakteriene – hva hindrer smitte? 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Stopp bakteriene, 2. trinn: fire rader med to bilder – nys i albuen, vask med såpe, egen kopp og papir i bøtta. Barnet ringer rundt det som stopper smitte. Gratis PDF."
+  },
+  {
+   "slug": "gode-vaner-hvorfor-gjor-vi-det-3-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "why-do-we-do-healthy-habits",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: gode vaner · 3. trinn",
+   "h1": "Gode vaner: hvorfor gjør vi det?",
+   "strand": "Folkehelse og livsmestring",
+   "slotTokens": [
+    "hygiene-og-gode-vaner",
+    "3-trinn"
+   ],
+   "p1": "Til venstre står fem bilder av vaner: et barn med hatt i sola, et barn som løper, et barn som vasker hendene med såpe, et barn som sover under månen og et barn som pusser tennene. Til høyre står fem setninger i hver sin boks, i en annen rekkefølge. Én sier at kroppen og hjernen hviler og blir klare for en ny dag. En annen sier at vi blir spreke, raske og sterke. En tredje sier at vi ikke blir brent en varm sommerdag, og en fjerde at vi blir kvitt bakteriene vi fikk på hendene da vi tok på ting.",
+   "p2": "Barnet trekker en strek fra hver vane til setningen som forteller hvorfor vi gjør det. Nå er det ikke nok å kjenne igjen vanen; barnet må lese og forstå en begrunnelse. Det gjør arket til et naturlig steg opp fra de enklere arkene i familien, og det passer 3. trinn, der de fleste leser korte setninger selv. Å kunne begrunne en vane står sentralt i folkehelse og livsmestring i LK20 – en vane sitter bedre når barnet vet hvorfor den er god.",
+   "p3": "Les setningene høyt sammen først hvis noen i gruppa leser sakte, og la barna forklare med egne ord etterpå. Arket skrives ut på én side. Til slutt kan hvert barn finne på en egen god vane, tegne den og skrive en setning om hvorfor den er viktig. Arbeidet passer godt sammen med vaneskjemaet for uka i samme familie, der barna krysser av for vanene gjennom en hel uke.",
+   "canonicalDeckSlug": "hygiene-og-gode-vaner-g2379",
+   "carousel": [
+    {
+     "label": "Gode vaner: hva bruker hvert barn?",
+     "href": "hygiene-og-gode-vaner-hva-bruker-barnet-1-trinn"
+    },
+    {
+     "label": "Vaske hender: slik gjør du",
+     "href": "vaske-hender-slik-gjor-du-1-trinn"
+    },
+    {
+     "label": "Pusse tenner: før, under og etter",
+     "href": "pusse-tenner-for-under-og-etter-2-trinn"
+    },
+    {
+     "label": "Stopp bakteriene: hva hindrer at de sprer seg?",
+     "href": "stopp-bakteriene-host-og-nys-i-albuen-2-trinn"
+    }
+   ],
+   "title": "Gode vaner – hvorfor gjør vi det? 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Gode vaner for 3. trinn: fem vaner – solhatt, bevegelse, håndvask, søvn og tannpuss – og fem setninger om hvorfor. Barnet trekker strek fra vane til grunn. Gratis PDF."
+  },
+  {
+   "slug": "ukeplan-med-gode-vaner-2-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "healthy-habits-week-chart",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: gode vaner · 2. trinn",
+   "h1": "Vaneskjema for uka",
+   "strand": "Folkehelse og livsmestring",
+   "slotTokens": [
+    "hygiene-og-gode-vaner",
+    "2-trinn"
+   ],
+   "p1": "Arket er et skjema for én uke. Øverst står ukedagene fra man til søn, og nedover står fem vaner med et lite bilde og ord: pusse tenner, vaske hender, bevege seg, drikke vann og legge seg tidlig. Hver vane har sju tomme ruter, én for hver dag. Radene er annenhver hvit og beige, så barnet ser lett hvor det er. Uka begynner på mandag, slik den gjør i en norsk kalender.",
+   "p2": "Hver dag setter barnet en hake i ruta for hver vane det har gjort. Her finnes ingen rette eller gale svar – arket er et speil, ikke en prøve. Poenget er at barnet selv legger merke til egne vaner over tid, og ser hvilke dager som går lett og hvilke som er tunge. Å ta ansvar for egen hverdag er en del av folkehelse og livsmestring i LK20, og på 2. trinn klarer de fleste barn å fylle ut skjemaet selv.",
+   "p3": "Skriv ut arket på mandag og send det gjerne hjem, siden mange av vanene skjer der. Snakk på fredag om hvilken vane som fikk flest haker, og hvilken som var vanskeligst. Bruk aldri skjemaet til å sammenligne barn med hverandre; det handler om hver enkelt. Til forskjell fra de andre arkene i familien er dette et ark barnet kommer tilbake til sju dager på rad.",
+   "canonicalDeckSlug": "hygiene-og-gode-vaner-g1405",
+   "carousel": [
+    {
+     "label": "Gode vaner: hva bruker hvert barn?",
+     "href": "hygiene-og-gode-vaner-hva-bruker-barnet-1-trinn"
+    },
+    {
+     "label": "Vaske hender: slik gjør du",
+     "href": "vaske-hender-slik-gjor-du-1-trinn"
+    },
+    {
+     "label": "Pusse tenner: før, under og etter",
+     "href": "pusse-tenner-for-under-og-etter-2-trinn"
+    },
+    {
+     "label": "Stopp bakteriene: hva hindrer at de sprer seg?",
+     "href": "stopp-bakteriene-host-og-nys-i-albuen-2-trinn"
+    }
+   ],
+   "title": "Vaneskjema for uka – gode vaner, en hake hver dag | til utskrift PDF gratis",
+   "metaDescription": "Vaneskjema for uka, 2. trinn: pusse tenner, vaske hender, bevege seg, drikke vann og legge seg tidlig – sju ruter per vane fra mandag til søndag. Gratis PDF."
+  },
+  {
+   "slug": "dyrenes-hjem-reir-hule-og-maurtue-1-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "animal-homes",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: dyrenes hjem · 1. trinn",
+   "h1": "Dyrenes hjem: reir, hule og maurtue",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "dyrenes-leveomrader",
+    "1-trinn"
+   ],
+   "p1": "To kolonner fyller arket. Til venstre står seks dyr: en maur, en kanin, en edderkopp, en bie, en fugl og en bever. Til høyre står seks hjem, tegnet med streker: et spindelvev mellom to kvister, en beverhytte av pinner i vannet, et reir med tre egg, en hule under bakken, vokskaker i en hul trestamme og en maurtue med ganger inni. Hjemmene står i en annen rekkefølge enn dyrene, og ved hvert bilde er det en prikk.",
+   "p2": "Barnet trekker en strek fra hvert dyr til hjemmet sitt. Flere hjem er tegnet i snitt, så barnet kan se inn: eggene i reiret, gangene i maurtua og kammeret nede i hula. Det gjør det lettere å forstå at et hjem er et sted der dyret er trygt og kan få unger. Noen par er lette, andre krever litt tenking – bor kaninen i et reir eller under bakken? Samtale om dyr i nærmiljøet hører til naturfag i LK20 allerede fra 1. trinn.",
+   "p3": "Arket skrives ut på én side og passer for barn som ennå ikke leser, siden det ikke står ord ved bildene. Bruk det gjerne før en tur i skogen, og let etter maurtuer og fuglereir underveis. Grunnarket i familien handler om større leveområder som skog og hav; her er det det lille, nære hjemmet som gjelder. Sammen gir de to arkene et bilde av både hvor og hvordan dyr bor.",
+   "canonicalDeckSlug": "dyrenes-leveomrader-k383",
+   "carousel": [
+    {
+     "label": "Dyrenes leveområder: skog, eng, vann og hav",
+     "href": "dyrenes-leveomrader-skog-eng-vann-og-hav-2-trinn"
+    },
+    {
+     "label": "Leveområder: hvilket dyr bor ikke her?",
+     "href": "leveomrader-hvilket-dyr-bor-ikke-her-2-trinn"
+    },
+    {
+     "label": "Dyrenes tilpasninger til leveområdet",
+     "href": "dyrenes-tilpasninger-til-leveomradet-3-trinn"
+    },
+    {
+     "label": "Hva dyrene trenger: mat og et hjem",
+     "href": "hva-trenger-dyrene-for-a-leve-mat-og-hjem-2-trinn"
+    }
+   ],
+   "title": "Dyrenes hjem – reir, hule og maurtue, 1. trinn | til utskrift PDF gratis",
+   "metaDescription": "Dyrenes hjem for 1. trinn: seks dyr og seks hjem – maur, kanin, edderkopp, bie, fugl og bever. Barnet trekker strek til reir, hule, maurtue eller bol. Gratis PDF."
+  },
+  {
+   "slug": "leveomrader-hvilket-dyr-bor-ikke-her-2-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "who-does-not-live-here",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: dyrenes leveområder · 2. trinn",
+   "h1": "Leveområder: hvilket dyr bor ikke her?",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "dyrenes-leveomrader",
+    "2-trinn"
+   ],
+   "p1": "Fire leveområder står under hverandre til venstre på arket: eng, vann, hav og skog. Ved siden av hvert står fire dyrekort. Ved enga en bie, en ape, en marihøne og en sommerfugl. Ved vannet en bever, en øyenstikker, en sebra og en svane. Ved havet en krabbe, en manet, en hval og et ekorn. Ved skogen en elg, en delfin, en grevling og en hakkespett. I hver gruppe er det ett dyr som ikke passer.",
+   "p2": "Barnet setter kryss over dyret som ikke bor der. Oppgaven snur grunnarket på hodet: i stedet for å finne riktig sted for et dyr, skal barnet oppdage et dyr på feil sted. Noen er lette å se, som sebraen ved vannet. Andre er lurere – ekornet og delfinen hører til leveområder som også står på arket, bare i en annen rad. Da må barnet vite hvor dyret faktisk lever, ikke bare om det er et norsk dyr.",
+   "p3": "Arket skrives ut på én side. Når kryssene er satt, kan barnet fortelle hvor det overflødige dyret egentlig hører hjemme – apa i regnskogen, sebraen på savannen, ekornet i skogen. Det åpner for en samtale om leveområder langt fra Norge. I naturfag etter LK20 blir elevene på de laveste trinnene kjent med dyr og hvor de lever, og her bruker de den kunnskapen til å sortere.",
+   "canonicalDeckSlug": "dyrenes-leveomrader-g1406",
+   "carousel": [
+    {
+     "label": "Dyrenes leveområder: skog, eng, vann og hav",
+     "href": "dyrenes-leveomrader-skog-eng-vann-og-hav-2-trinn"
+    },
+    {
+     "label": "Dyrenes hjem: reir, hule og maurtue",
+     "href": "dyrenes-hjem-reir-hule-og-maurtue-1-trinn"
+    },
+    {
+     "label": "Dyrenes tilpasninger til leveområdet",
+     "href": "dyrenes-tilpasninger-til-leveomradet-3-trinn"
+    },
+    {
+     "label": "Hva dyrene trenger: mat og et hjem",
+     "href": "hva-trenger-dyrene-for-a-leve-mat-og-hjem-2-trinn"
+    }
+   ],
+   "title": "Hvilket dyr bor ikke her? Leveområder, 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Hvilket dyr bor ikke her? Fire leveområder – eng, vann, hav og skog – med fire dyr hver. Barnet setter kryss over dyret som ikke hører hjemme der. 2. trinn, gratis PDF."
+  },
+  {
+   "slug": "dyrenes-tilpasninger-til-leveomradet-3-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "how-animals-adapt",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: dyrenes leveområder · 3. trinn",
+   "h1": "Dyrenes tilpasninger til leveområdet",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "dyrenes-leveomrader",
+    "3-trinn"
+   ],
+   "p1": "Øverst på arket står sju dyr med hver sin bokstav: A en elefant, B en bever, C en kamel, D en ape, E en hakkespett, F en tukan og G en pingvin. Under følger seks setninger i hver sin boks, med en tom rute til høyre. Hver setning handler om en kroppsdel og hva den er god for: luffer til å svømme med, fortenner som feller trær, en lang snabel, et enormt nebb, et spisst nebb som hakker hull og en pukkel som lagrer fett.",
+   "p2": "Barnet leser hver setning og skriver bokstaven til dyret den handler om. Ett dyr blir til overs, så den siste ruta kan ikke løses ved å telle seg fram. Hakkespetten og tukanen har begge store nebb, og bare lesingen avgjør hvem som hakker i trestammer og hvem som plukker frukt på tynne greiner. Tilpasning er et stort ord, men tanken er enkel: kroppen passer til stedet dyret lever. I LK20 kommer tilpasning inn i naturfag fram mot 4. trinn, så arket er tidlig ute på 3. trinn.",
+   "p3": "Arket skrives ut på én side. Det krever mer lesing enn de andre arkene om leveområder, så les gjerne setningene høyt sammen første gang. Spør etterpå: hvorfor klarer kamelen seg lenge uten mat? Hvorfor kan ikke pingvinen fly? Barnet kan også ta dyret som ble til overs og skrive sin egen setning om en kroppsdel som hjelper det.",
+   "canonicalDeckSlug": "dyrenes-leveomrader-g2380",
+   "carousel": [
+    {
+     "label": "Dyrenes leveområder: skog, eng, vann og hav",
+     "href": "dyrenes-leveomrader-skog-eng-vann-og-hav-2-trinn"
+    },
+    {
+     "label": "Dyrenes hjem: reir, hule og maurtue",
+     "href": "dyrenes-hjem-reir-hule-og-maurtue-1-trinn"
+    },
+    {
+     "label": "Leveområder: hvilket dyr bor ikke her?",
+     "href": "leveomrader-hvilket-dyr-bor-ikke-her-2-trinn"
+    },
+    {
+     "label": "Hva dyrene trenger: mat og et hjem",
+     "href": "hva-trenger-dyrene-for-a-leve-mat-og-hjem-2-trinn"
+    }
+   ],
+   "title": "Dyrenes tilpasninger til leveområdet, 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Dyrenes tilpasninger for 3. trinn: sju dyr A–G og seks setninger om luffer, fortenner, snabel, nebb og pukkel. Barnet skriver bokstaven, ett dyr blir til overs."
+  },
+  {
+   "slug": "hva-trenger-dyrene-for-a-leve-mat-og-hjem-2-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "what-animals-need",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: dyrenes leveområder · 2. trinn",
+   "h1": "Hva dyrene trenger: mat og et hjem",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "dyrenes-leveomrader",
+    "2-trinn"
+   ],
+   "p1": "Øverst står setningen «Alle dyr trenger mat og et hjem.» Under den er det fire rader, én for hvert dyr: en bever, en edderkopp, en fugl og en kanin. Etter dyret følger to bilder under overskriften Mat og to under overskriften Hjem. Matbildene er et blad, gress og en mygg, og hjemmene er en beverhytte, et spindelvev, et reir og en hule. De samme bildene går igjen i flere rader, så hvert dyr må vurderes for seg.",
+   "p2": "Barnet setter ring rundt maten og hjemmet til hvert dyr – én ring i hver gruppe. Beveren spiser blader og bor i hytta, edderkoppen fanger mygg i spindelvevet, fuglen spiser mygg og bor i reiret, og kaninen spiser gress og bor i hula. Myggen er riktig svar for både edderkoppen og fuglen, men feil svar for beveren og kaninen. Slik ser barnet at det som er mat for ett dyr, ikke betyr noe for et annet.",
+   "p3": "Arket tar for seg to av det dyr trenger: mat og hjem. Vann og luft er ikke tegnet, så snakk om dem etterpå – hva mer trenger beveren? Arket skrives ut på én side og passer 2. trinn, der naturfag i LK20 legger vekt på å undre seg over hva levende ting trenger. Etterpå er det fint å gå videre til dyrenes hjem eller til arket der barnet undersøker et leveområde selv.",
+   "canonicalDeckSlug": "dyrenes-leveomrader-g1407",
+   "carousel": [
+    {
+     "label": "Dyrenes leveområder: skog, eng, vann og hav",
+     "href": "dyrenes-leveomrader-skog-eng-vann-og-hav-2-trinn"
+    },
+    {
+     "label": "Dyrenes hjem: reir, hule og maurtue",
+     "href": "dyrenes-hjem-reir-hule-og-maurtue-1-trinn"
+    },
+    {
+     "label": "Leveområder: hvilket dyr bor ikke her?",
+     "href": "leveomrader-hvilket-dyr-bor-ikke-her-2-trinn"
+    },
+    {
+     "label": "Dyrenes tilpasninger til leveområdet",
+     "href": "dyrenes-tilpasninger-til-leveomradet-3-trinn"
+    }
+   ],
+   "title": "Hva dyrene trenger: mat og et hjem, 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Hva dyrene trenger: fire dyr – bever, edderkopp, fugl og kanin – med to matbilder og to hjem hver. Barnet ringer rundt mat og hjem. 2. trinn, gratis PDF."
+  },
+  {
+   "slug": "mitt-leveomrade-undersok-og-tegn-3-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "my-habitat-report",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: dyrenes leveområder · 3. trinn",
+   "h1": "Mitt leveområde: undersøk og tegn",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "dyrenes-leveomrader",
+    "3-trinn"
+   ],
+   "p1": "Et stort bilde av et vann dekker den øverste halvdelen av arket, merket Vann. Det står siv på begge breddene og en nøkkerose på et flytende blad, men det er ingen dyr. Under bildet står overskriften «Dyr som lever her» med tre skrivelinjer, og deretter «En plante som vokser her» med én linje. Nederst står to ord i hver sin ramme: vått og tørt.",
+   "p2": "Barnet tegner tre dyr som lever i og ved vannet rett inn i bildet, skriver navnene deres på linjene, skriver navnet på en plante og setter ring rundt ordet som passer til leveområdet. Her er det barnet som bestemmer innholdet – frosk, and, gjedde eller vannløper – og kunnskapen må hentes fra egne erfaringer. Arket er en liten rapport, og slik arbeider naturfag gjerne på 3. trinn etter LK20: observere, beskrive og sette ord på.",
+   "p3": "Siden bildet allerede viser siv og nøkkerose, kan barnet skrive en av dem på plantelinjen eller finne en annen plante. Valget mellom vått og tørt er lett her; det blir mer spennende om dere lager et eget ark om en eng eller en skog. Arket skrives ut på én side. Aller best fungerer det etter en tur til et vann eller en bekk, når barnet har sett dyrene selv. Samle gjerne rapportene i en perm, så klassen får en egen bok om leveområder.",
+   "canonicalDeckSlug": "dyrenes-leveomrader-g2381",
+   "carousel": [
+    {
+     "label": "Dyrenes leveområder: skog, eng, vann og hav",
+     "href": "dyrenes-leveomrader-skog-eng-vann-og-hav-2-trinn"
+    },
+    {
+     "label": "Dyrenes hjem: reir, hule og maurtue",
+     "href": "dyrenes-hjem-reir-hule-og-maurtue-1-trinn"
+    },
+    {
+     "label": "Leveområder: hvilket dyr bor ikke her?",
+     "href": "leveomrader-hvilket-dyr-bor-ikke-her-2-trinn"
+    },
+    {
+     "label": "Dyrenes tilpasninger til leveområdet",
+     "href": "dyrenes-tilpasninger-til-leveomradet-3-trinn"
+    }
+   ],
+   "title": "Mitt leveområde – undersøk og tegn, 3. trinn | til utskrift PDF gratis",
+   "metaDescription": "Mitt leveområde for 3. trinn: et stort bilde av et vann med siv og nøkkerose, linjer til tre dyr og en plante, og valget mellom vått og tørt. Gratis PDF til utskrift."
+  },
+  {
+   "slug": "tung-eller-lett-flyte-og-synke-forsok-2-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "heavy-or-light-sink-or-float-scale",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: flyte eller synke · 2. trinn",
+   "h1": "Tung eller lett? Flyte eller synke med skålvekt",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "flyte-eller-synke-forsok",
+    "2-trinn"
+   ],
+   "p1": "Arket har fire skålvekter under hverandre, og i hver vektskål ligger en ting. Vekta viser hva som er tyngst: skålen med den tyngste tingen henger lavest. På første vekt ligger en potet og en kongle, på andre en spiker og et eple, på tredje en fjær og en stein, og på fjerde en vedkubbe og en hammer. Tingene er tegnet i farger, og det står ingen ord på vektene.",
+   "p2": "Barnet leser av vekta og setter ring rundt det som flyter i vann. Arket er laget for å velte en vanlig tanke: at tunge ting synker og lette ting flyter. To ganger stemmer det – kongla flyter og poteten synker, fjæra flyter og steinen synker. Men to ganger er det motsatt: eplet er tyngre enn spikeren og flyter likevel, og kubben er tyngre enn hammeren og flyter. Det er ikke vekten alene som avgjør, men også hva tingen er laget av.",
+   "p3": "Test gjerne alle åtte tingene i en balje etterpå – særlig eplet og kubben, som mange barn tror vil synke. Arket skrives ut på én side. Til forskjell fra grunnarket, der barnet gjetter og tester én ting om gangen, sammenlignes her to ting, og barnet lærer å se forbi vekten. Naturfag i LK20 handler på 2. trinn om å stille spørsmål og undersøke, og vekta gir et godt spørsmål: hvorfor flyter den tunge?",
+   "canonicalDeckSlug": "flyte-eller-synke-forsok-g1408",
+   "carousel": [
+    {
+     "label": "Flyte eller synke: gjett og test med et forsøk",
+     "href": "flyte-eller-synke-gjett-og-test-forsok-2-trinn"
+    },
+    {
+     "label": "Båt av leire: forsøk med form",
+     "href": "bat-av-leire-forsok-med-form-3-trinn"
+    },
+    {
+     "label": "Fakta om å flyte og synke: sant eller usant",
+     "href": "hvorfor-flyter-ting-sant-eller-usant-3-trinn"
+    },
+    {
+     "label": "Tegn ting som flyter og synker: en tegneoppgave om vann",
+     "href": "tegn-det-som-flyter-og-synker-forsok-1-trinn"
+    }
+   ],
+   "title": "Tung eller lett? Flyte og synke med skålvekt | til utskrift PDF gratis",
+   "metaDescription": "Tung eller lett? Fire skålvekter med to ting hver – potet og kongle, spiker og eple, fjær og stein, kubbe og hammer. Barnet ringer rundt det som flyter. Gratis PDF."
+  },
+  {
+   "slug": "bat-av-leire-forsok-med-form-3-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "make-clay-float-change-the-shape",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: flyte eller synke · 3. trinn",
+   "h1": "Båt av leire: forsøk med form",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "flyte-eller-synke-forsok",
+    "3-trinn"
+   ],
+   "p1": "Arket åpner med de to små vannkarene som forklarer flyter og synker. Under overskriften «Samme leire, forskjellige former» står to ruter: i den ene blir en leireklump til en båt med flagg, i den andre blir en like stor klump til en ball. Under hver står et vannkar med to stiplede ringer. Så følger en rute med en spiker og et stort skip, under overskriften «Samme stål, forskjellige former». Nederst fyller et stort, tomt vannkar resten av siden.",
+   "p2": "Barnet fargelegger ringen der hver leireform havner, setter ring rundt det av stålet som flyter, og tegner til slutt sin egen leirbåt i det store karet. Oppgaven viser noe overraskende: det er ikke bare stoffet som avgjør, men også formen. Den samme leira synker som ball og flyter som båt, fordi båten er hul og skyver mye vann til side. Skipet av stål flyter av samme grunn. Å gjøre et forsøk og forklare det man ser, er kjernen i naturfag på 3. trinn etter LK20.",
+   "p3": "Ha leire eller plastilina og en balje med vann klar, så barna kan prøve selv før de tegner – ingenting slår å se en båt synke fordi kanten ble for lav. Arket skrives ut på én side. Til forskjell fra arket med skålvekt handler dette om form, ikke vekt. Etterpå kan dere teste hvor mange klosser leirbåten tåler, slik forsøksrapporten på 4. trinn legger opp til.",
+   "canonicalDeckSlug": "flyte-eller-synke-forsok-g2382",
+   "carousel": [
+    {
+     "label": "Flyte eller synke: gjett og test med et forsøk",
+     "href": "flyte-eller-synke-gjett-og-test-forsok-2-trinn"
+    },
+    {
+     "label": "Tung eller lett? Flyte eller synke med skålvekt",
+     "href": "tung-eller-lett-flyte-og-synke-forsok-2-trinn"
+    },
+    {
+     "label": "Fakta om å flyte og synke: sant eller usant",
+     "href": "hvorfor-flyter-ting-sant-eller-usant-3-trinn"
+    },
+    {
+     "label": "Tegn ting som flyter og synker: en tegneoppgave om vann",
+     "href": "tegn-det-som-flyter-og-synker-forsok-1-trinn"
+    }
+   ],
+   "title": "Båt av leire – forsøk med form: flyte eller synke | til utskrift PDF gratis",
+   "metaDescription": "Båt av leire, 3. trinn: samme leireklump formet som ball og som båt, en spiker og et skip av stål, og et stort vannkar til din egen leirbåt. Forsøk, gratis PDF."
+  },
+  {
+   "slug": "hvorfor-flyter-ting-sant-eller-usant-3-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "why-things-float-true-or-false",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: flyte eller synke · 3. trinn",
+   "h1": "Fakta om å flyte og synke: sant eller usant",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "flyte-eller-synke-forsok",
+    "3-trinn"
+   ],
+   "p1": "Øverst står en hylle med sju bilder og navn: spiker, fjær, vedkubbe, potet, gresskar, skip og eple. Under følger seks nummererte setninger, hver med ordene sant og usant til høyre. Noen setninger handler om én ting, som «En fjær synker.» og «Et skip av stål synker.» Andre er generelle: «Noen tunge ting flyter.» og «Alle lette ting flyter.» Den siste sammenligner to ting: «Et eple flyter, men en potet synker.»",
+   "p2": "Barnet leser hver setning og setter ring rundt sant eller usant. Tre setninger er sanne og tre er usanne, og flere av dem tar tak i den vanligste misforståelsen – at det er tyngden som bestemmer. Hylla gir barnet bevisene: vedkubben er tung og flyter, og spikeren er lett og synker, så «Alle lette ting flyter» kan avvises med et eksempel. Småord som alle og noen gjør oppgaven til lesetrening også: ett lite ord snur svaret. Arket gir ikke selve forklaringen; det skaper spørsmålene som et forsøk kan svare på.",
+   "p3": "Bruk arket før forsøket: la barna svare, og test så påstandene med ekte potet, eple, spiker og fjær i en balje. Da blir arket en hypotese som prøves. Skipet må løses i tanken – eller med en båt av aluminiumsfolie. Arket skrives ut på én side og passer 3. trinn, der naturfag i LK20 handler om å undersøke og begrunne. Neste steg er arket der barnet former leire til en båt.",
+   "canonicalDeckSlug": "flyte-eller-synke-forsok-g2383",
+   "carousel": [
+    {
+     "label": "Flyte eller synke: gjett og test med et forsøk",
+     "href": "flyte-eller-synke-gjett-og-test-forsok-2-trinn"
+    },
+    {
+     "label": "Tung eller lett? Flyte eller synke med skålvekt",
+     "href": "tung-eller-lett-flyte-og-synke-forsok-2-trinn"
+    },
+    {
+     "label": "Båt av leire: forsøk med form",
+     "href": "bat-av-leire-forsok-med-form-3-trinn"
+    },
+    {
+     "label": "Tegn ting som flyter og synker: en tegneoppgave om vann",
+     "href": "tegn-det-som-flyter-og-synker-forsok-1-trinn"
+    }
+   ],
+   "title": "Flyte og synke – sant eller usant før forsøket | til utskrift PDF gratis",
+   "metaDescription": "Sant eller usant om å flyte og synke, 3. trinn: seks påstander og sju ting på en hylle – spiker, fjær, vedkubbe, potet, gresskar, skip og eple. Gratis PDF."
+  },
+  {
+   "slug": "tegn-det-som-flyter-og-synker-forsok-1-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "draw-what-floats-and-sinks",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: flyte eller synke · 1. trinn",
+   "h1": "Tegn ting som flyter og synker: en tegneoppgave om vann",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "flyte-eller-synke-forsok",
+    "1-trinn"
+   ],
+   "p1": "Hele arket er ett stort vannkar. Vannflaten bølger tvers over den øvre delen, og nederst ligger sand på bunnen. Til venstre står to merkelapper med et lite symbol: flyter, med en prikk som ligger på vannet, og synker, med en prikk som ligger på bunnen. To stiplede ruter ligger på vannflaten, halvt over og halvt under vannet, og to ligger nede på bunnen. Ellers er karet tomt.",
+   "p2": "Barnet tegner to ting som flyter i rutene på vannet og to ting som synker i rutene på bunnen. Det står ingen svar på arket – barnet henter dem fra det det har sett og prøvd. Tegningen viser om barnet har forstått hvor tingen havner: oppe på overflaten eller helt nede. For barn på 1. trinn, som ennå skriver lite, er tegning den naturlige måten å vise hva de vet, og det passer godt med naturfag i LK20 på det første trinnet.",
+   "p3": "Gjør gjerne et forsøk først: la barna slippe ting fra klasserommet ned i en balje – en blyant, en nøkkel, et viskelær, en plastkopp. Tegn etterpå. Arket skrives ut på én side, og rutene er store nok til fargestifter. Dette er det enkleste arket i familien og det eneste uten noe å lese. Når barnet er klart for mer, kan det gå videre til arket der det gjetter og tester seks ting.",
+   "canonicalDeckSlug": "flyte-eller-synke-forsok-k384",
+   "carousel": [
+    {
+     "label": "Flyte eller synke: gjett og test med et forsøk",
+     "href": "flyte-eller-synke-gjett-og-test-forsok-2-trinn"
+    },
+    {
+     "label": "Tung eller lett? Flyte eller synke med skålvekt",
+     "href": "tung-eller-lett-flyte-og-synke-forsok-2-trinn"
+    },
+    {
+     "label": "Båt av leire: forsøk med form",
+     "href": "bat-av-leire-forsok-med-form-3-trinn"
+    },
+    {
+     "label": "Fakta om å flyte og synke: sant eller usant",
+     "href": "hvorfor-flyter-ting-sant-eller-usant-3-trinn"
+    }
+   ],
+   "title": "Tegn det som flyter og synker – forsøk, 1. trinn | til utskrift PDF gratis",
+   "metaDescription": "Tegn ting som flyter og synker, 1. trinn: ett stort vannkar med to stiplede ruter på vannflaten og to på bunnen. Barnet tegner to av hver etter forsøket. Gratis PDF."
+  },
+  {
+   "slug": "mitt-forsok-flyter-appelsinen-4-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "sink-or-float-investigation-lab-report",
+    "theme": "",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Oppgaveark: flyte eller synke · 4. trinn",
+   "h1": "Min forsøksrapport: flyte eller synke",
+   "strand": "Naturfag",
+   "slotTokens": [
+    "flyte-eller-synke-forsok",
+    "4-trinn"
+   ],
+   "p1": "Arket er en forsøksrapport i fire nummererte deler. Del 1, Mitt spørsmål, har to spørsmål med en avkrysningsboks foran: «Flyter en appelsin med skall? Flyter den uten skall?» med et bilde av en appelsin, og «Hvor mange klosser kan en leirbåt bære før den synker?» med en leirbåt og en kloss. Del 2, Jeg tror, har to skrivelinjer. Del 3, Dette skjedde, har to tomme vannkar å tegne i og to linjer. Del 4, Jeg lærte, begynner med «Nå vet jeg at».",
+   "p2": "Barnet krysser av for ett av spørsmålene, skriver hva det tror, gjør forsøket, tegner hva som skjedde og skriver hva det lærte. Det er gangen i en ekte naturfaglig undersøkelse: spørsmål, hypotese, resultat og konklusjon. Appelsinen gir et overraskende svar – med skall flyter den, uten skall synker den, fordi skallet er fullt av små luftlommer. Leirbåten gir et svar man kan telle. LK20 venter at elevene etter 4. trinn kan planlegge og gjennomføre enkle undersøkelser.",
+   "p3": "Barnet kan like gjerne velge leirbåten; de to vannkarene i del 3 passer best til appelsinen med og uten skall, så til båten kan barnet tegne båten før og etter at den sank. Ha en balje, to appelsiner og leire eller plastilina klar. Arket skrives ut på én side og kan fylles ut alene eller i par. Dette er det mest selvstendige arket i familien og passer som avslutning etter de andre: gjett og test, skålvekt, båt av leire og sant eller usant.",
+   "canonicalDeckSlug": "flyte-eller-synke-forsok-g3400",
+   "carousel": [
+    {
+     "label": "Flyte eller synke: gjett og test med et forsøk",
+     "href": "flyte-eller-synke-gjett-og-test-forsok-2-trinn"
+    },
+    {
+     "label": "Tung eller lett? Flyte eller synke med skålvekt",
+     "href": "tung-eller-lett-flyte-og-synke-forsok-2-trinn"
+    },
+    {
+     "label": "Båt av leire: forsøk med form",
+     "href": "bat-av-leire-forsok-med-form-3-trinn"
+    },
+    {
+     "label": "Fakta om å flyte og synke: sant eller usant",
+     "href": "hvorfor-flyter-ting-sant-eller-usant-3-trinn"
+    }
+   ],
+   "title": "Min forsøksrapport: flyte eller synke, 4. trinn | til utskrift PDF gratis",
+   "metaDescription": "Forsøksrapport for 4. trinn: velg appelsinen med og uten skall eller leirbåten med klosser, skriv hva du tror, tegn resultatet og skriv hva du lærte. Gratis PDF."
+  },
+  {
+   "slug": "store-bokstaver-i-sammenhengende-skrift-navn-3-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "cursive-capitals-with-names",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: sammenhengende skrift · 3. trinn",
+   "h1": "Store bokstaver i sammenhengende skrift: skriv navnene",
+   "strand": "Skriving",
+   "slotTokens": [
+    "sammenhengende-skrift",
+    "3-trinn"
+   ],
+   "p1": "Arket har fem rader, hver med en stor bokstav som forbilde til venstre for den røde marglinjen: N, J, E, O og A. Til høyre står bokstaven to ganger i grått og så et navn som begynner med den: Nora, Jakob, Emma, Oliver og Aksel. Under hver grå linje er det én tom linje. Øverst til høyre står merkelappen Sammenhengende skrift, og hjelpelinjene viser hvor høyt de store bokstavene skal gå.",
+   "p2": "Barnet skriver over hver grå stor bokstav og hvert navn, og skriver dem så på den tomme linjen under. Store bokstaver i sammenhengende skrift ser annerledes ut enn de trykte: E-en er bygget av to buer, og J-en går langt ned under linjen. Derfor øves hver bokstav alene før den settes inn i et navn. Navn er et godt sted å begynne, fordi barna vil kunne skrive sitt eget – og et navn begynner alltid med stor bokstav.",
+   "p3": "Arket skrives ut på én side. Når de fem navnene er skrevet, kan barna øve på sitt eget navn og navnene til noen i klassen. Arket kommer gjerne etter grunnarket med små bokstaver og før arket der bokstavpar bindes sammen. Navn med Æ, Ø og Å er ikke med her, men de er fine å ta med når barna skriver sine egne.",
+   "canonicalDeckSlug": "sammenhengende-skrift-g2384",
+   "carousel": [
+    {
+     "label": "Sammenhengende skrift: små bokstaver i, u og t",
+     "href": "sammenhengende-skrift-sma-bokstaver-i-u-og-t-3-trinn"
+    },
+    {
+     "label": "Sammenhengende skrift: bind bokstavene sammen",
+     "href": "sammenhengende-skrift-bind-bokstavene-sammen-3-trinn"
+    },
+    {
+     "label": "Skriv ord med sammenhengende skrift",
+     "href": "skriv-ord-med-sammenhengende-skrift-bilder-3-trinn"
+    },
+    {
+     "label": "Les sammenhengende skrift: ord og bilde",
+     "href": "les-sammenhengende-skrift-ord-og-bilde-3-trinn"
+    }
+   ],
+   "title": "Store bokstaver i sammenhengende skrift – navn | til utskrift PDF gratis",
+   "metaDescription": "Store bokstaver i sammenhengende skrift, 3. trinn: N, J, E, O og A med navnene Nora, Jakob, Emma, Oliver og Aksel å skrive over og skrive selv. Gratis PDF."
+  },
+  {
+   "slug": "sammenhengende-skrift-bind-bokstavene-sammen-3-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "cursive-letter-connections",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: sammenhengende skrift · 3. trinn",
+   "h1": "Sammenhengende skrift: bind bokstavene sammen",
+   "strand": "Skriving",
+   "slotTokens": [
+    "sammenhengende-skrift",
+    "3-trinn"
+   ],
+   "p1": "Fem bokstavpar står som forbilder langs den røde marglinjen: br, va, ei, sk og ta. Til høyre for linjen står paret to ganger i grått og deretter et kort ord med paret i: brød, vann, vei, sko og tak. Under hver grå linje er det én tom linje. Parene er valgt fordi overgangen mellom de to bokstavene er forskjellig hver gang – fra en høy b som går over i r, til en v som må bindes til en a.",
+   "p2": "Barnet skriver over hvert grått bokstavpar og ordet, og skriver dem så på den tomme linjen under. Her er det selve bindingen som er målet: hvor den ene bokstaven slutter og den neste begynner. Noen bindinger går nede ved linjen, andre går oppe, som etter b og v. Når barnet mestrer overgangen i et par, blir hele ord mye lettere. Ordene er korte og kjente, så barnet kan konsentrere seg om bevegelsen og ikke om stavingen.",
+   "p3": "Arket skrives ut på én side. Øv gjerne på parene med store bevegelser først, på tavla eller i lufta. Arket passer mellom grunnarket med enkeltbokstaver og arket med hele ord og bilder. Norskfaget i LK20 venter en håndskrift som henger sammen innen utgangen av 4. trinn, og bindingene er kjernen i det arbeidet på 3. trinn.",
+   "canonicalDeckSlug": "sammenhengende-skrift-g2385",
+   "carousel": [
+    {
+     "label": "Sammenhengende skrift: små bokstaver i, u og t",
+     "href": "sammenhengende-skrift-sma-bokstaver-i-u-og-t-3-trinn"
+    },
+    {
+     "label": "Store bokstaver i sammenhengende skrift: skriv navnene",
+     "href": "store-bokstaver-i-sammenhengende-skrift-navn-3-trinn"
+    },
+    {
+     "label": "Skriv ord med sammenhengende skrift",
+     "href": "skriv-ord-med-sammenhengende-skrift-bilder-3-trinn"
+    },
+    {
+     "label": "Les sammenhengende skrift: ord og bilde",
+     "href": "les-sammenhengende-skrift-ord-og-bilde-3-trinn"
+    }
+   ],
+   "title": "Bind bokstavene sammen – sammenhengende skrift | til utskrift PDF gratis",
+   "metaDescription": "Bind bokstavene sammen, 3. trinn: fem bokstavpar – br, va, ei, sk og ta – med ordene brød, vann, vei, sko og tak i sammenhengende skrift. Gratis PDF til utskrift."
+  },
+  {
+   "slug": "skriv-ord-med-sammenhengende-skrift-bilder-3-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "cursive-words-with-pictures",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: sammenhengende skrift · 3. trinn",
+   "h1": "Skriv ord med sammenhengende skrift",
+   "strand": "Skriving",
+   "slotTokens": [
+    "sammenhengende-skrift",
+    "3-trinn"
+   ],
+   "p1": "Fire ord fyller arket, hvert med sitt bilde til venstre for den røde marglinjen: en pære, en katt, en fisk og en hest. Til høyre står ordet først i mørk sammenhengende skrift som forbilde og så i grått, klart til å skrives over. Under hver rad er det en tom linje. Hjelpelinjene viser både høyden på de små bokstavene, hvor langt k, t, f og h skal opp, og hvor p og f går ned under linjen.",
+   "p2": "Barnet skriver over hvert grått ord, bundet sammen i én bevegelse. Prikken over i-en og tverrstreken på t-en settes på til slutt, når ordet er ferdig – slik lærer barnet å ikke løfte blyanten midt i ordet. Så skrives ordet på samme måte på linjen under. Bildene gir ordene mening, så barnet leser det det skriver. Katt har to t-er med tverrstrek, fisk har en i med prikk, og hest har en t – alle tre øver på å vente med det siste.",
+   "p3": "Arket skrives ut på én side. Be barnet sjekke ordet mot bildet når det er ferdig: står det faktisk katt? Arket kommer etter arket med bokstavpar og før arket der barnet leser ord i sammenhengende skrift. Vil du gi mer øving, kan barnet skrive andre ord med de samme bokstavene på baksiden.",
+   "canonicalDeckSlug": "sammenhengende-skrift-g2386",
+   "carousel": [
+    {
+     "label": "Sammenhengende skrift: små bokstaver i, u og t",
+     "href": "sammenhengende-skrift-sma-bokstaver-i-u-og-t-3-trinn"
+    },
+    {
+     "label": "Store bokstaver i sammenhengende skrift: skriv navnene",
+     "href": "store-bokstaver-i-sammenhengende-skrift-navn-3-trinn"
+    },
+    {
+     "label": "Sammenhengende skrift: bind bokstavene sammen",
+     "href": "sammenhengende-skrift-bind-bokstavene-sammen-3-trinn"
+    },
+    {
+     "label": "Les sammenhengende skrift: ord og bilde",
+     "href": "les-sammenhengende-skrift-ord-og-bilde-3-trinn"
+    }
+   ],
+   "title": "Skriv ord med sammenhengende skrift og bilder | til utskrift PDF gratis",
+   "metaDescription": "Skriv ord med sammenhengende skrift, 3. trinn: pære, katt, fisk og hest med bilde og grått ord å skrive over. Prikker og tverrstreker settes til slutt. Gratis PDF."
+  },
+  {
+   "slug": "les-sammenhengende-skrift-ord-og-bilde-3-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "reading-cursive",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: sammenhengende skrift · 3. trinn",
+   "h1": "Les sammenhengende skrift: ord og bilde",
+   "strand": "Skriving",
+   "slotTokens": [
+    "sammenhengende-skrift",
+    "3-trinn"
+   ],
+   "p1": "Til venstre på arket står seks ord i store kort, skrevet med sammenhengende skrift: lampe, fisk, drage, seng, stol og sitron. Til høyre står seks bilder i en annen rekkefølge: en drage, en sitron, en stol, en fisk, en seng og en lampe. Mellom dem er det en prikk ved hvert ord og hvert bilde. Utenom oppgaveteksten står det ingen trykte bokstaver på arket.",
+   "p2": "Barnet leser hvert ord og trekker en strek til bildet som passer. Her skal barnet ikke skrive, men lese – og det er en egen ferdighet. Sammenhengende skrift ser annerledes ut enn bokstavene i leseboka, og s, f og r kan være vanskelige å kjenne igjen. Ordene er korte og hverdagslige, så det er skriften selv som er utfordringen. Barn som skal skrive sammenhengende, må også kunne lese det de selv og andre har skrevet.",
+   "p3": "Arket skrives ut på én side og tar kort tid. Det kan brukes før barnet har lært alle bokstavene, som en første kontakt med skriften. Etterpå kan barnet skrive to av ordene selv. Blant arkene i sammenhengende skrift er dette det eneste som bare handler om lesing; arket før øver på å skrive ord med bilder, og arket etter handler om hele setninger. Legg merke til ordet drage: på bildet er det en papirdrage, ikke et eventyrdyr – et fint eksempel på at bildet avgjør hva ordet betyr.",
+   "canonicalDeckSlug": "sammenhengende-skrift-g2387",
+   "carousel": [
+    {
+     "label": "Sammenhengende skrift: små bokstaver i, u og t",
+     "href": "sammenhengende-skrift-sma-bokstaver-i-u-og-t-3-trinn"
+    },
+    {
+     "label": "Store bokstaver i sammenhengende skrift: skriv navnene",
+     "href": "store-bokstaver-i-sammenhengende-skrift-navn-3-trinn"
+    },
+    {
+     "label": "Sammenhengende skrift: bind bokstavene sammen",
+     "href": "sammenhengende-skrift-bind-bokstavene-sammen-3-trinn"
+    },
+    {
+     "label": "Skriv ord med sammenhengende skrift",
+     "href": "skriv-ord-med-sammenhengende-skrift-bilder-3-trinn"
+    }
+   ],
+   "title": "Les sammenhengende skrift – ord og bilde | til utskrift PDF gratis",
+   "metaDescription": "Les sammenhengende skrift, 3. trinn: seks ord – lampe, fisk, drage, seng, stol og sitron – og seks bilder i blandet rekkefølge. Barnet trekker strek fra ord til bilde."
+  },
+  {
+   "slug": "skriv-av-setninger-med-sammenhengende-skrift-4-trinn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "copy-a-sentence-in-cursive",
+    "theme": "",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Oppgaveark: sammenhengende skrift · 4. trinn",
+   "h1": "Skriv av setninger med sammenhengende skrift",
+   "strand": "Skriving",
+   "slotTokens": [
+    "sammenhengende-skrift",
+    "4-trinn"
+   ],
+   "p1": "Arket har tre korte setninger i trykt skrift, hver i en farget stripe: «Vi liker å lese bøker.», «Ola har en lekebåt.» og «Hunden min løper fort.» Under den første setningen står den samme setningen i grå sammenhengende skrift, klar til å skrives over, og deretter to tomme linjer. Under de to andre setningene er det bare to tomme linjer – her finnes ingen grå forbilder. Merkelappen Sammenhengende skrift står øverst til høyre.",
+   "p2": "Barnet skriver over den grå setningen og skriver så av hver trykt setning med sammenhengende skrift på de to linjene under. Det er et stort steg: barnet må selv oversette fra trykte bokstaver til sammenhengende skrift, ord for ord. Stor bokstav i starten, mellomrom mellom ordene og punktum til slutt må komme med. Norskfaget i LK20 venter at elevene etter 4. trinn skriver med en håndskrift som henger sammen og er lett å lese, og avskrift er en av de beste veiene dit.",
+   "p3": "Arket skrives ut på én side og er det siste i familien. Det passer når barna kan både de små og de store bokstavene og bindingene mellom dem. Setningene har æ, ø og å – se ekstra etter i bøker, lekebåt og løper. Etterpå kan barna skrive av en setning fra en bok de leser, eller skrive en egen setning om noe de liker.",
+   "canonicalDeckSlug": "sammenhengende-skrift-g3401",
+   "carousel": [
+    {
+     "label": "Sammenhengende skrift: små bokstaver i, u og t",
+     "href": "sammenhengende-skrift-sma-bokstaver-i-u-og-t-3-trinn"
+    },
+    {
+     "label": "Store bokstaver i sammenhengende skrift: skriv navnene",
+     "href": "store-bokstaver-i-sammenhengende-skrift-navn-3-trinn"
+    },
+    {
+     "label": "Sammenhengende skrift: bind bokstavene sammen",
+     "href": "sammenhengende-skrift-bind-bokstavene-sammen-3-trinn"
+    },
+    {
+     "label": "Skriv ord med sammenhengende skrift",
+     "href": "skriv-ord-med-sammenhengende-skrift-bilder-3-trinn"
+    }
+   ],
+   "title": "Skriv av setninger med sammenhengende skrift | til utskrift PDF gratis",
+   "metaDescription": "Skriv av setninger med sammenhengende skrift, 4. trinn: tre trykte setninger, den første også i grått, og to skrivelinjer under hver. Fra trykt skrift til håndskrift."
   }
  ]
 }

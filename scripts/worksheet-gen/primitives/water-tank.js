@@ -104,9 +104,11 @@ function waterTank(opts = {}) {
   inner.push(el('g', { 'data-lcs-tank-part': 'water' }, el('path', { d: waterD, fill: color.tealSoft })));
   // floor band follows the rounded glass bottom
   const floorD = `M ${xl} ${floorY} L ${xl} ${Y(0.92)} Q ${xl} ${bottomY} ${X(0.09)} ${bottomY} L ${X(0.91)} ${bottomY} Q ${xr} ${bottomY} ${xr} ${Y(0.92)} L ${xr} ${floorY} Z`;
-  const prx = r2(Math.max(2, 0.02 * w)), pry = r2(0.6 * Math.max(2, 0.02 * w));
+  // de landing panel (recon 2): on the big drawing tank 0.02w made OPEN pebbles 24 px wide that read as the dashed answer
+  // rings the child colours — pebbles are now small FILLED stones (grid grey, no outline), capped at 8 px
+  const prx = r2(Math.min(8, Math.max(2, 0.02 * w))), pry = r2(0.6 * Math.min(8, Math.max(2, 0.02 * w)));
   // fix round 2: the right pair moved 0.72/0.88 -> 0.79/0.89 so the settled floor ring (0.64w, reaching ~0.72w on a 2:1 tank) never covers a pebble
-  const pebbles = [0.12, 0.28, 0.79, 0.89].map((f) => el('ellipse', { cx: X(f), cy: Y(0.905), rx: prx, ry: pry, fill: 'none', stroke: color.inkSoft, 'stroke-width': 1.5, 'data-lcs-pebble': '' }));
+  const pebbles = [0.12, 0.28, 0.79, 0.89].map((f) => el('ellipse', { cx: X(f), cy: Y(0.905), rx: prx, ry: pry, fill: color.grid, 'data-lcs-pebble': '' }));
   inner.push(el('g', { 'data-lcs-tank-part': 'floor' }, [
     el('path', { d: floorD, fill: color.creamDeep }),
     el('line', { x1: xl, y1: floorY, x2: xr, y2: floorY, stroke: color.inkSoft, 'stroke-width': 1.5, 'data-lcs-floor-top': '' }),

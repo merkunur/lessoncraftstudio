@@ -195,9 +195,18 @@
     ]
   },
   "needs": {
-    "line": "Ogni animale ha bisogno di cibo, acqua e una casa.",
+    "line": "Ogni animale ha bisogno di cibo e di una casa.",
     "foodHead": "Cibo",
-    "homeHead": "Casa"
+    "homeHead": "Casa",
+    "undrawn": [
+      "acqua",
+      "bere",
+      "beve",
+      "aria",
+      "respirare",
+      "sole",
+      "luce"
+    ]
   },
   "report": {
     "animals": "Animali che vivono qui",
@@ -228,11 +237,11 @@
     },
     "G1-406": {
       "title": "Gli ambienti degli animali: trova l'intruso",
-      "instruction": "In ogni riga, barra con una X l'animale che non vive in quell'ambiente."
+      "instruction": "Per ogni ambiente, barra con una X l'animale che non ci vive."
     },
     "G2-380": {
       "title": "L'adattamento degli animali all'ambiente",
-      "instruction": "Scrivi nel riquadro di ogni frase la lettera dell'animale di cui parla."
+      "instruction": "Scrivi nel riquadro di ogni frase la lettera dell'animale di cui parla; un animale resta senza frase."
     },
     "G1-407": {
       "title": "Di che cosa hanno bisogno gli animali per vivere?",
@@ -240,7 +249,7 @@
     },
     "G2-381": {
       "title": "La mia ricerca su un ambiente: animali e piante",
-      "instruction": "Disegna tre animali che vivono in questo ambiente, scrivi i loro nomi e una pianta che cresce lì, e cerchia la parola giusta in ogni coppia."
+      "instruction": "Nella figura disegna tre animali che ci vivono, scrivi i loro nomi e una pianta che ci cresce, poi cerchia la parola adatta a questo ambiente."
     }
   }
 }

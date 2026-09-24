@@ -2840,8 +2840,8 @@
     "instruction": "Titta på vad som ändras i varje berättelse och skriv siffrorna i rutorna så att bilderna kommer i rätt ordning."
   },
   "K-380": {
-    "title": "Hygien och goda vanor: vad behöver barnen?",
-    "instruction": "Dra ett streck från varje barn till det som barnet behöver."
+    "title": "Hygien och goda vanor: vad använder barnen?",
+    "instruction": "Dra ett streck från varje barn till saken som barnet använder."
   },
   "G1-398": {
     "title": "Djurens livsmiljöer: skog, äng, sjö och hav",
@@ -2853,7 +2853,7 @@
   },
   "K-381": {
     "title": "Bildserie att klippa ut: först, sedan, till sist",
-    "instruction": "Klipp ut bilderna på varje remsa och klistra dem i de tomma ramarna ovanför Först, Sedan och Till sist."
+    "instruction": "Klipp ut bilderna på varje remsa och klistra dem på linan med samma märke, i de tomma ramarna ovanför Först, Sedan och Till sist."
   },
   "G1-400": {
     "title": "Bildserie: vad händer sedan?",
@@ -2864,8 +2864,8 @@
     "instruction": "Titta på början och slutet av varje berättelse och rita det som händer i mitten i den tomma ramen."
   },
   "G1-402": {
-    "title": "Bildserie: para ihop meningarna med bilderna",
-    "instruction": "Läs meningarna i varje berättelse och dra ett streck från varje mening till rätt bild."
+    "title": "Bildserie: ordna meningarna och para ihop dem med bilderna",
+    "instruction": "Numrera meningarna i varje berättelse i rätt ordning i rutorna och dra sedan ett streck från varje mening till dess bild."
   },
   "G2-378": {
     "title": "Bildserie att skriva till med ordstöd",
@@ -2877,7 +2877,7 @@
   },
   "G1-403": {
     "title": "Borsta tänderna: före, under och efter",
-    "instruction": "Ringa in ordet som visar när det händer: före, under eller efter tandborstningen."
+    "instruction": "Titta på varje bild och ringa in före, under eller efter tandborstningen."
   },
   "G1-404": {
     "title": "Nysa och hosta i armvecket: stoppa bakterierna",
@@ -2897,11 +2897,11 @@
   },
   "G1-406": {
     "title": "Livsmiljöer: vilket djur bor inte här?",
-    "instruction": "Kryssa i varje rad över djuret som inte bor i den livsmiljön."
+    "instruction": "Titta på varje livsmiljö och kryssa över djuret som inte bor där."
   },
   "G2-380": {
     "title": "Djurens anpassningar till livsmiljön",
-    "instruction": "Skriv bokstaven för djuret som varje mening handlar om i meningens ruta."
+    "instruction": "Skriv bokstaven för djuret som varje mening handlar om i meningens ruta; ett djur blir över."
   },
   "G1-407": {
     "title": "Vad behöver djuren för att leva?",
@@ -2909,7 +2909,7 @@
   },
   "G2-381": {
     "title": "Livsmiljörapport: djur och växter vid sjön",
-    "instruction": "Rita tre djur som bor i den här livsmiljön, skriv deras namn och en växt som växer där, och ringa in rätt ord i varje par."
+    "instruction": "Rita i bilden tre djur som bor där, skriv deras namn och en växt som växer där, och ringa in ordet som passar livsmiljön."
   },
   "G1-408": {
     "title": "Tungt eller lätt? Experiment med våg: flyta eller sjunka",
@@ -2920,11 +2920,11 @@
     "instruction": "Färglägg ringen där varje lerform hamnar i karet, ringa in den sak som flyter och rita sedan en egen lerbåt i det stora karet."
   },
   "G2-383": {
-    "title": "Varför flyter saker? Sant eller falskt efter experimentet",
+    "title": "Varför flyter saker? Sant eller falskt om att flyta och sjunka",
     "instruction": "Läs varje mening och ringa in sant eller falskt."
   },
   "K-384": {
-    "title": "Flyta eller sjunka: rita experimentet",
+    "title": "Rita vad som flyter och sjunker i vattnet",
     "instruction": "Rita två saker som flyter i de streckade rutorna på vattnet och två som sjunker i de streckade rutorna på botten."
   },
   "G3-400": {

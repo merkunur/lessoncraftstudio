@@ -1,8 +1,8 @@
 {
   "strings": {
     "base": {
-      "title": "Hygiene og gode vaner: hva trenger hvert barn?",
-      "instruction": "Trekk en strek fra hvert barn til det barnet trenger."
+      "title": "Gode vaner: hva bruker hvert barn?",
+      "instruction": "Trekk en strek fra hvert barn til det barnet bruker."
     },
     "hand-washing-steps": {
       "title": "Vaske hender: slik gjør du",
@@ -10,7 +10,7 @@
     },
     "brushing-teeth": {
       "title": "Pusse tenner: før, under og etter",
-      "instruction": "Sett ring rundt ordet som forteller når det skjer: før, under eller etter tannpussen."
+      "instruction": "Se på hvert bilde, og sett ring rundt før, under eller etter tannpussen."
     },
     "stop-the-germs": {
       "title": "Stopp bakteriene: host og nys i albuen",
@@ -33,7 +33,7 @@
   "labels": {
     "wash-hands": "vaske hender",
     "brush-teeth": "pusse tenner",
-    "sleep": "sove",
+    "sleep": "legge seg tidlig",
     "move-body": "bevege seg",
     "drink-water": "drikke vann",
     "sun-protect": "passe på i sola",

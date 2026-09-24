@@ -55,7 +55,7 @@
     "banana": {
       "sentences": [
         "Primeiro, a banana ainda está fechada.",
-        "Depois, uma tira da casca foi puxada para baixo.",
+        "Depois, uma tira da casca está aberta.",
         "Em seguida, três tiras da casca estão abertas.",
         "Por fim, só sobrou a casca vazia."
       ],
@@ -161,7 +161,7 @@
         "plank",
         "paint",
         "brush",
-        "pot"
+        "bucket"
       ]
     },
     "letter": {
@@ -259,7 +259,7 @@
     },
     "first-next-last-cut": {
       "title": "Sequência de fatos para recortar: primeiro, depois, por fim",
-      "instruction": "Recorte as cenas de cada tira e cole-as nos quadros vazios acima de Primeiro, Depois e Por fim."
+      "instruction": "Recorte as cenas de cada tira e cole-as na linha que tem a mesma marca, nos quadros vazios acima de Primeiro, Depois e Por fim."
     },
     "what-happens-next": {
       "title": "Sequência de fatos: o que acontece depois?",
@@ -270,8 +270,8 @@
       "instruction": "Observe o início e o fim de cada história e desenhe no quadro do meio o que aconteceu."
     },
     "sequencing-sentences": {
-      "title": "Sequência de fatos: ligue as frases às cenas",
-      "instruction": "Leia as frases de cada história e ligue cada frase à sua cena com um traço."
+      "title": "Sequência de fatos: numere as frases e ligue às cenas",
+      "instruction": "Numere nos quadrinhos as frases de cada história na ordem certa e depois ligue cada frase à sua cena com um traço."
     },
     "retell-with-starters": {
       "title": "Reconto de história com sequência de imagens",

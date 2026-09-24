@@ -148,16 +148,20 @@
       "instruction": "Colora il cerchio dove finisce ogni forma di plastilina, cerchia l'oggetto che galleggia e poi disegna la tua barchetta nella vaschetta grande."
     },
     "G2-383": {
-      "title": "Perché galleggia? Vero o falso sull'esperimento",
+      "title": "Perché le cose galleggiano? Vero o falso",
       "instruction": "Leggi ogni frase e cerchia vero o falso."
     },
     "K-384": {
-      "title": "Cosa galleggia e cosa affonda: disegna l'esperimento",
+      "title": "Disegna cosa galleggia e cosa affonda nell'acqua",
       "instruction": "Disegna due cose che galleggiano nei riquadri sull'acqua e due che affondano nei riquadri sul fondo."
     },
     "G3-400": {
       "title": "La relazione del mio esperimento: galleggia o affonda",
       "instruction": "Scegli una domanda, scrivi che cosa pensi, fai la prova, poi disegna che cosa è successo e scrivi che cosa hai imparato."
     }
+  },
+  "shapeHeads": {
+    "clay": "Stessa plastilina, forme diverse",
+    "steel": "Stesso acciaio, forme diverse: cerchia quello che galleggia"
   }
 }

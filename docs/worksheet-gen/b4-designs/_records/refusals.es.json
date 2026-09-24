@@ -1,0 +1,6 @@
+{
+  "locale": "es",
+  "refusals": {
+    "G2-354": "Spanish possessive su / sus is invariant for the owner (his, her, their are all \"su\"): the face has no discriminating answer in es (design G1-352 §4, refused by the lock)."
+  }
+}

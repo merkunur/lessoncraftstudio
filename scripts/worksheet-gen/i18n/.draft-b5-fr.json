@@ -1,0 +1,5872 @@
+{
+  "locale": "fr",
+  "types": {
+    "K-368": {
+      "title": "Les figures planes",
+      "instruction": "Regarde chaque figure, même tournée ou très allongée, et entoure son nom."
+    },
+    "G1-381": {
+      "title": "Reconnaître les figures planes : vraie ou fausse ?",
+      "instruction": "Lis le nom écrit sur chaque ligne et entoure toutes les figures qui portent vraiment ce nom."
+    },
+    "K-371": {
+      "title": "Les figures planes autour de nous",
+      "instruction": "Regarde chaque image et colorie la forme de l’objet : le cercle ou le rectangle."
+    },
+    "G1-382": {
+      "title": "Écris le nom des figures planes",
+      "instruction": "Regarde chaque figure et écris son nom sur la ligne, en t’aidant de l’encadré : un même nom peut servir plusieurs fois."
+    },
+    "G1-383": {
+      "title": "Devinettes sur les figures planes",
+      "instruction": "Lis chaque devinette et entoure le nom de la figure."
+    },
+    "K-372": {
+      "title": "Tracer les figures planes sur les points",
+      "instruction": "Avec un adulte, lis le nom de la figure et relie les points pour la tracer, en partant du trait épais s’il y en a un."
+    },
+    "K-369": {
+      "title": "Sécurité routière : les feux, s’arrêter ou passer",
+      "instruction": "Regarde la lampe allumée, puis entoure ce qu’on doit faire."
+    },
+    "K-373": {
+      "title": "Sécurité routière : colorie les feux",
+      "instruction": "Sur chaque feu, trouve la lampe entourée de rayons et colorie-la de la couleur qui brille."
+    },
+    "K-374": {
+      "title": "Traverser la rue en sécurité : les étapes",
+      "instruction": "Écris de 1 à 4 dans les cases pour montrer comment on traverse la rue."
+    },
+    "G1-384": {
+      "title": "Sécurité routière : les panneaux et leur sens",
+      "instruction": "Relie chaque panneau à ce qu’il veut dire."
+    },
+    "G2-360": {
+      "title": "Sécurité routière : classer les panneaux",
+      "instruction": "Écris la lettre de chaque panneau dans les cases de son groupe."
+    },
+    "G2-361": {
+      "title": "Quiz de sécurité routière : quel panneau convient ?",
+      "instruction": "Lis chaque phrase et entoure le seul panneau qui lui correspond."
+    },
+    "K-370": {
+      "title": "Les membres de la famille : qui est qui ?",
+      "instruction": "Trouve chaque personne sur l’arbre et écris son numéro dans la case à côté du mot qui la nomme."
+    },
+    "G1-385": {
+      "title": "Les générations de la famille : du plus âgé au plus jeune",
+      "instruction": "Sur chaque ligne, écris 1, 2 et 3 dans les cases pour ranger les mots de la génération la plus âgée à la plus jeune."
+    },
+    "K-375": {
+      "title": "Le vocabulaire de la famille : trace et écris",
+      "instruction": "Trouve sur l’arbre la personne qui a le même numéro, repasse son mot en pointillés et écris-le sur la ligne."
+    },
+    "G1-386": {
+      "title": "L’arbre généalogique : lis les indices",
+      "instruction": "Lis les indices et écris chaque prénom dans la bonne case de l’arbre."
+    },
+    "G2-362": {
+      "title": "Les liens de parenté : devinettes",
+      "instruction": "Lis chaque devinette et écris sur la ligne le bon mot de la boîte : un même mot peut aller avec plusieurs devinettes."
+    },
+    "G1-387": {
+      "title": "Arbre généalogique vierge à compléter",
+      "instruction": "Dessine dans les cadres les personnes qui comptent pour toi et écris leur prénom sur les lignes."
+    },
+    "G1-376": {
+      "title": "Les parties de la plante",
+      "instruction": "Suis chaque étiquette numérotée jusqu’à une partie de la plante et écris son nom, pris dans la liste, sur la ligne du même numéro."
+    },
+    "K-376": {
+      "title": "De quoi une plante a-t-elle besoin pour pousser ?",
+      "instruction": "Sur chaque ligne, entoure la plante qui reçoit les deux choses dont elle a besoin pour pousser."
+    },
+    "G1-388": {
+      "title": "Le cycle de vie d’une plante : de la graine à la plante",
+      "instruction": "Découpe les quatre images et colle chacune dans la case vide suivante, en suivant les flèches depuis la graine."
+    },
+    "G2-363": {
+      "title": "Les parties des plantes que l’on mange",
+      "instruction": "Regarde chaque aliment et entoure la partie de la plante que l’on mange."
+    },
+    "G2-364": {
+      "title": "Le rôle de chaque partie de la plante",
+      "instruction": "Lis ce que fait chaque partie, trouve-la sur la plante et écris le numéro de son étiquette dans la case."
+    },
+    "G3-392": {
+      "title": "Les parties de la fleur",
+      "instruction": "Écris le nom de chaque partie numérotée de la fleur sur sa ligne et barre le mot de la liste qui n’en fait pas partie."
+    },
+    "G1-377": {
+      "title": "Le cycle de vie du papillon",
+      "instruction": "L’œuf porte le 1 : écris 2, 3 et 4 dans les cases au fil de sa croissance, puis dans la dernière case le numéro de l’image qui suit le papillon."
+    },
+    "G1-389": {
+      "title": "Le cycle de vie de la grenouille : découper et coller",
+      "instruction": "Découpe les quatre carrés et colle chacun sur son nénuphar, en faisant le tour de la mare depuis les œufs jusqu’à la grenouille."
+    },
+    "G2-365": {
+      "title": "Légender le cycle de vie du papillon",
+      "instruction": "Écris les quatre noms d’étapes de la liste sur les lignes sous leurs images, puis barre le nom qui n’a pas sa place."
+    },
+    "G2-366": {
+      "title": "La métamorphose : quel animal va-t-il devenir ?",
+      "instruction": "Regarde chaque étape et écris sa lettre dans une case sous l’animal adulte qu’elle deviendra : des cases restent vides."
+    },
+    "G3-393": {
+      "title": "Comparer le cycle de vie du papillon et de la grenouille",
+      "instruction": "Lis chaque phrase et coche le papillon, la grenouille ou les deux quand la phrase est vraie pour cet animal."
+    },
+    "G1-390": {
+      "title": "Qu’est-ce qui vient après ? Papillon, grenouille et coccinelle",
+      "instruction": "Regarde la première image de chaque rangée et entoure celle qui vient juste après : après l’adulte, le cycle recommence."
+    },
+    "G1-378": {
+      "title": "Le Soleil, la Terre et la Lune",
+      "instruction": "Lis chaque phrase et coche une case : parle-t-elle du Soleil, de la Terre ou de la Lune ?"
+    },
+    "G1-391": {
+      "title": "Les phases de la Lune dans l’ordre",
+      "instruction": "Sur chaque rangée, regarde si la Lune grossit ou rapetisse, puis écris de 1 à 5 sous les lunes dans cet ordre."
+    },
+    "G2-367": {
+      "title": "Nommer les phases de la Lune",
+      "instruction": "Regarde chaque lune et écris son nom sur les lignes, en utilisant deux fois chaque mot de la liste."
+    },
+    "G2-368": {
+      "title": "Pourquoi y a-t-il le jour et la nuit ?",
+      "instruction": "Regarde où est le Soleil et, pour chaque épingle numérotée, entoure dans le tableau le mot jour ou le mot nuit."
+    },
+    "G3-394": {
+      "title": "Les planètes du système solaire dans l’ordre",
+      "instruction": "Écris le nom de chaque planète sur sa ligne en partant du Soleil et utilise une fois chaque nom de la liste."
+    },
+    "G3-395": {
+      "title": "Planètes géantes et planètes rocheuses",
+      "instruction": "Classe les noms : écris chacun dans la bonne case, planète géante, petite planète rocheuse ou pas une planète."
+    },
+    "G1-379": {
+      "title": "Lire la légende d’un plan",
+      "instruction": "Regarde la légende, trouve chaque chose sur le plan, compte-les et écris combien il y en a dans la case."
+    },
+    "K-377": {
+      "title": "Vu de côté, vu de dessus : relie les objets",
+      "instruction": "Chaque objet est dessiné vu de côté : relie-le au même objet vu de dessus."
+    },
+    "G2-369": {
+      "title": "Les points cardinaux : complète la rose des vents",
+      "instruction": "La pointe orange montre toujours le nord, même quand la rose est tournée : écris les trois lettres qui manquent dans les cases vides."
+    },
+    "G2-370": {
+      "title": "Les continents : écris leur nom",
+      "instruction": "Écris le nom de chaque continent sur sa ligne, en t’aidant des noms de l’encadré."
+    },
+    "G3-396": {
+      "title": "Les continents et les océans sur la carte",
+      "instruction": "Trouve chaque continent et chaque océan sur la carte et écris son numéro dans la case à côté de son nom."
+    },
+    "G2-371": {
+      "title": "Se repérer sur une carte avec les points cardinaux",
+      "instruction": "Trouve la première image sur la carte, regarde dans la direction écrite et entoure celle des trois images qui s’y trouve."
+    },
+    "G1-380": {
+      "title": "Sons complexes ou, on, oi : quel son entends-tu ?",
+      "instruction": "Dis le nom de chaque image et entoure le son que tu entends."
+    },
+    "K-378": {
+      "title": "Sons complexes en maternelle : trier ou et on",
+      "instruction": "Dis le nom de chaque image et relie-la par un trait au son que tu entends."
+    },
+    "G1-392": {
+      "title": "Sons complexes : complète avec ou, on ou oi",
+      "instruction": "Dis le nom de chaque image et écris dans l’espace en pointillés le son qui manque, choisi en haut."
+    },
+    "G1-393": {
+      "title": "Lire des mots avec ou, on, oi et les relier aux images",
+      "instruction": "Lis chaque mot, dont le son est marqué, et relie-le par un trait à l’image qu’il nomme."
+    },
+    "G1-394": {
+      "title": "Où entends-tu le son ou, on ou oi dans le mot ?",
+      "instruction": "Dis le nom de chaque image et colorie une case pour dire où tu entends le son : au début, au milieu ou à la fin."
+    },
+    "G2-372": {
+      "title": "Le son ou dans des phrases : entoure et compte",
+      "instruction": "Lis les phrases, entoure chaque ou et écris dans la case combien tu en as trouvé dans chaque phrase."
+    },
+    "G2-358": {
+      "title": "Les synonymes : entoure le mot qui veut dire la même chose",
+      "instruction": "Lis le grand mot de chaque carte et entoure, en dessous, le mot qui veut dire la même chose."
+    },
+    "G1-395": {
+      "title": "Les synonymes en images : deux mots pour une image",
+      "instruction": "Regarde chaque image et entoure, en dessous, les deux mots qui veulent dire la même chose et qui décrivent l’image."
+    },
+    "G2-373": {
+      "title": "Relier les synonymes deux à deux",
+      "instruction": "Trace un trait pour relier chaque mot de gauche au mot de droite qui veut dire la même chose."
+    },
+    "G1-396": {
+      "title": "Les nuances de sens : du plus faible au plus fort",
+      "instruction": "Lis les trois mots de chaque ligne et écris 1, 2 et 3 dans les cases, du mot le plus faible au mot le plus fort."
+    },
+    "G2-374": {
+      "title": "Les synonymes du verbe dire : choisis le mot juste",
+      "instruction": "Lis chaque phrase et écris dans la case le mot de la bulle qui convient le mieux à la place de « dit »."
+    },
+    "G3-397": {
+      "title": "Champ lexical : les mots pour aller et pour regarder",
+      "instruction": "Lis les dix mots et écris chacun dans le champ du verbe dont il est le plus proche par le sens."
+    },
+    "G2-359": {
+      "title": "Le radical : trier les mots selon leur radical",
+      "instruction": "Lis chaque mot du haut et écris-le sur une ligne du mur qui s’élève sur son mot de base."
+    },
+    "G1-397": {
+      "title": "Le radical en images : entoure le mot construit",
+      "instruction": "Nomme chaque image, puis entoure, au-dessus, le seul mot construit à partir du nom de l’image."
+    },
+    "G2-375": {
+      "title": "Trouver le radical commun à trois mots",
+      "instruction": "Entoure la partie commune aux trois mots et écris ce radical dans la pierre vide."
+    },
+    "G2-376": {
+      "title": "Les préfixes re-, pré- et sur- : choisis selon le sens",
+      "instruction": "Lis ce que veut dire chaque nouveau mot, trouve son préfixe dans la clé et écris-le dans la pièce vide."
+    },
+    "G3-399": {
+      "title": "Le radical dans les phrases",
+      "instruction": "Dans chaque bloc, écris chacun des quatre mots posés sur la pierre dans la phrase qui lui convient."
+    }
+  },
+  "families": {
+    "2d-shapes": {
+      "slug": "figures-planes",
+      "name": "Les figures planes"
+    },
+    "road-safety": {
+      "slug": "securite-routiere",
+      "name": "Sécurité routière"
+    },
+    "family": {
+      "slug": "membres-de-la-famille",
+      "name": "Les membres de la famille"
+    },
+    "plants": {
+      "slug": "parties-de-la-plante",
+      "name": "Les parties de la plante"
+    },
+    "animal-life-cycles": {
+      "slug": "cycles-de-vie-des-animaux",
+      "name": "Les cycles de vie des animaux"
+    },
+    "earth-and-space": {
+      "slug": "soleil-terre-lune-planetes",
+      "name": "Le Soleil, la Lune et les planètes"
+    },
+    "maps": {
+      "slug": "lire-une-carte",
+      "name": "Lire une carte"
+    },
+    "digraphs": {
+      "slug": "sons-complexes",
+      "name": "Les sons complexes"
+    },
+    "synonyms": {
+      "slug": "synonymes",
+      "name": "Les synonymes"
+    },
+    "word-parts": {
+      "slug": "prefixes-et-suffixes",
+      "name": "Préfixes et suffixes"
+    }
+  },
+  "skills": {
+    "2d-shapes": {
+      "full": "Nommer le cercle, le carré, le triangle et le rectangle même tournés, étirés ou petits, et repérer ceux qui leur ressemblent seulement, pour bien connaître les figures planes.",
+      "short": "Nommer les figures planes dans toutes les positions"
+    },
+    "road-safety": {
+      "full": "Lire le feu allumé, suivre les étapes pour traverser la rue et comprendre ce que demande chaque panneau : les règles qui protègent l’enfant piéton dehors.",
+      "short": "Les feux, la traversée et les panneaux"
+    },
+    "family": {
+      "full": "Retrouver chaque personne sur un arbre généalogique et la nommer du point de vue d’un enfant fait travailler les mots de la famille, de la mamie au cousin.",
+      "short": "Les mots de la famille et la lecture d’un arbre"
+    },
+    "plants": {
+      "full": "Légender les racines, la tige, la feuille, la fleur, le fruit et la graine, puis dire à quoi sert chaque partie et ce dont la plante a besoin : un premier vocabulaire de sciences.",
+      "short": "Les parties de la plante et leur rôle"
+    },
+    "animal-life-cycles": {
+      "full": "Remettre dans l’ordre l’œuf, la chenille, la chrysalide et le papillon, puis les étapes de la grenouille, montre que les animaux changent en grandissant.",
+      "short": "Les cycles de vie du papillon et de la grenouille"
+    },
+    "earth-and-space": {
+      "full": "Dire si une phrase parle du Soleil, de la Terre ou de la Lune, ranger les phases de la Lune et les planètes, et expliquer le jour et la nuit.",
+      "short": "Le Soleil, la Terre, la Lune et les planètes"
+    },
+    "maps": {
+      "full": "Lire la légende d’un plan, passer de la vue de côté à la vue de dessus, utiliser les points cardinaux et nommer les continents et les océans.",
+      "short": "Légende, points cardinaux et continents"
+    },
+    "digraphs": {
+      "full": "Dire le nom de chaque image et trouver les deux lettres qui font un seul son, comme ou, on et oi, pour entendre et lire les sons complexes dans de nouveaux mots.",
+      "short": "Entendre et lire les sons complexes ou, on, oi"
+    },
+    "synonyms": {
+      "full": "Trouver le mot qui veut dire la même chose, ranger des mots proches du plus faible au plus fort et remplacer « dit » par un verbe plus précis enrichit le vocabulaire.",
+      "short": "Les synonymes et les nuances de sens"
+    },
+    "word-parts": {
+      "full": "Trier des mots selon leur radical, trouver la partie commune à trois mots et choisir un préfixe selon son sens montre à l’enfant comment les mots sont construits.",
+      "short": "Le radical, les préfixes et les suffixes"
+    }
+  },
+  "topicMeta": {
+    "2d-shapes": "Fiches gratuites sur les figures planes : nommer le cercle, le carré, le triangle et le rectangle, les reconnaître autour de nous et les tracer sur des points. Maternelle et CP.",
+    "road-safety": "Sécurité routière à imprimer gratuitement : lire les feux, colorier les lampes, les étapes pour traverser la rue et le sens des panneaux. De la maternelle au CE1.",
+    "family": "Les membres de la famille en fiches gratuites : lire un arbre généalogique, ranger les générations, écrire les mots de la famille et résoudre des devinettes. Maternelle au CE1.",
+    "plants": "Les parties de la plante en fiches gratuites : racines, tige, feuille, fleur, fruit et graine, les besoins des plantes, le cycle de la graine et les parties de la fleur. CP au CE2.",
+    "animal-life-cycles": "Cycles de vie des animaux à imprimer gratuitement : le papillon et la grenouille dans l’ordre, découper-coller, légender et comparer les étapes. Du CP au CE2.",
+    "earth-and-space": "Le Soleil, la Terre et la Lune en fiches gratuites : vrai pour quel astre, phases de la Lune, jour et nuit et planètes du système solaire dans l’ordre. Du CP au CE2.",
+    "maps": "Fiches gratuites pour lire une carte : légende d’un plan, vue de dessus, points cardinaux avec la rose des vents, continents et océans. De la maternelle au CE2.",
+    "digraphs": "Les sons complexes ou, on et oi en fiches gratuites : entourer le son entendu, trier, compléter les mots, trouver où est le son et le compter dans des phrases. GS au CE1.",
+    "synonyms": "Les synonymes en fiches gratuites : entourer le mot de même sens, relier les paires, ranger les nuances du plus faible au plus fort et remplacer le verbe dire. CP au CE2.",
+    "word-parts": "Préfixes, suffixes et radical en fiches gratuites : trier les mots par radical, trouver la partie commune, choisir un préfixe selon son sens et compléter des phrases. CP au CE2."
+  },
+  "banks": {
+    "2d-shapes": {
+      "names": {
+        "circle": "cercle",
+        "square": "carré",
+        "triangle": "triangle",
+        "rectangle": "rectangle",
+        "hexagon": "hexagone"
+      },
+      "overrides": {},
+      "inflections": {
+        "circle": [
+          "cercles"
+        ],
+        "square": [
+          "carrés",
+          "carrée",
+          "carrées"
+        ],
+        "triangle": [
+          "triangles"
+        ],
+        "rectangle": [
+          "rectangles"
+        ],
+        "hexagon": [
+          "hexagones"
+        ]
+      },
+      "inventory": {
+        "hexagon": true
+      },
+      "riddles": {
+        "circle": [
+          {
+            "text": "Je suis tout rond et je n’ai aucun coin. Qui suis-je ?",
+            "clue": "round"
+          },
+          {
+            "text": "Je n’ai ni côté droit ni coin. Qui suis-je ?",
+            "clue": "round"
+          }
+        ],
+        "square": [
+          {
+            "text": "Mes 4 côtés sont égaux et mes 4 coins sont droits. Qui suis-je ?",
+            "clue": "equal"
+          },
+          {
+            "text": "J’ai 4 coins droits, comme ceux d’un livre, et 4 côtés de même longueur. Qui suis-je ?",
+            "clue": "equal"
+          }
+        ],
+        "triangle": [
+          {
+            "text": "J’ai 3 côtés et 3 coins. Qui suis-je ?",
+            "clue": "three"
+          },
+          {
+            "text": "J’ai seulement 3 côtés droits. Qui suis-je ?",
+            "clue": "three"
+          }
+        ],
+        "rectangle": [
+          {
+            "text": "J’ai 2 grands côtés, 2 petits côtés et 4 coins droits. Qui suis-je ?",
+            "clue": "longShort"
+          },
+          {
+            "text": "Mes coins sont droits et mes côtés vont par deux : 2 longs, 2 courts. Qui suis-je ?",
+            "clue": "longShort"
+          }
+        ],
+        "hexagon": [
+          {
+            "text": "J’ai 6 côtés et 6 coins. Qui suis-je ?",
+            "clue": "six"
+          },
+          {
+            "text": "J’ai 6 côtés droits. Qui suis-je ?",
+            "clue": "six"
+          }
+        ]
+      },
+      "strings": {
+        "base": {
+          "title": "Les figures planes",
+          "instruction": "Regarde chaque figure, même tournée ou très allongée, et entoure son nom."
+        },
+        "real-or-not": {
+          "title": "Reconnaître les figures planes : vraie ou fausse ?",
+          "instruction": "Lis le nom écrit sur chaque ligne et entoure toutes les figures qui portent vraiment ce nom."
+        },
+        "around-us": {
+          "title": "Les figures planes autour de nous",
+          "instruction": "Regarde chaque image et colorie la forme de l’objet : le cercle ou le rectangle."
+        },
+        "write-name": {
+          "title": "Écris le nom des figures planes",
+          "instruction": "Regarde chaque figure et écris son nom sur la ligne, en t’aidant de l’encadré : un même nom peut servir plusieurs fois."
+        },
+        "riddles": {
+          "title": "Devinettes sur les figures planes",
+          "instruction": "Lis chaque devinette et entoure le nom de la figure."
+        },
+        "dot-draw": {
+          "title": "Tracer les figures planes sur les points",
+          "instruction": "Avec un adulte, lis le nom de la figure et relie les points pour la tracer, en partant du trait épais s’il y en a un."
+        }
+      }
+    },
+    "road-safety": {
+      "convention": "vienna",
+      "signs": {
+        "stop": {
+          "code": "AB4",
+          "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+          "shape": "octagon",
+          "rim": "white",
+          "field": "red",
+          "glyph": "text",
+          "text": "STOP",
+          "slash": false,
+          "class": "priority",
+          "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+        },
+        "crossing": {
+          "code": "C20a",
+          "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+          "shape": "square",
+          "rim": "white",
+          "field": "blue",
+          "glyph": "crossingTriangle",
+          "text": "",
+          "slash": false,
+          "class": "information",
+          "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+        },
+        "children": {
+          "code": "A13a",
+          "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+          "shape": "triUp",
+          "rim": "red",
+          "field": "white",
+          "glyph": "twoChildren",
+          "text": "",
+          "slash": false,
+          "class": "warning",
+          "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+        },
+        "pedestrian-warning": {
+          "code": "A13b",
+          "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+          "shape": "triUp",
+          "rim": "red",
+          "field": "white",
+          "glyph": "walkerOnStripes",
+          "text": "",
+          "slash": false,
+          "class": "warning",
+          "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+        },
+        "signal-ahead": {
+          "code": "A17",
+          "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+          "shape": "triUp",
+          "rim": "red",
+          "field": "white",
+          "glyph": "trafficLightMini",
+          "text": "",
+          "slash": false,
+          "class": "warning",
+          "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+        },
+        "bike-warning": {
+          "code": "A21",
+          "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+          "shape": "triUp",
+          "rim": "red",
+          "field": "white",
+          "glyph": "bicycle",
+          "text": "",
+          "slash": false,
+          "class": "warning",
+          "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+        },
+        "no-entry": {
+          "code": "B1",
+          "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+          "shape": "circle",
+          "rim": null,
+          "field": "red",
+          "glyph": "bar",
+          "text": "",
+          "slash": false,
+          "class": "prohibition",
+          "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+        },
+        "no-vehicles": {
+          "code": "B0",
+          "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+          "shape": "circle",
+          "rim": "red",
+          "field": "white",
+          "glyph": "none",
+          "text": "",
+          "slash": false,
+          "class": "prohibition",
+          "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+        },
+        "no-bikes": {
+          "code": "B9b",
+          "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+          "shape": "circle",
+          "rim": "red",
+          "field": "white",
+          "glyph": "bicycle",
+          "text": "",
+          "slash": false,
+          "class": "prohibition",
+          "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+        },
+        "no-pedestrians": {
+          "code": "B9c",
+          "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+          "shape": "circle",
+          "rim": "red",
+          "field": "white",
+          "glyph": "walker",
+          "text": "",
+          "slash": false,
+          "class": "prohibition",
+          "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+        },
+        "footpath": {
+          "code": "B22b",
+          "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+          "shape": "circle",
+          "rim": "white",
+          "field": "blue",
+          "glyph": "walker",
+          "text": "",
+          "slash": false,
+          "class": "mandatory",
+          "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+        },
+        "bike-path": {
+          "code": "B22a",
+          "regRef": "IISR 1re partie, arrêté du 24 novembre 1967 modifié",
+          "shape": "circle",
+          "rim": "white",
+          "field": "blue",
+          "glyph": "bicycle",
+          "text": "",
+          "slash": false,
+          "class": "mandatory",
+          "signedBy": "fr panel 2026-09-23, compared with the IISR 1re partie (arrêté du 24 novembre 1967 modifié, liste et images des panneaux)"
+        }
+      },
+      "setG1": [
+        "stop",
+        "crossing",
+        "children",
+        "no-entry",
+        "footpath",
+        "bike-path"
+      ],
+      "kindsPool": [
+        "children",
+        "pedestrian-warning",
+        "signal-ahead",
+        "bike-warning",
+        "no-vehicles",
+        "no-bikes",
+        "no-pedestrians",
+        "footpath",
+        "bike-path"
+      ],
+      "classes": [
+        {
+          "key": "warning",
+          "label": "Panneaux de danger"
+        },
+        {
+          "key": "prohibition",
+          "label": "Panneaux d’interdiction"
+        },
+        {
+          "key": "mandatory",
+          "label": "Panneaux d’obligation"
+        }
+      ],
+      "pedLight": {
+        "stop": "standing",
+        "go": "walking",
+        "lamps": 2
+      },
+      "amber": {
+        "token": "codeOrange",
+        "word": "orange"
+      },
+      "amberMeans": "stop",
+      "chipWords": {
+        "ped": {
+          "stop": "j’attends",
+          "go": "je traverse"
+        },
+        "car": {
+          "stop": "la voiture s’arrête",
+          "go": "la voiture passe"
+        }
+      },
+      "meanings": {
+        "stop": "Toutes les voitures doivent s’arrêter ici.",
+        "crossing": "Ici, un passage piéton est tracé pour traverser la rue.",
+        "children": "Attention, des enfants passent souvent ici.",
+        "no-entry": "Les voitures n’ont pas le droit d’entrer par ici.",
+        "footpath": "Ce chemin est réservé aux piétons.",
+        "bike-path": "Cette voie est réservée aux vélos."
+      },
+      "situations": {
+        "stop": [
+          "À ce carrefour, chaque voiture doit s’arrêter complètement.",
+          "Le conducteur s’arrête, regarde bien, puis repart."
+        ],
+        "crossing": [
+          "Ici, des bandes blanches montrent où les piétons traversent.",
+          "C’est l’endroit prévu pour traverser la rue à pied."
+        ],
+        "children": [
+          "Près de l’école, beaucoup d’enfants marchent sur le trottoir.",
+          "Attention, des enfants peuvent surgir sur la route ici."
+        ],
+        "no-entry": [
+          "Les voitures ne peuvent pas entrer dans cette rue par ici.",
+          "Cette rue va dans l’autre sens : il faut faire demi-tour."
+        ],
+        "pedestrian-warning": [
+          "Attention, un peu plus loin, des piétons traversent la route.",
+          "Bientôt, il y a un passage pour les piétons sur la route."
+        ],
+        "signal-ahead": [
+          "Un peu plus loin sur cette route, il y a un feu.",
+          "Prépare-toi : bientôt, un feu peut passer au rouge."
+        ],
+        "bike-warning": [
+          "Attention, des cyclistes peuvent arriver sur la route.",
+          "Des vélos traversent souvent la route à cet endroit."
+        ],
+        "no-vehicles": [
+          "Aucun véhicule n’a le droit de rouler dans cette rue.",
+          "Ni voiture ni moto : cette rue est fermée à la circulation."
+        ],
+        "no-bikes": [
+          "Ici, on n’a pas le droit de rouler à vélo.",
+          "Les vélos sont interdits sur cette route."
+        ],
+        "no-pedestrians": [
+          "Ici, les piétons n’ont pas le droit de passer.",
+          "Il est interdit de marcher à pied sur cette route."
+        ],
+        "footpath": [
+          "Ce chemin est seulement pour les personnes à pied.",
+          "Ici, seuls les piétons peuvent passer, pas les vélos."
+        ],
+        "bike-path": [
+          "Cette voie est prévue pour les cyclistes.",
+          "Les vélos doivent rouler sur cette piste, pas sur la route."
+        ]
+      },
+      "steps": [
+        "stop-kerb",
+        "look-left",
+        "look-right",
+        "walk-across"
+      ],
+      "listenStep": null,
+      "familyHead": "Sécurité routière",
+      "signHead": "Panneaux de signalisation",
+      "childAnchors": [
+        "pour enfants",
+        "maternelle",
+        "CP",
+        "CE1"
+      ],
+      "strings": {
+        "base": {
+          "title": "Sécurité routière : les feux, s’arrêter ou passer",
+          "instruction": "Regarde la lampe allumée, puis entoure ce qu’on doit faire."
+        },
+        "colour-lights": {
+          "title": "Sécurité routière : colorie les feux",
+          "instruction": "Sur chaque feu, trouve la lampe entourée de rayons et colorie-la de la couleur qui brille."
+        },
+        "crossing-steps": {
+          "title": "Traverser la rue en sécurité : les étapes",
+          "instruction": "Écris de 1 à 4 dans les cases pour montrer comment on traverse la rue."
+        },
+        "sign-meaning": {
+          "title": "Sécurité routière : les panneaux et leur sens",
+          "instruction": "Relie chaque panneau à ce qu’il veut dire."
+        },
+        "sign-kinds": {
+          "title": "Sécurité routière : classer les panneaux",
+          "instruction": "Écris la lettre de chaque panneau dans les cases de son groupe."
+        },
+        "sign-quiz": {
+          "title": "Quiz de sécurité routière : quel panneau convient ?",
+          "instruction": "Lis chaque phrase et entoure le seul panneau qui lui correspond."
+        }
+      }
+    },
+    "family": {
+      "kin": {
+        "M": "mom",
+        "F": "dad",
+        "Z": "sister",
+        "B": "brother",
+        "Zy": "babySister",
+        "By": "babyBrother",
+        "MM": "grandma",
+        "FM": "grandma",
+        "MF": "grandpa",
+        "FF": "grandpa",
+        "MZ": "aunt",
+        "FZ": "aunt",
+        "MB": "uncle",
+        "FB": "uncle",
+        "MZD": "cousinF",
+        "MZS": "cousinM",
+        "MBD": "cousinF",
+        "MBS": "cousinM",
+        "FZD": "cousinF",
+        "FZS": "cousinM",
+        "FBD": "cousinF",
+        "FBS": "cousinM"
+      },
+      "words": {
+        "mom": {
+          "text": "la maman",
+          "register": "K"
+        },
+        "dad": {
+          "text": "le papa",
+          "register": "K"
+        },
+        "sister": {
+          "text": "la sœur",
+          "register": "K"
+        },
+        "brother": {
+          "text": "le frère",
+          "register": "K"
+        },
+        "babySister": {
+          "text": "la petite sœur",
+          "register": "K"
+        },
+        "babyBrother": {
+          "text": "le petit frère",
+          "register": "K"
+        },
+        "grandma": {
+          "text": "la mamie",
+          "register": "K"
+        },
+        "grandpa": {
+          "text": "le papi",
+          "register": "K"
+        },
+        "aunt": {
+          "text": "la tante",
+          "register": "K"
+        },
+        "uncle": {
+          "text": "l’oncle",
+          "register": "K"
+        },
+        "cousinF": {
+          "text": "la cousine",
+          "register": "K"
+        },
+        "cousinM": {
+          "text": "le cousin",
+          "register": "K"
+        }
+      },
+      "f2Exclude": [
+        "sister"
+      ],
+      "names": [
+        {
+          "name": "Léa",
+          "sex": "f",
+          "gen": null
+        },
+        {
+          "name": "Tom",
+          "sex": "m",
+          "gen": null
+        },
+        {
+          "name": "Chloé",
+          "sex": "f",
+          "gen": null
+        },
+        {
+          "name": "Hugo",
+          "sex": "m",
+          "gen": null
+        },
+        {
+          "name": "Manon",
+          "sex": "f",
+          "gen": null
+        },
+        {
+          "name": "Louis",
+          "sex": "m",
+          "gen": null
+        },
+        {
+          "name": "Jade",
+          "sex": "f",
+          "gen": null
+        },
+        {
+          "name": "Noé",
+          "sex": "m",
+          "gen": null
+        },
+        {
+          "name": "Louise",
+          "sex": "f",
+          "gen": null
+        },
+        {
+          "name": "Jules",
+          "sex": "m",
+          "gen": null
+        },
+        {
+          "name": "Zoé",
+          "sex": "f",
+          "gen": null
+        },
+        {
+          "name": "Léo",
+          "sex": "m",
+          "gen": null
+        },
+        {
+          "name": "Lina",
+          "sex": "f",
+          "gen": null
+        },
+        {
+          "name": "Nino",
+          "sex": "m",
+          "gen": null
+        }
+      ],
+      "clueFrames": {
+        "M": "{name} est la maman de {egoName}.",
+        "F": "{name} est le papa de {egoName}.",
+        "Z": "{name} est la grande sœur de {egoName}.",
+        "B": "{name} est le grand frère de {egoName}.",
+        "Zy": "{name} est la petite sœur de {egoName}.",
+        "By": "{name} est le petit frère de {egoName}.",
+        "MM": "{name} est la mamie de {egoName}.",
+        "FM": "{name} est la mamie de {egoName}.",
+        "MF": "{name} est le papi de {egoName}.",
+        "FF": "{name} est le papi de {egoName}.",
+        "MZ": "{name} est la tante de {egoName}.",
+        "FZ": "{name} est la tante de {egoName}.",
+        "MB": "{name} est l’oncle de {egoName}.",
+        "FB": "{name} est l’oncle de {egoName}.",
+        "MZD": "{name} est la cousine de {egoName}.",
+        "MZS": "{name} est le cousin de {egoName}.",
+        "MBD": "{name} est la cousine de {egoName}.",
+        "MBS": "{name} est le cousin de {egoName}.",
+        "FZD": "{name} est la cousine de {egoName}.",
+        "FZS": "{name} est le cousin de {egoName}.",
+        "FBD": "{name} est la cousine de {egoName}.",
+        "FBS": "{name} est le cousin de {egoName}."
+      },
+      "riddleFrames": {
+        "MM": "La maman de la maman de {egoName}, c’est ___.",
+        "FM": "La maman du papa de {egoName}, c’est ___.",
+        "MF": "Le papa de la maman de {egoName}, c’est ___.",
+        "FF": "Le papa du papa de {egoName}, c’est ___.",
+        "MZ": "La sœur de la maman de {egoName}, c’est ___.",
+        "FZ": "La sœur du papa de {egoName}, c’est ___.",
+        "MB": "Le frère de la maman de {egoName}, c’est ___.",
+        "FB": "Le frère du papa de {egoName}, c’est ___."
+      },
+      "distractors": [
+        "mom",
+        "dad"
+      ],
+      "repeatsNote": true,
+      "repeatsNoteText": "un même mot peut aller avec plusieurs devinettes",
+      "generationOK": [
+        "grandma",
+        "grandpa",
+        "mom",
+        "dad",
+        "aunt",
+        "uncle",
+        "sister",
+        "brother",
+        "cousinF",
+        "cousinM",
+        "babySister",
+        "babyBrother"
+      ],
+      "agreeing": [],
+      "firstPerson": [
+        "je",
+        "moi",
+        "mon",
+        "ma",
+        "mes",
+        "nous",
+        "notre",
+        "nos"
+      ],
+      "meWord": "moi",
+      "forbiddenInTemplate": [
+        "maman",
+        "papa",
+        "mère",
+        "père",
+        "ta famille"
+      ],
+      "instructionBans": [
+        "coche",
+        "cocher",
+        "découpe",
+        "colorie",
+        "gratuit",
+        "corrigé"
+      ],
+      "familyHead": "Les membres de la famille",
+      "strings": {
+        "base": {
+          "title": "Les membres de la famille : qui est qui ?",
+          "instruction": "Trouve chaque personne sur l’arbre et écris son numéro dans la case à côté du mot qui la nomme."
+        },
+        "generations": {
+          "title": "Les générations de la famille : du plus âgé au plus jeune",
+          "instruction": "Sur chaque ligne, écris 1, 2 et 3 dans les cases pour ranger les mots de la génération la plus âgée à la plus jeune."
+        },
+        "trace-words": {
+          "title": "Le vocabulaire de la famille : trace et écris",
+          "instruction": "Trouve sur l’arbre la personne qui a le même numéro, repasse son mot en pointillés et écris-le sur la ligne."
+        },
+        "tree-clues": {
+          "title": "L’arbre généalogique : lis les indices",
+          "instruction": "Lis les indices et écris chaque prénom dans la bonne case de l’arbre."
+        },
+        "relation-riddles": {
+          "title": "Les liens de parenté : devinettes",
+          "instruction": "Lis chaque devinette et écris sur la ligne le bon mot de la boîte : un même mot peut aller avec plusieurs devinettes."
+        },
+        "tree-template": {
+          "title": "Arbre généalogique vierge à compléter",
+          "instruction": "Dessine dans les cadres les personnes qui comptent pour toi et écris leur prénom sur les lignes."
+        }
+      }
+    },
+    "plants": {
+      "partWords": {
+        "root": "racines",
+        "stem": "tige",
+        "leaf": "feuille",
+        "flower": "fleur",
+        "fruit": "fruit",
+        "seed": "graine"
+      },
+      "flowerWords": {
+        "petal": "pétale",
+        "sepal": "sépale",
+        "stamen": "étamine",
+        "pistil": "pistil",
+        "stalk": "tige",
+        "ovary": "ovaire"
+      },
+      "jobs": {
+        "root": "puiser l’eau dans la terre",
+        "stem": "tenir la plante bien droite",
+        "leaf": "fabriquer la nourriture de la plante grâce à la lumière",
+        "flower": "attirer les abeilles",
+        "seed": "donner naissance à une nouvelle plante"
+      },
+      "partStems": [
+        "racine",
+        "racines",
+        "tige",
+        "tiges",
+        "feuille",
+        "feuilles",
+        "feuillage",
+        "fleur",
+        "fleurs",
+        "fleurir",
+        "floraison",
+        "fruit",
+        "fruits",
+        "graine",
+        "graines",
+        "pétale",
+        "pétales"
+      ],
+      "forbidden": [
+        "semence",
+        "pépin",
+        "tronc",
+        "légume"
+      ],
+      "refuseItems": [],
+      "refuse": [],
+      "instructionBans": {
+        "base": [
+          "entoure",
+          "colorie",
+          "découpe"
+        ],
+        "flower": [
+          "entoure",
+          "colorie",
+          "découpe"
+        ],
+        "needs": [
+          "mot",
+          "mots",
+          "écris"
+        ],
+        "eat": [
+          "légume",
+          "légumes"
+        ],
+        "jobs": [
+          "liste"
+        ]
+      },
+      "strings": {
+        "base": {
+          "title": "Les parties de la plante",
+          "instruction": "Suis chaque étiquette numérotée jusqu’à une partie de la plante et écris son nom, pris dans la liste, sur la ligne du même numéro."
+        },
+        "needs": {
+          "title": "De quoi une plante a-t-elle besoin pour pousser ?",
+          "instruction": "Sur chaque ligne, entoure la plante qui reçoit les deux choses dont elle a besoin pour pousser."
+        },
+        "cycle": {
+          "title": "Le cycle de vie d’une plante : de la graine à la plante",
+          "instruction": "Découpe les quatre images et colle chacune dans la case vide suivante, en suivant les flèches depuis la graine."
+        },
+        "eat": {
+          "title": "Les parties des plantes que l’on mange",
+          "instruction": "Regarde chaque aliment et entoure la partie de la plante que l’on mange."
+        },
+        "jobs": {
+          "title": "Le rôle de chaque partie de la plante",
+          "instruction": "Lis ce que fait chaque partie, trouve-la sur la plante et écris le numéro de son étiquette dans la case."
+        },
+        "flower": {
+          "title": "Les parties de la fleur",
+          "instruction": "Écris le nom de chaque partie numérotée de la fleur sur sa ligne et barre le mot de la liste qui n’en fait pas partie."
+        }
+      }
+    },
+    "animal-life-cycles": {
+      "stageWords": {
+        "butterfly": {
+          "egg": "œuf",
+          "larva": "chenille",
+          "pupa": "chrysalide",
+          "adult": "papillon"
+        }
+      },
+      "decoy": {
+        "frog.tadpole": "têtard"
+      },
+      "landingWords": {
+        "frog": {
+          "spawn": "ponte",
+          "tadpole": "têtard",
+          "legged": "têtard à pattes",
+          "froglet": "jeune grenouille",
+          "adult": "grenouille"
+        },
+        "ladybird": {
+          "egg": "œuf",
+          "larva": "larve",
+          "pupa": "nymphe",
+          "adult": "coccinelle"
+        }
+      },
+      "statements": {
+        "egg": "Il sort d’un œuf.",
+        "change": "Son petit ne ressemble pas du tout à l’adulte.",
+        "pupa": "Il passe par une étape de chrysalide.",
+        "wings": "L’adulte a des ailes.",
+        "sixlegs": "L’adulte a six pattes.",
+        "nectar": "L’adulte boit le nectar des fleurs.",
+        "tail": "Son petit nage grâce à une queue.",
+        "water": "Son petit vit dans l’eau.",
+        "nolegs": "Son petit n’a pas de pattes au début.",
+        "fourlegs": "L’adulte a quatre pattes.",
+        "insects": "L’adulte attrape des insectes pour se nourrir."
+      },
+      "drop": [],
+      "familyName": "Les cycles de vie des animaux",
+      "spawnForm": "clump",
+      "forbidden": [
+        "cocon",
+        "cocons"
+      ],
+      "genreBare": [
+        "cycle de vie",
+        "cycles de vie"
+      ],
+      "pictureWord": "image",
+      "instructionBans": {},
+      "refuse": [],
+      "strings": {
+        "G1-377": {
+          "title": "Le cycle de vie du papillon",
+          "instruction": "L’œuf porte le 1 : écris 2, 3 et 4 dans les cases au fil de sa croissance, puis dans la dernière case le numéro de l’image qui suit le papillon."
+        },
+        "G1-389": {
+          "title": "Le cycle de vie de la grenouille : découper et coller",
+          "instruction": "Découpe les quatre carrés et colle chacun sur son nénuphar, en faisant le tour de la mare depuis les œufs jusqu’à la grenouille."
+        },
+        "G2-365": {
+          "title": "Légender le cycle de vie du papillon",
+          "instruction": "Écris les quatre noms d’étapes de la liste sur les lignes sous leurs images, puis barre le nom qui n’a pas sa place."
+        },
+        "G2-366": {
+          "title": "La métamorphose : quel animal va-t-il devenir ?",
+          "instruction": "Regarde chaque étape et écris sa lettre dans une case sous l’animal adulte qu’elle deviendra : des cases restent vides."
+        },
+        "G3-393": {
+          "title": "Comparer le cycle de vie du papillon et de la grenouille",
+          "instruction": "Lis chaque phrase et coche le papillon, la grenouille ou les deux quand la phrase est vraie pour cet animal."
+        },
+        "G1-390": {
+          "title": "Qu’est-ce qui vient après ? Papillon, grenouille et coccinelle",
+          "instruction": "Regarde la première image de chaque rangée et entoure celle qui vient juste après : après l’adulte, le cycle recommence."
+        }
+      }
+    },
+    "earth-and-space": {
+      "hemisphere": "N",
+      "bodies": {
+        "sun": "Soleil",
+        "earth": "Terre",
+        "moon": "Lune"
+      },
+      "facts": {
+        "ownLight": "Cet astre fabrique sa propre lumière.",
+        "star": "C’est une étoile.",
+        "hottest": "Cet astre est le plus chaud des trois.",
+        "biggest": "Cet astre est le plus grand des trois.",
+        "liveOn": "Les humains et les animaux y vivent.",
+        "oceans": "On y trouve de grands océans d’eau.",
+        "air": "On y trouve de l’air que l’on peut respirer.",
+        "planet": "C’est une planète.",
+        "spinDay": "Sa rotation nous donne le jour et la nuit.",
+        "orbitsEarth": "Cet astre tourne autour de notre planète.",
+        "seemsToChange": "Sa forme semble changer.",
+        "craters": "Cet astre est couvert de cratères.",
+        "smallest": "Cet astre est le plus petit des trois."
+      },
+      "leakForms": [
+        "il",
+        "elle",
+        "lui",
+        "ils",
+        "elles",
+        "chaude",
+        "grande",
+        "petite",
+        "couverte",
+        "ronde"
+      ],
+      "genderNeutral": true,
+      "forbiddenStems": [
+        "donne de la lumière",
+        "nous éclaire",
+        "brille",
+        "brille la nuit",
+        "tourne autour du Soleil",
+        "se lève",
+        "se couche",
+        "est rond",
+        "dans le ciel",
+        "a marché",
+        "pas d’air",
+        "reflète",
+        "traverse le ciel",
+        "hiver",
+        "printemps",
+        "automne",
+        "pluie",
+        "neige",
+        "nuage",
+        "nuages",
+        "météo"
+      ],
+      "phaseNames": {
+        "0": "nouvelle lune",
+        "2": "premier quartier",
+        "4": "pleine lune",
+        "6": "dernier quartier"
+      },
+      "planets": {
+        "mercury": "Mercure",
+        "venus": "Vénus",
+        "earth": "Terre",
+        "mars": "Mars",
+        "jupiter": "Jupiter",
+        "saturn": "Saturne",
+        "uranus": "Uranus",
+        "neptune": "Neptune"
+      },
+      "notPlanet": {
+        "sun": "Soleil",
+        "moon": "Lune"
+      },
+      "classLabels": {
+        "giant": "planète géante",
+        "rocky": "petite planète rocheuse",
+        "notPlanet": "pas une planète"
+      },
+      "mnemonic": "Me Voici Toute Mignonne, Je Suis Une Nébuleuse",
+      "refuse": [],
+      "strings": {
+        "base": {
+          "title": "Le Soleil, la Terre et la Lune",
+          "instruction": "Lis chaque phrase et coche une case : parle-t-elle du Soleil, de la Terre ou de la Lune ?"
+        },
+        "moon-phases-in-order": {
+          "title": "Les phases de la Lune dans l’ordre",
+          "instruction": "Sur chaque rangée, regarde si la Lune grossit ou rapetisse, puis écris de 1 à 5 sous les lunes dans cet ordre."
+        },
+        "moon-phase-names": {
+          "title": "Nommer les phases de la Lune",
+          "instruction": "Regarde chaque lune et écris son nom sur les lignes, en utilisant deux fois chaque mot de la liste."
+        },
+        "day-and-night-model": {
+          "title": "Pourquoi y a-t-il le jour et la nuit ?",
+          "instruction": "Regarde où est le Soleil et, pour chaque épingle numérotée, entoure dans le tableau le mot jour ou le mot nuit."
+        },
+        "planets-in-order": {
+          "title": "Les planètes du système solaire dans l’ordre",
+          "instruction": "Écris le nom de chaque planète sur sa ligne en partant du Soleil et utilise une fois chaque nom de la liste."
+        },
+        "planet-sizes": {
+          "title": "Planètes géantes et planètes rocheuses",
+          "instruction": "Classe les noms : écris chacun dans la bonne case, planète géante, petite planète rocheuse ou pas une planète."
+        }
+      }
+    },
+    "maps": {
+      "keyTitle": "Légende",
+      "symbolWords": {
+        "house": "maison",
+        "tree": "arbre",
+        "bush": "buisson",
+        "pond": "mare",
+        "bench": "banc",
+        "tent": "tente",
+        "flowerBed": "massif de fleurs",
+        "bridge": "pont"
+      },
+      "dirWords": {
+        "n": "nord",
+        "e": "est",
+        "s": "sud",
+        "w": "ouest"
+      },
+      "dirLetters": {
+        "n": "N",
+        "e": "E",
+        "s": "S",
+        "w": "O"
+      },
+      "continentSet": [
+        {
+          "id": "america",
+          "regions": [
+            "northAmerica",
+            "southAmerica"
+          ]
+        },
+        {
+          "id": "europe",
+          "regions": [
+            "europe"
+          ]
+        },
+        {
+          "id": "asia",
+          "regions": [
+            "asia"
+          ]
+        },
+        {
+          "id": "africa",
+          "regions": [
+            "africa"
+          ]
+        },
+        {
+          "id": "oceania",
+          "regions": [
+            "oceania"
+          ]
+        },
+        {
+          "id": "antarctica",
+          "regions": [
+            "antarctica"
+          ]
+        }
+      ],
+      "continentNames": {
+        "america": "Amérique",
+        "europe": "Europe",
+        "asia": "Asie",
+        "africa": "Afrique",
+        "oceania": "Océanie",
+        "antarctica": "Antarctique"
+      },
+      "oceanSet": [
+        "pacific",
+        "atlantic",
+        "indian",
+        "arctic",
+        "southern"
+      ],
+      "oceanNames": {
+        "pacific": "océan Pacifique",
+        "atlantic": "océan Atlantique",
+        "indian": "océan Indien",
+        "arctic": "océan Arctique",
+        "southern": "océan Austral"
+      },
+      "setSource": "Programmes de géographie des cycles 2 et 3 (MEN) et manuels français de CE2-CM1 : six continents (l’Amérique comptée comme un seul continent, l’Antarctique inclus) et cinq océans",
+      "mnemonic": "Nous Explorons Sous l’Océan",
+      "refuse": [],
+      "instructionBans": {
+        "base": [
+          "entoure",
+          "ligne"
+        ],
+        "top-view": [
+          "écris",
+          "mot"
+        ],
+        "compass-rose": [
+          "boussole"
+        ],
+        "continents": [
+          "numéro"
+        ],
+        "directions-on-map": [
+          "écris",
+          "boussole"
+        ]
+      },
+      "strings": {
+        "base": {
+          "title": "Lire la légende d’un plan",
+          "instruction": "Regarde la légende, trouve chaque chose sur le plan, compte-les et écris combien il y en a dans la case."
+        },
+        "top-view": {
+          "title": "Vu de côté, vu de dessus : relie les objets",
+          "instruction": "Chaque objet est dessiné vu de côté : relie-le au même objet vu de dessus."
+        },
+        "compass-rose": {
+          "title": "Les points cardinaux : complète la rose des vents",
+          "instruction": "La pointe orange montre toujours le nord, même quand la rose est tournée : écris les trois lettres qui manquent dans les cases vides."
+        },
+        "continents": {
+          "title": "Les continents : écris leur nom",
+          "instruction": "Écris le nom de chaque continent sur sa ligne, en t’aidant des noms de l’encadré."
+        },
+        "continents-oceans": {
+          "title": "Les continents et les océans sur la carte",
+          "instruction": "Trouve chaque continent et chaque océan sur la carte et écris son numéro dans la case à côté de son nom."
+        },
+        "directions-on-map": {
+          "title": "Se repérer sur une carte avec les points cardinaux",
+          "instruction": "Trouve la première image sur la carte, regarde dans la direction écrite et entoure celle des trois images qui s’y trouve."
+        }
+      }
+    },
+    "digraphs": {
+      "head": "Les sons complexes",
+      "refused": null,
+      "phonemes": [
+        "p",
+        "b",
+        "t",
+        "d",
+        "k",
+        "g",
+        "f",
+        "v",
+        "s",
+        "z",
+        "ʃ",
+        "ʒ",
+        "m",
+        "n",
+        "ɲ",
+        "l",
+        "ʁ",
+        "j",
+        "w",
+        "ɥ",
+        "ks",
+        "a",
+        "ɑ",
+        "e",
+        "ɛ",
+        "i",
+        "o",
+        "ɔ",
+        "u",
+        "y",
+        "ø",
+        "œ",
+        "ə",
+        "ɑ̃",
+        "ɔ̃",
+        "ɛ̃",
+        "wa",
+        "∅"
+      ],
+      "teams": {
+        "ou": {
+          "t": "ou",
+          "sound": [
+            "u"
+          ],
+          "items": [
+            {
+              "vocabKey": "ant",
+              "theme": "insects and bugs",
+              "noun": "ant",
+              "word": "fourmi",
+              "seg": [
+                "f",
+                "ou",
+                "r",
+                "m",
+                "i"
+              ],
+              "snd": [
+                "f",
+                "u",
+                "ʁ",
+                "m",
+                "i"
+              ],
+              "silent": [],
+              "stem": "fourmi",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "bear",
+              "theme": "zoo animals",
+              "noun": "bear",
+              "word": "ours",
+              "seg": [
+                "ou",
+                "r",
+                "s"
+              ],
+              "snd": [
+                "u",
+                "ʁ",
+                "s"
+              ],
+              "silent": [],
+              "stem": "ours",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "bottle",
+              "theme": "kitchen tools",
+              "noun": "bottle",
+              "word": "bouteille",
+              "seg": [
+                "b",
+                "ou",
+                "t",
+                "ei",
+                "ll",
+                "e"
+              ],
+              "snd": [
+                "b",
+                "u",
+                "t",
+                "ɛ",
+                "j",
+                "∅"
+              ],
+              "silent": [
+                5
+              ],
+              "stem": "bouteille",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "chick",
+              "theme": "farm animals",
+              "noun": "chick",
+              "word": "poussin",
+              "seg": [
+                "p",
+                "ou",
+                "ss",
+                "in"
+              ],
+              "snd": [
+                "p",
+                "u",
+                "s",
+                "ɛ̃"
+              ],
+              "silent": [],
+              "stem": "poule",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "hen",
+              "theme": "farm animals",
+              "noun": "hen",
+              "word": "poule",
+              "seg": [
+                "p",
+                "ou",
+                "l",
+                "e"
+              ],
+              "snd": [
+                "p",
+                "u",
+                "l",
+                "∅"
+              ],
+              "silent": [
+                3
+              ],
+              "stem": "poule",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "cushion",
+              "theme": "around the house",
+              "noun": "cushion",
+              "word": "coussin",
+              "seg": [
+                "c",
+                "ou",
+                "ss",
+                "in"
+              ],
+              "snd": [
+                "k",
+                "u",
+                "s",
+                "ɛ̃"
+              ],
+              "silent": [],
+              "stem": "coussin",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "doll",
+              "theme": "toys",
+              "noun": "doll",
+              "word": "poupée",
+              "seg": [
+                "p",
+                "ou",
+                "p",
+                "ée"
+              ],
+              "snd": [
+                "p",
+                "u",
+                "p",
+                "e"
+              ],
+              "silent": [],
+              "stem": "poupée",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "drum",
+              "theme": "music",
+              "noun": "drum",
+              "word": "tambour",
+              "seg": [
+                "t",
+                "am",
+                "b",
+                "ou",
+                "r"
+              ],
+              "snd": [
+                "t",
+                "ɑ̃",
+                "b",
+                "u",
+                "ʁ"
+              ],
+              "silent": [],
+              "stem": "tambour",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "knife",
+              "theme": "kitchen tools",
+              "noun": "knife",
+              "word": "couteau",
+              "seg": [
+                "c",
+                "ou",
+                "t",
+                "eau"
+              ],
+              "snd": [
+                "k",
+                "u",
+                "t",
+                "o"
+              ],
+              "silent": [],
+              "stem": "couteau",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "mosquito",
+              "theme": "insects and bugs",
+              "noun": "mosquito",
+              "word": "moustique",
+              "seg": [
+                "m",
+                "ou",
+                "s",
+                "t",
+                "i",
+                "qu",
+                "e"
+              ],
+              "snd": [
+                "m",
+                "u",
+                "s",
+                "t",
+                "i",
+                "k",
+                "∅"
+              ],
+              "silent": [
+                6
+              ],
+              "stem": "moustique",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "mouse",
+              "theme": "pets",
+              "noun": "mouse",
+              "word": "souris",
+              "seg": [
+                "s",
+                "ou",
+                "r",
+                "i",
+                "s"
+              ],
+              "snd": [
+                "s",
+                "u",
+                "ʁ",
+                "i",
+                "∅"
+              ],
+              "silent": [
+                4
+              ],
+              "stem": "souris",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "owl",
+              "theme": "Things That Fly",
+              "noun": "owl",
+              "word": "hibou",
+              "seg": [
+                "h",
+                "i",
+                "b",
+                "ou"
+              ],
+              "snd": [
+                "∅",
+                "i",
+                "b",
+                "u"
+              ],
+              "silent": [
+                0
+              ],
+              "stem": "hibou",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "wolf",
+              "theme": "animals",
+              "noun": "wolf",
+              "word": "loup",
+              "seg": [
+                "l",
+                "ou",
+                "p"
+              ],
+              "snd": [
+                "l",
+                "u",
+                "∅"
+              ],
+              "silent": [
+                2
+              ],
+              "stem": "loup",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "candle",
+              "theme": "christmas",
+              "noun": "candle",
+              "word": "bougie",
+              "seg": [
+                "b",
+                "ou",
+                "g",
+                "ie"
+              ],
+              "snd": [
+                "b",
+                "u",
+                "ʒ",
+                "i"
+              ],
+              "silent": [],
+              "stem": "bougie",
+              "picOpened": true
+            }
+          ]
+        },
+        "on": {
+          "t": "on",
+          "sound": [
+            "ɔ̃"
+          ],
+          "items": [
+            {
+              "vocabKey": "airplane",
+              "theme": "Things That Fly",
+              "noun": "airplane",
+              "word": "avion",
+              "seg": [
+                "a",
+                "v",
+                "i",
+                "on"
+              ],
+              "snd": [
+                "a",
+                "v",
+                "j",
+                "ɔ̃"
+              ],
+              "silent": [],
+              "stem": "avion",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "butterfly",
+              "theme": "insects and bugs",
+              "noun": "butterfly",
+              "word": "papillon",
+              "seg": [
+                "p",
+                "a",
+                "p",
+                "i",
+                "ll",
+                "on"
+              ],
+              "snd": [
+                "p",
+                "a",
+                "p",
+                "i",
+                "j",
+                "ɔ̃"
+              ],
+              "silent": [],
+              "stem": "papillon",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "dragon",
+              "theme": "Things That Fly",
+              "noun": "dragon",
+              "word": "dragon",
+              "seg": [
+                "d",
+                "r",
+                "a",
+                "g",
+                "on"
+              ],
+              "snd": [
+                "d",
+                "ʁ",
+                "a",
+                "g",
+                "ɔ̃"
+              ],
+              "silent": [],
+              "stem": "dragon",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "ham",
+              "theme": "At the Supermarket",
+              "noun": "ham",
+              "word": "jambon",
+              "seg": [
+                "j",
+                "am",
+                "b",
+                "on"
+              ],
+              "snd": [
+                "ʒ",
+                "ɑ̃",
+                "b",
+                "ɔ̃"
+              ],
+              "silent": [],
+              "stem": "jambon",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "hedgehog",
+              "theme": "forest creatures",
+              "noun": "hedgehog",
+              "word": "hérisson",
+              "seg": [
+                "h",
+                "é",
+                "r",
+                "i",
+                "ss",
+                "on"
+              ],
+              "snd": [
+                "∅",
+                "e",
+                "ʁ",
+                "i",
+                "s",
+                "ɔ̃"
+              ],
+              "silent": [
+                0
+              ],
+              "stem": "hérisson",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "house",
+              "theme": "miscellaneous",
+              "noun": "house",
+              "word": "maison",
+              "seg": [
+                "m",
+                "ai",
+                "s",
+                "on"
+              ],
+              "snd": [
+                "m",
+                "ɛ",
+                "z",
+                "ɔ̃"
+              ],
+              "silent": [],
+              "stem": "maison",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "lemon",
+              "theme": "fruits",
+              "noun": "lemon",
+              "word": "citron",
+              "seg": [
+                "c",
+                "i",
+                "t",
+                "r",
+                "on"
+              ],
+              "snd": [
+                "s",
+                "i",
+                "t",
+                "ʁ",
+                "ɔ̃"
+              ],
+              "silent": [],
+              "stem": "citron",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "lion",
+              "theme": "zoo animals",
+              "noun": "lion",
+              "word": "lion",
+              "seg": [
+                "l",
+                "i",
+                "on"
+              ],
+              "snd": [
+                "l",
+                "j",
+                "ɔ̃"
+              ],
+              "silent": [],
+              "stem": "lion",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "melon",
+              "theme": "breakfast",
+              "noun": "melon",
+              "word": "melon",
+              "seg": [
+                "m",
+                "e",
+                "l",
+                "on"
+              ],
+              "snd": [
+                "m",
+                "ə",
+                "l",
+                "ɔ̃"
+              ],
+              "silent": [],
+              "stem": "melon",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "mountain",
+              "theme": "camping",
+              "noun": "mountain",
+              "word": "montagne",
+              "seg": [
+                "m",
+                "on",
+                "t",
+                "a",
+                "gn",
+                "e"
+              ],
+              "snd": [
+                "m",
+                "ɔ̃",
+                "t",
+                "a",
+                "ɲ",
+                "∅"
+              ],
+              "silent": [
+                5
+              ],
+              "stem": "montagne",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "mushroom",
+              "theme": "vegetables",
+              "noun": "mushroom",
+              "word": "champignon",
+              "seg": [
+                "ch",
+                "am",
+                "p",
+                "i",
+                "gn",
+                "on"
+              ],
+              "snd": [
+                "ʃ",
+                "ɑ̃",
+                "p",
+                "i",
+                "ɲ",
+                "ɔ̃"
+              ],
+              "silent": [],
+              "stem": "champignon",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "pig",
+              "theme": "animals",
+              "noun": "pig",
+              "word": "cochon",
+              "seg": [
+                "c",
+                "o",
+                "ch",
+                "on"
+              ],
+              "snd": [
+                "k",
+                "ɔ",
+                "ʃ",
+                "ɔ̃"
+              ],
+              "silent": [],
+              "stem": "cochon",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "truck",
+              "theme": "vehicles",
+              "noun": "truck",
+              "word": "camion",
+              "seg": [
+                "c",
+                "a",
+                "m",
+                "i",
+                "on"
+              ],
+              "snd": [
+                "k",
+                "a",
+                "m",
+                "j",
+                "ɔ̃"
+              ],
+              "silent": [],
+              "stem": "camion",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "watch",
+              "theme": "accessories",
+              "noun": "watch",
+              "word": "montre",
+              "seg": [
+                "m",
+                "on",
+                "t",
+                "r",
+                "e"
+              ],
+              "snd": [
+                "m",
+                "ɔ̃",
+                "t",
+                "ʁ",
+                "∅"
+              ],
+              "silent": [
+                4
+              ],
+              "stem": "montre",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "sponge",
+              "theme": "kitchen tools",
+              "noun": "sponge",
+              "word": "éponge",
+              "seg": [
+                "é",
+                "p",
+                "on",
+                "g",
+                "e"
+              ],
+              "snd": [
+                "e",
+                "p",
+                "ɔ̃",
+                "ʒ",
+                "∅"
+              ],
+              "silent": [
+                4
+              ],
+              "stem": "éponge",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "flip-flops",
+              "theme": "clothing",
+              "noun": "flip-flops",
+              "word": "tongs",
+              "seg": [
+                "t",
+                "on",
+                "g",
+                "s"
+              ],
+              "snd": [
+                "t",
+                "ɔ̃",
+                "g",
+                "∅"
+              ],
+              "silent": [
+                3
+              ],
+              "stem": "tongs",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "nail",
+              "theme": "body parts",
+              "noun": "nail",
+              "word": "ongle",
+              "seg": [
+                "on",
+                "g",
+                "l",
+                "e"
+              ],
+              "snd": [
+                "ɔ̃",
+                "g",
+                "l",
+                "∅"
+              ],
+              "silent": [
+                3
+              ],
+              "stem": "ongle",
+              "picOpened": true
+            }
+          ]
+        },
+        "oi": {
+          "t": "oi",
+          "sound": [
+            "wa"
+          ],
+          "items": [
+            {
+              "vocabKey": "bathtub",
+              "theme": "around the house",
+              "noun": "bathtub",
+              "word": "baignoire",
+              "seg": [
+                "b",
+                "ai",
+                "gn",
+                "oi",
+                "r",
+                "e"
+              ],
+              "snd": [
+                "b",
+                "ɛ",
+                "ɲ",
+                "wa",
+                "ʁ",
+                "∅"
+              ],
+              "silent": [
+                5
+              ],
+              "stem": "baignoire",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "bird",
+              "theme": "Things That Fly",
+              "noun": "bird",
+              "word": "oiseau",
+              "seg": [
+                "oi",
+                "s",
+                "eau"
+              ],
+              "snd": [
+                "wa",
+                "z",
+                "o"
+              ],
+              "silent": [],
+              "stem": "oiseau",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "car",
+              "theme": "vehicles",
+              "noun": "car",
+              "word": "voiture",
+              "seg": [
+                "v",
+                "oi",
+                "t",
+                "u",
+                "r",
+                "e"
+              ],
+              "snd": [
+                "v",
+                "wa",
+                "t",
+                "y",
+                "ʁ",
+                "∅"
+              ],
+              "silent": [
+                5
+              ],
+              "stem": "voiture",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "colander",
+              "theme": "kitchen tools",
+              "noun": "colander",
+              "word": "passoire",
+              "seg": [
+                "p",
+                "a",
+                "ss",
+                "oi",
+                "r",
+                "e"
+              ],
+              "snd": [
+                "p",
+                "a",
+                "s",
+                "wa",
+                "ʁ",
+                "∅"
+              ],
+              "silent": [
+                5
+              ],
+              "stem": "passoire",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "cross",
+              "theme": "easter",
+              "noun": "cross",
+              "word": "croix",
+              "seg": [
+                "c",
+                "r",
+                "oi",
+                "x"
+              ],
+              "snd": [
+                "k",
+                "ʁ",
+                "wa",
+                "∅"
+              ],
+              "silent": [
+                3
+              ],
+              "stem": "croix",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "leek",
+              "theme": "vegetables",
+              "noun": "leek",
+              "word": "poireau",
+              "seg": [
+                "p",
+                "oi",
+                "r",
+                "eau"
+              ],
+              "snd": [
+                "p",
+                "wa",
+                "ʁ",
+                "o"
+              ],
+              "silent": [],
+              "stem": "poire",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "mirror",
+              "theme": "around the house",
+              "noun": "mirror",
+              "word": "miroir",
+              "seg": [
+                "m",
+                "i",
+                "r",
+                "oi",
+                "r"
+              ],
+              "snd": [
+                "m",
+                "i",
+                "ʁ",
+                "wa",
+                "ʁ"
+              ],
+              "silent": [],
+              "stem": "miroir",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "pear",
+              "theme": "fruits",
+              "noun": "pear",
+              "word": "poire",
+              "seg": [
+                "p",
+                "oi",
+                "r",
+                "e"
+              ],
+              "snd": [
+                "p",
+                "wa",
+                "ʁ",
+                "∅"
+              ],
+              "silent": [
+                3
+              ],
+              "stem": "poire",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "star",
+              "theme": "christmas",
+              "noun": "star",
+              "word": "étoile",
+              "seg": [
+                "é",
+                "t",
+                "oi",
+                "l",
+                "e"
+              ],
+              "snd": [
+                "e",
+                "t",
+                "wa",
+                "l",
+                "∅"
+              ],
+              "silent": [
+                4
+              ],
+              "stem": "étoile",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "toilet",
+              "theme": "around the house",
+              "noun": "toilet",
+              "word": "toilettes",
+              "seg": [
+                "t",
+                "oi",
+                "l",
+                "e",
+                "tt",
+                "e",
+                "s"
+              ],
+              "snd": [
+                "t",
+                "wa",
+                "l",
+                "ɛ",
+                "t",
+                "∅",
+                "∅"
+              ],
+              "silent": [
+                5,
+                6
+              ],
+              "stem": "toilettes",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "raspberry",
+              "theme": "fruits",
+              "noun": "raspberry",
+              "word": "framboise",
+              "seg": [
+                "f",
+                "r",
+                "am",
+                "b",
+                "oi",
+                "s",
+                "e"
+              ],
+              "snd": [
+                "f",
+                "ʁ",
+                "ɑ̃",
+                "b",
+                "wa",
+                "z",
+                "∅"
+              ],
+              "silent": [
+                6
+              ],
+              "stem": "framboise",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "croissant",
+              "theme": "bakery",
+              "noun": "croissant",
+              "word": "croissant",
+              "seg": [
+                "c",
+                "r",
+                "oi",
+                "ss",
+                "an",
+                "t"
+              ],
+              "snd": [
+                "k",
+                "ʁ",
+                "wa",
+                "s",
+                "ɑ̃",
+                "∅"
+              ],
+              "silent": [
+                5
+              ],
+              "stem": "croissant",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "goose",
+              "theme": "farm animals",
+              "noun": "goose",
+              "word": "oie",
+              "seg": [
+                "oi",
+                "e"
+              ],
+              "snd": [
+                "wa",
+                "∅"
+              ],
+              "silent": [
+                1
+              ],
+              "stem": "oie",
+              "picOpened": true
+            }
+          ]
+        }
+      },
+      "samesound": [],
+      "falsePairs": [
+        {
+          "word": "oignon",
+          "letters": "oi",
+          "why": "dans oignon, o et i se lisent /ɔ/ : ce n’est pas le son oi"
+        },
+        {
+          "word": "bonnet",
+          "letters": "on",
+          "why": "on est suivi d’un deuxième n : on entend /ɔ/, pas le son on"
+        },
+        {
+          "word": "téléphone",
+          "letters": "on",
+          "why": "o et n se lisent séparément devant le e : pas de son on"
+        },
+        {
+          "word": "couronne",
+          "letters": "on",
+          "why": "onne se lit /ɔn/ : pas de son on"
+        },
+        {
+          "word": "bonhomme",
+          "letters": "on",
+          "why": "bon-homme se lit /bɔnɔm/ : pas de son on"
+        },
+        {
+          "word": "oui",
+          "letters": "ou",
+          "why": "dans oui, ou se lit /w/ devant le i : pas le son /u/"
+        },
+        {
+          "word": "coïncidence",
+          "letters": "oi",
+          "why": "le tréma sépare o et ï : deux sons, pas le son oi"
+        }
+      ],
+      "sets": {
+        "exemplar": [
+          "ou",
+          "on",
+          "oi"
+        ],
+        "k": [
+          "ou",
+          "on"
+        ],
+        "position": [
+          "ou",
+          "on",
+          "oi"
+        ]
+      },
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Le loup court dans le bois.",
+          "target": "ou",
+          "hits": 2,
+          "tokens": [
+            {
+              "w": "Le",
+              "seg": [
+                "L",
+                "e"
+              ]
+            },
+            {
+              "w": "loup",
+              "seg": [
+                "l",
+                "ou",
+                "p"
+              ]
+            },
+            {
+              "w": "court",
+              "seg": [
+                "c",
+                "ou",
+                "r",
+                "t"
+              ]
+            },
+            {
+              "w": "dans",
+              "seg": [
+                "d",
+                "an",
+                "s"
+              ]
+            },
+            {
+              "w": "le",
+              "seg": [
+                "l",
+                "e"
+              ]
+            },
+            {
+              "w": "bois",
+              "seg": [
+                "b",
+                "oi",
+                "s"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "La poule a un joli poussin.",
+          "target": "ou",
+          "hits": 2,
+          "tokens": [
+            {
+              "w": "La",
+              "seg": [
+                "L",
+                "a"
+              ]
+            },
+            {
+              "w": "poule",
+              "seg": [
+                "p",
+                "ou",
+                "l",
+                "e"
+              ]
+            },
+            {
+              "w": "a",
+              "seg": [
+                "a"
+              ]
+            },
+            {
+              "w": "un",
+              "seg": [
+                "un"
+              ]
+            },
+            {
+              "w": "joli",
+              "seg": [
+                "j",
+                "o",
+                "l",
+                "i"
+              ]
+            },
+            {
+              "w": "poussin",
+              "seg": [
+                "p",
+                "ou",
+                "ss",
+                "in"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Je joue avec la roue du loup.",
+          "target": "ou",
+          "hits": 3,
+          "tokens": [
+            {
+              "w": "Je",
+              "seg": [
+                "J",
+                "e"
+              ]
+            },
+            {
+              "w": "joue",
+              "seg": [
+                "j",
+                "ou",
+                "e"
+              ]
+            },
+            {
+              "w": "avec",
+              "seg": [
+                "a",
+                "v",
+                "e",
+                "c"
+              ]
+            },
+            {
+              "w": "la",
+              "seg": [
+                "l",
+                "a"
+              ]
+            },
+            {
+              "w": "roue",
+              "seg": [
+                "r",
+                "ou",
+                "e"
+              ]
+            },
+            {
+              "w": "du",
+              "seg": [
+                "d",
+                "u"
+              ]
+            },
+            {
+              "w": "loup",
+              "seg": [
+                "l",
+                "ou",
+                "p"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Le hibou dort sous la lune.",
+          "target": "ou",
+          "hits": 2,
+          "tokens": [
+            {
+              "w": "Le",
+              "seg": [
+                "L",
+                "e"
+              ]
+            },
+            {
+              "w": "hibou",
+              "seg": [
+                "h",
+                "i",
+                "b",
+                "ou"
+              ]
+            },
+            {
+              "w": "dort",
+              "seg": [
+                "d",
+                "o",
+                "r",
+                "t"
+              ]
+            },
+            {
+              "w": "sous",
+              "seg": [
+                "s",
+                "ou",
+                "s"
+              ]
+            },
+            {
+              "w": "la",
+              "seg": [
+                "l",
+                "a"
+              ]
+            },
+            {
+              "w": "lune",
+              "seg": [
+                "l",
+                "u",
+                "n",
+                "e"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Mon ours joue sur le tapis.",
+          "target": "ou",
+          "hits": 2,
+          "tokens": [
+            {
+              "w": "Mon",
+              "seg": [
+                "M",
+                "on"
+              ]
+            },
+            {
+              "w": "ours",
+              "seg": [
+                "ou",
+                "r",
+                "s"
+              ]
+            },
+            {
+              "w": "joue",
+              "seg": [
+                "j",
+                "ou",
+                "e"
+              ]
+            },
+            {
+              "w": "sur",
+              "seg": [
+                "s",
+                "u",
+                "r"
+              ]
+            },
+            {
+              "w": "le",
+              "seg": [
+                "l",
+                "e"
+              ]
+            },
+            {
+              "w": "tapis",
+              "seg": [
+                "t",
+                "a",
+                "p",
+                "i",
+                "s"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Le poulet et la poule picorent dans la cour.",
+          "target": "ou",
+          "hits": 3,
+          "tokens": [
+            {
+              "w": "Le",
+              "seg": [
+                "L",
+                "e"
+              ]
+            },
+            {
+              "w": "poulet",
+              "seg": [
+                "p",
+                "ou",
+                "l",
+                "et"
+              ]
+            },
+            {
+              "w": "et",
+              "seg": [
+                "et"
+              ]
+            },
+            {
+              "w": "la",
+              "seg": [
+                "l",
+                "a"
+              ]
+            },
+            {
+              "w": "poule",
+              "seg": [
+                "p",
+                "ou",
+                "l",
+                "e"
+              ]
+            },
+            {
+              "w": "picorent",
+              "seg": [
+                "p",
+                "i",
+                "c",
+                "o",
+                "r",
+                "e",
+                "nt"
+              ]
+            },
+            {
+              "w": "dans",
+              "seg": [
+                "d",
+                "an",
+                "s"
+              ]
+            },
+            {
+              "w": "la",
+              "seg": [
+                "l",
+                "a"
+              ]
+            },
+            {
+              "w": "cour",
+              "seg": [
+                "c",
+                "ou",
+                "r"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "Papa a un couteau.",
+          "target": "ou",
+          "hits": 1,
+          "tokens": [
+            {
+              "w": "Papa",
+              "seg": [
+                "P",
+                "a",
+                "p",
+                "a"
+              ]
+            },
+            {
+              "w": "a",
+              "seg": [
+                "a"
+              ]
+            },
+            {
+              "w": "un",
+              "seg": [
+                "un"
+              ]
+            },
+            {
+              "w": "couteau",
+              "seg": [
+                "c",
+                "ou",
+                "t",
+                "eau"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "text": "Tout le jour, je joue dans la cour.",
+          "target": "ou",
+          "hits": 4,
+          "tokens": [
+            {
+              "w": "Tout",
+              "seg": [
+                "T",
+                "ou",
+                "t"
+              ]
+            },
+            {
+              "w": "le",
+              "seg": [
+                "l",
+                "e"
+              ]
+            },
+            {
+              "w": "jour",
+              "seg": [
+                "j",
+                "ou",
+                "r"
+              ]
+            },
+            {
+              "w": "je",
+              "seg": [
+                "j",
+                "e"
+              ]
+            },
+            {
+              "w": "joue",
+              "seg": [
+                "j",
+                "ou",
+                "e"
+              ]
+            },
+            {
+              "w": "dans",
+              "seg": [
+                "d",
+                "an",
+                "s"
+              ]
+            },
+            {
+              "w": "la",
+              "seg": [
+                "l",
+                "a"
+              ]
+            },
+            {
+              "w": "cour",
+              "seg": [
+                "c",
+                "ou",
+                "r"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "text": "Le chat voit une souris.",
+          "target": "ou",
+          "hits": 1,
+          "tokens": [
+            {
+              "w": "Le",
+              "seg": [
+                "L",
+                "e"
+              ]
+            },
+            {
+              "w": "chat",
+              "seg": [
+                "ch",
+                "a",
+                "t"
+              ]
+            },
+            {
+              "w": "voit",
+              "seg": [
+                "v",
+                "oi",
+                "t"
+              ]
+            },
+            {
+              "w": "une",
+              "seg": [
+                "u",
+                "n",
+                "e"
+              ]
+            },
+            {
+              "w": "souris",
+              "seg": [
+                "s",
+                "ou",
+                "r",
+                "i",
+                "s"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s10",
+          "text": "Nous avons douze moutons.",
+          "target": "ou",
+          "hits": 3,
+          "tokens": [
+            {
+              "w": "Nous",
+              "seg": [
+                "N",
+                "ou",
+                "s"
+              ]
+            },
+            {
+              "w": "avons",
+              "seg": [
+                "a",
+                "v",
+                "on",
+                "s"
+              ]
+            },
+            {
+              "w": "douze",
+              "seg": [
+                "d",
+                "ou",
+                "z",
+                "e"
+              ]
+            },
+            {
+              "w": "moutons",
+              "seg": [
+                "m",
+                "ou",
+                "t",
+                "on",
+                "s"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s11",
+          "text": "La fourmi monte sur la tour.",
+          "target": "ou",
+          "hits": 2,
+          "tokens": [
+            {
+              "w": "La",
+              "seg": [
+                "L",
+                "a"
+              ]
+            },
+            {
+              "w": "fourmi",
+              "seg": [
+                "f",
+                "ou",
+                "r",
+                "m",
+                "i"
+              ]
+            },
+            {
+              "w": "monte",
+              "seg": [
+                "m",
+                "on",
+                "t",
+                "e"
+              ]
+            },
+            {
+              "w": "sur",
+              "seg": [
+                "s",
+                "u",
+                "r"
+              ]
+            },
+            {
+              "w": "la",
+              "seg": [
+                "l",
+                "a"
+              ]
+            },
+            {
+              "w": "tour",
+              "seg": [
+                "t",
+                "ou",
+                "r"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s12",
+          "text": "Léa lit un livre sur le loup.",
+          "target": "ou",
+          "hits": 1,
+          "tokens": [
+            {
+              "w": "Léa",
+              "seg": [
+                "L",
+                "é",
+                "a"
+              ]
+            },
+            {
+              "w": "lit",
+              "seg": [
+                "l",
+                "i",
+                "t"
+              ]
+            },
+            {
+              "w": "un",
+              "seg": [
+                "un"
+              ]
+            },
+            {
+              "w": "livre",
+              "seg": [
+                "l",
+                "i",
+                "v",
+                "r",
+                "e"
+              ]
+            },
+            {
+              "w": "sur",
+              "seg": [
+                "s",
+                "u",
+                "r"
+              ]
+            },
+            {
+              "w": "le",
+              "seg": [
+                "l",
+                "e"
+              ]
+            },
+            {
+              "w": "loup",
+              "seg": [
+                "l",
+                "ou",
+                "p"
+              ]
+            }
+          ]
+        }
+      ],
+      "rejectedPics": [
+        {
+          "pic": "fruits/cherry",
+          "why": "reads as an apple (design §4)"
+        },
+        {
+          "pic": "fruits/peach",
+          "why": "reads as an apple (design §4)"
+        },
+        {
+          "pic": "christmas/chimney",
+          "why": "a fireplace (design §4)"
+        },
+        {
+          "pic": "body parts/mouth",
+          "why": "said \"lèvres\" / \"sourire\", not \"bouche\" (design §4)"
+        },
+        {
+          "pic": "colors/white",
+          "why": "a white paint drop (design §1)"
+        },
+        {
+          "pic": "shapes/cone",
+          "why": "a frustum / lampshade (design §1)"
+        },
+        {
+          "pic": "easter/chick",
+          "why": "reads as a duckling: a child says \"caneton\" / \"canard\" (design review 2026-09-23)"
+        },
+        {
+          "pic": "classroom/lunchbox",
+          "why": "reads as a treasure chest (design review 2026-09-23)"
+        },
+        {
+          "pic": "tools/nail",
+          "why": "a metal nail: a French child says \"clou\" (ou), not \"ongle\" (fr panel, opened)"
+        },
+        {
+          "pic": "body parts/finger",
+          "why": "said \"doigt\" (oi) — kept off the pool so the nail card (ongle) is never confused with it (fr panel, opened)"
+        },
+        {
+          "pic": "vegetables/onion",
+          "why": "oignon: oi = /ɔ/, a false pair (fr panel)"
+        },
+        {
+          "pic": "body parts/elbow",
+          "why": "a bent arm, said \"bras\" (fr panel, opened)"
+        },
+        {
+          "pic": "body parts/knee",
+          "why": "a leg with a sock, said \"jambe\" (fr panel, opened)"
+        },
+        {
+          "pic": "body parts/neck",
+          "why": "a throat with a necklace, said \"collier\" (fr panel, opened)"
+        },
+        {
+          "pic": "kitchen tools/oven",
+          "why": "a whole cooker: a French child says \"cuisinière\", not \"four\" (fr panel, opened)"
+        },
+        {
+          "pic": "around the house/oven",
+          "why": "a whole cooker: said \"cuisinière\" (fr panel, opened)"
+        },
+        {
+          "pic": "kitchen tools/ladle",
+          "why": "reads as a spoon: said \"cuillère\" (fr panel, opened)"
+        },
+        {
+          "pic": "farm animals/chicken",
+          "why": "poulet or poule: two words for one picture (fr panel, opened)"
+        },
+        {
+          "pic": "birds 2/sparrow",
+          "why": "said \"oiseau\", not \"moineau\" (fr panel, opened)"
+        },
+        {
+          "pic": "ocean life/tuna",
+          "why": "a fish: said \"poisson\" (oi + on), not \"thon\" (fr panel, opened)"
+        },
+        {
+          "pic": "birds 2/heron",
+          "why": "said \"oiseau\" (fr panel, opened)"
+        },
+        {
+          "pic": "clothing/pants",
+          "why": "yellow shorts: said \"short\", not \"pantalon\" (fr panel, opened)"
+        },
+        {
+          "pic": "post office/stamp",
+          "why": "a postage stamp: said \"timbre\", not \"tampon\" (fr panel, opened)"
+        },
+        {
+          "pic": "birds 2/falcon",
+          "why": "reads as a penguin (fr panel, opened)"
+        },
+        {
+          "pic": "insects and bugs/cricket",
+          "why": "said \"sauterelle\", not \"grillon\" (fr panel, opened)"
+        },
+        {
+          "pic": "accessories/crown",
+          "why": "couronne shows the letters o n without the on sound (a false pair)"
+        },
+        {
+          "pic": "clothing/mitten",
+          "why": "clothing/mitten: a child says \"gant\", not \"moufle\" (fr landing panel, round 1)"
+        },
+        {
+          "pic": "zoo animals/otter",
+          "why": "zoo animals/otter: said \"castor\" (fr landing panel, round 1)"
+        },
+        {
+          "pic": "furniture/stool",
+          "why": "furniture/stool: said \"chaise\" (fr landing panel, round 1)"
+        },
+        {
+          "pic": "toys/ball",
+          "why": "toys/ball: a small ball, said \"balle\" (fr landing panel, round 1)"
+        },
+        {
+          "pic": "breakfast/jam",
+          "why": "breakfast/jam: said \"pot\" / \"bocal\" (fr landing panel, round 1)"
+        },
+        {
+          "pic": "toys/swing",
+          "why": "playground swing: the /wa/ sits in the last syllable, so a child who answers \"à la fin\" has heard something real (fr landing panel, round 1)"
+        },
+        {
+          "pic": "body parts/thumb",
+          "why": "a thumbs-up hand: said \"main\" / \"doigt\" (oi), not \"pouce\" (fr landing panel r2)"
+        },
+        {
+          "pic": "spring/bird",
+          "why": "a robin with an orange throat: said \"rouge-gorge\" (ou), not \"oiseau\"; Things That Fly/bird (plain yellow bird, opened) used instead (fr landing panel r2)"
+        },
+        {
+          "pic": "vegetables/cabbage",
+          "why": "a green head a child calls \"salade\" (fr landing panel r2)"
+        },
+        {
+          "pic": "desserts and sweets/macaron",
+          "why": "said \"gâteau\" (fr landing panel r2)"
+        }
+      ],
+      "strings": {
+        "base": {
+          "title": "Sons complexes ou, on, oi : quel son entends-tu ?",
+          "instruction": "Dis le nom de chaque image et entoure le son que tu entends."
+        },
+        "sort-two": {
+          "title": "Sons complexes en maternelle : trier ou et on",
+          "instruction": "Dis le nom de chaque image et relie-la par un trait au son que tu entends."
+        },
+        "gap": {
+          "title": "Sons complexes : complète avec ou, on ou oi",
+          "instruction": "Dis le nom de chaque image et écris dans l’espace en pointillés le son qui manque, choisi en haut."
+        },
+        "match": {
+          "title": "Lire des mots avec ou, on, oi et les relier aux images",
+          "instruction": "Lis chaque mot, dont le son est marqué, et relie-le par un trait à l’image qu’il nomme."
+        },
+        "position": {
+          "title": "Où entends-tu le son ou, on ou oi dans le mot ?",
+          "instruction": "Dis le nom de chaque image et colorie une case pour dire où tu entends le son : au début, au milieu ou à la fin."
+        },
+        "text": {
+          "title": "Le son ou dans des phrases : entoure et compte",
+          "instruction": "Lis les phrases, entoure chaque ou et écris dans la case combien tu en as trouvé dans chaque phrase."
+        }
+      }
+    },
+    "synonyms": {
+      "head": "Les synonymes",
+      "allowed": [
+        " ",
+        "-",
+        "'",
+        "’"
+      ],
+      "ban": [
+        "fort",
+        "bon",
+        "chouette",
+        "drôle",
+        "brave",
+        "dur",
+        "sympa",
+        "super",
+        "génial",
+        "malin",
+        "gros",
+        "vif",
+        "bien"
+      ],
+      "regional": [],
+      "groups": [
+        {
+          "id": "g.happy",
+          "concept": "happy",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "content",
+            "heureux"
+          ]
+        },
+        {
+          "id": "g.sad",
+          "concept": "sad",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "triste",
+            "peiné"
+          ]
+        },
+        {
+          "id": "g.angry",
+          "concept": "angry",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "fâché",
+            "en colère"
+          ]
+        },
+        {
+          "id": "g.scared",
+          "concept": "scared",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "effrayé",
+            "apeuré"
+          ]
+        },
+        {
+          "id": "g.surprised",
+          "concept": "surprised",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "surpris",
+            "étonné"
+          ]
+        },
+        {
+          "id": "g.calm",
+          "concept": "calm",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 2,
+          "words": [
+            "calme",
+            "tranquille",
+            "paisible"
+          ]
+        },
+        {
+          "id": "g.tired",
+          "concept": "tired",
+          "pos": "adj",
+          "domain": "body",
+          "tier": 1,
+          "words": [
+            "fatigué",
+            "épuisé"
+          ]
+        },
+        {
+          "id": "g.sick",
+          "concept": "sick",
+          "pos": "adj",
+          "domain": "body",
+          "tier": 1,
+          "words": [
+            "malade",
+            "souffrant"
+          ]
+        },
+        {
+          "id": "g.strong",
+          "concept": "strong",
+          "pos": "adj",
+          "domain": "body",
+          "tier": 2,
+          "words": [
+            "costaud",
+            "robuste"
+          ]
+        },
+        {
+          "id": "g.big",
+          "concept": "big",
+          "pos": "adj",
+          "domain": "size-speed",
+          "tier": 1,
+          "words": [
+            "énorme",
+            "immense",
+            "gigantesque"
+          ]
+        },
+        {
+          "id": "g.small",
+          "concept": "small",
+          "pos": "adj",
+          "domain": "size-speed",
+          "tier": 1,
+          "words": [
+            "minuscule",
+            "tout petit"
+          ]
+        },
+        {
+          "id": "g.easy",
+          "concept": "easy",
+          "pos": "adj",
+          "domain": "thinking",
+          "tier": 1,
+          "words": [
+            "facile",
+            "simple"
+          ]
+        },
+        {
+          "id": "g.difficult",
+          "concept": "difficult",
+          "pos": "adj",
+          "domain": "thinking",
+          "tier": 2,
+          "words": [
+            "difficile",
+            "compliqué"
+          ]
+        },
+        {
+          "id": "g.smart",
+          "concept": "smart",
+          "pos": "adj",
+          "domain": "thinking",
+          "tier": 2,
+          "words": [
+            "intelligent",
+            "futé"
+          ]
+        },
+        {
+          "id": "g.brave",
+          "concept": "brave",
+          "pos": "adj",
+          "domain": "character",
+          "tier": 2,
+          "words": [
+            "courageux",
+            "vaillant"
+          ]
+        },
+        {
+          "id": "g.funny",
+          "concept": "funny",
+          "pos": "adj",
+          "domain": "character",
+          "tier": 1,
+          "words": [
+            "amusant",
+            "comique"
+          ]
+        },
+        {
+          "id": "g.strange",
+          "concept": "strange",
+          "pos": "adj",
+          "domain": "character",
+          "tier": 2,
+          "words": [
+            "bizarre",
+            "étrange"
+          ]
+        },
+        {
+          "id": "g.tasty",
+          "concept": "tasty",
+          "pos": "adj",
+          "domain": "senses",
+          "tier": 1,
+          "words": [
+            "délicieux",
+            "savoureux"
+          ]
+        },
+        {
+          "id": "g.cozy",
+          "concept": "cozy",
+          "pos": "adj",
+          "domain": "senses",
+          "tier": 2,
+          "words": [
+            "douillet",
+            "confortable"
+          ]
+        },
+        {
+          "id": "g.pretty",
+          "concept": "pretty",
+          "pos": "adj",
+          "domain": "looks",
+          "tier": 1,
+          "words": [
+            "joli",
+            "beau"
+          ]
+        },
+        {
+          "id": "g.tidy",
+          "concept": "tidy",
+          "pos": "adj",
+          "domain": "looks",
+          "tier": 2,
+          "words": [
+            "rangé",
+            "ordonné"
+          ]
+        },
+        {
+          "id": "g.dirty",
+          "concept": "dirty",
+          "pos": "adj",
+          "domain": "looks",
+          "tier": 2,
+          "words": [
+            "sale",
+            "crasseux"
+          ]
+        },
+        {
+          "id": "g.begin",
+          "concept": "begin",
+          "pos": "verb",
+          "domain": "begin-end",
+          "tier": 1,
+          "words": [
+            "commencer",
+            "débuter"
+          ]
+        },
+        {
+          "id": "g.end",
+          "concept": "end",
+          "pos": "verb",
+          "domain": "begin-end",
+          "tier": 1,
+          "words": [
+            "finir",
+            "terminer",
+            "achever"
+          ]
+        },
+        {
+          "id": "g.choose",
+          "concept": "choose",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 2,
+          "words": [
+            "choisir",
+            "sélectionner"
+          ]
+        },
+        {
+          "id": "g.collect",
+          "concept": "collect",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 2,
+          "words": [
+            "rassembler",
+            "réunir"
+          ]
+        },
+        {
+          "id": "g.jump",
+          "concept": "jump",
+          "pos": "verb",
+          "domain": "move",
+          "tier": 1,
+          "words": [
+            "sauter",
+            "bondir"
+          ]
+        },
+        {
+          "id": "g.throw",
+          "concept": "throw",
+          "pos": "verb",
+          "domain": "move",
+          "tier": 1,
+          "words": [
+            "lancer",
+            "jeter"
+          ]
+        },
+        {
+          "id": "g.fall",
+          "concept": "fall",
+          "pos": "verb",
+          "domain": "move",
+          "tier": 2,
+          "words": [
+            "tomber",
+            "chuter"
+          ]
+        },
+        {
+          "id": "g.stay",
+          "concept": "stay",
+          "pos": "verb",
+          "domain": "move",
+          "tier": 2,
+          "words": [
+            "rester",
+            "demeurer"
+          ]
+        },
+        {
+          "id": "g.talk",
+          "concept": "talk",
+          "pos": "verb",
+          "domain": "speak",
+          "tier": 1,
+          "words": [
+            "bavarder",
+            "papoter"
+          ]
+        },
+        {
+          "id": "g.shout",
+          "concept": "shout",
+          "pos": "verb",
+          "domain": "speak",
+          "tier": 1,
+          "words": [
+            "crier",
+            "hurler"
+          ]
+        },
+        {
+          "id": "g.build",
+          "concept": "build",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 2,
+          "words": [
+            "construire",
+            "bâtir"
+          ]
+        },
+        {
+          "id": "g.hide",
+          "concept": "hide",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 2,
+          "words": [
+            "cacher",
+            "dissimuler"
+          ]
+        }
+      ],
+      "near": [
+        {
+          "a": "fâché",
+          "b": "agacé",
+          "why": "nuance : agacé est moins fort que fâché"
+        },
+        {
+          "a": "effrayé",
+          "b": "inquiet",
+          "why": "inquiet est un autre sentiment, pas une peur plus faible"
+        },
+        {
+          "a": "content",
+          "b": "ravi",
+          "why": "nuance : ravi est plus fort que content"
+        },
+        {
+          "a": "calme",
+          "b": "silencieux",
+          "why": "silencieux dit qu’il n’y a pas de bruit ; calme parle d’un sentiment"
+        },
+        {
+          "a": "costaud",
+          "b": "courageux",
+          "why": "la force du corps n’est pas le courage"
+        },
+        {
+          "a": "chaud",
+          "b": "tiède",
+          "why": "nuance"
+        },
+        {
+          "a": "froid",
+          "b": "frais",
+          "why": "nuance"
+        },
+        {
+          "a": "mouillé",
+          "b": "humide",
+          "why": "nuance"
+        },
+        {
+          "a": "parler",
+          "b": "crier",
+          "why": "crier, c’est parler très fort"
+        },
+        {
+          "a": "aimer",
+          "b": "adorer",
+          "why": "nuance"
+        },
+        {
+          "a": "manger",
+          "b": "dévorer",
+          "why": "nuance"
+        },
+        {
+          "a": "malade",
+          "b": "fatigué",
+          "why": "être fatigué, ce n’est pas être malade"
+        },
+        {
+          "a": "énorme",
+          "b": "grand",
+          "why": "nuance : énorme est bien plus que grand"
+        },
+        {
+          "a": "minuscule",
+          "b": "petit",
+          "why": "nuance : minuscule est bien plus que petit"
+        },
+        {
+          "a": "sale",
+          "b": "désordonné",
+          "why": "sale, ce n’est pas mal rangé"
+        }
+      ],
+      "nearOnly": [
+        "agacé",
+        "inquiet",
+        "ravi",
+        "silencieux",
+        "grand",
+        "petit",
+        "désordonné"
+      ],
+      "falseOf": {
+        "happy": [
+          "triste",
+          "peiné",
+          "fâché",
+          "en colère",
+          "effrayé",
+          "apeuré",
+          "surpris",
+          "étonné",
+          "fatigué",
+          "épuisé",
+          "énorme",
+          "immense",
+          "gigantesque",
+          "minuscule",
+          "tout petit"
+        ],
+        "sad": [
+          "content",
+          "heureux",
+          "fâché",
+          "en colère",
+          "surpris",
+          "étonné",
+          "énorme",
+          "immense",
+          "gigantesque",
+          "minuscule",
+          "tout petit"
+        ],
+        "angry": [
+          "content",
+          "heureux",
+          "triste",
+          "peiné",
+          "effrayé",
+          "apeuré",
+          "surpris",
+          "étonné",
+          "fatigué",
+          "épuisé",
+          "énorme",
+          "immense",
+          "gigantesque",
+          "minuscule",
+          "tout petit"
+        ],
+        "scared": [
+          "content",
+          "heureux",
+          "triste",
+          "peiné",
+          "fatigué",
+          "épuisé",
+          "énorme",
+          "immense",
+          "gigantesque",
+          "minuscule",
+          "tout petit"
+        ],
+        "surprised": [
+          "content",
+          "heureux",
+          "triste",
+          "peiné",
+          "fâché",
+          "en colère",
+          "fatigué",
+          "épuisé",
+          "énorme",
+          "immense",
+          "gigantesque",
+          "minuscule",
+          "tout petit"
+        ],
+        "tired": [
+          "content",
+          "heureux",
+          "fâché",
+          "en colère",
+          "effrayé",
+          "apeuré",
+          "surpris",
+          "étonné",
+          "énorme",
+          "immense",
+          "gigantesque",
+          "minuscule",
+          "tout petit"
+        ],
+        "big": [
+          "triste",
+          "peiné",
+          "fâché",
+          "en colère",
+          "effrayé",
+          "apeuré",
+          "surpris",
+          "étonné",
+          "minuscule",
+          "tout petit"
+        ],
+        "small": [
+          "triste",
+          "peiné",
+          "effrayé",
+          "apeuré",
+          "surpris",
+          "étonné",
+          "fatigué",
+          "épuisé",
+          "énorme",
+          "immense",
+          "gigantesque"
+        ]
+      },
+      "scales": [
+        {
+          "id": "s.heat",
+          "pos": "adj",
+          "words": [
+            "tiède",
+            "chaud",
+            "brûlant"
+          ]
+        },
+        {
+          "id": "s.cold",
+          "pos": "adj",
+          "words": [
+            "frais",
+            "froid",
+            "glacé"
+          ]
+        },
+        {
+          "id": "s.wet",
+          "pos": "adj",
+          "words": [
+            "humide",
+            "mouillé",
+            "trempé"
+          ]
+        },
+        {
+          "id": "s.angry",
+          "pos": "adj",
+          "words": [
+            "agacé",
+            "fâché",
+            "furieux"
+          ]
+        },
+        {
+          "id": "s.eat",
+          "pos": "verb",
+          "words": [
+            "grignoter",
+            "manger",
+            "dévorer"
+          ]
+        },
+        {
+          "id": "s.drink",
+          "pos": "verb",
+          "words": [
+            "siroter",
+            "boire",
+            "engloutir"
+          ]
+        },
+        {
+          "id": "s.like",
+          "pos": "verb",
+          "words": [
+            "apprécier",
+            "aimer",
+            "adorer"
+          ]
+        },
+        {
+          "id": "s.voice",
+          "pos": "verb",
+          "words": [
+            "chuchoter",
+            "parler",
+            "crier"
+          ]
+        },
+        {
+          "id": "s.knock",
+          "pos": "verb",
+          "words": [
+            "tapoter",
+            "taper",
+            "cogner"
+          ]
+        }
+      ],
+      "fields": {
+        "say": {
+          "head": "dit",
+          "form": "présent, 3e personne du singulier",
+          "words": [
+            "chuchote",
+            "crie",
+            "demande",
+            "répond",
+            "explique",
+            "promet"
+          ],
+          "sentences": [
+            {
+              "id": "f1",
+              "text": "« Chut, le bébé dort », {gap} {name} tout doucement.",
+              "plainVerbOK": true,
+              "fit": {
+                "chuchote": true,
+                "crie": false,
+                "demande": false,
+                "répond": false,
+                "explique": false,
+                "promet": false
+              }
+            },
+            {
+              "id": "f2",
+              "text": "« J’ai un secret pour toi », {gap} {name} à l’oreille de Mamie.",
+              "plainVerbOK": true,
+              "fit": {
+                "chuchote": true,
+                "crie": false,
+                "demande": false,
+                "répond": false,
+                "explique": false,
+                "promet": false
+              }
+            },
+            {
+              "id": "f3",
+              "text": "Le bus part, alors {name} {gap} : « Attendez-moi ! »",
+              "plainVerbOK": true,
+              "fit": {
+                "chuchote": false,
+                "crie": true,
+                "demande": false,
+                "répond": false,
+                "explique": false,
+                "promet": false
+              }
+            },
+            {
+              "id": "f4",
+              "text": "« Viens jouer ! » {gap} {name} à son ami, tout au bout du grand champ.",
+              "plainVerbOK": true,
+              "fit": {
+                "chuchote": false,
+                "crie": true,
+                "demande": false,
+                "répond": false,
+                "explique": false,
+                "promet": false
+              }
+            },
+            {
+              "id": "f5",
+              "text": "« Où est mon chapeau rouge ? » {gap} {name}.",
+              "plainVerbOK": true,
+              "fit": {
+                "chuchote": false,
+                "crie": false,
+                "demande": true,
+                "répond": false,
+                "explique": false,
+                "promet": false
+              }
+            },
+            {
+              "id": "f6",
+              "text": "« Sept et trois font dix », {gap} {name} quand la maîtresse l’interroge.",
+              "plainVerbOK": true,
+              "fit": {
+                "chuchote": false,
+                "crie": false,
+                "demande": false,
+                "répond": true,
+                "explique": false,
+                "promet": false
+              }
+            },
+            {
+              "id": "f7",
+              "text": "« D’abord, on creuse un trou, puis on pose la graine », {gap} {name}.",
+              "plainVerbOK": true,
+              "fit": {
+                "chuchote": false,
+                "crie": false,
+                "demande": false,
+                "répond": false,
+                "explique": true,
+                "promet": false
+              }
+            },
+            {
+              "id": "f8",
+              "text": "« Je nourrirai le poisson tous les jours, c’est juré ! » {gap} {name}.",
+              "plainVerbOK": true,
+              "fit": {
+                "chuchote": false,
+                "crie": false,
+                "demande": false,
+                "répond": false,
+                "explique": false,
+                "promet": true
+              }
+            }
+          ]
+        },
+        "go": {
+          "head": "aller",
+          "words": [
+            "marcher",
+            "courir",
+            "ramper",
+            "flâner",
+            "errer",
+            "trottiner",
+            "foncer",
+            "se promener"
+          ]
+        },
+        "look": {
+          "head": "regarder",
+          "words": [
+            "observer",
+            "contempler",
+            "épier",
+            "admirer",
+            "scruter",
+            "guetter",
+            "examiner",
+            "lorgner"
+          ]
+        }
+      },
+      "quotes": [
+        "«",
+        "»"
+      ],
+      "instructionBans": {
+        "base": [
+          "ligne",
+          "case",
+          "bulle"
+        ],
+        "pictures": [
+          "ligne",
+          "case"
+        ],
+        "pairs": [
+          "case",
+          "bulle"
+        ],
+        "shades": [
+          "bulle",
+          "trait"
+        ],
+        "say": [
+          "trait"
+        ],
+        "fields": [
+          "trait",
+          "bulle"
+        ]
+      },
+      "strings": {
+        "base": {
+          "title": "Les synonymes : entoure le mot qui veut dire la même chose",
+          "instruction": "Lis le grand mot de chaque carte et entoure, en dessous, le mot qui veut dire la même chose."
+        },
+        "pictures": {
+          "title": "Les synonymes en images : deux mots pour une image",
+          "instruction": "Regarde chaque image et entoure, en dessous, les deux mots qui veulent dire la même chose et qui décrivent l’image."
+        },
+        "pairs": {
+          "title": "Relier les synonymes deux à deux",
+          "instruction": "Trace un trait pour relier chaque mot de gauche au mot de droite qui veut dire la même chose."
+        },
+        "shades": {
+          "title": "Les nuances de sens : du plus faible au plus fort",
+          "instruction": "Lis les trois mots de chaque ligne et écris 1, 2 et 3 dans les cases, du mot le plus faible au mot le plus fort."
+        },
+        "say": {
+          "title": "Les synonymes du verbe dire : choisis le mot juste",
+          "instruction": "Lis chaque phrase et écris dans la case le mot de la bulle qui convient le mieux à la place de « dit »."
+        },
+        "fields": {
+          "title": "Champ lexical : les mots pour aller et pour regarder",
+          "instruction": "Lis les dix mots et écris chacun dans le champ du verbe dont il est le plus proche par le sens."
+        }
+      }
+    },
+    "word-parts": {
+      "familyHead": "Préfixes et suffixes",
+      "families": [
+        {
+          "id": "terre",
+          "stem": "terre",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "terre"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "terreux",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "terrestre",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "terreau",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "enterrer",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "enterrement",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "extraterrestre",
+              "kind": "prefixed",
+              "slot": "noun-person"
+            },
+            {
+              "word": "parterre",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "tennis",
+              "whyNotFamily": "un sport de raquette"
+            },
+            {
+              "word": "tente",
+              "whyNotFamily": "une maison de toile pour camper"
+            },
+            {
+              "word": "tempête",
+              "whyNotFamily": "un vent très fort"
+            }
+          ]
+        },
+        {
+          "id": "chant",
+          "stem": "chant",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "chant"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "chanter",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "chanteur",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "chanteuse",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "chantonner",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "chantant",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "enchanter",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "enchanteur",
+              "kind": "prefixed",
+              "slot": "noun-person"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "chat",
+              "whyNotFamily": "un animal"
+            },
+            {
+              "word": "chapeau",
+              "whyNotFamily": "ce qu’on met sur la tête"
+            },
+            {
+              "word": "chantier",
+              "whyNotFamily": "un lieu où l’on construit : rien à voir avec le chant"
+            }
+          ]
+        },
+        {
+          "id": "saut",
+          "stem": "saut",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "saut"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "sauter",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "sauteur",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "sautiller",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "sauterelle",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "sursauter",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "sautillant",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "sursaut",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "sac",
+              "whyNotFamily": "on y range des affaires"
+            },
+            {
+              "word": "salade",
+              "whyNotFamily": "une plante que l’on mange"
+            },
+            {
+              "word": "sapin",
+              "whyNotFamily": "un arbre"
+            }
+          ]
+        },
+        {
+          "id": "grand",
+          "stem": "grand",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "grand"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "grandir",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "grandeur",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "agrandir",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "grandement",
+              "kind": "derived",
+              "slot": "adverb"
+            },
+            {
+              "word": "grandissant",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "agrandissement",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "grand-père",
+              "kind": "compound",
+              "slot": "noun-person"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "grenouille",
+              "whyNotFamily": "un animal"
+            },
+            {
+              "word": "grue",
+              "whyNotFamily": "un oiseau ou une machine"
+            },
+            {
+              "word": "gris",
+              "whyNotFamily": "une couleur"
+            }
+          ]
+        },
+        {
+          "id": "mont",
+          "stem": "mont",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "mont"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "montagne",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "montagnard",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "montagneux",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "monter",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "remonter",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "montée",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "surmonter",
+              "kind": "prefixed",
+              "slot": "verb"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "moto",
+              "whyNotFamily": "un véhicule"
+            },
+            {
+              "word": "mouton",
+              "whyNotFamily": "un animal"
+            },
+            {
+              "word": "mouche",
+              "whyNotFamily": "un insecte"
+            }
+          ]
+        },
+        {
+          "id": "lait",
+          "stem": "lait",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "lait"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "laitier",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "laitière",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "laitage",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "laiteux",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "allaiter",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "laiterie",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "allaitement",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "lapin",
+              "whyNotFamily": "un animal"
+            },
+            {
+              "word": "lampe",
+              "whyNotFamily": "elle éclaire"
+            },
+            {
+              "word": "lacet",
+              "whyNotFamily": "on le noue à la chaussure"
+            }
+          ]
+        }
+      ],
+      "rootFamilies": [
+        {
+          "id": "long",
+          "stem": "long",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "long"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "longueur",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "allonger",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "rallonger",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "longuement",
+              "kind": "derived",
+              "slot": "adverb"
+            },
+            {
+              "word": "longer",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "rallonge",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "allongement",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "loup",
+              "whyNotFamily": "un animal"
+            },
+            {
+              "word": "loto",
+              "whyNotFamily": "un jeu"
+            },
+            {
+              "word": "loupe",
+              "whyNotFamily": "elle grossit ce qu’on regarde"
+            }
+          ]
+        },
+        {
+          "id": "dent",
+          "stem": "dent",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "dent"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "dentier",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "dentaire",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "dentition",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "dentelé",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "édenté",
+              "kind": "prefixed",
+              "slot": "adjective"
+            },
+            {
+              "word": "dentelure",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "denture",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "dessin",
+              "whyNotFamily": "une image faite au crayon"
+            },
+            {
+              "word": "devoir",
+              "whyNotFamily": "un travail à faire"
+            },
+            {
+              "word": "dentelle",
+              "whyNotFamily": "un tissu ajouré : rien à voir avec les dents"
+            }
+          ]
+        },
+        {
+          "id": "vent",
+          "stem": "vent",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "vent"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "venteux",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "venter",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "éventail",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "ventilateur",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "ventiler",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "éventer",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "ventilation",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "verre",
+              "whyNotFamily": "on boit dedans"
+            },
+            {
+              "word": "veste",
+              "whyNotFamily": "un vêtement"
+            },
+            {
+              "word": "ventre",
+              "whyNotFamily": "une partie du corps : rien à voir avec le vent"
+            }
+          ]
+        },
+        {
+          "id": "rond",
+          "stem": "rond",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "rond"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "rondeur",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "arrondir",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "arrondi",
+              "kind": "prefixed",
+              "slot": "adjective"
+            },
+            {
+              "word": "rondelle",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "rondement",
+              "kind": "derived",
+              "slot": "adverb"
+            },
+            {
+              "word": "rondin",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "arrondissement",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "robe",
+              "whyNotFamily": "un vêtement"
+            },
+            {
+              "word": "roi",
+              "whyNotFamily": "il porte une couronne"
+            },
+            {
+              "word": "rose",
+              "whyNotFamily": "une fleur"
+            }
+          ]
+        },
+        {
+          "id": "pot",
+          "stem": "pot",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "pot"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "potier",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "poterie",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "potée",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "empoter",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "rempoter",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "potiche",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "potager",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "poule",
+              "whyNotFamily": "un oiseau de la ferme"
+            },
+            {
+              "word": "porte",
+              "whyNotFamily": "on l’ouvre pour entrer"
+            },
+            {
+              "word": "poche",
+              "whyNotFamily": "on y met les mains"
+            }
+          ]
+        },
+        {
+          "id": "patin",
+          "stem": "patin",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "patin"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "patiner",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "patineur",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "patineuse",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "patinage",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "patinoire",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "patinant",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "patinette",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "patte",
+              "whyNotFamily": "la jambe d’un animal"
+            },
+            {
+              "word": "panier",
+              "whyNotFamily": "on y met les courses"
+            },
+            {
+              "word": "pantalon",
+              "whyNotFamily": "un vêtement"
+            }
+          ]
+        }
+      ],
+      "picFamilies": [
+        {
+          "id": "soleil",
+          "stem": "soleil",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "soleil",
+            "pic": {
+              "theme": "weather",
+              "noun": "sun"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "ensoleillé",
+              "kind": "derived",
+              "slot": "adjective"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "souris",
+              "whyNotFamily": "commence comme « soleil » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "sorcière",
+              "whyNotFamily": "commence comme « soleil » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "soupe",
+              "whyNotFamily": "commence comme « soleil » mais n’est pas construit à partir de ce mot"
+            }
+          ]
+        },
+        {
+          "id": "nuage",
+          "stem": "nuage",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "nuage",
+            "pic": {
+              "theme": "spring",
+              "noun": "cloud"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "nuageux",
+              "kind": "derived",
+              "slot": "adjective"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "nuit",
+              "whyNotFamily": "commence comme « nuage » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "numéro",
+              "whyNotFamily": "commence comme « nuage » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "nuque",
+              "whyNotFamily": "commence comme « nuage » mais n’est pas construit à partir de ce mot"
+            }
+          ]
+        },
+        {
+          "id": "tambour",
+          "stem": "tambour",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "tambour",
+            "pic": {
+              "theme": "music",
+              "noun": "drum"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "tambourin",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "tambouriner",
+              "kind": "derived",
+              "slot": "verb"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "table",
+              "whyNotFamily": "commence comme « tambour » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "tapis",
+              "whyNotFamily": "commence comme « tambour » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "tasse",
+              "whyNotFamily": "commence comme « tambour » mais n’est pas construit à partir de ce mot"
+            }
+          ]
+        },
+        {
+          "id": "fourmi",
+          "stem": "fourmi",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "fourmi",
+            "pic": {
+              "theme": "insects and bugs",
+              "noun": "ant"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "fourmilière",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "fontaine",
+              "whyNotFamily": "commence comme « fourmi » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "forêt",
+              "whyNotFamily": "commence comme « fourmi » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "fourchette",
+              "whyNotFamily": "commence comme « fourmi » mais n’est pas construit à partir de ce mot"
+            }
+          ]
+        },
+        {
+          "id": "orange",
+          "stem": "orange",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "orange",
+            "pic": {
+              "theme": "fruits",
+              "noun": "orange"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "orangeade",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "oreille",
+              "whyNotFamily": "commence comme « orange » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "orteil",
+              "whyNotFamily": "commence comme « orange » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "ordinateur",
+              "whyNotFamily": "commence comme « orange » mais n’est pas construit à partir de ce mot"
+            }
+          ]
+        },
+        {
+          "id": "chat",
+          "stem": "chat",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "chat",
+            "pic": {
+              "theme": "farm animals",
+              "noun": "cat"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "chaton",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "chatière",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "chapeau",
+              "whyNotFamily": "commence comme « chat » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "chaise",
+              "whyNotFamily": "commence comme « chat » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "chameau",
+              "whyNotFamily": "commence comme « chat » mais n’est pas construit à partir de ce mot"
+            }
+          ]
+        },
+        {
+          "id": "lion",
+          "stem": "lion",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "lion",
+            "pic": {
+              "theme": "zoo animals",
+              "noun": "lion"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "lionne",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "lionceau",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "lit",
+              "whyNotFamily": "commence comme « lion » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "livre",
+              "whyNotFamily": "commence comme « lion » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "lime",
+              "whyNotFamily": "commence comme « lion » mais n’est pas construit à partir de ce mot"
+            }
+          ]
+        },
+        {
+          "id": "ours",
+          "stem": "ours",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "ours",
+            "pic": {
+              "theme": "camping",
+              "noun": "bear"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "ourson",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "outil",
+              "whyNotFamily": "commence comme « ours » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "ouvrir",
+              "whyNotFamily": "commence comme « ours » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "oublier",
+              "whyNotFamily": "commence comme « ours » mais n’est pas construit à partir de ce mot"
+            }
+          ]
+        },
+        {
+          "id": "cochon",
+          "stem": "cochon",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "cochon",
+            "pic": {
+              "theme": "animals",
+              "noun": "pig"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "cochonnet",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "coq",
+              "whyNotFamily": "commence comme « cochon » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "cocotte",
+              "whyNotFamily": "commence comme « cochon » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "collier",
+              "whyNotFamily": "commence comme « cochon » mais n’est pas construit à partir de ce mot"
+            }
+          ]
+        },
+        {
+          "id": "papillon",
+          "stem": "papillon",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "papillon",
+            "pic": {
+              "theme": "insects and bugs",
+              "noun": "butterfly"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "papillonner",
+              "kind": "derived",
+              "slot": "verb"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "papa",
+              "whyNotFamily": "commence comme « papillon » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "papier",
+              "whyNotFamily": "commence comme « papillon » mais n’est pas construit à partir de ce mot"
+            },
+            {
+              "word": "pantalon",
+              "whyNotFamily": "commence comme « papillon » mais n’est pas construit à partir de ce mot"
+            }
+          ]
+        }
+      ],
+      "sentences": {
+        "mont": [
+          {
+            "word": "montagne",
+            "slot": "noun-thing",
+            "frame": "L’été, nous marchons dans la {gap} avec nos sacs à dos."
+          },
+          {
+            "word": "montagnard",
+            "slot": "noun-person",
+            "frame": "Le {gap} connaît tous les sentiers de sa vallée."
+          },
+          {
+            "word": "monter",
+            "slot": "verb",
+            "frame": "Il faut {gap} l’escalier pour aller au grenier."
+          },
+          {
+            "word": "montagneux",
+            "slot": "adjective",
+            "frame": "Nous traversons un pays très {gap}, plein de sommets."
+          }
+        ],
+        "saut": [
+          {
+            "word": "sauter",
+            "slot": "verb",
+            "frame": "Le chat va {gap} sur la table."
+          },
+          {
+            "word": "sauteur",
+            "slot": "noun-person",
+            "frame": "Ce {gap} a passé la barre la plus haute."
+          },
+          {
+            "word": "sauterelle",
+            "slot": "noun-thing",
+            "frame": "Dans l’herbe, une {gap} verte bondit."
+          },
+          {
+            "word": "sautillant",
+            "slot": "adjective",
+            "frame": "Le petit oiseau avance d’un pas {gap}."
+          }
+        ],
+        "grand": [
+          {
+            "word": "grandir",
+            "slot": "verb",
+            "frame": "Les plantes ont besoin d’eau pour {gap}."
+          },
+          {
+            "word": "grandeur",
+            "slot": "noun-thing",
+            "frame": "Range les boîtes par ordre de {gap}."
+          },
+          {
+            "word": "grandement",
+            "slot": "adverb",
+            "frame": "Merci, tu m’as {gap} aidé !"
+          },
+          {
+            "word": "grand-père",
+            "slot": "noun-person",
+            "frame": "Mon {gap} me raconte des histoires le soir."
+          }
+        ]
+      },
+      "prefixKey": {
+        "prefixes": [
+          {
+            "prefix": "re",
+            "meaning": "de nouveau"
+          },
+          {
+            "prefix": "pré",
+            "meaning": "avant"
+          },
+          {
+            "prefix": "sur",
+            "meaning": "au-dessus, en plus"
+          }
+        ],
+        "rows": [
+          {
+            "base": "lire",
+            "prefix": "re",
+            "word": "relire",
+            "gloss": "lire encore une fois la même histoire"
+          },
+          {
+            "base": "faire",
+            "prefix": "re",
+            "word": "refaire",
+            "gloss": "faire un dessin encore une fois"
+          },
+          {
+            "base": "coller",
+            "prefix": "re",
+            "word": "recoller",
+            "gloss": "coller encore une fois une image qui s’est décollée"
+          },
+          {
+            "base": "venir",
+            "prefix": "re",
+            "word": "revenir",
+            "gloss": "venir encore une fois au même endroit"
+          },
+          {
+            "base": "chauffer",
+            "prefix": "pré",
+            "word": "préchauffer",
+            "gloss": "chauffer le four d’abord, puis faire cuire le gâteau"
+          },
+          {
+            "base": "dire",
+            "prefix": "pré",
+            "word": "prédire",
+            "gloss": "dire aujourd’hui ce qui va arriver demain"
+          },
+          {
+            "base": "voir",
+            "prefix": "pré",
+            "word": "prévoir",
+            "gloss": "penser dès maintenant à ce qu’il faudra demain"
+          },
+          {
+            "base": "voler",
+            "prefix": "sur",
+            "word": "survoler",
+            "gloss": "voler très haut, loin des toits de la ville"
+          },
+          {
+            "base": "charger",
+            "prefix": "sur",
+            "word": "surcharger",
+            "gloss": "mettre beaucoup trop de choses dans le camion"
+          },
+          {
+            "base": "élever",
+            "prefix": "sur",
+            "word": "surélever",
+            "gloss": "ajouter un étage en haut d’une maison"
+          }
+        ],
+        "crossCheck": [
+          {
+            "base": "lire",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "lire",
+            "prefix": "pré",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "lire",
+            "prefix": "sur",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "faire",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "faire",
+            "prefix": "pré",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "faire",
+            "prefix": "sur",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "coller",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "coller",
+            "prefix": "pré",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "coller",
+            "prefix": "sur",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "venir",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "venir",
+            "prefix": "pré",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "venir",
+            "prefix": "sur",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "chauffer",
+            "prefix": "re",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "chauffer",
+            "prefix": "pré",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "chauffer",
+            "prefix": "sur",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "dire",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "dire",
+            "prefix": "pré",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "dire",
+            "prefix": "sur",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "voir",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "voir",
+            "prefix": "pré",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "voir",
+            "prefix": "sur",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "voler",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "voler",
+            "prefix": "pré",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "voler",
+            "prefix": "sur",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "charger",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "charger",
+            "prefix": "pré",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "charger",
+            "prefix": "sur",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "élever",
+            "prefix": "re",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "élever",
+            "prefix": "pré",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "élever",
+            "prefix": "sur",
+            "isWord": true,
+            "fitsGloss": true
+          }
+        ]
+      },
+      "negating": [
+        "dés",
+        "non",
+        "anti",
+        "mé"
+      ],
+      "inflections": [
+        "s",
+        "x",
+        "es",
+        "ent",
+        "ons",
+        "ez"
+      ],
+      "agents": [],
+      "exemplar": {
+        "base": [
+          "terre",
+          "chant"
+        ],
+        "F1": [
+          "weather/sun",
+          "spring/cloud",
+          "insects and bugs/ant",
+          "music/drum",
+          "fruits/orange",
+          "farm animals/cat",
+          "zoo animals/lion",
+          "camping/bear",
+          "animals/pig",
+          "insects and bugs/butterfly"
+        ],
+        "F2": [
+          "chant",
+          "mont",
+          "lait",
+          "long",
+          "dent",
+          "vent",
+          "rond",
+          "pot",
+          "patin"
+        ],
+        "F5": [
+          "mont",
+          "saut",
+          "grand"
+        ]
+      },
+      "refuse": {
+        "base": false,
+        "picture-family": false,
+        "root-word": false,
+        "prefix-key": false,
+        "who-does-it": true,
+        "family-in-sentence": false
+      },
+      "strings": {
+        "base": {
+          "title": "Le radical : trier les mots selon leur radical",
+          "instruction": "Lis chaque mot du haut et écris-le sur une ligne du mur qui s’élève sur son mot de base."
+        },
+        "picture-family": {
+          "title": "Le radical en images : entoure le mot construit",
+          "instruction": "Nomme chaque image, puis entoure, au-dessus, le seul mot construit à partir du nom de l’image."
+        },
+        "root-word": {
+          "title": "Trouver le radical commun à trois mots",
+          "instruction": "Entoure la partie commune aux trois mots et écris ce radical dans la pierre vide."
+        },
+        "prefix-key": {
+          "title": "Les préfixes re-, pré- et sur- : choisis selon le sens",
+          "instruction": "Lis ce que veut dire chaque nouveau mot, trouve son préfixe dans la clé et écris-le dans la pièce vide."
+        },
+        "family-in-sentence": {
+          "title": "Le radical dans les phrases",
+          "instruction": "Dans chaque bloc, écris chacun des quatre mots posés sur la pierre dans la phrase qui lui convient."
+        }
+      }
+    }
+  },
+  "refusals": {
+    "G3-398": "Refusé en français (design §4/§7) : les noms de métier dérivés (boulanger, jardinier, poissonnier, cuisinier…) appartiennent déjà à la banque fr de « Mots de la même famille » (G2-316) ; la page ne peut pas les reprendre."
+  },
+  "strandNames": {
+    "Road Safety": "Éducation à la sécurité routière",
+    "Social Studies": "Questionner le monde : se repérer dans l’espace"
+  },
+  "enAudit": [
+    "G1-378 earth-and-space (validator rule 5, all locales): the phase-bank one-row check estimates 0.58 em x 18 px per character, so the four STANDARD French phase names (nouvelle lune · premier quartier · pleine lune · dernier quartier = 56 characters) score 716 px > 639 and fail; es (cuarto creciente / menguante), pt and de hit the same wall. No honest shorter French name exists for the quarters. The estimate, not the vocabulary, must change: the fr G2-367 page rendered with this draft (render-instance, d2) puts all four chips on ONE row inside 639 px with verify() and lints clean. This is the one validator error the fr draft deliberately keeps (no honest shorter names; never shrink).",
+    "G2-359 word-parts, validator CONFLICT (es / fr / fi): qa/verify-b5-word-parts.js rule 14 demands strings for all six modes, while validate-b5-draft.js title parity forbids a bank string whose face is not in `types`; a REFUSED face (fr F4 G3-398) can satisfy only one of them. The fr block omits strings.who-does-it (so the build probe can run) and keeps that one rule-14 error; rule 14 should drop refused modes (refuse[mode] === true), as the digraphs gate already does for pt position. For the record, fr F4 is not impossible by data: boulanger, fermier, photographe, danseuse, musicien, caissier, chanteur, coureur are all outside the fr compound-words bank (only jardinier / cuisinier / poissonnier / ambulancier collide) — the refusal is kept as instructed.",
+    "K-376 plants \"needs\" (a K face): the EN instruction is two sentences (\"Look at what each plant gets. Circle the plant…\"), against the design §4 rule that a K instruction is ONE imperative sentence; G1-376 base and G3-392 are also two sentences. fr ships one sentence each.",
+    "G1-378 base: the EN instruction is three sentences and uses \"Tick\" — the sibling families (road-safety rule 9, family rule 15) ban tick in EN instructions; the fr version is one sentence.",
+    "G1-379 base: the EN instruction is three sentences (\"Look at the map key. Find each thing… Count them and write…\"); G2-371 \"Circle the one of the three pictures that lies that way\" is hard to parse for a 7-year-old (fr: \"entoure celle des trois images qui s’y trouve\").",
+    "G1-377 base: \"in the last box the number of the picture that comes after the butterfly\" — the pictures carry no numbers; only the egg box shows 1. The child must infer that the answer is the egg's number. fr says \"le numéro de l’image qui suit le papillon\" but the EN wording should name the egg box or the numbers the child wrote.",
+    "K-369 road-safety: the EN topicMeta says \"colour the lamps\" (UK) while every EN string uses US \"Color\" (K-373 title \"Color the Traffic Lights\"); one spelling per locale.",
+    "K-369 base title \"Traffic Lights, Stop or Go\" names only the CAR chip pair; the pedestrian cards on the same page print \"wait / walk\" (the design's own \"stop or go over wait / walk\" lesson, now in the title instead of the instruction). fr title avoids the chip words: \"les feux, s’arrêter ou passer\".",
+    "G2-374 synonyms \"say\": the EN instruction ends \"instead of said\" with the struck word unquoted, so a child reads it as a verb of the sentence; fr quotes it: « dit ».",
+    "G2-359 word-parts: the EN base exemplar is [help, fear] but the committed EN render out/dev/G2-359-null-d2-en.png shows play + help walls — either the render is stale or the exemplar is not what the composer reads.",
+    "K-370 family: EN clue frames give MZD / FBD etc. the same text \"is Mia's cousin\", so on a tree with two cousins of one sex the clue does not decide the plate; fr mirrors EN (la cousine / le cousin) but the design rule 6 should name this.",
+    "G2-358 synonyms EN groups: \"little\" beside \"small\" and \"large\" beside \"big\" are fine, but the EN F1 falseOf lists size words as FALSE of emotion faces although the face pictures carry no size cue — that is \"not applicable\", not \"false\"; fr mirrors the EN closed-world for parity.",
+    "fr-specific rulings recorded: circle stays \"cercle\" (the K-368 figures are drawn as OUTLINES, and the 2021 maternelle programme names \"cercle ou disque\"), so no \"rond\" override; \"drôle\" is BANNED in fr synonyms (it means both funny and odd: \"un drôle de bruit\"); \"brave\" is banned (before a noun it means kind, after it means courageous).",
+    "fr continents: French cycle 2-3 textbooks teach SIX continents (Afrique, Amérique, Antarctique, Asie, Europe, Océanie — the Americas counted as one) and five oceans (Pacifique, Atlantique, Indien, Arctique, Austral); the Olympic \"cinq continents\" is culture, not the school count.",
+    "fr road-safety: IISR 1re partie (arrêté du 24 novembre 1967 modifié) — AB4 STOP, C20a passage pour piétons (information), A13a enfants, A13b passage pour piétons (danger), A17 feux tricolores, A21 cyclistes, B1 sens interdit, B0 circulation interdite, B9b cycles, B9c piétons (no slash on B9: Vienna prohibition signs carry none), B22a / B22b obligatoires. Pedestrian light = bonhomme rouge debout / vert qui marche, 2 lamps, no amber; car amber = \"orange\" (Code de la route R412-30: le feu jaune/orange fixe impose l’arrêt).",
+    "fr digraphs: teams ou / on / oi (none owned: fr spelling-rules owns ss, aux, oux, m-devant-mbp; syllable-reading owns the br/bl/cr/… blends); oie is a whole-word team (e silent) so it never counts for F4; ongle (body parts/nail, arrow on the nail) is the only on-initial approved word, so F4 beginnings are exactly ours / oiseau / ongle = 3 (at the floor). tools/nail (clou) and body parts/finger (doigt) are rejected so the nail card is never read as another team.",
+    "Layout risks for fr (to measure at render): \"la voiture s’arrête\" / \"la voiture passe\" break to 2 lines in the 94 px road-safety pill (allowed, <= 2 lines); \"massif de fleurs\" in the 5-card maps base boxes; \"petite planète rocheuse\" in the G3-395 bin label; \"océan Atlantique\" in the G3-396 index; \"agrandissement\" (14) and \"atterrissage\" (12) bricks on the word-parts wall; \"sélectionner\" (12) and \"gigantesque\" (11, the F1 cap) in synonyms chips; \"Panneaux d’interdiction\" as a G2-360 bin header."
+  ]
+}

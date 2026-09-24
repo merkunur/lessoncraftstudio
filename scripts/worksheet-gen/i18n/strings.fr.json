@@ -2856,8 +2856,8 @@
     "instruction": "Regarde ce qui change dans chaque histoire, puis écris les numéros dans les cases pour remettre les images dans l'ordre."
   },
   "K-380": {
-    "title": "Hygiène corporelle : de quoi a-t-on besoin ?",
-    "instruction": "Relie chaque enfant à l'objet dont il a besoin."
+    "title": "Les bonnes habitudes : qu'utilise chaque enfant ?",
+    "instruction": "Relie chaque enfant à l'objet qu'il utilise."
   },
   "G1-398": {
     "title": "Les milieux de vie des animaux : qui vit où ?",
@@ -2868,12 +2868,12 @@
     "instruction": "Colorie un rond dans le premier aquarium avant l'expérience, un rond dans le second après, et l'étoile si le résultat te surprend."
   },
   "G2-377": {
-    "title": "Écriture cursive : les lettres i, u et t",
+    "title": "Écriture cursive : les lettres e, l et b",
     "instruction": "Repasse les lettres grises, puis continue à écrire chaque lettre attachée, tout seul, jusqu'au bout de la ligne et sur la ligne vide."
   },
   "K-381": {
     "title": "Images séquentielles à découper : d'abord, ensuite, enfin",
-    "instruction": "Découpe les images de chaque bande et colle-les dans les cadres vides, au-dessus de D'abord, Ensuite et Enfin."
+    "instruction": "Découpe les images de chaque bande et colle-les sur la ligne qui porte le même symbole, dans les cadres vides au-dessus de D'abord, Ensuite et Enfin."
   },
   "G1-400": {
     "title": "Images séquentielles : que se passe-t-il ensuite ?",
@@ -2884,8 +2884,8 @@
     "instruction": "Regarde le début et la fin de chaque histoire et dessine ce qui se passe au milieu, dans le cadre vide."
   },
   "G1-402": {
-    "title": "Images séquentielles : relie chaque phrase à son image",
-    "instruction": "Lis les phrases de chaque histoire et relie chaque phrase à son image."
+    "title": "Images séquentielles : numérote les phrases et relie-les aux images",
+    "instruction": "Numérote dans les cases les phrases de chaque histoire dans l'ordre, puis relie chaque phrase à son image."
   },
   "G2-378": {
     "title": "Images séquentielles et production d'écrit : raconte l'histoire",
@@ -2897,15 +2897,15 @@
   },
   "G1-403": {
     "title": "Se brosser les dents : avant, pendant, après",
-    "instruction": "Pour chaque image, entoure le mot qui dit quand cela se passe : avant, pendant ou après le brossage."
+    "instruction": "Pour chaque image, entoure avant, pendant ou après le brossage."
   },
   "G1-404": {
-    "title": "Stop aux microbes : je tousse dans mon coude",
+    "title": "Stop aux microbes : choisis le bon geste",
     "instruction": "Dans chaque rangée, entoure l'image qui empêche les microbes de se propager."
   },
   "G2-379": {
     "title": "Hygiène de vie : pourquoi ces bonnes habitudes ?",
-    "instruction": "Relie chaque bonne habitude à la phrase qui dit pourquoi on le fait."
+    "instruction": "Relie chaque bonne habitude à la phrase qui dit pourquoi on la fait."
   },
   "G1-405": {
     "title": "Tableau de la semaine : mes bonnes habitudes",
@@ -2917,11 +2917,11 @@
   },
   "G1-406": {
     "title": "Milieux de vie des animaux : trouve l'intrus",
-    "instruction": "Dans chaque rangée, barre l'animal qui ne vit pas dans ce milieu."
+    "instruction": "Pour chaque milieu, barre l'animal qui n'y vit pas."
   },
   "G2-380": {
     "title": "L'adaptation des animaux à leur milieu",
-    "instruction": "Écris dans sa case la lettre de l'animal dont parle chaque phrase."
+    "instruction": "Écris dans la case de chaque phrase la lettre de l'animal dont elle parle ; un animal restera en trop."
   },
   "G1-407": {
     "title": "Les besoins des animaux : nourriture et abri",
@@ -2929,7 +2929,7 @@
   },
   "G2-381": {
     "title": "Mon enquête sur un milieu de vie",
-    "instruction": "Dessine trois animaux qui vivent dans ce milieu, écris leur nom et une plante qui y pousse, puis entoure le bon mot de chaque paire."
+    "instruction": "Dans l'image, dessine trois animaux qui y vivent, écris leur nom et celui d'une plante qui y pousse, puis entoure le mot qui décrit ce milieu."
   },
   "G1-408": {
     "title": "Lourd ou léger ? L'expérience de la balance : flotte ou coule",
@@ -2940,11 +2940,11 @@
     "instruction": "Colorie le rond où finit chaque forme de pâte à modeler, entoure ce qui flotte, puis dessine ton propre bateau dans le grand aquarium."
   },
   "G2-383": {
-    "title": "Pourquoi ça flotte ? Vrai ou faux après l'expérience",
+    "title": "Pourquoi ça flotte ? Vrai ou faux",
     "instruction": "Lis chaque phrase et entoure vrai ou faux."
   },
   "K-384": {
-    "title": "Ce qui flotte et ce qui coule : dessine l'expérience",
+    "title": "Dessine ce qui flotte et ce qui coule dans l'eau",
     "instruction": "Dessine deux objets qui flottent dans les cadres sur l'eau et deux objets qui coulent dans les cadres au fond."
   },
   "G3-400": {
@@ -2961,7 +2961,7 @@
   },
   "G2-386": {
     "title": "Écriture cursive : copier des mots avec des images",
-    "instruction": "Repasse chaque mot gris d'un seul trait, puis écris-le sur la ligne en dessous et ajoute les points, les barres et les accents à la fin."
+    "instruction": "Repasse chaque mot gris en attachant d'abord les lettres, ajoute ensuite les points, les barres et les accents, puis écris-le sur la ligne du dessous."
   },
   "G2-387": {
     "title": "Lire l'écriture cursive : relie le mot à son image",

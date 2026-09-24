@@ -2848,8 +2848,8 @@
     "instruction": "Se hva som endrer seg i hver historie, og skriv tallene i rutene så bildene kommer i riktig rekkefølge."
   },
   "K-380": {
-    "title": "Hygiene og gode vaner: hva trenger hvert barn?",
-    "instruction": "Trekk en strek fra hvert barn til det barnet trenger."
+    "title": "Gode vaner: hva bruker hvert barn?",
+    "instruction": "Trekk en strek fra hvert barn til det barnet bruker."
   },
   "G1-398": {
     "title": "Dyrenes leveområder: skog, eng, vann og hav",
@@ -2865,7 +2865,7 @@
   },
   "K-381": {
     "title": "Bildeserie med 3 bilder: først, så og til slutt",
-    "instruction": "Klipp ut bildene på hver remse, og lim dem i de tomme rammene over Først, Så og Til slutt."
+    "instruction": "Klipp ut bildene på hver remse, og lim dem i de tomme rammene over Først, Så og Til slutt på raden med samme merke som remsa."
   },
   "G1-400": {
     "title": "Bildeserie: hva skjer etterpå?",
@@ -2876,8 +2876,8 @@
     "instruction": "Se på begynnelsen og slutten av hver historie, og tegn i den tomme rammen hva som skjer i midten."
   },
   "G1-402": {
-    "title": "Bildeserie: koble setningene til bildene",
-    "instruction": "Les setningene i hver historie, og trekk en strek fra hver setning til riktig bilde."
+    "title": "Bildeserie: sett setningene i rekkefølge og koble dem til bildene",
+    "instruction": "Skriv tall i rutene så setningene i hver historie kommer i riktig rekkefølge, og trekk så en strek fra hver setning til bildet sitt."
   },
   "G2-378": {
     "title": "Skriv til bildeserien med ordhjelp",
@@ -2889,7 +2889,7 @@
   },
   "G1-403": {
     "title": "Pusse tenner: før, under og etter",
-    "instruction": "Sett ring rundt ordet som forteller når det skjer: før, under eller etter tannpussen."
+    "instruction": "Se på hvert bilde, og sett ring rundt før, under eller etter tannpussen."
   },
   "G1-404": {
     "title": "Stopp bakteriene: host og nys i albuen",
@@ -2909,11 +2909,11 @@
   },
   "G1-406": {
     "title": "Leveområder: hvilket dyr bor ikke her?",
-    "instruction": "Sett kryss over dyret i hver rad som ikke bor i det leveområdet."
+    "instruction": "Ved hvert leveområde: sett kryss over dyret som ikke bor der."
   },
   "G2-380": {
     "title": "Dyrenes tilpasninger til leveområdet",
-    "instruction": "Skriv i hver rute bokstaven til dyret setningen handler om."
+    "instruction": "Skriv i hver rute bokstaven til dyret setningen handler om; ett dyr blir til overs."
   },
   "G1-407": {
     "title": "Hva trenger dyrene for å leve?",
@@ -2921,7 +2921,7 @@
   },
   "G2-381": {
     "title": "Mitt leveområde: undersøk og tegn",
-    "instruction": "Tegn tre dyr som lever i dette leveområdet, skriv navnene deres og en plante som vokser der, og sett ring rundt det riktige ordet i hvert par."
+    "instruction": "Tegn tre dyr som lever der inne i bildet, skriv navnene deres og en plante som vokser der, og sett ring rundt ordet som passer til dette leveområdet."
   },
   "G1-408": {
     "title": "Tung eller lett? Flyte eller synke, forsøk med vekt",
@@ -2932,11 +2932,11 @@
     "instruction": "Fargelegg ringen der hver leirform havner, sett ring rundt det som flyter, og tegn så din egen leirbåt i det store vannkaret."
   },
   "G2-383": {
-    "title": "Hvorfor flyter ting? Sant eller usant etter forsøket",
+    "title": "Hvorfor flyter ting? Sant eller usant om å flyte og synke",
     "instruction": "Les hver setning, og sett ring rundt sant eller usant."
   },
   "K-384": {
-    "title": "Hva flyter, hva synker? Tegn forsøket",
+    "title": "Tegn ting som flyter og synker: en tegneoppgave om vann",
     "instruction": "Tegn to ting som flyter, i de stiplede rutene på vannet, og to som synker, i de stiplede rutene på bunnen."
   },
   "G3-400": {
@@ -2953,7 +2953,7 @@
   },
   "G2-386": {
     "title": "Skriv ord med sammenhengende skrift",
-    "instruction": "Skriv over hvert grå ord, skriv det så på linjen under, og sett på prikker og tverrstreker til slutt."
+    "instruction": "Skriv over hvert grå ord: bind bokstavene sammen først, sett på prikker og tverrstreker til slutt, og skriv ordet på samme måte på linjen under."
   },
   "G2-387": {
     "title": "Les sammenhengende skrift: ord og bilde",

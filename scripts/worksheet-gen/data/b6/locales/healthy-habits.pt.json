@@ -1,8 +1,8 @@
 {
   "strings": {
     "base": {
-      "title": "Hábitos de higiene: o que cada criança usa?",
-      "instruction": "Ligue cada criança ao objeto de que ela precisa."
+      "title": "Hábitos saudáveis: o que cada criança usa?",
+      "instruction": "Ligue cada criança ao objeto que ela está usando."
     },
     "hand-washing-steps": {
       "title": "Como lavar as mãos: os passos",
@@ -10,7 +10,7 @@
     },
     "brushing-teeth": {
       "title": "Escovar os dentes: antes, durante e depois",
-      "instruction": "Circule a palavra que diz quando isso acontece: antes, durante ou depois de escovar."
+      "instruction": "Em cada figura, circule antes, durante ou depois de escovar os dentes."
     },
     "stop-the-germs": {
       "title": "Como evitar os germes: tussa no cotovelo",
@@ -33,7 +33,7 @@
   "labels": {
     "wash-hands": "lavar as mãos",
     "brush-teeth": "escovar os dentes",
-    "sleep": "dormir",
+    "sleep": "dormir cedo",
     "move-body": "mexer o corpo",
     "drink-water": "beber água",
     "sun-protect": "cuidar-se no sol",

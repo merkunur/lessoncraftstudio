@@ -1,0 +1,1187 @@
+{
+  "locale": "pt",
+  "types": {
+    "K-379": {
+      "title": "Sequência de fatos: numere as cenas da história",
+      "instruction": "Veja o que muda em cada história e escreva os números nos quadrinhos para colocar as cenas em ordem."
+    },
+    "K-381": {
+      "title": "Sequência de fatos para recortar: primeiro, depois, por fim",
+      "instruction": "Recorte as cenas de cada tira e cole-as na linha que tem a mesma marca, nos quadros vazios acima de Primeiro, Depois e Por fim."
+    },
+    "G1-400": {
+      "title": "Sequência de fatos: o que acontece depois?",
+      "instruction": "Observe as três cenas de cada história e circule, embaixo delas, a cena que completa o quadro com o ponto de interrogação."
+    },
+    "G1-401": {
+      "title": "Início, meio e fim da história",
+      "instruction": "Observe o início e o fim de cada história e desenhe no quadro do meio o que aconteceu."
+    },
+    "G1-402": {
+      "title": "Sequência de fatos: numere as frases e ligue às cenas",
+      "instruction": "Numere nos quadrinhos as frases de cada história na ordem certa e depois ligue cada frase à sua cena com um traço."
+    },
+    "G2-378": {
+      "title": "Reconto de história com sequência de imagens",
+      "instruction": "Escreva nas linhas o que acontece em cada cena, começando pela palavra que já está na primeira linha."
+    },
+    "K-380": {
+      "title": "Hábitos saudáveis: o que cada criança usa?",
+      "instruction": "Ligue cada criança ao objeto que ela está usando."
+    },
+    "K-382": {
+      "title": "Como lavar as mãos: os passos",
+      "instruction": "Escreva de 1 a 5 nos quadrinhos para mostrar como lavamos as mãos."
+    },
+    "G1-403": {
+      "title": "Escovar os dentes: antes, durante e depois",
+      "instruction": "Em cada figura, circule antes, durante ou depois de escovar os dentes."
+    },
+    "G1-404": {
+      "title": "Como evitar os germes: tussa no cotovelo",
+      "instruction": "Em cada fileira, circule a cena que impede os germes de se espalharem."
+    },
+    "G2-379": {
+      "title": "Hábitos de higiene: por que são importantes?",
+      "instruction": "Ligue cada hábito à frase que explica por que fazemos isso."
+    },
+    "G1-405": {
+      "title": "Quadro semanal de hábitos de higiene e saúde",
+      "instruction": "Todos os dias, marque com um X o quadrinho de cada hábito que você fez."
+    },
+    "G1-398": {
+      "title": "Habitat dos animais: Amazônia, mar e savana",
+      "instruction": "Embaixo de cada animal, escreva a letra do habitat onde ele vive."
+    },
+    "K-383": {
+      "title": "Moradia dos animais: ninho, toca e colmeia",
+      "instruction": "Ligue cada animal à sua moradia com um traço."
+    },
+    "G1-406": {
+      "title": "Habitat dos animais: qual não vive aqui?",
+      "instruction": "Em cada habitat, risque o animal que não vive ali."
+    },
+    "G2-380": {
+      "title": "Adaptação dos animais ao ambiente",
+      "instruction": "Escreva no quadrinho de cada frase a letra do animal de que ela fala; um animal vai sobrar."
+    },
+    "G1-407": {
+      "title": "Do que os animais precisam para viver?",
+      "instruction": "Para cada animal, circule a comida que ele come e a moradia onde ele vive."
+    },
+    "G2-381": {
+      "title": "Meu relatório sobre um habitat",
+      "instruction": "Na imagem, desenhe três animais que vivem ali, escreva o nome deles e o de uma planta que cresce ali e circule a palavra que combina com esse habitat."
+    },
+    "G1-399": {
+      "title": "Experiência afunda ou flutua: o que você acha?",
+      "instruction": "Antes do teste, pinte um círculo no primeiro aquário; depois do teste, pinte um círculo no segundo aquário e a estrela se você se surpreendeu."
+    },
+    "G1-408": {
+      "title": "Pesado ou leve? Experiência com balança: flutua ou afunda",
+      "instruction": "A balança mostra o que é mais pesado: circule o que flutua na água."
+    },
+    "G2-382": {
+      "title": "Barquinho de massinha que flutua: experiência da forma",
+      "instruction": "Pinte o círculo onde cada forma de massinha vai parar, circule o que flutua e desenhe o seu barquinho de massinha no aquário grande."
+    },
+    "G2-383": {
+      "title": "Por que as coisas flutuam? Verdadeiro ou falso",
+      "instruction": "Leia cada frase e circule verdadeiro ou falso."
+    },
+    "K-384": {
+      "title": "Desenhe o que flutua e o que afunda na água",
+      "instruction": "Desenhe duas coisas que flutuam nos espaços tracejados da água e duas que afundam nos espaços tracejados do fundo."
+    },
+    "G3-400": {
+      "title": "Relatório da experiência: flutua ou afunda",
+      "instruction": "Escolha uma pergunta, escreva o que você acha, faça o teste, desenhe o que aconteceu e escreva o que aprendeu."
+    },
+    "G2-377": {
+      "title": "Letra cursiva para o 1º ano: as letras a, e, i, o",
+      "instruction": "Cubra as letras cinza e continue escrevendo cada letra ligada, sozinho, até o fim da linha e na linha vazia de baixo."
+    },
+    "G2-384": {
+      "title": "Alfabeto cursivo maiúsculo: escreva os nomes",
+      "instruction": "Cubra cada letra maiúscula e cada nome em cinza e depois escreva tudo na linha vazia de baixo."
+    },
+    "G2-385": {
+      "title": "Letra cursiva: ligando as letras de duas em duas",
+      "instruction": "Cubra cada par de letras ligadas e a palavra em cinza e depois escreva na linha vazia de baixo."
+    },
+    "G2-386": {
+      "title": "Palavras em letra cursiva para o 1º ano",
+      "instruction": "Cubra cada palavra cinza ligando primeiro as letras e pondo por último os pingos, os cortes e os acentos; depois escreva-a igual na linha de baixo."
+    },
+    "G2-387": {
+      "title": "Leitura em letra cursiva: ligue a palavra à figura",
+      "instruction": "Leia cada palavra em letra cursiva e ligue-a à sua figura com um traço."
+    },
+    "G3-401": {
+      "title": "Da letra de forma para a cursiva: copie as frases",
+      "instruction": "Cubra a frase cinza e depois copie cada frase impressa em letra cursiva nas duas linhas de baixo."
+    }
+  },
+  "families": {
+    "story-sequencing": {
+      "slug": "sequencia-de-fatos",
+      "name": "Sequência de fatos"
+    },
+    "healthy-habits": {
+      "slug": "habitos-de-higiene",
+      "name": "Hábitos de higiene"
+    },
+    "habitats": {
+      "slug": "habitat-dos-animais",
+      "name": "Habitat dos animais"
+    },
+    "sink-or-float": {
+      "slug": "experiencia-afunda-ou-flutua",
+      "name": "Experiência afunda ou flutua"
+    },
+    "cursive-writing": {
+      "slug": "letra-cursiva",
+      "name": "Letra cursiva"
+    }
+  },
+  "skills": {
+    "story-sequencing": {
+      "full": "Observar o que muda de uma cena para outra, pôr os fatos em ordem com primeiro, depois e por fim e recontar a história por escrito desenvolve a compreensão e a produção de texto.",
+      "short": "Ordenar cenas e recontar uma história."
+    },
+    "healthy-habits": {
+      "full": "Reconhecer por que lavamos as mãos, escovamos os dentes, dormimos e tossimos no cotovelo ajuda a criança a cuidar do próprio corpo e da saúde de todos.",
+      "short": "Hábitos de higiene e por que praticá-los."
+    },
+    "habitats": {
+      "full": "Relacionar cada animal ao habitat onde vive, à sua moradia e às partes do corpo que o ajudam a viver ali mostra como os seres vivos dependem do ambiente.",
+      "short": "Animais, habitats, moradias e adaptações."
+    },
+    "sink-or-float": {
+      "full": "Prever se um objeto afunda ou flutua, testar na água e comparar o resultado com o palpite ensina a investigar e mostra que o peso sozinho não decide.",
+      "short": "Prever, testar e registrar se afunda ou flutua."
+    },
+    "cursive-writing": {
+      "full": "Cobrir e escrever as letras cursivas ligadas, das minúsculas às maiúsculas, das palavras às frases, relaciona a letra de forma com a cursiva e firma o traçado.",
+      "short": "Letras, palavras e frases em letra cursiva."
+    }
+  },
+  "topicMeta": {
+    "story-sequencing": "Sequência de fatos para imprimir: numerar cenas, recortar e colar, início, meio e fim e reconto de história com imagens, da educação infantil ao 2º ano.",
+    "healthy-habits": "Hábitos de higiene para imprimir: como lavar as mãos, escovar os dentes, tossir no cotovelo e quadro semanal de hábitos, da educação infantil ao 2º ano.",
+    "habitats": "Habitat dos animais para imprimir: Floresta Amazônica, mar e savana, moradia dos animais, adaptação e o que os animais precisam para viver.",
+    "sink-or-float": "Experiência afunda ou flutua para imprimir: prever e testar na água, massinha que flutua, verdadeiro ou falso e relatório de experiência de ciências.",
+    "cursive-writing": "Letra cursiva para imprimir: letras minúsculas e maiúsculas, letras ligadas, palavras com figuras e frases para copiar da letra de forma para a cursiva."
+  },
+  "banks": {
+    "story-sequencing": {
+      "words3": [
+        "Primeiro",
+        "Depois",
+        "Por fim"
+      ],
+      "openers4": [
+        "Primeiro,",
+        "Depois,",
+        "Em seguida,",
+        "Por fim,"
+      ],
+      "starters4": [
+        "Primeiro,",
+        "Depois,",
+        "Em seguida,",
+        "Por fim,"
+      ],
+      "bme": [
+        "Início",
+        "Meio",
+        "Fim"
+      ],
+      "stories": {
+        "apple": {
+          "sentences": [
+            "Primeiro, a maçã está inteira.",
+            "Depois, a maçã tem uma mordida.",
+            "Em seguida, a maçã tem três mordidas.",
+            "Por fim, só sobrou o miolo."
+          ],
+          "stateWords": [
+            "inteira",
+            "uma mordida",
+            "três mordidas",
+            "miolo"
+          ],
+          "helpWords": [
+            "maçã",
+            "mordida",
+            "miolo",
+            "cabinho",
+            "folha",
+            "prato"
+          ],
+          "helpIds": [
+            "apple",
+            "bite",
+            "core",
+            "stem",
+            "leaf",
+            "plate"
+          ]
+        },
+        "banana": {
+          "sentences": [
+            "Primeiro, a banana ainda está fechada.",
+            "Depois, uma tira da casca está aberta.",
+            "Em seguida, três tiras da casca estão abertas.",
+            "Por fim, só sobrou a casca vazia."
+          ],
+          "stateWords": [
+            "fechada",
+            "uma tira",
+            "três tiras",
+            "casca vazia"
+          ],
+          "helpWords": [
+            "banana",
+            "casca",
+            "tira",
+            "prato"
+          ],
+          "helpIds": [
+            "banana",
+            "peel",
+            "strip",
+            "plate"
+          ]
+        },
+        "sandwich": {
+          "sentences": [
+            "Primeiro, há duas fatias de pão.",
+            "Depois, uma fatia tem geleia.",
+            "Em seguida, o sanduíche é cortado ao meio.",
+            "Por fim, só sobraram a casca do pão e farelos."
+          ],
+          "stateWords": [
+            "duas fatias",
+            "geleia",
+            "cortado ao meio",
+            "farelos"
+          ],
+          "helpWords": [
+            "pão",
+            "geleia",
+            "faca",
+            "sanduíche",
+            "casca",
+            "farelos"
+          ],
+          "helpIds": [
+            "bread",
+            "jam",
+            "knife",
+            "sandwich",
+            "crust",
+            "crumb"
+          ]
+        },
+        "cake": {
+          "sentences": [
+            "Primeiro, o bolo está inteiro.",
+            "Depois, falta uma fatia do bolo.",
+            "Em seguida, metade do bolo já foi comida.",
+            "Por fim, só sobraram farelos."
+          ],
+          "stateWords": [
+            "inteiro",
+            "uma fatia",
+            "metade",
+            "farelos"
+          ],
+          "helpWords": [
+            "bolo",
+            "fatia",
+            "velas",
+            "farelos",
+            "prato"
+          ],
+          "helpIds": [
+            "cake",
+            "slice",
+            "candle",
+            "crumb",
+            "plate"
+          ]
+        },
+        "fence": {
+          "sentences": [
+            "Primeiro, a cerca está toda branca.",
+            "Depois, duas tábuas estão pintadas.",
+            "Em seguida, quatro tábuas estão pintadas.",
+            "Por fim, a cerca inteira está pintada."
+          ],
+          "stateWords": [
+            "toda branca",
+            "duas tábuas",
+            "quatro tábuas",
+            "cerca inteira"
+          ],
+          "helpWords": [
+            "cerca",
+            "tábua",
+            "tinta",
+            "pincel",
+            "lata"
+          ],
+          "helpIds": [
+            "fence",
+            "plank",
+            "paint",
+            "brush",
+            "bucket"
+          ]
+        },
+        "letter": {
+          "sentences": [
+            "Primeiro, o cartão está em branco.",
+            "Depois, há uma flor desenhada no cartão.",
+            "Em seguida, três linhas foram escritas.",
+            "Por fim, o cartão está no envelope, com selo."
+          ],
+          "stateWords": [
+            "em branco",
+            "flor",
+            "três linhas",
+            "selo"
+          ],
+          "helpWords": [
+            "cartão",
+            "flor",
+            "lápis",
+            "envelope",
+            "selo"
+          ],
+          "helpIds": [
+            "card",
+            "flower",
+            "pencil",
+            "envelope",
+            "stamp"
+          ]
+        },
+        "paper-chain": {
+          "sentences": [
+            "Primeiro, há uma folha de papel.",
+            "Depois, a folha é cortada em cinco tiras.",
+            "Em seguida, duas tiras viram argolas coladas.",
+            "Por fim, as cinco argolas formam uma corrente."
+          ],
+          "stateWords": [
+            "uma folha",
+            "cinco tiras",
+            "duas tiras",
+            "corrente"
+          ],
+          "helpWords": [
+            "papel",
+            "tesoura",
+            "tiras",
+            "cola",
+            "argolas",
+            "corrente"
+          ],
+          "helpIds": [
+            "paper",
+            "scissors",
+            "strip",
+            "glue",
+            "ring",
+            "chain"
+          ]
+        },
+        "beach-walk": {
+          "sentences": [
+            "Primeiro, não há pegadas na areia.",
+            "Depois, a criança caminha e deixa três pegadas.",
+            "Em seguida, a criança encontra uma concha.",
+            "Por fim, a criança volta para a toalha com a concha."
+          ],
+          "stateWords": [
+            "não há pegadas",
+            "três pegadas",
+            "encontra",
+            "volta"
+          ],
+          "helpWords": [
+            "areia",
+            "toalha",
+            "concha",
+            "pegadas",
+            "caminhar"
+          ],
+          "helpIds": [
+            "sand",
+            "towel",
+            "shell",
+            "footprint",
+            "walk"
+          ]
+        }
+      },
+      "excludeStories": [],
+      "strings": {
+        "base": {
+          "title": "Sequência de fatos: numere as cenas da história",
+          "instruction": "Veja o que muda em cada história e escreva os números nos quadrinhos para colocar as cenas em ordem."
+        },
+        "first-next-last-cut": {
+          "title": "Sequência de fatos para recortar: primeiro, depois, por fim",
+          "instruction": "Recorte as cenas de cada tira e cole-as na linha que tem a mesma marca, nos quadros vazios acima de Primeiro, Depois e Por fim."
+        },
+        "what-happens-next": {
+          "title": "Sequência de fatos: o que acontece depois?",
+          "instruction": "Observe as três cenas de cada história e circule, embaixo delas, a cena que completa o quadro com o ponto de interrogação."
+        },
+        "beginning-middle-end": {
+          "title": "Início, meio e fim da história",
+          "instruction": "Observe o início e o fim de cada história e desenhe no quadro do meio o que aconteceu."
+        },
+        "sequencing-sentences": {
+          "title": "Sequência de fatos: numere as frases e ligue às cenas",
+          "instruction": "Numere nos quadrinhos as frases de cada história na ordem certa e depois ligue cada frase à sua cena com um traço."
+        },
+        "retell-with-starters": {
+          "title": "Reconto de história com sequência de imagens",
+          "instruction": "Escreva nas linhas o que acontece em cada cena, começando pela palavra que já está na primeira linha."
+        }
+      }
+    },
+    "healthy-habits": {
+      "strings": {
+        "base": {
+          "title": "Hábitos saudáveis: o que cada criança usa?",
+          "instruction": "Ligue cada criança ao objeto que ela está usando."
+        },
+        "hand-washing-steps": {
+          "title": "Como lavar as mãos: os passos",
+          "instruction": "Escreva de 1 a 5 nos quadrinhos para mostrar como lavamos as mãos."
+        },
+        "brushing-teeth": {
+          "title": "Escovar os dentes: antes, durante e depois",
+          "instruction": "Em cada figura, circule antes, durante ou depois de escovar os dentes."
+        },
+        "stop-the-germs": {
+          "title": "Como evitar os germes: tussa no cotovelo",
+          "instruction": "Em cada fileira, circule a cena que impede os germes de se espalharem."
+        },
+        "why-habits": {
+          "title": "Hábitos de higiene: por que são importantes?",
+          "instruction": "Ligue cada hábito à frase que explica por que fazemos isso."
+        },
+        "habit-chart": {
+          "title": "Quadro semanal de hábitos de higiene e saúde",
+          "instruction": "Todos os dias, marque com um X o quadrinho de cada hábito que você fez."
+        }
+      },
+      "phases": {
+        "before": "antes",
+        "during": "durante",
+        "after": "depois"
+      },
+      "labels": {
+        "wash-hands": "lavar as mãos",
+        "brush-teeth": "escovar os dentes",
+        "sleep": "dormir cedo",
+        "move-body": "mexer o corpo",
+        "drink-water": "beber água",
+        "sun-protect": "cuidar-se no sol",
+        "blow-nose": "assoar o nariz",
+        "comb-hair": "pentear o cabelo"
+      },
+      "labelStems": {
+        "wash-hands": [
+          "lavar",
+          "lava",
+          "mão",
+          "mãos",
+          "sabonete"
+        ],
+        "brush-teeth": [
+          "escovar",
+          "escova",
+          "dente",
+          "dentes",
+          "pasta"
+        ],
+        "sleep": [
+          "dormir",
+          "dorme",
+          "cama",
+          "noite",
+          "sono"
+        ],
+        "move-body": [
+          "mexer",
+          "correr",
+          "brincar",
+          "esporte"
+        ],
+        "sun-protect": [
+          "sol",
+          "chapéu",
+          "protetor"
+        ],
+        "drink-water": [
+          "beber",
+          "bebe",
+          "água",
+          "copo"
+        ],
+        "blow-nose": [
+          "assoar",
+          "nariz",
+          "lenço"
+        ],
+        "comb-hair": [
+          "pentear",
+          "pente",
+          "cabelo"
+        ]
+      },
+      "reasons": {
+        "wash-hands": "Tira os germes de todas as coisas em que tocamos.",
+        "brush-teeth": "Deixa o nosso sorriso limpo e bonito.",
+        "sleep": "Descansamos e acordamos com energia para um novo dia.",
+        "move-body": "Deixa a gente mais forte, rápido e disposto.",
+        "sun-protect": "Não ficamos queimados num dia muito quente e claro.",
+        "drink-water": "O corpo precisa dela para funcionar bem.",
+        "blow-nose": "Conseguimos respirar bem de novo."
+      },
+      "kaiOrder": false,
+      "coughPhrase": "no cotovelo",
+      "weekStartOverride": null
+    },
+    "habitats": {
+      "sets": {
+        "base": [
+          "rainforest",
+          "ocean",
+          "savanna"
+        ]
+      },
+      "rainforestRegion": "americas",
+      "tileLabel": {
+        "rainforest": "Floresta Amazônica",
+        "ocean": "Mar",
+        "savanna": "Savana",
+        "polar": "Polo Sul",
+        "polar-arctic": "Polo Norte"
+      },
+      "placeWords": [
+        "deserto",
+        "mar",
+        "oceano",
+        "gelo",
+        "ártico",
+        "antártida",
+        "polo",
+        "lagoa",
+        "lago",
+        "floresta",
+        "mata",
+        "bosque",
+        "campo",
+        "savana",
+        "amazônia",
+        "selva"
+      ],
+      "adapt": {
+        "camel-hump": "A corcova guarda gordura, por isso ele passa muito tempo sem comer.",
+        "giraffe-neck": "O pescoço comprido alcança as folhas lá no alto das árvores.",
+        "elephant-trunk": "A tromba comprida puxa água e pega a comida.",
+        "penguin-flippers": "As asas são nadadeiras: ele nada rápido, mas não voa.",
+        "walrus-tusks": "Usa as presas compridas para puxar o corpo pesado para fora da água.",
+        "woodpecker-beak": "O bico forte e pontudo faz buracos no tronco das árvores.",
+        "beaver-teeth": "Os dentes da frente, grandes, cortam árvores para construir a casa dele na água.",
+        "whale-blowhole": "Respira o ar por um buraco no alto da cabeça.",
+        "fish-gills": "Respira debaixo da água com as brânquias.",
+        "duck-feet": "Os pés com membranas empurram a água como remos.",
+        "sloth-claws": "Com as garras longas e curvas, ele fica pendurado nos galhos por horas.",
+        "toucan-beak": "O bico enorme alcança as frutas na ponta dos galhos finos.",
+        "squirrel-tail": "A cauda peluda ajuda a equilibrar o corpo quando ele pula de galho em galho."
+      },
+      "names": {
+        "whale": [
+          "baleia"
+        ],
+        "dolphin": [
+          "golfinho",
+          "boto"
+        ],
+        "octopus": [
+          "polvo"
+        ],
+        "starfish": [
+          "estrela-do-mar",
+          "estrela do mar"
+        ],
+        "jellyfish": [
+          "água-viva",
+          "água viva"
+        ],
+        "shark": [
+          "tubarão"
+        ],
+        "clownfish": [
+          "peixe-palhaço",
+          "peixe palhaço",
+          "nemo",
+          "peixe"
+        ],
+        "crab": [
+          "caranguejo",
+          "siri"
+        ],
+        "ray": [
+          "arraia",
+          "raia"
+        ],
+        "seal-grey": [
+          "foca",
+          "leão-marinho"
+        ],
+        "seal-white": [
+          "foca",
+          "filhote de foca"
+        ],
+        "walrus": [
+          "morsa"
+        ],
+        "narwhal": [
+          "narval",
+          "baleia"
+        ],
+        "penguin": [
+          "pinguim"
+        ],
+        "deer": [
+          "veado",
+          "cervo",
+          "bambi",
+          "filhote"
+        ],
+        "squirrel": [
+          "esquilo"
+        ],
+        "woodpecker": [
+          "pica-pau"
+        ],
+        "badger": [
+          "texugo"
+        ],
+        "moose": [
+          "alce"
+        ],
+        "frog": [
+          "sapo",
+          "rã",
+          "perereca"
+        ],
+        "dragonfly": [
+          "libélula"
+        ],
+        "beaver": [
+          "castor"
+        ],
+        "duck": [
+          "pato",
+          "patinho",
+          "pintinho"
+        ],
+        "swan": [
+          "cisne"
+        ],
+        "butterfly": [
+          "borboleta"
+        ],
+        "bee": [
+          "abelha"
+        ],
+        "grasshopper": [
+          "gafanhoto"
+        ],
+        "ladybug": [
+          "joaninha"
+        ],
+        "lion": [
+          "leão"
+        ],
+        "zebra": [
+          "zebra"
+        ],
+        "giraffe": [
+          "girafa"
+        ],
+        "elephant": [
+          "elefante"
+        ],
+        "rhinoceros": [
+          "rinoceronte"
+        ],
+        "ostrich": [
+          "avestruz"
+        ],
+        "monkey": [
+          "macaco"
+        ],
+        "gorilla": [
+          "gorila"
+        ],
+        "orangutan": [
+          "orangotango",
+          "macaco"
+        ],
+        "sloth": [
+          "bicho-preguiça",
+          "preguiça"
+        ],
+        "toucan": [
+          "tucano"
+        ],
+        "macaw": [
+          "arara",
+          "papagaio"
+        ],
+        "camel": [
+          "camelo",
+          "dromedário"
+        ],
+        "bird": [
+          "passarinho",
+          "pássaro"
+        ],
+        "spider": [
+          "aranha"
+        ],
+        "rabbit": [
+          "coelho"
+        ],
+        "ant": [
+          "formiga"
+        ]
+      },
+      "needs": {
+        "line": "Todo animal precisa de comida e de um lugar para morar.",
+        "foodHead": "Comida",
+        "homeHead": "Moradia",
+        "undrawn": [
+          "água",
+          "beber",
+          "bebida",
+          "ar",
+          "sol",
+          "luz",
+          "luz do sol"
+        ]
+      },
+      "report": {
+        "animals": "Animais que vivem aqui",
+        "plant": "Uma planta que cresce aqui",
+        "hot": "quente",
+        "cold": "frio",
+        "wet": "úmido",
+        "dry": "seco"
+      },
+      "homeWord": {
+        "nest": "ninho",
+        "hive": "colmeia",
+        "web": "teia",
+        "burrow": "toca",
+        "anthill": "formigueiro",
+        "lodge": "toca do castor"
+      },
+      "refuse": [],
+      "refuseClaims": [],
+      "strings": {
+        "G1-398": {
+          "title": "Habitat dos animais: Amazônia, mar e savana",
+          "instruction": "Embaixo de cada animal, escreva a letra do habitat onde ele vive."
+        },
+        "K-383": {
+          "title": "Moradia dos animais: ninho, toca e colmeia",
+          "instruction": "Ligue cada animal à sua moradia com um traço."
+        },
+        "G1-406": {
+          "title": "Habitat dos animais: qual não vive aqui?",
+          "instruction": "Em cada habitat, risque o animal que não vive ali."
+        },
+        "G2-380": {
+          "title": "Adaptação dos animais ao ambiente",
+          "instruction": "Escreva no quadrinho de cada frase a letra do animal de que ela fala; um animal vai sobrar."
+        },
+        "G1-407": {
+          "title": "Do que os animais precisam para viver?",
+          "instruction": "Para cada animal, circule a comida que ele come e a moradia onde ele vive."
+        },
+        "G2-381": {
+          "title": "Meu relatório sobre um habitat",
+          "instruction": "Na imagem, desenhe três animais que vivem ali, escreva o nome deles e o de uma planta que cresce ali e circule a palavra que combina com esse habitat."
+        }
+      }
+    },
+    "sink-or-float": {
+      "floatWord": "flutua",
+      "sinkWord": "afunda",
+      "heads": {
+        "guess": "Eu acho",
+        "test": "O teste",
+        "surprise": "Surpresa?"
+      },
+      "trueWord": "verdadeiro",
+      "falseWord": "falso",
+      "clayWord": "massinha",
+      "labels": {
+        "ball": "bola",
+        "log": "tronco",
+        "pumpkin": "abóbora",
+        "apple": "maçã",
+        "lemon": "limão",
+        "banana": "banana",
+        "leaf": "folha",
+        "feather": "pena",
+        "pinecone": "pinha",
+        "pencil": "lápis",
+        "toyboat": "barquinho",
+        "ship": "navio",
+        "orange": "laranja",
+        "rock": "pedra",
+        "nail": "prego",
+        "hammer": "martelo",
+        "bolt": "parafuso",
+        "pliers": "alicate",
+        "scissors": "tesoura",
+        "potato": "batata"
+      },
+      "tf": {
+        "T1": "Um tronco grande flutua.",
+        "T2": "Um prego pequeno afunda.",
+        "T3": "Um navio de aço flutua.",
+        "T4": "Uma abóbora pesada flutua.",
+        "T5": "A maçã flutua, mas a batata afunda.",
+        "T6": "A mesma massinha pode afundar ou flutuar.",
+        "T7": "Algumas coisas pesadas flutuam.",
+        "T8": "Algumas coisas leves afundam.",
+        "F1": "A batata flutua.",
+        "F2": "A pena afunda.",
+        "F3": "Um navio de aço afunda.",
+        "F4": "Uma bola cheia de ar afunda.",
+        "F5": "Todas as coisas pesadas afundam.",
+        "F6": "Todas as coisas leves flutuam.",
+        "F7": "Coisas grandes sempre afundam.",
+        "F8": "Uma coisa flutua porque é leve.",
+        "F9": "Só coisas pequenas podem flutuar."
+      },
+      "report": {
+        "question": "Minha pergunta",
+        "predict": "Eu acho que",
+        "result": "O que aconteceu",
+        "learned": "Eu aprendi",
+        "starter": "Agora eu sei que"
+      },
+      "questions": {
+        "orange": "A laranja com casca flutua? E sem a casca, ela flutua?",
+        "cargo": "Quantos cubinhos um barquinho de massinha aguenta antes de afundar?"
+      },
+      "forbidden": [
+        "coisas pesadas afundam",
+        "coisas leves flutuam",
+        "porque é leve",
+        "densidade",
+        "empuxo",
+        "água salgada"
+      ],
+      "experimentWords": [
+        "experiência",
+        "experimento",
+        "teste",
+        "investigação",
+        "relatório"
+      ],
+      "apparatus": {
+        "ring": "círculo",
+        "tank": "aquário",
+        "star": "estrela",
+        "spot": "espaço"
+      },
+      "instructionBans": {
+        "base": [
+          "ligue",
+          "traço",
+          "grupo",
+          "recorte",
+          "circule"
+        ],
+        "scale": [
+          "ligue",
+          "traço",
+          "grupo",
+          "recorte",
+          "pinte"
+        ],
+        "shape": [
+          "ligue",
+          "traço",
+          "grupo",
+          "recorte"
+        ],
+        "truth": [
+          "ligue",
+          "traço",
+          "grupo",
+          "recorte",
+          "pinte"
+        ],
+        "draw": [
+          "ligue",
+          "traço",
+          "grupo",
+          "recorte",
+          "circule"
+        ],
+        "report": [
+          "ligue",
+          "traço",
+          "grupo",
+          "recorte"
+        ]
+      },
+      "refuse": [],
+      "strings": {
+        "G1-399": {
+          "title": "Experiência afunda ou flutua: o que você acha?",
+          "instruction": "Antes do teste, pinte um círculo no primeiro aquário; depois do teste, pinte um círculo no segundo aquário e a estrela se você se surpreendeu."
+        },
+        "G1-408": {
+          "title": "Pesado ou leve? Experiência com balança: flutua ou afunda",
+          "instruction": "A balança mostra o que é mais pesado: circule o que flutua na água."
+        },
+        "G2-382": {
+          "title": "Barquinho de massinha que flutua: experiência da forma",
+          "instruction": "Pinte o círculo onde cada forma de massinha vai parar, circule o que flutua e desenhe o seu barquinho de massinha no aquário grande."
+        },
+        "G2-383": {
+          "title": "Por que as coisas flutuam? Verdadeiro ou falso",
+          "instruction": "Leia cada frase e circule verdadeiro ou falso."
+        },
+        "K-384": {
+          "title": "Desenhe o que flutua e o que afunda na água",
+          "instruction": "Desenhe duas coisas que flutuam nos espaços tracejados da água e duas que afundam nos espaços tracejados do fundo."
+        },
+        "G3-400": {
+          "title": "Relatório da experiência: flutua ou afunda",
+          "instruction": "Escolha uma pergunta, escreva o que você acha, faça o teste, desenhe o que aconteceu e escreva o que aprendeu."
+        }
+      },
+      "shapeHeads": {
+        "clay": "A mesma massinha, em formas diferentes",
+        "steel": "O mesmo metal, em formas diferentes: circule o que flutua"
+      }
+    },
+    "cursive-writing": {
+      "refused": null,
+      "units": [
+        "br"
+      ],
+      "exemplar": "br",
+      "unitLabel": {
+        "br": "letra cursiva"
+      },
+      "scriptName": {
+        "br": "Letra cursiva"
+      },
+      "ruling": {
+        "G1": "lin4",
+        "G2": "lin4",
+        "G3": "lin4"
+      },
+      "dashHelpers": false,
+      "xPx": {
+        "base": 16,
+        "capitals": 15,
+        "joins": 15,
+        "words": 18,
+        "read": 18,
+        "copy": 16
+      },
+      "levels": {
+        "base": "1o-ano",
+        "capitals": "2o-ano",
+        "joins": "1o-ano",
+        "words": "1o-ano",
+        "read": "1o-ano",
+        "copy": "2o-ano"
+      },
+      "lessons": {
+        "br": [
+          [
+            "a",
+            "e",
+            "i",
+            "o"
+          ],
+          [
+            "b",
+            "c",
+            "d",
+            "f",
+            "g"
+          ],
+          [
+            "h",
+            "j",
+            "l",
+            "m",
+            "n"
+          ],
+          [
+            "p",
+            "q",
+            "r",
+            "s",
+            "t"
+          ],
+          [
+            "u",
+            "v",
+            "x",
+            "z"
+          ],
+          [
+            "k",
+            "w",
+            "y",
+            "ç"
+          ]
+        ]
+      },
+      "joins": {
+        "br": [
+          {
+            "pair": "ol",
+            "word": "sol"
+          },
+          {
+            "pair": "or",
+            "word": "flor"
+          },
+          {
+            "pair": "ob",
+            "word": "lobo"
+          },
+          {
+            "pair": "br",
+            "word": "cabra"
+          },
+          {
+            "pair": "va",
+            "word": "vaca"
+          },
+          {
+            "pair": "ve",
+            "word": "neve"
+          },
+          {
+            "pair": "bo",
+            "word": "bola"
+          },
+          {
+            "pair": "ão",
+            "word": "pão"
+          }
+        ]
+      },
+      "words": {
+        "animals/cat": "gato",
+        "animals/fish": "peixe",
+        "animals/owl": "coruja",
+        "animals/pig": "porco",
+        "animals/sheep": "ovelha",
+        "fruits/lemon": "limão",
+        "fruits/pear": "pera",
+        "fruits/apple": "maçã",
+        "toys/boat": "barco",
+        "toys/doll": "boneca",
+        "toys/robot": "robô",
+        "toys/train": "trem",
+        "toys/kite": "pipa",
+        "around the house/bed": "cama",
+        "around the house/chair": "cadeira",
+        "around the house/cup": "xícara",
+        "around the house/lamp": {
+          "text": "abajur",
+          "override": true
+        },
+        "classroom/book": "livro",
+        "zoo animals/lion": "leão",
+        "pets/mouse": "rato",
+        "bakery/cake": "bolo",
+        "weather/sun": "sol",
+        "weather/cloud": "nuvem",
+        "animals/horse": "cavalo",
+        "animals/zebra": "zebra",
+        "animals/tiger": "tigre"
+      },
+      "sentences": [
+        "O gato dorme na cama.",
+        "Eu vejo uma pipa azul.",
+        "Meu cachorro corre muito.",
+        "Nós gostamos de ler livros.",
+        "O sol está quente hoje.",
+        "A vovó fez um bolo."
+      ],
+      "strings": {
+        "G2-377": {
+          "title": "Letra cursiva para o 1º ano: as letras a, e, i, o",
+          "instruction": "Cubra as letras cinza e continue escrevendo cada letra ligada, sozinho, até o fim da linha e na linha vazia de baixo."
+        },
+        "G2-384": {
+          "title": "Alfabeto cursivo maiúsculo: escreva os nomes",
+          "instruction": "Cubra cada letra maiúscula e cada nome em cinza e depois escreva tudo na linha vazia de baixo."
+        },
+        "G2-385": {
+          "title": "Letra cursiva: ligando as letras de duas em duas",
+          "instruction": "Cubra cada par de letras ligadas e a palavra em cinza e depois escreva na linha vazia de baixo."
+        },
+        "G2-386": {
+          "title": "Palavras em letra cursiva para o 1º ano",
+          "instruction": "Cubra cada palavra cinza ligando primeiro as letras e pondo por último os pingos, os cortes e os acentos; depois escreva-a igual na linha de baixo."
+        },
+        "G2-387": {
+          "title": "Leitura em letra cursiva: ligue a palavra à figura",
+          "instruction": "Leia cada palavra em letra cursiva e ligue-a à sua figura com um traço."
+        },
+        "G3-401": {
+          "title": "Da letra de forma para a cursiva: copie as frases",
+          "instruction": "Cubra a frase cinza e depois copie cada frase impressa em letra cursiva nas duas linhas de baixo."
+        }
+      }
+    }
+  },
+  "refusals": {},
+  "strandNames": {
+    "Health": "Saúde",
+    "Reading: Literature": "Leitura de textos literários"
+  },
+  "enAudit": [
+    "story-sequencing / sandwich sentence 4 is FALSE to the drawing: 'Last, only a crust and crumbs are left.' — rank 5 (the panel sub4 and n5 use) draws the whole left half untouched, the right half with three bites and three crumbs. A child matching sentence to picture cannot find 'only a crust'. pt wrote 'uma metade tem mordidas e há farelos'; en should read e.g. 'Last, one half has bites and there are crumbs.'",
+    "story-sequencing / banana sentence 2 'one strip of peel hangs down' — at 100 px the strip reads folded down beside the fruit, fine; but 'hangs' vs sentence 3 'three strips hang down' shares the verb, so the discriminating state is only the count (ok by rule 10, noted).",
+    "habitats / G1-398 en instruction is TWO sentences ('Look at the habitats. Under each animal, …') and G2-380 ('Read each sentence. Write the letter …') and G1-406 likewise: the family brief says one child-level sentence; the family validator only checks the end mark, so it never caught it. pt wrote each as one sentence.",
+    "habitats / G2-381 en instruction is THREE sentences (Draw … Write … Circle …).",
+    "habitats / penguin on a page with both an Ocean and a Polar-Ice window had two defensible answers (Magellanic penguins reach Brazilian beaches; penguins live mostly at sea). LEAD RULED: penguin/walrus now also live at sea, so pt drops Polo from sets.base (Amazônia/Mar/Savana, three windows).",
+    "healthy-habits / reason for blow-nose 'We can breathe through our NOSE again.' names the habit's own body part; the rule-3 stem list for blow-nose is ['blow','tissue'] so the gate passes it, but it gives the answer away. pt avoids 'nariz'.",
+    "healthy-habits / reason for sun-protect 'Our skin does not get burnt.' is the only reason without a verb of the habit's benefit ('stays safe'); acceptable, but 'burnt' may read as a stove burn to a K child with no sun in the sentence.",
+    "sink-or-float / base instruction 'Color a ring …': the page draws DASHED CIRCLES (two per tank), not rings a child recognises; 'tank' for a tub/basin is unusual K-3 English (design text itself says 'tub'). pt uses 'círculo' + 'aquário'.",
+    "cursive-writing / G3-401 en instruction puts the step order backwards across two sentences ('Copy each printed sentence … Trace the grey sentence first.'); only the FIRST sentence on the page carries a grey trace (seen in the render), so 'the grey sentence' is right but the order should lead: 'Trace the grey sentence first, then copy each printed sentence …'.",
+    "cursive-writing / G2-386 en 'Add the dots and crosses last' omits accents; in pt the accents and the cedilla (ç ã õ é) are the marks written last — pt says 'pingos, cortes e acentos'.",
+    "BNCC codes verified verbatim (landing notes): EF01LP11 'Conhecer, diferenciar e relacionar letras em formato imprensa e cursiva, maiúsculas e minúsculas.' (1º ano; EF02LP07 continues it in the 2º ano); EF01CI03 'Discutir as razões pelas quais os hábitos de higiene do corpo (lavar as mãos antes de comer, escovar os dentes, limpar os olhos, o nariz e as orelhas etc.) são necessários para a manutenção da saúde.'"
+  ]
+}

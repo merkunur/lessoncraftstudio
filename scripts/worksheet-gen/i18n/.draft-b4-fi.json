@@ -1,0 +1,2772 @@
+{
+ "locale": "fi",
+ "types": {
+  "K-353": {
+   "title": "Tangram-malli: 7 palaa ja kaksi kuviota",
+   "instruction": "Väritä jokainen pala mallin mukaan, leikkaa seitsemän palaa viivoja pitkin ja asettele ne kahden kuvion päälle."
+  },
+  "K-358": {
+   "title": "Helpot tangram-kuviot 2 ja 3 palasta: piirrä viivat",
+   "instruction": "Katso kuvion yläpuolella olevia paloja. Piirrä kuvion sisään viivat, jotka näyttävät, mihin palat osuvat."
+  },
+  "G1-354": {
+   "title": "Tangram: neljä varjokuviota rakennettavaksi",
+   "instruction": "Rakenna jokainen tumma kuvio oman tangramisi seitsemällä palalla. Käytä joka kerralla kaikki seitsemän palaa."
+  },
+  "G1-355": {
+   "title": "Tangram: mikä pala puuttuu?",
+   "instruction": "Jokaisesta kuviosta puuttuu yksi pala. Ympyröi se pala, joka sopii tyhjään kohtaan tarkalleen."
+  },
+  "G2-347": {
+   "title": "Tangram: mikä ratkaisu on sama kuin varjo?",
+   "instruction": "Katso jokaista varjoa. Ympyröi ratkaisu, joka on täsmälleen varjon asennossa. Käännetyt eivät sovi."
+  },
+  "K-359": {
+   "title": "Tangram: laske kolmiot ja neliöt",
+   "instruction": "Laske jokaisen kuvan kolmiot ja kirjoita luku ensimmäiseen ruutuun. Laske sitten neliöt toiseen ruutuun."
+  },
+  "K-354": {
+   "title": "Kehon osat",
+   "instruction": "Kopioi jokainen sana pankista sille viivalle, joka osoittaa kyseistä kehon osaa."
+  },
+  "K-360": {
+   "title": "Kehon osat: kuinka monta?",
+   "instruction": "Montako kutakin sinulla on? Laske omasta kehostasi ja kirjoita luku ruutuun."
+  },
+  "K-361": {
+   "title": "Kehon osat: väritä selitteen mukaan",
+   "instruction": "Lue selite ja väritä jokainen kehon osa sillä värillä, joka lukee sen nimen vieressä."
+  },
+  "G1-356": {
+   "title": "Kehon osat: kirjoita sana",
+   "instruction": "Etsi hahmosta jokainen numeroitu kohta ja kirjoita sen nimi, yksi kirjain ruutuun."
+  },
+  "K-362": {
+   "title": "Kehon osat: mikä puuttuu?",
+   "instruction": "Jokaiselta hahmolta puuttuu yksi osa: ympyröi puuttuvan osan kuva ja piirrä se sitten paikalleen."
+  },
+  "K-363": {
+   "title": "Kehon osat: mitkä ovat pareittain?",
+   "instruction": "Ympyröi jokainen kehon osa, jollaisia sinulla on kaksi."
+  },
+  "K-355": {
+   "title": "Viisi aistia",
+   "instruction": "Piirrä viiva jokaisesta kuvasta siihen kehon osaan, jolla sen huomaat."
+  },
+  "G1-357": {
+   "title": "Viisi aistia: lajittele aistin mukaan",
+   "instruction": "Katso jokaista kuvaa ja piirrä viiva sen pisteestä sen aistin laatikkoon, jolla huomaat asian."
+  },
+  "G1-358": {
+   "title": "Viisi aistia: millä aistilla?",
+   "instruction": "Millä aistilla huomaat kunkin kuvan? Ympyröi se kehon osa, jota käytät."
+  },
+  "G1-359": {
+   "title": "Viisi aistia: mikä ei kuulu joukkoon?",
+   "instruction": "Jokaisella rivillä kolme kuvaa kuuluu samaan aistiin. Vedä yli se, joka ei kuulu."
+  },
+  "G1-360": {
+   "title": "Aistielimet: kirjoita aistin sana",
+   "instruction": "Kopioi jokainen aistisana pankista viivalle sen kehon osan viereen, joka sen tekee."
+  },
+  "G1-361": {
+   "title": "Viisi aistia: kuulen ...",
+   "instruction": "Täydennä jokainen lause. Kirjoita, mitä kuulet, näet, haistat, maistat ja tunnet."
+  },
+  "K-356": {
+   "title": "Säätilat",
+   "instruction": "Piirrä viiva jokaisesta säämerkistä sen sanaan."
+  },
+  "G1-362": {
+   "title": "Säätilat: kirjoita sana",
+   "instruction": "Etsi jokaisen säämerkin sana pankista ja kirjoita se, yksi kirjain ruutuun."
+  },
+  "K-364": {
+   "title": "Säätilat: minun viikkoni",
+   "instruction": "Katso joka päivä ulos ja piirrä sen päivän säämerkki omaan ruutuunsa."
+  },
+  "K-365": {
+   "title": "Säätilat: kylmä, lämmin vai kuuma?",
+   "instruction": "Katso jokaista lämpömittaria. Katso selitteestä, onko kylmä, lämmin vai kuuma, ja ympyröi sopiva kuva."
+  },
+  "G3-385": {
+   "title": "Veden kiertokulku: nimeä vaiheet",
+   "instruction": "Lue pankin neljä sanaa ja kirjoita jokainen sille viivalle, jolla on sama numero kuin kuvassa."
+  },
+  "G1-363": {
+   "title": "Säätilat: lue sääennuste",
+   "instruction": "Katso viikon sää, lue jokainen kysymys ja ympyröi oikea päivä."
+  },
+  "K-357": {
+   "title": "Kierrätys",
+   "instruction": "Jokainen esine on tyhjä tai käytetty. Piirrä siitä viiva astiaan, johon se kuuluu."
+  },
+  "K-366": {
+   "title": "Kierrätys: mihin astiaan?",
+   "instruction": "Katso jokaista esinettä ja ympyröi astia, johon se kuuluu tyhjänä tai käytettynä."
+  },
+  "G1-364": {
+   "title": "Kierrätys: mitä materiaalia?",
+   "instruction": "Mitä materiaalia kukin esine on? Kirjoita sana pankista viivalle."
+  },
+  "G2-348": {
+   "title": "Kierrätys: mikä ei kuulu joukkoon?",
+   "instruction": "Jokaisella rivillä kolme esinettä on samaa materiaalia. Ympyröi se, joka on eri materiaalia."
+  },
+  "G1-365": {
+   "title": "Kierrätys: kolme asiaa, jotka kierrätän",
+   "instruction": "Piirrä kolme asiaa, jotka kierrätät kotona, ja kirjoita, mitä kukin niistä on."
+  },
+  "G1-350": {
+   "title": "Täydennä lauseet",
+   "instruction": "Katso kuvaa. Etsi lauseeseen sopiva sana sanapankista ja kirjoita se laatikkoon."
+  },
+  "G1-366": {
+   "title": "Täydennä lause kirjainruutuihin",
+   "instruction": "Katso kuvaa. Kirjoita puuttuva sana ruutuihin: yksi kirjain ruutuun."
+  },
+  "G1-367": {
+   "title": "Valitse oikea sana lauseeseen",
+   "instruction": "Katso kuvaa ja lue lause. Ympyröi sopiva sana ja kirjoita se laatikkoon."
+  },
+  "G2-349": {
+   "title": "Täydennä lause monikossa",
+   "instruction": "Katso kuvia. Niitä on useampi kuin yksi. Kirjoita monikkomuoto laatikkoon."
+  },
+  "G2-350": {
+   "title": "Täydennä tarina",
+   "instruction": "Lue koko tarina. Kolme kuvaa näyttää puuttuvat sanat. Kirjoita jokainen sana pankista omaan laatikkoonsa."
+  },
+  "G1-368": {
+   "title": "Yhdistä lause kuvaan",
+   "instruction": "Lue jokainen lause. Mikä kuva täydentää aukon? Piirrä viiva lauseesta siihen kuvaan."
+  },
+  "G1-351": {
+   "title": "Parilliset ja parittomat luvut 20:een asti",
+   "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut ja näyttää parinsa."
+  },
+  "G2-351": {
+   "title": "Parillinen vai pariton? Kaksi yhtä suurta lukua",
+   "instruction": "Ympyröi pisteet kaksi kerrallaan. Kirjoita sitten luku kahtena yhtä suurena osana ja ylijäävä pieneen ruutuun."
+  },
+  "G1-369": {
+   "title": "Voiko jakaa tasan kahdelle?",
+   "instruction": "Jaa kuvat kahden kaverin kesken, yksi kerrallaan. Kirjoita, montako kumpikin saa ja montako jää yli, ja ympyröi vastaus."
+  },
+  "G2-352": {
+   "title": "Parilliset ja parittomat luvut sataan asti",
+   "instruction": "Lue sääntö ylhäältä. Katso vain luvun ykkösten ruutua ja rastita ympyrä oikean sanan alta."
+  },
+  "G3-386": {
+   "title": "Parillinen vai pariton summa? Päättele ilman laskemista",
+   "instruction": "Älä laske. Katso kummankin luvun alleviivattua ykkösnumeroa, käytä taulukkoa ja rastita, millainen summa on."
+  },
+  "G1-370": {
+   "title": "Parillinen vai pariton? Laske kuvat pareittain",
+   "instruction": "Laske kuvat ja ympyröi ne kaksi kerrallaan. Kirjoita, montako paria sait, ja ympyröi sitten oikea sana."
+  },
+  "G1-352": {
+   "title": "Hän vai he?",
+   "instruction": "Katso ihmistä ja lue nimi. Ympyröi sana, joka korvaa nimen."
+  },
+  "G1-371": {
+   "title": "Korvaa nimi pronominilla",
+   "instruction": "Lue lause. Kirjoita sanapankista se sana, joka korvaa nimen toisessa lauseessa."
+  },
+  "G2-353": {
+   "title": "Kuka on hän? Pronomini lauseessa",
+   "instruction": "Lue lauseet. Piirrä viiva jokaisesta laatikon sanasta siihen nimeen, jota se tarkoittaa."
+  },
+  "G1-372": {
+   "title": "Lajittele nimet: hän vai he",
+   "instruction": "Lue jokainen nimikortti. Kirjoita nimi sen sanan alle, jota käytämme kyseisestä henkilöstä."
+  },
+  "G2-355": {
+   "title": "Kirjoita lause uudelleen pronominilla",
+   "instruction": "Lue lause. Kirjoita se uudelleen viivoille, mutta käytä nimen sijasta pronominia."
+  },
+  "G1-353": {
+   "title": "Kysymyssanat: kuka, mikä, missä",
+   "instruction": "Lue lause. Katso korostettuja sanoja. Ympyröi kysymyssana, joka kysyy niitä."
+  },
+  "G1-373": {
+   "title": "Kysymys ja vastaus",
+   "instruction": "Lue jokainen kysymys vasemmalla. Piirrä viiva siihen vastaukseen oikealla, joka siihen sopii."
+  },
+  "G1-374": {
+   "title": "Täydennä kysymyssana",
+   "instruction": "Lue vastaus ja etsi korostetut sanat. Kirjoita kysymyssana sanapankista ruutuun."
+  },
+  "G1-375": {
+   "title": "Kuka, mikä vai missä? Lajittele vastaukset",
+   "instruction": "Lue jokainen sanalappu. Kirjoita se sen kysymyksen laatikkoon, johon se vastaa."
+  },
+  "G2-356": {
+   "title": "Tee kysymys",
+   "instruction": "Lue vastaus. Katso korostettuja sanoja. Kirjoita viivalle kysymys, joka kysyy niitä."
+  },
+  "G2-357": {
+   "title": "Kysymyksiä kuvasta: miksi ja miten",
+   "instruction": "Katso kuvaa. Täydennä jokainen kysymys. Aloita sillä sanalla, joka on jo viivalla."
+  },
+  "G2-346": {
+   "title": "Pyöristäminen kymmenien tarkkuuteen",
+   "instruction": "Pyöristä jokainen luku lähimpään kymmeneen ja kirjoita se ruutuun. Jos ykkösnumero on 5 tai enemmän, pyöristä ylöspäin."
+  },
+  "G3-387": {
+   "title": "Ylöspäin vai alaspäin? Lajittele luvut",
+   "instruction": "Pyöristyykö jokainen luku ylöspäin vai alaspäin lähimpään kymmeneen? Kirjoita se oikeaan laatikkoon."
+  },
+  "G3-388": {
+   "title": "Pyöristäminen satojen tarkkuuteen",
+   "instruction": "Pyöristä jokainen luku lähimpään sataan ja kirjoita se ruutuun. Katso kymmenten numeroa."
+  },
+  "G3-389": {
+   "title": "Pyöristä ja arvioi summa",
+   "instruction": "Pyöristä molemmat luvut lähimpään kymmeneen ja kirjoita ne ruutuihin. Laske sitten pyöristetyt luvut yhteen."
+  },
+  "G3-390": {
+   "title": "Mitkä luvut pyöristyvät lukuun 50?",
+   "instruction": "Ympyröi jokainen luku, joka pyöristyy ylhäällä näkyvään kymmeneen. Katso kunkin luvun ykkösnumeroa."
+  },
+  "G3-391": {
+   "title": "Pyöristäminen kymmenien ja satojen tarkkuuteen",
+   "instruction": "Pyöristä jokainen luku kahdesti: ensimmäiseen ruutuun lähimpään kymmeneen ja toiseen lähimpään sataan."
+  }
+ },
+ "families": {
+  "tangram": {
+   "slug": "tangram",
+   "name": "Tangram"
+  },
+  "human-body": {
+   "slug": "kehon-osat",
+   "name": "Kehon osat"
+  },
+  "five-senses": {
+   "slug": "viisi-aistia",
+   "name": "Viisi aistia"
+  },
+  "weather-symbols": {
+   "slug": "saatilat",
+   "name": "Säätilat"
+  },
+  "recycling": {
+   "slug": "kierratys",
+   "name": "Kierrätys"
+  },
+  "cloze": {
+   "slug": "taydenna-lauseet",
+   "name": "Täydennä lauseet"
+  },
+  "odd-and-even": {
+   "slug": "parilliset-ja-parittomat-luvut",
+   "name": "Parilliset ja parittomat luvut"
+  },
+  "pronouns": {
+   "slug": "han-vai-he",
+   "name": "Hän vai he"
+  },
+  "question-words": {
+   "slug": "kysymyssanat",
+   "name": "Kysymyssanat"
+  },
+  "rounding": {
+   "slug": "pyoristaminen",
+   "name": "Pyöristäminen"
+  }
+ },
+ "skills": {
+  "tangram": {
+   "full": "Lapsi leikkaa tangramin seitsemän palaa ja asettelee ne kuvioiksi, piirtää saumat, tunnistaa puuttuvan palan ja laskee kolmiot ja neliöt.",
+   "short": "Tangramin palat kuvioiksi ja saumat näkyviin"
+  },
+  "human-body": {
+   "full": "Lapsi nimeää kehon osat, laskee montako niitä on, värittää ne selitteen mukaan, kirjoittaa nimet kirjainruutuihin ja etsii puuttuvan osan.",
+   "short": "Kehon osien nimet, määrät ja parit"
+  },
+  "five-senses": {
+   "full": "Lapsi yhdistää arjen asiat siihen aistiin ja aistielimeen, jolla ne huomataan, lajittelee kuvat aisteittain ja kirjoittaa omia havaintojaan.",
+   "short": "Viisi aistia ja aistielimet tutuiksi"
+  },
+  "weather-symbols": {
+   "full": "Lapsi lukee säämerkit ja sääsanat, pitää viikon säätaulukkoa, tulkitsee lämpömittaria, lukee sääennusteen ja nimeää veden kiertokulun vaiheet.",
+   "short": "Säämerkit, säätaulukko ja veden kiertokulku"
+  },
+  "recycling": {
+   "full": "Lapsi päättelee, mitä materiaalia esine on, ja lajittelee sen oikeaan astiaan: biojäte, paperi ja kartonki, lasi, metalli tai muovipakkaus.",
+   "short": "Jätteiden lajittelu materiaalin mukaan"
+  },
+  "cloze": {
+   "full": "Lapsi täydentää lauseen puuttuvalla sanalla kuvan ja sanapankin avulla, valitsee kahdesta sanasta oikean, kirjoittaa monikon ja täydentää tarinan.",
+   "short": "Puuttuva sana lauseeseen kuvan avulla"
+  },
+  "odd-and-even": {
+   "full": "Lapsi tunnistaa parilliset ja parittomat luvut pareittain laskemalla, ykkösnumerosta ja jakamalla tasan kahdelle, sekä päättelee summan parillisuuden.",
+   "short": "Parilliset ja parittomat luvut sataan asti"
+  },
+  "pronouns": {
+   "full": "Lapsi korvaa nimen pronominilla hän tai he, lajittelee nimet yksikön ja monikon mukaan ja kirjoittaa lauseen uudelleen pronominia käyttäen.",
+   "short": "Persoonapronominit hän ja he lauseessa"
+  },
+  "question-words": {
+   "full": "Lapsi tunnistaa kysymyssanat kuka, mitä, missä, milloin ja kuinka monta, yhdistää kysymyksen vastaukseen ja kirjoittaa itse kysymyksiä.",
+   "short": "Kysymyssanat ja kysymyksen tekeminen"
+  },
+  "rounding": {
+   "full": "Lapsi pyöristää luvut lähimpään kymmeneen ja sataan, lajittelee ne ylös- ja alaspäin pyöristyviin ja arvioi summan pyöristettyjen lukujen avulla.",
+   "short": "Pyöristäminen kymmeniin ja satoihin"
+  }
+ },
+ "topicMeta": {
+  "tangram": "Tulostettavat tangram-tehtävät esikouluun ja alkuopetukseen: leikattava tangram-malli, helpot kaksi- ja kolmipalaiset kuviot, varjokuviot sekä kolmioiden ja neliöiden laskeminen.",
+  "human-body": "Tulostettavat kehon osat -tehtävät esikouluun ja 1. luokalle: sanapankki ja viivat, värityssivu selitteen mukaan, kirjainruudut, puuttuva osa ja parittaiset kehon osat.",
+  "five-senses": "Tulostettavat viisi aistia -tehtävät esikouluun ja 1. luokalle: aisti ja aistielin yhteen, kuvien lajittelu aisteittain, mikä ei kuulu joukkoon ja omat havainnot.",
+  "weather-symbols": "Tulostettavat säätehtävät esikoulusta 3. luokalle: säämerkit ja sääsanat, oman viikon säätaulukko, lämpömittari, sääennuste sekä veden kiertokulun vaiheet.",
+  "recycling": "Tulostettavat kierrätystehtävät esikoulusta 2. luokalle: mihin astiaan roska kuuluu, mitä materiaalia esine on, mikä ei kuulu joukkoon ja omat kierrätettävät asiat.",
+  "cloze": "Tulostettavat aukkotehtävät 1. ja 2. luokalle: puuttuva sana lauseeseen kuvan ja sanapankin avulla, kirjainruudut, kahden sanan valinta, monikko ja täydennettävä tarina.",
+  "odd-and-even": "Tulostettavat parilliset ja parittomat luvut -tehtävät 1. luokalta 3. luokalle: luvut talojen mukaan, ykkösnumeron sääntö sataan asti, tasan jakaminen ja summan parillisuus.",
+  "pronouns": "Tulostettavat persoonapronominitehtävät 1. ja 2. luokalle: hän vai he, nimen korvaaminen pronominilla, pronominin viittaus lauseessa ja lauseen kirjoittaminen uudelleen.",
+  "question-words": "Tulostettavat kysymyssanatehtävät 1. ja 2. luokalle: kuka, mitä, missä, milloin ja kuinka monta, kysymyksen ja vastauksen yhdistäminen sekä oman kysymyksen kirjoittaminen.",
+  "rounding": "Tulostettavat pyöristystehtävät 2. ja 3. luokalle: pyöristäminen lähimpään kymmeneen ja sataan, ylös- vai alaspäin, summan arviointi ja luvut jotka pyöristyvät samaan kymmeneen."
+ },
+ "banks": {
+  "tangram": {
+   "strings": {
+    "K-353": {
+     "title": "Tangram-malli: 7 palaa ja kaksi kuviota",
+     "instruction": "Väritä jokainen pala mallin mukaan, leikkaa seitsemän palaa viivoja pitkin ja asettele ne kahden kuvion päälle."
+    },
+    "compose": {
+     "title": "Helpot tangram-kuviot 2 ja 3 palasta: piirrä viivat",
+     "instruction": "Katso kuvion yläpuolella olevia paloja. Piirrä kuvion sisään viivat, jotka näyttävät, mihin palat osuvat."
+    },
+    "silhouette": {
+     "title": "Tangram: neljä varjokuviota rakennettavaksi",
+     "instruction": "Rakenna jokainen tumma kuvio oman tangramisi seitsemällä palalla. Käytä joka kerralla kaikki seitsemän palaa."
+    },
+    "missing": {
+     "title": "Tangram: mikä pala puuttuu?",
+     "instruction": "Jokaisesta kuviosta puuttuu yksi pala. Ympyröi se pala, joka sopii tyhjään kohtaan tarkalleen."
+    },
+    "match": {
+     "title": "Tangram: mikä ratkaisu on sama kuin varjo?",
+     "instruction": "Katso jokaista varjoa. Ympyröi ratkaisu, joka on täsmälleen varjon asennossa. Käännetyt eivät sovi."
+    },
+    "count": {
+     "title": "Tangram: laske kolmiot ja neliöt",
+     "instruction": "Laske jokaisen kuvan kolmiot ja kirjoita luku ensimmäiseen ruutuun. Laske sitten neliöt toiseen ruutuun."
+    }
+   }
+  },
+  "human-body": {
+   "partWords": {
+    "head": "pää",
+    "hair": "hiukset",
+    "eye": "silmä",
+    "ear": "korva",
+    "nose": "nenä",
+    "mouth": "suu",
+    "neck": "kaula",
+    "shoulder": "olkapää",
+    "arm": "käsivarsi",
+    "elbow": "kyynärpää",
+    "hand": "käsi",
+    "finger": "sormi",
+    "leg": "sääri",
+    "knee": "polvi",
+    "foot": "jalka",
+    "toe": "varvas"
+   },
+   "overrides": {},
+   "bankWords": {
+    "head": "pää",
+    "hair": "hiukset",
+    "eye": "silmä",
+    "ear": "korva",
+    "nose": "nenä",
+    "mouth": "suu",
+    "neck": "kaula",
+    "shoulder": "olkapää",
+    "arm": "käsivarsi",
+    "elbow": "kyynärpää",
+    "hand": "käsi",
+    "finger": "sormi",
+    "leg": "sääri",
+    "knee": "polvi",
+    "foot": "jalka",
+    "toe": "varvas"
+   },
+   "plural": {
+    "head": "päät",
+    "hair": "hiukset",
+    "eye": "silmät",
+    "ear": "korvat",
+    "nose": "nenät",
+    "mouth": "suut",
+    "neck": "kaulat",
+    "shoulder": "olkapäät",
+    "arm": "käsivarret",
+    "elbow": "kyynärpäät",
+    "hand": "kädet",
+    "finger": "sormet",
+    "leg": "sääret",
+    "knee": "polvet",
+    "foot": "jalat",
+    "toe": "varpaat"
+   },
+   "factLabels": {
+    "head": "Montako päätä?",
+    "hair": "Paljonko hiuksia?",
+    "eye": "Montako silmää?",
+    "ear": "Montako korvaa?",
+    "nose": "Montako nenää?",
+    "mouth": "Montako suuta?",
+    "neck": "Montako kaulaa?",
+    "shoulder": "Montako olkapäätä?",
+    "arm": "Montako käsivartta?",
+    "elbow": "Montako kyynärpäätä?",
+    "hand": "Montako kättä?",
+    "finger": "Montako sormea?",
+    "leg": "Montako säärtä?",
+    "knee": "Montako polvea?",
+    "foot": "Montako jalkaa?",
+    "toe": "Montako varvasta?",
+    "fingersOneHand": "Montako sormea yhdessä kädessä?",
+    "toesOneFoot": "Montako varvasta yhdessä jalassa?"
+   },
+   "use": {
+    "head": "Päässä ovat aivot, joilla ajattelet.",
+    "hair": "Hiukset pitävät pään lämpimänä.",
+    "eye": "Silmillä näet.",
+    "ear": "Korvilla kuulet.",
+    "nose": "Nenällä haistat.",
+    "mouth": "Suulla syöt ja puhut.",
+    "neck": "Kaula kääntää päätä.",
+    "shoulder": "Olkapäillä kannat reppua.",
+    "arm": "Käsivarsilla halaat.",
+    "elbow": "Kyynärpäät taivuttavat käsivarsia.",
+    "hand": "Käsillä otat kiinni.",
+    "finger": "Sormella osoitat.",
+    "leg": "Säärillä juokset.",
+    "knee": "Polvet taipuvat, kun hyppäät.",
+    "foot": "Jaloilla seisot.",
+    "toe": "Varpaat auttavat tasapainossa."
+   },
+   "refuseWords": {
+    "write": [
+     "arm",
+     "elbow"
+    ]
+   },
+   "refuse": [],
+   "strings": {
+    "K-354": {
+     "title": "Kehon osat",
+     "instruction": "Kopioi jokainen sana pankista sille viivalle, joka osoittaa kyseistä kehon osaa."
+    },
+    "K-360": {
+     "title": "Kehon osat: kuinka monta?",
+     "instruction": "Montako kutakin sinulla on? Laske omasta kehostasi ja kirjoita luku ruutuun."
+    },
+    "K-361": {
+     "title": "Kehon osat: väritä selitteen mukaan",
+     "instruction": "Lue selite ja väritä jokainen kehon osa sillä värillä, joka lukee sen nimen vieressä."
+    },
+    "G1-356": {
+     "title": "Kehon osat: kirjoita sana",
+     "instruction": "Etsi hahmosta jokainen numeroitu kohta ja kirjoita sen nimi, yksi kirjain ruutuun."
+    },
+    "K-362": {
+     "title": "Kehon osat: mikä puuttuu?",
+     "instruction": "Jokaiselta hahmolta puuttuu yksi osa: ympyröi puuttuvan osan kuva ja piirrä se sitten paikalleen."
+    },
+    "K-363": {
+     "title": "Kehon osat: mitkä ovat pareittain?",
+     "instruction": "Ympyröi jokainen kehon osa, jollaisia sinulla on kaksi."
+    }
+   }
+  },
+  "five-senses": {
+   "verbs": {
+    "hear": "kuulla",
+    "see": "nähdä",
+    "smell": "haistaa",
+    "taste": "maistaa",
+    "touch": "tuntea"
+   },
+   "starters": {
+    "hear": "Kuulen ...",
+    "see": "Näen ...",
+    "smell": "Haistan ...",
+    "taste": "Maistan ...",
+    "touch": "Tunnen ..."
+   },
+   "signedOk": [
+    "pizza",
+    "television",
+    "book",
+    "lamp",
+    "lighthouse",
+    "flute",
+    "thunderstorm"
+   ],
+   "organOf": {},
+   "refuse": [],
+   "strings": {
+    "K-355": {
+     "title": "Viisi aistia",
+     "instruction": "Piirrä viiva jokaisesta kuvasta siihen kehon osaan, jolla sen huomaat."
+    },
+    "G1-357": {
+     "title": "Viisi aistia: lajittele aistin mukaan",
+     "instruction": "Katso jokaista kuvaa ja piirrä viiva sen pisteestä sen aistin laatikkoon, jolla huomaat asian."
+    },
+    "G1-358": {
+     "title": "Viisi aistia: millä aistilla?",
+     "instruction": "Millä aistilla huomaat kunkin kuvan? Ympyröi se kehon osa, jota käytät."
+    },
+    "G1-359": {
+     "title": "Viisi aistia: mikä ei kuulu joukkoon?",
+     "instruction": "Jokaisella rivillä kolme kuvaa kuuluu samaan aistiin. Vedä yli se, joka ei kuulu."
+    },
+    "G1-360": {
+     "title": "Aistielimet: kirjoita aistin sana",
+     "instruction": "Kopioi jokainen aistisana pankista viivalle sen kehon osan viereen, joka sen tekee."
+    },
+    "G1-361": {
+     "title": "Viisi aistia: kuulen ...",
+     "instruction": "Täydennä jokainen lause. Kirjoita, mitä kuulet, näet, haistat, maistat ja tunnet."
+    }
+   },
+   "strand": "Ympäristöoppi"
+  },
+  "weather-symbols": {
+   "symbolWords": {
+    "sun": "aurinko",
+    "cloud": "pilvi",
+    "rain": "sade",
+    "storm": "ukkonen",
+    "snow": "lumi",
+    "rainbow": "sateenkaari"
+   },
+   "forecastAsks": {
+    "sun": "Minä päivänä paistaa aurinko?",
+    "cloud": "Minä päivänä on pilvistä?",
+    "rain": "Minä päivänä sataa vettä?",
+    "storm": "Minä päivänä on ukkosta?",
+    "snow": "Minä päivänä sataa lunta?",
+    "rainbow": "Minä päivänä näkyy sateenkaari?"
+   },
+   "cycleLabels": {
+    "evaporation": "haihtuminen",
+    "condensation": "tiivistyminen",
+    "precipitation": "sadanta",
+    "collection": "kerääntyminen",
+    "runoff": "valunta"
+   },
+   "bandWords": {
+    "cold": "kylmä",
+    "warm": "lämmin",
+    "hot": "kuuma"
+   },
+   "forecastDays": [
+    "ma",
+    "ti",
+    "ke",
+    "to",
+    "pe"
+   ],
+   "diaryDays": [
+    "su",
+    "ma",
+    "ti",
+    "ke",
+    "to",
+    "pe",
+    "la"
+   ],
+   "diaryStart": "mon",
+   "bankWords": {},
+   "distractors": [
+    "tuuli",
+    "sumu"
+   ],
+   "refuse": [],
+   "strings": {
+    "K-356": {
+     "title": "Säätilat",
+     "instruction": "Piirrä viiva jokaisesta säämerkistä sen sanaan."
+    },
+    "G1-362": {
+     "title": "Säätilat: kirjoita sana",
+     "instruction": "Etsi jokaisen säämerkin sana pankista ja kirjoita se, yksi kirjain ruutuun."
+    },
+    "K-364": {
+     "title": "Säätilat: minun viikkoni",
+     "instruction": "Katso joka päivä ulos ja piirrä sen päivän säämerkki omaan ruutuunsa."
+    },
+    "K-365": {
+     "title": "Säätilat: kylmä, lämmin vai kuuma?",
+     "instruction": "Katso jokaista lämpömittaria. Katso selitteestä, onko kylmä, lämmin vai kuuma, ja ympyröi sopiva kuva."
+    },
+    "G3-385": {
+     "title": "Veden kiertokulku: nimeä vaiheet",
+     "instruction": "Lue pankin neljä sanaa ja kirjoita jokainen sille viivalle, jolla on sama numero kuin kuvassa."
+    },
+    "G1-363": {
+     "title": "Säätilat: lue sääennuste",
+     "instruction": "Katso viikon sää, lue jokainen kysymys ja ympyröi oikea päivä."
+    }
+   },
+   "strand": "Ympäristöoppi"
+  },
+  "recycling": {
+   "bins": [
+    {
+     "key": "bio",
+     "label": "Biojäte",
+     "longLabel": "Biojäte: ruoantähteet ja kuoret",
+     "color": null,
+     "colorWord": null,
+     "materials": [
+      "organic"
+     ],
+     "packagingOnly": false
+    },
+    {
+     "key": "paperi",
+     "label": "Paperi",
+     "longLabel": "Paperi ja kartonki",
+     "color": null,
+     "colorWord": null,
+     "materials": [
+      "paper",
+      "cardboard"
+     ],
+     "packagingOnly": false
+    },
+    {
+     "key": "lasi",
+     "label": "Lasi",
+     "longLabel": "Lasipakkaukset",
+     "color": null,
+     "colorWord": null,
+     "materials": [
+      "glass"
+     ],
+     "packagingOnly": true
+    },
+    {
+     "key": "metalli",
+     "label": "Metalli",
+     "longLabel": "Metalli ja pienmetalli",
+     "color": null,
+     "colorWord": null,
+     "materials": [
+      "metal"
+     ],
+     "packagingOnly": false
+    },
+    {
+     "key": "muovi",
+     "label": "Muovi",
+     "longLabel": "Muovipakkaukset",
+     "color": null,
+     "colorWord": null,
+     "materials": [
+      "plastic"
+     ],
+     "packagingOnly": true
+    }
+   ],
+   "route": {},
+   "excludeItems": {
+    "toothbrush": "Hammasharja ei ole muovipakkaus; se kuuluu sekajätteeseen, jota tällä sivulla ei ole.",
+    "comb": "Kampa ei ole muovipakkaus; se kuuluu sekajätteeseen, jota tällä sivulla ei ole.",
+    "spoon": "Muovilusikka ei ole pakkaus; se kuuluu sekajätteeseen, jota tällä sivulla ei ole.",
+    "bucket": "Ämpäri ei ole muovipakkaus; iso muoviesine viedään kierrätyspisteeseen, ei astiaan."
+   },
+   "materialWords": {
+    "paper": "paperi",
+    "cardboard": "pahvi",
+    "glass": "lasi",
+    "plastic": "muovi",
+    "metal": "metalli",
+    "organic": "biojäte"
+   },
+   "colorConvention": null,
+   "refuse": [
+    "color"
+   ],
+   "starters": [],
+   "scheme": "Viisi astiaa kuten kotona: biojäte, paperi ja kartonki, lasipakkaukset, metalli ja pienmetalli sekä muovipakkaukset. Sekajäteastiaa ei tällä sivulla ole, joten muut kuin pakkaukset jäävät pois.",
+   "enAudit": "EN K-357: the scheme sentence says many US towns collect recyclables in one single-stream cart, yet every face still asks the child to separate five bins; and the base title names no move while F1 adds only a question. The fi block names the five Finnish streams and keeps the material question on every face.",
+   "strings": {
+    "K-357": {
+     "title": "Kierrätys",
+     "instruction": "Jokainen esine on tyhjä tai käytetty. Piirrä siitä viiva astiaan, johon se kuuluu."
+    },
+    "K-366": {
+     "title": "Kierrätys: mihin astiaan?",
+     "instruction": "Katso jokaista esinettä ja ympyröi astia, johon se kuuluu tyhjänä tai käytettynä."
+    },
+    "G1-364": {
+     "title": "Kierrätys: mitä materiaalia?",
+     "instruction": "Mitä materiaalia kukin esine on? Kirjoita sana pankista viivalle."
+    },
+    "G2-348": {
+     "title": "Kierrätys: mikä ei kuulu joukkoon?",
+     "instruction": "Jokaisella rivillä kolme esinettä on samaa materiaalia. Ympyröi se, joka on eri materiaalia."
+    },
+    "G1-365": {
+     "title": "Kierrätys: kolme asiaa, jotka kierrätän",
+     "instruction": "Piirrä kolme asiaa, jotka kierrätät kotona, ja kirjoita, mitä kukin niistä on."
+    }
+   },
+   "strand": "Ympäristöoppi"
+  },
+  "cloze": {
+   "nameSlot": false,
+   "articleTable": null,
+   "boxWord": "yksi kirjain ruutuun",
+   "confusable": [
+    [
+     "hen",
+     "chicken"
+    ],
+    [
+     "boat",
+     "sailboat"
+    ],
+    [
+     "bus",
+     "car"
+    ]
+   ],
+   "agreeingAdjectives": [],
+   "frames": [
+    {
+     "id": "cow-milk",
+     "noun": "cow",
+     "form": "sg",
+     "text": "Maatilalla {gap} antaa meille maitoa.",
+     "fits": [
+      "cow",
+      "goat"
+     ],
+     "foil": "horse",
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "farm animals",
+      "noun": "cow"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "pig-mud",
+     "noun": "pig",
+     "form": "sg",
+     "text": "Aitauksessa {gap} rypee mudassa.",
+     "fits": [
+      "pig"
+     ],
+     "foil": "cow",
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "farm animals",
+      "noun": "pig"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "rooster-crow",
+     "noun": "rooster",
+     "form": "sg",
+     "text": "Aamulla {gap} kiekuu kovaa.",
+     "fits": [
+      "rooster"
+     ],
+     "foil": "hen",
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "birds 2",
+      "noun": "rooster"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "owl-hoot",
+     "noun": "owl",
+     "form": "sg",
+     "text": "Yöllä {gap} huhuilee puussa.",
+     "fits": [
+      "owl"
+     ],
+     "foil": "duck",
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "forest creatures",
+      "noun": "owl"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "bee-honey",
+     "noun": "bee",
+     "form": "sg",
+     "text": "Pesässä {gap} tekee hunajaa.",
+     "fits": [
+      "bee"
+     ],
+     "foil": "bat",
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "Things That Fly",
+      "noun": "bee"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "giraffe-neck",
+     "noun": "giraffe",
+     "form": "sg",
+     "text": "Pitkällä kaulallaan {gap} syö lehtiä.",
+     "fits": [
+      "giraffe"
+     ],
+     "foil": "zebra",
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "zoo animals",
+      "noun": "giraffe"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "elephant-trunk",
+     "noun": "elephant",
+     "form": "sg",
+     "text": "Kärsällään {gap} suihkuttaa vettä.",
+     "fits": [
+      "elephant"
+     ],
+     "foil": "rhinoceros",
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "animals",
+      "noun": "elephant"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "kangaroo-pouch",
+     "noun": "kangaroo",
+     "form": "sg",
+     "text": "Pussissaan {gap} kantaa poikastaan.",
+     "fits": [
+      "kangaroo",
+      "koala"
+     ],
+     "foil": "monkey",
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "zoo animals",
+      "noun": "kangaroo"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "penguin-ice",
+     "noun": "penguin",
+     "form": "sg",
+     "text": "Jäällä {gap} liukuu vatsallaan.",
+     "fits": [
+      "penguin",
+      "seal"
+     ],
+     "foil": "swan",
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "birds 2",
+      "noun": "penguin"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "zebra-stripes",
+     "noun": "zebra",
+     "form": "sg",
+     "text": "Kuvassa {gap} on mustavalkoraidallinen.",
+     "fits": [
+      "zebra"
+     ],
+     "foil": "giraffe",
+     "predicateKind": "copula",
+     "pic": {
+      "theme": "animals",
+      "noun": "zebra"
+     },
+     "picOpened": true,
+     "signedExclusive": true,
+     "exclusiveWhy": "Seepra on kuvapankin ainoa mustavalkoraidallinen eläin: kirahvi on täpläinen, tiikeri oranssiraidallinen ja kilpikonna ruskea."
+    },
+    {
+     "id": "woodpecker-tree",
+     "noun": "woodpecker",
+     "form": "sg",
+     "text": "Puunrungossa {gap} nakuttaa reikiä.",
+     "fits": [
+      "woodpecker"
+     ],
+     "foil": "owl",
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "forest creatures",
+      "noun": "woodpecker"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "turtle-shell",
+     "noun": "turtle",
+     "form": "sg",
+     "text": "Vaarassa {gap} piiloutuu kilpeensä.",
+     "fits": [
+      "turtle"
+     ],
+     "foil": "rabbit",
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "beach",
+      "noun": "turtle"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "rabbit-carrot",
+     "noun": "rabbit",
+     "form": "sg",
+     "text": "Pihalla {gap} nakertaa porkkanaa.",
+     "fits": [
+      "rabbit"
+     ],
+     "foil": "fox",
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "animals",
+      "noun": "rabbit"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "tractor-plow",
+     "noun": "tractor",
+     "form": "sg",
+     "text": "Pellolla {gap} kyntää maata.",
+     "fits": [
+      "tractor"
+     ],
+     "foil": "bus",
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "vehicles",
+      "noun": "tractor"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "helicopter-blades",
+     "noun": "helicopter",
+     "form": "sg",
+     "text": "Ilmassa {gap} pysyy pyörivien siipien avulla.",
+     "fits": [
+      "helicopter"
+     ],
+     "foil": "airplane",
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "Things That Fly",
+      "noun": "helicopter"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "train-tracks",
+     "noun": "train",
+     "form": "sg",
+     "text": "Kiskoilla {gap} kulkee eteenpäin.",
+     "fits": [
+      "train"
+     ],
+     "foil": "car",
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "vehicles",
+      "noun": "train"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    }
+   ],
+   "plural": [
+    {
+     "id": "cows-barn",
+     "noun": "cow",
+     "form": "pl",
+     "text": "Navetassa {gap} nukkuvat.",
+     "clones": null,
+     "fits": [
+      "cow",
+      "horse",
+      "goat",
+      "donkey",
+      "calf",
+      "foal",
+      "llama"
+     ],
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "farm animals",
+      "noun": "cow"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "bees-flowers",
+     "noun": "bee",
+     "form": "pl",
+     "text": "Kukkien ympärillä {gap} surisevat.",
+     "clones": null,
+     "fits": [
+      "bee"
+     ],
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "forest creatures",
+      "noun": "bee"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "swans-pond",
+     "noun": "swan",
+     "form": "pl",
+     "text": "Lammessa {gap} uivat rauhassa.",
+     "clones": null,
+     "fits": [
+      "swan"
+     ],
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "animals",
+      "noun": "swan"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "horses-gallop",
+     "noun": "horse",
+     "form": "pl",
+     "text": "Niityllä {gap} laukkaavat.",
+     "clones": null,
+     "fits": [
+      "horse",
+      "foal",
+      "zebra",
+      "donkey"
+     ],
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "animals",
+      "noun": "horse"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "penguins-waddle",
+     "noun": "penguin",
+     "form": "pl",
+     "text": "Jäällä {gap} tallustavat.",
+     "clones": null,
+     "fits": [
+      "penguin"
+     ],
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "animals",
+      "noun": "penguin"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "bats-cave",
+     "noun": "bat",
+     "form": "pl",
+     "text": "Luolassa {gap} roikkuvat ylösalaisin.",
+     "clones": null,
+     "fits": [
+      "bat"
+     ],
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "Things That Fly",
+      "noun": "bat"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "monkeys-swing",
+     "noun": "monkey",
+     "form": "pl",
+     "text": "Puussa {gap} kiipeilevät oksilla.",
+     "clones": null,
+     "fits": [
+      "monkey",
+      "chimpanzee",
+      "gorilla"
+     ],
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "zoo animals",
+      "noun": "monkey"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "blueberries-blue",
+     "noun": "blueberry",
+     "form": "pl",
+     "text": "Kuvassa {gap} ovat pieniä ja sinisiä.",
+     "clones": null,
+     "fits": [
+      "blueberry"
+     ],
+     "predicateKind": "copula",
+     "pic": {
+      "theme": "fruits",
+      "noun": "blueberry"
+     },
+     "picOpened": true,
+     "signedExclusive": true,
+     "exclusiveWhy": "Mustikka on kuvapankin ainoa pieni sininen marja: vadelma ja mansikka ovat punaisia eikä mustaherukkaa ole mukana."
+    },
+    {
+     "id": "airplanes-runway",
+     "noun": "airplane",
+     "form": "pl",
+     "text": "Lentokentällä {gap} laskeutuvat.",
+     "clones": null,
+     "fits": [
+      "airplane",
+      "jet"
+     ],
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "vehicles",
+      "noun": "airplane"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "lions-roar",
+     "noun": "lion",
+     "form": "pl",
+     "text": "Ruohikossa {gap} karjuvat kovaa.",
+     "clones": null,
+     "fits": [
+      "lion",
+      "tiger"
+     ],
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "zoo animals",
+      "noun": "lion"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "hens-seeds",
+     "noun": "hen",
+     "form": "pl",
+     "text": "Pihalla {gap} nokkivat siemeniä.",
+     "clones": null,
+     "fits": [
+      "hen",
+      "chicken",
+      "rooster",
+      "chick",
+      "turkey"
+     ],
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "farm animals",
+      "noun": "hen"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "balls-hill",
+     "noun": "ball",
+     "form": "pl",
+     "text": "Mäkeä alas {gap} vierivät.",
+     "clones": null,
+     "fits": [
+      "ball"
+     ],
+     "predicateKind": "verb",
+     "pic": {
+      "theme": "toys",
+      "noun": "ball"
+     },
+     "picOpened": true,
+     "signedExclusive": true
+    }
+   ],
+   "stories": [
+    {
+     "id": "farm-morning",
+     "nouns": [
+      "rooster",
+      "cow",
+      "tractor"
+     ],
+     "forms": [
+      "sg",
+      "sg",
+      "sg"
+     ],
+     "text": [
+      "Aamulla {gap} kiekuu.",
+      "Navetassa {gap} ammuu.",
+      "Lopuksi {gap} lähtee pellolle."
+     ],
+     "fits": [
+      [
+       "rooster"
+      ],
+      [
+       "cow"
+      ],
+      [
+       "tractor"
+      ]
+     ],
+     "pics": [
+      {
+       "theme": "farm animals",
+       "noun": "rooster"
+      },
+      {
+       "theme": "farm animals",
+       "noun": "cow"
+      },
+      {
+       "theme": "vehicles",
+       "noun": "tractor"
+      }
+     ],
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "pond-day",
+     "nouns": [
+      "swan",
+      "fish",
+      "dog"
+     ],
+     "forms": [
+      "sg",
+      "sg",
+      "sg"
+     ],
+     "text": [
+      "Lammessa {gap} liukuu rauhassa.",
+      "Veden alla {gap} ui.",
+      "Sitten {gap} haukkuu iloisesti."
+     ],
+     "fits": [
+      [
+       "swan"
+      ],
+      [
+       "fish"
+      ],
+      [
+       "dog"
+      ]
+     ],
+     "pics": [
+      {
+       "theme": "animals",
+       "noun": "swan"
+      },
+      {
+       "theme": "animals",
+       "noun": "fish"
+      },
+      {
+       "theme": "animals",
+       "noun": "dog"
+      }
+     ],
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "zoo-visit",
+     "nouns": [
+      "elephant",
+      "giraffe",
+      "monkey"
+     ],
+     "forms": [
+      "sg",
+      "sg",
+      "sg"
+     ],
+     "text": [
+      "Eläintarhassa {gap} suihkuttaa vettä.",
+      "Korkealta puusta {gap} syö lehtiä.",
+      "Oksalta oksalle {gap} kiipeilee."
+     ],
+     "fits": [
+      [
+       "elephant"
+      ],
+      [
+       "giraffe"
+      ],
+      [
+       "monkey",
+       "chimpanzee",
+       "gorilla"
+      ]
+     ],
+     "pics": [
+      {
+       "theme": "zoo animals",
+       "noun": "elephant"
+      },
+      {
+       "theme": "animals",
+       "noun": "giraffe"
+      },
+      {
+       "theme": "zoo animals",
+       "noun": "monkey"
+      }
+     ],
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "sky-day",
+     "nouns": [
+      "airplane",
+      "rocket",
+      "kite"
+     ],
+     "forms": [
+      "sg",
+      "sg",
+      "sg"
+     ],
+     "text": [
+      "Pilvien yläpuolella {gap} lentää.",
+      "Kohti avaruutta {gap} kiitää.",
+      "Tuulessa {gap} liitää korkealla."
+     ],
+     "fits": [
+      [
+       "airplane",
+       "jet"
+      ],
+      [
+       "rocket"
+      ],
+      [
+       "kite"
+      ]
+     ],
+     "pics": [
+      {
+       "theme": "vehicles",
+       "noun": "airplane"
+      },
+      {
+       "theme": "vehicles",
+       "noun": "rocket"
+      },
+      {
+       "theme": "toys",
+       "noun": "kite"
+      }
+     ],
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "beach-day",
+     "nouns": [
+      "dolphin",
+      "seagull",
+      "sailboat"
+     ],
+     "forms": [
+      "sg",
+      "sg",
+      "sg"
+     ],
+     "text": [
+      "Aalloista {gap} hyppää ilmaan.",
+      "Hiekkarannan yllä {gap} kirkuu.",
+      "Tuulen mukana {gap} purjehtii."
+     ],
+     "fits": [
+      [
+       "dolphin",
+       "whale"
+      ],
+      [
+       "seagull"
+      ],
+      [
+       "sailboat"
+      ]
+     ],
+     "pics": [
+      {
+       "theme": "beach",
+       "noun": "dolphin"
+      },
+      {
+       "theme": "beach",
+       "noun": "seagull"
+      },
+      {
+       "theme": "beach",
+       "noun": "sailboat"
+      }
+     ],
+     "picOpened": true,
+     "signedExclusive": true
+    },
+    {
+     "id": "forest-night",
+     "nouns": [
+      "owl",
+      "fox",
+      "rabbit"
+     ],
+     "forms": [
+      "sg",
+      "sg",
+      "sg"
+     ],
+     "text": [
+      "Yöllä {gap} huhuilee tammessa.",
+      "Pesästään {gap} hiipii ulos.",
+      "Puutarhassa {gap} nakertaa porkkanaa."
+     ],
+     "fits": [
+      [
+       "owl"
+      ],
+      [
+       "fox",
+       "wolf",
+       "bear"
+      ],
+      [
+       "rabbit"
+      ]
+     ],
+     "pics": [
+      {
+       "theme": "forest creatures",
+       "noun": "owl"
+      },
+      {
+       "theme": "forest creatures",
+       "noun": "fox"
+      },
+      {
+       "theme": "forest creatures",
+       "noun": "rabbit"
+      }
+     ],
+     "picOpened": true,
+     "signedExclusive": true
+    }
+   ],
+   "strings": {
+    "base": {
+     "title": "Täydennä lauseet",
+     "instruction": "Katso kuvaa. Etsi lauseeseen sopiva sana sanapankista ja kirjoita se laatikkoon."
+    },
+    "letters": {
+     "title": "Täydennä lause kirjainruutuihin",
+     "instruction": "Katso kuvaa. Kirjoita puuttuva sana ruutuihin: yksi kirjain ruutuun."
+    },
+    "choice": {
+     "title": "Valitse oikea sana lauseeseen",
+     "instruction": "Katso kuvaa ja lue lause. Ympyröi sopiva sana ja kirjoita se laatikkoon."
+    },
+    "plural": {
+     "title": "Täydennä lause monikossa",
+     "instruction": "Katso kuvia. Niitä on useampi kuin yksi. Kirjoita monikkomuoto laatikkoon."
+    },
+    "story": {
+     "title": "Täydennä tarina",
+     "instruction": "Lue koko tarina. Kolme kuvaa näyttää puuttuvat sanat. Kirjoita jokainen sana pankista omaan laatikkoonsa."
+    },
+    "match": {
+     "title": "Yhdistä lause kuvaan",
+     "instruction": "Lue jokainen lause. Mikä kuva täydentää aukon? Piirrä viiva lauseesta siihen kuvaan."
+    }
+   },
+   "refuse": {
+    "plural": false
+   }
+  },
+  "odd-and-even": {
+   "chips": {
+    "odd": "pariton",
+    "even": "parillinen"
+   },
+   "houseOrder": [
+    "even",
+    "odd"
+   ],
+   "rule": "Luku on parillinen, jos se päättyy numeroon 0, 2, 4, 6 tai 8. Luku on pariton, jos se päättyy numeroon 1, 3, 5, 7 tai 9.",
+   "leftover": "jää yli",
+   "pairs": "parit",
+   "placeHeads": [
+    "K",
+    "Y"
+   ],
+   "nameMaxGraphemes": 6,
+   "strings": {
+    "base": {
+     "title": "Parilliset ja parittomat luvut 20:een asti",
+     "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut ja näyttää parinsa."
+    },
+    "proof": {
+     "title": "Parillinen vai pariton? Kaksi yhtä suurta lukua",
+     "instruction": "Ympyröi pisteet kaksi kerrallaan. Kirjoita sitten luku kahtena yhtä suurena osana ja ylijäävä pieneen ruutuun."
+    },
+    "share": {
+     "title": "Voiko jakaa tasan kahdelle?",
+     "instruction": "Jaa kuvat kahden kaverin kesken, yksi kerrallaan. Kirjoita, montako kumpikin saa ja montako jää yli, ja ympyröi vastaus."
+    },
+    "ones": {
+     "title": "Parilliset ja parittomat luvut sataan asti",
+     "instruction": "Lue sääntö ylhäältä. Katso vain luvun ykkösten ruutua ja rastita ympyrä oikean sanan alta."
+    },
+    "sums": {
+     "title": "Parillinen vai pariton summa? Päättele ilman laskemista",
+     "instruction": "Älä laske. Katso kummankin luvun alleviivattua ykkösnumeroa, käytä taulukkoa ja rastita, millainen summa on."
+    },
+    "count": {
+     "title": "Parillinen vai pariton? Laske kuvat pareittain",
+     "instruction": "Laske kuvat ja ympyröi ne kaksi kerrallaan. Kirjoita, montako paria sait, ja ympyröi sitten oikea sana."
+    }
+   },
+   "refuse": {},
+   "strand": "Luvut ja laskutoimitukset"
+  },
+  "rounding": {
+   "up": {
+    "10": "ylöspäin",
+    "100": "ylöspäin"
+   },
+   "down": {
+    "10": "alaspäin",
+    "100": "alaspäin"
+   },
+   "heads": {
+    "10": "kymmenen tarkkuudella",
+    "100": "sadan tarkkuudella"
+   },
+   "relation": "approx",
+   "strings": {
+    "base": {
+     "title": "Pyöristäminen kymmenien tarkkuuteen",
+     "instruction": "Pyöristä jokainen luku lähimpään kymmeneen ja kirjoita se ruutuun. Jos ykkösnumero on 5 tai enemmän, pyöristä ylöspäin."
+    },
+    "sort": {
+     "title": "Ylöspäin vai alaspäin? Lajittele luvut",
+     "instruction": "Pyöristyykö jokainen luku ylöspäin vai alaspäin lähimpään kymmeneen? Kirjoita se oikeaan laatikkoon."
+    },
+    "hundred": {
+     "title": "Pyöristäminen satojen tarkkuuteen",
+     "instruction": "Pyöristä jokainen luku lähimpään sataan ja kirjoita se ruutuun. Katso kymmenten numeroa."
+    },
+    "estimate": {
+     "title": "Pyöristä ja arvioi summa",
+     "instruction": "Pyöristä molemmat luvut lähimpään kymmeneen ja kirjoita ne ruutuihin. Laske sitten pyöristetyt luvut yhteen."
+    },
+    "inverse": {
+     "title": "Mitkä luvut pyöristyvät lukuun 50?",
+     "instruction": "Ympyröi jokainen luku, joka pyöristyy ylhäällä näkyvään kymmeneen. Katso kunkin luvun ykkösnumeroa."
+    },
+    "both": {
+     "title": "Pyöristäminen kymmenien ja satojen tarkkuuteen",
+     "instruction": "Pyöristä jokainen luku kahdesti: ensimmäiseen ruutuun lähimpään kymmeneen ja toiseen lähimpään sataan."
+    }
+   },
+   "refuse": [],
+   "strand": "Luvut ja laskutoimitukset"
+  },
+  "pronouns": {
+   "people": [
+    {
+     "key": "architect",
+     "pic": {
+      "theme": "occupations",
+      "noun": "architect"
+     },
+     "depicted": "m",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "author",
+     "pic": {
+      "theme": "occupations",
+      "noun": "author"
+     },
+     "depicted": "m",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "barber",
+     "pic": {
+      "theme": "occupations",
+      "noun": "barber"
+     },
+     "depicted": "m",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "baker",
+     "pic": {
+      "theme": "occupations",
+      "noun": "baker"
+     },
+     "depicted": "m",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "detective",
+     "pic": {
+      "theme": "occupations",
+      "noun": "detective"
+     },
+     "depicted": "m",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "doctor",
+     "pic": {
+      "theme": "occupations",
+      "noun": "doctor"
+     },
+     "depicted": "m",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "judge",
+     "pic": {
+      "theme": "occupations",
+      "noun": "judge"
+     },
+     "depicted": "m",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "musician",
+     "pic": {
+      "theme": "occupations",
+      "noun": "musician"
+     },
+     "depicted": "m",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "pharmacist",
+     "pic": {
+      "theme": "occupations",
+      "noun": "pharmacist"
+     },
+     "depicted": "m",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "photographer",
+     "pic": {
+      "theme": "occupations",
+      "noun": "photographer"
+     },
+     "depicted": "m",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "singer",
+     "pic": {
+      "theme": "occupations",
+      "noun": "singer"
+     },
+     "depicted": "m",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "police_officer",
+     "pic": {
+      "theme": "occupations",
+      "noun": "police_officer"
+     },
+     "depicted": "m",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "coach",
+     "pic": {
+      "theme": "occupations",
+      "noun": "coach"
+     },
+     "depicted": "m",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "farmer",
+     "pic": {
+      "theme": "occupations",
+      "noun": "farmer"
+     },
+     "depicted": "m",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "janitor",
+     "pic": {
+      "theme": "occupations",
+      "noun": "janitor"
+     },
+     "depicted": "m",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "student",
+     "pic": {
+      "theme": "classroom",
+      "noun": "student"
+     },
+     "depicted": "m",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "carpenter",
+     "pic": {
+      "theme": "occupations",
+      "noun": "carpenter"
+     },
+     "depicted": "m",
+     "minPx": 56,
+     "picOpened": true
+    },
+    {
+     "key": "chef",
+     "pic": {
+      "theme": "occupations",
+      "noun": "chef"
+     },
+     "depicted": "m",
+     "minPx": 56,
+     "picOpened": true
+    },
+    {
+     "key": "gardener",
+     "pic": {
+      "theme": "occupations",
+      "noun": "gardener"
+     },
+     "depicted": "m",
+     "minPx": 56,
+     "picOpened": true
+    },
+    {
+     "key": "construction_worker",
+     "pic": {
+      "theme": "occupations",
+      "noun": "construction_worker"
+     },
+     "depicted": "m",
+     "minPx": 56,
+     "picOpened": true
+    },
+    {
+     "key": "librarian",
+     "pic": {
+      "theme": "occupations",
+      "noun": "librarian"
+     },
+     "depicted": "f",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "teacher",
+     "pic": {
+      "theme": "occupations",
+      "noun": "teacher"
+     },
+     "depicted": "f",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "waitress",
+     "pic": {
+      "theme": "occupations",
+      "noun": "waitress"
+     },
+     "depicted": "f",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "flight_attendant",
+     "pic": {
+      "theme": "occupations",
+      "noun": "flight_attendant"
+     },
+     "depicted": "f",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "mail_carrier_2",
+     "pic": {
+      "theme": "occupations",
+      "noun": "mail_carrier_2"
+     },
+     "depicted": "f",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "athlete",
+     "pic": {
+      "theme": "occupations",
+      "noun": "athlete"
+     },
+     "depicted": "f",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "ballerina",
+     "pic": {
+      "theme": "occupations",
+      "noun": "ballerina"
+     },
+     "depicted": "f",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "girl",
+     "pic": {
+      "theme": "toys",
+      "noun": "girl"
+     },
+     "depicted": "f",
+     "minPx": 44,
+     "picOpened": true
+    },
+    {
+     "key": "cashier",
+     "pic": {
+      "theme": "occupations",
+      "noun": "cashier"
+     },
+     "depicted": "f",
+     "minPx": 56,
+     "picOpened": true
+    },
+    {
+     "key": "florist",
+     "pic": {
+      "theme": "occupations",
+      "noun": "florist"
+     },
+     "depicted": "f",
+     "minPx": 56,
+     "picOpened": true
+    },
+    {
+     "key": "nurse",
+     "pic": {
+      "theme": "occupations",
+      "noun": "nurse"
+     },
+     "depicted": "f",
+     "minPx": 56,
+     "picOpened": true
+    },
+    {
+     "key": "tailor",
+     "pic": {
+      "theme": "occupations",
+      "noun": "tailor"
+     },
+     "depicted": "f",
+     "minPx": 56,
+     "picOpened": true
+    }
+   ],
+   "names": [
+    {
+     "name": "Aino",
+     "gender": "f"
+    },
+    {
+     "name": "Eeli",
+     "gender": "m"
+    },
+    {
+     "name": "Aada",
+     "gender": "f"
+    },
+    {
+     "name": "Onni",
+     "gender": "m"
+    },
+    {
+     "name": "Elsa",
+     "gender": "f"
+    },
+    {
+     "name": "Leo",
+     "gender": "m"
+    },
+    {
+     "name": "Emma",
+     "gender": "f"
+    },
+    {
+     "name": "Aaro",
+     "gender": "m"
+    },
+    {
+     "name": "Iida",
+     "gender": "f"
+    },
+    {
+     "name": "Otto",
+     "gender": "m"
+    },
+    {
+     "name": "Ella",
+     "gender": "f"
+    },
+    {
+     "name": "Juho",
+     "gender": "m"
+    },
+    {
+     "name": "Alma",
+     "gender": "f"
+    },
+    {
+     "name": "Niko",
+     "gender": "m"
+    },
+    {
+     "name": "Anni",
+     "gender": "f"
+    },
+    {
+     "name": "Eino",
+     "gender": "m"
+    }
+   ],
+   "and": "ja",
+   "andBefore": null,
+   "chips": [
+    "hän",
+    "he"
+   ],
+   "initial": [
+    "Hän",
+    "He"
+   ],
+   "map": {
+    "base": {
+     "m1": 0,
+     "f1": 0,
+     "p": 1
+    },
+    "replace": {
+     "m1": 0,
+     "f1": 0,
+     "p": 1
+    },
+    "anaphora": {
+     "m1": 0,
+     "f1": 0,
+     "p": 1
+    },
+    "sort": {
+     "m1": 0,
+     "f1": 0,
+     "p": 1
+    },
+    "rewrite": {
+     "m1": 0,
+     "f1": 0,
+     "p": 1
+    }
+   },
+   "objectMap": null,
+   "objects": [],
+   "frames": [
+    {
+     "id": "read-book",
+     "sg": "{subj} lukee kirjaa.",
+     "pl": "{subj} lukevat kirjaa."
+    },
+    {
+     "id": "play-ball",
+     "sg": "{subj} pelaa pallolla.",
+     "pl": "{subj} pelaavat pallolla."
+    },
+    {
+     "id": "eat-apple",
+     "sg": "{subj} syö omenaa.",
+     "pl": "{subj} syövät omenaa."
+    },
+    {
+     "id": "ride-bike",
+     "sg": "{subj} ajaa pyörällä.",
+     "pl": "{subj} ajavat pyörällä."
+    },
+    {
+     "id": "draw-cat",
+     "sg": "{subj} piirtää kissan.",
+     "pl": "{subj} piirtävät kissan."
+    },
+    {
+     "id": "sing-song",
+     "sg": "{subj} laulaa laulun.",
+     "pl": "{subj} laulavat laulun."
+    },
+    {
+     "id": "jump-rope",
+     "sg": "{subj} hyppii narua.",
+     "pl": "{subj} hyppivät narua."
+    },
+    {
+     "id": "feed-dog",
+     "sg": "{subj} ruokkii koiraa.",
+     "pl": "{subj} ruokkivat koiraa."
+    },
+    {
+     "id": "paint-picture",
+     "sg": "{subj} maalaa taulun.",
+     "pl": "{subj} maalaavat taulun."
+    },
+    {
+     "id": "build-tower",
+     "sg": "{subj} rakentaa tornin.",
+     "pl": "{subj} rakentavat tornin."
+    },
+    {
+     "id": "go-park",
+     "sg": "{subj} menee puistoon.",
+     "pl": "{subj} menevät puistoon."
+    },
+    {
+     "id": "like-milk",
+     "sg": "{subj} juo maitoa.",
+     "pl": "{subj} juovat maitoa."
+    }
+   ],
+   "anaphora": [
+    {
+     "id": "park",
+     "intro": "{a}, {b} leikkivät.",
+     "s": [
+      {
+       "text": "{P} kaivaa hiekkaa.",
+       "key": "sg"
+      },
+      {
+       "text": "{P} nauravat yhdessä.",
+       "key": "pl"
+      }
+     ],
+     "contentNeutral": true
+    },
+    {
+     "id": "school",
+     "intro": "{a}, {b} lukevat.",
+     "s": [
+      {
+       "text": "{P} kirjoittaa tauluun.",
+       "key": "sg"
+      },
+      {
+       "text": "{P} istuvat vierekkäin.",
+       "key": "pl"
+      }
+     ],
+     "contentNeutral": true
+    },
+    {
+     "id": "home",
+     "intro": "{a}, {b} syövät.",
+     "s": [
+      {
+       "text": "{P} juo maitoa.",
+       "key": "sg"
+      },
+      {
+       "text": "{P} kattavat pöydän.",
+       "key": "pl"
+      }
+     ],
+     "contentNeutral": true
+    },
+    {
+     "id": "beach",
+     "intro": "{a}, {b} uivat.",
+     "s": [
+      {
+       "text": "{P} sukeltaa syvälle.",
+       "key": "sg"
+      },
+      {
+       "text": "{P} poimivat simpukoita.",
+       "key": "pl"
+      }
+     ],
+     "contentNeutral": true
+    },
+    {
+     "id": "garden",
+     "intro": "{a}, {b} kastelevat.",
+     "s": [
+      {
+       "text": "{P} kantaa kannua.",
+       "key": "sg"
+      },
+      {
+       "text": "{P} istuttavat siemeniä.",
+       "key": "pl"
+      }
+     ],
+     "contentNeutral": true
+    },
+    {
+     "id": "kitchen",
+     "intro": "{a}, {b} leipovat.",
+     "s": [
+      {
+       "text": "{P} sekoittaa taikinaa.",
+       "key": "sg"
+      },
+      {
+       "text": "{P} koristelevat kakun.",
+       "key": "pl"
+      }
+     ],
+     "contentNeutral": true
+    },
+    {
+     "id": "bus",
+     "intro": "{a}, {b} matkustavat.",
+     "s": [
+      {
+       "text": "{P} katsoo ikkunasta.",
+       "key": "sg"
+      },
+      {
+       "text": "{P} nousevat bussiin.",
+       "key": "pl"
+      }
+     ],
+     "contentNeutral": true
+    },
+    {
+     "id": "zoo",
+     "intro": "{a}, {b} kävelevät.",
+     "s": [
+      {
+       "text": "{P} osoittaa apinaa.",
+       "key": "sg"
+      },
+      {
+       "text": "{P} näkevät leijonan.",
+       "key": "pl"
+      }
+     ],
+     "contentNeutral": true
+    }
+   ],
+   "possessive": null,
+   "refuse": {
+    "possessive": true
+   },
+   "strings": {
+    "base": {
+     "title": "Hän vai he?",
+     "instruction": "Katso ihmistä ja lue nimi. Ympyröi sana, joka korvaa nimen."
+    },
+    "replace": {
+     "title": "Korvaa nimi pronominilla",
+     "bankWord": "sanapankista",
+     "instruction": "Lue lause. Kirjoita sanapankista se sana, joka korvaa nimen toisessa lauseessa."
+    },
+    "anaphora": {
+     "title": "Kuka on hän? Pronomini lauseessa",
+     "instruction": "Lue lauseet. Piirrä viiva jokaisesta laatikon sanasta siihen nimeen, jota se tarkoittaa."
+    },
+    "sort": {
+     "title": "Lajittele nimet: hän vai he",
+     "instruction": "Lue jokainen nimikortti. Kirjoita nimi sen sanan alle, jota käytämme kyseisestä henkilöstä."
+    },
+    "rewrite": {
+     "title": "Kirjoita lause uudelleen pronominilla",
+     "instruction": "Lue lause. Kirjoita se uudelleen viivoille, mutta käytä nimen sijasta pronominia."
+    }
+   }
+  },
+  "question-words": {
+   "qwords": {
+    "who": "Kuka",
+    "what": "Mitä",
+    "where": "Missä",
+    "when": "Milloin",
+    "howmany": "Kuinka monta"
+   },
+   "starters": [
+    "Kuka",
+    "Mitä",
+    "Missä",
+    "Milloin",
+    "Miksi",
+    "Miten"
+   ],
+   "bins": {
+    "who": "Kuka?",
+    "what": "Mikä?",
+    "where": "Missä?"
+   },
+   "binAliases": {
+    "what": true
+   },
+   "qPrefix": "",
+   "sortThingForm": "bare",
+   "genderFilter": {},
+   "excludeThings": [
+    "pomegranate",
+    "sandbox",
+    "submarine",
+    "blackberry",
+    "bulldozer",
+    "coconut",
+    "motorcycle",
+    "duckling",
+    "excavator",
+    "jet"
+   ],
+   "chipWidths": {
+    "Kuka": 72.9,
+    "Mitä": 67.8,
+    "Missä": 79.4,
+    "Milloin": 88.8,
+    "Kuinka monta": 152.2
+   },
+   "bankWidths": {
+    "Kuka": 42.8,
+    "Mitä": 37.9,
+    "Missä": 48.3,
+    "Milloin": 58.6,
+    "Kuinka monta": 118
+   },
+   "frames": [
+    {
+     "id": "see-thing",
+     "kind": "thing",
+     "text": "{name} katsoo {part}.",
+     "q": {
+      "who": "Kuka katsoo {part}?",
+      "what": "Mitä {name} katsoo?"
+     },
+     "signed": true
+    },
+    {
+     "id": "draw-thing",
+     "kind": "thing",
+     "text": "{name} tutkii {part}.",
+     "q": {
+      "who": "Kuka tutkii {part}?",
+      "what": "Mitä {name} tutkii?"
+     },
+     "signed": true
+    },
+    {
+     "id": "like-thing",
+     "kind": "thing",
+     "text": "{name} ihailee {part}.",
+     "q": {
+      "who": "Kuka ihailee {part}?",
+      "what": "Mitä {name} ihailee?"
+     },
+     "signed": true
+    },
+    {
+     "id": "be-place",
+     "kind": "place",
+     "text": "{name} on {place}.",
+     "q": {
+      "who": "Kuka on {place}?",
+      "where": "Missä {name} nyt on?"
+     },
+     "signed": true
+    },
+    {
+     "id": "play-place",
+     "kind": "place",
+     "text": "{name} leikkii {place}.",
+     "q": {
+      "who": "Kuka leikkii {place}?",
+      "where": "Missä {name} leikkii?"
+     },
+     "signed": true
+    },
+    {
+     "id": "read-place",
+     "kind": "place",
+     "text": "{name} lukee {place}.",
+     "q": {
+      "who": "Kuka lukee {place}?",
+      "where": "Missä {name} lukee?"
+     },
+     "signed": true
+    },
+    {
+     "id": "play-time",
+     "kind": "time",
+     "text": "{name} ulkoilee {time}.",
+     "q": {
+      "who": "Kuka ulkoilee {time}?",
+      "when": "Milloin {name} ulkoilee?"
+     },
+     "signed": true
+    },
+    {
+     "id": "eat-time",
+     "kind": "time",
+     "text": "{name} syö {time}.",
+     "q": {
+      "who": "Kuka syö {time}?",
+      "when": "Milloin {name} syö?"
+     },
+     "signed": true
+    },
+    {
+     "id": "sleep-time",
+     "kind": "time",
+     "text": "{name} nukkuu {time}.",
+     "q": {
+      "who": "Kuka nukkuu {time}?",
+      "when": "Milloin {name} nukkuu?"
+     },
+     "signed": true
+    },
+    {
+     "id": "see-count",
+     "kind": "count",
+     "text": "{name} näkee {n} {part}.",
+     "q": {
+      "who": "Kuka näkee {n} {part}?",
+      "howmany": "Kuinka monta {part} {name} näkee?"
+     },
+     "signed": true
+    },
+    {
+     "id": "draw-count",
+     "kind": "count",
+     "text": "{name} maalaa {n} {part}.",
+     "q": {
+      "who": "Kuka maalaa {n} {part}?",
+      "howmany": "Kuinka monta {part} {name} maalaa?"
+     },
+     "signed": true
+    },
+    {
+     "id": "find-count",
+     "kind": "count",
+     "text": "{name} löytää {n} {part}.",
+     "q": {
+      "who": "Kuka löytää {n} {part}?",
+      "howmany": "Kuinka monta {part} {name} löytää?"
+     },
+     "signed": true
+    }
+   ],
+   "places": [
+    {
+     "key": "house",
+     "pic": {
+      "theme": "miscellaneous",
+      "noun": "house"
+     },
+     "text": "kotona",
+     "picOpened": true,
+     "static": true
+    },
+    {
+     "key": "garden",
+     "pic": {
+      "theme": "spring",
+      "noun": "garden"
+     },
+     "text": "puutarhassa",
+     "picOpened": true,
+     "static": true
+    },
+    {
+     "key": "beach",
+     "pic": {
+      "theme": "summer",
+      "noun": "beach"
+     },
+     "text": "rannalla",
+     "picOpened": true,
+     "static": true
+    },
+    {
+     "key": "tent",
+     "pic": {
+      "theme": "camping",
+      "noun": "tent"
+     },
+     "text": "teltassa",
+     "picOpened": true,
+     "static": true
+    },
+    {
+     "key": "forest",
+     "pic": {
+      "theme": "camping",
+      "noun": "forest"
+     },
+     "text": "metsässä",
+     "picOpened": true,
+     "static": true
+    },
+    {
+     "key": "lake",
+     "pic": {
+      "theme": "camping",
+      "noun": "lake"
+     },
+     "text": "järvellä",
+     "picOpened": true,
+     "static": true
+    },
+    {
+     "key": "river",
+     "pic": {
+      "theme": "camping",
+      "noun": "river"
+     },
+     "text": "joella",
+     "picOpened": true,
+     "static": true
+    },
+    {
+     "key": "mountain",
+     "pic": {
+      "theme": "camping",
+      "noun": "mountain"
+     },
+     "text": "vuorella",
+     "picOpened": true,
+     "static": true
+    },
+    {
+     "key": "pool",
+     "pic": {
+      "theme": "summer",
+      "noun": "pool"
+     },
+     "text": "altaalla",
+     "picOpened": true,
+     "static": true
+    },
+    {
+     "key": "kitchen",
+     "pic": {
+      "theme": "around the house",
+      "noun": "kitchen"
+     },
+     "text": "keittiössä",
+     "picOpened": true,
+     "static": true
+    },
+    {
+     "key": "garage",
+     "pic": {
+      "theme": "around the house",
+      "noun": "garage"
+     },
+     "text": "autotallissa",
+     "picOpened": true,
+     "static": true
+    },
+    {
+     "key": "bed",
+     "pic": {
+      "theme": "around the house",
+      "noun": "bed"
+     },
+     "text": "sängyssä",
+     "picOpened": true,
+     "static": true
+    },
+    {
+     "key": "sofa",
+     "pic": {
+      "theme": "around the house",
+      "noun": "sofa"
+     },
+     "text": "sohvalla",
+     "picOpened": true,
+     "static": true
+    },
+    {
+     "key": "playground",
+     "pic": {
+      "theme": "activities",
+      "noun": "playground"
+     },
+     "text": "leikkikentällä",
+     "picOpened": true,
+     "static": true
+    },
+    {
+     "key": "cabin",
+     "pic": {
+      "theme": "camping",
+      "noun": "cabin"
+     },
+     "text": "mökillä",
+     "picOpened": true,
+     "static": true
+    }
+   ],
+   "twins": [
+    [
+     "lake",
+     "river"
+    ],
+    [
+     "house",
+     "cabin"
+    ]
+   ],
+   "times": [
+    {
+     "text": "kello kahdeksalta",
+     "h": 8
+    },
+    {
+     "text": "kello kolmelta",
+     "h": 3
+    },
+    {
+     "text": "kello kuudelta",
+     "h": 6
+    },
+    {
+     "text": "kello yhdeksältä",
+     "h": 9
+    },
+    {
+     "text": "kello kahdelta",
+     "h": 2
+    },
+    {
+     "text": "kello seitsemältä",
+     "h": 7
+    }
+   ],
+   "thingThemes": [
+    "animals",
+    "fruits",
+    "vehicles",
+    "toys",
+    "zoo animals",
+    "farm animals"
+   ],
+   "numbers": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "faces": {
+    "base": {
+     "kinds": [
+      "who",
+      "what",
+      "where"
+     ]
+    },
+    "match": {
+     "kinds": [
+      "who",
+      "what",
+      "where",
+      "when",
+      "howmany"
+     ]
+    },
+    "fill": {
+     "kinds": [
+      "who",
+      "what",
+      "where",
+      "when",
+      "howmany"
+     ]
+    },
+    "sort": {
+     "kinds": [
+      "who",
+      "what",
+      "where"
+     ]
+    },
+    "write": {
+     "kinds": [
+      "who",
+      "what",
+      "where",
+      "when",
+      "howmany"
+     ]
+    },
+    "ask": {
+     "kinds": [
+      "who",
+      "what",
+      "where",
+      "when",
+      "why",
+      "how"
+     ]
+    }
+   },
+   "strings": {
+    "base": {
+     "title": "Kysymyssanat: kuka, mikä, missä",
+     "instruction": "Lue lause. Katso korostettuja sanoja. Ympyröi kysymyssana, joka kysyy niitä."
+    },
+    "match": {
+     "title": "Kysymys ja vastaus",
+     "instruction": "Lue jokainen kysymys vasemmalla. Piirrä viiva siihen vastaukseen oikealla, joka siihen sopii."
+    },
+    "fill": {
+     "title": "Täydennä kysymyssana",
+     "bankWord": "sanapankista",
+     "boxWord": "ruutuun",
+     "instruction": "Lue vastaus ja etsi korostetut sanat. Kirjoita kysymyssana sanapankista ruutuun."
+    },
+    "sort": {
+     "title": "Kuka, mikä vai missä? Lajittele vastaukset",
+     "instruction": "Lue jokainen sanalappu. Kirjoita se sen kysymyksen laatikkoon, johon se vastaa."
+    },
+    "write": {
+     "title": "Tee kysymys",
+     "instruction": "Lue vastaus. Katso korostettuja sanoja. Kirjoita viivalle kysymys, joka kysyy niitä."
+    },
+    "ask": {
+     "title": "Kysymyksiä kuvasta: miksi ja miten",
+     "pictureWord": "kuvaa",
+     "instruction": "Katso kuvaa. Täydennä jokainen kysymys. Aloita sillä sanalla, joka on jo viivalla."
+    }
+   }
+  }
+ },
+ "refusals": {
+  "G2-354": "Suomen possessiivinen ilmaus on omistajasta riippumaton: hänen on sama sekä miehelle että naiselle, ja liitepartikkeli (-nsa / -nsä) ei erottele omistajaa lainkaan. Kolmea erottelevaa merkkiä ei ole olemassa, joten tehtävällä ei ole oikeaa vastausta suomeksi (design G1-352 §4, lukon mukainen kieltäytyminen).",
+  "K-367": "Suomessa ei ole yhtä kansallista jäteastian väriä, joka kattaisi tämän sivun viisi astiaa. Kierrätysmerkkien värit vaihtelevat jätehuoltoyhtiöittäin, ja tämän lokaalin Paperi-astia yhdistää paperin ja kartongin, joilla on eri merkkiväri; viidettä erottelevaa väriä jouduttaisiin keksimään. Luokkakohtainen väriavain taas olisi K-241 (väritä koodin mukaan), joten F4 kieltäydytään, ei arvata."
+ },
+ "enAudit": [
+  "K-357 (recycling) EN: the `scheme` sentence says many US towns collect recyclables single-stream in one cart, but all five faces still ask the child to separate five bins by material — the sentence contradicts the page it describes.",
+  "K-357 EN: the base title \"Recycling Sort\" and F1 \"Recycling Sort: Which Bin?\" differ only by the question suffix; the base names no move at all while every other family in the batch gives the base a bare head.",
+  "G1-350 (cloze) EN: `ducks-pond` pins `farm animals/duck`, and EVERY duck picture in the library (farm animals, animals, birds 2, Things That Fly) is a yellow DUCKLING, not an adult duck — opened at 512 px, all four. \"The ducks quack on the pond\" over ducklings teaches the wrong word; the fi block drops the duck frame and uses `swan` instead.",
+  "G1-350 EN: `kangaroo-pouch` says \"carries its baby in a pouch\" but the pinned `zoo animals/kangaroo` shows no joey and no pouch — the fact is true of kangaroos, not of the picture, so the child has nothing on the page to check it against.",
+  "G1-350 EN: `rooster-crow` lists `fits: [rooster, chicken]`, yet the rule is that `fits` holds every pool noun the predicate admits — a hen/chicken does not crow, so `chicken` makes the frame non-exclusive by its own definition.",
+  "G1-350 EN: `blueberries-blue` is the only copula frame in the plural list and its `exclusiveWhy` argues from the twin rule (\"blackberry is a twin\"), i.e. from a page-composition rule rather than from the predicate — a twin exclusion is not a reason the predicate is exclusive.",
+  "K-354 (human-body) EN: `factLabels.hair` is \"How much hair?\" while every other label is \"How many X?\" — the shape difference is right (hair is a mass noun) but the field is documented as \"the how many X form\", so the doc and the data disagree; fi keeps the mass form and says so.",
+  "K-355 (five-senses) EN: `starters` are all \"I can hear ...\", which the design itself says fits only en/nl/da/no; the EN block does not record that it is the exception, so a panel reading only the EN block will copy an ability frame that is ungrammatical or unidiomatic in six locales.",
+  "K-356 (weather-symbols) EN: `distractors: [\"wind\", \"fog\"]` are described as d3-only symbol-less weather words, but neither has a `symbolWords` entry or a picture — a reader of the block cannot tell they are deliberately picture-less rather than missing.",
+  "K-356 EN: `diaryDays: null` + `diaryStart: \"mon\"` while `calendar.js` en is Sunday-first, so the EN diary header starts on Monday against a Sunday-first calendar — the same rotation defect the pt panel found, left open as \"OPEN 5\" in the EN block instead of decided.",
+  "G1-353 (question-words) EN: the base title says \"Who, What, Where\" while the d2 chip set is who/what/where — correct — but `faces.match/fill/write` list five kinds and the shipped F1/F2/F4 titles name none, so the title rule is enforced on the base only by accident of wording.",
+  "G1-352 (pronouns) EN: `possessive.things` are described as \"12 short nouns (<= 5 glyphs)\" but `robot` is 5, `train` 5 and `cake` 4 while the comment computes the worst case from \"robot\" — `doll` is in the list and the design record itself says the `doll` picture reads as a girl, i.e. as a PERSON, on a face whose whole point is that things and persons are disjoint.",
+  "G2-346 (rounding) EN: `up[10]` and `up[100]` are the same literal \"round up\" and `heads` are \"nearest ten\"/\"nearest hundred\" — fine — but the instruction of the base says \"If the ones digit is 5 or more, round up\" while F4 (inverse) asks the child to circle numbers that round to a given ten WITHOUT restating the half-up rule; the two faces disagree about how much of the rule is given.",
+  "G1-351 (odd-and-even) EN: the `rule` sentence carries the chips as \"Even\"/\"Odd\" capitalised at sentence start, and the validator requires the chip literal as a whole word — it passes only because the match is case-insensitive; a locale whose chips are inflected (fi parillinen / pariton) cannot reuse the EN sentence shape at all, which the EN block does not flag.",
+  "G1-352 (pronouns) EN + design: the anaphora intro template is \"{a} and {b} are in the park.\", and the fi re-target fills {b} with a PAIR joined by the same `and` literal — so the shipped fi page reads \"Emma ja Aaro ja Eino leipovat.\", a doubled conjunction no Finnish teacher would accept. Nothing in the EN block or in the design flags that {b} is not a single name under `introMaxTwo`; found by READING the render, and fixed here by writing the fi intro as \"{a}, {b} ...\".",
+  "G1-350 (cloze) EN + design: the EN frames put the {gap} mid-sentence (\"The {gap} gives us milk.\"), so the lowercase bank word lands mid-sentence. In a locale with no articles the natural frame starts with the gap, and then the child copies a LOWERCASE bank word into sentence-initial position. Neither the block nor the validator says a word about it; found by reading the fi render, and fixed by fronting an adverbial in all 16 + 12 + 18 fi frames.",
+  "G1-353 (question-words) design: the validator probes a frame filled with x*12 for {thing}/{part}, but the fi partitive of a pool noun runs to 15 graphemes (granaattiomenaa, hiekkalaatikkoa, puskutraktoria), so \"Kuinka monta {part} {name} loytaa?\" passes the 44-char rule and still wraps past two lines on the F1 answer card. Measured in the render (2 of 60 seeded runs fail without the fix); the fi block excludes the 10 longest-partitive keys.",
+  "K-353 (tangram) EN: the base instruction says \"Color each piece like the legend\" and F5 counts triangles and squares, but the EN base title promises \"Build Two Figures\" while the page only asks the child to lay the pieces on two printed figures — nothing is built off the page, so the title over-promises what the sheet does."
+ ]
+}

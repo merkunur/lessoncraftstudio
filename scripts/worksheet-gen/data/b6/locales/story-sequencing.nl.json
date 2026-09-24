@@ -156,14 +156,14 @@
         "de plank",
         "de verf",
         "de kwast",
-        "de verfpot"
+        "de verfemmer"
       ],
       "helpIds": [
         "fence",
         "plank",
         "paint",
         "brush",
-        "pot"
+        "bucket"
       ]
     },
     "letter": {
@@ -261,7 +261,7 @@
     },
     "first-next-last-cut": {
       "title": "Volgordeplaatjes van een verhaal knippen: eerst, dan, tot slot",
-      "instruction": "Knip de plaatjes van elke strook uit en plak ze in de lege vakken boven Eerst, Dan en Tot slot."
+      "instruction": "Knip de plaatjes van elke strook uit en plak ze in de lege vakken aan de waslijn met hetzelfde teken, boven Eerst, Dan en Tot slot."
     },
     "what-happens-next": {
       "title": "Verhaal op volgorde: wat gebeurt er daarna?",
@@ -272,8 +272,8 @@
       "instruction": "Kijk naar het begin en het eind van elk verhaal en teken in het lege vak wat er in het midden gebeurt."
     },
     "sequencing-sentences": {
-      "title": "Verhaal op volgorde lezen: welke zin hoort bij welk plaatje?",
-      "instruction": "Lees de zinnen van elk verhaal en trek een lijn van elke zin naar het plaatje dat erbij hoort."
+      "title": "Verhaal op volgorde lezen: nummer de zinnen en zoek het plaatje",
+      "instruction": "Nummer de zinnen van elk verhaal op volgorde in de hokjes en trek dan een lijn van elke zin naar het plaatje dat erbij hoort."
     },
     "retell-with-starters": {
       "title": "Vertel het verhaal na bij de plaatjes: schrijf met startwoorden",

@@ -1,8 +1,8 @@
 {
   "strings": {
     "base": {
-      "title": "Hygien och goda vanor: vad behöver barnen?",
-      "instruction": "Dra ett streck från varje barn till det som barnet behöver."
+      "title": "Hygien och goda vanor: vad använder barnen?",
+      "instruction": "Dra ett streck från varje barn till saken som barnet använder."
     },
     "hand-washing-steps": {
       "title": "Tvätta händerna med bildstöd",
@@ -10,7 +10,7 @@
     },
     "brushing-teeth": {
       "title": "Borsta tänderna: före, under och efter",
-      "instruction": "Ringa in ordet som visar när det händer: före, under eller efter tandborstningen."
+      "instruction": "Titta på varje bild och ringa in före, under eller efter tandborstningen."
     },
     "stop-the-germs": {
       "title": "Nysa och hosta i armvecket: stoppa bakterierna",
@@ -33,7 +33,7 @@
   "labels": {
     "wash-hands": "tvätta händerna",
     "brush-teeth": "borsta tänderna",
-    "sleep": "sova",
+    "sleep": "gå i säng tidigt",
     "move-body": "röra på sig",
     "drink-water": "dricka vatten",
     "sun-protect": "skydda sig mot solen",
@@ -67,7 +67,8 @@
       "säng",
       "sängen",
       "natt",
-      "natten"
+      "natten",
+      "tidigt"
     ],
     "move-body": [
       "röra",

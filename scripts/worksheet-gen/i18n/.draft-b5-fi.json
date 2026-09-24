@@ -1,0 +1,5396 @@
+{
+  "locale": "fi",
+  "types": {
+    "K-368": {
+      "title": "Tasokuviot: tunnista ja nimeä",
+      "instruction": "Katso jokaista kuviota, myös käännettyjä ja kapeita, ja rengasta kuvion nimi."
+    },
+    "G1-381": {
+      "title": "Tasokuviot: onko se oikea kuvio?",
+      "instruction": "Lue rivin yläpuolella oleva nimi ja rengasta rivistä jokainen kuvio, joka todella on sen niminen."
+    },
+    "K-371": {
+      "title": "Tasokuviot ympärillämme",
+      "instruction": "Katso jokaista kuvaa ja väritä se kuvio, jonka muotoinen esine on: ympyrä tai suorakulmio."
+    },
+    "G1-382": {
+      "title": "Tasokuviot: kirjoita nimet",
+      "instruction": "Kirjoita jokaisen kuvion nimi sen viereen viivalle ja ota nimet laatikosta."
+    },
+    "G1-383": {
+      "title": "Tasokuvioiden arvoitukset",
+      "instruction": "Lue jokainen arvoitus ja rengasta kuvion nimi."
+    },
+    "K-372": {
+      "title": "Piirrä tasokuviot pisteisiin",
+      "instruction": "Lue kuvion nimi ja piirrä kuvio yhdistämällä pisteitä, ja aloita paksusta viivasta, jos sellainen on."
+    },
+    "K-369": {
+      "title": "Liikenneturvallisuus: mitä liikennevalo näyttää?",
+      "instruction": "Katso palavaa valoa ja rengasta se, mitä valo käskee tehdä."
+    },
+    "K-373": {
+      "title": "Väritä liikennevalot oikein",
+      "instruction": "Etsi jokaisesta liikennevalosta lamppu, jonka ympärillä on säteitä, ja väritä se sillä värillä, jolla se palaa."
+    },
+    "K-374": {
+      "title": "Kadun ylitys turvallisesti: vaihe vaiheelta",
+      "instruction": "Kirjoita ruutuihin numerot 1–4 siinä järjestyksessä, jossa ylität kadun turvallisesti."
+    },
+    "G1-384": {
+      "title": "Liikennemerkit lapsille ja niiden merkitys",
+      "instruction": "Yhdistä viivalla jokainen liikennemerkki siihen, mitä merkki tarkoittaa."
+    },
+    "G2-360": {
+      "title": "Liikennemerkkien ryhmät: varoitus-, kielto- ja määräysmerkit",
+      "instruction": "Kirjoita jokaisen liikennemerkin kirjain oikean merkkiryhmän ruutuihin."
+    },
+    "G2-361": {
+      "title": "Liikennemerkkivisa lapsille: mikä merkki sopii?",
+      "instruction": "Lue jokainen lause ja rengasta se ainoa liikennemerkki, joka sopii siihen."
+    },
+    "K-370": {
+      "title": "Perhe ja sukulaiset: kuka on kuka?",
+      "instruction": "Etsi jokainen henkilö perhepuusta ja kirjoita hänen numeronsa oikean sukulaissanan viereiseen ruutuun."
+    },
+    "G1-385": {
+      "title": "Sukupolvet: vanhimmasta nuorimpaan",
+      "instruction": "Kirjoita jokaisen rivin ruutuihin 1, 2 ja 3 niin, että sanat ovat järjestyksessä vanhimmasta sukupolvesta nuorimpaan."
+    },
+    "K-375": {
+      "title": "Sukulaissanat: jäljennä ja kirjoita",
+      "instruction": "Etsi puusta henkilö, jolla on sama numero, jäljennä hänen sukulaissanansa ja kirjoita se vielä kerran viivalle."
+    },
+    "G1-386": {
+      "title": "Perhepuu: lue vihjeet",
+      "instruction": "Lue vihjeet ja kirjoita jokainen nimi oikeaan nimiruutuun perhepuussa."
+    },
+    "G2-362": {
+      "title": "Sukulaisarvoitukset: kuka sukulainen on kyseessä?",
+      "instruction": "Lue jokainen arvoitus ja kirjoita ruutuun oikea sukulaissana laatikosta; sama sana voi sopia useampaan arvoitukseen."
+    },
+    "G1-387": {
+      "title": "Perhepuun pohja: täytä itse",
+      "instruction": "Piirrä kehyksiin ihmiset, jotka ovat sinulle tärkeitä, ja kirjoita heidän nimensä viivoille."
+    },
+    "G1-376": {
+      "title": "Kasvin osat",
+      "instruction": "Seuraa jokaista numeroitua lappua kasvin osaan ja kirjoita osan nimi sanapankista viivalle, jolla on sama numero."
+    },
+    "K-376": {
+      "title": "Mitä kasvi tarvitsee kasvaakseen?",
+      "instruction": "Katso, mitä kukin kasvi saa, ja rengasta jokaiselta riviltä kasvi, joka saa molemmat asiat, joita se tarvitsee kasvaakseen."
+    },
+    "G1-388": {
+      "title": "Siemenestä kasviksi",
+      "instruction": "Leikkaa irti neljä kuvaa ja liimaa ne tyhjiin ruutuihin nuolten suuntaan siemenestä alkaen."
+    },
+    "G2-363": {
+      "title": "Mitä kasvin osaa syömme?",
+      "instruction": "Katso jokaista ruokaa ja rengasta se kasvin osa, jota syömme."
+    },
+    "G2-364": {
+      "title": "Kasvin osat ja mitä ne tekevät",
+      "instruction": "Lue, mitä kukin osa tekee, etsi osa kasvista ja kirjoita sen lapun numero ruutuun."
+    },
+    "G3-392": {
+      "title": "Kukan osat",
+      "instruction": "Kirjoita jokaisen numeroidun kukan osan nimi sen viivalle ja vedä yli se sanapankin sana, joka ei ole kukan osa."
+    },
+    "G1-377": {
+      "title": "Perhosen kehitysvaiheet: munasta perhoseksi",
+      "instruction": "Muna on 1: kirjoita ruutuihin 2, 3 ja 4 oikeassa järjestyksessä ja viimeiseen ruutuun sen kuvan numero, joka tulee perhosen jälkeen."
+    },
+    "G1-389": {
+      "title": "Sammakon kehitysvaiheet: leikkaa ja liimaa",
+      "instruction": "Leikkaa neljä ruutua irti ja liimaa jokainen omalle lumpeenlehdelleen lammen ympäri sammakonkudusta sammakkoon."
+    },
+    "G2-365": {
+      "title": "Perhosen kehitysvaiheet: kirjoita vaiheiden nimet",
+      "instruction": "Kirjoita neljän vaiheen nimet sanapankista oikeiden kuvien alle viivoille ja vedä yli se yksi sana, joka ei kuulu joukkoon."
+    },
+    "G2-366": {
+      "title": "Muodonvaihdos: miksi eläimeksi se kasvaa?",
+      "instruction": "Katso jokaista kehitysvaihetta ja kirjoita sen kirjain ruutuun sen eläimen alle, joksi se kasvaa; osa ruuduista jää tyhjiksi."
+    },
+    "G3-393": {
+      "title": "Perhosen ja sammakon kehitysvaiheet: vertaile",
+      "instruction": "Lue jokainen lause ja merkitse rasti perhosen, sammakon tai molempien kohdalle, kun lause pitää paikkansa."
+    },
+    "G1-390": {
+      "title": "Mitä tulee seuraavaksi? Perhonen, sammakko ja leppäkerttu",
+      "instruction": "Katso jokaisen rivin ensimmäistä kuvaa ja rengasta kuva, joka tulee heti sen jälkeen; aikuisen jälkeen kaikki alkaa taas munasta."
+    },
+    "G1-378": {
+      "title": "Aurinko, Maa ja Kuu",
+      "instruction": "Lue jokainen lause ja merkitse rasti Auringon, Maan tai Kuun alla olevaan ruutuun."
+    },
+    "G1-391": {
+      "title": "Kuun vaiheet oikeassa järjestyksessä",
+      "instruction": "Katso rivin kiilasta, kasvaako vai pieneneekö kuu, ja kirjoita kuiden alle numerot 1–5 siinä järjestyksessä."
+    },
+    "G2-367": {
+      "title": "Kuun vaiheiden nimet",
+      "instruction": "Katso jokaista kuuta ja kirjoita sen nimi viivoille, ja käytä jokaista sanapankin sanaa kahdesti."
+    },
+    "G2-368": {
+      "title": "Miksi on päivä ja yö?",
+      "instruction": "Katso, missä Aurinko on, ja rengasta taulukosta jokaisen numeroidun nastan kohdalta päivä tai yö."
+    },
+    "G3-394": {
+      "title": "Planeetat järjestyksessä Auringosta",
+      "instruction": "Kirjoita jokaisen planeetan nimi sen viivalle alkaen Aurinkoa lähimmästä, ja käytä jokaisen kortin nimeä kerran."
+    },
+    "G3-395": {
+      "title": "Jättiläisplaneetat ja kiviplaneetat",
+      "instruction": "Lajittele nimet ja kirjoita jokainen oikeaan laatikkoon: jättiläisplaneetta, pieni kiviplaneetta tai ei planeetta."
+    },
+    "G1-379": {
+      "title": "Karttamerkit: etsi ja laske",
+      "instruction": "Katso karttamerkkejä, etsi jokainen asia kartalta ja kirjoita ruutuun, montako niitä on."
+    },
+    "K-377": {
+      "title": "Ylhäältä katsottuna: sivulta ja ylhäältä",
+      "instruction": "Jokainen asia on piirretty sivulta, joten yhdistä se viivalla samaan asiaan ylhäältä katsottuna."
+    },
+    "G2-369": {
+      "title": "Ilmansuunnat: pohjoinen, itä, etelä ja länsi",
+      "instruction": "Oranssi kärki osoittaa aina pohjoiseen, joten kirjoita jokaisen ruusun kolme puuttuvaa kirjainta tyhjiin ruutuihin."
+    },
+    "G2-370": {
+      "title": "Maanosat: kirjoita nimet",
+      "instruction": "Kirjoita jokaisen numeroidun maanosan nimi sen viivalle ja ota nimet laatikosta."
+    },
+    "G3-396": {
+      "title": "Maanosat ja valtameret",
+      "instruction": "Etsi jokainen maanosa ja valtameri kartalta ja kirjoita sen numero nimen viereiseen ruutuun."
+    },
+    "G2-371": {
+      "title": "Ilmansuunnat kartalla",
+      "instruction": "Etsi kartalta ensimmäinen kuva, katso siihen suuntaan, jonka sana kertoo, ja rengasta kolmesta kuvasta se, joka on siellä."
+    },
+    "G1-380": {
+      "title": "Pitkä vokaali aa, uu vai ää: mikä kuuluu sanassa?",
+      "instruction": "Sano jokaisen kuvan nimi ja rengasta se pitkä vokaali, jonka kuulet."
+    },
+    "K-378": {
+      "title": "Pitkä vokaali: lajittele kuvat, aa vai uu?",
+      "instruction": "Sano jokaisen kuvan nimi ja yhdistä se viivalla siihen pitkään vokaaliin, jonka kuulet."
+    },
+    "G1-392": {
+      "title": "Kirjoita puuttuva pitkä vokaali: aa, uu vai ää",
+      "instruction": "Sano jokaisen kuvan sana ja kirjoita ylhäältä puuttuva pitkä vokaali katkoviivalla merkittyyn kohtaan."
+    },
+    "G1-393": {
+      "title": "Pitkä vokaali: lue sanat ja yhdistä kuviin",
+      "instruction": "Lue jokainen sana, jonka pitkä vokaali on merkitty, ja yhdistä se viivalla oikeaan kuvaan."
+    },
+    "G1-394": {
+      "title": "Missä kohdassa pitkä vokaali kuuluu?",
+      "instruction": "Sano kuvan sana ja väritä alku, jos sana alkaa pitkällä vokaalilla, loppu, jos se loppuu siihen, ja muuten keskikohta."
+    },
+    "G2-372": {
+      "title": "Pitkät vokaalit lauseissa: etsi ja laske aa",
+      "instruction": "Lue lauseet, rengasta jokainen aa ja kirjoita ruutuun, montako niitä on kussakin lauseessa."
+    },
+    "G2-358": {
+      "title": "Synonyymit: rengasta sana, joka tarkoittaa samaa",
+      "instruction": "Lue jokaisen kortin iso sana ja rengasta sen alta sana, joka tarkoittaa samaa."
+    },
+    "G1-395": {
+      "title": "Synonyymit kuvien avulla: kaksi sanaa, yksi kuva",
+      "instruction": "Katso jokaista kuvaa ja rengasta sen alta kaksi sanaa, jotka tarkoittavat samaa ja sopivat kuvaan."
+    },
+    "G2-373": {
+      "title": "Synonyymiparit: yhdistä samaa tarkoittavat sanat",
+      "instruction": "Yhdistä viivalla jokainen vasemman puolen sana siihen oikean puolen sanaan, joka tarkoittaa samaa."
+    },
+    "G1-396": {
+      "title": "Sanojen voimakkuus: heikoimmasta voimakkaimpaan",
+      "instruction": "Lue rivin kolme sanaa ja kirjoita ruutuihin 1, 2 ja 3 heikoimmasta sanasta voimakkaimpaan."
+    },
+    "G2-374": {
+      "title": "Sanoi-sanan synonyymit: valitse sopiva sana",
+      "instruction": "Lue jokainen lause ja kirjoita ruutuun puhekuplasta se sana, joka sopii parhaiten sanan sanoi tilalle."
+    },
+    "G3-397": {
+      "title": "Mennä ja katsoa: lajittele synonyymit",
+      "instruction": "Lue kymmenen sanaa ja kirjoita jokainen sana joko mennä-kenttään tai katsoa-kenttään sen mukaan, mihin se kuuluu."
+    },
+    "G2-359": {
+      "title": "Kantasana: lajittele sanat vartalon mukaan",
+      "instruction": "Lue jokainen ylhäällä oleva sana ja kirjoita se sen muurin riville, jonka kivessä on sanan kantasana."
+    },
+    "G1-397": {
+      "title": "Kantasana kuvasta: rengasta oikea sana",
+      "instruction": "Sano, mitä kuva esittää, ja rengasta sen yläpuolelta se ainoa sana, joka on tehty kuvan sanasta."
+    },
+    "G2-375": {
+      "title": "Etsi kantasana",
+      "instruction": "Rengasta osa, joka on kaikissa kolmessa sanassa, ja kirjoita kantasana tyhjään kiveen."
+    },
+    "G3-398": {
+      "title": "Kuka tekee? Tekijää tarkoittava sana",
+      "instruction": "Katso jokaista ihmistä, lue sana hänen vieressään ja kirjoita katkoviivaruutuun tekijää tarkoittava sana."
+    },
+    "G3-399": {
+      "title": "Johdokset lauseissa",
+      "instruction": "Kirjoita jokainen kantasanan yläpuolella olevista neljästä sanasta sen lauseen ruutuun, johon sana sopii."
+    }
+  },
+  "families": {
+    "2d-shapes": {
+      "slug": "tasokuviot",
+      "name": "Tasokuviot"
+    },
+    "road-safety": {
+      "slug": "liikenneturvallisuus",
+      "name": "Liikenneturvallisuus"
+    },
+    "family": {
+      "slug": "perhe-ja-sukulaiset",
+      "name": "Perhe ja sukulaiset"
+    },
+    "plants": {
+      "slug": "kasvin-osat",
+      "name": "Kasvin osat"
+    },
+    "animal-life-cycles": {
+      "slug": "perhosen-ja-sammakon-kehitysvaiheet",
+      "name": "Perhosen ja sammakon kehitysvaiheet"
+    },
+    "earth-and-space": {
+      "slug": "aurinkokunta",
+      "name": "Aurinkokunta"
+    },
+    "maps": {
+      "slug": "kartat-ja-ilmansuunnat",
+      "name": "Kartat ja ilmansuunnat"
+    },
+    "digraphs": {
+      "slug": "pitka-vokaali",
+      "name": "Pitkä vokaali"
+    },
+    "synonyms": {
+      "slug": "synonyymit",
+      "name": "Synonyymit"
+    },
+    "word-parts": {
+      "slug": "kantasana-ja-johdokset",
+      "name": "Kantasana ja johdokset"
+    }
+  },
+  "skills": {
+    "2d-shapes": {
+      "full": "Tasokuviot: ympyrän, neliön, kolmion ja suorakulmion tunnistaminen ja nimeäminen myös käännettyinä, kuviot ympäristössä, nimien kirjoittaminen ja piirtäminen.",
+      "short": "Ympyrä, neliö, kolmio ja suorakulmio"
+    },
+    "road-safety": {
+      "full": "Liikenneturvallisuus: liikennevalojen lukeminen, kadun turvallinen ylittäminen, liikennemerkit ja niiden merkitys sekä varoitus-, kielto- ja määräysmerkit.",
+      "short": "Liikennevalot ja liikennemerkit"
+    },
+    "family": {
+      "full": "Perhe ja sukulaiset: sukulaissanat kuten isoäiti, täti, eno ja setä, sukupolvien järjestys, perhepuu vihjeiden avulla ja sukulaisarvoitukset.",
+      "short": "Sukulaissanat, perhepuu ja arvoitukset"
+    },
+    "plants": {
+      "full": "Kasvin osat: juuri, varsi, lehti, kukka, hedelmä ja siemen, mitä kasvi tarvitsee kasvaakseen, siemenestä kasviksi ja kukan osat.",
+      "short": "Kasvin osat, niiden tehtävät ja mitä kasvi tarvitsee"
+    },
+    "animal-life-cycles": {
+      "full": "Perhosen ja sammakon kehitysvaiheet: munasta perhoseksi ja sammakonkudusta sammakoksi, vaiheiden järjestäminen ja nimeäminen sekä kahden eläimen vertailu.",
+      "short": "Perhosen ja sammakon kehitysvaiheet"
+    },
+    "earth-and-space": {
+      "full": "Aurinkokunta: Aurinko, Maa ja Kuu, kuun vaiheet järjestyksessä ja nimettyinä, miksi on päivä ja yö sekä planeetat järjestyksessä ja koon mukaan.",
+      "short": "Aurinko, kuun vaiheet ja planeetat"
+    },
+    "maps": {
+      "full": "Kartat ja ilmansuunnat: karttamerkkien lukeminen, asiat ylhäältä katsottuina, ilmansuunnat pohjoinen, itä, etelä ja länsi sekä maanosat ja valtameret.",
+      "short": "Karttamerkit, ilmansuunnat ja maanosat"
+    },
+    "digraphs": {
+      "full": "Pitkä vokaali: pitkien vokaalien aa, uu ja ää kuuleminen ja kirjoittaminen, kuvien lajittelu, sanojen lukeminen ja pitkien vokaalien etsiminen lauseista.",
+      "short": "Pitkät vokaalit aa, uu ja ää"
+    },
+    "synonyms": {
+      "full": "Synonyymit: samaa tarkoittavat sanat kuvien ja sanaparien avulla, sanojen voimakkuus sekä sanoi-, mennä- ja katsoa-sanojen synonyymit.",
+      "short": "Samaa tarkoittavat sanat"
+    },
+    "word-parts": {
+      "full": "Kantasana ja johdokset: sanojen lajittelu kantasanan mukaan, kantasanan etsiminen, johdokset lauseissa ja tekijää tarkoittavat sanat kuten laulaja ja leipuri.",
+      "short": "Kantasana, vartalo ja johdokset"
+    }
+  },
+  "topicMeta": {
+    "2d-shapes": "Tulostettavat tasokuviot esiopetukseen ja 1. luokalle: ympyrä, neliö, kolmio ja suorakulmio, myös käännettyinä, kuviot ympärillämme ja arvoitukset.",
+    "road-safety": "Tulostettava liikenneturvallisuus esiopetukseen ja alkuopetukseen: liikennevalot, kadun ylitys, liikennemerkit ja niiden merkitys sekä liikennemerkkivisa.",
+    "family": "Tulostettavat sukulaissanat esiopetukseen ja alkuopetukseen: isoäiti, eno, setä ja täti, sukupolvet, perhepuun pohja ja sukulaisarvoitukset.",
+    "plants": "Tulostettavat kasvin osat 1. ja 2. luokalle: juuri, varsi, lehti ja kukka, mitä kasvi tarvitsee, siemenestä kasviksi ja kukan osat.",
+    "animal-life-cycles": "Tulostettavat perhosen ja sammakon kehitysvaiheet 1.–3. luokalle: muna, toukka, kotelo ja perhonen, sammakonkutu ja nuijapää sekä vertailu.",
+    "earth-and-space": "Tulostettava aurinkokunta 1.–3. luokalle: Aurinko, Maa ja Kuu, kuun vaiheet, päivä ja yö sekä planeetat järjestyksessä Auringosta.",
+    "maps": "Tulostettavat kartat ja ilmansuunnat esiopetukseen ja alakouluun: karttamerkit, asiat ylhäältä katsottuina, ilmansuunnat sekä maanosat ja valtameret.",
+    "digraphs": "Tulostettavat pitkän vokaalin harjoitukset 1. luokalle: lyhyt vai pitkä vokaali, aa, uu ja ää kuvista, sanoista ja lauseista.",
+    "synonyms": "Tulostettavat synonyymit 1.–3. luokalle: samaa tarkoittavat sanat kuvien avulla, synonyymiparit, sanojen voimakkuus ja sanoi-sanan synonyymit.",
+    "word-parts": "Tulostettava kantasana ja johdokset 2. ja 3. luokalle: lajittele sanat kantasanan mukaan, etsi kantasana ja kirjoita tekijää tarkoittava sana."
+  },
+  "banks": {
+    "2d-shapes": {
+      "names": {
+        "circle": "ympyrä",
+        "square": "neliö",
+        "triangle": "kolmio",
+        "rectangle": "suorakulmio",
+        "hexagon": "kuusikulmio"
+      },
+      "overrides": {},
+      "inflections": {
+        "circle": [
+          "ympyrän",
+          "ympyrää",
+          "ympyrät",
+          "ympyröitä",
+          "ympyrässä",
+          "ympyrästä",
+          "ympyräksi",
+          "ympyröiden"
+        ],
+        "square": [
+          "neliön",
+          "neliötä",
+          "neliöt",
+          "neliöitä",
+          "neliössä",
+          "neliöstä",
+          "neliöksi",
+          "neliöiden"
+        ],
+        "triangle": [
+          "kolmion",
+          "kolmiota",
+          "kolmiot",
+          "kolmioita",
+          "kolmiossa",
+          "kolmiosta",
+          "kolmioksi",
+          "kolmioiden"
+        ],
+        "rectangle": [
+          "suorakulmion",
+          "suorakulmiota",
+          "suorakulmiot",
+          "suorakulmioita",
+          "suorakulmiossa",
+          "suorakulmioksi",
+          "suorakulmioiden"
+        ],
+        "hexagon": [
+          "kuusikulmion",
+          "kuusikulmiota",
+          "kuusikulmiot",
+          "kuusikulmioita",
+          "kuusikulmioksi"
+        ]
+      },
+      "inventory": {
+        "hexagon": true
+      },
+      "riddles": {
+        "circle": [
+          {
+            "text": "Olen pyöreä joka puolelta, eikä minulla ole yhtään kulmaa. Mikä olen?",
+            "clue": "round"
+          },
+          {
+            "text": "Minulla ei ole suoria sivuja eikä kulmia lainkaan. Mikä olen?",
+            "clue": "round"
+          }
+        ],
+        "square": [
+          {
+            "text": "Minulla on 4 yhtä pitkää sivua ja 4 kulmaa kuin kirjan kulma. Mikä olen?",
+            "clue": "equal"
+          },
+          {
+            "text": "Kaikki 4 sivuani ovat yhtä pitkiä, ja kulmani ovat kuin kirjan kulma. Mikä olen?",
+            "clue": "equal"
+          }
+        ],
+        "triangle": [
+          {
+            "text": "Minulla on 3 sivua ja 3 kulmaa. Mikä olen?",
+            "clue": "three"
+          },
+          {
+            "text": "Minulla on vain 3 suoraa sivua. Mikä olen?",
+            "clue": "three"
+          }
+        ],
+        "rectangle": [
+          {
+            "text": "Minulla on 2 pitkää ja 2 lyhyttä sivua sekä 4 kulmaa kuin kirjan kulma. Mikä olen?",
+            "clue": "longShort"
+          },
+          {
+            "text": "Kulmani ovat kuin kirjan kulma, ja sivuistani 2 on pitkiä ja 2 lyhyitä. Mikä olen?",
+            "clue": "longShort"
+          }
+        ],
+        "hexagon": [
+          {
+            "text": "Minulla on 6 sivua ja 6 kulmaa. Mikä olen?",
+            "clue": "six"
+          },
+          {
+            "text": "Minulla on 6 suoraa sivua. Mikä olen?",
+            "clue": "six"
+          }
+        ]
+      },
+      "strings": {
+        "base": {
+          "title": "Tasokuviot: tunnista ja nimeä",
+          "instruction": "Katso jokaista kuviota, myös käännettyjä ja kapeita, ja rengasta kuvion nimi."
+        },
+        "real-or-not": {
+          "title": "Tasokuviot: onko se oikea kuvio?",
+          "instruction": "Lue rivin yläpuolella oleva nimi ja rengasta rivistä jokainen kuvio, joka todella on sen niminen."
+        },
+        "around-us": {
+          "title": "Tasokuviot ympärillämme",
+          "instruction": "Katso jokaista kuvaa ja väritä se kuvio, jonka muotoinen esine on: ympyrä tai suorakulmio."
+        },
+        "write-name": {
+          "title": "Tasokuviot: kirjoita nimet",
+          "instruction": "Kirjoita jokaisen kuvion nimi sen viereen viivalle ja ota nimet laatikosta."
+        },
+        "riddles": {
+          "title": "Tasokuvioiden arvoitukset",
+          "instruction": "Lue jokainen arvoitus ja rengasta kuvion nimi."
+        },
+        "dot-draw": {
+          "title": "Piirrä tasokuviot pisteisiin",
+          "instruction": "Lue kuvion nimi ja piirrä kuvio yhdistämällä pisteitä, ja aloita paksusta viivasta, jos sellainen on."
+        }
+      }
+    },
+    "road-safety": {
+      "convention": "vienna",
+      "signs": {
+        "stop": {
+          "code": "B6",
+          "regRef": "Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020 (tieliikennelaki 729/2018), B6 Pakollinen pysäyttäminen (punainen kahdeksankulmio, valkoinen teksti STOP) (numero epävarma / unsure)",
+          "shape": "octagon",
+          "rim": "white",
+          "field": "red",
+          "glyph": "text",
+          "text": "STOP",
+          "slash": false,
+          "class": "priority",
+          "signedBy": "fi native panel (nt10-E, 2026-09-23): record compared with the Finnish sign named in regRef (Tieliikennelaki 729/2018 + Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020, liikennemerkkien kuvat Traficom / Väylävirasto); shape, rim and field as in the annex (Finnish warning and prohibition signs have a YELLOW field); operator review pending ; code number unsure: check against the asetus annex (liite)"
+        },
+        "crossing": {
+          "code": "E1",
+          "regRef": "Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020 (tieliikennelaki 729/2018), E1 Suojatie (sininen neliö, valkoinen kolmio ja jalankulkija)",
+          "shape": "square",
+          "rim": "white",
+          "field": "blue",
+          "glyph": "crossingTriangle",
+          "text": "",
+          "slash": false,
+          "class": "information",
+          "signedBy": "fi native panel (nt10-E, 2026-09-23): record compared with the Finnish sign named in regRef (Tieliikennelaki 729/2018 + Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020, liikennemerkkien kuvat Traficom / Väylävirasto); shape, rim and field as in the annex (Finnish warning and prohibition signs have a YELLOW field); operator review pending"
+        },
+        "children": {
+          "code": "A16",
+          "regRef": "Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020 (tieliikennelaki 729/2018), A16 Lapsia (keltainen kolmio, punainen reuna) (numero epävarma / unsure)",
+          "shape": "triUp",
+          "rim": "red",
+          "field": "yellow",
+          "glyph": "twoChildren",
+          "text": "",
+          "slash": false,
+          "class": "warning",
+          "signedBy": "fi native panel (nt10-E, 2026-09-23): record compared with the Finnish sign named in regRef (Tieliikennelaki 729/2018 + Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020, liikennemerkkien kuvat Traficom / Väylävirasto); shape, rim and field as in the annex (Finnish warning and prohibition signs have a YELLOW field); operator review pending ; code number unsure: check against the asetus annex (liite)"
+        },
+        "pedestrian-warning": {
+          "code": "A15",
+          "regRef": "Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020 (tieliikennelaki 729/2018), A15 Suojatien ennakkovaroitus (keltainen kolmio, punainen reuna) (numero epävarma / unsure)",
+          "shape": "triUp",
+          "rim": "red",
+          "field": "yellow",
+          "glyph": "walker",
+          "text": "",
+          "slash": false,
+          "class": "warning",
+          "signedBy": "fi native panel (nt10-E, 2026-09-23): record compared with the Finnish sign named in regRef (Tieliikennelaki 729/2018 + Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020, liikennemerkkien kuvat Traficom / Väylävirasto); shape, rim and field as in the annex (Finnish warning and prohibition signs have a YELLOW field); operator review pending ; code number unsure: check against the asetus annex (liite)"
+        },
+        "signal-ahead": {
+          "code": "A10",
+          "regRef": "Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020 (tieliikennelaki 729/2018), A10 Liikennevalot (keltainen kolmio, punainen reuna) (numero epävarma / unsure)",
+          "shape": "triUp",
+          "rim": "red",
+          "field": "yellow",
+          "glyph": "trafficLightMini",
+          "text": "",
+          "slash": false,
+          "class": "warning",
+          "signedBy": "fi native panel (nt10-E, 2026-09-23): record compared with the Finnish sign named in regRef (Tieliikennelaki 729/2018 + Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020, liikennemerkkien kuvat Traficom / Väylävirasto); shape, rim and field as in the annex (Finnish warning and prohibition signs have a YELLOW field); operator review pending ; code number unsure: check against the asetus annex (liite)"
+        },
+        "bike-warning": {
+          "code": "A17",
+          "regRef": "Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020 (tieliikennelaki 729/2018), A17 Pyöräilijöitä ja mopoilijoita (keltainen kolmio, punainen reuna) (numero epävarma / unsure)",
+          "shape": "triUp",
+          "rim": "red",
+          "field": "yellow",
+          "glyph": "bicycle",
+          "text": "",
+          "slash": false,
+          "class": "warning",
+          "signedBy": "fi native panel (nt10-E, 2026-09-23): record compared with the Finnish sign named in regRef (Tieliikennelaki 729/2018 + Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020, liikennemerkkien kuvat Traficom / Väylävirasto); shape, rim and field as in the annex (Finnish warning and prohibition signs have a YELLOW field); operator review pending ; code number unsure: check against the asetus annex (liite)"
+        },
+        "no-entry": {
+          "code": "C17",
+          "regRef": "Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020 (tieliikennelaki 729/2018), C17 Kielletty ajosuunta (punainen ympyrä, valkoinen poikkiviiva) (numero epävarma / unsure)",
+          "shape": "circle",
+          "rim": null,
+          "field": "red",
+          "glyph": "bar",
+          "text": "",
+          "slash": false,
+          "class": "prohibition",
+          "signedBy": "fi native panel (nt10-E, 2026-09-23): record compared with the Finnish sign named in regRef (Tieliikennelaki 729/2018 + Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020, liikennemerkkien kuvat Traficom / Väylävirasto); shape, rim and field as in the annex (Finnish warning and prohibition signs have a YELLOW field); operator review pending ; code number unsure: check against the asetus annex (liite)"
+        },
+        "no-vehicles": {
+          "code": "C1",
+          "regRef": "Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020 (tieliikennelaki 729/2018), C1 Ajoneuvolla ajo kielletty (keltainen pohja, punainen reuna, tyhjä)",
+          "shape": "circle",
+          "rim": "red",
+          "field": "yellow",
+          "glyph": "none",
+          "text": "",
+          "slash": false,
+          "class": "prohibition",
+          "signedBy": "fi native panel (nt10-E, 2026-09-23): record compared with the Finnish sign named in regRef (Tieliikennelaki 729/2018 + Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020, liikennemerkkien kuvat Traficom / Väylävirasto); shape, rim and field as in the annex (Finnish warning and prohibition signs have a YELLOW field); operator review pending"
+        },
+        "no-bikes": {
+          "code": "C11",
+          "regRef": "Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020 (tieliikennelaki 729/2018), C11 Polkupyörällä ajo kielletty (keltainen pohja, punainen reuna) (numero epävarma / unsure)",
+          "shape": "circle",
+          "rim": "red",
+          "field": "yellow",
+          "glyph": "bicycle",
+          "text": "",
+          "slash": false,
+          "class": "prohibition",
+          "signedBy": "fi native panel (nt10-E, 2026-09-23): record compared with the Finnish sign named in regRef (Tieliikennelaki 729/2018 + Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020, liikennemerkkien kuvat Traficom / Väylävirasto); shape, rim and field as in the annex (Finnish warning and prohibition signs have a YELLOW field); operator review pending ; code number unsure: check against the asetus annex (liite)"
+        },
+        "no-pedestrians": {
+          "code": "C13",
+          "regRef": "Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020 (tieliikennelaki 729/2018), C13 Jalankulku kielletty (keltainen pohja, punainen reuna) (numero epävarma / unsure)",
+          "shape": "circle",
+          "rim": "red",
+          "field": "yellow",
+          "glyph": "walker",
+          "text": "",
+          "slash": false,
+          "class": "prohibition",
+          "signedBy": "fi native panel (nt10-E, 2026-09-23): record compared with the Finnish sign named in regRef (Tieliikennelaki 729/2018 + Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020, liikennemerkkien kuvat Traficom / Väylävirasto); shape, rim and field as in the annex (Finnish warning and prohibition signs have a YELLOW field); operator review pending ; code number unsure: check against the asetus annex (liite)"
+        },
+        "footpath": {
+          "code": "D4",
+          "regRef": "Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020 (tieliikennelaki 729/2018), D4 Jalkakäytävä (sininen pyöreä, valkoinen aikuinen ja lapsi) (numero epävarma / unsure)",
+          "shape": "circle",
+          "rim": "white",
+          "field": "blue",
+          "glyph": "adultChild",
+          "text": "",
+          "slash": false,
+          "class": "mandatory",
+          "signedBy": "fi native panel (nt10-E, 2026-09-23): record compared with the Finnish sign named in regRef (Tieliikennelaki 729/2018 + Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020, liikennemerkkien kuvat Traficom / Väylävirasto); shape, rim and field as in the annex (Finnish warning and prohibition signs have a YELLOW field); operator review pending ; code number unsure: check against the asetus annex (liite)"
+        },
+        "bike-path": {
+          "code": "D5",
+          "regRef": "Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020 (tieliikennelaki 729/2018), D5 Pyörätie (sininen pyöreä, valkoinen polkupyörä) (numero epävarma / unsure)",
+          "shape": "circle",
+          "rim": "white",
+          "field": "blue",
+          "glyph": "bicycle",
+          "text": "",
+          "slash": false,
+          "class": "mandatory",
+          "signedBy": "fi native panel (nt10-E, 2026-09-23): record compared with the Finnish sign named in regRef (Tieliikennelaki 729/2018 + Valtioneuvoston asetus liikenteen ohjauslaitteista 379/2020, liikennemerkkien kuvat Traficom / Väylävirasto); shape, rim and field as in the annex (Finnish warning and prohibition signs have a YELLOW field); operator review pending ; code number unsure: check against the asetus annex (liite)"
+        }
+      },
+      "setG1": [
+        "stop",
+        "crossing",
+        "children",
+        "no-entry",
+        "footpath",
+        "bike-path"
+      ],
+      "kindsPool": [
+        "children",
+        "pedestrian-warning",
+        "signal-ahead",
+        "bike-warning",
+        "no-vehicles",
+        "no-bikes",
+        "no-pedestrians",
+        "footpath",
+        "bike-path"
+      ],
+      "classes": [
+        {
+          "key": "warning",
+          "label": "Varoitusmerkit"
+        },
+        {
+          "key": "prohibition",
+          "label": "Kieltomerkit"
+        },
+        {
+          "key": "mandatory",
+          "label": "Määräysmerkit"
+        }
+      ],
+      "pedLight": {
+        "stop": "standing",
+        "go": "walking",
+        "lamps": 2
+      },
+      "amber": {
+        "token": "codeYellow",
+        "word": "keltainen"
+      },
+      "amberMeans": "stop",
+      "chipWords": {
+        "ped": {
+          "stop": "odota",
+          "go": "kävele"
+        },
+        "car": {
+          "stop": "pysähdy",
+          "go": "aja"
+        }
+      },
+      "meanings": {
+        "stop": "Jokaisen auton täytyy pysähtyä kokonaan ennen risteystä.",
+        "crossing": "Tässä on suojatie, jota pitkin voit ylittää kadun.",
+        "children": "Varo, tässä lähellä voi olla lapsia.",
+        "no-entry": "Tähän suuntaan ei saa ajaa.",
+        "footpath": "Tämä tie on vain kävelijöille.",
+        "bike-path": "Tämä tie on pyöräilijöille."
+      },
+      "situations": {
+        "stop": [
+          "Tässä risteyksessä jokaisen auton on pysähdyttävä kokonaan, vaikka ketään ei tulisi.",
+          "Autoilijan pitää pysähtyä ja katsoa, että tie on vapaa."
+        ],
+        "crossing": [
+          "Tästä voit kävellä turvallisesti kadun yli valkoisia raitoja pitkin.",
+          "Autojen pitää päästää jalankulkijat kadun yli juuri tästä kohdasta."
+        ],
+        "children": [
+          "Kadun vieressä on koulu, joten tässä kulkee paljon lapsia.",
+          "Varo, autoilija: aivan tien vieressä on leikkipuisto."
+        ],
+        "no-entry": [
+          "Tälle kadulle ei saa ajaa tästä suunnasta.",
+          "Tästä ei saa ajaa sisään, joten autojen on valittava toinen tie."
+        ],
+        "footpath": [
+          "Tämä tie on tehty vain kävelijöille.",
+          "Tällä tiellä kuljetaan jalan, ei pyörällä eikä autolla."
+        ],
+        "bike-path": [
+          "Tämä tie on tehty pyöräilijöille.",
+          "Tässä pyöräilet omaa tietä autotien vieressä."
+        ],
+        "pedestrian-warning": [
+          "Varo, pian tulee suojatie, jonka yli ihmiset kävelevät.",
+          "Aja hitaasti: vähän matkan päässä ihmiset ylittävät tietä."
+        ],
+        "signal-ahead": [
+          "Varo, pian tulevat liikennevalot.",
+          "Vähän matkan päässä on valot, jotka voivat vaihtua punaisiksi."
+        ],
+        "bike-warning": [
+          "Varo, autoilija: tässä moni lapsi pyöräilee tien yli.",
+          "Tällä tiellä liikkuu usein pyöräilijöitä."
+        ],
+        "no-vehicles": [
+          "Tällä tiellä ei saa ajaa millään ajoneuvolla, ei autolla eikä pyörällä.",
+          "Tämä katu on suljettu kaikilta ajoneuvoilta."
+        ],
+        "no-bikes": [
+          "Tällä tiellä ei saa ajaa polkupyörällä.",
+          "Pyörällä ajaminen on tässä kielletty, joten taluta pyörääsi."
+        ],
+        "no-pedestrians": [
+          "Tällä tiellä ei saa kävellä, vain ajoneuvot saavat ajaa.",
+          "Jalankulku on tässä kielletty, mutta autot saavat ajaa."
+        ]
+      },
+      "steps": [
+        "stop-kerb",
+        "look-left",
+        "look-right",
+        "walk-across"
+      ],
+      "listenStep": null,
+      "familyHead": "Liikenneturvallisuus",
+      "signHead": "Liikennemerkit",
+      "childAnchors": [
+        "lapsille",
+        "esiopetus",
+        "esikoulu",
+        "alkuopetus",
+        "1. luokka",
+        "2. luokka"
+      ],
+      "strings": {
+        "base": {
+          "title": "Liikenneturvallisuus: mitä liikennevalo näyttää?",
+          "instruction": "Katso palavaa valoa ja rengasta se, mitä valo käskee tehdä."
+        },
+        "colour-lights": {
+          "title": "Väritä liikennevalot oikein",
+          "instruction": "Etsi jokaisesta liikennevalosta lamppu, jonka ympärillä on säteitä, ja väritä se sillä värillä, jolla se palaa."
+        },
+        "crossing-steps": {
+          "title": "Kadun ylitys turvallisesti: vaihe vaiheelta",
+          "instruction": "Kirjoita ruutuihin numerot 1–4 siinä järjestyksessä, jossa ylität kadun turvallisesti."
+        },
+        "sign-meaning": {
+          "title": "Liikennemerkit lapsille ja niiden merkitys",
+          "instruction": "Yhdistä viivalla jokainen liikennemerkki siihen, mitä merkki tarkoittaa."
+        },
+        "sign-kinds": {
+          "title": "Liikennemerkkien ryhmät: varoitus-, kielto- ja määräysmerkit",
+          "instruction": "Kirjoita jokaisen liikennemerkin kirjain oikean merkkiryhmän ruutuihin."
+        },
+        "sign-quiz": {
+          "title": "Liikennemerkkivisa lapsille: mikä merkki sopii?",
+          "instruction": "Lue jokainen lause ja rengasta se ainoa liikennemerkki, joka sopii siihen."
+        }
+      }
+    },
+    "family": {
+      "kin": {
+        "M": "mom",
+        "F": "dad",
+        "Z": "sister",
+        "B": "brother",
+        "Zy": "babySister",
+        "By": "babyBrother",
+        "MM": "grandma",
+        "FM": "grandma",
+        "MF": "grandpa",
+        "FF": "grandpa",
+        "MZ": "aunt",
+        "FZ": "aunt",
+        "MB": "unclem",
+        "FB": "unclef",
+        "MZD": "cousin",
+        "MZS": "cousin",
+        "MBD": "cousin",
+        "MBS": "cousin",
+        "FZD": "cousin",
+        "FZS": "cousin",
+        "FBD": "cousin",
+        "FBS": "cousin"
+      },
+      "words": {
+        "mom": {
+          "text": "äiti",
+          "register": "K"
+        },
+        "dad": {
+          "text": "isä",
+          "register": "K"
+        },
+        "sister": {
+          "text": "sisko",
+          "register": "K"
+        },
+        "brother": {
+          "text": "veli",
+          "register": "K"
+        },
+        "babySister": {
+          "text": "pikkusisko",
+          "register": "K"
+        },
+        "babyBrother": {
+          "text": "pikkuveli",
+          "register": "K"
+        },
+        "grandma": {
+          "text": "isoäiti",
+          "register": "K"
+        },
+        "grandpa": {
+          "text": "isoisä",
+          "register": "K"
+        },
+        "aunt": {
+          "text": "täti",
+          "register": "K"
+        },
+        "unclem": {
+          "text": "eno",
+          "register": "K"
+        },
+        "unclef": {
+          "text": "setä",
+          "register": "K"
+        },
+        "cousin": {
+          "text": "serkku",
+          "register": "K"
+        }
+      },
+      "names": [
+        {
+          "name": "Aino",
+          "sex": "f",
+          "gen": "Ainon"
+        },
+        {
+          "name": "Eeli",
+          "sex": "m",
+          "gen": "Eelin"
+        },
+        {
+          "name": "Aada",
+          "sex": "f",
+          "gen": "Aadan"
+        },
+        {
+          "name": "Onni",
+          "sex": "m",
+          "gen": "Onnin"
+        },
+        {
+          "name": "Elsa",
+          "sex": "f",
+          "gen": "Elsan"
+        },
+        {
+          "name": "Leo",
+          "sex": "m",
+          "gen": "Leon"
+        },
+        {
+          "name": "Emma",
+          "sex": "f",
+          "gen": "Emman"
+        },
+        {
+          "name": "Aaro",
+          "sex": "m",
+          "gen": "Aaron"
+        },
+        {
+          "name": "Iida",
+          "sex": "f",
+          "gen": "Iidan"
+        },
+        {
+          "name": "Otto",
+          "sex": "m",
+          "gen": "Oton"
+        },
+        {
+          "name": "Ella",
+          "sex": "f",
+          "gen": "Ellan"
+        },
+        {
+          "name": "Juho",
+          "sex": "m",
+          "gen": "Juhon"
+        },
+        {
+          "name": "Alma",
+          "sex": "f",
+          "gen": "Alman"
+        },
+        {
+          "name": "Niko",
+          "sex": "m",
+          "gen": "Nikon"
+        },
+        {
+          "name": "Anni",
+          "sex": "f",
+          "gen": "Annin"
+        },
+        {
+          "name": "Eino",
+          "sex": "m",
+          "gen": "Einon"
+        }
+      ],
+      "clueFrames": {
+        "M": "{name} on {egoGen} äiti.",
+        "F": "{name} on {egoGen} isä.",
+        "Z": "{name} on {egoGen} sisko.",
+        "B": "{name} on {egoGen} veli.",
+        "Zy": "{name} on {egoGen} pikkusisko.",
+        "By": "{name} on {egoGen} pikkuveli.",
+        "MM": "{name} on {egoGen} isoäiti.",
+        "FM": "{name} on {egoGen} isoäiti.",
+        "MF": "{name} on {egoGen} isoisä.",
+        "FF": "{name} on {egoGen} isoisä.",
+        "MZ": "{name} on {egoGen} täti.",
+        "FZ": "{name} on {egoGen} täti.",
+        "MB": "{name} on {egoGen} eno.",
+        "FB": "{name} on {egoGen} setä.",
+        "MZD": "{name} on {egoGen} serkku.",
+        "MZS": "{name} on {egoGen} serkku.",
+        "MBD": "{name} on {egoGen} serkku.",
+        "MBS": "{name} on {egoGen} serkku.",
+        "FZD": "{name} on {egoGen} serkku.",
+        "FZS": "{name} on {egoGen} serkku.",
+        "FBD": "{name} on {egoGen} serkku.",
+        "FBS": "{name} on {egoGen} serkku."
+      },
+      "riddleFrames": {
+        "MM": "{egoGen} äidin äiti on {egoGen} ___.",
+        "FM": "{egoGen} isän äiti on {egoGen} ___.",
+        "MF": "{egoGen} äidin isä on {egoGen} ___.",
+        "FF": "{egoGen} isän isä on {egoGen} ___.",
+        "MZ": "{egoGen} äidin sisko on {egoGen} ___.",
+        "FZ": "{egoGen} isän sisko on {egoGen} ___.",
+        "MB": "{egoGen} äidin veli on {egoGen} ___.",
+        "FB": "{egoGen} isän veli on {egoGen} ___."
+      },
+      "distractors": [
+        "mom",
+        "dad"
+      ],
+      "repeatsNote": true,
+      "repeatsNoteText": "sama sana voi sopia useampaan arvoitukseen",
+      "generationOK": [
+        "grandma",
+        "grandpa",
+        "mom",
+        "dad",
+        "aunt",
+        "unclem",
+        "unclef",
+        "sister",
+        "brother",
+        "cousin",
+        "babySister",
+        "babyBrother"
+      ],
+      "agreeing": [],
+      "firstPerson": [
+        "minä",
+        "minun",
+        "minua",
+        "minulla",
+        "minulle",
+        "me",
+        "meidän",
+        "meitä",
+        "mun",
+        "mä"
+      ],
+      "meWord": "minä",
+      "forbiddenInTemplate": [
+        "äiti",
+        "isä",
+        "vanhemmat",
+        "perheesi",
+        "sinun perheesi"
+      ],
+      "instructionBans": [
+        "rastita",
+        "rasti",
+        "leikkaa",
+        "väritä",
+        "ilmainen",
+        "maksuton",
+        "vastaukset"
+      ],
+      "familyHead": "Perhe ja sukulaiset",
+      "strings": {
+        "base": {
+          "title": "Perhe ja sukulaiset: kuka on kuka?",
+          "instruction": "Etsi jokainen henkilö perhepuusta ja kirjoita hänen numeronsa oikean sukulaissanan viereiseen ruutuun."
+        },
+        "generations": {
+          "title": "Sukupolvet: vanhimmasta nuorimpaan",
+          "instruction": "Kirjoita jokaisen rivin ruutuihin 1, 2 ja 3 niin, että sanat ovat järjestyksessä vanhimmasta sukupolvesta nuorimpaan."
+        },
+        "trace-words": {
+          "title": "Sukulaissanat: jäljennä ja kirjoita",
+          "instruction": "Etsi puusta henkilö, jolla on sama numero, jäljennä hänen sukulaissanansa ja kirjoita se vielä kerran viivalle."
+        },
+        "tree-clues": {
+          "title": "Perhepuu: lue vihjeet",
+          "instruction": "Lue vihjeet ja kirjoita jokainen nimi oikeaan nimiruutuun perhepuussa."
+        },
+        "relation-riddles": {
+          "title": "Sukulaisarvoitukset: kuka sukulainen on kyseessä?",
+          "instruction": "Lue jokainen arvoitus ja kirjoita ruutuun oikea sukulaissana laatikosta; sama sana voi sopia useampaan arvoitukseen."
+        },
+        "tree-template": {
+          "title": "Perhepuun pohja: täytä itse",
+          "instruction": "Piirrä kehyksiin ihmiset, jotka ovat sinulle tärkeitä, ja kirjoita heidän nimensä viivoille."
+        }
+      }
+    },
+    "plants": {
+      "partWords": {
+        "root": "juuri",
+        "stem": "varsi",
+        "leaf": "lehti",
+        "flower": "kukka",
+        "fruit": "hedelmä",
+        "seed": "siemen"
+      },
+      "flowerWords": {
+        "petal": "terälehti",
+        "sepal": "verholehti",
+        "stamen": "hede",
+        "pistil": "emi",
+        "stalk": "varsi",
+        "ovary": "sikiäin"
+      },
+      "jobs": {
+        "root": "ottaa vettä maasta",
+        "stem": "pitää kasvin pystyssä",
+        "leaf": "valmistaa kasville ravintoa auringonvalon avulla",
+        "flower": "houkuttelee mehiläisiä",
+        "seed": "voi itää ja kasvaa uudeksi kasviksi"
+      },
+      "partStems": [
+        "juuri",
+        "juuret",
+        "juuren",
+        "juurta",
+        "juuria",
+        "varsi",
+        "varren",
+        "vartta",
+        "varret",
+        "lehti",
+        "lehdet",
+        "lehden",
+        "lehteä",
+        "lehtiä",
+        "kukka",
+        "kukat",
+        "kukan",
+        "kukkaa",
+        "kukkia",
+        "hedelmä",
+        "hedelmät",
+        "hedelmän",
+        "siemen",
+        "siemenet",
+        "siemenen",
+        "siementä",
+        "terälehti"
+      ],
+      "forbidden": [
+        "runko",
+        "nuppu",
+        "vihannes",
+        "vihannekset",
+        "hedelmät ja vihannekset"
+      ],
+      "refuseItems": [],
+      "refuse": [],
+      "instructionBans": {
+        "base": [
+          "rengasta",
+          "väritä",
+          "leikkaa"
+        ],
+        "flower": [
+          "rengasta",
+          "väritä",
+          "leikkaa"
+        ],
+        "needs": [
+          "sana",
+          "sanat",
+          "kirjoita"
+        ],
+        "eat": [
+          "vihannes",
+          "vihannekset"
+        ],
+        "jobs": [
+          "sanapankki",
+          "sanapankista"
+        ]
+      },
+      "strings": {
+        "base": {
+          "title": "Kasvin osat",
+          "instruction": "Seuraa jokaista numeroitua lappua kasvin osaan ja kirjoita osan nimi sanapankista viivalle, jolla on sama numero."
+        },
+        "needs": {
+          "title": "Mitä kasvi tarvitsee kasvaakseen?",
+          "instruction": "Katso, mitä kukin kasvi saa, ja rengasta jokaiselta riviltä kasvi, joka saa molemmat asiat, joita se tarvitsee kasvaakseen."
+        },
+        "cycle": {
+          "title": "Siemenestä kasviksi",
+          "instruction": "Leikkaa irti neljä kuvaa ja liimaa ne tyhjiin ruutuihin nuolten suuntaan siemenestä alkaen."
+        },
+        "eat": {
+          "title": "Mitä kasvin osaa syömme?",
+          "instruction": "Katso jokaista ruokaa ja rengasta se kasvin osa, jota syömme."
+        },
+        "jobs": {
+          "title": "Kasvin osat ja mitä ne tekevät",
+          "instruction": "Lue, mitä kukin osa tekee, etsi osa kasvista ja kirjoita sen lapun numero ruutuun."
+        },
+        "flower": {
+          "title": "Kukan osat",
+          "instruction": "Kirjoita jokaisen numeroidun kukan osan nimi sen viivalle ja vedä yli se sanapankin sana, joka ei ole kukan osa."
+        }
+      }
+    },
+    "animal-life-cycles": {
+      "stageWords": {
+        "butterfly": {
+          "egg": "muna",
+          "larva": "toukka",
+          "pupa": "kotelo",
+          "adult": "perhonen"
+        }
+      },
+      "decoy": {
+        "frog.tadpole": "nuijapää"
+      },
+      "landingWords": {
+        "frog": {
+          "spawn": "sammakonkutu",
+          "tadpole": "nuijapää",
+          "legged": "jalallinen nuijapää",
+          "froglet": "sammakonpoikanen",
+          "adult": "sammakko"
+        },
+        "ladybird": {
+          "egg": "muna",
+          "larva": "toukka",
+          "pupa": "kotelo",
+          "adult": "leppäkerttu"
+        }
+      },
+      "statements": {
+        "egg": "Se kuoriutuu munasta.",
+        "change": "Poikanen näyttää aivan erilaiselta kuin aikuinen eläin.",
+        "pupa": "Jonkin aikaa se on kotelona.",
+        "wings": "Aikuisella eläimellä on siivet.",
+        "sixlegs": "Aikuisella eläimellä on kuusi jalkaa.",
+        "nectar": "Aikuinen eläin juo kukista mettä.",
+        "tail": "Poikanen ui hännän avulla.",
+        "water": "Poikanen elää vedessä.",
+        "nolegs": "Aluksi poikasella ei ole jalkoja lainkaan.",
+        "fourlegs": "Aikuisella eläimellä on neljä jalkaa.",
+        "insects": "Aikuinen eläin pyydystää hyönteisiä ja syö niitä."
+      },
+      "drop": [],
+      "familyName": "Perhosen ja sammakon kehitysvaiheet",
+      "spawnForm": "clump",
+      "forbidden": [
+        "kokoon",
+        "kotilo"
+      ],
+      "genreBare": [],
+      "pictureWord": "kuva",
+      "instructionBans": {
+        "G1-377": [
+          "leikkaa",
+          "liimaa",
+          "rasti",
+          "rengasta",
+          "kirjain"
+        ],
+        "G1-389": [
+          "kirjoita",
+          "rasti",
+          "rengasta"
+        ],
+        "G2-365": [
+          "leikkaa",
+          "rasti",
+          "rengasta"
+        ],
+        "G2-366": [
+          "leikkaa",
+          "rasti",
+          "rengasta",
+          "numero"
+        ],
+        "G3-393": [
+          "rengasta",
+          "leikkaa",
+          "kirjoita"
+        ],
+        "G1-390": [
+          "kirjoita",
+          "rasti",
+          "leikkaa"
+        ]
+      },
+      "refuse": [],
+      "strings": {
+        "G1-377": {
+          "title": "Perhosen kehitysvaiheet: munasta perhoseksi",
+          "instruction": "Muna on 1: kirjoita ruutuihin 2, 3 ja 4 oikeassa järjestyksessä ja viimeiseen ruutuun sen kuvan numero, joka tulee perhosen jälkeen."
+        },
+        "G1-389": {
+          "title": "Sammakon kehitysvaiheet: leikkaa ja liimaa",
+          "instruction": "Leikkaa neljä ruutua irti ja liimaa jokainen omalle lumpeenlehdelleen lammen ympäri sammakonkudusta sammakkoon."
+        },
+        "G2-365": {
+          "title": "Perhosen kehitysvaiheet: kirjoita vaiheiden nimet",
+          "instruction": "Kirjoita neljän vaiheen nimet sanapankista oikeiden kuvien alle viivoille ja vedä yli se yksi sana, joka ei kuulu joukkoon."
+        },
+        "G2-366": {
+          "title": "Muodonvaihdos: miksi eläimeksi se kasvaa?",
+          "instruction": "Katso jokaista kehitysvaihetta ja kirjoita sen kirjain ruutuun sen eläimen alle, joksi se kasvaa; osa ruuduista jää tyhjiksi."
+        },
+        "G3-393": {
+          "title": "Perhosen ja sammakon kehitysvaiheet: vertaile",
+          "instruction": "Lue jokainen lause ja merkitse rasti perhosen, sammakon tai molempien kohdalle, kun lause pitää paikkansa."
+        },
+        "G1-390": {
+          "title": "Mitä tulee seuraavaksi? Perhonen, sammakko ja leppäkerttu",
+          "instruction": "Katso jokaisen rivin ensimmäistä kuvaa ja rengasta kuva, joka tulee heti sen jälkeen; aikuisen jälkeen kaikki alkaa taas munasta."
+        }
+      }
+    },
+    "earth-and-space": {
+      "hemisphere": "N",
+      "bodies": {
+        "sun": "Aurinko",
+        "earth": "Maa",
+        "moon": "Kuu"
+      },
+      "facts": {
+        "ownLight": "Se tuottaa omaa valoaan.",
+        "star": "Se on tähti.",
+        "hottest": "Se on kolmesta kuumin.",
+        "biggest": "Se on kolmesta suurin.",
+        "liveOn": "Sen pinnalla asuu ihmisiä ja eläimiä.",
+        "oceans": "Siellä on suuria meriä täynnä vettä.",
+        "air": "Siellä on ilmaa, jota voimme hengittää.",
+        "planet": "Se on planeetta.",
+        "spinDay": "Koska se pyörii, meillä on vuorotellen päivä ja yö.",
+        "orbitsEarth": "Se kiertää meidän planeettaamme.",
+        "seemsToChange": "Sen muoto näyttää muuttuvan.",
+        "craters": "Sen pinnalla on paljon kraattereita.",
+        "smallest": "Se on kolmesta pienin."
+      },
+      "leakForms": [],
+      "genderNeutral": true,
+      "forbiddenStems": [
+        "antaa valoa",
+        "antaa meille valoa",
+        "loistaa",
+        "paistaa",
+        "kiertää aurinkoa",
+        "kiertää auringon",
+        "nousee",
+        "laskee",
+        "yöllä",
+        "taivaalla",
+        "pyöreä",
+        "ei ole ilmaa",
+        "heijastaa",
+        "liikkuu taivaan",
+        "kesä",
+        "talvi",
+        "syksy",
+        "kevät",
+        "sade",
+        "lumi",
+        "pilvi",
+        "sää",
+        "lämmin päivä",
+        "kylmä päivä"
+      ],
+      "phaseNames": {
+        "0": "uusikuu",
+        "2": "kasvava puolikuu",
+        "4": "täysikuu",
+        "6": "vähenevä puolikuu"
+      },
+      "planets": {
+        "mercury": "Merkurius",
+        "venus": "Venus",
+        "earth": "Maa",
+        "mars": "Mars",
+        "jupiter": "Jupiter",
+        "saturn": "Saturnus",
+        "uranus": "Uranus",
+        "neptune": "Neptunus"
+      },
+      "notPlanet": {
+        "sun": "Aurinko",
+        "moon": "Kuu"
+      },
+      "classLabels": {
+        "giant": "jättiläisplaneetta",
+        "rocky": "pieni kiviplaneetta",
+        "notPlanet": "ei planeetta"
+      },
+      "mnemonic": "Minä Vien Maijan Marjaan, Jos Sää Uudestaan Näyttää",
+      "refuse": [],
+      "strings": {
+        "base": {
+          "title": "Aurinko, Maa ja Kuu",
+          "instruction": "Lue jokainen lause ja merkitse rasti Auringon, Maan tai Kuun alla olevaan ruutuun."
+        },
+        "moon-phases-in-order": {
+          "title": "Kuun vaiheet oikeassa järjestyksessä",
+          "instruction": "Katso rivin kiilasta, kasvaako vai pieneneekö kuu, ja kirjoita kuiden alle numerot 1–5 siinä järjestyksessä."
+        },
+        "moon-phase-names": {
+          "title": "Kuun vaiheiden nimet",
+          "instruction": "Katso jokaista kuuta ja kirjoita sen nimi viivoille, ja käytä jokaista sanapankin sanaa kahdesti."
+        },
+        "day-and-night-model": {
+          "title": "Miksi on päivä ja yö?",
+          "instruction": "Katso, missä Aurinko on, ja rengasta taulukosta jokaisen numeroidun nastan kohdalta päivä tai yö."
+        },
+        "planets-in-order": {
+          "title": "Planeetat järjestyksessä Auringosta",
+          "instruction": "Kirjoita jokaisen planeetan nimi sen viivalle alkaen Aurinkoa lähimmästä, ja käytä jokaisen kortin nimeä kerran."
+        },
+        "planet-sizes": {
+          "title": "Jättiläisplaneetat ja kiviplaneetat",
+          "instruction": "Lajittele nimet ja kirjoita jokainen oikeaan laatikkoon: jättiläisplaneetta, pieni kiviplaneetta tai ei planeetta."
+        }
+      }
+    },
+    "maps": {
+      "keyTitle": "Karttamerkit",
+      "symbolWords": {
+        "house": "talo",
+        "tree": "puu",
+        "bush": "pensas",
+        "pond": "lampi",
+        "bench": "penkki",
+        "tent": "teltta",
+        "flowerBed": "kukkamaa",
+        "bridge": "silta"
+      },
+      "dirWords": {
+        "n": "pohjoinen",
+        "e": "itä",
+        "s": "etelä",
+        "w": "länsi"
+      },
+      "dirLetters": {
+        "n": "P",
+        "e": "I",
+        "s": "E",
+        "w": "L"
+      },
+      "continentSet": [
+        {
+          "id": "northAmerica",
+          "regions": [
+            "northAmerica"
+          ]
+        },
+        {
+          "id": "southAmerica",
+          "regions": [
+            "southAmerica"
+          ]
+        },
+        {
+          "id": "europe",
+          "regions": [
+            "europe"
+          ]
+        },
+        {
+          "id": "asia",
+          "regions": [
+            "asia"
+          ]
+        },
+        {
+          "id": "africa",
+          "regions": [
+            "africa"
+          ]
+        },
+        {
+          "id": "oceania",
+          "regions": [
+            "oceania"
+          ]
+        },
+        {
+          "id": "antarctica",
+          "regions": [
+            "antarctica"
+          ]
+        }
+      ],
+      "continentNames": {
+        "northAmerica": "Pohjois-Amerikka",
+        "southAmerica": "Etelä-Amerikka",
+        "europe": "Eurooppa",
+        "asia": "Aasia",
+        "africa": "Afrikka",
+        "oceania": "Oseania",
+        "antarctica": "Etelämanner"
+      },
+      "oceanSet": [
+        "pacific",
+        "atlantic",
+        "indian",
+        "arctic",
+        "southern"
+      ],
+      "oceanNames": {
+        "pacific": "Tyynimeri",
+        "atlantic": "Atlantti",
+        "indian": "Intian valtameri",
+        "arctic": "Pohjoinen jäämeri",
+        "southern": "Eteläinen jäämeri"
+      },
+      "setSource": "Suomalaiset alakoulun ympäristöopin ja maantiedon oppimateriaalit (POPS 2014, ympäristöoppi 1.–2. ja 3.–6. lk) luettelevat yleensä seitsemän maanosaa, joihin kuuluvat Oseania ja Etelämanner, sekä viisi valtamerta Eteläinen jäämeri mukaan lukien; [NSR-FLAG][fi] osa kirjoista laskee kuusi maanosaa (Amerikka yhtenä tai ilman Etelämannerta) ja neljä valtamerta",
+      "mnemonic": "Pieni Iloinen Eskimo Leikkii",
+      "refuse": [],
+      "instructionBans": {},
+      "strings": {
+        "base": {
+          "title": "Karttamerkit: etsi ja laske",
+          "instruction": "Katso karttamerkkejä, etsi jokainen asia kartalta ja kirjoita ruutuun, montako niitä on."
+        },
+        "top-view": {
+          "title": "Ylhäältä katsottuna: sivulta ja ylhäältä",
+          "instruction": "Jokainen asia on piirretty sivulta, joten yhdistä se viivalla samaan asiaan ylhäältä katsottuna."
+        },
+        "compass-rose": {
+          "title": "Ilmansuunnat: pohjoinen, itä, etelä ja länsi",
+          "instruction": "Oranssi kärki osoittaa aina pohjoiseen, joten kirjoita jokaisen ruusun kolme puuttuvaa kirjainta tyhjiin ruutuihin."
+        },
+        "continents": {
+          "title": "Maanosat: kirjoita nimet",
+          "instruction": "Kirjoita jokaisen numeroidun maanosan nimi sen viivalle ja ota nimet laatikosta."
+        },
+        "continents-oceans": {
+          "title": "Maanosat ja valtameret",
+          "instruction": "Etsi jokainen maanosa ja valtameri kartalta ja kirjoita sen numero nimen viereiseen ruutuun."
+        },
+        "directions-on-map": {
+          "title": "Ilmansuunnat kartalla",
+          "instruction": "Etsi kartalta ensimmäinen kuva, katso siihen suuntaan, jonka sana kertoo, ja rengasta kolmesta kuvasta se, joka on siellä."
+        }
+      }
+    },
+    "digraphs": {
+      "head": "Pitkä vokaali",
+      "refused": null,
+      "phonemes": [
+        "aː",
+        "b",
+        "a",
+        "n",
+        "i",
+        "p",
+        "r",
+        "s",
+        "k",
+        "l",
+        "u",
+        "kː",
+        "pː",
+        "t",
+        "h",
+        "tː",
+        "m",
+        "o",
+        "e",
+        "v",
+        "j",
+        "d",
+        "æ",
+        "uː",
+        "sː",
+        "ŋ",
+        "æː",
+        "y",
+        "ø",
+        "lː"
+      ],
+      "teams": {
+        "aa": {
+          "t": "aa",
+          "sound": [
+            "aː"
+          ],
+          "items": [
+            {
+              "vocabKey": "banana",
+              "theme": "fruits",
+              "noun": "banana",
+              "word": "banaani",
+              "seg": [
+                "b",
+                "a",
+                "n",
+                "aa",
+                "n",
+                "i"
+              ],
+              "snd": [
+                "b",
+                "a",
+                "n",
+                "aː",
+                "n",
+                "i"
+              ],
+              "silent": [],
+              "stem": "banaani",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "broccoli",
+              "theme": "vegetables",
+              "noun": "broccoli",
+              "word": "parsakaali",
+              "seg": [
+                "p",
+                "a",
+                "r",
+                "s",
+                "a",
+                "k",
+                "aa",
+                "l",
+                "i"
+              ],
+              "snd": [
+                "p",
+                "a",
+                "r",
+                "s",
+                "a",
+                "k",
+                "aː",
+                "l",
+                "i"
+              ],
+              "silent": [],
+              "stem": "kaali",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "cabbage",
+              "theme": "vegetables",
+              "noun": "cabbage",
+              "word": "kaali",
+              "seg": [
+                "k",
+                "aa",
+                "l",
+                "i"
+              ],
+              "snd": [
+                "k",
+                "aː",
+                "l",
+                "i"
+              ],
+              "silent": [],
+              "stem": "kaali",
+              "noGap": true,
+              "picOpened": true
+            },
+            {
+              "vocabKey": "cauliflower",
+              "theme": "vegetables",
+              "noun": "cauliflower",
+              "word": "kukkakaali",
+              "seg": [
+                "k",
+                "u",
+                "kk",
+                "a",
+                "k",
+                "aa",
+                "l",
+                "i"
+              ],
+              "snd": [
+                "k",
+                "u",
+                "kː",
+                "a",
+                "k",
+                "aː",
+                "l",
+                "i"
+              ],
+              "silent": [],
+              "stem": "kaali",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "cabinet",
+              "theme": "furniture",
+              "noun": "cabinet",
+              "word": "kaappi",
+              "seg": [
+                "k",
+                "aa",
+                "pp",
+                "i"
+              ],
+              "snd": [
+                "k",
+                "aː",
+                "pː",
+                "i"
+              ],
+              "silent": [],
+              "stem": "kaappi",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "chocolate",
+              "theme": "easter",
+              "noun": "chocolate",
+              "word": "suklaa",
+              "seg": [
+                "s",
+                "u",
+                "k",
+                "l",
+                "aa"
+              ],
+              "snd": [
+                "s",
+                "u",
+                "k",
+                "l",
+                "aː"
+              ],
+              "silent": [],
+              "stem": "suklaa",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "donkey",
+              "theme": "farm animals",
+              "noun": "donkey",
+              "word": "aasi",
+              "seg": [
+                "aa",
+                "s",
+                "i"
+              ],
+              "snd": [
+                "aː",
+                "s",
+                "i"
+              ],
+              "silent": [],
+              "stem": "aasi",
+              "noGap": true,
+              "picOpened": true
+            },
+            {
+              "vocabKey": "grater",
+              "theme": "kitchen tools",
+              "noun": "grater",
+              "word": "raastin",
+              "seg": [
+                "r",
+                "aa",
+                "s",
+                "t",
+                "i",
+                "n"
+              ],
+              "snd": [
+                "r",
+                "aː",
+                "s",
+                "t",
+                "i",
+                "n"
+              ],
+              "silent": [],
+              "stem": "raastin",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "island",
+              "theme": "beach",
+              "noun": "island",
+              "word": "saari",
+              "seg": [
+                "s",
+                "aa",
+                "r",
+                "i"
+              ],
+              "snd": [
+                "s",
+                "aː",
+                "r",
+                "i"
+              ],
+              "silent": [],
+              "stem": "saari",
+              "noGap": true,
+              "picOpened": true
+            },
+            {
+              "vocabKey": "jumpsuit",
+              "theme": "clothing",
+              "noun": "jumpsuit",
+              "word": "haalari",
+              "seg": [
+                "h",
+                "aa",
+                "l",
+                "a",
+                "r",
+                "i"
+              ],
+              "snd": [
+                "h",
+                "aː",
+                "l",
+                "a",
+                "r",
+                "i"
+              ],
+              "silent": [],
+              "stem": "haalari",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "ladder",
+              "theme": "tools",
+              "noun": "ladder",
+              "word": "tikkaat",
+              "seg": [
+                "t",
+                "i",
+                "kk",
+                "aa",
+                "t"
+              ],
+              "snd": [
+                "t",
+                "i",
+                "kː",
+                "aː",
+                "t"
+              ],
+              "silent": [],
+              "stem": "tikkaat",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "lettuce",
+              "theme": "vegetables",
+              "noun": "lettuce",
+              "word": "salaatti",
+              "seg": [
+                "s",
+                "a",
+                "l",
+                "aa",
+                "tt",
+                "i"
+              ],
+              "snd": [
+                "s",
+                "a",
+                "l",
+                "aː",
+                "tː",
+                "i"
+              ],
+              "silent": [],
+              "stem": "salaatti",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "mailbox",
+              "theme": "around the house",
+              "noun": "mailbox",
+              "word": "postilaatikko",
+              "seg": [
+                "p",
+                "o",
+                "s",
+                "t",
+                "i",
+                "l",
+                "aa",
+                "t",
+                "i",
+                "kk",
+                "o"
+              ],
+              "snd": [
+                "p",
+                "o",
+                "s",
+                "t",
+                "i",
+                "l",
+                "aː",
+                "t",
+                "i",
+                "kː",
+                "o"
+              ],
+              "silent": [],
+              "stem": "laatikko",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "sandbox",
+              "theme": "toys",
+              "noun": "sandbox",
+              "word": "hiekkalaatikko",
+              "seg": [
+                "h",
+                "i",
+                "e",
+                "kk",
+                "a",
+                "l",
+                "aa",
+                "t",
+                "i",
+                "kk",
+                "o"
+              ],
+              "snd": [
+                "h",
+                "i",
+                "e",
+                "kː",
+                "a",
+                "l",
+                "aː",
+                "t",
+                "i",
+                "kː",
+                "o"
+              ],
+              "silent": [],
+              "stem": "laatikko",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "mechanic",
+              "theme": "occupations",
+              "noun": "mechanic",
+              "word": "mekaanikko",
+              "seg": [
+                "m",
+                "e",
+                "k",
+                "aa",
+                "n",
+                "i",
+                "kk",
+                "o"
+              ],
+              "snd": [
+                "m",
+                "e",
+                "k",
+                "aː",
+                "n",
+                "i",
+                "kː",
+                "o"
+              ],
+              "silent": [],
+              "stem": "mekaanikko",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "photographer",
+              "theme": "occupations",
+              "noun": "photographer",
+              "word": "valokuvaaja",
+              "seg": [
+                "v",
+                "a",
+                "l",
+                "o",
+                "k",
+                "u",
+                "v",
+                "aa",
+                "j",
+                "a"
+              ],
+              "snd": [
+                "v",
+                "a",
+                "l",
+                "o",
+                "k",
+                "u",
+                "v",
+                "aː",
+                "j",
+                "a"
+              ],
+              "silent": [],
+              "stem": "valokuvaaja",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "sandals",
+              "theme": "beach",
+              "noun": "sandals",
+              "word": "sandaalit",
+              "seg": [
+                "s",
+                "a",
+                "n",
+                "d",
+                "aa",
+                "l",
+                "i",
+                "t"
+              ],
+              "snd": [
+                "s",
+                "a",
+                "n",
+                "d",
+                "aː",
+                "l",
+                "i",
+                "t"
+              ],
+              "silent": [],
+              "stem": "sandaalit",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "scale",
+              "theme": "post office",
+              "noun": "scale",
+              "word": "vaaka",
+              "seg": [
+                "v",
+                "aa",
+                "k",
+                "a"
+              ],
+              "snd": [
+                "v",
+                "aː",
+                "k",
+                "a"
+              ],
+              "silent": [],
+              "stem": "vaaka",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "stairs",
+              "theme": "around the house",
+              "noun": "stairs",
+              "word": "portaat",
+              "seg": [
+                "p",
+                "o",
+                "r",
+                "t",
+                "aa",
+                "t"
+              ],
+              "snd": [
+                "p",
+                "o",
+                "r",
+                "t",
+                "aː",
+                "t"
+              ],
+              "silent": [],
+              "stem": "portaat",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "toaster",
+              "theme": "kitchen tools",
+              "noun": "toaster",
+              "word": "leivänpaahdin",
+              "seg": [
+                "l",
+                "e",
+                "i",
+                "v",
+                "ä",
+                "n",
+                "p",
+                "aa",
+                "h",
+                "d",
+                "i",
+                "n"
+              ],
+              "snd": [
+                "l",
+                "e",
+                "i",
+                "v",
+                "æ",
+                "n",
+                "p",
+                "aː",
+                "h",
+                "d",
+                "i",
+                "n"
+              ],
+              "silent": [],
+              "stem": "leivänpaahdin",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "tomato",
+              "theme": "vegetables",
+              "noun": "tomato",
+              "word": "tomaatti",
+              "seg": [
+                "t",
+                "o",
+                "m",
+                "aa",
+                "tt",
+                "i"
+              ],
+              "snd": [
+                "t",
+                "o",
+                "m",
+                "aː",
+                "tː",
+                "i"
+              ],
+              "silent": [],
+              "stem": "tomaatti",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "tulip",
+              "theme": "flowers",
+              "noun": "tulip",
+              "word": "tulppaani",
+              "seg": [
+                "t",
+                "u",
+                "l",
+                "pp",
+                "aa",
+                "n",
+                "i"
+              ],
+              "snd": [
+                "t",
+                "u",
+                "l",
+                "pː",
+                "aː",
+                "n",
+                "i"
+              ],
+              "silent": [],
+              "stem": "tulppaani",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "wave",
+              "theme": "beach",
+              "noun": "wave",
+              "word": "aalto",
+              "seg": [
+                "aa",
+                "l",
+                "t",
+                "o"
+              ],
+              "snd": [
+                "aː",
+                "l",
+                "t",
+                "o"
+              ],
+              "silent": [],
+              "stem": "aalto",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "fork",
+              "theme": "kitchen tools",
+              "noun": "fork",
+              "word": "haarukka",
+              "seg": [
+                "h",
+                "aa",
+                "r",
+                "u",
+                "kk",
+                "a"
+              ],
+              "snd": [
+                "h",
+                "aː",
+                "r",
+                "u",
+                "kː",
+                "a"
+              ],
+              "silent": [],
+              "stem": "haarukka",
+              "picOpened": true
+            }
+          ]
+        },
+        "uu": {
+          "t": "uu",
+          "sound": [
+            "uː"
+          ],
+          "items": [
+            {
+              "vocabKey": "ant",
+              "theme": "insects and bugs",
+              "noun": "ant",
+              "word": "muurahainen",
+              "seg": [
+                "m",
+                "uu",
+                "r",
+                "a",
+                "h",
+                "a",
+                "i",
+                "n",
+                "e",
+                "n"
+              ],
+              "snd": [
+                "m",
+                "uː",
+                "r",
+                "a",
+                "h",
+                "a",
+                "i",
+                "n",
+                "e",
+                "n"
+              ],
+              "silent": [],
+              "stem": "muurahainen",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "beetroot",
+              "theme": "vegetables",
+              "noun": "beetroot",
+              "word": "punajuuri",
+              "seg": [
+                "p",
+                "u",
+                "n",
+                "a",
+                "j",
+                "uu",
+                "r",
+                "i"
+              ],
+              "snd": [
+                "p",
+                "u",
+                "n",
+                "a",
+                "j",
+                "uː",
+                "r",
+                "i"
+              ],
+              "silent": [],
+              "stem": "punajuuri",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "broom",
+              "theme": "around the house",
+              "noun": "broom",
+              "word": "luuta",
+              "seg": [
+                "l",
+                "uu",
+                "t",
+                "a"
+              ],
+              "snd": [
+                "l",
+                "uː",
+                "t",
+                "a"
+              ],
+              "silent": [],
+              "stem": "luuta",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "cheese",
+              "theme": "breakfast",
+              "noun": "cheese",
+              "word": "juusto",
+              "seg": [
+                "j",
+                "uu",
+                "s",
+                "t",
+                "o"
+              ],
+              "snd": [
+                "j",
+                "uː",
+                "s",
+                "t",
+                "o"
+              ],
+              "silent": [],
+              "stem": "juusto",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "crown",
+              "theme": "accessories",
+              "noun": "crown",
+              "word": "kruunu",
+              "seg": [
+                "k",
+                "r",
+                "uu",
+                "n",
+                "u"
+              ],
+              "snd": [
+                "k",
+                "r",
+                "uː",
+                "n",
+                "u"
+              ],
+              "silent": [],
+              "stem": "kruunu",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "fan",
+              "theme": "around the house",
+              "noun": "fan",
+              "word": "tuuletin",
+              "seg": [
+                "t",
+                "uu",
+                "l",
+                "e",
+                "t",
+                "i",
+                "n"
+              ],
+              "snd": [
+                "t",
+                "uː",
+                "l",
+                "e",
+                "t",
+                "i",
+                "n"
+              ],
+              "silent": [],
+              "stem": "tuuletin",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "jellyfish",
+              "theme": "ocean life",
+              "noun": "jellyfish",
+              "word": "meduusa",
+              "seg": [
+                "m",
+                "e",
+                "d",
+                "uu",
+                "s",
+                "a"
+              ],
+              "snd": [
+                "m",
+                "e",
+                "d",
+                "uː",
+                "s",
+                "a"
+              ],
+              "silent": [],
+              "stem": "meduusa",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "lemon",
+              "theme": "fruits",
+              "noun": "lemon",
+              "word": "sitruuna",
+              "seg": [
+                "s",
+                "i",
+                "t",
+                "r",
+                "uu",
+                "n",
+                "a"
+              ],
+              "snd": [
+                "s",
+                "i",
+                "t",
+                "r",
+                "uː",
+                "n",
+                "a"
+              ],
+              "silent": [],
+              "stem": "sitruuna",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "lip",
+              "theme": "body parts",
+              "noun": "lip",
+              "word": "huuli",
+              "seg": [
+                "h",
+                "uu",
+                "l",
+                "i"
+              ],
+              "snd": [
+                "h",
+                "uː",
+                "l",
+                "i"
+              ],
+              "silent": [],
+              "stem": "huuli",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "moon",
+              "theme": "space",
+              "noun": "moon",
+              "word": "kuu",
+              "seg": [
+                "k",
+                "uu"
+              ],
+              "snd": [
+                "k",
+                "uː"
+              ],
+              "silent": [],
+              "stem": "kuu",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "porridge",
+              "theme": "breakfast",
+              "noun": "porridge",
+              "word": "puuro",
+              "seg": [
+                "p",
+                "uu",
+                "r",
+                "o"
+              ],
+              "snd": [
+                "p",
+                "uː",
+                "r",
+                "o"
+              ],
+              "silent": [],
+              "stem": "puuro",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "oven",
+              "theme": "around the house",
+              "noun": "oven",
+              "word": "uuni",
+              "seg": [
+                "uu",
+                "n",
+                "i"
+              ],
+              "snd": [
+                "uː",
+                "n",
+                "i"
+              ],
+              "silent": [],
+              "stem": "uuni",
+              "noGap": true,
+              "picOpened": true
+            },
+            {
+              "vocabKey": "rose",
+              "theme": "flowers",
+              "noun": "rose",
+              "word": "ruusu",
+              "seg": [
+                "r",
+                "uu",
+                "s",
+                "u"
+              ],
+              "snd": [
+                "r",
+                "uː",
+                "s",
+                "u"
+              ],
+              "silent": [],
+              "stem": "ruusu",
+              "noGap": true,
+              "picOpened": true
+            },
+            {
+              "vocabKey": "screwdriver",
+              "theme": "tools",
+              "noun": "screwdriver",
+              "word": "ruuvimeisseli",
+              "seg": [
+                "r",
+                "uu",
+                "v",
+                "i",
+                "m",
+                "e",
+                "i",
+                "ss",
+                "e",
+                "l",
+                "i"
+              ],
+              "snd": [
+                "r",
+                "uː",
+                "v",
+                "i",
+                "m",
+                "e",
+                "i",
+                "sː",
+                "e",
+                "l",
+                "i"
+              ],
+              "silent": [],
+              "stem": "ruuvimeisseli",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "skeleton",
+              "theme": "body parts",
+              "noun": "skeleton",
+              "word": "luuranko",
+              "seg": [
+                "l",
+                "uu",
+                "r",
+                "a",
+                "n",
+                "k",
+                "o"
+              ],
+              "snd": [
+                "l",
+                "uː",
+                "r",
+                "a",
+                "ŋ",
+                "k",
+                "o"
+              ],
+              "silent": [],
+              "stem": "luuranko",
+              "picOpened": true
+            }
+          ]
+        },
+        "ää": {
+          "t": "ää",
+          "sound": [
+            "æː"
+          ],
+          "items": [
+            {
+              "vocabKey": "doctor",
+              "theme": "occupations",
+              "noun": "doctor",
+              "word": "lääkäri",
+              "seg": [
+                "l",
+                "ää",
+                "k",
+                "ä",
+                "r",
+                "i"
+              ],
+              "snd": [
+                "l",
+                "æː",
+                "k",
+                "æ",
+                "r",
+                "i"
+              ],
+              "silent": [],
+              "stem": "lääkäri",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "veterinarian",
+              "theme": "occupations",
+              "noun": "veterinarian",
+              "word": "eläinlääkäri",
+              "seg": [
+                "e",
+                "l",
+                "ä",
+                "i",
+                "n",
+                "l",
+                "ää",
+                "k",
+                "ä",
+                "r",
+                "i"
+              ],
+              "snd": [
+                "e",
+                "l",
+                "æ",
+                "i",
+                "n",
+                "l",
+                "æː",
+                "k",
+                "æ",
+                "r",
+                "i"
+              ],
+              "silent": [],
+              "stem": "lääkäri",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "dragon",
+              "theme": "Things That Fly",
+              "noun": "dragon",
+              "word": "lohikäärme",
+              "seg": [
+                "l",
+                "o",
+                "h",
+                "i",
+                "k",
+                "ää",
+                "r",
+                "m",
+                "e"
+              ],
+              "snd": [
+                "l",
+                "o",
+                "h",
+                "i",
+                "k",
+                "æː",
+                "r",
+                "m",
+                "e"
+              ],
+              "silent": [],
+              "stem": "lohikäärme",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "hockey",
+              "theme": "winter",
+              "noun": "hockey",
+              "word": "jääkiekko",
+              "seg": [
+                "j",
+                "ää",
+                "k",
+                "i",
+                "e",
+                "kk",
+                "o"
+              ],
+              "snd": [
+                "j",
+                "æː",
+                "k",
+                "i",
+                "e",
+                "kː",
+                "o"
+              ],
+              "silent": [],
+              "stem": "jää",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "icicle",
+              "theme": "winter",
+              "noun": "icicle",
+              "word": "jääpuikko",
+              "seg": [
+                "j",
+                "ää",
+                "p",
+                "u",
+                "i",
+                "kk",
+                "o"
+              ],
+              "snd": [
+                "j",
+                "æː",
+                "p",
+                "u",
+                "i",
+                "kː",
+                "o"
+              ],
+              "silent": [],
+              "stem": "jää",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "medicine",
+              "theme": "hospital",
+              "noun": "medicine",
+              "word": "lääke",
+              "seg": [
+                "l",
+                "ää",
+                "k",
+                "e"
+              ],
+              "snd": [
+                "l",
+                "æː",
+                "k",
+                "e"
+              ],
+              "silent": [],
+              "stem": "lääke",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "pear",
+              "theme": "fruits",
+              "noun": "pear",
+              "word": "päärynä",
+              "seg": [
+                "p",
+                "ää",
+                "r",
+                "y",
+                "n",
+                "ä"
+              ],
+              "snd": [
+                "p",
+                "æː",
+                "r",
+                "y",
+                "n",
+                "æ"
+              ],
+              "silent": [],
+              "stem": "päärynä",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "swallow",
+              "theme": "birds 2",
+              "noun": "swallow",
+              "word": "pääskynen",
+              "seg": [
+                "p",
+                "ää",
+                "s",
+                "k",
+                "y",
+                "n",
+                "e",
+                "n"
+              ],
+              "snd": [
+                "p",
+                "æː",
+                "s",
+                "k",
+                "y",
+                "n",
+                "e",
+                "n"
+              ],
+              "silent": [],
+              "stem": "pääskynen",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "shoulder",
+              "theme": "body parts",
+              "noun": "shoulder",
+              "word": "olkapää",
+              "seg": [
+                "o",
+                "l",
+                "k",
+                "a",
+                "p",
+                "ää"
+              ],
+              "snd": [
+                "o",
+                "l",
+                "k",
+                "a",
+                "p",
+                "æː"
+              ],
+              "silent": [],
+              "stem": "pää",
+              "picOpened": true
+            }
+          ]
+        }
+      },
+      "samesound": [],
+      "falsePairs": [
+        {
+          "word": "laiva",
+          "letters": "ai",
+          "why": "ai on diftongi: kaksi eri vokaalia, ei pitkä vokaali (aa)"
+        },
+        {
+          "word": "auto",
+          "letters": "au",
+          "why": "au on diftongi: a ja u, ei pitkä vokaali (aa tai uu)"
+        },
+        {
+          "word": "ruoka",
+          "letters": "uo",
+          "why": "uo on diftongi, ei pitkä vokaali uu"
+        },
+        {
+          "word": "kieli",
+          "letters": "ie",
+          "why": "ie on diftongi, ei pitkä vokaali"
+        },
+        {
+          "word": "koira",
+          "letters": "oi",
+          "why": "oi on diftongi: o ja i, kaksi eri kirjainta"
+        },
+        {
+          "word": "täi",
+          "letters": "äi",
+          "why": "äi on diftongi, ei pitkä vokaali ää"
+        },
+        {
+          "word": "hauki",
+          "letters": "au",
+          "why": "au on diftongi: kaksi eri vokaalia"
+        }
+      ],
+      "sets": {
+        "exemplar": [
+          "aa",
+          "uu",
+          "ää"
+        ],
+        "k": [
+          "aa",
+          "uu"
+        ],
+        "position": [
+          "aa",
+          "uu",
+          "ää"
+        ]
+      },
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Pieni aasi syö kaalia saaressa.",
+          "target": "aa",
+          "hits": 3,
+          "tokens": [
+            {
+              "w": "Pieni",
+              "seg": [
+                "P",
+                "i",
+                "e",
+                "n",
+                "i"
+              ]
+            },
+            {
+              "w": "aasi",
+              "seg": [
+                "aa",
+                "s",
+                "i"
+              ]
+            },
+            {
+              "w": "syö",
+              "seg": [
+                "s",
+                "y",
+                "ö"
+              ]
+            },
+            {
+              "w": "kaalia",
+              "seg": [
+                "k",
+                "aa",
+                "l",
+                "i",
+                "a"
+              ]
+            },
+            {
+              "w": "saaressa",
+              "seg": [
+                "s",
+                "aa",
+                "r",
+                "e",
+                "ss",
+                "a"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Laama ja aasi juoksevat.",
+          "target": "aa",
+          "hits": 2,
+          "tokens": [
+            {
+              "w": "Laama",
+              "seg": [
+                "L",
+                "aa",
+                "m",
+                "a"
+              ]
+            },
+            {
+              "w": "ja",
+              "seg": [
+                "j",
+                "a"
+              ]
+            },
+            {
+              "w": "aasi",
+              "seg": [
+                "aa",
+                "s",
+                "i"
+              ]
+            },
+            {
+              "w": "juoksevat",
+              "seg": [
+                "j",
+                "u",
+                "o",
+                "k",
+                "s",
+                "e",
+                "v",
+                "a",
+                "t"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Äiti ostaa banaanin ja tomaatin.",
+          "target": "aa",
+          "hits": 3,
+          "tokens": [
+            {
+              "w": "Äiti",
+              "seg": [
+                "Ä",
+                "i",
+                "t",
+                "i"
+              ]
+            },
+            {
+              "w": "ostaa",
+              "seg": [
+                "o",
+                "s",
+                "t",
+                "aa"
+              ]
+            },
+            {
+              "w": "banaanin",
+              "seg": [
+                "b",
+                "a",
+                "n",
+                "aa",
+                "n",
+                "i",
+                "n"
+              ]
+            },
+            {
+              "w": "ja",
+              "seg": [
+                "j",
+                "a"
+              ]
+            },
+            {
+              "w": "tomaatin",
+              "seg": [
+                "t",
+                "o",
+                "m",
+                "aa",
+                "t",
+                "i",
+                "n"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Kaapissa on suklaata.",
+          "target": "aa",
+          "hits": 2,
+          "tokens": [
+            {
+              "w": "Kaapissa",
+              "seg": [
+                "K",
+                "aa",
+                "p",
+                "i",
+                "ss",
+                "a"
+              ]
+            },
+            {
+              "w": "on",
+              "seg": [
+                "o",
+                "n"
+              ]
+            },
+            {
+              "w": "suklaata",
+              "seg": [
+                "s",
+                "u",
+                "k",
+                "l",
+                "aa",
+                "t",
+                "a"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Vaaka on pöydällä.",
+          "target": "aa",
+          "hits": 1,
+          "tokens": [
+            {
+              "w": "Vaaka",
+              "seg": [
+                "V",
+                "aa",
+                "k",
+                "a"
+              ]
+            },
+            {
+              "w": "on",
+              "seg": [
+                "o",
+                "n"
+              ]
+            },
+            {
+              "w": "pöydällä",
+              "seg": [
+                "p",
+                "ö",
+                "y",
+                "d",
+                "ä",
+                "ll",
+                "ä"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Haarukka on laatikossa.",
+          "target": "aa",
+          "hits": 2,
+          "tokens": [
+            {
+              "w": "Haarukka",
+              "seg": [
+                "H",
+                "aa",
+                "r",
+                "u",
+                "kk",
+                "a"
+              ]
+            },
+            {
+              "w": "on",
+              "seg": [
+                "o",
+                "n"
+              ]
+            },
+            {
+              "w": "laatikossa",
+              "seg": [
+                "l",
+                "aa",
+                "t",
+                "i",
+                "k",
+                "o",
+                "ss",
+                "a"
+              ]
+            }
+          ]
+        }
+      ],
+      "rejectedPics": [
+        {
+          "pic": "fruits/cherry",
+          "why": "näyttää omenalta (design §4)"
+        },
+        {
+          "pic": "fruits/peach",
+          "why": "näyttää omenalta (design §4)"
+        },
+        {
+          "pic": "christmas/chimney",
+          "why": "takka, ei savupiippu (design §4)"
+        },
+        {
+          "pic": "body parts/mouth",
+          "why": "huulet, lapsi sanoo \"huulet\" eikä \"suu\" (design §4)"
+        },
+        {
+          "pic": "colors/white",
+          "why": "valkoinen väriläiskä (design §1)"
+        },
+        {
+          "pic": "shapes/cone",
+          "why": "katkaistu kartio / lampunvarjostin (design §1)"
+        },
+        {
+          "pic": "easter/chick",
+          "why": "näyttää ankanpoikaselta (review 2026-09-23)"
+        },
+        {
+          "pic": "classroom/lunchbox",
+          "why": "näyttää aarrearkulta (review 2026-09-23)"
+        },
+        {
+          "pic": "reptiles and Amphibians/alligator",
+          "why": "suomalainen lapsi sanoo \"krokotiili\" (ii), ei \"alligaattori\" (fi panel, avattu)"
+        },
+        {
+          "pic": "music/cymbals",
+          "why": "kuvassa on koko rumpusetti: lapsi sanoo \"rummut\" (fi panel, avattu)"
+        },
+        {
+          "pic": "space/earth",
+          "why": "maapallo: lapsi sanoo \"maapallo\" eikä \"maa\", sanan loppu ei ole varma (fi panel, avattu)"
+        },
+        {
+          "pic": "classroom/globe",
+          "why": "karttapallo, ei \"maapallo\" (fi panel, avattu)"
+        },
+        {
+          "pic": "vehicles/jeep",
+          "why": "lapsi sanoo \"auto\" tai \"jeeppi\" (fi panel, avattu)"
+        },
+        {
+          "pic": "ocean life/manatee",
+          "why": "lapsi ei tunne manaattia, näyttää hylkeeltä (fi panel, avattu)"
+        },
+        {
+          "pic": "occupations/nurse",
+          "why": "lapsi voi sanoa \"lääkäri\" (ää): vieras pitkä vokaali (fi panel, avattu)"
+        },
+        {
+          "pic": "activities/painting",
+          "why": "väripaletti ja sivellin, ei maalaus (fi panel, avattu)"
+        },
+        {
+          "pic": "birds/pelican",
+          "why": "näyttää haikaralta tai kurjelta (fi panel, avattu)"
+        },
+        {
+          "pic": "vegetables/spinach",
+          "why": "yksi lehti: lapsi sanoo \"lehti\" (fi panel, avattu)"
+        },
+        {
+          "pic": "hospital/stretcher",
+          "why": "lapsi ei tunne sanaa \"paarit\" (fi panel, avattu)"
+        },
+        {
+          "pic": "bakery/toast",
+          "why": "lapsi sanoo \"leipä\" (ei aa) (fi panel, avattu)"
+        },
+        {
+          "pic": "occupations/farmer",
+          "why": "lapsi sanoo \"viljelijä\" tai \"farmari\" (fi panel, avattu)"
+        },
+        {
+          "pic": "occupations/carpenter",
+          "why": "lapsi sanoo \"rakennusmies\" (fi panel, avattu)"
+        },
+        {
+          "pic": "beach/driftwood",
+          "why": "näyttää oksalta tai kepiltä (fi panel, avattu)"
+        },
+        {
+          "pic": "bakery/eclair",
+          "why": "näyttää hodarilta tai voileivältä (fi panel, avattu)"
+        },
+        {
+          "pic": "occupations/musician",
+          "why": "poika ja kitara: lapsi sanoo \"kitaristi\" (fi panel, avattu)"
+        },
+        {
+          "pic": "music/trombone",
+          "why": "näyttää trumpetilta (fi panel, avattu)"
+        },
+        {
+          "pic": "christmas/tree",
+          "why": "koristeltu joulukuusi, ei \"puu\" (fi panel, avattu)"
+        },
+        {
+          "pic": "fruits/plum",
+          "why": "näyttää punaiselta omenalta (havainto sv #35)"
+        },
+        {
+          "pic": "body parts/head",
+          "why": "kasvot: lapsi sanoo \"naama\" tai \"kasvot\" (fi panel, avattu)"
+        },
+        {
+          "pic": "winter/ice",
+          "why": "avanto, ei varmasti \"jää\" (fi panel, avattu)"
+        },
+        {
+          "pic": "body parts/leg",
+          "why": "lapsi sanoo \"jalka\" eikä \"sääri\" (fi panel, avattu)"
+        },
+        {
+          "pic": "occupations/tailor",
+          "why": "nainen ompelukoneella: lapsi sanoo \"ompelija\" (fi panel, avattu)"
+        },
+        {
+          "pic": "body parts/elbow",
+          "why": "kyynärpäässä on kaksi pitkää vokaalia (yy ja ää) (fi panel, avattu)"
+        },
+        {
+          "pic": "occupations/gardener",
+          "why": "lapsi sanoo \"viljelijä\" tai \"maanviljelijä\" (aa), ei \"puutarhuri\" (fi landing, avattu)"
+        },
+        {
+          "pic": "body parts/heel",
+          "why": "lapsi sanoo \"jalka\" eikä \"kantapää\" (fi landing, avattu)"
+        },
+        {
+          "pic": "farm animals/llama",
+          "why": "lapsi sanoo usein \"alpakka\" eikä \"laama\" (fi landing, avattu)"
+        },
+        {
+          "pic": "birds/toucan",
+          "why": "esikoululainen ei tunne tukaania (fi landing, avattu)"
+        }
+      ],
+      "strings": {
+        "base": {
+          "title": "Pitkä vokaali aa, uu vai ää: mikä kuuluu sanassa?",
+          "instruction": "Sano jokaisen kuvan nimi ja rengasta se pitkä vokaali, jonka kuulet."
+        },
+        "sort-two": {
+          "title": "Pitkä vokaali: lajittele kuvat, aa vai uu?",
+          "instruction": "Sano jokaisen kuvan nimi ja yhdistä se viivalla siihen pitkään vokaaliin, jonka kuulet."
+        },
+        "gap": {
+          "title": "Kirjoita puuttuva pitkä vokaali: aa, uu vai ää",
+          "instruction": "Sano jokaisen kuvan sana ja kirjoita ylhäältä puuttuva pitkä vokaali katkoviivalla merkittyyn kohtaan."
+        },
+        "match": {
+          "title": "Pitkä vokaali: lue sanat ja yhdistä kuviin",
+          "instruction": "Lue jokainen sana, jonka pitkä vokaali on merkitty, ja yhdistä se viivalla oikeaan kuvaan."
+        },
+        "position": {
+          "title": "Missä kohdassa pitkä vokaali kuuluu?",
+          "instruction": "Sano kuvan sana ja väritä alku, jos sana alkaa pitkällä vokaalilla, loppu, jos se loppuu siihen, ja muuten keskikohta."
+        },
+        "text": {
+          "title": "Pitkät vokaalit lauseissa: etsi ja laske aa",
+          "instruction": "Lue lauseet, rengasta jokainen aa ja kirjoita ruutuun, montako niitä on kussakin lauseessa."
+        }
+      }
+    },
+    "synonyms": {
+      "head": "Synonyymit",
+      "allowed": [
+        " ",
+        "-"
+      ],
+      "ban": [
+        "kiva",
+        "hauska",
+        "mahtava",
+        "siisti",
+        "hyvä",
+        "kova",
+        "kiltti",
+        "ihana",
+        "makea",
+        "kevyt",
+        "selvä",
+        "kirkas",
+        "hieno",
+        "pysyä"
+      ],
+      "regional": [],
+      "groups": [
+        {
+          "id": "g.happy",
+          "concept": "happy",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "iloinen",
+            "onnellinen"
+          ]
+        },
+        {
+          "id": "g.sad",
+          "concept": "sad",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "surullinen",
+            "alakuloinen"
+          ]
+        },
+        {
+          "id": "g.angry",
+          "concept": "angry",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "vihainen",
+            "suuttunut"
+          ]
+        },
+        {
+          "id": "g.scared",
+          "concept": "scared",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "pelästynyt",
+            "peloissaan"
+          ]
+        },
+        {
+          "id": "g.surprised",
+          "concept": "surprised",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 2,
+          "words": [
+            "yllättynyt",
+            "hämmästynyt"
+          ]
+        },
+        {
+          "id": "g.calm",
+          "concept": "calm",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 2,
+          "words": [
+            "rauhallinen",
+            "tyyni"
+          ]
+        },
+        {
+          "id": "g.tired",
+          "concept": "tired",
+          "pos": "adj",
+          "domain": "body",
+          "tier": 1,
+          "words": [
+            "väsynyt",
+            "unelias"
+          ]
+        },
+        {
+          "id": "g.sick",
+          "concept": "sick",
+          "pos": "adj",
+          "domain": "body",
+          "tier": 1,
+          "words": [
+            "sairas",
+            "kipeä"
+          ]
+        },
+        {
+          "id": "g.strong",
+          "concept": "strong",
+          "pos": "adj",
+          "domain": "body",
+          "tier": 2,
+          "words": [
+            "vahva",
+            "voimakas"
+          ]
+        },
+        {
+          "id": "g.big",
+          "concept": "big",
+          "pos": "adj",
+          "domain": "size-speed",
+          "tier": 1,
+          "words": [
+            "iso",
+            "suuri"
+          ]
+        },
+        {
+          "id": "g.small",
+          "concept": "small",
+          "pos": "adj",
+          "domain": "size-speed",
+          "tier": 1,
+          "words": [
+            "pieni",
+            "pikkuinen"
+          ]
+        },
+        {
+          "id": "g.fast",
+          "concept": "fast",
+          "pos": "adj",
+          "domain": "size-speed",
+          "tier": 1,
+          "words": [
+            "nopea",
+            "vikkelä"
+          ]
+        },
+        {
+          "id": "g.easy",
+          "concept": "easy",
+          "pos": "adj",
+          "domain": "thinking",
+          "tier": 1,
+          "words": [
+            "helppo",
+            "vaivaton"
+          ]
+        },
+        {
+          "id": "g.difficult",
+          "concept": "difficult",
+          "pos": "adj",
+          "domain": "thinking",
+          "tier": 2,
+          "words": [
+            "vaikea",
+            "hankala"
+          ]
+        },
+        {
+          "id": "g.smart",
+          "concept": "smart",
+          "pos": "adj",
+          "domain": "thinking",
+          "tier": 2,
+          "words": [
+            "fiksu",
+            "älykäs"
+          ]
+        },
+        {
+          "id": "g.brave",
+          "concept": "brave",
+          "pos": "adj",
+          "domain": "character",
+          "tier": 2,
+          "words": [
+            "rohkea",
+            "urhea"
+          ]
+        },
+        {
+          "id": "g.funny",
+          "concept": "funny",
+          "pos": "adj",
+          "domain": "character",
+          "tier": 2,
+          "words": [
+            "huvittava",
+            "lystikäs"
+          ]
+        },
+        {
+          "id": "g.strange",
+          "concept": "strange",
+          "pos": "adj",
+          "domain": "character",
+          "tier": 2,
+          "words": [
+            "outo",
+            "kummallinen",
+            "omituinen"
+          ]
+        },
+        {
+          "id": "g.loud",
+          "concept": "loud",
+          "pos": "adj",
+          "domain": "senses",
+          "tier": 1,
+          "words": [
+            "äänekäs",
+            "meluisa"
+          ]
+        },
+        {
+          "id": "g.tasty",
+          "concept": "tasty",
+          "pos": "adj",
+          "domain": "senses",
+          "tier": 1,
+          "words": [
+            "herkullinen",
+            "maukas"
+          ]
+        },
+        {
+          "id": "g.cozy",
+          "concept": "cozy",
+          "pos": "adj",
+          "domain": "senses",
+          "tier": 2,
+          "words": [
+            "kodikas",
+            "viihtyisä"
+          ]
+        },
+        {
+          "id": "g.pretty",
+          "concept": "pretty",
+          "pos": "adj",
+          "domain": "looks",
+          "tier": 1,
+          "words": [
+            "kaunis",
+            "sievä",
+            "nätti"
+          ]
+        },
+        {
+          "id": "g.messy",
+          "concept": "messy",
+          "pos": "adj",
+          "domain": "looks",
+          "tier": 2,
+          "words": [
+            "sotkuinen",
+            "siivoton"
+          ]
+        },
+        {
+          "id": "g.shut",
+          "concept": "shut",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 1,
+          "words": [
+            "sulkea",
+            "panna kiinni"
+          ]
+        },
+        {
+          "id": "g.fix",
+          "concept": "fix",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 1,
+          "words": [
+            "korjata",
+            "kunnostaa"
+          ]
+        },
+        {
+          "id": "g.choose",
+          "concept": "choose",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 2,
+          "words": [
+            "valita",
+            "poimia"
+          ]
+        },
+        {
+          "id": "g.collect",
+          "concept": "collect",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 2,
+          "words": [
+            "kerätä",
+            "koota"
+          ]
+        },
+        {
+          "id": "g.help",
+          "concept": "help",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 2,
+          "words": [
+            "auttaa",
+            "avustaa"
+          ]
+        },
+        {
+          "id": "g.jump",
+          "concept": "jump",
+          "pos": "verb",
+          "domain": "move",
+          "tier": 1,
+          "words": [
+            "hypätä",
+            "loikata"
+          ]
+        },
+        {
+          "id": "g.throw",
+          "concept": "throw",
+          "pos": "verb",
+          "domain": "move",
+          "tier": 1,
+          "words": [
+            "heittää",
+            "viskata"
+          ]
+        },
+        {
+          "id": "g.fall",
+          "concept": "fall",
+          "pos": "verb",
+          "domain": "move",
+          "tier": 2,
+          "words": [
+            "pudota",
+            "tipahtaa"
+          ]
+        },
+        {
+          "id": "g.talk",
+          "concept": "talk",
+          "pos": "verb",
+          "domain": "speak",
+          "tier": 1,
+          "words": [
+            "puhua",
+            "jutella"
+          ]
+        },
+        {
+          "id": "g.shout",
+          "concept": "shout",
+          "pos": "verb",
+          "domain": "speak",
+          "tier": 1,
+          "words": [
+            "huutaa",
+            "karjua"
+          ]
+        }
+      ],
+      "near": [
+        {
+          "a": "iso",
+          "b": "valtava",
+          "why": "sävyero: valtava on paljon isompi kuin iso"
+        },
+        {
+          "a": "lämmin",
+          "b": "kuuma",
+          "why": "sävyero: kuuma on enemmän kuin lämmin"
+        },
+        {
+          "a": "viileä",
+          "b": "kylmä",
+          "why": "sävyero: viileä on vähemmän kuin kylmä"
+        },
+        {
+          "a": "kostea",
+          "b": "märkä",
+          "why": "sävyero: kostea on vain vähän märkä"
+        },
+        {
+          "a": "vihainen",
+          "b": "ärtynyt",
+          "why": "sävyero: ärtynyt on vähän vihainen"
+        },
+        {
+          "a": "pelästynyt",
+          "b": "hermostunut",
+          "why": "hermostunut on eri tunne, ei vain vähän pelästynyt"
+        },
+        {
+          "a": "surullinen",
+          "b": "murheellinen",
+          "why": "sävyero: murheellinen on syvempi suru"
+        },
+        {
+          "a": "rauhallinen",
+          "b": "kodikas",
+          "why": "kodikas huone voi tuntua rauhalliselta, mutta sanat eivät tarkoita samaa"
+        },
+        {
+          "a": "vahva",
+          "b": "rohkea",
+          "why": "vahva kertoo kehon voimasta, rohkea uskalluksesta"
+        },
+        {
+          "a": "puhua",
+          "b": "huutaa",
+          "why": "huutaminen on hyvin kovaa puhumista"
+        },
+        {
+          "a": "poimia",
+          "b": "kerätä",
+          "why": "kukkia voi poimia ja kerätä, mutta valita ja kerätä eivät ole sama asia"
+        },
+        {
+          "a": "iloinen",
+          "b": "huvittava",
+          "why": "iloinen on tunne, huvittava saa muut nauramaan"
+        },
+        {
+          "a": "väsynyt",
+          "b": "sairas",
+          "why": "väsynyt ihminen ei ole sairas"
+        },
+        {
+          "a": "äänekäs",
+          "b": "voimakas",
+          "why": "voimakas ääni on kova ääni, mutta voimakas ihminen on vahva"
+        },
+        {
+          "a": "yllättynyt",
+          "b": "pelästynyt",
+          "why": "säikähtänyt ja yllättynyt ovat lähellä toisiaan: yllätys voi säikäyttää"
+        },
+        {
+          "a": "hämmästynyt",
+          "b": "pelästynyt",
+          "why": "hämmästys ja säikähdys ovat lähellä toisiaan"
+        }
+      ],
+      "nearOnly": [
+        "valtava",
+        "hermostunut",
+        "murheellinen"
+      ],
+      "falseOf": {
+        "happy": [
+          "surullinen",
+          "alakuloinen",
+          "vihainen",
+          "suuttunut",
+          "pelästynyt",
+          "peloissaan",
+          "yllättynyt",
+          "hämmästynyt",
+          "väsynyt",
+          "unelias",
+          "nopea",
+          "vikkelä",
+          "iso",
+          "suuri",
+          "pieni",
+          "pikkuinen"
+        ],
+        "sad": [
+          "iloinen",
+          "onnellinen",
+          "vihainen",
+          "suuttunut",
+          "yllättynyt",
+          "hämmästynyt",
+          "nopea",
+          "vikkelä",
+          "iso",
+          "suuri",
+          "pieni",
+          "pikkuinen"
+        ],
+        "angry": [
+          "iloinen",
+          "onnellinen",
+          "surullinen",
+          "alakuloinen",
+          "pelästynyt",
+          "peloissaan",
+          "yllättynyt",
+          "hämmästynyt",
+          "väsynyt",
+          "unelias",
+          "nopea",
+          "vikkelä",
+          "iso",
+          "suuri",
+          "pieni",
+          "pikkuinen"
+        ],
+        "scared": [
+          "iloinen",
+          "onnellinen",
+          "surullinen",
+          "alakuloinen",
+          "väsynyt",
+          "unelias",
+          "nopea",
+          "vikkelä",
+          "iso",
+          "suuri",
+          "pieni",
+          "pikkuinen"
+        ],
+        "surprised": [
+          "iloinen",
+          "onnellinen",
+          "surullinen",
+          "alakuloinen",
+          "vihainen",
+          "suuttunut",
+          "väsynyt",
+          "unelias",
+          "nopea",
+          "vikkelä",
+          "iso",
+          "suuri",
+          "pieni",
+          "pikkuinen"
+        ],
+        "tired": [
+          "iloinen",
+          "onnellinen",
+          "vihainen",
+          "suuttunut",
+          "pelästynyt",
+          "peloissaan",
+          "yllättynyt",
+          "hämmästynyt",
+          "nopea",
+          "vikkelä",
+          "iso",
+          "suuri",
+          "pieni",
+          "pikkuinen"
+        ],
+        "fast": [
+          "iloinen",
+          "onnellinen",
+          "surullinen",
+          "alakuloinen",
+          "vihainen",
+          "suuttunut",
+          "pelästynyt",
+          "peloissaan",
+          "yllättynyt",
+          "hämmästynyt",
+          "väsynyt",
+          "unelias"
+        ],
+        "big": [
+          "surullinen",
+          "alakuloinen",
+          "vihainen",
+          "suuttunut",
+          "pelästynyt",
+          "peloissaan",
+          "yllättynyt",
+          "hämmästynyt",
+          "nopea",
+          "vikkelä",
+          "pieni",
+          "pikkuinen"
+        ],
+        "small": [
+          "surullinen",
+          "alakuloinen",
+          "pelästynyt",
+          "peloissaan",
+          "yllättynyt",
+          "hämmästynyt",
+          "väsynyt",
+          "unelias",
+          "iso",
+          "suuri"
+        ]
+      },
+      "scales": [
+        {
+          "id": "s.heat",
+          "pos": "adj",
+          "words": [
+            "lämmin",
+            "kuuma",
+            "tulikuuma"
+          ]
+        },
+        {
+          "id": "s.cold",
+          "pos": "adj",
+          "words": [
+            "viileä",
+            "kylmä",
+            "jääkylmä"
+          ]
+        },
+        {
+          "id": "s.wet",
+          "pos": "adj",
+          "words": [
+            "kostea",
+            "märkä",
+            "likomärkä"
+          ]
+        },
+        {
+          "id": "s.angry",
+          "pos": "adj",
+          "words": [
+            "ärtynyt",
+            "vihainen",
+            "raivoissaan"
+          ]
+        },
+        {
+          "id": "s.eat",
+          "pos": "verb",
+          "words": [
+            "napostella",
+            "syödä",
+            "ahmia"
+          ]
+        },
+        {
+          "id": "s.laugh",
+          "pos": "verb",
+          "words": [
+            "hymyillä",
+            "nauraa",
+            "hohottaa"
+          ]
+        },
+        {
+          "id": "s.voice",
+          "pos": "verb",
+          "words": [
+            "kuiskata",
+            "puhua",
+            "huutaa"
+          ]
+        },
+        {
+          "id": "s.glad",
+          "pos": "adj",
+          "words": [
+            "tyytyväinen",
+            "iloinen",
+            "riemuissaan"
+          ]
+        }
+      ],
+      "fields": {
+        "say": {
+          "head": "sanoi",
+          "form": "imperfekti (yksikön 3. persoona)",
+          "words": [
+            "kuiskasi",
+            "huusi",
+            "kysyi",
+            "vastasi",
+            "selitti",
+            "lupasi"
+          ],
+          "sentences": [
+            {
+              "id": "f1",
+              "text": "”Hys, vauva nukkuu”, {name} {gap} aivan hiljaa.",
+              "plainVerbOK": true,
+              "fit": {
+                "kuiskasi": true,
+                "huusi": false,
+                "kysyi": false,
+                "vastasi": false,
+                "selitti": false,
+                "lupasi": false
+              }
+            },
+            {
+              "id": "f2",
+              "text": "”Minulla on sinulle salaisuus”, {name} {gap} mummon korvaan.",
+              "plainVerbOK": true,
+              "fit": {
+                "kuiskasi": true,
+                "huusi": false,
+                "kysyi": false,
+                "vastasi": false,
+                "selitti": false,
+                "lupasi": false
+              }
+            },
+            {
+              "id": "f3",
+              "text": "Bussi oli lähdössä, joten {name} {gap}: ”Odottakaa minua!”",
+              "plainVerbOK": true,
+              "fit": {
+                "kuiskasi": false,
+                "huusi": true,
+                "kysyi": false,
+                "vastasi": false,
+                "selitti": false,
+                "lupasi": false
+              }
+            },
+            {
+              "id": "f4",
+              "text": "”Tule leikkimään!” {name} {gap} koko pihan poikki.",
+              "plainVerbOK": true,
+              "fit": {
+                "kuiskasi": false,
+                "huusi": true,
+                "kysyi": false,
+                "vastasi": false,
+                "selitti": false,
+                "lupasi": false
+              }
+            },
+            {
+              "id": "f5",
+              "text": "”Missä punainen piponi on?” {name} {gap}.",
+              "plainVerbOK": true,
+              "fit": {
+                "kuiskasi": false,
+                "huusi": false,
+                "kysyi": true,
+                "vastasi": false,
+                "selitti": false,
+                "lupasi": false
+              }
+            },
+            {
+              "id": "f6",
+              "text": "”Kymmenen”, {name} {gap} heti, kun opettaja luki laskun ääneen.",
+              "plainVerbOK": true,
+              "fit": {
+                "kuiskasi": false,
+                "huusi": false,
+                "kysyi": false,
+                "vastasi": true,
+                "selitti": false,
+                "lupasi": false
+              }
+            },
+            {
+              "id": "f7",
+              "text": "”Kaiva ensin kuoppa ja pudota sitten siemen siihen”, {name} {gap}.",
+              "plainVerbOK": true,
+              "fit": {
+                "kuiskasi": false,
+                "huusi": false,
+                "kysyi": false,
+                "vastasi": false,
+                "selitti": true,
+                "lupasi": false
+              }
+            },
+            {
+              "id": "f8",
+              "text": "”Minä ruokin kalat joka päivä, ihan varmasti”, {name} {gap}.",
+              "plainVerbOK": true,
+              "fit": {
+                "kuiskasi": false,
+                "huusi": false,
+                "kysyi": false,
+                "vastasi": false,
+                "selitti": false,
+                "lupasi": true
+              }
+            }
+          ]
+        },
+        "go": {
+          "head": "mennä",
+          "words": [
+            "kävellä",
+            "marssia",
+            "ryömiä",
+            "kiirehtiä",
+            "astella",
+            "vaeltaa",
+            "hiipiä",
+            "rynnätä"
+          ]
+        },
+        "look": {
+          "head": "katsoa",
+          "words": [
+            "kurkistaa",
+            "tuijottaa",
+            "vilkaista",
+            "tarkkailla",
+            "silmäillä",
+            "tähyillä",
+            "katsella",
+            "töllistellä"
+          ]
+        }
+      },
+      "quotes": [
+        "”",
+        "”"
+      ],
+      "instructionBans": {
+        "base": [
+          "viiva",
+          "ruutu",
+          "kuva"
+        ],
+        "pictures": [
+          "viiva",
+          "ruutu",
+          "kortti"
+        ],
+        "pairs": [
+          "ruutu",
+          "kortti",
+          "kuva",
+          "rengasta"
+        ],
+        "shades": [
+          "viiva",
+          "kortti",
+          "sama",
+          "samaa"
+        ],
+        "say": [
+          "viiva",
+          "kortti"
+        ],
+        "fields": [
+          "viiva",
+          "kortti",
+          "ruutu"
+        ]
+      },
+      "strings": {
+        "base": {
+          "title": "Synonyymit: rengasta sana, joka tarkoittaa samaa",
+          "instruction": "Lue jokaisen kortin iso sana ja rengasta sen alta sana, joka tarkoittaa samaa."
+        },
+        "pictures": {
+          "title": "Synonyymit kuvien avulla: kaksi sanaa, yksi kuva",
+          "instruction": "Katso jokaista kuvaa ja rengasta sen alta kaksi sanaa, jotka tarkoittavat samaa ja sopivat kuvaan."
+        },
+        "pairs": {
+          "title": "Synonyymiparit: yhdistä samaa tarkoittavat sanat",
+          "instruction": "Yhdistä viivalla jokainen vasemman puolen sana siihen oikean puolen sanaan, joka tarkoittaa samaa."
+        },
+        "shades": {
+          "title": "Sanojen voimakkuus: heikoimmasta voimakkaimpaan",
+          "instruction": "Lue rivin kolme sanaa ja kirjoita ruutuihin 1, 2 ja 3 heikoimmasta sanasta voimakkaimpaan."
+        },
+        "say": {
+          "title": "Sanoi-sanan synonyymit: valitse sopiva sana",
+          "instruction": "Lue jokainen lause ja kirjoita ruutuun puhekuplasta se sana, joka sopii parhaiten sanan sanoi tilalle."
+        },
+        "fields": {
+          "title": "Mennä ja katsoa: lajittele synonyymit",
+          "instruction": "Lue kymmenen sanaa ja kirjoita jokainen sana joko mennä-kenttään tai katsoa-kenttään sen mukaan, mihin se kuuluu."
+        }
+      }
+    },
+    "word-parts": {
+      "familyHead": "Kantasana ja johdokset",
+      "inflections": [
+        "n",
+        "t",
+        "a",
+        "ä",
+        "na",
+        "nä",
+        "ssa",
+        "ssä",
+        "sta",
+        "stä",
+        "lla",
+        "llä",
+        "lta",
+        "ltä",
+        "lle",
+        "ksi",
+        "an",
+        "en",
+        "on",
+        "un",
+        "yn",
+        "än",
+        "ön"
+      ],
+      "families": [
+        {
+          "id": "kirja",
+          "stem": "kirja",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "kirja"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "kirjain",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "kirjasto",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "kirjailija",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "kirjallinen",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "kirjailla",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "kirjanen",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "kirjakauppa",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "kirves",
+              "whyNotFamily": "työkalu puun hakkaamiseen"
+            },
+            {
+              "word": "kirkko",
+              "whyNotFamily": "rakennus, jossa soi kello"
+            },
+            {
+              "word": "kirsikka",
+              "whyNotFamily": "pieni punainen marja"
+            }
+          ]
+        },
+        {
+          "id": "ilo",
+          "stem": "ilo",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "ilo"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "iloinen",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "iloisesti",
+              "kind": "derived",
+              "slot": "adverb"
+            },
+            {
+              "word": "iloisuus",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "iloita",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "ilostua",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "iloton",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "ilotulitus",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "ilma",
+              "whyNotFamily": "se, mitä hengitämme"
+            },
+            {
+              "word": "ilta",
+              "whyNotFamily": "päivän loppu ennen yötä"
+            },
+            {
+              "word": "ilves",
+              "whyNotFamily": "metsän kissaeläin"
+            }
+          ]
+        },
+        {
+          "id": "kala",
+          "stem": "kala",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "kala"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "kalastaa",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "kalastaja",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "kalastus",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "kalastella",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "kalaisa",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "kalastaminen",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "kalakeitto",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "kaali",
+              "whyNotFamily": "vihreä kasvis"
+            },
+            {
+              "word": "kakku",
+              "whyNotFamily": "makea leivonnainen"
+            },
+            {
+              "word": "kameli",
+              "whyNotFamily": "kyttyräselkäinen eläin"
+            }
+          ]
+        },
+        {
+          "id": "väri",
+          "stem": "väri",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "väri"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "värikäs",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "värinen",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "väritön",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "värillinen",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "värittää",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "väritys",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "värikynä",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "väki",
+              "whyNotFamily": "paljon ihmisiä yhdessä; siinä ei ole väriä"
+            },
+            {
+              "word": "vähä",
+              "whyNotFamily": "pieni määrä jotakin"
+            },
+            {
+              "word": "väylä",
+              "whyNotFamily": "kapea kulkureitti vedessä tai maalla"
+            }
+          ]
+        },
+        {
+          "id": "rauha",
+          "stem": "rauha",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "rauha"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "rauhallinen",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "rauhallisesti",
+              "kind": "derived",
+              "slot": "adverb"
+            },
+            {
+              "word": "rauhallisuus",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "rauhaton",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "rauhanmerkki",
+              "kind": "compound",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "rauhattomuus",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "rauhaisa",
+              "kind": "derived",
+              "slot": "adjective"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "rauta",
+              "whyNotFamily": "kova metalli; vain alku on sama"
+            },
+            {
+              "word": "rapu",
+              "whyNotFamily": "pieni eläin, joka kävelee sivuttain"
+            },
+            {
+              "word": "rasia",
+              "whyNotFamily": "pieni laatikko, jossa on kansi"
+            }
+          ]
+        },
+        {
+          "id": "pöly",
+          "stem": "pöly",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "pöly"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "pölyinen",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "pölyisyys",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "pölytön",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "pölyttää",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "pölytys",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "pölyttäjä",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "pölyimuri",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "pöytä",
+              "whyNotFamily": "huonekalu, jonka ääressä syödään"
+            },
+            {
+              "word": "pöllö",
+              "whyNotFamily": "lintu, joka valvoo öisin"
+            },
+            {
+              "word": "pölkky",
+              "whyNotFamily": "paksu puunpala"
+            }
+          ]
+        }
+      ],
+      "rootFamilies": [
+        {
+          "id": "sana",
+          "stem": "sana",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "sana"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "sanasto",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "sanallinen",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "sanallisesti",
+              "kind": "derived",
+              "slot": "adverb"
+            },
+            {
+              "word": "sanaton",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "sananen",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "sanailla",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "sanaristikko",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "sammakko",
+              "whyNotFamily": "vihreä eläin, joka hyppii"
+            },
+            {
+              "word": "sauna",
+              "whyNotFamily": "kuuma huone, jossa kylvetään"
+            },
+            {
+              "word": "sade",
+              "whyNotFamily": "vettä pilvestä"
+            }
+          ]
+        },
+        {
+          "id": "voima",
+          "stem": "voima",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "voima"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "voimakas",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "voimakkaasti",
+              "kind": "derived",
+              "slot": "adverb"
+            },
+            {
+              "word": "voimaton",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "voimakkuus",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "voimailla",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "voimailija",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "voimalaitos",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "voi",
+              "whyNotFamily": "leivän päälle levitetään voita"
+            },
+            {
+              "word": "voikukka",
+              "whyNotFamily": "keltainen kukka"
+            },
+            {
+              "word": "vohveli",
+              "whyNotFamily": "ruudullinen leivonnainen"
+            }
+          ]
+        },
+        {
+          "id": "raha",
+          "stem": "raha",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "raha"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "rahakas",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "rahaton",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "rahattomuus",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "rahallinen",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "rahallisesti",
+              "kind": "derived",
+              "slot": "adverb"
+            },
+            {
+              "word": "rahasto",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "rahapussi",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "ranta",
+              "whyNotFamily": "järven tai meren reuna"
+            },
+            {
+              "word": "rapu",
+              "whyNotFamily": "saksinen vesieläin"
+            },
+            {
+              "word": "rasia",
+              "whyNotFamily": "pieni laatikko"
+            }
+          ]
+        },
+        {
+          "id": "pallo",
+          "stem": "pallo",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "pallo"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "palloilla",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "palloilu",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "palloilija",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "pallomainen",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "pallotella",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "pallottelu",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "pallokenttä",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "palmu",
+              "whyNotFamily": "lämpimän maan puu"
+            },
+            {
+              "word": "paita",
+              "whyNotFamily": "vaate ylävartalolle"
+            },
+            {
+              "word": "pala",
+              "whyNotFamily": "pieni osa jostakin"
+            }
+          ]
+        },
+        {
+          "id": "kuva",
+          "stem": "kuva",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "kuva"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "kuvata",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "kuvaaja",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "kuvaus",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "kuvailla",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "kuvallinen",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "kuvasto",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "kuvakortti",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "kuu",
+              "whyNotFamily": "se loistaa yötaivaalla"
+            },
+            {
+              "word": "kuusi",
+              "whyNotFamily": "havupuu"
+            },
+            {
+              "word": "kuppi",
+              "whyNotFamily": "siitä juodaan kaakaota"
+            }
+          ]
+        },
+        {
+          "id": "juhla",
+          "stem": "juhla",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "juhla"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "juhlava",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "juhlavasti",
+              "kind": "derived",
+              "slot": "adverb"
+            },
+            {
+              "word": "juhlallinen",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "juhlallisesti",
+              "kind": "derived",
+              "slot": "adverb"
+            },
+            {
+              "word": "juhlallisuus",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "juhlavuus",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "juhlapuku",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "juna",
+              "whyNotFamily": "se kulkee kiskoilla"
+            },
+            {
+              "word": "juusto",
+              "whyNotFamily": "maidosta tehty ruoka"
+            },
+            {
+              "word": "jumppa",
+              "whyNotFamily": "liikuntaa sisällä"
+            }
+          ]
+        }
+      ],
+      "picFamilies": [
+        {
+          "id": "pilvi",
+          "stem": "pilvi",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "pilvi",
+            "pic": {
+              "theme": "spring",
+              "noun": "cloud"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "pilvinen",
+              "kind": "derived",
+              "slot": "adjective"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "pikkuinen",
+              "whyNotFamily": "sana on tehty sanasta \"pikku\", ei kuvan sanasta"
+            },
+            {
+              "word": "pilkullinen",
+              "whyNotFamily": "sana on tehty sanasta \"pilkku\", ei kuvan sanasta"
+            },
+            {
+              "word": "pilli",
+              "whyNotFamily": "alkaa samoin kuin \"pilvi\", mutta sitä ei ole tehty kuvan sanasta"
+            }
+          ]
+        },
+        {
+          "id": "käsi",
+          "stem": "käsi",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "käsi",
+            "pic": {
+              "theme": "body parts",
+              "noun": "hand"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "käsine",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "käsitellä",
+              "kind": "derived",
+              "slot": "verb"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "kärry",
+              "whyNotFamily": "alkaa samoin kuin \"käsi\", mutta sitä ei ole tehty kuvan sanasta"
+            },
+            {
+              "word": "käärme",
+              "whyNotFamily": "alkaa samoin kuin \"käsi\", mutta sitä ei ole tehty kuvan sanasta"
+            },
+            {
+              "word": "kärpänen",
+              "whyNotFamily": "alkaa samoin kuin \"käsi\", mutta sitä ei ole tehty kuvan sanasta"
+            }
+          ]
+        },
+        {
+          "id": "lintu",
+          "stem": "lintu",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "lintu",
+            "pic": {
+              "theme": "spring",
+              "noun": "bird"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "lintunen",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "likainen",
+              "whyNotFamily": "sana on tehty sanasta \"lika\", ei kuvan sanasta"
+            },
+            {
+              "word": "limainen",
+              "whyNotFamily": "sana on tehty sanasta \"lima\", ei kuvan sanasta"
+            },
+            {
+              "word": "lippu",
+              "whyNotFamily": "alkaa samoin kuin \"lintu\", mutta sitä ei ole tehty kuvan sanasta"
+            }
+          ]
+        },
+        {
+          "id": "kukka",
+          "stem": "kukka",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "kukka",
+            "pic": {
+              "theme": "spring",
+              "noun": "flower"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "kukkanen",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "kultainen",
+              "whyNotFamily": "sana on tehty sanasta \"kulta\", ei kuvan sanasta"
+            },
+            {
+              "word": "kurainen",
+              "whyNotFamily": "sana on tehty sanasta \"kura\", ei kuvan sanasta"
+            },
+            {
+              "word": "kukko",
+              "whyNotFamily": "alkaa samoin kuin \"kukka\", mutta sitä ei ole tehty kuvan sanasta"
+            }
+          ]
+        },
+        {
+          "id": "metsä",
+          "stem": "metsä",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "metsä",
+            "pic": {
+              "theme": "camping",
+              "noun": "forest"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "metsäinen",
+              "kind": "derived",
+              "slot": "adjective"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "mehiläinen",
+              "whyNotFamily": "hyönteinen, joka tekee hunajaa"
+            },
+            {
+              "word": "metallinen",
+              "whyNotFamily": "sana on tehty sanasta \"metalli\", ei kuvan sanasta"
+            },
+            {
+              "word": "mekko",
+              "whyNotFamily": "alkaa samoin kuin \"metsä\", mutta sitä ei ole tehty kuvan sanasta"
+            }
+          ]
+        },
+        {
+          "id": "vuori",
+          "stem": "vuori",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "vuori",
+            "pic": {
+              "theme": "camping",
+              "noun": "mountain"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "vuoristo",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "vuode",
+              "whyNotFamily": "alkaa samoin kuin \"vuori\", mutta sitä ei ole tehty kuvan sanasta"
+            },
+            {
+              "word": "vuohi",
+              "whyNotFamily": "alkaa samoin kuin \"vuori\", mutta sitä ei ole tehty kuvan sanasta"
+            },
+            {
+              "word": "vuosi",
+              "whyNotFamily": "alkaa samoin kuin \"vuori\", mutta sitä ei ole tehty kuvan sanasta"
+            },
+            {
+              "word": "vuorokausi",
+              "whyNotFamily": "päivä ja yö yhdessä; siinä ei ole vuorta"
+            }
+          ]
+        }
+      ],
+      "sentences": {
+        "kala": [
+          {
+            "word": "kalastaa",
+            "slot": "verb",
+            "frame": "Haluan {gap} isän kanssa laiturilta."
+          },
+          {
+            "word": "kalastaja",
+            "slot": "noun-person",
+            "frame": "Laiturilla istui {gap}, jolla oli pitkä onkivapa."
+          },
+          {
+            "word": "kalastus",
+            "slot": "noun-thing",
+            "frame": "Isän mieluisin harrastus on {gap}."
+          },
+          {
+            "word": "kalaisa",
+            "slot": "adjective",
+            "frame": "Tämä järvi on hyvin {gap}, sillä siinä ui paljon ahvenia."
+          }
+        ],
+        "ilo": [
+          {
+            "word": "iloinen",
+            "slot": "adjective",
+            "frame": "Olin hyvin {gap}, kun sain uuden pyörän."
+          },
+          {
+            "word": "iloisesti",
+            "slot": "adverb",
+            "frame": "Koira heilutti häntäänsä {gap}, kun näki minut."
+          },
+          {
+            "word": "iloita",
+            "slot": "verb",
+            "frame": "Lapset alkoivat {gap} ensilumesta."
+          },
+          {
+            "word": "iloisuus",
+            "slot": "noun-thing",
+            "frame": "Hänen {gap} tarttui koko luokkaan."
+          }
+        ]
+      },
+      "negating": [
+        "epä"
+      ],
+      "agents": [
+        {
+          "key": "baker",
+          "base": "leipoa",
+          "answer": {
+            "any": "leipuri"
+          },
+          "stemSigned": true
+        },
+        {
+          "key": "teacher",
+          "base": "opettaa",
+          "answer": {
+            "any": "opettaja"
+          },
+          "stemSigned": true
+        },
+        {
+          "key": "singer",
+          "base": "laulaa",
+          "answer": {
+            "any": "laulaja"
+          },
+          "stemSigned": true
+        },
+        {
+          "key": "gardener",
+          "base": "puutarha",
+          "answer": {
+            "any": "puutarhuri"
+          },
+          "stemSigned": true
+        },
+        {
+          "key": "photographer",
+          "base": "valokuva",
+          "answer": {
+            "any": "valokuvaaja"
+          }
+        },
+        {
+          "key": "athlete",
+          "base": "juosta",
+          "answer": {
+            "any": "juoksija"
+          },
+          "stemSigned": true
+        },
+        {
+          "key": "ballerina",
+          "base": "tanssi",
+          "answer": {
+            "any": "tanssija"
+          }
+        },
+        {
+          "key": "musician",
+          "base": "soittaa",
+          "answer": {
+            "any": "soittaja"
+          },
+          "stemSigned": true
+        },
+        {
+          "key": "tailor",
+          "base": "ommella",
+          "answer": {
+            "any": "ompelija"
+          },
+          "stemSigned": true
+        }
+      ],
+      "exemplar": {
+        "base": [
+          "väri",
+          "rauha"
+        ],
+        "F1": [
+          "spring/cloud",
+          "body parts/hand",
+          "spring/bird",
+          "spring/flower",
+          "camping/forest",
+          "camping/mountain"
+        ],
+        "F2": [
+          "ilo",
+          "kala",
+          "kirja",
+          "sana",
+          "voima",
+          "juhla",
+          "raha",
+          "pallo",
+          "kuva"
+        ],
+        "F5": [
+          "kala",
+          "ilo"
+        ]
+      },
+      "refuse": {
+        "base": false,
+        "picture-family": false,
+        "root-word": false,
+        "prefix-key": true,
+        "who-does-it": false,
+        "family-in-sentence": false
+      },
+      "strings": {
+        "base": {
+          "title": "Kantasana: lajittele sanat vartalon mukaan",
+          "instruction": "Lue jokainen ylhäällä oleva sana ja kirjoita se sen muurin riville, jonka kivessä on sanan kantasana."
+        },
+        "picture-family": {
+          "title": "Kantasana kuvasta: rengasta oikea sana",
+          "instruction": "Sano, mitä kuva esittää, ja rengasta sen yläpuolelta se ainoa sana, joka on tehty kuvan sanasta."
+        },
+        "root-word": {
+          "title": "Etsi kantasana",
+          "instruction": "Rengasta osa, joka on kaikissa kolmessa sanassa, ja kirjoita kantasana tyhjään kiveen."
+        },
+        "who-does-it": {
+          "title": "Kuka tekee? Tekijää tarkoittava sana",
+          "instruction": "Katso jokaista ihmistä, lue sana hänen vieressään ja kirjoita katkoviivaruutuun tekijää tarkoittava sana."
+        },
+        "family-in-sentence": {
+          "title": "Johdokset lauseissa",
+          "instruction": "Kirjoita jokainen kantasanan yläpuolella olevista neljästä sanasta sen lauseen ruutuun, johon sana sopii."
+        }
+      },
+      "agentSuffixes": [
+        "ja",
+        "jä",
+        "uri"
+      ]
+    }
+  },
+  "refusals": {
+    "G2-376": "fi refuses the prefix-key face: Finnish forms new words with SUFFIXES (johtimet) and has no productive meaning-prefixes like re- / pre- / mis-; the only word-initial derivation a G2 child meets is the negating epä-, which the design bans (opposites owns it). Design §4 records F3 fi REFUSED."
+  },
+  "strandNames": {
+    "Road Safety": "Liikennekasvatus (ympäristöoppi)",
+    "Science": "Ympäristöoppi",
+    "Map Skills": "Kartat ja ilmansuunnat (ympäristöoppi)"
+  },
+  "enAudit": [
+    "G2-358 synonyms (EN): two of the source groups are not synonyms for a 7-year-old. \"quiet\" / \"silent\" is a shade (quiet = little sound, silent = no sound at all) and belongs in `near` or a scale, not a group; \"messy\" / \"sloppy\" is another dimension (sloppy = careless WORK, not an untidy room). \"stay\" / \"remain\", \"help\" / \"assist\" and \"cozy\" / \"snug\" are off the K-2 register a teacher would sign. fi drops the quiet and tidy / dirty concepts rather than force a pair, and signs each of its 34 groups as swappable in one child sentence.",
+    "Several EN instructions are still two or three sentences (G1-376 base, cycle, eat, jobs, flower; G1-378 moon-phase-names, day-and-night-model, planets-in-order, planet-sizes; G1-379 top-view, continents, continents-oceans), against the brief's ONE child-level sentence. Every fi instruction is one sentence (commas and a colon only).",
+    "G1-377 butterfly base (EN): \"write 2, 3 and 4 under the pictures as the egg grows\" — the egg does not grow into the later stages (the ANIMAL does), and the numerals go in BOXES, not \"under the pictures\". fi: \"kirjoita ruutuihin 2, 3 ja 4 oikeassa järjestyksessä\".",
+    "G1-379 maps base (EN): \"write how many there are in its box\" — \"its\" has no clear antecedent (the key entry? the map thing?). fi says \"kirjoita ruutuun, montako niitä on\".",
+    "K-368 2d-shapes (EN is fine, but a Finnish trap the EN hides): the natural fi verb for \"circle\" is \"ympyröi\", which echoes the shape name \"ympyrä\" on the very page that asks the child to find the circle (\"ympyröi ympyrä\"), the same en/de echo the design flags. Every fi circling instruction on the shapes pages uses \"rengasta\" instead; landings should keep that.",
+    "G2-359 word-parts (EN): the source families are padded with G3-G4 register members (helplessly, carelessness, restlessness, powerlessness, fearlessness, playfulness); a G2 child can read the root in them but not the word. The fi families keep to words an alkuopetus child meets (iloinen, kalastaja, opettaja, rakennus). Also EN base title \"Root Words: Sort by the Root\" says \"root\" twice while the rail name promises prefixes and suffixes the base never prints.",
+    "G2-376 prefix-key cannot be rebuilt in Finnish (refused): Finnish derivation is suffixal (johtimet -ja/-jä, -inen, -sto, -us), the productive prefix a child meets is only the negating epä-, which the design keeps out. The design §4 already records F3 fi REFUSED; the fi rail name \"Kantasana ja johdokset\" therefore promises no prefixes.",
+    "G1-380 digraphs (re-target, fi): the fi family is the LONG VOWEL (aa, uu, ää written with two letters), exactly the design §4 re-target; diphthongs (ai, au, uo, ie, oi) are recorded as falsePairs because they are two different vowels a Finnish reader decodes letter by letter. `uuni` (around the house/oven) was OPENED and signed: the pink cooker shows no burners, so a Finnish child says \"uuni\" (not \"liesi\"); F4 therefore ships with exactly three beginnings (aasi, aalto, uuni). body parts/mouth (design-wide rejection) removed the natural end item \"suu\"; kantapää and olkapää (highlighted body-part pictures) carry the end position instead.",
+    "K-369 road-safety (EN): the EN base title \"Road Safety: Read the Traffic Light\" and the landing name use \"traffic light\" in the singular while the page shows six lights with two different kinds (car and pedestrian). fi titles the base by what the child reads (\"mitä liikennevalo näyttää?\") and the pedestrian chips are \"odota / kävele\", the car chips \"pysähdy / aja\"; the instruction quotes no chip word. fi sign table: only E1 Suojatie and C1 Ajoneuvolla ajo kielletty are marked sure; every other code number (B6 Pakollinen pysäyttäminen, A10 Liikennevalot, A15, A16 Lapsia, A17, C11, C13, C17, D4, D5) is marked unsure and must be checked against the annex of asetus 379/2020 (the caller's note \"B5 pakollinen pysäyttäminen\" disagrees with our recollection that B5 is Väistämisvelvollisuus risteyksessä and B6 Pakollinen pysäyttäminen).",
+    "K-370 family (EN): en draws ONE grandparent pair because MM = FM = \"grandma\"; fi has the same collapse for isoäiti / isoisä (one register: isoäiti, isoisä — never mummo / mummi / vaari / pappa / ukki mixed on one page) but DISTINGUISHES the uncles by lineage (eno = mother's brother, setä = father's brother), a genuine Finnish teaching point the F4 riddles now carry. The word \"sukupuu\" appears in no fi field (it autocompletes to \"sukupuutto\" = extinction); the tree is \"perhepuu\".",
+    "G1-376 plants (EN): the diagram label \"roots\" is plural while every other tag is singular; fi uses the singular \"juuri\" for the tagged root, like the other five tags. EN title for the jobs face uses \"Functions\"; the fi natural wording \"tehtävät\" collides with the batch worksheet-word ban (tehtäv-), so fi titles it \"Kasvin osat ja mitä ne tekevät\".",
+    "G2-360 sign-kinds (render, all Vienna locales): each class bin now draws exactly as many boxes as that class has signs on the page (fi d2 renders 3 / 3 / 2). The design §3 F4 rule was the opposite (EVERY bin the same box count, so the box count never tells a class’s size); with 3 / 3 / 2 boxes a child can fill the 2-box bin by elimination without reading a single rim or field. EN hides it because its two bins happen to hold 4 / 4. Recommend restoring the equal-box rule (4 per bin, some left empty) or recording why the coordinator review overrides it.",
+    "G1-393 match (EN title \"Read and Match\" family): fi first wrote the title as an instruction; fi titles every face by what the child reads and does in a teacher’s search words (\"Pitkä vokaali: lue sanat ja yhdistä kuviin\"). A general EN note: several EN face titles are instruction-shaped (\"Write the Missing Letter Team\", \"Circle the Word That Means the Same\"), which is fine for the page but weak as a search title."
+  ]
+}

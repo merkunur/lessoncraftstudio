@@ -146,16 +146,20 @@
       "instruction": "Colorea el círculo donde queda cada forma de plastilina, encierra en un círculo lo que flota y dibuja tu barco de plastilina en la pecera grande."
     },
     "G2-383": {
-      "title": "Experimento flota o se hunde: ¿verdadero o falso?",
+      "title": "¿Por qué flotan las cosas? Verdadero o falso",
       "instruction": "Lee cada oración y encierra en un círculo verdadero o falso."
     },
     "K-384": {
-      "title": "Objetos que flotan y se hunden: dibuja tu experimento",
+      "title": "Dibuja lo que flota y lo que se hunde",
       "instruction": "Dibuja dos cosas que flotan en los recuadros del agua y dos cosas que se hunden en los recuadros del fondo."
     },
     "G3-400": {
       "title": "Investigación: ¿flota o se hunde? Mi reporte de laboratorio",
       "instruction": "Elige una pregunta, escribe lo que crees, haz la prueba, dibuja lo que pasó y escribe lo que aprendiste."
     }
+  },
+  "shapeHeads": {
+    "clay": "Misma plastilina, distinta forma",
+    "steel": "Mismo acero, distinta forma: encierra el que flota"
   }
 }

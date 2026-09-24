@@ -156,14 +156,14 @@
         "planche",
         "peinture",
         "pinceau",
-        "pot"
+        "seau"
       ],
       "helpIds": [
         "fence",
         "plank",
         "paint",
         "brush",
-        "pot"
+        "bucket"
       ]
     },
     "letter": {
@@ -261,7 +261,7 @@
     },
     "first-next-last-cut": {
       "title": "Images séquentielles à découper : d'abord, ensuite, enfin",
-      "instruction": "Découpe les images de chaque bande et colle-les dans les cadres vides, au-dessus de D'abord, Ensuite et Enfin."
+      "instruction": "Découpe les images de chaque bande et colle-les sur la ligne qui porte le même symbole, dans les cadres vides au-dessus de D'abord, Ensuite et Enfin."
     },
     "what-happens-next": {
       "title": "Images séquentielles : que se passe-t-il ensuite ?",
@@ -272,8 +272,8 @@
       "instruction": "Regarde le début et la fin de chaque histoire et dessine ce qui se passe au milieu, dans le cadre vide."
     },
     "sequencing-sentences": {
-      "title": "Images séquentielles : relie chaque phrase à son image",
-      "instruction": "Lis les phrases de chaque histoire et relie chaque phrase à son image."
+      "title": "Images séquentielles : numérote les phrases et relie-les aux images",
+      "instruction": "Numérote dans les cases les phrases de chaque histoire dans l'ordre, puis relie chaque phrase à son image."
     },
     "retell-with-starters": {
       "title": "Images séquentielles et production d'écrit : raconte l'histoire",

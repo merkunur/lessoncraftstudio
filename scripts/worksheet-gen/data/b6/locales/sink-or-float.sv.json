@@ -144,16 +144,20 @@
       "instruction": "Färglägg ringen där varje lerform hamnar i karet, ringa in den sak som flyter och rita sedan en egen lerbåt i det stora karet."
     },
     "G2-383": {
-      "title": "Varför flyter saker? Sant eller falskt efter experimentet",
+      "title": "Varför flyter saker? Sant eller falskt om att flyta och sjunka",
       "instruction": "Läs varje mening och ringa in sant eller falskt."
     },
     "K-384": {
-      "title": "Flyta eller sjunka: rita experimentet",
+      "title": "Rita vad som flyter och sjunker i vattnet",
       "instruction": "Rita två saker som flyter i de streckade rutorna på vattnet och två som sjunker i de streckade rutorna på botten."
     },
     "G3-400": {
       "title": "Min experimentrapport: flyta eller sjunka",
       "instruction": "Välj en fråga, skriv vad du tror, testa, rita sedan vad som hände och skriv vad du lärde dig."
     }
+  },
+  "shapeHeads": {
+    "clay": "Samma lera, olika former",
+    "steel": "Samma stål, olika former: ringa in den som flyter"
   }
 }

@@ -1,8 +1,8 @@
 {
   "strings": {
     "base": {
-      "title": "Igiene personale per bambini: che cosa serve?",
-      "instruction": "Collega con una linea ogni bambino all'oggetto che gli serve."
+      "title": "Buone abitudini per bambini: che cosa usa ogni bambino?",
+      "instruction": "Collega con una linea ogni bambino all'oggetto che usa."
     },
     "hand-washing-steps": {
       "title": "Come lavarsi le mani",
@@ -10,7 +10,7 @@
     },
     "brushing-teeth": {
       "title": "Lavarsi i denti: prima, durante e dopo",
-      "instruction": "Cerchia la parola che dice quando succede: prima, durante o dopo il lavaggio dei denti."
+      "instruction": "Per ogni disegno, cerchia prima, durante o dopo il lavaggio dei denti."
     },
     "stop-the-germs": {
       "title": "Stop ai germi: tossire nel gomito e altri gesti sani",
@@ -33,7 +33,7 @@
   "labels": {
     "wash-hands": "lavarsi le mani",
     "brush-teeth": "lavarsi i denti",
-    "sleep": "dormire",
+    "sleep": "a letto presto",
     "move-body": "muoversi",
     "drink-water": "bere acqua",
     "sun-protect": "proteggersi dal sole",

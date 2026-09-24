@@ -181,9 +181,21 @@
     ]
   },
   "needs": {
-    "line": "Alle dyr har brug for mad, vand og et hjem.",
+    "line": "Alle dyr har brug for mad og et hjem.",
     "foodHead": "Mad",
-    "homeHead": "Hjem"
+    "homeHead": "Hjem",
+    "undrawn": [
+      "vand",
+      "drikke",
+      "drikkevand",
+      "drik",
+      "luft",
+      "ilt",
+      "sol",
+      "solen",
+      "sollys",
+      "lys"
+    ]
   },
   "report": {
     "animals": "Dyr, der lever her",
@@ -209,24 +221,24 @@
       "instruction": "Skriv under hvert dyr bogstavet for det levested, hvor dyret lever."
     },
     "K-383": {
-      "title": "Dyrenes boliger: rede, bistade og myretue",
+      "title": "Dyrenes boliger: hvem bor hvor?",
       "instruction": "Tegn en streg fra hvert dyr til dets bolig."
     },
     "G1-406": {
       "title": "Dyrs levesteder: hvilket dyr bor ikke her?",
-      "instruction": "Streg i hver række det dyr ud, der ikke lever på det levested."
+      "instruction": "Streg ved hvert levested det dyr ud, der ikke lever der."
     },
     "G2-380": {
       "title": "Dyrs tilpasninger til levestedet",
-      "instruction": "Skriv bogstavet for det dyr, som hver sætning handler om, i feltet ved sætningen."
+      "instruction": "Skriv i feltet ved hver sætning bogstavet for det dyr, sætningen handler om; ét dyr bliver tilovers."
     },
     "G1-407": {
-      "title": "Hvad har dyr brug for? Mad, vand og et hjem",
+      "title": "Hvad har dyr brug for? Mad og et hjem",
       "instruction": "Sæt ring om den mad, hvert dyr spiser, og om det hjem, dyret bor i."
     },
     "G2-381": {
       "title": "Mit levested: undersøg, tegn og skriv",
-      "instruction": "Tegn tre dyr, der lever på dette levested, skriv deres navne og en plante, der vokser her, og sæt ring om det rigtige ord i hvert par."
+      "instruction": "Tegn i billedet tre dyr, der lever her, skriv deres navne og navnet på en plante, der vokser her, og sæt ring om det ord, der passer til levestedet."
     }
   },
   "placeWords": [

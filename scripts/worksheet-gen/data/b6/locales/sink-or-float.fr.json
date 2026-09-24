@@ -152,16 +152,20 @@
       "instruction": "Colorie le rond où finit chaque forme de pâte à modeler, entoure ce qui flotte, puis dessine ton propre bateau dans le grand aquarium."
     },
     "G2-383": {
-      "title": "Pourquoi ça flotte ? Vrai ou faux après l'expérience",
+      "title": "Pourquoi ça flotte ? Vrai ou faux",
       "instruction": "Lis chaque phrase et entoure vrai ou faux."
     },
     "K-384": {
-      "title": "Ce qui flotte et ce qui coule : dessine l'expérience",
+      "title": "Dessine ce qui flotte et ce qui coule dans l'eau",
       "instruction": "Dessine deux objets qui flottent dans les cadres sur l'eau et deux objets qui coulent dans les cadres au fond."
     },
     "G3-400": {
       "title": "Mon compte rendu d'expérience : flotte ou coule",
       "instruction": "Choisis une question, écris ton hypothèse, fais l'expérience, puis dessine ce qui s'est passé et écris ce que tu as appris."
     }
+  },
+  "shapeHeads": {
+    "clay": "Même pâte à modeler, formes différentes",
+    "steel": "Même acier, formes différentes : entoure celui qui flotte"
   }
 }

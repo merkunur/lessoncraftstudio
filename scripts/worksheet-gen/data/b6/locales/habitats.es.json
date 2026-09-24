@@ -95,7 +95,9 @@
       "carpintero"
     ],
     "badger": [
-      "tejón"
+      "tejón",
+      "tlalcoyote",
+      "zorrillo"
     ],
     "moose": [
       "alce"
@@ -191,9 +193,16 @@
     ]
   },
   "needs": {
-    "line": "Todos los animales necesitan comida, agua y una casa.",
+    "line": "Todos los animales necesitan comida y una casa.",
     "foodHead": "Comida",
-    "homeHead": "Casa"
+    "homeHead": "Casa",
+    "undrawn": [
+      "agua",
+      "beber",
+      "tomar",
+      "aire",
+      "respirar"
+    ]
   },
   "report": {
     "animals": "Animales que viven aquí",
@@ -209,7 +218,7 @@
     "web": "telaraña",
     "burrow": "madriguera",
     "anthill": "hormiguero",
-    "lodge": "madriguera de castor"
+    "lodge": "casa del castor"
   },
   "refuse": [],
   "refuseClaims": [],
@@ -219,16 +228,16 @@
       "instruction": "Escribe debajo de cada animal la letra del hábitat donde vive."
     },
     "K-383": {
-      "title": "Las casas de los animales: nido, colmena y madriguera",
+      "title": "Las casas de los animales: ¿dónde vive cada uno?",
       "instruction": "Une con una línea cada animal con su casa."
     },
     "G1-406": {
       "title": "Hábitat de los animales: el animal que no vive aquí",
-      "instruction": "En cada fila, tacha el animal que no vive en ese hábitat."
+      "instruction": "En cada hábitat, tacha el animal que no vive ahí."
     },
     "G2-380": {
       "title": "Adaptación de los animales a su hábitat",
-      "instruction": "Escribe en su cuadro la letra del animal del que habla cada oración."
+      "instruction": "Escribe en el cuadro de cada oración la letra del animal del que habla; un animal sobra."
     },
     "G1-407": {
       "title": "¿Qué necesitan los animales para vivir?",
@@ -236,7 +245,7 @@
     },
     "G2-381": {
       "title": "Mi reporte del hábitat: animales y plantas",
-      "instruction": "Dibuja tres animales de este hábitat, escribe sus nombres y una planta que crece ahí, y encierra en un círculo la palabra correcta de cada par."
+      "instruction": "Dibuja en la imagen tres animales que viven ahí, escribe sus nombres y una planta, y encierra en un círculo la palabra que describe este hábitat."
     }
   },
   "placeWords": [
@@ -256,5 +265,6 @@
     "sabana",
     "selva",
     "jungla"
-  ]
+  ],
+  "rainforestRegion": "americas"
 }

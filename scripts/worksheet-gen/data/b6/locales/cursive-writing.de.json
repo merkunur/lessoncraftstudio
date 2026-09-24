@@ -6,7 +6,7 @@
   ],
   "exemplar": "de-va",
   "exemplarByMode": {
-    "base": "de-va",
+    "base": "de-la",
     "joins": "de-va",
     "copy": "de-va",
     "capitals": "de-la",
@@ -48,7 +48,6 @@
       [
         "i",
         "u",
-        "ü",
         "t"
       ],
       [
@@ -67,6 +66,7 @@
       [
         "a",
         "ä",
+        "ü",
         "d",
         "g",
         "q"
@@ -92,7 +92,6 @@
       [
         "i",
         "u",
-        "ü",
         "t"
       ],
       [
@@ -111,6 +110,7 @@
       [
         "a",
         "ä",
+        "ü",
         "d",
         "g",
         "q"
@@ -256,7 +256,7 @@
   ],
   "strings": {
     "G2-377": {
-      "title": "Schreibschrift üben: i, u, ü und t in {U}",
+      "title": "Schreibschrift üben: i, u und t in {U}",
       "instruction": "Spure die grauen Buchstaben nach und schreibe dann jeden Buchstaben verbunden allein bis zum Ende der Zeile und in der leeren Zeile darunter."
     },
     "G2-384": {
@@ -269,7 +269,7 @@
     },
     "G2-386": {
       "title": "Schreibschrift-Wörter zu Bildern in {U}",
-      "instruction": "Spure jedes graue Wort nach, schreibe es dann verbunden auf die Zeile darunter und setze Punkte und Striche zum Schluss."
+      "instruction": "Spure jedes graue Wort nach, verbinde zuerst die Buchstaben und setze zum Schluss Punkte und Striche, dann schreibe es genauso auf die Zeile darunter."
     },
     "G2-387": {
       "title": "Schreibschrift lesen: Wörter in {U}",

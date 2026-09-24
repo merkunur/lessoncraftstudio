@@ -152,16 +152,20 @@
       "instruction": "Kleur bij elke kleivorm het rondje in de bak waar hij terechtkomt, omcirkel wat drijft en teken daarna je eigen kleibootje in de grote bak."
     },
     "G2-383": {
-      "title": "Waarom drijft iets? Waar of niet waar na het proefje",
+      "title": "Waarom drijft iets? Waar of niet waar over drijven en zinken",
       "instruction": "Lees elke zin en omcirkel waar of niet waar."
     },
     "K-384": {
-      "title": "Wat drijft en wat zinkt? Teken het proefje",
+      "title": "Teken wat drijft en wat zinkt",
       "instruction": "Teken in de gestippelde vakjes op het water twee dingen die drijven en in de vakjes op de bodem twee dingen die zinken."
     },
     "G3-400": {
       "title": "Onderzoeksverslag: mijn proefje met drijven en zinken",
       "instruction": "Kies een vraag, schrijf op wat je denkt, test het, teken wat er gebeurde en schrijf op wat je hebt geleerd."
     }
+  },
+  "shapeHeads": {
+    "clay": "Dezelfde klei, een andere vorm",
+    "steel": "Hetzelfde staal, een andere vorm: omcirkel wat drijft"
   }
 }

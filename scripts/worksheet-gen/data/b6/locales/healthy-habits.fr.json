@@ -1,8 +1,8 @@
 {
   "strings": {
     "base": {
-      "title": "Hygiène corporelle : de quoi a-t-on besoin ?",
-      "instruction": "Relie chaque enfant à l'objet dont il a besoin."
+      "title": "Les bonnes habitudes : qu'utilise chaque enfant ?",
+      "instruction": "Relie chaque enfant à l'objet qu'il utilise."
     },
     "hand-washing-steps": {
       "title": "Comment se laver les mains ?",
@@ -10,15 +10,15 @@
     },
     "brushing-teeth": {
       "title": "Se brosser les dents : avant, pendant, après",
-      "instruction": "Pour chaque image, entoure le mot qui dit quand cela se passe : avant, pendant ou après le brossage."
+      "instruction": "Pour chaque image, entoure avant, pendant ou après le brossage."
     },
     "stop-the-germs": {
-      "title": "Stop aux microbes : je tousse dans mon coude",
+      "title": "Stop aux microbes : choisis le bon geste",
       "instruction": "Dans chaque rangée, entoure l'image qui empêche les microbes de se propager."
     },
     "why-habits": {
       "title": "Hygiène de vie : pourquoi ces bonnes habitudes ?",
-      "instruction": "Relie chaque bonne habitude à la phrase qui dit pourquoi on le fait."
+      "instruction": "Relie chaque bonne habitude à la phrase qui dit pourquoi on la fait."
     },
     "habit-chart": {
       "title": "Tableau de la semaine : mes bonnes habitudes",
@@ -33,7 +33,7 @@
   "labels": {
     "wash-hands": "se laver les mains",
     "brush-teeth": "se brosser les dents",
-    "sleep": "dormir",
+    "sleep": "se coucher tôt",
     "move-body": "bouger",
     "drink-water": "boire de l'eau",
     "sun-protect": "se protéger du soleil",
@@ -65,7 +65,11 @@
       "dormons",
       "sommeil",
       "lit",
-      "nuit"
+      "nuit",
+      "coucher",
+      "couche",
+      "couchons",
+      "tôt"
     ],
     "move-body": [
       "bouger",
@@ -103,7 +107,7 @@
     "brush-teeth": "Cela garde notre sourire propre et brillant.",
     "sleep": "Notre corps et notre cerveau se reposent pour une nouvelle journée.",
     "move-body": "Cela nous rend agiles, rapides et forts.",
-    "sun-protect": "Nous ne brûlons pas les jours de grande chaleur.",
+    "sun-protect": "Notre peau ne brûle pas quand il fait très beau.",
     "drink-water": "Notre corps en a besoin pour bien fonctionner.",
     "blow-nose": "Nous pouvons de nouveau bien respirer."
   },

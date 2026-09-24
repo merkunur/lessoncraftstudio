@@ -18,7 +18,7 @@
     "rainforest": "Regenwald"
   },
   "adapt": {
-    "camel-hump": "Dieses Tier speichert Fett in seinem Höcker und kommt so lange ohne Futter aus.",
+    "camel-hump": "Dieses Tier speichert Fett in seinem Höcker und kommt dadurch lange ohne Futter aus.",
     "giraffe-neck": "Mit seinem langen Hals erreicht dieses Tier die Blätter hoch oben in den Bäumen.",
     "elephant-trunk": "Mit seinem langen Rüssel saugt dieses Tier Wasser auf und greift nach Futter.",
     "penguin-flippers": "Seine Flügel sind Flossen: Dieses Tier schwimmt schnell, kann aber nicht fliegen.",
@@ -189,9 +189,18 @@
     ]
   },
   "needs": {
-    "line": "Jedes Tier braucht Nahrung, Wasser und ein Zuhause.",
+    "line": "Jedes Tier braucht Nahrung und ein Zuhause.",
     "foodHead": "Nahrung",
-    "homeHead": "Zuhause"
+    "homeHead": "Zuhause",
+    "undrawn": [
+      "Wasser",
+      "trinken",
+      "Trinken",
+      "Luft",
+      "Sonne",
+      "Sonnenlicht",
+      "Licht"
+    ]
   },
   "report": {
     "animals": "Tiere, die hier leben",
@@ -222,19 +231,19 @@
     },
     "G1-406": {
       "title": "Lebensraum: Welches Tier lebt hier nicht?",
-      "instruction": "Streiche in jeder Reihe das Tier durch, das nicht in diesem Lebensraum lebt."
+      "instruction": "Streiche bei jedem Lebensraum das Tier durch, das dort nicht lebt."
     },
     "G2-380": {
       "title": "Angepasst an den Lebensraum: Welches Tier ist es?",
-      "instruction": "Schreibe in jedes Kästchen den Buchstaben des Tieres, von dem der Satz erzählt."
+      "instruction": "Schreibe in jedes Kästchen den Buchstaben des Tieres, von dem der Satz erzählt; ein Tier bleibt übrig."
     },
     "G1-407": {
-      "title": "Was brauchen Tiere zum Leben?",
+      "title": "Was brauchen Tiere? Nahrung und ein Zuhause",
       "instruction": "Kreise bei jedem Tier ein, was es frisst und wo es wohnt."
     },
     "G2-381": {
-      "title": "Forscherblatt: Lebensraum Wald",
-      "instruction": "Male drei Tiere, die hier leben, in das Bild, schreibe ihre Namen und eine Pflanze von hier auf und kreise in jedem Paar das richtige Wort ein."
+      "title": "Forscherblatt: Lebensraum Teich",
+      "instruction": "Male drei Tiere, die hier leben, in das Bild, schreibe ihre Namen und eine Pflanze von hier auf und kreise das passende Wort ein."
     }
   }
 }

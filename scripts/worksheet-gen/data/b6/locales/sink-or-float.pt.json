@@ -139,16 +139,20 @@
       "instruction": "Pinte o círculo onde cada forma de massinha vai parar, circule o que flutua e desenhe o seu barquinho de massinha no aquário grande."
     },
     "G2-383": {
-      "title": "Por que flutua? Verdadeiro ou falso da experiência",
+      "title": "Por que as coisas flutuam? Verdadeiro ou falso",
       "instruction": "Leia cada frase e circule verdadeiro ou falso."
     },
     "K-384": {
-      "title": "O que flutua e o que afunda: desenhe a experiência",
+      "title": "Desenhe o que flutua e o que afunda na água",
       "instruction": "Desenhe duas coisas que flutuam nos espaços tracejados da água e duas que afundam nos espaços tracejados do fundo."
     },
     "G3-400": {
       "title": "Relatório da experiência: flutua ou afunda",
       "instruction": "Escolha uma pergunta, escreva o que você acha, faça o teste, desenhe o que aconteceu e escreva o que aprendeu."
     }
+  },
+  "shapeHeads": {
+    "clay": "A mesma massinha, em formas diferentes",
+    "steel": "O mesmo metal, em formas diferentes: circule o que flutua"
   }
 }

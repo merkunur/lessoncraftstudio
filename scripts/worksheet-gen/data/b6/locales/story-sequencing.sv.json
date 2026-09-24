@@ -154,14 +154,14 @@
         "bräda",
         "färg",
         "pensel",
-        "burk"
+        "färgburk"
       ],
       "helpIds": [
         "fence",
         "plank",
         "paint",
         "brush",
-        "pot"
+        "bucket"
       ]
     },
     "letter": {
@@ -259,7 +259,7 @@
     },
     "first-next-last-cut": {
       "title": "Bildserie att klippa ut: först, sedan, till sist",
-      "instruction": "Klipp ut bilderna på varje remsa och klistra dem i de tomma ramarna ovanför Först, Sedan och Till sist."
+      "instruction": "Klipp ut bilderna på varje remsa och klistra dem på linan med samma märke, i de tomma ramarna ovanför Först, Sedan och Till sist."
     },
     "what-happens-next": {
       "title": "Bildserie: vad händer sedan?",
@@ -270,8 +270,8 @@
       "instruction": "Titta på början och slutet av varje berättelse och rita det som händer i mitten i den tomma ramen."
     },
     "sequencing-sentences": {
-      "title": "Bildserie: para ihop meningarna med bilderna",
-      "instruction": "Läs meningarna i varje berättelse och dra ett streck från varje mening till rätt bild."
+      "title": "Bildserie: ordna meningarna och para ihop dem med bilderna",
+      "instruction": "Numrera meningarna i varje berättelse i rätt ordning i rutorna och dra sedan ett streck från varje mening till dess bild."
     },
     "retell-with-starters": {
       "title": "Bildserie att skriva till med ordstöd",

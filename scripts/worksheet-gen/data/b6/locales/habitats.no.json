@@ -183,9 +183,18 @@
     ]
   },
   "needs": {
-    "line": "Alle dyr trenger mat, vann og et hjem.",
+    "line": "Alle dyr trenger mat og et hjem.",
     "foodHead": "Mat",
-    "homeHead": "Hjem"
+    "homeHead": "Hjem",
+    "undrawn": [
+      "vann",
+      "drikke",
+      "drikker",
+      "luft",
+      "sol",
+      "sollys",
+      "oksygen"
+    ]
   },
   "report": {
     "animals": "Dyr som lever her",
@@ -216,11 +225,11 @@
     },
     "G1-406": {
       "title": "Leveområder: hvilket dyr bor ikke her?",
-      "instruction": "Sett kryss over dyret i hver rad som ikke bor i det leveområdet."
+      "instruction": "Ved hvert leveområde: sett kryss over dyret som ikke bor der."
     },
     "G2-380": {
       "title": "Dyrenes tilpasninger til leveområdet",
-      "instruction": "Skriv i hver rute bokstaven til dyret setningen handler om."
+      "instruction": "Skriv i hver rute bokstaven til dyret setningen handler om; ett dyr blir til overs."
     },
     "G1-407": {
       "title": "Hva trenger dyrene for å leve?",
@@ -228,7 +237,7 @@
     },
     "G2-381": {
       "title": "Mitt leveområde: undersøk og tegn",
-      "instruction": "Tegn tre dyr som lever i dette leveområdet, skriv navnene deres og en plante som vokser der, og sett ring rundt det riktige ordet i hvert par."
+      "instruction": "Tegn tre dyr som lever der inne i bildet, skriv navnene deres og en plante som vokser der, og sett ring rundt ordet som passer til dette leveområdet."
     }
   },
   "placeWords": [

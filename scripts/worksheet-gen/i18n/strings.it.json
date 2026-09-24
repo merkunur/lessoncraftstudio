@@ -2836,8 +2836,8 @@
     "instruction": "Guarda che cosa cambia in ogni storia e scrivi i numeri nei riquadri per mettere le vignette in ordine."
   },
   "K-380": {
-    "title": "Igiene personale per bambini: che cosa serve?",
-    "instruction": "Collega con una linea ogni bambino all'oggetto che gli serve."
+    "title": "Buone abitudini per bambini: che cosa usa ogni bambino?",
+    "instruction": "Collega con una linea ogni bambino all'oggetto che usa."
   },
   "G1-398": {
     "title": "Gli ambienti degli animali: chi vive dove?",
@@ -2853,7 +2853,7 @@
   },
   "K-381": {
     "title": "Storie in sequenza da ritagliare: prima, dopo, infine",
-    "instruction": "Ritaglia le vignette di ogni striscia e incollale nelle cornici vuote sopra Prima, Dopo e Infine."
+    "instruction": "Ritaglia le vignette di ogni striscia e incollale sul filo con lo stesso simbolo, nelle cornici vuote sopra Prima, Dopo e Infine."
   },
   "G1-400": {
     "title": "Storie in sequenza: che cosa succede dopo?",
@@ -2864,8 +2864,8 @@
     "instruction": "Guarda l'inizio e la conclusione di ogni storia e disegna nel riquadro centrale che cosa succede nello svolgimento."
   },
   "G1-402": {
-    "title": "Storie in sequenza: collega le frasi alle vignette",
-    "instruction": "Leggi le frasi di ogni storia e collega con una linea ogni frase alla sua vignetta."
+    "title": "Storie in sequenza: numera le frasi e collegale alle vignette",
+    "instruction": "Numera in ordine nei riquadri le frasi di ogni storia, poi collega con una linea ogni frase alla sua vignetta."
   },
   "G2-378": {
     "title": "Sequenze di immagini per raccontare una storia",
@@ -2877,7 +2877,7 @@
   },
   "G1-403": {
     "title": "Lavarsi i denti: prima, durante e dopo",
-    "instruction": "Cerchia la parola che dice quando succede: prima, durante o dopo il lavaggio dei denti."
+    "instruction": "Per ogni disegno, cerchia prima, durante o dopo il lavaggio dei denti."
   },
   "G1-404": {
     "title": "Stop ai germi: tossire nel gomito e altri gesti sani",
@@ -2897,11 +2897,11 @@
   },
   "G1-406": {
     "title": "Gli ambienti degli animali: trova l'intruso",
-    "instruction": "In ogni riga, barra con una X l'animale che non vive in quell'ambiente."
+    "instruction": "Per ogni ambiente, barra con una X l'animale che non ci vive."
   },
   "G2-380": {
     "title": "L'adattamento degli animali all'ambiente",
-    "instruction": "Scrivi nel riquadro di ogni frase la lettera dell'animale di cui parla."
+    "instruction": "Scrivi nel riquadro di ogni frase la lettera dell'animale di cui parla; un animale resta senza frase."
   },
   "G1-407": {
     "title": "Di che cosa hanno bisogno gli animali per vivere?",
@@ -2909,7 +2909,7 @@
   },
   "G2-381": {
     "title": "La mia ricerca su un ambiente: animali e piante",
-    "instruction": "Disegna tre animali che vivono in questo ambiente, scrivi i loro nomi e una pianta che cresce lì, e cerchia la parola giusta in ogni coppia."
+    "instruction": "Nella figura disegna tre animali che ci vivono, scrivi i loro nomi e una pianta che ci cresce, poi cerchia la parola adatta a questo ambiente."
   },
   "G1-408": {
     "title": "Pesante o leggero? Esperimento galleggia o affonda con la bilancia",
@@ -2920,11 +2920,11 @@
     "instruction": "Colora il cerchio dove finisce ogni forma di plastilina, cerchia l'oggetto che galleggia e poi disegna la tua barchetta nella vaschetta grande."
   },
   "G2-383": {
-    "title": "Perché galleggia? Vero o falso sull'esperimento",
+    "title": "Perché le cose galleggiano? Vero o falso",
     "instruction": "Leggi ogni frase e cerchia vero o falso."
   },
   "K-384": {
-    "title": "Cosa galleggia e cosa affonda: disegna l'esperimento",
+    "title": "Disegna cosa galleggia e cosa affonda nell'acqua",
     "instruction": "Disegna due cose che galleggiano nei riquadri sull'acqua e due che affondano nei riquadri sul fondo."
   },
   "G3-400": {
@@ -2941,7 +2941,7 @@
   },
   "G2-386": {
     "title": "Parole in corsivo da scrivere con le figure",
-    "instruction": "Ripassa ogni parola grigia tutta legata, poi scrivila sulla riga qui sotto e aggiungi alla fine i puntini e i taglietti."
+    "instruction": "Ripassa ogni parola grigia legando prima le lettere e mettendo alla fine puntini e taglietti, poi scrivila allo stesso modo sulla riga qui sotto."
   },
   "G2-387": {
     "title": "Leggere il corsivo: collega la parola alla figura",

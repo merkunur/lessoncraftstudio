@@ -21,4 +21,4 @@ originSessionId: e91f788f-b8a4-4705-a954-d392c267c51b
 Same two-step pattern applies to translation files (`/var/www/lcs-media/worksheet-generators/js/*.js`) — use `update-worksheet.sh /tmp/<file>.js js/<file>.js` — and to admin panels (`update-worksheet.sh --admin ...`).
 
 SSH auth (from CLAUDE.md §A.1):
-`plink -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "<command>"`
+`plink -pw <old-password-rotated-2026-07-03> -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "<command>"`

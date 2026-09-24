@@ -24,10 +24,10 @@
   "stories": {
     "apple": {
       "sentences": [
-        "D'abord, la pomme est entière.",
-        "Ensuite, on a croqué une fois dans la pomme.",
-        "Puis, on a croqué trois fois dans la pomme.",
-        "Enfin, il ne reste que le trognon."
+        "La pomme est entière.",
+        "On a croqué une fois dans la pomme.",
+        "On a croqué trois fois dans la pomme.",
+        "Il ne reste que le trognon."
       ],
       "stateWords": [
         "entière",
@@ -54,10 +54,10 @@
     },
     "banana": {
       "sentences": [
-        "D'abord, la banane n'est pas épluchée.",
-        "Ensuite, un morceau de peau pend sur le côté.",
-        "Puis, trois morceaux de peau pendent.",
-        "Enfin, il ne reste que la peau vide."
+        "La banane n'est pas épluchée.",
+        "On a tiré un morceau de peau : il pend sur le côté.",
+        "On a tiré trois morceaux de peau : ils pendent.",
+        "Il ne reste que la peau vide."
       ],
       "stateWords": [
         "pas épluchée",
@@ -82,10 +82,10 @@
     },
     "sandwich": {
       "sentences": [
-        "D'abord, il y a deux tranches de pain.",
-        "Ensuite, une tranche est couverte de confiture.",
-        "Puis, le sandwich est coupé en deux.",
-        "Enfin, il ne reste que la croûte et des miettes."
+        "Il y a deux tranches de pain.",
+        "Une tranche est couverte de confiture.",
+        "Le sandwich est coupé en deux.",
+        "Il ne reste que la croûte et des miettes."
       ],
       "stateWords": [
         "deux tranches",
@@ -112,10 +112,10 @@
     },
     "cake": {
       "sentences": [
-        "D'abord, le gâteau est entier.",
-        "Ensuite, on a coupé une part.",
-        "Puis, la moitié du gâteau a disparu.",
-        "Enfin, il ne reste que des miettes."
+        "Le gâteau est entier.",
+        "On a coupé une part.",
+        "La moitié du gâteau a disparu.",
+        "Il ne reste que des miettes."
       ],
       "stateWords": [
         "entier",
@@ -140,10 +140,10 @@
     },
     "fence": {
       "sentences": [
-        "D'abord, la barrière est toute blanche.",
-        "Ensuite, deux planches sont peintes.",
-        "Puis, quatre planches sont peintes.",
-        "Enfin, toute la barrière est peinte."
+        "La barrière est toute blanche.",
+        "On a peint deux planches.",
+        "On a peint quatre planches.",
+        "On a peint toute la barrière."
       ],
       "stateWords": [
         "toute blanche",
@@ -168,10 +168,10 @@
     },
     "letter": {
       "sentences": [
-        "D'abord, la carte est blanche.",
-        "Ensuite, on dessine une fleur sur la carte.",
-        "Puis, on écrit trois lignes.",
-        "Enfin, la carte est dans une enveloppe avec un timbre."
+        "La carte est blanche.",
+        "On dessine une fleur sur la carte.",
+        "On écrit trois lignes à côté du dessin.",
+        "La carte est dans une enveloppe avec un timbre."
       ],
       "stateWords": [
         "blanche",
@@ -196,10 +196,10 @@
     },
     "paper-chain": {
       "sentences": [
-        "D'abord, il y a une feuille de papier.",
-        "Ensuite, la feuille est découpée en cinq bandes.",
-        "Puis, deux bandes sont collées en anneaux.",
-        "Enfin, les cinq anneaux forment une guirlande."
+        "Il y a une feuille de papier.",
+        "La feuille est découpée en cinq bandes.",
+        "On colle deux bandes en anneaux.",
+        "Les cinq anneaux forment une guirlande."
       ],
       "stateWords": [
         "une feuille",
@@ -226,10 +226,10 @@
     },
     "beach-walk": {
       "sentences": [
-        "D'abord, il n'y a aucune trace de pas dans le sable.",
-        "Ensuite, un enfant marche et laisse trois traces de pas.",
-        "Puis, l'enfant trouve un coquillage.",
-        "Enfin, l'enfant revient sur sa serviette avec le coquillage."
+        "Il n'y a aucune trace de pas dans le sable.",
+        "Un enfant marche et laisse trois traces de pas.",
+        "L'enfant trouve un coquillage.",
+        "L'enfant revient sur sa serviette avec le coquillage."
       ],
       "stateWords": [
         "aucune trace",

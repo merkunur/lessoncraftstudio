@@ -99,7 +99,7 @@
     },
     "G2-377": {
       "title": "Schreibschrift üben: i, u und t in {U}",
-      "instruction": "Spure die grauen Buchstaben nach und schreibe dann jeden Buchstaben verbunden allein bis zum Ende der Zeile und in der leeren Zeile darunter."
+      "instruction": "Spure die grauen Buchstaben nach und schreibe dann jeden Buchstaben verbunden allein bis zum Ende der Zeile und in den leeren Zeilen darunter."
     },
     "G2-384": {
       "title": "Großbuchstaben in {U}",
@@ -816,7 +816,10 @@
           "title": "Forscherblatt: Lebensraum Teich",
           "instruction": "Male drei Tiere, die hier leben, in das Bild, schreibe ihre Namen und eine Pflanze von hier auf und kreise das passende Wort ein."
         }
-      }
+      },
+      "excludeAnimals": [
+        "moose"
+      ]
     },
     "sink-or-float": {
       "floatWord": "schwimmt oben",
@@ -1268,7 +1271,7 @@
       "strings": {
         "G2-377": {
           "title": "Schreibschrift üben: i, u und t in {U}",
-          "instruction": "Spure die grauen Buchstaben nach und schreibe dann jeden Buchstaben verbunden allein bis zum Ende der Zeile und in der leeren Zeile darunter."
+          "instruction": "Spure die grauen Buchstaben nach und schreibe dann jeden Buchstaben verbunden allein bis zum Ende der Zeile und in den leeren Zeilen darunter."
         },
         "G2-384": {
           "title": "Großbuchstaben in {U}",

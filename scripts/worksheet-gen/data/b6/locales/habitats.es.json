@@ -266,5 +266,8 @@
     "selva",
     "jungla"
   ],
-  "rainforestRegion": "americas"
+  "rainforestRegion": "americas",
+  "excludeAnimals": [
+    "moose"
+  ]
 }

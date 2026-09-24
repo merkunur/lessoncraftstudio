@@ -842,7 +842,10 @@
         "selva",
         "jungla"
       ],
-      "rainforestRegion": "americas"
+      "rainforestRegion": "americas",
+      "excludeAnimals": [
+        "moose"
+      ]
     },
     "sink-or-float": {
       "floatWord": "flota",

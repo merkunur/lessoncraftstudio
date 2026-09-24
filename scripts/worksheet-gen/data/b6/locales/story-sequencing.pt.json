@@ -24,10 +24,10 @@
   "stories": {
     "apple": {
       "sentences": [
-        "Primeiro, a maçã está inteira.",
-        "Depois, a maçã tem uma mordida.",
-        "Em seguida, a maçã tem três mordidas.",
-        "Por fim, só sobrou o miolo."
+        "A maçã está inteira.",
+        "A maçã tem uma mordida.",
+        "A maçã tem três mordidas.",
+        "Só sobrou o miolo da maçã."
       ],
       "stateWords": [
         "inteira",
@@ -54,10 +54,10 @@
     },
     "banana": {
       "sentences": [
-        "Primeiro, a banana ainda está fechada.",
-        "Depois, uma tira da casca está aberta.",
-        "Em seguida, três tiras da casca estão abertas.",
-        "Por fim, só sobrou a casca vazia."
+        "A banana ainda está fechada.",
+        "A banana tem uma tira da casca aberta.",
+        "A banana tem três tiras da casca abertas.",
+        "Só sobrou a casca vazia."
       ],
       "stateWords": [
         "fechada",
@@ -80,10 +80,10 @@
     },
     "sandwich": {
       "sentences": [
-        "Primeiro, há duas fatias de pão.",
-        "Depois, uma fatia tem geleia.",
-        "Em seguida, o sanduíche é cortado ao meio.",
-        "Por fim, só sobraram a casca do pão e farelos."
+        "Há duas fatias de pão.",
+        "Uma fatia tem geleia.",
+        "O sanduíche é cortado ao meio.",
+        "Só sobraram a casca do pão e farelos."
       ],
       "stateWords": [
         "duas fatias",
@@ -110,10 +110,10 @@
     },
     "cake": {
       "sentences": [
-        "Primeiro, o bolo está inteiro.",
-        "Depois, falta uma fatia do bolo.",
-        "Em seguida, metade do bolo já foi comida.",
-        "Por fim, só sobraram farelos."
+        "O bolo está inteiro.",
+        "Falta uma fatia do bolo.",
+        "Metade do bolo já foi comida.",
+        "Só sobraram farelos."
       ],
       "stateWords": [
         "inteiro",
@@ -138,10 +138,10 @@
     },
     "fence": {
       "sentences": [
-        "Primeiro, a cerca está toda branca.",
-        "Depois, duas tábuas estão pintadas.",
-        "Em seguida, quatro tábuas estão pintadas.",
-        "Por fim, a cerca inteira está pintada."
+        "A cerca está toda branca.",
+        "A cerca tem duas tábuas pintadas.",
+        "A cerca tem quatro tábuas pintadas.",
+        "A cerca inteira está pintada."
       ],
       "stateWords": [
         "toda branca",
@@ -166,10 +166,10 @@
     },
     "letter": {
       "sentences": [
-        "Primeiro, o cartão está em branco.",
-        "Depois, há uma flor desenhada no cartão.",
-        "Em seguida, três linhas foram escritas.",
-        "Por fim, o cartão está no envelope, com selo."
+        "O cartão está em branco.",
+        "Há uma flor desenhada no cartão.",
+        "O cartão ganha três linhas escritas ao lado do desenho.",
+        "O cartão está no envelope, com selo."
       ],
       "stateWords": [
         "em branco",
@@ -194,10 +194,10 @@
     },
     "paper-chain": {
       "sentences": [
-        "Primeiro, há uma folha de papel.",
-        "Depois, a folha é cortada em cinco tiras.",
-        "Em seguida, duas tiras viram argolas coladas.",
-        "Por fim, as cinco argolas formam uma corrente."
+        "Há uma folha de papel.",
+        "A folha é cortada em cinco tiras.",
+        "Colamos duas tiras em forma de argola.",
+        "As cinco argolas formam uma corrente."
       ],
       "stateWords": [
         "uma folha",
@@ -224,10 +224,10 @@
     },
     "beach-walk": {
       "sentences": [
-        "Primeiro, não há pegadas na areia.",
-        "Depois, a criança caminha e deixa três pegadas.",
-        "Em seguida, a criança encontra uma concha.",
-        "Por fim, a criança volta para a toalha com a concha."
+        "Na areia, não há pegadas.",
+        "A criança caminha e deixa três pegadas.",
+        "A criança encontra uma concha.",
+        "A criança volta para a toalha com a concha."
       ],
       "stateWords": [
         "não há pegadas",

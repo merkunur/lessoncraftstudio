@@ -245,5 +245,8 @@
       "title": "Forscherblatt: Lebensraum Teich",
       "instruction": "Male drei Tiere, die hier leben, in das Bild, schreibe ihre Namen und eine Pflanze von hier auf und kreise das passende Wort ein."
     }
-  }
+  },
+  "excludeAnimals": [
+    "moose"
+  ]
 }

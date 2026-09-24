@@ -24,10 +24,10 @@
   "stories": {
     "apple": {
       "sentences": [
-        "Eerst is de appel nog heel.",
-        "Dan zit er één hap uit de appel.",
-        "Daarna zijn er drie happen uit de appel.",
-        "Tot slot is alleen het klokhuis nog over."
+        "De appel is nog heel.",
+        "Er zit één hap uit de appel.",
+        "Er zijn drie happen uit de appel.",
+        "Alleen het klokhuis is nog over."
       ],
       "stateWords": [
         "heel",
@@ -54,10 +54,10 @@
     },
     "banana": {
       "sentences": [
-        "Eerst is de banaan nog niet gepeld.",
-        "Dan hangt er één stuk schil naar beneden.",
-        "Daarna hangen er drie stukken schil naar beneden.",
-        "Tot slot is alleen de lege schil nog over."
+        "De banaan is nog niet gepeld.",
+        "Er hangt één stuk schil naar beneden.",
+        "Er hangen drie stukken schil naar beneden.",
+        "Alleen de lege schil is nog over."
       ],
       "stateWords": [
         "niet gepeld",
@@ -82,10 +82,10 @@
     },
     "sandwich": {
       "sentences": [
-        "Eerst liggen er twee sneetjes brood.",
-        "Dan zit er jam op één sneetje.",
-        "Daarna is de boterham doormidden gesneden.",
-        "Tot slot zijn er alleen een korstje en kruimels over."
+        "Er liggen twee sneetjes brood.",
+        "Op één sneetje zit jam.",
+        "De boterham is doormidden gesneden.",
+        "Alleen een korstje en kruimels zijn nog over."
       ],
       "stateWords": [
         "twee sneetjes",
@@ -112,10 +112,10 @@
     },
     "cake": {
       "sentences": [
-        "Eerst is de taart nog heel.",
-        "Dan is er één punt uit de taart gesneden.",
-        "Daarna is de helft van de taart op.",
-        "Tot slot zijn er alleen kruimels over."
+        "De taart is nog heel.",
+        "Er is één punt uit de taart gesneden.",
+        "De helft van de taart is op.",
+        "Alleen de kruimels zijn nog over."
       ],
       "stateWords": [
         "heel",
@@ -140,10 +140,10 @@
     },
     "fence": {
       "sentences": [
-        "Eerst is het hek nog helemaal wit.",
-        "Dan zijn er twee planken geverfd.",
-        "Daarna zijn er vier planken geverfd.",
-        "Tot slot is het hele hek geverfd."
+        "Het hek is nog helemaal wit.",
+        "Er zijn twee planken geverfd.",
+        "Er zijn vier planken geverfd.",
+        "Het hele hek is geverfd."
       ],
       "stateWords": [
         "helemaal wit",
@@ -168,10 +168,10 @@
     },
     "letter": {
       "sentences": [
-        "Eerst is de kaart nog leeg.",
-        "Dan staat er een bloem op de kaart.",
-        "Daarna staan er drie regels tekst op de kaart.",
-        "Tot slot zit de kaart in een envelop met een postzegel."
+        "De kaart is nog leeg.",
+        "Er staat een bloem op de kaart.",
+        "Naast de tekening komen drie regels tekst te staan.",
+        "De kaart zit in een envelop met een postzegel."
       ],
       "stateWords": [
         "leeg",
@@ -196,10 +196,10 @@
     },
     "paper-chain": {
       "sentences": [
-        "Eerst is er één vel papier.",
-        "Dan is het vel in vijf stroken geknipt.",
-        "Daarna zijn er twee stroken tot ringen geplakt.",
-        "Tot slot vormen alle ringen samen een slinger."
+        "Er ligt één vel papier.",
+        "Het vel is in vijf stroken geknipt.",
+        "Er zijn twee stroken tot ringen geplakt.",
+        "Alle vijf ringen samen vormen een slinger."
       ],
       "stateWords": [
         "één vel",
@@ -226,10 +226,10 @@
     },
     "beach-walk": {
       "sentences": [
-        "Eerst staan er geen voetstappen in het zand.",
-        "Dan loopt het kind en zie je drie voetstappen.",
-        "Daarna vindt het kind een schelp.",
-        "Tot slot is het kind met de schelp terug op de handdoek."
+        "Er staan geen voetstappen in het zand.",
+        "Het kind loopt en je ziet drie voetstappen.",
+        "Het kind vindt een schelp.",
+        "Het kind is met de schelp terug op de handdoek."
       ],
       "stateWords": [
         "geen voetstappen",

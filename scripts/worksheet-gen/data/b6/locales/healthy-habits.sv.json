@@ -13,7 +13,7 @@
       "instruction": "Titta på varje bild och ringa in före, under eller efter tandborstningen."
     },
     "stop-the-germs": {
-      "title": "Nysa och hosta i armvecket: stoppa bakterierna",
+      "title": "Stoppa bakterierna: vad hindrar dem från att spridas?",
       "instruction": "Ringa in bilden i varje rad som stoppar bakterierna från att spridas."
     },
     "why-habits": {
@@ -106,7 +106,7 @@
     ]
   },
   "reasons": {
-    "wash-hands": "Då försvinner bakterierna från allt som vi har rört vid.",
+    "wash-hands": "Då försvinner bakterierna som vi fick på oss när vi tog i olika saker.",
     "brush-teeth": "Då blir leendet rent och fint.",
     "sleep": "Kroppen och hjärnan vilar och blir redo för en ny dag.",
     "move-body": "Det gör oss pigga, snabba och starka.",

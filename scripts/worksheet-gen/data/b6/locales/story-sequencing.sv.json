@@ -24,10 +24,10 @@
   "stories": {
     "apple": {
       "sentences": [
-        "Först är äpplet helt.",
-        "Sedan har någon tagit en tugga.",
-        "Efter det har någon tagit tre tuggor.",
-        "Till sist är bara skrutten kvar."
+        "Äpplet är helt.",
+        "Någon har tagit en tugga av äpplet.",
+        "Någon har tagit tre tuggor av äpplet.",
+        "Bara skrutten är kvar."
       ],
       "stateWords": [
         "helt",
@@ -54,10 +54,10 @@
     },
     "banana": {
       "sentences": [
-        "Först är bananen inte skalad.",
-        "Sedan hänger en skalbit ner.",
-        "Efter det hänger tre skalbitar ner.",
-        "Till sist är bara det tomma skalet kvar."
+        "Bananen är inte skalad.",
+        "Bananen har en skalbit som hänger ner.",
+        "Bananen har tre skalbitar som hänger ner.",
+        "Bara det tomma skalet är kvar."
       ],
       "stateWords": [
         "inte skalad",
@@ -80,10 +80,10 @@
     },
     "sandwich": {
       "sentences": [
-        "Först finns det två brödskivor.",
-        "Sedan har den ena skivan fått sylt.",
-        "Efter det är smörgåsen delad på mitten.",
-        "Till sist är bara en kant och smulor kvar."
+        "Det finns två brödskivor.",
+        "Den ena skivan har fått sylt.",
+        "Smörgåsen är delad på mitten.",
+        "Bara en kant och smulor är kvar."
       ],
       "stateWords": [
         "två brödskivor",
@@ -110,10 +110,10 @@
     },
     "cake": {
       "sentences": [
-        "Först är tårtan hel.",
-        "Sedan har någon skurit ut en bit.",
-        "Efter det är halva tårtan borta.",
-        "Till sist är bara smulor kvar."
+        "Tårtan är hel.",
+        "Någon har skurit ut en bit ur tårtan.",
+        "Halva tårtan är borta.",
+        "Bara smulor är kvar."
       ],
       "stateWords": [
         "hel",
@@ -138,10 +138,10 @@
     },
     "fence": {
       "sentences": [
-        "Först är staketet helt vitt.",
-        "Sedan är två brädor målade.",
-        "Efter det är fyra brädor målade.",
-        "Till sist är hela staketet målat."
+        "Staketet är helt vitt.",
+        "Någon har målat två brädor.",
+        "Någon har målat fyra brädor.",
+        "Någon har målat hela staketet."
       ],
       "stateWords": [
         "helt vitt",
@@ -166,10 +166,10 @@
     },
     "letter": {
       "sentences": [
-        "Först är kortet tomt.",
-        "Sedan har någon ritat en blomma på kortet.",
-        "Efter det har någon skrivit tre rader.",
-        "Till sist ligger kortet i ett kuvert med frimärke."
+        "Kortet är tomt.",
+        "Någon har ritat en blomma på kortet.",
+        "Någon har skrivit tre rader bredvid teckningen.",
+        "Kortet ligger i ett kuvert med frimärke."
       ],
       "stateWords": [
         "tomt",
@@ -194,10 +194,10 @@
     },
     "paper-chain": {
       "sentences": [
-        "Först finns det ett papper.",
-        "Sedan är pappret klippt i fem remsor.",
-        "Efter det är två remsor limmade till ringar.",
-        "Till sist blir alla fem ringarna en kedja."
+        "Det finns ett papper.",
+        "Pappret är klippt i fem remsor.",
+        "Någon har limmat två remsor till ringar.",
+        "Alla fem ringarna har blivit en kedja."
       ],
       "stateWords": [
         "ett papper",
@@ -224,10 +224,10 @@
     },
     "beach-walk": {
       "sentences": [
-        "Först finns det inga fotspår i sanden.",
-        "Sedan går ett barn och lämnar tre fotspår.",
-        "Efter det hittar barnet ett snäckskal.",
-        "Till sist är barnet tillbaka på handduken med snäckskalet."
+        "Det finns inga fotspår i sanden.",
+        "Ett barn går och lämnar tre fotspår.",
+        "Barnet hittar ett snäckskal.",
+        "Barnet är tillbaka på handduken med snäckskalet."
       ],
       "stateWords": [
         "inga fotspår",

@@ -192859,6 +192859,1242 @@
    ],
    "title": "Root Words in Sentences Worksheet for 3rd Grade | Free Printable PDF",
    "metaDescription": "Root words in sentences worksheet: two word families, joy and sleep, four words each. Write enjoy, joyful, sleepy or sleeper into the sentence it fits. 3rd grade."
+  },
+  {
+   "slug": "story-sequencing-number-the-pictures",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "base",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Story Sequencing Worksheet",
+   "h1": "Story Sequencing: Number the Pictures",
+   "strand": "Reading: Literature",
+   "standard": "RL.K.2",
+   "slotTokens": [
+    "story-sequencing",
+    "kindergarten"
+   ],
+   "p1": "Two short picture stories hang on two washing lines across this kindergarten page, four frames to a line, and under every frame sits an empty dashed box for a number. Nothing on the page is in order. On the sheet shown the first line tells the life of a banana on a plate: whole, then one strip of peel pulled down, then three strips hanging open, then only the empty peel lying flat. The second line is a hopscotch court being drawn in chalk on a pavement, from bare ground to a finished court of squares drawn in white chalk lines, while the stick of chalk at the corner gets shorter in every frame. The child writes 1, 2, 3 and 4 in the boxes to put each story-sequencing line back in order.",
+   "p2": "The instruction asks children to look at what changes, and that is the whole skill. A banana that gets more and more peeled, a court that gets longer, a stick that gets shorter: each story has one thing that only moves one way, and once a child finds it the order follows. That is the thinking behind retelling a story in the right order, which kindergarten reading standards ask for, done here before any reading is needed.",
+   "p3": "One sheet, two stories, eight boxes. This is the base page of the story sequencing family and the one that numbers the pictures; its faces ask children to cut and paste a strip under first, next and last, choose what happens next, draw the missing middle, match sentences to pictures and write the story. Talk through one line together first. If a child numbers the hopscotch frames by the court alone, point to the chalk: two clues that agree make the order certain.",
+   "canonicalDeckSlug": "story-sequencing-k379",
+   "carousel": [
+    {
+     "label": "Story Sequencing Cut and Paste: First, Next, Last",
+     "href": "story-sequencing-cut-and-paste-first-next-last"
+    },
+    {
+     "label": "Story Sequencing: What Happens Next?",
+     "href": "story-sequencing-what-happens-next"
+    },
+    {
+     "label": "Beginning, Middle and End of a Story",
+     "href": "beginning-middle-and-end-of-a-story"
+    },
+    {
+     "label": "Story Sequencing Sentences: Match the Pictures",
+     "href": "story-sequencing-sentences-match-the-pictures"
+    }
+   ],
+   "title": "Story Sequencing Worksheet for Kindergarten | Free Printable PDF",
+   "metaDescription": "Story sequencing worksheet: two picture stories of four frames each. Spot what changes, then write 1 to 4 in the boxes. Kindergarten PDF."
+  },
+  {
+   "slug": "healthy-habits-what-each-child-needs",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "base",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Healthy Habits Worksheet",
+   "h1": "Healthy Habits: What Does Each Child Use?",
+   "strand": "Health",
+   "slotTokens": [
+    "healthy-habits",
+    "kindergarten"
+   ],
+   "p1": "Five children hang in picture frames along the top of this kindergarten page, and five everyday things stand on a shelf at the bottom: a sun hat, a bed, a toothbrush, a bar of soap and a comb. On the sheet shown one child stretches and yawns in striped pajamas under a moon and stars, one washes hands at a sink under the tap, one stands out in the bright sun, one has hair sticking up in every direction, and one brushes teeth with a mouth full of foam. The child draws a line from each to the thing that child uses. Every child gets exactly one thing, and nothing on the shelf is left over.",
+   "p2": "Healthy habits in kindergarten are about the small routines of the day: sleeping, washing hands, brushing teeth, combing hair and staying safe in the sun. Each child is shown in the middle of a habit, and matching the child to the thing puts the habit into words a five-year-old already uses. What is this child doing? Getting ready for bed. What does this child use? A bed. The page is about hygiene, rest and sun safety, not food, and it stays that way through the whole family.",
+   "p3": "One sheet, five lines, and no child hangs straight above its own thing on the shelf. The child in the sun is not wearing the hat yet, so talk about why a hat goes on before playing outside; the child with messy hair has a hand up at the head, and some children will call it scratching, but the comb is still the only thing that fits. This is the base page of the healthy habits family; its faces order the steps of hand washing, sort brushing teeth into before, during and after, stop germs, give reasons, and track habits across a week. In health education terms it supports the early grades goal of naming healthy behaviors.",
+   "canonicalDeckSlug": "healthy-habits-k380",
+   "carousel": [
+    {
+     "label": "Hand Washing Steps",
+     "href": "hand-washing-steps"
+    },
+    {
+     "label": "Brushing Teeth: Before, During and After",
+     "href": "brushing-teeth-before-during-after"
+    },
+    {
+     "label": "Stop the Germs: Choose the Healthy Way",
+     "href": "stop-the-germs-choose-the-healthy-way"
+    },
+    {
+     "label": "Healthy Habits: Why Do We Do Them?",
+     "href": "why-we-do-healthy-habits"
+    }
+   ],
+   "title": "Healthy Habits Worksheet for Kindergarten | Free Printable PDF",
+   "metaDescription": "Healthy habits worksheet: five children, five everyday things. Draw a line from each child to what they use: bed, soap, sun hat, comb or toothbrush. K PDF."
+  },
+  {
+   "slug": "animal-habitats-match-the-animal",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "base",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Animal Habitats Worksheet",
+   "h1": "Animal Habitats: Match the Animal",
+   "strand": "Science",
+   "slotTokens": [
+    "habitats",
+    "grade-1"
+   ],
+   "p1": "Four habitat pictures fill the top of this 1st grade page, each with a big letter: A is a rainforest of tall trunks and long leaves, B is a savanna with dry grass under a flat-topped tree and a hot sun, C is a pond with cattails and a lily pad, and D is an ocean with seaweed and bubbles. Below them eight animal cards each have an empty box. The child writes the letter of the habitat where the animal lives. On the sheet shown the animals are a lion, a beaver, a whale, a toucan, an octopus, a parrot, a dragonfly and a gorilla.",
+   "p2": "A habitat is the place that gives an animal what it needs, and first graders begin with the big, easy to picture ones. The pictures carry the clues: water for the octopus and whale, a pond for the dragonfly and beaver, trees for the birds and the ape, open grassland for the lion. Not every habitat gets the same number of animals; on this sheet three animals live in the rainforest and only the lion on the savanna, so children cannot fill in the letters by sharing them out evenly.",
+   "p3": "One sheet, eight letters. Children who know a whale as a fish or a gorilla as a monkey still reach the right letter; correct the name afterwards. This is the base page of the animal habitats family; its faces cover animal homes, the animal that does not belong, adaptations, what animals need and a habitat report. In NGSS terms it supports the idea that animals live where their needs are met.",
+   "canonicalDeckSlug": "habitats-g1398",
+   "carousel": [
+    {
+     "label": "Animal Homes",
+     "href": "animal-homes-nest-hive-web-burrow"
+    },
+    {
+     "label": "Who Does Not Live Here?",
+     "href": "animal-habitats-odd-one-out"
+    },
+    {
+     "label": "How Animals Adapt",
+     "href": "animal-adaptations-which-animal-is-it"
+    },
+    {
+     "label": "What Animals Need",
+     "href": "what-animals-need-food-and-a-home"
+    }
+   ],
+   "title": "Animal Habitats Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Animal habitats worksheet: four lettered habitats, pond, ocean, savanna and rainforest, and eight animals. Write each animal's habitat letter. 1st grade PDF."
+  },
+  {
+   "slug": "sink-or-float-experiment-predict-and-test",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "base",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Sink or Float Worksheet",
+   "h1": "Sink or Float Experiment: Predict and Test",
+   "strand": "Science",
+   "slotTokens": [
+    "sink-or-float",
+    "grade-1"
+   ],
+   "p1": "Six real objects are pictured down the left of this 1st grade page, each with its name: a bolt, scissors, a soccer ball, pliers, a pumpkin and a toy boat on the sheet shown. Beside each are two small water tanks, headed My guess and The test, and a star under Surprise. Every tank has two dashed rings, one at the water's surface and one resting on the bottom. A key at the top shows that an object at the surface floats and one on the bottom sinks. Before testing, the child colors a ring in the guess tank; after dropping the real object in water, a ring in the test tank; and if the two do not match, the star.",
+   "p2": "The page is built around one science habit: say what you think before you look. Writing the guess down first means a surprise is real, and the star makes surprises something to be proud of rather than a mistake. The objects are chosen to cause a few. Metal tools sink, the soccer ball and the toy boat float, and the pumpkin, big and heavy, floats as well, which is the result most children get wrong.",
+   "p3": "You need a tub of water and the objects, or objects like them. Test them together at the front, one at a time, and let children color after each splash. The lower ring rests on the tank floor, just like the sinker in the key, so children can see that it means the object went all the way down. This is the base page of the sink or float family; its faces test weight on a scale, reshape clay, check true or false claims, draw and write a lab report.",
+   "canonicalDeckSlug": "sink-or-float-g1399",
+   "carousel": [
+    {
+     "label": "Heavy or Light? Sink or Float on a Balance Scale",
+     "href": "heavy-or-light-sink-or-float-scale-test"
+    },
+    {
+     "label": "Make Clay Float: A Change the Shape Experiment",
+     "href": "make-clay-float-change-the-shape"
+    },
+    {
+     "label": "Floating Facts: Sink or Float True or False",
+     "href": "why-things-float-true-or-false"
+    },
+    {
+     "label": "Draw What Floats and Sinks: A Sink or Float Drawing",
+     "href": "draw-what-floats-and-sinks"
+    }
+   ],
+   "title": "Sink or Float Experiment Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Sink or float experiment worksheet: six objects, a guess tank and a test tank for each, and a star for a surprise. Predict, test in water, record. 1st grade."
+  },
+  {
+   "slug": "cursive-letters-i-t-u-w",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "base",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Cursive Writing Worksheet",
+   "h1": "Cursive Letters: i, t, u and w",
+   "strand": "Handwriting",
+   "slotTokens": [
+    "cursive-writing",
+    "grade-2"
+   ],
+   "p1": "Four lowercase cursive letters, i, t, u and w, each get two ruled lines on this 2nd grade page. The first line begins with a dark model of the letter at the margin, then two grey groups of three joined letters to trace, then empty space; the second line is blank. A strip at the top shows the four letters together and names the model: traditional cursive. The child traces the grey letters and keeps writing the letter joined, on their own, to the end of its line and all along the line below. The ruling has a top line, a dashed midline and a baseline, so children can see how tall each letter should be.",
+   "p2": "These four letters come first because they share the same starting stroke, an upswing from the baseline, and cursive is taught in families of shared strokes. Once a child can swing up into i, the t, u and w follow the same path. Writing each letter three times joined before lifting the pencil is what makes cursive flow; a single letter repeated alone never practises the join. Most American schools teach cursive in second or third grade, and several states now require it.",
+   "p3": "One sheet, four letters, eight lines. Remind children that the dot on the i and the cross on the t are added after the whole group is written. The model is traditional cursive, the style most American schools use; if your school follows another program, the letterforms may differ slightly. The next faces of the cursive writing family cover capitals, joining pairs, whole words, reading cursive and copying sentences.",
+   "canonicalDeckSlug": "cursive-writing-g2377",
+   "carousel": [
+    {
+     "label": "Cursive Capital Letters: Write the Names",
+     "href": "cursive-capital-letters-write-the-names"
+    },
+    {
+     "label": "Cursive Connecting Letters: Joining Two Letters",
+     "href": "cursive-connecting-letters-joining-two-letters"
+    },
+    {
+     "label": "Cursive Words to Write with Pictures",
+     "href": "cursive-words-to-write-with-pictures"
+    },
+    {
+     "label": "Reading Cursive: Match Each Word to Its Picture",
+     "href": "reading-cursive-match-each-word-to-its-picture"
+    }
+   ],
+   "title": "Cursive Writing Worksheet for 2nd Grade: Letters i, t, u, w | Free PDF",
+   "metaDescription": "Cursive writing worksheet: lowercase i, t, u and w in traditional cursive. Trace grey joined letters, keep going on your own. 2nd grade printable PDF."
+  },
+  {
+   "slug": "story-sequencing-cut-and-paste-first-next-last",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "story-sequencing-cut-and-paste-first-next-last",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Cut and Paste Story Worksheet",
+   "h1": "Story Sequencing Cut and Paste: First, Next, Last",
+   "strand": "Writing",
+   "standard": "W.K.3",
+   "slotTokens": [
+    "story-sequencing",
+    "kindergarten"
+   ],
+   "p1": "Scissors and a glue stick come out for this one. The top half of the kindergarten page holds two empty story lines, each with three dashed frames clipped to a line and the words First, Next and Last printed under them. The bottom half holds two strips of three pictures to cut apart, marked with a dot and a triangle that match the dot and triangle at the start of each story line. On the sheet shown one strip is an apple being eaten, shuffled as a whole apple, a core and a bitten apple; the other is a greeting card, shuffled as a card with a flower and writing on it, a blank card and a sealed envelope.",
+   "p2": "Three steps is the right size for the first time a child puts events in order, and the three time words sit under the frames so the order has a name before it is a number. Children who say the story out loud while they glue, first the apple is whole, next someone takes a bite, last only the core is left, are practising the telling of events in order that kindergarten writing asks for. Cutting and moving the pictures also lets a child try an order, look at it and change it before the glue goes on.",
+   "p3": "Show the children the dot and the triangle before they cut: the instruction tells them to glue each strip on the story line with the same mark, and pointing to the two pairs of marks once makes that clear. Print on plain paper, one sheet each; the strips cut apart along the dashed lines. The base page of the family asks for numbers under four pictures instead, and the retelling face later asks for the whole story in writing.",
+   "canonicalDeckSlug": "story-sequencing-k381",
+   "carousel": [
+    {
+     "label": "Story Sequencing: Number the Pictures",
+     "href": "story-sequencing-number-the-pictures"
+    },
+    {
+     "label": "Story Sequencing: What Happens Next?",
+     "href": "story-sequencing-what-happens-next"
+    },
+    {
+     "label": "Beginning, Middle and End of a Story",
+     "href": "beginning-middle-and-end-of-a-story"
+    },
+    {
+     "label": "Story Sequencing Sentences: Match the Pictures",
+     "href": "story-sequencing-sentences-match-the-pictures"
+    }
+   ],
+   "title": "First, Next, Last Cut and Paste Story Worksheet, Kindergarten | Free PDF",
+   "metaDescription": "First, next, last cut and paste: cut three pictures from each strip and glue them on the story line in order. Two three-step stories. Kindergarten PDF."
+  },
+  {
+   "slug": "story-sequencing-what-happens-next",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "story-sequencing-what-happens-next",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Story Sequencing Worksheet",
+   "h1": "Story Sequencing: What Happens Next?",
+   "strand": "Reading: Literature",
+   "standard": "RL.1.7",
+   "slotTokens": [
+    "story-sequencing",
+    "grade-1"
+   ],
+   "p1": "Each story on this 1st grade page stops one frame short. Three washing lines carry three pictures each, and the fourth frame is a dashed box with a big question mark. Under every line wait three answer pictures, and the child circles the one that belongs in the question-mark frame. On the sheet shown an apple loses a bite, then another; a pink sheet of paper is cut into strips and the first strips are glued into rings; and a snowball rolls bigger and bigger until a second ball sits on top of the first. The answers are an apple core, a long paper chain and a finished snowman with a hat and a carrot nose.",
+   "p2": "Predicting the next event means using everything the pictures have shown so far. The choices are built to make children do that: one wrong choice in every row is the story's own first frame, the whole apple or the flat pink sheet, so a child who only looks for the same object gets caught, and the other wrong choice comes from a different story on the page. Reading the illustrations to work out what is happening is a first grade reading goal, and this page asks for it without a single word to decode.",
+   "p3": "One sheet, three stories, three circles, and the right answer sits in a different place in each row. Ask a child to explain the choice: because the bites get bigger is a better reason than because it is an apple. The base page of the story sequencing family puts all four pictures in order; this face keeps the order and asks only for the ending, which makes it a quick check.",
+   "canonicalDeckSlug": "story-sequencing-g1400",
+   "carousel": [
+    {
+     "label": "Story Sequencing: Number the Pictures",
+     "href": "story-sequencing-number-the-pictures"
+    },
+    {
+     "label": "Story Sequencing Cut and Paste: First, Next, Last",
+     "href": "story-sequencing-cut-and-paste-first-next-last"
+    },
+    {
+     "label": "Beginning, Middle and End of a Story",
+     "href": "beginning-middle-and-end-of-a-story"
+    },
+    {
+     "label": "Story Sequencing Sentences: Match the Pictures",
+     "href": "story-sequencing-sentences-match-the-pictures"
+    }
+   ],
+   "title": "What Happens Next? Story Sequencing Worksheet, 1st Grade | Free PDF",
+   "metaDescription": "What happens next worksheet: three stories of three pictures and a question mark. Circle the picture that finishes each story. 1st grade printable PDF."
+  },
+  {
+   "slug": "beginning-middle-and-end-of-a-story",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "beginning-middle-and-end-of-a-story",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Beginning, Middle, End Worksheet",
+   "h1": "Beginning, Middle and End of a Story",
+   "strand": "Writing",
+   "standard": "W.1.3",
+   "slotTokens": [
+    "story-sequencing",
+    "grade-1"
+   ],
+   "p1": "Two stories, and each is missing its heart. The frames on this 1st grade page are labeled Beginning, Middle and End, and only the outer two are drawn. On the sheet shown the first story begins with a whole banana on a plate and ends with nothing but its empty peel lying open. The second begins with one small snowball on the ground and ends with a finished snowman in a top hat, with twig arms, three buttons and a carrot nose. Between them is a tall dashed frame, and the child draws what happens in the middle: a half-peeled banana, say, or two big snowballs stacked without a face yet.",
+   "p2": "Writing a story in the first grade means including an event, then another, and closing it off, and a middle is the part children most often skip. Drawing it makes them decide what had to happen to get from the start to the finish. There is more than one good middle, which is the point: a banana with one strip down and a banana with three strips down are both honest answers, and comparing drawings around the room shows how many steps a story can hold.",
+   "p3": "Give children time; a drawn middle takes longer than a circled one. Afterwards, ask them to say the whole story in three sentences, one per frame. Snow falls from a pale sky in both snowman frames, so even the small first snowball reads as snow; ask what has to happen to it before a snowman can stand. This face is the drawing step of the story sequencing family, between choosing what happens next and writing the whole story with sentence starters.",
+   "canonicalDeckSlug": "story-sequencing-g1401",
+   "carousel": [
+    {
+     "label": "Story Sequencing: Number the Pictures",
+     "href": "story-sequencing-number-the-pictures"
+    },
+    {
+     "label": "Story Sequencing Cut and Paste: First, Next, Last",
+     "href": "story-sequencing-cut-and-paste-first-next-last"
+    },
+    {
+     "label": "Story Sequencing: What Happens Next?",
+     "href": "story-sequencing-what-happens-next"
+    },
+    {
+     "label": "Story Sequencing Sentences: Match the Pictures",
+     "href": "story-sequencing-sentences-match-the-pictures"
+    }
+   ],
+   "title": "Beginning, Middle and End of a Story Worksheet, 1st Grade | Free PDF",
+   "metaDescription": "Beginning, middle and end worksheet: each story shows its start and its finish. Draw what happens in the empty middle frame. Two stories, 1st grade PDF."
+  },
+  {
+   "slug": "story-sequencing-sentences-match-the-pictures",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "story-sequencing-sentences-match-the-pictures",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Story Sentences Worksheet",
+   "h1": "Story Sequencing Sentences: Match the Pictures",
+   "strand": "Reading: Literature",
+   "standard": "RL.1.7",
+   "slotTokens": [
+    "story-sequencing",
+    "grade-1"
+   ],
+   "p1": "Reading does the work on this 1st grade page. Eight small pictures run down the left and eight printed sentences run down the right, two stories of four, and both columns are jumbled. Every sentence card has an empty dashed box for a number, and a dot sits beside each picture and each sentence for the line. On the sheet shown the first story is a paper chain: there is one sheet of paper, the sheet is cut into five strips, two strips are glued into rings, all five rings make a chain. The second is a banana: it is not peeled, one strip of peel hangs down, three strips hang down, only the empty peel is left. The child numbers each story's sentences 1 to 4, then draws a line from every sentence to its picture.",
+   "p2": "No sentence starts with a time word, so the order has to come from what the sentences say. A chain cannot come before its rings, and three strips of peel cannot come before one; on the sheet shown a careful reader numbers the paper story 4, 1, 3, 2 from the top and the banana 2, 3, 1, 4. The matching then checks the same details against the pictures: five strips, two rings, one strip of peel, three strips. A picture of rings beside a stack of strips only fits the sentence about two rings, so a child cannot guess from the object alone. Putting events in order and reading for detail are both first grade reading goals, and this page asks for each.",
+   "p3": "Eight boxes, eight lines. No picture sits straight across from its own sentence, and the first sentence of a story is not always at the top of its block, so the layout gives nothing away. Read the paper story aloud together, then let children do the banana on their own. This is the reading face of the family; the next step is the retell page, where children write sentences like these themselves, with First, Next, Then and Finally printed on the lines to start them.",
+   "canonicalDeckSlug": "story-sequencing-g1402",
+   "carousel": [
+    {
+     "label": "Story Sequencing: Number the Pictures",
+     "href": "story-sequencing-number-the-pictures"
+    },
+    {
+     "label": "Story Sequencing Cut and Paste: First, Next, Last",
+     "href": "story-sequencing-cut-and-paste-first-next-last"
+    },
+    {
+     "label": "Story Sequencing: What Happens Next?",
+     "href": "story-sequencing-what-happens-next"
+    },
+    {
+     "label": "Beginning, Middle and End of a Story",
+     "href": "beginning-middle-and-end-of-a-story"
+    }
+   ],
+   "title": "Story Sequencing Sentences Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Story sequencing sentences: number two jumbled four-sentence stories in order, then draw a line from each sentence to its picture. 1st grade printable PDF."
+  },
+  {
+   "slug": "retell-the-story-first-next-then-finally",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "retell-the-story-with-starters",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Retell the Story Worksheet",
+   "h1": "Retell the Story with Starters",
+   "strand": "Writing",
+   "standard": "W.2.3",
+   "slotTokens": [
+    "story-sequencing",
+    "grade-2"
+   ],
+   "p1": "Four pictures run down the left of this 2nd grade page on a timeline, and beside each are two writing lines with a grey starter word already printed on the first: First, Next, Then and Finally. A word bank across the top offers fence, plank, paint, brush and bucket. On the sheet shown the story is a white picket fence of six planks with a paint bucket at its foot. In the first picture none is painted and the brush rests in the bucket; then a hand reaches in from the top with the brush and two planks are orange, then four, and in the last picture all six are painted and the brush is back in the bucket. The child writes what happens in each picture, starting every sentence with its printed word.",
+   "p2": "This is where the story sequencing family ends up: from numbering pictures to writing the story in full. The starters take care of the order words, so the effort goes into saying what happened, and the word bank takes care of spelling the nouns. Second grade writing asks for a sequence of events with time words and a sense of closure, and Finally invites exactly that. Only a hand is drawn holding the brush, so children decide whose hand it is; I painted is as good as my dad painted.",
+   "p3": "Eight lines, four sentences. The brush and the bucket are both drawn clearly, so every word in the bank has a picture to point to. Stronger writers can add how many planks are done in each picture, which the pictures show clearly. Pair it with the sentence matching face, where the same four time words are read before they are written.",
+   "canonicalDeckSlug": "story-sequencing-g2378",
+   "carousel": [
+    {
+     "label": "Story Sequencing: Number the Pictures",
+     "href": "story-sequencing-number-the-pictures"
+    },
+    {
+     "label": "Story Sequencing Cut and Paste: First, Next, Last",
+     "href": "story-sequencing-cut-and-paste-first-next-last"
+    },
+    {
+     "label": "Story Sequencing: What Happens Next?",
+     "href": "story-sequencing-what-happens-next"
+    },
+    {
+     "label": "Beginning, Middle and End of a Story",
+     "href": "beginning-middle-and-end-of-a-story"
+    }
+   ],
+   "title": "Retell the Story Worksheet for 2nd Grade: First, Next, Then, Finally | PDF",
+   "metaDescription": "Retell the story: four pictures of a fence being painted, a word bank and the starters First, Next, Then and Finally on the lines. Write the story. 2nd grade."
+  },
+  {
+   "slug": "hand-washing-steps",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "hand-washing-steps",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Hand Washing Worksheet",
+   "h1": "Hand Washing Steps",
+   "strand": "Health",
+   "slotTokens": [
+    "healthy-habits",
+    "kindergarten"
+   ],
+   "p1": "Five pictures of two hands at a sink fill this kindergarten page, each with a dashed box beside it for a number. They are out of order. On the sheet shown one pair of hands is under running water with soap suds still on the palms and bubbles in the basin, one is under running water with clean hands, one holds the bar of soap with the tap off and drops falling, one holds up a striped towel, and one rubs in a cloud of foam. The child writes 1 to 5 in the boxes to show how we wash our hands: wet, soap, scrub, rinse, dry.",
+   "p2": "Hand washing is the habit teachers ask for most often in a school day, and children do it quicker than they can describe it. Putting the steps in order slows it down: why does the soap come after the water, why rinse before drying. The two water pictures are the ones to talk about. Hands under the tap before the soap are clean, and that is wetting; hands under the tap after the scrub still carry suds, and that is rinsing. Ask children to find the suds on the hands before they number.",
+   "p3": "One sheet, five boxes, five numbers. Hang a finished page above the classroom sink and it becomes the reminder. Kindergarten children can do the numbering alone once the steps have been acted out with real soap. The next face of the healthy habits family moves to teeth and asks whether each step comes before, during or after brushing.",
+   "canonicalDeckSlug": "healthy-habits-k382",
+   "carousel": [
+    {
+     "label": "Healthy Habits: What Does Each Child Use?",
+     "href": "healthy-habits-what-each-child-needs"
+    },
+    {
+     "label": "Brushing Teeth: Before, During and After",
+     "href": "brushing-teeth-before-during-after"
+    },
+    {
+     "label": "Stop the Germs: Choose the Healthy Way",
+     "href": "stop-the-germs-choose-the-healthy-way"
+    },
+    {
+     "label": "Healthy Habits: Why Do We Do Them?",
+     "href": "why-we-do-healthy-habits"
+    }
+   ],
+   "title": "Hand Washing Steps Worksheet for Kindergarten | Free Printable PDF",
+   "metaDescription": "Hand washing steps worksheet: five pictures of wet, soap, scrub, rinse and dry, out of order. Write 1 to 5 in the boxes. Kindergarten printable PDF."
+  },
+  {
+   "slug": "brushing-teeth-before-during-after",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "brushing-teeth-before-during-after",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Brushing Teeth Worksheet",
+   "h1": "Brushing Teeth: Before, During and After",
+   "strand": "Health",
+   "slotTokens": [
+    "healthy-habits",
+    "grade-1"
+   ],
+   "p1": "Seven picture cards make up this 1st grade page, and each has three word buttons beside it: before, during and after. The child circles the word that tells when each picture belongs. On the sheet shown the cards are toothpaste squeezed onto a brush, a brush on the outside of the lower teeth, one tooth shining clean with sparkles, a child bent over the sink spitting with the brush laid down on the rim, a brush reaching the inside of the lower teeth, one tooth with dark spots of plaque, and a brush scrubbing the chewing tops with arrows going back and forth.",
+   "p2": "Brushing is three stages rather than one action, and the three words give children a way to say so. Two cards are before, three are during and two are after. The during cards show three different surfaces, outside, inside and the tops, which is exactly what a dentist asks children to reach. The two single teeth are the cards to talk about: they are not steps but states, a dirty tooth before brushing and a clean one after, so children have to think about what brushing changes, not only what a hand does.",
+   "p3": "One sheet, seven circles. It works best after the class has watched someone brush, or during a dental health week in February. Children who finish can put the before cards and the after cards in the order they would happen. The next face of the family turns from teeth to germs, and the base page matches each habit to the thing a child uses for it.",
+   "canonicalDeckSlug": "healthy-habits-g1403",
+   "carousel": [
+    {
+     "label": "Healthy Habits: What Does Each Child Use?",
+     "href": "healthy-habits-what-each-child-needs"
+    },
+    {
+     "label": "Hand Washing Steps",
+     "href": "hand-washing-steps"
+    },
+    {
+     "label": "Stop the Germs: Choose the Healthy Way",
+     "href": "stop-the-germs-choose-the-healthy-way"
+    },
+    {
+     "label": "Healthy Habits: Why Do We Do Them?",
+     "href": "why-we-do-healthy-habits"
+    }
+   ],
+   "title": "Brushing Teeth Worksheet for 1st Grade: Before, During, After | Free PDF",
+   "metaDescription": "Brushing teeth worksheet: seven picture cards with the words before, during and after. Circle when each step happens. Dental health for 1st grade, PDF."
+  },
+  {
+   "slug": "stop-the-germs-choose-the-healthy-way",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "stop-the-germs",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Germs Worksheet",
+   "h1": "Stop the Germs: Choose the Healthy Way",
+   "strand": "Health",
+   "slotTokens": [
+    "healthy-habits",
+    "grade-1"
+   ],
+   "p1": "Every row on this 1st grade page is a small choice between two ways of doing the same thing. There are four rows of two pictures, and the child circles the picture that stops germs from spreading. On the sheet shown a child coughs into an elbow beside a child coughing into the air; hands are scrubbed with soap under a running tap beside the same hands at the sink with the tap off and germs drawn on the palms; two children drink from one shared cup beside two children each with a cup of their own; and a used tissue lies on the floor by a bin beside a tissue dropped into the bin.",
+   "p2": "Germs are invisible, so children learn about them through actions they can see, and each row pairs a habit with its careless twin. The difference is often small, a raised arm or a cup of your own, and that is what makes children look. In the soap row the germs are drawn as small spiky dots on the hands that were not washed, which gives children a way to talk about what soap and water take away. The healthy picture sits on the left in two rows and on the right in the other two.",
+   "p3": "One sheet, four circles. Use it at the start of the cold season, or after a lesson on coughing and sneezing. Each row can become a quick act-it-out in front of the class. The next face asks why we do these habits at all, and the chart face lets children track the healthy ones at home for a week.",
+   "canonicalDeckSlug": "healthy-habits-g1404",
+   "carousel": [
+    {
+     "label": "Healthy Habits: What Does Each Child Use?",
+     "href": "healthy-habits-what-each-child-needs"
+    },
+    {
+     "label": "Hand Washing Steps",
+     "href": "hand-washing-steps"
+    },
+    {
+     "label": "Brushing Teeth: Before, During and After",
+     "href": "brushing-teeth-before-during-after"
+    },
+    {
+     "label": "Healthy Habits: Why Do We Do Them?",
+     "href": "why-we-do-healthy-habits"
+    }
+   ],
+   "title": "Stop the Germs Worksheet for 1st Grade | Free Printable PDF",
+   "metaDescription": "Stop the germs: four rows of two pictures. Circle the one that keeps germs from spreading, from coughing into an elbow to a tissue in the bin. 1st grade PDF."
+  },
+  {
+   "slug": "why-we-do-healthy-habits",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "why-do-we-do-healthy-habits",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Healthy Habits Worksheet",
+   "h1": "Healthy Habits: Why Do We Do Them?",
+   "strand": "Health",
+   "slotTokens": [
+    "healthy-habits",
+    "grade-2"
+   ],
+   "p1": "Five habit pictures stand on the left of this 2nd grade page and five reasons are written on the right, with a dot at each end for the line. On the sheet shown the habits are a child in a sun hat, a child running, a child washing hands at a sink, a child asleep under a moon and a child brushing teeth. The reasons read: it makes us fit, fast and strong; our body and brain rest and get ready for a new day; we do not get burnt on a hot, sunny day; it keeps our smile clean and bright; it gets rid of the germs we picked up when we touched things.",
+   "p2": "By second grade children know the habits; what they rarely have are the reasons, and a habit with a reason lasts longer. Reading each sentence and finding the picture it explains asks for real reading, since the sentences never name the habit. Nothing says brushing or sleeping; the child has to work it out from smile, rest or burnt. That makes this a good reading exercise as well as a health one.",
+   "p3": "One sheet, five lines, and no habit sits straight across from its own reason. Read the sentences together first with younger readers. Afterwards ask children to add a sixth habit of their own and write its reason under the page. The base page of the healthy habits family matches each habit to a thing; this face matches it to a why.",
+   "canonicalDeckSlug": "healthy-habits-g2379",
+   "carousel": [
+    {
+     "label": "Healthy Habits: What Does Each Child Use?",
+     "href": "healthy-habits-what-each-child-needs"
+    },
+    {
+     "label": "Hand Washing Steps",
+     "href": "hand-washing-steps"
+    },
+    {
+     "label": "Brushing Teeth: Before, During and After",
+     "href": "brushing-teeth-before-during-after"
+    },
+    {
+     "label": "Stop the Germs: Choose the Healthy Way",
+     "href": "stop-the-germs-choose-the-healthy-way"
+    }
+   ],
+   "title": "Why We Do Healthy Habits Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Why do we do healthy habits? Match five habit pictures to the sentence that gives the reason: sleep, exercise, sun hat, hand washing, brushing teeth. 2nd grade."
+  },
+  {
+   "slug": "healthy-habits-chart-for-the-week",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "healthy-habits-week-chart",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Healthy Habits Chart",
+   "h1": "Healthy Habits Chart for the Week",
+   "strand": "Health",
+   "slotTokens": [
+    "healthy-habits",
+    "grade-1"
+   ],
+   "p1": "A week runs across the top of this 1st grade chart, Sunday to Saturday, and five habits run down the side, each with a small picture: brush teeth, wash hands, move, drink water and go to sleep early. That makes 35 empty boxes. Each day the child puts a check in the box for every habit they did. There is nothing to get right or wrong; the page is a tracker, the kind children take home on Friday and bring back the next week.",
+   "p2": "A habit is something done again and again, and a chart makes the again and again visible. By Thursday children can see which rows are filling and which are not, and the gaps start the conversation better than any worksheet question. The five habits are the same ones the rest of the healthy habits family teaches, so the chart works as the follow-up to any of them. Move covers any active play, which keeps it fair for every child.",
+   "p3": "One sheet for one week. The last row asks about going to sleep early, not just sleeping, so agree as a class what early means before children tick it. Send it home with a short note to families, or keep it in the classroom and check the school-day habits together each morning. Print a fresh copy each week; comparing two weeks side by side is where the learning happens.",
+   "canonicalDeckSlug": "healthy-habits-g1405",
+   "carousel": [
+    {
+     "label": "Healthy Habits: What Does Each Child Use?",
+     "href": "healthy-habits-what-each-child-needs"
+    },
+    {
+     "label": "Hand Washing Steps",
+     "href": "hand-washing-steps"
+    },
+    {
+     "label": "Brushing Teeth: Before, During and After",
+     "href": "brushing-teeth-before-during-after"
+    },
+    {
+     "label": "Stop the Germs: Choose the Healthy Way",
+     "href": "stop-the-germs-choose-the-healthy-way"
+    }
+   ],
+   "title": "Healthy Habits Chart for the Week, 1st Grade | Free Printable PDF",
+   "metaDescription": "Healthy habits chart for the week: five habits by seven days, Sunday to Saturday. Brush teeth, wash hands, move, drink water, sleep early. Check each box. 1st grade."
+  },
+  {
+   "slug": "animal-homes-nest-hive-web-burrow",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "animal-homes",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Animal Homes Worksheet",
+   "h1": "Animal Homes",
+   "strand": "Science",
+   "slotTokens": [
+    "habitats",
+    "kindergarten"
+   ],
+   "p1": "Six animals on the left, six homes on the right, and a dot beside each for a line. This kindergarten page is about the homes animals make, not the wide places they live. On the sheet shown the animals are an ant, a rabbit, a spider, a bee, a bird and a beaver, and the homes are drawn as outlines: a spider web between two sticks, a beaver lodge of piled sticks in the water, a nest with three eggs on a branch, a burrow tunnel under the grass, a honeycomb inside a hollow tree and an anthill with its tunnels. The child draws a line from each animal to its home.",
+   "p2": "Young children love that a nest, a web and a burrow are all houses, and that each animal builds its own. The homes are drawn in section, so the child can see inside the burrow and the anthill, which makes them easier to tell apart. None of the animals sits across from its own home. Nest, hive, web and burrow are words children meet in picture books; lodge will be new to most, and the beaver is the one to introduce.",
+   "p3": "One sheet, six lines. Before handing it out, ask who has seen a spider web or a bird's nest. The page pairs well with a walk around the schoolyard to look for real homes. In the animal habitats family this is the kindergarten entry; the base page moves on to the larger places animals live, like the pond and the rainforest.",
+   "canonicalDeckSlug": "habitats-k383",
+   "carousel": [
+    {
+     "label": "Animal Habitats: Match the Animal",
+     "href": "animal-habitats-match-the-animal"
+    },
+    {
+     "label": "Who Does Not Live Here?",
+     "href": "animal-habitats-odd-one-out"
+    },
+    {
+     "label": "How Animals Adapt",
+     "href": "animal-adaptations-which-animal-is-it"
+    },
+    {
+     "label": "What Animals Need",
+     "href": "what-animals-need-food-and-a-home"
+    }
+   ],
+   "title": "Animal Homes Worksheet for Kindergarten: Nest, Hive, Web | Free PDF",
+   "metaDescription": "Animal homes worksheet: six animals and six homes, a nest, a hive, a web, a burrow, an anthill and a beaver lodge. Draw a line to each home. K PDF."
+  },
+  {
+   "slug": "animal-habitats-odd-one-out",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "who-does-not-live-here",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Animal Habitats Worksheet",
+   "h1": "Who Does Not Live Here?",
+   "strand": "Science",
+   "slotTokens": [
+    "habitats",
+    "grade-1"
+   ],
+   "p1": "Four habitats sit on the left of this 1st grade page, each with a block of four animal cards beside it, and in every block one animal is out of place. The child crosses it out. On the sheet shown the Arctic, with ice floes, an iceberg and snowflakes, holds a narwhal, a monkey, a seal and a walrus. The ocean holds a starfish, an octopus, a squirrel and a crab. The pond holds a giraffe, a swan, a beaver and a dragonfly. The rainforest holds a parrot, a toucan, a clownfish and a gorilla.",
+   "p2": "Crossing out the stranger is the reverse of matching, and it is harder: children have to check all four against the habitat before deciding. The odd animal always belongs somewhere else, and asking where, the monkey in the rainforest, the giraffe on the savanna, the fish in the ocean, the squirrel in a forest, doubles the learning. Not every stranger is a zoo animal: the squirrel lives in the park near most schools, so children cannot just look for the exotic one. The Arctic block is new compared with the base page and brings the narwhal and walrus, animals many children have never seen, so it is worth naming them before starting.",
+   "p3": "One sheet, four crosses, and the stranger does not sit in the same corner of every block. The squirrel is drawn with a very orange face, and some children will call it a fox; it is still the one that does not live in the ocean. Follow up by asking children to draw the four strangers in their right homes. The base page of the family matches animals to habitats with letters.",
+   "canonicalDeckSlug": "habitats-g1406",
+   "carousel": [
+    {
+     "label": "Animal Habitats: Match the Animal",
+     "href": "animal-habitats-match-the-animal"
+    },
+    {
+     "label": "Animal Homes",
+     "href": "animal-homes-nest-hive-web-burrow"
+    },
+    {
+     "label": "How Animals Adapt",
+     "href": "animal-adaptations-which-animal-is-it"
+    },
+    {
+     "label": "What Animals Need",
+     "href": "what-animals-need-food-and-a-home"
+    }
+   ],
+   "title": "Animal Habitats Odd One Out Worksheet for 1st Grade | Free PDF",
+   "metaDescription": "Animal habitats odd one out: four habitats, four animals each. Cross out the one that does not live there, from a monkey in the Arctic to a giraffe by a pond."
+  },
+  {
+   "slug": "animal-adaptations-which-animal-is-it",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "how-animals-adapt",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Animal Adaptations Worksheet",
+   "h1": "How Animals Adapt",
+   "strand": "Science",
+   "slotTokens": [
+    "habitats",
+    "grade-2"
+   ],
+   "p1": "Seven animal pictures across the top of this 2nd grade page carry the letters A to G: an elephant, a beaver, a camel, a monkey, a woodpecker, a toucan and a penguin. Six sentences below each end in an empty box, and the child writes the letter of the animal the sentence tells about. The sentences describe a body part and what it does: wings that are flippers, so it swims fast but cannot fly; big front teeth that cut down trees to build a home in the water; a long trunk that sucks up water and picks up food; a huge beak that picks fruit far out on thin branches; a strong, sharp beak that drills holes in tree trunks; and a hump that stores fat, so it can go a long time without food.",
+   "p2": "An adaptation is a body part that fits the way an animal lives, and every sentence here pairs the part with its job. That is the move second grade science asks for when children compare how animals are suited to their surroundings. There are two beaks in the list, one for fruit and one for drilling, so children have to read to the end of the sentence rather than stop at the word beak. There is also one animal too many, and the instruction says so: the monkey has no sentence.",
+   "p3": "One sheet, six letters. Read the instruction aloud so children know from the start that one animal is left over. The penguin sentence is a good one to discuss, because a bird that cannot fly surprises many children. A good extension is to write the missing monkey sentence together, about its long arms or its gripping hands. The habitat report face comes next in the family, where children write about a whole habitat themselves.",
+   "canonicalDeckSlug": "habitats-g2380",
+   "carousel": [
+    {
+     "label": "Animal Habitats: Match the Animal",
+     "href": "animal-habitats-match-the-animal"
+    },
+    {
+     "label": "Animal Homes",
+     "href": "animal-homes-nest-hive-web-burrow"
+    },
+    {
+     "label": "Who Does Not Live Here?",
+     "href": "animal-habitats-odd-one-out"
+    },
+    {
+     "label": "What Animals Need",
+     "href": "what-animals-need-food-and-a-home"
+    }
+   ],
+   "title": "Animal Adaptations Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Animal adaptations worksheet: seven lettered animals and six sentences about flippers, big front teeth, a trunk, two beaks and a hump. Write each animal's letter."
+  },
+  {
+   "slug": "what-animals-need-food-and-a-home",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "what-animals-need",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "What Animals Need Worksheet",
+   "h1": "What Animals Need",
+   "strand": "Science",
+   "slotTokens": [
+    "habitats",
+    "grade-1"
+   ],
+   "p1": "Each row on this 1st grade page starts with an animal, followed by two food pictures under a Food heading and two home pictures under a Home heading. The child circles one food and one home for every animal. A line above reminds the class that every animal needs food and a home. On the sheet shown the animals are a beaver, a spider, a bird and a rabbit. The foods on offer are a mosquito, a leaf and a tuft of grass; the homes are a beaver lodge, a spider web, a nest and a burrow.",
+   "p2": "Needs is a first grade science idea: animals need food and shelter to survive, and they find them where they live. Circling two things per row makes children think about the same animal twice, what it eats, then where it sleeps, and the same pictures come back in different rows so a picture cannot be circled by habit. The spider and the bird both eat the insect, which surprises children who expect every animal to eat something different.",
+   "p3": "One sheet, four rows, eight circles. The right food and the right home do not sit in the same column every time: on the sheet shown the food is on the right in the first two rows and on the left in the last two, and the home goes the other way round. This face follows animal homes in the family and leads into the habitat report, where children name the animals and plants of one place.",
+   "canonicalDeckSlug": "habitats-g1407",
+   "carousel": [
+    {
+     "label": "Animal Habitats: Match the Animal",
+     "href": "animal-habitats-match-the-animal"
+    },
+    {
+     "label": "Animal Homes",
+     "href": "animal-homes-nest-hive-web-burrow"
+    },
+    {
+     "label": "Who Does Not Live Here?",
+     "href": "animal-habitats-odd-one-out"
+    },
+    {
+     "label": "How Animals Adapt",
+     "href": "animal-adaptations-which-animal-is-it"
+    }
+   ],
+   "title": "What Animals Need Worksheet for 1st Grade: Food and a Home | Free PDF",
+   "metaDescription": "What animals need worksheet: four animals, each with two foods and two homes. Circle the food it eats and the home it lives in. Beaver to rabbit, 1st grade PDF."
+  },
+  {
+   "slug": "my-habitat-report",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "my-habitat-report",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Habitat Report Worksheet",
+   "h1": "My Habitat Report",
+   "strand": "Science",
+   "slotTokens": [
+    "habitats",
+    "grade-2"
+   ],
+   "p1": "One habitat fills the top of this 2nd grade page as a wide, empty picture, and the rest is a report for the child to complete. On the sheet shown the habitat is the ocean: a wavy surface, seaweed rising from a sandy floor and a few bubbles, with plenty of open water to draw in. Under the picture are three writing lines headed Animals that live here, one line headed A plant that grows here, and two word buttons, wet and dry. The child draws three animals into the ocean picture, writes their names, names a plant and circles the right word.",
+   "p2": "A report is the first time a child in this family produces the knowledge instead of choosing it. Three animals is enough to show real understanding and not so many that the drawing takes the whole lesson. The plant line is the stretch: few children think about plants when they think about the ocean, and seaweed is right there in the picture to discover. The word button is set so there is always an honest answer for the habitat shown.",
+   "p3": "One sheet, one habitat, three drawings and a few words. The ocean page offers one word pair, wet or dry, and the instruction asks for the one word that fits this habitat. Children can use a book or a class chart of ocean animals as a word bank. The report makes a good ending for the animal habitats family and a good display: pin the finished pages around a map of the world.",
+   "canonicalDeckSlug": "habitats-g2381",
+   "carousel": [
+    {
+     "label": "Animal Habitats: Match the Animal",
+     "href": "animal-habitats-match-the-animal"
+    },
+    {
+     "label": "Animal Homes",
+     "href": "animal-homes-nest-hive-web-burrow"
+    },
+    {
+     "label": "Who Does Not Live Here?",
+     "href": "animal-habitats-odd-one-out"
+    },
+    {
+     "label": "How Animals Adapt",
+     "href": "animal-adaptations-which-animal-is-it"
+    }
+   ],
+   "title": "My Habitat Report Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "My habitat report: one habitat picture to draw three animals into, lines for their names and a plant, and a wet or dry choice to circle. 2nd grade PDF."
+  },
+  {
+   "slug": "heavy-or-light-sink-or-float-scale-test",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "heavy-or-light-sink-or-float-scale",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Sink or Float Worksheet",
+   "h1": "Heavy or Light? Sink or Float on a Balance Scale",
+   "strand": "Science",
+   "slotTokens": [
+    "sink-or-float",
+    "grade-1"
+   ],
+   "p1": "Four balance scales stack down this 1st grade page, and each weighs two things against each other. The tipped arm shows which is heavier. The child circles the thing that floats in water. On the sheet shown a potato outweighs a pine cone; an apple outweighs a nail; a rock outweighs a feather; and a thick log outweighs a small hammer. In two of the rows the thing that floats is the lighter one, the pine cone and the feather. In the other two it is the heavier one: the apple floats while the nail sinks, and the big log floats while the hammer goes down.",
+   "p2": "Almost every child believes heavy things sink. This page does not argue with that; it lets the scale and the water argue for it. Once the apple and the log have floated, children have to find another reason, and the conversation moves toward what things are made of and how much space they take up, which is where later grades take it. The page does not need the word density, and should not use it.",
+   "p3": "One sheet, four circles, and the floating object sits on the right in the first two rows and on the left in the last two. It is most convincing with the real objects: a kitchen scale or a classroom balance and a tub of water will do. Test the apple and the nail last. The base page of the sink or float family predicts and tests six objects; this face adds the scale.",
+   "canonicalDeckSlug": "sink-or-float-g1408",
+   "carousel": [
+    {
+     "label": "Sink or Float Experiment: Predict and Test",
+     "href": "sink-or-float-experiment-predict-and-test"
+    },
+    {
+     "label": "Make Clay Float: A Change the Shape Experiment",
+     "href": "make-clay-float-change-the-shape"
+    },
+    {
+     "label": "Floating Facts: Sink or Float True or False",
+     "href": "why-things-float-true-or-false"
+    },
+    {
+     "label": "Draw What Floats and Sinks: A Sink or Float Drawing",
+     "href": "draw-what-floats-and-sinks"
+    }
+   ],
+   "title": "Heavy or Light? Sink or Float Scale Worksheet, 1st Grade | Free PDF",
+   "metaDescription": "Heavy or light? Four balance scales each weigh two objects. Circle the one that floats: sometimes the heavy one, sometimes the light one. 1st grade PDF."
+  },
+  {
+   "slug": "make-clay-float-change-the-shape",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "make-clay-float-change-the-shape",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Sink or Float Worksheet",
+   "h1": "Make Clay Float: A Change the Shape Experiment",
+   "strand": "Science",
+   "slotTokens": [
+    "sink-or-float",
+    "grade-2"
+   ],
+   "p1": "A key across the top shows what floats and sinks look like in a tank. Under the heading Same clay, different shapes, the same lump of modeling clay appears twice: in one panel an arrow turns it into an open boat with a flag; in the other an arrow rolls it into a ball. Under each is a small tank with two dashed rings, and the child colors the ring where that shape ends up, at the surface or on the bottom. The middle strip, headed Same steel, different shapes, shows a nail beside a big steel ship, and the child circles the one that floats. The bottom of the page is one large tank of water where the child draws their own clay boat.",
+   "p2": "Shape, not material, is the idea. A ball of clay sinks and the same clay pressed into a thin, open boat floats, and a steel ship floats while a steel nail does not. Second graders are ready for this because they have already seen that heavy things can float; now they can make it happen with their own hands. The ship and the nail make the same point on a larger scale, which gives children a way to talk about real boats.",
+   "p3": "Give each child a small piece of clay and a cup of water before the page. The lump, the boat and the ball are drawn at the same scale, so the page itself shows that the amount of clay stays the same. The big tank at the bottom invites a labeled drawing: where the boat sits, how thin the walls are. Pair it with the true or false face, where the same claims come back as sentences.",
+   "canonicalDeckSlug": "sink-or-float-g2382",
+   "carousel": [
+    {
+     "label": "Sink or Float Experiment: Predict and Test",
+     "href": "sink-or-float-experiment-predict-and-test"
+    },
+    {
+     "label": "Heavy or Light? Sink or Float on a Balance Scale",
+     "href": "heavy-or-light-sink-or-float-scale-test"
+    },
+    {
+     "label": "Floating Facts: Sink or Float True or False",
+     "href": "why-things-float-true-or-false"
+    },
+    {
+     "label": "Draw What Floats and Sinks: A Sink or Float Drawing",
+     "href": "draw-what-floats-and-sinks"
+    }
+   ],
+   "title": "Make Clay Float Worksheet: Change the Shape, 2nd Grade | Free PDF",
+   "metaDescription": "Make clay float: a lump of clay made into a boat and into a ball, a nail beside a steel ship, and a big tank to draw your own clay boat. 2nd grade experiment."
+  },
+  {
+   "slug": "why-things-float-true-or-false",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "why-things-float-true-or-false",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Sink or Float Worksheet",
+   "h1": "Floating Facts: Sink or Float True or False",
+   "strand": "Science",
+   "slotTokens": [
+    "sink-or-float",
+    "grade-2"
+   ],
+   "p1": "Six numbered sentences fill this 2nd grade page, each followed by two buttons, true and false. A shelf at the top shows seven labeled pictures: a nail, a feather, a log, a potato, a pumpkin, a ship and an apple. On the sheet shown the sentences are: a heavy pumpkin floats; some heavy things float; all light things float; a steel ship sinks; a feather sinks; an apple floats, but a potato sinks. The child reads each one and circles true or false. Three are true and three are false, and the false ones are the beliefs children bring with them.",
+   "p2": "The shelf is there so that every sentence can be checked against something on the page. The log and the pumpkin are heavy and float, which settles some heavy things float; the nail is small and light and still sinks, which is the proof against all light things float. The ship answers the steel ship sentence, and the apple and the potato are the pair to argue about, since both are round, both are food and only one floats. Asking children to point at the picture that proves each answer turns a quiz into a science conversation.",
+   "p3": "One sheet, six circles. It works well the day after the scale page or the change the shape page, when children have seen things float and sink with their own eyes, and it can also stand alone because the evidence is drawn on the shelf. Read the sentences aloud for children still building reading stamina. Any sentence that splits the class is a question worth testing with a tub of water at the front of the room.",
+   "canonicalDeckSlug": "sink-or-float-g2383",
+   "carousel": [
+    {
+     "label": "Sink or Float Experiment: Predict and Test",
+     "href": "sink-or-float-experiment-predict-and-test"
+    },
+    {
+     "label": "Heavy or Light? Sink or Float on a Balance Scale",
+     "href": "heavy-or-light-sink-or-float-scale-test"
+    },
+    {
+     "label": "Make Clay Float: A Change the Shape Experiment",
+     "href": "make-clay-float-change-the-shape"
+    },
+    {
+     "label": "Draw What Floats and Sinks: A Sink or Float Drawing",
+     "href": "draw-what-floats-and-sinks"
+    }
+   ],
+   "title": "Floating Facts: Sink or Float True or False, 2nd Grade | Free PDF",
+   "metaDescription": "Floating facts, true or false: six sentences about a pumpkin, a feather, a steel ship and heavy and light things. Circle true or false. 2nd grade PDF."
+  },
+  {
+   "slug": "draw-what-floats-and-sinks",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "draw-what-floats-and-sinks",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Sink or Float Worksheet",
+   "h1": "Draw What Floats and Sinks: A Sink or Float Drawing",
+   "strand": "Science",
+   "slotTokens": [
+    "sink-or-float",
+    "kindergarten"
+   ],
+   "p1": "A single big tank of water fills this kindergarten page. Two labels on the left say floats and sinks, with a small picture of each, and four dashed boxes wait inside the tank: two sit across the wavy surface and two rest on the sandy bottom. The child draws two things that float in the boxes on the water and two things that sink in the boxes at the bottom. There are no pictures to copy and no words to read beyond the labels.",
+   "p2": "Kindergartners learn sink and float by playing in water long before they can write about it, and drawing is how they show what they noticed. Because the child chooses the objects, the page reveals what they believe: a rubber duck and a leaf on top, a stone and a key at the bottom are the classic answers, and a heavy drawing in the float box is worth a question. Four boxes keep it short enough for a five-year-old to finish.",
+   "p3": "One sheet, four drawings. It works best straight after water play, with the real objects still dripping on a towel, so children draw what they saw rather than guess. Ask each child to tell you what they drew and write the words under their pictures. For older children the base page of the sink or float family adds a guess and a test for six named objects.",
+   "canonicalDeckSlug": "sink-or-float-k384",
+   "carousel": [
+    {
+     "label": "Sink or Float Experiment: Predict and Test",
+     "href": "sink-or-float-experiment-predict-and-test"
+    },
+    {
+     "label": "Heavy or Light? Sink or Float on a Balance Scale",
+     "href": "heavy-or-light-sink-or-float-scale-test"
+    },
+    {
+     "label": "Make Clay Float: A Change the Shape Experiment",
+     "href": "make-clay-float-change-the-shape"
+    },
+    {
+     "label": "Floating Facts: Sink or Float True or False",
+     "href": "why-things-float-true-or-false"
+    }
+   ],
+   "title": "Draw What Floats and Sinks Worksheet for Kindergarten | Free PDF",
+   "metaDescription": "Draw what floats and sinks: one big tank of water, two dashed boxes at the surface and two on the bottom. Draw two floaters and two sinkers. Kindergarten."
+  },
+  {
+   "slug": "sink-or-float-lab-report",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "sink-or-float-investigation-lab-report",
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Sink or Float Lab Report",
+   "h1": "Sink or Float Investigation: My Lab Report",
+   "strand": "Science",
+   "slotTokens": [
+    "sink-or-float",
+    "grade-3"
+   ],
+   "p1": "Four numbered boxes turn this 3rd grade page into a small lab report. Box 1, My question, offers two investigations with a checkbox each: does an orange float with its peel, and does it float without its peel; and how many cubes can a clay boat carry before it sinks. Box 2, I think, has two writing lines for a prediction. Box 3, What happened, has two empty tanks to draw the results and two lines to describe them. Box 4, I learned, starts the sentence for the child with Now I know that.",
+   "p2": "Third grade science asks children to plan and carry out fair tests, and this is the shape every later lab report takes: question, prediction, observation, conclusion. Both questions have surprising answers. An orange floats in its peel and sinks without it, because the peel is full of air, and a clay boat holds more cubes than children expect before water comes over the side. Choosing the question gives the child ownership of the test.",
+   "p3": "You need an orange and a bowl of water, or clay and some unit cubes. Each question is really two tests, the orange with its peel and without it, or the clay boat floating and then sinking under its load, so there is one tank for each result; ask children to write a word under each tank so a reader knows which is which. The sentence starter in the last box keeps conclusions honest and short. This is the most open page of the sink or float family, the one to use once children have predicted, tested and drawn with the others.",
+   "canonicalDeckSlug": "sink-or-float-g3400",
+   "carousel": [
+    {
+     "label": "Sink or Float Experiment: Predict and Test",
+     "href": "sink-or-float-experiment-predict-and-test"
+    },
+    {
+     "label": "Heavy or Light? Sink or Float on a Balance Scale",
+     "href": "heavy-or-light-sink-or-float-scale-test"
+    },
+    {
+     "label": "Make Clay Float: A Change the Shape Experiment",
+     "href": "make-clay-float-change-the-shape"
+    },
+    {
+     "label": "Floating Facts: Sink or Float True or False",
+     "href": "why-things-float-true-or-false"
+    }
+   ],
+   "title": "Sink or Float Lab Report Worksheet for 3rd Grade | Free Printable PDF",
+   "metaDescription": "Sink or float lab report: choose a question, write what you think, test it, draw what happened and finish the sentence Now I know that. 3rd grade PDF."
+  },
+  {
+   "slug": "cursive-capital-letters-write-the-names",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "cursive-capitals-with-names",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Cursive Capitals Worksheet",
+   "h1": "Cursive Capital Letters: Write the Names",
+   "strand": "Handwriting",
+   "slotTokens": [
+    "cursive-writing",
+    "grade-2"
+   ],
+   "p1": "Five cursive capital letters open five pairs of lines on this 2nd grade page, each followed by a name that begins with it. On the sheet shown the capitals are M, B, E, L and A, and the names are Mia, Ben, Emma, Leo and Anna. The first line of each pair starts with a dark model capital at the margin, then two grey copies of the capital and the grey name to trace. The second line is empty for the child to write the capital and the name again. A tag in the corner names the model: traditional cursive.",
+   "p2": "Capitals are where cursive looks least like print. A cursive capital E is two open curves, an L starts with a loop at the top, and an A is closed like a large lowercase a, so children cannot rely on what they already know. Writing each capital inside a name shows why capitals matter at all: names always start with one, and a child's own name is the first thing most children want to write in cursive. The names are short so the join from capital to lowercase stays in focus.",
+   "p3": "One sheet, five capitals, five names. Look closely at each name on the page: some capitals join straight into the next letter and some stand apart, and children should copy what the model does. When the page is done, children can write their own name in cursive on the back. The base page of the cursive writing family covers lowercase letters first.",
+   "canonicalDeckSlug": "cursive-writing-g2384",
+   "carousel": [
+    {
+     "label": "Cursive Letters: i, t, u and w",
+     "href": "cursive-letters-i-t-u-w"
+    },
+    {
+     "label": "Cursive Connecting Letters: Joining Two Letters",
+     "href": "cursive-connecting-letters-joining-two-letters"
+    },
+    {
+     "label": "Cursive Words to Write with Pictures",
+     "href": "cursive-words-to-write-with-pictures"
+    },
+    {
+     "label": "Reading Cursive: Match Each Word to Its Picture",
+     "href": "reading-cursive-match-each-word-to-its-picture"
+    }
+   ],
+   "title": "Cursive Capital Letters Worksheet for 2nd Grade | Free Printable PDF",
+   "metaDescription": "Cursive capital letters worksheet: five capitals, each traced twice and then in a first name, like Mia, Ben and Emma. Write them below. 2nd grade PDF."
+  },
+  {
+   "slug": "cursive-connecting-letters-joining-two-letters",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "cursive-letter-connections",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Cursive Connecting Letters",
+   "h1": "Cursive Connecting Letters: Joining Two Letters",
+   "strand": "Handwriting",
+   "slotTokens": [
+    "cursive-writing",
+    "grade-2"
+   ],
+   "p1": "Joins are the whole subject of this 2nd grade page. Five pairs of joined letters start five pairs of ruled lines, and each pair is followed by a word that contains it. On the sheet shown the pairs are br in bread, wa in wash, oa in boat, ve in five and ch in chair. The first line of each pair has a dark model at the margin, then the pair twice in grey and the word in grey to trace; the second line is empty, and the child writes the pair and the word again on it. The model is traditional cursive.",
+   "p2": "Most cursive letters join from the baseline, but four of these pairs do not. After b, w, o and v the pen leaves the letter high, at the midline, and has to travel across before dropping into the next letter. That high join is the one children get wrong, pulling it down to the baseline and changing the shape of the next letter. Practising the pair on its own, then inside a real word, fixes the movement before it becomes a habit. The ch pair is the ordinary baseline join, there for contrast.",
+   "p3": "One sheet, five pairs, five words. Watch the oa in boat: if the join drops, the a starts to look like a u. Children can make a list of other words with the same pairs and write them on the back. In the cursive writing family this page sits between single letters and whole words; the words face comes next.",
+   "canonicalDeckSlug": "cursive-writing-g2385",
+   "carousel": [
+    {
+     "label": "Cursive Letters: i, t, u and w",
+     "href": "cursive-letters-i-t-u-w"
+    },
+    {
+     "label": "Cursive Capital Letters: Write the Names",
+     "href": "cursive-capital-letters-write-the-names"
+    },
+    {
+     "label": "Cursive Words to Write with Pictures",
+     "href": "cursive-words-to-write-with-pictures"
+    },
+    {
+     "label": "Reading Cursive: Match Each Word to Its Picture",
+     "href": "reading-cursive-match-each-word-to-its-picture"
+    }
+   ],
+   "title": "Cursive Connecting Letters Worksheet, 2nd Grade: Letter Pairs | Free PDF",
+   "metaDescription": "Cursive connecting letters worksheet: five joined pairs like br, wa, oa and ve, each traced twice and inside a word. Write them below. 2nd grade PDF."
+  },
+  {
+   "slug": "cursive-words-to-write-with-pictures",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "cursive-words-with-pictures",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Cursive Words Worksheet",
+   "h1": "Cursive Words to Write with Pictures",
+   "strand": "Handwriting",
+   "slotTokens": [
+    "cursive-writing",
+    "grade-2"
+   ],
+   "p1": "Each word on this 2nd grade page comes with a picture of what it names. On the sheet shown there are four: a pear, a cat, a fish and a horse, each in a small frame at the margin. The first ruled line shows the word written in dark cursive, then the same word in grey to trace; the second line is empty for the child to write the word again. The instruction gives one order for both: join all the letters first, add the dots and crosses last, and write the word the same way on the line below.",
+   "p2": "A word is where cursive starts to pay off: four or five letters written in one movement are quicker than the same letters printed, and children feel the difference. Leaving the dot on the i in fish and the cross on the t in cat to the end is the habit that keeps the pencil moving. Pear and horse are there for the cursive r, which looks nothing like its printed form, and horse adds the cursive s as well; fish brings the tall looped f that dips below the line. The pictures make the page friendly and let even a reluctant reader know what the word says.",
+   "p3": "One sheet, four words, and every ruled line on the page belongs to one of them. Children who finish can write a word of their own choice on the back. Picture words are a good bridge to the reading face, where children read cursive words and match them to pictures, and to copying whole sentences.",
+   "canonicalDeckSlug": "cursive-writing-g2386",
+   "carousel": [
+    {
+     "label": "Cursive Letters: i, t, u and w",
+     "href": "cursive-letters-i-t-u-w"
+    },
+    {
+     "label": "Cursive Capital Letters: Write the Names",
+     "href": "cursive-capital-letters-write-the-names"
+    },
+    {
+     "label": "Cursive Connecting Letters: Joining Two Letters",
+     "href": "cursive-connecting-letters-joining-two-letters"
+    },
+    {
+     "label": "Reading Cursive: Match Each Word to Its Picture",
+     "href": "reading-cursive-match-each-word-to-its-picture"
+    }
+   ],
+   "title": "Cursive Words Worksheet for 2nd Grade: Picture Words | Free Printable PDF",
+   "metaDescription": "Cursive words worksheet: four picture words, pear, cat, fish and horse, written in dark cursive, then traced in grey and written again. 2nd grade PDF."
+  },
+  {
+   "slug": "reading-cursive-match-each-word-to-its-picture",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "reading-cursive",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Reading Cursive Worksheet",
+   "h1": "Reading Cursive: Match Each Word to Its Picture",
+   "strand": "Handwriting",
+   "slotTokens": [
+    "cursive-writing",
+    "grade-2"
+   ],
+   "p1": "Nothing on this 2nd grade page is written by the child. Six words in large traditional cursive sit in cards on the left, and six pictures sit on the right, each with a dot for the line. On the sheet shown the words are tiger, lion, apple, train, lemon and owl, and the pictures, in a different order, are a toy train, a lemon, a lion, an owl, an apple and a tiger. The child reads each cursive word and draws a line to its picture.",
+   "p2": "Children who can write a little cursive often cannot yet read it, especially when a letter looks nothing like its printed form. The cursive r in tiger and train is the usual stumbling block, and it is here twice. The words are also paired on purpose: tiger and train both begin with t, and lion and lemon both begin with the tall looped l, so a child has to read past the first letter. Being able to read cursive matters beyond the handwriting lesson: teachers' notes, birthday cards and old letters all use it.",
+   "p3": "One sheet, six lines, and no picture sits straight across from its own word. It makes a quick warm-up before a writing lesson, or a check on reading for children who have finished writing a cursive page. Once they have matched the words, children can copy each one under its picture. This is the only reading page of the cursive writing family; every other face asks the child to write.",
+   "canonicalDeckSlug": "cursive-writing-g2387",
+   "carousel": [
+    {
+     "label": "Cursive Letters: i, t, u and w",
+     "href": "cursive-letters-i-t-u-w"
+    },
+    {
+     "label": "Cursive Capital Letters: Write the Names",
+     "href": "cursive-capital-letters-write-the-names"
+    },
+    {
+     "label": "Cursive Connecting Letters: Joining Two Letters",
+     "href": "cursive-connecting-letters-joining-two-letters"
+    },
+    {
+     "label": "Cursive Words to Write with Pictures",
+     "href": "cursive-words-to-write-with-pictures"
+    }
+   ],
+   "title": "Reading Cursive Worksheet for 2nd Grade: Match the Words | Free PDF",
+   "metaDescription": "Reading cursive worksheet: six words in cursive and six pictures. Read each word and draw a line to its picture: tiger, lion, apple, train, lemon, owl. 2nd grade."
+  },
+  {
+   "slug": "cursive-sentences-to-copy",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "copy-a-sentence-in-cursive",
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Cursive Sentences Worksheet",
+   "h1": "Cursive Sentences to Copy",
+   "strand": "Handwriting",
+   "slotTokens": [
+    "cursive-writing",
+    "grade-3"
+   ],
+   "p1": "Three short sentences in ordinary print head three bands on this 3rd grade page, and each band has ruled lines below it for the child's cursive. On the sheet shown the sentences are: We like to read books. Tom has a toy boat. My dog can run fast. Only the first is given in cursive too, as grey writing to trace on its first line; the other two the child writes from the printed version alone. That step, reading print and writing it in cursive without a model, is the whole point of the page.",
+   "p2": "Copying from print is how cursive gets used in the third grade, for spelling lists, for copying from the board, for writing a sentence neatly. It asks the child to change every letter on the way from eye to pencil, and to keep the spaces between words while the letters inside them stay joined. The capital letters and the full stops are part of the task: We, Tom and My start with three different capitals, and each sentence ends with a period.",
+   "p3": "One sheet, three sentences. The first sentence gets three ruled lines, its grey trace on the first and two empty lines for the child's own copy, and the other two sentences get two lines each, so every sentence is copied twice, just as the instruction says. Children who finish can write a fourth sentence of their own on the back. This is the last face of the cursive writing family and the only one for 3rd grade.",
+   "canonicalDeckSlug": "cursive-writing-g3401",
+   "carousel": [
+    {
+     "label": "Cursive Letters: i, t, u and w",
+     "href": "cursive-letters-i-t-u-w"
+    },
+    {
+     "label": "Cursive Capital Letters: Write the Names",
+     "href": "cursive-capital-letters-write-the-names"
+    },
+    {
+     "label": "Cursive Connecting Letters: Joining Two Letters",
+     "href": "cursive-connecting-letters-joining-two-letters"
+    },
+    {
+     "label": "Cursive Words to Write with Pictures",
+     "href": "cursive-words-to-write-with-pictures"
+    }
+   ],
+   "title": "Cursive Sentences to Copy Worksheet for 3rd Grade | Free Printable PDF",
+   "metaDescription": "Cursive sentences to copy: three short printed sentences to write in cursive, the first traced in grey, with ruled lines below each. 3rd grade printable PDF."
   }
  ]
 }

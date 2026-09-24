@@ -135139,6 +135139,1242 @@
    ],
    "title": "Famiglie di parole nelle frasi – Classe terza da stampare PDF gratis",
    "metaDescription": "Due famiglie con la radice gioc e dent, quattro parole ciascuna, giocatore, giocattolo, dentista, dentiera e le altre, da scrivere in otto frasi. PDF gratis."
+  },
+  {
+   "slug": "storie-in-sequenza-numera-le-vignette",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "base",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda storie in sequenza · infanzia",
+   "h1": "Storie in sequenza: numera le vignette",
+   "strand": "Ascolto e parlato",
+   "standard": "RL.K.2",
+   "slotTokens": [
+    "storie-in-sequenza",
+    "infanzia"
+   ],
+   "p1": "Due fili da bucato attraversano la pagina e su ciascuno sono appese con le mollette quattro vignette mescolate. Nella prima storia c'è una banana su un piattino: intera, con una striscia di buccia abbassata, aperta con tre strisce che pendono e infine ridotta alla sola buccia stesa sul piatto. Nella seconda, sul marciapiede grigio, compare a poco a poco il gioco della campana: nessuna casella, poi due, quattro, sette, mentre il gessetto si accorcia. Sotto ogni vignetta c'è un riquadro tratteggiato per il numero. Il bambino della scuola dell'infanzia guarda che cosa cambia da un'immagine all'altra e scrive 1, 2, 3 e 4. Non c'è niente da leggere: tutto si vede.",
+   "p2": "Riordinare una storia per immagini vuol dire capire che il tempo passa da una vignetta all'altra e trovare l'indizio che lo dimostra: la buccia che si apre, la campana che si allunga. Nella scuola dell'infanzia è un lavoro del campo di esperienza «I discorsi e le parole»: raccontare, usare prima, poi, alla fine. Chiedete di giustificare ogni scelta: «Questa va per prima perché la banana è ancora chiusa». Il gessetto che si consuma è l'indizio più fine della seconda storia; mostratelo a chi esita tra due vignette.",
+   "p3": "Una pagina, otto vignette, otto numeri da scrivere e nessuna forbice. Chi preferisce può ritagliare le vignette e appenderle a un vero filo in classe, per un riordino collettivo. Sono storie di vita quotidiana; i cicli di vita, le abitudini d'igiene e le sequenze di forme e colori hanno schede proprie. Le altre pagine della famiglia cambiano un solo elemento: ritagliare e incollare con prima, dopo, infine, indovinare la vignetta che segue, disegnare lo svolgimento, collegare le frasi in classe prima e scrivere la storia in classe seconda.",
+   "canonicalDeckSlug": "storie-in-sequenza-k379",
+   "carousel": [
+    {
+     "label": "Storie in sequenza da ritagliare: prima, dopo, infine",
+     "href": "storie-in-sequenza-da-ritagliare-prima-dopo-infine"
+    },
+    {
+     "label": "Storie in sequenza: che cosa succede dopo?",
+     "href": "storie-in-sequenza-che-cosa-succede-dopo"
+    },
+    {
+     "label": "Inizio, svolgimento e conclusione di una storia",
+     "href": "inizio-svolgimento-e-conclusione-di-una-storia"
+    },
+    {
+     "label": "Storie in sequenza: numera le frasi e collegale alle vignette",
+     "href": "storie-in-sequenza-frasi-da-numerare-e-collegare"
+    }
+   ],
+   "title": "Storie in sequenza: numera le vignette – Infanzia da stampare PDF gratis",
+   "metaDescription": "Due storie di quattro vignette appese a un filo: una banana che si sbuccia e il gioco della campana disegnato col gesso. Si scrive 1, 2, 3, 4. PDF gratis."
+  },
+  {
+   "slug": "igiene-personale-e-buone-abitudini-infanzia",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "base",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda igiene e buone abitudini · infanzia",
+   "h1": "Igiene personale e buone abitudini: che cosa usa ogni bambino?",
+   "strand": "Educazione alla salute",
+   "slotTokens": [
+    "igiene-e-buone-abitudini",
+    "infanzia"
+   ],
+   "p1": "In alto, cinque cartelli appesi a una barra mostrano cinque bambini: uno in pigiama sotto la luna e le stelle, uno che si lava le mani al lavandino, uno in piedi sotto un sole che scotta, uno con i capelli arruffati e la mano sulla testa, uno che si lava i denti. In basso, su una mensola, cinque oggetti in un altro ordine: un cappello, un letto, uno spazzolino, una saponetta e un pettine. Sotto ogni cartello e sopra ogni oggetto c'è un pallino arancione. Il bambino della scuola dell'infanzia traccia una linea da ogni bambino all'oggetto che gli serve. Non c'è nulla da leggere.",
+   "p2": "L'igiene personale si impara collegando un gesto a un oggetto: il sapone per le mani, lo spazzolino per i denti, il pettine per i capelli. La scheda allarga il discorso alle abitudini che proteggono il corpo, il letto per il riposo e il cappello contro il sole. Nella scuola dell'infanzia questi temi appartengono al campo di esperienza «Il corpo e il movimento» e sono il primo passo di quella che in primaria diventa educazione alla salute. Chiedete sempre il perché: «Serve il cappello perché il sole scotta».",
+   "p3": "Il bambino con la mano sulla testa è il più ambiguo: qualcuno dirà che si gratta. È il momento giusto per mimare insieme il gesto del pettine. Tra le due file la pagina lascia molto spazio, così le linee restano chiare anche quando si incrociano. Le altre schede della famiglia approfondiscono un solo gesto alla volta: le fasi del lavaggio delle mani, lo spazzolino prima, durante e dopo, i germi da fermare, il perché delle abitudini e la tabella della settimana.",
+   "canonicalDeckSlug": "igiene-e-buone-abitudini-k380",
+   "carousel": [
+    {
+     "label": "Come lavarsi le mani: numera le cinque fasi",
+     "href": "come-lavarsi-le-mani-numera-le-fasi"
+    },
+    {
+     "label": "Lavarsi i denti: prima, durante e dopo",
+     "href": "lavarsi-i-denti-prima-durante-e-dopo"
+    },
+    {
+     "label": "Stop ai germi: tossire nel gomito e altri gesti sani",
+     "href": "stop-ai-germi-tossire-nel-gomito"
+    },
+    {
+     "label": "Buone abitudini per stare bene: perché le facciamo?",
+     "href": "perche-le-buone-abitudini-ci-fanno-stare-bene"
+    }
+   ],
+   "title": "Igiene personale e buone abitudini – Infanzia da stampare PDF gratis",
+   "metaDescription": "Cinque bambini e cinque oggetti da collegare con una linea: il letto, il sapone, il cappello per il sole, il pettine e lo spazzolino. Per l'infanzia. PDF gratis."
+  },
+  {
+   "slug": "gli-ambienti-degli-animali-chi-vive-dove",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "base",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda ambienti degli animali · classe prima",
+   "h1": "Gli ambienti degli animali: chi vive dove?",
+   "strand": "Scienze",
+   "slotTokens": [
+    "ambienti-degli-animali",
+    "classe-prima"
+   ],
+   "p1": "In alto quattro paesaggi incorniciati, ognuno con una lettera arancione e un nome: A Stagno, con le tife e una ninfea; B Savana, con l'acacia e l'erba secca; C Foresta pluviale, con tronchi e grandi foglie; D Bosco, con latifoglie e abeti. Sotto, otto animali a colori in due file: zebra, pappagallo, cerbiatto, castoro, struzzo, cigno, gorilla e libellula. Sotto ogni animale c'è un riquadro tratteggiato. Il bambino guarda l'animale, pensa a dove vive e scrive la lettera del suo ambiente. Allo stagno vanno tre animali, alla savana e alla foresta pluviale due, al bosco uno solo.",
+   "p2": "Collegare un animale al suo ambiente è il primo passo verso l'idea che ogni essere vivente dipende dal luogo in cui vive, un tema che le Indicazioni nazionali per le scienze propongono fin dalla classe prima. La lettera al posto del nome rende la scheda accessibile anche a chi scrive ancora poco. Il castoro è il caso da discutere: in Italia i bambini lo conoscono appena, e qualcuno lo metterà nel bosco. La sua casa però sta nell'acqua; accettate il bosco se il bambino lo motiva, e raccontate la diga.",
+   "p3": "Otto animali, quattro lettere, un quarto d'ora di lavoro. La scheda funziona bene dopo un'uscita al parco o a uno stagno. Rispetto alle altre pagine della famiglia, che lavorano sulle case degli animali, sull'intruso, sui bisogni e sull'adattamento, questa è quella che presenta gli ambienti con il loro nome. Chi vuole andare oltre può disegnare un quinto ambiente, il mare o il polo, e cercare tre animali che ci vivono.",
+   "canonicalDeckSlug": "ambienti-degli-animali-g1398",
+   "carousel": [
+    {
+     "label": "Le case degli animali: nido, tana e alveare",
+     "href": "le-case-degli-animali-nido-tana-e-alveare"
+    },
+    {
+     "label": "Gli ambienti degli animali: trova l'intruso",
+     "href": "trova-l-intruso-negli-ambienti-degli-animali"
+    },
+    {
+     "label": "L'adattamento degli animali all'ambiente",
+     "href": "l-adattamento-degli-animali-all-ambiente"
+    },
+    {
+     "label": "Di che cosa hanno bisogno gli animali: cibo e casa",
+     "href": "di-che-cosa-hanno-bisogno-gli-animali-per-vivere"
+    }
+   ],
+   "title": "Gli ambienti degli animali: chi vive dove? – Classe prima, PDF gratis",
+   "metaDescription": "Quattro ambienti con una lettera, stagno, savana, foresta pluviale e bosco, e otto animali dalla zebra al castoro: sotto ognuno si scrive la lettera giusta. PDF gratis."
+  },
+  {
+   "slug": "esperimento-galleggia-o-affonda-prevedo-e-verifico",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "base",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda galleggia o affonda · classe prima",
+   "h1": "Esperimento galleggia o affonda: prevedo e verifico",
+   "strand": "Scienze",
+   "slotTokens": [
+    "esperimento-galleggia-o-affonda",
+    "classe-prima"
+   ],
+   "p1": "In alto una legenda con due vaschette: in una un oggetto resta a galla accanto alla parola galleggia, nell'altra cade sul fondo accanto ad affonda. Sotto, sei righe, ognuna con un oggetto disegnato e il suo nome: bullone, forbici, pallone, pinze, zucca e barchetta. Per ogni oggetto ci sono due vaschette, sotto le intestazioni Prevedo e Verifico, e in ciascuna due cerchi tratteggiati, uno sul pelo dell'acqua e uno sul fondo. L'ultima colonna, Sorpresa?, ha una stella. Il bambino colora un cerchio prima della prova, uno dopo, e la stella se il risultato non era quello atteso.",
+   "p2": "È il metodo sperimentale ridotto a una riga: penso, provo, confronto. La stella della sorpresa è la parte più preziosa, perché dà valore all'errore: chi prevede che la zucca affondi, perché è grande e pesante, e poi la vede galleggiare, ha appena imparato qualcosa. Tre oggetti vanno a fondo e tre restano a galla, così nessuna colonna si riempie a caso. Osservare, fare ipotesi e verificarle è ciò che le scienze chiedono fin dalla classe prima: qui basta una bacinella d'acqua.",
+   "p3": "Servono una bacinella o una vaschetta trasparente e gli oggetti veri, anche sostituiti con ciò che c'è in classe; la zucca può diventare un'arancia. La scheda si compila in due tempi: prima tutte le previsioni, poi tutte le prove. Rispetto alle altre pagine della famiglia, che lavorano sul peso con la bilancia, sulla forma della plastilina o sul vero e falso, questa è l'esperimento di partenza. In classe terza la famiglia arriva alla relazione scritta.",
+   "canonicalDeckSlug": "esperimento-galleggia-o-affonda-g1399",
+   "carousel": [
+    {
+     "label": "Pesante o leggero? Galleggia o affonda, con la bilancia a piatti",
+     "href": "pesante-o-leggero-galleggia-o-affonda-con-la-bilancia"
+    },
+    {
+     "label": "La barchetta di plastilina: esperimento sulla forma",
+     "href": "la-barchetta-di-plastilina-esperimento-sulla-forma"
+    },
+    {
+     "label": "Galleggia o affonda: vero o falso sulle cose nell'acqua",
+     "href": "perche-le-cose-galleggiano-vero-o-falso"
+    },
+    {
+     "label": "Disegna cosa galleggia e cosa affonda nell'acqua",
+     "href": "disegna-cosa-galleggia-e-cosa-affonda"
+    }
+   ],
+   "title": "Esperimento galleggia o affonda: prevedo e verifico – PDF gratis",
+   "metaDescription": "Sei oggetti, bullone, forbici, pallone, pinze, zucca e barchetta: si colora la previsione, poi il risultato della prova, e la stella se c'è sorpresa. PDF gratis."
+  },
+  {
+   "slug": "corsivo-classe-prima-le-vocali",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "base",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda corsivo · classe prima",
+   "h1": "Corsivo classe prima: le vocali a, e, i, o, u",
+   "strand": "Scrittura",
+   "slotTokens": [
+    "corsivo",
+    "classe-prima"
+   ],
+   "p1": "In alto una striscia con le cinque vocali in corsivo e la dicitura Corsivo tradizionale. Sotto, cinque blocchi, uno per vocale, sulla rigatura larga di classe prima con il margine rosso. A sinistra del margine la lettera modello in nero; a destra due gruppi di tre lettere grigie già legate tra loro, aaa, eee, iii con i loro puntini, ooo e uuu, poi la riga continua vuota fino al bordo. Sotto ogni blocco c'è una seconda riga tutta vuota. Il bambino ripassa le lettere grigie, prosegue da solo scrivendo la stessa vocale legata fino alla fine della riga e la riscrive sulla riga sotto.",
+   "p2": "In Italia il corsivo arriva dopo lo stampato maiuscolo e minuscolo, di solito nella seconda parte della classe prima. Le vocali sono il punto di partenza perché contengono i movimenti base: l'occhiello della e, il tondo della a e della o, le punte della i e della u. Scriverle legate a gruppi di tre insegna subito la novità più grande del corsivo: la matita non si stacca dal foglio. Guardate la i: il puntino si mette alla fine, dopo aver legato tutte e tre le lettere.",
+   "p3": "Cinque righe si fanno in una ventina di minuti, e vale la pena ristampare la pagina più volte. Conviene usare una matita morbida e controllare l'impugnatura prima di cominciare. È la scheda base della famiglia: le sorelle propongono le maiuscole con i nomi, le lettere legate a due a due, le parole con le figure, la lettura del corsivo e le frasi da ricopiare. Per lo stampato e il pregrafismo esistono schede a parte.",
+   "canonicalDeckSlug": "corsivo-g2377",
+   "carousel": [
+    {
+     "label": "Corsivo maiuscolo classe seconda: scrivi i nomi",
+     "href": "corsivo-maiuscolo-classe-seconda-scrivi-i-nomi"
+    },
+    {
+     "label": "Corsivo classe prima: legare le lettere a due a due",
+     "href": "legare-le-lettere-in-corsivo-a-due-a-due"
+    },
+    {
+     "label": "Parole in corsivo da scrivere con le figure",
+     "href": "parole-in-corsivo-con-le-figure"
+    },
+    {
+     "label": "Leggere il corsivo: collega la parola alla figura",
+     "href": "letture-in-corsivo-collega-la-parola-alla-figura"
+    }
+   ],
+   "title": "Corsivo minuscolo classe prima: le vocali – Da stampare PDF gratis",
+   "metaDescription": "Le cinque vocali in corsivo minuscolo: per ognuna un modello, due gruppi di tre lettere legate da ripassare e una riga vuota. Rigatura di classe prima. PDF gratis."
+  },
+  {
+   "slug": "storie-in-sequenza-da-ritagliare-prima-dopo-infine",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "story-sequencing-cut-and-paste-first-next-last",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda storie in sequenza · infanzia",
+   "h1": "Storie in sequenza da ritagliare: prima, dopo, infine",
+   "strand": "Ascolto e parlato",
+   "standard": "W.K.3",
+   "slotTokens": [
+    "storie-in-sequenza",
+    "infanzia"
+   ],
+   "p1": "In fondo al foglio aspettano le forbici: due strisce tratteggiate di tre vignette ciascuna, segnate una da un pallino e l'altra da un triangolo. La prima mostra, in disordine, una mela intera, un torsolo e una mela morsicata; la seconda un biglietto bianco, lo stesso biglietto con un fiore e tre righe di scrittura, e una busta con il francobollo. In alto due fili da bucato, con lo stesso pallino e lo stesso triangolo all'inizio, reggono tre cornici vuote ciascuno, sopra i cartellini Prima, Dopo e Infine. Il bambino della scuola dell'infanzia ritaglia, appoggia le vignette sul filo giusto, racconta la storia ad alta voce per controllare e solo allora incolla.",
+   "p2": "I tre cartellini sono le parole del tempo che si vogliono sentire tornare nel racconto orale. Incollando ogni immagine sopra la sua parola, il bambino lega un'espressione a una fase che vede con i suoi occhi. Lasciate che sistemi le vignette prima di usare la colla: può ancora cambiare idea, ed è spesso proprio lì che si corregge da solo. Il biglietto è la storia più sottile, perché è la busta chiusa a dire che è finita. Il pallino e il triangolo evitano di mescolare le due storie.",
+   "p3": "Servono forbici, colla e una ventina di minuti. La scheda base della famiglia chiede di numerare quattro vignette senza ritagliare; questa ne tiene tre per storia e mette le parole al posto dei numeri. Va bene anche all'inizio della classe prima, per chi ha ancora bisogno di tenere le immagini in mano e di spostarle. Dopo vengono le pagine in cui si sceglie la vignetta che continua la storia, si disegna lo svolgimento, si collegano le frasi e infine si scrive il racconto.",
+   "canonicalDeckSlug": "storie-in-sequenza-k381",
+   "carousel": [
+    {
+     "label": "Storie in sequenza: numera le vignette",
+     "href": "storie-in-sequenza-numera-le-vignette"
+    },
+    {
+     "label": "Storie in sequenza: che cosa succede dopo?",
+     "href": "storie-in-sequenza-che-cosa-succede-dopo"
+    },
+    {
+     "label": "Inizio, svolgimento e conclusione di una storia",
+     "href": "inizio-svolgimento-e-conclusione-di-una-storia"
+    },
+    {
+     "label": "Storie in sequenza: numera le frasi e collegale alle vignette",
+     "href": "storie-in-sequenza-frasi-da-numerare-e-collegare"
+    }
+   ],
+   "title": "Storie in sequenza da ritagliare: prima, dopo, infine – PDF gratis",
+   "metaDescription": "Due strisce di tre vignette da ritagliare, una mela mangiata e un biglietto scritto, da incollare sui fili sopra Prima, Dopo e Infine. Per l'infanzia. PDF gratis."
+  },
+  {
+   "slug": "storie-in-sequenza-che-cosa-succede-dopo",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "story-sequencing-what-happens-next",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda storie in sequenza · classe prima",
+   "h1": "Storie in sequenza: che cosa succede dopo?",
+   "strand": "Lettura: testi narrativi",
+   "standard": "RL.1.7",
+   "slotTokens": [
+    "storie-in-sequenza",
+    "classe-prima"
+   ],
+   "p1": "Tre fili attraversano la pagina e su ognuno pendono tre vignette seguite da una cornice arancione con un grande punto di domanda. La mela perde un morso, poi un altro; il foglio rosa diventa cinque strisce, poi i primi due anelli; una palla di neve cresce e sopra ne spunta una seconda. Sotto ogni storia ci sono tre vignette tra cui scegliere: per la mela un torsolo, una busta e una mela intera; per la carta un foglio intero, una buccia di banana e una catena di cinque anelli; per la neve un disegno con una casetta, un pupazzo con cappello e carota e una pallina piccola. Il bambino cerchia quella che va al posto del punto di domanda.",
+   "p2": "Prevedere la fase successiva è un passo in più rispetto al riordinare: bisogna capire in che direzione va il cambiamento e prolungarla. Le vignette sbagliate non sono casuali: una è l'inizio della stessa storia, che riporta indietro, un'altra viene da una storia diversa. Chi sceglie la mela intera o la pallina piccola non ha ancora colto che il tempo va avanti, ed è un errore prezioso da discutere. In classe prima le Indicazioni nazionali chiedono di cogliere il senso globale di un racconto: qui il racconto è tutto nelle immagini.",
+   "p3": "Si lavora con la matita, senza forbici, in una decina di minuti. Per correggere conviene far raccontare la storia intera, dalla prima vignetta a quella cerchiata. Rispetto alla scheda base, dove si numerano quattro vignette mescolate, qui l'ordine è già dato e manca soltanto la fine. Le pagine sorelle chiedono invece di disegnare lo svolgimento tra inizio e conclusione, di numerare frasi scritte e, in classe seconda, di scrivere tutta la storia.",
+   "canonicalDeckSlug": "storie-in-sequenza-g1400",
+   "carousel": [
+    {
+     "label": "Storie in sequenza: numera le vignette",
+     "href": "storie-in-sequenza-numera-le-vignette"
+    },
+    {
+     "label": "Storie in sequenza da ritagliare: prima, dopo, infine",
+     "href": "storie-in-sequenza-da-ritagliare-prima-dopo-infine"
+    },
+    {
+     "label": "Inizio, svolgimento e conclusione di una storia",
+     "href": "inizio-svolgimento-e-conclusione-di-una-storia"
+    },
+    {
+     "label": "Storie in sequenza: numera le frasi e collegale alle vignette",
+     "href": "storie-in-sequenza-frasi-da-numerare-e-collegare"
+    }
+   ],
+   "title": "Che cosa succede dopo? Storie in sequenza – Classe prima, PDF gratis",
+   "metaDescription": "Tre storie di tre vignette e una cornice con il punto di domanda: la mela, la catena di carta, il pupazzo di neve. Si cerchia la vignetta giusta tra tre. PDF gratis."
+  },
+  {
+   "slug": "inizio-svolgimento-e-conclusione-di-una-storia",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "beginning-middle-and-end-of-a-story",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda storie in sequenza · classe prima",
+   "h1": "Inizio, svolgimento e conclusione di una storia",
+   "strand": "Lettura: testi narrativi",
+   "standard": "W.1.3",
+   "slotTokens": [
+    "storie-in-sequenza",
+    "classe-prima"
+   ],
+   "p1": "Su due fili sono appesi tre riquadri ciascuno, con i cartellini Inizio, Svolgimento e Conclusione. Nella prima storia l'inizio è una banana intera su un piattino e la conclusione è la buccia vuota, stesa a stella; nella seconda l'inizio è una palla di neve sul prato imbiancato e la conclusione è un pupazzo completo di cappello a cilindro, carota e bottoni. Il riquadro centrale di ogni storia è vuoto, bordato di arancione e grande quanto gli altri due. Il bambino guarda il primo e l'ultimo riquadro e disegna in mezzo che cosa è successo: la banana mezza sbucciata, le palle di neve che crescono e vengono messe una sull'altra.",
+   "p2": "Inizio, svolgimento e conclusione sono le tre parti con cui la scuola primaria italiana insegna a pensare un racconto, e la classe prima le incontra a voce e per immagini prima di scriverle. Disegnare la parte centrale obbliga a inventare un passaggio credibile tra due stati noti: non basta riconoscere, bisogna costruire. Non esiste un solo disegno giusto; va bene tutto ciò che collega davvero l'inizio alla fine. Chiedete di raccontare il disegno: il lessico dello svolgimento, «poi», «a un certo punto», nasce così.",
+   "p3": "Servono matite colorate e un po' di pazienza. È la scheda della famiglia che lascia più libertà, e proprio per questo è utile anche come verifica orale: chi disegna nel mezzo una banana già vuota non ha distinto lo svolgimento dalla conclusione. Rispetto alle sorelle, qui non si numera e non si sceglie tra vignette date: si disegna. Il passo successivo è collegare frasi e immagini, poi scrivere la storia con le proprie parole.",
+   "canonicalDeckSlug": "storie-in-sequenza-g1401",
+   "carousel": [
+    {
+     "label": "Storie in sequenza: numera le vignette",
+     "href": "storie-in-sequenza-numera-le-vignette"
+    },
+    {
+     "label": "Storie in sequenza da ritagliare: prima, dopo, infine",
+     "href": "storie-in-sequenza-da-ritagliare-prima-dopo-infine"
+    },
+    {
+     "label": "Storie in sequenza: che cosa succede dopo?",
+     "href": "storie-in-sequenza-che-cosa-succede-dopo"
+    },
+    {
+     "label": "Storie in sequenza: numera le frasi e collegale alle vignette",
+     "href": "storie-in-sequenza-frasi-da-numerare-e-collegare"
+    }
+   ],
+   "title": "Inizio, svolgimento e conclusione di una storia – Classe prima PDF gratis",
+   "metaDescription": "Due storie con l'inizio e la conclusione già disegnati, una banana e un pupazzo di neve: nel riquadro centrale il bambino disegna lo svolgimento. PDF gratis."
+  },
+  {
+   "slug": "storie-in-sequenza-frasi-da-numerare-e-collegare",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "story-sequencing-sentences-match-the-pictures",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda storie in sequenza · classe prima",
+   "h1": "Storie in sequenza: numera le frasi e collegale alle vignette",
+   "strand": "Lettura: testi narrativi",
+   "standard": "RL.1.7",
+   "slotTokens": [
+    "storie-in-sequenza",
+    "classe-prima"
+   ],
+   "p1": "A sinistra otto vignette in colonna, a destra otto frasi su cartellini, ognuna con un riquadro per il numero; in mezzo due file di pallini per tracciare le linee. Quattro frasi raccontano la catena di carta: «C'è un foglio di carta», «Il foglio è tagliato in cinque strisce», «Con due strisce si fanno due anelli», «Cinque anelli formano una catena». Le altre quattro raccontano una banana, da «La banana non è sbucciata» a «Resta solo la buccia vuota». Dentro ogni storia sono mescolate sia le frasi sia le vignette, e nessuna frase sta alla stessa altezza del suo disegno. Il bambino legge, scrive 1, 2, 3, 4 e poi collega.",
+   "p2": "Qui la sequenza passa dalle immagini alla parola scritta. Nessuna frase comincia con prima, poi o infine: l'ordine non si ricava da una parola del tempo, ma soltanto da ciò che la frase dice. Il foglio viene prima delle strisce, le strisce prima degli anelli; nella banana una striscia di buccia abbassata viene prima di tre. È la comprensione a decidere. Il collegamento con la vignetta fa da controllo: se la frase numero 3 non trova un disegno coerente, l'ordine va rivisto. Per la classe prima, quando si leggono i primi brevi testi, è un esercizio misurato, e a voce si possono aggiungere le parole prima, poi, dopo e infine una volta trovato l'ordine.",
+   "p3": "Otto frasi brevi in stampato, adatte a chi legge da qualche mese. Conviene lavorare una storia alla volta, coprendo l'altra con un foglio. Rispetto alla scheda base, dove si numerano solo immagini, qui si numerano frasi; rispetto alla scheda di classe seconda, le frasi sono già scritte e non vanno composte. Le pagine senza parole della stessa famiglia restano utili a chi non legge ancora.",
+   "canonicalDeckSlug": "storie-in-sequenza-g1402",
+   "carousel": [
+    {
+     "label": "Storie in sequenza: numera le vignette",
+     "href": "storie-in-sequenza-numera-le-vignette"
+    },
+    {
+     "label": "Storie in sequenza da ritagliare: prima, dopo, infine",
+     "href": "storie-in-sequenza-da-ritagliare-prima-dopo-infine"
+    },
+    {
+     "label": "Storie in sequenza: che cosa succede dopo?",
+     "href": "storie-in-sequenza-che-cosa-succede-dopo"
+    },
+    {
+     "label": "Inizio, svolgimento e conclusione di una storia",
+     "href": "inizio-svolgimento-e-conclusione-di-una-storia"
+    }
+   ],
+   "title": "Storie in sequenza con le frasi da numerare – Classe prima, PDF gratis",
+   "metaDescription": "Due storie, una catena di carta e una banana, in quattro frasi mescolate: si numerano da 1 a 4 e si collega ogni frase alla sua vignetta con una linea. PDF gratis."
+  },
+  {
+   "slug": "sequenze-temporali-per-scrivere-una-storia",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "retell-the-story-with-starters",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda storie in sequenza · classe seconda",
+   "h1": "Sequenze di immagini per raccontare una storia",
+   "strand": "Scrittura",
+   "standard": "W.2.3",
+   "slotTokens": [
+    "storie-in-sequenza",
+    "classe-seconda"
+   ],
+   "p1": "In alto, dentro un riquadro tratteggiato, cinque parole di aiuto: staccionata, asse, vernice, pennello, secchiello. Sotto, una linea del tempo verticale regge quattro vignette già in ordine: una staccionata bianca di sei assi con il pennello nel secchiello, poi due assi dipinte d'arancione, poi quattro, infine tutte e sei. Accanto a ogni vignetta ci sono due righe per scrivere, e sulla prima è già stampato in grigio l'avvio: All'inizio, Poi, Dopo, Alla fine. Il bambino completa ogni frase raccontando che cosa succede nella vignetta e usa, se vuole, le parole del riquadro.",
+   "p2": "Ordinare non è più il compito: le vignette arrivano in sequenza e il lavoro è trasformare ciò che si vede in frasi. I quattro avvii danno la struttura del testo narrativo, e le parole di aiuto tolgono l'ostacolo dell'ortografia di termini come secchiello o staccionata. In classe seconda le Indicazioni nazionali chiedono di produrre brevi testi rispettando l'ordine cronologico: qui l'ordine c'è già, e l'attenzione va tutta alla frase. Il numero delle assi dipinte, due, quattro, sei, può entrare nel racconto.",
+   "p3": "Quattro vignette, otto righe, una ventina di minuti di scrittura. Si può preparare a voce: prima tutta la classe racconta, poi ognuno scrive da sé. Chi finisce presto aggiunge un titolo o una frase su chi sta dipingendo, visto che nelle vignette si vede solo il pennello. È la scheda più avanzata della famiglia: le sorelle chiedono di numerare, scegliere, disegnare o collegare, questa di scrivere il racconto intero.",
+   "canonicalDeckSlug": "storie-in-sequenza-g2378",
+   "carousel": [
+    {
+     "label": "Storie in sequenza: numera le vignette",
+     "href": "storie-in-sequenza-numera-le-vignette"
+    },
+    {
+     "label": "Storie in sequenza da ritagliare: prima, dopo, infine",
+     "href": "storie-in-sequenza-da-ritagliare-prima-dopo-infine"
+    },
+    {
+     "label": "Storie in sequenza: che cosa succede dopo?",
+     "href": "storie-in-sequenza-che-cosa-succede-dopo"
+    },
+    {
+     "label": "Inizio, svolgimento e conclusione di una storia",
+     "href": "inizio-svolgimento-e-conclusione-di-una-storia"
+    }
+   ],
+   "title": "Sequenze temporali per scrivere una storia – Classe seconda, PDF gratis",
+   "metaDescription": "Quattro vignette di una staccionata da dipingere, cinque parole di aiuto e due righe per vignetta che cominciano con All'inizio, Poi, Dopo, Alla fine. PDF gratis."
+  },
+  {
+   "slug": "come-lavarsi-le-mani-numera-le-fasi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "hand-washing-steps",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda igiene e buone abitudini · infanzia",
+   "h1": "Come lavarsi le mani: numera le cinque fasi",
+   "strand": "Educazione alla salute",
+   "slotTokens": [
+    "igiene-e-buone-abitudini",
+    "infanzia"
+   ],
+   "p1": "Cinque grandi riquadri, due per riga e l'ultimo al centro, mostrano due mani bianche sopra un lavandino verde. In uno l'acqua scorre sulle mani nude; in uno le mani stringono la saponetta a rubinetto chiuso; in uno sono coperte di bolle e si strofinano; in uno l'acqua scorre sulle mani ancora piene di schiuma e le bolle cadono nel lavandino; in uno sono appoggiate a un asciugamano. I riquadri sono in disordine e accanto a ciascuno c'è un quadrato tratteggiato. Il bambino della scuola dell'infanzia scrive i numeri da 1 a 5 per mostrare in che ordine ci si lava le mani.",
+   "p2": "Lavarsi le mani è l'abitudine d'igiene più importante per un bambino di cinque anni, e la più spesso fatta a metà: si salta il sapone o si corre subito all'asciugamano. Mettere le fasi in fila mostra che ognuna ha un senso: si bagna, si insapona, si strofina, si sciacqua e solo alla fine si asciuga. La differenza più fine è tra le mani bagnate all'inizio e quelle che si sciacquano: nelle seconde c'è ancora la schiuma. Fatela cercare con il dito, disegno per disegno.",
+   "p3": "Chi non scrive ancora i numeri può disegnare dei puntini: uno, due, tre. Appesa vicino al lavandino della scuola, la scheda diventa un promemoria costruito dai bambini stessi. Rispetto alla scheda base, dove si collega un oggetto a ogni abitudine, qui si scompone un solo gesto. Le schede sorelle fanno lo stesso con i denti, prima, durante e dopo lo spazzolino, e con i gesti che fermano i germi.",
+   "canonicalDeckSlug": "igiene-e-buone-abitudini-k382",
+   "carousel": [
+    {
+     "label": "Igiene personale e buone abitudini: che cosa usa ogni bambino?",
+     "href": "igiene-personale-e-buone-abitudini-infanzia"
+    },
+    {
+     "label": "Lavarsi i denti: prima, durante e dopo",
+     "href": "lavarsi-i-denti-prima-durante-e-dopo"
+    },
+    {
+     "label": "Stop ai germi: tossire nel gomito e altri gesti sani",
+     "href": "stop-ai-germi-tossire-nel-gomito"
+    },
+    {
+     "label": "Buone abitudini per stare bene: perché le facciamo?",
+     "href": "perche-le-buone-abitudini-ci-fanno-stare-bene"
+    }
+   ],
+   "title": "Come lavarsi le mani: numera le fasi – Infanzia da stampare PDF gratis",
+   "metaDescription": "Cinque disegni mescolati: bagnare le mani, insaponarle, strofinarle, sciacquarle e asciugarle. Accanto a ognuno un riquadro per il numero da 1 a 5. PDF gratis."
+  },
+  {
+   "slug": "lavarsi-i-denti-prima-durante-e-dopo",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "brushing-teeth-before-during-after",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda igiene e buone abitudini · classe prima",
+   "h1": "Lavarsi i denti: prima, durante e dopo",
+   "strand": "Educazione alla salute",
+   "slotTokens": [
+    "igiene-e-buone-abitudini",
+    "classe-prima"
+   ],
+   "p1": "Sette riquadri, ognuno con un disegno a sinistra e tre bottoni a destra: prima, durante, dopo. I disegni mostrano il dentifricio spremuto sullo spazzolino, un'arcata di denti con lo spazzolino di lato, un dente bianco circondato da stelline, un bambino chino sul lavandino che sputa, un'arcata vista dall'alto con lo spazzolino sopra, un dente con macchie scure e i denti davanti con lo spazzolino che va avanti e indietro. Il bambino guarda ogni disegno e cerchia il momento giusto rispetto al lavaggio dei denti.",
+   "p2": "Tre disegni mostrano lo spazzolino al lavoro, due il prima, il dente macchiato e il dentifricio, e due il dopo. Il bambino chino sul lavandino è il più discusso: sputare è l'ultimo gesto, ma fa ancora parte del lavaggio? Accettate entrambe le risposte se il bambino le sa spiegare. È così che si costruisce un'idea di igiene orale: non un elenco di divieti, ma una routine con un inizio, una parte centrale e una fine. In classe prima l'educazione alla salute passa proprio da queste abitudini di ogni giorno.",
+   "p3": "Sette righe, tre scelte ciascuna, niente da scrivere: la scheda si fa in pochi minuti ed è adatta anche a chi legge ancora poco, perché le tre parole si ripetono sempre uguali. Rispetto alla scheda sul lavaggio delle mani, qui non si mette in ordine: si colloca ogni momento in una delle tre fasi. Un seguito possibile è la tabella settimanale della famiglia, dove lavarsi i denti è la prima abitudine da segnare.",
+   "canonicalDeckSlug": "igiene-e-buone-abitudini-g1403",
+   "carousel": [
+    {
+     "label": "Igiene personale e buone abitudini: che cosa usa ogni bambino?",
+     "href": "igiene-personale-e-buone-abitudini-infanzia"
+    },
+    {
+     "label": "Come lavarsi le mani: numera le cinque fasi",
+     "href": "come-lavarsi-le-mani-numera-le-fasi"
+    },
+    {
+     "label": "Stop ai germi: tossire nel gomito e altri gesti sani",
+     "href": "stop-ai-germi-tossire-nel-gomito"
+    },
+    {
+     "label": "Buone abitudini per stare bene: perché le facciamo?",
+     "href": "perche-le-buone-abitudini-ci-fanno-stare-bene"
+    }
+   ],
+   "title": "Lavarsi i denti: prima, durante e dopo – Classe prima, PDF gratis",
+   "metaDescription": "Sette disegni sull'igiene orale, dal dentifricio sullo spazzolino al dente che brilla: per ognuno si cerchia prima, durante o dopo il lavaggio dei denti. PDF gratis."
+  },
+  {
+   "slug": "stop-ai-germi-tossire-nel-gomito",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "stop-the-germs",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda igiene e buone abitudini · classe prima",
+   "h1": "Stop ai germi: tossire nel gomito e altri gesti sani",
+   "strand": "Educazione alla salute",
+   "slotTokens": [
+    "igiene-e-buone-abitudini",
+    "classe-prima"
+   ],
+   "p1": "Quattro righe, due disegni per riga, sagome scure su fondo crema. Nella prima un bambino tossisce nel gomito, un altro tossisce spargendo goccioline nell'aria. Nella seconda due mani si insaponano sotto l'acqua, altre due, piene di germi disegnati, restano sotto il rubinetto chiuso. Nella terza due bambini bevono dallo stesso bicchiere, altri due bevono ognuno dal suo. Nell'ultima un fazzoletto è caduto a terra accanto al cestino, un altro viene buttato dentro. Il gesto giusto sta a sinistra in due righe e a destra nelle altre due. Il bambino cerchia in ogni riga il disegno che ferma i germi.",
+   "p2": "I germi non si vedono, e proprio per questo vanno disegnati: le mani con i puntini scuri rendono visibile ciò che il sapone porta via. Tossire nel gomito è il gesto che i bambini conoscono meglio, ma il bicchiere in comune e il fazzoletto lasciato a terra sono più insidiosi, perché sembrano innocui. Per ogni riga chiedete dove vanno a finire i germi nel disegno sbagliato: la risposta costruisce l'idea di contagio senza spaventare nessuno.",
+   "p3": "Otto disegni grandi e nessuna parola da leggere oltre la consegna: la scheda va bene all'inizio della classe prima ed è utile in autunno, quando tornano i raffreddori. Rispetto alle altre pagine della famiglia, che parlano soprattutto di igiene personale, questa parla dei gesti che proteggono anche gli altri. Si può completare con un cartellone di classe su cui ogni bambino disegna un gesto che ferma i germi.",
+   "canonicalDeckSlug": "igiene-e-buone-abitudini-g1404",
+   "carousel": [
+    {
+     "label": "Igiene personale e buone abitudini: che cosa usa ogni bambino?",
+     "href": "igiene-personale-e-buone-abitudini-infanzia"
+    },
+    {
+     "label": "Come lavarsi le mani: numera le cinque fasi",
+     "href": "come-lavarsi-le-mani-numera-le-fasi"
+    },
+    {
+     "label": "Lavarsi i denti: prima, durante e dopo",
+     "href": "lavarsi-i-denti-prima-durante-e-dopo"
+    },
+    {
+     "label": "Buone abitudini per stare bene: perché le facciamo?",
+     "href": "perche-le-buone-abitudini-ci-fanno-stare-bene"
+    }
+   ],
+   "title": "Stop ai germi: tossire nel gomito – Classe prima da stampare PDF gratis",
+   "metaDescription": "Quattro righe da due disegni: tossire nel gomito, mani insaponate, un bicchiere a testa, il fazzoletto nel cestino. Si cerchia il gesto che ferma i germi. PDF gratis."
+  },
+  {
+   "slug": "perche-le-buone-abitudini-ci-fanno-stare-bene",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "why-do-we-do-healthy-habits",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda igiene e buone abitudini · classe seconda",
+   "h1": "Buone abitudini per stare bene: perché le facciamo?",
+   "strand": "Educazione alla salute",
+   "slotTokens": [
+    "igiene-e-buone-abitudini",
+    "classe-seconda"
+   ],
+   "p1": "A sinistra cinque riquadri: un bambino con il cappello sotto il sole, uno che cammina di buon passo, uno che si lava le mani, uno che dorme sotto la luna, uno che si lava i denti. A destra cinque frasi in un altro ordine: «Ci rende agili, veloci e forti», «Il corpo e il cervello riposano e si preparano a una nuova giornata», «Non ci scottiamo nelle giornate calde d'estate», «Tiene il nostro sorriso pulito e splendente», «Toglie i germi che abbiamo preso toccando le cose». Il bambino legge ogni frase e la collega con una linea all'abitudine che spiega.",
+   "p2": "In classe seconda non basta più sapere che cosa si fa: si comincia a chiedersi perché. Le frasi danno la ragione di ogni abitudine con parole semplici, e il collegamento obbliga a leggerle davvero, perché nessuna nomina l'oggetto del disegno: non c'è scritto cappello, sapone né letto. È la parte dell'educazione alla salute che riguarda la cura di sé e il benessere. Dopo la scheda si può rovesciare il gioco: il bambino inventa la frase per un'abitudine che non c'è, come bere acqua.",
+   "p3": "Cinque frasi di lunghezza diversa: la più lunga, quella sul sonno, è anche la più astratta. La scheda chiede una lettura autonoma e si adatta bene alla metà della classe seconda. Rispetto alle sorelle più semplici, che collegano un oggetto o numerano un gesto, qui si collega un'azione alla sua ragione. La tabella settimanale della famiglia è il seguito naturale: dopo aver capito perché, si prova a farlo ogni giorno.",
+   "canonicalDeckSlug": "igiene-e-buone-abitudini-g2379",
+   "carousel": [
+    {
+     "label": "Igiene personale e buone abitudini: che cosa usa ogni bambino?",
+     "href": "igiene-personale-e-buone-abitudini-infanzia"
+    },
+    {
+     "label": "Come lavarsi le mani: numera le cinque fasi",
+     "href": "come-lavarsi-le-mani-numera-le-fasi"
+    },
+    {
+     "label": "Lavarsi i denti: prima, durante e dopo",
+     "href": "lavarsi-i-denti-prima-durante-e-dopo"
+    },
+    {
+     "label": "Stop ai germi: tossire nel gomito e altri gesti sani",
+     "href": "stop-ai-germi-tossire-nel-gomito"
+    }
+   ],
+   "title": "Perché le buone abitudini ci fanno stare bene – Classe seconda PDF gratis",
+   "metaDescription": "Cinque abitudini disegnate e cinque frasi che ne spiegano il perché, dal cappello contro il sole al sonno che prepara la giornata: si collegano con una linea. PDF gratis."
+  },
+  {
+   "slug": "tabella-settimanale-delle-buone-abitudini",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "healthy-habits-week-chart",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda igiene e buone abitudini · classe prima",
+   "h1": "Tabella settimanale delle buone abitudini",
+   "strand": "Educazione alla salute",
+   "slotTokens": [
+    "igiene-e-buone-abitudini",
+    "classe-prima"
+   ],
+   "p1": "In cima alla tabella ci sono sette giorni abbreviati, lun, mar, mer, gio, ven, sab, dom, perché la settimana italiana comincia dal lunedì. Sotto, cinque righe a fasce alterne, ognuna con un disegno e un'etichetta: lavarsi i denti, lavarsi le mani, muoversi, bere acqua, a letto presto. Ogni riga ha sette caselle vuote, una per giorno, trentacinque in tutto. Ogni sera il bambino fa una crocetta nella casella di ogni abitudine che ha seguito. Non ci sono risposte giuste o sbagliate: la tabella registra, non giudica.",
+   "p2": "Un'abitudine è tale solo se si ripete, e sette giorni bastano per vederla crescere, o mancare. La tabella rende visibile la costanza: a fine settimana il bambino conta le crocette di ogni riga e scopre quale abitudine gli riesce meglio e quale va curata. È un primo lavoro con i dati, oltre che di educazione alla salute. Evitate premi e classifiche tra compagni: lo scopo è che ognuno osservi se stesso, non che qualcuno vinca.",
+   "p3": "La scheda va a casa il lunedì e torna il lunedì successivo; conviene avvisare le famiglie con due righe sul diario. Le etichette sono brevi e accompagnate da un disegno, così anche chi legge poco si orienta. Le altre pagine della famiglia spiegano le abitudini una alla volta; questa le mette insieme e le porta fuori dalla scuola. Si può ristampare ogni settimana per un mese e confrontare le tabelle.",
+   "canonicalDeckSlug": "igiene-e-buone-abitudini-g1405",
+   "carousel": [
+    {
+     "label": "Igiene personale e buone abitudini: che cosa usa ogni bambino?",
+     "href": "igiene-personale-e-buone-abitudini-infanzia"
+    },
+    {
+     "label": "Come lavarsi le mani: numera le cinque fasi",
+     "href": "come-lavarsi-le-mani-numera-le-fasi"
+    },
+    {
+     "label": "Lavarsi i denti: prima, durante e dopo",
+     "href": "lavarsi-i-denti-prima-durante-e-dopo"
+    },
+    {
+     "label": "Stop ai germi: tossire nel gomito e altri gesti sani",
+     "href": "stop-ai-germi-tossire-nel-gomito"
+    }
+   ],
+   "title": "Tabella settimanale delle buone abitudini – Classe prima, PDF gratis",
+   "metaDescription": "Cinque abitudini, lavarsi i denti e le mani, muoversi, bere acqua, andare a letto presto, e sette caselle da lunedì a domenica per la crocetta del giorno. PDF gratis."
+  },
+  {
+   "slug": "le-case-degli-animali-nido-tana-e-alveare",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "animal-homes",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda ambienti degli animali · infanzia",
+   "h1": "Le case degli animali: nido, tana e alveare",
+   "strand": "Scienze",
+   "slotTokens": [
+    "ambienti-degli-animali",
+    "infanzia"
+   ],
+   "p1": "Due colonne di sei riquadri. A sinistra gli animali, a colori: una formica, un coniglio, un ragno, un'ape, un uccellino e un castoro. A destra, disegnate con un tratto verde, sei case in un altro ordine: una ragnatela tesa tra due rametti, la capanna di rami del castoro nell'acqua, un nido con tre uova, una tana scavata sotto il prato, un alveare dentro il tronco cavo di un albero e un formicaio con le sue gallerie. Accanto a ogni riquadro c'è un pallino. Il bambino della scuola dell'infanzia traccia una linea da ogni animale alla sua casa. Sulla pagina non ci sono parole da leggere.",
+   "p2": "Le case degli animali sono il modo più concreto per avvicinarsi agli ambienti: prima ancora di dire bosco o stagno, un bambino di cinque anni sa che l'uccellino ha il nido e l'ape l'alveare. Le coppie facili aprono la strada a quelle meno ovvie, come il formicaio sotto terra o la capanna del castoro. In italiano la parola tana va bene sia per il coniglio sia per il castoro: per questo le case non hanno un nome stampato, e si possono nominare insieme a voce.",
+   "p3": "Sei collegamenti con linee lunghe da un lato all'altro della pagina: è un buon esercizio anche per la mano. Il titolo nomina tre case, ma sulla scheda sono sei; conviene chiederle tutte, ragnatela e formicaio compresi. È la pagina d'ingresso della famiglia, pensata per l'infanzia; in classe prima si passa agli ambienti con il loro nome, all'intruso da scoprire e a ciò di cui gli animali hanno bisogno.",
+   "canonicalDeckSlug": "ambienti-degli-animali-k383",
+   "carousel": [
+    {
+     "label": "Gli ambienti degli animali: chi vive dove?",
+     "href": "gli-ambienti-degli-animali-chi-vive-dove"
+    },
+    {
+     "label": "Gli ambienti degli animali: trova l'intruso",
+     "href": "trova-l-intruso-negli-ambienti-degli-animali"
+    },
+    {
+     "label": "L'adattamento degli animali all'ambiente",
+     "href": "l-adattamento-degli-animali-all-ambiente"
+    },
+    {
+     "label": "Di che cosa hanno bisogno gli animali: cibo e casa",
+     "href": "di-che-cosa-hanno-bisogno-gli-animali-per-vivere"
+    }
+   ],
+   "title": "Le case degli animali: nido, tana e alveare – Infanzia, PDF gratis",
+   "metaDescription": "Sei animali, formica, coniglio, ragno, ape, uccellino e castoro, e sei case disegnate, dalla ragnatela al formicaio: si collega ogni animale alla sua casa. PDF gratis."
+  },
+  {
+   "slug": "trova-l-intruso-negli-ambienti-degli-animali",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "who-does-not-live-here",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda ambienti degli animali · classe prima",
+   "h1": "Gli ambienti degli animali: trova l'intruso",
+   "strand": "Scienze",
+   "slotTokens": [
+    "ambienti-degli-animali",
+    "classe-prima"
+   ],
+   "p1": "A sinistra quattro paesaggi con il loro nome: Foresta pluviale, Savana, Prato, Mare. A destra di ognuno, un blocco di quattro animali. Nella foresta una scimmia, un pappagallo, un gorilla e una medusa; nella savana una giraffa, un leone, una stella marina e una zebra; nel prato una coccinella, una cavalletta, un'ape e un tucano; nel mare uno scoiattolo, uno squalo, un polpo e una balena. In ogni blocco un animale è fuori posto, e non sta mai nello stesso angolo. Il bambino guarda l'ambiente, controlla i quattro animali e barra con una X quello che lì non vive.",
+   "p2": "Trovare l'intruso rovescia la domanda della scheda base: non più «dove vive questo animale?», ma «chi non appartiene a questo posto?». Per rispondere bisogna ricordare che cosa serve a ogni animale: la medusa e la stella marina hanno bisogno dell'acqua salata, il tucano degli alberi della foresta, lo scoiattolo dei rami. Chiedete sempre dove andrebbe l'intruso: così l'errore diventa un nuovo abbinamento. È un modo per consolidare gli ambienti che si incontrano nelle scienze di classe prima.",
+   "p3": "Sedici animali e quattro X: la scheda è rapida ma chiede attenzione, perché alcuni intrusi saltano all'occhio e il tucano nel prato molto meno. Rispetto alla scheda base, dove si scrive la lettera dell'ambiente, qui si esclude. Le sorelle della famiglia proseguono con le case degli animali, con ciò di cui hanno bisogno e, in classe seconda, con l'adattamento e una piccola ricerca personale.",
+   "canonicalDeckSlug": "ambienti-degli-animali-g1406",
+   "carousel": [
+    {
+     "label": "Gli ambienti degli animali: chi vive dove?",
+     "href": "gli-ambienti-degli-animali-chi-vive-dove"
+    },
+    {
+     "label": "Le case degli animali: nido, tana e alveare",
+     "href": "le-case-degli-animali-nido-tana-e-alveare"
+    },
+    {
+     "label": "L'adattamento degli animali all'ambiente",
+     "href": "l-adattamento-degli-animali-all-ambiente"
+    },
+    {
+     "label": "Di che cosa hanno bisogno gli animali: cibo e casa",
+     "href": "di-che-cosa-hanno-bisogno-gli-animali-per-vivere"
+    }
+   ],
+   "title": "Trova l'intruso negli ambienti degli animali – Classe prima, PDF gratis",
+   "metaDescription": "Quattro ambienti, foresta pluviale, savana, prato e mare, con quattro animali ciascuno: uno non ci vive, come la stella marina in savana. Si barra con una X. PDF gratis."
+  },
+  {
+   "slug": "l-adattamento-degli-animali-all-ambiente",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "how-animals-adapt",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda ambienti degli animali · classe seconda",
+   "h1": "L'adattamento degli animali all'ambiente",
+   "strand": "Scienze",
+   "slotTokens": [
+    "ambienti-degli-animali",
+    "classe-seconda"
+   ],
+   "p1": "In alto sette animali in fila, ognuno con una lettera da A a G: elefante, castoro, cammello, scimmia, picchio, tucano e pinguino. Sotto, sei frasi lunghe, ognuna con un riquadro tratteggiato. Parlano di ali che sono pinne nell'acqua gelida, di grandi denti che rosicchiano gli alberi, di una proboscide che aspira l'acqua, di un becco enorme che coglie la frutta sui rami sottili, di un becco appuntito che scava i tronchi e di una gobba piena di grasso nel deserto. Il bambino legge ogni frase e scrive la lettera dell'animale di cui parla. La scimmia resta senza frase.",
+   "p2": "L'adattamento è il legame tra un corpo e un ambiente: il cammello non ha la gobba per caso, il pinguino non vola perché nuota. Le frasi non nominano mai l'animale, e il bambino deve riconoscerlo dalla parte del corpo descritta. Il tema compare in classe seconda accanto all'osservazione dei viventi, e molte scuole lo riprendono con più ampiezza in terza. L'animale in più impedisce di procedere per esclusione fino all'ultima frase: bisogna leggere davvero ogni riga.",
+   "p3": "Sei frasi di una o due righe richiedono una lettura sicura. Conviene leggere la prima insieme e sottolineare la parte del corpo, pinne, denti, proboscide, becco, gobba; poi il bambino prosegue da solo. Chi finisce può scrivere una settima frase per la scimmia, magari sulla coda o sulle mani che afferrano i rami. Rispetto alle altre pagine della famiglia, che abbinano animali e ambienti, questa spiega perché un animale sta bene proprio lì.",
+   "canonicalDeckSlug": "ambienti-degli-animali-g2380",
+   "carousel": [
+    {
+     "label": "Gli ambienti degli animali: chi vive dove?",
+     "href": "gli-ambienti-degli-animali-chi-vive-dove"
+    },
+    {
+     "label": "Le case degli animali: nido, tana e alveare",
+     "href": "le-case-degli-animali-nido-tana-e-alveare"
+    },
+    {
+     "label": "Gli ambienti degli animali: trova l'intruso",
+     "href": "trova-l-intruso-negli-ambienti-degli-animali"
+    },
+    {
+     "label": "Di che cosa hanno bisogno gli animali: cibo e casa",
+     "href": "di-che-cosa-hanno-bisogno-gli-animali-per-vivere"
+    }
+   ],
+   "title": "L'adattamento degli animali all'ambiente – Classe seconda, PDF gratis",
+   "metaDescription": "Sette animali con una lettera e sei frasi sull'adattamento, dalla gobba del cammello al becco del picchio: si scrive la lettera, un animale resta fuori. PDF gratis."
+  },
+  {
+   "slug": "di-che-cosa-hanno-bisogno-gli-animali-per-vivere",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "what-animals-need",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda ambienti degli animali · classe prima",
+   "h1": "Di che cosa hanno bisogno gli animali: cibo e casa",
+   "strand": "Scienze",
+   "slotTokens": [
+    "ambienti-degli-animali",
+    "classe-prima"
+   ],
+   "p1": "Sotto la frase «Ogni animale ha bisogno di cibo e di una casa» due etichette fanno da titolo alle colonne: Cibo e Casa. Poi quattro fasce, una per animale: un castoro, un ragno, un uccellino e un coniglio. Accanto a ciascuno ci sono due cibi da scegliere, un insetto, una foglia o un ciuffo d'erba, e due case, tra la capanna di rami nell'acqua, la ragnatela, il nido con le uova e la tana sotto terra. Il bambino cerchia per ogni animale il cibo che mangia e la casa in cui vive: due cerchi per riga, otto in tutto.",
+   "p2": "Cibo e riparo sono i due bisogni che un bambino di sei anni può osservare direttamente, e la scheda li separa in due colonne perché non si confondano. Le scelte sono costruite con cura: le stesse case e gli stessi cibi ritornano in righe diverse, così non basta riconoscere un disegno, bisogna ragionare sull'animale. Il ragno che mangia l'insetto e il castoro che mangia la foglia sono le coppie che fanno più discutere. Riconoscere i bisogni dei viventi è uno dei primi traguardi delle scienze in classe prima.",
+   "p3": "A voce si può aggiungere il terzo bisogno che la scheda non disegna, l'acqua: chiedete dove beve ognuno dei quattro animali. Rispetto alla scheda base, che abbina animali e ambienti, qui si scende a ciò che serve ogni giorno. La pagina sulle case degli animali, pensata per l'infanzia, è una buona preparazione; l'adattamento, in classe seconda, è il passo successivo.",
+   "canonicalDeckSlug": "ambienti-degli-animali-g1407",
+   "carousel": [
+    {
+     "label": "Gli ambienti degli animali: chi vive dove?",
+     "href": "gli-ambienti-degli-animali-chi-vive-dove"
+    },
+    {
+     "label": "Le case degli animali: nido, tana e alveare",
+     "href": "le-case-degli-animali-nido-tana-e-alveare"
+    },
+    {
+     "label": "Gli ambienti degli animali: trova l'intruso",
+     "href": "trova-l-intruso-negli-ambienti-degli-animali"
+    },
+    {
+     "label": "L'adattamento degli animali all'ambiente",
+     "href": "l-adattamento-degli-animali-all-ambiente"
+    }
+   ],
+   "title": "Di che cosa hanno bisogno gli animali: cibo e casa – Classe prima PDF",
+   "metaDescription": "Quattro animali, castoro, ragno, uccellino e coniglio, e per ognuno due cibi e due case disegnate: si cerchia che cosa mangia e dove vive. Otto cerchi. PDF gratis."
+  },
+  {
+   "slug": "la-mia-ricerca-su-un-ambiente-animali-e-piante",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "my-habitat-report",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda ambienti degli animali · classe seconda",
+   "h1": "La mia ricerca su un ambiente: animali e piante",
+   "strand": "Scienze",
+   "slotTokens": [
+    "ambienti-degli-animali",
+    "classe-seconda"
+   ],
+   "p1": "Quasi mezza pagina è occupata da un grande paesaggio con il cartellino Stagno: l'acqua, le rive di terra, le tife ai lati e una ninfea con il suo fiore. Sotto, la voce «Animali che vivono qui» con tre righe per scrivere, poi «Una pianta che cresce qui» con una riga sola. In fondo, due bottoni: umido e secco. Il bambino disegna nel paesaggio tre animali dello stagno, ne scrive i nomi, aggiunge il nome di una pianta e cerchia la parola che descrive questo ambiente. È una piccola scheda di ricerca, non un esercizio a risposta unica.",
+   "p2": "Qui si passa dal riconoscere al produrre: non ci sono animali da scegliere, bisogna richiamarli alla memoria o cercarli nei libri. Rane, libellule, anatre, pesci, girini: in classe seconda i bambini ne conoscono molti, e il disegno li obbliga a collocarli nel posto giusto, sull'acqua, sotto la superficie, sulla riva. La pianta è già suggerita dalla figura, e questo aiuta chi è in difficoltà. Umido o secco introduce l'idea che un ambiente si descrive anche con le sue condizioni.",
+   "p3": "Si presta a un lavoro a coppie o a una piccola ricerca in biblioteca; una lezione intera è la durata giusta. Tutta la classe lavora sullo stesso paesaggio, così le ricerche si possono confrontare e mettere insieme su un cartellone. Rispetto alle altre pagine della famiglia, questa è la più aperta: non ci sono abbinamenti, ma una breve relazione personale. Chi ha già lavorato sull'adattamento può spiegare perché la rana sta bene proprio lì.",
+   "canonicalDeckSlug": "ambienti-degli-animali-g2381",
+   "carousel": [
+    {
+     "label": "Gli ambienti degli animali: chi vive dove?",
+     "href": "gli-ambienti-degli-animali-chi-vive-dove"
+    },
+    {
+     "label": "Le case degli animali: nido, tana e alveare",
+     "href": "le-case-degli-animali-nido-tana-e-alveare"
+    },
+    {
+     "label": "Gli ambienti degli animali: trova l'intruso",
+     "href": "trova-l-intruso-negli-ambienti-degli-animali"
+    },
+    {
+     "label": "L'adattamento degli animali all'ambiente",
+     "href": "l-adattamento-degli-animali-all-ambiente"
+    }
+   ],
+   "title": "La mia ricerca su un ambiente: animali e piante – Classe seconda PDF",
+   "metaDescription": "Un grande disegno dello stagno da completare con tre animali, tre righe per i loro nomi, una riga per una pianta e la scelta tra umido e secco. PDF gratis."
+  },
+  {
+   "slug": "pesante-o-leggero-galleggia-o-affonda-con-la-bilancia",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "heavy-or-light-sink-or-float-scale",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda galleggia o affonda · classe prima",
+   "h1": "Pesante o leggero? Galleggia o affonda, con la bilancia a piatti",
+   "strand": "Scienze",
+   "slotTokens": [
+    "esperimento-galleggia-o-affonda",
+    "classe-prima"
+   ],
+   "p1": "Quattro bilance a due piatti, una per riquadro, senza nomi e senza numeri. Sulla prima una patata pesa più di una pigna; sulla seconda una mela pesa più di un chiodo; sulla terza un sasso pesa più di una piuma; sulla quarta un tronco pesa più di un martello. Il piatto più basso porta sempre l'oggetto più pesante. Per ogni bilancia il bambino guarda i due oggetti e cerchia quello che galleggia nell'acqua. In due bilance galleggia l'oggetto leggero, la pigna e la piuma; nelle altre due galleggia quello pesante, la mela e il tronco.",
+   "p2": "La scheda è costruita contro un'idea sbagliata diffusissima: «le cose pesanti affondano». La bilancia mette il peso sotto gli occhi, e la risposta lo contraddice due volte su quattro. Il tronco, più pesante del martello eppure a galla, è la vignetta che fa discutere di più. In classe prima non serve parlare di densità: basta far notare che il peso da solo non permette di prevedere. Poi si prova davvero, con una mela e un chiodo.",
+   "p3": "Non ci sono parole da leggere oltre alla consegna, quindi la scheda va bene anche per chi non legge ancora con sicurezza. Conviene proporla dopo l'esperimento di base della famiglia, quando i bambini hanno già messo in acqua qualche oggetto. Rispetto al vero e falso di classe seconda, qui il ragionamento passa dall'immagine e non dalla frase; la barchetta di plastilina mostrerà poi che conta anche la forma.",
+   "canonicalDeckSlug": "esperimento-galleggia-o-affonda-g1408",
+   "carousel": [
+    {
+     "label": "Esperimento galleggia o affonda: prevedo e verifico",
+     "href": "esperimento-galleggia-o-affonda-prevedo-e-verifico"
+    },
+    {
+     "label": "La barchetta di plastilina: esperimento sulla forma",
+     "href": "la-barchetta-di-plastilina-esperimento-sulla-forma"
+    },
+    {
+     "label": "Galleggia o affonda: vero o falso sulle cose nell'acqua",
+     "href": "perche-le-cose-galleggiano-vero-o-falso"
+    },
+    {
+     "label": "Disegna cosa galleggia e cosa affonda nell'acqua",
+     "href": "disegna-cosa-galleggia-e-cosa-affonda"
+    }
+   ],
+   "title": "Pesante o leggero? Galleggia o affonda con la bilancia – PDF gratis",
+   "metaDescription": "Quattro bilance a due piatti: patata e pigna, chiodo e mela, piuma e sasso, tronco e martello. La bilancia dice chi pesa di più, si cerchia chi galleggia. PDF gratis."
+  },
+  {
+   "slug": "la-barchetta-di-plastilina-esperimento-sulla-forma",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "make-clay-float-change-the-shape",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda galleggia o affonda · classe seconda",
+   "h1": "La barchetta di plastilina: esperimento sulla forma",
+   "strand": "Scienze",
+   "slotTokens": [
+    "esperimento-galleggia-o-affonda",
+    "classe-seconda"
+   ],
+   "p1": "Sotto la legenda galleggia e affonda, il titoletto «Stessa plastilina, forme diverse» introduce due riquadri. In uno un panetto di plastilina diventa, seguendo una freccia, una barchetta con la bandierina; nell'altro lo stesso panetto diventa una palla. Sotto ciascuno c'è una vaschetta con due cerchi tratteggiati, a galla e sul fondo, da colorare. Più in basso, «Stesso acciaio, forme diverse»: un chiodo e una nave, e il bambino cerchia quella che galleggia. L'ultima metà della pagina è una grande vasca piena d'acqua, dove il bambino disegna la barchetta che ha costruito con le sue mani.",
+   "p2": "La plastilina è il materiale ideale per scoprire che non conta solo di che cosa è fatta una cosa, ma anche la sua forma: la palla va a fondo, la barchetta resta a galla, e la plastilina è la stessa. La nave d'acciaio porta la scoperta fuori dall'aula, verso il porto e il mare. In classe seconda non serve parlare di spinta: basta osservare che una forma larga e cava si appoggia sull'acqua invece di affondarci dentro. Il disegno finale fissa sulla carta l'esperimento vissuto.",
+   "p3": "Serve un panetto di plastilina a testa e una bacinella; l'attività pratica viene prima della scheda. Si può proseguire con una piccola sfida: quanti chicchi di riso porta la barchetta prima di affondare? La relazione di classe terza della famiglia propone proprio questa domanda, con i cubetti. Rispetto alla scheda con la bilancia, che lavora sul peso, qui il peso resta uguale e cambia soltanto la forma.",
+   "canonicalDeckSlug": "esperimento-galleggia-o-affonda-g2382",
+   "carousel": [
+    {
+     "label": "Esperimento galleggia o affonda: prevedo e verifico",
+     "href": "esperimento-galleggia-o-affonda-prevedo-e-verifico"
+    },
+    {
+     "label": "Pesante o leggero? Galleggia o affonda, con la bilancia a piatti",
+     "href": "pesante-o-leggero-galleggia-o-affonda-con-la-bilancia"
+    },
+    {
+     "label": "Galleggia o affonda: vero o falso sulle cose nell'acqua",
+     "href": "perche-le-cose-galleggiano-vero-o-falso"
+    },
+    {
+     "label": "Disegna cosa galleggia e cosa affonda nell'acqua",
+     "href": "disegna-cosa-galleggia-e-cosa-affonda"
+    }
+   ],
+   "title": "La barchetta di plastilina: esperimento sulla forma – Classe seconda PDF",
+   "metaDescription": "Stessa plastilina, forme diverse: una palla e una barchetta con le vaschette da colorare, un chiodo e una nave d'acciaio, una vasca grande per disegnare. PDF gratis."
+  },
+  {
+   "slug": "perche-le-cose-galleggiano-vero-o-falso",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "why-things-float-true-or-false",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda galleggia o affonda · classe seconda",
+   "h1": "Galleggia o affonda: vero o falso sulle cose nell'acqua",
+   "strand": "Scienze",
+   "slotTokens": [
+    "esperimento-galleggia-o-affonda",
+    "classe-seconda"
+   ],
+   "p1": "In alto una striscia con sette figure e il loro nome: chiodo, piuma, tronco, patata, zucca, nave, mela. Sotto, sei frasi numerate, ognuna con due bottoni, vero e falso: «Una zucca pesante galleggia», «Alcune cose pesanti galleggiano», «Tutte le cose leggere galleggiano», «Una nave d'acciaio affonda», «Una piuma affonda», «Una mela galleggia, ma una patata affonda». Tre frasi sono vere e tre false. Il bambino legge, pensa a ciò che ha visto o provato in acqua e cerchia la parola giusta.",
+   "p2": "Le frasi sono scelte per smontare due idee: che il peso decida tutto e che le cose leggere galleggino sempre. «Alcune cose pesanti galleggiano» e «tutte le cose leggere galleggiano» vanno lette parola per parola, perché alcune e tutte cambiano la verità della frase: è anche un lavoro di comprensione del testo. Le figure in alto portano le prove: il tronco è pesante e resta a galla, il chiodo è leggero e va a fondo, e basta lui a rendere falsa la frase 3. Perché succeda, con la forma e l'aria, la scheda non lo dice: è il compito della discussione.",
+   "p3": "Va usata dopo aver provato in acqua almeno qualcuno degli oggetti: senza esperienza diretta, il vero o falso diventa un indovinello. Per ogni frase falsa conviene chiedere di riscriverla vera, a voce o sul quaderno. Rispetto alla bilancia e alla barchetta della famiglia, qui il ragionamento passa dalla lettura; la relazione di classe terza chiede poi di scriverlo con parole proprie.",
+   "canonicalDeckSlug": "esperimento-galleggia-o-affonda-g2383",
+   "carousel": [
+    {
+     "label": "Esperimento galleggia o affonda: prevedo e verifico",
+     "href": "esperimento-galleggia-o-affonda-prevedo-e-verifico"
+    },
+    {
+     "label": "Pesante o leggero? Galleggia o affonda, con la bilancia a piatti",
+     "href": "pesante-o-leggero-galleggia-o-affonda-con-la-bilancia"
+    },
+    {
+     "label": "La barchetta di plastilina: esperimento sulla forma",
+     "href": "la-barchetta-di-plastilina-esperimento-sulla-forma"
+    },
+    {
+     "label": "Disegna cosa galleggia e cosa affonda nell'acqua",
+     "href": "disegna-cosa-galleggia-e-cosa-affonda"
+    }
+   ],
+   "title": "Vero o falso: che cosa galleggia nell'acqua – Classe seconda, PDF gratis",
+   "metaDescription": "Sei frasi sul galleggiamento, da «una zucca pesante galleggia» a «tutte le cose leggere galleggiano», e sette figure: si cerchia vero o falso. PDF gratis."
+  },
+  {
+   "slug": "disegna-cosa-galleggia-e-cosa-affonda",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "draw-what-floats-and-sinks",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda galleggia o affonda · infanzia",
+   "h1": "Disegna cosa galleggia e cosa affonda nell'acqua",
+   "strand": "Scienze",
+   "slotTokens": [
+    "esperimento-galleggia-o-affonda",
+    "infanzia"
+   ],
+   "p1": "Tutta la pagina è una grande vasca vista di fianco: l'acqua azzurra con le onde, la sabbia con i sassolini sul fondo. Due cartellini con una piccola icona indicano i due livelli: galleggia, all'altezza della superficie, e affonda, più in basso. Due riquadri tratteggiati stanno a cavallo del pelo dell'acqua, metà sopra e metà sotto; altri due poggiano sul fondo. Il bambino della scuola dell'infanzia disegna due cose che galleggiano nei riquadri in alto e due che affondano in quelli in basso. Non ci sono oggetti già stampati: li sceglie lui.",
+   "p2": "Disegnare è il modo in cui un bambino di cinque anni dice ciò che sa: qui deve richiamare alla memoria oggetti visti in acqua, al mare, nella vasca da bagno, in una bacinella a scuola. La posizione dei riquadri insegna senza parole che cosa vuol dire galleggiare, restare in superficie, e affondare, toccare il fondo. Chiedete a ogni bambino di raccontare i suoi disegni: le spiegazioni, come «affonda perché è di ferro», mostrano le idee da cui partire.",
+   "p3": "Una pagina, quattro disegni, colori a piacere. Funziona meglio dopo un gioco con una bacinella, quando i bambini hanno visto qualche oggetto andare a fondo. È la scheda d'ingresso della famiglia, per l'infanzia; in classe prima si passa all'esperimento con previsione e verifica, poi alla bilancia, alla plastilina e alla relazione. Raccogliete i disegni di tutti: insieme formano un elenco di oggetti da mettere alla prova.",
+   "canonicalDeckSlug": "esperimento-galleggia-o-affonda-k384",
+   "carousel": [
+    {
+     "label": "Esperimento galleggia o affonda: prevedo e verifico",
+     "href": "esperimento-galleggia-o-affonda-prevedo-e-verifico"
+    },
+    {
+     "label": "Pesante o leggero? Galleggia o affonda, con la bilancia a piatti",
+     "href": "pesante-o-leggero-galleggia-o-affonda-con-la-bilancia"
+    },
+    {
+     "label": "La barchetta di plastilina: esperimento sulla forma",
+     "href": "la-barchetta-di-plastilina-esperimento-sulla-forma"
+    },
+    {
+     "label": "Galleggia o affonda: vero o falso sulle cose nell'acqua",
+     "href": "perche-le-cose-galleggiano-vero-o-falso"
+    }
+   ],
+   "title": "Cosa galleggia e cosa affonda: disegnalo – Infanzia, PDF gratis",
+   "metaDescription": "Una grande vasca d'acqua con due riquadri sul pelo dell'acqua per ciò che galleggia e due sul fondo per ciò che affonda: si disegnano quattro oggetti. PDF gratis."
+  },
+  {
+   "slug": "relazione-di-un-esperimento-galleggia-o-affonda",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "sink-or-float-investigation-lab-report",
+    "theme": "",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda galleggia o affonda · classe terza",
+   "h1": "La relazione del mio esperimento: galleggia o affonda",
+   "strand": "Scienze",
+   "slotTokens": [
+    "esperimento-galleggia-o-affonda",
+    "classe-terza"
+   ],
+   "p1": "La pagina è divisa in quattro riquadri numerati. Nel primo, La mia domanda, due caselle da spuntare: «Un'arancia galleggia con la buccia? E senza la buccia?» e «Quanti cubetti porta una barchetta di plastilina prima di affondare?», ciascuna con il suo disegno. Nel secondo, Penso che, due righe per l'ipotesi. Nel terzo, Che cosa è successo, due vaschette vuote da disegnare e due righe per descrivere. Nel quarto, Ho imparato, due righe con l'avvio già stampato: «Adesso so che». Il bambino sceglie una domanda, scrive la sua ipotesi, fa la prova, disegna e scrive la conclusione.",
+   "p2": "È la struttura di una vera relazione scientifica ridotta alla misura della classe terza: domanda, ipotesi, osservazione, conclusione. Le due domande sono pensate per sorprendere: l'arancia con la buccia galleggia e senza va a fondo, perché la buccia è piena d'aria; la barchetta regge più cubetti di quanti se ne immaginano. Le due vaschette del riquadro 3 servono a confrontare due condizioni, con e senza buccia, oppure prima e dopo il carico. Descrivere un esperimento con un linguaggio adatto è un obiettivo tipico delle scienze in terza.",
+   "p3": "Servono un'arancia, oppure plastilina e cubetti, e una bacinella; meglio lavorare a gruppi di tre. La scheda si compila in due momenti, prima e dopo la prova, e l'avvio «Adesso so che» aiuta chi fatica a scrivere la conclusione. È la pagina d'arrivo della famiglia: dalla previsione colorata della classe prima si giunge qui alla relazione scritta. Le relazioni della classe si possono esporre come in una piccola mostra di scienze.",
+   "canonicalDeckSlug": "esperimento-galleggia-o-affonda-g3400",
+   "carousel": [
+    {
+     "label": "Esperimento galleggia o affonda: prevedo e verifico",
+     "href": "esperimento-galleggia-o-affonda-prevedo-e-verifico"
+    },
+    {
+     "label": "Pesante o leggero? Galleggia o affonda, con la bilancia a piatti",
+     "href": "pesante-o-leggero-galleggia-o-affonda-con-la-bilancia"
+    },
+    {
+     "label": "La barchetta di plastilina: esperimento sulla forma",
+     "href": "la-barchetta-di-plastilina-esperimento-sulla-forma"
+    },
+    {
+     "label": "Galleggia o affonda: vero o falso sulle cose nell'acqua",
+     "href": "perche-le-cose-galleggiano-vero-o-falso"
+    }
+   ],
+   "title": "Relazione di un esperimento: galleggia o affonda – Classe terza PDF",
+   "metaDescription": "Una relazione in quattro parti: la domanda sull'arancia con e senza buccia o sulla barchetta di plastilina, l'ipotesi, il risultato e ciò che ho imparato. PDF gratis."
+  },
+  {
+   "slug": "corsivo-maiuscolo-classe-seconda-scrivi-i-nomi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "cursive-capitals-with-names",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda corsivo · classe seconda",
+   "h1": "Corsivo maiuscolo classe seconda: scrivi i nomi",
+   "strand": "Scrittura",
+   "slotTokens": [
+    "corsivo",
+    "classe-seconda"
+   ],
+   "p1": "Cinque righe, ognuna dedicata a una maiuscola corsiva: S, L, G, F e A. A sinistra del margine rosso la lettera modello in nero; a destra, in grigio, la stessa maiuscola due volte e poi un nome che comincia con lei: Sofia, Leonardo, Giulia, Francesco, Aurora. Sotto ogni riga ce n'è una vuota. La rigatura è quella della classe seconda, più stretta di quella della scheda sulle vocali. Il bambino ripassa le due maiuscole e il nome, poi li riscrive da solo sulla riga sotto, cercando di tenere la stessa altezza del modello.",
+   "p2": "Le maiuscole corsive sono le lettere più difficili dell'alfabeto: hanno occhielli, riccioli e forme lontanissime dallo stampato, come la G e la F. Per questo in Italia si affrontano di solito in classe seconda, quando le minuscole sono ormai sicure. Legarle a un nome proprio dà loro un senso: la maiuscola serve proprio lì, all'inizio di un nome. Il passaggio più delicato è l'attacco tra la maiuscola e la prima minuscola, in Leonardo e in Francesco.",
+   "p3": "Chi ha tempo può scrivere il proprio nome e quello di un compagno sul quaderno, con la maiuscola corsiva. La scheda torna utile anche quando i bambini cominciano a firmare i loro lavori. Rispetto alla scheda base, che lavora sulle vocali minuscole, qui si passa alle maiuscole; le altre sorelle legano le lettere a due a due, scrivono parole con le figure e ricopiano frasi intere.",
+   "canonicalDeckSlug": "corsivo-g2384",
+   "carousel": [
+    {
+     "label": "Corsivo classe prima: le vocali a, e, i, o, u",
+     "href": "corsivo-classe-prima-le-vocali"
+    },
+    {
+     "label": "Corsivo classe prima: legare le lettere a due a due",
+     "href": "legare-le-lettere-in-corsivo-a-due-a-due"
+    },
+    {
+     "label": "Parole in corsivo da scrivere con le figure",
+     "href": "parole-in-corsivo-con-le-figure"
+    },
+    {
+     "label": "Leggere il corsivo: collega la parola alla figura",
+     "href": "letture-in-corsivo-collega-la-parola-alla-figura"
+    }
+   ],
+   "title": "Corsivo maiuscolo classe seconda: i nomi – Da stampare PDF gratis",
+   "metaDescription": "Cinque maiuscole corsive con un nome ciascuna, S come Sofia, L come Leonardo, G come Giulia, F come Francesco, A come Aurora: si ripassano e si riscrivono. PDF gratis."
+  },
+  {
+   "slug": "legare-le-lettere-in-corsivo-a-due-a-due",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "cursive-letter-connections",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda corsivo · classe prima",
+   "h1": "Corsivo classe prima: legare le lettere a due a due",
+   "strand": "Scrittura",
+   "slotTokens": [
+    "corsivo",
+    "classe-prima"
+   ],
+   "p1": "Cinque righe sulla rigatura larga di classe prima. A sinistra del margine una coppia di lettere corsive in nero: br, va, ve, or, gn. A destra, in grigio, la stessa coppia due volte e poi una parola che la contiene: libro, uva, neve, fiore, ragno. Sotto ogni riga c'è una riga vuota. Il bambino ripassa le coppie e la parola, poi le riscrive da solo. In corsivo la coppia è l'unità in cui si impara davvero il legame: la b che si chiude e riparte verso la r, la v che aggancia la vocale dall'alto.",
+   "p2": "Le lettere prese una per una un bambino le sa scrivere; è il passaggio dall'una all'altra che mette in difficoltà. Le coppie scelte raccolgono legami insidiosi della scrittura italiana: gli attacchi alti della b, della v e della o, e il gruppo gn, che in corsivo chiede di scendere sotto il rigo e risalire. Ritrovarle subito in una parola vera mostra perché valga la pena esercitarle. È il lavoro che le maestre di classe prima fanno ogni giorno sul quaderno a righe.",
+   "p3": "Si ripassa prima di scrivere: il tratto grigio guida il movimento, poi la mano lo ripete da sola. Conviene fermarsi su or e ve, dove gli attacchi alti sono più difficili da controllare. Rispetto alla scheda base, che lega tre volte la stessa vocale, qui si legano lettere diverse. Le sorelle di classe seconda passano alle parole con le figure, alle maiuscole e alle frasi da ricopiare.",
+   "canonicalDeckSlug": "corsivo-g2385",
+   "carousel": [
+    {
+     "label": "Corsivo classe prima: le vocali a, e, i, o, u",
+     "href": "corsivo-classe-prima-le-vocali"
+    },
+    {
+     "label": "Corsivo maiuscolo classe seconda: scrivi i nomi",
+     "href": "corsivo-maiuscolo-classe-seconda-scrivi-i-nomi"
+    },
+    {
+     "label": "Parole in corsivo da scrivere con le figure",
+     "href": "parole-in-corsivo-con-le-figure"
+    },
+    {
+     "label": "Leggere il corsivo: collega la parola alla figura",
+     "href": "letture-in-corsivo-collega-la-parola-alla-figura"
+    }
+   ],
+   "title": "Legare le lettere in corsivo a due a due – Classe prima, PDF gratis",
+   "metaDescription": "Cinque coppie di lettere legate in corsivo, br, va, ve, or e gn, da ripassare due volte e poi dentro una parola: libro, uva, neve, fiore, ragno. PDF gratis."
+  },
+  {
+   "slug": "parole-in-corsivo-con-le-figure",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "cursive-words-with-pictures",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda corsivo · classe seconda",
+   "h1": "Parole in corsivo da scrivere con le figure",
+   "strand": "Scrittura",
+   "slotTokens": [
+    "corsivo",
+    "classe-seconda"
+   ],
+   "p1": "Quattro righe, ognuna con una figura a colori accanto al margine: un leone, una tazza, un topo, un limone. Sulla riga la parola è scritta in corsivo nero come modello e subito dopo in grigio, da ripassare. Sotto c'è una riga vuota per riscriverla. La consegna chiede di legare prima tutte le lettere e di mettere solo alla fine i puntini delle i e i taglietti delle t, come si fa nel corsivo tradizionale. La figura permette di capire la parola anche a chi non legge ancora bene il corsivo.",
+   "p2": "Scrivere una parola intera senza staccare la matita è il vero traguardo del corsivo, e la regola dei puntini e dei taglietti alla fine serve proprio a questo: non interrompere il gesto. Le parole sono corte e piene di legami diversi: la doppia z di tazza, la p che scende sotto il rigo in topo, la i e la m di limone. In leone non c'è niente da aggiungere alla fine, e vale la pena farlo notare. La figura crea un ponte tra leggere e scrivere.",
+   "p3": "Quattro parole bastano per una lezione breve; per esercitarsi di più si può chiedere una frase con ciascuna. Il ripasso grigio è uno solo per parola, poi la riga è libera: è la scheda della famiglia che lascia più spazio alla scrittura autonoma prima delle frasi. Rispetto alle coppie di lettere di classe prima, qui si scrive la parola intera; la lettura del corsivo con le figure è il suo rovescio.",
+   "canonicalDeckSlug": "corsivo-g2386",
+   "carousel": [
+    {
+     "label": "Corsivo classe prima: le vocali a, e, i, o, u",
+     "href": "corsivo-classe-prima-le-vocali"
+    },
+    {
+     "label": "Corsivo maiuscolo classe seconda: scrivi i nomi",
+     "href": "corsivo-maiuscolo-classe-seconda-scrivi-i-nomi"
+    },
+    {
+     "label": "Corsivo classe prima: legare le lettere a due a due",
+     "href": "legare-le-lettere-in-corsivo-a-due-a-due"
+    },
+    {
+     "label": "Leggere il corsivo: collega la parola alla figura",
+     "href": "letture-in-corsivo-collega-la-parola-alla-figura"
+    }
+   ],
+   "title": "Parole in corsivo con le figure – Classe seconda da stampare PDF gratis",
+   "metaDescription": "Quattro parole in corsivo accanto alla loro figura, leone, tazza, topo e limone: si ripassa la parola grigia e la si riscrive sulla riga sotto. PDF gratis."
+  },
+  {
+   "slug": "letture-in-corsivo-collega-la-parola-alla-figura",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "reading-cursive",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda corsivo · classe seconda",
+   "h1": "Leggere il corsivo: collega la parola alla figura",
+   "strand": "Lettura",
+   "slotTokens": [
+    "corsivo",
+    "classe-seconda"
+   ],
+   "p1": "Due colonne. A sinistra sei cartellini con una parola in corsivo nero, grande e ben leggibile: lampada, pesce, aquilone, letto, sedia, limone. A destra sei figure a colori in un ordine diverso: un aquilone, un limone, una sedia, un pesce, un letto, una lampada. Tra le due colonne, due file di pallini arancioni. Il bambino legge ogni parola e traccia una linea fino alla figura che le corrisponde. Nessuna parola si trova alla stessa altezza della sua figura, così non si può collegare per allineamento: bisogna leggere.",
+   "p2": "Saper scrivere in corsivo non vuol dire saperlo leggere: le lettere legate cambiano forma, e un bambino che legge bene lo stampato può inciampare su una q o su una s corsiva. Aquilone, con la q e la u legate, è la parola più difficile; lampada e limone cominciano entrambe con la l e costringono a guardare oltre la prima lettera. La lettura del corsivo arriva di solito in classe seconda, quando i libri cominciano a proporre brani scritti in questo carattere.",
+   "p3": "Sei collegamenti, una decina di minuti, nessuna scrittura: la scheda funziona anche come verifica veloce. Si può prolungare chiedendo di ricopiare ogni parola in corsivo sotto la sua figura. Rispetto alle altre pagine della famiglia, tutte di scrittura, questa è l'unica di lettura; si abbina bene alle parole con le figure, che fanno il percorso contrario.",
+   "canonicalDeckSlug": "corsivo-g2387",
+   "carousel": [
+    {
+     "label": "Corsivo classe prima: le vocali a, e, i, o, u",
+     "href": "corsivo-classe-prima-le-vocali"
+    },
+    {
+     "label": "Corsivo maiuscolo classe seconda: scrivi i nomi",
+     "href": "corsivo-maiuscolo-classe-seconda-scrivi-i-nomi"
+    },
+    {
+     "label": "Corsivo classe prima: legare le lettere a due a due",
+     "href": "legare-le-lettere-in-corsivo-a-due-a-due"
+    },
+    {
+     "label": "Parole in corsivo da scrivere con le figure",
+     "href": "parole-in-corsivo-con-le-figure"
+    }
+   ],
+   "title": "Letture in corsivo: collega la parola alla figura – Classe seconda PDF",
+   "metaDescription": "Sei parole scritte in corsivo, lampada, pesce, aquilone, letto, sedia e limone, e sei figure in un altro ordine: si legge e si collega con una linea. PDF gratis."
+  },
+  {
+   "slug": "frasi-in-corsivo-da-ricopiare",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cursive-writing",
+    "mode": "copy-a-sentence-in-cursive",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda corsivo · classe seconda",
+   "h1": "Frasi in corsivo da ricopiare",
+   "strand": "Scrittura",
+   "slotTokens": [
+    "corsivo",
+    "classe-seconda"
+   ],
+   "p1": "Tre fasce colorate portano ciascuna una frase in stampato: «Ci piace leggere i libri.», «Luca gioca con la barca.», «Il mio cane corre veloce.». Sotto ogni frase ci sono due righe con il margine rosso. Solo la prima frase compare anche in corsivo grigio sulla prima riga, da ripassare; per le altre due il bambino deve trasformare lo stampato in corsivo da solo. Le frasi hanno cinque parole, una maiuscola iniziale e il punto finale. Il bambino ripassa, poi ricopia ogni frase in corsivo sulle righe vuote.",
+   "p2": "Ricopiare dallo stampato al corsivo è un doppio lavoro: leggere un carattere e scriverne un altro, tenendo a mente la frase intera. Qui entrano in gioco tutte le difficoltà del corsivo insieme: le maiuscole C, L e I, gli spazi tra le parole, le lettere che scendono sotto il rigo come la g e la p. La prima frase ripassata dà il ritmo, le altre due verificano se il bambino sa fare da solo. In Italia questo passaggio è tipico della classe seconda.",
+   "p3": "Tre frasi e sei righe si scrivono in una ventina di minuti. Se una frase non entra in una riga, la seconda riga serve proprio a questo: si va a capo. Chi finisce può inventare una quarta frase su di sé. È la scheda più lunga della famiglia; prima di proporla conviene che i bambini abbiano lavorato sulle coppie di lettere, sulle maiuscole e sulle parole con le figure.",
+   "canonicalDeckSlug": "corsivo-g3401",
+   "carousel": [
+    {
+     "label": "Corsivo classe prima: le vocali a, e, i, o, u",
+     "href": "corsivo-classe-prima-le-vocali"
+    },
+    {
+     "label": "Corsivo maiuscolo classe seconda: scrivi i nomi",
+     "href": "corsivo-maiuscolo-classe-seconda-scrivi-i-nomi"
+    },
+    {
+     "label": "Corsivo classe prima: legare le lettere a due a due",
+     "href": "legare-le-lettere-in-corsivo-a-due-a-due"
+    },
+    {
+     "label": "Parole in corsivo da scrivere con le figure",
+     "href": "parole-in-corsivo-con-le-figure"
+    }
+   ],
+   "title": "Frasi in corsivo da ricopiare – Classe seconda da stampare PDF gratis",
+   "metaDescription": "Tre frasi in stampato da ricopiare in corsivo: la prima, «Ci piace leggere i libri», è anche da ripassare in grigio; ognuna ha due righe vuote. PDF gratis."
   }
  ]
 }

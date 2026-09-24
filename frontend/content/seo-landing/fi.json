@@ -151004,6 +151004,996 @@
    ],
    "title": "Johdokset lauseissa 3. luokka | tulostettava PDF ilmainen",
    "metaDescription": "Johdokset lauseissa 3. luokalle: kaksi sanaperhettä, ilo ja kala, ja neljä johdosta kummassakin. Kirjoita iloinen, iloisesti, kalastaja tai kalastus oikeaan lauseeseen."
+  },
+  {
+   "slug": "kuvasarja-numeroi-kuvat",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "base",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Kuvasarjat esikouluun",
+   "h1": "Kuvasarja järjestykseen: numeroi kuvat",
+   "strand": "Vuorovaikutustilanteissa toimiminen",
+   "standard": "RL.K.2",
+   "slotTokens": [
+    "kuvasarjat",
+    "esikoulu"
+   ],
+   "p1": "Tällä sivulla on kaksi kuvasarjaa, jotka roikkuvat pyykkinaruilla pyykkipoikien varassa. Kummassakin on neljä kuvaa sekaisin, ja jokaisen kuvan alla on katkoviivainen ruutu numerolle. Ylemmässä sarjassa banaani kuoritaan: ensin se on kokonainen, sitten kuoresta roikkuu yksi liuska, sitten kolme, ja lopuksi lautasella on pelkkä tyhjä kuori. Alemmassa sarjassa joku piirtää liidulla ruutuhyppelyä asfalttiin ruutu kerrallaan, ja liitu lyhenee kuva kuvalta. Lapsi katsoo, mikä muuttuu, ja kirjoittaa ruutuihin numerot 1, 2, 3 ja 4. Kuvissa ei ole tekstiä, joten tehtävä sopii esikoulu-ikäiselle, joka ei vielä lue.",
+   "p2": "Kuvasarjan järjestäminen on kerronnan pohjatyötä. Lapsen täytyy verrata kuvia keskenään ja löytää vihje: kuinka paljon kuorta on vielä kiinni, montako ruutua maahan on jo piirretty, kuinka pitkä liitu on jäljellä. Kun järjestys löytyy, lapsi huomaa, että tarinalla on alku ja loppu ja että niiden välissä tapahtuu jotain. Esiopetuksen opetussuunnitelman perusteissa kerronnan harjoittelu kuuluu oppimiskokonaisuuteen Kielten rikas maailma, ja perusopetuksen OPS 2014 jatkaa samaa äidinkielen vuorovaikutustavoitteissa. Pyydä lasta kertomaan sarja ääneen sanoilla ensin, sitten ja lopuksi, kun numerot on kirjoitettu.",
+   "p3": "Tämä on kuvasarjojen perussivu ja helpoin aloitus: neljä kuvaa, yksi numero ruutuun, ei leikattavaa eikä kirjoitettavia lauseita. Sivu toimii myös mustavalkoisena tulosteena. Jos kahdeksan kuvaa on kerralla liikaa, peitä alempi sarja paperilla ja tee yksi tarina kerrallaan. Seuraava askel on sivu, jossa kuvat leikataan irti ja liimataan sanojen ensin, sitten ja lopuksi yläpuolelle, ja ensimmäisellä luokalla sivu, jossa lapsi itse päättää, mitä tapahtuu seuraavaksi.",
+   "canonicalDeckSlug": "kuvasarjat-k379",
+   "carousel": [
+    {
+     "label": "Kuvasarja leikattavaksi: ensin, sitten, lopuksi",
+     "href": "kuvasarja-leikattavaksi-ensin-sitten-lopuksi"
+    },
+    {
+     "label": "Kuvasarja: mitä tapahtuu seuraavaksi?",
+     "href": "kuvasarja-mita-tapahtuu-seuraavaksi"
+    },
+    {
+     "label": "Kuvakertomus: alku, keskikohta ja loppu",
+     "href": "kuvakertomus-alku-keskikohta-ja-loppu"
+    },
+    {
+     "label": "Kuvasarja ja lauseet: järjestä lauseet ja yhdistä ne kuviin",
+     "href": "kuvasarja-ja-lauseet"
+    }
+   ],
+   "title": "Kuvasarja järjestykseen esikoulu: numeroi kuvat | tulostettava PDF",
+   "metaDescription": "Kuvasarja järjestykseen esikouluun: kaksi neljän kuvan tarinaa pyykkinarulla. Lapsi numeroi kuvat 1–4 ja kertoo tarinan. Ilmainen tulostettava PDF."
+  },
+  {
+   "slug": "hygienia-ja-terveelliset-tavat-esikoulu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "base",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Hygienia ja terveelliset elintavat",
+   "h1": "Terveelliset tavat: mitä kukin lapsi käyttää?",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "hygienia-ja-terveelliset-tavat",
+    "esikoulu"
+   ],
+   "p1": "Ylhäällä tangosta roikkuu viisi kuvaa lapsista, alhaalla hyllyllä on viisi esinettä. Yöpuvussa oleva lapsi venyttelee kuun ja tähtien alla, toinen pesee käsiä lavuaarilla, kolmas seisoo kirkkaassa auringonpaisteessa, neljäs on käsi hiuksissa ja viides pesee hampaita. Hyllyllä ovat hattu, sänky, hammasharja, saippua ja kampa, eri järjestyksessä kuin lapset. Kunkin kuvan alla ja jokaisen esineen yläpuolella on piste, ja lapsi vetää viivan lapsesta siihen esineeseen, jota tämä käyttää. Sivulla ei ole luettavaa ohjeen lisäksi, joten se sopii esikoulu-ikäiselle.",
+   "p2": "Hygienia ja terveelliset tavat opitaan arjessa, ja tämä tehtävä kytkee tavan esineeseen, jonka lapsi tuntee kotoa: saippua käsienpesuun, hammasharja hampaille, sänky uneen ja lepoon, hattu suojaksi auringolta ja kampa hiusten hoitoon. Kun lapsi selittää viivansa, hän nimeää samalla tavan. Esiopetuksen opetussuunnitelman perusteissa terveys ja itsestä huolehtiminen kuuluvat oppimiskokonaisuuteen Kasvan, liikun ja kehityn, ja perusopetuksessa aihe jatkuu ympäristöopissa ensimmäisellä ja toisella luokalla. Sivu ei käsittele ruokaa, sillä ravinnolle on omat tehtävänsä.",
+   "p3": "Käy kuvat läpi yhdessä ennen viivojen vetämistä ja kysy, mitä kukin lapsi tekee. Neljännen lapsen ele on pieni, joten auta tarvittaessa: hän laittaa hiuksiaan, ja siihen tarvitaan kampa. Tämä on perheen perussivu. Sen jatkoksi sopii käsienpesuohje, jossa pesun vaiheet numeroidaan, ja ensimmäisellä luokalla hampaiden pesu ennen, aikana ja jälkeen. Sivu tulostuu yhdelle arkille ja toimii myös mustavalkoisena. Kuvat ovat yksinkertaisia siluetteja ilman värejä.",
+   "canonicalDeckSlug": "hygienia-ja-terveelliset-tavat-k380",
+   "carousel": [
+    {
+     "label": "Käsienpesuohje lapsille: pese kädet oikein",
+     "href": "kasienpesuohje-lapsille"
+    },
+    {
+     "label": "Hampaiden pesu: ennen, aikana ja jälkeen",
+     "href": "hampaiden-pesu-ennen-aikana-ja-jalkeen"
+    },
+    {
+     "label": "Pysäytä pöpöt: mikä estää niitä leviämästä?",
+     "href": "pysayta-popot"
+    },
+    {
+     "label": "Terveelliset tavat: miksi teemme niin?",
+     "href": "terveelliset-tavat-miksi-teemme-niin"
+    }
+   ],
+   "title": "Hygienia lapsille: terveelliset tavat esikoulu | tulostettava PDF ilmainen",
+   "metaDescription": "Hygienia ja terveelliset tavat esikouluun: viisi lasta ja viisi esinettä, kuten saippua, hammasharja ja sänky. Lapsi yhdistää viivalla. Ilmainen PDF."
+  },
+  {
+   "slug": "missa-elaimet-asuvat-elinymparistot",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "base",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Eläinten elinympäristöt",
+   "h1": "Eläinten elinympäristöt: metsä, niitty, järvi ja meri",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "elainten-elinymparistot",
+    "1-luokka"
+   ],
+   "p1": "Sivun yläosassa on neljä maisemaa, joilla on kirjain ja nimi: A Järvi, B Niitty, C Metsä ja D Meri. Järvellä kasvaa osmankäämejä ja lumme, niityllä kukkia ja heinää, metsässä lehtipuita ja kuusia, meressä levää. Alaosassa on kahdeksan eläinkorttia: heinäsirkka, delfiini, sudenkorento, valas, orava, majava, meritähti ja tikka. Jokaisen eläimen alla on katkoviivainen ruutu, johon lapsi kirjoittaa sen elinympäristön kirjaimen, jossa eläin elää. Kirjaimet tekevät tehtävästä nopean, sillä lapsi ei kirjoita sanoja vaan yhden kirjaimen.",
+   "p2": "Elinympäristö on paikka, josta eläin saa ruokaa ja suojaa ja jossa se voi lisääntyä. Kun lapsi pohtii, miksi orava kuuluu metsään ja majava järveen, hän yhdistää eläimen piirteet ympäristöön. Järvi, niitty ja metsä ovat tuttuja suomalaisesta luonnosta, ja ympäristöopissa niitä tutkitaan jo ensimmäisellä ja toisella luokalla, usein retkellä lähimetsään tai rantaan. Osa eläimistä herättää hyvää keskustelua: sudenkorennon toukka elää järvessä, mutta aikuisen korennon voi nähdä myös niityllä. Meren eläimet ovat valtamerten asukkaita, eivätkä delfiini ja valas ui Itämeressä.",
+   "p3": "Tehkää ensin yksi esimerkki yhdessä, vaikkapa orava ja metsä, ja antakaa lapsen jatkaa itse. Jos lapsi perustelee sudenkorennolle niityn, hyväksy perustelu ja kerro järvestä toukan kotina. Tämä on perheen perussivu. Esikoululaisille sopii eläinten pesät ja kodit, ja ensimmäisellä luokalla jatketaan sivulla, jossa etsitään eläin, joka ei asu elinympäristössä. Toisen luokan sivut käsittelevät eläinten sopeutumista ja omaa tutkimusta.",
+   "canonicalDeckSlug": "elainten-elinymparistot-g1398",
+   "carousel": [
+    {
+     "label": "Eläinten pesät ja kodit: kuka asuu missäkin?",
+     "href": "elainten-pesat-ja-kodit"
+    },
+    {
+     "label": "Eläinten elinympäristöt: kuka ei asu täällä?",
+     "href": "elinymparistot-kuka-ei-asu-taalla"
+    },
+    {
+     "label": "Eläinten sopeutuminen elinympäristöön",
+     "href": "elainten-sopeutuminen-elinymparistoon"
+    },
+    {
+     "label": "Mitä eläimet tarvitsevat? Ruoka ja koti",
+     "href": "mita-elaimet-tarvitsevat-ruoka-ja-koti"
+    }
+   ],
+   "title": "Missä eläimet asuvat? Eläinten elinympäristöt | tulostettava PDF ilmainen",
+   "metaDescription": "Eläinten elinympäristöt: järvi, niitty, metsä ja meri kirjaimin A–D. Lapsi kirjoittaa kahdeksan eläimen alle oikean kirjaimen. 1. luokka, ilmainen PDF."
+  },
+  {
+   "slug": "kelluuko-vai-uppoaako-kokeilu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "base",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Kelluminen ja uppoaminen",
+   "h1": "Kelluuko vai uppoaako? Arvaus ja kokeilu",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kelluminen-ja-uppoaminen",
+    "1-luokka"
+   ],
+   "p1": "Ylhäällä on selitys: kun pallo on pinnalla, esine kelluu, ja kun se on pohjalla, esine uppoaa. Sen alla on kuusi riviä, yksi kullekin esineelle: pultti, sakset, pallo, pihdit, kurpitsa ja leikkivene, jokainen nimineen. Rivillä on kaksi vesiastiaa, Arvaukseni ja Kokeilu, ja kummassakin kaksi katkoviivaympyrää, toinen pinnalla ja toinen pohjalla, sekä tähti sarakkeessa Yllätys. Lapsi värittää ennen kokeilua ympyrän ensimmäiseen astiaan, kokeilun jälkeen toiseen ja tähden, jos tulos yllätti.",
+   "p2": "Sivun ydin on arvauksen ja tuloksen vertailu. Kun lapsi sitoutuu arvaukseen ennen kuin esine lasketaan veteen, hän huomaa oman käsityksensä, ja tähti tekee yllätyksestä hyväksytyn osan tutkimista. Metalliset esineet ja kelluvat esineet jakautuvat tasan, ja kurpitsa yllättää usein: iso ja painava kurpitsa kelluu. Ympäristöopissa ensimmäisellä ja toisella luokalla harjoitellaan kysymistä, arvaamista, kokeilemista ja tulosten kirjaamista, ja kelluminen on monelle ensimmäinen oma koe.",
+   "p3": "Varaa iso vesiastia, pyyhe ja esineet. Jos kurpitsaa ei ole, sen tilalle käy iso omena tai appelsiini, ja jalkapallo tarvitsee ison saavin, joten suunnittele astia sen mukaan. Kokeilu toimii parhaiten pienryhmissä, jolloin jokainen saa laskea esineen veteen itse. Tämä on perheen perussivu. Esikoululaisille sopii kelluvien ja uppoavien esineiden piirtäminen, ja toisella luokalla tutkitaan, miten muovailuvahan muoto vaikuttaa kellumiseen. Arvauksen värittäminen ennen kokeilua on tärkeää: jos värit lisätään jälkikäteen, yllätystä ei synny. Kirjatkaa tulokset heti, ennen kuin seuraava esine lasketaan veteen.",
+   "canonicalDeckSlug": "kelluminen-ja-uppoaminen-g1399",
+   "carousel": [
+    {
+     "label": "Painava vai kevyt? Kelluminen ja uppoaminen vaa’an avulla",
+     "href": "painava-vai-kevyt-kelluuko-vai-uppoaako"
+    },
+    {
+     "label": "Muovailuvaha kellumaan: muodon muuttamisen kokeilu",
+     "href": "muovailuvaha-kellumaan-muodon-kokeilu"
+    },
+    {
+     "label": "Totta vai tarua? Kelluminen ja uppoaminen",
+     "href": "kelluminen-totta-vai-tarua"
+    },
+    {
+     "label": "Piirrä kelluvat ja uppoavat esineet vesiastiaan",
+     "href": "piirra-kelluvat-ja-uppoavat-esineet"
+    }
+   ],
+   "title": "Kelluuko vai uppoaako? Arvaa ja kokeile 1. luokka | tulostettava PDF",
+   "metaDescription": "Kelluuko vai uppoaako: kuusi esinettä ja kaksi vesiastiaa kunkin kohdalla, ensin arvaus ja sitten kokeilu. Tähti yllätykselle. 1. luokka, ilmainen PDF."
+  },
+  {
+   "slug": "kuvasarja-leikattavaksi-ensin-sitten-lopuksi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "story-sequencing-cut-and-paste-first-next-last",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Kuvasarjat esikouluun",
+   "h1": "Kuvasarja leikattavaksi: ensin, sitten, lopuksi",
+   "strand": "Vuorovaikutustilanteissa toimiminen",
+   "standard": "W.K.3",
+   "slotTokens": [
+    "kuvasarjat",
+    "esikoulu"
+   ],
+   "p1": "Sivun yläosassa on kaksi pyykkinarua, ja kummassakin roikkuu kolme tyhjää kehystä. Kehysten alla ovat sanat Ensin, Sitten ja Lopuksi, ja narun alussa on merkki: ylemmässä pallo, alemmassa kolmio. Alareunassa on kaksi leikattavaa kaistaletta saksien kuvan kera, ja niissä on samat merkit. Pallon kaistaleella on kokonainen omena, syöty omenankara ja omena, josta on haukattu paloja, sekaisin. Kolmion kaistaleella on tyhjä paperi, kirjekuori ja paperi, jolle on piirretty kukka ja kirjoitettu rivejä. Lapsi leikkaa kuvat irti ja liimaa ne sen rivin kehyksiin, jolla on sama merkki. Esikoulu-ikäinen harjoittelee samalla saksien käyttöä.",
+   "p2": "Kolme kuvaa ja kolme järjestyssanaa on esikoululaiselle hyvä mitta: tarinan alku, keskikohta ja loppu mahtuvat yhteen katseeseen. Sanat ensin, sitten ja lopuksi ovat valmiina kehysten alla, joten lapsi näkee ne, vaikka ei vielä lukisi niitä itse, ja aikuinen voi lukea ne ääneen. Merkki eli pallo tai kolmio pitää tarinat erillään, ettei omenan kuva päädy kirjeen riville. Leikkaaminen hidastaa työtä sopivasti: kun kuva on kädessä, sitä voi siirrellä ja kokeilla eri kohtiin ennen liimaamista, ja järjestyksen voi vielä muuttaa. Kirjeen tarina vaatii tarkkuutta, sillä tyhjä paperi, kirjoitettu kirje ja suljettu kuori on pääteltävä arjen kokemuksesta.",
+   "p3": "Tulosta sivu tavalliselle paperille ja varaa sakset ja liimapuikko. Kaistaleet kannattaa leikata ensin irti yhtenä palana ja vasta sitten kuva kerrallaan, jolloin merkki pysyy mukana eikä tarinoita sekoiteta. Perussivulla numeroidaan neljä kuvaa, kun tässä kolme kuvaa siirretään käsin järjestyssanojen yläpuolelle. Kun kuvat on liimattu, lapsi voi kertoa tarinan omin sanoin ja aloittaa jokaisen lauseen kehyksen alla olevalla sanalla.",
+   "canonicalDeckSlug": "kuvasarjat-k381",
+   "carousel": [
+    {
+     "label": "Kuvasarja järjestykseen: numeroi kuvat",
+     "href": "kuvasarja-numeroi-kuvat"
+    },
+    {
+     "label": "Kuvasarja: mitä tapahtuu seuraavaksi?",
+     "href": "kuvasarja-mita-tapahtuu-seuraavaksi"
+    },
+    {
+     "label": "Kuvakertomus: alku, keskikohta ja loppu",
+     "href": "kuvakertomus-alku-keskikohta-ja-loppu"
+    },
+    {
+     "label": "Kuvasarja ja lauseet: järjestä lauseet ja yhdistä ne kuviin",
+     "href": "kuvasarja-ja-lauseet"
+    }
+   ],
+   "title": "Kuvasarja leikattavaksi: ensin, sitten, lopuksi | tulostettava PDF",
+   "metaDescription": "Kuvasarja leikattavaksi: kaksi kolmen kuvan tarinaa, omena ja kirje. Lapsi leikkaa kuvat ja liimaa ne sanojen ensin, sitten ja lopuksi yläpuolelle. PDF."
+  },
+  {
+   "slug": "kuvasarja-mita-tapahtuu-seuraavaksi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "story-sequencing-what-happens-next",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Kuvasarjat 1. luokalle",
+   "h1": "Kuvasarja: mitä tapahtuu seuraavaksi?",
+   "strand": "Vuorovaikutustilanteissa toimiminen",
+   "standard": "RL.1.7",
+   "slotTokens": [
+    "kuvasarjat",
+    "1-luokka"
+   ],
+   "p1": "Kysymysmerkki odottaa jokaisen tarinan lopussa. Sivulla on kolme pyykkinarua, ja kullakin roikkuu kolme kuvaa ja neljäs, katkoviivainen kehys, jossa on vain kysymysmerkki. Narun alla on kolme vaihtoehtoa. Ensimmäisessä tarinassa omenasta haukataan pala kerrallaan, toisessa paperiarkki leikataan suikaleiksi ja suikaleista liimataan renkaita, kolmannessa lumipallo kasvaa ja sen päälle nostetaan toinen pallo. Vaihtoehdoissa on oikea jatko, kuva toisesta tarinasta ja kuva, joka palaa tarinan alkuun, kuten sama tyhjä arkki tai pieni lumipallo. Lapsi ympyröi kuvan, joka kuuluu kysymysmerkin paikalle.",
+   "p2": "Tämä on ennustamista, ei pelkkää järjestämistä. Kolme kuvaa näyttää suunnan, ja lapsen on pääteltävä, mihin muutos johtaa: jos omena pienenee joka kuvassa, lopulta siitä jää jäljelle kara. Väärät vaihtoehdot on valittu harkiten. Toisen tarinan kuva houkuttelee lasta, joka katsoo vain värejä, ja alkuun palaava kuva paljastaa, onko lapsi ymmärtänyt, että tarina etenee eikä kulje taaksepäin. Tapahtumien ennakointi ja kuvan tulkinta kuuluvat OPS 2014:n äidinkielen ja kirjallisuuden tavoitteisiin ensimmäisellä ja toisella luokalla, ja ne ovat myöhemmän luetun ymmärtämisen perusta.",
+   "p3": "Kun vastaus on ympyröity, kysy lapselta, miksi hän valitsi juuri sen kuvan ja miksi kaksi muuta eivät käy. Perustelu on tehtävän arvokkain osa, ja sen voi tehdä parin kanssa. Kuvasarjojen perussivulla numeroidaan koko sarja, kun tässä päätetään vain puuttuva loppu. Seuraava sivu, alku, keskikohta ja loppu, kääntää asetelman: tyhjä kehys on keskellä, eikä vaihtoehtoja anneta, vaan lapsi piirtää kuvan itse.",
+   "canonicalDeckSlug": "kuvasarjat-g1400",
+   "carousel": [
+    {
+     "label": "Kuvasarja järjestykseen: numeroi kuvat",
+     "href": "kuvasarja-numeroi-kuvat"
+    },
+    {
+     "label": "Kuvasarja leikattavaksi: ensin, sitten, lopuksi",
+     "href": "kuvasarja-leikattavaksi-ensin-sitten-lopuksi"
+    },
+    {
+     "label": "Kuvakertomus: alku, keskikohta ja loppu",
+     "href": "kuvakertomus-alku-keskikohta-ja-loppu"
+    },
+    {
+     "label": "Kuvasarja ja lauseet: järjestä lauseet ja yhdistä ne kuviin",
+     "href": "kuvasarja-ja-lauseet"
+    }
+   ],
+   "title": "Kuvasarja: mitä tapahtuu seuraavaksi? 1. luokka | tulostettava PDF",
+   "metaDescription": "Mitä tapahtuu seuraavaksi: kolme kuvasarjaa, joiden lopussa on kysymysmerkki. Lapsi ympyröi kolmesta vaihtoehdosta oikean jatkon. 1. luokka, ilmainen PDF."
+  },
+  {
+   "slug": "kuvakertomus-alku-keskikohta-ja-loppu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "beginning-middle-and-end-of-a-story",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Kuvakertomukset 1. luokalle",
+   "h1": "Kuvakertomus: alku, keskikohta ja loppu",
+   "strand": "Vuorovaikutustilanteissa toimiminen",
+   "standard": "W.1.3",
+   "slotTokens": [
+    "kuvasarjat",
+    "1-luokka"
+   ],
+   "p1": "Alku ja loppu ovat valmiina, keskikohta puuttuu. Sivulla on kaksi kuvakertomusta, ja kummassakin on kolme kehystä pyykkinarulla nimilappuineen Alku, Keskikohta ja Loppu. Ensimmäisen kertomuksen alussa lautasella on kokonainen banaani ja lopussa pelkkä levitetty kuori. Toisen alussa lumisella pihalla on pieni lumipallo, lopussa valmis lumiukko, jolla on hattu, porkkananenä ja oksakädet. Keskimmäinen kehys on tyhjä ja katkoviivainen, ja lapsi piirtää siihen, mitä alun ja lopun välillä tapahtuu: puoliksi kuoritun banaanin tai kaksi isoa lumipalloa päällekkäin.",
+   "p2": "Keskikohdan piirtäminen vaatii enemmän kuin valmiiden kuvien järjestäminen. Lapsen on keksittävä itse välivaihe, joka sopii sekä alkuun että loppuun, eli hänen on ymmärrettävä, mitä muuttuu ja missä järjestyksessä. Oikeita vastauksia on useita: banaani voi olla kuorittu vähän tai melkein kokonaan, ja lumiukko voi olla puolivalmis tai vasta yksi suuri pallo. Juuri siksi tehtävä avaa keskustelun. Kertomuksen rakenne, alku, keskikohta ja loppu, on käsite, johon ensimmäisen luokan äidinkielen tunneilla palataan sekä kuunnellessa että omia tarinoita kertoessa.",
+   "p3": "Anna lapselle värikynät ja riittävästi aikaa; piirustuksen ei tarvitse olla hieno, kunhan siitä näkee muutoksen. Pyydä sen jälkeen lasta kertomaan koko tarina kolmella lauseella niin, että jokainen kehys saa oman lauseensa. Sivulla mitä tapahtuu seuraavaksi puuttui loppu ja vaihtoehdot annettiin valmiina, kun taas tässä keskikohta syntyy lapsen omasta kädestä. Kirjoittamiseen siirrytään sivulla, jossa lauseet järjestetään ja yhdistetään kuviin. Valmiit piirustukset voi ripustaa luokan seinälle pyykkinarulle, jolloin kertomukset näkyvät koko ryhmälle.",
+   "canonicalDeckSlug": "kuvasarjat-g1401",
+   "carousel": [
+    {
+     "label": "Kuvasarja järjestykseen: numeroi kuvat",
+     "href": "kuvasarja-numeroi-kuvat"
+    },
+    {
+     "label": "Kuvasarja leikattavaksi: ensin, sitten, lopuksi",
+     "href": "kuvasarja-leikattavaksi-ensin-sitten-lopuksi"
+    },
+    {
+     "label": "Kuvasarja: mitä tapahtuu seuraavaksi?",
+     "href": "kuvasarja-mita-tapahtuu-seuraavaksi"
+    },
+    {
+     "label": "Kuvasarja ja lauseet: järjestä lauseet ja yhdistä ne kuviin",
+     "href": "kuvasarja-ja-lauseet"
+    }
+   ],
+   "title": "Kuvakertomus: alku, keskikohta ja loppu 1. luokka | tulostettava PDF",
+   "metaDescription": "Kuvakertomus: alku, keskikohta ja loppu. Kahdesta tarinasta näkyy alku ja loppu, ja lapsi piirtää keskimmäiseen kehykseen, mitä välissä tapahtuu. 1. luokka."
+  },
+  {
+   "slug": "kuvasarja-ja-lauseet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "story-sequencing-sentences-match-the-pictures",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Kuvasarjat 1. luokalle",
+   "h1": "Kuvasarja ja lauseet: järjestä lauseet ja yhdistä ne kuviin",
+   "strand": "Tekstien tulkitseminen",
+   "standard": "RL.1.7",
+   "slotTokens": [
+    "kuvasarjat",
+    "1-luokka"
+   ],
+   "p1": "Vasemmalla on kahdeksan kuvaa, oikealla kahdeksan lausetta, ja ne kuuluvat kahteen tarinaan. Ensimmäisessä paperiarkki leikataan viideksi suikaleeksi ja suikaleista liimataan renkaita, kunnes viisi rengasta muodostaa ketjun. Toisessa banaani kuoritaan liuska kerrallaan, kunnes jäljellä on vain tyhjä kuori. Kuvat ja lauseet ovat sekaisin. Jokaisen lauseen edessä on katkoviivainen ruutu numerolle, ja kuvien ja lauseiden välissä on pisteet viivoja varten. Lapsi numeroi kunkin tarinan lauseet oikeaan järjestykseen ja vetää sitten viivan jokaisesta lauseesta sen kuvaan.",
+   "p2": "Sivu yhdistää lukemisen ja järjestämisen. Kuvan ja lauseen yhdistäminen vaatii koko lauseen lukemista, sillä kuvat muistuttavat toisiaan: yksi roikkuva kuoren liuska ja kolme roikkuvaa liuskaa eroavat vain yksityiskohdassa, samoin kaksi rengasta ja viisi rengasta. Lauseissa ei ole järjestyssanoja, kuten ensin tai lopuksi, joten järjestys on pääteltävä siitä, mitä lauseessa kerrotaan: ensin pöydällä on yksi paperiarkki, sitten arkki on leikattu viideksi suikaleeksi, ja banaanitarina alkaa kuorimattomasta banaanista ja päättyy tyhjään kuoreen. Tekstin ja kuvan yhdistäminen kuuluu OPS 2014:n tekstien tulkitsemisen tavoitteisiin, ja lyhyet, samaa rakennetta toistavat lauseet ovat ensimmäisellä luokalla sopivan pituisia.",
+   "p3": "Lue lauseet ensin yhdessä ääneen, jos lukeminen on vielä työlästä. Anna lapsen numeroida yksi tarina kokonaan ennen viivojen vetämistä, jolloin tehtävät eivät sekoitu. Pyydä lopuksi lukemaan lauseet numerojärjestyksessä: jos tarina kuulostaa oudolta, jokin numero on väärässä paikassa. Kuvasarjojen perussivulla järjestetään pelkkiä kuvia, kun tässä järjestys pitää löytää lauseista. Toisella luokalla lapsi kirjoittaa lauseet jo itse sivulla kuvasarja tarinan kirjoittamiseen.",
+   "canonicalDeckSlug": "kuvasarjat-g1402",
+   "carousel": [
+    {
+     "label": "Kuvasarja järjestykseen: numeroi kuvat",
+     "href": "kuvasarja-numeroi-kuvat"
+    },
+    {
+     "label": "Kuvasarja leikattavaksi: ensin, sitten, lopuksi",
+     "href": "kuvasarja-leikattavaksi-ensin-sitten-lopuksi"
+    },
+    {
+     "label": "Kuvasarja: mitä tapahtuu seuraavaksi?",
+     "href": "kuvasarja-mita-tapahtuu-seuraavaksi"
+    },
+    {
+     "label": "Kuvakertomus: alku, keskikohta ja loppu",
+     "href": "kuvakertomus-alku-keskikohta-ja-loppu"
+    }
+   ],
+   "title": "Kuvasarja ja lauseet: järjestä ja yhdistä 1. luokka | tulostettava PDF",
+   "metaDescription": "Kuvasarja ja lauseet: kaksi tarinaa, neljä kuvaa ja neljä lausetta kummassakin. Lapsi numeroi lauseet ja vetää viivan kuvaan. 1. luokka, ilmainen PDF."
+  },
+  {
+   "slug": "kuvasarja-tarinan-kirjoittamiseen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "story-sequencing",
+    "mode": "retell-the-story-with-starters",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Kuvasarjat 2. luokalle",
+   "h1": "Kuvasarja tarinan kirjoittamiseen aloitussanoilla",
+   "strand": "Tekstien tuottaminen",
+   "standard": "W.2.3",
+   "slotTokens": [
+    "kuvasarjat",
+    "2-luokka"
+   ],
+   "p1": "Kuvasarjasta kirjoitetaan tällä sivulla kokonainen tarina. Ylhäällä on sanapankki, jossa ovat sanat aita, lauta, maali, sivellin ja maalipurkki. Sen alla on neljä kuvaa allekkain: valkoinen lauta-aita ja sivellin maalipurkissa, sitten kaksi ensimmäistä lautaa maalattuina, sitten neljä, ja lopuksi koko aita punaisena. Jokaisen kuvan vieressä on kaksi kirjoitusriviä apuviivoineen, ja ensimmäisen rivin alussa on vaalea aloitussana: Ensin, Sitten, Seuraavaksi ja Lopuksi. Lapsi kirjoittaa, mitä kuvassa tapahtuu, ja aloittaa lauseen annetulla sanalla.",
+   "p2": "Toisella luokalla lapsi siirtyy kuvasarjan kertomisesta sen kirjoittamiseen. Aloitussanat antavat tarinalle rungon ja ohjaavat käyttämään sidossanoja, jotka tekevät tekstistä yhtenäisen. Sanapankin sanat ovat perusmuodossa, joten lapsen on taivutettava ne itse: maalaa aitaa, kastaa siveltimen, ottaa maalia purkista. Tämä on hyvä kohta kielen tarkkailulle. OPS 2014 nimeää tekstien tuottamisen yhdeksi äidinkielen ja kirjallisuuden tavoitealueeksi, ja valmis kuvasarja antaa kirjoittamiselle sisällön, jolloin lapsen voimat riittävät lauseiden muotoiluun ja oikeinkirjoitukseen.",
+   "p3": "Käykää kuvat läpi ensin suullisesti ja kertokaa, mitä kussakin tapahtuu, ennen kuin kynä liikkuu. Kaksi riviä kuvaa kohden riittää yhteen tai kahteen lauseeseen. Nopea kirjoittaja voi keksiä tarinalle otsikon tai kertoa, kuka aitaa maalaa ja miksi. Ensimmäisen luokan sivulla lauseet annettiin valmiina ja ne järjestettiin, kun tässä lauseet syntyvät lapsen omasta kynästä. Sivu toimii myös pareittain: toinen kertoo, toinen kirjoittaa, ja seuraavalla kerralla vuorot vaihtuvat. Valmiin tarinan voi lukea ääneen luokalle.",
+   "canonicalDeckSlug": "kuvasarjat-g2378",
+   "carousel": [
+    {
+     "label": "Kuvasarja järjestykseen: numeroi kuvat",
+     "href": "kuvasarja-numeroi-kuvat"
+    },
+    {
+     "label": "Kuvasarja leikattavaksi: ensin, sitten, lopuksi",
+     "href": "kuvasarja-leikattavaksi-ensin-sitten-lopuksi"
+    },
+    {
+     "label": "Kuvasarja: mitä tapahtuu seuraavaksi?",
+     "href": "kuvasarja-mita-tapahtuu-seuraavaksi"
+    },
+    {
+     "label": "Kuvakertomus: alku, keskikohta ja loppu",
+     "href": "kuvakertomus-alku-keskikohta-ja-loppu"
+    }
+   ],
+   "title": "Kuvasarja tarinan kirjoittamiseen 2. luokka | tulostettava PDF ilmainen",
+   "metaDescription": "Kuvasarja tarinan kirjoittamiseen: neljä kuvaa aidan maalaamisesta, sanapankki ja aloitussanat ensin, sitten, seuraavaksi ja lopuksi. 2. luokka, PDF."
+  },
+  {
+   "slug": "kasienpesuohje-lapsille",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "hand-washing-steps",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Hygienia esikouluun",
+   "h1": "Käsienpesuohje lapsille: pese kädet oikein",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "hygienia-ja-terveelliset-tavat",
+    "esikoulu"
+   ],
+   "p1": "Käsienpesu jaetaan tällä sivulla viiteen kuvaan, jotka ovat sekaisin. Jokaisessa on sama lavuaari ja hana, ja muutos näkyy käsissä ja vedessä. Yhdessä kädet kastuvat hanan alla, toisessa niiden välissä on saippuapala, kolmannessa kädet hankaavat toisiaan vaahdon keskellä, neljännessä vaahto huuhdotaan pois juoksevan veden alla ja viidennessä kädet kuivataan pyyhkeeseen. Kunkin kuvan vieressä on katkoviivainen ruutu, johon lapsi kirjoittaa numeron 1–5. Kuvissa ei ole sanoja, joten esikoulu-ikäinen voi tehdä tehtävän lukematta.",
+   "p2": "Käsienpesussa järjestys ratkaisee. Jos kädet kuivataan ennen huuhtelua, saippua jää iholle, ja jos saippuointi unohtuu, pelkkä vesi ei vie likaa ja pöpöjä pois. Kun lapsi järjestää kuvat, hän sanoittaa samalla ohjeen, jota voi noudattaa oikean lavuaarin ääressä. Hankaaminen on se vaihe, joka arjessa jää lyhyimmäksi, joten siihen kannattaa pysähtyä: kämmenet, sormien välit, peukalot ja kämmenselät. Esiopetuksessa hygienia kuuluu itsestä huolehtimisen taitoihin, ja ensimmäisellä ja toisella luokalla aiheeseen palataan ympäristöopin terveystavoitteissa.",
+   "p3": "Tarkistakaa järjestys yhdessä pesemällä kädet oikeasti ja laskemalla vaiheet ääneen. Valmiin sivun voi kiinnittää lavuaarin viereen muistilapuksi. Terveellisten tapojen perussivulla lapsi yhdistää tavan ja esineen, kun tässä yksi tapa pilkotaan vaiheiksi. Ensimmäisellä luokalla samaa ajattelua jatkaa hampaiden pesu, jossa kuvat lajitellaan kolmeen vaiheeseen, sekä pysäytä pöpöt -sivu, jossa verrataan hyvää ja huonoa tapaa. Jos luokassa on käsienpesujuliste, verratkaa sen vaiheita sivun kuviin ja etsikää, puuttuuko jokin vaihe, esimerkiksi hanan sulkeminen, joka ei näy kuvissa lainkaan.",
+   "canonicalDeckSlug": "hygienia-ja-terveelliset-tavat-k382",
+   "carousel": [
+    {
+     "label": "Terveelliset tavat: mitä kukin lapsi käyttää?",
+     "href": "hygienia-ja-terveelliset-tavat-esikoulu"
+    },
+    {
+     "label": "Hampaiden pesu: ennen, aikana ja jälkeen",
+     "href": "hampaiden-pesu-ennen-aikana-ja-jalkeen"
+    },
+    {
+     "label": "Pysäytä pöpöt: mikä estää niitä leviämästä?",
+     "href": "pysayta-popot"
+    },
+    {
+     "label": "Terveelliset tavat: miksi teemme niin?",
+     "href": "terveelliset-tavat-miksi-teemme-niin"
+    }
+   ],
+   "title": "Käsienpesuohje lapsille: pese kädet oikein | tulostettava PDF ilmainen",
+   "metaDescription": "Käsienpesuohje lapsille: viisi kuvaa pesun vaiheista, kastelusta kuivaamiseen. Lapsi numeroi kuvat 1–5 oikeaan järjestykseen. Esikouluun, ilmainen PDF."
+  },
+  {
+   "slug": "hampaiden-pesu-ennen-aikana-ja-jalkeen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "brushing-teeth-before-during-after",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Hygienia 1. luokalle",
+   "h1": "Hampaiden pesu: ennen, aikana ja jälkeen",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "hygienia-ja-terveelliset-tavat",
+    "1-luokka"
+   ],
+   "p1": "Seitsemän kuvakorttia kertoo hampaiden pesusta, ja jokaisen vieressä on kolme valintaa: ennen pesua, pesun aikana ja pesun jälkeen. Kuvissa hammastahnaa puristetaan harjalle, likaisessa hampaassa on tummia pilkkuja, harja kulkee hammasrivin ulkopinnalla, sisäpinnalla ja purupinnalla nuolten suuntaan, lapsi sylkäisee lavuaariin harja reunalla ja puhdas hammas kiiltää tähtien keskellä. Kortit ovat sekaisin, kaksi rinnakkain ja viimeinen keskellä alhaalla. Lapsi ympyröi jokaisen kortin kohdalta sen vaiheen, johon kuva kuuluu.",
+   "p2": "Järjestämisen sijaan lapsi luokittelee: jokainen kuva sijoitetaan yhteen kolmesta vaiheesta. Kolme kuvaa näyttää itse harjausta eri pinnoilla, ja se muistuttaa, että pesussa käydään läpi kaikki pinnat eikä vain etuhampaat. Kaksi kuvaa on ennen pesua ja kaksi sen jälkeen. Likainen ja kiiltävä hammas tekevät näkyväksi, miksi pesua tehdään. Suun terveys kuuluu ympäristöopin terveystavoitteisiin ensimmäisellä ja toisella luokalla. Hampaat pestään kahdesti päivässä fluorihammastahnalla, ja lopuksi tahna sylkäistään pois, kuten kuvassakin.",
+   "p3": "Ympyröinnin jälkeen lapsi voi kertoa kuvat oikeassa järjestyksessä alusta loppuun, jolloin luokittelusta tulee kertomus. Tehtävä sopii hyvin kouluterveydenhoitajan vierailun tai hammashoitolan käynnin yhteyteen. Käsienpesuohjeessa vaiheet numeroitiin, kun tässä ne lajitellaan kolmeen ryhmään. Perheen seuraava sivu, pysäytä pöpöt, vie ajattelun siihen, miten tartunnat estetään arjen valinnoilla. Kysy lapselta myös, kuinka kauan hän itse pesee hampaitaan ja kuka auttaa illalla. Aikuisen apu on vielä ensimmäisellä luokalla suositeltavaa, ja tämä on hyvä viesti kotiin. Sivu tulostuu yhdelle arkille, ja valintasanat ovat riittävän isoja ympyröitäviksi.",
+   "canonicalDeckSlug": "hygienia-ja-terveelliset-tavat-g1403",
+   "carousel": [
+    {
+     "label": "Terveelliset tavat: mitä kukin lapsi käyttää?",
+     "href": "hygienia-ja-terveelliset-tavat-esikoulu"
+    },
+    {
+     "label": "Käsienpesuohje lapsille: pese kädet oikein",
+     "href": "kasienpesuohje-lapsille"
+    },
+    {
+     "label": "Pysäytä pöpöt: mikä estää niitä leviämästä?",
+     "href": "pysayta-popot"
+    },
+    {
+     "label": "Terveelliset tavat: miksi teemme niin?",
+     "href": "terveelliset-tavat-miksi-teemme-niin"
+    }
+   ],
+   "title": "Hampaiden pesu lapsille: ennen, aikana ja jälkeen | tulostettava PDF",
+   "metaDescription": "Hampaiden pesu: seitsemän kuvakorttia tahnasta sylkäisyyn. Lapsi ympyröi, onko kuva ennen pesua, pesun aikana vai jälkeen. 1. luokka, ilmainen PDF."
+  },
+  {
+   "slug": "pysayta-popot",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "stop-the-germs",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Hygienia 1. luokalle",
+   "h1": "Pysäytä pöpöt: mikä estää niitä leviämästä?",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "hygienia-ja-terveelliset-tavat",
+    "1-luokka"
+   ],
+   "p1": "Neljällä rivillä on kaksi kuvaa vierekkäin, ja lapsi ympyröi joka riviltä sen, jossa pöpöt eivät pääse leviämään. Ensimmäisellä rivillä yksi lapsi yskii hihaansa ja toinen suoraan eteenpäin niin, että pisarat lentävät. Toisella kädet pestään saippuavaahdossa juoksevan veden alla, ja vieressä kuivan hanan alla ovat kädet, joissa pöpöt näkyvät. Kolmannella kaksi lasta juo samasta lasista, vieressä kummallakin on oma lasi. Neljännellä käytetty nenäliina on pudonnut lattialle, vieressä se heitetään roskakoriin. Oikea kuva ei ole aina samalla puolella.",
+   "p2": "Pöpöt eivät näy, ja siksi niiden leviämistä on lapsen vaikea hahmottaa. Kuvapareissa näkymätön tehdään näkyväksi: pisarat lentävät ilmaan, pöpöt piirtyvät käsiin ja sama lasi kulkee suusta suuhun. Jokainen rivi vertaa kahta tapaa toimia, joten lapsi ei vain tunnista hyvää tapaa vaan näkee, miksi toinen on huono. Tehtävä ohjaa keskustelemaan tartunnoista pelottelematta. Ympäristöopissa ensimmäisellä ja toisella luokalla harjoitellaan huolehtimaan omasta ja toisten terveydestä arjen tavoilla, ja flunssakausi antaa aiheelle luontevan hetken joka syksy.",
+   "p3": "Harjoitelkaa hihaan yskimistä oikeasti ja kerratkaa, mihin käytetty nenäliina kuuluu. Sivu sopii flunssakauden alkuun tai käsienpesuviikon tehtäväksi. Perheen perussivulla yhdistettiin tapa ja esine, ja käsienpesuohjeessa yksi tapa pilkottiin vaiheiksi. Tässä verrataan hyvää ja huonoa valintaa rinnakkain. Toisella luokalla aihe syvenee sivulla, jolla jokaiselle tavalle etsitään syy. Valmiin sivun jälkeen lapset voivat keksiä viidennen parin itse ja piirtää sen paperin kääntöpuolelle, esimerkiksi aivastuksen tai yhteisen lelun.",
+   "canonicalDeckSlug": "hygienia-ja-terveelliset-tavat-g1404",
+   "carousel": [
+    {
+     "label": "Terveelliset tavat: mitä kukin lapsi käyttää?",
+     "href": "hygienia-ja-terveelliset-tavat-esikoulu"
+    },
+    {
+     "label": "Käsienpesuohje lapsille: pese kädet oikein",
+     "href": "kasienpesuohje-lapsille"
+    },
+    {
+     "label": "Hampaiden pesu: ennen, aikana ja jälkeen",
+     "href": "hampaiden-pesu-ennen-aikana-ja-jalkeen"
+    },
+    {
+     "label": "Terveelliset tavat: miksi teemme niin?",
+     "href": "terveelliset-tavat-miksi-teemme-niin"
+    }
+   ],
+   "title": "Pysäytä pöpöt: yski hihaan ja pese kädet 1. luokka | tulostettava PDF",
+   "metaDescription": "Pysäytä pöpöt: neljä kuvaparia yskimisestä, käsienpesusta, juomalasista ja nenäliinasta. Lapsi ympyröi kuvan, jossa pöpöt eivät leviä. 1. luokka, PDF."
+  },
+  {
+   "slug": "terveelliset-tavat-miksi-teemme-niin",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "why-do-we-do-healthy-habits",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Terveelliset elintavat 2. luokalle",
+   "h1": "Terveelliset tavat: miksi teemme niin?",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "hygienia-ja-terveelliset-tavat",
+    "2-luokka"
+   ],
+   "p1": "Vasemmalla on viisi kuvaa tavoista, oikealla viisi lausetta, jotka kertovat syyn. Kuvissa lapsi seisoo hattu päässä auringossa, liikkuu reippaasti, pesee kädet lavuaarilla, nukkuu sängyssä kuun ja tähtien alla ja pesee hampaita. Lauseissa sanotaan esimerkiksi, että kunto kasvaa ja meistä tulee nopeita ja vahvoja, että iho ei pala kuumana kesäpäivänä ja että keho ja aivot lepäävät ja jaksavat taas uuden päivän. Lauseet ovat eri järjestyksessä kuin kuvat, eikä kuvissa ole sanoja. Lapsi vetää viivan jokaisesta tavasta siihen lauseeseen, joka kertoo, miksi teemme niin.",
+   "p2": "Toisella luokalla pelkkä tavan tunnistaminen ei riitä, vaan lapsi alkaa kysyä miksi. Lauseissa ei toisteta kuvan tapaa: hampaiden pesun syy puhuu puhtaasta hymystä eikä hammasharjasta, ja käsienpesun syy pöpöistä, jotka tarttuivat meihin, kun koskimme eri asioihin. Siksi lapsen on luettava lause ja ymmärrettävä se, ennen kuin viiva löytää paikkansa. Syyn ja seurauksen näkeminen on ympäristöopin ydintä, ja OPS 2014 korostaa, että oppilas ymmärtää, miten omat valinnat vaikuttavat terveyteen ja hyvinvointiin.",
+   "p3": "Lukekaa lauseet yhdessä, jos joukossa on hitaita lukijoita, ja antakaa lapsen perustella jokainen viiva omin sanoin. Aurinkohatun lauseesta voi jatkaa keskusteluun aurinkorasvasta, sillä hattu suojaa vain päätä ja kasvoja. Perheen muilla sivuilla tapoja tunnistettiin, järjestettiin ja verrattiin, tässä niille etsitään perustelu. Viikkotaulukossa lapsi seuraa, mitkä tavat toteutuvat hänen omassa arjessaan, ja tämä sivu sopii sen aloitukseksi.",
+   "canonicalDeckSlug": "hygienia-ja-terveelliset-tavat-g2379",
+   "carousel": [
+    {
+     "label": "Terveelliset tavat: mitä kukin lapsi käyttää?",
+     "href": "hygienia-ja-terveelliset-tavat-esikoulu"
+    },
+    {
+     "label": "Käsienpesuohje lapsille: pese kädet oikein",
+     "href": "kasienpesuohje-lapsille"
+    },
+    {
+     "label": "Hampaiden pesu: ennen, aikana ja jälkeen",
+     "href": "hampaiden-pesu-ennen-aikana-ja-jalkeen"
+    },
+    {
+     "label": "Pysäytä pöpöt: mikä estää niitä leviämästä?",
+     "href": "pysayta-popot"
+    }
+   ],
+   "title": "Terveelliset elintavat: miksi teemme niin? 2. luokka | tulostettava PDF",
+   "metaDescription": "Terveelliset tavat, miksi teemme niin: viisi tapaa kuvina ja viisi syytä lauseina. Lapsi lukee ja yhdistää tavan syyhyn viivalla. 2. luokka, ilmainen PDF."
+  },
+  {
+   "slug": "terveellisten-tapojen-viikkotaulukko",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "healthy-habits",
+    "mode": "healthy-habits-week-chart",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Terveelliset tavat 1. luokalle",
+   "h1": "Terveellisten tapojen viikkotaulukko",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "hygienia-ja-terveelliset-tavat",
+    "1-luokka"
+   ],
+   "p1": "Taulukon ylälaidassa ovat viikonpäivät ma, ti, ke, to, pe, la ja su, ja rivejä on viisi, yksi kullekin tavalle. Jokaisella rivillä on pieni kuva ja lyhyt kehotus: pese hampaat, pese kädet, liiku, juo vettä ja ajoissa nukkumaan. Kuvan vieressä on seitsemän tyhjää ruutua, yksi jokaiselle päivälle. Lapsi laittaa joka päivä rastin niiden tapojen kohdalle, jotka hän teki. Viikko alkaa maanantaista kuten suomalaisessa kalenterissa, joten taulukon voi aloittaa koulutyön mukana viikon alussa.",
+   "p2": "Viikkotaulukko tekee tavasta rutiinin. Kun rasti tulee samaan riviin päivästä toiseen, lapsi näkee oman toimintansa ja huomaa, mikä jää helposti tekemättä, esimerkiksi veden juominen tai ajoissa nukkumaan meneminen. Tarkoitus ei ole kilpailla vaan havainnoida. Taulukko opettaa samalla lukemaan riviä ja saraketta yhtä aikaa, mikä on ensimmäisellä luokalla hyödyllinen taito myös matematiikassa. Ympäristöopin terveystavoitteet ja kodin ja koulun yhteistyö kohtaavat tässä: taulukko toimii parhaiten, kun se kulkee kotiin ja huoltaja katsoo sitä lapsen kanssa.",
+   "p3": "Lähetä taulukko kotiin maanantaina ja pyydä palauttamaan se seuraavalla viikolla. Kerro huoltajille, että hampaat pestään aamulla ja illalla, vaikka ruutuja on yksi päivää kohden. Viikon jälkeen voitte keskustella, mikä tapa onnistui helpoimmin ja mikä vaati muistuttelua. Muut perheen sivut tehdään yhden tunnin aikana, mutta tämä kestää koko viikon. Perustelut tavoille löytyvät toisen luokan sivulta, jossa kysytään, miksi teemme niin.",
+   "canonicalDeckSlug": "hygienia-ja-terveelliset-tavat-g1405",
+   "carousel": [
+    {
+     "label": "Terveelliset tavat: mitä kukin lapsi käyttää?",
+     "href": "hygienia-ja-terveelliset-tavat-esikoulu"
+    },
+    {
+     "label": "Käsienpesuohje lapsille: pese kädet oikein",
+     "href": "kasienpesuohje-lapsille"
+    },
+    {
+     "label": "Hampaiden pesu: ennen, aikana ja jälkeen",
+     "href": "hampaiden-pesu-ennen-aikana-ja-jalkeen"
+    },
+    {
+     "label": "Pysäytä pöpöt: mikä estää niitä leviämästä?",
+     "href": "pysayta-popot"
+    }
+   ],
+   "title": "Terveellisten tapojen viikkotaulukko lapsille | tulostettava PDF ilmainen",
+   "metaDescription": "Terveellisten tapojen viikkotaulukko: viisi tapaa ja päivät maanantaista sunnuntaihin. Lapsi laittaa rastin joka päivä tehdyn tavan kohdalle. 1. luokka."
+  },
+  {
+   "slug": "elainten-pesat-ja-kodit",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "animal-homes",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Eläinten kodit esikouluun",
+   "h1": "Eläinten pesät ja kodit: kuka asuu missäkin?",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "elainten-elinymparistot",
+    "esikoulu"
+   ],
+   "p1": "Vasemmassa sarakkeessa on kuusi eläintä: muurahainen, kani, hämähäkki, mehiläinen, lintu ja majava. Oikeassa sarakkeessa on kuusi kotia eri järjestyksessä: hämähäkin seitti oksien välissä, majavanpesä veden keskellä, linnunpesä munineen oksalla, maahan kaivettu kolo, mehiläisten kennot puun kolossa ja muurahaiskeko käytävineen. Jokaisen kuvan vieressä on piste, ja lapsi vetää viivan jokaisesta eläimestä sen kotiin. Sivulla ei ole tekstiä ohjeen lisäksi, joten esikoulu-ikäinen onnistuu kuvien avulla.",
+   "p2": "Eläinten kodit ovat lapselle konkreettinen tapa lähestyä elinympäristöjä, koska kodin voi piirtää, rakentaa tai löytää metsäretkellä. Muurahaiskeon ja linnunpesän lapsi on usein nähnyt itse, majavanpesää ja maakoloa ei välttämättä. Siksi tehtävä kannattaa purkaa keskustelemalla: mistä pesä on tehty, kuka sen rakensi ja miksi se on juuri siellä. Esiopetuksen opetussuunnitelman perusteissa luonnon tutkiminen kuuluu oppimiskokonaisuuteen Tutkin ja toimin ympäristössäni, ja pesäretki metsään on sen luontevin jatko.",
+   "p3": "Kuvan eläin on kani, ja kani kaivaa kolon. Suomen metsäjänis ei kaiva koloa vaan lepää maastossa, joten jos lapsi sanoo kuvaa jänikseksi, kerro ero. Tämä on perheen helpoin sivu: kuusi paria, yksi viiva kustakin. Ensimmäisen luokan perussivulla eläimet sijoitetaan metsään, niitylle, järveen ja mereen, ja sivulla mitä eläimet tarvitsevat koti ja ruoka yhdistetään samaan tehtävään. Kuvat ovat värikkäitä ja selkeitä, ja kodit on piirretty vihreällä ääriviivalla, joten ne erottuvat eläimistä. Pisteet ovat kaukana toisistaan, jolloin viivat eivät mene sekaisin, vaikka käsi olisi vielä epävarma.",
+   "canonicalDeckSlug": "elainten-elinymparistot-k383",
+   "carousel": [
+    {
+     "label": "Eläinten elinympäristöt: metsä, niitty, järvi ja meri",
+     "href": "missa-elaimet-asuvat-elinymparistot"
+    },
+    {
+     "label": "Eläinten elinympäristöt: kuka ei asu täällä?",
+     "href": "elinymparistot-kuka-ei-asu-taalla"
+    },
+    {
+     "label": "Eläinten sopeutuminen elinympäristöön",
+     "href": "elainten-sopeutuminen-elinymparistoon"
+    },
+    {
+     "label": "Mitä eläimet tarvitsevat? Ruoka ja koti",
+     "href": "mita-elaimet-tarvitsevat-ruoka-ja-koti"
+    }
+   ],
+   "title": "Eläinten pesät ja kodit esikoulu: kuka asuu missäkin? | tulostettava PDF",
+   "metaDescription": "Eläinten pesät ja kodit esikouluun: kuusi eläintä ja kuusi kotia, kuten muurahaiskeko, seitti ja linnunpesä. Lapsi yhdistää viivalla. Ilmainen PDF."
+  },
+  {
+   "slug": "elinymparistot-kuka-ei-asu-taalla",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "who-does-not-live-here",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Eläinten elinympäristöt 1. luokalle",
+   "h1": "Eläinten elinympäristöt: kuka ei asu täällä?",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "elainten-elinymparistot",
+    "1-luokka"
+   ],
+   "p1": "Joka rivillä on yksi vieras. Sivulla on neljä elinympäristöä, niitty, järvi, meri ja metsä, ja kunkin vieressä on neljä eläinkorttia. Niityn vieressä ovat mehiläinen, leppäkerttu, perhonen ja apina, järven vieressä majava, sudenkorento, joutsen ja seepra. Meren kohdalla ovat taskurapu, meduusa, valas ja orava, metsän kohdalla hirvi, mäyrä, tikka ja delfiini. Lapsi piirtää rastin sen eläimen päälle, joka ei elä kyseisessä elinympäristössä. Vieras on joka rivillä eri kohdassa, joten paikkaa ei voi arvata.",
+   "p2": "Poissulkeminen on eri ajattelutapa kuin yhdistäminen. Lapsen on tarkistettava jokainen neljästä eläimestä ja päätettävä, kuka ei kuulu joukkoon, jolloin hän käy mielessään läpi myös kolme oikeaa. Vieraat tulevat selvästi muualta, savannilta, sademetsästä tai toisesta elinympäristöstä, eikä valinta ole makuasia. Ympäristöopissa ensimmäisellä ja toisella luokalla eläimiä luokitellaan elinympäristön mukaan, ja tämä sivu harjoittaa samaa tietoa toisin päin. Kuusitoista eläintä on myös hyvä sanavarasto keskustelulle.",
+   "p3": "Kun rastit on piirretty, pyydä lasta kertomaan, minne vieras oikeasti kuuluu. Apina ja seepra eivät elä Suomessa lainkaan, mikä avaa keskustelun muista maanosista. Punainen taskurapu elää meressä; jos lapsi kutsuu sitä raavuksi, kerro, että Suomen järvissä elää jokirapu. Perussivulla eläimet sijoitettiin kirjaimin, ja tässä ne tunnistetaan joukosta. Toisella luokalla aihe syvenee eläinten sopeutumiseen. Sivu tulostuu yhdelle arkille, ja kortit ovat niin isoja, että rasti mahtuu selvästi eläimen päälle.",
+   "canonicalDeckSlug": "elainten-elinymparistot-g1406",
+   "carousel": [
+    {
+     "label": "Eläinten elinympäristöt: metsä, niitty, järvi ja meri",
+     "href": "missa-elaimet-asuvat-elinymparistot"
+    },
+    {
+     "label": "Eläinten pesät ja kodit: kuka asuu missäkin?",
+     "href": "elainten-pesat-ja-kodit"
+    },
+    {
+     "label": "Eläinten sopeutuminen elinympäristöön",
+     "href": "elainten-sopeutuminen-elinymparistoon"
+    },
+    {
+     "label": "Mitä eläimet tarvitsevat? Ruoka ja koti",
+     "href": "mita-elaimet-tarvitsevat-ruoka-ja-koti"
+    }
+   ],
+   "title": "Kuka ei asu täällä? Eläinten elinympäristöt 1. luokka | tulostettava PDF",
+   "metaDescription": "Kuka ei asu täällä: niitty, järvi, meri ja metsä sekä neljä eläintä kunkin vieressä. Lapsi etsii vieraan ja piirtää rastin. 1. luokka, ilmainen PDF."
+  },
+  {
+   "slug": "elainten-sopeutuminen-elinymparistoon",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "how-animals-adapt",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Eläinten elinympäristöt 2. luokalle",
+   "h1": "Eläinten sopeutuminen elinympäristöön",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "elainten-elinymparistot",
+    "2-luokka"
+   ],
+   "p1": "Ylhäällä on seitsemän eläinkorttia kirjaimin A–G: norsu, majava, kameli, oranki, tikka, tukaani ja pingviini. Alla on kuusi lausetta, ja jokainen kertoo yhden eläimen ruumiinosasta ja siitä, mihin eläin sitä käyttää. Yhdessä lauseessa pitkä kärsä imee vettä ja poimii ruokaa, toisessa vahva ja terävä nokka hakkaa reikiä puunrunkoihin, kolmannessa kyttyrässä on rasvaa, joten eläin jaksaa pitkään ilman ruokaa. Lauseen perässä on ruutu, johon lapsi kirjoittaa eläimen kirjaimen. Yksi eläin jää ilman lausetta.",
+   "p2": "Sopeutuminen tarkoittaa, että eläimen ruumis ja tavat sopivat sen elinympäristöön. Lauseissa eläintä ei nimetä, vaan lapsen on pääteltävä se ruumiinosasta ja sen tehtävästä, joten lukeminen ja ympäristöoppi kulkevat yhdessä. Ylimääräinen eläin estää viimeisen vastauksen ratkeamisen pelkällä arvauksella. Eläimet tulevat eri puolilta maailmaa, sademetsästä, aavikolta ja Etelämantereen rannoilta, ja vain majava ja tikka elävät Suomessa. Suomessa eliöiden sopeutumista käsitellään yleensä vasta kolmannella tai neljännellä luokalla, joten toisella luokalla sivu on vaativa laajennus.",
+   "p3": "Lukekaa lauseet yhdessä ja alleviivatkaa ruumiinosa, ennen kuin lapsi etsii kirjaimen. Pingviinin siivet toimivat vedessä kuin evät, ja siitä kannattaa puhua, sillä pingviini on lintu, jolla on siivet. Kun kirjaimet on kirjoitettu, kysy, mikä eläin jäi yli ja millainen lause siitä voisi kertoa: orangin pitkät kädet ovat hyvä vihje. Perheen perussivu sijoittaa eläimet elinympäristöihin, ja tämä sivu kysyy, miksi ne pärjäävät siellä.",
+   "canonicalDeckSlug": "elainten-elinymparistot-g2380",
+   "carousel": [
+    {
+     "label": "Eläinten elinympäristöt: metsä, niitty, järvi ja meri",
+     "href": "missa-elaimet-asuvat-elinymparistot"
+    },
+    {
+     "label": "Eläinten pesät ja kodit: kuka asuu missäkin?",
+     "href": "elainten-pesat-ja-kodit"
+    },
+    {
+     "label": "Eläinten elinympäristöt: kuka ei asu täällä?",
+     "href": "elinymparistot-kuka-ei-asu-taalla"
+    },
+    {
+     "label": "Mitä eläimet tarvitsevat? Ruoka ja koti",
+     "href": "mita-elaimet-tarvitsevat-ruoka-ja-koti"
+    }
+   ],
+   "title": "Eläinten sopeutuminen elinympäristöön 2. luokka | tulostettava PDF",
+   "metaDescription": "Eläinten sopeutuminen: seitsemän eläintä kirjaimin A–G ja kuusi lausetta niiden ruumiinosista. Lapsi kirjoittaa kirjaimen, yksi jää yli. 2. luokka, PDF."
+  },
+  {
+   "slug": "mita-elaimet-tarvitsevat-ruoka-ja-koti",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "what-animals-need",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Eläinten elinympäristöt 1. luokalle",
+   "h1": "Mitä eläimet tarvitsevat? Ruoka ja koti",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "elainten-elinymparistot",
+    "1-luokka"
+   ],
+   "p1": "Sivun yläosassa lukee: Jokainen eläin tarvitsee ruokaa ja kodin. Sen alla on kaksi otsikkoa, Ruoka ja Koti, ja neljä riviä. Jokaisella rivillä on eläin, kaksi ruokakuvaa ja kaksi kotikuvaa. Majavan rivillä ovat hyönteinen ja lehti sekä majavanpesä ja seitti, hämähäkin rivillä ruoho ja hyönteinen sekä seitti ja majavanpesä, linnun rivillä hyönteinen ja lehti sekä seitti ja linnunpesä, ja kanin rivillä ruoho ja hyönteinen sekä linnunpesä ja kolo. Lapsi ympyröi jokaiselta riviltä yhden ruoan ja yhden kodin.",
+   "p2": "Tehtävä yhdistää kaksi perustarvetta samaan päätelmään. Väärät vaihtoehdot on otettu toisten eläinten tarpeista, joten jokainen rivi kysyy, kenen ruoka ja kenen koti tämä oikeastaan on. Hyönteinen kelpaa sekä hämähäkille että linnulle, ja lapsi huomaa, että eri eläimet voivat syödä samaa. Sivu käsittelee vain ruokaa ja kotia. Vesi ja ilma ovat yhtä tärkeitä, mutta niitä ei ole kuvattu, joten ne kannattaa ottaa puheeksi ääneen. Ympäristöopissa eliöiden tarpeet ovat ensimmäisen ja toisen luokan keskeistä sisältöä.",
+   "p3": "Kysy lopuksi, mitä muuta jokainen eläin tarvitsee, ja kirjoita vastaukset taululle: vettä, ilmaa, suojaa. Kolo on kanin koti, mutta suomalainen metsäjänis ei kaiva koloa, mikä on hyvä yksityiskohta keskusteluun. Eläinten pesät ja kodit on tämän sivun helpompi esikouluversio, ja perussivu sijoittaa eläimet kokonaisiin elinympäristöihin. Toisella luokalla lapsi tekee oman elinympäristötutkimuksen. Jokainen rivi on oma kokonaisuutensa, joten sivun voi tehdä myös osissa.",
+   "canonicalDeckSlug": "elainten-elinymparistot-g1407",
+   "carousel": [
+    {
+     "label": "Eläinten elinympäristöt: metsä, niitty, järvi ja meri",
+     "href": "missa-elaimet-asuvat-elinymparistot"
+    },
+    {
+     "label": "Eläinten pesät ja kodit: kuka asuu missäkin?",
+     "href": "elainten-pesat-ja-kodit"
+    },
+    {
+     "label": "Eläinten elinympäristöt: kuka ei asu täällä?",
+     "href": "elinymparistot-kuka-ei-asu-taalla"
+    },
+    {
+     "label": "Eläinten sopeutuminen elinympäristöön",
+     "href": "elainten-sopeutuminen-elinymparistoon"
+    }
+   ],
+   "title": "Mitä eläimet tarvitsevat? Ruoka ja koti 1. luokka | tulostettava PDF",
+   "metaDescription": "Mitä eläimet tarvitsevat: neljä eläintä, kaksi ruokaa ja kaksi kotia joka rivillä. Lapsi ympyröi ruoan ja kodin. 1. luokka, ilmainen tulostettava PDF."
+  },
+  {
+   "slug": "elinymparisto-tutki-ja-piirra",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "habitats",
+    "mode": "my-habitat-report",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Eläinten elinympäristöt 2. luokalle",
+   "h1": "Elinympäristön tutkimus: tutki ja piirrä",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "elainten-elinymparistot",
+    "2-luokka"
+   ],
+   "p1": "Sivun yläosassa on iso kuva järvestä: rannalla osmankäämejä, vedessä lumme ja pohjalla kiviä, mutta ei ainuttakaan eläintä. Lapsi piirtää kuvaan kolme järvellä elävää eläintä. Otsikon Eläimiä, jotka elävät täällä alla on kolme kirjoitusriviä apuviivoineen eläinten nimille, ja otsikon Kasvi, joka kasvaa täällä alla yksi rivi kasville. Alareunassa on sanapari märkä ja kuiva, ja lapsi ympyröi sanan, joka kuvaa elinympäristöä. Sivu on pieni tutkimusraportti, jonka lapsi täyttää omasta tiedostaan.",
+   "p2": "Toisella luokalla lapsi tuottaa tietoa itse. Tyhjä maisema ei anna vastauksia valmiina, joten lapsen on haettava muistista, mitä järvessä elää: sammakko, sorsa, joutsen, ahven, majava tai sudenkorento. Kasvin nimeämisessä kuva auttaa, sillä osmankäämi ja lumme on jo piirretty. Sanapari märkä ja kuiva johdattaa kuvailemaan elinympäristön ominaisuuksia, mikä valmistaa myöhempään vertailuun. Omien havaintojen tekeminen ja niistä kertominen on ympäristöopin tutkivan työskentelyn perusta OPS 2014:ssä.",
+   "p3": "Parasta on tehdä sivu retken jälkeen, kun lapsi on nähnyt järven tai lammen itse, mutta kirjat ja kuvat käyvät myös. Nimirivit ovat leveät, joten tilaa riittää pitkille eläinten nimille. Tutkittava elinympäristö on annettu valmiiksi, ja tällä sivulla se on järvi, joten lapsi kertoo järvestä eikä omasta kotiseudustaan. Eläinten sopeutuminen jatkaa samaa aihetta toisella luokalla, ja ensimmäisen luokan perussivu sopii kertaukseksi ennen tätä. Lapset voivat lopuksi esitellä raporttinsa parille ja verrata, keksivätkö he samoja eläimiä.",
+   "canonicalDeckSlug": "elainten-elinymparistot-g2381",
+   "carousel": [
+    {
+     "label": "Eläinten elinympäristöt: metsä, niitty, järvi ja meri",
+     "href": "missa-elaimet-asuvat-elinymparistot"
+    },
+    {
+     "label": "Eläinten pesät ja kodit: kuka asuu missäkin?",
+     "href": "elainten-pesat-ja-kodit"
+    },
+    {
+     "label": "Eläinten elinympäristöt: kuka ei asu täällä?",
+     "href": "elinymparistot-kuka-ei-asu-taalla"
+    },
+    {
+     "label": "Eläinten sopeutuminen elinympäristöön",
+     "href": "elainten-sopeutuminen-elinymparistoon"
+    }
+   ],
+   "title": "Eläinten elinympäristö: tutki ja piirrä 2. luokka | tulostettava PDF",
+   "metaDescription": "Tutki ja piirrä: järven kuva, rivit kolmelle eläimelle ja kasville sekä sanapari märkä ja kuiva. Lapsi piirtää, kirjoittaa ja ympyröi. 2. luokka, PDF."
+  },
+  {
+   "slug": "painava-vai-kevyt-kelluuko-vai-uppoaako",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "heavy-or-light-sink-or-float-scale",
+    "theme": "",
+    "level": "1-luokka"
+   },
+   "eyebrow": "Kelluminen ja uppoaminen 1. luokalle",
+   "h1": "Painava vai kevyt? Kelluminen ja uppoaminen vaa’an avulla",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kelluminen-ja-uppoaminen",
+    "1-luokka"
+   ],
+   "p1": "Neljässä ruudussa on vaaka, jonka kummallakin kupilla on esine. Ensimmäisessä peruna painaa kupin alas ja käpy nousee ylös, toisessa omena on naulaa painavampi, kolmannessa kivi painaa enemmän kuin sulka ja neljännessä puupölkky on vasaraa painavampi. Vaaka on piirretty valmiiksi kallelleen, joten lapsi näkee heti, kumpi esine on painavampi. Tehtävä ei kuitenkaan kysy painoa: lapsi ympyröi jokaisesta vaa’asta esineen, joka kelluu vedessä.",
+   "p2": "Sivu purkaa yleisen harhaluulon, että painava uppoaa ja kevyt kelluu. Kahdessa vaa’assa painavampi esine kelluu: omena on naulaa painavampi mutta kelluu, ja puupölkky on vasaraa painavampi mutta ei uppoa. Kahdessa muussa kevyempi kelluu. Lapsi huomaa, että painoa katsomalla ei voi päätellä vastausta, vaan ratkaisevaa on, mistä aineesta esine on tehty. Ympäristöopissa ensimmäisellä ja toisella luokalla aineiden ominaisuuksia tutkitaan kokeilemalla, ja tämä sivu antaa kokeelle tarkan kysymyksen.",
+   "p3": "Vaaka on sivulla piirrettynä, joten kelluminen kannattaa todentaa oikealla vesiastialla: peruna, käpy, omena, naula, kivi ja sulka löytyvät helposti. Jos luokassa on orsivaaka, punnitkaa parit ja katsokaa, kallistuuko se kuten kuvassa. Perheen perussivulla lapsi arvaa ja kokeilee kuutta esinettä, kun tässä vertaillaan painoa ja kellumista pareittain. Toisella luokalla väittämäsivu kokoaa samat havainnot totta tai tarua -lauseiksi. Kerro lopuksi, että laivat ovat painavia, mutta kelluvat silti, ja kysy, mistä se voisi johtua. Kysymys jää hyvin auki seuraavaan kokeeseen.",
+   "canonicalDeckSlug": "kelluminen-ja-uppoaminen-g1408",
+   "carousel": [
+    {
+     "label": "Kelluuko vai uppoaako? Arvaus ja kokeilu",
+     "href": "kelluuko-vai-uppoaako-kokeilu"
+    },
+    {
+     "label": "Muovailuvaha kellumaan: muodon muuttamisen kokeilu",
+     "href": "muovailuvaha-kellumaan-muodon-kokeilu"
+    },
+    {
+     "label": "Totta vai tarua? Kelluminen ja uppoaminen",
+     "href": "kelluminen-totta-vai-tarua"
+    },
+    {
+     "label": "Piirrä kelluvat ja uppoavat esineet vesiastiaan",
+     "href": "piirra-kelluvat-ja-uppoavat-esineet"
+    }
+   ],
+   "title": "Painava vai kevyt? Kelluuko vai uppoaako vaa’alla | tulostettava PDF",
+   "metaDescription": "Painava vai kevyt: neljä vaakaa ja kaksi esinettä kummassakin. Vaaka näyttää painavamman, lapsi ympyröi kelluvan. 1. luokka, ilmainen tulostettava PDF."
+  },
+  {
+   "slug": "muovailuvaha-kellumaan-muodon-kokeilu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "make-clay-float-change-the-shape",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Kelluminen ja uppoaminen 2. luokalle",
+   "h1": "Muovailuvaha kellumaan: muodon muuttamisen kokeilu",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kelluminen-ja-uppoaminen",
+    "2-luokka"
+   ],
+   "p1": "Otsikon Sama muovailuvaha, eri muodot alla on kaksi kokeilua. Vasemmalla muovailuvahamöykky muotoillaan veneeksi, jossa on lippu, oikealla samanlainen möykky pyöritetään palloksi. Kummankin alla on vesiastia, jossa on katkoviivaympyrä pinnalla ja pohjalla, ja lapsi värittää sen, mihin muoto päätyy. Keskellä on otsikko Sama teräs, eri muodot, ja sen alla naula ja laiva, joista lapsi ympyröi kelluvan. Alimpana on iso tyhjä vesiastia, johon lapsi piirtää oman muovailuvahaveneensä.",
+   "p2": "Tässä kokeessa esine ei vaihdu, vaan sen muoto muuttuu. Muovailuvahapallo uppoaa, mutta kun samasta vahasta tehdään leveä vene korkeine reunoineen, se kelluu. Teräsnaula ja teräslaiva näyttävät saman periaatteen isossa mittakaavassa, ja lapsi saa vastauksen kysymykseen, miksi raskas laiva ei uppoa. Kokeessa muutetaan vain yhtä asiaa kerrallaan, mikä on tutkimisen tärkeä periaate. Syrjäytyksen käsitettä ei Suomessa opeteta vielä toisella luokalla, joten tässä vaiheessa riittää havainto: muoto ratkaisee. OPS 2014 painottaa ympäristöopissa tutkivaa oppimista.",
+   "p3": "Jokainen lapsi tarvitsee pingispallon kokoisen palan muovailuvahaa ja vesiastian. Kokeilkaa ensin pallo ja sitten vene, ja väritykset tehdään heti tuloksen jälkeen. Oman veneen piirtämisen jälkeen lapset voivat vertailla, millainen muoto kelluu parhaiten ja mikä vuotaa. Perheen perussivulla vaihtuivat esineet, tässä sama aine saa uuden muodon. Kolmannen luokan tutkimusraportissa voi jatkaa kysymyksellä, montako kuutiota vene jaksaa kantaa. Varaa pöydälle pyyhe, sillä vesi roiskuu. Kokeen voi toistaa alumiinifoliolla, jolloin rypistetty pallo ja taiteltu vene näyttävät saman ilmiön.",
+   "canonicalDeckSlug": "kelluminen-ja-uppoaminen-g2382",
+   "carousel": [
+    {
+     "label": "Kelluuko vai uppoaako? Arvaus ja kokeilu",
+     "href": "kelluuko-vai-uppoaako-kokeilu"
+    },
+    {
+     "label": "Painava vai kevyt? Kelluminen ja uppoaminen vaa’an avulla",
+     "href": "painava-vai-kevyt-kelluuko-vai-uppoaako"
+    },
+    {
+     "label": "Totta vai tarua? Kelluminen ja uppoaminen",
+     "href": "kelluminen-totta-vai-tarua"
+    },
+    {
+     "label": "Piirrä kelluvat ja uppoavat esineet vesiastiaan",
+     "href": "piirra-kelluvat-ja-uppoavat-esineet"
+    }
+   ],
+   "title": "Muovailuvaha kellumaan: muodon muuttamisen kokeilu | tulostettava PDF",
+   "metaDescription": "Muovailuvaha kellumaan: sama vaha palloksi ja veneeksi, naula ja teräslaiva sekä iso astia oman veneen piirtämiseen. 2. luokka, ilmainen tulostettava PDF."
+  },
+  {
+   "slug": "kelluminen-totta-vai-tarua",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "why-things-float-true-or-false",
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Kelluminen ja uppoaminen 2. luokalle",
+   "h1": "Totta vai tarua? Kelluminen ja uppoaminen",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kelluminen-ja-uppoaminen",
+    "2-luokka"
+   ],
+   "p1": "Sivun yläosassa on seitsemän kuvan rivi nimineen: naula, sulka, pölkky, peruna, kurpitsa, laiva ja omena. Sen alla on kuusi numeroitua väitettä, ja jokaisen vieressä on kaksi valintaa, totta ja tarua. Väitteissä sanotaan esimerkiksi, että painava kurpitsa kelluu, että kaikki kevyet esineet kelluvat ja että teräksinen laiva uppoaa. Viimeinen väite yhdistää kaksi esinettä: omena kelluu, mutta peruna uppoaa. Lapsi lukee jokaisen lauseen ja ympyröi totta tai tarua.",
+   "p2": "Väitteet on rakennettu harhaluulojen varaan. Moni lapsi uskoo, että painava uppoaa ja kevyt kelluu, ja kolme lausetta haastaa juuri tämän ajatuksen: painava kurpitsa kelluu, osa painavista esineistä kelluu eikä teräslaiva uppoa. Sanat kaikki ja jotkin ovat lauseissa tärkeitä, ja lapsi harjoittelee lukemaan tarkasti. Kuvarivi auttaa tarkistamaan yleistykset: pieni ja kevyt naula uppoaa, joten kaikki kevyet esineet eivät kellu, ja iso, painava pölkky kelluu. Sivu opettaa, ettei paino yksin ratkaise, mutta syy jää keskusteltavaksi.",
+   "p3": "Lukekaa väitteet ensin ääneen ja äänestäkää luokassa, ja kokeilkaa sitten oikealla vedellä ne, joista syntyi erimielisyyttä. Kysykää lopuksi, miksi näin käy. Vastaus löytyy kokeista: esineen aine ja muoto ratkaisevat, eivät paino tai koko. Muovailuvahakokeen jälkeen lapsi osaa usein perustella laivan kellumisen itse. Ensimmäisen luokan vaakasivu käsittelee samaa harhaluuloa kuvin, ja tämä sivu siirtää sen lukemiseen. Sivu tulostuu yhdelle arkille, ja väitteet ovat lyhyitä, joten toisen luokan lukija jaksaa lukea ne itse.",
+   "canonicalDeckSlug": "kelluminen-ja-uppoaminen-g2383",
+   "carousel": [
+    {
+     "label": "Kelluuko vai uppoaako? Arvaus ja kokeilu",
+     "href": "kelluuko-vai-uppoaako-kokeilu"
+    },
+    {
+     "label": "Painava vai kevyt? Kelluminen ja uppoaminen vaa’an avulla",
+     "href": "painava-vai-kevyt-kelluuko-vai-uppoaako"
+    },
+    {
+     "label": "Muovailuvaha kellumaan: muodon muuttamisen kokeilu",
+     "href": "muovailuvaha-kellumaan-muodon-kokeilu"
+    },
+    {
+     "label": "Piirrä kelluvat ja uppoavat esineet vesiastiaan",
+     "href": "piirra-kelluvat-ja-uppoavat-esineet"
+    }
+   ],
+   "title": "Kelluminen ja uppoaminen: totta vai tarua? 2. luokka | tulostettava PDF",
+   "metaDescription": "Totta vai tarua kellumisesta: kuusi väitettä ja seitsemän kuvaa naulasta omenaan. Lapsi lukee ja ympyröi totta tai tarua. 2. luokka, tulostettava PDF."
+  },
+  {
+   "slug": "piirra-kelluvat-ja-uppoavat-esineet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "draw-what-floats-and-sinks",
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Kelluminen ja uppoaminen esikouluun",
+   "h1": "Piirrä kelluvat ja uppoavat esineet vesiastiaan",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kelluminen-ja-uppoaminen",
+    "esikoulu"
+   ],
+   "p1": "Koko sivun täyttää yksi iso vesiastia. Veden pinnalla on kaksi katkoviivaruutua, ja niiden vieressä lappu, jossa lukee kelluu ja pieni kuva pinnalla olevasta pallosta. Pohjalla on toiset kaksi ruutua ja lappu uppoaa, jossa pallo lepää pohjalla. Lapsi piirtää pinnan ruutuihin kaksi esinettä, jotka kelluvat, ja pohjan ruutuihin kaksi, jotka uppoavat. Esineet lapsi keksii itse, sillä sivulla ei ole valmiita kuvia, ja kahden lyhyen sanan lisäksi kuvasymbolit kertovat, mikä ruutu on mikäkin. Näin esikoulu-ikäinen pärjää lukematta.",
+   "p2": "Piirtäminen näyttää, mitä lapsi jo tietää. Kun hän valitsee kelluvaksi esineeksi vaikkapa pallon tai kumiankan ja uppoavaksi kiven tai avaimen, aikuinen näkee suoraan, millainen käsitys lapsella on. Väärä sijoitus ei ole virhe vaan kokeen aihe, ja sen voi testata vesiastiassa heti. Esiopetuksen opetussuunnitelman perusteissa luonnonilmiöiden tutkiminen kuuluu oppimiskokonaisuuteen Tutkin ja toimin ympäristössäni, ja vesileikki on sen luontevin muoto. Neljä ruutua riittää, sillä piirtäminen vie esikoululaiselta aikaa.",
+   "p3": "Tehkää sivu vesileikin jälkeen tai sen aikana, jolloin lapsella on muistissa, mitä veteen laskettiin. Jos piirtäminen tuntuu vaikealta, lapsi voi leikata kuvia mainoslehdestä ja liimata ne ruutuihin. Ensimmäisen luokan perussivulla esineet on annettu, ja lapsi arvaa ennen kokeilua. Tämä sivu on sen avoimempi esikouluversio, jossa esineet tulevat lapsen omasta kokemuksesta. Valmiista sivusta voi keskustella piirinä: kuka piirsi pallon, kuka kiven, ja olivatko kaikki samaa mieltä. Kun sama esine päätyy eri lapsilla eri paikkaan, se on hyvä syy kokeilla veden kanssa.",
+   "canonicalDeckSlug": "kelluminen-ja-uppoaminen-k384",
+   "carousel": [
+    {
+     "label": "Kelluuko vai uppoaako? Arvaus ja kokeilu",
+     "href": "kelluuko-vai-uppoaako-kokeilu"
+    },
+    {
+     "label": "Painava vai kevyt? Kelluminen ja uppoaminen vaa’an avulla",
+     "href": "painava-vai-kevyt-kelluuko-vai-uppoaako"
+    },
+    {
+     "label": "Muovailuvaha kellumaan: muodon muuttamisen kokeilu",
+     "href": "muovailuvaha-kellumaan-muodon-kokeilu"
+    },
+    {
+     "label": "Totta vai tarua? Kelluminen ja uppoaminen",
+     "href": "kelluminen-totta-vai-tarua"
+    }
+   ],
+   "title": "Piirrä kelluvat ja uppoavat esineet esikoulu | tulostettava PDF ilmainen",
+   "metaDescription": "Piirrä kelluvat ja uppoavat esineet: iso vesiastia, kaksi ruutua pinnalla ja kaksi pohjalla. Lapsi piirtää omat esineensä. Esikouluun, ilmainen PDF."
+  },
+  {
+   "slug": "kelluminen-ja-uppoaminen-tutkimusraportti",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sink-or-float",
+    "mode": "sink-or-float-investigation-lab-report",
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Kelluminen ja uppoaminen 3. luokalle",
+   "h1": "Kelluminen ja uppoaminen: oma tutkimusraportti",
+   "strand": "Ympäristöoppi",
+   "slotTokens": [
+    "kelluminen-ja-uppoaminen",
+    "3-luokka"
+   ],
+   "p1": "Sivu on neljän vaiheen tutkimusraportti. Kohdassa 1, Kysymykseni, on kaksi valintaruutua: kelluuko appelsiini kuorineen ja kelluuko se ilman kuorta, sekä montako kuutiota muovailuvahavene jaksaa kantaa ennen kuin se uppoaa. Lapsi rastittaa toisen. Kohdassa 2, Arvelen, on kaksi kirjoitusriviä arvaukselle. Kohdassa 3, Mitä tapahtui, on kaksi tyhjää vesiastiaa piirtämistä varten ja kaksi riviä selitykselle. Kohdassa 4, Opin, ensimmäinen rivi alkaa valmiilla sanoilla Nyt tiedän, että.",
+   "p2": "Kolmannella luokalla lapsi alkaa suunnitella koetta itse, ja raportin vaiheet noudattavat tutkimuksen kulkua: kysymys, arvaus, kokeilu, havainto ja johtopäätös. Molemmat kysymykset ovat oikeita kokeita, joiden tulos yllättää. Kuorellinen appelsiini kelluu, koska kuoressa on ilmaa, mutta kuorittu appelsiini uppoaa. Muovailuvahavene taas kantaa kuutioita tiettyyn rajaan asti, ja laskeminen tuo mukaan matematiikan. Tutkiva työskentely on OPS 2014:n ympäristöopin keskeinen tavoite vuosiluokilla 3–6, ja raportti harjoittaa samalla selittävän tekstin kirjoittamista.",
+   "p3": "Tarvitset appelsiinin, vesiastian, muovailuvahaa ja pieniä kuutioita, esimerkiksi rakennuspalikoita tai matematiikan yksikkökuutioita. Kaksi vesiastiaa sopivat ennen ja jälkeen -vertailuun, kuten appelsiini kuorineen ja ilman kuorta. Veneen kokeessa niihin voi piirtää tilanteen juuri ennen uppoamista ja uppoamisen jälkeen. Tämä on perheen vaativin sivu, ja se kokoaa yhteen ensimmäisen luokan arvaa ja kokeile -sivun ja toisen luokan muovailuvahakokeen. Johtopäätöksen kirjoittaminen on raportin vaikein kohta, joten sitä kannattaa harjoitella ensin suullisesti. Valmiit raportit voi koota luokan tutkimuskansioon, ja parin kanssa lapset voivat verrata, päätyivätkö he samaan tulokseen. Jos tulokset eroavat, koe toistetaan.",
+   "canonicalDeckSlug": "kelluminen-ja-uppoaminen-g3400",
+   "carousel": [
+    {
+     "label": "Kelluuko vai uppoaako? Arvaus ja kokeilu",
+     "href": "kelluuko-vai-uppoaako-kokeilu"
+    },
+    {
+     "label": "Painava vai kevyt? Kelluminen ja uppoaminen vaa’an avulla",
+     "href": "painava-vai-kevyt-kelluuko-vai-uppoaako"
+    },
+    {
+     "label": "Muovailuvaha kellumaan: muodon muuttamisen kokeilu",
+     "href": "muovailuvaha-kellumaan-muodon-kokeilu"
+    },
+    {
+     "label": "Totta vai tarua? Kelluminen ja uppoaminen",
+     "href": "kelluminen-totta-vai-tarua"
+    }
+   ],
+   "title": "Kelluminen ja uppoaminen: tutkimusraportti 3. luokka | tulostettava PDF",
+   "metaDescription": "Kellumisen tutkimusraportti: valitse kysymys, kirjoita arvaus, kokeile, piirrä tulos ja kirjoita, mitä opit. Appelsiini tai muovailuvahavene. 3. luokka."
   }
  ]
 }

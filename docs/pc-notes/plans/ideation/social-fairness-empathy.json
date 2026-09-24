@@ -1,0 +1,256 @@
+[
+  {
+    "id": "social-fairness-01",
+    "name": "Share It Fair",
+    "mechanic": "N cookies sit on a tray and M friends wait with empty plates. The child drags cookies one-to-one onto plates, dealing them out until each friend's plate has an equal share. The remainder (if any) stays on the tray as 'leftovers nobody can split,' surfacing partitive division.",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "Closest neighbor is sort-home (drag item to its bin), but here the bins (plates) must end up with EQUAL counts and the skill is partitive division, not categorization — placement is constrained by an equity rule across all targets simultaneously, not by an attribute of each item. Separation: sort-home checks each item against a fixed category; this checks the whole distribution for equality.",
+    "standards": [
+      {"code": "3.OA.A.2", "grade": "3", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "Every friend smiles and says 'thank you, that's fair!' when all plates match; the leftover cookie gets a giggle ('save it for later').",
+    "interaction": "drag",
+    "character_world": "A picnic blanket with woodland friends (fox, rabbit, bear) holding empty plates.",
+    "web_shell_feasibility": "feasible — count-based equality check on M drop-zones, no physics.",
+    "asset_idea": "stub: colored circles as cookies + 3 plate rectangles labeled with animal faces. CA5: cookie sprite, 3 seated woodland animals each with a plate, happy/neutral face swap."
+  },
+  {
+    "id": "social-fairness-02",
+    "name": "Everyone Gets the Same",
+    "mechanic": "Three party bags must each end up identical. A palette holds stickers, candies, and toys; the child fills bag 1, and bags 2 and 3 must be built to MATCH it exactly (same items, same counts). Mismatched bags glow until corrected — a one-to-one correspondence / equal-sets task.",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "Unlike match-pairs (link A to its single partner) this requires reproducing a MULTI-ITEM set across multiple recipients so all sets are equal — the unit of fairness is a whole bag, not a pair. Separation from #01: here counts-per-item-type must match a reference set, not just total count be equal.",
+    "standards": [
+      {"code": "K.CC.C.6", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"}
+    ],
+    "fun_no_competition": "When all three bags are twins, the friends hold them up together and confetti-free sparkles say 'we all got the same!'",
+    "interaction": "drag",
+    "character_world": "A birthday party where three friends each wait for a goodie bag.",
+    "web_shell_feasibility": "feasible — compare item-count maps per bag against the reference bag.",
+    "asset_idea": "stub: 3 bag outlines + a tray of distinct emoji-like items. CA5: open party bags, item sprites (star sticker, gummy, toy car), 3 kid characters."
+  },
+  {
+    "id": "social-fairness-03",
+    "name": "What Each Guest Needs",
+    "mechanic": "Each guest at a table states a need in a speech bubble ('I'm thirsty,' 'I dropped my fork,' 'I can't see'). The child reads/hears the need and delivers the ONE item that solves it (cup, fork, lamp) from a shared tray — applying a need→item rule per character.",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "Feed-the-friend gives a creature any items it eats; here each delivery must satisfy a SPECIFIC stated need read from text, making it a rule-application + reading-comprehension task, not appetite. Separation from sort-home: the target isn't a category bin, it's a character whose need is described in language.",
+    "standards": [
+      {"code": "RF.K.4", "grade": "K", "strand": "Reading: Foundational Skills", "subject": "ela"},
+      {"code": "RL.K.1", "grade": "K", "strand": "Reading: Literature", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each helped guest beams and the need-bubble turns into a heart; helping the whole table fills a warm 'everyone's happy' banner.",
+    "interaction": "drag",
+    "character_world": "A cozy cafe with animal guests asking for help.",
+    "web_shell_feasibility": "feasible — need-string maps to correct item id; TTS for the bubble.",
+    "asset_idea": "stub: speech bubbles with text + tray of labeled items. CA5: seated cafe animals, item sprites (cup, fork, lamp, napkin), happy-face swap."
+  },
+  {
+    "id": "social-fairness-04",
+    "name": "Seat the Friends",
+    "mechanic": "A seating rule is given ('cats and dogs can't sit next to each other,' or 'each bench needs one big and one small friend'). The child drags friends onto benches so the rule holds for every seat. Violations highlight the offending neighbors.",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "This is constraint-satisfaction over ADJACENCY relationships, not item-to-target placement — a seat's correctness depends on its NEIGHBORS, a relational rule no template has. Separation from #01/#02 (which check equal totals): here correctness is local-relational, not count-equal.",
+    "standards": [
+      {"code": "K.MD.B.3", "grade": "K", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "RL.1.3", "grade": "1", "strand": "Reading: Literature", "subject": "ela"}
+    ],
+    "fun_no_competition": "When everyone's seated happily the friends link arms and the table glows; no wrong seat just gently nudges apart.",
+    "interaction": "drag",
+    "character_world": "A lunch table / movie bench where friends want to sit by the right buddy.",
+    "web_shell_feasibility": "feasible — evaluate adjacency constraints over a 1D bench array.",
+    "asset_idea": "stub: bench slots + friend tokens with attributes. CA5: long bench, varied animal friends (big/small, cat/dog), seated poses."
+  },
+  {
+    "id": "social-fairness-05",
+    "name": "Split It Down the Middle",
+    "mechanic": "Two friends want to share ONE thing (a sandwich, a cookie, a ribbon). The child taps to draw the cut line that splits it into two EQUAL parts (halves), then into equal fourths for four friends — fractions of a single whole, judged by visual equality of regions.",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "All other designs distribute discrete items; this PARTITIONS a single continuous whole into equal fractional pieces — a fractions-of-a-whole skill, framed as fair-sharing. Closest neighbor is #01 (discrete sharing) but the mathematical object is a fraction, not a quotient of counts.",
+    "standards": [
+      {"code": "1.G.A.3", "grade": "1", "strand": "Geometry", "subject": "math"},
+      {"code": "2.G.A.3", "grade": "2", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "Both friends get matching pieces and clink them like a toast; equal halves make the sandwich 'sparkle even.'",
+    "interaction": "tap",
+    "character_world": "Two hungry friends with one treat to share.",
+    "web_shell_feasibility": "feasible — predefined cut options; snap to the equal-partition line and verify region equality.",
+    "asset_idea": "stub: shape with candidate cut lines. CA5: sandwich/cookie/ribbon sprites with partition overlays, two friend faces."
+  },
+  {
+    "id": "social-fairness-06",
+    "name": "The Matchmaker",
+    "mechanic": "Each character holds half of a relationship ('I have the dog' — who has the bone? 'I'm the key' — who's the lock?). The child connects every character to their relationship partner by a stated semantic rule, draining the unmatched line until all are paired.",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "Unlike match-pairs (identical/visual pairs like memory) the link is a SEMANTIC RELATIONSHIP (owner→pet, tool→use, part→whole) — a vocabulary-relationship skill among characters, where pairing resolves a social want. Separation from #03: there a need maps to an inanimate item; here a CHARACTER maps to a partner CHARACTER by relationship.",
+    "standards": [
+      {"code": "L.K.5.a", "grade": "K", "strand": "Language", "subject": "ela"},
+      {"code": "L.1.5.b", "grade": "1", "strand": "Language", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each matched pair does a little hug-bounce; 'best friends found!' when the whole crowd is paired.",
+    "interaction": "tap",
+    "character_world": "A crowd of mixed-up characters looking for their other half.",
+    "web_shell_feasibility": "feasible — relationship adjacency map; tap-A-then-B draws an SVG line, validate the pair.",
+    "asset_idea": "stub: two columns of labeled tokens. CA5: pairable character/object sprites (dog↔bone, key↔lock, glove↔hand)."
+  },
+  {
+    "id": "social-fairness-07",
+    "name": "Make It Even",
+    "mechanic": "Two friends start with UNEQUAL piles (5 vs 3 marbles). The child moves marbles one at a time from the bigger pile to the smaller until both piles are equal — an averaging/equalizing action that surfaces 'how many to move to make them the same.'",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "No template moves quantity BETWEEN recipients to equalize; #01/#02 deal from a shared source, this redistributes existing unequal holdings (the difference, halved). Separation from #01: the source is another friend's pile, and the math is equalizing a difference, not partitive division of a single source.",
+    "standards": [
+      {"code": "1.OA.D.8", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "2.OA.A.1", "grade": "2", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "The two friends end up grinning at twin piles — 'now it's fair!' — and high-five.",
+    "interaction": "drag",
+    "character_world": "Two friends sharing a bag of marbles/blocks.",
+    "web_shell_feasibility": "feasible — two counters, transfer-on-drag, check equality.",
+    "asset_idea": "stub: two pile-zones with counters. CA5: marble/block sprites, two kid characters, balance-scale motif."
+  },
+  {
+    "id": "social-fairness-08",
+    "name": "Equal Teams",
+    "mechanic": "A group of friends must be split into EQUAL teams of a given size (or a given number of teams). The child drags friends into team circles so every team has the same count — partitioning a set into equal groups (the grouping interpretation of division).",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "#01 deals discrete treats to fixed recipients; here the recipients themselves (people) are the objects being grouped equally — quotitive/equal-groups partition of a population. Separation from #02 (match a reference set): teams must merely be equal-sized, items are interchangeable members.",
+    "standards": [
+      {"code": "2.OA.C.3", "grade": "2", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "3.OA.A.3", "grade": "3", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "Balanced teams cheer together (no winner) — 'fair teams, let's all play!'",
+    "interaction": "drag",
+    "character_world": "Recess game where kids form even teams so it's fun for everyone.",
+    "web_shell_feasibility": "feasible — count members per team circle, verify equal.",
+    "asset_idea": "stub: 2-3 team circles + friend tokens. CA5: playground kids in jerseys, team-circle hoops."
+  },
+  {
+    "id": "social-fairness-09",
+    "name": "Give Each a Fraction of the Set",
+    "mechanic": "A bowl of 12 grapes must be shared so each of 3 friends gets a NAMED fraction of the set ('give Mia one-third'). The child counts out the correct number (12 ÷ 3 = 4) into each friend's cup — fractions OF A SET tied to equal sharing.",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "#05 partitions a single whole; this partitions a SET by a named unit fraction, bridging division and fraction language. Separation from #01: the prompt is fraction-named ('one third of these'), training set-fraction vocabulary, not free equal-deal.",
+    "standards": [
+      {"code": "3.NF.A.1", "grade": "3", "strand": "Number & Operations—Fractions", "subject": "math"},
+      {"code": "3.OA.A.2", "grade": "3", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "Each friend's cup fills to the exact fair share and they toast; 'one-third each — perfectly fair!'",
+    "interaction": "drag",
+    "character_world": "Snack time sharing a bowl of fruit fairly.",
+    "web_shell_feasibility": "feasible — count items into N cups, compare to total/N.",
+    "asset_idea": "stub: bowl + 3 cups + count readout. CA5: grape/berry sprites, three friends with cups."
+  },
+  {
+    "id": "social-fairness-10",
+    "name": "The Right Gift",
+    "mechanic": "Each friend has a hint about what they'd love ('she loves things that float,' 'he likes round things'). The child reads the clue and gifts the ONE item from the shop that fits the described attribute/category — inference from a textual clue to a category.",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "Unlike #03 (need→fixed solution item) the gift is chosen by INFERRING a category from a descriptive clue ('things that float'), a comprehension + attribute-classification task with multiple valid-looking candidates. Separation from sort-home: the bin isn't shown; it's described and must be inferred per character.",
+    "standards": [
+      {"code": "RL.1.1", "grade": "1", "strand": "Reading: Literature", "subject": "ela"},
+      {"code": "RI.1.4", "grade": "1", "strand": "Reading: Informational Text", "subject": "ela"}
+    ],
+    "fun_no_competition": "The friend gasps with delight and hugs the gift — 'you knew exactly what I'd love!'",
+    "interaction": "drag",
+    "character_world": "A gift shop where you pick presents for friends by their hints.",
+    "web_shell_feasibility": "feasible — clue maps to an attribute tag; items carry tags; validate match.",
+    "asset_idea": "stub: clue bubbles + shelf of tagged items. CA5: friend characters, shop shelf, gift items (boat, ball, kite)."
+  },
+  {
+    "id": "social-fairness-11",
+    "name": "Take Turns Fairly",
+    "mechanic": "One toy, several friends. The child arranges a turn-ORDER so each friend gets exactly one turn before anyone repeats, following an ordinal rule ('the youngest goes first,' 'go in a circle'). Building the fair rotation is the skill — ordinal/sequence reasoning about fairness.",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "No template builds a fair SEQUENCE/rotation; path-journey moves one actor along a fixed path, whereas this ORDERS multiple actors so each is included once by a rule. Separation from #04 (spatial adjacency): this is temporal order/turn-fairness, not seating adjacency.",
+    "standards": [
+      {"code": "K.CC.B.4", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "1.OA.A.1", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "Everyone gets their turn and waves 'thanks for sharing!' — the rotation loops with happy faces, nobody left out.",
+    "interaction": "drag",
+    "character_world": "Friends sharing one swing/scooter and taking fair turns.",
+    "web_shell_feasibility": "feasible — order array, validate one-turn-each + ordinal rule.",
+    "asset_idea": "stub: numbered turn-slots + friend tokens. CA5: a swing, queue of kid friends, '1st/2nd/3rd' tags."
+  },
+  {
+    "id": "social-fairness-12",
+    "name": "How Are They Feeling?",
+    "mechanic": "A short illustrated mini-scene shows characters in a social moment (one sharing, one left out). The child reads/hears 2-3 sentences and taps the face/word that names how a named character FEELS and why — character-feeling comprehension driving a kind response.",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "This is a comprehension-of-feelings task (RL describe characters' feelings) — no template reads a social scene to identify emotion; story-maker authors a story, this INTERPRETS one. Separation from #03/#10: those map need/clue to an item; this maps a narrated situation to an internal emotional state.",
+    "standards": [
+      {"code": "RL.K.3", "grade": "K", "strand": "Reading: Literature", "subject": "ela"},
+      {"code": "RL.2.3", "grade": "2", "strand": "Reading: Literature", "subject": "ela"}
+    ],
+    "fun_no_competition": "Choosing the kind response makes the left-out friend brighten and join in — the scene warms up, 'now everyone feels included.'",
+    "interaction": "tap",
+    "character_world": "Little classroom/playground vignettes about feelings and kindness.",
+    "web_shell_feasibility": "feasible — static scene + sentence + tap-the-feeling choices; TTS.",
+    "asset_idea": "stub: scene illustration placeholder + feeling-word/face buttons. CA5: emotive character art (happy/sad/left-out), small social scenes."
+  },
+  {
+    "id": "social-fairness-13",
+    "name": "Build the Same Tower for Each",
+    "mechanic": "Each friend wants a block tower, and all towers must be the same HEIGHT (equal number of blocks). The child stacks blocks per friend until every tower matches — equal groups expressed as equal-height columns, a measurement-flavored sharing.",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "#08 makes equal teams of people; this makes equal QUANTITIES (heights) per recipient, a column/measurement equality (precursor to bar comparison) framed as fairness. Separation from #02 (match an exact reference set): here only the COUNT/height must be equal, items are uniform blocks.",
+    "standards": [
+      {"code": "K.MD.A.2", "grade": "K", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "1.MD.A.2", "grade": "1", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "When all towers are even the friends cheer 'we all built the same!' and the towers wobble a happy dance.",
+    "interaction": "tap",
+    "character_world": "Block-building friends who each want a tower just as tall.",
+    "web_shell_feasibility": "feasible — tap-to-add block, compare column heights.",
+    "asset_idea": "stub: vertical stack zones + block counter. CA5: block sprites, builder kids, tower bases."
+  },
+  {
+    "id": "social-fairness-14",
+    "name": "Trade to Make Everyone Happy",
+    "mechanic": "Each friend HAS one item but WANTS another ('I have an apple, I want a banana'). The child taps two friends to TRADE so both get their wish — resolving a network of wants by one-to-one swaps until everyone's satisfied.",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "Unique trade/swap-resolution: it's a relational matching where you pair HAVE→WANT across characters (a directed-matching puzzle), distinct from #06 (static relationship pairs) because the correct swap depends on reciprocal want satisfaction. Separation from #14-style 'deliver': nothing is delivered from a tray; goods circulate among characters.",
+    "standards": [
+      {"code": "K.OA.A.2", "grade": "K", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "RL.1.1", "grade": "1", "strand": "Reading: Literature", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each completed trade makes both friends cheer; the last swap turns the whole group's frowns to grins — 'everybody got what they wanted!'",
+    "interaction": "tap",
+    "character_world": "A friendly swap-market where friends trade snacks/toys.",
+    "web_shell_feasibility": "feasible — have/want graph; tap two characters, validate the swap satisfies both.",
+    "asset_idea": "stub: characters with have-bubble + want-bubble. CA5: market-stall friends, tradeable item sprites (apple, banana, ball)."
+  },
+  {
+    "id": "social-fairness-15",
+    "name": "One for You, One for Me",
+    "mechanic": "Items must be dealt to friends in strict one-to-one rounds (deal one to each, then again, then again) until the pile is gone — the child performs the DEALING action round-robin, with the game refusing a second item to a friend until all have had this round. Trains one-to-one correspondence and 'is it fair?'.",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "Where #01 checks the END state for equality, this enforces the round-robin PROCESS of one-to-one dealing (you must give to everyone before anyone gets seconds) — the cardinality/correspondence skill lives in the procedure. Closest neighbor #01; separation = process-constraint vs end-state-check.",
+    "standards": [
+      {"code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "K.CC.C.6", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"}
+    ],
+    "fun_no_competition": "Each round-robin pass makes all the friends nod together; when the pile's empty and everyone's even, a gentle 'fair and square!' glow.",
+    "interaction": "tap",
+    "character_world": "Dealing cards/snacks one at a time around a circle of friends.",
+    "web_shell_feasibility": "feasible — enforce round-robin gating in the deal logic.",
+    "asset_idea": "stub: pile + N receiving spots with a round indicator. CA5: circle of seated friends, dealable token sprites, dealer's-hand cue."
+  },
+  {
+    "id": "social-fairness-16",
+    "name": "Fill Each Order",
+    "mechanic": "Friends place picture-orders at a counter ('I want 3 red, 2 blue'). The child reads each numbered order and assembles the EXACT set onto that friend's plate — matching quantity-per-attribute to a written/spoken request for several recipients.",
+    "design_lens": "social-fairness-empathy",
+    "why_distinct": "Distinct from #03 (single solving item) and #10 (inferred category): orders specify EXACT COUNTS per type, making it a compose-a-numbered-set-per-recipient task (number-word→quantity). Separation from #02: each friend's target set is DIFFERENT (their own order), not a shared reference.",
+    "standards": [
+      {"code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "1.OA.A.1", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "Each correctly-filled order makes the friend clap and say 'just what I ordered, thank you!'",
+    "interaction": "drag",
+    "character_world": "A friendly cafe/ice-cream counter taking orders from animal customers.",
+    "web_shell_feasibility": "feasible — per-order count-per-attribute target; validate assembled plate.",
+    "asset_idea": "stub: order tickets with numbers + ingredient palette + plates. CA5: counter scene, scoop/topping sprites, customer animals."
+  }
+]

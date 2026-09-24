@@ -1,0 +1,29 @@
+---
+name: project-activity-sharing
+description: Subscriber feature to share the 200+ interactive activities with students via a durable clean /play/a link + QR; DONE + LIVE 2026-07-11
+metadata: 
+  node_type: memory
+  type: project
+  originSessionId: aaf336ec-30a7-4d56-b21f-c711a6b23431
+---
+
+# Activity sharing — DONE + LIVE 2026-07-11 (commit `5b167bff`, deployed + migration applied)
+
+Subscribers can share any of the 200+ interactive activities with their class via a **durable clean student-play link + QR**, managed in the workspace, promoted on the homepage. Mirrors the proven hosted-worksheet pattern ([[project_subscription_launch_2026_07]] HostedWorksheet).
+
+**Key enabler:** the mini-tool wrapper HTML (`/mini-tools/<tool>.html?activity=<id>&lang=<loc>&embed=1&v=<ACTIVITY_WRAPPER_VERSION>`) is ALREADY a standalone chrome-free student player. So a shared link only persists `{activityId (= ActivityRow.id, locale-independent), locale}` → serves that mini-tool in a minimal full-screen iframe wrapper. No new player, no file storage. `middleware.ts` already excludes `play/` from intl rewriting.
+
+**What shipped:**
+- **Schema** `ActivityPlayLink` (`activity_play_links`): id, linkId VarChar(12) @unique, teacherId, activityId VarChar(80), locale, title VarChar(200), viewCount, status (live|deleted soft), timestamps. Migration `20270713000000_add_activity_play_links` (three-step §A.5.1: applied via `prisma migrate deploy` on Hetzner; deploy.sh auto-ran `prisma generate`).
+- **Backend**: `resolveActivityById(id)` in `lib/activities.ts`; `lib/activity-share/core.ts` (12-char no-lookalike linkId, `ACTIVITY_SHARE_LIMIT=500`, `activityShareUrls`); `POST/GET /api/activities/share` (`requireActiveSubscriber`; POST idempotent per teacher+activity+locale, cap, P2002 retry); `DELETE/PATCH /api/activities/share/[id]` (getOwned…OrFail → 404 on mismatch, soft-delete).
+- **Play (student, FREE — NEVER lapses)**: `/play/a/[linkId]/route.ts` serves a minimal full-screen iframe wrapper of the mini-tool (noindex, CSP `frame-src 'self'`, viewCount++ fire-and-forget, **NO lapse gate** — activities are free, mirrors deck `/play/<linkId>` policy NOT hosted-worksheet paused gate); `/play/a/[linkId]/qr.png` (QRCode 480px teal #146B5E). The subscriber gate is ONLY on creation; links never break for students.
+- **UI**: `components/activities/ActivityShareButton.tsx` (on every activity page header; signed-out→signup, non-sub→pricing, sub→POST→modal) + shared `ActivityShareModal.tsx` (QR 220px + copy-link + open/download-QR) + `app/[locale]/workspace/SharedActivitiesWidget.tsx` (self-fetch GET, list+share+rename+delete+count meter; mirrors HostedWorksheetsWidget).
+- **Homepage promo**: `ActivitiesMoatV4.tsx` share callout (LIVE — always visible) + `FreeAndTeacherV4.tsx` teacher7 bullet (dark until PRICING_PUBLIC) + `activityShare.*` / `workspace.sharedActivities.*` / `homepageV4.activities.share*` EN strings (deep-merge to 11 locales; per-locale native pass DEFERRED, §A.13.48).
+
+**Live-verified 2026-07-11:** anon POST→401; homepage callout + activity-page button live; unknown /play/a→404; minted a real test row → `/play/a/<id>` 200 serving the fully-playable activity (screenshot) + noindex + correct iframe target, qr.png 200 image/png 480×480; viewCount incremented to 2; hard-deleted test row → link+qr 404 immediately (revocation, no CDN cache since `private`).
+
+**COMMIT HYGIENE NOTE (RESOLVED):** the homepage-v4 components `ActivitiesMoatV4.tsx` + `FreeAndTeacherV4.tsx` carried PRE-EXISTING uncommitted design polish (`hv5-paper-rise-sm`, `shadow-[var(--e1/e3)]`, `hv5-cta-lg`, badge polish, `hv5-chip-mono` — the last defined only in the then-uncommitted `homepage-v4.css`). For THIS feature commit I committed ONLY my feature hunks (checkout-HEAD → re-apply my hunk → git add → restore working-tree) and inlined the `hv5-chip-mono` styling so the feature didn't depend on uncommitted CSS. **Operator then asked why the polished homepage wasn't live → the full 13-file polish (whole homepage-v4 set + CSS + Navigation + CategoryNav + Button + BrowseByTopicSSR) was never committed, so it was NOT deployed.** Committed `8dd7d6dc` + deployed 2026-07-11; verified live. LESSON: don't leave operator-approved UI uncommitted — ship it (its own commit) or ask; "flagging it" is not enough.
+
+**MODAL-VISIBILITY FIX (`bed27add`, LIVE 2026-07-11):** the share modal darkened the page but its CARD never showed on the ACTIVITY page — `ActivityShareModal` returned an INLINE `fixed z-[100]` overlay, but it's mounted inside the activity `<section class="lcs-prototype-play-area relative overflow-hidden">` whose sibling iframe-wrapper (`z-10`, later in DOM) painted over it → card hidden behind the activity (looked broken though the share WAS created + listed in workspace). FIX = render via `createPortal(<overlay/>, document.body)` (guard `typeof document==='undefined'` + body-scroll-lock + Esc-close), mirroring `FeaturedDeckTileV3`. Also added an optional `workspaceHref` prop → a "Saved to your workspace — Activities I've shared" pointer line, shown ONLY on the activity page (ActivityShareButton passes it; the workspace widget omits it — redundant there). **DOCTRINE: any modal rendered from a component living inside a transformed / overflow-hidden / iframe-bearing stacking context MUST portal to document.body — an inline `fixed` overlay's z-index is trapped in the ancestor's stacking context.** Operator UX ruling: the click must give unmistakable visible feedback + point to where the link is saved. Verified live (puppeteer: dialog portaledToBody=true, card 448×621 on-screen, QR + savedLine present).
+
+**Per-locale i18n follow-up (deferred):** activityShare / sharedActivities / homepage share strings are EN-only (deep-merge fallback). Native per-locale pass is the §A.13.48 follow-up when commissioned.

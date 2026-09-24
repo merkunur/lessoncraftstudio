@@ -1,0 +1,109 @@
+# Config-conditional scan — FINAL VERDICT (2026-08-21)
+# Scanned: wordsearch 1,640 decks (11 locales) · de word-guess/word-scramble 194 · big-small 1,150.
+#
+# GROUP 1 (fr wordsearch oe/multi-word): ZERO broken decks. Monolingual decks never drew
+#   transformed words; 7 machine flags were all functional MIX-mode decks (word present in the
+#   picture list). One cosmetic finding, optional regen:
+#   en/portuguese-wordsearch-4th-of-july-332d — English HOTDOG in the Portuguese grid
+#   (unlocalized-name fallback; deck still solvable).
+# GROUP 2 (de ss-corruption): ZERO broken decks — no German word-guess/word-scramble deck was
+#   ever generated in lowercase mode, so the ss corruption never shipped.
+# GROUP 3 (big-small): the {seq}/"1-2-3" class is EMPTY (all 494 order decks are 3-image, where
+#   "1-2-3" was correct). The genuine class = the 92 NL decks below (canvas instruction uses
+#   ungrammatical "Cirkel het ..." — fixed app says "Omcirkel ..."). Optional quality-only:
+#   de/fr/es big-small decks carry older wordings ("in jeder Box", "boite", "caja") — deliberately
+#   NOT on the regen list per the original audit ruling.
+#
+# ACTION LIST (regenerate in the big-small app, nl, per mode+theme):
+nl	groot-klein-oplopende-volgorde-4-juli-031c	orderAsc	4th_of_july	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-accessoires-473a	orderAsc	accessories	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-activiteiten-cc4f	orderAsc	activities	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-bakkerij-2f54	orderAsc	bakery	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-beroepen-5bb0	orderAsc	occupations	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-bloemen-2430	orderAsc	flowers	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-boerderijdieren-8024	orderAsc	farm_animals	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-bomen-5778	orderAsc	tree	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-boswezens-7282	orderAsc	forest_creatures	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-desserts-en-snoep-6a45	orderAsc	desserts_and_sweets	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-dieren-8de3	orderAsc	animals	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-dierentuindieren-f7de	orderAsc	zoo_animals	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-dingen-die-vliegen-07a7	orderAsc	things_that_fly	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-dinosaurussen-6681	orderAsc	dinosaurs	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-emoties-1590	orderAsc	emotions	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-fruit-76c8	orderAsc	fruits	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-gereedschap-9cef	orderAsc	tools	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-groenten-f64b	orderAsc	vegetables	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-huisdieren-b94a	orderAsc	pets	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-in-de-supermarkt-3714	orderAsc	at_the_supermarket	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-insecten-en-beestjes-9363	orderAsc	insects_and_bugs	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-kamperen-5b38	orderAsc	camping	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-kerstmis-b209	orderAsc	christmas	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-keukengerei-e3e9	orderAsc	kitchen_tools	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-kleding-36e8	orderAsc	clothing	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-kleuren-2c25	orderAsc	colors	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-lente-fae4	orderAsc	spring	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-lichaamsdelen-4363	orderAsc	body_parts	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-meubels-7243	orderAsc	furniture	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-muziek-c6ef	orderAsc	music	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-oceaanleven-40d0	orderAsc	ocean_life	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-ontbijt-305c	orderAsc	breakfast	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-pasen-0e9f	orderAsc	easter	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-postkantoor-cc00	orderAsc	post_office	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-reptielen-en-amfibieen-9264	orderAsc	reptiles_and_amphibians	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-rond-het-huis-40a7	orderAsc	around_the_house	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-ruimte-0fea	orderAsc	space	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-speelgoed-ae96	orderAsc	toys	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-strand-926b	orderAsc	beach	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-thanksgiving-5f97	orderAsc	thanksgivinng	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-voertuigen-2cf9	orderAsc	vehicles	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-vogels-2-6152	orderAsc	birds_2	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-vogels-5ea9	orderAsc	birds	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-vormen-53a9	orderAsc	shapes	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-weer-21e1	orderAsc	weather	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-winter-9fa0	orderAsc	winter	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-ziekenhuis-de71	orderAsc	hospital	NL_WORDING	img_count=3
+nl	groot-klein-oplopende-volgorde-zomer-54ae	orderAsc	summer	NL_WORDING	img_count=3
+nl	groot-klein-vind-de-grote	findBig		NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-4-juli-4e60	findBig	4th_of_july	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-accessoires-21b4	findBig	accessories	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-activiteiten-06ff	findBig	activities	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-bakkerij-8e30	findBig	bakery	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-beroepen-f42f	findBig	occupations	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-bloemen-b7c2	findBig	flowers	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-boerderijdieren-1faa	findBig	farm_animals	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-bomen-6e31	findBig	tree	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-boswezens-6c62	findBig	forest_creatures	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-desserts-en-snoep-07ba	findBig	desserts_and_sweets	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-dieren-23b3	findBig	animals	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-dierentuindieren-8ea2	findBig	zoo_animals	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-dingen-die-vliegen-75f0	findBig	things_that_fly	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-dinosaurussen-41a7	findBig	dinosaurs	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-fruit-6ca8	findBig	fruits	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-gereedschap-304f	findBig	tools	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-groenten-bb13	findBig	vegetables	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-huisdieren-eb44	findBig	pets	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-in-de-supermarkt-27e2	findBig	at_the_supermarket	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-kamperen-16a3	findBig	camping	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-kerstmis-5edf	findBig	christmas	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-keukengerei-4cf4	findBig	kitchen_tools	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-klaslokaal-0d2a	findBig	classroom	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-kleding-db0f	findBig	clothing	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-kleuren-7b37	findBig	colors	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-lente-03bb	findBig	spring	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-lichaamsdelen-5ad8	findBig	body_parts	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-meubels-e666	findBig	furniture	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-muziek-fc16	findBig	music	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-oceaanleven-0273	findBig	ocean_life	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-ontbijt-c86c	findBig	breakfast	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-pasen-1c24	findBig	easter	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-rond-het-huis-8b74	findBig	around_the_house	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-ruimte-9821	findBig	space	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-speelgoed-41dc	findBig	toys	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-strand-19bc	findBig	beach	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-voertuigen-bb2b	findBig	vehicles	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-vogels-2-a0d9	findBig	birds_2	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-vormen-018c	findBig	shapes	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-weer-74d8	findBig	weather	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-winter-37b1	findBig	winter	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-ziekenhuis-d8c6	findBig	hospital	NL_WORDING	img_count=2
+nl	groot-klein-vind-de-grote-zomer-eb09	findBig	summer	NL_WORDING	img_count=2

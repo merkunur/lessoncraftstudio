@@ -1,0 +1,10 @@
+# Broken-text replacement program COMPLETE (2026-08-21). Remaining, all OPTIONAL:
+# 1. en TH treasure-hunt-4th-of-july-030 — old autumn-content deck; EN-only punctuation nit.
+# 2. en portuguese-wordsearch-4th-of-july-332d — English HOTDOG in the Portuguese grid
+#    (solvable; cosmetic; regenerate the deck in the wordsearch app if desired).
+# 3. nl groot-klein-vind-de-grote — the theme-less nl big-small findBig deck (all-themes/
+#    random draw); old "Cirkel het" wording. Regenerate with the big-small app in its
+#    random/all-themes image mode if it has one; else leave.
+en	treasure-hunt	cardinal-arrows	4th_of_july	treasure-hunt-4th-of-july-030
+en	wordsearch	(mix pt)	4th_of_july	portuguese-wordsearch-4th-of-july-332d
+nl	big-small	findBig	(none)	groot-klein-vind-de-grote

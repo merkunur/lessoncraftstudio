@@ -1,0 +1,274 @@
+[
+  {
+    "id": "organize-order-01",
+    "name": "The Tidy Number Line",
+    "mechanic": "A row of empty pegs forms a number line. Stray numbered tokens (or quantity-cards) float at the top; the child drags each onto its correct peg so the whole line reads in order. The ARRANGEMENT (left-to-right position) IS the answer — a token only snaps if it belongs between its neighbors.",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "Closest neighbor is sort-home, but sort-home is binning into category labels with no relationship between bins; here the bins are ORDERED and a token's correctness depends on its neighbors (relative position encodes the answer). Separation: ordinal relationship vs categorical membership.",
+    "standards": [
+      {"code": "K.CC.A.3", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "1.NBT.A.1", "grade": "1", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "The deep satisfaction of a crooked, gap-filled line snapping straight and tidy; each token gives a soft chime as it clicks into place and the line lights up left-to-right when complete.",
+    "interaction": "drag",
+    "character_world": "A friendly inchworm who lives on a washing-line of numbers and gets wobbly when the numbers are out of order.",
+    "web_shell_feasibility": "feasible — DOM pegs + draggable tokens, snap-on-correct-position is a simple index comparison.",
+    "asset_idea": "stub: gray peg slots + plain number chips. CA5: inchworm character sprite (idle/happy/wobble), wooden peg-line, glowing number tiles, sparkle snap effect."
+  },
+  {
+    "id": "organize-order-02",
+    "name": "Line Them Up By Height",
+    "mechanic": "Several characters of clearly different heights (or objects of different length) stand jumbled. The child drags them into a row so they go shortest-to-tallest (or longest-to-shortest). The row only locks when every neighbor pair satisfies the order relation — the spatial sequence encodes a measurement ranking.",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "Distinct from organize-order-01 (numbers) because the attribute being ordered is a PERCEPTUAL/measured one (height/length), not a labeled numeral — the child must compare and rank, not read a value. Distinct from sort-home: ordering by degree, not category.",
+    "standards": [
+      {"code": "K.MD.A.2", "grade": "K", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "1.MD.A.1", "grade": "1", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "Watching a goofy mismatched crowd become a neat staircase of friends; they all turn and smile at each other once lined up, like a tidy family photo.",
+    "interaction": "drag",
+    "character_world": "A photographer owl arranging woodland friends for a group portrait, smallest at the front.",
+    "web_shell_feasibility": "feasible — drag-to-reorder a horizontal flex row; compare CSS heights for the lock check.",
+    "asset_idea": "stub: colored rectangles of varying height. CA5: owl photographer with camera, animal friends at 4-5 heights each (idle + 'lined-up smile'), photo-studio backdrop, camera-flash snap."
+  },
+  {
+    "id": "organize-order-03",
+    "name": "Balance the Scale",
+    "mechanic": "A two-pan balance tilts. One pan holds a fixed set of objects (or a number); the child drags objects onto the empty pan until the scale comes level — meaning the two sides are EQUAL. The physical tilt of the beam IS the feedback; equality is achieved by arranging the right amount, not by typing an answer.",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "No template balances two sides to equality. Closest is magic-machine (input→output transform) but here there is no transform — the child manipulates one side to MATCH the other, and the answer is encoded as a balanced state. Separation: equivalence-via-arrangement vs transformation.",
+    "standards": [
+      {"code": "K.OA.A.4", "grade": "K", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "1.OA.D.7", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "The wobble-then-settle of the beam coming to rest dead level — a genuinely sensory 'aaah'; the scale gives a happy ding and steadies when balanced.",
+    "interaction": "drag",
+    "character_world": "A gentle market mouse weighing fruit who just wants both baskets to weigh the same so nobody feels left out.",
+    "web_shell_feasibility": "feasible — beam rotates via CSS transform driven by a count/weight difference; equality halts rotation. No physics engine needed (discrete counts).",
+    "asset_idea": "stub: simple seesaw bar + circle weights. CA5: market mouse, hanging-basket balance, apples/blocks weight-objects, level-beam glow + ding."
+  },
+  {
+    "id": "organize-order-04",
+    "name": "Pack the Suitcase",
+    "mechanic": "A suitcase grid must be filled with packing items so they fit edge-to-edge with NO gaps and NO overlaps (a tetromino-style spatial pack). The child drags and rotates items so the arrangement exactly tiles the space. The completed packing IS the answer — composing shapes to fill a region.",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "No template packs/tiles a bounded space. Closest is reveal-grid, but that uncovers cells; here the child PLACES shapes that must interlock without gaps. Separation: spatial composition/tiling vs revealing.",
+    "standards": [
+      {"code": "K.G.B.6", "grade": "K", "strand": "Geometry", "subject": "math"},
+      {"code": "1.G.A.2", "grade": "1", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "The satisfying click of the last piece filling the final gap and the lid snapping shut; everything fits perfectly, ready for the trip.",
+    "interaction": "drag",
+    "character_world": "A traveling hedgehog packing for a holiday who needs everything to fit so the suitcase will close.",
+    "web_shell_feasibility": "feasible — grid-snap drag with rotation; occupancy-map check for gaps/overlaps. Keep piece set small for K-3.",
+    "asset_idea": "stub: outlined suitcase grid + colored block shapes. CA5: hedgehog traveler, open suitcase with fabric lining, clothes/toy items as soft puzzle shapes, lid-close + click."
+  },
+  {
+    "id": "organize-order-05",
+    "name": "The Alphabet Queue",
+    "mechanic": "Letter-characters mill about wanting to get in line for the ice-cream truck. The child drags each into a queue so they stand in alphabetical order (or so a small set of words queues alphabetically by first letter). The left-to-right queue order encodes alphabetical sequencing.",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "An ELA ordering core. Distinct from organize-order-01/02 (numeric/measured order) because the ordering key is the alphabet (symbolic sequence the child must KNOW, not compare perceptually). Distinct from sort-home (no bins) and match-pairs (no pairing).",
+    "standards": [
+      {"code": "K.RF.1.D", "grade": "K", "strand": "Reading: Foundational Skills", "subject": "ela"},
+      {"code": "1.L.2.E", "grade": "1", "strand": "Language", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each letter cheers 'my turn!' as it slots into the right spot; when the whole queue is correct they do a little wave down the line and the truck dings.",
+    "interaction": "drag",
+    "character_world": "Chatty letter-friends waiting politely in line for an ice-cream truck that only serves them in ABC order.",
+    "web_shell_feasibility": "feasible — drag-reorder list; alphabetical index comparison for lock. TTS can name each letter.",
+    "asset_idea": "stub: lettered chips in a row. CA5: 26 expressive letter-characters (idle/excited), ice-cream truck, sidewalk queue, ABC arch sign."
+  },
+  {
+    "id": "organize-order-06",
+    "name": "Tidy the Toy Shelf (Sort, Then Sort Again)",
+    "mechanic": "A messy pile must be organized into a shelf with rows AND columns: first by a major category (rows), then by a sub-attribute within each row (columns, e.g. by color or size). Correct placement requires satisfying TWO classification rules at once — the grid arrangement encodes a two-level organization.",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "Sort-home is single-rule binning; this requires nested category-AND-subcategory placement, so a cell is correct only if BOTH its row-rule and column-rule hold. Separation: two-attribute cross-classification vs one-attribute binning.",
+    "standards": [
+      {"code": "K.MD.B.3", "grade": "K", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "1.MD.C.4", "grade": "1", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "Turning chaos into a perfectly organized display where everything matches its neighbors row and column; the shelf sparkles and the toys settle in contentedly.",
+    "interaction": "drag",
+    "character_world": "A tidy shopkeeper raccoon whose toy shelf got tumbled and who loves things grouped just so.",
+    "web_shell_feasibility": "feasible — 2D grid drop targets; check row-attr + col-attr on drop. Modest item count.",
+    "asset_idea": "stub: 3x3 grid + colored category icons. CA5: raccoon shopkeeper, wooden shelf, toy objects in 3 categories × 3 colors, tidy-sparkle."
+  },
+  {
+    "id": "organize-order-07",
+    "name": "Story in Order",
+    "mechanic": "Three to five picture-cards from a familiar little story sit shuffled. The child drags them into a left-to-right strip so the events go first → next → last. The sequence position of each card encodes narrative/temporal order.",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "Distinct from story-maker (which freely composes/creates a story) — here the child REORDERS fixed events into the one correct sequence. Distinct from path-journey (no traversal/movement). Separation: reconstruct-a-fixed-order vs author-freely / move-along-a-path.",
+    "standards": [
+      {"code": "K.RL.2", "grade": "K", "strand": "Reading: Literature", "subject": "ela"},
+      {"code": "1.RL.2", "grade": "1", "strand": "Reading: Literature", "subject": "ela"}
+    ],
+    "fun_no_competition": "When the order is right, the strip plays as a tiny flip-book animation of the story start-to-finish — the reward is seeing the story come alive in order.",
+    "interaction": "sequence",
+    "character_world": "A bedtime storybook bunny whose picture-pages got jumbled and need re-sorting to read the tale.",
+    "web_shell_feasibility": "feasible — drag-reorder cards; index check vs canonical order; simple frame-by-frame playback on success.",
+    "asset_idea": "stub: numbered placeholder cards. CA5: storybook bunny, 4-5 illustrated event panels per short tale, open-book frame, page-turn playback."
+  },
+  {
+    "id": "organize-order-08",
+    "name": "Build the Growing Pattern",
+    "mechanic": "A pattern strip shows the first few terms of a repeating/growing arrangement (AB, ABB, or +1 staircase) then breaks off. The child drags tiles into the empty slots to CONTINUE the arrangement so it stays regular. The continuing sequence encodes the rule.",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "About arranging into a regular sequence by RULE, not ranking by attribute (01/02) or binning (06). Closest is organize-order-01 but there the rule is fixed counting; here the child must INDUCE and extend an abstract pattern rule. Separation: induce-and-continue-a-pattern.",
+    "standards": [
+      {"code": "K.OA.A.1", "grade": "K", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "2.OA.C.3", "grade": "2", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "The pleasure of a pattern marching on perfectly; each correct tile makes the strip 'tick' forward like a music box, and the finished strip plays its rhythm.",
+    "interaction": "drag",
+    "character_world": "A pattern-loving caterpillar whose body-segments form a rhythm that must keep its beat.",
+    "web_shell_feasibility": "feasible — tile palette + ordered slots; validate each slot against the generated rule.",
+    "asset_idea": "stub: colored squares in a strip. CA5: rhythm caterpillar with patterned segments, music-box stage, color/shape tiles, beat pulse on completion."
+  },
+  {
+    "id": "organize-order-09",
+    "name": "Seating Chart by the Rule",
+    "mechanic": "A grid of seats must be filled with guests so that a stated positional rule is satisfied (e.g. 'the cat sits between the dog and the bird', 'put the tallest on the left'). The child drags guests into seats; the arrangement is correct only when the spatial relationships match the rule. Position encodes a logic constraint.",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "Introduces positional-language / relational constraints (between, left-of, next-to) as the organizing key — distinct from attribute-ranking (02) and pattern (08). Closest is the height row (02), but here the rule is RELATIONAL and verbal, not a single monotonic attribute. Separation: satisfy-a-positional-constraint.",
+    "standards": [
+      {"code": "K.G.A.1", "grade": "K", "strand": "Geometry", "subject": "math"},
+      {"code": "1.RF.1", "grade": "1", "strand": "Reading: Foundational Skills", "subject": "ela"}
+    ],
+    "fun_no_competition": "Everyone settling happily into the right seat with a contented sigh; when the rule is met the guests link arms and the table lights up for the party.",
+    "interaction": "drag",
+    "character_world": "A party-planner squirrel arranging the seating so all the picky animal guests are happy next to their friends.",
+    "web_shell_feasibility": "feasible — seat grid drop targets; evaluate the relational rule (between/left/right/next-to) on arrangement. TTS reads the rule.",
+    "asset_idea": "stub: chairs in a row/grid + animal tokens. CA5: squirrel planner with clipboard, party table + chairs, animal guests, balloons/lights on success."
+  },
+  {
+    "id": "organize-order-10",
+    "name": "Fill the Ten-Frame Just Right",
+    "mechanic": "An empty ten-frame (two rows of five) must be filled with counters to show a target number, placed in the conventional order (fill the top row left-to-right first). The arrangement of counters within the frame's structured cells encodes the number's composition (e.g. 7 = a full five + two).",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "Distinct from organize-order-01 (a linear number line) — this is a STRUCTURED 5+5 frame where placement order and grouping reveal subitizing structure. Closest neighbor is the number line; separation is bounded 2-row composition vs unbounded ordinal line.",
+    "standards": [
+      {"code": "K.CC.B.4", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "1.NBT.B.2", "grade": "1", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "Counters dropping into their cells with a soft pop, the frame filling row-by-row neatly; a satisfying 'full row' shimmer when the top five complete.",
+    "interaction": "tap",
+    "character_world": "An egg-carton-loving hen who fills her ten-frame nest with eggs, one tidy row at a time.",
+    "web_shell_feasibility": "feasible — fixed 2×5 grid; tap-to-fill in order; count check. Trivial runtime.",
+    "asset_idea": "stub: 2×5 outlined cells + dot counters. CA5: hen character, egg-carton ten-frame, eggs as counters, row-complete shimmer."
+  },
+  {
+    "id": "organize-order-11",
+    "name": "Sound Sequence: Make the Word in Order",
+    "mechanic": "Sound-tiles (onset, vowel, coda chunks) for a pictured word sit scrambled. The child drags them into left-to-right slots so the spoken sounds blend in the correct order to name the picture. The left-to-right tile order encodes the phoneme/grapheme sequence.",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "An ELA decoding ORDER core: the child arranges sound-chunks into sequence (not builds free words, not matches pairs). Distinct from the alphabet queue (05) which orders whole letters by ABC; here the order is the WORD'S own left-to-right sound order. Separation: sequence-sounds-within-one-word.",
+    "standards": [
+      {"code": "K.RF.2.C", "grade": "K", "strand": "Reading: Foundational Skills", "subject": "ela"},
+      {"code": "1.RF.3.B", "grade": "1", "strand": "Reading: Foundational Skills", "subject": "ela"}
+    ],
+    "fun_no_competition": "Each tile says its sound as it lands; when all are ordered the word blends aloud and the picture animates with a happy pop — the joy of a word clicking together.",
+    "interaction": "drag",
+    "character_world": "A friendly robot who 'reads' by lining up sound-blocks on a conveyor and reading them off in order.",
+    "web_shell_feasibility": "feasible — ordered drop slots + per-tile TTS (whole-syllable units, safe per shell audio constraints); blend on completion.",
+    "asset_idea": "stub: sound-chunk chips + picture. CA5: reader-robot, conveyor-belt slots, sound-tiles, picture card, blend-glow animation."
+  },
+  {
+    "id": "organize-order-12",
+    "name": "Shelve the Library Books by Number",
+    "mechanic": "Books labeled with numbers (or two-digit numbers) lie in a return cart. The child slides each book into a shelf slot so the shelf reads in increasing order, spine numbers ascending left-to-right. Inserting a book pushes the visual order; the final shelf order encodes the sort.",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "An ORDERING by comparing multi-item values into a fully sorted line — heavier sorting than the number-line (01), which places into fixed labeled pegs. Here the slots are unlabeled and the child must compare each book to its neighbors. Separation: comparative full-sort into open slots.",
+    "standards": [
+      {"code": "1.NBT.B.3", "grade": "1", "strand": "Number & Operations in Base Ten", "subject": "math"},
+      {"code": "2.NBT.A.4", "grade": "2", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "The clunk of each book sliding into a tidy shelf; when the row is fully ordered the librarian stamps it and the shelf glows golden — everything in its place.",
+    "interaction": "drag",
+    "character_world": "A meticulous librarian tortoise re-shelving returned books in perfect numerical order.",
+    "web_shell_feasibility": "feasible — drag-insert into a row that reflows; compare neighbor values for the sorted check.",
+    "asset_idea": "stub: numbered book-spine rectangles + shelf. CA5: tortoise librarian, wooden bookshelf, colorful numbered book spines, golden 'sorted' stamp."
+  },
+  {
+    "id": "organize-order-13",
+    "name": "Equal Plates: Share It Out",
+    "mechanic": "A set of treats and several plates. The child drags treats onto plates so that EVERY plate ends up with the same number — fair shares. The arrangement is correct when all plates are equal; equality across multiple groups (not just two pans) encodes equal partitioning.",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "Distinct from Balance the Scale (03), which equalizes TWO sides; this distributes one collection into N EQUAL groups (foundations of division/fair-share). Separation: equal-partition into many groups vs balance two.",
+    "standards": [
+      {"code": "1.G.A.3", "grade": "1", "strand": "Geometry", "subject": "math"},
+      {"code": "2.OA.C.4", "grade": "2", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "Each friend getting exactly the same — the fairness delight; when plates match, the animals all say 'thank you, same as me!' and tuck in together.",
+    "interaction": "drag",
+    "character_world": "A kind picnic bear making sure every guest's plate has exactly the same number of berries.",
+    "web_shell_feasibility": "feasible — multiple plate drop-zones; check equal counts across plates. Simple count logic.",
+    "asset_idea": "stub: plate circles + berry dots. CA5: picnic bear, picnic blanket, plates, berries/cookies, grateful animal guests, 'fair share' sparkle."
+  },
+  {
+    "id": "organize-order-14",
+    "name": "Chronological: What Came First?",
+    "mechanic": "Picture-cards of life-stages or a day's routine (seed→sprout→tree, or morning→noon→night) sit shuffled. The child arranges them on a timeline track so they go earliest→latest. The timeline position encodes real-world temporal/causal order.",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "Distinct from Story-in-Order (07), which sequences a fictional narrative's events — this orders REAL-WORLD chronology/lifecycle as informational sequencing. Separation: informational time-order vs narrative plot-order.",
+    "standards": [
+      {"code": "K.RI.3", "grade": "K", "strand": "Reading: Informational Text", "subject": "ela"},
+      {"code": "1.RI.3", "grade": "1", "strand": "Reading: Informational Text", "subject": "ela"}
+    ],
+    "fun_no_competition": "Watching a tiny life-cycle bloom in order — the seed grows into a tree as the cards lock in; a calm, wholesome 'time passing' animation rewards the right order.",
+    "interaction": "sequence",
+    "character_world": "A gentle gardener mole arranging photo-memories of how things grow, from first to last.",
+    "web_shell_feasibility": "feasible — drag-reorder onto a timeline; index vs canonical; short grow animation on success.",
+    "asset_idea": "stub: photo-card placeholders on a line. CA5: gardener mole, timeline ribbon, life-cycle/routine illustration sets, sunrise-to-sunset color wash, grow playback."
+  },
+  {
+    "id": "organize-order-15",
+    "name": "Sort the Coins Into the Right Tubes",
+    "mechanic": "Mixed coins (or place-value tokens: ones, tens, hundreds) tumble out; the child drags each into the matching labeled tube AND the tubes must end stacked in value order. Combines category placement with an ordered arrangement so the lineup of tubes reads least→greatest value.",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "Hybrid that is still distinct: sort-home only bins; here after binning, the BINS themselves must be value-ordered and the within-tube stack reveals quantity. Closest is Tidy Toy Shelf (06) but that's two perceptual attributes; this couples categorization with numeric value ordering and place value.",
+    "standards": [
+      {"code": "1.NBT.B.2", "grade": "1", "strand": "Number & Operations in Base Ten", "subject": "math"},
+      {"code": "2.NBT.A.1", "grade": "2", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "Coins clinking down into their tubes, the tubes filling like a chart; when all are sorted and value-ordered the piggy bank does a happy jingle.",
+    "interaction": "drag",
+    "character_world": "A thrifty piggy-bank pig organizing the day's coins into neat value tubes.",
+    "web_shell_feasibility": "feasible — labeled tube drop-zones + value-order check on the tube row; counts shown as stacks.",
+    "asset_idea": "stub: labeled tubes + token circles. CA5: piggy-bank pig, clear coin tubes (ones/tens/hundreds), coins/base-ten blocks, jingle + chart-fill animation."
+  },
+  {
+    "id": "organize-order-16",
+    "name": "Fit the Tangram Picture",
+    "mechanic": "A target silhouette (a cat, a boat) must be filled exactly by arranging a small set of given shapes — sliding, rotating, and flipping them to compose the picture with no overlap and no gap. The completed arrangement of parts IS the answer (compose shapes to make a larger shape).",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "Distinct from Pack the Suitcase (04): packing fills a rectangular grid with axis-aligned blocks; this composes free-form geometric shapes (triangles/squares) into a recognizable FIGURE, requiring rotation/flip and shape-composition reasoning. Separation: compose-named-figure vs grid-pack.",
+    "standards": [
+      {"code": "1.G.A.2", "grade": "1", "strand": "Geometry", "subject": "math"},
+      {"code": "2.G.A.1", "grade": "2", "strand": "Geometry", "subject": "math"}
+    ],
+    "fun_no_competition": "The final triangle dropping in to reveal the whole picture — a quiet 'ta-da'; the silhouette fills with color and the animal it forms gives a little wink.",
+    "interaction": "drag",
+    "character_world": "A shape-wizard cat conjuring pictures out of magic geometry tiles.",
+    "web_shell_feasibility": "needs-richer-runtime — free rotation/flip + non-grid overlap detection is heavier than snap-grid; doable with constrained snap-angles (45°) and predefined slots to stay shell-feasible.",
+    "asset_idea": "stub: gray silhouette + plain colored polygons. CA5: shape-wizard cat, glowing tangram tiles, target silhouettes (animals/boats), reveal sparkle + wink."
+  },
+  {
+    "id": "organize-order-17",
+    "name": "Make Equal Towers",
+    "mechanic": "Two (or three) cube-towers of unequal height stand side by side. The child moves cubes between towers (or adds cubes) until all towers are the same height — visually equal. The matched heights encode equality/equalizing, and the moves model making-equal.",
+    "design_lens": "sort-curate-organize",
+    "why_distinct": "Distinct from Balance the Scale (03, abstract beam) and Equal Plates (13, partition a single set) — here the child redistributes cubes BETWEEN existing unequal towers to equalize them, modeling 'even out the difference'. Separation: redistribute-to-equalize via height comparison.",
+    "standards": [
+      {"code": "K.MD.A.2", "grade": "K", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "2.MD.B.5", "grade": "2", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "Towers rising and falling until they stand shoulder-to-shoulder, perfectly level; a row of even towers gives a satisfying 'click' and a tidy little flag pops up on each.",
+    "interaction": "drag",
+    "character_world": "Builder beavers who want all their block-towers exactly the same so the rooftops line up neatly.",
+    "web_shell_feasibility": "feasible — stacked-cube columns; drag cube between columns; compare heights for equal-check.",
+    "asset_idea": "stub: stacked squares as columns. CA5: builder beavers with hard hats, snap-together block cubes, construction-site backdrop, level-flag pop on equal."
+  }
+]

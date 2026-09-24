@@ -1,0 +1,254 @@
+[
+  {
+    "id": "collect-trade-01",
+    "name": "The Fair-Trade Post",
+    "mechanic": "A traveling trader offers a swap: 'I'll give you this drum for 10 acorns.' The child has piles of items and must drag exactly the equal value across the trading log to seal the trade. Trades only 'click' shut when both sides balance; wrong amounts spring back. Each sealed trade adds the new item to your wagon.",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "Closest neighbor is match-pairs (pairing equal things), but here the two sides are UNLIKE objects of EQUAL VALUE (10 acorns = 1 drum), so the skill is value-equivalence across different units, not visual matching. Distinct from sticker-album because nothing is earned-into-a-slot; you actively give-up value to get value.",
+    "standards": [
+      {"code": "1.OA.D.7", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "The satisfying clunk of a balanced trade sealing shut and the trader tipping his hat; your wagon visibly fills with quirky bartered goods you 'own'.",
+    "interaction": "drag",
+    "character_world": "Pip the badger trader who rolls a wagon between forest stalls, bartering acorns, berries and trinkets.",
+    "web_shell_feasibility": "feasible — two drop-zones, sum-compare on drop, spring-back animation; all DOM + CSS.",
+    "asset_idea": "stub: gray scale-pan + count chips. CA5: badger trader sprite, wagon, acorn/berry/drum item icons, a tipping-hat celebration frame."
+  },
+  {
+    "id": "collect-trade-02",
+    "name": "Ten-for-One Bank",
+    "mechanic": "You collect single 'ones' cubes as they tumble in. When you have ten ones, you drag them onto the Banker's tray and they fuse into one 'ten' rod that you keep in your vault. Goal: trade up loose ones into the fewest, neatest stacks of tens and hundreds to fill the vault shelves.",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "Not sort-home (no destination-by-category) and not build-a-world. The core is the regrouping TRADE itself: ten of a smaller unit are exchanged for one larger unit. Distinct from collect-trade-01 because the trade is base-ten composition (10→1 of the next place), not arbitrary value equivalence.",
+    "standards": [
+      {"code": "1.NBT.B.2", "grade": "1", "strand": "Number & Operations in Base Ten", "subject": "math"},
+      {"code": "2.NBT.A.1", "grade": "2", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "Watching ten messy cubes snap together into one clean rod is deeply satisfying; the vault shelves filling with tidy tens and hundreds gives ownership-pride.",
+    "interaction": "drag",
+    "character_world": "A friendly mole Banker behind a tiny teller window in an underground coin-vault.",
+    "web_shell_feasibility": "feasible — count loose cubes, fuse-animation when exactly 10 dropped, place rod on shelf grid.",
+    "asset_idea": "stub: blue squares, fuse glow. CA5: mole banker, unit cubes, ten-rods, hundred-flats, glowing vault shelves."
+  },
+  {
+    "id": "collect-trade-03",
+    "name": "Exact-Change Market Stall",
+    "mechanic": "A price tag shows the cost (e.g., 47¢). Your coin purse has mixed coins. You drag coins onto the counter to make the EXACT amount — too little and the item won't release, too much and the shopkeeper frowns and hands coins back. On exact change, the item drops into your basket.",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "Pop-the-right-ones is reactive tapping; here it is cumulative VALUE assembly toward a target sum using coin denominations. Distinct from collect-trade-02 (base-ten units) because coins are non-uniform denominations (1/5/10/25), so the skill is money composition to an exact total.",
+    "standards": [
+      {"code": "2.MD.C.8", "grade": "2", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "The 'cha-ching' of an exact-change sale and the item plopping into your basket; you build a basket of treats you bought yourself.",
+    "interaction": "drag",
+    "character_world": "A cheerful otter shopkeeper at a seaside market stall full of snacks and toys.",
+    "web_shell_feasibility": "feasible — running coin-sum readout, compare to target, release on exact match, return-coins animation on overshoot.",
+    "asset_idea": "stub: coin chips with values, price card. CA5: otter shopkeeper, penny/nickel/dime/quarter art, basket, market-stall backdrop."
+  },
+  {
+    "id": "collect-trade-04",
+    "name": "Equivalent-Fraction Swap Meet",
+    "mechanic": "You hold a fraction tile (e.g., 1/2 of a pizza). A trader offers swaps only when they're EQUAL: trade your 1/2 for 2/4, or 3/6. You drag your tile to a partner tile and the swap seals only if the shaded amounts are identical, growing a collection of 'the same amount, told different ways.'",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "Closest is match-pairs, but match-pairs links identical/paired items; here you swap NON-IDENTICAL representations that are numerically EQUAL (1/2↔2/4). Distinct from collect-trade-01 (whole-unit value) because equivalence is fractional and visual-proportional.",
+    "standards": [
+      {"code": "3.NF.A.3", "grade": "3", "strand": "Number & Operations — Fractions", "subject": "math"}
+    ],
+    "fun_no_competition": "The delight of discovering that two different-looking slices fill the same space; your album fills with 'secret twin' fractions.",
+    "interaction": "drag",
+    "character_world": "A flamboyant fox trader hosting a tent swap-meet of pies, ribbons and chocolate bars.",
+    "web_shell_feasibility": "feasible — proportional shaded SVG tiles, compare value on swap, seal/reject animation.",
+    "asset_idea": "stub: shaded fraction bars. CA5: fox trader, pie/ribbon/chocolate fraction sets, swap-tent backdrop, 'twin' sparkle effect."
+  },
+  {
+    "id": "collect-trade-05",
+    "name": "Make-the-Total Vending Wall",
+    "mechanic": "A vending wall shows items each with a small number. You have a target 'pocket money' card (e.g., 'spend exactly 10'). You tap items to add them to your tray; the tray total must hit the target EXACTLY before the slot opens — pick a 6 and a 4, or a 3+3+4. Multiple solutions allowed.",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "Distinct from collect-trade-03 (coin denominations to a money total) — here items carry whole-number 'costs' and the skill is finding addend combinations that sum to a target (decomposition). Not pop-the-right-ones (no single correct item; it's a combination).",
+    "standards": [
+      {"code": "1.OA.D.8", "grade": "1", "strand": "Operations & Algebraic Thinking", "subject": "math"},
+      {"code": "K.OA.A.4", "grade": "K", "strand": "Operations & Algebraic Thinking", "subject": "math"}
+    ],
+    "fun_no_competition": "Lots of right answers means freedom to pick the snacks YOU want as long as they add up; the slot whirring open feels earned.",
+    "interaction": "tap",
+    "character_world": "A robot snack-machine named Clunk with a glowing coin slot and rows of cubbies.",
+    "web_shell_feasibility": "feasible — running tray sum, open slot when sum===target, allow many combos.",
+    "asset_idea": "stub: numbered tiles + tray total. CA5: robot vending machine, snack icons with cost badges, tray, whirring-open animation."
+  },
+  {
+    "id": "collect-trade-06",
+    "name": "Word-Family Sticker Vault",
+    "mechanic": "You earn word-stickers by reading them, but to ADD a sticker to a vault page you must trade it into the page whose RIME it shares (-at page, -ig page). Drag the word 'cat' and it only locks into the -at page; a word that doesn't fit the open pages won't trade in until you flip to its family.",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "Sticker-album earns a sticker into a fixed slot; here the trade-in is GATED by phonological rule (the rime must match the page), making it a sort-by-pattern acquisition, and unlike sort-home the items are EARNED-then-traded into a curated collection you flip through.",
+    "standards": [
+      {"code": "1.RF.2.c", "grade": "1", "strand": "Reading: Foundational Skills", "subject": "ela"},
+      {"code": "K.RF.2.d", "grade": "K", "strand": "Reading: Foundational Skills", "subject": "ela"}
+    ],
+    "fun_no_competition": "Completing a word-family page (all the -at words collected!) and flipping the vault like a real album you filled.",
+    "interaction": "drag",
+    "character_world": "A squirrel librarian curating a leather word-album in a cozy reading nook.",
+    "web_shell_feasibility": "feasible — word tiles, rime-match gate on drop, album page flip via CSS.",
+    "asset_idea": "stub: word cards + labeled pages. CA5: squirrel librarian, ornate album pages per rime, sticker peel/stick animation, reading-nook backdrop."
+  },
+  {
+    "id": "collect-trade-07",
+    "name": "Museum Wing Curator",
+    "mechanic": "You run a museum wing with a RULE on its banner ('Things that fly', 'Words that start with /b/', 'Shapes with 4 sides'). Exhibits arrive on a conveyor; you accept (drag onto a pedestal) only the ones that meet the rule and wave away the rest. The wing opens to visitors once every pedestal is filled with rule-matching exhibits.",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "I-spy-scene is find-in-a-cluttered-picture; this is accept/reject acquisition against a category RULE to CURATE a set. Distinct from sort-home (multi-bin sorting) — here there's ONE wing and a binary keep/decline gate building a themed collection you own and 'open.'",
+    "standards": [
+      {"code": "K.G.A.2", "grade": "K", "strand": "Geometry", "subject": "math"},
+      {"code": "K.RF.2.d", "grade": "K", "strand": "Reading: Foundational Skills", "subject": "ela"}
+    ],
+    "fun_no_competition": "The pride of being a curator — your wing fills with a perfect themed collection and ribbon-cutting opens it to little visitor characters.",
+    "interaction": "drag",
+    "character_world": "A bow-tied penguin museum director with a conveyor of crated exhibits.",
+    "web_shell_feasibility": "feasible — conveyor of items, rule-check on pedestal drop, wave-away animation, ribbon-cut when full.",
+    "asset_idea": "stub: item cards + pedestals + rule banner. CA5: penguin curator, museum hall, exhibit pedestals, conveyor crates, ribbon-cutting frame."
+  },
+  {
+    "id": "collect-trade-08",
+    "name": "Set-Completer Card Packs",
+    "mechanic": "You open card packs revealing items, then assemble a COMPLETE SET defined by a counting/numeral rule — e.g., a 'family' set is all five cards numbered 1–5 in order, or a 'rainbow' set is one of each color count. You drag cards into the album's empty numbered frames; the set closes (with a fanfare) only when every frame is correctly filled.",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "Sticker-album fills one slot per earned sticker; here completion requires the WHOLE ordered/numbered set to be assembled correctly (1,2,3,4,5 in their frames), making sequence/cardinality the skill. Reveal-grid uncovers hidden cells — here cards are revealed then PLACED by number.",
+    "standards": [
+      {"code": "K.CC.A.3", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "K.CC.B.4", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"}
+    ],
+    "fun_no_competition": "Tearing open a pack and the gotta-complete-the-set thrill; the album spread lighting up gold when a set finishes.",
+    "interaction": "tap|drag",
+    "character_world": "A raccoon collector trading-card shop with foil packs and binder pages.",
+    "web_shell_feasibility": "feasible — pack-open reveal, numbered frame targets, validate full-set completion.",
+    "asset_idea": "stub: numbered cards + frames. CA5: raccoon shopkeeper, foil card packs, binder pages, foil-shimmer + set-complete fanfare."
+  },
+  {
+    "id": "collect-trade-09",
+    "name": "Break-the-Big-Coin Cashier",
+    "mechanic": "You hold one large-value coin/bill and need a specific smaller item to buy. You trade DOWN: hand the cashier your dime, receive ten pennies (or two nickels) in fair exchange, then spend the exact pieces. The reverse of collect-trade-02 — decompose a value into equivalent smaller pieces to make a purchase work.",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "Collect-trade-02 composes up (10→1); this DECOMPOSES one larger value into multiple equivalent smaller ones (a dime → 2 nickels OR 10 pennies), so the skill is recognizing equal money values in the other direction. Distinct from exact-change (-03) because the act is breaking/exchanging a denomination, not summing to a price.",
+    "standards": [
+      {"code": "2.MD.C.8", "grade": "2", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "The clatter of a big coin breaking into a handful of small ones that you fan out; the freedom of choosing which fair break to take.",
+    "interaction": "drag|tap",
+    "character_world": "A walrus bank-cashier with a coin-changer machine that spits out change.",
+    "web_shell_feasibility": "feasible — value-equality check on the break (sum of pieces === coin), multiple valid breaks offered.",
+    "asset_idea": "stub: coin chips + changer slot. CA5: walrus cashier, coin-changer machine, penny/nickel/dime art, coins-fanning animation."
+  },
+  {
+    "id": "collect-trade-10",
+    "name": "Synonym Swap Bazaar",
+    "mechanic": "A trader wants a word but won't take just any — they'll only accept a word that MEANS THE SAME as the one on their sign ('big' wanted → trade in 'huge' or 'large', not 'small'). You browse your word-pouch and drag a synonym across; a fair meaning-trade seals and you collect the trader's prize word into your vocabulary chest.",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "Distinct from match-pairs (pairs identical/linked items) because the trade is gated by MEANING-equivalence (synonyms), not identity. Distinct from word-family vault (-06) which gates by sound/rime; this gates by semantic equivalence — the vocabulary analog of a fair value trade.",
+    "standards": [
+      {"code": "1.L.5.b", "grade": "1", "strand": "Language", "subject": "ela"},
+      {"code": "2.L.5.b", "grade": "2", "strand": "Language", "subject": "ela"}
+    ],
+    "fun_no_competition": "The 'aha' of finding a word that means the same; collecting a chest of trader-prize words that are yours.",
+    "interaction": "drag",
+    "character_world": "A peddler parrot in a colorful word-bazaar tent, squawking the wanted word.",
+    "web_shell_feasibility": "feasible — synonym-set lookup gates the trade; small curated word lists per round.",
+    "asset_idea": "stub: word tiles + wanted-sign. CA5: parrot peddler, bazaar tent, word-pouch + treasure chest, seal-the-trade sparkle."
+  },
+  {
+    "id": "collect-trade-11",
+    "name": "Tally-Token Earn & Spend",
+    "mechanic": "A scene shows things to count (e.g., 7 frogs). You count and earn that many tally-tokens, which drop into your jar. Then a shop card says 'this lily-pad costs 7 tokens' — you spend the EXACT tokens you earned to buy it. Earn-by-counting, spend-by-exact-amount; the jar must zero out for a clean purchase.",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "Tokens are an explicit earn-then-spend medium tied to counting, not a score. Distinct from make-the-total (-05) which is combination-to-target; here it's a single count-then-match-and-spend loop (cardinality → exact spend). The earn step (count the scene) and spend step (pay exactly) are two linked acts.",
+    "standards": [
+      {"code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"},
+      {"code": "K.CC.C.6", "grade": "K", "strand": "Counting & Cardinality", "subject": "math"}
+    ],
+    "fun_no_competition": "Counting fills your jar with a happy plink-plink; spending it all on the thing you wanted feels like a real shopping trip.",
+    "interaction": "tap|drag",
+    "character_world": "A frog merchant on a lily-pad market selling pond goods for tally-tokens.",
+    "web_shell_feasibility": "feasible — count scene items → token count, spend exact tokens, validate jar empties on purchase.",
+    "asset_idea": "stub: countable scene + token jar + shop card. CA5: frog merchant, lily-pad market, tally-tokens, jar fill/empty animation."
+  },
+  {
+    "id": "collect-trade-12",
+    "name": "Same-Time Clock Trader",
+    "mechanic": "A trader shows a time one way (a clock face at 3:30) and only trades for a card showing the SAME time told differently ('half past three', a digital 3:30, or 'thirty minutes after three'). You hunt your card stash for the matching-meaning time and trade it across to collect the prize.",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "An equivalence trade in the TIME domain: different representations of the same time are 'equal value.' Distinct from equivalent-fraction swap (-04, proportional area) and synonym swap (-10, meaning) — same structural trade, new content domain, and it directly teaches time-telling equivalence.",
+    "standards": [
+      {"code": "2.MD.C.7", "grade": "2", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "1.MD.B.3", "grade": "1", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "Discovering that an analog face and the words mean the same moment; collecting matched time-pairs into a clockmaker's case.",
+    "interaction": "drag",
+    "character_world": "A wise tortoise clockmaker trading in a shop of ticking clocks.",
+    "web_shell_feasibility": "feasible — render analog SVG clock + word/digital cards, equality check on time value.",
+    "asset_idea": "stub: clock face + time cards. CA5: tortoise clockmaker, clock-shop backdrop, analog faces, digital + word cards, matched-pair glow."
+  },
+  {
+    "id": "collect-trade-13",
+    "name": "Build-the-Number Trading Cards",
+    "mechanic": "A wanted-card shows a number (e.g., 34). You assemble that exact value from your place-value card hand — drag a '30' card and a '4' card together onto the trade slot, or three '10' cards and four '1' cards. The trade locks only when the cards' values add to the wanted number, collecting a numeral trophy.",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "Distinct from ten-for-one bank (-02, physical regrouping) and make-the-total (-05, addends-to-target with arbitrary numbers). Here the cards are PLACE-VALUE valued (10s, 1s) and the skill is composing a two-digit number from tens-and-ones — expanded-form assembly as a trade.",
+    "standards": [
+      {"code": "1.NBT.B.2", "grade": "1", "strand": "Number & Operations in Base Ten", "subject": "math"},
+      {"code": "2.NBT.A.3", "grade": "2", "strand": "Number & Operations in Base Ten", "subject": "math"}
+    ],
+    "fun_no_competition": "Snapping place-value cards together to 'build' a number and collecting a shiny numeral trophy for each one you assemble.",
+    "interaction": "drag",
+    "character_world": "A magpie collector who trades glittering number-trophies for built numbers.",
+    "web_shell_feasibility": "feasible — value cards, sum-check on trade slot, accept multiple valid decompositions.",
+    "asset_idea": "stub: tens/ones value cards + wanted-card. CA5: magpie collector, glitter trophies, place-value card art, snap-together animation."
+  },
+  {
+    "id": "collect-trade-14",
+    "name": "Antonym Trading Post",
+    "mechanic": "The trader posts a word and wants its OPPOSITE in exchange ('hot' → bring 'cold'). You search your word-crates for the antonym and trade it across; a correct opposite seals the deal and earns you the next word for your opposites album. Wrong-meaning trades are politely declined.",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "Mirror of synonym swap (-10): the gate is OPPOSITE-meaning rather than same-meaning, a genuinely different semantic relationship (antonyms) and CCSS skill. Both are fair-meaning trades, but the relation flips, which young children find a distinctly different cognitive task.",
+    "standards": [
+      {"code": "K.L.5.b", "grade": "K", "strand": "Language", "subject": "ela"},
+      {"code": "1.L.5.b", "grade": "1", "strand": "Language", "subject": "ela"}
+    ],
+    "fun_no_competition": "The playful twist of trading a word for its mirror-image; filling an 'opposites' album with paired-up words.",
+    "interaction": "drag",
+    "character_world": "A hedgehog trader at a frontier trading post with crates of word-cards.",
+    "web_shell_feasibility": "feasible — antonym-pair lookup gates the trade; curated opposite lists.",
+    "asset_idea": "stub: word cards + wanted-opposite sign. CA5: hedgehog trader, frontier post, word-crates, opposites-album spread, deal-sealed stamp."
+  },
+  {
+    "id": "collect-trade-15",
+    "name": "Measure-and-Match Length Trader",
+    "mechanic": "A trader wants 'a stick exactly 5 units long.' Your stash has objects of various lengths shown against a unit ruler. You measure (count units) and drag across only the object whose length EQUALS the wanted measure, trading it for a collectible. Different objects, same length count as a fair trade.",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "An equivalence trade in the LENGTH/measurement domain — value = unit-length. Distinct from same-time trader (-12) and fraction swap (-04) by content, and from i-spy because the gate is a measured-equality (count the units) rather than visual search.",
+    "standards": [
+      {"code": "1.MD.A.2", "grade": "1", "strand": "Measurement & Data", "subject": "math"},
+      {"code": "2.MD.A.1", "grade": "2", "strand": "Measurement & Data", "subject": "math"}
+    ],
+    "fun_no_competition": "Laying objects against the ruler to find the one that fits; collecting a workshop of just-right-length treasures.",
+    "interaction": "drag",
+    "character_world": "A beaver builder-trader whose workshop trades parts measured by a unit ruler.",
+    "web_shell_feasibility": "feasible — render objects spanning N ruler units, compare unit-length to wanted, seal on equal.",
+    "asset_idea": "stub: ruler + variable-length bars. CA5: beaver builder, workshop backdrop, ruler, length-objects (ribbons/sticks), trade-seal animation."
+  },
+  {
+    "id": "collect-trade-16",
+    "name": "Rhyme-Coin Gumball Shop",
+    "mechanic": "Each gumball machine takes a 'rhyme-coin' — a word that rhymes with the machine's label ('cake' machine takes 'lake', 'rake', 'snake'). You earn word-coins by reading them, then feed the RIGHT-rhyming coin into a machine to collect its gumball prize. Non-rhyming coins are spat back out.",
+    "design_lens": "collect-album-trade",
+    "why_distinct": "Earn-and-spend where the currency is gated by RHYME (a sound relationship) rather than value or meaning. Distinct from word-family vault (-06, rime-spelling pages) because rhyme here is auditory (read/heard) and the spend act is feeding a machine to collect, not filing into an album.",
+    "standards": [
+      {"code": "K.RF.2.a", "grade": "K", "strand": "Reading: Foundational Skills", "subject": "ela"},
+      {"code": "1.RF.2.c", "grade": "1", "strand": "Reading: Foundational Skills", "subject": "ela"}
+    ],
+    "fun_no_competition": "The clunk-and-roll of a gumball dropping when you feed the right rhyme; collecting a rainbow of gumball prizes per machine.",
+    "interaction": "drag|tap",
+    "character_world": "A bear shopkeeper's penny-arcade of colorful gumball machines.",
+    "web_shell_feasibility": "feasible — rhyme-set gate per machine, spit-back animation on miss, gumball-drop on match.",
+    "asset_idea": "stub: word-coins + labeled machines. CA5: bear arcade keeper, gumball machines, word-coins, gumball-roll + spit-back animations."
+  }
+]

@@ -1,0 +1,26 @@
+---
+name: project-cross-language-landings
+description: "Per-deck tier-3 SEO landing pages for the cross-language decks — COMPLETE: 3,076 landings across all 11 locales, live + repointed + hreflang-meshed + sitemap"
+metadata: 
+  node_type: memory
+  type: project
+  originSessionId: effd0637-418e-47d4-a657-e78a9d2fb91e
+---
+
+Per-deck tier-3 landing pages (CLAUDE.md §22 program) for the ~3,088 cross-language decks (crossword/wordsearch/matching teaching a TARGET language with clues in the page locale). One landing per (target, exercise-type, theme) coordinate, reusing the existing `/[locale]/worksheets/[slug]` route + `content/seo-landing/<locale>.json` SoT + sitemap shard 4 + repoint + gate. Browse home = `/learn/<target>` (the Languages category, [[project-cross-language-category]]); landing tier = `/worksheets/<slug>`; asset = `/decks/<slug>/`. Plan file `C:\Users\rkgen\.claude\plans\i-have-added-the-elegant-hippo.md`.
+
+**INFRASTRUCTURE (done, reusable):**
+- `landing-content.ts`: `LandingCoordinate.target` + `coordKey` appends `|t:<target>` (a cross-language coord never collides with the monolingual same-(type,mode,theme)); `getRelatedLandings` is within-tier; `getMonolingualLandings`/`getCrossLanguageLandings`; the `/worksheets` hub uses `getMonolingualLandings` (cross-language stays in `/learn`).
+- `worksheets/[slug]/page.tsx`: language-learning variant on `coordinate.target` — breadcrumb "Languages › Learn <Target> › H1" (learnPage i18n), no coming-soon chip, no maker block, per-locale `language-beginner` LEVELS band; NO educationalAlignment (strand-only). hreflang siblings auto-form across same-coordinate locales.
+- `scripts/seo-landing/`: `enum-crosslang.js` (generic --locale/--target/--type DB dump, target field, 1:1 deck:coordinate); `gen-de-crosslang.js` (de, render(tpl,nPl,gen) contract); `gen-crosslang-v2.js` (the OTHER 10 locales, render(tpl,themeObj); shape-agnostic accessors for the 3 theme shapes — sv/fr plIndef, it/pt nPl+gen+genArt, fi cases; P3 run through locale render; comprehensive slotTokens; `--targetname` → {TGT}/{TGT_CAP} for multi-target); `repoint-deck-canonical.js --target` filter; `gate.js classKey` target-aware.
+- Per-locale configs `<loc>-crosslang-{crossword,wordsearch,matching}.js` (native 8 SKEL × 7 P2 + P3; mechanics distinct: spell-into-grid / hunt-hidden / line-match; matching gridless, banned-grid-words). Coordinate JSONs `<loc>-en-<type>-coordinates.json`.
+
+**COMPLETE — 3,076 landings, all 11 locales LIVE (verified + repointed + hreflang-meshed + sitemap):** de 141, sv 142, nl 141, no 140, da 141, fr 141, it 138, fi 141 (→en); **pt 271** (en 139 + es 132); **en 1400** (10 targets de/es/fr/it/nl/pt/sv/da/no/fi); **es 280** (en 141 + pt 139). Commits `67efbd58`(infra) `364b60d3`(de) `bba096ed`(sv/nl/no/da) `c99b5329`(fr/it/pt/fi) `34df8694`+`ec1a88c6`(multi-target en/es/pt). Gate every locale: 0 FAIL, 0 lint, ≥200 words, unique titles. The cross-language hreflang network is complete (a "learn English animals crossword" links across all 9 ESL locales + es). The ~12-deck gap vs ~3,088 = it/pt/es-themes lack `4th_of_july` copy (minor).
+
+**Multi-target machinery (en/es/pt):** `en-themes.js`+`en-render.js` (pure substitution, seeded from the gen-wave4-literacyA English THEMES literal); `es-themes.js`+`es-render.js` (native Spanish, los/las assertion, modeled on it-render). `{en,es,pt}-crosslang-{type}.js` are target-PARAMETRIZED ({TGT}=in-prose lang name lowercase, {TGT_CAP}=capitalized strand form). `gen-crosslang-v2.js --targetname=<Name>` substitutes them. **Anti-doorway (the en 10-target density problem):** {TGT}-only swap gave 2,889 same-theme-cross-target FAILs (max 0.862, a doorway-page pattern) → fixed by (a) distinct per-target cell offset `TARGET_INDEX[t]*17` (17 coprime w/ the 56-cell space, so no two targets share a theme's cell), (b) per-target P3-neighbour shift, (c) a per-target language-fact `TARGET_NOTES['en'][t]` sentence appended to p2 (genuinely target-specific content) → 0 FAIL, max 0.713, WARN 5157→1672, within-target 0.592, vs-monolingual 0.245. All three levers are no-ops for single-target locales (no `--targetname`). Target-name maps: en→{German,Spanish,French,Italian,Dutch,Portuguese,Swedish,Danish,Norwegian,Finnish}; es→{inglés,portugués}; pt→{inglês,espanhol}.
+
+**Doctrine — multi-target near-duplicate:** when one page-locale teaches MANY targets, the same English (or es/pt) prose differing only by the swapped language name is a Google doorway-page risk the §22 gate correctly FAILs (same-theme-cross-target). Fix structurally (per-target cell/neighbour offset) + with genuinely target-specific content (the language-fact note) — never accept the {TGT}-only swap at >2 targets.
+
+**WORKFLOW per locale (proven):** author 3 native configs (native-expert agent, §A.13.48) → run `enum-crosslang.js` on Hetzner (env-loaded, pscp coords back) → `gen-crosslang-v2.js --locale --target --type [--targetname]` locally → targeted gate (within/cross-tier/lint) → commit → `deploy.sh` → `repoint-deck-canonical.js --locale --target=<t> --types=crossword,wordsearch,matching` on Hetzner. Deploy-once: ship JSON BEFORE repoint (repoint reads deployed JSON). `.precanonical-bak` = deck.html rollback (kept). LF/CRLF warnings on the JSON are benign.
+
+Related: [[project-cross-language-category]], [[project-seo-landing-page-program]].

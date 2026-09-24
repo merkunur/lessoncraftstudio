@@ -1,0 +1,38 @@
+da	prepositions	fillin	""	praepositioner-udfyld
+da	treasure-hunt	cardinal-arrows	animals	skattejagt-op-ned-venstre-hojre-dyr-db71
+de	prepositions	fillin	""	praepositionen-luckentext
+de	treasure-hunt	cardinal-arrows	animals	schatzsuche-hoch-runter-links-rechts-tiere-3a29
+en	treasure-hunt	cardinal-arrows	4th_of_july	treasure-hunt-4th-of-july-030
+en	treasure-hunt	cardinal-arrows	animals	treasure-hunt-4th-of-july-004 (remapped: animals ZIP went to bare-slug twin)
+en	treasure-hunt	compass	4th_of_july	treasure-hunt-compass-4th-of-july-030
+es	find-and-count	hidden-object	forest_creatures	busca-y-cuenta-criaturas-del-bosque-fbbf
+es	prepositions	fillin	""	preposiciones-completar
+es	prepositions	fillin	classroom	preposiciones-completar-salon-de-clases-d9b3
+es	prepositions	fillin	forest_creatures	preposiciones-completar-criaturas-del-bosque-aa5a
+es	prepositions	fillin	miscellaneous	preposiciones-completar-miscelaneo-300d
+es	prepositions	fillin	reptiles_and_amphibians	preposiciones-completar-reptiles-y-anfibios-59b2
+es	prepositions	fillin	spring	preposiciones-completar-primavera-a156
+es	treasure-hunt	cardinal-arrows	accessories	busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f473 (remapped: accessories ZIP went to 0615 whose slug/title already say accessories)
+es	treasure-hunt	cardinal-arrows	animals	busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-29ae (remapped: animals ZIP went to bare twin)
+es	treasure-hunt	compass	accessories	busqueda-del-tesoro-puntos-cardinales-accesorios-6085
+fi	prepositions	fillin	""	prepositiot-tayta
+fi	prepositions	fillin	miscellaneous	prepositiot-tayta-sekalaista-e8b1
+fi	treasure-hunt	cardinal-arrows	animals	aarteenetsinta-ylos-alas-vasen-oikea-elaimet-e1ac
+fr	prepositions	fillin	""	prepositions-a-completer
+fr	treasure-hunt	cardinal-arrows	animals	chasse-au-tresor-haut-bas-gauche-droite-animaux-25f1
+it	prepositions	fillin	""	preposizioni-riempi
+it	prepositions	fillin	miscellaneous	preposizioni-riempi-varie-5d18
+it	prepositions	multiplechoice	miscellaneous	preposizioni-scelta-multipla-varie-bdbb
+it	treasure-hunt	cardinal-arrows	animals	caccia-al-tesoro-su-giu-sinistra-destra-animali-bf45
+nl	prepositions	fillin	""	voorzetsels-invullen
+nl	treasure-hunt	cardinal-arrows	animals	schatzoektocht-op-neer-links-rechts-dieren-b176
+nl	treasure-hunt	cardinal-arrows	ocean_life	schatzoektocht-op-neer-links-rechts-oceaanleven-3519
+no	prepositions	fillin	ocean_life	preposisjoner-fyll-inn-havliv-bf71
+pt	prepositions	fillin	""	preposicoes-complete
+pt	prepositions	fillin	kitchen_tools	preposicoes-complete-utensilios-de-cozinha-785d
+pt	prepositions	fillin	miscellaneous	preposicoes-complete-diversos-e503
+pt	treasure-hunt	cardinal-arrows	4th_of_july	caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-87f2
+pt	treasure-hunt	cardinal-arrows	animals	caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-8809 (remapped: animals ZIP went to bare twin)
+pt	treasure-hunt	compass	4th_of_july	caca-ao-tesouro-pontos-cardeais-4-de-julho-f0bb
+sv	prepositions	fillin	""	prepositioner-fyll-i
+sv	treasure-hunt	cardinal-arrows	animals	skattjakt-upp-ner-vanster-hoger-djur-8e7c

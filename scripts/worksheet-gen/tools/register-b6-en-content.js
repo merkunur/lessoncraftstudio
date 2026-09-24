@@ -37,7 +37,7 @@ const SKILLS = {
   },
   'sink-or-float': {
     full: 'Predicting whether each object will sink or float, testing it in water and recording what happened shows children that size alone does not decide, and starts real science thinking.',
-    short: 'Builds predicting, testing and recording sink or float.',
+    short: 'Builds predicting and testing sink or float.',
   },
   'cursive-writing': {
     full: 'Tracing and writing joined letters in the school handwriting, practising the connections between letters and copying whole words builds a fluent, readable cursive hand.',

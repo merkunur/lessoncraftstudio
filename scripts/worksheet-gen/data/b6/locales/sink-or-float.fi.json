@@ -144,16 +144,20 @@
       "instruction": "Väritä ympyrä sieltä, mihin kukin muovailuvahan muoto päätyy, ympyröi esine, joka kelluu, ja piirrä isoon astiaan oma muovailuvahaveneesi."
     },
     "G2-383": {
-      "title": "Miksi esine kelluu? Totta vai tarua kokeilun jälkeen",
+      "title": "Miksi esine kelluu? Totta vai tarua kellumisesta ja uppoamisesta",
       "instruction": "Lue jokainen lause ja ympyröi totta tai tarua."
     },
     "K-384": {
-      "title": "Mikä kelluu, mikä uppoaa? Piirrä kokeilu",
+      "title": "Piirrä kelluvat ja uppoavat esineet vesiastiaan",
       "instruction": "Piirrä kaksi kelluvaa esinettä pinnan katkoviivaruutuihin ja kaksi uppoavaa esinettä pohjan katkoviivaruutuihin."
     },
     "G3-400": {
       "title": "Kelluminen ja uppoaminen: oma tutkimusraportti",
       "instruction": "Valitse kysymys, kirjoita arvauksesi, kokeile, piirrä, mitä tapahtui, ja kirjoita, mitä opit."
     }
+  },
+  "shapeHeads": {
+    "clay": "Sama muovailuvaha, eri muodot",
+    "steel": "Sama teräs, eri muodot: ympyröi se, joka kelluu"
   }
 }

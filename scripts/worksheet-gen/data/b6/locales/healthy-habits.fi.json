@@ -1,8 +1,8 @@
 {
   "strings": {
     "base": {
-      "title": "Hygienia ja terveelliset tavat: mitä kukin tarvitsee?",
-      "instruction": "Vedä viiva jokaisesta lapsesta siihen esineeseen, jota lapsi tarvitsee."
+      "title": "Terveelliset tavat: mitä kukin lapsi käyttää?",
+      "instruction": "Vedä viiva jokaisesta lapsesta siihen esineeseen, jota lapsi käyttää."
     },
     "hand-washing-steps": {
       "title": "Käsienpesuohje lapsille: pese kädet oikein",
@@ -10,10 +10,10 @@
     },
     "brushing-teeth": {
       "title": "Hampaiden pesu: ennen, aikana ja jälkeen",
-      "instruction": "Ympyröi jokaisen kuvan vierestä sana, joka kertoo, tapahtuuko se ennen pesua, pesun aikana vai pesun jälkeen."
+      "instruction": "Ympyröi jokaisen kuvan kohdalta, onko se ennen pesua, pesun aikana vai pesun jälkeen."
     },
     "stop-the-germs": {
-      "title": "Yski ja aivasta hihaan: pysäytä pöpöt",
+      "title": "Pysäytä pöpöt: mikä estää niitä leviämästä?",
       "instruction": "Ympyröi joka riviltä kuva, jossa pöpöt eivät pääse leviämään."
     },
     "why-habits": {
@@ -33,7 +33,7 @@
   "labels": {
     "wash-hands": "pese kädet",
     "brush-teeth": "pese hampaat",
-    "sleep": "nuku",
+    "sleep": "ajoissa nukkumaan",
     "move-body": "liiku",
     "drink-water": "juo vettä",
     "sun-protect": "suojaudu auringolta",

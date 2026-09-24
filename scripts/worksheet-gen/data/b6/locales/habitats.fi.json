@@ -189,9 +189,25 @@
     ]
   },
   "needs": {
-    "line": "Jokainen eläin tarvitsee ruokaa, vettä ja kodin.",
+    "line": "Jokainen eläin tarvitsee ruokaa ja kodin.",
     "foodHead": "Ruoka",
-    "homeHead": "Koti"
+    "homeHead": "Koti",
+    "undrawn": [
+      "vesi",
+      "vettä",
+      "veden",
+      "vedestä",
+      "juoma",
+      "juomaa",
+      "juo",
+      "juoda",
+      "ilma",
+      "ilmaa",
+      "happi",
+      "happea",
+      "aurinko",
+      "auringonvalo"
+    ]
   },
   "report": {
     "animals": "Eläimiä, jotka elävät täällä",
@@ -250,11 +266,11 @@
     },
     "G1-406": {
       "title": "Eläinten elinympäristöt: kuka ei asu täällä?",
-      "instruction": "Piirrä joka rivillä rasti sen eläimen päälle, joka ei elä siinä elinympäristössä."
+      "instruction": "Piirrä jokaisen elinympäristön kohdalla rasti sen eläimen päälle, joka ei elä siellä."
     },
     "G2-380": {
       "title": "Eläinten sopeutuminen elinympäristöön",
-      "instruction": "Kirjoita jokaisen lauseen ruutuun sen eläimen kirjain, josta lause kertoo."
+      "instruction": "Kirjoita jokaisen lauseen ruutuun sen eläimen kirjain, josta lause kertoo; yksi eläin jää yli."
     },
     "G1-407": {
       "title": "Mitä eläimet tarvitsevat? Ruoka ja koti",
@@ -262,7 +278,7 @@
     },
     "G2-381": {
       "title": "Oma elinympäristöni: tutki ja piirrä",
-      "instruction": "Piirrä kolme eläintä, jotka elävät tässä elinympäristössä, kirjoita niiden nimet ja siellä kasvava kasvi ja ympyröi jokaisesta sanaparista oikea sana."
+      "instruction": "Piirrä kuvaan kolme täällä elävää eläintä, kirjoita niiden nimet ja täällä kasvava kasvi ja ympyröi sanaparista tähän sopiva sana."
     }
   }
 }

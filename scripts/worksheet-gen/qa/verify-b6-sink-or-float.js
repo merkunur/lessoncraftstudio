@@ -489,6 +489,7 @@ async function faceSection(page, judge, log, quick, banks) {
   await fp('PR18 F2 the trial tanks without the float / sink key', 'shape', { forceNoLegend: true }, /no float \/ sink key/);
   await fp('PR19 F3 the clay sentence T6 on a page with no clay', 'truth', { forceOrder: ['T6', 'F1', 'T1', 'F5', 'F6', 'T8'] }, /tf T6: needs the clay experiment/);
   await fp('PR20 F3 the retired F8 ("floats because it is light")', 'truth', { forceOrder: ['T4', 'F8', 'T1', 'F2', 'F6', 'T7'] }, /tf F8: retired/);
+  await fp('PR23 F3 a light-things sentence without its sinking witness on the shelf', 'truth', { forceOrder: ['T1', 'F6', 'T5', 'F3', 'F5', 'T7'], forceDropShelf: 'nail' }, /shelf \[.*\] ≠ the union/);
   await fp('PR21 F5 one result tank for a two-test question', 'report', { forceResultTanks: 1 }, /draws 1 tank\(s\) but a question needs 2 tests/);
 }
 

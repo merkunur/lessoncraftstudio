@@ -207,13 +207,13 @@ const FACE = {
       const ordOk = (o) => { const s0 = o.map((id) => N.TF[id].truth); const h = s0.length / 2; return !constantOrAlternating(s0) && s0.join('') !== 'T'.repeat(h) + 'F'.repeat(h) && s0.join('') !== 'F'.repeat(h) + 'T'.repeat(h); };
       let order = draw(400, () => rng.shuffle(set.slice()), ordOk, 'true/false order');
       if (d.forceOrder) order = d.forceOrder.slice();
-      const objs = rng.shuffle([...new Set(order.flatMap((id) => N.TF[id].objects))]);
+      const objs = rng.shuffle([...new Set(order.flatMap((id) => [...N.TF[id].objects, ...(N.TF[id].evidence || [])]))]);
       if (d.forceDropShelf) objs.splice(objs.indexOf(d.forceDropShelf), 1);
       const shelf = C6.sfEvidenceShelf({ items: objs.map((id) => ({ ...pic(id, d.shelfPx), label: labels[id] })), px: d.shelfPx, h: d.shelfH });
       const yes = literal(bankLoc, 'trueWord', 'bank', loc), no = literal(bankLoc, 'falseWord', 'bank', loc);
       let rows = order.map((id, i) => C6.sfClaimRow({ n: i + 1, id, truth: N.TF[id].truth, text: TFL[id], yes, no, textPx: d.textPx }));
       if (d.forcePictureInTrue) { const i = order.findIndex((id) => N.TF[id].truth === 'T'); rows[i] = rows[i].replace('<span data-lcs-claim-text', `<img src="${fileUri('toys', 'ball')}" style="width:40px;height:40px" alt=""><span data-lcs-claim-text`); }
-      const meta = Object.fromEntries(order.map((id) => [id, { truth: N.TF[id].truth, kind: N.TF[id].kind, objects: N.TF[id].objects, misconception: !!N.TF[id].misconception }]));
+      const meta = Object.fromEntries(order.map((id) => [id, { truth: N.TF[id].truth, kind: N.TF[id].kind, objects: N.TF[id].objects, evidence: N.TF[id].evidence || [], misconception: !!N.TF[id].misconception }]));
       const bodyHtml = rootOpen(`data-lcs-mix='${js(m)}' data-lcs-tfmeta='${js(meta)}' data-lcs-true-word="${yes.replace(/"/g, '&quot;')}" data-lcs-false-word="${no.replace(/"/g, '&quot;')}"`,
         `display:grid;grid-template-rows:${d.shelfH}px repeat(${d.rows},minmax(${d.rowMin}px,${d.rowMin + 34}px));row-gap:${d.rowGap}px;justify-items:center;align-content:start;grid-template-columns:639px;justify-content:center`) +
         shelf + rows.join('') + '</div>';
@@ -431,7 +431,8 @@ const FACE = {
         if (alt(seq)) fails.push(`T/F order ${seq.join('')} is constant / alternating`);
         const h = seq.length / 2; if (seq.join('') === 'T'.repeat(h) + 'F'.repeat(h) || seq.join('') === 'F'.repeat(h) + 'T'.repeat(h)) fails.push(`T/F order ${seq.join('')} is sorted`);
         const shelf = all('[data-lcs-shelf-item]').map((x) => x.dataset.lcsShelfItem).sort().join();
-        if (shelf !== [...new Set(objs)].sort().join()) fails.push(`shelf [${shelf}] ≠ the union of the rows' objects [${[...new Set(objs)].sort()}]`);
+        const want = [...new Set([...objs, ...Object.values(meta).flatMap((x) => x.evidence || [])])].sort();
+        if (shelf !== want.join()) fails.push(`shelf [${shelf}] ≠ the union of the rows' objects and witnesses [${want}]`);
         all('[data-lcs-shelf] img').forEach((im) => { if (rect(im).width < FLOOR - 0.6) fails.push('a shelf picture under the floor'); });
         return fails;
       }

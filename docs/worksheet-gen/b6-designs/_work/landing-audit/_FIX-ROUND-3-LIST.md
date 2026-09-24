@@ -50,3 +50,18 @@ Each item: reproduce on the render first, fix at the SOURCE (EN generator / EN b
 The cursive ink-extent checks (`verify-b6-cursive-writing.js`, `cursive-metrics --check`) fail by 1–2 px on the
 Linux cloud Chromium, including EN pages recorded clean on the Windows PC: font rasterisation differs. Re-run the
 cursive gate on the PC before publishing; do not move the ±1.2 px tolerance.
+
+## Status 2026-09-24 (end of fix round 3 + reconciliation round 3)
+DONE: A1 wash-hands (EN + 10 locales) · A2 G1-402 order words (EN + 10, gate inverted) · A3 G2-383 title + witness
+objects on the shelf (nail / log) · A4 G1-408 in NO_TEST · A5 G3-400 titles name the report · A6 G1-407 titles ·
+B10 da elk (new per-locale `excludeAnimals`) · B11 fi kani · B12 fi taskurapu · B13 no nebbtang · C15 G1-404 sv/pt/no ·
+C16 fi penguin · C17 fi G2-381 · C18 no G2-377 · C19 no G1-405 · C20 pt G2-379.
+KEPT (reasoned): B7 G1-398 dragonfly — the fixed forest/meadow/pond/ocean sets have no other unambiguous pond animal;
+kingfisher + turtle pictures opened and refused (read as a forest bird / a land tortoise). Needs a new, clearly
+water-bound picture (duck swimming, fish in a pond). B8 G1-403 spit card — round-2 ruling (after needs >= 2 cards).
+OPEN (low): B9 K-380 comb child reads as head-scratching (art); B14 G1-400 outsider art; C21 pt G2-384/G2-385 page fit
+(4 not 5); C22 da G3-401 first sentence line count; C23 it G2-386 accents; G3-400 second result tank has no labelled role
+for the cargo question.
+Checks: validate-b6-draft 0 in all 10 locales · string parity 576/0 · story-sequencing 51/51 · healthy-habits 66/66 ·
+habitats 85/85 · sink-or-float 69/69 · cursive 58/58 (run on the Windows PC).
+NEXT: landing touch-up pass for all 11 locales (strings / pages changed since pass 1), then publish.

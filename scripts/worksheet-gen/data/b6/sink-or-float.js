@@ -94,6 +94,11 @@ const TF = {
  *      defensible (en + de panels): `retired`. F5 / F6 remain the misconceptions. */
 TF.T6.needsExperiment = 'clay';
 TF.F8.retired = 'two defensible answers at G2 (often true, not always)';
+/* fix round 3 (it + fi landing panels): a GENERAL sentence about light or heavy things could not be checked on the page
+ * ("All light things float" — every light thing drawn floated). Each such sentence now puts its WITNESS on the shelf:
+ * a light thing that sinks (the nail) or a heavy thing that floats (the log). `evidence` joins the shelf, never a row's
+ * own objects, so two rows may share it. */
+TF.F5.evidence = ['log']; TF.T7.evidence = ['log']; TF.F6.evidence = ['nail']; TF.T8.evidence = ['nail'];
 /* T-sentence object claims (what each TRUE spec sentence asserts about its object) */
 TF.T1.claims = { log: 'float' }; TF.T2.claims = { nail: 'sink' }; TF.T3.claims = { ship: 'float' }; TF.T4.claims = { pumpkin: 'float' };
 const QUESTIONS = ['orange', 'cargo'];

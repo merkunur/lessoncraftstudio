@@ -38,11 +38,11 @@
       "instruction": "Em cada figura, circule antes, durante ou depois de escovar os dentes."
     },
     "G1-404": {
-      "title": "Como evitar os germes: tussa no cotovelo",
+      "title": "Pare os germes: o que impede que eles se espalhem?",
       "instruction": "Em cada fileira, circule a cena que impede os germes de se espalharem."
     },
     "G2-379": {
-      "title": "Hábitos de higiene: por que são importantes?",
+      "title": "Hábitos saudáveis: por que eles são importantes?",
       "instruction": "Ligue cada hábito à frase que explica por que fazemos isso."
     },
     "G1-405": {
@@ -66,7 +66,7 @@
       "instruction": "Escreva no quadrinho de cada frase a letra do animal de que ela fala; um animal vai sobrar."
     },
     "G1-407": {
-      "title": "Do que os animais precisam para viver?",
+      "title": "Do que os animais precisam: comida e moradia",
       "instruction": "Para cada animal, circule a comida que ele come e a moradia onde ele vive."
     },
     "G2-381": {
@@ -78,7 +78,7 @@
       "instruction": "Antes do teste, pinte um círculo no primeiro aquário; depois do teste, pinte um círculo no segundo aquário e a estrela se você se surpreendeu."
     },
     "G1-408": {
-      "title": "Pesado ou leve? Experiência com balança: flutua ou afunda",
+      "title": "Pesado ou leve? Flutua ou afunda: compare na balança",
       "instruction": "A balança mostra o que é mais pesado: circule o que flutua na água."
     },
     "G2-382": {
@@ -86,7 +86,7 @@
       "instruction": "Pinte o círculo onde cada forma de massinha vai parar, circule o que flutua e desenhe o seu barquinho de massinha no aquário grande."
     },
     "G2-383": {
-      "title": "Por que as coisas flutuam? Verdadeiro ou falso",
+      "title": "Flutua ou afunda? Verdadeiro ou falso",
       "instruction": "Leia cada frase e circule verdadeiro ou falso."
     },
     "K-384": {
@@ -200,10 +200,10 @@
       "stories": {
         "apple": {
           "sentences": [
-            "Primeiro, a maçã está inteira.",
-            "Depois, a maçã tem uma mordida.",
-            "Em seguida, a maçã tem três mordidas.",
-            "Por fim, só sobrou o miolo."
+            "A maçã está inteira.",
+            "A maçã tem uma mordida.",
+            "A maçã tem três mordidas.",
+            "Só sobrou o miolo da maçã."
           ],
           "stateWords": [
             "inteira",
@@ -230,10 +230,10 @@
         },
         "banana": {
           "sentences": [
-            "Primeiro, a banana ainda está fechada.",
-            "Depois, uma tira da casca está aberta.",
-            "Em seguida, três tiras da casca estão abertas.",
-            "Por fim, só sobrou a casca vazia."
+            "A banana ainda está fechada.",
+            "A banana tem uma tira da casca aberta.",
+            "A banana tem três tiras da casca abertas.",
+            "Só sobrou a casca vazia."
           ],
           "stateWords": [
             "fechada",
@@ -256,10 +256,10 @@
         },
         "sandwich": {
           "sentences": [
-            "Primeiro, há duas fatias de pão.",
-            "Depois, uma fatia tem geleia.",
-            "Em seguida, o sanduíche é cortado ao meio.",
-            "Por fim, só sobraram a casca do pão e farelos."
+            "Há duas fatias de pão.",
+            "Uma fatia tem geleia.",
+            "O sanduíche é cortado ao meio.",
+            "Só sobraram a casca do pão e farelos."
           ],
           "stateWords": [
             "duas fatias",
@@ -286,10 +286,10 @@
         },
         "cake": {
           "sentences": [
-            "Primeiro, o bolo está inteiro.",
-            "Depois, falta uma fatia do bolo.",
-            "Em seguida, metade do bolo já foi comida.",
-            "Por fim, só sobraram farelos."
+            "O bolo está inteiro.",
+            "Falta uma fatia do bolo.",
+            "Metade do bolo já foi comida.",
+            "Só sobraram farelos."
           ],
           "stateWords": [
             "inteiro",
@@ -314,10 +314,10 @@
         },
         "fence": {
           "sentences": [
-            "Primeiro, a cerca está toda branca.",
-            "Depois, duas tábuas estão pintadas.",
-            "Em seguida, quatro tábuas estão pintadas.",
-            "Por fim, a cerca inteira está pintada."
+            "A cerca está toda branca.",
+            "A cerca tem duas tábuas pintadas.",
+            "A cerca tem quatro tábuas pintadas.",
+            "A cerca inteira está pintada."
           ],
           "stateWords": [
             "toda branca",
@@ -342,10 +342,10 @@
         },
         "letter": {
           "sentences": [
-            "Primeiro, o cartão está em branco.",
-            "Depois, há uma flor desenhada no cartão.",
-            "Em seguida, três linhas foram escritas.",
-            "Por fim, o cartão está no envelope, com selo."
+            "O cartão está em branco.",
+            "Há uma flor desenhada no cartão.",
+            "O cartão ganha três linhas escritas ao lado do desenho.",
+            "O cartão está no envelope, com selo."
           ],
           "stateWords": [
             "em branco",
@@ -370,10 +370,10 @@
         },
         "paper-chain": {
           "sentences": [
-            "Primeiro, há uma folha de papel.",
-            "Depois, a folha é cortada em cinco tiras.",
-            "Em seguida, duas tiras viram argolas coladas.",
-            "Por fim, as cinco argolas formam uma corrente."
+            "Há uma folha de papel.",
+            "A folha é cortada em cinco tiras.",
+            "Colamos duas tiras em forma de argola.",
+            "As cinco argolas formam uma corrente."
           ],
           "stateWords": [
             "uma folha",
@@ -400,10 +400,10 @@
         },
         "beach-walk": {
           "sentences": [
-            "Primeiro, não há pegadas na areia.",
-            "Depois, a criança caminha e deixa três pegadas.",
-            "Em seguida, a criança encontra uma concha.",
-            "Por fim, a criança volta para a toalha com a concha."
+            "Na areia, não há pegadas.",
+            "A criança caminha e deixa três pegadas.",
+            "A criança encontra uma concha.",
+            "A criança volta para a toalha com a concha."
           ],
           "stateWords": [
             "não há pegadas",
@@ -470,11 +470,11 @@
           "instruction": "Em cada figura, circule antes, durante ou depois de escovar os dentes."
         },
         "stop-the-germs": {
-          "title": "Como evitar os germes: tussa no cotovelo",
+          "title": "Pare os germes: o que impede que eles se espalhem?",
           "instruction": "Em cada fileira, circule a cena que impede os germes de se espalharem."
         },
         "why-habits": {
-          "title": "Hábitos de higiene: por que são importantes?",
+          "title": "Hábitos saudáveis: por que eles são importantes?",
           "instruction": "Ligue cada hábito à frase que explica por que fazemos isso."
         },
         "habit-chart": {
@@ -548,7 +548,7 @@
         ]
       },
       "reasons": {
-        "wash-hands": "Tira os germes de todas as coisas em que tocamos.",
+        "wash-hands": "Tira os germes que pegamos quando tocamos nas coisas.",
         "brush-teeth": "Deixa o nosso sorriso limpo e bonito.",
         "sleep": "Descansamos e acordamos com energia para um novo dia.",
         "move-body": "Deixa a gente mais forte, rápido e disposto.",
@@ -819,7 +819,7 @@
           "instruction": "Escreva no quadrinho de cada frase a letra do animal de que ela fala; um animal vai sobrar."
         },
         "G1-407": {
-          "title": "Do que os animais precisam para viver?",
+          "title": "Do que os animais precisam: comida e moradia",
           "instruction": "Para cada animal, circule a comida que ele come e a moradia onde ele vive."
         },
         "G2-381": {
@@ -961,7 +961,7 @@
           "instruction": "Antes do teste, pinte um círculo no primeiro aquário; depois do teste, pinte um círculo no segundo aquário e a estrela se você se surpreendeu."
         },
         "G1-408": {
-          "title": "Pesado ou leve? Experiência com balança: flutua ou afunda",
+          "title": "Pesado ou leve? Flutua ou afunda: compare na balança",
           "instruction": "A balança mostra o que é mais pesado: circule o que flutua na água."
         },
         "G2-382": {
@@ -969,7 +969,7 @@
           "instruction": "Pinte o círculo onde cada forma de massinha vai parar, circule o que flutua e desenhe o seu barquinho de massinha no aquário grande."
         },
         "G2-383": {
-          "title": "Por que as coisas flutuam? Verdadeiro ou falso",
+          "title": "Flutua ou afunda? Verdadeiro ou falso",
           "instruction": "Leia cada frase e circule verdadeiro ou falso."
         },
         "K-384": {

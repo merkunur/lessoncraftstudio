@@ -13,11 +13,11 @@
       "instruction": "Em cada figura, circule antes, durante ou depois de escovar os dentes."
     },
     "stop-the-germs": {
-      "title": "Como evitar os germes: tussa no cotovelo",
+      "title": "Pare os germes: o que impede que eles se espalhem?",
       "instruction": "Em cada fileira, circule a cena que impede os germes de se espalharem."
     },
     "why-habits": {
-      "title": "Hábitos de higiene: por que são importantes?",
+      "title": "Hábitos saudáveis: por que eles são importantes?",
       "instruction": "Ligue cada hábito à frase que explica por que fazemos isso."
     },
     "habit-chart": {
@@ -91,7 +91,7 @@
     ]
   },
   "reasons": {
-    "wash-hands": "Tira os germes de todas as coisas em que tocamos.",
+    "wash-hands": "Tira os germes que pegamos quando tocamos nas coisas.",
     "brush-teeth": "Deixa o nosso sorriso limpo e bonito.",
     "sleep": "Descansamos e acordamos com energia para um novo dia.",
     "move-body": "Deixa a gente mais forte, rápido e disposto.",

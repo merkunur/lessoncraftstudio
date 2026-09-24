@@ -66,7 +66,7 @@
       "instruction": "Scrivi nel riquadro di ogni frase la lettera dell'animale di cui parla; un animale resta senza frase."
     },
     "G1-407": {
-      "title": "Di che cosa hanno bisogno gli animali per vivere?",
+      "title": "Di che cosa hanno bisogno gli animali: cibo e casa",
       "instruction": "Per ogni animale, cerchia il cibo che mangia e la casa in cui vive."
     },
     "G2-381": {
@@ -78,7 +78,7 @@
       "instruction": "Colora un cerchio nella prima vaschetta prima della prova, un cerchio nella seconda dopo la prova e la stella se il risultato ti ha sorpreso."
     },
     "G1-408": {
-      "title": "Pesante o leggero? Esperimento galleggia o affonda con la bilancia",
+      "title": "Pesante o leggero? Galleggia o affonda, con la bilancia a piatti",
       "instruction": "La bilancia mostra quale oggetto è più pesante: cerchia quello che galleggia nell'acqua."
     },
     "G2-382": {
@@ -86,7 +86,7 @@
       "instruction": "Colora il cerchio dove finisce ogni forma di plastilina, cerchia l'oggetto che galleggia e poi disegna la tua barchetta nella vaschetta grande."
     },
     "G2-383": {
-      "title": "Perché le cose galleggiano? Vero o falso",
+      "title": "Galleggia o affonda: vero o falso sulle cose nell'acqua",
       "instruction": "Leggi ogni frase e cerchia vero o falso."
     },
     "K-384": {
@@ -200,10 +200,10 @@
       "stories": {
         "apple": {
           "sentences": [
-            "Prima la mela è intera.",
-            "Poi la mela ha un morso.",
-            "Dopo la mela ha tre morsi.",
-            "Infine resta solo il torsolo."
+            "La mela è intera.",
+            "La mela ha un morso.",
+            "La mela ha tre morsi.",
+            "Resta solo il torsolo."
           ],
           "stateWords": [
             "intera",
@@ -230,10 +230,10 @@
         },
         "banana": {
           "sentences": [
-            "Prima la banana non è sbucciata.",
-            "Poi pende giù una striscia di buccia.",
-            "Dopo pendono giù tre strisce.",
-            "Infine resta solo la buccia vuota."
+            "La banana non è sbucciata.",
+            "Pende giù una striscia di buccia.",
+            "Pendono giù tre strisce.",
+            "Resta solo la buccia vuota."
           ],
           "stateWords": [
             "non è sbucciata",
@@ -256,10 +256,10 @@
         },
         "sandwich": {
           "sentences": [
-            "Prima ci sono due fette di pane.",
-            "Poi su una fetta c'è la marmellata.",
-            "Dopo il pane è tagliato a metà.",
-            "Infine restano solo una crosta e le briciole."
+            "Ci sono due fette di pane.",
+            "Su una fetta c'è la marmellata.",
+            "Il panino è tagliato a metà.",
+            "Restano solo una crosta e le briciole."
           ],
           "stateWords": [
             "due fette",
@@ -286,10 +286,10 @@
         },
         "cake": {
           "sentences": [
-            "Prima la torta è intera.",
-            "Poi viene tagliata una fetta.",
-            "Dopo metà della torta non c'è più.",
-            "Infine restano solo le briciole."
+            "La torta è intera.",
+            "Una fetta è stata tagliata via.",
+            "Metà della torta non c'è più.",
+            "Restano solo le briciole."
           ],
           "stateWords": [
             "intera",
@@ -314,10 +314,10 @@
         },
         "fence": {
           "sentences": [
-            "Prima la staccionata è tutta bianca.",
-            "Poi due assi sono dipinte.",
-            "Dopo sono dipinte quattro assi.",
-            "Infine tutta la staccionata è dipinta."
+            "La staccionata è tutta bianca.",
+            "Due assi sono dipinte.",
+            "Quattro assi sono dipinte.",
+            "Tutta la staccionata è dipinta."
           ],
           "stateWords": [
             "tutta bianca",
@@ -342,10 +342,10 @@
         },
         "letter": {
           "sentences": [
-            "Prima il biglietto è vuoto.",
-            "Poi sul biglietto è disegnato un fiore.",
-            "Dopo si aggiungono tre righe di scrittura.",
-            "Infine il biglietto è nella busta con il francobollo."
+            "Il biglietto è vuoto.",
+            "Sul biglietto è disegnato un fiore.",
+            "Accanto al disegno si aggiungono tre righe di scrittura.",
+            "Il biglietto è nella busta con il francobollo."
           ],
           "stateWords": [
             "vuoto",
@@ -370,10 +370,10 @@
         },
         "paper-chain": {
           "sentences": [
-            "Prima c'è un foglio di carta.",
-            "Poi il foglio è tagliato in cinque strisce.",
-            "Dopo con due strisce si fanno due anelli.",
-            "Infine cinque anelli formano una catena."
+            "C'è un foglio di carta.",
+            "Il foglio è tagliato in cinque strisce.",
+            "Con due strisce si fanno due anelli.",
+            "Cinque anelli formano una catena."
           ],
           "stateWords": [
             "un foglio",
@@ -400,10 +400,10 @@
         },
         "beach-walk": {
           "sentences": [
-            "Prima sulla sabbia non ci sono impronte.",
-            "Poi un bambino cammina e lascia tre impronte.",
-            "Dopo il bambino trova una conchiglia.",
-            "Infine il bambino torna all'asciugamano con la conchiglia."
+            "Sulla sabbia non ci sono impronte.",
+            "Un bambino cammina e lascia tre impronte.",
+            "Il bambino trova una conchiglia.",
+            "Il bambino torna all'asciugamano con la conchiglia."
           ],
           "stateWords": [
             "non ci sono impronte",
@@ -550,7 +550,7 @@
         ]
       },
       "reasons": {
-        "wash-hands": "Porta via i germi da tutte le cose che abbiamo toccato.",
+        "wash-hands": "Toglie i germi che abbiamo preso toccando le cose.",
         "brush-teeth": "Tiene il nostro sorriso pulito e splendente.",
         "sleep": "Il corpo e il cervello riposano e si preparano a una nuova giornata.",
         "move-body": "Ci rende agili, veloci e forti.",
@@ -808,7 +808,7 @@
           "instruction": "Scrivi nel riquadro di ogni frase la lettera dell'animale di cui parla; un animale resta senza frase."
         },
         "G1-407": {
-          "title": "Di che cosa hanno bisogno gli animali per vivere?",
+          "title": "Di che cosa hanno bisogno gli animali: cibo e casa",
           "instruction": "Per ogni animale, cerchia il cibo che mangia e la casa in cui vive."
         },
         "G2-381": {
@@ -959,7 +959,7 @@
           "instruction": "Colora un cerchio nella prima vaschetta prima della prova, un cerchio nella seconda dopo la prova e la stella se il risultato ti ha sorpreso."
         },
         "G1-408": {
-          "title": "Pesante o leggero? Esperimento galleggia o affonda con la bilancia",
+          "title": "Pesante o leggero? Galleggia o affonda, con la bilancia a piatti",
           "instruction": "La bilancia mostra quale oggetto è più pesante: cerchia quello che galleggia nell'acqua."
         },
         "G2-382": {
@@ -967,7 +967,7 @@
           "instruction": "Colora il cerchio dove finisce ogni forma di plastilina, cerchia l'oggetto che galleggia e poi disegna la tua barchetta nella vaschetta grande."
         },
         "G2-383": {
-          "title": "Perché le cose galleggiano? Vero o falso",
+          "title": "Galleggia o affonda: vero o falso sulle cose nell'acqua",
           "instruction": "Leggi ogni frase e cerchia vero o falso."
         },
         "K-384": {

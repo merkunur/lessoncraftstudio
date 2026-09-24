@@ -78,7 +78,7 @@
       "instruction": "Male vor dem Versuch einen Ring im ersten Becken aus, nach dem Versuch einen Ring im zweiten Becken und den Stern, wenn es dich überrascht hat."
     },
     "G1-408": {
-      "title": "Schwer oder leicht? Versuch zum Schwimmen und Sinken",
+      "title": "Schwer oder leicht? Schwimmen und Sinken an der Balkenwaage",
       "instruction": "Die Waage zeigt, was schwerer ist: Kreise ein, was im Wasser schwimmt."
     },
     "G2-382": {
@@ -200,10 +200,10 @@
       "stories": {
         "apple": {
           "sentences": [
-            "Zuerst ist der Apfel noch ganz.",
-            "Dann ist der Apfel einmal angebissen.",
-            "Danach hat der Apfel schon drei Bisse.",
-            "Zum Schluss ist nur noch das Kerngehäuse übrig."
+            "Der Apfel ist noch ganz.",
+            "Der Apfel ist einmal angebissen.",
+            "Der Apfel hat drei Bisse.",
+            "Vom Apfel ist nur noch das Kerngehäuse übrig."
           ],
           "stateWords": [
             "ganz",
@@ -230,10 +230,10 @@
         },
         "banana": {
           "sentences": [
-            "Zuerst ist die Banane noch nicht geschält.",
-            "Dann hängt ein Streifen Schale herunter.",
-            "Danach hängen drei Streifen herunter.",
-            "Zum Schluss ist nur noch die leere Schale übrig."
+            "Die Banane ist noch nicht geschält.",
+            "Von der Schale hängt ein Streifen herunter.",
+            "Von der Schale hängen drei Streifen herunter.",
+            "Nur die leere Schale ist übrig."
           ],
           "stateWords": [
             "nicht geschält",
@@ -256,10 +256,10 @@
         },
         "sandwich": {
           "sentences": [
-            "Zuerst liegen zwei Scheiben Brot auf dem Brett.",
-            "Dann ist Marmelade auf einer Scheibe.",
-            "Danach ist das Brot schräg durchgeschnitten.",
-            "Zum Schluss ist nur noch eine Kruste mit Krümeln übrig."
+            "Auf dem Brett liegen zwei Scheiben Brot.",
+            "Auf einer Scheibe ist Marmelade.",
+            "Das Brot ist schräg durchgeschnitten.",
+            "Nur eine Kruste mit Krümeln ist übrig."
           ],
           "stateWords": [
             "zwei Scheiben",
@@ -286,10 +286,10 @@
         },
         "cake": {
           "sentences": [
-            "Zuerst ist der Kuchen noch ganz.",
-            "Dann ist ein Stück herausgeschnitten.",
-            "Danach ist schon die Hälfte weg.",
-            "Zum Schluss sind nur noch Krümel übrig."
+            "Der Kuchen ist noch ganz.",
+            "Aus dem Kuchen ist ein Stück herausgeschnitten.",
+            "Die Hälfte des Kuchens ist weg.",
+            "Vom Kuchen sind nur noch Krümel übrig."
           ],
           "stateWords": [
             "ganz",
@@ -314,10 +314,10 @@
         },
         "fence": {
           "sentences": [
-            "Zuerst ist der Zaun ganz weiß.",
-            "Dann sind zwei Latten gestrichen.",
-            "Danach sind vier Latten gestrichen.",
-            "Zum Schluss ist der ganze Zaun gestrichen."
+            "Der Zaun ist noch ganz weiß.",
+            "Am Zaun sind zwei Latten gestrichen.",
+            "Am Zaun sind vier Latten gestrichen.",
+            "Der ganze Zaun ist gestrichen."
           ],
           "stateWords": [
             "ganz weiß",
@@ -342,10 +342,10 @@
         },
         "letter": {
           "sentences": [
-            "Zuerst ist die Karte noch leer.",
-            "Dann ist eine Blume auf die Karte gemalt.",
-            "Danach stehen drei Zeilen auf der Karte.",
-            "Zum Schluss steckt die Karte in einem Umschlag mit Briefmarke."
+            "Die Karte ist noch leer.",
+            "Auf die Karte ist eine Blume gemalt.",
+            "Neben die Zeichnung sind drei Zeilen geschrieben.",
+            "Die Karte steckt in einem Umschlag mit Briefmarke."
           ],
           "stateWords": [
             "leer",
@@ -370,10 +370,10 @@
         },
         "paper-chain": {
           "sentences": [
-            "Zuerst liegt ein Blatt Papier auf dem Tisch.",
-            "Dann ist das Blatt in fünf Streifen geschnitten.",
-            "Danach sind zwei Streifen zu Ringen geklebt.",
-            "Zum Schluss hängen alle fünf Ringe als Kette zusammen."
+            "Auf dem Tisch liegt ein Blatt Papier.",
+            "Das Blatt ist in fünf Streifen geschnitten.",
+            "Aus zwei Streifen sind Ringe geklebt.",
+            "Alle fünf Ringe hängen als Kette zusammen."
           ],
           "stateWords": [
             "ein Blatt",
@@ -400,10 +400,10 @@
         },
         "beach-walk": {
           "sentences": [
-            "Zuerst sind noch keine Fußspuren im Sand.",
-            "Dann läuft ein Kind los und macht drei Fußspuren.",
-            "Danach findet das Kind eine Muschel.",
-            "Zum Schluss ist das Kind mit der Muschel zurück auf dem Handtuch."
+            "Im Sand sind noch keine Fußspuren.",
+            "Ein Kind läuft los und macht drei Fußspuren.",
+            "Das Kind findet eine Muschel.",
+            "Das Kind ist mit der Muschel zurück auf dem Handtuch."
           ],
           "stateWords": [
             "keine Fußspuren",
@@ -557,7 +557,7 @@
         ]
       },
       "reasons": {
-        "wash-hands": "So kommen die Keime weg, die an allem kleben, was wir angefasst haben.",
+        "wash-hands": "So werden wir die Keime los, die wir beim Anfassen aufgesammelt haben.",
         "brush-teeth": "Das schützt vor Karies und hält unser Lächeln schön sauber.",
         "sleep": "Körper und Kopf ruhen sich aus, damit wir morgen wieder munter sind.",
         "move-body": "Das macht uns fit, schnell und stark.",
@@ -984,7 +984,7 @@
           "instruction": "Male vor dem Versuch einen Ring im ersten Becken aus, nach dem Versuch einen Ring im zweiten Becken und den Stern, wenn es dich überrascht hat."
         },
         "G1-408": {
-          "title": "Schwer oder leicht? Versuch zum Schwimmen und Sinken",
+          "title": "Schwer oder leicht? Schwimmen und Sinken an der Balkenwaage",
           "instruction": "Die Waage zeigt, was schwerer ist: Kreise ein, was im Wasser schwimmt."
         },
         "G2-382": {

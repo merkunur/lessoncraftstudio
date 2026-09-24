@@ -161,7 +161,7 @@
         "plank",
         "paint",
         "brush",
-        "pot"
+        "bucket"
       ]
     },
     "letter": {
@@ -259,7 +259,7 @@
     },
     "first-next-last-cut": {
       "title": "Kuvasarja leikattavaksi: ensin, sitten, lopuksi",
-      "instruction": "Leikkaa kuvat irti kaistaleista ja liimaa ne tyhjiin kehyksiin sanojen Ensin, Sitten ja Lopuksi yläpuolelle."
+      "instruction": "Leikkaa kaistaleiden kuvat irti ja liimaa ne sanojen Ensin, Sitten ja Lopuksi yläpuolelle riville, jolla on sama merkki kuin kaistaleella."
     },
     "what-happens-next": {
       "title": "Kuvasarja: mitä tapahtuu seuraavaksi?",
@@ -270,8 +270,8 @@
       "instruction": "Katso kunkin tarinan alkua ja loppua ja piirrä keskimmäiseen kehykseen, mitä niiden välissä tapahtuu."
     },
     "sequencing-sentences": {
-      "title": "Kuvasarja ja lauseet: yhdistä lause kuvaan",
-      "instruction": "Lue kunkin tarinan lauseet ja vedä viiva jokaisesta lauseesta sen kuvaan."
+      "title": "Kuvasarja ja lauseet: järjestä lauseet ja yhdistä ne kuviin",
+      "instruction": "Numeroi kunkin tarinan lauseet ruutuihin oikeaan järjestykseen ja vedä sitten viiva jokaisesta lauseesta sen kuvaan."
     },
     "retell-with-starters": {
       "title": "Kuvasarja tarinan kirjoittamiseen aloitussanoilla",

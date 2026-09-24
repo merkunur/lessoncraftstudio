@@ -2872,8 +2872,8 @@
     "instruction": "Schau genau, was sich verändert, und schreibe 1, 2, 3 und 4 in die Kästchen, damit jede Geschichte richtig geordnet ist."
   },
   "K-380": {
-    "title": "Hygiene und Körperpflege: Was braucht jedes Kind?",
-    "instruction": "Zieh eine Linie von jedem Kind zu dem, was es braucht."
+    "title": "Gesunde Gewohnheiten: Was benutzt jedes Kind?",
+    "instruction": "Zieh eine Linie von jedem Kind zu dem, was es benutzt."
   },
   "G1-398": {
     "title": "Lebensräume der Tiere: Wald, Wiese, Teich und Meer",
@@ -2884,12 +2884,12 @@
     "instruction": "Male vor dem Versuch einen Ring im ersten Becken aus, nach dem Versuch einen Ring im zweiten Becken und den Stern, wenn es dich überrascht hat."
   },
   "G2-377": {
-    "title": "Schreibschrift üben: i, u, ü und t in {U}",
+    "title": "Schreibschrift üben: i, u und t in {U}",
     "instruction": "Spure die grauen Buchstaben nach und schreibe dann jeden Buchstaben verbunden allein bis zum Ende der Zeile und in der leeren Zeile darunter."
   },
   "K-381": {
     "title": "Bildergeschichte ausschneiden: zuerst, dann, zum Schluss",
-    "instruction": "Schneide die Bilder aus jedem Streifen aus und klebe sie in die leeren Rahmen über Zuerst, Dann und Zum Schluss."
+    "instruction": "Schneide die Bilder aus jedem Streifen aus und klebe sie an der Leine mit demselben Zeichen in die leeren Rahmen über Zuerst, Dann und Zum Schluss."
   },
   "G1-400": {
     "title": "Bildergeschichte: Was passiert als Nächstes?",
@@ -2900,8 +2900,8 @@
     "instruction": "Schau dir Anfang und Schluss jeder Geschichte an und male in den großen Rahmen in der Mitte, was dazwischen passiert."
   },
   "G1-402": {
-    "title": "Bildergeschichte: Sätze den Bildern zuordnen",
-    "instruction": "Lies die Sätze jeder Geschichte und verbinde jeden Satz mit seinem Bild."
+    "title": "Bildergeschichte: Sätze ordnen und den Bildern zuordnen",
+    "instruction": "Nummeriere die Sätze jeder Geschichte in den Kästchen der Reihe nach und verbinde dann jeden Satz mit seinem Bild."
   },
   "G2-378": {
     "title": "Bildergeschichte schreiben mit Worthilfen",
@@ -2912,11 +2912,11 @@
     "instruction": "Schreibe 1 bis 5 in die Kästchen, so wie wir die Hände waschen."
   },
   "G1-403": {
-    "title": "Richtig Zähne putzen: vorher, dabei und danach",
-    "instruction": "Kreise bei jedem Bild ein, wann es passiert: vorher, beim Putzen oder danach."
+    "title": "Zähneputzen: vorher, beim Putzen oder danach?",
+    "instruction": "Kreise bei jedem Bild ein: vorher, beim Putzen oder danach."
   },
   "G1-404": {
-    "title": "Keime stoppen: in die Armbeuge husten",
+    "title": "Keime stoppen: Was hilft?",
     "instruction": "Kreise in jeder Reihe das Bild ein, das Keime stoppt."
   },
   "G2-379": {
@@ -2933,19 +2933,19 @@
   },
   "G1-406": {
     "title": "Lebensraum: Welches Tier lebt hier nicht?",
-    "instruction": "Streiche in jeder Reihe das Tier durch, das nicht in diesem Lebensraum lebt."
+    "instruction": "Streiche bei jedem Lebensraum das Tier durch, das dort nicht lebt."
   },
   "G2-380": {
     "title": "Angepasst an den Lebensraum: Welches Tier ist es?",
-    "instruction": "Schreibe in jedes Kästchen den Buchstaben des Tieres, von dem der Satz erzählt."
+    "instruction": "Schreibe in jedes Kästchen den Buchstaben des Tieres, von dem der Satz erzählt; ein Tier bleibt übrig."
   },
   "G1-407": {
-    "title": "Was brauchen Tiere zum Leben?",
+    "title": "Was brauchen Tiere? Nahrung und ein Zuhause",
     "instruction": "Kreise bei jedem Tier ein, was es frisst und wo es wohnt."
   },
   "G2-381": {
-    "title": "Forscherblatt: Lebensraum Wald",
-    "instruction": "Male drei Tiere, die hier leben, in das Bild, schreibe ihre Namen und eine Pflanze von hier auf und kreise in jedem Paar das richtige Wort ein."
+    "title": "Forscherblatt: Lebensraum Teich",
+    "instruction": "Male drei Tiere, die hier leben, in das Bild, schreibe ihre Namen und eine Pflanze von hier auf und kreise das passende Wort ein."
   },
   "G1-408": {
     "title": "Schwer oder leicht? Versuch zum Schwimmen und Sinken",
@@ -2956,11 +2956,11 @@
     "instruction": "Male bei jeder Knetform den Ring aus, wo sie landet, kreise ein, was schwimmt, und male dein eigenes Knetboot in das große Becken."
   },
   "G2-383": {
-    "title": "Warum schwimmt etwas? Richtig oder falsch zum Versuch",
+    "title": "Schwimmen und Sinken: Richtig oder falsch?",
     "instruction": "Lies jeden Satz und kreise richtig oder falsch ein."
   },
   "K-384": {
-    "title": "Was schwimmt, was sinkt? Versuch zum Malen",
+    "title": "Male, was schwimmt und was sinkt",
     "instruction": "Male zwei Dinge, die schwimmen, in die gestrichelten Kästchen auf dem Wasser und zwei, die sinken, in die Kästchen am Boden."
   },
   "G3-400": {
@@ -2977,7 +2977,7 @@
   },
   "G2-386": {
     "title": "Schreibschrift-Wörter zu Bildern in {U}",
-    "instruction": "Spure jedes graue Wort nach, schreibe es dann verbunden auf die Zeile darunter und setze Punkte und Striche zum Schluss."
+    "instruction": "Spure jedes graue Wort nach, verbinde zuerst die Buchstaben und setze zum Schluss Punkte und Striche, dann schreibe es genauso auf die Zeile darunter."
   },
   "G2-387": {
     "title": "Schreibschrift lesen: Wörter in {U}",

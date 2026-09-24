@@ -161,7 +161,7 @@
         "plank",
         "paint",
         "brush",
-        "pot"
+        "bucket"
       ]
     },
     "letter": {
@@ -259,7 +259,7 @@
     },
     "first-next-last-cut": {
       "title": "Bildeserie med 3 bilder: først, så og til slutt",
-      "instruction": "Klipp ut bildene på hver remse, og lim dem i de tomme rammene over Først, Så og Til slutt."
+      "instruction": "Klipp ut bildene på hver remse, og lim dem i de tomme rammene over Først, Så og Til slutt på raden med samme merke som remsa."
     },
     "what-happens-next": {
       "title": "Bildeserie: hva skjer etterpå?",
@@ -270,8 +270,8 @@
       "instruction": "Se på begynnelsen og slutten av hver historie, og tegn i den tomme rammen hva som skjer i midten."
     },
     "sequencing-sentences": {
-      "title": "Bildeserie: koble setningene til bildene",
-      "instruction": "Les setningene i hver historie, og trekk en strek fra hver setning til riktig bilde."
+      "title": "Bildeserie: sett setningene i rekkefølge og koble dem til bildene",
+      "instruction": "Skriv tall i rutene så setningene i hver historie kommer i riktig rekkefølge, og trekk så en strek fra hver setning til bildet sitt."
     },
     "retell-with-starters": {
       "title": "Skriv til bildeserien med ordhjelp",

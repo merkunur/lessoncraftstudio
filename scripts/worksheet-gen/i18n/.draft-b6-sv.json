@@ -1,0 +1,1014 @@
+{
+  "locale": "sv",
+  "types": {
+    "K-379": {
+      "title": "Bildserie: numrera bilderna",
+      "instruction": "Titta på vad som ändras i varje berättelse och skriv siffrorna i rutorna så att bilderna kommer i rätt ordning."
+    },
+    "K-381": {
+      "title": "Bildserie att klippa ut: först, sedan, till sist",
+      "instruction": "Klipp ut bilderna på varje remsa och klistra dem på linan med samma märke, i de tomma ramarna ovanför Först, Sedan och Till sist."
+    },
+    "G1-400": {
+      "title": "Bildserie: vad händer sedan?",
+      "instruction": "Titta på de tre bilderna i varje berättelse och ringa in bilden nedanför dem som hör hemma i ramen med frågetecknet."
+    },
+    "G1-401": {
+      "title": "Bildberättelse: början, mitten och slutet",
+      "instruction": "Titta på början och slutet av varje berättelse och rita det som händer i mitten i den tomma ramen."
+    },
+    "G1-402": {
+      "title": "Bildserie: ordna meningarna och para ihop dem med bilderna",
+      "instruction": "Numrera meningarna i varje berättelse i rätt ordning i rutorna och dra sedan ett streck från varje mening till dess bild."
+    },
+    "G2-378": {
+      "title": "Bildserie att skriva till med ordstöd",
+      "instruction": "Skriv på raderna vad som händer på varje bild och börja med ordet som står på den första raden."
+    },
+    "K-380": {
+      "title": "Hygien och goda vanor: vad använder barnen?",
+      "instruction": "Dra ett streck från varje barn till saken som barnet använder."
+    },
+    "K-382": {
+      "title": "Tvätta händerna med bildstöd",
+      "instruction": "Skriv 1 till 5 i rutorna och visa hur vi tvättar händerna."
+    },
+    "G1-403": {
+      "title": "Borsta tänderna: före, under och efter",
+      "instruction": "Titta på varje bild och ringa in före, under eller efter tandborstningen."
+    },
+    "G1-404": {
+      "title": "Nysa och hosta i armvecket: stoppa bakterierna",
+      "instruction": "Ringa in bilden i varje rad som stoppar bakterierna från att spridas."
+    },
+    "G2-379": {
+      "title": "Goda vanor: varför gör vi så?",
+      "instruction": "Dra ett streck från varje vana till meningen som berättar varför vi gör så."
+    },
+    "G1-405": {
+      "title": "Veckoschema för goda vanor",
+      "instruction": "Sätt varje dag en bock i rutan för varje vana som du har gjort."
+    },
+    "G1-398": {
+      "title": "Djurens livsmiljöer: skog, äng, sjö och hav",
+      "instruction": "Skriv under varje djur bokstaven för den livsmiljö där det bor."
+    },
+    "K-383": {
+      "title": "Djurens bon: fågelbo, spindelnät och myrstack",
+      "instruction": "Dra ett streck från varje djur till dess hem."
+    },
+    "G1-406": {
+      "title": "Livsmiljöer: vilket djur bor inte här?",
+      "instruction": "Titta på varje livsmiljö och kryssa över djuret som inte bor där."
+    },
+    "G2-380": {
+      "title": "Djurens anpassningar till livsmiljön",
+      "instruction": "Skriv bokstaven för djuret som varje mening handlar om i meningens ruta; ett djur blir över."
+    },
+    "G1-407": {
+      "title": "Vad behöver djuren för att leva?",
+      "instruction": "Ringa in maten som varje djur äter och hemmet som det bor i."
+    },
+    "G2-381": {
+      "title": "Livsmiljörapport: djur och växter vid sjön",
+      "instruction": "Rita i bilden tre djur som bor där, skriv deras namn och en växt som växer där, och ringa in ordet som passar livsmiljön."
+    },
+    "G1-399": {
+      "title": "Flyta eller sjunka? Gissa och testa i ett experiment",
+      "instruction": "Färglägg en ring i det första karet före testet, en ring i det andra karet efter testet och stjärnan om du blev förvånad."
+    },
+    "G1-408": {
+      "title": "Tungt eller lätt? Experiment med våg: flyta eller sjunka",
+      "instruction": "Vågen visar vilken sak som är tyngre: ringa in den sak som flyter i vatten."
+    },
+    "G2-382": {
+      "title": "Kan lera flyta? Experiment med formen",
+      "instruction": "Färglägg ringen där varje lerform hamnar i karet, ringa in den sak som flyter och rita sedan en egen lerbåt i det stora karet."
+    },
+    "G2-383": {
+      "title": "Varför flyter saker? Sant eller falskt om att flyta och sjunka",
+      "instruction": "Läs varje mening och ringa in sant eller falskt."
+    },
+    "K-384": {
+      "title": "Rita vad som flyter och sjunker i vattnet",
+      "instruction": "Rita två saker som flyter i de streckade rutorna på vattnet och två som sjunker i de streckade rutorna på botten."
+    },
+    "G3-400": {
+      "title": "Min experimentrapport: flyta eller sjunka",
+      "instruction": "Välj en fråga, skriv vad du tror, testa, rita sedan vad som hände och skriv vad du lärde dig."
+    }
+  },
+  "families": {
+    "story-sequencing": {
+      "slug": "bildserier",
+      "name": "Bildserier"
+    },
+    "healthy-habits": {
+      "slug": "hygien-och-goda-vanor",
+      "name": "Hygien och goda vanor"
+    },
+    "habitats": {
+      "slug": "djurens-livsmiljoer",
+      "name": "Djurens livsmiljöer"
+    },
+    "sink-or-float": {
+      "slug": "flyta-eller-sjunka-experiment",
+      "name": "Flyta eller sjunka"
+    },
+    "cursive-writing": {
+      "slug": "skrivstil",
+      "name": "Skrivstil"
+    }
+  },
+  "skills": {
+    "story-sequencing": {
+      "full": "Barnet läser en bildserie, ser vad som ändras från bild till bild och berättar händelserna i rätt ordning med orden först, sedan och till sist.",
+      "short": "Berätta en bildserie i rätt ordning"
+    },
+    "healthy-habits": {
+      "full": "Barnet övar vardagliga hygienvanor: tvätta händerna, borsta tänderna och nysa och hosta i armvecket, och förklarar varför vanorna håller oss friska.",
+      "short": "Goda vanor och hygien i vardagen"
+    },
+    "habitats": {
+      "full": "Barnet kopplar djur till deras livsmiljöer i skogen, på ängen, i sjön och i havet, och lär sig om djurens bon, behov och kroppsliga anpassningar.",
+      "short": "Djur och deras livsmiljöer"
+    },
+    "sink-or-float": {
+      "full": "Barnet gissar om saker flyter eller sjunker, testar i vatten och upptäcker att tyngd ensam inte avgör: en tung pumpa flyter och en liten spik sjunker.",
+      "short": "Gissa och testa: flyta eller sjunka"
+    },
+    "cursive-writing": {
+      "full": "Skrivstil med sammanbundna bokstäver ingår inte i Lgr22, så den här sidtypen publiceras inte på svenska; eleverna skriver med gemena och versaler.",
+      "short": "Skrivstil publiceras inte på svenska"
+    }
+  },
+  "topicMeta": {
+    "story-sequencing": "Gratis bildserier att skriva ut för förskoleklass, åk 1 och åk 2: numrera bilderna, klipp ut, vad händer sedan, början, mitten och slutet och bildserie att skriva till.",
+    "healthy-habits": "Gratis arbetsmaterial om hygien och goda vanor för förskoleklass till åk 2: tvätta händerna, borsta tänderna, nysa och hosta i armvecket och veckoschema.",
+    "habitats": "Gratis material om djurens livsmiljöer för förskoleklass till åk 2: skog, äng, sjö och hav, djurens bon, anpassningar och vad djuren behöver för att leva.",
+    "sink-or-float": "Gratis experiment om att flyta eller sjunka för förskoleklass till åk 3: gissa och testa, tungt eller lätt med våg, båt av lera, sant eller falskt och rapport.",
+    "cursive-writing": "Skrivstil med sammanbundna bokstäver ingår inte i Lgr22, därför publiceras inga svenska sidor om skrivstil; se övningar i att skriva gemena och versaler."
+  },
+  "banks": {
+    "story-sequencing": {
+      "words3": [
+        "Först",
+        "Sedan",
+        "Till sist"
+      ],
+      "openers4": [
+        "Först",
+        "Sedan",
+        "Efter det",
+        "Till sist"
+      ],
+      "starters4": [
+        "Först",
+        "Sedan",
+        "Efter det",
+        "Till sist"
+      ],
+      "bme": [
+        "Början",
+        "Mitten",
+        "Slutet"
+      ],
+      "stories": {
+        "apple": {
+          "sentences": [
+            "Först är äpplet helt.",
+            "Sedan har någon tagit en tugga.",
+            "Efter det har någon tagit tre tuggor.",
+            "Till sist är bara skrutten kvar."
+          ],
+          "stateWords": [
+            "helt",
+            "en tugga",
+            "tre tuggor",
+            "skrutten"
+          ],
+          "helpWords": [
+            "äpple",
+            "tugga",
+            "skrutt",
+            "skaft",
+            "blad",
+            "tallrik"
+          ],
+          "helpIds": [
+            "apple",
+            "bite",
+            "core",
+            "stem",
+            "leaf",
+            "plate"
+          ]
+        },
+        "banana": {
+          "sentences": [
+            "Först är bananen inte skalad.",
+            "Sedan hänger en skalbit ner.",
+            "Efter det hänger tre skalbitar ner.",
+            "Till sist är bara det tomma skalet kvar."
+          ],
+          "stateWords": [
+            "inte skalad",
+            "en skalbit",
+            "tre skalbitar",
+            "tomma skalet"
+          ],
+          "helpWords": [
+            "banan",
+            "skal",
+            "skalbit",
+            "tallrik"
+          ],
+          "helpIds": [
+            "banana",
+            "peel",
+            "strip",
+            "plate"
+          ]
+        },
+        "sandwich": {
+          "sentences": [
+            "Först finns det två brödskivor.",
+            "Sedan har den ena skivan fått sylt.",
+            "Efter det är smörgåsen delad på mitten.",
+            "Till sist är bara en kant och smulor kvar."
+          ],
+          "stateWords": [
+            "två brödskivor",
+            "sylt",
+            "delad på mitten",
+            "smulor"
+          ],
+          "helpWords": [
+            "bröd",
+            "sylt",
+            "kniv",
+            "smörgås",
+            "halva",
+            "kant"
+          ],
+          "helpIds": [
+            "bread",
+            "jam",
+            "knife",
+            "sandwich",
+            "half",
+            "crust"
+          ]
+        },
+        "cake": {
+          "sentences": [
+            "Först är tårtan hel.",
+            "Sedan har någon skurit ut en bit.",
+            "Efter det är halva tårtan borta.",
+            "Till sist är bara smulor kvar."
+          ],
+          "stateWords": [
+            "hel",
+            "en bit",
+            "halva",
+            "smulor"
+          ],
+          "helpWords": [
+            "tårta",
+            "bit",
+            "ljus",
+            "smulor",
+            "tårtfat"
+          ],
+          "helpIds": [
+            "cake",
+            "slice",
+            "candle",
+            "crumb",
+            "stand"
+          ]
+        },
+        "fence": {
+          "sentences": [
+            "Först är staketet helt vitt.",
+            "Sedan är två brädor målade.",
+            "Efter det är fyra brädor målade.",
+            "Till sist är hela staketet målat."
+          ],
+          "stateWords": [
+            "helt vitt",
+            "två brädor",
+            "fyra brädor",
+            "hela staketet"
+          ],
+          "helpWords": [
+            "staket",
+            "bräda",
+            "färg",
+            "pensel",
+            "färgburk"
+          ],
+          "helpIds": [
+            "fence",
+            "plank",
+            "paint",
+            "brush",
+            "bucket"
+          ]
+        },
+        "letter": {
+          "sentences": [
+            "Först är kortet tomt.",
+            "Sedan har någon ritat en blomma på kortet.",
+            "Efter det har någon skrivit tre rader.",
+            "Till sist ligger kortet i ett kuvert med frimärke."
+          ],
+          "stateWords": [
+            "tomt",
+            "en blomma",
+            "tre rader",
+            "frimärke"
+          ],
+          "helpWords": [
+            "kort",
+            "blomma",
+            "penna",
+            "kuvert",
+            "frimärke"
+          ],
+          "helpIds": [
+            "card",
+            "flower",
+            "pencil",
+            "envelope",
+            "stamp"
+          ]
+        },
+        "paper-chain": {
+          "sentences": [
+            "Först finns det ett papper.",
+            "Sedan är pappret klippt i fem remsor.",
+            "Efter det är två remsor limmade till ringar.",
+            "Till sist blir alla fem ringarna en kedja."
+          ],
+          "stateWords": [
+            "ett papper",
+            "fem remsor",
+            "två remsor",
+            "en kedja"
+          ],
+          "helpWords": [
+            "papper",
+            "sax",
+            "remsor",
+            "lim",
+            "ringar",
+            "kedja"
+          ],
+          "helpIds": [
+            "paper",
+            "scissors",
+            "strip",
+            "glue",
+            "ring",
+            "chain"
+          ]
+        },
+        "beach-walk": {
+          "sentences": [
+            "Först finns det inga fotspår i sanden.",
+            "Sedan går ett barn och lämnar tre fotspår.",
+            "Efter det hittar barnet ett snäckskal.",
+            "Till sist är barnet tillbaka på handduken med snäckskalet."
+          ],
+          "stateWords": [
+            "inga fotspår",
+            "tre fotspår",
+            "hittar",
+            "tillbaka"
+          ],
+          "helpWords": [
+            "sand",
+            "handduk",
+            "snäckskal",
+            "fotspår",
+            "gå"
+          ],
+          "helpIds": [
+            "sand",
+            "towel",
+            "shell",
+            "footprint",
+            "walk"
+          ]
+        }
+      },
+      "excludeStories": [],
+      "strings": {
+        "base": {
+          "title": "Bildserie: numrera bilderna",
+          "instruction": "Titta på vad som ändras i varje berättelse och skriv siffrorna i rutorna så att bilderna kommer i rätt ordning."
+        },
+        "first-next-last-cut": {
+          "title": "Bildserie att klippa ut: först, sedan, till sist",
+          "instruction": "Klipp ut bilderna på varje remsa och klistra dem på linan med samma märke, i de tomma ramarna ovanför Först, Sedan och Till sist."
+        },
+        "what-happens-next": {
+          "title": "Bildserie: vad händer sedan?",
+          "instruction": "Titta på de tre bilderna i varje berättelse och ringa in bilden nedanför dem som hör hemma i ramen med frågetecknet."
+        },
+        "beginning-middle-end": {
+          "title": "Bildberättelse: början, mitten och slutet",
+          "instruction": "Titta på början och slutet av varje berättelse och rita det som händer i mitten i den tomma ramen."
+        },
+        "sequencing-sentences": {
+          "title": "Bildserie: ordna meningarna och para ihop dem med bilderna",
+          "instruction": "Numrera meningarna i varje berättelse i rätt ordning i rutorna och dra sedan ett streck från varje mening till dess bild."
+        },
+        "retell-with-starters": {
+          "title": "Bildserie att skriva till med ordstöd",
+          "instruction": "Skriv på raderna vad som händer på varje bild och börja med ordet som står på den första raden."
+        }
+      }
+    },
+    "healthy-habits": {
+      "strings": {
+        "base": {
+          "title": "Hygien och goda vanor: vad använder barnen?",
+          "instruction": "Dra ett streck från varje barn till saken som barnet använder."
+        },
+        "hand-washing-steps": {
+          "title": "Tvätta händerna med bildstöd",
+          "instruction": "Skriv 1 till 5 i rutorna och visa hur vi tvättar händerna."
+        },
+        "brushing-teeth": {
+          "title": "Borsta tänderna: före, under och efter",
+          "instruction": "Titta på varje bild och ringa in före, under eller efter tandborstningen."
+        },
+        "stop-the-germs": {
+          "title": "Nysa och hosta i armvecket: stoppa bakterierna",
+          "instruction": "Ringa in bilden i varje rad som stoppar bakterierna från att spridas."
+        },
+        "why-habits": {
+          "title": "Goda vanor: varför gör vi så?",
+          "instruction": "Dra ett streck från varje vana till meningen som berättar varför vi gör så."
+        },
+        "habit-chart": {
+          "title": "Veckoschema för goda vanor",
+          "instruction": "Sätt varje dag en bock i rutan för varje vana som du har gjort."
+        }
+      },
+      "phases": {
+        "before": "före",
+        "during": "under",
+        "after": "efter"
+      },
+      "labels": {
+        "wash-hands": "tvätta händerna",
+        "brush-teeth": "borsta tänderna",
+        "sleep": "gå i säng tidigt",
+        "move-body": "röra på sig",
+        "drink-water": "dricka vatten",
+        "sun-protect": "skydda sig mot solen",
+        "blow-nose": "snyta sig",
+        "comb-hair": "kamma håret"
+      },
+      "labelStems": {
+        "wash-hands": [
+          "tvätta",
+          "tvättar",
+          "hand",
+          "händer",
+          "händerna",
+          "handen",
+          "tvål",
+          "tvålen"
+        ],
+        "brush-teeth": [
+          "borsta",
+          "borstar",
+          "tand",
+          "tänder",
+          "tänderna",
+          "tandborste",
+          "tandkräm"
+        ],
+        "sleep": [
+          "sova",
+          "sover",
+          "sömn",
+          "säng",
+          "sängen",
+          "natt",
+          "natten",
+          "tidigt"
+        ],
+        "move-body": [
+          "röra",
+          "rör",
+          "springa",
+          "springer",
+          "leka",
+          "leker",
+          "idrott",
+          "sport"
+        ],
+        "sun-protect": [
+          "sol",
+          "solen",
+          "hatt",
+          "keps",
+          "solkräm"
+        ],
+        "drink-water": [
+          "dricka",
+          "dricker",
+          "vatten",
+          "glas"
+        ],
+        "blow-nose": [
+          "snyta",
+          "snyter",
+          "näsduk"
+        ],
+        "comb-hair": [
+          "kamma",
+          "kam",
+          "hår",
+          "håret"
+        ]
+      },
+      "reasons": {
+        "wash-hands": "Då försvinner bakterierna från allt som vi har rört vid.",
+        "brush-teeth": "Då blir leendet rent och fint.",
+        "sleep": "Kroppen och hjärnan vilar och blir redo för en ny dag.",
+        "move-body": "Det gör oss pigga, snabba och starka.",
+        "sun-protect": "Då bränner vi oss inte en varm och solig dag.",
+        "drink-water": "Kroppen behöver det för att fungera bra.",
+        "blow-nose": "Då kan vi andas lätt igen."
+      },
+      "kaiOrder": false,
+      "coughPhrase": "i armvecket",
+      "weekStartOverride": null
+    },
+    "habitats": {
+      "sets": {
+        "base": [
+          "forest",
+          "meadow",
+          "pond",
+          "ocean"
+        ]
+      },
+      "tileLabel": {
+        "forest": "Skog",
+        "meadow": "Äng",
+        "pond": "Sjö",
+        "ocean": "Hav",
+        "polar": "Polarisen",
+        "polar-arctic": "Arktis",
+        "savanna": "Savann",
+        "rainforest": "Regnskog"
+      },
+      "adapt": {
+        "camel-hump": "Puckeln lagrar fett, så att den klarar sig länge utan mat.",
+        "giraffe-neck": "Den långa halsen når löven högt upp i träden.",
+        "elephant-trunk": "Den långa snabeln suger upp vatten och plockar upp mat.",
+        "penguin-flippers": "Vingarna är fenor: den simmar snabbt men kan inte flyga.",
+        "walrus-tusks": "Med sina långa betar drar den upp sin tunga kropp ur vattnet.",
+        "woodpecker-beak": "Den starka, vassa näbben hackar hål i trädstammar.",
+        "beaver-teeth": "Med sina stora framtänder gnager den ner träd och bygger sitt hem i vattnet.",
+        "whale-blowhole": "Den andas luft genom ett hål uppe på huvudet.",
+        "fish-gills": "Den andas under vattnet med gälar.",
+        "duck-feet": "Fötterna har simhud och trycker undan vattnet som åror.",
+        "sloth-claws": "De långa, böjda klorna gör att den kan hänga i grenarna i flera timmar.",
+        "toucan-beak": "Den jättestora näbben plockar frukt långt ut på tunna grenar.",
+        "squirrel-tail": "Den yviga svansen hjälper den att hålla balansen när den hoppar från gren till gren."
+      },
+      "names": {
+        "whale": [
+          "val",
+          "blåval"
+        ],
+        "dolphin": [
+          "delfin"
+        ],
+        "octopus": [
+          "bläckfisk"
+        ],
+        "starfish": [
+          "sjöstjärna"
+        ],
+        "jellyfish": [
+          "manet"
+        ],
+        "shark": [
+          "haj"
+        ],
+        "clownfish": [
+          "clownfisk",
+          "fisk",
+          "nemo"
+        ],
+        "crab": [
+          "krabba"
+        ],
+        "ray": [
+          "rocka"
+        ],
+        "seal-grey": [
+          "säl"
+        ],
+        "seal-white": [
+          "säl",
+          "sälunge"
+        ],
+        "walrus": [
+          "valross"
+        ],
+        "narwhal": [
+          "narval"
+        ],
+        "penguin": [
+          "pingvin"
+        ],
+        "deer": [
+          "rådjur",
+          "rådjurskid",
+          "kid",
+          "hjort",
+          "bambi"
+        ],
+        "squirrel": [
+          "ekorre"
+        ],
+        "woodpecker": [
+          "hackspett"
+        ],
+        "badger": [
+          "grävling"
+        ],
+        "moose": [
+          "älg"
+        ],
+        "frog": [
+          "groda"
+        ],
+        "dragonfly": [
+          "trollslända"
+        ],
+        "beaver": [
+          "bäver"
+        ],
+        "duck": [
+          "anka",
+          "ankunge",
+          "and",
+          "kyckling"
+        ],
+        "swan": [
+          "svan"
+        ],
+        "heron": [
+          "häger",
+          "stork"
+        ],
+        "butterfly": [
+          "fjäril"
+        ],
+        "bee": [
+          "bi",
+          "humla"
+        ],
+        "grasshopper": [
+          "gräshoppa"
+        ],
+        "ladybug": [
+          "nyckelpiga"
+        ],
+        "lion": [
+          "lejon"
+        ],
+        "zebra": [
+          "zebra"
+        ],
+        "giraffe": [
+          "giraff"
+        ],
+        "elephant": [
+          "elefant"
+        ],
+        "rhinoceros": [
+          "noshörning"
+        ],
+        "ostrich": [
+          "struts"
+        ],
+        "monkey": [
+          "apa"
+        ],
+        "gorilla": [
+          "gorilla"
+        ],
+        "orangutan": [
+          "orangutang",
+          "apa"
+        ],
+        "sloth": [
+          "sengångare"
+        ],
+        "toucan": [
+          "tukan"
+        ],
+        "macaw": [
+          "ara",
+          "papegoja"
+        ],
+        "camel": [
+          "kamel",
+          "dromedar"
+        ],
+        "bird": [
+          "fågel"
+        ],
+        "spider": [
+          "spindel"
+        ],
+        "rabbit": [
+          "kanin",
+          "hare"
+        ],
+        "ant": [
+          "myra"
+        ]
+      },
+      "needs": {
+        "line": "Alla djur behöver mat och ett hem.",
+        "foodHead": "Mat",
+        "homeHead": "Hem",
+        "undrawn": [
+          "vatten",
+          "dricka",
+          "dricker",
+          "dryck",
+          "luft",
+          "sol",
+          "solen",
+          "solljus"
+        ]
+      },
+      "report": {
+        "animals": "Djur som bor här",
+        "plant": "En växt som växer här",
+        "hot": "varmt",
+        "cold": "kallt",
+        "wet": "blött",
+        "dry": "torrt"
+      },
+      "homeWord": {
+        "nest": "fågelbo",
+        "hive": "bibo",
+        "web": "spindelnät",
+        "burrow": "håla",
+        "anthill": "myrstack",
+        "lodge": "bäverhydda"
+      },
+      "refuse": [],
+      "refuseClaims": [],
+      "strings": {
+        "G1-398": {
+          "title": "Djurens livsmiljöer: skog, äng, sjö och hav",
+          "instruction": "Skriv under varje djur bokstaven för den livsmiljö där det bor."
+        },
+        "K-383": {
+          "title": "Djurens bon: fågelbo, spindelnät och myrstack",
+          "instruction": "Dra ett streck från varje djur till dess hem."
+        },
+        "G1-406": {
+          "title": "Livsmiljöer: vilket djur bor inte här?",
+          "instruction": "Titta på varje livsmiljö och kryssa över djuret som inte bor där."
+        },
+        "G2-380": {
+          "title": "Djurens anpassningar till livsmiljön",
+          "instruction": "Skriv bokstaven för djuret som varje mening handlar om i meningens ruta; ett djur blir över."
+        },
+        "G1-407": {
+          "title": "Vad behöver djuren för att leva?",
+          "instruction": "Ringa in maten som varje djur äter och hemmet som det bor i."
+        },
+        "G2-381": {
+          "title": "Livsmiljörapport: djur och växter vid sjön",
+          "instruction": "Rita i bilden tre djur som bor där, skriv deras namn och en växt som växer där, och ringa in ordet som passar livsmiljön."
+        }
+      },
+      "placeWords": [
+        "öken",
+        "öknen",
+        "havet",
+        "hav",
+        "isen",
+        "sjön",
+        "sjö",
+        "skogen",
+        "skog",
+        "ängen",
+        "äng",
+        "savannen",
+        "savann",
+        "regnskogen",
+        "djungeln",
+        "arktis",
+        "antarktis",
+        "dammen",
+        "damm"
+      ]
+    },
+    "sink-or-float": {
+      "floatWord": "flyter",
+      "sinkWord": "sjunker",
+      "heads": {
+        "guess": "Jag gissar",
+        "test": "Testet",
+        "surprise": "Förvånad?"
+      },
+      "trueWord": "sant",
+      "falseWord": "falskt",
+      "clayWord": "lera",
+      "labels": {
+        "ball": "fotboll",
+        "log": "stock",
+        "pumpkin": "pumpa",
+        "apple": "äpple",
+        "lemon": "citron",
+        "banana": "banan",
+        "leaf": "löv",
+        "feather": "fjäder",
+        "pinecone": "kotte",
+        "pencil": "penna",
+        "toyboat": "leksaksbåt",
+        "ship": "fartyg",
+        "orange": "apelsin",
+        "rock": "sten",
+        "nail": "spik",
+        "hammer": "hammare",
+        "bolt": "skruv",
+        "pliers": "tång",
+        "scissors": "sax",
+        "potato": "potatis"
+      },
+      "tf": {
+        "T1": "En stor stock flyter.",
+        "T2": "En liten spik sjunker.",
+        "T3": "Ett fartyg av stål flyter.",
+        "T4": "En tung pumpa flyter.",
+        "T5": "Ett äpple flyter, men en potatis sjunker.",
+        "T6": "Samma lera kan både sjunka och flyta.",
+        "T7": "Vissa tunga saker flyter.",
+        "T8": "Vissa lätta saker sjunker.",
+        "F1": "En potatis flyter.",
+        "F2": "En fjäder sjunker.",
+        "F3": "Ett fartyg av stål sjunker.",
+        "F4": "En boll full med luft sjunker.",
+        "F5": "Alla tunga saker sjunker.",
+        "F6": "Alla lätta saker flyter.",
+        "F7": "Stora saker sjunker alltid.",
+        "F8": "En sak flyter för att den är lätt.",
+        "F9": "Bara små saker kan flyta."
+      },
+      "report": {
+        "question": "Min fråga",
+        "predict": "Jag tror",
+        "result": "Det här hände",
+        "learned": "Jag lärde mig",
+        "starter": "Nu vet jag att"
+      },
+      "questions": {
+        "orange": "Flyter en apelsin med skal? Flyter den utan skal?",
+        "cargo": "Hur många klossar kan en lerbåt bära innan den sjunker?"
+      },
+      "forbidden": [
+        "tunga saker sjunker",
+        "lätta saker flyter",
+        "för att den är lätt",
+        "densitet",
+        "flytkraft",
+        "salt"
+      ],
+      "experimentWords": [
+        "experiment",
+        "gissa",
+        "testa",
+        "undersökning"
+      ],
+      "apparatus": {
+        "ring": "ring",
+        "tank": "kar",
+        "star": "stjärna",
+        "spot": "streckade rutor"
+      },
+      "instructionBans": {
+        "base": [
+          "streck",
+          "grupp",
+          "hink",
+          "bock",
+          "klipp",
+          "ringa"
+        ],
+        "scale": [
+          "streck",
+          "grupp",
+          "hink",
+          "bock",
+          "klipp",
+          "färglägg"
+        ],
+        "shape": [
+          "streck",
+          "grupp",
+          "hink",
+          "bock",
+          "klipp"
+        ],
+        "truth": [
+          "streck",
+          "grupp",
+          "hink",
+          "bock",
+          "klipp",
+          "färglägg"
+        ],
+        "draw": [
+          "streck",
+          "grupp",
+          "hink",
+          "bock",
+          "klipp",
+          "ringa"
+        ],
+        "report": [
+          "streck",
+          "grupp",
+          "hink",
+          "bock",
+          "klipp"
+        ]
+      },
+      "refuse": [],
+      "strings": {
+        "G1-399": {
+          "title": "Flyta eller sjunka? Gissa och testa i ett experiment",
+          "instruction": "Färglägg en ring i det första karet före testet, en ring i det andra karet efter testet och stjärnan om du blev förvånad."
+        },
+        "G1-408": {
+          "title": "Tungt eller lätt? Experiment med våg: flyta eller sjunka",
+          "instruction": "Vågen visar vilken sak som är tyngre: ringa in den sak som flyter i vatten."
+        },
+        "G2-382": {
+          "title": "Kan lera flyta? Experiment med formen",
+          "instruction": "Färglägg ringen där varje lerform hamnar i karet, ringa in den sak som flyter och rita sedan en egen lerbåt i det stora karet."
+        },
+        "G2-383": {
+          "title": "Varför flyter saker? Sant eller falskt om att flyta och sjunka",
+          "instruction": "Läs varje mening och ringa in sant eller falskt."
+        },
+        "K-384": {
+          "title": "Rita vad som flyter och sjunker i vattnet",
+          "instruction": "Rita två saker som flyter i de streckade rutorna på vattnet och två som sjunker i de streckade rutorna på botten."
+        },
+        "G3-400": {
+          "title": "Min experimentrapport: flyta eller sjunka",
+          "instruction": "Välj en fråga, skriv vad du tror, testa, rita sedan vad som hände och skriv vad du lärde dig."
+        }
+      },
+      "shapeHeads": {
+        "clay": "Samma lera, olika former",
+        "steel": "Samma stål, olika former: ringa in den som flyter"
+      }
+    }
+  },
+  "refusals": {
+    "G2-377": "Skrivstil (sammanbunden skrift) ingår inte i Lgr22 och det finns ingen svensk skolstilsfont; ett danskt eller norskt typsnitt märkt som svensk skrivstil skulle lära ut fel bokstavsformer.",
+    "G2-384": "Hela skrivstilsfamiljen avböjs på svenska: Lgr22 kräver ingen sammanbunden skrift och det finns ingen svensk skolfont för skrivstilsversaler.",
+    "G2-385": "Hela skrivstilsfamiljen avböjs på svenska: bokstavsbindningar i skrivstil lärs inte ut enligt Lgr22 och ingen svensk skolfont finns.",
+    "G2-386": "Hela skrivstilsfamiljen avböjs på svenska: ord i skrivstil lärs inte ut enligt Lgr22 och ingen svensk skolfont finns.",
+    "G2-387": "Hela skrivstilsfamiljen avböjs på svenska: att läsa skrivstil ingår inte i Lgr22 och en utländsk skrivstil skulle visa fel bokstavsformer.",
+    "G3-401": "Hela skrivstilsfamiljen avböjs på svenska: att skriva av meningar i skrivstil ingår inte i Lgr22 och ingen svensk skolfont finns."
+  },
+  "strandNames": {
+    "Health": "Hälsa"
+  },
+  "enAudit": [
+    "habitats: the EN instructions for G1-398 ('Look at the habitats. Under each animal, ...'), G1-406 and G2-380 are TWO sentences and G2-381 is THREE; the brief requires one child-level sentence per instruction (sv rewrote each as one).",
+    "habitats: EN homeWord.hive = 'hive' names the beekeeper's box, but animal-home.js draws honeycomb inside a HOLLOW TREE (a wild bee nest); sv uses 'bibo', not 'bikupa'.",
+    "habitats: the heron picture (birds 2/heron: white body, black wings, red legs and bill) reads as a STORK to a Nordic child; sv names carries 'stork' for the leak check, and the EN kidName should note it.",
+    "habitats: the frog's lives = [pond, rainforest]; in Sweden the common frog spends the summer in meadows and forests, so on the Nordic fixed set (forest, meadow, pond, ocean) a well-read child can defend ÄNG or SKOG — a potential second answer the pond-only claim does not cover (flag for the lead; sv did not change the table).",
+    "habitats: the pond tile is drawn as a small reed pond but the Nordic set prints 'Sjö' (lake) per the design; correct for the fixed set, but the EN plaque 'Pond' and the Nordic 'lake' now describe the same drawing differently.",
+    "habitats: EN G1-406 title 'Who Does Not Live Here?' carries no habitat or animal word, so it names neither the genre nor what changes; sv leads with 'Livsmiljöer:'.",
+    "healthy-habits: EN wash-hands reason 'It takes away the germs we picked up.' can be read as brushing (germs in the mouth) by a G2 child; sv anchors it to the fingers ('som vi har fått på fingrarna').",
+    "story-sequencing: EN F2 instruction 'circle the picture in the box that comes next' — 'box' is both the choice tray and the empty '?' frame on the cord; sv says 'i rutan' for the tray only.",
+    "story-sequencing: EN F2 title 'What Happens Next?' and F1 word 'Next' collide in Swedish ('sedan' = next AND then); sv F2 title keeps 'vad händer sedan?' (the measured query) while the instruction uses 'härnäst' so the child is not told to pick the THEN picture.",
+    "sink-or-float: EN F5 head 'I learned' and its starter 'I learned that' print the same words twice in one box (head + ruled starter); sv keeps the parallel but the lead may want a different head (e.g. 'What I found out').",
+    "sink-or-float: EN F2 title 'Make Clay Float' is fine, but a direct translation ('Lera som flyter', clay that floats) states a false general claim in Swedish because the clay BALL sinks; sv asks it as a question ('Kan lera flyta?')."
+  ]
+}

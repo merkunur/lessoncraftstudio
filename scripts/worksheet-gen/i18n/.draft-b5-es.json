@@ -1,0 +1,3476 @@
+{
+  "locale": "es",
+  "types": {
+    "K-368": {
+      "title": "Figuras geométricas planas y sus nombres",
+      "instruction": "Mira cada figura, aunque esté girada o sea muy delgada, y rodea su nombre."
+    },
+    "G1-381": {
+      "title": "Figuras planas: ¿es o no es?",
+      "instruction": "Lee el nombre de cada fila y rodea todas las figuras que de verdad son esa figura."
+    },
+    "K-371": {
+      "title": "Figuras planas en los objetos de todos los días",
+      "instruction": "Mira cada dibujo y colorea la figura que tiene: el círculo o el rectángulo."
+    },
+    "G1-382": {
+      "title": "Figuras planas: escribe sus nombres",
+      "instruction": "Mira cada figura y escribe su nombre en la línea con los nombres del recuadro."
+    },
+    "G1-383": {
+      "title": "Adivinanzas de figuras geométricas",
+      "instruction": "Lee cada adivinanza y rodea el nombre de la figura."
+    },
+    "K-372": {
+      "title": "Dibuja figuras planas uniendo puntos",
+      "instruction": "Lee el nombre de la figura y une los puntos para dibujarla, empezando por la línea gruesa si la hay."
+    },
+    "K-369": {
+      "title": "Educación vial: el semáforo, ¿qué hago?",
+      "instruction": "Mira la luz encendida de cada semáforo y rodea lo que debes hacer."
+    },
+    "K-373": {
+      "title": "Educación vial: colorea el semáforo",
+      "instruction": "Busca la luz con rayitos en cada semáforo y coloréala del color con el que brilla."
+    },
+    "K-374": {
+      "title": "Cómo cruzar la calle: los pasos en orden",
+      "instruction": "Escribe del 1 al 4 en los cuadros para mostrar cómo se cruza la calle."
+    },
+    "G1-384": {
+      "title": "Señales de tránsito y su significado para primer grado",
+      "instruction": "Une con una línea cada señal con lo que significa."
+    },
+    "G2-360": {
+      "title": "Señales de tránsito preventivas y restrictivas para niños",
+      "instruction": "Escribe la letra de cada señal en los cuadros de su grupo."
+    },
+    "G2-361": {
+      "title": "Educación vial: ¿qué señal de tránsito es?",
+      "instruction": "Lee cada oración y rodea la única señal que le corresponde."
+    },
+    "K-370": {
+      "title": "Miembros de la familia: ¿quién es quién?",
+      "instruction": "Busca a cada persona en el árbol y escribe su número en el cuadro junto a la palabra de la familia."
+    },
+    "G1-385": {
+      "title": "Generaciones de la familia: de la mayor a la menor",
+      "instruction": "En cada fila, escribe 1, 2 y 3 en los cuadros para ordenar las palabras de la generación mayor a la menor."
+    },
+    "K-375": {
+      "title": "Palabras de la familia: repasa y escribe",
+      "instruction": "Busca en el árbol a la persona con el mismo número, repasa su palabra y escríbela otra vez en la línea."
+    },
+    "G1-386": {
+      "title": "Árbol genealógico: lee las pistas",
+      "instruction": "Lee las pistas y escribe cada nombre en el cuadro correcto del árbol genealógico."
+    },
+    "G2-362": {
+      "title": "Adivinanzas del parentesco en la familia",
+      "instruction": "Lee cada adivinanza y escribe en la línea la palabra correcta del recuadro; una palabra puede servir para más de una adivinanza."
+    },
+    "G1-387": {
+      "title": "Árbol genealógico para rellenar",
+      "instruction": "Dibuja en los marcos a las personas importantes para ti y escribe sus nombres en las líneas."
+    },
+    "G1-376": {
+      "title": "Partes de la planta para completar",
+      "instruction": "Sigue cada etiqueta con número hasta una parte de la planta y escribe su nombre, del banco de palabras, en la línea con el mismo número."
+    },
+    "K-376": {
+      "title": "¿Qué necesitan las plantas para crecer?",
+      "instruction": "En cada fila, rodea la planta que recibe las dos cosas que necesita para crecer."
+    },
+    "G1-388": {
+      "title": "Ciclo de vida de las plantas: de la semilla a la planta",
+      "instruction": "Recorta los cuatro dibujos y pega cada uno en el siguiente cuadro vacío, siguiendo las flechas desde la semilla."
+    },
+    "G2-363": {
+      "title": "Partes de la planta que comemos",
+      "instruction": "Mira cada alimento y rodea la parte de la planta que nos comemos."
+    },
+    "G2-364": {
+      "title": "Partes de la planta y sus funciones",
+      "instruction": "Lee lo que hace cada parte, búscala en la planta y escribe en el cuadro el número de su etiqueta."
+    },
+    "G3-392": {
+      "title": "Partes de la flor",
+      "instruction": "Escribe en su línea el nombre de cada parte numerada de la flor y tacha la palabra del banco que no nombra ninguna parte del dibujo."
+    },
+    "G1-377": {
+      "title": "Ciclo de vida de la mariposa",
+      "instruction": "El huevo es el 1: escribe 2, 3 y 4 en los cuadros según crece, y en el último cuadro el número del dibujo que sigue después de la mariposa."
+    },
+    "G1-389": {
+      "title": "Ciclo de vida de la rana para recortar y pegar",
+      "instruction": "Recorta los cuatro cuadros y pega cada uno en su nenúfar, dando la vuelta al estanque desde los huevos hasta la rana."
+    },
+    "G2-365": {
+      "title": "Ciclo de vida de la mariposa: escribe las etapas",
+      "instruction": "Escribe los cuatro nombres de las etapas del banco en las líneas bajo sus dibujos y tacha el nombre que no corresponde."
+    },
+    "G2-366": {
+      "title": "Metamorfosis: ¿en qué animal se convertirá?",
+      "instruction": "Mira cada etapa y escribe su letra en un cuadro bajo el animal en el que se convertirá; algunos cuadros se quedan vacíos."
+    },
+    "G3-393": {
+      "title": "Compara el ciclo de vida de la mariposa y de la rana",
+      "instruction": "Lee cada oración y marca la mariposa, la rana o las dos cuando la oración sea cierta para ese animal."
+    },
+    "G1-390": {
+      "title": "¿Qué sigue? Mariposa, rana y catarina",
+      "instruction": "Mira el primer dibujo de cada fila y rodea el que sigue justo después; después del adulto, el ciclo vuelve a empezar."
+    },
+    "G1-378": {
+      "title": "El Sol, la Tierra y la Luna",
+      "instruction": "Lee cada oración y marca una sola casilla: ¿habla del Sol, de la Tierra o de la Luna?"
+    },
+    "G1-391": {
+      "title": "Fases de la luna en orden",
+      "instruction": "La cuña de cada fila muestra si la Luna crece o se achica: escribe del 1 al 5 bajo las lunas en ese orden."
+    },
+    "G2-367": {
+      "title": "Fases de la luna con sus nombres",
+      "instruction": "Mira cada luna y escribe su nombre en las líneas, usando dos veces cada palabra del banco."
+    },
+    "G2-368": {
+      "title": "¿Por qué hay día y noche?",
+      "instruction": "Mira dónde está el Sol y, en cada marca con número, rodea en la tabla si es de día o de noche."
+    },
+    "G3-394": {
+      "title": "El sistema solar: los planetas en orden",
+      "instruction": "Escribe el nombre de cada planeta en su línea, empezando junto al Sol y usando una vez cada nombre del banco."
+    },
+    "G3-395": {
+      "title": "Planetas gigantes y planetas rocosos",
+      "instruction": "Clasifica los nombres y escribe cada uno en su cuadro: planeta gigante, planeta pequeño y rocoso o no es planeta."
+    },
+    "G1-379": {
+      "title": "Lee la simbología del mapa",
+      "instruction": "Mira la simbología, busca cada cosa en el mapa y escribe en el cuadro cuántas hay."
+    },
+    "K-377": {
+      "title": "Vista de lado y vista desde arriba",
+      "instruction": "Cada cosa está dibujada de lado: únela con una línea con la misma cosa vista desde arriba."
+    },
+    "G2-369": {
+      "title": "Puntos cardinales: completa la rosa de los vientos",
+      "instruction": "La punta anaranjada siempre señala el norte: escribe en cada rosa de los vientos las tres letras que faltan en los cuadros vacíos."
+    },
+    "G2-370": {
+      "title": "Los continentes: escribe sus nombres",
+      "instruction": "Escribe en su línea el nombre de cada continente con número, usando los nombres del recuadro."
+    },
+    "G3-396": {
+      "title": "Continentes y océanos del mundo",
+      "instruction": "Busca en el mapa cada continente y cada océano y escribe su número en el cuadro junto a su nombre."
+    },
+    "G2-371": {
+      "title": "Puntos cardinales en el mapa",
+      "instruction": "Busca el primer dibujo en el mapa, mira hacia donde dice la palabra y rodea, de los tres dibujos, el que está en esa dirección."
+    },
+    "G2-358": {
+      "title": "Sinónimos: rodea la palabra que significa lo mismo",
+      "instruction": "Lee la palabra grande de cada tarjeta y rodea la palabra de abajo que significa lo mismo."
+    },
+    "G1-395": {
+      "title": "Sinónimos con imágenes: dos palabras para un dibujo",
+      "instruction": "Mira cada dibujo y rodea las dos palabras de abajo que significan lo mismo y describen el dibujo."
+    },
+    "G2-373": {
+      "title": "Sinónimos: une las parejas de palabras",
+      "instruction": "Une con una línea cada palabra de la izquierda con la palabra de la derecha que significa lo mismo."
+    },
+    "G1-396": {
+      "title": "Intensidad de las palabras: de poco a mucho",
+      "instruction": "Lee las tres palabras de cada fila y escribe 1, 2 y 3 en los cuadros, de la más suave a la más fuerte."
+    },
+    "G2-374": {
+      "title": "Sinónimos de dice: elige la palabra que va mejor",
+      "instruction": "Lee cada oración y escribe en el cuadro la palabra de la burbuja que va mejor en lugar de dice."
+    },
+    "G3-397": {
+      "title": "Campos semánticos: palabras para ir y para mirar",
+      "instruction": "Lee las diez palabras y escribe cada una en el campo de la palabra a la que más se parece en significado."
+    },
+    "G2-359": {
+      "title": "Palabras primitivas y derivadas: acomoda cada palabra",
+      "instruction": "Lee cada palabra de arriba y escríbela en una línea del muro que está sobre su palabra primitiva."
+    },
+    "G1-397": {
+      "title": "Palabras derivadas con dibujos: rodea la palabra",
+      "instruction": "Di el nombre de cada dibujo y rodea la única palabra de arriba que se forma con esa palabra."
+    },
+    "G2-375": {
+      "title": "Encuentra la palabra primitiva",
+      "instruction": "Rodea la parte que tienen en común las tres palabras y escribe la palabra primitiva en la piedra vacía."
+    },
+    "G2-376": {
+      "title": "Prefijos re-, pre- y sobre-: elige por el significado",
+      "instruction": "Lee lo que significa cada palabra nueva, busca su prefijo en la clave y escríbelo en la pieza vacía."
+    },
+    "G3-399": {
+      "title": "Palabras derivadas en oraciones",
+      "instruction": "En cada recuadro, escribe cada palabra de la fila de arriba en el hueco de la oración donde va."
+    }
+  },
+  "families": {
+    "2d-shapes": {
+      "slug": "figuras-geometricas-planas",
+      "name": "Figuras geométricas planas"
+    },
+    "road-safety": {
+      "slug": "educacion-vial",
+      "name": "Educación vial"
+    },
+    "family": {
+      "slug": "miembros-de-la-familia",
+      "name": "Miembros de la familia"
+    },
+    "plants": {
+      "slug": "partes-de-la-planta",
+      "name": "Partes de la planta"
+    },
+    "animal-life-cycles": {
+      "slug": "ciclo-de-vida-de-los-animales",
+      "name": "Ciclo de vida de los animales"
+    },
+    "earth-and-space": {
+      "slug": "sistema-solar-y-fases-de-la-luna",
+      "name": "Sistema solar y fases de la luna"
+    },
+    "maps": {
+      "slug": "mapas-y-puntos-cardinales",
+      "name": "Mapas y puntos cardinales"
+    },
+    "digraphs": {
+      "slug": "digrafos",
+      "name": "Dígrafos"
+    },
+    "synonyms": {
+      "slug": "sinonimos",
+      "name": "Sinónimos"
+    },
+    "word-parts": {
+      "slug": "palabras-primitivas-y-derivadas",
+      "name": "Palabras primitivas y derivadas"
+    }
+  },
+  "skills": {
+    "2d-shapes": {
+      "full": "Figuras geométricas planas para preescolar y primer grado: nombrar el círculo, el cuadrado, el triángulo y el rectángulo, adivinanzas, figuras en objetos y dibujar con puntos.",
+      "short": "Nombrar y reconocer figuras geométricas planas"
+    },
+    "road-safety": {
+      "full": "Educación vial para preescolar y primaria: el semáforo, cómo cruzar la calle, señales de tránsito preventivas y restrictivas de México y su significado.",
+      "short": "El semáforo y las señales de tránsito para niños"
+    },
+    "family": {
+      "full": "Los miembros de la familia para preescolar y primaria: quién es quién, las generaciones, palabras para repasar, pistas y adivinanzas del árbol genealógico.",
+      "short": "Miembros de la familia y árbol genealógico"
+    },
+    "plants": {
+      "full": "Partes de la planta para primer grado: raíz, tallo, hoja, flor, fruto y semilla, sus funciones, lo que necesitan para crecer y su ciclo de vida.",
+      "short": "Partes de la planta y sus funciones"
+    },
+    "animal-life-cycles": {
+      "full": "Ciclo de vida de la mariposa y de la rana para primaria: ordenar las etapas, escribir sus nombres, metamorfosis y comparar los dos ciclos.",
+      "short": "Ciclo de vida de la mariposa y de la rana"
+    },
+    "earth-and-space": {
+      "full": "El Sol, la Tierra y la Luna para primaria: fases de la luna, por qué hay día y noche, y los planetas del sistema solar en orden y por tamaño.",
+      "short": "Fases de la luna y planetas del sistema solar"
+    },
+    "maps": {
+      "full": "Mapas para primaria: leer la simbología, vista desde arriba, puntos cardinales norte, sur, este y oeste, continentes y océanos del mundo.",
+      "short": "Simbología, puntos cardinales y continentes"
+    },
+    "digraphs": {
+      "full": "Dígrafos: dos letras que suenan como un solo sonido. En español ll, rr, qu y gu se trabajan en reglas de ortografía.",
+      "short": "Dígrafos: dos letras, un sonido"
+    },
+    "synonyms": {
+      "full": "Sinónimos para primer y segundo grado: rodear la palabra que significa lo mismo, parejas de sinónimos, sinónimos con imágenes y de dice, y campos semánticos.",
+      "short": "Sinónimos para primaria"
+    },
+    "word-parts": {
+      "full": "Palabras primitivas y derivadas para segundo grado: ordenar por la palabra primitiva, encontrarla en tres palabras, prefijos re-, pre- y sobre- y oraciones.",
+      "short": "Palabras primitivas, derivadas y prefijos"
+    }
+  },
+  "topicMeta": {
+    "2d-shapes": "Figuras geométricas planas para imprimir: círculo, cuadrado, triángulo, rectángulo y hexágono con sus nombres, adivinanzas y figuras en objetos. Preescolar y primer grado.",
+    "road-safety": "Educación vial para imprimir: el semáforo, los pasos para cruzar la calle y las señales de tránsito preventivas y restrictivas con su significado. Preescolar a segundo grado.",
+    "family": "Miembros de la familia para imprimir: quién es quién en el árbol genealógico, generaciones, pistas, adivinanzas y un árbol genealógico para rellenar. Preescolar a segundo grado.",
+    "plants": "Partes de la planta para imprimir: raíz, tallo, hoja, flor, fruto y semilla, sus funciones, las partes que comemos, las partes de la flor y el ciclo de vida de las plantas.",
+    "animal-life-cycles": "Ciclo de vida de la mariposa y de la rana para imprimir: etapas en orden, recortar y pegar, nombres de las etapas, metamorfosis y comparación. Primer a tercer grado.",
+    "earth-and-space": "El Sol, la Tierra y la Luna para imprimir: fases de la luna en orden y con sus nombres, el día y la noche, y los planetas del sistema solar. Primer a tercer grado.",
+    "maps": "Mapas para imprimir: simbología, vista desde arriba, rosa de los vientos con los puntos cardinales, continentes y océanos y direcciones en un mapa. Primaria.",
+    "digraphs": "Dígrafos para imprimir: dos letras que forman un solo sonido. En español los dígrafos se practican en las fichas de reglas de ortografía.",
+    "synonyms": "Sinónimos para imprimir: rodea la palabra que significa lo mismo, une parejas de sinónimos, sinónimos con imágenes, sinónimos de dice y campos semánticos. Primaria.",
+    "word-parts": "Palabras primitivas y derivadas para imprimir: ordena cada palabra por su palabra primitiva, encuéntrala, usa los prefijos re-, pre- y sobre- y completa oraciones. Segundo grado."
+  },
+  "banks": {
+    "2d-shapes": {
+      "names": {
+        "circle": "círculo",
+        "square": "cuadrado",
+        "triangle": "triángulo",
+        "rectangle": "rectángulo",
+        "hexagon": "hexágono"
+      },
+      "overrides": {},
+      "inflections": {
+        "circle": [
+          "círculos"
+        ],
+        "square": [
+          "cuadrados"
+        ],
+        "triangle": [
+          "triángulos"
+        ],
+        "rectangle": [
+          "rectángulos"
+        ],
+        "hexagon": [
+          "hexágonos"
+        ]
+      },
+      "inventory": {
+        "hexagon": true
+      },
+      "riddles": {
+        "circle": [
+          {
+            "text": "Soy redondo y no tengo ni una esquina. ¿Quién soy?",
+            "clue": "round"
+          },
+          {
+            "text": "Mi borde es una sola línea curva. ¿Quién soy?",
+            "clue": "round"
+          }
+        ],
+        "square": [
+          {
+            "text": "Mis 4 lados miden lo mismo y mis 4 esquinas son rectas. ¿Quién soy?",
+            "clue": "equal"
+          },
+          {
+            "text": "Mis esquinas son rectas y mido lo mismo de ancho que de alto. ¿Quién soy?",
+            "clue": "equal"
+          }
+        ],
+        "triangle": [
+          {
+            "text": "Tengo 3 lados rectos. ¿Quién soy?",
+            "clue": "three"
+          },
+          {
+            "text": "Tengo solo 3 esquinas. ¿Quién soy?",
+            "clue": "three"
+          }
+        ],
+        "rectangle": [
+          {
+            "text": "Mis 4 esquinas son rectas; 2 lados son largos y 2 son cortos. ¿Quién soy?",
+            "clue": "longShort"
+          },
+          {
+            "text": "Mis esquinas son rectas y soy más largo que ancho. ¿Quién soy?",
+            "clue": "longShort"
+          }
+        ],
+        "hexagon": [
+          {
+            "text": "Tengo 6 lados rectos. ¿Quién soy?",
+            "clue": "six"
+          },
+          {
+            "text": "Tengo 6 esquinas, como una celdita del panal. ¿Quién soy?",
+            "clue": "six"
+          }
+        ]
+      },
+      "strings": {
+        "base": {
+          "title": "Figuras geométricas planas y sus nombres",
+          "instruction": "Mira cada figura, aunque esté girada o sea muy delgada, y rodea su nombre."
+        },
+        "real-or-not": {
+          "title": "Figuras planas: ¿es o no es?",
+          "instruction": "Lee el nombre de cada fila y rodea todas las figuras que de verdad son esa figura."
+        },
+        "around-us": {
+          "title": "Figuras planas en los objetos de todos los días",
+          "instruction": "Mira cada dibujo y colorea la figura que tiene: el círculo o el rectángulo."
+        },
+        "write-name": {
+          "title": "Figuras planas: escribe sus nombres",
+          "instruction": "Mira cada figura y escribe su nombre en la línea con los nombres del recuadro."
+        },
+        "riddles": {
+          "title": "Adivinanzas de figuras geométricas",
+          "instruction": "Lee cada adivinanza y rodea el nombre de la figura."
+        },
+        "dot-draw": {
+          "title": "Dibuja figuras planas uniendo puntos",
+          "instruction": "Lee el nombre de la figura y une los puntos para dibujarla, empezando por la línea gruesa si la hay."
+        }
+      }
+    },
+    "road-safety": {
+      "convention": "mx",
+      "signs": {
+        "stop": {
+          "code": "SR-6",
+          "regRef": "Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022, señales restrictivas: ALTO",
+          "shape": "octagon",
+          "rim": "white",
+          "field": "red",
+          "glyph": "text",
+          "text": "ALTO",
+          "slash": false,
+          "class": "restrictiva",
+          "signedBy": "es-MX panel 2026-09-23, compared by eye with the Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022 figure; codes marked (reg ?) in enAudit where the panel is not sure of the number"
+        },
+        "yield": {
+          "code": "SR-7",
+          "regRef": "Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022, señales restrictivas: CEDA EL PASO",
+          "shape": "triDown",
+          "rim": "red",
+          "field": "white",
+          "glyph": "none",
+          "text": "",
+          "slash": false,
+          "class": "restrictiva",
+          "signedBy": "es-MX panel 2026-09-23, compared by eye with the Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022 figure; codes marked (reg ?) in enAudit where the panel is not sure of the number"
+        },
+        "crossing": {
+          "code": "SP-32",
+          "regRef": "Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022, señales preventivas: cruce de peatones",
+          "shape": "diamond",
+          "rim": "ink",
+          "field": "yellow",
+          "glyph": "walker",
+          "text": "",
+          "slash": false,
+          "class": "preventiva",
+          "signedBy": "es-MX panel 2026-09-23, compared by eye with the Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022 figure; codes marked (reg ?) in enAudit where the panel is not sure of the number"
+        },
+        "school": {
+          "code": "SP-33",
+          "regRef": "Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022, señales preventivas: cruce de escolares",
+          "shape": "diamond",
+          "rim": "ink",
+          "field": "yellow",
+          "glyph": "twoChildren",
+          "text": "",
+          "slash": false,
+          "class": "preventiva",
+          "signedBy": "es-MX panel 2026-09-23, compared by eye with the Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022 figure; codes marked (reg ?) in enAudit where the panel is not sure of the number"
+        },
+        "signal-ahead": {
+          "code": "SP-31",
+          "regRef": "Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022, señales preventivas: semáforo",
+          "shape": "diamond",
+          "rim": "ink",
+          "field": "yellow",
+          "glyph": "trafficLightMini",
+          "text": "",
+          "slash": false,
+          "class": "preventiva",
+          "signedBy": "es-MX panel 2026-09-23, compared by eye with the Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022 figure; codes marked (reg ?) in enAudit where the panel is not sure of the number"
+        },
+        "bike-warning": {
+          "code": "SP (ciclistas)",
+          "regRef": "Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022, señales preventivas: cruce de ciclistas",
+          "shape": "diamond",
+          "rim": "ink",
+          "field": "yellow",
+          "glyph": "bicycle",
+          "text": "",
+          "slash": false,
+          "class": "preventiva",
+          "signedBy": "es-MX panel 2026-09-23, compared by eye with the Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022 figure; codes marked (reg ?) in enAudit where the panel is not sure of the number"
+        },
+        "no-bikes": {
+          "code": "SR (prohibido bicicletas)",
+          "regRef": "Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022, señales restrictivas: prohibida la circulación de bicicletas",
+          "shape": "plateCircle",
+          "rim": "red",
+          "field": "white",
+          "glyph": "bicycle",
+          "text": "",
+          "slash": true,
+          "class": "restrictiva",
+          "signedBy": "es-MX panel 2026-09-23, compared by eye with the Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022 figure; codes marked (reg ?) in enAudit where the panel is not sure of the number"
+        },
+        "no-pedestrians": {
+          "code": "SR (prohibido peatones)",
+          "regRef": "Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022, señales restrictivas: prohibido el paso de peatones",
+          "shape": "plateCircle",
+          "rim": "red",
+          "field": "white",
+          "glyph": "walker",
+          "text": "",
+          "slash": true,
+          "class": "restrictiva",
+          "signedBy": "es-MX panel 2026-09-23, compared by eye with the Manual de Señalización Vial y Dispositivos de Seguridad (SCT, 2014) + NOM-034-SCT2/SEDATU-2022 figure; codes marked (reg ?) in enAudit where the panel is not sure of the number"
+        }
+      },
+      "setG1": [
+        "stop",
+        "yield",
+        "crossing",
+        "school",
+        "signal-ahead",
+        "no-bikes"
+      ],
+      "kindsPool": [
+        "crossing",
+        "school",
+        "signal-ahead",
+        "bike-warning",
+        "stop",
+        "yield",
+        "no-bikes",
+        "no-pedestrians"
+      ],
+      "classes": [
+        {
+          "key": "preventiva",
+          "label": "Señales preventivas"
+        },
+        {
+          "key": "restrictiva",
+          "label": "Señales restrictivas"
+        }
+      ],
+      "pedLight": {
+        "stop": "standing",
+        "go": "walking",
+        "lamps": 2
+      },
+      "amber": {
+        "token": "codeYellow",
+        "word": "amarillo"
+      },
+      "amberMeans": "slow",
+      "chipWords": {
+        "ped": {
+          "stop": "espera",
+          "go": "cruza"
+        },
+        "car": {
+          "stop": "alto",
+          "go": "avanza"
+        }
+      },
+      "meanings": {
+        "stop": "Todos los carros deben detenerse por completo aquí.",
+        "yield": "Frena y deja pasar primero a los demás.",
+        "crossing": "Aquí hay un paso peatonal para cruzar la calle.",
+        "school": "Cerca hay una escuela y cruzan niños.",
+        "signal-ahead": "Más adelante hay un semáforo.",
+        "no-bikes": "Aquí no pueden circular las bicicletas."
+      },
+      "situations": {
+        "stop": [
+          "Todos los carros tienen que frenar por completo en esta esquina.",
+          "Los conductores se detienen del todo y miran a los dos lados."
+        ],
+        "yield": [
+          "Los carros bajan la velocidad y dejan pasar primero a los carros de la otra calle.",
+          "Hay que esperar un hueco y dejar que pasen los demás."
+        ],
+        "crossing": [
+          "Aquí la gente cruza la calle a pie, así que los carros tienen cuidado.",
+          "En este lugar las personas atraviesan la calle caminando."
+        ],
+        "school": [
+          "Muchos niños llegan caminando a clases por esta calle en la mañana.",
+          "Los carros van despacio porque hay niños que van y vienen de clases."
+        ],
+        "signal-ahead": [
+          "Un poco más adelante en esta calle hay un semáforo.",
+          "Prepárate: pronto habrá luces que se ponen en rojo."
+        ],
+        "bike-warning": [
+          "Cuidado con los niños que andan en bicicleta por esta calle.",
+          "Por esta calle circulan ciclistas, así que maneja con cuidado."
+        ],
+        "no-bikes": [
+          "En esta calle no se permite andar en bicicleta.",
+          "Aquí las bicicletas no pueden pasar; bájate y camina por otro lado."
+        ],
+        "no-pedestrians": [
+          "En este lugar la gente no puede cruzar la calle a pie.",
+          "Aquí los peatones no deben cruzar; usen el cruce de más adelante."
+        ]
+      },
+      "steps": [
+        "stop-kerb",
+        "look-left",
+        "look-right",
+        "walk-across"
+      ],
+      "listenStep": null,
+      "familyHead": "Educación vial",
+      "signHead": "Señales de tránsito",
+      "childAnchors": [
+        "para niños",
+        "preescolar",
+        "primer grado",
+        "segundo grado"
+      ],
+      "strings": {
+        "base": {
+          "title": "Educación vial: el semáforo, ¿qué hago?",
+          "instruction": "Mira la luz encendida de cada semáforo y rodea lo que debes hacer."
+        },
+        "colour-lights": {
+          "title": "Educación vial: colorea el semáforo",
+          "instruction": "Busca la luz con rayitos en cada semáforo y coloréala del color con el que brilla."
+        },
+        "crossing-steps": {
+          "title": "Cómo cruzar la calle: los pasos en orden",
+          "instruction": "Escribe del 1 al 4 en los cuadros para mostrar cómo se cruza la calle."
+        },
+        "sign-meaning": {
+          "title": "Señales de tránsito y su significado para primer grado",
+          "instruction": "Une con una línea cada señal con lo que significa."
+        },
+        "sign-kinds": {
+          "title": "Señales de tránsito preventivas y restrictivas para niños",
+          "instruction": "Escribe la letra de cada señal en los cuadros de su grupo."
+        },
+        "sign-quiz": {
+          "title": "Educación vial: ¿qué señal de tránsito es?",
+          "instruction": "Lee cada oración y rodea la única señal que le corresponde."
+        }
+      }
+    },
+    "family": {
+      "kin": {
+        "M": "mama",
+        "F": "papa",
+        "Z": "hermana",
+        "B": "hermano",
+        "Zy": "hermanita",
+        "By": "hermanito",
+        "MM": "abuela",
+        "FM": "abuela",
+        "MF": "abuelo",
+        "FF": "abuelo",
+        "MZ": "tia",
+        "FZ": "tia",
+        "MB": "tio",
+        "FB": "tio",
+        "MZD": "prima",
+        "MZS": "primo",
+        "MBD": "prima",
+        "MBS": "primo",
+        "FZD": "prima",
+        "FZS": "primo",
+        "FBD": "prima",
+        "FBS": "primo"
+      },
+      "words": {
+        "mama": {
+          "text": "mamá",
+          "register": "K"
+        },
+        "papa": {
+          "text": "papá",
+          "register": "K"
+        },
+        "hermana": {
+          "text": "hermana",
+          "register": "K"
+        },
+        "hermano": {
+          "text": "hermano",
+          "register": "K"
+        },
+        "hermanita": {
+          "text": "hermanita",
+          "register": "K"
+        },
+        "hermanito": {
+          "text": "hermanito",
+          "register": "K"
+        },
+        "abuela": {
+          "text": "abuela",
+          "register": "K"
+        },
+        "abuelo": {
+          "text": "abuelo",
+          "register": "K"
+        },
+        "tia": {
+          "text": "tía",
+          "register": "K"
+        },
+        "tio": {
+          "text": "tío",
+          "register": "K"
+        },
+        "prima": {
+          "text": "prima",
+          "register": "K"
+        },
+        "primo": {
+          "text": "primo",
+          "register": "K"
+        }
+      },
+      "names": [
+        {
+          "name": "Sofía",
+          "sex": "f",
+          "gen": null
+        },
+        {
+          "name": "Mateo",
+          "sex": "m",
+          "gen": null
+        },
+        {
+          "name": "Valeria",
+          "sex": "f",
+          "gen": null
+        },
+        {
+          "name": "Diego",
+          "sex": "m",
+          "gen": null
+        },
+        {
+          "name": "Ximena",
+          "sex": "f",
+          "gen": null
+        },
+        {
+          "name": "Iker",
+          "sex": "m",
+          "gen": null
+        },
+        {
+          "name": "Regina",
+          "sex": "f",
+          "gen": null
+        },
+        {
+          "name": "Pablo",
+          "sex": "m",
+          "gen": null
+        },
+        {
+          "name": "Camila",
+          "sex": "f",
+          "gen": null
+        },
+        {
+          "name": "Luis",
+          "sex": "m",
+          "gen": null
+        },
+        {
+          "name": "Renata",
+          "sex": "f",
+          "gen": null
+        },
+        {
+          "name": "Hugo",
+          "sex": "m",
+          "gen": null
+        }
+      ],
+      "clueFrames": {
+        "M": "{name} es la mamá de {egoName}.",
+        "F": "{name} es el papá de {egoName}.",
+        "Z": "{name} es la hermana mayor de {egoName}.",
+        "B": "{name} es el hermano mayor de {egoName}.",
+        "Zy": "{name} es la hermanita bebé de {egoName}.",
+        "By": "{name} es el hermanito bebé de {egoName}.",
+        "MM": "{name} es la abuela de {egoName}, la mamá de su mamá.",
+        "FM": "{name} es la abuela de {egoName}, la mamá de su papá.",
+        "MF": "{name} es el abuelo de {egoName}, el papá de su mamá.",
+        "FF": "{name} es el abuelo de {egoName}, el papá de su papá.",
+        "MZ": "{name} es la tía de {egoName}, la hermana de su mamá.",
+        "FZ": "{name} es la tía de {egoName}, la hermana de su papá.",
+        "MB": "{name} es el tío de {egoName}, el hermano de su mamá.",
+        "FB": "{name} es el tío de {egoName}, el hermano de su papá.",
+        "MZD": "{name} es prima de {egoName}: es hija de la hermana de su mamá.",
+        "MZS": "{name} es primo de {egoName}: es hijo de la hermana de su mamá.",
+        "MBD": "{name} es prima de {egoName}: es hija del hermano de su mamá.",
+        "MBS": "{name} es primo de {egoName}: es hijo del hermano de su mamá.",
+        "FZD": "{name} es prima de {egoName}: es hija de la hermana de su papá.",
+        "FZS": "{name} es primo de {egoName}: es hijo de la hermana de su papá.",
+        "FBD": "{name} es prima de {egoName}: es hija del hermano de su papá.",
+        "FBS": "{name} es primo de {egoName}: es hijo del hermano de su papá."
+      },
+      "riddleFrames": {
+        "MM": "{egoName} le dice ___ a la mamá de su mamá.",
+        "FM": "{egoName} le dice ___ a la mamá de su papá.",
+        "MF": "{egoName} le dice ___ al papá de su mamá.",
+        "FF": "{egoName} le dice ___ al papá de su papá.",
+        "MZ": "{egoName} le dice ___ a la hermana de su mamá.",
+        "FZ": "{egoName} le dice ___ a la hermana de su papá.",
+        "MB": "{egoName} le dice ___ al hermano de su mamá.",
+        "FB": "{egoName} le dice ___ al hermano de su papá."
+      },
+      "distractors": [
+        "mama",
+        "papa"
+      ],
+      "repeatsNote": true,
+      "repeatsNoteText": "una palabra puede servir para más de una adivinanza",
+      "generationOK": [
+        "abuela",
+        "abuelo",
+        "mama",
+        "papa",
+        "tia",
+        "tio",
+        "hermana",
+        "hermano",
+        "prima",
+        "primo",
+        "hermanita",
+        "hermanito"
+      ],
+      "agreeing": [
+        "el",
+        "la",
+        "los",
+        "las",
+        "un",
+        "una",
+        "su",
+        "sus",
+        "del",
+        "al"
+      ],
+      "firstPerson": [
+        "mi",
+        "mis",
+        "yo",
+        "me",
+        "nosotros",
+        "nuestra",
+        "nuestro"
+      ],
+      "meWord": "yo",
+      "forbiddenInTemplate": [
+        "mamá",
+        "papá",
+        "madre",
+        "padre",
+        "tu familia"
+      ],
+      "instructionBans": [
+        "recorta",
+        "colorea",
+        "palomea",
+        "marca",
+        "gratis"
+      ],
+      "familyHead": "Miembros de la familia",
+      "strings": {
+        "base": {
+          "title": "Miembros de la familia: ¿quién es quién?",
+          "instruction": "Busca a cada persona en el árbol y escribe su número en el cuadro junto a la palabra de la familia."
+        },
+        "generations": {
+          "title": "Generaciones de la familia: de la mayor a la menor",
+          "instruction": "En cada fila, escribe 1, 2 y 3 en los cuadros para ordenar las palabras de la generación mayor a la menor."
+        },
+        "trace-words": {
+          "title": "Palabras de la familia: repasa y escribe",
+          "instruction": "Busca en el árbol a la persona con el mismo número, repasa su palabra y escríbela otra vez en la línea."
+        },
+        "tree-clues": {
+          "title": "Árbol genealógico: lee las pistas",
+          "instruction": "Lee las pistas y escribe cada nombre en el cuadro correcto del árbol genealógico."
+        },
+        "relation-riddles": {
+          "title": "Adivinanzas del parentesco en la familia",
+          "instruction": "Lee cada adivinanza y escribe en la línea la palabra correcta del recuadro; una palabra puede servir para más de una adivinanza."
+        },
+        "tree-template": {
+          "title": "Árbol genealógico para rellenar",
+          "instruction": "Dibuja en los marcos a las personas importantes para ti y escribe sus nombres en las líneas."
+        }
+      }
+    },
+    "plants": {
+      "partWords": {
+        "root": "raíz",
+        "stem": "tallo",
+        "leaf": "hoja",
+        "flower": "flor",
+        "fruit": "fruto",
+        "seed": "semilla"
+      },
+      "flowerWords": {
+        "petal": "pétalo",
+        "sepal": "sépalo",
+        "stamen": "estambre",
+        "pistil": "pistilo",
+        "stalk": "tallo",
+        "ovary": "ovario"
+      },
+      "jobs": {
+        "root": "absorbe el agua de la tierra",
+        "stem": "sostiene la planta derecha",
+        "leaf": "fabrica el alimento de la planta con la luz del sol",
+        "flower": "atrae a las abejas",
+        "seed": "puede crecer y convertirse en una planta nueva"
+      },
+      "partStems": [
+        "raíz",
+        "raíces",
+        "tallo",
+        "tallos",
+        "hoja",
+        "hojas",
+        "flor",
+        "flores",
+        "fruto",
+        "frutos",
+        "semilla",
+        "semillas",
+        "pétalo",
+        "pétalos",
+        "fruta",
+        "frutas",
+        "florece"
+      ],
+      "forbidden": [
+        "fruta",
+        "verdura",
+        "tronco",
+        "botón",
+        "capullo"
+      ],
+      "refuseItems": [],
+      "refuse": [],
+      "instructionBans": {},
+      "strings": {
+        "base": {
+          "title": "Partes de la planta para completar",
+          "instruction": "Sigue cada etiqueta con número hasta una parte de la planta y escribe su nombre, del banco de palabras, en la línea con el mismo número."
+        },
+        "needs": {
+          "title": "¿Qué necesitan las plantas para crecer?",
+          "instruction": "En cada fila, rodea la planta que recibe las dos cosas que necesita para crecer."
+        },
+        "cycle": {
+          "title": "Ciclo de vida de las plantas: de la semilla a la planta",
+          "instruction": "Recorta los cuatro dibujos y pega cada uno en el siguiente cuadro vacío, siguiendo las flechas desde la semilla."
+        },
+        "eat": {
+          "title": "Partes de la planta que comemos",
+          "instruction": "Mira cada alimento y rodea la parte de la planta que nos comemos."
+        },
+        "jobs": {
+          "title": "Partes de la planta y sus funciones",
+          "instruction": "Lee lo que hace cada parte, búscala en la planta y escribe en el cuadro el número de su etiqueta."
+        },
+        "flower": {
+          "title": "Partes de la flor",
+          "instruction": "Escribe en su línea el nombre de cada parte numerada de la flor y tacha la palabra del banco que no nombra ninguna parte del dibujo."
+        }
+      }
+    },
+    "animal-life-cycles": {
+      "stageWords": {
+        "butterfly": {
+          "egg": "huevo",
+          "larva": "oruga",
+          "pupa": "crisálida",
+          "adult": "mariposa"
+        }
+      },
+      "decoy": {
+        "frog.tadpole": "renacuajo"
+      },
+      "landingWords": {
+        "frog": {
+          "spawn": "huevos de rana",
+          "tadpole": "renacuajo",
+          "legged": "renacuajo con patas",
+          "froglet": "ranita",
+          "adult": "rana"
+        },
+        "ladybird": {
+          "egg": "huevo",
+          "larva": "larva",
+          "pupa": "pupa",
+          "adult": "catarina"
+        }
+      },
+      "statements": {
+        "egg": "Nace de un huevo.",
+        "change": "Sus crías se ven muy distintas a los adultos.",
+        "pupa": "Pasa una etapa como crisálida.",
+        "wings": "De adulto tiene alas.",
+        "sixlegs": "De adulto tiene seis patas.",
+        "nectar": "De adulto toma el néctar de las flores.",
+        "tail": "De cría nada con una cola.",
+        "water": "De cría vive en el agua.",
+        "nolegs": "Al nacer no tiene patas.",
+        "fourlegs": "De adulto tiene cuatro patas.",
+        "insects": "De adulto atrapa insectos para comer."
+      },
+      "drop": [],
+      "familyName": "Ciclo de vida de los animales",
+      "spawnForm": "clump",
+      "forbidden": [
+        "capullo",
+        "capullos"
+      ],
+      "genreBare": [
+        "ciclo de vida",
+        "ciclos de vida"
+      ],
+      "pictureWord": "dibujo",
+      "instructionBans": {},
+      "bannedAnimals": [],
+      "refuse": [],
+      "strings": {
+        "G1-377": {
+          "title": "Ciclo de vida de la mariposa",
+          "instruction": "El huevo es el 1: escribe 2, 3 y 4 en los cuadros según crece, y en el último cuadro el número del dibujo que sigue después de la mariposa."
+        },
+        "G1-389": {
+          "title": "Ciclo de vida de la rana para recortar y pegar",
+          "instruction": "Recorta los cuatro cuadros y pega cada uno en su nenúfar, dando la vuelta al estanque desde los huevos hasta la rana."
+        },
+        "G2-365": {
+          "title": "Ciclo de vida de la mariposa: escribe las etapas",
+          "instruction": "Escribe los cuatro nombres de las etapas del banco en las líneas bajo sus dibujos y tacha el nombre que no corresponde."
+        },
+        "G2-366": {
+          "title": "Metamorfosis: ¿en qué animal se convertirá?",
+          "instruction": "Mira cada etapa y escribe su letra en un cuadro bajo el animal en el que se convertirá; algunos cuadros se quedan vacíos."
+        },
+        "G3-393": {
+          "title": "Compara el ciclo de vida de la mariposa y de la rana",
+          "instruction": "Lee cada oración y marca la mariposa, la rana o las dos cuando la oración sea cierta para ese animal."
+        },
+        "G1-390": {
+          "title": "¿Qué sigue? Mariposa, rana y catarina",
+          "instruction": "Mira el primer dibujo de cada fila y rodea el que sigue justo después; después del adulto, el ciclo vuelve a empezar."
+        }
+      }
+    },
+    "earth-and-space": {
+      "hemisphere": "N",
+      "bodies": {
+        "sun": "el Sol",
+        "earth": "la Tierra",
+        "moon": "la Luna"
+      },
+      "facts": {
+        "ownLight": "Produce su propia luz.",
+        "star": "Es una estrella.",
+        "hottest": "De los tres, tiene la temperatura más alta.",
+        "biggest": "De los tres, tiene el mayor tamaño.",
+        "liveOn": "Ahí viven las personas y los animales.",
+        "oceans": "Tiene grandes océanos de agua.",
+        "air": "Tiene aire que podemos respirar.",
+        "planet": "Es un planeta.",
+        "spinDay": "Su giro nos da el día y la noche.",
+        "orbitsEarth": "Es nuestro satélite natural.",
+        "seemsToChange": "Parece que cambia de forma.",
+        "craters": "Tiene muchísimos cráteres.",
+        "smallest": "De los tres, tiene el menor tamaño."
+      },
+      "leakForms": [
+        "él",
+        "ella",
+        "lo",
+        "el más",
+        "la más",
+        "redondo",
+        "redonda",
+        "caliente",
+        "grande",
+        "pequeño",
+        "pequeña",
+        "cubierto",
+        "cubierta",
+        "mismo",
+        "misma"
+      ],
+      "genderNeutral": true,
+      "forbiddenStems": [
+        "da luz",
+        "nos da luz",
+        "alumbra",
+        "brilla",
+        "de noche",
+        "en la noche",
+        "alrededor del Sol",
+        "sale",
+        "se oculta",
+        "se mete",
+        "en el cielo",
+        "caminaron",
+        "sin aire",
+        "refleja",
+        "se mueve por",
+        "verano",
+        "invierno",
+        "primavera",
+        "otoño",
+        "lluvia",
+        "nieve",
+        "nube",
+        "nubes",
+        "clima",
+        "día caluroso",
+        "día frío"
+      ],
+      "phaseNames": {
+        "0": "luna nueva",
+        "2": "cuarto creciente",
+        "4": "luna llena",
+        "6": "cuarto menguante"
+      },
+      "planets": {
+        "mercury": "Mercurio",
+        "venus": "Venus",
+        "earth": "Tierra",
+        "mars": "Marte",
+        "jupiter": "Júpiter",
+        "saturn": "Saturno",
+        "uranus": "Urano",
+        "neptune": "Neptuno"
+      },
+      "notPlanet": {
+        "sun": "Sol",
+        "moon": "Luna"
+      },
+      "classLabels": {
+        "giant": "planeta gigante",
+        "rocky": "planeta pequeño y rocoso",
+        "notPlanet": "no es planeta"
+      },
+      "mnemonic": "Mi Vieja Tía Marta Jamás Supo Usar Números",
+      "refuse": [],
+      "strings": {
+        "base": {
+          "title": "El Sol, la Tierra y la Luna",
+          "instruction": "Lee cada oración y marca una sola casilla: ¿habla del Sol, de la Tierra o de la Luna?"
+        },
+        "moon-phases-in-order": {
+          "title": "Fases de la luna en orden",
+          "instruction": "La cuña de cada fila muestra si la Luna crece o se achica: escribe del 1 al 5 bajo las lunas en ese orden."
+        },
+        "moon-phase-names": {
+          "title": "Fases de la luna con sus nombres",
+          "instruction": "Mira cada luna y escribe su nombre en las líneas, usando dos veces cada palabra del banco."
+        },
+        "day-and-night-model": {
+          "title": "¿Por qué hay día y noche?",
+          "instruction": "Mira dónde está el Sol y, en cada marca con número, rodea en la tabla si es de día o de noche."
+        },
+        "planets-in-order": {
+          "title": "El sistema solar: los planetas en orden",
+          "instruction": "Escribe el nombre de cada planeta en su línea, empezando junto al Sol y usando una vez cada nombre del banco."
+        },
+        "planet-sizes": {
+          "title": "Planetas gigantes y planetas rocosos",
+          "instruction": "Clasifica los nombres y escribe cada uno en su cuadro: planeta gigante, planeta pequeño y rocoso o no es planeta."
+        }
+      }
+    },
+    "maps": {
+      "keyTitle": "Simbología",
+      "symbolWords": {
+        "house": "casa",
+        "tree": "árbol",
+        "bush": "arbusto",
+        "pond": "estanque",
+        "bench": "banca",
+        "tent": "tienda de campaña",
+        "flowerBed": "jardinera",
+        "bridge": "puente"
+      },
+      "dirWords": {
+        "n": "norte",
+        "e": "este",
+        "s": "sur",
+        "w": "oeste"
+      },
+      "dirLetters": {
+        "n": "N",
+        "e": "E",
+        "s": "S",
+        "w": "O"
+      },
+      "continentSet": [
+        {
+          "id": "america",
+          "regions": [
+            "northAmerica",
+            "southAmerica"
+          ]
+        },
+        {
+          "id": "europe",
+          "regions": [
+            "europe"
+          ]
+        },
+        {
+          "id": "asia",
+          "regions": [
+            "asia"
+          ]
+        },
+        {
+          "id": "africa",
+          "regions": [
+            "africa"
+          ]
+        },
+        {
+          "id": "oceania",
+          "regions": [
+            "oceania"
+          ]
+        },
+        {
+          "id": "antarctica",
+          "regions": [
+            "antarctica"
+          ]
+        }
+      ],
+      "continentNames": {
+        "america": "América",
+        "europe": "Europa",
+        "asia": "Asia",
+        "africa": "África",
+        "oceania": "Oceanía",
+        "antarctica": "Antártida"
+      },
+      "oceanSet": [
+        "pacific",
+        "atlantic",
+        "indian",
+        "arctic",
+        "southern"
+      ],
+      "oceanNames": {
+        "pacific": "Océano Pacífico",
+        "atlantic": "Océano Atlántico",
+        "indian": "Océano Índico",
+        "arctic": "Océano Glacial Ártico",
+        "southern": "Océano Glacial Antártico"
+      },
+      "setSource": "SEP, libros de texto de Geografía de primaria (4.º grado) y Atlas de geografía del mundo: seis continentes (América como uno solo) y cinco océanos",
+      "mnemonic": "Nunca Estés Sin Orden",
+      "refuse": [],
+      "instructionBans": {},
+      "strings": {
+        "base": {
+          "title": "Lee la simbología del mapa",
+          "instruction": "Mira la simbología, busca cada cosa en el mapa y escribe en el cuadro cuántas hay."
+        },
+        "top-view": {
+          "title": "Vista de lado y vista desde arriba",
+          "instruction": "Cada cosa está dibujada de lado: únela con una línea con la misma cosa vista desde arriba."
+        },
+        "compass-rose": {
+          "title": "Puntos cardinales: completa la rosa de los vientos",
+          "instruction": "La punta anaranjada siempre señala el norte: escribe en cada rosa de los vientos las tres letras que faltan en los cuadros vacíos."
+        },
+        "continents": {
+          "title": "Los continentes: escribe sus nombres",
+          "instruction": "Escribe en su línea el nombre de cada continente con número, usando los nombres del recuadro."
+        },
+        "continents-oceans": {
+          "title": "Continentes y océanos del mundo",
+          "instruction": "Busca en el mapa cada continente y cada océano y escribe su número en el cuadro junto a su nombre."
+        },
+        "directions-on-map": {
+          "title": "Puntos cardinales en el mapa",
+          "instruction": "Busca el primer dibujo en el mapa, mira hacia donde dice la palabra y rodea, de los tres dibujos, el que está en esa dirección."
+        }
+      }
+    },
+    "synonyms": {
+      "head": "Sinónimos",
+      "allowed": [
+        " ",
+        "-"
+      ],
+      "ban": [
+        "listo",
+        "rico",
+        "lindo",
+        "coche",
+        "carro",
+        "tomar",
+        "coger",
+        "fuerte",
+        "bravo",
+        "apenado",
+        "padre",
+        "chido",
+        "gacho",
+        "tirar",
+        "pena",
+        "grande",
+        "bueno",
+        "malo"
+      ],
+      "regional": [
+        [
+          "lindo",
+          "bonito"
+        ],
+        [
+          "carro",
+          "coche"
+        ]
+      ],
+      "groups": [
+        {
+          "id": "g.happy",
+          "concept": "happy",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "feliz",
+            "contento",
+            "alegre"
+          ]
+        },
+        {
+          "id": "g.sad",
+          "concept": "sad",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "triste",
+            "afligido"
+          ]
+        },
+        {
+          "id": "g.angry",
+          "concept": "angry",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "enojado",
+            "disgustado"
+          ]
+        },
+        {
+          "id": "g.scared",
+          "concept": "scared",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "asustado",
+            "espantado"
+          ]
+        },
+        {
+          "id": "g.surprised",
+          "concept": "surprised",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 2,
+          "words": [
+            "sorprendido",
+            "asombrado"
+          ]
+        },
+        {
+          "id": "g.calm",
+          "concept": "calm",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 2,
+          "words": [
+            "tranquilo",
+            "calmado",
+            "sereno"
+          ]
+        },
+        {
+          "id": "g.tired",
+          "concept": "tired",
+          "pos": "adj",
+          "domain": "body",
+          "tier": 1,
+          "words": [
+            "cansado",
+            "fatigado"
+          ]
+        },
+        {
+          "id": "g.small",
+          "concept": "small",
+          "pos": "adj",
+          "domain": "size-speed",
+          "tier": 1,
+          "words": [
+            "pequeño",
+            "chico"
+          ]
+        },
+        {
+          "id": "g.fast",
+          "concept": "fast",
+          "pos": "adj",
+          "domain": "size-speed",
+          "tier": 1,
+          "words": [
+            "rápido",
+            "veloz"
+          ]
+        },
+        {
+          "id": "g.easy",
+          "concept": "easy",
+          "pos": "adj",
+          "domain": "thinking",
+          "tier": 1,
+          "words": [
+            "fácil",
+            "sencillo"
+          ]
+        },
+        {
+          "id": "g.difficult",
+          "concept": "difficult",
+          "pos": "adj",
+          "domain": "thinking",
+          "tier": 2,
+          "words": [
+            "difícil",
+            "complicado"
+          ]
+        },
+        {
+          "id": "g.brave",
+          "concept": "brave",
+          "pos": "adj",
+          "domain": "character",
+          "tier": 2,
+          "words": [
+            "valiente",
+            "valeroso"
+          ]
+        },
+        {
+          "id": "g.funny",
+          "concept": "funny",
+          "pos": "adj",
+          "domain": "character",
+          "tier": 2,
+          "words": [
+            "gracioso",
+            "chistoso"
+          ]
+        },
+        {
+          "id": "g.strange",
+          "concept": "strange",
+          "pos": "adj",
+          "domain": "character",
+          "tier": 2,
+          "words": [
+            "raro",
+            "extraño"
+          ]
+        },
+        {
+          "id": "g.loud",
+          "concept": "loud",
+          "pos": "adj",
+          "domain": "senses",
+          "tier": 1,
+          "words": [
+            "ruidoso",
+            "escandaloso"
+          ]
+        },
+        {
+          "id": "g.quiet",
+          "concept": "quiet",
+          "pos": "adj",
+          "domain": "senses",
+          "tier": 2,
+          "words": [
+            "callado",
+            "silencioso"
+          ]
+        },
+        {
+          "id": "g.tasty",
+          "concept": "tasty",
+          "pos": "adj",
+          "domain": "senses",
+          "tier": 1,
+          "words": [
+            "sabroso",
+            "delicioso"
+          ]
+        },
+        {
+          "id": "g.pretty",
+          "concept": "pretty",
+          "pos": "adj",
+          "domain": "looks",
+          "tier": 1,
+          "words": [
+            "bonito",
+            "hermoso"
+          ]
+        },
+        {
+          "id": "g.dirty",
+          "concept": "dirty",
+          "pos": "adj",
+          "domain": "looks",
+          "tier": 2,
+          "words": [
+            "sucio",
+            "mugroso"
+          ]
+        },
+        {
+          "id": "g.thin",
+          "concept": "thin",
+          "pos": "adj",
+          "domain": "looks",
+          "tier": 2,
+          "words": [
+            "delgado",
+            "flaco"
+          ]
+        },
+        {
+          "id": "g.clean",
+          "concept": "clean",
+          "pos": "adj",
+          "domain": "looks",
+          "tier": 1,
+          "words": [
+            "limpio",
+            "aseado"
+          ]
+        },
+        {
+          "id": "g.kind",
+          "concept": "kind",
+          "pos": "adj",
+          "domain": "character",
+          "tier": 1,
+          "words": [
+            "amable",
+            "gentil"
+          ]
+        },
+        {
+          "id": "g.begin",
+          "concept": "begin",
+          "pos": "verb",
+          "domain": "begin-end",
+          "tier": 1,
+          "words": [
+            "empezar",
+            "comenzar",
+            "iniciar"
+          ]
+        },
+        {
+          "id": "g.end",
+          "concept": "end",
+          "pos": "verb",
+          "domain": "begin-end",
+          "tier": 1,
+          "words": [
+            "terminar",
+            "acabar",
+            "finalizar"
+          ]
+        },
+        {
+          "id": "g.fix",
+          "concept": "fix",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 1,
+          "words": [
+            "arreglar",
+            "reparar"
+          ]
+        },
+        {
+          "id": "g.choose",
+          "concept": "choose",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 2,
+          "words": [
+            "elegir",
+            "escoger",
+            "seleccionar"
+          ]
+        },
+        {
+          "id": "g.collect",
+          "concept": "collect",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 2,
+          "words": [
+            "juntar",
+            "reunir",
+            "recolectar"
+          ]
+        },
+        {
+          "id": "g.hide",
+          "concept": "hide",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 2,
+          "words": [
+            "esconder",
+            "ocultar"
+          ]
+        },
+        {
+          "id": "g.break",
+          "concept": "break",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 1,
+          "words": [
+            "romper",
+            "quebrar"
+          ]
+        },
+        {
+          "id": "g.jump",
+          "concept": "jump",
+          "pos": "verb",
+          "domain": "move",
+          "tier": 1,
+          "words": [
+            "saltar",
+            "brincar"
+          ]
+        },
+        {
+          "id": "g.throw",
+          "concept": "throw",
+          "pos": "verb",
+          "domain": "move",
+          "tier": 1,
+          "words": [
+            "lanzar",
+            "aventar"
+          ]
+        },
+        {
+          "id": "g.stay",
+          "concept": "stay",
+          "pos": "verb",
+          "domain": "move",
+          "tier": 2,
+          "words": [
+            "quedarse",
+            "permanecer"
+          ]
+        },
+        {
+          "id": "g.return",
+          "concept": "return",
+          "pos": "verb",
+          "domain": "move",
+          "tier": 1,
+          "words": [
+            "regresar",
+            "volver"
+          ]
+        },
+        {
+          "id": "g.talk",
+          "concept": "talk",
+          "pos": "verb",
+          "domain": "speak",
+          "tier": 1,
+          "words": [
+            "hablar",
+            "platicar",
+            "conversar"
+          ]
+        }
+      ],
+      "near": [
+        {
+          "a": "enojado",
+          "b": "molesto",
+          "why": "shade: molesto es menos que enojado"
+        },
+        {
+          "a": "enojado",
+          "b": "furioso",
+          "why": "shade: furioso es mucho más que enojado"
+        },
+        {
+          "a": "frío",
+          "b": "helado",
+          "why": "shade"
+        },
+        {
+          "a": "caliente",
+          "b": "hirviendo",
+          "why": "shade"
+        },
+        {
+          "a": "mojado",
+          "b": "empapado",
+          "why": "shade"
+        },
+        {
+          "a": "tranquilo",
+          "b": "callado",
+          "why": "callado es no hacer ruido; tranquilo es un sentimiento"
+        },
+        {
+          "a": "hablar",
+          "b": "gritar",
+          "why": "gritar es hablar muy fuerte"
+        },
+        {
+          "a": "hablar",
+          "b": "susurrar",
+          "why": "susurrar es hablar muy bajito"
+        },
+        {
+          "a": "probar",
+          "b": "comer",
+          "why": "probar es comer solo un poquito"
+        },
+        {
+          "a": "chistoso",
+          "b": "alegre",
+          "why": "chistoso da risa; alegre es como te sientes"
+        },
+        {
+          "a": "delgado",
+          "b": "pequeño",
+          "why": "delgado es de poco ancho; pequeño es de poco tamaño"
+        },
+        {
+          "a": "raro",
+          "b": "gracioso",
+          "why": "algo raro puede dar risa, pero no es lo mismo"
+        },
+        {
+          "a": "sorprendido",
+          "b": "asustado",
+          "why": "una sorpresa no siempre da miedo"
+        },
+        {
+          "a": "sonreír",
+          "b": "reír",
+          "why": "sonreír es sin sonido; reír es con sonido"
+        },
+        {
+          "a": "limpio",
+          "b": "bonito",
+          "why": "algo limpio no siempre es bonito"
+        }
+      ],
+      "falseOf": {
+        "happy": [
+          "triste",
+          "afligido",
+          "enojado",
+          "disgustado",
+          "asustado",
+          "espantado",
+          "sorprendido",
+          "asombrado",
+          "cansado",
+          "fatigado",
+          "rápido",
+          "veloz",
+          "pequeño",
+          "chico"
+        ],
+        "sad": [
+          "feliz",
+          "contento",
+          "alegre",
+          "enojado",
+          "disgustado",
+          "sorprendido",
+          "asombrado",
+          "rápido",
+          "veloz",
+          "pequeño",
+          "chico"
+        ],
+        "angry": [
+          "feliz",
+          "contento",
+          "alegre",
+          "triste",
+          "afligido",
+          "asustado",
+          "espantado",
+          "sorprendido",
+          "asombrado",
+          "cansado",
+          "fatigado",
+          "rápido",
+          "veloz",
+          "pequeño",
+          "chico"
+        ],
+        "scared": [
+          "feliz",
+          "contento",
+          "alegre",
+          "triste",
+          "afligido",
+          "cansado",
+          "fatigado",
+          "rápido",
+          "veloz",
+          "pequeño",
+          "chico"
+        ],
+        "surprised": [
+          "feliz",
+          "contento",
+          "alegre",
+          "triste",
+          "afligido",
+          "enojado",
+          "disgustado",
+          "cansado",
+          "fatigado",
+          "rápido",
+          "veloz",
+          "pequeño",
+          "chico"
+        ],
+        "tired": [
+          "feliz",
+          "contento",
+          "alegre",
+          "enojado",
+          "disgustado",
+          "asustado",
+          "espantado",
+          "sorprendido",
+          "asombrado",
+          "rápido",
+          "veloz",
+          "pequeño",
+          "chico"
+        ],
+        "fast": [
+          "feliz",
+          "contento",
+          "alegre",
+          "triste",
+          "afligido",
+          "enojado",
+          "disgustado",
+          "asustado",
+          "espantado",
+          "sorprendido",
+          "asombrado",
+          "cansado",
+          "fatigado"
+        ],
+        "small": [
+          "triste",
+          "afligido",
+          "asustado",
+          "espantado",
+          "sorprendido",
+          "asombrado",
+          "cansado",
+          "fatigado"
+        ]
+      },
+      "nearOnly": [
+        "molesto",
+        "furioso",
+        "probar"
+      ],
+      "scales": [
+        {
+          "id": "s.heat",
+          "pos": "adj",
+          "words": [
+            "tibio",
+            "caliente",
+            "hirviendo"
+          ]
+        },
+        {
+          "id": "s.cold",
+          "pos": "adj",
+          "words": [
+            "fresco",
+            "frío",
+            "helado"
+          ]
+        },
+        {
+          "id": "s.wet",
+          "pos": "adj",
+          "words": [
+            "húmedo",
+            "mojado",
+            "empapado"
+          ]
+        },
+        {
+          "id": "s.angry",
+          "pos": "adj",
+          "words": [
+            "molesto",
+            "enojado",
+            "furioso"
+          ]
+        },
+        {
+          "id": "s.eat",
+          "pos": "verb",
+          "words": [
+            "probar",
+            "comer",
+            "devorar"
+          ]
+        },
+        {
+          "id": "s.voice",
+          "pos": "verb",
+          "words": [
+            "susurrar",
+            "hablar",
+            "gritar"
+          ]
+        },
+        {
+          "id": "s.walk",
+          "pos": "verb",
+          "words": [
+            "caminar",
+            "trotar",
+            "correr"
+          ]
+        },
+        {
+          "id": "s.laugh",
+          "pos": "verb",
+          "words": [
+            "sonreír",
+            "reír",
+            "carcajearse"
+          ]
+        }
+      ],
+      "fields": {
+        "say": {
+          "head": "dice",
+          "form": "presente, 3.ª persona del singular",
+          "words": [
+            "susurra",
+            "grita",
+            "pregunta",
+            "contesta",
+            "explica",
+            "promete"
+          ],
+          "sentences": [
+            {
+              "id": "f1",
+              "text": "“Shh, el bebé está dormido”, {gap} {name} muy bajito.",
+              "fit": {
+                "susurra": true,
+                "grita": false,
+                "pregunta": false,
+                "contesta": false,
+                "explica": false,
+                "promete": false
+              },
+              "plainVerbOK": true
+            },
+            {
+              "id": "f2",
+              "text": "{name} le {gap} un secreto al oído a su abuela.",
+              "fit": {
+                "susurra": true,
+                "grita": false,
+                "pregunta": false,
+                "contesta": false,
+                "explica": false,
+                "promete": false
+              },
+              "plainVerbOK": true
+            },
+            {
+              "id": "f3",
+              "text": "El camión ya se va y {name} {gap}: “¡Espérenme!”",
+              "fit": {
+                "susurra": false,
+                "grita": true,
+                "pregunta": false,
+                "contesta": false,
+                "explica": false,
+                "promete": false
+              },
+              "plainVerbOK": true
+            },
+            {
+              "id": "f4",
+              "text": "“¡Vengan a jugar!”, {gap} {name} desde el otro lado del patio.",
+              "fit": {
+                "susurra": false,
+                "grita": true,
+                "pregunta": false,
+                "contesta": false,
+                "explica": false,
+                "promete": false
+              },
+              "plainVerbOK": true
+            },
+            {
+              "id": "f5",
+              "text": "“¿Dónde está mi gorra roja?”, {gap} {name}.",
+              "fit": {
+                "susurra": false,
+                "grita": false,
+                "pregunta": true,
+                "contesta": false,
+                "explica": false,
+                "promete": false
+              },
+              "plainVerbOK": true
+            },
+            {
+              "id": "f6",
+              "text": "La maestra quiere saber cuánto es dos más dos y {name} {gap}: “Cuatro”.",
+              "fit": {
+                "susurra": false,
+                "grita": false,
+                "pregunta": false,
+                "contesta": true,
+                "explica": false,
+                "promete": false
+              },
+              "plainVerbOK": true
+            },
+            {
+              "id": "f7",
+              "text": "{name} {gap} paso a paso cómo se siembra una semilla.",
+              "fit": {
+                "susurra": false,
+                "grita": false,
+                "pregunta": false,
+                "contesta": false,
+                "explica": true,
+                "promete": false
+              },
+              "plainVerbOK": true
+            },
+            {
+              "id": "f8",
+              "text": "“Te lo juro, le daré de comer al pez todos los días”, {gap} {name}.",
+              "fit": {
+                "susurra": false,
+                "grita": false,
+                "pregunta": false,
+                "contesta": false,
+                "explica": false,
+                "promete": true
+              },
+              "plainVerbOK": true
+            }
+          ]
+        },
+        "go": {
+          "head": "ir",
+          "words": [
+            "marchar",
+            "gatear",
+            "pasear",
+            "vagar",
+            "avanzar",
+            "apresurarse",
+            "arrastrarse",
+            "deambular"
+          ]
+        },
+        "look": {
+          "head": "mirar",
+          "words": [
+            "observar",
+            "espiar",
+            "ojear",
+            "contemplar",
+            "vigilar",
+            "fisgonear",
+            "admirar",
+            "examinar"
+          ]
+        }
+      },
+      "quotes": [
+        "“",
+        "”"
+      ],
+      "refuse": [],
+      "instructionBans": {},
+      "strings": {
+        "base": {
+          "title": "Sinónimos: rodea la palabra que significa lo mismo",
+          "instruction": "Lee la palabra grande de cada tarjeta y rodea la palabra de abajo que significa lo mismo."
+        },
+        "pictures": {
+          "title": "Sinónimos con imágenes: dos palabras para un dibujo",
+          "instruction": "Mira cada dibujo y rodea las dos palabras de abajo que significan lo mismo y describen el dibujo."
+        },
+        "pairs": {
+          "title": "Sinónimos: une las parejas de palabras",
+          "instruction": "Une con una línea cada palabra de la izquierda con la palabra de la derecha que significa lo mismo."
+        },
+        "shades": {
+          "title": "Intensidad de las palabras: de poco a mucho",
+          "instruction": "Lee las tres palabras de cada fila y escribe 1, 2 y 3 en los cuadros, de la más suave a la más fuerte."
+        },
+        "say": {
+          "title": "Sinónimos de dice: elige la palabra que va mejor",
+          "instruction": "Lee cada oración y escribe en el cuadro la palabra de la burbuja que va mejor en lugar de dice."
+        },
+        "fields": {
+          "title": "Campos semánticos: palabras para ir y para mirar",
+          "instruction": "Lee las diez palabras y escribe cada una en el campo de la palabra a la que más se parece en significado."
+        }
+      }
+    },
+    "word-parts": {
+      "familyHead": "Palabras primitivas y derivadas",
+      "inflections": [
+        "s",
+        "es"
+      ],
+      "families": [
+        {
+          "id": "mar",
+          "stem": "mar",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "mar"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "marinero",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "marino",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "marea",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "marisco",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "marítimo",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "marina",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "maremoto",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "mareo",
+              "whyNotFamily": "es sentirse mal al moverse; no viene de mar"
+            },
+            {
+              "word": "mariposa",
+              "whyNotFamily": "es un insecto con alas"
+            },
+            {
+              "word": "martillo",
+              "whyNotFamily": "es una herramienta"
+            }
+          ]
+        },
+        {
+          "id": "sal",
+          "stem": "sal",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "sal"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "salero",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "salado",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "salar",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "salina",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "salinero",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "salazón",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "salpimentar",
+              "kind": "compound",
+              "slot": "verb"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "saltar",
+              "whyNotFamily": "es brincar; no tiene sal"
+            },
+            {
+              "word": "salud",
+              "whyNotFamily": "es estar sano"
+            },
+            {
+              "word": "salón",
+              "whyNotFamily": "es un cuarto grande"
+            }
+          ]
+        },
+        {
+          "id": "sol",
+          "stem": "sol",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "sol"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "soleado",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "solar",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "asolear",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "asoleado",
+              "kind": "prefixed",
+              "slot": "adjective"
+            },
+            {
+              "word": "solazo",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "resolana",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "parasol",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "soldado",
+              "whyNotFamily": "es una persona del ejército"
+            },
+            {
+              "word": "solo",
+              "whyNotFamily": "es sin compañía"
+            },
+            {
+              "word": "sopa",
+              "whyNotFamily": "es un caldo"
+            }
+          ]
+        },
+        {
+          "id": "pan",
+          "stem": "pan",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "pan"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "panadería",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "panera",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "panecillo",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "empanada",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "empanizar",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "panificadora",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "empanizado",
+              "kind": "prefixed",
+              "slot": "adjective"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "pantalón",
+              "whyNotFamily": "es ropa para las piernas"
+            },
+            {
+              "word": "panda",
+              "whyNotFamily": "es un oso blanco y negro"
+            },
+            {
+              "word": "pañal",
+              "whyNotFamily": "es lo que usa un bebé"
+            }
+          ]
+        },
+        {
+          "id": "flor",
+          "stem": "flor",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "flor"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "floral",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "florecer",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "florido",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "floreado",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "floración",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "florería",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "floricultor",
+              "kind": "derived",
+              "slot": "noun-person"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "flota",
+              "whyNotFamily": "es un grupo de barcos"
+            },
+            {
+              "word": "flauta",
+              "whyNotFamily": "es un instrumento de música"
+            },
+            {
+              "word": "flojo",
+              "whyNotFamily": "es sin ganas de trabajar"
+            }
+          ]
+        },
+        {
+          "id": "papel",
+          "stem": "papel",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "papel"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "papelero",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "papeleo",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "empapelar",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "papelote",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "papelera",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "papelillo",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "papelito",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "papaya",
+              "whyNotFamily": "es una fruta"
+            },
+            {
+              "word": "papalote",
+              "whyNotFamily": "en México es la cometa; no se forma con papel"
+            },
+            {
+              "word": "papá",
+              "whyNotFamily": "es tu padre"
+            }
+          ]
+        }
+      ],
+      "rootFamilies": [
+        {
+          "id": "color",
+          "stem": "color",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "color"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "colorear",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "colorido",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "colorante",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "coloreado",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "colorín",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "multicolor",
+              "kind": "prefixed",
+              "slot": "adjective"
+            },
+            {
+              "word": "colorista",
+              "kind": "derived",
+              "slot": "noun-person"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "columpio",
+              "whyNotFamily": "es un juego del parque"
+            },
+            {
+              "word": "colchón",
+              "whyNotFamily": "es para dormir"
+            },
+            {
+              "word": "collar",
+              "whyNotFamily": "es un adorno para el cuello"
+            }
+          ]
+        },
+        {
+          "id": "amor",
+          "stem": "amor",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "amor"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "amoroso",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "amorosamente",
+              "kind": "derived",
+              "slot": "adverb"
+            },
+            {
+              "word": "amorcito",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "enamorar",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "enamorado",
+              "kind": "prefixed",
+              "slot": "adjective"
+            },
+            {
+              "word": "enamoramiento",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "enamoradizo",
+              "kind": "prefixed",
+              "slot": "adjective"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "amarillo",
+              "whyNotFamily": "es un color"
+            },
+            {
+              "word": "amigo",
+              "whyNotFamily": "es alguien que te quiere, pero no se forma con amor"
+            },
+            {
+              "word": "ambulancia",
+              "whyNotFamily": "es un carro que lleva a los enfermos"
+            }
+          ]
+        },
+        {
+          "id": "mano",
+          "stem": "mano",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "mano"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "manojo",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "manotazo",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "manotear",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "manosear",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "manoseo",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "manopla",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "manotada",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "mantel",
+              "whyNotFamily": "es la tela de la mesa"
+            },
+            {
+              "word": "mango",
+              "whyNotFamily": "es una fruta"
+            },
+            {
+              "word": "manzana",
+              "whyNotFamily": "es una fruta"
+            }
+          ]
+        }
+      ],
+      "picFamilies": [
+        {
+          "id": "estrella",
+          "stem": "estrella",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "estrella",
+            "pic": {
+              "theme": "christmas",
+              "noun": "star"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "estrellado",
+              "kind": "derived",
+              "slot": "adjective"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "estufa",
+              "whyNotFamily": "empieza como \"estrella\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "estante",
+              "whyNotFamily": "empieza como \"estrella\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "estuche",
+              "whyNotFamily": "empieza como \"estrella\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "estudiante",
+              "whyNotFamily": "empieza como \"estrella\", pero no se forma con esa palabra"
+            }
+          ]
+        },
+        {
+          "id": "hoja",
+          "stem": "hoja",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "hoja",
+            "pic": {
+              "theme": "spring",
+              "noun": "leaf"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "hojarasca",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "hongo",
+              "whyNotFamily": "empieza como \"hoja\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "hormiga",
+              "whyNotFamily": "empieza como \"hoja\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "hombro",
+              "whyNotFamily": "empieza como \"hoja\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "horizonte",
+              "whyNotFamily": "empieza como \"hoja\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "hormiguero",
+              "whyNotFamily": "empieza como \"hoja\", pero no se forma con esa palabra"
+            }
+          ]
+        },
+        {
+          "id": "pastel",
+          "stem": "pastel",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "pastel",
+            "pic": {
+              "theme": "bakery",
+              "noun": "cake"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "pastelero",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "pastelería",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "pasto",
+              "whyNotFamily": "empieza como \"pastel\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "pasta",
+              "whyNotFamily": "empieza como \"pastel\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "pasillo",
+              "whyNotFamily": "empieza como \"pastel\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "pasamanos",
+              "whyNotFamily": "empieza como \"pastel\", pero no se forma con esa palabra"
+            }
+          ]
+        },
+        {
+          "id": "tambor",
+          "stem": "tambor",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "tambor",
+            "pic": {
+              "theme": "music",
+              "noun": "drum"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "tamborilero",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "tamborazo",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "tamal",
+              "whyNotFamily": "empieza como \"tambor\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "tamaño",
+              "whyNotFamily": "empieza como \"tambor\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "tampoco",
+              "whyNotFamily": "empieza como \"tambor\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "tamarindo",
+              "whyNotFamily": "empieza como \"tambor\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "tarántula",
+              "whyNotFamily": "empieza como \"tambor\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "tapabocas",
+              "whyNotFamily": "empieza como \"tambor\", pero no se forma con esa palabra"
+            }
+          ]
+        },
+        {
+          "id": "reloj",
+          "stem": "reloj",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "reloj",
+            "pic": {
+              "theme": "classroom",
+              "noun": "clock"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "relojero",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "relojería",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "regalo",
+              "whyNotFamily": "empieza como \"reloj\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "regla",
+              "whyNotFamily": "empieza como \"reloj\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "remo",
+              "whyNotFamily": "empieza como \"reloj\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "relámpago",
+              "whyNotFamily": "empieza como \"reloj\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "refresco",
+              "whyNotFamily": "empieza como \"reloj\", pero no se forma con esa palabra"
+            }
+          ]
+        },
+        {
+          "id": "pluma",
+          "stem": "pluma",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "pluma",
+            "pic": {
+              "theme": "easter",
+              "noun": "feather"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "plumaje",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "plumazo",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "plátano",
+              "whyNotFamily": "empieza como \"pluma\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "plato",
+              "whyNotFamily": "empieza como \"pluma\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "playa",
+              "whyNotFamily": "empieza como \"pluma\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "plastilina",
+              "whyNotFamily": "empieza como \"pluma\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "planeta",
+              "whyNotFamily": "empieza como \"pluma\", pero no se forma con esa palabra"
+            }
+          ]
+        },
+        {
+          "id": "campana",
+          "stem": "campana",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "campana",
+            "pic": {
+              "theme": "christmas",
+              "noun": "bell"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "campanada",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "campanario",
+              "kind": "derived",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "camino",
+              "whyNotFamily": "empieza como \"campana\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "camión",
+              "whyNotFamily": "empieza como \"campana\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "cangrejo",
+              "whyNotFamily": "empieza como \"campana\", pero no se forma con esa palabra"
+            },
+            {
+              "word": "campamento",
+              "whyNotFamily": "empieza como \"campana\", pero no se forma con esa palabra"
+            }
+          ]
+        }
+      ],
+      "sentences": {
+        "sal": [
+          {
+            "word": "salinero",
+            "slot": "noun-person",
+            "frame": "El {gap} saca la sal del agua de mar."
+          },
+          {
+            "word": "salero",
+            "slot": "noun-thing",
+            "frame": "Pásame el {gap} que está junto a las tortillas."
+          },
+          {
+            "word": "salar",
+            "slot": "verb",
+            "frame": "Mi abuela va a {gap} la carne para guardarla."
+          },
+          {
+            "word": "salado",
+            "slot": "adjective",
+            "frame": "El agua del mar tiene un sabor muy {gap}."
+          }
+        ],
+        "flor": [
+          {
+            "word": "floricultor",
+            "slot": "noun-person",
+            "frame": "El {gap} cuida sus rosas en el invernadero."
+          },
+          {
+            "word": "florería",
+            "slot": "noun-thing",
+            "frame": "Compramos un ramo de rosas en la {gap}."
+          },
+          {
+            "word": "florecer",
+            "slot": "verb",
+            "frame": "En primavera, los árboles del parque empiezan a {gap}."
+          },
+          {
+            "word": "florido",
+            "slot": "adjective",
+            "frame": "El campo se ve muy {gap} después de las lluvias."
+          }
+        ],
+        "color": [
+          {
+            "word": "colorista",
+            "slot": "noun-person",
+            "frame": "La {gap} del salón le pintó el pelo de morado a mi tía."
+          },
+          {
+            "word": "colorante",
+            "slot": "noun-thing",
+            "frame": "Le pusimos {gap} verde al betún del pastel."
+          },
+          {
+            "word": "colorear",
+            "slot": "verb",
+            "frame": "Vamos a {gap} el dibujo con crayolas."
+          },
+          {
+            "word": "colorido",
+            "slot": "adjective",
+            "frame": "Mi hermana trae un vestido muy {gap}."
+          }
+        ]
+      },
+      "prefixKey": {
+        "prefixes": [
+          {
+            "prefix": "re",
+            "meaning": "otra vez"
+          },
+          {
+            "prefix": "pre",
+            "meaning": "antes"
+          },
+          {
+            "prefix": "sobre",
+            "meaning": "por encima o de más"
+          }
+        ],
+        "rows": [
+          {
+            "base": "leer",
+            "prefix": "re",
+            "word": "releer",
+            "gloss": "leer el mismo cuento una segunda vez"
+          },
+          {
+            "base": "llenar",
+            "prefix": "re",
+            "word": "rellenar",
+            "gloss": "volver a llenar el vaso vacío"
+          },
+          {
+            "base": "hacer",
+            "prefix": "re",
+            "word": "rehacer",
+            "gloss": "hacer de nuevo la tarea"
+          },
+          {
+            "base": "contar",
+            "prefix": "re",
+            "word": "recontar",
+            "gloss": "contar las canicas una vez más para revisar"
+          },
+          {
+            "base": "calentar",
+            "prefix": "pre",
+            "word": "precalentar",
+            "gloss": "calentar primero el horno y luego hornear"
+          },
+          {
+            "base": "ver",
+            "prefix": "pre",
+            "word": "prever",
+            "gloss": "ver lo que va a pasar cuando todavía no pasa"
+          },
+          {
+            "base": "decir",
+            "prefix": "pre",
+            "word": "predecir",
+            "gloss": "decir hoy qué tiempo hará mañana"
+          },
+          {
+            "base": "volar",
+            "prefix": "sobre",
+            "word": "sobrevolar",
+            "gloss": "volar arriba de la ciudad"
+          },
+          {
+            "base": "cargar",
+            "prefix": "sobre",
+            "word": "sobrecargar",
+            "gloss": "cargar la mochila con demasiadas cosas"
+          },
+          {
+            "base": "pasar",
+            "prefix": "sobre",
+            "word": "sobrepasar",
+            "gloss": "pasar más allá de la línea"
+          }
+        ],
+        "crossCheck": [
+          {
+            "base": "leer",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "leer",
+            "prefix": "pre",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "leer",
+            "prefix": "sobre",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "llenar",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "llenar",
+            "prefix": "pre",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "llenar",
+            "prefix": "sobre",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "hacer",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "hacer",
+            "prefix": "pre",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "hacer",
+            "prefix": "sobre",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "contar",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "contar",
+            "prefix": "pre",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "contar",
+            "prefix": "sobre",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "calentar",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "calentar",
+            "prefix": "pre",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "calentar",
+            "prefix": "sobre",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "ver",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "ver",
+            "prefix": "pre",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "ver",
+            "prefix": "sobre",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "decir",
+            "prefix": "re",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "decir",
+            "prefix": "pre",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "decir",
+            "prefix": "sobre",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "volar",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "volar",
+            "prefix": "pre",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "volar",
+            "prefix": "sobre",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "cargar",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "cargar",
+            "prefix": "pre",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "cargar",
+            "prefix": "sobre",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "pasar",
+            "prefix": "re",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "pasar",
+            "prefix": "pre",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "pasar",
+            "prefix": "sobre",
+            "isWord": true,
+            "fitsGloss": true
+          }
+        ]
+      },
+      "negating": [
+        "anti",
+        "contra"
+      ],
+      "agents": [],
+      "exemplar": {
+        "base": [
+          "mar",
+          "papel"
+        ],
+        "F1": [
+          "christmas/star",
+          "spring/leaf",
+          "bakery/cake",
+          "music/drum",
+          "classroom/clock",
+          "easter/feather",
+          "christmas/bell"
+        ],
+        "F2": [
+          "mar",
+          "sal",
+          "sol",
+          "pan",
+          "flor",
+          "papel",
+          "color",
+          "amor",
+          "mano"
+        ],
+        "F5": [
+          "sal",
+          "flor"
+        ]
+      },
+      "refuse": {
+        "base": false,
+        "picture-family": false,
+        "root-word": false,
+        "prefix-key": false,
+        "who-does-it": true,
+        "family-in-sentence": false
+      },
+      "strings": {
+        "base": {
+          "title": "Palabras primitivas y derivadas: acomoda cada palabra",
+          "instruction": "Lee cada palabra de arriba y escríbela en una línea del muro que está sobre su palabra primitiva."
+        },
+        "picture-family": {
+          "title": "Palabras derivadas con dibujos: rodea la palabra",
+          "instruction": "Di el nombre de cada dibujo y rodea la única palabra de arriba que se forma con esa palabra."
+        },
+        "root-word": {
+          "title": "Encuentra la palabra primitiva",
+          "instruction": "Rodea la parte que tienen en común las tres palabras y escribe la palabra primitiva en la piedra vacía."
+        },
+        "prefix-key": {
+          "title": "Prefijos re-, pre- y sobre-: elige por el significado",
+          "instruction": "Lee lo que significa cada palabra nueva, busca su prefijo en la clave y escríbelo en la pieza vacía."
+        },
+        "who-does-it": null,
+        "family-in-sentence": {
+          "title": "Palabras derivadas en oraciones",
+          "instruction": "En cada recuadro, escribe cada palabra de la fila de arriba en el hueco de la oración donde va."
+        }
+      }
+    }
+  },
+  "refusals": {
+    "G1-380": "Base de dígrafos: se rechaza toda la familia de dígrafos en es-MX: ll, rr, qu y gu ya los enseña nuestra ficha de reglas de ortografía (spelling-rules) y las sílabas trabadas pertenecen a lectura de sílabas (syllable-reading); solo queda ch, que no alcanza para 3 equipos de letras con 6 palabras con dibujo",
+    "K-378": "Clasificar dígrafos (K): se rechaza toda la familia de dígrafos en es-MX: ll, rr, qu y gu ya los enseña nuestra ficha de reglas de ortografía (spelling-rules) y las sílabas trabadas pertenecen a lectura de sílabas (syllable-reading); solo queda ch, que no alcanza para 3 equipos de letras con 6 palabras con dibujo",
+    "G1-392": "Dígrafo que falta: se rechaza toda la familia de dígrafos en es-MX: ll, rr, qu y gu ya los enseña nuestra ficha de reglas de ortografía (spelling-rules) y las sílabas trabadas pertenecen a lectura de sílabas (syllable-reading); solo queda ch, que no alcanza para 3 equipos de letras con 6 palabras con dibujo",
+    "G1-393": "Leer palabras con dígrafo: se rechaza toda la familia de dígrafos en es-MX: ll, rr, qu y gu ya los enseña nuestra ficha de reglas de ortografía (spelling-rules) y las sílabas trabadas pertenecen a lectura de sílabas (syllable-reading); solo queda ch, que no alcanza para 3 equipos de letras con 6 palabras con dibujo",
+    "G1-394": "¿Dónde está el dígrafo?: se rechaza toda la familia de dígrafos en es-MX: ll, rr, qu y gu ya los enseña nuestra ficha de reglas de ortografía (spelling-rules) y las sílabas trabadas pertenecen a lectura de sílabas (syllable-reading); solo queda ch, que no alcanza para 3 equipos de letras con 6 palabras con dibujo",
+    "G2-372": "Dígrafos en oraciones: se rechaza toda la familia de dígrafos en es-MX: ll, rr, qu y gu ya los enseña nuestra ficha de reglas de ortografía (spelling-rules) y las sílabas trabadas pertenecen a lectura de sílabas (syllable-reading); solo queda ch, que no alcanza para 3 equipos de letras con 6 palabras con dibujo",
+    "G3-398": "Quién lo hace (F4 de word-parts): los sustantivos de oficio en -ero/-ería (panadero, florista) son el banco de familias-de-palabras G2-316 (compound-words es), así que esta cara lo canibaliza; se rechaza según el diseño"
+  },
+  "strandNames": {
+    "Social Studies": "Ética, naturaleza y sociedades"
+  },
+  "enAudit": [
+    "road-safety K-369 base TITLE \"Road Safety: Traffic Lights, Stop or Go\" quotes the car chips \"stop / go\" over pedestrian cards whose chips read \"wait / walk\" — the exact defect validator rule 9 bans in the INSTRUCTION survives in the title. es title asks \"¿qué hago?\" instead.",
+    "2d-shapes riddles: \"All my 4 sides are the same length\" and \"I have 4 corners, and my 4 sides are all equal\" are both TRUE of a rhombus, so neither pins the square (a G1 child who knows the diamond can argue it). es riddles add \"4 esquinas rectas\". Same weakness, milder, in the rectangle riddle \"2 long sides and 2 short sides\" (a parallelogram); es riddle 2 adds \"4 esquinas rectas\".",
+    "word-parts: rootFamilies \"rest\" carries \"restroom\" (a toilet) as a compound built from rest — not transparent to a 7-year-old, which is the family rule (transparency, not etymology). \"caregiver\" / \"helpline\" / \"cheerleader\" are borderline for G2 too.",
+    "plants: the K face \"needs\" instruction is two sentences (\"Look at what each plant gets. Circle ...\") and the base / jobs instructions are two sentences as well, against the design rule \"at K one imperative sentence\"; es writes each as one sentence.",
+    "earth-and-space base instruction is three sentences incl. a question (\"Read each sentence. Is it about ...? Tick one box.\"); maps base and directions-on-map instructions are three sentences. es fuses each into one.",
+    "animal-life-cycles G1-377 instruction: \"the number of the picture that comes after the butterfly\" — in a cycle what comes after the adult is the egg, which is already box 1; the child is asked to write the number of a picture that is on the page as \"1\". If the fifth box means \"the egg again\", say so; es keeps the meaning but the ambiguity is the source's.",
+    "synonyms fields instruction \"write each one in the field of the word it means nearly the same as\" is not idiomatic English (preposition stranding over a relative); and the say sentence f4 \"shouted loudly across the big field\" puts the apparatus word \"field\" (F5) into an F4 sentence.",
+    "synonyms: the English bans \"nice\"/\"kind\" but keeps \"calm\" and \"quiet\" in two groups with a near pair — fine; however \"mad\" (angry) is regional US and would be a `regional` doublet in any other English market.",
+    "family relation-riddles EN frame \"{egoGen} mom's mom is {egoGen} ___.\" prints the genitive twice (\"Mia's mom's mom is Mia's ___\") — heavy for a G2 reader; es uses \"{egoName} le dice ___ a la mamá de su mamá.\" (what the child CALLS her), one name, no article before the gap.",
+    "maps top-view EN title \"Bird's-Eye View: From the Side and From Above\" uses the idiom a K child does not know as the head; es uses \"Vista de lado y vista desde arriba\".",
+    "es regulation notes (reg ?): SR-6 ALTO and SR-7 CEDA EL PASO are certain; SP-31 semáforo, SP-32 cruce de peatones, SP-33 cruce de escolares are the panel's best recollection of the SCT manual numbering (unsure); the cyclist warning and the two prohibitions (bicycles, pedestrians) carry no number because the panel is not sure of it — the operator should sign those three against the manual figures. MX restrictive prohibitions are drawn as the square plate with the red ring and slash (plateCircle), which matches the manual.",
+    "es informativas: the MX sort face ships TWO bins (preventivas, restrictivas). The glyph set has no honest MX informative sign (the blue walker-on-stripes square is Vienna, not SCT), so no informative bin is drawn rather than invent one; titles say \"preventivas y restrictivas\" only.",
+    "es maps: the continent count is SEP data — six continents with América as one (SEP Geografía 4.º and the Atlas de geografía del mundo); oceans five incl. Glacial Ártico and Glacial Antártico (panel fairly sure the SEP atlas names five). Directions: este / oeste with E / O (never oriente / poniente, whose initials would clash with the rose).",
+    "es earth-and-space F2 phase bank: the SEP / astronomy names of phases 2 and 6 are \"cuarto creciente / cuarto menguante\", but the four names must fit one 639 px chip row (rule 5) and the SEP pair measures 675 px; es prints the equally common primary-school set \"luna nueva, luna creciente, luna llena, luna menguante\" (all four \"luna X\", 633 px). A teacher who wants \"cuarto\" can say it; nothing printed is wrong for a 2.º grado child.",
+    "es road-safety: the MX SR-7 carries the legend CEDA EL PASO, but inside the inverted triangle at worksheet size the text drops to 4-6 px (below the 9 px floor), so the es sign is drawn with the regulation shape and colours and NO legend — it is the only inverted triangle in the MX set, so it stays unambiguous.",
+    "pictures opened by the es panel: the 9 F2 objects (lollipop = \"paleta\", tablet read fine as rectangles), the 2 needs + 16 foods, the 8 synonyms faces/objects, and the word-parts roots. REJECTED for es F1: body parts/head (a child reads it as \"cara\" or \"niño\", not \"cabeza\") and toys/ball (a soccer ball is \"balón\" to a MX child, not \"pelota\"); both dropped, 7 picture roots remain.",
+    "es word-parts: the root-word face requires stem === root, and Spanish vowel-final roots drop their vowel in derivation (sombra -> sombrero), so every free-root family is consonant-final or keeps the whole root (mar, sal, sol, pan, flor, papel, color, amor, mano). None of the G2-316 compound-words members (florero, florista, panadero, papelería, solecito) is a member here."
+  ]
+}

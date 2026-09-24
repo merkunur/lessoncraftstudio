@@ -87,8 +87,8 @@
         "word": "huis"
       },
       {
-        "pair": "ij",
-        "word": "ijs"
+        "pair": "ie",
+        "word": "fiets"
       },
       {
         "pair": "br",
@@ -159,7 +159,7 @@
     },
     "G2-386": {
       "title": "Woorden aan elkaar schrijven bij plaatjes",
-      "instruction": "Schrijf elk grijs woord in één vloeiende lijn na, schrijf het dan op de lijn eronder en zet de puntjes en streepjes er als laatste op."
+      "instruction": "Schrijf elk grijs woord na: eerst de letters aan elkaar, als laatste de puntjes en streepjes; schrijf het dan net zo op de lijn eronder."
     },
     "G2-387": {
       "title": "Verbonden schrift lezen: welk woord hoort bij welk plaatje?",

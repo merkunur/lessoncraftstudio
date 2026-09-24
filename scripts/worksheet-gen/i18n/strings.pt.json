@@ -2860,8 +2860,8 @@
     "instruction": "Veja o que muda em cada história e escreva os números nos quadrinhos para colocar as cenas em ordem."
   },
   "K-380": {
-    "title": "Hábitos de higiene: o que cada criança usa?",
-    "instruction": "Ligue cada criança ao objeto de que ela precisa."
+    "title": "Hábitos saudáveis: o que cada criança usa?",
+    "instruction": "Ligue cada criança ao objeto que ela está usando."
   },
   "G1-398": {
     "title": "Habitat dos animais: Amazônia, mar e savana",
@@ -2877,7 +2877,7 @@
   },
   "K-381": {
     "title": "Sequência de fatos para recortar: primeiro, depois, por fim",
-    "instruction": "Recorte as cenas de cada tira e cole-as nos quadros vazios acima de Primeiro, Depois e Por fim."
+    "instruction": "Recorte as cenas de cada tira e cole-as na linha que tem a mesma marca, nos quadros vazios acima de Primeiro, Depois e Por fim."
   },
   "G1-400": {
     "title": "Sequência de fatos: o que acontece depois?",
@@ -2888,8 +2888,8 @@
     "instruction": "Observe o início e o fim de cada história e desenhe no quadro do meio o que aconteceu."
   },
   "G1-402": {
-    "title": "Sequência de fatos: ligue as frases às cenas",
-    "instruction": "Leia as frases de cada história e ligue cada frase à sua cena com um traço."
+    "title": "Sequência de fatos: numere as frases e ligue às cenas",
+    "instruction": "Numere nos quadrinhos as frases de cada história na ordem certa e depois ligue cada frase à sua cena com um traço."
   },
   "G2-378": {
     "title": "Reconto de história com sequência de imagens",
@@ -2901,7 +2901,7 @@
   },
   "G1-403": {
     "title": "Escovar os dentes: antes, durante e depois",
-    "instruction": "Circule a palavra que diz quando isso acontece: antes, durante ou depois de escovar."
+    "instruction": "Em cada figura, circule antes, durante ou depois de escovar os dentes."
   },
   "G1-404": {
     "title": "Como evitar os germes: tussa no cotovelo",
@@ -2921,11 +2921,11 @@
   },
   "G1-406": {
     "title": "Habitat dos animais: qual não vive aqui?",
-    "instruction": "Em cada fileira, risque o animal que não vive naquele habitat."
+    "instruction": "Em cada habitat, risque o animal que não vive ali."
   },
   "G2-380": {
     "title": "Adaptação dos animais ao ambiente",
-    "instruction": "Escreva no quadrinho a letra do animal de que cada frase fala."
+    "instruction": "Escreva no quadrinho de cada frase a letra do animal de que ela fala; um animal vai sobrar."
   },
   "G1-407": {
     "title": "Do que os animais precisam para viver?",
@@ -2933,7 +2933,7 @@
   },
   "G2-381": {
     "title": "Meu relatório sobre um habitat",
-    "instruction": "Desenhe três animais que vivem neste habitat, escreva o nome deles e de uma planta que cresce ali e circule a palavra certa de cada par."
+    "instruction": "Na imagem, desenhe três animais que vivem ali, escreva o nome deles e o de uma planta que cresce ali e circule a palavra que combina com esse habitat."
   },
   "G1-408": {
     "title": "Pesado ou leve? Experiência com balança: flutua ou afunda",
@@ -2944,11 +2944,11 @@
     "instruction": "Pinte o círculo onde cada forma de massinha vai parar, circule o que flutua e desenhe o seu barquinho de massinha no aquário grande."
   },
   "G2-383": {
-    "title": "Por que flutua? Verdadeiro ou falso da experiência",
+    "title": "Por que as coisas flutuam? Verdadeiro ou falso",
     "instruction": "Leia cada frase e circule verdadeiro ou falso."
   },
   "K-384": {
-    "title": "O que flutua e o que afunda: desenhe a experiência",
+    "title": "Desenhe o que flutua e o que afunda na água",
     "instruction": "Desenhe duas coisas que flutuam nos espaços tracejados da água e duas que afundam nos espaços tracejados do fundo."
   },
   "G3-400": {
@@ -2965,7 +2965,7 @@
   },
   "G2-386": {
     "title": "Palavras em letra cursiva para o 1º ano",
-    "instruction": "Cubra cada palavra cinza num traço contínuo, depois escreva na linha de baixo e coloque os pingos, os cortes e os acentos por último."
+    "instruction": "Cubra cada palavra cinza ligando primeiro as letras e pondo por último os pingos, os cortes e os acentos; depois escreva-a igual na linha de baixo."
   },
   "G2-387": {
     "title": "Leitura em letra cursiva: ligue a palavra à figura",

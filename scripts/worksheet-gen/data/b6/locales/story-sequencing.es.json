@@ -154,14 +154,14 @@
         "tabla",
         "pintura",
         "brocha",
-        "bote"
+        "cubeta"
       ],
       "helpIds": [
         "fence",
         "plank",
         "paint",
         "brush",
-        "pot"
+        "bucket"
       ]
     },
     "letter": {
@@ -196,7 +196,7 @@
       "sentences": [
         "Primero, hay una hoja de papel.",
         "Después, la hoja está cortada en cinco tiras.",
-        "Luego, pegan dos tiras en forma de aro.",
+        "Luego, con dos tiras hacen dos aros.",
         "Al final, los cinco aros forman una cadena."
       ],
       "stateWords": [
@@ -259,7 +259,7 @@
     },
     "first-next-last-cut": {
       "title": "Secuencias de un cuento para recortar: primero, después, al final",
-      "instruction": "Recorta las imágenes de cada tira y pégalas en los cuadros vacíos arriba de Primero, Después y Al final."
+      "instruction": "Recorta las imágenes de cada tira y pégalas en el tendedero que tiene la misma marca, en los cuadros vacíos arriba de Primero, Después y Al final."
     },
     "what-happens-next": {
       "title": "Secuencias de un cuento: ¿qué pasa después?",
@@ -270,11 +270,11 @@
       "instruction": "Mira el inicio y el final de cada cuento y dibuja en el cuadro del centro lo que pasa en el desarrollo."
     },
     "sequencing-sentences": {
-      "title": "Secuencias de un cuento: une cada oración con su imagen",
-      "instruction": "Lee las oraciones de cada cuento y une con una línea cada oración con su imagen."
+      "title": "Secuencias de un cuento: ordena las oraciones y únelas con su imagen",
+      "instruction": "Numera en los recuadros las oraciones de cada cuento en orden y luego une con una línea cada oración con su imagen."
     },
     "retell-with-starters": {
-      "title": "Secuencia de imágenes para crear cuentos",
+      "title": "Secuencia de imágenes para crear un cuento",
       "instruction": "Escribe en los renglones lo que pasa en cada imagen, empezando con la palabra que ya está escrita."
     }
   }

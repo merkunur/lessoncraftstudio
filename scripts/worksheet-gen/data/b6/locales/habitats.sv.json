@@ -190,9 +190,19 @@
     ]
   },
   "needs": {
-    "line": "Alla djur behöver mat, vatten och ett hem.",
+    "line": "Alla djur behöver mat och ett hem.",
     "foodHead": "Mat",
-    "homeHead": "Hem"
+    "homeHead": "Hem",
+    "undrawn": [
+      "vatten",
+      "dricka",
+      "dricker",
+      "dryck",
+      "luft",
+      "sol",
+      "solen",
+      "solljus"
+    ]
   },
   "report": {
     "animals": "Djur som bor här",
@@ -223,11 +233,11 @@
     },
     "G1-406": {
       "title": "Livsmiljöer: vilket djur bor inte här?",
-      "instruction": "Kryssa i varje rad över djuret som inte bor i den livsmiljön."
+      "instruction": "Titta på varje livsmiljö och kryssa över djuret som inte bor där."
     },
     "G2-380": {
       "title": "Djurens anpassningar till livsmiljön",
-      "instruction": "Skriv bokstaven för djuret som varje mening handlar om i meningens ruta."
+      "instruction": "Skriv bokstaven för djuret som varje mening handlar om i meningens ruta; ett djur blir över."
     },
     "G1-407": {
       "title": "Vad behöver djuren för att leva?",
@@ -235,7 +245,7 @@
     },
     "G2-381": {
       "title": "Livsmiljörapport: djur och växter vid sjön",
-      "instruction": "Rita tre djur som bor i den här livsmiljön, skriv deras namn och en växt som växer där, och ringa in rätt ord i varje par."
+      "instruction": "Rita i bilden tre djur som bor där, skriv deras namn och en växt som växer där, och ringa in ordet som passar livsmiljön."
     }
   },
   "placeWords": [

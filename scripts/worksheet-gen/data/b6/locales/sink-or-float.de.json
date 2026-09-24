@@ -172,16 +172,20 @@
       "instruction": "Male bei jeder Knetform den Ring aus, wo sie landet, kreise ein, was schwimmt, und male dein eigenes Knetboot in das große Becken."
     },
     "G2-383": {
-      "title": "Warum schwimmt etwas? Richtig oder falsch zum Versuch",
+      "title": "Schwimmen und Sinken: Richtig oder falsch?",
       "instruction": "Lies jeden Satz und kreise richtig oder falsch ein."
     },
     "K-384": {
-      "title": "Was schwimmt, was sinkt? Versuch zum Malen",
+      "title": "Male, was schwimmt und was sinkt",
       "instruction": "Male zwei Dinge, die schwimmen, in die gestrichelten Kästchen auf dem Wasser und zwei, die sinken, in die Kästchen am Boden."
     },
     "G3-400": {
       "title": "Versuchsprotokoll: Schwimmen und Sinken",
       "instruction": "Wähle eine Frage, schreibe deine Vermutung auf, mach den Versuch, male, was passiert ist, und schreibe auf, was du herausgefunden hast."
     }
+  },
+  "shapeHeads": {
+    "clay": "Dieselbe Knete, andere Formen",
+    "steel": "Derselbe Stahl, andere Formen: Kreise ein, was schwimmt."
   }
 }

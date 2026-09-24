@@ -1,0 +1,3689 @@
+{
+  "locale": "no",
+  "types": {
+    "K-368": {
+      "title": "Geometriske figurer: hva heter figuren?",
+      "instruction": "Se på hver figur, også de som er snudd og smale, og ring rundt navnet til figuren."
+    },
+    "G1-381": {
+      "title": "Geometriske figurer: er det riktig figur?",
+      "instruction": "Les navnet i hver rad og ring rundt alle figurene som virkelig er en slik figur."
+    },
+    "K-371": {
+      "title": "Geometriske figurer rundt oss",
+      "instruction": "Se på hvert bilde og fargelegg figuren som tingen har: sirkel eller rektangel."
+    },
+    "G1-382": {
+      "title": "Geometriske figurer med navn: skriv navnene",
+      "instruction": "Se på hver figur og skriv navnet på streken, navnene står i ruten."
+    },
+    "G1-383": {
+      "title": "Gåter om geometriske figurer",
+      "instruction": "Les hver gåte og ring rundt navnet til figuren."
+    },
+    "K-372": {
+      "title": "Tegn geometriske figurer på prikkark",
+      "instruction": "Les navnet og trekk streker mellom prikkene slik at figuren blir tegnet, start ved den tykke streken hvis det er en."
+    },
+    "K-369": {
+      "title": "Trafikk for barn: hva viser trafikklyset?",
+      "instruction": "Se på lampen som lyser, og ring rundt det du skal gjøre."
+    },
+    "K-373": {
+      "title": "Trafikk for barn: fargelegg trafikklysene",
+      "instruction": "Finn lampen med stråler i hvert trafikklys og fargelegg den med fargen den lyser med."
+    },
+    "K-374": {
+      "title": "Gå trygt over veien: steg for steg",
+      "instruction": "Skriv 1 til 4 i rutene slik at de viser hvordan du går trygt over veien."
+    },
+    "G1-384": {
+      "title": "Trafikkskilt for barn og hva de betyr",
+      "instruction": "Trekk en strek fra hvert trafikkskilt til det skiltet betyr."
+    },
+    "G2-360": {
+      "title": "Trafikkskilt for barn: fareskilt, forbudsskilt og opplysningsskilt",
+      "instruction": "Skriv bokstaven til hvert trafikkskilt i en rute under riktig gruppe skilt."
+    },
+    "G2-361": {
+      "title": "Trafikkquiz for barn: hvilket skilt passer?",
+      "instruction": "Les hver setning og ring rundt det ene trafikkskiltet som passer."
+    },
+    "K-370": {
+      "title": "Familie og slekt: hvem er hvem?",
+      "instruction": "Finn hver person i slektstreet og skriv tallet til personen i ruten ved siden av riktig familieord."
+    },
+    "G1-385": {
+      "title": "Generasjoner i slekta: fra eldst til yngst",
+      "instruction": "Skriv 1, 2 og 3 i rutene i hver rad slik at ordene står fra den eldste generasjonen til den yngste."
+    },
+    "K-375": {
+      "title": "Familieord: spor og skriv",
+      "instruction": "Finn personen med samme tall i treet, spor familieordet og skriv det en gang til på streken."
+    },
+    "G1-386": {
+      "title": "Slektstre: les ledetrådene",
+      "instruction": "Les ledetrådene og skriv hvert navn i riktig navnerute i slektstreet."
+    },
+    "G2-362": {
+      "title": "Slektsgåter: mormor, farfar, moster eller farbror?",
+      "instruction": "Les hver gåte og skriv riktig familieord fra ruten på streken."
+    },
+    "G1-387": {
+      "title": "Slektstre: mal til å fylle ut selv",
+      "instruction": "Tegn menneskene som er viktige for deg i rammene og skriv navnene deres på strekene."
+    },
+    "G1-376": {
+      "title": "Plantens deler",
+      "instruction": "Følg hver nummererte lapp til en del av planten og skriv navnet på delen fra ordbanken på streken med samme tall."
+    },
+    "K-376": {
+      "title": "Hva trenger en plante for å vokse?",
+      "instruction": "Ring rundt planten i hver rad som får begge tingene den trenger for å vokse."
+    },
+    "G1-388": {
+      "title": "Fra frø til plante",
+      "instruction": "Klipp ut de fire bildene og lim dem inn i de tomme rutene i retning av pilene, start ved frøet."
+    },
+    "G2-363": {
+      "title": "Hvilke deler av planten spiser vi?",
+      "instruction": "Se på hver matvare og ring rundt den delen av planten som vi spiser."
+    },
+    "G2-364": {
+      "title": "Plantens deler og hva de gjør",
+      "instruction": "Les hva hver del gjør, finn delen på planten og skriv tallet på lappen i ruten."
+    },
+    "G3-392": {
+      "title": "Blomstens deler",
+      "instruction": "Skriv navnet på hver nummererte del av blomsten på streken, og stryk ordet i ordbanken som ikke er en del av en blomst."
+    },
+    "G1-377": {
+      "title": "Sommerfuglens livssyklus: fra egg til sommerfugl",
+      "instruction": "Egget er 1: skriv 2, 3 og 4 i rutene i riktig rekkefølge, og i den siste ruten tallet på bildet som kommer etter sommerfuglen."
+    },
+    "G1-389": {
+      "title": "Froskens livssyklus: klipp og lim",
+      "instruction": "Klipp ut de fire rutene og lim hver av dem på sitt nøkkeroseblad, rundt dammen fra froskeegget til frosken."
+    },
+    "G2-365": {
+      "title": "Sommerfuglens livssyklus: skriv navnene på stadiene",
+      "instruction": "Skriv de fire stadiene fra ordbanken på streken under riktig bilde, og stryk det ene ordet som ikke hører til."
+    },
+    "G2-366": {
+      "title": "Metamorfose: hva blir hvert stadium til?",
+      "instruction": "Se på hvert stadium og skriv bokstaven i en rute under dyret det blir til, noen ruter blir stående tomme."
+    },
+    "G3-393": {
+      "title": "Sommerfuglens og froskens livssyklus: sammenlign",
+      "instruction": "Les hver setning og sett kryss under sommerfuglen, frosken eller begge når setningen stemmer for dyret."
+    },
+    "G1-390": {
+      "title": "Hva kommer etterpå? Sommerfugl, frosk og marihøne",
+      "instruction": "Ring rundt bildet som kommer rett etter det første i hver rad; etter det voksne dyret begynner det på nytt med egg."
+    },
+    "G1-378": {
+      "title": "Solen, Jorden og Månen",
+      "instruction": "Les hver setning og sett kryss for om den handler om Solen, Jorden eller Månen."
+    },
+    "G1-391": {
+      "title": "Månens faser i riktig rekkefølge",
+      "instruction": "Se på kilen i hver rad, om månen vokser eller minker, og skriv 1 til 5 under månene i den rekkefølgen."
+    },
+    "G2-367": {
+      "title": "Månens faser: skriv navnene",
+      "instruction": "Se på hver måne og skriv navnet på strekene, hvert ord i ordbanken brukes to ganger."
+    },
+    "G2-368": {
+      "title": "Hvorfor blir det dag og natt?",
+      "instruction": "Se hvor Solen er, og ring rundt dag eller natt i tabellen for hver nummererte nål."
+    },
+    "G3-394": {
+      "title": "Planetene i rekkefølge fra Solen",
+      "instruction": "Skriv navnet på hver planet på streken, start nærmest Solen og bruk hvert navn i ruten én gang."
+    },
+    "G3-395": {
+      "title": "Planetene etter størrelse: kjempeplaneter og steinplaneter",
+      "instruction": "Sorter navnene og skriv hvert av dem i riktig rute: kjempeplanet, liten steinplanet eller ikke en planet."
+    },
+    "G1-379": {
+      "title": "Kartlesing: les tegnforklaringen",
+      "instruction": "Se på tegnforklaringen, finn hver ting på kartet og skriv i ruten hvor mange det er."
+    },
+    "K-377": {
+      "title": "Fugleperspektiv: fra siden og ovenfra",
+      "instruction": "Hver ting er tegnet fra siden, så trekk en strek til den samme tingen sett ovenfra."
+    },
+    "G2-369": {
+      "title": "Himmelretninger: nord, øst, sør og vest",
+      "instruction": "Den oransje spissen viser nord, og hver kompassrose viser én bokstav, så skriv de tre andre bokstavene i de tomme rutene."
+    },
+    "G2-370": {
+      "title": "Verdensdeler: skriv navnene",
+      "instruction": "Skriv navnet på hver nummererte verdensdel på streken og ta navnene fra ruten."
+    },
+    "G3-396": {
+      "title": "Verdensdeler og verdenshav",
+      "instruction": "Finn hver verdensdel og hvert verdenshav på kartet og skriv tallet i ruten ved siden av navnet."
+    },
+    "G2-371": {
+      "title": "Himmelretninger på kartet",
+      "instruction": "Finn det første bildet på kartet, se i retningen ordet sier, og ring rundt det av de tre bildene som ligger der."
+    },
+    "G2-358": {
+      "title": "Synonymer: ring rundt ordet som betyr det samme",
+      "instruction": "Les det store ordet på hvert kort og ring rundt ordet under som betyr det samme."
+    },
+    "G1-395": {
+      "title": "Synonymer med bilder: to ord til ett bilde",
+      "instruction": "Se på hvert bilde og ring rundt de to ordene under som betyr det samme og passer til bildet."
+    },
+    "G2-373": {
+      "title": "Synonympar: finn ordene som betyr det samme",
+      "instruction": "Trekk en strek fra hvert ord til venstre til ordet til høyre som betyr det samme."
+    },
+    "G1-396": {
+      "title": "Ordenes styrke: fra litt til mye",
+      "instruction": "Les de tre ordene i hver rad og skriv 1, 2 og 3 i rutene, fra det svakeste ordet til det sterkeste."
+    },
+    "G2-374": {
+      "title": "Synonymer for sa: velg ordet som passer",
+      "instruction": "Les hver setning og skriv ordet fra snakkeboblen som passer best i ruten i stedet for sa."
+    },
+    "G3-397": {
+      "title": "Synonymer for gå og se: sorter ordene",
+      "instruction": "Les de ti ordene og skriv hvert ord i feltet gå eller i feltet se, der det hører hjemme."
+    },
+    "G2-359": {
+      "title": "Rotord: sorter ordene etter roten",
+      "instruction": "Les hvert ord øverst og skriv det på en rad i muren som står på roten til ordet."
+    },
+    "G1-397": {
+      "title": "Rotord med bilder: ring rundt riktig ord",
+      "instruction": "Si hva hvert bilde viser, og ring rundt det ene ordet ovenfor som er laget av ordet for bildet."
+    },
+    "G2-375": {
+      "title": "Finn rotordet",
+      "instruction": "Ring rundt delen som de tre ordene har felles, og skriv den samme delen i den tomme steinen."
+    },
+    "G2-376": {
+      "title": "Forstavelsene gjen-, mis- og over-: velg etter betydning",
+      "instruction": "Les hva hvert nytt ord betyr, finn forstavelsen i nøkkelen og skriv den i den tomme biten."
+    },
+    "G3-398": {
+      "title": "Hvem gjør det? Skriv ordet for personen",
+      "instruction": "Se på hver person, les ordet på kortet og skriv ordet for personen i den stiplede ruten."
+    },
+    "G3-399": {
+      "title": "Rotord i setninger",
+      "instruction": "Skriv hvert av de fire ordene på kortene i den setningen der det passer."
+    }
+  },
+  "families": {
+    "2d-shapes": {
+      "slug": "geometriske-figurer",
+      "name": "Geometriske figurer"
+    },
+    "road-safety": {
+      "slug": "trafikkskilt-og-trafikkregler",
+      "name": "Trafikkskilt og trafikkregler"
+    },
+    "family": {
+      "slug": "familie-og-slekt",
+      "name": "Familie og slekt"
+    },
+    "plants": {
+      "slug": "plantens-deler",
+      "name": "Plantens deler"
+    },
+    "animal-life-cycles": {
+      "slug": "sommerfuglens-og-froskens-livssyklus",
+      "name": "Sommerfuglens og froskens livssyklus"
+    },
+    "earth-and-space": {
+      "slug": "solsystemet",
+      "name": "Solsystemet"
+    },
+    "maps": {
+      "slug": "kart-og-himmelretninger",
+      "name": "Kart og himmelretninger"
+    },
+    "digraphs": {
+      "slug": "bokstavkombinasjoner",
+      "name": "Bokstavkombinasjoner"
+    },
+    "synonyms": {
+      "slug": "synonymer",
+      "name": "Synonymer"
+    },
+    "word-parts": {
+      "slug": "forstavelser-endelser-og-rotord",
+      "name": "Forstavelser, endelser og rotord"
+    }
+  },
+  "skills": {
+    "2d-shapes": {
+      "full": "Geometriske figurer: kjenne igjen og sette navn på sirkel, kvadrat, trekant og rektangel, også snudde, finne figurer rundt oss, skrive navnene og tegne figurene.",
+      "short": "Navn på sirkel, kvadrat, trekant, rektangel"
+    },
+    "road-safety": {
+      "full": "Trafikk for barn: lese trafikklyset, gå trygt over veien, forstå trafikkskilt og hva de betyr, og sortere fareskilt, forbudsskilt og opplysningsskilt.",
+      "short": "Trafikklys, trafikkskilt og trafikkregler"
+    },
+    "family": {
+      "full": "Familie og slekt: familieord som mormor, farmor, tante og onkel, ordne generasjoner, fylle ut et slektstre med ledetråder og løse slektsgåter.",
+      "short": "Familieord, slektstre og slektsgåter"
+    },
+    "plants": {
+      "full": "Plantens deler: rot, stengel, blad, blomst, frukt og frø, hva en plante trenger for å vokse, fra frø til plante og blomstens deler.",
+      "short": "Plantens deler, hva de gjør, og hva en plante trenger"
+    },
+    "animal-life-cycles": {
+      "full": "Sommerfuglens og froskens livssyklus: fra egg til sommerfugl og fra froskeegg til frosk, ordne og sette navn på stadiene og sammenligne de to dyrene.",
+      "short": "Sommerfuglens og froskens livssyklus"
+    },
+    "earth-and-space": {
+      "full": "Solsystemet: skille mellom Solen, Jorden og Månen, ordne og sette navn på månens faser, forstå dag og natt og lære planetene i rekkefølge og etter størrelse.",
+      "short": "Solen, månens faser og planetene"
+    },
+    "maps": {
+      "full": "Kartlesing: lese tegnforklaringen, se ting i fugleperspektiv, himmelretningene nord, øst, sør og vest og verdensdeler og verdenshav på kartet.",
+      "short": "Kart, himmelretninger og verdensdeler"
+    },
+    "digraphs": {
+      "full": "Bokstavkombinasjoner: høre, sortere og skrive lyder som skrives med to bokstaver, lese ord og finne lyden i ordet og i setninger.",
+      "short": "Lyder som skrives med to bokstaver"
+    },
+    "synonyms": {
+      "full": "Synonymer: finne ord som betyr det samme, med bilder og ordpar, ordne ord etter styrke og velge riktig synonym for sa, gå og se.",
+      "short": "Ord som betyr det samme"
+    },
+    "word-parts": {
+      "full": "Forstavelser, endelser og rotord: sortere ord etter roten, finne rotordet, velge forstavelse etter betydning og lage ord for personer.",
+      "short": "Rotord, forstavelser og endelser – slik bygges ordene"
+    }
+  },
+  "topicMeta": {
+    "2d-shapes": "Geometriske figurer til utskrift for 1. trinn: sirkel, kvadrat, trekant og rektangel, også snudde, figurer rundt oss, navn og gåter.",
+    "road-safety": "Trafikk for barn til utskrift, fra barnehage til 2. trinn: trafikklys, gå trygt over veien, trafikkskilt og hva de betyr, trafikkquiz.",
+    "family": "Familie og slekt til utskrift: familieord som mormor og onkel, generasjoner, slektstre mal å fylle ut og slektsgåter for 1. og 2. trinn.",
+    "plants": "Plantens deler til utskrift: rot, stengel, blad og blomst, hva planten trenger, fra frø til plante og blomstens deler, 1. til 3. trinn.",
+    "animal-life-cycles": "Sommerfuglens livssyklus og froskens livssyklus til utskrift: fra egg til sommerfugl, fra froskeegg til frosk, stadier og sammenligning.",
+    "earth-and-space": "Solsystemet til utskrift: Solen, Jorden og Månen, månens faser, dag og natt og planetene i rekkefølge etter størrelse for 1. til 3. trinn.",
+    "maps": "Kart og himmelretninger til utskrift: tegnforklaring, fugleperspektiv, nord, øst, sør og vest, verdensdeler og verdenshav for småskolen.",
+    "digraphs": "Bokstavkombinasjoner til utskrift: høre og skrive lyder som skrives med to bokstaver, lese ord og finne lyden i setninger.",
+    "synonyms": "Synonymer oppgaver til utskrift for 1. til 3. trinn: ord som betyr det samme, synonymer med bilder, ordenes styrke og synonymer for sa, gå og se.",
+    "word-parts": "Forstavelser, endelser og rotord til utskrift: sortere etter roten, finne rotordet, forstavelsene gjen-, mis- og over- og ord for personer."
+  },
+  "banks": {
+    "2d-shapes": {
+      "names": {
+        "circle": "sirkel",
+        "square": "kvadrat",
+        "triangle": "trekant",
+        "rectangle": "rektangel",
+        "hexagon": "sekskant"
+      },
+      "overrides": {},
+      "inflections": {
+        "circle": [
+          "sirkelen",
+          "sirkler",
+          "sirklene",
+          "sirkelens"
+        ],
+        "square": [
+          "kvadratet",
+          "kvadrater",
+          "kvadratene",
+          "kvadratets"
+        ],
+        "triangle": [
+          "trekanten",
+          "trekanter",
+          "trekantene",
+          "trekantens"
+        ],
+        "rectangle": [
+          "rektangelet",
+          "rektanglet",
+          "rektangler",
+          "rektanglene",
+          "rektangelets"
+        ],
+        "hexagon": [
+          "sekskanten",
+          "sekskanter",
+          "sekskantene"
+        ]
+      },
+      "inventory": {
+        "hexagon": true
+      },
+      "riddles": {
+        "circle": [
+          {
+            "text": "Jeg er rund hele veien rundt og har ingen hjørner. Hva er jeg?",
+            "clue": "round"
+          },
+          {
+            "text": "Jeg har ingen rette sider og ingen hjørner i det hele tatt. Hva er jeg?",
+            "clue": "round"
+          }
+        ],
+        "square": [
+          {
+            "text": "Jeg har 4 like lange sider og 4 hjørner som hjørnet på en bok. Hva er jeg?",
+            "clue": "equal"
+          },
+          {
+            "text": "Alle mine 4 sider er like lange, og hjørnene mine er som et bokhjørne. Hva er jeg?",
+            "clue": "equal"
+          }
+        ],
+        "triangle": [
+          {
+            "text": "Jeg har 3 sider og 3 hjørner. Hva er jeg?",
+            "clue": "three"
+          },
+          {
+            "text": "Jeg har bare 3 rette sider. Hva er jeg?",
+            "clue": "three"
+          }
+        ],
+        "rectangle": [
+          {
+            "text": "Jeg har 2 lange og 2 korte sider og 4 hjørner som hjørnet på en bok. Hva er jeg?",
+            "clue": "longShort"
+          },
+          {
+            "text": "Hjørnene mine er som et bokhjørne, og jeg har 2 lange og 2 korte sider. Hva er jeg?",
+            "clue": "longShort"
+          }
+        ],
+        "hexagon": [
+          {
+            "text": "Jeg har 6 sider og 6 hjørner. Hva er jeg?",
+            "clue": "six"
+          },
+          {
+            "text": "Jeg har 6 rette sider. Hva er jeg?",
+            "clue": "six"
+          }
+        ]
+      },
+      "strings": {
+        "base": {
+          "title": "Geometriske figurer: hva heter figuren?",
+          "instruction": "Se på hver figur, også de som er snudd og smale, og ring rundt navnet til figuren."
+        },
+        "real-or-not": {
+          "title": "Geometriske figurer: er det riktig figur?",
+          "instruction": "Les navnet i hver rad og ring rundt alle figurene som virkelig er en slik figur."
+        },
+        "around-us": {
+          "title": "Geometriske figurer rundt oss",
+          "instruction": "Se på hvert bilde og fargelegg figuren som tingen har: sirkel eller rektangel."
+        },
+        "write-name": {
+          "title": "Geometriske figurer med navn: skriv navnene",
+          "instruction": "Se på hver figur og skriv navnet på streken, navnene står i ruten."
+        },
+        "riddles": {
+          "title": "Gåter om geometriske figurer",
+          "instruction": "Les hver gåte og ring rundt navnet til figuren."
+        },
+        "dot-draw": {
+          "title": "Tegn geometriske figurer på prikkark",
+          "instruction": "Les navnet og trekk streker mellom prikkene slik at figuren blir tegnet, start ved den tykke streken hvis det er en."
+        }
+      }
+    },
+    "road-safety": {
+      "convention": "vienna",
+      "signs": {
+        "stop": {
+          "code": "204",
+          "regRef": "Skiltforskriften, vikepliktskilt: 204 Stopp (rød åttekant med hvit kant og STOP); NB: 202 er Vikeplikt, ikke Stopp",
+          "shape": "octagon",
+          "rim": "white",
+          "field": "red",
+          "glyph": "text",
+          "text": "STOP",
+          "slash": false,
+          "class": "priority",
+          "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending"
+        },
+        "crossing": {
+          "code": "516",
+          "regRef": "Skiltforskriften, opplysningsskilt: 516 Gangfelt (blått kvadrat med hvit trekant og fotgjenger)",
+          "shape": "square",
+          "rim": "white",
+          "field": "blue",
+          "glyph": "crossingTriangle",
+          "text": "",
+          "slash": false,
+          "class": "information",
+          "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending"
+        },
+        "bike-path": {
+          "code": "unsure (522?)",
+          "regRef": "Skiltforskriften, opplysningsskilt: Sykkelveg (blått kvadrat med hvit sykkel); nummeret er usikkert",
+          "shape": "square",
+          "rim": "white",
+          "field": "blue",
+          "glyph": "bicycle",
+          "text": "",
+          "slash": false,
+          "class": "information",
+          "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending; the skilt number is marked unsure and must be checked against the forskrift before print"
+        },
+        "children": {
+          "code": "unsure (140?)",
+          "regRef": "Skiltforskriften, fareskilt: Barn (trekant med rød kant og gul bunn, to barn); nummeret er usikkert",
+          "shape": "triUp",
+          "rim": "red",
+          "field": "yellow",
+          "glyph": "twoChildren",
+          "text": "",
+          "slash": false,
+          "class": "warning",
+          "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending; the skilt number is marked unsure and must be checked against the forskrift before print"
+        },
+        "pedestrian-warning": {
+          "code": "unsure (138?)",
+          "regRef": "Skiltforskriften, fareskilt: Gangfelt/gående (trekant med rød kant og gul bunn, fotgjenger); nummeret er usikkert",
+          "shape": "triUp",
+          "rim": "red",
+          "field": "yellow",
+          "glyph": "walker",
+          "text": "",
+          "slash": false,
+          "class": "warning",
+          "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending; the skilt number is marked unsure and must be checked against the forskrift before print"
+        },
+        "signal-ahead": {
+          "code": "unsure (136?)",
+          "regRef": "Skiltforskriften, fareskilt: Trafikklys (trekant med rød kant og gul bunn, lite trafikklys); nummeret er usikkert",
+          "shape": "triUp",
+          "rim": "red",
+          "field": "yellow",
+          "glyph": "trafficLightMini",
+          "text": "",
+          "slash": false,
+          "class": "warning",
+          "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending; the skilt number is marked unsure and must be checked against the forskrift before print"
+        },
+        "bike-warning": {
+          "code": "unsure (142?)",
+          "regRef": "Skiltforskriften, fareskilt: Syklende (trekant med rød kant og gul bunn, sykkel); nummeret er usikkert",
+          "shape": "triUp",
+          "rim": "red",
+          "field": "yellow",
+          "glyph": "bicycle",
+          "text": "",
+          "slash": false,
+          "class": "warning",
+          "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending; the skilt number is marked unsure and must be checked against the forskrift before print"
+        },
+        "no-entry": {
+          "code": "302",
+          "regRef": "Skiltforskriften, forbudsskilt: 302 Innkjøring forbudt (rød skive med hvit vannrett strek)",
+          "shape": "circle",
+          "rim": null,
+          "field": "red",
+          "glyph": "bar",
+          "text": "",
+          "slash": false,
+          "class": "prohibition",
+          "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending"
+        },
+        "no-vehicles": {
+          "code": "unsure (306.0?)",
+          "regRef": "Skiltforskriften, forbudsskilt: Forbudt for alle kjøretøy (hvit skive med rød kant, uten symbol); nummeret er usikkert",
+          "shape": "circle",
+          "rim": "red",
+          "field": "white",
+          "glyph": "none",
+          "text": "",
+          "slash": false,
+          "class": "prohibition",
+          "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending; the skilt number is marked unsure and must be checked against the forskrift before print"
+        },
+        "no-bikes": {
+          "code": "unsure (306.7?)",
+          "regRef": "Skiltforskriften, forbudsskilt: Forbudt for syklende (hvit skive med rød kant og sykkel, uten skråstrek); nummeret er usikkert",
+          "shape": "circle",
+          "rim": "red",
+          "field": "white",
+          "glyph": "bicycle",
+          "text": "",
+          "slash": false,
+          "class": "prohibition",
+          "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending; the skilt number is marked unsure and must be checked against the forskrift before print"
+        },
+        "no-pedestrians": {
+          "code": "unsure (306.8?)",
+          "regRef": "Skiltforskriften, forbudsskilt: Forbudt for gående (hvit skive med rød kant og fotgjenger, uten skråstrek); nummeret er usikkert",
+          "shape": "circle",
+          "rim": "red",
+          "field": "white",
+          "glyph": "walker",
+          "text": "",
+          "slash": false,
+          "class": "prohibition",
+          "signedBy": "no native panel (nt10-E, 2026-09-23): shape, rim, field and symbol compared with the named skilt in skiltforskriften (FOR-2005-10-07-1219) and Statens vegvesen skiltnormal N300; operator review pending; the skilt number is marked unsure and must be checked against the forskrift before print"
+        }
+      },
+      "setG1": [
+        "stop",
+        "crossing",
+        "children",
+        "no-entry",
+        "signal-ahead",
+        "bike-path"
+      ],
+      "kindsPool": [
+        "children",
+        "pedestrian-warning",
+        "signal-ahead",
+        "bike-warning",
+        "no-vehicles",
+        "no-bikes",
+        "no-pedestrians",
+        "crossing",
+        "bike-path"
+      ],
+      "classes": [
+        {
+          "key": "warning",
+          "label": "Fareskilt"
+        },
+        {
+          "key": "prohibition",
+          "label": "Forbudsskilt"
+        },
+        {
+          "key": "information",
+          "label": "Opplysningsskilt"
+        }
+      ],
+      "pedLight": {
+        "stop": "standing",
+        "go": "walking",
+        "lamps": 2
+      },
+      "amber": {
+        "token": "codeYellow",
+        "word": "gul"
+      },
+      "amberMeans": "stop",
+      "chipWords": {
+        "ped": {
+          "stop": "vent",
+          "go": "gå"
+        },
+        "car": {
+          "stop": "stopp",
+          "go": "kjør"
+        }
+      },
+      "meanings": {
+        "stop": "Her må alle biler stoppe helt og slippe fram de andre.",
+        "crossing": "Her er et gangfelt der du kan gå over veien.",
+        "children": "Pass på, her kan barn løpe ut i veien.",
+        "no-entry": "Hit inn får ingen kjøre.",
+        "signal-ahead": "Pass på, snart kommer et trafikklys.",
+        "bike-path": "Denne veien er laget for sykler."
+      },
+      "situations": {
+        "stop": [
+          "I dette krysset må hver bil stå helt stille, selv om ingen kommer.",
+          "Her må bilførerne stanse helt og se at veien er fri."
+        ],
+        "crossing": [
+          "Her er et gangfelt der du kan gå trygt over veien.",
+          "Bilene skal slippe fram barna som går over de hvite stripene."
+        ],
+        "children": [
+          "Ved denne veien ligger en barnehage, så her er det mange små barn.",
+          "Pass på, bilførere: rett ved veien er det en lekeplass."
+        ],
+        "no-entry": [
+          "Inn i denne gata får ingen kjøre.",
+          "Her er det forbudt å kjøre inn, bilene må ta en annen vei."
+        ],
+        "signal-ahead": [
+          "Pass på, snart kommer et trafikklys.",
+          "Litt lenger fram er det lys som kan skifte til rødt."
+        ],
+        "bike-path": [
+          "Denne veien er laget bare for sykler.",
+          "Her sykler du på en egen vei ved siden av bilveien."
+        ],
+        "pedestrian-warning": [
+          "Pass på, her går det ofte folk over veien.",
+          "Kjør forsiktig: her kan fotgjengere komme ut i veien."
+        ],
+        "bike-warning": [
+          "Pass på, bilførere: her sykler mange barn over veien.",
+          "På denne veien kommer det ofte syklister."
+        ],
+        "no-vehicles": [
+          "Her får ingen kjøretøy kjøre, verken biler eller sykler.",
+          "Denne gata er stengt for alle kjøretøy, både biler og mopeder."
+        ],
+        "no-bikes": [
+          "Her er det forbudt å sykle, du må trille sykkelen.",
+          "På denne veien får du ikke sykle, men du kan gå."
+        ],
+        "no-pedestrians": [
+          "På denne veien får ingen gå, bare kjøretøy får kjøre.",
+          "Her er det forbudt å gå til fots, men biler får kjøre."
+        ]
+      },
+      "steps": [
+        "stop-kerb",
+        "look-left",
+        "look-right",
+        "walk-across"
+      ],
+      "listenStep": null,
+      "familyHead": "Trafikkskilt og trafikkregler",
+      "signHead": "Trafikkskilt",
+      "childAnchors": [
+        "for barn",
+        "barnehage",
+        "småskolen",
+        "1. trinn",
+        "2. trinn"
+      ],
+      "strings": {
+        "base": {
+          "title": "Trafikk for barn: hva viser trafikklyset?",
+          "instruction": "Se på lampen som lyser, og ring rundt det du skal gjøre."
+        },
+        "colour-lights": {
+          "title": "Trafikk for barn: fargelegg trafikklysene",
+          "instruction": "Finn lampen med stråler i hvert trafikklys og fargelegg den med fargen den lyser med."
+        },
+        "crossing-steps": {
+          "title": "Gå trygt over veien: steg for steg",
+          "instruction": "Skriv 1 til 4 i rutene slik at de viser hvordan du går trygt over veien."
+        },
+        "sign-meaning": {
+          "title": "Trafikkskilt for barn og hva de betyr",
+          "instruction": "Trekk en strek fra hvert trafikkskilt til det skiltet betyr."
+        },
+        "sign-kinds": {
+          "title": "Trafikkskilt for barn: fareskilt, forbudsskilt og opplysningsskilt",
+          "instruction": "Skriv bokstaven til hvert trafikkskilt i en rute under riktig gruppe skilt."
+        },
+        "sign-quiz": {
+          "title": "Trafikkquiz for barn: hvilket skilt passer?",
+          "instruction": "Les hver setning og ring rundt det ene trafikkskiltet som passer."
+        }
+      }
+    },
+    "family": {
+      "lineage": true,
+      "kin": {
+        "M": "mamma",
+        "F": "pappa",
+        "Z": "storesøster",
+        "B": "storebror",
+        "Zy": "lillesøster",
+        "By": "lillebror",
+        "MM": "mormor",
+        "MF": "morfar",
+        "FM": "farmor",
+        "FF": "farfar",
+        "MZ": "moster",
+        "FZ": "faster",
+        "MB": "morbror",
+        "FB": "farbror",
+        "MZD": "kusine",
+        "MZS": "fetter",
+        "MBD": "kusine",
+        "MBS": "fetter",
+        "FZD": "kusine",
+        "FZS": "fetter",
+        "FBD": "kusine",
+        "FBS": "fetter"
+      },
+      "words": {
+        "mamma": {
+          "text": "mamma",
+          "register": "K"
+        },
+        "pappa": {
+          "text": "pappa",
+          "register": "K"
+        },
+        "storesøster": {
+          "text": "storesøster",
+          "register": "K"
+        },
+        "storebror": {
+          "text": "storebror",
+          "register": "K"
+        },
+        "lillesøster": {
+          "text": "lillesøster",
+          "register": "K"
+        },
+        "lillebror": {
+          "text": "lillebror",
+          "register": "K"
+        },
+        "mormor": {
+          "text": "mormor",
+          "register": "K"
+        },
+        "morfar": {
+          "text": "morfar",
+          "register": "K"
+        },
+        "farmor": {
+          "text": "farmor",
+          "register": "K"
+        },
+        "farfar": {
+          "text": "farfar",
+          "register": "K"
+        },
+        "kusine": {
+          "text": "kusine",
+          "register": "K"
+        },
+        "fetter": {
+          "text": "fetter",
+          "register": "K"
+        },
+        "moster": {
+          "text": "moster",
+          "register": "K"
+        },
+        "faster": {
+          "text": "faster",
+          "register": "K"
+        },
+        "morbror": {
+          "text": "morbror",
+          "register": "K"
+        },
+        "farbror": {
+          "text": "farbror",
+          "register": "K"
+        }
+      },
+      "names": [
+        {
+          "name": "Nora",
+          "sex": "f",
+          "gen": "Noras"
+        },
+        {
+          "name": "Emil",
+          "sex": "m",
+          "gen": "Emils"
+        },
+        {
+          "name": "Emma",
+          "sex": "f",
+          "gen": "Emmas"
+        },
+        {
+          "name": "Noah",
+          "sex": "m",
+          "gen": "Noahs"
+        },
+        {
+          "name": "Ella",
+          "sex": "f",
+          "gen": "Ellas"
+        },
+        {
+          "name": "Isak",
+          "sex": "m",
+          "gen": "Isaks"
+        },
+        {
+          "name": "Ida",
+          "sex": "f",
+          "gen": "Idas"
+        },
+        {
+          "name": "Odin",
+          "sex": "m",
+          "gen": "Odins"
+        },
+        {
+          "name": "Tuva",
+          "sex": "f",
+          "gen": "Tuvas"
+        },
+        {
+          "name": "Iver",
+          "sex": "m",
+          "gen": "Ivers"
+        },
+        {
+          "name": "Maja",
+          "sex": "f",
+          "gen": "Majas"
+        },
+        {
+          "name": "Liam",
+          "sex": "m",
+          "gen": "Liams"
+        }
+      ],
+      "clueFrames": {
+        "M": "{name} er {egoGen} mamma.",
+        "F": "{name} er {egoGen} pappa.",
+        "Z": "{name} er {egoGen} storesøster.",
+        "B": "{name} er {egoGen} storebror.",
+        "Zy": "{name} er {egoGen} lillesøster.",
+        "By": "{name} er {egoGen} lillebror.",
+        "MM": "{name} er {egoGen} mormor.",
+        "MF": "{name} er {egoGen} morfar.",
+        "FM": "{name} er {egoGen} farmor.",
+        "FF": "{name} er {egoGen} farfar.",
+        "MZ": "{name} er {egoGen} moster.",
+        "FZ": "{name} er {egoGen} faster.",
+        "MB": "{name} er {egoGen} morbror.",
+        "FB": "{name} er {egoGen} farbror.",
+        "MZD": "{name} er {egoGen} kusine.",
+        "MZS": "{name} er {egoGen} fetter.",
+        "MBD": "{name} er {egoGen} kusine.",
+        "MBS": "{name} er {egoGen} fetter.",
+        "FZD": "{name} er {egoGen} kusine.",
+        "FZS": "{name} er {egoGen} fetter.",
+        "FBD": "{name} er {egoGen} kusine.",
+        "FBS": "{name} er {egoGen} fetter."
+      },
+      "riddleFrames": {
+        "MM": "{egoGen} mammas mamma er {egoGen} ___.",
+        "FM": "{egoGen} pappas mamma er {egoGen} ___.",
+        "MF": "{egoGen} mammas pappa er {egoGen} ___.",
+        "FF": "{egoGen} pappas pappa er {egoGen} ___.",
+        "MZ": "{egoGen} mammas søster er {egoGen} ___.",
+        "FZ": "{egoGen} pappas søster er {egoGen} ___.",
+        "MB": "{egoGen} mammas bror er {egoGen} ___.",
+        "FB": "{egoGen} pappas bror er {egoGen} ___."
+      },
+      "distractors": [
+        "mamma",
+        "pappa"
+      ],
+      "repeatsNote": false,
+      "repeatsNoteText": "ett ord kan passe til flere gåter",
+      "generationOK": [
+        "mamma",
+        "pappa",
+        "storesøster",
+        "storebror",
+        "lillesøster",
+        "lillebror",
+        "mormor",
+        "morfar",
+        "farmor",
+        "farfar",
+        "kusine",
+        "fetter",
+        "moster",
+        "faster",
+        "morbror",
+        "farbror"
+      ],
+      "agreeing": [
+        "en",
+        "ei",
+        "et",
+        "hans",
+        "hennes",
+        "sin",
+        "si",
+        "sitt",
+        "den",
+        "det"
+      ],
+      "firstPerson": [
+        "jeg",
+        "meg",
+        "min",
+        "mi",
+        "mitt",
+        "mine",
+        "vi",
+        "oss",
+        "vår",
+        "vårt",
+        "våre"
+      ],
+      "meWord": "jeg",
+      "forbiddenInTemplate": [
+        "mamma",
+        "pappa",
+        "mor",
+        "far",
+        "foreldre",
+        "familien din"
+      ],
+      "instructionBans": [
+        "kryss",
+        "klipp",
+        "fargelegg",
+        "gratis",
+        "fasit"
+      ],
+      "familyHead": "Familie og slekt",
+      "strings": {
+        "base": {
+          "title": "Familie og slekt: hvem er hvem?",
+          "instruction": "Finn hver person i slektstreet og skriv tallet til personen i ruten ved siden av riktig familieord."
+        },
+        "generations": {
+          "title": "Generasjoner i slekta: fra eldst til yngst",
+          "instruction": "Skriv 1, 2 og 3 i rutene i hver rad slik at ordene står fra den eldste generasjonen til den yngste."
+        },
+        "trace-words": {
+          "title": "Familieord: spor og skriv",
+          "instruction": "Finn personen med samme tall i treet, spor familieordet og skriv det en gang til på streken."
+        },
+        "tree-clues": {
+          "title": "Slektstre: les ledetrådene",
+          "instruction": "Les ledetrådene og skriv hvert navn i riktig navnerute i slektstreet."
+        },
+        "relation-riddles": {
+          "title": "Slektsgåter: mormor, farfar, moster eller farbror?",
+          "instruction": "Les hver gåte og skriv riktig familieord fra ruten på streken."
+        },
+        "tree-template": {
+          "title": "Slektstre: mal til å fylle ut selv",
+          "instruction": "Tegn menneskene som er viktige for deg i rammene og skriv navnene deres på strekene."
+        }
+      }
+    },
+    "plants": {
+      "partWords": {
+        "root": "rot",
+        "stem": "stengel",
+        "leaf": "blad",
+        "flower": "blomst",
+        "fruit": "frukt",
+        "seed": "frø"
+      },
+      "flowerWords": {
+        "petal": "kronblad",
+        "sepal": "begerblad",
+        "stamen": "støvbærer",
+        "pistil": "støvvei",
+        "stalk": "stilk",
+        "ovary": "fruktemne"
+      },
+      "jobs": {
+        "root": "suger opp vann fra jorda",
+        "stem": "holder planten oppe slik at den står rett",
+        "leaf": "lager næring til planten med hjelp av sollys",
+        "flower": "lokker til seg bier",
+        "seed": "kan spire og bli en ny plante"
+      },
+      "partStems": [
+        "rot",
+        "roten",
+        "rota",
+        "røtter",
+        "røttene",
+        "stengel",
+        "stengelen",
+        "stengler",
+        "stilk",
+        "stilken",
+        "stilker",
+        "blad",
+        "bladet",
+        "bladene",
+        "blomst",
+        "blomsten",
+        "blomster",
+        "blomstene",
+        "blomstre",
+        "frukt",
+        "frukten",
+        "frukter",
+        "fruktene",
+        "frø",
+        "frøet",
+        "frøene",
+        "kronblad"
+      ],
+      "forbidden": [
+        "roten",
+        "rota",
+        "stengelen",
+        "bladet",
+        "blomsten",
+        "frukten",
+        "frøet",
+        "stamme",
+        "knopp",
+        "grønnsak",
+        "grønnsaker"
+      ],
+      "refuseItems": [],
+      "refuse": [],
+      "instructionBans": {
+        "base": [
+          "ring",
+          "fargelegg",
+          "klipp"
+        ],
+        "flower": [
+          "ring",
+          "fargelegg",
+          "klipp"
+        ],
+        "needs": [
+          "ord",
+          "ordene",
+          "skriv"
+        ],
+        "eat": [
+          "grønnsak",
+          "grønnsaker"
+        ],
+        "jobs": [
+          "ordbanken",
+          "ordbank"
+        ]
+      },
+      "strings": {
+        "base": {
+          "title": "Plantens deler",
+          "instruction": "Følg hver nummererte lapp til en del av planten og skriv navnet på delen fra ordbanken på streken med samme tall."
+        },
+        "needs": {
+          "title": "Hva trenger en plante for å vokse?",
+          "instruction": "Ring rundt planten i hver rad som får begge tingene den trenger for å vokse."
+        },
+        "cycle": {
+          "title": "Fra frø til plante",
+          "instruction": "Klipp ut de fire bildene og lim dem inn i de tomme rutene i retning av pilene, start ved frøet."
+        },
+        "eat": {
+          "title": "Hvilke deler av planten spiser vi?",
+          "instruction": "Se på hver matvare og ring rundt den delen av planten som vi spiser."
+        },
+        "jobs": {
+          "title": "Plantens deler og hva de gjør",
+          "instruction": "Les hva hver del gjør, finn delen på planten og skriv tallet på lappen i ruten."
+        },
+        "flower": {
+          "title": "Blomstens deler",
+          "instruction": "Skriv navnet på hver nummererte del av blomsten på streken, og stryk ordet i ordbanken som ikke er en del av en blomst."
+        }
+      }
+    },
+    "animal-life-cycles": {
+      "stageWords": {
+        "butterfly": {
+          "egg": "egg",
+          "larva": "larve",
+          "pupa": "puppe",
+          "adult": "sommerfugl"
+        }
+      },
+      "decoy": {
+        "frog.tadpole": "rumpetroll"
+      },
+      "landingWords": {
+        "frog": {
+          "spawn": "froskeegg",
+          "tadpole": "rumpetroll",
+          "legged": "rumpetroll med bein",
+          "froglet": "froskeunge",
+          "adult": "frosk"
+        },
+        "ladybird": {
+          "egg": "egg",
+          "larva": "larve",
+          "pupa": "puppe",
+          "adult": "marihøne"
+        }
+      },
+      "statements": {
+        "egg": "Den begynner livet som et egg.",
+        "change": "Ungen ser helt annerledes ut enn det voksne dyret.",
+        "pupa": "En stund er den en puppe.",
+        "wings": "Det voksne dyret har vinger.",
+        "sixlegs": "Det voksne dyret har seks bein.",
+        "nectar": "Det voksne dyret drikker nektar fra blomster.",
+        "tail": "Ungen svømmer med halen.",
+        "water": "Ungen lever i vann.",
+        "nolegs": "Ungen har ingen bein i begynnelsen.",
+        "fourlegs": "Det voksne dyret har fire bein.",
+        "insects": "Det voksne dyret fanger insekter og spiser dem."
+      },
+      "drop": [],
+      "familyName": "Sommerfuglens og froskens livssyklus",
+      "spawnForm": "clump",
+      "forbidden": [
+        "kokong",
+        "kokongen",
+        "kokonger"
+      ],
+      "genreBare": [
+        "livssyklus",
+        "livssyklusen",
+        "livssykluser"
+      ],
+      "pictureWord": "bildet",
+      "instructionBans": {
+        "G1-377": [
+          "klipp",
+          "lim",
+          "kryss",
+          "ring",
+          "bokstav",
+          "bokstaven"
+        ],
+        "G1-389": [
+          "skriv",
+          "kryss",
+          "ring"
+        ],
+        "G2-365": [
+          "klipp",
+          "kryss",
+          "ring"
+        ],
+        "G2-366": [
+          "klipp",
+          "kryss",
+          "ring",
+          "tall",
+          "tallet"
+        ],
+        "G3-393": [
+          "ring",
+          "klipp",
+          "skriv"
+        ],
+        "G1-390": [
+          "skriv",
+          "kryss",
+          "klipp"
+        ]
+      },
+      "refuse": [],
+      "strings": {
+        "G1-377": {
+          "title": "Sommerfuglens livssyklus: fra egg til sommerfugl",
+          "instruction": "Egget er 1: skriv 2, 3 og 4 i rutene i riktig rekkefølge, og i den siste ruten tallet på bildet som kommer etter sommerfuglen."
+        },
+        "G1-389": {
+          "title": "Froskens livssyklus: klipp og lim",
+          "instruction": "Klipp ut de fire rutene og lim hver av dem på sitt nøkkeroseblad, rundt dammen fra froskeegget til frosken."
+        },
+        "G2-365": {
+          "title": "Sommerfuglens livssyklus: skriv navnene på stadiene",
+          "instruction": "Skriv de fire stadiene fra ordbanken på streken under riktig bilde, og stryk det ene ordet som ikke hører til."
+        },
+        "G2-366": {
+          "title": "Metamorfose: hva blir hvert stadium til?",
+          "instruction": "Se på hvert stadium og skriv bokstaven i en rute under dyret det blir til, noen ruter blir stående tomme."
+        },
+        "G3-393": {
+          "title": "Sommerfuglens og froskens livssyklus: sammenlign",
+          "instruction": "Les hver setning og sett kryss under sommerfuglen, frosken eller begge når setningen stemmer for dyret."
+        },
+        "G1-390": {
+          "title": "Hva kommer etterpå? Sommerfugl, frosk og marihøne",
+          "instruction": "Ring rundt bildet som kommer rett etter det første i hver rad; etter det voksne dyret begynner det på nytt med egg."
+        }
+      }
+    },
+    "earth-and-space": {
+      "hemisphere": "N",
+      "bodies": {
+        "sun": "Solen",
+        "earth": "Jorden",
+        "moon": "Månen"
+      },
+      "facts": {
+        "ownLight": "Den lager sitt eget lys.",
+        "star": "Den er en stjerne.",
+        "hottest": "Den er varmest av de tre.",
+        "biggest": "Den er størst av de tre.",
+        "liveOn": "Mennesker og dyr bor på den.",
+        "oceans": "Den har store hav med vann.",
+        "air": "Den har luft som vi kan puste inn.",
+        "planet": "Den er en planet.",
+        "spinDay": "Når den snurrer, får vi dag og natt.",
+        "orbitsEarth": "Den går i bane rundt planeten vi bor på.",
+        "seemsToChange": "Formen dens ser ut til å endre seg.",
+        "craters": "Den er dekket av kratre.",
+        "smallest": "Den er minst av de tre."
+      },
+      "leakForms": [],
+      "genderNeutral": true,
+      "forbiddenStems": [
+        "gir lys",
+        "gir oss lys",
+        "lyser",
+        "om natten",
+        "går rundt solen",
+        "kretser rundt solen",
+        "går opp",
+        "går ned",
+        "er rund",
+        "på himmelen",
+        "gått på",
+        "ingen luft",
+        "speiler",
+        "beveger seg over",
+        "sommer",
+        "vinter",
+        "høst",
+        "regn",
+        "snø",
+        "skyer",
+        "vær",
+        "varm dag",
+        "kald dag"
+      ],
+      "phaseNames": {
+        "0": "nymåne",
+        "2": "voksende halvmåne",
+        "4": "fullmåne",
+        "6": "minkende halvmåne"
+      },
+      "planets": {
+        "mercury": "Merkur",
+        "venus": "Venus",
+        "earth": "Jorden",
+        "mars": "Mars",
+        "jupiter": "Jupiter",
+        "saturn": "Saturn",
+        "uranus": "Uranus",
+        "neptune": "Neptun"
+      },
+      "notPlanet": {
+        "sun": "Solen",
+        "moon": "Månen"
+      },
+      "classLabels": {
+        "giant": "kjempeplanet",
+        "rocky": "liten steinplanet",
+        "notPlanet": "ikke en planet"
+      },
+      "mnemonic": "Min Venn Jens Maler Jordbær Så Utrolig Nydelig",
+      "refuse": [],
+      "strings": {
+        "base": {
+          "title": "Solen, Jorden og Månen",
+          "instruction": "Les hver setning og sett kryss for om den handler om Solen, Jorden eller Månen."
+        },
+        "moon-phases-in-order": {
+          "title": "Månens faser i riktig rekkefølge",
+          "instruction": "Se på kilen i hver rad, om månen vokser eller minker, og skriv 1 til 5 under månene i den rekkefølgen."
+        },
+        "moon-phase-names": {
+          "title": "Månens faser: skriv navnene",
+          "instruction": "Se på hver måne og skriv navnet på strekene, hvert ord i ordbanken brukes to ganger."
+        },
+        "day-and-night-model": {
+          "title": "Hvorfor blir det dag og natt?",
+          "instruction": "Se hvor Solen er, og ring rundt dag eller natt i tabellen for hver nummererte nål."
+        },
+        "planets-in-order": {
+          "title": "Planetene i rekkefølge fra Solen",
+          "instruction": "Skriv navnet på hver planet på streken, start nærmest Solen og bruk hvert navn i ruten én gang."
+        },
+        "planet-sizes": {
+          "title": "Planetene etter størrelse: kjempeplaneter og steinplaneter",
+          "instruction": "Sorter navnene og skriv hvert av dem i riktig rute: kjempeplanet, liten steinplanet eller ikke en planet."
+        }
+      }
+    },
+    "maps": {
+      "keyTitle": "Tegnforklaring",
+      "symbolWords": {
+        "house": "hus",
+        "tree": "løvtre",
+        "bush": "busk",
+        "pond": "dam",
+        "bench": "benk",
+        "tent": "telt",
+        "flowerBed": "blomst",
+        "bridge": "bru"
+      },
+      "dirWords": {
+        "n": "nord",
+        "e": "øst",
+        "s": "sør",
+        "w": "vest"
+      },
+      "dirLetters": {
+        "n": "N",
+        "e": "Ø",
+        "s": "S",
+        "w": "V"
+      },
+      "continentSet": [
+        {
+          "id": "northAmerica",
+          "regions": [
+            "northAmerica"
+          ]
+        },
+        {
+          "id": "southAmerica",
+          "regions": [
+            "southAmerica"
+          ]
+        },
+        {
+          "id": "europe",
+          "regions": [
+            "europe"
+          ]
+        },
+        {
+          "id": "asia",
+          "regions": [
+            "asia"
+          ]
+        },
+        {
+          "id": "africa",
+          "regions": [
+            "africa"
+          ]
+        },
+        {
+          "id": "oceania",
+          "regions": [
+            "oceania"
+          ]
+        },
+        {
+          "id": "antarctica",
+          "regions": [
+            "antarctica"
+          ]
+        }
+      ],
+      "continentNames": {
+        "northAmerica": "Nord-Amerika",
+        "southAmerica": "Sør-Amerika",
+        "europe": "Europa",
+        "asia": "Asia",
+        "africa": "Afrika",
+        "oceania": "Oseania",
+        "antarctica": "Antarktis"
+      },
+      "oceanSet": [
+        "pacific",
+        "atlantic",
+        "indian",
+        "arctic",
+        "southern"
+      ],
+      "oceanNames": {
+        "pacific": "Stillehavet",
+        "atlantic": "Atlanterhavet",
+        "indian": "Indiahavet",
+        "arctic": "Nordishavet",
+        "southern": "Sørishavet"
+      },
+      "setSource": "Norske læreverk i samfunnsfag for småskolen (LK20 samfunnsfag: kart og himmelretninger) og Store norske leksikon teller sju verdensdeler (med Oseania og Antarktis) og fem verdenshav (med Sørishavet)",
+      "mnemonic": "Nora Ønsker Seg Vafler",
+      "refuse": [],
+      "instructionBans": {},
+      "strings": {
+        "base": {
+          "title": "Kartlesing: les tegnforklaringen",
+          "instruction": "Se på tegnforklaringen, finn hver ting på kartet og skriv i ruten hvor mange det er."
+        },
+        "top-view": {
+          "title": "Fugleperspektiv: fra siden og ovenfra",
+          "instruction": "Hver ting er tegnet fra siden, så trekk en strek til den samme tingen sett ovenfra."
+        },
+        "compass-rose": {
+          "title": "Himmelretninger: nord, øst, sør og vest",
+          "instruction": "Den oransje spissen viser nord, og hver kompassrose viser én bokstav, så skriv de tre andre bokstavene i de tomme rutene."
+        },
+        "continents": {
+          "title": "Verdensdeler: skriv navnene",
+          "instruction": "Skriv navnet på hver nummererte verdensdel på streken og ta navnene fra ruten."
+        },
+        "continents-oceans": {
+          "title": "Verdensdeler og verdenshav",
+          "instruction": "Finn hver verdensdel og hvert verdenshav på kartet og skriv tallet i ruten ved siden av navnet."
+        },
+        "directions-on-map": {
+          "title": "Himmelretninger på kartet",
+          "instruction": "Finn det første bildet på kartet, se i retningen ordet sier, og ring rundt det av de tre bildene som ligger der."
+        }
+      }
+    },
+    "synonyms": {
+      "head": "Synonymer",
+      "allowed": [
+        " ",
+        "-"
+      ],
+      "ban": [
+        "lett",
+        "god",
+        "fin",
+        "søt",
+        "dårlig",
+        "snill",
+        "stille",
+        "hard",
+        "lys",
+        "klar",
+        "kul",
+        "artig",
+        "sur",
+        "lur",
+        "svær",
+        "dette",
+        "rolig",
+        "enkel",
+        "syk",
+        "sjuk"
+      ],
+      "regional": [
+        [
+          "syk",
+          "sjuk"
+        ]
+      ],
+      "groups": [
+        {
+          "id": "g.happy",
+          "concept": "happy",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "glad",
+            "blid",
+            "lykkelig"
+          ]
+        },
+        {
+          "id": "g.sad",
+          "concept": "sad",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "trist",
+            "lei seg"
+          ]
+        },
+        {
+          "id": "g.angry",
+          "concept": "angry",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "sint",
+            "arg"
+          ]
+        },
+        {
+          "id": "g.scared",
+          "concept": "scared",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "redd",
+            "skremt"
+          ]
+        },
+        {
+          "id": "g.surprised",
+          "concept": "surprised",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 2,
+          "words": [
+            "overrasket",
+            "forbauset"
+          ]
+        },
+        {
+          "id": "g.tired",
+          "concept": "tired",
+          "pos": "adj",
+          "domain": "body",
+          "tier": 1,
+          "words": [
+            "trøtt",
+            "søvnig"
+          ]
+        },
+        {
+          "id": "g.strong",
+          "concept": "strong",
+          "pos": "adj",
+          "domain": "body",
+          "tier": 2,
+          "words": [
+            "sterk",
+            "kraftig"
+          ]
+        },
+        {
+          "id": "g.big",
+          "concept": "big",
+          "pos": "adj",
+          "domain": "size-speed",
+          "tier": 1,
+          "words": [
+            "stor",
+            "diger"
+          ]
+        },
+        {
+          "id": "g.fast",
+          "concept": "fast",
+          "pos": "adj",
+          "domain": "size-speed",
+          "tier": 1,
+          "words": [
+            "rask",
+            "kjapp"
+          ]
+        },
+        {
+          "id": "g.difficult",
+          "concept": "difficult",
+          "pos": "adj",
+          "domain": "thinking",
+          "tier": 2,
+          "words": [
+            "vanskelig",
+            "vrien"
+          ]
+        },
+        {
+          "id": "g.smart",
+          "concept": "smart",
+          "pos": "adj",
+          "domain": "thinking",
+          "tier": 2,
+          "words": [
+            "smart",
+            "klok"
+          ]
+        },
+        {
+          "id": "g.brave",
+          "concept": "brave",
+          "pos": "adj",
+          "domain": "character",
+          "tier": 2,
+          "words": [
+            "modig",
+            "uredd"
+          ]
+        },
+        {
+          "id": "g.strange",
+          "concept": "strange",
+          "pos": "adj",
+          "domain": "character",
+          "tier": 2,
+          "words": [
+            "rar",
+            "merkelig",
+            "underlig"
+          ]
+        },
+        {
+          "id": "g.loud",
+          "concept": "loud",
+          "pos": "adj",
+          "domain": "senses",
+          "tier": 1,
+          "words": [
+            "høylytt",
+            "bråkete"
+          ]
+        },
+        {
+          "id": "g.tasty",
+          "concept": "tasty",
+          "pos": "adj",
+          "domain": "senses",
+          "tier": 1,
+          "words": [
+            "deilig",
+            "velsmakende"
+          ]
+        },
+        {
+          "id": "g.cozy",
+          "concept": "cozy",
+          "pos": "adj",
+          "domain": "senses",
+          "tier": 2,
+          "words": [
+            "koselig",
+            "hyggelig"
+          ]
+        },
+        {
+          "id": "g.pretty",
+          "concept": "pretty",
+          "pos": "adj",
+          "domain": "looks",
+          "tier": 1,
+          "words": [
+            "pen",
+            "vakker"
+          ]
+        },
+        {
+          "id": "g.tidy",
+          "concept": "tidy",
+          "pos": "adj",
+          "domain": "looks",
+          "tier": 2,
+          "words": [
+            "ryddig",
+            "ordentlig"
+          ]
+        },
+        {
+          "id": "g.dirty",
+          "concept": "dirty",
+          "pos": "adj",
+          "domain": "looks",
+          "tier": 2,
+          "words": [
+            "skitten",
+            "møkkete"
+          ]
+        },
+        {
+          "id": "g.begin",
+          "concept": "begin",
+          "pos": "verb",
+          "domain": "begin-end",
+          "tier": 1,
+          "words": [
+            "begynne",
+            "starte"
+          ]
+        },
+        {
+          "id": "g.shut",
+          "concept": "shut",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 1,
+          "words": [
+            "lukke",
+            "stenge"
+          ]
+        },
+        {
+          "id": "g.fix",
+          "concept": "fix",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 1,
+          "words": [
+            "reparere",
+            "fikse"
+          ]
+        },
+        {
+          "id": "g.choose",
+          "concept": "choose",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 2,
+          "words": [
+            "velge",
+            "plukke ut"
+          ]
+        },
+        {
+          "id": "g.collect",
+          "concept": "collect",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 2,
+          "words": [
+            "samle",
+            "sanke"
+          ]
+        },
+        {
+          "id": "g.jump",
+          "concept": "jump",
+          "pos": "verb",
+          "domain": "move",
+          "tier": 1,
+          "words": [
+            "hoppe",
+            "bykse"
+          ]
+        },
+        {
+          "id": "g.throw",
+          "concept": "throw",
+          "pos": "verb",
+          "domain": "move",
+          "tier": 1,
+          "words": [
+            "kaste",
+            "slenge"
+          ]
+        },
+        {
+          "id": "g.fall",
+          "concept": "fall",
+          "pos": "verb",
+          "domain": "move",
+          "tier": 2,
+          "words": [
+            "falle",
+            "ramle"
+          ]
+        },
+        {
+          "id": "g.talk",
+          "concept": "talk",
+          "pos": "verb",
+          "domain": "speak",
+          "tier": 1,
+          "words": [
+            "snakke",
+            "prate"
+          ]
+        },
+        {
+          "id": "g.cry",
+          "concept": "cry",
+          "pos": "verb",
+          "domain": "face",
+          "tier": 2,
+          "words": [
+            "gråte",
+            "grine"
+          ]
+        },
+        {
+          "id": "g.smile",
+          "concept": "smile",
+          "pos": "verb",
+          "domain": "face",
+          "tier": 1,
+          "words": [
+            "smile",
+            "glise"
+          ]
+        }
+      ],
+      "near": [
+        {
+          "a": "varm",
+          "b": "lunken",
+          "why": "shade: lunken er mindre varm"
+        },
+        {
+          "a": "kald",
+          "b": "kjølig",
+          "why": "shade: kjølig er litt kald"
+        },
+        {
+          "a": "våt",
+          "b": "fuktig",
+          "why": "shade: fuktig er litt våt"
+        },
+        {
+          "a": "sint",
+          "b": "irritert",
+          "why": "shade: irritert er litt sint"
+        },
+        {
+          "a": "redd",
+          "b": "engstelig",
+          "why": "engstelig er en annen følelse, ikke bare litt redd"
+        },
+        {
+          "a": "trist",
+          "b": "fortvilet",
+          "why": "shade: fortvilet er mye mer enn trist"
+        },
+        {
+          "a": "stor",
+          "b": "enorm",
+          "why": "shade: enorm er mye større enn stor"
+        },
+        {
+          "a": "snakke",
+          "b": "rope",
+          "why": "å rope er å snakke veldig høyt"
+        },
+        {
+          "a": "sterk",
+          "b": "modig",
+          "why": "kroppens styrke mot mot"
+        },
+        {
+          "a": "bra",
+          "b": "flott",
+          "why": "shade"
+        },
+        {
+          "a": "like",
+          "b": "elske",
+          "why": "shade"
+        },
+        {
+          "a": "spise",
+          "b": "sluke",
+          "why": "shade: å sluke er å spise fort og mye"
+        },
+        {
+          "a": "plukke ut",
+          "b": "samle",
+          "why": "plukke blomster = samle dem, men plukke ut = velge"
+        },
+        {
+          "a": "ryddig",
+          "b": "pen",
+          "why": "pent kan bety ordentlig (rydde pent), men pen er et ord om utseende"
+        },
+        {
+          "a": "sint",
+          "b": "vrien",
+          "why": "om en person kan vrien bety gretten, nesten sint"
+        },
+        {
+          "a": "arg",
+          "b": "vrien",
+          "why": "om en person kan vrien bety gretten, nesten arg"
+        }
+      ],
+      "nearOnly": [
+        "engstelig",
+        "fortvilet",
+        "enorm"
+      ],
+      "falseOf": {
+        "happy": [
+          "trist",
+          "lei seg",
+          "sint",
+          "arg",
+          "redd",
+          "skremt",
+          "overrasket",
+          "forbauset",
+          "trøtt",
+          "søvnig",
+          "rask",
+          "kjapp",
+          "stor",
+          "diger"
+        ],
+        "sad": [
+          "glad",
+          "blid",
+          "lykkelig",
+          "sint",
+          "arg",
+          "overrasket",
+          "forbauset",
+          "rask",
+          "kjapp",
+          "stor",
+          "diger"
+        ],
+        "angry": [
+          "glad",
+          "blid",
+          "lykkelig",
+          "trist",
+          "lei seg",
+          "redd",
+          "skremt",
+          "overrasket",
+          "forbauset",
+          "trøtt",
+          "søvnig",
+          "rask",
+          "kjapp",
+          "stor",
+          "diger"
+        ],
+        "scared": [
+          "glad",
+          "blid",
+          "lykkelig",
+          "trist",
+          "lei seg",
+          "trøtt",
+          "søvnig",
+          "rask",
+          "kjapp",
+          "stor",
+          "diger"
+        ],
+        "surprised": [
+          "glad",
+          "blid",
+          "lykkelig",
+          "trist",
+          "lei seg",
+          "sint",
+          "arg",
+          "trøtt",
+          "søvnig",
+          "rask",
+          "kjapp",
+          "stor",
+          "diger"
+        ],
+        "tired": [
+          "glad",
+          "blid",
+          "lykkelig",
+          "sint",
+          "arg",
+          "redd",
+          "skremt",
+          "overrasket",
+          "forbauset",
+          "rask",
+          "kjapp",
+          "stor",
+          "diger"
+        ],
+        "fast": [
+          "glad",
+          "blid",
+          "lykkelig",
+          "trist",
+          "lei seg",
+          "sint",
+          "arg",
+          "redd",
+          "skremt",
+          "overrasket",
+          "forbauset",
+          "trøtt",
+          "søvnig"
+        ],
+        "big": [
+          "trist",
+          "lei seg",
+          "sint",
+          "arg",
+          "redd",
+          "skremt",
+          "overrasket",
+          "forbauset",
+          "rask",
+          "kjapp"
+        ]
+      },
+      "scales": [
+        {
+          "id": "s.heat",
+          "pos": "adj",
+          "words": [
+            "lunken",
+            "varm",
+            "brennhet"
+          ]
+        },
+        {
+          "id": "s.cold",
+          "pos": "adj",
+          "words": [
+            "kjølig",
+            "kald",
+            "iskald"
+          ]
+        },
+        {
+          "id": "s.wet",
+          "pos": "adj",
+          "words": [
+            "fuktig",
+            "våt",
+            "søkkvåt"
+          ]
+        },
+        {
+          "id": "s.angry",
+          "pos": "adj",
+          "words": [
+            "irritert",
+            "sint",
+            "rasende"
+          ]
+        },
+        {
+          "id": "s.good",
+          "pos": "adj",
+          "words": [
+            "bra",
+            "flott",
+            "fantastisk"
+          ]
+        },
+        {
+          "id": "s.hunger",
+          "pos": "adj",
+          "words": [
+            "småsulten",
+            "sulten",
+            "skrubbsulten"
+          ]
+        },
+        {
+          "id": "s.eat",
+          "pos": "verb",
+          "words": [
+            "smake på",
+            "spise",
+            "sluke"
+          ]
+        },
+        {
+          "id": "s.drink",
+          "pos": "verb",
+          "words": [
+            "nippe",
+            "drikke",
+            "helle i seg"
+          ]
+        },
+        {
+          "id": "s.like",
+          "pos": "verb",
+          "words": [
+            "like",
+            "elske",
+            "forgude"
+          ]
+        },
+        {
+          "id": "s.voice",
+          "pos": "verb",
+          "words": [
+            "hviske",
+            "snakke",
+            "rope"
+          ]
+        }
+      ],
+      "fields": {
+        "say": {
+          "head": "sa",
+          "form": "preteritum",
+          "words": [
+            "hvisket",
+            "ropte",
+            "spurte",
+            "svarte",
+            "forklarte",
+            "lovet"
+          ],
+          "sentences": [
+            {
+              "id": "f1",
+              "text": "«Hysj, babyen sover», {gap} {name} veldig lavt.",
+              "plainVerbOK": true,
+              "fit": {
+                "hvisket": true,
+                "ropte": false,
+                "spurte": false,
+                "svarte": false,
+                "forklarte": false,
+                "lovet": false
+              }
+            },
+            {
+              "id": "f2",
+              "text": "«Jeg har en hemmelighet til deg», {gap} {name} inn i øret til mormor.",
+              "plainVerbOK": true,
+              "fit": {
+                "hvisket": true,
+                "ropte": false,
+                "spurte": false,
+                "svarte": false,
+                "forklarte": false,
+                "lovet": false
+              }
+            },
+            {
+              "id": "f3",
+              "text": "Bussen skulle akkurat kjøre, derfor {gap} {name}: «Vent på meg!»",
+              "plainVerbOK": true,
+              "fit": {
+                "hvisket": false,
+                "ropte": true,
+                "spurte": false,
+                "svarte": false,
+                "forklarte": false,
+                "lovet": false
+              }
+            },
+            {
+              "id": "f4",
+              "text": "«Kom og lek!» {gap} {name} over hele skolegården.",
+              "plainVerbOK": true,
+              "fit": {
+                "hvisket": false,
+                "ropte": true,
+                "spurte": false,
+                "svarte": false,
+                "forklarte": false,
+                "lovet": false
+              }
+            },
+            {
+              "id": "f5",
+              "text": "«Hvor er den røde lua mi?» {gap} {name}.",
+              "plainVerbOK": true,
+              "fit": {
+                "hvisket": false,
+                "ropte": false,
+                "spurte": true,
+                "svarte": false,
+                "forklarte": false,
+                "lovet": false
+              }
+            },
+            {
+              "id": "f6",
+              "text": "Læreren lurte på hva sju og tre blir. «Ti!» {gap} {name} med et stort smil.",
+              "plainVerbOK": true,
+              "fit": {
+                "hvisket": false,
+                "ropte": false,
+                "spurte": false,
+                "svarte": true,
+                "forklarte": false,
+                "lovet": false
+              }
+            },
+            {
+              "id": "f7",
+              "text": "«Først graver du et hull, og etterpå legger du frøet oppi», {gap} {name} til lillebror, som aldri hadde sådd før.",
+              "plainVerbOK": true,
+              "fit": {
+                "hvisket": false,
+                "ropte": false,
+                "spurte": false,
+                "svarte": false,
+                "forklarte": true,
+                "lovet": false
+              }
+            },
+            {
+              "id": "f8",
+              "text": "Mamma skulle reise bort en uke. «Jeg skal mate fiskene hver eneste dag», {gap} {name}.",
+              "plainVerbOK": true,
+              "fit": {
+                "hvisket": false,
+                "ropte": false,
+                "spurte": false,
+                "svarte": false,
+                "forklarte": false,
+                "lovet": true
+              }
+            }
+          ]
+        },
+        "go": {
+          "head": "gå",
+          "words": [
+            "spasere",
+            "marsjere",
+            "krype",
+            "skynde seg",
+            "rusle",
+            "vandre",
+            "snike",
+            "trave"
+          ]
+        },
+        "look": {
+          "head": "se",
+          "words": [
+            "kikke",
+            "stirre",
+            "glo",
+            "speide",
+            "betrakte",
+            "observere",
+            "myse",
+            "skotte"
+          ]
+        }
+      },
+      "quotes": [
+        "«",
+        "»"
+      ],
+      "instructionBans": {
+        "base": [
+          "strek",
+          "rute",
+          "ruten",
+          "bilde",
+          "bildet"
+        ],
+        "pictures": [
+          "strek",
+          "rute",
+          "ruten",
+          "kort",
+          "kortet"
+        ],
+        "pairs": [
+          "rute",
+          "ruten",
+          "kort",
+          "kortet",
+          "bilde",
+          "ring"
+        ],
+        "shades": [
+          "strek",
+          "kort",
+          "kortet",
+          "samme"
+        ],
+        "say": [
+          "strek",
+          "kort",
+          "kortet"
+        ],
+        "fields": [
+          "strek",
+          "kort",
+          "kortet",
+          "rute",
+          "ruten"
+        ]
+      },
+      "strings": {
+        "base": {
+          "title": "Synonymer: ring rundt ordet som betyr det samme",
+          "instruction": "Les det store ordet på hvert kort og ring rundt ordet under som betyr det samme."
+        },
+        "pictures": {
+          "title": "Synonymer med bilder: to ord til ett bilde",
+          "instruction": "Se på hvert bilde og ring rundt de to ordene under som betyr det samme og passer til bildet."
+        },
+        "pairs": {
+          "title": "Synonympar: finn ordene som betyr det samme",
+          "instruction": "Trekk en strek fra hvert ord til venstre til ordet til høyre som betyr det samme."
+        },
+        "shades": {
+          "title": "Ordenes styrke: fra litt til mye",
+          "instruction": "Les de tre ordene i hver rad og skriv 1, 2 og 3 i rutene, fra det svakeste ordet til det sterkeste."
+        },
+        "say": {
+          "title": "Synonymer for sa: velg ordet som passer",
+          "instruction": "Les hver setning og skriv ordet fra snakkeboblen som passer best i ruten i stedet for sa."
+        },
+        "fields": {
+          "title": "Synonymer for gå og se: sorter ordene",
+          "instruction": "Les de ti ordene og skriv hvert ord i feltet gå eller i feltet se, der det hører hjemme."
+        }
+      }
+    },
+    "word-parts": {
+      "familyHead": "Forstavelser, endelser og rotord",
+      "inflections": [
+        "er",
+        "en",
+        "et",
+        "ene",
+        "a",
+        "te",
+        "de",
+        "s",
+        "t"
+      ],
+      "families": [
+        {
+          "id": "hjelp",
+          "stem": "hjelp",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "hjelp"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "hjelpe",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "hjelpende",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "hjelpsom",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "hjelpsomhet",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "hjelpeløs",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "medhjelper",
+              "kind": "prefixed",
+              "slot": "noun-person"
+            },
+            {
+              "word": "førstehjelp",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "hjerte",
+              "whyNotFamily": "et organ i kroppen; det har ingenting med hjelp å gjøre"
+            },
+            {
+              "word": "hjul",
+              "whyNotFamily": "sitter på en sykkel; bare «hj» er likt"
+            },
+            {
+              "word": "hjort",
+              "whyNotFamily": "et dyr i skogen"
+            }
+          ]
+        },
+        {
+          "id": "bygg",
+          "stem": "bygg",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "bygg"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "bygge",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "oppbygging",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "ombygging",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "påbygg",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "tilbygg",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "nybygg",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "byggeplass",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "byge",
+              "whyNotFamily": "en kort regnskur"
+            },
+            {
+              "word": "by",
+              "whyNotFamily": "et sted med mange hus; bare «by» er likt"
+            },
+            {
+              "word": "bytte",
+              "whyNotFamily": "å gi noe og få noe annet"
+            }
+          ]
+        },
+        {
+          "id": "arbeid",
+          "stem": "arbeid",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "arbeid"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "arbeide",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "arbeidsløs",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "medarbeider",
+              "kind": "prefixed",
+              "slot": "noun-person"
+            },
+            {
+              "word": "samarbeid",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "samarbeide",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "bearbeide",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "arbeidsdag",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "armbånd",
+              "whyNotFamily": "et smykke rundt håndleddet"
+            },
+            {
+              "word": "ark",
+              "whyNotFamily": "et papir; bare «ar» er likt"
+            },
+            {
+              "word": "arm",
+              "whyNotFamily": "en del av kroppen"
+            }
+          ]
+        },
+        {
+          "id": "smak",
+          "stem": "smak",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "smak"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "smake",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "smakfull",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "smakløs",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "velsmakende",
+              "kind": "prefixed",
+              "slot": "adjective"
+            },
+            {
+              "word": "ettersmak",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "bismak",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "smaksprøve",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "smal",
+              "whyNotFamily": "ikke bred"
+            },
+            {
+              "word": "smykke",
+              "whyNotFamily": "noe fint å gå med"
+            },
+            {
+              "word": "smør",
+              "whyNotFamily": "noe man smører på brødskiva"
+            }
+          ]
+        },
+        {
+          "id": "venn",
+          "stem": "venn",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "venn"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "vennlig",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "vennlighet",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "vennskap",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "venneløs",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "venninne",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "vennligst",
+              "kind": "derived",
+              "slot": "adverb"
+            },
+            {
+              "word": "barndomsvenn",
+              "kind": "compound",
+              "slot": "noun-person"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "vente",
+              "whyNotFamily": "å stå stille til noe skjer; ikke om venner"
+            },
+            {
+              "word": "venstre",
+              "whyNotFamily": "det motsatte av høyre"
+            },
+            {
+              "word": "vegg",
+              "whyNotFamily": "en side av et rom"
+            }
+          ]
+        },
+        {
+          "id": "tenk",
+          "stem": "tenk",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "tenk"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "tenke",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "tenkelig",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "tenksom",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "ettertenksom",
+              "kind": "prefixed",
+              "slot": "adjective"
+            },
+            {
+              "word": "betenkelig",
+              "kind": "prefixed",
+              "slot": "adjective"
+            },
+            {
+              "word": "gjennomtenkt",
+              "kind": "prefixed",
+              "slot": "adjective"
+            },
+            {
+              "word": "tenkepause",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "tenner",
+              "whyNotFamily": "vi biter med dem"
+            },
+            {
+              "word": "tegne",
+              "whyNotFamily": "å lage en tegning; bare «te» er likt"
+            },
+            {
+              "word": "telt",
+              "whyNotFamily": "et lite hus av stoff på tur"
+            }
+          ]
+        },
+        {
+          "id": "spill",
+          "stem": "spill",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "spill"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "spille",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "medspiller",
+              "kind": "prefixed",
+              "slot": "noun-person"
+            },
+            {
+              "word": "motspiller",
+              "kind": "prefixed",
+              "slot": "noun-person"
+            },
+            {
+              "word": "samspill",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "forspill",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "etterspill",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "spillebrett",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "spiker",
+              "whyNotFamily": "en liten metallpinne man slår inn med hammer"
+            },
+            {
+              "word": "spise",
+              "whyNotFamily": "å ha mat i munnen; bare «spi» er likt"
+            },
+            {
+              "word": "spinat",
+              "whyNotFamily": "en grønn grønnsak"
+            }
+          ]
+        }
+      ],
+      "rootFamilies": [
+        {
+          "id": "lys",
+          "stem": "lys",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "lys"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "lyse",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "lysende",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "belyse",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "belysning",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "opplyse",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "opplysning",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "lyspære",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "lyn",
+              "whyNotFamily": "et glimt på himmelen i tordenvær"
+            },
+            {
+              "word": "lytte",
+              "whyNotFamily": "å høre godt etter"
+            },
+            {
+              "word": "lykt",
+              "whyNotFamily": "en lampe man bærer"
+            }
+          ]
+        },
+        {
+          "id": "les",
+          "stem": "les",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "les"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "lese",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "lesing",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "lesbar",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "lesverdig",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "opplesing",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "leselig",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "lesehest",
+              "kind": "compound",
+              "slot": "noun-person"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "lege",
+              "whyNotFamily": "en som hjelper syke mennesker"
+            },
+            {
+              "word": "leke",
+              "whyNotFamily": "å ha det gøy sammen; bare «le» er likt"
+            },
+            {
+              "word": "lepper",
+              "whyNotFamily": "en del av munnen"
+            }
+          ]
+        },
+        {
+          "id": "kjør",
+          "stem": "kjør",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "kjør"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "kjøre",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "kjøring",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "kjørbar",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "påkjørsel",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "innkjørsel",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "gjennomkjøring",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "kjøretøy",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "kjøkken",
+              "whyNotFamily": "et rom der man lager mat"
+            },
+            {
+              "word": "kjole",
+              "whyNotFamily": "et plagg; bare «kj» er likt"
+            },
+            {
+              "word": "kjeks",
+              "whyNotFamily": "noe godt å spise"
+            }
+          ]
+        }
+      ],
+      "picFamilies": [
+        {
+          "id": "sol",
+          "stem": "sol",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "sol",
+            "pic": {
+              "theme": "weather",
+              "noun": "sun"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "solrik",
+              "kind": "derived",
+              "slot": "adjective"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "sofa",
+              "whyNotFamily": "begynner som «sol», men er ikke laget av ordet"
+            },
+            {
+              "word": "sokk",
+              "whyNotFamily": "begynner som «sol», men er ikke laget av ordet"
+            },
+            {
+              "word": "sommer",
+              "whyNotFamily": "begynner som «sol», men er ikke laget av ordet"
+            }
+          ]
+        },
+        {
+          "id": "sky",
+          "stem": "sky",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "sky",
+            "pic": {
+              "theme": "spring",
+              "noun": "cloud"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "skyfri",
+              "kind": "derived",
+              "slot": "adjective"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "skje",
+              "whyNotFamily": "begynner som «sky», men er ikke laget av ordet"
+            },
+            {
+              "word": "skjorte",
+              "whyNotFamily": "begynner som «sky», men er ikke laget av ordet"
+            },
+            {
+              "word": "skog",
+              "whyNotFamily": "begynner som «sky», men er ikke laget av ordet"
+            }
+          ]
+        },
+        {
+          "id": "tann",
+          "stem": "tann",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "tann",
+            "pic": {
+              "theme": "body parts",
+              "noun": "tooth"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "tannløs",
+              "kind": "derived",
+              "slot": "adjective"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "tak",
+              "whyNotFamily": "begynner som «tann», men er ikke laget av ordet"
+            },
+            {
+              "word": "tallerken",
+              "whyNotFamily": "begynner som «tann», men er ikke laget av ordet"
+            },
+            {
+              "word": "tavle",
+              "whyNotFamily": "begynner som «tann», men er ikke laget av ordet"
+            }
+          ]
+        },
+        {
+          "id": "stein",
+          "stem": "stein",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "stein",
+            "pic": {
+              "theme": "camping",
+              "noun": "rock"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "steinete",
+              "kind": "derived",
+              "slot": "adjective"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "stol",
+              "whyNotFamily": "begynner som «stein», men er ikke laget av ordet"
+            },
+            {
+              "word": "stjerne",
+              "whyNotFamily": "begynner som «stein», men er ikke laget av ordet"
+            },
+            {
+              "word": "stikkelsbær",
+              "whyNotFamily": "begynner som «stein», men er ikke laget av ordet"
+            }
+          ]
+        },
+        {
+          "id": "hjerte",
+          "stem": "hjerte",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "hjerte",
+            "pic": {
+              "theme": "shapes",
+              "noun": "heart"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "hjertelig",
+              "kind": "derived",
+              "slot": "adjective"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "hjemmesko",
+              "whyNotFamily": "begynner som «hjerte», men er ikke laget av ordet"
+            },
+            {
+              "word": "hjelm",
+              "whyNotFamily": "begynner som «hjerte», men er ikke laget av ordet"
+            },
+            {
+              "word": "hjort",
+              "whyNotFamily": "begynner som «hjerte», men er ikke laget av ordet"
+            }
+          ]
+        },
+        {
+          "id": "blomst",
+          "stem": "blomst",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "blomst",
+            "pic": {
+              "theme": "spring",
+              "noun": "flower"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "blomstre",
+              "kind": "derived",
+              "slot": "verb"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "blyant",
+              "whyNotFamily": "begynner som «blomst», men er ikke laget av ordet"
+            },
+            {
+              "word": "blåbær",
+              "whyNotFamily": "begynner som «blomst», men er ikke laget av ordet"
+            },
+            {
+              "word": "blekksprut",
+              "whyNotFamily": "begynner som «blomst», men er ikke laget av ordet"
+            }
+          ]
+        },
+        {
+          "id": "bil",
+          "stem": "bil",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "bil",
+            "pic": {
+              "theme": "vehicles",
+              "noun": "car"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "bilist",
+              "kind": "derived",
+              "slot": "noun-person"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "bie",
+              "whyNotFamily": "begynner som «bil», men er ikke laget av ordet"
+            },
+            {
+              "word": "bibliotek",
+              "whyNotFamily": "begynner som «bil», men er ikke laget av ordet"
+            },
+            {
+              "word": "bingo",
+              "whyNotFamily": "begynner som «bil», men er ikke laget av ordet"
+            }
+          ]
+        }
+      ],
+      "sentences": {
+        "hjelp": [
+          {
+            "word": "hjelpe",
+            "slot": "verb",
+            "frame": "Kan du {gap} meg å bære posen?"
+          },
+          {
+            "word": "medhjelper",
+            "slot": "noun-person",
+            "frame": "Mormor fikk en flink {gap} på kjøkkenet."
+          },
+          {
+            "word": "førstehjelp",
+            "slot": "noun-thing",
+            "frame": "På skolen lærte vi {gap}, og hva vi gjør hvis noen skader seg."
+          },
+          {
+            "word": "hjelpsom",
+            "slot": "adjective",
+            "frame": "Det er fint å være {gap} mot vennene sine."
+          }
+        ],
+        "venn": [
+          {
+            "word": "vennlig",
+            "slot": "adjective",
+            "frame": "Bussjåføren var {gap} og smilte til alle som gikk på."
+          },
+          {
+            "word": "venninne",
+            "slot": "noun-person",
+            "frame": "Sofie fikk besøk av ei {gap} fra klassen."
+          },
+          {
+            "word": "vennlighet",
+            "slot": "noun-thing",
+            "frame": "Takk for all {gap} dere viste oss i dag."
+          },
+          {
+            "word": "vennligst",
+            "slot": "adverb",
+            "frame": "Vi ber dere {gap} ta av dere skoene i gangen."
+          }
+        ]
+      },
+      "prefixKey": {
+        "prefixes": [
+          {
+            "prefix": "gjen",
+            "meaning": "igjen, en gang til"
+          },
+          {
+            "prefix": "mis",
+            "meaning": "feil"
+          },
+          {
+            "prefix": "over",
+            "meaning": "for mye"
+          }
+        ],
+        "rows": [
+          {
+            "base": "bruke",
+            "prefix": "gjen",
+            "word": "gjenbruke",
+            "gloss": "bruke en ting som er brukt før, i stedet for å kaste den"
+          },
+          {
+            "base": "fortelle",
+            "prefix": "gjen",
+            "word": "gjenfortelle",
+            "gloss": "fortelle et eventyr du har hørt før, med egne ord"
+          },
+          {
+            "base": "åpne",
+            "prefix": "gjen",
+            "word": "gjenåpne",
+            "gloss": "åpne butikken på nytt etter en stund"
+          },
+          {
+            "base": "finne",
+            "prefix": "gjen",
+            "word": "gjenfinne",
+            "gloss": "finne noe som hadde blitt borte"
+          },
+          {
+            "base": "forstå",
+            "prefix": "mis",
+            "word": "misforstå",
+            "gloss": "forstå galt hva noen mener"
+          },
+          {
+            "base": "lykkes",
+            "prefix": "mis",
+            "word": "mislykkes",
+            "gloss": "når noe går galt og du ikke klarer det"
+          },
+          {
+            "base": "spise",
+            "prefix": "over",
+            "word": "overspise",
+            "gloss": "spise så mye at magen verker"
+          },
+          {
+            "base": "fylle",
+            "prefix": "over",
+            "word": "overfylle",
+            "gloss": "fylle et glass så fullt at det renner ut"
+          },
+          {
+            "base": "koke",
+            "prefix": "over",
+            "word": "overkoke",
+            "gloss": "la maten koke for lenge"
+          },
+          {
+            "base": "drive",
+            "prefix": "over",
+            "word": "overdrive",
+            "gloss": "gjøre en ting større og verre enn den var når du forteller"
+          }
+        ],
+        "crossCheck": [
+          {
+            "base": "bruke",
+            "prefix": "gjen",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "bruke",
+            "prefix": "mis",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "bruke",
+            "prefix": "over",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "fortelle",
+            "prefix": "gjen",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "fortelle",
+            "prefix": "mis",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "fortelle",
+            "prefix": "over",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "åpne",
+            "prefix": "gjen",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "åpne",
+            "prefix": "mis",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "åpne",
+            "prefix": "over",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "finne",
+            "prefix": "gjen",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "finne",
+            "prefix": "mis",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "finne",
+            "prefix": "over",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "forstå",
+            "prefix": "gjen",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "forstå",
+            "prefix": "mis",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "forstå",
+            "prefix": "over",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "lykkes",
+            "prefix": "gjen",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "lykkes",
+            "prefix": "mis",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "lykkes",
+            "prefix": "over",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "spise",
+            "prefix": "gjen",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "spise",
+            "prefix": "mis",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "spise",
+            "prefix": "over",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "fylle",
+            "prefix": "gjen",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "fylle",
+            "prefix": "mis",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "fylle",
+            "prefix": "over",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "koke",
+            "prefix": "gjen",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "koke",
+            "prefix": "mis",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "koke",
+            "prefix": "over",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "drive",
+            "prefix": "gjen",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "drive",
+            "prefix": "mis",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "drive",
+            "prefix": "over",
+            "isWord": true,
+            "fitsGloss": true
+          }
+        ]
+      },
+      "negating": [
+        "u",
+        "van"
+      ],
+      "agents": [
+        {
+          "key": "baker",
+          "base": "bake",
+          "answer": {
+            "any": "baker"
+          }
+        },
+        {
+          "key": "teacher",
+          "base": "lære",
+          "answer": {
+            "any": "lærer"
+          }
+        },
+        {
+          "key": "singer",
+          "base": "sang",
+          "answer": {
+            "any": "sanger"
+          }
+        },
+        {
+          "key": "athlete",
+          "base": "løpe",
+          "answer": {
+            "any": "løper"
+          }
+        },
+        {
+          "key": "ballerina",
+          "base": "danse",
+          "answer": {
+            "any": "danser"
+          }
+        },
+        {
+          "key": "tailor",
+          "base": "sy",
+          "answer": {
+            "any": "syer"
+          }
+        },
+        {
+          "key": "student",
+          "base": "lese",
+          "answer": {
+            "any": "leser"
+          }
+        },
+        {
+          "key": "construction_worker",
+          "base": "bygge",
+          "answer": {
+            "any": "bygger"
+          }
+        }
+      ],
+      "exemplar": {
+        "base": [
+          "bygg",
+          "hjelp"
+        ],
+        "F1": [
+          "weather/sun",
+          "spring/cloud",
+          "body parts/tooth",
+          "camping/rock",
+          "shapes/heart",
+          "spring/flower",
+          "vehicles/car"
+        ],
+        "F2": [
+          "hjelp",
+          "bygg",
+          "arbeid",
+          "smak",
+          "venn",
+          "tenk",
+          "spill",
+          "lys",
+          "les",
+          "kjør"
+        ],
+        "F5": [
+          "hjelp",
+          "venn"
+        ]
+      },
+      "refuse": {
+        "base": false,
+        "picture-family": false,
+        "root-word": false,
+        "prefix-key": false,
+        "who-does-it": false,
+        "family-in-sentence": false
+      },
+      "strings": {
+        "base": {
+          "title": "Rotord: sorter ordene etter roten",
+          "instruction": "Les hvert ord øverst og skriv det på en rad i muren som står på roten til ordet."
+        },
+        "picture-family": {
+          "title": "Rotord med bilder: ring rundt riktig ord",
+          "instruction": "Si hva hvert bilde viser, og ring rundt det ene ordet ovenfor som er laget av ordet for bildet."
+        },
+        "root-word": {
+          "title": "Finn rotordet",
+          "instruction": "Ring rundt delen som de tre ordene har felles, og skriv den samme delen i den tomme steinen."
+        },
+        "prefix-key": {
+          "title": "Forstavelsene gjen-, mis- og over-: velg etter betydning",
+          "instruction": "Les hva hvert nytt ord betyr, finn forstavelsen i nøkkelen og skriv den i den tomme biten."
+        },
+        "who-does-it": {
+          "title": "Hvem gjør det? Skriv ordet for personen",
+          "instruction": "Se på hver person, les ordet på kortet og skriv ordet for personen i den stiplede ruten."
+        },
+        "family-in-sentence": {
+          "title": "Rotord i setninger",
+          "instruction": "Skriv hvert av de fire ordene på kortene i den setningen der det passer."
+        }
+      },
+      "agentSuffixes": [
+        "er"
+      ]
+    }
+  },
+  "refusals": {
+    "G1-380": "no refuses the whole digraphs family: its letter teams (kj-, sj- and skj-lyden, ng) are already owned by the shipped spelling-rules family (G2-315 Rettskriving), and no other Norwegian letter team reaches 3 teams x 6 pictured approved words",
+    "K-378": "no refuses the whole digraphs family: its letter teams (kj-, sj- and skj-lyden, ng) are already owned by the shipped spelling-rules family (G2-315 Rettskriving), and no other Norwegian letter team reaches 3 teams x 6 pictured approved words",
+    "G1-392": "no refuses the whole digraphs family: its letter teams (kj-, sj- and skj-lyden, ng) are already owned by the shipped spelling-rules family (G2-315 Rettskriving), and no other Norwegian letter team reaches 3 teams x 6 pictured approved words",
+    "G1-393": "no refuses the whole digraphs family: its letter teams (kj-, sj- and skj-lyden, ng) are already owned by the shipped spelling-rules family (G2-315 Rettskriving), and no other Norwegian letter team reaches 3 teams x 6 pictured approved words",
+    "G1-394": "no refuses the whole digraphs family: its letter teams (kj-, sj- and skj-lyden, ng) are already owned by the shipped spelling-rules family (G2-315 Rettskriving), and no other Norwegian letter team reaches 3 teams x 6 pictured approved words",
+    "G2-372": "no refuses the whole digraphs family: its letter teams (kj-, sj- and skj-lyden, ng) are already owned by the shipped spelling-rules family (G2-315 Rettskriving), and no other Norwegian letter team reaches 3 teams x 6 pictured approved words"
+  },
+  "strandNames": {
+    "Road Safety": "Trafikkopplæring",
+    "Science": "Naturfag",
+    "Map Skills": "Kart og himmelretninger (samfunnsfag)",
+    "Vocabulary Acquisition and Use": "Ordforråd og ordbruk"
+  },
+  "enAudit": [
+    "Several EN instructions are two or three sentences (G1-376 base, G1-378 base, G1-379 base, K-376, G1-388, G2-363, G2-364, G3-392, K-377, G1-391, G2-367, G2-368, G3-394, G3-395, G2-370, G3-396, G2-371): the brief asks for ONE child-level sentence. Every no instruction is one sentence.",
+    "G1-378 base facts (EN): \"It goes around the Earth.\" prints a body name inside a fact whose answer is the MOON, so a child who matches words ticks Earth. no writes the Moon fact without a body name: \"Den går i bane rundt planeten vi bor på.\"",
+    "K-369 road-safety: the coordinator example \"202 Stopp\" does not match skiltforskriften as the panel knows it: 202 is Vikeplikt (point-down triangle), 204 is Stopp; no ships 204. Sure: 204 Stopp, 302 Innkjøring forbudt, 516 Gangfelt (blue square, white triangle, pedestrian = crossingTriangle, not the Swedish walkerOnStripes). Marked unsure (numbers only, the sign pictures are sure): the fareskilt Barn / Gående / Trafikklys / Syklende, the 306.x forbudsskilt (alle kjøretøy / syklende / gående) and Sykkelveg (square blue opplysningsskilt in Norway, not a round påbudsskilt). Pedestrian light: red standing / green walking figure, 2 lamps, no amber; car amber (gult) means stopp in trafikkreglene.",
+    "K-369 warning-triangle field: no sets YELLOW (skiltnormal N300: fareskilt har rød kant og gul bunn, like sv/fi). The Nordic SEO selection report says \"Danish/Norwegian white-with-red borders\"; that is right for Danish A-tavler and, in the panel's knowledge, wrong for Norwegian fareskilt. Norwegian forbudsskilt, by contrast, have a WHITE field (not the Swedish yellow). Operator check against the forskrift before print.",
+    "K-369 EN F4 bins: Norway has no round blue \"påbudt sykkelveg / gangveg\" sign a child meets daily (gang- og sykkelveg and sykkelveg are square blue opplysningsskilt), so the no sort uses fareskilt / forbudsskilt / opplysningsskilt, never a \"mandatory\" bin copied from the Vienna default.",
+    "G2-362 relation-riddles (EN \"grandma\" for both sides): Norwegian children say mormor/farmor and morfar/farfar, never one shared word, so the grandparent riddles have four different answers; aunts and uncles are tante/onkel on both sides in everyday bokmål (moster/faster/morbror/farbror exist but are not the K register), so the EN \"one word can fit more than one riddle\" clause stays true in no for tante/onkel only.",
+    "G1-376 plants (EN \"stem\" on the base and \"stalk\" on the flower face): Norwegian naturfag distinguishes stengel (the plant's main stem) from stilk (a flower or leaf stalk); no prints \"stengel\" on the plant and \"stilk\" on the flower, never one word for both. EN also mixes plural \"roots\" with singular \"leaf\"; no is singular throughout.",
+    "G1-377 (EN \"chrysalis\" for the butterfly, \"pupa\" for the ladybird): Norwegian school uses \"puppe\" for both and never \"kokong\" for a butterfly; no bans kokong.",
+    "G1-379 maps (EN symbol \"tree\"): the Norwegian word \"tre\" is also the numeral THREE, and the base asks the child to write how MANY of each symbol there are; no prints \"løvtre\" so the key word can never be read as a count.",
+    "G2-369 (EN title \"Finish the Rose\"): \"the Rose\" alone reads as the flower; no titles the face \"Himmelretninger: nord, øst, sør og vest\", lower-case as Norwegian writes them, and keeps \"kart og kompass\" out of every title (DNT orienteering intent). Letters N Ø S V; the F2 mnemonic \"Nora Ønsker Seg Vafler\" is the panel's own (no established Norwegian rhyme).",
+    "G2-358 synonyms: the EN small group (\"small, little\") has no honest bokmål counterpart: bitteliten / ørliten are SHADES of liten, not the same strength, so no does not sign the small concept (8 pictured concepts remain). Banned as two-sense words: morsom, grei, artig (funny AND fun), lett (easy AND light), god (tasty AND good), stille (quiet AND calm), sur (sour AND grumpy), lur (clever AND a nap), dette (to fall AND \"this\"), svær, snill, dårlig. The F4 sentences avoid \"så\" because the gate folds å to a and reads it as the struck head \"sa\".",
+    "G3-397 fields (EN): \"write each one in the field of the word it means nearly the same as\" is a relative-clause stack a G2-G3 reader cannot parse; no names both fields (\"i feltet gå eller i feltet se\").",
+    "G2-359 word-parts (no): the school terms are rotord / rot, forstavelse and endelse; the key uses gjen- (never \"igjen-\"), mis- and over-. Rule 8 flags every member that merely STARTS with the letter u (the negating u-), so ut- and under- words (utbygging, utspill, underskrive) cannot be used even though ut- is not negating; no avoided them rather than list an exemption. No member is a compound-words bank word (skrivebord is, so the skriv family ends in skrivebok).",
+    "digraphs (all six ids refused in no, as expected): the Norwegian letter-team sounds a småskole child is taught (kj-, sj- and skj-lyden, ng) are the rules of the shipped spelling-rules family (G2-315 Rettskriving), and no other Norwegian team reaches 3 teams x 6 approved, pictured words; no native re-target found.",
+    "Sun, Earth and Moon: bokmål writes sola/jorda/månen lower case in everyday use; on an astronomy page Språkrådet allows the capitalised names, so no prints Solen, Jorden, Månen (and Jorden in the planet list). Planet names Merkur, Venus, Jorden, Mars, Jupiter, Saturn, Uranus, Neptun; the F4 mnemonic \"Min Venn Jens Maler Jordbær Så Utrolig Nydelig\" is the panel's own."
+  ]
+}

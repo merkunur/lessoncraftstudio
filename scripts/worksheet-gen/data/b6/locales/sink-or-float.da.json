@@ -146,16 +146,20 @@
       "instruction": "Farv ringen, hvor hver form af modellervoks ender, sæt ring om den ting, der flyder, og tegn din egen båd af modellervoks i den store balje."
     },
     "G2-383": {
-      "title": "Hvorfor flyder ting? Rigtigt eller forkert efter forsøget",
+      "title": "Hvorfor flyder ting? Rigtigt eller forkert om at flyde og synke",
       "instruction": "Læs hver sætning, og sæt ring om rigtigt eller forkert."
     },
     "K-384": {
-      "title": "Hvad flyder, hvad synker? Tegn forsøget",
+      "title": "Tegn ting, der flyder og synker, i baljen",
       "instruction": "Tegn to ting, der flyder, i de stiplede felter på vandet og to ting, der synker, i de stiplede felter på bunden."
     },
     "G3-400": {
       "title": "Mit forsøg: flyder eller synker en appelsin?",
       "instruction": "Vælg et spørgsmål, skriv, hvad du tror, afprøv det, og tegn så, hvad der skete, og skriv, hvad du lærte."
     }
+  },
+  "shapeHeads": {
+    "clay": "Samme modellervoks, forskellige former",
+    "steel": "Samme stål, forskellige former: sæt ring om den, der flyder"
   }
 }

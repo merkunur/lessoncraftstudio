@@ -18,7 +18,7 @@
     "polar": "Banquise",
     "polar-arctic": "Arctique",
     "savanna": "Savane",
-    "rainforest": "Jungle"
+    "rainforest": "Forêt tropicale"
   },
   "adapt": {
     "camel-hump": "Sa bosse stocke de la graisse : il peut rester longtemps sans manger.",
@@ -193,9 +193,18 @@
     ]
   },
   "needs": {
-    "line": "Chaque animal a besoin de nourriture, d'eau et d'un abri.",
+    "line": "Chaque animal a besoin de nourriture et d'un abri.",
     "foodHead": "Nourriture",
-    "homeHead": "Abri"
+    "homeHead": "Abri",
+    "undrawn": [
+      "eau",
+      "boire",
+      "boisson",
+      "air",
+      "respirer",
+      "soleil",
+      "lumière"
+    ]
   },
   "report": {
     "animals": "Des animaux qui vivent ici",
@@ -226,11 +235,11 @@
     },
     "G1-406": {
       "title": "Milieux de vie des animaux : trouve l'intrus",
-      "instruction": "Dans chaque rangée, barre l'animal qui ne vit pas dans ce milieu."
+      "instruction": "Pour chaque milieu, barre l'animal qui n'y vit pas."
     },
     "G2-380": {
       "title": "L'adaptation des animaux à leur milieu",
-      "instruction": "Écris dans sa case la lettre de l'animal dont parle chaque phrase."
+      "instruction": "Écris dans la case de chaque phrase la lettre de l'animal dont elle parle ; un animal restera en trop."
     },
     "G1-407": {
       "title": "Les besoins des animaux : nourriture et abri",
@@ -238,7 +247,7 @@
     },
     "G2-381": {
       "title": "Mon enquête sur un milieu de vie",
-      "instruction": "Dessine trois animaux qui vivent dans ce milieu, écris leur nom et une plante qui y pousse, puis entoure le bon mot de chaque paire."
+      "instruction": "Dans l'image, dessine trois animaux qui y vivent, écris leur nom et celui d'une plante qui y pousse, puis entoure le mot qui décrit ce milieu."
     }
   },
   "placeWords": [

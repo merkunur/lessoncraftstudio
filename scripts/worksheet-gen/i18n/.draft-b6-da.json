@@ -1,0 +1,1217 @@
+{
+  "locale": "da",
+  "types": {
+    "K-379": {
+      "title": "Billedserie: nummerér billederne",
+      "instruction": "Se, hvad der ændrer sig i hver historie, og skriv tallene i felterne, så billederne kommer i den rigtige rækkefølge."
+    },
+    "K-381": {
+      "title": "Billedserie til at klippe ud: først, så, til sidst",
+      "instruction": "Klip billederne på hver strimmel ud, og lim dem på snoren med det samme mærke, i de tomme rammer over Først, Så og Til sidst."
+    },
+    "G1-400": {
+      "title": "Billedserie: hvad sker der så?",
+      "instruction": "Se på hver histories tre billeder, og sæt ring om det billede nedenunder, der skal i rammen med spørgsmålstegnet."
+    },
+    "G1-401": {
+      "title": "Billedfortælling: begyndelse, midte og slutning",
+      "instruction": "Se på begyndelsen og slutningen af hver historie, og tegn, hvad der sker, i den tomme ramme i midten."
+    },
+    "G1-402": {
+      "title": "Billedserie: sæt sætningerne i rækkefølge, og find billederne",
+      "instruction": "Skriv tal i felterne, så hver histories sætninger kommer i rækkefølge, og tegn så en streg fra hver sætning til dens billede."
+    },
+    "G2-378": {
+      "title": "Billedfortælling: skriv historien til billederne",
+      "instruction": "Skriv, hvad der sker på hvert billede, på linjerne ved siden af, og begynd med ordet, der står på den første linje."
+    },
+    "K-380": {
+      "title": "Hygiejne og gode vaner: hvad bruger hvert barn?",
+      "instruction": "Tegn en streg fra hvert barn til den ting, barnet bruger."
+    },
+    "K-382": {
+      "title": "Vaske hænder: sådan gør du",
+      "instruction": "Skriv 1 til 5 i felterne, så de viser, hvordan vi vasker hænder."
+    },
+    "G1-403": {
+      "title": "Børste tænder: før, under og efter",
+      "instruction": "Se på hvert billede, og sæt ring om før, under eller efter tandbørstningen."
+    },
+    "G1-404": {
+      "title": "Stop bakterierne: hvad holder dem væk?",
+      "instruction": "Sæt ring om det billede i hver række, der stopper bakterierne i at sprede sig."
+    },
+    "G2-379": {
+      "title": "Hygiejne og gode vaner: hvorfor gør vi det?",
+      "instruction": "Tegn en streg fra hver vane til den sætning, der fortæller, hvorfor vi gør det."
+    },
+    "G1-405": {
+      "title": "Ugeskema med gode vaner",
+      "instruction": "Sæt hver dag et flueben i feltet ud for hver vane, du har gjort."
+    },
+    "G1-398": {
+      "title": "Dyrs levesteder: skov, eng, sø og hav",
+      "instruction": "Skriv under hvert dyr bogstavet for det levested, hvor dyret lever."
+    },
+    "K-383": {
+      "title": "Dyrenes boliger: hvem bor hvor?",
+      "instruction": "Tegn en streg fra hvert dyr til dets bolig."
+    },
+    "G1-406": {
+      "title": "Dyrs levesteder: hvilket dyr bor ikke her?",
+      "instruction": "Streg ved hvert levested det dyr ud, der ikke lever der."
+    },
+    "G2-380": {
+      "title": "Dyrs tilpasninger til levestedet",
+      "instruction": "Skriv i feltet ved hver sætning bogstavet for det dyr, sætningen handler om; ét dyr bliver tilovers."
+    },
+    "G1-407": {
+      "title": "Hvad har dyr brug for? Mad og et hjem",
+      "instruction": "Sæt ring om den mad, hvert dyr spiser, og om det hjem, dyret bor i."
+    },
+    "G2-381": {
+      "title": "Mit levested: undersøg, tegn og skriv",
+      "instruction": "Tegn i billedet tre dyr, der lever her, skriv deres navne og navnet på en plante, der vokser her, og sæt ring om det ord, der passer til levestedet."
+    },
+    "G1-399": {
+      "title": "Flyder eller synker? Gæt og afprøv i et forsøg",
+      "instruction": "Farv en ring i den første balje før forsøget, en ring i den anden balje bagefter og stjernen, hvis du blev overrasket."
+    },
+    "G1-408": {
+      "title": "Tung eller let? Flyde eller synke, forsøg med en vægt",
+      "instruction": "Vægten viser, hvilken ting der er tungest: sæt ring om den ting, der flyder i vand."
+    },
+    "G2-382": {
+      "title": "Kan modellervoks flyde? Forsøg med formen",
+      "instruction": "Farv ringen, hvor hver form af modellervoks ender, sæt ring om den ting, der flyder, og tegn din egen båd af modellervoks i den store balje."
+    },
+    "G2-383": {
+      "title": "Hvorfor flyder ting? Rigtigt eller forkert om at flyde og synke",
+      "instruction": "Læs hver sætning, og sæt ring om rigtigt eller forkert."
+    },
+    "K-384": {
+      "title": "Tegn ting, der flyder og synker, i baljen",
+      "instruction": "Tegn to ting, der flyder, i de stiplede felter på vandet og to ting, der synker, i de stiplede felter på bunden."
+    },
+    "G3-400": {
+      "title": "Mit forsøg: flyder eller synker en appelsin?",
+      "instruction": "Vælg et spørgsmål, skriv, hvad du tror, afprøv det, og tegn så, hvad der skete, og skriv, hvad du lærte."
+    },
+    "G2-377": {
+      "title": "Sammenhængende skrift: små bogstaver i, u og t",
+      "instruction": "Skriv oven i de grå bogstaver, og skriv så selv hvert bogstav sammenhængende til enden af linjen og på de tomme linjer nedenfor."
+    },
+    "G2-384": {
+      "title": "Store bogstaver i sammenhængende skrift: skriv navnene",
+      "instruction": "Skriv oven i de grå store bogstaver og navne, og skriv dem så selv på den tomme linje nedenfor."
+    },
+    "G2-385": {
+      "title": "Sammenhængende skrift: bind bogstaverne sammen",
+      "instruction": "Skriv oven i hvert gråt bogstavpar og ord, og skriv dem så selv på den tomme linje nedenfor."
+    },
+    "G2-386": {
+      "title": "Skriv ord med sammenhængende skrift til billederne",
+      "instruction": "Skriv oven i hvert gråt ord ved først at binde bogstaverne sammen og til sidst sætte prikker og streger, og skriv ordet ens på linjen nedenfor."
+    },
+    "G2-387": {
+      "title": "Læs sammenhængende skrift: find billedet til ordet",
+      "instruction": "Læs hvert ord i sammenhængende skrift, og tegn en streg fra ordet til dets billede."
+    },
+    "G3-401": {
+      "title": "Håndskrift 3. klasse: skriv sætninger af med sammenhængende skrift",
+      "instruction": "Skriv først oven i den grå sætning, og skriv så hver trykt sætning af med sammenhængende skrift på de to linjer under den."
+    }
+  },
+  "families": {
+    "story-sequencing": {
+      "slug": "billedserier",
+      "name": "Billedserier"
+    },
+    "healthy-habits": {
+      "slug": "hygiejne-og-gode-vaner",
+      "name": "Hygiejne og gode vaner"
+    },
+    "habitats": {
+      "slug": "dyrs-levesteder",
+      "name": "Dyrs levesteder"
+    },
+    "sink-or-float": {
+      "slug": "flyde-eller-synke-forsoeg",
+      "name": "Flyde eller synke"
+    },
+    "cursive-writing": {
+      "slug": "sammenhaengende-skrift",
+      "name": "Sammenhængende skrift"
+    }
+  },
+  "skills": {
+    "story-sequencing": {
+      "full": "Sætte en billedserie i rækkefølge ud fra det, der ændrer sig, bruge først, så og til sidst, finde begyndelse, midte og slutning og genfortælle historien skriftligt.",
+      "short": "Billedserier: rækkefølge og genfortælling"
+    },
+    "healthy-habits": {
+      "full": "Vaske hænder og børste tænder på den rigtige måde, hoste og nyse i ærmet, forklare hvorfor vi gør det, og holde øje med gode vaner i et ugeskema.",
+      "short": "Hygiejne: håndvask, tandbørstning og gode vaner"
+    },
+    "habitats": {
+      "full": "Finde det rigtige levested til dyr i skov, eng, sø og hav, kende dyrenes boliger, forklare hvordan kroppen passer til stedet og skrive om et levested.",
+      "short": "Dyrs levesteder, boliger og tilpasninger"
+    },
+    "sink-or-float": {
+      "full": "Gætte om en ting flyder eller synker, afprøve det i et forsøg med vand, opdage at tungt ikke altid betyder synke, og skrive en lille forsøgsrapport.",
+      "short": "Flyde eller synke: gæt og afprøv"
+    },
+    "cursive-writing": {
+      "full": "Skrive små og store bogstaver i sammenhængende skrift, binde bogstaverne sammen, skrive og læse ord og skrive sætninger af fra trykte bogstaver.",
+      "short": "Sammenhængende skrift: bogstaver, ord og sætninger"
+    }
+  },
+  "topicMeta": {
+    "story-sequencing": "Billedserier til print til børnehaveklasse, 1. og 2. klasse: nummerér billederne, klip ud med først, så og til sidst, find begyndelse, midte og slutning, og genfortæl historien med sætningsstartere.",
+    "healthy-habits": "Hygiejne og gode vaner til print: vaske hænder i den rigtige rækkefølge, børste tænder før, under og efter, host og nys i ærmet og et ugeskema med gode vaner. 0.-2. klasse.",
+    "habitats": "Dyrs levesteder til print: skov, eng, sø og hav, dyrenes boliger, hvilket dyr bor ikke her, dyrs tilpasninger og en lille rapport om et levested. 0.-2. klasse.",
+    "sink-or-float": "Flyde eller synke-forsøg til print: gæt og afprøv i vand, tung eller let med en vægt, båd af modellervoks, rigtigt eller forkert og en forsøgsrapport. 0.-3. klasse.",
+    "cursive-writing": "Sammenhængende skrift til print til 2. og 3. klasse: små og store bogstaver, bogstavforbindelser, ord med billeder, læs håndskrift og skriv sætninger af."
+  },
+  "banks": {
+    "story-sequencing": {
+      "words3": [
+        "Først",
+        "Så",
+        "Til sidst"
+      ],
+      "openers4": [
+        "Først",
+        "Så",
+        "Bagefter",
+        "Til sidst"
+      ],
+      "starters4": [
+        "Først",
+        "Så",
+        "Bagefter",
+        "Til sidst"
+      ],
+      "bme": [
+        "Begyndelse",
+        "Midte",
+        "Slutning"
+      ],
+      "stories": {
+        "apple": {
+          "sentences": [
+            "Først er æblet helt.",
+            "Så er der én bid i æblet.",
+            "Bagefter er der tre bid i æblet.",
+            "Til sidst er der kun skroget tilbage."
+          ],
+          "stateWords": [
+            "helt",
+            "én bid",
+            "tre bid",
+            "skroget"
+          ],
+          "helpWords": [
+            "æble",
+            "bid",
+            "skrog",
+            "stilk",
+            "blad",
+            "tallerken"
+          ],
+          "helpIds": [
+            "apple",
+            "bite",
+            "core",
+            "stem",
+            "leaf",
+            "plate"
+          ]
+        },
+        "banana": {
+          "sentences": [
+            "Først er bananen ikke skrællet.",
+            "Så hænger én strimmel skræl ned.",
+            "Bagefter hænger tre strimler ned.",
+            "Til sidst er der kun den tomme skræl tilbage."
+          ],
+          "stateWords": [
+            "ikke skrællet",
+            "én strimmel",
+            "tre strimler",
+            "tomme skræl"
+          ],
+          "helpWords": [
+            "banan",
+            "skræl",
+            "strimmel",
+            "tallerken"
+          ],
+          "helpIds": [
+            "banana",
+            "peel",
+            "strip",
+            "plate"
+          ]
+        },
+        "sandwich": {
+          "sentences": [
+            "Først er der to skiver brød.",
+            "Så er der syltetøj på den ene skive.",
+            "Bagefter er klapsammenmaden skåret midt over.",
+            "Til sidst er der kun en skorpe og krummer tilbage."
+          ],
+          "stateWords": [
+            "to skiver",
+            "syltetøj",
+            "midt over",
+            "krummer"
+          ],
+          "helpWords": [
+            "brød",
+            "syltetøj",
+            "kniv",
+            "klapsammen",
+            "halvdel",
+            "skorpe"
+          ],
+          "helpIds": [
+            "bread",
+            "jam",
+            "knife",
+            "sandwich",
+            "half",
+            "crust"
+          ]
+        },
+        "cake": {
+          "sentences": [
+            "Først er kagen hel.",
+            "Så er der skåret ét stykke ud.",
+            "Bagefter er halvdelen af kagen væk.",
+            "Til sidst er der kun krummer tilbage."
+          ],
+          "stateWords": [
+            "hel",
+            "ét stykke",
+            "halvdelen",
+            "krummer"
+          ],
+          "helpWords": [
+            "kage",
+            "stykke",
+            "lys",
+            "krummer",
+            "kagefad"
+          ],
+          "helpIds": [
+            "cake",
+            "slice",
+            "candle",
+            "crumb",
+            "stand"
+          ]
+        },
+        "fence": {
+          "sentences": [
+            "Først er stakittet helt hvidt.",
+            "Så er to brædder malet.",
+            "Bagefter er fire brædder malet.",
+            "Til sidst er hele stakittet malet."
+          ],
+          "stateWords": [
+            "helt hvidt",
+            "to brædder",
+            "fire brædder",
+            "hele stakittet"
+          ],
+          "helpWords": [
+            "stakit",
+            "bræt",
+            "maling",
+            "pensel",
+            "malerbøtte"
+          ],
+          "helpIds": [
+            "fence",
+            "plank",
+            "paint",
+            "brush",
+            "bucket"
+          ]
+        },
+        "letter": {
+          "sentences": [
+            "Først er kortet tomt.",
+            "Så er der tegnet en blomst på kortet.",
+            "Bagefter er der skrevet tre linjer på kortet.",
+            "Til sidst ligger kortet i en kuvert med et frimærke."
+          ],
+          "stateWords": [
+            "tomt",
+            "blomst",
+            "tre linjer",
+            "frimærke"
+          ],
+          "helpWords": [
+            "kort",
+            "blomst",
+            "blyant",
+            "kuvert",
+            "frimærke"
+          ],
+          "helpIds": [
+            "card",
+            "flower",
+            "pencil",
+            "envelope",
+            "stamp"
+          ]
+        },
+        "paper-chain": {
+          "sentences": [
+            "Først er der ét ark papir.",
+            "Så er arket klippet i fem strimler.",
+            "Bagefter er to strimler limet til ringe.",
+            "Til sidst er alle fem ringe blevet til en kæde."
+          ],
+          "stateWords": [
+            "ét ark",
+            "fem strimler",
+            "to strimler",
+            "kæde"
+          ],
+          "helpWords": [
+            "papir",
+            "saks",
+            "strimler",
+            "lim",
+            "ringe",
+            "kæde"
+          ],
+          "helpIds": [
+            "paper",
+            "scissors",
+            "strip",
+            "glue",
+            "ring",
+            "chain"
+          ]
+        },
+        "beach-walk": {
+          "sentences": [
+            "Først er der ingen fodspor i sandet.",
+            "Så går et barn og laver tre fodspor.",
+            "Bagefter finder barnet en muslingeskal.",
+            "Til sidst er barnet tilbage på håndklædet med skallen."
+          ],
+          "stateWords": [
+            "ingen fodspor",
+            "tre fodspor",
+            "finder",
+            "tilbage"
+          ],
+          "helpWords": [
+            "sand",
+            "håndklæde",
+            "muslingeskal",
+            "fodspor",
+            "gå"
+          ],
+          "helpIds": [
+            "sand",
+            "towel",
+            "shell",
+            "footprint",
+            "walk"
+          ]
+        }
+      },
+      "excludeStories": [],
+      "strings": {
+        "base": {
+          "title": "Billedserie: nummerér billederne",
+          "instruction": "Se, hvad der ændrer sig i hver historie, og skriv tallene i felterne, så billederne kommer i den rigtige rækkefølge."
+        },
+        "first-next-last-cut": {
+          "title": "Billedserie til at klippe ud: først, så, til sidst",
+          "instruction": "Klip billederne på hver strimmel ud, og lim dem på snoren med det samme mærke, i de tomme rammer over Først, Så og Til sidst."
+        },
+        "what-happens-next": {
+          "title": "Billedserie: hvad sker der så?",
+          "instruction": "Se på hver histories tre billeder, og sæt ring om det billede nedenunder, der skal i rammen med spørgsmålstegnet."
+        },
+        "beginning-middle-end": {
+          "title": "Billedfortælling: begyndelse, midte og slutning",
+          "instruction": "Se på begyndelsen og slutningen af hver historie, og tegn, hvad der sker, i den tomme ramme i midten."
+        },
+        "sequencing-sentences": {
+          "title": "Billedserie: sæt sætningerne i rækkefølge, og find billederne",
+          "instruction": "Skriv tal i felterne, så hver histories sætninger kommer i rækkefølge, og tegn så en streg fra hver sætning til dens billede."
+        },
+        "retell-with-starters": {
+          "title": "Billedfortælling: skriv historien til billederne",
+          "instruction": "Skriv, hvad der sker på hvert billede, på linjerne ved siden af, og begynd med ordet, der står på den første linje."
+        }
+      }
+    },
+    "healthy-habits": {
+      "strings": {
+        "base": {
+          "title": "Hygiejne og gode vaner: hvad bruger hvert barn?",
+          "instruction": "Tegn en streg fra hvert barn til den ting, barnet bruger."
+        },
+        "hand-washing-steps": {
+          "title": "Vaske hænder: sådan gør du",
+          "instruction": "Skriv 1 til 5 i felterne, så de viser, hvordan vi vasker hænder."
+        },
+        "brushing-teeth": {
+          "title": "Børste tænder: før, under og efter",
+          "instruction": "Se på hvert billede, og sæt ring om før, under eller efter tandbørstningen."
+        },
+        "stop-the-germs": {
+          "title": "Stop bakterierne: hvad holder dem væk?",
+          "instruction": "Sæt ring om det billede i hver række, der stopper bakterierne i at sprede sig."
+        },
+        "why-habits": {
+          "title": "Hygiejne og gode vaner: hvorfor gør vi det?",
+          "instruction": "Tegn en streg fra hver vane til den sætning, der fortæller, hvorfor vi gør det."
+        },
+        "habit-chart": {
+          "title": "Ugeskema med gode vaner",
+          "instruction": "Sæt hver dag et flueben i feltet ud for hver vane, du har gjort."
+        }
+      },
+      "phases": {
+        "before": "før",
+        "during": "under",
+        "after": "efter"
+      },
+      "labels": {
+        "wash-hands": "vaske hænder",
+        "brush-teeth": "børste tænder",
+        "sleep": "gå tidligt i seng",
+        "move-body": "bevæge sig",
+        "drink-water": "drikke vand",
+        "sun-protect": "passe på i solen",
+        "blow-nose": "pudse næse",
+        "comb-hair": "rede hår"
+      },
+      "labelStems": {
+        "wash-hands": [
+          "vaske",
+          "vasker",
+          "vask",
+          "hånd",
+          "hænder",
+          "hænderne",
+          "sæbe"
+        ],
+        "brush-teeth": [
+          "børste",
+          "børster",
+          "tænder",
+          "tand",
+          "tænderne",
+          "tandbørste",
+          "tandpasta"
+        ],
+        "sleep": [
+          "sove",
+          "sover",
+          "søvn",
+          "seng",
+          "sengen",
+          "nat",
+          "natten"
+        ],
+        "move-body": [
+          "bevæge",
+          "bevæger",
+          "løbe",
+          "løber",
+          "lege",
+          "leger",
+          "sport"
+        ],
+        "sun-protect": [
+          "sol",
+          "solen",
+          "hat",
+          "solcreme",
+          "creme",
+          "hud",
+          "huden"
+        ],
+        "drink-water": [
+          "drikke",
+          "drikker",
+          "vand",
+          "vandet",
+          "glas"
+        ],
+        "blow-nose": [
+          "pudse",
+          "pudser",
+          "lommetørklæde",
+          "næse",
+          "næsen"
+        ],
+        "comb-hair": [
+          "rede",
+          "reder",
+          "kam",
+          "hår",
+          "håret"
+        ]
+      },
+      "reasons": {
+        "wash-hands": "Det fjerner bakterierne fra alt det, vi har rørt ved.",
+        "brush-teeth": "Det holder smilet rent og flot.",
+        "sleep": "Krop og hjerne hviler sig og bliver klar til en ny dag.",
+        "move-body": "Det gør os friske, hurtige og stærke.",
+        "sun-protect": "Vi bliver ikke forbrændt på en varm sommerdag.",
+        "drink-water": "Kroppen har brug for det for at fungere godt.",
+        "blow-nose": "Så kan vi trække vejret frit igen."
+      },
+      "kaiOrder": false,
+      "coughPhrase": "i ærmet",
+      "weekStartOverride": null
+    },
+    "habitats": {
+      "sets": {
+        "base": [
+          "forest",
+          "meadow",
+          "pond",
+          "ocean"
+        ]
+      },
+      "tileLabel": {
+        "ocean": "Hav",
+        "pond": "Sø",
+        "forest": "Skov",
+        "meadow": "Eng",
+        "polar": "Sydpolen",
+        "polar-arctic": "Arktis",
+        "savanna": "Savanne",
+        "rainforest": "Regnskov"
+      },
+      "adapt": {
+        "camel-hump": "Dyret gemmer fedt i sin pukkel, så det kan klare sig længe uden mad.",
+        "giraffe-neck": "Dyrets lange hals når op til bladene højt oppe i træerne.",
+        "elephant-trunk": "Dyrets lange snabel suger vand op og griber maden.",
+        "penguin-flippers": "Dyrets vinger er luffer: det svømmer hurtigt, men kan ikke flyve.",
+        "walrus-tusks": "Dyret bruger sine lange stødtænder til at trække sin tunge krop op af vandet.",
+        "woodpecker-beak": "Dyrets stærke, spidse næb hakker huller i træstammer.",
+        "beaver-teeth": "Dyrets store fortænder fælder træer, så det kan bygge sit hjem i vandet.",
+        "whale-blowhole": "Dyret trækker vejret gennem et hul oven på hovedet.",
+        "fish-gills": "Dyret trækker vejret under vandet med sine gæller.",
+        "duck-feet": "Dyret har svømmehud mellem tæerne og skubber til vandet som med årer.",
+        "sloth-claws": "Dyrets lange, krumme kløer holder det fast, så det kan hænge i grenene i mange timer.",
+        "toucan-beak": "Dyrets kæmpestore næb plukker frugt langt ude på de tynde grene.",
+        "squirrel-tail": "Dyrets store, buskede hale hjælper det med balancen, når det springer fra gren til gren."
+      },
+      "names": {
+        "whale": [
+          "hval"
+        ],
+        "dolphin": [
+          "delfin"
+        ],
+        "octopus": [
+          "blæksprutte"
+        ],
+        "starfish": [
+          "søstjerne"
+        ],
+        "jellyfish": [
+          "vandmand",
+          "brandmand"
+        ],
+        "shark": [
+          "haj"
+        ],
+        "clownfish": [
+          "klovnfisk",
+          "fisk",
+          "nemo"
+        ],
+        "crab": [
+          "krabbe"
+        ],
+        "ray": [
+          "rokke"
+        ],
+        "seal-grey": [
+          "sæl"
+        ],
+        "seal-white": [
+          "sæl",
+          "sælunge"
+        ],
+        "walrus": [
+          "hvalros"
+        ],
+        "narwhal": [
+          "narhval"
+        ],
+        "penguin": [
+          "pingvin"
+        ],
+        "deer": [
+          "hjort",
+          "rådyr",
+          "bambi"
+        ],
+        "squirrel": [
+          "egern"
+        ],
+        "woodpecker": [
+          "spætte",
+          "flagspætte"
+        ],
+        "badger": [
+          "grævling"
+        ],
+        "moose": [
+          "elg"
+        ],
+        "frog": [
+          "frø"
+        ],
+        "dragonfly": [
+          "guldsmed"
+        ],
+        "beaver": [
+          "bæver"
+        ],
+        "duck": [
+          "and",
+          "ælling"
+        ],
+        "swan": [
+          "svane"
+        ],
+        "butterfly": [
+          "sommerfugl"
+        ],
+        "bee": [
+          "bi"
+        ],
+        "grasshopper": [
+          "græshoppe"
+        ],
+        "ladybug": [
+          "mariehøne"
+        ],
+        "lion": [
+          "løve"
+        ],
+        "zebra": [
+          "zebra"
+        ],
+        "giraffe": [
+          "giraf"
+        ],
+        "elephant": [
+          "elefant"
+        ],
+        "rhinoceros": [
+          "næsehorn"
+        ],
+        "ostrich": [
+          "struds"
+        ],
+        "monkey": [
+          "abe"
+        ],
+        "gorilla": [
+          "gorilla"
+        ],
+        "orangutan": [
+          "orangutang",
+          "abe"
+        ],
+        "sloth": [
+          "dovendyr"
+        ],
+        "toucan": [
+          "tukan"
+        ],
+        "macaw": [
+          "ara",
+          "papegøje"
+        ],
+        "camel": [
+          "kamel"
+        ],
+        "bird": [
+          "fugl"
+        ],
+        "spider": [
+          "edderkop"
+        ],
+        "rabbit": [
+          "kanin",
+          "hare"
+        ],
+        "ant": [
+          "myre"
+        ]
+      },
+      "needs": {
+        "line": "Alle dyr har brug for mad og et hjem.",
+        "foodHead": "Mad",
+        "homeHead": "Hjem",
+        "undrawn": [
+          "vand",
+          "drikke",
+          "drikkevand",
+          "drik",
+          "luft",
+          "ilt",
+          "sol",
+          "solen",
+          "sollys",
+          "lys"
+        ]
+      },
+      "report": {
+        "animals": "Dyr, der lever her",
+        "plant": "En plante, der vokser her",
+        "hot": "varmt",
+        "cold": "koldt",
+        "wet": "vådt",
+        "dry": "tørt"
+      },
+      "homeWord": {
+        "nest": "rede",
+        "hive": "bistade",
+        "web": "spindelvæv",
+        "burrow": "hule",
+        "anthill": "myretue",
+        "lodge": "bæverhytte"
+      },
+      "refuse": [],
+      "refuseClaims": [],
+      "strings": {
+        "G1-398": {
+          "title": "Dyrs levesteder: skov, eng, sø og hav",
+          "instruction": "Skriv under hvert dyr bogstavet for det levested, hvor dyret lever."
+        },
+        "K-383": {
+          "title": "Dyrenes boliger: hvem bor hvor?",
+          "instruction": "Tegn en streg fra hvert dyr til dets bolig."
+        },
+        "G1-406": {
+          "title": "Dyrs levesteder: hvilket dyr bor ikke her?",
+          "instruction": "Streg ved hvert levested det dyr ud, der ikke lever der."
+        },
+        "G2-380": {
+          "title": "Dyrs tilpasninger til levestedet",
+          "instruction": "Skriv i feltet ved hver sætning bogstavet for det dyr, sætningen handler om; ét dyr bliver tilovers."
+        },
+        "G1-407": {
+          "title": "Hvad har dyr brug for? Mad og et hjem",
+          "instruction": "Sæt ring om den mad, hvert dyr spiser, og om det hjem, dyret bor i."
+        },
+        "G2-381": {
+          "title": "Mit levested: undersøg, tegn og skriv",
+          "instruction": "Tegn i billedet tre dyr, der lever her, skriv deres navne og navnet på en plante, der vokser her, og sæt ring om det ord, der passer til levestedet."
+        }
+      },
+      "placeWords": [
+        "ørken",
+        "ørkenen",
+        "hav",
+        "havet",
+        "is",
+        "isen",
+        "arktis",
+        "sydpolen",
+        "sø",
+        "søen",
+        "skov",
+        "skoven",
+        "eng",
+        "engen",
+        "mark",
+        "marken",
+        "dam",
+        "dammen",
+        "vandhul",
+        "savanne",
+        "savannen",
+        "regnskov",
+        "regnskoven",
+        "jungle",
+        "junglen"
+      ]
+    },
+    "sink-or-float": {
+      "floatWord": "flyder",
+      "sinkWord": "synker",
+      "heads": {
+        "guess": "Mit gæt",
+        "test": "Forsøget",
+        "surprise": "Overrasket?"
+      },
+      "trueWord": "rigtigt",
+      "falseWord": "forkert",
+      "clayWord": "modellervoks",
+      "labels": {
+        "ball": "bold",
+        "log": "træstamme",
+        "pumpkin": "græskar",
+        "apple": "æble",
+        "lemon": "citron",
+        "banana": "banan",
+        "leaf": "blad",
+        "feather": "fjer",
+        "pinecone": "kogle",
+        "pencil": "blyant",
+        "toyboat": "legetøjsbåd",
+        "ship": "skib",
+        "orange": "appelsin",
+        "rock": "sten",
+        "nail": "søm",
+        "hammer": "hammer",
+        "bolt": "skrue",
+        "pliers": "tang",
+        "scissors": "saks",
+        "potato": "kartoffel"
+      },
+      "tf": {
+        "T1": "En stor træstamme flyder.",
+        "T2": "Et lille søm synker.",
+        "T3": "Et skib af stål flyder.",
+        "T4": "Et tungt græskar flyder.",
+        "T5": "Et æble flyder, men en kartoffel synker.",
+        "T6": "Den samme klump modellervoks kan både synke og flyde.",
+        "T7": "Nogle tunge ting flyder.",
+        "T8": "Nogle lette ting synker.",
+        "F1": "En kartoffel flyder.",
+        "F2": "En fjer synker.",
+        "F3": "Et skib af stål synker.",
+        "F4": "En bold fuld af luft synker.",
+        "F5": "Alle tunge ting synker.",
+        "F6": "Alle lette ting flyder.",
+        "F7": "Store ting synker altid.",
+        "F8": "En ting flyder, fordi den er let.",
+        "F9": "Kun små ting kan flyde."
+      },
+      "report": {
+        "question": "Mit spørgsmål",
+        "predict": "Jeg tror",
+        "result": "Det skete",
+        "learned": "Jeg lærte",
+        "starter": "Nu ved jeg, at"
+      },
+      "questions": {
+        "orange": "Flyder en appelsin med skræl? Flyder den uden skræl?",
+        "cargo": "Hvor mange klodser kan en båd af modellervoks bære, før den synker?"
+      },
+      "forbidden": [
+        "tunge ting synker",
+        "lette ting flyder",
+        "fordi den er let",
+        "fordi det er let",
+        "massefylde",
+        "densitet",
+        "opdrift",
+        "salt"
+      ],
+      "experimentWords": [
+        "forsøg",
+        "gæt",
+        "afprøv",
+        "undersøg"
+      ],
+      "apparatus": {
+        "ring": "ring",
+        "tank": "balje",
+        "star": "stjerne",
+        "spot": "stiplede felter"
+      },
+      "instructionBans": {
+        "base": [
+          "streg",
+          "gruppe",
+          "spand",
+          "flueben",
+          "klip",
+          "sæt ring om"
+        ],
+        "scale": [
+          "streg",
+          "gruppe",
+          "spand",
+          "flueben",
+          "klip",
+          "farv"
+        ],
+        "shape": [
+          "streg",
+          "gruppe",
+          "spand",
+          "flueben",
+          "klip"
+        ],
+        "truth": [
+          "streg",
+          "gruppe",
+          "spand",
+          "flueben",
+          "klip",
+          "farv"
+        ],
+        "draw": [
+          "streg",
+          "gruppe",
+          "spand",
+          "flueben",
+          "klip",
+          "ring"
+        ],
+        "report": [
+          "streg",
+          "gruppe",
+          "spand",
+          "flueben",
+          "klip"
+        ]
+      },
+      "refuse": [],
+      "strings": {
+        "G1-399": {
+          "title": "Flyder eller synker? Gæt og afprøv i et forsøg",
+          "instruction": "Farv en ring i den første balje før forsøget, en ring i den anden balje bagefter og stjernen, hvis du blev overrasket."
+        },
+        "G1-408": {
+          "title": "Tung eller let? Flyde eller synke, forsøg med en vægt",
+          "instruction": "Vægten viser, hvilken ting der er tungest: sæt ring om den ting, der flyder i vand."
+        },
+        "G2-382": {
+          "title": "Kan modellervoks flyde? Forsøg med formen",
+          "instruction": "Farv ringen, hvor hver form af modellervoks ender, sæt ring om den ting, der flyder, og tegn din egen båd af modellervoks i den store balje."
+        },
+        "G2-383": {
+          "title": "Hvorfor flyder ting? Rigtigt eller forkert om at flyde og synke",
+          "instruction": "Læs hver sætning, og sæt ring om rigtigt eller forkert."
+        },
+        "K-384": {
+          "title": "Tegn ting, der flyder og synker, i baljen",
+          "instruction": "Tegn to ting, der flyder, i de stiplede felter på vandet og to ting, der synker, i de stiplede felter på bunden."
+        },
+        "G3-400": {
+          "title": "Mit forsøg: flyder eller synker en appelsin?",
+          "instruction": "Vælg et spørgsmål, skriv, hvad du tror, afprøv det, og tegn så, hvad der skete, og skriv, hvad du lærte."
+        }
+      },
+      "shapeHeads": {
+        "clay": "Samme modellervoks, forskellige former",
+        "steel": "Samme stål, forskellige former: sæt ring om den, der flyder"
+      }
+    },
+    "cursive-writing": {
+      "refused": null,
+      "units": [
+        "dk-uloopet"
+      ],
+      "exemplar": "dk-uloopet",
+      "unitLabel": {
+        "dk-uloopet": "sammenhængende skrift"
+      },
+      "scriptName": {
+        "dk-uloopet": "Skråskrift uden løkker"
+      },
+      "ruling": {
+        "G1": "lin4",
+        "G2": "lin4",
+        "G3": "lin4"
+      },
+      "dashHelpers": false,
+      "xPx": {
+        "base": 18,
+        "capitals": 18,
+        "joins": 18,
+        "words": 18,
+        "read": 18,
+        "copy": 16
+      },
+      "levels": {
+        "base": "2-klasse",
+        "capitals": "2-klasse",
+        "joins": "2-klasse",
+        "words": "2-klasse",
+        "read": "2-klasse",
+        "copy": "3-klasse"
+      },
+      "lessons": {
+        "dk-uloopet": [
+          [
+            "i",
+            "u",
+            "t"
+          ],
+          [
+            "n",
+            "m",
+            "r",
+            "v"
+          ],
+          [
+            "e",
+            "l",
+            "b",
+            "h",
+            "k"
+          ],
+          [
+            "a",
+            "d",
+            "g",
+            "q",
+            "c",
+            "o"
+          ],
+          [
+            "s",
+            "f",
+            "j",
+            "p",
+            "y"
+          ],
+          [
+            "w",
+            "x",
+            "z",
+            "æ",
+            "ø",
+            "å"
+          ]
+        ]
+      },
+      "joins": {
+        "dk-uloopet": [
+          {
+            "pair": "ol",
+            "word": "stol"
+          },
+          {
+            "pair": "br",
+            "word": "brød"
+          },
+          {
+            "pair": "bo",
+            "word": "bog"
+          },
+          {
+            "pair": "or",
+            "word": "jord"
+          },
+          {
+            "pair": "ve",
+            "word": "løve"
+          },
+          {
+            "pair": "sk",
+            "word": "skib"
+          },
+          {
+            "pair": "st",
+            "word": "sten"
+          },
+          {
+            "pair": "hu",
+            "word": "hus"
+          },
+          {
+            "pair": "ma",
+            "word": "mand"
+          }
+        ]
+      },
+      "words": {
+        "animals/cat": "kat",
+        "animals/fish": "fisk",
+        "animals/owl": "ugle",
+        "animals/pig": "gris",
+        "animals/sheep": "får",
+        "fruits/lemon": "citron",
+        "fruits/pear": "pære",
+        "fruits/apple": "æble",
+        "toys/boat": "båd",
+        "toys/doll": "dukke",
+        "toys/robot": "robot",
+        "toys/train": "tog",
+        "toys/kite": "drage",
+        "around the house/bed": "seng",
+        "around the house/chair": "stol",
+        "around the house/cup": "kop",
+        "around the house/lamp": "lampe",
+        "classroom/book": "bog",
+        "zoo animals/lion": "løve",
+        "pets/mouse": "mus",
+        "bakery/cake": "kage",
+        "weather/sun": "sol",
+        "weather/cloud": "sky",
+        "animals/horse": "hest",
+        "animals/zebra": "zebra",
+        "animals/tiger": "tiger"
+      },
+      "sentences": [
+        "Katten sover i sengen.",
+        "Jeg ser en rød drage.",
+        "Min hund kan løbe stærkt.",
+        "Vi elsker at læse bøger.",
+        "Solen er varm i dag.",
+        "Ida har en lille båd."
+      ],
+      "strings": {
+        "G2-377": {
+          "title": "Sammenhængende skrift: små bogstaver i, u og t",
+          "instruction": "Skriv oven i de grå bogstaver, og skriv så selv hvert bogstav sammenhængende til enden af linjen og på de tomme linjer nedenfor."
+        },
+        "G2-384": {
+          "title": "Store bogstaver i sammenhængende skrift: skriv navnene",
+          "instruction": "Skriv oven i de grå store bogstaver og navne, og skriv dem så selv på den tomme linje nedenfor."
+        },
+        "G2-385": {
+          "title": "Sammenhængende skrift: bind bogstaverne sammen",
+          "instruction": "Skriv oven i hvert gråt bogstavpar og ord, og skriv dem så selv på den tomme linje nedenfor."
+        },
+        "G2-386": {
+          "title": "Skriv ord med sammenhængende skrift til billederne",
+          "instruction": "Skriv oven i hvert gråt ord ved først at binde bogstaverne sammen og til sidst sætte prikker og streger, og skriv ordet ens på linjen nedenfor."
+        },
+        "G2-387": {
+          "title": "Læs sammenhængende skrift: find billedet til ordet",
+          "instruction": "Læs hvert ord i sammenhængende skrift, og tegn en streg fra ordet til dets billede."
+        },
+        "G3-401": {
+          "title": "Håndskrift 3. klasse: skriv sætninger af med sammenhængende skrift",
+          "instruction": "Skriv først oven i den grå sætning, og skriv så hver trykt sætning af med sammenhængende skrift på de to linjer under den."
+        }
+      }
+    }
+  },
+  "refusals": {},
+  "strandNames": {
+    "Health": "Sundhedsundervisning"
+  },
+  "enAudit": [
+    "healthy-habits base (K-380): the SLEEP plaque already draws the child lying under a blanket on a bed frame, i.e. the very tool on the shelf ('bed') is inside the plaque; the title asks 'What does each child need?' of a child who is already in it. The sleep line is solved by the plaque, not by reasoning (and it is the one pairing a non-reader gets for free).",
+    "healthy-habits F2 (G1-403): the 'spit' card (head bowed over the sink, three drops from the face) reads as crying or washing the face at 104 px; nothing in the drawing says 'toothpaste foam'. In da the chip answer 'efter' still holds, but a child who reads it as 'washing the face' has no phase to pick.",
+    "story-sequencing F2 (G1-400) EN instruction 'circle the picture in the box that comes next' parses as 'the box that comes next' (the dashed '?' frame is ALSO a box, and it is the thing that 'comes next' on the cord). da says 'the picture below' (nedenunder) to name the tray, not the query frame.",
+    "cursive F4 (G2-387) shipped seed: the right column is three ADJACENT SWAPS of the left (rows 1<->2, 3<->4, 5<->6: æble/kage, ælling/bog, båd/hest in da; the seed carries no locale, so the same pattern ships in every locale). It passes 'derangement, not a rotation' but every partner is exactly one row away: a position tell the non-rotation rule does not catch. Measure the partner-offset distribution per page (all |offset| = 1 on this seed).",
+    "cursive base (G2-377): the EN instruction says 'on the empty line below', but units with writeRows 2 (dk-uloopet, no) print TWO empty lines per letter; a literal translation names the wrong count. da says 'de tomme linjer'.",
+    "cursive F3 (G2-386) and habitats base (G1-398) EN instructions are TWO sentences while the panel brief demands one child-level sentence; da writes each as one.",
+    "sink-or-float F3 (G2-383) T6 'The same clay can sink or float.' is ambiguous (it reads as 'it might do either, you cannot tell'); the point is that ONE lump does BOTH depending on its shape. da: 'Den samme klump modellervoks kan både synke og flyde.'",
+    "sink-or-float bolt: the picture is a threaded hex-head bolt; 6-8-year-olds call it a screw. The EN label 'bolt' is a teacher word; da labels it 'skrue' (what the child says).",
+    "habitats F3 (G2-380) EN claims use 'It / Its'. In gendered languages the matching pronoun (da den/det, de er/sie/es, fr il/elle) names the animal's grammatical gender and becomes a tell (da: egern, dovendyr, næsehorn are neuter). da rewrites every claim around 'Dyret / Dyrets' (one neuter noun for all), so no pronoun points at an animal. Other gendered panels should do the same.",
+    "habitats F3 camel claim names 'the desert' while no other claim names a place and the camel is the only desert animal in the pool: the place word alone solves the row without reading the body part.",
+    "healthy-habits F4 brush-teeth reason 'It keeps holes away' reads oddly without teeth (holes in what?); the stem ban forbids 'teeth', so the EN sentence is carrying a gap every locale inherits. da 'Det holder huller væk og smilet rent' (huller = cavities is idiomatic in Danish)."
+  ]
+}

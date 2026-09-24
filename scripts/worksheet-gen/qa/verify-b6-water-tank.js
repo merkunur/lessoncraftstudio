@@ -86,6 +86,10 @@ function checkTank(svg, { w, h, mode }, ret, pairRef) {
   E(Math.abs(ret.waterY - waterY) < 0.01 && Math.abs(ret.floorY - floorY) < 0.01, `${mode}: returned waterY/floorY ≠ the markup`);
   const pebbles = tagsOf(part(svg, 'floor') || '', 'ellipse').map((t) => ({ cx: num(t, 'cx'), cy: num(t, 'cy'), rx: num(t, 'rx') }));
   E(pebbles.length === 4 && pebbles.every((p) => p.cy > floorY && p.cy < 0.97 * h), `${mode}: 4 pebbles in the gravel band`);
+  // recon 2 (de panel): an OPEN or large pebble reads as an answer ring to colour — pebbles are small filled stones
+  { const pt = tagsOf(part(svg, 'floor') || '', 'ellipse');
+    E(pt.every((t) => { const f = (t.match(/fill="([^"]*)"/) || [])[1]; return f && f !== 'none' && f.toLowerCase() !== '#ffffff' && f !== 'white'; }), `${mode}: every pebble is a FILLED stone (never an open ring)`);
+    E(pebbles.every((q) => q.rx <= 8), `${mode}: pebble rx <= 8 px (never ring-sized)`); }
   const rings = tagsOf(svg, 'circle').filter((t) => /data-lcs-slot=/.test(t));
   const blobTag = tagsOf(svg, 'path').find((t) => /data-lcs-blob=/.test(t));
   const blobOf = (t) => { const n = attr(t, 'd').match(/-?\d*\.?\d+/g).map(Number); const x0 = n[0], y0 = n[1]; const x1 = n[8]; const R = (x1 - x0) / 2; return { cx: x0 + R, cy: y0, R, bottom: y0 + 0.71 * R, top: y0 - 0.79 * R }; };

@@ -154,14 +154,14 @@
         "die Latte",
         "die Farbe",
         "der Pinsel",
-        "der Farbtopf"
+        "der Farbeimer"
       ],
       "helpIds": [
         "fence",
         "plank",
         "paint",
         "brush",
-        "pot"
+        "bucket"
       ]
     },
     "letter": {
@@ -259,7 +259,7 @@
     },
     "first-next-last-cut": {
       "title": "Bildergeschichte ausschneiden: zuerst, dann, zum Schluss",
-      "instruction": "Schneide die Bilder aus jedem Streifen aus und klebe sie in die leeren Rahmen über Zuerst, Dann und Zum Schluss."
+      "instruction": "Schneide die Bilder aus jedem Streifen aus und klebe sie an der Leine mit demselben Zeichen in die leeren Rahmen über Zuerst, Dann und Zum Schluss."
     },
     "what-happens-next": {
       "title": "Bildergeschichte: Was passiert als Nächstes?",
@@ -270,8 +270,8 @@
       "instruction": "Schau dir Anfang und Schluss jeder Geschichte an und male in den großen Rahmen in der Mitte, was dazwischen passiert."
     },
     "sequencing-sentences": {
-      "title": "Bildergeschichte: Sätze den Bildern zuordnen",
-      "instruction": "Lies die Sätze jeder Geschichte und verbinde jeden Satz mit seinem Bild."
+      "title": "Bildergeschichte: Sätze ordnen und den Bildern zuordnen",
+      "instruction": "Nummeriere die Sätze jeder Geschichte in den Kästchen der Reihe nach und verbinde dann jeden Satz mit seinem Bild."
     },
     "retell-with-starters": {
       "title": "Bildergeschichte schreiben mit Worthilfen",

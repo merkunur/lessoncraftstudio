@@ -1,0 +1,1316 @@
+{
+  "locale": "de",
+  "types": {
+    "K-379": {
+      "title": "Bildergeschichte ordnen: Bilder nummerieren",
+      "instruction": "Schau genau, was sich verändert, und schreibe 1, 2, 3 und 4 in die Kästchen, damit jede Geschichte richtig geordnet ist."
+    },
+    "K-381": {
+      "title": "Bildergeschichte ausschneiden: zuerst, dann, zum Schluss",
+      "instruction": "Schneide die Bilder aus jedem Streifen aus und klebe sie an der Leine mit demselben Zeichen in die leeren Rahmen über Zuerst, Dann und Zum Schluss."
+    },
+    "G1-400": {
+      "title": "Bildergeschichte: Was passiert als Nächstes?",
+      "instruction": "Schau dir die drei Bilder jeder Geschichte an und kreise darunter das Bild ein, das in den Rahmen mit dem Fragezeichen gehört."
+    },
+    "G1-401": {
+      "title": "Bildergeschichte: Anfang, Mitte und Schluss",
+      "instruction": "Schau dir Anfang und Schluss jeder Geschichte an und male in den großen Rahmen in der Mitte, was dazwischen passiert."
+    },
+    "G1-402": {
+      "title": "Bildergeschichte: Sätze ordnen und den Bildern zuordnen",
+      "instruction": "Nummeriere die Sätze jeder Geschichte in den Kästchen der Reihe nach und verbinde dann jeden Satz mit seinem Bild."
+    },
+    "G2-378": {
+      "title": "Bildergeschichte schreiben mit Worthilfen",
+      "instruction": "Schreibe zu jedem Bild auf die Linien, was passiert, und fang mit dem Wort an, das schon auf der ersten Linie steht."
+    },
+    "K-380": {
+      "title": "Gesunde Gewohnheiten: Was benutzt jedes Kind?",
+      "instruction": "Zieh eine Linie von jedem Kind zu dem, was es benutzt."
+    },
+    "K-382": {
+      "title": "Richtig Hände waschen",
+      "instruction": "Schreibe 1 bis 5 in die Kästchen, so wie wir die Hände waschen."
+    },
+    "G1-403": {
+      "title": "Zähneputzen: vorher, beim Putzen oder danach?",
+      "instruction": "Kreise bei jedem Bild ein: vorher, beim Putzen oder danach."
+    },
+    "G1-404": {
+      "title": "Keime stoppen: Was hilft?",
+      "instruction": "Kreise in jeder Reihe das Bild ein, das Keime stoppt."
+    },
+    "G2-379": {
+      "title": "Hygiene und Gesundheit: Warum machen wir das?",
+      "instruction": "Verbinde jede Gewohnheit mit dem Satz, der sagt, warum wir das tun."
+    },
+    "G1-405": {
+      "title": "Wochenplan für gesunde Gewohnheiten zum Abhaken",
+      "instruction": "Mach jeden Tag ein Häkchen in das Kästchen für alles, was du gemacht hast."
+    },
+    "G1-398": {
+      "title": "Lebensräume der Tiere: Wald, Wiese, Teich und Meer",
+      "instruction": "Schreibe unter jedes Tier den Buchstaben des Lebensraums, in dem es lebt."
+    },
+    "K-383": {
+      "title": "Tierwohnungen: Nest, Bau und Biberburg",
+      "instruction": "Verbinde jedes Tier mit seinem Zuhause."
+    },
+    "G1-406": {
+      "title": "Lebensraum: Welches Tier lebt hier nicht?",
+      "instruction": "Streiche bei jedem Lebensraum das Tier durch, das dort nicht lebt."
+    },
+    "G2-380": {
+      "title": "Angepasst an den Lebensraum: Welches Tier ist es?",
+      "instruction": "Schreibe in jedes Kästchen den Buchstaben des Tieres, von dem der Satz erzählt; ein Tier bleibt übrig."
+    },
+    "G1-407": {
+      "title": "Was brauchen Tiere? Nahrung und ein Zuhause",
+      "instruction": "Kreise bei jedem Tier ein, was es frisst und wo es wohnt."
+    },
+    "G2-381": {
+      "title": "Forscherblatt: Lebensraum Teich",
+      "instruction": "Male drei Tiere, die hier leben, in das Bild, schreibe ihre Namen und eine Pflanze von hier auf und kreise das passende Wort ein."
+    },
+    "G1-399": {
+      "title": "Schwimmen und Sinken: Versuch mit Vermutung",
+      "instruction": "Male vor dem Versuch einen Ring im ersten Becken aus, nach dem Versuch einen Ring im zweiten Becken und den Stern, wenn es dich überrascht hat."
+    },
+    "G1-408": {
+      "title": "Schwer oder leicht? Versuch zum Schwimmen und Sinken",
+      "instruction": "Die Waage zeigt, was schwerer ist: Kreise ein, was im Wasser schwimmt."
+    },
+    "G2-382": {
+      "title": "Schwimmt Knete? Versuch mit Knetkugel und Knetboot",
+      "instruction": "Male bei jeder Knetform den Ring aus, wo sie landet, kreise ein, was schwimmt, und male dein eigenes Knetboot in das große Becken."
+    },
+    "G2-383": {
+      "title": "Schwimmen und Sinken: Richtig oder falsch?",
+      "instruction": "Lies jeden Satz und kreise richtig oder falsch ein."
+    },
+    "K-384": {
+      "title": "Male, was schwimmt und was sinkt",
+      "instruction": "Male zwei Dinge, die schwimmen, in die gestrichelten Kästchen auf dem Wasser und zwei, die sinken, in die Kästchen am Boden."
+    },
+    "G3-400": {
+      "title": "Versuchsprotokoll: Schwimmen und Sinken",
+      "instruction": "Wähle eine Frage, schreibe deine Vermutung auf, mach den Versuch, male, was passiert ist, und schreibe auf, was du herausgefunden hast."
+    },
+    "G2-377": {
+      "title": "Schreibschrift üben: i, u und t in {U}",
+      "instruction": "Spure die grauen Buchstaben nach und schreibe dann jeden Buchstaben verbunden allein bis zum Ende der Zeile und in der leeren Zeile darunter."
+    },
+    "G2-384": {
+      "title": "Großbuchstaben in {U}",
+      "instruction": "Spure jeden grauen Großbuchstaben und den Namen nach und schreibe beides in die leere Zeile darunter."
+    },
+    "G2-385": {
+      "title": "Buchstabenverbindungen in {U}",
+      "instruction": "Spure jede graue Buchstabenverbindung und das Wort nach und schreibe beides in die leere Zeile darunter."
+    },
+    "G2-386": {
+      "title": "Schreibschrift-Wörter zu Bildern in {U}",
+      "instruction": "Spure jedes graue Wort nach, verbinde zuerst die Buchstaben und setze zum Schluss Punkte und Striche, dann schreibe es genauso auf die Zeile darunter."
+    },
+    "G2-387": {
+      "title": "Schreibschrift lesen: Wörter in {U}",
+      "instruction": "Lies jedes Wort in Schreibschrift und verbinde es mit seinem Bild."
+    },
+    "G3-401": {
+      "title": "Sätze in {U} abschreiben",
+      "instruction": "Spure den grauen Satz nach und schreibe dann jeden gedruckten Satz in Schreibschrift auf die zwei Zeilen darunter."
+    }
+  },
+  "families": {
+    "story-sequencing": {
+      "slug": "bildergeschichten",
+      "name": "Bildergeschichten"
+    },
+    "healthy-habits": {
+      "slug": "hygiene-und-koerperpflege",
+      "name": "Hygiene und Körperpflege"
+    },
+    "habitats": {
+      "slug": "lebensraeume-der-tiere",
+      "name": "Lebensräume der Tiere"
+    },
+    "sink-or-float": {
+      "slug": "schwimmen-und-sinken",
+      "name": "Schwimmen und Sinken"
+    },
+    "cursive-writing": {
+      "slug": "schreibschrift",
+      "name": "Schreibschrift"
+    }
+  },
+  "skills": {
+    "story-sequencing": {
+      "full": "Bildergeschichten ordnen, erzählen und schreiben: Bilder nummerieren, mit zuerst, dann, zum Schluss ausschneiden, weiterdenken, die Mitte malen und Sätze zuordnen.",
+      "short": "Bildergeschichten ordnen, erzählen und schreiben"
+    },
+    "healthy-habits": {
+      "full": "Hygiene und Körperpflege: Hände richtig waschen, Zähne putzen, in die Armbeuge husten, verstehen, warum wir das tun, und eine Woche lang im Plan abhaken.",
+      "short": "Hände waschen, Zähne putzen und Keime stoppen"
+    },
+    "habitats": {
+      "full": "Lebensräume der Tiere erkunden: Wald, Wiese, Teich und Meer zuordnen, Tierwohnungen kennen, Anpassungen verstehen und sagen, was Tiere zum Leben brauchen.",
+      "short": "Tiere ihren Lebensräumen und Wohnungen zuordnen"
+    },
+    "sink-or-float": {
+      "full": "Schwimmen und Sinken als Versuch: vermuten, im Wasser testen, mit der Waage und mit Knete forschen, Aussagen prüfen und ein Versuchsprotokoll schreiben.",
+      "short": "Vermuten und testen, was schwimmt und was sinkt"
+    },
+    "cursive-writing": {
+      "full": "Schreibschrift in Vereinfachter und Lateinischer Ausgangsschrift: Buchstaben, Großbuchstaben, Verbindungen und Wörter nachspuren, Schreibschrift lesen und Sätze abschreiben.",
+      "short": "Verbunden schreiben in VA und LA"
+    }
+  },
+  "topicMeta": {
+    "story-sequencing": "Bildergeschichten zum Ausdrucken: Bilder ordnen und nummerieren, ausschneiden mit zuerst, dann, zum Schluss, Sätze zuordnen und mit Worthilfen schreiben. Vorschule bis 2. Klasse.",
+    "healthy-habits": "Hygiene und Körperpflege zum Ausdrucken: richtig Hände waschen, Zähne putzen, in die Armbeuge husten und ein Hygiene-Wochenplan. Vorschule bis 2. Klasse.",
+    "habitats": "Lebensräume der Tiere zum Ausdrucken: Wald, Wiese, Teich und Meer, Tierwohnungen, Anpassung an den Lebensraum und ein Forscherblatt. Vorschule bis 2. Klasse.",
+    "sink-or-float": "Schwimmen und Sinken zum Ausdrucken: Versuch mit Vermutung, Waage und Knetboot, richtig oder falsch und ein Versuchsprotokoll. Vorschule bis 3. Klasse.",
+    "cursive-writing": "Schreibschrift zum Ausdrucken in Vereinfachter und Lateinischer Ausgangsschrift: Buchstaben, Großbuchstaben, Verbindungen, Wörter lesen und Sätze abschreiben. 2. und 3. Klasse."
+  },
+  "banks": {
+    "story-sequencing": {
+      "words3": [
+        "Zuerst",
+        "Dann",
+        "Zum Schluss"
+      ],
+      "openers4": [
+        "Zuerst",
+        "Dann",
+        "Danach",
+        "Zum Schluss"
+      ],
+      "starters4": [
+        "Zuerst",
+        "Dann",
+        "Danach",
+        "Zum Schluss"
+      ],
+      "bme": [
+        "Anfang",
+        "Mitte",
+        "Schluss"
+      ],
+      "stories": {
+        "apple": {
+          "sentences": [
+            "Zuerst ist der Apfel noch ganz.",
+            "Dann ist der Apfel einmal angebissen.",
+            "Danach hat der Apfel schon drei Bisse.",
+            "Zum Schluss ist nur noch das Kerngehäuse übrig."
+          ],
+          "stateWords": [
+            "ganz",
+            "einmal",
+            "drei Bisse",
+            "Kerngehäuse"
+          ],
+          "helpWords": [
+            "der Apfel",
+            "der Biss",
+            "das Kerngehäuse",
+            "der Stiel",
+            "das Blatt",
+            "der Teller"
+          ],
+          "helpIds": [
+            "apple",
+            "bite",
+            "core",
+            "stem",
+            "leaf",
+            "plate"
+          ]
+        },
+        "banana": {
+          "sentences": [
+            "Zuerst ist die Banane noch nicht geschält.",
+            "Dann hängt ein Streifen Schale herunter.",
+            "Danach hängen drei Streifen herunter.",
+            "Zum Schluss ist nur noch die leere Schale übrig."
+          ],
+          "stateWords": [
+            "nicht geschält",
+            "ein Streifen",
+            "drei Streifen",
+            "leere Schale"
+          ],
+          "helpWords": [
+            "die Banane",
+            "die Schale",
+            "der Streifen",
+            "der Teller"
+          ],
+          "helpIds": [
+            "banana",
+            "peel",
+            "strip",
+            "plate"
+          ]
+        },
+        "sandwich": {
+          "sentences": [
+            "Zuerst liegen zwei Scheiben Brot auf dem Brett.",
+            "Dann ist Marmelade auf einer Scheibe.",
+            "Danach ist das Brot schräg durchgeschnitten.",
+            "Zum Schluss ist nur noch eine Kruste mit Krümeln übrig."
+          ],
+          "stateWords": [
+            "zwei Scheiben",
+            "Marmelade",
+            "durchgeschnitten",
+            "Kruste"
+          ],
+          "helpWords": [
+            "das Brot",
+            "die Marmelade",
+            "das Messer",
+            "die Hälfte",
+            "die Kruste",
+            "die Krümel"
+          ],
+          "helpIds": [
+            "bread",
+            "jam",
+            "knife",
+            "half",
+            "crust",
+            "crumb"
+          ]
+        },
+        "cake": {
+          "sentences": [
+            "Zuerst ist der Kuchen noch ganz.",
+            "Dann ist ein Stück herausgeschnitten.",
+            "Danach ist schon die Hälfte weg.",
+            "Zum Schluss sind nur noch Krümel übrig."
+          ],
+          "stateWords": [
+            "ganz",
+            "ein Stück",
+            "Hälfte",
+            "Krümel"
+          ],
+          "helpWords": [
+            "der Kuchen",
+            "das Stück",
+            "die Kerzen",
+            "die Krümel",
+            "der Tortenständer"
+          ],
+          "helpIds": [
+            "cake",
+            "slice",
+            "candle",
+            "crumb",
+            "stand"
+          ]
+        },
+        "fence": {
+          "sentences": [
+            "Zuerst ist der Zaun ganz weiß.",
+            "Dann sind zwei Latten gestrichen.",
+            "Danach sind vier Latten gestrichen.",
+            "Zum Schluss ist der ganze Zaun gestrichen."
+          ],
+          "stateWords": [
+            "ganz weiß",
+            "zwei Latten",
+            "vier Latten",
+            "ganze Zaun"
+          ],
+          "helpWords": [
+            "der Zaun",
+            "die Latte",
+            "die Farbe",
+            "der Pinsel",
+            "der Farbeimer"
+          ],
+          "helpIds": [
+            "fence",
+            "plank",
+            "paint",
+            "brush",
+            "bucket"
+          ]
+        },
+        "letter": {
+          "sentences": [
+            "Zuerst ist die Karte noch leer.",
+            "Dann ist eine Blume auf die Karte gemalt.",
+            "Danach stehen drei Zeilen auf der Karte.",
+            "Zum Schluss steckt die Karte in einem Umschlag mit Briefmarke."
+          ],
+          "stateWords": [
+            "leer",
+            "Blume",
+            "Zeilen",
+            "Briefmarke"
+          ],
+          "helpWords": [
+            "die Karte",
+            "die Blume",
+            "der Bleistift",
+            "der Umschlag",
+            "die Briefmarke"
+          ],
+          "helpIds": [
+            "card",
+            "flower",
+            "pencil",
+            "envelope",
+            "stamp"
+          ]
+        },
+        "paper-chain": {
+          "sentences": [
+            "Zuerst liegt ein Blatt Papier auf dem Tisch.",
+            "Dann ist das Blatt in fünf Streifen geschnitten.",
+            "Danach sind zwei Streifen zu Ringen geklebt.",
+            "Zum Schluss hängen alle fünf Ringe als Kette zusammen."
+          ],
+          "stateWords": [
+            "ein Blatt",
+            "fünf Streifen",
+            "zwei Streifen",
+            "Kette"
+          ],
+          "helpWords": [
+            "das Papier",
+            "die Schere",
+            "der Streifen",
+            "der Kleber",
+            "der Ring",
+            "die Kette"
+          ],
+          "helpIds": [
+            "paper",
+            "scissors",
+            "strip",
+            "glue",
+            "ring",
+            "chain"
+          ]
+        },
+        "beach-walk": {
+          "sentences": [
+            "Zuerst sind noch keine Fußspuren im Sand.",
+            "Dann läuft ein Kind los und macht drei Fußspuren.",
+            "Danach findet das Kind eine Muschel.",
+            "Zum Schluss ist das Kind mit der Muschel zurück auf dem Handtuch."
+          ],
+          "stateWords": [
+            "keine Fußspuren",
+            "drei Fußspuren",
+            "findet",
+            "zurück"
+          ],
+          "helpWords": [
+            "der Sand",
+            "das Handtuch",
+            "die Muschel",
+            "die Fußspuren",
+            "der Strand"
+          ],
+          "helpIds": [
+            "sand",
+            "towel",
+            "shell",
+            "footprint",
+            "beach"
+          ]
+        }
+      },
+      "excludeStories": [],
+      "strings": {
+        "base": {
+          "title": "Bildergeschichte ordnen: Bilder nummerieren",
+          "instruction": "Schau genau, was sich verändert, und schreibe 1, 2, 3 und 4 in die Kästchen, damit jede Geschichte richtig geordnet ist."
+        },
+        "first-next-last-cut": {
+          "title": "Bildergeschichte ausschneiden: zuerst, dann, zum Schluss",
+          "instruction": "Schneide die Bilder aus jedem Streifen aus und klebe sie an der Leine mit demselben Zeichen in die leeren Rahmen über Zuerst, Dann und Zum Schluss."
+        },
+        "what-happens-next": {
+          "title": "Bildergeschichte: Was passiert als Nächstes?",
+          "instruction": "Schau dir die drei Bilder jeder Geschichte an und kreise darunter das Bild ein, das in den Rahmen mit dem Fragezeichen gehört."
+        },
+        "beginning-middle-end": {
+          "title": "Bildergeschichte: Anfang, Mitte und Schluss",
+          "instruction": "Schau dir Anfang und Schluss jeder Geschichte an und male in den großen Rahmen in der Mitte, was dazwischen passiert."
+        },
+        "sequencing-sentences": {
+          "title": "Bildergeschichte: Sätze ordnen und den Bildern zuordnen",
+          "instruction": "Nummeriere die Sätze jeder Geschichte in den Kästchen der Reihe nach und verbinde dann jeden Satz mit seinem Bild."
+        },
+        "retell-with-starters": {
+          "title": "Bildergeschichte schreiben mit Worthilfen",
+          "instruction": "Schreibe zu jedem Bild auf die Linien, was passiert, und fang mit dem Wort an, das schon auf der ersten Linie steht."
+        }
+      }
+    },
+    "healthy-habits": {
+      "strings": {
+        "base": {
+          "title": "Gesunde Gewohnheiten: Was benutzt jedes Kind?",
+          "instruction": "Zieh eine Linie von jedem Kind zu dem, was es benutzt."
+        },
+        "hand-washing-steps": {
+          "title": "Richtig Hände waschen",
+          "instruction": "Schreibe 1 bis 5 in die Kästchen, so wie wir die Hände waschen."
+        },
+        "brushing-teeth": {
+          "title": "Zähneputzen: vorher, beim Putzen oder danach?",
+          "instruction": "Kreise bei jedem Bild ein: vorher, beim Putzen oder danach."
+        },
+        "stop-the-germs": {
+          "title": "Keime stoppen: Was hilft?",
+          "instruction": "Kreise in jeder Reihe das Bild ein, das Keime stoppt."
+        },
+        "why-habits": {
+          "title": "Hygiene und Gesundheit: Warum machen wir das?",
+          "instruction": "Verbinde jede Gewohnheit mit dem Satz, der sagt, warum wir das tun."
+        },
+        "habit-chart": {
+          "title": "Wochenplan für gesunde Gewohnheiten zum Abhaken",
+          "instruction": "Mach jeden Tag ein Häkchen in das Kästchen für alles, was du gemacht hast."
+        }
+      },
+      "phases": {
+        "before": "vorher",
+        "during": "beim Putzen",
+        "after": "danach"
+      },
+      "labels": {
+        "wash-hands": "Hände waschen",
+        "brush-teeth": "Zähne putzen",
+        "sleep": "früh ins Bett",
+        "move-body": "sich bewegen",
+        "drink-water": "Wasser trinken",
+        "sun-protect": "Hut aufsetzen",
+        "blow-nose": "Nase putzen",
+        "comb-hair": "Haare kämmen"
+      },
+      "labelStems": {
+        "wash-hands": [
+          "waschen",
+          "wäscht",
+          "wasch",
+          "hände",
+          "hand",
+          "seife"
+        ],
+        "brush-teeth": [
+          "putzen",
+          "putzt",
+          "zähne",
+          "zahn",
+          "zahnbürste",
+          "zahnpasta"
+        ],
+        "sleep": [
+          "schlafen",
+          "schläft",
+          "schlaf",
+          "bett",
+          "nacht"
+        ],
+        "move-body": [
+          "bewegen",
+          "bewegung",
+          "rennen",
+          "laufen",
+          "spielen",
+          "sport",
+          "toben"
+        ],
+        "sun-protect": [
+          "sonne",
+          "hut",
+          "creme",
+          "sonnencreme",
+          "mütze"
+        ],
+        "drink-water": [
+          "trinken",
+          "trinkt",
+          "wasser",
+          "glas",
+          "becher"
+        ],
+        "blow-nose": [
+          "schnäuzen",
+          "taschentuch",
+          "nase"
+        ],
+        "comb-hair": [
+          "kämmen",
+          "kamm",
+          "haare",
+          "haar"
+        ]
+      },
+      "reasons": {
+        "wash-hands": "So kommen die Keime weg, die an allem kleben, was wir angefasst haben.",
+        "brush-teeth": "Das schützt vor Karies und hält unser Lächeln schön sauber.",
+        "sleep": "Körper und Kopf ruhen sich aus, damit wir morgen wieder munter sind.",
+        "move-body": "Das macht uns fit, schnell und stark.",
+        "sun-protect": "Unsere Haut wird nicht rot und tut nicht weh.",
+        "drink-water": "Unser Körper braucht das, damit er gut arbeiten kann.",
+        "blow-nose": "Wir bekommen wieder gut Luft."
+      },
+      "kaiOrder": true,
+      "coughPhrase": "in die Armbeuge",
+      "weekStartOverride": null
+    },
+    "habitats": {
+      "sets": {
+        "base": [
+          "forest",
+          "meadow",
+          "pond",
+          "ocean"
+        ]
+      },
+      "tileLabel": {
+        "ocean": "Meer",
+        "pond": "Teich",
+        "forest": "Wald",
+        "meadow": "Wiese",
+        "polar": "Polareis",
+        "polar-arctic": "Arktis",
+        "savanna": "Savanne",
+        "rainforest": "Regenwald"
+      },
+      "adapt": {
+        "camel-hump": "Dieses Tier speichert Fett in seinem Höcker und kommt dadurch lange ohne Futter aus.",
+        "giraffe-neck": "Mit seinem langen Hals erreicht dieses Tier die Blätter hoch oben in den Bäumen.",
+        "elephant-trunk": "Mit seinem langen Rüssel saugt dieses Tier Wasser auf und greift nach Futter.",
+        "penguin-flippers": "Seine Flügel sind Flossen: Dieses Tier schwimmt schnell, kann aber nicht fliegen.",
+        "walrus-tusks": "Mit seinen langen Stoßzähnen zieht dieses Tier seinen schweren Körper aus dem Wasser.",
+        "woodpecker-beak": "Mit seinem harten, spitzen Schnabel hackt dieses Tier Löcher in Baumstämme.",
+        "beaver-teeth": "Mit seinen großen Vorderzähnen fällt dieses Tier Bäume und baut damit sein Zuhause im Wasser.",
+        "whale-blowhole": "Dieses Tier atmet Luft durch ein Loch oben auf seinem Kopf.",
+        "fish-gills": "Dieses Tier atmet unter Wasser mit Kiemen.",
+        "duck-feet": "Dieses Tier hat Schwimmhäute zwischen den Zehen und paddelt damit durchs Wasser.",
+        "sloth-claws": "Mit seinen langen, gebogenen Krallen hängt dieses Tier stundenlang an Ästen.",
+        "toucan-beak": "Mit seinem riesigen Schnabel pflückt dieses Tier Früchte weit draußen an dünnen Zweigen.",
+        "squirrel-tail": "Dieses Tier hält mit seinem buschigen Schwanz das Gleichgewicht, wenn es von Ast zu Ast springt."
+      },
+      "names": {
+        "whale": [
+          "Wal"
+        ],
+        "dolphin": [
+          "Delfin",
+          "Delphin"
+        ],
+        "octopus": [
+          "Krake",
+          "Oktopus",
+          "Tintenfisch"
+        ],
+        "starfish": [
+          "Seestern"
+        ],
+        "jellyfish": [
+          "Qualle"
+        ],
+        "shark": [
+          "Hai"
+        ],
+        "clownfish": [
+          "Clownfisch",
+          "Fisch",
+          "Nemo"
+        ],
+        "crab": [
+          "Krabbe",
+          "Krebs"
+        ],
+        "ray": [
+          "Rochen"
+        ],
+        "seal-grey": [
+          "Robbe",
+          "Seehund"
+        ],
+        "seal-white": [
+          "Robbe",
+          "Robbenbaby",
+          "Seehund"
+        ],
+        "walrus": [
+          "Walross"
+        ],
+        "narwhal": [
+          "Narwal"
+        ],
+        "penguin": [
+          "Pinguin"
+        ],
+        "deer": [
+          "Reh",
+          "Rehkitz",
+          "Hirsch"
+        ],
+        "squirrel": [
+          "Eichhörnchen"
+        ],
+        "woodpecker": [
+          "Specht"
+        ],
+        "badger": [
+          "Dachs"
+        ],
+        "moose": [
+          "Elch"
+        ],
+        "frog": [
+          "Frosch"
+        ],
+        "dragonfly": [
+          "Libelle"
+        ],
+        "beaver": [
+          "Biber"
+        ],
+        "duck": [
+          "Ente",
+          "Entenküken",
+          "Küken"
+        ],
+        "swan": [
+          "Schwan"
+        ],
+        "butterfly": [
+          "Schmetterling"
+        ],
+        "bee": [
+          "Biene"
+        ],
+        "grasshopper": [
+          "Grashüpfer",
+          "Heuschrecke"
+        ],
+        "ladybug": [
+          "Marienkäfer",
+          "Käfer"
+        ],
+        "lion": [
+          "Löwe"
+        ],
+        "zebra": [
+          "Zebra"
+        ],
+        "giraffe": [
+          "Giraffe"
+        ],
+        "elephant": [
+          "Elefant"
+        ],
+        "rhinoceros": [
+          "Nashorn"
+        ],
+        "ostrich": [
+          "Strauß"
+        ],
+        "monkey": [
+          "Affe"
+        ],
+        "gorilla": [
+          "Gorilla"
+        ],
+        "orangutan": [
+          "Orang-Utan",
+          "Affe"
+        ],
+        "sloth": [
+          "Faultier"
+        ],
+        "toucan": [
+          "Tukan"
+        ],
+        "macaw": [
+          "Ara",
+          "Papagei"
+        ],
+        "camel": [
+          "Kamel",
+          "Dromedar"
+        ],
+        "bird": [
+          "Vogel"
+        ],
+        "spider": [
+          "Spinne"
+        ],
+        "rabbit": [
+          "Kaninchen",
+          "Hase"
+        ],
+        "ant": [
+          "Ameise"
+        ]
+      },
+      "needs": {
+        "line": "Jedes Tier braucht Nahrung und ein Zuhause.",
+        "foodHead": "Nahrung",
+        "homeHead": "Zuhause",
+        "undrawn": [
+          "Wasser",
+          "trinken",
+          "Trinken",
+          "Luft",
+          "Sonne",
+          "Sonnenlicht",
+          "Licht"
+        ]
+      },
+      "report": {
+        "animals": "Tiere, die hier leben",
+        "plant": "Eine Pflanze, die hier wächst",
+        "hot": "heiß",
+        "cold": "kalt",
+        "wet": "nass",
+        "dry": "trocken"
+      },
+      "homeWord": {
+        "nest": "Vogelnest",
+        "hive": "Bienennest",
+        "web": "Spinnennetz",
+        "burrow": "Kaninchenbau",
+        "anthill": "Ameisenhaufen",
+        "lodge": "Biberburg"
+      },
+      "refuse": [],
+      "refuseClaims": [],
+      "strings": {
+        "G1-398": {
+          "title": "Lebensräume der Tiere: Wald, Wiese, Teich und Meer",
+          "instruction": "Schreibe unter jedes Tier den Buchstaben des Lebensraums, in dem es lebt."
+        },
+        "K-383": {
+          "title": "Tierwohnungen: Nest, Bau und Biberburg",
+          "instruction": "Verbinde jedes Tier mit seinem Zuhause."
+        },
+        "G1-406": {
+          "title": "Lebensraum: Welches Tier lebt hier nicht?",
+          "instruction": "Streiche bei jedem Lebensraum das Tier durch, das dort nicht lebt."
+        },
+        "G2-380": {
+          "title": "Angepasst an den Lebensraum: Welches Tier ist es?",
+          "instruction": "Schreibe in jedes Kästchen den Buchstaben des Tieres, von dem der Satz erzählt; ein Tier bleibt übrig."
+        },
+        "G1-407": {
+          "title": "Was brauchen Tiere? Nahrung und ein Zuhause",
+          "instruction": "Kreise bei jedem Tier ein, was es frisst und wo es wohnt."
+        },
+        "G2-381": {
+          "title": "Forscherblatt: Lebensraum Teich",
+          "instruction": "Male drei Tiere, die hier leben, in das Bild, schreibe ihre Namen und eine Pflanze von hier auf und kreise das passende Wort ein."
+        }
+      }
+    },
+    "sink-or-float": {
+      "floatWord": "schwimmt oben",
+      "sinkWord": "geht unter",
+      "heads": {
+        "guess": "Meine Vermutung",
+        "test": "Der Versuch",
+        "surprise": "Überrascht?"
+      },
+      "trueWord": "richtig",
+      "falseWord": "falsch",
+      "clayWord": "Knete",
+      "labels": {
+        "ball": "Ball",
+        "log": "Holzklotz",
+        "pumpkin": "Kürbis",
+        "apple": "Apfel",
+        "lemon": "Zitrone",
+        "banana": "Banane",
+        "leaf": "Blatt",
+        "feather": "Feder",
+        "pinecone": "Tannenzapfen",
+        "pencil": "Bleistift",
+        "toyboat": "Spielzeugboot",
+        "ship": "Schiff",
+        "orange": "Orange",
+        "rock": "Stein",
+        "nail": "Nagel",
+        "hammer": "Hammer",
+        "bolt": "Schraube",
+        "pliers": "Zange",
+        "scissors": "Schere",
+        "potato": "Kartoffel"
+      },
+      "tf": {
+        "T1": "Ein großer Holzklotz schwimmt.",
+        "T2": "Ein kleiner Nagel sinkt.",
+        "T3": "Ein Schiff aus Stahl schwimmt.",
+        "T4": "Ein schwerer Kürbis schwimmt.",
+        "T5": "Ein Apfel schwimmt, aber eine Kartoffel sinkt.",
+        "T6": "Dieselbe Knete kann sinken oder schwimmen.",
+        "T7": "Manche schweren Dinge schwimmen.",
+        "T8": "Manche leichten Dinge sinken.",
+        "F1": "Eine Kartoffel schwimmt.",
+        "F2": "Eine Feder sinkt.",
+        "F3": "Ein Schiff aus Stahl sinkt.",
+        "F4": "Ein Ball voller Luft sinkt.",
+        "F5": "Alle schweren Dinge sinken.",
+        "F6": "Alle leichten Dinge schwimmen.",
+        "F7": "Große Dinge sinken immer.",
+        "F8": "Etwas schwimmt, weil es leicht ist.",
+        "F9": "Nur kleine Dinge können schwimmen."
+      },
+      "report": {
+        "question": "Meine Frage",
+        "predict": "Ich vermute",
+        "result": "Was ist passiert?",
+        "learned": "Das habe ich herausgefunden",
+        "starter": "Jetzt weiß ich, dass"
+      },
+      "questions": {
+        "orange": "Schwimmt eine Orange mit Schale? Schwimmt sie auch ohne Schale?",
+        "cargo": "Wie viele Würfel kann ein Knetboot tragen, bevor es sinkt?"
+      },
+      "forbidden": [
+        "alle schweren dinge sinken",
+        "schwere dinge sinken",
+        "leichte dinge schwimmen",
+        "alle leichten dinge schwimmen",
+        "weil es leicht ist",
+        "weil er leicht ist",
+        "weil sie leicht ist",
+        "dichte",
+        "auftrieb",
+        "salz"
+      ],
+      "experimentWords": [
+        "versuch",
+        "experiment",
+        "vermut",
+        "forsch",
+        "protokoll",
+        "test"
+      ],
+      "apparatus": {
+        "ring": "Ring",
+        "tank": "Becken",
+        "star": "Stern",
+        "spot": "Kästchen"
+      },
+      "instructionBans": {
+        "base": [
+          "linie",
+          "linien",
+          "gruppe",
+          "gruppen",
+          "ankreuzen",
+          "kreuze",
+          "ausschneiden",
+          "schneide",
+          "kreise",
+          "einkreisen"
+        ],
+        "scale": [
+          "linie",
+          "linien",
+          "gruppe",
+          "gruppen",
+          "ankreuzen",
+          "kreuze",
+          "ausschneiden",
+          "schneide",
+          "male",
+          "ausmalen"
+        ],
+        "shape": [
+          "linie",
+          "linien",
+          "gruppe",
+          "gruppen",
+          "ankreuzen",
+          "kreuze",
+          "ausschneiden",
+          "schneide"
+        ],
+        "truth": [
+          "linie",
+          "linien",
+          "gruppe",
+          "gruppen",
+          "ankreuzen",
+          "kreuze",
+          "ausschneiden",
+          "schneide",
+          "male",
+          "ausmalen"
+        ],
+        "draw": [
+          "linie",
+          "linien",
+          "gruppe",
+          "gruppen",
+          "ankreuzen",
+          "kreuze",
+          "ausschneiden",
+          "schneide",
+          "kreise",
+          "einkreisen"
+        ],
+        "report": [
+          "linie",
+          "linien",
+          "gruppe",
+          "gruppen",
+          "ankreuzen",
+          "kreuze",
+          "ausschneiden",
+          "schneide"
+        ]
+      },
+      "refuse": [],
+      "strings": {
+        "G1-399": {
+          "title": "Schwimmen und Sinken: Versuch mit Vermutung",
+          "instruction": "Male vor dem Versuch einen Ring im ersten Becken aus, nach dem Versuch einen Ring im zweiten Becken und den Stern, wenn es dich überrascht hat."
+        },
+        "G1-408": {
+          "title": "Schwer oder leicht? Versuch zum Schwimmen und Sinken",
+          "instruction": "Die Waage zeigt, was schwerer ist: Kreise ein, was im Wasser schwimmt."
+        },
+        "G2-382": {
+          "title": "Schwimmt Knete? Versuch mit Knetkugel und Knetboot",
+          "instruction": "Male bei jeder Knetform den Ring aus, wo sie landet, kreise ein, was schwimmt, und male dein eigenes Knetboot in das große Becken."
+        },
+        "G2-383": {
+          "title": "Schwimmen und Sinken: Richtig oder falsch?",
+          "instruction": "Lies jeden Satz und kreise richtig oder falsch ein."
+        },
+        "K-384": {
+          "title": "Male, was schwimmt und was sinkt",
+          "instruction": "Male zwei Dinge, die schwimmen, in die gestrichelten Kästchen auf dem Wasser und zwei, die sinken, in die Kästchen am Boden."
+        },
+        "G3-400": {
+          "title": "Versuchsprotokoll: Schwimmen und Sinken",
+          "instruction": "Wähle eine Frage, schreibe deine Vermutung auf, mach den Versuch, male, was passiert ist, und schreibe auf, was du herausgefunden hast."
+        }
+      },
+      "shapeHeads": {
+        "clay": "Dieselbe Knete, andere Formen",
+        "steel": "Derselbe Stahl, andere Formen: Kreise ein, was schwimmt."
+      }
+    },
+    "cursive-writing": {
+      "refused": null,
+      "units": [
+        "de-va",
+        "de-la"
+      ],
+      "exemplar": "de-va",
+      "exemplarByMode": {
+        "base": "de-la",
+        "joins": "de-va",
+        "copy": "de-va",
+        "capitals": "de-la",
+        "words": "de-la",
+        "read": "de-la"
+      },
+      "unitLabel": {
+        "de-va": "Vereinfachter Ausgangsschrift",
+        "de-la": "Lateinischer Ausgangsschrift"
+      },
+      "scriptName": {
+        "de-va": "Vereinfachte Ausgangsschrift",
+        "de-la": "Lateinische Ausgangsschrift"
+      },
+      "ruling": {
+        "G1": "lin4",
+        "G2": "lin4",
+        "G3": "lin4"
+      },
+      "dashHelpers": false,
+      "xPx": {
+        "base": 18,
+        "capitals": 17,
+        "joins": 16,
+        "words": 18,
+        "read": 18,
+        "copy": 16
+      },
+      "levels": {
+        "base": "2-klasse",
+        "capitals": "2-klasse",
+        "joins": "2-klasse",
+        "words": "2-klasse",
+        "read": "2-klasse",
+        "copy": "3-klasse"
+      },
+      "lessons": {
+        "de-va": [
+          [
+            "i",
+            "u",
+            "t"
+          ],
+          [
+            "n",
+            "m",
+            "r"
+          ],
+          [
+            "e",
+            "l",
+            "b",
+            "h",
+            "k",
+            "f"
+          ],
+          [
+            "a",
+            "ä",
+            "ü",
+            "d",
+            "g",
+            "q"
+          ],
+          [
+            "o",
+            "ö",
+            "c",
+            "s",
+            "ß"
+          ],
+          [
+            "p",
+            "j",
+            "y",
+            "v",
+            "w",
+            "x",
+            "z"
+          ]
+        ],
+        "de-la": [
+          [
+            "i",
+            "u",
+            "t"
+          ],
+          [
+            "e",
+            "l",
+            "b",
+            "h",
+            "k",
+            "f"
+          ],
+          [
+            "n",
+            "m",
+            "r"
+          ],
+          [
+            "a",
+            "ä",
+            "ü",
+            "d",
+            "g",
+            "q"
+          ],
+          [
+            "o",
+            "ö",
+            "c",
+            "s",
+            "ß"
+          ],
+          [
+            "p",
+            "j",
+            "y",
+            "v",
+            "w",
+            "x",
+            "z"
+          ]
+        ]
+      },
+      "joins": {
+        "de-va": [
+          {
+            "pair": "ol",
+            "word": "Wolke"
+          },
+          {
+            "pair": "on",
+            "word": "Sonne"
+          },
+          {
+            "pair": "or",
+            "word": "Tor"
+          },
+          {
+            "pair": "ob",
+            "word": "Robbe"
+          },
+          {
+            "pair": "br",
+            "word": "Zebra"
+          },
+          {
+            "pair": "wa",
+            "word": "Schwan"
+          },
+          {
+            "pair": "ch",
+            "word": "Buch"
+          },
+          {
+            "pair": "sch",
+            "word": "Tasche"
+          },
+          {
+            "pair": "ei",
+            "word": "Seife"
+          },
+          {
+            "pair": "au",
+            "word": "Maus"
+          }
+        ],
+        "de-la": [
+          {
+            "pair": "ol",
+            "word": "Wolke"
+          },
+          {
+            "pair": "on",
+            "word": "Sonne"
+          },
+          {
+            "pair": "or",
+            "word": "Tor"
+          },
+          {
+            "pair": "ob",
+            "word": "Robbe"
+          },
+          {
+            "pair": "br",
+            "word": "Zebra"
+          },
+          {
+            "pair": "wa",
+            "word": "Schwan"
+          },
+          {
+            "pair": "ch",
+            "word": "Buch"
+          },
+          {
+            "pair": "sch",
+            "word": "Tasche"
+          },
+          {
+            "pair": "ei",
+            "word": "Seife"
+          },
+          {
+            "pair": "au",
+            "word": "Maus"
+          }
+        ]
+      },
+      "words": {
+        "animals/cat": "Katze",
+        "animals/fish": "Fisch",
+        "animals/owl": "Eule",
+        "animals/pig": "Schwein",
+        "animals/sheep": "Schaf",
+        "fruits/lemon": "Zitrone",
+        "fruits/pear": "Birne",
+        "fruits/apple": "Apfel",
+        "toys/boat": "Boot",
+        "toys/doll": "Puppe",
+        "toys/robot": "Roboter",
+        "toys/train": "Zug",
+        "toys/kite": "Drachen",
+        "around the house/bed": "Bett",
+        "around the house/chair": "Stuhl",
+        "around the house/cup": "Tasse",
+        "around the house/lamp": "Lampe",
+        "classroom/book": "Buch",
+        "zoo animals/lion": "Löwe",
+        "pets/mouse": "Maus",
+        "bakery/cake": "Kuchen",
+        "weather/sun": "Sonne",
+        "weather/cloud": "Wolke",
+        "animals/horse": "Pferd",
+        "animals/zebra": "Zebra"
+      },
+      "sentences": [
+        "Die Katze liegt im Bett.",
+        "Ich sehe einen Drachen.",
+        "Der Hund rennt schnell.",
+        "Wir lesen gern Bücher.",
+        "Die Sonne ist heute heiß.",
+        "Ben hat ein kleines Boot."
+      ],
+      "strings": {
+        "G2-377": {
+          "title": "Schreibschrift üben: i, u und t in {U}",
+          "instruction": "Spure die grauen Buchstaben nach und schreibe dann jeden Buchstaben verbunden allein bis zum Ende der Zeile und in der leeren Zeile darunter."
+        },
+        "G2-384": {
+          "title": "Großbuchstaben in {U}",
+          "instruction": "Spure jeden grauen Großbuchstaben und den Namen nach und schreibe beides in die leere Zeile darunter."
+        },
+        "G2-385": {
+          "title": "Buchstabenverbindungen in {U}",
+          "instruction": "Spure jede graue Buchstabenverbindung und das Wort nach und schreibe beides in die leere Zeile darunter."
+        },
+        "G2-386": {
+          "title": "Schreibschrift-Wörter zu Bildern in {U}",
+          "instruction": "Spure jedes graue Wort nach, verbinde zuerst die Buchstaben und setze zum Schluss Punkte und Striche, dann schreibe es genauso auf die Zeile darunter."
+        },
+        "G2-387": {
+          "title": "Schreibschrift lesen: Wörter in {U}",
+          "instruction": "Lies jedes Wort in Schreibschrift und verbinde es mit seinem Bild."
+        },
+        "G3-401": {
+          "title": "Sätze in {U} abschreiben",
+          "instruction": "Spure den grauen Satz nach und schreibe dann jeden gedruckten Satz in Schreibschrift auf die zwei Zeilen darunter."
+        }
+      }
+    }
+  },
+  "refusals": {},
+  "strandNames": {
+    "Health": "Gesundheitserziehung"
+  },
+  "enAudit": [
+    "G1-398 habitats base (EN) \"Look at the habitats. Under each animal, write the letter of the habitat where it lives.\" and G2-381 report \"Draw three animals ... Write a plant ... Circle the words that fit.\" are two and three sentences; the brief asks for ONE child-level sentence. de writes each as one sentence.",
+    "G2-377 cursive G2-386 (EN) \"Trace each grey word without lifting your pencil, then write it. Add the dots and crosses last.\" and G3-401 \"Copy each printed sentence ... Trace the grey sentence first.\" are two sentences each (one-sentence rule). Also G3-401: only the FIRST sentence carries a grey model, so \"Trace the grey sentence first\" reads as if every item had one; de says \"spure beim ersten Satz zuerst den grauen Satz nach\".",
+    "G2-377 cursive (de-va font): Playwrite DE VA draws the lowercase t as a tall closed loop reaching toward the ascender line (the ribbon and the chains read like a capital \"A\" / \"ℓ\" at a glance, out/dev/G2-377-probe-de-va-d2.png). The VA t is written in one stroke without a separate crossbar, so a loop is authentic in principle, but the loop here is taller than the x-band and the chain \"ttt\" is hard to read; a German teacher will want a human print check of the VA t before the de base (lesson i u ü t) ships. The LA t (separate crossbar) matches what children learn.",
+    "G1-399 sink-or-float K-384 (de render): the tub tags have a FIXED width (0.28w - 20 = 159 px) with an icon, and a single long word cannot wrap: de \"schwimmt\" (Baloo 22) overflowed the pill, its last letter cut by the border. de switched to the clearer K pair schwimmt oben / geht unter (the gate synth uses the same pair), but the single word schwimmt (~117 px) STILL clips in the 159 px pill beside the icon, and no German float verb is shorter: the tag must widen or auto-size its word (a component fix; any locale with a long float verb clips).",
+    "G1-398 habitats heron picture (birds 2/heron): black-and-white with a red-orange beak and red legs, it reads as a STORK (Weißstorch) to a German child, not a grey heron. It only appears as a Teich resident in F2 (coastal rule keeps it off every de base page because Meer is always on the page), and storks do forage at ponds, so no second answer arises; but the landing and any caption must not call it \"Reiher\" with confidence.",
+    "G1-398 habitats F1 / F4 rabbit (forest creatures/rabbit): long ears, most German children say \"Hase\". A Feldhase does NOT dig a burrow (it lies in a Sasse); only the Kaninchen does. The page prints no words so the match still holds, but de landings and homeWord use \"Kaninchenbau\" and must never write \"Hasenbau\".",
+    "K-380 healthy-habits F2 phase chips (EN \"before / during / after\"): a bare \"during\" chip names no activity; de prints \"vorher / beim Putzen / danach\" so the middle chip anchors the other two (\"dabei\" alone was rejected for the same reason; the full \"vor dem Putzen / nach dem Putzen\" fit at 145.7 px but crowd the 152 px chip).",
+    "K-380 healthy-habits BASE, blow-nose plaque (read in the de render): the faceless child with the hand at the nose and a burst reads as SNEEZING INTO THE HAND. The same family's F3 teaches that coughing / sneezing goes into the elbow, and a German teacher will see the base modelling the outdated habit the sibling face forbids. Suggest the d2 contingency (blow-nose -> sun-protect) or redrawing the pose with a hand held AWAY from the face.",
+    "K-380 healthy-habits F4 wash-hands reason (EN) \"It takes away the germs we picked up.\": fine in English; the literal German calque \"die wir angefasst haben\" says we touched the germs themselves. de: \"So werden die Keime weggespült, die wir von überall mitgebracht haben.\" (Panels should not calque \"picked up\".)",
+    "G1-398 habitats F5 report (EN): the hot | cold and wet | dry chips force a binary with no honest answer for a temperate forest or meadow (neither hot nor cold); de always prints Wald (sets.base[0]), so a German teacher gets a page whose own chips have no correct circle. Suggest a third neutral chip (\"mild\" / \"mittel\") or a set-dependent chip pair.",
+    "G2-377 cursive F3 G2-386 (EN) \"Trace each grey word without lifting your pencil\": untrue whenever the word starts with a capital that does not join (German nouns such as Tasse, Tor or Fisch: several capitals, e.g. T and F, are not joined to the next letter) and for every t cross. de says \"schreibe es dann selbst verbunden\" instead of promising no pen lift.",
+    "G2-377 cursive F5 G3-401 (de-va render): Playwrite DE VA sets the word space very narrow in the grey model (\"rennt schnell\" nearly touches), so a Klasse-3 child copying it may run words together; worth a word-spacing check in the model node (a font/space-width issue, not a string issue).",
+    "G2-377 cursive F1 G2-384 (de): the LA capitals E B M F L and the joined names Emma / Ben / Mia / Finn / Lina read as authentic Lateinische Ausgangsschrift; the de title was shortened to \"Großbuchstaben in {U}\" because the resolved 63-char title wrapped to FOUR lines in the narrow title column (a 4-line title is the fi-only chrome budget).",
+    "G2-377 cursive F3/F4 pictures (opened): animals/cat and animals/tiger are the same orange striped cub, drawn alike; on the F4 reading face a child matching \"cat\" and \"tiger\" (Katze / Tiger) has two defensible pictures for each word. de drops animals/tiger from its words map; the pinned list (CURSIVE_WRITING_NEUTRAL.pictures) should exclude one of the two for every locale. animals/duck is a yellow DUCKLING (a German child says \"Küken\"); kept because the word is printed beside it."
+  ]
+}

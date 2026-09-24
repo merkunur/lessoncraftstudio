@@ -1,0 +1,5667 @@
+{
+ "locale": "nl",
+ "types": {
+  "K-368": {
+   "title": "Vlakke figuren benoemen",
+   "instruction": "Kijk naar elke figuur, ook de gedraaide en de smalle, en omcirkel de goede naam."
+  },
+  "G1-381": {
+   "title": "Vlakke figuren herkennen: klopt het of niet?",
+   "instruction": "Lees de naam in elke rij en omcirkel alle figuren die echt zo heten."
+  },
+  "K-371": {
+   "title": "Vlakke figuren om je heen: cirkel of rechthoek",
+   "instruction": "Kijk naar elk plaatje en kleur de vorm die het heeft: de cirkel of de rechthoek."
+  },
+  "G1-382": {
+   "title": "Vlakke figuren: schrijf de namen",
+   "instruction": "Kijk naar elke figuur en schrijf de naam op de lijn, de namen staan in het kader."
+  },
+  "G1-383": {
+   "title": "Raadsels over vlakke figuren",
+   "instruction": "Lees elk raadsel en omcirkel de naam van de figuur."
+  },
+  "K-372": {
+   "title": "Vlakke figuren tekenen op stippenpapier",
+   "instruction": "Lees de naam van de figuur en verbind de stippen, begin bij de dikke lijn als die er staat."
+  },
+  "K-369": {
+   "title": "Verkeer voor kleuters: stoplicht en voetgangerslicht",
+   "instruction": "Kijk welke lamp brandt en omcirkel wat je dan moet doen."
+  },
+  "K-373": {
+   "title": "Verkeer: kleur de lamp van het stoplicht",
+   "instruction": "Zoek bij elk stoplicht de lamp met de streepjes en kleur hem in de kleur waarin hij brandt."
+  },
+  "K-374": {
+   "title": "Veilig oversteken: stap voor stap",
+   "instruction": "Schrijf 1 tot en met 4 in de vakjes: zo steek je veilig over."
+  },
+  "G1-384": {
+   "title": "Verkeersborden en hun betekenis voor kinderen",
+   "instruction": "Trek een lijn van elk verkeersbord naar de zin die zegt wat het bord betekent."
+  },
+  "G2-360": {
+   "title": "Soorten verkeersborden voor groep 4",
+   "instruction": "Schrijf de letter van elk verkeersbord in een vakje van zijn groep."
+  },
+  "G2-361": {
+   "title": "Welk verkeersbord past? Een quiz voor groep 4",
+   "instruction": "Lees elke zin en omcirkel het ene verkeersbord dat erbij past."
+  },
+  "K-370": {
+   "title": "Familieleden: wie is wie in de stamboom?",
+   "instruction": "Zoek elke persoon in de stamboom en schrijf het nummer in het vakje naast het goede familiewoord."
+  },
+  "G1-385": {
+   "title": "Generaties in de familie: van oud naar jong",
+   "instruction": "Schrijf in elke rij 1, 2 en 3 in de vakjes, van de oudste generatie naar de jongste."
+  },
+  "K-375": {
+   "title": "Familiewoorden overtrekken en schrijven",
+   "instruction": "Zoek de persoon met hetzelfde nummer in de stamboom, trek het familiewoord over en schrijf het nog een keer op de lijn."
+  },
+  "G1-386": {
+   "title": "Stamboom invullen met aanwijzingen",
+   "instruction": "Lees de aanwijzingen en schrijf elke naam in het goede naamvak van de stamboom."
+  },
+  "G2-362": {
+   "title": "Raadsels over familie: wie is het?",
+   "instruction": "Lees elk raadsel en schrijf het goede familiewoord uit het kader op de lijn; een woord kan bij meer raadsels horen."
+  },
+  "G1-387": {
+   "title": "Lege stamboom om zelf in te vullen",
+   "instruction": "Teken de mensen die belangrijk voor je zijn in de lijstjes en schrijf hun namen op de lijnen."
+  },
+  "G1-376": {
+   "title": "Delen van een plant",
+   "instruction": "Volg elk nummer langs het lijntje naar een deel van de plant en schrijf de naam uit de woordrij op de lijn met hetzelfde nummer."
+  },
+  "K-376": {
+   "title": "Wat heeft een plant nodig om te groeien?",
+   "instruction": "Omcirkel in elke rij de plant die allebei de dingen krijgt die hij nodig heeft om te groeien."
+  },
+  "G1-388": {
+   "title": "Van zaadje tot plant: knippen en plakken",
+   "instruction": "Knip de vier plaatjes uit en plak ze langs de pijlen in de lege vakjes, te beginnen bij het zaadje."
+  },
+  "G2-363": {
+   "title": "Welk deel van de plant eten we?",
+   "instruction": "Kijk naar elk plaatje en omcirkel het deel van de plant dat we ervan eten."
+  },
+  "G2-364": {
+   "title": "Delen van een plant en wat ze doen",
+   "instruction": "Lees wat elk deel doet, zoek dat deel op de plant en schrijf het nummer dat erbij staat in het vakje."
+  },
+  "G3-392": {
+   "title": "Delen van een bloem benoemen",
+   "instruction": "Schrijf de naam van elk genummerd deel van de bloem op zijn lijn en streep in de woordrij het woord door dat geen deel van een bloem is."
+  },
+  "G1-377": {
+   "title": "Van rups tot vlinder",
+   "instruction": "Het ei is 1: schrijf 2, 3 en 4 in de vakjes zoals het groeit, en in het laatste vakje het nummer van het plaatje dat na de vlinder komt."
+  },
+  "G1-389": {
+   "title": "Van kikkerdril tot kikker: knippen en plakken",
+   "instruction": "Knip de vier vierkantjes uit en plak elk op zijn waterlelieblad, rond de vijver van het kikkerdril tot de kikker."
+  },
+  "G2-365": {
+   "title": "Levenscyclus van de vlinder: benoem elke fase",
+   "instruction": "Schrijf de vier namen van de fasen uit de woordrij op de lijnen onder de plaatjes en streep het ene woord door dat er niet bij hoort."
+  },
+  "G2-366": {
+   "title": "Gedaanteverwisseling: welk dier wordt het?",
+   "instruction": "Kijk naar elke fase en schrijf zijn letter in een vakje onder het dier dat het wordt; sommige vakjes blijven leeg."
+  },
+  "G3-393": {
+   "title": "Vlinder en kikker: hoe groeien ze op?",
+   "instruction": "Lees elke zin en zet een kruisje bij de vlinder, de kikker of allebei als de zin klopt voor dat dier."
+  },
+  "G1-390": {
+   "title": "Wat komt daarna? Vlinder, kikker en lieveheersbeestje",
+   "instruction": "Omcirkel in elke rij het plaatje dat na het eerste komt; na het volwassen dier begint het rondje weer van voren af aan."
+  },
+  "G1-378": {
+   "title": "Zon, Aarde en Maan: wie zegt het?",
+   "instruction": "Lees elke zin en zet een kruisje bij wie dat zegt: de Zon, de Aarde of de Maan."
+  },
+  "G1-391": {
+   "title": "Maanfasen op volgorde zetten",
+   "instruction": "Kijk in elke rij naar de wig of de maan groeit of krimpt, en schrijf 1 tot en met 5 onder de manen in die volgorde."
+  },
+  "G2-367": {
+   "title": "Maanfasen benoemen",
+   "instruction": "Schrijf de naam van elke maan op de lijnen en gebruik elk woord uit de woordrij twee keer."
+  },
+  "G2-368": {
+   "title": "Waarom is het dag en nacht?",
+   "instruction": "Kijk waar de Zon is en omcirkel in de tabel bij elk nummer of het daar dag of nacht is."
+  },
+  "G3-394": {
+   "title": "De planeten op volgorde vanaf de Zon",
+   "instruction": "Schrijf de naam van elke planeet op zijn lijn, begin naast de Zon en gebruik elke naam uit het kader één keer."
+  },
+  "G3-395": {
+   "title": "Reuzenplaneten en rotsplaneten sorteren",
+   "instruction": "Sorteer de namen en schrijf elke naam in het goede vak: reuzenplaneet, kleine rotsplaneet of geen planeet."
+  },
+  "G1-379": {
+   "title": "Een plattegrond lezen met de legenda",
+   "instruction": "Kijk naar de legenda, zoek elk ding op de kaart en schrijf in het vakje hoeveel er zijn."
+  },
+  "K-377": {
+   "title": "In vogelvlucht: van opzij en van bovenaf",
+   "instruction": "Elk ding is van opzij getekend: trek een lijn naar hetzelfde ding, van bovenaf gezien."
+  },
+  "G2-369": {
+   "title": "Windroos invullen: noord, oost, zuid en west",
+   "instruction": "De oranje punt wijst altijd naar het noorden: schrijf bij elke windroos de drie letters die ontbreken."
+  },
+  "G2-370": {
+   "title": "Werelddelen benoemen op de wereldkaart",
+   "instruction": "Schrijf de naam van elk genummerd werelddeel op zijn lijn, de namen staan in het kader."
+  },
+  "G3-396": {
+   "title": "Werelddelen en oceanen op de kaart",
+   "instruction": "Zoek elk werelddeel en elke oceaan op de kaart en schrijf het nummer in het vakje naast de naam."
+  },
+  "G2-371": {
+   "title": "Windrichtingen op een plattegrond",
+   "instruction": "Zoek het eerste plaatje op de kaart, kijk in de richting van het woord en omcirkel het plaatje van de drie dat daar ligt."
+  },
+  "G1-380": {
+   "title": "Tweetekenklanken oe, ui en oo: welke klank hoor je?",
+   "instruction": "Zeg wat je op elk plaatje ziet en omcirkel de tweetekenklank die je hoort."
+  },
+  "K-378": {
+   "title": "Tweetekenklanken sorteren voor kleuters: oe of ui",
+   "instruction": "Zeg wat je op elk plaatje ziet en trek een lijn naar de klank die je hoort: oe of ui."
+  },
+  "G1-392": {
+   "title": "Tweetekenklanken invullen: oe, ui of oo",
+   "instruction": "Zeg wat je op elk plaatje ziet en schrijf de klank die mist van bovenaan in de open plek met de stippellijn."
+  },
+  "G1-393": {
+   "title": "Woorden met tweetekenklanken lezen en koppelen",
+   "instruction": "Lees elk woord, de tweetekenklank is gemarkeerd, en trek een lijn naar het plaatje dat bij het woord hoort."
+  },
+  "G2-372": {
+   "title": "Tweetekenklanken in zinnen: omcirkel en tel oe",
+   "instruction": "Lees de zinnen, omcirkel elke oe en schrijf in het vakje hoeveel je er in die zin vond."
+  },
+  "G2-358": {
+   "title": "Synoniemen: omcirkel het woord dat hetzelfde betekent",
+   "instruction": "Lees het grote woord op elke kaart en omcirkel daaronder het woord dat hetzelfde betekent."
+  },
+  "G1-395": {
+   "title": "Synoniemen met plaatjes: twee woorden, één plaatje",
+   "instruction": "Kijk naar elk plaatje en omcirkel daaronder de twee woorden die hetzelfde betekenen en bij het plaatje passen."
+  },
+  "G2-373": {
+   "title": "Synoniemen koppelen: woordparen met dezelfde betekenis",
+   "instruction": "Trek een lijn van elk woord links naar het woord rechts dat hetzelfde betekent."
+  },
+  "G1-396": {
+   "title": "Woorden op sterkte zetten: van een beetje tot heel erg",
+   "instruction": "Lees de drie woorden in elke rij en schrijf 1, 2 en 3 in de vakjes, van het zwakste naar het sterkste woord."
+  },
+  "G2-374": {
+   "title": "Andere woorden voor ‘zegt’: kies het woord dat past",
+   "instruction": "Lees elke zin en schrijf in het vakje het woord uit het wolkje dat daar het best past in plaats van ‘zegt’."
+  },
+  "G3-397": {
+   "title": "Woorden voor ‘gaan’ en ‘kijken’ sorteren",
+   "instruction": "Lees de tien woorden en schrijf elk woord in het vak van het woord dat bijna hetzelfde betekent."
+  },
+  "G2-359": {
+   "title": "Woordfamilies: sorteer op het stamwoord",
+   "instruction": "Lees elk woord bovenaan en schrijf het op een lijn van de muur die op zijn stamwoord staat."
+  },
+  "G1-397": {
+   "title": "Woordfamilies met plaatjes: omcirkel het woord",
+   "instruction": "Zeg wat je op elk plaatje ziet en omcirkel daarboven het ene woord dat van dat plaatjeswoord is gemaakt."
+  },
+  "G2-375": {
+   "title": "Het stamwoord vinden",
+   "instruction": "Omcirkel het stukje dat de drie woorden delen en schrijf dat stamwoord in de lege steen."
+  },
+  "G2-376": {
+   "title": "Voorvoegsels her-, mee- en uit-: kies op betekenis",
+   "instruction": "Lees wat elk nieuw woord betekent, zoek het voorvoegsel in de sleutel en schrijf het in het lege stukje."
+  },
+  "G3-398": {
+   "title": "Wie doet het? Persoonswoorden op -er, -ster en -es",
+   "instruction": "Kijk naar elke persoon, lees het woord in het kader ernaast en schrijf in het stippelvak het woord voor wie dat doet."
+  },
+  "G3-399": {
+   "title": "Woordfamilies in zinnen",
+   "instruction": "Lees de vier woordkaartjes boven elk stamwoordbordje en schrijf elk woord in het stippelvak van de zin waar het past."
+  }
+ },
+ "families": {
+  "2d-shapes": {
+   "slug": "vlakke-figuren",
+   "name": "Vlakke figuren"
+  },
+  "road-safety": {
+   "slug": "verkeer-en-verkeersborden",
+   "name": "Verkeer en verkeersborden"
+  },
+  "family": {
+   "slug": "familie-en-stamboom",
+   "name": "Familie en stamboom"
+  },
+  "plants": {
+   "slug": "delen-van-een-plant",
+   "name": "Delen van een plant"
+  },
+  "animal-life-cycles": {
+   "slug": "groei-van-dieren",
+   "name": "Groei van dieren"
+  },
+  "earth-and-space": {
+   "slug": "zon-maan-en-planeten",
+   "name": "Zon, maan en planeten"
+  },
+  "maps": {
+   "slug": "kaartlezen-en-windrichtingen",
+   "name": "Kaartlezen en windrichtingen"
+  },
+  "digraphs": {
+   "slug": "tweetekenklanken",
+   "name": "Tweetekenklanken"
+  },
+  "synonyms": {
+   "slug": "synoniemen",
+   "name": "Synoniemen"
+  },
+  "word-parts": {
+   "slug": "woordfamilies-en-voorvoegsels",
+   "name": "Woordfamilies en voorvoegsels"
+  }
+ },
+ "skills": {
+  "2d-shapes": {
+   "full": "Vlakke figuren benoemen: cirkel, vierkant, driehoek en rechthoek herkennen, ook gedraaid, om je heen zoeken, namen schrijven en op stippenpapier tekenen.",
+   "short": "Cirkel, vierkant, driehoek en rechthoek"
+  },
+  "road-safety": {
+   "full": "Verkeer voor kleuters tot groep 5: stoplicht en voetgangerslicht lezen, veilig oversteken, verkeersborden en hun betekenis en de soorten verkeersborden.",
+   "short": "Stoplicht, oversteken en verkeersborden"
+  },
+  "family": {
+   "full": "Familie en stamboom: familiewoorden koppelen en schrijven, generaties ordenen, een stamboom invullen met aanwijzingen en raadsels over familie oplossen.",
+   "short": "Familiewoorden, stamboom en generaties"
+  },
+  "plants": {
+   "full": "Delen van een plant: wortels, stengel, blad, bloem, vrucht en zaad benoemen, wat een plant nodig heeft, van zaadje tot plant en de delen van een bloem.",
+   "short": "Delen van een plant benoemen en begrijpen"
+  },
+  "animal-life-cycles": {
+   "full": "Van rups tot vlinder en van kikkerdril tot kikker: fasen ordenen en benoemen, jonge dieren koppelen en de groei van vlinder en kikker vergelijken.",
+   "short": "Van rups tot vlinder en van dril tot kikker"
+  },
+  "earth-and-space": {
+   "full": "Zon, Aarde en Maan uit elkaar houden, maanfasen ordenen en benoemen, dag en nacht begrijpen en de acht planeten op volgorde en grootte leren.",
+   "short": "Zon, Aarde en Maan, maanfasen, dag en nacht en de planeten"
+  },
+  "maps": {
+   "full": "Kaartlezen: de legenda gebruiken, van bovenaf kijken, de windroos invullen, werelddelen en oceanen benoemen en windrichtingen op een plattegrond.",
+   "short": "Legenda, windroos en werelddelen"
+  },
+  "digraphs": {
+   "full": "Tweetekenklanken oe, ui en oo horen, sorteren, invullen en lezen en oe tellen in zinnen voor groep 3 en 4.",
+   "short": "Tweetekenklanken oe, ui en oo"
+  },
+  "synonyms": {
+   "full": "Synoniemen: woorden die hetzelfde betekenen vinden en koppelen, woorden op sterkte zetten, andere woorden voor zegt kiezen en woorden voor gaan en kijken sorteren.",
+   "short": "Woorden die hetzelfde betekenen"
+  },
+  "word-parts": {
+   "full": "Woordfamilies en voorvoegsels: woorden sorteren op het stamwoord, het stamwoord vinden, de voorvoegsels her-, mee- en uit- en persoonswoorden maken.",
+   "short": "Stamwoorden, woordfamilies en voorvoegsels"
+  }
+ },
+ "topicMeta": {
+  "2d-shapes": "Vlakke figuren om te printen: cirkel, vierkant, driehoek en rechthoek benoemen, herkennen, schrijven en tekenen op stippenpapier. Kleuters tot groep 4.",
+  "road-safety": "Verkeer en verkeersborden om te printen: stoplicht en voetgangerslicht, veilig oversteken, verkeersborden met hun betekenis en soorten verkeersborden. Kleuters tot groep 5.",
+  "family": "Familie en stamboom om te printen: familiewoorden, generaties van oud naar jong, een stamboom invullen met aanwijzingen en een lege stamboom. Kleuters tot groep 4.",
+  "plants": "Delen van een plant om te printen: wortels, stengel, blad, bloem, vrucht en zaad, wat een plant nodig heeft, van zaadje tot plant en de delen van een bloem. Groep 2 tot 5.",
+  "animal-life-cycles": "Groei van dieren om te printen: van rups tot vlinder, van kikkerdril tot kikker, fasen benoemen en vlinder en kikker vergelijken. Groep 3 tot 5.",
+  "earth-and-space": "Zon, maan en planeten om te printen: Zon, Aarde en Maan, maanfasen, dag en nacht en de planeten van het zonnestelsel op volgorde. Groep 3 tot 5.",
+  "maps": "Kaartlezen en windrichtingen om te printen: legenda, in vogelvlucht, windroos invullen, werelddelen en oceanen benoemen op de wereldkaart. Groep 2 tot 5.",
+  "digraphs": "Tweetekenklanken om te printen: oe, ui en oo horen, sorteren, invullen en lezen en oe tellen in zinnen. Groep 3 en 4.",
+  "synonyms": "Synoniemen om te printen: woorden met dezelfde betekenis, woordparen koppelen, woorden op sterkte, andere woorden voor zegt en woorden voor gaan en kijken. Groep 3 tot 5.",
+  "word-parts": "Woordfamilies en voorvoegsels om te printen: sorteren op het stamwoord, het stamwoord vinden, voorvoegsels her-, mee- en uit- en persoonswoorden op -er, -ster en -es. Groep 3 tot 5."
+ },
+ "banks": {
+  "2d-shapes": {
+   "names": {
+    "circle": "cirkel",
+    "square": "vierkant",
+    "triangle": "driehoek",
+    "rectangle": "rechthoek",
+    "hexagon": "zeshoek"
+   },
+   "overrides": {},
+   "inflections": {
+    "circle": [
+     "cirkels",
+     "cirkeltje",
+     "cirkeltjes"
+    ],
+    "square": [
+     "vierkanten",
+     "vierkantje",
+     "vierkantjes"
+    ],
+    "triangle": [
+     "driehoeken",
+     "driehoekje",
+     "driehoekjes"
+    ],
+    "rectangle": [
+     "rechthoeken",
+     "rechthoekje",
+     "rechthoekjes"
+    ],
+    "hexagon": [
+     "zeshoeken",
+     "zeshoekje",
+     "zeshoekjes"
+    ]
+   },
+   "inventory": {
+    "hexagon": true
+   },
+   "riddles": {
+    "circle": [
+     {
+      "text": "Ik ben helemaal rond en heb geen hoeken. Wat ben ik?",
+      "clue": "round"
+     },
+     {
+      "text": "Ik lijk op een wiel en ik heb geen enkele rechte zijde. Wat ben ik?",
+      "clue": "round"
+     }
+    ],
+    "square": [
+     {
+      "text": "Ik heb 4 even lange zijden en 4 rechte hoeken. Wat ben ik?",
+      "clue": "equal"
+     },
+     {
+      "text": "Mijn 4 hoeken zijn recht en ik ben even breed als lang. Wat ben ik?",
+      "clue": "equal"
+     }
+    ],
+    "triangle": [
+     {
+      "text": "Ik heb 3 zijden en 3 hoeken. Wat ben ik?",
+      "clue": "three"
+     },
+     {
+      "text": "Ik heb maar 3 rechte zijden. Wat ben ik?",
+      "clue": "three"
+     }
+    ],
+    "rectangle": [
+     {
+      "text": "Ik heb 2 lange zijden, 2 korte zijden en 4 rechte hoeken. Wat ben ik?",
+      "clue": "longShort"
+     },
+     {
+      "text": "Ik ben langer dan breed en heb 4 rechte hoeken, net als een deur. Wat ben ik?",
+      "clue": "longShort"
+     }
+    ],
+    "hexagon": [
+     {
+      "text": "Ik heb 6 zijden en 6 hoeken. Wat ben ik?",
+      "clue": "six"
+     },
+     {
+      "text": "Ik heb 6 rechte zijden. Wat ben ik?",
+      "clue": "six"
+     }
+    ]
+   },
+   "strings": {
+    "base": {
+     "title": "Vlakke figuren benoemen",
+     "instruction": "Kijk naar elke figuur, ook de gedraaide en de smalle, en omcirkel de goede naam."
+    },
+    "real-or-not": {
+     "title": "Vlakke figuren herkennen: klopt het of niet?",
+     "instruction": "Lees de naam in elke rij en omcirkel alle figuren die echt zo heten."
+    },
+    "around-us": {
+     "title": "Vlakke figuren om je heen: cirkel of rechthoek",
+     "instruction": "Kijk naar elk plaatje en kleur de vorm die het heeft: de cirkel of de rechthoek."
+    },
+    "write-name": {
+     "title": "Vlakke figuren: schrijf de namen",
+     "instruction": "Kijk naar elke figuur en schrijf de naam op de lijn, de namen staan in het kader."
+    },
+    "riddles": {
+     "title": "Raadsels over vlakke figuren",
+     "instruction": "Lees elk raadsel en omcirkel de naam van de figuur."
+    },
+    "dot-draw": {
+     "title": "Vlakke figuren tekenen op stippenpapier",
+     "instruction": "Lees de naam van de figuur en verbind de stippen, begin bij de dikke lijn als die er staat."
+    }
+   }
+  },
+  "road-safety": {
+   "convention": "vienna",
+   "signs": {
+    "stop": {
+     "code": "B7",
+     "regRef": "RVV 1990 Bijlage 1, B7 Stop. Verplicht te stoppen en voorrang te verlenen",
+     "shape": "octagon",
+     "rim": "white",
+     "field": "red",
+     "glyph": "text",
+     "text": "STOP",
+     "slash": false,
+     "class": "priority",
+     "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending"
+    },
+    "yield": {
+     "code": "B6",
+     "regRef": "RVV 1990 Bijlage 1, B6 Verleen voorrang aan bestuurders op de kruisende weg (haaientanden-driehoek, geen tekst)",
+     "shape": "triDown",
+     "rim": "red",
+     "field": "white",
+     "glyph": "none",
+     "text": "",
+     "slash": false,
+     "class": "priority",
+     "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending"
+    },
+    "crossing": {
+     "code": "L2",
+     "regRef": "RVV 1990 Bijlage 1, L2 Voetgangersoversteekplaats",
+     "shape": "square",
+     "rim": "white",
+     "field": "blue",
+     "glyph": "crossingTriangle",
+     "text": "",
+     "slash": false,
+     "class": "information",
+     "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending"
+    },
+    "footpath": {
+     "code": "G7",
+     "regRef": "RVV 1990 Bijlage 1, G7 Voetpad (rond blauw bord, witte voetganger)",
+     "shape": "circle",
+     "rim": "white",
+     "field": "blue",
+     "glyph": "walker",
+     "text": "",
+     "slash": false,
+     "class": "mandatory",
+     "signedBy": "nl native panel (nt10-E, round 2, 2026-09-23): G7 is a ROUND blue sign (a gebodsbord in school use), not a square aanwijzingsbord; the G7 figure (one walker or adult with child) is UNSURE; operator review pending"
+    },
+    "children": {
+     "code": "J21",
+     "regRef": "RVV 1990 Bijlage 1, J-serie waarschuwingsbord Kinderen",
+     "shape": "triUp",
+     "rim": "red",
+     "field": "white",
+     "glyph": "twoChildren",
+     "text": "",
+     "slash": false,
+     "class": "warning",
+     "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending; the J/C code number is UNSURE (the picture and meaning are sure), confirm the code against the current RVV 1990 Bijlage 1"
+    },
+    "pedestrian-warning": {
+     "code": "J22",
+     "regRef": "RVV 1990 Bijlage 1, J-serie waarschuwingsbord Voetgangersoversteekplaats",
+     "shape": "triUp",
+     "rim": "red",
+     "field": "white",
+     "glyph": "walkerOnStripes",
+     "text": "",
+     "slash": false,
+     "class": "warning",
+     "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending; the J/C code number is UNSURE (the picture and meaning are sure), confirm the code against the current RVV 1990 Bijlage 1"
+    },
+    "signal-ahead": {
+     "code": "J32",
+     "regRef": "RVV 1990 Bijlage 1, J-serie waarschuwingsbord Verkeerslichten",
+     "shape": "triUp",
+     "rim": "red",
+     "field": "white",
+     "glyph": "trafficLightMini",
+     "text": "",
+     "slash": false,
+     "class": "warning",
+     "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending; the J/C code number is UNSURE (the picture and meaning are sure), confirm the code against the current RVV 1990 Bijlage 1"
+    },
+    "bike-warning": {
+     "code": "J24",
+     "regRef": "RVV 1990 Bijlage 1, J-serie waarschuwingsbord Fietsers en bromfietsers",
+     "shape": "triUp",
+     "rim": "red",
+     "field": "white",
+     "glyph": "bicycle",
+     "text": "",
+     "slash": false,
+     "class": "warning",
+     "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending; the J/C code number is UNSURE (the picture and meaning are sure), confirm the code against the current RVV 1990 Bijlage 1"
+    },
+    "no-entry": {
+     "code": "C2",
+     "regRef": "RVV 1990 Bijlage 1, C2 Gesloten in één rijrichting (eenrichtingsweg, inrijden verboden)",
+     "shape": "circle",
+     "rim": null,
+     "field": "red",
+     "glyph": "bar",
+     "text": "",
+     "slash": false,
+     "class": "prohibition",
+     "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending"
+    },
+    "no-vehicles": {
+     "code": "C1",
+     "regRef": "RVV 1990 Bijlage 1, C1 Gesloten in beide rijrichtingen voor voertuigen",
+     "shape": "circle",
+     "rim": "red",
+     "field": "white",
+     "glyph": "none",
+     "text": "",
+     "slash": false,
+     "class": "prohibition",
+     "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending"
+    },
+    "no-bikes": {
+     "code": "C14",
+     "regRef": "RVV 1990 Bijlage 1, C-serie Gesloten voor fietsers (geen schuine streep)",
+     "shape": "circle",
+     "rim": "red",
+     "field": "white",
+     "glyph": "bicycle",
+     "text": "",
+     "slash": false,
+     "class": "prohibition",
+     "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending; the J/C code number is UNSURE (the picture and meaning are sure), confirm the code against the current RVV 1990 Bijlage 1"
+    },
+    "no-pedestrians": {
+     "code": "C16",
+     "regRef": "RVV 1990 Bijlage 1, C16 Gesloten voor voetgangers (geen schuine streep)",
+     "shape": "circle",
+     "rim": "red",
+     "field": "white",
+     "glyph": "walker",
+     "text": "",
+     "slash": false,
+     "class": "prohibition",
+     "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending"
+    },
+    "bike-path": {
+     "code": "G11",
+     "regRef": "RVV 1990 Bijlage 1, G11 Verplicht fietspad",
+     "shape": "circle",
+     "rim": "white",
+     "field": "blue",
+     "glyph": "bicycle",
+     "text": "",
+     "slash": false,
+     "class": "mandatory",
+     "signedBy": "nl native panel (nt10-E, 2026-09-23): record checked against the RVV 1990 Bijlage 1 picture of the named bord; shape, rim and field as in the annex; operator review pending"
+    }
+   },
+   "setG1": [
+    "stop",
+    "yield",
+    "crossing",
+    "children",
+    "no-entry",
+    "bike-path"
+   ],
+   "kindsPool": [
+    "children",
+    "pedestrian-warning",
+    "signal-ahead",
+    "bike-warning",
+    "no-vehicles",
+    "no-bikes",
+    "no-pedestrians",
+    "footpath",
+    "bike-path"
+   ],
+   "classes": [
+    {
+     "key": "warning",
+     "label": "waarschuwingsborden"
+    },
+    {
+     "key": "prohibition",
+     "label": "verbodsborden"
+    },
+    {
+     "key": "mandatory",
+     "label": "gebodsborden"
+    }
+   ],
+   "pedLight": {
+    "stop": "standing",
+    "go": "walking",
+    "lamps": 2
+   },
+   "amber": {
+    "token": "codeOrange",
+    "word": "oranje"
+   },
+   "amberMeans": "stop",
+   "chipWords": {
+    "ped": {
+     "stop": "wachten",
+     "go": "lopen"
+    },
+    "car": {
+     "stop": "stoppen",
+     "go": "rijden"
+    }
+   },
+   "meanings": {
+    "stop": "Elke auto moet hier helemaal stilstaan en voorrang geven.",
+    "yield": "Rem af en laat het andere verkeer eerst gaan, daarna mag je verder rijden.",
+    "crossing": "Hier is een zebrapad om veilig over te steken.",
+    "children": "Let op, hier kunnen kinderen de weg op lopen.",
+    "no-entry": "Hier mag geen enkel voertuig de straat in.",
+    "bike-path": "Dit pad is alleen voor fietsers."
+   },
+   "situations": {
+    "stop": [
+     "Op deze kruising moet elke auto helemaal stilstaan, ook als er niemand komt.",
+     "Hier moet een auto echt even stilstaan en goed kijken of de weg vrij is."
+    ],
+    "yield": [
+     "Wacht even en laat de auto’s op de grote weg eerst gaan.",
+     "Hier geef je voorrang: het andere verkeer mag eerst."
+    ],
+    "crossing": [
+     "Hier is een zebrapad: wie loopt, kan hier veilig oversteken.",
+     "Auto’s moeten wachten als er iemand over het zebrapad wil."
+    ],
+    "children": [
+     "Naast deze straat staat een school, dus er lopen vaak kinderen.",
+     "Let op, automobilisten: vlak naast de weg is een speeltuin."
+    ],
+    "no-entry": [
+     "Deze straat mag je hier niet in rijden.",
+     "Hier is inrijden verboden, auto’s moeten een andere weg nemen."
+    ],
+    "bike-path": [
+     "Dit pad is alleen voor fietsers gemaakt.",
+     "Hier fiets je op je eigen pad, naast de weg."
+    ],
+    "pedestrian-warning": [
+     "Let op, automobilisten: verderop steken mensen de weg over.",
+     "Pas op, straks komt er een plek waar voetgangers oversteken."
+    ],
+    "signal-ahead": [
+     "Let op, straks komt er een stoplicht.",
+     "Een stukje verderop staat een verkeerslicht dat op rood kan springen."
+    ],
+    "bike-warning": [
+     "Let op: op deze weg rijden veel fietsers.",
+     "Pas op, automobilisten: hier steken vaak kinderen op de fiets over."
+    ],
+    "no-vehicles": [
+     "Hier mag geen enkel voertuig rijden, geen auto en ook geen fiets.",
+     "Deze weg is dicht voor alle voertuigen, of het nu een auto of een brommer is."
+    ],
+    "no-bikes": [
+     "Auto’s mogen hier rijden, maar fietsen niet.",
+     "Fietsen is hier verboden, maar auto’s mogen doorrijden."
+    ],
+    "no-pedestrians": [
+     "Op deze weg mag je niet lopen, alleen voertuigen mogen hier rijden.",
+     "Lopen is hier verboden, maar auto’s mogen er wel rijden."
+    ],
+    "footpath": [
+     "Dit pad is alleen voor mensen die lopen.",
+     "Hier is een voetpad: hier lopen de mensen te voet."
+    ]
+   },
+   "steps": [
+    "stop-kerb",
+    "look-left",
+    "look-right",
+    "walk-across"
+   ],
+   "listenStep": null,
+   "familyHead": "Verkeer",
+   "signHead": "Verkeersborden",
+   "childAnchors": [
+    "voor kinderen",
+    "kleuters",
+    "groep 3",
+    "groep 4",
+    "groep 5"
+   ],
+   "strings": {
+    "base": {
+     "title": "Verkeer voor kleuters: stoplicht en voetgangerslicht",
+     "instruction": "Kijk welke lamp brandt en omcirkel wat je dan moet doen."
+    },
+    "colour-lights": {
+     "title": "Verkeer: kleur de lamp van het stoplicht",
+     "instruction": "Zoek bij elk stoplicht de lamp met de streepjes en kleur hem in de kleur waarin hij brandt."
+    },
+    "crossing-steps": {
+     "title": "Veilig oversteken: stap voor stap",
+     "instruction": "Schrijf 1 tot en met 4 in de vakjes: zo steek je veilig over."
+    },
+    "sign-meaning": {
+     "title": "Verkeersborden en hun betekenis voor kinderen",
+     "instruction": "Trek een lijn van elk verkeersbord naar de zin die zegt wat het bord betekent."
+    },
+    "sign-kinds": {
+     "title": "Soorten verkeersborden voor groep 4",
+     "instruction": "Schrijf de letter van elk verkeersbord in een vakje van zijn groep."
+    },
+    "sign-quiz": {
+     "title": "Welk verkeersbord past? Een quiz voor groep 4",
+     "instruction": "Lees elke zin en omcirkel het ene verkeersbord dat erbij past."
+    }
+   }
+  },
+  "family": {
+   "kin": {
+    "M": "mama",
+    "F": "papa",
+    "Z": "zus",
+    "B": "broer",
+    "Zy": "zusje",
+    "By": "broertje",
+    "MM": "oma",
+    "FM": "oma",
+    "MF": "opa",
+    "FF": "opa",
+    "MZ": "tante",
+    "FZ": "tante",
+    "MB": "oom",
+    "FB": "oom",
+    "MZD": "nicht",
+    "MBD": "nicht",
+    "FZD": "nicht",
+    "FBD": "nicht",
+    "MZS": "neef",
+    "MBS": "neef",
+    "FZS": "neef",
+    "FBS": "neef"
+   },
+   "words": {
+    "mama": {
+     "text": "mama",
+     "register": "K"
+    },
+    "papa": {
+     "text": "papa",
+     "register": "K"
+    },
+    "zus": {
+     "text": "zus",
+     "register": "K"
+    },
+    "broer": {
+     "text": "broer",
+     "register": "K"
+    },
+    "zusje": {
+     "text": "zusje",
+     "register": "K"
+    },
+    "broertje": {
+     "text": "broertje",
+     "register": "K"
+    },
+    "oma": {
+     "text": "oma",
+     "register": "K"
+    },
+    "opa": {
+     "text": "opa",
+     "register": "K"
+    },
+    "tante": {
+     "text": "tante",
+     "register": "K"
+    },
+    "oom": {
+     "text": "oom",
+     "register": "K"
+    },
+    "nicht": {
+     "text": "nicht",
+     "register": "K"
+    },
+    "neef": {
+     "text": "neef",
+     "register": "K"
+    }
+   },
+   "names": [
+    {
+     "name": "Emma",
+     "sex": "f",
+     "gen": "Emma’s"
+    },
+    {
+     "name": "Daan",
+     "sex": "m",
+     "gen": "Daans"
+    },
+    {
+     "name": "Julia",
+     "sex": "f",
+     "gen": "Julia’s"
+    },
+    {
+     "name": "Sem",
+     "sex": "m",
+     "gen": "Sems"
+    },
+    {
+     "name": "Lotte",
+     "sex": "f",
+     "gen": "Lottes"
+    },
+    {
+     "name": "Finn",
+     "sex": "m",
+     "gen": "Finns"
+    },
+    {
+     "name": "Sara",
+     "sex": "f",
+     "gen": "Sara’s"
+    },
+    {
+     "name": "Noah",
+     "sex": "m",
+     "gen": "Noahs"
+    },
+    {
+     "name": "Mila",
+     "sex": "f",
+     "gen": "Mila’s"
+    },
+    {
+     "name": "Bram",
+     "sex": "m",
+     "gen": "Brams"
+    },
+    {
+     "name": "Anna",
+     "sex": "f",
+     "gen": "Anna’s"
+    },
+    {
+     "name": "Luuk",
+     "sex": "m",
+     "gen": "Luuks"
+    }
+   ],
+   "clueFrames": {
+    "M": "{name} is {egoGen} mama.",
+    "F": "{name} is {egoGen} papa.",
+    "Z": "{name} is {egoGen} zus.",
+    "B": "{name} is {egoGen} broer.",
+    "Zy": "{name} is {egoGen} zusje.",
+    "By": "{name} is {egoGen} broertje.",
+    "MM": "{name} is {egoGen} oma.",
+    "FM": "{name} is {egoGen} oma.",
+    "MF": "{name} is {egoGen} opa.",
+    "FF": "{name} is {egoGen} opa.",
+    "MZ": "{name} is {egoGen} tante.",
+    "FZ": "{name} is {egoGen} tante.",
+    "MB": "{name} is {egoGen} oom.",
+    "FB": "{name} is {egoGen} oom.",
+    "MZD": "{name} is {egoGen} nicht.",
+    "MBD": "{name} is {egoGen} nicht.",
+    "FZD": "{name} is {egoGen} nicht.",
+    "FBD": "{name} is {egoGen} nicht.",
+    "MZS": "{name} is {egoGen} neef.",
+    "MBS": "{name} is {egoGen} neef.",
+    "FZS": "{name} is {egoGen} neef.",
+    "FBS": "{name} is {egoGen} neef."
+   },
+   "riddleFrames": {
+    "MM": "De mama van {egoGen} mama is {egoGen} ___.",
+    "FM": "De mama van {egoGen} papa is {egoGen} ___.",
+    "MF": "De papa van {egoGen} mama is {egoGen} ___.",
+    "FF": "De papa van {egoGen} papa is {egoGen} ___.",
+    "MZ": "De zus van {egoGen} mama is {egoGen} ___.",
+    "FZ": "De zus van {egoGen} papa is {egoGen} ___.",
+    "MB": "De broer van {egoGen} mama is {egoGen} ___.",
+    "FB": "De broer van {egoGen} papa is {egoGen} ___."
+   },
+   "distractors": [
+    "mama",
+    "papa"
+   ],
+   "repeatsNote": true,
+   "repeatsNoteText": "een woord kan bij meer raadsels horen",
+   "generationOK": [
+    "oma",
+    "opa",
+    "mama",
+    "papa",
+    "tante",
+    "oom",
+    "zus",
+    "broer",
+    "zusje",
+    "broertje"
+   ],
+   "f1Exclude": [
+    "broer"
+   ],
+   "agreeing": [
+    "de",
+    "het",
+    "een",
+    "zijn",
+    "haar",
+    "kleine",
+    "grote",
+    "lieve"
+   ],
+   "firstPerson": [
+    "ik",
+    "mij",
+    "me",
+    "mijn",
+    "wij",
+    "we",
+    "ons",
+    "onze"
+   ],
+   "meWord": "ik",
+   "forbiddenInTemplate": [
+    "mama",
+    "papa",
+    "moeder",
+    "vader",
+    "ouders",
+    "je familie",
+    "jouw familie",
+    "je gezin"
+   ],
+   "instructionBans": [
+    "knip",
+    "knippen",
+    "kleur",
+    "kleuren",
+    "gratis",
+    "antwoorden",
+    "oplossingen"
+   ],
+   "familyHead": "Familie en stamboom",
+   "strings": {
+    "base": {
+     "title": "Familieleden: wie is wie in de stamboom?",
+     "instruction": "Zoek elke persoon in de stamboom en schrijf het nummer in het vakje naast het goede familiewoord."
+    },
+    "generations": {
+     "title": "Generaties in de familie: van oud naar jong",
+     "instruction": "Schrijf in elke rij 1, 2 en 3 in de vakjes, van de oudste generatie naar de jongste."
+    },
+    "trace-words": {
+     "title": "Familiewoorden overtrekken en schrijven",
+     "instruction": "Zoek de persoon met hetzelfde nummer in de stamboom, trek het familiewoord over en schrijf het nog een keer op de lijn."
+    },
+    "tree-clues": {
+     "title": "Stamboom invullen met aanwijzingen",
+     "instruction": "Lees de aanwijzingen en schrijf elke naam in het goede naamvak van de stamboom."
+    },
+    "relation-riddles": {
+     "title": "Raadsels over familie: wie is het?",
+     "instruction": "Lees elk raadsel en schrijf het goede familiewoord uit het kader op de lijn; een woord kan bij meer raadsels horen."
+    },
+    "tree-template": {
+     "title": "Lege stamboom om zelf in te vullen",
+     "instruction": "Teken de mensen die belangrijk voor je zijn in de lijstjes en schrijf hun namen op de lijnen."
+    }
+   }
+  },
+  "plants": {
+   "partWords": {
+    "root": "wortel",
+    "stem": "stengel",
+    "leaf": "blad",
+    "flower": "bloem",
+    "fruit": "vrucht",
+    "seed": "zaad"
+   },
+   "flowerWords": {
+    "petal": "kroonblad",
+    "sepal": "kelkblad",
+    "stamen": "meeldraad",
+    "pistil": "stamper",
+    "stalk": "steel",
+    "ovary": "vruchtbeginsel"
+   },
+   "jobs": {
+    "root": "neemt water op uit de grond",
+    "stem": "houdt de plant rechtop",
+    "leaf": "maakt met zonlicht voedsel voor de plant",
+    "flower": "lokt bijen",
+    "seed": "kan uitgroeien tot een nieuwe plant"
+   },
+   "partStems": [
+    "wortel",
+    "wortels",
+    "stengel",
+    "stengels",
+    "steel",
+    "stelen",
+    "blad",
+    "bladeren",
+    "blaadje",
+    "blaadjes",
+    "bloem",
+    "bloemen",
+    "bloempje",
+    "bloesem",
+    "vrucht",
+    "vruchten",
+    "zaad",
+    "zaden",
+    "zaadje",
+    "zaadjes",
+    "kroonblad",
+    "kroonbladeren"
+   ],
+   "forbidden": [
+    "groente",
+    "fruit",
+    "stam",
+    "knop",
+    "pitje"
+   ],
+   "refuseItems": [
+    "carrot"
+   ],
+   "refuse": [],
+   "strings": {
+    "base": {
+     "title": "Delen van een plant",
+     "instruction": "Volg elk nummer langs het lijntje naar een deel van de plant en schrijf de naam uit de woordrij op de lijn met hetzelfde nummer."
+    },
+    "needs": {
+     "title": "Wat heeft een plant nodig om te groeien?",
+     "instruction": "Omcirkel in elke rij de plant die allebei de dingen krijgt die hij nodig heeft om te groeien."
+    },
+    "cycle": {
+     "title": "Van zaadje tot plant: knippen en plakken",
+     "instruction": "Knip de vier plaatjes uit en plak ze langs de pijlen in de lege vakjes, te beginnen bij het zaadje."
+    },
+    "eat": {
+     "title": "Welk deel van de plant eten we?",
+     "instruction": "Kijk naar elk plaatje en omcirkel het deel van de plant dat we ervan eten."
+    },
+    "jobs": {
+     "title": "Delen van een plant en wat ze doen",
+     "instruction": "Lees wat elk deel doet, zoek dat deel op de plant en schrijf het nummer dat erbij staat in het vakje."
+    },
+    "flower": {
+     "title": "Delen van een bloem benoemen",
+     "instruction": "Schrijf de naam van elk genummerd deel van de bloem op zijn lijn en streep in de woordrij het woord door dat geen deel van een bloem is."
+    }
+   }
+  },
+  "animal-life-cycles": {
+   "stageWords": {
+    "butterfly": {
+     "egg": "ei",
+     "larva": "rups",
+     "pupa": "pop",
+     "adult": "vlinder"
+    }
+   },
+   "decoy": {
+    "frog.tadpole": "kikkervisje"
+   },
+   "landingWords": {
+    "frog": {
+     "spawn": "kikkerdril",
+     "tadpole": "kikkervisje",
+     "legged": "kikkervisje met pootjes",
+     "froglet": "jonge kikker",
+     "adult": "kikker"
+    },
+    "ladybird": {
+     "egg": "ei",
+     "larva": "larve",
+     "pupa": "pop",
+     "adult": "lieveheersbeestje"
+    }
+   },
+   "statements": {
+    "egg": "Het komt uit een ei.",
+    "change": "Het jong ziet er heel anders uit dan het volwassen dier.",
+    "pupa": "Een tijdje is het een pop.",
+    "wings": "Het volwassen dier heeft vleugels.",
+    "sixlegs": "Het volwassen dier heeft zes poten.",
+    "nectar": "Het volwassen dier drinkt nectar uit bloemen.",
+    "tail": "Het jong zwemt met een staart.",
+    "water": "Het jong leeft in het water.",
+    "nolegs": "Het jong heeft eerst helemaal geen poten.",
+    "fourlegs": "Het volwassen dier heeft vier poten.",
+    "insects": "Het volwassen dier vangt insecten om op te eten."
+   },
+   "drop": [],
+   "familyName": "Groei van dieren",
+   "spawnForm": "clump",
+   "forbidden": [
+    "cocon",
+    "cocons"
+   ],
+   "genreBare": [
+    "levenscyclus",
+    "levenscycli"
+   ],
+   "pictureWord": "plaatje",
+   "instructionBans": {},
+   "refuse": [],
+   "strings": {
+    "G1-377": {
+     "title": "Van rups tot vlinder",
+     "instruction": "Het ei is 1: schrijf 2, 3 en 4 in de vakjes zoals het groeit, en in het laatste vakje het nummer van het plaatje dat na de vlinder komt."
+    },
+    "G1-389": {
+     "title": "Van kikkerdril tot kikker: knippen en plakken",
+     "instruction": "Knip de vier vierkantjes uit en plak elk op zijn waterlelieblad, rond de vijver van het kikkerdril tot de kikker."
+    },
+    "G2-365": {
+     "title": "Levenscyclus van de vlinder: benoem elke fase",
+     "instruction": "Schrijf de vier namen van de fasen uit de woordrij op de lijnen onder de plaatjes en streep het ene woord door dat er niet bij hoort."
+    },
+    "G2-366": {
+     "title": "Gedaanteverwisseling: welk dier wordt het?",
+     "instruction": "Kijk naar elke fase en schrijf zijn letter in een vakje onder het dier dat het wordt; sommige vakjes blijven leeg."
+    },
+    "G3-393": {
+     "title": "Vlinder en kikker: hoe groeien ze op?",
+     "instruction": "Lees elke zin en zet een kruisje bij de vlinder, de kikker of allebei als de zin klopt voor dat dier."
+    },
+    "G1-390": {
+     "title": "Wat komt daarna? Vlinder, kikker en lieveheersbeestje",
+     "instruction": "Omcirkel in elke rij het plaatje dat na het eerste komt; na het volwassen dier begint het rondje weer van voren af aan."
+    }
+   }
+  },
+  "earth-and-space": {
+   "hemisphere": "N",
+   "bodies": {
+    "sun": "Zon",
+    "earth": "Aarde",
+    "moon": "Maan"
+   },
+   "facts": {
+    "ownLight": "Ik maak mijn eigen licht.",
+    "star": "Ik ben een ster.",
+    "hottest": "Ik ben de heetste van ons drieën.",
+    "biggest": "Ik ben de grootste van ons drieën.",
+    "liveOn": "Mensen en dieren wonen op mij.",
+    "oceans": "Op mij liggen grote zeeën vol water.",
+    "air": "Ik heb lucht die je kunt inademen.",
+    "planet": "Ik ben een planeet.",
+    "spinDay": "Doordat ik draai, is het dag en nacht.",
+    "orbitsEarth": "Elke maand draai ik één keer een rondje om jou heen.",
+    "seemsToChange": "Mijn vorm lijkt elke avond een beetje anders.",
+    "craters": "Ik zit vol kraters.",
+    "smallest": "Ik ben de kleinste van ons drieën."
+   },
+   "leakForms": [
+    "hij",
+    "zij",
+    "ze",
+    "hem",
+    "haar",
+    "zijn"
+   ],
+   "genderNeutral": true,
+   "forbiddenStems": [
+    "geeft licht",
+    "geeft ons licht",
+    "schijnt",
+    "straalt",
+    "nachts",
+    "in de nacht",
+    "om de Zon",
+    "om de zon",
+    "komt op",
+    "gaat onder",
+    "is rond",
+    "aan de hemel",
+    "in de lucht",
+    "betreden",
+    "geen lucht",
+    "weerspiegelt",
+    "zomer",
+    "winter",
+    "lente",
+    "herfst",
+    "regen",
+    "sneeuw",
+    "wolk",
+    "wolken",
+    "het weer",
+    "warme dag",
+    "koude dag"
+   ],
+   "phaseNames": {
+    "0": "nieuwe maan",
+    "2": "eerste kwartier",
+    "4": "volle maan",
+    "6": "laatste kwartier"
+   },
+   "planets": {
+    "mercury": "Mercurius",
+    "venus": "Venus",
+    "earth": "Aarde",
+    "mars": "Mars",
+    "jupiter": "Jupiter",
+    "saturn": "Saturnus",
+    "uranus": "Uranus",
+    "neptune": "Neptunus"
+   },
+   "notPlanet": {
+    "sun": "Zon",
+    "moon": "Maan"
+   },
+   "classLabels": {
+    "giant": "reuzenplaneet",
+    "rocky": "kleine rotsplaneet",
+    "notPlanet": "geen planeet"
+   },
+   "mnemonic": "Mijn Vader At Maandag Jam, Soep, Uien en Nootjes",
+   "refuse": [],
+   "strings": {
+    "base": {
+     "title": "Zon, Aarde en Maan: wie zegt het?",
+     "instruction": "Lees elke zin en zet een kruisje bij wie dat zegt: de Zon, de Aarde of de Maan."
+    },
+    "moon-phases-in-order": {
+     "title": "Maanfasen op volgorde zetten",
+     "instruction": "Kijk in elke rij naar de wig of de maan groeit of krimpt, en schrijf 1 tot en met 5 onder de manen in die volgorde."
+    },
+    "moon-phase-names": {
+     "title": "Maanfasen benoemen",
+     "instruction": "Schrijf de naam van elke maan op de lijnen en gebruik elk woord uit de woordrij twee keer."
+    },
+    "day-and-night-model": {
+     "title": "Waarom is het dag en nacht?",
+     "instruction": "Kijk waar de Zon is en omcirkel in de tabel bij elk nummer of het daar dag of nacht is."
+    },
+    "planets-in-order": {
+     "title": "De planeten op volgorde vanaf de Zon",
+     "instruction": "Schrijf de naam van elke planeet op zijn lijn, begin naast de Zon en gebruik elke naam uit het kader één keer."
+    },
+    "planet-sizes": {
+     "title": "Reuzenplaneten en rotsplaneten sorteren",
+     "instruction": "Sorteer de namen en schrijf elke naam in het goede vak: reuzenplaneet, kleine rotsplaneet of geen planeet."
+    }
+   }
+  },
+  "maps": {
+   "keyTitle": "Legenda",
+   "symbolWords": {
+    "house": "huis",
+    "tree": "boom",
+    "bush": "struik",
+    "pond": "vijver",
+    "bench": "bankje",
+    "tent": "tent",
+    "flowerBed": "bloemperk",
+    "bridge": "brug"
+   },
+   "dirWords": {
+    "n": "noord",
+    "e": "oost",
+    "s": "zuid",
+    "w": "west"
+   },
+   "dirLetters": {
+    "n": "N",
+    "e": "O",
+    "s": "Z",
+    "w": "W"
+   },
+   "continentSet": [
+    {
+     "id": "northAmerica",
+     "regions": [
+      "northAmerica"
+     ]
+    },
+    {
+     "id": "southAmerica",
+     "regions": [
+      "southAmerica"
+     ]
+    },
+    {
+     "id": "europe",
+     "regions": [
+      "europe"
+     ]
+    },
+    {
+     "id": "asia",
+     "regions": [
+      "asia"
+     ]
+    },
+    {
+     "id": "africa",
+     "regions": [
+      "africa"
+     ]
+    },
+    {
+     "id": "oceania",
+     "regions": [
+      "oceania"
+     ]
+    },
+    {
+     "id": "antarctica",
+     "regions": [
+      "antarctica"
+     ]
+    }
+   ],
+   "continentNames": {
+    "northAmerica": "Noord-Amerika",
+    "southAmerica": "Zuid-Amerika",
+    "europe": "Europa",
+    "asia": "Azië",
+    "africa": "Afrika",
+    "oceania": "Oceanië",
+    "antarctica": "Antarctica"
+   },
+   "oceanSet": [
+    "pacific",
+    "atlantic",
+    "indian",
+    "arctic",
+    "southern"
+   ],
+   "oceanNames": {
+    "pacific": "Stille Oceaan",
+    "atlantic": "Atlantische Oceaan",
+    "indian": "Indische Oceaan",
+    "arctic": "Noordelijke IJszee",
+    "southern": "Zuidelijke Oceaan"
+   },
+   "setSource": "Nederlandse basisschool, aardrijkskunde groep 4-5 (Junior Einstein, Schooltv, Bosatlas-register): 7 werelddelen met Noord- en Zuid-Amerika apart, Antarctica meegeteld en het werelddeel Oceanië (Australië is het land); 5 oceanen met de Zuidelijke Oceaan. Sommige methodes tellen 6 werelddelen (Amerika als één); de kaart tekent 7 genummerde gebieden, dus 7.",
+   "mnemonic": "Nooit Oma Zonder Wandelstok",
+   "refuse": [],
+   "strings": {
+    "base": {
+     "title": "Een plattegrond lezen met de legenda",
+     "instruction": "Kijk naar de legenda, zoek elk ding op de kaart en schrijf in het vakje hoeveel er zijn."
+    },
+    "top-view": {
+     "title": "In vogelvlucht: van opzij en van bovenaf",
+     "instruction": "Elk ding is van opzij getekend: trek een lijn naar hetzelfde ding, van bovenaf gezien."
+    },
+    "compass-rose": {
+     "title": "Windroos invullen: noord, oost, zuid en west",
+     "instruction": "De oranje punt wijst altijd naar het noorden: schrijf bij elke windroos de drie letters die ontbreken."
+    },
+    "continents": {
+     "title": "Werelddelen benoemen op de wereldkaart",
+     "instruction": "Schrijf de naam van elk genummerd werelddeel op zijn lijn, de namen staan in het kader."
+    },
+    "continents-oceans": {
+     "title": "Werelddelen en oceanen op de kaart",
+     "instruction": "Zoek elk werelddeel en elke oceaan op de kaart en schrijf het nummer in het vakje naast de naam."
+    },
+    "directions-on-map": {
+     "title": "Windrichtingen op een plattegrond",
+     "instruction": "Zoek het eerste plaatje op de kaart, kijk in de richting van het woord en omcirkel het plaatje van de drie dat daar ligt."
+    }
+   }
+  },
+  "digraphs": {
+   "head": "Tweetekenklanken",
+   "refused": null,
+   "phonemes": [
+    "p",
+    "b",
+    "t",
+    "d",
+    "k",
+    "ɡ",
+    "f",
+    "v",
+    "s",
+    "z",
+    "x",
+    "ɣ",
+    "ɦ",
+    "m",
+    "n",
+    "ŋ",
+    "l",
+    "r",
+    "ʋ",
+    "j",
+    "ʃ",
+    "ʒ",
+    "ɑ",
+    "aː",
+    "ɛ",
+    "eː",
+    "ɪ",
+    "i",
+    "ɔ",
+    "oː",
+    "ʏ",
+    "y",
+    "u",
+    "øː",
+    "ə",
+    "ɛi",
+    "œy",
+    "ʌu"
+   ],
+   "teams": {
+    "oe": {
+     "t": "oe",
+     "sound": [
+      "u"
+     ],
+     "items": [
+      {
+       "vocabKey": "book",
+       "theme": "classroom",
+       "noun": "book",
+       "word": "boek",
+       "seg": [
+        "b",
+        "oe",
+        "k"
+       ],
+       "snd": [
+        "b",
+        "u",
+        "k"
+       ],
+       "silent": [],
+       "stem": "boek",
+       "noGap": true,
+       "picOpened": true
+      },
+      {
+       "vocabKey": "cow",
+       "theme": "farm animals",
+       "noun": "cow",
+       "word": "koe",
+       "seg": [
+        "k",
+        "oe"
+       ],
+       "snd": [
+        "k",
+        "u"
+       ],
+       "silent": [],
+       "stem": "koe",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "farmer",
+       "theme": "occupations",
+       "noun": "farmer",
+       "word": "boer",
+       "seg": [
+        "b",
+        "oe",
+        "r"
+       ],
+       "snd": [
+        "b",
+        "u",
+        "r"
+       ],
+       "silent": [],
+       "stem": "boer",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "flower",
+       "theme": "spring",
+       "noun": "flower",
+       "word": "bloem",
+       "seg": [
+        "b",
+        "l",
+        "oe",
+        "m"
+       ],
+       "snd": [
+        "b",
+        "l",
+        "u",
+        "m"
+       ],
+       "silent": [],
+       "stem": "bloem",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "foot",
+       "theme": "body parts",
+       "noun": "foot",
+       "word": "voet",
+       "seg": [
+        "v",
+        "oe",
+        "t"
+       ],
+       "snd": [
+        "v",
+        "u",
+        "t"
+       ],
+       "silent": [],
+       "stem": "voet",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "hat",
+       "theme": "clothing",
+       "noun": "hat",
+       "word": "hoed",
+       "seg": [
+        "h",
+        "oe",
+        "d"
+       ],
+       "snd": [
+        "ɦ",
+        "u",
+        "t"
+       ],
+       "silent": [],
+       "stem": "hoed",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "pants",
+       "theme": "clothing",
+       "noun": "pants",
+       "word": "broek",
+       "seg": [
+        "b",
+        "r",
+        "oe",
+        "k"
+       ],
+       "snd": [
+        "b",
+        "r",
+        "u",
+        "k"
+       ],
+       "silent": [],
+       "stem": "broek",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "pumpkin",
+       "theme": "vegetables",
+       "noun": "pumpkin",
+       "word": "pompoen",
+       "seg": [
+        "p",
+        "o",
+        "m",
+        "p",
+        "oe",
+        "n"
+       ],
+       "snd": [
+        "p",
+        "ɔ",
+        "m",
+        "p",
+        "u",
+        "n"
+       ],
+       "silent": [],
+       "stem": "pompoen",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "shoe",
+       "theme": "clothing",
+       "noun": "shoe",
+       "word": "schoen",
+       "seg": [
+        "s",
+        "ch",
+        "oe",
+        "n"
+       ],
+       "snd": [
+        "s",
+        "x",
+        "u",
+        "n"
+       ],
+       "silent": [],
+       "stem": "schoen",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "lemon",
+       "theme": "fruits",
+       "noun": "lemon",
+       "word": "citroen",
+       "seg": [
+        "c",
+        "i",
+        "t",
+        "r",
+        "oe",
+        "n"
+       ],
+       "snd": [
+        "s",
+        "i",
+        "t",
+        "r",
+        "u",
+        "n"
+       ],
+       "silent": [],
+       "stem": "citroen",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "cookie",
+       "theme": "bakery",
+       "noun": "cookie",
+       "word": "koekje",
+       "seg": [
+        "k",
+        "oe",
+        "k",
+        "j",
+        "e"
+       ],
+       "snd": [
+        "k",
+        "u",
+        "k",
+        "j",
+        "ə"
+       ],
+       "silent": [],
+       "stem": "koekje",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "mushroom",
+       "theme": "vegetables",
+       "noun": "mushroom",
+       "word": "paddenstoel",
+       "seg": [
+        "p",
+        "a",
+        "dd",
+        "e",
+        "n",
+        "s",
+        "t",
+        "oe",
+        "l"
+       ],
+       "snd": [
+        "p",
+        "ɑ",
+        "d",
+        "ə",
+        "n",
+        "s",
+        "t",
+        "u",
+        "l"
+       ],
+       "silent": [],
+       "stem": "stoel",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "chair",
+       "theme": "furniture",
+       "noun": "chair",
+       "word": "stoel",
+       "seg": [
+        "s",
+        "t",
+        "oe",
+        "l"
+       ],
+       "snd": [
+        "s",
+        "t",
+        "u",
+        "l"
+       ],
+       "silent": [],
+       "stem": "stoel",
+       "picOpened": true
+      }
+     ]
+    },
+    "ui": {
+     "t": "ui",
+     "sound": [
+      "œy"
+     ],
+     "items": [
+      {
+       "vocabKey": "bat",
+       "theme": "animals",
+       "noun": "bat",
+       "word": "vleermuis",
+       "seg": [
+        "v",
+        "l",
+        "ee",
+        "r",
+        "m",
+        "ui",
+        "s"
+       ],
+       "snd": [
+        "v",
+        "l",
+        "eː",
+        "r",
+        "m",
+        "œy",
+        "s"
+       ],
+       "silent": [],
+       "stem": "muis",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "flute",
+       "theme": "music",
+       "noun": "flute",
+       "word": "fluit",
+       "seg": [
+        "f",
+        "l",
+        "ui",
+        "t"
+       ],
+       "snd": [
+        "f",
+        "l",
+        "œy",
+        "t"
+       ],
+       "silent": [],
+       "stem": "fluit",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "grapes",
+       "theme": "breakfast",
+       "noun": "grapes",
+       "word": "druiven",
+       "seg": [
+        "d",
+        "r",
+        "ui",
+        "v",
+        "e",
+        "n"
+       ],
+       "snd": [
+        "d",
+        "r",
+        "œy",
+        "v",
+        "ə",
+        "n"
+       ],
+       "silent": [],
+       "stem": "druiven",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "house",
+       "theme": "miscellaneous",
+       "noun": "house",
+       "word": "huis",
+       "seg": [
+        "h",
+        "ui",
+        "s"
+       ],
+       "snd": [
+        "ɦ",
+        "œy",
+        "s"
+       ],
+       "silent": [],
+       "stem": "huis",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "mouse",
+       "theme": "pets",
+       "noun": "mouse",
+       "word": "muis",
+       "seg": [
+        "m",
+        "ui",
+        "s"
+       ],
+       "snd": [
+        "m",
+        "œy",
+        "s"
+       ],
+       "silent": [],
+       "stem": "muis",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "onion",
+       "theme": "vegetables",
+       "noun": "onion",
+       "word": "ui",
+       "seg": [
+        "ui"
+       ],
+       "snd": [
+        "œy"
+       ],
+       "silent": [],
+       "stem": "ui",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "owl",
+       "theme": "birds",
+       "noun": "owl",
+       "word": "uil",
+       "seg": [
+        "ui",
+        "l"
+       ],
+       "snd": [
+        "œy",
+        "l"
+       ],
+       "silent": [],
+       "stem": "uil",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "sweater",
+       "theme": "clothing",
+       "noun": "sweater",
+       "word": "trui",
+       "seg": [
+        "t",
+        "r",
+        "ui"
+       ],
+       "snd": [
+        "t",
+        "r",
+        "œy"
+       ],
+       "silent": [],
+       "stem": "trui",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "thumb",
+       "theme": "body parts",
+       "noun": "thumb",
+       "word": "duim",
+       "seg": [
+        "d",
+        "ui",
+        "m"
+       ],
+       "snd": [
+        "d",
+        "œy",
+        "m"
+       ],
+       "silent": [],
+       "stem": "duim",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "whistle",
+       "theme": "accessories",
+       "noun": "whistle",
+       "word": "fluitje",
+       "seg": [
+        "f",
+        "l",
+        "ui",
+        "t",
+        "j",
+        "e"
+       ],
+       "snd": [
+        "f",
+        "l",
+        "œy",
+        "t",
+        "j",
+        "ə"
+       ],
+       "silent": [],
+       "stem": "fluit",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "cross",
+       "theme": "easter",
+       "noun": "cross",
+       "word": "kruis",
+       "seg": [
+        "k",
+        "r",
+        "ui",
+        "s"
+       ],
+       "snd": [
+        "k",
+        "r",
+        "œy",
+        "s"
+       ],
+       "silent": [],
+       "stem": "kruis",
+       "picOpened": true
+      }
+     ]
+    },
+    "eu": {
+     "t": "eu",
+     "sound": [
+      "øː"
+     ],
+     "items": [
+      {
+       "vocabKey": "door",
+       "theme": "around the house",
+       "noun": "door",
+       "word": "deur",
+       "seg": [
+        "d",
+        "eu",
+        "r"
+       ],
+       "snd": [
+        "d",
+        "øː",
+        "r"
+       ],
+       "silent": [],
+       "stem": "deur",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "key",
+       "theme": "around the house",
+       "noun": "key",
+       "word": "sleutel",
+       "seg": [
+        "s",
+        "l",
+        "eu",
+        "t",
+        "e",
+        "l"
+       ],
+       "snd": [
+        "s",
+        "l",
+        "øː",
+        "t",
+        "ə",
+        "l"
+       ],
+       "silent": [],
+       "stem": "sleutel",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "kitchen",
+       "theme": "around the house",
+       "noun": "kitchen",
+       "word": "keuken",
+       "seg": [
+        "k",
+        "eu",
+        "k",
+        "e",
+        "n"
+       ],
+       "snd": [
+        "k",
+        "øː",
+        "k",
+        "ə",
+        "n"
+       ],
+       "silent": [],
+       "stem": "keuken",
+       "noGap": true,
+       "picOpened": true
+      },
+      {
+       "vocabKey": "nose",
+       "theme": "body parts",
+       "noun": "nose",
+       "word": "neus",
+       "seg": [
+        "n",
+        "eu",
+        "s"
+       ],
+       "snd": [
+        "n",
+        "øː",
+        "s"
+       ],
+       "silent": [],
+       "stem": "neus",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "crayons",
+       "theme": "toys",
+       "noun": "crayons",
+       "word": "kleurpotloden",
+       "seg": [
+        "k",
+        "l",
+        "eu",
+        "r",
+        "p",
+        "o",
+        "t",
+        "l",
+        "o",
+        "d",
+        "e",
+        "n"
+       ],
+       "snd": [
+        "k",
+        "l",
+        "øː",
+        "r",
+        "p",
+        "ɔ",
+        "t",
+        "l",
+        "oː",
+        "d",
+        "ə",
+        "n"
+       ],
+       "silent": [],
+       "stem": "kleurpotloden",
+       "picOpened": true
+      }
+     ]
+    },
+    "oo": {
+     "t": "oo",
+     "sound": [
+      "oː"
+     ],
+     "items": [
+      {
+       "vocabKey": "boat",
+       "theme": "vehicles",
+       "noun": "boat",
+       "word": "boot",
+       "seg": [
+        "b",
+        "oo",
+        "t"
+       ],
+       "snd": [
+        "b",
+        "oː",
+        "t"
+       ],
+       "silent": [],
+       "stem": "boot",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "bread",
+       "theme": "At the Supermarket",
+       "noun": "bread",
+       "word": "brood",
+       "seg": [
+        "b",
+        "r",
+        "oo",
+        "d"
+       ],
+       "snd": [
+        "b",
+        "r",
+        "oː",
+        "t"
+       ],
+       "silent": [],
+       "stem": "brood",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "crown",
+       "theme": "accessories",
+       "noun": "crown",
+       "word": "kroon",
+       "seg": [
+        "k",
+        "r",
+        "oo",
+        "n"
+       ],
+       "snd": [
+        "k",
+        "r",
+        "oː",
+        "n"
+       ],
+       "silent": [],
+       "stem": "kroon",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "ear",
+       "theme": "body parts",
+       "noun": "ear",
+       "word": "oor",
+       "seg": [
+        "oo",
+        "r"
+       ],
+       "snd": [
+        "oː",
+        "r"
+       ],
+       "silent": [],
+       "stem": "oor",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "eye",
+       "theme": "body parts",
+       "noun": "eye",
+       "word": "oog",
+       "seg": [
+        "oo",
+        "g"
+       ],
+       "snd": [
+        "oː",
+        "x"
+       ],
+       "silent": [],
+       "stem": "oog",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "gate",
+       "theme": "around the house",
+       "noun": "gate",
+       "word": "poort",
+       "seg": [
+        "p",
+        "oo",
+        "r",
+        "t"
+       ],
+       "snd": [
+        "p",
+        "oː",
+        "r",
+        "t"
+       ],
+       "silent": [],
+       "stem": "poort",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "ghost",
+       "theme": "miscellaneous",
+       "noun": "ghost",
+       "word": "spook",
+       "seg": [
+        "s",
+        "p",
+        "oo",
+        "k"
+       ],
+       "snd": [
+        "s",
+        "p",
+        "oː",
+        "k"
+       ],
+       "silent": [],
+       "stem": "spook",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "pencil",
+       "theme": "classroom",
+       "noun": "pencil",
+       "word": "potlood",
+       "seg": [
+        "p",
+        "o",
+        "t",
+        "l",
+        "oo",
+        "d"
+       ],
+       "snd": [
+        "p",
+        "ɔ",
+        "t",
+        "l",
+        "oː",
+        "t"
+       ],
+       "silent": [],
+       "stem": "potlood",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "rainbow",
+       "theme": "weather",
+       "noun": "rainbow",
+       "word": "regenboog",
+       "seg": [
+        "r",
+        "e",
+        "g",
+        "e",
+        "n",
+        "b",
+        "oo",
+        "g"
+       ],
+       "snd": [
+        "r",
+        "eː",
+        "ɣ",
+        "ə",
+        "n",
+        "b",
+        "oː",
+        "x"
+       ],
+       "silent": [],
+       "stem": "regenboog",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "rose",
+       "theme": "flowers",
+       "noun": "rose",
+       "word": "roos",
+       "seg": [
+        "r",
+        "oo",
+        "s"
+       ],
+       "snd": [
+        "r",
+        "oː",
+        "s"
+       ],
+       "silent": [],
+       "stem": "roos",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "telephone",
+       "theme": "around the house",
+       "noun": "telephone",
+       "word": "telefoon",
+       "seg": [
+        "t",
+        "e",
+        "l",
+        "e",
+        "f",
+        "oo",
+        "n"
+       ],
+       "snd": [
+        "t",
+        "eː",
+        "l",
+        "ə",
+        "f",
+        "oː",
+        "n"
+       ],
+       "silent": [],
+       "stem": "telefoon",
+       "picOpened": true
+      }
+     ]
+    },
+    "ie": {
+     "t": "ie",
+     "sound": [
+      "i"
+     ],
+     "items": [
+      {
+       "vocabKey": "ant",
+       "theme": "insects and bugs",
+       "noun": "ant",
+       "word": "mier",
+       "seg": [
+        "m",
+        "ie",
+        "r"
+       ],
+       "snd": [
+        "m",
+        "i",
+        "r"
+       ],
+       "silent": [],
+       "stem": "mier",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "belt",
+       "theme": "accessories",
+       "noun": "belt",
+       "word": "riem",
+       "seg": [
+        "r",
+        "ie",
+        "m"
+       ],
+       "snd": [
+        "r",
+        "i",
+        "m"
+       ],
+       "silent": [],
+       "stem": "riem",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "bicycle",
+       "theme": "vehicles",
+       "noun": "bicycle",
+       "word": "fiets",
+       "seg": [
+        "f",
+        "ie",
+        "t",
+        "s"
+       ],
+       "snd": [
+        "f",
+        "i",
+        "t",
+        "s"
+       ],
+       "silent": [],
+       "stem": "fiets",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "kite",
+       "theme": "toys",
+       "noun": "kite",
+       "word": "vlieger",
+       "seg": [
+        "v",
+        "l",
+        "ie",
+        "g",
+        "e",
+        "r"
+       ],
+       "snd": [
+        "v",
+        "l",
+        "i",
+        "ɣ",
+        "ə",
+        "r"
+       ],
+       "silent": [],
+       "stem": "vlieger",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "letter",
+       "theme": "post office",
+       "noun": "letter",
+       "word": "brief",
+       "seg": [
+        "b",
+        "r",
+        "ie",
+        "f"
+       ],
+       "snd": [
+        "b",
+        "r",
+        "i",
+        "f"
+       ],
+       "silent": [],
+       "stem": "brief",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "crib",
+       "theme": "furniture",
+       "noun": "crib",
+       "word": "wieg",
+       "seg": [
+        "w",
+        "ie",
+        "g"
+       ],
+       "snd": [
+        "ʋ",
+        "i",
+        "x"
+       ],
+       "silent": [],
+       "stem": "wieg",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "heel",
+       "theme": "body parts",
+       "noun": "heel",
+       "word": "hiel",
+       "seg": [
+        "h",
+        "ie",
+        "l"
+       ],
+       "snd": [
+        "ɦ",
+        "i",
+        "l"
+       ],
+       "silent": [],
+       "stem": "hiel",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "mirror",
+       "theme": "around the house",
+       "noun": "mirror",
+       "word": "spiegel",
+       "seg": [
+        "s",
+        "p",
+        "ie",
+        "g",
+        "e",
+        "l"
+       ],
+       "snd": [
+        "s",
+        "p",
+        "i",
+        "ɣ",
+        "ə",
+        "l"
+       ],
+       "silent": [],
+       "stem": "spiegel",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "vulture",
+       "theme": "birds",
+       "noun": "vulture",
+       "word": "gier",
+       "seg": [
+        "g",
+        "ie",
+        "r"
+       ],
+       "snd": [
+        "ɣ",
+        "i",
+        "r"
+       ],
+       "silent": [],
+       "stem": "gier",
+       "picOpened": true
+      },
+      {
+       "vocabKey": "paper",
+       "theme": "classroom",
+       "noun": "paper",
+       "word": "papier",
+       "seg": [
+        "p",
+        "a",
+        "p",
+        "ie",
+        "r"
+       ],
+       "snd": [
+        "p",
+        "aː",
+        "p",
+        "i",
+        "r"
+       ],
+       "silent": [],
+       "stem": "papier",
+       "picOpened": true
+      }
+     ]
+    }
+   },
+   "samesound": [],
+   "falsePairs": [
+    {
+     "word": "poëzie",
+     "letters": "oe",
+     "why": "po-ë-zie: het trema zegt dat o en e twee klanken zijn, geen oe"
+    },
+    {
+     "word": "museum",
+     "letters": "eu",
+     "why": "mu-se-um: e en u horen bij twee lettergrepen, geen eu"
+    },
+    {
+     "word": "jubileum",
+     "letters": "eu",
+     "why": "ju-bi-le-um: e en u zijn twee klanken"
+    },
+    {
+     "word": "reünie",
+     "letters": "eu",
+     "why": "re-ü-nie: het trema scheidt e en u"
+    },
+    {
+     "word": "ruïne",
+     "letters": "ui",
+     "why": "ru-ï-ne: het trema scheidt u en i, geen ui"
+    },
+    {
+     "word": "coöperatie",
+     "letters": "oo",
+     "why": "co-ö-pe-ra-tie: twee o-klanken, geen oo"
+    },
+    {
+     "word": "Italië",
+     "letters": "ie",
+     "why": "I-ta-li-ë: i en e zijn twee klanken, geen ie"
+    }
+   ],
+   "sets": {
+    "exemplar": [
+     "oe",
+     "ui",
+     "oo"
+    ],
+    "k": [
+     "oe",
+     "ui"
+    ],
+    "position": [
+     "oo",
+     "ie",
+     "ui"
+    ]
+   },
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "Ik zoek mijn boek.",
+     "target": "oe",
+     "hits": 2,
+     "tokens": [
+      {
+       "w": "Ik",
+       "seg": [
+        "I",
+        "k"
+       ]
+      },
+      {
+       "w": "zoek",
+       "seg": [
+        "z",
+        "oe",
+        "k"
+       ]
+      },
+      {
+       "w": "mijn",
+       "seg": [
+        "m",
+        "ij",
+        "n"
+       ]
+      },
+      {
+       "w": "boek",
+       "seg": [
+        "b",
+        "oe",
+        "k"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s2",
+     "text": "De koe staat bij de boer.",
+     "target": "oe",
+     "hits": 2,
+     "tokens": [
+      {
+       "w": "De",
+       "seg": [
+        "D",
+        "e"
+       ]
+      },
+      {
+       "w": "koe",
+       "seg": [
+        "k",
+        "oe"
+       ]
+      },
+      {
+       "w": "staat",
+       "seg": [
+        "s",
+        "t",
+        "aa",
+        "t"
+       ]
+      },
+      {
+       "w": "bij",
+       "seg": [
+        "b",
+        "ij"
+       ]
+      },
+      {
+       "w": "de",
+       "seg": [
+        "d",
+        "e"
+       ]
+      },
+      {
+       "w": "boer",
+       "seg": [
+        "b",
+        "oe",
+        "r"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s3",
+     "text": "Oma zoekt haar hoed en haar schoen.",
+     "target": "oe",
+     "hits": 3,
+     "tokens": [
+      {
+       "w": "Oma",
+       "seg": [
+        "O",
+        "m",
+        "a"
+       ]
+      },
+      {
+       "w": "zoekt",
+       "seg": [
+        "z",
+        "oe",
+        "k",
+        "t"
+       ]
+      },
+      {
+       "w": "haar",
+       "seg": [
+        "h",
+        "aa",
+        "r"
+       ]
+      },
+      {
+       "w": "hoed",
+       "seg": [
+        "h",
+        "oe",
+        "d"
+       ]
+      },
+      {
+       "w": "en",
+       "seg": [
+        "e",
+        "n"
+       ]
+      },
+      {
+       "w": "haar",
+       "seg": [
+        "h",
+        "aa",
+        "r"
+       ]
+      },
+      {
+       "w": "schoen",
+       "seg": [
+        "s",
+        "ch",
+        "oe",
+        "n"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s4",
+     "text": "Het boek ligt op de stoel.",
+     "target": "oe",
+     "hits": 2,
+     "tokens": [
+      {
+       "w": "Het",
+       "seg": [
+        "H",
+        "e",
+        "t"
+       ]
+      },
+      {
+       "w": "boek",
+       "seg": [
+        "b",
+        "oe",
+        "k"
+       ]
+      },
+      {
+       "w": "ligt",
+       "seg": [
+        "l",
+        "i",
+        "g",
+        "t"
+       ]
+      },
+      {
+       "w": "op",
+       "seg": [
+        "o",
+        "p"
+       ]
+      },
+      {
+       "w": "de",
+       "seg": [
+        "d",
+        "e"
+       ]
+      },
+      {
+       "w": "stoel",
+       "seg": [
+        "s",
+        "t",
+        "oe",
+        "l"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s5",
+     "text": "De poes is moe.",
+     "target": "oe",
+     "hits": 2,
+     "tokens": [
+      {
+       "w": "De",
+       "seg": [
+        "D",
+        "e"
+       ]
+      },
+      {
+       "w": "poes",
+       "seg": [
+        "p",
+        "oe",
+        "s"
+       ]
+      },
+      {
+       "w": "is",
+       "seg": [
+        "i",
+        "s"
+       ]
+      },
+      {
+       "w": "moe",
+       "seg": [
+        "m",
+        "oe"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s6",
+     "text": "Wat doe je met die groene bloem?",
+     "target": "oe",
+     "hits": 3,
+     "tokens": [
+      {
+       "w": "Wat",
+       "seg": [
+        "W",
+        "a",
+        "t"
+       ]
+      },
+      {
+       "w": "doe",
+       "seg": [
+        "d",
+        "oe"
+       ]
+      },
+      {
+       "w": "je",
+       "seg": [
+        "j",
+        "e"
+       ]
+      },
+      {
+       "w": "met",
+       "seg": [
+        "m",
+        "e",
+        "t"
+       ]
+      },
+      {
+       "w": "die",
+       "seg": [
+        "d",
+        "ie"
+       ]
+      },
+      {
+       "w": "groene",
+       "seg": [
+        "g",
+        "r",
+        "oe",
+        "n",
+        "e"
+       ]
+      },
+      {
+       "w": "bloem",
+       "seg": [
+        "b",
+        "l",
+        "oe",
+        "m"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s7",
+     "text": "Papa eet een koekje.",
+     "target": "oe",
+     "hits": 1,
+     "tokens": [
+      {
+       "w": "Papa",
+       "seg": [
+        "P",
+        "a",
+        "p",
+        "a"
+       ]
+      },
+      {
+       "w": "eet",
+       "seg": [
+        "ee",
+        "t"
+       ]
+      },
+      {
+       "w": "een",
+       "seg": [
+        "ee",
+        "n"
+       ]
+      },
+      {
+       "w": "koekje",
+       "seg": [
+        "k",
+        "oe",
+        "k",
+        "j",
+        "e"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s8",
+     "text": "De boer zoekt zijn hoed en zijn koe.",
+     "target": "oe",
+     "hits": 4,
+     "tokens": [
+      {
+       "w": "De",
+       "seg": [
+        "D",
+        "e"
+       ]
+      },
+      {
+       "w": "boer",
+       "seg": [
+        "b",
+        "oe",
+        "r"
+       ]
+      },
+      {
+       "w": "zoekt",
+       "seg": [
+        "z",
+        "oe",
+        "k",
+        "t"
+       ]
+      },
+      {
+       "w": "zijn",
+       "seg": [
+        "z",
+        "ij",
+        "n"
+       ]
+      },
+      {
+       "w": "hoed",
+       "seg": [
+        "h",
+        "oe",
+        "d"
+       ]
+      },
+      {
+       "w": "en",
+       "seg": [
+        "e",
+        "n"
+       ]
+      },
+      {
+       "w": "zijn",
+       "seg": [
+        "z",
+        "ij",
+        "n"
+       ]
+      },
+      {
+       "w": "koe",
+       "seg": [
+        "k",
+        "oe"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s9",
+     "text": "We lezen samen een boek.",
+     "target": "oe",
+     "hits": 1,
+     "tokens": [
+      {
+       "w": "We",
+       "seg": [
+        "W",
+        "e"
+       ]
+      },
+      {
+       "w": "lezen",
+       "seg": [
+        "l",
+        "e",
+        "z",
+        "e",
+        "n"
+       ]
+      },
+      {
+       "w": "samen",
+       "seg": [
+        "s",
+        "a",
+        "m",
+        "e",
+        "n"
+       ]
+      },
+      {
+       "w": "een",
+       "seg": [
+        "ee",
+        "n"
+       ]
+      },
+      {
+       "w": "boek",
+       "seg": [
+        "b",
+        "oe",
+        "k"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s10",
+     "text": "Ik doe mijn schoen en mijn broek aan.",
+     "target": "oe",
+     "hits": 3,
+     "tokens": [
+      {
+       "w": "Ik",
+       "seg": [
+        "I",
+        "k"
+       ]
+      },
+      {
+       "w": "doe",
+       "seg": [
+        "d",
+        "oe"
+       ]
+      },
+      {
+       "w": "mijn",
+       "seg": [
+        "m",
+        "ij",
+        "n"
+       ]
+      },
+      {
+       "w": "schoen",
+       "seg": [
+        "s",
+        "ch",
+        "oe",
+        "n"
+       ]
+      },
+      {
+       "w": "en",
+       "seg": [
+        "e",
+        "n"
+       ]
+      },
+      {
+       "w": "mijn",
+       "seg": [
+        "m",
+        "ij",
+        "n"
+       ]
+      },
+      {
+       "w": "broek",
+       "seg": [
+        "b",
+        "r",
+        "oe",
+        "k"
+       ]
+      },
+      {
+       "w": "aan",
+       "seg": [
+        "aa",
+        "n"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s11",
+     "text": "Moeder bakt een pannenkoek.",
+     "target": "oe",
+     "hits": 2,
+     "tokens": [
+      {
+       "w": "Moeder",
+       "seg": [
+        "M",
+        "oe",
+        "d",
+        "e",
+        "r"
+       ]
+      },
+      {
+       "w": "bakt",
+       "seg": [
+        "b",
+        "a",
+        "k",
+        "t"
+       ]
+      },
+      {
+       "w": "een",
+       "seg": [
+        "ee",
+        "n"
+       ]
+      },
+      {
+       "w": "pannenkoek",
+       "seg": [
+        "p",
+        "a",
+        "n",
+        "n",
+        "e",
+        "n",
+        "k",
+        "oe",
+        "k"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s12",
+     "text": "Het kind zit op een stoel.",
+     "target": "oe",
+     "hits": 1,
+     "tokens": [
+      {
+       "w": "Het",
+       "seg": [
+        "H",
+        "e",
+        "t"
+       ]
+      },
+      {
+       "w": "kind",
+       "seg": [
+        "k",
+        "i",
+        "n",
+        "d"
+       ]
+      },
+      {
+       "w": "zit",
+       "seg": [
+        "z",
+        "i",
+        "t"
+       ]
+      },
+      {
+       "w": "op",
+       "seg": [
+        "o",
+        "p"
+       ]
+      },
+      {
+       "w": "een",
+       "seg": [
+        "ee",
+        "n"
+       ]
+      },
+      {
+       "w": "stoel",
+       "seg": [
+        "s",
+        "t",
+        "oe",
+        "l"
+       ]
+      }
+     ]
+    }
+   ],
+   "rejectedPics": [
+    {
+     "pic": "fruits/cherry",
+     "why": "reads as an apple (design §4)"
+    },
+    {
+     "pic": "fruits/peach",
+     "why": "reads as an apple (design §4)"
+    },
+    {
+     "pic": "christmas/chimney",
+     "why": "a fireplace (design §4)"
+    },
+    {
+     "pic": "body parts/mouth",
+     "why": "said \"lips\" / \"lippen\" (design §4)"
+    },
+    {
+     "pic": "colors/white",
+     "why": "a white paint drop (design §1)"
+    },
+    {
+     "pic": "shapes/cone",
+     "why": "a frustum / lampshade (design §1)"
+    },
+    {
+     "pic": "easter/chick",
+     "why": "reads as a duckling: a Dutch child says \"eendje\", not \"kuiken\" (design + nl panel)"
+    },
+    {
+     "pic": "classroom/lunchbox",
+     "why": "reads as a treasure chest: \"schatkist\" (design)"
+    },
+    {
+     "pic": "farm animals/chick",
+     "why": "nl panel, opened: same duckling look as easter/chick, said \"eendje\""
+    },
+    {
+     "pic": "fruits/plum",
+     "why": "nl panel, opened: a red apple, said \"appel\" (pruim would be a ui item)"
+    },
+    {
+     "pic": "ocean life/manatee",
+     "why": "nl panel, opened: said \"zeehond\", not \"zeekoe\""
+    },
+    {
+     "pic": "ocean life/oyster",
+     "why": "reads as a shell: \"schelp\" (design §4)"
+    },
+    {
+     "pic": "emotions/tired",
+     "why": "nl panel, opened: a yawning face, said \"gapen\" / \"slaperig\" as often as \"moe\""
+    },
+    {
+     "pic": "breakfast/pancake",
+     "why": "nl panel, opened: a stack with jam, said \"hamburger\" / \"koek\""
+    },
+    {
+     "pic": "breakfast/biscuit",
+     "why": "nl panel, opened: reads as a pie (\"taart\")"
+    },
+    {
+     "pic": "body parts/elbow",
+     "why": "nl panel, opened: an L-shaped limb, said \"arm\""
+    },
+    {
+     "pic": "body parts/head",
+     "why": "nl panel, opened: a face, said \"gezicht\" / \"jongen\""
+    },
+    {
+     "pic": "christmas/tree",
+     "why": "nl panel, opened: a decorated tree, said \"kerstboom\""
+    },
+    {
+     "pic": "vegetables/garlic",
+     "why": "nl panel, opened: reads as an onion, said \"ui\" (a foil team)"
+    },
+    {
+     "pic": "occupations/pilot",
+     "why": "nl panel, opened: a plane, said \"vliegtuig\""
+    },
+    {
+     "pic": "thanksgivinng/harvest",
+     "why": "nl panel, opened: a sheaf of wheat, said \"graan\" / \"tarwe\""
+    },
+    {
+     "pic": "around the house/stove",
+     "why": "nl panel, opened: said \"oven\" / \"keuken\" as often as \"fornuis\""
+    },
+    {
+     "pic": "farm animals/bull",
+     "why": "nl panel, opened: a calf with horns, said \"koe\" (an oe foil)"
+    },
+    {
+     "pic": "christmas/reindeer",
+     "why": "nl panel, opened: said \"hert\""
+    },
+    {
+     "pic": "occupations/actor",
+     "why": "nl panel, opened: a man on a stage; \"acteur\" is a French loan (-eur)"
+    },
+    {
+     "pic": "occupations/mechanic",
+     "why": "nl panel, opened: a man at a car, said \"man\" / \"garage\"; \"monteur\" is a loan"
+    },
+    {
+     "pic": "farm animals/foal",
+     "why": "nl panel round 1: most children say \"paard\", not \"veulen\" (no eu)"
+    },
+    {
+     "pic": "clothing/glove",
+     "why": "nl panel round 1: said \"want\" as often as \"handschoen\""
+    },
+    {
+     "pic": "farm animals/turkey",
+     "why": "nl panel round 1: \"kalkoen\" is a stretch word for kleuters"
+    },
+    {
+     "pic": "birds 2/dove",
+     "why": "nl panel round 1: a white bird, said \"vogel\", not \"duif\""
+    },
+    {
+     "pic": "birds 2/canary",
+     "why": "nl panel round 1: a generic yellow bird, said \"vogel(tje)\""
+    },
+    {
+     "pic": "body parts/knee",
+     "why": "nl panel round 1: drawn as a bent leg, said \"been\""
+    },
+    {
+     "pic": "flowers/lily",
+     "why": "nl panel round 1: said \"bloem\", not \"lelie\""
+    }
+   ],
+   "strings": {
+    "base": {
+     "title": "Tweetekenklanken oe, ui en oo: welke klank hoor je?",
+     "instruction": "Zeg wat je op elk plaatje ziet en omcirkel de tweetekenklank die je hoort."
+    },
+    "sort-two": {
+     "title": "Tweetekenklanken sorteren voor kleuters: oe of ui",
+     "instruction": "Zeg wat je op elk plaatje ziet en trek een lijn naar de klank die je hoort: oe of ui."
+    },
+    "gap": {
+     "title": "Tweetekenklanken invullen: oe, ui of oo",
+     "instruction": "Zeg wat je op elk plaatje ziet en schrijf de klank die mist van bovenaan in de open plek met de stippellijn."
+    },
+    "match": {
+     "title": "Woorden met tweetekenklanken lezen en koppelen",
+     "instruction": "Lees elk woord, de tweetekenklank is gemarkeerd, en trek een lijn naar het plaatje dat bij het woord hoort."
+    },
+    "text": {
+     "title": "Tweetekenklanken in zinnen: omcirkel en tel oe",
+     "instruction": "Lees de zinnen, omcirkel elke oe en schrijf in het vakje hoeveel je er in die zin vond."
+    }
+   }
+  },
+  "synonyms": {
+   "head": "Synoniemen",
+   "allowed": [
+    " ",
+    "-"
+   ],
+   "ban": [
+    "leuk",
+    "mooi",
+    "lekker",
+    "knap",
+    "hard",
+    "zacht",
+    "gek",
+    "tof",
+    "vet",
+    "gaaf",
+    "flink",
+    "rustig",
+    "licht",
+    "zwaar",
+    "fijn",
+    "gemeen",
+    "lief"
+   ],
+   "regional": [],
+   "groups": [
+    {
+     "id": "g.happy",
+     "concept": "happy",
+     "pos": "adj",
+     "domain": "feelings",
+     "tier": 1,
+     "words": [
+      "blij",
+      "vrolijk"
+     ]
+    },
+    {
+     "id": "g.sad",
+     "concept": "sad",
+     "pos": "adj",
+     "domain": "feelings",
+     "tier": 1,
+     "words": [
+      "verdrietig",
+      "bedroefd"
+     ]
+    },
+    {
+     "id": "g.angry",
+     "concept": "angry",
+     "pos": "adj",
+     "domain": "feelings",
+     "tier": 1,
+     "words": [
+      "boos",
+      "kwaad"
+     ]
+    },
+    {
+     "id": "g.scared",
+     "concept": "scared",
+     "pos": "adj",
+     "domain": "feelings",
+     "tier": 1,
+     "words": [
+      "bang",
+      "angstig"
+     ]
+    },
+    {
+     "id": "g.surprised",
+     "concept": "surprised",
+     "pos": "adj",
+     "domain": "feelings",
+     "tier": 2,
+     "words": [
+      "verbaasd",
+      "verrast"
+     ]
+    },
+    {
+     "id": "g.tired",
+     "concept": "tired",
+     "pos": "adj",
+     "domain": "body",
+     "tier": 1,
+     "words": [
+      "moe",
+      "slaperig"
+     ]
+    },
+    {
+     "id": "g.strong",
+     "concept": "strong",
+     "pos": "adj",
+     "domain": "body",
+     "tier": 2,
+     "words": [
+      "sterk",
+      "krachtig"
+     ]
+    },
+    {
+     "id": "g.big",
+     "concept": "big",
+     "pos": "adj",
+     "domain": "size-speed",
+     "tier": 1,
+     "words": [
+      "groot",
+      "fors"
+     ]
+    },
+    {
+     "id": "g.fast",
+     "concept": "fast",
+     "pos": "adj",
+     "domain": "size-speed",
+     "tier": 1,
+     "words": [
+      "snel",
+      "vlug",
+      "rap"
+     ]
+    },
+    {
+     "id": "g.easy",
+     "concept": "easy",
+     "pos": "adj",
+     "domain": "thinking",
+     "tier": 1,
+     "words": [
+      "makkelijk",
+      "eenvoudig"
+     ]
+    },
+    {
+     "id": "g.difficult",
+     "concept": "difficult",
+     "pos": "adj",
+     "domain": "thinking",
+     "tier": 2,
+     "words": [
+      "moeilijk",
+      "lastig"
+     ]
+    },
+    {
+     "id": "g.brave",
+     "concept": "brave",
+     "pos": "adj",
+     "domain": "character",
+     "tier": 2,
+     "words": [
+      "dapper",
+      "moedig"
+     ]
+    },
+    {
+     "id": "g.funny",
+     "concept": "funny",
+     "pos": "adj",
+     "domain": "character",
+     "tier": 2,
+     "words": [
+      "grappig",
+      "komisch"
+     ]
+    },
+    {
+     "id": "g.strange",
+     "concept": "strange",
+     "pos": "adj",
+     "domain": "character",
+     "tier": 2,
+     "words": [
+      "raar",
+      "vreemd"
+     ]
+    },
+    {
+     "id": "g.loud",
+     "concept": "loud",
+     "pos": "adj",
+     "domain": "senses",
+     "tier": 1,
+     "words": [
+      "luid",
+      "lawaaierig"
+     ]
+    },
+    {
+     "id": "g.tidy",
+     "concept": "tidy",
+     "pos": "adj",
+     "domain": "looks",
+     "tier": 2,
+     "words": [
+      "netjes",
+      "opgeruimd"
+     ]
+    },
+    {
+     "id": "g.messy",
+     "concept": "messy",
+     "pos": "adj",
+     "domain": "looks",
+     "tier": 2,
+     "words": [
+      "rommelig",
+      "slordig"
+     ]
+    },
+    {
+     "id": "g.dirty",
+     "concept": "dirty",
+     "pos": "adj",
+     "domain": "looks",
+     "tier": 2,
+     "words": [
+      "vies",
+      "vuil",
+      "smerig"
+     ]
+    },
+    {
+     "id": "g.begin",
+     "concept": "begin",
+     "pos": "verb",
+     "domain": "begin-end",
+     "tier": 1,
+     "words": [
+      "beginnen",
+      "starten"
+     ]
+    },
+    {
+     "id": "g.end",
+     "concept": "end",
+     "pos": "verb",
+     "domain": "begin-end",
+     "tier": 1,
+     "words": [
+      "ophouden",
+      "stoppen"
+     ]
+    },
+    {
+     "id": "g.shut",
+     "concept": "shut",
+     "pos": "verb",
+     "domain": "hands",
+     "tier": 1,
+     "words": [
+      "sluiten",
+      "dichtdoen"
+     ]
+    },
+    {
+     "id": "g.fix",
+     "concept": "fix",
+     "pos": "verb",
+     "domain": "hands",
+     "tier": 1,
+     "words": [
+      "repareren",
+      "herstellen"
+     ]
+    },
+    {
+     "id": "g.choose",
+     "concept": "choose",
+     "pos": "verb",
+     "domain": "hands",
+     "tier": 2,
+     "words": [
+      "kiezen",
+      "uitzoeken"
+     ]
+    },
+    {
+     "id": "g.throw",
+     "concept": "throw",
+     "pos": "verb",
+     "domain": "move",
+     "tier": 1,
+     "words": [
+      "gooien",
+      "werpen"
+     ]
+    },
+    {
+     "id": "g.collect",
+     "concept": "collect",
+     "pos": "verb",
+     "domain": "hands",
+     "tier": 2,
+     "words": [
+      "verzamelen",
+      "sparen"
+     ]
+    },
+    {
+     "id": "g.talk",
+     "concept": "talk",
+     "pos": "verb",
+     "domain": "speak",
+     "tier": 1,
+     "words": [
+      "praten",
+      "spreken"
+     ]
+    },
+    {
+     "id": "g.shout",
+     "concept": "shout",
+     "pos": "verb",
+     "domain": "speak",
+     "tier": 1,
+     "words": [
+      "schreeuwen",
+      "brullen"
+     ]
+    },
+    {
+     "id": "g.cry",
+     "concept": "cry",
+     "pos": "verb",
+     "domain": "face",
+     "tier": 2,
+     "words": [
+      "huilen",
+      "janken"
+     ]
+    }
+   ],
+   "near": [
+    {
+     "a": "heet",
+     "b": "warm",
+     "why": "gradatie: heet is veel meer dan warm"
+    },
+    {
+     "a": "koud",
+     "b": "koel",
+     "why": "gradatie"
+    },
+    {
+     "a": "nat",
+     "b": "vochtig",
+     "why": "gradatie"
+    },
+    {
+     "a": "boos",
+     "b": "geërgerd",
+     "why": "gradatie: geërgerd is zwakker"
+    },
+    {
+     "a": "moe",
+     "b": "uitgeput",
+     "why": "gradatie: uitgeput is veel meer dan moe"
+    },
+    {
+     "a": "verdrietig",
+     "b": "somber",
+     "why": "een ander gevoel, niet hetzelfde"
+    },
+    {
+     "a": "groot",
+     "b": "reusachtig",
+     "why": "gradatie: reusachtig is veel meer dan groot"
+    },
+    {
+     "a": "sterk",
+     "b": "dapper",
+     "why": "kracht in je lijf is geen moed"
+    },
+    {
+     "a": "praten",
+     "b": "schreeuwen",
+     "why": "schreeuwen is heel hard praten"
+    },
+    {
+     "a": "sluiten",
+     "b": "ophouden",
+     "why": "een winkel sluit = hij stopt; niet hetzelfde woord"
+    },
+    {
+     "a": "blij",
+     "b": "grappig",
+     "why": "blij = goed gehumeurd; grappig = maakt je aan het lachen"
+    },
+    {
+     "a": "groot",
+     "b": "sterk",
+     "why": "grootte is geen kracht"
+    },
+    {
+     "a": "verbaasd",
+     "b": "bang",
+     "why": "schrikken is verrast zijn met angst"
+    }
+   ],
+   "nearOnly": [
+    "uitgeput",
+    "somber",
+    "reusachtig"
+   ],
+   "falseOf": {
+    "happy": [
+     "verdrietig",
+     "bedroefd",
+     "boos",
+     "kwaad",
+     "bang",
+     "angstig",
+     "verbaasd",
+     "verrast",
+     "moe",
+     "slaperig",
+     "snel",
+     "vlug",
+     "rap",
+     "groot",
+     "fors"
+    ],
+    "sad": [
+     "blij",
+     "vrolijk",
+     "boos",
+     "kwaad",
+     "verbaasd",
+     "verrast",
+     "snel",
+     "vlug",
+     "rap",
+     "groot",
+     "fors"
+    ],
+    "angry": [
+     "blij",
+     "vrolijk",
+     "verdrietig",
+     "bedroefd",
+     "bang",
+     "angstig",
+     "verbaasd",
+     "verrast",
+     "moe",
+     "slaperig",
+     "snel",
+     "vlug",
+     "rap",
+     "groot",
+     "fors"
+    ],
+    "scared": [
+     "blij",
+     "vrolijk",
+     "verdrietig",
+     "bedroefd",
+     "moe",
+     "slaperig",
+     "snel",
+     "vlug",
+     "rap",
+     "groot",
+     "fors"
+    ],
+    "surprised": [
+     "blij",
+     "vrolijk",
+     "verdrietig",
+     "bedroefd",
+     "boos",
+     "kwaad",
+     "moe",
+     "slaperig",
+     "snel",
+     "vlug",
+     "rap",
+     "groot",
+     "fors"
+    ],
+    "tired": [
+     "blij",
+     "vrolijk",
+     "boos",
+     "kwaad",
+     "bang",
+     "angstig",
+     "verbaasd",
+     "verrast",
+     "snel",
+     "vlug",
+     "rap",
+     "groot",
+     "fors"
+    ],
+    "fast": [
+     "blij",
+     "vrolijk",
+     "verdrietig",
+     "bedroefd",
+     "boos",
+     "kwaad",
+     "bang",
+     "angstig",
+     "verbaasd",
+     "verrast",
+     "moe",
+     "slaperig"
+    ],
+    "big": [
+     "verdrietig",
+     "bedroefd",
+     "boos",
+     "kwaad",
+     "bang",
+     "angstig",
+     "verbaasd",
+     "verrast",
+     "snel",
+     "vlug",
+     "rap"
+    ]
+   },
+   "scales": [
+    {
+     "id": "s.heat",
+     "pos": "adj",
+     "words": [
+      "lauw",
+      "warm",
+      "heet"
+     ]
+    },
+    {
+     "id": "s.cold",
+     "pos": "adj",
+     "words": [
+      "koel",
+      "koud",
+      "ijskoud"
+     ]
+    },
+    {
+     "id": "s.wet",
+     "pos": "adj",
+     "words": [
+      "vochtig",
+      "nat",
+      "kletsnat"
+     ]
+    },
+    {
+     "id": "s.angry",
+     "pos": "adj",
+     "words": [
+      "geërgerd",
+      "boos",
+      "woedend"
+     ]
+    },
+    {
+     "id": "s.dark",
+     "pos": "adj",
+     "words": [
+      "schemerig",
+      "donker",
+      "pikdonker"
+     ]
+    },
+    {
+     "id": "s.voice",
+     "pos": "verb",
+     "words": [
+      "fluisteren",
+      "praten",
+      "schreeuwen"
+     ]
+    },
+    {
+     "id": "s.full",
+     "pos": "adj",
+     "words": [
+      "halfvol",
+      "vol",
+      "propvol"
+     ]
+    },
+    {
+     "id": "s.rain",
+     "pos": "verb",
+     "words": [
+      "druppelen",
+      "regenen",
+      "gieten"
+     ]
+    }
+   ],
+   "fields": {
+    "say": {
+     "head": "zegt",
+     "form": "present-3sg",
+     "words": [
+      "fluistert",
+      "roept",
+      "vraagt",
+      "antwoordt",
+      "vertelt",
+      "belooft"
+     ],
+     "sentences": [
+      {
+       "id": "f1",
+       "text": "De baby slaapt, dus {gap} {name} heel zachtjes: ‘Stil maar.’",
+       "fit": {
+        "fluistert": true,
+        "roept": false,
+        "vraagt": false,
+        "antwoordt": false,
+        "vertelt": false,
+        "belooft": false
+       },
+       "plainVerbOK": true
+      },
+      {
+       "id": "f2",
+       "text": "{name} {gap} oma een geheimpje in het oor.",
+       "fit": {
+        "fluistert": true,
+        "roept": false,
+        "vraagt": false,
+        "antwoordt": false,
+        "vertelt": false,
+        "belooft": false
+       },
+       "plainVerbOK": true
+      },
+      {
+       "id": "f3",
+       "text": "De bus gaat bijna weg, dus {gap} {name}: ‘Wacht op mij!’",
+       "fit": {
+        "fluistert": false,
+        "roept": true,
+        "vraagt": false,
+        "antwoordt": false,
+        "vertelt": false,
+        "belooft": false
+       },
+       "plainVerbOK": true
+      },
+      {
+       "id": "f4",
+       "text": "{name} {gap} luid over het hele schoolplein: ‘Kom je voetballen?’",
+       "fit": {
+        "fluistert": false,
+        "roept": true,
+        "vraagt": false,
+        "antwoordt": false,
+        "vertelt": false,
+        "belooft": false
+       },
+       "plainVerbOK": true
+      },
+      {
+       "id": "f5",
+       "text": "‘Waar is mijn rode muts?’ {gap} {name}.",
+       "fit": {
+        "fluistert": false,
+        "roept": false,
+        "vraagt": true,
+        "antwoordt": false,
+        "vertelt": false,
+        "belooft": false
+       },
+       "plainVerbOK": true
+      },
+      {
+       "id": "f6",
+       "text": "Na de vraag van de juf {gap} {name}: ‘Het is tien.’",
+       "fit": {
+        "fluistert": false,
+        "roept": false,
+        "vraagt": false,
+        "antwoordt": true,
+        "vertelt": false,
+        "belooft": false
+       },
+       "plainVerbOK": true
+      },
+      {
+       "id": "f7",
+       "text": "In de kring {gap} {name} over de vakantie: ‘We gingen naar zee en daar …’",
+       "fit": {
+        "fluistert": false,
+        "roept": false,
+        "vraagt": false,
+        "antwoordt": false,
+        "vertelt": true,
+        "belooft": false
+       },
+       "plainVerbOK": true
+      },
+      {
+       "id": "f8",
+       "text": "{name} {gap} met de hand op het hart dat de vissen elke dag eten krijgen.",
+       "fit": {
+        "fluistert": false,
+        "roept": false,
+        "vraagt": false,
+        "antwoordt": false,
+        "vertelt": false,
+        "belooft": true
+       },
+       "plainVerbOK": true
+      }
+     ]
+    },
+    "go": {
+     "head": "gaan",
+     "words": [
+      "lopen",
+      "wandelen",
+      "rennen",
+      "sluipen",
+      "kruipen",
+      "slenteren",
+      "marcheren",
+      "huppelen"
+     ]
+    },
+    "look": {
+     "head": "kijken",
+     "words": [
+      "staren",
+      "gluren",
+      "turen",
+      "loeren",
+      "bekijken",
+      "spieden",
+      "observeren",
+      "bestuderen"
+     ]
+    }
+   },
+   "quotes": [
+    "‘",
+    "’"
+   ],
+   "strings": {
+    "base": {
+     "title": "Synoniemen: omcirkel het woord dat hetzelfde betekent",
+     "instruction": "Lees het grote woord op elke kaart en omcirkel daaronder het woord dat hetzelfde betekent."
+    },
+    "pictures": {
+     "title": "Synoniemen met plaatjes: twee woorden, één plaatje",
+     "instruction": "Kijk naar elk plaatje en omcirkel daaronder de twee woorden die hetzelfde betekenen en bij het plaatje passen."
+    },
+    "pairs": {
+     "title": "Synoniemen koppelen: woordparen met dezelfde betekenis",
+     "instruction": "Trek een lijn van elk woord links naar het woord rechts dat hetzelfde betekent."
+    },
+    "shades": {
+     "title": "Woorden op sterkte zetten: van een beetje tot heel erg",
+     "instruction": "Lees de drie woorden in elke rij en schrijf 1, 2 en 3 in de vakjes, van het zwakste naar het sterkste woord."
+    },
+    "say": {
+     "title": "Andere woorden voor ‘zegt’: kies het woord dat past",
+     "instruction": "Lees elke zin en schrijf in het vakje het woord uit het wolkje dat daar het best past in plaats van ‘zegt’."
+    },
+    "fields": {
+     "title": "Woorden voor ‘gaan’ en ‘kijken’ sorteren",
+     "instruction": "Lees de tien woorden en schrijf elk woord in het vak van het woord dat bijna hetzelfde betekent."
+    }
+   }
+  },
+  "word-parts": {
+   "familyHead": "Woordfamilies en voorvoegsels",
+   "inflections": [
+    "e",
+    "en",
+    "s",
+    "t",
+    "te",
+    "ten",
+    "de",
+    "den"
+   ],
+   "families": [
+    {
+     "id": "spel",
+     "stem": "spel",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "spel"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "speler",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "medespeler",
+       "kind": "prefixed",
+       "slot": "noun-person"
+      },
+      {
+       "word": "spelletje",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "meespelen",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "naspelen",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "uitspelen",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "spelregel",
+       "kind": "compound",
+       "slot": "noun-thing"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "spin",
+       "whyNotFamily": "een dier met acht poten; er zit geen spel in"
+      },
+      {
+       "word": "spek",
+       "whyNotFamily": "iets om te eten"
+      },
+      {
+       "word": "spiegel",
+       "whyNotFamily": "daarin zie je jezelf; alleen \"sp\" is hetzelfde"
+      }
+     ]
+    },
+    {
+     "id": "vriend",
+     "stem": "vriend",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "vriend"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "vriendin",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "vriendelijk",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "vriendschap",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "bevriend",
+       "kind": "prefixed",
+       "slot": "adjective"
+      },
+      {
+       "word": "vriendelijkheid",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "vriendschappelijk",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "schoolvriend",
+       "kind": "compound",
+       "slot": "noun-person"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "vrij",
+       "whyNotFamily": "als je geen school hebt"
+      },
+      {
+       "word": "vrachtwagen",
+       "whyNotFamily": "een grote auto voor spullen"
+      },
+      {
+       "word": "vriezen",
+       "whyNotFamily": "als het water ijs wordt; alleen \"vri\" is hetzelfde"
+      }
+     ]
+    },
+    {
+     "id": "werk",
+     "stem": "werk",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "werk"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "medewerker",
+       "kind": "prefixed",
+       "slot": "noun-person"
+      },
+      {
+       "word": "bewerken",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "meewerken",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "samenwerken",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "samenwerking",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "werkloos",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "werkplaats",
+       "kind": "compound",
+       "slot": "noun-thing"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "wereld",
+       "whyNotFamily": "de hele aarde"
+      },
+      {
+       "word": "wespen",
+       "whyNotFamily": "insecten die kunnen steken"
+      },
+      {
+       "word": "wel",
+       "whyNotFamily": "het tegendeel van niet"
+      }
+     ]
+    },
+    {
+     "id": "bouw",
+     "stem": "bouw",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "bouw"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "gebouw",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "opbouwen",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "nabouwen",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "verbouwen",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "verbouwing",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "bouwer",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "bouwvakker",
+       "kind": "compound",
+       "slot": "noun-person"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "boter",
+       "whyNotFamily": "dat smeer je op brood"
+      },
+      {
+       "word": "bos",
+       "whyNotFamily": "een plek met veel bomen"
+      },
+      {
+       "word": "bouillon",
+       "whyNotFamily": "soep zonder stukjes; alleen \"bou\" is hetzelfde"
+      }
+     ]
+    },
+    {
+     "id": "tuin",
+     "stem": "tuin",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "tuin"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "tuinier",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "tuinierster",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "tuinieren",
+       "kind": "derived",
+       "slot": "verb"
+      },
+      {
+       "word": "tuintje",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "voortuin",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "achtertuin",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "tuinman",
+       "kind": "compound",
+       "slot": "noun-person"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "tulp",
+       "whyNotFamily": "een bloem; alleen \"tu\" is hetzelfde"
+      },
+      {
+       "word": "tunnel",
+       "whyNotFamily": "een weg onder de grond door"
+      },
+      {
+       "word": "tuba",
+       "whyNotFamily": "een groot koperen muziekinstrument"
+      }
+     ]
+    },
+    {
+     "id": "koop",
+     "stem": "koop",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "koop"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "aankoop",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "verkoop",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "uitverkoop",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "inkoop",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "verkoopster",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "koopje",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "koopman",
+       "kind": "compound",
+       "slot": "noun-person"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "koor",
+       "whyNotFamily": "een groep die samen zingt"
+      },
+      {
+       "word": "kok",
+       "whyNotFamily": "iemand die kookt"
+      },
+      {
+       "word": "kool",
+       "whyNotFamily": "een groente"
+      }
+     ]
+    }
+   ],
+   "rootFamilies": [
+    {
+     "id": "kleur",
+     "stem": "kleur",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "kleur"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "kleurig",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "kleurloos",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "kleurrijk",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "verkleuren",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "inkleuren",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "bijkleuren",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "kleurpotlood",
+       "kind": "compound",
+       "slot": "noun-thing"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "klei",
+       "whyNotFamily": "daar maak je figuren van"
+      },
+      {
+       "word": "kleed",
+       "whyNotFamily": "een doek op de vloer of tafel"
+      },
+      {
+       "word": "klein",
+       "whyNotFamily": "het tegendeel van groot"
+      }
+     ]
+    },
+    {
+     "id": "dans",
+     "stem": "dans",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "dans"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "danser",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "danseres",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "dansje",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "meedansen",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "wegdansen",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "afdansen",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "rondedans",
+       "kind": "compound",
+       "slot": "noun-thing"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "das",
+       "whyNotFamily": "die draag je om je nek"
+      },
+      {
+       "word": "dak",
+       "whyNotFamily": "bovenop een huis"
+      },
+      {
+       "word": "dankjewel",
+       "whyNotFamily": "dat zeg je als je iets krijgt"
+      }
+     ]
+    },
+    {
+     "id": "fiets",
+     "stem": "fiets",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "fiets"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "fietser",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "fietsster",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "fietsje",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "meefietsen",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "wegfietsen",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "terugfietsen",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "fietspad",
+       "kind": "compound",
+       "slot": "noun-thing"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "fijn",
+       "whyNotFamily": "als iets prettig is"
+      },
+      {
+       "word": "film",
+       "whyNotFamily": "die kijk je in de bioscoop"
+      },
+      {
+       "word": "figuur",
+       "whyNotFamily": "een vorm, zoals een cirkel; alleen \"fi\" is hetzelfde"
+      }
+     ]
+    },
+    {
+     "id": "reis",
+     "stem": "reis",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "reis"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "reisje",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "rondreis",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "terugreis",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "heenreis",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "doorreis",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "thuisreis",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "wereldreis",
+       "kind": "compound",
+       "slot": "noun-thing"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "reiger",
+       "whyNotFamily": "een vogel met lange poten"
+      },
+      {
+       "word": "regen",
+       "whyNotFamily": "water uit de wolken"
+      },
+      {
+       "word": "reus",
+       "whyNotFamily": "een heel grote man"
+      }
+     ]
+    },
+    {
+     "id": "zorg",
+     "stem": "zorg",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "zorg"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "zorgzaam",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "verzorger",
+       "kind": "prefixed",
+       "slot": "noun-person"
+      },
+      {
+       "word": "verzorgster",
+       "kind": "prefixed",
+       "slot": "noun-person"
+      },
+      {
+       "word": "verzorgen",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "verzorging",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "zorgeloos",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "zorgvuldig",
+       "kind": "derived",
+       "slot": "adjective"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "zout",
+       "whyNotFamily": "dat strooi je op je eten"
+      },
+      {
+       "word": "zoet",
+       "whyNotFamily": "zo smaakt suiker"
+      },
+      {
+       "word": "zomer",
+       "whyNotFamily": "het warmste seizoen; alleen \"zo\" is hetzelfde"
+      }
+     ]
+    },
+    {
+     "id": "brand",
+     "stem": "brand",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "brand"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "brandje",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "brandbaar",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "verbranden",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "afbranden",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "aanbranden",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "verbranding",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "brandend",
+       "kind": "derived",
+       "slot": "adverb"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "brood",
+       "whyNotFamily": "dat eet je bij het ontbijt"
+      },
+      {
+       "word": "brief",
+       "whyNotFamily": "die stuur je met de post"
+      },
+      {
+       "word": "bril",
+       "whyNotFamily": "die zet je op je neus"
+      }
+     ]
+    }
+   ],
+   "picFamilies": [
+    {
+     "id": "zon",
+     "stem": "zon",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "zon",
+      "pic": {
+       "theme": "weather",
+       "noun": "sun"
+      },
+      "picOpened": true
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "zonnig",
+       "kind": "derived",
+       "slot": "adjective"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "zomer",
+       "whyNotFamily": "begint zoals \"zon\", maar is er niet van gemaakt"
+      },
+      {
+       "word": "zolder",
+       "whyNotFamily": "begint zoals \"zon\", maar is er niet van gemaakt"
+      },
+      {
+       "word": "zoen",
+       "whyNotFamily": "begint zoals \"zon\", maar is er niet van gemaakt"
+      }
+     ]
+    },
+    {
+     "id": "wolk",
+     "stem": "wolk",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "wolk",
+      "pic": {
+       "theme": "spring",
+       "noun": "cloud"
+      },
+      "picOpened": true
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "bewolkt",
+       "kind": "derived",
+       "slot": "adjective"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "wolf",
+       "whyNotFamily": "begint zoals \"wolk\", maar is er niet van gemaakt"
+      },
+      {
+       "word": "wol",
+       "whyNotFamily": "begint zoals \"wolk\", maar is er niet van gemaakt"
+      },
+      {
+       "word": "woensdag",
+       "whyNotFamily": "begint zoals \"wolk\", maar is er niet van gemaakt"
+      }
+     ]
+    },
+    {
+     "id": "hand",
+     "stem": "hand",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "hand",
+      "pic": {
+       "theme": "body parts",
+       "noun": "hand"
+      },
+      "picOpened": true
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "handig",
+       "kind": "derived",
+       "slot": "adjective"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "haan",
+       "whyNotFamily": "begint zoals \"hand\", maar is er niet van gemaakt"
+      },
+      {
+       "word": "haas",
+       "whyNotFamily": "begint zoals \"hand\", maar is er niet van gemaakt"
+      },
+      {
+       "word": "hamster",
+       "whyNotFamily": "begint zoals \"hand\", maar is er niet van gemaakt"
+      }
+     ]
+    },
+    {
+     "id": "vis",
+     "stem": "vis",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "vis",
+      "pic": {
+       "theme": "ocean life",
+       "noun": "fish"
+      },
+      "picOpened": true
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "visser",
+       "kind": "derived",
+       "slot": "noun-person"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "vier",
+       "whyNotFamily": "begint zoals \"vis\", maar is er niet van gemaakt"
+      },
+      {
+       "word": "vijf",
+       "whyNotFamily": "begint zoals \"vis\", maar is er niet van gemaakt"
+      },
+      {
+       "word": "vijver",
+       "whyNotFamily": "begint zoals \"vis\", maar is er niet van gemaakt"
+      }
+     ]
+    },
+    {
+     "id": "bloem",
+     "stem": "bloem",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "bloem",
+      "pic": {
+       "theme": "spring",
+       "noun": "flower"
+      },
+      "picOpened": true
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "bloemist",
+       "kind": "derived",
+       "slot": "noun-person"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "blok",
+       "whyNotFamily": "begint zoals \"bloem\", maar is er niet van gemaakt"
+      },
+      {
+       "word": "blad",
+       "whyNotFamily": "begint zoals \"bloem\", maar is er niet van gemaakt"
+      },
+      {
+       "word": "blokkendoos",
+       "whyNotFamily": "begint zoals \"bloem\", maar is er niet van gemaakt"
+      }
+     ]
+    },
+    {
+     "id": "boer",
+     "stem": "boer",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "boer",
+      "pic": {
+       "theme": "occupations",
+       "noun": "farmer"
+      },
+      "picOpened": true
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "boerderij",
+       "kind": "derived",
+       "slot": "noun-thing"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "boek",
+       "whyNotFamily": "begint zoals \"boer\", maar is er niet van gemaakt"
+      },
+      {
+       "word": "boom",
+       "whyNotFamily": "begint zoals \"boer\", maar is er niet van gemaakt"
+      },
+      {
+       "word": "boekenkast",
+       "whyNotFamily": "begint zoals \"boer\", maar is er niet van gemaakt"
+      }
+     ]
+    }
+   ],
+   "sentences": {
+    "zorg": [
+     {
+      "word": "verzorgen",
+      "slot": "verb",
+      "frame": "Wie gaat in de vakantie onze konijnen {gap}?"
+     },
+     {
+      "word": "verzorger",
+      "slot": "noun-person",
+      "frame": "De {gap} in de dierentuin geeft de olifant een bad."
+     },
+     {
+      "word": "verzorging",
+      "slot": "noun-thing",
+      "frame": "Het zieke vogeltje krijgt goede {gap} in de dierenkliniek."
+     },
+     {
+      "word": "zorgzaam",
+      "slot": "adjective",
+      "frame": "Mijn grote zus is heel {gap}: ze helpt me altijd met mijn jas."
+     }
+    ],
+    "brand": [
+     {
+      "word": "verbranden",
+      "slot": "verb",
+      "frame": "Pas op, anders zul je je vingers {gap} aan de hete pan."
+     },
+     {
+      "word": "brandend",
+      "slot": "adverb",
+      "frame": "Pas op, de soep in de pan is nog {gap} heet!"
+     },
+     {
+      "word": "brandje",
+      "slot": "noun-thing",
+      "frame": "In de keuken was een klein {gap}, maar papa had het snel uit."
+     },
+     {
+      "word": "brandbaar",
+      "slot": "adjective",
+      "frame": "Papier is {gap}, dus leg het nooit vlak bij een kaars."
+     }
+    ]
+   },
+   "prefixKey": {
+    "prefixes": [
+     {
+      "prefix": "her",
+      "meaning": "opnieuw"
+     },
+     {
+      "prefix": "mee",
+      "meaning": "samen met"
+     },
+     {
+      "prefix": "uit",
+      "meaning": "helemaal of eruit"
+     }
+    ],
+    "rows": [
+     {
+      "base": "lezen",
+      "prefix": "her",
+      "word": "herlezen",
+      "gloss": "een boek nog een keer lezen"
+     },
+     {
+      "base": "tellen",
+      "prefix": "her",
+      "word": "hertellen",
+      "gloss": "de stemmen nog een keer tellen"
+     },
+     {
+      "base": "bouwen",
+      "prefix": "her",
+      "word": "herbouwen",
+      "gloss": "een kapot huis nog een keer neerzetten"
+     },
+     {
+      "base": "zingen",
+      "prefix": "mee",
+      "word": "meezingen",
+      "gloss": "met de hele klas tegelijk een lied zingen"
+     },
+     {
+      "base": "nemen",
+      "prefix": "mee",
+      "word": "meenemen",
+      "gloss": "iets bij je hebben als je weggaat"
+     },
+     {
+      "base": "helpen",
+      "prefix": "mee",
+      "word": "meehelpen",
+      "gloss": "papa een handje helpen bij een klus"
+     },
+     {
+      "base": "pakken",
+      "prefix": "uit",
+      "word": "uitpakken",
+      "gloss": "het papier van een cadeau halen"
+     },
+     {
+      "base": "drinken",
+      "prefix": "uit",
+      "word": "uitdrinken",
+      "gloss": "je beker tot de laatste druppel leeg drinken"
+     },
+     {
+      "base": "blazen",
+      "prefix": "uit",
+      "word": "uitblazen",
+      "gloss": "met je adem de kaarsjes op de taart doven"
+     },
+     {
+      "base": "trekken",
+      "prefix": "uit",
+      "word": "uittrekken",
+      "gloss": "je jas van je lijf halen"
+     }
+    ],
+    "crossCheck": [
+     {
+      "base": "lezen",
+      "prefix": "her",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "lezen",
+      "prefix": "mee",
+      "isWord": true,
+      "fitsGloss": false
+     },
+     {
+      "base": "lezen",
+      "prefix": "uit",
+      "isWord": true,
+      "fitsGloss": false
+     },
+     {
+      "base": "tellen",
+      "prefix": "her",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "tellen",
+      "prefix": "mee",
+      "isWord": true,
+      "fitsGloss": false
+     },
+     {
+      "base": "tellen",
+      "prefix": "uit",
+      "isWord": true,
+      "fitsGloss": false
+     },
+     {
+      "base": "bouwen",
+      "prefix": "her",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "bouwen",
+      "prefix": "mee",
+      "isWord": true,
+      "fitsGloss": false
+     },
+     {
+      "base": "bouwen",
+      "prefix": "uit",
+      "isWord": true,
+      "fitsGloss": false
+     },
+     {
+      "base": "zingen",
+      "prefix": "her",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "zingen",
+      "prefix": "mee",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "zingen",
+      "prefix": "uit",
+      "isWord": true,
+      "fitsGloss": false
+     },
+     {
+      "base": "nemen",
+      "prefix": "her",
+      "isWord": true,
+      "fitsGloss": false
+     },
+     {
+      "base": "nemen",
+      "prefix": "mee",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "nemen",
+      "prefix": "uit",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "helpen",
+      "prefix": "her",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "helpen",
+      "prefix": "mee",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "helpen",
+      "prefix": "uit",
+      "isWord": true,
+      "fitsGloss": false
+     },
+     {
+      "base": "pakken",
+      "prefix": "her",
+      "isWord": true,
+      "fitsGloss": false
+     },
+     {
+      "base": "pakken",
+      "prefix": "mee",
+      "isWord": true,
+      "fitsGloss": false
+     },
+     {
+      "base": "pakken",
+      "prefix": "uit",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "drinken",
+      "prefix": "her",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "drinken",
+      "prefix": "mee",
+      "isWord": true,
+      "fitsGloss": false
+     },
+     {
+      "base": "drinken",
+      "prefix": "uit",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "blazen",
+      "prefix": "her",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "blazen",
+      "prefix": "mee",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "blazen",
+      "prefix": "uit",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "trekken",
+      "prefix": "her",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "trekken",
+      "prefix": "mee",
+      "isWord": true,
+      "fitsGloss": false
+     },
+     {
+      "base": "trekken",
+      "prefix": "uit",
+      "isWord": true,
+      "fitsGloss": true
+     }
+    ]
+   },
+   "negating": [
+    "on",
+    "wan"
+   ],
+   "agents": [
+    {
+     "key": "baker",
+     "base": "bakken",
+     "answer": {
+      "m": "bakker",
+      "f": "bakster"
+     },
+     "stemSigned": true
+    },
+    {
+     "key": "athlete",
+     "base": "hardlopen",
+     "answer": {
+      "m": "hardloper",
+      "f": "hardloopster"
+     },
+     "stemSigned": true
+    },
+    {
+     "key": "ballerina",
+     "base": "dansen",
+     "answer": {
+      "m": "danser",
+      "f": "danseres"
+     },
+     "stemSigned": true
+    },
+    {
+     "key": "tailor",
+     "base": "naaien",
+     "answer": {
+      "m": "naaier",
+      "f": "naaister"
+     },
+     "stemSigned": true
+    },
+    {
+     "key": "waitress",
+     "base": "serveren",
+     "answer": {
+      "m": "serveerder",
+      "f": "serveerster"
+     },
+     "stemSigned": true
+    },
+    {
+     "key": "judge",
+     "base": "recht",
+     "answer": {
+      "m": "rechter",
+      "f": "rechter"
+     }
+    },
+    {
+     "key": "barber",
+     "base": "kappen",
+     "answer": {
+      "m": "kapper",
+      "f": "kapster"
+     },
+     "stemSigned": true
+    },
+    {
+     "key": "mail_carrier_2",
+     "base": "bezorgen",
+     "answer": {
+      "m": "bezorger",
+      "f": "bezorgster"
+     },
+     "stemSigned": true
+    }
+   ],
+   "exemplar": {
+    "base": [
+     "spel",
+     "vriend"
+    ],
+    "F1": [
+     "weather/sun",
+     "spring/cloud",
+     "body parts/hand",
+     "ocean life/fish",
+     "spring/flower",
+     "occupations/farmer"
+    ],
+    "F2": [
+     "spel",
+     "vriend",
+     "werk",
+     "bouw",
+     "koop",
+     "reis",
+     "kleur",
+     "dans",
+     "fiets"
+    ],
+    "F5": [
+     "zorg",
+     "brand"
+    ]
+   },
+   "refuse": {
+    "base": false,
+    "picture-family": false,
+    "root-word": false,
+    "prefix-key": false,
+    "who-does-it": false,
+    "family-in-sentence": false
+   },
+   "strings": {
+    "base": {
+     "title": "Woordfamilies: sorteer op het stamwoord",
+     "instruction": "Lees elk woord bovenaan en schrijf het op een lijn van de muur die op zijn stamwoord staat."
+    },
+    "picture-family": {
+     "title": "Woordfamilies met plaatjes: omcirkel het woord",
+     "instruction": "Zeg wat je op elk plaatje ziet en omcirkel daarboven het ene woord dat van dat plaatjeswoord is gemaakt."
+    },
+    "root-word": {
+     "title": "Het stamwoord vinden",
+     "instruction": "Omcirkel het stukje dat de drie woorden delen en schrijf dat stamwoord in de lege steen."
+    },
+    "prefix-key": {
+     "title": "Voorvoegsels her-, mee- en uit-: kies op betekenis",
+     "instruction": "Lees wat elk nieuw woord betekent, zoek het voorvoegsel in de sleutel en schrijf het in het lege stukje."
+    },
+    "who-does-it": {
+     "title": "Wie doet het? Persoonswoorden op -er, -ster en -es",
+     "instruction": "Kijk naar elke persoon, lees het woord in het kader ernaast en schrijf in het stippelvak het woord voor wie dat doet."
+    },
+    "family-in-sentence": {
+     "title": "Woordfamilies in zinnen",
+     "instruction": "Lees de vier woordkaartjes boven elk stamwoordbordje en schrijf elk woord in het stippelvak van de zin waar het past."
+    }
+   },
+   "agentSuffixes": [
+    "er",
+    "ster",
+    "es"
+   ]
+  }
+ },
+ "refusals": {
+  "G1-394": "Na round 1 heeft nl geen drie plaatjes meer met de klank aan het eind (oo/ie/ui): knie, lelie en kanarie noemen kinderen been, bloem en vogel; kolibrie, spinazie en televisie hebben hetzelfde probleem. Liever weigeren dan opvullen."
+ },
+ "strandNames": {
+  "Road Safety": "Verkeer",
+  "Science": "Natuur en techniek",
+  "Map Skills": "Aardrijkskunde: kaartvaardigheden"
+ },
+ "enAudit": [
+  "G1-376 plants F1 / K-376 needs (EN): 'Circle the plant that gets both things it needs to grow' — the page is rows of TWO plants and exactly one per row is right; the sentence reads as if one plant on the whole page is the answer. nl says 'in elke rij' (Omcirkel in elke rij de plant die ...). The EN base instruction is also two sentences against the one-sentence rule, and mixes 'roots' (plural) with 'leaf' (singular) in the bank.",
+  "G1-391 moon-phases-in-order (EN): 'The Moon seems to grow, then shrink. In each row, write 1 to 5…' is two sentences and never points at the wedge above each row, the only thing that says whether THAT row grows or shrinks; read top to bottom it sounds like one sequence across both rows. nl names the wedge ('Kijk in elke rij naar de wig of de maan groeit of krimpt'). G1-378 base: three sentences and UK 'Tick' on a US-register page ('Color' elsewhere).",
+  "G2-374 synonyms 'say' (EN): the fit table is not single-answer as written: f1 'The baby was asleep, so {name} ___ very softly' also takes 'asked'; f8 'Cross my heart, I will feed the fish every day,' {name} ___ also takes 'shouted'/'answered' grammatically. The nl frames anchor each verb with a collocation that only it takes ('met de hand op het hart' = beloven, 'in de kring een verhaal' = vertellen, 'een geheimpje in het oor' = fluisteren); f1 keeps the same softness ambiguity as EN and is recorded here.",
+  "G3-398 who-does-it + G1-397 picture-family (EN): 'cash -> cashier' is not a word built from its base for a 7-year-old (cashier comes from the cash register, and 'cash' is not the job); 'music -> musician' changes the stem. F1 prints 'hairy' as the one right brick under a picture of a GIRL's head of hair, which reads as an insult, not a word family. nl uses kassa -> kassière only with stemSigned and gives the hair picture no F1 card.",
+  "G1-384 / G2-361 road-safety (EN): the meaning 'Cars may never drive in this way.' is ambiguous ('in this way' = manner, not direction; say 'into this street'); the bike-warning situation 'Watch out for children riding bikes on this road' adds children the W11-1 sign does not show, which pulls toward the children sign on the quiz row. nl keeps each situation to what its pictogram shows.",
+  "K-368 2d-shapes riddles (EN, before the concurrent fix): 'All my 4 sides are the same length' also fits a rhombus and '2 long sides and 2 short sides' fits a parallelogram, both drawn as decoys on the real-or-not face. The corrected EN adds the right-angle clue; nl says 'rechte hoeken' (the groep-4 term).",
+  "G2-360 sign-kinds (EN): the MUTCD class labels 'Rule signs' / 'Warning signs' are fine for US, but the design's Vienna locales need a THIRD bin; for nl the school sort (VVN) is waarschuwingsborden / verbodsborden / aanwijzingsborden (blue square: L2 oversteekplaats, G7 voetpad). NL has no school pentagon, so school is not in the nl table.",
+  "G1-379 maps (EN): the base instruction is three sentences ('Look at the map key. Find each thing on the map. Count them and write how many in the box.'); G2-371 'Look the way the word says' is not child English ('look in the direction the word names'). nl merges both into one sentence each.",
+  "G1-380 digraphs (nl re-target, measured): the design's nl position set oo/oe/ui cannot reach the 'end' cell: the only approved, pictured word-final teams are koe (oe) and trui (ui) — 2 < 3 (the EN rule 11 floor); zeekoe reads as a seal, moe is a yawning emoji, kangoeroe holds oe twice. nl ships sets.position = oo / ie / ui: beginning oor, oog, uil; end knie, lelie, kanarie, trui. Exemplar stays oe / ui / eu (eu has exactly 6 stems: deur, veulen, sleutel, keuken, neus, kleurpotloden). vliegtuig (ie + ui) and kolibrie (open-syllable o = /oː/, the oo foil) are left out; boek and keuken carry noGap (beuk, kuiken are approved words).",
+  "K-370 family G1-385 (nl, measured): neef / nicht mean both cousin and nephew / niece, so they stay out of generationOK (design rule 8). That leaves generations 2 / 4 / 4 words and the builder can draw only 4 distinct rows of 6; nl adds f1Exclude ['broer'] (3 child words) so the 6 rows are distinct. neef / nicht are still used on the tree faces, where the tree disambiguates.",
+  "G1-376 plants F3 eat (nl): Dutch 'wortel' is both the part (root) and the carrot, so the carrot card would be answered by reading its own name; nl refuses the carrot item (refuseItems ['carrot']); radish, beetroot and parsnip keep the root row. The flower face bank uses 'kelk' (sepal) because 'kelkblad' + 'kroonblad' + 'meeldraad' wrapped the bank to two rows (render verify).",
+  "G1-379 maps (nl): the werelddelen count is contested in NL schools (6 with Amerika as one vs 7); the map draws 7 numbered regions, so nl labels 7 (Noord-Amerika, Zuid-Amerika, Europa, Azië, Afrika, Oceanië, Antarctica) and 5 oceans (Stille, Atlantische, Indische Oceaan, Noordelijke IJszee, Zuidelijke Oceaan). Operator: if the target methode teaches 6, the label face must merge the Americas.",
+  "K-369 road-safety sign table (nl): RVV 1990 Bijlage 1 codes B7 STOP, B6 haaientanden (no text), L2 oversteekplaats, C1, C2, C16, G11 are sure; the J-series numbers (J21 kinderen, J22 voetgangers, J24 fietsers, J32 verkeerslichten), C14 (fietsers) and the exact G7 voetpad figure are marked UNSURE in signedBy — the pictures and meanings are right, the numbers need a check against the current annex. Pedestrian light: red standing / green walking, 2 lamps; car amber = 'oranje' (codeOrange), meaning stop if you safely can."
+ ]
+}

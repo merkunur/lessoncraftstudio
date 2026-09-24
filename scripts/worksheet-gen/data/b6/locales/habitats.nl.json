@@ -188,9 +188,19 @@
     ]
   },
   "needs": {
-    "line": "Elk dier heeft eten, water en een huis nodig.",
+    "line": "Elk dier heeft eten en een huis nodig.",
     "foodHead": "Eten",
-    "homeHead": "Huis"
+    "homeHead": "Huis",
+    "undrawn": [
+      "water",
+      "drinken",
+      "drinkt",
+      "drinkwater",
+      "lucht",
+      "zon",
+      "zonlicht",
+      "licht"
+    ]
   },
   "report": {
     "animals": "Dieren die hier wonen",
@@ -227,16 +237,16 @@
       "instruction": "Schrijf onder elk dier de letter van het leefgebied waar het woont."
     },
     "K-383": {
-      "title": "Dierenwoningen: nest, hol, mierenhoop en beverburcht",
+      "title": "Dierenwoningen: wie woont in welk huis?",
       "instruction": "Trek een lijn van elk dier naar zijn huis."
     },
     "G1-406": {
       "title": "Leefgebieden van dieren: welk dier woont hier niet?",
-      "instruction": "Streep in elke rij het dier door dat niet in dat leefgebied woont."
+      "instruction": "Streep bij elk leefgebied het dier door dat daar niet woont."
     },
     "G2-380": {
       "title": "Hoe dieren zich aanpassen aan hun leefgebied",
-      "instruction": "Schrijf in elk hokje de letter van het dier waar de zin over gaat."
+      "instruction": "Schrijf in elk hokje de letter van het dier waar de zin over gaat; één dier blijft over."
     },
     "G1-407": {
       "title": "Wat hebben dieren nodig om te leven? Eten en een huis",
@@ -244,7 +254,7 @@
     },
     "G2-381": {
       "title": "Mijn leefgebied onderzoeken: teken en schrijf",
-      "instruction": "Teken drie dieren die hier wonen, schrijf hun namen en een plant die hier groeit op en omcirkel in elk paar het juiste woord."
+      "instruction": "Teken in het plaatje drie dieren die hier wonen, schrijf hun namen en een plant die hier groeit op en omcirkel het woord dat bij dit leefgebied past."
     }
   }
 }

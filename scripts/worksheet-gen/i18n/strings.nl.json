@@ -2856,8 +2856,8 @@
     "instruction": "Kijk wat er in elk verhaal verandert en schrijf de cijfers in de hokjes, zodat de plaatjes op volgorde komen."
   },
   "K-380": {
-    "title": "Hygiëne en verzorging: wat heeft elk kind nodig?",
-    "instruction": "Trek een lijn van elk kind naar het ding dat dat kind nodig heeft."
+    "title": "Voor jezelf zorgen: wat gebruikt elk kind?",
+    "instruction": "Trek een lijn van elk kind naar het ding dat het kind gebruikt."
   },
   "G1-398": {
     "title": "Dieren en hun leefgebied: welk dier woont waar?",
@@ -2873,7 +2873,7 @@
   },
   "K-381": {
     "title": "Volgordeplaatjes van een verhaal knippen: eerst, dan, tot slot",
-    "instruction": "Knip de plaatjes van elke strook uit en plak ze in de lege vakken boven Eerst, Dan en Tot slot."
+    "instruction": "Knip de plaatjes van elke strook uit en plak ze in de lege vakken aan de waslijn met hetzelfde teken, boven Eerst, Dan en Tot slot."
   },
   "G1-400": {
     "title": "Verhaal op volgorde: wat gebeurt er daarna?",
@@ -2884,8 +2884,8 @@
     "instruction": "Kijk naar het begin en het eind van elk verhaal en teken in het lege vak wat er in het midden gebeurt."
   },
   "G1-402": {
-    "title": "Verhaal op volgorde lezen: welke zin hoort bij welk plaatje?",
-    "instruction": "Lees de zinnen van elk verhaal en trek een lijn van elke zin naar het plaatje dat erbij hoort."
+    "title": "Verhaal op volgorde lezen: nummer de zinnen en zoek het plaatje",
+    "instruction": "Nummer de zinnen van elk verhaal op volgorde in de hokjes en trek dan een lijn van elke zin naar het plaatje dat erbij hoort."
   },
   "G2-378": {
     "title": "Vertel het verhaal na bij de plaatjes: schrijf met startwoorden",
@@ -2896,32 +2896,32 @@
     "instruction": "Schrijf 1 tot en met 5 in de hokjes om te laten zien hoe we onze handen wassen."
   },
   "G1-403": {
-    "title": "Tanden poetsen: voor, tijdens en na het poetsen",
-    "instruction": "Omcirkel bij elk plaatje het woord dat zegt wanneer het gebeurt: voor, bij of na het poetsen."
+    "title": "Tanden poetsen: voor, bij of na het poetsen?",
+    "instruction": "Omcirkel per plaatje: voor, bij of na het poetsen."
   },
   "G1-404": {
-    "title": "Stop de bacillen: hoest en nies in je elleboog",
+    "title": "Stop de bacillen: wat houdt bacillen tegen?",
     "instruction": "Omcirkel in elke rij het plaatje dat de bacillen tegenhoudt."
   },
   "G2-379": {
-    "title": "Hygiëne en verzorging: waarom doen we dat?",
+    "title": "Goed voor jezelf zorgen: waarom doen we dat?",
     "instruction": "Trek een lijn van elke gewoonte naar de zin die vertelt waarom we dat doen."
   },
   "G1-405": {
-    "title": "Weekschema verzorging: poetsen, wassen, bewegen en slapen",
+    "title": "Weekschema: zo zorg ik goed voor mezelf",
     "instruction": "Zet elke dag een vinkje in het hokje van elke gewoonte die je hebt gedaan."
   },
   "K-383": {
-    "title": "Dierenwoningen: nest, hol, mierenhoop en beverburcht",
+    "title": "Dierenwoningen: wie woont in welk huis?",
     "instruction": "Trek een lijn van elk dier naar zijn huis."
   },
   "G1-406": {
     "title": "Leefgebieden van dieren: welk dier woont hier niet?",
-    "instruction": "Streep in elke rij het dier door dat niet in dat leefgebied woont."
+    "instruction": "Streep bij elk leefgebied het dier door dat daar niet woont."
   },
   "G2-380": {
     "title": "Hoe dieren zich aanpassen aan hun leefgebied",
-    "instruction": "Schrijf in elk hokje de letter van het dier waar de zin over gaat."
+    "instruction": "Schrijf in elk hokje de letter van het dier waar de zin over gaat; één dier blijft over."
   },
   "G1-407": {
     "title": "Wat hebben dieren nodig om te leven? Eten en een huis",
@@ -2929,7 +2929,7 @@
   },
   "G2-381": {
     "title": "Mijn leefgebied onderzoeken: teken en schrijf",
-    "instruction": "Teken drie dieren die hier wonen, schrijf hun namen en een plant die hier groeit op en omcirkel in elk paar het juiste woord."
+    "instruction": "Teken in het plaatje drie dieren die hier wonen, schrijf hun namen en een plant die hier groeit op en omcirkel het woord dat bij dit leefgebied past."
   },
   "G1-408": {
     "title": "Zwaar of licht? Drijven en zinken proefje met een weegschaal",
@@ -2940,11 +2940,11 @@
     "instruction": "Kleur bij elke kleivorm het rondje in de bak waar hij terechtkomt, omcirkel wat drijft en teken daarna je eigen kleibootje in de grote bak."
   },
   "G2-383": {
-    "title": "Waarom drijft iets? Waar of niet waar na het proefje",
+    "title": "Waarom drijft iets? Waar of niet waar over drijven en zinken",
     "instruction": "Lees elke zin en omcirkel waar of niet waar."
   },
   "K-384": {
-    "title": "Wat drijft en wat zinkt? Teken het proefje",
+    "title": "Teken wat drijft en wat zinkt",
     "instruction": "Teken in de gestippelde vakjes op het water twee dingen die drijven en in de vakjes op de bodem twee dingen die zinken."
   },
   "G3-400": {
@@ -2961,7 +2961,7 @@
   },
   "G2-386": {
     "title": "Woorden aan elkaar schrijven bij plaatjes",
-    "instruction": "Schrijf elk grijs woord in één vloeiende lijn na, schrijf het dan op de lijn eronder en zet de puntjes en streepjes er als laatste op."
+    "instruction": "Schrijf elk grijs woord na: eerst de letters aan elkaar, als laatste de puntjes en streepjes; schrijf het dan net zo op de lijn eronder."
   },
   "G2-387": {
     "title": "Verbonden schrift lezen: welk woord hoort bij welk plaatje?",

@@ -154,14 +154,14 @@
         "bræt",
         "maling",
         "pensel",
-        "bøtte"
+        "malerbøtte"
       ],
       "helpIds": [
         "fence",
         "plank",
         "paint",
         "brush",
-        "pot"
+        "bucket"
       ]
     },
     "letter": {
@@ -259,7 +259,7 @@
     },
     "first-next-last-cut": {
       "title": "Billedserie til at klippe ud: først, så, til sidst",
-      "instruction": "Klip billederne på hver strimmel ud, og lim dem i de tomme rammer over Først, Så og Til sidst."
+      "instruction": "Klip billederne på hver strimmel ud, og lim dem på snoren med det samme mærke, i de tomme rammer over Først, Så og Til sidst."
     },
     "what-happens-next": {
       "title": "Billedserie: hvad sker der så?",
@@ -270,8 +270,8 @@
       "instruction": "Se på begyndelsen og slutningen af hver historie, og tegn, hvad der sker, i den tomme ramme i midten."
     },
     "sequencing-sentences": {
-      "title": "Billedserie: læs sætningerne, og find billederne",
-      "instruction": "Læs sætningerne i hver historie, og tegn en streg fra hver sætning til dens billede."
+      "title": "Billedserie: sæt sætningerne i rækkefølge, og find billederne",
+      "instruction": "Skriv tal i felterne, så hver histories sætninger kommer i rækkefølge, og tegn så en streg fra hver sætning til dens billede."
     },
     "retell-with-starters": {
       "title": "Billedfortælling: skriv historien til billederne",

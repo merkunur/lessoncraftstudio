@@ -1,0 +1,5864 @@
+{
+  "locale": "de",
+  "types": {
+    "K-368": {
+      "title": "Geometrische Formen benennen",
+      "instruction": "Schau dir jede Form an, auch die gedrehten und die schmalen, und kreise ihren Namen ein."
+    },
+    "G1-381": {
+      "title": "Geometrische Formen erkennen: echt oder nicht?",
+      "instruction": "Lies in jeder Reihe den Namen und kreise alle Formen ein, die wirklich so heißen."
+    },
+    "K-371": {
+      "title": "Geometrische Formen in der Umwelt",
+      "instruction": "Schau dir jedes Bild an und male die Form an, die es hat: den Kreis oder das Rechteck."
+    },
+    "G1-382": {
+      "title": "Geometrische Formen: Namen schreiben",
+      "instruction": "Schau dir jede Form an und schreibe ihren Namen auf die Linie, die Namen stehen im Kasten."
+    },
+    "G1-383": {
+      "title": "Rätsel zu geometrischen Formen",
+      "instruction": "Lies jedes Rätsel und kreise den Namen der Form ein."
+    },
+    "K-372": {
+      "title": "Geometrische Formen im Punktefeld zeichnen",
+      "instruction": "Lies den Namen der Form und verbinde die Punkte, beginne an der dicken Linie, wenn es eine gibt."
+    },
+    "K-369": {
+      "title": "Verkehrserziehung: Was zeigt die Ampel?",
+      "instruction": "Schau, welche Lampe leuchtet, und kreise ein, was man jetzt tun muss."
+    },
+    "K-373": {
+      "title": "Verkehrserziehung: Ampeln ausmalen",
+      "instruction": "Finde bei jeder Ampel die Lampe mit den Strahlen und male sie in ihrer Farbe an."
+    },
+    "K-374": {
+      "title": "Sicher über die Straße gehen: Schritt für Schritt",
+      "instruction": "Schreibe 1 bis 4 in die Kästchen: So gehst du sicher über die Straße."
+    },
+    "G1-384": {
+      "title": "Verkehrszeichen und ihre Bedeutung für Kinder",
+      "instruction": "Verbinde jedes Verkehrszeichen mit dem Satz, der sagt, was es bedeutet."
+    },
+    "G2-360": {
+      "title": "Verkehrserziehung: Gefahr-, Verbots- und Gebotszeichen",
+      "instruction": "Schreibe den Buchstaben jedes Verkehrszeichens in ein Kästchen seiner Gruppe."
+    },
+    "G2-361": {
+      "title": "Verkehrszeichen-Quiz für die Grundschule",
+      "instruction": "Lies jeden Satz und kreise das eine Verkehrszeichen ein, das dazu passt."
+    },
+    "K-370": {
+      "title": "Familienmitglieder: Wer ist wer?",
+      "instruction": "Finde jede Person im Stammbaum und schreibe ihre Zahl in das Kästchen neben ihrem Familienwort."
+    },
+    "G1-385": {
+      "title": "Generationen in der Familie: von Alt nach Jung",
+      "instruction": "Schreibe in jeder Reihe 1, 2 und 3 in die Kästchen, von der ältesten Generation bis zur jüngsten."
+    },
+    "K-375": {
+      "title": "Familienwörter nachspuren und schreiben",
+      "instruction": "Spure jedes Familienwort nach und schreibe es auf die Linie mit der Zahl der passenden Person im Stammbaum."
+    },
+    "G1-386": {
+      "title": "Stammbaum ausfüllen: Namen mit Hinweisen eintragen",
+      "instruction": "Lies die Hinweise und schreibe jeden Namen in das richtige Namensfeld im Stammbaum."
+    },
+    "G2-362": {
+      "title": "Verwandtschaft in der Familie: Rätsel",
+      "instruction": "Lies jedes Rätsel und schreibe das passende Familienwort aus dem Kasten auf die Linie, ein Wort kann zu mehreren Rätseln passen."
+    },
+    "G1-387": {
+      "title": "Stammbaum-Vorlage für Kinder zum Ausfüllen",
+      "instruction": "Zeichne die Menschen, die dir wichtig sind, in die Rahmen und schreibe ihre Namen auf die Linien."
+    },
+    "G1-376": {
+      "title": "Teile der Pflanze",
+      "instruction": "Folge jedem Strich von der Zahl zur Pflanze und schreibe den Namen des Teils aus dem Wörterkasten in die Zeile mit derselben Zahl."
+    },
+    "K-376": {
+      "title": "Was Pflanzen zum Wachsen brauchen",
+      "instruction": "Kreise in jeder Reihe die eine Pflanze ein, die beides bekommt, was sie zum Wachsen braucht."
+    },
+    "G1-388": {
+      "title": "Vom Samen zur Pflanze",
+      "instruction": "Schneide die vier Bilder aus und klebe sie den Pfeilen nach in die leeren Kästchen, beginne beim Samen."
+    },
+    "G2-363": {
+      "title": "Welche Teile der Pflanze essen wir?",
+      "instruction": "Schau dir jedes Lebensmittel an und kreise den Teil der Pflanze ein, den wir davon essen."
+    },
+    "G2-364": {
+      "title": "Teile der Pflanze und ihre Aufgaben",
+      "instruction": "Lies, was jeder Teil tut, finde ihn an der Pflanze und schreibe die Zahl seines Schildes in das Kästchen."
+    },
+    "G3-392": {
+      "title": "Aufbau der Blüte",
+      "instruction": "Schreibe den Namen jedes nummerierten Blütenteils auf seine Linie und streiche im Wörterkasten das Wort durch, das nicht dazugehört."
+    },
+    "G1-377": {
+      "title": "Vom Ei zum Schmetterling",
+      "instruction": "Das Ei ist die 1: schreibe 2, 3 und 4 der Reihe nach in die Kästchen und ins letzte die Zahl des Bildes, das nach dem Schmetterling kommt."
+    },
+    "G1-389": {
+      "title": "Vom Laich zum Frosch: ausschneiden und kleben",
+      "instruction": "Schneide die vier Quadrate aus und klebe jedes auf sein Seerosenblatt, rund um den Teich vom Froschlaich bis zum Frosch."
+    },
+    "G2-365": {
+      "title": "Entwicklung des Schmetterlings: Stadien beschriften",
+      "instruction": "Schreibe die Namen der vier Stufen aus dem Wörterkasten unter die Bilder, ein Wort im Kasten gehört nicht dazu."
+    },
+    "G2-366": {
+      "title": "Metamorphose: Welches Tier wird daraus?",
+      "instruction": "Schau dir jede Stufe an und schreibe ihren Buchstaben unter das erwachsene Tier, zu dem sie gehört; manche Kästchen bleiben leer."
+    },
+    "G3-393": {
+      "title": "Schmetterling und Frosch: Entwicklung im Vergleich",
+      "instruction": "Lies jeden Satz und kreuze den Schmetterling, den Frosch oder beide an, wenn der Satz für das Tier stimmt."
+    },
+    "G1-390": {
+      "title": "Was kommt danach? Schmetterling, Frosch und Marienkäfer",
+      "instruction": "Kreise in jeder Reihe das Bild ein, das direkt nach dem ersten kommt; nach dem erwachsenen Tier beginnt alles wieder beim Ei."
+    },
+    "G1-378": {
+      "title": "Sonne, Erde und Mond",
+      "instruction": "Lies jeden Satz und kreuze an, wer ihn sagt: die Sonne, die Erde oder der Mond."
+    },
+    "G1-391": {
+      "title": "Mondphasen in der richtigen Reihenfolge",
+      "instruction": "Schau in jeder Reihe auf den Keil, ob der Mond zu- oder abnimmt, und schreibe 1 bis 5 in dieser Reihenfolge unter die Monde."
+    },
+    "G2-367": {
+      "title": "Mondphasen benennen",
+      "instruction": "Schreibe zu jedem Mond das passende Wort aus dem Wörterkasten auf die Linien, jedes Wort brauchst du zweimal."
+    },
+    "G2-368": {
+      "title": "Warum gibt es Tag und Nacht?",
+      "instruction": "Schau, wo die Sonne ist, und kreise in der Tabelle für jeden Punkt mit Zahl ein, ob dort Tag oder Nacht ist."
+    },
+    "G3-394": {
+      "title": "Die Planeten in der Reihenfolge von der Sonne aus",
+      "instruction": "Schreibe den Namen jedes Planeten auf seine Linie, beginne neben der Sonne und nimm jeden Namen von den Karten einmal."
+    },
+    "G3-395": {
+      "title": "Riesenplaneten und Gesteinsplaneten",
+      "instruction": "Sortiere die Namen und schreibe jeden in das richtige Feld: Riesenplanet, kleiner Gesteinsplanet oder kein Planet."
+    },
+    "G1-379": {
+      "title": "Kartenzeichen und Legende lesen",
+      "instruction": "Schau dir die Legende an, finde jedes Zeichen auf der Karte und schreibe in das Kästchen, wie viele es sind."
+    },
+    "K-377": {
+      "title": "Vogelperspektive: von der Seite und von oben",
+      "instruction": "Jedes Ding ist von der Seite gemalt: Verbinde es mit einer Linie mit demselben Ding, von oben gesehen."
+    },
+    "G2-369": {
+      "title": "Himmelsrichtungen: die Windrose ergänzen",
+      "instruction": "Die orange Spitze zeigt immer nach Norden: Schreibe in jede Windrose die drei fehlenden Buchstaben in die leeren Kästchen."
+    },
+    "G2-370": {
+      "title": "Die Kontinente beschriften",
+      "instruction": "Schreibe den Namen jedes nummerierten Kontinents auf seine Linie, die Namen stehen im Kasten."
+    },
+    "G3-396": {
+      "title": "Kontinente und Ozeane",
+      "instruction": "Finde jeden Kontinent und jeden Ozean auf der Karte und schreibe seine Zahl in das Kästchen neben seinem Namen."
+    },
+    "G2-371": {
+      "title": "Himmelsrichtungen auf der Karte",
+      "instruction": "Finde das erste Bild auf der Karte, schau in die Richtung, die das Wort nennt, und kreise von den drei Bildern das ein, das dort liegt."
+    },
+    "G1-380": {
+      "title": "Buchstabengruppen sch, ch, au: Welche hörst du?",
+      "instruction": "Sprich den Namen jedes Bildes und kreise die Buchstabengruppe ein, die du hörst."
+    },
+    "K-378": {
+      "title": "Buchstabengruppen sortieren: sch oder au",
+      "instruction": "Sprich den Namen jedes Bildes und verbinde es mit einer Linie mit der Buchstabengruppe, die du hörst."
+    },
+    "G1-392": {
+      "title": "Fehlende Buchstabengruppe einsetzen: sch, ch oder au",
+      "instruction": "Sprich jedes Bildwort und schreibe die fehlende Buchstabengruppe von oben in das gestrichelte Feld."
+    },
+    "G1-393": {
+      "title": "Wörter mit sch, ch und au lesen und zuordnen",
+      "instruction": "Lies jedes Wort, die Buchstabengruppe ist markiert, und verbinde es mit einer Linie mit dem passenden Bild."
+    },
+    "G1-394": {
+      "title": "Wo hörst du sch, ch oder au im Wort?",
+      "instruction": "Sprich jedes Bildwort und male das Feld an, wo du die Buchstabengruppe hörst: am Anfang, in der Mitte oder am Ende."
+    },
+    "G2-372": {
+      "title": "Wörter mit sch in Sätzen finden und zählen",
+      "instruction": "Lies die Sätze, kreise jedes sch ein und schreibe in das Kästchen, wie oft es im Satz vorkommt."
+    },
+    "G2-358": {
+      "title": "Synonyme: Wörter mit gleicher Bedeutung finden",
+      "instruction": "Lies das große Wort auf jeder Karte und kreise darunter das Wort ein, das dasselbe bedeutet."
+    },
+    "G1-395": {
+      "title": "Synonyme mit Bildern: zwei Wörter, ein Bild",
+      "instruction": "Schau dir jedes Bild an und kreise darunter die zwei Wörter ein, die dasselbe bedeuten und zum Bild passen."
+    },
+    "G2-373": {
+      "title": "Synonyme zuordnen: Wortpaare verbinden",
+      "instruction": "Verbinde jedes Wort links mit einer Linie mit dem Wort rechts, das dasselbe bedeutet."
+    },
+    "G1-396": {
+      "title": "Wörter nach Stärke ordnen: von ein bisschen bis sehr",
+      "instruction": "Lies die drei Wörter in jeder Reihe und schreibe 1, 2 und 3 in die Kästchen, vom schwächsten bis zum stärksten Wort."
+    },
+    "G2-374": {
+      "title": "Wortfeld „sagen“: das passende Verb einsetzen",
+      "instruction": "Lies jeden Satz und schreibe statt „sagt“ das Wort aus der Sprechblase in das Kästchen, das am besten passt."
+    },
+    "G3-397": {
+      "title": "Wortfelder „gehen“ und „sehen“: Verben sortieren",
+      "instruction": "Lies die zehn Wörter und schreibe jedes in das Wortfeld des Verbs, zu dem es gehört."
+    },
+    "G2-359": {
+      "title": "Wortfamilien: nach dem Wortstamm sortieren",
+      "instruction": "Lies jedes Wort oben und schreibe es auf eine Linie der Mauer, die auf seinem Wortstamm steht."
+    },
+    "G1-397": {
+      "title": "Wortfamilien mit Bildern: das passende Wort finden",
+      "instruction": "Sag, was du auf jedem Bild siehst, und kreise darüber das eine Wort ein, das aus diesem Bildwort gebaut ist."
+    },
+    "G2-375": {
+      "title": "Den Wortstamm finden",
+      "instruction": "Kreise den Teil ein, den die drei Wörter gemeinsam haben, und schreibe ihn als Nomen mit großem Anfangsbuchstaben in den leeren Stein."
+    },
+    "G2-376": {
+      "title": "Vorsilben ein-, aus- und um-: nach Bedeutung wählen",
+      "instruction": "Lies, was jedes neue Wort bedeutet, finde seine Vorsilbe im Schlüssel und schreibe sie in das leere Stück."
+    },
+    "G3-398": {
+      "title": "Wer macht das? Personenwörter bilden",
+      "instruction": "Schau dir jede Person an, lies das Wort daneben und schreibe das Personenwort mit -er oder -erin in das gestrichelte Kästchen."
+    },
+    "G3-399": {
+      "title": "Wortfamilien im Satz",
+      "instruction": "Schreibe jedes Wort von den vier Karten in den Satz, in den es passt."
+    }
+  },
+  "families": {
+    "2d-shapes": {
+      "slug": "geometrische-formen",
+      "name": "Geometrische Formen"
+    },
+    "road-safety": {
+      "slug": "verkehrserziehung",
+      "name": "Verkehrserziehung"
+    },
+    "family": {
+      "slug": "familie-und-verwandtschaft",
+      "name": "Familie und Verwandtschaft"
+    },
+    "plants": {
+      "slug": "teile-der-pflanze",
+      "name": "Teile der Pflanze"
+    },
+    "animal-life-cycles": {
+      "slug": "entwicklung-von-tieren",
+      "name": "Entwicklung von Tieren"
+    },
+    "earth-and-space": {
+      "slug": "sonne-mond-und-planeten",
+      "name": "Sonne, Mond und Planeten"
+    },
+    "maps": {
+      "slug": "karten-und-himmelsrichtungen",
+      "name": "Karten und Himmelsrichtungen"
+    },
+    "digraphs": {
+      "slug": "buchstabengruppen",
+      "name": "Buchstabengruppen"
+    },
+    "synonyms": {
+      "slug": "wortfelder-und-synonyme",
+      "name": "Wortfelder und Synonyme"
+    },
+    "word-parts": {
+      "slug": "wortfamilien-und-wortbausteine",
+      "name": "Wortfamilien, Vorsilben und Nachsilben"
+    }
+  },
+  "skills": {
+    "2d-shapes": {
+      "full": "Geometrische Formen benennen: Kreis, Quadrat, Dreieck und Rechteck erkennen, auch gedreht, in der Umwelt finden, Namen schreiben und im Punktefeld zeichnen.",
+      "short": "Kreis, Quadrat, Dreieck und Rechteck benennen"
+    },
+    "road-safety": {
+      "full": "Verkehrserziehung für Vorschule bis 2. Klasse: die Ampel lesen, sicher über die Straße gehen, Verkehrszeichen und ihre Bedeutung sowie Gefahr-, Verbots- und Gebotszeichen.",
+      "short": "Ampel, Straße und Verkehrszeichen verstehen"
+    },
+    "family": {
+      "full": "Familie und Verwandtschaft: Familienwörter zuordnen und schreiben, Generationen ordnen, einen Stammbaum mit Hinweisen ausfüllen und Verwandtschaftsrätsel lösen.",
+      "short": "Familienwörter, Stammbaum und Verwandtschaft"
+    },
+    "plants": {
+      "full": "Teile der Pflanze: Wurzel, Stängel, Blatt, Blüte, Frucht und Samen beschriften, was Pflanzen zum Wachsen brauchen, vom Samen zur Pflanze und der Aufbau der Blüte.",
+      "short": "Pflanzenteile beschriften und ihre Aufgaben kennen"
+    },
+    "animal-life-cycles": {
+      "full": "Die Entwicklung von Tieren: vom Ei zum Schmetterling und vom Laich zum Frosch, Stadien ordnen und beschriften, Tierkinder zuordnen und Schmetterling und Frosch vergleichen.",
+      "short": "Entwicklung von Schmetterling und Frosch"
+    },
+    "earth-and-space": {
+      "full": "Sonne, Erde und Mond unterscheiden, die Mondphasen ordnen und benennen, Tag und Nacht erklären und die acht Planeten in Reihenfolge und nach Größe kennenlernen.",
+      "short": "Sonne, Mond, Mondphasen und Planeten"
+    },
+    "maps": {
+      "full": "Karten lesen: Kartenzeichen und Legende, die Vogelperspektive, die Himmelsrichtungen mit der Windrose, die Kontinente und Ozeane und Wege auf der Karte.",
+      "short": "Legende, Himmelsrichtungen und Kontinente"
+    },
+    "digraphs": {
+      "full": "Buchstabengruppen sch, ch und au: hören, sortieren, in Wörter einsetzen, Wörter lesen und zuordnen, die Stelle im Wort finden und sch in Sätzen zählen.",
+      "short": "Die Buchstabengruppen sch, ch und au"
+    },
+    "synonyms": {
+      "full": "Wortfelder und Synonyme: Wörter mit gleicher Bedeutung finden, mit Bildern und Wortpaaren, Wörter nach Stärke ordnen und die Wortfelder sagen, gehen und sehen.",
+      "short": "Synonyme und Wortfelder sagen, gehen, sehen"
+    },
+    "word-parts": {
+      "full": "Wortfamilien und Wortbausteine: nach dem Wortstamm sortieren, den Wortstamm finden, Vorsilben ein-, aus- und um- nach Bedeutung wählen und Personenwörter bilden.",
+      "short": "Wortstamm, Vorsilben und Nachsilben"
+    }
+  },
+  "topicMeta": {
+    "2d-shapes": "Geometrische Formen benennen zum Ausdrucken: Kreis, Quadrat, Dreieck und Rechteck erkennen, auch gedreht, und im Punktefeld zeichnen. Vorschule und 1. Klasse.",
+    "road-safety": "Verkehrserziehung zum Ausdrucken: Ampel lesen, sicher über die Straße gehen, Verkehrszeichen mit Bedeutung und Verkehrszeichen-Quiz. Vorschule bis 2. Klasse.",
+    "family": "Familie und Verwandtschaft zum Ausdrucken: Familienwörter, Generationen, Stammbaum-Vorlage und Verwandtschaftsrätsel für Vorschule bis 2. Klasse.",
+    "plants": "Teile der Pflanze zum Ausdrucken: Pflanzenteile beschriften, was Pflanzen brauchen, vom Samen zur Pflanze und Aufbau der Blüte. Vorschule bis 3. Klasse.",
+    "animal-life-cycles": "Entwicklung von Tieren zum Ausdrucken: vom Ei zum Schmetterling, vom Laich zum Frosch, Stadien beschriften und vergleichen. 1. bis 3. Klasse.",
+    "earth-and-space": "Sonne, Mond und Planeten zum Ausdrucken: Sonne, Erde und Mond, Mondphasen, Tag und Nacht und die Planeten in Reihenfolge. 1. bis 3. Klasse.",
+    "maps": "Karten und Himmelsrichtungen zum Ausdrucken: Legende lesen, Vogelperspektive, Windrose ergänzen, Kontinente und Ozeane beschriften. Vorschule bis 3. Klasse.",
+    "digraphs": "Buchstabengruppen sch, ch und au zum Ausdrucken: hören, sortieren, einsetzen, lesen und in Sätzen zählen. Vorschule bis 2. Klasse.",
+    "synonyms": "Wortfelder und Synonyme zum Ausdrucken: Wörter mit gleicher Bedeutung, Wortfeld sagen, Wortfelder gehen und sehen, Wörter nach Stärke ordnen. 1. bis 3. Klasse.",
+    "word-parts": "Wortfamilien und Wortbausteine zum Ausdrucken: Wortstamm finden, nach Wortfamilien sortieren, Vorsilben ein-, aus-, um- und Personenwörter. 1. bis 3. Klasse."
+  },
+  "banks": {
+    "2d-shapes": {
+      "names": {
+        "circle": "Kreis",
+        "square": "Quadrat",
+        "triangle": "Dreieck",
+        "rectangle": "Rechteck",
+        "hexagon": "Sechseck"
+      },
+      "overrides": {},
+      "inflections": {
+        "circle": [
+          "Kreise",
+          "Kreises",
+          "Kreisen"
+        ],
+        "square": [
+          "Quadrate",
+          "Quadrats",
+          "Quadraten",
+          "Quadrates"
+        ],
+        "triangle": [
+          "Dreiecke",
+          "Dreiecks",
+          "Dreiecken",
+          "Dreieckes"
+        ],
+        "rectangle": [
+          "Rechtecke",
+          "Rechtecks",
+          "Rechtecken",
+          "Rechteckes"
+        ],
+        "hexagon": [
+          "Sechsecke",
+          "Sechsecks",
+          "Sechsecken",
+          "Sechseckes"
+        ]
+      },
+      "inventory": {
+        "hexagon": true
+      },
+      "riddles": {
+        "circle": [
+          {
+            "text": "Ich bin ganz rund und habe keine Ecken. Wer bin ich?",
+            "clue": "round"
+          },
+          {
+            "text": "Ich bin überall gleich rund, wie eine Münze. Wer bin ich?",
+            "clue": "round"
+          }
+        ],
+        "square": [
+          {
+            "text": "Ich habe 4 gleich lange Seiten und 4 Ecken wie bei einem Buch. Wer bin ich?",
+            "clue": "equal"
+          },
+          {
+            "text": "Meine Ecken sind alle rechte Ecken, und meine 4 Seiten sind gleich lang. Wer bin ich?",
+            "clue": "equal"
+          }
+        ],
+        "triangle": [
+          {
+            "text": "Ich habe 3 Seiten und 3 Ecken. Wer bin ich?",
+            "clue": "three"
+          },
+          {
+            "text": "Ich habe nur 3 gerade Seiten. Wer bin ich?",
+            "clue": "three"
+          }
+        ],
+        "rectangle": [
+          {
+            "text": "Ich habe 2 lange und 2 kurze Seiten und 4 Ecken wie bei einem Buch. Wer bin ich?",
+            "clue": "longShort"
+          },
+          {
+            "text": "Meine 4 Ecken sind rechte Ecken, und 2 Seiten sind lang, 2 sind kurz. Wer bin ich?",
+            "clue": "longShort"
+          }
+        ],
+        "hexagon": [
+          {
+            "text": "Ich habe 6 Seiten und 6 Ecken. Wer bin ich?",
+            "clue": "six"
+          },
+          {
+            "text": "Ich habe 6 gerade Seiten. Wer bin ich?",
+            "clue": "six"
+          }
+        ]
+      },
+      "strings": {
+        "base": {
+          "title": "Geometrische Formen benennen",
+          "instruction": "Schau dir jede Form an, auch die gedrehten und die schmalen, und kreise ihren Namen ein."
+        },
+        "real-or-not": {
+          "title": "Geometrische Formen erkennen: echt oder nicht?",
+          "instruction": "Lies in jeder Reihe den Namen und kreise alle Formen ein, die wirklich so heißen."
+        },
+        "around-us": {
+          "title": "Geometrische Formen in der Umwelt",
+          "instruction": "Schau dir jedes Bild an und male die Form an, die es hat: den Kreis oder das Rechteck."
+        },
+        "write-name": {
+          "title": "Geometrische Formen: Namen schreiben",
+          "instruction": "Schau dir jede Form an und schreibe ihren Namen auf die Linie, die Namen stehen im Kasten."
+        },
+        "riddles": {
+          "title": "Rätsel zu geometrischen Formen",
+          "instruction": "Lies jedes Rätsel und kreise den Namen der Form ein."
+        },
+        "dot-draw": {
+          "title": "Geometrische Formen im Punktefeld zeichnen",
+          "instruction": "Lies den Namen der Form und verbinde die Punkte, beginne an der dicken Linie, wenn es eine gibt."
+        }
+      }
+    },
+    "road-safety": {
+      "convention": "vienna",
+      "signs": {
+        "stop": {
+          "code": "Z 206",
+          "regRef": "StVO Anlage 2 (Vorschriftzeichen), Z 206 Halt. Vorfahrt gewähren.",
+          "shape": "octagon",
+          "rim": "white",
+          "field": "red",
+          "glyph": "text",
+          "text": "STOP",
+          "slash": false,
+          "class": "priority",
+          "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+        },
+        "crossing": {
+          "code": "Z 350",
+          "regRef": "StVO Anlage 3 (Richtzeichen), Z 350 Fußgängerüberweg",
+          "shape": "square",
+          "rim": "white",
+          "field": "blue",
+          "glyph": "crossingTriangle",
+          "text": "",
+          "slash": false,
+          "class": "information",
+          "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+        },
+        "children": {
+          "code": "Z 136",
+          "regRef": "StVO Anlage 1 (Gefahrzeichen), Z 136 Kinder",
+          "shape": "triUp",
+          "rim": "red",
+          "field": "white",
+          "glyph": "twoChildren",
+          "text": "",
+          "slash": false,
+          "class": "warning",
+          "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+        },
+        "signal-ahead": {
+          "code": "Z 131",
+          "regRef": "StVO Anlage 1 (Gefahrzeichen), Z 131 Lichtzeichenanlage",
+          "shape": "triUp",
+          "rim": "red",
+          "field": "white",
+          "glyph": "trafficLightMini",
+          "text": "",
+          "slash": false,
+          "class": "warning",
+          "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+        },
+        "bike-warning": {
+          "code": "Z 138",
+          "regRef": "StVO Anlage 1 (Gefahrzeichen), Z 138 Radverkehr",
+          "shape": "triUp",
+          "rim": "red",
+          "field": "white",
+          "glyph": "bicycle",
+          "text": "",
+          "slash": false,
+          "class": "warning",
+          "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+        },
+        "no-entry": {
+          "code": "Z 267",
+          "regRef": "StVO Anlage 2 (Vorschriftzeichen), Z 267 Verbot der Einfahrt",
+          "shape": "circle",
+          "rim": null,
+          "field": "red",
+          "glyph": "bar",
+          "text": "",
+          "slash": false,
+          "class": "prohibition",
+          "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+        },
+        "no-vehicles": {
+          "code": "Z 250",
+          "regRef": "StVO Anlage 2 (Vorschriftzeichen), Z 250 Verbot für Fahrzeuge aller Art",
+          "shape": "circle",
+          "rim": "red",
+          "field": "white",
+          "glyph": "none",
+          "text": "",
+          "slash": false,
+          "class": "prohibition",
+          "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+        },
+        "no-bikes": {
+          "code": "Z 254",
+          "regRef": "StVO Anlage 2 (Vorschriftzeichen), Z 254 Verbot für Radverkehr (kein Schrägbalken)",
+          "shape": "circle",
+          "rim": "red",
+          "field": "white",
+          "glyph": "bicycle",
+          "text": "",
+          "slash": false,
+          "class": "prohibition",
+          "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+        },
+        "no-pedestrians": {
+          "code": "Z 259",
+          "regRef": "StVO Anlage 2 (Vorschriftzeichen), Z 259 Verbot für Fußgänger (kein Schrägbalken)",
+          "shape": "circle",
+          "rim": "red",
+          "field": "white",
+          "glyph": "walker",
+          "text": "",
+          "slash": false,
+          "class": "prohibition",
+          "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+        },
+        "footpath": {
+          "code": "Z 239",
+          "regRef": "StVO Anlage 2 (Vorschriftzeichen), Z 239 Gehweg (Frau mit Kind)",
+          "shape": "circle",
+          "rim": "white",
+          "field": "blue",
+          "glyph": "adultChild",
+          "text": "",
+          "slash": false,
+          "class": "mandatory",
+          "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+        },
+        "bike-path": {
+          "code": "Z 237",
+          "regRef": "StVO Anlage 2 (Vorschriftzeichen), Z 237 Radweg",
+          "shape": "circle",
+          "rim": "white",
+          "field": "blue",
+          "glyph": "bicycle",
+          "text": "",
+          "slash": false,
+          "class": "mandatory",
+          "signedBy": "de native panel (nt10-E, 2026-09-23): record checked against the StVO sign catalogue (VzKat) picture of the named Zeichen; shape, rim and field as in the annex; operator review pending"
+        }
+      },
+      "setG1": [
+        "stop",
+        "crossing",
+        "children",
+        "no-entry",
+        "footpath",
+        "bike-path"
+      ],
+      "kindsPool": [
+        "children",
+        "signal-ahead",
+        "bike-warning",
+        "no-vehicles",
+        "no-bikes",
+        "no-pedestrians",
+        "footpath",
+        "bike-path"
+      ],
+      "classes": [
+        {
+          "key": "warning",
+          "label": "Gefahrzeichen"
+        },
+        {
+          "key": "prohibition",
+          "label": "Verbotszeichen"
+        },
+        {
+          "key": "mandatory",
+          "label": "Gebotszeichen"
+        }
+      ],
+      "pedLight": {
+        "stop": "standing",
+        "go": "walking",
+        "lamps": 2
+      },
+      "amber": {
+        "token": "codeYellow",
+        "word": "gelb"
+      },
+      "amberMeans": "stop",
+      "chipWords": {
+        "ped": {
+          "stop": "stehen",
+          "go": "gehen"
+        },
+        "car": {
+          "stop": "halten",
+          "go": "fahren"
+        }
+      },
+      "meanings": {
+        "stop": "Ganz anhalten und die anderen zuerst fahren lassen.",
+        "crossing": "Hier ist ein Zebrastreifen zum sicheren Überqueren.",
+        "children": "Achtung, hier können Kinder auf die Straße laufen.",
+        "no-entry": "Hier darf kein Fahrzeug hineinfahren.",
+        "footpath": "Dieser Weg ist nur für Fußgänger.",
+        "bike-path": "Dieser Weg ist nur für Radfahrer."
+      },
+      "situations": {
+        "stop": [
+          "An dieser Kreuzung muss jedes Auto ganz anhalten, auch wenn niemand kommt.",
+          "Hier müssen Autofahrer stehen bleiben und schauen, ob die Straße frei ist."
+        ],
+        "crossing": [
+          "Hier ist ein Zebrastreifen: Wer zu Fuß geht, kommt sicher über die Straße.",
+          "Autos müssen hier warten, wenn Kinder über den Zebrastreifen gehen wollen."
+        ],
+        "children": [
+          "Neben dieser Straße ist eine Schule, deshalb laufen hier oft Kinder.",
+          "Achtung, Autofahrer: Gleich neben der Straße liegt ein Spielplatz."
+        ],
+        "no-entry": [
+          "In diese Straße darf man von hier aus nicht hineinfahren.",
+          "Diese Einfahrt ist verboten, die Autos müssen einen anderen Weg nehmen."
+        ],
+        "footpath": [
+          "Dieser Weg ist nur für Menschen, die zu Fuß gehen.",
+          "Hier ist ein Gehweg: Auf ihm gehen die Leute zu Fuß."
+        ],
+        "bike-path": [
+          "Dieser Weg ist nur für Fahrräder gemacht.",
+          "Hier fährst du mit dem Fahrrad auf einem eigenen Weg."
+        ],
+        "signal-ahead": [
+          "Achtung, gleich kommt eine Ampel.",
+          "Bald gibt es hier Lichter, die auf Rot springen können."
+        ],
+        "bike-warning": [
+          "Achtung, Autofahrer: Hier fahren oft Radfahrer über die Straße.",
+          "Vorsicht: Auf dieser Straße kommen viele Radfahrer."
+        ],
+        "no-vehicles": [
+          "Hier darf gar kein Fahrzeug fahren, kein Auto und auch kein Fahrrad.",
+          "Diese Straße ist für alle Fahrzeuge gesperrt, egal ob Auto oder Motorrad."
+        ],
+        "no-bikes": [
+          "Autos dürfen hier fahren, aber Fahrräder nicht.",
+          "Radfahren ist hier verboten, aber Autos dürfen weiterfahren."
+        ],
+        "no-pedestrians": [
+          "Auf dieser Straße dürfen keine Fußgänger gehen, nur Fahrzeuge fahren.",
+          "Zu Fuß ist dieser Weg verboten, Autos dürfen hier aber fahren."
+        ]
+      },
+      "steps": [
+        "stop-kerb",
+        "look-left",
+        "look-right",
+        "walk-across"
+      ],
+      "listenStep": null,
+      "familyHead": "Verkehrserziehung",
+      "signHead": "Verkehrszeichen",
+      "childAnchors": [
+        "für Kinder",
+        "Grundschule",
+        "Vorschule",
+        "Klasse"
+      ],
+      "strings": {
+        "base": {
+          "title": "Verkehrserziehung: Was zeigt die Ampel?",
+          "instruction": "Schau, welche Lampe leuchtet, und kreise ein, was man jetzt tun muss."
+        },
+        "colour-lights": {
+          "title": "Verkehrserziehung: Ampeln ausmalen",
+          "instruction": "Finde bei jeder Ampel die Lampe mit den Strahlen und male sie in ihrer Farbe an."
+        },
+        "crossing-steps": {
+          "title": "Sicher über die Straße gehen: Schritt für Schritt",
+          "instruction": "Schreibe 1 bis 4 in die Kästchen: So gehst du sicher über die Straße."
+        },
+        "sign-meaning": {
+          "title": "Verkehrszeichen und ihre Bedeutung für Kinder",
+          "instruction": "Verbinde jedes Verkehrszeichen mit dem Satz, der sagt, was es bedeutet."
+        },
+        "sign-kinds": {
+          "title": "Verkehrserziehung: Gefahr-, Verbots- und Gebotszeichen",
+          "instruction": "Schreibe den Buchstaben jedes Verkehrszeichens in ein Kästchen seiner Gruppe."
+        },
+        "sign-quiz": {
+          "title": "Verkehrszeichen-Quiz für die Grundschule",
+          "instruction": "Lies jeden Satz und kreise das eine Verkehrszeichen ein, das dazu passt."
+        }
+      }
+    },
+    "family": {
+      "kin": {
+        "M": "mama",
+        "F": "papa",
+        "Z": "schwester",
+        "B": "bruder",
+        "Zy": "kleineSchwester",
+        "By": "kleinerBruder",
+        "MM": "oma",
+        "FM": "oma",
+        "MF": "opa",
+        "FF": "opa",
+        "MZ": "tante",
+        "FZ": "tante",
+        "MB": "onkel",
+        "FB": "onkel",
+        "MZD": "cousine",
+        "MBD": "cousine",
+        "FZD": "cousine",
+        "FBD": "cousine",
+        "MZS": "cousin",
+        "MBS": "cousin",
+        "FZS": "cousin",
+        "FBS": "cousin"
+      },
+      "words": {
+        "mama": {
+          "text": "Mama",
+          "register": "K"
+        },
+        "papa": {
+          "text": "Papa",
+          "register": "K"
+        },
+        "schwester": {
+          "text": "Schwester",
+          "register": "K"
+        },
+        "bruder": {
+          "text": "Bruder",
+          "register": "K"
+        },
+        "kleineSchwester": {
+          "text": "kleine Schwester",
+          "register": "K"
+        },
+        "kleinerBruder": {
+          "text": "kleiner Bruder",
+          "register": "K"
+        },
+        "oma": {
+          "text": "Oma",
+          "register": "K"
+        },
+        "opa": {
+          "text": "Opa",
+          "register": "K"
+        },
+        "tante": {
+          "text": "Tante",
+          "register": "K"
+        },
+        "onkel": {
+          "text": "Onkel",
+          "register": "K"
+        },
+        "cousine": {
+          "text": "Cousine",
+          "register": "K"
+        },
+        "cousin": {
+          "text": "Cousin",
+          "register": "K"
+        }
+      },
+      "names": [
+        {
+          "name": "Emma",
+          "sex": "f",
+          "gen": "Emmas"
+        },
+        {
+          "name": "Ben",
+          "sex": "m",
+          "gen": "Bens"
+        },
+        {
+          "name": "Mia",
+          "sex": "f",
+          "gen": "Mias"
+        },
+        {
+          "name": "Finn",
+          "sex": "m",
+          "gen": "Finns"
+        },
+        {
+          "name": "Lina",
+          "sex": "f",
+          "gen": "Linas"
+        },
+        {
+          "name": "Paul",
+          "sex": "m",
+          "gen": "Pauls"
+        },
+        {
+          "name": "Lea",
+          "sex": "f",
+          "gen": "Leas"
+        },
+        {
+          "name": "Noah",
+          "sex": "m",
+          "gen": "Noahs"
+        },
+        {
+          "name": "Anna",
+          "sex": "f",
+          "gen": "Annas"
+        },
+        {
+          "name": "Max",
+          "sex": "m",
+          "gen": "Max’"
+        },
+        {
+          "name": "Nele",
+          "sex": "f",
+          "gen": "Neles"
+        },
+        {
+          "name": "Leon",
+          "sex": "m",
+          "gen": "Leons"
+        }
+      ],
+      "clueFrames": {
+        "M": "{name} ist {egoGen} Mama.",
+        "F": "{name} ist {egoGen} Papa.",
+        "Z": "{name} ist {egoGen} Schwester.",
+        "B": "{name} ist {egoGen} Bruder.",
+        "Zy": "{name} ist {egoGen} kleine Schwester.",
+        "By": "{name} ist {egoGen} kleiner Bruder.",
+        "MM": "{name} ist {egoGen} Oma.",
+        "FM": "{name} ist {egoGen} Oma.",
+        "MF": "{name} ist {egoGen} Opa.",
+        "FF": "{name} ist {egoGen} Opa.",
+        "MZ": "{name} ist {egoGen} Tante.",
+        "FZ": "{name} ist {egoGen} Tante.",
+        "MB": "{name} ist {egoGen} Onkel.",
+        "FB": "{name} ist {egoGen} Onkel.",
+        "MZD": "{name} ist {egoGen} Cousine.",
+        "MBD": "{name} ist {egoGen} Cousine.",
+        "FZD": "{name} ist {egoGen} Cousine.",
+        "FBD": "{name} ist {egoGen} Cousine.",
+        "MZS": "{name} ist {egoGen} Cousin.",
+        "MBS": "{name} ist {egoGen} Cousin.",
+        "FZS": "{name} ist {egoGen} Cousin.",
+        "FBS": "{name} ist {egoGen} Cousin."
+      },
+      "riddleFrames": {
+        "MM": "Die Mutter von {egoGen} Mutter ist {egoGen} ___.",
+        "FM": "Die Mutter von {egoGen} Vater ist {egoGen} ___.",
+        "MF": "Der Vater von {egoGen} Mutter ist {egoGen} ___.",
+        "FF": "Der Vater von {egoGen} Vater ist {egoGen} ___.",
+        "MZ": "Die Schwester von {egoGen} Mutter ist {egoGen} ___.",
+        "FZ": "Die Schwester von {egoGen} Vater ist {egoGen} ___.",
+        "MB": "Der Bruder von {egoGen} Mutter ist {egoGen} ___.",
+        "FB": "Der Bruder von {egoGen} Vater ist {egoGen} ___."
+      },
+      "distractors": [
+        "mama",
+        "papa"
+      ],
+      "repeatsNote": true,
+      "repeatsNoteText": "ein Wort kann zu mehreren Rätseln passen",
+      "generationOK": [
+        "oma",
+        "opa",
+        "mama",
+        "papa",
+        "tante",
+        "onkel",
+        "schwester",
+        "bruder",
+        "kleineSchwester",
+        "kleinerBruder",
+        "cousine",
+        "cousin"
+      ],
+      "agreeing": [
+        "der",
+        "die",
+        "das",
+        "den",
+        "dem",
+        "des",
+        "ein",
+        "eine",
+        "einen",
+        "einem",
+        "seine",
+        "ihre",
+        "sein",
+        "ihr",
+        "kleine",
+        "kleiner"
+      ],
+      "firstPerson": [
+        "ich",
+        "mich",
+        "mir",
+        "mein",
+        "meine",
+        "meinen",
+        "meinem",
+        "meiner",
+        "wir",
+        "uns",
+        "unser",
+        "unsere"
+      ],
+      "meWord": "ich",
+      "forbiddenInTemplate": [
+        "Mama",
+        "Papa",
+        "Mutter",
+        "Vater",
+        "Eltern",
+        "deine Familie",
+        "deiner Familie"
+      ],
+      "instructionBans": [
+        "ankreuzen",
+        "kreuze",
+        "ausschneiden",
+        "schneide",
+        "ausmalen",
+        "anmalen",
+        "kostenlos",
+        "Lösung",
+        "Lösungen"
+      ],
+      "familyHead": "Familie und Verwandtschaft",
+      "strings": {
+        "base": {
+          "title": "Familienmitglieder: Wer ist wer?",
+          "instruction": "Finde jede Person im Stammbaum und schreibe ihre Zahl in das Kästchen neben ihrem Familienwort."
+        },
+        "generations": {
+          "title": "Generationen in der Familie: von Alt nach Jung",
+          "instruction": "Schreibe in jeder Reihe 1, 2 und 3 in die Kästchen, von der ältesten Generation bis zur jüngsten."
+        },
+        "trace-words": {
+          "title": "Familienwörter nachspuren und schreiben",
+          "instruction": "Spure jedes Familienwort nach und schreibe es auf die Linie mit der Zahl der passenden Person im Stammbaum."
+        },
+        "tree-clues": {
+          "title": "Stammbaum ausfüllen: Namen mit Hinweisen eintragen",
+          "instruction": "Lies die Hinweise und schreibe jeden Namen in das richtige Namensfeld im Stammbaum."
+        },
+        "relation-riddles": {
+          "title": "Verwandtschaft in der Familie: Rätsel",
+          "instruction": "Lies jedes Rätsel und schreibe das passende Familienwort aus dem Kasten auf die Linie, ein Wort kann zu mehreren Rätseln passen."
+        },
+        "tree-template": {
+          "title": "Stammbaum-Vorlage für Kinder zum Ausfüllen",
+          "instruction": "Zeichne die Menschen, die dir wichtig sind, in die Rahmen und schreibe ihre Namen auf die Linien."
+        }
+      }
+    },
+    "plants": {
+      "partWords": {
+        "root": "Wurzel",
+        "stem": "Stängel",
+        "leaf": "Blatt",
+        "flower": "Blüte",
+        "fruit": "Frucht",
+        "seed": "Samen"
+      },
+      "flowerWords": {
+        "petal": "Kronblatt",
+        "sepal": "Kelchblatt",
+        "stamen": "Staubblatt",
+        "pistil": "Stempel",
+        "stalk": "Stiel",
+        "ovary": "Fruchtknoten"
+      },
+      "jobs": {
+        "root": "nimmt Wasser aus der Erde auf",
+        "stem": "hält die Pflanze aufrecht",
+        "leaf": "macht mit Sonnenlicht Nahrung für die Pflanze",
+        "flower": "lockt die Bienen an",
+        "seed": "kann zu einer neuen Pflanze wachsen"
+      },
+      "partStems": [
+        "Wurzel",
+        "Wurzeln",
+        "Stängel",
+        "Stiel",
+        "Stiele",
+        "Blatt",
+        "Blätter",
+        "Blättern",
+        "Blüte",
+        "Blüten",
+        "Blume",
+        "Blumen",
+        "Frucht",
+        "Früchte",
+        "Samen",
+        "Kronblatt",
+        "Staubblatt"
+      ],
+      "forbidden": [
+        "Blume",
+        "Stengel",
+        "Stamm",
+        "Obst",
+        "Kern",
+        "Knospe"
+      ],
+      "refuseItems": [
+        "celery"
+      ],
+      "refuse": [],
+      "instructionBans": {
+        "base": [
+          "kreise",
+          "einkreisen",
+          "ausmalen",
+          "anmalen",
+          "ausschneiden",
+          "Buchstabenkästchen"
+        ],
+        "flower": [
+          "kreise",
+          "einkreisen",
+          "ausmalen",
+          "anmalen",
+          "ausschneiden"
+        ],
+        "needs": [
+          "Wort",
+          "Wörter",
+          "schreibe",
+          "schreiben"
+        ],
+        "eat": [
+          "Gemüse",
+          "Obst"
+        ],
+        "jobs": [
+          "Wörterkasten"
+        ]
+      },
+      "strings": {
+        "base": {
+          "title": "Teile der Pflanze",
+          "instruction": "Folge jedem Strich von der Zahl zur Pflanze und schreibe den Namen des Teils aus dem Wörterkasten in die Zeile mit derselben Zahl."
+        },
+        "needs": {
+          "title": "Was Pflanzen zum Wachsen brauchen",
+          "instruction": "Kreise in jeder Reihe die eine Pflanze ein, die beides bekommt, was sie zum Wachsen braucht."
+        },
+        "cycle": {
+          "title": "Vom Samen zur Pflanze",
+          "instruction": "Schneide die vier Bilder aus und klebe sie den Pfeilen nach in die leeren Kästchen, beginne beim Samen."
+        },
+        "eat": {
+          "title": "Welche Teile der Pflanze essen wir?",
+          "instruction": "Schau dir jedes Lebensmittel an und kreise den Teil der Pflanze ein, den wir davon essen."
+        },
+        "jobs": {
+          "title": "Teile der Pflanze und ihre Aufgaben",
+          "instruction": "Lies, was jeder Teil tut, finde ihn an der Pflanze und schreibe die Zahl seines Schildes in das Kästchen."
+        },
+        "flower": {
+          "title": "Aufbau der Blüte",
+          "instruction": "Schreibe den Namen jedes nummerierten Blütenteils auf seine Linie und streiche im Wörterkasten das Wort durch, das nicht dazugehört."
+        }
+      }
+    },
+    "animal-life-cycles": {
+      "stageWords": {
+        "butterfly": {
+          "egg": "Ei",
+          "larva": "Raupe",
+          "pupa": "Puppe",
+          "adult": "Schmetterling"
+        }
+      },
+      "decoy": {
+        "frog.tadpole": "Kaulquappe"
+      },
+      "landingWords": {
+        "frog": {
+          "spawn": "Froschlaich",
+          "tadpole": "Kaulquappe",
+          "legged": "Kaulquappe mit Beinen",
+          "froglet": "Jungfrosch",
+          "adult": "Frosch"
+        },
+        "ladybird": {
+          "egg": "Ei",
+          "larva": "Larve",
+          "pupa": "Puppe",
+          "adult": "Marienkäfer"
+        }
+      },
+      "statements": {
+        "egg": "Es schlüpft aus einem Ei.",
+        "change": "Als Junges sieht es ganz anders aus als das erwachsene Tier.",
+        "pupa": "Eine Zeit lang ist es eine Puppe.",
+        "wings": "Das erwachsene Tier hat Flügel.",
+        "sixlegs": "Das erwachsene Tier hat sechs Beine.",
+        "nectar": "Das erwachsene Tier trinkt Nektar aus Blüten.",
+        "tail": "Als Junges schwimmt es mit einem Schwanz.",
+        "water": "Als Junges lebt es im Wasser.",
+        "nolegs": "Als Junges hat es zuerst gar keine Beine.",
+        "fourlegs": "Das erwachsene Tier hat vier Beine.",
+        "insects": "Das erwachsene Tier fängt Insekten und frisst sie."
+      },
+      "drop": [],
+      "familyName": "Entwicklung von Tieren",
+      "spawnForm": "clump",
+      "forbidden": [
+        "Kokon",
+        "Kokons",
+        "Lebenszyklus",
+        "Lebenszyklen"
+      ],
+      "genreBare": [
+        "Lebenszyklus",
+        "Lebenszyklen"
+      ],
+      "pictureWord": "Bild",
+      "instructionBans": {
+        "G1-377": [
+          "ausschneiden",
+          "schneide",
+          "kleben",
+          "klebe",
+          "ankreuzen",
+          "kreuze",
+          "einkreisen",
+          "kreise",
+          "Buchstabe",
+          "Buchstaben"
+        ],
+        "G1-389": [
+          "schreibe",
+          "ankreuzen",
+          "kreuze",
+          "einkreisen",
+          "kreise"
+        ],
+        "G2-365": [
+          "ausschneiden",
+          "schneide",
+          "ankreuzen",
+          "kreuze",
+          "einkreisen",
+          "kreise"
+        ],
+        "G2-366": [
+          "ausschneiden",
+          "schneide",
+          "ankreuzen",
+          "kreuze",
+          "einkreisen",
+          "kreise",
+          "Zahl",
+          "Zahlen"
+        ],
+        "G3-393": [
+          "einkreisen",
+          "kreise",
+          "ausschneiden",
+          "schneide",
+          "schreibe"
+        ],
+        "G1-390": [
+          "schreibe",
+          "ankreuzen",
+          "kreuze",
+          "ausschneiden",
+          "schneide"
+        ]
+      },
+      "refuse": [],
+      "strings": {
+        "G1-377": {
+          "title": "Vom Ei zum Schmetterling",
+          "instruction": "Das Ei ist die 1: schreibe 2, 3 und 4 der Reihe nach in die Kästchen und ins letzte die Zahl des Bildes, das nach dem Schmetterling kommt."
+        },
+        "G1-389": {
+          "title": "Vom Laich zum Frosch: ausschneiden und kleben",
+          "instruction": "Schneide die vier Quadrate aus und klebe jedes auf sein Seerosenblatt, rund um den Teich vom Froschlaich bis zum Frosch."
+        },
+        "G2-365": {
+          "title": "Entwicklung des Schmetterlings: Stadien beschriften",
+          "instruction": "Schreibe die Namen der vier Stufen aus dem Wörterkasten unter die Bilder, ein Wort im Kasten gehört nicht dazu."
+        },
+        "G2-366": {
+          "title": "Metamorphose: Welches Tier wird daraus?",
+          "instruction": "Schau dir jede Stufe an und schreibe ihren Buchstaben unter das erwachsene Tier, zu dem sie gehört; manche Kästchen bleiben leer."
+        },
+        "G3-393": {
+          "title": "Schmetterling und Frosch: Entwicklung im Vergleich",
+          "instruction": "Lies jeden Satz und kreuze den Schmetterling, den Frosch oder beide an, wenn der Satz für das Tier stimmt."
+        },
+        "G1-390": {
+          "title": "Was kommt danach? Schmetterling, Frosch und Marienkäfer",
+          "instruction": "Kreise in jeder Reihe das Bild ein, das direkt nach dem ersten kommt; nach dem erwachsenen Tier beginnt alles wieder beim Ei."
+        }
+      }
+    },
+    "earth-and-space": {
+      "hemisphere": "N",
+      "bodies": {
+        "sun": "Sonne",
+        "earth": "Erde",
+        "moon": "Mond"
+      },
+      "facts": {
+        "ownLight": "Ich mache mein eigenes Licht.",
+        "star": "Ich bin ein Stern.",
+        "hottest": "Ich bin am heißesten von uns dreien.",
+        "biggest": "Ich bin am größten von uns dreien.",
+        "liveOn": "Menschen und Tiere leben auf mir.",
+        "oceans": "Auf mir gibt es große Meere.",
+        "air": "Ich habe Luft, die man atmen kann.",
+        "planet": "Ich bin ein Planet.",
+        "spinDay": "Weil ich mich drehe, gibt es Tag und Nacht.",
+        "orbitsEarth": "In ungefähr einem Monat reise ich einmal um einen Planeten herum.",
+        "seemsToChange": "Meine Form sieht jeden Abend etwas anders aus.",
+        "craters": "Ich bin voller Krater.",
+        "smallest": "Ich bin am kleinsten von uns dreien."
+      },
+      "leakForms": [
+        "er",
+        "ihn",
+        "ihm",
+        "sein",
+        "seine",
+        "seinen",
+        "seinem",
+        "seiner",
+        "der",
+        "sie",
+        "ihr",
+        "ihre",
+        "ihren",
+        "ihrem",
+        "ihrer",
+        "dieser",
+        "diese",
+        "heißeste",
+        "größte",
+        "kleinste"
+      ],
+      "genderNeutral": true,
+      "forbiddenStems": [
+        "gibt Licht",
+        "gibt uns Licht",
+        "leuchtet",
+        "scheint",
+        "strahlt",
+        "nachts",
+        "in der Nacht",
+        "um die Sonne",
+        "geht auf",
+        "geht unter",
+        "aufgehen",
+        "untergehen",
+        "ist rund",
+        "am Himmel",
+        "betreten",
+        "keine Luft",
+        "spiegelt",
+        "wandert über",
+        "Sommer",
+        "Winter",
+        "Frühling",
+        "Herbst",
+        "Regen",
+        "Schnee",
+        "Wolke",
+        "Wolken",
+        "Wetter",
+        "heißer Tag",
+        "kalter Tag"
+      ],
+      "phaseNames": {
+        "0": "Neumond",
+        "2": "erstes Viertel",
+        "4": "Vollmond",
+        "6": "letztes Viertel"
+      },
+      "planets": {
+        "mercury": "Merkur",
+        "venus": "Venus",
+        "earth": "Erde",
+        "mars": "Mars",
+        "jupiter": "Jupiter",
+        "saturn": "Saturn",
+        "uranus": "Uranus",
+        "neptune": "Neptun"
+      },
+      "notPlanet": {
+        "sun": "Sonne",
+        "moon": "Mond"
+      },
+      "classLabels": {
+        "giant": "Riesenplanet",
+        "rocky": "kleiner Gesteinsplanet",
+        "notPlanet": "kein Planet"
+      },
+      "mnemonic": "Mein Vater erklärt mir jeden Sonntag unseren Nachthimmel",
+      "refuse": [],
+      "strings": {
+        "base": {
+          "title": "Sonne, Erde und Mond",
+          "instruction": "Lies jeden Satz und kreuze an, wer ihn sagt: die Sonne, die Erde oder der Mond."
+        },
+        "moon-phases-in-order": {
+          "title": "Mondphasen in der richtigen Reihenfolge",
+          "instruction": "Schau in jeder Reihe auf den Keil, ob der Mond zu- oder abnimmt, und schreibe 1 bis 5 in dieser Reihenfolge unter die Monde."
+        },
+        "moon-phase-names": {
+          "title": "Mondphasen benennen",
+          "instruction": "Schreibe zu jedem Mond das passende Wort aus dem Wörterkasten auf die Linien, jedes Wort brauchst du zweimal."
+        },
+        "day-and-night-model": {
+          "title": "Warum gibt es Tag und Nacht?",
+          "instruction": "Schau, wo die Sonne ist, und kreise in der Tabelle für jeden Punkt mit Zahl ein, ob dort Tag oder Nacht ist."
+        },
+        "planets-in-order": {
+          "title": "Die Planeten in der Reihenfolge von der Sonne aus",
+          "instruction": "Schreibe den Namen jedes Planeten auf seine Linie, beginne neben der Sonne und nimm jeden Namen von den Karten einmal."
+        },
+        "planet-sizes": {
+          "title": "Riesenplaneten und Gesteinsplaneten",
+          "instruction": "Sortiere die Namen und schreibe jeden in das richtige Feld: Riesenplanet, kleiner Gesteinsplanet oder kein Planet."
+        }
+      }
+    },
+    "maps": {
+      "keyTitle": "Legende",
+      "symbolWords": {
+        "house": "Haus",
+        "tree": "Baum",
+        "bush": "Busch",
+        "pond": "Teich",
+        "bench": "Bank",
+        "tent": "Zelt",
+        "flowerBed": "Blumenbeet",
+        "bridge": "Brücke"
+      },
+      "dirWords": {
+        "n": "Norden",
+        "e": "Osten",
+        "s": "Süden",
+        "w": "Westen"
+      },
+      "dirLetters": {
+        "n": "N",
+        "e": "O",
+        "s": "S",
+        "w": "W"
+      },
+      "continentSet": [
+        {
+          "id": "northAmerica",
+          "regions": [
+            "northAmerica"
+          ]
+        },
+        {
+          "id": "southAmerica",
+          "regions": [
+            "southAmerica"
+          ]
+        },
+        {
+          "id": "europe",
+          "regions": [
+            "europe"
+          ]
+        },
+        {
+          "id": "asia",
+          "regions": [
+            "asia"
+          ]
+        },
+        {
+          "id": "africa",
+          "regions": [
+            "africa"
+          ]
+        },
+        {
+          "id": "oceania",
+          "regions": [
+            "oceania"
+          ]
+        },
+        {
+          "id": "antarctica",
+          "regions": [
+            "antarctica"
+          ]
+        }
+      ],
+      "continentNames": {
+        "northAmerica": "Nordamerika",
+        "southAmerica": "Südamerika",
+        "europe": "Europa",
+        "asia": "Asien",
+        "africa": "Afrika",
+        "oceania": "Australien",
+        "antarctica": "Antarktis"
+      },
+      "oceanSet": [
+        "pacific",
+        "atlantic",
+        "indian",
+        "arctic",
+        "southern"
+      ],
+      "oceanNames": {
+        "pacific": "Pazifik",
+        "atlantic": "Atlantik",
+        "indian": "Indischer Ozean",
+        "arctic": "Nordpolarmeer",
+        "southern": "Südpolarmeer"
+      },
+      "setSource": "Grundschulatlas (Diercke / Westermann) und Sachunterricht Klasse 3: 7 Kontinente (Nord- und Südamerika getrennt, Antarktis mitgezählt, der Kontinent heißt in der Grundschule Australien); Weltmeere: Pazifik, Atlantik, Indischer Ozean sowie Nordpolarmeer und Südpolarmeer",
+      "mnemonic": "Nie Ohne Seife Waschen",
+      "refuse": [],
+      "instructionBans": {
+        "base": [
+          "Linie",
+          "verbinde",
+          "kreise"
+        ],
+        "top-view": [
+          "Kästchen",
+          "schreibe",
+          "kreise"
+        ],
+        "compass-rose": [
+          "Linie",
+          "verbinde",
+          "kreise"
+        ],
+        "continents": [
+          "verbinde",
+          "kreise"
+        ],
+        "continents-oceans": [
+          "Linie",
+          "verbinde",
+          "kreise"
+        ],
+        "directions-on-map": [
+          "schreibe",
+          "Linie",
+          "Kästchen"
+        ]
+      },
+      "strings": {
+        "base": {
+          "title": "Kartenzeichen und Legende lesen",
+          "instruction": "Schau dir die Legende an, finde jedes Zeichen auf der Karte und schreibe in das Kästchen, wie viele es sind."
+        },
+        "top-view": {
+          "title": "Vogelperspektive: von der Seite und von oben",
+          "instruction": "Jedes Ding ist von der Seite gemalt: Verbinde es mit einer Linie mit demselben Ding, von oben gesehen."
+        },
+        "compass-rose": {
+          "title": "Himmelsrichtungen: die Windrose ergänzen",
+          "instruction": "Die orange Spitze zeigt immer nach Norden: Schreibe in jede Windrose die drei fehlenden Buchstaben in die leeren Kästchen."
+        },
+        "continents": {
+          "title": "Die Kontinente beschriften",
+          "instruction": "Schreibe den Namen jedes nummerierten Kontinents auf seine Linie, die Namen stehen im Kasten."
+        },
+        "continents-oceans": {
+          "title": "Kontinente und Ozeane",
+          "instruction": "Finde jeden Kontinent und jeden Ozean auf der Karte und schreibe seine Zahl in das Kästchen neben seinem Namen."
+        },
+        "directions-on-map": {
+          "title": "Himmelsrichtungen auf der Karte",
+          "instruction": "Finde das erste Bild auf der Karte, schau in die Richtung, die das Wort nennt, und kreise von den drei Bildern das ein, das dort liegt."
+        }
+      }
+    },
+    "digraphs": {
+      "head": "Buchstabengruppen",
+      "refused": null,
+      "phonemes": [
+        "p",
+        "b",
+        "t",
+        "d",
+        "k",
+        "g",
+        "f",
+        "v",
+        "s",
+        "z",
+        "ʃ",
+        "ç",
+        "x",
+        "h",
+        "m",
+        "n",
+        "ŋ",
+        "l",
+        "ʁ",
+        "j",
+        "ts",
+        "pf",
+        "ks",
+        "a",
+        "aː",
+        "ɛ",
+        "ɛː",
+        "eː",
+        "ɪ",
+        "iː",
+        "ɔ",
+        "oː",
+        "ʊ",
+        "uː",
+        "ʏ",
+        "yː",
+        "œ",
+        "øː",
+        "ə",
+        "ɐ",
+        "aɪ",
+        "aʊ",
+        "ɔʏ"
+      ],
+      "teams": {
+        "sch": {
+          "t": "sch",
+          "sound": [
+            "ʃ"
+          ],
+          "items": [
+            {
+              "vocabKey": "ship",
+              "theme": "vehicles",
+              "noun": "ship",
+              "word": "Schiff",
+              "seg": [
+                "Sch",
+                "i",
+                "ff"
+              ],
+              "snd": [
+                "ʃ",
+                "ɪ",
+                "f"
+              ],
+              "silent": [],
+              "stem": "schiff",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "shoe",
+              "theme": "clothing",
+              "noun": "shoe",
+              "word": "Schuh",
+              "seg": [
+                "Sch",
+                "uh"
+              ],
+              "snd": [
+                "ʃ",
+                "uː"
+              ],
+              "silent": [],
+              "stem": "schuh",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "scarf",
+              "theme": "clothing",
+              "noun": "scarf",
+              "word": "Schal",
+              "seg": [
+                "Sch",
+                "a",
+                "l"
+              ],
+              "snd": [
+                "ʃ",
+                "aː",
+                "l"
+              ],
+              "silent": [],
+              "stem": "schal",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "scissors",
+              "theme": "classroom",
+              "noun": "scissors",
+              "word": "Schere",
+              "seg": [
+                "Sch",
+                "e",
+                "r",
+                "e"
+              ],
+              "snd": [
+                "ʃ",
+                "eː",
+                "ʁ",
+                "ə"
+              ],
+              "silent": [],
+              "stem": "schere",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "snail",
+              "theme": "forest creatures",
+              "noun": "snail",
+              "word": "Schnecke",
+              "seg": [
+                "Sch",
+                "n",
+                "e",
+                "ck",
+                "e"
+              ],
+              "snd": [
+                "ʃ",
+                "n",
+                "ɛ",
+                "k",
+                "ə"
+              ],
+              "silent": [],
+              "stem": "schnecke",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "pig",
+              "theme": "farm animals",
+              "noun": "pig",
+              "word": "Schwein",
+              "seg": [
+                "Sch",
+                "w",
+                "ei",
+                "n"
+              ],
+              "snd": [
+                "ʃ",
+                "v",
+                "aɪ",
+                "n"
+              ],
+              "silent": [],
+              "stem": "schwein",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "swan",
+              "theme": "birds 2",
+              "noun": "swan",
+              "word": "Schwan",
+              "seg": [
+                "Sch",
+                "w",
+                "a",
+                "n"
+              ],
+              "snd": [
+                "ʃ",
+                "v",
+                "aː",
+                "n"
+              ],
+              "silent": [],
+              "stem": "schwan",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "key",
+              "theme": "around the house",
+              "noun": "key",
+              "word": "Schlüssel",
+              "seg": [
+                "Sch",
+                "l",
+                "ü",
+                "ss",
+                "e",
+                "l"
+              ],
+              "snd": [
+                "ʃ",
+                "l",
+                "ʏ",
+                "s",
+                "ə",
+                "l"
+              ],
+              "silent": [],
+              "stem": "schlüssel",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "lock",
+              "theme": "around the house",
+              "noun": "lock",
+              "word": "Schloss",
+              "seg": [
+                "Sch",
+                "l",
+                "o",
+                "ss"
+              ],
+              "snd": [
+                "ʃ",
+                "l",
+                "ɔ",
+                "s"
+              ],
+              "silent": [],
+              "stem": "schloss",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "turtle",
+              "theme": "pets",
+              "noun": "turtle",
+              "word": "Schildkröte",
+              "seg": [
+                "Sch",
+                "i",
+                "l",
+                "d",
+                "k",
+                "r",
+                "ö",
+                "t",
+                "e"
+              ],
+              "snd": [
+                "ʃ",
+                "ɪ",
+                "l",
+                "t",
+                "k",
+                "ʁ",
+                "øː",
+                "t",
+                "ə"
+              ],
+              "silent": [],
+              "stem": "schildkröte",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "sled",
+              "theme": "winter",
+              "noun": "sled",
+              "word": "Schlitten",
+              "seg": [
+                "Sch",
+                "l",
+                "i",
+                "tt",
+                "e",
+                "n"
+              ],
+              "snd": [
+                "ʃ",
+                "l",
+                "ɪ",
+                "t",
+                "ə",
+                "n"
+              ],
+              "silent": [],
+              "stem": "schlitten",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "snowman",
+              "theme": "winter",
+              "noun": "snowman",
+              "word": "Schneemann",
+              "seg": [
+                "Sch",
+                "n",
+                "ee",
+                "m",
+                "a",
+                "nn"
+              ],
+              "snd": [
+                "ʃ",
+                "n",
+                "eː",
+                "m",
+                "a",
+                "n"
+              ],
+              "silent": [],
+              "stem": "schneemann",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "fish",
+              "theme": "ocean life",
+              "noun": "fish",
+              "word": "Fisch",
+              "seg": [
+                "F",
+                "i",
+                "sch"
+              ],
+              "snd": [
+                "f",
+                "ɪ",
+                "ʃ"
+              ],
+              "silent": [],
+              "stem": "fisch",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "table",
+              "theme": "furniture",
+              "noun": "table",
+              "word": "Tisch",
+              "seg": [
+                "T",
+                "i",
+                "sch"
+              ],
+              "snd": [
+                "t",
+                "ɪ",
+                "ʃ"
+              ],
+              "silent": [],
+              "stem": "tisch",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "frog",
+              "theme": "forest creatures",
+              "noun": "frog",
+              "word": "Frosch",
+              "seg": [
+                "F",
+                "r",
+                "o",
+                "sch"
+              ],
+              "snd": [
+                "f",
+                "ʁ",
+                "ɔ",
+                "ʃ"
+              ],
+              "silent": [],
+              "stem": "frosch",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "bottle",
+              "theme": "kitchen tools",
+              "noun": "bottle",
+              "word": "Flasche",
+              "seg": [
+                "F",
+                "l",
+                "a",
+                "sch",
+                "e"
+              ],
+              "snd": [
+                "f",
+                "l",
+                "a",
+                "ʃ",
+                "ə"
+              ],
+              "silent": [],
+              "stem": "flasche",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "seashell",
+              "theme": "beach",
+              "noun": "seashell",
+              "word": "Muschel",
+              "seg": [
+                "M",
+                "u",
+                "sch",
+                "e",
+                "l"
+              ],
+              "snd": [
+                "m",
+                "ʊ",
+                "ʃ",
+                "ə",
+                "l"
+              ],
+              "silent": [],
+              "stem": "muschel",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "glove",
+              "theme": "clothing",
+              "noun": "glove",
+              "word": "Handschuh",
+              "seg": [
+                "H",
+                "a",
+                "n",
+                "d",
+                "sch",
+                "uh"
+              ],
+              "snd": [
+                "h",
+                "a",
+                "n",
+                "t",
+                "ʃ",
+                "uː"
+              ],
+              "silent": [],
+              "stem": "schuh",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "umbrella",
+              "theme": "weather",
+              "noun": "umbrella",
+              "word": "Regenschirm",
+              "seg": [
+                "R",
+                "e",
+                "g",
+                "e",
+                "n",
+                "sch",
+                "i",
+                "r",
+                "m"
+              ],
+              "snd": [
+                "ʁ",
+                "eː",
+                "g",
+                "ə",
+                "n",
+                "ʃ",
+                "ɪ",
+                "ʁ",
+                "m"
+              ],
+              "silent": [],
+              "stem": "regenschirm",
+              "picOpened": true
+            }
+          ]
+        },
+        "ch": {
+          "t": "ch",
+          "sound": [
+            "ç",
+            "x"
+          ],
+          "items": [
+            {
+              "vocabKey": "book",
+              "theme": "classroom",
+              "noun": "book",
+              "word": "Buch",
+              "seg": [
+                "B",
+                "u",
+                "ch"
+              ],
+              "snd": [
+                "b",
+                "uː",
+                "x"
+              ],
+              "silent": [],
+              "stem": "buch",
+              "noGap": true,
+              "picOpened": true
+            },
+            {
+              "vocabKey": "kitchen",
+              "theme": "around the house",
+              "noun": "kitchen",
+              "word": "Küche",
+              "seg": [
+                "K",
+                "ü",
+                "ch",
+                "e"
+              ],
+              "snd": [
+                "k",
+                "ʏ",
+                "ç",
+                "ə"
+              ],
+              "silent": [],
+              "stem": "küche",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "kite",
+              "theme": "toys",
+              "noun": "kite",
+              "word": "Drachen",
+              "seg": [
+                "D",
+                "r",
+                "a",
+                "ch",
+                "e",
+                "n"
+              ],
+              "snd": [
+                "d",
+                "ʁ",
+                "a",
+                "x",
+                "ə",
+                "n"
+              ],
+              "silent": [],
+              "stem": "drache",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "dragon",
+              "theme": "Things That Fly",
+              "noun": "dragon",
+              "word": "Drache",
+              "seg": [
+                "D",
+                "r",
+                "a",
+                "ch",
+                "e"
+              ],
+              "snd": [
+                "d",
+                "ʁ",
+                "a",
+                "x",
+                "ə"
+              ],
+              "silent": [],
+              "stem": "drache",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "cook",
+              "theme": "occupations",
+              "noun": "cook",
+              "word": "Koch",
+              "seg": [
+                "K",
+                "o",
+                "ch"
+              ],
+              "snd": [
+                "k",
+                "ɔ",
+                "x"
+              ],
+              "silent": [],
+              "stem": "koch",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "acorn",
+              "theme": "miscellaneous",
+              "noun": "acorn",
+              "word": "Eichel",
+              "seg": [
+                "Ei",
+                "ch",
+                "e",
+                "l"
+              ],
+              "snd": [
+                "aɪ",
+                "ç",
+                "ə",
+                "l"
+              ],
+              "silent": [],
+              "stem": "eichel",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "church",
+              "theme": "christmas",
+              "noun": "church",
+              "word": "Kirche",
+              "seg": [
+                "K",
+                "i",
+                "r",
+                "ch",
+                "e"
+              ],
+              "snd": [
+                "k",
+                "ɪ",
+                "ʁ",
+                "ç",
+                "ə"
+              ],
+              "silent": [],
+              "stem": "kirche",
+              "noGap": true,
+              "picOpened": true
+            },
+            {
+              "vocabKey": "face",
+              "theme": "body parts",
+              "noun": "face",
+              "word": "Gesicht",
+              "seg": [
+                "G",
+                "e",
+                "s",
+                "i",
+                "ch",
+                "t"
+              ],
+              "snd": [
+                "g",
+                "ə",
+                "z",
+                "ɪ",
+                "ç",
+                "t"
+              ],
+              "silent": [],
+              "stem": "gesicht",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "lights",
+              "theme": "christmas",
+              "noun": "lights",
+              "word": "Lichterkette",
+              "seg": [
+                "L",
+                "i",
+                "ch",
+                "t",
+                "e",
+                "r",
+                "k",
+                "e",
+                "tt",
+                "e"
+              ],
+              "snd": [
+                "l",
+                "ɪ",
+                "ç",
+                "t",
+                "ə",
+                "ʁ",
+                "k",
+                "ɛ",
+                "t",
+                "ə"
+              ],
+              "silent": [],
+              "stem": "lichterkette",
+              "picOpened": true
+            }
+          ]
+        },
+        "au": {
+          "t": "au",
+          "sound": [
+            "aʊ"
+          ],
+          "items": [
+            {
+              "vocabKey": "mouse",
+              "theme": "pets",
+              "noun": "mouse",
+              "word": "Maus",
+              "seg": [
+                "M",
+                "au",
+                "s"
+              ],
+              "snd": [
+                "m",
+                "aʊ",
+                "s"
+              ],
+              "silent": [],
+              "stem": "maus",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "house",
+              "theme": "miscellaneous",
+              "noun": "house",
+              "word": "Haus",
+              "seg": [
+                "H",
+                "au",
+                "s"
+              ],
+              "snd": [
+                "h",
+                "aʊ",
+                "s"
+              ],
+              "silent": [],
+              "stem": "haus",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "dove",
+              "theme": "birds 2",
+              "noun": "dove",
+              "word": "Taube",
+              "seg": [
+                "T",
+                "au",
+                "b",
+                "e"
+              ],
+              "snd": [
+                "t",
+                "aʊ",
+                "b",
+                "ə"
+              ],
+              "silent": [],
+              "stem": "taube",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "grapes",
+              "theme": "breakfast",
+              "noun": "grapes",
+              "word": "Trauben",
+              "seg": [
+                "T",
+                "r",
+                "au",
+                "b",
+                "e",
+                "n"
+              ],
+              "snd": [
+                "t",
+                "ʁ",
+                "aʊ",
+                "b",
+                "ə",
+                "n"
+              ],
+              "silent": [],
+              "stem": "trauben",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "fence",
+              "theme": "around the house",
+              "noun": "fence",
+              "word": "Zaun",
+              "seg": [
+                "Z",
+                "au",
+                "n"
+              ],
+              "snd": [
+                "ts",
+                "aʊ",
+                "n"
+              ],
+              "silent": [],
+              "stem": "zaun",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "peacock",
+              "theme": "birds 2",
+              "noun": "peacock",
+              "word": "Pfau",
+              "seg": [
+                "Pf",
+                "au"
+              ],
+              "snd": [
+                "pf",
+                "aʊ"
+              ],
+              "silent": [],
+              "stem": "pfau",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "caterpillar",
+              "theme": "insects and bugs",
+              "noun": "caterpillar",
+              "word": "Raupe",
+              "seg": [
+                "R",
+                "au",
+                "p",
+                "e"
+              ],
+              "snd": [
+                "ʁ",
+                "aʊ",
+                "p",
+                "ə"
+              ],
+              "silent": [],
+              "stem": "raupe",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "sloth",
+              "theme": "zoo animals",
+              "noun": "sloth",
+              "word": "Faultier",
+              "seg": [
+                "F",
+                "au",
+                "l",
+                "t",
+                "ie",
+                "r"
+              ],
+              "snd": [
+                "f",
+                "aʊ",
+                "l",
+                "t",
+                "iː",
+                "ʁ"
+              ],
+              "silent": [],
+              "stem": "faultier",
+              "picOpened": true
+            },
+            {
+              "vocabKey": "bat",
+              "theme": "forest creatures",
+              "noun": "bat",
+              "word": "Fledermaus",
+              "seg": [
+                "F",
+                "l",
+                "e",
+                "d",
+                "e",
+                "r",
+                "m",
+                "au",
+                "s"
+              ],
+              "snd": [
+                "f",
+                "l",
+                "eː",
+                "d",
+                "ə",
+                "ʁ",
+                "m",
+                "aʊ",
+                "s"
+              ],
+              "silent": [],
+              "stem": "maus",
+              "picOpened": true
+            }
+          ]
+        }
+      },
+      "samesound": [],
+      "falsePairs": [
+        {
+          "word": "Häschen",
+          "letters": "sch",
+          "why": "Häs-chen: s gehört zum Hasen, -chen ist die Verkleinerung; man spricht s und ch, kein sch"
+        },
+        {
+          "word": "Radieschen",
+          "letters": "sch",
+          "why": "Radies-chen: s und ch stehen an der Silbenfuge, zwei Laute"
+        },
+        {
+          "word": "Röschen",
+          "letters": "sch",
+          "why": "Rös-chen: kleine Rose, s und ch getrennt gesprochen"
+        },
+        {
+          "word": "Fuchs",
+          "letters": "ch",
+          "why": "chs spricht man hier /ks/, nicht den ch-Laut"
+        },
+        {
+          "word": "Dachs",
+          "letters": "ch",
+          "why": "chs = /ks/"
+        },
+        {
+          "word": "Ochse",
+          "letters": "ch",
+          "why": "chs = /ks/"
+        },
+        {
+          "word": "Eidechse",
+          "letters": "ch",
+          "why": "chs = /ks/"
+        },
+        {
+          "word": "Sechseck",
+          "letters": "ch",
+          "why": "chs = /ks/"
+        },
+        {
+          "word": "Chef",
+          "letters": "ch",
+          "why": "Lehnwort aus dem Französischen, ch = /ʃ/"
+        },
+        {
+          "word": "Chor",
+          "letters": "ch",
+          "why": "Lehnwort aus dem Griechischen, ch = /k/"
+        },
+        {
+          "word": "Aubergine",
+          "letters": "au",
+          "why": "Lehnwort aus dem Französischen, au = /oː/"
+        }
+      ],
+      "sets": {
+        "exemplar": [
+          "sch",
+          "ch",
+          "au"
+        ],
+        "k": [
+          "sch",
+          "au"
+        ],
+        "position": [
+          "sch",
+          "ch",
+          "au"
+        ]
+      },
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Das Schaf steht am Tisch.",
+          "target": "sch",
+          "hits": 2,
+          "tokens": [
+            {
+              "w": "Das",
+              "seg": [
+                "D",
+                "a",
+                "s"
+              ]
+            },
+            {
+              "w": "Schaf",
+              "seg": [
+                "Sch",
+                "a",
+                "f"
+              ]
+            },
+            {
+              "w": "steht",
+              "seg": [
+                "s",
+                "t",
+                "eh",
+                "t"
+              ]
+            },
+            {
+              "w": "am",
+              "seg": [
+                "a",
+                "m"
+              ]
+            },
+            {
+              "w": "Tisch",
+              "seg": [
+                "T",
+                "i",
+                "sch"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Der Fisch schwimmt im Teich.",
+          "target": "sch",
+          "hits": 2,
+          "tokens": [
+            {
+              "w": "Der",
+              "seg": [
+                "D",
+                "e",
+                "r"
+              ]
+            },
+            {
+              "w": "Fisch",
+              "seg": [
+                "F",
+                "i",
+                "sch"
+              ]
+            },
+            {
+              "w": "schwimmt",
+              "seg": [
+                "sch",
+                "w",
+                "i",
+                "m",
+                "m",
+                "t"
+              ]
+            },
+            {
+              "w": "im",
+              "seg": [
+                "i",
+                "m"
+              ]
+            },
+            {
+              "w": "Teich",
+              "seg": [
+                "T",
+                "ei",
+                "ch"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Die Schnecke kriecht schnell zur Schule.",
+          "target": "sch",
+          "hits": 3,
+          "tokens": [
+            {
+              "w": "Die",
+              "seg": [
+                "D",
+                "ie"
+              ]
+            },
+            {
+              "w": "Schnecke",
+              "seg": [
+                "Sch",
+                "n",
+                "e",
+                "ck",
+                "e"
+              ]
+            },
+            {
+              "w": "kriecht",
+              "seg": [
+                "k",
+                "r",
+                "ie",
+                "ch",
+                "t"
+              ]
+            },
+            {
+              "w": "schnell",
+              "seg": [
+                "sch",
+                "n",
+                "e",
+                "l",
+                "l"
+              ]
+            },
+            {
+              "w": "zur",
+              "seg": [
+                "z",
+                "u",
+                "r"
+              ]
+            },
+            {
+              "w": "Schule",
+              "seg": [
+                "Sch",
+                "u",
+                "l",
+                "e"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Papa wäscht die Schüssel.",
+          "target": "sch",
+          "hits": 2,
+          "tokens": [
+            {
+              "w": "Papa",
+              "seg": [
+                "P",
+                "a",
+                "p",
+                "a"
+              ]
+            },
+            {
+              "w": "wäscht",
+              "seg": [
+                "w",
+                "ä",
+                "sch",
+                "t"
+              ]
+            },
+            {
+              "w": "die",
+              "seg": [
+                "d",
+                "ie"
+              ]
+            },
+            {
+              "w": "Schüssel",
+              "seg": [
+                "Sch",
+                "ü",
+                "ss",
+                "e",
+                "l"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Im Schrank liegt ein Schal.",
+          "target": "sch",
+          "hits": 2,
+          "tokens": [
+            {
+              "w": "Im",
+              "seg": [
+                "I",
+                "m"
+              ]
+            },
+            {
+              "w": "Schrank",
+              "seg": [
+                "Sch",
+                "r",
+                "a",
+                "n",
+                "k"
+              ]
+            },
+            {
+              "w": "liegt",
+              "seg": [
+                "l",
+                "ie",
+                "g",
+                "t"
+              ]
+            },
+            {
+              "w": "ein",
+              "seg": [
+                "ei",
+                "n"
+              ]
+            },
+            {
+              "w": "Schal",
+              "seg": [
+                "Sch",
+                "a",
+                "l"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Der Frosch und der Fisch schwimmen im See.",
+          "target": "sch",
+          "hits": 3,
+          "tokens": [
+            {
+              "w": "Der",
+              "seg": [
+                "D",
+                "e",
+                "r"
+              ]
+            },
+            {
+              "w": "Frosch",
+              "seg": [
+                "F",
+                "r",
+                "o",
+                "sch"
+              ]
+            },
+            {
+              "w": "und",
+              "seg": [
+                "u",
+                "n",
+                "d"
+              ]
+            },
+            {
+              "w": "der",
+              "seg": [
+                "d",
+                "e",
+                "r"
+              ]
+            },
+            {
+              "w": "Fisch",
+              "seg": [
+                "F",
+                "i",
+                "sch"
+              ]
+            },
+            {
+              "w": "schwimmen",
+              "seg": [
+                "sch",
+                "w",
+                "i",
+                "m",
+                "m",
+                "e",
+                "n"
+              ]
+            },
+            {
+              "w": "im",
+              "seg": [
+                "i",
+                "m"
+              ]
+            },
+            {
+              "w": "See",
+              "seg": [
+                "S",
+                "ee"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "Der Hund schläft im Garten.",
+          "target": "sch",
+          "hits": 1,
+          "tokens": [
+            {
+              "w": "Der",
+              "seg": [
+                "D",
+                "e",
+                "r"
+              ]
+            },
+            {
+              "w": "Hund",
+              "seg": [
+                "H",
+                "u",
+                "n",
+                "d"
+              ]
+            },
+            {
+              "w": "schläft",
+              "seg": [
+                "sch",
+                "l",
+                "ä",
+                "f",
+                "t"
+              ]
+            },
+            {
+              "w": "im",
+              "seg": [
+                "i",
+                "m"
+              ]
+            },
+            {
+              "w": "Garten",
+              "seg": [
+                "G",
+                "a",
+                "r",
+                "t",
+                "e",
+                "n"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "text": "Schau, im Schrank sind Schuhe und eine Flasche.",
+          "target": "sch",
+          "hits": 4,
+          "tokens": [
+            {
+              "w": "Schau",
+              "seg": [
+                "Sch",
+                "au"
+              ]
+            },
+            {
+              "w": "im",
+              "seg": [
+                "i",
+                "m"
+              ]
+            },
+            {
+              "w": "Schrank",
+              "seg": [
+                "Sch",
+                "r",
+                "a",
+                "n",
+                "k"
+              ]
+            },
+            {
+              "w": "sind",
+              "seg": [
+                "s",
+                "i",
+                "n",
+                "d"
+              ]
+            },
+            {
+              "w": "Schuhe",
+              "seg": [
+                "Sch",
+                "uh",
+                "e"
+              ]
+            },
+            {
+              "w": "und",
+              "seg": [
+                "u",
+                "n",
+                "d"
+              ]
+            },
+            {
+              "w": "eine",
+              "seg": [
+                "ei",
+                "n",
+                "e"
+              ]
+            },
+            {
+              "w": "Flasche",
+              "seg": [
+                "F",
+                "l",
+                "a",
+                "sch",
+                "e"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "text": "Opa liest eine Geschichte vor.",
+          "target": "sch",
+          "hits": 1,
+          "tokens": [
+            {
+              "w": "Opa",
+              "seg": [
+                "O",
+                "p",
+                "a"
+              ]
+            },
+            {
+              "w": "liest",
+              "seg": [
+                "l",
+                "ie",
+                "s",
+                "t"
+              ]
+            },
+            {
+              "w": "eine",
+              "seg": [
+                "ei",
+                "n",
+                "e"
+              ]
+            },
+            {
+              "w": "Geschichte",
+              "seg": [
+                "G",
+                "e",
+                "sch",
+                "i",
+                "ch",
+                "t",
+                "e"
+              ]
+            },
+            {
+              "w": "vor",
+              "seg": [
+                "v",
+                "o",
+                "r"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s10",
+          "text": "Ich wasche den Tisch und die Schüssel.",
+          "target": "sch",
+          "hits": 3,
+          "tokens": [
+            {
+              "w": "Ich",
+              "seg": [
+                "I",
+                "ch"
+              ]
+            },
+            {
+              "w": "wasche",
+              "seg": [
+                "w",
+                "a",
+                "sch",
+                "e"
+              ]
+            },
+            {
+              "w": "den",
+              "seg": [
+                "d",
+                "e",
+                "n"
+              ]
+            },
+            {
+              "w": "Tisch",
+              "seg": [
+                "T",
+                "i",
+                "sch"
+              ]
+            },
+            {
+              "w": "und",
+              "seg": [
+                "u",
+                "n",
+                "d"
+              ]
+            },
+            {
+              "w": "die",
+              "seg": [
+                "d",
+                "ie"
+              ]
+            },
+            {
+              "w": "Schüssel",
+              "seg": [
+                "Sch",
+                "ü",
+                "ss",
+                "e",
+                "l"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s11",
+          "text": "Das Schwein liegt im Matsch.",
+          "target": "sch",
+          "hits": 2,
+          "tokens": [
+            {
+              "w": "Das",
+              "seg": [
+                "D",
+                "a",
+                "s"
+              ]
+            },
+            {
+              "w": "Schwein",
+              "seg": [
+                "Sch",
+                "w",
+                "ei",
+                "n"
+              ]
+            },
+            {
+              "w": "liegt",
+              "seg": [
+                "l",
+                "ie",
+                "g",
+                "t"
+              ]
+            },
+            {
+              "w": "im",
+              "seg": [
+                "i",
+                "m"
+              ]
+            },
+            {
+              "w": "Matsch",
+              "seg": [
+                "M",
+                "a",
+                "t",
+                "sch"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s12",
+          "text": "Am Strand liegt eine Muschel.",
+          "target": "sch",
+          "hits": 1,
+          "tokens": [
+            {
+              "w": "Am",
+              "seg": [
+                "A",
+                "m"
+              ]
+            },
+            {
+              "w": "Strand",
+              "seg": [
+                "S",
+                "t",
+                "r",
+                "a",
+                "n",
+                "d"
+              ]
+            },
+            {
+              "w": "liegt",
+              "seg": [
+                "l",
+                "ie",
+                "g",
+                "t"
+              ]
+            },
+            {
+              "w": "eine",
+              "seg": [
+                "ei",
+                "n",
+                "e"
+              ]
+            },
+            {
+              "w": "Muschel",
+              "seg": [
+                "M",
+                "u",
+                "sch",
+                "e",
+                "l"
+              ]
+            }
+          ]
+        }
+      ],
+      "rejectedPics": [
+        {
+          "pic": "fruits/cherry",
+          "why": "sieht aus wie ein Apfel (Design §4)"
+        },
+        {
+          "pic": "fruits/peach",
+          "why": "sieht aus wie ein Apfel (Design §4)"
+        },
+        {
+          "pic": "christmas/chimney",
+          "why": "ein Kamin, kein Schornstein (Design §4)"
+        },
+        {
+          "pic": "body parts/mouth",
+          "why": "ein Kind sagt „Lippen“ (Design §4)"
+        },
+        {
+          "pic": "colors/white",
+          "why": "ein weißer Farbklecks (Design §1)"
+        },
+        {
+          "pic": "shapes/cone",
+          "why": "ein Kegelstumpf / Lampenschirm (Design §1)"
+        },
+        {
+          "pic": "easter/chick",
+          "why": "wirkt wie ein Entenküken: ein Kind sagt „Ente“ (Review 2026-09-23)"
+        },
+        {
+          "pic": "classroom/lunchbox",
+          "why": "wirkt wie eine Schatzkiste (Review 2026-09-23)"
+        },
+        {
+          "pic": "breakfast/milk",
+          "why": "eine Milchflasche: ein Kind sagt „Flasche“ (sch) statt „Milch“ (de Panel, geöffnet)"
+        },
+        {
+          "pic": "forest creatures/moose",
+          "why": "wird als Hirsch oder Rentier gelesen; „Hirsch“ trägt sch (de Panel, geöffnet)"
+        },
+        {
+          "pic": "bakery/cake",
+          "why": "ein Tortenstück mit Sahne: ein Kind sagt „Torte“ (de Panel, geöffnet)"
+        },
+        {
+          "pic": "forest creatures/deer",
+          "why": "ein Kind sagt oft „Reh“ statt „Hirsch“ (de Panel)"
+        },
+        {
+          "pic": "around the house/brush",
+          "why": "ein Malpinsel, kein Bürste (de Panel, geöffnet)"
+        },
+        {
+          "pic": "fruits/plum",
+          "why": "sieht aus wie ein roter Apfel (Befund aus sv #35)"
+        },
+        {
+          "pic": "christmas/tree",
+          "why": "ein geschmückter Weihnachtsbaum: „Weihnachtsbaum“ trägt ch (de Panel)"
+        },
+        {
+          "pic": "shapes/rectangle",
+          "why": "eine leere lila Fläche ohne Umriss: ein Kind sagt „Viereck“ oder „Karte“ (de Panel r2)"
+        },
+        {
+          "pic": "body parts/thumb",
+          "why": "eine Hand mit Daumen hoch: ein Kind sagt „Hand“ (de Panel r2)"
+        }
+      ],
+      "strings": {
+        "base": {
+          "title": "Buchstabengruppen sch, ch, au: Welche hörst du?",
+          "instruction": "Sprich den Namen jedes Bildes und kreise die Buchstabengruppe ein, die du hörst."
+        },
+        "sort-two": {
+          "title": "Buchstabengruppen sortieren: sch oder au",
+          "instruction": "Sprich den Namen jedes Bildes und verbinde es mit einer Linie mit der Buchstabengruppe, die du hörst."
+        },
+        "gap": {
+          "title": "Fehlende Buchstabengruppe einsetzen: sch, ch oder au",
+          "instruction": "Sprich jedes Bildwort und schreibe die fehlende Buchstabengruppe von oben in das gestrichelte Feld."
+        },
+        "match": {
+          "title": "Wörter mit sch, ch und au lesen und zuordnen",
+          "instruction": "Lies jedes Wort, die Buchstabengruppe ist markiert, und verbinde es mit einer Linie mit dem passenden Bild."
+        },
+        "position": {
+          "title": "Wo hörst du sch, ch oder au im Wort?",
+          "instruction": "Sprich jedes Bildwort und male das Feld an, wo du die Buchstabengruppe hörst: am Anfang, in der Mitte oder am Ende."
+        },
+        "text": {
+          "title": "Wörter mit sch in Sätzen finden und zählen",
+          "instruction": "Lies die Sätze, kreise jedes sch ein und schreibe in das Kästchen, wie oft es im Satz vorkommt."
+        }
+      }
+    },
+    "synonyms": {
+      "head": "Wortfelder und Synonyme",
+      "allowed": [
+        " ",
+        "-"
+      ],
+      "ban": [
+        "schwer",
+        "sauer",
+        "toll",
+        "hell",
+        "leicht",
+        "ruhig",
+        "komisch",
+        "super",
+        "cool",
+        "geil",
+        "nett"
+      ],
+      "regional": [
+        [
+          "gucken",
+          "schauen"
+        ]
+      ],
+      "groups": [
+        {
+          "id": "g.happy",
+          "concept": "happy",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "fröhlich",
+            "glücklich"
+          ]
+        },
+        {
+          "id": "g.sad",
+          "concept": "sad",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "traurig",
+            "betrübt"
+          ]
+        },
+        {
+          "id": "g.angry",
+          "concept": "angry",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "wütend",
+            "zornig"
+          ]
+        },
+        {
+          "id": "g.scared",
+          "concept": "scared",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 1,
+          "words": [
+            "ängstlich",
+            "verängstigt"
+          ]
+        },
+        {
+          "id": "g.surprised",
+          "concept": "surprised",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 2,
+          "words": [
+            "überrascht",
+            "erstaunt",
+            "verblüfft"
+          ]
+        },
+        {
+          "id": "g.calm",
+          "concept": "calm",
+          "pos": "adj",
+          "domain": "feelings",
+          "tier": 2,
+          "words": [
+            "gelassen",
+            "entspannt"
+          ]
+        },
+        {
+          "id": "g.tired",
+          "concept": "tired",
+          "pos": "adj",
+          "domain": "body",
+          "tier": 1,
+          "words": [
+            "müde",
+            "schläfrig"
+          ]
+        },
+        {
+          "id": "g.strong",
+          "concept": "strong",
+          "pos": "adj",
+          "domain": "body",
+          "tier": 2,
+          "words": [
+            "stark",
+            "kräftig"
+          ]
+        },
+        {
+          "id": "g.big",
+          "concept": "big",
+          "pos": "adj",
+          "domain": "size-speed",
+          "tier": 1,
+          "words": [
+            "groß",
+            "riesig"
+          ]
+        },
+        {
+          "id": "g.small",
+          "concept": "small",
+          "pos": "adj",
+          "domain": "size-speed",
+          "tier": 1,
+          "words": [
+            "klein",
+            "winzig"
+          ]
+        },
+        {
+          "id": "g.fast",
+          "concept": "fast",
+          "pos": "adj",
+          "domain": "size-speed",
+          "tier": 1,
+          "words": [
+            "schnell",
+            "flink",
+            "rasch"
+          ]
+        },
+        {
+          "id": "g.easy",
+          "concept": "easy",
+          "pos": "adj",
+          "domain": "thinking",
+          "tier": 1,
+          "words": [
+            "einfach",
+            "simpel"
+          ]
+        },
+        {
+          "id": "g.difficult",
+          "concept": "difficult",
+          "pos": "adj",
+          "domain": "thinking",
+          "tier": 2,
+          "words": [
+            "schwierig",
+            "knifflig"
+          ]
+        },
+        {
+          "id": "g.smart",
+          "concept": "smart",
+          "pos": "adj",
+          "domain": "thinking",
+          "tier": 2,
+          "words": [
+            "klug",
+            "schlau",
+            "gescheit"
+          ]
+        },
+        {
+          "id": "g.brave",
+          "concept": "brave",
+          "pos": "adj",
+          "domain": "character",
+          "tier": 2,
+          "words": [
+            "mutig",
+            "tapfer"
+          ]
+        },
+        {
+          "id": "g.funny",
+          "concept": "funny",
+          "pos": "adj",
+          "domain": "character",
+          "tier": 2,
+          "words": [
+            "lustig",
+            "witzig"
+          ]
+        },
+        {
+          "id": "g.strange",
+          "concept": "strange",
+          "pos": "adj",
+          "domain": "character",
+          "tier": 2,
+          "words": [
+            "seltsam",
+            "merkwürdig"
+          ]
+        },
+        {
+          "id": "g.loud",
+          "concept": "loud",
+          "pos": "adj",
+          "domain": "senses",
+          "tier": 1,
+          "words": [
+            "laut",
+            "lärmend"
+          ]
+        },
+        {
+          "id": "g.quiet",
+          "concept": "quiet",
+          "pos": "adj",
+          "domain": "senses",
+          "tier": 2,
+          "words": [
+            "leise",
+            "still"
+          ]
+        },
+        {
+          "id": "g.tasty",
+          "concept": "tasty",
+          "pos": "adj",
+          "domain": "senses",
+          "tier": 1,
+          "words": [
+            "lecker",
+            "köstlich"
+          ]
+        },
+        {
+          "id": "g.cozy",
+          "concept": "cozy",
+          "pos": "adj",
+          "domain": "senses",
+          "tier": 2,
+          "words": [
+            "gemütlich",
+            "behaglich"
+          ]
+        },
+        {
+          "id": "g.pretty",
+          "concept": "pretty",
+          "pos": "adj",
+          "domain": "looks",
+          "tier": 1,
+          "words": [
+            "schön",
+            "hübsch"
+          ]
+        },
+        {
+          "id": "g.tidy",
+          "concept": "tidy",
+          "pos": "adj",
+          "domain": "looks",
+          "tier": 2,
+          "words": [
+            "ordentlich",
+            "aufgeräumt"
+          ]
+        },
+        {
+          "id": "g.dirty",
+          "concept": "dirty",
+          "pos": "adj",
+          "domain": "looks",
+          "tier": 2,
+          "words": [
+            "schmutzig",
+            "dreckig"
+          ]
+        },
+        {
+          "id": "g.begin",
+          "concept": "begin",
+          "pos": "verb",
+          "domain": "begin-end",
+          "tier": 1,
+          "words": [
+            "anfangen",
+            "beginnen"
+          ]
+        },
+        {
+          "id": "g.end",
+          "concept": "end",
+          "pos": "verb",
+          "domain": "begin-end",
+          "tier": 1,
+          "words": [
+            "aufhören",
+            "enden"
+          ]
+        },
+        {
+          "id": "g.shut",
+          "concept": "shut",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 1,
+          "words": [
+            "schließen",
+            "zumachen"
+          ]
+        },
+        {
+          "id": "g.choose",
+          "concept": "choose",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 2,
+          "words": [
+            "wählen",
+            "aussuchen"
+          ]
+        },
+        {
+          "id": "g.help",
+          "concept": "help",
+          "pos": "verb",
+          "domain": "hands",
+          "tier": 2,
+          "words": [
+            "helfen",
+            "unterstützen"
+          ]
+        },
+        {
+          "id": "g.jump",
+          "concept": "jump",
+          "pos": "verb",
+          "domain": "move",
+          "tier": 1,
+          "words": [
+            "springen",
+            "hüpfen"
+          ]
+        },
+        {
+          "id": "g.fall",
+          "concept": "fall",
+          "pos": "verb",
+          "domain": "move",
+          "tier": 2,
+          "words": [
+            "fallen",
+            "stürzen"
+          ]
+        },
+        {
+          "id": "g.talk",
+          "concept": "talk",
+          "pos": "verb",
+          "domain": "speak",
+          "tier": 1,
+          "words": [
+            "sprechen",
+            "reden"
+          ]
+        },
+        {
+          "id": "g.shout",
+          "concept": "shout",
+          "pos": "verb",
+          "domain": "speak",
+          "tier": 1,
+          "words": [
+            "schreien",
+            "brüllen"
+          ]
+        },
+        {
+          "id": "g.cry",
+          "concept": "cry",
+          "pos": "verb",
+          "domain": "face",
+          "tier": 2,
+          "words": [
+            "weinen",
+            "heulen"
+          ]
+        },
+        {
+          "id": "g.smile",
+          "concept": "smile",
+          "pos": "verb",
+          "domain": "face",
+          "tier": 1,
+          "words": [
+            "lächeln",
+            "schmunzeln"
+          ]
+        }
+      ],
+      "near": [
+        {
+          "a": "heiß",
+          "b": "warm",
+          "why": "Abstufung: heiß ist viel mehr als warm"
+        },
+        {
+          "a": "kalt",
+          "b": "kühl",
+          "why": "Abstufung"
+        },
+        {
+          "a": "nass",
+          "b": "feucht",
+          "why": "Abstufung"
+        },
+        {
+          "a": "wütend",
+          "b": "verärgert",
+          "why": "Abstufung: verärgert ist schwächer"
+        },
+        {
+          "a": "müde",
+          "b": "erschöpft",
+          "why": "Abstufung: erschöpft ist viel mehr als müde"
+        },
+        {
+          "a": "traurig",
+          "b": "bedrückt",
+          "why": "ähnliches Gefühl, nicht dasselbe"
+        },
+        {
+          "a": "leise",
+          "b": "gelassen",
+          "why": "leise = ohne Geräusch; gelassen = ein Gefühl"
+        },
+        {
+          "a": "stark",
+          "b": "mutig",
+          "why": "Kraft im Körper ist nicht Mut"
+        },
+        {
+          "a": "reden",
+          "b": "schreien",
+          "why": "Schreien ist sehr lautes Sprechen"
+        },
+        {
+          "a": "schließen",
+          "b": "enden",
+          "why": "ein Laden schließt = er macht Schluss; nicht dasselbe"
+        },
+        {
+          "a": "mögen",
+          "b": "lieben",
+          "why": "Abstufung"
+        },
+        {
+          "a": "fröhlich",
+          "b": "lustig",
+          "why": "fröhlich = gute Laune; lustig = bringt zum Lachen"
+        },
+        {
+          "a": "gemütlich",
+          "b": "gelassen",
+          "why": "ein Zimmer ist gemütlich, ein Mensch gelassen"
+        },
+        {
+          "a": "groß",
+          "b": "stark",
+          "why": "Größe ist nicht Kraft"
+        },
+        {
+          "a": "überrascht",
+          "b": "ängstlich",
+          "why": "ein Schreck ist Überraschung mit Angst"
+        },
+        {
+          "a": "brüllen",
+          "b": "heulen",
+          "why": "heulen = ein Wolf oder eine Sirene, auch laut weinen; nicht dasselbe wie brüllen"
+        }
+      ],
+      "nearOnly": [
+        "verärgert",
+        "erschöpft",
+        "bedrückt"
+      ],
+      "falseOf": {
+        "happy": [
+          "traurig",
+          "betrübt",
+          "wütend",
+          "zornig",
+          "ängstlich",
+          "verängstigt",
+          "überrascht",
+          "erstaunt",
+          "verblüfft",
+          "müde",
+          "schläfrig",
+          "schnell",
+          "flink",
+          "rasch",
+          "groß",
+          "riesig",
+          "klein",
+          "winzig"
+        ],
+        "sad": [
+          "fröhlich",
+          "glücklich",
+          "wütend",
+          "zornig",
+          "überrascht",
+          "erstaunt",
+          "verblüfft",
+          "schnell",
+          "flink",
+          "rasch",
+          "groß",
+          "riesig",
+          "klein",
+          "winzig"
+        ],
+        "angry": [
+          "fröhlich",
+          "glücklich",
+          "traurig",
+          "betrübt",
+          "ängstlich",
+          "verängstigt",
+          "überrascht",
+          "erstaunt",
+          "verblüfft",
+          "müde",
+          "schläfrig",
+          "schnell",
+          "flink",
+          "rasch",
+          "groß",
+          "riesig",
+          "klein",
+          "winzig"
+        ],
+        "scared": [
+          "fröhlich",
+          "glücklich",
+          "traurig",
+          "betrübt",
+          "müde",
+          "schläfrig",
+          "schnell",
+          "flink",
+          "rasch",
+          "groß",
+          "riesig",
+          "klein",
+          "winzig"
+        ],
+        "surprised": [
+          "fröhlich",
+          "glücklich",
+          "traurig",
+          "betrübt",
+          "wütend",
+          "zornig",
+          "müde",
+          "schläfrig",
+          "schnell",
+          "flink",
+          "rasch",
+          "groß",
+          "riesig",
+          "klein",
+          "winzig"
+        ],
+        "tired": [
+          "fröhlich",
+          "glücklich",
+          "wütend",
+          "zornig",
+          "ängstlich",
+          "verängstigt",
+          "überrascht",
+          "erstaunt",
+          "verblüfft",
+          "schnell",
+          "flink",
+          "rasch",
+          "groß",
+          "riesig",
+          "klein",
+          "winzig"
+        ],
+        "fast": [
+          "fröhlich",
+          "glücklich",
+          "traurig",
+          "betrübt",
+          "wütend",
+          "zornig",
+          "ängstlich",
+          "verängstigt",
+          "überrascht",
+          "erstaunt",
+          "verblüfft",
+          "müde",
+          "schläfrig"
+        ],
+        "big": [
+          "traurig",
+          "betrübt",
+          "wütend",
+          "zornig",
+          "ängstlich",
+          "verängstigt",
+          "überrascht",
+          "erstaunt",
+          "verblüfft",
+          "schnell",
+          "flink",
+          "rasch",
+          "klein",
+          "winzig"
+        ],
+        "small": [
+          "traurig",
+          "betrübt",
+          "ängstlich",
+          "verängstigt",
+          "überrascht",
+          "erstaunt",
+          "verblüfft",
+          "müde",
+          "schläfrig",
+          "groß",
+          "riesig"
+        ]
+      },
+      "scales": [
+        {
+          "id": "s.heat",
+          "pos": "adj",
+          "words": [
+            "warm",
+            "heiß",
+            "kochend heiß"
+          ]
+        },
+        {
+          "id": "s.cold",
+          "pos": "adj",
+          "words": [
+            "kühl",
+            "kalt",
+            "eiskalt"
+          ]
+        },
+        {
+          "id": "s.wet",
+          "pos": "adj",
+          "words": [
+            "feucht",
+            "nass",
+            "klatschnass"
+          ]
+        },
+        {
+          "id": "s.eat",
+          "pos": "verb",
+          "words": [
+            "knabbern",
+            "essen",
+            "verschlingen"
+          ]
+        },
+        {
+          "id": "s.like",
+          "pos": "verb",
+          "words": [
+            "mögen",
+            "lieben",
+            "anhimmeln"
+          ]
+        },
+        {
+          "id": "s.voice",
+          "pos": "verb",
+          "words": [
+            "flüstern",
+            "sprechen",
+            "schreien"
+          ]
+        },
+        {
+          "id": "s.knock",
+          "pos": "verb",
+          "words": [
+            "tippen",
+            "klopfen",
+            "hämmern"
+          ]
+        },
+        {
+          "id": "s.rain",
+          "pos": "verb",
+          "words": [
+            "nieseln",
+            "regnen",
+            "schütten"
+          ]
+        }
+      ],
+      "fields": {
+        "say": {
+          "head": "sagt",
+          "form": "praesens-3sg",
+          "words": [
+            "flüstert",
+            "ruft",
+            "fragt",
+            "antwortet",
+            "erklärt",
+            "verspricht"
+          ],
+          "sentences": [
+            {
+              "id": "f1",
+              "text": "„Pst, das Baby schläft“, {gap} {name} ganz leise.",
+              "plainVerbOK": true,
+              "fit": {
+                "flüstert": true,
+                "ruft": false,
+                "fragt": false,
+                "antwortet": false,
+                "erklärt": false,
+                "verspricht": false
+              }
+            },
+            {
+              "id": "f2",
+              "text": "„Ich habe ein Geheimnis für dich“, {gap} {name} Oma ins Ohr.",
+              "plainVerbOK": true,
+              "fit": {
+                "flüstert": true,
+                "ruft": false,
+                "fragt": false,
+                "antwortet": false,
+                "erklärt": false,
+                "verspricht": false
+              }
+            },
+            {
+              "id": "f3",
+              "text": "Der Bus fährt gleich ab, deshalb {gap} {name}: „Wartet auf mich!“",
+              "plainVerbOK": true,
+              "fit": {
+                "flüstert": false,
+                "ruft": true,
+                "fragt": false,
+                "antwortet": false,
+                "erklärt": false,
+                "verspricht": false
+              }
+            },
+            {
+              "id": "f4",
+              "text": "„Kommt alle spielen!“, {gap} {name} über den ganzen Schulhof.",
+              "plainVerbOK": true,
+              "fit": {
+                "flüstert": false,
+                "ruft": true,
+                "fragt": false,
+                "antwortet": false,
+                "erklärt": false,
+                "verspricht": false
+              }
+            },
+            {
+              "id": "f5",
+              "text": "„Wo ist meine rote Mütze?“, {gap} {name}.",
+              "plainVerbOK": true,
+              "fit": {
+                "flüstert": false,
+                "ruft": false,
+                "fragt": true,
+                "antwortet": false,
+                "erklärt": false,
+                "verspricht": false
+              }
+            },
+            {
+              "id": "f6",
+              "text": "„Sieben und drei sind zehn“, {gap} {name} auf die Frage der Lehrerin.",
+              "plainVerbOK": true,
+              "fit": {
+                "flüstert": false,
+                "ruft": false,
+                "fragt": false,
+                "antwortet": true,
+                "erklärt": false,
+                "verspricht": false
+              }
+            },
+            {
+              "id": "f7",
+              "text": "„Zuerst gräbst du ein Loch, dann legst du den Samen hinein“, {gap} {name}.",
+              "plainVerbOK": true,
+              "fit": {
+                "flüstert": false,
+                "ruft": false,
+                "fragt": false,
+                "antwortet": false,
+                "erklärt": true,
+                "verspricht": false
+              }
+            },
+            {
+              "id": "f8",
+              "text": "„Ich füttere die Fische jeden Tag, großes Ehrenwort!“, {gap} {name}.",
+              "plainVerbOK": true,
+              "fit": {
+                "flüstert": false,
+                "ruft": false,
+                "fragt": false,
+                "antwortet": false,
+                "erklärt": false,
+                "verspricht": true
+              }
+            }
+          ]
+        },
+        "go": {
+          "head": "gehen",
+          "words": [
+            "rennen",
+            "schleichen",
+            "kriechen",
+            "marschieren",
+            "bummeln",
+            "eilen",
+            "spazieren",
+            "humpeln"
+          ]
+        },
+        "look": {
+          "head": "sehen",
+          "words": [
+            "schauen",
+            "gucken",
+            "starren",
+            "blinzeln",
+            "beobachten",
+            "spähen",
+            "glotzen",
+            "betrachten"
+          ]
+        }
+      },
+      "quotes": [
+        "„",
+        "“"
+      ],
+      "instructionBans": {
+        "base": [
+          "Linie",
+          "Socke",
+          "Kästchen",
+          "Bild"
+        ],
+        "pictures": [
+          "Linie",
+          "Socke",
+          "Kästchen",
+          "Karte"
+        ],
+        "pairs": [
+          "Kästchen",
+          "Karte",
+          "Bild",
+          "kreise"
+        ],
+        "shades": [
+          "Linie",
+          "Socke",
+          "Karte",
+          "gleich",
+          "dasselbe"
+        ],
+        "say": [
+          "Linie",
+          "Socke",
+          "Karte"
+        ],
+        "fields": [
+          "Socke",
+          "Karte",
+          "Kästchen"
+        ]
+      },
+      "strings": {
+        "base": {
+          "title": "Synonyme: Wörter mit gleicher Bedeutung finden",
+          "instruction": "Lies das große Wort auf jeder Karte und kreise darunter das Wort ein, das dasselbe bedeutet."
+        },
+        "pictures": {
+          "title": "Synonyme mit Bildern: zwei Wörter, ein Bild",
+          "instruction": "Schau dir jedes Bild an und kreise darunter die zwei Wörter ein, die dasselbe bedeuten und zum Bild passen."
+        },
+        "pairs": {
+          "title": "Synonyme zuordnen: Wortpaare verbinden",
+          "instruction": "Verbinde jedes Wort links mit einer Linie mit dem Wort rechts, das dasselbe bedeutet."
+        },
+        "shades": {
+          "title": "Wörter nach Stärke ordnen: von ein bisschen bis sehr",
+          "instruction": "Lies die drei Wörter in jeder Reihe und schreibe 1, 2 und 3 in die Kästchen, vom schwächsten bis zum stärksten Wort."
+        },
+        "say": {
+          "title": "Wortfeld „sagen“: das passende Verb einsetzen",
+          "instruction": "Lies jeden Satz und schreibe statt „sagt“ das Wort aus der Sprechblase in das Kästchen, das am besten passt."
+        },
+        "fields": {
+          "title": "Wortfelder „gehen“ und „sehen“: Verben sortieren",
+          "instruction": "Lies die zehn Wörter und schreibe jedes in das Wortfeld des Verbs, zu dem es gehört."
+        }
+      }
+    },
+    "word-parts": {
+      "familyHead": "Wortfamilien, Vorsilben und Nachsilben",
+      "inflections": [
+        "e",
+        "es",
+        "s",
+        "st",
+        "t"
+      ],
+      "families": [
+        {
+          "id": "spiel",
+          "stem": "spiel",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Spiel"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "Spieler",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "Spielerin",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "spielerisch",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "verspielt",
+              "kind": "prefixed",
+              "slot": "adjective"
+            },
+            {
+              "word": "Mitspieler",
+              "kind": "prefixed",
+              "slot": "noun-person"
+            },
+            {
+              "word": "mitspielen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "abspielen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "Spielzeug",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Spinne",
+              "whyNotFamily": "ein Tier mit acht Beinen, kein Spiel darin"
+            },
+            {
+              "word": "Spiegel",
+              "whyNotFamily": "darin siehst du dich; nur „spi“ ist gleich"
+            },
+            {
+              "word": "Spinat",
+              "whyNotFamily": "ein Gemüse"
+            }
+          ]
+        },
+        {
+          "id": "zauber",
+          "stem": "zauber",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Zauber"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "zaubern",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "Zauberer",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "Zauberin",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "zauberhaft",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "verzaubern",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "bezaubern",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "Zauberstab",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Zaun",
+              "whyNotFamily": "ein Gitter um den Garten"
+            },
+            {
+              "word": "Zahn",
+              "whyNotFamily": "ist im Mund; nur „za“ ist gleich"
+            },
+            {
+              "word": "Zange",
+              "whyNotFamily": "ein Werkzeug"
+            }
+          ]
+        },
+        {
+          "id": "freund",
+          "stem": "freund",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Freund"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "freundlich",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "Freundin",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "Freundschaft",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "befreundet",
+              "kind": "prefixed",
+              "slot": "adjective"
+            },
+            {
+              "word": "Freundlichkeit",
+              "kind": "derived",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "anfreunden",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "Schulfreund",
+              "kind": "compound",
+              "slot": "noun-person"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Frage",
+              "whyNotFamily": "das, was du wissen willst"
+            },
+            {
+              "word": "Frosch",
+              "whyNotFamily": "ein Tier am Teich"
+            },
+            {
+              "word": "frech",
+              "whyNotFamily": "ein Wort für unhöflich; nur „fr“ ist gleich"
+            }
+          ]
+        },
+        {
+          "id": "kauf",
+          "stem": "kauf",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Kauf"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "kaufen",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "einkaufen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "verkaufen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "Einkauf",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "Verkauf",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "Kaufhaus",
+              "kind": "compound",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "ausverkauft",
+              "kind": "prefixed",
+              "slot": "adjective"
+            },
+            {
+              "word": "abkaufen",
+              "kind": "prefixed",
+              "slot": "verb"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Kater",
+              "whyNotFamily": "eine männliche Katze"
+            },
+            {
+              "word": "Kamm",
+              "whyNotFamily": "damit kämmst du die Haare"
+            },
+            {
+              "word": "kalt",
+              "whyNotFamily": "nicht warm"
+            }
+          ]
+        },
+        {
+          "id": "salz",
+          "stem": "salz",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Salz"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "salzig",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "salzen",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "versalzen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "gesalzen",
+              "kind": "prefixed",
+              "slot": "adjective"
+            },
+            {
+              "word": "entsalzen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "salzlos",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "Salzstreuer",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Salat",
+              "whyNotFamily": "ein Gemüse aus Blättern; nur „sal“ ist gleich"
+            },
+            {
+              "word": "Sand",
+              "whyNotFamily": "liegt am Strand"
+            },
+            {
+              "word": "Saft",
+              "whyNotFamily": "etwas zum Trinken"
+            }
+          ]
+        },
+        {
+          "id": "mut",
+          "stem": "mut",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Mut"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "mutig",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "mutlos",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "ermutigen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "entmutigen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "Übermut",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "Ermutigung",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "Mutprobe",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Mutter",
+              "whyNotFamily": "die Mama; in ihr steckt kein Mut"
+            },
+            {
+              "word": "Musik",
+              "whyNotFamily": "was du hörst und singst"
+            },
+            {
+              "word": "Muschel",
+              "whyNotFamily": "liegt am Strand"
+            }
+          ]
+        },
+        {
+          "id": "glueck",
+          "stem": "glück",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Glück"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "glücklich",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "glücklos",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "glücklicherweise",
+              "kind": "derived",
+              "slot": "adverb"
+            },
+            {
+              "word": "glücken",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "verunglücken",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "beglücken",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "Glückspilz",
+              "kind": "compound",
+              "slot": "noun-person"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Glocke",
+              "whyNotFamily": "läutet im Turm"
+            },
+            {
+              "word": "Glas",
+              "whyNotFamily": "daraus trinkst du"
+            },
+            {
+              "word": "glatt",
+              "whyNotFamily": "nicht rau"
+            }
+          ]
+        }
+      ],
+      "rootFamilies": [
+        {
+          "id": "ruf",
+          "stem": "ruf",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Ruf"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "anrufen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "Anruf",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "aufrufen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "Aufruf",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "ausrufen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "Ausruf",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "Ausrufezeichen",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Rucksack",
+              "whyNotFamily": "eine Tasche für den Rücken"
+            },
+            {
+              "word": "Rutsche",
+              "whyNotFamily": "darauf rutschst du"
+            },
+            {
+              "word": "rund",
+              "whyNotFamily": "wie ein Ball"
+            }
+          ]
+        },
+        {
+          "id": "bau",
+          "stem": "bau",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Bau"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "aufbauen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "abbauen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "umbauen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "Aufbau",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "Umbau",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "Anbau",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "Baustelle",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Bach",
+              "whyNotFamily": "ein kleiner Fluss"
+            },
+            {
+              "word": "Ball",
+              "whyNotFamily": "damit spielst du"
+            },
+            {
+              "word": "Banane",
+              "whyNotFamily": "eine gelbe Frucht"
+            }
+          ]
+        },
+        {
+          "id": "arbeit",
+          "stem": "arbeit",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Arbeit"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "arbeiten",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "Arbeiter",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "Arbeiterin",
+              "kind": "derived",
+              "slot": "noun-person"
+            },
+            {
+              "word": "bearbeiten",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "mitarbeiten",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "Mitarbeiter",
+              "kind": "prefixed",
+              "slot": "noun-person"
+            },
+            {
+              "word": "Arbeitsplatz",
+              "kind": "compound",
+              "slot": "noun-thing"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Arm",
+              "whyNotFamily": "ein Körperteil"
+            },
+            {
+              "word": "Arzt",
+              "whyNotFamily": "hilft, wenn du krank bist"
+            },
+            {
+              "word": "Armband",
+              "whyNotFamily": "Schmuck am Handgelenk"
+            }
+          ]
+        },
+        {
+          "id": "wunder",
+          "stem": "wunder",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Wunder"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "wundern",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "wunderbar",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "wundervoll",
+              "kind": "derived",
+              "slot": "adjective"
+            },
+            {
+              "word": "bewundern",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "Bewunderung",
+              "kind": "prefixed",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "verwundert",
+              "kind": "prefixed",
+              "slot": "adjective"
+            },
+            {
+              "word": "wunderschön",
+              "kind": "compound",
+              "slot": "adjective"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Wurst",
+              "whyNotFamily": "etwas zum Essen"
+            },
+            {
+              "word": "Wurm",
+              "whyNotFamily": "lebt in der Erde"
+            },
+            {
+              "word": "wund",
+              "whyNotFamily": "eine Stelle, die weh tut"
+            }
+          ]
+        },
+        {
+          "id": "koch",
+          "stem": "koch",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Koch"
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "kochen",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "aufkochen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "abkochen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "überkochen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "verkochen",
+              "kind": "prefixed",
+              "slot": "verb"
+            },
+            {
+              "word": "Kochtopf",
+              "kind": "compound",
+              "slot": "noun-thing"
+            },
+            {
+              "word": "kochend",
+              "kind": "derived",
+              "slot": "adjective"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Koffer",
+              "whyNotFamily": "eine Tasche für die Reise"
+            },
+            {
+              "word": "Kopf",
+              "whyNotFamily": "sitzt auf dem Hals"
+            },
+            {
+              "word": "Korb",
+              "whyNotFamily": "darin trägt man Äpfel"
+            }
+          ]
+        }
+      ],
+      "picFamilies": [
+        {
+          "id": "zahn",
+          "stem": "zahn",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Zahn",
+            "pic": {
+              "theme": "body parts",
+              "noun": "tooth"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "zahnlos",
+              "kind": "derived",
+              "slot": "adjective"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Zahl",
+              "whyNotFamily": "fängt wie „Zahn“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Zange",
+              "whyNotFamily": "fängt wie „Zahn“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Zaun",
+              "whyNotFamily": "fängt wie „Zahn“ an, ist aber nicht daraus gebaut"
+            }
+          ]
+        },
+        {
+          "id": "fisch",
+          "stem": "fisch",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Fisch",
+            "pic": {
+              "theme": "ocean life",
+              "noun": "fish"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "fischen",
+              "kind": "derived",
+              "slot": "verb"
+            },
+            {
+              "word": "Fischer",
+              "kind": "derived",
+              "slot": "noun-person"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Fibel",
+              "whyNotFamily": "fängt wie „Fisch“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Finger",
+              "whyNotFamily": "fängt wie „Fisch“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Fieber",
+              "whyNotFamily": "fängt wie „Fisch“ an, ist aber nicht daraus gebaut"
+            }
+          ]
+        },
+        {
+          "id": "trommel",
+          "stem": "trommel",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Trommel",
+            "pic": {
+              "theme": "music",
+              "noun": "drum"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "trommeln",
+              "kind": "derived",
+              "slot": "verb"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Traktor",
+              "whyNotFamily": "fängt wie „Trommel“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Traube",
+              "whyNotFamily": "fängt wie „Trommel“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Trompete",
+              "whyNotFamily": "fängt wie „Trommel“ an, ist aber nicht daraus gebaut"
+            }
+          ]
+        },
+        {
+          "id": "tisch",
+          "stem": "tisch",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Tisch",
+            "pic": {
+              "theme": "furniture",
+              "noun": "table"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "Tischler",
+              "kind": "derived",
+              "slot": "noun-person"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Tiger",
+              "whyNotFamily": "fängt wie „Tisch“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Tinte",
+              "whyNotFamily": "fängt wie „Tisch“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Tier",
+              "whyNotFamily": "fängt wie „Tisch“ an, ist aber nicht daraus gebaut"
+            }
+          ]
+        },
+        {
+          "id": "schaukel",
+          "stem": "schaukel",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Schaukel",
+            "pic": {
+              "theme": "toys",
+              "noun": "swing"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "schaukeln",
+              "kind": "derived",
+              "slot": "verb"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Schaf",
+              "whyNotFamily": "fängt wie „Schaukel“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Schal",
+              "whyNotFamily": "fängt wie „Schaukel“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Schatten",
+              "whyNotFamily": "fängt wie „Schaukel“ an, ist aber nicht daraus gebaut"
+            }
+          ]
+        },
+        {
+          "id": "pfeife",
+          "stem": "pfeife",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Pfeife",
+            "pic": {
+              "theme": "accessories",
+              "noun": "whistle"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "pfeifen",
+              "kind": "derived",
+              "slot": "verb"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Pfanne",
+              "whyNotFamily": "fängt wie „Pfeife“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Pferd",
+              "whyNotFamily": "fängt wie „Pfeife“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Pfeil",
+              "whyNotFamily": "fängt wie „Pfeife“ an, ist aber nicht daraus gebaut"
+            }
+          ]
+        },
+        {
+          "id": "löffel",
+          "stem": "löffel",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Löffel",
+            "pic": {
+              "theme": "kitchen tools",
+              "noun": "spoon"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "löffeln",
+              "kind": "derived",
+              "slot": "verb"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Löwe",
+              "whyNotFamily": "fängt wie „Löffel“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Löwin",
+              "whyNotFamily": "fängt wie „Löffel“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "löschen",
+              "whyNotFamily": "fängt wie „Löffel“ an, ist aber nicht daraus gebaut"
+            }
+          ]
+        },
+        {
+          "id": "zelt",
+          "stem": "zelt",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Zelt",
+            "pic": {
+              "theme": "camping",
+              "noun": "tent"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "zelten",
+              "kind": "derived",
+              "slot": "verb"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Zebra",
+              "whyNotFamily": "fängt wie „Zelt“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Zeit",
+              "whyNotFamily": "fängt wie „Zelt“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Zettel",
+              "whyNotFamily": "fängt wie „Zelt“ an, ist aber nicht daraus gebaut"
+            }
+          ]
+        },
+        {
+          "id": "nagel",
+          "stem": "nagel",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Nagel",
+            "pic": {
+              "theme": "tools",
+              "noun": "nail"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "nageln",
+              "kind": "derived",
+              "slot": "verb"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Nase",
+              "whyNotFamily": "fängt wie „Nagel“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Nadel",
+              "whyNotFamily": "fängt wie „Nagel“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Nacht",
+              "whyNotFamily": "fängt wie „Nagel“ an, ist aber nicht daraus gebaut"
+            }
+          ]
+        },
+        {
+          "id": "spiegel",
+          "stem": "spiegel",
+          "rootIsFreeWord": true,
+          "root": {
+            "word": "Spiegel",
+            "pic": {
+              "theme": "around the house",
+              "noun": "mirror"
+            },
+            "picOpened": true
+          },
+          "signed": true,
+          "members": [
+            {
+              "word": "spiegeln",
+              "kind": "derived",
+              "slot": "verb"
+            }
+          ],
+          "lookAlikes": [
+            {
+              "word": "Spinne",
+              "whyNotFamily": "fängt wie „Spiegel“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Spitze",
+              "whyNotFamily": "fängt wie „Spiegel“ an, ist aber nicht daraus gebaut"
+            },
+            {
+              "word": "Spinat",
+              "whyNotFamily": "fängt wie „Spiegel“ an, ist aber nicht daraus gebaut"
+            }
+          ]
+        }
+      ],
+      "sentences": {
+        "spiel": [
+          {
+            "word": "mitspielen",
+            "slot": "verb",
+            "frame": "Darf ich bei euch {gap}?"
+          },
+          {
+            "word": "Mitspieler",
+            "slot": "noun-person",
+            "frame": "Die {gap} laufen auf den Platz."
+          },
+          {
+            "word": "Spielzeug",
+            "slot": "noun-thing",
+            "frame": "Im Regal liegt viel {gap}."
+          },
+          {
+            "word": "verspielt",
+            "slot": "adjective",
+            "frame": "Unser junges Kätzchen ist sehr {gap}."
+          }
+        ],
+        "zauber": [
+          {
+            "word": "zaubern",
+            "slot": "verb",
+            "frame": "Kannst du ein Kaninchen aus dem Hut {gap}?"
+          },
+          {
+            "word": "Zauberer",
+            "slot": "noun-person",
+            "frame": "Der {gap} trägt einen spitzen Hut."
+          },
+          {
+            "word": "Zauberstab",
+            "slot": "noun-thing",
+            "frame": "Er tippt mit dem {gap} auf den Hut."
+          },
+          {
+            "word": "zauberhaft",
+            "slot": "adjective",
+            "frame": "Das Schloss im Schnee sieht {gap} aus."
+          }
+        ]
+      },
+      "prefixKey": {
+        "prefixes": [
+          {
+            "prefix": "ein",
+            "meaning": "hinein"
+          },
+          {
+            "prefix": "aus",
+            "meaning": "hinaus oder zu Ende"
+          },
+          {
+            "prefix": "um",
+            "meaning": "anders oder herum"
+          }
+        ],
+        "rows": [
+          {
+            "base": "steigen",
+            "prefix": "ein",
+            "word": "einsteigen",
+            "gloss": "in den Zug gehen und mitfahren"
+          },
+          {
+            "base": "schlafen",
+            "prefix": "ein",
+            "word": "einschlafen",
+            "gloss": "müde werden und in den Schlaf sinken"
+          },
+          {
+            "base": "kaufen",
+            "prefix": "ein",
+            "word": "einkaufen",
+            "gloss": "im Laden Essen für die Woche holen"
+          },
+          {
+            "base": "packen",
+            "prefix": "aus",
+            "word": "auspacken",
+            "gloss": "das Geschenk vom Papier befreien"
+          },
+          {
+            "base": "schalten",
+            "prefix": "aus",
+            "word": "ausschalten",
+            "gloss": "das Licht dunkel machen"
+          },
+          {
+            "base": "trinken",
+            "prefix": "aus",
+            "word": "austrinken",
+            "gloss": "das Glas ganz leer trinken"
+          },
+          {
+            "base": "atmen",
+            "prefix": "aus",
+            "word": "ausatmen",
+            "gloss": "die Luft durch die Nase nach draußen blasen"
+          },
+          {
+            "base": "ziehen",
+            "prefix": "um",
+            "word": "umziehen",
+            "gloss": "die Wohnung wechseln"
+          },
+          {
+            "base": "drehen",
+            "prefix": "um",
+            "word": "umdrehen",
+            "gloss": "auf die andere Seite wenden"
+          },
+          {
+            "base": "rühren",
+            "prefix": "um",
+            "word": "umrühren",
+            "gloss": "die Suppe mit dem Löffel im Kreis bewegen"
+          },
+          {
+            "base": "bauen",
+            "prefix": "um",
+            "word": "umbauen",
+            "gloss": "das alte Haus verändern und neu bauen"
+          }
+        ],
+        "crossCheck": [
+          {
+            "base": "steigen",
+            "prefix": "ein",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "steigen",
+            "prefix": "aus",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "steigen",
+            "prefix": "um",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "schlafen",
+            "prefix": "ein",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "schlafen",
+            "prefix": "aus",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "schlafen",
+            "prefix": "um",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "kaufen",
+            "prefix": "ein",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "kaufen",
+            "prefix": "aus",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "kaufen",
+            "prefix": "um",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "packen",
+            "prefix": "ein",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "packen",
+            "prefix": "aus",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "packen",
+            "prefix": "um",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "schalten",
+            "prefix": "ein",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "schalten",
+            "prefix": "aus",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "schalten",
+            "prefix": "um",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "trinken",
+            "prefix": "ein",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "trinken",
+            "prefix": "aus",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "trinken",
+            "prefix": "um",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "atmen",
+            "prefix": "ein",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "atmen",
+            "prefix": "aus",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "atmen",
+            "prefix": "um",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "ziehen",
+            "prefix": "ein",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "ziehen",
+            "prefix": "aus",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "ziehen",
+            "prefix": "um",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "drehen",
+            "prefix": "ein",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "drehen",
+            "prefix": "aus",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "drehen",
+            "prefix": "um",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "rühren",
+            "prefix": "ein",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "rühren",
+            "prefix": "aus",
+            "isWord": false,
+            "fitsGloss": false
+          },
+          {
+            "base": "rühren",
+            "prefix": "um",
+            "isWord": true,
+            "fitsGloss": true
+          },
+          {
+            "base": "bauen",
+            "prefix": "ein",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "bauen",
+            "prefix": "aus",
+            "isWord": true,
+            "fitsGloss": false
+          },
+          {
+            "base": "bauen",
+            "prefix": "um",
+            "isWord": true,
+            "fitsGloss": true
+          }
+        ]
+      },
+      "negating": [
+        "miss"
+      ],
+      "agents": [
+        {
+          "key": "baker",
+          "base": "backen",
+          "answer": {
+            "m": "Bäcker",
+            "f": "Bäckerin"
+          },
+          "stemSigned": true
+        },
+        {
+          "key": "musician",
+          "base": "Musik",
+          "answer": {
+            "m": "Musiker",
+            "f": "Musikerin"
+          }
+        },
+        {
+          "key": "singer",
+          "base": "singen",
+          "answer": {
+            "m": "Sänger",
+            "f": "Sängerin"
+          },
+          "stemSigned": true
+        },
+        {
+          "key": "gardener",
+          "base": "Garten",
+          "answer": {
+            "m": "Gärtner",
+            "f": "Gärtnerin"
+          },
+          "stemSigned": true
+        },
+        {
+          "key": "athlete",
+          "base": "laufen",
+          "answer": {
+            "m": "Läufer",
+            "f": "Läuferin"
+          },
+          "stemSigned": true
+        },
+        {
+          "key": "ballerina",
+          "base": "tanzen",
+          "answer": {
+            "m": "Tänzer",
+            "f": "Tänzerin"
+          },
+          "stemSigned": true
+        },
+        {
+          "key": "tailor",
+          "base": "nähen",
+          "answer": {
+            "m": "Näher",
+            "f": "Näherin"
+          },
+          "stemSigned": true
+        },
+        {
+          "key": "pharmacist",
+          "base": "Apotheke",
+          "answer": {
+            "m": "Apotheker",
+            "f": "Apothekerin"
+          }
+        },
+        {
+          "key": "teacher",
+          "base": "lehren",
+          "answer": {
+            "m": "Lehrer",
+            "f": "Lehrerin"
+          },
+          "stemSigned": true
+        }
+      ],
+      "agentSuffixes": [
+        "er",
+        "erin"
+      ],
+      "exemplar": {
+        "base": [
+          "spiel",
+          "zauber"
+        ],
+        "F1": [
+          "body parts/tooth",
+          "ocean life/fish",
+          "music/drum",
+          "furniture/table",
+          "toys/swing",
+          "accessories/whistle",
+          "kitchen tools/spoon",
+          "camping/tent",
+          "tools/nail",
+          "around the house/mirror"
+        ],
+        "F2": [
+          "spiel",
+          "zauber",
+          "freund",
+          "kauf",
+          "ruf",
+          "bau",
+          "arbeit",
+          "wunder",
+          "koch"
+        ],
+        "F5": [
+          "spiel",
+          "zauber"
+        ]
+      },
+      "refuse": {
+        "base": false,
+        "picture-family": false,
+        "root-word": false,
+        "prefix-key": false,
+        "who-does-it": false,
+        "family-in-sentence": false
+      },
+      "strings": {
+        "base": {
+          "title": "Wortfamilien: nach dem Wortstamm sortieren",
+          "instruction": "Lies jedes Wort oben und schreibe es auf eine Linie der Mauer, die auf seinem Wortstamm steht."
+        },
+        "picture-family": {
+          "title": "Wortfamilien mit Bildern: das passende Wort finden",
+          "instruction": "Sag, was du auf jedem Bild siehst, und kreise darüber das eine Wort ein, das aus diesem Bildwort gebaut ist."
+        },
+        "root-word": {
+          "title": "Den Wortstamm finden",
+          "instruction": "Kreise den Teil ein, den die drei Wörter gemeinsam haben, und schreibe ihn als Nomen mit großem Anfangsbuchstaben in den leeren Stein."
+        },
+        "prefix-key": {
+          "title": "Vorsilben ein-, aus- und um-: nach Bedeutung wählen",
+          "instruction": "Lies, was jedes neue Wort bedeutet, finde seine Vorsilbe im Schlüssel und schreibe sie in das leere Stück."
+        },
+        "who-does-it": {
+          "title": "Wer macht das? Personenwörter bilden",
+          "instruction": "Schau dir jede Person an, lies das Wort daneben und schreibe das Personenwort mit -er oder -erin in das gestrichelte Kästchen."
+        },
+        "family-in-sentence": {
+          "title": "Wortfamilien im Satz",
+          "instruction": "Schreibe jedes Wort von den vier Karten in den Satz, in den es passt."
+        }
+      }
+    }
+  },
+  "refusals": {},
+  "strandNames": {
+    "Road Safety": "Verkehrserziehung",
+    "Science": "Sachunterricht",
+    "Map Skills": "Räume und Orte (Sachunterricht)"
+  },
+  "enAudit": [
+    "G1-391 moon-phases-in-order (EN): the instruction \"The Moon seems to grow, then shrink. In each row, write 1 to 5…\" never names the wedge above each row, which is the only thing that tells the child whether THAT row grows or shrinks; read top to bottom, \"grow, then shrink\" sounds like one sequence across both rows. de names the wedge (\"Schau in jeder Reihe auf den Keil, ob der Mond zu- oder abnimmt\").",
+    "G2-368 day-and-night-model (EN render): the numbered pins sit INSIDE the Earth disc, not on its edge; pins 2 and 5 are close to the vertical centre line, so \"day or night\" is decided by a few pixels. Pins on the rim (or a clear margin from the terminator line the child imagines) would make the one answer honest.",
+    "G1-376 plants base (EN render): tag 2 (fruit) and tag 5 (seed) both point into the same pea pod, which hangs where a leaf would join the stem; a child reads one organ with two names. EN also mixes \"roots\" (plural) with \"leaf\" (singular) in the bank. de uses Wurzel/Blatt/Blüte singular (the Grundschule diagram register).",
+    "G1-377 base (EN): \"in the last box the number of the picture that comes after the butterfly\": no picture on the page carries a number (only the egg box shows 1), so \"the number of the picture\" must be inferred from the child's own numbering. It works, but the sentence is a riddle; de keeps the move and says \"die Zahl des Bildes, das nach dem Schmetterling kommt\".",
+    "G1-378 base (EN): three sentences and \"Tick one box\" (other families ban tick). In German a third-person \"Es/Er/Sie\" leaks the body's gender (der Mond, die Sonne, die Erde), so de rebuilt the facts as first-person riddles (\"Ich bin ein Stern.\", \"Ich kreise um die Erde.\") and the instruction as \"Lies jeden Satz und kreuze an, wer ihn sagt\". Recorded so the landing prose explains the \"Wer bin ich?\" framing.",
+    "G2-371 directions-on-map (EN render): the tent symbol is a coral disc with a white X, which a 7-year-old reads as \"forbidden / wrong\" (a red X), not a tent; the house symbol is a two-tone square. Unlabelled on this face, both are guesses. \"Look the way the word says\" also does not say FROM where (the first picture) toward the rose direction.",
+    "K-369 road-safety (Vienna, de): COMMON.confusable misses two Vienna overlaps that make F5 two-answer rows possible: Z 250 (no vehicles) also bans bicycles, so it fits any no-bikes situation; Z 237 (Radweg) also bars pedestrians, so it fits a no-pedestrians situation. de situations are written to exclude them (\"Autos dürfen hier fahren, aber Fahrräder nicht\"), but [no-bikes,no-vehicles] and [no-pedestrians,bike-path] belong in the confusable table.",
+    "K-369 road-safety (de): the closed glyph set cannot draw Z 240 (gemeinsamer Geh- und Radweg: adult + child over a bicycle), so shared-path is left out rather than drawn as a lone walker in a blue disc, which is not a German sign. Z 133 (Fußgänger) is also left out of the de pool: beside Z 136 (Kinder) an F5 situation about people crossing has two right signs. The pedestrian light is the StVO red standing / green walking figure, two lamps, no amber.",
+    "G2-359 word-parts (design vs code): §4 says the de F2 roots are bound Wortstamm literals (fahr), but the F2 composer only draws families with rootIsFreeWord && stem === root, so a bound-root family can never reach F2. de authored nine free-word roots for F2 (Spiel, Zauber, Freund, Kauf, Ruf, Bau, Arbeit, Wunder, Koch) and keeps bound Wortstämme (fahr, schreib, wohn) on the base walls only.",
+    "G2-359 word-parts (validator): rule 3 flags a member as \"inflected\" when it appears in the verb-forms bank, and the de verb-forms bank lists \"wir spielen / wir lesen / wir bauen …\", i.e. the INFINITIVE. A German Wortfamilie normally shows the verb (spielen, lesen, bauen); de routes around it with prefixed verbs (mitspielen, aufbauen) and verbs not in that bank (fahren, schreiben, wohnen, kaufen). The rule should exempt the infinitive.",
+    "Pictures OPENED by the de panel and refused: around the house/brush is a paint brush (Pinsel) although the de vocab says \"Bürste\" (a vocab defect, §10.3); breakfast/milk is a milk bottle (a child says \"Flasche\", which carries sch); forest creatures/moose reads as a Hirsch or Rentier (Hirsch carries sch); bakery/cake is a cream-topped Tortenstück (\"Torte\"); body parts/hair has the de vocab singular \"Haare\" (plural), so it cannot be an F1 picture root.",
+    "G2-358 synonyms (EN): the base instruction says \"the word under it that means the same\"; German Grundschule teaching insists that true synonyms are rare (Wortfeld), so the de base says \"das Wort, das dasselbe bedeutet\" only on the base / F1 / F2, and F3 / F4 / F5 never claim sameness. The EN F5 title \"Words for Go and Look\" is the de per-verb Wortfeld head, which de keeps as „gehen“ and „sehen“.",
+    "G1-376 plants cycle (EN): \"Cut out the four pictures. Glue each one in the next empty box, going round the arrows from the seed.\" is two sentences; eat and needs are also two sentences, and needs is a K face (one imperative). de writes one sentence per face.",
+    "Layout, measured on the de renders (the draft validator does not render): G3-392 (Aufbau der Blüte) wrapped its one-row word bank with the textbook set Kronblatt / Kelchblatt / Staubblatt / Stempel / Stiel + decoy Wurzel (47 letters vs the EN 32); de prints \"Kelch\" (the Grundschule label for the green leaves under the flower) so the bank holds one row; a builder who wants Kelchblatt back needs a two-row bank at G3. G2-367 (Mondphasen benennen) wrapped with \"zunehmender Mond / abnehmender Mond\"; de prints Neumond / zunehmend / Vollmond / abnehmend. G2-376 failed verify while a gloss said \"aus dem Papier\" (the prefix token \"aus\" printed in a row); every de gloss now avoids ein / aus / um as words.",
+    "G2-363 plants eat (de): the celery card is refused for German (refuseItems celery, mixNoStem): the eaten part is botanically the Blattstiel, and a German child meets Sellerie mostly as the Knollensellerie ROOT, so \"Stängel\" is not a single honest answer. Every other food card reads cleanly in German (Radieschen, Erbsen, Möhre/Karotte, Gurke, Spinat, Salat, Blumenkohl).",
+    "G3-398 who-does-it (de): an \"-er\" title would lie: Fotograf, the -in forms (Lehrerin, Näherin, Tänzerin) and umlaut agents (Bäcker, Gärtner, Sänger, Läuferin) are not \"word + -er\"; de titles it \"Wer macht das? Personenwörter bilden\". Portraits opened: the carpenter holds a plank in a hard hat (Zimmermann, not the transparent Tischler), so it is not an agent in de.",
+    "K-370 family (EN): the relation-riddle frame \"Mia's mom's mom is Mia's ___.\" stacks two Saxon genitives, which German cannot do naturally (\"Mias Mamas Mama\"); de uses \"Die Mama von Mias Mama ist Mias ___.\" Recorded because a literal rebuild from the EN frame would ship ungrammatical German."
+  ]
+}

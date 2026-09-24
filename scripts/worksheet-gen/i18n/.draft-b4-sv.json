@@ -1,0 +1,2867 @@
+{
+  "locale": "sv",
+  "types": {
+    "K-353": {
+      "title": "Tangram: klipp ut de sju bitarna och lägg två figurer",
+      "instruction": "Färglägg bitarna efter färgrutorna, klipp ut dem längs linjerna och lägg dem sedan på de två figurerna, linje för linje."
+    },
+    "K-358": {
+      "title": "Lätta tangramfigurer av 2 och 3 bitar: rita linjerna",
+      "instruction": "Titta på bitarna ovanför varje figur. Rita linjerna inuti figuren där bitarna möts."
+    },
+    "G1-354": {
+      "title": "Tangram: bygg fyra skuggbilder",
+      "instruction": "Bygg varje mörk figur med de sju bitarna i ditt tangram. Använd alla sju bitarna varje gång."
+    },
+    "G1-355": {
+      "title": "Tangram: vilken bit saknas?",
+      "instruction": "I varje figur saknas en bit. Ringa in den bit som passar exakt i det tomma fältet."
+    },
+    "G2-347": {
+      "title": "Tangram: vilken lösning passar skuggbilden?",
+      "instruction": "Titta på varje skuggbild. Ringa in den lösning som ligger precis likadant. Vridna eller speglade figurer passar inte."
+    },
+    "K-359": {
+      "title": "Tangram: räkna trianglar och kvadrater",
+      "instruction": "Räkna trianglarna i varje figur och skriv talet i första rutan. Räkna sedan kvadraterna till den andra rutan."
+    },
+    "K-354": {
+      "title": "Kroppens delar",
+      "instruction": "Skriv varje ord från ordlistan på linjen som pekar på den delen av kroppen."
+    },
+    "K-360": {
+      "title": "Kroppens delar: hur många har du?",
+      "instruction": "Hur många har du av varje? Räkna på din egen kropp och skriv talet i rutan."
+    },
+    "K-361": {
+      "title": "Kroppens delar: färglägg efter färgrutorna",
+      "instruction": "Läs färgrutorna och färglägg varje del av kroppen i den färg som står bredvid ordet."
+    },
+    "G1-356": {
+      "title": "Kroppens delar: skriv ordet",
+      "instruction": "Leta upp varje numrerad del på figuren och skriv namnet, en bokstav i varje ruta."
+    },
+    "K-362": {
+      "title": "Kroppens delar: vad saknas?",
+      "instruction": "På varje kropp saknas en del. Ringa in bilden på den del som saknas och rita sedan dit den."
+    },
+    "K-363": {
+      "title": "Kroppens delar: vilka har du två av?",
+      "instruction": "Ringa in varje del av kroppen som du har två av."
+    },
+    "K-355": {
+      "title": "Våra sinnen",
+      "instruction": "Dra ett streck från varje bild till den kroppsdel som du använder för den."
+    },
+    "G1-357": {
+      "title": "Våra sinnen: sortera efter sinne",
+      "instruction": "Titta på varje bild och dra ett streck från dess punkt till lådan för det sinne du använder."
+    },
+    "G1-358": {
+      "title": "Våra sinnen: vilket sinne använder du?",
+      "instruction": "Vilket sinne använder du för varje bild? Ringa in den kroppsdel du behöver."
+    },
+    "G1-359": {
+      "title": "Våra sinnen: vilken bild passar inte in?",
+      "instruction": "På varje rad passar tre bilder till samma sinne. Stryk över den bild som inte gör det."
+    },
+    "G1-360": {
+      "title": "Sinnesorganen: skriv ordet för sinnet",
+      "instruction": "Skriv varje ord från ordlistan på linjen bredvid den kroppsdel som gör det."
+    },
+    "G1-361": {
+      "title": "Våra sinnen: jag hör ...",
+      "instruction": "Skriv klart varje mening. Skriv vad du kan höra, se, lukta på, smaka på och känna på."
+    },
+    "K-356": {
+      "title": "Vädersymboler",
+      "instruction": "Dra ett streck från varje vädersymbol till ordet som hör till."
+    },
+    "G1-362": {
+      "title": "Skriv väderordet",
+      "instruction": "Leta upp ordet för varje vädersymbol i ordlistan och skriv det, en bokstav i varje ruta."
+    },
+    "K-364": {
+      "title": "Väderdagbok från måndag till söndag",
+      "instruction": "Titta ut varje dag den här veckan och rita vädersymbolen för den dagen i dess ruta."
+    },
+    "K-365": {
+      "title": "Hur varmt är det? Kallt, varmt eller hett",
+      "instruction": "Titta på varje termometer, använd nyckeln och ringa in den bild som passar till kallt, varmt eller hett."
+    },
+    "G3-385": {
+      "title": "Vattnets kretslopp: sätt ut namnen",
+      "instruction": "Läs de fyra orden i ordlistan och skriv varje ord på linjen med samma siffra som på bilden."
+    },
+    "G1-363": {
+      "title": "Läs veckans väderprognos",
+      "instruction": "Titta på vädret för hela veckan, läs varje fråga och ringa in rätt dag."
+    },
+    "K-357": {
+      "title": "Källsortering",
+      "instruction": "Allt är tomt eller slut. Dra ett streck från varje sak till tunnan där den hör hemma."
+    },
+    "K-366": {
+      "title": "Källsortering: vilken tunna?",
+      "instruction": "Titta på varje sak och ringa in tunnan där den hör hemma när den är tom eller slut."
+    },
+    "G1-364": {
+      "title": "Källsortering: vad är det gjort av?",
+      "instruction": "Vad är varje sak gjord av? Skriv ordet från ordlistan på linjen."
+    },
+    "G2-348": {
+      "title": "Källsortering: vilken sak är gjord av annat material?",
+      "instruction": "På varje rad är tre saker gjorda av samma material. Ringa in den sak som är gjord av något annat."
+    },
+    "G1-365": {
+      "title": "Källsortering: tre saker jag lämnar till återvinning",
+      "instruction": "Rita tre saker som du källsorterar hemma och skriv vad varje sak är."
+    },
+    "G1-350": {
+      "title": "Fyll i rätt ord",
+      "instruction": "Titta på bilden. Hitta ordet som passar i meningen i ordlistan och skriv det i rutan."
+    },
+    "G1-366": {
+      "title": "Fyll i rätt ord: bokstavsrutor",
+      "instruction": "Titta på bilden. Skriv ordet som saknas i rutorna, en bokstav i varje ruta."
+    },
+    "G1-367": {
+      "title": "Fyll i rätt ord: ringa in och skriv",
+      "instruction": "Titta på bilden och läs meningen. Ringa in ordet som passar och skriv det i rutan."
+    },
+    "G2-349": {
+      "title": "Fyll i rätt ord: fler än en",
+      "instruction": "Titta på bilderna. Det är fler än en. Skriv ordet för fler än en i rutan."
+    },
+    "G2-350": {
+      "title": "Fyll i orden i berättelsen",
+      "instruction": "Läs hela berättelsen. De tre bilderna visar orden som saknas. Skriv varje ord från ordlistan i sin ruta."
+    },
+    "G1-368": {
+      "title": "Para ihop meningen med bilden",
+      "instruction": "Läs varje mening. Vilken bild passar i luckan? Dra ett streck från meningen till den bilden."
+    },
+    "G1-351": {
+      "title": "Udda och jämna tal: skriv i rätt hus",
+      "instruction": "Skriv varje tal i det hus där det hör hemma, det udda huset eller det jämna huset. Tre tal har redan flyttat in och visar sina par."
+    },
+    "G2-351": {
+      "title": "Udda eller jämnt? Skriv två lika stora delar",
+      "instruction": "Ringa in punkterna två och två. Skriv sedan talet som två lika stora delar och skriv det som blir över i den lilla rutan."
+    },
+    "G1-369": {
+      "title": "Kan två kompisar dela lika?",
+      "instruction": "Dela bilderna mellan de två kompisarna, en i taget. Skriv hur många var och en får och hur många som blir över. Ringa in udda eller jämnt."
+    },
+    "G2-352": {
+      "title": "Udda och jämna tal upp till 100: titta på entalet",
+      "instruction": "Läs regeln högst upp. Titta bara på entalsrutan i varje tal och sätt ett kryss i ringen under udda eller jämnt."
+    },
+    "G3-386": {
+      "title": "Udda eller jämn summa? Avgör utan att räkna ut den",
+      "instruction": "Räkna inte ut summan. Titta på entalet som är understruket i varje tal, använd tabellen och kryssa för om summan är udda eller jämn."
+    },
+    "G1-370": {
+      "title": "Udda eller jämnt? Räkna bilderna parvis",
+      "instruction": "Räkna bilderna och ringa in dem två och två. Skriv hur många par du gjorde och ringa sedan in udda eller jämnt."
+    },
+    "G1-352": {
+      "title": "Pronomen: han, hon eller de",
+      "instruction": "Titta på personen och läs namnet. Ringa in ordet som vi säger i stället för namnet."
+    },
+    "G1-371": {
+      "title": "Byt ut namnet mot ett pronomen",
+      "instruction": "Läs meningen. Skriv ordet från ordlistan som ersätter namnet i den andra meningen."
+    },
+    "G2-353": {
+      "title": "Vem är han? Pronomen i meningen",
+      "instruction": "Läs meningarna. Dra ett streck från varje ord i rutan till namnet som det står för."
+    },
+    "G2-354": {
+      "title": "Hans, hennes eller deras?",
+      "instruction": "Titta på vem som äger saken. Ringa in ordet som visar att den hör till den personen."
+    },
+    "G1-372": {
+      "title": "Sortera namnen: han, hon eller de",
+      "instruction": "Läs varje namnkort. Skriv namnet under ordet som vi använder för den personen."
+    },
+    "G2-355": {
+      "title": "Skriv om meningen med ett pronomen",
+      "instruction": "Läs meningen. Skriv den igen på linjerna, men använd ett pronomen i stället för namnet."
+    },
+    "G1-353": {
+      "title": "Frågeord: vem, vad, var",
+      "instruction": "Läs meningen. Titta på de markerade orden. Ringa in frågeordet som frågar efter dem."
+    },
+    "G1-373": {
+      "title": "Para ihop frågan med svaret",
+      "instruction": "Läs varje fråga till vänster. Dra ett streck till svaret till höger som passar."
+    },
+    "G1-374": {
+      "title": "Fyll i frågeordet",
+      "instruction": "Läs svaret och leta upp de markerade orden. Skriv frågeordet från ordlistan i rutan."
+    },
+    "G1-375": {
+      "title": "Sortera svaren: vem, vad eller var",
+      "instruction": "Läs varje ordkort. Skriv det i lådan under frågan som det svarar på."
+    },
+    "G2-356": {
+      "title": "Ställ en fråga",
+      "instruction": "Läs svaret. Titta på de markerade orden. Skriv frågan som frågar efter dem på linjen."
+    },
+    "G2-357": {
+      "title": "Fråga om bilden: varför och hur",
+      "instruction": "Titta på bilden. Gör varje fråga färdig. Börja med ordet som redan står på linjen."
+    },
+    "G2-346": {
+      "title": "Avrundning till närmaste tiotal",
+      "instruction": "Avrunda varje tal till närmaste tiotal och skriv det i rutan. Är entalet 5 eller mer, avrundar du uppåt."
+    },
+    "G3-387": {
+      "title": "Uppåt eller nedåt? Sortera talen",
+      "instruction": "Avrundas varje tal uppåt eller nedåt till närmaste tiotal? Skriv det i rätt låda."
+    },
+    "G3-388": {
+      "title": "Avrundning till hundratal: skriv talet",
+      "instruction": "Avrunda varje tal till närmaste hundratal och skriv det i rutan. Titta på entalet och tiotalet."
+    },
+    "G3-389": {
+      "title": "Avrunda först, gör sedan ett överslag",
+      "instruction": "Avrunda båda talen till närmaste tiotal och skriv dem i rutorna. Addera sedan de avrundade talen."
+    },
+    "G3-390": {
+      "title": "Vilka tal blir 50?",
+      "instruction": "Ringa in varje tal som avrundas till talet högst upp. Titta på entalet i varje tal."
+    },
+    "G3-391": {
+      "title": "Avrundning till tiotal och hundratal",
+      "instruction": "Avrunda varje tal två gånger: till närmaste tiotal i första rutan och till närmaste hundratal i den andra."
+    }
+  },
+  "families": {
+    "tangram": {
+      "slug": "tangram",
+      "name": "Tangram"
+    },
+    "human-body": {
+      "slug": "kroppens-delar",
+      "name": "Kroppens delar"
+    },
+    "five-senses": {
+      "slug": "vara-sinnen",
+      "name": "Våra sinnen"
+    },
+    "weather-symbols": {
+      "slug": "vadersymboler",
+      "name": "Vädersymboler"
+    },
+    "recycling": {
+      "slug": "kallsortering",
+      "name": "Källsortering"
+    },
+    "cloze": {
+      "slug": "fyll-i-ratt-ord",
+      "name": "Fyll i rätt ord"
+    },
+    "odd-and-even": {
+      "slug": "udda-och-jamna-tal",
+      "name": "Udda och jämna tal"
+    },
+    "pronouns": {
+      "slug": "pronomen-han-hon-eller-de",
+      "name": "Pronomen: han, hon eller de"
+    },
+    "question-words": {
+      "slug": "frageord",
+      "name": "Frågeord"
+    },
+    "rounding": {
+      "slug": "avrundning",
+      "name": "Avrundning"
+    }
+  },
+  "skills": {
+    "tangram": {
+      "full": "Tangram för förskolan och åk 1-2: klippa ut de sju bitarna, lägga figurer och skuggbilder, hitta biten som saknas och räkna trianglar och kvadrater.",
+      "short": "Lägga, klippa och räkna tangramfigurer"
+    },
+    "human-body": {
+      "full": "Kroppens delar för förskolan och åk 1: sätta namn på delarna och skriva dem, räkna hur många man har, färglägga efter färgrutorna och hitta delen som saknas.",
+      "short": "Namn på kroppens delar, räkna och färglägga"
+    },
+    "five-senses": {
+      "full": "Våra sinnen för förskolan och åk 1: sortera bilder efter höra, se, lukta, smaka och känna, välja rätt sinne och sätta namn på sinnesorganen.",
+      "short": "Höra, se, lukta, smaka och känna"
+    },
+    "weather-symbols": {
+      "full": "Vädersymboler för förskolan till åk 3: para ihop symbol och ord, föra väderdagbok en hel vecka, välja kallt, varmt eller hett och namnge vattnets kretslopp.",
+      "short": "Läsa vädersymboler och föra väderdagbok"
+    },
+    "recycling": {
+      "full": "Källsortering för förskolan till åk 2: hålla isär papper, plast, metall, glas och matavfall, välja rätt tunna och skriva vad en sak är gjord av.",
+      "short": "Sortera saker i rätt tunna"
+    },
+    "cloze": {
+      "full": "Fyll i rätt ord för åk 1-2: skriva ordet som saknas i meningen med hjälp av bilden, välja mellan två ord, skriva pluralformen och fylla i en kort berättelse.",
+      "short": "Skriva ordet som saknas i meningen"
+    },
+    "odd-and-even": {
+      "full": "Udda och jämna tal för åk 1-3: sortera tal i det udda och det jämna huset, para ihop punkter, titta på entalet upp till 100 och avgöra om en summa är jämn.",
+      "short": "Känna igen udda och jämna tal"
+    },
+    "pronouns": {
+      "full": "Pronomen för åk 2-3: välja han, hon eller de till en person, byta ut namnet i meningen, sortera namnkort och skriva om meningar med pronomen.",
+      "short": "Välja han, hon eller de till namnet"
+    },
+    "question-words": {
+      "full": "Frågeord för åk 2: känna igen vem, vad, var, när och hur många, fylla i frågeordet, sortera svar i rätt låda och själv skriva frågan till ett svar.",
+      "short": "Vem, vad och var i frågor"
+    },
+    "rounding": {
+      "full": "Avrundning för åk 3: avrunda tal uppåt eller nedåt till närmaste tiotal och hundratal, göra överslag till en summa och hitta talen som blir 50.",
+      "short": "Avrunda tal till närmaste tiotal"
+    }
+  },
+  "topicMeta": {
+    "tangram": "Tangram att skriva ut för förskolan och åk 1-2: klipp ut de sju bitarna, lägg figurer och skuggbilder, hitta biten som saknas och räkna trianglar och kvadrater.",
+    "human-body": "Kroppens delar att skriva ut för förskolan och åk 1: sätt namn på delarna, räkna hur många du har, färglägg efter färgrutorna och se vilka delar du har två av.",
+    "five-senses": "Våra sinnen att skriva ut för förskolan och åk 1: sortera bilder efter sinne, sätt namn på sinnesorganen och skriv klart meningar om vad du hör och ser.",
+    "weather-symbols": "Vädersymboler att skriva ut för förskolan till åk 3: sol, moln, regn, åska, snö och regnbåge, väderdagbok för en hel vecka och vattnets kretslopp.",
+    "recycling": "Källsortering att skriva ut för förskolan till åk 2: håll isär papper, plast, metall, glas och matavfall, välj rätt tunna och skriv vad saken är gjord av.",
+    "cloze": "Fyll i rätt ord att skriva ut för åk 1-2: skriv ordet som saknas i meningen, fyll i bokstavsrutor, öva plural och gör klart en kort berättelse.",
+    "odd-and-even": "Udda och jämna tal att skriva ut för åk 1-3: sortera tal, para ihop punkter, titta på entalet upp till 100 och avgör om en summa är jämn eller udda.",
+    "pronouns": "Pronomen att skriva ut för åk 2-3: välj han, hon eller de till en person, sortera namnkort och skriv om meningar med ett pronomen i stället för namnet.",
+    "question-words": "Frågeord att skriva ut för åk 2: öva vem, vad, var, när och hur många, fyll i rätt frågeord, sortera svaren i rätt låda och skriv själv en fråga.",
+    "rounding": "Avrundning att skriva ut för åk 3: avrunda uppåt eller nedåt till närmaste tiotal och hundratal, gör ett överslag till en summa och hitta talen som blir 50."
+  },
+  "refusals": {
+    "K-367": "Sverige HAR en nationell färgkonvention (Avfall Sveriges skyltsystem: papper blått, plast orange, metall grått, glas grönt, matavfall brunt) och alla fem färgerna ligger i blocket - men F4 faller på ITEM-banken, inte på färgerna. Med ett ärligt förpackningskärl för metall (Metallförpackningar) finns exakt ETT metallföremål i data/b4/recycling.json (`can`, en konservburk), alltså en enda familj, under golvet på två familjer som färgfacen behöver för sina två exempelbilder per tunna. De två utvägarna är båda falska mot det svenska systemet: ett kärl med packagingOnly:false skickar kastrullen, skruven och muttern till metallförpackningar (de ska till återvinningscentralen), och att stryka Metall ur en svensk källsorteringssida tar bort en av de fraktioner varje barn lär sig. Facen vägras därför; den gissas inte fram."
+  },
+  "banks": {
+    "tangram": {
+      "strings": {
+        "K-353": {
+          "title": "Tangram: klipp ut de sju bitarna och lägg två figurer",
+          "instruction": "Färglägg bitarna efter färgrutorna, klipp ut dem längs linjerna och lägg dem sedan på de två figurerna, linje för linje."
+        },
+        "compose": {
+          "title": "Lätta tangramfigurer av 2 och 3 bitar: rita linjerna",
+          "instruction": "Titta på bitarna ovanför varje figur. Rita linjerna inuti figuren där bitarna möts."
+        },
+        "silhouette": {
+          "title": "Tangram: bygg fyra skuggbilder",
+          "instruction": "Bygg varje mörk figur med de sju bitarna i ditt tangram. Använd alla sju bitarna varje gång."
+        },
+        "missing": {
+          "title": "Tangram: vilken bit saknas?",
+          "instruction": "I varje figur saknas en bit. Ringa in den bit som passar exakt i det tomma fältet."
+        },
+        "match": {
+          "title": "Tangram: vilken lösning passar skuggbilden?",
+          "instruction": "Titta på varje skuggbild. Ringa in den lösning som ligger precis likadant. Vridna eller speglade figurer passar inte."
+        },
+        "count": {
+          "title": "Tangram: räkna trianglar och kvadrater",
+          "instruction": "Räkna trianglarna i varje figur och skriv talet i första rutan. Räkna sedan kvadraterna till den andra rutan."
+        }
+      }
+    },
+    "human-body": {
+      "partWords": {
+        "head": "huvud",
+        "hair": "hår",
+        "eye": "öga",
+        "ear": "öra",
+        "nose": "näsa",
+        "mouth": "mun",
+        "neck": "hals",
+        "shoulder": "axel",
+        "arm": "arm",
+        "elbow": "armbåge",
+        "hand": "hand",
+        "finger": "finger",
+        "leg": "ben",
+        "knee": "knä",
+        "foot": "fot",
+        "toe": "tå"
+      },
+      "overrides": {},
+      "bankWords": {
+        "head": "huvud",
+        "hair": "hår",
+        "eye": "öga",
+        "ear": "öra",
+        "nose": "näsa",
+        "mouth": "mun",
+        "neck": "hals",
+        "shoulder": "axel",
+        "arm": "arm",
+        "elbow": "armbåge",
+        "hand": "hand",
+        "finger": "finger",
+        "leg": "ben",
+        "knee": "knä",
+        "foot": "fot",
+        "toe": "tå"
+      },
+      "plural": {
+        "head": "huvuden",
+        "hair": "hår",
+        "eye": "ögon",
+        "ear": "öron",
+        "nose": "näsor",
+        "mouth": "munnar",
+        "neck": "halsar",
+        "shoulder": "axlar",
+        "arm": "armar",
+        "elbow": "armbågar",
+        "hand": "händer",
+        "finger": "fingrar",
+        "leg": "ben",
+        "knee": "knän",
+        "foot": "fötter",
+        "toe": "tår"
+      },
+      "factLabels": {
+        "head": "Hur många huvuden?",
+        "hair": "Hur mycket hår?",
+        "eye": "Hur många ögon?",
+        "ear": "Hur många öron?",
+        "nose": "Hur många näsor?",
+        "mouth": "Hur många munnar?",
+        "neck": "Hur många halsar?",
+        "shoulder": "Hur många axlar?",
+        "arm": "Hur många armar?",
+        "elbow": "Hur många armbågar?",
+        "hand": "Hur många händer?",
+        "finger": "Hur många fingrar?",
+        "leg": "Hur många ben?",
+        "knee": "Hur många knän?",
+        "foot": "Hur många fötter?",
+        "toe": "Hur många tår?",
+        "fingersOneHand": "Hur många fingrar på en hand?",
+        "toesOneFoot": "Hur många tår på en fot?"
+      },
+      "use": {
+        "head": "Med huvudet tänker du.",
+        "hair": "Håret håller huvudet varmt.",
+        "eye": "Med ögonen ser du.",
+        "ear": "Med öronen hör du.",
+        "nose": "Med näsan luktar du.",
+        "mouth": "Med munnen äter och pratar du.",
+        "neck": "Halsen vrider huvudet.",
+        "shoulder": "På axlarna bär du ryggsäcken.",
+        "arm": "Med armarna kramas du.",
+        "elbow": "Armbågarna böjer armarna.",
+        "hand": "Med händerna håller du saker.",
+        "finger": "Med ett finger pekar du.",
+        "leg": "Med benen springer du.",
+        "knee": "Knäna böjs när du hoppar.",
+        "foot": "På fötterna står du.",
+        "toe": "Tårna hjälper dig att hålla balansen."
+      },
+      "refuseWords": {},
+      "refuse": [],
+      "strings": {
+        "K-354": {
+          "title": "Kroppens delar",
+          "instruction": "Skriv varje ord från ordlistan på linjen som pekar på den delen av kroppen."
+        },
+        "K-360": {
+          "title": "Kroppens delar: hur många har du?",
+          "instruction": "Hur många har du av varje? Räkna på din egen kropp och skriv talet i rutan."
+        },
+        "K-361": {
+          "title": "Kroppens delar: färglägg efter färgrutorna",
+          "instruction": "Läs färgrutorna och färglägg varje del av kroppen i den färg som står bredvid ordet."
+        },
+        "G1-356": {
+          "title": "Kroppens delar: skriv ordet",
+          "instruction": "Leta upp varje numrerad del på figuren och skriv namnet, en bokstav i varje ruta."
+        },
+        "K-362": {
+          "title": "Kroppens delar: vad saknas?",
+          "instruction": "På varje kropp saknas en del. Ringa in bilden på den del som saknas och rita sedan dit den."
+        },
+        "K-363": {
+          "title": "Kroppens delar: vilka har du två av?",
+          "instruction": "Ringa in varje del av kroppen som du har två av."
+        }
+      }
+    },
+    "five-senses": {
+      "verbs": {
+        "hear": "höra",
+        "see": "se",
+        "smell": "lukta",
+        "taste": "smaka",
+        "touch": "känna"
+      },
+      "starters": {
+        "hear": "Jag hör ...",
+        "see": "Jag ser ...",
+        "smell": "Jag luktar på ...",
+        "taste": "Jag smakar på ...",
+        "touch": "Jag känner på ..."
+      },
+      "signedOk": [
+        "pizza",
+        "television",
+        "book",
+        "lamp",
+        "lighthouse",
+        "flute"
+      ],
+      "organOf": {},
+      "refuse": [],
+      "strings": {
+        "K-355": {
+          "title": "Våra sinnen",
+          "instruction": "Dra ett streck från varje bild till den kroppsdel som du använder för den."
+        },
+        "G1-357": {
+          "title": "Våra sinnen: sortera efter sinne",
+          "instruction": "Titta på varje bild och dra ett streck från dess punkt till lådan för det sinne du använder."
+        },
+        "G1-358": {
+          "title": "Våra sinnen: vilket sinne använder du?",
+          "instruction": "Vilket sinne använder du för varje bild? Ringa in den kroppsdel du behöver."
+        },
+        "G1-359": {
+          "title": "Våra sinnen: vilken bild passar inte in?",
+          "instruction": "På varje rad passar tre bilder till samma sinne. Stryk över den bild som inte gör det."
+        },
+        "G1-360": {
+          "title": "Sinnesorganen: skriv ordet för sinnet",
+          "instruction": "Skriv varje ord från ordlistan på linjen bredvid den kroppsdel som gör det."
+        },
+        "G1-361": {
+          "title": "Våra sinnen: jag hör ...",
+          "instruction": "Skriv klart varje mening. Skriv vad du kan höra, se, lukta på, smaka på och känna på."
+        }
+      },
+      "strand": "Naturorienterande ämnen"
+    },
+    "weather-symbols": {
+      "symbolWords": {
+        "sun": "sol",
+        "cloud": "moln",
+        "rain": "regn",
+        "storm": "åska",
+        "snow": "snö",
+        "rainbow": "regnbåge"
+      },
+      "forecastAsks": {
+        "sun": "Vilken dag skiner solen?",
+        "cloud": "Vilken dag är det molnigt?",
+        "rain": "Vilken dag regnar det?",
+        "storm": "Vilken dag åskar det?",
+        "snow": "Vilken dag snöar det?",
+        "rainbow": "Vilken dag syns en regnbåge?"
+      },
+      "cycleLabels": {
+        "evaporation": "avdunstning",
+        "condensation": "kondensation",
+        "precipitation": "nederbörd",
+        "collection": "uppsamling",
+        "runoff": "avrinning"
+      },
+      "bandWords": {
+        "cold": "kallt",
+        "warm": "varmt",
+        "hot": "hett"
+      },
+      "forecastDays": null,
+      "diaryDays": null,
+      "diaryStart": "mon",
+      "bankWords": {},
+      "distractors": [
+        "vind",
+        "dimma"
+      ],
+      "refuse": [],
+      "strings": {
+        "K-356": {
+          "title": "Vädersymboler",
+          "instruction": "Dra ett streck från varje vädersymbol till ordet som hör till."
+        },
+        "G1-362": {
+          "title": "Skriv väderordet",
+          "instruction": "Leta upp ordet för varje vädersymbol i ordlistan och skriv det, en bokstav i varje ruta."
+        },
+        "K-364": {
+          "title": "Väderdagbok från måndag till söndag",
+          "instruction": "Titta ut varje dag den här veckan och rita vädersymbolen för den dagen i dess ruta."
+        },
+        "K-365": {
+          "title": "Hur varmt är det? Kallt, varmt eller hett",
+          "instruction": "Titta på varje termometer, använd nyckeln och ringa in den bild som passar till kallt, varmt eller hett."
+        },
+        "G3-385": {
+          "title": "Vattnets kretslopp: sätt ut namnen",
+          "instruction": "Läs de fyra orden i ordlistan och skriv varje ord på linjen med samma siffra som på bilden."
+        },
+        "G1-363": {
+          "title": "Läs veckans väderprognos",
+          "instruction": "Titta på vädret för hela veckan, läs varje fråga och ringa in rätt dag."
+        }
+      },
+      "strand": "Naturorienterande ämnen"
+    },
+    "recycling": {
+      "bins": [
+        {
+          "key": "papper",
+          "label": "Papper",
+          "longLabel": "Papper och pappersförpackningar (blå symbol)",
+          "color": "codeBlue",
+          "colorWord": "blå",
+          "materials": [
+            "paper",
+            "cardboard"
+          ],
+          "packagingOnly": false
+        },
+        {
+          "key": "plast",
+          "label": "Plast",
+          "longLabel": "Plastförpackningar (orange symbol)",
+          "color": "codeOrange",
+          "colorWord": "orange",
+          "materials": [
+            "plastic"
+          ],
+          "packagingOnly": true
+        },
+        {
+          "key": "metall",
+          "label": "Metall",
+          "longLabel": "Metallförpackningar (grå symbol)",
+          "color": "inkSoft",
+          "colorWord": "grå",
+          "materials": [
+            "metal"
+          ],
+          "packagingOnly": true
+        },
+        {
+          "key": "glas",
+          "label": "Glas",
+          "longLabel": "Glasförpackningar (grön symbol)",
+          "color": "codeGreen",
+          "colorWord": "grön",
+          "materials": [
+            "glass"
+          ],
+          "packagingOnly": true
+        },
+        {
+          "key": "matavfall",
+          "label": "Matavfall",
+          "longLabel": "Matavfall (brun symbol)",
+          "color": "codeBrown",
+          "colorWord": "brun",
+          "materials": [
+            "organic"
+          ],
+          "packagingOnly": false
+        }
+      ],
+      "route": {},
+      "excludeItems": {
+        "toothbrush": "en tandborste är ingen förpackning; den går till restavfallet, och restavfall finns inte bland de fem tunnorna på bladet",
+        "comb": "en kam är ingen plastförpackning; den går till restavfallet, som inte finns på bladet",
+        "spoon": "en plastsked är ingen förpackning; den går till restavfallet, som inte finns på bladet",
+        "bucket": "en trasig hink är ingen plastförpackning; hårdplast lämnas på återvinningscentralen",
+        "saucepan": "en kastrull är ingen metallförpackning; den lämnas till metallskrot på återvinningscentralen",
+        "bolt": "en skruv är löst metallskrot, inte en metallförpackning; den lämnas på återvinningscentralen",
+        "nut": "en mutter är löst metallskrot, inte en metallförpackning; den lämnas på återvinningscentralen",
+        "water": "pantflaska: en PET-flaska med pant lämnas tillbaka i butikens pantautomat, den läggs inte i plastförpackningar"
+      },
+      "materialWords": {
+        "paper": "papper",
+        "cardboard": "kartong",
+        "glass": "glas",
+        "plastic": "plast",
+        "metal": "metall"
+      },
+      "colorConvention": "national",
+      "refuse": [
+        "color"
+      ],
+      "starters": [],
+      "scheme": "Fem tunnor som hemma: papper och pappersförpackningar, plastförpackningar, metallförpackningar (konservburkar, folie, tuber), glasförpackningar och matavfall. Färgerna följer Avfall Sveriges skyltsystem, som nästan alla kommuner använder: blått för papper, orange för plast, grått för metall, grönt för glas och brunt för matavfall. Plast och metall tar bara förpackningar; en kastrull, en skruv eller en trasig hink lämnas på återvinningscentralen, och en PET-flaska med pant går tillbaka till butiken, så inget av det finns på bladet.",
+      "enAudit": "Den engelska källan bygger sina fem tunnor på MATERIAL i stället för på förpackning, så samma sida skickar både en burk och en kastrull till Metal - i Sverige går kastrullen till återvinningscentralen. Den engelska compost-tunnan tar bröd, vilket den amerikanska hemkompostguiden själv avråder från. K-367 är korrekt vägrad i en (refuse:[color]), men tools/b4var-rows/recycling.js har ändå kvar en en-titel för K-367, så i18n/build-en.js skapar en sträng som ingen en-våg får använda. Och den engelska instruktionen \"when it is empty or finished\" står kvar på G2-348, där uppgiften handlar om material och inte om att slänga något. Slutligen: objektet `water` är en PET-flaska - i varje pantland (SE, NO, DK, FI, NL, DE) hör den till pantsystemet och inte till plastförpackningar, men en-blocket sorterar den som vanlig plast.",
+      "strings": {
+        "K-357": {
+          "title": "Källsortering",
+          "instruction": "Allt är tomt eller slut. Dra ett streck från varje sak till tunnan där den hör hemma."
+        },
+        "K-366": {
+          "title": "Källsortering: vilken tunna?",
+          "instruction": "Titta på varje sak och ringa in tunnan där den hör hemma när den är tom eller slut."
+        },
+        "G1-364": {
+          "title": "Källsortering: vad är det gjort av?",
+          "instruction": "Vad är varje sak gjord av? Skriv ordet från ordlistan på linjen."
+        },
+        "G2-348": {
+          "title": "Källsortering: vilken sak är gjord av annat material?",
+          "instruction": "På varje rad är tre saker gjorda av samma material. Ringa in den sak som är gjord av något annat."
+        },
+        "G1-365": {
+          "title": "Källsortering: tre saker jag lämnar till återvinning",
+          "instruction": "Rita tre saker som du källsorterar hemma och skriv vad varje sak är."
+        }
+      },
+      "strand": "Naturorienterande ämnen"
+    },
+    "cloze": {
+      "nameSlot": true,
+      "articleTable": {
+        "n": "en",
+        "t": "ett"
+      },
+      "boxWord": "en bokstav i varje ruta",
+      "confusable": [
+        [
+          "hen",
+          "chicken"
+        ],
+        [
+          "duck",
+          "goose"
+        ],
+        [
+          "boat",
+          "sailboat"
+        ],
+        [
+          "jaguar",
+          "leopard"
+        ]
+      ],
+      "agreeingAdjectives": [],
+      "frames": [
+        {
+          "id": "cow-mjolk",
+          "noun": "cow",
+          "form": "sg",
+          "text": "En {gap} ger oss mjölk.",
+          "fits": [
+            "cow",
+            "goat"
+          ],
+          "foil": "horse",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "cow"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "pig-lera",
+          "noun": "pig",
+          "form": "sg",
+          "text": "En {gap} rullar sig i leran.",
+          "fits": [
+            "pig"
+          ],
+          "foil": "goat",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "pig"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "rooster-gal",
+          "noun": "rooster",
+          "form": "sg",
+          "text": "En {gap} gal tidigt på morgonen.",
+          "fits": [
+            "rooster"
+          ],
+          "foil": "hen",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "birds 2",
+            "noun": "rooster"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "owl-natt",
+          "noun": "owl",
+          "form": "sg",
+          "text": "En {gap} sitter vaken i trädet på natten.",
+          "fits": [
+            "owl"
+          ],
+          "foil": "seagull",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "owl"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "giraffe-hals",
+          "noun": "giraffe",
+          "form": "sg",
+          "text": "En {gap} har en mycket lång hals.",
+          "fits": [
+            "giraffe",
+            "swan"
+          ],
+          "foil": "zebra",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "zoo animals",
+            "noun": "giraffe"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "elephant-snabel",
+          "noun": "elephant",
+          "form": "sg",
+          "text": "En {gap} sprutar vatten med snabeln.",
+          "fits": [
+            "elephant"
+          ],
+          "foil": "rhinoceros",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "animals",
+            "noun": "elephant"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "kangaroo-ficka",
+          "noun": "kangaroo",
+          "form": "sg",
+          "text": "En {gap} bär sin unge i en ficka på magen.",
+          "fits": [
+            "kangaroo"
+          ],
+          "foil": "monkey",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "zoo animals",
+            "noun": "kangaroo"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "penguin-is",
+          "noun": "penguin",
+          "form": "sg",
+          "text": "En {gap} åker på magen över isen.",
+          "fits": [
+            "penguin",
+            "seal"
+          ],
+          "foil": "goose",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "animals",
+            "noun": "penguin"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "zebra-rander",
+          "noun": "zebra",
+          "form": "sg",
+          "text": "En {gap} har svarta och vita ränder.",
+          "fits": [
+            "zebra"
+          ],
+          "foil": "giraffe",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "animals",
+            "noun": "zebra"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "woodpecker-stam",
+          "noun": "woodpecker",
+          "form": "sg",
+          "text": "En {gap} hackar hål i trädstammen.",
+          "fits": [
+            "woodpecker"
+          ],
+          "foil": "owl",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "woodpecker"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "turtle-skal",
+          "noun": "turtle",
+          "form": "sg",
+          "text": "En {gap} gömmer sig i sitt hårda skal.",
+          "fits": [
+            "turtle"
+          ],
+          "foil": "rabbit",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "beach",
+            "noun": "turtle"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "rabbit-morot",
+          "noun": "rabbit",
+          "form": "sg",
+          "text": "En {gap} hoppar och gnager på en morot.",
+          "fits": [
+            "rabbit"
+          ],
+          "foil": "fox",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "animals",
+            "noun": "rabbit"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "tractor-aker",
+          "noun": "tractor",
+          "form": "sg",
+          "text": "En {gap} plöjer åkern på bondgården.",
+          "fits": [
+            "tractor"
+          ],
+          "foil": "truck",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "tractor"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "helicopter-rotor",
+          "noun": "helicopter",
+          "form": "sg",
+          "text": "En {gap} har snurrande rotorblad högst upp.",
+          "fits": [
+            "helicopter"
+          ],
+          "foil": "rocket",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "Things That Fly",
+            "noun": "helicopter"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "sailboat-sjon",
+          "noun": "sailboat",
+          "form": "sg",
+          "text": "En {gap} seglar över sjön.",
+          "fits": [
+            "sailboat",
+            "boat",
+            "yacht"
+          ],
+          "foil": "canoe",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "beach",
+            "noun": "sailboat"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "kite-blast",
+          "noun": "kite",
+          "form": "sg",
+          "text": "{name} flyger en {gap} när det blåser.",
+          "fits": [
+            "kite"
+          ],
+          "foil": "ball",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "toys",
+            "noun": "kite"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        }
+      ],
+      "plural": [
+        {
+          "id": "cows-ladan",
+          "noun": "cow",
+          "form": "pl",
+          "text": "Tre {gap} sover i ladan.",
+          "clones": 3,
+          "fits": [
+            "cow",
+            "horse",
+            "pig",
+            "goat",
+            "donkey",
+            "calf",
+            "bull",
+            "ox",
+            "llama"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "cow"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "bees-blommorna",
+          "noun": "bee",
+          "form": "pl",
+          "text": "Många {gap} surrar runt blommorna.",
+          "clones": null,
+          "fits": [
+            "bee"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "bee"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "geese-dammen",
+          "noun": "goose",
+          "form": "pl",
+          "text": "Många {gap} simmar i dammen.",
+          "clones": null,
+          "fits": [
+            "goose",
+            "duck",
+            "duckling",
+            "swan"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "goose"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "horses-angen",
+          "noun": "horse",
+          "form": "pl",
+          "text": "Två {gap} galopperar över ängen.",
+          "clones": 2,
+          "fits": [
+            "horse",
+            "zebra",
+            "donkey"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "animals",
+            "noun": "horse"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "penguins-isen",
+          "noun": "penguin",
+          "form": "pl",
+          "text": "Många {gap} vaggar fram över isen.",
+          "clones": null,
+          "fits": [
+            "penguin"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "animals",
+            "noun": "penguin"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "bats-grottan",
+          "noun": "bat",
+          "form": "pl",
+          "text": "Många {gap} hänger upp och ner i grottan.",
+          "clones": null,
+          "fits": [
+            "bat"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "Things That Fly",
+            "noun": "bat"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "monkeys-trad",
+          "noun": "monkey",
+          "form": "pl",
+          "text": "Många {gap} svingar sig från träd till träd.",
+          "clones": null,
+          "fits": [
+            "monkey",
+            "chimpanzee",
+            "orangutan",
+            "gorilla",
+            "lemur"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "zoo animals",
+            "noun": "monkey"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "strawberries-roda",
+          "noun": "strawberry",
+          "form": "pl",
+          "text": "Många {gap} är små, röda och söta.",
+          "clones": null,
+          "fits": [
+            "strawberry"
+          ],
+          "predicateKind": "copula",
+          "exclusiveWhy": "jordgubben är den enda lilla röda och söta frukten i poolen; äpplet är stort och kan vara grönt, och inga andra bär finns med objForms",
+          "pic": {
+            "theme": "fruits",
+            "noun": "strawberry"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "rockets-rymden",
+          "noun": "rocket",
+          "form": "pl",
+          "text": "Två {gap} lyfter mot rymden.",
+          "clones": 2,
+          "fits": [
+            "rocket"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "rocket"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "tigers-pals",
+          "noun": "tiger",
+          "form": "pl",
+          "text": "Många {gap} har randig päls.",
+          "clones": null,
+          "fits": [
+            "tiger",
+            "zebra"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "animals",
+            "noun": "tiger"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "hens-garden",
+          "noun": "hen",
+          "form": "pl",
+          "text": "Många {gap} pickar korn på gården.",
+          "clones": null,
+          "fits": [
+            "hen",
+            "chicken",
+            "rooster",
+            "turkey"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "hen"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "balls-backen",
+          "noun": "ball",
+          "form": "pl",
+          "text": "Tre {gap} rullar nerför backen.",
+          "clones": 3,
+          "fits": [
+            "ball"
+          ],
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "toys",
+            "noun": "ball"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        }
+      ],
+      "stories": [
+        {
+          "id": "bondgard-morgon",
+          "nouns": [
+            "rooster",
+            "cow",
+            "tractor"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "På morgonen gal en {gap}.",
+            "Sedan mjölkar {name} en {gap}.",
+            "Efter det startar {name} en {gap}."
+          ],
+          "fits": [
+            [
+              "rooster"
+            ],
+            [
+              "cow",
+              "goat"
+            ],
+            [
+              "tractor"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "birds 2",
+              "noun": "rooster"
+            },
+            {
+              "theme": "farm animals",
+              "noun": "cow"
+            },
+            {
+              "theme": "vehicles",
+              "noun": "tractor"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "vid-dammen",
+          "nouns": [
+            "swan",
+            "fish",
+            "dog"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "En {gap} simmar lugnt på dammen.",
+            "Under ytan blänker en {gap}.",
+            "På stranden skäller en {gap}."
+          ],
+          "fits": [
+            [
+              "swan",
+              "goose"
+            ],
+            [
+              "fish"
+            ],
+            [
+              "dog"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "birds 2",
+              "noun": "swan"
+            },
+            {
+              "theme": "animals",
+              "noun": "fish"
+            },
+            {
+              "theme": "animals",
+              "noun": "dog"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "djurparken",
+          "nouns": [
+            "elephant",
+            "giraffe",
+            "monkey"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "I djurparken sprutar en {gap} vatten.",
+            "En {gap} äter löv från ett högt träd.",
+            "En {gap} svingar sig gren till gren."
+          ],
+          "fits": [
+            [
+              "elephant"
+            ],
+            [
+              "giraffe"
+            ],
+            [
+              "monkey",
+              "chimpanzee",
+              "orangutan",
+              "gorilla",
+              "lemur"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "zoo animals",
+              "noun": "elephant"
+            },
+            {
+              "theme": "zoo animals",
+              "noun": "giraffe"
+            },
+            {
+              "theme": "zoo animals",
+              "noun": "monkey"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "i-luften",
+          "nouns": [
+            "rocket",
+            "kite",
+            "balloon"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "En {gap} lyfter mot rymden.",
+            "{name} flyger en {gap} i blåsten.",
+            "Högt över taken svävar en {gap}."
+          ],
+          "fits": [
+            [
+              "rocket"
+            ],
+            [
+              "kite"
+            ],
+            [
+              "balloon"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "vehicles",
+              "noun": "rocket"
+            },
+            {
+              "theme": "toys",
+              "noun": "kite"
+            },
+            {
+              "theme": "toys",
+              "noun": "balloon"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "vid-havet",
+          "nouns": [
+            "dolphin",
+            "seagull",
+            "boat"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "En {gap} hoppar upp ur vågorna.",
+            "Över sanden skriker en {gap}.",
+            "Långt ute gungar en {gap}."
+          ],
+          "fits": [
+            [
+              "dolphin",
+              "whale"
+            ],
+            [
+              "seagull"
+            ],
+            [
+              "boat",
+              "sailboat",
+              "yacht",
+              "ferry"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "beach",
+              "noun": "dolphin"
+            },
+            {
+              "theme": "beach",
+              "noun": "seagull"
+            },
+            {
+              "theme": "vehicles",
+              "noun": "boat"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "skogen-natt",
+          "nouns": [
+            "owl",
+            "fox",
+            "rabbit"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "På natten hoar en {gap} i eken.",
+            "Ur sitt gryt smyger en {gap}.",
+            "I täppan gnager en {gap} på en morot."
+          ],
+          "fits": [
+            [
+              "owl"
+            ],
+            [
+              "fox",
+              "wolf",
+              "bear"
+            ],
+            [
+              "rabbit"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "forest creatures",
+              "noun": "owl"
+            },
+            {
+              "theme": "forest creatures",
+              "noun": "fox"
+            },
+            {
+              "theme": "forest creatures",
+              "noun": "rabbit"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        }
+      ],
+      "strings": {
+        "base": {
+          "title": "Fyll i rätt ord",
+          "instruction": "Titta på bilden. Hitta ordet som passar i meningen i ordlistan och skriv det i rutan."
+        },
+        "letters": {
+          "title": "Fyll i rätt ord: bokstavsrutor",
+          "instruction": "Titta på bilden. Skriv ordet som saknas i rutorna, en bokstav i varje ruta."
+        },
+        "choice": {
+          "title": "Fyll i rätt ord: ringa in och skriv",
+          "instruction": "Titta på bilden och läs meningen. Ringa in ordet som passar och skriv det i rutan."
+        },
+        "plural": {
+          "title": "Fyll i rätt ord: fler än en",
+          "instruction": "Titta på bilderna. Det är fler än en. Skriv ordet för fler än en i rutan."
+        },
+        "story": {
+          "title": "Fyll i orden i berättelsen",
+          "instruction": "Läs hela berättelsen. De tre bilderna visar orden som saknas. Skriv varje ord från ordlistan i sin ruta."
+        },
+        "match": {
+          "title": "Para ihop meningen med bilden",
+          "instruction": "Läs varje mening. Vilken bild passar i luckan? Dra ett streck från meningen till den bilden."
+        }
+      },
+      "refuse": {
+        "plural": false
+      }
+    },
+    "odd-and-even": {
+      "chips": {
+        "odd": "udda",
+        "even": "jämnt"
+      },
+      "houseOrder": [
+        "odd",
+        "even"
+      ],
+      "rule": "Ett tal är udda om det slutar på 1, 3, 5, 7 eller 9. Ett tal är jämnt om det slutar på 0, 2, 4, 6 eller 8.",
+      "leftover": "blir över",
+      "pairs": "par",
+      "placeHeads": [
+        "T",
+        "E"
+      ],
+      "nameMaxGraphemes": 6,
+      "strings": {
+        "base": {
+          "title": "Udda och jämna tal: skriv i rätt hus",
+          "instruction": "Skriv varje tal i det hus där det hör hemma, det udda huset eller det jämna huset. Tre tal har redan flyttat in och visar sina par."
+        },
+        "proof": {
+          "title": "Udda eller jämnt? Skriv två lika stora delar",
+          "instruction": "Ringa in punkterna två och två. Skriv sedan talet som två lika stora delar och skriv det som blir över i den lilla rutan."
+        },
+        "share": {
+          "title": "Kan två kompisar dela lika?",
+          "instruction": "Dela bilderna mellan de två kompisarna, en i taget. Skriv hur många var och en får och hur många som blir över. Ringa in udda eller jämnt."
+        },
+        "ones": {
+          "title": "Udda och jämna tal upp till 100: titta på entalet",
+          "instruction": "Läs regeln högst upp. Titta bara på entalsrutan i varje tal och sätt ett kryss i ringen under udda eller jämnt."
+        },
+        "sums": {
+          "title": "Udda eller jämn summa? Avgör utan att räkna ut den",
+          "instruction": "Räkna inte ut summan. Titta på entalet som är understruket i varje tal, använd tabellen och kryssa för om summan är udda eller jämn."
+        },
+        "count": {
+          "title": "Udda eller jämnt? Räkna bilderna parvis",
+          "instruction": "Räkna bilderna och ringa in dem två och två. Skriv hur många par du gjorde och ringa sedan in udda eller jämnt."
+        }
+      },
+      "refuse": {},
+      "strand": "Taluppfattning och tals användning"
+    },
+    "pronouns": {
+      "people": [
+        {
+          "key": "architect",
+          "pic": {
+            "theme": "occupations",
+            "noun": "architect"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "author",
+          "pic": {
+            "theme": "occupations",
+            "noun": "author"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "barber",
+          "pic": {
+            "theme": "occupations",
+            "noun": "barber"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "baker",
+          "pic": {
+            "theme": "occupations",
+            "noun": "baker"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "detective",
+          "pic": {
+            "theme": "occupations",
+            "noun": "detective"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "doctor",
+          "pic": {
+            "theme": "occupations",
+            "noun": "doctor"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "judge",
+          "pic": {
+            "theme": "occupations",
+            "noun": "judge"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "musician",
+          "pic": {
+            "theme": "occupations",
+            "noun": "musician"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "pharmacist",
+          "pic": {
+            "theme": "occupations",
+            "noun": "pharmacist"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "photographer",
+          "pic": {
+            "theme": "occupations",
+            "noun": "photographer"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "singer",
+          "pic": {
+            "theme": "occupations",
+            "noun": "singer"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "police_officer",
+          "pic": {
+            "theme": "occupations",
+            "noun": "police_officer"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "coach",
+          "pic": {
+            "theme": "occupations",
+            "noun": "coach"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "farmer",
+          "pic": {
+            "theme": "occupations",
+            "noun": "farmer"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "janitor",
+          "pic": {
+            "theme": "occupations",
+            "noun": "janitor"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "student",
+          "pic": {
+            "theme": "classroom",
+            "noun": "student"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "carpenter",
+          "pic": {
+            "theme": "occupations",
+            "noun": "carpenter"
+          },
+          "depicted": "m",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "chef",
+          "pic": {
+            "theme": "occupations",
+            "noun": "chef"
+          },
+          "depicted": "m",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "gardener",
+          "pic": {
+            "theme": "occupations",
+            "noun": "gardener"
+          },
+          "depicted": "m",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "construction_worker",
+          "pic": {
+            "theme": "occupations",
+            "noun": "construction_worker"
+          },
+          "depicted": "m",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "librarian",
+          "pic": {
+            "theme": "occupations",
+            "noun": "librarian"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "teacher",
+          "pic": {
+            "theme": "occupations",
+            "noun": "teacher"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "waitress",
+          "pic": {
+            "theme": "occupations",
+            "noun": "waitress"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "flight_attendant",
+          "pic": {
+            "theme": "occupations",
+            "noun": "flight_attendant"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "mail_carrier_2",
+          "pic": {
+            "theme": "occupations",
+            "noun": "mail_carrier_2"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "athlete",
+          "pic": {
+            "theme": "occupations",
+            "noun": "athlete"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "ballerina",
+          "pic": {
+            "theme": "occupations",
+            "noun": "ballerina"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "girl",
+          "pic": {
+            "theme": "toys",
+            "noun": "girl"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "cashier",
+          "pic": {
+            "theme": "occupations",
+            "noun": "cashier"
+          },
+          "depicted": "f",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "florist",
+          "pic": {
+            "theme": "occupations",
+            "noun": "florist"
+          },
+          "depicted": "f",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "nurse",
+          "pic": {
+            "theme": "occupations",
+            "noun": "nurse"
+          },
+          "depicted": "f",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "tailor",
+          "pic": {
+            "theme": "occupations",
+            "noun": "tailor"
+          },
+          "depicted": "f",
+          "minPx": 56,
+          "picOpened": true
+        }
+      ],
+      "names": [
+        {
+          "name": "Ida",
+          "gender": "f"
+        },
+        {
+          "name": "Leo",
+          "gender": "m"
+        },
+        {
+          "name": "Alva",
+          "gender": "f"
+        },
+        {
+          "name": "Hugo",
+          "gender": "m"
+        },
+        {
+          "name": "Maja",
+          "gender": "f"
+        },
+        {
+          "name": "Nils",
+          "gender": "m"
+        },
+        {
+          "name": "Vera",
+          "gender": "f"
+        },
+        {
+          "name": "Olle",
+          "gender": "m"
+        },
+        {
+          "name": "Elsa",
+          "gender": "f"
+        },
+        {
+          "name": "Otto",
+          "gender": "m"
+        },
+        {
+          "name": "Saga",
+          "gender": "f"
+        },
+        {
+          "name": "Ivar",
+          "gender": "m"
+        }
+      ],
+      "and": "och",
+      "andBefore": null,
+      "chips": [
+        "han",
+        "hon",
+        "de"
+      ],
+      "initial": [
+        "Han",
+        "Hon",
+        "De"
+      ],
+      "extraChips": [
+        "hen"
+      ],
+      "map": {
+        "base": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        },
+        "replace": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        },
+        "anaphora": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        },
+        "sort": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        },
+        "rewrite": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        }
+      },
+      "objectMap": null,
+      "objects": [],
+      "frames": [
+        {
+          "id": "read-book",
+          "sg": "{subj} läser sin bok.",
+          "pl": "{subj} läser sina böcker."
+        },
+        {
+          "id": "play-ball",
+          "sg": "{subj} leker med sin boll.",
+          "pl": "{subj} leker med sina bollar."
+        },
+        {
+          "id": "eat-apple",
+          "sg": "{subj} äter sitt äpple.",
+          "pl": "{subj} äter sina äpplen."
+        },
+        {
+          "id": "ride-bike",
+          "sg": "{subj} är trött efter skolan.",
+          "pl": "{subj} är trötta efter skolan."
+        },
+        {
+          "id": "draw-cat",
+          "sg": "{subj} ritar sin katt.",
+          "pl": "{subj} ritar sina katter."
+        },
+        {
+          "id": "sing-song",
+          "sg": "{subj} sjunger sin sång.",
+          "pl": "{subj} sjunger sina sånger."
+        },
+        {
+          "id": "jump-rope",
+          "sg": "{subj} är snabb på hopprep.",
+          "pl": "{subj} är snabba på hopprep."
+        },
+        {
+          "id": "feed-dog",
+          "sg": "{subj} matar sin hund.",
+          "pl": "{subj} matar sina hundar."
+        },
+        {
+          "id": "paint-picture",
+          "sg": "{subj} målar sin tavla.",
+          "pl": "{subj} målar sina tavlor."
+        },
+        {
+          "id": "build-tower",
+          "sg": "{subj} bygger sitt torn.",
+          "pl": "{subj} bygger sina torn."
+        },
+        {
+          "id": "go-park",
+          "sg": "{subj} är glad i parken.",
+          "pl": "{subj} är glada i parken."
+        },
+        {
+          "id": "like-milk",
+          "sg": "{subj} är hungrig.",
+          "pl": "{subj} är hungriga."
+        }
+      ],
+      "anaphora": [
+        {
+          "id": "park",
+          "intro": "{a} och {b} är i parken.",
+          "s": [
+            {
+              "text": "{P} har en boll.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} har en drake.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "school",
+          "intro": "{a} och {b} är i skolan.",
+          "s": [
+            {
+              "text": "{P} läser en bok.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} ritar en bild.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "home",
+          "intro": "{a} och {b} är hemma.",
+          "s": [
+            {
+              "text": "{P} äter ett äpple.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} dricker mjölk.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "beach",
+          "intro": "{a} och {b} är på stranden.",
+          "s": [
+            {
+              "text": "{P} har en hink.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} har en spade.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "garden",
+          "intro": "{a} och {b} är i trädgården.",
+          "s": [
+            {
+              "text": "{P} plockar en blomma.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} vattnar en planta.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "kitchen",
+          "intro": "{a} och {b} är i köket.",
+          "s": [
+            {
+              "text": "{P} bakar en kaka.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} gör en smörgås.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "bus",
+          "intro": "{a} och {b} sitter på bussen.",
+          "s": [
+            {
+              "text": "{P} har en röd väska.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} har en blå väska.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "zoo",
+          "intro": "{a} och {b} är på djurparken.",
+          "s": [
+            {
+              "text": "{P} ser ett lejon.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} ser en apa.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        }
+      ],
+      "possessive": {
+        "chips": [
+          "hans",
+          "hennes",
+          "deras"
+        ],
+        "chipW": 84,
+        "byOwner": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        },
+        "frame": {
+          "sg": "Här är {subj}. Det är ___ {thing}.",
+          "pl": "Här är {subj}. Det är ___ {thing}."
+        },
+        "artTable": null,
+        "things": [
+          {
+            "key": "ball",
+            "pic": {
+              "theme": "toys",
+              "noun": "ball"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "kite",
+            "pic": {
+              "theme": "toys",
+              "noun": "kite"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "robot",
+            "pic": {
+              "theme": "toys",
+              "noun": "robot"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "train",
+            "pic": {
+              "theme": "toys",
+              "noun": "train"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "car",
+            "pic": {
+              "theme": "toys",
+              "noun": "car"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "bicycle",
+            "pic": {
+              "theme": "toys",
+              "noun": "bicycle"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "drum",
+            "pic": {
+              "theme": "music",
+              "noun": "drum"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "book",
+            "pic": {
+              "theme": "classroom",
+              "noun": "book"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "hat",
+            "pic": {
+              "theme": "accessories",
+              "noun": "hat"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "cake",
+            "pic": {
+              "theme": "desserts and sweets",
+              "noun": "cake"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "dog",
+            "pic": {
+              "theme": "pets",
+              "noun": "dog"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "cat",
+            "pic": {
+              "theme": "pets",
+              "noun": "cat"
+            },
+            "forms": null,
+            "picOpened": true
+          }
+        ]
+      },
+      "refuse": {
+        "possessive": false
+      },
+      "strings": {
+        "base": {
+          "title": "Pronomen: han, hon eller de",
+          "instruction": "Titta på personen och läs namnet. Ringa in ordet som vi säger i stället för namnet."
+        },
+        "replace": {
+          "title": "Byt ut namnet mot ett pronomen",
+          "instruction": "Läs meningen. Skriv ordet från ordlistan som ersätter namnet i den andra meningen.",
+          "bankWord": "ordlistan"
+        },
+        "anaphora": {
+          "title": "Vem är han? Pronomen i meningen",
+          "instruction": "Läs meningarna. Dra ett streck från varje ord i rutan till namnet som det står för."
+        },
+        "possessive": {
+          "title": "Hans, hennes eller deras?",
+          "instruction": "Titta på vem som äger saken. Ringa in ordet som visar att den hör till den personen."
+        },
+        "sort": {
+          "title": "Sortera namnen: han, hon eller de",
+          "instruction": "Läs varje namnkort. Skriv namnet under ordet som vi använder för den personen."
+        },
+        "rewrite": {
+          "title": "Skriv om meningen med ett pronomen",
+          "instruction": "Läs meningen. Skriv den igen på linjerna, men använd ett pronomen i stället för namnet."
+        }
+      }
+    },
+    "question-words": {
+      "qwords": {
+        "who": "Vem",
+        "what": "Vad",
+        "where": "Var",
+        "when": "När",
+        "howmany": "Hur många"
+      },
+      "starters": [
+        "Vem",
+        "Vad",
+        "Var",
+        "När",
+        "Varför",
+        "Hur"
+      ],
+      "bins": {
+        "who": "Vem?",
+        "what": "Vad?",
+        "where": "Var?"
+      },
+      "qPrefix": "",
+      "sortThingForm": "unique",
+      "genderFilter": {},
+      "excludeThings": [
+        "cow",
+        "duck",
+        "doll"
+      ],
+      "chipWidths": {
+        "Vem": 67.4,
+        "Vad": 62.6,
+        "Var": 59.1,
+        "När": 60.2,
+        "Hur många": 125.7
+      },
+      "frames": [
+        {
+          "id": "see-thing",
+          "kind": "thing",
+          "text": "{name} ser {thing}.",
+          "q": {
+            "who": "Vem ser {thing}?",
+            "what": "Vad ser {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "draw-thing",
+          "kind": "thing",
+          "text": "{name} ritar {thing}.",
+          "q": {
+            "who": "Vem ritar {thing}?",
+            "what": "Vad ritar {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "like-thing",
+          "kind": "thing",
+          "text": "{name} gillar {thing}.",
+          "q": {
+            "who": "Vem gillar {thing}?",
+            "what": "Vad gillar {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "be-place",
+          "kind": "place",
+          "text": "{name} är {place}.",
+          "q": {
+            "who": "Vem är {place}?",
+            "where": "Var är {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "play-place",
+          "kind": "place",
+          "text": "{name} leker {place}.",
+          "q": {
+            "who": "Vem leker {place}?",
+            "where": "Var leker {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "read-place",
+          "kind": "place",
+          "text": "{name} läser {place}.",
+          "q": {
+            "who": "Vem läser {place}?",
+            "where": "Var läser {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "play-time",
+          "kind": "time",
+          "text": "{name} leker {time}.",
+          "q": {
+            "who": "Vem leker {time}?",
+            "when": "När leker {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "eat-time",
+          "kind": "time",
+          "text": "{name} äter {time}.",
+          "q": {
+            "who": "Vem äter {time}?",
+            "when": "När äter {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "sleep-time",
+          "kind": "time",
+          "text": "{name} sover {time}.",
+          "q": {
+            "who": "Vem sover {time}?",
+            "when": "När sover {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "see-count",
+          "kind": "count",
+          "text": "{name} ser {n} {pl}.",
+          "q": {
+            "who": "Vem ser {n} {pl}?",
+            "howmany": "Hur många {pl} ser {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "draw-count",
+          "kind": "count",
+          "text": "{name} ritar {n} {pl}.",
+          "q": {
+            "who": "Vem ritar {n} {pl}?",
+            "howmany": "Hur många {pl} ritar {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "find-count",
+          "kind": "count",
+          "text": "{name} hittar {n} {pl}.",
+          "q": {
+            "who": "Vem hittar {n} {pl}?",
+            "howmany": "Hur många {pl} hittar {name}?"
+          },
+          "signed": true
+        }
+      ],
+      "places": [
+        {
+          "key": "house",
+          "pic": {
+            "theme": "miscellaneous",
+            "noun": "house"
+          },
+          "text": "hemma",
+          "picOpened": true
+        },
+        {
+          "key": "garden",
+          "pic": {
+            "theme": "spring",
+            "noun": "garden"
+          },
+          "text": "i trädgården",
+          "picOpened": true
+        },
+        {
+          "key": "beach",
+          "pic": {
+            "theme": "summer",
+            "noun": "beach"
+          },
+          "text": "på stranden",
+          "picOpened": true
+        },
+        {
+          "key": "tent",
+          "pic": {
+            "theme": "camping",
+            "noun": "tent"
+          },
+          "text": "i tältet",
+          "picOpened": true
+        },
+        {
+          "key": "forest",
+          "pic": {
+            "theme": "camping",
+            "noun": "forest"
+          },
+          "text": "i skogen",
+          "picOpened": true
+        },
+        {
+          "key": "lake",
+          "pic": {
+            "theme": "camping",
+            "noun": "lake"
+          },
+          "text": "vid sjön",
+          "picOpened": true
+        },
+        {
+          "key": "river",
+          "pic": {
+            "theme": "camping",
+            "noun": "river"
+          },
+          "text": "vid ån",
+          "picOpened": true
+        },
+        {
+          "key": "mountain",
+          "pic": {
+            "theme": "camping",
+            "noun": "mountain"
+          },
+          "text": "på berget",
+          "picOpened": true
+        },
+        {
+          "key": "pool",
+          "pic": {
+            "theme": "summer",
+            "noun": "pool"
+          },
+          "text": "i bassängen",
+          "picOpened": true
+        },
+        {
+          "key": "kitchen",
+          "pic": {
+            "theme": "around the house",
+            "noun": "kitchen"
+          },
+          "text": "i köket",
+          "picOpened": true
+        },
+        {
+          "key": "garage",
+          "pic": {
+            "theme": "around the house",
+            "noun": "garage"
+          },
+          "text": "i garaget",
+          "picOpened": true
+        },
+        {
+          "key": "bed",
+          "pic": {
+            "theme": "around the house",
+            "noun": "bed"
+          },
+          "text": "i sängen",
+          "picOpened": true
+        },
+        {
+          "key": "sofa",
+          "pic": {
+            "theme": "around the house",
+            "noun": "sofa"
+          },
+          "text": "i soffan",
+          "picOpened": true
+        },
+        {
+          "key": "playground",
+          "pic": {
+            "theme": "activities",
+            "noun": "playground"
+          },
+          "text": "på lekplatsen",
+          "picOpened": true
+        },
+        {
+          "key": "cabin",
+          "pic": {
+            "theme": "camping",
+            "noun": "cabin"
+          },
+          "text": "i stugan",
+          "picOpened": true
+        }
+      ],
+      "twins": [
+        [
+          "lake",
+          "river"
+        ],
+        [
+          "house",
+          "cabin"
+        ]
+      ],
+      "times": [
+        {
+          "text": "klockan åtta",
+          "h": 8
+        },
+        {
+          "text": "klockan tre",
+          "h": 3
+        },
+        {
+          "text": "klockan sex",
+          "h": 6
+        },
+        {
+          "text": "klockan nio",
+          "h": 9
+        },
+        {
+          "text": "klockan två",
+          "h": 2
+        },
+        {
+          "text": "klockan sju",
+          "h": 7
+        }
+      ],
+      "thingThemes": [
+        "animals",
+        "fruits",
+        "vehicles",
+        "toys",
+        "zoo animals",
+        "farm animals"
+      ],
+      "numbers": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "faces": {
+        "base": {
+          "kinds": [
+            "who",
+            "what",
+            "where"
+          ]
+        },
+        "match": {
+          "kinds": [
+            "who",
+            "what",
+            "where",
+            "when",
+            "howmany"
+          ]
+        },
+        "fill": {
+          "kinds": [
+            "who",
+            "what",
+            "where",
+            "when",
+            "howmany"
+          ]
+        },
+        "sort": {
+          "kinds": [
+            "who",
+            "what",
+            "where"
+          ]
+        },
+        "write": {
+          "kinds": [
+            "who",
+            "what",
+            "where",
+            "when",
+            "howmany"
+          ]
+        },
+        "ask": {
+          "kinds": [
+            "who",
+            "what",
+            "where",
+            "when",
+            "why",
+            "how"
+          ]
+        }
+      },
+      "strings": {
+        "base": {
+          "title": "Frågeord: vem, vad, var",
+          "instruction": "Läs meningen. Titta på de markerade orden. Ringa in frågeordet som frågar efter dem."
+        },
+        "match": {
+          "title": "Para ihop frågan med svaret",
+          "instruction": "Läs varje fråga till vänster. Dra ett streck till svaret till höger som passar."
+        },
+        "fill": {
+          "title": "Fyll i frågeordet",
+          "instruction": "Läs svaret och leta upp de markerade orden. Skriv frågeordet från ordlistan i rutan.",
+          "bankWord": "ordlistan",
+          "boxWord": "rutan"
+        },
+        "sort": {
+          "title": "Sortera svaren: vem, vad eller var",
+          "instruction": "Läs varje ordkort. Skriv det i lådan under frågan som det svarar på."
+        },
+        "write": {
+          "title": "Ställ en fråga",
+          "instruction": "Läs svaret. Titta på de markerade orden. Skriv frågan som frågar efter dem på linjen."
+        },
+        "ask": {
+          "title": "Fråga om bilden: varför och hur",
+          "instruction": "Titta på bilden. Gör varje fråga färdig. Börja med ordet som redan står på linjen.",
+          "pictureWord": "bilden"
+        }
+      }
+    },
+    "rounding": {
+      "up": {
+        "10": "avrunda uppåt",
+        "100": "avrunda uppåt"
+      },
+      "down": {
+        "10": "avrunda nedåt",
+        "100": "avrunda nedåt"
+      },
+      "heads": {
+        "10": "tiotal",
+        "100": "hundratal"
+      },
+      "relation": "approx",
+      "strings": {
+        "base": {
+          "title": "Avrundning till närmaste tiotal",
+          "instruction": "Avrunda varje tal till närmaste tiotal och skriv det i rutan. Är entalet 5 eller mer, avrundar du uppåt."
+        },
+        "sort": {
+          "title": "Uppåt eller nedåt? Sortera talen",
+          "instruction": "Avrundas varje tal uppåt eller nedåt till närmaste tiotal? Skriv det i rätt låda."
+        },
+        "hundred": {
+          "title": "Avrundning till hundratal: skriv talet",
+          "instruction": "Avrunda varje tal till närmaste hundratal och skriv det i rutan. Titta på entalet och tiotalet."
+        },
+        "estimate": {
+          "title": "Avrunda först, gör sedan ett överslag",
+          "instruction": "Avrunda båda talen till närmaste tiotal och skriv dem i rutorna. Addera sedan de avrundade talen."
+        },
+        "inverse": {
+          "title": "Vilka tal blir 50?",
+          "instruction": "Ringa in varje tal som avrundas till talet högst upp. Titta på entalet i varje tal."
+        },
+        "both": {
+          "title": "Avrundning till tiotal och hundratal",
+          "instruction": "Avrunda varje tal två gånger: till närmaste tiotal i första rutan och till närmaste hundratal i den andra."
+        }
+      },
+      "refuse": [],
+      "strand": "Taluppfattning och tals användning"
+    }
+  },
+  "enAudit": [
+    "BILD: varje `duck` i biblioteket är en gul ANKUNGE. Alla fyra kandidaterna (Things That Fly/duck, animals/duck, birds 2/duck och farm animals/duck) är samma kycklinglika unge, och farm animals/duckling är i praktiken samma teckning. Den engelska cloze-banken nålar ändå farm animals/duck till pluralramen `ducks-pond` och till berättelsen `pond-day`: ett engelskt barn ser ankungar och ska skriva 'ducks'. sv använder därför aldrig `duck` som svar (gås och svan i stället) och utesluter `duck` ur question-words tingpool.",
+    "BILD: toys/doll läses som en FLICKA i hängselklänning, inte som en docka. Den engelska pronouns-banken nålar den bland `possessive.things`, alltså på den enda face vars hela innehåll är VEM som äger saken - en bild som läses som en person bredvid två ägarporträtt lägger en tredje person i raden. sv tar bort `doll` ur things och ur question-words tingpool.",
+    "DATA: den engelska five-senses `signedOk` släpper in `thunderstorm` som ett HÖRA-föremål, men bilden är ett moln med en BLIXT, alltså en synledtråd. Designen förbjöd den redan i sv/da/no; en-blocket har den kvar.",
+    "DATA: human-body `factLabels.hair` = 'How much hair?' hör till F1, vars svar är en SIFFERRUTA, men `hair.count` är null i body-facts.json och `hair` finns inte i någon countPool. Literalen är alltså skriven för ett kort som aldrig kan delas ut - elva paneler ombeds ändå författa den.",
+    "DATA: cloze-ramen `sailboat-lake` listar `fits:['sailboat','boat','ship','yacht']`, men `ship` saknas i den granskade objForms-banken (114 nycklar), så kompositören kan aldrig placera den. Död data, ingen sidodefekt - men den ger fel bild av hur exklusiv ramen är.",
+    "MÅTT: 'I can hear ...'-ramen går inte att göra i svenska av den anledning som designen antog. 'Jag kan höra ...' ÄR grammatiskt korrekt svenska (till skillnad från nederländskans '*Ik kan horen de vogel'), men den mäter för brett: 'Jag kan smaka på ...' = 315,1 px vid Nunito 700 34,5 mot taket 280 (mätt med shell-fonten). Bar presens används därför, och de tre sinnena som kräver preposition får 'på' ('Jag luktar på ...' 239,8 - utan 'på' betyder 'Jag luktar ...' att det är JAG som luktar).",
+    "SPRÅK: de engelska pronouns-ramarna bevisar numerus med verbet ('reads' / 'read'). Svenskan har ingen numeruskongruens i presens, så en rak översättning ger sg === pl och faller på regel 4. De svenska ramarna bär numerus i predikativet ('är trött' / 'är trötta') eller i det reflexiva possessivet ('sin bok' / 'sina böcker') - det är en omskrivning, inte en översättning.",
+    "STRUKTUR: en recycling `refuse:['color']` vägrar K-367 korrekt, men tools/b4var-rows/recycling.js har ändå kvar en en-titel för K-367, så i18n/build-en.js myntar en sträng som ingen en-våg får använda (samma fynd som nl-panelen; fortfarande öppet).",
+    "SEO: K-359 'Tangram Puzzles: Count the Triangles and Squares' är 48 tecken och lämnar inget beskrivningsfönster - README:s egen öppna punkt. Varje locale ombeds korta den medan en-titeln står kvar oförändrad."
+  ]
+}

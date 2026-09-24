@@ -2840,8 +2840,8 @@
     "instruction": "Se, hvad der ændrer sig i hver historie, og skriv tallene i felterne, så billederne kommer i den rigtige rækkefølge."
   },
   "K-380": {
-    "title": "Hygiejne og gode vaner: hvad skal barnet bruge?",
-    "instruction": "Tegn en streg fra hvert barn til den ting, barnet skal bruge."
+    "title": "Hygiejne og gode vaner: hvad bruger hvert barn?",
+    "instruction": "Tegn en streg fra hvert barn til den ting, barnet bruger."
   },
   "G1-398": {
     "title": "Dyrs levesteder: skov, eng, sø og hav",
@@ -2857,7 +2857,7 @@
   },
   "K-381": {
     "title": "Billedserie til at klippe ud: først, så, til sidst",
-    "instruction": "Klip billederne på hver strimmel ud, og lim dem i de tomme rammer over Først, Så og Til sidst."
+    "instruction": "Klip billederne på hver strimmel ud, og lim dem på snoren med det samme mærke, i de tomme rammer over Først, Så og Til sidst."
   },
   "G1-400": {
     "title": "Billedserie: hvad sker der så?",
@@ -2868,8 +2868,8 @@
     "instruction": "Se på begyndelsen og slutningen af hver historie, og tegn, hvad der sker, i den tomme ramme i midten."
   },
   "G1-402": {
-    "title": "Billedserie: læs sætningerne, og find billederne",
-    "instruction": "Læs sætningerne i hver historie, og tegn en streg fra hver sætning til dens billede."
+    "title": "Billedserie: sæt sætningerne i rækkefølge, og find billederne",
+    "instruction": "Skriv tal i felterne, så hver histories sætninger kommer i rækkefølge, og tegn så en streg fra hver sætning til dens billede."
   },
   "G2-378": {
     "title": "Billedfortælling: skriv historien til billederne",
@@ -2881,10 +2881,10 @@
   },
   "G1-403": {
     "title": "Børste tænder: før, under og efter",
-    "instruction": "Sæt ring om det ord, der fortæller, hvornår det sker: før, under eller efter tandbørstningen."
+    "instruction": "Se på hvert billede, og sæt ring om før, under eller efter tandbørstningen."
   },
   "G1-404": {
-    "title": "Host og nys i ærmet: stop bakterierne",
+    "title": "Stop bakterierne: hvad holder dem væk?",
     "instruction": "Sæt ring om det billede i hver række, der stopper bakterierne i at sprede sig."
   },
   "G2-379": {
@@ -2896,24 +2896,24 @@
     "instruction": "Sæt hver dag et flueben i feltet ud for hver vane, du har gjort."
   },
   "K-383": {
-    "title": "Dyrenes boliger: rede, bistade og myretue",
+    "title": "Dyrenes boliger: hvem bor hvor?",
     "instruction": "Tegn en streg fra hvert dyr til dets bolig."
   },
   "G1-406": {
     "title": "Dyrs levesteder: hvilket dyr bor ikke her?",
-    "instruction": "Streg i hver række det dyr ud, der ikke lever på det levested."
+    "instruction": "Streg ved hvert levested det dyr ud, der ikke lever der."
   },
   "G2-380": {
     "title": "Dyrs tilpasninger til levestedet",
-    "instruction": "Skriv bogstavet for det dyr, som hver sætning handler om, i feltet ved sætningen."
+    "instruction": "Skriv i feltet ved hver sætning bogstavet for det dyr, sætningen handler om; ét dyr bliver tilovers."
   },
   "G1-407": {
-    "title": "Hvad har dyr brug for? Mad, vand og et hjem",
+    "title": "Hvad har dyr brug for? Mad og et hjem",
     "instruction": "Sæt ring om den mad, hvert dyr spiser, og om det hjem, dyret bor i."
   },
   "G2-381": {
     "title": "Mit levested: undersøg, tegn og skriv",
-    "instruction": "Tegn tre dyr, der lever på dette levested, skriv deres navne og en plante, der vokser her, og sæt ring om det rigtige ord i hvert par."
+    "instruction": "Tegn i billedet tre dyr, der lever her, skriv deres navne og navnet på en plante, der vokser her, og sæt ring om det ord, der passer til levestedet."
   },
   "G1-408": {
     "title": "Tung eller let? Flyde eller synke, forsøg med en vægt",
@@ -2924,11 +2924,11 @@
     "instruction": "Farv ringen, hvor hver form af modellervoks ender, sæt ring om den ting, der flyder, og tegn din egen båd af modellervoks i den store balje."
   },
   "G2-383": {
-    "title": "Hvorfor flyder ting? Rigtigt eller forkert efter forsøget",
+    "title": "Hvorfor flyder ting? Rigtigt eller forkert om at flyde og synke",
     "instruction": "Læs hver sætning, og sæt ring om rigtigt eller forkert."
   },
   "K-384": {
-    "title": "Hvad flyder, hvad synker? Tegn forsøget",
+    "title": "Tegn ting, der flyder og synker, i baljen",
     "instruction": "Tegn to ting, der flyder, i de stiplede felter på vandet og to ting, der synker, i de stiplede felter på bunden."
   },
   "G3-400": {
@@ -2945,7 +2945,7 @@
   },
   "G2-386": {
     "title": "Skriv ord med sammenhængende skrift til billederne",
-    "instruction": "Skriv oven i hvert gråt ord, skriv det så selv på linjen nedenfor, og sæt prikker og streger til sidst."
+    "instruction": "Skriv oven i hvert gråt ord ved først at binde bogstaverne sammen og til sidst sætte prikker og streger, og skriv ordet ens på linjen nedenfor."
   },
   "G2-387": {
     "title": "Læs sammenhængende skrift: find billedet til ordet",

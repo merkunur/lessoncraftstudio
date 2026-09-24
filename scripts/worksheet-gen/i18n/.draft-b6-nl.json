@@ -1,0 +1,1190 @@
+{
+ "locale": "nl",
+ "types": {
+  "K-379": {
+   "title": "Verhaal op volgorde leggen: nummer de plaatjes",
+   "instruction": "Kijk wat er in elk verhaal verandert en schrijf de cijfers in de hokjes, zodat de plaatjes op volgorde komen."
+  },
+  "K-381": {
+   "title": "Volgordeplaatjes van een verhaal knippen: eerst, dan, tot slot",
+   "instruction": "Knip de plaatjes van elke strook uit en plak ze in de lege vakken aan de waslijn met hetzelfde teken, boven Eerst, Dan en Tot slot."
+  },
+  "G1-400": {
+   "title": "Verhaal op volgorde: wat gebeurt er daarna?",
+   "instruction": "Kijk naar de drie plaatjes van elk verhaal en omcirkel het plaatje eronder dat in het vak met het vraagteken hoort."
+  },
+  "G1-401": {
+   "title": "Begin, midden en eind van een verhaal",
+   "instruction": "Kijk naar het begin en het eind van elk verhaal en teken in het lege vak wat er in het midden gebeurt."
+  },
+  "G1-402": {
+   "title": "Verhaal op volgorde lezen: nummer de zinnen en zoek het plaatje",
+   "instruction": "Nummer de zinnen van elk verhaal op volgorde in de hokjes en trek dan een lijn van elke zin naar het plaatje dat erbij hoort."
+  },
+  "G2-378": {
+   "title": "Vertel het verhaal na bij de plaatjes: schrijf met startwoorden",
+   "instruction": "Schrijf op de lijnen wat er op elk plaatje gebeurt en begin met het woord dat al op de eerste lijn staat."
+  },
+  "K-380": {
+   "title": "Voor jezelf zorgen: wat gebruikt elk kind?",
+   "instruction": "Trek een lijn van elk kind naar het ding dat het kind gebruikt."
+  },
+  "K-382": {
+   "title": "Stappenplan handen wassen: nummer de plaatjes",
+   "instruction": "Schrijf 1 tot en met 5 in de hokjes om te laten zien hoe we onze handen wassen."
+  },
+  "G1-403": {
+   "title": "Tanden poetsen: voor, bij of na het poetsen?",
+   "instruction": "Omcirkel per plaatje: voor, bij of na het poetsen."
+  },
+  "G1-404": {
+   "title": "Stop de bacillen: wat houdt bacillen tegen?",
+   "instruction": "Omcirkel in elke rij het plaatje dat de bacillen tegenhoudt."
+  },
+  "G2-379": {
+   "title": "Goed voor jezelf zorgen: waarom doen we dat?",
+   "instruction": "Trek een lijn van elke gewoonte naar de zin die vertelt waarom we dat doen."
+  },
+  "G1-405": {
+   "title": "Weekschema: zo zorg ik goed voor mezelf",
+   "instruction": "Zet elke dag een vinkje in het hokje van elke gewoonte die je hebt gedaan."
+  },
+  "G1-398": {
+   "title": "Dieren en hun leefgebied: welk dier woont waar?",
+   "instruction": "Schrijf onder elk dier de letter van het leefgebied waar het woont."
+  },
+  "K-383": {
+   "title": "Dierenwoningen: wie woont in welk huis?",
+   "instruction": "Trek een lijn van elk dier naar zijn huis."
+  },
+  "G1-406": {
+   "title": "Leefgebieden van dieren: welk dier woont hier niet?",
+   "instruction": "Streep bij elk leefgebied het dier door dat daar niet woont."
+  },
+  "G2-380": {
+   "title": "Hoe dieren zich aanpassen aan hun leefgebied",
+   "instruction": "Schrijf in elk hokje de letter van het dier waar de zin over gaat; één dier blijft over."
+  },
+  "G1-407": {
+   "title": "Wat hebben dieren nodig om te leven? Eten en een huis",
+   "instruction": "Omcirkel bij elk dier het eten dat het eet en het huis waarin het woont."
+  },
+  "G2-381": {
+   "title": "Mijn leefgebied onderzoeken: teken en schrijf",
+   "instruction": "Teken in het plaatje drie dieren die hier wonen, schrijf hun namen en een plant die hier groeit op en omcirkel het woord dat bij dit leefgebied past."
+  },
+  "G1-399": {
+   "title": "Drijven en zinken proefje: eerst voorspellen, dan testen",
+   "instruction": "Kleur vóór de proef een rondje in de eerste bak, na de proef een rondje in de tweede bak en de ster als je verrast was."
+  },
+  "G1-408": {
+   "title": "Zwaar of licht? Drijven en zinken proefje met een weegschaal",
+   "instruction": "De weegschaal laat zien wat zwaarder is: omcirkel het ding dat in het water drijft."
+  },
+  "G2-382": {
+   "title": "Klei laten drijven: proefje met een bootje van klei",
+   "instruction": "Kleur bij elke kleivorm het rondje in de bak waar hij terechtkomt, omcirkel wat drijft en teken daarna je eigen kleibootje in de grote bak."
+  },
+  "G2-383": {
+   "title": "Waarom drijft iets? Waar of niet waar over drijven en zinken",
+   "instruction": "Lees elke zin en omcirkel waar of niet waar."
+  },
+  "K-384": {
+   "title": "Teken wat drijft en wat zinkt",
+   "instruction": "Teken in de gestippelde vakjes op het water twee dingen die drijven en in de vakjes op de bodem twee dingen die zinken."
+  },
+  "G3-400": {
+   "title": "Onderzoeksverslag: mijn proefje met drijven en zinken",
+   "instruction": "Kies een vraag, schrijf op wat je denkt, test het, teken wat er gebeurde en schrijf op wat je hebt geleerd."
+  },
+  "G2-377": {
+   "title": "Aan elkaar schrijven groep 3: de letters i, u, t en w",
+   "instruction": "Schrijf de grijze letters na en schrijf elke letter daarna zelf aan elkaar verder, tot het eind van de lijn en op de lege lijn eronder."
+  },
+  "G2-384": {
+   "title": "Hoofdletters in verbonden schrift: schrijf de namen",
+   "instruction": "Schrijf elke grijze hoofdletter en naam na en schrijf ze daarna op de lege lijn eronder."
+  },
+  "G2-385": {
+   "title": "Letters aan elkaar verbinden: twee letters tegelijk",
+   "instruction": "Schrijf de twee grijze letters en het woord na en schrijf ze daarna op de lege lijn eronder."
+  },
+  "G2-386": {
+   "title": "Woorden aan elkaar schrijven bij plaatjes",
+   "instruction": "Schrijf elk grijs woord na: eerst de letters aan elkaar, als laatste de puntjes en streepjes; schrijf het dan net zo op de lijn eronder."
+  },
+  "G2-387": {
+   "title": "Verbonden schrift lezen: welk woord hoort bij welk plaatje?",
+   "instruction": "Lees elk woord in verbonden schrift en trek een lijn naar het plaatje."
+  },
+  "G3-401": {
+   "title": "Zinnen overschrijven in verbonden schrift",
+   "instruction": "Schrijf eerst de grijze zin na en schrijf daarna elke gedrukte zin in verbonden schrift over op de twee lijnen eronder."
+  }
+ },
+ "families": {
+  "story-sequencing": {
+   "slug": "verhaal-op-volgorde",
+   "name": "Verhaal op volgorde"
+  },
+  "healthy-habits": {
+   "slug": "hygiene-en-verzorging",
+   "name": "Hygiëne en verzorging"
+  },
+  "habitats": {
+   "slug": "dieren-en-hun-leefgebied",
+   "name": "Dieren en hun leefgebied"
+  },
+  "sink-or-float": {
+   "slug": "drijven-en-zinken",
+   "name": "Drijven en zinken"
+  },
+  "cursive-writing": {
+   "slug": "verbonden-schrift",
+   "name": "Verbonden schrift"
+  }
+ },
+ "skills": {
+  "story-sequencing": {
+   "full": "Een verhaal op volgorde leggen: zien wat er verandert, plaatjes nummeren, knippen en plakken, voorspellen wat er daarna gebeurt, zinnen lezen en het verhaal navertellen.",
+   "short": "Verhaalplaatjes op volgorde en navertellen"
+  },
+  "healthy-habits": {
+   "full": "Hygiëne en verzorging: handen wassen met een stappenplan, tanden poetsen, hoesten en niezen in je elleboog, weten waarom we het doen en een weekschema bijhouden.",
+   "short": "Handen wassen, tanden poetsen en bacillen stoppen"
+  },
+  "habitats": {
+   "full": "Dieren en hun leefgebied: bos, weide, vijver, zee en regenwoud herkennen, dierenwoningen koppelen, ontdekken hoe dieren zich aanpassen en wat ze nodig hebben.",
+   "short": "Leefgebieden, dierenwoningen en aanpassingen"
+  },
+  "sink-or-float": {
+   "full": "Drijven en zinken onderzoeken: eerst voorspellen en dan testen, zwaar of licht vergelijken, klei laten drijven, waar of niet waar beoordelen en een onderzoeksverslag maken.",
+   "short": "Voorspellen en testen: wat drijft, wat zinkt?"
+  },
+  "cursive-writing": {
+   "full": "Aan elkaar schrijven in verbonden schrift: kleine letters per lettergroep, hoofdletters met namen, letters verbinden, woorden en zinnen overschrijven en verbonden schrift lezen.",
+   "short": "Letters, woorden en zinnen aan elkaar schrijven"
+  }
+ },
+ "topicMeta": {
+  "story-sequencing": "Verhaal op volgorde leggen om te printen: volgordeplaatjes nummeren, knippen en plakken, begin, midden en eind, zinnen bij de plaatjes en navertellen. Kleuters tot groep 4.",
+  "healthy-habits": "Hygiëne en verzorging om te printen: stappenplan handen wassen, tanden poetsen, hoesten in je elleboog, waarom we het doen en een weekschema. Kleuters tot groep 4.",
+  "habitats": "Dieren en hun leefgebied om te printen: bos, weide, vijver, zee en regenwoud, dierenwoningen, welk dier woont hier niet, aanpassingen en wat dieren nodig hebben. Groep 2 tot 4.",
+  "sink-or-float": "Drijven en zinken om te printen: proefjes met voorspellen en testen, zwaar of licht, klei laten drijven, waar of niet waar en een onderzoeksverslag. Kleuters tot groep 5.",
+  "cursive-writing": "Verbonden schrift om te printen: aan elkaar schrijven in groep 3 en 4, kleine letters, hoofdletters met namen, letterverbindingen, woorden en zinnen overschrijven en lezen."
+ },
+ "banks": {
+  "story-sequencing": {
+   "words3": [
+    "Eerst",
+    "Dan",
+    "Tot slot"
+   ],
+   "openers4": [
+    "Eerst",
+    "Dan",
+    "Daarna",
+    "Tot slot"
+   ],
+   "starters4": [
+    "Eerst",
+    "Dan",
+    "Daarna",
+    "Tot slot"
+   ],
+   "bme": [
+    "Begin",
+    "Midden",
+    "Eind"
+   ],
+   "stories": {
+    "apple": {
+     "sentences": [
+      "Eerst is de appel nog heel.",
+      "Dan zit er één hap uit de appel.",
+      "Daarna zijn er drie happen uit de appel.",
+      "Tot slot is alleen het klokhuis nog over."
+     ],
+     "stateWords": [
+      "heel",
+      "één hap",
+      "drie happen",
+      "klokhuis"
+     ],
+     "helpWords": [
+      "de appel",
+      "de hap",
+      "het klokhuis",
+      "het steeltje",
+      "het blaadje",
+      "het bord"
+     ],
+     "helpIds": [
+      "apple",
+      "bite",
+      "core",
+      "stem",
+      "leaf",
+      "plate"
+     ]
+    },
+    "banana": {
+     "sentences": [
+      "Eerst is de banaan nog niet gepeld.",
+      "Dan hangt er één stuk schil naar beneden.",
+      "Daarna hangen er drie stukken schil naar beneden.",
+      "Tot slot is alleen de lege schil nog over."
+     ],
+     "stateWords": [
+      "niet gepeld",
+      "één stuk",
+      "drie stukken",
+      "lege schil"
+     ],
+     "helpWords": [
+      "de banaan",
+      "de schil",
+      "het steeltje",
+      "het stuk",
+      "het bord"
+     ],
+     "helpIds": [
+      "banana",
+      "peel",
+      "stem",
+      "strip",
+      "plate"
+     ]
+    },
+    "sandwich": {
+     "sentences": [
+      "Eerst liggen er twee sneetjes brood.",
+      "Dan zit er jam op één sneetje.",
+      "Daarna is de boterham doormidden gesneden.",
+      "Tot slot zijn er alleen een korstje en kruimels over."
+     ],
+     "stateWords": [
+      "twee sneetjes",
+      "jam",
+      "doormidden",
+      "kruimels"
+     ],
+     "helpWords": [
+      "het brood",
+      "de jam",
+      "het mes",
+      "de boterham",
+      "de helft",
+      "het korstje"
+     ],
+     "helpIds": [
+      "bread",
+      "jam",
+      "knife",
+      "sandwich",
+      "half",
+      "crust"
+     ]
+    },
+    "cake": {
+     "sentences": [
+      "Eerst is de taart nog heel.",
+      "Dan is er één punt uit de taart gesneden.",
+      "Daarna is de helft van de taart op.",
+      "Tot slot zijn er alleen kruimels over."
+     ],
+     "stateWords": [
+      "heel",
+      "één punt",
+      "helft",
+      "kruimels"
+     ],
+     "helpWords": [
+      "de taart",
+      "de punt",
+      "de kaarsjes",
+      "de kruimels",
+      "de taartschaal"
+     ],
+     "helpIds": [
+      "cake",
+      "slice",
+      "candle",
+      "crumb",
+      "stand"
+     ]
+    },
+    "fence": {
+     "sentences": [
+      "Eerst is het hek nog helemaal wit.",
+      "Dan zijn er twee planken geverfd.",
+      "Daarna zijn er vier planken geverfd.",
+      "Tot slot is het hele hek geverfd."
+     ],
+     "stateWords": [
+      "helemaal wit",
+      "twee planken",
+      "vier planken",
+      "hele hek"
+     ],
+     "helpWords": [
+      "het hek",
+      "de plank",
+      "de verf",
+      "de kwast",
+      "de verfemmer"
+     ],
+     "helpIds": [
+      "fence",
+      "plank",
+      "paint",
+      "brush",
+      "bucket"
+     ]
+    },
+    "letter": {
+     "sentences": [
+      "Eerst is de kaart nog leeg.",
+      "Dan staat er een bloem op de kaart.",
+      "Daarna staan er drie regels tekst op de kaart.",
+      "Tot slot zit de kaart in een envelop met een postzegel."
+     ],
+     "stateWords": [
+      "leeg",
+      "bloem",
+      "regels",
+      "postzegel"
+     ],
+     "helpWords": [
+      "de kaart",
+      "de bloem",
+      "het potlood",
+      "de envelop",
+      "de postzegel"
+     ],
+     "helpIds": [
+      "card",
+      "flower",
+      "pencil",
+      "envelope",
+      "stamp"
+     ]
+    },
+    "paper-chain": {
+     "sentences": [
+      "Eerst is er één vel papier.",
+      "Dan is het vel in vijf stroken geknipt.",
+      "Daarna zijn er twee stroken tot ringen geplakt.",
+      "Tot slot vormen alle ringen samen een slinger."
+     ],
+     "stateWords": [
+      "één vel",
+      "vijf stroken",
+      "twee stroken",
+      "slinger"
+     ],
+     "helpWords": [
+      "het papier",
+      "de schaar",
+      "de stroken",
+      "de lijm",
+      "de ringen",
+      "de slinger"
+     ],
+     "helpIds": [
+      "paper",
+      "scissors",
+      "strip",
+      "glue",
+      "ring",
+      "chain"
+     ]
+    },
+    "beach-walk": {
+     "sentences": [
+      "Eerst staan er geen voetstappen in het zand.",
+      "Dan loopt het kind en zie je drie voetstappen.",
+      "Daarna vindt het kind een schelp.",
+      "Tot slot is het kind met de schelp terug op de handdoek."
+     ],
+     "stateWords": [
+      "geen voetstappen",
+      "drie voetstappen",
+      "vindt",
+      "terug"
+     ],
+     "helpWords": [
+      "het zand",
+      "de handdoek",
+      "de schelp",
+      "de voetstappen",
+      "lopen"
+     ],
+     "helpIds": [
+      "sand",
+      "towel",
+      "shell",
+      "footprint",
+      "walk"
+     ]
+    }
+   },
+   "excludeStories": [],
+   "strings": {
+    "base": {
+     "title": "Verhaal op volgorde leggen: nummer de plaatjes",
+     "instruction": "Kijk wat er in elk verhaal verandert en schrijf de cijfers in de hokjes, zodat de plaatjes op volgorde komen."
+    },
+    "first-next-last-cut": {
+     "title": "Volgordeplaatjes van een verhaal knippen: eerst, dan, tot slot",
+     "instruction": "Knip de plaatjes van elke strook uit en plak ze in de lege vakken aan de waslijn met hetzelfde teken, boven Eerst, Dan en Tot slot."
+    },
+    "what-happens-next": {
+     "title": "Verhaal op volgorde: wat gebeurt er daarna?",
+     "instruction": "Kijk naar de drie plaatjes van elk verhaal en omcirkel het plaatje eronder dat in het vak met het vraagteken hoort."
+    },
+    "beginning-middle-end": {
+     "title": "Begin, midden en eind van een verhaal",
+     "instruction": "Kijk naar het begin en het eind van elk verhaal en teken in het lege vak wat er in het midden gebeurt."
+    },
+    "sequencing-sentences": {
+     "title": "Verhaal op volgorde lezen: nummer de zinnen en zoek het plaatje",
+     "instruction": "Nummer de zinnen van elk verhaal op volgorde in de hokjes en trek dan een lijn van elke zin naar het plaatje dat erbij hoort."
+    },
+    "retell-with-starters": {
+     "title": "Vertel het verhaal na bij de plaatjes: schrijf met startwoorden",
+     "instruction": "Schrijf op de lijnen wat er op elk plaatje gebeurt en begin met het woord dat al op de eerste lijn staat."
+    }
+   }
+  },
+  "healthy-habits": {
+   "strings": {
+    "base": {
+     "title": "Voor jezelf zorgen: wat gebruikt elk kind?",
+     "instruction": "Trek een lijn van elk kind naar het ding dat het kind gebruikt."
+    },
+    "hand-washing-steps": {
+     "title": "Stappenplan handen wassen: nummer de plaatjes",
+     "instruction": "Schrijf 1 tot en met 5 in de hokjes om te laten zien hoe we onze handen wassen."
+    },
+    "brushing-teeth": {
+     "title": "Tanden poetsen: voor, bij of na het poetsen?",
+     "instruction": "Omcirkel per plaatje: voor, bij of na het poetsen."
+    },
+    "stop-the-germs": {
+     "title": "Stop de bacillen: wat houdt bacillen tegen?",
+     "instruction": "Omcirkel in elke rij het plaatje dat de bacillen tegenhoudt."
+    },
+    "why-habits": {
+     "title": "Goed voor jezelf zorgen: waarom doen we dat?",
+     "instruction": "Trek een lijn van elke gewoonte naar de zin die vertelt waarom we dat doen."
+    },
+    "habit-chart": {
+     "title": "Weekschema: zo zorg ik goed voor mezelf",
+     "instruction": "Zet elke dag een vinkje in het hokje van elke gewoonte die je hebt gedaan."
+    }
+   },
+   "phases": {
+    "before": "voor het poetsen",
+    "during": "bij het poetsen",
+    "after": "na het poetsen"
+   },
+   "labels": {
+    "wash-hands": "handen wassen",
+    "brush-teeth": "tanden poetsen",
+    "sleep": "op tijd naar bed",
+    "move-body": "bewegen",
+    "drink-water": "water drinken",
+    "sun-protect": "veilig in de zon",
+    "blow-nose": "neus snuiten",
+    "comb-hair": "haren kammen"
+   },
+   "labelStems": {
+    "wash-hands": [
+     "wassen",
+     "was",
+     "handen",
+     "hand",
+     "zeep"
+    ],
+    "brush-teeth": [
+     "poetsen",
+     "poets",
+     "tanden",
+     "tand",
+     "tandenborstel",
+     "tandpasta"
+    ],
+    "sleep": [
+     "slapen",
+     "slaap",
+     "bed",
+     "nacht"
+    ],
+    "move-body": [
+     "bewegen",
+     "beweeg",
+     "rennen",
+     "spelen",
+     "sport"
+    ],
+    "sun-protect": [
+     "zon",
+     "pet",
+     "hoed",
+     "zonnebrand",
+     "insmeren"
+    ],
+    "drink-water": [
+     "drinken",
+     "drink",
+     "water",
+     "glas",
+     "beker"
+    ],
+    "blow-nose": [
+     "snuiten",
+     "snuit",
+     "zakdoek",
+     "zakdoekje"
+    ],
+    "comb-hair": [
+     "kammen",
+     "kam",
+     "haar",
+     "haren"
+    ]
+   },
+   "reasons": {
+    "wash-hands": "Zo gaan de bacillen weg van alles wat we hebben aangeraakt.",
+    "brush-teeth": "Zo blijft onze lach schoon en stralend.",
+    "sleep": "Ons lichaam en onze hersenen rusten uit voor een nieuwe dag.",
+    "move-body": "Zo worden we fit, snel en sterk.",
+    "sun-protect": "Zo verbranden we niet op een warme, zonnige dag.",
+    "drink-water": "Ons lichaam heeft het nodig om goed te werken.",
+    "blow-nose": "Dan kunnen we weer makkelijk ademen."
+   },
+   "kaiOrder": false,
+   "coughPhrase": "in je elleboog",
+   "weekStartOverride": null
+  },
+  "habitats": {
+   "sets": {
+    "base": [
+     "forest",
+     "meadow",
+     "pond",
+     "ocean",
+     "polar",
+     "savanna",
+     "rainforest"
+    ]
+   },
+   "tileLabel": {
+    "ocean": "Zee",
+    "pond": "Vijver",
+    "forest": "Bos",
+    "meadow": "Weide",
+    "polar": "Zuidpool",
+    "polar-arctic": "Noordpool",
+    "savanna": "Savanne",
+    "rainforest": "Regenwoud"
+   },
+   "adapt": {
+    "camel-hump": "In zijn bult zit vet, zo kan hij heel lang zonder eten.",
+    "giraffe-neck": "Met zijn lange nek kan hij de blaadjes hoog in de bomen pakken.",
+    "elephant-trunk": "Met zijn lange slurf zuigt hij water op en pakt hij zijn eten.",
+    "penguin-flippers": "Zijn vleugels zijn flippers: hij zwemt er snel mee in het ijskoude water, maar kan niet vliegen.",
+    "walrus-tusks": "Met zijn lange slagtanden trekt hij zijn zware lijf uit het water.",
+    "woodpecker-beak": "Met zijn sterke, scherpe snavel hakt hij gaten in boomstammen.",
+    "beaver-teeth": "Met zijn grote voortanden knaagt hij bomen om voor zijn huis in het water.",
+    "whale-blowhole": "Hij ademt lucht in door een gat boven op zijn kop.",
+    "fish-gills": "Hij ademt onder water met kieuwen.",
+    "duck-feet": "Zijn poten met zwemvliezen duwen het water weg, net als peddels.",
+    "sloth-claws": "Met zijn lange, kromme klauwen kan hij urenlang aan takken hangen.",
+    "toucan-beak": "Met zijn enorme snavel plukt hij vruchten ver op dunne takken.",
+    "squirrel-tail": "Zijn pluimstaart houdt hem in evenwicht als hij van tak naar tak springt."
+   },
+   "names": {
+    "whale": [
+     "walvis"
+    ],
+    "dolphin": [
+     "dolfijn"
+    ],
+    "octopus": [
+     "octopus",
+     "inktvis"
+    ],
+    "starfish": [
+     "zeester"
+    ],
+    "jellyfish": [
+     "kwal"
+    ],
+    "shark": [
+     "haai"
+    ],
+    "clownfish": [
+     "clownvis",
+     "vis",
+     "nemo"
+    ],
+    "crab": [
+     "krab"
+    ],
+    "ray": [
+     "rog",
+     "pijlstaartrog"
+    ],
+    "seal-grey": [
+     "zeehond"
+    ],
+    "seal-white": [
+     "zeehond",
+     "zeehondje"
+    ],
+    "walrus": [
+     "walrus"
+    ],
+    "narwhal": [
+     "narwal"
+    ],
+    "penguin": [
+     "pinguïn"
+    ],
+    "deer": [
+     "hert",
+     "hertje",
+     "ree",
+     "reetje",
+     "bambi"
+    ],
+    "squirrel": [
+     "eekhoorn"
+    ],
+    "woodpecker": [
+     "specht"
+    ],
+    "badger": [
+     "das"
+    ],
+    "moose": [
+     "eland"
+    ],
+    "frog": [
+     "kikker"
+    ],
+    "dragonfly": [
+     "libel"
+    ],
+    "beaver": [
+     "bever"
+    ],
+    "duck": [
+     "eend",
+     "eendje",
+     "kuiken"
+    ],
+    "swan": [
+     "zwaan"
+    ],
+    "butterfly": [
+     "vlinder"
+    ],
+    "bee": [
+     "bij"
+    ],
+    "grasshopper": [
+     "sprinkhaan"
+    ],
+    "ladybug": [
+     "lieveheersbeestje"
+    ],
+    "lion": [
+     "leeuw"
+    ],
+    "zebra": [
+     "zebra"
+    ],
+    "giraffe": [
+     "giraf",
+     "giraffe"
+    ],
+    "elephant": [
+     "olifant"
+    ],
+    "rhinoceros": [
+     "neushoorn"
+    ],
+    "ostrich": [
+     "struisvogel"
+    ],
+    "monkey": [
+     "aap"
+    ],
+    "gorilla": [
+     "gorilla"
+    ],
+    "orangutan": [
+     "orang-oetan",
+     "aap"
+    ],
+    "sloth": [
+     "luiaard"
+    ],
+    "toucan": [
+     "toekan"
+    ],
+    "macaw": [
+     "ara",
+     "papegaai"
+    ],
+    "camel": [
+     "kameel",
+     "dromedaris"
+    ],
+    "bird": [
+     "vogel"
+    ],
+    "spider": [
+     "spin"
+    ],
+    "rabbit": [
+     "konijn"
+    ],
+    "ant": [
+     "mier"
+    ]
+   },
+   "needs": {
+    "line": "Elk dier heeft eten en een huis nodig.",
+    "foodHead": "Eten",
+    "homeHead": "Huis",
+    "undrawn": [
+     "water",
+     "drinken",
+     "drinkt",
+     "drinkwater",
+     "lucht",
+     "zon",
+     "zonlicht",
+     "licht"
+    ]
+   },
+   "report": {
+    "animals": "Dieren die hier wonen",
+    "plant": "Een plant die hier groeit",
+    "hot": "warm",
+    "cold": "koud",
+    "wet": "nat",
+    "dry": "droog"
+   },
+   "homeWord": {
+    "nest": "nest",
+    "hive": "bijennest",
+    "web": "spinnenweb",
+    "burrow": "hol",
+    "anthill": "mierenhoop",
+    "lodge": "beverburcht"
+   },
+   "refuse": [],
+   "refuseClaims": [],
+   "placeWords": [
+    "woestijn",
+    "zee",
+    "oceaan",
+    "ijs",
+    "oerwoud",
+    "jungle",
+    "sloot",
+    "meer",
+    "poolgebied"
+   ],
+   "strings": {
+    "G1-398": {
+     "title": "Dieren en hun leefgebied: welk dier woont waar?",
+     "instruction": "Schrijf onder elk dier de letter van het leefgebied waar het woont."
+    },
+    "K-383": {
+     "title": "Dierenwoningen: wie woont in welk huis?",
+     "instruction": "Trek een lijn van elk dier naar zijn huis."
+    },
+    "G1-406": {
+     "title": "Leefgebieden van dieren: welk dier woont hier niet?",
+     "instruction": "Streep bij elk leefgebied het dier door dat daar niet woont."
+    },
+    "G2-380": {
+     "title": "Hoe dieren zich aanpassen aan hun leefgebied",
+     "instruction": "Schrijf in elk hokje de letter van het dier waar de zin over gaat; één dier blijft over."
+    },
+    "G1-407": {
+     "title": "Wat hebben dieren nodig om te leven? Eten en een huis",
+     "instruction": "Omcirkel bij elk dier het eten dat het eet en het huis waarin het woont."
+    },
+    "G2-381": {
+     "title": "Mijn leefgebied onderzoeken: teken en schrijf",
+     "instruction": "Teken in het plaatje drie dieren die hier wonen, schrijf hun namen en een plant die hier groeit op en omcirkel het woord dat bij dit leefgebied past."
+    }
+   }
+  },
+  "sink-or-float": {
+   "floatWord": "drijft",
+   "sinkWord": "zinkt",
+   "heads": {
+    "guess": "Ik denk",
+    "test": "De proef",
+    "surprise": "Verrast?"
+   },
+   "trueWord": "waar",
+   "falseWord": "niet waar",
+   "clayWord": "klei",
+   "labels": {
+    "ball": "bal",
+    "log": "houtblok",
+    "pumpkin": "pompoen",
+    "apple": "appel",
+    "lemon": "citroen",
+    "banana": "banaan",
+    "leaf": "blad",
+    "feather": "veer",
+    "pinecone": "dennenappel",
+    "pencil": "potlood",
+    "toyboat": "bootje",
+    "ship": "schip",
+    "orange": "sinaasappel",
+    "rock": "steen",
+    "nail": "spijker",
+    "hammer": "hamer",
+    "bolt": "bout",
+    "pliers": "tang",
+    "scissors": "schaar",
+    "potato": "aardappel"
+   },
+   "tf": {
+    "T1": "Een groot houtblok drijft.",
+    "T2": "Een kleine spijker zinkt.",
+    "T3": "Een stalen schip drijft.",
+    "T4": "Een zware pompoen drijft.",
+    "T5": "Een appel drijft, maar een aardappel zinkt.",
+    "T6": "Dezelfde klei kan zinken of drijven.",
+    "T7": "Sommige zware dingen drijven.",
+    "T8": "Sommige lichte dingen zinken.",
+    "F1": "Een aardappel drijft.",
+    "F2": "Een veer zinkt.",
+    "F3": "Een stalen schip zinkt.",
+    "F4": "Een bal vol lucht zinkt.",
+    "F5": "Alle zware dingen zinken.",
+    "F6": "Alle lichte dingen drijven.",
+    "F7": "Grote dingen zinken altijd.",
+    "F8": "Iets drijft omdat het licht is.",
+    "F9": "Alleen kleine dingen kunnen drijven."
+   },
+   "report": {
+    "question": "Mijn vraag",
+    "predict": "Ik denk",
+    "result": "Wat er gebeurde",
+    "learned": "Wat ik heb geleerd",
+    "starter": "Nu weet ik dat"
+   },
+   "questions": {
+    "orange": "Drijft een sinaasappel met schil? Drijft hij ook zonder schil?",
+    "cargo": "Hoeveel blokjes kan een bootje van klei dragen voordat het zinkt?"
+   },
+   "forbidden": [
+    "zware dingen zinken",
+    "lichte dingen drijven",
+    "omdat het licht is",
+    "omdat hij licht is",
+    "dichtheid",
+    "opwaartse kracht",
+    "zout"
+   ],
+   "experimentWords": [
+    "proefje",
+    "proef",
+    "experiment",
+    "onderzoek",
+    "voorspel"
+   ],
+   "apparatus": {
+    "ring": "rondje",
+    "tank": "bak",
+    "star": "ster",
+    "spot": "vakje"
+   },
+   "instructionBans": {
+    "base": [
+     "lijn",
+     "groep",
+     "groepje",
+     "sorteer",
+     "vinkje",
+     "knip",
+     "omcirkel"
+    ],
+    "scale": [
+     "lijn",
+     "groep",
+     "groepje",
+     "sorteer",
+     "vinkje",
+     "knip",
+     "kleur"
+    ],
+    "shape": [
+     "lijn",
+     "groep",
+     "groepje",
+     "sorteer",
+     "vinkje",
+     "knip"
+    ],
+    "truth": [
+     "lijn",
+     "groep",
+     "groepje",
+     "sorteer",
+     "vinkje",
+     "knip",
+     "kleur"
+    ],
+    "draw": [
+     "lijn",
+     "groep",
+     "groepje",
+     "sorteer",
+     "vinkje",
+     "knip",
+     "omcirkel"
+    ],
+    "report": [
+     "lijn",
+     "groep",
+     "groepje",
+     "sorteer",
+     "vinkje",
+     "knip"
+    ]
+   },
+   "refuse": [],
+   "strings": {
+    "G1-399": {
+     "title": "Drijven en zinken proefje: eerst voorspellen, dan testen",
+     "instruction": "Kleur vóór de proef een rondje in de eerste bak, na de proef een rondje in de tweede bak en de ster als je verrast was."
+    },
+    "G1-408": {
+     "title": "Zwaar of licht? Drijven en zinken proefje met een weegschaal",
+     "instruction": "De weegschaal laat zien wat zwaarder is: omcirkel het ding dat in het water drijft."
+    },
+    "G2-382": {
+     "title": "Klei laten drijven: proefje met een bootje van klei",
+     "instruction": "Kleur bij elke kleivorm het rondje in de bak waar hij terechtkomt, omcirkel wat drijft en teken daarna je eigen kleibootje in de grote bak."
+    },
+    "G2-383": {
+     "title": "Waarom drijft iets? Waar of niet waar over drijven en zinken",
+     "instruction": "Lees elke zin en omcirkel waar of niet waar."
+    },
+    "K-384": {
+     "title": "Teken wat drijft en wat zinkt",
+     "instruction": "Teken in de gestippelde vakjes op het water twee dingen die drijven en in de vakjes op de bodem twee dingen die zinken."
+    },
+    "G3-400": {
+     "title": "Onderzoeksverslag: mijn proefje met drijven en zinken",
+     "instruction": "Kies een vraag, schrijf op wat je denkt, test het, teken wat er gebeurde en schrijf op wat je hebt geleerd."
+    }
+   },
+   "shapeHeads": {
+    "clay": "Dezelfde klei, een andere vorm",
+    "steel": "Hetzelfde staal, een andere vorm: omcirkel wat drijft"
+   }
+  },
+  "cursive-writing": {
+   "refused": null,
+   "units": [
+    "nl"
+   ],
+   "exemplar": "nl",
+   "unitLabel": {
+    "nl": "verbonden schrift"
+   },
+   "scriptName": {
+    "nl": "Verbonden schrift"
+   },
+   "ruling": {
+    "G1": "lin4",
+    "G2": "lin4",
+    "G3": "lin4"
+   },
+   "dashHelpers": true,
+   "xPx": {
+    "base": 15,
+    "capitals": 15,
+    "joins": 15,
+    "words": 15,
+    "read": 18,
+    "copy": 15
+   },
+   "levels": {
+    "base": "groep-3",
+    "capitals": "groep-4",
+    "joins": "groep-3",
+    "words": "groep-4",
+    "read": "groep-4",
+    "copy": "groep-4"
+   },
+   "lessons": {
+    "nl": [
+     [
+      "i",
+      "u",
+      "t",
+      "w"
+     ],
+     [
+      "e",
+      "l",
+      "b",
+      "h",
+      "k",
+      "f"
+     ],
+     [
+      "a",
+      "o",
+      "c",
+      "d",
+      "g",
+      "q"
+     ],
+     [
+      "n",
+      "m",
+      "v",
+      "x",
+      "y"
+     ],
+     [
+      "r",
+      "s",
+      "z",
+      "p",
+      "j"
+     ]
+    ]
+   },
+   "joins": {
+    "nl": [
+     {
+      "pair": "oe",
+      "word": "boek"
+     },
+     {
+      "pair": "ou",
+      "word": "koud"
+     },
+     {
+      "pair": "ui",
+      "word": "huis"
+     },
+     {
+      "pair": "ie",
+      "word": "fiets"
+     },
+     {
+      "pair": "br",
+      "word": "brood"
+     },
+     {
+      "pair": "wa",
+      "word": "water"
+     },
+     {
+      "pair": "or",
+      "word": "worm"
+     },
+     {
+      "pair": "eu",
+      "word": "neus"
+     }
+    ]
+   },
+   "words": {
+    "animals/cat": "kat",
+    "animals/fish": "vis",
+    "animals/owl": "uil",
+    "animals/pig": "varken",
+    "animals/sheep": "schaap",
+    "fruits/lemon": "citroen",
+    "fruits/pear": "peer",
+    "fruits/apple": "appel",
+    "toys/boat": "boot",
+    "toys/doll": "pop",
+    "toys/robot": "robot",
+    "toys/train": "trein",
+    "toys/kite": "vlieger",
+    "around the house/bed": "bed",
+    "around the house/chair": "stoel",
+    "around the house/cup": "kopje",
+    "around the house/lamp": "lamp",
+    "classroom/book": "boek",
+    "zoo animals/lion": "leeuw",
+    "pets/mouse": "muis",
+    "bakery/cake": "taart",
+    "weather/sun": "zon",
+    "weather/cloud": "wolk",
+    "animals/horse": "paard",
+    "animals/zebra": "zebra",
+    "animals/tiger": "tijger"
+   },
+   "sentences": [
+    "De kat ligt op het bed.",
+    "Ik zie een rode boot.",
+    "Mijn hond speelt met de bal.",
+    "Wij eten een peer.",
+    "De zon schijnt vandaag.",
+    "De walvis is heel groot."
+   ],
+   "strings": {
+    "G2-377": {
+     "title": "Aan elkaar schrijven groep 3: de letters i, u, t en w",
+     "instruction": "Schrijf de grijze letters na en schrijf elke letter daarna zelf aan elkaar verder, tot het eind van de lijn en op de lege lijn eronder."
+    },
+    "G2-384": {
+     "title": "Hoofdletters in verbonden schrift: schrijf de namen",
+     "instruction": "Schrijf elke grijze hoofdletter en naam na en schrijf ze daarna op de lege lijn eronder."
+    },
+    "G2-385": {
+     "title": "Letters aan elkaar verbinden: twee letters tegelijk",
+     "instruction": "Schrijf de twee grijze letters en het woord na en schrijf ze daarna op de lege lijn eronder."
+    },
+    "G2-386": {
+     "title": "Woorden aan elkaar schrijven bij plaatjes",
+     "instruction": "Schrijf elk grijs woord na: eerst de letters aan elkaar, als laatste de puntjes en streepjes; schrijf het dan net zo op de lijn eronder."
+    },
+    "G2-387": {
+     "title": "Verbonden schrift lezen: welk woord hoort bij welk plaatje?",
+     "instruction": "Lees elk woord in verbonden schrift en trek een lijn naar het plaatje."
+    },
+    "G3-401": {
+     "title": "Zinnen overschrijven in verbonden schrift",
+     "instruction": "Schrijf eerst de grijze zin na en schrijf daarna elke gedrukte zin in verbonden schrift over op de twee lijnen eronder."
+    }
+   }
+  }
+ },
+ "refusals": {},
+ "strandNames": {
+  "Health": "Gezondheid en verzorging"
+ },
+ "enAudit": [
+  "K-381 (first-next-last-cut): the EN instruction says glue the pictures \"under First, Next and Last\", but the empty glue frames hang ABOVE the word tags on the rendered page; a child who follows it glues below the tags. nl says \"in de lege vakken boven Eerst, Dan en Tot slot\".",
+  "One-sentence rule broken in the EN source: G1-398 (2 sentences), G1-406 (2), G2-380 (2), G2-381 (3), G2-386 (2: \"...then write it. Add the dots...\") and G3-401 (2). nl writes each as one sentence.",
+  "G3-401: the EN instruction tells the child to copy the sentence first and only then to trace the grey model (\"Copy each printed sentence... Trace the grey sentence first.\") - the order is inverted inside the string; nl puts both in one sentence and keeps \"eerst na\" explicit.",
+  "G2-382 (change the shape): \"Color where each clay shape ends up\" never names what is coloured; the page has a RING in each small tank (the base family apparatus). nl: \"Kleur bij elke kleivorm het rondje waar hij terechtkomt\".",
+  "K-384 (draw): the EN instruction does not name the four dashed spots the drawings belong in; a K child may draw anywhere in the tub. nl: \"Teken in de vakjes...\".",
+  "Gate defect, story-sequencing validateBank BARE_ORDER nl regex /(?<!p{L})volgorde(?!p{L})(?![sS]*verhaal)/ only looks AFTER \"volgorde\", so \"Verhaal op volgorde leggen\" (verhaal BEFORE volgorde) is condemned as a bare order head - including the design final (own) §6 nl titles (\"Verhaal op volgorde leggen: plaatjes nummeren\", \"Verhaal op volgorde: wat gebeurt er daarna?\") and the strongest measured nl query \"verhaal op volgorde leggen\". It should test for \"verhaal\" anywhere in the title. The nl base passes only because a second story word follows (\"...nummer de verhaalplaatjes\"); not fixed here (panel scope).",
+  "K-380 F2 chips: the design nl proposal \"ervoor / tijdens / erna\" reads ambiguously as a bare chip beside a picture (\"ervoor\" = in front of it), and the natural \"tijdens het poetsen\" measures 163.7 px (> 152 cap). nl ships \"voor / bij / na het poetsen\" (144.0 / 126.7 / 126.7 px), all three one pattern.",
+  "Design §4 habitats nl lists \"poolgebied\" for the polar tile, but the bank uses tileLabel.polar ONLY on an Antarctic (penguin) page and polar-arctic on the Arctic trio; nl labels them Zuidpool / Noordpool so the plaque is also geographically exact. EN \"Polar Ice\" names neither pole."
+ ]
+}

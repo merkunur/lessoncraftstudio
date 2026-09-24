@@ -1,8 +1,8 @@
 {
   "strings": {
     "base": {
-      "title": "Hábitos de higiene: ¿qué necesita cada niño?",
-      "instruction": "Une con una línea a cada niño con lo que necesita."
+      "title": "Hábitos saludables: ¿qué usa cada niño?",
+      "instruction": "Une con una línea a cada niño con lo que usa."
     },
     "hand-washing-steps": {
       "title": "Pasos del lavado de manos",
@@ -10,10 +10,10 @@
     },
     "brushing-teeth": {
       "title": "Cepillado de dientes: antes, durante y después",
-      "instruction": "Encierra en un círculo la palabra que dice cuándo se hace: antes, durante o después del cepillado."
+      "instruction": "En cada dibujo, encierra en un círculo antes, durante o después del cepillado."
     },
     "stop-the-germs": {
-      "title": "Alto a los gérmenes: tose en el codo",
+      "title": "Alto a los gérmenes: ¿qué los detiene?",
       "instruction": "En cada fila, encierra en un círculo el dibujo que detiene a los gérmenes."
     },
     "why-habits": {
@@ -21,7 +21,7 @@
       "instruction": "Une con una línea cada hábito con la oración que dice por qué lo hacemos."
     },
     "habit-chart": {
-      "title": "Tabla semanal de hábitos: higiene, ejercicio y descanso",
+      "title": "Tabla semanal de hábitos saludables",
       "instruction": "Cada día, marca con una palomita el cuadro de cada hábito que hiciste."
     }
   },
@@ -33,7 +33,7 @@
   "labels": {
     "wash-hands": "lavarse las manos",
     "brush-teeth": "cepillarse los dientes",
-    "sleep": "dormir",
+    "sleep": "dormir temprano",
     "move-body": "hacer ejercicio",
     "drink-water": "tomar agua",
     "sun-protect": "cuidarse del sol",
@@ -109,7 +109,7 @@
     "brush-teeth": "Mantiene nuestra sonrisa limpia y brillante.",
     "sleep": "Nuestro cuerpo y nuestro cerebro descansan para un nuevo día.",
     "move-body": "Nos pone fuertes, rápidos y en forma.",
-    "sun-protect": "No nos quemamos en un día de mucho calor.",
+    "sun-protect": "Así nuestra piel no se quema ni se pone roja.",
     "drink-water": "Nuestro cuerpo lo necesita para funcionar bien.",
     "blow-nose": "Así podemos respirar bien otra vez."
   },

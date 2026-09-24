@@ -2836,8 +2836,8 @@
     "instruction": "Mira qué cambia en cada cuento y escribe los números en los recuadros para ordenar las imágenes."
   },
   "K-380": {
-    "title": "Hábitos de higiene: ¿qué necesita cada niño?",
-    "instruction": "Une con una línea a cada niño con lo que necesita."
+    "title": "Hábitos saludables: ¿qué usa cada niño?",
+    "instruction": "Une con una línea a cada niño con lo que usa."
   },
   "G1-398": {
     "title": "Los animales y su hábitat: selva, bosque, mar y lago",
@@ -2853,7 +2853,7 @@
   },
   "K-381": {
     "title": "Secuencias de un cuento para recortar: primero, después, al final",
-    "instruction": "Recorta las imágenes de cada tira y pégalas en los cuadros vacíos arriba de Primero, Después y Al final."
+    "instruction": "Recorta las imágenes de cada tira y pégalas en el tendedero que tiene la misma marca, en los cuadros vacíos arriba de Primero, Después y Al final."
   },
   "G1-400": {
     "title": "Secuencias de un cuento: ¿qué pasa después?",
@@ -2864,11 +2864,11 @@
     "instruction": "Mira el inicio y el final de cada cuento y dibuja en el cuadro del centro lo que pasa en el desarrollo."
   },
   "G1-402": {
-    "title": "Secuencias de un cuento: une cada oración con su imagen",
-    "instruction": "Lee las oraciones de cada cuento y une con una línea cada oración con su imagen."
+    "title": "Secuencias de un cuento: ordena las oraciones y únelas con su imagen",
+    "instruction": "Numera en los recuadros las oraciones de cada cuento en orden y luego une con una línea cada oración con su imagen."
   },
   "G2-378": {
-    "title": "Secuencia de imágenes para crear cuentos",
+    "title": "Secuencia de imágenes para crear un cuento",
     "instruction": "Escribe en los renglones lo que pasa en cada imagen, empezando con la palabra que ya está escrita."
   },
   "K-382": {
@@ -2877,10 +2877,10 @@
   },
   "G1-403": {
     "title": "Cepillado de dientes: antes, durante y después",
-    "instruction": "Encierra en un círculo la palabra que dice cuándo se hace: antes, durante o después del cepillado."
+    "instruction": "En cada dibujo, encierra en un círculo antes, durante o después del cepillado."
   },
   "G1-404": {
-    "title": "Alto a los gérmenes: tose en el codo",
+    "title": "Alto a los gérmenes: ¿qué los detiene?",
     "instruction": "En cada fila, encierra en un círculo el dibujo que detiene a los gérmenes."
   },
   "G2-379": {
@@ -2888,20 +2888,20 @@
     "instruction": "Une con una línea cada hábito con la oración que dice por qué lo hacemos."
   },
   "G1-405": {
-    "title": "Tabla semanal de hábitos: higiene, ejercicio y descanso",
+    "title": "Tabla semanal de hábitos saludables",
     "instruction": "Cada día, marca con una palomita el cuadro de cada hábito que hiciste."
   },
   "K-383": {
-    "title": "Las casas de los animales: nido, colmena y madriguera",
+    "title": "Las casas de los animales: ¿dónde vive cada uno?",
     "instruction": "Une con una línea cada animal con su casa."
   },
   "G1-406": {
     "title": "Hábitat de los animales: el animal que no vive aquí",
-    "instruction": "En cada fila, tacha el animal que no vive en ese hábitat."
+    "instruction": "En cada hábitat, tacha el animal que no vive ahí."
   },
   "G2-380": {
     "title": "Adaptación de los animales a su hábitat",
-    "instruction": "Escribe en su cuadro la letra del animal del que habla cada oración."
+    "instruction": "Escribe en el cuadro de cada oración la letra del animal del que habla; un animal sobra."
   },
   "G1-407": {
     "title": "¿Qué necesitan los animales para vivir?",
@@ -2909,7 +2909,7 @@
   },
   "G2-381": {
     "title": "Mi reporte del hábitat: animales y plantas",
-    "instruction": "Dibuja tres animales de este hábitat, escribe sus nombres y una planta que crece ahí, y encierra en un círculo la palabra correcta de cada par."
+    "instruction": "Dibuja en la imagen tres animales que viven ahí, escribe sus nombres y una planta, y encierra en un círculo la palabra que describe este hábitat."
   },
   "G1-408": {
     "title": "¿Pesado o ligero? Experimento flota o se hunde con balanza",
@@ -2920,11 +2920,11 @@
     "instruction": "Colorea el círculo donde queda cada forma de plastilina, encierra en un círculo lo que flota y dibuja tu barco de plastilina en la pecera grande."
   },
   "G2-383": {
-    "title": "Experimento flota o se hunde: ¿verdadero o falso?",
+    "title": "¿Por qué flotan las cosas? Verdadero o falso",
     "instruction": "Lee cada oración y encierra en un círculo verdadero o falso."
   },
   "K-384": {
-    "title": "Objetos que flotan y se hunden: dibuja tu experimento",
+    "title": "Dibuja lo que flota y lo que se hunde",
     "instruction": "Dibuja dos cosas que flotan en los recuadros del agua y dos cosas que se hunden en los recuadros del fondo."
   },
   "G3-400": {
@@ -2941,7 +2941,7 @@
   },
   "G2-386": {
     "title": "Palabras en letra cursiva con dibujos",
-    "instruction": "Repasa cada palabra gris, luego escríbela en el renglón de abajo y al final agrega los puntos, la rayita de la t y los acentos."
+    "instruction": "Repasa cada palabra gris: une las letras y al final pon los puntos, los acentos y la rayita de la t; luego escríbela igual en el renglón de abajo."
   },
   "G2-387": {
     "title": "Lectura en letra cursiva: une cada palabra con su dibujo",

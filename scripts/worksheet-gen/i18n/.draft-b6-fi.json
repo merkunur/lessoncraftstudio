@@ -1,0 +1,1020 @@
+{
+ "locale": "fi",
+ "types": {
+  "K-379": {
+   "title": "Kuvasarja järjestykseen: numeroi kuvat",
+   "instruction": "Katso, mikä kussakin tarinassa muuttuu, ja kirjoita ruutuihin numerot niin, että kuvat ovat oikeassa järjestyksessä."
+  },
+  "K-381": {
+   "title": "Kuvasarja leikattavaksi: ensin, sitten, lopuksi",
+   "instruction": "Leikkaa kuvat irti kaistaleista ja liimaa ne tyhjiin kehyksiin sanojen Ensin, Sitten ja Lopuksi yläpuolelle."
+  },
+  "G1-400": {
+   "title": "Kuvasarja: mitä tapahtuu seuraavaksi?",
+   "instruction": "Katso kunkin tarinan kolmea kuvaa ja ympyröi niiden alta kuva, joka kuuluu kysymysmerkin kehykseen."
+  },
+  "G1-401": {
+   "title": "Kuvakertomus: alku, keskikohta ja loppu",
+   "instruction": "Katso kunkin tarinan alkua ja loppua ja piirrä keskimmäiseen kehykseen, mitä niiden välissä tapahtuu."
+  },
+  "G1-402": {
+   "title": "Kuvasarja ja lauseet: yhdistä lause kuvaan",
+   "instruction": "Lue kunkin tarinan lauseet ja vedä viiva jokaisesta lauseesta sen kuvaan."
+  },
+  "G2-378": {
+   "title": "Kuvasarja tarinan kirjoittamiseen aloitussanoilla",
+   "instruction": "Kirjoita kunkin kuvan viereisille viivoille, mitä kuvassa tapahtuu, ja aloita ensimmäisellä viivalla olevalla sanalla."
+  },
+  "K-380": {
+   "title": "Hygienia ja terveelliset tavat: mitä kukin tarvitsee?",
+   "instruction": "Vedä viiva jokaisesta lapsesta siihen esineeseen, jota lapsi tarvitsee."
+  },
+  "K-382": {
+   "title": "Käsienpesuohje lapsille: pese kädet oikein",
+   "instruction": "Kirjoita ruutuihin numerot 1–5 niin, että ne näyttävät, miten kädet pestään."
+  },
+  "G1-403": {
+   "title": "Hampaiden pesu: ennen, aikana ja jälkeen",
+   "instruction": "Ympyröi jokaisen kuvan vierestä sana, joka kertoo, tapahtuuko se ennen pesua, pesun aikana vai pesun jälkeen."
+  },
+  "G1-404": {
+   "title": "Yski ja aivasta hihaan: pysäytä pöpöt",
+   "instruction": "Ympyröi joka riviltä kuva, jossa pöpöt eivät pääse leviämään."
+  },
+  "G2-379": {
+   "title": "Terveelliset tavat: miksi teemme niin?",
+   "instruction": "Vedä viiva jokaisesta tavasta siihen lauseeseen, joka kertoo, miksi teemme niin."
+  },
+  "G1-405": {
+   "title": "Terveellisten tapojen viikkotaulukko",
+   "instruction": "Laita joka päivä rasti ruutuun jokaisen tavan kohdalle, jonka teit."
+  },
+  "G1-398": {
+   "title": "Eläinten elinympäristöt: metsä, niitty, järvi ja meri",
+   "instruction": "Kirjoita jokaisen eläimen alle sen elinympäristön kirjain, jossa se elää."
+  },
+  "K-383": {
+   "title": "Eläinten pesät ja kodit: kuka asuu missäkin?",
+   "instruction": "Vedä viiva jokaisesta eläimestä sen kotiin."
+  },
+  "G1-406": {
+   "title": "Eläinten elinympäristöt: kuka ei asu täällä?",
+   "instruction": "Piirrä joka rivillä rasti sen eläimen päälle, joka ei elä siinä elinympäristössä."
+  },
+  "G2-380": {
+   "title": "Eläinten sopeutuminen elinympäristöön",
+   "instruction": "Kirjoita jokaisen lauseen ruutuun sen eläimen kirjain, josta lause kertoo."
+  },
+  "G1-407": {
+   "title": "Mitä eläimet tarvitsevat? Ruoka ja koti",
+   "instruction": "Ympyröi jokaisen eläimen kohdalta ruoka, jota se syö, ja koti, jossa se asuu."
+  },
+  "G2-381": {
+   "title": "Oma elinympäristöni: tutki ja piirrä",
+   "instruction": "Piirrä kolme eläintä, jotka elävät tässä elinympäristössä, kirjoita niiden nimet ja siellä kasvava kasvi ja ympyröi jokaisesta sanaparista oikea sana."
+  },
+  "G1-399": {
+   "title": "Kelluuko vai uppoaako? Arvaus ja kokeilu",
+   "instruction": "Väritä ennen kokeilua ympyrä ensimmäisessä astiassa, kokeilun jälkeen ympyrä toisessa astiassa ja tähti, jos yllätyit."
+  },
+  "G1-408": {
+   "title": "Painava vai kevyt? Kelluuko vai uppoaako -kokeilu vaa’alla",
+   "instruction": "Vaaka näyttää, kumpi on painavampi: ympyröi se, joka kelluu vedessä."
+  },
+  "G2-382": {
+   "title": "Muovailuvaha kellumaan: muodon muuttamisen kokeilu",
+   "instruction": "Väritä ympyrä sieltä, mihin kukin muovailuvahan muoto päätyy, ympyröi esine, joka kelluu, ja piirrä isoon astiaan oma muovailuvahaveneesi."
+  },
+  "G2-383": {
+   "title": "Miksi esine kelluu? Totta vai tarua kokeilun jälkeen",
+   "instruction": "Lue jokainen lause ja ympyröi totta tai tarua."
+  },
+  "K-384": {
+   "title": "Mikä kelluu, mikä uppoaa? Piirrä kokeilu",
+   "instruction": "Piirrä kaksi kelluvaa esinettä pinnan katkoviivaruutuihin ja kaksi uppoavaa esinettä pohjan katkoviivaruutuihin."
+  },
+  "G3-400": {
+   "title": "Kelluminen ja uppoaminen: oma tutkimusraportti",
+   "instruction": "Valitse kysymys, kirjoita arvauksesi, kokeile, piirrä, mitä tapahtui, ja kirjoita, mitä opit."
+  }
+ },
+ "families": {
+  "story-sequencing": {
+   "slug": "kuvasarjat",
+   "name": "Kuvasarjat"
+  },
+  "healthy-habits": {
+   "slug": "hygienia-ja-terveelliset-tavat",
+   "name": "Hygienia ja terveelliset tavat"
+  },
+  "habitats": {
+   "slug": "elainten-elinymparistot",
+   "name": "Eläinten elinympäristöt"
+  },
+  "sink-or-float": {
+   "slug": "kelluminen-ja-uppoaminen",
+   "name": "Kelluminen ja uppoaminen"
+  },
+  "cursive-writing": {
+   "slug": "kaunokirjoitus",
+   "name": "Kaunokirjoitus"
+  }
+ },
+ "skills": {
+  "story-sequencing": {
+   "full": "Kuvasarjat: arjen tapahtumien järjestäminen kuvista, sanat ensin, sitten ja lopuksi, tarinan alku, keskikohta ja loppu sekä oman tarinan kirjoittaminen kuvista.",
+   "short": "Kuvasarjat ja tarinan järjestys"
+  },
+  "healthy-habits": {
+   "full": "Hygienia ja terveelliset tavat: käsienpesu, hampaiden pesu, yskiminen ja aivastaminen hihaan, uni, liikunta ja veden juominen sekä se, miksi niitä tehdään.",
+   "short": "Käsienpesu, hampaiden pesu ja hyvät tavat"
+  },
+  "habitats": {
+   "full": "Eläinten elinympäristöt: metsän, niityn, järven ja meren eläimet, eläinten pesät ja kodit, eläinten sopeutuminen sekä se, mitä eläimet tarvitsevat elääkseen.",
+   "short": "Metsän, niityn, järven ja meren eläimet"
+  },
+  "sink-or-float": {
+   "full": "Kelluminen ja uppoaminen: arvaaminen ja kokeileminen vedellä, painava ja kevyt esine, muodon merkitys muovailuvahalla sekä oma pieni tutkimusraportti.",
+   "short": "Kelluuko vai uppoaako: arvaa ja kokeile"
+  },
+  "cursive-writing": {
+   "full": "Kaunokirjoitus eli sidottu käsiala: kirjainten yhdistäminen toisiinsa. Suomessa perusopetus opettaa tekstausta ja näppäintaitoja, joten tätä aineistoa ei julkaista suomeksi.",
+   "short": "Sidottu käsiala (ei suomeksi)"
+  }
+ },
+ "topicMeta": {
+  "story-sequencing": "Tulostettavat kuvasarjat esiopetukseen ja alkuopetukseen: laita kuvat järjestykseen, ensin, sitten, lopuksi, alku, keskikohta ja loppu sekä kuvasarja tarinan kirjoittamiseen.",
+  "healthy-habits": "Tulostettavat hygienia- ja terveystapatehtävät esiopetukseen ja 1.–2. luokalle: käsienpesuohje lapsille, hampaiden pesu, yski hihaan ja terveellisten tapojen viikkotaulukko.",
+  "habitats": "Tulostettavat eläinten elinympäristöt 1.–2. luokalle: metsän, niityn, järven ja meren eläimet, eläinten pesät, kuka ei asu täällä ja eläinten sopeutuminen elinympäristöön.",
+  "sink-or-float": "Tulostettava kelluuko vai uppoaako -kokeilu esiopetukseen ja alkuopetukseen: arvaa ja kokeile, painava vai kevyt, muovailuvahavene, totta vai tarua ja oma tutkimusraportti.",
+  "cursive-writing": "Kaunokirjoitus eli sidottu käsiala muilla kielillä: kirjainten yhdistäminen, sanat ja lauseet. Suomenkielisiä kaunokirjoitustehtäviä ei julkaista, koska OPS 2014 opettaa tekstausta."
+ },
+ "banks": {
+  "story-sequencing": {
+   "words3": [
+    "Ensin",
+    "Sitten",
+    "Lopuksi"
+   ],
+   "openers4": [
+    "Ensin",
+    "Sitten",
+    "Seuraavaksi",
+    "Lopuksi"
+   ],
+   "starters4": [
+    "Ensin",
+    "Sitten",
+    "Seuraavaksi",
+    "Lopuksi"
+   ],
+   "bme": [
+    "Alku",
+    "Keskikohta",
+    "Loppu"
+   ],
+   "stories": {
+    "apple": {
+     "sentences": [
+      "Ensin omena on kokonainen.",
+      "Sitten omenassa on yksi haukkaus.",
+      "Seuraavaksi omenassa on kolme haukkausta.",
+      "Lopuksi omenasta on jäljellä vain kara."
+     ],
+     "stateWords": [
+      "kokonainen",
+      "yksi haukkaus",
+      "kolme haukkausta",
+      "kara"
+     ],
+     "helpWords": [
+      "omena",
+      "haukkaus",
+      "kara",
+      "varsi",
+      "lehti",
+      "lautanen"
+     ],
+     "helpIds": [
+      "apple",
+      "bite",
+      "core",
+      "stem",
+      "leaf",
+      "plate"
+     ]
+    },
+    "banana": {
+     "sentences": [
+      "Ensin banaani on vielä kuorimaton.",
+      "Sitten yksi kuoren liuska roikkuu alaspäin.",
+      "Seuraavaksi kolme liuskaa roikkuu alaspäin.",
+      "Lopuksi jäljellä on vain tyhjä kuori."
+     ],
+     "stateWords": [
+      "kuorimaton",
+      "yksi kuoren liuska",
+      "kolme liuskaa",
+      "tyhjä kuori"
+     ],
+     "helpWords": [
+      "banaani",
+      "kuori",
+      "liuska",
+      "lautanen"
+     ],
+     "helpIds": [
+      "banana",
+      "peel",
+      "strip",
+      "plate"
+     ]
+    },
+    "sandwich": {
+     "sentences": [
+      "Ensin pöydällä on kaksi leipäviipaletta.",
+      "Sitten toisen viipaleen päällä on hilloa.",
+      "Seuraavaksi voileipä on leikattu kahtia.",
+      "Lopuksi jäljellä on vain leivänkuorta ja muruja."
+     ],
+     "stateWords": [
+      "kaksi leipäviipaletta",
+      "hilloa",
+      "kahtia",
+      "muruja"
+     ],
+     "helpWords": [
+      "leipä",
+      "hillo",
+      "veitsi",
+      "voileipä",
+      "puolikas",
+      "murut"
+     ],
+     "helpIds": [
+      "bread",
+      "jam",
+      "knife",
+      "sandwich",
+      "half",
+      "crumb"
+     ]
+    },
+    "cake": {
+     "sentences": [
+      "Ensin kakku on kokonainen.",
+      "Sitten kakusta on leikattu yksi pala.",
+      "Seuraavaksi puolet kakusta on jo syöty.",
+      "Lopuksi jäljellä on vain muruja."
+     ],
+     "stateWords": [
+      "kokonainen",
+      "yksi pala",
+      "puolet",
+      "muruja"
+     ],
+     "helpWords": [
+      "kakku",
+      "pala",
+      "kynttilät",
+      "murut",
+      "kakkuvati"
+     ],
+     "helpIds": [
+      "cake",
+      "slice",
+      "candle",
+      "crumb",
+      "stand"
+     ]
+    },
+    "fence": {
+     "sentences": [
+      "Ensin aita on kokonaan valkoinen.",
+      "Sitten kaksi lautaa on maalattu.",
+      "Seuraavaksi neljä lautaa on maalattu.",
+      "Lopuksi koko aita on maalattu."
+     ],
+     "stateWords": [
+      "valkoinen",
+      "kaksi lautaa",
+      "neljä lautaa",
+      "koko aita"
+     ],
+     "helpWords": [
+      "aita",
+      "lauta",
+      "maali",
+      "sivellin",
+      "maalipurkki"
+     ],
+     "helpIds": [
+      "fence",
+      "plank",
+      "paint",
+      "brush",
+      "pot"
+     ]
+    },
+    "letter": {
+     "sentences": [
+      "Ensin kortti on tyhjä.",
+      "Sitten korttiin on piirretty kukka.",
+      "Seuraavaksi korttiin on kirjoitettu kolme riviä.",
+      "Lopuksi kortti on kirjekuoressa, jossa on postimerkki."
+     ],
+     "stateWords": [
+      "tyhjä",
+      "kukka",
+      "kolme riviä",
+      "postimerkki"
+     ],
+     "helpWords": [
+      "kortti",
+      "kukka",
+      "kynä",
+      "kirjekuori",
+      "postimerkki"
+     ],
+     "helpIds": [
+      "card",
+      "flower",
+      "pencil",
+      "envelope",
+      "stamp"
+     ]
+    },
+    "paper-chain": {
+     "sentences": [
+      "Ensin pöydällä on yksi paperiarkki.",
+      "Sitten arkki on leikattu viideksi suikaleeksi.",
+      "Seuraavaksi kaksi suikaletta on liimattu renkaiksi.",
+      "Lopuksi viisi rengasta muodostaa ketjun."
+     ],
+     "stateWords": [
+      "yksi paperiarkki",
+      "viideksi suikaleeksi",
+      "kaksi suikaletta",
+      "ketjun"
+     ],
+     "helpWords": [
+      "paperi",
+      "sakset",
+      "suikaleet",
+      "liima",
+      "renkaat",
+      "ketju"
+     ],
+     "helpIds": [
+      "paper",
+      "scissors",
+      "strip",
+      "glue",
+      "ring",
+      "chain"
+     ]
+    },
+    "beach-walk": {
+     "sentences": [
+      "Ensin hiekassa ei ole jalanjälkiä.",
+      "Sitten lapsi kävelee, ja hiekkaan jää kolme jalanjälkeä.",
+      "Seuraavaksi lapsi löytää simpukan.",
+      "Lopuksi lapsi on takaisin pyyhkeellä simpukka mukanaan."
+     ],
+     "stateWords": [
+      "ei ole jalanjälkiä",
+      "kolme jalanjälkeä",
+      "löytää simpukan",
+      "takaisin"
+     ],
+     "helpWords": [
+      "hiekka",
+      "pyyhe",
+      "simpukka",
+      "jalanjäljet",
+      "kävellä"
+     ],
+     "helpIds": [
+      "sand",
+      "towel",
+      "shell",
+      "footprint",
+      "walk"
+     ]
+    }
+   },
+   "excludeStories": [],
+   "strings": {
+    "base": {
+     "title": "Kuvasarja järjestykseen: numeroi kuvat",
+     "instruction": "Katso, mikä kussakin tarinassa muuttuu, ja kirjoita ruutuihin numerot niin, että kuvat ovat oikeassa järjestyksessä."
+    },
+    "first-next-last-cut": {
+     "title": "Kuvasarja leikattavaksi: ensin, sitten, lopuksi",
+     "instruction": "Leikkaa kuvat irti kaistaleista ja liimaa ne tyhjiin kehyksiin sanojen Ensin, Sitten ja Lopuksi yläpuolelle."
+    },
+    "what-happens-next": {
+     "title": "Kuvasarja: mitä tapahtuu seuraavaksi?",
+     "instruction": "Katso kunkin tarinan kolmea kuvaa ja ympyröi niiden alta kuva, joka kuuluu kysymysmerkin kehykseen."
+    },
+    "beginning-middle-end": {
+     "title": "Kuvakertomus: alku, keskikohta ja loppu",
+     "instruction": "Katso kunkin tarinan alkua ja loppua ja piirrä keskimmäiseen kehykseen, mitä niiden välissä tapahtuu."
+    },
+    "sequencing-sentences": {
+     "title": "Kuvasarja ja lauseet: yhdistä lause kuvaan",
+     "instruction": "Lue kunkin tarinan lauseet ja vedä viiva jokaisesta lauseesta sen kuvaan."
+    },
+    "retell-with-starters": {
+     "title": "Kuvasarja tarinan kirjoittamiseen aloitussanoilla",
+     "instruction": "Kirjoita kunkin kuvan viereisille viivoille, mitä kuvassa tapahtuu, ja aloita ensimmäisellä viivalla olevalla sanalla."
+    }
+   }
+  },
+  "healthy-habits": {
+   "strings": {
+    "base": {
+     "title": "Hygienia ja terveelliset tavat: mitä kukin tarvitsee?",
+     "instruction": "Vedä viiva jokaisesta lapsesta siihen esineeseen, jota lapsi tarvitsee."
+    },
+    "hand-washing-steps": {
+     "title": "Käsienpesuohje lapsille: pese kädet oikein",
+     "instruction": "Kirjoita ruutuihin numerot 1–5 niin, että ne näyttävät, miten kädet pestään."
+    },
+    "brushing-teeth": {
+     "title": "Hampaiden pesu: ennen, aikana ja jälkeen",
+     "instruction": "Ympyröi jokaisen kuvan vierestä sana, joka kertoo, tapahtuuko se ennen pesua, pesun aikana vai pesun jälkeen."
+    },
+    "stop-the-germs": {
+     "title": "Yski ja aivasta hihaan: pysäytä pöpöt",
+     "instruction": "Ympyröi joka riviltä kuva, jossa pöpöt eivät pääse leviämään."
+    },
+    "why-habits": {
+     "title": "Terveelliset tavat: miksi teemme niin?",
+     "instruction": "Vedä viiva jokaisesta tavasta siihen lauseeseen, joka kertoo, miksi teemme niin."
+    },
+    "habit-chart": {
+     "title": "Terveellisten tapojen viikkotaulukko",
+     "instruction": "Laita joka päivä rasti ruutuun jokaisen tavan kohdalle, jonka teit."
+    }
+   },
+   "phases": {
+    "before": "ennen pesua",
+    "during": "pesun aikana",
+    "after": "pesun jälkeen"
+   },
+   "labels": {
+    "wash-hands": "pese kädet",
+    "brush-teeth": "pese hampaat",
+    "sleep": "nuku",
+    "move-body": "liiku",
+    "drink-water": "juo vettä",
+    "sun-protect": "suojaudu auringolta",
+    "blow-nose": "niistä nenä",
+    "comb-hair": "kampaa hiukset"
+   },
+   "labelStems": {
+    "wash-hands": [
+     "pese",
+     "pestä",
+     "pesu",
+     "käsienpesu",
+     "käsi",
+     "kädet",
+     "käsiä",
+     "saippua",
+     "saippuaa",
+     "saippualla"
+    ],
+    "brush-teeth": [
+     "pese",
+     "pestä",
+     "pesu",
+     "hammas",
+     "hampaat",
+     "hampaita",
+     "hammasharja",
+     "hammastahna",
+     "harjaa",
+     "harjata"
+    ],
+    "sleep": [
+     "nuku",
+     "nukkua",
+     "nukumme",
+     "uni",
+     "unta",
+     "sänky",
+     "sängyssä",
+     "yö",
+     "yöllä"
+    ],
+    "move-body": [
+     "liiku",
+     "liikkua",
+     "liikumme",
+     "liikunta",
+     "juokse",
+     "juosta",
+     "leiki",
+     "leikkiä",
+     "urheilu"
+    ],
+    "sun-protect": [
+     "aurinko",
+     "auringolta",
+     "auringossa",
+     "hattu",
+     "lakki",
+     "aurinkovoide",
+     "voide",
+     "suojaudu"
+    ],
+    "drink-water": [
+     "juo",
+     "juoda",
+     "juomme",
+     "vesi",
+     "vettä",
+     "lasi",
+     "lasista"
+    ],
+    "blow-nose": [
+     "niistä",
+     "niistää",
+     "nenäliina"
+    ],
+    "comb-hair": [
+     "kampaa",
+     "kammata",
+     "kampa",
+     "hiukset",
+     "tukka"
+    ]
+   },
+   "reasons": {
+    "wash-hands": "Se vie pois pöpöt, jotka tarttuivat meihin kaikesta, mihin koskimme.",
+    "brush-teeth": "Hymy pysyy puhtaana ja kirkkaana.",
+    "sleep": "Keho ja aivot lepäävät ja jaksavat taas uuden päivän.",
+    "move-body": "Kunto kasvaa, ja meistä tulee nopeita ja vahvoja.",
+    "sun-protect": "Iho ei pala kuumana kesäpäivänä.",
+    "drink-water": "Keho tarvitsee sitä toimiakseen hyvin.",
+    "blow-nose": "Voimme taas hengittää helposti."
+   },
+   "kaiOrder": false,
+   "coughPhrase": "hihaan",
+   "weekStartOverride": null
+  },
+  "habitats": {
+   "sets": {
+    "base": [
+     "forest",
+     "meadow",
+     "pond",
+     "ocean"
+    ]
+   },
+   "tileLabel": {
+    "ocean": "Meri",
+    "pond": "Järvi",
+    "forest": "Metsä",
+    "meadow": "Niitty",
+    "polar": "Etelämanner",
+    "polar-arctic": "Arktis",
+    "savanna": "Savanni",
+    "rainforest": "Sademetsä"
+   },
+   "adapt": {
+    "camel-hump": "Sen kyttyrässä on rasvaa, joten se jaksaa pitkään ilman ruokaa.",
+    "giraffe-neck": "Sen pitkä kaula ylettyy puiden korkealla kasvaviin lehtiin.",
+    "elephant-trunk": "Sen pitkä kärsä imee vettä ja poimii ruokaa.",
+    "penguin-flippers": "Sen siivet ovat evät: se ui nopeasti, mutta ei osaa lentää.",
+    "walrus-tusks": "Se vetää painavan ruumiinsa pois vedestä pitkien syöksyhampaidensa avulla.",
+    "woodpecker-beak": "Sen vahva ja terävä nokka hakkaa reikiä puunrunkoihin.",
+    "beaver-teeth": "Sen isot etuhampaat kaatavat puita, joista se rakentaa kotinsa veteen.",
+    "whale-blowhole": "Se hengittää ilmaa pään päällä olevan reiän kautta.",
+    "fish-gills": "Se hengittää veden alla kiduksillaan.",
+    "duck-feet": "Sen räpyläjalat työntävät vettä kuin melat.",
+    "sloth-claws": "Sen pitkillä, käyrillä kynsillä se roikkuu oksilla pitkään.",
+    "toucan-beak": "Sen valtava nokka poimii hedelmiä kaukaa ohuiden oksien päistä.",
+    "squirrel-tail": "Sen tuuhea häntä auttaa pitämään tasapainon, kun se hyppää oksalta toiselle."
+   },
+   "names": {
+    "whale": [
+     "valas"
+    ],
+    "dolphin": [
+     "delfiini"
+    ],
+    "octopus": [
+     "mustekala",
+     "tursas"
+    ],
+    "starfish": [
+     "meritähti"
+    ],
+    "jellyfish": [
+     "meduusa",
+     "maneetti"
+    ],
+    "shark": [
+     "hai"
+    ],
+    "clownfish": [
+     "vuokkokala",
+     "klovnikala",
+     "kala"
+    ],
+    "crab": [
+     "rapu",
+     "taskurapu"
+    ],
+    "ray": [
+     "rausku"
+    ],
+    "seal-grey": [
+     "hylje",
+     "norppa"
+    ],
+    "seal-white": [
+     "kuutti",
+     "hylkeenpoikanen",
+     "hylje"
+    ],
+    "walrus": [
+     "mursu"
+    ],
+    "narwhal": [
+     "sarvivalas"
+    ],
+    "penguin": [
+     "pingviini"
+    ],
+    "deer": [
+     "peura",
+     "kauris",
+     "bambi"
+    ],
+    "squirrel": [
+     "orava"
+    ],
+    "woodpecker": [
+     "tikka"
+    ],
+    "badger": [
+     "mäyrä"
+    ],
+    "moose": [
+     "hirvi"
+    ],
+    "frog": [
+     "sammakko"
+    ],
+    "dragonfly": [
+     "sudenkorento"
+    ],
+    "beaver": [
+     "majava"
+    ],
+    "duck": [
+     "sorsa",
+     "ankka",
+     "ankanpoikanen",
+     "tipu"
+    ],
+    "swan": [
+     "joutsen"
+    ],
+    "butterfly": [
+     "perhonen"
+    ],
+    "bee": [
+     "mehiläinen"
+    ],
+    "grasshopper": [
+     "heinäsirkka"
+    ],
+    "ladybug": [
+     "leppäkerttu"
+    ],
+    "lion": [
+     "leijona"
+    ],
+    "zebra": [
+     "seepra"
+    ],
+    "giraffe": [
+     "kirahvi"
+    ],
+    "elephant": [
+     "norsu",
+     "elefantti"
+    ],
+    "rhinoceros": [
+     "sarvikuono"
+    ],
+    "ostrich": [
+     "strutsi"
+    ],
+    "monkey": [
+     "apina"
+    ],
+    "gorilla": [
+     "gorilla"
+    ],
+    "orangutan": [
+     "oranki",
+     "apina"
+    ],
+    "sloth": [
+     "laiskiainen"
+    ],
+    "toucan": [
+     "tukaani"
+    ],
+    "macaw": [
+     "ara",
+     "papukaija"
+    ],
+    "camel": [
+     "kameli",
+     "dromedaari"
+    ],
+    "bird": [
+     "lintu"
+    ],
+    "spider": [
+     "hämähäkki"
+    ],
+    "rabbit": [
+     "kani",
+     "jänis",
+     "pupu"
+    ],
+    "ant": [
+     "muurahainen"
+    ]
+   },
+   "needs": {
+    "line": "Jokainen eläin tarvitsee ruokaa, vettä ja kodin.",
+    "foodHead": "Ruoka",
+    "homeHead": "Koti"
+   },
+   "report": {
+    "animals": "Eläimiä, jotka elävät täällä",
+    "plant": "Kasvi, joka kasvaa täällä",
+    "hot": "kuuma",
+    "cold": "kylmä",
+    "wet": "märkä",
+    "dry": "kuiva"
+   },
+   "homeWord": {
+    "nest": "linnunpesä",
+    "hive": "mehiläispesä",
+    "web": "hämähäkinseitti",
+    "burrow": "kolo",
+    "anthill": "muurahaiskeko",
+    "lodge": "majavanpesä"
+   },
+   "placeWords": [
+    "meri",
+    "meressä",
+    "merellä",
+    "mereen",
+    "järvi",
+    "järvessä",
+    "järvellä",
+    "metsä",
+    "metsässä",
+    "niitty",
+    "niityllä",
+    "aavikko",
+    "aavikolla",
+    "jää",
+    "jäällä",
+    "jäälle",
+    "jäisessä",
+    "arktis",
+    "savanni",
+    "savannilla",
+    "sademetsä",
+    "sademetsässä",
+    "viidakko",
+    "viidakossa",
+    "lampi",
+    "lammessa"
+   ],
+   "refuse": [],
+   "refuseClaims": [],
+   "strings": {
+    "G1-398": {
+     "title": "Eläinten elinympäristöt: metsä, niitty, järvi ja meri",
+     "instruction": "Kirjoita jokaisen eläimen alle sen elinympäristön kirjain, jossa se elää."
+    },
+    "K-383": {
+     "title": "Eläinten pesät ja kodit: kuka asuu missäkin?",
+     "instruction": "Vedä viiva jokaisesta eläimestä sen kotiin."
+    },
+    "G1-406": {
+     "title": "Eläinten elinympäristöt: kuka ei asu täällä?",
+     "instruction": "Piirrä joka rivillä rasti sen eläimen päälle, joka ei elä siinä elinympäristössä."
+    },
+    "G2-380": {
+     "title": "Eläinten sopeutuminen elinympäristöön",
+     "instruction": "Kirjoita jokaisen lauseen ruutuun sen eläimen kirjain, josta lause kertoo."
+    },
+    "G1-407": {
+     "title": "Mitä eläimet tarvitsevat? Ruoka ja koti",
+     "instruction": "Ympyröi jokaisen eläimen kohdalta ruoka, jota se syö, ja koti, jossa se asuu."
+    },
+    "G2-381": {
+     "title": "Oma elinympäristöni: tutki ja piirrä",
+     "instruction": "Piirrä kolme eläintä, jotka elävät tässä elinympäristössä, kirjoita niiden nimet ja siellä kasvava kasvi ja ympyröi jokaisesta sanaparista oikea sana."
+    }
+   }
+  },
+  "sink-or-float": {
+   "floatWord": "kelluu",
+   "sinkWord": "uppoaa",
+   "heads": {
+    "guess": "Arvaukseni",
+    "test": "Kokeilu",
+    "surprise": "Yllätys?"
+   },
+   "trueWord": "totta",
+   "falseWord": "tarua",
+   "clayWord": "muovailuvaha",
+   "labels": {
+    "ball": "pallo",
+    "log": "pölkky",
+    "pumpkin": "kurpitsa",
+    "apple": "omena",
+    "lemon": "sitruuna",
+    "banana": "banaani",
+    "leaf": "lehti",
+    "feather": "sulka",
+    "pinecone": "käpy",
+    "pencil": "lyijykynä",
+    "toyboat": "leikkivene",
+    "ship": "laiva",
+    "orange": "appelsiini",
+    "rock": "kivi",
+    "nail": "naula",
+    "hammer": "vasara",
+    "bolt": "pultti",
+    "pliers": "pihdit",
+    "scissors": "sakset",
+    "potato": "peruna"
+   },
+   "tf": {
+    "T1": "Iso pölkky kelluu.",
+    "T2": "Pieni naula uppoaa.",
+    "T3": "Teräksinen laiva kelluu.",
+    "T4": "Painava kurpitsa kelluu.",
+    "T5": "Omena kelluu, mutta peruna uppoaa.",
+    "T6": "Sama muovailuvaha voi upota tai kellua.",
+    "T7": "Jotkin painavat esineet kelluvat.",
+    "T8": "Jotkin kevyet esineet uppoavat.",
+    "F1": "Peruna kelluu.",
+    "F2": "Sulka uppoaa.",
+    "F3": "Teräksinen laiva uppoaa.",
+    "F4": "Ilmalla täytetty pallo uppoaa.",
+    "F5": "Kaikki painavat esineet uppoavat.",
+    "F6": "Kaikki kevyet esineet kelluvat.",
+    "F7": "Isot esineet uppoavat aina.",
+    "F8": "Esine kelluu, koska se on kevyt.",
+    "F9": "Vain pienet esineet voivat kellua."
+   },
+   "report": {
+    "question": "Kysymykseni",
+    "predict": "Arvelen",
+    "result": "Mitä tapahtui",
+    "learned": "Opin",
+    "starter": "Nyt tiedän, että"
+   },
+   "questions": {
+    "orange": "Kelluuko appelsiini kuorineen? Kelluuko se ilman kuorta?",
+    "cargo": "Montako kuutiota muovailuvahavene jaksaa kantaa ennen kuin se uppoaa?"
+   },
+   "forbidden": [
+    "painavat esineet uppoavat",
+    "kevyet esineet kelluvat",
+    "koska se on kevyt",
+    "tiheys",
+    "noste",
+    "suolavesi"
+   ],
+   "experimentWords": [
+    "kokeilu",
+    "tutkimus",
+    "arvaus",
+    "koe"
+   ],
+   "apparatus": {
+    "ring": "ympyrä",
+    "tank": "astia",
+    "star": "tähti",
+    "spot": "katkoviivaruutu"
+   },
+   "instructionBans": {
+    "base": [
+     "viiva",
+     "ryhmä",
+     "roskakori",
+     "rasti",
+     "leikkaa",
+     "ympyröi"
+    ],
+    "scale": [
+     "viiva",
+     "ryhmä",
+     "roskakori",
+     "rasti",
+     "leikkaa",
+     "väritä"
+    ],
+    "shape": [
+     "viiva",
+     "ryhmä",
+     "roskakori",
+     "rasti",
+     "leikkaa"
+    ],
+    "truth": [
+     "viiva",
+     "ryhmä",
+     "roskakori",
+     "rasti",
+     "leikkaa",
+     "väritä"
+    ],
+    "draw": [
+     "viiva",
+     "ryhmä",
+     "roskakori",
+     "rasti",
+     "leikkaa",
+     "ympyröi"
+    ],
+    "report": [
+     "viiva",
+     "ryhmä",
+     "roskakori",
+     "rasti",
+     "leikkaa"
+    ]
+   },
+   "refuse": [],
+   "strings": {
+    "G1-399": {
+     "title": "Kelluuko vai uppoaako? Arvaus ja kokeilu",
+     "instruction": "Väritä ennen kokeilua ympyrä ensimmäisessä astiassa, kokeilun jälkeen ympyrä toisessa astiassa ja tähti, jos yllätyit."
+    },
+    "G1-408": {
+     "title": "Painava vai kevyt? Kelluuko vai uppoaako -kokeilu vaa’alla",
+     "instruction": "Vaaka näyttää, kumpi on painavampi: ympyröi se, joka kelluu vedessä."
+    },
+    "G2-382": {
+     "title": "Muovailuvaha kellumaan: muodon muuttamisen kokeilu",
+     "instruction": "Väritä ympyrä sieltä, mihin kukin muovailuvahan muoto päätyy, ympyröi esine, joka kelluu, ja piirrä isoon astiaan oma muovailuvahaveneesi."
+    },
+    "G2-383": {
+     "title": "Miksi esine kelluu? Totta vai tarua kokeilun jälkeen",
+     "instruction": "Lue jokainen lause ja ympyröi totta tai tarua."
+    },
+    "K-384": {
+     "title": "Mikä kelluu, mikä uppoaa? Piirrä kokeilu",
+     "instruction": "Piirrä kaksi kelluvaa esinettä pinnan katkoviivaruutuihin ja kaksi uppoavaa esinettä pohjan katkoviivaruutuihin."
+    },
+    "G3-400": {
+     "title": "Kelluminen ja uppoaminen: oma tutkimusraportti",
+     "instruction": "Valitse kysymys, kirjoita arvauksesi, kokeile, piirrä, mitä tapahtui, ja kirjoita, mitä opit."
+    }
+   }
+  }
+ },
+ "refusals": {
+  "G2-377": "fi REFUSES the whole cursive-writing family: OPS 2014 removed kaunokirjoitus (joined handwriting) from Finnish schools from autumn 2016 — children learn tekstaus (print) and keyboard writing, and there is no Finnish school joined script nor a matching Playwrite FI font; a DK/NO/US script labelled Finnish would teach letterforms no Finnish teacher uses.",
+  "G2-384": "fi REFUSES the whole cursive-writing family: OPS 2014 removed kaunokirjoitus (joined handwriting) from Finnish schools from autumn 2016 — children learn tekstaus (print) and keyboard writing, and there is no Finnish school joined script nor a matching Playwrite FI font; a DK/NO/US script labelled Finnish would teach letterforms no Finnish teacher uses.",
+  "G2-385": "fi REFUSES the whole cursive-writing family: OPS 2014 removed kaunokirjoitus (joined handwriting) from Finnish schools from autumn 2016 — children learn tekstaus (print) and keyboard writing, and there is no Finnish school joined script nor a matching Playwrite FI font; a DK/NO/US script labelled Finnish would teach letterforms no Finnish teacher uses.",
+  "G2-386": "fi REFUSES the whole cursive-writing family: OPS 2014 removed kaunokirjoitus (joined handwriting) from Finnish schools from autumn 2016 — children learn tekstaus (print) and keyboard writing, and there is no Finnish school joined script nor a matching Playwrite FI font; a DK/NO/US script labelled Finnish would teach letterforms no Finnish teacher uses.",
+  "G2-387": "fi REFUSES the whole cursive-writing family: OPS 2014 removed kaunokirjoitus (joined handwriting) from Finnish schools from autumn 2016 — children learn tekstaus (print) and keyboard writing, and there is no Finnish school joined script nor a matching Playwrite FI font; a DK/NO/US script labelled Finnish would teach letterforms no Finnish teacher uses.",
+  "G3-401": "fi REFUSES the whole cursive-writing family: OPS 2014 removed kaunokirjoitus (joined handwriting) from Finnish schools from autumn 2016 — children learn tekstaus (print) and keyboard writing, and there is no Finnish school joined script nor a matching Playwrite FI font; a DK/NO/US script labelled Finnish would teach letterforms no Finnish teacher uses."
+ },
+ "strandNames": {
+  "Reading: Literature": "Kertomusten lukeminen ja tulkitseminen",
+  "Health": "Terveys ja hyvinvointi (ympäristöoppi)"
+ },
+ "enAudit": [
+  "K-381 (story F1) EN instruction 'glue them on their story line UNDER First, Next and Last' is spatially wrong: the empty glue frames hang ABOVE the word tags on the cord, so the picture goes above (on) the word, never under it. fi says 'sanojen … yläpuolelle' (above the words).",
+  "K-381 EN 'glue them on their story line': nothing on the page is called a story line; the apparatus is a cord with pegged frames. fi names the drawn thing (the cord and its frames).",
+  "G2-381 habitat report EN instruction is THREE sentences against the brief's one-sentence rule; on an Ocean page 'wet / dry' has one trivially true answer and 'hot / cold' has two defensible ones (tropical vs polar seas), so 'Circle the words that fit' may leave a correct child unsure. fi keeps one sentence.",
+  "G1-398 base EN instruction is two sentences ('Look at the habitats. Under each animal, …'); fi is one sentence.",
+  "(fixed) G1-399 base: the key picture is PINK and reads as a plastic toy key; a plastic toy key can float, so the class test may contradict the claim table's 'sink'. The bank already restricts it to the base; a metal-looking key would remove the doubt.",
+  "G2-382 change-the-shape: the landing plan says 'compare a steel bolt and a steel ship', but the drawn bolt is brass/gold coloured; the copy should say 'metal' (fi uses no material word for the bolt).",
+  "K-380 base: the sleep plaque already draws the child lying in a bed under a blanket, so matching it to the bed on the shelf is given away by the plaque itself; a child asleep without the bed frame would make the match a thought, not a copy.",
+  "K-380 base: the blow-nose pose (burst lines at the nose) reads as SNEEZING to a Finnish 6-year-old as much as nose-blowing; the tissue box stays the right match for both, so no wrong answer arises, but the landing should not call the figure 'blowing the nose' without a tissue drawn in hand.",
+  "G1-398 habitats: the 'pond' tile is a small reed-fringed pond; the Nordic/fi set labels it 'järvi' (lake) per the operator ruling (järvi is the Finnish school habitat term); every animal drawn for it (beaver, frog, dragonfly, duck, swan, heron) is a true Finnish lake animal, so the label is honest, but 'lampi' would match the drawing more literally.",
+  "G1-398 / G1-406 habitat-tile: the MEADOW window fills its ground band with the same pale teal as the water tiles, so the Niitty/Meadow picture can read as a flowery riverbank beside the lake tile; a green or cream ground would keep the meadow dry."
+ ]
+}

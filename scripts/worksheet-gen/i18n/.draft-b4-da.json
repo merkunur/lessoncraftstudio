@@ -1,0 +1,2628 @@
+{
+  "locale": "da",
+  "types": {
+    "K-353": {
+      "title": "Tangram: klip de 7 brikker ud og læg to figurer",
+      "instruction": "Farvelæg brikkerne som i farveforklaringen, klip dem ud langs stregerne, og læg dem præcis på de to figurer nedenunder."
+    },
+    "K-358": {
+      "title": "Nemme tangramfigurer af 2 og 3 brikker: tegn stregerne",
+      "instruction": "Se på brikkerne over hver figur. Tegn stregerne inde i figuren, der hvor brikkerne mødes."
+    },
+    "G1-354": {
+      "title": "Tangramfigurer: læg fire skyggebilleder",
+      "instruction": "Læg hvert mørkt skyggebillede med de syv brikker fra dit tangram. Brug alle syv brikker hver gang."
+    },
+    "G1-355": {
+      "title": "Tangramfigurer: hvilken brik mangler?",
+      "instruction": "Der mangler en brik i hver figur. Sæt ring om den brik, der passer præcis i det tomme felt."
+    },
+    "G2-347": {
+      "title": "Tangramfigurer: hvilken løsning passer til skyggen?",
+      "instruction": "Se på hver skygge. Sæt ring om den løsning, der ligger præcis som skyggen. Drejede eller spejlvendte figurer passer ikke."
+    },
+    "K-359": {
+      "title": "Tangram: tæl trekanter og kvadrater",
+      "instruction": "Tæl trekanterne i hvert billede, og skriv tallet i det første felt. Tæl så kvadraterne til det andet."
+    },
+    "K-354": {
+      "title": "Kroppens dele",
+      "instruction": "Skriv hvert ord fra ordkassen på den linje, der peger på den del af kroppen."
+    },
+    "K-360": {
+      "title": "Kroppens dele: hvor mange har du?",
+      "instruction": "Hvor mange har du af hver? Tæl på din egen krop, og skriv tallet i feltet."
+    },
+    "K-361": {
+      "title": "Kroppens dele: farvelæg efter listen",
+      "instruction": "Læs listen, og farvelæg hver del af kroppen med den farve, der står ved navnet."
+    },
+    "G1-356": {
+      "title": "Kroppens dele: skriv ordet",
+      "instruction": "Find hver nummereret del på figuren, og skriv dens navn med ét bogstav i hvert felt."
+    },
+    "K-362": {
+      "title": "Kroppens dele: hvad mangler?",
+      "instruction": "Hver krop mangler en del. Sæt ring om billedet af den del, der mangler, og tegn den på."
+    },
+    "K-363": {
+      "title": "Kroppens dele: hvilke har du to af?",
+      "instruction": "Sæt ring om hver del af kroppen, som du har to af."
+    },
+    "K-355": {
+      "title": "De fem sanser",
+      "instruction": "Tegn en streg fra hvert billede til den del af kroppen, du bruger til det."
+    },
+    "G1-357": {
+      "title": "Sanserne: sortér efter sansen",
+      "instruction": "Se på hvert billede, og tegn en streg fra prikken til kassen med den sans, du bruger til det."
+    },
+    "G1-358": {
+      "title": "Sanserne: hvilken sans bruger du?",
+      "instruction": "Hvilken sans bruger du til hvert billede? Sæt ring om den del af kroppen, du bruger."
+    },
+    "G1-359": {
+      "title": "Sanserne: hvilket billede passer ikke?",
+      "instruction": "I hver række hører tre billeder til den samme sans. Streg det billede ud, der ikke gør."
+    },
+    "G1-360": {
+      "title": "Sanseorganerne: skriv sanseordet",
+      "instruction": "Skriv hvert ord fra ordkassen på linjen ved den del af kroppen, der kan det."
+    },
+    "G1-361": {
+      "title": "Sanserne: jeg kan høre ...",
+      "instruction": "Gør hver sætning færdig. Skriv hvad du kan høre, se, lugte, smage og føle."
+    },
+    "K-356": {
+      "title": "Vejrsymboler",
+      "instruction": "Tegn en streg fra hvert vejrsymbol til det ord, der hører til."
+    },
+    "G1-362": {
+      "title": "Vejrsymboler: skriv vejrordet",
+      "instruction": "Find ordet til hvert vejrsymbol i ordkassen, og skriv det med ét bogstav i hvert felt."
+    },
+    "K-364": {
+      "title": "Vejrskema fra mandag til søndag",
+      "instruction": "Kig ud hver dag i denne uge, og tegn dagens vejrsymbol i feltet."
+    },
+    "K-365": {
+      "title": "Hvor varmt er der? Koldt, varmt eller hedt",
+      "instruction": "Se på hvert termometer, brug nøglen øverst, og sæt ring om det billede, der passer."
+    },
+    "G3-385": {
+      "title": "Vandets kredsløb: sæt navnene på tegningen",
+      "instruction": "Læs de fire ord i ordkassen, og skriv hvert ord på den linje, der har samme tal som på tegningen."
+    },
+    "G1-363": {
+      "title": "Læs ugens vejrudsigt",
+      "instruction": "Se på vejret for hele ugen, læs hvert spørgsmål, og sæt ring om den rigtige dag."
+    },
+    "K-357": {
+      "title": "Affaldssortering",
+      "instruction": "Alle tingene skal smides ud. Tegn en streg fra hver ting til den spand, den skal i."
+    },
+    "K-366": {
+      "title": "Affaldssortering: hvilken spand?",
+      "instruction": "Se på hver ting, og sæt ring om den spand, den skal i, når den skal smides ud."
+    },
+    "G1-364": {
+      "title": "Affaldssortering: hvad er tingen lavet af?",
+      "instruction": "Hvad er hver ting lavet af? Skriv ordet fra ordkassen på linjen."
+    },
+    "G2-348": {
+      "title": "Affaldssortering: hvilken ting passer ikke?",
+      "instruction": "I hver række er tre ting lavet af det samme. Sæt ring om den ting, der er anderledes."
+    },
+    "G1-365": {
+      "title": "Affaldssortering: tre ting jeg sorterer derhjemme",
+      "instruction": "Tegn tre ting, du sorterer derhjemme, og skriv hvad hver ting er."
+    },
+    "G1-350": {
+      "title": "Indsæt det rigtige ord",
+      "instruction": "Se på billedet. Find det ord i ordkassen, der passer i sætningen, og skriv det i feltet."
+    },
+    "G1-366": {
+      "title": "Indsæt det rigtige ord i bogstavfelter",
+      "instruction": "Se på billedet. Skriv det ord, der mangler, i felterne: et bogstav i hvert felt."
+    },
+    "G1-367": {
+      "title": "Indsæt det rigtige ord: vælg mellem to ord",
+      "instruction": "Se på billedet, og læs sætningen. Sæt ring om det ord, der passer, og skriv det i feltet."
+    },
+    "G2-350": {
+      "title": "Indsæt de ord, der mangler i historien",
+      "instruction": "Læs hele historien. De tre billeder viser de ord, der mangler. Skriv hvert ord fra ordkassen i sit felt."
+    },
+    "G1-368": {
+      "title": "Sæt sætningen sammen med billedet",
+      "instruction": "Læs hver sætning. Hvilket billede passer i det tomme felt? Tegn en streg fra sætningen til billedet."
+    },
+    "G1-351": {
+      "title": "Lige og ulige tal: det lige hus og det ulige hus",
+      "instruction": "Skriv hvert tal i det hus, hvor det hører til. Tre tal er allerede flyttet ind og viser deres par."
+    },
+    "G2-351": {
+      "title": "Lige eller ulige? Skriv tallet som to ens dele",
+      "instruction": "Sæt ring om prikkerne to og to. Skriv så tallet som to ens dele, og skriv i det lille felt, hvad der er tilovers."
+    },
+    "G1-369": {
+      "title": "Kan to venner dele ligeligt?",
+      "instruction": "Del billederne mellem de to venner, én ad gangen. Skriv hvor mange hver får, og hvad der er tilovers. Sæt ring om lige eller ulige."
+    },
+    "G2-352": {
+      "title": "Lige og ulige tal op til 100: se på enerfeltet",
+      "instruction": "Læs reglen øverst. Se kun på enerfeltet i hvert tal, og sæt et kryds i cirklen under lige eller ulige."
+    },
+    "G3-386": {
+      "title": "Lige eller ulige sum? Afgør uden at regne",
+      "instruction": "Du skal ikke lægge sammen. Se på det understregede ciffer på enerpladsen, brug tabellen, og sæt kryds ved lige eller ulige."
+    },
+    "G1-370": {
+      "title": "Lige eller ulige? Tæl billederne to og to",
+      "instruction": "Tæl billederne, og sæt ring om dem to og to. Skriv hvor mange par du har lavet, og sæt så ring om lige eller ulige."
+    },
+    "G1-352": {
+      "title": "Personlige stedord",
+      "instruction": "Se på personen, og læs navnet. Sæt ring om det ord, vi siger i stedet for navnet."
+    },
+    "G1-371": {
+      "title": "Sæt et stedord i stedet for navnet",
+      "instruction": "Læs sætningen. Skriv det ord fra ordkassen, der erstatter navnet i den anden sætning."
+    },
+    "G2-353": {
+      "title": "Hvem menes der? Stedord i sætninger",
+      "instruction": "Læs sætningerne. Tegn en streg fra hvert ord i en kasse til det navn, det står for."
+    },
+    "G2-354": {
+      "title": "Ejestedord: hans, hendes eller deres",
+      "instruction": "Se hvem tingen tilhører. Sæt ring om det ord, der viser, at den hører til den person."
+    },
+    "G1-372": {
+      "title": "Sortér navnene: han, hun eller de",
+      "instruction": "Læs hvert navnekort. Skriv navnet under det ord, vi bruger om den person."
+    },
+    "G2-355": {
+      "title": "Skriv sætningen om med et stedord",
+      "instruction": "Læs sætningen. Skriv den igen på linjerne, men brug et stedord i stedet for navnet."
+    },
+    "G1-353": {
+      "title": "Hv-ord: hvem, hvad, hvor",
+      "instruction": "Læs sætningen. Se på de markerede ord. Sæt ring om det hv-ord, der spørger efter dem."
+    },
+    "G1-373": {
+      "title": "Match spørgsmålet med svaret",
+      "instruction": "Læs hvert spørgsmål til venstre. Tegn en streg til det svar til højre, der passer til det."
+    },
+    "G1-374": {
+      "title": "Skriv hv-ordet i sætningen",
+      "instruction": "Læs svaret, og find de markerede ord. Skriv hv-ordet fra ordkassen i feltet."
+    },
+    "G1-375": {
+      "title": "Sortér svarene: hvem, hvad eller hvor",
+      "instruction": "Læs hvert ordkort. Skriv det i kassen under det spørgsmål, det svarer på: hvem, hvad eller hvor."
+    },
+    "G2-356": {
+      "title": "Stil et spørgsmål",
+      "instruction": "Læs svaret. Se på de markerede ord. Skriv det spørgsmål, der spørger efter dem, på linjen."
+    },
+    "G2-357": {
+      "title": "Spørg om billedet: hvorfor og hvordan",
+      "instruction": "Se på billedet. Gør hvert spørgsmål færdigt. Start med det ord, der allerede står på linjen."
+    },
+    "G2-346": {
+      "title": "Afrunding til nærmeste 10",
+      "instruction": "Rund hvert tal af til nærmeste tier, og skriv det i feltet. Er enercifret 5 eller mere, runder du op."
+    },
+    "G3-387": {
+      "title": "Rund op eller ned? Sortér tallene",
+      "instruction": "Runder hvert tal op eller ned til nærmeste tier? Skriv tallet i den rigtige kasse."
+    },
+    "G3-388": {
+      "title": "Afrunding til nærmeste 100",
+      "instruction": "Rund hvert tal af til nærmeste hundrede, og skriv det i feltet. Se på cifret på tierpladsen."
+    },
+    "G3-389": {
+      "title": "Rund af først, lav så et overslag over summen",
+      "instruction": "Rund begge tal af til nærmeste tier, og skriv dem i felterne. Læg så de afrundede tal sammen."
+    },
+    "G3-390": {
+      "title": "Hvilke tal bliver til 50?",
+      "instruction": "Sæt ring om hvert tal, der bliver til tieren øverst. Se på cifret på enerpladsen."
+    },
+    "G3-391": {
+      "title": "Afrunding til nærmeste tier og hundrede",
+      "instruction": "Rund hvert tal af to gange: til nærmeste tier i det første felt og til nærmeste hundrede i det andet."
+    }
+  },
+  "families": {
+    "tangram": {
+      "slug": "tangram",
+      "name": "Tangram"
+    },
+    "human-body": {
+      "slug": "kroppens-dele",
+      "name": "Kroppens dele"
+    },
+    "five-senses": {
+      "slug": "sanserne",
+      "name": "Sanserne"
+    },
+    "weather-symbols": {
+      "slug": "vejrsymboler",
+      "name": "Vejrsymboler"
+    },
+    "recycling": {
+      "slug": "affaldssortering",
+      "name": "Affaldssortering"
+    },
+    "cloze": {
+      "slug": "indsaet-det-rigtige-ord",
+      "name": "Indsæt det rigtige ord"
+    },
+    "odd-and-even": {
+      "slug": "lige-og-ulige-tal",
+      "name": "Lige og ulige tal"
+    },
+    "pronouns": {
+      "slug": "personlige-stedord",
+      "name": "Personlige stedord"
+    },
+    "question-words": {
+      "slug": "hv-ord",
+      "name": "Hv-ord"
+    },
+    "rounding": {
+      "slug": "afrunding",
+      "name": "Afrunding"
+    }
+  },
+  "skills": {
+    "tangram": {
+      "full": "Tangram til børnehaveklasse, 1. og 2. klasse: klip de syv brikker ud, læg figurer og skyggebilleder, find brikken der mangler, og tæl trekanter.",
+      "short": "Læg tangramfigurer, klip ud og tæl"
+    },
+    "human-body": {
+      "full": "Kroppens dele til børnehaveklasse og 1. klasse: sæt navn på kroppens dele, tæl hvor mange du har af hver, farvelæg efter listen, og find den del der mangler.",
+      "short": "Sæt navn på kroppens dele og tæl dem"
+    },
+    "five-senses": {
+      "full": "De fem sanser til børnehaveklasse og 1. klasse: høre, se, lugte, smage og føle sorteres efter sans, og sanseorganerne får deres rigtige navn.",
+      "short": "Høre, se, lugte, smage og føle"
+    },
+    "weather-symbols": {
+      "full": "Vejrsymboler til børnehaveklasse, 1. og 3. klasse: sol, sky, regn, torden, sne og regnbue får ord, ugens vejr skrives i skemaet, og vandets kredsløb får navne.",
+      "short": "Læs vejrsymboler og følg ugens vejr"
+    },
+    "recycling": {
+      "full": "Affaldssortering til børnehaveklasse, 1. og 2. klasse: madaffald, papir og pap, plast, glas og metal sorteres i den rigtige spand efter det, tingen er lavet af.",
+      "short": "Sortér affald i den rigtige spand"
+    },
+    "cloze": {
+      "full": "Indsæt det rigtige ord i 1. og 2. klasse: find ordet der mangler i sætningen, skriv det i bogstavfelter, vælg mellem to ord, og gør en kort historie færdig.",
+      "short": "Find det ord der mangler i sætningen"
+    },
+    "odd-and-even": {
+      "full": "Lige og ulige tal i 1., 2. og 3. klasse: sortér tal i det lige og det ulige hus, del ligeligt mellem to venner, se på enerpladsen, og afgør om en sum er lige.",
+      "short": "Kend lige og ulige tal op til 100"
+    },
+    "pronouns": {
+      "full": "Personlige stedord i 2. og 3. klasse: vælg han, hun eller de, sæt stedordet i stedet for navnet, sortér navnekort, og skriv sætningen om med et stedord.",
+      "short": "Han, hun eller de i stedet for navnet"
+    },
+    "question-words": {
+      "full": "Hv-ord i 2. klasse: hvem, hvad, hvor, hvornår og hvor mange genkendes i sætninger, skrives ind i spørgsmål, og svarene sorteres efter det hv-ord de svarer på.",
+      "short": "Hvem, hvad og hvor i spørgsmål"
+    },
+    "rounding": {
+      "full": "Afrunding i 3. klasse: rund tal af til nærmeste tier og hundrede, sortér tal efter om de runder op eller ned, lav overslag over en sum, og find tallene der bliver til 50.",
+      "short": "Rund tal af til nærmeste tier"
+    }
+  },
+  "topicMeta": {
+    "tangram": "Gratis tangram til print til børnehaveklasse, 1. og 2. klasse: klip de syv brikker ud, læg figurer og skyggebilleder, find den brik der mangler, og tæl trekanter og kvadrater.",
+    "human-body": "Kroppens dele til print til børnehaveklasse og 1. klasse: skriv navnene på kroppens dele, tæl hvor mange du har af hver, farvelæg efter listen, og find den del der mangler.",
+    "five-senses": "De fem sanser til print til børnehaveklasse og 1. klasse: sortér billeder efter høre, se, lugte, smage og føle, sæt navn på sanseorganerne, og gør sætninger færdige.",
+    "weather-symbols": "Vejrsymboler til print til børnehaveklasse, 1. og 3. klasse: sol, sky, regn, torden, sne og regnbue, vejrskema for hele ugen, termometer og vandets kredsløb med navne.",
+    "recycling": "Affaldssortering til print til børnehaveklasse, 1. og 2. klasse: madaffald, papir og pap, plast, glas og metal i den rigtige spand, og hvad hver ting er lavet af.",
+    "cloze": "Indsæt det rigtige ord til print til 1. og 2. klasse: skriv ordet der mangler i sætningen, brug bogstavfelter, vælg mellem to ord, og gør en kort historie færdig.",
+    "odd-and-even": "Lige og ulige tal til print til 1., 2. og 3. klasse: sortér tal i to huse, del ligeligt mellem to venner, se på enerpladsen op til 100, og afgør om en sum er lige.",
+    "pronouns": "Personlige stedord til print til 2. og 3. klasse: han, hun eller de, stedord i stedet for navnet, ejestedordene hans, hendes og deres, og sætninger skrevet om.",
+    "question-words": "Hv-ord til print til 2. klasse: hvem, hvad, hvor, hvornår og hvor mange i sætninger, skriv hv-ordet ind, sortér svarene, og stil selv et spørgsmål til billedet.",
+    "rounding": "Afrunding til print til 3. klasse: rund tal af til nærmeste tier og hundrede, sortér op og ned, lav et overslag over summen, og find de tal der bliver til 50."
+  },
+  "refusals": {
+    "K-367": "Danmark har et nationalt PIKTOGRAM-system for affaldssortering (Dansk Affaldsforening / Miljøstyrelsen, de ti fraktioner), men standarden fastlægger IKKE en farve pr. fraktion på selve spanden: kommunerne bruger de samme sorte, grå og grønne beholdere til alle fraktioner, og det, der adskiller dem, er piktogrammet og teksten, ikke farven. En farvenøgle til fem spande ville derfor lære danske børn en konvention, der ikke findes nationalt, og en klassekonvention er allerede K-241. F4 afvises, ikke gættes.",
+    "G2-349": "Flertalsfladen afvises på dansk efter designet: hovedet for den opgave er \"Ental og flertal\", som familien singular-plural allerede ejer i taksonomien, og en titel om flertalsord under \"Indsæt det rigtige ord\" ville enten kannibalisere den familie eller bære et hoved, ingen dansk lærer søger på. Blokken indeholder derfor ingen flertalsrammer."
+  },
+  "banks": {
+    "tangram": {
+      "strings": {
+        "K-353": {
+          "title": "Tangram: klip de 7 brikker ud og læg to figurer",
+          "instruction": "Farvelæg brikkerne som i farveforklaringen, klip dem ud langs stregerne, og læg dem præcis på de to figurer nedenunder."
+        },
+        "compose": {
+          "title": "Nemme tangramfigurer af 2 og 3 brikker: tegn stregerne",
+          "instruction": "Se på brikkerne over hver figur. Tegn stregerne inde i figuren, der hvor brikkerne mødes."
+        },
+        "silhouette": {
+          "title": "Tangramfigurer: læg fire skyggebilleder",
+          "instruction": "Læg hvert mørkt skyggebillede med de syv brikker fra dit tangram. Brug alle syv brikker hver gang."
+        },
+        "missing": {
+          "title": "Tangramfigurer: hvilken brik mangler?",
+          "instruction": "Der mangler en brik i hver figur. Sæt ring om den brik, der passer præcis i det tomme felt."
+        },
+        "match": {
+          "title": "Tangramfigurer: hvilken løsning passer til skyggen?",
+          "instruction": "Se på hver skygge. Sæt ring om den løsning, der ligger præcis som skyggen. Drejede eller spejlvendte figurer passer ikke."
+        },
+        "count": {
+          "title": "Tangram: tæl trekanter og kvadrater",
+          "instruction": "Tæl trekanterne i hvert billede, og skriv tallet i det første felt. Tæl så kvadraterne til det andet."
+        }
+      }
+    },
+    "human-body": {
+      "partWords": {
+        "head": "hoved",
+        "hair": "hår",
+        "eye": "øje",
+        "ear": "øre",
+        "nose": "næse",
+        "mouth": "mund",
+        "neck": "hals",
+        "shoulder": "skulder",
+        "arm": "arm",
+        "elbow": "albue",
+        "hand": "hånd",
+        "finger": "finger",
+        "leg": "ben",
+        "knee": "knæ",
+        "foot": "fod",
+        "toe": "tå"
+      },
+      "overrides": {},
+      "bankWords": {
+        "head": "hoved",
+        "hair": "hår",
+        "eye": "øje",
+        "ear": "øre",
+        "nose": "næse",
+        "mouth": "mund",
+        "neck": "hals",
+        "shoulder": "skulder",
+        "arm": "arm",
+        "elbow": "albue",
+        "hand": "hånd",
+        "finger": "finger",
+        "leg": "ben",
+        "knee": "knæ",
+        "foot": "fod",
+        "toe": "tå"
+      },
+      "plural": {
+        "head": "hoveder",
+        "hair": "hår",
+        "eye": "øjne",
+        "ear": "ører",
+        "nose": "næser",
+        "mouth": "munde",
+        "neck": "halse",
+        "shoulder": "skuldre",
+        "arm": "arme",
+        "elbow": "albuer",
+        "hand": "hænder",
+        "finger": "fingre",
+        "leg": "ben",
+        "knee": "knæ",
+        "foot": "fødder",
+        "toe": "tæer"
+      },
+      "factLabels": {
+        "head": "Hvor mange hoveder?",
+        "hair": "Hvor meget hår?",
+        "eye": "Hvor mange øjne?",
+        "ear": "Hvor mange ører?",
+        "nose": "Hvor mange næser?",
+        "mouth": "Hvor mange munde?",
+        "neck": "Hvor mange halse?",
+        "shoulder": "Hvor mange skuldre?",
+        "arm": "Hvor mange arme?",
+        "elbow": "Hvor mange albuer?",
+        "hand": "Hvor mange hænder?",
+        "finger": "Hvor mange fingre?",
+        "leg": "Hvor mange ben?",
+        "knee": "Hvor mange knæ?",
+        "foot": "Hvor mange fødder?",
+        "toe": "Hvor mange tæer?",
+        "fingersOneHand": "Hvor mange fingre på én hånd?",
+        "toesOneFoot": "Hvor mange tæer på én fod?"
+      },
+      "use": {
+        "head": "Du tænker med dit hoved.",
+        "hair": "Dit hår holder hovedet varmt.",
+        "eye": "Du ser med dine øjne.",
+        "ear": "Du hører med dine ører.",
+        "nose": "Du lugter med din næse.",
+        "mouth": "Du spiser og taler med din mund.",
+        "neck": "Din hals drejer hovedet.",
+        "shoulder": "Dine skuldre bærer skoletasken.",
+        "arm": "Du krammer med dine arme.",
+        "elbow": "Dine albuer bøjer armene.",
+        "hand": "Du holder ting med dine hænder.",
+        "finger": "Du peger med en finger.",
+        "leg": "Du løber med dine ben.",
+        "knee": "Dine knæ bøjer, når du hopper.",
+        "foot": "Du står på dine fødder.",
+        "toe": "Dine tæer hjælper dig med at holde balancen."
+      },
+      "refuseWords": {},
+      "refuse": [],
+      "strings": {
+        "K-354": {
+          "title": "Kroppens dele",
+          "instruction": "Skriv hvert ord fra ordkassen på den linje, der peger på den del af kroppen."
+        },
+        "K-360": {
+          "title": "Kroppens dele: hvor mange har du?",
+          "instruction": "Hvor mange har du af hver? Tæl på din egen krop, og skriv tallet i feltet."
+        },
+        "K-361": {
+          "title": "Kroppens dele: farvelæg efter listen",
+          "instruction": "Læs listen, og farvelæg hver del af kroppen med den farve, der står ved navnet."
+        },
+        "G1-356": {
+          "title": "Kroppens dele: skriv ordet",
+          "instruction": "Find hver nummereret del på figuren, og skriv dens navn med ét bogstav i hvert felt."
+        },
+        "K-362": {
+          "title": "Kroppens dele: hvad mangler?",
+          "instruction": "Hver krop mangler en del. Sæt ring om billedet af den del, der mangler, og tegn den på."
+        },
+        "K-363": {
+          "title": "Kroppens dele: hvilke har du to af?",
+          "instruction": "Sæt ring om hver del af kroppen, som du har to af."
+        }
+      },
+      "strand": "Natur/teknologi"
+    },
+    "five-senses": {
+      "verbs": {
+        "hear": "høre",
+        "see": "se",
+        "smell": "lugte",
+        "taste": "smage",
+        "touch": "føle"
+      },
+      "starters": {
+        "hear": "Jeg kan høre ...",
+        "see": "Jeg kan se ...",
+        "smell": "Jeg kan lugte ...",
+        "taste": "Jeg kan smage ...",
+        "touch": "Jeg kan føle ..."
+      },
+      "signedOk": [
+        "pizza",
+        "television",
+        "book",
+        "lamp",
+        "lighthouse",
+        "flute"
+      ],
+      "organOf": {},
+      "refuse": [],
+      "strings": {
+        "K-355": {
+          "title": "De fem sanser",
+          "instruction": "Tegn en streg fra hvert billede til den del af kroppen, du bruger til det."
+        },
+        "G1-357": {
+          "title": "Sanserne: sortér efter sansen",
+          "instruction": "Se på hvert billede, og tegn en streg fra prikken til kassen med den sans, du bruger til det."
+        },
+        "G1-358": {
+          "title": "Sanserne: hvilken sans bruger du?",
+          "instruction": "Hvilken sans bruger du til hvert billede? Sæt ring om den del af kroppen, du bruger."
+        },
+        "G1-359": {
+          "title": "Sanserne: hvilket billede passer ikke?",
+          "instruction": "I hver række hører tre billeder til den samme sans. Streg det billede ud, der ikke gør."
+        },
+        "G1-360": {
+          "title": "Sanseorganerne: skriv sanseordet",
+          "instruction": "Skriv hvert ord fra ordkassen på linjen ved den del af kroppen, der kan det."
+        },
+        "G1-361": {
+          "title": "Sanserne: jeg kan høre ...",
+          "instruction": "Gør hver sætning færdig. Skriv hvad du kan høre, se, lugte, smage og føle."
+        }
+      },
+      "strand": "Natur/teknologi"
+    },
+    "weather-symbols": {
+      "symbolWords": {
+        "sun": "sol",
+        "cloud": "sky",
+        "rain": "regn",
+        "storm": "torden",
+        "snow": "sne",
+        "rainbow": "regnbue"
+      },
+      "forecastAsks": {
+        "sun": "Hvilken dag skinner solen?",
+        "cloud": "Hvilken dag er det overskyet?",
+        "rain": "Hvilken dag regner det?",
+        "storm": "Hvilken dag er der torden?",
+        "snow": "Hvilken dag sner det?",
+        "rainbow": "Hvilken dag er der en regnbue?"
+      },
+      "cycleLabels": {
+        "evaporation": "fordampning",
+        "condensation": "fortætning",
+        "precipitation": "nedbør",
+        "collection": "opsamling",
+        "runoff": "afstrømning"
+      },
+      "bandWords": {
+        "cold": "koldt",
+        "warm": "varmt",
+        "hot": "hedt"
+      },
+      "forecastDays": null,
+      "diaryDays": null,
+      "diaryStart": "mon",
+      "bankWords": {},
+      "distractors": [
+        "vind",
+        "tåge"
+      ],
+      "refuse": [],
+      "strings": {
+        "K-356": {
+          "title": "Vejrsymboler",
+          "instruction": "Tegn en streg fra hvert vejrsymbol til det ord, der hører til."
+        },
+        "G1-362": {
+          "title": "Vejrsymboler: skriv vejrordet",
+          "instruction": "Find ordet til hvert vejrsymbol i ordkassen, og skriv det med ét bogstav i hvert felt."
+        },
+        "K-364": {
+          "title": "Vejrskema fra mandag til søndag",
+          "instruction": "Kig ud hver dag i denne uge, og tegn dagens vejrsymbol i feltet."
+        },
+        "K-365": {
+          "title": "Hvor varmt er der? Koldt, varmt eller hedt",
+          "instruction": "Se på hvert termometer, brug nøglen øverst, og sæt ring om det billede, der passer."
+        },
+        "G3-385": {
+          "title": "Vandets kredsløb: sæt navnene på tegningen",
+          "instruction": "Læs de fire ord i ordkassen, og skriv hvert ord på den linje, der har samme tal som på tegningen."
+        },
+        "G1-363": {
+          "title": "Læs ugens vejrudsigt",
+          "instruction": "Se på vejret for hele ugen, læs hvert spørgsmål, og sæt ring om den rigtige dag."
+        }
+      },
+      "strand": "Natur/teknologi"
+    },
+    "recycling": {
+      "bins": [
+        {
+          "key": "madaffald",
+          "label": "Madaffald",
+          "longLabel": "Madaffald: rester fra mad og skræller",
+          "color": null,
+          "colorWord": null,
+          "materials": [
+            "organic"
+          ],
+          "packagingOnly": false
+        },
+        {
+          "key": "papir",
+          "label": "Papir og pap",
+          "longLabel": "Papir og pap: aviser, ark, kuverter og papkasser",
+          "color": null,
+          "colorWord": null,
+          "materials": [
+            "paper",
+            "cardboard"
+          ],
+          "packagingOnly": false
+        },
+        {
+          "key": "plast",
+          "label": "Plast",
+          "longLabel": "Plast: både emballage og hård plast",
+          "color": null,
+          "colorWord": null,
+          "materials": [
+            "plastic"
+          ],
+          "packagingOnly": false
+        },
+        {
+          "key": "glas",
+          "label": "Glas",
+          "longLabel": "Glas: glasflasker og glas fra mad",
+          "color": null,
+          "colorWord": null,
+          "materials": [
+            "glass"
+          ],
+          "packagingOnly": false
+        },
+        {
+          "key": "metal",
+          "label": "Metal",
+          "longLabel": "Metal: dåser, låg, skruer, gryder og pander",
+          "color": null,
+          "colorWord": null,
+          "materials": [
+            "metal"
+          ],
+          "packagingOnly": false
+        }
+      ],
+      "route": {},
+      "excludeItems": {
+        "toothbrush": "En tandbørste er restaffald i Danmark, og der er ingen spand til restaffald på siden.",
+        "bucket": "Ordet spand er spandens eget navn på siden: en spand i tingrækken gør spørgsmålet tvetydigt.",
+        "water": "Plastflasker med pant går tilbage til butikken, ikke i plastspanden."
+      },
+      "materialWords": {
+        "paper": "papir",
+        "cardboard": "pap",
+        "glass": "glas",
+        "plastic": "plast",
+        "metal": "metal"
+      },
+      "colorConvention": null,
+      "refuse": [
+        "color"
+      ],
+      "starters": [],
+      "scheme": "Fem af de ti nationale fraktioner: madaffald, papir og pap, plast, glas og metal. Papir og pap står sammen, fordi de fleste husstande har dem i den samme beholder med to rum. Spandene er tegnet i husets egen farve, fordi den danske standard fastlægger piktogrammet og ikke spandens farve.",
+      "enAudit": "Den engelske instruktion siger \"Each thing is empty or finished\", men den globale bank indeholder gulerod, majs, æble, pære og brød, som hverken er tomme eller brugt op: sætningen passer ikke til madaffaldet, og det gælder alle elleve sprog. Den engelske bank indeholder også en plastflaske med vand og en glasflaske med mælk, som i Danmark og flere andre lande går retur med pant. Endelig hedder den engelske spand \"bin\" og legetøjsspanden \"bucket\": på dansk er begge dele en spand, så et land, der bruger sit almindelige ord for beholderen, får et tvetydigt spørgsmål, medmindre legetøjsspanden tages ud.",
+      "strings": {
+        "K-357": {
+          "title": "Affaldssortering",
+          "instruction": "Alle tingene skal smides ud. Tegn en streg fra hver ting til den spand, den skal i."
+        },
+        "K-366": {
+          "title": "Affaldssortering: hvilken spand?",
+          "instruction": "Se på hver ting, og sæt ring om den spand, den skal i, når den skal smides ud."
+        },
+        "G1-364": {
+          "title": "Affaldssortering: hvad er tingen lavet af?",
+          "instruction": "Hvad er hver ting lavet af? Skriv ordet fra ordkassen på linjen."
+        },
+        "G2-348": {
+          "title": "Affaldssortering: hvilken ting passer ikke?",
+          "instruction": "I hver række er tre ting lavet af det samme. Sæt ring om den ting, der er anderledes."
+        },
+        "G1-365": {
+          "title": "Affaldssortering: tre ting jeg sorterer derhjemme",
+          "instruction": "Tegn tre ting, du sorterer derhjemme, og skriv hvad hver ting er."
+        }
+      },
+      "strand": "Natur/teknologi"
+    },
+    "cloze": {
+      "nameSlot": true,
+      "articleTable": {
+        "n": "en",
+        "t": "et"
+      },
+      "boxWord": "et bogstav i hvert felt",
+      "confusable": [
+        [
+          "duck",
+          "goose"
+        ],
+        [
+          "hen",
+          "rooster"
+        ],
+        [
+          "boat",
+          "sailboat"
+        ],
+        [
+          "jaguar",
+          "leopard"
+        ]
+      ],
+      "agreeingAdjectives": [],
+      "frames": [
+        {
+          "id": "ko-maelk",
+          "noun": "cow",
+          "form": "sg",
+          "text": "En {gap} giver os mælk.",
+          "fits": [
+            "cow",
+            "goat"
+          ],
+          "foil": "horse",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "cow"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "gris-mudder",
+          "noun": "pig",
+          "form": "sg",
+          "text": "En {gap} ruller sig i mudderet.",
+          "fits": [
+            "pig"
+          ],
+          "foil": "goat",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "farm animals",
+            "noun": "pig"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "hane-galer",
+          "noun": "rooster",
+          "form": "sg",
+          "text": "En {gap} galer om morgenen.",
+          "fits": [
+            "rooster"
+          ],
+          "foil": "goose",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "birds 2",
+            "noun": "rooster"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "ugle-nat",
+          "noun": "owl",
+          "form": "sg",
+          "text": "Om natten tuder en {gap} i træet.",
+          "fits": [
+            "owl"
+          ],
+          "foil": "seagull",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "owl"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "bi-honning",
+          "noun": "bee",
+          "form": "sg",
+          "text": "En {gap} laver honning i sit stade.",
+          "fits": [
+            "bee"
+          ],
+          "foil": "bat",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "Things That Fly",
+            "noun": "bee"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "giraf-hals",
+          "noun": "giraffe",
+          "form": "sg",
+          "text": "En {gap} har en meget lang hals.",
+          "fits": [
+            "giraffe",
+            "swan"
+          ],
+          "foil": "zebra",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "zoo animals",
+            "noun": "giraffe"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "elefant-snabel",
+          "noun": "elephant",
+          "form": "sg",
+          "text": "En {gap} har en lang snabel.",
+          "fits": [
+            "elephant"
+          ],
+          "foil": "hippopotamus",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "animals",
+            "noun": "elephant"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "pingvin-is",
+          "noun": "penguin",
+          "form": "sg",
+          "text": "En {gap} glider på maven over isen.",
+          "fits": [
+            "penguin",
+            "seal"
+          ],
+          "foil": "swan",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "birds 2",
+            "noun": "penguin"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "zebra-striber",
+          "noun": "zebra",
+          "form": "sg",
+          "text": "En {gap} har sorte og hvide striber.",
+          "fits": [
+            "zebra"
+          ],
+          "foil": "giraffe",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "animals",
+            "noun": "zebra"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "spaette-huller",
+          "noun": "woodpecker",
+          "form": "sg",
+          "text": "En {gap} hakker huller i træet.",
+          "fits": [
+            "woodpecker"
+          ],
+          "foil": "owl",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "forest creatures",
+            "noun": "woodpecker"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "skildpadde-skjold",
+          "noun": "turtle",
+          "form": "sg",
+          "text": "En {gap} har et hårdt skjold.",
+          "fits": [
+            "turtle",
+            "armadillo"
+          ],
+          "foil": "fox",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "animals",
+            "noun": "turtle"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "kanin-gulerod",
+          "noun": "rabbit",
+          "form": "sg",
+          "text": "En {gap} gnaver i en gulerod.",
+          "fits": [
+            "rabbit"
+          ],
+          "foil": "wolf",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "animals",
+            "noun": "rabbit"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "traktor-mark",
+          "noun": "tractor",
+          "form": "sg",
+          "text": "En {gap} pløjer marken.",
+          "fits": [
+            "tractor"
+          ],
+          "foil": "truck",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "tractor"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "helikopter-rotor",
+          "noun": "helicopter",
+          "form": "sg",
+          "text": "En {gap} har en rotor på taget.",
+          "fits": [
+            "helicopter"
+          ],
+          "foil": "airplane",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "Things That Fly",
+            "noun": "helicopter"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "sejlbaad-sejl",
+          "noun": "sailboat",
+          "form": "sg",
+          "text": "En {gap} har et hvidt sejl.",
+          "fits": [
+            "sailboat"
+          ],
+          "foil": "canoe",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "beach",
+            "noun": "sailboat"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "tog-skinner",
+          "noun": "train",
+          "form": "sg",
+          "text": "Et {gap} kører på skinnerne.",
+          "fits": [
+            "train"
+          ],
+          "foil": "ship",
+          "predicateKind": "verb",
+          "pic": {
+            "theme": "vehicles",
+            "noun": "train"
+          },
+          "picOpened": true,
+          "signedExclusive": true
+        }
+      ],
+      "plural": [],
+      "stories": [
+        {
+          "id": "gaarden-morgen",
+          "nouns": [
+            "rooster",
+            "cow",
+            "tractor"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "Tidligt om morgenen galer en {gap}.",
+            "Så malker {name} en {gap}.",
+            "Bagefter kører {name} en {gap} ud på marken."
+          ],
+          "fits": [
+            [
+              "rooster"
+            ],
+            [
+              "cow",
+              "goat"
+            ],
+            [
+              "tractor"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "birds 2",
+              "noun": "rooster"
+            },
+            {
+              "theme": "farm animals",
+              "noun": "cow"
+            },
+            {
+              "theme": "vehicles",
+              "noun": "tractor"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "soeen-dag",
+          "nouns": [
+            "duckling",
+            "swan",
+            "dog"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "En lille gul {gap} svømmer efter sin mor.",
+            "En {gap} glider hvid hen over vandet.",
+            "Så gøer en {gap} inde på bredden."
+          ],
+          "fits": [
+            [
+              "duckling"
+            ],
+            [
+              "swan"
+            ],
+            [
+              "dog"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "farm animals",
+              "noun": "duckling"
+            },
+            {
+              "theme": "Things That Fly",
+              "noun": "swan"
+            },
+            {
+              "theme": "animals",
+              "noun": "dog"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "zoo-tur",
+          "nouns": [
+            "elephant",
+            "giraffe",
+            "monkey"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "I zoo sprøjter en {gap} vand.",
+            "En {gap} spiser blade fra et højt træ.",
+            "En {gap} svinger sig fra gren til gren."
+          ],
+          "fits": [
+            [
+              "elephant"
+            ],
+            [
+              "giraffe"
+            ],
+            [
+              "monkey",
+              "chimpanzee",
+              "gorilla",
+              "lemur",
+              "orangutan"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "zoo animals",
+              "noun": "elephant"
+            },
+            {
+              "theme": "zoo animals",
+              "noun": "giraffe"
+            },
+            {
+              "theme": "zoo animals",
+              "noun": "monkey"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "himlen-dag",
+          "nouns": [
+            "balloon",
+            "rocket",
+            "kite"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "{name} puster en {gap} op til festen.",
+            "En {gap} flyver op i rummet.",
+            "{name} lader en {gap} flyve i blæsten."
+          ],
+          "fits": [
+            [
+              "balloon"
+            ],
+            [
+              "rocket"
+            ],
+            [
+              "kite"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "toys",
+              "noun": "balloon"
+            },
+            {
+              "theme": "vehicles",
+              "noun": "rocket"
+            },
+            {
+              "theme": "toys",
+              "noun": "kite"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "stranden-dag",
+          "nouns": [
+            "dolphin",
+            "seagull",
+            "sailboat"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "En {gap} springer op af bølgerne.",
+            "En {gap} skriger over sandet.",
+            "En {gap} sejler væk med vinden."
+          ],
+          "fits": [
+            [
+              "dolphin",
+              "whale"
+            ],
+            [
+              "seagull"
+            ],
+            [
+              "sailboat",
+              "boat",
+              "ship"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "beach",
+              "noun": "dolphin"
+            },
+            {
+              "theme": "beach",
+              "noun": "seagull"
+            },
+            {
+              "theme": "beach",
+              "noun": "sailboat"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        },
+        {
+          "id": "skoven-nat",
+          "nouns": [
+            "owl",
+            "fox",
+            "bear"
+          ],
+          "forms": [
+            "sg",
+            "sg",
+            "sg"
+          ],
+          "text": [
+            "En {gap} sidder i egetræet og tuder.",
+            "En {gap} med rød pels lister forbi.",
+            "En {gap} sover hele vinteren i sin hule."
+          ],
+          "fits": [
+            [
+              "owl"
+            ],
+            [
+              "fox"
+            ],
+            [
+              "bear"
+            ]
+          ],
+          "pics": [
+            {
+              "theme": "forest creatures",
+              "noun": "owl"
+            },
+            {
+              "theme": "forest creatures",
+              "noun": "fox"
+            },
+            {
+              "theme": "forest creatures",
+              "noun": "bear"
+            }
+          ],
+          "picOpened": true,
+          "signedExclusive": true
+        }
+      ],
+      "strings": {
+        "base": {
+          "title": "Indsæt det rigtige ord",
+          "instruction": "Se på billedet. Find det ord i ordkassen, der passer i sætningen, og skriv det i feltet."
+        },
+        "letters": {
+          "title": "Indsæt det rigtige ord i bogstavfelter",
+          "instruction": "Se på billedet. Skriv det ord, der mangler, i felterne: et bogstav i hvert felt."
+        },
+        "choice": {
+          "title": "Indsæt det rigtige ord: vælg mellem to ord",
+          "instruction": "Se på billedet, og læs sætningen. Sæt ring om det ord, der passer, og skriv det i feltet."
+        },
+        "story": {
+          "title": "Indsæt de ord, der mangler i historien",
+          "instruction": "Læs hele historien. De tre billeder viser de ord, der mangler. Skriv hvert ord fra ordkassen i sit felt."
+        },
+        "match": {
+          "title": "Sæt sætningen sammen med billedet",
+          "instruction": "Læs hver sætning. Hvilket billede passer i det tomme felt? Tegn en streg fra sætningen til billedet."
+        }
+      },
+      "refuse": {
+        "plural": true
+      }
+    },
+    "odd-and-even": {
+      "chips": {
+        "odd": "ulige",
+        "even": "lige"
+      },
+      "houseOrder": [
+        "even",
+        "odd"
+      ],
+      "rule": "Lige tal ender på 0, 2, 4, 6 eller 8. Ulige tal ender på 1, 3, 5, 7 eller 9.",
+      "leftover": "tilovers",
+      "pairs": "par",
+      "placeHeads": [
+        "T",
+        "E"
+      ],
+      "nameMaxGraphemes": 6,
+      "strings": {
+        "base": {
+          "title": "Lige og ulige tal: det lige hus og det ulige hus",
+          "instruction": "Skriv hvert tal i det hus, hvor det hører til. Tre tal er allerede flyttet ind og viser deres par."
+        },
+        "proof": {
+          "title": "Lige eller ulige? Skriv tallet som to ens dele",
+          "instruction": "Sæt ring om prikkerne to og to. Skriv så tallet som to ens dele, og skriv i det lille felt, hvad der er tilovers."
+        },
+        "share": {
+          "title": "Kan to venner dele ligeligt?",
+          "instruction": "Del billederne mellem de to venner, én ad gangen. Skriv hvor mange hver får, og hvad der er tilovers. Sæt ring om lige eller ulige."
+        },
+        "ones": {
+          "title": "Lige og ulige tal op til 100: se på enerfeltet",
+          "instruction": "Læs reglen øverst. Se kun på enerfeltet i hvert tal, og sæt et kryds i cirklen under lige eller ulige."
+        },
+        "sums": {
+          "title": "Lige eller ulige sum? Afgør uden at regne",
+          "instruction": "Du skal ikke lægge sammen. Se på det understregede ciffer på enerpladsen, brug tabellen, og sæt kryds ved lige eller ulige."
+        },
+        "count": {
+          "title": "Lige eller ulige? Tæl billederne to og to",
+          "instruction": "Tæl billederne, og sæt ring om dem to og to. Skriv hvor mange par du har lavet, og sæt så ring om lige eller ulige."
+        }
+      },
+      "refuse": {},
+      "strand": "Tal og algebra (Fælles Mål)"
+    },
+    "pronouns": {
+      "people": [
+        {
+          "key": "architect",
+          "pic": {
+            "theme": "occupations",
+            "noun": "architect"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "author",
+          "pic": {
+            "theme": "occupations",
+            "noun": "author"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "barber",
+          "pic": {
+            "theme": "occupations",
+            "noun": "barber"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "baker",
+          "pic": {
+            "theme": "occupations",
+            "noun": "baker"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "detective",
+          "pic": {
+            "theme": "occupations",
+            "noun": "detective"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "doctor",
+          "pic": {
+            "theme": "occupations",
+            "noun": "doctor"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "judge",
+          "pic": {
+            "theme": "occupations",
+            "noun": "judge"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "musician",
+          "pic": {
+            "theme": "occupations",
+            "noun": "musician"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "pharmacist",
+          "pic": {
+            "theme": "occupations",
+            "noun": "pharmacist"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "photographer",
+          "pic": {
+            "theme": "occupations",
+            "noun": "photographer"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "singer",
+          "pic": {
+            "theme": "occupations",
+            "noun": "singer"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "police_officer",
+          "pic": {
+            "theme": "occupations",
+            "noun": "police_officer"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "coach",
+          "pic": {
+            "theme": "occupations",
+            "noun": "coach"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "farmer",
+          "pic": {
+            "theme": "occupations",
+            "noun": "farmer"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "janitor",
+          "pic": {
+            "theme": "occupations",
+            "noun": "janitor"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "student",
+          "pic": {
+            "theme": "classroom",
+            "noun": "student"
+          },
+          "depicted": "m",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "carpenter",
+          "pic": {
+            "theme": "occupations",
+            "noun": "carpenter"
+          },
+          "depicted": "m",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "chef",
+          "pic": {
+            "theme": "occupations",
+            "noun": "chef"
+          },
+          "depicted": "m",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "gardener",
+          "pic": {
+            "theme": "occupations",
+            "noun": "gardener"
+          },
+          "depicted": "m",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "construction_worker",
+          "pic": {
+            "theme": "occupations",
+            "noun": "construction_worker"
+          },
+          "depicted": "m",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "librarian",
+          "pic": {
+            "theme": "occupations",
+            "noun": "librarian"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "teacher",
+          "pic": {
+            "theme": "occupations",
+            "noun": "teacher"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "waitress",
+          "pic": {
+            "theme": "occupations",
+            "noun": "waitress"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "flight_attendant",
+          "pic": {
+            "theme": "occupations",
+            "noun": "flight_attendant"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "mail_carrier_2",
+          "pic": {
+            "theme": "occupations",
+            "noun": "mail_carrier_2"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "athlete",
+          "pic": {
+            "theme": "occupations",
+            "noun": "athlete"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "ballerina",
+          "pic": {
+            "theme": "occupations",
+            "noun": "ballerina"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "girl",
+          "pic": {
+            "theme": "toys",
+            "noun": "girl"
+          },
+          "depicted": "f",
+          "minPx": 44,
+          "picOpened": true
+        },
+        {
+          "key": "cashier",
+          "pic": {
+            "theme": "occupations",
+            "noun": "cashier"
+          },
+          "depicted": "f",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "florist",
+          "pic": {
+            "theme": "occupations",
+            "noun": "florist"
+          },
+          "depicted": "f",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "nurse",
+          "pic": {
+            "theme": "occupations",
+            "noun": "nurse"
+          },
+          "depicted": "f",
+          "minPx": 56,
+          "picOpened": true
+        },
+        {
+          "key": "tailor",
+          "pic": {
+            "theme": "occupations",
+            "noun": "tailor"
+          },
+          "depicted": "f",
+          "minPx": 56,
+          "picOpened": true
+        }
+      ],
+      "names": [
+        {
+          "name": "Ida",
+          "gender": "f"
+        },
+        {
+          "name": "Emil",
+          "gender": "m"
+        },
+        {
+          "name": "Freja",
+          "gender": "f"
+        },
+        {
+          "name": "Oscar",
+          "gender": "m"
+        },
+        {
+          "name": "Alma",
+          "gender": "f"
+        },
+        {
+          "name": "Noah",
+          "gender": "m"
+        },
+        {
+          "name": "Clara",
+          "gender": "f"
+        },
+        {
+          "name": "Victor",
+          "gender": "m"
+        },
+        {
+          "name": "Ella",
+          "gender": "f"
+        },
+        {
+          "name": "Alfred",
+          "gender": "m"
+        },
+        {
+          "name": "Sofia",
+          "gender": "f"
+        },
+        {
+          "name": "Malthe",
+          "gender": "m"
+        }
+      ],
+      "and": "og",
+      "andBefore": null,
+      "chips": [
+        "han",
+        "hun",
+        "de"
+      ],
+      "initial": [
+        "Han",
+        "Hun",
+        "De"
+      ],
+      "map": {
+        "base": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        },
+        "replace": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        },
+        "anaphora": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        },
+        "sort": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        },
+        "rewrite": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        }
+      },
+      "objectMap": null,
+      "objects": [],
+      "frames": [
+        {
+          "id": "cykel",
+          "sg": "{subj} kører på sin cykel.",
+          "pl": "{subj} kører på deres cykler."
+        },
+        {
+          "id": "hund",
+          "sg": "{subj} fodrer sin hund.",
+          "pl": "{subj} fodrer deres hund."
+        },
+        {
+          "id": "bog",
+          "sg": "{subj} læser sin bog.",
+          "pl": "{subj} læser deres bøger."
+        },
+        {
+          "id": "kat",
+          "sg": "{subj} tegner sin kat.",
+          "pl": "{subj} tegner deres kat."
+        },
+        {
+          "id": "madpakke",
+          "sg": "{subj} spiser sin madpakke.",
+          "pl": "{subj} spiser deres madpakker."
+        },
+        {
+          "id": "taarn",
+          "sg": "{subj} bygger sit tårn.",
+          "pl": "{subj} bygger deres tårn."
+        },
+        {
+          "id": "drage",
+          "sg": "{subj} flyver med sin drage.",
+          "pl": "{subj} flyver med deres drager."
+        },
+        {
+          "id": "bold",
+          "sg": "{subj} leger med sin bold.",
+          "pl": "{subj} leger med deres bolde."
+        },
+        {
+          "id": "hue",
+          "sg": "{subj} har sin hue på.",
+          "pl": "{subj} har deres huer på."
+        },
+        {
+          "id": "synge",
+          "sg": "{subj} er glad for at synge.",
+          "pl": "{subj} er glade for at synge."
+        },
+        {
+          "id": "loebe",
+          "sg": "{subj} er hurtig til at løbe.",
+          "pl": "{subj} er hurtige til at løbe."
+        },
+        {
+          "id": "sulten",
+          "sg": "{subj} er sulten efter turen.",
+          "pl": "{subj} er sultne efter turen."
+        }
+      ],
+      "anaphora": [
+        {
+          "id": "parken",
+          "intro": "{a} og {b} er i parken.",
+          "s": [
+            {
+              "text": "{P} har en bold.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} har en drage.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "skolen",
+          "intro": "{a} og {b} er i skolen.",
+          "s": [
+            {
+              "text": "{P} læser en bog.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} tegner et hus.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "hjemme",
+          "intro": "{a} og {b} er hjemme.",
+          "s": [
+            {
+              "text": "{P} spiser et æble.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} drikker mælk.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "stranden",
+          "intro": "{a} og {b} er på stranden.",
+          "s": [
+            {
+              "text": "{P} har en spand.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} har en musling.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "haven",
+          "intro": "{a} og {b} er i haven.",
+          "s": [
+            {
+              "text": "{P} plukker en blomst.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} vander et træ.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "koekkenet",
+          "intro": "{a} og {b} er i køkkenet.",
+          "s": [
+            {
+              "text": "{P} bager en kage.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} skærer et æble ud.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "bussen",
+          "intro": "{a} og {b} sidder i bussen.",
+          "s": [
+            {
+              "text": "{P} har en rød taske.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} har en blå taske.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        },
+        {
+          "id": "zoo",
+          "intro": "{a} og {b} er i dyreparken.",
+          "s": [
+            {
+              "text": "{P} ser en løve.",
+              "key": "sg"
+            },
+            {
+              "text": "{P} ser en abe.",
+              "key": "sg"
+            }
+          ],
+          "contentNeutral": true
+        }
+      ],
+      "possessive": {
+        "chips": [
+          "hans",
+          "hendes",
+          "deres"
+        ],
+        "chipW": 84,
+        "byOwner": {
+          "m1": 0,
+          "f1": 1,
+          "mp": 2,
+          "fp": 2,
+          "xp": 2
+        },
+        "frame": {
+          "sg": "Her er {subj}. Det er ___ {thing}.",
+          "pl": "Se {subj}. Det er ___ {thing}."
+        },
+        "artTable": null,
+        "things": [
+          {
+            "key": "ball",
+            "pic": {
+              "theme": "toys",
+              "noun": "ball"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "kite",
+            "pic": {
+              "theme": "toys",
+              "noun": "kite"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "doll",
+            "pic": {
+              "theme": "toys",
+              "noun": "doll"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "robot",
+            "pic": {
+              "theme": "toys",
+              "noun": "robot"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "car",
+            "pic": {
+              "theme": "toys",
+              "noun": "car"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "drum",
+            "pic": {
+              "theme": "music",
+              "noun": "drum"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "book",
+            "pic": {
+              "theme": "classroom",
+              "noun": "book"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "hat",
+            "pic": {
+              "theme": "accessories",
+              "noun": "hat"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "train",
+            "pic": {
+              "theme": "toys",
+              "noun": "train"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "tent",
+            "pic": {
+              "theme": "camping",
+              "noun": "tent"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "apple",
+            "pic": {
+              "theme": "fruits",
+              "noun": "apple"
+            },
+            "forms": null,
+            "picOpened": true
+          },
+          {
+            "key": "house",
+            "pic": {
+              "theme": "miscellaneous",
+              "noun": "house"
+            },
+            "forms": null,
+            "picOpened": true
+          }
+        ]
+      },
+      "refuse": {
+        "possessive": false
+      },
+      "strings": {
+        "base": {
+          "title": "Personlige stedord",
+          "instruction": "Se på personen, og læs navnet. Sæt ring om det ord, vi siger i stedet for navnet."
+        },
+        "replace": {
+          "title": "Sæt et stedord i stedet for navnet",
+          "instruction": "Læs sætningen. Skriv det ord fra ordkassen, der erstatter navnet i den anden sætning.",
+          "bankWord": "ordkassen"
+        },
+        "anaphora": {
+          "title": "Hvem menes der? Stedord i sætninger",
+          "instruction": "Læs sætningerne. Tegn en streg fra hvert ord i en kasse til det navn, det står for."
+        },
+        "possessive": {
+          "title": "Ejestedord: hans, hendes eller deres",
+          "instruction": "Se hvem tingen tilhører. Sæt ring om det ord, der viser, at den hører til den person."
+        },
+        "sort": {
+          "title": "Sortér navnene: han, hun eller de",
+          "instruction": "Læs hvert navnekort. Skriv navnet under det ord, vi bruger om den person."
+        },
+        "rewrite": {
+          "title": "Skriv sætningen om med et stedord",
+          "instruction": "Læs sætningen. Skriv den igen på linjerne, men brug et stedord i stedet for navnet."
+        }
+      }
+    },
+    "question-words": {
+      "qwords": {
+        "who": "Hvem",
+        "what": "Hvad",
+        "where": "Hvor",
+        "when": "Hvornår",
+        "howmany": "Hvor mange"
+      },
+      "starters": [
+        "Hvem",
+        "Hvad",
+        "Hvor",
+        "Hvornår",
+        "Hvorfor",
+        "Hvordan"
+      ],
+      "bins": {
+        "who": "Hvem?",
+        "what": "Hvad?",
+        "where": "Hvor?"
+      },
+      "qPrefix": "",
+      "sortThingForm": "bare",
+      "genderFilter": {},
+      "excludeThings": [],
+      "chipWidths": {
+        "Hvem": 79.5,
+        "Hvad": 74,
+        "Hvor": 71.5,
+        "Hvornår": 101.6,
+        "Hvor mange": 136.5
+      },
+      "bankWidths": {
+        "Hvem": 49.3,
+        "Hvad": 44.5,
+        "Hvor": 41.5,
+        "Hvornår": 69.6,
+        "Hvor mange": 104.2
+      },
+      "frames": [
+        {
+          "id": "see-thing",
+          "kind": "thing",
+          "text": "{name} ser {thing}.",
+          "q": {
+            "who": "Hvem ser {thing}?",
+            "what": "Hvad ser {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "draw-thing",
+          "kind": "thing",
+          "text": "{name} tegner {thing}.",
+          "q": {
+            "who": "Hvem tegner {thing}?",
+            "what": "Hvad tegner {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "like-thing",
+          "kind": "thing",
+          "text": "{name} kan lide {thing}.",
+          "q": {
+            "who": "Hvem kan lide {thing}?",
+            "what": "Hvad kan {name} lide?"
+          },
+          "signed": true
+        },
+        {
+          "id": "be-place",
+          "kind": "place",
+          "text": "{name} er {place}.",
+          "q": {
+            "who": "Hvem er {place}?",
+            "where": "Hvor er {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "play-place",
+          "kind": "place",
+          "text": "{name} leger {place}.",
+          "q": {
+            "who": "Hvem leger {place}?",
+            "where": "Hvor leger {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "read-place",
+          "kind": "place",
+          "text": "{name} læser {place}.",
+          "q": {
+            "who": "Hvem læser {place}?",
+            "where": "Hvor læser {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "play-time",
+          "kind": "time",
+          "text": "{name} leger {time}.",
+          "q": {
+            "who": "Hvem leger {time}?",
+            "when": "Hvornår leger {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "eat-time",
+          "kind": "time",
+          "text": "{name} spiser {time}.",
+          "q": {
+            "who": "Hvem spiser {time}?",
+            "when": "Hvornår spiser {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "sleep-time",
+          "kind": "time",
+          "text": "{name} sover {time}.",
+          "q": {
+            "who": "Hvem sover {time}?",
+            "when": "Hvornår sover {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "see-count",
+          "kind": "count",
+          "text": "{name} ser {n} {pl}.",
+          "q": {
+            "who": "Hvem ser {n} {pl}?",
+            "howmany": "Hvor mange {pl} ser {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "draw-count",
+          "kind": "count",
+          "text": "{name} tegner {n} {pl}.",
+          "q": {
+            "who": "Hvem tegner {n} {pl}?",
+            "howmany": "Hvor mange {pl} tegner {name}?"
+          },
+          "signed": true
+        },
+        {
+          "id": "find-count",
+          "kind": "count",
+          "text": "{name} finder {n} {pl}.",
+          "q": {
+            "who": "Hvem finder {n} {pl}?",
+            "howmany": "Hvor mange {pl} finder {name}?"
+          },
+          "signed": true
+        }
+      ],
+      "places": [
+        {
+          "key": "house",
+          "pic": {
+            "theme": "miscellaneous",
+            "noun": "house"
+          },
+          "text": "hjemme",
+          "picOpened": true
+        },
+        {
+          "key": "garden",
+          "pic": {
+            "theme": "spring",
+            "noun": "garden"
+          },
+          "text": "i haven",
+          "picOpened": true
+        },
+        {
+          "key": "beach",
+          "pic": {
+            "theme": "summer",
+            "noun": "beach"
+          },
+          "text": "på stranden",
+          "picOpened": true
+        },
+        {
+          "key": "tent",
+          "pic": {
+            "theme": "camping",
+            "noun": "tent"
+          },
+          "text": "i teltet",
+          "picOpened": true
+        },
+        {
+          "key": "forest",
+          "pic": {
+            "theme": "camping",
+            "noun": "forest"
+          },
+          "text": "i skoven",
+          "picOpened": true
+        },
+        {
+          "key": "lake",
+          "pic": {
+            "theme": "camping",
+            "noun": "lake"
+          },
+          "text": "ved søen",
+          "picOpened": true
+        },
+        {
+          "key": "river",
+          "pic": {
+            "theme": "camping",
+            "noun": "river"
+          },
+          "text": "ved åen",
+          "picOpened": true
+        },
+        {
+          "key": "mountain",
+          "pic": {
+            "theme": "camping",
+            "noun": "mountain"
+          },
+          "text": "på bjerget",
+          "picOpened": true
+        },
+        {
+          "key": "pool",
+          "pic": {
+            "theme": "summer",
+            "noun": "pool"
+          },
+          "text": "i poolen",
+          "picOpened": true
+        },
+        {
+          "key": "kitchen",
+          "pic": {
+            "theme": "around the house",
+            "noun": "kitchen"
+          },
+          "text": "i køkkenet",
+          "picOpened": true
+        },
+        {
+          "key": "garage",
+          "pic": {
+            "theme": "around the house",
+            "noun": "garage"
+          },
+          "text": "i garagen",
+          "picOpened": true
+        },
+        {
+          "key": "bed",
+          "pic": {
+            "theme": "around the house",
+            "noun": "bed"
+          },
+          "text": "i sengen",
+          "picOpened": true
+        },
+        {
+          "key": "sofa",
+          "pic": {
+            "theme": "around the house",
+            "noun": "sofa"
+          },
+          "text": "i sofaen",
+          "picOpened": true
+        },
+        {
+          "key": "playground",
+          "pic": {
+            "theme": "activities",
+            "noun": "playground"
+          },
+          "text": "på legepladsen",
+          "picOpened": true
+        },
+        {
+          "key": "cabin",
+          "pic": {
+            "theme": "camping",
+            "noun": "cabin"
+          },
+          "text": "i hytten",
+          "picOpened": true
+        }
+      ],
+      "twins": [
+        [
+          "lake",
+          "river"
+        ],
+        [
+          "house",
+          "cabin"
+        ]
+      ],
+      "times": [
+        {
+          "text": "klokken otte",
+          "h": 8
+        },
+        {
+          "text": "klokken tre",
+          "h": 3
+        },
+        {
+          "text": "klokken seks",
+          "h": 6
+        },
+        {
+          "text": "klokken ni",
+          "h": 9
+        },
+        {
+          "text": "klokken to",
+          "h": 2
+        },
+        {
+          "text": "klokken syv",
+          "h": 7
+        }
+      ],
+      "thingThemes": [
+        "animals",
+        "fruits",
+        "vehicles",
+        "toys",
+        "zoo animals",
+        "farm animals"
+      ],
+      "numbers": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "faces": {
+        "base": {
+          "kinds": [
+            "who",
+            "what",
+            "where"
+          ]
+        },
+        "match": {
+          "kinds": [
+            "who",
+            "what",
+            "where",
+            "when",
+            "howmany"
+          ]
+        },
+        "fill": {
+          "kinds": [
+            "who",
+            "what",
+            "where",
+            "when",
+            "howmany"
+          ]
+        },
+        "sort": {
+          "kinds": [
+            "who",
+            "what",
+            "where"
+          ]
+        },
+        "write": {
+          "kinds": [
+            "who",
+            "what",
+            "where",
+            "when",
+            "howmany"
+          ]
+        },
+        "ask": {
+          "kinds": [
+            "who",
+            "what",
+            "where",
+            "when",
+            "why",
+            "how"
+          ]
+        }
+      },
+      "strings": {
+        "base": {
+          "title": "Hv-ord: hvem, hvad, hvor",
+          "instruction": "Læs sætningen. Se på de markerede ord. Sæt ring om det hv-ord, der spørger efter dem."
+        },
+        "match": {
+          "title": "Match spørgsmålet med svaret",
+          "instruction": "Læs hvert spørgsmål til venstre. Tegn en streg til det svar til højre, der passer til det."
+        },
+        "fill": {
+          "title": "Skriv hv-ordet i sætningen",
+          "instruction": "Læs svaret, og find de markerede ord. Skriv hv-ordet fra ordkassen i feltet.",
+          "bankWord": "ordkassen",
+          "boxWord": "feltet"
+        },
+        "sort": {
+          "title": "Sortér svarene: hvem, hvad eller hvor",
+          "instruction": "Læs hvert ordkort. Skriv det i kassen under det spørgsmål, det svarer på: hvem, hvad eller hvor."
+        },
+        "write": {
+          "title": "Stil et spørgsmål",
+          "instruction": "Læs svaret. Se på de markerede ord. Skriv det spørgsmål, der spørger efter dem, på linjen."
+        },
+        "ask": {
+          "title": "Spørg om billedet: hvorfor og hvordan",
+          "instruction": "Se på billedet. Gør hvert spørgsmål færdigt. Start med det ord, der allerede står på linjen.",
+          "pictureWord": "billedet"
+        }
+      }
+    },
+    "rounding": {
+      "up": {
+        "10": "rund op",
+        "100": "rund op"
+      },
+      "down": {
+        "10": "rund ned",
+        "100": "rund ned"
+      },
+      "heads": {
+        "10": "tier",
+        "100": "hundrede"
+      },
+      "relation": "approx",
+      "strings": {
+        "base": {
+          "title": "Afrunding til nærmeste 10",
+          "instruction": "Rund hvert tal af til nærmeste tier, og skriv det i feltet. Er enercifret 5 eller mere, runder du op."
+        },
+        "sort": {
+          "title": "Rund op eller ned? Sortér tallene",
+          "instruction": "Runder hvert tal op eller ned til nærmeste tier? Skriv tallet i den rigtige kasse."
+        },
+        "hundred": {
+          "title": "Afrunding til nærmeste 100",
+          "instruction": "Rund hvert tal af til nærmeste hundrede, og skriv det i feltet. Se på cifret på tierpladsen."
+        },
+        "estimate": {
+          "title": "Rund af først, lav så et overslag over summen",
+          "instruction": "Rund begge tal af til nærmeste tier, og skriv dem i felterne. Læg så de afrundede tal sammen."
+        },
+        "inverse": {
+          "title": "Hvilke tal bliver til 50?",
+          "instruction": "Sæt ring om hvert tal, der bliver til tieren øverst. Se på cifret på enerpladsen."
+        },
+        "both": {
+          "title": "Afrunding til nærmeste tier og hundrede",
+          "instruction": "Rund hvert tal af to gange: til nærmeste tier i det første felt og til nærmeste hundrede i det andet."
+        }
+      },
+      "refuse": [],
+      "strand": "Tal og algebra (Fælles Mål)"
+    }
+  },
+  "enAudit": [
+    "GLOBALT BILLEDFUND (alle elleve sprog): hver eneste duck-fil i biblioteket er en gul ælling, ikke en voksen and. Jeg åbnede alle fire (Things That Fly/duck, animals/duck, birds 2/duck, farm animals/duckling), og de er samme motiv. G1-350's engelske flertalsramme ducks-pond trykker derfor ordet \"ducks\" over et billede af ællinger, og fits:['duck','duckling'] gør begge ord rigtige for det samme billede: siden har to rigtige svar. Det samme gælder de engelske foils, der hedder duck.",
+    "G1-352 frames: designet kræver sg !== pl og lægger tallet i VERBET (reads / read). Dansk, svensk og norsk bøjer ikke verbet i tal, så reglen kan slet ikke opfyldes med et rent verbeskift; §4-rækkerne for da/sv/no nævner det ikke. Jeg har løst det med to ægte danske talmarkører (sin/sit over for deres, og prædikativt adjektiv glad/glade), men det er en designmangel, der også rammer sv og no.",
+    "K-353 K-359: den engelske titel tæller \"squares\", og det holder på engelsk. Men designet siger ikke, at tælleordet skal være det EKSKLUSIVE ord for kvadrat: på dansk er hverdagsordet \"firkant\", og parallelogram-brikken er også en firkant, så \"tæl firkanterne\" ville give to rigtige svar. Jeg bruger \"kvadrater\". Den samme fælde findes i mindst no (firkant) og nl (vierhoek/vierkant).",
+    "K-365: den engelske titel \"How Warm Is It? Cold, Warm or Hot\" opremser tre båndord, som d2-siden aldrig trykker (siden er ordløs bortset fra rammen), og bandWords er selv markeret \"landing prose only, never printed\". Panelbriefen bruger netop denne titel som eksempel på en titel, der opremser det, siden viser.",
+    "K-354 factLabels.hair: \"How much hair?\" er det eneste af de atten mærkater, der ikke kan besvares med et tal, mens F1 netop er en talopgave med et talfelt. Dansk arver problemet ordret (\"Hvor meget hår?\").",
+    "K-357 / K-366: instruktionen siger \"Each thing is empty or finished\", men den globale bank indeholder gulerod, majs, æble, pære, tomat og brød. De er hverken tomme eller brugt op, så sætningen dækker ikke madaffaldet på siden.",
+    "K-357: den engelske bank kalder beholderen \"bin\" og legetøjsspanden \"bucket\". På dansk er begge dele en \"spand\", og designet advarer ikke om, at et sprog med ét ord for begge ting får et tvetydigt spørgsmål. Jeg har taget bucket ud af den danske bank.",
+    "G1-350 sailboat-lake: fits er ['sailboat','boat','ship','yacht'], men \"The {gap} sails across the lake\" er kun eksklusiv for en sejlbåd, hvis man læser billedet. Eksklusiviteten hviler på billedet, ikke på prædikatet, og det er præcis det, reglen om fits skal forhindre.",
+    "G1-353: basistitlen \"Question Words: Who, What, Where\" nævner tre hv-ord, mens match, fill og write alle viser fem. En lærer, der bedømmer familien på basistitlen, ser ikke, at When og How many også er med.",
+    "G2-346 inverse: titlen \"Which Numbers Round to 50?\" binder tallet 50, mens instruktionen siger \"the ten shown at the top\" uden at gentage tallet. Hvis målet flytter sig i en senere wave, passer titlen ikke længere til siden.",
+    "K-355 G1-360: \"Sense Organs: Write the Sense Word\" er den eneste af de seks titler, der ikke gentager familiehovedet \"Five Senses\". Det koster familiegenkendelsen i søgeresultatet - selvom det omvendt er den rigtige beslutning for SEO, fordi organhovedet er en selvstændig søgning.",
+    "K-356 G1-362 og G1-363: de to engelske titler (\"Write the Weather Word\", \"Read the Weekly Forecast\") dropper hovedet \"Weather Symbols\", mens K-364 og K-365 også gør det. Fem af seks titler i familien deler dermed intet hoved, og familien hænger kun sammen via taksonomien, ikke via titlerne.",
+    "K-355 / G1-370 (og enhver themed wave): fruits-temaet indeholder både apple og plum, og plum-filen er et RØDT ÆBLE (åbnet; it-panelet fandt det samme). På G1-370 ved seed 1 står de som to næsten ens rækker af røde æbleformer lige over hinanden. Det er ikke forkert i en tælleopgave, men det er en variationsfejl, der rammer alle elleve sprog, og den globale THING_TWINS-liste bruges kun af question-words, ikke af de temafanede flader."
+  ]
+}

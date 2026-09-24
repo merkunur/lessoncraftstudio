@@ -168,7 +168,7 @@
     },
     "G2-386": {
       "title": "Skriv ord med sammenhængende skrift til billederne",
-      "instruction": "Skriv oven i hvert gråt ord, skriv det så selv på linjen nedenfor, og sæt prikker og streger til sidst."
+      "instruction": "Skriv oven i hvert gråt ord ved først at binde bogstaverne sammen og til sidst sætte prikker og streger, og skriv ordet ens på linjen nedenfor."
     },
     "G2-387": {
       "title": "Læs sammenhængende skrift: find billedet til ordet",

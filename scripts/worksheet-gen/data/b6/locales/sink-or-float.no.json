@@ -151,16 +151,20 @@
       "instruction": "Fargelegg ringen der hver leirform havner, sett ring rundt det som flyter, og tegn så din egen leirbåt i det store vannkaret."
     },
     "G2-383": {
-      "title": "Hvorfor flyter ting? Sant eller usant etter forsøket",
+      "title": "Hvorfor flyter ting? Sant eller usant om å flyte og synke",
       "instruction": "Les hver setning, og sett ring rundt sant eller usant."
     },
     "K-384": {
-      "title": "Hva flyter, hva synker? Tegn forsøket",
+      "title": "Tegn ting som flyter og synker: en tegneoppgave om vann",
       "instruction": "Tegn to ting som flyter, i de stiplede rutene på vannet, og to som synker, i de stiplede rutene på bunnen."
     },
     "G3-400": {
       "title": "Mitt forsøk: flyter appelsinen?",
       "instruction": "Velg et spørsmål, skriv hva du tror, test det, og tegn hva som skjedde og skriv hva du lærte."
     }
+  },
+  "shapeHeads": {
+    "clay": "Samme leire, forskjellige former",
+    "steel": "Samme stål, forskjellige former: sett ring rundt den som flyter"
   }
 }

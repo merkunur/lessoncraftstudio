@@ -1,8 +1,8 @@
 {
   "strings": {
     "base": {
-      "title": "Hygiejne og gode vaner: hvad skal barnet bruge?",
-      "instruction": "Tegn en streg fra hvert barn til den ting, barnet skal bruge."
+      "title": "Hygiejne og gode vaner: hvad bruger hvert barn?",
+      "instruction": "Tegn en streg fra hvert barn til den ting, barnet bruger."
     },
     "hand-washing-steps": {
       "title": "Vaske hænder: sådan gør du",
@@ -10,10 +10,10 @@
     },
     "brushing-teeth": {
       "title": "Børste tænder: før, under og efter",
-      "instruction": "Sæt ring om det ord, der fortæller, hvornår det sker: før, under eller efter tandbørstningen."
+      "instruction": "Se på hvert billede, og sæt ring om før, under eller efter tandbørstningen."
     },
     "stop-the-germs": {
-      "title": "Host og nys i ærmet: stop bakterierne",
+      "title": "Stop bakterierne: hvad holder dem væk?",
       "instruction": "Sæt ring om det billede i hver række, der stopper bakterierne i at sprede sig."
     },
     "why-habits": {
@@ -33,7 +33,7 @@
   "labels": {
     "wash-hands": "vaske hænder",
     "brush-teeth": "børste tænder",
-    "sleep": "sove",
+    "sleep": "gå tidligt i seng",
     "move-body": "bevæge sig",
     "drink-water": "drikke vand",
     "sun-protect": "passe på i solen",

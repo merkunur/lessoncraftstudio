@@ -208,9 +208,18 @@
     ]
   },
   "needs": {
-    "line": "Todo animal precisa de comida, água e um lugar para morar.",
+    "line": "Todo animal precisa de comida e de um lugar para morar.",
     "foodHead": "Comida",
-    "homeHead": "Moradia"
+    "homeHead": "Moradia",
+    "undrawn": [
+      "água",
+      "beber",
+      "bebida",
+      "ar",
+      "sol",
+      "luz",
+      "luz do sol"
+    ]
   },
   "report": {
     "animals": "Animais que vivem aqui",
@@ -241,11 +250,11 @@
     },
     "G1-406": {
       "title": "Habitat dos animais: qual não vive aqui?",
-      "instruction": "Em cada fileira, risque o animal que não vive naquele habitat."
+      "instruction": "Em cada habitat, risque o animal que não vive ali."
     },
     "G2-380": {
       "title": "Adaptação dos animais ao ambiente",
-      "instruction": "Escreva no quadrinho a letra do animal de que cada frase fala."
+      "instruction": "Escreva no quadrinho de cada frase a letra do animal de que ela fala; um animal vai sobrar."
     },
     "G1-407": {
       "title": "Do que os animais precisam para viver?",
@@ -253,7 +262,7 @@
     },
     "G2-381": {
       "title": "Meu relatório sobre um habitat",
-      "instruction": "Desenhe três animais que vivem neste habitat, escreva o nome deles e de uma planta que cresce ali e circule a palavra certa de cada par."
+      "instruction": "Na imagem, desenhe três animais que vivem ali, escreva o nome deles e o de uma planta que cresce ali e circule a palavra que combina com esse habitat."
     }
   }
 }

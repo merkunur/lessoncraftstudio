@@ -1,0 +1,3736 @@
+{
+ "locale": "sv",
+ "types": {
+  "K-368": {
+   "title": "Geometriska former: vad heter formen?",
+   "instruction": "Titta på varje form, också de vridna och de smala, och ringa in formens namn."
+  },
+  "G1-381": {
+   "title": "Geometriska former: är det rätt form?",
+   "instruction": "Läs namnet i varje rad och ringa in alla former som verkligen är en sådan form."
+  },
+  "K-371": {
+   "title": "Geometriska former runt omkring oss",
+   "instruction": "Titta på varje bild och färglägg den form som saken har: cirkel eller rektangel."
+  },
+  "G1-382": {
+   "title": "Geometriska former: skriv namnen",
+   "instruction": "Titta på varje form och skriv dess namn på raden, namnen står i rutan."
+  },
+  "G1-383": {
+   "title": "Gåtor om geometriska former",
+   "instruction": "Läs varje gåta och ringa in formens namn."
+  },
+  "K-372": {
+   "title": "Rita geometriska former med prickar",
+   "instruction": "Läs formens namn och dra streck mellan prickarna så att formen blir ritad, börja vid det tjocka strecket om det finns ett."
+  },
+  "K-369": {
+   "title": "Trafikregler för barn: vad visar trafikljuset?",
+   "instruction": "Titta på lampan som lyser och ringa in vad du ska göra."
+  },
+  "K-373": {
+   "title": "Trafikregler för barn: färglägg trafikljusen",
+   "instruction": "Hitta lampan med strålar i varje trafikljus och färglägg den i den färg som den lyser med."
+  },
+  "K-374": {
+   "title": "Gå säkert över gatan: steg för steg",
+   "instruction": "Skriv 1 till 4 i rutorna så att de visar hur du går säkert över gatan."
+  },
+  "G1-384": {
+   "title": "Trafikmärken för barn och vad de betyder",
+   "instruction": "Dra ett streck från varje trafikmärke till det som märket betyder."
+  },
+  "G2-360": {
+   "title": "Trafikmärken åk 2: varnings-, förbuds- och påbudsmärken",
+   "instruction": "Skriv bokstaven för varje trafikmärke i en ruta under rätt sorts märken."
+  },
+  "G2-361": {
+   "title": "Quiz om trafikmärken för lågstadiet",
+   "instruction": "Läs varje mening och ringa in det enda trafikmärke som passar."
+  },
+  "K-370": {
+   "title": "Familj och släkt: vem är vem?",
+   "instruction": "Hitta varje person i släktträdet och skriv personens siffra i rutan bredvid rätt familjeord."
+  },
+  "G1-385": {
+   "title": "Generationer i släkten: från äldst till yngst",
+   "instruction": "Skriv 1, 2 och 3 i rutorna i varje rad så att orden står från den äldsta generationen till den yngsta."
+  },
+  "K-375": {
+   "title": "Familjeord: spåra och skriv",
+   "instruction": "Hitta personen med samma siffra i trädet, spåra familjeordet och skriv det en gång till på raden."
+  },
+  "G1-386": {
+   "title": "Släktträd: läs ledtrådarna",
+   "instruction": "Läs ledtrådarna och skriv varje namn i rätt namnruta i släktträdet."
+  },
+  "G2-362": {
+   "title": "Släktgåtor: mormor, farfar, moster eller farbror?",
+   "instruction": "Läs varje gåta och skriv rätt familjeord från rutan på raden."
+  },
+  "G1-387": {
+   "title": "Släktträd: mall att fylla i själv",
+   "instruction": "Rita de människor som är viktiga för dig i ramarna och skriv deras namn på raderna."
+  },
+  "G1-376": {
+   "title": "Växtens delar",
+   "instruction": "Följ varje numrerad lapp till en del av växten och skriv delens namn från ordrutan på raden med samma siffra."
+  },
+  "K-376": {
+   "title": "Vad behöver en växt för att växa?",
+   "instruction": "Titta på vad växterna får och ringa in i varje rad den växt som får båda sakerna den behöver för att växa."
+  },
+  "G1-388": {
+   "title": "Från frö till växt",
+   "instruction": "Klipp ut de fyra bilderna och klistra in dem i de tomma rutorna i pilarnas riktning, börja vid fröet."
+  },
+  "G2-363": {
+   "title": "Vilka delar av växten äter vi?",
+   "instruction": "Titta på varje matvara och ringa in den del av växten som vi äter."
+  },
+  "G2-364": {
+   "title": "Växtens delar och vad de gör",
+   "instruction": "Läs vad varje del gör, hitta delen på växten och skriv numret på dess lapp i rutan."
+  },
+  "G3-392": {
+   "title": "Blommans delar",
+   "instruction": "Skriv namnet på varje numrerad del av blomman på dess rad och stryk det ord i ordrutan som inte är en del av en blomma."
+  },
+  "G1-377": {
+   "title": "Fjärilens livscykel: från ägg till fjäril",
+   "instruction": "Ägget är 1: skriv 2, 3 och 4 i rutorna i rätt ordning och i sista rutan numret på bilden som kommer efter fjärilen."
+  },
+  "G1-389": {
+   "title": "Grodans livscykel: klipp och klistra",
+   "instruction": "Klipp ut de fyra rutorna och klistra var och en på sitt näckrosblad, runt dammen från grodrommen till grodan."
+  },
+  "G2-365": {
+   "title": "Fjärilens livscykel: skriv namnen på stadierna",
+   "instruction": "Skriv de fyra stadiernas namn från ordrutan på raderna under bilderna och stryk det namn som inte hör dit."
+  },
+  "G2-366": {
+   "title": "Metamorfos: vilket djur blir det till slut?",
+   "instruction": "Titta på varje stadium och skriv dess bokstav i en ruta under det djur som det blir; några rutor förblir tomma."
+  },
+  "G3-393": {
+   "title": "Fjärilens och grodans livscykel: jämför",
+   "instruction": "Läs varje mening och kryssa för fjärilen, grodan eller båda när meningen stämmer för djuret."
+  },
+  "G1-390": {
+   "title": "Vad kommer sedan? Fjäril, groda och nyckelpiga",
+   "instruction": "Titta på den första bilden i varje rad och ringa in den bild som kommer direkt efter; efter det vuxna djuret börjar cykeln om."
+  },
+  "G1-378": {
+   "title": "Solen, Jorden och Månen",
+   "instruction": "Läs varje mening och kryssa för om den handlar om Solen, Jorden eller Månen."
+  },
+  "G1-391": {
+   "title": "Månens faser i rätt ordning",
+   "instruction": "Titta på kilen i varje rad, om månen växer eller krymper, och skriv 1 till 5 under månarna i den ordningen."
+  },
+  "G2-367": {
+   "title": "Månens faser: skriv namnen",
+   "instruction": "Titta på varje måne och skriv dess namn på raderna, varje ord i ordrutan används två gånger."
+  },
+  "G2-368": {
+   "title": "Varför blir det dag och natt?",
+   "instruction": "Titta var Solen är och ringa in dag eller natt i tabellen för varje numrerad nål."
+  },
+  "G3-394": {
+   "title": "Planeterna i ordning från Solen",
+   "instruction": "Skriv varje planets namn på dess rad, börja närmast Solen och använd varje namn i rutan en gång."
+  },
+  "G3-395": {
+   "title": "Jätteplaneter och stenplaneter",
+   "instruction": "Sortera namnen och skriv vart och ett i rätt ruta: jätteplanet, liten stenplanet eller inte en planet."
+  },
+  "G1-379": {
+   "title": "Kartkunskap: läs teckenförklaringen",
+   "instruction": "Titta på teckenförklaringen, hitta varje sak på kartan och skriv i rutan hur många det finns."
+  },
+  "K-377": {
+   "title": "Fågelperspektiv: från sidan och uppifrån",
+   "instruction": "Varje sak är ritad från sidan, så dra ett streck till samma sak sedd uppifrån."
+  },
+  "G2-369": {
+   "title": "Väderstreck: norr, öster, söder och väster",
+   "instruction": "Varje ros visar en bokstav och den orange spetsen pekar mot norr, så skriv de tre som saknas i de tomma rutorna."
+  },
+  "G2-370": {
+   "title": "Världsdelar: skriv namnen",
+   "instruction": "Skriv namnet på varje numrerad världsdel på dess rad och ta namnen från rutan."
+  },
+  "G3-396": {
+   "title": "Världsdelar och världshav",
+   "instruction": "Hitta varje världsdel och världshav på kartan och skriv dess siffra i rutan bredvid namnet."
+  },
+  "G2-371": {
+   "title": "Väderstreck på kartan",
+   "instruction": "Hitta den första bilden på kartan, titta åt det håll som ordet säger och ringa in den av de tre bilderna som ligger där."
+  },
+  "G2-358": {
+   "title": "Synonymer: ringa in ordet som betyder samma sak",
+   "instruction": "Läs det stora ordet på varje kort och ringa in det ord under som betyder samma sak."
+  },
+  "G1-395": {
+   "title": "Synonymer med bilder: två ord till en bild",
+   "instruction": "Titta på varje bild och ringa in de två ord under den som betyder samma sak och passar till bilden."
+  },
+  "G2-373": {
+   "title": "Synonympar: para ihop ord som betyder samma sak",
+   "instruction": "Dra ett streck från varje ord till vänster till det ord till höger som betyder samma sak."
+  },
+  "G1-396": {
+   "title": "Ordens styrka: från lite till mycket",
+   "instruction": "Läs de tre orden i varje rad och skriv 1, 2 och 3 i rutorna, från det svagaste ordet till det starkaste."
+  },
+  "G2-374": {
+   "title": "Synonymer till sa: välj ordet som passar",
+   "instruction": "Läs varje mening och skriv det ord från pratbubblan som passar bäst i rutan i stället för sa."
+  },
+  "G3-397": {
+   "title": "Synonymer till gå och titta: sortera orden",
+   "instruction": "Läs de tio orden och skriv varje ord i fältet gå eller i fältet titta, där det hör hemma."
+  },
+  "G2-359": {
+   "title": "Släktord: sortera orden efter ordstammen",
+   "instruction": "Läs varje ord överst och skriv det på en rad i den mur som står på ordets ordstam."
+  },
+  "G1-397": {
+   "title": "Släktord med bilder: ringa in rätt ord",
+   "instruction": "Säg vad varje bild föreställer och ringa in det enda ord ovanför som är byggt av bildens ord."
+  },
+  "G2-375": {
+   "title": "Hitta ordstammen",
+   "instruction": "Ringa in den del som de tre orden har gemensamt och skriv ordstammen i den tomma stenen."
+  },
+  "G2-376": {
+   "title": "Prefixen åter-, miss- och över-: välj efter betydelse",
+   "instruction": "Läs vad varje nytt ord betyder, hitta dess prefix i nyckeln och skriv det i den tomma biten."
+  },
+  "G3-398": {
+   "title": "Vem gör det? Skriv ordet för personen",
+   "instruction": "Titta på varje person, läs ordet bredvid och skriv ordet för personen i den streckade rutan."
+  },
+  "G3-399": {
+   "title": "Släktord i meningar",
+   "instruction": "Skriv vart och ett av de fyra orden i rutorna i den mening där det passar."
+  }
+ },
+ "families": {
+  "2d-shapes": {
+   "slug": "geometriska-former",
+   "name": "Geometriska former"
+  },
+  "road-safety": {
+   "slug": "trafikmarken-och-trafikregler",
+   "name": "Trafikmärken och trafikregler"
+  },
+  "family": {
+   "slug": "familj-och-slakt",
+   "name": "Familj och släkt"
+  },
+  "plants": {
+   "slug": "vaxtens-delar",
+   "name": "Växtens delar"
+  },
+  "animal-life-cycles": {
+   "slug": "fjarilens-och-grodans-livscykel",
+   "name": "Fjärilens och grodans livscykel"
+  },
+  "earth-and-space": {
+   "slug": "solsystemet",
+   "name": "Solsystemet"
+  },
+  "maps": {
+   "slug": "kartor-och-vaderstreck",
+   "name": "Kartor och väderstreck"
+  },
+  "digraphs": {
+   "slug": "bokstavskombinationer",
+   "name": "Bokstavskombinationer"
+  },
+  "synonyms": {
+   "slug": "synonymer",
+   "name": "Synonymer"
+  },
+  "word-parts": {
+   "slug": "slaktord-prefix-och-suffix",
+   "name": "Släktord, prefix och suffix"
+  }
+ },
+ "skills": {
+  "2d-shapes": {
+   "full": "Geometriska former: känna igen och namnge cirkel, kvadrat, triangel och rektangel, också vridna, hitta former omkring oss, skriva namnen och rita formerna.",
+   "short": "Namnge cirkel, kvadrat, triangel, rektangel"
+  },
+  "road-safety": {
+   "full": "Trafikregler för barn: läsa trafikljuset, gå säkert över gatan, förstå trafikmärken och vad de betyder samt sortera varnings-, förbuds- och påbudsmärken.",
+   "short": "Trafikljus, trafikmärken och trafikregler"
+  },
+  "family": {
+   "full": "Familj och släkt: familjeord som mormor, farmor, moster och farbror, ordna generationer, fylla i ett släktträd med ledtrådar och lösa släktgåtor.",
+   "short": "Familjeord, släktträd och släktgåtor"
+  },
+  "plants": {
+   "full": "Växtens delar: rot, stjälk, blad, blomma, frukt och frö, vad en växt behöver för att växa, från frö till växt och blommans delar.",
+   "short": "Växtens delar och vad de gör"
+  },
+  "animal-life-cycles": {
+   "full": "Fjärilens och grodans livscykel: från ägg till fjäril och från grodrom till groda, ordna och namnge stadierna och jämför de två djurens utveckling.",
+   "short": "Fjärilens och grodans livscykel"
+  },
+  "earth-and-space": {
+   "full": "Solsystemet: skilja på Solen, Jorden och Månen, ordna och namnge månens faser, förstå dag och natt och lära sig planeterna i ordning och efter storlek.",
+   "short": "Solen, månens faser och planeterna"
+  },
+  "maps": {
+   "full": "Kartkunskap: läsa teckenförklaringen, se saker i fågelperspektiv, väderstrecken norr, öster, söder och väster samt världsdelar och världshav på kartan.",
+   "short": "Kartor, väderstreck och världsdelar"
+  },
+  "digraphs": {
+   "full": "Bokstavskombinationer: höra, sortera och skriva ljud som stavas med två bokstäver, läsa ord och hitta ljudet i ordet och i meningar.",
+   "short": "Ljud som stavas med två bokstäver"
+  },
+  "synonyms": {
+   "full": "Synonymer: hitta ord som betyder samma sak, med bilder och ordpar, ordna ord efter styrka och välja rätt synonym till sa, gå och titta.",
+   "short": "Ord som betyder samma sak"
+  },
+  "word-parts": {
+   "full": "Släktord, prefix och suffix: sortera ord efter ordstammen, hitta ordstammen, välja prefix efter betydelse och bilda ord för personer.",
+   "short": "Släktord, ordstam och prefix"
+  }
+ },
+ "topicMeta": {
+  "2d-shapes": "Geometriska former att skriva ut för förskoleklass och åk 1: cirkel, kvadrat, triangel och rektangel, också vridna, former omkring oss och gåtor.",
+  "road-safety": "Trafik för förskoleklass till åk 2 att skriva ut: trafikljus, gå säkert över gatan, trafikmärken och vad de betyder, quiz om trafikmärken.",
+  "family": "Familj och släkt att skriva ut: familjeord som mormor och farbror, generationer, släktträd mall att fylla i och släktgåtor för förskoleklass till åk 2.",
+  "plants": "Växtens delar att skriva ut: rot, stjälk, blad och blomma, vad växten behöver, från frö till växt och blommans delar, förskoleklass till åk 3.",
+  "animal-life-cycles": "Fjärilens livscykel och grodans livscykel att skriva ut: från ägg till fjäril, från grodrom till groda, stadier och jämförelse för åk 1 till åk 3.",
+  "earth-and-space": "Solsystemet att skriva ut: Solen, Jorden och Månen, månens faser, dag och natt och planeterna i ordning för åk 1 till åk 3.",
+  "maps": "Kartkunskap att skriva ut: teckenförklaring, fågelperspektiv, väderstreck och världsdelar och världshav för förskoleklass till åk 3.",
+  "digraphs": "Bokstavskombinationer att skriva ut: höra och skriva ljud som stavas med två bokstäver, läsa ord och hitta ljudet i meningar.",
+  "synonyms": "Synonymer att skriva ut för åk 1 till åk 3: ord som betyder samma sak, synonymer med bilder, ordens styrka och synonymer till sa, gå och titta.",
+  "word-parts": "Släktord, prefix och suffix att skriva ut: sortera efter ordstammen, hitta ordstammen, prefixen åter-, miss- och över- och ord för personer, åk 1 till åk 3."
+ },
+ "banks": {
+  "2d-shapes": {
+   "names": {
+    "circle": "cirkel",
+    "square": "kvadrat",
+    "triangle": "triangel",
+    "rectangle": "rektangel",
+    "hexagon": "sexhörning"
+   },
+   "overrides": {},
+   "inflections": {
+    "circle": [
+     "cirkeln",
+     "cirklar",
+     "cirklarna",
+     "cirkelns"
+    ],
+    "square": [
+     "kvadraten",
+     "kvadrater",
+     "kvadraterna",
+     "kvadratens"
+    ],
+    "triangle": [
+     "triangeln",
+     "trianglar",
+     "trianglarna",
+     "triangelns"
+    ],
+    "rectangle": [
+     "rektangeln",
+     "rektanglar",
+     "rektanglarna",
+     "rektangelns"
+    ],
+    "hexagon": [
+     "sexhörningen",
+     "sexhörningar",
+     "sexhörningarna"
+    ]
+   },
+   "inventory": {
+    "hexagon": true
+   },
+   "riddles": {
+    "circle": [
+     {
+      "text": "Jag är rund hela vägen runt och har inga hörn. Vad är jag?",
+      "clue": "round"
+     },
+     {
+      "text": "Jag har inga raka sidor och inga hörn alls. Vad är jag?",
+      "clue": "round"
+     }
+    ],
+    "square": [
+     {
+      "text": "Mina 4 sidor är lika långa och alla mina hörn är räta. Vad är jag?",
+      "clue": "equal"
+     },
+     {
+      "text": "Jag har 4 hörn som på en bok och 4 lika långa sidor. Vad är jag?",
+      "clue": "equal"
+     }
+    ],
+    "triangle": [
+     {
+      "text": "Jag har 3 sidor och 3 hörn. Vad är jag?",
+      "clue": "three"
+     },
+     {
+      "text": "Jag har bara 3 raka sidor. Vad är jag?",
+      "clue": "three"
+     }
+    ],
+    "rectangle": [
+     {
+      "text": "Jag har 2 långa och 2 korta sidor och 4 räta hörn. Vad är jag?",
+      "clue": "longShort"
+     },
+     {
+      "text": "Jag har 4 hörn som på en bok och 2 sidor som är längre än de andra. Vad är jag?",
+      "clue": "longShort"
+     }
+    ],
+    "hexagon": [
+     {
+      "text": "Jag har 6 sidor och 6 hörn. Vad är jag?",
+      "clue": "six"
+     },
+     {
+      "text": "Jag har 6 raka sidor. Vad är jag?",
+      "clue": "six"
+     }
+    ]
+   },
+   "strings": {
+    "base": {
+     "title": "Geometriska former: vad heter formen?",
+     "instruction": "Titta på varje form, också de vridna och de smala, och ringa in formens namn."
+    },
+    "real-or-not": {
+     "title": "Geometriska former: är det rätt form?",
+     "instruction": "Läs namnet i varje rad och ringa in alla former som verkligen är en sådan form."
+    },
+    "around-us": {
+     "title": "Geometriska former runt omkring oss",
+     "instruction": "Titta på varje bild och färglägg den form som saken har: cirkel eller rektangel."
+    },
+    "write-name": {
+     "title": "Geometriska former: skriv namnen",
+     "instruction": "Titta på varje form och skriv dess namn på raden, namnen står i rutan."
+    },
+    "riddles": {
+     "title": "Gåtor om geometriska former",
+     "instruction": "Läs varje gåta och ringa in formens namn."
+    },
+    "dot-draw": {
+     "title": "Rita geometriska former med prickar",
+     "instruction": "Läs formens namn och dra streck mellan prickarna så att formen blir ritad, börja vid det tjocka strecket om det finns ett."
+    }
+   }
+  },
+  "road-safety": {
+   "convention": "vienna",
+   "signs": {
+    "stop": {
+     "code": "B2",
+     "regRef": "Vägmärkesförordningen (2007:90), väjningspliktsmärken, B2 Stopplikt",
+     "shape": "octagon",
+     "rim": "white",
+     "field": "red",
+     "glyph": "text",
+     "text": "STOP",
+     "slash": false,
+     "class": "priority",
+     "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending"
+    },
+    "crossing": {
+     "code": "B7",
+     "regRef": "Vägmärkesförordningen (2007:90), väjningspliktsmärken, B7 Övergångsställe (kod osäker; blå kvadrat med gående på övergångsställe, utan triangel)",
+     "shape": "square",
+     "rim": "white",
+     "field": "blue",
+     "glyph": "walkerOnStripes",
+     "text": "",
+     "slash": false,
+     "class": "information",
+     "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending; the code number is marked (kod osäker) and needs checking against the bilaga"
+    },
+    "children": {
+     "code": "A15",
+     "regRef": "Vägmärkesförordningen (2007:90), varningsmärken, Varning för barn (kod osäker); gul triangel med röd kant",
+     "shape": "triUp",
+     "rim": "red",
+     "field": "yellow",
+     "glyph": "twoChildren",
+     "text": "",
+     "slash": false,
+     "class": "warning",
+     "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending; the code number is marked (kod osäker) and needs checking against the bilaga"
+    },
+    "pedestrian-warning": {
+     "code": "A14",
+     "regRef": "Vägmärkesförordningen (2007:90), varningsmärken, Varning för gående (kod osäker); gul triangel med röd kant",
+     "shape": "triUp",
+     "rim": "red",
+     "field": "yellow",
+     "glyph": "walker",
+     "text": "",
+     "slash": false,
+     "class": "warning",
+     "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending; the code number is marked (kod osäker) and needs checking against the bilaga"
+    },
+    "signal-ahead": {
+     "code": "A19",
+     "regRef": "Vägmärkesförordningen (2007:90), varningsmärken, Varning för flerfärgssignal (kod osäker); gul triangel med röd kant",
+     "shape": "triUp",
+     "rim": "red",
+     "field": "yellow",
+     "glyph": "trafficLightMini",
+     "text": "",
+     "slash": false,
+     "class": "warning",
+     "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending; the code number is marked (kod osäker) and needs checking against the bilaga"
+    },
+    "bike-warning": {
+     "code": "A16",
+     "regRef": "Vägmärkesförordningen (2007:90), varningsmärken, Varning för cyklande och mopedförare (kod osäker); gul triangel med röd kant",
+     "shape": "triUp",
+     "rim": "red",
+     "field": "yellow",
+     "glyph": "bicycle",
+     "text": "",
+     "slash": false,
+     "class": "warning",
+     "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending; the code number is marked (kod osäker) and needs checking against the bilaga"
+    },
+    "no-entry": {
+     "code": "C1",
+     "regRef": "Vägmärkesförordningen (2007:90), förbudsmärken, C1 Förbud mot infart med fordon",
+     "shape": "circle",
+     "rim": null,
+     "field": "red",
+     "glyph": "bar",
+     "text": "",
+     "slash": false,
+     "class": "prohibition",
+     "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending"
+    },
+    "no-vehicles": {
+     "code": "C2",
+     "regRef": "Vägmärkesförordningen (2007:90), förbudsmärken, C2 Förbud mot trafik med fordon; gul botten med röd kant",
+     "shape": "circle",
+     "rim": "red",
+     "field": "yellow",
+     "glyph": "none",
+     "text": "",
+     "slash": false,
+     "class": "prohibition",
+     "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending"
+    },
+    "no-pedestrians": {
+     "code": "C",
+     "regRef": "Vägmärkesförordningen (2007:90), förbudsmärken, Förbud mot gångtrafik (kod osäker); gul botten med röd kant, gående utan snedstreck",
+     "shape": "circle",
+     "rim": "red",
+     "field": "yellow",
+     "glyph": "walker",
+     "text": "",
+     "slash": false,
+     "class": "prohibition",
+     "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending; the code number is marked (kod osäker) and needs checking against the bilaga"
+    },
+    "footpath": {
+     "code": "D5",
+     "regRef": "Vägmärkesförordningen (2007:90), påbudsmärken, Påbjuden gångbana (kod och symbolens figurer osäkra)",
+     "shape": "circle",
+     "rim": "white",
+     "field": "blue",
+     "glyph": "adultChild",
+     "text": "",
+     "slash": false,
+     "class": "mandatory",
+     "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending; the code number is marked (kod osäker) and needs checking against the bilaga"
+    },
+    "bike-path": {
+     "code": "D4",
+     "regRef": "Vägmärkesförordningen (2007:90), påbudsmärken, D4 Påbjuden cykelbana",
+     "shape": "circle",
+     "rim": "white",
+     "field": "blue",
+     "glyph": "bicycle",
+     "text": "",
+     "slash": false,
+     "class": "mandatory",
+     "signedBy": "sv native panel (nt10-E, 2026-09-23): record compared with the Vägmärkesförordningen (2007:90) sign named in regRef; shape, rim and field as in the förordning; operator review pending"
+    }
+   },
+   "setG1": [
+    "stop",
+    "crossing",
+    "children",
+    "no-entry",
+    "footpath",
+    "bike-path"
+   ],
+   "kindsPool": [
+    "children",
+    "pedestrian-warning",
+    "signal-ahead",
+    "bike-warning",
+    "no-vehicles",
+    "no-pedestrians",
+    "footpath",
+    "bike-path"
+   ],
+   "classes": [
+    {
+     "key": "warning",
+     "label": "Varningsmärken"
+    },
+    {
+     "key": "prohibition",
+     "label": "Förbudsmärken"
+    },
+    {
+     "key": "mandatory",
+     "label": "Påbudsmärken"
+    }
+   ],
+   "pedLight": {
+    "stop": "standing",
+    "go": "walking",
+    "lamps": 2
+   },
+   "amber": {
+    "token": "codeYellow",
+    "word": "gul"
+   },
+   "amberMeans": "stop",
+   "chipWords": {
+    "ped": {
+     "stop": "vänta",
+     "go": "gå"
+    },
+    "car": {
+     "stop": "stanna",
+     "go": "kör"
+    }
+   },
+   "meanings": {
+    "stop": "Här måste alla bilar stanna helt och släppa fram de andra.",
+    "crossing": "Här är ett övergångsställe där du kan gå över gatan.",
+    "children": "Se upp, här kan barn springa ut på gatan.",
+    "no-entry": "Hit in får inga fordon köra.",
+    "footpath": "Den här vägen är bara för gående.",
+    "bike-path": "Den här vägen är bara för cyklister."
+   },
+   "situations": {
+    "stop": [
+     "I den här korsningen måste varje bil stanna helt, även om ingen kommer.",
+     "Här måste bilförarna stanna och titta så att vägen är fri."
+    ],
+    "crossing": [
+     "Här finns ett övergångsställe där du kan gå säkert över gatan.",
+     "Bilarna ska släppa fram barnen som går över på de vita ränderna."
+    ],
+    "children": [
+     "Bredvid den här gatan ligger en skola, så här går många barn.",
+     "Se upp, bilförare: precis vid vägen finns en lekplats."
+    ],
+    "no-entry": [
+     "Från det här hållet får man inte köra in på gatan.",
+     "Här är det förbjudet att köra in, bilarna måste ta en annan väg."
+    ],
+    "footpath": [
+     "Den här vägen är bara för människor som går.",
+     "Här är en gångbana där folk går till fots."
+    ],
+    "bike-path": [
+     "Den här vägen är bara gjord för cyklar.",
+     "Här cyklar du på en egen bana bredvid bilvägen."
+    ],
+    "pedestrian-warning": [
+     "Se upp, här går ofta människor över vägen.",
+     "Kör försiktigt: här kan gående komma ut på vägen."
+    ],
+    "signal-ahead": [
+     "Se upp, snart kommer ett trafikljus.",
+     "Lite längre fram finns lampor som kan slå om till rött."
+    ],
+    "bike-warning": [
+     "Se upp, bilförare: här cyklar många barn över vägen.",
+     "På den här vägen kommer det ofta cyklister."
+    ],
+    "no-vehicles": [
+     "Här får inga fordon köra, varken bilar eller cyklar.",
+     "Den här gatan är stängd för alla fordon, både bilar och mopeder."
+    ],
+    "no-pedestrians": [
+     "På den här vägen får ingen gå, bara fordon får köra.",
+     "Här är det förbjudet att gå till fots, men bilar får köra."
+    ]
+   },
+   "steps": [
+    "stop-kerb",
+    "look-left",
+    "look-right",
+    "walk-across"
+   ],
+   "listenStep": null,
+   "familyHead": "Trafikmärken och trafikregler",
+   "signHead": "Trafikmärken",
+   "childAnchors": [
+    "för barn",
+    "förskoleklass",
+    "lågstadiet",
+    "åk 1",
+    "åk 2"
+   ],
+   "strings": {
+    "base": {
+     "title": "Trafikregler för barn: vad visar trafikljuset?",
+     "instruction": "Titta på lampan som lyser och ringa in vad du ska göra."
+    },
+    "colour-lights": {
+     "title": "Trafikregler för barn: färglägg trafikljusen",
+     "instruction": "Hitta lampan med strålar i varje trafikljus och färglägg den i den färg som den lyser med."
+    },
+    "crossing-steps": {
+     "title": "Gå säkert över gatan: steg för steg",
+     "instruction": "Skriv 1 till 4 i rutorna så att de visar hur du går säkert över gatan."
+    },
+    "sign-meaning": {
+     "title": "Trafikmärken för barn och vad de betyder",
+     "instruction": "Dra ett streck från varje trafikmärke till det som märket betyder."
+    },
+    "sign-kinds": {
+     "title": "Trafikmärken åk 2: varnings-, förbuds- och påbudsmärken",
+     "instruction": "Skriv bokstaven för varje trafikmärke i en ruta under rätt sorts märken."
+    },
+    "sign-quiz": {
+     "title": "Quiz om trafikmärken för lågstadiet",
+     "instruction": "Läs varje mening och ringa in det enda trafikmärke som passar."
+    }
+   }
+  },
+  "family": {
+   "kin": {
+    "M": "mamma",
+    "F": "pappa",
+    "Z": "storasyster",
+    "B": "storebror",
+    "Zy": "lillasyster",
+    "By": "lillebror",
+    "MM": "mormor",
+    "MF": "morfar",
+    "FM": "farmor",
+    "FF": "farfar",
+    "MZ": "moster",
+    "FZ": "faster",
+    "MB": "morbror",
+    "FB": "farbror",
+    "MZD": "kusin",
+    "MZS": "kusin",
+    "MBD": "kusin",
+    "MBS": "kusin",
+    "FZD": "kusin",
+    "FZS": "kusin",
+    "FBD": "kusin",
+    "FBS": "kusin"
+   },
+   "words": {
+    "mamma": {
+     "text": "mamma",
+     "register": "K"
+    },
+    "pappa": {
+     "text": "pappa",
+     "register": "K"
+    },
+    "storasyster": {
+     "text": "storasyster",
+     "register": "K"
+    },
+    "storebror": {
+     "text": "storebror",
+     "register": "K"
+    },
+    "lillasyster": {
+     "text": "lillasyster",
+     "register": "K"
+    },
+    "lillebror": {
+     "text": "lillebror",
+     "register": "K"
+    },
+    "mormor": {
+     "text": "mormor",
+     "register": "K"
+    },
+    "morfar": {
+     "text": "morfar",
+     "register": "K"
+    },
+    "farmor": {
+     "text": "farmor",
+     "register": "K"
+    },
+    "farfar": {
+     "text": "farfar",
+     "register": "K"
+    },
+    "moster": {
+     "text": "moster",
+     "register": "K"
+    },
+    "faster": {
+     "text": "faster",
+     "register": "K"
+    },
+    "morbror": {
+     "text": "morbror",
+     "register": "K"
+    },
+    "farbror": {
+     "text": "farbror",
+     "register": "K"
+    },
+    "kusin": {
+     "text": "kusin",
+     "register": "K"
+    }
+   },
+   "names": [
+    {
+     "name": "Ida",
+     "sex": "f",
+     "gen": "Idas"
+    },
+    {
+     "name": "Leo",
+     "sex": "m",
+     "gen": "Leos"
+    },
+    {
+     "name": "Alva",
+     "sex": "f",
+     "gen": "Alvas"
+    },
+    {
+     "name": "Hugo",
+     "sex": "m",
+     "gen": "Hugos"
+    },
+    {
+     "name": "Maja",
+     "sex": "f",
+     "gen": "Majas"
+    },
+    {
+     "name": "Olle",
+     "sex": "m",
+     "gen": "Olles"
+    },
+    {
+     "name": "Vera",
+     "sex": "f",
+     "gen": "Veras"
+    },
+    {
+     "name": "Otto",
+     "sex": "m",
+     "gen": "Ottos"
+    },
+    {
+     "name": "Elsa",
+     "sex": "f",
+     "gen": "Elsas"
+    },
+    {
+     "name": "Ivar",
+     "sex": "m",
+     "gen": "Ivars"
+    },
+    {
+     "name": "Saga",
+     "sex": "f",
+     "gen": "Sagas"
+    },
+    {
+     "name": "Axel",
+     "sex": "m",
+     "gen": "Axels"
+    }
+   ],
+   "clueFrames": {
+    "M": "{name} är {egoGen} mamma.",
+    "F": "{name} är {egoGen} pappa.",
+    "Z": "{name} är {egoGen} storasyster.",
+    "B": "{name} är {egoGen} storebror.",
+    "Zy": "{name} är {egoGen} lillasyster.",
+    "By": "{name} är {egoGen} lillebror.",
+    "MM": "{name} är {egoGen} mormor.",
+    "MF": "{name} är {egoGen} morfar.",
+    "FM": "{name} är {egoGen} farmor.",
+    "FF": "{name} är {egoGen} farfar.",
+    "MZ": "{name} är {egoGen} moster.",
+    "FZ": "{name} är {egoGen} faster.",
+    "MB": "{name} är {egoGen} morbror.",
+    "FB": "{name} är {egoGen} farbror.",
+    "MZD": "{name} är {egoGen} kusin.",
+    "MZS": "{name} är {egoGen} kusin.",
+    "MBD": "{name} är {egoGen} kusin.",
+    "MBS": "{name} är {egoGen} kusin.",
+    "FZD": "{name} är {egoGen} kusin.",
+    "FZS": "{name} är {egoGen} kusin.",
+    "FBD": "{name} är {egoGen} kusin.",
+    "FBS": "{name} är {egoGen} kusin."
+   },
+   "riddleFrames": {
+    "MM": "{egoGen} mammas mamma är {egoGen} ___.",
+    "FM": "{egoGen} pappas mamma är {egoGen} ___.",
+    "MF": "{egoGen} mammas pappa är {egoGen} ___.",
+    "FF": "{egoGen} pappas pappa är {egoGen} ___.",
+    "MZ": "{egoGen} mammas syster är {egoGen} ___.",
+    "FZ": "{egoGen} pappas syster är {egoGen} ___.",
+    "MB": "{egoGen} mammas bror är {egoGen} ___.",
+    "FB": "{egoGen} pappas bror är {egoGen} ___."
+   },
+   "distractors": [
+    "mamma",
+    "pappa"
+   ],
+   "repeatsNote": false,
+   "repeatsNoteText": "ett ord kan passa till flera gåtor",
+   "generationOK": [
+    "mamma",
+    "pappa",
+    "storasyster",
+    "storebror",
+    "lillasyster",
+    "lillebror",
+    "mormor",
+    "morfar",
+    "farmor",
+    "farfar",
+    "moster",
+    "faster",
+    "morbror",
+    "farbror",
+    "kusin"
+   ],
+   "agreeing": [
+    "en",
+    "ett",
+    "hans",
+    "hennes",
+    "sin",
+    "sitt",
+    "den",
+    "det"
+   ],
+   "firstPerson": [
+    "jag",
+    "mig",
+    "min",
+    "mitt",
+    "mina",
+    "vi",
+    "oss",
+    "vår",
+    "vårt",
+    "våra"
+   ],
+   "meWord": "jag",
+   "forbiddenInTemplate": [
+    "mamma",
+    "pappa",
+    "mor",
+    "far",
+    "föräldrar",
+    "din familj"
+   ],
+   "instructionBans": [
+    "kryssa",
+    "klipp",
+    "färglägg",
+    "gratis",
+    "facit"
+   ],
+   "familyHead": "Familj och släkt",
+   "strings": {
+    "base": {
+     "title": "Familj och släkt: vem är vem?",
+     "instruction": "Hitta varje person i släktträdet och skriv personens siffra i rutan bredvid rätt familjeord."
+    },
+    "generations": {
+     "title": "Generationer i släkten: från äldst till yngst",
+     "instruction": "Skriv 1, 2 och 3 i rutorna i varje rad så att orden står från den äldsta generationen till den yngsta."
+    },
+    "trace-words": {
+     "title": "Familjeord: spåra och skriv",
+     "instruction": "Hitta personen med samma siffra i trädet, spåra familjeordet och skriv det en gång till på raden."
+    },
+    "tree-clues": {
+     "title": "Släktträd: läs ledtrådarna",
+     "instruction": "Läs ledtrådarna och skriv varje namn i rätt namnruta i släktträdet."
+    },
+    "relation-riddles": {
+     "title": "Släktgåtor: mormor, farfar, moster eller farbror?",
+     "instruction": "Läs varje gåta och skriv rätt familjeord från rutan på raden."
+    },
+    "tree-template": {
+     "title": "Släktträd: mall att fylla i själv",
+     "instruction": "Rita de människor som är viktiga för dig i ramarna och skriv deras namn på raderna."
+    }
+   }
+  },
+  "plants": {
+   "partWords": {
+    "root": "rot",
+    "stem": "stjälk",
+    "leaf": "blad",
+    "flower": "blomma",
+    "fruit": "frukt",
+    "seed": "frö"
+   },
+   "flowerWords": {
+    "petal": "kronblad",
+    "sepal": "foderblad",
+    "stamen": "ståndare",
+    "pistil": "pistill",
+    "stalk": "stjälk",
+    "ovary": "fruktämne"
+   },
+   "jobs": {
+    "root": "suger upp vatten ur jorden",
+    "stem": "håller upp växten så att den står rakt",
+    "leaf": "gör näring åt växten med hjälp av solljus",
+    "flower": "lockar till sig bin",
+    "seed": "kan gro och bli en ny växt"
+   },
+   "partStems": [
+    "rot",
+    "rötter",
+    "rötterna",
+    "stjälk",
+    "stjälkar",
+    "stjälken",
+    "blad",
+    "bladen",
+    "blomma",
+    "blomman",
+    "blommor",
+    "blommorna",
+    "blom",
+    "frukt",
+    "frukter",
+    "frukten",
+    "frö",
+    "frön",
+    "fröet",
+    "kronblad"
+   ],
+   "forbidden": [
+    "roten",
+    "stjälken",
+    "bladet",
+    "blomman",
+    "frukten",
+    "fröet",
+    "stam",
+    "knopp",
+    "grönsak",
+    "grönsaker"
+   ],
+   "refuseItems": [],
+   "refuse": [],
+   "instructionBans": {
+    "base": [
+     "ringa",
+     "färglägg",
+     "klipp"
+    ],
+    "flower": [
+     "ringa",
+     "färglägg",
+     "klipp"
+    ],
+    "needs": [
+     "ord",
+     "orden",
+     "skriv"
+    ],
+    "eat": [
+     "grönsak",
+     "grönsaker"
+    ],
+    "jobs": [
+     "ordrutan",
+     "ordruta"
+    ]
+   },
+   "strings": {
+    "base": {
+     "title": "Växtens delar",
+     "instruction": "Följ varje numrerad lapp till en del av växten och skriv delens namn från ordrutan på raden med samma siffra."
+    },
+    "needs": {
+     "title": "Vad behöver en växt för att växa?",
+     "instruction": "Titta på vad växterna får och ringa in i varje rad den växt som får båda sakerna den behöver för att växa."
+    },
+    "cycle": {
+     "title": "Från frö till växt",
+     "instruction": "Klipp ut de fyra bilderna och klistra in dem i de tomma rutorna i pilarnas riktning, börja vid fröet."
+    },
+    "eat": {
+     "title": "Vilka delar av växten äter vi?",
+     "instruction": "Titta på varje matvara och ringa in den del av växten som vi äter."
+    },
+    "jobs": {
+     "title": "Växtens delar och vad de gör",
+     "instruction": "Läs vad varje del gör, hitta delen på växten och skriv numret på dess lapp i rutan."
+    },
+    "flower": {
+     "title": "Blommans delar",
+     "instruction": "Skriv namnet på varje numrerad del av blomman på dess rad och stryk det ord i ordrutan som inte är en del av en blomma."
+    }
+   }
+  },
+  "animal-life-cycles": {
+   "stageWords": {
+    "butterfly": {
+     "egg": "ägg",
+     "larva": "larv",
+     "pupa": "puppa",
+     "adult": "fjäril"
+    }
+   },
+   "decoy": {
+    "frog.tadpole": "grodyngel"
+   },
+   "landingWords": {
+    "frog": {
+     "spawn": "grodrom",
+     "tadpole": "grodyngel",
+     "legged": "grodyngel med ben",
+     "froglet": "grodunge",
+     "adult": "groda"
+    },
+    "ladybird": {
+     "egg": "ägg",
+     "larva": "larv",
+     "pupa": "puppa",
+     "adult": "nyckelpiga"
+    }
+   },
+   "statements": {
+    "egg": "Den kläcks ur ett ägg.",
+    "change": "Ungen ser helt annorlunda ut än det vuxna djuret.",
+    "pupa": "Under en tid är den en puppa.",
+    "wings": "Det vuxna djuret har vingar.",
+    "sixlegs": "Det vuxna djuret har sex ben.",
+    "nectar": "Det vuxna djuret dricker nektar från blommor.",
+    "tail": "Ungen simmar med hjälp av en svans.",
+    "water": "Ungen lever i vattnet.",
+    "nolegs": "Ungen har inga ben i början.",
+    "fourlegs": "Det vuxna djuret har fyra ben.",
+    "insects": "Det vuxna djuret fångar insekter och äter dem."
+   },
+   "drop": [],
+   "familyName": "Fjärilens och grodans livscykel",
+   "spawnForm": "clump",
+   "forbidden": [
+    "kokong",
+    "kokongen",
+    "kokonger"
+   ],
+   "genreBare": [
+    "livscykel",
+    "livscykeln",
+    "livscykler"
+   ],
+   "pictureWord": "bild",
+   "instructionBans": {
+    "G1-377": [
+     "klipp",
+     "klistra",
+     "kryssa",
+     "ringa",
+     "bokstav",
+     "bokstaven"
+    ],
+    "G1-389": [
+     "skriv",
+     "kryssa",
+     "ringa"
+    ],
+    "G2-365": [
+     "klipp",
+     "kryssa",
+     "ringa"
+    ],
+    "G2-366": [
+     "klipp",
+     "kryssa",
+     "ringa",
+     "siffra",
+     "numret"
+    ],
+    "G3-393": [
+     "ringa",
+     "klipp",
+     "skriv"
+    ],
+    "G1-390": [
+     "skriv",
+     "kryssa",
+     "klipp"
+    ]
+   },
+   "refuse": [],
+   "strings": {
+    "G1-377": {
+     "title": "Fjärilens livscykel: från ägg till fjäril",
+     "instruction": "Ägget är 1: skriv 2, 3 och 4 i rutorna i rätt ordning och i sista rutan numret på bilden som kommer efter fjärilen."
+    },
+    "G1-389": {
+     "title": "Grodans livscykel: klipp och klistra",
+     "instruction": "Klipp ut de fyra rutorna och klistra var och en på sitt näckrosblad, runt dammen från grodrommen till grodan."
+    },
+    "G2-365": {
+     "title": "Fjärilens livscykel: skriv namnen på stadierna",
+     "instruction": "Skriv de fyra stadiernas namn från ordrutan på raderna under bilderna och stryk det namn som inte hör dit."
+    },
+    "G2-366": {
+     "title": "Metamorfos: vilket djur blir det till slut?",
+     "instruction": "Titta på varje stadium och skriv dess bokstav i en ruta under det djur som det blir; några rutor förblir tomma."
+    },
+    "G3-393": {
+     "title": "Fjärilens och grodans livscykel: jämför",
+     "instruction": "Läs varje mening och kryssa för fjärilen, grodan eller båda när meningen stämmer för djuret."
+    },
+    "G1-390": {
+     "title": "Vad kommer sedan? Fjäril, groda och nyckelpiga",
+     "instruction": "Titta på den första bilden i varje rad och ringa in den bild som kommer direkt efter; efter det vuxna djuret börjar cykeln om."
+    }
+   }
+  },
+  "earth-and-space": {
+   "hemisphere": "N",
+   "bodies": {
+    "sun": "Solen",
+    "earth": "Jorden",
+    "moon": "Månen"
+   },
+   "facts": {
+    "ownLight": "Den skapar sitt eget ljus.",
+    "star": "Den är en stjärna.",
+    "hottest": "Den är varmast av de tre.",
+    "biggest": "Den är störst av de tre.",
+    "liveOn": "Människor och djur bor på den.",
+    "oceans": "Den har stora hav med vatten.",
+    "air": "Den har luft som vi kan andas.",
+    "planet": "Den är en planet.",
+    "spinDay": "När den snurrar får vi dag och natt.",
+    "orbitsEarth": "Den går varv efter varv runt vår planet.",
+    "seemsToChange": "Dess form ser ut att ändras.",
+    "craters": "Den är täckt av kratrar.",
+    "smallest": "Den är minst av de tre."
+   },
+   "leakForms": [],
+   "genderNeutral": true,
+   "forbiddenStems": [
+    "ger ljus",
+    "ger oss ljus",
+    "lyser",
+    "på natten",
+    "går runt solen",
+    "kretsar runt solen",
+    "går upp",
+    "går ner",
+    "är rund",
+    "på himlen",
+    "gått på",
+    "ingen luft",
+    "speglar",
+    "rör sig över",
+    "sommar",
+    "vinter",
+    "höst",
+    "regn",
+    "snö",
+    "moln",
+    "väder",
+    "varm dag",
+    "kall dag"
+   ],
+   "phaseNames": {
+    "0": "nymåne",
+    "2": "växande halvmåne",
+    "4": "fullmåne",
+    "6": "avtagande halvmåne"
+   },
+   "planets": {
+    "mercury": "Merkurius",
+    "venus": "Venus",
+    "earth": "Jorden",
+    "mars": "Mars",
+    "jupiter": "Jupiter",
+    "saturn": "Saturnus",
+    "uranus": "Uranus",
+    "neptune": "Neptunus"
+   },
+   "notPlanet": {
+    "sun": "Solen",
+    "moon": "Månen"
+   },
+   "classLabels": {
+    "giant": "jätteplanet",
+    "rocky": "liten stenplanet",
+    "notPlanet": "inte en planet"
+   },
+   "mnemonic": "Min Väldigt Jobbiga Mamma Jagade Sju Ugglor Nyss",
+   "refuse": [],
+   "strings": {
+    "base": {
+     "title": "Solen, Jorden och Månen",
+     "instruction": "Läs varje mening och kryssa för om den handlar om Solen, Jorden eller Månen."
+    },
+    "moon-phases-in-order": {
+     "title": "Månens faser i rätt ordning",
+     "instruction": "Titta på kilen i varje rad, om månen växer eller krymper, och skriv 1 till 5 under månarna i den ordningen."
+    },
+    "moon-phase-names": {
+     "title": "Månens faser: skriv namnen",
+     "instruction": "Titta på varje måne och skriv dess namn på raderna, varje ord i ordrutan används två gånger."
+    },
+    "day-and-night-model": {
+     "title": "Varför blir det dag och natt?",
+     "instruction": "Titta var Solen är och ringa in dag eller natt i tabellen för varje numrerad nål."
+    },
+    "planets-in-order": {
+     "title": "Planeterna i ordning från Solen",
+     "instruction": "Skriv varje planets namn på dess rad, börja närmast Solen och använd varje namn i rutan en gång."
+    },
+    "planet-sizes": {
+     "title": "Jätteplaneter och stenplaneter",
+     "instruction": "Sortera namnen och skriv vart och ett i rätt ruta: jätteplanet, liten stenplanet eller inte en planet."
+    }
+   }
+  },
+  "maps": {
+   "keyTitle": "Teckenförklaring",
+   "symbolWords": {
+    "house": "hus",
+    "tree": "träd",
+    "bush": "buske",
+    "pond": "damm",
+    "bench": "bänk",
+    "tent": "tält",
+    "flowerBed": "blomrabatt",
+    "bridge": "bro"
+   },
+   "dirWords": {
+    "n": "norr",
+    "e": "öster",
+    "s": "söder",
+    "w": "väster"
+   },
+   "dirLetters": {
+    "n": "N",
+    "e": "Ö",
+    "s": "S",
+    "w": "V"
+   },
+   "continentSet": [
+    {
+     "id": "northAmerica",
+     "regions": [
+      "northAmerica"
+     ]
+    },
+    {
+     "id": "southAmerica",
+     "regions": [
+      "southAmerica"
+     ]
+    },
+    {
+     "id": "europe",
+     "regions": [
+      "europe"
+     ]
+    },
+    {
+     "id": "asia",
+     "regions": [
+      "asia"
+     ]
+    },
+    {
+     "id": "africa",
+     "regions": [
+      "africa"
+     ]
+    },
+    {
+     "id": "oceania",
+     "regions": [
+      "oceania"
+     ]
+    },
+    {
+     "id": "antarctica",
+     "regions": [
+      "antarctica"
+     ]
+    }
+   ],
+   "continentNames": {
+    "northAmerica": "Nordamerika",
+    "southAmerica": "Sydamerika",
+    "europe": "Europa",
+    "asia": "Asien",
+    "africa": "Afrika",
+    "oceania": "Oceanien",
+    "antarctica": "Antarktis"
+   },
+   "oceanSet": [
+    "pacific",
+    "atlantic",
+    "indian",
+    "arctic",
+    "southern"
+   ],
+   "oceanNames": {
+    "pacific": "Stilla havet",
+    "atlantic": "Atlanten",
+    "indian": "Indiska oceanen",
+    "arctic": "Norra ishavet",
+    "southern": "Södra ishavet"
+   },
+   "setSource": "Svenska läromedel i SO för lågstadiet (Lgr22 SO åk 1-3: kartor och väderstreck) räknar sju världsdelar (med Oceanien och Antarktis) och fem världshav (med Södra ishavet)",
+   "mnemonic": "Nils Öppnar Stora Väskor",
+   "refuse": [],
+   "instructionBans": {},
+   "strings": {
+    "base": {
+     "title": "Kartkunskap: läs teckenförklaringen",
+     "instruction": "Titta på teckenförklaringen, hitta varje sak på kartan och skriv i rutan hur många det finns."
+    },
+    "top-view": {
+     "title": "Fågelperspektiv: från sidan och uppifrån",
+     "instruction": "Varje sak är ritad från sidan, så dra ett streck till samma sak sedd uppifrån."
+    },
+    "compass-rose": {
+     "title": "Väderstreck: norr, öster, söder och väster",
+     "instruction": "Varje ros visar en bokstav och den orange spetsen pekar mot norr, så skriv de tre som saknas i de tomma rutorna."
+    },
+    "continents": {
+     "title": "Världsdelar: skriv namnen",
+     "instruction": "Skriv namnet på varje numrerad världsdel på dess rad och ta namnen från rutan."
+    },
+    "continents-oceans": {
+     "title": "Världsdelar och världshav",
+     "instruction": "Hitta varje världsdel och världshav på kartan och skriv dess siffra i rutan bredvid namnet."
+    },
+    "directions-on-map": {
+     "title": "Väderstreck på kartan",
+     "instruction": "Hitta den första bilden på kartan, titta åt det håll som ordet säger och ringa in den av de tre bilderna som ligger där."
+    }
+   }
+  },
+  "synonyms": {
+   "head": "Synonymer",
+   "allowed": [
+    " ",
+    "-"
+   ],
+   "ban": [
+    "kul",
+    "lätt",
+    "god",
+    "fin",
+    "söt",
+    "dålig",
+    "snäll",
+    "stilla",
+    "hård",
+    "ljus",
+    "klar",
+    "härlig",
+    "stanna",
+    "häftig",
+    "cool",
+    "lugn"
+   ],
+   "regional": [],
+   "groups": [
+    {
+     "id": "g.happy",
+     "concept": "happy",
+     "pos": "adj",
+     "domain": "feelings",
+     "tier": 1,
+     "words": [
+      "glad",
+      "lycklig",
+      "munter"
+     ]
+    },
+    {
+     "id": "g.sad",
+     "concept": "sad",
+     "pos": "adj",
+     "domain": "feelings",
+     "tier": 1,
+     "words": [
+      "ledsen",
+      "sorgsen"
+     ]
+    },
+    {
+     "id": "g.angry",
+     "concept": "angry",
+     "pos": "adj",
+     "domain": "feelings",
+     "tier": 1,
+     "words": [
+      "arg",
+      "ilsken"
+     ]
+    },
+    {
+     "id": "g.scared",
+     "concept": "scared",
+     "pos": "adj",
+     "domain": "feelings",
+     "tier": 1,
+     "words": [
+      "rädd",
+      "skrämd"
+     ]
+    },
+    {
+     "id": "g.surprised",
+     "concept": "surprised",
+     "pos": "adj",
+     "domain": "feelings",
+     "tier": 2,
+     "words": [
+      "förvånad",
+      "överraskad",
+      "häpen"
+     ]
+    },
+    {
+     "id": "g.tired",
+     "concept": "tired",
+     "pos": "adj",
+     "domain": "body",
+     "tier": 1,
+     "words": [
+      "trött",
+      "sömnig"
+     ]
+    },
+    {
+     "id": "g.strong",
+     "concept": "strong",
+     "pos": "adj",
+     "domain": "body",
+     "tier": 2,
+     "words": [
+      "stark",
+      "kraftfull"
+     ]
+    },
+    {
+     "id": "g.big",
+     "concept": "big",
+     "pos": "adj",
+     "domain": "size-speed",
+     "tier": 1,
+     "words": [
+      "stor",
+      "jättelik"
+     ]
+    },
+    {
+     "id": "g.fast",
+     "concept": "fast",
+     "pos": "adj",
+     "domain": "size-speed",
+     "tier": 1,
+     "words": [
+      "snabb",
+      "kvick"
+     ]
+    },
+    {
+     "id": "g.difficult",
+     "concept": "difficult",
+     "pos": "adj",
+     "domain": "thinking",
+     "tier": 2,
+     "words": [
+      "svår",
+      "knepig"
+     ]
+    },
+    {
+     "id": "g.smart",
+     "concept": "smart",
+     "pos": "adj",
+     "domain": "thinking",
+     "tier": 2,
+     "words": [
+      "smart",
+      "klyftig"
+     ]
+    },
+    {
+     "id": "g.brave",
+     "concept": "brave",
+     "pos": "adj",
+     "domain": "character",
+     "tier": 2,
+     "words": [
+      "modig",
+      "tapper"
+     ]
+    },
+    {
+     "id": "g.funny",
+     "concept": "funny",
+     "pos": "adj",
+     "domain": "character",
+     "tier": 2,
+     "words": [
+      "lustig",
+      "komisk"
+     ]
+    },
+    {
+     "id": "g.strange",
+     "concept": "strange",
+     "pos": "adj",
+     "domain": "character",
+     "tier": 2,
+     "words": [
+      "konstig",
+      "underlig",
+      "märklig"
+     ]
+    },
+    {
+     "id": "g.loud",
+     "concept": "loud",
+     "pos": "adj",
+     "domain": "senses",
+     "tier": 1,
+     "words": [
+      "högljudd",
+      "bullrig"
+     ]
+    },
+    {
+     "id": "g.quiet",
+     "concept": "quiet",
+     "pos": "adj",
+     "domain": "senses",
+     "tier": 2,
+     "words": [
+      "tyst",
+      "ljudlös"
+     ]
+    },
+    {
+     "id": "g.tasty",
+     "concept": "tasty",
+     "pos": "adj",
+     "domain": "senses",
+     "tier": 1,
+     "words": [
+      "smaskig",
+      "välsmakande"
+     ]
+    },
+    {
+     "id": "g.cozy",
+     "concept": "cozy",
+     "pos": "adj",
+     "domain": "senses",
+     "tier": 2,
+     "words": [
+      "mysig",
+      "ombonad"
+     ]
+    },
+    {
+     "id": "g.pretty",
+     "concept": "pretty",
+     "pos": "adj",
+     "domain": "looks",
+     "tier": 1,
+     "words": [
+      "vacker",
+      "snygg"
+     ]
+    },
+    {
+     "id": "g.tidy",
+     "concept": "tidy",
+     "pos": "adj",
+     "domain": "looks",
+     "tier": 2,
+     "words": [
+      "städad",
+      "prydlig"
+     ]
+    },
+    {
+     "id": "g.messy",
+     "concept": "messy",
+     "pos": "adj",
+     "domain": "looks",
+     "tier": 2,
+     "words": [
+      "stökig",
+      "rörig"
+     ]
+    },
+    {
+     "id": "g.dirty",
+     "concept": "dirty",
+     "pos": "adj",
+     "domain": "looks",
+     "tier": 2,
+     "words": [
+      "smutsig",
+      "lortig"
+     ]
+    },
+    {
+     "id": "g.begin",
+     "concept": "begin",
+     "pos": "verb",
+     "domain": "begin-end",
+     "tier": 1,
+     "words": [
+      "börja",
+      "starta"
+     ]
+    },
+    {
+     "id": "g.end",
+     "concept": "end",
+     "pos": "verb",
+     "domain": "begin-end",
+     "tier": 1,
+     "words": [
+      "sluta",
+      "lägga av"
+     ]
+    },
+    {
+     "id": "g.shut",
+     "concept": "shut",
+     "pos": "verb",
+     "domain": "hands",
+     "tier": 1,
+     "words": [
+      "stänga",
+      "slå igen"
+     ]
+    },
+    {
+     "id": "g.fix",
+     "concept": "fix",
+     "pos": "verb",
+     "domain": "hands",
+     "tier": 1,
+     "words": [
+      "laga",
+      "reparera"
+     ]
+    },
+    {
+     "id": "g.choose",
+     "concept": "choose",
+     "pos": "verb",
+     "domain": "hands",
+     "tier": 2,
+     "words": [
+      "välja",
+      "plocka ut"
+     ]
+    },
+    {
+     "id": "g.help",
+     "concept": "help",
+     "pos": "verb",
+     "domain": "hands",
+     "tier": 2,
+     "words": [
+      "hjälpa",
+      "bistå"
+     ]
+    },
+    {
+     "id": "g.jump",
+     "concept": "jump",
+     "pos": "verb",
+     "domain": "move",
+     "tier": 1,
+     "words": [
+      "hoppa",
+      "skutta"
+     ]
+    },
+    {
+     "id": "g.throw",
+     "concept": "throw",
+     "pos": "verb",
+     "domain": "move",
+     "tier": 1,
+     "words": [
+      "kasta",
+      "slänga"
+     ]
+    },
+    {
+     "id": "g.fall",
+     "concept": "fall",
+     "pos": "verb",
+     "domain": "move",
+     "tier": 2,
+     "words": [
+      "falla",
+      "ramla",
+      "trilla"
+     ]
+    },
+    {
+     "id": "g.talk",
+     "concept": "talk",
+     "pos": "verb",
+     "domain": "speak",
+     "tier": 1,
+     "words": [
+      "prata",
+      "tala"
+     ]
+    },
+    {
+     "id": "g.shout",
+     "concept": "shout",
+     "pos": "verb",
+     "domain": "speak",
+     "tier": 1,
+     "words": [
+      "skrika",
+      "vråla"
+     ]
+    },
+    {
+     "id": "g.cry",
+     "concept": "cry",
+     "pos": "verb",
+     "domain": "face",
+     "tier": 2,
+     "words": [
+      "gråta",
+      "lipa"
+     ]
+    },
+    {
+     "id": "g.smile",
+     "concept": "smile",
+     "pos": "verb",
+     "domain": "face",
+     "tier": 1,
+     "words": [
+      "le",
+      "flina"
+     ]
+    }
+   ],
+   "near": [
+    {
+     "a": "varm",
+     "b": "ljummen",
+     "why": "shade: ljummen är mindre varm"
+    },
+    {
+     "a": "kall",
+     "b": "sval",
+     "why": "shade"
+    },
+    {
+     "a": "blöt",
+     "b": "fuktig",
+     "why": "shade"
+    },
+    {
+     "a": "arg",
+     "b": "irriterad",
+     "why": "shade: irriterad är lite arg"
+    },
+    {
+     "a": "rädd",
+     "b": "nervös",
+     "why": "nervös är en annan känsla, inte bara lite rädd"
+    },
+    {
+     "a": "ledsen",
+     "b": "förtvivlad",
+     "why": "shade: förtvivlad är mycket mer än ledsen"
+    },
+    {
+     "a": "stor",
+     "b": "enorm",
+     "why": "shade: enorm är mycket större än stor"
+    },
+    {
+     "a": "tyst",
+     "b": "mysig",
+     "why": "tyst är utan ljud; mysig är en känsla"
+    },
+    {
+     "a": "stökig",
+     "b": "smutsig",
+     "why": "stökig är inte städad; smutsig är inte ren"
+    },
+    {
+     "a": "stark",
+     "b": "modig",
+     "why": "kroppens styrka mot mod"
+    },
+    {
+     "a": "prata",
+     "b": "skrika",
+     "why": "att skrika är att prata mycket högt"
+    },
+    {
+     "a": "välja",
+     "b": "hjälpa",
+     "why": "olika handlingar som barn ibland blandar i meningar"
+    }
+   ],
+   "nearOnly": [
+    "nervös",
+    "förtvivlad",
+    "enorm"
+   ],
+   "falseOf": {
+    "happy": [
+     "ledsen",
+     "sorgsen",
+     "arg",
+     "ilsken",
+     "rädd",
+     "skrämd",
+     "förvånad",
+     "överraskad",
+     "häpen",
+     "trött",
+     "sömnig",
+     "snabb",
+     "kvick",
+     "stor",
+     "jättelik"
+    ],
+    "sad": [
+     "glad",
+     "lycklig",
+     "munter",
+     "arg",
+     "ilsken",
+     "förvånad",
+     "överraskad",
+     "häpen",
+     "snabb",
+     "kvick",
+     "stor",
+     "jättelik"
+    ],
+    "angry": [
+     "glad",
+     "lycklig",
+     "munter",
+     "ledsen",
+     "sorgsen",
+     "rädd",
+     "skrämd",
+     "förvånad",
+     "överraskad",
+     "häpen",
+     "trött",
+     "sömnig",
+     "snabb",
+     "kvick",
+     "stor",
+     "jättelik"
+    ],
+    "scared": [
+     "glad",
+     "lycklig",
+     "munter",
+     "ledsen",
+     "sorgsen",
+     "trött",
+     "sömnig",
+     "snabb",
+     "kvick",
+     "stor",
+     "jättelik"
+    ],
+    "surprised": [
+     "glad",
+     "lycklig",
+     "munter",
+     "ledsen",
+     "sorgsen",
+     "arg",
+     "ilsken",
+     "trött",
+     "sömnig",
+     "snabb",
+     "kvick",
+     "stor",
+     "jättelik"
+    ],
+    "tired": [
+     "glad",
+     "lycklig",
+     "munter",
+     "arg",
+     "ilsken",
+     "rädd",
+     "skrämd",
+     "förvånad",
+     "överraskad",
+     "häpen",
+     "snabb",
+     "kvick",
+     "stor",
+     "jättelik"
+    ],
+    "fast": [
+     "glad",
+     "lycklig",
+     "munter",
+     "ledsen",
+     "sorgsen",
+     "arg",
+     "ilsken",
+     "rädd",
+     "skrämd",
+     "förvånad",
+     "överraskad",
+     "häpen",
+     "trött",
+     "sömnig"
+    ],
+    "big": [
+     "ledsen",
+     "sorgsen",
+     "arg",
+     "ilsken",
+     "rädd",
+     "skrämd",
+     "förvånad",
+     "överraskad",
+     "häpen",
+     "snabb",
+     "kvick"
+    ]
+   },
+   "scales": [
+    {
+     "id": "s.heat",
+     "pos": "adj",
+     "words": [
+      "ljummen",
+      "varm",
+      "kokhet"
+     ]
+    },
+    {
+     "id": "s.cold",
+     "pos": "adj",
+     "words": [
+      "sval",
+      "kall",
+      "iskall"
+     ]
+    },
+    {
+     "id": "s.wet",
+     "pos": "adj",
+     "words": [
+      "fuktig",
+      "blöt",
+      "genomblöt"
+     ]
+    },
+    {
+     "id": "s.angry",
+     "pos": "adj",
+     "words": [
+      "irriterad",
+      "arg",
+      "rasande"
+     ]
+    },
+    {
+     "id": "s.good",
+     "pos": "adj",
+     "words": [
+      "okej",
+      "bra",
+      "fantastisk"
+     ]
+    },
+    {
+     "id": "s.hunger",
+     "pos": "adj",
+     "words": [
+      "sugen",
+      "hungrig",
+      "utsvulten"
+     ]
+    },
+    {
+     "id": "s.drink",
+     "pos": "verb",
+     "words": [
+      "smutta",
+      "dricka",
+      "svepa"
+     ]
+    },
+    {
+     "id": "s.like",
+     "pos": "verb",
+     "words": [
+      "gilla",
+      "älska",
+      "avguda"
+     ]
+    },
+    {
+     "id": "s.voice",
+     "pos": "verb",
+     "words": [
+      "viska",
+      "prata",
+      "skrika"
+     ]
+    }
+   ],
+   "fields": {
+    "say": {
+     "head": "sa",
+     "form": "preteritum",
+     "words": [
+      "viskade",
+      "ropade",
+      "frågade",
+      "svarade",
+      "förklarade",
+      "lovade"
+     ],
+     "sentences": [
+      {
+       "id": "f1",
+       "text": "”Sch, bebisen sover”, {gap} {name} alldeles tyst.",
+       "plainVerbOK": true,
+       "fit": {
+        "viskade": true,
+        "ropade": false,
+        "frågade": false,
+        "svarade": false,
+        "förklarade": false,
+        "lovade": false
+       }
+      },
+      {
+       "id": "f2",
+       "text": "”Jag har en hemlighet till dig”, {gap} {name} tyst i mormors öra.",
+       "plainVerbOK": true,
+       "fit": {
+        "viskade": true,
+        "ropade": false,
+        "frågade": false,
+        "svarade": false,
+        "förklarade": false,
+        "lovade": false
+       }
+      },
+      {
+       "id": "f3",
+       "text": "Bussen skulle just åka, därför {gap} {name}: ”Vänta på mig!”",
+       "plainVerbOK": true,
+       "fit": {
+        "viskade": false,
+        "ropade": true,
+        "frågade": false,
+        "svarade": false,
+        "förklarade": false,
+        "lovade": false
+       }
+      },
+      {
+       "id": "f4",
+       "text": "”Kom och lek!” {gap} {name} över hela skolgården.",
+       "plainVerbOK": true,
+       "fit": {
+        "viskade": false,
+        "ropade": true,
+        "frågade": false,
+        "svarade": false,
+        "förklarade": false,
+        "lovade": false
+       }
+      },
+      {
+       "id": "f5",
+       "text": "”Var är min röda mössa?” {gap} {name}.",
+       "plainVerbOK": true,
+       "fit": {
+        "viskade": false,
+        "ropade": false,
+        "frågade": true,
+        "svarade": false,
+        "förklarade": false,
+        "lovade": false
+       }
+      },
+      {
+       "id": "f6",
+       "text": "Mamma undrade: ”Är du hungrig?” ”Ja, jättehungrig”, {gap} {name}.",
+       "plainVerbOK": true,
+       "fit": {
+        "viskade": false,
+        "ropade": false,
+        "frågade": false,
+        "svarade": true,
+        "förklarade": false,
+        "lovade": false
+       }
+      },
+      {
+       "id": "f7",
+       "text": "”Först gräver man en grop, sedan lägger man i fröet”, {gap} {name}.",
+       "plainVerbOK": true,
+       "fit": {
+        "viskade": false,
+        "ropade": false,
+        "frågade": false,
+        "svarade": false,
+        "förklarade": true,
+        "lovade": false
+       }
+      },
+      {
+       "id": "f8",
+       "text": "”Jag ska mata fiskarna varje dag, det lovar jag!” {gap} {name}.",
+       "plainVerbOK": true,
+       "fit": {
+        "viskade": false,
+        "ropade": false,
+        "frågade": false,
+        "svarade": false,
+        "förklarade": false,
+        "lovade": true
+       }
+      }
+     ]
+    },
+    "go": {
+     "head": "gå",
+     "words": [
+      "promenera",
+      "marschera",
+      "krypa",
+      "skynda",
+      "strosa",
+      "vandra",
+      "smyga",
+      "rusa"
+     ]
+    },
+    "look": {
+     "head": "titta",
+     "words": [
+      "kika",
+      "stirra",
+      "glutta",
+      "glo",
+      "spana",
+      "betrakta",
+      "iaktta",
+      "plira"
+     ]
+    }
+   },
+   "quotes": [
+    "”",
+    "”"
+   ],
+   "instructionBans": {
+    "base": [
+     "streck",
+     "ruta",
+     "rutan",
+     "bild",
+     "bilden"
+    ],
+    "pictures": [
+     "streck",
+     "ruta",
+     "rutan",
+     "kort",
+     "kortet"
+    ],
+    "pairs": [
+     "ruta",
+     "rutan",
+     "kort",
+     "kortet",
+     "bild",
+     "ringa"
+    ],
+    "shades": [
+     "streck",
+     "kort",
+     "kortet",
+     "samma"
+    ],
+    "say": [
+     "streck",
+     "kort",
+     "kortet"
+    ],
+    "fields": [
+     "streck",
+     "kort",
+     "kortet",
+     "ruta",
+     "rutan"
+    ]
+   },
+   "strings": {
+    "base": {
+     "title": "Synonymer: ringa in ordet som betyder samma sak",
+     "instruction": "Läs det stora ordet på varje kort och ringa in det ord under som betyder samma sak."
+    },
+    "pictures": {
+     "title": "Synonymer med bilder: två ord till en bild",
+     "instruction": "Titta på varje bild och ringa in de två ord under den som betyder samma sak och passar till bilden."
+    },
+    "pairs": {
+     "title": "Synonympar: para ihop ord som betyder samma sak",
+     "instruction": "Dra ett streck från varje ord till vänster till det ord till höger som betyder samma sak."
+    },
+    "shades": {
+     "title": "Ordens styrka: från lite till mycket",
+     "instruction": "Läs de tre orden i varje rad och skriv 1, 2 och 3 i rutorna, från det svagaste ordet till det starkaste."
+    },
+    "say": {
+     "title": "Synonymer till sa: välj ordet som passar",
+     "instruction": "Läs varje mening och skriv det ord från pratbubblan som passar bäst i rutan i stället för sa."
+    },
+    "fields": {
+     "title": "Synonymer till gå och titta: sortera orden",
+     "instruction": "Läs de tio orden och skriv varje ord i fältet gå eller i fältet titta, där det hör hemma."
+    }
+   }
+  },
+  "word-parts": {
+   "familyHead": "Släktord, prefix och suffix",
+   "inflections": [
+    "ar",
+    "er",
+    "or",
+    "en",
+    "et",
+    "na",
+    "arna",
+    "erna",
+    "orna",
+    "ade",
+    "de",
+    "te",
+    "s"
+   ],
+   "families": [
+    {
+     "id": "hjälp",
+     "stem": "hjälp",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "hjälp"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "hjälpa",
+       "kind": "derived",
+       "slot": "verb"
+      },
+      {
+       "word": "hjälpare",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "hjälpsam",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "hjälpsamhet",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "hjälplös",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "medhjälpare",
+       "kind": "prefixed",
+       "slot": "noun-person"
+      },
+      {
+       "word": "hjälpmedel",
+       "kind": "compound",
+       "slot": "noun-thing"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "hjärta",
+       "whyNotFamily": "ett organ i kroppen; det har inget med hjälp att göra"
+      },
+      {
+       "word": "hjul",
+       "whyNotFamily": "sitter på en cykel; bara \"hj\" är lika"
+      },
+      {
+       "word": "hjort",
+       "whyNotFamily": "ett djur i skogen"
+      }
+     ]
+    },
+    {
+     "id": "spel",
+     "stem": "spel",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "spel"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "spela",
+       "kind": "derived",
+       "slot": "verb"
+      },
+      {
+       "word": "spelare",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "spelbar",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "spelning",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "medspelare",
+       "kind": "prefixed",
+       "slot": "noun-person"
+      },
+      {
+       "word": "motspelare",
+       "kind": "prefixed",
+       "slot": "noun-person"
+      },
+      {
+       "word": "spelplan",
+       "kind": "compound",
+       "slot": "noun-thing"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "spegel",
+       "whyNotFamily": "du ser dig själv i den; inte ett spel"
+      },
+      {
+       "word": "spade",
+       "whyNotFamily": "man gräver med den"
+      },
+      {
+       "word": "spenat",
+       "whyNotFamily": "en grön grönsak"
+      }
+     ]
+    },
+    {
+     "id": "bygg",
+     "stem": "bygg",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "bygg"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "bygga",
+       "kind": "derived",
+       "slot": "verb"
+      },
+      {
+       "word": "byggare",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "byggnad",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "bygge",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "tillbyggnad",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "påbyggnad",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "byggkloss",
+       "kind": "compound",
+       "slot": "noun-thing"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "byxor",
+       "whyNotFamily": "kläder på benen"
+      },
+      {
+       "word": "by",
+       "whyNotFamily": "en liten ort på landet; bara \"by\" är lika"
+      },
+      {
+       "word": "byrå",
+       "whyNotFamily": "en möbel med lådor"
+      }
+     ]
+    },
+    {
+     "id": "lär",
+     "stem": "lär",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "lär"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "lära",
+       "kind": "derived",
+       "slot": "verb"
+      },
+      {
+       "word": "lärare",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "lärling",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "lärande",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "lärorik",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "inlärning",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "lärobok",
+       "kind": "compound",
+       "slot": "noun-thing"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "lärka",
+       "whyNotFamily": "en fågel som sjunger; bara \"lär\" är lika"
+      },
+      {
+       "word": "läppar",
+       "whyNotFamily": "en del av munnen"
+      },
+      {
+       "word": "länk",
+       "whyNotFamily": "en ring i en kedja"
+      }
+     ]
+    },
+    {
+     "id": "smak",
+     "stem": "smak",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "smak"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "smaka",
+       "kind": "derived",
+       "slot": "verb"
+      },
+      {
+       "word": "smaklig",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "smaklös",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "smakfull",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "välsmakande",
+       "kind": "prefixed",
+       "slot": "adjective"
+      },
+      {
+       "word": "eftersmak",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "smakprov",
+       "kind": "compound",
+       "slot": "noun-thing"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "smal",
+       "whyNotFamily": "inte tjock"
+      },
+      {
+       "word": "smycke",
+       "whyNotFamily": "något fint att bära"
+      },
+      {
+       "word": "smör",
+       "whyNotFamily": "man bre på smörgåsen"
+      }
+     ]
+    },
+    {
+     "id": "läs",
+     "stem": "läs",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "läs"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "läsa",
+       "kind": "derived",
+       "slot": "verb"
+      },
+      {
+       "word": "läsare",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "läsning",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "läsbar",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "uppläsning",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "uppläsare",
+       "kind": "prefixed",
+       "slot": "noun-person"
+      },
+      {
+       "word": "läsebok",
+       "kind": "compound",
+       "slot": "noun-thing"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "läpp",
+       "whyNotFamily": "en del av munnen"
+      },
+      {
+       "word": "läder",
+       "whyNotFamily": "ett material till skor"
+      },
+      {
+       "word": "läge",
+       "whyNotFamily": "en plats där något står"
+      }
+     ]
+    },
+    {
+     "id": "vän",
+     "stem": "vän",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "vän"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "vänlig",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "vänlighet",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "vänskap",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "vänskaplig",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "väninna",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "vänligen",
+       "kind": "derived",
+       "slot": "adverb"
+      },
+      {
+       "word": "barndomsvän",
+       "kind": "compound",
+       "slot": "noun-person"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "vänta",
+       "whyNotFamily": "att stå still tills något händer; inte om vänner"
+      },
+      {
+       "word": "vänster",
+       "whyNotFamily": "motsatsen till höger"
+      },
+      {
+       "word": "väska",
+       "whyNotFamily": "något man bär saker i"
+      }
+     ]
+    },
+    {
+     "id": "tänk",
+     "stem": "tänk",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "tänk"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "tänka",
+       "kind": "derived",
+       "slot": "verb"
+      },
+      {
+       "word": "tänkare",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "tänkbar",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "tänkande",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "eftertänksam",
+       "kind": "prefixed",
+       "slot": "adjective"
+      },
+      {
+       "word": "betänka",
+       "kind": "prefixed",
+       "slot": "verb"
+      },
+      {
+       "word": "betänketid",
+       "kind": "compound",
+       "slot": "noun-thing"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "tänder",
+       "whyNotFamily": "man biter med dem"
+      },
+      {
+       "word": "tävla",
+       "whyNotFamily": "att försöka vinna; bara \"tä\" är lika"
+      },
+      {
+       "word": "täcke",
+       "whyNotFamily": "man har det över sig i sängen"
+      }
+     ]
+    }
+   ],
+   "rootFamilies": [
+    {
+     "id": "flyg",
+     "stem": "flyg",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "flyg"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "flyga",
+       "kind": "derived",
+       "slot": "verb"
+      },
+      {
+       "word": "flygare",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "flygning",
+       "kind": "derived",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "flygande",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "avflygning",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "överflygning",
+       "kind": "prefixed",
+       "slot": "noun-thing"
+      },
+      {
+       "word": "flygplan",
+       "kind": "compound",
+       "slot": "noun-thing"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "flicka",
+       "whyNotFamily": "ett barn; bara \"fl\" är lika"
+      },
+      {
+       "word": "flaska",
+       "whyNotFamily": "man häller saft ur den"
+      },
+      {
+       "word": "flagga",
+       "whyNotFamily": "ett tyg med färger på en stång"
+      }
+     ]
+    },
+    {
+     "id": "dans",
+     "stem": "dans",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "dans"
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "dansa",
+       "kind": "derived",
+       "slot": "verb"
+      },
+      {
+       "word": "dansare",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "dansös",
+       "kind": "derived",
+       "slot": "noun-person"
+      },
+      {
+       "word": "dansant",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "dansbar",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "dansande",
+       "kind": "derived",
+       "slot": "adjective"
+      },
+      {
+       "word": "dansbana",
+       "kind": "compound",
+       "slot": "noun-thing"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "dator",
+       "whyNotFamily": "en maskin man skriver på"
+      },
+      {
+       "word": "dag",
+       "whyNotFamily": "motsatsen till natt"
+      },
+      {
+       "word": "dam",
+       "whyNotFamily": "en vuxen kvinna"
+      }
+     ]
+    }
+   ],
+   "picFamilies": [
+    {
+     "id": "sol",
+     "stem": "sol",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "sol",
+      "pic": {
+       "theme": "weather",
+       "noun": "sun"
+      },
+      "picOpened": true
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "solig",
+       "kind": "derived",
+       "slot": "adjective"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "soffa",
+       "whyNotFamily": "börjar som \"sol\" men är inte byggt av ordet"
+      },
+      {
+       "word": "socker",
+       "whyNotFamily": "börjar som \"sol\" men är inte byggt av ordet"
+      },
+      {
+       "word": "sopor",
+       "whyNotFamily": "börjar som \"sol\" men är inte byggt av ordet"
+      }
+     ]
+    },
+    {
+     "id": "moln",
+     "stem": "moln",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "moln",
+      "pic": {
+       "theme": "spring",
+       "noun": "cloud"
+      },
+      "picOpened": true
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "molnig",
+       "kind": "derived",
+       "slot": "adjective"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "morot",
+       "whyNotFamily": "börjar som \"moln\" men är inte byggt av ordet"
+      },
+      {
+       "word": "mobil",
+       "whyNotFamily": "börjar som \"moln\" men är inte byggt av ordet"
+      },
+      {
+       "word": "moped",
+       "whyNotFamily": "börjar som \"moln\" men är inte byggt av ordet"
+      }
+     ]
+    },
+    {
+     "id": "hår",
+     "stem": "hår",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "hår",
+      "pic": {
+       "theme": "body parts",
+       "noun": "hair"
+      },
+      "picOpened": true
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "hårig",
+       "kind": "derived",
+       "slot": "adjective"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "hålla",
+       "whyNotFamily": "börjar nästan som \"hår\" men är inte byggt av ordet"
+      },
+      {
+       "word": "hållplats",
+       "whyNotFamily": "börjar nästan som \"hår\" men är inte byggt av ordet"
+      },
+      {
+       "word": "håv",
+       "whyNotFamily": "börjar nästan som \"hår\" men är inte byggt av ordet"
+      }
+     ]
+    },
+    {
+     "id": "hand",
+     "stem": "hand",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "hand",
+      "pic": {
+       "theme": "body parts",
+       "noun": "hand"
+      },
+      "picOpened": true
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "handlig",
+       "kind": "derived",
+       "slot": "adjective"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "hammare",
+       "whyNotFamily": "börjar som \"hand\" men är inte byggt av ordet"
+      },
+      {
+       "word": "hatt",
+       "whyNotFamily": "börjar som \"hand\" men är inte byggt av ordet"
+      },
+      {
+       "word": "hare",
+       "whyNotFamily": "börjar som \"hand\" men är inte byggt av ordet"
+      }
+     ]
+    },
+    {
+     "id": "tand",
+     "stem": "tand",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "tand",
+      "pic": {
+       "theme": "body parts",
+       "noun": "tooth"
+      },
+      "picOpened": true
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "tandlös",
+       "kind": "derived",
+       "slot": "adjective"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "tavla",
+       "whyNotFamily": "börjar som \"tand\" men är inte byggt av ordet"
+      },
+      {
+       "word": "tallrik",
+       "whyNotFamily": "börjar som \"tand\" men är inte byggt av ordet"
+      },
+      {
+       "word": "tak",
+       "whyNotFamily": "börjar som \"tand\" men är inte byggt av ordet"
+      }
+     ]
+    },
+    {
+     "id": "fisk",
+     "stem": "fisk",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "fisk",
+      "pic": {
+       "theme": "ocean life",
+       "noun": "fish"
+      },
+      "picOpened": true
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "fiskare",
+       "kind": "derived",
+       "slot": "noun-person"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "fika",
+       "whyNotFamily": "börjar som \"fisk\" men är inte byggt av ordet"
+      },
+      {
+       "word": "fil",
+       "whyNotFamily": "börjar som \"fisk\" men är inte byggt av ordet"
+      },
+      {
+       "word": "finger",
+       "whyNotFamily": "börjar som \"fisk\" men är inte byggt av ordet"
+      }
+     ]
+    },
+    {
+     "id": "tält",
+     "stem": "tält",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "tält",
+      "pic": {
+       "theme": "camping",
+       "noun": "tent"
+      },
+      "picOpened": true
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "tälta",
+       "kind": "derived",
+       "slot": "verb"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "tärning",
+       "whyNotFamily": "börjar som \"tält\" men är inte byggt av ordet"
+      },
+      {
+       "word": "tävling",
+       "whyNotFamily": "börjar som \"tält\" men är inte byggt av ordet"
+      },
+      {
+       "word": "tända",
+       "whyNotFamily": "börjar som \"tält\" men är inte byggt av ordet"
+      }
+     ]
+    },
+    {
+     "id": "berg",
+     "stem": "berg",
+     "rootIsFreeWord": true,
+     "root": {
+      "word": "berg",
+      "pic": {
+       "theme": "camping",
+       "noun": "mountain"
+      },
+      "picOpened": true
+     },
+     "signed": true,
+     "members": [
+      {
+       "word": "bergig",
+       "kind": "derived",
+       "slot": "adjective"
+      }
+     ],
+     "lookAlikes": [
+      {
+       "word": "bebis",
+       "whyNotFamily": "börjar som \"berg\" men är inte byggt av ordet"
+      },
+      {
+       "word": "bestick",
+       "whyNotFamily": "börjar som \"berg\" men är inte byggt av ordet"
+      },
+      {
+       "word": "bensin",
+       "whyNotFamily": "börjar som \"berg\" men är inte byggt av ordet"
+      }
+     ]
+    }
+   ],
+   "sentences": {
+    "hjälp": [
+     {
+      "word": "hjälpa",
+      "slot": "verb",
+      "frame": "Kan du {gap} mig att bära kassen?"
+     },
+     {
+      "word": "hjälpare",
+      "slot": "noun-person",
+      "frame": "Mormor fick en liten {gap} i köket."
+     },
+     {
+      "word": "hjälpmedel",
+      "slot": "noun-thing",
+      "frame": "Glasögon är ett {gap} för den som ser dåligt."
+     },
+     {
+      "word": "hjälpsam",
+      "slot": "adjective",
+      "frame": "Det är fint att vara {gap} mot sina vänner."
+     }
+    ],
+    "lär": [
+     {
+      "word": "lära",
+      "slot": "verb",
+      "frame": "Storasyster ska {gap} mig att cykla i sommar."
+     },
+     {
+      "word": "lärare",
+      "slot": "noun-person",
+      "frame": "Vår {gap} läser en saga för klassen varje fredag."
+     },
+     {
+      "word": "lärobok",
+      "slot": "noun-thing",
+      "frame": "I min {gap} finns det många bilder på djur."
+     },
+     {
+      "word": "lärorik",
+      "slot": "adjective",
+      "frame": "Utflykten till museet var rolig och {gap}."
+     }
+    ]
+   },
+   "prefixKey": {
+    "prefixes": [
+     {
+      "prefix": "åter",
+      "meaning": "igen, en gång till"
+     },
+     {
+      "prefix": "miss",
+      "meaning": "fel"
+     },
+     {
+      "prefix": "över",
+      "meaning": "för mycket"
+     }
+    ],
+    "rows": [
+     {
+      "base": "använda",
+      "prefix": "åter",
+      "word": "återanvända",
+      "gloss": "använda en tom burk på nytt i stället för att slänga den"
+     },
+     {
+      "base": "berätta",
+      "prefix": "åter",
+      "word": "återberätta",
+      "gloss": "berätta med egna ord en saga som man har hört"
+     },
+     {
+      "base": "besöka",
+      "prefix": "åter",
+      "word": "återbesöka",
+      "gloss": "åka till en plats där man redan har varit förut"
+     },
+     {
+      "base": "få",
+      "prefix": "åter",
+      "word": "återfå",
+      "gloss": "få tillbaka en sak som man hade tappat bort"
+     },
+     {
+      "base": "vända",
+      "prefix": "åter",
+      "word": "återvända",
+      "gloss": "komma tillbaka hem efter en lång resa"
+     },
+     {
+      "base": "förstå",
+      "prefix": "miss",
+      "word": "missförstå",
+      "gloss": "tro att någon menar något annat än det den menar"
+     },
+     {
+      "base": "lyckas",
+      "prefix": "miss",
+      "word": "misslyckas",
+      "gloss": "inte klara det som man försöker göra"
+     },
+     {
+      "base": "fylla",
+      "prefix": "över",
+      "word": "överfylla",
+      "gloss": "hälla i så att saften rinner ut ur det fulla glaset"
+     },
+     {
+      "base": "koka",
+      "prefix": "över",
+      "word": "överkoka",
+      "gloss": "koka potatisen så länge att den blir alldeles mosig"
+     },
+     {
+      "base": "driva",
+      "prefix": "över",
+      "word": "överdriva",
+      "gloss": "göra en sak större och värre än den var när man berättar"
+     }
+    ],
+    "crossCheck": [
+     {
+      "base": "använda",
+      "prefix": "åter",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "använda",
+      "prefix": "miss",
+      "isWord": true,
+      "fitsGloss": false
+     },
+     {
+      "base": "använda",
+      "prefix": "över",
+      "isWord": true,
+      "fitsGloss": false
+     },
+     {
+      "base": "berätta",
+      "prefix": "åter",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "berätta",
+      "prefix": "miss",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "berätta",
+      "prefix": "över",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "besöka",
+      "prefix": "åter",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "besöka",
+      "prefix": "miss",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "besöka",
+      "prefix": "över",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "förstå",
+      "prefix": "åter",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "förstå",
+      "prefix": "miss",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "förstå",
+      "prefix": "över",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "lyckas",
+      "prefix": "åter",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "lyckas",
+      "prefix": "miss",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "lyckas",
+      "prefix": "över",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "fylla",
+      "prefix": "åter",
+      "isWord": true,
+      "fitsGloss": false
+     },
+     {
+      "base": "fylla",
+      "prefix": "miss",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "fylla",
+      "prefix": "över",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "koka",
+      "prefix": "åter",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "koka",
+      "prefix": "miss",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "koka",
+      "prefix": "över",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "driva",
+      "prefix": "åter",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "driva",
+      "prefix": "miss",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "driva",
+      "prefix": "över",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "få",
+      "prefix": "åter",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "få",
+      "prefix": "miss",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "få",
+      "prefix": "över",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "vända",
+      "prefix": "åter",
+      "isWord": true,
+      "fitsGloss": true
+     },
+     {
+      "base": "vända",
+      "prefix": "miss",
+      "isWord": false,
+      "fitsGloss": false
+     },
+     {
+      "base": "vända",
+      "prefix": "över",
+      "isWord": false,
+      "fitsGloss": false
+     }
+    ]
+   },
+   "negating": [
+    "o",
+    "icke"
+   ],
+   "agents": [
+    {
+     "key": "janitor",
+     "base": "städa",
+     "answer": {
+      "any": "städare"
+     },
+     "stemSigned": true
+    },
+    {
+     "key": "teacher",
+     "base": "lära",
+     "answer": {
+      "any": "lärare"
+     },
+     "stemSigned": true
+    },
+    {
+     "key": "singer",
+     "base": "sång",
+     "answer": {
+      "any": "sångare"
+     }
+    },
+    {
+     "key": "athlete",
+     "base": "löpa",
+     "answer": {
+      "any": "löpare"
+     },
+     "stemSigned": true
+    },
+    {
+     "key": "ballerina",
+     "base": "dans",
+     "answer": {
+      "any": "dansare"
+     }
+    },
+    {
+     "key": "pharmacist",
+     "base": "apotek",
+     "answer": {
+      "any": "apotekare"
+     }
+    },
+    {
+     "key": "doctor",
+     "base": "läka",
+     "answer": {
+      "any": "läkare"
+     },
+     "stemSigned": true
+    },
+    {
+     "key": "construction_worker",
+     "base": "bygga",
+     "answer": {
+      "any": "byggare"
+     },
+     "stemSigned": true
+    }
+   ],
+   "exemplar": {
+    "base": [
+     "bygg",
+     "hjälp"
+    ],
+    "F1": [
+     "weather/sun",
+     "spring/cloud",
+     "body parts/hair",
+     "body parts/hand",
+     "body parts/tooth",
+     "ocean life/fish",
+     "camping/tent",
+     "camping/mountain"
+    ],
+    "F2": [
+     "hjälp",
+     "spel",
+     "bygg",
+     "lär",
+     "smak",
+     "läs",
+     "vän",
+     "tänk"
+    ],
+    "F5": [
+     "hjälp",
+     "lär"
+    ]
+   },
+   "refuse": {
+    "base": false,
+    "picture-family": false,
+    "root-word": false,
+    "prefix-key": false,
+    "who-does-it": false,
+    "family-in-sentence": false
+   },
+   "strings": {
+    "base": {
+     "title": "Släktord: sortera orden efter ordstammen",
+     "instruction": "Läs varje ord överst och skriv det på en rad i den mur som står på ordets ordstam."
+    },
+    "picture-family": {
+     "title": "Släktord med bilder: ringa in rätt ord",
+     "instruction": "Säg vad varje bild föreställer och ringa in det enda ord ovanför som är byggt av bildens ord."
+    },
+    "root-word": {
+     "title": "Hitta ordstammen",
+     "instruction": "Ringa in den del som de tre orden har gemensamt och skriv ordstammen i den tomma stenen."
+    },
+    "prefix-key": {
+     "title": "Prefixen åter-, miss- och över-: välj efter betydelse",
+     "instruction": "Läs vad varje nytt ord betyder, hitta dess prefix i nyckeln och skriv det i den tomma biten."
+    },
+    "who-does-it": {
+     "title": "Vem gör det? Skriv ordet för personen",
+     "instruction": "Titta på varje person, läs ordet bredvid och skriv ordet för personen i den streckade rutan."
+    },
+    "family-in-sentence": {
+     "title": "Släktord i meningar",
+     "instruction": "Skriv vart och ett av de fyra orden i rutorna i den mening där det passar."
+    }
+   },
+   "agentSuffixes": [
+    "are"
+   ]
+  }
+ },
+ "refusals": {
+  "G1-380": "sv refuses the whole digraphs family: its letter teams (sj-, tj-, ng-ljudet) are already owned by the shipped spelling-rules family (G2-315 Stavningsregler), and no other Swedish team reaches 3 teams x 6 pictured approved words",
+  "K-378": "sv refuses the whole digraphs family: its letter teams (sj-, tj-, ng-ljudet) are already owned by the shipped spelling-rules family (G2-315 Stavningsregler), and no other Swedish team reaches 3 teams x 6 pictured approved words",
+  "G1-392": "sv refuses the whole digraphs family: its letter teams (sj-, tj-, ng-ljudet) are already owned by the shipped spelling-rules family (G2-315 Stavningsregler), and no other Swedish team reaches 3 teams x 6 pictured approved words",
+  "G1-393": "sv refuses the whole digraphs family: its letter teams (sj-, tj-, ng-ljudet) are already owned by the shipped spelling-rules family (G2-315 Stavningsregler), and no other Swedish team reaches 3 teams x 6 pictured approved words",
+  "G1-394": "sv refuses the whole digraphs family: its letter teams (sj-, tj-, ng-ljudet) are already owned by the shipped spelling-rules family (G2-315 Stavningsregler), and no other Swedish team reaches 3 teams x 6 pictured approved words",
+  "G2-372": "sv refuses the whole digraphs family: its letter teams (sj-, tj-, ng-ljudet) are already owned by the shipped spelling-rules family (G2-315 Stavningsregler), and no other Swedish team reaches 3 teams x 6 pictured approved words"
+ },
+ "strandNames": {
+  "Road Safety": "Trafik (SO)",
+  "Science": "Naturorienterande ämnen (NO)",
+  "Map Skills": "Kartkunskap (SO)"
+ },
+ "enAudit": [
+  "K-369 road-safety base (EN): the deck title in i18n/strings.en.json (\"Road Safety: Traffic Lights, Stop or Go\") and the page title in data/b5/road-safety.js (\"Road Safety: Read the Traffic Light\") are two different strings, and \"Stop or Go\" names the CAR chips only: on the pedestrian cards the chips read wait / walk. sv titles the base by the lamp (\"Trafikregler för barn: vad visar trafikljuset?\") and its instruction quotes no chip word at all.",
+  "Several EN instructions are two or three sentences (G1-376 base, G1-378 base \"Read each sentence. Is it about ... ? Tick one box.\", G1-379 base, K-377, G1-391, G2-367, G2-368, G3-394, G3-395, G2-370, G3-396, G2-371, K-376, G1-388, G2-363, G2-364, G3-392): the brief asks for ONE child-level sentence. Every sv instruction is one sentence.",
+  "G1-391 moon-phases-in-order (EN): \"The Moon seems to grow, then shrink\" never points the child at the wedge above each row, the only thing that says whether THAT row grows or shrinks; read top to bottom it sounds like one sequence across both rows. sv names it: \"Titta på kilen i varje rad, om månen växer eller krymper\".",
+  "G2-362 relation-riddles (EN): the clause \"one word can fit more than one riddle\" is true only because English has one word for both grandmothers (and both aunts, uncles, grandfathers). In Swedish the eight answers are eight different words (mormor, farmor, morfar, farfar, moster, faster, morbror, farbror), so sv sets repeatsNote false and the riddle page itself becomes the Nordic teaching point: \"Olles mammas mamma är Olles mormor\". The base shows it too: the grandparents above the father are farmor / farfar, never a shared \"grandma\".",
+  "G2-369 compass-rose (EN title \"North, East, South, West: Finish the Rose\"): \"the Rose\" standing alone reads as the flower for a child and a teacher; the object is a compass rose. sv titles it \"Väderstreck: norr, öster, söder och väster\" (and never the standalone \"kompass\", treasure-hunt's word).",
+  "G3-397 fields (EN): \"write each one in the field of the word it means nearly the same as\" is a relative-clause stack a G2-G3 reader cannot parse. sv names both fields: \"skriv varje ord i fältet gå eller i fältet titta, där det hör hemma\".",
+  "G1-378 base facts (EN): \"It goes around the Earth.\" prints a body name inside a fact whose answer is the MOON, so a child who matches words ticks Earth. sv keeps the true fact (\"Den går runt Jorden.\") because every sv Moon fact without it is weaker, but the model should prefer facts that name no body.",
+  "G1-376 plants base (EN): the bank mixes \"roots\" (plural) with \"leaf\" (singular); the sv diagram register is singular throughout (rot, stjälk, blad, blomma, frukt, frö), never the definite forms roten / blomman on a chip.",
+  "G2-367 moon-phase-names: sv uses the child-transparent names \"växande halvmåne\" / \"avtagande halvmåne\" (measured 637.5 px, under the 647 px one-row bank; \"tilltagande halvmåne\" measured 660.3 px and would wrap), with nymåne and fullmåne. Sun, Earth and Moon are capitalised (Solen, Jorden, Månen) because the page is an astronomical context, which is what Språkrådet allows; everyday Swedish writes them lower case.",
+  "Road-safety sv sign table (unsure items flagged in regRef/signedBy): B2 Stopplikt, C1 Förbud mot infart med fordon, C2 Förbud mot trafik med fordon and D4 Påbjuden cykelbana are sure. The A-codes of the warning triangles (barn, gående, flerfärgssignal, cyklande), the code of Förbud mot gångtrafik, D5 Påbjuden gångbana (and whether its figure is adult + child) and B7 for övergångsställe are marked unsure. The coordinator hint \"E1 övergångsställe\" does not match Vägmärkesförordningen (2007:90) as I know it (E1 is Motorväg; övergångsställe is a B-sign), so B7 is shipped with an unsure flag. Swedish warning AND prohibition signs have a YELLOW field; the pedestrian light is a red standing / green walking figure with 2 lamps and no amber; gult ljus for cars means stanna (amberMeans stop), not the US \"slow down\".",
+  "digraphs (all six ids refused in sv, as expected): the Swedish letter-team sounds a lågstadiet child is taught (sj-, tj-, ng-ljudet) are the rules of the shipped spelling-rules family (G2-315 Stavningsregler), and no other Swedish team reaches 3 teams x 6 approved, pictured words; no native re-target found.",
+  "word-parts (sv): the lågstadiet term is \"släktord\" with a shared \"ordstam\", so the stones print the stem (bygg, läs, tänk, spel, hjälp), exactly as Swedish teachers write it; \"arbet\" is a bound stem (rootIsFreeWord false). No member begins with the negating o- (G2-320), no family is built on compounding alone (at most one compound each), and the prefix key is åter- (igen), miss- (fel), över- (för mycket), 3 prefixes x at least 3 rows, so F3 ships.",
+  "synonyms (sv): \"rolig\" is banned (it means fun, not funny: lustig / komisk carry funny), as are lätt (easy AND light), god (tasty AND good), fin, söt, dålig, snäll, lugn and stilla (each has two senses). The F4 sentences avoid \"så\" entirely because the gate folds diacritics and reads it as the struck head \"sa\".",
+  "map key sv: symbol words are indefinite citation forms (hus, träd, buske, damm, bänk, tält, blomrabatt, bro): \"rabatt\" alone also means a price discount, so the flower bed is \"blomrabatt\". Compass letters N Ö S V; seven världsdelar (Oceanien, Antarktis) and five världshav (Södra ishavet), as Swedish SO materials count them. The F2 mnemonic \"Nils Öppnar Stora Väskor\" is our own: there is no established Swedish rhyme for N-Ö-S-V."
+ ]
+}

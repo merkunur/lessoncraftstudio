@@ -35,14 +35,14 @@
   "lessons": {
     "fr-trad": [
       [
-        "i",
-        "u",
-        "t"
-      ],
-      [
         "e",
         "l",
-        "b",
+        "b"
+      ],
+      [
+        "i",
+        "u",
+        "t",
         "h",
         "k",
         "f"
@@ -144,7 +144,7 @@
   ],
   "strings": {
     "G2-377": {
-      "title": "Écriture cursive : les lettres i, u et t",
+      "title": "Écriture cursive : les lettres e, l et b",
       "instruction": "Repasse les lettres grises, puis continue à écrire chaque lettre attachée, tout seul, jusqu'au bout de la ligne et sur la ligne vide."
     },
     "G2-384": {
@@ -157,7 +157,7 @@
     },
     "G2-386": {
       "title": "Écriture cursive : copier des mots avec des images",
-      "instruction": "Repasse chaque mot gris d'un seul trait, puis écris-le sur la ligne en dessous et ajoute les points, les barres et les accents à la fin."
+      "instruction": "Repasse chaque mot gris en attachant d'abord les lettres, ajoute ensuite les points, les barres et les accents, puis écris-le sur la ligne du dessous."
     },
     "G2-387": {
       "title": "Lire l'écriture cursive : relie le mot à son image",

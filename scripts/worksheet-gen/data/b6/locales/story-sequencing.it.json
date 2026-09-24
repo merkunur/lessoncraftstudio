@@ -154,14 +154,14 @@
         "asse",
         "vernice",
         "pennello",
-        "barattolo"
+        "secchiello"
       ],
       "helpIds": [
         "fence",
         "plank",
         "paint",
         "brush",
-        "pot"
+        "bucket"
       ]
     },
     "letter": {
@@ -196,13 +196,13 @@
       "sentences": [
         "Prima c'è un foglio di carta.",
         "Poi il foglio è tagliato in cinque strisce.",
-        "Dopo due strisce sono incollate ad anello.",
+        "Dopo con due strisce si fanno due anelli.",
         "Infine cinque anelli formano una catena."
       ],
       "stateWords": [
         "un foglio",
         "cinque strisce",
-        "due strisce",
+        "due anelli",
         "catena"
       ],
       "helpWords": [
@@ -259,7 +259,7 @@
     },
     "first-next-last-cut": {
       "title": "Storie in sequenza da ritagliare: prima, dopo, infine",
-      "instruction": "Ritaglia le vignette di ogni striscia e incollale nelle cornici vuote sopra Prima, Dopo e Infine."
+      "instruction": "Ritaglia le vignette di ogni striscia e incollale sul filo con lo stesso simbolo, nelle cornici vuote sopra Prima, Dopo e Infine."
     },
     "what-happens-next": {
       "title": "Storie in sequenza: che cosa succede dopo?",
@@ -270,8 +270,8 @@
       "instruction": "Guarda l'inizio e la conclusione di ogni storia e disegna nel riquadro centrale che cosa succede nello svolgimento."
     },
     "sequencing-sentences": {
-      "title": "Storie in sequenza: collega le frasi alle vignette",
-      "instruction": "Leggi le frasi di ogni storia e collega con una linea ogni frase alla sua vignetta."
+      "title": "Storie in sequenza: numera le frasi e collegale alle vignette",
+      "instruction": "Numera in ordine nei riquadri le frasi di ogni storia, poi collega con una linea ogni frase alla sua vignetta."
     },
     "retell-with-starters": {
       "title": "Sequenze di immagini per raccontare una storia",

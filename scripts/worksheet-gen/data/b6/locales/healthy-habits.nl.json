@@ -1,27 +1,27 @@
 {
   "strings": {
     "base": {
-      "title": "Hygiëne en verzorging: wat heeft elk kind nodig?",
-      "instruction": "Trek een lijn van elk kind naar het ding dat dat kind nodig heeft."
+      "title": "Voor jezelf zorgen: wat gebruikt elk kind?",
+      "instruction": "Trek een lijn van elk kind naar het ding dat het kind gebruikt."
     },
     "hand-washing-steps": {
       "title": "Stappenplan handen wassen: nummer de plaatjes",
       "instruction": "Schrijf 1 tot en met 5 in de hokjes om te laten zien hoe we onze handen wassen."
     },
     "brushing-teeth": {
-      "title": "Tanden poetsen: voor, tijdens en na het poetsen",
-      "instruction": "Omcirkel bij elk plaatje het woord dat zegt wanneer het gebeurt: voor, bij of na het poetsen."
+      "title": "Tanden poetsen: voor, bij of na het poetsen?",
+      "instruction": "Omcirkel per plaatje: voor, bij of na het poetsen."
     },
     "stop-the-germs": {
-      "title": "Stop de bacillen: hoest en nies in je elleboog",
+      "title": "Stop de bacillen: wat houdt bacillen tegen?",
       "instruction": "Omcirkel in elke rij het plaatje dat de bacillen tegenhoudt."
     },
     "why-habits": {
-      "title": "Hygiëne en verzorging: waarom doen we dat?",
+      "title": "Goed voor jezelf zorgen: waarom doen we dat?",
       "instruction": "Trek een lijn van elke gewoonte naar de zin die vertelt waarom we dat doen."
     },
     "habit-chart": {
-      "title": "Weekschema verzorging: poetsen, wassen, bewegen en slapen",
+      "title": "Weekschema: zo zorg ik goed voor mezelf",
       "instruction": "Zet elke dag een vinkje in het hokje van elke gewoonte die je hebt gedaan."
     }
   },
@@ -33,7 +33,7 @@
   "labels": {
     "wash-hands": "handen wassen",
     "brush-teeth": "tanden poetsen",
-    "sleep": "slapen",
+    "sleep": "op tijd naar bed",
     "move-body": "bewegen",
     "drink-water": "water drinken",
     "sun-protect": "veilig in de zon",

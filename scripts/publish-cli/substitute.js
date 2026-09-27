@@ -391,6 +391,9 @@ function apply(opts) {
     // (publish.js renames printable.pdf → <slug>-printable.pdf). No-op for
     // interactive decks (placeholder absent).
     .replace(/__PDF_URL__/g, canonicalURL + slug + '-printable.pdf')
+    // __ANSWER_KEY_URL__: the answer-key link on a worksheet-gen INTERACTIVE deck (Level Set
+    // 2026-09-27; publish.js renames answer-key.pdf → <slug>-answer-key.pdf). No-op elsewhere.
+    .replace(/__ANSWER_KEY_URL__/g, canonicalURL + slug + '-answer-key.pdf')
     // R5: normalize the app-baked bare <html lang="xx"> to the BCP-47 code
     // (pt→pt-BR) per hreflang.ts SoT. publish-cli is the single choke point;
     // idempotent (passthrough/same-string for non-pt locales).

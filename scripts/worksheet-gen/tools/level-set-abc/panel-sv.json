@@ -1,0 +1,8 @@
+{
+  "tap": "Tryck på orden i alfabetisk ordning. Ordet du trycker på först får 1.",
+  "tapSame": "Tryck på orden i alfabetisk ordning. Börjar två ord lika? Se på andra bokstaven.",
+  "notes": [
+    "alfabetisk ordning + Se på andra bokstaven reused from the printed sheets; tryck på = the usual tablet verb in lågstadiet.",
+    "EN audit: tap contains the digit 2 (the next gets 2), which the brief's own no-digits-except-1 rule forbids; the 1 alone carries the idea, so these versions say only that the first tapped word gets 1."
+  ]
+}

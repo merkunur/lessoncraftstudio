@@ -60,7 +60,18 @@ export type HubRow = Landing & {
    * (config/interactive-exercise-types.ts) and needs no database at all.
    */
   hasAnswerKey?: boolean;
+  /**
+   * Set only on Level Set rows of a type whose Level Set decks ship a screen version
+   * (config/interactive-level-set-types.ts). Wins over the type-level print-only mark:
+   * the type's published deck is printable, these copies are interactive.
+   */
+  interactive?: boolean;
 };
+
+/** A row is print-only unless it is an interactive Level Set row, else by its type. */
+export function rowIsPrintOnly(l: HubRow, isPrintOnlyType: (type: string) => boolean): boolean {
+  return l.interactive ? false : isPrintOnlyType(l.coordinate.type);
+}
 
 /**
  * What the hub knows about one deck row, keyed by slug.
@@ -163,6 +174,8 @@ export interface LevelSetDeck {
   title: string;
   exerciseMode: string | null;
   hasAnswerKey: boolean;
+  /** The deck ships an interactive screen version (its type is in INTERACTIVE_LEVEL_SET_TYPES). */
+  interactive?: boolean;
 }
 
 /**
@@ -222,6 +235,7 @@ export function levelSetRows(
       collapseSiblings: [],
       deckHref: deckHrefOf(d.slug),
       hasAnswerKey: d.hasAnswerKey,
+      ...(d.interactive ? { interactive: true } : {}),
     };
   });
 }

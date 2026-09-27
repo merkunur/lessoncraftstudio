@@ -32,6 +32,7 @@ const i18n = require('../../publish-cli/i18n.js');
 const taxonomy = require('../../publish-cli/taxonomy.js');
 const TAXONOMY_JSON = require('../../../frontend/config/topics-taxonomy.json');
 const TITLE_CONFIG = require('../../publish-cli/seo-title-config.json');
+const { buildInteractive } = require('./interactive-runtime.js');
 
 // Per-family skill sentences (the printable analogue of publish-cli's
 // seo-skill-sentences.json): join bandedDescription's middle pool so
@@ -157,7 +158,10 @@ const PAGE_CSS = [
 
 /**
  * @param {object} o {manifest, spec, strings {title, instruction}, locale,
- *   preview {dataUri, width, height}}
+ *   preview {dataUri, width, height},
+ *   interactive? {kind, items, instruction, preview {dataUri, width, height}} — Level Set
+ *   2026-09-27: the SCREEN version (emit/interactive-runtime.js) over the screen render,
+ *   plus an answer-key link. Absent → the static printable page, byte-identical.}
  * @returns {string} deck.html
  */
 function buildDeckHtml(o) {
@@ -201,6 +205,11 @@ function buildDeckHtml(o) {
 
   const downloadLabel = word(locale, 'download_pdf', 'Download the free PDF');
   const breadcrumbLd = buildBreadcrumbLd(locale, typeAxis, strings.title);
+  const ia = o.interactive
+    ? { ...buildInteractive({ kind: o.interactive.kind, locale, items: o.interactive.items }), instruction: o.interactive.instruction, preview: o.interactive.preview }
+    : null;
+  const shown = ia ? ia.preview : preview;
+  const keyLabel = ia ? i18n.resolve(locale, 'topicPage.deckCard.answerKeyLink', 'Answer Key').value : null;
 
   return [
     '<!DOCTYPE html>',
@@ -213,19 +222,23 @@ function buildDeckHtml(o) {
     '<link rel="preconnect" href="https://fonts.googleapis.com">',
     '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>',
     '<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media=\'all\'">',
-    '<style>' + PAGE_CSS + '</style>',
+    '<style>' + PAGE_CSS + (ia ? '\n' + ia.css + '\n.lcs-download{gap:12px;flex-wrap:wrap}' : '') + '</style>',
     '<script type="application/ld+json">' + breadcrumbLd + '</script>',
     '<!-- HREFLANG_INSERTION_POINT -->',
     '</head>',
     '<body>',
     '<main id="lcs-app" aria-label="__APP_ARIA_LABEL__">',
     '  <h1>' + esc(strings.title) + (themeName ? ' — ' + esc(themeName) : '') + '</h1>',
-    '  <p class="lcs-instruction">' + esc(strings.instruction) + '</p>',
+    '  <p class="lcs-instruction">' + esc(ia ? ia.instruction : strings.instruction) + '</p>',
     '  <div class="lcs-worksheet">',
-    '    <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="__WORKSHEET_MAIN_ALT__" width="' + preview.width + '" height="' + preview.height + '" src="' + preview.dataUri + '">',
+    (ia ? '    ' + ia.stageOpen : null),
+    '    <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="__WORKSHEET_MAIN_ALT__" width="' + shown.width + '" height="' + shown.height + '" src="' + shown.dataUri + '">',
+    (ia ? '    ' + ia.stageClose : null),
     '  </div>',
+    (ia ? ia.controls : null),
     '  <div class="lcs-download">',
     '    <a class="lcs-download-cta" href="__PDF_URL__">⬇ ' + esc(downloadLabel) + '</a>',
+    (ia ? '    <a class="lcs-download-cta" href="__ANSWER_KEY_URL__" style="background:#146B5E">✓ ' + esc(keyLabel) + '</a>' : null),
     '  </div>',
     '</main>',
     '<aside class="lcs-end-deck">',
@@ -241,10 +254,11 @@ function buildDeckHtml(o) {
     '</aside>',
     buildSuggestionsStrip(),
     '<footer class="lcs-footer">Made with <a href="https://www.lessoncraftstudio.com">LessonCraftStudio.com</a></footer>',
+    (ia ? ia.script : null),
     '</body>',
     '</html>',
     '',
-  ].join('\n');
+  ].filter((l) => l !== null).join('\n');
 }
 
 module.exports = { buildDeckHtml, themeNameFor, typeAxisFor, levelFor, skillSentenceFor };

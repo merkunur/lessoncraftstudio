@@ -1,0 +1,8 @@
+{
+  "tap": "Napauta sanoja aakkosjärjestyksessä. Ensimmäinen napauttamasi sana saa numeron 1.",
+  "tapSame": "Napauta sanoja aakkosjärjestyksessä. Jos alkukirjain on sama, katso toista kirjainta.",
+  "notes": [
+    "aakkosjärjestys + the second sentence of tapSame are the printed G1-264 instruction verbatim.",
+    "EN audit: tap contains the digit 2 (the next gets 2), which the brief's own no-digits-except-1 rule forbids; the 1 alone carries the idea, so these versions say only that the first tapped word gets 1."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "tap": "Tippe die Wörter nach dem Alphabet an. Das erste Wort, das du antippst, bekommt die 1.",
+  "tapSame": "Tippe die Wörter nach dem Alphabet an. Fangen zwei Wörter gleich an, entscheidet der zweite Buchstabe.",
+  "notes": [
+    "Reuses the printed key phrases \"nach dem Alphabet\" (G1-245) and \"Der zweite Buchstabe entscheidet\" (G1-264); du-register as printed.",
+    "\"antippen\" is the natural Grundschule/tablet verb; \"bekommt die 1\" is the spoken classroom form for a number.",
+    "ABC-Leiste not repeated: it is visible on screen and would push tap past 90 chars."
+  ]
+}

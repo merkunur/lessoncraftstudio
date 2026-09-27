@@ -1,0 +1,8 @@
+{
+  "tap": "Trykk på ordene i alfabetisk rekkefølge. Ordet du trykker på først, får 1.",
+  "tapSame": "Trykk på ordene i alfabetisk rekkefølge. Hvis to ord begynner likt, se på den andre bokstaven.",
+  "notes": [
+    "Bokmål; alfabetisk rekkefølge, begynner likt, den andre bokstaven reused from the printed sheets.",
+    "EN audit: tap contains the digit 2 (the next gets 2), which the brief's own no-digits-except-1 rule forbids; the 1 alone carries the idea, so these versions say only that the first tapped word gets 1."
+  ]
+}

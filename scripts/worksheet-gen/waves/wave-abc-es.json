@@ -1,0 +1,297 @@
+{
+  "id": "wave-abc-es",
+  "_note": "Level Set 2026-09-27: Alphabetical Order (G1-245 + 3 faces), 3 levels x 5 copies, each copy a different verified theme (tools/level-set-abc/build-waves.js). Visible to teachers, never indexed; PDF + interactive screen version + answer key.",
+  "indexable": false,
+  "interactive": true,
+  "seedEpoch": 1,
+  "locales": [
+    "es"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G1-245",
+    "G1-262",
+    "G1-263",
+    "G1-264"
+  ],
+  "levels": {
+    "G1-245": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "winter"
+        },
+        {
+          "copy": 2,
+          "theme": "home bw"
+        },
+        {
+          "copy": 3,
+          "theme": "around the house"
+        },
+        {
+          "copy": 4,
+          "theme": "sports bw"
+        },
+        {
+          "copy": 5,
+          "theme": "christmas"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "toys bw 2"
+        },
+        {
+          "copy": 3,
+          "theme": "dinosaurs"
+        },
+        {
+          "copy": 4,
+          "theme": "zoo animals bw"
+        },
+        {
+          "copy": 5,
+          "theme": "hospital"
+        },
+        {
+          "copy": 6,
+          "theme": "apparel bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "forest creatures"
+        },
+        {
+          "copy": 2,
+          "theme": "Easter bw 2"
+        },
+        {
+          "copy": 3,
+          "theme": "occupations"
+        },
+        {
+          "copy": 4,
+          "theme": "beach bw 2"
+        },
+        {
+          "copy": 5,
+          "theme": "summer"
+        }
+      ]
+    },
+    "G1-262": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "shapes"
+        },
+        {
+          "copy": 2,
+          "theme": "faces bw"
+        },
+        {
+          "copy": 3,
+          "theme": "toys"
+        },
+        {
+          "copy": 4,
+          "theme": "food bw 2"
+        },
+        {
+          "copy": 5,
+          "theme": "accessories"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "home bw"
+        },
+        {
+          "copy": 3,
+          "theme": "bakery"
+        },
+        {
+          "copy": 4,
+          "theme": "space bw"
+        },
+        {
+          "copy": 5,
+          "theme": "christmas"
+        },
+        {
+          "copy": 6,
+          "theme": "vegetables bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "body parts"
+        },
+        {
+          "copy": 2,
+          "theme": "animals bw"
+        },
+        {
+          "copy": 3,
+          "theme": "dinosaurs"
+        },
+        {
+          "copy": 4,
+          "theme": "apparel bw"
+        },
+        {
+          "copy": 5,
+          "theme": "hospital"
+        }
+      ]
+    },
+    "G1-263": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 2,
+          "theme": "Easter bw"
+        },
+        {
+          "copy": 3,
+          "theme": "music"
+        },
+        {
+          "copy": 4,
+          "theme": "apparel bw"
+        },
+        {
+          "copy": 5,
+          "theme": "space"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "dessert bw"
+        },
+        {
+          "copy": 3,
+          "theme": "weather"
+        },
+        {
+          "copy": 4,
+          "theme": "food bw 2"
+        },
+        {
+          "copy": 5,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 6,
+          "theme": "kitchen bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "winter"
+        },
+        {
+          "copy": 2,
+          "theme": "home bw"
+        },
+        {
+          "copy": 3,
+          "theme": "bakery"
+        },
+        {
+          "copy": 4,
+          "theme": "sports bw"
+        },
+        {
+          "copy": 5,
+          "theme": "christmas"
+        }
+      ]
+    },
+    "G1-264": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "birds 2"
+        },
+        {
+          "copy": 2,
+          "theme": "vegetables bw"
+        },
+        {
+          "copy": 3,
+          "theme": "colors"
+        },
+        {
+          "copy": 4,
+          "theme": "animals bw"
+        },
+        {
+          "copy": 5,
+          "theme": "fruits"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "Easter bw"
+        },
+        {
+          "copy": 3,
+          "theme": "miscellaneous"
+        },
+        {
+          "copy": 4,
+          "theme": "beach bw"
+        },
+        {
+          "copy": 5,
+          "theme": "spring"
+        },
+        {
+          "copy": 6,
+          "theme": "faces bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "vehicles"
+        },
+        {
+          "copy": 2,
+          "theme": "objects bw"
+        },
+        {
+          "copy": 3,
+          "theme": "clothing"
+        },
+        {
+          "copy": 4,
+          "theme": "ocean life"
+        },
+        {
+          "copy": 5,
+          "theme": "emotions"
+        }
+      ]
+    }
+  }
+}

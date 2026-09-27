@@ -1,0 +1,18 @@
+TASK: write the on-screen instruction for the INTERACTIVE version of four "ABC order" (alphabetical order) worksheets, for children aged 6-7 (first grade), in your language(s).
+
+What the child sees on screen: the same worksheet page as the printed one — an alphabet strip across the top and picture-word cards (4 or 6), each card with an empty dashed circle in its corner. There are NO writing lines on the screen version (a child cannot write on a screen). The child TAPS the cards in alphabetical order: the first tap puts "1" in that card's circle, the next tap "2", and so on. Tapping a numbered card again removes its number (so the child can fix a mistake). When every card has a number, the child presses the Check button and each card turns green (right) or red (wrong).
+
+The four worksheets (read the PRINTED title + instruction of each in your language, file C:\Users\rkgen\lessoncraftstudio\scripts\worksheet-gen\tools\level-set-abc\printed-strings.json):
+- G1-245 "ABC Order": 6 cards.
+- G1-262 "ABC Order: Number the Words": 4 cards.
+- G1-263 "ABC Order: Number Them, Then Write Them": 4 cards (on screen: no writing, only numbering).
+- G1-264 "ABC Order: When Words Start the Same": 6 or 4 cards; two pairs of words start with the same letter, so the child must look at the SECOND letter.
+
+Write TWO strings per language:
+- "tap": used for G1-245, G1-262, G1-263 — tells the child to tap the words in alphabetical order (first tap = 1, next = 2 …). Do NOT say how many cards (the count differs by level).
+- "tapSame": used for G1-264 — the same, plus the hint that when two words start with the same letter, the second letter decides.
+
+Rules: use the SAME term for alphabetical order and the same school register as the printed instructions in your language (reuse their key words: e.g. de "ABC-Leiste"/"nach dem Alphabet", fi "aakkosjärjestys"); simple enough for a first grader to have read aloud; one or two short sentences; "tap" max 90 characters, "tapSame" max 120; no digits except "1" is allowed if natural; no quotation marks; gender-neutral; imperative addressed to the child (du/tu/tú… as the printed instruction does).
+Also audit the English source if you see a problem (it is: tap = "Tap the words in ABC order: the first word you tap gets 1, the next gets 2." · tapSame = "Tap the words in ABC order. When two words start with the same letter, the second letter decides.").
+
+Write ONLY the file(s) named in your task as JSON {"tap": "...", "tapSame": "...", "notes": ["..."]}, UTF-8, verify each parses with node. Final reply: the strings, one per line, under 100 words.

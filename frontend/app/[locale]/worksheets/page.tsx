@@ -54,8 +54,9 @@ import CatalogTabs from '@/components/catalog/CatalogTabs';
 import CatalogTypeIndex, { type TypeIndexItem } from '@/components/catalog/CatalogTypeIndex';
 import WorksheetCatalogCard from '@/components/worksheets/WorksheetCatalogCard';
 import { getMonolingualLandings, deckAssets } from '@/lib/seo/landing-content';
-import { collapsedSheetSlugs, expandHubRows, levelSetRows, type HubRow, type DeckFacts } from '@/lib/worksheets-sheets';
+import { collapsedSheetSlugs, expandHubRows, levelSetRows, rowIsPrintOnly, type HubRow, type DeckFacts } from '@/lib/worksheets-sheets';
 import { isPrintOnlyType } from '@/config/interactive-exercise-types';
+import { INTERACTIVE_LEVEL_SET_TYPES } from '@/config/interactive-level-set-types';
 import {
   WORKSHEETS_PAGE_SIZE,
   WORKSHEETS_TOP_THEMES,
@@ -288,6 +289,7 @@ export default async function AllWorksheetsPage({
               title: (raw && (raw[locale] || raw.en)) || parent.h1,
               exerciseMode: d.exerciseMode,
               hasAnswerKey: d.answerKeyUrl != null,
+              interactive: INTERACTIVE_LEVEL_SET_TYPES.has(filters.type as string),
             };
           }),
           (slug) => deckAssets(locale, slug).deckDir,
@@ -305,7 +307,7 @@ export default async function AllWorksheetsPage({
      with no interactive sheets disappears from the rail under Interactive
      rather than offering a filter that returns nothing. */
   const scoped = filters.format === 'interactive'
-    ? hubRowsForView.filter((l) => !isPrintOnlyType(l.coordinate.type))
+    ? hubRowsForView.filter((l) => !rowIsPrintOnly(l, isPrintOnlyType))
     : hubRowsForView;
 
   const facets = scoped.length > 0 ? buildLandingFacets(scoped, filters) : null;
@@ -402,7 +404,7 @@ export default async function AllWorksheetsPage({
   const ordered = orderHubRows(
     filtered,
     Boolean(filters.type),
-    (l) => isPrintOnlyType(l.coordinate.type),
+    (l) => rowIsPrintOnly(l as HubRow, isPrintOnlyType),
   ).rows;
 
   const total = ordered.length;
@@ -584,7 +586,7 @@ export default async function AllWorksheetsPage({
                     <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
                       {pageItems.map((l, i) => {
                         const assets = deckAssets(locale, l.canonicalDeckSlug);
-                        const printOnly = isPrintOnlyType(l.coordinate.type);
+                        const printOnly = rowIsPrintOnly(l, isPrintOnlyType);
                         // Falls back to the type when the DB read failed: with
                         // zero mixed types catalogue-wide, the type answers this
                         // exactly, so the card degrades truthfully.

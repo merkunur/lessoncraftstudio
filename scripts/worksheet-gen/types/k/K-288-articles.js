@@ -18,17 +18,31 @@ const { entriesFor, displayWord, distinctByWord, fileUri, countable } = require(
 const { ARTICLES } = require('../../data/b2/articles.js');
 const { LABELS } = require('../../data/b2/labels.js');
 
+/** Answer key: a teal ring around the correct chip (the only visual difference on the key). */
+function ringCorrect(html) {
+  return html.replace(/<span class="ws-achip" style="([^"]*)"([^>]*data-lcs-correct="1")/g,
+    (m, st, rest) => `<span class="ws-achip" style="${st};outline:4px solid #146B5E;outline-offset:3px"${rest}`);
+}
+
 module.exports = {
   id: 'K-288',
   slug: 'circle-the-article',
   gradeBand: 'K',
   assetClass: 'icon-placement',
   exerciseType: 'articles',
-  themeAxis: { applicable: true, minNouns: 8, excludeBw: true },
+  // B&W allowed (Level Set 2026-09-28): line art is fine for naming (ladder verdict)
+  themeAxis: { applicable: true, minNouns: 8, excludeBw: false },
+  // the geometry the faces spread from (K-306 = FOUR, K-307 + G1-292 = EIGHT)
+  FOUR: { cards: 4, cols: 2, rows: 2, pic: 150, chipW: 96, chipH: 56, chipFont: 28 },
+  SIX: { cards: 6, cols: 2, rows: 3, pic: 118, chipW: 84, chipH: 48, chipFont: 24 },
+  EIGHT: { cards: 8, cols: 2, rows: 4, pic: 88, chipW: 76, chipH: 44, chipFont: 22, level3: true },
+  // Level Set 2026-09-28 — a level must change what the child DOES:
+  // L1 the noun is PRINTED under each picture (read it, don't guess the name) · L2 published ·
+  // L3 only where a harder article SET exists (it: il / lo / la / l'); elsewhere more cards are no level.
   difficulty: {
-    1: { cards: 4, cols: 2, rows: 2, pic: 150, chipW: 96, chipH: 56, chipFont: 28 },
+    1: { cards: 6, cols: 2, rows: 3, pic: 118, chipW: 84, chipH: 48, chipFont: 24, showWord: true },
     2: { cards: 6, cols: 2, rows: 3, pic: 118, chipW: 84, chipH: 48, chipFont: 24 },
-    3: { cards: 8, cols: 2, rows: 4, pic: 88, chipW: 76, chipH: 44, chipFont: 22, level3: true },
+    3: { cards: 8, cols: 2, rows: 4, pic: 88, chipW: 76, chipH: 44, chipFont: 22, level3: true, onlyLocales: ['it'] },
   },
   i18n: {
     en: {
@@ -37,13 +51,48 @@ module.exports = {
     },
   },
 
+  // Level Set 2026-09-28 — the screen version: one choice per item (tap the article button).
+  // screenHeight: the screen page is taller than paper (one row per card; render-instance crops).
+  interactive: {
+    kind: 'tap-choice', item: '[data-lcs-item]', option: '[data-lcs-chip]', answerAttr: 'data-lcs-key', labelAttr: 'data-lcs-vocab',
+    metaAttrs: ['data-lcs-vocab', 'data-lcs-count'], instructionKey: 'tapChoice', screenHeight: 1500,
+    /**
+     * The robot gate's INDEPENDENT truth: for each item the correct OPTION LABEL, recomputed from
+     * its vocabulary entry (gender) and picture count with the locale's article rules — never read
+     * from the page's answer marks. Returns the option index per item.
+     */
+    oracle: (items, loc, ctx) => {
+      const A = ARTICLES[loc];
+      const byKey = new Map(entriesFor(ctx.theme, loc).map((e) => [e.vocabKey, e]));
+      const level = ctx.level3 ? 3 : ctx.difficulty;
+      const chips = (ctx.level3 && A.chipsD3) ? A.chipsD3 : A.chips;
+      return items.map((it) => {
+        const e = byKey.get(it.meta['data-lcs-vocab']);
+        if (!e) throw new Error('oracle: no vocab entry ' + it.meta['data-lcs-vocab']);
+        const count = +it.meta['data-lcs-count'] || 1;
+        const k = A.keyFor({ ...e, key: e.vocabKey }, { level, count });
+        if (A.mode === 'form') return count > 1 ? 1 : 0;   // options are always [singular, plural] / [one, many]
+        const idx = it.options.indexOf(chips[k]);
+        if (idx < 0) throw new Error('oracle: correct article "' + chips[k] + '" is not among the options ' + it.options.join('/'));
+        return idx;
+      });
+    },
+  },
+
   build({ theme, difficulty, locale }, ctx) {
-    const d = this.difficulty[difficulty];
+    // the printed noun (L1) takes a line of the card: the picture gives it the room (measured: the
+    // 8-card page and the fr/pt 6-card page overflowed the paper by 15-60 px at full picture size)
+    const d0 = this.difficulty[difficulty];
+    const d = d0 && d0.showWord ? { ...d0, pic: Math.round(d0.pic * (d0.cards >= 8 ? 0.6 : 0.72)) } : d0;
     const rng = ctx.rng;
+    const screen = !!(ctx && ctx.interactive), isKey = !!(ctx && ctx.answerKey);
     const loc = (locale || 'en').slice(0, 2);
     const A = ARTICLES[loc];
     if (!A) throw new Error(`K-288: no article contract for locale ${loc}`);
     if (A.refuse) throw new Error(`K-288: locale ${loc} refuses this type`);
+    if (d.onlyLocales && !d.onlyLocales.includes(loc)) throw new Error(`K-288: level ${difficulty} exists only for ${d.onlyLocales.join(', ')} (a harder article set); ${loc} refuses it`);
+    // fi picks singular vs plural: a printed word or a picture beside the word gives the answer away
+    if ((d.showWord || d.sortPictures) && A.mode === 'form') throw new Error(`K-288: ${loc} refuses the support level (it would print the answer)`);
     const level = d.level3 ? 3 : difficulty;
     let chips = (d.level3 && A.chipsD3) ? A.chipsD3 : A.chips;
     const refuse = new Set((A.refuseKeys || []).map((k) => String(k).toLowerCase()));
@@ -82,9 +131,21 @@ module.exports = {
         const sz = count > 1 ? Math.round(d.pic * 0.62) : d.pic;
         return `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${sz}px;height:${sz}px;transform:rotate(${rot}deg)">`;
       }).join('');
+      const word = d.showWord ? `<span style="font-family:'Nunito';font-weight:800;font-size:${Math.round(d.chipFont * 0.95)}px;color:#3A3530" data-lcs-shown-word>${displayWord(e.singular, loc)}</span>` : '';
+      let chipHtml = articleChips({ chips: chipLabels, correctIndex: key, w: isForm ? 120 : (chips.length === 4 ? 66 : d.chipW), h: d.chipH, fontPx: isForm ? 18 : (chips.length === 4 ? 20 : d.chipFont), dots: A.chipDots });
+      if (isKey) chipHtml = ringCorrect(chipHtml);
+      if (screen) {
+        // screen: ONE card per row — the picture (+ printed word) left, BIG article buttons right,
+        // so a button stays >= 44 px on a phone even with four articles (render-instance crops)
+        const n = chipLabels.length, bw = Math.floor((440 - (n - 1) * 12) / n);
+        const bigChips = articleChips({ chips: chipLabels, correctIndex: key, w: bw, h: 104, fontPx: isForm ? 26 : 38, dots: A.chipDots });
+        return `<div style="display:flex;align-items:center;gap:14px;width:660px;height:128px;padding:0 8px;background:#FFFDF8;border:2px solid #EFE4D2;border-radius:16px" data-lcs-item data-lcs-vocab="${e.vocabKey}" data-lcs-key="${key}" data-lcs-count="${count}">` +
+          `<div style="width:190px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px">${pics.replace(/width:(\d+)px;height:(\d+)px/g, (m0, a) => `width:${Math.min(+a, count > 1 ? 56 : 92)}px;height:${Math.min(+a, count > 1 ? 56 : 92)}px`)}${word}</div>` +
+          `<div style="flex:1;display:flex;justify-content:center">${bigChips.replace('class="ws-achips"', 'class="ws-achips" style="gap:12px;flex-wrap:nowrap"')}</div></div>`;
+      }
       return `<div class="ws-card-stage" style="flex-direction:column;gap:6px" data-lcs-item data-lcs-vocab="${e.vocabKey}" data-lcs-key="${key}" data-lcs-count="${count}">` +
         `<div style="display:flex;gap:6px;align-items:center;justify-content:center;flex:1">${pics}</div>` +
-        articleChips({ chips: chipLabels, correctIndex: key, w: isForm ? 120 : (chips.length === 4 ? 66 : d.chipW), h: d.chipH, fontPx: isForm ? 18 : (chips.length === 4 ? 20 : d.chipFont), dots: A.chipDots }) +
+        word + chipHtml +
         `</div>`;
     });
     // sortWords: a SECOND layout. Instead of one noun against all the articles,
@@ -108,8 +169,10 @@ module.exports = {
       // no theme exists, so the column goes.
       const reachable = new Set(pool.map((e) => { try { return A.keyFor(e, { level }); } catch (x) { return null; } })
         .filter((k) => k !== null && k !== undefined));
-      const keptIdx = chips.map((_, i) => i).filter((i) => isForm || reachable.has(i));
-      const dropped = chips.length - keptIdx.length;
+      // ⚠ fi (mode 'form') has no article list — its two bins are one / many — and reading
+      // `chips` there threw, so the fi sort face could not be generated at all (2026-09-28)
+      const keptIdx = isForm ? [0, 1] : chips.map((_, i) => i).filter((i) => reachable.has(i));
+      const dropped = isForm ? 0 : chips.length - keptIdx.length;
       if (dropped && keptIdx.length < 2) {
         throw new Error(`K-288: ${theme}/${loc} leaves only ${keptIdx.length} fillable bin(s)`);
       }
@@ -122,12 +185,29 @@ module.exports = {
         ? [(LABELS[loc] && LABELS[loc].singularPlural || {}).one || 'one',
            (LABELS[loc] && LABELS[loc].singularPlural || {}).many || 'many']
         : chips;
-      const wordChips = cardsData.map(({ e, key, count }) => {
-        const w = isForm
-          ? displayWord(count > 1 ? e.plural : e.singular, loc)
-          : displayWord(e.singular, loc);
-        const k = isForm ? (count > 1 ? 1 : 0) : key;
-        return `<span class="ws-tile ws-tile--word" style="height:44px;font-size:20px" data-lcs-sortword="${w}" data-lcs-key="${k}">${w}</span>`;
+      const wordOf = ({ e, count }) => (isForm ? displayWord(count > 1 ? e.plural : e.singular, loc) : displayWord(e.singular, loc));
+      const keyOf = ({ key, count }) => (isForm ? (count > 1 ? 1 : 0) : key);
+      if (screen) {
+        // screen: the bins cannot be written into, so each word becomes a row with the bin
+        // headings as BIG buttons — the same decision (which article goes with this READ word)
+        const n = binLabels.length, bw = Math.floor((460 - (n - 1) * 12) / n);
+        const rows = cardsData.map((c) => {
+          const w = wordOf(c), k = keyOf(c);
+          const opts = binLabels.map((label, i) => `<span class="ws-achip" style="width:${bw}px;height:104px;font-size:${label.length > 8 ? 22 : 32}px" data-lcs-chip="${i}" data-lcs-label="${label}"${i === k ? ' data-lcs-correct="1"' : ''}>${label}</span>`).join('');
+          return `<div style="display:flex;align-items:center;gap:14px;width:660px;height:124px;padding:0 10px;background:#FFFDF8;border:2px solid #EFE4D2;border-radius:16px" data-lcs-item data-lcs-vocab="${c.e.vocabKey}" data-lcs-key="${k}" data-lcs-count="${c.count}" data-lcs-word="${w}">` +
+            `<div style="width:170px;text-align:center;font-family:'Nunito';font-weight:800;font-size:${[...w].length > 9 ? 22 : 30}px;overflow-wrap:anywhere;color:#3A3530">${w}</div>` +
+            `<div class="ws-achips" style="flex:1;gap:12px;justify-content:center;flex-wrap:nowrap">${opts}</div></div>`;
+        });
+        return {
+          bodyHtml: `<div data-lcs-mode="${A.mode}" data-lcs-layout="choice" style="flex:1;display:flex;flex-direction:column;gap:12px;align-items:center;padding-top:10px" data-ws-content>${rows.join('')}</div>`,
+          meta: { keys: cardsData.map((c) => c.key) },
+        };
+      }
+      const wordChips = cardsData.map((c) => {
+        const w = wordOf(c), k = keyOf(c);
+        // L1 reading support: the word's own small picture beside it
+        const pic = d.sortPictures ? `<img class="ws-icon" src="${fileUri(theme, c.e.noun)}" alt="" style="width:34px;height:34px;margin-right:6px">` : '';
+        return `<span class="ws-tile ws-tile--word" style="height:44px;font-size:20px" data-lcs-sortword="${w}" data-lcs-key="${k}">${pic}${w}</span>`;
       }).join('');
       const binW = Math.floor(640 / binLabels.length) - 12;
       // Rule as many lines as the HARDEST bin actually needs, never a fixed five.
@@ -142,6 +222,8 @@ module.exports = {
       const bins = binLabels.map((label, idx) => {
         const lines = [];
         for (let i = 1; i <= lineCount; i++) lines.push(`<line x1="8" y1="${i * gapY}" x2="${binW - 14}" y2="${i * gapY}" stroke="#C8BFAE" stroke-width="1.5" stroke-dasharray="3 5"/>`);
+        // answer key: the bin's words written in grey on its lines
+        if (isKey) cardsData.filter((c) => keyOf(c) === idx).forEach((c, j) => lines.push(`<text x="14" y="${(j + 1) * gapY - 6}" font-family="Nunito" font-weight="700" font-size="20" fill="#8A8580">${wordOf(c)}</text>`));
         return `<div style="display:flex;flex-direction:column;align-items:center;gap:6px" data-lcs-sortbin="${idx}">` +
           `<span class="ws-pill" style="font-size:20px;padding:2px 18px" data-lcs-sorthead="${idx}">${label}</span>` +
           `<div class="ws-bin" style="width:${binW}px;height:350px;max-width:${binW}px;padding:0"><svg width="${binW - 6}" height="345" viewBox="0 0 ${binW - 6} 345" aria-hidden="true">${lines.join('')}</svg></div></div>`;
@@ -150,6 +232,12 @@ module.exports = {
         bodyHtml: `<div data-lcs-mode="${A.mode}" data-lcs-layout="sort" style="flex:1;display:flex;flex-direction:column;gap:18px;align-items:center;justify-content:flex-start;padding-top:6px" data-ws-content>` +
           `<div class="ws-card" style="width:660px;padding:10px 12px;flex-direction:row;flex-wrap:wrap;justify-content:center;gap:10px">${wordChips}</div>` +
           `<div style="display:flex;gap:12px;justify-content:center">${bins}</div></div>`,
+        meta: { keys: cardsData.map((c) => c.key) },
+      };
+    }
+    if (screen) {
+      return {
+        bodyHtml: `<div data-lcs-mode="${A.mode}" data-lcs-layout="choice" style="flex:1;display:flex;flex-direction:column;gap:12px;align-items:center;padding-top:10px" data-ws-content>${cards.join('')}</div>`,
         meta: { keys: cardsData.map((c) => c.key) },
       };
     }

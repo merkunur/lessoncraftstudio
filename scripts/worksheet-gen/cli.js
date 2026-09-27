@@ -126,7 +126,9 @@ async function generate(args) {
       interactive: r.interactive ? { kind: r.interactive.kind } : null,
     });
     const interactive = r.interactive
-      ? { kind: r.interactive.kind, items: r.interactive.items, instruction: interactiveInstruction(spec, it.locale), preview: await buildPreviewJpeg(r.interactive.pngPath) }
+      ? { kind: r.interactive.kind, items: r.interactive.items, instruction: interactiveInstruction(spec, it.locale), preview: await buildPreviewJpeg(r.interactive.pngPath),
+        // the robot gate's oracle needs the page's theme + level (it recomputes the answers from the vocabulary)
+        ctx: { theme: cacheTheme, difficulty: it.difficulty, level3: !!(spec.difficulty[it.difficulty] && spec.difficulty[it.difficulty].level3) } }
       : null;
     const deckHtml = buildDeckHtml({ manifest, spec, strings, locale: it.locale, preview, interactive });
     writeDeckZip({ stagingDir, deckId: deckId, manifest, deckHtml, pdfPath: r.pdfPath, thumbnailBuf, answerKeyPath: r.interactive ? r.interactive.keyPdfPath : null });

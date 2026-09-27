@@ -1,0 +1,9 @@
+{
+  "tapChoice": "Di el nombre del dibujo. Toca el artículo que va delante: el o la.",
+  "tapChoiceWord": "Lee la palabra. Toca el artículo que va delante: el o la.",
+  "notes": [
+    "Reuses the printed K-288 keywords (di, artículo que va delante, el o la); Rodea -> Toca.",
+    "Naming el o la matches _chips es [el, la] and every es printed page.",
+    "English source: 'Tap the word that goes in front of it' is ambiguous for a pre-reader — the picture word is also a word. Suggest 'Tap the little word that goes in front of it.'"
+  ]
+}

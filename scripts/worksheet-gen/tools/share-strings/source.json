@@ -1,0 +1,53 @@
+{
+ "keys": [
+  "srShareNative",
+  "srShareTo",
+  "srShareCopyLink",
+  "srShareCopied",
+  "srShareAriaFacebook",
+  "srShareAriaWhatsApp",
+  "srShareAriaPinterest",
+  "srShareAriaEmail",
+  "srShareAriaCopyLink"
+ ],
+ "en": {
+  "srShareNative": "Share",
+  "srShareTo": "Share to",
+  "srShareCopyLink": "Copy link",
+  "srShareCopied": "Copied!",
+  "srShareAriaFacebook": "Share on Facebook",
+  "srShareAriaWhatsApp": "Share on WhatsApp",
+  "srShareAriaPinterest": "Share on Pinterest",
+  "srShareAriaEmail": "Share via email",
+  "srShareAriaCopyLink": "Copy link"
+ },
+ "de": {
+  "srShareNative": "Teilen",
+  "srShareTo": "Teilen mit",
+  "srShareCopyLink": "Link kopieren",
+  "srShareCopied": "Kopiert!",
+  "srShareAriaFacebook": "Auf Facebook teilen",
+  "srShareAriaWhatsApp": "Auf WhatsApp teilen",
+  "srShareAriaPinterest": "Auf Pinterest teilen",
+  "srShareAriaEmail": "Per E-Mail teilen",
+  "srShareAriaCopyLink": "Link kopieren"
+ },
+ "registerSample": {
+  "sv": {
+   "runtimeCheckAnswers": "Kontrollera svar",
+   "runtimeTryAgain": "Försök igen"
+  },
+  "fi": {
+   "runtimeCheckAnswers": "Tarkista vastaukset",
+   "runtimeTryAgain": "Yritä uudelleen"
+  },
+  "es": {
+   "runtimeCheckAnswers": "Comprobar respuestas",
+   "runtimeTryAgain": "Intentar de nuevo"
+  },
+  "fr": {
+   "runtimeCheckAnswers": "Vérifier les réponses",
+   "runtimeTryAgain": "Réessayer"
+  }
+ }
+}

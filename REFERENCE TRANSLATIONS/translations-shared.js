@@ -218,6 +218,16 @@ const SHARED_TRANSLATIONS = {
   // Embed keys only; existing srShare/srShape keys for these locales fall
   // through to en via §17.8.14 srLang-keyed lookup convention.
   "es": {
+    // share menu labels (native-authored 2026-09-28; the apps fell back to English here)
+    "srShareNative": "Compartir",
+    "srShareTo": "Compartir en",
+    "srShareCopyLink": "Copiar enlace",
+    "srShareCopied": "¡Copiado!",
+    "srShareAriaFacebook": "Compartir en Facebook",
+    "srShareAriaWhatsApp": "Compartir por WhatsApp",
+    "srShareAriaPinterest": "Compartir en Pinterest",
+    "srShareAriaEmail": "Compartir por correo electrónico",
+    "srShareAriaCopyLink": "Copiar enlace",
     "shared.name.field": "Nombre:",
     "shared.date.field": "Fecha:",
     "shared.text.default": "Nuevo texto",
@@ -264,6 +274,16 @@ const SHARED_TRANSLATIONS = {
     "srWorksheetQuestions": "Preguntas de la hoja"
   },
   "nl": {
+    // share menu labels (native-authored 2026-09-28; the apps fell back to English here)
+    "srShareNative": "Delen",
+    "srShareTo": "Delen via",
+    "srShareCopyLink": "Link kopiëren",
+    "srShareCopied": "Gekopieerd!",
+    "srShareAriaFacebook": "Delen op Facebook",
+    "srShareAriaWhatsApp": "Delen via WhatsApp",
+    "srShareAriaPinterest": "Delen op Pinterest",
+    "srShareAriaEmail": "Delen via e-mail",
+    "srShareAriaCopyLink": "Link kopiëren",
     "shared.name.field": "Naam:",
     "shared.date.field": "Datum:",
     "shared.text.default": "Nieuwe tekst",
@@ -310,6 +330,16 @@ const SHARED_TRANSLATIONS = {
     "srWorksheetQuestions": "Werkbladvragen"
   },
   "fr": {
+    // share menu labels (native-authored 2026-09-28; the apps fell back to English here)
+    "srShareNative": "Partager",
+    "srShareTo": "Partager sur",
+    "srShareCopyLink": "Copier le lien",
+    "srShareCopied": "Copié !",
+    "srShareAriaFacebook": "Partager sur Facebook",
+    "srShareAriaWhatsApp": "Partager sur WhatsApp",
+    "srShareAriaPinterest": "Partager sur Pinterest",
+    "srShareAriaEmail": "Partager par e-mail",
+    "srShareAriaCopyLink": "Copier le lien",
     "shared.name.field": "Nom :",
     "shared.date.field": "Date :",
     "shared.text.default": "Nouveau texte",
@@ -356,6 +386,16 @@ const SHARED_TRANSLATIONS = {
     "srWorksheetQuestions": "Questions de la fiche"
   },
   "it": {
+    // share menu labels (native-authored 2026-09-28; the apps fell back to English here)
+    "srShareNative": "Condividi",
+    "srShareTo": "Condividi su",
+    "srShareCopyLink": "Copia link",
+    "srShareCopied": "Copiato!",
+    "srShareAriaFacebook": "Condividi su Facebook",
+    "srShareAriaWhatsApp": "Condividi su WhatsApp",
+    "srShareAriaPinterest": "Condividi su Pinterest",
+    "srShareAriaEmail": "Condividi via email",
+    "srShareAriaCopyLink": "Copia link",
     "shared.name.field": "Nome:",
     "shared.date.field": "Data:",
     "shared.text.default": "Nuovo testo",
@@ -402,6 +442,16 @@ const SHARED_TRANSLATIONS = {
     "srWorksheetQuestions": "Domande della scheda"
   },
   "pt": {
+    // share menu labels (native-authored 2026-09-28; the apps fell back to English here)
+    "srShareNative": "Compartilhar",
+    "srShareTo": "Compartilhar em",
+    "srShareCopyLink": "Copiar link",
+    "srShareCopied": "Copiado!",
+    "srShareAriaFacebook": "Compartilhar no Facebook",
+    "srShareAriaWhatsApp": "Compartilhar no WhatsApp",
+    "srShareAriaPinterest": "Compartilhar no Pinterest",
+    "srShareAriaEmail": "Compartilhar por e-mail",
+    "srShareAriaCopyLink": "Copiar link",
     "shared.name.field": "Nome:",
     "shared.date.field": "Data:",
     "shared.text.default": "Novo texto",
@@ -454,6 +504,16 @@ const SHARED_TRANSLATIONS = {
   // Future native-speaker review pass refines these without re-shipping the
   // full Embed Layer-2 commission.
   "sv": {
+    // share menu labels (native-authored 2026-09-28; the apps fell back to English here)
+    "srShareNative": "Dela",
+    "srShareTo": "Dela till",
+    "srShareCopyLink": "Kopiera länk",
+    "srShareCopied": "Kopierad!",
+    "srShareAriaFacebook": "Dela på Facebook",
+    "srShareAriaWhatsApp": "Dela på WhatsApp",
+    "srShareAriaPinterest": "Dela på Pinterest",
+    "srShareAriaEmail": "Dela via e-post",
+    "srShareAriaCopyLink": "Kopiera länk",
     "shared.name.field": "Namn:",
     "shared.date.field": "Datum:",
     "shared.text.default": "Ny text",
@@ -503,6 +563,16 @@ const SHARED_TRANSLATIONS = {
     "srWorksheetQuestions": "Arbetsbladsfrågor"
   },
   "da": {
+    // share menu labels (native-authored 2026-09-28; the apps fell back to English here)
+    "srShareNative": "Del",
+    "srShareTo": "Del på",
+    "srShareCopyLink": "Kopiér link",
+    "srShareCopied": "Kopieret!",
+    "srShareAriaFacebook": "Del på Facebook",
+    "srShareAriaWhatsApp": "Del på WhatsApp",
+    "srShareAriaPinterest": "Del på Pinterest",
+    "srShareAriaEmail": "Del via e-mail",
+    "srShareAriaCopyLink": "Kopiér link",
     "shared.name.field": "Navn:",
     "shared.date.field": "Dato:",
     "shared.text.default": "Ny tekst",
@@ -552,6 +622,16 @@ const SHARED_TRANSLATIONS = {
     "srWorksheetQuestions": "Arbejdsarkets spørgsmål"
   },
   "no": {
+    // share menu labels (native-authored 2026-09-28; the apps fell back to English here)
+    "srShareNative": "Del",
+    "srShareTo": "Del på",
+    "srShareCopyLink": "Kopier lenke",
+    "srShareCopied": "Kopiert!",
+    "srShareAriaFacebook": "Del på Facebook",
+    "srShareAriaWhatsApp": "Del på WhatsApp",
+    "srShareAriaPinterest": "Del på Pinterest",
+    "srShareAriaEmail": "Del via e-post",
+    "srShareAriaCopyLink": "Kopier lenke",
     "shared.name.field": "Navn:",
     "shared.date.field": "Dato:",
     "shared.text.default": "Ny tekst",
@@ -602,6 +682,16 @@ const SHARED_TRANSLATIONS = {
     "srWorksheetQuestions": "Arbeidsarkets spørsmål"
   },
   "fi": {
+    // share menu labels (native-authored 2026-09-28; the apps fell back to English here)
+    "srShareNative": "Jaa",
+    "srShareTo": "Jaa palveluun",
+    "srShareCopyLink": "Kopioi linkki",
+    "srShareCopied": "Kopioitu!",
+    "srShareAriaFacebook": "Jaa Facebookissa",
+    "srShareAriaWhatsApp": "Jaa WhatsAppissa",
+    "srShareAriaPinterest": "Jaa Pinterestissä",
+    "srShareAriaEmail": "Jaa sähköpostitse",
+    "srShareAriaCopyLink": "Kopioi linkki",
     "shared.name.field": "Nimi:",
     "shared.date.field": "Päivämäärä:",
     "shared.text.default": "Uusi teksti",

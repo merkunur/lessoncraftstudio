@@ -1,0 +1,244 @@
+{
+ "en": {
+  "K-288": {
+   "title": "A or An?",
+   "instruction": "Say the picture word out loud. Circle the word that goes in front of it."
+  },
+  "K-306": {
+   "title": "Circle the Right Word: Four Pictures",
+   "instruction": "Say each picture word, then circle the word that belongs with it."
+  },
+  "K-307": {
+   "title": "Circle the Right Word: Eight Pictures",
+   "instruction": "Eight pictures this time. Circle the word that belongs with each."
+  },
+  "G1-292": {
+   "title": "Sort the Words",
+   "instruction": "Read every word. Write it under the word that belongs in front of it."
+  }
+ },
+ "de": {
+  "K-288": {
+   "title": "Der, die oder das?",
+   "instruction": "Sprich das Bildwort laut. Kreise den Artikel ein, der davor passt: der, die oder das."
+  },
+  "K-306": {
+   "title": "Der, die oder das? Vier Bilder",
+   "instruction": "Kreise bei den vier Bildern den Artikel ein."
+  },
+  "K-307": {
+   "title": "Der, die oder das? Acht Bilder",
+   "instruction": "Kreise bei acht Bildern den Artikel ein."
+  },
+  "G1-292": {
+   "title": "Der, die oder das? Wörter sortieren",
+   "instruction": "Ohne Bilder: lies jedes Wort genau."
+  }
+ },
+ "es": {
+  "K-288": {
+   "title": "¿El o la? Rodea el artículo",
+   "instruction": "Di en voz alta el nombre del dibujo. Rodea el artículo que va delante: el o la."
+  },
+  "K-306": {
+   "title": "¿El o la? Cuatro dibujos",
+   "instruction": "Cuatro dibujos: di el nombre y rodea el o la."
+  },
+  "K-307": {
+   "title": "¿El o la? Ocho dibujos",
+   "instruction": "Ocho dibujos: rodea el artículo de cada uno."
+  },
+  "G1-292": {
+   "title": "¿El o la? Clasifica las palabras",
+   "instruction": "Escribe cada palabra bajo el o la."
+  }
+ },
+ "fr": {
+  "K-288": {
+   "title": "Le ou la, un ou une : entoure l'article",
+   "instruction": "Dis le nom de l'image à voix haute. Entoure l'article qui se place devant ce nom."
+  },
+  "K-306": {
+   "title": "Le ou la : entoure le bon article",
+   "instruction": "Entoure « le » ou « la »."
+  },
+  "K-307": {
+   "title": "Un ou une : entoure le bon article",
+   "instruction": "Entoure « un » ou « une »."
+  },
+  "G1-292": {
+   "title": "Un ou une : classer les mots",
+   "instruction": "Sans image : range chaque mot sous un ou une."
+  }
+ },
+ "it": {
+  "K-288": {
+   "title": "Gli articoli determinativi",
+   "instruction": "Di' ad alta voce il nome della figura. Cerchia l'articolo giusto da mettere davanti al nome."
+  },
+  "K-306": {
+   "title": "Gli articoli: il o la?",
+   "instruction": "Guarda la figura, di' il nome e cerchia il o la."
+  },
+  "K-307": {
+   "title": "Gli articoli: il, lo, la o l'?",
+   "instruction": "Cerchia l'articolo giusto: il, lo, la o l'."
+  },
+  "G1-292": {
+   "title": "Ordina le parole per articolo",
+   "instruction": "Ogni parola sotto il suo articolo."
+  }
+ },
+ "pt": {
+  "K-288": {
+   "title": "O ou a? Circule o artigo certo",
+   "instruction": "Fale o nome da figura em voz alta. Circule a palavrinha que vem antes dela: o ou a."
+  },
+  "K-306": {
+   "title": "O ou a? Quatro figuras",
+   "instruction": "Fale o nome da figura e circule o artigo certo."
+  },
+  "K-307": {
+   "title": "O ou a? Oito figuras",
+   "instruction": "Agora são oito figuras: circule sempre o artigo."
+  },
+  "G1-292": {
+   "title": "O ou a? Classifique as palavras",
+   "instruction": "Escreva cada palavra na coluna o ou a."
+  }
+ },
+ "nl": {
+  "K-288": {
+   "title": "De of het?",
+   "instruction": "Zeg het woord bij het plaatje hardop. Omcirkel het woordje dat ervoor hoort: de of het."
+  },
+  "K-306": {
+   "title": "De of het? Vier plaatjes",
+   "instruction": "Zeg het woord bij elk van de vier plaatjes en omcirkel de of het."
+  },
+  "K-307": {
+   "title": "De of het? Acht plaatjes",
+   "instruction": "Acht plaatjes deze keer. Omcirkel bij elk woord het goede lidwoord."
+  },
+  "G1-292": {
+   "title": "De of het? Sorteer de woorden",
+   "instruction": "Hier zijn geen plaatjes: sorteer de woorden bij de en bij het."
+  }
+ },
+ "sv": {
+  "K-288": {
+   "title": "En eller ett?",
+   "instruction": "Säg ordet till bilden högt. Ringa in det ord som passar framför: en eller ett."
+  },
+  "K-306": {
+   "title": "En eller ett? Fyra bilder",
+   "instruction": "Säg ordet till varje bild. Ringa in en eller ett."
+  },
+  "K-307": {
+   "title": "En eller ett? Åtta bilder",
+   "instruction": "Åtta bilder. Ringa in en eller ett till varje bild."
+  },
+  "G1-292": {
+   "title": "Sortera en-ord och ett-ord",
+   "instruction": "Läs varje ordkort och skriv det under en eller ett."
+  }
+ },
+ "da": {
+  "K-288": {
+   "title": "En eller et?",
+   "instruction": "Sig ordet til billedet højt. Sæt en ring om det ord, der passer foran: en eller et."
+  },
+  "K-306": {
+   "title": "En eller et: fire billeder",
+   "instruction": "Sig ordet til hvert billede, og sæt ring om en eller et."
+  },
+  "K-307": {
+   "title": "En eller et: otte billeder",
+   "instruction": "Sæt ring om en eller et ved hvert af de otte billeder."
+  },
+  "G1-292": {
+   "title": "En eller et: sortér ordene i to kasser",
+   "instruction": "Læs hvert ord, og skriv det i kassen med en eller et."
+  }
+ },
+ "no": {
+  "K-288": {
+   "title": "En eller et?",
+   "instruction": "Si ordet til bildet høyt. Sett ring rundt ordet som passer foran: en eller et."
+  },
+  "K-306": {
+   "title": "En eller et? Fire bilder",
+   "instruction": "Si ordet til hvert bilde høyt. Sett ring rundt en eller et."
+  },
+  "K-307": {
+   "title": "En eller et? Åtte bilder",
+   "instruction": "Åtte bilder denne gangen. Sett ring rundt en eller et."
+  },
+  "G1-292": {
+   "title": "En eller et? Sorter ordene",
+   "instruction": "Ingen bilder her. Skriv hvert ord i boksen for en eller et."
+  }
+ },
+ "fi": {
+  "K-288": {
+   "title": "Yksi vai monta?",
+   "instruction": "Laske, montako kuvassa on. Ympyröi sana, joka sopii kuvaan: yksi vai monta."
+  },
+  "K-306": {
+   "title": "Yksi vai monta: neljä kuvaa",
+   "instruction": "Neljä kuvaa. Ympyröi sana, joka sopii kuvan määrään."
+  },
+  "K-307": {
+   "title": "Yksi vai monta: kahdeksan kuvaa",
+   "instruction": "Kahdeksan kuvaa. Ympyröi kuvaan sopiva muoto."
+  },
+  "G1-292": {
+   "title": "Yksi vai monta: lajittele sanat",
+   "instruction": "Lue sana ja kirjoita se oikean otsikon alle."
+  }
+ },
+ "_chips": {
+  "de": [
+   "der",
+   "die",
+   "das"
+  ],
+  "nl": [
+   "de",
+   "het"
+  ],
+  "sv": [
+   "en",
+   "ett"
+  ],
+  "da": [
+   "en",
+   "et"
+  ],
+  "no": [
+   "en",
+   "et"
+  ],
+  "es": [
+   "el",
+   "la"
+  ],
+  "pt": [
+   "o",
+   "a"
+  ],
+  "fr": [
+   "le",
+   "la"
+  ],
+  "it": [
+   "il",
+   "la"
+  ],
+  "en": [
+   "a",
+   "an"
+  ],
+  "fi": "(fi: singular / plural word forms)"
+ }
+}

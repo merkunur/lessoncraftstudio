@@ -1,0 +1,9 @@
+{
+  "tapChoice": "Dis le nom de l'image. Touche l'article qui se place devant ce nom.",
+  "tapChoiceWord": "Lis le mot. Touche l'article qui se place devant ce mot.",
+  "notes": [
+    "Articles deliberately NOT named: _chips fr is [le, la] but printed K-307 and G1-292 (the sort page) use un/une. Check the fr chips per worksheet — the sort page must show un/une, not le/la.",
+    "Reuses printed K-288 wording (Dis le nom de l'image, l'article qui se place devant ce nom); Entoure -> Touche. Tutoiement as on the printed pages.",
+    "English source: 'Tap the word that goes in front of it' is ambiguous for a pre-reader — the picture word is also a word. Suggest 'Tap the little word that goes in front of it.'"
+  ]
+}

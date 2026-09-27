@@ -33,6 +33,7 @@ const taxonomy = require('../../publish-cli/taxonomy.js');
 const TAXONOMY_JSON = require('../../../frontend/config/topics-taxonomy.json');
 const TITLE_CONFIG = require('../../publish-cli/seo-title-config.json');
 const { buildInteractive } = require('./interactive-runtime.js');
+const { insertShareRow } = require('./deck-share.js');
 
 // Per-family skill sentences (the printable analogue of publish-cli's
 // seo-skill-sentences.json): join bandedDescription's middle pool so
@@ -206,12 +207,12 @@ function buildDeckHtml(o) {
   const downloadLabel = word(locale, 'download_pdf', 'Download the free PDF');
   const breadcrumbLd = buildBreadcrumbLd(locale, typeAxis, strings.title);
   const ia = o.interactive
-    ? { ...buildInteractive({ kind: o.interactive.kind, locale, items: o.interactive.items }), instruction: o.interactive.instruction, preview: o.interactive.preview }
+    ? { ...buildInteractive({ kind: o.interactive.kind, locale, items: o.interactive.items, ctx: o.interactive.ctx }), instruction: o.interactive.instruction, preview: o.interactive.preview }
     : null;
   const shown = ia ? ia.preview : preview;
   const keyLabel = ia ? i18n.resolve(locale, 'topicPage.deckCard.answerKeyLink', 'Answer Key').value : null;
 
-  return [
+  const html = [
     '<!DOCTYPE html>',
     '<html lang="' + locale + '">',
     '<head>',
@@ -259,6 +260,8 @@ function buildDeckHtml(o) {
     '</html>',
     '',
   ].filter((l) => l !== null).join('\n');
+  // interactive decks carry the apps' Share + Embed buttons (operator 2026-09-28)
+  return ia ? insertShareRow(html, { locale, title: strings.title }) : html;
 }
 
 module.exports = { buildDeckHtml, themeNameFor, typeAxisFor, levelFor, skillSentenceFor };

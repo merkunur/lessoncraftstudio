@@ -1,0 +1,9 @@
+{
+  "tapChoice": "Zeg het woord bij elk plaatje. Tik op het woordje dat ervoor hoort: de of het.",
+  "tapChoiceWord": "Lees elk woord. Tik op het woordje dat ervoor hoort: de of het.",
+  "notes": [
+    "Reuses the printed key words: woord bij het plaatje, het woordje dat ervoor hoort, de of het.",
+    "woordje instead of lidwoord: kleuters and groep 3 know de/het as woordjes; lidwoord appears only on the eight-picture sheet.",
+    "Tik op is the standard tablet imperative in Dutch school apps; je-form, gender-neutral."
+  ]
+}

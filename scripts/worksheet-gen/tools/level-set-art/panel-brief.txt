@@ -1,0 +1,13 @@
+TASK: write the on-screen instruction for the INTERACTIVE version of four "articles" worksheets for children aged 5-7, in your language(s).
+
+What the child sees on screen: rows; each row has a picture (or, on the "sort" worksheet, a printed word) on the left and 2-4 big buttons on the right showing the choices — the articles of your language (the list is in "_chips" of the file below; e.g. de der/die/das, sv en/ett, en a/an). In Finnish there are no articles: each row shows one picture or three pictures, and the buttons show the singular and the plural form of the word (fi: yksikkö/monikko). The child TAPS the button that goes with the picture/word (tapping another button changes the choice), then presses Check; each choice turns green (right) or red (wrong).
+
+Read the PRINTED title + instruction of each worksheet in your language (C:\Users\rkgen\lessoncraftstudio\scripts\worksheet-gen\tools\level-set-art\printed-strings.json) and reuse their key words and register.
+
+Write TWO strings per language:
+- "tapChoice": for the picture worksheets — say the picture word, then tap the word (article) that goes in front of it. Finnish: tap the word form that fits the picture (one or many).
+- "tapChoiceWord": for the sort worksheet — read the word, then tap the article that goes in front of it. Finnish: read the word and tap whether it is one (yksikkö) or many (monikko) — use the SAME two labels the printed Finnish sort page uses if they appear in the file; otherwise the school terms.
+Rules: simple, for a child who is read to or just starting to read; imperative to the child; max 100 characters each; no digits; no quotation marks; gender-neutral; no word "free".
+Also audit the English source if you see a problem (it is: tapChoice = "Say the picture word. Tap the word that goes in front of it." · tapChoiceWord = "Read the word. Tap the word that goes in front of it.").
+
+Write ONLY the file(s) named in your task as JSON {"tapChoice": "...", "tapChoiceWord": "...", "notes": ["..."]}, UTF-8, verify each parses with node. Final reply: the strings, one per line, under 100 words.

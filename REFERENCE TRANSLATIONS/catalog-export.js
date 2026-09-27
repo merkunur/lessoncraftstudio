@@ -2039,6 +2039,128 @@
     return deckHtml; // no anchor — leave unchanged (defensive)
   }
 
+  /* =====================================================================
+     LEVEL FINGERPRINT (2026-09-27) — manifest.fingerprint
+
+     Why: the per-app `settings` blocks record only what each app happened to
+     capture (addition/subtraction never recorded the number range; images_used
+     kept the bare file name and dropped the theme folder), so the publisher
+     could not tell what a ZIP actually contained. The fingerprint is written
+     HERE, once, for all 29 apps, from what is on the page at export time:
+
+       form    — every settings control in the app (id → value / checked /
+                 selected text). No per-app list, so nothing can be forgotten.
+       images  — every picture on the worksheet canvas with its FULL path
+                 (theme folder included; /images/<themeId>/ folders are mapped
+                 to theme names by the publisher's inspector).
+       texts   — every text printed on the worksheet canvas, in order (the
+                 numbers, words and sums the child actually sees).
+
+     Read-only: it never changes the worksheet. Any failure yields
+     {error: …} instead of throwing — the export must never break over it.
+     Consumer: scripts/publish-cli/inspect-app-zips.js.
+     ===================================================================== */
+  var FINGERPRINT_VERSION = 1;
+  var FP_MAX_TEXTS = 600;
+  var FP_MAX_VALUE = 400;
+  var FP_SKIP_INPUT_TYPES = { file: 1, password: 1, button: 1, submit: 1, reset: 1, image: 1 };
+
+  function fpFormState() {
+    var form = {};
+    var els = global.document ? global.document.querySelectorAll('input, select, textarea') : [];
+    for (var i = 0; i < els.length; i++) {
+      var el = els[i];
+      var key = el.id || el.name;
+      if (!key) continue;
+      var type = (el.type || '').toLowerCase();
+      if (FP_SKIP_INPUT_TYPES[type]) continue;
+      if (type === 'radio') {
+        if (el.checked) form[el.name || key] = el.value;
+        continue;
+      }
+      if (type === 'checkbox') { form[key] = !!el.checked; continue; }
+      if (el.tagName === 'SELECT') {
+        if (el.multiple) {
+          var vals = [];
+          for (var j = 0; j < el.options.length; j++) if (el.options[j].selected) vals.push(el.options[j].value);
+          form[key] = vals;
+        } else {
+          var opt = el.options[el.selectedIndex];
+          form[key] = { value: el.value, text: opt ? String(opt.text).trim().slice(0, 120) : null };
+        }
+        continue;
+      }
+      form[key] = String(el.value == null ? '' : el.value).slice(0, FP_MAX_VALUE);
+    }
+    return form;
+  }
+
+  function fpCanvases() {
+    var list = [];
+    /* Global lexical bindings (const/let at top level) are visible by name
+       across classic scripts. grid-match names its canvas `wsCanvas`.
+       ⚠ An element with id="wsCanvas" is ALSO reachable by that name (named
+       window access) — so require a real Fabric canvas, never the <canvas>. */
+    try { if (typeof worksheetCanvas !== 'undefined' && worksheetCanvas && typeof worksheetCanvas.getObjects === 'function') list.push(worksheetCanvas); } catch (e) {}
+    try { if (typeof wsCanvas !== 'undefined' && wsCanvas && typeof wsCanvas.getObjects === 'function' && list.indexOf(wsCanvas) === -1) list.push(wsCanvas); } catch (e) {}
+    /* Most apps keep their canvas inside a closure; all 29 expose the ACTIVE
+       canvas (worksheet or answer-key tab) as window.canvas for the Design
+       Elements library. The answer-key tab carries the same content plus the
+       answers, so either is a faithful record; canvasId says which one. */
+    try { var wc = global.canvas; if (wc && wc.getObjects && list.indexOf(wc) === -1) list.push(wc); } catch (e) {}
+    return list;
+  }
+
+  function fpWalk(objs, visit) {
+    for (var i = 0; objs && i < objs.length; i++) {
+      var o = objs[i];
+      if (!o) continue;
+      visit(o);
+      if (o._objects && o._objects.length) fpWalk(o._objects, visit);
+    }
+  }
+
+  function fpImagePath(src) {
+    if (!src) return null;
+    src = String(src);
+    if (src.indexOf('data:') === 0) return { path: null, kind: 'embedded-data-url' };
+    try { src = decodeURIComponent(src); } catch (e) {}
+    var path = src.replace(/^https?:\/\/[^/]+/, '').split(/[?#]/)[0];
+    var m = path.match(/\/(?:themes-lossless|themes|images)\/([^/]+)\/([^/]+)$/);
+    var folder = m ? m[1] : null;
+    var kind = /(^|\/)(borders?|BORDERS)(\/|$)/i.test(path) ? 'border'
+      : /(^|\/)(backgrounds?|BACKGROUNDS)(\/|$)/i.test(path) ? 'background' : 'picture';
+    return { path: path, folder: folder, file: m ? m[2] : path.split('/').pop(), kind: kind };
+  }
+
+  function buildFingerprint() {
+    var fp = { version: FINGERPRINT_VERSION, form: {}, images: [], texts: [] };
+    try { fp.form = fpFormState(); } catch (e) { fp.formError = String(e && e.message || e); }
+    try {
+      var canvases = fpCanvases();
+      fp.canvasFound = canvases.length > 0;
+      var seen = {};
+      canvases.slice(0, 1).forEach(function (c) {
+        try { fp.canvasId = (c.lowerCanvasEl && c.lowerCanvasEl.id) || null; } catch (e) {}
+        fpWalk(c.getObjects ? c.getObjects() : [], function (o) {
+          if (o.type === 'image') {
+            var src = (typeof o.getSrc === 'function') ? o.getSrc() : (o._element && o._element.src);
+            var info = fpImagePath(src);
+            if (!info) return;
+            var k = (info.path || 'data') + '|' + info.kind;
+            if (seen[k]) { seen[k].count++; return; }
+            info.count = 1;
+            seen[k] = info;
+            fp.images.push(info);
+          } else if (typeof o.text === 'string' && o.text.trim() && !o.isAttribution) {
+            if (fp.texts.length < FP_MAX_TEXTS) fp.texts.push(o.text.trim().slice(0, 200));
+          }
+        });
+      });
+    } catch (e) { fp.canvasError = String(e && e.message || e); }
+    return fp;
+  }
+
   function exportCatalog(opts) {
     return Promise.resolve().then(function () {
       if (typeof global.JSZip !== 'function') {
@@ -2050,6 +2172,8 @@
       var now = new Date();
       var deckId = buildDeckId(opts.exerciseType, opts.exerciseMode, opts.language, now);
       var manifest = buildManifest(opts, deckId, isoUtc(now));
+      try { manifest.fingerprint = buildFingerprint(); }
+      catch (e) { manifest.fingerprint = { version: FINGERPRINT_VERSION, error: String(e && e.message || e) }; }
 
       return Promise.all([
         Promise.resolve(opts.producers.pdf()),
@@ -3058,6 +3182,7 @@
     deriveVariantId: deriveVariantId,
     HREFLANG_MARKER: HREFLANG_MARKER,
     export: exportCatalog,
+    buildFingerprint: buildFingerprint,
     exportStorybookExercise: exportStorybookExercise,
     exportStorybookForced: exportStorybookForced,
     downloadPackage: downloadPackage,

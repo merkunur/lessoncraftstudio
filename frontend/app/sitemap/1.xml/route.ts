@@ -164,7 +164,9 @@ export async function GET() {
   }
   try {
     const decks = await prisma.deck.findMany({
-      where: { status: 'published' },
+      // indexable:false = do-not-index marker (visible to teachers, never
+      // offered to search engines; scripts/publish-cli/noindex-marker.js).
+      where: { status: 'published', indexable: true },
       select: {
         id: true,
         language: true,

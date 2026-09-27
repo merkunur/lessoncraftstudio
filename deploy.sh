@@ -244,6 +244,12 @@ node /opt/lessoncraftstudio/scripts/publish-cli/site-chrome.test.js || { echo "E
 echo "🔎 deck-actions strip guard..."
 node /opt/lessoncraftstudio/scripts/publish-cli/deck-actions.test.js || { echo "ERROR: the deck action strip is broken — a locale lost its deckActions strings, a maker landing slug vanished, or /tools/ or /api/quota/dl moved. See scripts/lib/deck-actions.js"; exit 1; }
 
+# Guard: the do-not-index marker (Level Set programme 2026-09-27). Decks published
+# with manifest.indexable=false are visible to teachers but must never be offered
+# to search engines. Browser-free, DB-free.
+echo "🔎 do-not-index marker guard..."
+node /opt/lessoncraftstudio/scripts/publish-cli/noindex-marker.test.js || { echo "ERROR: the do-not-index marker is broken — see scripts/publish-cli/noindex-marker.js"; exit 1; }
+
 # Guard: CLAUDE.md §10 indexable-route rule. Every text/html surface must declare a
 # canonical or a robots directive (nginx X-Robots-Tag counts). Ratcheted against a
 # frozen baseline of pre-existing debt, so this fails only on NEWLY-ungated surfaces.

@@ -56,12 +56,21 @@
  *   /etc/nginx/deck-noindex-exempt.map        (nginx `map $uri` body)
  *   /opt/lessoncraftstudio/deck-noindex-exempt.txt   (loc|slug, for sampling)
  *
+ * DO-NOT-INDEX MARKER (2026-09-27). A landing-less deck published with
+ * `manifest.indexable === false` (Deck.indexable = false; see
+ * noindex-marker.js) is NEVER exempted — it is visible to teachers but must
+ * keep the default noindex header. Two independent checks, either suffices:
+ * the DB flag, and the deck.html robots meta. If the DB cannot be read the
+ * script refuses to write (a map built without the flag would expose those
+ * decks — the one direction this file must never fail in).
+ *
  * Usage (on Hetzner):
  *   node scripts/publish-cli/gen-deck-noindex-exempt-map.js [--dry-run] [--out=PATH]
  */
 'use strict';
 const fs = require('fs');
 const path = require('path');
+const noindexMarker = require('./noindex-marker');
 
 const ROOT = '/var/www/lcs-media/decks';
 const LANDING_DIR = path.join(__dirname, '..', '..', 'frontend', 'content', 'seo-landing');
@@ -107,6 +116,46 @@ if (!isDir(ROOT)) {
   process.exit(1);
 }
 
+/** loc|slug of every published deck carrying the do-not-index marker. */
+async function loadNoindexSet() {
+  const db = require('./db');
+  try {
+    const rows = await db.client().deck.findMany({
+      where: { indexable: false },
+      select: { language: true, slug: true },
+    });
+    return new Set(rows.map((r) => r.language + '|' + r.slug));
+  } finally {
+    await db.disconnect();
+  }
+}
+
+/** First 32 KB of deck.html is enough to reach the <head> robots meta. */
+function deckHtmlIsNoindex(versionDir) {
+  let fd;
+  try {
+    fd = fs.openSync(path.join(versionDir, 'deck.html'), 'r');
+    const buf = Buffer.alloc(32768);
+    const n = fs.readSync(fd, buf, 0, buf.length, 0);
+    return noindexMarker.isNoindexDeckHtml(buf.slice(0, n).toString('utf8'));
+  } catch (e) {
+    return false;
+  } finally {
+    if (fd !== undefined) fs.closeSync(fd);
+  }
+}
+
+(async () => {
+let noindexSet;
+try {
+  noindexSet = await loadNoindexSet();
+} catch (e) {
+  console.error('FATAL: could not read the do-not-index marker from the DB: ' + e.message);
+  console.error('       Refusing to write — a map built without it would expose do-not-index decks.');
+  process.exit(1);
+}
+let doNotIndex = 0;
+
 const locales = fs.readdirSync(ROOT)
   .filter((l) => l[0] !== '.' && isDir(path.join(ROOT, l)))
   .sort();
@@ -145,6 +194,9 @@ for (const loc of locales) {
     if (!fs.existsSync(path.join(dir, target.replace(/\/+$/, '')))) { dangling++; continue; }
     served++;
     if (landingDecks && landingDecks.has(slug)) { withLanding++; continue; }
+    if (noindexSet.has(loc + '|' + slug) || deckHtmlIsNoindex(path.join(dir, target.replace(/\/+$/, '')))) {
+      doNotIndex++; continue;                          // do-not-index marker → keep noindex
+    }
 
     // Landing-less → exempt. Both key forms, matching the $deck_redirect map's
     // convention (the deck location regex requires the trailing slash, but the
@@ -162,6 +214,7 @@ const exemptCount = listLines.length;
 console.log('locales scanned:        ' + locales.length);
 console.log('served decks (self-link): ' + served);
 console.log('  with landing (stay noindex): ' + withLanding);
+console.log('  do-not-index marker (stay noindex): ' + doNotIndex + '  (DB flag set: ' + noindexSet.size + ')');
 console.log('  landing-less (EXEMPT):       ' + exemptCount);
 console.log('alias symlinks skipped (301 first): ' + aliases);
 console.log('dangling symlinks skipped:          ' + dangling);
@@ -194,3 +247,4 @@ try {
 }
 console.log('\nwrote ' + mapLines.length + ' map lines to ' + MAP_OUT);
 console.log('Reload nginx for this to take effect:  nginx -t && systemctl reload nginx');
+})().catch((e) => { console.error(e); process.exit(1); });

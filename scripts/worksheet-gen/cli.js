@@ -108,6 +108,7 @@ async function generate(args) {
     const manifest = buildManifest({
       spec, cacheTheme: cacheTheme, difficulty: it.difficulty, locale: it.locale,
       variant: it.variant, unit: it.unit || null, deckId: deckId, generatedAt: new Date().toISOString(), strings, imagesUsed,
+      indexable: plan.indexable !== false,   // wave JSON "indexable": false → visible to teachers, never indexed
     });
     const deckHtml = buildDeckHtml({ manifest, spec, strings, locale: it.locale, preview });
     writeDeckZip({ stagingDir, deckId: deckId, manifest, deckHtml, pdfPath: r.pdfPath, thumbnailBuf });

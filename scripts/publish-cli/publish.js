@@ -24,6 +24,7 @@ var substitute = require('./substitute');
 var slugMod = require('./slug');
 var ogImage = require('./og-image');
 var placeAssets = require('./place-assets');
+var noindexMarker = require('./noindex-marker');
 var extractMeta = require('./extract-html-meta');
 var db = require('./db');
 var deckEndSuggestions = require('./deck-end-suggestions');
@@ -332,9 +333,14 @@ async function publish(opts) {
   // .claude/plans/heading-structure-audit-critical-eager-dongarra.md Phase 2.
   var printablePdfName = slug + '-printable.pdf';
   var answerKeyPdfName = slug + '-answer-key.pdf';
+  // Do-not-index marker (2026-09-27): from the manifest, and STICKY across
+  // republishes of a deck that is already do-not-index (noindex-marker.js).
+  var noindex = noindexMarker.manifestWantsNoindex(manifest) ||
+    !!(existingRow && existingRow.indexable === false);
+  if (noindex) manifest.indexable = false;
   var assets = {
     'manifest.json': JSON.stringify(manifest, null, 2),
-    'deck.html': subResult.html,
+    'deck.html': noindex ? noindexMarker.applyNoindexToDeckHtml(subResult.html) : subResult.html,
     'thumbnail.png': thumbnailBuffer,
     'og-image.png': ogBuffer
   };
@@ -384,7 +390,8 @@ async function publish(opts) {
         // computed by reconcileDeckPageSEO. Phase 2 §1+§2 uniqueness
         // invariants enforce structurally via @@unique([language, titleHash]).
         titleHash: (seoRecon.predicates && seoRecon.predicates.title) ? seoRecon.predicates.title.hash : null,
-        descriptionHash: (seoRecon.predicates && seoRecon.predicates.description) ? seoRecon.predicates.description.hash : null
+        descriptionHash: (seoRecon.predicates && seoRecon.predicates.description) ? seoRecon.predicates.description.hash : null,
+        indexable: !noindex
       });
     } else {
       // INSERT path.
@@ -428,7 +435,8 @@ async function publish(opts) {
         // computed by reconcileDeckPageSEO. Phase 2 §1+§2 uniqueness
         // invariants enforce structurally via @@unique([language, titleHash]).
         titleHash: (seoRecon.predicates && seoRecon.predicates.title) ? seoRecon.predicates.title.hash : null,
-        descriptionHash: (seoRecon.predicates && seoRecon.predicates.description) ? seoRecon.predicates.description.hash : null
+        descriptionHash: (seoRecon.predicates && seoRecon.predicates.description) ? seoRecon.predicates.description.hash : null,
+        indexable: !noindex
       });
     }
   } catch (e) {

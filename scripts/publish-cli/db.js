@@ -169,7 +169,9 @@ async function insertDeck(opts) {
     // Schema columns are nullable (Phase 3a.1 migration); pre-Checkpoint-2
     // callers leave undefined which Prisma maps to null.
     titleHash: opts.titleHash || null,
-    descriptionHash: opts.descriptionHash || null
+    descriptionHash: opts.descriptionHash || null,
+    // Do-not-index marker (noindex-marker.js). Omitted → schema default true.
+    indexable: opts.indexable !== false
   };
   return await client().deck.create({ data: data });
 }
@@ -206,7 +208,10 @@ async function updateDeck(id, opts) {
     // unchanged). Phase 4a retrofit's republish-seo mode WILL pass updated
     // hashes alongside re-emitted SEO block.
     titleHash: (opts.titleHash !== undefined) ? opts.titleHash : existing.titleHash,
-    descriptionHash: (opts.descriptionHash !== undefined) ? opts.descriptionHash : existing.descriptionHash
+    descriptionHash: (opts.descriptionHash !== undefined) ? opts.descriptionHash : existing.descriptionHash,
+    // Do-not-index marker is STICKY: an update can make a deck do-not-index,
+    // never silently indexable again (noindex-marker.js).
+    indexable: existing.indexable === false ? false : (opts.indexable !== false)
   };
   return await client().deck.update({ where: { id: id }, data: data });
 }

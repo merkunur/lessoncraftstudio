@@ -141,6 +141,10 @@ function buildManifest(o) {
   };
   // unit axis (nt20-C): the key exists ONLY when a unit is configured — manifest bytes unchanged otherwise
   if (o.unit) manifest.unit = o.unit;
+  // do-not-index marker (Level Set programme, publish-cli/noindex-marker.js):
+  // the key exists ONLY for a wave that sets "indexable": false — manifest
+  // bytes of every other wave are unchanged.
+  if (o.indexable === false) manifest.indexable = false;
   // Round-trip check (catalog-export.js convention): must JSON-serialize cleanly.
   JSON.parse(JSON.stringify(manifest));
   return manifest;

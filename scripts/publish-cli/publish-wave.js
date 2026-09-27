@@ -110,6 +110,7 @@ function parseArgs(argv) {
     skipSiteChrome: false,
     skipAudit: false,
     noDbCheck: false,
+    noindex: false,
   };
   for (const a of argv.slice(2)) {
     if (a === '--confirm') args.confirm = true;
@@ -122,6 +123,7 @@ function parseArgs(argv) {
     else if (a === '--skip-site-chrome') args.skipSiteChrome = true;
     else if (a === '--skip-audit') args.skipAudit = true;
     else if (a === '--no-db-check') args.noDbCheck = true;
+    else if (a === '--noindex') args.noindex = true;
     else if (a === '--help' || a === '-h') args.help = true;
     else if (a.startsWith('--locales=')) args.locales = a.slice('--locales='.length).split(',').map((s) => s.trim()).filter(Boolean);
     else if (a.startsWith('--decks-root=')) args.decksRoot = a.slice('--decks-root='.length);
@@ -147,6 +149,9 @@ Required:
 
 Options:
   --confirm               publish for real (default: dry-run/report every step)
+  --noindex               do-not-index marker: every deck in this wave is VISIBLE to
+                          teachers but never offered to search engines (stamps
+                          manifest.indexable=false into each ZIP; noindex-marker.js)
   --decks-root=<path>     published decks root (default: /var/www/lcs-media/decks)
   --updates-manifest=<p>  UPDATE-mode manifest passed through to publish-bulk
   --batch-id=<id>         batch id passed through to publish-bulk
@@ -245,6 +250,12 @@ function main() {
   // (cryptogram) through; --fail-on-rewrite halts on recoverable theme-emit
   // defects so the operator salvages BEFORE PREBAND (which rebuilds SEO from the
   // manifest theme). halt-ambiguous / halt-seometa / corruption still halt.
+  // STEP 0a — DO-NOT-INDEX MARKER (--noindex): stamp manifest.indexable=false
+  // into every ZIP before anything reads them. Dry-run only reports.
+  if (args.noindex) {
+    runStep(`NOINDEX MARKER — mark-zips-noindex (${args.confirm ? 'apply' : 'dry-run'})`, 'mark-zips-noindex.js', args.confirm ? [args.folder] : [args.folder, '--dry-run']);
+  }
+
   if (!args.skipPreflight) {
     runStep('PRE-FLIGHT — manifest theme reconciliation (§A.14.8)', 'rewrite-manifest-theme.js', [args.folder, '--dry-run', '--themeless-ok', '--fail-on-rewrite']);
   } else {

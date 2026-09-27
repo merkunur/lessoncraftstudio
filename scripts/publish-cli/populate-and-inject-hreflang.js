@@ -138,7 +138,9 @@ async function main() {
 
   console.log('[hreflang-v2] querying published decks for locales=' + args.locales.join(','));
   var rows = await db.client().deck.findMany({
-    where: { status: 'published', language: { in: args.locales } },
+    // indexable:false decks (do-not-index marker) never join a cluster: an
+    // hreflang link must never point at, or be carried by, a noindexed page.
+    where: { status: 'published', indexable: true, language: { in: args.locales } },
     select: {
       id: true, slug: true, language: true,
       exerciseType: true, exerciseMode: true,

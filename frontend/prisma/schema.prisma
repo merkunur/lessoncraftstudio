@@ -1165,6 +1165,12 @@ model Deck {
   version         Int       @default(1)
   contentFamilyId String?   @map("content_family_id") // §17.8.7 reserved nullable
   contentLanguage String?   @map("content_language") // ISO 639-1 TARGET language of a cross-language (2nd-language vocab) deck; null = monolingual. Drives the /learn category + the monolingual-surface exclusion filter.
+  // Do-not-index marker (2026-09-27, Level Set programme). false = the deck is
+  // VISIBLE to teachers on every browse surface but never offered to search
+  // engines: excluded from sitemap shards 0/1, from deck.html hreflang
+  // clusters, and from the nginx noindex-exempt map; deck.html carries a
+  // noindex meta. Default true = every pre-existing deck is unchanged.
+  indexable       Boolean   @default(true)
   // Phase 2 doctrine §1+§2 uniqueness invariants (deck-page SEO arc Phase 3a).
   // sha256 hashes of rendered post-substitution title + meta description; nullable
   // for pre-Phase-4a-retrofit decks (backfilled at retrofit pass per Phase 4a

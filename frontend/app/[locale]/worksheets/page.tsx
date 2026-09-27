@@ -266,7 +266,8 @@ export default async function AllWorksheetsPage({
      and its rail counts stay exactly as indexed. A failed read adds nothing. */
   let levelSetExtra: HubRow[] = [];
   if (filters.type) {
-    const parent = allLandings.find((l) => l.coordinate.type === filters.type);
+    const typeLandings = allLandings.filter((l) => l.coordinate.type === filters.type);
+    const parent = typeLandings[0];
     if (parent) {
       try {
         const [rows, tSeo] = await Promise.all([
@@ -279,7 +280,7 @@ export default async function AllWorksheetsPage({
         ]);
         const setWord = tSeo.has('set') ? tSeo('set') : 'Set';
         levelSetExtra = levelSetRows(
-          parent,
+          typeLandings,
           rows.map((d) => {
             const raw = d.title as Record<string, string> | null;
             return {

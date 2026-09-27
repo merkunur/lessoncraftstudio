@@ -26,7 +26,10 @@ const FACES = { 'G1-245': 'animals', 'G1-262': 'fruits', 'G1-263': 'vehicles', '
 const PLAN = { 1: [1, 2, 3, 4, 5], 2: [2, 3, 4, 5, 6], 3: [1, 2, 3, 4, 5] };                         // level → copies (level 2 copy 1 is published)
 
 const family = (t) => String((m.themes[t] && m.themes[t].bw && m.themes[t].baseTheme) || t.replace(/ bw( \d+)?$/i, '')).toLowerCase();
-const all = Object.keys(m.themes).filter((t) => TAX.axes.theme[themeAxisKey(t)]).sort();
+// themes whose pictures do not show what their word says — never on a word worksheet
+// (`tree`: fruit TREES labelled with the FRUIT word — "apple" under an apple tree; 2026-09-28)
+const NEVER = new Set(['tree', 'tree bw']);
+const all = Object.keys(m.themes).filter((t) => TAX.axes.theme[themeAxisKey(t)] && !NEVER.has(t.toLowerCase())).sort();
 const colour = all.filter((t) => !m.themes[t].bw), bw = all.filter((t) => m.themes[t].bw);
 
 // the page <title> exactly as emit composes it (a >70-char title fails the publish audit)

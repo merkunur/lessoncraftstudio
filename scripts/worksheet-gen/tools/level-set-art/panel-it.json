@@ -1,0 +1,9 @@
+{
+  "tapChoice": "Di' il nome della figura. Tocca l'articolo giusto da mettere davanti.",
+  "tapChoiceWord": "Leggi la parola. Tocca l'articolo giusto da mettere davanti.",
+  "notes": [
+    "Articles deliberately NOT named: _chips it is [il, la] but printed K-307 uses il, lo, la, l'. If K-307 goes interactive its chips must be those four, or the words with lo/l' become unanswerable.",
+    "Reuses printed K-288 wording (Di' il nome della figura, l'articolo giusto da mettere davanti); Cerchia -> Tocca.",
+    "English source: 'Tap the word that goes in front of it' is ambiguous for a pre-reader — the picture word is also a word. Suggest 'Tap the little word that goes in front of it.'"
+  ]
+}

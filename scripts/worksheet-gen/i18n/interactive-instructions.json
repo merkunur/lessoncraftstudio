@@ -27,5 +27,33 @@
       "no": "Trykk på ordene i alfabetisk rekkefølge. Hvis to ord begynner likt, se på den andre bokstaven.",
       "fi": "Napauta sanoja aakkosjärjestyksessä. Jos alkukirjain on sama, katso toista kirjainta."
     }
+  },
+  "articles": {
+    "tapChoice": {
+      "en": "Say each picture word. Tap the little word that goes in front of it.",
+      "de": "Sprich jedes Bildwort laut. Tippe den Artikel an, der davor passt.",
+      "es": "Di el nombre del dibujo. Toca el artículo que va delante: el o la.",
+      "fr": "Dis le nom de l'image. Touche l'article qui se place devant ce nom.",
+      "it": "Di' il nome della figura. Tocca l'articolo giusto da mettere davanti.",
+      "pt": "Fale o nome da figura. Toque na palavrinha que vem antes dela: o ou a.",
+      "nl": "Zeg het woord bij elk plaatje. Tik op het woordje dat ervoor hoort: de of het.",
+      "sv": "Säg ordet till bilden. Tryck på det ord som passar framför: en eller ett.",
+      "da": "Sig ordet til billedet. Tryk på det ord, der passer foran: en eller et.",
+      "no": "Si ordet til bildet. Trykk på ordet som passer foran: en eller et.",
+      "fi": "Katso, onko kuvassa yksi vai monta. Napauta sanaa, joka sopii kuvaan."
+    },
+    "tapChoiceWord": {
+      "en": "Read each word. Tap the little word that goes in front of it.",
+      "de": "Lies jedes Wort genau. Tippe den Artikel an, der davor passt.",
+      "es": "Lee la palabra. Toca el artículo que va delante: el o la.",
+      "fr": "Lis le mot. Touche l'article qui se place devant ce mot.",
+      "it": "Leggi la parola. Tocca l'articolo giusto da mettere davanti.",
+      "pt": "Leia a palavra. Toque na palavrinha que vem antes dela: o ou a.",
+      "nl": "Lees elk woord. Tik op het woordje dat ervoor hoort: de of het.",
+      "sv": "Läs ordet. Tryck på det ord som passar framför: en eller ett.",
+      "da": "Læs ordet. Tryk på det ord, der passer foran: en eller et.",
+      "no": "Les ordet. Trykk på ordet som passer foran: en eller et.",
+      "fi": "Lue sana. Kertooko se yhdestä vai monesta? Napauta yksi tai monta."
+    }
   }
 }

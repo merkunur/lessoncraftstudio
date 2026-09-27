@@ -78,7 +78,7 @@ const chromeText = (s, locale) => (isFr(locale) ? frTypo(esc(s)) : esc(s));
 /**
  * buildPage({ title, instruction, bodyHtml, locale, pageSize }) → html string
  */
-function buildPage({ title, instruction, bodyHtml, locale, pageSize }) {
+function buildPage({ title, instruction, bodyHtml, locale, pageSize, pageHeight }) {
   const size = PAGE_SIZES[pageSize || 'a4'];
   const chrome = CHROME[locale] || CHROME.en;
   return `<!DOCTYPE html>
@@ -88,7 +88,7 @@ function buildPage({ title, instruction, bodyHtml, locale, pageSize }) {
 <style>
 ${FONTS_CSS}
 ${PAGE_CSS}
-@page { size: ${size.w} ${size.h}; margin: ${size.my} ${size.mx}; }
+@page { size: ${size.w} ${size.h}; margin: ${size.my} ${size.mx}; }${pageHeight ? `\n.ws-page { height: ${pageHeight}px; }` : ''}
 </style>
 </head>
 <body>

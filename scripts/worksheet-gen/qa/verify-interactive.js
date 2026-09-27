@@ -26,6 +26,62 @@ const { loadType } = require('../lib/load-types.js');
 const WIDTHS = [360, 768, 1024];
 const TAP_MIN = 44;
 
+/** tap-choice: one option per item; the oracle recomputes each item's correct option from its data. */
+async function playChoice(page, html, oracle, locale) {
+  const fails = [];
+  const file = path.join(os.tmpdir(), 'lcs-verify-interactive-' + process.pid + '.html');
+  fs.writeFileSync(file, html, 'utf8');
+  for (const w of WIDTHS) {
+    await page.setViewport({ width: w, height: 900, deviceScaleFactor: 1 });
+    await page.goto(require('url').pathToFileURL(file).href, { waitUntil: 'load' });
+    const info = await page.evaluate(() => ({
+      opts: [...document.querySelectorAll('.lcs-opt')].map((b) => { const r = b.getBoundingClientRect(); return { w: r.width, h: r.height, l: r.left, r: r.right }; }),
+      vw: document.documentElement.clientWidth,
+      bundle: window.DECK_BUNDLE,
+    }));
+    const B = info.bundle;
+    if (!B || !Array.isArray(B.items) || info.opts.length < 4) { fails.push(`${w}px: ${info.opts.length} tap targets`); return fails; }
+    info.opts.forEach((o, i) => {
+      if (o.w < TAP_MIN || o.h < TAP_MIN) fails.push(`${w}px: option ${i + 1} is ${Math.round(o.w)}x${Math.round(o.h)} < ${TAP_MIN}`);
+      if (o.l < -1 || o.r > info.vw + 1) fails.push(`${w}px: option ${i + 1} outside the viewport`);
+    });
+    if (w !== 768) continue;
+    const items = B.items.map((it) => ({ label: it.label, meta: it.meta, options: it.options.map((o) => o.label) }));
+    const right = oracle(items, locale, B.ctx || {});
+    const base = []; let n = 0; B.items.forEach((it) => { base.push(n); n += it.options.length; });
+    const tap = (i, j) => page.evaluate((k) => document.querySelectorAll('.lcs-opt')[k].click(), base[i] + j);
+    const state = () => page.evaluate(() => ({
+      celebrate: !document.getElementById('lcs-celebration').hidden,
+      states: [...document.querySelectorAll('.lcs-opt')].map((b) => b.getAttribute('data-state')).filter(Boolean),
+      pressed: [...document.querySelectorAll('.lcs-opt')].filter((b) => b.getAttribute('aria-pressed') === 'true').length,
+      checkDisabled: document.getElementById('lcs-check').disabled,
+    }));
+    // take-back: the same option twice clears the choice
+    await tap(0, 0); await tap(0, 0);
+    let st = await state();
+    if (st.pressed) fails.push('tapping an option twice did not clear it');
+    if (!st.checkDisabled) fails.push('Check enabled with nothing chosen');
+    // the right answers
+    for (let i = 0; i < right.length; i++) await tap(i, right[i]);
+    st = await state();
+    if (st.checkDisabled) fails.push('Check still disabled after every item has a choice');
+    await page.click('#lcs-check');
+    await new Promise((r) => setTimeout(r, 600));
+    st = await state();
+    if (!st.celebrate) fails.push('the right answers did not reach the celebration');
+    if (st.states.length !== right.length || st.states.some((s) => s !== 'right')) fails.push('the right answers left non-green choices: ' + st.states.join(','));
+    // one wrong answer
+    await page.evaluate(() => { document.getElementById('lcs-celebration').hidden = true; document.getElementById('lcs-reset').click(); });
+    for (let i = 0; i < right.length; i++) await tap(i, i === 0 ? (right[0] + 1) % B.items[0].options.length : right[i]);
+    await page.click('#lcs-check');
+    await new Promise((r) => setTimeout(r, 600));
+    st = await state();
+    if (st.celebrate) fails.push('a WRONG answer reached the celebration');
+    if (!st.states.includes('wrong')) fails.push('a wrong answer marked nothing red');
+  }
+  return fails;
+}
+
 async function play(page, html, oracle, locale) {
   const fails = [];
   const file = path.join(os.tmpdir(), 'lcs-verify-interactive-' + process.pid + '.html');
@@ -97,20 +153,26 @@ async function main() {
     const spec = loadType(m.settings.worksheet_type);
     if (!spec.interactive || typeof spec.interactive.oracle !== 'function') throw new Error(f + ': type has no interactive.oracle');
     if (!z.getEntry('answer-key.pdf')) { bad++; console.log('FAIL ' + f + ': no answer-key.pdf'); }
-    decks.push({ f, html: z.readAsText('deck.html'), oracle: spec.interactive.oracle, locale: m.language });
+    decks.push({ f, html: z.readAsText('deck.html'), oracle: spec.interactive.oracle, locale: m.language, kind: m.interactive.kind });
   }
   if (!decks.length) throw new Error('verify-interactive: no interactive decks in ' + folder + ' (a vacuous run is not a pass)');
   if (poison) {
     const d = decks[0];
+    // wrong answer map: every answer moved to a DIFFERENT valid value (a reversal can leave a map unchanged)
+    const shiftAnswers = (html) => html.replace(/window\.DECK_BUNDLE=(\{.*?\});<\/script>/, (m0, j) => {
+      const B = JSON.parse(j);
+      B.answers = B.kind === 'tap-choice' ? B.answers.map((a, i) => (a + 1) % B.items[i].options.length) : B.answers.map((a) => (a % B.answers.length) + 1);
+      return 'window.DECK_BUNDLE=' + JSON.stringify(B) + ';</script>';
+    });
     const cases = [
-      ['wrong answer map', d.html.replace(/"answers":\[([^\]]*)\]/, (_, a) => '"answers":[' + a.split(',').reverse().join(',') + ']')],
+      ['wrong answer map', shiftAnswers(d.html)],
       ['no tap targets', d.html.replace('ov.appendChild(el);', '')],
-      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;')],
+      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;')],
     ];
     let killed = 0;
     for (const [name, html] of cases) {
       if (html === d.html) { console.log('POISON NOT APPLIED: ' + name); continue; }
-      const fails = await play(page, html, d.oracle, d.locale);
+      const fails = await (d.kind === 'tap-choice' ? playChoice : play)(page, html, d.oracle, d.locale);
       console.log((fails.length ? '  ✓ killed: ' : '  ✗ SURVIVED: ') + name + (fails.length ? ' (' + fails[0] + ')' : ''));
       if (fails.length) killed++;
     }
@@ -119,7 +181,7 @@ async function main() {
     process.exit(killed === cases.length ? 0 : 1);
   }
   for (const d of decks) {
-    const fails = await play(page, d.html, d.oracle, d.locale);
+    const fails = await (d.kind === 'tap-choice' ? playChoice : play)(page, d.html, d.oracle, d.locale);
     checked++;
     if (fails.length) { bad++; console.log('FAIL ' + d.f + ': ' + fails.join('; ')); }
   }

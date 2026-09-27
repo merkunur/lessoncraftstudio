@@ -1,0 +1,9 @@
+{
+  "tapChoice": "Sprich jedes Bildwort laut. Tippe den Artikel an, der davor passt.",
+  "tapChoiceWord": "Lies jedes Wort genau. Tippe den Artikel an, der davor passt.",
+  "notes": [
+    "Reuses the printed key words: Bildwort, laut, Artikel, der davor passt, lies jedes Wort genau.",
+    "Artikel kept because the printed sheets use it; Begleiter would also be common in Klasse 1 but would break consistency with the page.",
+    "Tippe ... an is the usual tablet imperative for Grundschule apps; du-form, gender-neutral."
+  ]
+}

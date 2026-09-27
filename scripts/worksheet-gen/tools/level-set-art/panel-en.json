@@ -1,0 +1,9 @@
+{
+  "tapChoice": "Say each picture word. Tap the little word that goes in front of it.",
+  "tapChoiceWord": "Read each word. Tap the little word that goes in front of it.",
+  "notes": [
+    "Audit of source: each row is one picture, and there are several rows, so each picture word / each word matches the printed K-306 wording better than the singular.",
+    "Source says word twice with two meanings (the picture word, then the article). little word separates the article from the picture word for a pre-reader, without the grammar term article.",
+    "Kept goes in front of it from the printed K-288 and G1-292 instructions. US spelling; no digits, no quotes."
+  ]
+}

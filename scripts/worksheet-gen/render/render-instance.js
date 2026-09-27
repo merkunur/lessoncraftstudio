@@ -73,7 +73,7 @@ async function renderInstance(o) {
     if (!o.interactiveInstruction) throw new Error('render-instance: ' + type.id + ' is interactive but no interactiveInstruction was given for ' + locale);
     const screenBuilt = await again({ interactive: true });
     sameAs(screenBuilt, 'screen');
-    await load(buildPage({ title: strings.title, instruction: o.interactiveInstruction, bodyHtml: screenBuilt.bodyHtml, locale, pageSize }), '.screen');
+    await load(buildPage({ title: strings.title, instruction: o.interactiveInstruction, bodyHtml: screenBuilt.bodyHtml, locale, pageSize, pageHeight: spec.screenHeight || null }), '.screen');
     const screenLints = await runLints(page, { gradeBand: type.gradeBand });
     // the screen picture is CROPPED just below the lowest item (no empty half page on a phone);
     // every rectangle is measured against that crop
@@ -83,8 +83,20 @@ async function renderInstance(o) {
       const pg = { left: full.left, top: full.top, width: full.width, height: Math.min(full.height, lowest - full.top + 36) };
       window.__lcsClip = { x: full.left + window.scrollX, y: full.top + window.scrollY, width: full.width, height: pg.height };
       const pct = (v, base, size) => ((v - base) / size) * 100;
+      const box = (r) => ({ x: pct(r.left, pg.left, pg.width), y: pct(r.top, pg.top, pg.height), w: (r.width / pg.width) * 100, h: (r.height / pg.height) * 100 });
       return [...document.querySelectorAll(sp.item)].map((el) => {
-        const r = el.getBoundingClientRect(), slotEl = el.querySelector(sp.slot);
+        const r = el.getBoundingClientRect();
+        if (sp.option) {
+          // tap-choice: one answer per item = the index of the option the page marks correct
+          const opts = [...el.querySelectorAll(sp.option)];
+          const meta = {};
+          (sp.metaAttrs || []).forEach((a) => { meta[a] = el.getAttribute(a); });
+          return {
+            ...box(r), options: opts.map((o) => ({ ...box(o.getBoundingClientRect()), label: o.getAttribute('data-lcs-label') || o.textContent.trim() })),
+            answer: opts.findIndex((o) => o.hasAttribute('data-lcs-correct')), label: el.getAttribute('data-lcs-word') || '', meta,
+          };
+        }
+        const slotEl = el.querySelector(sp.slot);
         const s = slotEl ? slotEl.getBoundingClientRect() : null;
         return {
           x: pct(r.left, pg.left, pg.width), y: pct(r.top, pg.top, pg.height), w: (r.width / pg.width) * 100, h: (r.height / pg.height) * 100,
@@ -92,7 +104,7 @@ async function renderInstance(o) {
           answer: Number(el.getAttribute(sp.answerAttr)), label: el.getAttribute(sp.labelAttr) || '',
         };
       });
-    }, { item: spec.item, slot: spec.slot, answerAttr: spec.answerAttr, labelAttr: spec.labelAttr });
+    }, { item: spec.item, slot: spec.slot, option: spec.option, metaAttrs: spec.metaAttrs, answerAttr: spec.answerAttr, labelAttr: spec.labelAttr });
     const screenPng = base + '.screen.png';
     await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
     // answer key: the printed page with every answer written in (a PDF for the teacher)

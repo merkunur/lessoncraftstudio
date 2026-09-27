@@ -8,9 +8,11 @@
  * iframe-safe, Pointer-agnostic (native <button>s: mouse, touch, keyboard).
  *
  * Kinds (the type declares `interactive.kind`; render-instance captures the geometry):
- *   tap-order — the child taps the items in order; each tap writes the next number
- *               in the item's circle, a second tap takes it back (later numbers close
- *               up). Check turns every item green or red; all right → celebration.
+ *   tap-order  — the child taps the items in order; each tap writes the next number
+ *                in the item's circle, a second tap takes it back (later numbers close
+ *                up). Check turns every item green or red; all right → celebration.
+ *   tap-choice — each item has options (article chips …); the child taps ONE per item
+ *                (another tap switches it). Check marks the chosen option green or red.
  *
  * UI strings come from REFERENCE TRANSLATIONS/translations-shared.js (the apps'
  * runtime* keys, all 11 locales) and are BAKED into the page (§14.11) and force-set
@@ -25,7 +27,7 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
-const KINDS = new Set(['tap-order']);
+const KINDS = new Set(['tap-order', 'tap-choice']);
 let _shared = null;
 function shared() {
   if (_shared) return _shared;
@@ -75,10 +77,33 @@ const CSS = [
   '.lcs-cele-stars{font-size:2.6rem;color:#F2B84B;letter-spacing:.2em}',
   '.lcs-cele-card h2{font-family:"Baloo 2",Nunito,sans-serif;color:#146B5E;font-size:1.8rem;margin:6px 0 16px}',
   '.lcs-cele-card .lcs-btn{display:inline-block;margin:6px;text-decoration:none}',
+  '.lcs-opt{position:absolute;margin:0;padding:0;border:0;background:transparent;border-radius:14px;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation}',
+  '.lcs-opt:focus-visible{outline:4px solid #4E5FE8;outline-offset:2px}',
+  '.lcs-opt[aria-pressed="true"]{box-shadow:0 0 0 5px #146B5E;background:rgba(20,107,94,.12)}',
+  '.lcs-opt[data-state="right"]{box-shadow:0 0 0 6px #2E9E5B;background:rgba(46,158,91,.16)}',
+  '.lcs-opt[data-state="wrong"]{box-shadow:0 0 0 6px #D64545;background:rgba(214,69,69,.16)}',
   '@media print{.lcs-controls,#lcs-celebration,#lcs-overlay{display:none !important}}',
 ].join('\n');
 
 /* The runtime, as source lines (joined at emit; no template literals inside). */
+const JS_CHOICE = [
+  '(function(){',
+  'var B=window.DECK_BUNDLE,S=B.strings,opts=[],pick=[],phase="fill";',
+  'var ov=document.getElementById("lcs-overlay"),chk=document.getElementById("lcs-check"),rst=document.getElementById("lcs-reset"),prg=document.getElementById("lcs-progress"),cel=document.getElementById("lcs-celebration");',
+  'function fmt(s,v){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return v[k]!=null?v[k]:""})}',
+  'function paint(){var all=true;for(var i=0;i<opts.length;i++){if(pick[i]<0)all=false;for(var j=0;j<opts[i].length;j++)opts[i][j].setAttribute("aria-pressed",pick[i]===j?"true":"false")}chk.disabled=!all||phase!=="fill"}',
+  'function tap(i,j){if(phase!=="fill")return;pick[i]=pick[i]===j?-1:j;paint()}',
+  'function check(){for(var i=0;i<pick.length;i++)if(pick[i]<0)return;phase="reviewed";var ok=0;for(var i=0;i<opts.length;i++){var right=B.answers[i]===pick[i];opts[i][pick[i]].setAttribute("data-state",right?"right":"wrong");if(right)ok++}',
+  'prg.textContent=fmt(S.score,{n:ok,total:opts.length});chk.hidden=true;rst.hidden=false;paint();if(ok===opts.length){setTimeout(function(){cel.hidden=false;var c=document.getElementById("lcs-cele-close");if(c)c.focus()},450)}}',
+  'function reset(){phase="fill";for(var i=0;i<opts.length;i++){pick[i]=-1;for(var j=0;j<opts[i].length;j++)opts[i][j].removeAttribute("data-state")}prg.textContent="";chk.hidden=false;rst.hidden=true;cel.hidden=true;paint()}',
+  'function init(){for(var i=0;i<B.items.length;i++){(function(i){var it=B.items[i];opts[i]=[];pick[i]=-1;for(var j=0;j<it.options.length;j++){(function(j){var o=it.options[j],el=document.createElement("button");el.type="button";el.className="lcs-opt";el.setAttribute("aria-label",o.label+(it.label?" — "+it.label:""));el.setAttribute("aria-pressed","false");',
+  'el.style.left=o.x+"%";el.style.top=o.y+"%";el.style.width=o.w+"%";el.style.height=o.h+"%";el.addEventListener("click",function(){tap(i,j)});ov.appendChild(el);opts[i].push(el)})(j)}})(i)}',
+  'chk.textContent=S.check;rst.textContent=S.tryAgain;document.getElementById("lcs-cele-title").textContent=S.youDidIt;document.getElementById("lcs-cele-print").textContent=S.print;document.getElementById("lcs-cele-close").textContent=S.tryAgain;',
+  'chk.addEventListener("click",check);rst.addEventListener("click",reset);document.getElementById("lcs-cele-close").addEventListener("click",reset);paint()}',
+  'if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();',
+  '})();',
+].join('\n');
+
 const JS = [
   '(function(){',
   'var B=window.DECK_BUNDLE,S=B.strings,items=[],order=[],phase="fill";',
@@ -108,18 +133,26 @@ function buildInteractive(o) {
   const items = o.items || [];
   if (items.length < 2) throw new Error('interactive-runtime: fewer than 2 items');
   const answers = items.map((it) => it.answer);
-  const want = items.map((_, i) => i + 1).join(',');
-  if (answers.slice().sort((a, b) => a - b).join(',') !== want) throw new Error('interactive-runtime: tap-order answers are not a permutation of 1..' + items.length);
-  for (const it of items) {
-    for (const k of ['x', 'y', 'w', 'h', 'sx', 'sy', 'sw', 'sh']) if (!(Number.isFinite(it[k]) && it[k] >= -5 && it[k] <= 105)) throw new Error('interactive-runtime: item ' + k + '=' + it[k] + ' outside the page');
-  }
-  const S = runtimeStrings(o.locale);
+  const inPage = (v) => Number.isFinite(v) && v >= -5 && v <= 105;
   const round = (v) => Math.round(v * 1000) / 1000;
-  const bundle = {
-    kind: o.kind, locale: o.locale, strings: S,
-    items: items.map((it) => ({ x: round(it.x), y: round(it.y), w: round(it.w), h: round(it.h), sx: round(it.sx), sy: round(it.sy), sw: round(it.sw), sh: round(it.sh), label: it.label })),
-    answers,
-  };
+  const S = runtimeStrings(o.locale);
+  let bundleItems;
+  if (o.kind === 'tap-order') {
+    const want = items.map((_, i) => i + 1).join(',');
+    if (answers.slice().sort((a, b) => a - b).join(',') !== want) throw new Error('interactive-runtime: tap-order answers are not a permutation of 1..' + items.length);
+    for (const it of items) {
+      for (const k of ['x', 'y', 'w', 'h', 'sx', 'sy', 'sw', 'sh']) if (!inPage(it[k])) throw new Error('interactive-runtime: item ' + k + '=' + it[k] + ' outside the page');
+    }
+    bundleItems = items.map((it) => ({ x: round(it.x), y: round(it.y), w: round(it.w), h: round(it.h), sx: round(it.sx), sy: round(it.sy), sw: round(it.sw), sh: round(it.sh), label: it.label }));
+  } else {
+    for (const it of items) {
+      if (!Array.isArray(it.options) || it.options.length < 2) throw new Error('interactive-runtime: tap-choice item with < 2 options');
+      if (!(Number.isInteger(it.answer) && it.answer >= 0 && it.answer < it.options.length)) throw new Error('interactive-runtime: tap-choice item without exactly one correct option');
+      for (const op of it.options) for (const k of ['x', 'y', 'w', 'h']) if (!inPage(op[k])) throw new Error('interactive-runtime: option ' + k + '=' + op[k] + ' outside the page');
+    }
+    bundleItems = items.map((it) => ({ label: it.label || '', meta: it.meta || {}, options: it.options.map((op) => ({ x: round(op.x), y: round(op.y), w: round(op.w), h: round(op.h), label: op.label })) }));
+  }
+  const bundle = { kind: o.kind, locale: o.locale, strings: S, ctx: o.ctx || null, items: bundleItems, answers };
   const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
   return {
     css: CSS,
@@ -139,7 +172,7 @@ function buildInteractive(o) {
       '</div></div>',
     ].join('\n'),
     // `<` escaped inside the JSON so no string can close the script element
-    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + JS + '</script>',
+    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'tap-choice' ? JS_CHOICE : JS) + '</script>',
   };
 }
 

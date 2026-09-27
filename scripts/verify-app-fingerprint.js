@@ -31,6 +31,11 @@ const arg = (k) => { const a = process.argv.find((x) => x.startsWith('--' + k + 
 const APPS = arg('apps') ? arg('apps').split(',') : ALL;
 const EXPORT_APP = arg('export');
 const POISON = process.argv.includes('--poison');
+/* --live: run against the production apps (real image library). The admin
+   access check is answered locally in the browser only — nothing is written
+   to the server. */
+const LIVE = process.argv.includes('--live');
+const BASE = LIVE ? 'https://www.lessoncraftstudio.com' : `http://127.0.0.1:${PORT}`;
 
 function judge(fp) {
   const errs = [];
@@ -44,15 +49,22 @@ function judge(fp) {
 }
 
 (async () => {
-  const srv = spawn(process.execPath, [path.join(REPO, 'scripts/storybook/serve-apps.js')], { env: { ...process.env, PORT: String(PORT) }, stdio: 'ignore' });
+  const srv = LIVE ? { kill() {} } : spawn(process.execPath, [path.join(REPO, 'scripts/storybook/serve-apps.js')], { env: { ...process.env, PORT: String(PORT) }, stdio: 'ignore' });
   await new Promise((r) => setTimeout(r, 1500));
   const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
   let failed = 0;
   try {
     for (const app of APPS) {
       const page = await browser.newPage();
+      if (LIVE) {
+        await page.setRequestInterception(true);
+        page.on('request', (req) => {
+          if (/verify-app-access|\/api\/verify/.test(req.url())) return req.respond({ status: 200, contentType: 'application/json', body: '{"hasAccess":true}' });
+          req.continue();
+        });
+      }
       page.on('dialog', (d) => d.dismiss().catch(() => {}));
-      const url = `http://127.0.0.1:${PORT}/worksheet-generators/${app}.html`;
+      const url = `${BASE}/worksheet-generators/${app}.html`;
       let fp = null, note = '';
       try {
         await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });

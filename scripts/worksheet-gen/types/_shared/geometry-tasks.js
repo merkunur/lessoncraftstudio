@@ -141,10 +141,15 @@ function makeGeometryType(cfg) {
         return { bodyHtml: cardGrid({ cards, cols: 3, rows: 2 }), meta: {} };
       }
 
+      // Levels for the modes below ignored the level before 2026-09-27 (Level
+      // Set programme). Level 2 of each is unchanged (published level;
+      // snapshot-proven); only the art that exists is used, and every level
+      // keeps the type's instruction true.
       if (mode === 'sort-sides') {
-        const sideGroups = [3, 4, rng.pick([5, 6])];
+        // L1: triangles vs four-sided shapes (2 bins, 5 shapes); L3: 3-6 sides (4 bins, 8 shapes)
+        const sideGroups = difficulty === 1 ? [3, 4] : difficulty === 3 ? [3, 4, 5, 6] : [3, 4, rng.pick([5, 6])];
         const pool = Object.keys(SHAPES_2D).filter((k) => have.includes(k) && sideGroups.includes(SHAPES_2D[k].sides));
-        const items = rng.shuffle(pool).slice(0, 7);
+        const items = rng.shuffle(pool).slice(0, difficulty === 1 ? 5 : difficulty === 3 ? 8 : 7);
         const strip = items.map((k) =>
           `<span class="ws-pattern-slot" style="width:88px;height:88px" data-lcs-item="${k}" data-lcs-sides="${SHAPES_2D[k].sides}">${shapeImg(k, 64)}</span>`).join('');
         const bins = sideGroups.map((s) =>
@@ -166,7 +171,9 @@ function makeGeometryType(cfg) {
         // near-identical; 4-of-5 per seed → distinct mixes per (type,difficulty).
         // 'cone' is EXCLUDED: its shapes-theme art is a frustum (flat top) so the
         // true-cone counts (1 edge / 1 vertex) don't match the drawing.
-        const picked = rng.shuffle(Object.keys(SHAPES_3D).filter((k) => have.includes(k) && k !== 'cone')).slice(0, 4);
+        // L1: no pyramid (the hardest count); L3: no sphere (the 0 give-away)
+        const skip = difficulty === 1 ? 'pyramid' : difficulty === 3 ? 'sphere' : null;
+        const picked = rng.shuffle(Object.keys(SHAPES_3D).filter((k) => have.includes(k) && k !== 'cone' && k !== skip)).slice(0, 4);
         picked.forEach((k) => {
           cards.push(`<div class="ws-card-stage" style="gap:30px" data-lcs-shape="${k}" data-lcs-count="${SHAPES_3D[k][facet]}">` +
             shapeImg(k, 120) + answerBox({ w: 64, h: 52, answer: SHAPES_3D[k][facet] }) + `</div>`);
@@ -176,11 +183,13 @@ function makeGeometryType(cfg) {
 
       if (mode === 'solid-real') {
         const entries = Object.entries(SOLID_REAL_OBJECTS).filter(([k]) => have.includes(k));
-        const items = rng.shuffle(entries).slice(0, 4);
+        // L1: three pairs. (Only four solids have a real-object picture, so
+        // level 3 stays at four until more art exists.)
+        const items = rng.shuffle(entries).slice(0, difficulty === 1 ? 3 : 4);
         let order;
         do { order = rng.shuffle(items.map((_, i) => i)); }
         while (order.some((v, i) => v === i));
-        const itemH = Math.floor((760 - 3 * 14) / 4);
+        const itemH = Math.floor((760 - 3 * 14) / 4);   // same row height at every level
         const left = items.map(([solid]) =>
           `<div class="ws-match-item" style="width:200px;height:${itemH}px" data-lcs-left="${solid}">` +
           shapeImg(solid, Math.min(110, itemH - 30)) +
@@ -203,12 +212,16 @@ function makeGeometryType(cfg) {
         // classify theme nouns by mirror symmetry of their alpha mask
         const pool = labelSafeNouns(theme);
         const sym = [], asym = [];
+        // L1 uses only the clearest cases (clearly symmetric / clearly lopsided)
+        const symMin = difficulty === 1 ? 0.95 : 0.9;
+        const asymMax = difficulty === 1 ? 0.7 : 0.78;
+        const nYn = mode === 'symmetry-yn' && difficulty === 3 ? 3 : 2;   // L3: six cards
         for (const n of rng.shuffle(pool)) {
           const m = await maskSignature(theme, n.noun);
           const iou = maskIoU(m, flipMask(m));
-          if (iou >= 0.9) sym.push(n);
-          else if (iou < 0.78) asym.push(n);
-          if (sym.length >= d.rows && asym.length >= d.rows * 2) break;
+          if (iou >= symMin) sym.push(n);
+          else if (iou < asymMax) asym.push(n);
+          if (sym.length >= Math.max(d.rows, nYn) && asym.length >= Math.max(d.rows * 2, nYn)) break;
         }
         // A theme with too few mirror-symmetric (or asymmetric) nouns would
         // produce a blank/degraded sheet (e.g. vehicles: side-view cars are
@@ -220,7 +233,7 @@ function makeGeometryType(cfg) {
           throw new Error(`geometry: theme ${theme} lacks mirror-symmetry variety for ${mode} (sym=${sym.length}, asym=${asym.length})`);
         }
         if (mode === 'symmetry-yn') {
-          const picks = rng.shuffle([...sym.slice(0, 2).map((n) => ({ n, s: true })), ...asym.slice(0, 2).map((n) => ({ n, s: false }))]);
+          const picks = rng.shuffle([...sym.slice(0, nYn).map((n) => ({ n, s: true })), ...asym.slice(0, nYn).map((n) => ({ n, s: false }))]);
           picks.forEach(({ n, s }) => {
             cards.push(
               `<div class="ws-card-stage" style="flex-direction:column;gap:12px" data-lcs-sym="${s ? 1 : 0}">` +
@@ -232,11 +245,11 @@ function makeGeometryType(cfg) {
               `<span class="ws-chip" style="width:52px;height:52px;font-size:24px" data-lcs-val="no"${!s ? ' data-lcs-correct="1"' : ''}>✗</span>` +
               `</div></div>`);
           });
-          return { bodyHtml: cardGrid({ cards, cols: 2, rows: 2 }), meta: {} };
+          return { bodyHtml: cardGrid({ cards, cols: 2, rows: Math.ceil(cards.length / 2) }), meta: {} };
         }
-        // pick-symmetric rows: 1 symmetric + 2 asymmetric
+        // pick-symmetric rows: 1 symmetric + 2 asymmetric (L1: + 1 asymmetric)
         for (let i = 0; i < Math.min(d.rows, sym.length); i++) {
-          const opts = rng.shuffle([{ n: sym[i], ok: true }, ...rng.sample(asym, 2).map((n) => ({ n, ok: false }))]);
+          const opts = rng.shuffle([{ n: sym[i], ok: true }, ...rng.sample(asym, difficulty === 1 ? 1 : 2).map((n) => ({ n, ok: false }))]);
           const chips = opts.map((o) =>
             `<span class="ws-pattern-chip" style="width:96px;height:96px"${o.ok ? ' data-lcs-correct="1"' : ''}>` +
             `<img class="ws-icon" src="${fileUri(theme, o.n.noun)}" alt="" style="width:70px;height:70px"></span>`).join('');

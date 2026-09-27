@@ -44,9 +44,20 @@ function makeFractionType(cfg) {
       const rng = ctx.rng;
       const cards = [];
       const used = new Set();
+      // Levels for types with a FIXED denominator list (cfg.ds), which made all
+      // three levels identical (2026-09-27, Level Set programme). Level 2 is
+      // unchanged (published level; snapshot-proven). Level 1 = unit fractions
+      // only, level 3 = non-unit fractions where the denominator allows;
+      // cfg.dsLevels may also move the denominators per level. match-equiv
+      // keeps every numerator (its four items need four DIFFERENT values).
+      // Types without cfg.ds already had real levels and are untouched.
+      const numRule = ds && mode !== 'match-equiv' ? ({ 1: 'unit', 3: 'nonunit' })[difficulty] || 'any' : 'any';
+      const dsL = (cfg.dsLevels && cfg.dsLevels[difficulty]) || d.ds;
+      const pickNum = (den) => numRule === 'unit' ? 1
+        : (numRule === 'nonunit' && den > 2 ? rng.int(2, den - 1) : rng.int(1, den - 1));
       const pickFrac = () => {
         let den, num, guard = 0;
-        do { den = rng.pick(d.ds); num = rng.int(1, den - 1); guard++; }
+        do { den = rng.pick(dsL); num = pickNum(den); guard++; }
         while (used.has(num + '/' + den) && guard < 30);
         used.add(num + '/' + den);
         return { num, den };
@@ -57,7 +68,7 @@ function makeFractionType(cfg) {
         const items = [];
         const seen = new Set();
         while (items.length < 4) {
-          const den = rng.pick(d.ds);
+          const den = rng.pick(dsL);
           const num = rng.int(1, den - 1);
           const key = num / den;
           if (seen.has(key)) continue;   // distinct VALUES so matching is unambiguous
@@ -108,7 +119,7 @@ function makeFractionType(cfg) {
           stage = `<div class="ws-card-stage" style="gap:22px;justify-content:space-between;padding:6px 12px" data-lcs-num="${num}" data-lcs-den="${den}">` +
             FRAC(num, den, 32) + `<span class="ws-pattern-choices">${chips}</span></div>`;
         } else if (mode === 'equal-unequal') {
-          const den = rng.pick(d.ds);
+          const den = rng.pick(dsL);
           const equalCount = rng.int(1, 2);
           const shapes = rng.shuffle([
             ...Array.from({ length: equalCount }, () => ({ equal: true })),
@@ -127,7 +138,7 @@ function makeFractionType(cfg) {
             `<span style="width:56px;height:3.5px;background:#3A3530;border-radius:2px"></span>` +
             answerBox({ w: 56, h: 48, answer: den }) + `</span></div>`;
         } else if (mode === 'set-circle') {
-          const den = rng.pick([2, 3, 4].filter((x) => d.ds.includes(x) || x === 2));
+          const den = rng.pick([2, 3, 4].filter((x) => dsL.includes(x) || (x === 2 && !cfg.dsLevels)));
           const groups = rng.int(2, 3);
           const total = den * groups;
           const num = 1;
@@ -165,7 +176,7 @@ function makeFractionType(cfg) {
             `<span style="font-family:'Nunito';font-weight:800;font-size:14px;color:#8A8276">0 → 1 in ${den} steps</span>` +
             nl.svg + `<span class="ws-pattern-choices">${chips}</span></div>`;
         } else if (mode === 'whole') {
-          const den = rng.pick(d.ds.filter((x) => x <= 6));
+          const den = rng.pick(dsL.filter((x) => x <= 6));
           // Fixed-cell bars (HTML, not fractionShape): every cell is the same
           // 32px square, so the reference "one part" matches each answer cell AND
           // the bar height is FIXED (not scaled by the denominator) — 3 stacked

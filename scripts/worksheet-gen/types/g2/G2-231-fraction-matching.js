@@ -2,6 +2,6 @@
 'use strict';
 const { makeFractionType } = require('../_shared/fraction-tasks.js');
 module.exports = makeFractionType({
-  id: 'G2-231', slug: 'fraction-matching', mode: 'match-equiv', ds: [2,3,4],
+  id: 'G2-231', slug: 'fraction-matching', mode: 'match-equiv', ds: [2,3,4], dsLevels: { 1: [2, 3, 4], 2: [2, 3, 4], 3: [2, 3, 4, 6] },
   i18n: { en: { title: 'Fraction Friends', instruction: 'Draw a line from each picture to its fraction.' } },
 });

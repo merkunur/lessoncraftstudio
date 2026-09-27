@@ -107,12 +107,17 @@ function makeMeasurementType(cfg) {
       }
 
       if (mode === 'compare-length') {
+        // levels (2026-09-27): L1 keeps the difference at 1-3 units; L2 and L3
+        // are the original page. This type has only TWO real levels with the
+        // pictures that exist: lengths run 3..~8 units, a third pair of tall
+        // pictures runs off the page, and a 4+ difference fits only 3 themes.
         for (let i = 0; i < 2; i++) {
           const items = await flatNouns(theme, rng, 2, 8, 4);   // range [3..≥4] guarantees a≠b exists
           let a = rng.int(3, items[0].maxLen), b;
           let guard = 0;
-          do { b = rng.int(3, items[1].maxLen); guard++; } while (b === a && guard < 30);
+          do { b = rng.int(3, items[1].maxLen); guard++; } while ((b === a || (difficulty === 1 && Math.abs(a - b) > 3)) && guard < 30);
           if (b === a) b = a > 3 ? a - 1 : a + 1;
+          if (difficulty === 1 && Math.abs(a - b) > 3) b = a + (b > a ? 3 : -3);   // never a silent fallback
           cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:10px;align-items:flex-start;padding:4px 14px" data-lcs-a="${a}" data-lcs-b="${b}">` +
             measuredObject(theme, items[0], a, 9) +
             measuredObject(theme, items[1], b, 9) +

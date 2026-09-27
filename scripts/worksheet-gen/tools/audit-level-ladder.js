@@ -103,9 +103,14 @@ const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
     }
     built.forEach((s, i) => { row.levels[i + 1] = s; });
     if (built.some((s) => s && s.error)) row.verdict = 'BUILD-ERROR';
-    else if (!d[2] || !d[3] || same(cfg[0], cfg[1]) || same(cfg[1], cfg[2]) || same(cfg[0], cfg[2])) row.verdict = 'SAME-CONFIG';
-    else if (new Set(built.map((s) => s.hash)).size < 3) row.verdict = 'SAME-PAGE';
-    else row.verdict = 'DIFFERENT';
+    else {
+      // judged by the PAGES: a building block may vary a level whose settings
+      // row is identical (e.g. the fraction unit/non-unit rule), and settings
+      // may differ while the page ignores them
+      row.configsIdentical = !d[2] || !d[3] || same(cfg[0], cfg[1]) || same(cfg[1], cfg[2]) || same(cfg[0], cfg[2]);
+      const distinct = new Set(built.filter(Boolean).map((s) => s.hash)).size;
+      row.verdict = distinct >= 3 ? 'DIFFERENT' : (row.configsIdentical ? 'SAME-CONFIG' : 'SAME-PAGE');
+    }
     rows.push(row);
   }
   fs.mkdirSync(OUT, { recursive: true });

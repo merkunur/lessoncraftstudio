@@ -169,13 +169,23 @@ function enumerate(plan) {
     } else {
       themeList = [null];
     }
+    // plan.levels (Level Set programme, 2026-09-27): an explicit per-type map
+    // { "<typeId>": { "<level>": [copy numbers] } } — exactly which levels and
+    // which copies to make, so a wave can leave out a copy that is already
+    // published (e.g. level 2 copy 1). A type absent from the map keeps the
+    // wave-wide difficulties × variants; a wave without the map is unchanged.
+    const levelMap = plan.levels && plan.levels[spec.id];
+    const difficultyList = levelMap ? Object.keys(levelMap).map(Number) : plan.difficulties;
+    const variantList = (difficulty) => levelMap
+      ? levelMap[String(difficulty)]
+      : Array.from({ length: variantsForType }, (_, i) => i + 1);
     for (const cacheTheme of themeList) {
-      for (const difficulty of plan.difficulties) {
+      for (const difficulty of difficultyList) {
         for (const locale of plan.locales) {
           // unit axis (nt20-C): per locale, [null] unless the wave configures units
           const { units, pinned: unitPinned } = unitListFor(spec, plan, locale);
           for (const unit of units) {
-            for (let variant = 1; variant <= variantsForType; variant++) {
+            for (const variant of variantList(difficulty)) {
               instances.push({
                 typeId: spec.id,
                 cacheTheme: cacheTheme,

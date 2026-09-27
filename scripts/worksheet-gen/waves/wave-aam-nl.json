@@ -1,0 +1,106 @@
+{
+  "id": "wave-aam-nl",
+  "_note": "Level Set programme 2026-09-27: All About Me expansion (K-323 + faces). Visible to teachers, never indexed. levels = exact (type, level, copy) list; the published level-2 copy 1 is left out.",
+  "indexable": false,
+  "seedEpoch": 1,
+  "locales": [
+    "nl"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "K-323",
+    "K-342",
+    "K-344",
+    "K-345"
+  ],
+  "levels": {
+    "K-323": {
+      "1": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "2": [
+        2,
+        3,
+        4
+      ],
+      "3": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "K-342": {
+      "1": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "2": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "K-344": {
+      "1": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "2": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "3": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "K-345": {
+      "1": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "2": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "3": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  }
+}

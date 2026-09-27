@@ -31,7 +31,7 @@ import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
 import { Baloo_2, Nunito } from 'next/font/google';
 import { getTranslations } from 'next-intl/server';
 import { prisma } from '@/lib/prisma';
-import { getAxisSlug, getAxisName, listSubjectKeys, getSubjectName, exerciseTypeKeysForSubject } from '@/lib/taxonomy';
+import { getAxisSlug, getAxisName, getExerciseModeName, listSubjectKeys, getSubjectName, exerciseTypeKeysForSubject } from '@/lib/taxonomy';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { buildBreadcrumbSchema } from '@/lib/seo/breadcrumb-schema';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
@@ -54,7 +54,7 @@ import CatalogTabs from '@/components/catalog/CatalogTabs';
 import CatalogTypeIndex, { type TypeIndexItem } from '@/components/catalog/CatalogTypeIndex';
 import WorksheetCatalogCard from '@/components/worksheets/WorksheetCatalogCard';
 import { getMonolingualLandings, deckAssets } from '@/lib/seo/landing-content';
-import { collapsedSheetSlugs, expandHubRows, type HubRow, type DeckFacts } from '@/lib/worksheets-sheets';
+import { collapsedSheetSlugs, expandHubRows, levelSetRows, type HubRow, type DeckFacts } from '@/lib/worksheets-sheets';
 import { isPrintOnlyType } from '@/config/interactive-exercise-types';
 import {
   WORKSHEETS_PAGE_SIZE,
@@ -261,12 +261,51 @@ export default async function AllWorksheetsPage({
   const basePath = `/${locale}/worksheets`;
   const spString = toSearchParamsString(searchParams ?? {});
 
+  /* ---- Level Set worksheets (do-not-index marker, no landing): ONLY under a
+     chosen type (operator ruling 2026-09-27) — the default hub page, its cards
+     and its rail counts stay exactly as indexed. A failed read adds nothing. */
+  let levelSetExtra: HubRow[] = [];
+  if (filters.type) {
+    const parent = allLandings.find((l) => l.coordinate.type === filters.type);
+    if (parent) {
+      try {
+        const [rows, tSeo] = await Promise.all([
+          prisma.deck.findMany({
+            where: { language: locale, status: 'published', contentLanguage: null, indexable: false, exerciseType: filters.type },
+            select: { slug: true, title: true, exerciseMode: true, answerKeyUrl: true },
+            orderBy: { slug: 'asc' },
+          }),
+          getTranslations({ locale, namespace: 'seo.words' }),
+        ]);
+        const setWord = tSeo.has('set') ? tSeo('set') : 'Set';
+        levelSetExtra = levelSetRows(
+          parent,
+          rows.map((d) => {
+            const raw = d.title as Record<string, string> | null;
+            return {
+              slug: d.slug,
+              title: (raw && (raw[locale] || raw.en)) || parent.h1,
+              exerciseMode: d.exerciseMode,
+              hasAnswerKey: d.answerKeyUrl != null,
+            };
+          }),
+          (slug) => deckAssets(locale, slug).deckDir,
+          (mode) => getExerciseModeName(mode, locale),
+          setWord,
+        );
+      } catch (err) {
+        console.warn('[AllWorksheetsPage] level-set query failed:', (err as Error).message);
+      }
+    }
+  }
+  const hubRowsForView = levelSetExtra.length ? [...hubRows, ...levelSetExtra] : hubRows;
+
   /* The format tab scopes EVERYTHING below it, facet counts included, so a type
      with no interactive sheets disappears from the rail under Interactive
      rather than offering a filter that returns nothing. */
   const scoped = filters.format === 'interactive'
-    ? hubRows.filter((l) => !isPrintOnlyType(l.coordinate.type))
-    : hubRows;
+    ? hubRowsForView.filter((l) => !isPrintOnlyType(l.coordinate.type))
+    : hubRowsForView;
 
   const facets = scoped.length > 0 ? buildLandingFacets(scoped, filters) : null;
 

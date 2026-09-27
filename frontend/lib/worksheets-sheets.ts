@@ -156,3 +156,56 @@ export function expandHubRows(
   }
   return [...landings.map(decorate), ...sheets];
 }
+
+/** A Level Set deck read from the DB: visible to teachers, never indexed, no landing. */
+export interface LevelSetDeck {
+  slug: string;
+  title: string;
+  exerciseMode: string | null;
+  hasAnswerKey: boolean;
+}
+
+/**
+ * The copy number a Level Set slug carries: `…-k323` is copy 1, `…-k323-4`
+ * copy 4 (the generator's variant_id suffix). Only that shape counts, so a
+ * slug that merely ends in a digit is read as copy 1.
+ */
+export function levelSetCopy(slug: string): number {
+  const m = /-(?:k|g\d)\d{3}-(\d+)$/.exec(slug);
+  return m ? Number(m[1]) : 1;
+}
+
+/**
+ * Rows for the Level Set worksheets (do-not-index marker, no landing page) of
+ * ONE exercise type, shown on the hub only when that type is chosen
+ * (operator ruling 2026-09-27: the default hub page stays exactly as indexed).
+ *
+ * Each row borrows the type's first landing for its coordinate — the same
+ * trick expandHubRows uses for collapsed siblings — and links to the deck page.
+ * The stored title is the type title alone, identical for every level and
+ * copy, so the card label adds the level word (the taxonomy's own localized
+ * exercise-mode name) and the copy number: "Das bin ich · Leicht · Satz 2".
+ */
+export function levelSetRows(
+  parent: Landing,
+  decks: LevelSetDeck[],
+  deckHrefOf: (slug: string) => string,
+  modeNameOf: (mode: string) => string | null,
+  setWord: string,
+): HubRow[] {
+  return decks.map((d) => {
+    const mode = d.exerciseMode ? modeNameOf(d.exerciseMode) : null;
+    const n = levelSetCopy(d.slug);
+    const label = [d.title, mode, n > 1 ? `${setWord} ${n}` : null].filter(Boolean).join(' · ');
+    return {
+      ...parent,
+      slug: d.slug,
+      variantShape: 'singleton',
+      h1: label,
+      canonicalDeckSlug: d.slug,
+      collapseSiblings: [],
+      deckHref: deckHrefOf(d.slug),
+      hasAnswerKey: d.hasAnswerKey,
+    };
+  });
+}

@@ -1,0 +1,9 @@
+{
+  "tap": "Tap the words in ABC order. The first word you tap gets number 1.",
+  "tapSame": "Tap the words in ABC order. If two words start with the same letter, look at the second letter.",
+  "notes": [
+    "Source audit: the old tap string contained the digit 2, which the rules forbid; now only 1 is used and the count-up is implied.",
+    "Source audit: \"the second letter decides\" is abstract for a first grader; replaced with the concrete action \"look at the second letter\", matching the printed G1-264 instruction (Use the second letter).",
+    "Kept \"ABC order\" (printed term in all four titles); US spelling; no card count."
+  ]
+}

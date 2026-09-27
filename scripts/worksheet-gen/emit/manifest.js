@@ -145,6 +145,13 @@ function buildManifest(o) {
   // the key exists ONLY for a wave that sets "indexable": false — manifest
   // bytes of every other wave are unchanged.
   if (o.indexable === false) manifest.indexable = false;
+  // screen version + answer key (Level Set 2026-09-27): keys exist ONLY for an interactive
+  // wave — every other manifest is byte-identical. printable_only stays true: publish-cli's
+  // printable path is unchanged, and publish.js places an answer-key.pdf whenever the ZIP has one.
+  if (o.interactive) {
+    manifest.interactive = { kind: o.interactive.kind };
+    manifest.assets.answer_key_pdf = 'answer-key.pdf';
+  }
   // Round-trip check (catalog-export.js convention): must JSON-serialize cleanly.
   JSON.parse(JSON.stringify(manifest));
   return manifest;

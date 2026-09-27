@@ -138,6 +138,30 @@ function enumerate(plan) {
     // every pre-variant wave byte-identical.
     const variantsForType = (plan.variants && plan.variants[spec.id]) || plan.variantsPerType || 1;
     const themed = spec.themeAxis && spec.themeAxis.applicable;
+    // A copy may also be { "copy": N, "theme": "<cache theme>" } — each copy on its own theme
+    // (Level Set: a new copy of a themed type = new words, never the same pool twice). Those
+    // copies are pinned: the render retry must never swap the theme the wave builder verified.
+    const copyMap = plan.levels && plan.levels[spec.id];
+    if (copyMap && Object.values(copyMap).some((l) => l.some((c) => c && typeof c === 'object'))) {
+      if (!themed) throw new Error('enumerate: ' + spec.id + ' is themeless but its levels map names themes');
+      for (const [lv, copies] of Object.entries(copyMap)) {
+        for (const c of copies) {
+          if (!c || typeof c !== 'object' || !Number.isInteger(c.copy) || !c.theme) throw new Error('enumerate: ' + spec.id + ' level ' + lv + ': every copy must be {copy, theme} once one is');
+          resolve.themeEntry(c.theme);
+          if (!TAXONOMY.axes.theme[themeAxisKey(c.theme)]) throw new Error('enumerate: theme "' + c.theme + '" not in taxonomy axes.theme');
+          if (spec.themeAxis.excludeBw && isBwTheme(c.theme)) throw new Error('enumerate: ' + spec.id + ' excludes B&W but copy names ' + c.theme);
+          for (const locale of plan.locales) {
+            const difficulty = Number(lv);
+            instances.push({
+              typeId: spec.id, cacheTheme: c.theme, themePinned: true, difficulty, locale, variant: c.copy, unit: null, unitPinned: false,
+              deckId: deckIdFor(plan.id, spec, c.theme, difficulty, locale, c.copy, null),
+              seed: instanceSeed({ typeId: spec.id, theme: c.theme, difficulty, seedEpoch: plan.seedEpoch || 1, variant: c.copy, unit: null }),
+            });
+          }
+        }
+      }
+      return;
+    }
     let themeList;
     // A theme named in plan.themeOverrides is an explicit DECISION, not a
     // round-robin assignment. cli.js may substitute an alternative theme when a

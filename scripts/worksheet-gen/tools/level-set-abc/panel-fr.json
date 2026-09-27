@@ -1,0 +1,10 @@
+{
+  "tap": "Touche les mots dans l'ordre alphabétique : le premier mot touché reçoit le numéro 1.",
+  "tapSame": "Touche les mots dans l'ordre alphabétique. Si deux mots commencent par la même lettre, regarde la deuxième lettre.",
+  "notes": [
+    "Tutoiement as the printed sheet (Numérote, Aide-toi); 'dans l'ordre alphabétique' reused verbatim.",
+    "Plain space before the colon; the page renderer applies the French non-breaking space.",
+    "'deuxième lettre' (not 'seconde'), the CP register.",
+    "EN source audit: 'the first word you tap gets 1' reads as if any word may be tapped first; suggest 'Tap the words in ABC order, starting with the word that comes first.' 'the next gets 2' breaks the no-digit-except-1 rule for the other locales, so they stop at 1."
+  ]
+}

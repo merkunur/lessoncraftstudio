@@ -25,6 +25,16 @@ const { buildPreviewJpeg, buildThumbnail } = require('./emit/assets.js');
 const { writeDeckZip } = require('./emit/zip.js');
 const { resolveUnitTokens } = require('./lib/unit-axis.js');
 const cacheManifest = require('./image-cache/resolve.js').manifest();
+const INTERACTIVE_STRINGS = require('./i18n/interactive-instructions.json');
+const publishI18n = require('../publish-cli/i18n.js');
+
+/** The native on-screen instruction for an interactive type (throws when a locale lacks it — never English on a non-EN page). */
+function interactiveInstruction(spec, locale) {
+  const fam = INTERACTIVE_STRINGS[spec.exerciseType];
+  const s = fam && fam[spec.interactive.instructionKey] && fam[spec.interactive.instructionKey][locale];
+  if (!s) throw new Error('cli: no interactive instruction ' + spec.exerciseType + '.' + spec.interactive.instructionKey + ' for ' + locale);
+  return s;
+}
 
 function parseArgs(argv) {
   const args = { _: [] };
@@ -99,8 +109,12 @@ async function generate(args) {
     const r = await renderInstance({
       type: spec, theme: cacheTheme, difficulty: it.difficulty, locale: it.locale,
       variant: it.variant, unit: it.unit || null, page, outDir: workDir, baseName: deckId, seedEpoch: plan.seedEpoch || 1, strings,
+      // wave "interactive": true (Level Set) + a type that declares `interactive` → screen version + answer key
+      interactive: !!(plan.interactive && spec.interactive),
+      interactiveInstruction: plan.interactive && spec.interactive ? interactiveInstruction(spec, it.locale) : null,
+      answerKeySuffix: plan.interactive && spec.interactive ? publishI18n.resolve(it.locale, 'topicPage.deckCard.answerKeyLink', 'Answer Key').value : null,
     });
-    const fails = [].concat(r.qa.lints || [], r.qa.verify || []);
+    const fails = [].concat(r.qa.lints || [], r.qa.verify || [], (r.interactive && r.interactive.lints) || []);
     if (fails.length) return { qaFails: fails };
     const preview = await buildPreviewJpeg(r.pngPath);
     const thumbnailBuf = await buildThumbnail(r.pngPath);
@@ -109,9 +123,13 @@ async function generate(args) {
       spec, cacheTheme: cacheTheme, difficulty: it.difficulty, locale: it.locale,
       variant: it.variant, unit: it.unit || null, deckId: deckId, generatedAt: new Date().toISOString(), strings, imagesUsed,
       indexable: plan.indexable !== false,   // wave JSON "indexable": false → visible to teachers, never indexed
+      interactive: r.interactive ? { kind: r.interactive.kind } : null,
     });
-    const deckHtml = buildDeckHtml({ manifest, spec, strings, locale: it.locale, preview });
-    writeDeckZip({ stagingDir, deckId: deckId, manifest, deckHtml, pdfPath: r.pdfPath, thumbnailBuf });
+    const interactive = r.interactive
+      ? { kind: r.interactive.kind, items: r.interactive.items, instruction: interactiveInstruction(spec, it.locale), preview: await buildPreviewJpeg(r.interactive.pngPath) }
+      : null;
+    const deckHtml = buildDeckHtml({ manifest, spec, strings, locale: it.locale, preview, interactive });
+    writeDeckZip({ stagingDir, deckId: deckId, manifest, deckHtml, pdfPath: r.pdfPath, thumbnailBuf, answerKeyPath: r.interactive ? r.interactive.keyPdfPath : null });
     return { ok: true };
   }
 

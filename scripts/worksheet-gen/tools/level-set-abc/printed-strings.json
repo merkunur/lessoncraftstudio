@@ -1,0 +1,200 @@
+{
+ "en": {
+  "G1-245": {
+   "title": "ABC Order",
+   "instruction": "Use the alphabet strip. Number the picture words 1 to 6 in alphabetical order, then write them in order on the lines."
+  },
+  "G1-262": {
+   "title": "ABC Order: Number the Words",
+   "instruction": "Number the four cards to put the words in ABC order."
+  },
+  "G1-263": {
+   "title": "ABC Order: Number Them, Then Write Them",
+   "instruction": "Number the cards, then copy the words onto the lines in order."
+  },
+  "G1-264": {
+   "title": "ABC Order: When Words Start the Same",
+   "instruction": "Two pairs start with the same letter. Use the second letter to order them."
+  }
+ },
+ "de": {
+  "G1-245": {
+   "title": "Alphabetisch ordnen",
+   "instruction": "Nimm die ABC-Leiste zu Hilfe. Nummeriere die Bildwörter von 1 bis 6 nach dem Alphabet und schreibe sie geordnet auf die Linien."
+  },
+  "G1-262": {
+   "title": "Alphabetisch ordnen: nummerieren",
+   "instruction": "Nur nummerieren: vier Karten von 1 bis 4."
+  },
+  "G1-263": {
+   "title": "Alphabetisch ordnen und abschreiben",
+   "instruction": "Nummeriere, dann schreibe geordnet ab."
+  },
+  "G1-264": {
+   "title": "Alphabetisch ordnen: zweiter Buchstabe",
+   "instruction": "Der zweite Buchstabe entscheidet."
+  }
+ },
+ "es": {
+  "G1-245": {
+   "title": "Orden alfabético",
+   "instruction": "Usa la tira del abecedario. Numera las palabras del 1 al 6 en orden alfabético y escríbelas en orden en las líneas."
+  },
+  "G1-262": {
+   "title": "Orden alfabético: numera las tarjetas",
+   "instruction": "Aquí solo numeras las tarjetas."
+  },
+  "G1-263": {
+   "title": "Orden alfabético: numera y copia",
+   "instruction": "Numera y después copia las palabras."
+  },
+  "G1-264": {
+   "title": "Orden alfabético: misma letra inicial",
+   "instruction": "Mira la segunda letra para decidir."
+  }
+ },
+ "fr": {
+  "G1-245": {
+   "title": "Ranger dans l'ordre alphabétique",
+   "instruction": "Aide-toi de la bande alphabétique. Numérote les mots de 1 à 6 dans l'ordre alphabétique, puis recopie-les dans l'ordre sur les lignes."
+  },
+  "G1-262": {
+   "title": "Ordre alphabétique : numéroter",
+   "instruction": "Numérote les étiquettes, sans recopier."
+  },
+  "G1-263": {
+   "title": "Ordre alphabétique : quatre mots",
+   "instruction": "Numérote, puis recopie dans l'ordre."
+  },
+  "G1-264": {
+   "title": "Ordre alphabétique : même initiale",
+   "instruction": "Des mots commencent par la même lettre."
+  }
+ },
+ "it": {
+  "G1-245": {
+   "title": "Ordine alfabetico",
+   "instruction": "Usa la striscia dell'alfabeto. Numera le parole da 1 a 6 in ordine alfabetico, poi scrivile in ordine sulle righe."
+  },
+  "G1-262": {
+   "title": "Numera in ordine alfabetico",
+   "instruction": "Numera le quattro parole: non riscriverle."
+  },
+  "G1-263": {
+   "title": "Ordine alfabetico: numera e scrivi",
+   "instruction": "Numera le parole, poi riscrivile."
+  },
+  "G1-264": {
+   "title": "Ordine alfabetico: stesse iniziali",
+   "instruction": "Guarda anche la seconda lettera."
+  }
+ },
+ "pt": {
+  "G1-245": {
+   "title": "Ordem alfabética",
+   "instruction": "Use a faixa do alfabeto. Numere as palavras de 1 a 6 em ordem alfabética e depois escreva na ordem certa nas linhas."
+  },
+  "G1-262": {
+   "title": "Ordem alfabética: só numere",
+   "instruction": "Aqui você numera de 1 a 4 e não precisa copiar."
+  },
+  "G1-263": {
+   "title": "Ordem alfabética: numere e copie",
+   "instruction": "Numere as quatro palavras, depois copie."
+  },
+  "G1-264": {
+   "title": "Ordem alfabética: mesma inicial",
+   "instruction": "Veja a segunda letra das duplas iguais."
+  }
+ },
+ "nl": {
+  "G1-245": {
+   "title": "Alfabetische volgorde",
+   "instruction": "Gebruik de letterstrook. Nummer de woorden van 1 tot 6 op alfabetische volgorde en schrijf ze daarna op volgorde op de regels."
+  },
+  "G1-262": {
+   "title": "Alfabetische volgorde: nummeren",
+   "instruction": "Gebruik de letterstrook en nummer de vier kaartjes op volgorde."
+  },
+  "G1-263": {
+   "title": "Alfabetische volgorde: schrijf ze op",
+   "instruction": "Nummer de kaartjes en schrijf de woorden op volgorde."
+  },
+  "G1-264": {
+   "title": "Alfabetische volgorde: tweede letter",
+   "instruction": "Beginnen twee woorden gelijk? Kijk naar de tweede letter."
+  }
+ },
+ "sv": {
+  "G1-245": {
+   "title": "Alfabetisk ordning",
+   "instruction": "Ta hjälp av alfabetet högst upp. Numrera bildorden från 1 till 6 i alfabetisk ordning och skriv dem sedan i rätt ordning på raderna."
+  },
+  "G1-262": {
+   "title": "Alfabetisk ordning: numrera korten",
+   "instruction": "Ta hjälp av alfabetet och numrera korten."
+  },
+  "G1-263": {
+   "title": "Alfabetisk ordning: skriv om orden",
+   "instruction": "Numrera korten och skriv orden på raderna."
+  },
+  "G1-264": {
+   "title": "Alfabetisk ordning: andra bokstaven",
+   "instruction": "Två par börjar lika. Se på andra bokstaven."
+  }
+ },
+ "da": {
+  "G1-245": {
+   "title": "Alfabetisk rækkefølge",
+   "instruction": "Brug alfabetet øverst. Nummerér billedordene fra 1 til 6 i alfabetisk rækkefølge, og skriv dem derefter i rækkefølge på linjerne."
+  },
+  "G1-262": {
+   "title": "Alfabetisk rækkefølge: nummerér fire ord",
+   "instruction": "Nummerér de fire kort fra 1 til 4 i alfabetisk rækkefølge."
+  },
+  "G1-263": {
+   "title": "Alfabetisk rækkefølge: nummerér og skriv",
+   "instruction": "Nummerér kortene, og skriv så ordene i rækkefølge."
+  },
+  "G1-264": {
+   "title": "Alfabetisk rækkefølge: samme første bogstav",
+   "instruction": "Nogle ord begynder ens. Se på det andet bogstav."
+  }
+ },
+ "no": {
+  "G1-245": {
+   "title": "Alfabetisk rekkefølge",
+   "instruction": "Bruk alfabetet øverst. Nummerer bildeordene fra 1 til 6 i alfabetisk rekkefølge, og skriv dem så i riktig rekkefølge på linjene."
+  },
+  "G1-262": {
+   "title": "Alfabetisk rekkefølge: nummerer kortene",
+   "instruction": "Nummerer de fire kortene i alfabetisk rekkefølge."
+  },
+  "G1-263": {
+   "title": "Alfabetisk rekkefølge: nummerer og skriv",
+   "instruction": "Nummerer kortene, og skriv så ordene på linjene."
+  },
+  "G1-264": {
+   "title": "Alfabetisk rekkefølge: samme førstebokstav",
+   "instruction": "To par ord begynner likt. Bruk den andre bokstaven."
+  }
+ },
+ "fi": {
+  "G1-245": {
+   "title": "Aakkosjärjestys",
+   "instruction": "Käytä aakkosjanaa apuna. Numeroi kuvien sanat 1–6 aakkosjärjestykseen ja kirjoita ne sitten järjestyksessä viivoille."
+  },
+  "G1-262": {
+   "title": "Aakkosjärjestys: numeroi kortit",
+   "instruction": "Numeroi neljä korttia aakkosjärjestykseen."
+  },
+  "G1-263": {
+   "title": "Aakkosjärjestys: numeroi ja kirjoita",
+   "instruction": "Numeroi kortit ja kirjoita sanat viivoille."
+  },
+  "G1-264": {
+   "title": "Aakkosjärjestys: sama alkukirjain",
+   "instruction": "Jos alkukirjain on sama, katso toista kirjainta."
+  }
+ }
+}

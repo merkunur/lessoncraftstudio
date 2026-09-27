@@ -1,0 +1,31 @@
+{
+  "_note": "On-screen instruction for the interactive version of worksheet-gen types (Level Set 2026-09-27). Native-authored per locale (tools/level-set-abc/panel-*.json). Key = exerciseType -> instructionKey -> locale.",
+  "alphabetical-order": {
+    "tap": {
+      "en": "Tap the words in ABC order. The first word you tap gets number 1.",
+      "de": "Tippe die Wörter nach dem Alphabet an. Das erste Wort, das du antippst, bekommt die 1.",
+      "es": "Toca las palabras en orden alfabético. La primera que toques lleva el número 1.",
+      "fr": "Touche les mots dans l'ordre alphabétique : le premier mot touché reçoit le numéro 1.",
+      "it": "Tocca le parole in ordine alfabetico: la prima parola che tocchi prende il numero 1.",
+      "pt": "Toque nas palavras em ordem alfabética. A primeira que você tocar ganha o número 1.",
+      "nl": "Tik de woorden aan op alfabetische volgorde. Het eerste woord dat je aantikt, krijgt 1.",
+      "sv": "Tryck på orden i alfabetisk ordning. Ordet du trycker på först får 1.",
+      "da": "Tryk på ordene i alfabetisk rækkefølge. Det ord, du trykker på først, får 1.",
+      "no": "Trykk på ordene i alfabetisk rekkefølge. Ordet du trykker på først, får 1.",
+      "fi": "Napauta sanoja aakkosjärjestyksessä. Ensimmäinen napauttamasi sana saa numeron 1."
+    },
+    "tapSame": {
+      "en": "Tap the words in ABC order. If two words start with the same letter, look at the second letter.",
+      "de": "Tippe die Wörter nach dem Alphabet an. Fangen zwei Wörter gleich an, entscheidet der zweite Buchstabe.",
+      "es": "Toca las palabras en orden alfabético. Si dos empiezan con la misma letra, mira la segunda letra.",
+      "fr": "Touche les mots dans l'ordre alphabétique. Si deux mots commencent par la même lettre, regarde la deuxième lettre.",
+      "it": "Tocca le parole in ordine alfabetico. Se due parole iniziano con la stessa lettera, guarda la seconda lettera.",
+      "pt": "Toque nas palavras em ordem alfabética. Se duas começam com a mesma letra, veja a segunda letra.",
+      "nl": "Tik de woorden aan op alfabetische volgorde. Beginnen twee woorden gelijk? Kijk naar de tweede letter.",
+      "sv": "Tryck på orden i alfabetisk ordning. Börjar två ord lika? Se på andra bokstaven.",
+      "da": "Tryk på ordene i alfabetisk rækkefølge. Begynder to ord ens, så se på det andet bogstav.",
+      "no": "Trykk på ordene i alfabetisk rekkefølge. Hvis to ord begynner likt, se på den andre bokstaven.",
+      "fi": "Napauta sanoja aakkosjärjestyksessä. Jos alkukirjain on sama, katso toista kirjainta."
+    }
+  }
+}

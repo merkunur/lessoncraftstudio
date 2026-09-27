@@ -1,0 +1,9 @@
+{
+  "tap": "Tik de woorden aan op alfabetische volgorde. Het eerste woord dat je aantikt, krijgt 1.",
+  "tapSame": "Tik de woorden aan op alfabetische volgorde. Beginnen twee woorden gelijk? Kijk naar de tweede letter.",
+  "notes": [
+    "Reuses printed \"op alfabetische volgorde\" and the G1-264 phrasing \"Beginnen twee woorden gelijk? Kijk naar de tweede letter.\" verbatim; je-register as printed.",
+    "\"aantikken\" is the usual word for tapping on a tablet in groep 3.",
+    "Says woorden (not kaartjes) so it stays true for any card count."
+  ]
+}

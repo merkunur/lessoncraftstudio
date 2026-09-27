@@ -5,9 +5,19 @@
  * angles, each with a dashed coral rank circle; the child numbers them 1-6,
  * then copies the words in order onto numbered rulings. Sorting uses the
  * locale collation table (data/b2/collation.js) — never ASCII.
- * d1: 4 cards, first letters ≥ 3 apart, rank circles only · d2: 6 cards,
- * distinct first letters, 6 rulings · d3: 6 cards incl. two same-first-letter
- * pairs (second-letter decision).
+ * d1: 6 cards, first letters ≥ 2 apart · d2: 6 cards, distinct first letters
+ * (published) · d3: 6 cards incl. one same-first-letter pair (second-letter
+ * decision). Level Set 2026-09-27: the instruction promises "1 to 6" (fixed
+ * text ×11), so every level of THIS face keeps six cards; the faces carry
+ * their own tables.
+ *
+ * INTERACTIVE (Level Set, first worksheet-gen type with a screen version):
+ * `interactive` declares a tap-order task — render-instance renders the same
+ * instance again with ctx.interactive (no writing lines: a child cannot write
+ * on a screen) and captures each card + its rank circle; emit/interactive-
+ * runtime.js lets the child tap the words in order and checks them.
+ * ctx.answerKey renders the teacher's key: ranks in the circles, the words in
+ * grey on the lines.
  */
 'use strict';
 const { writingRow } = require('../../primitives/trace-path.js');
@@ -37,11 +47,21 @@ module.exports = {
   gradeBand: 'G1',
   assetClass: 'icon-placement',
   exerciseType: 'alphabetical-order',
-  themeAxis: { applicable: true, minNouns: 10, excludeBw: true },
+  // B&W allowed (Level Set 2026-09-27): the picture only illustrates the word.
+  themeAxis: { applicable: true, minNouns: 10, excludeBw: false },
+  // FOUR_CARDS / PAIRS are the geometry the faces spread from (G1-262/263 = four cards, G1-264 = pairs).
+  FOUR_CARDS: { cards: 4, cols: 2, rows: 2, cardW: 200, cardH: 176, pic: 100, font: 20, gap: 3, pairs: 0, rulings: true },
+  PAIRS: { cards: 6, cols: 3, rows: 2, cardW: 168, cardH: 148, pic: 76, font: 17, gap: 1, pairs: 2, rulings: true },
   difficulty: {
-    1: { cards: 4, cols: 2, rows: 2, cardW: 200, cardH: 176, pic: 100, font: 20, gap: 3, pairs: 0, rulings: true },
+    1: { cards: 6, cols: 3, rows: 2, cardW: 168, cardH: 148, pic: 76, font: 17, gap: 2, pairs: 0, rulings: true },
     2: { cards: 6, cols: 3, rows: 2, cardW: 168, cardH: 148, pic: 76, font: 17, gap: 1, pairs: 0, rulings: true },
-    3: { cards: 6, cols: 3, rows: 2, cardW: 168, cardH: 148, pic: 76, font: 17, gap: 1, pairs: 2, rulings: true },
+    3: { cards: 6, cols: 3, rows: 2, cardW: 168, cardH: 148, pic: 76, font: 17, gap: 1, pairs: 1, rulings: true },
+  },
+  interactive: {
+    kind: 'tap-order', item: '[data-lcs-word]', slot: '[data-lcs-rank-slot]', answerAttr: 'data-lcs-rank', labelAttr: 'data-lcs-word', instructionKey: 'tap',
+    // the robot-solve gate's INDEPENDENT truth: the tap order recomputed from the item labels
+    // with the locale collation table — never read back from the page's own answer map
+    oracle: (labels, loc) => labels.map((w, i) => ({ w, i })).sort((a, b) => compare(a.w, b.w, loc)).map((x) => x.i),
   },
   i18n: {
     en: {
@@ -51,7 +71,12 @@ module.exports = {
   },
 
   build({ theme, difficulty, locale }, ctx) {
-    const d = this.difficulty[difficulty];
+    const screen = !!(ctx && ctx.interactive), isKey = !!(ctx && ctx.answerKey);
+    // On screen the page is shrunk to the device width (a phone shows it at ~47%), so the
+    // screen version uses TWO columns of bigger cards and bigger words. Layout only: the rng
+    // draws are the same in number and order, so the words are the printed page's (asserted).
+    const d0 = this.difficulty[difficulty];
+    const d = screen ? { ...d0, cols: 2, rows: Math.ceil(d0.cards / 2), cardW: 300, cardH: d0.cards > 4 ? 150 : 190, pic: d0.cards > 4 ? 78 : 106, font: 26 } : d0;
     const rng = ctx.rng;
     const loc = (locale || 'en').slice(0, 2);
     const col = COLLATION[loc];
@@ -75,13 +100,20 @@ module.exports = {
         const s = firsts.slice().sort((a, b) => a - b);
         if (s.some((v, i) => i && v - s[i - 1] < d.gap)) continue;
       } else {
-        // each pair resolves at letter 2 with ≥ 2 positions between
-        let ok = true;
+        // each pair resolves at letter 2 with ≥ pairGap (default 2) positions between;
+        // a level may also ask for `closePairs` pairs whose second letters are at most
+        // pairMax apart (a CLOSE second-letter decision)
+        let ok = true, close = 0;
+        const pg = d.pairGap || 2;
         for (const f of Object.keys(counts)) {
           if (counts[f] !== 2) continue;
           const two = cand.filter((e) => firstIndex(e.word, loc) === +f).map((e) => sortKey(e.word, loc));
-          if (two[0].length < 2 || two[1].length < 2 || Math.abs(two[0][1] - two[1][1]) < 2) ok = false;
+          if (two[0].length < 2 || two[1].length < 2) { ok = false; continue; }
+          const dd = Math.abs(two[0][1] - two[1][1]);
+          if (dd < pg) ok = false;
+          if (d.closePairs && dd <= d.pairMax) close++;
         }
+        if (d.closePairs && close < d.closePairs) ok = false;
         if (!ok) continue;
       }
       picks = cand;
@@ -100,25 +132,36 @@ module.exports = {
       const jx = (rng.next() * 2 - 1) * 12, jy = (rng.next() * 2 - 1) * 10;
       const x = c * cellW + (cellW - d.cardW) / 2 + jx, y = r * cellH + (cellH - d.cardH) / 2 + jy;
       const rot = (rng.next() * 10 - 5).toFixed(1);
-      const fs = [...e.word].length >= 11 ? 15 : d.font;
+      const fs = [...e.word].length >= 11 ? (screen ? 23 : 15) : d.font;
       return `<div class="ws-card" style="position:absolute;left:${x.toFixed(1)}px;top:${y.toFixed(1)}px;width:${d.cardW}px;height:${d.cardH}px;transform:rotate(${rot}deg);align-items:center;justify-content:center;gap:6px;overflow:visible" ` +
         `data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}" data-lcs-rank="${rank.get(e.word)}" data-lcs-pos="${i}">` +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" style="width:${d.pic}px;height:${d.pic}px">` +
         `<span style="font-family:'Nunito';font-weight:800;font-size:${fs}px;color:#3A3530;white-space:nowrap">${e.word}</span>` +
-        `<svg width="36" height="36" viewBox="0 0 36 36" style="position:absolute;right:-8px;top:-8px" data-lcs-rank-slot><circle cx="18" cy="18" r="16" fill="#FFFFFF" stroke="#F2784B" stroke-width="2.5" stroke-dasharray="5 4"/></svg></div>`;
+        `<svg width="36" height="36" viewBox="0 0 36 36" style="position:absolute;right:-8px;top:-8px" data-lcs-rank-slot><circle cx="18" cy="18" r="16" fill="#FFFFFF" stroke="#F2784B" stroke-width="2.5" stroke-dasharray="5 4"/>` +
+        (isKey ? `<text x="18" y="24.5" text-anchor="middle" font-family="Baloo 2" font-weight="700" font-size="19" fill="#146B5E">${rank.get(e.word)}</text>` : '') +
+        `</svg></div>`;
     });
     const stage = `<div style="position:relative;width:${stageW}px;height:${stageH}px" data-lcs-stage data-ws-content>${cards.join('')}</div>`;
     let rulings = '';
-    if (d.rulings) {
-      const rows = sorted.map((_, i) =>
-        `<div style="display:flex;align-items:center;gap:8px" data-lcs-answer-line="${i + 1}">` +
-        `<span style="font-family:'Baloo 2';font-weight:700;font-size:18px;color:#146B5E;width:22px;text-align:right">${i + 1}</span>${writingRow({ w: 280, h: 50, glyphH: 26, xHeight: true }).svg}</div>`);
+    if (d.rulings && !screen) {
+      const rows = sorted.map((e, i) =>
+        `<div style="display:flex;align-items:center;gap:8px${isKey ? ';position:relative' : ''}" data-lcs-answer-line="${i + 1}">` +
+        `<span style="font-family:'Baloo 2';font-weight:700;font-size:18px;color:#146B5E;width:22px;text-align:right">${i + 1}</span>${writingRow({ w: 280, h: 50, glyphH: 26, xHeight: true }).svg}` +
+        (isKey ? `<span style="position:absolute;left:44px;bottom:6px;font-family:'Nunito';font-weight:700;font-size:22px;color:#8A8580" data-lcs-key-word>${e.word}</span>` : '') +
+        `</div>`);
       rulings = `<div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 24px;justify-items:center">${rows.join('')}</div>`;
     }
-    const strip = alphabetStrip({ letters: col.strip, w: 660, upper: col.stripCase === 'upper' });
+    // on screen: the strip in TWO rows, each scaled to the page width, so its letters stay
+    // readable on a phone (one 26-29 letter row shrinks to ~7 px there)
+    const half = Math.ceil(col.strip.length / 2);
+    const strip = screen
+      ? [col.strip.slice(0, half), col.strip.slice(half)].map((h) =>
+        `<div style="width:${Math.min(520, h.length * 40)}px">${alphabetStrip({ letters: h, w: h.length * 28, upper: col.stripCase === 'upper' }).replace('<svg ', '<svg style="width:100%;height:auto" ')}</div>`).join('')
+      : alphabetStrip({ letters: col.strip, w: 660, upper: col.stripCase === 'upper' });
     return {
-      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:12px;justify-content:space-evenly;align-items:center" data-lcs-collation="${loc}">${strip}${stage}${rulings}</div>`,
-      meta: { order: sorted.map((e) => e.word) },
+      // on screen the lines are gone, so the content sits at the top (render-instance crops below it)
+      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:${screen ? 28 : 12}px;justify-content:${screen ? 'flex-start;padding-top:18px' : 'space-evenly'};align-items:center" data-lcs-collation="${loc}">${strip}${stage}${rulings}</div>`,
+      meta: { order: sorted.map((e) => e.word), words: picks.map((e) => e.word) },
     };
   },
 

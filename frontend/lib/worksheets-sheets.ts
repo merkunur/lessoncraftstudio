@@ -175,6 +175,12 @@ export function levelSetCopy(slug: string): number {
   return m ? Number(m[1]) : 1;
 }
 
+/** The variation code a worksheet slug ends with (`…-k344`, `…-k344-3` → "k344"); null when absent. */
+export function variationCode(slug: string): string | null {
+  const m = /-((?:k|g\d)\d{3})(?:-\d+)?$/.exec(slug);
+  return m ? m[1] : null;
+}
+
 /**
  * Rows for the Level Set worksheets (do-not-index marker, no landing page) of
  * ONE exercise type, shown on the hub only when that type is chosen
@@ -187,13 +193,23 @@ export function levelSetCopy(slug: string): number {
  * exercise-mode name) and the copy number: "Das bin ich · Leicht · Satz 2".
  */
 export function levelSetRows(
-  parent: Landing,
+  typeLandings: Landing[],
   decks: LevelSetDeck[],
   deckHrefOf: (slug: string) => string,
   modeNameOf: (mode: string) => string | null,
   setWord: string,
 ): HubRow[] {
+  // Each card borrows the landing of its OWN variation (same code, e.g. k344),
+  // so it carries that variation's mode: the hub arranger spreads by mode, and
+  // two copies of one variation never share a row (operator standing rule
+  // 2026-09-27). A variation without a landing falls back to the first one.
+  const byCode = new Map<string, Landing>();
+  for (const l of typeLandings) {
+    const c = variationCode(l.canonicalDeckSlug);
+    if (c && !byCode.has(c)) byCode.set(c, l);
+  }
   return decks.map((d) => {
+    const parent = byCode.get(variationCode(d.slug) || '') || typeLandings[0];
     const mode = d.exerciseMode ? modeNameOf(d.exerciseMode) : null;
     const n = levelSetCopy(d.slug);
     const label = [d.title, mode, n > 1 ? `${setWord} ${n}` : null].filter(Boolean).join(' · ');

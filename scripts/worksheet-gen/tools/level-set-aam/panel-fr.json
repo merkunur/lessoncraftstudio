@@ -1,0 +1,171 @@
+{
+  "favHeading": {
+    "fruit": "Mon fruit préféré",
+    "vegetable": "Mon légume préféré",
+    "pet": "Mon petit animal préféré",
+    "instrument": "Mon instrument préféré",
+    "hobby": "Mon activité préférée",
+    "treat": "Ma gourmandise préférée",
+    "bird": "Mon oiseau préféré",
+    "bug": "Ma petite bête préférée",
+    "sea": "Mon animal marin préféré",
+    "vehicle": "Mon véhicule préféré",
+    "clothes": "Mon vêtement préféré",
+    "breakfast": "Mon petit-déjeuner préféré",
+    "shape": "Ma forme préférée",
+    "farm": "Mon animal de ferme préféré"
+  },
+  "can": {
+    "bounce": "Je sais dribbler",
+    "slide": "Je sais descendre le toboggan",
+    "hike": "Je sais marcher longtemps",
+    "comb": "Je sais me peigner",
+    "washhands": "Je sais me laver les mains",
+    "dress": "Je sais m'habiller",
+    "coat": "Je sais boutonner mon manteau",
+    "boots": "Je sais mettre mes bottes",
+    "bed": "Je sais faire mon lit",
+    "tidy": "Je sais balayer",
+    "cut": "Je sais utiliser des ciseaux",
+    "glue": "Je sais coller",
+    "draw": "Je sais colorier sans dépasser",
+    "backpack": "Je sais préparer mon cartable",
+    "drum": "Je sais jouer du tambour",
+    "guitar": "Je sais jouer de la guitare",
+    "blocks": "Je sais empiler des cubes",
+    "dice": "Je sais jouer aux dés",
+    "bake": "J'aide à faire un gâteau",
+    "photo": "Je sais prendre une photo",
+    "kite": "Je sais lancer un cerf-volant",
+    "fish": "Je sais pêcher un poisson",
+    "tent": "J'ai dormi sous une tente",
+    "water": "Je sais arroser les plantes",
+    "puddle": "Je saute dans les flaques",
+    "swing": "Je sais faire de la balançoire",
+    "umbrella": "Je sais ouvrir un parapluie",
+    "jumprope": "Je sais sauter à la corde",
+    "iceskate": "Je sais patiner"
+  },
+  "englishSourceNotes": [
+    "'My favorite clothes' is plural but the child circles ONE picture; 'My favorite piece of clothing' or 'My favorite thing to wear' fits the task. French uses the singular 'Mon vêtement préféré'.",
+    "'My favorite breakfast' offers single items (juice, sausage, croissant), not whole breakfasts. Acceptable, but 'My favorite breakfast food' is more exact. French keeps 'Mon petit-déjeuner préféré' (26 chars, over the 22 target; it wraps to 2 lines).",
+    "'My favorite bug' includes snail, spider and worm, which are not insects. Informal English tolerates it; French 'petite bête' (the maternelle term) is exactly right for this set.",
+    "'My favorite pet' includes frog and parrot. Fine, but note the 'pet' set on copy 2 and the 'animal' heading on copy 1 are different sheets, so French 'Mon petit animal préféré' does not collide on one page.",
+    "'I can help tidy up' is cued by a BROOM, which a child reads as sweeping. Either change the cue (e.g. toys/bucket or a toy box) or the sentence to 'I can sweep the floor'.",
+    "'I can walk a long way' is cued by a hiker with a backpack and poles; OK, though 'I can go on a hike' matches the picture more directly.",
+    "'I can play a board game' is cued by a single die; acceptable."
+  ],
+  "optionWordFlags": [
+    {
+      "category": "farm",
+      "picture": "farm animals/chicken",
+      "word": "poulet",
+      "problem": "'poulet' is the meat/food word; a live farm hen is 'poule' for a French child. Wrong register on a farm-animal row."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/pancake",
+      "word": "crêpe",
+      "problem": "The picture is a thick American pancake stack with butter; a French child knows a crêpe as thin and flat. Mismatch between word and picture ('pancake' would be the accurate loanword)."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/pancake",
+      "word": "crêpe",
+      "problem": "Same picture as breakfast/pancake (thick stack), labelled crêpe. Mismatch."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/toast",
+      "word": "toast",
+      "problem": "The picture is a plain untoasted slice of sandwich bread; 'toast' is understood in France but the image reads as 'pain de mie'. Minor."
+    },
+    {
+      "category": "hobby",
+      "picture": "activities/biking",
+      "word": "vélo",
+      "problem": "Copy 3 prints the hobby row and the vehicle row on the same sheet; vehicles/bicycle is also 'vélo', so the same word can appear twice on one page."
+    },
+    {
+      "category": "bird",
+      "picture": "birds/flamingo",
+      "word": "flamant",
+      "problem": "Correct, but children say 'flamant rose'; bare 'flamant' may not be recognised. Minor."
+    },
+    {
+      "category": "vegetable",
+      "picture": "vegetables/bell_pepper",
+      "word": null,
+      "problem": "No French word (should be 'poivron'); the picture must be dropped or the word supplied."
+    },
+    {
+      "category": "pet",
+      "picture": "pets/guinea_pig",
+      "word": null,
+      "problem": "No French word (should be 'cochon d'Inde')."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/ice_cream",
+      "word": null,
+      "problem": "No French word (should be 'glace')."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/chocolate_bar",
+      "word": null,
+      "problem": "No French word (should be 'chocolat' / 'tablette de chocolat')."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/candy_cane",
+      "word": null,
+      "problem": "No French word (should be 'sucre d'orge')."
+    },
+    {
+      "category": "sea",
+      "picture": "ocean life/sea_turtle",
+      "word": null,
+      "problem": "No French word (should be 'tortue de mer')."
+    },
+    {
+      "category": "sea",
+      "picture": "ocean life/sea_horse",
+      "word": null,
+      "problem": "No French word (should be 'hippocampe')."
+    },
+    {
+      "category": "vehicle",
+      "picture": "vehicles/fire_truck",
+      "word": null,
+      "problem": "No French word (should be 'camion de pompiers')."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/boiled_egg",
+      "word": null,
+      "problem": "No French word (should be 'œuf à la coque' / 'œuf dur')."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/fried_egg",
+      "word": null,
+      "problem": "No French word (should be 'œuf au plat')."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/yoghurt",
+      "word": null,
+      "problem": "No French word (should be 'yaourt')."
+    }
+  ],
+  "otherNotes": [
+    "All sentences are gender-neutral (no 'tout seul/toute seule', no participles), so no agreement with the child's gender is needed.",
+    "Register follows the shipped 'can' list: mostly present tense 'Je …', 'Je sais …' where the skill is a learned competence (me peigner, m'habiller, coller). Longest sentence: 'Je fais voler un cerf-volant' (28).",
+    "'hobby' uses 'activité' rather than 'loisir': 'activité' is the word used in maternelle; 'loisir' is adult register.",
+    "'treat' uses 'gourmandise' (covers lollipop, cake and waffle); 'dessert' would wrongly exclude sucette.",
+    "Over the 22-char heading target: 'Mon petit animal préféré' (24), 'Ma gourmandise préférée' (23), 'Ma petite bête préférée' (23), 'Mon animal marin préféré' (24), 'Mon petit-déjeuner préféré' (26), 'Mon animal de ferme préféré' (27). All break cleanly onto 2 lines; no shorter natural French keeps 'préféré'. If a hard 22 is required: pet → 'Mon animal familier', farm → 'Mon animal de la ferme' (both drop 'préféré').",
+    "'backpack' → 'cartable': the word a French child uses for the school bag, including backpack-style ones; 'sac à dos' reads as a hiking bag.",
+    "Follow-up: tidy/coat/swing/draw revised to match the US panel. swing uses 'sans aide' to avoid gendered 'tout seul/toute seule'. bake kept: 'J'aide à faire un gâteau' still fits a whisk cue."
+  ]
+}

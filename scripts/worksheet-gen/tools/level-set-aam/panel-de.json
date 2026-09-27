@@ -1,0 +1,170 @@
+{
+  "favHeading": {
+    "fruit": "Mein Lieblingsobst",
+    "vegetable": "Mein Lieblingsgemüse",
+    "pet": "Mein Lieblingshaustier",
+    "instrument": "Mein Lieblingsinstrument",
+    "hobby": "Mein Lieblingshobby",
+    "treat": "Meine liebste Leckerei",
+    "bird": "Mein Lieblingsvogel",
+    "bug": "Mein Lieblingskrabbeltier",
+    "sea": "Mein Lieblingsmeerestier",
+    "vehicle": "Mein Lieblingsfahrzeug",
+    "clothes": "Meine Lieblingskleidung",
+    "breakfast": "Mein Lieblingsfrühstück",
+    "shape": "Meine Lieblingsform",
+    "farm": "Mein liebstes Bauernhoftier"
+  },
+  "can": {
+    "bounce": "Ich kann einen Ball dribbeln",
+    "slide": "Ich kann rutschen",
+    "hike": "Ich kann weit wandern",
+    "comb": "Ich kann meine Haare kämmen",
+    "washhands": "Ich kann meine Hände waschen",
+    "dress": "Ich kann mich anziehen",
+    "coat": "Ich kann meine Jacke zuknöpfen",
+    "boots": "Ich kann meine Stiefel anziehen",
+    "bed": "Ich kann mein Bett machen",
+    "tidy": "Ich kann den Boden fegen",
+    "cut": "Ich kann mit der Schere schneiden",
+    "glue": "Ich kann Papier kleben",
+    "draw": "Ich kann sauber ausmalen",
+    "backpack": "Ich kann meinen Rucksack packen",
+    "drum": "Ich kann trommeln",
+    "guitar": "Ich kann Gitarre spielen",
+    "blocks": "Ich kann einen Turm bauen",
+    "dice": "Ich kann Brettspiele spielen",
+    "bake": "Ich kann beim Backen helfen",
+    "photo": "Ich kann ein Foto machen",
+    "kite": "Ich kann Drachen steigen lassen",
+    "fish": "Ich kann einen Fisch angeln",
+    "tent": "Ich kann im Zelt schlafen",
+    "water": "Ich kann die Blumen gießen",
+    "puddle": "Ich kann in Pfützen springen",
+    "swing": "Ich kann allein schaukeln",
+    "umbrella": "Ich kann den Schirm aufmachen"
+  },
+  "englishSourceNotes": [
+    "'I can catch a fish' states an outcome, not a skill a child reliably has; 'I can go fishing' is more honest. German uses 'einen Fisch angeln' (the act of fishing).",
+    "'My favorite clothes' (plural) heads a row where the child circles ONE garment; 'My favorite piece of clothing' is more accurate. German uses the mass noun 'Kleidung', which reads naturally either way.",
+    "'My favorite bug' covers a snail, a worm and a spider, none of which are insects; acceptable colloquial English, but German deliberately uses 'Krabbeltier' (the Kita word for all small crawling creatures) rather than 'Insekt'.",
+    "'My favorite treat' mixes sweets with cake, pancake and waffle; fine in English. German 'Süßigkeit' would exclude cake/pancake, so 'Leckerei' is used.",
+    "'I can play a board game' is cued by a single die; acceptable, but a board picture would match better.",
+    "'I can draw a picture' collides in German with the shipped paint sentence 'Ich kann ein Bild malen' (malen = both paint and draw for children); German draw is therefore 'mit Stiften zeichnen', matching the crayon cue.",
+    "'My favorite shape' offers moon and heart, which are not geometric shapes; fine for 5-year-olds — German uses 'Form', not 'geometrische Figur'."
+  ],
+  "optionWordFlags": [
+    {
+      "category": "breakfast",
+      "picture": "breakfast/porridge",
+      "word": "Brei",
+      "problem": "'Brei' alone suggests baby food/mush; the German breakfast word is 'Haferbrei' (or 'Porridge')."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/sausage",
+      "word": "Wurst",
+      "problem": "Picture is a single small sausage; 'Würstchen' is the natural breakfast word. 'Wurst' reads as cold cuts."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/cereal",
+      "word": "Müsli",
+      "problem": "Picture shows cereal rings in a bowl, not Müsli (oats, nuts, raisins); 'Cornflakes'/'Frühstücksflocken' would match. Acceptable but imprecise."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/pancake",
+      "word": "Pfannkuchen",
+      "problem": "In Berlin and much of eastern Germany 'Pfannkuchen' means a jam doughnut (Berliner). The picture is a stack of American pancakes; still the best nationwide word, but regionally ambiguous. Same for breakfast/pancake."
+    },
+    {
+      "category": "hobby",
+      "picture": "activities/camping",
+      "word": "Camping",
+      "problem": "Correct but adult register; a 5-year-old says 'Zelten' (and the picture is a tent)."
+    },
+    {
+      "category": "sea",
+      "picture": "ocean life/octopus",
+      "word": "Oktopus",
+      "problem": "Correct; children more often say 'Krake'. Minor."
+    },
+    {
+      "category": "vegetable",
+      "picture": "vegetables/bell_pepper",
+      "word": null,
+      "problem": "Missing German word; should be 'Paprika'."
+    },
+    {
+      "category": "pet",
+      "picture": "pets/guinea_pig",
+      "word": null,
+      "problem": "Missing German word; should be 'Meerschweinchen' (a very popular child's pet in Germany — worth keeping)."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/ice_cream",
+      "word": null,
+      "problem": "Missing German word; should be 'Eis'."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/chocolate_bar",
+      "word": null,
+      "problem": "Missing German word; should be 'Schokolade'."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/candy_cane",
+      "word": null,
+      "problem": "Missing German word; 'Zuckerstange'. Culturally marginal in Germany — fine to drop."
+    },
+    {
+      "category": "sea",
+      "picture": "ocean life/sea_turtle",
+      "word": null,
+      "problem": "Missing German word; should be 'Meeresschildkröte'."
+    },
+    {
+      "category": "sea",
+      "picture": "ocean life/sea_horse",
+      "word": null,
+      "problem": "Missing German word; should be 'Seepferdchen'."
+    },
+    {
+      "category": "vehicle",
+      "picture": "vehicles/fire_truck",
+      "word": null,
+      "problem": "Missing German word; should be 'Feuerwehrauto'."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/boiled_egg",
+      "word": null,
+      "problem": "Missing German word; should be 'Ei' (the classic Frühstücksei)."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/yoghurt",
+      "word": null,
+      "problem": "Missing German word; should be 'Joghurt'."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/fried_egg",
+      "word": null,
+      "problem": "Missing German word; should be 'Spiegelei'."
+    }
+  ],
+  "otherNotes": [
+    "Heading pattern follows shipped 'Mein Lieblingstier' / 'Meine Lieblingsfarbe' (Lieblings- compound, article by gender). Two headings use 'liebste(s)' + noun instead: 'Meine liebste Leckerei' and 'Mein liebstes Bauernhoftier' (the compound 'Lieblingsbauernhoftier' is unreadable for a 5-year-old and cannot wrap).",
+    "Length: 'Mein Lieblingsinstrument' (24), 'Mein Lieblingsmeerestier' (24), 'Mein Lieblingskrabbeltier' (25), 'Meine Lieblingskleidung' (23), 'Mein Lieblingsfrühstück' (23), 'Mein liebstes Bauernhoftier' (27) exceed 22 chars but break into two lines at the space; the longest unbreakable word is 'Lieblingskrabbeltier' (20). German compounds cannot be shortened without losing meaning — please confirm the box fits a 20-char word on one line.",
+    "'Ich kann mit der Schere schneiden' is 33 chars (under hard max 34); shorter forms drop the scissors the cue shows. 'Ich kann meinen Rucksack packen', 'Ich kann meine Stiefel anziehen' and 'Ich kann Drachen steigen lassen' are 31 chars; no natural shorter form exists.",
+    "coat: the picture is a buttoned coat (Mantel), but German children say 'Jacke'; 'Ich kann meine Jacke zuknöpfen' is used deliberately for everyday child speech (30 chars).",
+    "bounce: 'dribbeln' is the word children know from ball games; 'prellen' is regional/school-sport jargon.",
+    "slide: 'Ich kann rutschen' — with the slide picture the meaning is unambiguous; 'auf der Rutsche rutschen' is repetitive.",
+    "All sentences keep the shipped 'Ich kann …' first-person pattern with no final period, as in the shipped can entries.",
+    "Follow-up revisions (US panel audit): tidy → 'Ich kann den Boden fegen' (broom cue); coat → 'zuknöpfen'; swing → 'allein schaukeln'; draw → 'Ich kann sauber ausmalen' ('sauber ausmalen' is the Kita/Grundschule phrase for colouring inside the lines). bake kept: 'Ich kann beim Backen helfen' fits a whisk (stirring the dough)."
+  ]
+}

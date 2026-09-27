@@ -168,8 +168,10 @@ module.exports = {
 
     // copies (Level Set 2026-09-27): the four possible trios of animal/food/colour/toy, by copy
     // number; copy 1 is the published animal/food/colour, so it stays byte-identical
-    const TRIOS = [['animal', 'food', 'color'], ['animal', 'food', 'toy'], ['animal', 'color', 'toy'], ['food', 'color', 'toy']];
-    const favKeys = d.favourites && d.favourites.length === 3 ? TRIOS[((((ctx && ctx.variant) || 1) - 1) % TRIOS.length)] : d.favourites;
+    // copies (Level Set 2026-09-27): each copy asks three DIFFERENT favourite questions — the
+    // picture seed's `sets` (copy 1 = animal/food/colour, the published poster, byte-identical)
+    const SETS = (d.favourites && d.favourites.length === 3 && (this._pictures().sets || [])) || [];
+    const favKeys = SETS.length ? SETS[((((ctx && ctx.variant) || 1) - 1) % SETS.length)] : d.favourites;
     const favourites = favKeys
       ? favKeys.map((key) => ({ key, heading: literal(L, 'favHeading.' + key, loc), w: d.favW, h: d.favH, minH: d.favMin, headingPx: d.headingPx }))
       : null;
@@ -240,7 +242,14 @@ module.exports = {
         .sort(([a, ea], [b, eb]) => (String(ea.baseTheme).toLowerCase() === base ? 0 : 1) - (String(eb.baseTheme).toLowerCase() === base ? 0 : 1) || a.localeCompare(b));
       return cands.length ? cands[0][0] : null;
     };
-    const categories = bw ? d.categories.map((c) => (c === 'color' ? 'toy' : c)).filter((c, i, a) => a.indexOf(c) === i) : d.categories;
+    // copies (Level Set 2026-09-27): copy N >= 2 asks the seed's set N — three new questions,
+    // never the same rows with other pictures. Copy 1 keeps the level's own list (the published page).
+    const sets = d.copySets ? (P.sets || []) : [];
+    const setCats = sets.length && (ctx.variant || 1) >= 2 ? sets[((ctx.variant || 1) - 1) % sets.length] : null;
+    const baseCats = setCats || d.categories;
+    const categories = bw ? baseCats.map((c) => (c === 'color' ? 'toy' : c)).filter((c, i, a) => a.indexOf(c) === i) : baseCats;
+    const exclude = new Set(bank.excludeOptions || []);          // a panel-flagged picture word in THIS locale
+    const usedLabels = new Set();                               // one printed word shows once on the page
     for (const cat of categories) {
       const c = (P.categories || []).find((x) => x.id === cat);
       if (!c) throw new Error(`K-323 favourites: no picture category "${cat}" in the seed`);
@@ -262,6 +271,8 @@ module.exports = {
         if (typeof w !== 'string' || !w.trim()) continue;      // unlabelled in this locale: the option drops (never a vocab fallback)
         if (w.includes('{') || /\d/.test(w)) throw new Error(`K-323 favourites: ${loc} optionWords.${key} "${w}" is not a whole literal`);
         if (usedKeys.has(key)) continue;                        // a vocabKey shows once on the page
+        if (setCats && (exclude.has(o.noun) || usedLabels.has(w.toLocaleLowerCase(loc)))) continue;
+        if (setCats && textWidthEm(w) * 16 > FACE_LABEL_CAP) continue;   // measured: the label must fit its tile
         if (bw) {
           const t = bwSibling(o.theme, o.noun, key);
           if (!t) continue;                                     // no line-art sibling: the option drops on a line-art copy
@@ -270,9 +281,12 @@ module.exports = {
         }
         live.push({ key, src: fileUri(o.theme, o.noun), label: w });
       }
-      if (live.length < perRow) continue;                       // the category drops (design §3 F1 refusal)
+      if (live.length < perRow) {
+        if (setCats) throw new Error(`K-323 favourites: ${loc} "${cat}" keeps ${live.length} labelled options < ${perRow} (a new-question copy prints all its rows)`);
+        continue;                                               // the category drops (design §3 F1 refusal)
+      }
       const chosen = rng.sample(live, perRow);
-      chosen.forEach((o) => usedKeys.add(o.key));
+      chosen.forEach((o) => { usedKeys.add(o.key); usedLabels.add(String(o.label).toLocaleLowerCase(loc)); });
       rows.push({ cat, heading, options: chosen });
     }
     if (rows.length < 2) throw new Error(`K-323 favourites: ${loc} keeps ${rows.length} category with >= ${perRow} labelled options (< 2: refuse)`);
@@ -351,6 +365,15 @@ module.exports = {
   /** F4 — I Can: eight "I can …" frames with a tick box and a picture cue + one "I want to learn" lane (open-ended). */
   _buildICan(bank, d, loc, ctx) {
     const L = bank.labels, rng = ctx.rng, P = this._pictures();
+    // copies (Level Set 2026-09-27): from copy `domainFrom` on, a page covers ONE area of the
+    // child's life (P.domains, in DOMAIN order) — all eight of its sentences, shuffled. Earlier
+    // copies (the published page) keep the original mixed pool, byte-identical. A domain page may
+    // carry its own columns (`domainCols`: a smaller cue, a wider sentence column) because it must
+    // print every one of its eight sentences on <= 2 lines — measured, never a smaller font.
+    const DOMAIN_ORDER = ['move', 'self', 'school', 'play', 'outdoors'];
+    const v = ctx.variant || 1;
+    const domainIds = d.domainFrom && v >= d.domainFrom && P.domains ? P.domains[DOMAIN_ORDER[(v - d.domainFrom) % DOMAIN_ORDER.length]] : null;
+    if (domainIds && d.domainCols) d = { ...d, ...d.domainCols };
     if (!(d.cards >= 6 && d.cards <= 8 && d.cards % 2 === 0)) throw new Error(`K-323 ican: cards ${d.cards} outside {6, 8}`);
     if (d.tick < K_FLOOR || d.pic < K_FLOOR) throw new Error(`K-323 ican: tick ${d.tick} / pic ${d.pic} under the K floor ${K_FLOOR}`);
     const cues = d.cues !== false;   // Level Set 2026-09-27: L3 reads the sentence without a picture cue
@@ -360,7 +383,9 @@ module.exports = {
     if ((bank.refuse || []).includes('ican')) throw new Error(`K-323 ican: ${loc} refuses the face (bank.refuse)`);
     const can = bank.can || {};
     const live = [];
-    for (const a of P.actions || []) {
+    const pool = domainIds ? domainIds.map((id) => (P.actions || []).find((a) => a.id === id) || (() => { throw new Error(`K-323 ican: domain action "${id}" is not in the seed`); })())
+      : (P.actions || []).filter((a) => !a.levelSetOnly);
+    for (const a of pool) {
       const s = can[a.id];
       if (typeof s !== 'string' || !s.trim()) continue;         // no literal for this action in this locale → the action drops
       if (s.includes('{') || /\d/.test(s)) throw new Error(`K-323 ican: ${loc} can.${a.id} "${s}" is not a whole literal`);
@@ -368,12 +393,16 @@ module.exports = {
       // Level Set 2026-09-27: a sentence that needs 3+ lines in THIS level's column is left out of
       // this page (verify refuses it; never shrink the font). Measured, not guessed: de "Ich kann
       // Schlittschuh laufen" and pt "Eu sei montar um quebra-cabeça" did not fit the 146 px column.
-      if (linesNeeded(s, d.literalPx, d.textW) > 2) continue;
+      if (linesNeeded(s, d.literalPx, d.textW) > 2) {
+        if (domainIds) throw new Error(`K-323 ican: ${loc} can.${a.id} "${s}" needs 3+ lines in a ${d.textW} px column (a domain page prints all eight)`);
+        continue;
+      }
       if (!a.cue || BW_MARKER.test(String(a.cue.theme))) throw new Error(`K-323 ican: action ${a.id} cue is in a B&W directory`);
       live.push({ id: a.id, literal: s, src: cues ? fileUri(a.cue.theme, a.cue.noun) : null });
     }
     if (live.length < d.cards) throw new Error(`K-323 ican: ${loc} authors ${live.length} can literals < ${d.cards} (refuse, never a vocab fallback)`);
-    const chosen = rng.sample(live, d.cards);
+    if (domainIds && live.length !== d.cards) throw new Error(`K-323 ican: ${loc} domain page has ${live.length} sentences, needs ${d.cards}`);
+    const chosen = domainIds ? rng.shuffle(live) : rng.sample(live, d.cards);
     const cards = chosen.map((a) => C3.aboutMeCanRow({ id: a.id, src: a.src, literal: a.literal, tick: d.tick, pic: d.pic, textW: d.textW, literalPx: d.literalPx }));
     const inner = C3.aboutMeCanGrid({ cards, minRow: d.rowMin }) + C3.aboutMeWantLane({ label: literal(L, 'wantLearn', loc), glyphH: d.glyphH, h: d.laneH });
     const bodyHtml = this._root(loc, 'ican', `${cues ? '' : 'data-lcs-cues="0" '}data-lcs-cards="${d.cards}" data-lcs-tick="${d.tick}" data-lcs-pic="${d.pic}" data-lcs-text-w="${d.textW}" data-lcs-literal-px="${d.literalPx}"`,

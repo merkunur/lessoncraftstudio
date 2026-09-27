@@ -1,0 +1,13 @@
+Read first:
+- The design (English source of every new string): C:\Users\rkgen\lessoncraftstudio\scripts\worksheet-gen\out\aam2\design.js. `headings` = new "My favorite …" row headings; `newActions` = new "I can …" sentences (3rd field) with their picture cue (theme/noun). The English was already audited by a US panel (C:\Users\rkgen\lessoncraftstudio\scripts\worksheet-gen\out\aam2\panel-en.json — read its "changes" and "designNotes": e.g. tidy = sweeping with a broom, coat = buttoning, swing = without a push, each sheet should not repeat the same verb).
+- Your locale's CURRENT shipped wording, to match register and forms exactly: C:\Users\rkgen\lessoncraftstudio\scripts\worksheet-gen\data\b3\locales\all-about-me.LOC.json (labels.favHeading and `can`).
+- Picture names each favourite row will print: C:\Users\rkgen\lessoncraftstudio\scripts\worksheet-gen\out\aam2\optionwords-LOC.json (some pictures listed there were since dropped from design.js; ignore those).
+- Contact sheets of the actual pictures (open them): C:\Users\rkgen\lessoncraftstudio\scripts\worksheet-gen\out\aam2\*.png. Check each "I can" sentence against its cue picture.
+
+Rules:
+1. Headings follow the shipped pattern; mind grammatical gender. Short (target ≤ 22 characters; narrow box, max 2 lines, no single word over 20 characters). The bug row contains snail, spider, worm too, so do not say "insect".
+2. "I can" sentences: first person, same pattern as the shipped `can` entries, ≤ 30 characters (hard max 34), natural for a 5-year-old reader, a real yes/no for the child, no digits, no `{`.
+3. Flag any picture name in optionwords-LOC.json that is wrong for the picture or unsuitable for a child, and any null word (words cannot be changed — only flagged).
+4. Heading keys: fruit, vegetable, pet, instrument, hobby, treat, bird, bug, sea, vehicle, clothes, breakfast, shape, farm. Can keys = the newActions ids.
+
+Write ONLY: C:\Users\rkgen\lessoncraftstudio\scripts\worksheet-gen\out\aam2\panel-LOC.json with shape {"favHeading":{...14},"can":{...27},"englishSourceNotes":[...],"optionWordFlags":[{"category","picture","word","problem"}],"otherNotes":[...]}. Valid JSON UTF-8 (verify it parses with node). Final reply under 120 words.

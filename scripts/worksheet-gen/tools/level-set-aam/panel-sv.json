@@ -1,0 +1,170 @@
+{
+  "favHeading": {
+    "fruit": "Min favoritfrukt",
+    "vegetable": "Min favoritgrönsak",
+    "pet": "Mitt favorithusdjur",
+    "instrument": "Mitt favoritinstrument",
+    "hobby": "Min favorithobby",
+    "treat": "Min favoritsötsak",
+    "bird": "Min favoritfågel",
+    "bug": "Mitt favoritkryp",
+    "sea": "Mitt favorithavsdjur",
+    "vehicle": "Mitt favoritfordon",
+    "clothes": "Mina favoritkläder",
+    "breakfast": "Min favoritfrukost",
+    "shape": "Min favoritform",
+    "farm": "Mitt favoritgårdsdjur"
+  },
+  "can": {
+    "bounce": "Jag kan studsa en boll",
+    "slide": "Jag kan åka rutschkana",
+    "hike": "Jag kan vandra långt",
+    "comb": "Jag kan kamma håret",
+    "washhands": "Jag kan tvätta händerna",
+    "dress": "Jag kan klä på mig",
+    "coat": "Jag kan knäppa jackan",
+    "boots": "Jag kan ta på mig stövlarna",
+    "bed": "Jag kan bädda sängen",
+    "tidy": "Jag kan sopa golvet",
+    "cut": "Jag kan klippa med sax",
+    "glue": "Jag kan limma",
+    "draw": "Jag kan färglägga inom linjerna",
+    "backpack": "Jag kan packa min ryggsäck",
+    "drum": "Jag kan spela trumma",
+    "guitar": "Jag kan spela gitarr",
+    "blocks": "Jag kan bygga ett torn",
+    "dice": "Jag kan spela brädspel",
+    "bake": "Jag kan hjälpa till att baka",
+    "photo": "Jag kan ta ett foto",
+    "kite": "Jag kan flyga drake",
+    "fish": "Jag kan fånga en fisk",
+    "tent": "Jag kan sova i tält",
+    "water": "Jag kan vattna blommorna",
+    "puddle": "Jag kan hoppa i vattenpölar",
+    "swing": "Jag kan gunga själv",
+    "umbrella": "Jag kan fälla upp ett paraply"
+  },
+  "englishSourceNotes": [
+    "'I can draw a picture' sits in the same school domain as the shipped 'I can paint a picture' — near-duplicate on one sheet. Swedish separates them (rita med kritor / måla en bild), tied to the crayon cue; consider 'I can draw with crayons' in EN too.",
+    "'My favorite bug' offers snail, spider and worm, which are not bugs/insects; fine colloquially for 5-year-olds, but 'creepy-crawly' is the accurate umbrella (Swedish 'kryp' covers all nine).",
+    "'My favorite treat' pools sweets with pancake, waffle and muffin, and pancake + muffin also appear under 'My favorite breakfast' — the same picture can answer two different questions.",
+    "'My favorite clothes' (plural) above a single-picture choice; 'My favorite thing to wear' reads more naturally.",
+    "'I can help bake a cake' — the baking cue picture shows a chef with pizza/bread-like food, not a cake; Swedish drops 'a cake' ('hjälpa till att baka').",
+    "'I can catch a fish' is a big claim for a 5-year-old; the fishing-rod cue fits 'I can go fishing' better.",
+    "'I can walk a long way' with the hiking cue is fine; 'I can go for a long walk' is slightly more childlike."
+  ],
+  "optionWordFlags": [
+    {
+      "category": "farm",
+      "picture": "farm animals/chicken",
+      "word": "kyckling",
+      "problem": "The picture is an adult hen (comb, wattle); 'kyckling' means chick (and chicken meat). Should be 'höna'."
+    },
+    {
+      "category": "clothes",
+      "picture": "clothing/coat",
+      "word": "kappa",
+      "problem": "'kappa' reads as a woman's dress coat; a child calls this 'jacka' (or 'rock'). The 'I can' sentence uses 'jackan' for this reason."
+    },
+    {
+      "category": "hobby",
+      "picture": "activities/biking, fishing, painting, reading, singing",
+      "word": "cykla / fiska / måla / läsa / sjunga",
+      "problem": "Verbs (infinitives) mixed in one row with nouns (fotboll, simning, skridskoåkning, skidåkning, schack). Consistent nouns would be cykling, fiske, målning, läsning, sång — or all verbs. Children can cope, but the row reads uneven."
+    },
+    {
+      "category": "hobby",
+      "picture": "activities/skating",
+      "word": "skridskoåkning",
+      "problem": "14 letters — very long to copy for a förskoleklass child next to 'tennis'; 'åka skridskor' or 'skridskor' is easier."
+    },
+    {
+      "category": "fruit",
+      "picture": "fruits/cherry",
+      "word": "körsbär",
+      "problem": "Word is right, but the picture is one large red round cherry that looks like the apple in the same row — children may circle the wrong one."
+    },
+    {
+      "category": "vegetable",
+      "picture": "vegetables/bell_pepper",
+      "word": null,
+      "problem": "Missing word; Swedish is 'paprika'."
+    },
+    {
+      "category": "pet",
+      "picture": "pets/guinea_pig",
+      "word": null,
+      "problem": "Missing word; Swedish is 'marsvin'."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/ice_cream",
+      "word": null,
+      "problem": "Missing word; Swedish is 'glass'."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/chocolate_bar",
+      "word": null,
+      "problem": "Missing word; Swedish is 'choklad' (or 'chokladkaka')."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/candy_cane",
+      "word": null,
+      "problem": "Missing word; Swedish is 'polkagris'."
+    },
+    {
+      "category": "sea",
+      "picture": "ocean life/sea_turtle",
+      "word": null,
+      "problem": "Missing word; Swedish is 'havssköldpadda' (or simply 'sköldpadda')."
+    },
+    {
+      "category": "sea",
+      "picture": "ocean life/sea_horse",
+      "word": null,
+      "problem": "Missing word; Swedish is 'sjöhäst'."
+    },
+    {
+      "category": "vehicle",
+      "picture": "vehicles/fire_truck",
+      "word": null,
+      "problem": "Missing word; Swedish is 'brandbil'."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/boiled_egg",
+      "word": null,
+      "problem": "Missing word; Swedish is 'kokt ägg' (or 'ägg')."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/yoghurt",
+      "word": null,
+      "problem": "Missing word; Swedish is 'yoghurt'."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/fried_egg",
+      "word": null,
+      "problem": "Missing word; Swedish is 'stekt ägg'."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/muffin",
+      "word": "muffins",
+      "problem": "Same picture/word also offered under treat — a child sees 'muffins' on two rows of the set."
+    }
+  ],
+  "otherNotes": [
+    "pet heading is 'Mitt favorithusdjur', not 'Mitt favoritdjur' — the latter is already the shipped 'animal' heading and would print twice across the set.",
+    "Genus checked: frukt/grönsak/hobby/sötsak/fågel/frukost/form = en (Min); husdjur/instrument/kryp/havsdjur/fordon/gårdsdjur = ett (Mitt); kläder plural (Mina).",
+    "treat: 'godis' was rejected because the row holds cake, pancake and waffle; 'efterrätt' rejected because of lollipop and cookie. 'sötsak' covers the whole row.",
+    "Only 'Mitt favoritinstrument' (22) reaches the target limit; everything else is 15-21 characters.",
+    "All 'Jag kan' sentences follow the shipped pattern (no final full stop, definite body-part/garment: håret, händerna, jackan, stövlarna, sängen), 13-29 characters.",
+    "skip (shipped 'hoppa hopprep') and puddle ('hoppa i vattenpölar') both use 'hoppa' but mean clearly different things; acceptable.",
+    "Picture 'activities/hiking' also shows walking poles — 'vandra' fits; 'fish' cue is a fishing rod: 'meta' would be the most exact child verb, but 'fånga en fisk' keeps the English meaning.",
+    "Follow-up 2026-09-27: tidy/coat/swing/draw revised per the US panel. bake kept ('Jag kan hjälpa till att baka' fits a whisk cue). draw is 31 characters (under the hard max of 34); 'färglägga' keeps it apart from the shipped 'måla en bild'."
+  ]
+}

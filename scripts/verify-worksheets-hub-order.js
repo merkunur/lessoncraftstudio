@@ -232,8 +232,81 @@ function checkView(order, rows, label, axis, locale, stats) {
         fails.push(`${label} p${p + 1}: ${bad} row(s) repeat a LABEL where 0 is achievable`);
       }
     }
+    // (8) INFEASIBLE PAGES (2026-09-27) — when a key holds more than one card per row,
+    // "never twice in a row" cannot hold, so the rule becomes the best that CAN: no row
+    // carries more than ceil(m / rows) of it, and never two side by side while the key
+    // holds at most half the page. Measured failure this catches: the All About Me type
+    // view ending in a row of four "I Can" cards.
+    if (bound > 0) {
+      const rowsOnPage = Math.ceil(page.length / 4);
+      const count = new Map();
+      for (const r of page) count.set(keyOf(r), (count.get(keyOf(r)) || 0) + 1);
+      // assert only where the per-row caps are ACHIEVABLE on this page (a partial last row can
+      // make them impossible) — proven by a transportation max-flow, never assumed
+      if (capsFeasible(count, page.length, rowsOnPage)) for (let i = 0; i < page.length; i += 4) {
+        const inRow = new Map();
+        for (const r of page.slice(i, i + 4)) inRow.set(keyOf(r), (inRow.get(keyOf(r)) || 0) + 1);
+        for (const [k, n] of inRow) {
+          const cap = Math.ceil(count.get(k) / rowsOnPage);
+          if (n > cap) fails.push(`${label} p${p + 1}: row ${i / 4 + 1} holds ${n} × ${k.trim()} (the page allows ${cap})`);
+        }
+      }
+      for (let i = 1; i < page.length; i++) {
+        const k = keyOf(page[i]);
+        if (k === keyOf(page[i - 1]) && count.get(k) * 2 <= page.length && Math.floor(i / 4) === Math.floor((i - 1) / 4)) {
+          fails.push(`${label} p${p + 1}: two ${k.trim()} side by side at ${i} (avoidable)`);
+          break;
+        }
+      }
+    }
   }
   return fails;
+}
+
+/** Can `count` (key → n) be laid into rows of 4 (last row partial) with at most ceil(n / rows) of a key per row? Max-flow. */
+function capsFeasible(count, len, rows) {
+  const keys = [...count.keys()];
+  const K = keys.length, S = 0, T = 1 + K + rows + 1 - 1 + 1;
+  const N = K + rows + 2, src = K + rows, snk = K + rows + 1;
+  const cap = Array.from({ length: N }, () => new Array(N).fill(0));
+  keys.forEach((k, i) => {
+    cap[src][i] = count.get(k);
+    for (let r = 0; r < rows; r++) cap[i][K + r] = Math.ceil(count.get(k) / rows);
+  });
+  for (let r = 0; r < rows; r++) cap[K + r][snk] = Math.min(4, len - r * 4);
+  let flow = 0;
+  for (;;) {
+    const prev = new Array(N).fill(-1); prev[src] = src;
+    const q = [src];
+    while (q.length && prev[snk] < 0) { const u = q.shift(); for (let v = 0; v < N; v++) if (prev[v] < 0 && cap[u][v] > 0) { prev[v] = u; q.push(v); } }
+    if (prev[snk] < 0) break;
+    let f = Infinity; for (let v = snk; v !== src; v = prev[v]) f = Math.min(f, cap[prev[v]][v]);
+    for (let v = snk; v !== src; v = prev[v]) { cap[prev[v]][v] -= f; cap[v][prev[v]] += f; }
+    flow += f;
+  }
+  return flow === len;
+}
+
+/**
+ * The Level Set type view (2026-09-27): a type's landings + its do-not-index Level Set
+ * decks, built through the REAL `levelSetRows`, exactly as the hub builds them when
+ * `?type=` is chosen. The deck list mirrors the live All About Me set (22 per locale:
+ * five poster, five favourite, two face, ten I-can copies) — the one view where one
+ * variation holds more than one card per row.
+ */
+function levelSetView(locale) {
+  const file = path.join(LANDING_DIR, locale + '.json');
+  if (!fs.existsSync(file)) return null;
+  const landings = JSON.parse(fs.readFileSync(file, 'utf8')).landings.filter((l) => l.coordinate.type === 'all-about-me' && !l.coordinate.target);
+  if (landings.length < 4) return null;
+  const decks = [];
+  const add = (code, mode, copies) => {
+    for (const n of copies) decks.push({ slug: `aam-${mode || 'x'}-${code}${n > 1 ? '-' + n : ''}`, title: 'All About Me', exerciseMode: mode, hasAnswerKey: false });
+  };
+  add('k323', null, [2, 3, 4, 5, 6]); add('k342', null, [2, 3, 4, 5, 6]); add('k344', 'easy', [1]); add('k344', 'hard', [1]);
+  add('k345', null, [2, 3, 4, 5, 6]); add('k345', 'hard', [1, 2, 3, 4, 5]);
+  const extra = sheets.levelSetRows(landings, decks, (s) => '/' + locale + '/decks/' + s + '/', (m) => m, 'Set');
+  return [...landings, ...extra];
 }
 
 /* ------------------------------------------------------------------ *
@@ -290,6 +363,17 @@ function sweep(orderHubRows, { quiet } = {}) {
     }
   }
 
+  // Level Set type views (All About Me, every locale that has its landings)
+  let levelSetViews = 0;
+  for (const locale of LOCALES) {
+    const rows = levelSetView(locale);
+    if (!rows) continue;
+    const rr = orderHubRows(rows, true, isPrintOnly);
+    stats.views++; levelSetViews++;
+    fails.push(...checkView(rr.rows, rows, `${locale}/type=all-about-me+levelset`, rr.axis, locale, stats));
+  }
+  if (levelSetViews < LOCALES.length) fails.push(`vacuous: only ${levelSetViews} of ${LOCALES.length} locales built a Level Set view`);
+
   // (3) DETERMINISM — same process twice, and a pre-shuffled + re-seeded input.
   const detLocale = LOCALES[0];
   const detRows = hubRows(detLocale);
@@ -321,6 +405,8 @@ function sweep(orderHubRows, { quiet } = {}) {
  * Poison tests — the gate is not trusted until it is proven to fail
  * ------------------------------------------------------------------ */
 const POISONS = [
+  ['no row-by-row layout on an infeasible page (the big key stacks at the end)',
+    (s) => s.replace('return arrangeRows(order, buckets, remaining, items.length, d);', '')],
   ['identity ordering (no spread, no arrangement)',
     (s) => s.replace(
       /const out: T\[\] = \[\];\n  for \(let i = 0[\s\S]*?\n  \}\n  return \{ rows: out, axis \};/,

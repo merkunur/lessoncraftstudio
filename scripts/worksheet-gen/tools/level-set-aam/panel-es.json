@@ -1,0 +1,110 @@
+{
+  "favHeading": {
+    "fruit": "Mi fruta favorita",
+    "vegetable": "Mi verdura favorita",
+    "pet": "Mi mascota favorita",
+    "instrument": "Mi instrumento favorito",
+    "hobby": "Mi pasatiempo favorito",
+    "treat": "Mi postre favorito",
+    "bird": "Mi ave favorita",
+    "bug": "Mi bichito favorito",
+    "sea": "Mi animal marino favorito",
+    "vehicle": "Mi vehículo favorito",
+    "clothes": "Mi ropa favorita",
+    "breakfast": "Mi desayuno favorito",
+    "shape": "Mi figura favorita",
+    "farm": "Mi animal de granja favorito"
+  },
+  "can": {
+    "bounce": "Sé botar el balón",
+    "slide": "Sé bajar por la resbaladilla",
+    "hike": "Sé caminar muy lejos",
+    "comb": "Sé peinarme el cabello",
+    "washhands": "Sé lavarme las manos",
+    "dress": "Sé vestirme",
+    "coat": "Sé abotonar mi abrigo",
+    "boots": "Sé ponerme las botas",
+    "bed": "Sé tender mi cama",
+    "tidy": "Sé barrer el piso",
+    "cut": "Sé recortar con tijeras",
+    "glue": "Sé usar el pegamento",
+    "draw": "Sé colorear sin salirme",
+    "backpack": "Sé preparar mi mochila",
+    "drum": "Sé tocar el tambor",
+    "guitar": "Sé tocar la guitarra",
+    "blocks": "Sé construir una torre",
+    "dice": "Sé jugar un juego de mesa",
+    "bake": "Sé ayudar a hacer un pastel",
+    "photo": "Sé tomar una foto",
+    "kite": "Sé volar un papalote",
+    "fish": "Sé pescar con caña",
+    "tent": "Sé dormir en casa de campaña",
+    "water": "Sé regar las plantas",
+    "puddle": "Sé brincar en los charcos",
+    "swing": "Sé columpiarme sin ayuda",
+    "umbrella": "Sé abrir un paraguas"
+  },
+  "englishSourceNotes": [
+    "'My favorite bug' offers snail, spider and worm, which are not insects; 'bug' works colloquially in English. Spanish uses 'bichito' (child register, covers all nine) rather than 'insecto'.",
+    "'My favorite treat' offers pancake and waffle, which are breakfast foods, and pancake + muffin also appear in the breakfast row on another copy. Spanish uses 'postre' (dessert), which fits cake/cookie/ice cream etc.; consider replacing pancake/waffle in the treat pool.",
+    "'I can help tidy up' is cued by a BROOM, which shows sweeping, not tidying. Spanish 'Sé ayudar a limpiar' covers the broom; the English could be 'I can help sweep' or use a toy box / laundry basket picture.",
+    "'I can catch a fish' is an uncommon claim for a 5-year-old; the Spanish says 'I can fish with a rod' (Sé pescar con caña), which matches the fishing-rod picture and is truer to the child.",
+    "'I can walk a long way' is fine but slightly vague next to a hiking picture; acceptable.",
+    "'I can make my bed' / 'I can pack my backpack' are good self-care items; no issue.",
+    "'My favorite clothes' asks for one picture; 'My favorite piece of clothing' is the precise sense, but 'clothes' reads naturally to a child. Spanish 'Mi ropa favorita' works the same way."
+  ],
+  "optionWordFlags": [
+    {
+      "category": "farm",
+      "picture": "farm animals/chicken",
+      "word": "pollo",
+      "problem": "The picture is a live adult hen. In Mexico 'pollo' is chiefly the meat or a chick; a child names this bird 'gallina'. Recommend 'gallina'."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/lollipop + desserts and sweets/popsicle",
+      "word": "paleta / paleta helada",
+      "problem": "In Mexico both are simply 'paleta'; two pictures on one row share the same head word, so a child copying the word may confuse them. Prefer 'paleta de dulce' vs 'paleta helada', or drop one from the row."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/porridge",
+      "word": "gachas",
+      "problem": "'Gachas' is Peninsular Spanish and unknown to Mexican children. In Mexico this bowl is 'avena'."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/cupcake",
+      "word": "panquecito",
+      "problem": "Understandable but uncommon; Mexican children mostly say 'cupcake' or 'pastelito'. Acceptable, low priority."
+    },
+    {
+      "category": "treat/breakfast",
+      "picture": "desserts and sweets/muffin, breakfast/muffin",
+      "word": "muffin",
+      "problem": "English loanword; in Mexico this is usually 'mantecada' (or 'panqué'). A child reader will not decode 'muffin' phonetically."
+    },
+    {
+      "category": "hobby",
+      "picture": "activities/biking",
+      "word": "ciclismo",
+      "problem": "Adult sport word; a 5-year-old says 'andar en bici' (the shipped 'can' sentence uses that). Also the row mixes verbs (acampar, pescar, pintar, leer, cantar, patinar, esquiar, nadar) with nouns (ciclismo, ajedrez, fútbol, tenis, básquetbol); not wrong, but inconsistent."
+    },
+    {
+      "category": "pet/bird",
+      "picture": "pets/parrot, birds/parrot",
+      "word": "loro",
+      "problem": "Correct, but Mexican children more often say 'perico'. Low priority."
+    }
+  ],
+  "otherNotes": [
+    "Kept the shipped 'Sé …' frame for every 'can' sentence (first person, gender-neutral). Avoided reflexive forms with gendered adjectives (e.g. 'solo/sola') so no sentence depends on the child's gender.",
+    "Mexican lexicon on purpose: resbaladilla, papalote (matches shipped optionWords), tender la cama, casa de campaña, brincar, botar el balón (matches shipped 'patear un balón').",
+    "Headings over the 22-char target: 'Mi instrumento favorito' (23), 'Mi animal marino favorito' (25), 'Mi animal de granja favorito' (28). All break cleanly onto two lines (e.g. 'Mi animal de granja / favorito'); no shorter phrasing keeps 'favorito' without sounding unnatural.",
+    "Gender agreement: fruta/verdura/mascota/ave/ropa/figura take 'favorita' ('ave' is feminine despite 'el ave'); the rest take 'favorito'.",
+    "'Mi pasatiempo favorito' chosen over 'Mi hobby favorito'; 'pasatiempo' is the school register in SEP materials.",
+    "'Sé hacer un dibujo' (draw) is kept distinct from the shipped 'Sé pintar un dibujo' (paint), so both can sit on one page.",
+    "Longest 'can' sentences: 'Sé bajar por la resbaladilla' (28), 'Sé dormir en casa de campaña' (28); all ≤ 30.",
+    "Follow-up (US panel audit): tidy -> barrer el piso (broom); coat -> abotonar mi abrigo; swing -> columpiarme sin ayuda; draw -> colorear sin salirme (MX kinder phrasing for colouring inside the lines). bake kept: a whisk still fits helping make a cake (mixing the batter)."
+  ]
+}

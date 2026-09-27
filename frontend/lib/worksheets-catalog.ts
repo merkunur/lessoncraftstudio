@@ -333,6 +333,16 @@ export function arrangePage<T extends Landing>(
   const remaining = new Map<string, number>();
   for (const [k, b] of buckets) remaining.set(k, b.length);
 
+  // INFEASIBLE page (2026-09-27, operator standing rule "two of the same never on one row"):
+  // one key holds more than one item per row, so the cooldown below would spend the other keys
+  // first and then stack the big key at the end (measured: the All About Me type view ended in a
+  // row of four "I Can" cards; fact-families in a row of four "Grade 1"). Such a page is laid out
+  // ROW BY ROW instead: each row takes every key's fair share, ceil(m / rows), and never two of a
+  // key side by side where another key can sit between. A feasible page never gets here, so its
+  // order is unchanged.
+  if (Math.max(...[...remaining.values()]) > Math.ceil(items.length / d)) {
+    return arrangeRows(order, buckets, remaining, items.length, d);
+  }
   const out: T[] = [];
   let left = items.length;
   while (left > 0) {
@@ -362,6 +372,71 @@ export function arrangePage<T extends Landing>(
     out.push(buckets.get(pick)!.shift()!.row);
     remaining.set(pick, remaining.get(pick)! - 1);
     left--;
+  }
+  return out;
+}
+
+/**
+ * Row-by-row layout for an infeasible page (see arrangePage). Row r of R takes, for each key,
+ * first what it MUST (what the later rows cannot hold at the fair share ceil(m / R)), then fills
+ * by most-remaining under that share; inside the row the cards are interleaved so a key never
+ * sits beside itself while another key is left in the row. Deterministic: ties go to the key
+ * that appeared first on the page.
+ */
+function arrangeRows<T extends Landing>(
+  order: string[],
+  buckets: Map<string, { idx: number; row: T }[]>,
+  remaining: Map<string, number>,
+  length: number,
+  d: number,
+): T[] {
+  const rows = Math.ceil(length / d);
+  const share = new Map(order.map((k) => [k, Math.ceil((remaining.get(k) || 0) / rows)]));
+  const out: T[] = [];
+  for (let r = 0; r < rows; r++) {
+    const slots = Math.min(d, length - r * d);
+    const laterSlots = (rows - r - 1);
+    const take = new Map<string, number>();
+    let used = 0;
+    // what this row MUST take so the later rows can stay within the share
+    for (const k of order) {
+      const need = Math.max(0, (remaining.get(k) || 0) - share.get(k)! * laterSlots);
+      if (need > 0) { take.set(k, need); used += need; }
+    }
+    // then fill by most-remaining, within the share
+    while (used < slots) {
+      let best: string | null = null;
+      for (const k of order) {
+        const rem = (remaining.get(k) || 0) - (take.get(k) || 0);
+        if (rem <= 0 || (take.get(k) || 0) >= share.get(k)!) continue;
+        if (best === null || rem > (remaining.get(best)! - (take.get(best) || 0))) best = k;
+      }
+      if (best === null) {   // share exhausted everywhere (a partial last row): most remaining
+        for (const k of order) {
+          const rem = (remaining.get(k) || 0) - (take.get(k) || 0);
+          if (rem > 0 && (best === null || rem > (remaining.get(best)! - (take.get(best) || 0)))) best = k;
+        }
+      }
+      if (best === null) break;
+      take.set(best, (take.get(best) || 0) + 1);
+      used++;
+    }
+    // interleave: always place the key with most left in this row, never the one just placed if avoidable
+    const left = new Map(take);
+    let last: string | null = null;
+    for (let i = 0; i < used; i++) {
+      let pick: string | null = null;
+      for (const k of order) {
+        const n = left.get(k) || 0;
+        if (n <= 0 || k === last) continue;
+        if (pick === null || n > left.get(pick)!) pick = k;
+      }
+      if (pick === null) pick = last;
+      out.push(buckets.get(pick!)!.shift()!.row);
+      left.set(pick!, left.get(pick!)! - 1);
+      remaining.set(pick!, remaining.get(pick!)! - 1);
+      last = pick;
+    }
   }
   return out;
 }

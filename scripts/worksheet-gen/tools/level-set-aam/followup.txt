@@ -1,0 +1,9 @@
+Follow-up: revise 4 of your "I can" sentences, because the US English source panel audited the pictures and sheets after you wrote.
+The US panel's reasons are in C:\Users\rkgen\lessoncraftstudio\scripts\worksheet-gen\out\aam2\panel-en.json ("changes"):
+- tidy: the cue picture is a BROOM. The sentence must say what the picture shows: "I can sweep the floor".
+- coat: the same sheet already has "I can get dressed" and "I can put on my boots", and nearly every 5-year-old can put a coat on. The coat picture has big buttons: "I can button my coat" (or "do up my coat" in your language's natural phrasing).
+- swing: "swing high" is not a real yes/no. The skill is swinging without being pushed: "I can swing by myself".
+- draw: the same sheet has "I can paint a picture". The cue is a crayon: "I can color in the lines" (use your language's natural kindergarten phrasing for colouring inside the lines).
+- bake: the cue is now a WHISK (kitchen tools/whisk), not the adult chef. Keep your sentence only if it still fits a whisk.
+Same rules as before: your locale's shipped pattern, ≤ 30 characters (hard max 34), first person, a real yes/no, no digits, no `{`.
+Edit ONLY those keys in your panel JSON file, keep it valid JSON (check it parses with node), and reply with the new sentences, one per line.

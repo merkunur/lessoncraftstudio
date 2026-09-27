@@ -66,9 +66,15 @@ function makePatternType(cfg) {
         const slotStyle = `width:${slotPx}px;height:${slotPx}px`;
         const iconFit = (wanted) => Math.min(wanted, slotPx - 12);
 
+        // growing pattern levels (2026-09-27): it always showed 1,2,3 → ? at every
+        // level. Level 2 keeps exactly that (published level; snapshot-proven).
+        // Level 1 = 1,2 → ?; level 3 starts at 2 (2,3,4 → ?), so the count can no
+        // longer be read off the position.
+        const growStart = difficulty === 3 ? 2 : 1;
+        const growLen = difficulty === 1 ? 3 : 4;
         const render = (sym, slotIdx) => {
           if (attribute === 'count') {
-            const count = slotIdx + 1;
+            const count = growStart + slotIdx;
             const cpx = Math.min(px, Math.floor((slotPx - 14) / 2));
             const imgs = Array.from({ length: count }, () =>
               `<img class="ws-icon" src="${elements.A.src}" alt="" style="width:${cpx}px;height:${cpx}px">`).join('');
@@ -81,9 +87,9 @@ function makePatternType(cfg) {
 
         let seq, answerSym, blankIdx, seqLen, blankIdx2 = -1, answerSym2 = null;
         if (attribute === 'count') {
-          seqLen = 4;
+          seqLen = growLen;
           blankIdx = seqLen - 1;            // growing: always "what comes next"
-          answerSym = String(seqLen);       // count of the next group
+          answerSym = String(growStart + seqLen - 1);   // count of the next group
         } else {
           seq = Array.from({ length: unit.length * d.repeats }, (_, k) => unit[k % unit.length]);
           if (variant === 'missing2') {
@@ -106,7 +112,7 @@ function makePatternType(cfg) {
         const slots = [];
         for (let k = 0; k < seqLen; k++) {
           if (k === blankIdx) {
-            slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${attribute === 'count' ? k + 1 : answerSym}">?</span>`);
+            slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${attribute === 'count' ? growStart + k : answerSym}">?</span>`);
           } else if (k === blankIdx2) {
             slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${answerSym2}">?</span>`);
           } else {
@@ -117,11 +123,12 @@ function makePatternType(cfg) {
         // choice chips: correct + 2 distractors
         let choices;
         if (attribute === 'count') {
-          const counts = [seqLen, seqLen - 1, seqLen + 1];
+          const nextCount = growStart + seqLen - 1;
+          const counts = [nextCount, nextCount - 1, nextCount + 1];
           choices = rng.shuffle(counts).map((c) => ({
             html: `<span style="display:flex;flex-wrap:wrap;gap:2px;justify-content:center;max-width:88px">` +
               Array.from({ length: c }, () => `<img class="ws-icon" src="${elements.A.src}" alt="" style="width:22px;height:22px">`).join('') + `</span>`,
-            correct: c === seqLen,
+            correct: c === nextCount,
           }));
         } else if (variant === 'missing2') {
           // line-drawing task: one chip per unit symbol + a distractor; the
@@ -195,14 +202,16 @@ function makePatternType(cfg) {
           if (attr === 'count') {
             // growing pattern: visible groups must count 1,2,3,… and the blank
             // declares the next count
+            const start = parseInt(els[0], 10);
+            if (!(start >= 1)) fails.push(`row ${i + 1}: first group has no count`);
             els.forEach((e, k) => {
-              if (e !== null && parseInt(e, 10) !== k + 1) fails.push(`row ${i + 1}: slot ${k + 1} holds ${e}, expected ${k + 1}`);
+              if (e !== null && parseInt(e, 10) !== start + k) fails.push(`row ${i + 1}: slot ${k + 1} holds ${e}, expected ${start + k}`);
               if (e !== null) {
                 const imgs = slots[k].querySelectorAll('img').length;
-                if (imgs !== k + 1) fails.push(`row ${i + 1}: slot ${k + 1} shows ${imgs} icons != ${k + 1}`);
+                if (imgs !== start + k) fails.push(`row ${i + 1}: slot ${k + 1} shows ${imgs} icons != ${start + k}`);
               }
             });
-            if (parseInt(slots[blankIdx].dataset.lcsBlank, 10) !== blankIdx + 1) fails.push(`row ${i + 1}: blank declares wrong next count`);
+            if (parseInt(slots[blankIdx].dataset.lcsBlank, 10) !== start + blankIdx) fails.push(`row ${i + 1}: blank declares wrong next count`);
           } else {
             // derive each unit position from any visible slot at that residue
             const unit = [];

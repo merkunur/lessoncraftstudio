@@ -49,15 +49,26 @@ function makePositionType(cfg) {
           // icon art has transparent padding — sink the ON icon a few px into
           // the crate's top edge so it visually SITS on it
           const spots = { on: { x: 105, y: 22 }, under: { x: 105, y: 198 }, beside: { x: 0, y: 110 } };
-          const imgs = Object.entries(spots).map(([rel, p], k) =>
+          // level 1 (2026-09-27): only the asked position and its opposite are
+          // filled — two words in play instead of three. Levels 2-3 unchanged.
+          const PARTNER = { on: 'under', under: 'on', beside: 'on' };
+          const keep = difficulty === 1 ? new Set([relation, PARTNER[relation] || 'under']) : null;
+          const imgs = Object.entries(spots).filter(([rel]) => !keep || keep.has(rel)).map(([rel, p]) =>
+            [rel, p, Object.keys(spots).indexOf(rel)]).map(([rel, p, k]) =>
             `<img class="ws-icon" src="${fileUri(theme, ns[k].noun)}" alt="" data-lcs-rel="${rel}"` +
             `${rel === relation ? ' data-lcs-target="1"' : ''} ` +
             `style="position:absolute;left:${p.x}px;top:${p.y}px;width:64px;height:64px">`).join('');
+          // six cards (level 3) need three rows: shrink the 280×268 scene so it
+          // fits the page. Four-card levels keep the exact original markup.
+          const k = d.cards > 4 ? 0.78 : 1;
+          const scene = `<div style="position:relative;width:280px;height:268px" data-lcs-relation="${relation}">` +
+            `<div style="position:absolute;left:70px;top:74px">${CRATE(140, 120)}</div>` +
+            imgs + `</div>`;
           cards.push(
             `<div class="ws-card-stage" style="padding:0">` +
-            `<div style="position:relative;width:280px;height:268px" data-lcs-relation="${relation}">` +
-            `<div style="position:absolute;left:70px;top:74px">${CRATE(140, 120)}</div>` +
-            imgs + `</div></div>`
+            (k === 1 ? scene
+              : `<div style="width:${Math.round(280 * k)}px;height:${Math.round(268 * k)}px"><div style="transform:scale(${k});transform-origin:0 0">${scene}</div></div>`) +
+            `</div>`
           );
         }
         return {

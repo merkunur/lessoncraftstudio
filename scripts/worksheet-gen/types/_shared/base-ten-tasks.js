@@ -12,6 +12,24 @@
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const baseTenBlocks = require('../../primitives/base-ten.js');
+
+/* Per-level ranges for the modes that ignored the level (2026-09-27, Level
+   Set programme). LEVEL 2 IS THE OLD FIXED RANGE — every deck of these types
+   was published at level 2 and tools/snapshot-type-pages.js proves level 2
+   is byte-identical. add/sub stay NO-regrouping at every level (the skill of
+   these types); the levels change the size of the numbers.
+     count-tens: rods lo..hi (level 3 counts past 100, the G1 limit is 120)
+     add/sub:    first number's tens 1..t1Hi, ones 1..o1Hi; add keeps tens and
+                 ones sums within tSum/oSum; level 3 adds hundreds 1..hHi to
+                 the first number (3-digit ± 2-digit, still no regrouping)
+     regroup:    loose ones lo..hi, always one ten to bundle */
+const MODE_LEVELS = {
+  'count-tens': { 1: { lo: 1, hi: 5 }, 2: { lo: 2, hi: 9 }, 3: { lo: 10, hi: 12 } },
+  add:          { 1: { t1Hi: 3, o1Hi: 4, tSum: 4, oSum: 5, hHi: 0 }, 2: { t1Hi: 7, o1Hi: 8, tSum: 9, oSum: 9, hHi: 0 }, 3: { t1Hi: 7, o1Hi: 8, tSum: 9, oSum: 9, hHi: 3 } },
+  sub:          { 1: { t1Hi: 4, o1Hi: 5, hHi: 0 }, 2: { t1Hi: 7, o1Hi: 8, hHi: 0 }, 3: { t1Hi: 7, o1Hi: 8, hHi: 3 } },
+  // the instruction says "bundle A ten" (11 locales): every level keeps ONE bundle
+  regroup:      { 1: { lo: 11, hi: 13 }, 2: { lo: 13, hi: 19 }, 3: { lo: 16, hi: 19 } },
+};
 const { answerBox } = require('../../templates/components.js');
 
 const NUM = (v, size) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:${size || 30}px;color:#3A3530" data-lcs-num="${v}">${v}</span>`;
@@ -36,6 +54,8 @@ function makeBaseTenType(cfg) {
     build({ difficulty }, ctx) {
       const d = this.difficulty[difficulty];
       const rng = ctx.rng;
+      const lvTable = (cfg.levels || MODE_LEVELS)[mode];
+      const L = lvTable ? (lvTable[difficulty] || lvTable[2]) : null;
       const cards = [];
       const used = new Set();
       const draw = (h, t, o, unit) => baseTenBlocks({ h, t, o, unit: unit || d.unit }).svg;
@@ -72,30 +92,33 @@ function makeBaseTenType(cfg) {
           stage = `<div class="ws-card-stage" style="gap:18px;justify-content:space-between;padding:6px 12px" data-lcs-value="${v}">` +
             NUM(v, 38) + `<span class="ws-pattern-choices" style="${choicesStyle}">${boxes}</span></div>`;
         } else if (mode === 'count-tens') {
-          const t = rng.int(2, 9);
+          const t = rng.int(L.lo, L.hi);
           stage = `<div class="ws-card-stage" style="gap:22px;justify-content:space-between;padding:8px 14px" data-lcs-tens="${t}">` +
             draw(0, t, 0) +
             `<span style="display:inline-flex;align-items:center;gap:10px">` +
             answerBox({ w: 64, h: 54, answer: t }) + OP('×') + NUM(10) + OP('=') + answerBox({ w: 84, h: 54, answer: t * 10 }) + `</span></div>`;
         } else if (mode === 'add' || mode === 'sub') {
           // no-regrouping pairs
-          let t1 = rng.int(1, 7), o1 = rng.int(1, 8), t2, o2;
-          if (mode === 'add') { t2 = rng.int(1, 9 - t1); o2 = rng.int(1, 9 - o1); }
+          let t1 = rng.int(1, L.t1Hi), o1 = rng.int(1, L.o1Hi), t2, o2;
+          if (mode === 'add') { t2 = rng.int(1, L.tSum - t1); o2 = rng.int(1, L.oSum - o1); }
           else { t2 = rng.int(1, t1); o2 = rng.int(1, o1); }
-          const a = t1 * 10 + o1, b = t2 * 10 + o2;
+          // hundreds only on level 3 — drawn after the rest, so levels 1-2 keep their rng sequence
+          const h1 = L.hHi ? rng.int(1, L.hHi) : 0;
+          const a = h1 * 100 + t1 * 10 + o1, b = t2 * 10 + o2;
           const r = mode === 'add' ? a + b : a - b;
           stage = `<div class="ws-card-stage" style="gap:14px;justify-content:space-between;padding:6px 10px" data-lcs-a="${a}" data-lcs-b="${b}" data-lcs-r="${r}">` +
-            `<span data-lcs-part="a">${draw(0, t1, o1, 9)}</span>` + OP(mode === 'add' ? '+' : '−') +
+            `<span data-lcs-part="a">${draw(h1, t1, o1, h1 ? 7 : 9)}</span>` + OP(mode === 'add' ? '+' : '−') +
             `<span data-lcs-part="b">${draw(0, t2, o2, 9)}</span>` + OP('=') +
             answerBox({ w: 84, h: 56, answer: r }) + `</div>`;
         } else if (mode === 'regroup') {
-          const o = rng.int(13, 19);
+          const o = rng.int(L.lo, L.hi);
+          const bundles = Math.floor(o / 10);
           stage = `<div class="ws-card-stage" style="gap:18px;justify-content:space-between;padding:8px 14px" data-lcs-ones="${o}">` +
             draw(0, 0, o) +
             `<span style="display:inline-flex;align-items:center;gap:8px">` +
-            answerBox({ w: 54, h: 50, answer: 1 }) +
+            answerBox({ w: 54, h: 50, answer: bundles }) +
             `<span style="font-family:'Nunito';font-weight:800;font-size:15px;color:#8A8276">⬛×10</span>` +
-            OP('+') + answerBox({ w: 54, h: 50, answer: o - 10 }) + `</span></div>`;
+            OP('+') + answerBox({ w: 54, h: 50, answer: o - bundles * 10 }) + `</span></div>`;
         } else if (mode === 'expanded') {
           const { h, t, o, v } = pick();
           const correct = h ? `${h * 100} + ${t * 10} + ${o}` : `${t * 10} + ${o}`;
@@ -186,7 +209,7 @@ function makeBaseTenType(cfg) {
             const a = +st.dataset.lcsA, b = +st.dataset.lcsB, r = +st.dataset.lcsR;
             const ca = census(st.querySelector('[data-lcs-part="a"]'));
             const cb = census(st.querySelector('[data-lcs-part="b"]'));
-            if (ca.t * 10 + ca.o !== a) fails.push(`row ${i + 1}: A blocks != ${a}`);
+            if (ca.h * 100 + ca.t * 10 + ca.o !== a) fails.push(`row ${i + 1}: A blocks != ${a}`);
             if (cb.t * 10 + cb.o !== b) fails.push(`row ${i + 1}: B blocks != ${b}`);
             if (mode === 'add' ? a + b !== r : a - b !== r) fails.push(`row ${i + 1}: result wrong`);
             if (mode === 'add' && (ca.o + cb.o > 9 || ca.t + cb.t > 9)) fails.push(`row ${i + 1}: would regroup`);
@@ -196,7 +219,7 @@ function makeBaseTenType(cfg) {
             const c = census(card.querySelector('[data-lcs-prim="base-ten"]'));
             if (c.o !== o || o < 11 || o > 19) fails.push(`row ${i + 1}: ones ${c.o} (declared ${o})`);
             const boxes = [...card.querySelectorAll('[data-lcs-answer]')].map((b) => +b.dataset.lcsAnswer);
-            if (boxes[0] !== 1 || boxes[1] !== o - 10) fails.push(`row ${i + 1}: regroup boxes wrong`);
+            if (boxes[0] !== Math.floor(o / 10) || boxes[1] !== o % 10) fails.push(`row ${i + 1}: regroup boxes wrong`);
           } else if (mode === 'expanded') {
             const st = card.querySelector('[data-lcs-value]');
             const h = +st.dataset.lcsH, t = +st.dataset.lcsT, o = +st.dataset.lcsO;

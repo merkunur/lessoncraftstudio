@@ -112,8 +112,12 @@ function makeGraphType(cfg) {
         const step = fracLabels ? 0.5 : 1;
         const counts = {};
         const nvals = Math.round((hi - lo) / step) + 1;
-        const chosen = rng.sample(Array.from({ length: nvals }, (_, k) => lo + k * step), Math.min(4, nvals));
-        chosen.forEach((v) => { counts[v] = rng.int(1, 5); });
+        // levels (2026-09-27): the plot used 4 values with 1-5 marks at every
+        // level. Level 2 keeps exactly that (published level; snapshot-proven);
+        // level 1 = 3 values with 1-3 marks, level 3 = 5 values with 1-7 marks.
+        const LP = { 1: { vals: 3, cMax: 3 }, 2: { vals: 4, cMax: 5 }, 3: { vals: 5, cMax: 7 } }[difficulty] || { vals: 4, cMax: 5 };
+        const chosen = rng.sample(Array.from({ length: nvals }, (_, k) => lo + k * step), Math.min(LP.vals, nvals));
+        chosen.forEach((v) => { counts[v] = rng.int(1, LP.cMax); });
         const g = linePlot({ counts, min: lo, max: hi, step, width: 460, fracLabels });
         const qs = chosen.slice(0, 3).map((v) =>
           `<span style="display:inline-flex;align-items:center;gap:10px" data-lcs-qv="${v}" data-lcs-qn="${counts[v]}">` +
@@ -121,7 +125,7 @@ function makeGraphType(cfg) {
           `<span style="font-family:'Baloo 2';font-weight:700;font-size:22px;color:#146B5E">→</span>` +
           answerBox({ w: 56, h: 46, answer: counts[v] }) + `</span>`).join('');
         body = `<div style="flex:1 1 auto;display:flex;flex-direction:column;gap:26px;align-items:center;justify-content:center">` +
-          `<div class="ws-scene" style="padding:16px">${g.svg}</div>` +
+          `<div class="ws-scene" style="padding:16px" data-ws-content>${g.svg}</div>` +
           `<div style="display:flex;gap:30px">${qs}</div></div>`;
       } else if (mode === 'table-sort') {
         const two = nouns.slice(0, 2);

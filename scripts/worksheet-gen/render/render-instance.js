@@ -23,7 +23,7 @@ async function renderInstance(o) {
   // unit axis: {U}/{L}/{UNIT} resolve HERE (the sheet prints strings.title) —
   // the same object comes back for every type without the axis.
   const strings = resolveUnitTokens((o.strings) || (type.i18n && type.i18n[locale]) || type.i18n.en, type, unit, locale);
-  const built = await type.build({ theme, difficulty, locale, unit }, { rng });
+  const built = await type.build({ theme, difficulty, locale, unit }, { rng, variant: o.variant || 1 });
   const html = buildPage({
     title: strings.title,
     instruction: strings.instruction,

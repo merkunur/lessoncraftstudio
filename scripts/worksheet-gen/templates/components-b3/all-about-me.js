@@ -226,7 +226,7 @@ function headingSpan({ text, key, px = 18, lh = 24, extra = '', color = T.ink })
  *   or a 64 px SWATCH rounded rect (r 12, ink 1) over the label (Nunito 800 16,
  *   nowrap). Stamps data-lcs-opt="<key>" per tile; nothing marks a tile.
  */
-function aboutMeOptionTiles({ options, tile = 100, tileH = 104, pic = 64, gap = 7, labelPx = 16 }) {
+function aboutMeOptionTiles({ options, tile = 100, tileH = 104, pic = 64, gap = 7, labelPx = 16, center = false }) {
   const tiles = options.map((o) => {
     const art = o.color
       ? svgRoot({ width: pic, height: pic, label: '' }, el('rect', { x: 0.5, y: 0.5, width: pic - 1, height: pic - 1, rx: 12, fill: SWATCH[o.color], stroke: T.ink, 'stroke-width': 1 }), { 'aria-hidden': 'true', 'data-lcs-swatch': o.color })
@@ -235,7 +235,8 @@ function aboutMeOptionTiles({ options, tile = 100, tileH = 104, pic = 64, gap = 
       `width:${tile}px;height:${tileH}px;flex:0 0 ${tile}px;background:${T.white};border:2px solid ${T.creamDeep};border-radius:10px;min-width:0">` +
       art + `<span data-lcs-opt-label style="font-family:${F.body},sans-serif;font-weight:800;font-size:${labelPx}px;line-height:20px;color:${T.ink};white-space:nowrap;max-width:${tile - 4}px">${esc(o.label)}</span></span>`;
   });
-  return `<div data-lcs-options="${options.length}" style="display:flex;gap:${gap}px;align-items:center;min-width:0">${tiles.join('')}</div>`;
+  // center: a short row (the Level Set L1 4-picture row) sits in the middle of the lane, not flush left
+  return `<div data-lcs-options="${options.length}" style="display:flex;gap:${gap}px;align-items:center;min-width:0${center ? ';justify-content:center' : ''}">${tiles.join('')}</div>`;
 }
 
 /**
@@ -245,12 +246,12 @@ function aboutMeOptionTiles({ options, tile = 100, tileH = 104, pic = 64, gap = 
  *   FLEXES with its grid row (space-between), floor `minH`; the copy lane is
  *   EMPTY (no starter — the heading is the only category text).
  */
-function aboutMeFavouriteRow({ category, heading, options, glyphH = 40, laneW = 591, minH = 224, headingPx = 18, tile, tileH, pic, gap }) {
+function aboutMeFavouriteRow({ category, heading, options, glyphH = 40, laneW = 591, minH = 224, headingPx = 18, tile, tileH, pic, gap, center = false }) {
   const laneSvg = writingRow({ w: laneW, h: 64, glyphH, xHeight: true }).svg;
   return `<div class="ws-lane" data-lcs-favrow="${esc(category)}" style="${LANE_PAD};width:675px;height:100%;min-height:${minH}px;` +
     `display:flex;flex-direction:column;justify-content:space-between;min-width:0">` +
     headingSpan({ text: heading, key: 'fav-' + category, px: headingPx, extra: 'white-space:nowrap;overflow:hidden' }) +
-    aboutMeOptionTiles({ options, tile, tileH, pic, gap }) +
+    aboutMeOptionTiles({ options, tile, tileH, pic, gap, center }) +
     `<div style="display:flex;align-items:center;gap:8px;min-width:0">${copyArrow()}` +
     `<span data-lcs-copy-lane="${esc(category)}" style="display:inline-flex;flex:0 0 ${laneW}px;width:${laneW}px;height:64px">${laneSvg}</span></div></div>`;
 }
@@ -347,8 +348,8 @@ function aboutMeCanRow({ id, src, literal, tick = 56, pic = 80, textW = 146, lit
   return `<section class="ws-card" data-lcs-action="${esc(id)}" style="justify-content:center">` +
     `<div style="display:flex;align-items:center;gap:10px;min-width:0">` +
     blankNumeralBox({ w: tick, h: tick, answer: '', attrs: `data-lcs-tick="${esc(id)}"` }) +
-    `<img class="ws-icon" src="${src}" alt="" style="width:${pic}px;height:${pic}px;flex:0 0 ${pic}px" data-lcs-cue="${esc(id)}">` +
-    `<span data-lcs-can="${esc(id)}" style="font-family:${F.body},sans-serif;font-weight:800;font-size:${literalPx}px;line-height:22px;color:${T.ink};width:${textW}px;flex:0 0 ${textW}px;min-width:0">${esc(literal)}</span>` +
+    (src ? `<img class="ws-icon" src="${src}" alt="" style="width:${pic}px;height:${pic}px;flex:0 0 ${pic}px" data-lcs-cue="${esc(id)}">` : '') +
+    `<span data-lcs-can="${esc(id)}" style="font-family:${F.body},sans-serif;font-weight:800;font-size:${literalPx}px;line-height:${Math.max(22, literalPx + 4)}px;color:${T.ink};width:${textW}px;flex:0 0 ${textW}px;min-width:0">${esc(literal)}</span>` +
     `</div></section>`;
 }
 /** aboutMeCanGrid({ cards, minRow=132 })  a 2 x 4 `.ws-cardgrid` with rows minmax(minRow,1fr). */

@@ -48,6 +48,22 @@ const C3 = require('../../templates/components-b3.js');
 const { fileUri } = require('../../lib/b2-common.js');
 const resolve = require('../../image-cache/resolve.js');
 const { COLOR_WORDS } = require('../../data/color-words.js');
+const { textWidthEm } = require('../../primitives/bankword-width.js');
+
+/** Lines a Nunito-800 literal needs in a column (greedy word wrap on the MEASURED advances);
+ *  99 when one word alone is wider than the column. */
+function linesNeeded(s, px, w) {
+  const sp = textWidthEm(' ') * px;
+  let n = 1, cur = 0;
+  for (const word of String(s).split(/\s+/).filter(Boolean)) {
+    const ww = textWidthEm(word) * px;
+    if (ww > w) return 99;
+    if (cur === 0) cur = ww;
+    else if (cur + sp + ww <= w) cur += sp + ww;
+    else { n++; cur = ww; }
+  }
+  return n;
+}
 
 /*
  * PHASE 2 (2026-09-14) — the ADDITIVE `layout` knob (design §3; the faces are
@@ -80,7 +96,7 @@ const { COLOR_WORDS } = require('../../data/color-words.js');
  */
 
 const BANK = 'all-about-me';
-const BW_MARKER = /\b(BW|SW|BN|NB|ZW|SH|PB|MV|SV)$/i;
+const BW_MARKER = /\b(BW|SW|BN|NB|ZW|SH|PB|MV|SV)(\s\d+)?$/i;   // numbered B&W folders ("animals bw 2") too
 const FACE_LABEL_CAP = 96;     // px at Nunito 800 16 — the F1 tile label ceiling (design §3 F1; the gate measures it)
 const K_FLOOR = 56;         // tokens.density.K.minElement — an element the child marks or writes in
 const BODY_W = 675;
@@ -103,9 +119,11 @@ module.exports = {
   exerciseType: 'all-about-me',
   themeAxis: { applicable: false },
   difficulty: {
-    1: { favourites: null, sentenceLane: null, glyphH: 48, bannerH: 96, laneW: 440, portrait: 330, portraitStretch: true, ageH: 96, box: 72, familyMin: 222, favW: 0, favH: 0, favMin: 0, labelPx: 20, headingPx: 18, rows: '96px minmax(330px,1fr)' },
+    // Level Set 2026-09-27: the instruction promises "your THREE favorite things" (fixed text x 11),
+    // so every level keeps three windows. L1 = bigger writing (glyph 48, box 72); L3 = + the school lane.
+    1: { favourites: ['animal', 'food', 'color'], sentenceLane: null, glyphH: 48, bannerH: 96, laneW: 440, portrait: 300, portraitStretch: false, ageH: 96, box: 72, familyMin: 192, favW: 217, favH: 220, favMin: 220, labelPx: 20, headingPx: 18, rows: '96px 300px minmax(220px,1fr)' },
     2: { favourites: ['animal', 'food', 'color'], sentenceLane: null, glyphH: 40, bannerH: 84, laneW: 440, portrait: 300, portraitStretch: false, ageH: 84, box: 64, familyMin: 204, favW: 217, favH: 220, favMin: 220, labelPx: 20, headingPx: 18, rows: '84px 300px minmax(220px,1fr)' },
-    3: { favourites: ['animal', 'food', 'color', 'toy'], sentenceLane: 'school', sentenceLaneW: 400, glyphH: 40, bannerH: 84, laneW: 440, portrait: 288, portraitStretch: false, ageH: 84, box: 64, familyMin: 192, favW: 160, favH: 220, favMin: 196, labelPx: 20, headingPx: 18, rows: '84px 288px minmax(196px,1fr) 84px' },
+    3: { favourites: ['animal', 'food', 'color'], sentenceLane: 'school', sentenceLaneW: 400, glyphH: 40, bannerH: 84, laneW: 440, portrait: 288, portraitStretch: false, ageH: 84, box: 64, familyMin: 192, favW: 217, favH: 220, favMin: 196, labelPx: 20, headingPx: 18, rows: '84px 288px minmax(196px,1fr) 84px' },
   },
   i18n: {
     en: {
@@ -148,8 +166,12 @@ module.exports = {
     if (glue && !/^-/.test(post)) throw new Error(`K-323: ${loc} age.glue is true but age.post "${post}" does not start with "-"`);
     if (!glue && age.glue !== false) throw new Error(`K-323: ${loc} age.glue must be true or false`);
 
-    const favourites = d.favourites
-      ? d.favourites.map((key) => ({ key, heading: literal(L, 'favHeading.' + key, loc), w: d.favW, h: d.favH, minH: d.favMin, headingPx: d.headingPx }))
+    // copies (Level Set 2026-09-27): the four possible trios of animal/food/colour/toy, by copy
+    // number; copy 1 is the published animal/food/colour, so it stays byte-identical
+    const TRIOS = [['animal', 'food', 'color'], ['animal', 'food', 'toy'], ['animal', 'color', 'toy'], ['food', 'color', 'toy']];
+    const favKeys = d.favourites && d.favourites.length === 3 ? TRIOS[((((ctx && ctx.variant) || 1) - 1) % TRIOS.length)] : d.favourites;
+    const favourites = favKeys
+      ? favKeys.map((key) => ({ key, heading: literal(L, 'favHeading.' + key, loc), w: d.favW, h: d.favH, minH: d.favMin, headingPx: d.headingPx }))
       : null;
     const sentence = d.sentenceLane
       ? { key: d.sentenceLane, label: literal(L, d.sentenceLane, loc), laneW: d.sentenceLaneW || 400, glyphH: d.glyphH }
@@ -165,7 +187,7 @@ module.exports = {
       sentence,
       stamps: `data-lcs-locale="${loc}" data-lcs-label-px="${d.labelPx}" data-lcs-heading-px="${d.headingPx}" data-lcs-glyph-h="${d.glyphH}" data-lcs-banner-cap="${BANNER_LABEL_CAP}"`,
     });
-    return { bodyHtml, meta: { favourites: d.favourites || [], sentence: d.sentenceLane || null, portrait: d.portrait, box: d.box, glyphH: d.glyphH } };
+    return { bodyHtml, meta: { favourites: favKeys || [], sentence: d.sentenceLane || null, portrait: d.portrait, box: d.box, glyphH: d.glyphH } };
   },
 
   /* ------------------------------------------------------------ Phase 2 faces */
@@ -208,7 +230,18 @@ module.exports = {
     const words = bank.optionWords || {};
     const usedKeys = new Set();
     const rows = [];
-    for (const cat of d.categories) {
+    // LINE ART (Level Set 2026-09-27): when the level sets `bwCopies`, every EVEN copy draws each
+    // picture from its black-and-white sibling in the library (same noun, same vocab key) — the
+    // child can colour the favourite. The colour row needs colour, so it becomes the toy row.
+    const bw = !!d.bwCopies && ((ctx.variant || 1) % 2 === 0);
+    const bwSibling = (theme, noun, key) => {
+      const base = String(theme).toLowerCase();
+      const cands = Object.entries(m.themes).filter(([t, e]) => e.bw && e.nouns[noun] && e.nouns[noun].vocabKey === key)
+        .sort(([a, ea], [b, eb]) => (String(ea.baseTheme).toLowerCase() === base ? 0 : 1) - (String(eb.baseTheme).toLowerCase() === base ? 0 : 1) || a.localeCompare(b));
+      return cands.length ? cands[0][0] : null;
+    };
+    const categories = bw ? d.categories.map((c) => (c === 'color' ? 'toy' : c)).filter((c, i, a) => a.indexOf(c) === i) : d.categories;
+    for (const cat of categories) {
       const c = (P.categories || []).find((x) => x.id === cat);
       if (!c) throw new Error(`K-323 favourites: no picture category "${cat}" in the seed`);
       const heading = literal(L, 'favHeading.' + cat, loc);
@@ -229,6 +262,12 @@ module.exports = {
         if (typeof w !== 'string' || !w.trim()) continue;      // unlabelled in this locale: the option drops (never a vocab fallback)
         if (w.includes('{') || /\d/.test(w)) throw new Error(`K-323 favourites: ${loc} optionWords.${key} "${w}" is not a whole literal`);
         if (usedKeys.has(key)) continue;                        // a vocabKey shows once on the page
+        if (bw) {
+          const t = bwSibling(o.theme, o.noun, key);
+          if (!t) continue;                                     // no line-art sibling: the option drops on a line-art copy
+          live.push({ key, src: fileUri(t, o.noun), label: w });
+          continue;
+        }
         live.push({ key, src: fileUri(o.theme, o.noun), label: w });
       }
       if (live.length < perRow) continue;                       // the category drops (design §3 F1 refusal)
@@ -237,9 +276,9 @@ module.exports = {
       rows.push({ cat, heading, options: chosen });
     }
     if (rows.length < 2) throw new Error(`K-323 favourites: ${loc} keeps ${rows.length} category with >= ${perRow} labelled options (< 2: refuse)`);
-    const inner = rows.map((r) => C3.aboutMeFavouriteRow({ category: r.cat, heading: r.heading, options: r.options, glyphH: d.glyphH, laneW: copyW, minH: d.favRowMin, headingPx: d.headingPx, tile, tileH, pic, gap })).join('');
+    const inner = rows.map((r) => C3.aboutMeFavouriteRow({ category: r.cat, heading: r.heading, options: r.options, glyphH: d.glyphH, laneW: copyW, minH: d.favRowMin, headingPx: d.headingPx, tile, tileH, pic, gap, center: perRow < 6 })).join('');
     const bodyHtml = this._root(loc, 'favourites',
-      `data-lcs-rows="${rows.length}" data-lcs-per="${perRow}" data-lcs-pic="${pic}" data-lcs-tile="${tile}" data-lcs-label-cap="${FACE_LABEL_CAP}" data-lcs-heading-px="${d.headingPx}" data-lcs-glyph-h="${d.glyphH}"`,
+      `${bw ? 'data-lcs-art="bw" ' : ''}data-lcs-rows="${rows.length}" data-lcs-per="${perRow}" data-lcs-pic="${pic}" data-lcs-tile="${tile}" data-lcs-label-cap="${FACE_LABEL_CAP}" data-lcs-heading-px="${d.headingPx}" data-lcs-glyph-h="${d.glyphH}"`,
       `display:grid;grid-template-rows:repeat(${rows.length},minmax(${d.favRowMin}px,1fr));gap:12px`, inner);
     return { bodyHtml, meta: { categories: rows.map((r) => r.cat), options: rows.map((r) => r.options.map((o) => o.key)) } };
   },
@@ -266,7 +305,12 @@ module.exports = {
   /** F3 — This Is Me: Label the Face — the one verifiable face (bank ids <=> lane ids). */
   _buildFaceLabels(bank, d, loc, ctx) {
     const L = bank.labels, rng = ctx.rng, P = this._pictures();
-    const parts = d.parts;
+    // Level Set 2026-09-27: a level may list VERIFIED part sets; the copy number picks one, so
+    // copies are guaranteed to differ (copy 1 of level 2 = the published set). Only sets whose
+    // pointers clear every feature are listed — tools/probe-face-sets.js rendered every combination
+    // through verify() (all seven at once never clears: the eye's pointer crosses the mirrored
+    // eyebrow). A level with `parts` alone prints exactly those.
+    const parts = Array.isArray(d.partSets) ? d.partSets[(((ctx.variant || 1) - 1) % d.partSets.length)] : d.parts;
     if (!Array.isArray(parts) || parts.length < 3 || parts.length > 7) throw new Error('K-323 face: parts must list 3..7 anchor ids');
     if (new Set(parts).size !== parts.length) throw new Error('K-323 face: a part repeats');
     if (d.icon < 200) throw new Error(`K-323 face: icon ${d.icon} < 200`);
@@ -309,7 +353,8 @@ module.exports = {
     const L = bank.labels, rng = ctx.rng, P = this._pictures();
     if (!(d.cards >= 6 && d.cards <= 8 && d.cards % 2 === 0)) throw new Error(`K-323 ican: cards ${d.cards} outside {6, 8}`);
     if (d.tick < K_FLOOR || d.pic < K_FLOOR) throw new Error(`K-323 ican: tick ${d.tick} / pic ${d.pic} under the K floor ${K_FLOOR}`);
-    if (d.tick + 10 + d.pic + 10 + d.textW > 302) throw new Error(`K-323 ican: row ${d.tick + 20 + d.pic + d.textW} > the card inner 302`);
+    const cues = d.cues !== false;   // Level Set 2026-09-27: L3 reads the sentence without a picture cue
+    if (d.tick + 10 + (cues ? d.pic + 10 : 0) + d.textW > 302) throw new Error(`K-323 ican: row ${d.tick + 10 + (cues ? d.pic + 10 : 0) + d.textW} > the card inner 302`);
     if (!(d.rowMin >= 28 + Math.max(d.tick, d.pic))) throw new Error(`K-323 ican: row floor ${d.rowMin} cannot hold the picture`);
     if (!(d.laneH >= 20 + 24 + 6 + 64)) throw new Error(`K-323 ican: lane ${d.laneH} cannot hold the literal + a 64 px ruling row`);
     if ((bank.refuse || []).includes('ican')) throw new Error(`K-323 ican: ${loc} refuses the face (bank.refuse)`);
@@ -320,14 +365,18 @@ module.exports = {
       if (typeof s !== 'string' || !s.trim()) continue;         // no literal for this action in this locale → the action drops
       if (s.includes('{') || /\d/.test(s)) throw new Error(`K-323 ican: ${loc} can.${a.id} "${s}" is not a whole literal`);
       if ([...s].length > 34) throw new Error(`K-323 ican: ${loc} can.${a.id} "${s}" > 34 chars`);
+      // Level Set 2026-09-27: a sentence that needs 3+ lines in THIS level's column is left out of
+      // this page (verify refuses it; never shrink the font). Measured, not guessed: de "Ich kann
+      // Schlittschuh laufen" and pt "Eu sei montar um quebra-cabeça" did not fit the 146 px column.
+      if (linesNeeded(s, d.literalPx, d.textW) > 2) continue;
       if (!a.cue || BW_MARKER.test(String(a.cue.theme))) throw new Error(`K-323 ican: action ${a.id} cue is in a B&W directory`);
-      live.push({ id: a.id, literal: s, src: fileUri(a.cue.theme, a.cue.noun) });
+      live.push({ id: a.id, literal: s, src: cues ? fileUri(a.cue.theme, a.cue.noun) : null });
     }
     if (live.length < d.cards) throw new Error(`K-323 ican: ${loc} authors ${live.length} can literals < ${d.cards} (refuse, never a vocab fallback)`);
     const chosen = rng.sample(live, d.cards);
     const cards = chosen.map((a) => C3.aboutMeCanRow({ id: a.id, src: a.src, literal: a.literal, tick: d.tick, pic: d.pic, textW: d.textW, literalPx: d.literalPx }));
     const inner = C3.aboutMeCanGrid({ cards, minRow: d.rowMin }) + C3.aboutMeWantLane({ label: literal(L, 'wantLearn', loc), glyphH: d.glyphH, h: d.laneH });
-    const bodyHtml = this._root(loc, 'ican', `data-lcs-cards="${d.cards}" data-lcs-tick="${d.tick}" data-lcs-pic="${d.pic}" data-lcs-text-w="${d.textW}" data-lcs-literal-px="${d.literalPx}"`,
+    const bodyHtml = this._root(loc, 'ican', `${cues ? '' : 'data-lcs-cues="0" '}data-lcs-cards="${d.cards}" data-lcs-tick="${d.tick}" data-lcs-pic="${d.pic}" data-lcs-text-w="${d.textW}" data-lcs-literal-px="${d.literalPx}"`,
       'display:flex;flex-direction:column;gap:12px', inner);
     return { bodyHtml, meta: { actions: chosen.map((a) => a.id) } };
   },
@@ -370,7 +419,7 @@ module.exports = {
       /* ================================================== Phase 2 faces (data-lcs-layout) */
       const layout = root.dataset.lcsLayout;
       if (layout) {
-        const BW = /\b(BW|SW|BN|NB|ZW|SH|PB|MV|SV)$/i;
+        const BW = /\b(BW|SW|BN|NB|ZW|SH|PB|MV|SV)(\s\d+)?$/i;   // numbered B&W folders ("animals bw 2") too
         const br = rect(body);
         const foot = document.querySelector('.ws-foot'), footTop = foot ? rect(foot).top : Infinity;
         const inBody = (el, what) => { const r = rect(el); if (r.left < br.left - 0.6 || r.right > br.right + 0.6 || r.top < br.top - 0.6 || r.bottom > footTop + 0.6) fails.push(`${what} leaves the body column`); };
@@ -380,7 +429,9 @@ module.exports = {
           if (im.getAttribute('alt')) fails.push(`${what}: alt text names the picture`);
           const parts = decodeURIComponent(im.src).split('/');
           const dir = parts.slice(-2, -1)[0] || '';
-          if (BW.test(dir)) fails.push(`${what}: picture from a B&W directory "${dir}"`);
+          const lineArt = root.dataset.lcsArt === 'bw';
+          if (!lineArt && BW.test(dir)) fails.push(`${what}: picture from a B&W directory "${dir}"`);
+          if (lineArt && !BW.test(dir)) fails.push(`${what}: a line-art page shows a colour picture from "${dir}"`);
           const r = rect(im);
           if (Math.min(r.width, r.height) < floor - 0.6) fails.push(`${what}: picture ${Math.round(Math.min(r.width, r.height))} px < ${floor}`);
           return { dir, noun: parts.pop().replace(/@3x\.webp$/, '') };
@@ -601,7 +652,8 @@ module.exports = {
           cards.forEach((c, i) => {
             const id = c.dataset.lcsAction, what = `card ${i + 1} (${id})`;
             emptyBox(c.querySelector('[data-lcs-tick]'), `${what} tick`, Math.max(K, tick));
-            pic(c.querySelector('img[data-lcs-cue]'), `${what} cue`, Math.max(K, picF));
+            if (root.dataset.lcsCues === '0') { if (c.querySelector('img')) fails.push(`${what}: a picture on a no-cue page`); }
+            else pic(c.querySelector('img[data-lcs-cue]'), `${what} cue`, Math.max(K, picF));
             const l = c.querySelector('[data-lcs-can]');
             if (!l || !l.textContent.trim()) { fails.push(`${what}: no literal`); return; }
             lits.push(l.textContent.trim().toLocaleLowerCase());

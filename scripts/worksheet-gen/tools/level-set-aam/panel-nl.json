@@ -1,0 +1,158 @@
+{
+  "favHeading": {
+    "fruit": "Mijn lievelingsfruit",
+    "vegetable": "Mijn lievelingsgroente",
+    "pet": "Mijn lievelingshuisdier",
+    "instrument": "Mijn lievelingsinstrument",
+    "hobby": "Mijn lievelingshobby",
+    "treat": "Mijn lievelingslekkers",
+    "bird": "Mijn lievelingsvogel",
+    "bug": "Mijn lievelingsbeestje",
+    "sea": "Mijn lievelingszeedier",
+    "vehicle": "Mijn lievelingsvoertuig",
+    "clothes": "Mijn lievelingskleren",
+    "breakfast": "Mijn lievelingsontbijt",
+    "shape": "Mijn lievelingsvorm",
+    "farm": "Mijn lievelingsdier op de boerderij"
+  },
+  "can": {
+    "bounce": "Ik kan een bal laten stuiteren",
+    "slide": "Ik kan van de glijbaan glijden",
+    "hike": "Ik kan een heel eind lopen",
+    "comb": "Ik kan mijn haar kammen",
+    "washhands": "Ik kan mijn handen wassen",
+    "dress": "Ik kan me zelf aankleden",
+    "coat": "Ik kan mijn jas dichtknopen",
+    "boots": "Ik kan mijn laarzen aantrekken",
+    "bed": "Ik kan mijn bed opmaken",
+    "tidy": "Ik kan de vloer vegen",
+    "cut": "Ik kan met een schaar knippen",
+    "glue": "Ik kan met lijm plakken",
+    "draw": "Ik kan netjes inkleuren",
+    "backpack": "Ik kan mijn rugzak inpakken",
+    "drum": "Ik kan op de trommel spelen",
+    "guitar": "Ik kan gitaar spelen",
+    "blocks": "Ik kan een toren bouwen",
+    "dice": "Ik kan een bordspel spelen",
+    "bake": "Ik kan helpen met taart bakken",
+    "photo": "Ik kan een foto maken",
+    "kite": "Ik kan vliegeren",
+    "fish": "Ik kan een vis vangen",
+    "tent": "Ik kan in een tent slapen",
+    "water": "Ik kan de planten water geven",
+    "puddle": "Ik kan in plassen springen",
+    "swing": "Ik kan zelf schommelen",
+    "umbrella": "Ik kan een paraplu opendoen"
+  },
+  "englishSourceNotes": [
+    "'My favorite bug': the row includes snail, spider and worm, which are not bugs/insects; 'critter' or 'little creature' would be accurate (nl uses 'beestje', which covers all).",
+    "'My favorite clothes' is plural but the child circles ONE item; 'My favorite thing to wear' fits better.",
+    "'My favorite treat' row includes pancake and muffin, which also appear under breakfast (overlap between copies 3 and 5).",
+    "'I can catch a fish' states an outcome, not a skill (and the cue is a fishing rod); 'I can go fishing' is the skill.",
+    "'I can play a board game' is cued by a single die, not a board; acceptable but loose.",
+    "'I can swing high' adds a boast; 'I can swing by myself' is the real K milestone.",
+    "'I can walk a long way' is fine, but the hiking cue suggests 'I can go for a long walk'.",
+    "'I can play the guitar' is rare at age 5; most children will leave it unticked (fine for a checklist, but consider 'I can play an instrument')."
+  ],
+  "optionWordFlags": [
+    {
+      "category": "vegetable",
+      "picture": "vegetables/bell_pepper",
+      "word": null,
+      "problem": "missing word; nl = 'paprika'"
+    },
+    {
+      "category": "pet",
+      "picture": "pets/guinea_pig",
+      "word": null,
+      "problem": "missing word; nl = 'cavia'"
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/ice_cream",
+      "word": null,
+      "problem": "missing word; nl = 'ijsje'"
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/chocolate_bar",
+      "word": null,
+      "problem": "missing word; nl = 'reep chocola'"
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/candy_cane",
+      "word": null,
+      "problem": "missing word; nl = 'zuurstok'"
+    },
+    {
+      "category": "sea",
+      "picture": "ocean life/sea_turtle",
+      "word": null,
+      "problem": "missing word; nl = 'zeeschildpad'"
+    },
+    {
+      "category": "sea",
+      "picture": "ocean life/sea_horse",
+      "word": null,
+      "problem": "missing word; nl = 'zeepaardje'"
+    },
+    {
+      "category": "vehicle",
+      "picture": "vehicles/fire_truck",
+      "word": null,
+      "problem": "missing word; nl = 'brandweerauto'"
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/boiled_egg",
+      "word": null,
+      "problem": "missing word; nl = 'gekookt ei' (or 'eitje')"
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/yoghurt",
+      "word": null,
+      "problem": "missing word; nl = 'yoghurt'"
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/fried_egg",
+      "word": null,
+      "problem": "missing word; nl = 'gebakken ei'"
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/toast",
+      "word": "toast",
+      "problem": "picture is a plain untoasted slice of bread; a Dutch child calls it 'boterham' (or 'brood'); 'toast' in nl means crispbread/rusk-like toast"
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/cereal",
+      "word": "ontbijtgranen",
+      "problem": "correct but a supermarket-label word, long (13 letters) for a K copy line; children say 'cornflakes' or 'muesli'"
+    },
+    {
+      "category": "hobby",
+      "picture": "activities/soccer",
+      "word": "voetbal",
+      "problem": "noun among verb labels (fietsen, zwemmen, schilderen); 'voetballen' would be consistent. Same for 'basketbal' (basketballen) and 'tennis' (tennissen) — acceptable as nouns but the row is mixed"
+    },
+    {
+      "category": "pet",
+      "picture": "pets/frog",
+      "word": "kikker",
+      "problem": "word correct, but a frog is an unusual pet for a Dutch child"
+    }
+  ],
+  "otherNotes": [
+    "Heading lengths: 'Mijn lievelingshuisdier' and 'Mijn lievelingsvoertuig' are 23 chars; 'Mijn lievelingsinstrument' is 25 and is one unbreakable 20-letter word on line 2 — check it fits the narrow box. If not, use 'Mijn liefste instrument' (23).",
+    "farm: 'Mijn lievelingsboerderijdier' (28, one 23-letter word) cannot wrap in a narrow box, so I used 'Mijn lievelingsdier op de boerderij', which breaks cleanly into two lines ('Mijn lievelingsdier' / 'op de boerderij'). It reuses the shipped animal heading as its first line, which reads naturally.",
+    "treat: 'lekkers' covers cake, pancake and sweets; 'snoep' would be wrong for cake/pancake/waffle.",
+    "dress: 'me zelf aankleden' (by myself) is the natural kleuter phrasing; 'mezelf aankleden' is also correct but stiffer.",
+    "kite: 'vliegeren' is the everyday Dutch verb, shorter and more natural than 'een vlieger oplaten'.",
+    "drum: uses 'trommel' to match the option word printed in the instrument row.",
+    "All 'can' sentences follow the shipped 'Ik kan …' pattern, max 30 characters, no digits."
+  ]
+}

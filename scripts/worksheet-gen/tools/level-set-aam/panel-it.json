@@ -1,0 +1,127 @@
+{
+  "favHeading": {
+    "fruit": "Il mio frutto preferito",
+    "vegetable": "La mia verdura preferita",
+    "pet": "Il mio animaletto preferito",
+    "instrument": "Il mio strumento preferito",
+    "hobby": "Il mio hobby preferito",
+    "treat": "Il mio dolce preferito",
+    "bird": "Il mio uccello preferito",
+    "bug": "La mia bestiolina preferita",
+    "sea": "Il mio animale marino preferito",
+    "vehicle": "Il mio veicolo preferito",
+    "clothes": "Il mio indumento preferito",
+    "breakfast": "La mia colazione preferita",
+    "shape": "La mia forma preferita",
+    "farm": "Animale della fattoria preferito"
+  },
+  "can": {
+    "bounce": "So far rimbalzare la palla",
+    "slide": "So scendere dallo scivolo",
+    "hike": "So fare una lunga passeggiata",
+    "comb": "So pettinarmi i capelli",
+    "washhands": "So lavarmi le mani",
+    "dress": "So vestirmi",
+    "coat": "So abbottonarmi il cappotto",
+    "boots": "So mettermi gli stivali",
+    "bed": "So rifare il letto",
+    "tidy": "So spazzare il pavimento",
+    "cut": "So tagliare con le forbici",
+    "glue": "So usare la colla",
+    "draw": "So colorare dentro i bordi",
+    "backpack": "So preparare lo zaino",
+    "drum": "So suonare il tamburo",
+    "guitar": "So suonare la chitarra",
+    "blocks": "So costruire una torre",
+    "dice": "So fare un gioco da tavolo",
+    "bake": "So aiutare a fare una torta",
+    "photo": "So fare una foto",
+    "kite": "So far volare un aquilone",
+    "fish": "So pescare un pesce",
+    "tent": "So dormire in tenda",
+    "water": "So innaffiare le piante",
+    "puddle": "So saltare nelle pozzanghere",
+    "swing": "So darmi la spinta in altalena",
+    "umbrella": "So aprire l'ombrello"
+  },
+  "englishSourceNotes": [
+    "'My favorite clothes' is plural while the child circles ONE picture; 'My favorite piece of clothing' / 'thing to wear' matches the task.",
+    "'My favorite bug': snail, spider and worm are not insects; fine as US kid-speak, but the category name 'insects and bugs' shows the mix. Italian uses 'bestiolina' (little critter) to stay truthful.",
+    "'I can walk a long way' does not match the hiking cue (backpack + poles); 'I can go on a hike' / 'a long walk' is closer.",
+    "'I can swing high' — 'high' adds a daring/safety nuance teachers may not want to reward; plain 'I can swing on a swing' is safer. Italian drops 'high'.",
+    "'I can help tidy up' is cued by a broom; 'I can help sweep' matches the picture more exactly.",
+    "'I can help bake a cake' is cued by activities/baking, which shows a child with pizza/pastry on a board, not a cake.",
+    "'I can catch a fish' is cued by a bare fishing rod; fine, but 'I can go fishing' fits the picture without promising a catch."
+  ],
+  "optionWordFlags": [
+    {
+      "category": "farm",
+      "picture": "farm animals/chicken",
+      "word": "pollo",
+      "problem": "The picture is a live hen; in Italian 'pollo' is what you eat. A child calls the animal 'gallina'."
+    },
+    {
+      "category": "vehicle",
+      "picture": "vehicles/car",
+      "word": "automobile",
+      "problem": "Correct but formal; a 5-year-old says and reads 'macchina'. Also long to copy."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/toast",
+      "word": "toast",
+      "problem": "The picture is a plain slice of bread; in Italy 'toast' means a grilled ham-and-cheese sandwich. 'pane' / 'fetta di pane' matches the picture."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/bagel",
+      "word": "bagel",
+      "problem": "Picture looks like a sprinkled doughnut, and 'bagel' is unfamiliar to most Italian children."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/sausage",
+      "word": "salsiccia",
+      "problem": "Not an Italian breakfast food; odd choice for 'la mia colazione preferita' (cultural, not linguistic)."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/porridge",
+      "word": "porridge",
+      "problem": "English loan, little known to Italian 5-year-olds; the picture could also read as 'riso' or 'yogurt con cereali'."
+    },
+    {
+      "category": "hobby",
+      "picture": "activities/*",
+      "word": "ciclismo / pattinaggio / nuoto / calcio vs dipingere / leggere / cantare / sciare",
+      "problem": "Row mixes nouns and infinitives; ideally all infinitives (andare in bici, pattinare, nuotare...) or all nouns. 'ciclismo' is adult/sport register; a child says 'bici'."
+    },
+    {
+      "category": "hobby",
+      "picture": "activities/fishing",
+      "word": "pesca",
+      "problem": "Homograph of 'pesca' (peach); the picture (a rod) disambiguates, but a beginning reader may read the fruit."
+    },
+    {
+      "category": "hobby",
+      "picture": "activities/camping",
+      "word": "campeggio",
+      "problem": "Picture is only a tent; acceptable, but 'tenda' is what the child sees."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/cupcake",
+      "word": "cupcake",
+      "problem": "English loans (cupcake, waffle, muffin, pancake) are used in Italy but hard to decode with Italian phonics (cu-p-ca-ke). Not wrong, just hard to copy/read."
+    }
+  ],
+  "otherNotes": [
+    "Several headings exceed the 22-char target because the shipped pattern itself does ('Il mio animale preferito' = 24). Longest: 'Il mio animale marino preferito' (31) and 'Animale della fattoria preferito' (32); both break cleanly into two lines.",
+    "farm heading drops 'Il mio' deliberately: 'Il mio animale della fattoria preferito' is 39 chars and would need three lines.",
+    "bird: 'uccello' is the standard school word but has a vulgar slang sense adults may notice; it is used in every Italian primary textbook, so kept. Diminutive 'uccellino' would be wrong for eagle/ostrich.",
+    "pet: 'animaletto' chosen over 'animale domestico' (too long) and 'cucciolo' (means puppy/young animal). bug uses 'bestiolina' so the two rows do not share a word.",
+    "clothes: 'vestito' avoided because it is also the option word for the dress picture; 'indumento' is the school/science word.",
+    "dress: 'So vestirmi' avoids the gendered 'da solo/da sola'. No 'I can' sentence carries gender agreement.",
+    "bounce: 'palleggiare' is the precise basketball verb but less transparent for a 5-year-old reader; 'far rimbalzare la palla' is literal and readable."
+  ]
+}

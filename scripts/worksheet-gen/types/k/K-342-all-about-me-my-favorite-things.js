@@ -9,9 +9,10 @@ module.exports = {
   ...base,
   id: 'K-342',
   slug: 'all-about-me-my-favorite-things',
-  // L1: four pictures per row (fewer choices, fewer labels to read). No honest
-  // harder version fits the page (a fourth row runs off it). Even copies are
-  // line art (bwCopies); copy 1 — the published one — stays in colour.
-  difficulty: { 1: { ...D, perRow: 4, bwCopies: true }, 2: { ...D, bwCopies: true }, 3: { ...D, bwCopies: true } },
+  // Level Set 2026-09-27 (operator ruling: copies must ASK NEW THINGS): copy N >= 2 asks the
+  // picture seed's favourite set N (fruit/pet/instrument, hobby/treat/vehicle, …); copy 1 is the
+  // published animal/food/colour page. One level only — fewer pictures per row changed nothing
+  // a child does, so the other levels are not generated.
+  difficulty: { 1: { ...D, copySets: true }, 2: { ...D, copySets: true }, 3: { ...D, copySets: true } },
   i18n: { en: { title: "My Favorite Things: Circle and Write", instruction: "In each row, circle your favorite picture and copy its word onto the line." } },
 };

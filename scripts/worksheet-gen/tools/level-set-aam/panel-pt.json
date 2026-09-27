@@ -1,0 +1,190 @@
+{
+  "favHeading": {
+    "fruit": "Minha fruta favorita",
+    "vegetable": "Meu legume favorito",
+    "pet": "Meu pet favorito",
+    "instrument": "Meu instrumento favorito",
+    "hobby": "Meu passatempo favorito",
+    "treat": "Meu doce favorito",
+    "bird": "Minha ave favorita",
+    "bug": "Meu bichinho favorito",
+    "sea": "Meu favorito do mar",
+    "vehicle": "Meu veículo favorito",
+    "clothes": "Minha roupa favorita",
+    "breakfast": "Meu café da manhã favorito",
+    "shape": "Minha forma favorita",
+    "farm": "Meu favorito da fazenda"
+  },
+  "can": {
+    "bounce": "Eu sei quicar a bola",
+    "slide": "Eu sei descer no escorregador",
+    "hike": "Eu sei fazer uma trilha",
+    "comb": "Eu sei pentear o cabelo",
+    "washhands": "Eu sei lavar as mãos",
+    "dress": "Eu sei me vestir",
+    "coat": "Eu sei abotoar meu casaco",
+    "boots": "Eu sei calçar as botas",
+    "bed": "Eu sei arrumar a cama",
+    "tidy": "Eu sei varrer o chão",
+    "cut": "Eu sei recortar com tesoura",
+    "glue": "Eu sei usar a cola",
+    "draw": "Eu sei colorir sem sair da linha",
+    "backpack": "Eu sei arrumar minha mochila",
+    "drum": "Eu sei tocar tambor",
+    "guitar": "Eu sei tocar violão",
+    "blocks": "Eu sei montar uma torre",
+    "dice": "Eu sei jogar um jogo de tabuleiro",
+    "bake": "Eu sei ajudar a fazer bolo",
+    "photo": "Eu sei tirar uma foto",
+    "kite": "Eu sei soltar pipa",
+    "fish": "Eu sei pescar",
+    "tent": "Eu sei dormir numa barraca",
+    "water": "Eu sei regar as plantas",
+    "puddle": "Eu sei pular nas poças",
+    "swing": "Eu sei balançar sem ajuda",
+    "umbrella": "Eu sei abrir o guarda-chuva"
+  },
+  "englishSourceNotes": [
+    "'I can catch a fish' claims an outcome many 5-year-olds have never had; the cue is a fishing rod. 'I can fish' / 'I can go fishing' is honest and matches the picture. pt uses 'Eu sei pescar'.",
+    "'I can help tidy up' is cued by a BROOM, which reads as sweeping, not tidying. Either change the cue (e.g. a toy box) or the sentence ('I can help sweep').",
+    "'I can play a board game' is cued by a single DIE; a die alone does not say 'board game'. Weak cue.",
+    "'I can walk a long way' is cued by 'hiking' (a backpacker on a trail); 'I can go on a hike' matches the picture better.",
+    "'My favorite hobby' is abstract for 5-6-year-olds, and the row mixes sports (soccer, tennis) with activities (reading, singing). 'My favorite thing to do' is more child-level.",
+    "'My favorite breakfast' shows single foods (juice, sausage, toast), not whole breakfasts; 'My favorite breakfast food' is more accurate.",
+    "Duplicated pictures across categories: pancake and muffin appear in both treat and breakfast; parrot in both pet and bird; rabbit in both pet and farm. Fine if they never share a sheet, but check that each set's rows stay distinct.",
+    "'My favorite bug' includes spider, snail and worm, which are not insects; 'bug' covers them in English, but locales that use 'insect' will be wrong. pt avoids 'inseto' for this reason."
+  ],
+  "optionWordFlags": [
+    {
+      "category": "pet",
+      "picture": "pets/mouse",
+      "word": "rato",
+      "problem": "For a PET, 'rato' suggests a sewer rat to Brazilian children; 'ratinho' or 'camundongo' is the natural word."
+    },
+    {
+      "category": "pet",
+      "picture": "pets/goldfish",
+      "word": "peixe dourado",
+      "problem": "The usual Brazilian name is 'peixinho dourado'."
+    },
+    {
+      "category": "pet",
+      "picture": "pets/frog",
+      "word": "rã",
+      "problem": "Correct, but Brazilian children usually call this 'sapo'; 'rã' may be unfamiliar at 5."
+    },
+    {
+      "category": "pet",
+      "picture": "pets/guinea_pig",
+      "word": null,
+      "problem": "Missing name; should be 'porquinho-da-índia'."
+    },
+    {
+      "category": "vegetable",
+      "picture": "vegetables/bell_pepper",
+      "word": null,
+      "problem": "Missing name; should be 'pimentão'."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/ice_cream",
+      "word": null,
+      "problem": "Missing name; should be 'sorvete'."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/chocolate_bar",
+      "word": null,
+      "problem": "Missing name; should be 'chocolate' (or 'barra de chocolate')."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/candy_cane",
+      "word": null,
+      "problem": "Missing name; the candy cane is not a Brazilian sweet ('bengala de doce' is a calque). Better to leave it out of the pt pool."
+    },
+    {
+      "category": "treat",
+      "picture": "desserts and sweets/donut",
+      "word": "rosquinha",
+      "problem": "In Brazil 'rosquinha' often means a ring-shaped biscuit; the iced, sprinkled picture is usually called 'donut' (or 'sonho' for the filled kind)."
+    },
+    {
+      "category": "treat/breakfast",
+      "picture": "pancake",
+      "word": "panqueca",
+      "problem": "In Brazil a 'panqueca' is usually a savoury rolled dish for lunch; the stacked sweet pancake is less familiar. Not wrong, but children may not recognise it as a treat or breakfast."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/bagel",
+      "word": "bagel",
+      "problem": "Anglicism, and not a common Brazilian breakfast; many children will not know it."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/boiled_egg",
+      "word": null,
+      "problem": "Missing name; should be 'ovo cozido'."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/fried_egg",
+      "word": null,
+      "problem": "Missing name; should be 'ovo frito'."
+    },
+    {
+      "category": "breakfast",
+      "picture": "breakfast/yoghurt",
+      "word": null,
+      "problem": "Missing name; should be 'iogurte'."
+    },
+    {
+      "category": "sea",
+      "picture": "ocean life/sea_turtle",
+      "word": null,
+      "problem": "Missing name; should be 'tartaruga marinha'."
+    },
+    {
+      "category": "sea",
+      "picture": "ocean life/sea_horse",
+      "word": null,
+      "problem": "Missing name; should be 'cavalo-marinho'."
+    },
+    {
+      "category": "vehicle",
+      "picture": "vehicles/fire_truck",
+      "word": null,
+      "problem": "Missing name; should be 'caminhão de bombeiros'."
+    },
+    {
+      "category": "vehicle",
+      "picture": "vehicles/motorcycle",
+      "word": "motocicleta",
+      "problem": "Correct but formal; children say 'moto'."
+    },
+    {
+      "category": "hobby",
+      "picture": "activities/*",
+      "word": "ciclismo / patinação / natação / futebol vs acampar / pescar / pintar / ler / cantar / esquiar",
+      "problem": "The row mixes nouns and verbs. A child copying the word gets inconsistent forms; one form throughout would read better (e.g. all nouns: ciclismo, acampamento, pesca, pintura, leitura, canto…, or all verbs)."
+    },
+    {
+      "category": "hobby",
+      "picture": "activities/biking",
+      "word": "ciclismo",
+      "problem": "Sport term; a 5-year-old says 'andar de bicicleta' (too long for the row). Acceptable, but formal."
+    }
+  ],
+  "otherNotes": [
+    "Over the 22-character heading target (all fit in 2 lines): 'Meu instrumento favorito' (24), 'Meu passatempo favorito' (23), 'Meu café da manhã favorito' (26), 'Meu favorito da fazenda' (23). No shorter natural form keeps the shipped 'Meu/Minha … favorito/a' pattern.",
+    "sea and farm use 'Meu favorito do mar' / 'Meu favorito da fazenda' because 'Meu animal marinho favorito' (27) and 'Meu animal da fazenda favorito' (30) are too long; the pictures make the category clear.",
+    "pet = 'Meu pet favorito' and bug = 'Meu bichinho favorito' are deliberately different words: using 'bichinho' for both would give two identical-looking headings, and 'inseto' is wrong for spider, snail and worm. If 'pet' is judged too anglicised for the school register, the alternative is 'Meu animal de estimação' (23), which drops 'favorito'.",
+    "vegetable = 'legume' although lettuce, broccoli and cauliflower are strictly 'verduras'; in everyday speech with children 'legume' is the umbrella word. 'Minha verdura favorita' would be wrong for carrot, corn and potato.",
+    "bird uses 'ave' (not 'pássaro') because penguin, ostrich and pelican are not called 'pássaro' in Brazil.",
+    "Only 'dice' exceeds 30 characters: 'Eu sei jogar um jogo de tabuleiro' (33, under the hard max 34).",
+    "All 'can' sentences keep the shipped 'Eu sei …' frame, avoid gendered adjectives (no 'sozinho/sozinha'), and use Brazilian school vocabulary: recortar, escorregador, barraca, soltar pipa, violão (the guitar picture is acoustic).",
+    "The shipped option word for kite is 'pipa', so 'Eu sei soltar pipa' is consistent with it.",
+    "Follow-up 2026-09-27: tidy, coat, swing, draw revised per the US panel. bake kept (\"Eu sei ajudar a fazer bolo\") because a whisk still reads as helping make a cake. swing uses \"sem ajuda\" instead of \"sozinho/sozinha\" to stay gender-neutral. draw uses the Brazilian kindergarten phrase \"sem sair da linha\" with \"colorir\" (not \"pintar\", which the paint sentence already uses); 32 characters, under the hard max."
+  ]
+}

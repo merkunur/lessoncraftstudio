@@ -1,0 +1,56 @@
+{
+  "id": "wave-aam2-sv",
+  "_note": "Level Set 2026-09-27, round 2: All About Me copies that ASK NEW THINGS (favourite sets per copy; I Can by area of life). Visible to teachers, never indexed. Replaces the near-duplicate round-1 copies (same slugs updated in place).",
+  "indexable": false,
+  "seedEpoch": 1,
+  "locales": [
+    "sv"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    2,
+    3
+  ],
+  "types": [
+    "K-323",
+    "K-342",
+    "K-345"
+  ],
+  "levels": {
+    "K-323": {
+      "2": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "K-342": {
+      "2": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "K-345": {
+      "2": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "3": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  }
+}

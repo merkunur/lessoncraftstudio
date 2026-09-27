@@ -9,8 +9,10 @@ module.exports = {
   ...base,
   id: 'K-345',
   slug: 'all-about-me-i-can',
-  // L1: six sentences; L2: eight (published); L3: eight with NO picture cue — the
-  // child reads the sentence alone (the text column widens into the picture's room).
-  difficulty: { 1: { ...D, cards: 6 }, 2: D, 3: { ...D, cues: false, textW: 236, literalPx: 22 } },
+  // Level Set 2026-09-27: copies cover one AREA of the child's life each (moving, looking after
+  // myself, school, making & playing, outdoors — P.domains). L2 copy 1 is the published mixed page;
+  // copies 2..6 are the five areas with picture cues. L3 = the same areas with NO picture cue (the
+  // child reads the sentence alone), copies 1..5. L1 (six vs eight sentences) is not generated.
+  difficulty: { 1: { ...D, cards: 6 }, 2: { ...D, domainFrom: 2, domainCols: { pic: 64, textW: 162 } }, 3: { ...D, cues: false, textW: 236, literalPx: 22, domainFrom: 1 } },
   i18n: { en: { title: "I Can: Tick What You Can Do", instruction: "Read each sentence and tick the things you can do. Then write one thing you want to learn." } },
 };

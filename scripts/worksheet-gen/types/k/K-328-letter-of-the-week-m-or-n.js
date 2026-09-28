@@ -9,6 +9,15 @@ module.exports = {
   ...base,
   id: 'K-328',
   slug: 'letter-of-the-week-m-or-n',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 six pictures + a key picture for each letter · L2 published (eight bare chips); no L3 (TWO-ONLY)
+  difficulty: { 1: { ...D, pair: { ...D.pair, cards: 6, cols: 3, split: [3, 3], cardW: 212, legend: true, legendPx: 64 } }, 2: D, 3: D },
+  /** Level Set: a new copy's title names ITS pair (the native template with {U} and {PU}); the published page keeps its literal. */
+  copyStrings(strings, { locale, difficulty, variant }) {
+    if (difficulty === 2 && (variant || 1) === 1) return strings;
+    const x = (base.levelSetData() || {})[(locale || 'en').slice(0, 2)];
+    if (!x || !x.pairTitle) throw new Error('K-328: no pair title template for ' + locale);
+    if (!x.pairInstruction) throw new Error('K-328: no pair instruction template for ' + locale);
+    return { ...strings, title: x.pairTitle, instruction: x.pairInstruction };
+  },
   i18n: { en: { title: "M or N? Hear the Difference", instruction: "Say each picture. Circle the letter it begins with: m or n." } },
 };

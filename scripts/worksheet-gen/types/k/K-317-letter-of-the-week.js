@@ -59,6 +59,43 @@ const { alphabets } = require('../../data/literacy/letter-knowledge.json');
 const letterStrokes = require('../../data/tracing/letter-strokes.js');
 
 const BANK = 'letter-of-the-week';
+
+/* ---------------------------------------------------------------- Level Set (2026-09-28)
+ * The whole alphabet: data/b3/letter-of-the-week-levelset.json carries the native panels' NEW letter blocks
+ * (tools/level-set/import-lotw-panels.js) + the pair-page title template. New copies read the published block
+ * merged with them; the published pages (level 2, copy 1) never do. */
+let LS_CACHE;
+function levelSetData() {
+  if (LS_CACHE !== undefined) return LS_CACHE;
+  const f = require('path').join(__dirname, '..', '..', 'data', 'b3', 'letter-of-the-week-levelset.json');
+  LS_CACHE = require('fs').existsSync(f) ? JSON.parse(require('fs').readFileSync(f, 'utf8')) : null;
+  return LS_CACHE;
+}
+function mergedBank(loc) {
+  const b = loadBank(BANK, loc);
+  const x = (levelSetData() || {})[loc];
+  if (!x || !Array.isArray(x.letters)) return b;
+  const have = new Set(b.letters.map((l) => l.L));
+  // pubDrop: words in a PUBLISHED letter block that do not carry that letter's sound (native panels, Level Set
+  // 2026-09-28 — no: kirke/geit/hund…; da: rare words). New copies leave them out; the published page is untouched.
+  const drop = x.pubDrop || {};
+  const pub = b.letters.map((l) => (drop[l.L] ? { ...l, items: l.items.filter((i) => !drop[l.L].includes(i.word)) } : l));
+  return { ...b, own: OWN_LETTERS[loc] || '', letters: [...pub, ...x.letters.filter((l) => !have.has(l.L))] };
+}
+/**
+ * Letters that are letters of their OWN in a locale's alphabet (de Bär has no a; sv/fi båt/bär no a; es ñ ≠ n).
+ * Level Set 2026-09-28: the old fold (nfdBase) stripped every mark, so an ä page could take a wrong picture WITH ä and
+ * an a page counted Bär. New copies (mergedBank) fold with this list; the published bank carries none → old fold, byte-identical.
+ */
+const { OWN_LETTERS } = require('../../lib/b3-common.js');
+let _own = '';   // set per build from the bank (build() is synchronous)
+function fold(str) {
+  if (!_own) return nfdBase(str);
+  return [...String(str).normalize('NFC').toLowerCase()].map((c) => (_own.includes(c) ? c : c.normalize('NFD').replace(/[̀-ͯ]/g, ''))).join('');
+}
+/** hit iff the letter is the FINAL grapheme and occurs nowhere else / only strictly inside the word. */
+function finalOnly(g, L) { return g.length > 1 && g[g.length - 1] === L && g.indexOf(L) === g.length - 1; }
+function medialOnly(g, L) { return g.length > 2 && g[0] !== L && g[g.length - 1] !== L && g.includes(L); }
 const COLUMN = 660;   // the design column inside the 675 px body (page 703 − 2 × 14)
 const GAP = 12;       // hunt-grid gap
 const CARD_GAP = 14;  // letterCard ↔ lanes
@@ -76,6 +113,8 @@ function unitBlock(bank, u) {
 function isHit(item, L, level, hitPos) {
   const first = level === 'sound' ? item.graphemes[0] : [...item.word.toLocaleLowerCase()][0];
   if (hitPos === 'initial') return first === L;
+  if (hitPos === 'final') return finalOnly(item.graphemes, L);
+  if (hitPos === 'medial') return medialOnly(item.graphemes, L);
   const at = item.graphemes.indexOf(L);
   if (hitPos === 'noninitial') return at > 0;
   return at >= 0;   // 'any'
@@ -98,7 +137,7 @@ function pickHits(rng, block, cfg, level) {
 }
 function pickFoils(rng, block, cfg, hits) {
   const L = block.L;
-  const clean = block.foils.filter((f) => !nfdBase(f.word).includes(L));
+  const clean = block.foils.filter((f) => !fold(f.word).includes(L));
   const nFoils = cfg.n - cfg.hits;
   const policy = cfg.foilPolicy || 'any';
   const want = (arr, n, what) => {
@@ -106,13 +145,17 @@ function pickFoils(rng, block, cfg, hits) {
     return rng.sample(arr, n);
   };
   // folded initial: verify() folds too; an un-folded de capital never matched an avoid letter (de panel 2026-09-14)
+  if (policy === 'initial') {
+    const usedW = new Set(hits.map((x) => x.word));
+    return want(block.items.filter((i) => i.graphemes[0] === L && i.graphemes.indexOf(L, 1) < 0 && [...fold(i.word)].filter((c) => c === L).length === 1 && !usedW.has(i.word)), nFoils, 'letter-initial');
+  }
   if (policy === 'avoid') return want(clean.filter((f) => (block.avoid || []).includes([...f.word.toLocaleLowerCase()][0])), nFoils, `avoid-initial (${(block.avoid || []).join('/')})`);
   if (policy === 'pair-noninitial') {
-    const pairFoils = want(clean.filter((f) => [...f.word][0] === block.pair), 2, `pair-initial (${block.pair})`);
+    const pairFoils = want(clean.filter((f) => [...f.word.toLocaleLowerCase()][0] === block.pair), 2, `pair-initial (${block.pair})`);
     const usedWords = new Set([...hits, ...pairFoils].map((x) => x.word));
     const nonInit = block.items.filter((i) => i.graphemes.indexOf(L) > 0 && !usedWords.has(i.word));
     const carrier = want(nonInit, 1, 'non-initial carrier');
-    const rest = want(clean.filter((f) => !usedWords.has(f.word) && [...f.word][0] !== block.pair), nFoils - 3, 'other');
+    const rest = want(clean.filter((f) => !usedWords.has(f.word) && [...f.word.toLocaleLowerCase()][0] !== block.pair), nFoils - 3, 'other');
     return [...pairFoils, ...carrier, ...rest];
   }
   return want(clean, nFoils, '');
@@ -129,9 +172,9 @@ function unitHits(rng, ub, cfg, ucfg) {
 function unitFoils(rng, ub, cfg, ucfg) {
   const u = ub.u;
   const comps = [...u];
-  const clean = (ub.foils || []).filter((f) => !nfdBase(f.word).includes(u) && !(f.graphemes || []).includes(u));
+  const clean = (ub.foils || []).filter((f) => !fold(f.word).includes(u) && !(f.graphemes || []).includes(u));
   const policy = ucfg.foilPolicy || 'any';
-  const pool = policy === 'components' ? clean.filter((f) => comps.every((c) => nfdBase(f.word).includes(c))) : clean;
+  const pool = policy === 'components' ? clean.filter((f) => comps.every((c) => fold(f.word).includes(c))) : clean;
   const n = cfg.n - cfg.hits;
   if (pool.length < n) throw new Error(`K-317: unit ${u} has ${pool.length} ${policy} foils < ${n}`);
   return rng.sample(pool, n);
@@ -141,7 +184,7 @@ function unitFoils(rng, ub, cfg, ucfg) {
 function positionOf(item, L, mode) {
   if (mode === 'syllable') {
     const s = item.split || [];
-    const k = s.findIndex((syl) => nfdBase(syl).includes(L));
+    const k = s.findIndex((syl) => fold(syl).includes(L));
     if (k < 0 || s.length < 2) return -1;
     return k === 0 ? 0 : k === s.length - 1 ? 2 : 1;
   }
@@ -151,8 +194,8 @@ function positionOf(item, L, mode) {
   return at === 0 ? 0 : at === g.length - 1 ? 2 : 1;
 }
 function occursOnce(item, L, mode) {
-  if (mode === 'syllable') return (item.split || []).filter((syl) => nfdBase(syl).includes(L)).length === 1;
-  return item.graphemes.filter((g) => g === L).length === 1 && [...nfdBase(item.word)].filter((c) => c === L).length === 1;
+  if (mode === 'syllable') return (item.split || []).filter((syl) => fold(syl).includes(L)).length === 1;
+  return item.graphemes.filter((g) => g === L).length === 1 && [...fold(item.word)].filter((c) => c === L).length === 1;
 }
 function pickPositions(rng, block, cfg, mode) {
   const L = block.L;
@@ -169,7 +212,7 @@ function pickPositions(rng, block, cfg, mode) {
 
 /* ----------------------------------------- face 4: circle it in the words */
 function letterCount(item, L, chunkLayer) {
-  const inWord = [...nfdBase(item.word)].filter((c) => c === L).length;
+  const inWord = [...fold(item.word)].filter((c) => c === L).length;
   const inGraph = (item.graphemes || []).filter((g) => g === L).length;
   // de/nl/sv/no: every L must be its OWN grapheme (a c inside "sch" is not a sound)
   if (chunkLayer && inGraph !== inWord) return -1;
@@ -210,9 +253,9 @@ module.exports = {
   themeAxis: { applicable: false },
   unitAxis: {
     applicable: true,
-    units: (loc) => loadBank(BANK, loc).letters.map((l) => l.L),
+    units: (loc) => mergedBank(loc).letters.map((l) => l.L),
     exemplar: (loc) => loadBank(BANK, loc).exemplar,
-    tokens: (unit, loc) => { const b = letterBlock(loadBank(BANK, loc), unit); return { U: b.upper, L: b.L, UNIT: unit }; },
+    tokens: (unit, loc) => { const b = letterBlock(mergedBank(loc), unit); return { U: b.upper, L: b.L, UNIT: unit, P: b.pair || '', PU: b.pair ? b.pair.toLocaleUpperCase(loc) : '' }; },
   },
   difficulty: {
     1: { hunt: { n: 6, hits: 3, cols: 3, cardW: 212, cardH: 150, iconPx: 110, foilPolicy: 'any', hitPos: 'initial' }, trace: { glyphH: 56, laneH: 90, reps: 4 }, write: { glyphH: 44, laneH: 60 }, card: { w: 150, h: 150, glyphH: 64 } },
@@ -228,11 +271,17 @@ module.exports = {
 
   build({ theme, difficulty, locale, unit }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
-    return this._buildWith(loadBank(BANK, loc), { theme, difficulty, locale: loc, unit }, ctx);
+    // the published pages (core level, copy 1) read the published bank ONLY, byte-identical; a letter that bank
+    // does not carry is a new copy of the whole-alphabet expansion and reads the merged bank like every other copy
+    const pubBank = loadBank(BANK, loc);
+    const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1 && (!unit || pubBank.letters.some((l) => l.L === unit) || (pubBank.units || []).some((u) => u.u === unit));
+    return this._buildWith(published ? pubBank : mergedBank(loc), { theme, difficulty, locale: loc, unit }, ctx);
   },
+  levelSetData, mergedBank,
 
   /** The whole build over an INJECTED bank (the gate's poison seam); build() passes the real one. */
   _buildWith(bank, { difficulty, locale, unit }, ctx) {
+    _own = bank.own || '';
     const d = this.difficulty[difficulty];
     if (!d) throw new Error('K-317: no difficulty ' + difficulty);
     const rng = ctx.rng;
@@ -250,7 +299,7 @@ module.exports = {
       L = block.L; U = block.upper;
     }
     const hitPos = (d.hunt && d.hunt.hitPos) || 'initial';
-    const scope = hitPos === 'initial' ? 'initial' : 'anywhere';
+    const scope = hitPos === 'initial' ? 'initial' : hitPos === 'final' || hitPos === 'medial' ? hitPos : 'anywhere';
     const rootStamps = [];
     let zone2, meta;
 
@@ -294,13 +343,25 @@ module.exports = {
       const alpha = alphabets[loc] || alphabets.en;
       for (const x of [a, b]) if (!alpha.includes(x)) throw new Error(`K-317: pair letter "${x}" is not in the ${loc} alphabet`);
       const aItems = block.items.filter((i) => isHit(i, a, level, 'initial'));
-      const bItems = block.foils.filter((f) => !nfdBase(f.word).includes(a) && (level === 'sound' && f.graphemes ? f.graphemes[0] === b : [...f.word.toLocaleLowerCase(loc)][0] === b));
+      const bItems = block.foils.filter((f) => !fold(f.word).includes(a) && (level === 'sound' && f.graphemes ? f.graphemes[0] === b : [...f.word.toLocaleLowerCase(loc)][0] === b));
       const [na, nb] = p.split;
       if (aItems.length < na) throw new Error(`K-317: letter ${a} has ${aItems.length} initial items < ${na}`);
       if (bItems.length < nb) throw new Error(`K-317: pair letter ${b} has ${bItems.length} initial foils < ${nb}`);
+      // Level Set L1: a KEY picture per letter (a legend row), never one of the cards
+      let legend = '';
+      let aPool = aItems, bPool = bItems;
+      if (p.legend) {
+        if (aItems.length < na + 1 || bItems.length < nb + 1) throw new Error(`K-317: letter ${a}/${b} cannot spare a key picture for the legend`);
+        const ka = rng.pick(aItems), kb = rng.pick(bItems);
+        aPool = aItems.filter((i) => i !== ka); bPool = bItems.filter((i) => i !== kb);
+        const key = (x, t) => `<div data-lcs-legend="${t}" data-lcs-legend-word="${x.word}" style="display:flex;align-items:center;gap:10px;padding:6px 14px;border:2px dashed #D8CFBE;border-radius:14px">` +
+          `<span data-lcs-legend-letter="${t}" style="display:inline-flex;align-items:center;justify-content:center;width:${p.chipPx}px;height:${p.chipPx}px;box-sizing:border-box;border:2px solid #D8CFBE;border-radius:10px;background:#FFF;font-family:'Baloo 2',cursive;font-weight:700;font-size:${Math.round(p.chipPx * 0.58)}px;color:#146B5E">${t}</span>` +
+          `<img class="ws-icon" src="${fileUri(x.theme, x.noun)}" alt="" style="width:${p.legendPx}px;height:${p.legendPx}px;flex:0 0 auto"></div>`;
+        legend = `<div data-lcs-zone="legend" style="display:flex;gap:28px;justify-content:center;width:${COLUMN}px">${key(ka, a)}${key(kb, b)}</div>`;
+      }
       const cards = rng.shuffle([
-        ...rng.sample(aItems, na).map((i) => ({ ...i, answer: a })),
-        ...rng.sample(bItems, nb).map((f) => ({ ...f, graphemes: f.graphemes || [...f.word.toLocaleLowerCase(loc)], answer: b })),
+        ...rng.sample(aPool, na).map((i) => ({ ...i, answer: a })),
+        ...rng.sample(bPool, nb).map((f) => ({ ...f, graphemes: f.graphemes || [...f.word.toLocaleLowerCase(loc)], answer: b })),
       ]);
       const seen = new Set();
       for (const c of cards) { if (seen.has(c.word)) throw new Error('K-317: duplicate word on the page: ' + c.word); seen.add(c.word); }
@@ -309,7 +370,7 @@ module.exports = {
         `<img class="ws-icon" src="${fileUri(c.theme, c.noun)}" alt="" data-lcs-pic="${c.key}" style="width:${p.iconPx}px;height:${p.iconPx}px;flex:0 0 auto">` +
         letterChips({ a, b, px: p.chipPx }) + `</div>`).join('');
       const rows = Math.ceil(p.cards / p.cols);
-      zone2 = `<div data-lcs-zone="pair" style="display:grid;grid-template-columns:repeat(${p.cols},${p.cardW}px);` +
+      zone2 = legend + `<div data-lcs-zone="pair" style="display:grid;grid-template-columns:repeat(${p.cols},${p.cardW}px);` +
         `grid-template-rows:repeat(${rows},${p.cardH}px);gap:${GAP}px;width:${COLUMN}px;justify-content:space-between">${html}</div>`;
       rootStamps.push(`data-lcs-face="pair" data-lcs-pair-a="${a}" data-lcs-pair-b="${b}" data-lcs-split="${p.split.join(',')}" data-lcs-cards="${p.cards}" data-lcs-icon-px="${p.iconPx}" data-lcs-chip-px="${p.chipPx}"`);
       meta = { letter: L, face, pair: b, words: cards.map((c) => c.word), answers: cards.map((c) => c.answer) };
@@ -362,7 +423,7 @@ module.exports = {
       : '';
     const bodyHtml = `<div data-ws-content data-lcs-target="${L}" data-lcs-target-upper="${U}" data-lcs-level="${level}" ` +
       `data-lcs-scope="${scope}" ${huntStamps}` +
-      `data-lcs-pair="${block.pair || ''}" data-lcs-avoid="${(block.avoid || []).join(',')}" ` + (d.hunt ? `data-lcs-icon-px="${d.hunt.iconPx}" ` : '') +
+      `data-lcs-pair="${block.pair || ''}" data-lcs-avoid="${(block.avoid || []).join(',')}" ` + (_own ? `data-lcs-own="${_own}" ` : '') + (d.hunt ? `data-lcs-icon-px="${d.hunt.iconPx}" ` : '') +
       (rootStamps.length ? rootStamps.join(' ') + ' ' : '') + (d.trace.lanes === 'upper' ? 'data-lcs-lanes="upper" ' : '') +
       `style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;align-items:center;min-height:0">` +
       zone1 + zone2 + zone3 + `</div>`;
@@ -382,8 +443,9 @@ module.exports = {
       const pair = root.dataset.lcsPair, avoid = (root.dataset.lcsAvoid || '').split(',').filter(Boolean);
       if (!L || !U || U.toLocaleLowerCase(lang) !== L) fails.push(`target stamp ${U}/${L} inconsistent`);
       if (!['letter', 'sound'].includes(level)) fails.push('level stamp ' + level);
-      if (!['initial', 'anywhere'].includes(scope)) fails.push('scope stamp ' + scope);
-      const nfd = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLocaleLowerCase(lang);
+      if (!['initial', 'anywhere', 'final', 'medial'].includes(scope)) fails.push('scope stamp ' + scope);
+      const own = root.dataset.lcsOwn || '';
+      const nfd = (s) => (own ? [...s.normalize('NFC').toLocaleLowerCase(lang)].map((c) => (own.includes(c) ? c : c.normalize('NFD').replace(/[̀-ͯ]/g, ''))).join('') : s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLocaleLowerCase(lang));
       const words = [];
       const imgOk = (c, i, what) => {
         const img = c.querySelectorAll('img');
@@ -517,7 +579,9 @@ module.exports = {
               if (unitFoilPolicy === 'components' && ![...unit].every((ch) => nfd(word).includes(ch))) fails.push(`card ${i + 1}: foil "${word}" does not carry every letter of ${unit}`);
             }
           } else {
-            const derived = scope === 'initial' ? first === L : at > 0;
+            const derived = scope === 'initial' ? first === L
+              : scope === 'final' ? (g.length > 1 && g[g.length - 1] === L && g.indexOf(L) === g.length - 1)
+                : scope === 'medial' ? (g.length > 2 && g[0] !== L && g[g.length - 1] !== L && g.includes(L)) : at > 0;
             if (derived !== stamped) fails.push(`card ${i + 1}: "${word}" stamped hit=${stamped ? 1 : 0} but ${scope === 'initial' ? 'begins with ' + first : 'letter at ' + at}`);
             if (stamped) { hitN++; if (scope === 'anywhere' && at < g.length - 1) medialN++; }
             else {
@@ -525,7 +589,10 @@ module.exports = {
               if (scope === 'initial' && first === L) fails.push(`card ${i + 1}: foil "${word}" begins with ${L}`);
               const carries = nfd(word).includes(L);
               if (carries) carriers++;
-              if (policy !== 'pair-noninitial' && carries) fails.push(`card ${i + 1}: foil "${word}" contains ${L}`);
+              if (policy === 'initial') {
+                // Level Set: the harder "inside" page — every foil BEGINS with the letter and carries it nowhere else
+                if (!(g[0] === L && g.indexOf(L, 1) < 0 && [...nfd(word)].filter((c) => c === L).length === 1)) fails.push(`card ${i + 1}: foil "${word}" does not begin with ${L} (only)`);
+              } else if (policy !== 'pair-noninitial' && carries) fails.push(`card ${i + 1}: foil "${word}" contains ${L}`);
               if (policy === 'avoid' && !avoid.includes(first)) fails.push(`card ${i + 1}: foil "${word}" does not begin with an avoid letter (${avoid.join('/')})`);
               if (first === pair) pairN++;
             }

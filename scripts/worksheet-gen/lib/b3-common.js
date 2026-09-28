@@ -109,5 +109,11 @@ function ordinalFor(loc, k, gender) {
 }
 
 function nfdBase(s) { return String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+/** Level Set 2026-09-28: fold marks EXCEPT the letters that are letters of their own in the locale (de Bär has no a). */
+const OWN_LETTERS = { de: 'äöüß', sv: 'åäö', fi: 'åäö', da: 'æøå', no: 'æøå', es: 'ñ' };
+function letterFold(s, loc) {
+  const own = OWN_LETTERS[String(loc || '').slice(0, 2)] || '';
+  return [...String(s).normalize('NFC').toLowerCase()].map((c) => (own.includes(c) ? c : c.normalize('NFD').replace(/[̀-ͯ]/g, ''))).join('');
+}
 
-module.exports = { approvedWords, approvedByKey, texAgreed, texPool, daStrict, hasChunkLayer, bank, bankModule, ordinalFor, nfdBase };
+module.exports = { approvedWords, approvedByKey, texAgreed, texPool, daStrict, hasChunkLayer, bank, bankModule, ordinalFor, nfdBase, letterFold, OWN_LETTERS };

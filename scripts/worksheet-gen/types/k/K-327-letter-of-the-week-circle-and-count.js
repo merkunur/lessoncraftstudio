@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'K-327',
   slug: 'letter-of-the-week-circle-and-count',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 short words, the letter once, lowercase only · L2 published · L3 up to three per word, three capital rows
+  difficulty: { 1: { ...D, wordHunt: { ...D.wordHunt, maxLetters: 5, occ: [1, 1], capsRows: 0, minTotal: 6 } }, 2: D, 3: { ...D, wordHunt: { ...D.wordHunt, occ: [1, 3], capsRows: 3, minTotal: 9 } } },
   i18n: { en: { title: "Circle the {U} in the Words and Count", instruction: "Find every {U} or {L} in each word and circle it. Then write in the box how many you found." } },
 };

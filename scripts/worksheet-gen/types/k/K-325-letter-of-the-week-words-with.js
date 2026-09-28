@@ -5,10 +5,47 @@ const base = require('./K-317-letter-of-the-week.js');
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
 const D = { ...base.difficulty[2], ...{"hunt":{"n":8,"hits":4,"cols":4,"cardW":156,"cardH":140,"iconPx":100,"foilPolicy":"avoid","hitPos":"noninitial","minMedial":2}} };
+const LEVEL_TITLES = {
+  1: {
+    en: 'Words with {U}: Hear It at the End',
+    de: 'Wörter mit {U}: Hörst du das {U} am Ende?',
+    es: 'Palabras con {U}: el sonido al final',
+    fr: 'Des mots avec {U} : le {L} à la fin du mot',
+    it: 'Parole con la {U}: il suono alla fine',
+    pt: 'Palavras com {U}: o som no final',
+    nl: 'Woorden met de {L}: hoor je de {L} achteraan?',
+    sv: 'Ord med {U}: hör du {L} sist i ordet?',
+    da: 'Ord med {U}: hør lyden bagest i ordet',
+    no: 'Ord med {U}: Hører du {L} til slutt i ordet?',
+    fi: 'Kuuluuko {U}? Äänne sanan lopussa',
+  },
+  3: {
+    en: 'Words with {U}: Hear It in the Middle',
+    de: 'Wörter mit {U}: Hörst du das {U} in der Mitte?',
+    es: 'Palabras con {U}: el sonido en medio',
+    fr: 'Des mots avec {U} : le {L} caché dans le mot',
+    it: 'Parole con la {U}: il suono in mezzo',
+    pt: 'Palavras com {U}: o som no meio',
+    nl: 'Woorden met de {L}: hoor je de {L} in het midden?',
+    sv: 'Ord med {U}: hör du {L} inne i ordet?',
+    da: 'Ord med {U}: hør lyden inde i ordet',
+    no: 'Ord med {U}: Hører du {L} inni ordet?',
+    fi: 'Kuuluuko {U}? Äänne sanan sisällä',
+  },
+};
 module.exports = {
   ...base,
   id: 'K-325',
   slug: 'letter-of-the-week-words-with',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 3 of 6 pictures, the sound only at the END · L2 published · L3 only INSIDE, the wrong pictures all START with the letter
+  difficulty: { 1: { ...D, hunt: { ...D.hunt, n: 6, hits: 3, cols: 3, cardW: 212, cardH: 150, iconPx: 110, hitPos: 'final', minMedial: 0 } }, 2: D, 3: { ...D, hunt: { ...D.hunt, hitPos: 'medial', foilPolicy: 'initial', minMedial: 0 } } },
+  // Level Set 2026-09-28: the published title ("anywhere", "inside the word") is false for L1 (the END only) and
+  // L3 (the MIDDLE only) — those levels print their own title; the published page (L2 copy 1) is untouched
+  copyStrings(strings, { locale, difficulty, variant }) {
+    if (difficulty === 2) return strings;
+    const t = (LEVEL_TITLES[difficulty] || {})[(locale || 'en').slice(0, 2)];
+    if (!t) throw new Error(`K-325: no level ${difficulty} title for ${locale}`);
+    return { ...strings, title: t };
+  },
   i18n: { en: { title: "Words with {U}: Hear It Anywhere", instruction: "Trace the letter, then circle the four pictures that have the {U} sound somewhere inside the word, not at the start." } },
 };

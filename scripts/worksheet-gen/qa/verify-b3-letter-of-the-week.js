@@ -64,7 +64,7 @@ const path = require('path');
 const puppeteer = require('puppeteer');
 const { renderInstance } = require('../render/render-instance.js');
 const { makeRng, instanceSeed } = require('../lib/rng.js');
-const { approvedByKey, approvedWords, daStrict, hasChunkLayer, nfdBase, bankModule } = require('../lib/b3-common.js');
+const { approvedByKey, approvedWords, daStrict, hasChunkLayer, nfdBase, letterFold, bankModule } = require('../lib/b3-common.js');
 const { candidates, hasPicture } = require('../lib/b3-picture-index.js');
 const { traceable, displayWord } = require('../lib/b2-common.js');
 const tokens = require('../primitives/_tokens.js');
@@ -89,7 +89,8 @@ const POISONS = 14;
 let assertions = 0;
 const fails = [];
 function ok(cond, msg) { assertions++; if (!cond) fails.push(msg); return !!cond; }
-const count = (w, L) => [...nfdBase(w)].filter((c) => c === L).length;
+// Level Set 2026-09-28: letterFold keeps a locale's own letters (de ä, sv å, es ñ) — nfdBase made an ä never count
+const count = (w, L, loc) => [...letterFold(w, loc)].filter((c) => c === L).length;
 
 /* ------------------------------------------------------------------ bank */
 function validateBank(bank, loc) {
@@ -163,9 +164,9 @@ function validateBank(bank, loc) {
       else if (at === g.length - 1) final++;
       else if (at > 0) medial++;
       // face capacity
-      const nG = g.filter((x) => x === L).length, nW = count(it.word, L);
+      const nG = g.filter((x) => x === L).length, nW = count(it.word, L, loc);
       if (nG === 1 && nW === 1 && at >= 0) once[at === 0 ? 0 : at === g.length - 1 ? 2 : 1]++;
-      const sylIdx = (it.split || []).map((s, k) => (nfdBase(s).includes(L) ? k : -1)).filter((k) => k >= 0);
+      const sylIdx = (it.split || []).map((s, k) => (letterFold(s, loc).includes(L) ? k : -1)).filter((k) => k >= 0);
       if (sylIdx.length === 1 && (it.split || []).length >= 2) onceSyl[sylIdx[0] === 0 ? 0 : sylIdx[0] === it.split.length - 1 ? 2 : 1]++;
       const occ = chunkLayer && nG !== nW ? -1 : nW;
       if ([...it.word].length <= 9 && occ >= 1 && occ <= 2) { f4++; f4extra += occ - 1; }
@@ -174,7 +175,7 @@ function validateBank(bank, loc) {
     for (const fo of l.foils || []) {
       checkCommon(fo, 'foil');
       // rule 5
-      if (nfdBase(fo.word).includes(L)) push(tag(`foil "${fo.word}" contains ${L} (NFD base)`));
+      if (nfdBase(fo.word).includes(L) || letterFold(fo.word, loc).includes(L)) push(tag(`foil "${fo.word}" contains ${L} (NFD base)`));
       if (fo.graphemes && fo.graphemes.join('') !== fo.word.toLocaleLowerCase(loc)) push(tag(`foil "${fo.word}" graphemes do not spell the word`));
       const first = bank.level === 'sound' && fo.graphemes ? fo.graphemes[0] : [...fo.word.toLocaleLowerCase(loc)][0];
       // K-328 derives the b-side answer from graphemes[0] at sound level: a pair-initial foil
@@ -404,8 +405,15 @@ async function main() {
       pngs.push(r.png);
       console.log(`render d${d} ${en.exemplar}: verify ${r.verify.length} lints ${r.lints.length} icons>=${mi} hits ${r.m.hits}/${r.m.cards}`);
     }
+    // Level Set 2026-09-28: unitAxis.units() now lists the whole alphabet; a NEW letter below a face's floor is
+    // refused by the builder (that page is not made for it) — every letter that builds must render clean.
+    const pubLetters = new Set(en.letters.map((l) => l.L));
     for (const L of TYPE.unitAxis.units('en')) {
       if (L === en.exemplar) continue;
+      if (!pubLetters.has(L)) {
+        try { TYPE.build({ theme: null, difficulty: 2, locale: 'en', unit: L }, { rng: makeRng('probe-' + L), variant: 2 }); }
+        catch (e) { if (/ < \d+/.test(e.message)) { console.log(`render d2 ${L}: main page dropped (${e.message.replace(/^K-317: /, '')})`); continue; } throw e; }
+      }
       const r = await renderWith(page, TYPE, { difficulty: 2, unit: L, baseName: `K-317-gate-d2-en-u${L}` });
       const mi = assertRender(`d2 unit ${L}`, r, 2);
       pngs.push(r.png);
@@ -429,6 +437,10 @@ async function main() {
     const runFace = async (id, assertFn, units, band) => {
       const type = FACES[id];
       for (const u of units) {
+        if (id !== 'G1-311' && !pubLetters.has(u)) {   // a new letter below this face's floor: the page is not made
+          try { type.build({ theme: null, difficulty: 2, locale: 'en', unit: u }, { rng: makeRng('probe-' + id + u), variant: 2 }); }
+          catch (e) { if (/ < \d+|no pair letter|cannot (spare|reach)|has \d+ (once-only|words)/.test(e.message)) { console.log(`render ${id} ${u}: dropped (${e.message.replace(/^K-317: /, '')})`); continue; } throw e; }
+        }
         const r = await renderWith(page, type, { difficulty: 2, unit: u === en.exemplar || u === (en.unitExemplar || '') ? null : u, baseName: `${id}-gate-d2-en${u === en.exemplar || u === en.unitExemplar ? '' : '-u' + u}` });
         const floor = assertFn(`${id} ${u}`, r, type);
         pngs.push(r.png);

@@ -253,5 +253,72 @@
       "no": "Les hvert følelsesord. Trykk på ansiktet som viser følelsen.",
       "fi": "Lue jokainen tunnesana. Napauta ilmettä, joka näyttää sen tunteen."
     }
+  },
+  "cloze": {
+    "base": {
+      "en": "Read each sentence. Tap the word that fits in the box.",
+      "de": "Lies jeden Satz. Tippe auf das Wort, das in das Kästchen passt.",
+      "es": "Lee cada oración. Toca la palabra que va en la casilla.",
+      "fr": "Lis chaque phrase. Touche le mot qui va dans la case.",
+      "it": "Leggi ogni frase. Tocca la parola che va nella casella.",
+      "pt": "Leia cada frase. Toque na palavra que vai na caixa.",
+      "nl": "Lees elke zin. Tik op het woord dat in het vakje past.",
+      "sv": "Läs varje mening. Tryck på ordet som passar i rutan.",
+      "da": "Læs hver sætning. Tryk på det ord, der passer i feltet.",
+      "no": "Les hver setning. Trykk på ordet som passer i ruta.",
+      "fi": "Lue jokainen lause. Napauta sanaa, joka sopii laatikkoon."
+    },
+    "choice": {
+      "en": "Read each sentence. Tap the word that fits.",
+      "de": "Lies jeden Satz. Tippe auf das Wort, das passt.",
+      "es": "Lee cada oración. Toca la palabra que completa la oración.",
+      "fr": "Lis chaque phrase. Touche le mot qui convient.",
+      "it": "Leggi ogni frase. Tocca la parola giusta.",
+      "pt": "Leia cada frase. Toque na palavra certa.",
+      "nl": "Lees elke zin. Tik op het woord dat past.",
+      "sv": "Läs varje mening. Tryck på ordet som passar.",
+      "da": "Læs hver sætning. Tryk på det ord, der passer.",
+      "no": "Les hver setning. Trykk på ordet som passer.",
+      "fi": "Lue jokainen lause. Napauta sopivaa sanaa."
+    },
+    "match": {
+      "en": "Read each sentence. Tap the picture that fills the gap.",
+      "de": "Lies jeden Satz. Tippe auf das Bild, das die Lücke füllt.",
+      "es": "Lee cada oración. Toca el dibujo que completa el hueco.",
+      "fr": "Lis chaque phrase. Touche l'image qui complète la phrase.",
+      "it": "Leggi ogni frase. Tocca il disegno che completa la frase.",
+      "pt": "Leia cada frase. Toque na figura que completa a lacuna.",
+      "nl": "Lees elke zin. Tik op het plaatje dat in de lege plek past.",
+      "sv": "Läs varje mening. Tryck på bilden som passar i luckan.",
+      "da": "Læs hver sætning. Tryk på det billede, der passer i det tomme felt.",
+      "no": "Les hver setning. Trykk på bildet som passer i luka.",
+      "fi": "Lue jokainen lause. Napauta kuvaa, joka täydentää aukon."
+    },
+    "story": {
+      "en": "Read the story. Tap the word that fits each gap.",
+      "de": "Lies die Geschichte. Tippe bei jeder Lücke auf das passende Wort.",
+      "es": "Lee el cuento. Toca la palabra que va en cada hueco.",
+      "fr": "Lis l'histoire. Touche le mot qui va dans chaque trou.",
+      "it": "Leggi il testo. Tocca la parola giusta per ogni spazio.",
+      "pt": "Leia a historinha. Toque na palavra que completa cada lacuna.",
+      "nl": "Lees het verhaaltje. Tik bij elke lege plek op het woord dat past.",
+      "sv": "Läs berättelsen. Tryck på ordet som passar i varje lucka.",
+      "da": "Læs historien. Tryk på det ord, der passer i hvert tomt felt.",
+      "no": "Les fortellingen. Trykk på ordet som passer i hver luke.",
+      "fi": "Lue tarina. Napauta sanaa, joka sopii jokaiseen aukkoon."
+    },
+    "spell": {
+      "en": "Look at each picture. Tap the letters in the right order to spell the word.",
+      "de": "Schau dir jedes Bild an. Tippe die Buchstaben in der richtigen Reihenfolge an.",
+      "es": "Mira cada dibujo. Toca las letras en orden para escribir la palabra.",
+      "fr": "Regarde chaque image. Touche les lettres dans le bon ordre pour écrire le mot.",
+      "it": "Guarda ogni disegno. Tocca le lettere nell'ordine giusto per scrivere la parola.",
+      "pt": "Olhe cada figura. Toque nas letras na ordem certa para escrever a palavra.",
+      "nl": "Kijk naar elk plaatje. Tik de letters in de goede volgorde aan en maak het woord.",
+      "sv": "Titta på varje bild. Tryck på bokstäverna i rätt ordning och stava ordet.",
+      "da": "Se på hvert billede. Tryk på bogstaverne i den rigtige rækkefølge, så du staver ordet.",
+      "no": "Se på hvert bilde. Trykk på bokstavene i riktig rekkefølge, så du staver ordet.",
+      "fi": "Katso jokaista kuvaa. Napauta kirjaimet oikeaan järjestykseen, niin sana syntyy."
+    }
   }
 }

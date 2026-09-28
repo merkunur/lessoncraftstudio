@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-368',
   slug: 'match-the-sentence-to-the-picture',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 4 sentences, bigger pictures, shorter sentences · L2 published · L3 8 sentences (design d3)
+  difficulty: { 1: { ...D, pairs: 4, itemH: 156, itemMax: 166, picPx: 88, maxChars: 34 }, 2: D, 3: { ...D, pairs: 8, itemH: 74, picPx: 56 } },
+  interactive: base.interactiveFor('match'),
   i18n: { en: { title: "Match the Sentence to the Picture", instruction: "Read each sentence. Which picture fills the gap? Draw a line from the sentence to that picture." } },
 };

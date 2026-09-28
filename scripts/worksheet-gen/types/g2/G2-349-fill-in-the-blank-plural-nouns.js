@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G2-349',
   slug: 'fill-in-the-blank-plural-nouns',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 six rows with a word bank of the plurals · L2 published · L3 at least three harder plurals (the panel's class)
+  difficulty: { 1: { ...D, rows: 6, bank: true, clonePx: 58, colW: 190, textW: 397 }, 2: D, 3: { ...D, hardMin: 3 } },
+  interactive: base.interactiveFor('plural'),
   i18n: { en: { title: "Fill in the Blank: Plural Nouns", instruction: "Look at the pictures. There is more than one. Write the word for more than one in the box." } },
   gradeBand: "G2",
 };

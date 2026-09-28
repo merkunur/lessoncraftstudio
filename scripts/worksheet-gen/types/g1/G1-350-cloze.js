@@ -123,6 +123,34 @@ function hasWord(text, word) {
 }
 function graphemes(s) { return [...String(s).normalize('NFC')].length; }
 
+/* ---------------------------------------------------------------- Level Set (2026-09-28)
+ * New copies read data/b4/cloze-levelset.json (the native panels' extra frames / plural frames / stories,
+ * merged onto the published block) and take their SHARE of each face's eligible pool, so the copies of one
+ * level never repeat a sentence. The published page (level 2, copy 1) reads neither. */
+let LS_CACHE;
+function levelSetData() {
+  if (LS_CACHE !== undefined) return LS_CACHE;
+  const f = require('path').join(__dirname, '..', '..', 'data', 'b4', 'cloze-levelset.json');
+  LS_CACHE = require('fs').existsSync(f) ? JSON.parse(require('fs').readFileSync(f, 'utf8')) : null;
+  return LS_CACHE;
+}
+/** The published block + the panel's new content for a locale (a new object; the bank module is never mutated). */
+function mergedBank(bank, loc) {
+  const L = levelSetData(), x = (L && L[loc]) || {};
+  return { ...bank, frames: [...bank.frames, ...(x.frames || [])], plural: [...(bank.plural || []), ...(x.plural || [])], stories: [...(bank.stories || []), ...(x.stories || [])], hardPlural: x.hardPlural || [] };
+}
+/**
+ * Copy `share` (1..S) of a face pool: the pool sorted by id, dealt round-robin into S shares where S leaves each
+ * share `need + slack` frames (the composer needs room to keep fits disjoint). A share past S THROWS (no copy).
+ */
+function shareOf(pool, need, share, slack = 1) {
+  if (!share) return pool;
+  const sorted = pool.slice().sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+  const S = Math.floor(sorted.length / (need + slack));
+  if (share > S) throw new Error(`${ID}: share ${share} past the ${S} shares of ${sorted.length} (need ${need} + ${slack})`);
+  return sorted.filter((_, i) => i % S === share - 1);
+}
+
 /* ------------------------------------------------------------------ pure helpers (the gate imports them) ------------------------------------------------------------------ */
 
 let _forms = new Map();
@@ -254,6 +282,158 @@ function picSrc(pic, key) {
   if (!pic || !pic.theme || !pic.noun) throw new Error(`${ID}: "${key}" has no pinned pic — refuse`);
   if (BW_MARK.test(pic.theme)) throw new Error(`${ID}: "${key}" pins a B&W theme "${pic.theme}" — refuse`);
   return fileUri(pic.theme, pic.noun);
+}
+
+
+/* ---------------------------------------------------------------- Level Set screens + keys (2026-09-28)
+ * The SCREEN version (one tap per item) or the ANSWER KEY (the print page + the answers written in) of a built
+ * page. base / story: the sentence + 3 of the page's bank words (rotation); choice: the two printed chips; match:
+ * the sentence + 3 of the page's pictures (rotation); letters / plural: tap-spell — the word's letters as shuffled
+ * tiles filling one slot per letter. Every literal is read from the merged bank (never re-typed). */
+const SCR_W = 660, OPT_H = 104, TILE = 100, SLOT = 74;
+function sEsc(x) { return String(x).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+/** A frame / plural frame / story line of the merged bank by its id ("story-id/2" = line 2 of a story). */
+function lineOf(bank, id) {
+  const f = bank.frames.find((x) => x.id === id) || (bank.plural || []).find((x) => x.id === id);
+  if (f) return { text: f.text, noun: f.noun, form: f.form, pic: f.pic };
+  const m = /^(.*)\/(\d)$/.exec(id);
+  const st = m && (bank.stories || []).find((x) => x.id === m[1]);
+  if (!st) throw new Error(`${ID}: no frame or story line "${id}" in the merged bank`);
+  const i = +m[2];
+  return { text: st.text[i], noun: st.nouns[i], form: st.forms[i], pic: st.pics[i] };
+}
+function fillName(text, name) { const ns = String(name || '').split('+').filter(Boolean); let k = 0; return String(text).replace(/\{name\}/g, () => ns[Math.min(k++, ns.length - 1)] || ''); }
+const GAP_HTML = `<span style="display:inline-block;width:110px;height:34px;border:3px dashed #F2784B;border-radius:10px;vertical-align:middle;margin:0 6px"></span>`;
+function scrSentence(text, name) { const [pre, post] = fillName(text, name).split('{gap}'); return `<span style="font-family:Nunito,sans-serif;font-weight:800;font-size:30px;line-height:1.35;color:#3A3530">${sEsc(pre)}${GAP_HTML}${sEsc(post || '')}</span>`; }
+function scrPic(src, key, px) { return `<img class="ws-icon" src="${src}" alt="" data-lcs-pic="${sEsc(key)}" style="width:${px}px;height:${px}px;object-fit:contain;flex:0 0 auto">`; }
+function scrItem(attrs, top, body) {
+  return `<div data-lcs-item ${attrs} data-ws-content style="display:flex;flex-direction:column;align-items:center;gap:12px;width:${SCR_W}px;padding:14px 10px;background:#FFFDF8;border:2px solid #EFE4D2;border-radius:16px;box-sizing:border-box">` +
+    `<div style="display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;text-align:center">${top}</div>${body}</div>`;
+}
+function scrOpt(i, label, html, correct, w) { return `<span class="ws-achip" data-lcs-opt="${i}" data-lcs-label="${sEsc(label)}"${correct ? ' data-lcs-correct="1"' : ''} style="width:${w}px;height:${OPT_H}px;box-sizing:border-box;font-size:32px;gap:8px">${html}</span>`; }
+function scrOpts(html) { return `<div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">${html}</div>`; }
+function scrBody(mode, inner) { return `<div data-ws-content data-lcs-type="cloze" data-lcs-screen="${mode}" style="flex:1;display:flex;flex-direction:column;gap:14px;align-items:center;padding-top:10px">${inner}</div>`; }
+/** Three options for item i: its own word + the next two of the list, the right one at position i % 3. */
+function rotation(list, i) {
+  const own = list[i];
+  const others = [1, 2].map((k) => list[(i + k) % list.length]).filter((x) => x !== own);
+  const opts = others.slice(0, 2);
+  const at = i % (opts.length + 1);
+  opts.splice(at, 0, own);
+  return { opts, at };
+}
+/** A deterministic shuffle of a word's letters that never leaves them in spelling order. */
+function tileOrder(letters, seed) {
+  const n = letters.length;
+  const idx = letters.map((_, i) => i);
+  let h = 2166136261; for (const ch of seed) { h ^= ch.charCodeAt(0); h = Math.imul(h, 16777619) >>> 0; }
+  for (let i = n - 1; i > 0; i--) { h = Math.imul(h ^ (h >>> 15), 2246822519) >>> 0; const j = h % (i + 1); [idx[i], idx[j]] = [idx[j], idx[i]]; }
+  if (n > 1 && idx.every((v, i) => letters[v] === letters[i])) idx.push(idx.shift());   // never the word itself
+  return idx;
+}
+function screenOrKey(mode, built, ctx, loc) {
+  const bank = mergedBank(loadBank(KEY, loc), loc);
+  const m = built.meta;
+  const out = { bodyHtml: built.bodyHtml, meta: m };
+  const coral = '#F2784B';
+  if (ctx.interactive) {
+    let items = [];
+    if (mode === 'story') {
+      const words = m.stories.flatMap((st) => st[4].split(',')).concat(m.extras || []);
+      let k = 0;
+      m.stories.forEach((st) => {
+        const story = bank.stories.find((x) => x.id === st[0]);
+        const pics = st[2].split('').map((o) => scrPic(picSrc(story.pics[+o], story.nouns[+o]), story.nouns[+o], 72)).join('');
+        story.text.forEach((t, i) => {
+          const r = rotation(words, k++);
+          items.push(scrItem(`data-lcs-frame="${sEsc(st[0] + '/' + i)}" data-lcs-form="${sEsc(story.forms[i])}"`, `<div style="display:flex;gap:8px">${pics}</div>${scrSentence(t, st[3])}`,
+            scrOpts(r.opts.map((w, j) => scrOpt(j, w, sEsc(w), j === r.at, 200)).join(''))));
+        });
+      });
+    } else {
+      const rows = m.rows;
+      const words = rows.map((r) => r[3]).concat(m.extras || []);
+      items = rows.map((r, i) => {
+        const L = lineOf(bank, r[0]);
+        const attrs = `data-lcs-frame="${sEsc(r[0])}" data-lcs-form="${sEsc(r[2])}"`;
+        const pic = scrPic(picSrc(L.pic, L.noun), L.noun, mode === 'plural' ? 84 : 120);
+        const pics = mode === 'plural' ? `<div style="display:flex;gap:6px">${Array.from({ length: r[6] }, () => pic).join('')}</div>` : pic;
+        if (mode === 'letters' || mode === 'plural') {
+          const letters = [...String(r[3]).normalize('NFC')];
+          const order = tileOrder(letters, r[0] + '|' + loc);
+          const slots = letters.map((_, k) => `<span data-lcs-slot="${k}" style="display:inline-block;width:${SLOT}px;height:${SLOT}px;box-sizing:border-box;border:3px dashed ${coral};border-radius:12px;background:#FFF"></span>`).join('');
+          const tiles = order.map((v) => `<span class="ws-achip" data-lcs-tile data-lcs-label="${sEsc(letters[v])}" style="width:${TILE}px;height:${TILE}px;box-sizing:border-box;font-size:44px">${sEsc(letters[v])}</span>`).join('');
+          return scrItem(`${attrs} data-lcs-word="${sEsc(r[3])}"`, `${pics}${scrSentence(L.text, r[5])}`,
+            `<div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap;max-width:600px">${slots}</div><div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;max-width:600px">${tiles}</div>`);
+        }
+        if (mode === 'choice') {
+          const chips = r[8] === 0 ? [r[3], r[7]] : [r[7], r[3]];
+          return scrItem(attrs, `${pic}${scrSentence(L.text, r[5])}`, scrOpts(chips.map((w, j) => scrOpt(j, w, sEsc(w), w === r[3], 240)).join('')));
+        }
+        if (mode === 'match') {
+          const keys = rows.map((x) => x[1]);
+          const rr = rotation(keys, i);
+          return scrItem(attrs, scrSentence(L.text, r[5]), scrOpts(rr.opts.map((k, j) => { const LL = lineOf(bank, rows[keys.indexOf(k)][0]); return scrOpt(j, k, scrPic(picSrc(LL.pic, k), k, 92), j === rr.at, 180); }).join('')));
+        }
+        const rr = rotation(words, i);   // base
+        return scrItem(attrs, `${pic}${scrSentence(L.text, r[5])}`, scrOpts(rr.opts.map((w, j) => scrOpt(j, w, sEsc(w), j === rr.at, 200)).join('')));
+      });
+    }
+    out.bodyHtml = scrBody(mode, items.join(''));
+    return out;
+  }
+  // answer key: the print page with every answer written in
+  const css = [];
+  const write = (sel, word) => css.push(`${sel} [data-lcs-gapbox]{position:relative}`, `${sel} [data-lcs-gapbox]::after{content:"${String(word).replace(/"/g, '\\"')}";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font:700 22px 'Baloo 2',cursive;color:${coral};white-space:nowrap}`);
+  if (mode === 'story') m.stories.forEach((st) => st[4].split(',').forEach((a, i) => write(`[data-lcs-frame="${st[0]}/${i}"]`, a)));
+  else if (mode === 'match') {
+    css.push('[data-lcs-match-left],[data-lcs-match-right]{position:relative}');
+    m.rows.forEach((r, i) => { const b = `content:"${i + 1}";position:absolute;top:-10px;min-width:28px;height:28px;border-radius:14px;background:${coral};color:#fff;font:700 17px/28px 'Baloo 2',cursive;text-align:center;z-index:2`; css.push(`[data-lcs-match-left][data-lcs-key="${r[1]}"]::before{${b};left:-10px}`, `[data-lcs-match-right][data-lcs-key="${r[1]}"]::before{${b};right:-10px}`); });
+  } else if (mode === 'letters') {
+    // each letter in its own box (the starter box, if any, keeps its printed letter)
+    const box = +(/data-lcs-box="(\d+)"/.exec(out.bodyHtml) || [])[1], gap = +(/data-lcs-gap="(\d+)"/.exec(out.bodyHtml) || [])[1];
+    let k = 0;
+    out.bodyHtml = out.bodyHtml.replace(/(<span data-lcs-lettergap[^>]*>)([\s\S]*?)(<\/svg><\/span>)/g, (all, open, svg, close) => {
+      const letters = [...String(m.rows[k++][3]).normalize('NFC')];
+      const starter = /data-lcs-starter="/.test(open);
+      const t = letters.map((ch, i) => (starter && i === 0 ? '' : `<text x="${(1 + i * (box + gap) + box / 2).toFixed(1)}" y="${(1 + box * 0.74).toFixed(1)}" text-anchor="middle" font-family="Nunito, sans-serif" font-size="${Math.round(box * 0.62)}" font-weight="800" fill="${coral}" data-lcs-keyletter="1">${sEsc(ch)}</text>`)).join('');
+      return open + svg + t + close;
+    });
+  } else {
+    m.rows.forEach((r) => write(`[data-lcs-row][data-lcs-frame="${r[0]}"]`, r[3]));
+    if (mode === 'choice') css.push(`[data-lcs-role="answer"]{outline:4px solid ${coral};outline-offset:2px}`);
+  }
+  out.bodyHtml = out.bodyHtml + (css.length ? `<style data-lcs-key>${css.join('')}</style>` : '');
+  return out;
+}
+/**
+ * The robot gate's INDEPENDENT truth per screen item, recomputed from the MERGED BANK (never from the page's
+ * marks): the item's frame id + form → the noun → answerFor(loc, noun, form); tap-choice picks the option with
+ * that word (match: that noun's picture), tap-spell returns the word.
+ */
+function clozeOracle(mode, items, loc) {
+  const bank = mergedBank(loadBank(KEY, loc), loc);
+  const lc = (x) => String(x).normalize('NFC').toLocaleLowerCase(loc);
+  return items.map((it) => {
+    const L = lineOf(bank, it.meta['data-lcs-frame']);
+    const word = answerFor(loc, L.noun, it.meta['data-lcs-form'] || L.form);
+    if (mode === 'letters' || mode === 'plural') return word;
+    const labels = (it.options || []).map((o) => (o && typeof o === 'object' ? o.label : o));
+    const want = mode === 'match' ? L.noun : word;
+    const idx = labels.findIndex((l) => lc(l) === lc(want));
+    if (idx < 0) throw new Error(`oracle: "${want}" not among ${labels.join('/')} (${mode})`);
+    if (labels.filter((l) => lc(l) === lc(want)).length > 1) throw new Error(`oracle: "${want}" offered twice (${mode})`);
+    return idx;
+  });
+}
+function interactiveFor(mode) {
+  const spell = mode === 'letters' || mode === 'plural';
+  return {
+    kind: spell ? 'tap-spell' : 'tap-choice', item: '[data-lcs-item]', option: spell ? undefined : '[data-lcs-opt]', tile: '[data-lcs-tile]', slot: '[data-lcs-slot]',
+    answerAttr: spell ? 'data-lcs-word' : 'data-lcs-key', labelAttr: 'data-lcs-frame', metaAttrs: ['data-lcs-frame', 'data-lcs-form'],
+    instructionKey: spell ? 'spell' : mode, screenHeight: spell ? 6400 : 3600,
+    oracle: (items, l) => clozeOracle(mode, items, (l || 'en').slice(0, 2)),
+  };
 }
 
 /* ------------------------------------------------------------------ verify (page side; self-contained) ------------------------------------------------------------------ */
@@ -396,12 +576,14 @@ function VERIFY_FACE() {
   const checkBank = (answerList, orderText) => {
     if (!banner) return;
     const pills = [...banner.querySelectorAll('[data-lcs-bank-word]')];
-    if (pills.length !== answerList.length) fails.push(`${pills.length} bank pills for ${answerList.length} answers`);
+    const extraN = +(root.dataset.lcsExtra || 0);   // Level Set story d3: stamped extra words (answers of stories NOT on the page)
+    if (pills.length !== answerList.length + extraN) fails.push(`${pills.length} bank pills for ${answerList.length} answers + ${extraN} extra`);
     const words = pills.map((e) => e.dataset.lcsBankWord);
     if (new Set(words.map(lower)).size !== words.length) fails.push('a bank word twice');
     pills.forEach((e) => { if (e.textContent.trim() !== e.dataset.lcsBankWord) fails.push(`a pill prints "${e.textContent.trim()}" not its stamp`); if (parseFloat(getComputedStyle(e).fontSize) < 16) fails.push('bank pill font < 16'); });
     for (const a of answerList) if (!words.some((w) => lower(w) === lower(a))) fails.push(`the answer "${a}" is not in the bank`);
-    for (const w of words) if (!answerList.some((a) => lower(a) === lower(w))) fails.push(`the bank word "${w}" is no answer on the page`);
+    const strays = words.filter((w) => !answerList.some((a) => lower(a) === lower(w)));
+    if (strays.length !== extraN) fails.push(`${strays.length} bank words are no answer on the page (stamp says ${extraN}): ${strays.join(', ')}`);
     let fixed = 0; for (let i = 0; i < Math.min(words.length, answerList.length); i++) if (lower(words[i]) === lower(answerList[i])) fixed++;
     if (fixed) fails.push(`the bank is not deranged (${fixed} pills at their ${orderText} index)`);
     if (answerList.length > 2 && words.map(lower).join('|') === answerList.map(lower).slice().reverse().join('|')) fails.push(`the bank is the reverse of the ${orderText}s`);
@@ -698,11 +880,22 @@ module.exports = {
     },
   },
   answerFor, genderOf, gapWidth, twinGroupOf, eligibleFrames, resolveBase, compose, objFormsOf, hasWord, graphemes, FORMS,
+  interactive: interactiveFor('base'), interactiveFor, mergedBank, shareOf,
 
   build({ theme, difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
     const all = bankModule(KEY);
-    return this._buildWith(loadBank(KEY, loc), this.difficulty[difficulty], { theme, locale: loc, globals: { twins: all.twins, excludeKeys: all.excludeKeys } }, ctx);
+    const G = { twins: all.twins, excludeKeys: all.excludeKeys };
+    const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (published) return this._buildWith(loadBank(KEY, loc), this.difficulty[difficulty], { theme, locale: loc, globals: G }, ctx);
+    // Level Set: the merged bank, this copy's share of the frames; the screen / key wraps the print page
+    const bank = mergedBank(loadBank(KEY, loc), loc);
+    const d = { ...this.difficulty[difficulty], share: (ctx && ctx.seedVariant) || 1 };
+    if (this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this._buildWith(bank, d, { theme, locale: loc, globals: G }, { ...ctx, interactive: false, answerKey: false });
+      return screenOrKey(d.mode || 'base', built, ctx, loc);
+    }
+    return this._buildWith(bank, d, { theme, locale: loc, globals: G }, ctx);
   },
 
   /** The whole build over an INJECTED bank + resolved config (the gate's poison seam); build() passes the real ones. */
@@ -718,7 +911,8 @@ module.exports = {
     const cfg = resolveBase(d, bank);
     const gl = { twins: G.twins, confusable: bank.confusable || [] };
     const excluded = new Set(G.excludeKeys || []);
-    const pool = eligibleFrames(bank.frames, cfg, loc, ID).filter((f) => !excluded.has(f.noun));
+    const full = eligibleFrames(bank.frames, cfg, loc, ID).filter((f) => !excluded.has(f.noun));
+    const pool = shareOf(full, cfg.rows, d.share);
     if (pool.length < cfg.rows) throw new Error(`${ID}: ${loc} has ${pool.length} eligible frames for ${cfg.rows} rows (maxChars ${cfg.maxChars}, maxGlyphs ${cfg.maxGlyphs}, nameSlot ${cfg.nameSlot}) — REFUSED`);
     let taken = null;
     for (let t = 0; t < MAX_TRIES && !taken; t++) taken = compose(rng, pool, cfg, loc, gl);
@@ -728,7 +922,7 @@ module.exports = {
     let extras = [];
     if (cfg.extra) {
       const takenNouns = new Set(taken.map((f) => f.noun));
-      const cands = pool.filter((f) => !takenNouns.has(f.noun) && !taken.some((t) => t.fits.includes(f.noun)) && !f.fits.some((x) => takenNouns.has(x)))
+      const cands = full.filter((f) => !takenNouns.has(f.noun) && !taken.some((t) => t.fits.includes(f.noun)) && !f.fits.some((x) => takenNouns.has(x)))
         .map((f) => answerFor(loc, f.noun, f.form)).filter((a, i, arr) => arr.indexOf(a) === i && !answers.some((x) => x.toLocaleLowerCase(loc) === a.toLocaleLowerCase(loc)));
       if (cands.length < cfg.extra) throw new Error(`${ID}: ${loc} has ${cands.length} frame-invalid extras for ${cfg.extra} — REFUSED`);
       extras = rng.sample(cands, cfg.extra);
@@ -853,7 +1047,7 @@ module.exports = {
       if (!((ePre + run + ePost <= 531) || (ePre + run <= 531 && ePost <= 531) || (ePre <= 531 && run + ePost <= 531))) return false;
       return true;
     });
-    const taken = this._deal(rng, pool, cfg, loc, gl, null, 'letters');
+    const taken = this._deal(rng, shareOf(pool, cfg.rows, d.share), cfg, loc, gl, null, 'letters');
     const answers = taken.map((f) => answerFor(loc, f.noun, f.form));
     const bankOrder = cfg.bank ? C4.derange(answers.map((_, i) => i), rng) : null;
     const rows = taken.map((f, i) => ({ f, ...this._fillNames(f.text, cfg, loc, rng, f.id), answer: answers[i] }));
@@ -902,12 +1096,12 @@ module.exports = {
       const [pre, post] = f.text.replace(/\{name\}/g, 'Emma').split('{gap}');
       return [...pre].length * cfg.pxPerChar + gapMax + [...post].length * cfg.pxPerChar + 12 <= 531;
     };
-    const foilOf = (f) => (cfg.foilKind === 'page' ? null : f.foil);
+    const mechFar = cfg.foilKind === 'far' && d.share;   // Level Set: a foil from ANOTHER theme, drawn from the bank (the panel foil is the near one)
     const pool = eligibleFrames(bank.frames, cfg, loc, ID).filter((f) => {
       if (excluded.has(f.noun) || f.form !== 'sg') return false;                 // the article outside the gap (no unique / def / a2)
       if (ELIDED_BEFORE_GAP.test(f.text.split('{gap}')[0])) return false;
       if (!oneLine(f)) return false;
-      if (cfg.foilKind !== 'page') {
+      if (cfg.foilKind !== 'page' && !mechFar) {
         if (!f.foil || f.foil === f.noun || (f.fits || []).includes(f.foil) || excluded.has(f.foil)) return false;
         try { answerFor(loc, f.foil, 'sg'); } catch (e) { return false; }
         const g1 = genderOf(loc, f.noun), g2 = genderOf(loc, f.foil);
@@ -915,8 +1109,8 @@ module.exports = {
       }
       return true;
     });
-    const taken = this._deal(rng, pool, cfg, loc, gl, (tk) => {
-      if (cfg.foilKind === 'page') return true;
+    const taken = this._deal(rng, shareOf(pool, cfg.rows, d.share), cfg, loc, gl, (tk) => {
+      if (cfg.foilKind === 'page' || mechFar) return true;
       const nouns = new Set(tk.map((f) => f.noun));
       const ans = new Set(tk.map((f) => answerFor(loc, f.noun, f.form).toLocaleLowerCase(loc)));
       return tk.every((f) => !nouns.has(f.foil) && !ans.has(answerFor(loc, f.foil, 'sg').toLocaleLowerCase(loc)));
@@ -924,7 +1118,30 @@ module.exports = {
     const answers = taken.map((f) => answerFor(loc, f.noun, f.form));
     let foils;
     if (cfg.foilKind === 'page') { const o = C4.derange(answers.map((_, i) => i), rng); foils = o.map((i) => ({ key: taken[i].noun, word: answers[i] })); }
-    else foils = taken.map((f) => ({ key: f.foil, word: answerFor(loc, f.foil, 'sg') }));
+    else if (mechFar) {
+      // per row: a bank noun of the SAME gender from a DIFFERENT picture theme, outside the frame's fits, not on the page,
+      // not a twin / confusable partner, its sg a single word no longer than the gap allows; never the same foil twice
+      const onPage = new Set(taken.map((f) => f.noun)), usedF = new Set();
+      const conf = (bank.confusable || []).map((pp) => pp.slice().sort().join('|'));
+      const cands = [...new Map(bank.frames.map((f) => [f.noun, f])).values()];
+      const pageAns = new Set(taken.map((f) => answerFor(loc, f.noun, f.form).toLocaleLowerCase(loc)));
+      foils = taken.map((f) => {
+        const ok = cands.filter((c) => {
+          if (onPage.has(c.noun) || usedF.has(c.noun) || (f.fits || []).includes(c.noun) || excluded.has(c.noun) || c.pic.theme === f.pic.theme) return false;
+          if (conf.includes([c.noun, f.noun].sort().join('|'))) return false;
+          const g = twinGroupOf(c.noun, G.twins || []); if (g >= 0 && g === twinGroupOf(f.noun, G.twins || [])) return false;
+          const g1 = genderOf(loc, f.noun), g2 = genderOf(loc, c.noun); if (g1 && g2 && g1 !== g2) return false;
+          let w; try { w = answerFor(loc, c.noun, 'sg'); } catch (e) { return false; }
+          if (!/^\p{L}+$/u.test(w) || graphemes(w) > cfg.maxGlyphs || pageAns.has(w.toLocaleLowerCase(loc))) return false;
+          if (loc === 'en' && /(^|\s)an?\s*$/i.test(f.text.split('{gap}')[0]) && /^[aeiou]/i.test(w) !== /^[aeiou]/i.test(answerFor(loc, f.noun, 'sg'))) return false;
+          return true;
+        });
+        if (!ok.length) throw new Error(`${ID}: ${loc} no far foil for ${f.id} — REFUSED`);
+        const c = rng.pick(ok.sort((a, b) => (a.noun < b.noun ? -1 : 1)));
+        usedF.add(c.noun);
+        return { key: c.noun, word: answerFor(loc, c.noun, 'sg') };
+      });
+    } else foils = taken.map((f) => ({ key: f.foil, word: answerFor(loc, f.foil, 'sg') }));
     // chip order: the answer first on [2, ceil(rows/2)] rows
     const lo = 2, hi = Math.ceil(cfg.rows / 2);
     let idx = null;
@@ -970,7 +1187,15 @@ module.exports = {
       if (f.clones != null && (f.clones < cfg.clones[0] || f.clones > cfg.clones[1])) return false;
       return true;
     });
-    const taken = this._deal(rng, pool, cfg, loc, gl, null, 'plural');
+    const hard = new Set(bank.hardPlural || []);
+    const hardMin = d.hardMin || 0;
+    let ppool = pool;
+    if (hardMin) {
+      // Level Set harder level: the hard-plural frames first, then the others, each list shared out on its own
+      const H = pool.filter((f) => hard.has(f.id)), E = pool.filter((f) => !hard.has(f.id));
+      ppool = [...shareOf(H, hardMin, d.share, 0), ...shareOf(E, cfg.rows - hardMin, d.share)];
+    } else ppool = shareOf(pool, cfg.rows, d.share);
+    const taken = this._deal(rng, ppool, cfg, loc, gl, hardMin ? (tk) => tk.filter((f) => hard.has(f.id)).length >= hardMin : null, 'plural');
     const answers = taken.map((f) => answerFor(loc, f.noun, f.form));
     const bankOrder = cfg.bank ? C4.derange(answers.map((_, i) => i), rng) : null;
     const clones = taken.map((f) => (f.clones != null ? f.clones : rng.int(cfg.clones[0], cfg.clones[1])));
@@ -1016,7 +1241,7 @@ module.exports = {
       }
       return true;
     };
-    const pool = bank.stories.filter(okStory);
+    const pool = shareOf(bank.stories.filter(okStory), cfg.stories, d.share, 1);
     if (pool.length < cfg.stories) throw new Error(`${ID}: ${loc} has ${pool.length} eligible stories for ${cfg.stories} — REFUSED`);
     let taken = null;
     for (let t = 0; t < MAX_TRIES && !taken; t++) {
@@ -1049,13 +1274,23 @@ module.exports = {
     });
     const answers = blocks.flatMap((b) => b.lines.map((l) => l.answer));
     if (new Set(answers.map((a) => a.toLocaleLowerCase(loc))).size !== answers.length) throw new Error(`${ID}: two story gaps share an answer — REFUSED`);
+    // Level Set harder level: `extra` bank words = answers of stories NOT on the page (their nouns never fit this page's gaps: validated data)
+    let extras = [];
+    if (d.extra) {
+      const onPage = new Set(taken.map((s) => s.id));
+      const cands = [...new Set(bank.stories.filter((s) => !onPage.has(s.id) && okStory(s)).flatMap((s) => s.nouns.map((n, i) => { try { return answerFor(loc, n, s.forms[i]); } catch (e) { return null; } })).filter(Boolean))]
+        .filter((w) => !answers.some((a) => a.toLocaleLowerCase(loc) === w.toLocaleLowerCase(loc)) && graphemes(w) <= cfg.maxGlyphs).sort();
+      if (cands.length < d.extra) throw new Error(`${ID}: ${loc} has ${cands.length} story extras for ${d.extra} — REFUSED`);
+      extras = rng.sample(cands, d.extra);
+    }
+    const words = answers.concat(extras);
     const gapW = gapWidth(answers, { max: 168 });
-    const bankOrder = cfg.bank ? C4.derange(answers.map((_, i) => i), rng) : null;
-    const bankHtml = cfg.bank ? C4.gapBank({ words: answers, order: bankOrder, wordPx: 18 }) : '';
+    const bankOrder = cfg.bank ? C4.derange(words.map((_, i) => i), rng) : null;
+    const bankHtml = cfg.bank ? C4.gapBank({ words, order: bankOrder, wordPx: 18 }) : '';
     const list = blocks.map((b, i) => C4.storyBlock({ n: i + 1, pics: b.pics, order: b.order, lines: b.lines, gapW, picPx: cfg.picPx, storyId: b.s.id, padding: cfg.padding, gapH: cfg.gapH })).join('');
     const grid = `<div data-lcs-list style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${cfg.stories},minmax(${cfg.blockMin}px,1fr));row-gap:${cfg.blockGap}px;min-height:0">${list}</div>`;
-    const attrs = `data-lcs-stories="${cfg.stories}" data-lcs-sentences="${cfg.sentences}" data-lcs-gapw="${gapW}" data-lcs-bank="${cfg.bank ? 1 : 0}" data-lcs-shuffle="${cfg.shuffleStrip ? 1 : 0}" data-lcs-pic-px="${cfg.picPx}" data-lcs-gap-h="${cfg.gapH}"`;
-    return { bodyHtml: this._faceRoot('story', cfg, attrs, bankHtml + grid), meta: { face: 'story', gapW, bankOrder, stories: blocks.map((b) => [b.s.id, b.s.nouns.join(','), b.order.join(''), b.name, b.lines.map((l) => l.answer).join(',')]) } };
+    const attrs = `data-lcs-stories="${cfg.stories}" data-lcs-sentences="${cfg.sentences}" data-lcs-gapw="${gapW}" data-lcs-bank="${cfg.bank ? 1 : 0}"${extras.length ? ` data-lcs-extra="${extras.length}"` : ''} data-lcs-shuffle="${cfg.shuffleStrip ? 1 : 0}" data-lcs-pic-px="${cfg.picPx}" data-lcs-gap-h="${cfg.gapH}"`;
+    return { bodyHtml: this._faceRoot('story', cfg, attrs, bankHtml + grid), meta: { face: 'story', gapW, bankOrder, extras, stories: blocks.map((b) => [b.s.id, b.s.nouns.join(','), b.order.join(''), b.name, b.lines.map((l) => l.answer).join(',')]) } };
   },
 
   /**
@@ -1079,7 +1314,9 @@ module.exports = {
     const excluded = new Set(G.excludeKeys || []);
     const gl = { twins: G.twins, confusable: bank.confusable || [] };
     const pool = eligibleFrames(bank.frames, cfg, loc, ID).filter((f) => !excluded.has(f.noun));
-    const taken = this._deal(rng, pool, cfg, loc, gl, null, 'match');
+    // no answer may be printed in another sentence of the page (nl "bij" = bee AND the preposition): the page verify refuses it
+    const noEcho = (tk) => tk.every((f) => { const a = answerFor(loc, f.noun, f.form); return tk.every((g) => g === f || !hasWord(g.text.replace('{gap}', ''), a)); });
+    const taken = this._deal(rng, shareOf(pool, cfg.rows, d.share), cfg, loc, gl, noEcho, 'match');
     const answers = taken.map((f) => answerFor(loc, f.noun, f.form));
     const rows = taken.map((f, i) => ({ f, ...this._fillNames(f.text, cfg, loc, rng, f.id), answer: answers[i] }));
     const order = C4.derange(rows.map((_, i) => i), rng);

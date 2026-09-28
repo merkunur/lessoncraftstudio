@@ -254,6 +254,81 @@ async function play(page, html, oracle, locale) {
   return fails;
 }
 
+/**
+ * tap-spell (Level Set 2026-09-28): each item's letter tiles fill its slots; the oracle recomputes each item's
+ * WORD from the type's bank (never the page's answer), the robot taps the tiles spelling it, a take-back empties
+ * a slot, one swapped pair of letters must end red and never celebrate.
+ */
+async function playSpell(page, html, oracle, locale) {
+  const fails = [];
+  const file = path.join(os.tmpdir(), 'lcs-verify-interactive-' + process.pid + '.html');
+  fs.writeFileSync(file, html, 'utf8');
+  for (const w of WIDTHS) {
+    await page.setViewport({ width: w, height: 900, deviceScaleFactor: 1 });
+    await page.goto(require('url').pathToFileURL(file).href, { waitUntil: 'load' });
+    const info = await page.evaluate(() => ({
+      tiles: [...document.querySelectorAll('.lcs-tile')].map((b) => { const r = b.getBoundingClientRect(); return { w: r.width, h: r.height, l: r.left, r: r.right }; }),
+      vw: document.documentElement.clientWidth,
+      bundle: window.DECK_BUNDLE,
+    }));
+    const B = info.bundle;
+    if (!B || !Array.isArray(B.items) || info.tiles.length < 4) { fails.push(`${w}px: ${info.tiles.length} tap targets`); return fails; }
+    info.tiles.forEach((o, i) => {
+      if (o.w < TAP_MIN || o.h < TAP_MIN) fails.push(`${w}px: tile ${i + 1} is ${Math.round(o.w)}x${Math.round(o.h)} < ${TAP_MIN}`);
+      if (o.l < -1 || o.r > info.vw + 1) fails.push(`${w}px: tile ${i + 1} outside the viewport`);
+    });
+    if (w !== 768) continue;
+    const words = oracle(B.items.map((it) => ({ label: it.label, meta: it.meta, tiles: it.tiles.map((t) => t.label) })), locale, B.ctx || {});
+    const base = []; let n = 0; B.items.forEach((it) => { base.push(n); n += it.tiles.length; });
+    // the tile indices that spell a word (an unused tile with that letter each time)
+    const spell = (i, word) => {
+      const used = new Set(), seq = [];
+      for (const ch of [...String(word).normalize('NFC')]) {
+        let j = B.items[i].tiles.findIndex((t, k) => !used.has(k) && t.label === ch);
+        if (j < 0) j = B.items[i].tiles.findIndex((t, k) => !used.has(k) && t.label.toLocaleLowerCase(locale) === ch.toLocaleLowerCase(locale));
+        if (j < 0) return null;
+        used.add(j); seq.push(j);
+      }
+      return seq;
+    };
+    const tapTile = (i, j) => page.evaluate((k) => document.querySelectorAll('.lcs-tile')[k].click(), base[i] + j);
+    const slotBase = []; let m = 0; B.items.forEach((it) => { slotBase.push(m); m += it.slots.length; });
+    const tapSlot = (i, k) => page.evaluate((q) => document.querySelectorAll('.lcs-slot')[q].click(), slotBase[i] + k);
+    const state = () => page.evaluate(() => ({
+      celebrate: !document.getElementById('lcs-celebration').hidden,
+      states: [...document.querySelectorAll('.lcs-slot')].map((b) => b.getAttribute('data-state')),
+      filled: [...document.querySelectorAll('.lcs-slot')].filter((b) => b.textContent).length,
+      checkDisabled: document.getElementById('lcs-check').disabled,
+    }));
+    // take-back: a tile fills a slot, a tap on that slot empties it
+    await tapTile(0, 0); await tapSlot(0, 0);
+    let st = await state();
+    if (st.filled) fails.push('tapping a filled slot did not give the letter back');
+    if (!st.checkDisabled) fails.push('Check enabled with nothing spelled');
+    const seqs = words.map((wd, i) => spell(i, wd));
+    if (seqs.some((q) => !q)) { fails.push('the tiles cannot spell the oracle word: ' + words.filter((_, i) => !seqs[i]).join(',')); return fails; }
+    for (let i = 0; i < seqs.length; i++) for (const j of seqs[i]) await tapTile(i, j);
+    st = await state();
+    if (st.checkDisabled) fails.push('Check still disabled after every word is spelled');
+    await page.click('#lcs-check');
+    await new Promise((r) => setTimeout(r, 600));
+    st = await state();
+    if (!st.celebrate) fails.push('the right spellings did not reach the celebration');
+    if (st.states.some((x) => x !== 'right')) fails.push('the right spellings left non-green slots');
+    // one wrong spelling: the first two DIFFERENT letters of one word swapped
+    await page.evaluate(() => { document.getElementById('lcs-celebration').hidden = true; document.getElementById('lcs-reset').click(); });
+    const wi = seqs.findIndex((q, i) => { const L = B.items[i].tiles; return q.length > 1 && L[q[0]].label.toLocaleLowerCase(locale) !== L[q[1]].label.toLocaleLowerCase(locale); });
+    if (wi < 0) { fails.push('no word with two different first letters to test a wrong spelling'); return fails; }
+    for (let i = 0; i < seqs.length; i++) { const q = seqs[i].slice(); if (i === wi) [q[0], q[1]] = [q[1], q[0]]; for (const j of q) await tapTile(i, j); }
+    await page.click('#lcs-check');
+    await new Promise((r) => setTimeout(r, 600));
+    st = await state();
+    if (st.celebrate) fails.push('a WRONG spelling reached the celebration');
+    if (!st.states.includes('wrong')) fails.push('a wrong spelling marked nothing red');
+  }
+  return fails;
+}
+
 async function main() {
   const folder = process.argv[2];
   const poison = process.argv.includes('--poison');
@@ -275,25 +350,29 @@ async function main() {
   }
   if (!decks.length) throw new Error('verify-interactive: no interactive decks in ' + folder + ' (a vacuous run is not a pass)');
   if (poison) {
-    const d = decks[0];
+    const kindArg = (process.argv.find((a) => a.startsWith('--kind=')) || '').slice(7);
+    const d = kindArg ? decks.find((x) => x.kind === kindArg) : decks[0];
+    if (!d) throw new Error('verify-interactive: no deck of kind ' + kindArg);
+    console.log('poisoning ' + d.f + ' (' + d.kind + ')');
     // wrong answer map: every answer moved to a DIFFERENT valid value (a reversal can leave a map unchanged)
     const shiftAnswers = (html) => html.replace(/window\.DECK_BUNDLE=(\{.*?\});<\/script>/, (m0, j) => {
       const B = JSON.parse(j);
       B.answers = B.kind === 'tap-choice' ? B.answers.map((a, i) => (a + 1) % B.items[i].options.length)
         : B.kind === 'tap-edit' ? B.answers.map((lane) => lane.map((w) => ({ cap: !w.cap, mark: w.mark })))
         : B.kind === 'tap-select' ? B.answers.map((a) => !a)
+        : B.kind === 'tap-spell' ? B.answers.map((a) => { const g = [...a]; const k = g.findIndex((c, i) => i > 0 && c.toLowerCase() !== g[0].toLowerCase()); if (k > 0) [g[0], g[k]] = [g[k], g[0]]; return g.join(''); })
         : B.answers.map((a) => (a % B.answers.length) + 1);
       return 'window.DECK_BUNDLE=' + JSON.stringify(B) + ';</script>';
     });
     const cases = [
       ['wrong answer map', shiftAnswers(d.html)],
-      ['no tap targets', d.html.replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '')],
-      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
+      ['no tap targets', d.html.replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '').replace('ov.appendChild(t);', '')],
+      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
     ];
     let killed = 0;
     for (const [name, html] of cases) {
       if (html === d.html) { console.log('POISON NOT APPLIED: ' + name); continue; }
-      const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect }[d.kind] || play)(page, html, d.oracle, d.locale);
+      const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell }[d.kind] || play)(page, html, d.oracle, d.locale);
       console.log((fails.length ? '  ✓ killed: ' : '  ✗ SURVIVED: ') + name + (fails.length ? ' (' + fails[0] + ')' : ''));
       if (fails.length) killed++;
     }
@@ -302,7 +381,7 @@ async function main() {
     process.exit(killed === cases.length ? 0 : 1);
   }
   for (const d of decks) {
-    const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect }[d.kind] || play)(page, d.html, d.oracle, d.locale);
+    const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell }[d.kind] || play)(page, d.html, d.oracle, d.locale);
     checked++;
     if (fails.length) { bad++; console.log('FAIL ' + d.f + ': ' + fails.join('; ')); }
   }

@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'K-331',
   slug: 'feelings-how-do-you-feel-circle-the-face',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 two faces, never a near feeling · L2 published · L3 near feelings offered first
+  difficulty: { 1: { ...D, choices: 2, decoy: 'far' }, 2: D, 3: { ...D, decoy: 'near' } },
+  interactive: base.interactiveFor('scene'),
   i18n: { en: { title: "How Do You Feel? Circle the Face", instruction: "Look at the picture, think how you would feel, and circle the face that matches." } },
 };

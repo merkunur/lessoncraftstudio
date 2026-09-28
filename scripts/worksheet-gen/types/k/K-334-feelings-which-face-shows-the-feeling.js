@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'K-334',
   slug: 'feelings-which-face-shows-the-feeling',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 two faces per row · L2 published · L3 the look-alike faces may share a row
+  difficulty: { 1: { ...D, choices: 2 }, 2: D, 3: { ...D, confusable: true } },
+  interactive: base.interactiveFor('choice'),
   i18n: { en: { title: "Which Face Shows the Feeling?", instruction: "Read the feeling word and circle the one face in the row that shows it." } },
 };

@@ -67,8 +67,28 @@ module.exports = {
     const d = this.difficulty[difficulty] || this.difficulty[2];
     if (d.perBin > 3) throw new Error(`K-333: perBin ${d.perBin} > 3 wraps the one-row strip (8 × 89 + 7 × 12 = 796 > 675)`);
     const binLabels = { good: b.bins.good.label, bad: b.bins.bad.label };
-    return factoryBuild.call(this, { theme, difficulty, locale: loc, unit }, { ...ctx, binLabels });
+    const built = factoryBuild.call(this, { theme, difficulty, locale: loc, unit }, { ...ctx, binLabels });
+    if (!ctx || (!ctx.interactive && !ctx.answerKey)) return built;
+    // Level Set 2026-09-28: the SCREEN (each face + the two bin labels to tap) or the ANSWER KEY (each face tagged with its bin)
+    const coral = '#F2784B';
+    const esc = (x) => String(x).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    const { fileUri } = require('../../lib/b2-common.js');
+    const out = { bodyHtml: built.bodyHtml, meta: built.meta };
+    if (ctx.interactive) {
+      const items = built.meta.items.map((it) =>
+        `<div data-lcs-item data-lcs-face="${esc(it.noun)}" data-ws-content style="display:flex;flex-direction:column;align-items:center;gap:10px;width:660px;padding:12px 8px;background:#FFFDF8;border:2px solid #EFE4D2;border-radius:16px;box-sizing:border-box">` +
+        `<img class="ws-icon" src="${fileUri('emotions', it.noun)}" alt="" style="width:120px;height:120px;object-fit:contain">` +
+        `<div style="display:flex;gap:12px;justify-content:center">` +
+        ['good', 'bad'].map((bk, k) => `<span class="ws-achip" data-lcs-opt="${k}" data-lcs-label="${esc(binLabels[bk])}"${bk === it.bin ? ' data-lcs-correct="1"' : ''} style="width:300px;height:104px;box-sizing:border-box;font-size:32px">${esc(binLabels[bk])}</span>`).join('') +
+        `</div></div>`).join('');
+      out.bodyHtml = `<div data-ws-content data-lcs-type="feelings" data-lcs-screen="sort" style="flex:1;display:flex;flex-direction:column;gap:14px;align-items:center;padding-top:10px">${items}</div>`;
+      return out;
+    }
+    const tag = (bk) => `[data-sci-item="${bk}"]::after{content:"${esc(binLabels[bk]).replace(/"/g, '\\"')}";position:absolute;left:50%;transform:translateX(-50%);bottom:-26px;white-space:nowrap;padding:0 8px;border-radius:10px;background:${coral};color:#fff;font:700 14px/22px 'Baloo 2',cursive}`;
+    out.bodyHtml = built.bodyHtml + `<style data-lcs-key>[data-sci-item]{position:relative}${tag('good')}${tag('bad')}</style>`;
+    return out;
   },
+  interactive: require('./K-319-feelings.js').interactiveFor('sort'),
 
   async verify(page) {
     const base = await factoryVerify(page);

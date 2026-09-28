@@ -199,5 +199,59 @@
       "nl": "Tik op elk woord met de tweetekenklank uit de titel. Druk daarna op de knop om na te kijken.",
       "fi": "Napauta jokaista sanaa, jossa on etsittävä pitkä vokaali. Paina sitten tarkistusnappia."
     }
+  },
+  "feelings": {
+    "match": {
+      "en": "Look at each face. Tap the feeling word that goes with it.",
+      "de": "Schau jedes Gesicht an. Tippe auf das Gefühlswort, das dazu passt.",
+      "es": "Mira cada cara. Toca la palabra que dice cómo se siente.",
+      "fr": "Regarde chaque visage. Touche le mot qui dit ce qu'il ressent.",
+      "it": "Guarda ogni faccia. Tocca la parola che dice come si sente.",
+      "pt": "Olhe cada carinha. Toque na palavra que diz como ela está se sentindo.",
+      "nl": "Kijk naar elk gezichtje. Tik op het gevoelswoord dat erbij hoort.",
+      "sv": "Titta på varje ansikte. Tryck på det känsloord som passar.",
+      "da": "Se på hvert ansigt. Tryk på det ord, der passer til det.",
+      "no": "Se på hvert ansikt. Trykk på følelsesordet som passer.",
+      "fi": "Katso jokaista ilmettä. Napauta tunnesanaa, joka sopii siihen."
+    },
+    "scene": {
+      "en": "Look at each picture. How would you feel? Tap the face.",
+      "de": "Schau jedes Bild an. Wie würdest du dich fühlen? Tippe auf das passende Gesicht.",
+      "es": "Mira cada dibujo. ¿Cómo te sentirías tú? Toca la cara.",
+      "fr": "Regarde chaque image. Comment te sentirais-tu ? Touche le visage.",
+      "it": "Guarda ogni disegno. Come ti sentiresti tu? Tocca la faccia.",
+      "pt": "Olhe cada figura. Como você se sentiria? Toque na carinha.",
+      "nl": "Kijk naar elk plaatje. Hoe zou jij je voelen? Tik op het gezichtje.",
+      "sv": "Titta på varje bild. Hur skulle du känna dig? Tryck på ansiktet.",
+      "da": "Se på hvert billede. Hvordan ville du have det? Tryk på det ansigt, der passer.",
+      "no": "Se på hvert bilde. Hvordan ville du følt deg? Trykk på ansiktet.",
+      "fi": "Katso jokaista kuvaa. Miltä sinusta tuntuisi? Napauta ilmettä."
+    },
+    "sort": {
+      "en": "Look at each face. Does it feel good or bad? Tap the correct answer.",
+      "de": "Schau jedes Gesicht an. Ist das Gefühl angenehm oder unangenehm? Tippe auf den richtigen Kasten.",
+      "es": "Mira cada cara. ¿Esa emoción es agradable o desagradable? Toca la palabra correcta.",
+      "fr": "Regarde chaque visage. Cette émotion est-elle agréable ou désagréable ? Touche le bon mot.",
+      "it": "Guarda ogni faccia. L'emozione è piacevole o spiacevole? Tocca la parola giusta.",
+      "pt": "Olhe cada carinha. Essa emoção é agradável ou desagradável? Toque na palavra certa.",
+      "nl": "Kijk naar elk gezichtje. Is dit gevoel fijn of niet fijn? Tik op het goede vak.",
+      "sv": "Titta på varje ansikte. Känns känslan bra eller dåligt? Tryck på rätt ruta.",
+      "da": "Se på hvert ansigt. Er følelsen rar eller ikke rar? Tryk på den rigtige kasse.",
+      "no": "Se på hvert ansikt. Kjennes følelsen godt eller vondt? Trykk på riktig boks.",
+      "fi": "Katso jokaista ilmettä. Onko tunne mukava vai ikävä? Napauta oikeaa laatikkoa."
+    },
+    "choice": {
+      "en": "Read each feeling word. Tap the face that shows it.",
+      "de": "Lies jedes Gefühlswort. Tippe auf das Gesicht, das dieses Gefühl zeigt.",
+      "es": "Lee cada palabra. Toca la cara que muestra esa emoción.",
+      "fr": "Lis chaque mot. Touche le visage qui montre cette émotion.",
+      "it": "Leggi ogni parola. Tocca la faccia che mostra quell'emozione.",
+      "pt": "Leia cada palavra. Toque na carinha que mostra esse sentimento.",
+      "nl": "Lees elk gevoelswoord. Tik op het gezichtje dat dit gevoel laat zien.",
+      "sv": "Läs varje känsloord. Tryck på det ansikte som visar känslan.",
+      "da": "Læs hvert ord. Tryk på det ansigt, der viser følelsen.",
+      "no": "Les hvert følelsesord. Trykk på ansiktet som viser følelsen.",
+      "fi": "Lue jokainen tunnesana. Napauta ilmettä, joka näyttää sen tunteen."
+    }
   }
 }

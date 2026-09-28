@@ -387,5 +387,83 @@
    "no": "Trykk på ordet som er det motsatte: ordet med u- foran.",
    "fi": "Lue sana. Napauta sen vastakohtaa, jossa on etuliite epä-."
   }
+ },
+ "pronouns": {
+  "base": {
+   "en": "Tap the word we use instead of the name.",
+   "de": "Tippe auf das Wort, das wir statt des Namens sagen.",
+   "es": "Toca el pronombre que usamos en lugar del nombre.",
+   "fr": "Touche le mot que l'on emploie à la place du prénom.",
+   "it": "Tocca la parola che usiamo al posto del nome.",
+   "pt": "Toque na palavra que usamos no lugar do nome.",
+   "nl": "Tik op het woord dat we in plaats van de naam zeggen.",
+   "fi": "Napauta sanaa, jota käytämme nimen sijasta.",
+   "da": "Tryk på det ord, vi siger i stedet for navnet.",
+   "sv": "Tryck på ordet som vi säger i stället för namnet.",
+   "no": "Trykk på ordet vi bruker i stedet for navnet."
+  },
+  "replace": {
+   "en": "Tap the word that replaces the name.",
+   "de": "Tippe auf das Wort, das den Namen ersetzt.",
+   "es": "Toca el pronombre que sustituye al nombre.",
+   "fr": "Touche le mot qui remplace le prénom.",
+   "it": "Tocca la parola che sostituisce il nome.",
+   "pt": "Toque na palavra que troca o nome.",
+   "nl": "Tik op het woord dat de naam vervangt.",
+   "fi": "Napauta sanaa, joka korvaa nimen.",
+   "da": "Tryk på det ord, der erstatter navnet.",
+   "sv": "Tryck på ordet som ersätter namnet.",
+   "no": "Trykk på ordet som erstatter navnet."
+  },
+  "anaphora": {
+   "en": "Tap the name each word in a box stands for.",
+   "de": "Tippe bei jedem Wort im Rahmen auf den Namen, für den es steht.",
+   "es": "Toca el nombre al que se refiere cada pronombre del cuadro.",
+   "fr": "Touche le prénom que remplace chaque mot encadré.",
+   "it": "Per ogni parola nella casella, tocca il nome a cui si riferisce.",
+   "pt": "Toque no nome que cada palavra da caixinha substitui.",
+   "nl": "Tik bij elk woord in een vak op de naam waarvoor het staat.",
+   "fi": "Napauta nimeä, jota laatikon sana tarkoittaa.",
+   "da": "Tryk på det navn, som hvert ord i en kasse står for.",
+   "sv": "Tryck på namnet som varje ord i rutan står för.",
+   "no": "Trykk på navnet som hvert ord i en boks står for."
+  },
+  "possessive": {
+   "en": "Tap the word that shows who owns the thing.",
+   "de": "Tippe auf das Wort, das zeigt, wem das Ding gehört.",
+   "fr": "Touche le mot qui montre à qui est l'objet.",
+   "it": "Tocca la parola che dice di chi è la cosa.",
+   "pt": "Toque na palavra que mostra de quem é a coisa.",
+   "nl": "Tik op het woord dat laat zien van wie het ding is.",
+   "da": "Tryk på det ord, der viser, hvem tingen tilhører.",
+   "sv": "Tryck på ordet som visar vem som äger saken.",
+   "no": "Trykk på ordet som viser hvem som eier tingen."
+  },
+  "sort": {
+   "en": "Tap the word we use for each name card.",
+   "de": "Tippe für jede Namenskarte auf das Wort, das wir dafür sagen.",
+   "es": "Toca el pronombre que usamos para cada tarjeta con nombre.",
+   "fr": "Touche le mot que l'on emploie pour chaque carte prénom.",
+   "it": "Per ogni cartellino, tocca la parola che usiamo per quel nome.",
+   "pt": "Toque na palavra que usamos para cada cartão de nome.",
+   "nl": "Tik bij elke naamkaart op het woord dat we voor die naam zeggen.",
+   "fi": "Napauta jokaisen nimikortin kohdalla sanaa, jota käytämme nimen sijasta.",
+   "da": "Tryk på det ord, vi bruger om personen på hvert navnekort.",
+   "sv": "Tryck på ordet som vi säger i stället för namnet på kortet.",
+   "no": "Trykk på ordet vi bruker om personen på hvert navnekort."
+  },
+  "rewrite": {
+   "en": "Tap the sentence that uses the right word instead of the name.",
+   "de": "Tippe auf den Satz, der statt des Namens das richtige Wort benutzt.",
+   "es": "Toca la oración que usa el pronombre correcto en lugar del nombre.",
+   "fr": "Touche la phrase qui emploie le bon mot à la place du prénom.",
+   "it": "Tocca la frase che usa la parola giusta al posto del nome.",
+   "pt": "Toque na frase que usa a palavra certa no lugar do nome.",
+   "nl": "Tik op de zin die het goede woord gebruikt in plaats van de naam.",
+   "fi": "Napauta lausetta, jossa nimen sijasta on oikea sana.",
+   "da": "Tryk på den sætning, der bruger det rigtige ord i stedet for navnet.",
+   "sv": "Tryck på meningen som har rätt ord i stället för namnet.",
+   "no": "Trykk på setningen som bruker riktig ord i stedet for navnet."
+  }
  }
 }

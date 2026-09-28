@@ -189,6 +189,9 @@ function longestNames(block, gender, n) {
 /**
  * validateBank(block, loc, opts) -> string[] of failures (empty = clean). opts.titleLines(title) -> lines (rule 13);
  * opts.en = the EN block (defaults to the module's). Pure node; reads vocab / taxonomy / SENTENCES / objForms.
+ * Level Set 2026-09-28 (the merged bank of NEW copies only; the published bank is validated without these):
+ * opts.extraOpened = { key: [theme, noun, depicted, minPx] } — portraits opened for the Level Set (B&W allowed:
+ * the programme uses the whole library); opts.maxNames lifts the 16-name cap.
  */
 function validateBank(block, loc, opts = {}) {
   const out = [];
@@ -200,9 +203,17 @@ function validateBank(block, loc, opts = {}) {
   // rule 1 — people === OPENED
   const people = Array.isArray(block.people) ? block.people : [];
   const keys = people.map((p) => p.key);
-  if (people.length !== Object.keys(OPENED).length) push(`rule 1: ${people.length} people, the OPENED record has ${Object.keys(OPENED).length}`);
+  const extra = opts.extraOpened || {};
+  if (people.length !== Object.keys(OPENED).length + Object.keys(extra).length) push(`rule 1: ${people.length} people, the OPENED record has ${Object.keys(OPENED).length}`);
   if (new Set(keys).size !== keys.length) push('rule 1: a person key twice');
   for (const p of people) {
+    const xr = extra[p.key];
+    if (xr) {
+      if (OPENED[p.key]) push(`rule 1: Level Set portrait "${p.key}" reuses a published key`);
+      if (!p.pic || p.pic.theme !== xr[0] || p.pic.noun !== xr[1] || p.depicted !== xr[2] || p.minPx !== xr[3] || p.picOpened !== true) push(`rule 1: Level Set portrait "${p.key}" does not match its opened record`);
+      if (p.pic && !fileExists(p.pic.theme, p.pic.noun)) push(`rule 1: "${p.key}" picture ${p.pic.theme}/${p.pic.noun} does not exist`);
+      continue;
+    }
     const rec = OPENED[p.key];
     if (!rec) { push(`rule 1: "${p.key}" is not an OPENED portrait${EXCLUDED.includes(p.key) ? ' (EXCLUDED by the design)' : ''}`); continue; }
     if (!p.pic || p.pic.theme !== rec[0] || p.pic.noun !== p.key) push(`rule 1: "${p.key}" pins ${p.pic && p.pic.theme}/${p.pic && p.pic.noun}, opened as ${rec[0]}/${p.key}`);
@@ -224,7 +235,7 @@ function validateBank(block, loc, opts = {}) {
   const floorN = isFi ? 8 : 6;
   const nf = names.filter((n) => n.gender === 'f').length, nm = names.filter((n) => n.gender === 'm').length;
   if (nf < floorN || nm < floorN || nf + nm !== names.length) push(`rule 2: ${nf} f / ${nm} m names (want >= ${floorN} / >= ${floorN}, every one tagged m|f)`);
-  if (names.length > 16) push(`rule 2: ${names.length} names > 16`);
+  if (names.length > (opts.maxNames || 16)) push(`rule 2: ${names.length} names > ${opts.maxNames || 16}`);
   if (new Set(names.map((n) => nfd(n.name))).size !== names.length) push('rule 2: a name twice (NFD, case-insensitive)');
   const literals = [...(block.chips || []), ...(block.initial || []), ...((block.possessive && block.possessive.chips) || []), block.and].filter(Boolean).map(nfd);
   for (const n of names) { if (!n.name || !/^\p{Lu}/u.test(n.name)) push(`rule 2: name "${n.name}" is empty or not capitalised`); if (literals.includes(nfd(n.name))) push(`rule 2: name "${n.name}" equals a chip / initial / possessive / and literal`); if (n.ambiguousInLocale) push(`rule 2: name "${n.name}" is ambiguousInLocale`); }
@@ -330,7 +341,11 @@ function validateBank(block, loc, opts = {}) {
       if (!t) { push(`rule 6: possessive frame.${k} missing`); continue; }
       if ((t.match(/\{subj\}/g) || []).length !== 1 || (t.match(/___/g) || []).length !== 1 || (t.match(/\{thing\}/g) || []).length !== 1) push(`rule 6: possessive frame.${k} slots ("${t}")`);
       if (((t.match(/\{art\}/g) || []).length === 1) !== !!P.artTable) push(`rule 6: possessive frame.${k} {art} iff artTable`);
-      const filledN = k === 'pl' ? longestPair : longestNames(block, null, 1)[0];
+      // Level Set (opts.possessiveFitEach): the builder picks, per lane, a thing that fits maxLine 43 with that lane's names
+      // (buildPossessive), so the merged bank is checked per thing with the SHORTEST names — every thing can reach a page —
+      // not by the published bank's worst case (longest names x longest thing), which would cap names at 4 letters
+      const byLenAsc = (arr) => arr.slice().sort((x, y) => [...x].length - [...y].length);
+      const filledN = opts.possessiveFitEach ? (k === 'pl' ? TYPE.fillSubject('{subj}', byLenAsc(block.names.map((n) => n.name)).slice(0, 2), block.and, block.andBefore) : byLenAsc(block.names.map((n) => n.name))[0]) : (k === 'pl' ? longestPair : longestNames(block, null, 1)[0]);
       const longestThing = (P.things || []).map((x) => x.key).sort((a, b) => b.length - a.length)[0] || '';
       const filled = t.replace('{subj}', filledN).replace('{thing}', longestThing).replace('{art}', P.artTable ? Object.values(P.artTable).sort((a, b) => b.length - a.length)[0] : '');
       if ([...filled].length > 43) push(`rule 6: possessive frame.${k} filled "${filled}" is ${[...filled].length} > 43`);
@@ -492,7 +507,8 @@ function crossCheck(items, bank, cfgPx) {
       if (!bank.objectMap || bank.objectMap[code] !== it.chipKey) out.push(`${L}: object chip ${it.chipKey} != objectMap.${code}`);
       return;
     }
-    const refs = it.refs.map((k, j) => { const p = byKey.get(k); if (!p) { out.push(`${L}: portrait "${k}" is not in the bank`); return null; } const rec = OPENED[k]; if (!rec) out.push(`${L}: portrait "${k}" was never OPENED`); return { key: k, depicted: rec ? rec[1] : p.depicted, name: it.names[j], nameGender: nameG.get(nfd(it.names[j])) }; }).filter(Boolean);
+    const refs = it.refs.map((k, j) => { const p = byKey.get(k); if (!p) { out.push(`${L}: portrait "${k}" is not in the bank`); return null; } const lsRec = require('../tools/level-set/pron-common.js').LS_OPENED[k];   // Level Set 2026-09-28: the portraits opened in session
+      const rec = OPENED[k] || (lsRec ? [lsRec[0], lsRec[2], lsRec[3]] : null); if (!rec) out.push(`${L}: portrait "${k}" was never OPENED`); return { key: k, depicted: rec ? rec[1] : p.depicted, name: it.names[j], nameGender: nameG.get(nfd(it.names[j])) }; }).filter(Boolean);
     if (refs.length !== it.refs.length) return;
     let key;
     try { key = TYPE.keyOf(refs, bank); } catch (e) { out.push(`${L}: ${e.message}`); return; }
@@ -613,7 +629,8 @@ async function main() {
     for (const d of [1, 2]) {
       const r = await renderWith(page, TYPE, { difficulty: d, baseName: `G1-352-gate-d${d}-en` });
       assertRender(`d${d} en`, r, { cards: TYPE.difficulty[d].cards });
-      const cc = crossCheck(r.m.items, en);
+      // Level Set 2026-09-28: level 1 is a new copy and reads the MERGED bank (published + the panels' names + the opened portraits)
+      const cc = crossCheck(r.m.items, d === 2 ? en : TYPE.mergedBank('en'));
       ok(cc.length === 0, `d${d} en node cross-check: ${cc.join(' | ')}`);
       seen[d] = r;
       console.log(`render d${d} en: verify ${r.verify.length} lints ${r.lints.length} body ${Math.round(r.m.body.h)} card ${r.m.cards[0].h.toFixed(1)} inner ${r.m.cards[0].inner.toFixed(1)} stage ${r.m.items[0].stage} overflow ${Math.max(...r.m.items.map((i) => i.overflow))} lowest ${Math.round(r.m.lowest)} vs foot ${Math.round(r.m.foot)}`);
@@ -629,11 +646,12 @@ async function main() {
       ok(cc.length === 0, `d2 3+3 chrome node cross-check: ${cc.join(' | ')}`);
       console.log(`render d2 en 3+3 chrome: body ${r.m.body.h.toFixed(1)} card ${r.m.cards[0].h.toFixed(1)} inner ${r.m.cards[0].inner.toFixed(1)} content ${r.m.items.map((i) => Math.round(i.content)).join('/')} overflow ${Math.max(...r.m.items.map((i) => i.overflow))} lowest ${Math.round(r.m.lowest)} vs foot ${Math.round(r.m.foot)}`);
     }
-    // d3 under the 722 chrome — UNPUBLISHED by design: its only failure must be the stage overflow
+    // d3 under the 722 chrome — Level Set 2026-09-28: the harder level is NAMES ONLY (no portraits), which frees the stage the
+    // old unpublished d3 overflowed: it must now render CLEAN, 10 cards, no portrait
     {
       const r = await renderWith(page, TYPE, { difficulty: 3, baseName: 'G1-352-gate-d3-en-chrome722', strings: CHROME.three });
       ok(r.m.cards.length === 10, `d3: ${r.m.cards.length} cards`);
-      ok(r.verify.length > 0 && r.verify.every((f) => /stage overflow|spills past/.test(f)), `d3 at 722: expected ONLY stage-overflow failures, got ${JSON.stringify(r.verify)}`);
+      ok(r.verify.length === 0, `d3 at 722 (names only): verify ${JSON.stringify(r.verify)}`);
       console.log(`render d3 en 3+3 chrome (unpublished by design): card ${r.m.cards[0].h.toFixed(1)} inner ${r.m.cards[0].inner.toFixed(1)} content ${Math.round(r.m.items[0].content)} overflow ${Math.max(...r.m.items.map((i) => i.overflow))} → ${r.verify.length} stage-overflow lines`);
     }
     // PR8 — the base under a 4-line title (677): must FAIL (the footer lint or the stage overflow)

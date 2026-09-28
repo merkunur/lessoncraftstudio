@@ -1,0 +1,9988 @@
+{
+ "_note": "Level Set 2026-09-28 — Personal Pronouns: names, sentence frames, \"who is he\" frames, one-person-plus-a-pair frames (two clauses) and possessive things by 11 native panels, + 8 portraits opened in session (pron-common.js LS_OPENED); importer tools/level-set/import-pron-panels.js. Merged onto the published bank by G1-352 mergedBank() for NEW copies only; the published pages never read this file.",
+ "people": [
+  {
+   "key": "doctor_hospital",
+   "pic": {
+    "theme": "hospital",
+    "noun": "doctor"
+   },
+   "depicted": "m",
+   "minPx": 44,
+   "picOpened": true
+  },
+  {
+   "key": "nurse_hospital",
+   "pic": {
+    "theme": "hospital",
+    "noun": "nurse"
+   },
+   "depicted": "f",
+   "minPx": 44,
+   "picOpened": true
+  },
+  {
+   "key": "teacher_classroom",
+   "pic": {
+    "theme": "classroom",
+    "noun": "teacher"
+   },
+   "depicted": "f",
+   "minPx": 44,
+   "picOpened": true
+  },
+  {
+   "key": "librarian_classroom",
+   "pic": {
+    "theme": "classroom",
+    "noun": "librarian"
+   },
+   "depicted": "f",
+   "minPx": 44,
+   "picOpened": true
+  },
+  {
+   "key": "singer_music",
+   "pic": {
+    "theme": "music",
+    "noun": "singer"
+   },
+   "depicted": "f",
+   "minPx": 44,
+   "picOpened": true
+  }
+ ],
+ "en": {
+  "names": [
+   {
+    "name": "Nora",
+    "gender": "f"
+   },
+   {
+    "name": "Ella",
+    "gender": "f"
+   },
+   {
+    "name": "Nina",
+    "gender": "f"
+   },
+   {
+    "name": "Sara",
+    "gender": "f"
+   },
+   {
+    "name": "Maya",
+    "gender": "f"
+   },
+   {
+    "name": "Lucy",
+    "gender": "f"
+   },
+   {
+    "name": "Leah",
+    "gender": "f"
+   },
+   {
+    "name": "Rosa",
+    "gender": "f"
+   },
+   {
+    "name": "Kate",
+    "gender": "f"
+   },
+   {
+    "name": "Amy",
+    "gender": "f"
+   },
+   {
+    "name": "Luna",
+    "gender": "f"
+   },
+   {
+    "name": "Mila",
+    "gender": "f"
+   },
+   {
+    "name": "Noah",
+    "gender": "m"
+   },
+   {
+    "name": "Liam",
+    "gender": "m"
+   },
+   {
+    "name": "Owen",
+    "gender": "m"
+   },
+   {
+    "name": "Omar",
+    "gender": "m"
+   },
+   {
+    "name": "Adam",
+    "gender": "m"
+   },
+   {
+    "name": "Luke",
+    "gender": "m"
+   },
+   {
+    "name": "Theo",
+    "gender": "m"
+   },
+   {
+    "name": "Ryan",
+    "gender": "m"
+   },
+   {
+    "name": "Ian",
+    "gender": "m"
+   },
+   {
+    "name": "Hugo",
+    "gender": "m"
+   },
+   {
+    "name": "Evan",
+    "gender": "m"
+   },
+   {
+    "name": "Ivan",
+    "gender": "m"
+   },
+   {
+    "name": "Sofia",
+    "gender": "f"
+   },
+   {
+    "name": "Chloe",
+    "gender": "f"
+   },
+   {
+    "name": "Olivia",
+    "gender": "f"
+   },
+   {
+    "name": "Amelia",
+    "gender": "f"
+   },
+   {
+    "name": "Hannah",
+    "gender": "f"
+   },
+   {
+    "name": "Emily",
+    "gender": "f"
+   },
+   {
+    "name": "Julia",
+    "gender": "f"
+   },
+   {
+    "name": "Clara",
+    "gender": "f"
+   },
+   {
+    "name": "Naomi",
+    "gender": "f"
+   },
+   {
+    "name": "Isabel",
+    "gender": "f"
+   },
+   {
+    "name": "Aisha",
+    "gender": "f"
+   },
+   {
+    "name": "Layla",
+    "gender": "f"
+   },
+   {
+    "name": "Lucas",
+    "gender": "m"
+   },
+   {
+    "name": "Ethan",
+    "gender": "m"
+   },
+   {
+    "name": "Henry",
+    "gender": "m"
+   },
+   {
+    "name": "Jacob",
+    "gender": "m"
+   },
+   {
+    "name": "Mateo",
+    "gender": "m"
+   },
+   {
+    "name": "Oliver",
+    "gender": "m"
+   },
+   {
+    "name": "Samuel",
+    "gender": "m"
+   },
+   {
+    "name": "Daniel",
+    "gender": "m"
+   },
+   {
+    "name": "Caleb",
+    "gender": "m"
+   },
+   {
+    "name": "Isaac",
+    "gender": "m"
+   },
+   {
+    "name": "Gabriel",
+    "gender": "m"
+   },
+   {
+    "name": "Elijah",
+    "gender": "m"
+   }
+  ],
+  "frames": [
+   {
+    "id": "wash-cup",
+    "sg": "{subj} washes a cup.",
+    "pl": "{subj} wash a cup."
+   },
+   {
+    "id": "kick-ball",
+    "sg": "{subj} kicks the ball.",
+    "pl": "{subj} kick the ball."
+   },
+   {
+    "id": "fly-kite",
+    "sg": "{subj} flies a kite.",
+    "pl": "{subj} fly a kite."
+   },
+   {
+    "id": "count-blocks",
+    "sg": "{subj} counts the blocks.",
+    "pl": "{subj} count the blocks."
+   },
+   {
+    "id": "plant-seed",
+    "sg": "{subj} plants a seed.",
+    "pl": "{subj} plant a seed."
+   },
+   {
+    "id": "make-card",
+    "sg": "{subj} makes a card.",
+    "pl": "{subj} make a card."
+   },
+   {
+    "id": "hug-cat",
+    "sg": "{subj} hugs the cat.",
+    "pl": "{subj} hug the cat."
+   },
+   {
+    "id": "swim-pool",
+    "sg": "{subj} swims in the pool.",
+    "pl": "{subj} swim in the pool."
+   },
+   {
+    "id": "write-word",
+    "sg": "{subj} writes a word.",
+    "pl": "{subj} write a word."
+   },
+   {
+    "id": "climb-slide",
+    "sg": "{subj} climbs the slide.",
+    "pl": "{subj} climb the slide."
+   },
+   {
+    "id": "help-home",
+    "sg": "{subj} helps at home.",
+    "pl": "{subj} help at home."
+   },
+   {
+    "id": "clean-table",
+    "sg": "{subj} cleans the table.",
+    "pl": "{subj} clean the table."
+   },
+   {
+    "id": "brush-dog",
+    "sg": "{subj} brushes the dog.",
+    "pl": "{subj} brush the dog."
+   },
+   {
+    "id": "open-door",
+    "sg": "{subj} opens the door.",
+    "pl": "{subj} open the door."
+   },
+   {
+    "id": "run-school",
+    "sg": "{subj} runs to school.",
+    "pl": "{subj} run to school."
+   },
+   {
+    "id": "dig-sand",
+    "sg": "{subj} digs in the sand.",
+    "pl": "{subj} dig in the sand."
+   },
+   {
+    "id": "blow-bubbles",
+    "sg": "{subj} blows bubbles.",
+    "pl": "{subj} blow bubbles."
+   },
+   {
+    "id": "wave-class",
+    "sg": "{subj} waves to the class.",
+    "pl": "{subj} wave to the class."
+   },
+   {
+    "id": "carry-box",
+    "sg": "{subj} carries the box.",
+    "pl": "{subj} carry the box."
+   },
+   {
+    "id": "share-crayons",
+    "sg": "{subj} shares the crayons.",
+    "pl": "{subj} share the crayons."
+   },
+   {
+    "id": "nap-rug",
+    "sg": "{subj} naps on the rug.",
+    "pl": "{subj} nap on the rug."
+   },
+   {
+    "id": "rake-leaves",
+    "sg": "{subj} rakes the leaves.",
+    "pl": "{subj} rake the leaves."
+   },
+   {
+    "id": "sit-table",
+    "sg": "{subj} sits at the table.",
+    "pl": "{subj} sit at the table."
+   },
+   {
+    "id": "watch-birds",
+    "sg": "{subj} watches the birds.",
+    "pl": "{subj} watch the birds."
+   }
+  ],
+  "anaphora": [
+   {
+    "id": "library",
+    "intro": "{a} and {b} are at the library.",
+    "s": [
+     {
+      "text": "{P} finds a book.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} reads a comic.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "pool",
+    "intro": "{a} and {b} are at the pool.",
+    "s": [
+     {
+      "text": "{P} swims fast.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} jumps in.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "farm",
+    "intro": "{a} and {b} are on the farm.",
+    "s": [
+     {
+      "text": "{P} feeds a hen.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} pets a lamb.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "playground",
+    "intro": "{a} and {b} are at the playground.",
+    "s": [
+     {
+      "text": "{P} goes down the slide.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} rides a swing.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "store",
+    "intro": "{a} and {b} are at the store.",
+    "s": [
+     {
+      "text": "{P} buys bread.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} buys eggs.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "snow",
+    "intro": "{a} and {b} are in the snow.",
+    "s": [
+     {
+      "text": "{P} makes a snowman.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} rides a sled.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "art",
+    "intro": "{a} and {b} are in art class.",
+    "s": [
+     {
+      "text": "{P} paints a sun.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} cuts paper.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "picnic",
+    "intro": "{a} and {b} are at a picnic.",
+    "s": [
+     {
+      "text": "{P} eats a pear.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} drinks juice.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "music",
+    "intro": "{a} and {b} are in music class.",
+    "s": [
+     {
+      "text": "{P} plays a drum.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} rings a bell.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bedtime",
+    "intro": "{a} and {b} get ready for bed.",
+    "s": [
+     {
+      "text": "{P} brushes teeth.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} puts on pajamas.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "party",
+    "intro": "{a} and {b} are at a party.",
+    "s": [
+     {
+      "text": "{P} wears a party hat.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} blows a horn.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "rain",
+    "intro": "{a} and {b} are out in the rain.",
+    "s": [
+     {
+      "text": "{P} has an umbrella.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} jumps in a puddle.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "camp",
+    "intro": "{a} and {b} are at camp.",
+    "s": [
+     {
+      "text": "{P} sets up a tent.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} looks at the stars.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "pet-shop",
+    "intro": "{a} and {b} are at the pet shop.",
+    "s": [
+     {
+      "text": "{P} holds a puppy.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} looks at a fish.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "lake",
+    "intro": "{a} and {b} are at the lake.",
+    "s": [
+     {
+      "text": "{P} rows a boat.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} skips a stone.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bakery",
+    "intro": "{a} and {b} are at the bakery.",
+    "s": [
+     {
+      "text": "{P} gets a muffin.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} gets a roll.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "anaphoraSgpl": [
+   {
+    "id": "sp-home-park",
+    "introA": "{a} is at home.",
+    "introB": "{b} are at the park.",
+    "s": [
+     {
+      "text": "{P} bakes a cake.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} fly a kite.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-school-pool",
+    "introA": "{a} is at school.",
+    "introB": "{b} are at the pool.",
+    "s": [
+     {
+      "text": "{P} reads a book.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} swim fast.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-beach-farm",
+    "introA": "{a} is at the beach.",
+    "introB": "{b} are on the farm.",
+    "s": [
+     {
+      "text": "{P} digs a hole.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} feed the hens.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-zoo-library",
+    "introA": "{a} is at the zoo.",
+    "introB": "{b} are at the library.",
+    "s": [
+     {
+      "text": "{P} sees a lion.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} read a story.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-garden-snow",
+    "introA": "{a} is in the garden.",
+    "introB": "{b} are in the snow.",
+    "s": [
+     {
+      "text": "{P} picks a flower.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} make a snowman.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-kitchen-bus",
+    "introA": "{a} is in the kitchen.",
+    "introB": "{b} are on the bus.",
+    "s": [
+     {
+      "text": "{P} cracks an egg.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} sit by the window.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-store-lake",
+    "introA": "{a} is at the store.",
+    "introB": "{b} are at the lake.",
+    "s": [
+     {
+      "text": "{P} buys bread.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} row a boat.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-bed-playground",
+    "introA": "{a} is in bed.",
+    "introB": "{b} are at the playground.",
+    "s": [
+     {
+      "text": "{P} reads a story.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} go down the slide.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-art-music",
+    "introA": "{a} is in art class.",
+    "introB": "{b} are in music class.",
+    "s": [
+     {
+      "text": "{P} paints a sun.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} play the drums.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-camp-party",
+    "introA": "{a} is at camp.",
+    "introB": "{b} are at a party.",
+    "s": [
+     {
+      "text": "{P} sets up a tent.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} blow up balloons.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-bakery-petshop",
+    "introA": "{a} is at the bakery.",
+    "introB": "{b} are at the pet shop.",
+    "s": [
+     {
+      "text": "{P} gets a muffin.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} hold a puppy.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-yard-gym",
+    "introA": "{a} is in the yard.",
+    "introB": "{b} are in the gym.",
+    "s": [
+     {
+      "text": "{P} rakes the leaves.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} throw a ball.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "things": [
+   {
+    "key": "fish",
+    "pic": {
+     "theme": "animals",
+     "noun": "fish"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "cap",
+    "pic": {
+     "theme": "clothing",
+     "noun": "cap"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "scarf",
+    "pic": {
+     "theme": "clothing",
+     "noun": "scarf"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "boat",
+    "pic": {
+     "theme": "toys",
+     "noun": "boat"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "cup",
+    "pic": {
+     "theme": "kitchen tools",
+     "noun": "cup"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "sled",
+    "pic": {
+     "theme": "winter",
+     "noun": "sled"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "watch",
+    "pic": {
+     "theme": "accessories",
+     "noun": "watch"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "crayon",
+    "pic": {
+     "theme": "classroom",
+     "noun": "crayon"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "pencil",
+    "pic": {
+     "theme": "classroom",
+     "noun": "pencil"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "puzzle",
+    "pic": {
+     "theme": "activities",
+     "noun": "puzzle"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rabbit",
+    "pic": {
+     "theme": "animals",
+     "noun": "rabbit"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "guitar",
+    "pic": {
+     "theme": "music",
+     "noun": "guitar"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "jacket",
+    "pic": {
+     "theme": "clothing",
+     "noun": "jacket"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "bucket",
+    "pic": {
+     "theme": "toys",
+     "noun": "bucket"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "shovel",
+    "pic": {
+     "theme": "toys",
+     "noun": "shovel"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "pillow",
+    "pic": {
+     "theme": "around the house",
+     "noun": "pillow"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rocket",
+    "pic": {
+     "theme": "toys",
+     "noun": "rocket"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "turtle",
+    "pic": {
+     "theme": "pets",
+     "noun": "turtle"
+    },
+    "picOpened": true
+   }
+  ]
+ },
+ "de": {
+  "names": [
+   {
+    "name": "Hanna",
+    "gender": "f"
+   },
+   {
+    "name": "Clara",
+    "gender": "f"
+   },
+   {
+    "name": "Marie",
+    "gender": "f"
+   },
+   {
+    "name": "Ella",
+    "gender": "f"
+   },
+   {
+    "name": "Ida",
+    "gender": "f"
+   },
+   {
+    "name": "Mila",
+    "gender": "f"
+   },
+   {
+    "name": "Greta",
+    "gender": "f"
+   },
+   {
+    "name": "Luisa",
+    "gender": "f"
+   },
+   {
+    "name": "Aylin",
+    "gender": "f"
+   },
+   {
+    "name": "Lotta",
+    "gender": "f"
+   },
+   {
+    "name": "Ronja",
+    "gender": "f"
+   },
+   {
+    "name": "Lara",
+    "gender": "f"
+   },
+   {
+    "name": "Jonas",
+    "gender": "m"
+   },
+   {
+    "name": "Elias",
+    "gender": "m"
+   },
+   {
+    "name": "Felix",
+    "gender": "m"
+   },
+   {
+    "name": "Emil",
+    "gender": "m"
+   },
+   {
+    "name": "Anton",
+    "gender": "m"
+   },
+   {
+    "name": "Theo",
+    "gender": "m"
+   },
+   {
+    "name": "Jakob",
+    "gender": "m"
+   },
+   {
+    "name": "Oskar",
+    "gender": "m"
+   },
+   {
+    "name": "Lukas",
+    "gender": "m"
+   },
+   {
+    "name": "Ali",
+    "gender": "m"
+   },
+   {
+    "name": "Tom",
+    "gender": "m"
+   },
+   {
+    "name": "Henri",
+    "gender": "m"
+   },
+   {
+    "name": "Frida",
+    "gender": "f"
+   },
+   {
+    "name": "Maja",
+    "gender": "f"
+   },
+   {
+    "name": "Leni",
+    "gender": "f"
+   },
+   {
+    "name": "Sara",
+    "gender": "f"
+   },
+   {
+    "name": "Lisa",
+    "gender": "f"
+   },
+   {
+    "name": "Julia",
+    "gender": "f"
+   },
+   {
+    "name": "Sofia",
+    "gender": "f"
+   },
+   {
+    "name": "Nora",
+    "gender": "f"
+   },
+   {
+    "name": "Elena",
+    "gender": "f"
+   },
+   {
+    "name": "Amira",
+    "gender": "f"
+   },
+   {
+    "name": "Zoe",
+    "gender": "f"
+   },
+   {
+    "name": "Tilda",
+    "gender": "f"
+   },
+   {
+    "name": "Karl",
+    "gender": "m"
+   },
+   {
+    "name": "Luis",
+    "gender": "m"
+   },
+   {
+    "name": "Ole",
+    "gender": "m"
+   },
+   {
+    "name": "Till",
+    "gender": "m"
+   },
+   {
+    "name": "Milan",
+    "gender": "m"
+   },
+   {
+    "name": "Leo",
+    "gender": "m"
+   },
+   {
+    "name": "Hugo",
+    "gender": "m"
+   },
+   {
+    "name": "Erik",
+    "gender": "m"
+   },
+   {
+    "name": "Timo",
+    "gender": "m"
+   },
+   {
+    "name": "Omar",
+    "gender": "m"
+   },
+   {
+    "name": "Yusuf",
+    "gender": "m"
+   },
+   {
+    "name": "Mats",
+    "gender": "m"
+   }
+  ],
+  "frames": [
+   {
+    "id": "help-cook",
+    "sg": "{subj} hilft beim Kochen.",
+    "pl": "{subj} helfen beim Kochen."
+   },
+   {
+    "id": "play-sand",
+    "sg": "{subj} spielt im Sand.",
+    "pl": "{subj} spielen im Sand."
+   },
+   {
+    "id": "write-letter",
+    "sg": "{subj} schreibt einen Brief.",
+    "pl": "{subj} schreiben einen Brief."
+   },
+   {
+    "id": "run-meadow",
+    "sg": "{subj} rennt über die Wiese.",
+    "pl": "{subj} rennen über die Wiese."
+   },
+   {
+    "id": "swing-garden",
+    "sg": "{subj} schaukelt im Garten.",
+    "pl": "{subj} schaukeln im Garten."
+   },
+   {
+    "id": "slide",
+    "sg": "{subj} rutscht auf der Rutsche.",
+    "pl": "{subj} rutschen auf der Rutsche."
+   },
+   {
+    "id": "swim-lake",
+    "sg": "{subj} schwimmt im See.",
+    "pl": "{subj} schwimmen im See."
+   },
+   {
+    "id": "water-flowers",
+    "sg": "{subj} gießt die Blumen.",
+    "pl": "{subj} gießen die Blumen."
+   },
+   {
+    "id": "sandcastle",
+    "sg": "{subj} baut eine Sandburg.",
+    "pl": "{subj} bauen eine Sandburg."
+   },
+   {
+    "id": "count-stars",
+    "sg": "{subj} zählt die Sterne.",
+    "pl": "{subj} zählen die Sterne."
+   },
+   {
+    "id": "football",
+    "sg": "{subj} spielt Fußball.",
+    "pl": "{subj} spielen Fußball."
+   },
+   {
+    "id": "puzzle",
+    "sg": "{subj} macht ein Puzzle.",
+    "pl": "{subj} machen ein Puzzle."
+   },
+   {
+    "id": "eat-soup",
+    "sg": "{subj} isst eine Suppe.",
+    "pl": "{subj} essen eine Suppe."
+   },
+   {
+    "id": "drink-juice",
+    "sg": "{subj} trinkt Saft.",
+    "pl": "{subj} trinken Saft."
+   },
+   {
+    "id": "climb-tree",
+    "sg": "{subj} klettert auf den Baum.",
+    "pl": "{subj} klettern auf den Baum."
+   },
+   {
+    "id": "wait-bus",
+    "sg": "{subj} wartet auf den Bus.",
+    "pl": "{subj} warten auf den Bus."
+   },
+   {
+    "id": "set-table",
+    "sg": "{subj} deckt den Tisch.",
+    "pl": "{subj} decken den Tisch."
+   },
+   {
+    "id": "tidy-room",
+    "sg": "{subj} räumt das Zimmer auf.",
+    "pl": "{subj} räumen das Zimmer auf."
+   },
+   {
+    "id": "piano",
+    "sg": "{subj} spielt Klavier.",
+    "pl": "{subj} spielen Klavier."
+   },
+   {
+    "id": "dance",
+    "sg": "{subj} tanzt im Kreis.",
+    "pl": "{subj} tanzen im Kreis."
+   },
+   {
+    "id": "catch-ball",
+    "sg": "{subj} fängt den Ball.",
+    "pl": "{subj} fangen den Ball."
+   },
+   {
+    "id": "stroke-cat",
+    "sg": "{subj} streichelt die Katze.",
+    "pl": "{subj} streicheln die Katze."
+   },
+   {
+    "id": "cut-paper",
+    "sg": "{subj} schneidet Papier.",
+    "pl": "{subj} schneiden Papier."
+   },
+   {
+    "id": "sum-board",
+    "sg": "{subj} rechnet an der Tafel.",
+    "pl": "{subj} rechnen an der Tafel."
+   }
+  ],
+  "anaphora": [
+   {
+    "id": "playground",
+    "intro": "{a} und {b} sind auf dem Spielplatz.",
+    "s": [
+     {
+      "text": "{P} rutscht auf der Rutsche.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} sitzt auf der Schaukel.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "library",
+    "intro": "{a} und {b} sind in der Bücherei.",
+    "s": [
+     {
+      "text": "{P} liest ein Märchen.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} sucht ein Tierbuch.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "pool",
+    "intro": "{a} und {b} sind im Schwimmbad.",
+    "s": [
+     {
+      "text": "{P} springt ins Wasser.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} schwimmt eine Bahn.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "forest",
+    "intro": "{a} und {b} sind im Wald.",
+    "s": [
+     {
+      "text": "{P} findet einen Stock.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} sieht ein Reh.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "farm",
+    "intro": "{a} und {b} sind auf dem Bauernhof.",
+    "s": [
+     {
+      "text": "{P} füttert die Hühner.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} streichelt ein Pferd.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "snow",
+    "intro": "{a} und {b} spielen im Schnee.",
+    "s": [
+     {
+      "text": "{P} baut einen Schneemann.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} fährt Schlitten.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "crafts",
+    "intro": "{a} und {b} basteln zusammen.",
+    "s": [
+     {
+      "text": "{P} schneidet einen Stern.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} klebt ein Herz.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "breakfast",
+    "intro": "{a} und {b} frühstücken.",
+    "s": [
+     {
+      "text": "{P} isst ein Brötchen.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} trinkt Kakao.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "music",
+    "intro": "{a} und {b} machen Musik.",
+    "s": [
+     {
+      "text": "{P} spielt Flöte.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} schlägt die Trommel.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "shop",
+    "intro": "{a} und {b} sind im Supermarkt.",
+    "s": [
+     {
+      "text": "{P} trägt die Äpfel.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} schiebt den Wagen.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "party",
+    "intro": "{a} und {b} feiern ein Fest.",
+    "s": [
+     {
+      "text": "{P} bläst einen Ballon auf.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} isst ein Stück Torte.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "gym",
+    "intro": "{a} und {b} sind in der Turnhalle.",
+    "s": [
+     {
+      "text": "{P} klettert am Seil.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} springt über den Kasten.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "rain",
+    "intro": "{a} und {b} laufen im Regen.",
+    "s": [
+     {
+      "text": "{P} hat einen Schirm.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} springt in eine Pfütze.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sandbox",
+    "intro": "{a} und {b} sind im Sandkasten.",
+    "s": [
+     {
+      "text": "{P} backt einen Sandkuchen.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} gräbt ein Loch.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bedroom",
+    "intro": "{a} und {b} sind im Kinderzimmer.",
+    "s": [
+     {
+      "text": "{P} baut mit Klötzen.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} liest ein Comicheft.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "station",
+    "intro": "{a} und {b} sind am Bahnhof.",
+    "s": [
+     {
+      "text": "{P} sieht einen Zug.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} hat einen Koffer.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "anaphoraSgpl": [
+   {
+    "id": "home-park",
+    "introA": "{a} ist zu Hause.",
+    "introB": "{b} sind im Park.",
+    "s": [
+     {
+      "text": "{P} liest ein Buch.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} spielen mit dem Ball.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "kitchen-garden",
+    "introA": "{a} ist in der Küche.",
+    "introB": "{b} sind im Garten.",
+    "s": [
+     {
+      "text": "{P} rührt den Teig.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} pflücken Erdbeeren.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "school-pool",
+    "introA": "{a} ist in der Schule.",
+    "introB": "{b} sind im Schwimmbad.",
+    "s": [
+     {
+      "text": "{P} malt ein Bild.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} springen ins Wasser.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bed-snow",
+    "introA": "{a} ist im Kinderzimmer.",
+    "introB": "{b} spielen im Schnee.",
+    "s": [
+     {
+      "text": "{P} baut mit Klötzen.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} bauen einen Schneemann.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "zoo-beach",
+    "introA": "{a} ist im Zoo.",
+    "introB": "{b} sind am Strand.",
+    "s": [
+     {
+      "text": "{P} sieht einen Tiger.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} sammeln Muscheln.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "farm-forest",
+    "introA": "{a} ist auf dem Hof.",
+    "introB": "{b} sind im Wald.",
+    "s": [
+     {
+      "text": "{P} füttert die Hühner.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} suchen Zapfen.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "library-gym",
+    "introA": "{a} ist in der Bücherei.",
+    "introB": "{b} sind in der Turnhalle.",
+    "s": [
+     {
+      "text": "{P} sucht ein Tierbuch.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} klettern am Seil.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bus-station",
+    "introA": "{a} sitzt im Bus.",
+    "introB": "{b} sind am Bahnhof.",
+    "s": [
+     {
+      "text": "{P} schaut aus dem Fenster.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} warten auf den Zug.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bath-sandbox",
+    "introA": "{a} ist im Bad.",
+    "introB": "{b} sind im Sandkasten.",
+    "s": [
+     {
+      "text": "{P} wäscht die Hände.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} backen Sandkuchen.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "shop-playground",
+    "introA": "{a} ist im Supermarkt.",
+    "introB": "{b} sind auf dem Spielplatz.",
+    "s": [
+     {
+      "text": "{P} schiebt den Wagen.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} rutschen auf der Rutsche.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "music-art",
+    "introA": "{a} macht Musik.",
+    "introB": "{b} basteln zusammen.",
+    "s": [
+     {
+      "text": "{P} spielt Flöte.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} schneiden Sterne aus.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "breakfast-lake",
+    "introA": "{a} frühstückt.",
+    "introB": "{b} sind am See.",
+    "s": [
+     {
+      "text": "{P} isst ein Brötchen.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} füttern die Enten.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "things": [
+   {
+    "key": "backpack",
+    "pic": {
+     "theme": "classroom",
+     "noun": "backpack"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "bicycle",
+    "pic": {
+     "theme": "toys",
+     "noun": "bicycle"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "skateboard",
+    "pic": {
+     "theme": "toys",
+     "noun": "skateboard"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "umbrella",
+    "pic": {
+     "theme": "accessories",
+     "noun": "umbrella"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "pencil",
+    "pic": {
+     "theme": "classroom",
+     "noun": "pencil"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "lunchbox",
+    "pic": {
+     "theme": "classroom",
+     "noun": "lunchbox"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 3,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "puzzle",
+    "pic": {
+     "theme": "activities",
+     "noun": "puzzle"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "hamster",
+    "pic": {
+     "theme": "pets",
+     "noun": "hamster"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rabbit",
+    "pic": {
+     "theme": "animals",
+     "noun": "rabbit"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "fish",
+    "pic": {
+     "theme": "animals",
+     "noun": "fish"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "guitar",
+    "pic": {
+     "theme": "music",
+     "noun": "guitar"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 3,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "trumpet",
+    "pic": {
+     "theme": "music",
+     "noun": "trumpet"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 3,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "watch",
+    "pic": {
+     "theme": "accessories",
+     "noun": "watch"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 3,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "jacket",
+    "pic": {
+     "theme": "clothing",
+     "noun": "jacket"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 3,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "scarf",
+    "pic": {
+     "theme": "clothing",
+     "noun": "scarf"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "sweater",
+    "pic": {
+     "theme": "clothing",
+     "noun": "sweater"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "bucket",
+    "pic": {
+     "theme": "toys",
+     "noun": "bucket"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "shovel",
+    "pic": {
+     "theme": "toys",
+     "noun": "shovel"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 3,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "sled",
+    "pic": {
+     "theme": "winter",
+     "noun": "sled"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "pillow",
+    "pic": {
+     "theme": "around the house",
+     "noun": "pillow"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rocket",
+    "pic": {
+     "theme": "toys",
+     "noun": "rocket"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 3,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "boat",
+    "pic": {
+     "theme": "toys",
+     "noun": "boat"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "parrot",
+    "pic": {
+     "theme": "pets",
+     "noun": "parrot"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "turtle",
+    "pic": {
+     "theme": "pets",
+     "noun": "turtle"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 3,
+     "p": null
+    },
+    "picOpened": true
+   },
+   {
+    "key": "xylophone",
+    "pic": {
+     "theme": "music",
+     "noun": "xylophone"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 2,
+     "p": null
+    },
+    "picOpened": true
+   }
+  ]
+ },
+ "es": {
+  "names": [
+   {
+    "name": "Regina",
+    "gender": "f"
+   },
+   {
+    "name": "Ximena",
+    "gender": "f"
+   },
+   {
+    "name": "Camila",
+    "gender": "f"
+   },
+   {
+    "name": "Renata",
+    "gender": "f"
+   },
+   {
+    "name": "Paula",
+    "gender": "f"
+   },
+   {
+    "name": "Sara",
+    "gender": "f"
+   },
+   {
+    "name": "Frida",
+    "gender": "f"
+   },
+   {
+    "name": "Martina",
+    "gender": "f"
+   },
+   {
+    "name": "Natalia",
+    "gender": "f"
+   },
+   {
+    "name": "Valeria",
+    "gender": "f"
+   },
+   {
+    "name": "Mariana",
+    "gender": "f"
+   },
+   {
+    "name": "Carmen",
+    "gender": "f"
+   },
+   {
+    "name": "Daniela",
+    "gender": "f"
+   },
+   {
+    "name": "Fernanda",
+    "gender": "f"
+   },
+   {
+    "name": "Victoria",
+    "gender": "f"
+   },
+   {
+    "name": "Luciana",
+    "gender": "f"
+   },
+   {
+    "name": "Romina",
+    "gender": "f"
+   },
+   {
+    "name": "Paola",
+    "gender": "f"
+   },
+   {
+    "name": "Adriana",
+    "gender": "f"
+   },
+   {
+    "name": "Karla",
+    "gender": "f"
+   },
+   {
+    "name": "Diana",
+    "gender": "f"
+   },
+   {
+    "name": "Mónica",
+    "gender": "f"
+   },
+   {
+    "name": "Teresa",
+    "gender": "f"
+   },
+   {
+    "name": "Gabriela",
+    "gender": "f"
+   },
+   {
+    "name": "Gael",
+    "gender": "m"
+   },
+   {
+    "name": "Iker",
+    "gender": "m"
+   },
+   {
+    "name": "Emilio",
+    "gender": "m"
+   },
+   {
+    "name": "Tomás",
+    "gender": "m"
+   },
+   {
+    "name": "Carlos",
+    "gender": "m"
+   },
+   {
+    "name": "Miguel",
+    "gender": "m"
+   },
+   {
+    "name": "Javier",
+    "gender": "m"
+   },
+   {
+    "name": "Adrián",
+    "gender": "m"
+   },
+   {
+    "name": "Andrés",
+    "gender": "m"
+   },
+   {
+    "name": "Bruno",
+    "gender": "m"
+   },
+   {
+    "name": "Iván",
+    "gender": "m"
+   },
+   {
+    "name": "Pedro",
+    "gender": "m"
+   },
+   {
+    "name": "Rodrigo",
+    "gender": "m"
+   },
+   {
+    "name": "Santiago",
+    "gender": "m"
+   },
+   {
+    "name": "Emiliano",
+    "gender": "m"
+   },
+   {
+    "name": "Leonardo",
+    "gender": "m"
+   },
+   {
+    "name": "Daniel",
+    "gender": "m"
+   },
+   {
+    "name": "Joaquín",
+    "gender": "m"
+   },
+   {
+    "name": "Luis",
+    "gender": "m"
+   },
+   {
+    "name": "Rafael",
+    "gender": "m"
+   },
+   {
+    "name": "Fernando",
+    "gender": "m"
+   },
+   {
+    "name": "Ricardo",
+    "gender": "m"
+   },
+   {
+    "name": "Arturo",
+    "gender": "m"
+   },
+   {
+    "name": "Jorge",
+    "gender": "m"
+   },
+   {
+    "name": "Samuel",
+    "gender": "m"
+   }
+  ],
+  "frames": [
+   {
+    "id": "wash-fruit",
+    "sg": "{subj} lava la fruta.",
+    "pl": "{subj} lavan la fruta."
+   },
+   {
+    "id": "plant-seed",
+    "sg": "{subj} siembra una semilla.",
+    "pl": "{subj} siembran una semilla."
+   },
+   {
+    "id": "count-stars",
+    "sg": "{subj} cuenta estrellas.",
+    "pl": "{subj} cuentan estrellas."
+   },
+   {
+    "id": "write-letter",
+    "sg": "{subj} escribe una carta.",
+    "pl": "{subj} escriben una carta."
+   },
+   {
+    "id": "care-rabbit",
+    "sg": "{subj} cuida al conejo.",
+    "pl": "{subj} cuidan al conejo."
+   },
+   {
+    "id": "do-puzzle",
+    "sg": "{subj} arma un rompecabezas.",
+    "pl": "{subj} arman un rompecabezas."
+   },
+   {
+    "id": "swim-pool",
+    "sg": "{subj} nada en la alberca.",
+    "pl": "{subj} nadan en la alberca."
+   },
+   {
+    "id": "help-kitchen",
+    "sg": "{subj} ayuda en la cocina.",
+    "pl": "{subj} ayudan en la cocina."
+   },
+   {
+    "id": "tidy-toys",
+    "sg": "{subj} recoge los juguetes.",
+    "pl": "{subj} recogen los juguetes."
+   },
+   {
+    "id": "run-garden",
+    "sg": "{subj} corre en el jardín.",
+    "pl": "{subj} corren en el jardín."
+   },
+   {
+    "id": "hug-cat",
+    "sg": "{subj} abraza al gato.",
+    "pl": "{subj} abrazan al gato."
+   },
+   {
+    "id": "eat-soup",
+    "sg": "{subj} come sopa.",
+    "pl": "{subj} comen sopa."
+   },
+   {
+    "id": "blow-bubbles",
+    "sg": "{subj} hace burbujas.",
+    "pl": "{subj} hacen burbujas."
+   },
+   {
+    "id": "fly-kite",
+    "sg": "{subj} vuela un papalote.",
+    "pl": "{subj} vuelan un papalote."
+   },
+   {
+    "id": "listen-music",
+    "sg": "{subj} escucha música.",
+    "pl": "{subj} escuchan música."
+   },
+   {
+    "id": "water-plants",
+    "sg": "{subj} riega las plantas.",
+    "pl": "{subj} riegan las plantas."
+   },
+   {
+    "id": "open-door",
+    "sg": "{subj} abre la puerta.",
+    "pl": "{subj} abren la puerta."
+   },
+   {
+    "id": "watch-birds",
+    "sg": "{subj} mira los pájaros.",
+    "pl": "{subj} miran los pájaros."
+   },
+   {
+    "id": "color-flower",
+    "sg": "{subj} colorea una flor.",
+    "pl": "{subj} colorean una flor."
+   },
+   {
+    "id": "take-nap",
+    "sg": "{subj} duerme la siesta.",
+    "pl": "{subj} duermen la siesta."
+   },
+   {
+    "id": "clean-table",
+    "sg": "{subj} limpia la mesa.",
+    "pl": "{subj} limpian la mesa."
+   },
+   {
+    "id": "sand-castle",
+    "sg": "{subj} hace un castillo de arena.",
+    "pl": "{subj} hacen un castillo de arena."
+   },
+   {
+    "id": "cut-paper",
+    "sg": "{subj} recorta papel.",
+    "pl": "{subj} recortan papel."
+   },
+   {
+    "id": "wait-bus",
+    "sg": "{subj} espera el autobús.",
+    "pl": "{subj} esperan el autobús."
+   },
+   {
+    "id": "share-cookies",
+    "sg": "{subj} comparte galletas.",
+    "pl": "{subj} comparten galletas."
+   }
+  ],
+  "anaphora": [
+   {
+    "id": "library",
+    "intro": "{a} y {b} visitan la biblioteca.",
+    "s": [
+     {
+      "text": "{P} busca un cuento.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} lee una revista.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "patio",
+    "intro": "{a} y {b} están en el patio.",
+    "s": [
+     {
+      "text": "{P} salta la cuerda.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} juega con un aro.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "market",
+    "intro": "{a} y {b} están en el mercado.",
+    "s": [
+     {
+      "text": "{P} compra naranjas.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} compra pan.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "pool",
+    "intro": "{a} y {b} están en la alberca.",
+    "s": [
+     {
+      "text": "{P} nada con un flotador.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} salta al agua.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "farm",
+    "intro": "{a} y {b} están en la granja.",
+    "s": [
+     {
+      "text": "{P} da de comer a las gallinas.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} acaricia un caballo.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "forest",
+    "intro": "{a} y {b} están en el bosque.",
+    "s": [
+     {
+      "text": "{P} recoge hojas secas.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ve una ardilla.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "party",
+    "intro": "{a} y {b} están en una fiesta.",
+    "s": [
+     {
+      "text": "{P} rompe la piñata.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} sopla las velas.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bedroom",
+    "intro": "{a} y {b} están en el cuarto.",
+    "s": [
+     {
+      "text": "{P} tiende la cama.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} guarda los juguetes.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "museum",
+    "intro": "{a} y {b} están en el museo.",
+    "s": [
+     {
+      "text": "{P} ve un dinosaurio.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} mira un cuadro.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "rain",
+    "intro": "{a} y {b} están bajo la lluvia.",
+    "s": [
+     {
+      "text": "{P} lleva un paraguas.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} salta en un charco.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "train",
+    "intro": "{a} y {b} van en el tren.",
+    "s": [
+     {
+      "text": "{P} mira por la ventana.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} come unas galletas.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "shop",
+    "intro": "{a} y {b} están en la tienda.",
+    "s": [
+     {
+      "text": "{P} compra un helado.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} paga con monedas.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "river",
+    "intro": "{a} y {b} están en el río.",
+    "s": [
+     {
+      "text": "{P} lanza una piedra.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ve un pez.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "aquarium",
+    "intro": "{a} y {b} están en el acuario.",
+    "s": [
+     {
+      "text": "{P} ve un tiburón.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ve una tortuga.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "art-class",
+    "intro": "{a} y {b} tienen clase de arte.",
+    "s": [
+     {
+      "text": "{P} pinta con acuarelas.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} usa plastilina.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "field",
+    "intro": "{a} y {b} están en el campo.",
+    "s": [
+     {
+      "text": "{P} vuela un papalote.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} corre con el perro.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "anaphoraSgpl": [
+   {
+    "id": "home-park",
+    "introA": "{a} está en casa.",
+    "introB": "{b} están en el parque.",
+    "s": [
+     {
+      "text": "{P} lee un cuento.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} juegan con la pelota.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "kitchen-garden",
+    "introA": "{a} está en la cocina.",
+    "introB": "{b} están en el jardín.",
+    "s": [
+     {
+      "text": "{P} lava los platos.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} riegan las flores.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "school-pool",
+    "introA": "{a} está en la escuela.",
+    "introB": "{b} están en la alberca.",
+    "s": [
+     {
+      "text": "{P} escribe en el pizarrón.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} nadan en el agua.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "library-patio",
+    "introA": "{a} está en la biblioteca.",
+    "introB": "{b} están en el patio.",
+    "s": [
+     {
+      "text": "{P} busca un libro.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} saltan la cuerda.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bedroom-beach",
+    "introA": "{a} está en la recámara.",
+    "introB": "{b} están en la playa.",
+    "s": [
+     {
+      "text": "{P} duerme la siesta.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} hacen un castillo de arena.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "market-zoo",
+    "introA": "{a} está en el mercado.",
+    "introB": "{b} están en el zoológico.",
+    "s": [
+     {
+      "text": "{P} compra fruta.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ven a los monos.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bus-farm",
+    "introA": "{a} va en el autobús.",
+    "introB": "{b} están en la granja.",
+    "s": [
+     {
+      "text": "{P} mira por la ventana.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} dan de comer a las vacas.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "doctor-shop",
+    "introA": "{a} está con el doctor.",
+    "introB": "{b} están en la tienda.",
+    "s": [
+     {
+      "text": "{P} abre la boca.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} compran un helado.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "music-forest",
+    "introA": "{a} está en clase de música.",
+    "introB": "{b} están en el bosque.",
+    "s": [
+     {
+      "text": "{P} toca el tambor.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} recogen hojas secas.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "room-court",
+    "introA": "{a} está en la sala.",
+    "introB": "{b} están en la cancha.",
+    "s": [
+     {
+      "text": "{P} ve la tele.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} juegan futbol.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "table-river",
+    "introA": "{a} está en la mesa.",
+    "introB": "{b} están en el río.",
+    "s": [
+     {
+      "text": "{P} come sopa.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} lanzan piedras.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "museum-party",
+    "introA": "{a} está en el museo.",
+    "introB": "{b} están en una fiesta.",
+    "s": [
+     {
+      "text": "{P} ve un dinosaurio.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} rompen la piñata.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "things": []
+ },
+ "fr": {
+  "names": [
+   {
+    "name": "Emma",
+    "gender": "f"
+   },
+   {
+    "name": "Anna",
+    "gender": "f"
+   },
+   {
+    "name": "Lina",
+    "gender": "f"
+   },
+   {
+    "name": "Mila",
+    "gender": "f"
+   },
+   {
+    "name": "Julia",
+    "gender": "f"
+   },
+   {
+    "name": "Sarah",
+    "gender": "f"
+   },
+   {
+    "name": "Lucie",
+    "gender": "f"
+   },
+   {
+    "name": "Clara",
+    "gender": "f"
+   },
+   {
+    "name": "Lola",
+    "gender": "f"
+   },
+   {
+    "name": "Eva",
+    "gender": "f"
+   },
+   {
+    "name": "Élise",
+    "gender": "f"
+   },
+   {
+    "name": "Maya",
+    "gender": "f"
+   },
+   {
+    "name": "Elsa",
+    "gender": "f"
+   },
+   {
+    "name": "Léna",
+    "gender": "f"
+   },
+   {
+    "name": "Nora",
+    "gender": "f"
+   },
+   {
+    "name": "Lila",
+    "gender": "f"
+   },
+   {
+    "name": "Ella",
+    "gender": "f"
+   },
+   {
+    "name": "Célia",
+    "gender": "f"
+   },
+   {
+    "name": "Anaïs",
+    "gender": "f"
+   },
+   {
+    "name": "Laura",
+    "gender": "f"
+   },
+   {
+    "name": "Sofia",
+    "gender": "f"
+   },
+   {
+    "name": "Lisa",
+    "gender": "f"
+   },
+   {
+    "name": "Maëva",
+    "gender": "f"
+   },
+   {
+    "name": "Léo",
+    "gender": "m"
+   },
+   {
+    "name": "Paul",
+    "gender": "m"
+   },
+   {
+    "name": "Adam",
+    "gender": "m"
+   },
+   {
+    "name": "Liam",
+    "gender": "m"
+   },
+   {
+    "name": "Enzo",
+    "gender": "m"
+   },
+   {
+    "name": "Rayan",
+    "gender": "m"
+   },
+   {
+    "name": "Noé",
+    "gender": "m"
+   },
+   {
+    "name": "Nolan",
+    "gender": "m"
+   },
+   {
+    "name": "Axel",
+    "gender": "m"
+   },
+   {
+    "name": "Ethan",
+    "gender": "m"
+   },
+   {
+    "name": "Timéo",
+    "gender": "m"
+   },
+   {
+    "name": "Malo",
+    "gender": "m"
+   },
+   {
+    "name": "Jonas",
+    "gender": "m"
+   },
+   {
+    "name": "Simon",
+    "gender": "m"
+   },
+   {
+    "name": "Oscar",
+    "gender": "m"
+   },
+   {
+    "name": "Félix",
+    "gender": "m"
+   },
+   {
+    "name": "Yanis",
+    "gender": "m"
+   },
+   {
+    "name": "Milan",
+    "gender": "m"
+   },
+   {
+    "name": "Aaron",
+    "gender": "m"
+   },
+   {
+    "name": "Mehdi",
+    "gender": "m"
+   },
+   {
+    "name": "Karim",
+    "gender": "m"
+   },
+   {
+    "name": "Omar",
+    "gender": "m"
+   },
+   {
+    "name": "Rémi",
+    "gender": "m"
+   },
+   {
+    "name": "Nino",
+    "gender": "m"
+   }
+  ],
+  "frames": [
+   {
+    "id": "drink-water",
+    "sg": "{subj} boit de l’eau.",
+    "pl": "{subj} boivent de l’eau."
+   },
+   {
+    "id": "count-stars",
+    "sg": "{subj} compte les étoiles.",
+    "pl": "{subj} comptent les étoiles."
+   },
+   {
+    "id": "plant-flower",
+    "sg": "{subj} plante une fleur.",
+    "pl": "{subj} plantent une fleur."
+   },
+   {
+    "id": "swim-pool",
+    "sg": "{subj} nage à la piscine.",
+    "pl": "{subj} nagent à la piscine."
+   },
+   {
+    "id": "run-yard",
+    "sg": "{subj} court dans la cour.",
+    "pl": "{subj} courent dans la cour."
+   },
+   {
+    "id": "help-dad",
+    "sg": "{subj} aide papa.",
+    "pl": "{subj} aident papa."
+   },
+   {
+    "id": "wash-hands",
+    "sg": "{subj} se lave les mains.",
+    "pl": "{subj} se lavent les mains."
+   },
+   {
+    "id": "do-puzzle",
+    "sg": "{subj} fait un puzzle.",
+    "pl": "{subj} font un puzzle."
+   },
+   {
+    "id": "make-pancakes",
+    "sg": "{subj} prépare des crêpes.",
+    "pl": "{subj} préparent des crêpes."
+   },
+   {
+    "id": "cut-paper",
+    "sg": "{subj} découpe du papier.",
+    "pl": "{subj} découpent du papier."
+   },
+   {
+    "id": "watch-birds",
+    "sg": "{subj} regarde les oiseaux.",
+    "pl": "{subj} regardent les oiseaux."
+   },
+   {
+    "id": "listen-story",
+    "sg": "{subj} écoute une histoire.",
+    "pl": "{subj} écoutent une histoire."
+   },
+   {
+    "id": "tidy-toys",
+    "sg": "{subj} range les jouets.",
+    "pl": "{subj} rangent les jouets."
+   },
+   {
+    "id": "climb-tree",
+    "sg": "{subj} grimpe à l’arbre.",
+    "pl": "{subj} grimpent à l’arbre."
+   },
+   {
+    "id": "play-snow",
+    "sg": "{subj} joue dans la neige.",
+    "pl": "{subj} jouent dans la neige."
+   },
+   {
+    "id": "blow-bubbles",
+    "sg": "{subj} fait des bulles.",
+    "pl": "{subj} font des bulles."
+   },
+   {
+    "id": "pick-apples",
+    "sg": "{subj} cueille des pommes.",
+    "pl": "{subj} cueillent des pommes."
+   },
+   {
+    "id": "feed-ducks",
+    "sg": "{subj} nourrit les canards.",
+    "pl": "{subj} nourrissent les canards."
+   },
+   {
+    "id": "take-bus",
+    "sg": "{subj} prend le bus.",
+    "pl": "{subj} prennent le bus."
+   },
+   {
+    "id": "write-letter",
+    "sg": "{subj} écrit une lettre.",
+    "pl": "{subj} écrivent une lettre."
+   },
+   {
+    "id": "wash-dog",
+    "sg": "{subj} lave le chien.",
+    "pl": "{subj} lavent le chien."
+   },
+   {
+    "id": "hide-seek",
+    "sg": "{subj} joue à cache-cache.",
+    "pl": "{subj} jouent à cache-cache."
+   },
+   {
+    "id": "eat-soup",
+    "sg": "{subj} mange de la soupe.",
+    "pl": "{subj} mangent de la soupe."
+   },
+   {
+    "id": "take-nap",
+    "sg": "{subj} fait la sieste.",
+    "pl": "{subj} font la sieste."
+   }
+  ],
+  "anaphora": [
+   {
+    "id": "library",
+    "intro": "{a} et {b} sont à la bibliothèque.",
+    "s": [
+     {
+      "text": "{P} lit une histoire.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} cherche un livre.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "farm",
+    "intro": "{a} et {b} sont à la ferme.",
+    "s": [
+     {
+      "text": "{P} nourrit les poules.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} caresse un cheval.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "snow",
+    "intro": "{a} et {b} jouent dans la neige.",
+    "s": [
+     {
+      "text": "{P} fait un bonhomme.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} lance une boule.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "pool",
+    "intro": "{a} et {b} sont à la piscine.",
+    "s": [
+     {
+      "text": "{P} nage sur le dos.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} saute dans l’eau.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "classroom",
+    "intro": "{a} et {b} sont en classe.",
+    "s": [
+     {
+      "text": "{P} colle une image.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} découpe un rond.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "market",
+    "intro": "{a} et {b} sont au marché.",
+    "s": [
+     {
+      "text": "{P} achète des fraises.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} porte un panier.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "forest",
+    "intro": "{a} et {b} sont dans la forêt.",
+    "s": [
+     {
+      "text": "{P} ramasse une pomme de pin.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} voit un écureuil.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "playground",
+    "intro": "{a} et {b} sont dans la cour.",
+    "s": [
+     {
+      "text": "{P} joue à la marelle.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} glisse sur le toboggan.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "picnic",
+    "intro": "{a} et {b} pique-niquent.",
+    "s": [
+     {
+      "text": "{P} mange un sandwich.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} boit du jus.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "birthday",
+    "intro": "{a} et {b} sont à une fête.",
+    "s": [
+     {
+      "text": "{P} souffle les bougies.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ouvre un cadeau.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "music",
+    "intro": "{a} et {b} font de la musique.",
+    "s": [
+     {
+      "text": "{P} joue du tambour.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} joue de la flûte.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "train",
+    "intro": "{a} et {b} sont dans le train.",
+    "s": [
+     {
+      "text": "{P} regarde par la fenêtre.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} lit une bande dessinée.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "rain",
+    "intro": "{a} et {b} sont sous la pluie.",
+    "s": [
+     {
+      "text": "{P} a un parapluie.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} saute dans une flaque.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bakery",
+    "intro": "{a} et {b} sont à la boulangerie.",
+    "s": [
+     {
+      "text": "{P} achète du pain.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} choisit un croissant.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "aquarium",
+    "intro": "{a} et {b} sont à l’aquarium.",
+    "s": [
+     {
+      "text": "{P} regarde un requin.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} montre une tortue.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bedroom",
+    "intro": "{a} et {b} sont dans la chambre.",
+    "s": [
+     {
+      "text": "{P} range des jouets.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} joue aux cubes.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "anaphoraSgpl": [
+   {
+    "id": "sgpl-home-park",
+    "introA": "{a} est à la maison.",
+    "introB": "{b} sont au parc.",
+    "s": [
+     {
+      "text": "{P} lit dans le salon.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} jouent au ballon.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-kitchen-garden",
+    "introA": "{a} est dans la cuisine.",
+    "introB": "{b} sont dans le jardin.",
+    "s": [
+     {
+      "text": "{P} prépare un gâteau.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} arrosent les fleurs.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-library-pool",
+    "introA": "{a} est à la bibliothèque.",
+    "introB": "{b} sont à la piscine.",
+    "s": [
+     {
+      "text": "{P} choisit un livre.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} nagent sur le dos.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-bed-yard",
+    "introA": "{a} est dans la chambre.",
+    "introB": "{b} sont dans la cour.",
+    "s": [
+     {
+      "text": "{P} fait la sieste.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} jouent à la marelle.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-shop-beach",
+    "introA": "{a} est à la boulangerie.",
+    "introB": "{b} sont à la plage.",
+    "s": [
+     {
+      "text": "{P} achète du pain.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} construisent un château.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-zoo-farm",
+    "introA": "{a} est au zoo.",
+    "introB": "{b} sont à la ferme.",
+    "s": [
+     {
+      "text": "{P} regarde les girafes.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} nourrissent les poules.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-class-stadium",
+    "introA": "{a} est en classe.",
+    "introB": "{b} sont au stade.",
+    "s": [
+     {
+      "text": "{P} colle une image.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} jouent au foot.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-bath-snow",
+    "introA": "{a} est dans le bain.",
+    "introB": "{b} jouent dans la neige.",
+    "s": [
+     {
+      "text": "{P} fait des bulles.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} font un bonhomme.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-draw-bike",
+    "introA": "{a} dessine à la table.",
+    "introB": "{b} font du vélo.",
+    "s": [
+     {
+      "text": "{P} colorie un bateau.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ont des casques rouges.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-car-train",
+    "introA": "{a} est dans la voiture.",
+    "introB": "{b} sont dans le train.",
+    "s": [
+     {
+      "text": "{P} écoute une chanson.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} regardent par la fenêtre.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-museum-lake",
+    "introA": "{a} est au musée.",
+    "introB": "{b} sont au lac.",
+    "s": [
+     {
+      "text": "{P} regarde un dinosaure.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} lancent des cailloux.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-forest-market",
+    "introA": "{a} est dans la forêt.",
+    "introB": "{b} sont au marché.",
+    "s": [
+     {
+      "text": "{P} ramasse une pomme de pin.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} achètent des fraises.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-music-picnic",
+    "introA": "{a} fait de la musique.",
+    "introB": "{b} pique-niquent.",
+    "s": [
+     {
+      "text": "{P} joue du tambour.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} mangent des sandwichs.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "things": [
+   {
+    "key": "backpack",
+    "pic": {
+     "theme": "classroom",
+     "noun": "backpack"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "bicycle",
+    "pic": {
+     "theme": "toys",
+     "noun": "bicycle"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "skateboard",
+    "pic": {
+     "theme": "toys",
+     "noun": "skateboard"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "umbrella",
+    "pic": {
+     "theme": "accessories",
+     "noun": "umbrella"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "pencil",
+    "pic": {
+     "theme": "classroom",
+     "noun": "pencil"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "notebook",
+    "pic": {
+     "theme": "classroom",
+     "noun": "notebook"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "puzzle",
+    "pic": {
+     "theme": "activities",
+     "noun": "puzzle"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "hamster",
+    "pic": {
+     "theme": "pets",
+     "noun": "hamster"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rabbit",
+    "pic": {
+     "theme": "animals",
+     "noun": "rabbit"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "fish",
+    "pic": {
+     "theme": "animals",
+     "noun": "fish"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "sweater",
+    "pic": {
+     "theme": "clothing",
+     "noun": "sweater"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "bucket",
+    "pic": {
+     "theme": "toys",
+     "noun": "bucket"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "boat",
+    "pic": {
+     "theme": "toys",
+     "noun": "boat"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "parrot",
+    "pic": {
+     "theme": "pets",
+     "noun": "parrot"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "xylophone",
+    "pic": {
+     "theme": "music",
+     "noun": "xylophone"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "cup",
+    "pic": {
+     "theme": "kitchen tools",
+     "noun": "cup"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "guitar",
+    "pic": {
+     "theme": "music",
+     "noun": "guitar"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "trumpet",
+    "pic": {
+     "theme": "music",
+     "noun": "trumpet"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "watch",
+    "pic": {
+     "theme": "accessories",
+     "noun": "watch"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "cap",
+    "pic": {
+     "theme": "clothing",
+     "noun": "cap"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "jacket",
+    "pic": {
+     "theme": "clothing",
+     "noun": "jacket"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "sled",
+    "pic": {
+     "theme": "winter",
+     "noun": "sled"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rocket",
+    "pic": {
+     "theme": "toys",
+     "noun": "rocket"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "turtle",
+    "pic": {
+     "theme": "pets",
+     "noun": "turtle"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   }
+  ]
+ },
+ "it": {
+  "names": [
+   {
+    "name": "Emma",
+    "gender": "f"
+   },
+   {
+    "name": "Lorenzo",
+    "gender": "m"
+   },
+   {
+    "name": "Ginevra",
+    "gender": "f"
+   },
+   {
+    "name": "Tommaso",
+    "gender": "m"
+   },
+   {
+    "name": "Beatrice",
+    "gender": "f"
+   },
+   {
+    "name": "Riccardo",
+    "gender": "m"
+   },
+   {
+    "name": "Greta",
+    "gender": "f"
+   },
+   {
+    "name": "Edoardo",
+    "gender": "m"
+   },
+   {
+    "name": "Martina",
+    "gender": "f"
+   },
+   {
+    "name": "Gabriele",
+    "gender": "m"
+   },
+   {
+    "name": "Anna",
+    "gender": "f"
+   },
+   {
+    "name": "Pietro",
+    "gender": "m"
+   },
+   {
+    "name": "Sara",
+    "gender": "f"
+   },
+   {
+    "name": "Filippo",
+    "gender": "m"
+   },
+   {
+    "name": "Noemi",
+    "gender": "f"
+   },
+   {
+    "name": "Davide",
+    "gender": "m"
+   },
+   {
+    "name": "Matilde",
+    "gender": "f"
+   },
+   {
+    "name": "Giacomo",
+    "gender": "m"
+   },
+   {
+    "name": "Camilla",
+    "gender": "f"
+   },
+   {
+    "name": "Samuele",
+    "gender": "m"
+   },
+   {
+    "name": "Elena",
+    "gender": "f"
+   },
+   {
+    "name": "Federico",
+    "gender": "m"
+   },
+   {
+    "name": "Arianna",
+    "gender": "f"
+   },
+   {
+    "name": "Leonardo",
+    "gender": "m"
+   },
+   {
+    "name": "Caterina",
+    "gender": "f"
+   },
+   {
+    "name": "Alessio",
+    "gender": "m"
+   },
+   {
+    "name": "Ludovica",
+    "gender": "f"
+   },
+   {
+    "name": "Stefano",
+    "gender": "m"
+   },
+   {
+    "name": "Irene",
+    "gender": "f"
+   },
+   {
+    "name": "Antonio",
+    "gender": "m"
+   },
+   {
+    "name": "Marta",
+    "gender": "f"
+   },
+   {
+    "name": "Giorgio",
+    "gender": "m"
+   },
+   {
+    "name": "Rebecca",
+    "gender": "f"
+   },
+   {
+    "name": "Vincenzo",
+    "gender": "m"
+   },
+   {
+    "name": "Carlotta",
+    "gender": "f"
+   },
+   {
+    "name": "Emanuele",
+    "gender": "m"
+   },
+   {
+    "name": "Adele",
+    "gender": "f"
+   },
+   {
+    "name": "Raffaele",
+    "gender": "m"
+   },
+   {
+    "name": "Lucia",
+    "gender": "f"
+   },
+   {
+    "name": "Daniele",
+    "gender": "m"
+   },
+   {
+    "name": "Agnese",
+    "gender": "f"
+   },
+   {
+    "name": "Fabio",
+    "gender": "m"
+   },
+   {
+    "name": "Silvia",
+    "gender": "f"
+   },
+   {
+    "name": "Roberto",
+    "gender": "m"
+   },
+   {
+    "name": "Federica",
+    "gender": "f"
+   },
+   {
+    "name": "Giuseppe",
+    "gender": "m"
+   },
+   {
+    "name": "Ilaria",
+    "gender": "f"
+   },
+   {
+    "name": "Alberto",
+    "gender": "m"
+   }
+  ],
+  "frames": [
+   {
+    "id": "write-letter",
+    "sg": "{subj} scrive una lettera.",
+    "pl": "{subj} scrivono una lettera."
+   },
+   {
+    "id": "wash-hands",
+    "sg": "{subj} si lava le mani.",
+    "pl": "{subj} si lavano le mani."
+   },
+   {
+    "id": "feed-cat",
+    "sg": "{subj} dà da mangiare al gatto.",
+    "pl": "{subj} danno da mangiare al gatto."
+   },
+   {
+    "id": "watch-cartoon",
+    "sg": "{subj} guarda un cartone.",
+    "pl": "{subj} guardano un cartone."
+   },
+   {
+    "id": "plant-seed",
+    "sg": "{subj} pianta un seme.",
+    "pl": "{subj} piantano un seme."
+   },
+   {
+    "id": "tidy-toys",
+    "sg": "{subj} mette in ordine i giochi.",
+    "pl": "{subj} mettono in ordine i giochi."
+   },
+   {
+    "id": "count-stars",
+    "sg": "{subj} conta le stelle.",
+    "pl": "{subj} contano le stelle."
+   },
+   {
+    "id": "brush-teeth",
+    "sg": "{subj} si lava i denti.",
+    "pl": "{subj} si lavano i denti."
+   },
+   {
+    "id": "eat-pasta",
+    "sg": "{subj} mangia la pasta.",
+    "pl": "{subj} mangiano la pasta."
+   },
+   {
+    "id": "open-door",
+    "sg": "{subj} apre la porta.",
+    "pl": "{subj} aprono la porta."
+   },
+   {
+    "id": "do-puzzle",
+    "sg": "{subj} fa un puzzle.",
+    "pl": "{subj} fanno un puzzle."
+   },
+   {
+    "id": "swim-pool",
+    "sg": "{subj} nuota in piscina.",
+    "pl": "{subj} nuotano in piscina."
+   },
+   {
+    "id": "kick-ball",
+    "sg": "{subj} calcia il pallone.",
+    "pl": "{subj} calciano il pallone."
+   },
+   {
+    "id": "help-mum",
+    "sg": "{subj} aiuta la mamma.",
+    "pl": "{subj} aiutano la mamma."
+   },
+   {
+    "id": "hug-teddy",
+    "sg": "{subj} abbraccia l'orsetto.",
+    "pl": "{subj} abbracciano l'orsetto."
+   },
+   {
+    "id": "cut-star",
+    "sg": "{subj} ritaglia una stella.",
+    "pl": "{subj} ritagliano una stella."
+   },
+   {
+    "id": "blow-bubbles",
+    "sg": "{subj} fa le bolle di sapone.",
+    "pl": "{subj} fanno le bolle di sapone."
+   },
+   {
+    "id": "climb-tree",
+    "sg": "{subj} sale sull'albero.",
+    "pl": "{subj} salgono sull'albero."
+   },
+   {
+    "id": "listen-music",
+    "sg": "{subj} ascolta la musica.",
+    "pl": "{subj} ascoltano la musica."
+   },
+   {
+    "id": "water-flowers",
+    "sg": "{subj} annaffia i fiori.",
+    "pl": "{subj} annaffiano i fiori."
+   },
+   {
+    "id": "bake-biscuits",
+    "sg": "{subj} prepara i biscotti.",
+    "pl": "{subj} preparano i biscotti."
+   },
+   {
+    "id": "pet-dog",
+    "sg": "{subj} accarezza il cane.",
+    "pl": "{subj} accarezzano il cane."
+   },
+   {
+    "id": "set-table",
+    "sg": "{subj} apparecchia la tavola.",
+    "pl": "{subj} apparecchiano la tavola."
+   },
+   {
+    "id": "hide-seek",
+    "sg": "{subj} gioca a nascondino.",
+    "pl": "{subj} giocano a nascondino."
+   }
+  ],
+  "anaphora": [
+   {
+    "id": "library",
+    "intro": "{a} e {b} sono in biblioteca.",
+    "s": [
+     {
+      "text": "{P} sceglie un libro.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} legge una fiaba.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "playground",
+    "intro": "{a} e {b} sono al parco giochi.",
+    "s": [
+     {
+      "text": "{P} va sullo scivolo.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} va sull'altalena.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "pool",
+    "intro": "{a} e {b} sono in piscina.",
+    "s": [
+     {
+      "text": "{P} nuota veloce.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} fa un tuffo.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "snow",
+    "intro": "{a} e {b} sono sulla neve.",
+    "s": [
+     {
+      "text": "{P} fa un pupazzo di neve.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} tira una palla di neve.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "farm",
+    "intro": "{a} e {b} sono in fattoria.",
+    "s": [
+     {
+      "text": "{P} dà il fieno alla mucca.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} raccoglie le uova.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "supermarket",
+    "intro": "{a} e {b} sono al supermercato.",
+    "s": [
+     {
+      "text": "{P} spinge il carrello.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} prende le banane.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "classroom",
+    "intro": "{a} e {b} sono in classe.",
+    "s": [
+     {
+      "text": "{P} colora un sole.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ritaglia un cuore.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bedroom",
+    "intro": "{a} e {b} sono in camera.",
+    "s": [
+     {
+      "text": "{P} mette in ordine i libri.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} gioca con il trenino.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "party",
+    "intro": "{a} e {b} sono a una festa.",
+    "s": [
+     {
+      "text": "{P} spegne le candeline.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} apre un regalo.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "picnic",
+    "intro": "{a} e {b} fanno un picnic.",
+    "s": [
+     {
+      "text": "{P} mangia un panino.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} beve un succo.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "station",
+    "intro": "{a} e {b} sono alla stazione.",
+    "s": [
+     {
+      "text": "{P} guarda il treno.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ha una valigia.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "gym",
+    "intro": "{a} e {b} sono in palestra.",
+    "s": [
+     {
+      "text": "{P} salta sul tappeto.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} lancia la palla.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "mountain",
+    "intro": "{a} e {b} sono in montagna.",
+    "s": [
+     {
+      "text": "{P} raccoglie una pigna.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} vede uno scoiattolo.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bakery",
+    "intro": "{a} e {b} sono in panetteria.",
+    "s": [
+     {
+      "text": "{P} compra il pane.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} sceglie una brioche.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "aquarium",
+    "intro": "{a} e {b} sono all'acquario.",
+    "s": [
+     {
+      "text": "{P} vede uno squalo.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} guarda i pesci.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "lake",
+    "intro": "{a} e {b} sono al lago.",
+    "s": [
+     {
+      "text": "{P} lancia un sasso.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} dà il pane alle anatre.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "anaphoraSgpl": [
+   {
+    "id": "sgpl-home-park",
+    "introA": "{a} è a casa.",
+    "introB": "{b} sono al parco.",
+    "s": [
+     {
+      "text": "{P} legge un libro.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} giocano a palla.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-kitchen-garden",
+    "introA": "{a} è in cucina.",
+    "introB": "{b} sono in giardino.",
+    "s": [
+     {
+      "text": "{P} prepara un panino.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} raccolgono i fiori.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-school-beach",
+    "introA": "{a} è a scuola.",
+    "introB": "{b} sono al mare.",
+    "s": [
+     {
+      "text": "{P} scrive sul quaderno.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} fanno il bagno.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-library-pool",
+    "introA": "{a} è in biblioteca.",
+    "introB": "{b} sono in piscina.",
+    "s": [
+     {
+      "text": "{P} sceglie una fiaba.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} nuotano insieme.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-bedroom-yard",
+    "introA": "{a} è in camera.",
+    "introB": "{b} sono in cortile.",
+    "s": [
+     {
+      "text": "{P} dorme nel letto.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} saltano la corda.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-zoo-farm",
+    "introA": "{a} è allo zoo.",
+    "introB": "{b} sono in fattoria.",
+    "s": [
+     {
+      "text": "{P} guarda le giraffe.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} danno il fieno alle mucche.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-shop-home",
+    "introA": "{a} è al supermercato.",
+    "introB": "{b} sono a casa.",
+    "s": [
+     {
+      "text": "{P} spinge il carrello.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} guardano un cartone.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-snow-lounge",
+    "introA": "{a} è sulla neve.",
+    "introB": "{b} sono in salotto.",
+    "s": [
+     {
+      "text": "{P} fa un pupazzo di neve.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} fanno un puzzle.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-bus-station",
+    "introA": "{a} è sull'autobus.",
+    "introB": "{b} sono alla stazione.",
+    "s": [
+     {
+      "text": "{P} guarda dal finestrino.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} aspettano il treno.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-gym-bakery",
+    "introA": "{a} è in palestra.",
+    "introB": "{b} sono in panetteria.",
+    "s": [
+     {
+      "text": "{P} salta sul tappeto.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} comprano il pane.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-lake-classroom",
+    "introA": "{a} è al lago.",
+    "introB": "{b} sono in classe.",
+    "s": [
+     {
+      "text": "{P} dà il pane alle anatre.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} colorano un disegno.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-party-mountain",
+    "introA": "{a} è a una festa.",
+    "introB": "{b} sono in montagna.",
+    "s": [
+     {
+      "text": "{P} spegne le candeline.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} raccolgono le pigne.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "things": [
+   {
+    "key": "backpack",
+    "pic": {
+     "theme": "classroom",
+     "noun": "backpack"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "bicycle",
+    "pic": {
+     "theme": "toys",
+     "noun": "bicycle"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "umbrella",
+    "pic": {
+     "theme": "accessories",
+     "noun": "umbrella"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "balloon",
+    "pic": {
+     "theme": "toys",
+     "noun": "balloon"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "cup",
+    "pic": {
+     "theme": "kitchen tools",
+     "noun": "cup"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "pencil",
+    "pic": {
+     "theme": "classroom",
+     "noun": "pencil"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "notebook",
+    "pic": {
+     "theme": "classroom",
+     "noun": "notebook"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "puzzle",
+    "pic": {
+     "theme": "activities",
+     "noun": "puzzle"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "hamster",
+    "pic": {
+     "theme": "pets",
+     "noun": "hamster"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rabbit",
+    "pic": {
+     "theme": "animals",
+     "noun": "rabbit"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "guitar",
+    "pic": {
+     "theme": "music",
+     "noun": "guitar"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "trumpet",
+    "pic": {
+     "theme": "music",
+     "noun": "trumpet"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "watch",
+    "pic": {
+     "theme": "accessories",
+     "noun": "watch"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "jacket",
+    "pic": {
+     "theme": "clothing",
+     "noun": "jacket"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "scarf",
+    "pic": {
+     "theme": "clothing",
+     "noun": "scarf"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "sweater",
+    "pic": {
+     "theme": "clothing",
+     "noun": "sweater"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "bucket",
+    "pic": {
+     "theme": "toys",
+     "noun": "bucket"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "sled",
+    "pic": {
+     "theme": "winter",
+     "noun": "sled"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rocket",
+    "pic": {
+     "theme": "toys",
+     "noun": "rocket"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "boat",
+    "pic": {
+     "theme": "toys",
+     "noun": "boat"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "parrot",
+    "pic": {
+     "theme": "pets",
+     "noun": "parrot"
+    },
+    "forms": {
+     "m1": 0,
+     "f1": 0,
+     "p": 2
+    },
+    "picOpened": true
+   },
+   {
+    "key": "turtle",
+    "pic": {
+     "theme": "pets",
+     "noun": "turtle"
+    },
+    "forms": {
+     "m1": 1,
+     "f1": 1,
+     "p": 2
+    },
+    "picOpened": true
+   }
+  ]
+ },
+ "pt": {
+  "names": [
+   {
+    "name": "Helena",
+    "gender": "f"
+   },
+   {
+    "name": "Laura",
+    "gender": "f"
+   },
+   {
+    "name": "Lívia",
+    "gender": "f"
+   },
+   {
+    "name": "Maria",
+    "gender": "f"
+   },
+   {
+    "name": "Lorena",
+    "gender": "f"
+   },
+   {
+    "name": "Yasmin",
+    "gender": "f"
+   },
+   {
+    "name": "Cecília",
+    "gender": "f"
+   },
+   {
+    "name": "Beatriz",
+    "gender": "f"
+   },
+   {
+    "name": "Heloísa",
+    "gender": "f"
+   },
+   {
+    "name": "Manuela",
+    "gender": "f"
+   },
+   {
+    "name": "Luana",
+    "gender": "f"
+   },
+   {
+    "name": "Isabela",
+    "gender": "f"
+   },
+   {
+    "name": "Lara",
+    "gender": "f"
+   },
+   {
+    "name": "Giovanna",
+    "gender": "f"
+   },
+   {
+    "name": "Letícia",
+    "gender": "f"
+   },
+   {
+    "name": "Mariana",
+    "gender": "f"
+   },
+   {
+    "name": "Rebeca",
+    "gender": "f"
+   },
+   {
+    "name": "Sara",
+    "gender": "f"
+   },
+   {
+    "name": "Olívia",
+    "gender": "f"
+   },
+   {
+    "name": "Catarina",
+    "gender": "f"
+   },
+   {
+    "name": "Gabriela",
+    "gender": "f"
+   },
+   {
+    "name": "Luíza",
+    "gender": "f"
+   },
+   {
+    "name": "Carolina",
+    "gender": "f"
+   },
+   {
+    "name": "Miguel",
+    "gender": "m"
+   },
+   {
+    "name": "Arthur",
+    "gender": "m"
+   },
+   {
+    "name": "Heitor",
+    "gender": "m"
+   },
+   {
+    "name": "Pedro",
+    "gender": "m"
+   },
+   {
+    "name": "Gabriel",
+    "gender": "m"
+   },
+   {
+    "name": "Lucas",
+    "gender": "m"
+   },
+   {
+    "name": "Rafael",
+    "gender": "m"
+   },
+   {
+    "name": "Samuel",
+    "gender": "m"
+   },
+   {
+    "name": "Mateus",
+    "gender": "m"
+   },
+   {
+    "name": "Murilo",
+    "gender": "m"
+   },
+   {
+    "name": "Vicente",
+    "gender": "m"
+   },
+   {
+    "name": "Tiago",
+    "gender": "m"
+   },
+   {
+    "name": "Bernardo",
+    "gender": "m"
+   },
+   {
+    "name": "Gustavo",
+    "gender": "m"
+   },
+   {
+    "name": "Henrique",
+    "gender": "m"
+   },
+   {
+    "name": "Joaquim",
+    "gender": "m"
+   },
+   {
+    "name": "Benício",
+    "gender": "m"
+   },
+   {
+    "name": "Lorenzo",
+    "gender": "m"
+   },
+   {
+    "name": "Nicolas",
+    "gender": "m"
+   },
+   {
+    "name": "Otávio",
+    "gender": "m"
+   },
+   {
+    "name": "Eduardo",
+    "gender": "m"
+   },
+   {
+    "name": "Felipe",
+    "gender": "m"
+   },
+   {
+    "name": "Bruno",
+    "gender": "m"
+   },
+   {
+    "name": "Vinícius",
+    "gender": "m"
+   }
+  ],
+  "frames": [
+   {
+    "id": "wash-hands",
+    "sg": "{subj} lava as mãos.",
+    "pl": "{subj} lavam as mãos."
+   },
+   {
+    "id": "brush-teeth",
+    "sg": "{subj} escova os dentes.",
+    "pl": "{subj} escovam os dentes."
+   },
+   {
+    "id": "drink-water",
+    "sg": "{subj} bebe água.",
+    "pl": "{subj} bebem água."
+   },
+   {
+    "id": "play-blocks",
+    "sg": "{subj} brinca com blocos.",
+    "pl": "{subj} brincam com blocos."
+   },
+   {
+    "id": "read-comic",
+    "sg": "{subj} lê um gibi.",
+    "pl": "{subj} leem um gibi."
+   },
+   {
+    "id": "write-letter",
+    "sg": "{subj} escreve uma carta.",
+    "pl": "{subj} escrevem uma carta."
+   },
+   {
+    "id": "run-yard",
+    "sg": "{subj} corre no quintal.",
+    "pl": "{subj} correm no quintal."
+   },
+   {
+    "id": "swim-pool",
+    "sg": "{subj} nada na piscina.",
+    "pl": "{subj} nadam na piscina."
+   },
+   {
+    "id": "water-plant",
+    "sg": "{subj} rega a planta.",
+    "pl": "{subj} regam a planta."
+   },
+   {
+    "id": "tidy-toys",
+    "sg": "{subj} guarda os brinquedos.",
+    "pl": "{subj} guardam os brinquedos."
+   },
+   {
+    "id": "help-home",
+    "sg": "{subj} ajuda em casa.",
+    "pl": "{subj} ajudam em casa."
+   },
+   {
+    "id": "count-stars",
+    "sg": "{subj} conta as estrelas.",
+    "pl": "{subj} contam as estrelas."
+   },
+   {
+    "id": "make-cake",
+    "sg": "{subj} faz um bolo.",
+    "pl": "{subj} fazem um bolo."
+   },
+   {
+    "id": "fly-kite",
+    "sg": "{subj} solta pipa.",
+    "pl": "{subj} soltam pipa."
+   },
+   {
+    "id": "hide-seek",
+    "sg": "{subj} brinca de esconde-esconde.",
+    "pl": "{subj} brincam de esconde-esconde."
+   },
+   {
+    "id": "watch-birds",
+    "sg": "{subj} olha os passarinhos.",
+    "pl": "{subj} olham os passarinhos."
+   },
+   {
+    "id": "hear-story",
+    "sg": "{subj} ouve uma história.",
+    "pl": "{subj} ouvem uma história."
+   },
+   {
+    "id": "eat-soup",
+    "sg": "{subj} toma sopa.",
+    "pl": "{subj} tomam sopa."
+   },
+   {
+    "id": "clap-hands",
+    "sg": "{subj} bate palmas.",
+    "pl": "{subj} batem palmas."
+   },
+   {
+    "id": "set-table",
+    "sg": "{subj} arruma a mesa.",
+    "pl": "{subj} arrumam a mesa."
+   },
+   {
+    "id": "sweep-floor",
+    "sg": "{subj} varre o chão.",
+    "pl": "{subj} varrem o chão."
+   },
+   {
+    "id": "cut-paper",
+    "sg": "{subj} recorta papel.",
+    "pl": "{subj} recortam papel."
+   },
+   {
+    "id": "pet-cat",
+    "sg": "{subj} faz carinho no gato.",
+    "pl": "{subj} fazem carinho no gato."
+   },
+   {
+    "id": "climb-tree",
+    "sg": "{subj} sobe na árvore.",
+    "pl": "{subj} sobem na árvore."
+   }
+  ],
+  "anaphora": [
+   {
+    "id": "library",
+    "intro": "{a} e {b} estão na biblioteca.",
+    "s": [
+     {
+      "text": "{P} pega um livro.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} lê um gibi.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "pool",
+    "intro": "{a} e {b} estão na piscina.",
+    "s": [
+     {
+      "text": "{P} nada rápido.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} pula na água.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "farm",
+    "intro": "{a} e {b} estão na fazenda.",
+    "s": [
+     {
+      "text": "{P} vê uma vaca.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} dá milho para a galinha.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "market",
+    "intro": "{a} e {b} estão na feira.",
+    "s": [
+     {
+      "text": "{P} compra uma banana.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} escolhe uma laranja.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "playground",
+    "intro": "{a} e {b} estão no parquinho.",
+    "s": [
+     {
+      "text": "{P} desce no escorregador.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} brinca no balanço.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "party",
+    "intro": "{a} e {b} estão na festa.",
+    "s": [
+     {
+      "text": "{P} come um brigadeiro.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} enche um balão.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "classroom",
+    "intro": "{a} e {b} estão na sala de aula.",
+    "s": [
+     {
+      "text": "{P} escreve no caderno.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} apaga a lousa.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "yard",
+    "intro": "{a} e {b} estão no quintal.",
+    "s": [
+     {
+      "text": "{P} corre com o cachorro.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} brinca na areia.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "museum",
+    "intro": "{a} e {b} estão no museu.",
+    "s": [
+     {
+      "text": "{P} vê um dinossauro.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} olha um quadro.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bakery",
+    "intro": "{a} e {b} estão na padaria.",
+    "s": [
+     {
+      "text": "{P} compra pão.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} pede um suco.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "cinema",
+    "intro": "{a} e {b} estão no cinema.",
+    "s": [
+     {
+      "text": "{P} come pipoca.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} vê um filme.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "square",
+    "intro": "{a} e {b} estão na praça.",
+    "s": [
+     {
+      "text": "{P} anda de patinete.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} dá milho aos pombos.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "aquarium",
+    "intro": "{a} e {b} estão no aquário.",
+    "s": [
+     {
+      "text": "{P} vê um tubarão.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} vê uma tartaruga.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bedroom",
+    "intro": "{a} e {b} estão no quarto.",
+    "s": [
+     {
+      "text": "{P} arruma a cama.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} guarda os brinquedos.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "camp",
+    "intro": "{a} e {b} estão no acampamento.",
+    "s": [
+     {
+      "text": "{P} monta a barraca.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} acende a lanterna.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "circus",
+    "intro": "{a} e {b} estão no circo.",
+    "s": [
+     {
+      "text": "{P} vê um palhaço.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} bate palmas.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "anaphoraSgpl": [
+   {
+    "id": "sp-home-park",
+    "introA": "{a} está em casa.",
+    "introB": "{b} estão no parque.",
+    "s": [
+     {
+      "text": "{P} faz um bolo.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} jogam bola.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-school-beach",
+    "introA": "{a} está na escola.",
+    "introB": "{b} estão na praia.",
+    "s": [
+     {
+      "text": "{P} lê um livro.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} fazem um castelo.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-kitchen-garden",
+    "introA": "{a} está na cozinha.",
+    "introB": "{b} estão no jardim.",
+    "s": [
+     {
+      "text": "{P} lava os pratos.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} regam as flores.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-library-pool",
+    "introA": "{a} está na biblioteca.",
+    "introB": "{b} estão na piscina.",
+    "s": [
+     {
+      "text": "{P} escolhe um livro.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} nadam na piscina.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-bedroom-yard",
+    "introA": "{a} está no quarto.",
+    "introB": "{b} estão no quintal.",
+    "s": [
+     {
+      "text": "{P} arruma a cama.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} correm no quintal.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-bus-zoo",
+    "introA": "{a} está no ônibus.",
+    "introB": "{b} estão no zoológico.",
+    "s": [
+     {
+      "text": "{P} olha pela janela.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} veem os macacos.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-bakery-playground",
+    "introA": "{a} está na padaria.",
+    "introB": "{b} estão no parquinho.",
+    "s": [
+     {
+      "text": "{P} compra pão.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} descem no escorregador.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-farm-city",
+    "introA": "{a} está na fazenda.",
+    "introB": "{b} estão na cidade.",
+    "s": [
+     {
+      "text": "{P} dá milho às galinhas.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} andam de ônibus.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-cinema-circus",
+    "introA": "{a} está no cinema.",
+    "introB": "{b} estão no circo.",
+    "s": [
+     {
+      "text": "{P} come pipoca.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} veem um palhaço.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-market-party",
+    "introA": "{a} está na feira.",
+    "introB": "{b} estão na festa.",
+    "s": [
+     {
+      "text": "{P} compra frutas.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} comem brigadeiro.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-bathroom-livingroom",
+    "introA": "{a} está no banheiro.",
+    "introB": "{b} estão na sala.",
+    "s": [
+     {
+      "text": "{P} escova os dentes.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} assistem a um desenho.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sp-garden-classroom",
+    "introA": "{a} está no jardim.",
+    "introB": "{b} estão na sala de aula.",
+    "s": [
+     {
+      "text": "{P} colhe uma flor.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} pintam um quadro.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "things": [
+   {
+    "key": "skateboard",
+    "pic": {
+     "theme": "toys",
+     "noun": "skateboard"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "umbrella",
+    "pic": {
+     "theme": "accessories",
+     "noun": "umbrella"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "balloon",
+    "pic": {
+     "theme": "toys",
+     "noun": "balloon"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "pencil",
+    "pic": {
+     "theme": "classroom",
+     "noun": "pencil"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "crayon",
+    "pic": {
+     "theme": "classroom",
+     "noun": "crayon"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "lunchbox",
+    "pic": {
+     "theme": "classroom",
+     "noun": "lunchbox"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "notebook",
+    "pic": {
+     "theme": "classroom",
+     "noun": "notebook"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "puzzle",
+    "pic": {
+     "theme": "activities",
+     "noun": "puzzle"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "hamster",
+    "pic": {
+     "theme": "pets",
+     "noun": "hamster"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rabbit",
+    "pic": {
+     "theme": "animals",
+     "noun": "rabbit"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "fish",
+    "pic": {
+     "theme": "animals",
+     "noun": "fish"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "guitar",
+    "pic": {
+     "theme": "music",
+     "noun": "guitar"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "watch",
+    "pic": {
+     "theme": "accessories",
+     "noun": "watch"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "cap",
+    "pic": {
+     "theme": "clothing",
+     "noun": "cap"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "jacket",
+    "pic": {
+     "theme": "clothing",
+     "noun": "jacket"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "bucket",
+    "pic": {
+     "theme": "toys",
+     "noun": "bucket"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "shovel",
+    "pic": {
+     "theme": "toys",
+     "noun": "shovel"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "pillow",
+    "pic": {
+     "theme": "around the house",
+     "noun": "pillow"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rocket",
+    "pic": {
+     "theme": "toys",
+     "noun": "rocket"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "boat",
+    "pic": {
+     "theme": "toys",
+     "noun": "boat"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "turtle",
+    "pic": {
+     "theme": "pets",
+     "noun": "turtle"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "xylophone",
+    "pic": {
+     "theme": "music",
+     "noun": "xylophone"
+    },
+    "picOpened": true
+   }
+  ]
+ },
+ "nl": {
+  "names": [
+   {
+    "name": "Sophie",
+    "gender": "f"
+   },
+   {
+    "name": "Nora",
+    "gender": "f"
+   },
+   {
+    "name": "Saar",
+    "gender": "f"
+   },
+   {
+    "name": "Yara",
+    "gender": "f"
+   },
+   {
+    "name": "Fenna",
+    "gender": "f"
+   },
+   {
+    "name": "Noor",
+    "gender": "f"
+   },
+   {
+    "name": "Lieke",
+    "gender": "f"
+   },
+   {
+    "name": "Fleur",
+    "gender": "f"
+   },
+   {
+    "name": "Amira",
+    "gender": "f"
+   },
+   {
+    "name": "Anna",
+    "gender": "f"
+   },
+   {
+    "name": "Milou",
+    "gender": "f"
+   },
+   {
+    "name": "Nina",
+    "gender": "f"
+   },
+   {
+    "name": "Evi",
+    "gender": "f"
+   },
+   {
+    "name": "Lisa",
+    "gender": "f"
+   },
+   {
+    "name": "Sara",
+    "gender": "f"
+   },
+   {
+    "name": "Maud",
+    "gender": "f"
+   },
+   {
+    "name": "Femke",
+    "gender": "f"
+   },
+   {
+    "name": "Ilse",
+    "gender": "f"
+   },
+   {
+    "name": "Eva",
+    "gender": "f"
+   },
+   {
+    "name": "Zara",
+    "gender": "f"
+   },
+   {
+    "name": "Nadia",
+    "gender": "f"
+   },
+   {
+    "name": "Esmee",
+    "gender": "f"
+   },
+   {
+    "name": "Hanna",
+    "gender": "f"
+   },
+   {
+    "name": "Vera",
+    "gender": "f"
+   },
+   {
+    "name": "Noah",
+    "gender": "m"
+   },
+   {
+    "name": "Lucas",
+    "gender": "m"
+   },
+   {
+    "name": "Levi",
+    "gender": "m"
+   },
+   {
+    "name": "Thijs",
+    "gender": "m"
+   },
+   {
+    "name": "Ruben",
+    "gender": "m"
+   },
+   {
+    "name": "Stijn",
+    "gender": "m"
+   },
+   {
+    "name": "Gijs",
+    "gender": "m"
+   },
+   {
+    "name": "Teun",
+    "gender": "m"
+   },
+   {
+    "name": "Adam",
+    "gender": "m"
+   },
+   {
+    "name": "Youssef",
+    "gender": "m"
+   },
+   {
+    "name": "Hugo",
+    "gender": "m"
+   },
+   {
+    "name": "Jens",
+    "gender": "m"
+   },
+   {
+    "name": "Thomas",
+    "gender": "m"
+   },
+   {
+    "name": "Tim",
+    "gender": "m"
+   },
+   {
+    "name": "Max",
+    "gender": "m"
+   },
+   {
+    "name": "Olivier",
+    "gender": "m"
+   },
+   {
+    "name": "Sven",
+    "gender": "m"
+   },
+   {
+    "name": "Joep",
+    "gender": "m"
+   },
+   {
+    "name": "Pim",
+    "gender": "m"
+   },
+   {
+    "name": "Wouter",
+    "gender": "m"
+   },
+   {
+    "name": "Pieter",
+    "gender": "m"
+   },
+   {
+    "name": "Julian",
+    "gender": "m"
+   },
+   {
+    "name": "Mohammed",
+    "gender": "m"
+   },
+   {
+    "name": "Kees",
+    "gender": "m"
+   }
+  ],
+  "frames": [
+   {
+    "id": "paint-house",
+    "sg": "{subj} schildert een huis.",
+    "pl": "{subj} schilderen een huis."
+   },
+   {
+    "id": "hide-seek",
+    "sg": "{subj} speelt verstoppertje.",
+    "pl": "{subj} spelen verstoppertje."
+   },
+   {
+    "id": "swim-sea",
+    "sg": "{subj} zwemt in de zee.",
+    "pl": "{subj} zwemmen in de zee."
+   },
+   {
+    "id": "write-letter",
+    "sg": "{subj} schrijft een brief.",
+    "pl": "{subj} schrijven een brief."
+   },
+   {
+    "id": "help-kitchen",
+    "sg": "{subj} helpt in de keuken.",
+    "pl": "{subj} helpen in de keuken."
+   },
+   {
+    "id": "do-puzzle",
+    "sg": "{subj} maakt een puzzel.",
+    "pl": "{subj} maken een puzzel."
+   },
+   {
+    "id": "bake-cookies",
+    "sg": "{subj} bakt koekjes.",
+    "pl": "{subj} bakken koekjes."
+   },
+   {
+    "id": "slide",
+    "sg": "{subj} glijdt van de glijbaan.",
+    "pl": "{subj} glijden van de glijbaan."
+   },
+   {
+    "id": "swing",
+    "sg": "{subj} schommelt in de tuin.",
+    "pl": "{subj} schommelen in de tuin."
+   },
+   {
+    "id": "sandcastle",
+    "sg": "{subj} bouwt een zandkasteel.",
+    "pl": "{subj} bouwen een zandkasteel."
+   },
+   {
+    "id": "clap",
+    "sg": "{subj} klapt in de handen.",
+    "pl": "{subj} klappen in de handen."
+   },
+   {
+    "id": "laugh-joke",
+    "sg": "{subj} lacht om een grapje.",
+    "pl": "{subj} lachen om een grapje."
+   },
+   {
+    "id": "go-bed",
+    "sg": "{subj} gaat naar bed.",
+    "pl": "{subj} gaan naar bed."
+   },
+   {
+    "id": "run-bus",
+    "sg": "{subj} rent naar de bus.",
+    "pl": "{subj} rennen naar de bus."
+   },
+   {
+    "id": "snowman",
+    "sg": "{subj} maakt een sneeuwpop.",
+    "pl": "{subj} maken een sneeuwpop."
+   },
+   {
+    "id": "tidy-room",
+    "sg": "{subj} ruimt de kamer op.",
+    "pl": "{subj} ruimen de kamer op."
+   },
+   {
+    "id": "watch-birds",
+    "sg": "{subj} kijkt naar de vogels.",
+    "pl": "{subj} kijken naar de vogels."
+   },
+   {
+    "id": "listen-teacher",
+    "sg": "{subj} luistert naar de juf.",
+    "pl": "{subj} luisteren naar de juf."
+   },
+   {
+    "id": "count-ten",
+    "sg": "{subj} telt tot tien.",
+    "pl": "{subj} tellen tot tien."
+   },
+   {
+    "id": "skate-pond",
+    "sg": "{subj} schaatst op de vijver.",
+    "pl": "{subj} schaatsen op de vijver."
+   },
+   {
+    "id": "water-plants",
+    "sg": "{subj} geeft de planten water.",
+    "pl": "{subj} geven de planten water."
+   },
+   {
+    "id": "blow-bubbles",
+    "sg": "{subj} blaast bellen.",
+    "pl": "{subj} blazen bellen."
+   },
+   {
+    "id": "dance-music",
+    "sg": "{subj} danst op muziek.",
+    "pl": "{subj} dansen op muziek."
+   },
+   {
+    "id": "cut-star",
+    "sg": "{subj} knipt een ster.",
+    "pl": "{subj} knippen een ster."
+   }
+  ],
+  "anaphora": [
+   {
+    "id": "bieb",
+    "intro": "{a} en {b} zijn in de bibliotheek.",
+    "s": [
+     {
+      "text": "{P} leent een boek.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} zoekt een prentenboek.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "speeltuin",
+    "intro": "{a} en {b} zijn in de speeltuin.",
+    "s": [
+     {
+      "text": "{P} zit op de schommel.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} gaat van de glijbaan.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "zwembad",
+    "intro": "{a} en {b} zijn in het zwembad.",
+    "s": [
+     {
+      "text": "{P} zwemt een baantje.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} duikt naar een ring.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bos",
+    "intro": "{a} en {b} lopen in het bos.",
+    "s": [
+     {
+      "text": "{P} vindt een eikel.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ziet een eekhoorn.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "winkel",
+    "intro": "{a} en {b} zijn in de winkel.",
+    "s": [
+     {
+      "text": "{P} koopt brood.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} pakt een appel.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "boerderij",
+    "intro": "{a} en {b} zijn op de boerderij.",
+    "s": [
+     {
+      "text": "{P} aait een koe.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} voert de kippen.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sneeuw",
+    "intro": "{a} en {b} spelen in de sneeuw.",
+    "s": [
+     {
+      "text": "{P} maakt een sneeuwpop.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} gooit een sneeuwbal.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "klas",
+    "intro": "{a} en {b} zitten in de klas.",
+    "s": [
+     {
+      "text": "{P} schrijft een woord.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} knipt een ster.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "feestje",
+    "intro": "{a} en {b} zijn op een feestje.",
+    "s": [
+     {
+      "text": "{P} blaast een ballon op.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} eet een stuk taart.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "gymzaal",
+    "intro": "{a} en {b} zijn in de gymzaal.",
+    "s": [
+     {
+      "text": "{P} springt over de bok.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} rolt over de mat.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "muziek",
+    "intro": "{a} en {b} maken muziek.",
+    "s": [
+     {
+      "text": "{P} speelt op een trommel.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} speelt op een fluit.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "markt",
+    "intro": "{a} en {b} zijn op de markt.",
+    "s": [
+     {
+      "text": "{P} koopt kaas.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} proeft een aardbei.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "camping",
+    "intro": "{a} en {b} zijn op de camping.",
+    "s": [
+     {
+      "text": "{P} zet een tent op.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} zoekt takjes.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "museum",
+    "intro": "{a} en {b} zijn in het museum.",
+    "s": [
+     {
+      "text": "{P} kijkt naar een schilderij.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ziet een groot skelet.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "trein",
+    "intro": "{a} en {b} zitten in de trein.",
+    "s": [
+     {
+      "text": "{P} leest een strip.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} eet een koekje.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "regen",
+    "intro": "{a} en {b} lopen in de regen.",
+    "s": [
+     {
+      "text": "{P} springt in een plas.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} heeft een paraplu.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "anaphoraSgpl": [
+   {
+    "id": "thuis-park",
+    "introA": "{a} is thuis.",
+    "introB": "{b} zijn in het park.",
+    "s": [
+     {
+      "text": "{P} leest een boek.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} voeren de eendjes.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "keuken-tuin",
+    "introA": "{a} is in de keuken.",
+    "introB": "{b} zijn in de tuin.",
+    "s": [
+     {
+      "text": "{P} bakt pannenkoeken.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} plukken bloemen.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "klas-gym",
+    "introA": "{a} zit in de klas.",
+    "introB": "{b} zijn in de gymzaal.",
+    "s": [
+     {
+      "text": "{P} schrijft een woord.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} rollen over de mat.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "strand-zee",
+    "introA": "{a} zit op het strand.",
+    "introB": "{b} zijn in de zee.",
+    "s": [
+     {
+      "text": "{P} bouwt een zandkasteel.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} zwemmen naar de boei.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bieb-speeltuin",
+    "introA": "{a} is in de bibliotheek.",
+    "introB": "{b} zijn in de speeltuin.",
+    "s": [
+     {
+      "text": "{P} leent een boek.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} gaan van de glijbaan.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bed-bank",
+    "introA": "{a} ligt in bed.",
+    "introB": "{b} zitten op de bank.",
+    "s": [
+     {
+      "text": "{P} slaapt al.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} kijken naar een film.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "winkel-auto",
+    "introA": "{a} is in de winkel.",
+    "introB": "{b} wachten in de auto.",
+    "s": [
+     {
+      "text": "{P} koopt brood.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} zingen een liedje.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "stal-wei",
+    "introA": "{a} is in de stal.",
+    "introB": "{b} zijn in de wei.",
+    "s": [
+     {
+      "text": "{P} voert de koe.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} aaien een paard.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sneeuw-binnen",
+    "introA": "{a} speelt in de sneeuw.",
+    "introB": "{b} zitten binnen.",
+    "s": [
+     {
+      "text": "{P} maakt een sneeuwpop.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} drinken warme chocomelk.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bad-buiten",
+    "introA": "{a} is in de badkamer.",
+    "introB": "{b} zijn buiten.",
+    "s": [
+     {
+      "text": "{P} neemt een bad.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} spelen tikkertje.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "dierentuin-school",
+    "introA": "{a} is in de dierentuin.",
+    "introB": "{b} zijn op school.",
+    "s": [
+     {
+      "text": "{P} kijkt naar de apen.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} maken een tekening.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bus-fiets",
+    "introA": "{a} zit in de bus.",
+    "introB": "{b} fietsen naar het bos.",
+    "s": [
+     {
+      "text": "{P} kijkt naar buiten.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} zoeken kastanjes.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "things": [
+   {
+    "key": "backpack",
+    "pic": {
+     "theme": "classroom",
+     "noun": "backpack"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "bicycle",
+    "pic": {
+     "theme": "toys",
+     "noun": "bicycle"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "umbrella",
+    "pic": {
+     "theme": "accessories",
+     "noun": "umbrella"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "balloon",
+    "pic": {
+     "theme": "toys",
+     "noun": "balloon"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "pencil",
+    "pic": {
+     "theme": "classroom",
+     "noun": "pencil"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "lunchbox",
+    "pic": {
+     "theme": "classroom",
+     "noun": "lunchbox"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "notebook",
+    "pic": {
+     "theme": "classroom",
+     "noun": "notebook"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "puzzle",
+    "pic": {
+     "theme": "activities",
+     "noun": "puzzle"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "hamster",
+    "pic": {
+     "theme": "pets",
+     "noun": "hamster"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rabbit",
+    "pic": {
+     "theme": "animals",
+     "noun": "rabbit"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "guitar",
+    "pic": {
+     "theme": "music",
+     "noun": "guitar"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "sweater",
+    "pic": {
+     "theme": "clothing",
+     "noun": "sweater"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "bucket",
+    "pic": {
+     "theme": "toys",
+     "noun": "bucket"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "sled",
+    "pic": {
+     "theme": "winter",
+     "noun": "sled"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "turtle",
+    "pic": {
+     "theme": "pets",
+     "noun": "turtle"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "scarf",
+    "pic": {
+     "theme": "clothing",
+     "noun": "scarf"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rocket",
+    "pic": {
+     "theme": "toys",
+     "noun": "rocket"
+    },
+    "picOpened": true
+   }
+  ]
+ },
+ "sv": {
+  "names": [
+   {
+    "name": "Alice",
+    "gender": "f"
+   },
+   {
+    "name": "Ebba",
+    "gender": "f"
+   },
+   {
+    "name": "Astrid",
+    "gender": "f"
+   },
+   {
+    "name": "Wilma",
+    "gender": "f"
+   },
+   {
+    "name": "Selma",
+    "gender": "f"
+   },
+   {
+    "name": "Freja",
+    "gender": "f"
+   },
+   {
+    "name": "Stella",
+    "gender": "f"
+   },
+   {
+    "name": "Signe",
+    "gender": "f"
+   },
+   {
+    "name": "Agnes",
+    "gender": "f"
+   },
+   {
+    "name": "Tyra",
+    "gender": "f"
+   },
+   {
+    "name": "Amira",
+    "gender": "f"
+   },
+   {
+    "name": "Yasmin",
+    "gender": "f"
+   },
+   {
+    "name": "Ellen",
+    "gender": "f"
+   },
+   {
+    "name": "Lilly",
+    "gender": "f"
+   },
+   {
+    "name": "Ester",
+    "gender": "f"
+   },
+   {
+    "name": "Hedda",
+    "gender": "f"
+   },
+   {
+    "name": "Olivia",
+    "gender": "f"
+   },
+   {
+    "name": "Linnea",
+    "gender": "f"
+   },
+   {
+    "name": "Emilia",
+    "gender": "f"
+   },
+   {
+    "name": "Sara",
+    "gender": "f"
+   },
+   {
+    "name": "Nellie",
+    "gender": "f"
+   },
+   {
+    "name": "Märta",
+    "gender": "f"
+   },
+   {
+    "name": "Greta",
+    "gender": "f"
+   },
+   {
+    "name": "Svea",
+    "gender": "f"
+   },
+   {
+    "name": "Liam",
+    "gender": "m"
+   },
+   {
+    "name": "William",
+    "gender": "m"
+   },
+   {
+    "name": "Elias",
+    "gender": "m"
+   },
+   {
+    "name": "Noah",
+    "gender": "m"
+   },
+   {
+    "name": "Lucas",
+    "gender": "m"
+   },
+   {
+    "name": "Oscar",
+    "gender": "m"
+   },
+   {
+    "name": "Adam",
+    "gender": "m"
+   },
+   {
+    "name": "Viktor",
+    "gender": "m"
+   },
+   {
+    "name": "Theo",
+    "gender": "m"
+   },
+   {
+    "name": "Isak",
+    "gender": "m"
+   },
+   {
+    "name": "Arvid",
+    "gender": "m"
+   },
+   {
+    "name": "Omar",
+    "gender": "m"
+   },
+   {
+    "name": "Oliver",
+    "gender": "m"
+   },
+   {
+    "name": "Alfred",
+    "gender": "m"
+   },
+   {
+    "name": "Melvin",
+    "gender": "m"
+   },
+   {
+    "name": "Ludvig",
+    "gender": "m"
+   },
+   {
+    "name": "Vincent",
+    "gender": "m"
+   },
+   {
+    "name": "Gustav",
+    "gender": "m"
+   },
+   {
+    "name": "Edvin",
+    "gender": "m"
+   },
+   {
+    "name": "Sixten",
+    "gender": "m"
+   },
+   {
+    "name": "Albin",
+    "gender": "m"
+   },
+   {
+    "name": "Anton",
+    "gender": "m"
+   },
+   {
+    "name": "Filip",
+    "gender": "m"
+   },
+   {
+    "name": "Malte",
+    "gender": "m"
+   }
+  ],
+  "frames": [
+   {
+    "id": "hug-teddy",
+    "sg": "{subj} kramar sin nalle.",
+    "pl": "{subj} kramar sina nallar."
+   },
+   {
+    "id": "eat-sandwich",
+    "sg": "{subj} äter sin smörgås.",
+    "pl": "{subj} äter sina smörgåsar."
+   },
+   {
+    "id": "wash-cup",
+    "sg": "{subj} diskar sin kopp.",
+    "pl": "{subj} diskar sina koppar."
+   },
+   {
+    "id": "pack-bag",
+    "sg": "{subj} packar sin väska.",
+    "pl": "{subj} packar sina väskor."
+   },
+   {
+    "id": "tidy-room",
+    "sg": "{subj} städar sitt rum.",
+    "pl": "{subj} städar sina rum."
+   },
+   {
+    "id": "put-on-jacket",
+    "sg": "{subj} tar på sig sin jacka.",
+    "pl": "{subj} tar på sig sina jackor."
+   },
+   {
+    "id": "bake-bun",
+    "sg": "{subj} bakar en bulle.",
+    "pl": "{subj} bakar bullar."
+   },
+   {
+    "id": "helpful-class",
+    "sg": "{subj} är hjälpsam i klassen.",
+    "pl": "{subj} är hjälpsamma i klassen."
+   },
+   {
+    "id": "build-sandcastle",
+    "sg": "{subj} bygger ett sandslott.",
+    "pl": "{subj} bygger sandslott."
+   },
+   {
+    "id": "water-flower",
+    "sg": "{subj} vattnar sin blomma.",
+    "pl": "{subj} vattnar sina blommor."
+   },
+   {
+    "id": "write-story",
+    "sg": "{subj} skriver en berättelse.",
+    "pl": "{subj} skriver berättelser."
+   },
+   {
+    "id": "pat-rabbit",
+    "sg": "{subj} klappar en kanin.",
+    "pl": "{subj} klappar kaniner."
+   },
+   {
+    "id": "wet-rain",
+    "sg": "{subj} är blöt efter regnet.",
+    "pl": "{subj} är blöta efter regnet."
+   },
+   {
+    "id": "glad-snow",
+    "sg": "{subj} är glad när det snöar.",
+    "pl": "{subj} är glada när det snöar."
+   },
+   {
+    "id": "sleepy-evening",
+    "sg": "{subj} är sömnig i kväll.",
+    "pl": "{subj} är sömniga i kväll."
+   },
+   {
+    "id": "done-homework",
+    "sg": "{subj} är klar med sin läxa.",
+    "pl": "{subj} är klara med sina läxor."
+   },
+   {
+    "id": "curious-books",
+    "sg": "{subj} är nyfiken på böcker.",
+    "pl": "{subj} är nyfikna på böcker."
+   },
+   {
+    "id": "lose-hat",
+    "sg": "{subj} tappar sin mössa.",
+    "pl": "{subj} tappar sina mössor."
+   },
+   {
+    "id": "fill-basket",
+    "sg": "{subj} fyller sin korg med bär.",
+    "pl": "{subj} fyller sina korgar med bär."
+   },
+   {
+    "id": "good-swimming",
+    "sg": "{subj} är duktig på att simma.",
+    "pl": "{subj} är duktiga på att simma."
+   },
+   {
+    "id": "full-lunch",
+    "sg": "{subj} är mätt efter maten.",
+    "pl": "{subj} är mätta efter maten."
+   },
+   {
+    "id": "tie-shoe",
+    "sg": "{subj} knyter sin sko.",
+    "pl": "{subj} knyter sina skor."
+   },
+   {
+    "id": "open-parcel",
+    "sg": "{subj} öppnar sitt paket.",
+    "pl": "{subj} öppnar sina paket."
+   },
+   {
+    "id": "quiet-library",
+    "sg": "{subj} är tyst på biblioteket.",
+    "pl": "{subj} är tysta på biblioteket."
+   }
+  ],
+  "anaphora": [
+   {
+    "id": "ls-library",
+    "intro": "{a} och {b} är på biblioteket.",
+    "s": [
+     {
+      "text": "{P} lånar en bok.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} läser en serietidning.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "ls-forest",
+    "intro": "{a} och {b} är i skogen.",
+    "s": [
+     {
+      "text": "{P} hittar en kotte.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ser en ekorre.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "ls-playground",
+    "intro": "{a} och {b} är på lekplatsen.",
+    "s": [
+     {
+      "text": "{P} gungar högt.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} åker rutschkana.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "ls-snow",
+    "intro": "{a} och {b} är ute i snön.",
+    "s": [
+     {
+      "text": "{P} bygger en snögubbe.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} åker pulka.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "ls-shop",
+    "intro": "{a} och {b} är i affären.",
+    "s": [
+     {
+      "text": "{P} väljer en banan.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} väljer ett päron.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "ls-pool",
+    "intro": "{a} och {b} är i simhallen.",
+    "s": [
+     {
+      "text": "{P} simmar fort.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} hoppar från kanten.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "ls-dining-hall",
+    "intro": "{a} och {b} är i matsalen.",
+    "s": [
+     {
+      "text": "{P} äter soppa.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} dricker vatten.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "ls-farm",
+    "intro": "{a} och {b} är på bondgården.",
+    "s": [
+     {
+      "text": "{P} klappar en häst.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} matar en get.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "ls-party",
+    "intro": "{a} och {b} är på kalaset.",
+    "s": [
+     {
+      "text": "{P} blåser upp en ballong.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} äter en tårtbit.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "ls-gym",
+    "intro": "{a} och {b} är i gympasalen.",
+    "s": [
+     {
+      "text": "{P} klättrar i repet.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} studsar en boll.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "ls-lake",
+    "intro": "{a} och {b} är vid sjön.",
+    "s": [
+     {
+      "text": "{P} fiskar med ett spö.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} kastar en sten.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "ls-music-room",
+    "intro": "{a} och {b} är i musiksalen.",
+    "s": [
+     {
+      "text": "{P} spelar trumma.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} spelar gitarr.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "ls-rain",
+    "intro": "{a} och {b} är ute i regnet.",
+    "s": [
+     {
+      "text": "{P} hoppar i en vattenpöl.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} håller ett paraply.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "ls-hall",
+    "intro": "{a} och {b} är i hallen.",
+    "s": [
+     {
+      "text": "{P} tar på sig stövlar.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} letar efter en vante.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "ls-train",
+    "intro": "{a} och {b} är på tåget.",
+    "s": [
+     {
+      "text": "{P} tittar ut genom fönstret.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} äter en macka.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "ls-museum",
+    "intro": "{a} och {b} är på museet.",
+    "s": [
+     {
+      "text": "{P} ser ett skelett.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ritar en dinosaurie.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "anaphoraSgpl": [
+   {
+    "id": "sgpl-home-park",
+    "introA": "{a} är hemma.",
+    "introB": "{b} är i parken.",
+    "s": [
+     {
+      "text": "{P} läser en bok i soffan.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} sparkar boll på gräset.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-kitchen-garden",
+    "introA": "{a} är i köket.",
+    "introB": "{b} är i trädgården.",
+    "s": [
+     {
+      "text": "{P} bakar en kaka.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} vattnar blommorna.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-library-pool",
+    "introA": "{a} är på biblioteket.",
+    "introB": "{b} är i simhallen.",
+    "s": [
+     {
+      "text": "{P} lånar en bok.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} simmar i bassängen.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-class-yard",
+    "introA": "{a} är i klassrummet.",
+    "introB": "{b} är på skolgården.",
+    "s": [
+     {
+      "text": "{P} skriver i sitt häfte.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} hoppar hopprep.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-forest-beach",
+    "introA": "{a} är i skogen.",
+    "introB": "{b} är på stranden.",
+    "s": [
+     {
+      "text": "{P} plockar svamp.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} bygger ett sandslott.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-bed-playground",
+    "introA": "{a} ligger i sängen.",
+    "introB": "{b} är på lekplatsen.",
+    "s": [
+     {
+      "text": "{P} har feber i dag.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} åker rutschkana.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-shop-bus",
+    "introA": "{a} är i affären.",
+    "introB": "{b} sitter på bussen.",
+    "s": [
+     {
+      "text": "{P} köper mjölk.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} tittar ut genom fönstret.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-hall-snow",
+    "introA": "{a} är i hallen.",
+    "introB": "{b} är ute i snön.",
+    "s": [
+     {
+      "text": "{P} tar av sig stövlarna.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} bygger en snögubbe.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-dining-gym",
+    "introA": "{a} är i matsalen.",
+    "introB": "{b} är i gympasalen.",
+    "s": [
+     {
+      "text": "{P} äter fisk och potatis.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} klättrar i ribbstolarna.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-farm-lake",
+    "introA": "{a} är på bondgården.",
+    "introB": "{b} är vid sjön.",
+    "s": [
+     {
+      "text": "{P} matar en kalv.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} kastar sten i vattnet.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-music-art",
+    "introA": "{a} är i musiksalen.",
+    "introB": "{b} är i bildsalen.",
+    "s": [
+     {
+      "text": "{P} spelar piano.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} målar med vattenfärg.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sgpl-bath-party",
+    "introA": "{a} är i badrummet.",
+    "introB": "{b} är på kalas.",
+    "s": [
+     {
+      "text": "{P} borstar tänderna.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} leker kurragömma.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "things": [
+   {
+    "key": "backpack",
+    "pic": {
+     "theme": "classroom",
+     "noun": "backpack"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "umbrella",
+    "pic": {
+     "theme": "accessories",
+     "noun": "umbrella"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "balloon",
+    "pic": {
+     "theme": "toys",
+     "noun": "balloon"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "cup",
+    "pic": {
+     "theme": "kitchen tools",
+     "noun": "cup"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "pencil",
+    "pic": {
+     "theme": "classroom",
+     "noun": "pencil"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "crayon",
+    "pic": {
+     "theme": "classroom",
+     "noun": "crayon"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "puzzle",
+    "pic": {
+     "theme": "activities",
+     "noun": "puzzle"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "hamster",
+    "pic": {
+     "theme": "pets",
+     "noun": "hamster"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rabbit",
+    "pic": {
+     "theme": "animals",
+     "noun": "rabbit"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "guitar",
+    "pic": {
+     "theme": "music",
+     "noun": "guitar"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "watch",
+    "pic": {
+     "theme": "accessories",
+     "noun": "watch"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "cap",
+    "pic": {
+     "theme": "clothing",
+     "noun": "cap"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "jacket",
+    "pic": {
+     "theme": "clothing",
+     "noun": "jacket"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "scarf",
+    "pic": {
+     "theme": "clothing",
+     "noun": "scarf"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "sweater",
+    "pic": {
+     "theme": "clothing",
+     "noun": "sweater"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "bucket",
+    "pic": {
+     "theme": "toys",
+     "noun": "bucket"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "boat",
+    "pic": {
+     "theme": "toys",
+     "noun": "boat"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "turtle",
+    "pic": {
+     "theme": "pets",
+     "noun": "turtle"
+    },
+    "picOpened": true
+   }
+  ]
+ },
+ "da": {
+  "names": [
+   {
+    "name": "Emma",
+    "gender": "f"
+   },
+   {
+    "name": "Karla",
+    "gender": "f"
+   },
+   {
+    "name": "Agnes",
+    "gender": "f"
+   },
+   {
+    "name": "Frida",
+    "gender": "f"
+   },
+   {
+    "name": "Nora",
+    "gender": "f"
+   },
+   {
+    "name": "Anna",
+    "gender": "f"
+   },
+   {
+    "name": "Olivia",
+    "gender": "f"
+   },
+   {
+    "name": "Mille",
+    "gender": "f"
+   },
+   {
+    "name": "Maja",
+    "gender": "f"
+   },
+   {
+    "name": "Laura",
+    "gender": "f"
+   },
+   {
+    "name": "Esther",
+    "gender": "f"
+   },
+   {
+    "name": "Sara",
+    "gender": "f"
+   },
+   {
+    "name": "William",
+    "gender": "m"
+   },
+   {
+    "name": "Lucas",
+    "gender": "m"
+   },
+   {
+    "name": "Carl",
+    "gender": "m"
+   },
+   {
+    "name": "Oliver",
+    "gender": "m"
+   },
+   {
+    "name": "Aksel",
+    "gender": "m"
+   },
+   {
+    "name": "Magnus",
+    "gender": "m"
+   },
+   {
+    "name": "Otto",
+    "gender": "m"
+   },
+   {
+    "name": "Anton",
+    "gender": "m"
+   },
+   {
+    "name": "Elias",
+    "gender": "m"
+   },
+   {
+    "name": "Arthur",
+    "gender": "m"
+   },
+   {
+    "name": "Villads",
+    "gender": "m"
+   },
+   {
+    "name": "Johan",
+    "gender": "m"
+   },
+   {
+    "name": "Liva",
+    "gender": "f"
+   },
+   {
+    "name": "Selma",
+    "gender": "f"
+   },
+   {
+    "name": "Asta",
+    "gender": "f"
+   },
+   {
+    "name": "Ellen",
+    "gender": "f"
+   },
+   {
+    "name": "Marie",
+    "gender": "f"
+   },
+   {
+    "name": "Molly",
+    "gender": "f"
+   },
+   {
+    "name": "Ingrid",
+    "gender": "f"
+   },
+   {
+    "name": "Signe",
+    "gender": "f"
+   },
+   {
+    "name": "Vigga",
+    "gender": "f"
+   },
+   {
+    "name": "Hannah",
+    "gender": "f"
+   },
+   {
+    "name": "Luna",
+    "gender": "f"
+   },
+   {
+    "name": "Nanna",
+    "gender": "f"
+   },
+   {
+    "name": "Theo",
+    "gender": "m"
+   },
+   {
+    "name": "Liam",
+    "gender": "m"
+   },
+   {
+    "name": "Hugo",
+    "gender": "m"
+   },
+   {
+    "name": "Felix",
+    "gender": "m"
+   },
+   {
+    "name": "Mikkel",
+    "gender": "m"
+   },
+   {
+    "name": "Rasmus",
+    "gender": "m"
+   },
+   {
+    "name": "Jonas",
+    "gender": "m"
+   },
+   {
+    "name": "Albert",
+    "gender": "m"
+   },
+   {
+    "name": "Konrad",
+    "gender": "m"
+   },
+   {
+    "name": "Adam",
+    "gender": "m"
+   },
+   {
+    "name": "Tobias",
+    "gender": "m"
+   },
+   {
+    "name": "Bertram",
+    "gender": "m"
+   }
+  ],
+  "frames": [
+   {
+    "id": "sol",
+    "sg": "{subj} tegner sin sol.",
+    "pl": "{subj} tegner deres sole."
+   },
+   {
+    "id": "billede",
+    "sg": "{subj} maler sit billede.",
+    "pl": "{subj} maler deres billeder."
+   },
+   {
+    "id": "gynge",
+    "sg": "{subj} er glad for at gynge.",
+    "pl": "{subj} er glade for at gynge."
+   },
+   {
+    "id": "svoemme",
+    "sg": "{subj} er god til at svømme.",
+    "pl": "{subj} er gode til at svømme."
+   },
+   {
+    "id": "puslespil",
+    "sg": "{subj} lægger sit puslespil.",
+    "pl": "{subj} lægger deres puslespil."
+   },
+   {
+    "id": "klatre",
+    "sg": "{subj} er modig og klatrer.",
+    "pl": "{subj} er modige og klatrer."
+   },
+   {
+    "id": "danse",
+    "sg": "{subj} er glad for at danse.",
+    "pl": "{subj} er glade for at danse."
+   },
+   {
+    "id": "spand",
+    "sg": "{subj} fylder sin spand.",
+    "pl": "{subj} fylder deres spande."
+   },
+   {
+    "id": "haender",
+    "sg": "{subj} vasker sine hænder.",
+    "pl": "{subj} vasker deres hænder."
+   },
+   {
+    "id": "rydde",
+    "sg": "{subj} rydder op på sit værelse.",
+    "pl": "{subj} rydder op på deres værelse."
+   },
+   {
+    "id": "tallerken",
+    "sg": "{subj} bærer sin tallerken ud.",
+    "pl": "{subj} bærer deres tallerkener ud."
+   },
+   {
+    "id": "sparke",
+    "sg": "{subj} sparker til sin bold.",
+    "pl": "{subj} sparker til deres bolde."
+   },
+   {
+    "id": "sandslot",
+    "sg": "{subj} bygger sit sandslot.",
+    "pl": "{subj} bygger deres sandslot."
+   },
+   {
+    "id": "is",
+    "sg": "{subj} spiser sin is.",
+    "pl": "{subj} spiser deres is."
+   },
+   {
+    "id": "saft",
+    "sg": "{subj} drikker sin saft.",
+    "pl": "{subj} drikker deres saft."
+   },
+   {
+    "id": "sko",
+    "sg": "{subj} tager sine sko på.",
+    "pl": "{subj} tager deres sko på."
+   },
+   {
+    "id": "skole",
+    "sg": "{subj} er klar til skole.",
+    "pl": "{subj} er klare til skole."
+   },
+   {
+    "id": "sang",
+    "sg": "{subj} synger sin sang.",
+    "pl": "{subj} synger deres sang."
+   },
+   {
+    "id": "traet",
+    "sg": "{subj} er træt efter legen.",
+    "pl": "{subj} er trætte efter legen."
+   },
+   {
+    "id": "penalhus",
+    "sg": "{subj} pakker sit penalhus.",
+    "pl": "{subj} pakker deres penalhuse."
+   },
+   {
+    "id": "taelle",
+    "sg": "{subj} er god til at tælle.",
+    "pl": "{subj} er gode til at tælle."
+   },
+   {
+    "id": "vaad",
+    "sg": "{subj} er våd efter regnen.",
+    "pl": "{subj} er våde efter regnen."
+   },
+   {
+    "id": "tegning",
+    "sg": "{subj} viser sin tegning.",
+    "pl": "{subj} viser deres tegninger."
+   },
+   {
+    "id": "snebold",
+    "sg": "{subj} kaster sin snebold.",
+    "pl": "{subj} kaster deres snebolde."
+   }
+  ],
+  "anaphora": [
+   {
+    "id": "biblioteket",
+    "intro": "{a} og {b} er på biblioteket.",
+    "s": [
+     {
+      "text": "{P} låner en bog.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} læser et blad.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "legepladsen",
+    "intro": "{a} og {b} er på legepladsen.",
+    "s": [
+     {
+      "text": "{P} gynger højt.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} rutsjer ned.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "svoemmehallen",
+    "intro": "{a} og {b} er i svømmehallen.",
+    "s": [
+     {
+      "text": "{P} svømmer en tur.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} hopper i vandet.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "skoven",
+    "intro": "{a} og {b} går i skoven.",
+    "s": [
+     {
+      "text": "{P} finder en kogle.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ser et egern.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "klassen",
+    "intro": "{a} og {b} sidder i klassen.",
+    "s": [
+     {
+      "text": "{P} skriver et ord.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} læser en bog.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "banen",
+    "intro": "{a} og {b} er på banen.",
+    "s": [
+     {
+      "text": "{P} sparker til bolden.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} står i målet.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "butikken",
+    "intro": "{a} og {b} er i butikken.",
+    "s": [
+     {
+      "text": "{P} køber brød.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} køber æbler.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sneen",
+    "intro": "{a} og {b} leger i sneen.",
+    "s": [
+     {
+      "text": "{P} laver en snemand.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} kaster en snebold.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "badevaerelset",
+    "intro": "{a} og {b} er på badeværelset.",
+    "s": [
+     {
+      "text": "{P} børster tænder.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} vasker hænder.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "festen",
+    "intro": "{a} og {b} er til fest.",
+    "s": [
+     {
+      "text": "{P} spiser kage.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} åbner en gave.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bondegaarden",
+    "intro": "{a} og {b} er på bondegården.",
+    "s": [
+     {
+      "text": "{P} klapper en ko.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} fodrer en gris.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "musik",
+    "intro": "{a} og {b} er til musik.",
+    "s": [
+     {
+      "text": "{P} spiller på tromme.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} synger en sang.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "toget",
+    "intro": "{a} og {b} sidder i toget.",
+    "s": [
+     {
+      "text": "{P} kigger ud ad vinduet.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} spiser en banan.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "havnen",
+    "intro": "{a} og {b} er ved havnen.",
+    "s": [
+     {
+      "text": "{P} ser en båd.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} fanger en krabbe.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sofaen",
+    "intro": "{a} og {b} sidder i sofaen.",
+    "s": [
+     {
+      "text": "{P} ser tegnefilm.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} læser en tegneserie.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "gymnastik",
+    "intro": "{a} og {b} er til gymnastik.",
+    "s": [
+     {
+      "text": "{P} slår en kolbøtte.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} klatrer i ribben.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "anaphoraSgpl": [
+   {
+    "id": "hjemme-parken",
+    "introA": "{a} er hjemme.",
+    "introB": "{b} er i parken.",
+    "s": [
+     {
+      "text": "{P} ser tegnefilm.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} spiller bold.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "koekken-have",
+    "introA": "{a} er i køkkenet.",
+    "introB": "{b} er i haven.",
+    "s": [
+     {
+      "text": "{P} bager boller.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} vander blomster.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bibliotek-strand",
+    "introA": "{a} er på biblioteket.",
+    "introB": "{b} er på stranden.",
+    "s": [
+     {
+      "text": "{P} låner en bog.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} bygger et sandslot.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "skole-svoemmehal",
+    "introA": "{a} er i skolen.",
+    "introB": "{b} er i svømmehallen.",
+    "s": [
+     {
+      "text": "{P} skriver et brev.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} hopper i vandet.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bus-skov",
+    "introA": "{a} sidder i bussen.",
+    "introB": "{b} går i skoven.",
+    "s": [
+     {
+      "text": "{P} kigger ud ad vinduet.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} samler kogler.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "legeplads-sofa",
+    "introA": "{a} er på legepladsen.",
+    "introB": "{b} sidder i sofaen.",
+    "s": [
+     {
+      "text": "{P} gynger højt.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} læser en bog sammen.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bondegaard-dyrepark",
+    "introA": "{a} er på bondegården.",
+    "introB": "{b} er i dyreparken.",
+    "s": [
+     {
+      "text": "{P} fodrer en ko.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ser på aberne.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "seng-have",
+    "introA": "{a} ligger i sengen.",
+    "introB": "{b} er ude i haven.",
+    "s": [
+     {
+      "text": "{P} sover sødt.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} plukker jordbær.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sne-inde",
+    "introA": "{a} leger i sneen.",
+    "introB": "{b} sidder inde.",
+    "s": [
+     {
+      "text": "{P} laver en snemand.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} drikker kakao.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "musik-bane",
+    "introA": "{a} er til musik.",
+    "introB": "{b} er på banen.",
+    "s": [
+     {
+      "text": "{P} spiller på klaver.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} sparker til bolden.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "butik-udenfor",
+    "introA": "{a} er i butikken.",
+    "introB": "{b} venter udenfor.",
+    "s": [
+     {
+      "text": "{P} køber mælk.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} kaster med en bold.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "havn-vaerelse",
+    "introA": "{a} er ved havnen.",
+    "introB": "{b} er på værelset.",
+    "s": [
+     {
+      "text": "{P} fanger en krabbe.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} rydder op.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "things": [
+   {
+    "key": "backpack",
+    "pic": {
+     "theme": "classroom",
+     "noun": "backpack"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "bicycle",
+    "pic": {
+     "theme": "toys",
+     "noun": "bicycle"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "skateboard",
+    "pic": {
+     "theme": "toys",
+     "noun": "skateboard"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "umbrella",
+    "pic": {
+     "theme": "accessories",
+     "noun": "umbrella"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "balloon",
+    "pic": {
+     "theme": "toys",
+     "noun": "balloon"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "cup",
+    "pic": {
+     "theme": "kitchen tools",
+     "noun": "cup"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "pencil",
+    "pic": {
+     "theme": "classroom",
+     "noun": "pencil"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "lunchbox",
+    "pic": {
+     "theme": "classroom",
+     "noun": "lunchbox"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "puzzle",
+    "pic": {
+     "theme": "activities",
+     "noun": "puzzle"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "hamster",
+    "pic": {
+     "theme": "pets",
+     "noun": "hamster"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rabbit",
+    "pic": {
+     "theme": "animals",
+     "noun": "rabbit"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "guitar",
+    "pic": {
+     "theme": "music",
+     "noun": "guitar"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "cap",
+    "pic": {
+     "theme": "clothing",
+     "noun": "cap"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "jacket",
+    "pic": {
+     "theme": "clothing",
+     "noun": "jacket"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "bucket",
+    "pic": {
+     "theme": "toys",
+     "noun": "bucket"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "shovel",
+    "pic": {
+     "theme": "toys",
+     "noun": "shovel"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rocket",
+    "pic": {
+     "theme": "toys",
+     "noun": "rocket"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "parrot",
+    "pic": {
+     "theme": "pets",
+     "noun": "parrot"
+    },
+    "picOpened": true
+   }
+  ]
+ },
+ "no": {
+  "names": [
+   {
+    "name": "Sofie",
+    "gender": "f"
+   },
+   {
+    "name": "Jakob",
+    "gender": "m"
+   },
+   {
+    "name": "Ingrid",
+    "gender": "f"
+   },
+   {
+    "name": "Filip",
+    "gender": "m"
+   },
+   {
+    "name": "Olivia",
+    "gender": "f"
+   },
+   {
+    "name": "Oskar",
+    "gender": "m"
+   },
+   {
+    "name": "Sara",
+    "gender": "f"
+   },
+   {
+    "name": "Lukas",
+    "gender": "m"
+   },
+   {
+    "name": "Frida",
+    "gender": "f"
+   },
+   {
+    "name": "Henrik",
+    "gender": "m"
+   },
+   {
+    "name": "Astrid",
+    "gender": "f"
+   },
+   {
+    "name": "Magnus",
+    "gender": "m"
+   },
+   {
+    "name": "Selma",
+    "gender": "f"
+   },
+   {
+    "name": "Aksel",
+    "gender": "m"
+   },
+   {
+    "name": "Thea",
+    "gender": "f"
+   },
+   {
+    "name": "Ludvig",
+    "gender": "m"
+   },
+   {
+    "name": "Sigrid",
+    "gender": "f"
+   },
+   {
+    "name": "Sander",
+    "gender": "m"
+   },
+   {
+    "name": "Hanna",
+    "gender": "f"
+   },
+   {
+    "name": "Tobias",
+    "gender": "m"
+   },
+   {
+    "name": "Amalie",
+    "gender": "f"
+   },
+   {
+    "name": "Olav",
+    "gender": "m"
+   },
+   {
+    "name": "Julie",
+    "gender": "f"
+   },
+   {
+    "name": "Elias",
+    "gender": "m"
+   },
+   {
+    "name": "Marie",
+    "gender": "f"
+   },
+   {
+    "name": "Johan",
+    "gender": "m"
+   },
+   {
+    "name": "Oda",
+    "gender": "f"
+   },
+   {
+    "name": "Adrian",
+    "gender": "m"
+   },
+   {
+    "name": "Vilde",
+    "gender": "f"
+   },
+   {
+    "name": "Mathias",
+    "gender": "m"
+   },
+   {
+    "name": "Linnea",
+    "gender": "f"
+   },
+   {
+    "name": "Håkon",
+    "gender": "m"
+   },
+   {
+    "name": "Mia",
+    "gender": "f"
+   },
+   {
+    "name": "Sindre",
+    "gender": "m"
+   },
+   {
+    "name": "Hedda",
+    "gender": "f"
+   },
+   {
+    "name": "Vetle",
+    "gender": "m"
+   },
+   {
+    "name": "Tiril",
+    "gender": "f"
+   },
+   {
+    "name": "Mikkel",
+    "gender": "m"
+   },
+   {
+    "name": "Ronja",
+    "gender": "f"
+   },
+   {
+    "name": "Martin",
+    "gender": "m"
+   },
+   {
+    "name": "Sunniva",
+    "gender": "f"
+   },
+   {
+    "name": "Edvard",
+    "gender": "m"
+   },
+   {
+    "name": "Signe",
+    "gender": "f"
+   },
+   {
+    "name": "Leon",
+    "gender": "m"
+   },
+   {
+    "name": "Lea",
+    "gender": "f"
+   },
+   {
+    "name": "Theo",
+    "gender": "m"
+   },
+   {
+    "name": "Helene",
+    "gender": "f"
+   },
+   {
+    "name": "Kasper",
+    "gender": "m"
+   }
+  ],
+  "frames": [
+   {
+    "id": "hoppe-tau",
+    "sg": "{subj} har et hoppetau.",
+    "pl": "{subj} har hoppetau."
+   },
+   {
+    "id": "se-fugl",
+    "sg": "{subj} ser en fugl.",
+    "pl": "{subj} ser fugler."
+   },
+   {
+    "id": "drikke-saft",
+    "sg": "{subj} drikker et glass saft.",
+    "pl": "{subj} drikker saft."
+   },
+   {
+    "id": "leke-bil",
+    "sg": "{subj} leker med en bil.",
+    "pl": "{subj} leker med biler."
+   },
+   {
+    "id": "hente-stol",
+    "sg": "{subj} henter en stol.",
+    "pl": "{subj} henter stoler."
+   },
+   {
+    "id": "bake-kake",
+    "sg": "{subj} baker en kake.",
+    "pl": "{subj} baker kaker."
+   },
+   {
+    "id": "plukke-blomst",
+    "sg": "{subj} plukker en blomst.",
+    "pl": "{subj} plukker blomster."
+   },
+   {
+    "id": "spille-tromme",
+    "sg": "{subj} spiller på en tromme.",
+    "pl": "{subj} spiller på trommer."
+   },
+   {
+    "id": "vaere-vat",
+    "sg": "{subj} er våt.",
+    "pl": "{subj} er våte."
+   },
+   {
+    "id": "vaere-rask",
+    "sg": "{subj} er rask.",
+    "pl": "{subj} er raske."
+   },
+   {
+    "id": "ga-tur-hund",
+    "sg": "{subj} går tur med en hund.",
+    "pl": "{subj} går tur med hunder."
+   },
+   {
+    "id": "vaere-stolt",
+    "sg": "{subj} er stolt.",
+    "pl": "{subj} er stolte."
+   },
+   {
+    "id": "skrive-brev",
+    "sg": "{subj} skriver et brev.",
+    "pl": "{subj} skriver brev."
+   },
+   {
+    "id": "klatre-tre",
+    "sg": "{subj} klatrer i et tre.",
+    "pl": "{subj} klatrer i trær."
+   },
+   {
+    "id": "mate-and",
+    "sg": "{subj} mater en and.",
+    "pl": "{subj} mater ender."
+   },
+   {
+    "id": "vanne-blomst",
+    "sg": "{subj} vanner en blomst.",
+    "pl": "{subj} vanner blomster."
+   },
+   {
+    "id": "lage-snomann",
+    "sg": "{subj} lager en snømann.",
+    "pl": "{subj} lager snømenn."
+   },
+   {
+    "id": "se-film",
+    "sg": "{subj} ser en film.",
+    "pl": "{subj} ser film."
+   },
+   {
+    "id": "spise-is",
+    "sg": "{subj} spiser en is.",
+    "pl": "{subj} spiser is."
+   },
+   {
+    "id": "vaere-glad",
+    "sg": "{subj} er glad.",
+    "pl": "{subj} er glade."
+   },
+   {
+    "id": "vaere-kald",
+    "sg": "{subj} er kald.",
+    "pl": "{subj} er kalde."
+   },
+   {
+    "id": "vaere-klar",
+    "sg": "{subj} er klar.",
+    "pl": "{subj} er klare."
+   },
+   {
+    "id": "legge-puslespill",
+    "sg": "{subj} legger et puslespill.",
+    "pl": "{subj} legger puslespill."
+   },
+   {
+    "id": "brette-fly",
+    "sg": "{subj} bretter et fly.",
+    "pl": "{subj} bretter fly."
+   }
+  ],
+  "anaphora": [
+   {
+    "id": "bibliotek",
+    "intro": "{a} og {b} er på biblioteket.",
+    "s": [
+     {
+      "text": "{P} låner en bok.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} leser et blad.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "skog",
+    "intro": "{a} og {b} er i skogen.",
+    "s": [
+     {
+      "text": "{P} finner en kongle.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ser et ekorn.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "skoytebane",
+    "intro": "{a} og {b} er på skøytebanen.",
+    "s": [
+     {
+      "text": "{P} har røde skøyter.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} har en blå lue.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "lekeplass",
+    "intro": "{a} og {b} er på lekeplassen.",
+    "s": [
+     {
+      "text": "{P} sitter på huska.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} leker i sandkassa.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "butikk",
+    "intro": "{a} og {b} er i butikken.",
+    "s": [
+     {
+      "text": "{P} kjøper en banan.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} kjøper brød.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "gard",
+    "intro": "{a} og {b} er på gården.",
+    "s": [
+     {
+      "text": "{P} klapper en hest.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} mater hønene.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "hytte",
+    "intro": "{a} og {b} er på hytta.",
+    "s": [
+     {
+      "text": "{P} spiller kort.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} lager kakao.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sno",
+    "intro": "{a} og {b} er ute i snøen.",
+    "s": [
+     {
+      "text": "{P} lager en snømann.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} kaster snøball.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "klasserom",
+    "intro": "{a} og {b} er i klasserommet.",
+    "s": [
+     {
+      "text": "{P} teller klosser.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} klipper ut en stjerne.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "gymsal",
+    "intro": "{a} og {b} er i gymsalen.",
+    "s": [
+     {
+      "text": "{P} står på hendene.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} løper rundt.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "selskap",
+    "intro": "{a} og {b} er i et selskap.",
+    "s": [
+     {
+      "text": "{P} spiser kake.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} blåser opp en ballong.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "museum",
+    "intro": "{a} og {b} er på museet.",
+    "s": [
+     {
+      "text": "{P} ser et skjelett.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} tegner en dinosaur.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "baat",
+    "intro": "{a} og {b} er på båten.",
+    "s": [
+     {
+      "text": "{P} fisker med stang.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ser en måke.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "tog",
+    "intro": "{a} og {b} er på toget.",
+    "s": [
+     {
+      "text": "{P} ser ut av vinduet.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} spiser en matpakke.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "svommehall",
+    "intro": "{a} og {b} er i svømmehallen.",
+    "s": [
+     {
+      "text": "{P} svømmer på ryggen.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} dykker etter en ring.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "fotballbane",
+    "intro": "{a} og {b} er på fotballbanen.",
+    "s": [
+     {
+      "text": "{P} sparker ballen.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} står i mål.",
+      "key": "sg"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "anaphoraSgpl": [
+   {
+    "id": "hjemme-park",
+    "introA": "{a} er hjemme.",
+    "introB": "{b} er i parken.",
+    "s": [
+     {
+      "text": "{P} ligger i senga.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} mater endene i dammen.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "kjokken-hage",
+    "introA": "{a} er på kjøkkenet.",
+    "introB": "{b} er i hagen.",
+    "s": [
+     {
+      "text": "{P} steker pannekaker.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} vanner blomstene.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bad-sandkasse",
+    "introA": "{a} er på badet.",
+    "introB": "{b} er i sandkassa.",
+    "s": [
+     {
+      "text": "{P} pusser tennene.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} lager sandkaker.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "bibliotek-fotball",
+    "introA": "{a} er på biblioteket.",
+    "introB": "{b} er på fotballbanen.",
+    "s": [
+     {
+      "text": "{P} låner en bok.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} spiller fotball.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "basseng-skog",
+    "introA": "{a} er i bassenget.",
+    "introB": "{b} er i skogen.",
+    "s": [
+     {
+      "text": "{P} dykker under vannet.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} plukker blåbær.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "butikk-buss",
+    "introA": "{a} er i butikken.",
+    "introB": "{b} er på bussen.",
+    "s": [
+     {
+      "text": "{P} kjøper melk.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} sitter ved vinduet.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "sno-stue",
+    "introA": "{a} er ute i snøen.",
+    "introB": "{b} er inne i stua.",
+    "s": [
+     {
+      "text": "{P} lager en snømann.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ser på TV.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "skole-strand",
+    "introA": "{a} er på skolen.",
+    "introB": "{b} er på stranda.",
+    "s": [
+     {
+      "text": "{P} skriver i boka.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} bygger et sandslott.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "lege-lekeplass",
+    "introA": "{a} er hos legen.",
+    "introB": "{b} er på lekeplassen.",
+    "s": [
+     {
+      "text": "{P} får et plaster.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} klatrer i stativet.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "gard-basseng",
+    "introA": "{a} er på gården.",
+    "introB": "{b} er i bassenget.",
+    "s": [
+     {
+      "text": "{P} melker en ku.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} hopper fra stupebrettet.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "rom-akebakke",
+    "introA": "{a} er på rommet.",
+    "introB": "{b} er i akebakken.",
+    "s": [
+     {
+      "text": "{P} rydder lekene.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} aker på kjelke.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "frisor-dyrepark",
+    "introA": "{a} er hos frisøren.",
+    "introB": "{b} er i dyreparken.",
+    "s": [
+     {
+      "text": "{P} får klippet håret.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ser på elefantene.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "things": [
+   {
+    "key": "backpack",
+    "pic": {
+     "theme": "classroom",
+     "noun": "backpack"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "bicycle",
+    "pic": {
+     "theme": "toys",
+     "noun": "bicycle"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "umbrella",
+    "pic": {
+     "theme": "accessories",
+     "noun": "umbrella"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "balloon",
+    "pic": {
+     "theme": "toys",
+     "noun": "balloon"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "cup",
+    "pic": {
+     "theme": "kitchen tools",
+     "noun": "cup"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "pencil",
+    "pic": {
+     "theme": "classroom",
+     "noun": "pencil"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "lunchbox",
+    "pic": {
+     "theme": "classroom",
+     "noun": "lunchbox"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "puzzle",
+    "pic": {
+     "theme": "activities",
+     "noun": "puzzle"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rabbit",
+    "pic": {
+     "theme": "animals",
+     "noun": "rabbit"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "guitar",
+    "pic": {
+     "theme": "music",
+     "noun": "guitar"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "watch",
+    "pic": {
+     "theme": "accessories",
+     "noun": "watch"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "cap",
+    "pic": {
+     "theme": "clothing",
+     "noun": "cap"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "jacket",
+    "pic": {
+     "theme": "clothing",
+     "noun": "jacket"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "scarf",
+    "pic": {
+     "theme": "clothing",
+     "noun": "scarf"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "sweater",
+    "pic": {
+     "theme": "clothing",
+     "noun": "sweater"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "sled",
+    "pic": {
+     "theme": "winter",
+     "noun": "sled"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "rocket",
+    "pic": {
+     "theme": "toys",
+     "noun": "rocket"
+    },
+    "picOpened": true
+   },
+   {
+    "key": "bucket",
+    "pic": {
+     "theme": "toys",
+     "noun": "bucket"
+    },
+    "picOpened": true
+   }
+  ]
+ },
+ "fi": {
+  "names": [
+   {
+    "name": "Isla",
+    "gender": "f"
+   },
+   {
+    "name": "Enni",
+    "gender": "f"
+   },
+   {
+    "name": "Eevi",
+    "gender": "f"
+   },
+   {
+    "name": "Oona",
+    "gender": "f"
+   },
+   {
+    "name": "Mia",
+    "gender": "f"
+   },
+   {
+    "name": "Inka",
+    "gender": "f"
+   },
+   {
+    "name": "Nea",
+    "gender": "f"
+   },
+   {
+    "name": "Tiia",
+    "gender": "f"
+   },
+   {
+    "name": "Elli",
+    "gender": "f"
+   },
+   {
+    "name": "Iris",
+    "gender": "f"
+   },
+   {
+    "name": "Eetu",
+    "gender": "m"
+   },
+   {
+    "name": "Aapo",
+    "gender": "m"
+   },
+   {
+    "name": "Nooa",
+    "gender": "m"
+   },
+   {
+    "name": "Joel",
+    "gender": "m"
+   },
+   {
+    "name": "Emil",
+    "gender": "m"
+   },
+   {
+    "name": "Jere",
+    "gender": "m"
+   },
+   {
+    "name": "Hugo",
+    "gender": "m"
+   },
+   {
+    "name": "Atte",
+    "gender": "m"
+   },
+   {
+    "name": "Topi",
+    "gender": "m"
+   },
+   {
+    "name": "Elmo",
+    "gender": "m"
+   },
+   {
+    "name": "Anna",
+    "gender": "f"
+   },
+   {
+    "name": "Essi",
+    "gender": "f"
+   },
+   {
+    "name": "Nora",
+    "gender": "f"
+   },
+   {
+    "name": "Mila",
+    "gender": "f"
+   },
+   {
+    "name": "Nina",
+    "gender": "f"
+   },
+   {
+    "name": "Aili",
+    "gender": "f"
+   },
+   {
+    "name": "Pia",
+    "gender": "f"
+   },
+   {
+    "name": "Alva",
+    "gender": "f"
+   },
+   {
+    "name": "Heli",
+    "gender": "f"
+   },
+   {
+    "name": "Lina",
+    "gender": "f"
+   },
+   {
+    "name": "Rosa",
+    "gender": "f"
+   },
+   {
+    "name": "Eila",
+    "gender": "f"
+   },
+   {
+    "name": "Luka",
+    "gender": "m"
+   },
+   {
+    "name": "Axel",
+    "gender": "m"
+   },
+   {
+    "name": "Timo",
+    "gender": "m"
+   },
+   {
+    "name": "Mika",
+    "gender": "m"
+   },
+   {
+    "name": "Aku",
+    "gender": "m"
+   },
+   {
+    "name": "Iivo",
+    "gender": "m"
+   },
+   {
+    "name": "Lari",
+    "gender": "m"
+   },
+   {
+    "name": "Samu",
+    "gender": "m"
+   },
+   {
+    "name": "Teo",
+    "gender": "m"
+   },
+   {
+    "name": "Vili",
+    "gender": "m"
+   },
+   {
+    "name": "Olli",
+    "gender": "m"
+   },
+   {
+    "name": "Arvi",
+    "gender": "m"
+   }
+  ],
+  "frames": [
+   {
+    "id": "wash-hands",
+    "sg": "{subj} pesee kädet.",
+    "pl": "{subj} pesevät kädet."
+   },
+   {
+    "id": "brush-teeth",
+    "sg": "{subj} harjaa hampaat.",
+    "pl": "{subj} harjaavat hampaat."
+   },
+   {
+    "id": "swing-yard",
+    "sg": "{subj} keinuu pihalla.",
+    "pl": "{subj} keinuvat pihalla."
+   },
+   {
+    "id": "write-letter",
+    "sg": "{subj} kirjoittaa kirjeen.",
+    "pl": "{subj} kirjoittavat kirjeen."
+   },
+   {
+    "id": "count-stars",
+    "sg": "{subj} laskee tähtiä.",
+    "pl": "{subj} laskevat tähtiä."
+   },
+   {
+    "id": "run-field",
+    "sg": "{subj} juoksee kentällä.",
+    "pl": "{subj} juoksevat kentällä."
+   },
+   {
+    "id": "tidy-room",
+    "sg": "{subj} siivoaa huoneen.",
+    "pl": "{subj} siivoavat huoneen."
+   },
+   {
+    "id": "put-on-coat",
+    "sg": "{subj} pukee takin.",
+    "pl": "{subj} pukevat takit."
+   },
+   {
+    "id": "ski-forest",
+    "sg": "{subj} hiihtää metsässä.",
+    "pl": "{subj} hiihtävät metsässä."
+   },
+   {
+    "id": "skate-ice",
+    "sg": "{subj} luistelee jäällä.",
+    "pl": "{subj} luistelevat jäällä."
+   },
+   {
+    "id": "help-home",
+    "sg": "{subj} auttaa kotona.",
+    "pl": "{subj} auttavat kotona."
+   },
+   {
+    "id": "listen-story",
+    "sg": "{subj} kuuntelee satua.",
+    "pl": "{subj} kuuntelevat satua."
+   },
+   {
+    "id": "plant-flower",
+    "sg": "{subj} istuttaa kukan.",
+    "pl": "{subj} istuttavat kukan."
+   },
+   {
+    "id": "bake-buns",
+    "sg": "{subj} leipoo pullaa.",
+    "pl": "{subj} leipovat pullaa."
+   },
+   {
+    "id": "pick-berries",
+    "sg": "{subj} poimii mustikoita.",
+    "pl": "{subj} poimivat mustikoita."
+   },
+   {
+    "id": "make-snowman",
+    "sg": "{subj} tekee lumiukon.",
+    "pl": "{subj} tekevät lumiukon."
+   },
+   {
+    "id": "water-flowers",
+    "sg": "{subj} kastelee kukkia.",
+    "pl": "{subj} kastelevat kukkia."
+   },
+   {
+    "id": "look-pictures",
+    "sg": "{subj} katsoo kuvia.",
+    "pl": "{subj} katsovat kuvia."
+   },
+   {
+    "id": "throw-ball",
+    "sg": "{subj} heittää palloa.",
+    "pl": "{subj} heittävät palloa."
+   },
+   {
+    "id": "climb-tree",
+    "sg": "{subj} kiipeää puuhun.",
+    "pl": "{subj} kiipeävät puuhun."
+   },
+   {
+    "id": "cut-paper",
+    "sg": "{subj} leikkaa paperia.",
+    "pl": "{subj} leikkaavat paperia."
+   },
+   {
+    "id": "wipe-table",
+    "sg": "{subj} pyyhkii pöydän.",
+    "pl": "{subj} pyyhkivät pöydän."
+   },
+   {
+    "id": "board-game",
+    "sg": "{subj} pelaa lautapeliä.",
+    "pl": "{subj} pelaavat lautapeliä."
+   },
+   {
+    "id": "swim-pool",
+    "sg": "{subj} ui uimahallissa.",
+    "pl": "{subj} uivat uimahallissa."
+   }
+  ],
+  "anaphora": [
+   {
+    "id": "forest",
+    "intro": "{a}, {b} retkeilevät.",
+    "s": [
+     {
+      "text": "{P} kerää käpyjä.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} etsivät sieniä.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "snow",
+    "intro": "{a}, {b} ulkoilevat.",
+    "s": [
+     {
+      "text": "{P} tekee lumienkelin.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} laskevat mäkeä.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "craft",
+    "intro": "{a}, {b} askartelevat.",
+    "s": [
+     {
+      "text": "{P} liimaa paperia.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} leikkaavat tähtiä.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "music",
+    "intro": "{a}, {b} soittavat.",
+    "s": [
+     {
+      "text": "{P} soittaa rumpua.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} taputtavat käsiä.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "gym",
+    "intro": "{a}, {b} jumppaavat.",
+    "s": [
+     {
+      "text": "{P} hyppää korkealle.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} juoksevat radalla.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "rink",
+    "intro": "{a}, {b} luistelevat.",
+    "s": [
+     {
+      "text": "{P} luistelee takaperin.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} pitävät kädestä.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "picnic",
+    "intro": "{a}, {b} syövät eväitä.",
+    "s": [
+     {
+      "text": "{P} kaataa mehua.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} jakavat keksit.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "lake",
+    "intro": "{a}, {b} kalastavat.",
+    "s": [
+     {
+      "text": "{P} pitää onkea.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} istuvat laiturilla.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "cook",
+    "intro": "{a}, {b} kokkaavat.",
+    "s": [
+     {
+      "text": "{P} kuorii perunoita.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} maistavat keittoa.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "paint",
+    "intro": "{a}, {b} maalaavat.",
+    "s": [
+     {
+      "text": "{P} pesee siveltimen.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} ripustavat kuvat.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "dance",
+    "intro": "{a}, {b} tanssivat.",
+    "s": [
+     {
+      "text": "{P} pyörii ympäri.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} hyppivät yhdessä.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "cleanup",
+    "intro": "{a}, {b} siivoavat.",
+    "s": [
+     {
+      "text": "{P} imuroi lattian.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} viikkaavat pyyhkeet.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "stable",
+    "intro": "{a}, {b} ratsastavat.",
+    "s": [
+     {
+      "text": "{P} harjaa hevosta.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} antavat heinää.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "draw",
+    "intro": "{a}, {b} piirtävät.",
+    "s": [
+     {
+      "text": "{P} teroittaa kynän.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} värittävät kuvaa.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "blocks",
+    "intro": "{a}, {b} rakentelevat.",
+    "s": [
+     {
+      "text": "{P} hakee palikoita.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} tekevät linnan.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   },
+   {
+    "id": "game",
+    "intro": "{a}, {b} pelaavat.",
+    "s": [
+     {
+      "text": "{P} heittää noppaa.",
+      "key": "sg"
+     },
+     {
+      "text": "{P} siirtävät nappuloita.",
+      "key": "pl"
+     }
+    ],
+    "contentNeutral": true
+   }
+  ],
+  "anaphoraSgpl": [],
+  "things": []
+ }
+}

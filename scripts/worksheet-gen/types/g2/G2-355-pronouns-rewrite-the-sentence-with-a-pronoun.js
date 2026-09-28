@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G2-355',
   slug: 'pronouns-rewrite-the-sentence-with-a-pronoun',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 single people + a pronoun bank on top · L3 no pictures; level 2 = the published D
+  interactive: base.interactiveFor('rewrite'),
+  difficulty: { 1: { ...D, singlesOnly: true, rows: 6, singles: 6, pairs: 0, pairMix: 'none', four: { singles: 6, pairs: 0, pairMix: 'none' }, two: { singles: 4, pairs: 2, pairMix: 'any' }, bank: false, bankTop: true }, 2: D, 3: { ...D, noPics: true } },
   i18n: { en: { title: "Rewrite the Sentence with a Pronoun", instruction: "Read the sentence. Write it again on the lines, but use a pronoun instead of the name." } },
   gradeBand: "G2",
 };

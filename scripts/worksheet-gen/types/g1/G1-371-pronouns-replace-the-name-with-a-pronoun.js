@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-371',
   slug: 'pronouns-replace-the-name-with-a-pronoun',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 single people only (he / she; fi 4 + 2 pairs: hän / he needs the pair) · L3 no word bank; level 2 = the published D
+  interactive: base.interactiveFor('replace'),
+  difficulty: { 1: { ...D, singlesOnly: true, rows: 6, singles: 6, pairs: 0, pairMix: 'none', four: { singles: 6, pairs: 0, pairMix: 'none' }, two: { singles: 4, pairs: 2, pairMix: 'any' }, pic: 56, pairPic: 52, gapH: 34 }, 2: D, 3: { ...D, bank: false, recall: true } },
   i18n: { en: { title: "Replace the Name with a Pronoun", instruction: "Read the sentence. Write the word from the bank that replaces the name in the second sentence." } },
 };

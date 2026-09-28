@@ -1,0 +1,9 @@
+{
+  "tapFix": "Tryck på Aa och sedan på varje ord som ska ha stor bokstav. Tryck sedan på rätt skiljetecken och på det sista ordet.",
+  "tapFixRunOn": "Hitta var den första meningen slutar. Sätt rätt skiljetecken där och i slutet. Tryck på Aa och ge meningarna stor bokstav.",
+  "notes": [
+    "Skiljetecken reused from the printed sheets (G2-274/281/282); stor bokstav is the school term.",
+    "RunOn: 'ge meningarna stor bokstav' covers first word and names without the awkward plural 'sina stora bokstäver'.",
+    "English source audit: 'a mark' is vague (the child may not link it to the . ? ! buttons) — say 'the right end mark'; tapFix 'the word it goes after' is the last word on a one-sentence row, so 'the last word' is simpler; tapFixRunOn never mentions the Aa button — add 'Tap Aa' so the child knows how capitals are given; 'give each sentence its capital letters' is fine because names also need capitals."
+  ]
+}

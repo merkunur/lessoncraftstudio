@@ -1,0 +1,15 @@
+TASK: write 20 NEW sentence frames per language for a second-grade "fix the sentence" worksheet (the child restores capital letters and end marks). Copies of the worksheet must print NEW sentences, and the existing bank is too small.
+
+Read your language's existing bank: C:\Users\rkgen\lessoncraftstudio\scripts\worksheet-gen\tools\level-set-cap\frames\existing-<loc>.json. It has `frames` (id, kind, text, noun, uses, and optional exclaimStrict / qUncued), `names` (the first names inserted for {name}), `nounCase` and `nounFormKeys`. STUDY the existing frames: they show which patterns are safe in your language (e.g. es uses only gender-neutral determiners like mi / su / cada / numbers with plurals; de uses plural "die {noun}"; fi uses case forms named in nounFormKeys). Follow the same safe patterns.
+
+A frame is a sentence with slots: {noun} (a picture noun from any theme: an animal, a fruit, a toy, a vehicle, a tool, clothing …) and optionally {name} (a child's first name). The sentence MUST be grammatical and natural for ANY concrete noun in the chosen form — never depend on the noun's gender (use a determiner that does not change, or the plural, or a case form your bank already uses). Simple second-grade vocabulary, 4–9 words, no digits (number WORDS are fine), no quotation marks, no commas unless required.
+
+Write exactly 20 frames:
+- 8 statements with NO {name}, ending with "." (these matter most: the easy level has no names)
+- 6 statements with exactly one {name}, ending with "."
+- 2 statements with two {name} slots, ending with "."
+- 3 questions ending with "?" that are recognisable as questions WITHOUT the question mark (a question word, or — where your language does it — inverted word order). Romance languages: yes/no questions keep statement word order, so use question words only. Spanish: include the opening ¿.
+- 1 exclamation ending with "!" that can ONLY be an exclamation (like "What a funny {noun}!"), marked "exclaimStrict": true. Spanish: include the opening ¡.
+Every frame: {"id": "L1" … "L20", "kind": "simple", "text": "...", "noun": "<sg | pl | one of nounFormKeys>", "uses": ["fix"]} (+ "exclaimStrict": true on the exclamation). Do NOT duplicate or near-duplicate an existing frame; vary the verbs and settings (home, school, park, farm, shop, weather).
+
+Write ONLY C:\Users\rkgen\lessoncraftstudio\scripts\worksheet-gen\tools\level-set-cap\frames\new-<loc>.json (a JSON array of 20 frames) for each of your languages; verify each parses with node and has 20 entries with the required counts. Final reply under 80 words.

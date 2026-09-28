@@ -1,0 +1,2015 @@
+{
+ "en": [
+  {
+   "id": "ls-L1",
+   "kind": "simple",
+   "text": "The {noun} is on the first page.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "kind": "simple",
+   "text": "We looked at the {noun} on the screen.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "kind": "simple",
+   "text": "Dad pointed at the {noun} in the picture.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "kind": "simple",
+   "text": "Grandma likes the {noun} in this book.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "kind": "simple",
+   "text": "Our teacher drew three {noun} on the board.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "kind": "simple",
+   "text": "I colored the {noun} on my page.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "kind": "simple",
+   "text": "There are four {noun} on this card.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "kind": "simple",
+   "text": "Our class counted five {noun} in the story.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "kind": "simple",
+   "text": "{name} wrote about the {noun} at school.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "kind": "simple",
+   "text": "{name} glued the {noun} on the paper.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "kind": "simple",
+   "text": "{name} counted six {noun} on the poster.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "kind": "simple",
+   "text": "{name} wants to learn about the {noun}.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "kind": "simple",
+   "text": "{name} will read a story about the {noun}.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "kind": "simple",
+   "text": "{name} drew the {noun} with a red pen.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "kind": "simple",
+   "text": "{name} showed the {noun} to {name}.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "kind": "simple",
+   "text": "{name} and {name} looked at the {noun} together.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "kind": "simple",
+   "text": "Who can draw the {noun}?",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "kind": "simple",
+   "text": "Why is the {noun} in this story?",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "kind": "simple",
+   "text": "How many {noun} are in the picture?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "kind": "simple",
+   "text": "What a big {noun} that is!",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ],
+   "exclaimStrict": true
+  }
+ ],
+ "de": [
+  {
+   "id": "ls-L1",
+   "kind": "simple",
+   "text": "Die {noun} sind auf der ersten Seite.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "kind": "simple",
+   "text": "Wir sehen die {noun} im Buch.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "kind": "simple",
+   "text": "Papa zeigt auf die {noun} im Bild.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "kind": "simple",
+   "text": "Oma mag die {noun} in der Geschichte.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "kind": "simple",
+   "text": "Unsere Lehrerin malt drei {noun} an die Tafel.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "kind": "simple",
+   "text": "Ich male die {noun} auf ein Blatt.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "kind": "simple",
+   "text": "Vier {noun} sind auf dem Bild.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "kind": "simple",
+   "text": "Auf dem Plakat sind fünf {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "kind": "simple",
+   "text": "{name} schreibt etwas über die {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "kind": "simple",
+   "text": "{name} klebt die {noun} ins Heft.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "kind": "simple",
+   "text": "{name} findet sechs {noun} im Suchbild.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "kind": "simple",
+   "text": "{name} möchte mehr über die {noun} lernen.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "kind": "simple",
+   "text": "{name} liest ein Buch über die {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "kind": "simple",
+   "text": "{name} zeichnet die {noun} mit einem roten Stift.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "kind": "simple",
+   "text": "{name} zeigt {name} die {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "kind": "simple",
+   "text": "{name} und {name} schauen die {noun} zusammen an.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "kind": "simple",
+   "text": "Wer kann die {noun} malen?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "kind": "simple",
+   "text": "Warum sind die {noun} im Bild so klein?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "kind": "simple",
+   "text": "Wie viele {noun} sind auf der Seite?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "kind": "simple",
+   "text": "Wie groß die {noun} sind!",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ],
+   "exclaimStrict": true
+  }
+ ],
+ "es": [
+  {
+   "id": "ls-L1",
+   "kind": "simple",
+   "text": "En el libro hay tres {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "kind": "simple",
+   "text": "Vimos cinco {noun} en el cuento.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "kind": "simple",
+   "text": "Hoy dibujamos ocho {noun} en clase.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "kind": "simple",
+   "text": "En la pantalla aparecen seis {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "kind": "simple",
+   "text": "Mi dibujo de {noun} quedó muy bonito.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "kind": "simple",
+   "text": "Recortamos cuatro {noun} de una revista.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "kind": "simple",
+   "text": "En el cartel contamos siete {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "kind": "simple",
+   "text": "La maestra señala nueve {noun} en la foto.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "kind": "simple",
+   "text": "{name} pega su calcomanía de {noun} en el cuaderno.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "kind": "simple",
+   "text": "{name} encierra cuatro {noun} en un círculo.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "kind": "simple",
+   "text": "El domingo {name} colorea su dibujo de {noun}.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "kind": "simple",
+   "text": "{name} encontró diez {noun} en el rompecabezas.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "kind": "simple",
+   "text": "Mañana {name} aprenderá a dibujar tres {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "kind": "simple",
+   "text": "{name} ve cinco {noun} en el libro.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "kind": "simple",
+   "text": "{name} le muestra su dibujo de {noun} a {name}.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "kind": "simple",
+   "text": "{name} y {name} buscan ocho {noun} en el dibujo.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "kind": "simple",
+   "text": "¿Cuándo vas a dibujar tus {noun}?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "kind": "simple",
+   "text": "¿Por qué hay siete {noun} en el cuento?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "kind": "simple",
+   "text": "¿En qué página hay cinco {noun}?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "kind": "simple",
+   "text": "¡Qué alegría ver seis {noun}!",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ],
+   "exclaimStrict": true
+  }
+ ],
+ "fr": [
+  {
+   "id": "ls-L1",
+   "kind": "simple",
+   "text": "Le livre montre six {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "kind": "simple",
+   "text": "Nous voyons huit {noun} sur l'affiche.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "kind": "simple",
+   "text": "La maîtresse dessine trois {noun} au tableau.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "kind": "simple",
+   "text": "Il pleut et nous comptons les {noun} du livre.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "kind": "simple",
+   "text": "Chaque {noun} de l'image a sa couleur.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "kind": "simple",
+   "text": "Nous dessinons dix {noun} en classe.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "kind": "simple",
+   "text": "Mon frère colorie sept {noun} sur sa fiche.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "kind": "simple",
+   "text": "Maman lit une histoire avec cinq {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "kind": "simple",
+   "text": "{name} entoure les {noun} sur la fiche.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "kind": "simple",
+   "text": "{name} découpe trois {noun} dans un magazine.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "kind": "simple",
+   "text": "Ce matin {name} a trouvé neuf {noun} dans le livre.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "kind": "simple",
+   "text": "{name} cherche les {noun} sur l'image.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "kind": "simple",
+   "text": "Demain {name} va peindre quatre {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "kind": "simple",
+   "text": "{name} voit six {noun} sur la photo.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "kind": "simple",
+   "text": "{name} montre les {noun} du livre à {name}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "kind": "simple",
+   "text": "{name} et {name} comptent sept {noun} sur l'affiche.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "kind": "simple",
+   "text": "Pourquoi y a-t-il cinq {noun} sur la page ?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "kind": "simple",
+   "text": "Qui a dessiné ces {noun} ?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "kind": "simple",
+   "text": "Quand vas-tu dessiner tes {noun} ?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "kind": "simple",
+   "text": "Quelle joie de voir six {noun} !",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ],
+   "exclaimStrict": true
+  }
+ ],
+ "pt": [
+  {
+   "id": "ls-L1",
+   "kind": "simple",
+   "text": "Papai leu uma história com seis {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "kind": "simple",
+   "text": "No cartaz nós vimos oito {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "kind": "simple",
+   "text": "A professora mostra cinco {noun} na lousa.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "kind": "simple",
+   "text": "Hoje choveu e desenhamos dez {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "kind": "simple",
+   "text": "Cada {noun} tem o seu lugar.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "kind": "simple",
+   "text": "Na página contamos sete {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "kind": "simple",
+   "text": "Meu irmão pinta nove {noun} no caderno.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "kind": "simple",
+   "text": "A vovó mostra quatro {noun} num livro.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "kind": "simple",
+   "text": "{name} circula três {noun} na folha.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "kind": "simple",
+   "text": "{name} recorta cinco {noun} de uma revista.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "kind": "simple",
+   "text": "Hoje de manhã {name} viu oito {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "kind": "simple",
+   "text": "Amanhã {name} vai pintar sete {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "kind": "simple",
+   "text": "{name} observa dez {noun} na foto.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "kind": "simple",
+   "text": "{name} cola quatro figurinhas de {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "kind": "simple",
+   "text": "{name} e {name} procuram oito {noun} no desenho.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "kind": "simple",
+   "text": "{name} mostra cinco {noun} para {name}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "kind": "simple",
+   "text": "Por que há sete {noun} no desenho?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "kind": "simple",
+   "text": "Quando você vai desenhar três {noun}?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "kind": "simple",
+   "text": "Em que página há nove {noun}?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "kind": "simple",
+   "text": "Que alegria ver seis {noun}!",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ],
+   "exclaimStrict": true
+  }
+ ],
+ "it": [
+  {
+   "id": "ls-L1",
+   "kind": "simple",
+   "text": "Papà legge una storia con sei {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "kind": "simple",
+   "text": "Sul cartellone vediamo otto {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "kind": "simple",
+   "text": "La maestra disegna cinque {noun} alla lavagna.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "kind": "simple",
+   "text": "Oggi piove e guardiamo un libro con dieci {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "kind": "simple",
+   "text": "Ogni {noun} del libro ha un colore diverso.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "kind": "simple",
+   "text": "Sulla pagina contiamo sette {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "kind": "simple",
+   "text": "Mio fratello colora nove {noun} sul foglio.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "kind": "simple",
+   "text": "La nonna mi mostra quattro {noun} in una foto.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "kind": "simple",
+   "text": "{name} cerchia tre {noun} sulla scheda.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "kind": "simple",
+   "text": "{name} ritaglia cinque {noun} da una rivista.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "kind": "simple",
+   "text": "Stamattina {name} ha visto otto {noun} in un libro.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "kind": "simple",
+   "text": "Domani {name} dipinge sette {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "kind": "simple",
+   "text": "{name} guarda dieci {noun} nella foto.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "kind": "simple",
+   "text": "{name} incolla quattro figurine di {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "kind": "simple",
+   "text": "{name} e {name} cercano otto {noun} nel disegno.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "kind": "simple",
+   "text": "{name} mostra a {name} cinque {noun} nel libro.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "kind": "simple",
+   "text": "Quando disegni tre {noun} per me?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "kind": "simple",
+   "text": "Perché ci sono sette {noun} nel disegno?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "kind": "simple",
+   "text": "In quale pagina ci sono cinque {noun}?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "kind": "simple",
+   "text": "Che gioia vedere sei {noun}!",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ],
+   "exclaimStrict": true
+  }
+ ],
+ "nl": [
+  {
+   "id": "ls-L1",
+   "kind": "simple",
+   "text": "De {noun} staan op de eerste bladzijde.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "kind": "simple",
+   "text": "Wij bekijken de {noun} in het boek.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "kind": "simple",
+   "text": "Papa wijst de {noun} aan op de plaat.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "kind": "simple",
+   "text": "Oma vertelt een verhaal over de {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "kind": "simple",
+   "text": "De juf tekent drie {noun} op het bord.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "kind": "simple",
+   "text": "Ik teken de {noun} op een groot vel.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "kind": "simple",
+   "text": "Er zijn vier {noun} op de foto.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "kind": "simple",
+   "text": "Op de poster staan vijf {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "kind": "simple",
+   "text": "{name} maakt een werkstuk over de {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "kind": "simple",
+   "text": "{name} plakt de {noun} in het schrift.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "kind": "simple",
+   "text": "{name} vindt zes {noun} op de zoekplaat.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "kind": "simple",
+   "text": "{name} wil alles over de {noun} weten.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "kind": "simple",
+   "text": "{name} leest een boek over de {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "kind": "simple",
+   "text": "{name} maakt een foto van de {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "kind": "simple",
+   "text": "{name} laat de {noun} aan {name} zien.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "kind": "simple",
+   "text": "{name} en {name} kijken samen naar de {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "kind": "simple",
+   "text": "Wie kan de {noun} tekenen?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "kind": "simple",
+   "text": "Waarom zijn de {noun} zo klein op de foto?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "kind": "simple",
+   "text": "Welke {noun} vind jij het mooist?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "kind": "simple",
+   "text": "Wat zijn die {noun} groot!",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ],
+   "exclaimStrict": true
+  }
+ ],
+ "sv": [
+  {
+   "id": "ls-L1",
+   "kind": "simple",
+   "text": "Det finns sex {noun} i boken.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "kind": "simple",
+   "text": "Läraren ritar fyra {noun} på tavlan.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "kind": "simple",
+   "text": "Vi räknar åtta {noun} på bilden.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "kind": "simple",
+   "text": "På affischen ser vi två {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "kind": "simple",
+   "text": "Mormor visar oss tre {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "kind": "simple",
+   "text": "Barnen klipper ut sju {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "kind": "simple",
+   "text": "På sidan finns det nio {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "kind": "simple",
+   "text": "När det snöar ritar vi {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "kind": "simple",
+   "text": "{name} målar sex {noun} i skolan.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "kind": "simple",
+   "text": "{name} klistrar in tre {noun} i boken.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "kind": "simple",
+   "text": "I morgon ska {name} rita sju {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "kind": "simple",
+   "text": "{name} berättar om {noun} för klassen.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "kind": "simple",
+   "text": "{name} visar klassen fyra {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "kind": "simple",
+   "text": "På lördag ritar {name} {noun} med kritor.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "kind": "simple",
+   "text": "{name} ritar två {noun} åt {name}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "kind": "simple",
+   "text": "{name} och {name} tittar på tio {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "kind": "simple",
+   "text": "Hur många {noun} ser du?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "kind": "simple",
+   "text": "Vem kan rita fem {noun}?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "kind": "simple",
+   "text": "Vilka {noun} tycker du bäst om?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "kind": "simple",
+   "text": "Vad många {noun} det finns här!",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ],
+   "exclaimStrict": true
+  }
+ ],
+ "da": [
+  {
+   "id": "ls-L1",
+   "kind": "simple",
+   "text": "Der er seks {noun} i bogen.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "kind": "simple",
+   "text": "Læreren tegner fire {noun} på tavlen.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "kind": "simple",
+   "text": "Vi tæller otte {noun} på billedet.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "kind": "simple",
+   "text": "På plakaten ser vi to {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "kind": "simple",
+   "text": "Mormor viser os tre {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "kind": "simple",
+   "text": "Børnene klipper syv {noun} ud.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "kind": "simple",
+   "text": "På siden er der ni {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "kind": "simple",
+   "text": "I regnvejr tegner vi {noun} indenfor.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "kind": "simple",
+   "text": "{name} maler seks {noun} i skolen.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "kind": "simple",
+   "text": "{name} klistrer tre {noun} ind i bogen.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "kind": "simple",
+   "text": "I morgen skal {name} tegne syv {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "kind": "simple",
+   "text": "{name} fortæller klassen om {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "kind": "simple",
+   "text": "{name} viser klassen fire {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "kind": "simple",
+   "text": "På lørdag tegner {name} {noun} med farvekridt.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "kind": "simple",
+   "text": "{name} tegner to {noun} til {name}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "kind": "simple",
+   "text": "{name} og {name} kigger på ti {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "kind": "simple",
+   "text": "Hvor mange {noun} kan du se?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "kind": "simple",
+   "text": "Hvem kan tegne fem {noun}?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "kind": "simple",
+   "text": "Hvilke {noun} kan du bedst lide?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "kind": "simple",
+   "text": "Sikke mange {noun} der er her!",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ],
+   "exclaimStrict": true
+  }
+ ],
+ "no": [
+  {
+   "id": "ls-L1",
+   "kind": "simple",
+   "text": "Det er seks {noun} i boka.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "kind": "simple",
+   "text": "Læreren tegner fire {noun} på tavla.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "kind": "simple",
+   "text": "Vi teller åtte {noun} på bildet.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "kind": "simple",
+   "text": "På plakaten ser vi to {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "kind": "simple",
+   "text": "Mormor viser oss tre {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "kind": "simple",
+   "text": "Barna klipper ut sju {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "kind": "simple",
+   "text": "På siden er det ni {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "kind": "simple",
+   "text": "I regnvær tegner vi {noun} inne.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "kind": "simple",
+   "text": "{name} maler seks {noun} på skolen.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "kind": "simple",
+   "text": "{name} limer tre {noun} inn i boka.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "kind": "simple",
+   "text": "I morgen skal {name} tegne sju {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "kind": "simple",
+   "text": "{name} forteller klassen om {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "kind": "simple",
+   "text": "{name} viser klassen fire {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "kind": "simple",
+   "text": "På lørdag tegner {name} {noun} med fargestifter.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "kind": "simple",
+   "text": "{name} tegner to {noun} til {name}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "kind": "simple",
+   "text": "{name} og {name} ser på ti {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "kind": "simple",
+   "text": "Hvor mange {noun} ser du?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "kind": "simple",
+   "text": "Hvem kan tegne fem {noun}?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "kind": "simple",
+   "text": "Hvilke {noun} liker du best?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "kind": "simple",
+   "text": "Så mange {noun} det er her!",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ],
+   "exclaimStrict": true
+  }
+ ],
+ "fi": [
+  {
+   "id": "ls-L1",
+   "kind": "simple",
+   "text": "Kirjan sivulla on {noun}.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "kind": "simple",
+   "text": "Me katselemme {noun} kuvakirjasta.",
+   "noun": "partitive",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "kind": "simple",
+   "text": "Kuvassa on pieni {noun}.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "kind": "simple",
+   "text": "Tarinassa on hassu {noun}.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "kind": "simple",
+   "text": "Tehtävässä on viisi {noun}.",
+   "noun": "partitive",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "kind": "simple",
+   "text": "Julisteessa on neljä {noun}.",
+   "noun": "partitive",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "kind": "simple",
+   "text": "Taululla on iso {noun}.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "kind": "simple",
+   "text": "Isoveli piirtää pientä {noun}.",
+   "noun": "partitive",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "kind": "simple",
+   "text": "{name} maalaa {noun} vesiväreillä.",
+   "noun": "partitive",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "kind": "simple",
+   "text": "{name} muovailee {noun} savesta.",
+   "noun": "partitive",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "kind": "simple",
+   "text": "{name} näkee kirjassa kuusi {noun}.",
+   "noun": "partitive",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "kind": "simple",
+   "text": "{name} kuvaa {noun} puhelimella.",
+   "noun": "partitive",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "kind": "simple",
+   "text": "{name} tutkii {noun} tarkasti.",
+   "noun": "partitive",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "kind": "simple",
+   "text": "{name} ihmettelee outoa {noun}.",
+   "noun": "partitive",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "kind": "simple",
+   "text": "{name} ja {name} katselevat {noun} kuvasta.",
+   "noun": "partitive",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "kind": "simple",
+   "text": "{name} ja {name} piirtävät yhdessä kolme {noun}.",
+   "noun": "partitive",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "kind": "simple",
+   "text": "Kuka haluaa katsoa {noun}?",
+   "noun": "partitive",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "kind": "simple",
+   "text": "Miksi {noun} on tässä kuvassa?",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "kind": "simple",
+   "text": "Montako {noun} kuvassa on?",
+   "noun": "partitive",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "kind": "simple",
+   "text": "Voi mikä iso {noun}!",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ],
+   "exclaimStrict": true
+  }
+ ]
+}

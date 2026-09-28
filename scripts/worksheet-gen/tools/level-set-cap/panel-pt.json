@@ -1,0 +1,9 @@
+{
+  "tapFix": "Toque em Aa e em cada palavra que precisa de letra maiúscula. Depois toque no sinal certo e na última palavra da frase.",
+  "tapFixRunOn": "Descubra onde termina a primeira frase. Coloque o sinal certo depois dessa palavra e da última. Toque em Aa para as maiúsculas.",
+  "notes": [
+    "Você register (imperative 3rd person) as in the printed strings (escreva, reescreva, escolha).",
+    "'sinal' reuses the printed 'sinal final'; 'toque em' is the natural pt-BR verb for screens.",
+    "EN audit: tapFix is clear; the flow is mark-then-word, so 'the word it goes after' is right. tapFixRunOn says 'a mark' where the child must choose the RIGHT one (period vs question mark) — prefer 'the right mark'. Both fine otherwise."
+  ]
+}

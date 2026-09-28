@@ -13,6 +13,10 @@
  *                up). Check turns every item green or red; all right → celebration.
  *   tap-choice — each item has options (article chips …); the child taps ONE per item
  *                (another tap switches it). Check marks the chosen option green or red.
+ *   tap-edit   — sentences drawn LIVE as word buttons (not over the image: they must stay
+ *                >= 44 px on a phone). A tool row — Aa and the level's marks — and a tap on a
+ *                word: Aa toggles its capital, a mark goes after it (tap again = off). Check
+ *                marks each sentence green or red. es shows the opening ¿ / ¡ automatically.
  *
  * UI strings come from REFERENCE TRANSLATIONS/translations-shared.js (the apps'
  * runtime* keys, all 11 locales) and are BAKED into the page (§14.11) and force-set
@@ -27,7 +31,7 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
-const KINDS = new Set(['tap-order', 'tap-choice']);
+const KINDS = new Set(['tap-order', 'tap-choice', 'tap-edit']);
 let _shared = null;
 function shared() {
   if (_shared) return _shared;
@@ -82,7 +86,21 @@ const CSS = [
   '.lcs-opt[aria-pressed="true"]{box-shadow:0 0 0 5px #146B5E;background:rgba(20,107,94,.12)}',
   '.lcs-opt[data-state="right"]{box-shadow:0 0 0 6px #2E9E5B;background:rgba(46,158,91,.16)}',
   '.lcs-opt[data-state="wrong"]{box-shadow:0 0 0 6px #D64545;background:rgba(214,69,69,.16)}',
-  '@media print{.lcs-controls,#lcs-celebration,#lcs-overlay{display:none !important}}',
+  '.lcs-tools{position:sticky;top:0;z-index:5;display:flex;justify-content:center;gap:10px;padding:10px 0;background:var(--cream)}',
+  '.lcs-tool{min-width:64px;min-height:52px;border-radius:14px;border:3px solid #146B5E;background:#FFF;color:#146B5E;font-family:"Baloo 2",Nunito,sans-serif;font-size:1.6rem;font-weight:700;cursor:pointer}',
+  '.lcs-tool[aria-pressed="true"]{background:#146B5E;color:#FFF}',
+  '#lcs-lanes{display:flex;flex-direction:column;gap:12px;max-width:720px;margin:0 auto}',
+  '.lcs-lane{display:flex;align-items:center;gap:12px;background:#FFF;border:2px solid #EFE4D2;border-radius:16px;padding:10px 12px}',
+  '.lcs-lane img{width:52px;height:52px;flex-shrink:0}',
+  '.lcs-lane[data-state="right"]{border-color:#2E9E5B;box-shadow:0 0 0 3px #2E9E5B}',
+  '.lcs-lane[data-state="wrong"]{border-color:#D64545;box-shadow:0 0 0 3px #D64545}',
+  '.lcs-words{display:flex;flex-wrap:wrap;gap:8px;align-items:center}',
+  '.lcs-tok{min-height:48px;min-width:44px;padding:4px 12px;border-radius:12px;border:2px solid #DCE1E6;background:#FBF8F2;font-family:Nunito,system-ui,sans-serif;font-weight:800;font-size:clamp(19px,4.2vw,26px);color:#3A3530;cursor:pointer;touch-action:manipulation}',
+  '.lcs-tok:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+  '.lcs-tok .cap{color:#146B5E}',
+  '.lcs-tok .mk{color:#F2784B;margin-left:1px}',
+  '.lcs-split{font-weight:800;color:#B8AFA0;font-size:clamp(19px,4.2vw,26px)}',
+  '@media print{.lcs-controls,#lcs-celebration,#lcs-overlay,.lcs-tools{display:none !important}}',
 ].join('\n');
 
 /* The runtime, as source lines (joined at emit; no template literals inside). */
@@ -100,6 +118,29 @@ const JS_CHOICE = [
   'el.style.left=o.x+"%";el.style.top=o.y+"%";el.style.width=o.w+"%";el.style.height=o.h+"%";el.addEventListener("click",function(){tap(i,j)});ov.appendChild(el);opts[i].push(el)})(j)}})(i)}',
   'chk.textContent=S.check;rst.textContent=S.tryAgain;document.getElementById("lcs-cele-title").textContent=S.youDidIt;document.getElementById("lcs-cele-print").textContent=S.print;document.getElementById("lcs-cele-close").textContent=S.tryAgain;',
   'chk.addEventListener("click",check);rst.addEventListener("click",reset);document.getElementById("lcs-cele-close").addEventListener("click",reset);paint()}',
+  'if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();',
+  '})();',
+].join('\n');
+
+const JS_EDIT = [
+  '(function(){',
+  'var B=window.DECK_BUNDLE,S=B.strings,lanes=[],tool="cap",phase="fill";',
+  'var host=document.getElementById("lcs-lanes"),tb=document.getElementById("lcs-tools"),chk=document.getElementById("lcs-check"),rst=document.getElementById("lcs-reset"),prg=document.getElementById("lcs-progress"),cel=document.getElementById("lcs-celebration");',
+  'function fmt(s,v){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return v[k]!=null?v[k]:""})}',
+  'function up(w){var c=Array.from(w);return c.length?c[0].toLocaleUpperCase(B.locale)+c.slice(1).join(""):w}',
+  'function openFor(L,k){if(B.locale!=="es")return "";var st=0;for(var j=0;j<k;j++)if(L.mark[j])st=j+1;var e=k;while(e<L.mark.length-1&&!L.mark[e])e++;var m=L.mark[e];if(k!==st)return "";return m==="?"?"¿":(m==="!"?"¡":"")}',
+  'function paintLane(L){for(var k=0;k<L.btn.length;k++){var b=L.btn[k],w=L.words[k];b.innerHTML="";var o=openFor(L,k);if(o){var sp=document.createElement("span");sp.className="mk";sp.textContent=o;b.appendChild(sp)}var t=document.createElement("span");if(L.cap[k]){t.className="cap";t.textContent=up(w)}else t.textContent=w;b.appendChild(t);if(L.mark[k]){var m=document.createElement("span");m.className="mk";m.textContent=L.mark[k];b.appendChild(m)}b.setAttribute("aria-label",b.textContent)}}',
+  'function tap(L,k){if(phase!=="fill")return;if(tool==="cap")L.cap[k]=!L.cap[k];else L.mark[k]=L.mark[k]===tool?"":tool;paintLane(L)}',
+  'function check(){phase="reviewed";var ok=0;for(var i=0;i<lanes.length;i++){var L=lanes[i],a=B.answers[i],right=true;for(var k=0;k<L.words.length;k++){if(!!L.cap[k]!==!!a[k].cap||(L.mark[k]||"")!==(a[k].mark||""))right=false}L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++}',
+  'prg.textContent=fmt(S.score,{n:ok,total:lanes.length});chk.hidden=true;rst.hidden=false;if(ok===lanes.length){setTimeout(function(){cel.hidden=false;var c=document.getElementById("lcs-cele-close");if(c)c.focus()},450)}}',
+  'function reset(){phase="fill";for(var i=0;i<lanes.length;i++){var L=lanes[i];L.el.removeAttribute("data-state");for(var k=0;k<L.words.length;k++){L.cap[k]=false;L.mark[k]=""}paintLane(L)}prg.textContent="";chk.hidden=false;rst.hidden=true;cel.hidden=true}',
+  'function setTool(t){tool=t;var bs=tb.querySelectorAll(".lcs-tool");for(var i=0;i<bs.length;i++)bs[i].setAttribute("aria-pressed",bs[i].getAttribute("data-tool")===t?"true":"false")}',
+  'function init(){var tools=["cap"].concat(B.marks.split(""));tools.forEach(function(t){var b=document.createElement("button");b.type="button";b.className="lcs-tool";b.setAttribute("data-tool",t);b.textContent=t==="cap"?"Aa":t;b.setAttribute("aria-pressed","false");b.addEventListener("click",function(){setTool(t)});tb.appendChild(b)});setTool("cap");',
+  'for(var i=0;i<B.items.length;i++){(function(i){var it=B.items[i],el=document.createElement("div");el.className="lcs-lane";var im=document.createElement("img");im.src=it.icon;im.alt="";el.appendChild(im);var wr=document.createElement("div");wr.className="lcs-words";el.appendChild(wr);',
+  'var L={el:el,words:it.words,cap:[],mark:[],btn:[]};for(var k=0;k<it.words.length;k++){(function(k){L.cap[k]=false;L.mark[k]="";var b=document.createElement("button");b.type="button";b.className="lcs-tok";b.addEventListener("click",function(){tap(L,k)});wr.appendChild(b);L.btn.push(b);if(k===it.splitAfter){var s=document.createElement("span");s.className="lcs-split";s.textContent="/";s.setAttribute("aria-hidden","true");wr.appendChild(s)}})(k)}',
+  'paintLane(L);host.appendChild(el);lanes.push(L)})(i)}',
+  'chk.textContent=S.check;chk.disabled=false;rst.textContent=S.tryAgain;document.getElementById("lcs-cele-title").textContent=S.youDidIt;document.getElementById("lcs-cele-print").textContent=S.print;document.getElementById("lcs-cele-close").textContent=S.tryAgain;',
+  'chk.addEventListener("click",check);rst.addEventListener("click",reset);document.getElementById("lcs-cele-close").addEventListener("click",reset)}',
   'if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();',
   '})();',
 ].join('\n');
@@ -144,6 +185,14 @@ function buildInteractive(o) {
       for (const k of ['x', 'y', 'w', 'h', 'sx', 'sy', 'sw', 'sh']) if (!inPage(it[k])) throw new Error('interactive-runtime: item ' + k + '=' + it[k] + ' outside the page');
     }
     bundleItems = items.map((it) => ({ x: round(it.x), y: round(it.y), w: round(it.w), h: round(it.h), sx: round(it.sx), sy: round(it.sy), sw: round(it.sw), sh: round(it.sh), label: it.label }));
+  } else if (o.kind === 'tap-edit') {
+    if (!/^[.?!]+$/.test(o.marks || '')) throw new Error('interactive-runtime: tap-edit needs the level marks');
+    for (const it of items) {
+      if (!Array.isArray(it.words) || !it.words.length || !Array.isArray(it.answer) || it.answer.length !== it.words.length) throw new Error('interactive-runtime: tap-edit lane words/answers mismatch');
+      if (!it.answer.some((a) => a.mark)) throw new Error('interactive-runtime: tap-edit lane without an end mark');
+      if (!/^data:image\//.test(it.icon || '')) throw new Error('interactive-runtime: tap-edit lane icon must be an inline image');
+    }
+    bundleItems = items.map((it) => ({ words: it.words, splitAfter: it.splitAfter, icon: it.icon, meta: it.meta || {} }));
   } else {
     for (const it of items) {
       if (!Array.isArray(it.options) || it.options.length < 2) throw new Error('interactive-runtime: tap-choice item with < 2 options');
@@ -152,12 +201,12 @@ function buildInteractive(o) {
     }
     bundleItems = items.map((it) => ({ label: it.label || '', meta: it.meta || {}, options: it.options.map((op) => ({ x: round(op.x), y: round(op.y), w: round(op.w), h: round(op.h), label: op.label })) }));
   }
-  const bundle = { kind: o.kind, locale: o.locale, strings: S, ctx: o.ctx || null, items: bundleItems, answers };
+  const bundle = { kind: o.kind, locale: o.locale, strings: S, ctx: o.ctx || null, items: bundleItems, answers, ...(o.kind === 'tap-edit' ? { marks: o.marks } : {}) };
   const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
   return {
     css: CSS,
     stageOpen: '<div class="lcs-stage" id="lcs-stage">',
-    stageClose: '<div id="lcs-overlay"></div></div>',
+    stageClose: '<div id="lcs-overlay"></div></div>' + (o.kind === 'tap-edit' ? '\n<div class="lcs-tools" id="lcs-tools" role="toolbar"></div>\n<div id="lcs-lanes"></div>' : ''),
     controls: [
       '<div class="lcs-controls">',
       '  <button type="button" class="lcs-btn" id="lcs-check" disabled>' + esc(S.check) + '</button>',
@@ -172,7 +221,7 @@ function buildInteractive(o) {
       '</div></div>',
     ].join('\n'),
     // `<` escaped inside the JSON so no string can close the script element
-    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'tap-choice' ? JS_CHOICE : JS) + '</script>',
+    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'tap-choice' ? JS_CHOICE : o.kind === 'tap-edit' ? JS_EDIT : JS) + '</script>',
   };
 }
 

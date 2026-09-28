@@ -1,0 +1,188 @@
+{
+ "nounCase": "lower",
+ "nounFormKeys": [],
+ "names": [
+  "Elsa",
+  "Hugo",
+  "Alma",
+  "Liam",
+  "Maja",
+  "Oscar",
+  "Vera",
+  "Elias"
+ ],
+ "frames": [
+  {
+   "id": "c1",
+   "kind": "color",
+   "text": "Måla {n} {noun} {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "c2",
+   "kind": "color",
+   "text": "Hitta {n} {noun} och måla dem {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "c3",
+   "kind": "color",
+   "text": "Färglägg {n} {noun} {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "c4",
+   "kind": "color",
+   "text": "Leta upp {n} {noun} och måla dem {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "s1",
+   "kind": "simple",
+   "text": "{name} ser tre {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "simple",
+   "text": "{name} har många {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s3",
+   "kind": "simple",
+   "text": "Var är alla {noun}?",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s4",
+   "kind": "simple",
+   "text": "{name} räknar alla {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s5",
+   "kind": "simple",
+   "text": "Kan du hitta två {noun}?",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s6",
+   "kind": "simple",
+   "text": "{name} och {name} tittar på {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "s7",
+   "kind": "simple",
+   "text": "{name} tycker om {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s8",
+   "kind": "simple",
+   "text": "Vilka fina {noun}!",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ],
+   "exclaimStrict": true
+  },
+  {
+   "id": "s9",
+   "kind": "simple",
+   "text": "{name} vill ha fem {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s10",
+   "kind": "simple",
+   "text": "Har du sett några {noun}?",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s11",
+   "kind": "simple",
+   "text": "{name} ritar tre {noun} till {name}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "s12",
+   "kind": "simple",
+   "text": "Mina {noun} är jättefina.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s13",
+   "kind": "simple",
+   "text": "{name} hittar två {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s14",
+   "kind": "simple",
+   "text": "Alla {noun} är stora.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s15",
+   "kind": "simple",
+   "text": "Vem har flest {noun}?",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  }
+ ]
+}

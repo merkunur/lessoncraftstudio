@@ -1,0 +1,197 @@
+{
+ "nounCase": "lower",
+ "nounFormKeys": [],
+ "names": [
+  "Sofia",
+  "Leonardo",
+  "Giulia",
+  "Francesco",
+  "Aurora",
+  "Lorenzo",
+  "Alice",
+  "Matteo"
+ ],
+ "frames": [
+  {
+   "id": "c1",
+   "kind": "color",
+   "text": "Colora {n} {noun} di {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "c2",
+   "kind": "color",
+   "text": "Cerca {n} {noun} da colorare di {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "c3",
+   "kind": "color",
+   "text": "Colora di {color} solo {n} {noun}.",
+   "noun": "pl"
+  },
+  {
+   "id": "c4",
+   "kind": "color",
+   "text": "Ci sono {n} {noun} da colorare di {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "s1",
+   "kind": "simple",
+   "text": "{name} vede tre {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "simple",
+   "text": "{name} conta cinque {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s3",
+   "kind": "simple",
+   "text": "Chi vede tre {noun}?",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s4",
+   "kind": "simple",
+   "text": "Ci sono quattro {noun} nella scatola.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "s5",
+   "kind": "simple",
+   "text": "{name} disegna quattro {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s6",
+   "kind": "simple",
+   "text": "{name} ha sei {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s7",
+   "kind": "simple",
+   "text": "Io vedo cinque {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s8",
+   "kind": "simple",
+   "text": "{name} e {name} contano sei {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "s9",
+   "kind": "simple",
+   "text": "Ecco tre {noun}!",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ],
+   "exclaimStrict": true
+  },
+  {
+   "id": "s10",
+   "kind": "simple",
+   "text": "{name} cerca tre {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s11",
+   "kind": "simple",
+   "text": "Chi ha quattro {noun}?",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s12",
+   "kind": "simple",
+   "text": "{name} regala tre {noun} a {name}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "s13",
+   "kind": "simple",
+   "text": "{name} vuole sei {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s14",
+   "kind": "simple",
+   "text": "{name} trova cinque {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s15",
+   "kind": "simple",
+   "text": "Chi regala tre {noun} a {name}?",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s16",
+   "kind": "simple",
+   "text": "Chi disegna quattro {noun} per {name}?",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  }
+ ]
+}

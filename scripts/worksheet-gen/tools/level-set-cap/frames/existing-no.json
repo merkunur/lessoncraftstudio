@@ -1,0 +1,188 @@
+{
+ "nounCase": "lower",
+ "nounFormKeys": [],
+ "names": [
+  "Nora",
+  "Jakob",
+  "Emma",
+  "Oliver",
+  "Ella",
+  "Aksel",
+  "Sofie",
+  "Theodor"
+ ],
+ "frames": [
+  {
+   "id": "c1",
+   "kind": "color",
+   "text": "Fargelegg {n} {noun} {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "c2",
+   "kind": "color",
+   "text": "Finn {n} {noun} og fargelegg dem {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "c3",
+   "kind": "color",
+   "text": "Mal {n} {noun} {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "c4",
+   "kind": "color",
+   "text": "Let etter {n} {noun} og fargelegg dem {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "s1",
+   "kind": "simple",
+   "text": "{name} ser tre {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "simple",
+   "text": "{name} har mange {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s3",
+   "kind": "simple",
+   "text": "Hvor er alle {noun}?",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s4",
+   "kind": "simple",
+   "text": "{name} teller alle {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s5",
+   "kind": "simple",
+   "text": "Kan du finne to {noun}?",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s6",
+   "kind": "simple",
+   "text": "{name} og {name} leter etter {noun}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "s7",
+   "kind": "simple",
+   "text": "{name} liker {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s8",
+   "kind": "simple",
+   "text": "For noen fine {noun}!",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ],
+   "exclaimStrict": true
+  },
+  {
+   "id": "s9",
+   "kind": "simple",
+   "text": "{name} vil ha fem {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s10",
+   "kind": "simple",
+   "text": "Har du sett noen {noun}?",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s11",
+   "kind": "simple",
+   "text": "{name} tegner tre {noun} til {name}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "s12",
+   "kind": "simple",
+   "text": "Vi ser mange {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s13",
+   "kind": "simple",
+   "text": "{name} finner to {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s14",
+   "kind": "simple",
+   "text": "{name} ønsker seg to {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s15",
+   "kind": "simple",
+   "text": "Hvem har flest {noun}?",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  }
+ ]
+}

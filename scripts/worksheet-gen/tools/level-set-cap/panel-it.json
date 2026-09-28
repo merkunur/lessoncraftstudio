@@ -1,0 +1,9 @@
+{
+  "tapFix": "Tocca Aa, poi ogni parola che vuole la maiuscola. Infine tocca il segno giusto e l'ultima parola della frase.",
+  "tapFixRunOn": "Trova dove finisce la prima frase. Metti il segno giusto dopo quella parola e dopo l'ultima. Tocca Aa per le maiuscole.",
+  "notes": [
+    "Tu register as printed (riscrivi, correggi, separa).",
+    "'segno giusto' reuses the printed 'segno giusto/segno finale'.",
+    "EN audit: tapFix is clear; the flow is mark-then-word, so 'the word it goes after' is right. tapFixRunOn says 'a mark' where the child must choose the RIGHT one (period vs question mark) — prefer 'the right mark'. Both fine otherwise."
+  ]
+}

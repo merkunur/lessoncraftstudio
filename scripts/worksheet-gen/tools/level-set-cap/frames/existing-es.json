@@ -1,0 +1,198 @@
+{
+ "nounCase": "lower",
+ "nounFormKeys": [],
+ "names": [
+  "Sofía",
+  "Mateo",
+  "Lucía",
+  "Diego",
+  "Valentina",
+  "Hugo",
+  "Camila",
+  "Martín"
+ ],
+ "frames": [
+  {
+   "id": "c1",
+   "kind": "color",
+   "text": "Colorea {n} {noun} de {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "c2",
+   "kind": "color",
+   "text": "Pinta de {color} {n} {noun}.",
+   "noun": "pl"
+  },
+  {
+   "id": "c3",
+   "kind": "color",
+   "text": "Colorea de {color} solo {n} {noun}.",
+   "noun": "pl"
+  },
+  {
+   "id": "c4",
+   "kind": "color",
+   "text": "Hay que pintar {n} {noun} de {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "s1",
+   "kind": "simple",
+   "text": "{name} tiene dos {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "simple",
+   "text": "{name} dibuja tres {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s3",
+   "kind": "simple",
+   "text": "¿Dónde está mi {noun}?",
+   "noun": "sg",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s4",
+   "kind": "simple",
+   "text": "Cada {noun} es diferente.",
+   "noun": "sg",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s5",
+   "kind": "simple",
+   "text": "{name} cuenta cinco {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s6",
+   "kind": "simple",
+   "text": "¿Qué {noun} te gusta más?",
+   "noun": "sg",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s7",
+   "kind": "simple",
+   "text": "{name} mira su {noun}.",
+   "noun": "sg",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s8",
+   "kind": "simple",
+   "text": "{name} y yo vemos tres {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s9",
+   "kind": "simple",
+   "text": "Hay cuatro {noun} en la caja.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "s10",
+   "kind": "simple",
+   "text": "{name} busca su {noun}.",
+   "noun": "sg",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s11",
+   "kind": "simple",
+   "text": "¿Quién tiene mi {noun}?",
+   "noun": "sg",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s12",
+   "kind": "simple",
+   "text": "{name} dibuja su {noun} para {name}.",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "s14",
+   "kind": "simple",
+   "text": "¡Mira, dos {noun}!",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ],
+   "exclaimStrict": true
+  },
+  {
+   "id": "s16",
+   "kind": "simple",
+   "text": "{name} quiere seis {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s17",
+   "kind": "simple",
+   "text": "¿Tienes {noun} en casa?",
+   "qUncued": true,
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "s18",
+   "kind": "simple",
+   "text": "Cada {noun} tiene su lugar.",
+   "noun": "sg",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  }
+ ]
+}

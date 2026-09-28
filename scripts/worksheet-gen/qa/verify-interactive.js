@@ -26,6 +26,68 @@ const { loadType } = require('../lib/load-types.js');
 const WIDTHS = [360, 768, 1024];
 const TAP_MIN = 44;
 
+/** tap-edit: tools + word buttons; the oracle recomputes each word's capital and mark from the canonical sentence. */
+async function playEdit(page, html, oracle, locale) {
+  const fails = [];
+  const file = path.join(os.tmpdir(), 'lcs-verify-interactive-' + process.pid + '.html');
+  fs.writeFileSync(file, html, 'utf8');
+  for (const w of WIDTHS) {
+    await page.setViewport({ width: w, height: 900, deviceScaleFactor: 1 });
+    await page.goto(require('url').pathToFileURL(file).href, { waitUntil: 'load' });
+    const info = await page.evaluate(() => ({
+      targets: [...document.querySelectorAll('.lcs-tok, .lcs-tool')].map((b) => { const r = b.getBoundingClientRect(); return { w: r.width, h: r.height, l: r.left, r: r.right }; }),
+      vw: document.documentElement.clientWidth, bundle: window.DECK_BUNDLE,
+    }));
+    const B = info.bundle;
+    if (!B || !Array.isArray(B.items) || info.targets.length < 4) { fails.push(`${w}px: ${info.targets.length} tap targets`); return fails; }
+    info.targets.forEach((o, i) => {
+      if (o.w < TAP_MIN || o.h < TAP_MIN) fails.push(`${w}px: target ${i + 1} is ${Math.round(o.w)}x${Math.round(o.h)} < ${TAP_MIN}`);
+      if (o.l < -1 || o.r > info.vw + 1) fails.push(`${w}px: target ${i + 1} outside the viewport`);
+    });
+    if (w !== 768) continue;
+    const right = oracle(B.items.map((it) => ({ meta: it.meta, words: it.words })), locale, B.ctx || {});
+    const tool = (t) => page.evaluate((x) => document.querySelector('.lcs-tool[data-tool="' + x + '"]').click(), t);
+    const word = (i, k) => page.evaluate((a, b) => document.querySelectorAll('.lcs-lane')[a].querySelectorAll('.lcs-tok')[b].click(), i, k);
+    const state = () => page.evaluate(() => ({
+      celebrate: !document.getElementById('lcs-celebration').hidden,
+      states: [...document.querySelectorAll('.lcs-lane')].map((l) => l.getAttribute('data-state')),
+      first: document.querySelector('.lcs-tok').textContent,
+    }));
+    const solve = async (skipFirstCap) => {
+      await tool('cap');
+      for (let i = 0; i < right.length; i++) {
+        let skipped = false;
+        for (let k = 0; k < right[i].length; k++) {
+          if (!right[i][k].cap) continue;
+          if (skipFirstCap && i === 0 && !skipped) { skipped = true; continue; }
+          await word(i, k);
+        }
+      }
+      for (let i = 0; i < right.length; i++) for (let k = 0; k < right[i].length; k++) {
+        if (right[i][k].mark) { await tool(right[i][k].mark); await word(i, k); }
+      }
+    };
+    // take-back: Aa on the first word twice leaves it as it was
+    const before = (await state()).first;
+    await tool('cap'); await word(0, 0); await word(0, 0);
+    if ((await state()).first !== before) fails.push('tapping a word twice with Aa did not undo the capital');
+    await solve(false);
+    await page.click('#lcs-check');
+    await new Promise((r) => setTimeout(r, 600));
+    let st = await state();
+    if (!st.celebrate) fails.push('the right edits did not reach the celebration');
+    if (st.states.some((x) => x !== 'right')) fails.push('the right edits left red sentences: ' + st.states.join(','));
+    await page.evaluate(() => { document.getElementById('lcs-celebration').hidden = true; document.getElementById('lcs-reset').click(); });
+    await solve(true);
+    await page.click('#lcs-check');
+    await new Promise((r) => setTimeout(r, 600));
+    st = await state();
+    if (st.celebrate) fails.push('a MISSING capital reached the celebration');
+    if (st.states[0] !== 'wrong') fails.push('a missing capital did not turn its sentence red');
+  }
+  return fails;
+}
+
 /** tap-choice: one option per item; the oracle recomputes each item's correct option from its data. */
 async function playChoice(page, html, oracle, locale) {
   const fails = [];
@@ -161,18 +223,20 @@ async function main() {
     // wrong answer map: every answer moved to a DIFFERENT valid value (a reversal can leave a map unchanged)
     const shiftAnswers = (html) => html.replace(/window\.DECK_BUNDLE=(\{.*?\});<\/script>/, (m0, j) => {
       const B = JSON.parse(j);
-      B.answers = B.kind === 'tap-choice' ? B.answers.map((a, i) => (a + 1) % B.items[i].options.length) : B.answers.map((a) => (a % B.answers.length) + 1);
+      B.answers = B.kind === 'tap-choice' ? B.answers.map((a, i) => (a + 1) % B.items[i].options.length)
+        : B.kind === 'tap-edit' ? B.answers.map((lane) => lane.map((w) => ({ cap: !w.cap, mark: w.mark })))
+        : B.answers.map((a) => (a % B.answers.length) + 1);
       return 'window.DECK_BUNDLE=' + JSON.stringify(B) + ';</script>';
     });
     const cases = [
       ['wrong answer map', shiftAnswers(d.html)],
-      ['no tap targets', d.html.replace('ov.appendChild(el);', '')],
-      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;')],
+      ['no tap targets', d.html.replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '')],
+      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
     ];
     let killed = 0;
     for (const [name, html] of cases) {
       if (html === d.html) { console.log('POISON NOT APPLIED: ' + name); continue; }
-      const fails = await (d.kind === 'tap-choice' ? playChoice : play)(page, html, d.oracle, d.locale);
+      const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit }[d.kind] || play)(page, html, d.oracle, d.locale);
       console.log((fails.length ? '  ✓ killed: ' : '  ✗ SURVIVED: ') + name + (fails.length ? ' (' + fails[0] + ')' : ''));
       if (fails.length) killed++;
     }
@@ -181,7 +245,7 @@ async function main() {
     process.exit(killed === cases.length ? 0 : 1);
   }
   for (const d of decks) {
-    const fails = await (d.kind === 'tap-choice' ? playChoice : play)(page, d.html, d.oracle, d.locale);
+    const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit }[d.kind] || play)(page, d.html, d.oracle, d.locale);
     checked++;
     if (fails.length) { bad++; console.log('FAIL ' + d.f + ': ' + fails.join('; ')); }
   }

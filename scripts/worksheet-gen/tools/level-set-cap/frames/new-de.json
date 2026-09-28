@@ -1,0 +1,183 @@
+[
+  {
+    "id": "L1",
+    "kind": "simple",
+    "text": "Die {noun} sind auf der ersten Seite.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L2",
+    "kind": "simple",
+    "text": "Wir sehen die {noun} im Buch.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L3",
+    "kind": "simple",
+    "text": "Papa zeigt auf die {noun} im Bild.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L4",
+    "kind": "simple",
+    "text": "Oma mag die {noun} in der Geschichte.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L5",
+    "kind": "simple",
+    "text": "Unsere Lehrerin malt drei {noun} an die Tafel.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L6",
+    "kind": "simple",
+    "text": "Ich male die {noun} auf ein Blatt.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L7",
+    "kind": "simple",
+    "text": "Vier {noun} sind auf dem Bild.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L8",
+    "kind": "simple",
+    "text": "Auf dem Plakat sind fünf {noun}.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L9",
+    "kind": "simple",
+    "text": "{name} schreibt etwas über die {noun}.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L10",
+    "kind": "simple",
+    "text": "{name} klebt die {noun} ins Heft.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L11",
+    "kind": "simple",
+    "text": "{name} findet sechs {noun} im Suchbild.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L12",
+    "kind": "simple",
+    "text": "{name} möchte mehr über die {noun} lernen.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L13",
+    "kind": "simple",
+    "text": "{name} liest ein Buch über die {noun}.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L14",
+    "kind": "simple",
+    "text": "{name} zeichnet die {noun} mit einem roten Stift.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L15",
+    "kind": "simple",
+    "text": "{name} zeigt {name} die {noun}.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L16",
+    "kind": "simple",
+    "text": "{name} und {name} schauen die {noun} zusammen an.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L17",
+    "kind": "simple",
+    "text": "Wer kann die {noun} malen?",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L18",
+    "kind": "simple",
+    "text": "Warum sind die {noun} im Bild so klein?",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L19",
+    "kind": "simple",
+    "text": "Wie viele {noun} sind auf der Seite?",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L20",
+    "kind": "simple",
+    "text": "Wie groß die {noun} sind!",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ],
+    "exclaimStrict": true
+  }
+]

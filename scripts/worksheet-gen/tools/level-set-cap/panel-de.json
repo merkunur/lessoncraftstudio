@@ -1,0 +1,9 @@
+{
+  "tapFix": "Tippe auf Aa und dann auf jedes Wort, das man großschreibt. Tippe dann auf das richtige Satzzeichen und auf das letzte Wort.",
+  "tapFixRunOn": "Wo endet der erste Satz? Setze dort das richtige Satzzeichen und auch am Ende. Tippe auf Aa und auf jedes Wort, das man großschreibt.",
+  "notes": [
+    "Satzzeichen is the printed term (G2-274/G2-281); großschreiben is the Grundschule verb and covers Satzanfang, Namen und Nomen without listing them.",
+    "Wo endet der erste Satz? reuses the printed G2-307 title as the opening question.",
+    "Tippe auf is the standard app imperative for children; du-form matches the printed instructions."
+  ]
+}

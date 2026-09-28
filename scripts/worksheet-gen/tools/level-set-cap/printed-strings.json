@@ -1,0 +1,244 @@
+{
+ "en": {
+  "G2-274": {
+   "title": "Fix the Sentence",
+   "instruction": "Each sentence has lost its capital letter and its end mark. Write it again correctly on the line."
+  },
+  "G2-281": {
+   "title": "Fix the Sentence: Capital and End Mark",
+   "instruction": "Rewrite each sentence with a capital letter and the right end mark."
+  },
+  "G2-282": {
+   "title": "Fix the Sentence: Choose the End Mark",
+   "instruction": "Fix the capital letters and the names, and choose the right end mark."
+  },
+  "G2-307": {
+   "title": "Fix the Sentence: Where Does It End?",
+   "instruction": "Two sentences ran together. Write them as two sentences."
+  },
+  "G2-311": {
+   "title": "Two Sentences: Full Stop or Question Mark?",
+   "instruction": "Split the two sentences. End each with the right mark."
+  }
+ },
+ "de": {
+  "G2-274": {
+   "title": "Satzanfang und Satzzeichen",
+   "instruction": "In jedem Satz fehlen die Großbuchstaben und das Satzzeichen. Schreibe ihn richtig auf die Linie."
+  },
+  "G2-281": {
+   "title": "Drei Sätze berichtigen",
+   "instruction": "Schreibe jeden Satz groß und mit Satzzeichen neu."
+  },
+  "G2-282": {
+   "title": "Punkt oder Fragezeichen setzen",
+   "instruction": "Manche Sätze sind Fragen – wähle das Zeichen."
+  },
+  "G2-307": {
+   "title": "Wo endet der erste Satz?",
+   "instruction": "In jedem Kasten stecken zwei Sätze ohne Punkt."
+  },
+  "G2-311": {
+   "title": "Zwei Sätze: Punkt oder Fragezeichen?",
+   "instruction": "Einer der beiden Sätze ist eine Frage."
+  }
+ },
+ "es": {
+  "G2-274": {
+   "title": "Mayúsculas y puntuación: corrige la frase",
+   "instruction": "Cada frase ha perdido la mayúscula y el signo del final. Escríbela otra vez correctamente en la línea."
+  },
+  "G2-281": {
+   "title": "Corrige la frase: mayúscula y puntuación",
+   "instruction": "Tres frases: pon mayúscula y signo."
+  },
+  "G2-282": {
+   "title": "Corrige la frase: ¿punto o interrogación?",
+   "instruction": "Si pregunta algo, usa interrogación."
+  },
+  "G2-307": {
+   "title": "Corrige la frase: ¿dónde acaba?",
+   "instruction": "Van dos frases seguidas, sin puntos."
+  },
+  "G2-311": {
+   "title": "Dos frases: ¿punto o interrogación?",
+   "instruction": "Dos frases juntas y una pregunta."
+  }
+ },
+ "fr": {
+  "G2-274": {
+   "title": "Majuscules et ponctuation : corrige la phrase",
+   "instruction": "Chaque phrase a perdu sa majuscule et sa ponctuation. Réécris-la correctement sur la ligne."
+  },
+  "G2-281": {
+   "title": "Corrige la phrase : majuscule et signe final",
+   "instruction": "Choisis le bon signe final."
+  },
+  "G2-282": {
+   "title": "Corrige la phrase : quel signe à la fin ?",
+   "instruction": "Pense aux majuscules des prénoms."
+  },
+  "G2-307": {
+   "title": "Séparer deux phrases collées",
+   "instruction": "Deux phrases se sont collées : sépare-les."
+  },
+  "G2-311": {
+   "title": "Phrases collées : point ou question",
+   "instruction": "Ici, l'une des deux est une question."
+  }
+ },
+ "it": {
+  "G2-274": {
+   "title": "Maiuscole e punteggiatura",
+   "instruction": "Ogni frase ha perso la lettera maiuscola e il segno di punteggiatura finale. Riscrivila correttamente sulla riga."
+  },
+  "G2-281": {
+   "title": "Maiuscola e segno finale",
+   "instruction": "Riscrivi mettendo maiuscola e segno giusto."
+  },
+  "G2-282": {
+   "title": "Maiuscole nei nomi e segno finale",
+   "instruction": "Correggi maiuscole e segno finale."
+  },
+  "G2-307": {
+   "title": "Dove finisce la frase?",
+   "instruction": "Due frasi attaccate: riscrivile separate."
+  },
+  "G2-311": {
+   "title": "Punto o punto interrogativo?",
+   "instruction": "Separa le frasi: qual è il segno finale?"
+  }
+ },
+ "pt": {
+  "G2-274": {
+   "title": "Letra maiúscula e pontuação",
+   "instruction": "Cada frase perdeu a letra maiúscula e o sinal de pontuação. Escreva a frase de novo, do jeito certo, na linha."
+  },
+  "G2-281": {
+   "title": "Maiúscula e sinal final",
+   "instruction": "Reescreva as três frases: maiúscula e sinal final."
+  },
+  "G2-282": {
+   "title": "Escolha o sinal de pontuação",
+   "instruction": "Escolha o sinal do fim de cada uma das frases."
+  },
+  "G2-307": {
+   "title": "Onde termina a frase?",
+   "instruction": "Duas frases grudaram: separe e reescreva as duas."
+  },
+  "G2-311": {
+   "title": "Ponto final ou ponto de interrogação?",
+   "instruction": "Duas frases grudaram; uma é pergunta."
+  }
+ },
+ "nl": {
+  "G2-274": {
+   "title": "Hoofdletters en leestekens",
+   "instruction": "In elke zin ontbreken de hoofdletters en het leesteken. Schrijf de zin goed over op de regel."
+  },
+  "G2-281": {
+   "title": "Hoofdletters: punt of vraagteken?",
+   "instruction": "Schrijf de zin over met een hoofdletter en het goede leesteken."
+  },
+  "G2-282": {
+   "title": "Hoofdletters, namen en leestekens",
+   "instruction": "Let op de hoofdletters en de namen. Kies het juiste leesteken."
+  },
+  "G2-307": {
+   "title": "Hoofdletters: waar stopt de eerste zin?",
+   "instruction": "Twee zinnen aan elkaar: schrijf ze los met een punt."
+  },
+  "G2-311": {
+   "title": "Hoofdletters: twee zinnen, punt of vraagteken?",
+   "instruction": "Splits de twee zinnen; er zit ook een vraag tussen."
+  }
+ },
+ "sv": {
+  "G2-274": {
+   "title": "Stor bokstav och skiljetecken",
+   "instruction": "I varje mening saknas stor bokstav och skiljetecken. Skriv meningen rätt på raden."
+  },
+  "G2-281": {
+   "title": "Punkt eller frågetecken?",
+   "instruction": "Varje mening ska ha stor bokstav och rätt skiljetecken."
+  },
+  "G2-282": {
+   "title": "Stor bokstav, namn och skiljetecken",
+   "instruction": "Välj själv rätt skiljetecken i slutet."
+  },
+  "G2-307": {
+   "title": "Var ska punkten stå? Dela upp meningarna",
+   "instruction": "Två meningar sitter ihop. Dela på dem."
+  },
+  "G2-311": {
+   "title": "Två meningar: punkt eller frågetecken",
+   "instruction": "Ibland är en av meningarna också en fråga."
+  }
+ },
+ "da": {
+  "G2-274": {
+   "title": "Stort bogstav og punktum",
+   "instruction": "I hver sætning mangler det store bogstav og tegnet til sidst. Skriv sætningen rigtigt på linjen."
+  },
+  "G2-281": {
+   "title": "Stort bogstav og tegn til sidst",
+   "instruction": "Skriv de tre sætninger om, og vælg punktum eller spørgsmålstegn."
+  },
+  "G2-282": {
+   "title": "Stort bogstav, navne og tegn til sidst",
+   "instruction": "Ret det store bogstav og navnene, og vælg tegnet til sidst."
+  },
+  "G2-307": {
+   "title": "Stort bogstav: hvor slutter sætningen?",
+   "instruction": "To sætninger er løbet sammen. Skriv dem om som to sætninger."
+  },
+  "G2-311": {
+   "title": "To sætninger og to tegn til sidst",
+   "instruction": "Del de to sætninger, og vælg tegnet til sidst i hver af dem."
+  }
+ },
+ "no": {
+  "G2-274": {
+   "title": "Stor bokstav og punktum",
+   "instruction": "I hver setning mangler stor bokstav og skilletegn. Skriv setningen riktig på linjen."
+  },
+  "G2-281": {
+   "title": "Stor bokstav og riktig skilletegn",
+   "instruction": "Skriv setningene på nytt med stor bokstav og riktig skilletegn."
+  },
+  "G2-282": {
+   "title": "Stor bokstav, navn og skilletegn",
+   "instruction": "Rett opp stor bokstav og navn, og velg riktig skilletegn."
+  },
+  "G2-307": {
+   "title": "Stor bokstav: hvor slutter setningen?",
+   "instruction": "To setninger står i ett. Skriv dem riktig som to setninger."
+  },
+  "G2-311": {
+   "title": "Stor bokstav og spørsmålstegn",
+   "instruction": "Del setningene, og velg punktum eller spørsmålstegn til hver."
+  }
+ },
+ "fi": {
+  "G2-274": {
+   "title": "Iso alkukirjain ja piste",
+   "instruction": "Lauseesta puuttuvat iso alkukirjain ja lopetusmerkki. Kirjoita lause uudelleen oikein viivalle."
+  },
+  "G2-281": {
+   "title": "Korjaa kolme lausetta: välimerkit",
+   "instruction": "Lisää iso alkukirjain ja piste tai kysymysmerkki."
+  },
+  "G2-282": {
+   "title": "Korjaa lause: lopetusmerkki",
+   "instruction": "Korjaa alkukirjaimet ja nimet. Valitse lopetusmerkki."
+  },
+  "G2-307": {
+   "title": "Korjaa lause: mihin se loppuu?",
+   "instruction": "Kaksi lausetta on kirjoitettu yhteen. Erota lauseet."
+  },
+  "G2-311": {
+   "title": "Kaksi lausetta: piste vai kysymysmerkki?",
+   "instruction": "Erota lauseet ja valitse lopetusmerkki."
+  }
+ }
+}

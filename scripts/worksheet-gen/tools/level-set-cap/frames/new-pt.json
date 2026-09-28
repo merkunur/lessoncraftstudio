@@ -1,0 +1,183 @@
+[
+  {
+    "id": "L1",
+    "kind": "simple",
+    "text": "Papai leu uma história com seis {noun}.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L2",
+    "kind": "simple",
+    "text": "No cartaz nós vimos oito {noun}.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L3",
+    "kind": "simple",
+    "text": "A professora mostra cinco {noun} na lousa.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L4",
+    "kind": "simple",
+    "text": "Hoje choveu e desenhamos dez {noun}.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L5",
+    "kind": "simple",
+    "text": "Cada {noun} tem o seu lugar.",
+    "noun": "sg",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L6",
+    "kind": "simple",
+    "text": "Na página contamos sete {noun}.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L7",
+    "kind": "simple",
+    "text": "Meu irmão pinta nove {noun} no caderno.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L8",
+    "kind": "simple",
+    "text": "A vovó mostra quatro {noun} num livro.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L9",
+    "kind": "simple",
+    "text": "{name} circula três {noun} na folha.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L10",
+    "kind": "simple",
+    "text": "{name} recorta cinco {noun} de uma revista.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L11",
+    "kind": "simple",
+    "text": "Hoje de manhã {name} viu oito {noun}.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L12",
+    "kind": "simple",
+    "text": "Amanhã {name} vai pintar sete {noun}.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L13",
+    "kind": "simple",
+    "text": "{name} observa dez {noun} na foto.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L14",
+    "kind": "simple",
+    "text": "{name} cola quatro figurinhas de {noun}.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L15",
+    "kind": "simple",
+    "text": "{name} e {name} procuram oito {noun} no desenho.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L16",
+    "kind": "simple",
+    "text": "{name} mostra cinco {noun} para {name}.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L17",
+    "kind": "simple",
+    "text": "Por que há sete {noun} no desenho?",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L18",
+    "kind": "simple",
+    "text": "Quando você vai desenhar três {noun}?",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L19",
+    "kind": "simple",
+    "text": "Em que página há nove {noun}?",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L20",
+    "kind": "simple",
+    "text": "Que alegria ver seis {noun}!",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ],
+    "exclaimStrict": true
+  }
+]

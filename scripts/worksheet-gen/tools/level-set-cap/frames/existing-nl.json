@@ -1,0 +1,194 @@
+{
+ "nounCase": "lower",
+ "nounFormKeys": [],
+ "names": [
+  "Emma",
+  "Daan",
+  "Julia",
+  "Sem",
+  "Tess",
+  "Finn",
+  "Lotte",
+  "Luuk"
+ ],
+ "frames": [
+  {
+   "id": "c1",
+   "kind": "color",
+   "text": "Kleur {n} {noun} {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "c2",
+   "kind": "color",
+   "text": "Zoek {n} {noun} en kleur ze {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "c3",
+   "kind": "color",
+   "text": "Geef {n} {noun} de kleur {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "c4",
+   "kind": "color",
+   "text": "Tel {n} {noun} en kleur ze {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "c5",
+   "kind": "color",
+   "text": "Omcirkel {n} {noun} en kleur ze {color}.",
+   "noun": "pl"
+  },
+  {
+   "id": "s1",
+   "kind": "simple",
+   "text": "{name} ziet drie {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "simple",
+   "text": "{name} telt de {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s3",
+   "kind": "simple",
+   "text": "Waar zijn de {noun}?",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s4",
+   "kind": "simple",
+   "text": "{name} heeft twee {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s5",
+   "kind": "simple",
+   "text": "De {noun} zijn heel groot.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s6",
+   "kind": "simple",
+   "text": "Zie jij de {noun}?",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s7",
+   "kind": "simple",
+   "text": "Zijn dit jouw {noun}?",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s8",
+   "kind": "simple",
+   "text": "{name} zoekt de {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s9",
+   "kind": "simple",
+   "text": "{name} houdt van {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s10",
+   "kind": "simple",
+   "text": "Hoeveel {noun} zie jij?",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s11",
+   "kind": "simple",
+   "text": "De {noun} zijn heel klein.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s12",
+   "kind": "simple",
+   "text": "{name} vindt de {noun} mooi.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s13",
+   "kind": "simple",
+   "text": "{name} en ik zien de {noun}.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s14",
+   "kind": "simple",
+   "text": "{name} tekent twee {noun} voor {name}.",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "s15",
+   "kind": "simple",
+   "text": "Heeft {name} de {noun} gezien?",
+   "noun": "pl",
+   "uses": [
+    "fix"
+   ]
+  }
+ ]
+}

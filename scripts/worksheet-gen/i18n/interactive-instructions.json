@@ -55,5 +55,33 @@
       "no": "Les ordet. Trykk på ordet som passer foran: en eller et.",
       "fi": "Lue sana. Kertooko se yhdestä vai monesta? Napauta yksi tai monta."
     }
+  },
+  "capitals-punctuation": {
+    "tapFix": {
+      "en": "Tap Aa, then each word that needs a capital letter. Then tap the right end mark and the last word.",
+      "de": "Tippe auf Aa und dann auf jedes Wort, das man großschreibt. Tippe dann auf das richtige Satzzeichen und auf das letzte Wort.",
+      "es": "Toca Aa y luego cada palabra que necesita mayúscula. Después toca el signo correcto y la última palabra de la frase.",
+      "fr": "Touche Aa, puis chaque mot qui prend une majuscule. Touche ensuite le bon signe, puis le dernier mot de la phrase.",
+      "it": "Tocca Aa, poi ogni parola che vuole la maiuscola. Infine tocca il segno giusto e l'ultima parola della frase.",
+      "pt": "Toque em Aa e em cada palavra que precisa de letra maiúscula. Depois toque no sinal certo e na última palavra da frase.",
+      "nl": "Tik op Aa en dan op elk woord dat een hoofdletter krijgt. Tik dan op het goede leesteken en op het laatste woord.",
+      "sv": "Tryck på Aa och sedan på varje ord som ska ha stor bokstav. Tryck sedan på rätt skiljetecken och på det sista ordet.",
+      "da": "Tryk på Aa og så på hvert ord, der skal have stort bogstav. Tryk så på det rigtige tegn og på det sidste ord.",
+      "no": "Trykk på Aa og så på hvert ord som skal ha stor bokstav. Trykk så på riktig skilletegn og på det siste ordet.",
+      "fi": "Napauta Aa ja sitten jokaista sanaa, joka tarvitsee ison kirjaimen. Napauta sitten oikeaa lopetusmerkkiä ja viimeistä sanaa."
+    },
+    "tapFixRunOn": {
+      "en": "Find where the first sentence ends. Put the right end mark after that word and after the last word. Tap Aa for the capital letters.",
+      "de": "Wo endet der erste Satz? Setze dort das richtige Satzzeichen und auch am Ende. Tippe auf Aa und auf jedes Wort, das man großschreibt.",
+      "es": "Busca dónde termina la primera frase. Pon el signo correcto después de esa palabra y de la última. Toca Aa para las mayúsculas.",
+      "fr": "Trouve où finit la première phrase. Mets le bon signe après ce mot et après le dernier mot. Touche Aa pour les majuscules.",
+      "it": "Trova dove finisce la prima frase. Metti il segno giusto dopo quella parola e dopo l'ultima. Tocca Aa per le maiuscole.",
+      "pt": "Descubra onde termina a primeira frase. Coloque o sinal certo depois dessa palavra e da última. Toque em Aa para as maiúsculas.",
+      "nl": "Waar stopt de eerste zin? Zet daar het goede leesteken, en ook aan het eind. Tik op Aa en op elk woord dat een hoofdletter krijgt.",
+      "sv": "Hitta var den första meningen slutar. Sätt rätt skiljetecken där och i slutet. Tryck på Aa och ge meningarna stor bokstav.",
+      "da": "Find ud af, hvor den første sætning slutter. Sæt det rigtige tegn der og til sidst. Tryk på Aa, og giv sætningerne stort bogstav.",
+      "no": "Finn ut hvor den første setningen slutter. Sett riktig skilletegn der og på slutten. Trykk på Aa og gi setningene stor bokstav.",
+      "fi": "Etsi, mihin ensimmäinen lause loppuu. Laita oikea lopetusmerkki siihen ja loppuun. Napauta Aa ja korjaa isot kirjaimet."
+    }
   }
 }

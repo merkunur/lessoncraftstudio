@@ -1,0 +1,9 @@
+{
+  "tapFix": "Tryk på Aa og så på hvert ord, der skal have stort bogstav. Tryk så på det rigtige tegn og på det sidste ord.",
+  "tapFixRunOn": "Find ud af, hvor den første sætning slutter. Sæt det rigtige tegn der og til sidst. Tryk på Aa, og giv sætningerne stort bogstav.",
+  "notes": [
+    "Printed sheets say 'tegnet til sidst' rather than skilletegn — kept 'det rigtige tegn' to match; the toolbar shows the tegn.",
+    "Commas before the relative clause (der) and between the two main clauses (Tryk på Aa, og giv) follow the comma style of the printed Danish strings.",
+    "English source audit: 'a mark' is vague (the child may not link it to the . ? ! buttons) — say 'the right end mark'; tapFix 'the word it goes after' is the last word on a one-sentence row, so 'the last word' is simpler; tapFixRunOn never mentions the Aa button — add 'Tap Aa' so the child knows how capitals are given; 'give each sentence its capital letters' is fine because names also need capitals."
+  ]
+}

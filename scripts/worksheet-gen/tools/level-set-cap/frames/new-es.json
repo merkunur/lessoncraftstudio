@@ -1,0 +1,183 @@
+[
+  {
+    "id": "L1",
+    "kind": "simple",
+    "text": "En el libro hay tres {noun}.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L2",
+    "kind": "simple",
+    "text": "Vimos cinco {noun} en el cuento.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L3",
+    "kind": "simple",
+    "text": "Hoy dibujamos ocho {noun} en clase.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L4",
+    "kind": "simple",
+    "text": "En la pantalla aparecen seis {noun}.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L5",
+    "kind": "simple",
+    "text": "Mi dibujo de {noun} quedó muy bonito.",
+    "noun": "sg",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L6",
+    "kind": "simple",
+    "text": "Recortamos cuatro {noun} de una revista.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L7",
+    "kind": "simple",
+    "text": "En el cartel contamos siete {noun}.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L8",
+    "kind": "simple",
+    "text": "La maestra señala nueve {noun} en la foto.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L9",
+    "kind": "simple",
+    "text": "{name} pega su calcomanía de {noun} en el cuaderno.",
+    "noun": "sg",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L10",
+    "kind": "simple",
+    "text": "{name} encierra cuatro {noun} en un círculo.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L11",
+    "kind": "simple",
+    "text": "El domingo {name} colorea su dibujo de {noun}.",
+    "noun": "sg",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L12",
+    "kind": "simple",
+    "text": "{name} encontró diez {noun} en el rompecabezas.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L13",
+    "kind": "simple",
+    "text": "Mañana {name} aprenderá a dibujar tres {noun}.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L14",
+    "kind": "simple",
+    "text": "{name} ve cinco {noun} en el libro.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L15",
+    "kind": "simple",
+    "text": "{name} le muestra su dibujo de {noun} a {name}.",
+    "noun": "sg",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L16",
+    "kind": "simple",
+    "text": "{name} y {name} buscan ocho {noun} en el dibujo.",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L17",
+    "kind": "simple",
+    "text": "¿Cuándo vas a dibujar tus {noun}?",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L18",
+    "kind": "simple",
+    "text": "¿Por qué hay siete {noun} en el cuento?",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L19",
+    "kind": "simple",
+    "text": "¿En qué página hay cinco {noun}?",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L20",
+    "kind": "simple",
+    "text": "¡Qué alegría ver seis {noun}!",
+    "noun": "pl",
+    "uses": [
+      "fix"
+    ],
+    "exclaimStrict": true
+  }
+]

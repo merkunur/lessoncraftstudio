@@ -49,6 +49,60 @@ const SR = require('../../primitives/school-ruling.js');
 const { color } = require('../../primitives/_tokens.js');
 const { CURSIVE_WRITING_NEUTRAL: NEUTRAL } = require('../../data/b6/cursive-writing.js');
 
+/**
+ * Level Set 2026-09-28 (PDF only): native-authored content the NEW copies draw on, kept OUT of the bank so
+ * the published pages (level 2, copy 1) cannot change — data/b6/cursive-writing-levelset.json
+ * { <loc>: { capitals:[{capital,word,kind}], joinsMore:[{pair,word,tier}], sentencesMore:[{text,len}],
+ *            and, lettersTitle, capitalsTitle } }. verify() accepts these literals too.
+ */
+let _ls = null;
+/** capitals whose mark rises above the font's measured cap height */
+const TALL_CAPITAL = /[ÄÖÜÅÑ]/u;
+function levelSetData(loc) {
+  if (_ls === null) {
+    const f = require('path').join(__dirname, '..', '..', 'data', 'b6', 'cursive-writing-levelset.json');
+    _ls = require('fs').existsSync(f) ? JSON.parse(require('fs').readFileSync(f, 'utf8')) : {};
+  }
+  return _ls[loc] || null;
+}
+/** the bank a NEW copy builds from: the published literals + the level-set ones (joins per unit, sentences) */
+function levelSetBank(bankLoc, loc) {
+  const L = levelSetData(loc);
+  if (!L) throw new Error(`G2-377: ${loc} has no level-set content (data/b6/cursive-writing-levelset.json)`);
+  const joins = {};
+  for (const u of bankLoc.units || []) joins[u] = ((bankLoc.joins || {})[u] || []).concat((L.joinsMore || []).map((j) => ({ ...j, more: true })));
+  return { ...bankLoc, joins, sentences: (bankLoc.sentences || []).concat((L.sentencesMore || []).map((x) => x.text)), _ls: L };
+}
+/**
+ * Level Set: the lowercase pages of the WHOLE alphabet — every lesson group in the country's teaching order;
+ * a lesson whose letters do not fit one page at this level is split into the fewest BALANCED parts that do
+ * (e l b h f k → e l b | h f k), never truncated. Group g of the list = copy g.
+ */
+function baseGroups(bankLoc, d, loc, unit) {
+  const u = unit || (bankLoc.exemplarByMode && bankLoc.exemplarByMode.base) || bankLoc.exemplar;
+  const out = [];
+  (bankLoc.lessons[u] || []).forEach((lesson, li) => {
+    for (let k = 1; k <= lesson.length; k++) {
+      const parts = [];
+      let at = 0;
+      for (let p = 0; p < k; p++) { const size = Math.floor(lesson.length / k) + (p < lesson.length % k ? 1 : 0); parts.push(lesson.slice(at, at + size)); at += size; }
+      try { parts.forEach((letters) => resolvePage(bankLoc, { ...d, lesson: li, letterSet: letters }, loc, u)); } catch (e) { continue; }
+      parts.forEach((letters) => out.push({ lesson: li, letters }));
+      return;
+    }
+    throw new Error(`G2-377: ${loc} ${u} lesson ${li} does not fit even one letter per page`);
+  });
+  return out;
+}
+
+/** "i, t, u and w" with the locale's own word for "and" (it: euphonic "ed" before an e — "D ed E") */
+function letterList(letters, and, loc) {
+  if (letters.length < 2) return letters.join('');
+  const last = letters[letters.length - 1];
+  const conj = loc === 'it' && and === 'e' && /^[eE]/.test(last) ? 'ed' : and;
+  return letters.slice(0, -1).join(', ') + ' ' + conj + ' ' + last;
+}
+
 const ID = 'G2-377';
 const KEY = 'cursive-writing';
 const BODY_W = 675;
@@ -94,12 +148,13 @@ function resolvePage(bankLoc, d, locale, unit) {
   if (!NEUTRAL.units[u]) throw new Error(`${ID}: unit "${u}" is not a vendored Playwrite unit`);
   const lesson = (bankLoc.lessons && bankLoc.lessons[u] || [])[d.lesson || 0];
   if (!Array.isArray(lesson) || !lesson.length) throw new Error(`${ID}: ${locale} has no lesson ${d.lesson || 0} for unit ${u}`);
-  const letters = d.letters === 'all' ? lesson.slice() : lesson.slice(0, d.letters);
+  // Level Set: `letterSet` = one part of a lesson too long for one page (baseGroups splits it, balanced)
+  const letters = d.letterSet ? d.letterSet.slice() : d.letters === 'all' ? lesson.slice() : lesson.slice(0, d.letters);
   const band = bandOfLevel(locale, bankLoc.levels && bankLoc.levels.base);
   const kind = bankLoc.ruling && bankLoc.ruling[band];
   if (!SR.KINDS.includes(kind)) throw new Error(`${ID}: ${locale} ruling for ${band} is "${kind}"`);
   const floor = NEUTRAL.xFloor[band];
-  const baseX = kind === 'seyes' ? NEUTRAL.seyesI[band] : xFor(bankLoc, u, 'base');
+  const baseX = (kind === 'seyes' ? NEUTRAL.seyesI[band] : xFor(bankLoc, u, 'base')) + (kind === 'seyes' ? 0 : (d.xNudge || 0));
   if (!(baseX >= floor)) throw new Error(`${ID}: X ${baseX} < the ${band} floor ${floor} (${locale} ${u})`);
   // the first (X delta, write rows) pair, in ladder order, whose stack fits 677 (Seyès keeps its interline)
   const deltas = kind === 'seyes' ? [0] : [].concat(d.xDelta || 0);
@@ -176,7 +231,9 @@ function browserVerify(data) {
     const m = f.match(/LCS Cursive [a-z-]+/g);
     if (m) m.forEach((x) => used.add(x));
   }
-  if (used.size !== 1 || !used.has(fam)) fails.push(`cursive families used on the page: ${[...used].join(', ') || 'none'} (want only ${fam})`);
+  // Level Set: a copy page with NO model ("copy without a grey sentence", data-lcs-model-under="none") prints no cursive at all
+  const noModel = !!document.querySelector('[data-lcs-model-under="none"]');
+  if (!(noModel && used.size === 0) && (used.size !== 1 || !used.has(fam))) fails.push(`cursive families used on the page: ${[...used].join(', ') || 'none'} (want only ${fam})`);
   // no cursive in SVG
   for (const t of document.querySelectorAll('svg text, svg tspan')) {
     if (/LCS Cursive/.test(getComputedStyle(t).fontFamily || '') || /LCS Cursive/.test(t.getAttribute('font-family') || '')) fails.push(`cursive drawn as SVG <${t.tagName}> "${t.textContent}"`);
@@ -190,7 +247,10 @@ function browserVerify(data) {
   const titleEl = document.querySelector('[data-lcs-title]');
   const tt = titleEl ? titleEl.textContent : '';
   const named = tt.includes(':') ? (tt.slice(tt.indexOf(':') + 1).match(/(?<!\p{L})\p{Ll}(?!\p{L})/gu) || []) : [];
-  if (isBase && named.length >= 2 && named.slice().sort().join('') !== letters.slice().sort().join('')) fails.push(`the title names ${named.join(' ')}, the page teaches ${letters.join(' ')}`);
+  // a ONE-LETTER "and" (es y, it / pt e) stands between the last two letters of the list: "a, e, i, o y u"
+  const same = (xs) => xs.slice().sort().join('') === letters.slice().sort().join('');
+  const namedOk = same(named) || (named.length === letters.length + 1 && same(named.filter((_, i) => i !== named.length - 2)));
+  if (isBase && named.length >= 2 && !namedOk) fails.push(`the title names ${named.join(' ')}, the page teaches ${letters.join(' ')}`);
   const nodes = [...root.querySelectorAll('[data-lcs-cursive]')];
   const ctx = document.createElement('canvas').getContext('2d');
   const want = { model: ink, ribbon: ink, trace: grid };
@@ -238,16 +298,33 @@ function browserVerify(data) {
       if (blocks.length !== count) fails.push(`${blocks.length} blocks, ${count} stamped`);
       const seen = new Set();
       const initials = []; for (const nm of F.names) { const C = [...nm][0]; if (!initials.includes(C)) initials.push(C); }
+      const group = ds.lcsGroup != null;
+      const alpha = []; for (const [C] of F.lsCapitals || []) if (!alpha.includes(C)) alpha.push(C);
+      const nameTraces = group ? Number(ds.lcsNameTraces) : 1;
       blocks.forEach((b, k) => {
         const C = b.dataset.lcsCapital, nm = b.dataset.lcsName;
-        if (seen.has(C)) fails.push(`capital ${C} twice`); seen.add(C);
-        if (C !== initials[k]) fails.push(`block ${k}: capital ${C} ≠ the ${k + 1}. distinct initial of the names (${initials[k]})`);
-        if (!F.names.includes(nm) || [...nm][0] !== C) fails.push(`block ${k}: name "${nm}" is not a bank name starting with ${C}`);
+        if (group) {
+          // a Level Set group page: consecutive capitals of the alphabet list, each with one of ITS native entries; a
+          // short group repeats its own capitals with their OTHER entry (never the same capital + name twice)
+          const firstSeen = !seen.has(C);
+          if (!firstSeen && blocks.slice(0, k).some((x) => x.dataset.lcsCapital === C && x.dataset.lcsName === nm)) fails.push(`capital ${C} with "${nm}" twice`);
+          const distinct = [...seen];
+          if (firstSeen && distinct.length && alpha.indexOf(C) !== alpha.indexOf(distinct[distinct.length - 1]) + 1) fails.push(`block ${k}: capital ${C} does not follow ${distinct[distinct.length - 1]} in the alphabet list`);
+          if (!firstSeen && blocks.slice(k).some((x) => !seen.has(x.dataset.lcsCapital))) fails.push(`block ${k}: a repeated capital before a new one`);
+          seen.add(C);
+          if (!(F.lsCapitals || []).some(([c2, w]) => c2 === C && w === nm) || [...nm][0] !== C) fails.push(`block ${k}: "${nm}" is not a level-set entry starting with ${C}`);
+          const strip = b.querySelector('[data-lcs-print]');
+          if ((ds.lcsPrintStrip === '1') !== !!strip || (strip && strip.textContent !== nm)) fails.push(`block ${k}: printed name strip ${strip ? '"' + strip.textContent + '"' : 'missing'} (print-strip ${ds.lcsPrintStrip})`);
+        } else {
+          if (seen.has(C)) fails.push(`capital ${C} twice`); seen.add(C);
+          if (C !== initials[k]) fails.push(`block ${k}: capital ${C} ≠ the ${k + 1}. distinct initial of the names (${initials[k]})`);
+          if (!F.names.includes(nm) || [...nm][0] !== C) fails.push(`block ${k}: name "${nm}" is not a bank name starting with ${C}`);
+        }
         const model = b.querySelector('[data-lcs-role="model"]');
         if (!model || model.textContent !== C) fails.push(`block ${k}: model "${model && model.textContent}" ≠ ${C}`);
         const pair = nodesIn(b, 'capital-pair'), name = nodesIn(b, 'name');
         if (pair.length !== 1 || pair[0].textContent !== C + ' ' + C) fails.push(`block ${k}: grey capitals "${pair.map((x) => x.textContent)}" ≠ "${C} ${C}"`);
-        if (name.length !== 1 || name[0].textContent !== nm) fails.push(`block ${k}: grey name "${name.map((x) => x.textContent)}" ≠ "${nm}"`);
+        if (name.length !== nameTraces || name.some((x) => x.textContent !== nm)) fails.push(`block ${k}: grey names "${name.map((x) => x.textContent)}" ≠ ${nameTraces} × "${nm}"`);
       });
     } else if (ds.lcsFace === 'joins') {
       if (blocks.length !== count) fails.push(`${blocks.length} blocks, ${count} stamped`);
@@ -264,7 +341,9 @@ function browserVerify(data) {
         if (!model || model.textContent !== pr) fails.push(`block ${k}: model "${model && model.textContent}" ≠ ${pr}`);
         const p2 = nodesIn(b, 'pair'), w2 = nodesIn(b, 'word');
         if (p2.length !== 1 || p2[0].textContent !== pr + ' ' + pr) fails.push(`block ${k}: grey pairs "${p2.map((x) => x.textContent)}" ≠ "${pr} ${pr}"`);
-        if (w2.length !== 1 || w2[0].textContent !== wd) fails.push(`block ${k}: grey word ≠ "${wd}"`);
+        const wantW = ds.lcsWordTraces != null ? Number(ds.lcsWordTraces) : 1;
+        if (w2.length !== wantW || w2.some((x) => x.textContent !== wd)) fails.push(`block ${k}: ${w2.length} grey word(s), want ${wantW} × "${wd}"`);
+        if (ds.lcsPrintStrip === '1') { const st = b.querySelector('[data-lcs-print]'); if (!st || st.textContent !== wd) fails.push(`block ${k}: printed word strip ${st ? '"' + st.textContent + '"' : 'missing'}`); }
       });
     } else if (ds.lcsFace === 'words') {
       if (blocks.length !== count) fails.push(`${blocks.length} blocks, ${count} stamped`);
@@ -595,7 +674,7 @@ async function rasterAnalyse({ png, clipX, clipY, ID, calib }) {
     }
     checked++;
   }
-  if (!checked) fails.push('raster: no cursive node measured');
+  if (!checked && !document.querySelector('[data-lcs-model-under="none"]')) fails.push('raster: no cursive node measured');
   return fails.map((f) => `${ID}: ${f}`);
 }
 
@@ -655,7 +734,7 @@ function faceContext(bankLoc, d, locale, unit) {
   const kind = bankLoc.ruling && bankLoc.ruling[band];
   if (!SR.KINDS.includes(kind)) throw new Error(`${ID}: ${locale} ruling for ${band} is "${kind}"`);
   const floor = NEUTRAL.xFloor[band];
-  const X = kind === 'seyes' && d.mode !== 'read' ? NEUTRAL.seyesI[band] : xFor(bankLoc, u, d.mode);
+  const X = kind === 'seyes' && d.mode !== 'read' ? NEUTRAL.seyesI[band] : xFor(bankLoc, u, d.mode) + (d.xNudge || 0);
   if (!(X >= floor)) throw new Error(`${ID}: ${d.mode} X ${X} < the ${band} floor ${floor} (${locale} ${u})`);
   const scriptName = bankLoc.scriptName && bankLoc.scriptName[u];
   if (typeof scriptName !== 'string' || !scriptName.trim()) throw new Error(`${ID}: ${locale} has no scriptName for ${u}`);
@@ -737,6 +816,45 @@ function capitalsOf(names) {
   return out;
 }
 
+/**
+ * Level Set: EVERY capital of the locale's alphabet (native list, one name — or a word where no name exists —
+ * per capital; `d.nameAlt` picks the 1st or 2nd entry so the levels do not print the same names), split in
+ * alphabet order into BALANCED groups of at most what one page holds at this level. Every capital lands on a page.
+ */
+function capitalGroups(bankLoc, d, c, geom) {
+  // the groups are fixed at the level's OWN size (the title names them) — a QA retry's size never regroups
+  if (d.xNudge) {
+    const d0 = { ...d, xNudge: 0 };
+    const c0 = faceContext(bankLoc, d0, c.locale, c.unit);
+    const g0 = c0.kind !== 'seyes' && (bankLoc._ls.capitals || []).some((e) => TALL_CAPITAL.test(e.capital)) ? SR.rulingGeometry({ unit: c0.unit, kind: c0.kind, X: c0.X, cap: true, extraTop: 0.18 }) : geomFor(c0, true);
+    return capitalGroups(bankLoc, d0, c0, g0);
+  }
+  const L = bankLoc._ls;
+  if (!L || !Array.isArray(L.capitals)) throw new Error(`${ID}: ${c.locale} has no level-set capitals`);
+  const order = [];
+  const by = new Map();
+  for (const e of L.capitals) { if (!by.has(e.capital)) { by.set(e.capital, []); order.push(e.capital); } by.get(e.capital).push(e); }
+  // the page says "name": a capital's WORD entries are used only when it has no name at all (Æ, Ñ, Ä …)
+  const allBy = new Map([...by].map(([C, es]) => [C, es.slice()]));
+  for (const [C, es] of by) { const names = es.filter((e) => e.kind !== 'word'); if (names.length) by.set(C, names); }
+  const list = order.map((C) => { const es = by.get(C); const e = es[(d.nameAlt || 0) % es.length]; return { capital: C, name: e.word }; });
+  const n = fitCount(c, geom, d.capitals || 5, 2, !!d.printStrip, 0, 'capitals').n;
+  const g = Math.ceil(list.length / n);
+  const out = [];
+  let at = 0;
+  for (let k = 0; k < g; k++) { const size = Math.floor(list.length / g) + (k < list.length % g ? 1 : 0); out.push(list.slice(at, at + size)); at += size; }
+  // a group shorter than a page holds would leave a blank half page (SPARSE): its capitals come back with their
+  // OTHER native entry (Y Yasmin, Z Zoe, Y Yusuf) — more practice of the same capitals, never a letter from outside
+  for (const grp of out) {
+    const extra = [];
+    for (const it of grp) for (const e of by.get(it.capital)) if (e.word !== it.name) extra.push({ capital: it.capital, name: e.word });
+    // no second NAME left: the capital's word entry (Yaourt) rather than a half-empty page
+    for (const it of grp) for (const e of allBy.get(it.capital)) if (e.word !== it.name && !extra.some((x) => x.name === e.word)) extra.push({ capital: it.capital, name: e.word });
+    while (grp.length < n && extra.length) grp.push(extra.shift());
+  }
+  return out;
+}
+
 /** a derangement of 0..n-1 that is NOT a constant shift (cyclic or plain): the partner is never "one down" */
 /** order[k] = the word row whose picture stands on picture row k → each word row's distance to its partner */
 function partnerDistances(order) { return order.map((w, k) => ({ w, k })).sort((a, b) => a.w - b.w).map(({ w, k }) => Math.abs(k - w)); }
@@ -783,41 +901,62 @@ function buildFace(bankLoc, d, { locale, unit }, ctx) {
   const fsOf = (geom) => (c.kind === 'seyes' ? c.X / SR.metricsFor(c.unit).xHeight : geom.fs);
   if (mode === 'capitals') {
     const { SENTENCES } = require('../../data/b2/sentences.js');
-    const pool = capitalsOf((SENTENCES[locale] || {}).names);
-    if (pool.length < FACE_FLOOR_N.capitals) throw new Error(`${ID}: ${locale} names give ${pool.length} distinct capitals`);
-    const geom = geomFor(c, true);
-    const fit = fitCount(c, geom, Math.min(d.capitals || 5, pool.length), 2, false, 0, mode);
-    const items = pool.slice(0, fit.n);
+    let geom = geomFor(c, true);
+    let items, fit;
+    if (ctx.group) {
+      // a mark ABOVE a capital (Å's ring, Ä Ö Ü's dots, Ñ's tilde) rises above the measured cap height: such a locale's
+      // level-set capitals pages get the headroom
+      if (c.kind !== 'seyes' && ((bankLoc._ls && bankLoc._ls.capitals) || []).some((e) => TALL_CAPITAL.test(e.capital))) geom = SR.rulingGeometry({ unit: c.unit, kind: c.kind, X: c.X, cap: true, extraTop: 0.18 });
+      // Level Set: the WHOLE alphabet of capitals, split into balanced groups of what one page holds; copy k = group k
+      const groups = capitalGroups(bankLoc, d, c, geom);
+      items = groups[ctx.group - 1];
+      if (!items) throw new Error(`${ID}: ${locale} has ${groups.length} capital groups, no group ${ctx.group}`);
+      fit = { n: items.length, stack: faceStack(c, geom, items.length, 2, !!d.printStrip, 0) };
+      if (fit.stack > STACK_MAX) throw new Error(`${ID}: ${locale} capitals group ${ctx.group} (${items.length}) is ${fit.stack} px > ${STACK_MAX} at X ${c.X}`);
+    } else {
+      const pool = capitalsOf((SENTENCES[locale] || {}).names);
+      if (pool.length < FACE_FLOOR_N.capitals) throw new Error(`${ID}: ${locale} names give ${pool.length} distinct capitals`);
+      fit = fitCount(c, geom, Math.min(d.capitals || 5, pool.length), 2, false, 0, mode);
+      items = pool.slice(0, fit.n);
+    }
+    const nameItems = (it) => (d.printStrip || d.nameTrace === false ? [] : Array.from({ length: d.traceTwice ? 2 : 1 }, () => ({ text: it.name, role: 'trace', attrs: { kind: 'name' } })));
     const blocks = items.map((it, k) => C6.cwFaceBlock({
       unit: c.unit, kind: c.kind, geom, seyes: c.kind === 'seyes' ? seyesFor(c, 2, true) : null, w: BODY_W, marginX: M, writeRows: 1, dashHelpers: c.dashHelpers, blockIndex: k, rowGap: [ROW_GAP, GAP_MAX.faceRow],
       attrs: { capital: it.capital, name: it.name },
+      ...(d.printStrip ? { head: C6.cwSentenceStrip({ text: it.name, w: BODY_W, marginX: M }), headGap: FACE_HEAD_GAP } : {}),
       rowAInner: (fs, yB) => C6.cwText({ unit: c.unit, text: it.capital, fs, yB, left: 0, width: M, align: 'center', role: 'model' }) +
-        C6.cwRun({ unit: c.unit, fs, yB, left: M + 16, gap: 24, items: [{ text: it.capital + ' ' + it.capital, role: 'trace', attrs: { kind: 'capital-pair' } }, (d.nameTrace === false ? null : { text: it.name, role: 'trace', attrs: { kind: 'name' } })].filter(Boolean) }),
+        C6.cwRun({ unit: c.unit, fs, yB, left: M + 16, gap: 24, items: [{ text: it.capital + ' ' + it.capital, role: 'trace', attrs: { kind: 'capital-pair' } }, ...nameItems(it)] }),
     }));
     const pr = practiceFor(c, geom, fit.stack);
-    return { bodyHtml: faceColumn(c, mode, geom, blocks, pr.k, pr.total, ` data-lcs-capitals="${items.map((i) => i.capital).join('|')}"`, items.length), meta: { mode, unit: c.unit, items: items.map((i) => i.name), stack: fit.stack, total: pr.total, practice: pr.k } };
+    const lsAttrs = ctx.group ? ` data-lcs-group="${ctx.group}" data-lcs-name-traces="${d.printStrip ? 0 : d.traceTwice ? 2 : 1}" data-lcs-print-strip="${d.printStrip ? 1 : 0}"` : '';
+    return { bodyHtml: faceColumn(c, mode, geom, blocks, pr.k, pr.total, ` data-lcs-capitals="${items.map((i) => i.capital).join('|')}"` + lsAttrs, items.length), meta: { mode, unit: c.unit, items: items.map((i) => i.name), capitals: [...new Set(items.map((i) => i.capital))], stack: fit.stack, total: pr.total, practice: pr.k } };
   }
   if (mode === 'joins') {
-    const js = ((bankLoc.joins || {})[c.unit] || []).filter((j) => !c.lift.includes([...j.pair][0]) && !(ONE_LETTER_DIGRAPHS[locale] || []).includes(j.pair.toLocaleLowerCase(locale)));
+    const js = ((bankLoc.joins || {})[c.unit] || []).filter((j) => !c.lift.includes([...j.pair][0]) && !(ONE_LETTER_DIGRAPHS[locale] || []).includes(j.pair.toLocaleLowerCase(locale)))
+      // Level Set: the easier level joins only from the baseline, the harder only from the top (native tiers)
+      .filter((j) => !d.joinTier || j.tier === d.joinTier);
     const geom = geomFor(c, false);
-    const fit = fitCount(c, geom, Math.min(d.pairs || 5, js.length), 2, false, 0, mode);
+    const fit = fitCount(c, geom, Math.min(d.pairs || 5, js.length), 2, !!d.printStrip, 0, mode);
     // seeded choice, bank order kept on the page
     const pickIdx = rng.sample(js.map((_, i) => i), fit.n).sort((a, b) => a - b);
     const items = pickIdx.map((i) => js[i]);
     const blocks = items.map((j, k) => C6.cwFaceBlock({
       unit: c.unit, kind: c.kind, geom, seyes: c.kind === 'seyes' ? seyesFor(c, 2, true) : null, w: BODY_W, marginX: M, writeRows: 1, dashHelpers: c.dashHelpers, blockIndex: k, rowGap: [ROW_GAP, GAP_MAX.faceRow],
       attrs: { pair: j.pair, word: j.word },
+      ...(d.printStrip ? { head: C6.cwSentenceStrip({ text: j.word, w: BODY_W, marginX: M }), headGap: FACE_HEAD_GAP } : {}),
       rowAInner: (fs, yB) => C6.cwText({ unit: c.unit, text: j.pair, fs, yB, left: 0, width: M, align: 'center', role: 'model' }) +
-        C6.cwRun({ unit: c.unit, fs, yB, left: M + 16, gap: 24, items: [{ text: j.pair + ' ' + j.pair, role: 'trace', attrs: { kind: 'pair' } }, (d.wordTrace === false ? null : { text: j.word, role: 'trace', attrs: { kind: 'word' } })].filter(Boolean) }),
+        C6.cwRun({ unit: c.unit, fs, yB, left: M + 16, gap: 24, items: [{ text: j.pair + ' ' + j.pair, role: 'trace', attrs: { kind: 'pair' } },
+          ...(d.printStrip || d.wordTrace === false ? [] : Array.from({ length: d.traceTwice ? 2 : 1 }, () => ({ text: j.word, role: 'trace', attrs: { kind: 'word' } })))] }),
     }));
     const pr = practiceFor(c, geom, fit.stack);
-    return { bodyHtml: faceColumn(c, mode, geom, blocks, pr.k, pr.total, ` data-lcs-pairs="${items.map((j) => j.pair).join('|')}"`, items.length), meta: { mode, unit: c.unit, items: items.map((j) => j.pair), stack: fit.stack, total: pr.total, practice: pr.k } };
+    const lsAttrs = ctx.levelSet ? ` data-lcs-word-traces="${d.printStrip ? 0 : d.traceTwice ? 2 : 1}" data-lcs-print-strip="${d.printStrip ? 1 : 0}"` : '';
+    return { bodyHtml: faceColumn(c, mode, geom, blocks, pr.k, pr.total, ` data-lcs-pairs="${items.map((j) => j.pair).join('|')}"` + lsAttrs, items.length), meta: { mode, unit: c.unit, items: items.map((j) => j.pair), stack: fit.stack, total: pr.total, practice: pr.k } };
   }
   if (mode === 'words') {
     const dots = DOT_CROSS[locale] || '';
     const pairs = ((bankLoc.joins || {})[c.unit] || []).map((j) => j.pair);
     const all = Object.entries(bankLoc.words || {}).map(([key, v]) => ({ key, text: wordText(v) }))
-      .filter((w) => NEUTRAL.pictures.includes(w.key) && !NEUTRAL.excludePictures.includes(w.key) && [...w.text].length <= (d.maxLetters || 8));
+      .filter((w) => NEUTRAL.pictures.includes(w.key) && !NEUTRAL.excludePictures.includes(w.key) && [...w.text].length <= (d.maxLetters || 8) && [...w.text].length >= (d.minLetters || 1));
     const cap = all.some((w) => /^\p{Lu}/u.test(w.text));
     const geom = geomFor(c, cap);
     const fit = fitCount(c, geom, d.words || 4, 2, false, 72, mode);
@@ -847,7 +986,9 @@ function buildFace(bankLoc, d, { locale, unit }, ctx) {
     return { bodyHtml: faceColumn(c, mode, geom, blocks, pr.k, pr.total, ` data-lcs-words="${items.map((w) => w.key).join('|')}"`, items.length), meta: { mode, unit: c.unit, items: items.map((w) => w.text), stack: fit.stack, total: pr.total, practice: pr.k } };
   }
   if (mode === 'copy') {
-    const ss = (bankLoc.sentences || []).slice();
+    let ss = (bankLoc.sentences || []).slice();
+    // Level Set: the easier level copies SHORT sentences, the harder LONG ones (native length tiers)
+    if (d.sentenceLen && bankLoc._ls) { const want = new Set((bankLoc._ls.sentencesMore || []).filter((x) => [].concat(d.sentenceLen).includes(x.len)).map((x) => x.text)); ss = ss.filter((x) => want.has(x)); }
     const geom = geomFor(c, true);
     const fs = fsOf(geom);
     const room = BODY_W - FACE_MARGIN.copy - 16 - 8;
@@ -903,12 +1044,14 @@ function buildFace(bankLoc, d, { locale, unit }, ctx) {
 /** the node-side expectations a face's browser verify re-derives against (the bank literals) */
 function faceVerifyData(bankLoc, loc, mode, unit) {
   const { SENTENCES } = require('../../data/b2/sentences.js');
+  const L = levelSetData(loc) || {};
   return {
     mode, dots: DOT_CROSS[loc] || '',
     names: (SENTENCES[loc] || {}).names || [],
-    joins: (bankLoc.joins || {})[unit] || [],
+    lsCapitals: (L.capitals || []).map((e) => [e.capital, e.word]),
+    joins: ((bankLoc.joins || {})[unit] || []).concat(L.joinsMore || []),
     words: Object.fromEntries(Object.entries(bankLoc.words || {}).map(([k, v]) => [k, wordText(v)])),
-    sentences: bankLoc.sentences || [],
+    sentences: (bankLoc.sentences || []).concat((L.sentencesMore || []).map((x) => x.text)),
     pictures: NEUTRAL.pictures, exclude: NEUTRAL.excludePictures,
     lift: (NEUTRAL.units[unit] || {}).lift || '',
     shiftShareMax: SHIFT_SHARE_MAX,
@@ -963,12 +1106,45 @@ const TYPE = {
   SHIFT_SHARE_MAX,
   readClash,
 
-  build({ difficulty, locale, unit }) {
+  build({ difficulty, locale, unit }, ctx0) {
     const loc = String(locale || 'en').slice(0, 2);
-    const d = this.difficulty[difficulty];
+    let d = this.difficulty[difficulty];
     if (!d) throw new Error(`${ID}: no difficulty ${difficulty}`);
     if (NEUTRAL.refusedLocales[loc]) throw new Error(`${ID}: type refused in ${loc}: no national joined script (${NEUTRAL.refusedLocales[loc]})`);
-    return this._buildWith(loadBank(KEY, loc), d, { locale: loc, unit }, arguments[1]);
+    // Level Set 2026-09-28: every page but the published one (level 2, copy 1) is a NEW copy — it draws on the
+    // level-set content, and a GROUP face (letters, capitals) prints group `seedVariant` of the whole alphabet
+    const ctx = ctx0 || {};
+    const published = difficulty === 2 && (ctx.variant || 1) === 1;
+    if (published) return this._buildWith(loadBank(KEY, loc), d, { locale: loc, unit }, ctx0);
+    const group = d.mode === 'base' || d.mode === 'capitals' ? (ctx.seedVariant || 1) : null;
+    if (d.mode === 'base') {
+      // the groups are fixed at the level's OWN size (the title names them); a QA retry only changes the size after
+      const gs = baseGroups(loadBank(KEY, loc), d, loc, unit);
+      if (!gs[group - 1]) throw new Error(`${ID}: ${loc} has ${gs.length} letter groups, no group ${group}`);
+      d = { ...d, lesson: gs[group - 1].lesson, letterSet: gs[group - 1].letters };
+    }
+    if (ctx.xNudge) d = { ...d, xNudge: ctx.xNudge };   // a QA retry (cli qaRetries): the letters one step larger / smaller
+    return this._buildWith(levelSetBank(loadBank(KEY, loc), loc), d, { locale: loc, unit }, { ...ctx, levelSet: true, group: d.mode === 'capitals' ? group : null });
+  },
+
+  /** cli QA retry knobs for a NEW page (never the published one): the letters one or two steps larger / smaller */
+  qaRetries(it) { return it.difficulty === 2 && (it.variant || 1) === 1 ? [] : [{ xNudge: 1 }, { xNudge: -1 }, { xNudge: 2 }, { xNudge: 3 }]; },
+
+  /**
+   * Level Set: the title of a group page NAMES its letters (the published title names lesson 0's) — the
+   * native template with {LETTERS} ("i, t, u and w"); {U} stays for the unit-token pass. Other pages unchanged.
+   */
+  copyStrings(strings, { locale, difficulty, unit, variant, seedVariant }) {
+    const loc = String(locale || 'en').slice(0, 2);
+    const d = this.difficulty[difficulty];
+    if (!d || (difficulty === 2 && (variant || 1) === 1) || !['base', 'capitals'].includes(d.mode)) return strings;
+    const L = levelSetData(loc);
+    const tpl = L && (d.mode === 'base' ? L.lettersTitle : L.capitalsTitle);
+    if (!tpl || !L.and) throw new Error(`${ID}: ${loc} has no level-set ${d.mode} title template`);
+    const { makeRng } = require('../../lib/rng.js');
+    const b = this.build({ difficulty, locale: loc, unit }, { rng: makeRng('title'), variant: variant || 2, seedVariant });
+    const letters = d.mode === 'base' ? b.meta.letters : b.meta.capitals;
+    return { ...strings, title: tpl.replace('{LETTERS}', letterList(letters, L.and, loc)) };
   },
 
   /** the whole build over an INJECTED bank block (the gate's poison / probe seam) */

@@ -20,7 +20,8 @@ const { loadType } = require('../../lib/load-types.js');
 const { makeRng, instanceSeed } = require('../../lib/rng.js');
 const { themeAxisKey, buildManifest } = require('../../emit/manifest.js');
 const { buildDeckHtml } = require('../../emit/deck-html.js');
-const { resolveStrings } = require('../../i18n/strings.js');
+const { resolveStrings, withLevelInstruction } = require('../../i18n/strings.js');
+const { resolveUnitTokens } = require('../../lib/unit-axis.js');
 const m = require('../../image-cache/resolve.js').manifest();
 const TAX = require('../../../../frontend/config/topics-taxonomy.json');
 
@@ -88,10 +89,11 @@ function themelessWaves() {
           meta = JSON.stringify(b.meta);
         }
         const m0 = JSON.parse(meta);
-        return new Set([...(m0.wholes || []), ...(m0.foils || [])].map((w) => String(w).toLocaleLowerCase(loc)));
+        return new Set([...(m0.wholes || m0.items || m0.letters || []), ...(m0.foils || [])].map((w) => String(w).toLocaleLowerCase(loc)));
       };
-      const fits = (lv, unit, copy) => {
-        const strings = resolveStrings(spec.id, loc, spec);
+      const fits = (lv, unit, copy, sv) => {
+        const s0 = withLevelInstruction(resolveStrings(spec.id, loc, spec), spec.id, lv, loc);
+        const strings = resolveUnitTokens(spec.copyStrings ? spec.copyStrings(s0, { locale: loc, difficulty: lv, unit, variant: copy, seedVariant: sv }) : s0, spec, unit, loc);
         const manifest = buildManifest({ spec, cacheTheme: null, difficulty: lv, locale: loc, variant: copy, unit, deckId: 'x', generatedAt: 'x', strings, imagesUsed: [] });
         const html = buildDeckHtml({ manifest, spec, strings, locale: loc, preview: TINY });
         return ((/<title>([^<]*)<\/title>/.exec(html) || [])[1] || '').length <= (cfg.titleMax || 70);
@@ -103,15 +105,24 @@ function themelessWaves() {
         const out = [];
         if (lv === 2) { try { accepted.push(wholesOf(2, null, 1, 1)); } catch (e) { continue; } }   // the published page
         const text = (cfg.textLevels || {})[id] === lv;
-        const tries = text
-          ? Array.from({ length: cfg.maxCopies }, (_, k) => ({ unit: null, sv: k + 1 }))
-          : units.flatMap((unit) => Array.from({ length: cfg.seeds }, (_, k) => ({ unit, sv: k + 1 }))).filter((t) => !(lv === 2 && t.unit === null && t.sv === 1));
+        // GROUP faces (cfg.groupFaces — Cursive letters / capitals): one copy per group of the alphabet, every group,
+        // in every script the locale teaches (seedVariant = the group number; the page throws past the last group)
+        const group = !!(cfg.groupFaces || {})[id];
+        const allUnits = (spec.unitAxis && spec.unitAxis.units(loc)) || [];
+        const pubUnit = spec.unitAxis && spec.unitAxis.exemplar ? spec.unitAxis.exemplar(loc, spec) : null;
+        const groupUnits = allUnits.length > 1 ? allUnits : [null];
+        const tries = group
+          ? groupUnits.flatMap((unit) => Array.from({ length: 12 }, (_, k) => ({ unit, sv: k + 1 })))
+            .filter((t) => !(lv === 2 && t.sv === 1 && (cfg.groupFaces[id] === 'skipFirstAtCore') && (t.unit === null || t.unit === pubUnit)))
+          : text
+            ? Array.from({ length: cfg.maxCopies }, (_, k) => ({ unit: null, sv: k + 1 }))
+            : units.flatMap((unit) => Array.from({ length: cfg.seeds }, (_, k) => ({ unit, sv: k + 1 }))).filter((t) => !(lv === 2 && t.unit === null && t.sv === 1));
         for (const t of tries) {
-          if (out.length >= cfg.maxCopies) break;
+          if (!group && out.length >= cfg.maxCopies) break;
           let w;
           try { w = wholesOf(lv, t.unit, t.sv, next); } catch (e) { continue; }
-          if (!text && accepted.some((a) => [...w].filter((x) => a.has(x)).length > Math.min(cfg.maxShared, Math.max(1, Math.floor(w.size / 4))))) continue;
-          if (!fits(lv, t.unit, next)) continue;
+          if (!group && !text && accepted.some((a) => [...w].filter((x) => a.has(x)).length > Math.min(cfg.maxShared, Math.max(1, Math.floor(w.size / 4))))) continue;
+          if (!fits(lv, t.unit, next, t.sv)) { console.error(`  title too long: ${id} L${lv} ${t.unit || ''} group/seed ${t.sv}`); continue; }
           accepted.push(w);
           out.push({ copy: next++, unit: t.unit, seedVariant: t.sv });
         }
@@ -119,9 +130,10 @@ function themelessWaves() {
         counts.push(`${id.slice(3)}L${lv}:${out.length}`);
       }
     }
+    if (!Object.keys(levels).length) { rep.push(`${loc}: none (the locale refuses the type)`); continue; }
     const wave = {
       id: 'wave-' + cfg.prefix + '-' + loc, _note: cfg.note,
-      indexable: false, interactive: true, seedEpoch: 1, locales: [loc], themes: [], themesPerType: 1, difficulties: [1, 2, 3],
+      indexable: false, interactive: cfg.interactive !== false, seedEpoch: 1, locales: [loc], themes: [], themesPerType: 1, difficulties: [1, 2, 3],
       types: Object.keys(levels), levels,
     };
     fs.writeFileSync(path.join(__dirname, '..', '..', 'waves', wave.id + '.json'), JSON.stringify(wave, null, 2) + '\n');

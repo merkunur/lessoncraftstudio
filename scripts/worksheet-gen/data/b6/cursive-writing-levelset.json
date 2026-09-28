@@ -1,0 +1,5403 @@
+{
+ "_note": "Level Set 2026-09-28 — Cursive Writing content for the NEW copies only (native panels ×9; importer tools/level-set/import-cursive-panels.js). The published pages never read this file.",
+ "en": {
+  "capitals": [
+   {
+    "capital": "A",
+    "word": "Ava",
+    "kind": "name"
+   },
+   {
+    "capital": "A",
+    "word": "Adam",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Bella",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Blake",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Chloe",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Caleb",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "Daisy",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "Dylan",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Ella",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Ethan",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Fiona",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Felix",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Grace",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Gabriel",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Hannah",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Henry",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Ivy",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Isaac",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Jack",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Julia",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Kate",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Kevin",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Lucy",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Liam",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Maya",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Mason",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Nora",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Noah",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Olivia",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Owen",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Paige",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Peter",
+    "kind": "name"
+   },
+   {
+    "capital": "Q",
+    "word": "Quinn",
+    "kind": "name"
+   },
+   {
+    "capital": "Q",
+    "word": "Quentin",
+    "kind": "name"
+   },
+   {
+    "capital": "R",
+    "word": "Ruby",
+    "kind": "name"
+   },
+   {
+    "capital": "R",
+    "word": "Ryan",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Sophie",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Sam",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Tessa",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Theo",
+    "kind": "name"
+   },
+   {
+    "capital": "U",
+    "word": "Uma",
+    "kind": "name"
+   },
+   {
+    "capital": "U",
+    "word": "Umbrella",
+    "kind": "word"
+   },
+   {
+    "capital": "V",
+    "word": "Violet",
+    "kind": "name"
+   },
+   {
+    "capital": "V",
+    "word": "Victor",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "Willow",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "Wyatt",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Xavier",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Xylophone",
+    "kind": "word"
+   },
+   {
+    "capital": "Y",
+    "word": "Yasmin",
+    "kind": "name"
+   },
+   {
+    "capital": "Y",
+    "word": "Yellow",
+    "kind": "word"
+   },
+   {
+    "capital": "Z",
+    "word": "Zoe",
+    "kind": "name"
+   },
+   {
+    "capital": "Z",
+    "word": "Zach",
+    "kind": "name"
+   }
+  ],
+  "joinsMore": [
+   {
+    "pair": "in",
+    "word": "pink",
+    "tier": "easy"
+   },
+   {
+    "pair": "an",
+    "word": "van",
+    "tier": "easy"
+   },
+   {
+    "pair": "un",
+    "word": "sun",
+    "tier": "easy"
+   },
+   {
+    "pair": "it",
+    "word": "kite",
+    "tier": "easy"
+   },
+   {
+    "pair": "ai",
+    "word": "rain",
+    "tier": "easy"
+   },
+   {
+    "pair": "ui",
+    "word": "fruit",
+    "tier": "easy"
+   },
+   {
+    "pair": "ut",
+    "word": "nut",
+    "tier": "easy"
+   },
+   {
+    "pair": "ig",
+    "word": "pig",
+    "tier": "easy"
+   },
+   {
+    "pair": "et",
+    "word": "net",
+    "tier": "easy"
+   },
+   {
+    "pair": "im",
+    "word": "swim",
+    "tier": "easy"
+   },
+   {
+    "pair": "ck",
+    "word": "duck",
+    "tier": "easy"
+   },
+   {
+    "pair": "ow",
+    "word": "cow",
+    "tier": "hard"
+   },
+   {
+    "pair": "oy",
+    "word": "boy",
+    "tier": "hard"
+   },
+   {
+    "pair": "ox",
+    "word": "box",
+    "tier": "hard"
+   },
+   {
+    "pair": "om",
+    "word": "mom",
+    "tier": "hard"
+   },
+   {
+    "pair": "os",
+    "word": "nose",
+    "tier": "hard"
+   },
+   {
+    "pair": "or",
+    "word": "fork",
+    "tier": "hard"
+   },
+   {
+    "pair": "wi",
+    "word": "wind",
+    "tier": "hard"
+   },
+   {
+    "pair": "we",
+    "word": "web",
+    "tier": "hard"
+   },
+   {
+    "pair": "bu",
+    "word": "bus",
+    "tier": "hard"
+   },
+   {
+    "pair": "bl",
+    "word": "blue",
+    "tier": "hard"
+   },
+   {
+    "pair": "be",
+    "word": "bed",
+    "tier": "hard"
+   },
+   {
+    "pair": "vi",
+    "word": "violin",
+    "tier": "hard"
+   },
+   {
+    "pair": "ov",
+    "word": "glove",
+    "tier": "hard"
+   },
+   {
+    "pair": "qu",
+    "word": "queen",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ja",
+    "word": "jam",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ea",
+    "word": "sea",
+    "tier": "mixed"
+   },
+   {
+    "pair": "dr",
+    "word": "drum",
+    "tier": "mixed"
+   },
+   {
+    "pair": "gr",
+    "word": "grass",
+    "tier": "mixed"
+   },
+   {
+    "pair": "th",
+    "word": "bath",
+    "tier": "mixed"
+   },
+   {
+    "pair": "mp",
+    "word": "jump",
+    "tier": "mixed"
+   },
+   {
+    "pair": "fi",
+    "word": "fish",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ca",
+    "word": "cat",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ad",
+    "word": "dad",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ap",
+    "word": "cap",
+    "tier": "mixed"
+   }
+  ],
+  "sentencesMore": [
+   {
+    "text": "The bird can sing.",
+    "len": "short"
+   },
+   {
+    "text": "Sam has a red hat.",
+    "len": "short"
+   },
+   {
+    "text": "The fox is quick.",
+    "len": "short"
+   },
+   {
+    "text": "Look at the moon.",
+    "len": "short"
+   },
+   {
+    "text": "My kite is blue.",
+    "len": "short"
+   },
+   {
+    "text": "It is my turn.",
+    "len": "short"
+   },
+   {
+    "text": "We play in the snow.",
+    "len": "medium"
+   },
+   {
+    "text": "I like green apples.",
+    "len": "medium"
+   },
+   {
+    "text": "Ava has a pet frog.",
+    "len": "medium"
+   },
+   {
+    "text": "Dad can fix my bike.",
+    "len": "medium"
+   },
+   {
+    "text": "Liam draws a big ship.",
+    "len": "medium"
+   },
+   {
+    "text": "Please shut the door.",
+    "len": "medium"
+   },
+   {
+    "text": "Owls sleep in the day.",
+    "len": "medium"
+   },
+   {
+    "text": "I have two little fish.",
+    "len": "medium"
+   },
+   {
+    "text": "Grace hugs her puppy.",
+    "len": "medium"
+   },
+   {
+    "text": "The bus is big and yellow.",
+    "len": "long"
+   },
+   {
+    "text": "The duck swims in the pond.",
+    "len": "long"
+   },
+   {
+    "text": "We made a cake for Grandma.",
+    "len": "long"
+   },
+   {
+    "text": "My brother likes to jump.",
+    "len": "long"
+   },
+   {
+    "text": "Red leaves fall from trees.",
+    "len": "long"
+   },
+   {
+    "text": "Henry wrote a note to Ruby.",
+    "len": "long"
+   },
+   {
+    "text": "Please help me find my hat.",
+    "len": "long"
+   },
+   {
+    "text": "The kitten sleeps in a box.",
+    "len": "long"
+   },
+   {
+    "text": "I can see a bee.",
+    "len": "short"
+   },
+   {
+    "text": "The hen is red.",
+    "len": "short"
+   },
+   {
+    "text": "We sing a song.",
+    "len": "short"
+   },
+   {
+    "text": "My cat is soft.",
+    "len": "short"
+   },
+   {
+    "text": "Jack has a kite.",
+    "len": "short"
+   },
+   {
+    "text": "The pig is pink.",
+    "len": "short"
+   },
+   {
+    "text": "I like my hat.",
+    "len": "short"
+   },
+   {
+    "text": "Ella can run far.",
+    "len": "short"
+   },
+   {
+    "text": "The sun is up.",
+    "len": "short"
+   },
+   {
+    "text": "We eat an apple.",
+    "len": "short"
+   },
+   {
+    "text": "Dad has a van.",
+    "len": "short"
+   },
+   {
+    "text": "The cup is full.",
+    "len": "short"
+   }
+  ],
+  "and": "and",
+  "lettersTitle": "Cursive Letters: {LETTERS}",
+  "capitalsTitle": "Cursive Capital Letters: {LETTERS}"
+ },
+ "de": {
+  "capitals": [
+   {
+    "capital": "A",
+    "word": "Amelie",
+    "kind": "name"
+   },
+   {
+    "capital": "A",
+    "word": "Anton",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Bruno",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Bella",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Clara",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Carlo",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "David",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "Dana",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Elias",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Ella",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Felix",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Frieda",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Greta",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Gabriel",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Hanna",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Henri",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Ida",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Ilias",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Jonas",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Jana",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Karla",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Kilian",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Luis",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Lotta",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Mila",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Moritz",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Nele",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Niklas",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Oskar",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Olivia",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Pia",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Philipp",
+    "kind": "name"
+   },
+   {
+    "capital": "Q",
+    "word": "Qualle",
+    "kind": "word"
+   },
+   {
+    "capital": "Q",
+    "word": "Quark",
+    "kind": "word"
+   },
+   {
+    "capital": "R",
+    "word": "Rosa",
+    "kind": "name"
+   },
+   {
+    "capital": "R",
+    "word": "Rafael",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Sophie",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Samuel",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Tilda",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Theo",
+    "kind": "name"
+   },
+   {
+    "capital": "U",
+    "word": "Uhu",
+    "kind": "word"
+   },
+   {
+    "capital": "U",
+    "word": "Uhr",
+    "kind": "word"
+   },
+   {
+    "capital": "V",
+    "word": "Vincent",
+    "kind": "name"
+   },
+   {
+    "capital": "V",
+    "word": "Valentina",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "Wilma",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "Willi",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Xaver",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Xylofon",
+    "kind": "word"
+   },
+   {
+    "capital": "Y",
+    "word": "Yusuf",
+    "kind": "name"
+   },
+   {
+    "capital": "Y",
+    "word": "Yara",
+    "kind": "name"
+   },
+   {
+    "capital": "Z",
+    "word": "Zoe",
+    "kind": "name"
+   },
+   {
+    "capital": "Z",
+    "word": "Zeynep",
+    "kind": "name"
+   },
+   {
+    "capital": "Ä",
+    "word": "Äpfel",
+    "kind": "word"
+   },
+   {
+    "capital": "Ä",
+    "word": "Äste",
+    "kind": "word"
+   },
+   {
+    "capital": "Ö",
+    "word": "Öl",
+    "kind": "word"
+   },
+   {
+    "capital": "Ö",
+    "word": "Ölfleck",
+    "kind": "word"
+   },
+   {
+    "capital": "Ü",
+    "word": "Übung",
+    "kind": "word"
+   },
+   {
+    "capital": "Ü",
+    "word": "Übermut",
+    "kind": "word"
+   }
+  ],
+  "joinsMore": [
+   {
+    "pair": "in",
+    "word": "Kind",
+    "tier": "easy"
+   },
+   {
+    "pair": "an",
+    "word": "Hand",
+    "tier": "easy"
+   },
+   {
+    "pair": "un",
+    "word": "Hund",
+    "tier": "easy"
+   },
+   {
+    "pair": "it",
+    "word": "Ritter",
+    "tier": "easy"
+   },
+   {
+    "pair": "ie",
+    "word": "Biene",
+    "tier": "easy"
+   },
+   {
+    "pair": "ut",
+    "word": "Hut",
+    "tier": "easy"
+   },
+   {
+    "pair": "im",
+    "word": "Himmel",
+    "tier": "easy"
+   },
+   {
+    "pair": "am",
+    "word": "Lampe",
+    "tier": "easy"
+   },
+   {
+    "pair": "um",
+    "word": "Blume",
+    "tier": "easy"
+   },
+   {
+    "pair": "ig",
+    "word": "Tiger",
+    "tier": "easy"
+   },
+   {
+    "pair": "oh",
+    "word": "Bohne",
+    "tier": "hard"
+   },
+   {
+    "pair": "om",
+    "word": "Tomate",
+    "tier": "hard"
+   },
+   {
+    "pair": "os",
+    "word": "Rose",
+    "tier": "hard"
+   },
+   {
+    "pair": "öt",
+    "word": "Flöte",
+    "tier": "hard"
+   },
+   {
+    "pair": "öw",
+    "word": "Möwe",
+    "tier": "hard"
+   },
+   {
+    "pair": "we",
+    "word": "Löwe",
+    "tier": "hard"
+   },
+   {
+    "pair": "wi",
+    "word": "Zwiebel",
+    "tier": "hard"
+   },
+   {
+    "pair": "be",
+    "word": "Gabel",
+    "tier": "hard"
+   },
+   {
+    "pair": "bs",
+    "word": "Obst",
+    "tier": "hard"
+   },
+   {
+    "pair": "ov",
+    "word": "Pullover",
+    "tier": "hard"
+   },
+   {
+    "pair": "vi",
+    "word": "Klavier",
+    "tier": "hard"
+   },
+   {
+    "pair": "ck",
+    "word": "Socke",
+    "tier": "mixed"
+   },
+   {
+    "pair": "jo",
+    "word": "Jojo",
+    "tier": "mixed"
+   },
+   {
+    "pair": "qu",
+    "word": "Aquarium",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ex",
+    "word": "Hexe",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ny",
+    "word": "Pony",
+    "tier": "mixed"
+   },
+   {
+    "pair": "tz",
+    "word": "Katze",
+    "tier": "mixed"
+   },
+   {
+    "pair": "är",
+    "word": "Bär",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ür",
+    "word": "Tür",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ße",
+    "word": "Straße",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ad",
+    "word": "Rad",
+    "tier": "mixed"
+   },
+   {
+    "pair": "pf",
+    "word": "Apfel",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ro",
+    "word": "Krone",
+    "tier": "mixed"
+   }
+  ],
+  "sentencesMore": [
+   {
+    "text": "Ich male ein Haus.",
+    "len": "short"
+   },
+   {
+    "text": "Der Ball ist rot.",
+    "len": "short"
+   },
+   {
+    "text": "Das Eis ist kalt.",
+    "len": "short"
+   },
+   {
+    "text": "Mama liest mir vor.",
+    "len": "medium"
+   },
+   {
+    "text": "Der Vogel singt laut.",
+    "len": "medium"
+   },
+   {
+    "text": "Wir fahren mit dem Bus.",
+    "len": "medium"
+   },
+   {
+    "text": "Jonas baut eine Burg.",
+    "len": "medium"
+   },
+   {
+    "text": "Im Garten wächst Salat.",
+    "len": "medium"
+   },
+   {
+    "text": "Die Maus frisst Käse.",
+    "len": "medium"
+   },
+   {
+    "text": "Papa kocht heute Nudeln.",
+    "len": "medium"
+   },
+   {
+    "text": "Mein Stift ist grün.",
+    "len": "medium"
+   },
+   {
+    "text": "Mia schreibt ihrer Oma.",
+    "len": "medium"
+   },
+   {
+    "text": "Der Schnee ist weiß und kalt.",
+    "len": "long"
+   },
+   {
+    "text": "Wir spielen im Park Fangen.",
+    "len": "long"
+   },
+   {
+    "text": "Das Pferd frisst gern Heu.",
+    "len": "long"
+   },
+   {
+    "text": "Heute gehen wir schwimmen.",
+    "len": "long"
+   },
+   {
+    "text": "Lukas hat einen roten Ball.",
+    "len": "long"
+   },
+   {
+    "text": "Die Kinder lachen und singen.",
+    "len": "long"
+   },
+   {
+    "text": "Im Herbst fallen die Blätter.",
+    "len": "long"
+   },
+   {
+    "text": "Der Hase hoppelt übers Feld.",
+    "len": "long"
+   },
+   {
+    "text": "Das Buch ist neu.",
+    "len": "short"
+   },
+   {
+    "text": "Die Kuh ist braun.",
+    "len": "short"
+   },
+   {
+    "text": "Ich mag den Hund.",
+    "len": "short"
+   },
+   {
+    "text": "Mia hat ein Rad.",
+    "len": "short"
+   },
+   {
+    "text": "Ben malt ein Boot.",
+    "len": "short"
+   },
+   {
+    "text": "Das Glas ist voll.",
+    "len": "short"
+   },
+   {
+    "text": "Der Tag ist schön.",
+    "len": "short"
+   },
+   {
+    "text": "Ich sehe den Mond.",
+    "len": "short"
+   },
+   {
+    "text": "Oma hat ein Huhn.",
+    "len": "short"
+   },
+   {
+    "text": "Die Tür ist zu.",
+    "len": "short"
+   },
+   {
+    "text": "Wir sind im Zoo.",
+    "len": "short"
+   }
+  ],
+  "and": "und",
+  "lettersTitle": "Schreibschrift üben: {LETTERS} in {U}",
+  "capitalsTitle": "Großbuchstaben in {U}: {LETTERS}"
+ },
+ "es": {
+  "capitals": [
+   {
+    "capital": "A",
+    "word": "Andrea",
+    "kind": "name"
+   },
+   {
+    "capital": "A",
+    "word": "Alejandro",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Bruno",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Brenda",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Carlos",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Carmen",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "Daniela",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "David",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Emilio",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Elena",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Fernanda",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Felipe",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Gabriel",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Guadalupe",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Héctor",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Helena",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Isabel",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Iván",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Jorge",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Julia",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Karla",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Kevin",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Luis",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Laura",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "María",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Miguel",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Natalia",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Nicolás",
+    "kind": "name"
+   },
+   {
+    "capital": "Ñ",
+    "word": "Ñandú",
+    "kind": "word"
+   },
+   {
+    "capital": "Ñ",
+    "word": "Ñu",
+    "kind": "word"
+   },
+   {
+    "capital": "O",
+    "word": "Omar",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Olivia",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Pablo",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Paola",
+    "kind": "name"
+   },
+   {
+    "capital": "Q",
+    "word": "Queso",
+    "kind": "word"
+   },
+   {
+    "capital": "Q",
+    "word": "Quetzal",
+    "kind": "word"
+   },
+   {
+    "capital": "R",
+    "word": "Ricardo",
+    "kind": "name"
+   },
+   {
+    "capital": "R",
+    "word": "Regina",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Santiago",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Sara",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Tomás",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Teresa",
+    "kind": "name"
+   },
+   {
+    "capital": "U",
+    "word": "Uriel",
+    "kind": "name"
+   },
+   {
+    "capital": "U",
+    "word": "Ulises",
+    "kind": "name"
+   },
+   {
+    "capital": "V",
+    "word": "Víctor",
+    "kind": "name"
+   },
+   {
+    "capital": "V",
+    "word": "Valeria",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "Wendy",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "Walter",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Ximena",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Xavier",
+    "kind": "name"
+   },
+   {
+    "capital": "Y",
+    "word": "Yolanda",
+    "kind": "name"
+   },
+   {
+    "capital": "Y",
+    "word": "Yael",
+    "kind": "name"
+   },
+   {
+    "capital": "Z",
+    "word": "Zoe",
+    "kind": "name"
+   },
+   {
+    "capital": "Z",
+    "word": "Zacarías",
+    "kind": "name"
+   }
+  ],
+  "joinsMore": [
+   {
+    "pair": "in",
+    "word": "pino",
+    "tier": "easy"
+   },
+   {
+    "pair": "an",
+    "word": "mano",
+    "tier": "easy"
+   },
+   {
+    "pair": "un",
+    "word": "luna",
+    "tier": "easy"
+   },
+   {
+    "pair": "it",
+    "word": "gatito",
+    "tier": "easy"
+   },
+   {
+    "pair": "ai",
+    "word": "baile",
+    "tier": "easy"
+   },
+   {
+    "pair": "ni",
+    "word": "nido",
+    "tier": "easy"
+   },
+   {
+    "pair": "mi",
+    "word": "camisa",
+    "tier": "easy"
+   },
+   {
+    "pair": "ti",
+    "word": "tijeras",
+    "tier": "easy"
+   },
+   {
+    "pair": "ui",
+    "word": "ruido",
+    "tier": "easy"
+   },
+   {
+    "pair": "ia",
+    "word": "piano",
+    "tier": "easy"
+   },
+   {
+    "pair": "ci",
+    "word": "cielo",
+    "tier": "easy"
+   },
+   {
+    "pair": "or",
+    "word": "flor",
+    "tier": "hard"
+   },
+   {
+    "pair": "os",
+    "word": "oso",
+    "tier": "hard"
+   },
+   {
+    "pair": "oc",
+    "word": "foca",
+    "tier": "hard"
+   },
+   {
+    "pair": "ob",
+    "word": "lobo",
+    "tier": "hard"
+   },
+   {
+    "pair": "wi",
+    "word": "sándwich",
+    "tier": "hard"
+   },
+   {
+    "pair": "vo",
+    "word": "huevo",
+    "tier": "hard"
+   },
+   {
+    "pair": "vi",
+    "word": "avión",
+    "tier": "hard"
+   },
+   {
+    "pair": "be",
+    "word": "bebé",
+    "tier": "hard"
+   },
+   {
+    "pair": "bu",
+    "word": "burro",
+    "tier": "hard"
+   },
+   {
+    "pair": "om",
+    "word": "tomate",
+    "tier": "hard"
+   },
+   {
+    "pair": "oz",
+    "word": "arroz",
+    "tier": "hard"
+   },
+   {
+    "pair": "qu",
+    "word": "queso",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ga",
+    "word": "gato",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ño",
+    "word": "niño",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ko",
+    "word": "koala",
+    "tier": "mixed"
+   },
+   {
+    "pair": "xi",
+    "word": "taxi",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ya",
+    "word": "playa",
+    "tier": "mixed"
+   },
+   {
+    "pair": "pa",
+    "word": "papá",
+    "tier": "mixed"
+   },
+   {
+    "pair": "de",
+    "word": "dedo",
+    "tier": "mixed"
+   },
+   {
+    "pair": "fe",
+    "word": "feliz",
+    "tier": "mixed"
+   },
+   {
+    "pair": "hi",
+    "word": "hielo",
+    "tier": "mixed"
+   },
+   {
+    "pair": "sa",
+    "word": "casa",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ta",
+    "word": "pata",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ra",
+    "word": "rana",
+    "tier": "mixed"
+   },
+   {
+    "pair": "el",
+    "word": "helado",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ma",
+    "word": "mamá",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ju",
+    "word": "jugo",
+    "tier": "mixed"
+   }
+  ],
+  "sentencesMore": [
+   {
+    "text": "Mi mamá me ama.",
+    "len": "short"
+   },
+   {
+    "text": "La luna es blanca.",
+    "len": "short"
+   },
+   {
+    "text": "Me gusta el mango.",
+    "len": "short"
+   },
+   {
+    "text": "Paola juega en el patio.",
+    "len": "medium"
+   },
+   {
+    "text": "El perico come semillas.",
+    "len": "medium"
+   },
+   {
+    "text": "Hoy vamos al parque.",
+    "len": "medium"
+   },
+   {
+    "text": "La vaca da leche rica.",
+    "len": "medium"
+   },
+   {
+    "text": "Mi hermano tiene sueño.",
+    "len": "medium"
+   },
+   {
+    "text": "Tomás pinta una casa.",
+    "len": "medium"
+   },
+   {
+    "text": "El pájaro canta bonito.",
+    "len": "medium"
+   },
+   {
+    "text": "Llueve en la tarde.",
+    "len": "medium"
+   },
+   {
+    "text": "Iván tiene un balón.",
+    "len": "medium"
+   },
+   {
+    "text": "Mi abuela hace tortillas.",
+    "len": "long"
+   },
+   {
+    "text": "Luis y yo jugamos futbol.",
+    "len": "long"
+   },
+   {
+    "text": "En la escuela leemos cuentos.",
+    "len": "long"
+   },
+   {
+    "text": "Regina dibuja una mariposa.",
+    "len": "long"
+   },
+   {
+    "text": "El tren pasa por el puente.",
+    "len": "long"
+   },
+   {
+    "text": "Mañana iremos a la playa.",
+    "len": "long"
+   },
+   {
+    "text": "Los niños cantan en clase.",
+    "len": "long"
+   },
+   {
+    "text": "Mi gato duerme en el sillón.",
+    "len": "long"
+   },
+   {
+    "text": "Mi gato come pan.",
+    "len": "short"
+   },
+   {
+    "text": "Yo veo la luna.",
+    "len": "short"
+   },
+   {
+    "text": "Ana lee un libro.",
+    "len": "short"
+   },
+   {
+    "text": "El sol es rojo.",
+    "len": "short"
+   },
+   {
+    "text": "Me gusta la sopa.",
+    "len": "short"
+   },
+   {
+    "text": "Hoy es mi día.",
+    "len": "short"
+   },
+   {
+    "text": "Papá lava el auto.",
+    "len": "short"
+   },
+   {
+    "text": "El niño ríe mucho.",
+    "len": "short"
+   },
+   {
+    "text": "Mi tía hace pan.",
+    "len": "short"
+   },
+   {
+    "text": "Yo como una pera.",
+    "len": "short"
+   },
+   {
+    "text": "La vaca da leche.",
+    "len": "short"
+   },
+   {
+    "text": "Mi perro es café.",
+    "len": "short"
+   }
+  ],
+  "and": "y",
+  "lettersTitle": "Letra cursiva: las letras {LETTERS}",
+  "capitalsTitle": "Mayúsculas en letra cursiva: {LETTERS}"
+ },
+ "fr": {
+  "capitals": [
+   {
+    "capital": "A",
+    "word": "Adam",
+    "kind": "name"
+   },
+   {
+    "capital": "A",
+    "word": "Alice",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Basile",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Blanche",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Clément",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Clara",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "Diane",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "Dylan",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Ethan",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Elsa",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Félix",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Fanny",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Gabin",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Gaëlle",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Hector",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Hélène",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Isaac",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Iris",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Jade",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Jonas",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Kenza",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Kylian",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Lina",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Lucas",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Manon",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Maël",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Nina",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Noah",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Oscar",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Olivia",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Paul",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Paloma",
+    "kind": "name"
+   },
+   {
+    "capital": "Q",
+    "word": "Quentin",
+    "kind": "name"
+   },
+   {
+    "capital": "Q",
+    "word": "Quiche",
+    "kind": "word"
+   },
+   {
+    "capital": "R",
+    "word": "Rose",
+    "kind": "name"
+   },
+   {
+    "capital": "R",
+    "word": "Raphaël",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Sarah",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Samuel",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Tom",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Thaïs",
+    "kind": "name"
+   },
+   {
+    "capital": "U",
+    "word": "Ulysse",
+    "kind": "name"
+   },
+   {
+    "capital": "U",
+    "word": "Ugo",
+    "kind": "name"
+   },
+   {
+    "capital": "V",
+    "word": "Victor",
+    "kind": "name"
+   },
+   {
+    "capital": "V",
+    "word": "Violette",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "William",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "Wassim",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Xavier",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Xylophone",
+    "kind": "word"
+   },
+   {
+    "capital": "Y",
+    "word": "Yanis",
+    "kind": "name"
+   },
+   {
+    "capital": "Y",
+    "word": "Yasmine",
+    "kind": "name"
+   },
+   {
+    "capital": "Z",
+    "word": "Zoé",
+    "kind": "name"
+   },
+   {
+    "capital": "Z",
+    "word": "Zacharie",
+    "kind": "name"
+   }
+  ],
+  "joinsMore": [
+   {
+    "pair": "in",
+    "word": "lapin",
+    "tier": "easy"
+   },
+   {
+    "pair": "an",
+    "word": "maman",
+    "tier": "easy"
+   },
+   {
+    "pair": "un",
+    "word": "lundi",
+    "tier": "easy"
+   },
+   {
+    "pair": "it",
+    "word": "lit",
+    "tier": "easy"
+   },
+   {
+    "pair": "ai",
+    "word": "lait",
+    "tier": "easy"
+   },
+   {
+    "pair": "ni",
+    "word": "nid",
+    "tier": "easy"
+   },
+   {
+    "pair": "mi",
+    "word": "ami",
+    "tier": "easy"
+   },
+   {
+    "pair": "ti",
+    "word": "tigre",
+    "tier": "easy"
+   },
+   {
+    "pair": "ui",
+    "word": "fruit",
+    "tier": "easy"
+   },
+   {
+    "pair": "ia",
+    "word": "piano",
+    "tier": "easy"
+   },
+   {
+    "pair": "ci",
+    "word": "citron",
+    "tier": "easy"
+   },
+   {
+    "pair": "os",
+    "word": "rose",
+    "tier": "hard"
+   },
+   {
+    "pair": "oc",
+    "word": "poche",
+    "tier": "hard"
+   },
+   {
+    "pair": "ob",
+    "word": "robe",
+    "tier": "hard"
+   },
+   {
+    "pair": "wi",
+    "word": "kiwi",
+    "tier": "hard"
+   },
+   {
+    "pair": "vo",
+    "word": "voiture",
+    "tier": "hard"
+   },
+   {
+    "pair": "vi",
+    "word": "avion",
+    "tier": "hard"
+   },
+   {
+    "pair": "be",
+    "word": "bec",
+    "tier": "hard"
+   },
+   {
+    "pair": "bu",
+    "word": "bus",
+    "tier": "hard"
+   },
+   {
+    "pair": "om",
+    "word": "pomme",
+    "tier": "hard"
+   },
+   {
+    "pair": "bo",
+    "word": "bol",
+    "tier": "hard"
+   },
+   {
+    "pair": "ol",
+    "word": "école",
+    "tier": "hard"
+   },
+   {
+    "pair": "qu",
+    "word": "quatre",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ga",
+    "word": "gare",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ço",
+    "word": "garçon",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ko",
+    "word": "koala",
+    "tier": "mixed"
+   },
+   {
+    "pair": "xi",
+    "word": "taxi",
+    "tier": "mixed"
+   },
+   {
+    "pair": "yo",
+    "word": "crayon",
+    "tier": "mixed"
+   },
+   {
+    "pair": "pa",
+    "word": "papa",
+    "tier": "mixed"
+   },
+   {
+    "pair": "de",
+    "word": "dent",
+    "tier": "mixed"
+   },
+   {
+    "pair": "fe",
+    "word": "fenêtre",
+    "tier": "mixed"
+   },
+   {
+    "pair": "hi",
+    "word": "chien",
+    "tier": "mixed"
+   },
+   {
+    "pair": "sa",
+    "word": "salade",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ta",
+    "word": "tasse",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ra",
+    "word": "rat",
+    "tier": "mixed"
+   },
+   {
+    "pair": "el",
+    "word": "miel",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ma",
+    "word": "maison",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ju",
+    "word": "jupe",
+    "tier": "mixed"
+   },
+   {
+    "pair": "zo",
+    "word": "zoo",
+    "tier": "mixed"
+   }
+  ],
+  "sentencesMore": [
+   {
+    "text": "Papa lit un livre.",
+    "len": "short"
+   },
+   {
+    "text": "Il pleut ce soir.",
+    "len": "short"
+   },
+   {
+    "text": "Tom a un vélo.",
+    "len": "short"
+   },
+   {
+    "text": "Je bois du lait.",
+    "len": "short"
+   },
+   {
+    "text": "Nina mange une pomme.",
+    "len": "medium"
+   },
+   {
+    "text": "Le chien joue au ballon.",
+    "len": "medium"
+   },
+   {
+    "text": "Nous allons à l'école.",
+    "len": "medium"
+   },
+   {
+    "text": "Maman fait un gâteau.",
+    "len": "medium"
+   },
+   {
+    "text": "Il neige dans le jardin.",
+    "len": "medium"
+   },
+   {
+    "text": "Adam range sa chambre.",
+    "len": "medium"
+   },
+   {
+    "text": "Le poisson nage vite.",
+    "len": "medium"
+   },
+   {
+    "text": "Mamie tricote un bonnet.",
+    "len": "medium"
+   },
+   {
+    "text": "Le lapin mange une carotte.",
+    "len": "long"
+   },
+   {
+    "text": "Paul range ses crayons.",
+    "len": "medium"
+   },
+   {
+    "text": "Ma sœur aime les fraises.",
+    "len": "long"
+   },
+   {
+    "text": "Le train passe sur le pont.",
+    "len": "long"
+   },
+   {
+    "text": "Demain, nous irons à la mer.",
+    "len": "long"
+   },
+   {
+    "text": "Adam a perdu sa chaussette.",
+    "len": "long"
+   },
+   {
+    "text": "Lina joue avec son chaton.",
+    "len": "long"
+   },
+   {
+    "text": "Le vent souffle très fort.",
+    "len": "long"
+   },
+   {
+    "text": "Nous chantons dans la cour.",
+    "len": "long"
+   },
+   {
+    "text": "Le chat a faim.",
+    "len": "short"
+   },
+   {
+    "text": "Je lis un livre.",
+    "len": "short"
+   },
+   {
+    "text": "Papa fait du pain.",
+    "len": "short"
+   },
+   {
+    "text": "Tom a un chien.",
+    "len": "short"
+   },
+   {
+    "text": "La lune est ronde.",
+    "len": "short"
+   },
+   {
+    "text": "Je vois la mer.",
+    "len": "short"
+   },
+   {
+    "text": "Mia a un vélo.",
+    "len": "short"
+   },
+   {
+    "text": "Le loup a peur.",
+    "len": "short"
+   },
+   {
+    "text": "Il fait très beau.",
+    "len": "short"
+   },
+   {
+    "text": "Le bébé a faim.",
+    "len": "short"
+   },
+   {
+    "text": "Elle a un chat.",
+    "len": "short"
+   }
+  ],
+  "and": "et",
+  "lettersTitle": "Écriture cursive : les lettres {LETTERS}",
+  "capitalsTitle": "Majuscules en écriture cursive : {LETTERS}"
+ },
+ "it": {
+  "capitals": [
+   {
+    "capital": "A",
+    "word": "Anna",
+    "kind": "name"
+   },
+   {
+    "capital": "A",
+    "word": "Andrea",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Beatrice",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Bruno",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Chiara",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Carlo",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "Davide",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "Diana",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Elena",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Edoardo",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Filippo",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Federica",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Giorgia",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Gabriele",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Heidi",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Hotel",
+    "kind": "word"
+   },
+   {
+    "capital": "I",
+    "word": "Irene",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Ivan",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Jacopo",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Jessica",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Koala",
+    "kind": "word"
+   },
+   {
+    "capital": "K",
+    "word": "Kiwi",
+    "kind": "word"
+   },
+   {
+    "capital": "L",
+    "word": "Luca",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Ludovica",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Marco",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Martina",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Nicolò",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Noemi",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Oscar",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Ottavia",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Pietro",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Penelope",
+    "kind": "name"
+   },
+   {
+    "capital": "Q",
+    "word": "Quadro",
+    "kind": "word"
+   },
+   {
+    "capital": "Q",
+    "word": "Quaderno",
+    "kind": "word"
+   },
+   {
+    "capital": "R",
+    "word": "Riccardo",
+    "kind": "name"
+   },
+   {
+    "capital": "R",
+    "word": "Rebecca",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Samuele",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Sara",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Tommaso",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Teresa",
+    "kind": "name"
+   },
+   {
+    "capital": "U",
+    "word": "Ugo",
+    "kind": "name"
+   },
+   {
+    "capital": "U",
+    "word": "Umberto",
+    "kind": "name"
+   },
+   {
+    "capital": "V",
+    "word": "Vittoria",
+    "kind": "name"
+   },
+   {
+    "capital": "V",
+    "word": "Valerio",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "Walter",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "Würstel",
+    "kind": "word"
+   },
+   {
+    "capital": "X",
+    "word": "Xenia",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Xilofono",
+    "kind": "word"
+   },
+   {
+    "capital": "Y",
+    "word": "Yasmin",
+    "kind": "name"
+   },
+   {
+    "capital": "Y",
+    "word": "Yogurt",
+    "kind": "word"
+   },
+   {
+    "capital": "Z",
+    "word": "Zoe",
+    "kind": "name"
+   },
+   {
+    "capital": "Z",
+    "word": "Zeno",
+    "kind": "name"
+   }
+  ],
+  "joinsMore": [
+   {
+    "pair": "in",
+    "word": "pino",
+    "tier": "easy"
+   },
+   {
+    "pair": "an",
+    "word": "mano",
+    "tier": "easy"
+   },
+   {
+    "pair": "un",
+    "word": "luna",
+    "tier": "easy"
+   },
+   {
+    "pair": "it",
+    "word": "vita",
+    "tier": "easy"
+   },
+   {
+    "pair": "ai",
+    "word": "mais",
+    "tier": "easy"
+   },
+   {
+    "pair": "ni",
+    "word": "nido",
+    "tier": "easy"
+   },
+   {
+    "pair": "mi",
+    "word": "amico",
+    "tier": "easy"
+   },
+   {
+    "pair": "ti",
+    "word": "tigre",
+    "tier": "easy"
+   },
+   {
+    "pair": "ui",
+    "word": "buio",
+    "tier": "easy"
+   },
+   {
+    "pair": "ia",
+    "word": "piano",
+    "tier": "easy"
+   },
+   {
+    "pair": "ci",
+    "word": "cielo",
+    "tier": "easy"
+   },
+   {
+    "pair": "os",
+    "word": "rosa",
+    "tier": "hard"
+   },
+   {
+    "pair": "oc",
+    "word": "oca",
+    "tier": "hard"
+   },
+   {
+    "pair": "ob",
+    "word": "globo",
+    "tier": "hard"
+   },
+   {
+    "pair": "wi",
+    "word": "kiwi",
+    "tier": "hard"
+   },
+   {
+    "pair": "vo",
+    "word": "uovo",
+    "tier": "hard"
+   },
+   {
+    "pair": "vi",
+    "word": "violino",
+    "tier": "hard"
+   },
+   {
+    "pair": "be",
+    "word": "bene",
+    "tier": "hard"
+   },
+   {
+    "pair": "bu",
+    "word": "burro",
+    "tier": "hard"
+   },
+   {
+    "pair": "om",
+    "word": "pomodoro",
+    "tier": "hard"
+   },
+   {
+    "pair": "bo",
+    "word": "bocca",
+    "tier": "hard"
+   },
+   {
+    "pair": "oz",
+    "word": "pozzo",
+    "tier": "hard"
+   },
+   {
+    "pair": "qu",
+    "word": "quadro",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ga",
+    "word": "gatto",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ko",
+    "word": "koala",
+    "tier": "mixed"
+   },
+   {
+    "pair": "xi",
+    "word": "taxi",
+    "tier": "mixed"
+   },
+   {
+    "pair": "yo",
+    "word": "yogurt",
+    "tier": "mixed"
+   },
+   {
+    "pair": "pa",
+    "word": "papà",
+    "tier": "mixed"
+   },
+   {
+    "pair": "de",
+    "word": "dente",
+    "tier": "mixed"
+   },
+   {
+    "pair": "fe",
+    "word": "festa",
+    "tier": "mixed"
+   },
+   {
+    "pair": "hi",
+    "word": "occhi",
+    "tier": "mixed"
+   },
+   {
+    "pair": "sa",
+    "word": "casa",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ta",
+    "word": "patata",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ra",
+    "word": "rana",
+    "tier": "mixed"
+   },
+   {
+    "pair": "el",
+    "word": "gelato",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ma",
+    "word": "mamma",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ju",
+    "word": "judo",
+    "tier": "mixed"
+   },
+   {
+    "pair": "za",
+    "word": "pizza",
+    "tier": "mixed"
+   }
+  ],
+  "sentencesMore": [
+   {
+    "text": "Mamma fa la torta.",
+    "len": "short"
+   },
+   {
+    "text": "Anna ha un gatto.",
+    "len": "short"
+   },
+   {
+    "text": "Io gioco con la palla.",
+    "len": "medium"
+   },
+   {
+    "text": "Il nonno pianta i fiori.",
+    "len": "medium"
+   },
+   {
+    "text": "Sara mangia una mela.",
+    "len": "medium"
+   },
+   {
+    "text": "Andiamo al parco oggi.",
+    "len": "medium"
+   },
+   {
+    "text": "Il pesce nuota nel mare.",
+    "len": "medium"
+   },
+   {
+    "text": "Il gatto beve il latte.",
+    "len": "medium"
+   },
+   {
+    "text": "La mucca mangia il fieno.",
+    "len": "long"
+   },
+   {
+    "text": "Luca ha una bici blu.",
+    "len": "medium"
+   },
+   {
+    "text": "La maestra legge una storia.",
+    "len": "long"
+   },
+   {
+    "text": "Pietro disegna una farfalla.",
+    "len": "long"
+   },
+   {
+    "text": "Nel bosco vive un orso.",
+    "len": "medium"
+   },
+   {
+    "text": "I bambini cantano in classe.",
+    "len": "long"
+   },
+   {
+    "text": "Stasera guardo le stelle.",
+    "len": "long"
+   },
+   {
+    "text": "Domani andiamo in piscina.",
+    "len": "long"
+   },
+   {
+    "text": "La nonna prepara la pizza.",
+    "len": "long"
+   },
+   {
+    "text": "Giulia raccoglie le foglie.",
+    "len": "long"
+   },
+   {
+    "text": "Il gatto è nero.",
+    "len": "short"
+   },
+   {
+    "text": "Io leggo un libro.",
+    "len": "short"
+   },
+   {
+    "text": "Il sole è alto.",
+    "len": "short"
+   },
+   {
+    "text": "Anna ha una bici.",
+    "len": "short"
+   },
+   {
+    "text": "La mela è rossa.",
+    "len": "short"
+   },
+   {
+    "text": "Io bevo il latte.",
+    "len": "short"
+   },
+   {
+    "text": "Il cane ha fame.",
+    "len": "short"
+   },
+   {
+    "text": "Oggi c'è il sole.",
+    "len": "short"
+   },
+   {
+    "text": "Papà fa la pasta.",
+    "len": "short"
+   },
+   {
+    "text": "Io vedo la luna.",
+    "len": "short"
+   },
+   {
+    "text": "La rana è verde.",
+    "len": "short"
+   },
+   {
+    "text": "Il pane è caldo.",
+    "len": "short"
+   }
+  ],
+  "and": "e",
+  "lettersTitle": "Corsivo classe prima: le lettere {LETTERS}",
+  "capitalsTitle": "Corsivo maiuscolo classe seconda: {LETTERS}"
+ },
+ "pt": {
+  "capitals": [
+   {
+    "capital": "A",
+    "word": "Arthur",
+    "kind": "name"
+   },
+   {
+    "capital": "A",
+    "word": "Ana",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Bernardo",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Beatriz",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Cecília",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Caio",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "Daniel",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "Débora",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Enzo",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Elisa",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Felipe",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Fernanda",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Gabriel",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Giovanna",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Heitor",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Heloísa",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Isabela",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Igor",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "João",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Júlia",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Kauã",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Kátia",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Lara",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Leonardo",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Maria",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Matheus",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Nicolas",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Natália",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Otávio",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Olívia",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Paulo",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Pietra",
+    "kind": "name"
+   },
+   {
+    "capital": "Q",
+    "word": "Queijo",
+    "kind": "word"
+   },
+   {
+    "capital": "Q",
+    "word": "Quadro",
+    "kind": "word"
+   },
+   {
+    "capital": "R",
+    "word": "Rafael",
+    "kind": "name"
+   },
+   {
+    "capital": "R",
+    "word": "Rebeca",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Samuel",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Sara",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Theo",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Tainá",
+    "kind": "name"
+   },
+   {
+    "capital": "U",
+    "word": "Ulisses",
+    "kind": "name"
+   },
+   {
+    "capital": "U",
+    "word": "Uva",
+    "kind": "word"
+   },
+   {
+    "capital": "V",
+    "word": "Vitória",
+    "kind": "name"
+   },
+   {
+    "capital": "V",
+    "word": "Vinícius",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "Wesley",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "Wagner",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Xavier",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Xícara",
+    "kind": "word"
+   },
+   {
+    "capital": "Y",
+    "word": "Yasmin",
+    "kind": "name"
+   },
+   {
+    "capital": "Y",
+    "word": "Yuri",
+    "kind": "name"
+   },
+   {
+    "capital": "Z",
+    "word": "Zoe",
+    "kind": "name"
+   },
+   {
+    "capital": "Z",
+    "word": "Zebra",
+    "kind": "word"
+   }
+  ],
+  "joinsMore": [
+   {
+    "pair": "in",
+    "word": "menino",
+    "tier": "easy"
+   },
+   {
+    "pair": "an",
+    "word": "banana",
+    "tier": "easy"
+   },
+   {
+    "pair": "un",
+    "word": "mundo",
+    "tier": "easy"
+   },
+   {
+    "pair": "it",
+    "word": "bonito",
+    "tier": "easy"
+   },
+   {
+    "pair": "ai",
+    "word": "pai",
+    "tier": "easy"
+   },
+   {
+    "pair": "ni",
+    "word": "ninho",
+    "tier": "easy"
+   },
+   {
+    "pair": "mi",
+    "word": "amigo",
+    "tier": "easy"
+   },
+   {
+    "pair": "ti",
+    "word": "tigre",
+    "tier": "easy"
+   },
+   {
+    "pair": "ui",
+    "word": "muito",
+    "tier": "easy"
+   },
+   {
+    "pair": "ia",
+    "word": "tia",
+    "tier": "easy"
+   },
+   {
+    "pair": "ci",
+    "word": "cinco",
+    "tier": "easy"
+   },
+   {
+    "pair": "os",
+    "word": "osso",
+    "tier": "hard"
+   },
+   {
+    "pair": "oc",
+    "word": "foca",
+    "tier": "hard"
+   },
+   {
+    "pair": "wi",
+    "word": "kiwi",
+    "tier": "hard"
+   },
+   {
+    "pair": "vo",
+    "word": "ovo",
+    "tier": "hard"
+   },
+   {
+    "pair": "vi",
+    "word": "avião",
+    "tier": "hard"
+   },
+   {
+    "pair": "be",
+    "word": "bebê",
+    "tier": "hard"
+   },
+   {
+    "pair": "bu",
+    "word": "burro",
+    "tier": "hard"
+   },
+   {
+    "pair": "om",
+    "word": "tomate",
+    "tier": "hard"
+   },
+   {
+    "pair": "oz",
+    "word": "arroz",
+    "tier": "hard"
+   },
+   {
+    "pair": "on",
+    "word": "onça",
+    "tier": "hard"
+   },
+   {
+    "pair": "oe",
+    "word": "coelho",
+    "tier": "hard"
+   },
+   {
+    "pair": "qu",
+    "word": "queijo",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ga",
+    "word": "gato",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ço",
+    "word": "palhaço",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ka",
+    "word": "karatê",
+    "tier": "mixed"
+   },
+   {
+    "pair": "xa",
+    "word": "xadrez",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ya",
+    "word": "yakisoba",
+    "tier": "mixed"
+   },
+   {
+    "pair": "pa",
+    "word": "pato",
+    "tier": "mixed"
+   },
+   {
+    "pair": "de",
+    "word": "dedo",
+    "tier": "mixed"
+   },
+   {
+    "pair": "fe",
+    "word": "festa",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ch",
+    "word": "chuva",
+    "tier": "mixed"
+   },
+   {
+    "pair": "sa",
+    "word": "casa",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ta",
+    "word": "pata",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ra",
+    "word": "rato",
+    "tier": "mixed"
+   },
+   {
+    "pair": "el",
+    "word": "janela",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ma",
+    "word": "mamãe",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ju",
+    "word": "caju",
+    "tier": "mixed"
+   }
+  ],
+  "sentencesMore": [
+   {
+    "text": "Eu gosto de uva.",
+    "len": "short"
+   },
+   {
+    "text": "Bia tem um gato.",
+    "len": "short"
+   },
+   {
+    "text": "O cachorro late alto.",
+    "len": "medium"
+   },
+   {
+    "text": "Ana pinta uma flor.",
+    "len": "medium"
+   },
+   {
+    "text": "Vamos brincar no pátio.",
+    "len": "medium"
+   },
+   {
+    "text": "O papagaio fala muito.",
+    "len": "medium"
+   },
+   {
+    "text": "Meu pai faz café.",
+    "len": "short"
+   },
+   {
+    "text": "A menina lê um livro.",
+    "len": "medium"
+   },
+   {
+    "text": "O peixe nada no rio.",
+    "len": "medium"
+   },
+   {
+    "text": "Hoje é dia de festa.",
+    "len": "medium"
+   },
+   {
+    "text": "Theo ganhou uma bola.",
+    "len": "medium"
+   },
+   {
+    "text": "Meu avô planta tomates.",
+    "len": "medium"
+   },
+   {
+    "text": "Lucas joga bola na praça.",
+    "len": "long"
+   },
+   {
+    "text": "Nós fomos à praia domingo.",
+    "len": "long"
+   },
+   {
+    "text": "O coelho gosta de cenoura.",
+    "len": "long"
+   },
+   {
+    "text": "A borboleta voa no jardim.",
+    "len": "long"
+   },
+   {
+    "text": "Júlia desenha uma casa azul.",
+    "len": "long"
+   },
+   {
+    "text": "O trem apita perto da ponte.",
+    "len": "long"
+   },
+   {
+    "text": "Minha irmã adora morango.",
+    "len": "long"
+   },
+   {
+    "text": "A vovó me conta histórias.",
+    "len": "long"
+   },
+   {
+    "text": "Eu tenho um gato.",
+    "len": "short"
+   },
+   {
+    "text": "O sol é amarelo.",
+    "len": "short"
+   },
+   {
+    "text": "A casa é azul.",
+    "len": "short"
+   },
+   {
+    "text": "Eu gosto de pão.",
+    "len": "short"
+   },
+   {
+    "text": "Ana come uma maçã.",
+    "len": "short"
+   },
+   {
+    "text": "O cão late alto.",
+    "len": "short"
+   },
+   {
+    "text": "A bola é nova.",
+    "len": "short"
+   },
+   {
+    "text": "Eu vejo a lua.",
+    "len": "short"
+   },
+   {
+    "text": "Papai faz o bolo.",
+    "len": "short"
+   },
+   {
+    "text": "Meu pai é alto.",
+    "len": "short"
+   },
+   {
+    "text": "O leite é bom.",
+    "len": "short"
+   },
+   {
+    "text": "A vovó faz sopa.",
+    "len": "short"
+   }
+  ],
+  "and": "e",
+  "lettersTitle": "Letra cursiva para o 1º ano: as letras {LETTERS}",
+  "capitalsTitle": "Alfabeto cursivo maiúsculo: {LETTERS}"
+ },
+ "nl": {
+  "capitals": [
+   {
+    "capital": "A",
+    "word": "Anouk",
+    "kind": "name"
+   },
+   {
+    "capital": "A",
+    "word": "Adam",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Bram",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Britt",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Cas",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Charlotte",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "Dex",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "Dana",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Eva",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Elias",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Fleur",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Floris",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Gijs",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Guus",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Hugo",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Hanna",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Isa",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Ivo",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Jesse",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Jip",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Koen",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Kiki",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Lieke",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Lars",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Mees",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Maud",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Noor",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Noah",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Olivia",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Otis",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Pim",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Puck",
+    "kind": "name"
+   },
+   {
+    "capital": "Q",
+    "word": "Quinten",
+    "kind": "name"
+   },
+   {
+    "capital": "Q",
+    "word": "Quinty",
+    "kind": "name"
+   },
+   {
+    "capital": "R",
+    "word": "Roos",
+    "kind": "name"
+   },
+   {
+    "capital": "R",
+    "word": "Ruben",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Saar",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Siem",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Teun",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Tara",
+    "kind": "name"
+   },
+   {
+    "capital": "U",
+    "word": "Uil",
+    "kind": "word"
+   },
+   {
+    "capital": "U",
+    "word": "Ufo",
+    "kind": "word"
+   },
+   {
+    "capital": "V",
+    "word": "Vera",
+    "kind": "name"
+   },
+   {
+    "capital": "V",
+    "word": "Vince",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "Wout",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "Wies",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Xander",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Xylofoon",
+    "kind": "word"
+   },
+   {
+    "capital": "Y",
+    "word": "Yara",
+    "kind": "name"
+   },
+   {
+    "capital": "Y",
+    "word": "Yusuf",
+    "kind": "name"
+   },
+   {
+    "capital": "Z",
+    "word": "Zara",
+    "kind": "name"
+   },
+   {
+    "capital": "Z",
+    "word": "Zeno",
+    "kind": "name"
+   }
+  ],
+  "joinsMore": [
+   {
+    "pair": "in",
+    "word": "kind",
+    "tier": "easy"
+   },
+   {
+    "pair": "an",
+    "word": "hand",
+    "tier": "easy"
+   },
+   {
+    "pair": "un",
+    "word": "munt",
+    "tier": "easy"
+   },
+   {
+    "pair": "it",
+    "word": "wit",
+    "tier": "easy"
+   },
+   {
+    "pair": "ut",
+    "word": "hut",
+    "tier": "easy"
+   },
+   {
+    "pair": "ap",
+    "word": "aap",
+    "tier": "easy"
+   },
+   {
+    "pair": "ig",
+    "word": "big",
+    "tier": "easy"
+   },
+   {
+    "pair": "om",
+    "word": "tomaat",
+    "tier": "hard"
+   },
+   {
+    "pair": "ok",
+    "word": "rok",
+    "tier": "hard"
+   },
+   {
+    "pair": "os",
+    "word": "bos",
+    "tier": "hard"
+   },
+   {
+    "pair": "ot",
+    "word": "pot",
+    "tier": "hard"
+   },
+   {
+    "pair": "ol",
+    "word": "wolk",
+    "tier": "hard"
+   },
+   {
+    "pair": "we",
+    "word": "weg",
+    "tier": "hard"
+   },
+   {
+    "pair": "wi",
+    "word": "wind",
+    "tier": "hard"
+   },
+   {
+    "pair": "wo",
+    "word": "wortel",
+    "tier": "hard"
+   },
+   {
+    "pair": "be",
+    "word": "beer",
+    "tier": "hard"
+   },
+   {
+    "pair": "bl",
+    "word": "blad",
+    "tier": "hard"
+   },
+   {
+    "pair": "bo",
+    "word": "boek",
+    "tier": "hard"
+   },
+   {
+    "pair": "vi",
+    "word": "vis",
+    "tier": "hard"
+   },
+   {
+    "pair": "vo",
+    "word": "vogel",
+    "tier": "hard"
+   },
+   {
+    "pair": "va",
+    "word": "vaas",
+    "tier": "hard"
+   },
+   {
+    "pair": "by",
+    "word": "baby",
+    "tier": "hard"
+   },
+   {
+    "pair": "ja",
+    "word": "jas",
+    "tier": "mixed"
+   },
+   {
+    "pair": "qu",
+    "word": "aquarium",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ax",
+    "word": "taxi",
+    "tier": "mixed"
+   },
+   {
+    "pair": "zo",
+    "word": "zon",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ch",
+    "word": "licht",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ca",
+    "word": "cadeau",
+    "tier": "mixed"
+   },
+   {
+    "pair": "dr",
+    "word": "draak",
+    "tier": "mixed"
+   },
+   {
+    "pair": "fl",
+    "word": "fles",
+    "tier": "mixed"
+   },
+   {
+    "pair": "gr",
+    "word": "gras",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ra",
+    "word": "raam",
+    "tier": "mixed"
+   },
+   {
+    "pair": "sp",
+    "word": "spin",
+    "tier": "mixed"
+   },
+   {
+    "pair": "tr",
+    "word": "trein",
+    "tier": "mixed"
+   },
+   {
+    "pair": "mu",
+    "word": "muis",
+    "tier": "mixed"
+   },
+   {
+    "pair": "kl",
+    "word": "klok",
+    "tier": "mixed"
+   },
+   {
+    "pair": "pe",
+    "word": "peer",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ha",
+    "word": "haas",
+    "tier": "mixed"
+   }
+  ],
+  "sentencesMore": [
+   {
+    "text": "Ik zie een vis.",
+    "len": "short"
+   },
+   {
+    "text": "De boom is hoog.",
+    "len": "short"
+   },
+   {
+    "text": "Mijn jas is rood.",
+    "len": "short"
+   },
+   {
+    "text": "De uil zit stil.",
+    "len": "short"
+   },
+   {
+    "text": "Ik lees een boek.",
+    "len": "short"
+   },
+   {
+    "text": "Bram heeft een hond.",
+    "len": "medium"
+   },
+   {
+    "text": "Oma bakt een taart.",
+    "len": "medium"
+   },
+   {
+    "text": "De vogel zingt een lied.",
+    "len": "medium"
+   },
+   {
+    "text": "Wij spelen in de tuin.",
+    "len": "medium"
+   },
+   {
+    "text": "Noor fietst naar school.",
+    "len": "medium"
+   },
+   {
+    "text": "De kat drinkt melk.",
+    "len": "medium"
+   },
+   {
+    "text": "Ik eet graag een appel.",
+    "len": "medium"
+   },
+   {
+    "text": "De koe staat in de wei.",
+    "len": "medium"
+   },
+   {
+    "text": "Het is koud in de winter.",
+    "len": "long"
+   },
+   {
+    "text": "De trein rijdt heel snel.",
+    "len": "long"
+   },
+   {
+    "text": "Mees heeft een blauwe pet.",
+    "len": "long"
+   },
+   {
+    "text": "Wij gaan morgen naar het bos.",
+    "len": "long"
+   },
+   {
+    "text": "De kinderen spelen buiten.",
+    "len": "long"
+   },
+   {
+    "text": "Lieke tekent een groot huis.",
+    "len": "long"
+   },
+   {
+    "text": "Opa leest een verhaal voor.",
+    "len": "long"
+   },
+   {
+    "text": "De eend zwemt in de sloot.",
+    "len": "long"
+   },
+   {
+    "text": "De kat is zwart.",
+    "len": "short"
+   },
+   {
+    "text": "Ik heb een bal.",
+    "len": "short"
+   },
+   {
+    "text": "Sem heeft een pet.",
+    "len": "short"
+   },
+   {
+    "text": "Het ijs is koud.",
+    "len": "short"
+   },
+   {
+    "text": "De zon is geel.",
+    "len": "short"
+   },
+   {
+    "text": "Wij zien een koe.",
+    "len": "short"
+   },
+   {
+    "text": "Opa heeft een kat.",
+    "len": "short"
+   },
+   {
+    "text": "Mijn pen is blauw.",
+    "len": "short"
+   },
+   {
+    "text": "Ik eet een peer.",
+    "len": "short"
+   },
+   {
+    "text": "De muis is klein.",
+    "len": "short"
+   },
+   {
+    "text": "Het huis is groot.",
+    "len": "short"
+   },
+   {
+    "text": "Ik drink wat melk.",
+    "len": "short"
+   }
+  ],
+  "and": "en",
+  "lettersTitle": "Aan elkaar schrijven groep 3: de letters {LETTERS}",
+  "capitalsTitle": "Hoofdletters in verbonden schrift: {LETTERS}"
+ },
+ "da": {
+  "capitals": [
+   {
+    "capital": "A",
+    "word": "Anna",
+    "kind": "name"
+   },
+   {
+    "capital": "A",
+    "word": "Asger",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Bella",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Benjamin",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Carl",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Cecilie",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "Ditte",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "David",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Ella",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Elias",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Frida",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Felix",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Gry",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Gustav",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Hannah",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Hugo",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Ingrid",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Isak",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Johan",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Josefine",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Karla",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Kasper",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Laura",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Lucas",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Malthe",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Mathilde",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Nora",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Nikolaj",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Olivia",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Otto",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Petra",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Philip",
+    "kind": "name"
+   },
+   {
+    "capital": "Q",
+    "word": "Quiz",
+    "kind": "word"
+   },
+   {
+    "capital": "Q",
+    "word": "Quinn",
+    "kind": "name"
+   },
+   {
+    "capital": "R",
+    "word": "Rosa",
+    "kind": "name"
+   },
+   {
+    "capital": "R",
+    "word": "Rasmus",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Sofia",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Storm",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Thea",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Tobias",
+    "kind": "name"
+   },
+   {
+    "capital": "U",
+    "word": "Una",
+    "kind": "name"
+   },
+   {
+    "capital": "U",
+    "word": "Ulrik",
+    "kind": "name"
+   },
+   {
+    "capital": "V",
+    "word": "Vera",
+    "kind": "name"
+   },
+   {
+    "capital": "V",
+    "word": "Victor",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "Wilma",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "Walter",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Xenia",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Xylofon",
+    "kind": "word"
+   },
+   {
+    "capital": "Y",
+    "word": "Yasmin",
+    "kind": "name"
+   },
+   {
+    "capital": "Y",
+    "word": "Yrsa",
+    "kind": "name"
+   },
+   {
+    "capital": "Z",
+    "word": "Zoe",
+    "kind": "name"
+   },
+   {
+    "capital": "Z",
+    "word": "Zakarias",
+    "kind": "name"
+   },
+   {
+    "capital": "Æ",
+    "word": "Æble",
+    "kind": "word"
+   },
+   {
+    "capital": "Æ",
+    "word": "Æg",
+    "kind": "word"
+   },
+   {
+    "capital": "Ø",
+    "word": "Ørn",
+    "kind": "word"
+   },
+   {
+    "capital": "Ø",
+    "word": "Øre",
+    "kind": "word"
+   },
+   {
+    "capital": "Å",
+    "word": "Åse",
+    "kind": "name"
+   },
+   {
+    "capital": "Å",
+    "word": "Ål",
+    "kind": "word"
+   }
+  ],
+  "joinsMore": [
+   {
+    "pair": "in",
+    "word": "pind",
+    "tier": "easy"
+   },
+   {
+    "pair": "an",
+    "word": "and",
+    "tier": "easy"
+   },
+   {
+    "pair": "un",
+    "word": "hund",
+    "tier": "easy"
+   },
+   {
+    "pair": "it",
+    "word": "citron",
+    "tier": "easy"
+   },
+   {
+    "pair": "ti",
+    "word": "tiger",
+    "tier": "easy"
+   },
+   {
+    "pair": "ul",
+    "word": "gul",
+    "tier": "easy"
+   },
+   {
+    "pair": "al",
+    "word": "salat",
+    "tier": "easy"
+   },
+   {
+    "pair": "im",
+    "word": "himmel",
+    "tier": "easy"
+   },
+   {
+    "pair": "en",
+    "word": "ben",
+    "tier": "easy"
+   },
+   {
+    "pair": "um",
+    "word": "gummi",
+    "tier": "easy"
+   },
+   {
+    "pair": "il",
+    "word": "pil",
+    "tier": "easy"
+   },
+   {
+    "pair": "et",
+    "word": "æblet",
+    "tier": "easy"
+   },
+   {
+    "pair": "ud",
+    "word": "pude",
+    "tier": "easy"
+   },
+   {
+    "pair": "we",
+    "word": "weekend",
+    "tier": "hard"
+   },
+   {
+    "pair": "vo",
+    "word": "vogn",
+    "tier": "hard"
+   },
+   {
+    "pair": "ob",
+    "word": "robot",
+    "tier": "hard"
+   },
+   {
+    "pair": "on",
+    "word": "onkel",
+    "tier": "hard"
+   },
+   {
+    "pair": "os",
+    "word": "ost",
+    "tier": "hard"
+   },
+   {
+    "pair": "om",
+    "word": "blomst",
+    "tier": "hard"
+   },
+   {
+    "pair": "be",
+    "word": "abe",
+    "tier": "hard"
+   },
+   {
+    "pair": "vi",
+    "word": "vinter",
+    "tier": "hard"
+   },
+   {
+    "pair": "ov",
+    "word": "skov",
+    "tier": "hard"
+   },
+   {
+    "pair": "ør",
+    "word": "dør",
+    "tier": "hard"
+   },
+   {
+    "pair": "ød",
+    "word": "rød",
+    "tier": "hard"
+   },
+   {
+    "pair": "va",
+    "word": "vand",
+    "tier": "hard"
+   },
+   {
+    "pair": "bl",
+    "word": "blå",
+    "tier": "hard"
+   },
+   {
+    "pair": "år",
+    "word": "hår",
+    "tier": "mixed"
+   },
+   {
+    "pair": "xy",
+    "word": "xylofon",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ka",
+    "word": "kage",
+    "tier": "mixed"
+   },
+   {
+    "pair": "pa",
+    "word": "papir",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ze",
+    "word": "zebra",
+    "tier": "mixed"
+   },
+   {
+    "pair": "æs",
+    "word": "næse",
+    "tier": "mixed"
+   },
+   {
+    "pair": "he",
+    "word": "hest",
+    "tier": "mixed"
+   },
+   {
+    "pair": "dr",
+    "word": "drage",
+    "tier": "mixed"
+   },
+   {
+    "pair": "sn",
+    "word": "snegl",
+    "tier": "mixed"
+   },
+   {
+    "pair": "le",
+    "word": "leg",
+    "tier": "mixed"
+   },
+   {
+    "pair": "mu",
+    "word": "mus",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ni",
+    "word": "nisse",
+    "tier": "mixed"
+   },
+   {
+    "pair": "tr",
+    "word": "træ",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ag",
+    "word": "dag",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ci",
+    "word": "cirkus",
+    "tier": "mixed"
+   }
+  ],
+  "sentencesMore": [
+   {
+    "text": "Jeg kan lide is.",
+    "len": "short"
+   },
+   {
+    "text": "Mor har en kat.",
+    "len": "short"
+   },
+   {
+    "text": "Det regner i dag.",
+    "len": "short"
+   },
+   {
+    "text": "Vi går i skole.",
+    "len": "short"
+   },
+   {
+    "text": "Emil spiser en banan.",
+    "len": "medium"
+   },
+   {
+    "text": "Min cykel er helt ny.",
+    "len": "medium"
+   },
+   {
+    "text": "Vi bager boller i dag.",
+    "len": "medium"
+   },
+   {
+    "text": "Karla har en blå kjole.",
+    "len": "medium"
+   },
+   {
+    "text": "Bussen kører til byen.",
+    "len": "medium"
+   },
+   {
+    "text": "Sneen er hvid og kold.",
+    "len": "medium"
+   },
+   {
+    "text": "Uglen sidder i træet.",
+    "len": "medium"
+   },
+   {
+    "text": "Vi tager toget til stranden.",
+    "len": "long"
+   },
+   {
+    "text": "Katten leger med en rød bold.",
+    "len": "long"
+   },
+   {
+    "text": "Min bror kan godt lide pizza.",
+    "len": "long"
+   },
+   {
+    "text": "Om vinteren fryser søen til.",
+    "len": "long"
+   },
+   {
+    "text": "Freja tegner en stor sol.",
+    "len": "long"
+   },
+   {
+    "text": "Vi plukker jordbær i haven.",
+    "len": "long"
+   },
+   {
+    "text": "Hunden løber efter bolden.",
+    "len": "long"
+   },
+   {
+    "text": "Farmor bor i et gult hus.",
+    "len": "long"
+   },
+   {
+    "text": "Jeg ser en hund.",
+    "len": "short"
+   },
+   {
+    "text": "Vi spiser en is.",
+    "len": "short"
+   },
+   {
+    "text": "Mor læser en bog.",
+    "len": "short"
+   },
+   {
+    "text": "Far har en hat.",
+    "len": "short"
+   },
+   {
+    "text": "Ida har en ko.",
+    "len": "short"
+   },
+   {
+    "text": "Min kat er sort.",
+    "len": "short"
+   },
+   {
+    "text": "Vi går en tur.",
+    "len": "short"
+   },
+   {
+    "text": "Han har en bold.",
+    "len": "short"
+   },
+   {
+    "text": "Bo har en gris.",
+    "len": "short"
+   },
+   {
+    "text": "Jeg er glad nu.",
+    "len": "short"
+   },
+   {
+    "text": "Vi leger i sne.",
+    "len": "short"
+   },
+   {
+    "text": "Hun har en ven.",
+    "len": "short"
+   },
+   {
+    "text": "Mit hus er rødt.",
+    "len": "short"
+   }
+  ],
+  "and": "og",
+  "lettersTitle": "Sammenhængende skrift: små bogstaver {LETTERS}",
+  "capitalsTitle": "Sammenhængende skrift: store bogstaver {LETTERS}"
+ },
+ "no": {
+  "capitals": [
+   {
+    "capital": "A",
+    "word": "Astrid",
+    "kind": "name"
+   },
+   {
+    "capital": "A",
+    "word": "Adrian",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Brage",
+    "kind": "name"
+   },
+   {
+    "capital": "B",
+    "word": "Bella",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Celine",
+    "kind": "name"
+   },
+   {
+    "capital": "C",
+    "word": "Casper",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "Dina",
+    "kind": "name"
+   },
+   {
+    "capital": "D",
+    "word": "Daniel",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Elias",
+    "kind": "name"
+   },
+   {
+    "capital": "E",
+    "word": "Eva",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Frida",
+    "kind": "name"
+   },
+   {
+    "capital": "F",
+    "word": "Filip",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Guro",
+    "kind": "name"
+   },
+   {
+    "capital": "G",
+    "word": "Gabriel",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Hedda",
+    "kind": "name"
+   },
+   {
+    "capital": "H",
+    "word": "Henrik",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Ida",
+    "kind": "name"
+   },
+   {
+    "capital": "I",
+    "word": "Isak",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Jonas",
+    "kind": "name"
+   },
+   {
+    "capital": "J",
+    "word": "Julie",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Kaja",
+    "kind": "name"
+   },
+   {
+    "capital": "K",
+    "word": "Kristian",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Lukas",
+    "kind": "name"
+   },
+   {
+    "capital": "L",
+    "word": "Linnea",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Maja",
+    "kind": "name"
+   },
+   {
+    "capital": "M",
+    "word": "Magnus",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Noah",
+    "kind": "name"
+   },
+   {
+    "capital": "N",
+    "word": "Nikoline",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Olav",
+    "kind": "name"
+   },
+   {
+    "capital": "O",
+    "word": "Olivia",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Petter",
+    "kind": "name"
+   },
+   {
+    "capital": "P",
+    "word": "Pia",
+    "kind": "name"
+   },
+   {
+    "capital": "Q",
+    "word": "Quiz",
+    "kind": "word"
+   },
+   {
+    "capital": "Q",
+    "word": "Quinn",
+    "kind": "name"
+   },
+   {
+    "capital": "R",
+    "word": "Ruben",
+    "kind": "name"
+   },
+   {
+    "capital": "R",
+    "word": "Ronja",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Sander",
+    "kind": "name"
+   },
+   {
+    "capital": "S",
+    "word": "Selma",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Tiril",
+    "kind": "name"
+   },
+   {
+    "capital": "T",
+    "word": "Tobias",
+    "kind": "name"
+   },
+   {
+    "capital": "U",
+    "word": "Una",
+    "kind": "name"
+   },
+   {
+    "capital": "U",
+    "word": "Ulrik",
+    "kind": "name"
+   },
+   {
+    "capital": "V",
+    "word": "Vilde",
+    "kind": "name"
+   },
+   {
+    "capital": "V",
+    "word": "Vetle",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "William",
+    "kind": "name"
+   },
+   {
+    "capital": "W",
+    "word": "Wilma",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Xenia",
+    "kind": "name"
+   },
+   {
+    "capital": "X",
+    "word": "Xylofon",
+    "kind": "word"
+   },
+   {
+    "capital": "Y",
+    "word": "Ylva",
+    "kind": "name"
+   },
+   {
+    "capital": "Y",
+    "word": "Yusuf",
+    "kind": "name"
+   },
+   {
+    "capital": "Z",
+    "word": "Zara",
+    "kind": "name"
+   },
+   {
+    "capital": "Z",
+    "word": "Zakarias",
+    "kind": "name"
+   },
+   {
+    "capital": "Æ",
+    "word": "Ærfugl",
+    "kind": "word"
+   },
+   {
+    "capital": "Æ",
+    "word": "Ærend",
+    "kind": "word"
+   },
+   {
+    "capital": "Ø",
+    "word": "Øyvind",
+    "kind": "name"
+   },
+   {
+    "capital": "Ø",
+    "word": "Øystein",
+    "kind": "name"
+   },
+   {
+    "capital": "Å",
+    "word": "Åsne",
+    "kind": "name"
+   },
+   {
+    "capital": "Å",
+    "word": "Åker",
+    "kind": "word"
+   }
+  ],
+  "joinsMore": [
+   {
+    "pair": "in",
+    "word": "vind",
+    "tier": "easy"
+   },
+   {
+    "pair": "an",
+    "word": "and",
+    "tier": "easy"
+   },
+   {
+    "pair": "un",
+    "word": "hund",
+    "tier": "easy"
+   },
+   {
+    "pair": "it",
+    "word": "hvit",
+    "tier": "easy"
+   },
+   {
+    "pair": "ti",
+    "word": "tiger",
+    "tier": "easy"
+   },
+   {
+    "pair": "ul",
+    "word": "gul",
+    "tier": "easy"
+   },
+   {
+    "pair": "al",
+    "word": "salat",
+    "tier": "easy"
+   },
+   {
+    "pair": "im",
+    "word": "himmel",
+    "tier": "easy"
+   },
+   {
+    "pair": "en",
+    "word": "ben",
+    "tier": "easy"
+   },
+   {
+    "pair": "um",
+    "word": "gummi",
+    "tier": "easy"
+   },
+   {
+    "pair": "il",
+    "word": "pil",
+    "tier": "easy"
+   },
+   {
+    "pair": "ut",
+    "word": "ute",
+    "tier": "easy"
+   },
+   {
+    "pair": "id",
+    "word": "tid",
+    "tier": "easy"
+   },
+   {
+    "pair": "wi",
+    "word": "sandwich",
+    "tier": "hard"
+   },
+   {
+    "pair": "vo",
+    "word": "vott",
+    "tier": "hard"
+   },
+   {
+    "pair": "ob",
+    "word": "robot",
+    "tier": "hard"
+   },
+   {
+    "pair": "on",
+    "word": "onkel",
+    "tier": "hard"
+   },
+   {
+    "pair": "os",
+    "word": "ost",
+    "tier": "hard"
+   },
+   {
+    "pair": "om",
+    "word": "blomst",
+    "tier": "hard"
+   },
+   {
+    "pair": "be",
+    "word": "bestefar",
+    "tier": "hard"
+   },
+   {
+    "pair": "vi",
+    "word": "vinter",
+    "tier": "hard"
+   },
+   {
+    "pair": "ov",
+    "word": "sove",
+    "tier": "hard"
+   },
+   {
+    "pair": "ør",
+    "word": "dør",
+    "tier": "hard"
+   },
+   {
+    "pair": "ød",
+    "word": "rød",
+    "tier": "hard"
+   },
+   {
+    "pair": "bl",
+    "word": "blå",
+    "tier": "hard"
+   },
+   {
+    "pair": "øy",
+    "word": "øye",
+    "tier": "hard"
+   },
+   {
+    "pair": "qu",
+    "word": "quiz",
+    "tier": "mixed"
+   },
+   {
+    "pair": "xy",
+    "word": "xylofon",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ka",
+    "word": "kake",
+    "tier": "mixed"
+   },
+   {
+    "pair": "pa",
+    "word": "papir",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ær",
+    "word": "bær",
+    "tier": "mixed"
+   },
+   {
+    "pair": "he",
+    "word": "hest",
+    "tier": "mixed"
+   },
+   {
+    "pair": "dr",
+    "word": "drage",
+    "tier": "mixed"
+   },
+   {
+    "pair": "sn",
+    "word": "snø",
+    "tier": "mixed"
+   },
+   {
+    "pair": "le",
+    "word": "leke",
+    "tier": "mixed"
+   },
+   {
+    "pair": "mu",
+    "word": "mus",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ni",
+    "word": "nisse",
+    "tier": "mixed"
+   },
+   {
+    "pair": "tr",
+    "word": "tre",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ag",
+    "word": "dag",
+    "tier": "mixed"
+   },
+   {
+    "pair": "ca",
+    "word": "camping",
+    "tier": "mixed"
+   },
+   {
+    "pair": "på",
+    "word": "påske",
+    "tier": "mixed"
+   }
+  ],
+  "sentencesMore": [
+   {
+    "text": "Mor har en katt.",
+    "len": "short"
+   },
+   {
+    "text": "Det regner i dag.",
+    "len": "short"
+   },
+   {
+    "text": "Vi går på skolen.",
+    "len": "short"
+   },
+   {
+    "text": "Elias spiser en banan.",
+    "len": "medium"
+   },
+   {
+    "text": "Sykkelen min er helt ny.",
+    "len": "medium"
+   },
+   {
+    "text": "Vi baker boller i dag.",
+    "len": "medium"
+   },
+   {
+    "text": "Maja har en blå kjole.",
+    "len": "medium"
+   },
+   {
+    "text": "Bussen kjører til byen.",
+    "len": "medium"
+   },
+   {
+    "text": "Snøen er hvit og kald.",
+    "len": "medium"
+   },
+   {
+    "text": "Ugla sitter i treet.",
+    "len": "medium"
+   },
+   {
+    "text": "Sofie har bursdag i dag.",
+    "len": "medium"
+   },
+   {
+    "text": "Vi tar toget til stranden.",
+    "len": "long"
+   },
+   {
+    "text": "Katten leker med en rød ball.",
+    "len": "long"
+   },
+   {
+    "text": "Broren min er glad i pizza.",
+    "len": "long"
+   },
+   {
+    "text": "Om vinteren fryser isen på.",
+    "len": "long"
+   },
+   {
+    "text": "Frida tegner en stor sol.",
+    "len": "long"
+   },
+   {
+    "text": "Vi plukker jordbær i hagen.",
+    "len": "long"
+   },
+   {
+    "text": "Hunden løper etter ballen.",
+    "len": "long"
+   },
+   {
+    "text": "Jeg drikker et glass melk.",
+    "len": "long"
+   },
+   {
+    "text": "Jeg ser en hund.",
+    "len": "short"
+   },
+   {
+    "text": "Vi spiser en is.",
+    "len": "short"
+   },
+   {
+    "text": "Mor leser en bok.",
+    "len": "short"
+   },
+   {
+    "text": "Far har en hatt.",
+    "len": "short"
+   },
+   {
+    "text": "Ida har en ku.",
+    "len": "short"
+   },
+   {
+    "text": "Min katt er svart.",
+    "len": "short"
+   },
+   {
+    "text": "Vi går en tur.",
+    "len": "short"
+   },
+   {
+    "text": "Han har en ball.",
+    "len": "short"
+   },
+   {
+    "text": "Ola har en gris.",
+    "len": "short"
+   },
+   {
+    "text": "Jeg er glad nå.",
+    "len": "short"
+   },
+   {
+    "text": "Vi leker i snøen.",
+    "len": "short"
+   },
+   {
+    "text": "Hun har en venn.",
+    "len": "short"
+   },
+   {
+    "text": "Mitt hus er rødt.",
+    "len": "short"
+   }
+  ],
+  "and": "og",
+  "lettersTitle": "Sammenhengende skrift: små bokstaver {LETTERS}",
+  "capitalsTitle": "Sammenhengende skrift: store bokstaver {LETTERS}"
+ }
+}

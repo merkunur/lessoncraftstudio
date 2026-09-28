@@ -49,13 +49,14 @@ const r2 = (v) => Math.round(v * 100) / 100;
  * @param {{unit:string, kind:string, X:number, cap?:boolean}} o
  * @returns {{fs, X, yTop, yX, yB, yD, rowH, ratio, A, Dd, unit, kind, cap}}
  */
-function rulingGeometry({ unit, kind, X, cap }) {
+function rulingGeometry({ unit, kind, X, cap, extraTop = 0 }) {
   if (!KINDS.includes(kind)) throw new Error(`school-ruling: unknown ruling kind "${kind}"`);
   if (kind === 'seyes') throw new Error('school-ruling: a Seyès row is placed by seyesGeometry() (the cahier pitch), not by rulingGeometry()');
   if (!(X > 0)) throw new Error(`school-ruling: X ${X} is not a size`);
   const m = metricsFor(unit);
   const fs = X / m.xHeight;
-  const A = cap ? Math.max(m.ascender, m.cap) : m.ascender;
+  // extraTop (em, default 0): headroom for a capital whose accent rises above the measured cap height (Å's ring)
+  const A = (cap ? Math.max(m.ascender, m.cap) : m.ascender) + extraTop;
   const Dd = cap ? Math.max(m.descender, m.capDescender) : m.descender;
   const ratio = (A + Dd) / m.xHeight;
   const rowH = Math.ceil(ratio * X) + 2 * AIR;

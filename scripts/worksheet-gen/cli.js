@@ -108,7 +108,7 @@ async function generate(args) {
   async function produce(spec, strings, it, deckId, cacheTheme) {
     const r = await renderInstance({
       type: spec, theme: cacheTheme, difficulty: it.difficulty, locale: it.locale,
-      variant: it.variant, seedVariant: it.seedVariant || null, unit: it.unit || null, page, outDir: workDir, baseName: deckId, seedEpoch: plan.seedEpoch || 1, strings,
+      variant: it.variant, seedVariant: it.seedVariant || null, buildExtra: it.buildExtra || null, unit: it.unit || null, page, outDir: workDir, baseName: deckId, seedEpoch: plan.seedEpoch || 1, strings,
       // wave "interactive": true (Level Set) + a type that declares `interactive` → screen version + answer key
       interactive: !!(plan.interactive && spec.interactive),
       interactiveInstruction: plan.interactive && spec.interactive ? interactiveInstruction(spec, it.locale) : null,
@@ -142,9 +142,21 @@ async function generate(args) {
       if (!args.force && fs.existsSync(zipPath)) { state.skippedExisting++; continue; }
 
       const spec = loadType(it.typeId);
-      const strings = resolveUnitTokens(withLevelInstruction(resolveStrings(it.typeId, it.locale, spec), it.typeId, it.difficulty, it.locale), spec, it.unit || null, it.locale);
+      const s0 = withLevelInstruction(resolveStrings(it.typeId, it.locale, spec), it.typeId, it.difficulty, it.locale);
+      // a type may title each copy itself (Level Set: a cursive group page names its letters)
+      const s1 = spec.copyStrings ? spec.copyStrings(s0, { locale: it.locale, difficulty: it.difficulty, unit: it.unit || null, variant: it.variant, seedVariant: it.seedVariant || null }) : s0;
+      const strings = resolveUnitTokens(s1, spec, it.unit || null, it.locale);
       try {
-        const res = await produce(spec, strings, it, it.deckId, it.cacheTheme);
+        let res = await produce(spec, strings, it, it.deckId, it.cacheTheme);
+        // a type may offer ALTERNATIVE build knobs to try when a NEW (level-set) page fails its checks
+        // (Cursive: the letters one step larger / smaller) — the first variant that passes every check ships
+        if (res.qaFails && typeof spec.qaRetries === 'function') {
+          for (const extra of spec.qaRetries(it) || []) {
+            let r2;
+            try { r2 = await produce(spec, strings, { ...it, buildExtra: extra }, it.deckId, it.cacheTheme); } catch (e) { continue; }
+            if (!r2.qaFails) { console.log('  QA-RETRY ' + it.deckId + ' passed with ' + JSON.stringify(extra)); res = r2; break; }
+          }
+        }
         if (res.qaFails) {
           state.failed.push({ deckId: it.deckId, qa: res.qaFails });
           console.error('  QA-FAIL ' + it.deckId + ': ' + JSON.stringify(res.qaFails).slice(0, 200));

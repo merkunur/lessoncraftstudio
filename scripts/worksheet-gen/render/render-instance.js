@@ -23,7 +23,7 @@ async function renderInstance(o) {
   // unit axis: {U}/{L}/{UNIT} resolve HERE (the sheet prints strings.title) —
   // the same object comes back for every type without the axis.
   const strings = resolveUnitTokens((o.strings) || (type.i18n && type.i18n[locale]) || type.i18n.en, type, unit, locale);
-  const built = await type.build({ theme, difficulty, locale, unit }, { rng, variant: o.variant || 1, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}) });
+  const built = await type.build({ theme, difficulty, locale, unit }, { rng, variant: o.variant || 1, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), ...(o.buildExtra || {}) });
   const html = buildPage({
     title: strings.title,
     instruction: strings.instruction,
@@ -59,7 +59,7 @@ async function renderInstance(o) {
   let interactive = null;
   if (o.interactive && type.interactive) {
     const spec = type.interactive;
-    const again = (extra) => type.build({ theme, difficulty, locale, unit }, { rng: makeRng(instanceSeed({ typeId: type.id, theme, difficulty, seedEpoch: o.seedEpoch || 1, variant: o.seedVariant || o.variant, unit })), variant: o.variant || 1, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), ...extra });
+    const again = (extra) => type.build({ theme, difficulty, locale, unit }, { rng: makeRng(instanceSeed({ typeId: type.id, theme, difficulty, seedEpoch: o.seedEpoch || 1, variant: o.seedVariant || o.variant, unit })), variant: o.variant || 1, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), ...(o.buildExtra || {}), ...extra });
     const sameAs = (b2, what) => {
       if (JSON.stringify(b2.meta) !== JSON.stringify(built.meta)) throw new Error(`render-instance: the ${what} render drew different content than the printed page (${type.id})`);
     };

@@ -107,11 +107,12 @@ function feelingWordTile({ id, word, px = 28, w = 260, h = 108, minH = px + 24 }
     `white-space:nowrap;text-align:center">${esc(word)}</span></div>`;
 }
 
-function feelingMatch({ left, right, tileL = 160, tileR = 260, itemH = 108, picPx = 80, wordPx = 28 }) {
+function feelingMatch({ left, right, tileL = 160, tileR = 260, itemH = 108, picPx = 80, wordPx = 28, itemHR = null }) {
   // one shared floor keeps both columns row-aligned when the chrome squeezes the stack
   const minH = Math.max(picPx + 16, wordPx + 24);
   const l = left.map((f) => feelingFaceTile({ id: f.id, src: f.src, px: picPx, w: tileL, h: itemH, minH })).join('');
-  const r = right.map((f) => feelingWordTile({ id: f.id, word: f.word, px: wordPx, w: tileR, h: itemH, minH })).join('');
+  // Level Set 2026-09-28: itemHR = a word column with MORE tiles than faces (extra words) gets its own height
+  const r = right.map((f) => feelingWordTile({ id: f.id, word: f.word, px: wordPx, w: tileR, h: itemHR || itemH, minH: itemHR ? wordPx + 24 : minH })).join('');
   // min-height:0 on the block and the columns lets the flex chain shrink past the rows' declared height
   return `<div class="ws-match" style="min-height:0" data-ws-content data-lcs-feelings data-lcs-pairs="${left.length}">` +
     `<div class="ws-match-col" style="min-height:0" data-lcs-col="faces">${l}</div>` +
@@ -166,10 +167,14 @@ function feelingBlankFace({ d = 220 }) {
     { 'data-lcs-blankface': d, style: 'flex:0 0 auto;display:block' });
 }
 
-function feelingDrawCard({ id, word, wordPx = 30, d = 220 }) {
+function feelingDrawCard({ id, word, wordPx = 30, d = 220, model = null, modelPx = 56 }) {
+  // Level Set 2026-09-28: `model` = a small face beside the word to copy (the easier level)
+  const head = model
+    ? `<div style="display:flex;align-items:center;gap:12px;flex:0 0 auto"><span style="${wordStyle(wordPx, T.teal)}" data-lcs-word="${esc(id)}">${esc(word)}</span>` +
+      `<img class="ws-icon" src="${model}" alt="" style="width:${modelPx}px;height:${modelPx}px;flex:0 0 auto" data-lcs-model="${esc(id)}"></div>`
+    : `<span style="${wordStyle(wordPx, T.teal)}" data-lcs-word="${esc(id)}">${esc(word)}</span>`;
   return `<div class="ws-card-stage" style="flex-direction:column;gap:12px;min-height:0" data-ws-content data-lcs-drawcard>` +
-    `<span style="${wordStyle(wordPx, T.teal)}" data-lcs-word="${esc(id)}">${esc(word)}</span>` +
-    feelingBlankFace({ d }) + `</div>`;
+    head + feelingBlankFace({ d }) + `</div>`;
 }
 
 function feelingChoiceLane({ id, word, wordPx = 26, wordW = 220, faces, tilePx = 84, facePx = 72, correct }) {

@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'K-332',
   slug: 'feelings-draw-the-feeling-face',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 a small model face beside each word · L2 published (PDF only: open-ended drawing)
+  difficulty: { 1: { ...D, modelFace: 56 }, 2: D, 3: D },
+  interactive: undefined,   // open-ended: no single right answer → printable only (operator rule 2026-09-27)
   i18n: { en: { title: "Draw the Feeling Face", instruction: "Read the feeling word and draw a face that shows it in the empty circle." } },
 };

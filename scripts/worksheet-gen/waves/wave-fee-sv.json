@@ -1,0 +1,169 @@
+{
+  "id": "wave-fee-sv",
+  "_note": "Level Set 2026-09-28: Feelings (K-319 + 4 faces). New situation pictures chosen and opened by a picture panel (30 scenes in 5 sets); levels change the task (4 faces instead of 6, two faces to choose from, a model face to copy; harder: 4 faces but all 6 words, look-alike faces offered first). Only six faces are readable at this age, so the face pages get one easier and one harder copy. Visible to teachers, never indexed; PDF + interactive screen version + answer key (the draw page is printable only).",
+  "indexable": false,
+  "interactive": true,
+  "seedEpoch": 1,
+  "locales": [
+    "sv"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "K-319",
+    "K-331",
+    "K-332",
+    "K-333",
+    "K-334"
+  ],
+  "levels": {
+    "K-319": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-331": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 6
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 6
+        }
+      ],
+      "3": [
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 16,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 17,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 18,
+          "unit": null,
+          "seedVariant": 6
+        }
+      ]
+    },
+    "K-332": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-333": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-334": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    }
+  }
+}

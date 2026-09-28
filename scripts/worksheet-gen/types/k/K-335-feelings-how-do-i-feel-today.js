@@ -10,5 +10,6 @@ module.exports = {
   id: 'K-335',
   slug: 'feelings-how-do-i-feel-today',
   difficulty: { 1: D, 2: D, 3: D },
+  interactive: undefined,   // open-ended: no single right answer → printable only (operator rule 2026-09-27)
   i18n: { en: { title: "How Do I Feel Today?", instruction: "Circle the face that shows how you feel today, then draw your own face." } },
 };

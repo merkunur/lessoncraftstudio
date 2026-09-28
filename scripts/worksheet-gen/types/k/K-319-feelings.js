@@ -74,6 +74,71 @@ const BANK = 'feelings';
 /** The six faces a K child can read without the word (design §1 / §4; the gate asserts the bank agrees). */
 const ACCEPTED = ['happy', 'sad', 'angry', 'scared', 'surprised', 'tired'];
 
+/* ---------------------------------------------------------------- Level Set (2026-09-28)
+ * New copies read data/b3/feelings-levelset.json (the picture panel's situation scenes, grouped into
+ * SETS, and the native panels' per-locale extras); the published page (level 2, copy 1) never does.
+ * Scene page copy g: g = 1 → the published scenes, g ≥ 2 → set g-1. */
+const fs = require('fs');
+const path = require('path');
+const esc = (x) => String(x).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+let LS_CACHE;
+function levelSetData() {
+  if (LS_CACHE !== undefined) return LS_CACHE;
+  const f = path.join(__dirname, '..', '..', 'data', 'b3', 'feelings-levelset.json');
+  LS_CACHE = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null;
+  return LS_CACHE;
+}
+/** Feelings a child can easily confuse with each other (the harder scene level offers them as wrong faces; the easier one never does). */
+const NEAR = { happy: ['surprised'], surprised: ['happy', 'scared'], scared: ['surprised', 'sad'], sad: ['tired', 'angry', 'scared'], angry: ['sad'], tired: ['sad'] };
+/** The scene bank a copy reads: g = 1 the published scenes, g ≥ 2 the panel's set g-1 (a locale veto shrinks it). */
+function sceneBankFor(bank, loc, g) {
+  if (g <= 1) return bank;
+  const L = levelSetData();
+  const set = L && (L.sets || [])[g - 2];
+  if (!set) throw new Error(`K-319: no scene set for copy group ${g}`);
+  const byId = Object.fromEntries((L.scenes || []).map((s) => [s.id, s]));
+  const veto = new Set([...(bank.veto || []), ...(((L.veto || {})[loc]) || [])]);
+  return { ...bank, scenes: set.scenes.map((id) => byId[id]).filter((s) => s && !veto.has(s.id)), veto: [...veto] };
+}
+/** Every scene the Level Set knows (published + panel), for the oracle. */
+function allScenes(bank) { const L = levelSetData(); return [...(bank.scenes || []), ...((L && L.scenes) || [])]; }
+
+/**
+ * The robot gate's INDEPENDENT truth per screen item, recomputed from the bank (never from the page's marks):
+ * match — the face picture's feeling → its word; scene — the situation's pictures → the scene's feeling → its
+ * face; choice — the word → its feeling → its face; sort — the face → its valence → that bin's label.
+ */
+function feelingsOracle(layout, items, loc) {
+  const { bank } = require('../../lib/b3-common.js');
+  const b = bank(BANK, loc);
+  const lc = (x) => String(x || '').toLocaleLowerCase(loc);
+  const byNoun = Object.fromEntries(b.feelings.map((f) => [f.face.noun, f]));
+  const byWord = Object.fromEntries(b.feelings.filter((f) => f.matchable).map((f) => [lc(f.word), f]));
+  const scenes = allScenes(b);
+  return items.map((it) => {
+    const labels = it.options.map((o) => (o && typeof o === 'object' ? o.label : o));
+    let want;
+    if (layout === 'match') { const f = byNoun[it.meta['data-lcs-face']]; want = f && f.matchable ? f.word : null; }
+    else if (layout === 'scene') {
+      const refs = it.meta['data-lcs-scene'];
+      const s = scenes.find((x) => x.objects.map((o) => o.theme + '/' + o.noun).join('+') === refs);
+      const f = s && b.feelings.find((x) => x.id === s.feeling);
+      want = f && f.face.noun;
+    } else if (layout === 'choice') { const f = byWord[lc(it.meta['data-lcs-word'])]; want = f && f.face.noun; }
+    else if (layout === 'sort') { const f = byNoun[it.meta['data-lcs-face']]; want = f && f.valence && b.bins[f.valence].label; }
+    const idx = labels.findIndex((l) => lc(l) === lc(want));
+    if (idx < 0) throw new Error(`oracle: "${want}" not among ${labels.join('/')} (${layout})`);
+    return idx;
+  });
+}
+function interactiveFor(layout) {
+  return {
+    kind: 'tap-choice', item: '[data-lcs-item]', option: '[data-lcs-opt]', answerAttr: 'data-lcs-key', labelAttr: 'data-lcs-word',
+    metaAttrs: ['data-lcs-face', 'data-lcs-scene', 'data-lcs-word'], instructionKey: layout, screenHeight: 3600,
+    oracle: (items, loc) => feelingsOracle(layout, items, (loc || 'en').slice(0, 2)),
+  };
+}
+
 function derange(rng, n) {
   if (n < 2) return Array.from({ length: n }, (_, i) => i);
   let order;
@@ -102,8 +167,11 @@ module.exports = {
   difficulty: {
     1: { pairs: 4, pool: ['happy', 'sad', 'angry', 'tired'], picPx: 100, tileL: 180, tileR: 260, itemH: 168, wordPx: 30, shuffleLeft: false },
     2: { pairs: 6, pool: null, picPx: 80, tileL: 160, tileR: 260, itemH: 108, wordPx: 28, shuffleLeft: false },
-    3: { pairs: 6, pool: null, picPx: 72, tileL: 160, tileR: 260, itemH: 108, wordPx: 26, shuffleLeft: true },
+    // Level Set 2026-09-28: the harder level shows 4 faces but all 6 feeling words — two words have no face on the page
+    3: { pairs: 4, pool: null, picPx: 100, tileL: 180, tileR: 260, itemH: 168, itemHR: 108, wordPx: 28, shuffleLeft: true, extraWords: 2 },
   },
+  interactive: interactiveFor('match'),
+  interactiveFor,
   i18n: {
     en: {
       title: 'Feelings: Match the Face to the Word',
@@ -120,7 +188,18 @@ module.exports = {
   _buildWith(bank, { difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty];
     if (!d) throw new Error('K-319: no difficulty ' + difficulty);
-    if (d.layout) return this._buildFace(bank, d, (locale || 'en').slice(0, 2), ctx);   // Phase 2 faces; the base path below is untouched
+    const loc0 = (locale || 'en').slice(0, 2);
+    // Level Set: a new copy (not level 2 copy 1) may read another scene set; its screen / key wraps the print page
+    const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (!published && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {   // a printable-only face (draw) ignores the request
+      const built = this._buildWith(bank, { difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
+      return this._screenOrKey(d.layout || 'match', built, ctx, loc0, bank);
+    }
+    if (d.layout) {
+      const b = !published && d.layout === 'scene' ? sceneBankFor(bank, loc0, (ctx && ctx.seedVariant) || 1) : bank;
+      return this._buildFace(b, published ? d : { ...d, ls: true }, loc0, ctx);   // Phase 2 faces; the base path below is untouched
+    }
+    if (d.extraWords) return this._buildMatchExtra(bank, d, loc0, ctx);   // Level Set harder level
     const rng = ctx.rng;
     const loc = (locale || 'en').slice(0, 2);
     if (!(d.pairs >= 4 && d.pairs <= 8)) throw new Error(`K-319: pairs ${d.pairs} outside the K page rule 4..8`);
@@ -229,13 +308,21 @@ module.exports = {
     picked = rng.shuffle(picked);
     const pos = spreadPositions(rng, picked.length, choices, 2);
     const seenObj = new Set();
+    const tileIds = [];
     const cardsHtml = picked.map((s, i) => {
       const ap = new Set(s.alsoPlausible || []);
-      const decoyPool = ACCEPTED.filter((id) => id !== s.feeling && !ap.has(id) && byId[id]);
+      let decoyPool = ACCEPTED.filter((id) => id !== s.feeling && !ap.has(id) && byId[id]);
+      // Level Set: the easier level never offers a near feeling as a wrong face; the harder one offers them first
+      if (d.decoy === 'far') decoyPool = decoyPool.filter((id) => !(NEAR[s.feeling] || []).includes(id));
       if (decoyPool.length < choices - 1) throw new Error(`K-319 scene: ${s.id} has ${decoyPool.length} decoys < ${choices - 1}`);
-      const decoys = rng.sample(decoyPool, choices - 1);
+      let decoys;
+      if (d.decoy === 'near') {
+        const near = rng.shuffle(decoyPool.filter((id) => (NEAR[s.feeling] || []).includes(id)));
+        decoys = near.concat(rng.shuffle(decoyPool.filter((id) => !near.includes(id)))).slice(0, choices - 1);
+      } else decoys = rng.sample(decoyPool, choices - 1);
       const tiles = decoys.slice();
       tiles.splice(pos[i], 0, s.feeling);
+      tileIds.push(tiles);
       const objects = (s.objects || []).map((o) => {
         const ref = `${o.theme}/${o.noun}`;
         if (seenObj.has(ref)) throw new Error(`K-319 scene: object ${ref} appears on two cards`);
@@ -250,8 +337,8 @@ module.exports = {
     });
     const grid = C3.feelingSceneGrid({ cards: cardsHtml, cols: 2 });
     const bodyHtml = `<div style="display:flex;flex-direction:column;flex:1 1 auto;min-height:0" data-ws-content data-lcs-feelings data-lcs-layout="scene" ` +
-      `data-lcs-cards="${picked.length}" data-lcs-choices="${choices}" data-lcs-minfeelings="${minFeelings}" data-lcs-maxper="${maxPer}">${grid}</div>`;
-    return { bodyHtml, meta: { scenes: picked.map((s) => s.id), answers: picked.map((s) => s.feeling), correct: pos } };
+      `data-lcs-cards="${picked.length}" data-lcs-choices="${choices}" data-lcs-minfeelings="${minFeelings}" data-lcs-maxper="${maxPer}"${d.ls ? ' data-lcs-ls="1"' : ''}>${grid}</div>`;
+    return { bodyHtml, meta: { scenes: picked.map((s) => s.id), answers: picked.map((s) => s.feeling), correct: pos }, _ans: { tiles: tileIds, objects: picked.map((s) => (s.objects || []).map((o) => ({ theme: o.theme, noun: o.noun }))) } };
   },
 
   /** F2 — Draw the Feeling Face (open-ended). */
@@ -263,9 +350,9 @@ module.exports = {
     if (d.cards < 4) throw new Error(`K-319 draw: cards ${d.cards} < 4`);
     const chosen = rng.shuffle(pool.length === d.cards ? pool.slice() : rng.sample(pool, d.cards));
     const cols = 2, rows = Math.ceil(chosen.length / cols);
-    const cards = chosen.map((f) => C3.feelingDrawCard({ id: f.id, word: f.word, wordPx: d.wordPx, d: d.d }));
+    const cards = chosen.map((f) => C3.feelingDrawCard({ id: f.id, word: f.word, wordPx: d.wordPx, d: d.d, ...(d.modelFace ? { model: fileUri(f.face.theme, f.face.noun), modelPx: d.modelFace } : {}) }));
     const grid = C3.feelingSceneGrid({ cards, cols, rows });
-    const bodyHtml = `<div style="display:flex;flex-direction:column;flex:1 1 auto;min-height:0" data-ws-content data-lcs-feelings data-lcs-layout="draw" data-lcs-cards="${chosen.length}">${grid}</div>`;
+    const bodyHtml = `<div style="display:flex;flex-direction:column;flex:1 1 auto;min-height:0" data-ws-content data-lcs-feelings data-lcs-layout="draw" data-lcs-cards="${chosen.length}"${d.modelFace ? ' data-lcs-model="1"' : ''}>${grid}</div>`;
     return { bodyHtml, meta: { words: chosen.map((f) => f.id) } };
   },
 
@@ -281,6 +368,7 @@ module.exports = {
     const byId = Object.fromEntries(matchable.map((f) => [f.id, f]));
     const targets = rng.shuffle(matchable.length === rows ? matchable.slice() : rng.sample(matchable, rows));
     const pos = spreadPositions(rng, rows, choices, choices);
+    const laneTiles = [];
     const lanes = targets.map((t, i) => {
       // confusable:false keeps the bank's near pair out of one row, read from BOTH sides (t.confusable and f.confusable)
       const avoid = new Set(d.confusable ? [] : (t.confusable || []));
@@ -289,6 +377,7 @@ module.exports = {
       const decoys = rng.sample(pool, choices - 1).map((f) => f.id);
       const tiles = decoys.slice();
       tiles.splice(pos[i], 0, t.id);
+      laneTiles.push(tiles);
       return C3.feelingChoiceLane({
         id: t.id, word: t.word, wordPx: d.wordPx, wordW: d.wordW, correct: pos[i],
         faces: tiles.map((id) => ({ id, src: fileUri(byId[id].face.theme, byId[id].face.noun) })),
@@ -297,7 +386,7 @@ module.exports = {
     });
     const bodyHtml = `<div style="display:flex;flex-direction:column;flex:1 1 auto;min-height:0" data-ws-content data-lcs-feelings data-lcs-layout="choice" ` +
       `data-lcs-rows="${rows}" data-lcs-choices="${choices}" data-lcs-confusable="${d.confusable ? 1 : 0}">${C3.feelingChoicePage({ lanes, minRow: d.minRow })}</div>`;
-    return { bodyHtml, meta: { targets: targets.map((t) => t.id), correct: pos } };
+    return { bodyHtml, meta: { targets: targets.map((t) => t.id), correct: pos }, _ans: { tiles: laneTiles } };
   },
 
   /** F5 — How Do I Feel Today? (open-ended). */
@@ -319,6 +408,84 @@ module.exports = {
     return { bodyHtml, meta: { faces: faces.map((f) => f.id) } };
   },
 
+  /**
+   * Level Set harder match: `pairs` faces but EVERY readable feeling word — the `extraWords` words left over
+   * are feelings whose faces are not on this page (never a near-synonym of a pictured face: no two right
+   * answers), so the child must read every word instead of matching the last one by elimination.
+   */
+  _buildMatchExtra(bank, d, loc, ctx) {
+    const rng = ctx.rng;
+    const matchable = this._matchable(bank, loc);
+    if (matchable.length < d.pairs + d.extraWords) throw new Error(`K-319: ${loc} has ${matchable.length} matchable feelings < ${d.pairs} + ${d.extraWords} (refuse)`);
+    const left = rng.shuffle(rng.sample(matchable, d.pairs));
+    const ex = rng.sample(matchable.filter((f) => !left.includes(f)), d.extraWords).map((f, k) => ({ id: 'extra-' + (k + 1), word: f.word }));
+    let right, guard = 0;
+    do { right = rng.shuffle([...left, ...ex]); } while (right.some((f, i) => i < left.length && f.id === left[i].id) && ++guard < 500);
+    if (right.some((f, i) => i < left.length && f.id === left[i].id)) throw new Error('K-319: no order without a word straight across from its face');
+    const bodyHtml = feelingMatch({
+      left: left.map((f) => ({ id: f.id, src: fileUri(f.face.theme, f.face.noun) })),
+      right: right.map((f) => ({ id: f.id, word: f.word })),
+      tileL: d.tileL, tileR: d.tileR, itemH: d.itemH, itemHR: d.itemHR, picPx: d.picPx, wordPx: d.wordPx,
+    }).replace(`data-lcs-pairs="${left.length}"`, `data-lcs-pairs="${left.length}" data-lcs-extra="${ex.length}"`);
+    return { bodyHtml, meta: { pairs: left.map((f) => f.id), words: right.map((f) => f.word), extra: ex.map((f) => f.word) } };
+  },
+
+  /**
+   * Level Set: the SCREEN version (one tap per item) or the ANSWER KEY (the print page + a style block) of a
+   * built page. match: each face + every word of the page; scene: the situation + its face tiles; choice: the
+   * word + its face tiles; draw: none (open-ended, never interactive).
+   */
+  _screenOrKey(layout, built, ctx, loc, bank) {
+    const coral = '#F2784B';
+    const out = { bodyHtml: built.bodyHtml, meta: built.meta };
+    const matchable = this._matchable(bank, loc);
+    const byId = Object.fromEntries(matchable.map((f) => [f.id, f]));
+    const faceSrc = (id) => fileUri(byId[id].face.theme, byId[id].face.noun);
+    const W = 660;
+    const item = (attrs, top, opts) => `<div data-lcs-item ${attrs} data-ws-content style="display:flex;flex-direction:column;align-items:center;gap:10px;width:${W}px;padding:12px 8px;background:#FFFDF8;border:2px solid #EFE4D2;border-radius:16px;box-sizing:border-box">` +
+      `<div style="display:flex;align-items:center;justify-content:center;gap:16px;min-height:44px">${top}</div>` +
+      `<div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">${opts}</div></div>`;
+    const opt = (i, label, html, correct, w = 200, h = 104) => `<span class="ws-achip" data-lcs-opt="${i}" data-lcs-label="${esc(label)}"${correct ? ' data-lcs-correct="1"' : ''} style="width:${w}px;height:${h}px;box-sizing:border-box;font-size:34px;gap:8px">${html}</span>`;
+    const pic = (src, key, px) => `<img class="ws-icon" src="${src}" alt="" data-lcs-pic="${esc(key)}" style="width:${px}px;height:${px}px;object-fit:contain;flex:0 0 auto">`;
+    const body = (inner) => `<div data-ws-content data-lcs-type="feelings" data-lcs-screen="${layout}" style="flex:1;display:flex;flex-direction:column;gap:14px;align-items:center;padding-top:10px">${inner}</div>`;
+    const m = built.meta;
+    if (ctx.interactive) {
+      let items = [];
+      if (layout === 'match') {
+        const words = m.words;
+        items = m.pairs.map((id) => item(`data-lcs-face="${esc(byId[id].face.noun)}"`, pic(faceSrc(id), byId[id].face.noun, 120),
+          words.map((w, k) => opt(k, w, esc(w), w === byId[id].word, words.length > 6 ? 150 : 200)).join('')));
+      } else if (layout === 'scene') {
+        const A = built._ans;
+        items = m.scenes.map((sid, i) => item(`data-lcs-scene="${esc(A.objects[i].map((o) => o.theme + '/' + o.noun).join('+'))}"`,
+          A.objects[i].map((o) => pic(fileUri(o.theme, o.noun), o.noun, 150)).join(''),
+          A.tiles[i].map((id, k) => opt(k, byId[id].face.noun, pic(faceSrc(id), byId[id].face.noun, 92), k === m.correct[i], 180, 120)).join('')));
+      } else if (layout === 'choice') {
+        const A = built._ans;
+        items = m.targets.map((id, i) => item(`data-lcs-word="${esc(byId[id].word)}"`,
+          `<span style="font-family:'Baloo 2',cursive;font-weight:700;font-size:48px;color:#146B5E">${esc(byId[id].word)}</span>`,
+          A.tiles[i].map((t, k) => opt(k, byId[t].face.noun, pic(faceSrc(t), byId[t].face.noun, 92), k === m.correct[i], 180, 120)).join('')));
+      } else throw new Error(`K-319: ${layout} has no screen version`);
+      out.bodyHtml = body(items.join(''));
+      return out;
+    }
+    const css = [];
+    const ring = `outline:5px solid ${coral};outline-offset:3px;border-radius:14px`;
+    if (layout === 'match') {
+      css.push('[data-lcs-face],[data-lcs-word]{position:relative}');
+      m.pairs.forEach((id, i) => {
+        const b = `content:"${i + 1}";position:absolute;top:-10px;min-width:30px;height:30px;border-radius:15px;background:${coral};color:#fff;font:700 18px/30px 'Baloo 2',cursive;text-align:center;z-index:2`;
+        css.push(`[data-lcs-face="${id}"]::before{${b};left:-10px}`, `[data-lcs-word="${id}"]::before{${b};right:-10px}`);
+      });
+    } else if (layout === 'scene') {
+      for (let k = 0; k < 3; k++) css.push(`[data-lcs-scene][data-lcs-correct="${k}"] [data-lcs-choices] > [data-lcs-choice]:nth-child(${k + 1}){${ring}}`);
+    } else if (layout === 'choice') {
+      for (let k = 0; k < 4; k++) css.push(`[data-lcs-row][data-lcs-correct="${k}"] [data-lcs-choices] > [data-lcs-choice]:nth-child(${k + 1}){${ring}}`);
+    } else throw new Error(`K-319: ${layout} has no answer key`);
+    out.bodyHtml = out.bodyHtml + `<style data-lcs-key>${css.join('')}</style>`;
+    return out;
+  },
+
   async verify(page) {
     return page.evaluate(() => {
       const fails = [];
@@ -328,15 +495,16 @@ module.exports = {
       const root = document.querySelector('[data-ws-content][data-lcs-feelings]');
       if (!root) return ['no feelings root'];
       const lang = (document.documentElement.lang || 'en').slice(0, 2);
-      const pic = (im, what) => {
+      const pic = (im, what, bwOk) => {
         if (!im) { fails.push(`${what}: no picture`); return null; }
         if (!im.complete || im.naturalWidth === 0) fails.push(`${what}: picture broken`);
         if (im.getAttribute('alt')) fails.push(`${what}: alt text names the answer`);
         const parts = decodeURIComponent(im.src).split('/');
         const dir = parts.slice(-2, -1)[0] || '';
-        if (BW.test(dir)) fails.push(`${what}: picture from a B&W directory "${dir}"`);
+        if (BW.test(dir) && !bwOk) fails.push(`${what}: picture from a B&W directory "${dir}"`);
         const r = im.getBoundingClientRect();
-        if (Math.min(r.width, r.height) < 72 - 0.6) fails.push(`${what}: icon ${Math.round(Math.min(r.width, r.height))} px < 72`);
+        const floor = im.hasAttribute('data-lcs-model') ? 48 : 72;   // a model face is a small cue beside the word
+        if (Math.min(r.width, r.height) < floor - 0.6) fails.push(`${what}: icon ${Math.round(Math.min(r.width, r.height))} px < ${floor}`);
         return { dir, noun: parts.pop().replace(/@3x\.webp$/, '') };
       };
       const checkTile = (t, what) => {
@@ -371,7 +539,7 @@ module.exports = {
           imgs.forEach((im, k) => {
             const ref = im.dataset.lcsSceneObj;
             if (objs.has(ref)) fails.push(`${what}: object ${ref} already on another card`); objs.add(ref);
-            const p = pic(im, `${what} object ${k + 1}`);
+            const p = pic(im, `${what} object ${k + 1}`, root.dataset.lcsLs === '1');   // Level Set scenes may be B&W pictures (the whole library)
             if (p && `${p.dir}/${p.noun}` !== ref) fails.push(`${what}: object picture ${p.dir}/${p.noun} ≠ stamp ${ref}`);
           });
           const tiles = [...c.querySelectorAll('[data-lcs-choice]')];
@@ -408,7 +576,16 @@ module.exports = {
             if (f.querySelectorAll('*').length !== 1) fails.push(`${what}: the blank face is not empty (features drawn)`);
             if (+f.dataset.lcsBlankface < 140) fails.push(`${what}: blank face ${f.dataset.lcsBlankface} px < 140`);
           }
-          if (c.querySelector('img')) fails.push(`${what}: a model face is printed (the child draws it)`);
+          const models = [...c.querySelectorAll('img')];
+          if (root.dataset.lcsModel === '1') {
+            // Level Set easier level: exactly one small model face = the card's own feeling, from the emotions dir
+            if (models.length !== 1 || !models[0].hasAttribute('data-lcs-model')) fails.push(`${what}: ${models.length} pictures, want one model face`);
+            else {
+              const mp = pic(models[0], `${what} model`, false);
+              if (models[0].dataset.lcsModel !== (w && w.dataset.lcsWord)) fails.push(`${what}: model face "${models[0].dataset.lcsModel}" ≠ the word's feeling`);
+              if (mp && (mp.dir !== 'emotions' || mp.noun !== models[0].dataset.lcsModel)) fails.push(`${what}: model picture ${mp.dir}/${mp.noun} is not that feeling's face`);
+            }
+          } else if (models.length) fails.push(`${what}: a model face is printed (the child draws it)`);
         });
         if (new Set(ids).size !== ids.length) fails.push('a feeling appears on two cards');
         if (new Set(texts).size !== texts.length) fails.push('two cards print the same word');
@@ -483,12 +660,15 @@ module.exports = {
       const left = faces.map((e) => e.dataset.lcsFace);
       const right = words.map((e) => e.dataset.lcsWord);
       const n = left.length;
+      const extra = +(root.dataset.lcsExtra || 0);   // Level Set harder level: words with no face
+      const realRight = right.filter((id) => !/^extra-\d+$/.test(id));
       if (+root.dataset.lcsPairs !== n) fails.push(`pairs stamp ${root.dataset.lcsPairs} ≠ ${n} face tiles`);
       if (n < 4 || n > 8) fails.push(`${n} pairs outside 4..8`);
-      if (right.length !== n) fails.push(`${right.length} word tiles ≠ ${n} face tiles`);
+      if (right.length !== n + extra) fails.push(`${right.length} word tiles ≠ ${n} face tiles + ${extra} extra`);
+      if (right.length - realRight.length !== extra) fails.push(`${right.length - realRight.length} extra word tiles ≠ stamp ${extra}`);
       left.forEach((id, i) => { if (!ACCEPTED.includes(id)) fails.push(`face ${i + 1}: "${id}" is not an accepted feeling`); });
       if (new Set(left).size !== n) fails.push('a feeling appears twice on the left');
-      if ([...left].sort().join() !== [...right].sort().join()) fails.push('right column is not a permutation of the left');
+      if ([...left].sort().join() !== [...realRight].sort().join()) fails.push('right column is not a permutation of the left');
       left.forEach((id, i) => { if (right[i] === id) fails.push(`row ${i + 1}: "${id}" sits straight across from its word (fixed point)`); });
       // each word text once, never on the face side
       const texts = words.map((e) => e.textContent.trim());

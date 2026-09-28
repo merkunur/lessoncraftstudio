@@ -1,0 +1,587 @@
+{
+ "_note": "Level Set 2026-09-28 — Feelings content for the NEW copies only (picture panel + 11 native panels; importer tools/level-set/import-feeling-panels.js). The published pages never read this file.",
+ "scenes": [
+  {
+   "id": "ice-cream",
+   "objects": [
+    {
+     "theme": "desserts and sweets",
+     "noun": "ice_cream"
+    }
+   ],
+   "feeling": "happy",
+   "alsoPlausible": [
+    "surprised"
+   ],
+   "vetoable": false,
+   "why": "an ice-cream cone is a treat every child looks forward to",
+   "sceneOpened": true
+  },
+  {
+   "id": "cupcake",
+   "objects": [
+    {
+     "theme": "bakery",
+     "noun": "cupcake"
+    }
+   ],
+   "feeling": "happy",
+   "alsoPlausible": [
+    "surprised"
+   ],
+   "vetoable": false,
+   "why": "a cupcake with a cherry on top is a treat",
+   "sceneOpened": true
+  },
+  {
+   "id": "playground",
+   "objects": [
+    {
+     "theme": "activities",
+     "noun": "playground"
+    }
+   ],
+   "feeling": "happy",
+   "alsoPlausible": [
+    "tired"
+   ],
+   "vetoable": false,
+   "why": "going to the playground with slides and climbing frames",
+   "sceneOpened": true
+  },
+  {
+   "id": "snowman",
+   "objects": [
+    {
+     "theme": "christmas",
+     "noun": "snowman"
+    }
+   ],
+   "feeling": "happy",
+   "alsoPlausible": [
+    "surprised"
+   ],
+   "vetoable": false,
+   "why": "building a snowman in the snow",
+   "sceneOpened": true
+  },
+  {
+   "id": "puppy",
+   "objects": [
+    {
+     "theme": "pets",
+     "noun": "dog"
+    }
+   ],
+   "feeling": "happy",
+   "alsoPlausible": [
+    "surprised",
+    "scared"
+   ],
+   "vetoable": false,
+   "why": "a friendly puppy; a few children fear dogs, so scared is never marked wrong",
+   "sceneOpened": true
+  },
+  {
+   "id": "kite",
+   "objects": [
+    {
+     "theme": "toys",
+     "noun": "kite"
+    }
+   ],
+   "feeling": "happy",
+   "alsoPlausible": [
+    "surprised"
+   ],
+   "vetoable": false,
+   "why": "flying a kite on a windy day",
+   "sceneOpened": true
+  },
+  {
+   "id": "popsicle",
+   "objects": [
+    {
+     "theme": "summer",
+     "noun": "popsicle"
+    }
+   ],
+   "feeling": "happy",
+   "alsoPlausible": [
+    "surprised"
+   ],
+   "vetoable": false,
+   "why": "an ice lolly on a hot day",
+   "sceneOpened": true
+  },
+  {
+   "id": "spider",
+   "objects": [
+    {
+     "theme": "miscellaneous",
+     "noun": "spider"
+    }
+   ],
+   "feeling": "scared",
+   "alsoPlausible": [
+    "surprised",
+    "angry"
+   ],
+   "vetoable": false,
+   "why": "a big red-and-black spider with no friendly face",
+   "sceneOpened": true
+  },
+  {
+   "id": "shark",
+   "objects": [
+    {
+     "theme": "ocean life",
+     "noun": "shark"
+    }
+   ],
+   "feeling": "scared",
+   "alsoPlausible": [
+    "surprised"
+   ],
+   "vetoable": false,
+   "why": "a shark showing its teeth",
+   "sceneOpened": true
+  },
+  {
+   "id": "t-rex",
+   "objects": [
+    {
+     "theme": "dinosaurs",
+     "noun": "tyrannosaurus_rex"
+    }
+   ],
+   "feeling": "scared",
+   "alsoPlausible": [
+    "surprised",
+    "happy"
+   ],
+   "vetoable": false,
+   "why": "a big T. rex; dinosaur-loving children may feel happy, so happy is never marked wrong",
+   "sceneOpened": true
+  },
+  {
+   "id": "wasp",
+   "objects": [
+    {
+     "theme": "insects and bugs",
+     "noun": "wasp"
+    }
+   ],
+   "feeling": "scared",
+   "alsoPlausible": [
+    "angry",
+    "surprised",
+    "sad"
+   ],
+   "vetoable": false,
+   "why": "a wasp that could sting",
+   "sceneOpened": true
+  },
+  {
+   "id": "big-wave",
+   "objects": [
+    {
+     "theme": "beach",
+     "noun": "wave"
+    }
+   ],
+   "feeling": "scared",
+   "alsoPlausible": [
+    "surprised",
+    "happy"
+   ],
+   "vetoable": false,
+   "why": "a huge breaking wave coming at you",
+   "sceneOpened": true
+  },
+  {
+   "id": "wolf",
+   "objects": [
+    {
+     "theme": "animals",
+     "noun": "wolf"
+    }
+   ],
+   "feeling": "scared",
+   "alsoPlausible": [
+    "surprised",
+    "angry",
+    "happy"
+   ],
+   "vetoable": false,
+   "why": "the wolf of fairy tales (spare: the picture itself is neutral) (builder: the picture is friendly-looking, so happy is never marked wrong)",
+   "sceneOpened": true
+  },
+  {
+   "id": "rainy-day",
+   "objects": [
+    {
+     "theme": "weather",
+     "noun": "rainy"
+    }
+   ],
+   "feeling": "sad",
+   "alsoPlausible": [
+    "tired",
+    "happy",
+    "angry"
+   ],
+   "vetoable": false,
+   "why": "rain means no playing outside; some children love puddles, so happy is allowed",
+   "sceneOpened": true
+  },
+  {
+   "id": "fever",
+   "objects": [
+    {
+     "theme": "hospital",
+     "noun": "thermometer"
+    }
+   ],
+   "feeling": "sad",
+   "alsoPlausible": [
+    "tired",
+    "scared"
+   ],
+   "vetoable": false,
+   "why": "a thermometer = being ill at home",
+   "sceneOpened": true
+  },
+  {
+   "id": "tissues",
+   "objects": [
+    {
+     "theme": "hospital",
+     "noun": "tissue"
+    }
+   ],
+   "feeling": "sad",
+   "alsoPlausible": [
+    "tired"
+   ],
+   "vetoable": false,
+   "why": "a box of tissues = a cold",
+   "sceneOpened": true
+  },
+  {
+   "id": "sandcastle-rain",
+   "objects": [
+    {
+     "theme": "summer",
+     "noun": "sandcastle"
+    },
+    {
+     "theme": "spring",
+     "noun": "rain"
+    }
+   ],
+   "feeling": "sad",
+   "alsoPlausible": [
+    "angry",
+    "tired",
+    "happy"
+   ],
+   "vetoable": false,
+   "why": "rain pours down on the sandcastle day (builder: the picture is friendly-looking, so happy is never marked wrong)",
+   "sceneOpened": true
+  },
+  {
+   "id": "crutches",
+   "objects": [
+    {
+     "theme": "hospital",
+     "noun": "crutches"
+    }
+   ],
+   "feeling": "sad",
+   "alsoPlausible": [
+    "tired",
+    "scared",
+    "angry"
+   ],
+   "vetoable": false,
+   "why": "crutches = a hurt leg, no running",
+   "sceneOpened": true
+  },
+  {
+   "id": "sleeping-bag",
+   "objects": [
+    {
+     "theme": "camping",
+     "noun": "sleeping_bag"
+    }
+   ],
+   "feeling": "tired",
+   "alsoPlausible": [
+    "happy"
+   ],
+   "vetoable": false,
+   "why": "a child snuggled asleep in a sleeping bag",
+   "sceneOpened": true
+  },
+  {
+   "id": "alarm-clock",
+   "objects": [
+    {
+     "theme": "around the house",
+     "noun": "alarm_clock"
+    }
+   ],
+   "feeling": "tired",
+   "alsoPlausible": [
+    "surprised",
+    "angry",
+    "scared"
+   ],
+   "vetoable": false,
+   "why": "the alarm clock rings early in the morning",
+   "sceneOpened": true
+  },
+  {
+   "id": "hammock",
+   "objects": [
+    {
+     "theme": "camping",
+     "noun": "hammock"
+    }
+   ],
+   "feeling": "tired",
+   "alsoPlausible": [
+    "happy"
+   ],
+   "vetoable": false,
+   "why": "a hammock for a rest",
+   "sceneOpened": true
+  },
+  {
+   "id": "toothbrush-moon",
+   "objects": [
+    {
+     "theme": "around the house",
+     "noun": "toothbrush"
+    },
+    {
+     "theme": "shapes",
+     "noun": "moon"
+    }
+   ],
+   "feeling": "tired",
+   "alsoPlausible": [
+    "happy"
+   ],
+   "vetoable": false,
+   "why": "brushing teeth at night = bedtime",
+   "sceneOpened": true
+  },
+  {
+   "id": "bath-moon",
+   "objects": [
+    {
+     "theme": "around the house",
+     "noun": "bathtub"
+    },
+    {
+     "theme": "camping",
+     "noun": "moon"
+    }
+   ],
+   "feeling": "tired",
+   "alsoPlausible": [
+    "happy"
+   ],
+   "vetoable": false,
+   "why": "the evening bath under the moon = bedtime",
+   "sceneOpened": true
+  },
+  {
+   "id": "flying-horse",
+   "objects": [
+    {
+     "theme": "Things That Fly",
+     "noun": "pegasus"
+    }
+   ],
+   "feeling": "surprised",
+   "alsoPlausible": [
+    "happy"
+   ],
+   "vetoable": false,
+   "why": "a horse with wings!",
+   "sceneOpened": true
+  },
+  {
+   "id": "party-cake",
+   "objects": [
+    {
+     "theme": "accessories",
+     "noun": "party_hat"
+    },
+    {
+     "theme": "4th of July",
+     "noun": "cake"
+    }
+   ],
+   "feeling": "happy",
+   "alsoPlausible": [
+    "surprised"
+   ],
+   "vetoable": false,
+   "why": "a party hat and a big cake = a party",
+   "sceneOpened": true
+  },
+  {
+   "id": "pool",
+   "objects": [
+    {
+     "theme": "summer",
+     "noun": "pool"
+    }
+   ],
+   "feeling": "happy",
+   "alsoPlausible": [
+    "surprised"
+   ],
+   "vetoable": false,
+   "why": "a swimming pool on a summer day",
+   "sceneOpened": true
+  },
+  {
+   "id": "rainbow",
+   "objects": [
+    {
+     "theme": "spring",
+     "noun": "rainbow"
+    }
+   ],
+   "feeling": "happy",
+   "alsoPlausible": [
+    "surprised"
+   ],
+   "vetoable": false,
+   "why": "a bright rainbow in the sky",
+   "sceneOpened": true
+  },
+  {
+   "id": "rocket",
+   "objects": [
+    {
+     "theme": "space",
+     "noun": "rocket"
+    }
+   ],
+   "feeling": "surprised",
+   "alsoPlausible": [
+    "happy",
+    "scared"
+   ],
+   "vetoable": false,
+   "why": "a rocket blasting off with flames",
+   "sceneOpened": true
+  },
+  {
+   "id": "beach-ball-rain",
+   "objects": [
+    {
+     "theme": "summer",
+     "noun": "beach_ball"
+    },
+    {
+     "theme": "spring",
+     "noun": "rain"
+    }
+   ],
+   "feeling": "sad",
+   "alsoPlausible": [
+    "angry",
+    "tired",
+    "happy"
+   ],
+   "vetoable": false,
+   "why": "rain comes down just when you wanted to play ball outside (builder: the picture is friendly-looking, so happy is never marked wrong)",
+   "sceneOpened": true
+  },
+  {
+   "id": "slippers-moon",
+   "objects": [
+    {
+     "theme": "clothing",
+     "noun": "slippers"
+    },
+    {
+     "theme": "camping",
+     "noun": "moon"
+    }
+   ],
+   "feeling": "tired",
+   "alsoPlausible": [
+    "happy"
+   ],
+   "vetoable": false,
+   "why": "slippers on and the moon is up = time for bed",
+   "sceneOpened": true
+  }
+ ],
+ "sets": [
+  {
+   "id": "s1",
+   "scenes": [
+    "ice-cream",
+    "party-cake",
+    "spider",
+    "rainy-day",
+    "sleeping-bag",
+    "slippers-moon"
+   ]
+  },
+  {
+   "id": "s2",
+   "scenes": [
+    "cupcake",
+    "pool",
+    "shark",
+    "crutches",
+    "beach-ball-rain",
+    "alarm-clock"
+   ]
+  },
+  {
+   "id": "s3",
+   "scenes": [
+    "playground",
+    "snowman",
+    "t-rex",
+    "wolf",
+    "hammock",
+    "rocket"
+   ]
+  },
+  {
+   "id": "s4",
+   "scenes": [
+    "puppy",
+    "popsicle",
+    "wasp",
+    "fever",
+    "bath-moon",
+    "flying-horse"
+   ]
+  },
+  {
+   "id": "s5",
+   "scenes": [
+    "kite",
+    "rainbow",
+    "big-wave",
+    "tissues",
+    "sandcastle-rain",
+    "toothbrush-moon"
+   ]
+  }
+ ],
+ "veto": {}
+}

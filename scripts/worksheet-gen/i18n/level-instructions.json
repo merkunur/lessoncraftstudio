@@ -53,5 +53,35 @@
    "da": "Skriv hver trykt sætning af med sammenhængende skrift på de to linjer under den.",
    "no": "Skriv av hver trykt setning med sammenhengende skrift på de to linjene under den."
   }
+ },
+ "K-319": {
+  "3": {
+   "en": "Draw a line from each face to the feeling word that says how it feels. Two words have no face.",
+   "de": "Verbinde jedes Gesicht mit dem Gefühlswort, das sagt, wie es sich fühlt. Zwei Wörter bleiben übrig.",
+   "es": "Traza una línea desde cada cara hasta la palabra que dice cómo se siente. Dos palabras no tienen cara.",
+   "fr": "Trace un trait de chaque visage jusqu'au mot qui dit ce qu'il ressent. Deux mots n'ont pas de visage.",
+   "it": "Collega con una linea ogni faccia alla parola che dice come si sente. Due parole restano senza faccia.",
+   "pt": "Ligue cada carinha à palavra que diz como ela está se sentindo. Duas palavras ficam sem carinha.",
+   "nl": "Trek een lijn van elk gezichtje naar het woord dat zegt hoe het zich voelt. Twee woorden blijven over.",
+   "sv": "Dra ett streck från varje ansikte till det känsloord som visar hur det känner sig. Två ord har inget ansikte.",
+   "da": "Tegn en streg fra hvert ansigt til det ord, der fortæller, hvordan det har det. To ord bliver tilovers.",
+   "no": "Tegn en strek fra hvert ansikt til følelsesordet som sier hvordan det har det. To ord har ikke noe ansikt.",
+   "fi": "Piirrä viiva jokaisesta ilmeestä siihen tunnesanaan, joka sopii ilmeeseen. Kahdelle sanalle ei ole ilmettä."
+  }
+ },
+ "K-332": {
+  "1": {
+   "en": "Read the feeling word, look at the small face, and draw it big in the empty circle.",
+   "de": "Lies das Gefühlswort, schau das kleine Gesicht an und zeichne es groß in den leeren Kreis.",
+   "es": "Lee la palabra, mira la cara pequeña y cópiala en grande en el círculo vacío.",
+   "fr": "Lis le mot de l'émotion, regarde le petit visage et redessine-le en grand dans le rond vide.",
+   "it": "Leggi la parola, guarda la piccola faccia e ricopiala in grande nel cerchio vuoto.",
+   "pt": "Leia a palavra da emoção, olhe a carinha pequena e copie-a bem grande no círculo vazio.",
+   "nl": "Lees het gevoelswoord, kijk naar het kleine gezichtje en teken het groot in de lege cirkel.",
+   "sv": "Läs känsloordet, titta på det lilla ansiktet och rita det stort i den tomma cirkeln.",
+   "da": "Læs ordet, se på det lille ansigt, og tegn det stort i den tomme cirkel.",
+   "no": "Les følelsesordet, se på det lille ansiktet og tegn det stort i den tomme sirkelen.",
+   "fi": "Lue tunnesana, katso pientä ilmettä ja piirrä samanlaiset kasvot isoina tyhjään ympyrään."
+  }
  }
 }

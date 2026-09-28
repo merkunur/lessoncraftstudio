@@ -54,9 +54,9 @@ import CatalogTabs from '@/components/catalog/CatalogTabs';
 import CatalogTypeIndex, { type TypeIndexItem } from '@/components/catalog/CatalogTypeIndex';
 import WorksheetCatalogCard from '@/components/worksheets/WorksheetCatalogCard';
 import { getMonolingualLandings, deckAssets } from '@/lib/seo/landing-content';
-import { collapsedSheetSlugs, expandHubRows, levelSetRows, rowIsPrintOnly, type HubRow, type DeckFacts } from '@/lib/worksheets-sheets';
+import { collapsedSheetSlugs, expandHubRows, levelSetRows, rowIsPrintOnly, variationCode, type HubRow, type DeckFacts } from '@/lib/worksheets-sheets';
 import { isPrintOnlyType } from '@/config/interactive-exercise-types';
-import { INTERACTIVE_LEVEL_SET_TYPES } from '@/config/interactive-level-set-types';
+import { INTERACTIVE_LEVEL_SET_TYPES, LEVEL_SET_PRINT_ONLY_VARIATIONS } from '@/config/interactive-level-set-types';
 import {
   WORKSHEETS_PAGE_SIZE,
   WORKSHEETS_TOP_THEMES,
@@ -289,7 +289,8 @@ export default async function AllWorksheetsPage({
               title: (raw && (raw[locale] || raw.en)) || parent.h1,
               exerciseMode: d.exerciseMode,
               hasAnswerKey: d.answerKeyUrl != null,
-              interactive: INTERACTIVE_LEVEL_SET_TYPES.has(filters.type as string),
+              interactive: INTERACTIVE_LEVEL_SET_TYPES.has(filters.type as string)
+                && !(LEVEL_SET_PRINT_ONLY_VARIATIONS[filters.type as string] || []).includes(variationCode(d.slug) || ''),
             };
           }),
           (slug) => deckAssets(locale, slug).deckDir,

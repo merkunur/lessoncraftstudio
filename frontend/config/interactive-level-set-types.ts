@@ -13,4 +13,14 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'capitals-punctuation',
   'compound-words',
   'digraphs',
+  'feelings',
 ]);
+
+/**
+ * Variations of an interactive Level Set type whose copies are PRINTABLE ONLY (open-ended pages with no
+ * single right answer — operator rule 2026-09-27): their cards keep the "PDF only" mark. Keyed by the
+ * variation code the slug ends with (`…-k332-3` → "k332").
+ */
+export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly string[]>> = {
+  feelings: ['k332'],
+};

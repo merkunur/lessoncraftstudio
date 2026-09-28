@@ -15,6 +15,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'digraphs',
   'feelings',
   'cloze',
+  'opposites',
 ]);
 
 /**
@@ -24,4 +25,5 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
  */
 export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly string[]>> = {
   feelings: ['k332'],
+  opposites: ['g1336'],   // Pair Up: sorting words into written pairs (Level Set 2026-09-28)
 };

@@ -1,0 +1,1164 @@
+{
+  "id": "wave-lotw-sv",
+  "_note": "Level Set 2026-09-28: Letter of the Week, the whole alphabet (K-317 + 5 faces). New letters from the eligible picture pool, reviewed by 11 native panels (sounds, graphemes, pair and confusable letters) and a picture panel; one copy per letter per level; levels change the task (three pictures instead of four, the sound only at the end, beginning-or-end only, short words once each, a key picture per letter; harder: foils that carry the letter, the sound only inside with letter-initial foils, eight pictures with four in the middle, up to three per word). Visible to teachers, never indexed; PDF only.",
+  "indexable": false,
+  "interactive": false,
+  "seedEpoch": 1,
+  "locales": [
+    "sv"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "K-317",
+    "K-325",
+    "K-326",
+    "K-327",
+    "K-328",
+    "G1-311"
+  ],
+  "levels": {
+    "K-317": {
+      "1": [
+        {
+          "copy": 17,
+          "unit": "m",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "s",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "b",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "t",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "l",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "a",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "c",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "d",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "f",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "g",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "h",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "j",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "k",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "n",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "p",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "r",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "u",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "v",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "ä",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": "s",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "b",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "t",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "l",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "a",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "d",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "f",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "g",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "h",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "j",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "k",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "n",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "p",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "r",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "v",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 36,
+          "unit": "m",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "s",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "b",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "t",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "l",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "d",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "f",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "g",
+          "seedVariant": 1
+        },
+        {
+          "copy": 44,
+          "unit": "h",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "j",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "k",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "n",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
+          "unit": "p",
+          "seedVariant": 1
+        },
+        {
+          "copy": 49,
+          "unit": "r",
+          "seedVariant": 1
+        },
+        {
+          "copy": 50,
+          "unit": "v",
+          "seedVariant": 1
+        },
+        {
+          "copy": 51,
+          "unit": "ä",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-325": {
+      "1": [
+        {
+          "copy": 25,
+          "unit": "m",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "s",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "b",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "t",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "l",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "a",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "d",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "e",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "g",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "i",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "j",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "k",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "n",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "p",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "r",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "v",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": "s",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "b",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "t",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "l",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "a",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "d",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "e",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "f",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "g",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "h",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "i",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "j",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "k",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "n",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "o",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "p",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "r",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "u",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "v",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "x",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "å",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "ö",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 41,
+          "unit": "m",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "s",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "b",
+          "seedVariant": 1
+        },
+        {
+          "copy": 44,
+          "unit": "t",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "l",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "d",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "f",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
+          "unit": "g",
+          "seedVariant": 1
+        },
+        {
+          "copy": 49,
+          "unit": "h",
+          "seedVariant": 1
+        },
+        {
+          "copy": 50,
+          "unit": "j",
+          "seedVariant": 1
+        },
+        {
+          "copy": 51,
+          "unit": "k",
+          "seedVariant": 1
+        },
+        {
+          "copy": 52,
+          "unit": "n",
+          "seedVariant": 1
+        },
+        {
+          "copy": 53,
+          "unit": "p",
+          "seedVariant": 1
+        },
+        {
+          "copy": 54,
+          "unit": "r",
+          "seedVariant": 1
+        },
+        {
+          "copy": 55,
+          "unit": "v",
+          "seedVariant": 1
+        },
+        {
+          "copy": 56,
+          "unit": "ä",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-326": {
+      "1": [
+        {
+          "copy": 15,
+          "unit": "m",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "s",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "b",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "t",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "l",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "a",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "d",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "g",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "j",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "k",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "n",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "p",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "r",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "v",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": "s",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "b",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "t",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "l",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "a",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "d",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "g",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "j",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "k",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "n",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "p",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "r",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "v",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 29,
+          "unit": "m",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "s",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "b",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "t",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "l",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "a",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "d",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "g",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "j",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "k",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "n",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "r",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "v",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-327": {
+      "1": [
+        {
+          "copy": 10,
+          "unit": "m",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "s",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "b",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "t",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "l",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "a",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "d",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "e",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "f",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "g",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "h",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "i",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "j",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "k",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "n",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "o",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "p",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "r",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "u",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "v",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "å",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "ä",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "ö",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": "s",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "b",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "t",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "l",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "a",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "f",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "g",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "p",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 34,
+          "unit": "m",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "s",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "b",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "t",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "l",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "a",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "f",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "g",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "p",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-328": {
+      "1": [
+        {
+          "copy": 17,
+          "unit": "m",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "s",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "b",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "t",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "l",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "d",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "f",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "g",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "h",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "j",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "k",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "n",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "p",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "r",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "v",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "ä",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": "s",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "b",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "t",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "l",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "d",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "f",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "g",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "h",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "j",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "k",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "n",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "p",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "r",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "v",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "ä",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G1-311": {
+      "2": [
+        {
+          "copy": 2,
+          "unit": "ll",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "tt",
+          "seedVariant": 1
+        }
+      ]
+    }
+  }
+}

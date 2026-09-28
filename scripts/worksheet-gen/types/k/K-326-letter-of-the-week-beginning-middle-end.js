@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'K-326',
   slug: 'letter-of-the-week-beginning-middle-end',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 beginning or end only (3-0-3) · L2 published · L3 eight pictures, four in the middle
+  difficulty: { 1: { ...D, positions: { ...D.positions, split: [3, 0, 3] } }, 2: D, 3: { ...D, positions: { ...D.positions, cards: 8, split: [2, 4, 2], cardH: 140, iconPx: 80 } } },
   i18n: { en: { title: "Beginning, Middle or End: Where Is the {U}?", instruction: "Say each picture. Color the box that shows where you hear {U}: at the beginning, in the middle or at the end." } },
 };

@@ -142,5 +142,35 @@
    "no": "Les hele fortellingen. De tre bildene viser ordene som mangler. Skriv hvert ord fra ordbanken. To ord i ordbanken blir ikke brukt.",
    "fi": "Lue koko tarina. Kolme kuvaa näyttää puuttuvat sanat. Kirjoita jokainen sana pankista omaan laatikkoonsa. Kaksi pankin sanaa jää yli."
   }
+ },
+ "K-317": {
+  "1": {
+   "en": "Trace the big and small letter, circle the three pictures whose name begins with {U}, then write a row of each.",
+   "de": "Spure das große und das kleine {U} nach. Kreise die drei Bilder ein, die mit {U} beginnen, und schreibe dann jede Form eine Reihe lang.",
+   "es": "Repasa la letra mayúscula y la minúscula, rodea los tres dibujos que empiezan con {U} y escribe una fila de cada una.",
+   "fr": "Repasse le grand {U} et le petit {L}. Entoure les trois images dont le nom commence par {L}, puis écris une ligne de chaque lettre.",
+   "it": "Ripassa la lettera grande e quella piccola, cerchia i tre disegni che iniziano con {U} e scrivi una riga di ognuna.",
+   "pt": "Cubra a letra maiúscula e a minúscula, circule as três figuras cujo nome começa com {U} e escreva uma linha de cada.",
+   "nl": "Trek de hoofdletter en de kleine letter na, omcirkel de drie plaatjes die met de {L} beginnen en schrijf dan een rij van elke letter.",
+   "sv": "Spåra stora och lilla {U}, ringa in de tre bilderna som börjar på {L} och skriv sedan en rad av varje bokstav.",
+   "da": "Skriv oven i det store og det lille bogstav. Sæt en ring om de tre billeder, der begynder med {U}, og skriv så en række af hvert bogstav.",
+   "no": "Spor stor og liten {U}. Sett ring rundt de tre bildene som begynner med {L}, og skriv så en rad av hver bokstav.",
+   "fi": "Jäljennä iso ja pieni kirjain. Ympyröi kolme kuvaa, joiden nimi alkaa {U}-kirjaimella, ja kirjoita sitten rivi kumpaakin."
+  }
+ },
+ "K-325": {
+  "1": {
+   "en": "Trace the letter, then circle the three pictures whose name ends with the letter {U}.",
+   "de": "Spure den Buchstaben nach. Kreise dann die drei Bilder ein, bei denen du {U} am Ende des Wortes hörst.",
+   "es": "Repasa la letra y rodea los tres dibujos que terminan con el sonido {U}.",
+   "fr": "Repasse la lettre, puis entoure les trois images dont le nom se termine par {L}.",
+   "it": "Ripassa la lettera, poi cerchia i tre disegni che finiscono con il suono {U}.",
+   "pt": "Cubra a letra e circule as três figuras cujo nome termina com o som de {U}.",
+   "nl": "Trek de letter na en omcirkel de drie plaatjes waarin je de {L} achteraan in het woord hoort.",
+   "sv": "Spåra bokstaven. Ringa in de tre bilderna där du hör {L} sist i ordet.",
+   "da": "Skriv bogstavet efter. Sæt en ring om de tre billeder, hvor du hører {U} bagest i ordet.",
+   "no": "Spor bokstaven. Sett ring rundt de tre bildene der du hører {L} helt til slutt i ordet.",
+   "fi": "Jäljennä kirjain. Ympyröi kolme kuvaa, joiden nimen lopussa kuuluu {U}-äänne."
+  }
  }
 }

@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G2-372',
   slug: 'digraphs-in-sentences',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 three sentences · L2 published
+  difficulty: { 1: { ...D, sentences: 3, total: [4, 8], hitsPerSentence: [1, 3] }, 2: D, 3: D },
+  interactive: base.interactiveFor('text'),
   i18n: { en: { title: "Digraphs in Sentences: Circle and Count sh", instruction: "Read the sentences. Circle every sh. Write how many you found in each sentence in its box." } },
   gradeBand: "G2",
 };

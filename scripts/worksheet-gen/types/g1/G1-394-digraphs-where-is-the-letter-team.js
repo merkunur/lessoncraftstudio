@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G1-394',
   slug: 'digraphs-where-is-the-letter-team',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L2 published · L3 at least four teams hidden inside the word
+  difficulty: { 1: D, 2: D, 3: { ...D, posSplit: [2, 4], minMiddle: 4 } },
+  interactive: base.interactiveFor('position'),
   i18n: { en: { title: "Where Is the Digraph? sh, ch and th in the Word", instruction: "Say each picture word. Where do you hear the letter team? Color one space: beginning, middle or end." } },
   gradeBand: "G1",
 };

@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G1-392',
   slug: 'digraphs-write-the-missing-letter-team',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 two teams to choose from (not three) · L2 published · L3 the team inside or at the end
+  difficulty: { 1: { ...D, bankTeams: 2, rows: 6, perTeam: [3, 3], capPx: 88, iconPx: 78 }, 2: D, 3: { ...D, onlyPos: ['middle', 'end'] } },
+  interactive: base.interactiveFor('gap'),
   i18n: { en: { title: "Missing Digraphs: Write sh, ch or th", instruction: "Say each picture word. Write the missing letter team from the top in the dashed space." } },
   gradeBand: "G1",
 };

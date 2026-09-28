@@ -99,6 +99,53 @@ const { portraitCard, nameGapRow, initialBank, anaphoraBlock, ownerLane, nameCar
 const KEY = 'pronouns';
 const ID = 'G1-352';
 const MAX_TRIES = 400;
+
+/*
+ * Level Set 2026-09-28: new copies read the published bank + the native panels' additions
+ * (data/b4/pronouns-levelset.json): { people:[portraits opened for the Level Set], <loc>:{ names, frames, anaphora,
+ * anaphoraSgpl, things } }. The published page (core level, copy 1) never reads it.
+ */
+let _ls;
+function levelSetData() {
+  if (_ls === undefined) {
+    const p = require('path').join(__dirname, '..', '..', 'data', 'b4', 'pronouns-levelset.json');
+    _ls = require('fs').existsSync(p) ? JSON.parse(require('fs').readFileSync(p, 'utf8')) : null;
+  }
+  return _ls;
+}
+function mergedBank(loc) {
+  const b = loadBank(KEY, loc);
+  const ls = levelSetData();
+  if (!ls) return b;
+  const x = ls[loc] || {};
+  const m = {
+    ...b,
+    people: [...b.people, ...(ls.people || [])],
+    names: [...b.names, ...(x.names || [])],
+    frames: [...(b.frames || []), ...(x.frames || [])],
+    anaphora: [...(b.anaphora || []), ...(x.anaphora || [])],
+    anaphoraSgpl: x.anaphoraSgpl || [],
+  };
+  if (b.possessive && (x.things || []).length) m.possessive = { ...b.possessive, things: [...b.possessive.things, ...x.things] };
+  return m;
+}
+const PRON_SCREEN = require('../../lib/pronouns-screen.js');
+/** The screen-version contract per layout (tap-choice); the oracle re-derives answers from the merged bank. */
+function interactiveFor(layout) {
+  return {
+    kind: 'tap-choice', item: '[data-lcs-item]', option: '[data-lcs-opt]',
+    metaAttrs: ['data-lcs-names', 'data-lcs-refs', 'data-lcs-thing', 'data-lcs-pron', 'data-lcs-plates', 'data-lcs-rest'], instructionKey: layout, screenHeight: 3600,
+    oracle: (items, l) => { const loc = (l || 'en').slice(0, 2); return PRON_SCREEN.oracle(layout, items, loc, mergedBank(loc)); },
+  };
+}
+/** The deal's source config for a face: the 4-chip variant (fr/es/pt), the 2-chip variant (fi) where the level has one, else the row. */
+function srcKeyFor(d, bank) {
+  if (localeClass(bank) === 'four' && d.four) return 'four';
+  if (collapsesPairs(bank) && d.two) return 'two';
+  return null;
+}
+/** The chips a deal can reach: a singles-only deal never reaches the pair chips. */
+function wholesOf(items, extra) { return [...items.flatMap((it) => (it.names || []).map((n) => n.name)), ...(extra || [])]; }
 const PAIR_TYPES = ['mp', 'fp', 'xp'];
 const PLATE_PX_PER_CHAR = 0.53;   // Nunito 800: 9.5 px/char at 18 (design §2, measured 8.2-9.4)
 const CARD_INNER_W = 302;         // (675 - 14) / 2 - 24 - 4 at cardPad 10 12 (design §2)
@@ -182,7 +229,7 @@ function localeClass(bank) {
  */
 function resolveBase(d, bank) {
   const cls = localeClass(bank);
-  const src = cls === 'four' && d.four ? d.four : d;
+  const src = cls === 'four' && d.four ? d.four : cls === 'objects' && d.obj ? d.obj : d;   // d.obj: the Level Set names-only level (6 singles + 4 objects)
   const cfg = {
     cls, cards: d.cards, cols: d.cols, rows: d.rows,
     singles: src.singles, pairs: cls === 'objects' ? 0 : src.pairs, objects: cls === 'objects' ? d.objects : 0,
@@ -476,7 +523,7 @@ function dealFace(rng, bank, cfg, answerFor, loc) {
       // the floor runs over the chips THIS face can reach: the person keys' answers (+ the object chips when objects deal)
       const hist = {};
       out.forEach((c) => { hist[c.chip] = (hist[c.chip] || 0) + 1; });
-      const personKeys = collapsesPairs(bank) ? ['m1', 'f1', 'p'] : ['m1', 'f1', 'mp', 'fp', 'xp'];
+      const personKeys = cfg.pairs === 0 ? ['m1', 'f1'] : collapsesPairs(bank) ? ['m1', 'f1', 'p'] : ['m1', 'f1', 'mp', 'fp', 'xp'];
       const reachable = new Set(personKeys.map(answerFor).filter((v) => v != null));
       if (cfg.objects) for (const v of Object.values(bank.objectMap)) reachable.add(v);
       let under = false;
@@ -497,12 +544,12 @@ function rootStyle() { return 'flex:1;display:flex;flex-direction:column;min-hei
 /* ---------- F1 replace ---------- */
 function buildReplace(bank, d, loc, rng) {
   if (!(d.rows >= 6 && d.rows <= 12)) throw new Error(`${ID} replace: rows ${d.rows} outside [6, 12]`);
-  if (d.bank !== true) throw new Error(`${ID} replace: bank must be true (the d3 recall variant is unpublished)`);
+  if (d.bank !== true && d.recall !== true) throw new Error(`${ID} replace: bank must be true unless the level is the recall level (recall:true)`);
   if (!(d.pic >= 44 && d.pairPic >= 44)) throw new Error(`${ID} replace: pic ${d.pic} / pairPic ${d.pairPic} below the G1 floor 44`);
   if (!(d.gapW >= 64 && d.gapH >= 24)) throw new Error(`${ID} replace: gap box ${d.gapW} x ${d.gapH} too small for a G1 hand`);
   if (!(d.maxLine >= 20 && d.maxLine <= 55)) throw new Error(`${ID} replace: maxLine ${d.maxLine} outside [20, 55]`);
   if (!(d.laneMin >= 74)) throw new Error(`${ID} replace: laneMin ${d.laneMin} < 74 (the measured lane)`);
-  const cfg = faceDeal(d, bank, localeClass(bank) === 'four' ? 'four' : null, { pic: d.pic, pairPic: d.pairPic, mixFloor: 1 });
+  const cfg = faceDeal(d, bank, srcKeyFor(d, bank), { pic: d.pic, pairPic: d.pairPic, mixFloor: 1 });
   if (cfg.singles + cfg.pairs !== d.rows) throw new Error(`${ID} replace: singles ${cfg.singles} + pairs ${cfg.pairs} != rows ${d.rows}`);
   if (!Array.isArray(bank.frames) || bank.frames.length < d.rows) throw new Error(`${ID} replace: ${(bank.frames || []).length} frames < rows ${d.rows}`);
   const items = dealFace(rng, bank, cfg, (k) => answerChip(bank, 'replace', k), loc);
@@ -525,14 +572,78 @@ function buildReplace(bank, d, loc, rng) {
     const answer = bank.initial[it.chip];
     lanes.push(nameGapRow({ pics: picsOf(it), line1, line2, gapW: d.gapW, gapH: d.gapH, picPx: d.pic, pairPx: d.pairPic, frameId: frame.id, num, key: it.key, answer, names }));
   }
-  const bankHtml = initialBank({ words: bank.initial, rng, chipOrder: bank.initial });
-  const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="replace" data-lcs-rows="${d.rows}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-bank="1" data-lcs-class="${cfg.cls}" style="${rootStyle()}">` +
+  const bankHtml = d.bank === true ? initialBank({ words: bank.initial, rng, chipOrder: bank.initial }) : '';
+  // Level Set stamps (absent on the published page): no bank -> the words the answers come from; singles only
+  const lsStamps = (d.bank === true ? '' : ` data-lcs-words="${bank.initial.join('|')}"`) + (d.singlesOnly && cfg.pairs === 0 ? ' data-lcs-singles="1"' : '');
+  const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="replace" data-lcs-rows="${d.rows}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-bank="${d.bank === true ? 1 : 0}"${lsStamps} data-lcs-class="${cfg.cls}" style="${rootStyle()}">` +
     bankHtml + `<div data-lcs-lanes style="flex:1;display:grid;grid-template-rows:repeat(${d.rows},minmax(${d.laneMin}px,1fr));row-gap:${d.laneGap}px;min-height:0">${lanes.join('')}</div></div>`;
-  return { bodyHtml, meta: { face: 'replace', cls: cfg.cls, items: items.map((it) => [it.key, it.chip, it.people.map((p) => p.key).join('+'), namesOf(it).join('+')]) } };
+  return { bodyHtml, meta: { face: 'replace', cls: cfg.cls, items: items.map((it) => [it.key, it.chip, it.people.map((p) => p.key).join('+'), namesOf(it).join('+')]), wholes: wholesOf(items, lanes.map((l) => (/data-lcs-frame="([^"]*)"/.exec(l) || [])[1])) } };
 }
 
 /* ---------- F2 anaphora ---------- */
+/**
+ * Level Set 2026-09-28 — the harder "who is he": ONE person + a PAIR of the other sex, in two clauses that put them
+ * in different places ("Mia is at home. Tom and Leo are at the park."), then one sentence about each: he/she vs they
+ * — number, not sex. The two clauses keep "they" from meaning all three (the fr + en panels). Where she and they
+ * are one word (de sie, nl zij: the pair's chip IS the she-chip) the single person is always a boy, so the pronoun
+ * alone tells them apart. de/nl have no pair entry on this face (map.anaphora): the pair takes the replace face's.
+ */
+function buildAnaphoraSgpl(bank, d, loc, rng) {
+  const list = bank.anaphoraSgpl || [];
+  if (list.length < d.pairs) throw new Error(`${ID} anaphora sgpl: ${list.length} frames < ${d.pairs} — REFUSED`);
+  const chipOf = (key) => { const a = answerChip(bank, 'anaphora', key); return a != null ? a : answerChip(bank, 'replace', key); };
+  const sheIsThey = chipOf('fp') === chipOf('f1');
+  const PAIR_PX = 44;   // a pair shows two portraits at 44: only pictures opened as legible at 44 (the design's per-picture minPx)
+  const pool = bank.people.filter((p) => p.minPx <= d.pic), pairPool = bank.people.filter((p) => p.minPx <= PAIR_PX);
+  const nameG = (g) => bank.names.filter((n) => n.gender === g);
+  const frames = rng.sample(list, d.pairs);
+  for (let t = 0; t < MAX_TRIES; t++) {
+    let ok = true;
+    const blocks = [];
+    const usedKeys = new Set();
+    const draw = (sex, n) => { const cands = (n > 1 ? pairPool : pool).filter((p) => p.depicted === sex && !usedKeys.has(p.key)); if (cands.length < n) return null; const out = rng.sample(cands, n); out.forEach((p) => usedKeys.add(p.key)); return out; };
+    const lists = { f: rng.shuffle(nameG('f')), m: rng.shuffle(nameG('m')) };
+    for (const frame of frames) {
+      const sx = sheIsThey ? 'm' : (rng.int(0, 1) ? 'm' : 'f');
+      const ox = sx === 'm' ? 'f' : 'm';
+      const one = draw(sx, 1), two = draw(ox, 2);
+      if (!one || !two) { ok = false; break; }
+      const n1 = lists[sx].pop(), n2 = [lists[ox].pop(), lists[ox].pop()];
+      if (!n1 || n2.some((x) => !x)) { ok = false; break; }
+      const mk = (people, names, target) => {
+        const refs = people.map((p, k) => ({ key: p.key, depicted: p.depicted, name: names[k].name, nameGender: names[k].gender }));
+        const key = keyOf(refs, bank);
+        const chip = chipOf(key);
+        if (chip == null) throw new Error(`${ID} anaphora sgpl: key ${key} reaches no chip in ${loc}`);
+        return { people, names, refs, key, chip, target, plate: fillSubject('{subj}', names.map((n) => n.name), bank.and, bank.andBefore) };
+      };
+      const referents = [mk(one, [n1], 'a'), mk(two, n2, 'b')];
+      if (bank.initial[referents[0].chip] === bank.initial[referents[1].chip]) { ok = false; break; }
+      const introA = String(frame.introA).replace('{a}', referents[0].plate), introB = String(frame.introB).replace('{b}', referents[1].plate);
+      // 40, not the bank's 42: a 42-char clause of wide letters overflowed the 339 px text column (de, measured) — re-deal shorter names
+      if ([...introA].length > 40 || [...introB].length > 40) { ok = false; break; }
+      const sentences = frame.s.map((x) => {
+        if (!String(x.text).startsWith('{P} ')) throw new Error(`${ID} anaphora sgpl: "${x.text}" does not start with {P}`);
+        const r = referents[x.key === 'pl' ? 1 : 0];
+        return { pronoun: bank.initial[r.chip], rest: String(x.text).slice('{P} '.length), ref: r.target };
+      });
+      blocks.push({ frame, referents, intro: introA, intro2: introB, sentences });
+    }
+    if (!ok) continue;
+    const html = blocks.map((b) => anaphoraBlock({
+      referents: b.referents.map((r) => ({ pics: picsOf(r), pairPx: PAIR_PX, name: r.plate, target: r.target, key: r.key, refs: r.people.map((p) => p.key), names: r.names.map((n) => n.name) })),
+      intro: b.intro, intro2: b.intro2, sentences: b.sentences, namesW: d.namesWSgpl || 230, zone: d.zone, platePx: d.plateFont, ...(d.refPx ? { refPx: d.refPx } : {}),
+    })).join('');
+    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="anaphora" data-lcs-sgpl="1" data-lcs-pairs="${d.pairs}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-class="three" style="${rootStyle()}">` +
+      `<div data-lcs-lanes style="flex:1;display:grid;grid-template-rows:repeat(${d.pairs},minmax(${d.cardMin}px,1fr));row-gap:${d.cardGap}px;min-height:0">${html}</div></div>`;
+    return { bodyHtml, meta: { face: 'anaphora', sgpl: true, blocks: blocks.map((b) => [b.frame.id, b.referents.map((r) => r.key + ':' + r.people.map((p) => p.key).join('+')).join(' '), b.sentences.map((x) => x.pronoun + '>' + x.ref).join(' ')]), wholes: [...blocks.flatMap((b) => b.referents.flatMap((r) => r.names.map((n) => n.name))), ...blocks.map((b) => b.frame.id)] } };
+  }
+  throw new Error(`${ID}: ${loc} cannot deal the harder anaphora face — REFUSED`);
+}
+
 function buildAnaphora(bank, d, loc, rng) {
+  if (d.sgpl && !collapsesPairs(bank)) return buildAnaphoraSgpl(bank, d, loc, rng);
+  const noPics = !!(d.sgpl && collapsesPairs(bank));   // fi: the page is already one person + a pair -> the harder level drops the pictures
   if (!(d.pairs >= 4 && d.pairs <= 6)) throw new Error(`${ID} anaphora: pairs ${d.pairs} outside [4, 6]`);
   if (d.sentencesPerPair !== 2) throw new Error(`${ID} anaphora: sentencesPerPair ${d.sentencesPerPair} != 2`);
   if (!(d.pic >= 36)) throw new Error(`${ID} anaphora: pic ${d.pic} < 36`);
@@ -593,12 +704,12 @@ function buildAnaphora(bank, d, loc, rng) {
     }
     if (!ok) continue;
     const html = blocks.map((b) => anaphoraBlock({
-      referents: b.referents.map((r) => ({ pics: picsOf(r), name: r.plate, target: r.target, key: r.key, refs: r.people.map((p) => p.key), names: r.names.map((n) => n.name) })),
-      intro: b.intro, sentences: b.sentences, namesW: d.namesW, zone: d.zone, platePx: d.plateFont,
+      referents: b.referents.map((r) => ({ pics: noPics ? [] : picsOf(r), name: r.plate, target: r.target, key: r.key, refs: r.people.map((p) => p.key), names: r.names.map((n) => n.name) })),
+      intro: b.intro, sentences: b.sentences, namesW: d.namesW, zone: d.zone, platePx: d.plateFont, ...(d.refPx ? { refPx: d.refPx } : {}),
     })).join('');
-    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="anaphora" data-lcs-pairs="${d.pairs}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-class="${two ? 'two' : 'three'}" style="${rootStyle()}">` +
+    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="anaphora"${noPics ? ' data-lcs-nopics="1"' : ''} data-lcs-pairs="${d.pairs}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-class="${two ? 'two' : 'three'}" style="${rootStyle()}">` +
       `<div data-lcs-lanes style="flex:1;display:grid;grid-template-rows:repeat(${d.pairs},minmax(${d.cardMin}px,1fr));row-gap:${d.cardGap}px;min-height:0">${html}</div></div>`;
-    return { bodyHtml, meta: { face: 'anaphora', blocks: blocks.map((b) => [b.frame.id, b.referents.map((r) => r.key + ':' + r.people.map((p) => p.key).join('+')).join(' '), b.sentences.map((s) => s.pronoun + '>' + s.ref).join(' ')]) } };
+    return { bodyHtml, meta: { face: 'anaphora', blocks: blocks.map((b) => [b.frame.id, b.referents.map((r) => r.key + ':' + r.people.map((p) => p.key).join('+')).join(' '), b.sentences.map((s) => s.pronoun + '>' + s.ref).join(' ')]), wholes: [...blocks.flatMap((b) => b.referents.flatMap((r) => r.names.map((n) => n.name))), ...blocks.map((b) => b.frame.id)] } };
   }
   throw new Error(`${ID}: ${loc} cannot deal the anaphora face — REFUSED`);
 }
@@ -619,6 +730,7 @@ function buildPossessive(bank, d, loc, rng) {
   if (P.chips.length * chipW + (P.chips.length - 1) * 12 > 487) throw new Error(`${ID} possessive: ${P.chips.length} chips x ${chipW} do not fit the 487 text column`);
   const srcKey = pc === 'ownerEnding' ? 'ending' : pc === 'ownerFour' ? 'four' : null;
   const cfg = faceDeal(d, bank, srcKey, { pic: d.ownerPx, pairPic: d.ownerPx, mixFloor: 0 });
+  const write = d.write === true;   // Level Set: the harder level writes the word (no chips)
   if (cfg.singles + cfg.pairs !== d.rows) throw new Error(`${ID} possessive: singles ${cfg.singles} + pairs ${cfg.pairs} != rows ${d.rows} (class ${pc})`);
   if (pc === 'ownerEnding' && cfg.pairs) throw new Error(`${ID} possessive: the ownerEnding class (de) takes single owners only`);
   if (cfg.pairs && !(P.frame && P.frame.pl)) throw new Error(`${ID} possessive: pairs need frame.pl`);
@@ -660,11 +772,12 @@ function buildPossessive(bank, d, loc, rng) {
     if (pc === 'thingAgree' && (genders.f < d.thingGenderMin || genders.mn < d.thingGenderMin)) continue;
     const html = lanes.map((l, i) => ownerLane({
       owners: { pics: picsOf(l.it) }, thing: { src: fileUri(l.thing.pic.theme, l.thing.pic.noun), key: l.thing.key }, frame: l.text,
-      chips: P.chips, correctIndex: l.chip, chipW, chipFont: d.chipFont, num: l.num, ownerKey: l.it.key, thingKey: l.thing.key, names: l.names,
+      chips: P.chips, correctIndex: l.chip, chipW, chipFont: d.chipFont, num: l.num, ownerKey: l.it.key, thingKey: l.thing.key, names: l.names, write,
     })).join('');
-    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="possessive" data-lcs-rows="${d.rows}" data-lcs-chips="${P.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-mixfloor="${d.mixFloor}" data-lcs-chipw="${chipW}" data-lcs-poss-class="${pc}" style="${rootStyle()}">` +
+    const lsStamps = (write ? ` data-lcs-write="1" data-lcs-words="${P.chips.join('|')}"` : '') + (d.singlesOnly && cfg.pairs === 0 ? ' data-lcs-singles="1"' : '');
+    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="possessive" data-lcs-rows="${d.rows}" data-lcs-chips="${P.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-mixfloor="${d.mixFloor}" data-lcs-chipw="${chipW}" data-lcs-poss-class="${pc}"${lsStamps} style="${rootStyle()}">` +
       `<div data-lcs-lanes style="flex:1;display:grid;grid-template-rows:repeat(${d.rows},minmax(${d.laneMin}px,1fr));row-gap:${d.laneGap}px;min-height:0">${html}</div></div>`;
-    return { bodyHtml, meta: { face: 'possessive', cls: pc, lanes: lanes.map((l) => [l.it.key, l.chip, l.it.people.map((p) => p.key).join('+'), l.names.join('+'), l.thing.key]) } };
+    return { bodyHtml, meta: { face: 'possessive', cls: pc, lanes: lanes.map((l) => [l.it.key, l.chip, l.it.people.map((p) => p.key).join('+'), l.names.join('+'), l.thing.key]), wholes: wholesOf(items, lanes.map((l) => l.thing.key)) } };
   }
   throw new Error(`${ID}: ${loc} cannot deal the possessive face (class ${pc}, mixFloor ${d.mixFloor}) — REFUSED`);
 }
@@ -678,9 +791,13 @@ function buildSort(bank, d, loc, rng) {
   if (!(d.lineMin >= 1 && d.lineGap >= 34 && d.lineGap <= 58)) throw new Error(`${ID} sort: lineMin ${d.lineMin} / lineGap ${d.lineGap}`);
   const cls = localeClass(bank);
   const srcKey = cls === 'four' ? 'four' : cls === 'objects' ? 'obj' : collapsesPairs(bank) ? 'two' : null;
+  if (d.noPics && !(d.cardH >= 44)) throw new Error(`${ID} sort: a names-only level needs cardH (the caption card)`);
   const cfg = faceDeal(d, bank, srcKey, { objects: true, pic: d.pic, pairPic: d.pairPic, mixFloor: 1 });
   if (cfg.singles + cfg.pairs + cfg.objects !== d.cards) throw new Error(`${ID} sort: singles ${cfg.singles} + pairs ${cfg.pairs} + objects ${cfg.objects} != cards ${d.cards} (class ${cls})`);
-  const bins = bank.chips.map((head, idx) => ({ head, idx }));
+  // Level Set: binsUsed shows only the pronouns the deal can reach (singles only: he / she) — never an empty bin
+  const usedIdx = d.binsUsed && cfg.pairs === 0 && cfg.objects === 0 ? [...new Set(['m1', 'f1'].map((k) => answerChip(bank, 'sort', k)))].sort((a, b) => a - b) : null;
+  if (usedIdx && usedIdx.some((v, i) => v !== i)) throw new Error(`${ID} sort: binsUsed needs the used chips to be the first ones (${usedIdx})`);
+  const bins = (usedIdx ? bank.chips.slice(0, usedIdx.length) : bank.chips).map((head, idx) => ({ head, idx }));
   const binLayout = bins.length === 4 ? 'grid' : 'row';
   const binH = binLayout === 'grid' ? d.gridBinH : d.binH;
   const fillLines = Math.floor((binH - 10) / d.lineGap + 0.5);
@@ -709,13 +826,14 @@ function buildSort(bank, d, loc, rng) {
     const cards = items.map((it) => {
       if (it.kind === 'object') {
         const o = it.object;
-        return { pics: [{ src: fileUri(o.pic.theme, o.pic.noun), key: o.key }], caption: objectCaption(o, loc, 'bare'), key: it.chip, itemKey: it.key, refs: [o.key], names: [] };
+        return { pics: d.noPics ? [] : [{ src: fileUri(o.pic.theme, o.pic.noun), key: o.key }], caption: objectCaption(o, loc, 'bare'), key: it.chip, itemKey: it.key, refs: [o.key], names: [] };
       }
-      return { pics: picsOf(it), caption: fillSubject('{subj}', namesOf(it), bank.and, bank.andBefore), key: it.chip, itemKey: it.key, refs: it.people.map((p) => p.key), names: namesOf(it) };
+      return { pics: d.noPics ? [] : picsOf(it), caption: fillSubject('{subj}', namesOf(it), bank.and, bank.andBefore), key: it.chip, itemKey: it.key, refs: it.people.map((p) => p.key), names: namesOf(it) };
     });
-    const html = nameCardBins({ cards, bins, binLayout, binH, lineCounts });
-    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="sort" data-lcs-cards="${cards.length}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-binh="${binH}" data-lcs-class="${cls}" data-lcs-dropped="${dropped}" style="${rootStyle()}">${html}</div>`;
-    return { bodyHtml, meta: { face: 'sort', cls, binLayout, binH, lineCounts, dropped, cards: cards.map((c) => [c.itemKey, c.key, c.refs.join('+'), c.names.join('+')]) } };
+    const html = nameCardBins({ cards, bins, binLayout, binH, lineCounts, ...(d.cardH ? { cardH: d.cardH } : {}) });
+    const lsStamps = d.noPics ? ' data-lcs-nopics="1"' : '';
+    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="sort"${lsStamps} data-lcs-cards="${cards.length}" data-lcs-chips="${bins.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-binh="${binH}" data-lcs-class="${cls}" data-lcs-dropped="${dropped}" style="${rootStyle()}">${html}</div>`;
+    return { bodyHtml, meta: { face: 'sort', cls, binLayout, binH, lineCounts, dropped, cards: cards.map((c) => [c.itemKey, c.key, c.refs.join('+'), c.names.join('+')]), wholes: cards.flatMap((c) => c.names.length ? c.names : c.refs) } };
   }
   throw new Error(`${ID}: ${loc} cannot deal the sort face (${cfg.singles} singles + ${cfg.pairs} pairs + ${cfg.objects} objects) — REFUSED`);
 }
@@ -723,7 +841,7 @@ function buildSort(bank, d, loc, rng) {
 /* ---------- F5 rewrite ---------- */
 function buildRewrite(bank, d, loc, rng) {
   if (!(d.rows >= 6 && d.rows <= 12)) throw new Error(`${ID} rewrite: rows ${d.rows} outside [6, 12]`);
-  if (d.ruling !== true || d.bank !== false) throw new Error(`${ID} rewrite: ruling must be true and bank false (the face is the writing row, never a bank)`);
+  if (d.ruling !== true || (d.bank !== false && d.bankTop !== true)) throw new Error(`${ID} rewrite: ruling must be true and bank false (the face is the writing row; only the easier level prints a bank, bankTop:true)`);
   if (!(d.glyphH >= 24)) throw new Error(`${ID} rewrite: glyphH ${d.glyphH} < the G2 floor 24`);
   if (!(d.rowH >= d.glyphH + 20)) throw new Error(`${ID} rewrite: rowH ${d.rowH} too low for glyphH ${d.glyphH}`);
   if (!(d.w >= 500 && d.w <= 535)) throw new Error(`${ID} rewrite: w ${d.w} outside [500, 535] (the 104 px portrait column)`);
@@ -731,7 +849,7 @@ function buildRewrite(bank, d, loc, rng) {
   if (!(d.maxLine >= 20 && d.maxLine <= 56)) throw new Error(`${ID} rewrite: maxLine ${d.maxLine} outside [20, 56]`);
   if (!(d.maxAnswer >= 10) || need('x'.repeat(d.maxAnswer), d.glyphH) > d.w) throw new Error(`${ID} rewrite: maxAnswer ${d.maxAnswer} glyphs need ${need('x'.repeat(d.maxAnswer), d.glyphH)} > ${d.w}`);
   if (!(d.rowMin >= 77)) throw new Error(`${ID} rewrite: rowMin ${d.rowMin} < 77 (the measured row)`);
-  const cfg = faceDeal(d, bank, localeClass(bank) === 'four' ? 'four' : null, { pic: d.pic, pairPic: d.pairPic, mixFloor: 1 });
+  const cfg = faceDeal(d, bank, srcKeyFor(d, bank), { pic: d.pic, pairPic: d.pairPic, mixFloor: 1 });
   if (cfg.singles + cfg.pairs !== d.rows) throw new Error(`${ID} rewrite: singles ${cfg.singles} + pairs ${cfg.pairs} != rows ${d.rows}`);
   if (!Array.isArray(bank.frames) || bank.frames.length < d.rows) throw new Error(`${ID} rewrite: ${(bank.frames || []).length} frames < rows ${d.rows}`);
   const items = dealFace(rng, bank, cfg, (k) => answerChip(bank, 'rewrite', k), loc);
@@ -751,11 +869,13 @@ function buildRewrite(bank, d, loc, rng) {
     }
     if (pick < 0) throw new Error(`${ID} rewrite: no frame fits "${names.join(' ')}" (printed <= ${d.maxLine}, answer <= ${d.maxAnswer}) — REFUSED`);
     const frame = frames.splice(pick, 1)[0];
-    rows.push(rewriteLane({ pics: picsOf(it), sentence, w: d.w, h: d.rowH, glyphH: d.glyphH, num, frameId: frame.id, key: it.key, answer, picPx: d.pic, pairPx: d.pairPic, names }));
+    rows.push(rewriteLane({ pics: d.noPics ? [] : picsOf(it), sentence, w: d.w, h: d.rowH, glyphH: d.glyphH, num, frameId: frame.id, key: it.key, answer, picPx: d.pic, pairPx: d.pairPic, names }));
   }
-  const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="rewrite" data-lcs-rows="${d.rows}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-glyphh="${d.glyphH}" data-lcs-w="${d.w}" data-lcs-class="${cfg.cls}" style="${rootStyle()}">` +
+  const lsStamps = (d.bankTop ? ' data-lcs-bank="1"' : '') + (d.noPics ? ' data-lcs-nopics="1"' : '') + (d.singlesOnly && cfg.pairs === 0 ? ' data-lcs-singles="1"' : '');
+  const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-layout="rewrite" data-lcs-rows="${d.rows}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-glyphh="${d.glyphH}" data-lcs-w="${d.w}" data-lcs-class="${cfg.cls}"${lsStamps} style="${rootStyle()}">` +
+    (d.bankTop ? initialBank({ words: bank.initial, rng, chipOrder: bank.initial }) : '') +
     `<div data-lcs-lanes style="flex:1;display:grid;grid-template-rows:repeat(${d.rows},minmax(${d.rowMin}px,1fr));row-gap:${d.rowGap}px;min-height:0">${rows.join('')}</div></div>`;
-  return { bodyHtml, meta: { face: 'rewrite', cls: cfg.cls, items: items.map((it) => [it.key, it.chip, it.people.map((p) => p.key).join('+'), namesOf(it).join('+')]) } };
+  return { bodyHtml, meta: { face: 'rewrite', cls: cfg.cls, items: items.map((it) => [it.key, it.chip, it.people.map((p) => p.key).join('+'), namesOf(it).join('+')]), wholes: wholesOf(items, rows.map((l) => (/data-lcs-frame="([^"]*)"/.exec(l) || [])[1])) } };
 }
 
 /* ------------------------------------------------------------------ verify (page side) — the five faces ------------------------------------------------------------------ */
@@ -778,9 +898,10 @@ function VERIFY_FACE() {
   const andAlts = (root.dataset.lcsAndalt || '').split(' ').filter(Boolean);
   const picsWant = (key) => (/^(m1|f1)$/.test(key) || /^obj:/.test(key) ? 1 : /^(mp|fp|xp|p)$/.test(key) ? 2 : -1);
   const srcs = new Set(), names = new Set();
+  const noPics = !!root.dataset.lcsNopics;   // Level Set: the names-only level
   const checkPics = (el, key, L, floor) => {
     const imgs = [...el.querySelectorAll('img[data-lcs-pic]')];
-    const want = picsWant(key);
+    const want = noPics && picsWant(key) > 0 ? 0 : picsWant(key);
     if (want < 0) fails.push(`${L}: key "${key}" is not m1|f1|mp|fp|xp|p|obj:*`);
     if (imgs.length !== want) fails.push(`${L}: ${imgs.length} portraits for key ${key}`);
     imgs.forEach((img) => {
@@ -832,9 +953,11 @@ function VERIFY_FACE() {
 
   if (layout === 'replace') {
     const rows = +root.dataset.lcsRows;
+    const recall = root.dataset.lcsBank === '0';   // Level Set: the harder level has no bank
     const banner = root.querySelector('[data-lcs-bank-banner]');
-    if (!banner) fails.push('no bank banner (the face is bank:true)');
-    const bankWords = banner ? [...banner.querySelectorAll('[data-lcs-bank-word]')].map((w) => w.dataset.lcsBankWord) : [];
+    if (!banner && !recall) fails.push('no bank banner (the face is bank:true)');
+    if (banner && recall) fails.push('a bank banner on the recall level');
+    const bankWords = banner ? [...banner.querySelectorAll('[data-lcs-bank-word]')].map((w) => w.dataset.lcsBankWord) : (root.dataset.lcsWords || '').split('|').filter(Boolean);
     if (bankWords.length < 2 || new Set(bankWords.map(fold)).size !== bankWords.length) fails.push(`bank words ${JSON.stringify(bankWords)} (>= 2, distinct)`);
     if (banner) banner.querySelectorAll('[data-lcs-bank-word]').forEach((w) => fontOk(w, 'bank word'));
     const lanes = laneGrid('[data-lcs-frame]', 'lane', (ln) => contentBox(ln, 'p, img'));
@@ -866,7 +989,8 @@ function VERIFY_FACE() {
       if (p2.scrollWidth > p2.clientWidth + 0.6) fails.push(`${L}: line 2 overflows`);
       fontOk(p1, L); fontOk(p2, L);
     });
-    if (nums.size < 2) fails.push('lanes carry one number only (no singular / plural contrast)');
+    if (nums.size < 2 && !root.dataset.lcsSingles) fails.push('lanes carry one number only (no singular / plural contrast)');
+    if (nums.size !== 1 && root.dataset.lcsSingles) fails.push('a singles-only page carries a pair');
     if (answers.size < 2) fails.push('only one answer is ever correct (no discrimination)');
   } else if (layout === 'anaphora') {
     const pairs = +root.dataset.lcsPairs;
@@ -891,8 +1015,11 @@ function VERIFY_FACE() {
       if (!byT.a || !byT.b) fails.push(`${L}: referents are not a + b`);
       if (byT.a && byT.b && byT.a.dataset.lcsKey === byT.b.dataset.lcsKey) fails.push(`${L}: both referents share the key ${byT.a.dataset.lcsKey} (no single solution)`);
       const intro = bl.querySelector('[data-lcs-intro]');
+      const intro2 = bl.querySelector('[data-lcs-intro2]');
+      if (root.dataset.lcsSgpl && !intro2) fails.push(`${L}: the harder level needs two intro clauses`);
+      const introText = (intro ? intro.textContent : '') + ' ' + (intro2 ? intro2.textContent : '');
       if (!intro) fails.push(`${L}: no intro`);
-      else { refs.forEach((rf) => (rf.dataset.lcsNames || '').split('|').filter(Boolean).forEach((n) => { if (!hasWord(intro.textContent, n)) fails.push(`${L}: the intro lacks "${n}"`); })); oneLine(intro, L + ' intro', 26); fontOk(intro, L); }
+      else { refs.forEach((rf) => (rf.dataset.lcsNames || '').split('|').filter(Boolean).forEach((n) => { if (!hasWord(introText, n)) fails.push(`${L}: the intro lacks "${n}"`); })); oneLine(intro, L + ' intro', 26); fontOk(intro, L); if (intro2) { oneLine(intro2, L + ' intro 2', 26); fontOk(intro2, L); } }
       const sents = [...bl.querySelectorAll('[data-lcs-anaphor]')];
       if (sents.length !== 2) fails.push(`${L}: ${sents.length} sentences`);
       const prons = sents.map((s) => (s.querySelector('[data-lcs-pronoun]') || {}).dataset ? s.querySelector('[data-lcs-pronoun]').dataset.lcsPronoun : '');
@@ -922,18 +1049,19 @@ function VERIFY_FACE() {
     if (lanes.length < 6 || lanes.length > 12) fails.push(`${lanes.length} lanes outside [6, 12]`);
     let firstOrder = null;
     const hist = {}, thingSrcs = new Set(), keys = new Set();
+    const writeLv = root.dataset.lcsWrite === '1';   // Level Set: the harder level writes the word
     lanes.forEach((ln, i) => {
       const L = `lane ${i + 1}`;
       const key = ln.dataset.lcsOwner, nm = (ln.dataset.lcsNames || '').split('|').filter(Boolean);
       const chips = [...ln.querySelectorAll('[data-lcs-chip]')];
-      if (chips.length !== nChips) fails.push(`${L}: ${chips.length} chips, config says ${nChips}`);
+      if (chips.length !== (writeLv ? 0 : nChips)) fails.push(`${L}: ${chips.length} chips, config says ${writeLv ? 0 : nChips}`);
       const correct = chips.filter((c) => c.dataset.lcsCorrect);
-      if (correct.length !== 1) fails.push(`${L}: ${correct.length} correct chips`);
+      if (!writeLv && correct.length !== 1) fails.push(`${L}: ${correct.length} correct chips`);
       if (correct[0] && correct[0].dataset.lcsChip !== ln.dataset.lcsChipKey) fails.push(`${L}: the correct chip ${correct[0].dataset.lcsChip} != chip-key ${ln.dataset.lcsChipKey}`);
-      const labels = chips.map((c) => c.dataset.lcsLabel);
+      const labels = writeLv ? (root.dataset.lcsWords || '').split('|').filter(Boolean) : chips.map((c) => c.dataset.lcsLabel);
       const order = labels.join('|');
       if (firstOrder == null) firstOrder = order; else if (order !== firstOrder) fails.push(`${L}: chip order differs (position leak)`);
-      if (new Set(chips.map((c) => c.getAttribute('style'))).size !== 1) fails.push(`${L}: chips styled differently`);
+      if (!writeLv && new Set(chips.map((c) => c.getAttribute('style'))).size !== 1) fails.push(`${L}: chips styled differently`);
       chips.forEach((c) => { const b = r(c); if (b.height < G1 - 0.6) fails.push(`${L}: a chip ${b.height.toFixed(1)} high < ${G1}`); if (c.textContent.trim() !== c.dataset.lcsLabel) fails.push(`${L}: a chip prints "${c.textContent.trim()}" not its label`); if (c.scrollWidth > c.clientWidth + 0.6) fails.push(`${L}: the chip "${c.dataset.lcsLabel}" overflows its pill`); });
       const p = ln.querySelector('[data-lcs-frametext]');
       if (!p) { fails.push(`${L}: no frame text`); return; }
@@ -985,14 +1113,17 @@ function VERIFY_FACE() {
       if (!(bin >= 0 && bin < bins.length)) fails.push(`${L}: bin ${c.dataset.lcsKey} out of range`);
       const cap = c.querySelector('[data-lcs-caption]');
       if (!cap || cap.textContent.trim() !== c.dataset.lcsSortword || !cap.textContent.trim()) fails.push(`${L}: caption "${cap && cap.textContent.trim()}" != sortword "${c.dataset.lcsSortword}"`);
-      if (cap) { if (cap.scrollHeight > 37) fails.push(`${L}: caption ${cap.scrollHeight} px high > 37`); if (cap.scrollWidth > cap.clientWidth + 0.6) fails.push(`${L}: caption overflows`); fontOk(cap, L); }
+      // at most TWO lines (counted with the caption's own line height: an accent — Á, Å — rises a px or two above the
+      // line box, so a pixel cap of 37 mis-read two-line "Adrián y Rodrigo" as a wrap; a third line still fails)
+      const capLines = cap ? (() => { const rg = document.createRange(); rg.selectNodeContents(cap); return new Set([...rg.getClientRects()].filter((q) => q.width > 0).map((q) => Math.round(q.top))).size; })() : 0;
+      if (cap) { if (capLines > 2) fails.push(`${L}: caption ${cap.scrollHeight} px high = ${capLines} lines > 2`); if (cap.scrollWidth > cap.clientWidth + 0.6) fails.push(`${L}: caption overflows`); fontOk(cap, L); }
       if (heads.some((h) => fold(h) === fold(c.dataset.lcsSortword))) fails.push(`${L}: the caption equals a bin head`);
       nm.forEach((n) => { if (!hasWord(c.dataset.lcsSortword, n)) fails.push(`${L}: caption lacks "${n}"`); });
       const imgs = checkPics(c, key, L, G1);
       checkNames(nm, key, L);
       if (/^obj:/.test(key) && nm.length) fails.push(`${L}: an object card carries names`);
       if (r(c).bottom > r(shelf).bottom + 0.6 || r(c).right > r(shelf).right + 0.6) fails.push(`${L}: the card spills out of the shelf`);
-      if (bin >= 0 && bin < bins.length) loads[bin] += imgs.length > 1 ? 2 : 1;
+      if (bin >= 0 && bin < bins.length) loads[bin] += picsWant(key) === 2 ? 2 : 1;
       keys.add(key);
     });
     if (keys.size < 2) fails.push('one card key only');
@@ -1021,7 +1152,8 @@ function VERIFY_FACE() {
     if (shelf && r(shelf).top - rr.top > 8) fails.push('the shelf floats under the stage top');
   } else if (layout === 'rewrite') {
     const rows = +root.dataset.lcsRows, glyphH = +root.dataset.lcsGlyphh, w = +root.dataset.lcsW;
-    if (document.querySelector('[data-lcs-bank-word], .ws-achip, [data-lcs-bank-banner]')) fails.push('a bank / chip is printed on the rewrite face');
+    if (root.dataset.lcsBank !== '1' && document.querySelector('[data-lcs-bank-word], .ws-achip, [data-lcs-bank-banner]')) fails.push('a bank / chip is printed on the rewrite face');
+    if (root.dataset.lcsBank === '1' && !document.querySelector('[data-lcs-bank-banner]')) fails.push('the easier rewrite level has no word bank');
     if (document.querySelector('[data-lcs-starter]')) fails.push('a starter is printed (the row must be empty)');
     const lanes = laneGrid('[data-lcs-frame]', 'row', (ln) => contentBox(ln, 'p, img, svg'));
     if (lanes.length !== rows) fails.push(`${lanes.length} rows, config says ${rows}`);
@@ -1058,7 +1190,8 @@ function VERIFY_FACE() {
       checkNames(nm, key, L);
       oneLine(p, L + ' sentence', 26); fontOk(p, L);
     });
-    if (nums.size < 2) fails.push('rows carry one number only');
+    if (nums.size < 2 && !root.dataset.lcsSingles) fails.push('rows carry one number only');
+    if (nums.size !== 1 && root.dataset.lcsSingles) fails.push('a singles-only page carries a pair');
     if (answers.size < 2) fails.push('only one pronoun is ever the answer (no discrimination)');
   } else fails.push(`layout "${layout}" has no verify branch`);
   if (!root.querySelectorAll('[data-ws-content]').length) fails.push('non-vacuity: no [data-ws-content] lane');
@@ -1104,7 +1237,8 @@ function VERIFY_BASE() {
     const imgs = [...it.querySelectorAll('img[data-lcs-pic]')];
     const wantPics = isObj ? 1 : (/^(m1|f1)$/.test(key) ? 1 : /^(mp|fp|xp|p)$/.test(key) ? 2 : -1);
     if (wantPics < 0) fails.push(`${L}: key "${key}" is not m1|f1|mp|fp|xp|p|obj:*`);
-    if (imgs.length !== wantPics) fails.push(`${L}: ${imgs.length} portraits for key ${key}`);
+    const picsShown = root.dataset.lcsNopics ? 0 : wantPics;   // Level Set: the names-only level
+    if (imgs.length !== picsShown) fails.push(`${L}: ${imgs.length} portraits for key ${key}`);
     if (refs.length !== wantPics) fails.push(`${L}: ${refs.length} refs for key ${key}`);
     imgs.forEach((img, k) => {
       if (!img.complete || img.naturalWidth === 0) fails.push(`${L}: broken picture`);
@@ -1158,10 +1292,10 @@ module.exports = {
   difficulty: {
     1: { cards: 6, cols: 2, rows: 3, singles: 4, pairs: 2, pairMix: 'any', four: { singles: 4, pairs: 2, pairMix: 'any' }, objects: 2, neuterMin: 1, mixFloor: 1, pic: 80, pairPic: 60, plateH: 28, plateFont: 20, chipW: 96, chipH: 52, chipFont: 26, objectCaption: 'article', cardPad: '12px 12px' },
     2: { cards: 8, cols: 2, rows: 4, singles: 5, pairs: 3, pairMix: 'mp,fp,xp', four: { singles: 4, pairs: 4, pairMix: 'mp,fp,fp,xp' }, objects: 3, neuterMin: 2, mixFloor: 2, pic: 64, pairPic: 52, plateH: 26, plateFont: 18, chipW: 84, chipH: 44, chipFont: 24, objectCaption: 'bare', cardPad: '10px 12px' },
-    // d3 is UNPUBLISHED by design (card 133, inner 113 < stage 130 at chips 44): verify() reports the stage overflow.
-    // DEVIATION (measured, _work/G1-352-build.md): the ladder's 6 singles + 4 pairs need 14 names > the 12 tagged;
-    // 8 singles + 2 pairs (12 names) is the only 10-card deal the name list allows; the 4-chip 5 + 5 (15) likewise -> 8 + 2
-    3: { cards: 10, cols: 2, rows: 5, singles: 8, pairs: 2, pairMix: 'any', four: { singles: 8, pairs: 2, pairMix: 'any' }, objects: 4, neuterMin: 2, mixFloor: 2, pic: 52, pairPic: 44, plateH: 24, plateFont: 17, chipW: 76, chipH: 44, chipFont: 22, objectCaption: 'bare', cardPad: '8px 12px', unpublished: true },
+    // Level Set 2026-09-28 — the harder level: 10 cards, NAMES ONLY (no portraits: the child decides from the name),
+    // which also frees the stage the old unpublished d3 overflowed; 4-chip locales 6 singles + 4 pairs (ils + elles >= 2 each),
+    // de/nl 6 singles + 4 captioned objects (obj)
+    3: { cards: 10, cols: 2, rows: 5, singles: 8, pairs: 2, pairMix: 'any', four: { singles: 6, pairs: 4, pairMix: 'mp,fp,fp,xp' }, obj: { singles: 6 }, objects: 4, neuterMin: 2, mixFloor: 2, noPics: true, pic: 64, pairPic: 52, plateH: 30, plateFont: 20, chipW: 84, chipH: 44, chipFont: 24, objectCaption: 'bare', cardPad: '8px 12px' },
   },
   i18n: {
     en: {
@@ -1174,8 +1308,22 @@ module.exports = {
 
   build({ theme, difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
-    return this._buildWith(loadBank(KEY, loc), this.difficulty[difficulty], { theme, locale: loc }, ctx);
+    // Level Set 2026-09-28: the published page (core level, copy 1) reads the published bank ONLY, byte-identical;
+    // every other copy reads the bank merged with the native panels' additions (data/b4/pronouns-levelset.json)
+    const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (published) return this._buildWith(loadBank(KEY, loc), this.difficulty[difficulty], { theme, locale: loc }, ctx);
+    const bank = mergedBank(loc);
+    // the screen version / answer key wrap the SAME printed instance (the print build, then the page drives both)
+    if (this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      const d = this.difficulty[difficulty];
+      const built = this._buildWith(bank, d, { theme, locale: loc }, { ...ctx, interactive: false, answerKey: false });
+      return PRON_SCREEN.screenOrKey(d.layout || 'base', built, ctx, loc, bank);
+    }
+    return this._buildWith(bank, this.difficulty[difficulty], { theme, locale: loc }, ctx);
   },
+  interactive: interactiveFor('base'), interactiveFor,
+  mergedBank: (loc) => mergedBank(loc),
+  levelSetData: () => levelSetData(),
 
   /** The whole build over an INJECTED bank + resolved config (the gate's poison seam); build() passes the real ones. */
   _buildWith(bank, d, { locale }, ctx) {
@@ -1196,27 +1344,28 @@ module.exports = {
       if (c.it.kind === 'object') {
         const o = c.it.object;
         return portraitCard({
-          pics: [{ src: fileUri(o.pic.theme, o.pic.noun), key: o.key }], plate: objectCaption(o, loc, cfg.objectCaption),
+          pics: d.noPics ? [] : [{ src: fileUri(o.pic.theme, o.pic.noun), key: o.key }], plate: objectCaption(o, loc, cfg.objectCaption),
           chips: bank.chips, correctIndex: c.chip, key: c.key, refs: [o.key], names: [],
           pic: cfg.pic, pairPic: cfg.pairPic, plateH: cfg.plateH, plateFont: cfg.plateFont, chipW: cfg.chipW, chipH: cfg.chipH, chipFont: cfg.chipFont,
         });
       }
       const names = c.it.names.map((n) => n.name);
       return portraitCard({
-        pics: c.it.people.map((p) => ({ src: portraitSrc(p), key: p.key })), plate: fillSubject('{subj}', names, bank.and, bank.andBefore),
+        pics: d.noPics ? [] : c.it.people.map((p) => ({ src: portraitSrc(p), key: p.key })), plate: fillSubject('{subj}', names, bank.and, bank.andBefore),
         chips: bank.chips, correctIndex: c.chip, key: c.key, refs: c.it.people.map((p) => p.key), names,
         pic: cfg.pic, pairPic: cfg.pairPic, plateH: cfg.plateH, plateFont: cfg.plateFont, chipW: cfg.chipW, chipH: cfg.chipH, chipFont: cfg.chipFont,
       });
     });
     // the K-354 idiom: cardGrid emits no per-card style; the type states the card padding inline
     const grid = cardGrid({ cards: html, cols: cfg.cols, rows: cfg.rows }).replace(/<section class="ws-card"/g, `<section class="ws-card" style="padding:${cfg.cardPad}"`);
-    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-cards="${cfg.cards}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-mixfloor="${cfg.mixFloor}" data-lcs-class="${cfg.cls}" ` +
+    const bodyHtml = `<div data-ws-content data-lcs-pron data-lcs-cards="${cfg.cards}" data-lcs-chips="${bank.chips.length}" data-lcs-and="${bank.and}" data-lcs-andalt="${andAlt(bank)}" data-lcs-mixfloor="${cfg.mixFloor}" data-lcs-class="${cfg.cls}" ${d.noPics ? 'data-lcs-nopics="1" ' : ''}` +
       `style="flex:1;display:flex;flex-direction:column;min-height:0">${grid}</div>`;
     return {
       bodyHtml,
       meta: {
         face: 'base', cls: cfg.cls, chips: bank.chips.length,
         cards: cards.map((c) => [c.key, c.chip, c.it.kind === 'object' ? c.it.object.key : c.it.people.map((p) => p.key).join('+'), c.it.kind === 'object' ? '' : c.it.names.map((n) => n.name).join('+')]),
+        wholes: cards.flatMap((c) => (c.it.kind === 'object' ? [c.it.object.key] : c.it.names.map((n) => n.name))),
       },
     };
   },

@@ -428,5 +428,63 @@
    "no": "Lag det motsatte av hvert ord ved å sette en forstavelse foran. Skriv det nye ordet på linja.",
    "fi": "Tee jokaisesta sanasta vastakohta etuliitteen avulla ja kirjoita uusi sana viivalle."
   }
+ },
+ "G1-352": {
+  "3": {
+   "en": "Read the name. Circle the word we use instead of the name.",
+   "de": "Lies den Namen. Kreise das Wort ein, das wir statt des Namens sagen können.",
+   "es": "Lee el nombre. Rodea el pronombre que usamos en lugar del nombre.",
+   "fr": "Lis le prénom. Entoure le mot que l'on emploie à la place du prénom.",
+   "it": "Leggi il nome. Cerchia la parola che usiamo al posto del nome.",
+   "pt": "Leia o nome. Circule a palavra que usamos no lugar do nome.",
+   "nl": "Lees de naam. Omcirkel het woord dat we in plaats van de naam zeggen.",
+   "fi": "Lue nimi. Ympyröi sana, jota käytämme nimen sijasta.",
+   "da": "Læs navnet. Sæt ring om det ord, vi siger i stedet for navnet.",
+   "sv": "Läs namnet. Ringa in ordet som vi säger i stället för namnet.",
+   "no": "Les navnet. Sett ring rundt ordet vi bruker i stedet for navnet."
+  }
+ },
+ "G1-371": {
+  "3": {
+   "en": "Read the sentence. Write the word that replaces the name in the second sentence.",
+   "de": "Lies den Satz. Schreibe in das Kästchen das Wort, das im zweiten Satz den Namen ersetzt.",
+   "es": "Lee la oración. Escribe en la casilla el pronombre que sustituye al nombre en la segunda oración.",
+   "fr": "Lis la phrase. Écris le mot qui remplace le prénom dans la deuxième phrase.",
+   "it": "Leggi la frase. Scrivi la parola che sostituisce il nome nella seconda frase.",
+   "pt": "Leia a frase. Escreva na caixa a palavra que troca o nome na segunda frase.",
+   "nl": "Lees de zin. Schrijf in het vakje het woord dat in de tweede zin de naam vervangt.",
+   "fi": "Lue lause. Kirjoita toiseen lauseeseen sana, joka korvaa nimen.",
+   "da": "Læs sætningen. Skriv det ord, der erstatter navnet i den anden sætning.",
+   "sv": "Läs meningen. Skriv ordet som ersätter namnet i den andra meningen.",
+   "no": "Les setningen. Skriv ordet som erstatter navnet i setningen under."
+  }
+ },
+ "G2-354": {
+  "3": {
+   "en": "Look at who owns the thing. Write the word that shows it belongs to that person.",
+   "de": "Schau, wem das Ding gehört. Schreibe das Wort in die Lücke, das zu dieser Person passt.",
+   "fr": "Regarde à qui est l'objet et écris le mot qui manque. Son ou sa s'accorde avec l'objet ; leur s'emploie pour plusieurs personnes.",
+   "it": "Guarda di chi è la cosa. Scrivi la parola che dice a chi appartiene. Ricorda: va d'accordo con la cosa, non con la persona.",
+   "pt": "Leia o nome do dono. Escreva a palavra que mostra que a coisa pertence a essa pessoa.",
+   "nl": "Kijk van wie het ding is. Schrijf het woord op dat laat zien dat het van die persoon is.",
+   "da": "Se, hvem tingen tilhører. Skriv det ord, der viser, at den hører til den person.",
+   "sv": "Läs vem som äger saken. Skriv ordet som visar att saken hör till den personen.",
+   "no": "Se hvem som eier tingen. Skriv ordet som viser at tingen hører til den personen."
+  }
+ },
+ "G2-355": {
+  "1": {
+   "en": "Read the sentence. Write it again on the lines, but use a word from the bank instead of the name.",
+   "de": "Lies den Satz. Schreibe ihn noch einmal auf die Linien. Nimm statt des Namens ein Wort aus dem Kasten.",
+   "es": "Lee la oración. Escríbela otra vez en las líneas, pero con un pronombre del recuadro en lugar del nombre.",
+   "fr": "Lis la phrase. Récris-la sur les lignes avec un mot de la liste à la place du prénom.",
+   "it": "Leggi la frase. Riscrivila sulle righe, ma usa una parola del riquadro al posto del nome.",
+   "pt": "Leia a frase. Escreva-a de novo nas linhas, mas use uma palavra do quadro no lugar do nome.",
+   "nl": "Lees de zin. Schrijf hem opnieuw op de lijnen, maar zet een woord uit het kader in plaats van de naam.",
+   "fi": "Lue lause. Kirjoita se uudelleen viivoille, mutta käytä nimen sijasta sanapankin sanaa.",
+   "da": "Læs sætningen. Skriv den igen på linjerne, men brug et ord fra ordkassen i stedet for navnet.",
+   "sv": "Läs meningen. Skriv den igen på linjerna, men använd ett ord från ordlistan i stället för namnet.",
+   "no": "Les setningen. Skriv den om på linjene, men bruk et ord fra ordbanken i stedet for navnet."
+  }
  }
 }

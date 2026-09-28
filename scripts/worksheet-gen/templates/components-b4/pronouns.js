@@ -126,7 +126,7 @@ function pronounChips({ chips, correctIndex, count, w, fontPx, padTop = 4, h = C
 /* ---------- portraitCard (base) ---------- */
 function portraitCard({ pics, plate, chips, correctIndex, key, refs, names, pic, pairPic, plateH = 26, plateFont = 18, chipW, chipH, chipFont, gap = 2, chipPad = 2 }) {
   const px = pics.length > 1 ? pairPic : pic;
-  const strip = portraitStrip({ pics, px });
+  const strip = pics.length ? portraitStrip({ pics, px }) : '';   // Level Set 2026-09-28: the names-only level passes no pictures
   const nplate = namePlate({ text: plate, px: plateFont, h: plateH });
   const row = pronounChips({ chips, correctIndex, count: chips.length, w: chipW, fontPx: chipFont, padTop: chipPad, h: chipH });
   return `<div class="ws-card-stage" data-lcs-item data-lcs-key="${esc(key)}" data-lcs-refs="${esc(refs.join(','))}" data-lcs-names="${esc(names.join('|'))}" data-lcs-chip-key="${correctIndex}" ` +
@@ -160,17 +160,17 @@ function initialBank({ words, rng, chipOrder }) {
 }
 
 /* ---------- anaphoraBlock (F2) ---------- */
-function anaphoraBlock({ referents, intro, sentences, namesW = 163, zone = 70, platePx = 16 }) {
+function anaphoraBlock({ referents, intro, intro2, sentences, namesW = 163, zone = 70, platePx = 16, refPx = 44 }) {
   if (!Array.isArray(referents) || referents.length !== 2) throw new Error('anaphoraBlock: exactly two referents');
   if (!Array.isArray(sentences) || sentences.length !== 2) throw new Error('anaphoraBlock: exactly two sentences');
   if (fold(sentences[0].pronoun) === fold(sentences[1].pronoun)) throw new Error(`anaphoraBlock: both sentences open with "${sentences[0].pronoun}" (no single solution)`);
   for (const r of referents) {
-    if (!hasWord(intro, r.name)) throw new Error(`anaphoraBlock: intro lacks the name "${r.name}"`);
+    if (!hasWord(intro + ' ' + (intro2 || ''), r.name)) throw new Error(`anaphoraBlock: intro lacks the name "${r.name}"`);
     for (const s of sentences) if (hasWord(s.rest, r.name)) throw new Error(`anaphoraBlock: the name "${r.name}" occurs in a sentence`);
   }
   const dot = (attrs) => `<span class="ws-match-dot" ${attrs} style="position:static;transform:none;flex:0 0 12px"></span>`;
-  const rows = referents.map((r) => `<div data-lcs-referent="${esc(r.target)}"${r.key ? ` data-lcs-key="${esc(r.key)}"` : ''}${r.refs ? ` data-lcs-refs="${esc(r.refs.join(','))}"` : ''}${r.names ? ` data-lcs-names="${esc(r.names.join('|'))}"` : ''} style="display:grid;grid-template-columns:auto 1fr 12px;column-gap:6px;align-items:center;height:44px">` +
-    portraitStrip({ pics: r.pics, px: 44, gap: 4 }) + namePlate({ text: r.name, px: platePx, h: 26 }) + dot(`data-lcs-target="${esc(r.target)}"`) + `</div>`).join('');
+  const rows = referents.map((r) => `<div data-lcs-referent="${esc(r.target)}"${r.key ? ` data-lcs-key="${esc(r.key)}"` : ''}${r.refs ? ` data-lcs-refs="${esc(r.refs.join(','))}"` : ''}${r.names ? ` data-lcs-names="${esc(r.names.join('|'))}"` : ''} style="display:grid;grid-template-columns:auto 1fr 12px;column-gap:6px;align-items:center;height:${refPx}px">` +
+    (r.pics.length ? portraitStrip({ pics: r.pics, px: r.pics.length > 1 ? (r.pairPx || refPx) : refPx, gap: 4 }) : '') + namePlate({ text: r.name, px: platePx, h: 26 }) + dot(`data-lcs-target="${esc(r.target)}"`) + `</div>`).join('');
   const pStyle = `margin:0;font-family:${F.body},sans-serif;font-weight:800;font-size:18px;line-height:1.3;color:${T.ink};white-space:nowrap`;
   const sent = sentences.map((s) => `<div data-lcs-anaphor data-lcs-ref="${esc(s.ref)}" style="display:flex;gap:8px;align-items:center;height:30px">` +
     dot('data-lcs-anchor') +
@@ -179,19 +179,22 @@ function anaphoraBlock({ referents, intro, sentences, namesW = 163, zone = 70, p
   return `<div class="ws-lane" data-ws-content data-lcs-pair data-lcs-a="${esc(referents[0].name)}" data-lcs-b="${esc(referents[1].name)}" ` +
     `style="padding:8px 16px;display:grid;grid-template-columns:${namesW}px ${zone}px 1fr;align-items:center;min-width:0">` +
     `<div style="display:flex;flex-direction:column;gap:8px">${rows}</div><div data-lcs-zone></div>` +
-    `<div style="min-width:0"><p data-lcs-intro style="${pStyle};margin-bottom:6px">${esc(intro)}</p>${sent}</div></div>`;
+    // Level Set: the two intro clauses of the harder level are set at 16 (the floor) — at 18 a 40-char clause of wide letters overflowed the 339 px column
+    `<div style="min-width:0"><p data-lcs-intro style="${intro2 ? pStyle.replace('font-size:18px', 'font-size:16px') : pStyle};margin-bottom:${intro2 ? 0 : 6}px">${esc(intro)}</p>${intro2 ? `<p data-lcs-intro2 style="${pStyle.replace('font-size:18px', 'font-size:16px')};margin-bottom:6px">${esc(intro2)}</p>` : ''}${sent}</div></div>`;
 }
 
 /* ---------- ownerLane (F3) ---------- */
-function ownerLane({ owners, thing, frame, chips, correctIndex, chipW, num, ownerKey, thingKey, chipFont = 20, names = [] }) {
+function ownerLane({ owners, thing, frame, chips, correctIndex, chipW, num, ownerKey, thingKey, chipFont = 20, names = [], write = false }) {
   const parts = String(frame).split('___');
   if (parts.length !== 2) throw new Error(`ownerLane: the frame needs exactly one ___ ("${frame}")`);
   for (const c of chips) if (hasWord(frame, c)) throw new Error(`ownerLane: the chip "${c}" occurs in the frame`);
   const ownerBox = `<div style="width:92px;display:flex;justify-content:center">${portraitStrip({ pics: owners.pics, px: 44, gap: 4 })}</div>`;
   const thingImg = `<img class="ws-icon" src="${thing.src}" alt="" data-lcs-thing-pic="${esc(thing.key)}" style="width:44px;height:44px;flex:0 0 auto">`;
-  const box = `<span class="ws-blankbox" data-lcs-gapbox style="width:64px;height:24px;vertical-align:middle;margin:0 4px"></span>`;
+  const box = write   // Level Set 2026-09-28: the harder level WRITES the word — a box a G2 hand can write a word in
+    ? `<span class="ws-blankbox" data-lcs-gapbox style="width:104px;height:26px;vertical-align:middle;margin:0 4px"></span>`
+    : `<span class="ws-blankbox" data-lcs-gapbox style="width:64px;height:24px;vertical-align:middle;margin:0 4px"></span>`;
   const p = `<p data-lcs-frametext style="margin:0;font-family:${F.body},sans-serif;font-weight:800;font-size:18px;line-height:1.3;color:${T.ink};white-space:nowrap">${esc(parts[0])}${box}${esc(parts[1])}</p>`;
-  const row = pronounChips({ chips, correctIndex, count: chips.length, w: chipW, fontPx: chipFont, padTop: 2 })
+  const row = write ? '' : pronounChips({ chips, correctIndex, count: chips.length, w: chipW, fontPx: chipFont, padTop: 2 })
     .replace('style="padding-top:0"', 'style="padding-top:0;justify-content:flex-start"');
   return `<div class="ws-lane" data-ws-content data-lcs-item data-lcs-num="${esc(num)}" data-lcs-owner="${esc(ownerKey)}" data-lcs-thing="${esc(thingKey)}" data-lcs-chip-key="${correctIndex}" data-lcs-names="${esc(names.join('|'))}" ` +
     `style="padding:4px 16px;display:grid;grid-template-columns:140px 1fr;column-gap:12px;align-items:center;min-width:0">` +
@@ -199,17 +202,17 @@ function ownerLane({ owners, thing, frame, chips, correctIndex, chipW, num, owne
 }
 
 /* ---------- nameCardBins (F4) ---------- */
-function nameCardBins({ cards, bins, binLayout = 'row', binH = 330, lineCounts }) {
+function nameCardBins({ cards, bins, binLayout = 'row', binH = 330, lineCounts, cardH = 92 }) {
   if (!Array.isArray(cards) || !cards.length) throw new Error('nameCardBins: no cards');
   if (!Array.isArray(bins) || bins.length < 2) throw new Error('nameCardBins: < 2 bins');
   if (!['row', 'grid'].includes(binLayout)) throw new Error(`nameCardBins: binLayout "${binLayout}"`);
   if (binLayout === 'row' && bins.length === 4) throw new Error('nameCardBins: 4 bins in a row are 148 px wide — use the grid');
-  const loads = bins.map((b) => cards.filter((c) => c.key === b.idx).reduce((s, c) => s + (c.pics.length > 1 ? 2 : 1), 0));
+  const loads = bins.map((b) => cards.filter((c) => c.key === b.idx).reduce((s, c) => s + ((c.refs || c.pics).length > 1 ? 2 : 1), 0));
   const counts = lineCounts || loads.map((l) => Math.max(4, l));
   const shelfCards = cards.map((c) => `<span class="ws-tile ws-tile--word" data-lcs-sortword="${esc(c.caption)}" data-lcs-key="${c.key}"${c.itemKey ? ` data-lcs-item-key="${esc(c.itemKey)}"` : ''}${c.refs ? ` data-lcs-refs="${esc(c.refs.join(','))}"` : ''}${c.names ? ` data-lcs-names="${esc(c.names.join('|'))}"` : ''} ` +
-    `style="width:118px;height:92px;flex-direction:column;justify-content:center;padding:4px;gap:2px;white-space:normal">` +
-    portraitStrip({ pics: c.pics, px: c.pics.length > 1 ? 44 : 56, gap: 4 }) +
-    `<span data-lcs-caption style="width:110px;height:36px;display:flex;align-items:center;justify-content:center;text-align:center;font-family:${F.body},sans-serif;font-weight:800;font-size:16px;line-height:1.15;color:${T.ink}">${esc(c.caption)}</span></span>`).join('');
+    `style="width:118px;height:${cardH}px;flex-direction:column;justify-content:center;padding:4px;gap:2px;white-space:normal">` +
+    (c.pics.length ? portraitStrip({ pics: c.pics, px: c.pics.length > 1 ? 44 : 56, gap: 4 }) : '') +
+    `<span data-lcs-caption style="width:110px;height:${c.pics.length ? 36 : cardH - 8}px;display:flex;align-items:center;justify-content:center;text-align:center;font-family:${F.body},sans-serif;font-weight:800;font-size:16px;line-height:1.15;color:${T.ink}">${esc(c.caption)}</span></span>`).join('');
   const shelf = `<div class="ws-card" data-lcs-shelf data-ws-content style="width:660px;padding:10px 12px;flex-direction:row;flex-wrap:wrap;justify-content:center;gap:10px">${shelfCards}</div>`;
   const binW = binLayout === 'grid' ? 308 : Math.floor(640 / bins.length) - 12;
   const binHtml = bins.map((b, i) => {
@@ -231,14 +234,15 @@ function nameCardBins({ cards, bins, binLayout = 'row', binH = 330, lineCounts }
 
 /* ---------- rewriteLane (F5) ---------- */
 function rewriteLane({ pics, sentence, w = 535, h = 48, glyphH = 24, num, frameId, key, answer, picPx = 56, pairPx = 44, names = [] }) {
+  const noPics = !pics.length;   // Level Set 2026-09-28: the names-only level
   const pron = String(answer).split(/\s+/)[0];
   if (hasWord(sentence, pron)) throw new Error(`rewriteLane: the sentence prints the answer's pronoun "${pron}"`);
   if (need(answer, glyphH) > w) throw new Error(`rewriteLane: "${answer}" needs ${need(answer, glyphH)} px > ${w}`);
-  const strip = portraitStrip({ pics, px: pics.length > 1 ? pairPx : picPx, gap: 4, w: 92 });
+  const strip = noPics ? '' : portraitStrip({ pics, px: pics.length > 1 ? pairPx : picPx, gap: 4, w: 92 });
   const p = `<p data-lcs-sentence style="margin:0 0 6px;font-family:${F.body},sans-serif;font-weight:800;font-size:18px;line-height:1.3;color:${T.ink};white-space:nowrap">${esc(sentence)}</p>`;
   const row = writingRow({ w, h, glyphH, xHeight: true }).svg;
   return `<div data-ws-content data-lcs-frame="${esc(frameId)}" data-lcs-num="${esc(num)}" data-lcs-key="${esc(key)}" data-lcs-answer="${esc(answer)}" data-lcs-names="${esc(names.join('|'))}" ` +
-    `style="display:grid;grid-template-columns:92px 1fr;column-gap:12px;align-items:center;min-width:0">` +
+    `style="display:grid;grid-template-columns:${noPics ? '1fr' : '92px 1fr'};column-gap:12px;align-items:center;min-width:0">` +
     strip + `<div style="min-width:0">${p}<div data-lcs-ruling-row data-lcs-empty style="line-height:0">${row}</div></div></div>`;
 }
 

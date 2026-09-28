@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G2-354',
   slug: 'pronouns-possessive-pronouns',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 7 single owners only · L3 WRITE the word (no chips); level 2 = the published D
+  interactive: base.interactiveFor('possessive'),
+  difficulty: { 1: { ...D, singlesOnly: true, rows: 7, singles: 7, pairs: 0, pairMix: 'none', four: { singles: 7, pairs: 0, pairMix: 'none' }, ending: { singles: 7, pairs: 0, pairMix: 'none' }, mixFloor: 0, thingGenderMin: 2 }, 2: D, 3: { ...D, write: true } },
   i18n: { en: { title: "Possessive Pronouns", instruction: "Look at who owns the thing. Circle the word that shows it belongs to that person." } },
   gradeBand: "G2",
 };

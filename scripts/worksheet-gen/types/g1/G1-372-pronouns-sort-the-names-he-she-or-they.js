@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-372',
   slug: 'pronouns-sort-the-names-he-she-or-they',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 8 single people -> only the he / she bins · L3 12 name cards, no pictures, more pairs (de/nl: objects); level 2 = the published D
+  interactive: base.interactiveFor('sort'),
+  difficulty: { 1: { ...D, cards: 8, singles: 8, pairs: 0, pairMix: 'none', four: { singles: 8, pairs: 0, pairMix: 'none', maxPerSex: 4 }, two: { singles: 6, pairs: 2, pairMix: 'any' }, obj: { singles: 8, pairs: 0, pairMix: 'none' }, objects: 0, neuterMin: 0, binsUsed: true }, 2: D, 3: { ...D, cards: 12, singles: 8, pairs: 4, pairMix: 'any', four: { singles: 8, pairs: 4, pairMix: 'mp,fp,fp,xp', maxPerSex: 4 }, two: { singles: 8, pairs: 4, pairMix: 'any' }, obj: { singles: 6, pairs: 0, pairMix: 'none' }, objects: 6, neuterMin: 2, noPics: true, cardH: 60, binH: 440 } },
   i18n: { en: { title: "Sort the Names: He, She or They", instruction: "Read each name card. Write the name under the word we use for that person." } },
 };

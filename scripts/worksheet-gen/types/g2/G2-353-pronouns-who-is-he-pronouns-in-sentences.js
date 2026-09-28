@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G2-353',
   slug: 'pronouns-who-is-he-pronouns-in-sentences',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 4 blocks · L3 one person + a pair in two places: he/she vs they (fi: no pictures); level 2 = the published D
+  interactive: base.interactiveFor('anaphora'),
+  difficulty: { 1: { ...D, pairs: 4, pic: 60, refPx: 60 }, 2: D, 3: { ...D, pairs: 4, sgpl: true, cardMin: 140, pic: 60, refPx: 60 } },
   i18n: { en: { title: "Who Is He? Pronouns in Sentences", instruction: "Read the sentences. Draw a line from each word in a box to the name it stands for." } },
   gradeBand: "G2",
 };

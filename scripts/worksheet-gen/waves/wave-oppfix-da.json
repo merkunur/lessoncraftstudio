@@ -1,0 +1,16 @@
+{
+ "id": "wave-oppfix-da",
+ "_note": "2026-09-28 republish after the native panels audited the published opposites bank: same-meaning words: kæmpe → kæmpestor, kvik → lynhurtig, klar → lysende. Same coordinates as the published pages; published as UPDATES of the existing decks.",
+ "seedEpoch": 1,
+ "locales": [
+  "da"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-337"
+ ]
+}

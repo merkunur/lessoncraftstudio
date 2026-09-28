@@ -13,12 +13,12 @@
           "enorm"
         ],
         "b": [
-          "bitte"
+          "lillebitte"
         ]
       },
       "exclusiveWith": [],
       "syn": {
-        "a": "kæmpe"
+        "a": "kæmpestor"
       },
       "far": "våd",
       "pic": {
@@ -104,14 +104,12 @@
       "pos": "adj",
       "family": "speed",
       "alt": {
-        "a": [
-          "rap"
-        ],
+        "a": [],
         "b": []
       },
       "exclusiveWith": [],
       "syn": {
-        "a": "kvik"
+        "a": "lynhurtig"
       },
       "far": "blød",
       "pic": {
@@ -432,7 +430,7 @@
       },
       "exclusiveWith": [],
       "syn": {
-        "a": "klar"
+        "a": "lysende"
       },
       "far": "langsom",
       "pic": null,

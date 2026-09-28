@@ -493,7 +493,7 @@
     },
     {
       "pair": "hot-cold",
-      "text": "De sneeuwvlok is niet heet. Zij is ___.",
+      "text": "De sneeuwvlok is niet heet. Hij is ___.",
       "answer": "koud",
       "pic": {
         "theme": "weather",

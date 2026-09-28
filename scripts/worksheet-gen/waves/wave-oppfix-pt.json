@@ -1,0 +1,17 @@
+{
+ "id": "wave-oppfix-pt",
+ "_note": "2026-09-28 republish after the native panels audited the published opposites bank: the pair em cima / embaixo removed (adverbial locutions, not adjectives). Same coordinates as the published pages; published as UPDATES of the existing decks.",
+ "seedEpoch": 1,
+ "locales": [
+  "pt"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-307",
+  "G1-336"
+ ]
+}

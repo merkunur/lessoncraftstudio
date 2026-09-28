@@ -258,8 +258,8 @@ module.exports = {
 
     // the cue (d1): a pairCard on up to maxCue pictured cards, pictures resolved through the index. The cue
     // shares line 1 with the word, so a card whose word + cue would not fit the line is left UNCUED (the cue is
-    // a scaffold, never content — counted in meta.uncuedForWidth; en never triggers it: 6 letters at 30 px + the
-    // widest cue (138) = 44 + 100 + 8 + 138 = 290 > 282 only for a 6-letter SCALE pair, and big/small are 3/5)
+    // a scaffold, never content — counted in meta.uncuedForWidth; the published en bank never triggers it, the
+    // Level Set words can (en "summer" beside a two-picture cue at the 0.64 estimate))
     let cued = 0, uncuedForWidth = 0;
     const cueBox = cueGeometry(d.cuePx);
     const line1H = d.cue === 'pic' ? cueBox.h : 0;

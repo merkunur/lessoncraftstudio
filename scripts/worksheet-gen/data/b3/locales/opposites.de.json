@@ -344,7 +344,9 @@
       "family": "height",
       "alt": {
         "a": [],
-        "b": []
+        "b": [
+          "niedrig"
+        ]
       },
       "exclusiveWith": [],
       "syn": null,
@@ -577,11 +579,6 @@
         "base": "geduldig",
         "prefix": "un",
         "expected": "ungeduldig"
-      },
-      {
-        "base": "sauber",
-        "prefix": "un",
-        "expected": "unsauber"
       }
     ],
     "ban": []

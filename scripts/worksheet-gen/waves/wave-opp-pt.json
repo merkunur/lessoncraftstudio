@@ -1,0 +1,383 @@
+{
+  "id": "wave-opp-pt",
+  "_note": "Level Set 2026-09-28: Opposites (G1-307 + 5 faces). New pairs, sentences and prefix words by 11 native panels (+ the full/empty and summer/winter pictures, opened); copies of a level share at most one pair; levels change the task (picture cues and a word bank; four picture pairs; circle one of two words; four pairs; two words to choose from; the prefix printed in each row — harder: no word bank; eight picture pairs; eight sentences without a bank; seven pairs and two words with no partner; four words to choose from; ten rows without the prefix list). Visible to teachers, never indexed; PDF + interactive screen version + answer key (Pair Up printable only).",
+  "indexable": false,
+  "interactive": true,
+  "seedEpoch": 1,
+  "locales": [
+    "pt"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G1-307",
+    "K-351",
+    "G1-335",
+    "G1-336",
+    "G1-337",
+    "G2-320"
+  ],
+  "levels": {
+    "G1-307": {
+      "1": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 49
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 13
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 28
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 42
+        }
+      ],
+      "3": [
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 43
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 59
+        }
+      ]
+    },
+    "K-351": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 7
+        }
+      ],
+      "3": [
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G1-335": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 18
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 29
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 20
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 23
+        },
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 28
+        }
+      ],
+      "3": [
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 24
+        }
+      ]
+    },
+    "G1-336": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 14
+        },
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 16
+        }
+      ],
+      "3": [
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 12
+        },
+        {
+          "copy": 16,
+          "unit": null,
+          "seedVariant": 14
+        }
+      ]
+    },
+    "G1-337": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 8
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 9
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 9
+        },
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 30
+        }
+      ],
+      "3": [
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 11
+        }
+      ]
+    },
+    "G2-320": {
+      "1": [
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 7
+        },
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 49
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 12
+        }
+      ],
+      "3": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 14
+        }
+      ]
+    }
+  }
+}

@@ -149,6 +149,13 @@ const OPENED = {
   'At the Supermarket/candy': ['sweet-sour:a'], 'easter/candy': ['sweet-sour:a'],
   'fruits/lemon': ['sweet-sour:b'], 'At the Supermarket/lemon': ['sweet-sour:b'],
   'weather/cloudy': ['sunny-cloudy:b'],
+  // Level Set 2026-09-28 (contact sheet opened in session): a full glass of juice / the same glass empty;
+  // a beach with a parasol / a snowman — used by NEW copies only (data/b3/opposites-levelset.json)
+  'breakfast/juice': ['full-empty:a'], 'kitchen tools/glass': ['full-empty:b'],
+  'summer/beach': ['summer-winter:a'], 'winter/snowman': ['summer-winter:b'], 'christmas/snowman': ['summer-winter:b'],
+  // opened and REFUSED 2026-09-28: At the Supermarket/juice (a bottle — reads as a bottle, not "full"),
+  // around the house/glass (a wine glass with wine), weather/rainy (rain is not the opposite of sun)
+  'At the Supermarket/juice': [], 'around the house/glass': [], 'weather/rainy': [],
   // opened and REFUSED — present so a bank pin fails on "not what its name says", not on "unknown"
   'weather/hot': [], 'weather/cold': [], 'space/sun': [], 'colors/black': [], 'colors/white': [], 'weather/sunny': [],
 };
@@ -680,14 +687,15 @@ async function main() {
     // 2. renders through the real pipeline
     for (const d of [1, 2, 3]) {
       const r = await renderWith(page, TYPE, { difficulty: d, baseName: `G1-307-gate-d${d}-en` });
-      const s = assertRender(`d${d}`, r, d, en);
+      // Level Set 2026-09-28: only the core level copy 1 is the published page; levels 1/3 read the merged bank
+      const s = assertRender(`d${d}`, r, d, d === 2 ? en : TYPE.mergedBank('en'));
       pngs.push(r.png);
       const lowest = Math.round(Math.max(...r.m.cards.map((c) => c.bottom)));
       console.log(`render d${d}: verify ${r.verify.length} lints ${r.lints.length} cards ${r.m.cards.length} icons ${s.minIcon === null ? '-' : s.minIcon} bank ${s.bankH}${r.m.bank ? '+' + r.m.bankMargin : ''} rows ${r.m.bankRows} body ${Math.round(r.m.body.h)} px, lowest card ${lowest} vs foot ${Math.round(r.m.foot)}, words ${r.m.cards.map((c) => c.given + ' ' + c.givenW.toFixed(1)).join(', ')}`);
     }
     for (const k of Object.keys(LONG)) for (const d of [1, 2, 3]) {
       const r = await renderWith(page, TYPE, { difficulty: d, baseName: `G1-307-gate-d${d}-en-longchrome-${k}`, strings: LONG[k] });
-      assertRender(`d${d} long chrome ${k}`, r, d, en);
+      assertRender(`d${d} long chrome ${k}`, r, d, d === 2 ? en : TYPE.mergedBank('en'));
       pngs.push(r.png);
       // de = a 3-line title (measured 733); fi = a 4-line title of long words (measured 700) — the fixture must
       // actually squeeze the body, or it proves nothing about the stack

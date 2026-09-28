@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-337',
   slug: 'opposites-opposite-or-the-same',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: base.interactiveFor('choice'),   // Level Set 2026-09-28: tap-choice screen + answer key
+  // Level Set 2026-09-28: L1 two words (no synonym trap) · L3 eight rows, four words; L2 = the published page (the same object)
+  difficulty: { 1: { ...D, chips: 2 }, 2: D, 3: { ...D, rows: 8, chips: 4, pillPx: 20 } },
   i18n: { en: { title: "Opposite or the Same? Circle the Opposite", instruction: "Read the word. One of the three words under it means the opposite. Circle it, not the one that means the same." } },
 };

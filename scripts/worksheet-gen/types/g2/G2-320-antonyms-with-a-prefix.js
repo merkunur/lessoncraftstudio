@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G2-320',
   slug: 'antonyms-with-a-prefix',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: base.interactiveFor('prefix'),   // Level Set 2026-09-28: tap-choice screen + answer key
+  // Level Set 2026-09-28: L1 the prefix printed in each row · L3 ten rows, no prefix list; L2 = the published page (the same object)
+  difficulty: { 1: { ...D, rows: 8, showPrefix: true, colW: 300, laneW: 240 }, 2: D, 3: { ...D, rows: 10, showLegend: false } },
   i18n: { en: { title: "Antonyms with un-, dis-, in-", instruction: "Add the prefix to each word and write the new opposite word on the line." } },
   gradeBand: "G2",
 };

@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-335',
   slug: 'opposites-in-a-sentence',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: base.interactiveFor('frames'),   // Level Set 2026-09-28: tap-choice screen + answer key
+  // Level Set 2026-09-28: L1 circle one of two words (no writing, no bank) · L3 eight sentences, no bank; L2 = the published page (the same object)
+  difficulty: { 1: { ...D, choose: true, bank: false, pillPx: 20 }, 2: D, 3: { ...D, rows: 8, bank: false } },
   i18n: { en: { title: "Opposites in a Sentence", instruction: "Read each sentence. Write the opposite of the word after \"not\" on the line. The word bank helps you." } },
 };

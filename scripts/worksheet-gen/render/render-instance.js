@@ -4,6 +4,7 @@
  */
 'use strict';
 const path = require('path');
+const { measureKeyPage, judgeKey } = require('../qa/key-text-measure.js');   // every answer key is measured before it ships
 const fs = require('fs');
 const { buildPage } = require('../page/shell.js');
 const { makeRng, instanceSeed } = require('../lib/rng.js');
@@ -110,7 +111,8 @@ async function renderInstance(o) {
       await load(buildPage({ title: strings.title + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
       const keyPdf = base + '.key.pdf';
       await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
-      interactive = { kind: spec.kind, items, marks: got.marks, pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints };
+      const keyLints = judgeKey(await measureKeyPage(page), 'answer key');   // every key is MEASURED (qa/key-text-measure.js)
+      interactive = { kind: spec.kind, items, marks: got.marks, pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints.concat(keyLints) };
       return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive };
     }
     // the screen picture is CROPPED just below the lowest item (no empty half page on a phone);
@@ -167,7 +169,11 @@ async function renderInstance(o) {
     await load(buildPage({ title: strings.title + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
     const keyPdf = base + '.key.pdf';
     await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
-    interactive = { kind: spec.kind, items: geo, pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints };
+    // Every answer key is MEASURED (operator ruling 2026-09-28 — a repeating mistake): an answer on a writing row
+    // must sit on the base rule with its x-height at the dashed midline, a gap-box answer must be centered, and no
+    // ::after text may sit over a row. A failure fails the deck, so a misaligned key can never be published.
+    const keyLints = judgeKey(await measureKeyPage(page), 'answer key');
+    interactive = { kind: spec.kind, items: geo, pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints.concat(keyLints) };
   }
 
   return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive };

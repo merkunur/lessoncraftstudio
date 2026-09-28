@@ -113,8 +113,15 @@ function themelessWaves() {
         const groupUnits = allUnits.length > 1 ? allUnits : [null];
         // UNIT faces (cfg.unitsOnly — Letter of the Week, the whole alphabet): one copy per unit (letter), every unit
         // the face can build; the exemplar is skipped at level 2 (it is the published page)
-        const tries = cfg.unitsOnly
-          ? allUnits.filter((u) => !(lv === 2 && u === pubUnit)).map((unit) => ({ unit, sv: 1 }))
+        // SINGLE faces (cfg.singleFaces — Letter Tracing's range pages, whose titles name their letters): exactly one
+        // copy at each non-core level (the core level IS the published page). noExemplarSkip: the published page is
+        // not one of the units (K-238's is an A–F range), so every unit gets its level-2 copy too.
+        const single = (cfg.singleFaces || []).includes(id);
+        const unitMode = cfg.unitsOnly && !single;
+        const tries = single
+          ? (lv === 2 ? [] : [{ unit: null, sv: 1 }])
+          : unitMode
+          ? allUnits.filter((u) => cfg.noExemplarSkip || !(lv === 2 && u === pubUnit)).map((unit) => ({ unit, sv: 1 }))
           : group
           ? groupUnits.flatMap((unit) => Array.from({ length: 12 }, (_, k) => ({ unit, sv: k + 1 })))
             .filter((t) => !(lv === 2 && t.sv === 1 && (cfg.groupFaces[id] === 'skipFirstAtCore') && (t.unit === null || t.unit === pubUnit)))
@@ -122,10 +129,10 @@ function themelessWaves() {
             ? Array.from({ length: cfg.maxCopies }, (_, k) => ({ unit: null, sv: k + 1 }))
             : units.flatMap((unit) => Array.from({ length: cfg.seeds }, (_, k) => ({ unit, sv: k + 1 }))).filter((t) => !(lv === 2 && t.unit === null && t.sv === 1));
         for (const t of tries) {
-          if (!group && !cfg.unitsOnly && out.length >= cfg.maxCopies) break;
+          if (!group && !cfg.unitsOnly && !single && out.length >= cfg.maxCopies) break;
           let w;
           try { w = wholesOf(lv, t.unit, t.sv, next); } catch (e) { continue; }
-          if (!group && !text && !cfg.unitsOnly && accepted.some((a) => [...w].filter((x) => a.has(x)).length > Math.min(cfg.maxShared, Math.max(1, Math.floor(w.size / 4))))) continue;
+          if (!group && !text && !cfg.unitsOnly && !single && accepted.some((a) => [...w].filter((x) => a.has(x)).length > Math.min(cfg.maxShared, Math.max(1, Math.floor(w.size / 4))))) continue;
           if (!fits(lv, t.unit, next, t.sv)) { console.error(`  title too long: ${id} L${lv} ${t.unit || ''} group/seed ${t.sv}`); continue; }
           accepted.push(w);
           out.push({ copy: next++, unit: t.unit, seedVariant: t.sv });

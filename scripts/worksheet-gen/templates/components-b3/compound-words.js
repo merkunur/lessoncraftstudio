@@ -207,7 +207,10 @@ function compoundLinkRow({ index, tileA, tileB, linkBoxW, tileFont = 18, tileH =
 }
 
 /* ---- F2 cut ---- */
-function compoundCutRow({ index, wholePic, word, cell, fontPx, seam = null, stamps, pad = '6px 14px', badge = true }) {
+// Level Set 2026-09-28 (additive; the published call passes neither): `wholePic: null` = the text-only
+// level (no picture), `partsHtml` = the easier level's two part pictures after the cells, `seamColor`
+// = the answer key's seam (coral, not the d1 grid tick).
+function compoundCutRow({ index, wholePic, word, cell, fontPx, seam = null, stamps, pad = '6px 14px', badge = true, partsHtml = '', seamColor = null }) {
   const letters = [...String(word)];
   if (!letters.length) throw new Error('compoundCutRow: empty word');
   let cells = syllableWord({ word, cell, fontPx });
@@ -216,14 +219,15 @@ function compoundCutRow({ index, wholePic, word, cell, fontPx, seam = null, stam
   let extra = line({ x1: 0, y1: h - 2, x2: w, y2: h - 2, strokeColor: T.grid, strokeWidth: 1, cap: 'butt', data: { 'data-lcs-rail': 1 } });
   if (seam != null) {
     if (!(Number.isInteger(seam) && seam > 0 && seam < letters.length)) throw new Error('compoundCutRow: seam ' + seam + ' outside 1..' + (letters.length - 1));
-    extra += line({ x1: seam * cell, y1: 4, x2: seam * cell, y2: h - 2, strokeColor: T.grid, strokeWidth: 2, data: { 'data-lcs-seam': seam } });
+    extra += line({ x1: seam * cell, y1: 4, x2: seam * cell, y2: h - 2, strokeColor: seamColor || T.grid, strokeWidth: seamColor ? 4 : 2, data: { 'data-lcs-seam': seam } });
   }
   cells = cells.replace('</svg>', extra + '</svg>');
   return `<div class="ws-lane" data-ws-content data-lcs-row="${index == null ? '' : index}" ${rowStamps(stamps)} ` +
     `style="display:flex;align-items:center;gap:12px;padding:${pad};min-height:0;box-sizing:border-box">` +
     (badge && index != null ? countBadge(index) : '') +
-    `<span data-lcs-cue="whole" style="display:flex;flex:0 0 auto">${pic(wholePic, 'whole')}</span>` +
+    (wholePic === null ? '' : `<span data-lcs-cue="whole" style="display:flex;flex:0 0 auto">${pic(wholePic, 'whole')}</span>`) +
     `<span data-lcs-cells-wrap data-lcs-cell="${cell}" data-lcs-cells="${letters.length}" style="display:flex;flex:0 0 auto;line-height:0">${cells}</span>` +
+    partsHtml +
     `</div>`;
 }
 
@@ -247,9 +251,11 @@ function compoundMatchRow({ index, lane, left, right, gap = 120, stamps, pic: px
 function compoundDetectBank({ chips, iconPx = 44, wordPx = 18 }) {
   if (!Array.isArray(chips) || !chips.length) throw new Error('compoundDetectBank: chips[] required');
   const items = chips.map((c) => {
-    if (!c.word || !c.key || !c.src) throw new Error('compoundDetectBank: chip needs {word, key, src}');
+    // Level Set: a chip with `text: true` is the text-only level's chip (no picture, no key)
+    if (!c.word || (!c.text && (!c.key || !c.src))) throw new Error('compoundDetectBank: chip needs {word, key, src}');
     if (!!c.foil === !!c.parts) throw new Error('compoundDetectBank: chip "' + c.word + '" must be a foil OR carry its two parts');
     const kind = c.foil ? 'data-lcs-foil="1"' : `data-lcs-compound="${esc(c.parts.join('|'))}"`;
+    if (c.text) return `<span class="ws-bankword" style="font-size:${wordPx}px" data-lcs-detect-word="${esc(c.word)}" ${kind}><span>${esc(c.word)}</span></span>`;
     return `<span class="ws-bankword" style="font-size:${wordPx}px" data-lcs-detect-word="${esc(c.word)}" data-lcs-detect-key="${esc(c.key)}" ${kind}>` +
       `<img class="ws-icon" src="${c.src}" alt="" data-lcs-pic="${esc(c.key)}" style="width:${iconPx}px;height:${iconPx}px">` +
       `<span>${esc(c.word)}</span></span>`;
@@ -285,7 +291,10 @@ function compoundWebBlock({ hub, side, lanes, hubPx = 96, hubWordPx = 24, laneGa
     `<span style="display:flex;background:${T.white};border:2px solid ${T.teal};border-radius:16px;padding:2px">${pic({ src: hub.src, key: hub.key, px: hubPx }, 'hub')}</span>` +
     `<span data-lcs-hub-label style="font-family:${F.display},cursive;font-weight:700;font-size:${hubWordPx}px;line-height:${hubWordPx + 4}px;color:${T.ink};white-space:nowrap">${esc(hub.word)}</span></div>`;
   const rows = lanes.map((ln) => {
-    const whole = `<span data-lcs-cue="whole" style="display:flex;flex:0 0 auto">${pic(ln.whole, 'whole')}</span>`;
+    // Level Set L1: `ln.whole.word` = the satellite's other part word printed under its picture
+    const whole = ln.whole.word
+      ? `<span data-lcs-cue="whole" style="display:flex;flex-direction:column;align-items:center;flex:0 0 auto;gap:1px">${pic(ln.whole, 'whole')}<span data-lcs-part-word="${esc(ln.whole.word)}" style="font-family:${F.body},sans-serif;font-weight:800;font-size:18px;line-height:20px;color:${T.ink};white-space:nowrap">${esc(ln.whole.word)}</span></span>`
+      : `<span data-lcs-cue="whole" style="display:flex;flex:0 0 auto">${pic(ln.whole, 'whole')}</span>`;
     const ghost = `<span data-lcs-cue="ghost" style="display:flex;flex:0 0 auto">${pic({ src: ln.ghost.src, key: ln.ghost.key, px: ln.ghost.px }, 'ghost', `opacity:${ln.ghost.opacity};`)}</span>`
       .replace('<img ', '<img data-lcs-ghost="1" ');
     const first = side === 'b' ? whole : ghost, second = side === 'b' ? ghost : whole;
@@ -309,7 +318,9 @@ function compoundSizeRow({ index, cue: c, lane, stamps, pad = '6px 14px', gap = 
     `data-lcs-base="${esc(s.base)}" data-lcs-base-word="${esc(s.baseWord)}" data-lcs-whole="${esc(s.whole)}" ` +
     `style="display:flex;align-items:center;gap:${gap}px;padding:${pad};min-height:0;box-sizing:border-box">` +
     (badge && index != null ? countBadge(index) : '') +
-    `<span data-lcs-cue="a" data-lcs-cue-kind="pic" style="display:flex;flex:0 0 auto;align-items:center;justify-content:center;min-width:${c.boxPx || c.px}px">${pic(c, 'a')}</span>` +
+    (c.word
+      ? `<span data-lcs-cue="a" data-lcs-cue-kind="pic" style="display:flex;flex-direction:column;flex:0 0 auto;align-items:center;justify-content:center;gap:2px;min-width:${c.boxPx || c.px}px">${pic(c, 'a')}<span data-lcs-part-word="${esc(c.word)}" style="font-family:${F.body},sans-serif;font-weight:800;font-size:18px;line-height:20px;color:${T.ink};white-space:nowrap">${esc(c.word)}</span></span>`
+      : `<span data-lcs-cue="a" data-lcs-cue-kind="pic" style="display:flex;flex:0 0 auto;align-items:center;justify-content:center;min-width:${c.boxPx || c.px}px">${pic(c, 'a')}</span>`) +
     `<span style="flex:0 0 auto;display:flex">${opGlyph('=')}</span>` +
     emptyLane(lane, 'margin-left:2px') + `</div>`;
 }

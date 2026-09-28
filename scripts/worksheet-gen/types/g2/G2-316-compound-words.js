@@ -90,7 +90,13 @@ const { fileUri, displayWord } = require('../../lib/b2-common.js');
 const { compare } = require('../../data/b2/collation.js');
 const { wordBank } = require('../../templates/components-b2.js');
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
-const { compoundRow, compoundLinkRow, compoundCutRow, compoundMatchRow, compoundDetectBank, compoundDetectLane, compoundWebBlock, compoundSizeRow } = require('../../templates/components-b3.js');
+const { compoundRow, compoundLinkRow, compoundCutRow, compoundMatchRow, compoundDetectBank, compoundDetectLane, compoundWebBlock, compoundSizeRow, opGlyph } = require('../../templates/components-b3.js');
+const { wordTiles, starterFontPx } = require('../../templates/components-b2.js');
+const { makeRng } = require('../../lib/rng.js');
+const { esc } = require('../../primitives/_svg.js');
+const TOKENS = require('../../primitives/_tokens.js');
+const fsNode = require('fs');
+const pathNode = require('path');
 
 const ID = 'G2-316';
 const BANK = 'compound-words';
@@ -147,6 +153,130 @@ function sampleDisjoint(rng, pool, n, distinct, who) {
 /** Sets that reach the base floor (8 items, every part distinct) — the unit list of the fan. */
 function shippableSets(bank) {
   return (bank.units || []).filter((u) => Array.isArray(u.items) && u.items.length >= FLOOR_ROWS).map((u) => u.id);
+}
+
+/* ------------------------------------------------------ Level Set helpers (2026-09-28) */
+// The text-only harder levels (G2-330 L3, G2-332 L3) read native-authored word lists, never pictures:
+// data/b3/compound-words-text.json { <loc>: { textCompounds:[{word,a,aStem,link,b}], textFoils:[...],
+// newExclude:[wholes the new copies leave out — weak items the panels flagged in the published bank] } }.
+let _text = null;
+function textData(loc) {
+  if (_text === null) {
+    const f = pathNode.join(__dirname, '..', '..', 'data', 'b3', 'compound-words-text.json');
+    _text = fsNode.existsSync(f) ? JSON.parse(fsNode.readFileSync(f, 'utf8')) : {};
+  }
+  const t = _text[loc];
+  if (!t) throw new Error(`${ID}: ${loc} has no native text lists (data/b3/compound-words-text.json) — the text-only level is REFUSED`);
+  return t;
+}
+/** The bank minus the items the new copies leave out (the published page never calls this). */
+function newBank(bank, loc) {
+  let ex;
+  try { ex = new Set((textData(loc).newExclude || []).map((w) => String(w).toLocaleLowerCase(loc))); } catch (e) { return bank; }
+  if (!ex.size) return bank;
+  const keep = (it) => !ex.has(String(it.whole.word).toLocaleLowerCase(loc));
+  return {
+    ...bank,
+    units: (bank.units || []).map((u) => ({ ...u, items: (u.items || []).filter(keep) })),
+    opaque: (bank.opaque || []).filter(keep), onePart: (bank.onePart || []).filter(keep),
+    foils: (bank.foils || []).filter((f) => !ex.has(String(f.word).toLocaleLowerCase(loc))),
+    sizePairs: (bank.sizePairs || []).filter((p) => !ex.has(String(p.small).toLocaleLowerCase(loc)) && !ex.has(String(p.big).toLocaleLowerCase(loc))),
+    hubs: (bank.hubs || []).map((h) => ({ ...h, satellites: (h.satellites || []).filter((w) => !ex.has(String(w).toLocaleLowerCase(loc))) })),
+  };
+}
+/** A text item in the bank's item shape (a / b words, no pictures). */
+function textItem(t) {
+  const affix = /^-/.test(t.b);
+  return {
+    text: true, whole: { word: t.word }, a: { word: t.a }, aStem: t.aStem || undefined, link: t.link || '',
+    b: affix ? { affix: t.b } : { word: t.b }, picOpened: true,
+  };
+}
+/**
+ * The text items copy `variant` of a text-only level prints: one seeded order of the list per
+ * locale; G2-330 walks it from the FRONT, G2-332 from the BACK, so the two faces share as few words
+ * as the list allows. Copy c re-derives what copies 1..c-1 took and takes UNUSED items first; no
+ * part (a or b, suffixes included) twice on one page.
+ */
+function allocateText(list, n, loc, variant, fromEnd, accept) {
+  const lower = (x) => String(x).toLocaleLowerCase(loc);
+  let order = makeRng('cmp-text|' + loc).shuffle(list.slice().sort((x, y) => (lower(x.word) < lower(y.word) ? -1 : 1)));
+  if (fromEnd) order = order.reverse();
+  const used = new Set();
+  let pick = null;
+  for (let c = 1; c <= variant; c++) {
+    const take = [], parts = new Set();
+    const tryAdd = (t) => {
+      const ks = [...new Set([lower(t.a), lower(t.aStem || t.a), lower(String(t.b).replace(/^-/, ''))])];
+      if (ks.some((k) => parts.has(k)) || (accept && !accept(t, take))) return;
+      ks.forEach((k) => parts.add(k)); take.push(t);
+    };
+    for (const t of order) { if (take.length === n) break; if (!used.has(lower(t.word))) tryAdd(t); }
+    for (const t of order) { if (take.length === n) break; if (used.has(lower(t.word)) && !take.includes(t)) tryAdd(t); }
+    if (take.length < n) throw new Error(`${ID}: ${loc} text list cannot seat ${n} words with distinct parts (refuse)`);
+    take.forEach((t) => used.add(lower(t.word)));
+    pick = take;
+  }
+  return pick;
+}
+/** Wrong options by ROTATION: item i takes the next `n` items of one seeded cycle, so every item is a
+ *  wrong option equally often (an independent draw per item let one word recur in 5 of 6 rows). */
+function rotated(list, i, n, key) {
+  const order = makeRng('cmp-rot|' + key).shuffle(list.map((_, k) => k));
+  const at = order.indexOf(i);
+  return Array.from({ length: n }, (_, k) => list[order[(at + 1 + k) % order.length]]);
+}
+/** Answer slots balanced over k positions, fixed by the page's content (no answer-position tell). */
+function balancedSlots(n, k, key) {
+  return makeRng('cmp-slot|' + key).shuffle(Array.from({ length: n }, (_, i) => i % k));
+}
+const SCREEN_W = 660, OPT_W = 204, OPT_H = 104;
+function optFont(text, w) { return Math.max(18, Math.min(32, Math.floor((w - 22) / (Math.max(1, [...text].length) * 0.6)))); }
+/** Three option buttons (tap-choice); `opts` = [{label, html?, font?}], `correct` = the right index. */
+function optButtons(opts, correct, w = OPT_W, h = OPT_H) {
+  // one text size per row (the longest option sets it) — a size difference would single out an option
+  const rowFont = Math.min(...opts.map((o) => o.font || optFont(o.label, w)));
+  return opts.map((o, i) => `<span class="ws-achip" data-lcs-opt="${i}" data-lcs-label="${esc(o.label)}"${i === correct ? ' data-lcs-correct="1"' : ''} ` +
+    `style="width:${w}px;height:${h}px;font-size:${rowFont}px;padding:0 6px;box-sizing:border-box;white-space:nowrap;gap:6px">${o.html != null ? o.html : esc(o.label)}</span>`).join('');
+}
+/** One screen item: a cue line (top) and the option row (bottom). */
+function screenItem(attrs, topHtml, optsHtml) {
+  return `<div data-lcs-item ${attrs} data-ws-content style="display:flex;flex-direction:column;align-items:center;gap:10px;width:${SCREEN_W}px;padding:12px 8px;background:#FFFDF8;border:2px solid #EFE4D2;border-radius:16px;box-sizing:border-box">` +
+    `<div style="display:flex;align-items:center;justify-content:center;gap:12px;min-height:40px">${topHtml}</div>` +
+    `<div class="ws-achips" style="gap:12px;justify-content:center;flex-wrap:nowrap;padding-top:0">${optsHtml}</div></div>`;
+}
+function screenBody(mode, items, bank) {
+  return `<div data-lcs-compound data-lcs-screen="${mode}" data-lcs-shape="${bank.shape}" style="flex:1;display:flex;flex-direction:column;gap:14px;align-items:center;padding-top:10px">${items.join('')}</div>`;
+}
+function screenPic(src, key, px, extra = '') { return `<img class="ws-icon" src="${src}" alt="" data-lcs-pic="${esc(key)}" style="width:${px}px;height:${px}px;flex:0 0 auto;${extra}">`; }
+function screenOp(ch) { return `<span style="display:flex;flex:0 0 auto">${opGlyph(ch)}</span>`; }
+function screenTile(word, px = 26) { return `<span style="display:flex;flex:0 0 auto">${wordTiles({ tokens: [String(word)], fontPx: px, tileH: 48 })}</span>`; }
+/** The stamps the robot's oracle reads (the parts — never the answer). */
+function oracleAttrs(it) {
+  const st = stampsOf(it);
+  return `data-lcs-a="${esc(st.a)}" data-lcs-b="${esc(st.b)}" data-lcs-a-word="${esc(st.aWord)}" data-lcs-b-word="${esc(st.bWord)}" data-lcs-a-stem="${esc(st.aStem)}" data-lcs-link="${esc(st.link)}"${it.text ? ' data-lcs-text="1"' : ''}`;
+}
+/** Answer key: grey model words written into the page's writing rows (in order), fitted to the row. */
+function keyInLanes(html, texts, lane) {
+  let from = 0;
+  const f = starterFontPx({ h: lane.h, glyphH: lane.glyphH });
+  for (const t of texts) {
+    const at = html.indexOf('data-lcs-lane', from);
+    if (at < 0) throw new Error(`${ID}: answer key has no writing row for "${t}"`);
+    const end = html.indexOf('</svg>', at);
+    const room = lane.w - 16;
+    const fit = [...t].length * f.px * 0.56 > room ? ` textLength="${room}" lengthAdjust="spacingAndGlyphs"` : '';
+    const txt = `<text x="8" y="${f.yBase.toFixed(1)}" font-family="${TOKENS.font.body}" font-size="${f.px}" font-weight="700" fill="${TOKENS.color.inkSoft}" data-lcs-starter="1"${fit}>${esc(t)}</text>`;
+    html = html.slice(0, end) + txt + html.slice(end);
+    from = end + txt.length;
+  }
+  return html;
+}
+/** A whole in the bank's casing rule from stem + link + tail (how the page would print that join). */
+function joinWith(stem, link, tail, casing, loc) {
+  const raw = stem + (link || '') + tail;
+  const first = casing === 'keep-first' ? raw.charAt(0) : raw.charAt(0).toLocaleLowerCase(loc);
+  return first + raw.slice(1).toLocaleLowerCase(loc);
 }
 
 /* ------------------------------------------------------------- Phase 2 helpers */
@@ -229,6 +359,68 @@ function stampsOf(it) {
   };
 }
 
+/**
+ * The robot gate's INDEPENDENT truth (Level Set 2026-09-28): for each screen item the correct
+ * OPTION, recomputed from the BANK (the item carries only its parts' stamps, never the answer):
+ * the whole from the bank item with those parts (the text list's entry on a text-only page), the
+ * seam = stem + link, the second part's word, the size pair's small / big form. tap-select
+ * (detect): true for a known compound, false for a known look-alike, anything else throws.
+ */
+function cmpOracle(mode, items, loc) {
+  const bank = loadBank(BANK, loc);
+  const lower = (x) => String(x).toLocaleLowerCase(loc);
+  let T;
+  try { T = textData(loc); } catch (e) { T = { textCompounds: [], textFoils: [] }; }
+  if (mode === 'detect') {
+    const yes = new Set([...allItems(bank).map(({ it }) => lower(it.whole.word)), ...(T.textCompounds || []).map((t) => lower(t.word))]);
+    const no = new Set([...(bank.foils || []).map((f) => lower(f.word)), ...(T.textFoils || []).map(lower)]);
+    return items.map((it) => {
+      const w = lower(it.label || (it.meta && it.meta['data-lcs-word']) || '');
+      if (yes.has(w) && !no.has(w)) return true;
+      if (no.has(w) && !yes.has(w)) return false;
+      throw new Error(`oracle: "${w}" is neither a known compound nor a known look-alike (${loc})`);
+    });
+  }
+  return items.map((it) => {
+    const m = it.meta || {};
+    let want;
+    if (m['data-lcs-size']) {
+      const sp = (bank.sizePairs || []).find((p) => p.base.vocabKey === m['data-lcs-base']);
+      if (!sp || !sp[m['data-lcs-size']]) throw new Error(`oracle: no size pair for ${m['data-lcs-base']} (${loc})`);
+      want = sp[m['data-lcs-size']];
+    } else {
+      let found = null;
+      if (m['data-lcs-text'] === '1') {
+        const t = (T.textCompounds || []).find((x) => lower(x.a) === lower(m['data-lcs-a-word']) && (/^-/.test(x.b) ? x.b === m['data-lcs-b'] : lower(x.b) === lower(m['data-lcs-b-word'])));
+        found = t ? textItem(t) : null;
+      } else {
+        const hit = allItems(bank).find(({ it: x }) => { const st = stampsOf(x); return st.a === m['data-lcs-a'] && st.b === m['data-lcs-b']; });
+        found = hit ? hit.it : null;
+      }
+      if (!found) throw new Error(`oracle: no bank item with parts ${m['data-lcs-a']} + ${m['data-lcs-b']} (${loc})`);
+      const whole = found.whole.word;
+      if (mode === 'cut') { const c = [...(found.aStem || found.a.word)].length + [...(found.link || '')].length, L = [...whole]; want = L.slice(0, c).join('') + '|' + L.slice(c).join(''); }
+      else if (mode === 'match') want = found.b.word;
+      else want = whole;
+    }
+    const idx = it.options.indexOf(want);
+    if (idx < 0) throw new Error(`oracle: "${want}" is not among the options ${it.options.join(' / ')} (${loc})`);
+    return idx;
+  });
+}
+/** The screen version of one face (Level Set): tap-choice everywhere but detect (tap-select). */
+function interactiveFor(mode) {
+  const select = mode === 'detect';
+  const KEY = { base: 'whole', link: 'join', cut: 'cut', match: 'match', detect: 'detect', web: 'web' };
+  return {
+    kind: select ? 'tap-select' : 'tap-choice', item: '[data-lcs-item]', option: select ? undefined : '[data-lcs-opt]',
+    answerAttr: select ? 'data-lcs-compound' : 'data-lcs-key', labelAttr: 'data-lcs-word',
+    metaAttrs: ['data-lcs-a', 'data-lcs-b', 'data-lcs-a-word', 'data-lcs-b-word', 'data-lcs-a-stem', 'data-lcs-link', 'data-lcs-text', 'data-lcs-size', 'data-lcs-base', 'data-lcs-word'],
+    instructionKey: KEY[mode], screenHeight: 3600,
+    oracle: (items, loc) => cmpOracle(mode, items, (loc || 'en').slice(0, 2)),
+  };
+}
+
 module.exports = {
   id: ID,
   slug: 'compound-words-picture-plus-picture',
@@ -246,6 +438,9 @@ module.exports = {
     2: { rows: 8, pic: 64, laneW: 410, laneH: 64, glyphH: 28, partWords: false, bank: false, minLinked: 2, maxLetters: 14, distinctParts: true, badges: true, padY: 6, gap: 8, wordPx: 18 },
     3: { rows: 10, pic: 48, laneW: 426, laneH: 50, glyphH: 24, partWords: false, bank: false, minLinked: 4, maxLetters: 14, distinctParts: true, badges: false, padY: 4, gap: 8, wordPx: 18 },
   },
+  // Level Set 2026-09-28: the screen version (tap the whole word) — the faces declare their own
+  interactive: interactiveFor('base'),
+  interactiveFor,
   i18n: {
     en: {
       title: 'Compound Words: Picture + Picture',
@@ -255,7 +450,11 @@ module.exports = {
 
   build({ theme, difficulty, locale, unit }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
-    return this._buildWith(loadBank(BANK, loc), { theme, difficulty, locale: loc, unit }, ctx);
+    // Level Set: every page but the published one (level 2, copy 1, the exemplar set) leaves out
+    // the weak bank items the native panels flagged (newExclude); the published page is untouched
+    const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1 && !unit;
+    const b = loadBank(BANK, loc);
+    return this._buildWith(published ? b : newBank(b, loc), { theme, difficulty, locale: loc, unit }, { ...ctx, variant: (ctx && ctx.variant) || 1 });
   },
 
   /** The whole build over an INJECTED bank (the gate's poison seam); build() passes the real one. */
@@ -356,31 +555,45 @@ module.exports = {
       bankHtml = wordBank({ words: sorted.map((w) => ({ word: w })), wordPx: 18 });
     }
     const ordered = order.map((i) => rows[i]);
+    const meta = {
+      set: setId, wholes: ordered.map((r) => r.it.whole.word), parts: ordered.map((r) => [r.it.a.vocabKey, r.it.b.affix != null ? r.it.b.affix : r.it.b.vocabKey]),
+      links: ordered.map((r) => r.it.link || ''), pictures: ordered.map((r) => [r.picA.theme + '/' + r.picA.noun, r.picB ? r.picB.theme + '/' + r.picB.noun : null]),
+      laneW, minLinked, pool: pool.length,
+    };
+    if (ctx && ctx.interactive) {
+      // screen: the two cues, then THREE whole words (the answer + two other wholes of this page)
+      const wholes = meta.wholes;
+      const slots = balancedSlots(ordered.length, 3, ID + '|' + wholes.join('|'));
+      const items = ordered.map((r, i) => {
+        const it = r.it, w = it.whole.word;
+        const dis = rotated(wholes, i, 2, ID + '|' + wholes.join('|'));
+        const opts = dis.slice(); opts.splice(slots[i], 0, w);
+        const cueHtml = (c) => (c.chip != null ? screenTile(c.chip)
+          : `<span style="display:flex;flex-direction:column;align-items:center;gap:2px">${screenPic(c.src, c.key, Math.max(64, Math.round(88 * (c.px / d.pic))))}${c.word ? `<span style="font-family:${TOKENS.font.body};font-weight:800;font-size:22px;color:${TOKENS.color.ink}">${esc(c.word)}</span>` : ''}</span>`);
+        return screenItem(oracleAttrs(it), cueHtml(r.cueA) + screenOp('+') + cueHtml(r.cueB), optButtons(opts.map((x) => ({ label: x })), slots[i]));
+      });
+      return { bodyHtml: screenBody('base', items, bank), meta };
+    }
+    const isKey = !!(ctx && ctx.answerKey);
 
     const lane = { w: laneW, h: d.laneH, glyphH: d.glyphH };
     const rowHtml = ordered.map((r, i) => {
       const it = r.it;
       const stem = it.aStem || it.a.word;
       const cut = [...stem].length + [...(it.link || '')].length;
-      return compoundRow({
+      const row = compoundRow({
         index: i + 1, cueA: r.cueA, cueB: r.cueB, lane, wordPx: d.wordPx, badge: d.badges,
         pad: `${d.padY}px ${LANE_PAD_X}px`, gap: GAP,
         stamps: { a: it.a.vocabKey, aWord: it.a.word, aStem: it.aStem || '', b: it.b.affix != null ? it.b.affix : it.b.vocabKey, bWord: it.b.affix != null ? '' : it.b.word, link: it.link || '', whole: it.whole.word, cut },
       });
+      return isKey ? keyInLanes(row, [it.whole.word], lane) : row;
     });
     const grid = `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${ordered.length},minmax(0,1fr));gap:${d.gap}px;min-height:0">${rowHtml.join('')}</div>`;
     const bodyHtml = `<div style="flex:1 1 auto;display:flex;flex-direction:column;min-height:0" data-lcs-compound data-lcs-face="base" ` +
       `data-lcs-set="${setId}" data-lcs-shape="${bank.shape}" data-lcs-casing="${bank.casing}" data-lcs-rows="${ordered.length}" data-lcs-lane-w="${laneW}" ` +
       `data-lcs-pic="${d.pic}" data-lcs-min-linked="${minLinked}" data-lcs-distinct-parts="${d.distinctParts ? 1 : 0}" data-lcs-part-words="${d.partWords ? 1 : 0}"` +
       (d.bank ? ' data-lcs-has-bank="1"' : '') + '>' + bankHtml + grid + '</div>';
-    return {
-      bodyHtml,
-      meta: {
-        set: setId, wholes: ordered.map((r) => r.it.whole.word), parts: ordered.map((r) => [r.it.a.vocabKey, r.it.b.affix != null ? r.it.b.affix : r.it.b.vocabKey]),
-        links: ordered.map((r) => r.it.link || ''), pictures: ordered.map((r) => [r.picA.theme + '/' + r.picA.noun, r.picB ? r.picB.theme + '/' + r.picB.noun : null]),
-        laneW, minLinked, pool: pool.length,
-      },
-    };
+    return { bodyHtml, meta };
   },
 
   /* ------------------------------------------------------------ Phase 2: the faces */
@@ -406,6 +619,7 @@ module.exports = {
   /** F1 — What Goes in the Middle? (`mode:'link'`): the joint is the decision. */
   _buildLink(bank, d, loc, ctx, unit) {
     const who = ID, rng = ctx.rng;
+    const lower = (x) => String(x).toLocaleLowerCase(loc);
     if (bank.refuse && bank.refuse.F1) throw new Error(`${who}: ${loc} REFUSES the link face (refuse.F1 — the joint is no decision / has no joint here)`);
     if (!(d.cards >= 6 && d.cards <= 10)) throw new Error(`${who}: link cards ${d.cards} must be 6..10`);
     if (!(d.linkBoxW >= 24)) throw new Error(`${who}: linkBoxW ${d.linkBoxW}`);
@@ -444,16 +658,53 @@ module.exports = {
     for (const it of chosen) { laneW = Math.min(laneW, Math.floor(ROW_INNER - usedBy(it))); lineW = Math.max(lineW, Math.ceil(tileW(it.a.word) + 8 + d.linkBoxW + 8 + tileW(it.b.word))); }
     if (laneW < need) throw new Error(`${who}: link lane shrinks to ${laneW} px < ${need} needed for ${d.maxLetters} glyphs (refuse the page)`);
     const lane = { w: laneW, h: d.laneH, glyphH: d.glyphH };
+    const pics = chosen.map((it) => resolveKey(rng, bank, it.whole.vocabKey, loc, who));
+    const meta = { set: setId, wholes: chosen.map((it) => it.whole.word), links: chosen.map((it) => it.link || ''), laneW, pool: pool.length, dropped };
+    if (ctx.interactive) {
+      // screen: both part words + THREE spellings of the whole, joined with different joining letters
+      const lowerW = new Set(allItems(bank).map(({ it }) => lower(it.whole.word)));
+      const k = Math.min(3, links.length);
+      const slots = balancedSlots(chosen.length, k, ID + '|link|' + meta.wholes.join('|'));
+      const items = chosen.map((it, i) => {
+        const w = it.whole.word;
+        // plausible wrong joins only: a short joining letter (never -er / -es unless nothing else is left), and
+        // never one that doubles the last letter of the first word (Sonne + e → "Sonneeblume" is no child's guess)
+        const last = lower(it.a.word).slice(-1);
+        const ok = (l) => l !== (it.link || '') && !(l && lower(l)[0] === last);
+        const pool0 = links.filter((l) => ok(l) && l.length <= 1 || l === 'en').filter(ok);
+        const alts = (pool0.length >= k - 1 ? pool0 : links.filter(ok)).map((l) => joinWith(it.a.word, l, it.b.word, bank.casing, loc))
+          .filter((x, j, arr) => lower(x) !== lower(w) && !lowerW.has(lower(x)) && arr.indexOf(x) === j);
+        if (alts.length < k - 1) throw new Error(`${who}: ${loc} "${w}" has ${alts.length} other joins (need ${k - 1}) for the screen`);
+        const opts = makeRng('cmp-link|' + w).sample(alts, k - 1); opts.splice(slots[i], 0, w);
+        const top = screenPic(pics[i].src, it.whole.vocabKey, 80) + screenTile(it.a.word) + screenOp('+') + screenTile(it.b.word);
+        return screenItem(oracleAttrs(it), top, optButtons(opts.map((x) => ({ label: x })), slots[i]));
+      });
+      return { bodyHtml: screenBody('link', items, bank), meta };
+    }
     const rowsHtml = chosen.map((it, i) => {
-      const wp = resolveKey(rng, bank, it.whole.vocabKey, loc, who);
-      return compoundLinkRow({
+      const wp = pics[i];
+      let row = compoundLinkRow({
         index: i + 1, tileA: it.a.word, tileB: it.b.word, linkBoxW: d.linkBoxW, tileFont: d.tileFont, tileH: d.tileH,
         wholePic: { src: wp.src, key: it.whole.vocabKey, px: d.wholePic }, lane, stamps: stampsOf(it), pad: `${d.padY}px ${LANE_PAD_X}px`, badge: d.badges, lineW,
       });
+      if (ctx.answerKey) {
+        row = keyInLanes(row, [it.whole.word], lane);
+        if (it.link) {
+          const at = row.indexOf('data-lcs-linkbox'), end = row.indexOf('</svg>', at);
+          row = row.slice(0, end) + `<text x="${d.linkBoxW / 2}" y="19" text-anchor="middle" dominant-baseline="central" font-family="${TOKENS.font.body}" font-size="20" font-weight="800" fill="${TOKENS.color.inkSoft}">${esc(it.link)}</text>` + row.slice(end);
+        }
+      }
+      return row;
     });
+    // L1 (easier): the locale's joining letters across the top — an empty box = "nothing between"
+    const linkBank = d.linkBank
+      ? `<div class="ws-scene-banner" data-lcs-link-bank style="justify-content:center;align-items:center;gap:14px;margin-bottom:8px">` +
+        `<span style="display:flex">${require('../../templates/components-b3.js').compoundLinkBox({ w: d.linkBoxW })}</span>` +
+        links.filter((l) => l).map((l) => wordTiles({ tokens: [l], fontPx: 20, tileH: 36 })).join('') + `</div>`
+      : '';
     const grid = `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${chosen.length},minmax(0,1fr));gap:${d.gap}px;min-height:0">${rowsHtml.join('')}</div>`;
-    const bodyHtml = this._faceRoot('link', ` data-lcs-set="${setId}" data-lcs-cards="${chosen.length}" data-lcs-linkbox-w="${d.linkBoxW}" data-lcs-min-linked="${d.minLinked}" data-lcs-min-empty="${d.minEmpty}" data-lcs-pic="${d.wholePic}" data-lcs-tile-font="${d.tileFont}" data-lcs-lane-w="${laneW}"`, grid, bank);
-    return { bodyHtml, meta: { set: setId, wholes: chosen.map((it) => it.whole.word), links: chosen.map((it) => it.link || ''), laneW, pool: pool.length, dropped } };
+    const bodyHtml = this._faceRoot('link', ` data-lcs-set="${setId}" data-lcs-cards="${chosen.length}" data-lcs-linkbox-w="${d.linkBoxW}" data-lcs-min-linked="${d.minLinked}" data-lcs-min-empty="${d.minEmpty}" data-lcs-pic="${d.wholePic}" data-lcs-tile-font="${d.tileFont}" data-lcs-lane-w="${laneW}"`, linkBank + grid, bank);
+    return { bodyHtml, meta };
   },
 
   /** F2 — Split the Compound (`mode:'cut'`): the whole in letter cells, one line at the seam. */
@@ -464,28 +715,64 @@ module.exports = {
     if (d.cutPic < 36) throw new Error(`${who}: cut picture ${d.cutPic} below the G2 element floor 36`);
     if (d.seam != null) throw new Error(`${who}: a seam tick is never printed on the shipped cut face (d1 only)`);
     const links = bank.links;
-    const { setId, set } = faceSet(bank, unit, loc, who);
-    const pool = [];
-    for (const { it, where } of [...set.items.map((it) => ({ it, where: 'set ' + setId })), ...(bank.opaque || []).map((it) => ({ it, where: 'opaque' })), ...(bank.onePart || []).map((it) => ({ it, where: 'onePart' }))]) {
-      const tag = (m) => `${who}: ${loc} ${where} item "${it.whole && it.whole.word}": ${m}`;
-      if (!faceItemOk(it, bank, links, d.maxLetters, tag)) continue;
-      if (!it.whole.vocabKey || !candidates(it.whole.vocabKey, loc).length) {
-        if (bank.shape === 'compound') throw new Error(tag('whole needs a colour picture'));
-        continue;                                                   // family / alterati wholes may be unpictured (design: the root's picture is the d-fallback, Phase 4)
+    let setId, chosen, poolN;
+    const PARTS_PX = 44, partsW = d.showParts ? 8 + 2 * PARTS_PX + 6 : 0;
+    const bPictured = (it) => it.b && it.b.affix == null && it.b.vocabKey && candidates(it.b.vocabKey, loc).length;
+    if (d.textOnly) {
+      // L3 (harder): the native text list, no picture — copy N takes the list's next unused words
+      const list = (textData(loc).textCompounds || []).filter((t) => [...t.word].length <= d.maxLetters && 12 + [...t.word].length * d.cell <= ROW_INNER);
+      chosen = allocateText(list, d.rows, loc, ctx.seedVariant || ctx.variant || 1, false).map(textItem);
+      setId = 'text'; poolN = list.length;
+    } else {
+      const fs = faceSet(bank, unit, loc, who); setId = fs.setId;
+      const pool = [];
+      for (const { it, where } of [...fs.set.items.map((it) => ({ it, where: 'set ' + setId })), ...(bank.opaque || []).map((it) => ({ it, where: 'opaque' })), ...(bank.onePart || []).map((it) => ({ it, where: 'onePart' }))]) {
+        const tag = (m) => `${who}: ${loc} ${where} item "${it.whole && it.whole.word}": ${m}`;
+        if (!faceItemOk(it, bank, links, d.maxLetters, tag)) continue;
+        if (!it.whole.vocabKey || !candidates(it.whole.vocabKey, loc).length) {
+          if (bank.shape === 'compound') throw new Error(tag('whole needs a colour picture'));
+          continue;                                                   // family / alterati wholes may be unpictured (design: the root's picture is the d-fallback, Phase 4)
+        }
+        if (d.cutPic + 12 + [...it.whole.word].length * d.cell + partsW > ROW_INNER) continue;
+        // L1 (easier): both parts are pictured beside the word (the affix of es/fr/it/pt shows in the word itself)
+        if (d.showParts && (!it.a.vocabKey || !candidates(it.a.vocabKey, loc).length || (bank.shape === 'compound' && !bPictured(it)))) continue;
+        pool.push(it);
       }
-      if (d.cutPic + 12 + [...it.whole.word].length * d.cell > ROW_INNER) continue;
-      pool.push(it);
+      if (pool.length < d.rows) throw new Error(`${who}: ${loc} cut pool has ${pool.length} pictured wholes <= ${d.maxLetters} letters, need ${d.rows} (refuse)`);
+      chosen = sampleFaceRows(rng, pool, d.rows, loc, who);
+      poolN = pool.length;
     }
-    if (pool.length < d.rows) throw new Error(`${who}: ${loc} cut pool has ${pool.length} pictured wholes <= ${d.maxLetters} letters, need ${d.rows} (refuse)`);
-    const chosen = sampleFaceRows(rng, pool, d.rows, loc, who);
+    const wps = chosen.map((it) => (it.text ? null : resolveKey(rng, bank, it.whole.vocabKey, loc, who)));
+    const parts = chosen.map((it) => (d.showParts ? [resolvePart(rng, it.a, loc, who), bPictured(it) ? resolvePart(rng, it.b, loc, who) : null] : null));
+    const meta = { set: setId, wholes: chosen.map((it) => it.whole.word), cuts: chosen.map((it) => stampsOf(it).cut), pool: poolN };
+    if (ctx.interactive) {
+      // screen: the word THREE times, each split at a different place — the answer is where the second word starts
+      const slots = balancedSlots(chosen.length, 3, ID + '|cut|' + meta.wholes.join('|'));
+      const items = chosen.map((it, i) => {
+        const L = [...it.whole.word], cut = stampsOf(it).cut;
+        const near = Array.from({ length: L.length - 1 }, (_, k) => k + 1).filter((q) => q !== cut).sort((x, y) => Math.abs(x - cut) - Math.abs(y - cut) || x - y).slice(0, 4);
+        const pos = makeRng('cmp-cut|' + it.whole.word).sample(near, 2); pos.splice(slots[i], 0, cut);
+        const opts = pos.map((q) => ({
+          label: L.slice(0, q).join('') + '|' + L.slice(q).join(''),
+          html: `${esc(L.slice(0, q).join(''))}<span style="color:${TOKENS.color.coral};font-weight:800;margin:0 2px">|</span>${esc(L.slice(q).join(''))}`,
+          font: optFont(it.whole.word + '||', OPT_W),
+        }));
+        const top = it.text ? `<span style="font-family:${TOKENS.font.display};font-weight:700;font-size:34px;color:${TOKENS.color.ink}">${esc(it.whole.word)}</span>` : screenPic(wps[i].src, it.whole.vocabKey, 88);
+        return screenItem(oracleAttrs(it), top, optButtons(opts, slots[i]));
+      });
+      return { bodyHtml: screenBody('cut', items, bank), meta };
+    }
     const rowsHtml = chosen.map((it, i) => {
-      const wp = resolveKey(rng, bank, it.whole.vocabKey, loc, who);
-      return compoundCutRow({ index: i + 1, wholePic: { src: wp.src, key: it.whole.vocabKey, px: d.cutPic }, word: it.whole.word, cell: d.cell, fontPx: d.cellFont, stamps: stampsOf(it), pad: `${d.padY}px ${LANE_PAD_X}px`, badge: d.badges })
-        .replace('data-lcs-row=', `data-lcs-whole-key="${it.whole.vocabKey}" data-lcs-row=`);
+      const wp = wps[i];
+      const partsHtml = parts[i] ? `<span data-lcs-parts style="display:flex;flex:0 0 auto;align-items:center;gap:6px;margin-left:8px">` +
+        parts[i].filter(Boolean).map((pp, j) => `<img class="ws-icon" src="${pp.src}" alt="" data-lcs-part-pic="${j ? 'b' : 'a'}" style="width:${PARTS_PX}px;height:${PARTS_PX}px">`).join('') + `</span>` : '';
+      const row = compoundCutRow({ index: i + 1, wholePic: it.text ? null : { src: wp.src, key: it.whole.vocabKey, px: d.cutPic }, word: it.whole.word, cell: d.cell, fontPx: d.cellFont, stamps: stampsOf(it), pad: `${d.padY}px ${LANE_PAD_X}px`, badge: d.badges, partsHtml,
+        ...(ctx.answerKey ? { seam: stampsOf(it).cut, seamColor: TOKENS.color.coral } : {}) });
+      return it.text ? row : row.replace('data-lcs-row=', `data-lcs-whole-key="${it.whole.vocabKey}" data-lcs-row=`);
     });
     const grid = `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${chosen.length},minmax(0,1fr));gap:${d.gap}px;min-height:0">${rowsHtml.join('')}</div>`;
-    const bodyHtml = this._faceRoot('cut', ` data-lcs-set="${setId}" data-lcs-rows="${chosen.length}" data-lcs-cell="${d.cell}" data-lcs-cell-font="${d.cellFont}" data-lcs-pic="${d.cutPic}"`, grid, bank);
-    return { bodyHtml, meta: { set: setId, wholes: chosen.map((it) => it.whole.word), cuts: chosen.map((it) => stampsOf(it).cut), pool: pool.length } };
+    const bodyHtml = this._faceRoot('cut', ` data-lcs-set="${setId}" data-lcs-rows="${chosen.length}" data-lcs-cell="${d.cell}" data-lcs-cell-font="${d.cellFont}" data-lcs-pic="${d.cutPic}"${d.textOnly ? ' data-lcs-text-only="1"' : ''}`, grid, bank);
+    return { bodyHtml, meta };
   },
 
   /** F3 — Match the Halves (`mode:'match'`): 6 first-part pictures ↔ 6 second-part pictures, deranged. */
@@ -531,19 +818,40 @@ module.exports = {
     if (lane.w < need) throw new Error(`${who}: match lane ${lane.w} < ${need} needed for ${d.maxLetters} glyphs`);
     const rowW = lane.w + 12 + (d.pic + 12) + 12 + d.matchGap + 12 + (d.pic + 12);
     if (rowW > 675) throw new Error(`${who}: match row ${rowW} px > the body column 675`);
+    const pics = chosen.map((it, i) => ({ pa: resolvePart(rng, it.a, loc, who), pb: resolvePart(rng, chosen[perm[i]].b, loc, who) }));
+    const meta = { set: setId, wholes: chosen.map((it) => it.whole.word), order: perm, pool: pool.length };
+    if (ctx.interactive) {
+      // screen: each first-part picture + THREE second-part pictures of this page — tap the one that finishes the word
+      const bPic = new Map(chosen.map((_, i) => [chosen[perm[i]].b.vocabKey, pics[i].pb]));
+      const slots = balancedSlots(chosen.length, 3, ID + '|match|' + meta.wholes.join('|'));
+      const items = chosen.map((it, i) => {
+        const opts = rotated(chosen, i, 2, ID + '|match|' + meta.wholes.join('|')).map((x) => x.b); opts.splice(slots[i], 0, it.b);
+        const box = `<span style="display:flex;width:80px;height:80px;border:3px dashed ${TOKENS.color.coral};border-radius:14px;box-sizing:border-box"></span>`;
+        return screenItem(oracleAttrs(it), screenPic(pics[i].pa.src, it.a.vocabKey, 88) + screenOp('+') + box,
+          optButtons(opts.map((b) => ({ label: b.word, html: screenPic(bPic.get(b.vocabKey).src, b.vocabKey, 84) })), slots[i]));
+      });
+      return { bodyHtml: screenBody('match', items, bank), meta };
+    }
     const rowsHtml = chosen.map((it, i) => {
       const partner = chosen[perm[i]];
-      const pa = resolvePart(rng, it.a, loc, who), pb = resolvePart(rng, partner.b, loc, who);
-      return compoundMatchRow({
+      const { pa, pb } = pics[i];
+      let row = compoundMatchRow({
         index: i + 1, lane, pic: d.pic, gap: d.matchGap,
         left: { src: pa.src, key: it.a.vocabKey, px: d.pic, word: it.a.word },
         right: { src: pb.src, key: partner.b.vocabKey, px: d.pic, word: partner.b.word },
         stamps: stampsOf(it),
       });
+      if (ctx.answerKey) {
+        // the key: the word on the lane, and on each right picture the NUMBER of the first picture it finishes
+        row = keyInLanes(row, [it.whole.word], lane);
+        row = row.replace('<span class="ws-match-dot ws-match-dot--left">', `<span style="position:absolute;top:-10px;right:-10px;width:28px;height:28px;border-radius:14px;background:${TOKENS.color.coral};color:#FFF;font-family:${TOKENS.font.display};font-weight:700;font-size:18px;display:flex;align-items:center;justify-content:center">${perm[i] + 1}</span><span class="ws-match-dot ws-match-dot--left">`);
+        row = row.replace('<span class="ws-match-dot ws-match-dot--right">', `<span style="position:absolute;top:-10px;left:-10px;width:28px;height:28px;border-radius:14px;background:${TOKENS.color.teal};color:#FFF;font-family:${TOKENS.font.display};font-weight:700;font-size:18px;display:flex;align-items:center;justify-content:center">${i + 1}</span><span class="ws-match-dot ws-match-dot--right">`);
+      }
+      return row;
     });
     const grid = `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${chosen.length},minmax(0,1fr));gap:${d.gap}px;min-height:0;padding:0 ${Math.floor((675 - rowW) / 2)}px">${rowsHtml.join('')}</div>`;
     const bodyHtml = this._faceRoot('match', ` data-lcs-set="${setId}" data-lcs-pairs="${chosen.length}" data-lcs-pic="${d.pic}" data-lcs-lane-w="${lane.w}" data-lcs-deranged="${d.derange === false ? 0 : 1}"`, grid, bank);
-    return { bodyHtml, meta: { set: setId, wholes: chosen.map((it) => it.whole.word), order: perm, pool: pool.length } };
+    return { bodyHtml, meta };
   },
 
   /** F4 — Compound Detective (`mode:'detect'`): a bank of compounds + look-alike foils, lanes for the parts. */
@@ -554,22 +862,38 @@ module.exports = {
     if (d.glyphH < 24 || d.laneH < d.glyphH + 6) throw new Error(`${who}: detect lane ${d.laneW}×${d.laneH}/${d.glyphH}`);
     const links = bank.links;
     const lower = (s) => String(s).toLocaleLowerCase(loc);
-    const { setId, set } = faceSet(bank, unit, loc, who);
-    const pool = [];
-    for (const { it, where } of [...set.items.map((it) => ({ it, where: 'set ' + setId })), ...(bank.opaque || []).map((it) => ({ it, where: 'opaque' })), ...(bank.onePart || []).map((it) => ({ it, where: 'onePart' }))]) {
-      const tag = (m) => `${who}: ${loc} ${where} item "${it.whole && it.whole.word}": ${m}`;
-      if (!faceItemOk(it, bank, links, d.maxLetters, tag)) continue;
-      if (!it.whole.vocabKey || !candidates(it.whole.vocabKey, loc).length) { if (bank.shape === 'compound') throw new Error(tag('whole needs a colour picture')); continue; }
-      pool.push(it);
+    let setId, chosen, pickedFoils, poolN, foilPool;
+    if (d.textOnly) {
+      // L3 (harder): the native text lists, no pictures — six compounds + six look-alikes only reading can tell apart
+      const T = textData(loc);
+      const list = (T.textCompounds || []).filter((t) => [...t.word].length <= d.maxLetters);
+      chosen = allocateText(list, d.compounds, loc, ctx.seedVariant || ctx.variant || 1, true).map(textItem);
+      const wholesOnPage = chosen.map((it) => lower(it.whole.word));
+      foilPool = (T.textFoils || []).filter((w) => WORD_RE.test(w) && !wholesOnPage.some((x) => lower(w) === x || lower(w).includes(x)));
+      const order = makeRng('cmp-foil|' + loc).shuffle(foilPool.slice().sort());
+      const start = (((ctx.seedVariant || ctx.variant || 1) - 1) * d.foils) % Math.max(1, order.length);
+      pickedFoils = Array.from({ length: Math.min(d.foils, order.length) }, (_, k) => ({ word: order[(start + k) % order.length], text: true }));
+      if (pickedFoils.length < d.foils || new Set(pickedFoils.map((f) => f.word)).size < d.foils) throw new Error(`${who}: ${loc} has ${foilPool.length} text foils < ${d.foils} — REFUSED`);
+      setId = 'text'; poolN = list.length;
+    } else {
+      const fs = faceSet(bank, unit, loc, who); setId = fs.setId;
+      const pool = [];
+      for (const { it, where } of [...fs.set.items.map((it) => ({ it, where: 'set ' + setId })), ...(bank.opaque || []).map((it) => ({ it, where: 'opaque' })), ...(bank.onePart || []).map((it) => ({ it, where: 'onePart' }))]) {
+        const tag = (m) => `${who}: ${loc} ${where} item "${it.whole && it.whole.word}": ${m}`;
+        if (!faceItemOk(it, bank, links, d.maxLetters, tag)) continue;
+        if (!it.whole.vocabKey || !candidates(it.whole.vocabKey, loc).length) { if (bank.shape === 'compound') throw new Error(tag('whole needs a colour picture')); continue; }
+        pool.push(it);
+      }
+      const foils = (bank.foils || []).filter((fo) => fo.vocabKey && WORD_RE.test(fo.word || '') && candidates(fo.vocabKey, loc).length);
+      if (pool.length < d.compounds) throw new Error(`${who}: ${loc} detect pool ${pool.length} < ${d.compounds} compounds (refuse)`);
+      if (foils.length < d.foils) throw new Error(`${who}: ${loc} has ${foils.length} pictured foils < ${d.foils} — REFUSED`);
+      chosen = sampleFaceRows(rng, pool, d.compounds, loc, who);
+      const wholesOnPage = chosen.map((it) => lower(it.whole.word));
+      foilPool = foils.filter((fo) => !wholesOnPage.some((w) => lower(fo.word) === w || lower(fo.word).includes(w)));
+      if (foilPool.length < d.foils) throw new Error(`${who}: ${loc} has ${foilPool.length} foils clear of the page's wholes < ${d.foils} — refuse`);
+      pickedFoils = rng.sample(foilPool, d.foils);
+      poolN = pool.length;
     }
-    const foils = (bank.foils || []).filter((fo) => fo.vocabKey && WORD_RE.test(fo.word || '') && candidates(fo.vocabKey, loc).length);
-    if (pool.length < d.compounds) throw new Error(`${who}: ${loc} detect pool ${pool.length} < ${d.compounds} compounds (refuse)`);
-    if (foils.length < d.foils) throw new Error(`${who}: ${loc} has ${foils.length} pictured foils < ${d.foils} — REFUSED`);
-    const chosen = sampleFaceRows(rng, pool, d.compounds, loc, who);
-    const wholesOnPage = chosen.map((it) => lower(it.whole.word));
-    const foilPool = foils.filter((fo) => !wholesOnPage.some((w) => lower(fo.word) === w || lower(fo.word).includes(w)));
-    if (foilPool.length < d.foils) throw new Error(`${who}: ${loc} has ${foilPool.length} foils clear of the page's wholes < ${d.foils} — refuse`);
-    const pickedFoils = rng.sample(foilPool, d.foils);
     const chips = [
       ...chosen.map((it) => ({ kind: 'c', it })),
       ...pickedFoils.map((fo) => ({ kind: 'f', fo })),
@@ -584,16 +908,37 @@ module.exports = {
       if (tries > 60) throw new Error(`${who}: cannot mix the detect bank (refuse)`);
     }
     const rendered = order.map((c) => {
-      if (c.kind === 'f') { const p = resolveKey(rng, bank, c.fo.vocabKey, loc, who); return { word: c.fo.word, key: c.fo.vocabKey, src: p.src, foil: true }; }
+      if (c.kind === 'f') {
+        if (c.fo.text) return { word: c.fo.word, text: true, foil: true };
+        const p = resolveKey(rng, bank, c.fo.vocabKey, loc, who); return { word: c.fo.word, key: c.fo.vocabKey, src: p.src, foil: true };
+      }
       const it = c.it, st = stampsOf(it);
+      const parts = [st.aStem || st.aWord, st.link, st.bWord || st.b.replace(/^-/, '')];
+      if (it.text) return { word: it.whole.word, text: true, parts, it };
       const p = resolveKey(rng, bank, it.whole.vocabKey, loc, who);
-      return { word: it.whole.word, key: it.whole.vocabKey, src: p.src, parts: [st.aStem || st.aWord, st.link, st.bWord || st.b.replace(/^-/, '')] };
+      return { word: it.whole.word, key: it.whole.vocabKey, src: p.src, parts, it };
     });
-    const bankHtml = compoundDetectBank({ chips: rendered, iconPx: d.iconPx, wordPx: d.wordPx });
-    const lanes = chosen.map((_, i) => compoundDetectLane({ n: i + 1, w: d.laneW, h: d.laneH, glyphH: d.glyphH, pad: '2px 14px' }));
+    const meta = { set: setId, wholes: chosen.map((it) => it.whole.word), foils: pickedFoils.map((f) => f.word), order: order.map((c) => c.kind).join(''), pool: poolN, foilPool: foilPool.length };
+    if (ctx.interactive) {
+      // screen (tap-select): the twelve words as big buttons — tap every compound
+      const cells = rendered.map((c) => `<div data-lcs-item data-lcs-word="${esc(c.word)}"${c.parts ? ` data-lcs-compound="${esc(c.parts.join('|'))}"` : ''} data-ws-content ` +
+        `style="display:flex;align-items:center;justify-content:center;gap:12px;width:318px;height:104px;background:#FFFFFF;border:2.5px solid ${TOKENS.color.teal};border-radius:22px;box-sizing:border-box;padding:0 10px">` +
+        (c.src ? screenPic(c.src, c.key, 64) : '') +
+        `<span style="font-family:${TOKENS.font.body};font-weight:800;font-size:${optFont(c.word, c.src ? 230 : 300)}px;color:${TOKENS.color.ink};white-space:nowrap">${esc(c.word)}</span></div>`);
+      const bodyHtml = `<div data-lcs-compound data-lcs-screen="detect" style="flex:1;display:grid;grid-template-columns:repeat(2,318px);gap:14px;justify-content:center;align-content:start;padding-top:10px">${cells.join('')}</div>`;
+      return { bodyHtml, meta };
+    }
+    let bankHtml = compoundDetectBank({ chips: rendered, iconPx: d.iconPx, wordPx: d.wordPx });
+    let lanes = chosen.map((_, i) => compoundDetectLane({ n: i + 1, w: d.laneW, h: d.laneH, glyphH: d.glyphH, pad: '2px 14px' }));
+    if (ctx.answerKey) {
+      // the key: every compound ringed in the bank, and its two parts on the lanes in bank order
+      bankHtml = bankHtml.replace(/<span class="ws-bankword" style="([^"]*)"([^>]*data-lcs-compound=)/g, (m0, st, rest) => `<span class="ws-bankword" style="${st};outline:3px solid ${TOKENS.color.coral};outline-offset:2px"${rest}`);
+      const comps = rendered.filter((c) => c.parts);
+      lanes = lanes.map((ln, i) => keyInLanes(ln, [comps[i].parts[0], comps[i].it.b.affix != null ? comps[i].it.b.affix : comps[i].it.b.word], { w: d.laneW, h: d.laneH, glyphH: d.glyphH }));
+    }
     const grid = `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${lanes.length},minmax(0,1fr));gap:${d.laneGap}px;min-height:0;margin-top:10px;padding-bottom:4px">${lanes.join('')}</div>`;
-    const bodyHtml = this._faceRoot('detect', ` data-lcs-set="${setId}" data-lcs-bank="${rendered.length}" data-lcs-compounds="${chosen.length}" data-lcs-foils="${pickedFoils.length}" data-lcs-icon="${d.iconPx}" data-lcs-lane-w="${d.laneW}" data-lcs-lane-h="${d.laneH}"`, bankHtml + grid, bank);
-    return { bodyHtml, meta: { set: setId, wholes: chosen.map((it) => it.whole.word), foils: pickedFoils.map((f) => f.word), order: order.map((c) => c.kind).join(''), pool: pool.length, foilPool: foilPool.length } };
+    const bodyHtml = this._faceRoot('detect', ` data-lcs-set="${setId}" data-lcs-bank="${rendered.length}" data-lcs-compounds="${chosen.length}" data-lcs-foils="${pickedFoils.length}" data-lcs-icon="${d.iconPx}" data-lcs-lane-w="${d.laneW}" data-lcs-lane-h="${d.laneH}"${d.textOnly ? ' data-lcs-text-only="1"' : ''}`, bankHtml + grid, bank);
+    return { bodyHtml, meta };
   },
 
   /** F5 — One Head, Many Words (`mode:'web'`): `webs` hubs × `lanes` satellites; size rows for family / alterati. */
@@ -641,14 +986,18 @@ module.exports = {
     const picked = rng.shuffle(eligible).slice(0, d.webs);
     if (new Set(picked.map((x) => x.h.hub.vocabKey)).size !== picked.length) throw new Error(`${who}: two webs share a hub key`);
     const usedWholes = new Set();
+    const webData = [];
     const blocks = picked.map((x) => {
       const hp = resolveKey(rng, bank, x.h.hub.vocabKey, loc, who);
       const free = x.sats.filter((it) => !usedWholes.has(lower(it.whole.word)));
       if (free.length < lanes) throw new Error(`${who}: hub "${x.h.hub.word}" shares its satellites with another web (refuse)`);
       const sats = rng.sample(free, lanes);
       sats.forEach((it) => usedWholes.add(lower(it.whole.word)));
+      const wd = { x, hp, sats: [] };
+      webData.push(wd);
       const rows = sats.map((it) => {
         const wp = resolveKey(rng, bank, it.whole.vocabKey, loc, who);
+        wd.sats.push({ it, wp });
         // The hub-side part of a onePart satellite may carry no vocabKey of its own (fi
         // kuppikakku: kuppi pictured, kakku = the hub) — stampsOf then falls back to the
         // WORD and the verify's "stamp = hub key" check fails on a correct page (fi
@@ -657,13 +1006,33 @@ module.exports = {
         const stamps = stampsOf(it);
         const hubPart = it[x.h.side];
         if (hubPart && !hubPart.vocabKey && lower(hubPart.word) === lower(x.h.hub.word)) stamps[x.h.side] = x.h.hub.vocabKey;
-        return { whole: { src: wp.src, key: it.whole.vocabKey, px: d.pic }, ghost: { src: hp.src, key: x.h.hub.vocabKey, px: d.pic, opacity: d.ghost }, lane, stamps };
+        // L1 (easier): the satellite's OTHER part word under its picture (the hub word is already printed)
+        const other = it[x.h.side === 'a' ? 'b' : 'a'];
+        const partWord = d.partWords && other && other.word ? other.word : null;
+        return { whole: { src: wp.src, key: it.whole.vocabKey, px: d.pic, word: partWord }, ghost: { src: hp.src, key: x.h.hub.vocabKey, px: d.pic, opacity: d.ghost }, lane, stamps };
       });
       return compoundWebBlock({ hub: { src: hp.src, key: x.h.hub.vocabKey, word: x.h.hub.word }, side: x.h.side, lanes: rows, hubPx: d.hubPx, hubWordPx: d.hubWordPx, laneGap: lanes === 3 ? d.webLaneGap * 3 : d.webLaneGap, pad: '8px 6px' });
     });
-    const grid = `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${blocks.length},minmax(0,1fr));gap:${d.gap + 4}px;min-height:0">${blocks.join('')}</div>`;
-    const bodyHtml = this._faceRoot('web', ` data-lcs-webs="${blocks.length}" data-lcs-lanes="${lanes}" data-lcs-pic="${d.pic}" data-lcs-hub-px="${d.hubPx}" data-lcs-ghost="${d.ghost}" data-lcs-lane-w="${lane.w}"`, grid, bank);
-    return { bodyHtml, meta: { hubs: picked.map((x) => x.h.hub.word), wholes: [...usedWholes], lanes, eligible: eligible.length } };
+    const meta = { hubs: picked.map((x) => x.h.hub.word), wholes: [...usedWholes], lanes, eligible: eligible.length };
+    if (ctx.interactive) {
+      // screen: each satellite picture + the hub (ghost, in its true position) + THREE words of this page
+      const all = webData.flatMap((wd) => wd.sats.map((s0) => ({ ...s0, wd })));
+      const wholesAll = all.map((a) => a.it.whole.word);
+      const slots = balancedSlots(all.length, 3, ID + '|web|' + wholesAll.join('|'));
+      const items = all.map((a, i) => {
+        const w = a.it.whole.word;
+        const opts = rotated(wholesAll, i, 2, ID + '|web|' + wholesAll.join('|')); opts.splice(slots[i], 0, w);
+        const whole = screenPic(a.wp.src, a.it.whole.vocabKey, 88), ghost = screenPic(a.wd.hp.src, a.wd.x.h.hub.vocabKey, 88, `opacity:${d.ghost};`);
+        const hubTag = `<span style="font-family:${TOKENS.font.display};font-weight:700;font-size:26px;color:${TOKENS.color.ink}">${esc(a.wd.x.h.hub.word)}</span>`;
+        const top = a.wd.x.h.side === 'b' ? whole + screenOp('+') + ghost + hubTag : hubTag + ghost + screenOp('+') + whole;
+        return screenItem(oracleAttrs(a.it), top, optButtons(opts.map((q) => ({ label: q })), slots[i]));
+      });
+      return { bodyHtml: screenBody('web', items, bank), meta };
+    }
+    const keyed = ctx.answerKey ? blocks.map((b, i) => keyInLanes(b, webData[i].sats.map((s0) => s0.it.whole.word), lane)) : blocks;
+    const grid = `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${blocks.length},minmax(0,1fr));gap:${d.gap + 4}px;min-height:0">${keyed.join('')}</div>`;
+    const bodyHtml = this._faceRoot('web', ` data-lcs-webs="${blocks.length}" data-lcs-lanes="${lanes}" data-lcs-pic="${d.pic}" data-lcs-hub-px="${d.hubPx}" data-lcs-ghost="${d.ghost}" data-lcs-lane-w="${lane.w}"${d.partWords ? ' data-lcs-part-words="1"' : ''}`, grid, bank);
+    return { bodyHtml, meta };
   },
 
   /** F5 size rows (family / alterati): the base noun's picture at 0.55 / 1.35 is the ONLY cue; the child writes the ending. */
@@ -698,18 +1067,35 @@ module.exports = {
       if (tries > 60) throw new Error(`${who}: ${loc} cannot seat ${rowsN} size rows with >= ${d.minEach} small and big from ${pairs.length} pairs (refuse)`);
     }
     const lane = { w: d.sizeLaneW || d.laneW, h: d.laneH, glyphH: d.glyphH };
+    const ps = chosen.map((c) => resolveKey(rng, bank, c.sp.base.vocabKey, loc, who));
+    const meta = { wholes: chosen.map((c) => c.whole), sizes: chosen.map((c) => c.size), pool: pool.length };
+    if (ctx.interactive) {
+      // screen: the picture drawn small or big + TWO words (the small form, the big form). The plain noun is
+      // no option: a picture shown alone has no reference size, so "libro" could not be marked wrong
+      const slots = balancedSlots(chosen.length, 2, ID + '|size|' + meta.wholes.join('|'));
+      const items = chosen.map((c, i) => {
+        const other = c.sp[c.size === 'small' ? 'big' : 'small'];
+        if (!other) throw new Error(`${who}: ${loc} size pair "${c.sp.base.word}" lacks its other form for the screen`);
+        const opts = [other]; opts.splice(slots[i], 0, c.whole);
+        const px = c.size === 'small' ? 56 : 120;
+        const top = `<span style="display:flex;align-items:center;justify-content:center;width:124px;height:124px">${screenPic(ps[i].src, c.sp.base.vocabKey, px)}</span>`;
+        return screenItem(`data-lcs-size="${c.size}" data-lcs-base="${esc(c.sp.base.vocabKey)}"`, top, optButtons(opts.map((q) => ({ label: q })), slots[i]));
+      });
+      return { bodyHtml: screenBody('size', items, bank), meta };
+    }
     const rowsHtml = chosen.map((c, i) => {
       const scale = c.size === 'small' ? 0.55 : 1.35;
-      const p = resolveKey(rng, bank, c.sp.base.vocabKey, loc, who);
-      return compoundSizeRow({
+      const p = ps[i];
+      const row = compoundSizeRow({
         index: i + 1, lane, badge: d.badges, pad: `4px ${LANE_PAD_X}px`,
-        cue: { src: p.src, key: c.sp.base.vocabKey, px: Math.round(d.sizePic * scale), scale, boxPx: Math.round(d.sizePic * 1.35) },
+        cue: { src: p.src, key: c.sp.base.vocabKey, px: Math.round(d.sizePic * scale), scale, boxPx: Math.round(d.sizePic * 1.35), word: d.partWords ? c.sp.base.word : null },
         stamps: { size: c.size, base: c.sp.base.vocabKey, baseWord: c.sp.base.word, whole: c.whole },
       });
+      return ctx.answerKey ? keyInLanes(row, [c.whole], lane) : row;
     });
     const grid = `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${chosen.length},minmax(0,1fr));gap:${d.gap}px;min-height:0">${rowsHtml.join('')}</div>`;
-    const bodyHtml = this._faceRoot('web', ` data-lcs-size-rows="${chosen.length}" data-lcs-size-pic="${d.sizePic}" data-lcs-lane-w="${lane.w}" data-lcs-min-each="${d.minEach}"`, grid, bank);
-    return { bodyHtml, meta: { wholes: chosen.map((c) => c.whole), sizes: chosen.map((c) => c.size), pool: pool.length } };
+    const bodyHtml = this._faceRoot('web', ` data-lcs-size-rows="${chosen.length}" data-lcs-size-pic="${d.sizePic}" data-lcs-lane-w="${lane.w}" data-lcs-min-each="${d.minEach}"${d.partWords ? ' data-lcs-part-words="1"' : ''}`, grid, bank);
+    return { bodyHtml, meta };
   },
 
   /** verify() for a face page — branches on the root's data-lcs-mode; re-derives everything from the stamps. */
@@ -858,7 +1244,9 @@ module.exports = {
           if (!st) return;
           wholes.push(st.whole);
           parts.push([st.a, what], [st.b, what]);
-          picOk(row.querySelector('[data-lcs-cue="whole"] img'), `${what}: whole picture`, picPx, row.dataset.lcsWholeKey || null);
+          if (root.dataset.lcsTextOnly === '1') { if (row.querySelector('[data-lcs-cue="whole"]')) fails.push(`${what}: a picture on the text-only level`); }
+          else picOk(row.querySelector('[data-lcs-cue="whole"] img'), `${what}: whole picture`, picPx, row.dataset.lcsWholeKey || null);
+          row.querySelectorAll('[data-lcs-part-pic]').forEach((im, j) => picOk(im, `${what}: part picture ${j + 1}`, 36, null));
           const wrap = row.querySelector('[data-lcs-cells-wrap]');
           const svg = wrap && wrap.querySelector('svg');
           if (!svg) { fails.push(`${what}: no letter cells`); return; }
@@ -954,7 +1342,8 @@ module.exports = {
           if (!txt || txt.textContent.trim() !== w) fails.push(`${what}: prints "${txt && txt.textContent.trim()}" ≠ its stamp`);
           if (txt && parseFloat(getComputedStyle(txt).fontSize) < 18 - 0.6) fails.push(`${what}: font < 18`);
           if (txt && txt.scrollWidth > txt.clientWidth + 0.6) fails.push(`${what}: clipped`);
-          picOk(c.querySelector('img'), what, iconPx, c.dataset.lcsDetectKey);
+          if (root.dataset.lcsTextOnly === '1') { if (c.querySelector('img')) fails.push(`${what}: a picture on the text-only level`); }
+          else picOk(c.querySelector('img'), what, iconPx, c.dataset.lcsDetectKey);
           inside(c, rect(bank), what);
           if (c.dataset.lcsCompound != null) {
             const [a, link, b] = c.dataset.lcsCompound.split('|');
@@ -1014,7 +1403,10 @@ module.exports = {
             const ops = [...row.querySelectorAll('[data-lcs-op]')];
             if (ops.length !== 1 || ops[0].dataset.lcsOp !== '=') fails.push(`${what}: ops ≠ =`);
             emptyLanes(row, 1, what);
-            onlyText(row, new Set(['=', String(i + 1)]), what);
+            const pw = row.querySelector('[data-lcs-part-word]');
+            if ((root.dataset.lcsPartWords === '1') !== !!pw) fails.push(`${what}: part word ${pw ? 'printed on a no-part-words page' : 'missing'}`);
+            if (pw && lower(pw.textContent.trim()) !== lower(baseWord)) fails.push(`${what}: part word "${pw.textContent.trim()}" ≠ the base "${baseWord}"`);
+            onlyText(row, new Set(['=', String(i + 1), ...(pw ? [lower(baseWord)] : [])]), what);
             inBody(row, what);
           });
           if (small < minEach || rows.length - small < minEach) fails.push(`${small} small / ${rows.length - small} big rows, want >= ${minEach} each`);
@@ -1072,7 +1464,11 @@ module.exports = {
               const o1 = rect(ops[0]), o2 = rect(ops[1]), rl = rect(lanesEl[0]);
               if (!(first.right <= o1.left + 0.6 && o1.right <= second.left + 0.6 && second.right <= o2.left + 0.6 && o2.right <= rl.left + 0.6)) fails.push(`${lw}: the ghost is not in the hub's true position (side ${side})`);
             }
-            onlyText(ln, new Set(['+', '=']), lw);
+            const pw = ln.querySelector('[data-lcs-part-word]');
+            const otherWord = side === 'a' ? st.bWord : st.aWord;
+            if ((root.dataset.lcsPartWords === '1') !== !!pw) fails.push(`${lw}: part word ${pw ? 'printed on a no-part-words page' : 'missing'}`);
+            if (pw && lower(pw.textContent.trim()) !== lower(otherWord)) fails.push(`${lw}: part word "${pw.textContent.trim()}" ≠ the other part "${otherWord}"`);
+            onlyText(ln, new Set(['+', '=', ...(pw ? [lower(otherWord)] : [])]), lw);
             inside(ln, rect(web), lw);
           });
           inBody(web, what);

@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-331',
   slug: 'compound-words-match-the-halves',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 four pairs · L2 published
+  difficulty: { 1: { ...D, pairs: 4 }, 2: D, 3: D },
+  interactive: base.interactiveFor('match'),
   i18n: { en: { title: "Match the Halves: Two Pictures, One Word", instruction: "Draw a line from each first picture to the picture that finishes the word. Then write the new word on the line beside the first picture." } },
 };

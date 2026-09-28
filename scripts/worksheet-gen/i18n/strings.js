@@ -37,4 +37,23 @@ function resolveStrings(typeId, locale, spec) {
   throw new Error('strings: no strings for type ' + typeId + ' (run i18n/build-en.js)');
 }
 
-module.exports = { resolveStrings };
+/**
+ * A LEVEL may print its own instruction when the face's instruction would be false for it (Level
+ * Set: G2-330's text-only level has no picture, so "next to its picture" cannot stand). Only new
+ * noindex decks carry such a level; a type/level/locale without an entry returns `strings` as is.
+ * Source: i18n/level-instructions.json { "<typeId>": { "<level>": { "<locale>": "..." } } }.
+ */
+let _levelInstr = null;
+function withLevelInstruction(strings, typeId, difficulty, locale) {
+  if (_levelInstr === null) {
+    const p = path.join(__dirname, 'level-instructions.json');
+    _levelInstr = fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : {};
+  }
+  const byLevel = _levelInstr[typeId] && _levelInstr[typeId][String(difficulty)];
+  if (!byLevel) return strings;
+  const s = byLevel[locale];
+  if (!s) throw new Error('strings: ' + typeId + ' level ' + difficulty + ' prints its own instruction but has none for ' + locale);
+  return { ...strings, instruction: s };
+}
+
+module.exports = { resolveStrings, withLevelInstruction };

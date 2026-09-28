@@ -144,6 +144,62 @@ async function playChoice(page, html, oracle, locale) {
   return fails;
 }
 
+/** tap-select: every item toggles; the oracle recomputes which items are to be chosen. */
+async function playSelect(page, html, oracle, locale) {
+  const fails = [];
+  const file = path.join(os.tmpdir(), 'lcs-verify-interactive-' + process.pid + '.html');
+  fs.writeFileSync(file, html, 'utf8');
+  for (const w of WIDTHS) {
+    await page.setViewport({ width: w, height: 900, deviceScaleFactor: 1 });
+    await page.goto(require('url').pathToFileURL(file).href, { waitUntil: 'load' });
+    const info = await page.evaluate(() => ({
+      els: [...document.querySelectorAll('.lcs-opt')].map((b) => { const r = b.getBoundingClientRect(); return { w: r.width, h: r.height, l: r.left, r: r.right, t: r.top, b: r.bottom }; }),
+      vw: document.documentElement.clientWidth,
+      bundle: window.DECK_BUNDLE,
+    }));
+    const B = info.bundle;
+    if (!B || !Array.isArray(B.items) || info.els.length < 4 || info.els.length !== B.items.length) { fails.push(`${w}px: ${info.els.length} tap targets`); return fails; }
+    info.els.forEach((o, i) => {
+      if (o.w < TAP_MIN || o.h < TAP_MIN) fails.push(`${w}px: item ${i + 1} is ${Math.round(o.w)}x${Math.round(o.h)} < ${TAP_MIN}`);
+      if (o.l < -1 || o.r > info.vw + 1) fails.push(`${w}px: item ${i + 1} outside the viewport`);
+      info.els.forEach((p, j) => { if (j > i && o.l < p.r - 1 && p.l < o.r - 1 && o.t < p.b - 1 && p.t < o.b - 1) fails.push(`${w}px: items ${i + 1} and ${j + 1} overlap`); });
+    });
+    if (w !== 768) continue;
+    const right = oracle(B.items.map((it) => ({ label: it.label, meta: it.meta })), locale, B.ctx || {});
+    if (!right.some((x) => x) || right.every((x) => x)) fails.push('the oracle finds no mix of items to choose and to leave');
+    const tap = (k) => page.evaluate((k) => document.querySelectorAll('.lcs-opt')[k].click(), k);
+    const state = () => page.evaluate(() => ({
+      celebrate: !document.getElementById('lcs-celebration').hidden,
+      states: [...document.querySelectorAll('.lcs-opt')].map((b) => b.getAttribute('data-state')),
+      pressed: [...document.querySelectorAll('.lcs-opt')].filter((b) => b.getAttribute('aria-pressed') === 'true').length,
+      checkDisabled: document.getElementById('lcs-check').disabled,
+    }));
+    await tap(0); await tap(0);
+    let st = await state();
+    if (st.pressed) fails.push('tapping an item twice did not clear it');
+    if (!st.checkDisabled) fails.push('Check enabled with nothing chosen');
+    for (let i = 0; i < right.length; i++) if (right[i]) await tap(i);
+    st = await state();
+    if (st.checkDisabled) fails.push('Check still disabled with items chosen');
+    await page.click('#lcs-check');
+    await new Promise((r) => setTimeout(r, 600));
+    st = await state();
+    if (!st.celebrate) fails.push('the right choice did not reach the celebration');
+    if (st.states.some((s, i) => (right[i] ? s !== 'right' : s))) fails.push('the right choice left wrong marks: ' + st.states.join(','));
+    // wrong: one item to leave is chosen as well, one item to choose is missed
+    await page.evaluate(() => { document.getElementById('lcs-celebration').hidden = true; document.getElementById('lcs-reset').click(); });
+    const leave = right.indexOf(false), miss = right.indexOf(true);
+    for (let i = 0; i < right.length; i++) if ((right[i] && i !== miss) || i === leave) await tap(i);
+    await page.click('#lcs-check');
+    await new Promise((r) => setTimeout(r, 600));
+    st = await state();
+    if (st.celebrate) fails.push('a WRONG choice reached the celebration');
+    if (st.states[leave] !== 'wrong') fails.push('a wrongly chosen item was not marked red');
+    if (st.states[miss] !== 'missed') fails.push('a missed item was not marked');
+  }
+  return fails;
+}
+
 async function play(page, html, oracle, locale) {
   const fails = [];
   const file = path.join(os.tmpdir(), 'lcs-verify-interactive-' + process.pid + '.html');
@@ -225,18 +281,19 @@ async function main() {
       const B = JSON.parse(j);
       B.answers = B.kind === 'tap-choice' ? B.answers.map((a, i) => (a + 1) % B.items[i].options.length)
         : B.kind === 'tap-edit' ? B.answers.map((lane) => lane.map((w) => ({ cap: !w.cap, mark: w.mark })))
+        : B.kind === 'tap-select' ? B.answers.map((a) => !a)
         : B.answers.map((a) => (a % B.answers.length) + 1);
       return 'window.DECK_BUNDLE=' + JSON.stringify(B) + ';</script>';
     });
     const cases = [
       ['wrong answer map', shiftAnswers(d.html)],
       ['no tap targets', d.html.replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '')],
-      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
+      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
     ];
     let killed = 0;
     for (const [name, html] of cases) {
       if (html === d.html) { console.log('POISON NOT APPLIED: ' + name); continue; }
-      const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit }[d.kind] || play)(page, html, d.oracle, d.locale);
+      const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect }[d.kind] || play)(page, html, d.oracle, d.locale);
       console.log((fails.length ? '  ✓ killed: ' : '  ✗ SURVIVED: ') + name + (fails.length ? ' (' + fails[0] + ')' : ''));
       if (fails.length) killed++;
     }
@@ -245,7 +302,7 @@ async function main() {
     process.exit(killed === cases.length ? 0 : 1);
   }
   for (const d of decks) {
-    const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit }[d.kind] || play)(page, d.html, d.oracle, d.locale);
+    const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect }[d.kind] || play)(page, d.html, d.oracle, d.locale);
     checked++;
     if (fails.length) { bad++; console.log('FAIL ' + d.f + ': ' + fails.join('; ')); }
   }

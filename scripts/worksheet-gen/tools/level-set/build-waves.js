@@ -61,6 +61,77 @@ function builds(spec, theme, level, copy, loc) {
   } catch (e) { return false; }
 }
 
+/**
+ * THEMELESS types (curated sets — Compound Words, 2026-09-28): a copy is a (set, seed) pair. For each
+ * face × level it tries the sets × seeds and ACCEPTS a copy only when its page shares at most
+ * `maxShared` words with every copy already accepted at that level (the published page included at
+ * level 2): a new copy asks new words, never the same words reshuffled. A text-list level
+ * (`cfg.textLevels`) walks its native list instead (seedVariant = the list position 1..N).
+ * Copy numbers run ONCE per face (2, 3, …) across its levels — titles/slugs carry only "Set N",
+ * so a number may never repeat inside a face, and 1 is the published page.
+ */
+function themelessWaves() {
+  const rep = [];
+  for (const loc of LOCALES) {
+    const levels = {};
+    const counts = [];
+    for (const [id, face] of Object.entries(cfg.faces)) {
+      const spec = loadType(id);
+      if (!cfg.include(loc, id, null)) continue;
+      const units = [null, ...((spec.unitAxis && spec.unitAxis.units(loc)) || [])];
+      const wholesOf = (lv, unit, sv, copy) => {
+        const seed = instanceSeed({ typeId: spec.id, theme: null, difficulty: lv, seedEpoch: 1, variant: sv, unit });
+        let meta = null;
+        for (const extra of [{}, { interactive: true }, { answerKey: true }]) {
+          const b = spec.build({ theme: null, difficulty: lv, locale: loc, unit }, { rng: makeRng(seed), variant: copy, seedVariant: sv, ...extra });
+          if (meta && JSON.stringify(b.meta) !== meta) throw new Error('screen/key drew different content');
+          meta = JSON.stringify(b.meta);
+        }
+        const m0 = JSON.parse(meta);
+        return new Set([...(m0.wholes || []), ...(m0.foils || [])].map((w) => String(w).toLocaleLowerCase(loc)));
+      };
+      const fits = (lv, unit, copy) => {
+        const strings = resolveStrings(spec.id, loc, spec);
+        const manifest = buildManifest({ spec, cacheTheme: null, difficulty: lv, locale: loc, variant: copy, unit, deckId: 'x', generatedAt: 'x', strings, imagesUsed: [] });
+        const html = buildDeckHtml({ manifest, spec, strings, locale: loc, preview: TINY });
+        return ((/<title>([^<]*)<\/title>/.exec(html) || [])[1] || '').length <= (cfg.titleMax || 70);
+      };
+      let next = 2;
+      for (const lv of face.levels) {
+        if (!cfg.include(loc, id, lv)) continue;
+        const accepted = [];
+        const out = [];
+        if (lv === 2) { try { accepted.push(wholesOf(2, null, 1, 1)); } catch (e) { continue; } }   // the published page
+        const text = (cfg.textLevels || {})[id] === lv;
+        const tries = text
+          ? Array.from({ length: cfg.maxCopies }, (_, k) => ({ unit: null, sv: k + 1 }))
+          : units.flatMap((unit) => Array.from({ length: cfg.seeds }, (_, k) => ({ unit, sv: k + 1 }))).filter((t) => !(lv === 2 && t.unit === null && t.sv === 1));
+        for (const t of tries) {
+          if (out.length >= cfg.maxCopies) break;
+          let w;
+          try { w = wholesOf(lv, t.unit, t.sv, next); } catch (e) { continue; }
+          if (!text && accepted.some((a) => [...w].filter((x) => a.has(x)).length > Math.min(cfg.maxShared, Math.max(1, Math.floor(w.size / 4))))) continue;
+          if (!fits(lv, t.unit, next)) continue;
+          accepted.push(w);
+          out.push({ copy: next++, unit: t.unit, seedVariant: t.sv });
+        }
+        if (out.length) (levels[id] = levels[id] || {})[lv] = out;
+        counts.push(`${id.slice(3)}L${lv}:${out.length}`);
+      }
+    }
+    const wave = {
+      id: 'wave-' + cfg.prefix + '-' + loc, _note: cfg.note,
+      indexable: false, interactive: true, seedEpoch: 1, locales: [loc], themes: [], themesPerType: 1, difficulties: [1, 2, 3],
+      types: Object.keys(levels), levels,
+    };
+    fs.writeFileSync(path.join(__dirname, '..', '..', 'waves', wave.id + '.json'), JSON.stringify(wave, null, 2) + '\n');
+    const n = Object.values(levels).flatMap((l) => Object.values(l).flat()).length;
+    rep.push(`${loc}: ${n} copies  ${counts.join(' ')}`);
+  }
+  console.log(rep.join('\n'));
+}
+if (cfg.themeless) { themelessWaves(); process.exit(0); }
+
 const report = [];
 for (const loc of LOCALES) {
   const levels = {};

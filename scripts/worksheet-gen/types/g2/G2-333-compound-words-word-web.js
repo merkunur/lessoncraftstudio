@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-333',
   slug: 'compound-words-word-web',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 the other part word printed under each picture · L2 published
+  difficulty: { 1: { ...D, partWords: true, laneH: 80 }, 2: D, 3: D },
+  interactive: base.interactiveFor('web'),
   i18n: { en: { title: "Word Web: One Word, Many Compounds", instruction: "One word sits in the middle. Each picture around it makes a new word with it. Write each new word on its line." } },
 };

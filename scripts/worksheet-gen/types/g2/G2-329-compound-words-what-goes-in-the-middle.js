@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-329',
   slug: 'compound-words-what-goes-in-the-middle',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 the joining letters printed across the top · L2 published
+  difficulty: { 1: { ...D, linkBank: true }, 2: D, 3: D },
+  interactive: base.interactiveFor('link'),
   i18n: { en: { title: "What Goes in the Middle?", instruction: "Both words are printed. Write the letter that joins them in the box, or leave it empty, then write the whole word on the line." } },
 };

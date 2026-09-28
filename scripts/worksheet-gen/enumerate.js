@@ -142,6 +142,25 @@ function enumerate(plan) {
     // (Level Set: a new copy of a themed type = new words, never the same pool twice). Those
     // copies are pinned: the render retry must never swap the theme the wave builder verified.
     const copyMap = plan.levels && plan.levels[spec.id];
+    // A THEMELESS type's copy is { "copy": N, "unit": "<set id>"|null, "seedVariant": K } — a copy of a
+    // curated-set type is a (set, seed) pair the wave builder verified to print different words
+    // (Level Set, Compound Words 2026-09-28). `copy` names the deck; `seedVariant` draws it.
+    if (copyMap && !themed && Object.values(copyMap).some((l) => l.some((c) => c && typeof c === 'object'))) {
+      for (const [lv, copies] of Object.entries(copyMap)) {
+        for (const c of copies) {
+          if (!c || typeof c !== 'object' || !Number.isInteger(c.copy) || !('unit' in c) || !Number.isInteger(c.seedVariant)) throw new Error('enumerate: ' + spec.id + ' level ' + lv + ': every themeless copy must be {copy, unit, seedVariant}');
+          for (const locale of plan.locales) {
+            const difficulty = Number(lv);
+            instances.push({
+              typeId: spec.id, cacheTheme: null, themePinned: false, difficulty, locale, variant: c.copy, seedVariant: c.seedVariant, unit: c.unit || null, unitPinned: !!c.unit,
+              deckId: deckIdFor(plan.id, spec, null, difficulty, locale, c.copy, c.unit || null),
+              seed: instanceSeed({ typeId: spec.id, theme: null, difficulty, seedEpoch: plan.seedEpoch || 1, variant: c.seedVariant, unit: c.unit || null }),
+            });
+          }
+        }
+      }
+      return;
+    }
     if (copyMap && Object.values(copyMap).some((l) => l.some((c) => c && typeof c === 'object'))) {
       if (!themed) throw new Error('enumerate: ' + spec.id + ' is themeless but its levels map names themes');
       for (const [lv, copies] of Object.entries(copyMap)) {

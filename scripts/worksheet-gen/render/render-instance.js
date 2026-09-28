@@ -18,12 +18,12 @@ async function renderInstance(o) {
   const { type, theme, difficulty, locale, page } = o;
   const pageSize = o.pageSize || (locale === 'en' ? 'letter' : 'a4');
   const unit = o.unit || null;
-  const rng = makeRng(instanceSeed({ typeId: type.id, theme, difficulty, seedEpoch: o.seedEpoch || 1, variant: o.variant, unit }));
+  const rng = makeRng(instanceSeed({ typeId: type.id, theme, difficulty, seedEpoch: o.seedEpoch || 1, variant: o.seedVariant || o.variant, unit }));
 
   // unit axis: {U}/{L}/{UNIT} resolve HERE (the sheet prints strings.title) —
   // the same object comes back for every type without the axis.
   const strings = resolveUnitTokens((o.strings) || (type.i18n && type.i18n[locale]) || type.i18n.en, type, unit, locale);
-  const built = await type.build({ theme, difficulty, locale, unit }, { rng, variant: o.variant || 1 });
+  const built = await type.build({ theme, difficulty, locale, unit }, { rng, variant: o.variant || 1, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}) });
   const html = buildPage({
     title: strings.title,
     instruction: strings.instruction,
@@ -59,7 +59,7 @@ async function renderInstance(o) {
   let interactive = null;
   if (o.interactive && type.interactive) {
     const spec = type.interactive;
-    const again = (extra) => type.build({ theme, difficulty, locale, unit }, { rng: makeRng(instanceSeed({ typeId: type.id, theme, difficulty, seedEpoch: o.seedEpoch || 1, variant: o.variant, unit })), variant: o.variant || 1, ...extra });
+    const again = (extra) => type.build({ theme, difficulty, locale, unit }, { rng: makeRng(instanceSeed({ typeId: type.id, theme, difficulty, seedEpoch: o.seedEpoch || 1, variant: o.seedVariant || o.variant, unit })), variant: o.variant || 1, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), ...extra });
     const sameAs = (b2, what) => {
       if (JSON.stringify(b2.meta) !== JSON.stringify(built.meta)) throw new Error(`render-instance: the ${what} render drew different content than the printed page (${type.id})`);
     };
@@ -124,6 +124,12 @@ async function renderInstance(o) {
       const box = (r) => ({ x: pct(r.left, pg.left, pg.width), y: pct(r.top, pg.top, pg.height), w: (r.width / pg.width) * 100, h: (r.height / pg.height) * 100 });
       return [...document.querySelectorAll(sp.item)].map((el) => {
         const r = el.getBoundingClientRect();
+        if (sp.select) {
+          // tap-select: the item itself is the target; its answer is true / false (the page's own mark)
+          const meta = {};
+          (sp.metaAttrs || []).forEach((a) => { meta[a] = el.getAttribute(a); });
+          return { ...box(r), answer: el.hasAttribute(sp.answerAttr), label: el.getAttribute(sp.labelAttr) || el.textContent.trim(), meta };
+        }
         if (sp.option) {
           // tap-choice: one answer per item = the index of the option the page marks correct
           const opts = [...el.querySelectorAll(sp.option)];
@@ -142,7 +148,7 @@ async function renderInstance(o) {
           answer: Number(el.getAttribute(sp.answerAttr)), label: el.getAttribute(sp.labelAttr) || '',
         };
       });
-    }, { item: spec.item, slot: spec.slot, option: spec.option, metaAttrs: spec.metaAttrs, answerAttr: spec.answerAttr, labelAttr: spec.labelAttr });
+    }, { item: spec.item, slot: spec.slot, option: spec.option, select: spec.kind === 'tap-select', metaAttrs: spec.metaAttrs, answerAttr: spec.answerAttr, labelAttr: spec.labelAttr });
     const screenPng = base + '.screen.png';
     await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
     // answer key: the printed page with every answer written in (a PDF for the teacher)

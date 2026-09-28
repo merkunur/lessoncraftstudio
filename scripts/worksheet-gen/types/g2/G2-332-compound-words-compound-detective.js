@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-332',
   slug: 'compound-words-compound-detective',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L2 published · L3 text only: six compounds + six look-alikes from the native lists
+  difficulty: { 1: D, 2: D, 3: { ...D, textOnly: true, wordPx: 20 } },
+  interactive: base.interactiveFor('detect'),
   i18n: { en: { title: "Compound Detective", instruction: "Twelve words, six of them are made of two words. Circle the six compound words and write their two parts on the lines." } },
 };

@@ -83,5 +83,73 @@
       "no": "Finn ut hvor den første setningen slutter. Sett riktig skilletegn der og på slutten. Trykk på Aa og gi setningene stor bokstav.",
       "fi": "Etsi, mihin ensimmäinen lause loppuu. Laita oikea lopetusmerkki siihen ja loppuun. Napauta Aa ja korjaa isot kirjaimet."
     }
+  },
+  "compound-words": {
+    "whole": {
+      "en": "Name the two pictures. Tap the word they make together.",
+      "de": "Schau dir die zwei Bilder an. Tippe auf das Wort, das sie zusammen bilden.",
+      "es": "Mira el dibujo y lee el sufijo. Toca la palabra nueva que se forma.",
+      "fr": "Regarde l’image et lis la terminaison. Touche le mot qu’elles forment ensemble.",
+      "it": "Guarda se il disegno è piccolo o grande e leggi il suffisso. Tocca il nome alterato giusto.",
+      "pt": "Veja se a figura é pequena ou grande e leia o sufixo. Toque na palavra que se forma.",
+      "nl": "Kijk naar de twee plaatjes. Tik op het woord dat ze samen maken.",
+      "sv": "Titta på de två bilderna. Tryck på ordet som de två orden blir tillsammans.",
+      "da": "Se på de to billeder. Tryk på det ord, som de to ord bliver til sammen.",
+      "no": "Se på de to bildene. Trykk på ordet som de to ordene blir sammen.",
+      "fi": "Katso kahta kuvaa. Napauta sanaa, jonka niiden nimet tekevät yhdessä."
+    },
+    "cut": {
+      "en": "Each word is split three ways. Tap the one split where the second word starts.",
+      "de": "Jedes Wort ist dreimal anders geteilt. Tippe auf das Wort, das dort geteilt ist, wo das zweite Wort beginnt.",
+      "es": "Cada palabra está dividida de tres maneras. Toca la que tiene la rayita justo donde empieza el sufijo.",
+      "fr": "Chaque mot est coupé de trois façons. Touche celui qui est coupé entre le radical et la terminaison.",
+      "it": "Ogni parola è divisa in tre modi. Tocca quella tagliata proprio dove comincia il suffisso.",
+      "pt": "Cada palavra aparece dividida de três jeitos. Toque na que está dividida onde começa o sufixo.",
+      "nl": "Elk woord staat er drie keer, anders verdeeld. Tik op het woord met de streep waar het tweede woord begint.",
+      "sv": "Ordet står tre gånger med ett streck. Tryck på det där strecket står där det andra ordet börjar.",
+      "da": "Ordet står tre gange med en streg. Tryk på det, hvor stregen står dér, hvor det andet ord begynder.",
+      "no": "Ordet står tre ganger med en strek. Trykk på det der streken står der det andre ordet begynner.",
+      "fi": "Sana on kolme kertaa, ja jokaisessa on viiva. Napauta sitä, jossa viiva on toisen sanan alussa."
+    },
+    "match": {
+      "en": "Look at the first picture. Tap the picture that finishes the word.",
+      "de": "Schau dir das erste Bild an. Tippe auf das Bild, das das Wort ergänzt.",
+      "nl": "Kijk naar het eerste plaatje. Tik op het plaatje dat het woord afmaakt.",
+      "sv": "Titta på den första bilden. Tryck på den av de tre bilderna som gör ordet färdigt.",
+      "da": "Se på det første billede. Tryk på det af de tre billeder, der gør ordet færdigt.",
+      "no": "Se på det første bildet. Trykk på det av de tre bildene som fullfører ordet.",
+      "fi": "Katso ensimmäistä kuvaa. Napauta kolmesta kuvasta sitä, joka täydentää sanan."
+    },
+    "detect": {
+      "en": "Tap every word made of two words, then press Check Answers.",
+      "de": "Tippe auf jedes Wort, das aus zwei Wörtern besteht. Drücke dann auf „Antworten prüfen“.",
+      "es": "Toca todas las palabras formadas por una raíz y un sufijo. Luego toca «Comprobar respuestas».",
+      "fr": "Touche tous les mots construits avec un radical et une terminaison, puis appuie sur « Vérifier les réponses ».",
+      "it": "Tocca tutte le parole fatte da una parola base più un suffisso, poi premi Controlla risposte.",
+      "pt": "Toque em todas as palavras no diminutivo ou no aumentativo e depois em “Verificar respostas”.",
+      "nl": "Tik op elk woord dat uit twee woorden bestaat. Druk daarna op Antwoorden controleren.",
+      "sv": "Tryck på alla ord som är sammansatta av två ord. Tryck sedan på Kontrollera svar.",
+      "da": "Tryk på alle ord, der er sat sammen af to ord. Tryk så på Kontroller svar.",
+      "no": "Trykk på alle ordene som er satt sammen av to ord. Trykk så på Sjekk svar.",
+      "fi": "Napauta kaikkia sanoja, jotka on tehty kahdesta sanasta. Paina sitten Tarkista vastaukset."
+    },
+    "web": {
+      "en": "Look at the picture and the word from the middle. Tap the new word they make.",
+      "de": "Schau dir das Bild und das Wort aus der Mitte an. Tippe auf das neue Wort.",
+      "es": "Fíjate si el dibujo es pequeño o grande. Toca la palabra que corresponde a su tamaño.",
+      "it": "Guarda se il disegno è piccolo o grande. Tocca la parola giusta per la sua grandezza.",
+      "pt": "Veja se a figura é pequena ou grande. Toque na palavra que combina com o tamanho dela.",
+      "nl": "Kijk naar het plaatje en het woord uit het midden. Tik op het nieuwe woord.",
+      "sv": "Titta på bilden och ordet från mitten. Tryck på det nya ordet som de blir tillsammans.",
+      "da": "Se på billedet og ordet fra midten. Tryk på det nye ord, de bliver til sammen.",
+      "no": "Se på bildet og ordet fra midten. Trykk på det nye ordet de blir sammen.",
+      "fi": "Katso kuvaa ja keskellä olevaa sanaa. Napauta uutta sanaa, jonka ne tekevät yhdessä."
+    },
+    "join": {
+      "de": "Beide Wörter stehen da. Tippe auf das Wort, das richtig zusammengesetzt ist.",
+      "nl": "Je ziet de twee woorden. Tik op het samengestelde woord dat goed gespeld is.",
+      "da": "Begge ord står skrevet. Tryk på det hele ord, der er stavet rigtigt.",
+      "no": "Begge ordene står der. Trykk på hele ordet som er skrevet riktig."
+    }
   }
 }

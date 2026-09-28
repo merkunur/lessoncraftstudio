@@ -13,6 +13,9 @@
  *                up). Check turns every item green or red; all right → celebration.
  *   tap-choice — each item has options (article chips …); the child taps ONE per item
  *                (another tap switches it). Check marks the chosen option green or red.
+ *   tap-select — each item is ONE tap target that toggles (tap every word that is a compound);
+ *                the answer per item is true / false. Check (enabled once something is
+ *                chosen) marks each chosen item green or red and each MISSED true item red.
  *   tap-edit   — sentences drawn LIVE as word buttons (not over the image: they must stay
  *                >= 44 px on a phone). A tool row — Aa and the level's marks — and a tap on a
  *                word: Aa toggles its capital, a mark goes after it (tap again = off). Check
@@ -31,7 +34,7 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
-const KINDS = new Set(['tap-order', 'tap-choice', 'tap-edit']);
+const KINDS = new Set(['tap-order', 'tap-choice', 'tap-edit', 'tap-select']);
 let _shared = null;
 function shared() {
   if (_shared) return _shared;
@@ -86,6 +89,7 @@ const CSS = [
   '.lcs-opt[aria-pressed="true"]{box-shadow:0 0 0 5px #146B5E;background:rgba(20,107,94,.12)}',
   '.lcs-opt[data-state="right"]{box-shadow:0 0 0 6px #2E9E5B;background:rgba(46,158,91,.16)}',
   '.lcs-opt[data-state="wrong"]{box-shadow:0 0 0 6px #D64545;background:rgba(214,69,69,.16)}',
+  '.lcs-opt[data-state="missed"]{box-shadow:0 0 0 5px #D64545;background:transparent;outline:3px dashed #D64545;outline-offset:3px}',
   '.lcs-tools{position:sticky;top:0;z-index:5;display:flex;justify-content:center;gap:10px;padding:10px 0;background:var(--cream)}',
   '.lcs-tool{min-width:64px;min-height:52px;border-radius:14px;border:3px solid #146B5E;background:#FFF;color:#146B5E;font-family:"Baloo 2",Nunito,sans-serif;font-size:1.6rem;font-weight:700;cursor:pointer}',
   '.lcs-tool[aria-pressed="true"]{background:#146B5E;color:#FFF}',
@@ -116,6 +120,24 @@ const JS_CHOICE = [
   'function reset(){phase="fill";for(var i=0;i<opts.length;i++){pick[i]=-1;for(var j=0;j<opts[i].length;j++)opts[i][j].removeAttribute("data-state")}prg.textContent="";chk.hidden=false;rst.hidden=true;cel.hidden=true;paint()}',
   'function init(){for(var i=0;i<B.items.length;i++){(function(i){var it=B.items[i];opts[i]=[];pick[i]=-1;for(var j=0;j<it.options.length;j++){(function(j){var o=it.options[j],el=document.createElement("button");el.type="button";el.className="lcs-opt";el.setAttribute("aria-label",o.label+(it.label?" — "+it.label:""));el.setAttribute("aria-pressed","false");',
   'el.style.left=o.x+"%";el.style.top=o.y+"%";el.style.width=o.w+"%";el.style.height=o.h+"%";el.addEventListener("click",function(){tap(i,j)});ov.appendChild(el);opts[i].push(el)})(j)}})(i)}',
+  'chk.textContent=S.check;rst.textContent=S.tryAgain;document.getElementById("lcs-cele-title").textContent=S.youDidIt;document.getElementById("lcs-cele-print").textContent=S.print;document.getElementById("lcs-cele-close").textContent=S.tryAgain;',
+  'chk.addEventListener("click",check);rst.addEventListener("click",reset);document.getElementById("lcs-cele-close").addEventListener("click",reset);paint()}',
+  'if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();',
+  '})();',
+].join('\n');
+
+const JS_SELECT = [
+  '(function(){',
+  'var B=window.DECK_BUNDLE,S=B.strings,els=[],sel=[],phase="fill";',
+  'var ov=document.getElementById("lcs-overlay"),chk=document.getElementById("lcs-check"),rst=document.getElementById("lcs-reset"),prg=document.getElementById("lcs-progress"),cel=document.getElementById("lcs-celebration");',
+  'function fmt(s,v){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return v[k]!=null?v[k]:""})}',
+  'function paint(){var any=false;for(var i=0;i<els.length;i++){els[i].setAttribute("aria-pressed",sel[i]?"true":"false");if(sel[i])any=true}chk.disabled=!any||phase!=="fill"}',
+  'function tap(i){if(phase!=="fill")return;sel[i]=!sel[i];paint()}',
+  'function check(){phase="reviewed";var ok=0;for(var i=0;i<els.length;i++){var right=B.answers[i]===sel[i];if(right)ok++;if(sel[i])els[i].setAttribute("data-state",right?"right":"wrong");else if(!right)els[i].setAttribute("data-state","missed")}',
+  'prg.textContent=fmt(S.score,{n:ok,total:els.length});chk.hidden=true;rst.hidden=false;paint();if(ok===els.length){setTimeout(function(){cel.hidden=false;var c=document.getElementById("lcs-cele-close");if(c)c.focus()},450)}}',
+  'function reset(){phase="fill";for(var i=0;i<els.length;i++){sel[i]=false;els[i].removeAttribute("data-state")}prg.textContent="";chk.hidden=false;rst.hidden=true;cel.hidden=true;paint()}',
+  'function init(){for(var i=0;i<B.items.length;i++){(function(i){var it=B.items[i],el=document.createElement("button");el.type="button";el.className="lcs-opt";el.setAttribute("aria-label",it.label);sel[i]=false;',
+  'el.style.left=it.x+"%";el.style.top=it.y+"%";el.style.width=it.w+"%";el.style.height=it.h+"%";el.addEventListener("click",function(){tap(i)});ov.appendChild(el);els.push(el)})(i)}',
   'chk.textContent=S.check;rst.textContent=S.tryAgain;document.getElementById("lcs-cele-title").textContent=S.youDidIt;document.getElementById("lcs-cele-print").textContent=S.print;document.getElementById("lcs-cele-close").textContent=S.tryAgain;',
   'chk.addEventListener("click",check);rst.addEventListener("click",reset);document.getElementById("lcs-cele-close").addEventListener("click",reset);paint()}',
   'if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();',
@@ -185,6 +207,11 @@ function buildInteractive(o) {
       for (const k of ['x', 'y', 'w', 'h', 'sx', 'sy', 'sw', 'sh']) if (!inPage(it[k])) throw new Error('interactive-runtime: item ' + k + '=' + it[k] + ' outside the page');
     }
     bundleItems = items.map((it) => ({ x: round(it.x), y: round(it.y), w: round(it.w), h: round(it.h), sx: round(it.sx), sy: round(it.sy), sw: round(it.sw), sh: round(it.sh), label: it.label }));
+  } else if (o.kind === 'tap-select') {
+    if (!answers.every((a) => a === true || a === false)) throw new Error('interactive-runtime: tap-select answers must be true / false');
+    if (!answers.some((a) => a) || answers.every((a) => a)) throw new Error('interactive-runtime: tap-select needs both kinds of item (something to find, something to leave)');
+    for (const it of items) for (const k of ['x', 'y', 'w', 'h']) if (!inPage(it[k])) throw new Error('interactive-runtime: item ' + k + '=' + it[k] + ' outside the page');
+    bundleItems = items.map((it) => ({ x: round(it.x), y: round(it.y), w: round(it.w), h: round(it.h), label: it.label || '', meta: it.meta || {} }));
   } else if (o.kind === 'tap-edit') {
     if (!/^[.?!]+$/.test(o.marks || '')) throw new Error('interactive-runtime: tap-edit needs the level marks');
     for (const it of items) {
@@ -221,7 +248,7 @@ function buildInteractive(o) {
       '</div></div>',
     ].join('\n'),
     // `<` escaped inside the JSON so no string can close the script element
-    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'tap-choice' ? JS_CHOICE : o.kind === 'tap-edit' ? JS_EDIT : JS) + '</script>',
+    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'tap-choice' ? JS_CHOICE : o.kind === 'tap-edit' ? JS_EDIT : o.kind === 'tap-select' ? JS_SELECT : JS) + '</script>',
   };
 }
 

@@ -1,0 +1,6316 @@
+{
+ "_note": "Level Set 2026-09-28 — Compound Words. Native-panel-authored (11 locales) word lists for the two text-only harder levels (G2-330 L3, G2-332 L3); newExclude = weak items the panels flagged in the published bank, left out of every NEW page (the published pages are untouched). Hard rule: lowercase(word) == lowercase((aStem||a) + link + b-without-dash).",
+ "en": {
+  "textCompounds": [
+   {
+    "word": "snowman",
+    "a": "snow",
+    "aStem": "",
+    "link": "",
+    "b": "man"
+   },
+   {
+    "word": "snowball",
+    "a": "snow",
+    "aStem": "",
+    "link": "",
+    "b": "ball"
+   },
+   {
+    "word": "snowflake",
+    "a": "snow",
+    "aStem": "",
+    "link": "",
+    "b": "flake"
+   },
+   {
+    "word": "bedroom",
+    "a": "bed",
+    "aStem": "",
+    "link": "",
+    "b": "room"
+   },
+   {
+    "word": "bathroom",
+    "a": "bath",
+    "aStem": "",
+    "link": "",
+    "b": "room"
+   },
+   {
+    "word": "classroom",
+    "a": "class",
+    "aStem": "",
+    "link": "",
+    "b": "room"
+   },
+   {
+    "word": "firefighter",
+    "a": "fire",
+    "aStem": "",
+    "link": "",
+    "b": "fighter"
+   },
+   {
+    "word": "fireplace",
+    "a": "fire",
+    "aStem": "",
+    "link": "",
+    "b": "place"
+   },
+   {
+    "word": "campfire",
+    "a": "camp",
+    "aStem": "",
+    "link": "",
+    "b": "fire"
+   },
+   {
+    "word": "sandbox",
+    "a": "sand",
+    "aStem": "",
+    "link": "",
+    "b": "box"
+   },
+   {
+    "word": "lunchbox",
+    "a": "lunch",
+    "aStem": "",
+    "link": "",
+    "b": "box"
+   },
+   {
+    "word": "mailbox",
+    "a": "mail",
+    "aStem": "",
+    "link": "",
+    "b": "box"
+   },
+   {
+    "word": "doorbell",
+    "a": "door",
+    "aStem": "",
+    "link": "",
+    "b": "bell"
+   },
+   {
+    "word": "doormat",
+    "a": "door",
+    "aStem": "",
+    "link": "",
+    "b": "mat"
+   },
+   {
+    "word": "seashell",
+    "a": "sea",
+    "aStem": "",
+    "link": "",
+    "b": "shell"
+   },
+   {
+    "word": "seahorse",
+    "a": "sea",
+    "aStem": "",
+    "link": "",
+    "b": "horse"
+   },
+   {
+    "word": "seaweed",
+    "a": "sea",
+    "aStem": "",
+    "link": "",
+    "b": "weed"
+   },
+   {
+    "word": "airplane",
+    "a": "air",
+    "aStem": "",
+    "link": "",
+    "b": "plane"
+   },
+   {
+    "word": "backpack",
+    "a": "back",
+    "aStem": "",
+    "link": "",
+    "b": "pack"
+   },
+   {
+    "word": "bookcase",
+    "a": "book",
+    "aStem": "",
+    "link": "",
+    "b": "case"
+   },
+   {
+    "word": "bookmark",
+    "a": "book",
+    "aStem": "",
+    "link": "",
+    "b": "mark"
+   },
+   {
+    "word": "homework",
+    "a": "home",
+    "aStem": "",
+    "link": "",
+    "b": "work"
+   },
+   {
+    "word": "hairbrush",
+    "a": "hair",
+    "aStem": "",
+    "link": "",
+    "b": "brush"
+   },
+   {
+    "word": "paintbrush",
+    "a": "paint",
+    "aStem": "",
+    "link": "",
+    "b": "brush"
+   },
+   {
+    "word": "footprint",
+    "a": "foot",
+    "aStem": "",
+    "link": "",
+    "b": "print"
+   },
+   {
+    "word": "fingernail",
+    "a": "finger",
+    "aStem": "",
+    "link": "",
+    "b": "nail"
+   },
+   {
+    "word": "bedtime",
+    "a": "bed",
+    "aStem": "",
+    "link": "",
+    "b": "time"
+   },
+   {
+    "word": "playground",
+    "a": "play",
+    "aStem": "",
+    "link": "",
+    "b": "ground"
+   },
+   {
+    "word": "playtime",
+    "a": "play",
+    "aStem": "",
+    "link": "",
+    "b": "time"
+   },
+   {
+    "word": "weekend",
+    "a": "week",
+    "aStem": "",
+    "link": "",
+    "b": "end"
+   },
+   {
+    "word": "sunrise",
+    "a": "sun",
+    "aStem": "",
+    "link": "",
+    "b": "rise"
+   },
+   {
+    "word": "sunshine",
+    "a": "sun",
+    "aStem": "",
+    "link": "",
+    "b": "shine"
+   },
+   {
+    "word": "moonlight",
+    "a": "moon",
+    "aStem": "",
+    "link": "",
+    "b": "light"
+   },
+   {
+    "word": "flashlight",
+    "a": "flash",
+    "aStem": "",
+    "link": "",
+    "b": "light"
+   },
+   {
+    "word": "daylight",
+    "a": "day",
+    "aStem": "",
+    "link": "",
+    "b": "light"
+   },
+   {
+    "word": "skateboard",
+    "a": "skate",
+    "aStem": "",
+    "link": "",
+    "b": "board"
+   },
+   {
+    "word": "surfboard",
+    "a": "surf",
+    "aStem": "",
+    "link": "",
+    "b": "board"
+   },
+   {
+    "word": "blackboard",
+    "a": "black",
+    "aStem": "",
+    "link": "",
+    "b": "board"
+   },
+   {
+    "word": "grasshopper",
+    "a": "grass",
+    "aStem": "",
+    "link": "",
+    "b": "hopper"
+   },
+   {
+    "word": "treehouse",
+    "a": "tree",
+    "aStem": "",
+    "link": "",
+    "b": "house"
+   },
+   {
+    "word": "greenhouse",
+    "a": "green",
+    "aStem": "",
+    "link": "",
+    "b": "house"
+   },
+   {
+    "word": "dollhouse",
+    "a": "doll",
+    "aStem": "",
+    "link": "",
+    "b": "house"
+   },
+   {
+    "word": "bathtub",
+    "a": "bath",
+    "aStem": "",
+    "link": "",
+    "b": "tub"
+   },
+   {
+    "word": "toothpick",
+    "a": "tooth",
+    "aStem": "",
+    "link": "",
+    "b": "pick"
+   },
+   {
+    "word": "earring",
+    "a": "ear",
+    "aStem": "",
+    "link": "",
+    "b": "ring"
+   },
+   {
+    "word": "headband",
+    "a": "head",
+    "aStem": "",
+    "link": "",
+    "b": "band"
+   },
+   {
+    "word": "rainboots",
+    "a": "rain",
+    "aStem": "",
+    "link": "",
+    "b": "boots"
+   },
+   {
+    "word": "horseshoe",
+    "a": "horse",
+    "aStem": "",
+    "link": "",
+    "b": "shoe"
+   },
+   {
+    "word": "shoelace",
+    "a": "shoe",
+    "aStem": "",
+    "link": "",
+    "b": "lace"
+   },
+   {
+    "word": "farmyard",
+    "a": "farm",
+    "aStem": "",
+    "link": "",
+    "b": "yard"
+   },
+   {
+    "word": "backyard",
+    "a": "back",
+    "aStem": "",
+    "link": "",
+    "b": "yard"
+   },
+   {
+    "word": "bluebird",
+    "a": "blue",
+    "aStem": "",
+    "link": "",
+    "b": "bird"
+   },
+   {
+    "word": "blackbird",
+    "a": "black",
+    "aStem": "",
+    "link": "",
+    "b": "bird"
+   },
+   {
+    "word": "sailboat",
+    "a": "sail",
+    "aStem": "",
+    "link": "",
+    "b": "boat"
+   },
+   {
+    "word": "rowboat",
+    "a": "row",
+    "aStem": "",
+    "link": "",
+    "b": "boat"
+   },
+   {
+    "word": "spaceship",
+    "a": "space",
+    "aStem": "",
+    "link": "",
+    "b": "ship"
+   },
+   {
+    "word": "spacesuit",
+    "a": "space",
+    "aStem": "",
+    "link": "",
+    "b": "suit"
+   },
+   {
+    "word": "hilltop",
+    "a": "hill",
+    "aStem": "",
+    "link": "",
+    "b": "top"
+   },
+   {
+    "word": "rooftop",
+    "a": "roof",
+    "aStem": "",
+    "link": "",
+    "b": "top"
+   },
+   {
+    "word": "treetop",
+    "a": "tree",
+    "aStem": "",
+    "link": "",
+    "b": "top"
+   },
+   {
+    "word": "thunderstorm",
+    "a": "thunder",
+    "aStem": "",
+    "link": "",
+    "b": "storm"
+   },
+   {
+    "word": "rainstorm",
+    "a": "rain",
+    "aStem": "",
+    "link": "",
+    "b": "storm"
+   },
+   {
+    "word": "pillowcase",
+    "a": "pillow",
+    "aStem": "",
+    "link": "",
+    "b": "case"
+   },
+   {
+    "word": "teaspoon",
+    "a": "tea",
+    "aStem": "",
+    "link": "",
+    "b": "spoon"
+   },
+   {
+    "word": "tablespoon",
+    "a": "table",
+    "aStem": "",
+    "link": "",
+    "b": "spoon"
+   },
+   {
+    "word": "dishwasher",
+    "a": "dish",
+    "aStem": "",
+    "link": "",
+    "b": "washer"
+   },
+   {
+    "word": "tablecloth",
+    "a": "table",
+    "aStem": "",
+    "link": "",
+    "b": "cloth"
+   },
+   {
+    "word": "policeman",
+    "a": "police",
+    "aStem": "",
+    "link": "",
+    "b": "man"
+   },
+   {
+    "word": "postman",
+    "a": "post",
+    "aStem": "",
+    "link": "",
+    "b": "man"
+   },
+   {
+    "word": "fingerprint",
+    "a": "finger",
+    "aStem": "",
+    "link": "",
+    "b": "print"
+   },
+   {
+    "word": "honeybee",
+    "a": "honey",
+    "aStem": "",
+    "link": "",
+    "b": "bee"
+   },
+   {
+    "word": "beehive",
+    "a": "bee",
+    "aStem": "",
+    "link": "",
+    "b": "hive"
+   },
+   {
+    "word": "waterfall",
+    "a": "water",
+    "aStem": "",
+    "link": "",
+    "b": "fall"
+   },
+   {
+    "word": "fishbowl",
+    "a": "fish",
+    "aStem": "",
+    "link": "",
+    "b": "bowl"
+   },
+   {
+    "word": "pinecone",
+    "a": "pine",
+    "aStem": "",
+    "link": "",
+    "b": "cone"
+   }
+  ],
+  "textFoils": [
+   "parrot",
+   "window",
+   "robin",
+   "season",
+   "island",
+   "message",
+   "rabbit",
+   "winter",
+   "napkin",
+   "bandage",
+   "cotton",
+   "target",
+   "carton",
+   "cartoon",
+   "father",
+   "mother",
+   "garden",
+   "planet",
+   "yellow",
+   "hammer",
+   "ladder",
+   "letter",
+   "turkey",
+   "monkey",
+   "office",
+   "notice",
+   "tower",
+   "arrow",
+   "sparrow",
+   "spinach",
+   "cabbage",
+   "orange",
+   "balloon",
+   "pencil",
+   "ticket",
+   "rocket",
+   "tennis",
+   "bucket",
+   "cattle",
+   "lettuce"
+  ],
+  "newExclude": [
+   "butterfly",
+   "bluebell",
+   "buttercup",
+   "pineapple",
+   "eggplant",
+   "cornflower",
+   "potato"
+  ]
+ },
+ "de": {
+  "textCompounds": [
+   {
+    "word": "Schneemann",
+    "a": "Schnee",
+    "aStem": "",
+    "link": "",
+    "b": "Mann"
+   },
+   {
+    "word": "Schneeball",
+    "a": "Schnee",
+    "aStem": "",
+    "link": "",
+    "b": "Ball"
+   },
+   {
+    "word": "Schneeflocke",
+    "a": "Schnee",
+    "aStem": "",
+    "link": "",
+    "b": "Flocke"
+   },
+   {
+    "word": "Haustür",
+    "a": "Haus",
+    "aStem": "",
+    "link": "",
+    "b": "Tür"
+   },
+   {
+    "word": "Haustier",
+    "a": "Haus",
+    "aStem": "",
+    "link": "",
+    "b": "Tier"
+   },
+   {
+    "word": "Baumhaus",
+    "a": "Baum",
+    "aStem": "",
+    "link": "",
+    "b": "Haus"
+   },
+   {
+    "word": "Hundehütte",
+    "a": "Hund",
+    "aStem": "",
+    "link": "e",
+    "b": "Hütte"
+   },
+   {
+    "word": "Vogelnest",
+    "a": "Vogel",
+    "aStem": "",
+    "link": "",
+    "b": "Nest"
+   },
+   {
+    "word": "Apfelbaum",
+    "a": "Apfel",
+    "aStem": "",
+    "link": "",
+    "b": "Baum"
+   },
+   {
+    "word": "Tannenbaum",
+    "a": "Tanne",
+    "aStem": "",
+    "link": "n",
+    "b": "Baum"
+   },
+   {
+    "word": "Kirschkern",
+    "a": "Kirsche",
+    "aStem": "Kirsch",
+    "link": "",
+    "b": "Kern"
+   },
+   {
+    "word": "Zahnarzt",
+    "a": "Zahn",
+    "aStem": "",
+    "link": "",
+    "b": "Arzt"
+   },
+   {
+    "word": "Tierarzt",
+    "a": "Tier",
+    "aStem": "",
+    "link": "",
+    "b": "Arzt"
+   },
+   {
+    "word": "Kinderarzt",
+    "a": "Kind",
+    "aStem": "",
+    "link": "er",
+    "b": "Arzt"
+   },
+   {
+    "word": "Kinderzimmer",
+    "a": "Kind",
+    "aStem": "",
+    "link": "er",
+    "b": "Zimmer"
+   },
+   {
+    "word": "Badezimmer",
+    "a": "Bad",
+    "aStem": "",
+    "link": "e",
+    "b": "Zimmer"
+   },
+   {
+    "word": "Schlafzimmer",
+    "a": "Schlaf",
+    "aStem": "",
+    "link": "",
+    "b": "Zimmer"
+   },
+   {
+    "word": "Spielplatz",
+    "a": "Spiel",
+    "aStem": "",
+    "link": "",
+    "b": "Platz"
+   },
+   {
+    "word": "Spielzeug",
+    "a": "Spiel",
+    "aStem": "",
+    "link": "",
+    "b": "Zeug"
+   },
+   {
+    "word": "Handtuch",
+    "a": "Hand",
+    "aStem": "",
+    "link": "",
+    "b": "Tuch"
+   },
+   {
+    "word": "Fingernagel",
+    "a": "Finger",
+    "aStem": "",
+    "link": "",
+    "b": "Nagel"
+   },
+   {
+    "word": "Zahnbürste",
+    "a": "Zahn",
+    "aStem": "",
+    "link": "",
+    "b": "Bürste"
+   },
+   {
+    "word": "Haarbürste",
+    "a": "Haar",
+    "aStem": "",
+    "link": "",
+    "b": "Bürste"
+   },
+   {
+    "word": "Schulranzen",
+    "a": "Schule",
+    "aStem": "Schul",
+    "link": "",
+    "b": "Ranzen"
+   },
+   {
+    "word": "Schulhof",
+    "a": "Schule",
+    "aStem": "Schul",
+    "link": "",
+    "b": "Hof"
+   },
+   {
+    "word": "Schultasche",
+    "a": "Schule",
+    "aStem": "Schul",
+    "link": "",
+    "b": "Tasche"
+   },
+   {
+    "word": "Bauernhof",
+    "a": "Bauer",
+    "aStem": "",
+    "link": "n",
+    "b": "Hof"
+   },
+   {
+    "word": "Pferdestall",
+    "a": "Pferd",
+    "aStem": "",
+    "link": "e",
+    "b": "Stall"
+   },
+   {
+    "word": "Kuhstall",
+    "a": "Kuh",
+    "aStem": "",
+    "link": "",
+    "b": "Stall"
+   },
+   {
+    "word": "Mondlicht",
+    "a": "Mond",
+    "aStem": "",
+    "link": "",
+    "b": "Licht"
+   },
+   {
+    "word": "Sonnenschein",
+    "a": "Sonne",
+    "aStem": "",
+    "link": "n",
+    "b": "Schein"
+   },
+   {
+    "word": "Taschenlampe",
+    "a": "Tasche",
+    "aStem": "",
+    "link": "n",
+    "b": "Lampe"
+   },
+   {
+    "word": "Tischlampe",
+    "a": "Tisch",
+    "aStem": "",
+    "link": "",
+    "b": "Lampe"
+   },
+   {
+    "word": "Tischdecke",
+    "a": "Tisch",
+    "aStem": "",
+    "link": "",
+    "b": "Decke"
+   },
+   {
+    "word": "Bettdecke",
+    "a": "Bett",
+    "aStem": "",
+    "link": "",
+    "b": "Decke"
+   },
+   {
+    "word": "Kopfkissen",
+    "a": "Kopf",
+    "aStem": "",
+    "link": "",
+    "b": "Kissen"
+   },
+   {
+    "word": "Schuhkarton",
+    "a": "Schuh",
+    "aStem": "",
+    "link": "",
+    "b": "Karton"
+   },
+   {
+    "word": "Blumentopf",
+    "a": "Blume",
+    "aStem": "",
+    "link": "n",
+    "b": "Topf"
+   },
+   {
+    "word": "Blumenvase",
+    "a": "Blume",
+    "aStem": "",
+    "link": "n",
+    "b": "Vase"
+   },
+   {
+    "word": "Gartenzaun",
+    "a": "Garten",
+    "aStem": "",
+    "link": "",
+    "b": "Zaun"
+   },
+   {
+    "word": "Milchflasche",
+    "a": "Milch",
+    "aStem": "",
+    "link": "",
+    "b": "Flasche"
+   },
+   {
+    "word": "Wasserflasche",
+    "a": "Wasser",
+    "aStem": "",
+    "link": "",
+    "b": "Flasche"
+   },
+   {
+    "word": "Wasserball",
+    "a": "Wasser",
+    "aStem": "",
+    "link": "",
+    "b": "Ball"
+   },
+   {
+    "word": "Luftballon",
+    "a": "Luft",
+    "aStem": "",
+    "link": "",
+    "b": "Ballon"
+   },
+   {
+    "word": "Segelboot",
+    "a": "Segel",
+    "aStem": "",
+    "link": "",
+    "b": "Boot"
+   },
+   {
+    "word": "Ruderboot",
+    "a": "Ruder",
+    "aStem": "",
+    "link": "",
+    "b": "Boot"
+   },
+   {
+    "word": "Polizeiauto",
+    "a": "Polizei",
+    "aStem": "",
+    "link": "",
+    "b": "Auto"
+   },
+   {
+    "word": "Müllauto",
+    "a": "Müll",
+    "aStem": "",
+    "link": "",
+    "b": "Auto"
+   },
+   {
+    "word": "Mülleimer",
+    "a": "Müll",
+    "aStem": "",
+    "link": "",
+    "b": "Eimer"
+   },
+   {
+    "word": "Sandkasten",
+    "a": "Sand",
+    "aStem": "",
+    "link": "",
+    "b": "Kasten"
+   },
+   {
+    "word": "Briefkasten",
+    "a": "Brief",
+    "aStem": "",
+    "link": "",
+    "b": "Kasten"
+   },
+   {
+    "word": "Brotkorb",
+    "a": "Brot",
+    "aStem": "",
+    "link": "",
+    "b": "Korb"
+   },
+   {
+    "word": "Obstkorb",
+    "a": "Obst",
+    "aStem": "",
+    "link": "",
+    "b": "Korb"
+   },
+   {
+    "word": "Obstsalat",
+    "a": "Obst",
+    "aStem": "",
+    "link": "",
+    "b": "Salat"
+   },
+   {
+    "word": "Nudelsalat",
+    "a": "Nudel",
+    "aStem": "",
+    "link": "",
+    "b": "Salat"
+   },
+   {
+    "word": "Gemüsesuppe",
+    "a": "Gemüse",
+    "aStem": "",
+    "link": "",
+    "b": "Suppe"
+   },
+   {
+    "word": "Suppenteller",
+    "a": "Suppe",
+    "aStem": "",
+    "link": "n",
+    "b": "Teller"
+   },
+   {
+    "word": "Eisbecher",
+    "a": "Eis",
+    "aStem": "",
+    "link": "",
+    "b": "Becher"
+   },
+   {
+    "word": "Eiswürfel",
+    "a": "Eis",
+    "aStem": "",
+    "link": "",
+    "b": "Würfel"
+   },
+   {
+    "word": "Honigbiene",
+    "a": "Honig",
+    "aStem": "",
+    "link": "",
+    "b": "Biene"
+   },
+   {
+    "word": "Regenjacke",
+    "a": "Regen",
+    "aStem": "",
+    "link": "",
+    "b": "Jacke"
+   },
+   {
+    "word": "Winterjacke",
+    "a": "Winter",
+    "aStem": "",
+    "link": "",
+    "b": "Jacke"
+   },
+   {
+    "word": "Wintermütze",
+    "a": "Winter",
+    "aStem": "",
+    "link": "",
+    "b": "Mütze"
+   },
+   {
+    "word": "Sommerferien",
+    "a": "Sommer",
+    "aStem": "",
+    "link": "",
+    "b": "Ferien"
+   },
+   {
+    "word": "Geburtstag",
+    "a": "Geburt",
+    "aStem": "",
+    "link": "s",
+    "b": "Tag"
+   },
+   {
+    "word": "Feiertag",
+    "a": "Feier",
+    "aStem": "",
+    "link": "",
+    "b": "Tag"
+   },
+   {
+    "word": "Mittagessen",
+    "a": "Mittag",
+    "aStem": "",
+    "link": "",
+    "b": "Essen"
+   },
+   {
+    "word": "Abendbrot",
+    "a": "Abend",
+    "aStem": "",
+    "link": "",
+    "b": "Brot"
+   },
+   {
+    "word": "Bilderbuch",
+    "a": "Bild",
+    "aStem": "",
+    "link": "er",
+    "b": "Buch"
+   },
+   {
+    "word": "Märchenbuch",
+    "a": "Märchen",
+    "aStem": "",
+    "link": "",
+    "b": "Buch"
+   },
+   {
+    "word": "Kochbuch",
+    "a": "Koch",
+    "aStem": "",
+    "link": "",
+    "b": "Buch"
+   },
+   {
+    "word": "Hosentasche",
+    "a": "Hose",
+    "aStem": "",
+    "link": "n",
+    "b": "Tasche"
+   },
+   {
+    "word": "Ohrring",
+    "a": "Ohr",
+    "aStem": "",
+    "link": "",
+    "b": "Ring"
+   },
+   {
+    "word": "Kerzenlicht",
+    "a": "Kerze",
+    "aStem": "",
+    "link": "n",
+    "b": "Licht"
+   },
+   {
+    "word": "Nachthimmel",
+    "a": "Nacht",
+    "aStem": "",
+    "link": "",
+    "b": "Himmel"
+   },
+   {
+    "word": "Straßenlampe",
+    "a": "Straße",
+    "aStem": "",
+    "link": "n",
+    "b": "Lampe"
+   }
+  ],
+  "textFoils": [
+   "Ameise",
+   "Rosine",
+   "Hering",
+   "Papagei",
+   "Radio",
+   "Ballett",
+   "Eidechse",
+   "Pullover",
+   "Karotte",
+   "Mandarine",
+   "Radieschen",
+   "Leopard",
+   "Schaukel",
+   "Schachtel",
+   "Pantoffel",
+   "Ballerina",
+   "Sandale",
+   "Planet",
+   "Dachs",
+   "Wiesel",
+   "Tunnel",
+   "Torte",
+   "Handy",
+   "Ostern",
+   "Herbst",
+   "Muschel",
+   "Eichel",
+   "Ritter",
+   "Erbse",
+   "Matrose",
+   "Busch",
+   "Weste",
+   "Balkon",
+   "Lachs",
+   "Kranich",
+   "Eisen",
+   "Sessel"
+  ],
+  "newExclude": [
+   "Kaiserfisch"
+  ]
+ },
+ "es": {
+  "textCompounds": [
+   {
+    "word": "zapatero",
+    "a": "zapato",
+    "aStem": "zapat",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "lechero",
+    "a": "leche",
+    "aStem": "lech",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "jardinero",
+    "a": "jardín",
+    "aStem": "jardin",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "cartero",
+    "a": "carta",
+    "aStem": "cart",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "basurero",
+    "a": "basura",
+    "aStem": "basur",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "relojero",
+    "a": "reloj",
+    "aStem": "",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "frutero",
+    "a": "fruta",
+    "aStem": "frut",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "pastelero",
+    "a": "pastel",
+    "aStem": "",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "heladero",
+    "a": "helado",
+    "aStem": "helad",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "vaquero",
+    "a": "vaca",
+    "aStem": "vaqu",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "cocinero",
+    "a": "cocina",
+    "aStem": "cocin",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "granjero",
+    "a": "granja",
+    "aStem": "granj",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "llavero",
+    "a": "llave",
+    "aStem": "llav",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "monedero",
+    "a": "moneda",
+    "aStem": "moned",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "hormiguero",
+    "a": "hormiga",
+    "aStem": "hormigu",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "gallinero",
+    "a": "gallina",
+    "aStem": "gallin",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "sombrerero",
+    "a": "sombrero",
+    "aStem": "sombrer",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "limonero",
+    "a": "limón",
+    "aStem": "limon",
+    "link": "",
+    "b": "-ero"
+   },
+   {
+    "word": "librería",
+    "a": "libro",
+    "aStem": "libr",
+    "link": "",
+    "b": "-ería"
+   },
+   {
+    "word": "zapatería",
+    "a": "zapato",
+    "aStem": "zapat",
+    "link": "",
+    "b": "-ería"
+   },
+   {
+    "word": "frutería",
+    "a": "fruta",
+    "aStem": "frut",
+    "link": "",
+    "b": "-ería"
+   },
+   {
+    "word": "pastelería",
+    "a": "pastel",
+    "aStem": "",
+    "link": "",
+    "b": "-ería"
+   },
+   {
+    "word": "juguetería",
+    "a": "juguete",
+    "aStem": "juguet",
+    "link": "",
+    "b": "-ería"
+   },
+   {
+    "word": "heladería",
+    "a": "helado",
+    "aStem": "helad",
+    "link": "",
+    "b": "-ería"
+   },
+   {
+    "word": "pescadería",
+    "a": "pescado",
+    "aStem": "pescad",
+    "link": "",
+    "b": "-ería"
+   },
+   {
+    "word": "perfumería",
+    "a": "perfume",
+    "aStem": "perfum",
+    "link": "",
+    "b": "-ería"
+   },
+   {
+    "word": "joyería",
+    "a": "joya",
+    "aStem": "joy",
+    "link": "",
+    "b": "-ería"
+   },
+   {
+    "word": "relojería",
+    "a": "reloj",
+    "aStem": "",
+    "link": "",
+    "b": "-ería"
+   },
+   {
+    "word": "florería",
+    "a": "flor",
+    "aStem": "",
+    "link": "",
+    "b": "-ería"
+   },
+   {
+    "word": "tortillería",
+    "a": "tortilla",
+    "aStem": "tortill",
+    "link": "",
+    "b": "-ería"
+   },
+   {
+    "word": "dulcería",
+    "a": "dulce",
+    "aStem": "dulc",
+    "link": "",
+    "b": "-ería"
+   },
+   {
+    "word": "pajarito",
+    "a": "pájaro",
+    "aStem": "pajar",
+    "link": "",
+    "b": "-ito"
+   },
+   {
+    "word": "librito",
+    "a": "libro",
+    "aStem": "libr",
+    "link": "",
+    "b": "-ito"
+   },
+   {
+    "word": "hermanito",
+    "a": "hermano",
+    "aStem": "herman",
+    "link": "",
+    "b": "-ito"
+   },
+   {
+    "word": "abuelito",
+    "a": "abuelo",
+    "aStem": "abuel",
+    "link": "",
+    "b": "-ito"
+   },
+   {
+    "word": "zapatito",
+    "a": "zapato",
+    "aStem": "zapat",
+    "link": "",
+    "b": "-ito"
+   },
+   {
+    "word": "conejito",
+    "a": "conejo",
+    "aStem": "conej",
+    "link": "",
+    "b": "-ito"
+   },
+   {
+    "word": "pollito",
+    "a": "pollo",
+    "aStem": "poll",
+    "link": "",
+    "b": "-ito"
+   },
+   {
+    "word": "arbolito",
+    "a": "árbol",
+    "aStem": "arbol",
+    "link": "",
+    "b": "-ito"
+   },
+   {
+    "word": "caballito",
+    "a": "caballo",
+    "aStem": "caball",
+    "link": "",
+    "b": "-ito"
+   },
+   {
+    "word": "cerdito",
+    "a": "cerdo",
+    "aStem": "cerd",
+    "link": "",
+    "b": "-ito"
+   },
+   {
+    "word": "platito",
+    "a": "plato",
+    "aStem": "plat",
+    "link": "",
+    "b": "-ito"
+   },
+   {
+    "word": "cuadernito",
+    "a": "cuaderno",
+    "aStem": "cuadern",
+    "link": "",
+    "b": "-ito"
+   },
+   {
+    "word": "cochecito",
+    "a": "coche",
+    "aStem": "",
+    "link": "",
+    "b": "-cito"
+   },
+   {
+    "word": "ratoncito",
+    "a": "ratón",
+    "aStem": "raton",
+    "link": "",
+    "b": "-cito"
+   },
+   {
+    "word": "camioncito",
+    "a": "camión",
+    "aStem": "camion",
+    "link": "",
+    "b": "-cito"
+   },
+   {
+    "word": "florecita",
+    "a": "flor",
+    "aStem": "",
+    "link": "",
+    "b": "-ecita"
+   },
+   {
+    "word": "abuelita",
+    "a": "abuela",
+    "aStem": "abuel",
+    "link": "",
+    "b": "-ita"
+   },
+   {
+    "word": "muñequita",
+    "a": "muñeca",
+    "aStem": "muñequ",
+    "link": "",
+    "b": "-ita"
+   },
+   {
+    "word": "ventanita",
+    "a": "ventana",
+    "aStem": "ventan",
+    "link": "",
+    "b": "-ita"
+   },
+   {
+    "word": "cucharita",
+    "a": "cuchara",
+    "aStem": "cuchar",
+    "link": "",
+    "b": "-ita"
+   },
+   {
+    "word": "botellita",
+    "a": "botella",
+    "aStem": "botell",
+    "link": "",
+    "b": "-ita"
+   },
+   {
+    "word": "estrellita",
+    "a": "estrella",
+    "aStem": "estrell",
+    "link": "",
+    "b": "-ita"
+   },
+   {
+    "word": "pelotita",
+    "a": "pelota",
+    "aStem": "pelot",
+    "link": "",
+    "b": "-ita"
+   },
+   {
+    "word": "ovejita",
+    "a": "oveja",
+    "aStem": "ovej",
+    "link": "",
+    "b": "-ita"
+   },
+   {
+    "word": "tortuguita",
+    "a": "tortuga",
+    "aStem": "tortugu",
+    "link": "",
+    "b": "-ita"
+   },
+   {
+    "word": "cabezón",
+    "a": "cabeza",
+    "aStem": "cabez",
+    "link": "",
+    "b": "-ón"
+   },
+   {
+    "word": "librote",
+    "a": "libro",
+    "aStem": "libr",
+    "link": "",
+    "b": "-ote"
+   },
+   {
+    "word": "grandote",
+    "a": "grande",
+    "aStem": "grand",
+    "link": "",
+    "b": "-ote"
+   },
+   {
+    "word": "balonazo",
+    "a": "balón",
+    "aStem": "balon",
+    "link": "",
+    "b": "-azo"
+   },
+   {
+    "word": "pelotazo",
+    "a": "pelota",
+    "aStem": "pelot",
+    "link": "",
+    "b": "-azo"
+   },
+   {
+    "word": "arrozal",
+    "a": "arroz",
+    "aStem": "",
+    "link": "",
+    "b": "-al"
+   },
+   {
+    "word": "azucarera",
+    "a": "azúcar",
+    "aStem": "azucar",
+    "link": "",
+    "b": "-era"
+   },
+   {
+    "word": "ensaladera",
+    "a": "ensalada",
+    "aStem": "ensalad",
+    "link": "",
+    "b": "-era"
+   },
+   {
+    "word": "papelera",
+    "a": "papel",
+    "aStem": "",
+    "link": "",
+    "b": "-era"
+   },
+   {
+    "word": "billetera",
+    "a": "billete",
+    "aStem": "billet",
+    "link": "",
+    "b": "-era"
+   },
+   {
+    "word": "jabonera",
+    "a": "jabón",
+    "aStem": "jabon",
+    "link": "",
+    "b": "-era"
+   },
+   {
+    "word": "cochera",
+    "a": "coche",
+    "aStem": "coch",
+    "link": "",
+    "b": "-era"
+   },
+   {
+    "word": "pianista",
+    "a": "piano",
+    "aStem": "pian",
+    "link": "",
+    "b": "-ista"
+   },
+   {
+    "word": "artista",
+    "a": "arte",
+    "aStem": "art",
+    "link": "",
+    "b": "-ista"
+   },
+   {
+    "word": "futbolista",
+    "a": "fútbol",
+    "aStem": "futbol",
+    "link": "",
+    "b": "-ista"
+   },
+   {
+    "word": "taxista",
+    "a": "taxi",
+    "aStem": "tax",
+    "link": "",
+    "b": "-ista"
+   },
+   {
+    "word": "violinista",
+    "a": "violín",
+    "aStem": "violin",
+    "link": "",
+    "b": "-ista"
+   },
+   {
+    "word": "guitarrista",
+    "a": "guitarra",
+    "aStem": "guitarr",
+    "link": "",
+    "b": "-ista"
+   },
+   {
+    "word": "lluvioso",
+    "a": "lluvia",
+    "aStem": "lluvi",
+    "link": "",
+    "b": "-oso"
+   },
+   {
+    "word": "ruidoso",
+    "a": "ruido",
+    "aStem": "ruid",
+    "link": "",
+    "b": "-oso"
+   },
+   {
+    "word": "cariñoso",
+    "a": "cariño",
+    "aStem": "cariñ",
+    "link": "",
+    "b": "-oso"
+   },
+   {
+    "word": "miedoso",
+    "a": "miedo",
+    "aStem": "mied",
+    "link": "",
+    "b": "-oso"
+   },
+   {
+    "word": "peligroso",
+    "a": "peligro",
+    "aStem": "peligr",
+    "link": "",
+    "b": "-oso"
+   }
+  ],
+  "textFoils": [
+   "cordero",
+   "número",
+   "dinero",
+   "febrero",
+   "pantera",
+   "primavera",
+   "madera",
+   "cadera",
+   "tijera",
+   "limón",
+   "melón",
+   "corazón",
+   "botón",
+   "algodón",
+   "tiburón",
+   "pantalón",
+   "avión",
+   "melocotón",
+   "apetito",
+   "infinito",
+   "margarita",
+   "visita",
+   "ardilla",
+   "cuchillo",
+   "elote",
+   "chayote",
+   "camote",
+   "coyote",
+   "papalote",
+   "guajolote",
+   "zapote",
+   "bigote",
+   "batería",
+   "galería",
+   "sincero",
+   "tomate",
+   "chocolate",
+   "aguacate"
+  ],
+  "newExclude": [
+   "camilla"
+  ]
+ },
+ "fr": {
+  "textCompounds": [
+   {
+    "word": "poirier",
+    "a": "poire",
+    "aStem": "poir",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "cerisier",
+    "a": "cerise",
+    "aStem": "ceris",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "abricotier",
+    "a": "abricot",
+    "aStem": "",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "prunier",
+    "a": "prune",
+    "aStem": "prun",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "citronnier",
+    "a": "citron",
+    "aStem": "",
+    "link": "n",
+    "b": "-ier"
+   },
+   {
+    "word": "bananier",
+    "a": "banane",
+    "aStem": "banan",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "olivier",
+    "a": "olive",
+    "aStem": "oliv",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "figuier",
+    "a": "figue",
+    "aStem": "figu",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "noisetier",
+    "a": "noisette",
+    "aStem": "noiset",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "fraisier",
+    "a": "fraise",
+    "aStem": "frais",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "framboisier",
+    "a": "framboise",
+    "aStem": "frambois",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "sucrier",
+    "a": "sucre",
+    "aStem": "sucr",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "saladier",
+    "a": "salade",
+    "aStem": "salad",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "théière",
+    "a": "thé",
+    "aStem": "",
+    "link": "",
+    "b": "-ière"
+   },
+   {
+    "word": "encrier",
+    "a": "encre",
+    "aStem": "encr",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "poivrier",
+    "a": "poivre",
+    "aStem": "poivr",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "soupière",
+    "a": "soupe",
+    "aStem": "soup",
+    "link": "",
+    "b": "-ière"
+   },
+   {
+    "word": "bonbonnière",
+    "a": "bonbon",
+    "aStem": "",
+    "link": "n",
+    "b": "-ière"
+   },
+   {
+    "word": "fermier",
+    "a": "ferme",
+    "aStem": "ferm",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "policier",
+    "a": "police",
+    "aStem": "polic",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "épicier",
+    "a": "épice",
+    "aStem": "épic",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "banquier",
+    "a": "banque",
+    "aStem": "banqu",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "chocolatier",
+    "a": "chocolat",
+    "aStem": "",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "écolier",
+    "a": "école",
+    "aStem": "écol",
+    "link": "",
+    "b": "-ier"
+   },
+   {
+    "word": "boulangerie",
+    "a": "boulanger",
+    "aStem": "",
+    "link": "",
+    "b": "-ie"
+   },
+   {
+    "word": "chocolaterie",
+    "a": "chocolat",
+    "aStem": "",
+    "link": "",
+    "b": "-erie"
+   },
+   {
+    "word": "crêperie",
+    "a": "crêpe",
+    "aStem": "crêp",
+    "link": "",
+    "b": "-erie"
+   },
+   {
+    "word": "parfumerie",
+    "a": "parfum",
+    "aStem": "",
+    "link": "",
+    "b": "-erie"
+   },
+   {
+    "word": "bijouterie",
+    "a": "bijou",
+    "aStem": "",
+    "link": "",
+    "b": "-terie"
+   },
+   {
+    "word": "épicerie",
+    "a": "épice",
+    "aStem": "épic",
+    "link": "",
+    "b": "-erie"
+   },
+   {
+    "word": "biscuiterie",
+    "a": "biscuit",
+    "aStem": "",
+    "link": "",
+    "b": "-erie"
+   },
+   {
+    "word": "camionnette",
+    "a": "camion",
+    "aStem": "",
+    "link": "n",
+    "b": "-ette"
+   },
+   {
+    "word": "fillette",
+    "a": "fille",
+    "aStem": "fill",
+    "link": "",
+    "b": "-ette"
+   },
+   {
+    "word": "poulette",
+    "a": "poule",
+    "aStem": "poul",
+    "link": "",
+    "b": "-ette"
+   },
+   {
+    "word": "planchette",
+    "a": "planche",
+    "aStem": "planch",
+    "link": "",
+    "b": "-ette"
+   },
+   {
+    "word": "fleurette",
+    "a": "fleur",
+    "aStem": "",
+    "link": "",
+    "b": "-ette"
+   },
+   {
+    "word": "statuette",
+    "a": "statue",
+    "aStem": "statu",
+    "link": "",
+    "b": "-ette"
+   },
+   {
+    "word": "chansonnette",
+    "a": "chanson",
+    "aStem": "",
+    "link": "n",
+    "b": "-ette"
+   },
+   {
+    "word": "jupette",
+    "a": "jupe",
+    "aStem": "jup",
+    "link": "",
+    "b": "-ette"
+   },
+   {
+    "word": "voiturette",
+    "a": "voiture",
+    "aStem": "voitur",
+    "link": "",
+    "b": "-ette"
+   },
+   {
+    "word": "girafon",
+    "a": "girafe",
+    "aStem": "giraf",
+    "link": "",
+    "b": "-on"
+   },
+   {
+    "word": "éléphanteau",
+    "a": "éléphant",
+    "aStem": "",
+    "link": "",
+    "b": "-eau"
+   },
+   {
+    "word": "lionceau",
+    "a": "lion",
+    "aStem": "",
+    "link": "",
+    "b": "-ceau"
+   },
+   {
+    "word": "louveteau",
+    "a": "loup",
+    "aStem": "louv",
+    "link": "",
+    "b": "-eteau"
+   },
+   {
+    "word": "renardeau",
+    "a": "renard",
+    "aStem": "",
+    "link": "",
+    "b": "-eau"
+   },
+   {
+    "word": "baleineau",
+    "a": "baleine",
+    "aStem": "balein",
+    "link": "",
+    "b": "-eau"
+   },
+   {
+    "word": "serpenteau",
+    "a": "serpent",
+    "aStem": "",
+    "link": "",
+    "b": "-eau"
+   },
+   {
+    "word": "chanteur",
+    "a": "chanter",
+    "aStem": "chant",
+    "link": "",
+    "b": "-eur"
+   },
+   {
+    "word": "danseur",
+    "a": "danse",
+    "aStem": "dans",
+    "link": "",
+    "b": "-eur"
+   },
+   {
+    "word": "coiffeur",
+    "a": "coiffer",
+    "aStem": "coiff",
+    "link": "",
+    "b": "-eur"
+   },
+   {
+    "word": "vendeur",
+    "a": "vendre",
+    "aStem": "vend",
+    "link": "",
+    "b": "-eur"
+   },
+   {
+    "word": "patineur",
+    "a": "patin",
+    "aStem": "",
+    "link": "",
+    "b": "-eur"
+   },
+   {
+    "word": "voyageur",
+    "a": "voyage",
+    "aStem": "voyag",
+    "link": "",
+    "b": "-eur"
+   },
+   {
+    "word": "footballeur",
+    "a": "football",
+    "aStem": "",
+    "link": "",
+    "b": "-eur"
+   },
+   {
+    "word": "pêcheur",
+    "a": "pêcher",
+    "aStem": "pêch",
+    "link": "",
+    "b": "-eur"
+   },
+   {
+    "word": "grimpeur",
+    "a": "grimper",
+    "aStem": "grimp",
+    "link": "",
+    "b": "-eur"
+   },
+   {
+    "word": "pianiste",
+    "a": "piano",
+    "aStem": "pian",
+    "link": "",
+    "b": "-iste"
+   },
+   {
+    "word": "violoniste",
+    "a": "violon",
+    "aStem": "",
+    "link": "",
+    "b": "-iste"
+   },
+   {
+    "word": "guitariste",
+    "a": "guitare",
+    "aStem": "guitar",
+    "link": "",
+    "b": "-iste"
+   },
+   {
+    "word": "artiste",
+    "a": "art",
+    "aStem": "",
+    "link": "",
+    "b": "-iste"
+   },
+   {
+    "word": "garagiste",
+    "a": "garage",
+    "aStem": "garag",
+    "link": "",
+    "b": "-iste"
+   },
+   {
+    "word": "nuageux",
+    "a": "nuage",
+    "aStem": "nuag",
+    "link": "",
+    "b": "-eux"
+   },
+   {
+    "word": "peureux",
+    "a": "peur",
+    "aStem": "",
+    "link": "",
+    "b": "-eux"
+   },
+   {
+    "word": "courageux",
+    "a": "courage",
+    "aStem": "courag",
+    "link": "",
+    "b": "-eux"
+   },
+   {
+    "word": "neigeux",
+    "a": "neige",
+    "aStem": "neig",
+    "link": "",
+    "b": "-eux"
+   },
+   {
+    "word": "orageux",
+    "a": "orage",
+    "aStem": "orag",
+    "link": "",
+    "b": "-eux"
+   },
+   {
+    "word": "dangereux",
+    "a": "danger",
+    "aStem": "",
+    "link": "",
+    "b": "-eux"
+   },
+   {
+    "word": "savonneux",
+    "a": "savon",
+    "aStem": "",
+    "link": "n",
+    "b": "-eux"
+   },
+   {
+    "word": "feuillage",
+    "a": "feuille",
+    "aStem": "feuill",
+    "link": "",
+    "b": "-age"
+   },
+   {
+    "word": "plumage",
+    "a": "plume",
+    "aStem": "plum",
+    "link": "",
+    "b": "-age"
+   },
+   {
+    "word": "journée",
+    "a": "jour",
+    "aStem": "",
+    "link": "n",
+    "b": "-ée"
+   },
+   {
+    "word": "matinée",
+    "a": "matin",
+    "aStem": "",
+    "link": "",
+    "b": "-ée"
+   },
+   {
+    "word": "rizière",
+    "a": "riz",
+    "aStem": "",
+    "link": "",
+    "b": "-ière"
+   },
+   {
+    "word": "fourmilière",
+    "a": "fourmi",
+    "aStem": "",
+    "link": "",
+    "b": "-lière"
+   },
+   {
+    "word": "citronnade",
+    "a": "citron",
+    "aStem": "",
+    "link": "n",
+    "b": "-ade"
+   },
+   {
+    "word": "orangeade",
+    "a": "orange",
+    "aStem": "",
+    "link": "",
+    "b": "-ade"
+   },
+   {
+    "word": "tambourin",
+    "a": "tambour",
+    "aStem": "",
+    "link": "",
+    "b": "-in"
+   }
+  ],
+  "textFoils": [
+   "papier",
+   "janvier",
+   "février",
+   "sanglier",
+   "baguette",
+   "raquette",
+   "chouette",
+   "omelette",
+   "squelette",
+   "mouette",
+   "docteur",
+   "couleur",
+   "chaleur",
+   "odeur",
+   "facteur",
+   "vapeur",
+   "melon",
+   "mouton",
+   "pantalon",
+   "balcon",
+   "poisson",
+   "cochon",
+   "dragon",
+   "bateau",
+   "oiseau",
+   "cadeau",
+   "chameau",
+   "couteau",
+   "marteau",
+   "pinceau",
+   "cartable",
+   "sapin",
+   "requin",
+   "dauphin",
+   "coussin",
+   "raisin",
+   "voisin",
+   "cousin",
+   "soleil",
+   "médecin",
+   "pingouin",
+   "pantoufle",
+   "homard",
+   "léopard",
+   "moustique",
+   "tortue"
+  ],
+  "newExclude": [
+   "dentifrice",
+   "livret",
+   "parapluie",
+   "tournesol",
+   "portefeuille"
+  ]
+ },
+ "it": {
+  "textCompounds": [
+   {
+    "word": "cagnolino",
+    "a": "cane",
+    "aStem": "cagn",
+    "link": "",
+    "b": "-olino"
+   },
+   {
+    "word": "scarpetta",
+    "a": "scarpa",
+    "aStem": "scarp",
+    "link": "",
+    "b": "-etta"
+   },
+   {
+    "word": "cucchiaino",
+    "a": "cucchiaio",
+    "aStem": "cucchia",
+    "link": "",
+    "b": "-ino"
+   },
+   {
+    "word": "finestrella",
+    "a": "finestra",
+    "aStem": "finestr",
+    "link": "",
+    "b": "-ella"
+   },
+   {
+    "word": "barchetta",
+    "a": "barca",
+    "aStem": "barch",
+    "link": "",
+    "b": "-etta"
+   },
+   {
+    "word": "lettone",
+    "a": "letto",
+    "aStem": "lett",
+    "link": "",
+    "b": "-one"
+   },
+   {
+    "word": "portone",
+    "a": "porta",
+    "aStem": "port",
+    "link": "",
+    "b": "-one"
+   },
+   {
+    "word": "pesciolino",
+    "a": "pesce",
+    "aStem": "pesc",
+    "link": "",
+    "b": "-iolino"
+   },
+   {
+    "word": "topolino",
+    "a": "topo",
+    "aStem": "top",
+    "link": "",
+    "b": "-olino"
+   },
+   {
+    "word": "alberello",
+    "a": "albero",
+    "aStem": "alber",
+    "link": "",
+    "b": "-ello"
+   },
+   {
+    "word": "fiorellino",
+    "a": "fiore",
+    "aStem": "fior",
+    "link": "",
+    "b": "-ellino"
+   },
+   {
+    "word": "vestitino",
+    "a": "vestito",
+    "aStem": "vestit",
+    "link": "",
+    "b": "-ino"
+   },
+   {
+    "word": "bicchierino",
+    "a": "bicchiere",
+    "aStem": "bicchier",
+    "link": "",
+    "b": "-ino"
+   },
+   {
+    "word": "paesino",
+    "a": "paese",
+    "aStem": "paes",
+    "link": "",
+    "b": "-ino"
+   },
+   {
+    "word": "occhietto",
+    "a": "occhio",
+    "aStem": "occhi",
+    "link": "",
+    "b": "-etto"
+   },
+   {
+    "word": "testone",
+    "a": "testa",
+    "aStem": "test",
+    "link": "",
+    "b": "-one"
+   },
+   {
+    "word": "piedone",
+    "a": "piede",
+    "aStem": "pied",
+    "link": "",
+    "b": "-one"
+   },
+   {
+    "word": "scatolone",
+    "a": "scatola",
+    "aStem": "scatol",
+    "link": "",
+    "b": "-one"
+   },
+   {
+    "word": "bottiglietta",
+    "a": "bottiglia",
+    "aStem": "bottigli",
+    "link": "",
+    "b": "-etta"
+   },
+   {
+    "word": "cuscinetto",
+    "a": "cuscino",
+    "aStem": "cuscin",
+    "link": "",
+    "b": "-etto"
+   },
+   {
+    "word": "camioncino",
+    "a": "camion",
+    "aStem": "",
+    "link": "",
+    "b": "-cino"
+   },
+   {
+    "word": "trenino",
+    "a": "treno",
+    "aStem": "tren",
+    "link": "",
+    "b": "-ino"
+   },
+   {
+    "word": "aeroplanino",
+    "a": "aeroplano",
+    "aStem": "aeroplan",
+    "link": "",
+    "b": "-ino"
+   },
+   {
+    "word": "biscottino",
+    "a": "biscotto",
+    "aStem": "biscott",
+    "link": "",
+    "b": "-ino"
+   },
+   {
+    "word": "bottoncino",
+    "a": "bottone",
+    "aStem": "botton",
+    "link": "",
+    "b": "-cino"
+   },
+   {
+    "word": "leoncino",
+    "a": "leone",
+    "aStem": "leon",
+    "link": "",
+    "b": "-cino"
+   },
+   {
+    "word": "elefantino",
+    "a": "elefante",
+    "aStem": "elefant",
+    "link": "",
+    "b": "-ino"
+   },
+   {
+    "word": "orsacchiotto",
+    "a": "orso",
+    "aStem": "ors",
+    "link": "",
+    "b": "-acchiotto"
+   },
+   {
+    "word": "lupacchiotto",
+    "a": "lupo",
+    "aStem": "lup",
+    "link": "",
+    "b": "-acchiotto"
+   },
+   {
+    "word": "volpina",
+    "a": "volpe",
+    "aStem": "volp",
+    "link": "",
+    "b": "-ina"
+   },
+   {
+    "word": "farfallina",
+    "a": "farfalla",
+    "aStem": "farfall",
+    "link": "",
+    "b": "-ina"
+   },
+   {
+    "word": "formichina",
+    "a": "formica",
+    "aStem": "formich",
+    "link": "",
+    "b": "-ina"
+   },
+   {
+    "word": "stradina",
+    "a": "strada",
+    "aStem": "strad",
+    "link": "",
+    "b": "-ina"
+   },
+   {
+    "word": "collinetta",
+    "a": "collina",
+    "aStem": "collin",
+    "link": "",
+    "b": "-etta"
+   },
+   {
+    "word": "isoletta",
+    "a": "isola",
+    "aStem": "isol",
+    "link": "",
+    "b": "-etta"
+   },
+   {
+    "word": "letterina",
+    "a": "lettera",
+    "aStem": "letter",
+    "link": "",
+    "b": "-ina"
+   },
+   {
+    "word": "regalino",
+    "a": "regalo",
+    "aStem": "regal",
+    "link": "",
+    "b": "-ino"
+   },
+   {
+    "word": "pacchetto",
+    "a": "pacco",
+    "aStem": "pacch",
+    "link": "",
+    "b": "-etto"
+   },
+   {
+    "word": "giocattolino",
+    "a": "giocattolo",
+    "aStem": "giocattol",
+    "link": "",
+    "b": "-ino"
+   },
+   {
+    "word": "palloncino",
+    "a": "pallone",
+    "aStem": "pallon",
+    "link": "",
+    "b": "-cino"
+   },
+   {
+    "word": "candelina",
+    "a": "candela",
+    "aStem": "candel",
+    "link": "",
+    "b": "-ina"
+   },
+   {
+    "word": "fragolina",
+    "a": "fragola",
+    "aStem": "fragol",
+    "link": "",
+    "b": "-ina"
+   },
+   {
+    "word": "pizzetta",
+    "a": "pizza",
+    "aStem": "pizz",
+    "link": "",
+    "b": "-etta"
+   },
+   {
+    "word": "quadernone",
+    "a": "quaderno",
+    "aStem": "quadern",
+    "link": "",
+    "b": "-one"
+   },
+   {
+    "word": "matitona",
+    "a": "matita",
+    "aStem": "matit",
+    "link": "",
+    "b": "-ona"
+   },
+   {
+    "word": "cartellone",
+    "a": "cartello",
+    "aStem": "cartell",
+    "link": "",
+    "b": "-one"
+   },
+   {
+    "word": "gelataio",
+    "a": "gelato",
+    "aStem": "gelat",
+    "link": "",
+    "b": "-aio"
+   },
+   {
+    "word": "fornaio",
+    "a": "forno",
+    "aStem": "forn",
+    "link": "",
+    "b": "-aio"
+   },
+   {
+    "word": "benzinaio",
+    "a": "benzina",
+    "aStem": "benzin",
+    "link": "",
+    "b": "-aio"
+   },
+   {
+    "word": "giornalaio",
+    "a": "giornale",
+    "aStem": "giornal",
+    "link": "",
+    "b": "-aio"
+   },
+   {
+    "word": "pizzaiolo",
+    "a": "pizza",
+    "aStem": "pizz",
+    "link": "",
+    "b": "-aiolo"
+   },
+   {
+    "word": "gelateria",
+    "a": "gelato",
+    "aStem": "gelat",
+    "link": "",
+    "b": "-eria"
+   },
+   {
+    "word": "pizzeria",
+    "a": "pizza",
+    "aStem": "pizz",
+    "link": "",
+    "b": "-eria"
+   },
+   {
+    "word": "profumeria",
+    "a": "profumo",
+    "aStem": "profum",
+    "link": "",
+    "b": "-eria"
+   },
+   {
+    "word": "dentista",
+    "a": "dente",
+    "aStem": "dent",
+    "link": "",
+    "b": "-ista"
+   },
+   {
+    "word": "pianista",
+    "a": "piano",
+    "aStem": "pian",
+    "link": "",
+    "b": "-ista"
+   },
+   {
+    "word": "barista",
+    "a": "bar",
+    "aStem": "",
+    "link": "",
+    "b": "-ista"
+   },
+   {
+    "word": "chitarrista",
+    "a": "chitarra",
+    "aStem": "chitarr",
+    "link": "",
+    "b": "-ista"
+   },
+   {
+    "word": "violinista",
+    "a": "violino",
+    "aStem": "violin",
+    "link": "",
+    "b": "-ista"
+   },
+   {
+    "word": "giornalista",
+    "a": "giornale",
+    "aStem": "giornal",
+    "link": "",
+    "b": "-ista"
+   },
+   {
+    "word": "portiere",
+    "a": "porta",
+    "aStem": "port",
+    "link": "",
+    "b": "-iere"
+   },
+   {
+    "word": "gioielliere",
+    "a": "gioiello",
+    "aStem": "gioiell",
+    "link": "",
+    "b": "-iere"
+   },
+   {
+    "word": "barbiere",
+    "a": "barba",
+    "aStem": "barb",
+    "link": "",
+    "b": "-iere"
+   },
+   {
+    "word": "cassiere",
+    "a": "cassa",
+    "aStem": "cass",
+    "link": "",
+    "b": "-iere"
+   },
+   {
+    "word": "zuccheriera",
+    "a": "zucchero",
+    "aStem": "zuccher",
+    "link": "",
+    "b": "-iera"
+   },
+   {
+    "word": "saliera",
+    "a": "sale",
+    "aStem": "sal",
+    "link": "",
+    "b": "-iera"
+   },
+   {
+    "word": "insalatiera",
+    "a": "insalata",
+    "aStem": "insalat",
+    "link": "",
+    "b": "-iera"
+   },
+   {
+    "word": "formaggiera",
+    "a": "formaggio",
+    "aStem": "formagg",
+    "link": "",
+    "b": "-iera"
+   },
+   {
+    "word": "aranciata",
+    "a": "arancia",
+    "aStem": "aranci",
+    "link": "",
+    "b": "-ata"
+   },
+   {
+    "word": "cappottino",
+    "a": "cappotto",
+    "aStem": "cappott",
+    "link": "",
+    "b": "-ino"
+   },
+   {
+    "word": "maglietta",
+    "a": "maglia",
+    "aStem": "magli",
+    "link": "",
+    "b": "-etta"
+   },
+   {
+    "word": "cuoricino",
+    "a": "cuore",
+    "aStem": "cuor",
+    "link": "",
+    "b": "-icino"
+   },
+   {
+    "word": "gonnellina",
+    "a": "gonna",
+    "aStem": "gonn",
+    "link": "",
+    "b": "-ellina"
+   },
+   {
+    "word": "sacchetto",
+    "a": "sacco",
+    "aStem": "sacch",
+    "link": "",
+    "b": "-etto"
+   },
+   {
+    "word": "nuvolone",
+    "a": "nuvola",
+    "aStem": "nuvol",
+    "link": "",
+    "b": "-one"
+   },
+   {
+    "word": "pentolone",
+    "a": "pentola",
+    "aStem": "pentol",
+    "link": "",
+    "b": "-one"
+   },
+   {
+    "word": "ombrellino",
+    "a": "ombrello",
+    "aStem": "ombrell",
+    "link": "",
+    "b": "-ino"
+   },
+   {
+    "word": "bambolina",
+    "a": "bambola",
+    "aStem": "bambol",
+    "link": "",
+    "b": "-ina"
+   },
+   {
+    "word": "sassolino",
+    "a": "sasso",
+    "aStem": "sass",
+    "link": "",
+    "b": "-olino"
+   },
+   {
+    "word": "fiocchetto",
+    "a": "fiocco",
+    "aStem": "fiocch",
+    "link": "",
+    "b": "-etto"
+   },
+   {
+    "word": "stanzetta",
+    "a": "stanza",
+    "aStem": "stanz",
+    "link": "",
+    "b": "-etta"
+   },
+   {
+    "word": "piattino",
+    "a": "piatto",
+    "aStem": "piatt",
+    "link": "",
+    "b": "-ino"
+   },
+   {
+    "word": "lumachina",
+    "a": "lumaca",
+    "aStem": "lumach",
+    "link": "",
+    "b": "-ina"
+   },
+   {
+    "word": "tartarughina",
+    "a": "tartaruga",
+    "aStem": "tartarugh",
+    "link": "",
+    "b": "-ina"
+   }
+  ],
+  "textFoils": [
+   "mattone",
+   "burrone",
+   "bottone",
+   "montone",
+   "torrone",
+   "mulino",
+   "girino",
+   "mattino",
+   "mattina",
+   "bottino",
+   "focaccia",
+   "cervello",
+   "vitello",
+   "merluzzo",
+   "biglietto",
+   "salvietta",
+   "pagella",
+   "galleria",
+   "cantiere",
+   "sorbetto",
+   "timone",
+   "salmone",
+   "caramella",
+   "latino",
+   "civetta",
+   "patata",
+   "pinguino",
+   "cucina",
+   "macchina",
+   "farina",
+   "lucchetto",
+   "vagone",
+   "destino",
+   "cuscino",
+   "cortina",
+   "mandarino",
+   "polmone",
+   "cotone"
+  ],
+  "newExclude": [
+   "panino",
+   "cucitrice",
+   "cantante",
+   "collana"
+  ]
+ },
+ "pt": {
+  "textCompounds": [
+   {
+    "word": "cavalinho",
+    "a": "cavalo",
+    "aStem": "caval",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "coelhinho",
+    "a": "coelho",
+    "aStem": "coelh",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "passarinho",
+    "a": "pássaro",
+    "aStem": "passar",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "macaquinho",
+    "a": "macaco",
+    "aStem": "macaqu",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "porquinho",
+    "a": "porco",
+    "aStem": "porqu",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "sapinho",
+    "a": "sapo",
+    "aStem": "sap",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "peixinho",
+    "a": "peixe",
+    "aStem": "peix",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "ursinho",
+    "a": "urso",
+    "aStem": "urs",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "carrinho",
+    "a": "carro",
+    "aStem": "carr",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "barquinho",
+    "a": "barco",
+    "aStem": "barqu",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "livrinho",
+    "a": "livro",
+    "aStem": "livr",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "copinho",
+    "a": "copo",
+    "aStem": "cop",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "pratinho",
+    "a": "prato",
+    "aStem": "prat",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "menininho",
+    "a": "menino",
+    "aStem": "menin",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "sapatinho",
+    "a": "sapato",
+    "aStem": "sapat",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "docinho",
+    "a": "doce",
+    "aStem": "doc",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "bichinho",
+    "a": "bicho",
+    "aStem": "bich",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "amiguinho",
+    "a": "amigo",
+    "aStem": "amigu",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "bonitinho",
+    "a": "bonito",
+    "aStem": "bonit",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "cedinho",
+    "a": "cedo",
+    "aStem": "ced",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "devagarinho",
+    "a": "devagar",
+    "aStem": "",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "fofinho",
+    "a": "fofo",
+    "aStem": "fof",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "quentinho",
+    "a": "quente",
+    "aStem": "quent",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "rapidinho",
+    "a": "rápido",
+    "aStem": "rapid",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "cheirinho",
+    "a": "cheiro",
+    "aStem": "cheir",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "beijinho",
+    "a": "beijo",
+    "aStem": "beij",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "abracinho",
+    "a": "abraço",
+    "aStem": "abrac",
+    "link": "",
+    "b": "-inho"
+   },
+   {
+    "word": "bonequinha",
+    "a": "boneca",
+    "aStem": "bonequ",
+    "link": "",
+    "b": "-inha"
+   },
+   {
+    "word": "bolinha",
+    "a": "bola",
+    "aStem": "bol",
+    "link": "",
+    "b": "-inha"
+   },
+   {
+    "word": "estrelinha",
+    "a": "estrela",
+    "aStem": "estrel",
+    "link": "",
+    "b": "-inha"
+   },
+   {
+    "word": "janelinha",
+    "a": "janela",
+    "aStem": "janel",
+    "link": "",
+    "b": "-inha"
+   },
+   {
+    "word": "cadeirinha",
+    "a": "cadeira",
+    "aStem": "cadeir",
+    "link": "",
+    "b": "-inha"
+   },
+   {
+    "word": "corujinha",
+    "a": "coruja",
+    "aStem": "coruj",
+    "link": "",
+    "b": "-inha"
+   },
+   {
+    "word": "tartaruguinha",
+    "a": "tartaruga",
+    "aStem": "tartarugu",
+    "link": "",
+    "b": "-inha"
+   },
+   {
+    "word": "formiguinha",
+    "a": "formiga",
+    "aStem": "formigu",
+    "link": "",
+    "b": "-inha"
+   },
+   {
+    "word": "abelhinha",
+    "a": "abelha",
+    "aStem": "abelh",
+    "link": "",
+    "b": "-inha"
+   },
+   {
+    "word": "ovelhinha",
+    "a": "ovelha",
+    "aStem": "ovelh",
+    "link": "",
+    "b": "-inha"
+   },
+   {
+    "word": "vaquinha",
+    "a": "vaca",
+    "aStem": "vaqu",
+    "link": "",
+    "b": "-inha"
+   },
+   {
+    "word": "girafinha",
+    "a": "girafa",
+    "aStem": "giraf",
+    "link": "",
+    "b": "-inha"
+   },
+   {
+    "word": "chuvinha",
+    "a": "chuva",
+    "aStem": "chuv",
+    "link": "",
+    "b": "-inha"
+   },
+   {
+    "word": "ondinha",
+    "a": "onda",
+    "aStem": "ond",
+    "link": "",
+    "b": "-inha"
+   },
+   {
+    "word": "pedrinha",
+    "a": "pedra",
+    "aStem": "pedr",
+    "link": "",
+    "b": "-inha"
+   },
+   {
+    "word": "leãozinho",
+    "a": "leão",
+    "aStem": "",
+    "link": "",
+    "b": "-zinho"
+   },
+   {
+    "word": "aviãozinho",
+    "a": "avião",
+    "aStem": "",
+    "link": "",
+    "b": "-zinho"
+   },
+   {
+    "word": "irmãozinho",
+    "a": "irmão",
+    "aStem": "",
+    "link": "",
+    "b": "-zinho"
+   },
+   {
+    "word": "chapeuzinho",
+    "a": "chapéu",
+    "aStem": "chapeu",
+    "link": "",
+    "b": "-zinho"
+   },
+   {
+    "word": "balãozinho",
+    "a": "balão",
+    "aStem": "",
+    "link": "",
+    "b": "-zinho"
+   },
+   {
+    "word": "trenzinho",
+    "a": "trem",
+    "aStem": "tren",
+    "link": "",
+    "b": "-zinho"
+   },
+   {
+    "word": "bonezinho",
+    "a": "boné",
+    "aStem": "bone",
+    "link": "",
+    "b": "-zinho"
+   },
+   {
+    "word": "cafezinho",
+    "a": "café",
+    "aStem": "cafe",
+    "link": "",
+    "b": "-zinho"
+   },
+   {
+    "word": "jacarezinho",
+    "a": "jacaré",
+    "aStem": "jacare",
+    "link": "",
+    "b": "-zinho"
+   },
+   {
+    "word": "solzinho",
+    "a": "sol",
+    "aStem": "",
+    "link": "",
+    "b": "-zinho"
+   },
+   {
+    "word": "caminhãozinho",
+    "a": "caminhão",
+    "aStem": "",
+    "link": "",
+    "b": "-zinho"
+   },
+   {
+    "word": "bebezinho",
+    "a": "bebê",
+    "aStem": "bebe",
+    "link": "",
+    "b": "-zinho"
+   },
+   {
+    "word": "pezinho",
+    "a": "pé",
+    "aStem": "pe",
+    "link": "",
+    "b": "-zinho"
+   },
+   {
+    "word": "papelzinho",
+    "a": "papel",
+    "aStem": "",
+    "link": "",
+    "b": "-zinho"
+   },
+   {
+    "word": "animalzinho",
+    "a": "animal",
+    "aStem": "",
+    "link": "",
+    "b": "-zinho"
+   },
+   {
+    "word": "florzinha",
+    "a": "flor",
+    "aStem": "",
+    "link": "",
+    "b": "-zinha"
+   },
+   {
+    "word": "vovozinha",
+    "a": "vovó",
+    "aStem": "vovo",
+    "link": "",
+    "b": "-zinha"
+   },
+   {
+    "word": "mãozinha",
+    "a": "mão",
+    "aStem": "",
+    "link": "",
+    "b": "-zinha"
+   },
+   {
+    "word": "arvorezinha",
+    "a": "árvore",
+    "aStem": "arvore",
+    "link": "",
+    "b": "-zinha"
+   },
+   {
+    "word": "colherzinha",
+    "a": "colher",
+    "aStem": "",
+    "link": "",
+    "b": "-zinha"
+   },
+   {
+    "word": "casarão",
+    "a": "casa",
+    "aStem": "cas",
+    "link": "",
+    "b": "-arão"
+   },
+   {
+    "word": "narigão",
+    "a": "nariz",
+    "aStem": "narig",
+    "link": "",
+    "b": "-ão"
+   },
+   {
+    "word": "panelão",
+    "a": "panela",
+    "aStem": "panel",
+    "link": "",
+    "b": "-ão"
+   },
+   {
+    "word": "cabeção",
+    "a": "cabeça",
+    "aStem": "cabeç",
+    "link": "",
+    "b": "-ão"
+   },
+   {
+    "word": "bonecão",
+    "a": "boneca",
+    "aStem": "bonec",
+    "link": "",
+    "b": "-ão"
+   },
+   {
+    "word": "grandão",
+    "a": "grande",
+    "aStem": "grand",
+    "link": "",
+    "b": "-ão"
+   },
+   {
+    "word": "vozeirão",
+    "a": "voz",
+    "aStem": "",
+    "link": "",
+    "b": "-eirão"
+   },
+   {
+    "word": "grandalhão",
+    "a": "grande",
+    "aStem": "grand",
+    "link": "",
+    "b": "-alhão"
+   },
+   {
+    "word": "fogaréu",
+    "a": "fogo",
+    "aStem": "fog",
+    "link": "",
+    "b": "-aréu"
+   },
+   {
+    "word": "animalzão",
+    "a": "animal",
+    "aStem": "",
+    "link": "",
+    "b": "-zão"
+   },
+   {
+    "word": "cafezão",
+    "a": "café",
+    "aStem": "cafe",
+    "link": "",
+    "b": "-zão"
+   },
+   {
+    "word": "jacarezão",
+    "a": "jacaré",
+    "aStem": "jacare",
+    "link": "",
+    "b": "-zão"
+   },
+   {
+    "word": "sofazão",
+    "a": "sofá",
+    "aStem": "sofa",
+    "link": "",
+    "b": "-zão"
+   },
+   {
+    "word": "caixote",
+    "a": "caixa",
+    "aStem": "caix",
+    "link": "",
+    "b": "-ote"
+   }
+  ],
+  "textFoils": [
+   "farinha",
+   "vizinho",
+   "caminho",
+   "linha",
+   "rainha",
+   "sardinha",
+   "baunilha",
+   "ninho",
+   "vinho",
+   "golfinho",
+   "feijão",
+   "melão",
+   "limão",
+   "sabão",
+   "algodão",
+   "botão",
+   "mamão",
+   "furacão",
+   "camaleão",
+   "pulmão",
+   "trovão",
+   "verão",
+   "gavião",
+   "canção",
+   "chocolate",
+   "azeitona",
+   "bicicleta",
+   "borboleta",
+   "gaveta",
+   "sorvete",
+   "tapete",
+   "bilhete",
+   "chiclete",
+   "tomate",
+   "cortina",
+   "pepino",
+   "cenoura",
+   "abacaxi"
+  ],
+  "newExclude": [
+   "lagartixa",
+   "ratazana",
+   "chuvisco"
+  ]
+ },
+ "nl": {
+  "textCompounds": [
+   {
+    "word": "sneeuwman",
+    "a": "sneeuw",
+    "aStem": "",
+    "link": "",
+    "b": "man"
+   },
+   {
+    "word": "sneeuwbal",
+    "a": "sneeuw",
+    "aStem": "",
+    "link": "",
+    "b": "bal"
+   },
+   {
+    "word": "sneeuwvlok",
+    "a": "sneeuw",
+    "aStem": "",
+    "link": "",
+    "b": "vlok"
+   },
+   {
+    "word": "slaapkamer",
+    "a": "slaap",
+    "aStem": "",
+    "link": "",
+    "b": "kamer"
+   },
+   {
+    "word": "badkamer",
+    "a": "bad",
+    "aStem": "",
+    "link": "",
+    "b": "kamer"
+   },
+   {
+    "word": "speeltuin",
+    "a": "spelen",
+    "aStem": "speel",
+    "link": "",
+    "b": "tuin"
+   },
+   {
+    "word": "speelplaats",
+    "a": "spelen",
+    "aStem": "speel",
+    "link": "",
+    "b": "plaats"
+   },
+   {
+    "word": "dierentuin",
+    "a": "dier",
+    "aStem": "",
+    "link": "en",
+    "b": "tuin"
+   },
+   {
+    "word": "kinderboek",
+    "a": "kind",
+    "aStem": "kinder",
+    "link": "",
+    "b": "boek"
+   },
+   {
+    "word": "prentenboek",
+    "a": "prent",
+    "aStem": "",
+    "link": "en",
+    "b": "boek"
+   },
+   {
+    "word": "tandarts",
+    "a": "tand",
+    "aStem": "",
+    "link": "",
+    "b": "arts"
+   },
+   {
+    "word": "dierenarts",
+    "a": "dier",
+    "aStem": "",
+    "link": "en",
+    "b": "arts"
+   },
+   {
+    "word": "kinderarts",
+    "a": "kind",
+    "aStem": "kinder",
+    "link": "",
+    "b": "arts"
+   },
+   {
+    "word": "vogelnest",
+    "a": "vogel",
+    "aStem": "",
+    "link": "",
+    "b": "nest"
+   },
+   {
+    "word": "appelboom",
+    "a": "appel",
+    "aStem": "",
+    "link": "",
+    "b": "boom"
+   },
+   {
+    "word": "kerstboom",
+    "a": "kerst",
+    "aStem": "",
+    "link": "",
+    "b": "boom"
+   },
+   {
+    "word": "boomhut",
+    "a": "boom",
+    "aStem": "",
+    "link": "",
+    "b": "hut"
+   },
+   {
+    "word": "hondenhok",
+    "a": "hond",
+    "aStem": "",
+    "link": "en",
+    "b": "hok"
+   },
+   {
+    "word": "konijnenhok",
+    "a": "konijn",
+    "aStem": "",
+    "link": "en",
+    "b": "hok"
+   },
+   {
+    "word": "paardenstal",
+    "a": "paard",
+    "aStem": "",
+    "link": "en",
+    "b": "stal"
+   },
+   {
+    "word": "varkensstal",
+    "a": "varken",
+    "aStem": "",
+    "link": "s",
+    "b": "stal"
+   },
+   {
+    "word": "maanlicht",
+    "a": "maan",
+    "aStem": "",
+    "link": "",
+    "b": "licht"
+   },
+   {
+    "word": "zonlicht",
+    "a": "zon",
+    "aStem": "",
+    "link": "",
+    "b": "licht"
+   },
+   {
+    "word": "kaarslicht",
+    "a": "kaars",
+    "aStem": "",
+    "link": "",
+    "b": "licht"
+   },
+   {
+    "word": "zaklamp",
+    "a": "zak",
+    "aStem": "",
+    "link": "",
+    "b": "lamp"
+   },
+   {
+    "word": "bureaulamp",
+    "a": "bureau",
+    "aStem": "",
+    "link": "",
+    "b": "lamp"
+   },
+   {
+    "word": "tafellaken",
+    "a": "tafel",
+    "aStem": "",
+    "link": "",
+    "b": "laken"
+   },
+   {
+    "word": "hoofdkussen",
+    "a": "hoofd",
+    "aStem": "",
+    "link": "",
+    "b": "kussen"
+   },
+   {
+    "word": "handdoek",
+    "a": "hand",
+    "aStem": "",
+    "link": "",
+    "b": "doek"
+   },
+   {
+    "word": "vingernagel",
+    "a": "vinger",
+    "aStem": "",
+    "link": "",
+    "b": "nagel"
+   },
+   {
+    "word": "haarborstel",
+    "a": "haar",
+    "aStem": "",
+    "link": "",
+    "b": "borstel"
+   },
+   {
+    "word": "schooltas",
+    "a": "school",
+    "aStem": "",
+    "link": "",
+    "b": "tas"
+   },
+   {
+    "word": "schoolplein",
+    "a": "school",
+    "aStem": "",
+    "link": "",
+    "b": "plein"
+   },
+   {
+    "word": "schoolbord",
+    "a": "school",
+    "aStem": "",
+    "link": "",
+    "b": "bord"
+   },
+   {
+    "word": "bloempot",
+    "a": "bloem",
+    "aStem": "",
+    "link": "",
+    "b": "pot"
+   },
+   {
+    "word": "bloemenvaas",
+    "a": "bloem",
+    "aStem": "",
+    "link": "en",
+    "b": "vaas"
+   },
+   {
+    "word": "tuinhek",
+    "a": "tuin",
+    "aStem": "",
+    "link": "",
+    "b": "hek"
+   },
+   {
+    "word": "waterfles",
+    "a": "water",
+    "aStem": "",
+    "link": "",
+    "b": "fles"
+   },
+   {
+    "word": "melkfles",
+    "a": "melk",
+    "aStem": "",
+    "link": "",
+    "b": "fles"
+   },
+   {
+    "word": "strandbal",
+    "a": "strand",
+    "aStem": "",
+    "link": "",
+    "b": "bal"
+   },
+   {
+    "word": "luchtballon",
+    "a": "lucht",
+    "aStem": "",
+    "link": "",
+    "b": "ballon"
+   },
+   {
+    "word": "zeilboot",
+    "a": "zeil",
+    "aStem": "",
+    "link": "",
+    "b": "boot"
+   },
+   {
+    "word": "roeiboot",
+    "a": "roeien",
+    "aStem": "roei",
+    "link": "",
+    "b": "boot"
+   },
+   {
+    "word": "politieauto",
+    "a": "politie",
+    "aStem": "",
+    "link": "",
+    "b": "auto"
+   },
+   {
+    "word": "vuilnisbak",
+    "a": "vuilnis",
+    "aStem": "",
+    "link": "",
+    "b": "bak"
+   },
+   {
+    "word": "vuilniswagen",
+    "a": "vuilnis",
+    "aStem": "",
+    "link": "",
+    "b": "wagen"
+   },
+   {
+    "word": "broodtrommel",
+    "a": "brood",
+    "aStem": "",
+    "link": "",
+    "b": "trommel"
+   },
+   {
+    "word": "fruitschaal",
+    "a": "fruit",
+    "aStem": "",
+    "link": "",
+    "b": "schaal"
+   },
+   {
+    "word": "fruitsalade",
+    "a": "fruit",
+    "aStem": "",
+    "link": "",
+    "b": "salade"
+   },
+   {
+    "word": "groentesoep",
+    "a": "groente",
+    "aStem": "",
+    "link": "",
+    "b": "soep"
+   },
+   {
+    "word": "soepbord",
+    "a": "soep",
+    "aStem": "",
+    "link": "",
+    "b": "bord"
+   },
+   {
+    "word": "ijsblokje",
+    "a": "ijs",
+    "aStem": "",
+    "link": "",
+    "b": "blokje"
+   },
+   {
+    "word": "honingbij",
+    "a": "honing",
+    "aStem": "",
+    "link": "",
+    "b": "bij"
+   },
+   {
+    "word": "regenlaars",
+    "a": "regen",
+    "aStem": "",
+    "link": "",
+    "b": "laars"
+   },
+   {
+    "word": "winterjas",
+    "a": "winter",
+    "aStem": "",
+    "link": "",
+    "b": "jas"
+   },
+   {
+    "word": "wintermuts",
+    "a": "winter",
+    "aStem": "",
+    "link": "",
+    "b": "muts"
+   },
+   {
+    "word": "zomervakantie",
+    "a": "zomer",
+    "aStem": "",
+    "link": "",
+    "b": "vakantie"
+   },
+   {
+    "word": "feestdag",
+    "a": "feest",
+    "aStem": "",
+    "link": "",
+    "b": "dag"
+   },
+   {
+    "word": "avondeten",
+    "a": "avond",
+    "aStem": "",
+    "link": "",
+    "b": "eten"
+   },
+   {
+    "word": "sprookjesboek",
+    "a": "sprookje",
+    "aStem": "",
+    "link": "s",
+    "b": "boek"
+   },
+   {
+    "word": "broekzak",
+    "a": "broek",
+    "aStem": "",
+    "link": "",
+    "b": "zak"
+   },
+   {
+    "word": "nachtlampje",
+    "a": "nacht",
+    "aStem": "",
+    "link": "",
+    "b": "lampje"
+   },
+   {
+    "word": "straatlantaarn",
+    "a": "straat",
+    "aStem": "",
+    "link": "",
+    "b": "lantaarn"
+   },
+   {
+    "word": "fietspad",
+    "a": "fiets",
+    "aStem": "",
+    "link": "",
+    "b": "pad"
+   },
+   {
+    "word": "fietsbel",
+    "a": "fiets",
+    "aStem": "",
+    "link": "",
+    "b": "bel"
+   },
+   {
+    "word": "fietshelm",
+    "a": "fiets",
+    "aStem": "",
+    "link": "",
+    "b": "helm"
+   },
+   {
+    "word": "schoenendoos",
+    "a": "schoen",
+    "aStem": "",
+    "link": "en",
+    "b": "doos"
+   },
+   {
+    "word": "koekjestrommel",
+    "a": "koekje",
+    "aStem": "",
+    "link": "s",
+    "b": "trommel"
+   },
+   {
+    "word": "vogelkooi",
+    "a": "vogel",
+    "aStem": "",
+    "link": "",
+    "b": "kooi"
+   },
+   {
+    "word": "zeepbel",
+    "a": "zeep",
+    "aStem": "",
+    "link": "",
+    "b": "bel"
+   },
+   {
+    "word": "tekenpapier",
+    "a": "tekenen",
+    "aStem": "teken",
+    "link": "",
+    "b": "papier"
+   },
+   {
+    "word": "ijsbeer",
+    "a": "ijs",
+    "aStem": "",
+    "link": "",
+    "b": "beer"
+   },
+   {
+    "word": "zeeleeuw",
+    "a": "zee",
+    "aStem": "",
+    "link": "",
+    "b": "leeuw"
+   },
+   {
+    "word": "zonnescherm",
+    "a": "zon",
+    "aStem": "",
+    "link": "ne",
+    "b": "scherm"
+   },
+   {
+    "word": "zonnehoed",
+    "a": "zon",
+    "aStem": "",
+    "link": "ne",
+    "b": "hoed"
+   },
+   {
+    "word": "kaasplank",
+    "a": "kaas",
+    "aStem": "",
+    "link": "",
+    "b": "plank"
+   },
+   {
+    "word": "appeltaart",
+    "a": "appel",
+    "aStem": "",
+    "link": "",
+    "b": "taart"
+   }
+  ],
+  "textFoils": [
+   "banaan",
+   "kasteel",
+   "ballet",
+   "ballerina",
+   "planeet",
+   "hamer",
+   "beker",
+   "deken",
+   "pantoffel",
+   "kermis",
+   "matras",
+   "kameel",
+   "haring",
+   "mossel",
+   "spinazie",
+   "komkommer",
+   "mandarijn",
+   "boter",
+   "karton",
+   "pakket",
+   "letter",
+   "robot",
+   "toren",
+   "dokter",
+   "matroos",
+   "kapitein",
+   "paleis",
+   "molen",
+   "motor",
+   "papegaai",
+   "kantoor",
+   "kaneel",
+   "pinda",
+   "kastanje",
+   "eikel",
+   "komeet",
+   "kalkoen",
+   "kameleon"
+  ],
+  "newExclude": [
+   "aardappel",
+   "kraai",
+   "ezel",
+   "keuken"
+  ]
+ },
+ "sv": {
+  "textCompounds": [
+   {
+    "word": "snögubbe",
+    "a": "snö",
+    "aStem": "",
+    "link": "",
+    "b": "gubbe"
+   },
+   {
+    "word": "snöboll",
+    "a": "snö",
+    "aStem": "",
+    "link": "",
+    "b": "boll"
+   },
+   {
+    "word": "snöstorm",
+    "a": "snö",
+    "aStem": "",
+    "link": "",
+    "b": "storm"
+   },
+   {
+    "word": "tandläkare",
+    "a": "tand",
+    "aStem": "",
+    "link": "",
+    "b": "läkare"
+   },
+   {
+    "word": "mjölktand",
+    "a": "mjölk",
+    "aStem": "",
+    "link": "",
+    "b": "tand"
+   },
+   {
+    "word": "tandkräm",
+    "a": "tand",
+    "aStem": "",
+    "link": "",
+    "b": "kräm"
+   },
+   {
+    "word": "fågelbo",
+    "a": "fågel",
+    "aStem": "",
+    "link": "",
+    "b": "bo"
+   },
+   {
+    "word": "äppelträd",
+    "a": "äpple",
+    "aStem": "äppel",
+    "link": "",
+    "b": "träd"
+   },
+   {
+    "word": "ishockey",
+    "a": "is",
+    "aStem": "",
+    "link": "",
+    "b": "hockey"
+   },
+   {
+    "word": "glasspinne",
+    "a": "glass",
+    "aStem": "",
+    "link": "",
+    "b": "pinne"
+   },
+   {
+    "word": "hundkoja",
+    "a": "hund",
+    "aStem": "",
+    "link": "",
+    "b": "koja"
+   },
+   {
+    "word": "kattunge",
+    "a": "katt",
+    "aStem": "",
+    "link": "",
+    "b": "unge"
+   },
+   {
+    "word": "hästsko",
+    "a": "häst",
+    "aStem": "",
+    "link": "",
+    "b": "sko"
+   },
+   {
+    "word": "hästvagn",
+    "a": "häst",
+    "aStem": "",
+    "link": "",
+    "b": "vagn"
+   },
+   {
+    "word": "barnvagn",
+    "a": "barn",
+    "aStem": "",
+    "link": "",
+    "b": "vagn"
+   },
+   {
+    "word": "husvagn",
+    "a": "hus",
+    "aStem": "",
+    "link": "",
+    "b": "vagn"
+   },
+   {
+    "word": "skolgård",
+    "a": "skola",
+    "aStem": "skol",
+    "link": "",
+    "b": "gård"
+   },
+   {
+    "word": "skolväska",
+    "a": "skola",
+    "aStem": "skol",
+    "link": "",
+    "b": "väska"
+   },
+   {
+    "word": "tvättmaskin",
+    "a": "tvätt",
+    "aStem": "",
+    "link": "",
+    "b": "maskin"
+   },
+   {
+    "word": "diskmaskin",
+    "a": "disk",
+    "aStem": "",
+    "link": "",
+    "b": "maskin"
+   },
+   {
+    "word": "kaffekopp",
+    "a": "kaffe",
+    "aStem": "",
+    "link": "",
+    "b": "kopp"
+   },
+   {
+    "word": "tekanna",
+    "a": "te",
+    "aStem": "",
+    "link": "",
+    "b": "kanna"
+   },
+   {
+    "word": "vattenkanna",
+    "a": "vatten",
+    "aStem": "",
+    "link": "",
+    "b": "kanna"
+   },
+   {
+    "word": "mjölkpaket",
+    "a": "mjölk",
+    "aStem": "",
+    "link": "",
+    "b": "paket"
+   },
+   {
+    "word": "brödkniv",
+    "a": "bröd",
+    "aStem": "",
+    "link": "",
+    "b": "kniv"
+   },
+   {
+    "word": "blomkruka",
+    "a": "blomma",
+    "aStem": "blom",
+    "link": "",
+    "b": "kruka"
+   },
+   {
+    "word": "sandstrand",
+    "a": "sand",
+    "aStem": "",
+    "link": "",
+    "b": "strand"
+   },
+   {
+    "word": "fönsterbräda",
+    "a": "fönster",
+    "aStem": "",
+    "link": "",
+    "b": "bräda"
+   },
+   {
+    "word": "dörrmatta",
+    "a": "dörr",
+    "aStem": "",
+    "link": "",
+    "b": "matta"
+   },
+   {
+    "word": "gräsmatta",
+    "a": "gräs",
+    "aStem": "",
+    "link": "",
+    "b": "matta"
+   },
+   {
+    "word": "dörrhandtag",
+    "a": "dörr",
+    "aStem": "",
+    "link": "",
+    "b": "handtag"
+   },
+   {
+    "word": "halsduk",
+    "a": "hals",
+    "aStem": "",
+    "link": "",
+    "b": "duk"
+   },
+   {
+    "word": "fotspår",
+    "a": "fot",
+    "aStem": "",
+    "link": "",
+    "b": "spår"
+   },
+   {
+    "word": "cykelhjälm",
+    "a": "cykel",
+    "aStem": "",
+    "link": "",
+    "b": "hjälm"
+   },
+   {
+    "word": "cykelväg",
+    "a": "cykel",
+    "aStem": "",
+    "link": "",
+    "b": "väg"
+   },
+   {
+    "word": "brandbil",
+    "a": "brand",
+    "aStem": "",
+    "link": "",
+    "b": "bil"
+   },
+   {
+    "word": "brandman",
+    "a": "brand",
+    "aStem": "",
+    "link": "",
+    "b": "man"
+   },
+   {
+    "word": "polisbil",
+    "a": "polis",
+    "aStem": "",
+    "link": "",
+    "b": "bil"
+   },
+   {
+    "word": "bussförare",
+    "a": "buss",
+    "aStem": "",
+    "link": "",
+    "b": "förare"
+   },
+   {
+    "word": "lokförare",
+    "a": "lok",
+    "aStem": "",
+    "link": "",
+    "b": "förare"
+   },
+   {
+    "word": "sjörövare",
+    "a": "sjö",
+    "aStem": "",
+    "link": "",
+    "b": "rövare"
+   },
+   {
+    "word": "pannkaka",
+    "a": "panna",
+    "aStem": "pann",
+    "link": "",
+    "b": "kaka"
+   },
+   {
+    "word": "sockerbit",
+    "a": "socker",
+    "aStem": "",
+    "link": "",
+    "b": "bit"
+   },
+   {
+    "word": "syltburk",
+    "a": "sylt",
+    "aStem": "",
+    "link": "",
+    "b": "burk"
+   },
+   {
+    "word": "kakburk",
+    "a": "kaka",
+    "aStem": "kak",
+    "link": "",
+    "b": "burk"
+   },
+   {
+    "word": "nattlampa",
+    "a": "natt",
+    "aStem": "",
+    "link": "",
+    "b": "lampa"
+   },
+   {
+    "word": "golvlampa",
+    "a": "golv",
+    "aStem": "",
+    "link": "",
+    "b": "lampa"
+   },
+   {
+    "word": "morgonrock",
+    "a": "morgon",
+    "aStem": "",
+    "link": "",
+    "b": "rock"
+   },
+   {
+    "word": "regnstövlar",
+    "a": "regn",
+    "aStem": "",
+    "link": "",
+    "b": "stövlar"
+   },
+   {
+    "word": "regnmoln",
+    "a": "regn",
+    "aStem": "",
+    "link": "",
+    "b": "moln"
+   },
+   {
+    "word": "åskmoln",
+    "a": "åska",
+    "aStem": "åsk",
+    "link": "",
+    "b": "moln"
+   },
+   {
+    "word": "solstråle",
+    "a": "sol",
+    "aStem": "",
+    "link": "",
+    "b": "stråle"
+   },
+   {
+    "word": "solhatt",
+    "a": "sol",
+    "aStem": "",
+    "link": "",
+    "b": "hatt"
+   },
+   {
+    "word": "vinterjacka",
+    "a": "vinter",
+    "aStem": "",
+    "link": "",
+    "b": "jacka"
+   },
+   {
+    "word": "sommarlov",
+    "a": "sommar",
+    "aStem": "",
+    "link": "",
+    "b": "lov"
+   },
+   {
+    "word": "höstlöv",
+    "a": "höst",
+    "aStem": "",
+    "link": "",
+    "b": "löv"
+   },
+   {
+    "word": "julgran",
+    "a": "jul",
+    "aStem": "",
+    "link": "",
+    "b": "gran"
+   },
+   {
+    "word": "julklapp",
+    "a": "jul",
+    "aStem": "",
+    "link": "",
+    "b": "klapp"
+   },
+   {
+    "word": "påskägg",
+    "a": "påsk",
+    "aStem": "",
+    "link": "",
+    "b": "ägg"
+   },
+   {
+    "word": "hönsägg",
+    "a": "höns",
+    "aStem": "",
+    "link": "",
+    "b": "ägg"
+   },
+   {
+    "word": "fiskespö",
+    "a": "fiske",
+    "aStem": "",
+    "link": "",
+    "b": "spö"
+   },
+   {
+    "word": "grodyngel",
+    "a": "groda",
+    "aStem": "grod",
+    "link": "",
+    "b": "yngel"
+   },
+   {
+    "word": "myrstack",
+    "a": "myra",
+    "aStem": "myr",
+    "link": "",
+    "b": "stack"
+   },
+   {
+    "word": "trädgård",
+    "a": "träd",
+    "aStem": "",
+    "link": "",
+    "b": "gård"
+   },
+   {
+    "word": "tallkotte",
+    "a": "tall",
+    "aStem": "",
+    "link": "",
+    "b": "kotte"
+   },
+   {
+    "word": "hårborste",
+    "a": "hår",
+    "aStem": "",
+    "link": "",
+    "b": "borste"
+   },
+   {
+    "word": "badrock",
+    "a": "bad",
+    "aStem": "",
+    "link": "",
+    "b": "rock"
+   },
+   {
+    "word": "bokmärke",
+    "a": "bok",
+    "aStem": "",
+    "link": "",
+    "b": "märke"
+   },
+   {
+    "word": "skrivbord",
+    "a": "skriva",
+    "aStem": "skriv",
+    "link": "",
+    "b": "bord"
+   },
+   {
+    "word": "matbord",
+    "a": "mat",
+    "aStem": "",
+    "link": "",
+    "b": "bord"
+   },
+   {
+    "word": "pennfodral",
+    "a": "penna",
+    "aStem": "penn",
+    "link": "",
+    "b": "fodral"
+   },
+   {
+    "word": "sovsäck",
+    "a": "sova",
+    "aStem": "sov",
+    "link": "",
+    "b": "säck"
+   }
+  ],
+  "textFoils": [
+   "paraply",
+   "fönster",
+   "banan",
+   "kastrull",
+   "tallrik",
+   "mustasch",
+   "kartong",
+   "sallad",
+   "ekorre",
+   "hallon",
+   "smultron",
+   "tiger",
+   "krokodil",
+   "spindel",
+   "trumpet",
+   "kalas",
+   "tunnel",
+   "planet",
+   "raket",
+   "korall",
+   "kamrat",
+   "ostron",
+   "fasan",
+   "kastanj",
+   "sparris",
+   "kanel",
+   "pantoffel",
+   "sandal",
+   "ballett",
+   "kalkon",
+   "pelikan",
+   "helikopter",
+   "husar",
+   "gorilla",
+   "kanot",
+   "leopard"
+  ],
+  "newExclude": [
+   "spjälsäng"
+  ]
+ },
+ "da": {
+  "textCompounds": [
+   {
+    "word": "snemand",
+    "a": "sne",
+    "aStem": "",
+    "link": "",
+    "b": "mand"
+   },
+   {
+    "word": "snebold",
+    "a": "sne",
+    "aStem": "",
+    "link": "",
+    "b": "bold"
+   },
+   {
+    "word": "snestorm",
+    "a": "sne",
+    "aStem": "",
+    "link": "",
+    "b": "storm"
+   },
+   {
+    "word": "tandlæge",
+    "a": "tand",
+    "aStem": "",
+    "link": "",
+    "b": "læge"
+   },
+   {
+    "word": "mælketand",
+    "a": "mælk",
+    "aStem": "",
+    "link": "e",
+    "b": "tand"
+   },
+   {
+    "word": "mælkekarton",
+    "a": "mælk",
+    "aStem": "",
+    "link": "e",
+    "b": "karton"
+   },
+   {
+    "word": "fuglerede",
+    "a": "fugl",
+    "aStem": "",
+    "link": "e",
+    "b": "rede"
+   },
+   {
+    "word": "fugleskræmsel",
+    "a": "fugl",
+    "aStem": "",
+    "link": "e",
+    "b": "skræmsel"
+   },
+   {
+    "word": "æbletræ",
+    "a": "æble",
+    "aStem": "",
+    "link": "",
+    "b": "træ"
+   },
+   {
+    "word": "æblekage",
+    "a": "æble",
+    "aStem": "",
+    "link": "",
+    "b": "kage"
+   },
+   {
+    "word": "ishockey",
+    "a": "is",
+    "aStem": "",
+    "link": "",
+    "b": "hockey"
+   },
+   {
+    "word": "isbjørn",
+    "a": "is",
+    "aStem": "",
+    "link": "",
+    "b": "bjørn"
+   },
+   {
+    "word": "hundehus",
+    "a": "hund",
+    "aStem": "",
+    "link": "e",
+    "b": "hus"
+   },
+   {
+    "word": "sneglehus",
+    "a": "snegl",
+    "aStem": "",
+    "link": "e",
+    "b": "hus"
+   },
+   {
+    "word": "penalhus",
+    "a": "penal",
+    "aStem": "",
+    "link": "",
+    "b": "hus"
+   },
+   {
+    "word": "kattekilling",
+    "a": "kat",
+    "aStem": "katt",
+    "link": "e",
+    "b": "killing"
+   },
+   {
+    "word": "hestesko",
+    "a": "hest",
+    "aStem": "",
+    "link": "e",
+    "b": "sko"
+   },
+   {
+    "word": "hestevogn",
+    "a": "hest",
+    "aStem": "",
+    "link": "e",
+    "b": "vogn"
+   },
+   {
+    "word": "barnevogn",
+    "a": "barn",
+    "aStem": "",
+    "link": "e",
+    "b": "vogn"
+   },
+   {
+    "word": "skolegård",
+    "a": "skole",
+    "aStem": "",
+    "link": "",
+    "b": "gård"
+   },
+   {
+    "word": "skoletaske",
+    "a": "skole",
+    "aStem": "",
+    "link": "",
+    "b": "taske"
+   },
+   {
+    "word": "skolebus",
+    "a": "skole",
+    "aStem": "",
+    "link": "",
+    "b": "bus"
+   },
+   {
+    "word": "vaskemaskine",
+    "a": "vask",
+    "aStem": "",
+    "link": "e",
+    "b": "maskine"
+   },
+   {
+    "word": "kaffekop",
+    "a": "kaffe",
+    "aStem": "",
+    "link": "",
+    "b": "kop"
+   },
+   {
+    "word": "tekande",
+    "a": "te",
+    "aStem": "",
+    "link": "",
+    "b": "kande"
+   },
+   {
+    "word": "vandkande",
+    "a": "vand",
+    "aStem": "",
+    "link": "",
+    "b": "kande"
+   },
+   {
+    "word": "vandflaske",
+    "a": "vand",
+    "aStem": "",
+    "link": "",
+    "b": "flaske"
+   },
+   {
+    "word": "brødkniv",
+    "a": "brød",
+    "aStem": "",
+    "link": "",
+    "b": "kniv"
+   },
+   {
+    "word": "sandstrand",
+    "a": "sand",
+    "aStem": "",
+    "link": "",
+    "b": "strand"
+   },
+   {
+    "word": "havfrue",
+    "a": "hav",
+    "aStem": "",
+    "link": "",
+    "b": "frue"
+   },
+   {
+    "word": "dørmåtte",
+    "a": "dør",
+    "aStem": "",
+    "link": "",
+    "b": "måtte"
+   },
+   {
+    "word": "dørhåndtag",
+    "a": "dør",
+    "aStem": "",
+    "link": "",
+    "b": "håndtag"
+   },
+   {
+    "word": "græsplæne",
+    "a": "græs",
+    "aStem": "",
+    "link": "",
+    "b": "plæne"
+   },
+   {
+    "word": "halstørklæde",
+    "a": "hals",
+    "aStem": "",
+    "link": "",
+    "b": "tørklæde"
+   },
+   {
+    "word": "fodspor",
+    "a": "fod",
+    "aStem": "",
+    "link": "",
+    "b": "spor"
+   },
+   {
+    "word": "cykelhjelm",
+    "a": "cykel",
+    "aStem": "",
+    "link": "",
+    "b": "hjelm"
+   },
+   {
+    "word": "cykelsti",
+    "a": "cykel",
+    "aStem": "",
+    "link": "",
+    "b": "sti"
+   },
+   {
+    "word": "brandbil",
+    "a": "brand",
+    "aStem": "",
+    "link": "",
+    "b": "bil"
+   },
+   {
+    "word": "brandmand",
+    "a": "brand",
+    "aStem": "",
+    "link": "",
+    "b": "mand"
+   },
+   {
+    "word": "politibil",
+    "a": "politi",
+    "aStem": "",
+    "link": "",
+    "b": "bil"
+   },
+   {
+    "word": "sukkerskål",
+    "a": "sukker",
+    "aStem": "",
+    "link": "",
+    "b": "skål"
+   },
+   {
+    "word": "kagedåse",
+    "a": "kage",
+    "aStem": "",
+    "link": "",
+    "b": "dåse"
+   },
+   {
+    "word": "kagemand",
+    "a": "kage",
+    "aStem": "",
+    "link": "",
+    "b": "mand"
+   },
+   {
+    "word": "natlampe",
+    "a": "nat",
+    "aStem": "",
+    "link": "",
+    "b": "lampe"
+   },
+   {
+    "word": "gulvlampe",
+    "a": "gulv",
+    "aStem": "",
+    "link": "",
+    "b": "lampe"
+   },
+   {
+    "word": "morgenkåbe",
+    "a": "morgen",
+    "aStem": "",
+    "link": "",
+    "b": "kåbe"
+   },
+   {
+    "word": "gummistøvler",
+    "a": "gummi",
+    "aStem": "",
+    "link": "",
+    "b": "støvler"
+   },
+   {
+    "word": "regnsky",
+    "a": "regn",
+    "aStem": "",
+    "link": "",
+    "b": "sky"
+   },
+   {
+    "word": "tordensky",
+    "a": "torden",
+    "aStem": "",
+    "link": "",
+    "b": "sky"
+   },
+   {
+    "word": "solstråle",
+    "a": "sol",
+    "aStem": "",
+    "link": "",
+    "b": "stråle"
+   },
+   {
+    "word": "solcreme",
+    "a": "sol",
+    "aStem": "",
+    "link": "",
+    "b": "creme"
+   },
+   {
+    "word": "vinterjakke",
+    "a": "vinter",
+    "aStem": "",
+    "link": "",
+    "b": "jakke"
+   },
+   {
+    "word": "sommerferie",
+    "a": "sommer",
+    "aStem": "",
+    "link": "",
+    "b": "ferie"
+   },
+   {
+    "word": "juletræ",
+    "a": "jul",
+    "aStem": "",
+    "link": "e",
+    "b": "træ"
+   },
+   {
+    "word": "julegave",
+    "a": "jul",
+    "aStem": "",
+    "link": "e",
+    "b": "gave"
+   },
+   {
+    "word": "påskeæg",
+    "a": "påske",
+    "aStem": "",
+    "link": "",
+    "b": "æg"
+   },
+   {
+    "word": "hønseæg",
+    "a": "høns",
+    "aStem": "",
+    "link": "e",
+    "b": "æg"
+   },
+   {
+    "word": "fiskestang",
+    "a": "fisk",
+    "aStem": "",
+    "link": "e",
+    "b": "stang"
+   },
+   {
+    "word": "myretue",
+    "a": "myre",
+    "aStem": "",
+    "link": "",
+    "b": "tue"
+   },
+   {
+    "word": "grankogle",
+    "a": "gran",
+    "aStem": "",
+    "link": "",
+    "b": "kogle"
+   },
+   {
+    "word": "hårbørste",
+    "a": "hår",
+    "aStem": "",
+    "link": "",
+    "b": "børste"
+   },
+   {
+    "word": "bogmærke",
+    "a": "bog",
+    "aStem": "",
+    "link": "",
+    "b": "mærke"
+   },
+   {
+    "word": "spisebord",
+    "a": "spise",
+    "aStem": "",
+    "link": "",
+    "b": "bord"
+   },
+   {
+    "word": "sovepose",
+    "a": "sove",
+    "aStem": "",
+    "link": "",
+    "b": "pose"
+   },
+   {
+    "word": "legeplads",
+    "a": "lege",
+    "aStem": "",
+    "link": "",
+    "b": "plads"
+   },
+   {
+    "word": "legetøj",
+    "a": "lege",
+    "aStem": "",
+    "link": "",
+    "b": "tøj"
+   },
+   {
+    "word": "tøjklemme",
+    "a": "tøj",
+    "aStem": "",
+    "link": "",
+    "b": "klemme"
+   },
+   {
+    "word": "havestol",
+    "a": "have",
+    "aStem": "",
+    "link": "",
+    "b": "stol"
+   },
+   {
+    "word": "gyngestol",
+    "a": "gynge",
+    "aStem": "",
+    "link": "",
+    "b": "stol"
+   },
+   {
+    "word": "vindmølle",
+    "a": "vind",
+    "aStem": "",
+    "link": "",
+    "b": "mølle"
+   }
+  ],
+  "textFoils": [
+   "tallerken",
+   "salat",
+   "egern",
+   "tiger",
+   "krokodille",
+   "tunnel",
+   "planet",
+   "raket",
+   "koral",
+   "kammerat",
+   "østers",
+   "fasan",
+   "kastanje",
+   "kanel",
+   "sandal",
+   "ballet",
+   "pelikan",
+   "helikopter",
+   "papegøje",
+   "pingvin",
+   "rosin",
+   "vulkan",
+   "kanon",
+   "mandarin",
+   "hammer",
+   "hamster",
+   "ballon",
+   "telefon",
+   "tulipan",
+   "kasket",
+   "elefant",
+   "giraf",
+   "badminton",
+   "balkon",
+   "paraply",
+   "kastrol",
+   "karrusel"
+  ],
+  "newExclude": []
+ },
+ "no": {
+  "textCompounds": [
+   {
+    "word": "snømann",
+    "a": "snø",
+    "aStem": "",
+    "link": "",
+    "b": "mann"
+   },
+   {
+    "word": "snøball",
+    "a": "snø",
+    "aStem": "",
+    "link": "",
+    "b": "ball"
+   },
+   {
+    "word": "snøstorm",
+    "a": "snø",
+    "aStem": "",
+    "link": "",
+    "b": "storm"
+   },
+   {
+    "word": "tannlege",
+    "a": "tann",
+    "aStem": "",
+    "link": "",
+    "b": "lege"
+   },
+   {
+    "word": "melketann",
+    "a": "melk",
+    "aStem": "",
+    "link": "e",
+    "b": "tann"
+   },
+   {
+    "word": "melkekartong",
+    "a": "melk",
+    "aStem": "",
+    "link": "e",
+    "b": "kartong"
+   },
+   {
+    "word": "fuglerede",
+    "a": "fugl",
+    "aStem": "",
+    "link": "e",
+    "b": "rede"
+   },
+   {
+    "word": "fugleskremsel",
+    "a": "fugl",
+    "aStem": "",
+    "link": "e",
+    "b": "skremsel"
+   },
+   {
+    "word": "epletre",
+    "a": "eple",
+    "aStem": "",
+    "link": "",
+    "b": "tre"
+   },
+   {
+    "word": "ishockey",
+    "a": "is",
+    "aStem": "",
+    "link": "",
+    "b": "hockey"
+   },
+   {
+    "word": "isbjørn",
+    "a": "is",
+    "aStem": "",
+    "link": "",
+    "b": "bjørn"
+   },
+   {
+    "word": "hundehus",
+    "a": "hund",
+    "aStem": "",
+    "link": "e",
+    "b": "hus"
+   },
+   {
+    "word": "sneglehus",
+    "a": "snegl",
+    "aStem": "",
+    "link": "e",
+    "b": "hus"
+   },
+   {
+    "word": "hundebånd",
+    "a": "hund",
+    "aStem": "",
+    "link": "e",
+    "b": "bånd"
+   },
+   {
+    "word": "hestesko",
+    "a": "hest",
+    "aStem": "",
+    "link": "e",
+    "b": "sko"
+   },
+   {
+    "word": "hestevogn",
+    "a": "hest",
+    "aStem": "",
+    "link": "e",
+    "b": "vogn"
+   },
+   {
+    "word": "barnevogn",
+    "a": "barn",
+    "aStem": "",
+    "link": "e",
+    "b": "vogn"
+   },
+   {
+    "word": "skolegård",
+    "a": "skole",
+    "aStem": "",
+    "link": "",
+    "b": "gård"
+   },
+   {
+    "word": "skolesekk",
+    "a": "skole",
+    "aStem": "",
+    "link": "",
+    "b": "sekk"
+   },
+   {
+    "word": "bondegård",
+    "a": "bonde",
+    "aStem": "",
+    "link": "",
+    "b": "gård"
+   },
+   {
+    "word": "vaskemaskin",
+    "a": "vask",
+    "aStem": "",
+    "link": "e",
+    "b": "maskin"
+   },
+   {
+    "word": "kaffekopp",
+    "a": "kaffe",
+    "aStem": "",
+    "link": "",
+    "b": "kopp"
+   },
+   {
+    "word": "tekanne",
+    "a": "te",
+    "aStem": "",
+    "link": "",
+    "b": "kanne"
+   },
+   {
+    "word": "vannkanne",
+    "a": "vann",
+    "aStem": "",
+    "link": "",
+    "b": "kanne"
+   },
+   {
+    "word": "vannflaske",
+    "a": "vann",
+    "aStem": "",
+    "link": "",
+    "b": "flaske"
+   },
+   {
+    "word": "brødkniv",
+    "a": "brød",
+    "aStem": "",
+    "link": "",
+    "b": "kniv"
+   },
+   {
+    "word": "blomsterpotte",
+    "a": "blomst",
+    "aStem": "",
+    "link": "er",
+    "b": "potte"
+   },
+   {
+    "word": "sandstrand",
+    "a": "sand",
+    "aStem": "",
+    "link": "",
+    "b": "strand"
+   },
+   {
+    "word": "havfrue",
+    "a": "hav",
+    "aStem": "",
+    "link": "",
+    "b": "frue"
+   },
+   {
+    "word": "dørmatte",
+    "a": "dør",
+    "aStem": "",
+    "link": "",
+    "b": "matte"
+   },
+   {
+    "word": "dørhåndtak",
+    "a": "dør",
+    "aStem": "",
+    "link": "",
+    "b": "håndtak"
+   },
+   {
+    "word": "gressplen",
+    "a": "gress",
+    "aStem": "",
+    "link": "",
+    "b": "plen"
+   },
+   {
+    "word": "fotspor",
+    "a": "fot",
+    "aStem": "",
+    "link": "",
+    "b": "spor"
+   },
+   {
+    "word": "sykkelhjelm",
+    "a": "sykkel",
+    "aStem": "",
+    "link": "",
+    "b": "hjelm"
+   },
+   {
+    "word": "sykkelsti",
+    "a": "sykkel",
+    "aStem": "",
+    "link": "",
+    "b": "sti"
+   },
+   {
+    "word": "brannbil",
+    "a": "brann",
+    "aStem": "",
+    "link": "",
+    "b": "bil"
+   },
+   {
+    "word": "brannmann",
+    "a": "brann",
+    "aStem": "",
+    "link": "",
+    "b": "mann"
+   },
+   {
+    "word": "politibil",
+    "a": "politi",
+    "aStem": "",
+    "link": "",
+    "b": "bil"
+   },
+   {
+    "word": "sjørøver",
+    "a": "sjø",
+    "aStem": "",
+    "link": "",
+    "b": "røver"
+   },
+   {
+    "word": "sukkerbit",
+    "a": "sukker",
+    "aStem": "",
+    "link": "",
+    "b": "bit"
+   },
+   {
+    "word": "kakeboks",
+    "a": "kake",
+    "aStem": "",
+    "link": "",
+    "b": "boks"
+   },
+   {
+    "word": "nattlampe",
+    "a": "natt",
+    "aStem": "",
+    "link": "",
+    "b": "lampe"
+   },
+   {
+    "word": "gulvlampe",
+    "a": "gulv",
+    "aStem": "",
+    "link": "",
+    "b": "lampe"
+   },
+   {
+    "word": "morgenkåpe",
+    "a": "morgen",
+    "aStem": "",
+    "link": "",
+    "b": "kåpe"
+   },
+   {
+    "word": "gummistøvler",
+    "a": "gummi",
+    "aStem": "",
+    "link": "",
+    "b": "støvler"
+   },
+   {
+    "word": "regnsky",
+    "a": "regn",
+    "aStem": "",
+    "link": "",
+    "b": "sky"
+   },
+   {
+    "word": "tordensky",
+    "a": "torden",
+    "aStem": "",
+    "link": "",
+    "b": "sky"
+   },
+   {
+    "word": "solstråle",
+    "a": "sol",
+    "aStem": "",
+    "link": "",
+    "b": "stråle"
+   },
+   {
+    "word": "vinterjakke",
+    "a": "vinter",
+    "aStem": "",
+    "link": "",
+    "b": "jakke"
+   },
+   {
+    "word": "sommerferie",
+    "a": "sommer",
+    "aStem": "",
+    "link": "",
+    "b": "ferie"
+   },
+   {
+    "word": "juletre",
+    "a": "jul",
+    "aStem": "",
+    "link": "e",
+    "b": "tre"
+   },
+   {
+    "word": "julegave",
+    "a": "jul",
+    "aStem": "",
+    "link": "e",
+    "b": "gave"
+   },
+   {
+    "word": "påskeegg",
+    "a": "påske",
+    "aStem": "",
+    "link": "",
+    "b": "egg"
+   },
+   {
+    "word": "fiskestang",
+    "a": "fisk",
+    "aStem": "",
+    "link": "e",
+    "b": "stang"
+   },
+   {
+    "word": "maurtue",
+    "a": "maur",
+    "aStem": "",
+    "link": "",
+    "b": "tue"
+   },
+   {
+    "word": "grankongle",
+    "a": "gran",
+    "aStem": "",
+    "link": "",
+    "b": "kongle"
+   },
+   {
+    "word": "hårbørste",
+    "a": "hår",
+    "aStem": "",
+    "link": "",
+    "b": "børste"
+   },
+   {
+    "word": "bokmerke",
+    "a": "bok",
+    "aStem": "",
+    "link": "",
+    "b": "merke"
+   },
+   {
+    "word": "spisebord",
+    "a": "spise",
+    "aStem": "",
+    "link": "",
+    "b": "bord"
+   },
+   {
+    "word": "sovepose",
+    "a": "sove",
+    "aStem": "",
+    "link": "",
+    "b": "pose"
+   },
+   {
+    "word": "lekeplass",
+    "a": "leke",
+    "aStem": "",
+    "link": "",
+    "b": "plass"
+   },
+   {
+    "word": "leketøy",
+    "a": "leke",
+    "aStem": "",
+    "link": "",
+    "b": "tøy"
+   },
+   {
+    "word": "hagestol",
+    "a": "hage",
+    "aStem": "",
+    "link": "",
+    "b": "stol"
+   },
+   {
+    "word": "gyngestol",
+    "a": "gynge",
+    "aStem": "",
+    "link": "",
+    "b": "stol"
+   },
+   {
+    "word": "vindmølle",
+    "a": "vind",
+    "aStem": "",
+    "link": "",
+    "b": "mølle"
+   },
+   {
+    "word": "dagslys",
+    "a": "dag",
+    "aStem": "",
+    "link": "s",
+    "b": "lys"
+   },
+   {
+    "word": "kveldsmat",
+    "a": "kveld",
+    "aStem": "",
+    "link": "s",
+    "b": "mat"
+   },
+   {
+    "word": "fødselsdag",
+    "a": "fødsel",
+    "aStem": "",
+    "link": "s",
+    "b": "dag"
+   }
+  ],
+  "textFoils": [
+   "tallerken",
+   "salat",
+   "ekorn",
+   "tiger",
+   "krokodille",
+   "tunnel",
+   "planet",
+   "rakett",
+   "korall",
+   "kamerat",
+   "østers",
+   "fasan",
+   "kastanje",
+   "kanel",
+   "sandal",
+   "ballett",
+   "pelikan",
+   "helikopter",
+   "papegøye",
+   "rosin",
+   "vulkan",
+   "kanon",
+   "mandarin",
+   "hammer",
+   "ballong",
+   "telefon",
+   "elefant",
+   "badminton",
+   "balkong",
+   "kastrull",
+   "karusell",
+   "kamel",
+   "gorilla",
+   "kaptein",
+   "marsipan",
+   "spinat",
+   "kalkun"
+  ],
+  "newExclude": [
+   "isfugl"
+  ]
+ },
+ "fi": {
+  "textCompounds": [
+   {
+    "word": "lumiukko",
+    "a": "lumi",
+    "aStem": "",
+    "link": "",
+    "b": "ukko"
+   },
+   {
+    "word": "lumipallo",
+    "a": "lumi",
+    "aStem": "",
+    "link": "",
+    "b": "pallo"
+   },
+   {
+    "word": "lumihiutale",
+    "a": "lumi",
+    "aStem": "",
+    "link": "",
+    "b": "hiutale"
+   },
+   {
+    "word": "hammaslääkäri",
+    "a": "hammas",
+    "aStem": "",
+    "link": "",
+    "b": "lääkäri"
+   },
+   {
+    "word": "maitohammas",
+    "a": "maito",
+    "aStem": "",
+    "link": "",
+    "b": "hammas"
+   },
+   {
+    "word": "maitotölkki",
+    "a": "maito",
+    "aStem": "",
+    "link": "",
+    "b": "tölkki"
+   },
+   {
+    "word": "linnunpesä",
+    "a": "linnun",
+    "aStem": "",
+    "link": "",
+    "b": "pesä"
+   },
+   {
+    "word": "linnunpelätin",
+    "a": "linnun",
+    "aStem": "",
+    "link": "",
+    "b": "pelätin"
+   },
+   {
+    "word": "omenapuu",
+    "a": "omena",
+    "aStem": "",
+    "link": "",
+    "b": "puu"
+   },
+   {
+    "word": "omenamehu",
+    "a": "omena",
+    "aStem": "",
+    "link": "",
+    "b": "mehu"
+   },
+   {
+    "word": "jääkiekko",
+    "a": "jää",
+    "aStem": "",
+    "link": "",
+    "b": "kiekko"
+   },
+   {
+    "word": "jääkarhu",
+    "a": "jää",
+    "aStem": "",
+    "link": "",
+    "b": "karhu"
+   },
+   {
+    "word": "koirankoppi",
+    "a": "koiran",
+    "aStem": "",
+    "link": "",
+    "b": "koppi"
+   },
+   {
+    "word": "koiranpentu",
+    "a": "koiran",
+    "aStem": "",
+    "link": "",
+    "b": "pentu"
+   },
+   {
+    "word": "kissanpentu",
+    "a": "kissan",
+    "aStem": "",
+    "link": "",
+    "b": "pentu"
+   },
+   {
+    "word": "hevosenkenkä",
+    "a": "hevosen",
+    "aStem": "",
+    "link": "",
+    "b": "kenkä"
+   },
+   {
+    "word": "kenkälaatikko",
+    "a": "kenkä",
+    "aStem": "",
+    "link": "",
+    "b": "laatikko"
+   },
+   {
+    "word": "postilaatikko",
+    "a": "posti",
+    "aStem": "",
+    "link": "",
+    "b": "laatikko"
+   },
+   {
+    "word": "koulupiha",
+    "a": "koulu",
+    "aStem": "",
+    "link": "",
+    "b": "piha"
+   },
+   {
+    "word": "koulureppu",
+    "a": "koulu",
+    "aStem": "",
+    "link": "",
+    "b": "reppu"
+   },
+   {
+    "word": "pesukone",
+    "a": "pesu",
+    "aStem": "",
+    "link": "",
+    "b": "kone"
+   },
+   {
+    "word": "kahvikuppi",
+    "a": "kahvi",
+    "aStem": "",
+    "link": "",
+    "b": "kuppi"
+   },
+   {
+    "word": "teekannu",
+    "a": "tee",
+    "aStem": "",
+    "link": "",
+    "b": "kannu"
+   },
+   {
+    "word": "kastelukannu",
+    "a": "kastelu",
+    "aStem": "",
+    "link": "",
+    "b": "kannu"
+   },
+   {
+    "word": "leipäveitsi",
+    "a": "leipä",
+    "aStem": "",
+    "link": "",
+    "b": "veitsi"
+   },
+   {
+    "word": "kukkaruukku",
+    "a": "kukka",
+    "aStem": "",
+    "link": "",
+    "b": "ruukku"
+   },
+   {
+    "word": "hiekkaranta",
+    "a": "hiekka",
+    "aStem": "",
+    "link": "",
+    "b": "ranta"
+   },
+   {
+    "word": "merirosvo",
+    "a": "meri",
+    "aStem": "",
+    "link": "",
+    "b": "rosvo"
+   },
+   {
+    "word": "ovimatto",
+    "a": "ovi",
+    "aStem": "",
+    "link": "",
+    "b": "matto"
+   },
+   {
+    "word": "ovenkahva",
+    "a": "oven",
+    "aStem": "",
+    "link": "",
+    "b": "kahva"
+   },
+   {
+    "word": "kaulahuivi",
+    "a": "kaula",
+    "aStem": "",
+    "link": "",
+    "b": "huivi"
+   },
+   {
+    "word": "jalanjälki",
+    "a": "jalan",
+    "aStem": "",
+    "link": "",
+    "b": "jälki"
+   },
+   {
+    "word": "lastenvaunut",
+    "a": "lasten",
+    "aStem": "",
+    "link": "",
+    "b": "vaunut"
+   },
+   {
+    "word": "pyörätie",
+    "a": "pyörä",
+    "aStem": "",
+    "link": "",
+    "b": "tie"
+   },
+   {
+    "word": "paloauto",
+    "a": "palo",
+    "aStem": "",
+    "link": "",
+    "b": "auto"
+   },
+   {
+    "word": "palomies",
+    "a": "palo",
+    "aStem": "",
+    "link": "",
+    "b": "mies"
+   },
+   {
+    "word": "poliisiauto",
+    "a": "poliisi",
+    "aStem": "",
+    "link": "",
+    "b": "auto"
+   },
+   {
+    "word": "sokeripala",
+    "a": "sokeri",
+    "aStem": "",
+    "link": "",
+    "b": "pala"
+   },
+   {
+    "word": "iltapala",
+    "a": "ilta",
+    "aStem": "",
+    "link": "",
+    "b": "pala"
+   },
+   {
+    "word": "aamupala",
+    "a": "aamu",
+    "aStem": "",
+    "link": "",
+    "b": "pala"
+   },
+   {
+    "word": "aamutakki",
+    "a": "aamu",
+    "aStem": "",
+    "link": "",
+    "b": "takki"
+   },
+   {
+    "word": "talvitakki",
+    "a": "talvi",
+    "aStem": "",
+    "link": "",
+    "b": "takki"
+   },
+   {
+    "word": "yölamppu",
+    "a": "yö",
+    "aStem": "",
+    "link": "",
+    "b": "lamppu"
+   },
+   {
+    "word": "lattialamppu",
+    "a": "lattia",
+    "aStem": "",
+    "link": "",
+    "b": "lamppu"
+   },
+   {
+    "word": "kumisaappaat",
+    "a": "kumi",
+    "aStem": "",
+    "link": "",
+    "b": "saappaat"
+   },
+   {
+    "word": "sadepilvi",
+    "a": "sade",
+    "aStem": "",
+    "link": "",
+    "b": "pilvi"
+   },
+   {
+    "word": "ukkospilvi",
+    "a": "ukkonen",
+    "aStem": "ukkos",
+    "link": "",
+    "b": "pilvi"
+   },
+   {
+    "word": "auringonsäde",
+    "a": "auringon",
+    "aStem": "",
+    "link": "",
+    "b": "säde"
+   },
+   {
+    "word": "kesäloma",
+    "a": "kesä",
+    "aStem": "",
+    "link": "",
+    "b": "loma"
+   },
+   {
+    "word": "joulukuusi",
+    "a": "joulu",
+    "aStem": "",
+    "link": "",
+    "b": "kuusi"
+   },
+   {
+    "word": "joululahja",
+    "a": "joulu",
+    "aStem": "",
+    "link": "",
+    "b": "lahja"
+   },
+   {
+    "word": "pääsiäismuna",
+    "a": "pääsiäinen",
+    "aStem": "pääsiäis",
+    "link": "",
+    "b": "muna"
+   },
+   {
+    "word": "kananmuna",
+    "a": "kanan",
+    "aStem": "",
+    "link": "",
+    "b": "muna"
+   },
+   {
+    "word": "onkivapa",
+    "a": "onki",
+    "aStem": "",
+    "link": "",
+    "b": "vapa"
+   },
+   {
+    "word": "muurahaispesä",
+    "a": "muurahainen",
+    "aStem": "muurahais",
+    "link": "",
+    "b": "pesä"
+   },
+   {
+    "word": "kuusenkäpy",
+    "a": "kuusen",
+    "aStem": "",
+    "link": "",
+    "b": "käpy"
+   },
+   {
+    "word": "hiusharja",
+    "a": "hius",
+    "aStem": "",
+    "link": "",
+    "b": "harja"
+   },
+   {
+    "word": "kylpyamme",
+    "a": "kylpy",
+    "aStem": "",
+    "link": "",
+    "b": "amme"
+   },
+   {
+    "word": "kirjanmerkki",
+    "a": "kirjan",
+    "aStem": "",
+    "link": "",
+    "b": "merkki"
+   },
+   {
+    "word": "ruokapöytä",
+    "a": "ruoka",
+    "aStem": "",
+    "link": "",
+    "b": "pöytä"
+   },
+   {
+    "word": "makuupussi",
+    "a": "makuu",
+    "aStem": "",
+    "link": "",
+    "b": "pussi"
+   },
+   {
+    "word": "leikkipuisto",
+    "a": "leikki",
+    "aStem": "",
+    "link": "",
+    "b": "puisto"
+   },
+   {
+    "word": "leikkikalu",
+    "a": "leikki",
+    "aStem": "",
+    "link": "",
+    "b": "kalu"
+   },
+   {
+    "word": "keinutuoli",
+    "a": "keinu",
+    "aStem": "",
+    "link": "",
+    "b": "tuoli"
+   },
+   {
+    "word": "tuulimylly",
+    "a": "tuuli",
+    "aStem": "",
+    "link": "",
+    "b": "mylly"
+   },
+   {
+    "word": "vesipullo",
+    "a": "vesi",
+    "aStem": "",
+    "link": "",
+    "b": "pullo"
+   },
+   {
+    "word": "lintulauta",
+    "a": "lintu",
+    "aStem": "",
+    "link": "",
+    "b": "lauta"
+   },
+   {
+    "word": "syntymäpäivä",
+    "a": "syntymä",
+    "aStem": "",
+    "link": "",
+    "b": "päivä"
+   },
+   {
+    "word": "käsilaukku",
+    "a": "käsi",
+    "aStem": "",
+    "link": "",
+    "b": "laukku"
+   },
+   {
+    "word": "metsäpolku",
+    "a": "metsä",
+    "aStem": "",
+    "link": "",
+    "b": "polku"
+   },
+   {
+    "word": "soutuvene",
+    "a": "soutu",
+    "aStem": "",
+    "link": "",
+    "b": "vene"
+   }
+  ],
+  "textFoils": [
+   "tikkari",
+   "pingviini",
+   "kaneli",
+   "kalamari",
+   "karuselli",
+   "salaatti",
+   "hämähäkki",
+   "tunneli",
+   "majava",
+   "kukkaro",
+   "puuro",
+   "puuma",
+   "suola",
+   "jäätelö",
+   "lumikko",
+   "salama",
+   "kanava",
+   "kotilo",
+   "kivikko",
+   "metsikkö",
+   "kuusikko",
+   "koivikko",
+   "vuoristo",
+   "saaristo",
+   "kirjasto",
+   "laivasto",
+   "orava",
+   "kalastaja",
+   "leipuri",
+   "maalari",
+   "kanala",
+   "koululainen",
+   "laivuri",
+   "kirjailija",
+   "vesistö",
+   "kyläläinen",
+   "puusto"
+  ],
+  "newExclude": [
+   "korvalapput",
+   "vuokkokala"
+  ]
+ }
+}

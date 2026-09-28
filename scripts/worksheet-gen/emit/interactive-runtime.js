@@ -16,6 +16,10 @@
  *   tap-select — each item is ONE tap target that toggles (tap every word that is a compound);
  *                the answer per item is true / false. Check (enabled once something is
  *                chosen) marks each chosen item green or red and each MISSED true item red.
+ *   tap-spell  — each item has shuffled letter TILES and empty letter SLOTS (Level Set 2026-09-28, the
+ *                spelling pages): a tapped tile writes its letter into the next empty slot and greys out;
+ *                a tap on a filled slot gives back that letter and every later one. Check compares the
+ *                spelled word with the answer (any tile with the same letter counts) and marks the item.
  *   tap-edit   — sentences drawn LIVE as word buttons (not over the image: they must stay
  *                >= 44 px on a phone). A tool row — Aa and the level's marks — and a tap on a
  *                word: Aa toggles its capital, a mark goes after it (tap again = off). Check
@@ -34,7 +38,7 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
-const KINDS = new Set(['tap-order', 'tap-choice', 'tap-edit', 'tap-select']);
+const KINDS = new Set(['tap-order', 'tap-choice', 'tap-edit', 'tap-select', 'tap-spell']);
 let _shared = null;
 function shared() {
   if (_shared) return _shared;
@@ -104,6 +108,12 @@ const CSS = [
   '.lcs-tok .cap{color:#146B5E}',
   '.lcs-tok .mk{color:#F2784B;margin-left:1px}',
   '.lcs-split{font-weight:800;color:#B8AFA0;font-size:clamp(19px,4.2vw,26px)}',
+  '.lcs-tile{position:absolute;margin:0;padding:0;border:0;background:transparent;border-radius:12px;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation}',
+  '.lcs-tile:focus-visible{outline:4px solid #4E5FE8;outline-offset:2px}',
+  '.lcs-tile[data-used="1"]{background:rgba(236,230,218,.94);box-shadow:inset 0 0 0 2px #D8CFBE;cursor:default}',
+  '.lcs-slot{position:absolute;margin:0;padding:0;border:0;background:transparent;border-radius:10px;display:flex;align-items:center;justify-content:center;font-family:"Baloo 2",Nunito,sans-serif;font-weight:700;line-height:1;color:#146B5E;cursor:pointer;touch-action:manipulation}',
+  '.lcs-slot[data-state="right"]{background:rgba(46,158,91,.18);box-shadow:0 0 0 4px #2E9E5B}',
+  '.lcs-slot[data-state="wrong"]{background:rgba(214,69,69,.14);box-shadow:0 0 0 4px #D64545}',
   '@media print{.lcs-controls,#lcs-celebration,#lcs-overlay,.lcs-tools{display:none !important}}',
 ].join('\n');
 
@@ -167,6 +177,29 @@ const JS_EDIT = [
   '})();',
 ].join('\n');
 
+const JS_SPELL = [
+  '(function(){',
+  'var B=window.DECK_BUNDLE,S=B.strings,I=[],phase="fill";',
+  'var ov=document.getElementById("lcs-overlay"),chk=document.getElementById("lcs-check"),rst=document.getElementById("lcs-reset"),prg=document.getElementById("lcs-progress"),cel=document.getElementById("lcs-celebration");',
+  'function fmt(s,v){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return v[k]!=null?v[k]:""})}',
+  'function fold(s){return String(s).normalize("NFC").toLocaleLowerCase(B.locale)}',
+  'function paint(){var all=true;for(var i=0;i<I.length;i++){var it=I[i];if(it.fill.length<it.slots.length)all=false;for(var k=0;k<it.slots.length;k++)it.slots[k].textContent=k<it.fill.length?B.items[i].tiles[it.fill[k]].label:"";for(var j=0;j<it.tiles.length;j++){if(it.fill.indexOf(j)>=0)it.tiles[j].setAttribute("data-used","1");else it.tiles[j].removeAttribute("data-used")}}chk.disabled=!all||phase!=="fill"}',
+  'function tapTile(i,j){if(phase!=="fill")return;var it=I[i];if(it.fill.indexOf(j)>=0||it.fill.length>=it.slots.length)return;it.fill.push(j);paint()}',
+  'function tapSlot(i,k){if(phase!=="fill")return;var it=I[i];if(k<it.fill.length){it.fill.length=k;paint()}}',
+  'function check(){for(var i=0;i<I.length;i++)if(I[i].fill.length<I[i].slots.length)return;phase="reviewed";var ok=0;for(var i=0;i<I.length;i++){var it=I[i],w="";for(var k=0;k<it.fill.length;k++)w+=B.items[i].tiles[it.fill[k]].label;var right=fold(w)===fold(B.answers[i]);for(var k=0;k<it.slots.length;k++)it.slots[k].setAttribute("data-state",right?"right":"wrong");if(right)ok++}',
+  'prg.textContent=fmt(S.score,{n:ok,total:I.length});chk.hidden=true;rst.hidden=false;paint();if(ok===I.length){setTimeout(function(){cel.hidden=false;var c=document.getElementById("lcs-cele-close");if(c)c.focus()},450)}}',
+  'function reset(){phase="fill";for(var i=0;i<I.length;i++){I[i].fill=[];for(var k=0;k<I[i].slots.length;k++)I[i].slots[k].removeAttribute("data-state")}prg.textContent="";chk.hidden=false;rst.hidden=true;cel.hidden=true;paint()}',
+  'function place(el,o){el.style.left=o.x+"%";el.style.top=o.y+"%";el.style.width=o.w+"%";el.style.height=o.h+"%"}',
+  'function init(){for(var i=0;i<B.items.length;i++){(function(i){var it=B.items[i],rec={tiles:[],slots:[],fill:[]};',
+  'for(var k=0;k<it.slots.length;k++){(function(k){var s=document.createElement("button");s.type="button";s.className="lcs-slot";s.setAttribute("aria-label",(it.label||"")+" "+(k+1));place(s,it.slots[k]);s.style.fontSize=(it.slots[k].w*0.62)+"cqw";s.addEventListener("click",function(){tapSlot(i,k)});ov.appendChild(s);rec.slots.push(s)})(k)}',
+  'for(var j=0;j<it.tiles.length;j++){(function(j){var t=document.createElement("button");t.type="button";t.className="lcs-tile";t.setAttribute("aria-label",it.tiles[j].label);place(t,it.tiles[j]);t.addEventListener("click",function(){tapTile(i,j)});ov.appendChild(t);rec.tiles.push(t)})(j)}',
+  'I.push(rec)})(i)}',
+  'chk.textContent=S.check;rst.textContent=S.tryAgain;document.getElementById("lcs-cele-title").textContent=S.youDidIt;document.getElementById("lcs-cele-print").textContent=S.print;document.getElementById("lcs-cele-close").textContent=S.tryAgain;',
+  'chk.addEventListener("click",check);rst.addEventListener("click",reset);document.getElementById("lcs-cele-close").addEventListener("click",reset);paint()}',
+  'if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();',
+  '})();',
+].join('\n');
+
 const JS = [
   '(function(){',
   'var B=window.DECK_BUNDLE,S=B.strings,items=[],order=[],phase="fill";',
@@ -212,6 +245,16 @@ function buildInteractive(o) {
     if (!answers.some((a) => a) || answers.every((a) => a)) throw new Error('interactive-runtime: tap-select needs both kinds of item (something to find, something to leave)');
     for (const it of items) for (const k of ['x', 'y', 'w', 'h']) if (!inPage(it[k])) throw new Error('interactive-runtime: item ' + k + '=' + it[k] + ' outside the page');
     bundleItems = items.map((it) => ({ x: round(it.x), y: round(it.y), w: round(it.w), h: round(it.h), label: it.label || '', meta: it.meta || {} }));
+  } else if (o.kind === 'tap-spell') {
+    const gl = (s) => [...String(s).normalize('NFC')];
+    for (const it of items) {
+      if (typeof it.answer !== 'string' || !it.answer) throw new Error('interactive-runtime: tap-spell item without a word');
+      const letters = gl(it.answer);
+      if (!Array.isArray(it.tiles) || !Array.isArray(it.slots) || it.tiles.length !== letters.length || it.slots.length !== letters.length) throw new Error('interactive-runtime: tap-spell tiles/slots do not match the word "' + it.answer + '"');
+      if (it.tiles.map((t) => t.label).sort().join('') !== letters.slice().sort().join('')) throw new Error('interactive-runtime: tap-spell tiles are not the letters of "' + it.answer + '"');
+      for (const b of [...it.tiles, ...it.slots]) for (const k of ['x', 'y', 'w', 'h']) if (!inPage(b[k])) throw new Error('interactive-runtime: tap-spell box ' + k + '=' + b[k] + ' outside the page');
+    }
+    bundleItems = items.map((it) => ({ label: it.label || '', meta: it.meta || {}, tiles: it.tiles.map((t) => ({ x: round(t.x), y: round(t.y), w: round(t.w), h: round(t.h), label: t.label })), slots: it.slots.map((t) => ({ x: round(t.x), y: round(t.y), w: round(t.w), h: round(t.h) })) }));
   } else if (o.kind === 'tap-edit') {
     if (!/^[.?!]+$/.test(o.marks || '')) throw new Error('interactive-runtime: tap-edit needs the level marks');
     for (const it of items) {
@@ -248,7 +291,7 @@ function buildInteractive(o) {
       '</div></div>',
     ].join('\n'),
     // `<` escaped inside the JSON so no string can close the script element
-    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'tap-choice' ? JS_CHOICE : o.kind === 'tap-edit' ? JS_EDIT : o.kind === 'tap-select' ? JS_SELECT : JS) + '</script>',
+    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'tap-choice' ? JS_CHOICE : o.kind === 'tap-edit' ? JS_EDIT : o.kind === 'tap-select' ? JS_SELECT : o.kind === 'tap-spell' ? JS_SPELL : JS) + '</script>',
   };
 }
 

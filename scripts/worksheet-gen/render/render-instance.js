@@ -124,6 +124,16 @@ async function renderInstance(o) {
       const box = (r) => ({ x: pct(r.left, pg.left, pg.width), y: pct(r.top, pg.top, pg.height), w: (r.width / pg.width) * 100, h: (r.height / pg.height) * 100 });
       return [...document.querySelectorAll(sp.item)].map((el) => {
         const r = el.getBoundingClientRect();
+        if (sp.spell) {
+          // tap-spell: the item's letter tiles + its empty slots; the answer is the word (the page's own stamp)
+          const meta = {};
+          (sp.metaAttrs || []).forEach((a) => { meta[a] = el.getAttribute(a); });
+          return {
+            ...box(r), answer: el.getAttribute(sp.answerAttr) || '', label: el.getAttribute(sp.labelAttr) || '', meta,
+            tiles: [...el.querySelectorAll(sp.tile)].map((t) => ({ ...box(t.getBoundingClientRect()), label: t.getAttribute('data-lcs-label') || t.textContent.trim() })),
+            slots: [...el.querySelectorAll(sp.slot)].map((t) => box(t.getBoundingClientRect())),
+          };
+        }
         if (sp.select) {
           // tap-select: the item itself is the target; its answer is true / false (the page's own mark)
           const meta = {};
@@ -148,7 +158,7 @@ async function renderInstance(o) {
           answer: Number(el.getAttribute(sp.answerAttr)), label: el.getAttribute(sp.labelAttr) || '',
         };
       });
-    }, { item: spec.item, slot: spec.slot, option: spec.option, select: spec.kind === 'tap-select', metaAttrs: spec.metaAttrs, answerAttr: spec.answerAttr, labelAttr: spec.labelAttr });
+    }, { item: spec.item, slot: spec.slot, option: spec.option, select: spec.kind === 'tap-select', spell: spec.kind === 'tap-spell', tile: spec.tile, metaAttrs: spec.metaAttrs, answerAttr: spec.answerAttr, labelAttr: spec.labelAttr });
     const screenPng = base + '.screen.png';
     await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
     // answer key: the printed page with every answer written in (a PDF for the teacher)

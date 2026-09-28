@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-367',
   slug: 'fill-in-the-blank-choose-the-word',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 the wrong word is from another topic (far foil) · L2 published (near foil); no L3 (verify forbids a foil that is another answer)
+  difficulty: { 1: { ...D, foilKind: 'far' }, 2: D, 3: D },
+  interactive: base.interactiveFor('choice'),
   i18n: { en: { title: "Fill in the Blank: Choose the Word", instruction: "Look at the picture and read the sentence. Circle the word that fits and write it in the box." } },
 };

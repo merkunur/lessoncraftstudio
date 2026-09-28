@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-366',
   slug: 'fill-in-the-blank-letter-boxes',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 the first letter printed + a word bank, words <= 8 letters · L2 published · L3 only words of >= 6 letters
+  difficulty: { 1: { ...D, rows: 6, bank: true, starter: true, maxLetters: 8 }, 2: D, 3: { ...D, minLetters: 6 } },
+  interactive: base.interactiveFor('letters'),
   i18n: { en: { title: "Fill in the Blank: Letter Boxes", instruction: "Look at the picture. Write the missing word in the boxes. One letter in each box." } },
 };

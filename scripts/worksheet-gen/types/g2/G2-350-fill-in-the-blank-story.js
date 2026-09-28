@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G2-350',
   slug: 'fill-in-the-blank-story',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 the pictures in story order · L2 published · L3 two extra words in the bank
+  difficulty: { 1: { ...D, shuffleStrip: false }, 2: D, 3: { ...D, extra: 2 } },
+  interactive: base.interactiveFor('story'),
   i18n: { en: { title: "Fill in the Blank Story", instruction: "Read the whole story. The three pictures show the missing words. Write each word from the bank in its box." } },
   gradeBand: "G2",
 };

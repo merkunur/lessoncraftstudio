@@ -79,7 +79,7 @@ function themelessWaves() {
     for (const [id, face] of Object.entries(cfg.faces)) {
       const spec = loadType(id);
       if (!cfg.include(loc, id, null)) continue;
-      const units = [null, ...((spec.unitAxis && spec.unitAxis.units(loc)) || [])];
+      const units = [null, ...((spec.unitAxis && typeof spec.unitAxis.units === 'function' && spec.unitAxis.units(loc)) || [])];
       const wholesOf = (lv, unit, sv, copy) => {
         const seed = instanceSeed({ typeId: spec.id, theme: null, difficulty: lv, seedEpoch: 1, variant: sv, unit });
         let meta = null;
@@ -108,7 +108,7 @@ function themelessWaves() {
         // GROUP faces (cfg.groupFaces — Cursive letters / capitals): one copy per group of the alphabet, every group,
         // in every script the locale teaches (seedVariant = the group number; the page throws past the last group)
         const group = !!(cfg.groupFaces || {})[id];
-        const allUnits = (spec.unitAxis && spec.unitAxis.units(loc)) || [];
+        const allUnits = (spec.unitAxis && typeof spec.unitAxis.units === 'function' && spec.unitAxis.units(loc)) || [];
         const pubUnit = spec.unitAxis && spec.unitAxis.exemplar ? spec.unitAxis.exemplar(loc, spec) : null;
         const groupUnits = allUnits.length > 1 ? allUnits : [null];
         const tries = group

@@ -83,5 +83,64 @@
    "no": "Les følelsesordet, se på det lille ansiktet og tegn det stort i den tomme sirkelen.",
    "fi": "Lue tunnesana, katso pientä ilmettä ja piirrä samanlaiset kasvot isoina tyhjään ympyrään."
   }
+ },
+ "G1-366": {
+  "1": {
+   "en": "Look at the picture. Write the missing word in the boxes. One letter in each box. The first letter is already there.",
+   "de": "Schau dir das Bild an. Schreibe das fehlende Wort in die Kästchen, ein Buchstabe pro Kästchen. Der erste Buchstabe steht schon da.",
+   "es": "Mira el dibujo. Escribe la palabra que falta, una letra en cada casilla. La primera letra ya está escrita.",
+   "fr": "Regarde l'image. Écris le mot qui manque, une lettre par case. La première lettre est déjà écrite.",
+   "it": "Guarda il disegno. Scrivi la parola che manca nelle caselle, una lettera in ogni casella. La prima è già scritta.",
+   "pt": "Olhe a figura. Escreva a palavra que falta: uma letra em cada quadradinho. A primeira letra já está escrita.",
+   "nl": "Kijk naar het plaatje. Schrijf het woord dat mist in de hokjes, een letter in elk hokje. De eerste letter staat er al.",
+   "sv": "Titta på bilden. Skriv ordet som saknas i rutorna, en bokstav i varje ruta. Den första bokstaven står redan där.",
+   "da": "Se på billedet. Skriv det ord, der mangler, i felterne: et bogstav i hvert felt. Det første bogstav står der allerede.",
+   "no": "Se på bildet. Skriv ordet som mangler i rutene, én bokstav i hver rute. Den første bokstaven er skrevet for deg.",
+   "fi": "Katso kuvaa. Kirjoita puuttuva sana ruutuihin: yksi kirjain ruutuun. Ensimmäinen kirjain on jo valmiina."
+  }
+ },
+ "G1-350": {
+  "3": {
+   "en": "Look at the picture. Find the word that fits the sentence in the word bank and write it in the box. Two words in the word bank are not used.",
+   "de": "Schau dir das Bild an. Suche das passende Wort im Kasten und schreibe es in das Kästchen. Zwei Wörter im Kasten bleiben übrig.",
+   "es": "Mira el dibujo. Busca en el recuadro la palabra que completa la oración y escríbela en la casilla. Dos palabras del recuadro no se usan.",
+   "fr": "Regarde l'image. Cherche dans la liste le mot qui complète la phrase et écris-le dans la case. Deux mots ne servent pas.",
+   "it": "Guarda il disegno. Cerca nel riquadro la parola che completa la frase e scrivila nella casella. Due parole avanzano.",
+   "pt": "Olhe a figura. Procure no quadro a palavra que completa a frase e escreva na caixa. Duas palavras sobram.",
+   "nl": "Kijk naar het plaatje. Zoek het woord dat in de zin past in het kader en schrijf het in het vakje. Twee woorden in het kader gebruik je niet.",
+   "sv": "Titta på bilden. Hitta ordet som passar i meningen i ordlistan och skriv det i rutan. Två ord i ordlistan blir över.",
+   "da": "Se på billedet. Find det ord i ordkassen, der passer i sætningen, og skriv det i feltet. To af ordene i ordkassen skal ikke bruges.",
+   "no": "Se på bildet. Finn ordet som passer i setningen i ordbanken, og skriv det i ruta. To ord i ordbanken blir ikke brukt.",
+   "fi": "Katso kuvaa. Etsi lauseeseen sopiva sana sanapankista ja kirjoita se laatikkoon. Kaksi sanapankin sanaa jää yli."
+  }
+ },
+ "G2-349": {
+  "1": {
+   "en": "Look at the pictures. There is more than one. Find the word for more than one in the word bank and write it in the box.",
+   "de": "Schau dir die Bilder an. Es sind mehrere. Suche das Wort für mehrere im Kasten und schreibe es in das Kästchen.",
+   "es": "Mira los dibujos. Hay más de uno. Busca en el recuadro la palabra para más de uno y escríbela en la casilla.",
+   "fr": "Regarde les images : il y en a plusieurs. Cherche dans la liste le mot au pluriel et écris-le dans la case.",
+   "it": "Guarda i disegni. Ce n'è più di uno. Cerca nel riquadro la parola per più di uno e scrivila nella casella.",
+   "pt": "Olhe as figuras. Há mais de um. Procure no quadro a palavra que indica mais de um e escreva na caixa.",
+   "nl": "Kijk naar de plaatjes. Er is meer dan één. Zoek het woord voor meer dan één in het kader en schrijf het in het vakje.",
+   "sv": "Titta på bilderna. Det är fler än en. Hitta ordet för fler än en i ordlistan och skriv det i rutan.",
+   "no": "Se på bildene. Det er flere enn én. Finn ordet for flere i ordbanken, og skriv det i ruta.",
+   "fi": "Katso kuvia. Niitä on useampi kuin yksi. Etsi monikkomuoto sanapankista ja kirjoita se laatikkoon."
+  }
+ },
+ "G2-350": {
+  "3": {
+   "en": "Read the whole story. The three pictures show the missing words. Write each word from the bank in its box. Two words in the bank are not used.",
+   "de": "Lies die ganze Geschichte. Die drei Bilder zeigen die fehlenden Wörter. Schreibe jedes in sein Kästchen. Zwei Wörter im Kasten bleiben übrig.",
+   "es": "Lee todo el cuento. Los tres dibujos muestran las palabras que faltan. Escribe cada una en su casilla. Dos palabras del recuadro no se usan.",
+   "fr": "Lis tout le texte. Les images montrent les mots qui manquent. Écris chacun à sa place. Deux mots ne servent pas.",
+   "it": "Leggi tutto il testo. I disegni mostrano le parole che mancano. Scrivi ogni parola al suo posto. Due parole avanzano.",
+   "pt": "Leia a historinha. As três figuras mostram as palavras que faltam. Escreva cada uma na caixa. Sobram duas palavras.",
+   "nl": "Lees het hele verhaaltje. De drie plaatjes laten de woorden zien die missen. Schrijf elk woord in zijn vakje. Twee woorden in het kader gebruik je niet.",
+   "sv": "Läs hela berättelsen. De tre bilderna visar orden som saknas. Skriv varje ord från ordlistan i sin ruta. Två ord i ordlistan blir över.",
+   "da": "Læs hele historien. De tre billeder viser de ord, der mangler. Skriv hvert ord fra ordkassen i sit felt. To af ordene i ordkassen skal ikke bruges.",
+   "no": "Les hele fortellingen. De tre bildene viser ordene som mangler. Skriv hvert ord fra ordbanken. To ord i ordbanken blir ikke brukt.",
+   "fi": "Lue koko tarina. Kolme kuvaa näyttää puuttuvat sanat. Kirjoita jokainen sana pankista omaan laatikkoonsa. Kaksi pankin sanaa jää yli."
+  }
  }
 }

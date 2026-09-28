@@ -17,7 +17,7 @@ const fs = require('fs');
 const path = require('path');
 const { enumerate, eligibleThemes, deckIdFor } = require('./enumerate.js');
 const { loadType } = require('./lib/load-types.js');
-const { resolveStrings } = require('./i18n/strings.js');
+const { resolveStrings, withLevelInstruction } = require('./i18n/strings.js');
 const { renderInstance } = require('./render/render-instance.js');
 const { buildManifest, scrapeImagesUsed } = require('./emit/manifest.js');
 const { buildDeckHtml } = require('./emit/deck-html.js');
@@ -108,7 +108,7 @@ async function generate(args) {
   async function produce(spec, strings, it, deckId, cacheTheme) {
     const r = await renderInstance({
       type: spec, theme: cacheTheme, difficulty: it.difficulty, locale: it.locale,
-      variant: it.variant, unit: it.unit || null, page, outDir: workDir, baseName: deckId, seedEpoch: plan.seedEpoch || 1, strings,
+      variant: it.variant, seedVariant: it.seedVariant || null, unit: it.unit || null, page, outDir: workDir, baseName: deckId, seedEpoch: plan.seedEpoch || 1, strings,
       // wave "interactive": true (Level Set) + a type that declares `interactive` → screen version + answer key
       interactive: !!(plan.interactive && spec.interactive),
       interactiveInstruction: plan.interactive && spec.interactive ? interactiveInstruction(spec, it.locale) : null,
@@ -142,7 +142,7 @@ async function generate(args) {
       if (!args.force && fs.existsSync(zipPath)) { state.skippedExisting++; continue; }
 
       const spec = loadType(it.typeId);
-      const strings = resolveUnitTokens(resolveStrings(it.typeId, it.locale, spec), spec, it.unit || null, it.locale);
+      const strings = resolveUnitTokens(withLevelInstruction(resolveStrings(it.typeId, it.locale, spec), it.typeId, it.difficulty, it.locale), spec, it.unit || null, it.locale);
       try {
         const res = await produce(spec, strings, it, it.deckId, it.cacheTheme);
         if (res.qaFails) {

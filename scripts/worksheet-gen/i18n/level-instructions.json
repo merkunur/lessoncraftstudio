@@ -1,0 +1,18 @@
+{
+ "_note": "Per-level PRINTED instructions for levels whose page differs from the face instruction (i18n/strings.js withLevelInstruction). Native panels, 2026-09-28.",
+ "G2-330": {
+  "3": {
+   "en": "Each whole word is printed letter by letter. Draw one line where the second word starts.",
+   "de": "Das ganze Wort steht Buchstabe für Buchstabe da. Male einen Strich dort, wo das zweite Wort beginnt.",
+   "es": "Lee cada palabra. Traza una rayita donde termina la raíz y empieza el sufijo.",
+   "fr": "Le mot est écrit lettre par lettre. Trace un trait entre le radical et ce qu’on lui a ajouté.",
+   "it": "Leggi la parola. Traccia una riga dove finisce la parola base e comincia il suffisso.",
+   "pt": "Leia a palavra inteira. Trace um risquinho onde termina a raiz e começa o sufixo.",
+   "nl": "Het hele woord staat er letter voor letter. Zet één streep waar het tweede woord begint.",
+   "sv": "Läs hela ordet. Dra ett streck där det andra ordet börjar.",
+   "da": "Læs hele ordet. Tegn én streg dér, hvor det andet ord begynder.",
+   "no": "Les hele ordet. Tegn en strek der det andre ordet begynner.",
+   "fi": "Lue koko sana. Piirrä yksi viiva siihen kohtaan, josta toinen sana alkaa."
+  }
+ }
+}

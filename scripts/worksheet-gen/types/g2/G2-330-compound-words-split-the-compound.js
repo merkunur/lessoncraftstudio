@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-330',
   slug: 'compound-words-split-the-compound',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 both parts pictured beside the word · L2 published · L3 text only, native word list (its own instruction: no picture)
+  difficulty: { 1: { ...D, showParts: true }, 2: D, 3: { ...D, textOnly: true, cell: 40, cellFont: 36 } },
+  interactive: base.interactiveFor('cut'),
   i18n: { en: { title: "Split the Compound: Find the Two Words", instruction: "The whole word is printed letter by letter next to its picture. Draw one line where the second word starts." } },
 };

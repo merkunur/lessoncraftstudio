@@ -64,14 +64,17 @@ function widthEmAny(t) {
   return w;
 }
 /**
- * Answer key: a sentence printed on a writing line keeps the writing size when it fits and is shrunk
- * to fit the line when it does not (measured: 94 of 260 fr/de/fi/es keys ran past the line's end).
+ * Answer key: a sentence printed on a writing line keeps the writing size (seated: x-height = the dashed band)
+ * and, when it would run past the line's end (measured: 94 of 260 fr/de/fi/es keys), is fitted by WIDTH only
+ * (textLength). Shrinking the font-size (the first fix) lifted the x-height off the dashed midline — the
+ * alignment defect the operator reported twice (2026-09-21 starters, 2026-09-28 keys); qa/key-text-measure.js.
  */
 function fitStarters(html, lineW) {
   return html.replace(/<text([^>]*?)font-size="([\d.]+)"([^>]*data-lcs-starter="1"[^>]*)>([^<]*)<\/text>/g, (m, a, px, b, txt) => {
     const plain = txt.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'");
-    const fit = Math.min(+px, Math.floor(((lineW - 16) / widthEmAny(plain)) * 10) / 10);
-    return `<text${a}font-size="${fit}"${b}>${txt}</text>`;
+    const room = lineW - 16;
+    if (widthEmAny(plain) * +px <= room) return m;
+    return `<text${a}font-size="${px}"${b} textLength="${room}" lengthAdjust="spacingAndGlyphs">${txt}</text>`;
   });
 }
 

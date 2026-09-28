@@ -14,6 +14,7 @@
 'use strict';
 
 const CORAL = '#F2784B';
+const { seatAfter } = require('./key-on-row.js');
 const SCR_W = 660, OPT_H = 104;   // the Level Set screen sizes: 104 page-px reaches the 44 px tap floor at 360 wide
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const unesc = (s) => String(s).replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
@@ -133,20 +134,36 @@ function screenOrKey(layout, built, ctx, loc, bank) {
   }
   // answer key: the printed page with every answer shown in coral
   const css = [];
+  // a gap-box answer is CENTERED by the box itself (inset 0, flex); a writing-row answer is SEATED on the row
+  // (key-on-row.js) — never a guessed offset (operator report 2026-09-28)
   const write = (sel, w, where, px = 22) => css.push(`${sel}{position:relative}`,
-    `${sel}::after{content:"${cssStr(w)}";position:absolute;${where};font:700 ${px}px 'Baloo 2',cursive;color:${CORAL};white-space:nowrap;pointer-events:none}`);
+    `${sel}::after{content:"${cssStr(w)}";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font:700 ${px}px 'Baloo 2',cursive;color:${CORAL};white-space:nowrap;pointer-events:none}`);
   if (layout === 'base' || (layout === 'possessive' && !/data-lcs-write="1"/.test(html))) css.push(`[data-lcs-correct]{outline:4px solid ${CORAL};outline-offset:2px}`);
   if (layout === 'replace') elements(html, 'data-lcs-frame').forEach((ln) => write(`[data-lcs-frame="${cssStr(ln.at['data-lcs-frame'])}"][data-lcs-key="${cssStr(ln.at['data-lcs-key'])}"] [data-lcs-gapbox]`, ln.at['data-lcs-answer'], 'left:6px;top:0px'));
   if (layout === 'possessive' && /data-lcs-write="1"/.test(html)) {
     const P = bank.possessive;
     elements(html, 'data-lcs-owner').forEach((ln) => write(`[data-lcs-owner="${cssStr(ln.at['data-lcs-owner'])}"][data-lcs-thing="${cssStr(ln.at['data-lcs-thing'])}"] [data-lcs-gapbox]`, P.chips[+ln.at['data-lcs-chip-key']], 'left:6px;top:-2px'));
   }
-  if (layout === 'rewrite') elements(html, 'data-lcs-frame').forEach((ln) => write(`[data-lcs-frame="${cssStr(ln.at['data-lcs-frame'])}"][data-lcs-key="${cssStr(ln.at['data-lcs-key'])}"] [data-lcs-ruling-row]`, ln.at['data-lcs-answer'], 'left:8px;bottom:12px', 24));
+  if (layout === 'rewrite') elements(html, 'data-lcs-frame').forEach((ln) => { out.bodyHtml = seatAfter(out.bodyHtml, `data-lcs-frame="${esc(ln.at['data-lcs-frame'])}"`, ln.at['data-lcs-answer'], { fill: CORAL, font: 'baloo2-700' }); });
   if (layout === 'sort') {
+    // each name written ON its own bin line (a pair on two lines, as the page budgets it) — drawn inside the bin's svg
+    // on the dashed line, never laid over the bin with a guessed offset (operator report 2026-09-28)
     const heads = elements(html, 'data-lcs-sorthead').length;
     const byBin = {};
-    elements(html, 'data-lcs-sortword').forEach((c) => (byBin[c.at['data-lcs-key']] = byBin[c.at['data-lcs-key']] || []).push(c.at['data-lcs-sortword']));
-    for (let b = 0; b < heads; b++) write(`[data-lcs-sortbin="${b}"] .ws-bin`, (byBin[b] || []).join(' · '), 'left:10px;top:10px;white-space:normal;width:90%;line-height:1.5', 18);
+    elements(html, 'data-lcs-sortword').forEach((c) => {
+      const cap = c.at['data-lcs-sortword'], names = (c.at['data-lcs-names'] || '').split('|').filter(Boolean);
+      const lines = names.length === 2 ? [cap.slice(0, cap.lastIndexOf(names[1])).trim(), names[1]] : [cap];
+      (byBin[c.at['data-lcs-key']] = byBin[c.at['data-lcs-key']] || []).push(...lines);
+    });
+    for (let b = 0; b < heads; b++) {
+      const at = out.bodyHtml.indexOf(`data-lcs-sortbin="${b}"`);
+      const gapY = +((/data-lcs-gapy="([\d.]+)"/.exec(out.bodyHtml.slice(at, at + 200)) || [])[1]);
+      const s = out.bodyHtml.indexOf('<svg', out.bodyHtml.indexOf('class="ws-bin"', at)), e = out.bodyHtml.indexOf('</svg>', s);
+      if (at < 0 || !(gapY > 0) || s < 0) throw new Error(`pronouns key: bin ${b} has no lined svg`);
+      const px = Math.min(20, Math.floor(gapY * 0.55));
+      const texts = (byBin[b] || []).map((t, k) => `<text x="10" y="${((k + 1) * gapY - 3).toFixed(1)}" font-family="Baloo 2" font-weight="700" font-size="${px}" fill="${CORAL}" data-lcs-keytext="1">${esc(t)}</text>`).join('');
+      out.bodyHtml = out.bodyHtml.slice(0, e) + texts + out.bodyHtml.slice(e);
+    }
   }
   if (layout === 'anaphora') {
     // number each pronoun and its person: the same coral number on the boxed word and on the name
@@ -166,7 +183,7 @@ function screenOrKey(layout, built, ctx, loc, bank) {
       });
     });
   }
-  out.bodyHtml = html + (css.length ? `<style data-lcs-key>${css.join('')}</style>` : '');
+  out.bodyHtml = out.bodyHtml + (css.length ? `<style data-lcs-key>${css.join('')}</style>` : '');
   return out;
 }
 function pPlate(html, from) { return plateText(html, from); }

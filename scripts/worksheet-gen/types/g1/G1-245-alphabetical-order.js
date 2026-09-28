@@ -21,6 +21,7 @@
  */
 'use strict';
 const { writingRow } = require('../../primitives/trace-path.js');
+const { seatOnRow } = require('../../lib/key-on-row.js');
 const { alphabetStrip } = require('../../templates/components-b2.js');
 const { entriesFor, displayWord, distinctByWord, fileUri } = require('../../lib/b2-common.js');
 const { COLLATION, compare, firstIndex, sortKey } = require('../../data/b2/collation.js');
@@ -146,8 +147,7 @@ module.exports = {
     if (d.rulings && !screen) {
       const rows = sorted.map((e, i) =>
         `<div style="display:flex;align-items:center;gap:8px${isKey ? ';position:relative' : ''}" data-lcs-answer-line="${i + 1}">` +
-        `<span style="font-family:'Baloo 2';font-weight:700;font-size:18px;color:#146B5E;width:22px;text-align:right">${i + 1}</span>${writingRow({ w: 280, h: 50, glyphH: 26, xHeight: true }).svg}` +
-        (isKey ? `<span style="position:absolute;left:44px;bottom:6px;font-family:'Nunito';font-weight:700;font-size:22px;color:#8A8580" data-lcs-key-word>${e.word}</span>` : '') +
+        `<span style="font-family:'Baloo 2';font-weight:700;font-size:18px;color:#146B5E;width:22px;text-align:right">${i + 1}</span>${isKey ? seatOnRow(writingRow({ w: 280, h: 50, glyphH: 26, xHeight: true }).svg, e.word, { fill: '#8A8580' }) : writingRow({ w: 280, h: 50, glyphH: 26, xHeight: true }).svg}` +   // the key word ON its row (key-on-row.js), not a guessed bottom offset
         `</div>`);
       rulings = `<div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 24px;justify-items:center">${rows.join('')}</div>`;
     }

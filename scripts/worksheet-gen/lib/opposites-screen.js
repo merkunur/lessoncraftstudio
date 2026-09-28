@@ -14,6 +14,7 @@
 'use strict';
 
 const CORAL = '#F2784B';
+const { seatAfter } = require('./key-on-row.js');
 const SCR_W = 660, OPT_H = 104;   // Cloze's measured screen sizes: 104 page-px reaches the 44 px tap floor at 360 wide
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const cssStr = (s) => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
@@ -109,14 +110,14 @@ function screenOrKey(layout, built, ctx, loc, bank, resolvePic) {
     out.bodyHtml = `<div data-ws-content data-lcs-type="opposites" data-lcs-screen="${layout}" style="flex:1;display:flex;flex-direction:column;gap:14px;align-items:center;padding-top:10px">${items.join('')}</div>`;
     return out;
   }
-  // answer key: the printed page with every answer shown in coral
+  // answer key: the printed page with every answer shown in coral — a written answer is SEATED on its own writing
+  // row (key-on-row.js: on the base rule, x-height to the dashed midline), never placed with a guessed CSS offset
   const css = [];
-  const write = (sel, w, where) => css.push(`${sel}{position:relative}`,
-    `${sel}::after{content:"${cssStr(w)}";position:absolute;${where};font:700 24px 'Baloo 2',cursive;color:${CORAL};white-space:nowrap;pointer-events:none}`);
-  if (layout === 'write') m.pairs.forEach((id, i) => write(`[data-lcs-pair="${cssStr(id)}"]`, m.answers[i], 'left:24px;bottom:14px'));
+  const seat = (needle, w) => { out.bodyHtml = seatAfter(out.bodyHtml, needle, w, { fill: CORAL, font: 'baloo2-700' }); };
+  if (layout === 'write') m.pairs.forEach((id, i) => seat(`data-lcs-pair="${esc(id)}"`, m.answers[i]));
   else if (layout === 'frames') {
     if (/data-lcs-choose/.test(out.bodyHtml)) css.push(`[data-lcs-correct-pill]{outline:4px solid ${CORAL};outline-offset:2px}`);
-    else m.pairs.forEach((id, i) => write(`[data-lcs-frame="${cssStr(id)}"] [data-lcs-frame-line="2"]`, m.answers[i], 'right:12px;bottom:8px'));
+    else m.pairs.forEach((id, i) => seat(`data-lcs-frame="${esc(id)}"`, m.answers[i]));
   } else if (layout === 'match') {
     css.push('[data-lcs-left],[data-lcs-right]{position:relative}');
     m.pairs.forEach((id, i) => {
@@ -126,7 +127,7 @@ function screenOrKey(layout, built, ctx, loc, bank, resolvePic) {
   } else if (layout === 'choice') css.push(`[data-lcs-correct-pill]{outline:4px solid ${CORAL};outline-offset:2px}`);
   else if (layout === 'prefix') {
     const items0 = (bank.prefix || {}).items || [];
-    m.bases.forEach((b) => write(`[data-lcs-prefix-row][data-lcs-base="${cssStr(b)}"] [data-lcs-prefix-slot]`, items0.find((x) => x.base === b).expected, 'left:10px;bottom:10px'));
+    m.bases.forEach((b) => seat(`data-lcs-base="${esc(b)}"`, items0.find((x) => x.base === b).expected));
   }
   out.bodyHtml = out.bodyHtml + (css.length ? `<style data-lcs-key>${css.join('')}</style>` : '');
   return out;

@@ -16,6 +16,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'feelings',
   'cloze',
   'opposites',
+  'pronouns',
 ]);
 
 /**

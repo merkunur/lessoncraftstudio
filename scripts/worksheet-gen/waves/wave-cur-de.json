@@ -1,0 +1,861 @@
+{
+  "id": "wave-cur-de",
+  "_note": "Level Set 2026-09-28: Cursive Writing (G2-377 + 5 faces), PDF only. Letters and capitals cover the WHOLE alphabet (lowercase in each country's lesson groups, capitals in alphabet groups, de in both scripts); levels change the task (bigger letters / traced twice / baseline joins / short words / four pairs / a model under every sentence; harder: one chain, names and words printed not traced, top joins, long sentences without a model). Native content by 9 native panels. Visible to teachers, never indexed.",
+  "indexable": false,
+  "interactive": false,
+  "seedEpoch": 1,
+  "locales": [
+    "de"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G2-377",
+    "G2-384",
+    "G2-385",
+    "G2-386",
+    "G2-387",
+    "G3-401"
+  ],
+  "levels": {
+    "G2-377": {
+      "1": [
+        {
+          "copy": 21,
+          "unit": "de-va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "de-va",
+          "seedVariant": 2
+        },
+        {
+          "copy": 23,
+          "unit": "de-va",
+          "seedVariant": 3
+        },
+        {
+          "copy": 24,
+          "unit": "de-va",
+          "seedVariant": 4
+        },
+        {
+          "copy": 25,
+          "unit": "de-va",
+          "seedVariant": 5
+        },
+        {
+          "copy": 26,
+          "unit": "de-va",
+          "seedVariant": 6
+        },
+        {
+          "copy": 27,
+          "unit": "de-va",
+          "seedVariant": 7
+        },
+        {
+          "copy": 28,
+          "unit": "de-va",
+          "seedVariant": 8
+        },
+        {
+          "copy": 29,
+          "unit": "de-va",
+          "seedVariant": 9
+        },
+        {
+          "copy": 30,
+          "unit": "de-va",
+          "seedVariant": 10
+        },
+        {
+          "copy": 31,
+          "unit": "de-la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "de-la",
+          "seedVariant": 2
+        },
+        {
+          "copy": 33,
+          "unit": "de-la",
+          "seedVariant": 3
+        },
+        {
+          "copy": 34,
+          "unit": "de-la",
+          "seedVariant": 4
+        },
+        {
+          "copy": 35,
+          "unit": "de-la",
+          "seedVariant": 5
+        },
+        {
+          "copy": 36,
+          "unit": "de-la",
+          "seedVariant": 6
+        },
+        {
+          "copy": 37,
+          "unit": "de-la",
+          "seedVariant": 7
+        },
+        {
+          "copy": 38,
+          "unit": "de-la",
+          "seedVariant": 8
+        },
+        {
+          "copy": 39,
+          "unit": "de-la",
+          "seedVariant": 9
+        },
+        {
+          "copy": 40,
+          "unit": "de-la",
+          "seedVariant": 10
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": "de-va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "de-va",
+          "seedVariant": 2
+        },
+        {
+          "copy": 4,
+          "unit": "de-va",
+          "seedVariant": 3
+        },
+        {
+          "copy": 5,
+          "unit": "de-va",
+          "seedVariant": 4
+        },
+        {
+          "copy": 6,
+          "unit": "de-va",
+          "seedVariant": 5
+        },
+        {
+          "copy": 7,
+          "unit": "de-va",
+          "seedVariant": 6
+        },
+        {
+          "copy": 8,
+          "unit": "de-va",
+          "seedVariant": 7
+        },
+        {
+          "copy": 9,
+          "unit": "de-va",
+          "seedVariant": 8
+        },
+        {
+          "copy": 10,
+          "unit": "de-va",
+          "seedVariant": 9
+        },
+        {
+          "copy": 11,
+          "unit": "de-va",
+          "seedVariant": 10
+        },
+        {
+          "copy": 12,
+          "unit": "de-la",
+          "seedVariant": 2
+        },
+        {
+          "copy": 13,
+          "unit": "de-la",
+          "seedVariant": 3
+        },
+        {
+          "copy": 14,
+          "unit": "de-la",
+          "seedVariant": 4
+        },
+        {
+          "copy": 15,
+          "unit": "de-la",
+          "seedVariant": 5
+        },
+        {
+          "copy": 16,
+          "unit": "de-la",
+          "seedVariant": 6
+        },
+        {
+          "copy": 17,
+          "unit": "de-la",
+          "seedVariant": 7
+        },
+        {
+          "copy": 18,
+          "unit": "de-la",
+          "seedVariant": 8
+        },
+        {
+          "copy": 19,
+          "unit": "de-la",
+          "seedVariant": 9
+        },
+        {
+          "copy": 20,
+          "unit": "de-la",
+          "seedVariant": 10
+        }
+      ],
+      "3": [
+        {
+          "copy": 41,
+          "unit": "de-va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "de-va",
+          "seedVariant": 2
+        },
+        {
+          "copy": 43,
+          "unit": "de-va",
+          "seedVariant": 3
+        },
+        {
+          "copy": 44,
+          "unit": "de-va",
+          "seedVariant": 4
+        },
+        {
+          "copy": 45,
+          "unit": "de-va",
+          "seedVariant": 5
+        },
+        {
+          "copy": 46,
+          "unit": "de-va",
+          "seedVariant": 6
+        },
+        {
+          "copy": 47,
+          "unit": "de-va",
+          "seedVariant": 7
+        },
+        {
+          "copy": 48,
+          "unit": "de-va",
+          "seedVariant": 8
+        },
+        {
+          "copy": 49,
+          "unit": "de-va",
+          "seedVariant": 9
+        },
+        {
+          "copy": 50,
+          "unit": "de-va",
+          "seedVariant": 10
+        },
+        {
+          "copy": 51,
+          "unit": "de-la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 52,
+          "unit": "de-la",
+          "seedVariant": 2
+        },
+        {
+          "copy": 53,
+          "unit": "de-la",
+          "seedVariant": 3
+        },
+        {
+          "copy": 54,
+          "unit": "de-la",
+          "seedVariant": 4
+        },
+        {
+          "copy": 55,
+          "unit": "de-la",
+          "seedVariant": 5
+        },
+        {
+          "copy": 56,
+          "unit": "de-la",
+          "seedVariant": 6
+        },
+        {
+          "copy": 57,
+          "unit": "de-la",
+          "seedVariant": 7
+        },
+        {
+          "copy": 58,
+          "unit": "de-la",
+          "seedVariant": 8
+        },
+        {
+          "copy": 59,
+          "unit": "de-la",
+          "seedVariant": 9
+        },
+        {
+          "copy": 60,
+          "unit": "de-la",
+          "seedVariant": 10
+        }
+      ]
+    },
+    "G2-384": {
+      "1": [
+        {
+          "copy": 18,
+          "unit": "de-va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "de-va",
+          "seedVariant": 2
+        },
+        {
+          "copy": 20,
+          "unit": "de-va",
+          "seedVariant": 3
+        },
+        {
+          "copy": 21,
+          "unit": "de-va",
+          "seedVariant": 4
+        },
+        {
+          "copy": 22,
+          "unit": "de-va",
+          "seedVariant": 5
+        },
+        {
+          "copy": 23,
+          "unit": "de-va",
+          "seedVariant": 6
+        },
+        {
+          "copy": 24,
+          "unit": "de-va",
+          "seedVariant": 7
+        },
+        {
+          "copy": 25,
+          "unit": "de-va",
+          "seedVariant": 8
+        },
+        {
+          "copy": 26,
+          "unit": "de-la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "de-la",
+          "seedVariant": 2
+        },
+        {
+          "copy": 28,
+          "unit": "de-la",
+          "seedVariant": 3
+        },
+        {
+          "copy": 29,
+          "unit": "de-la",
+          "seedVariant": 4
+        },
+        {
+          "copy": 30,
+          "unit": "de-la",
+          "seedVariant": 5
+        },
+        {
+          "copy": 31,
+          "unit": "de-la",
+          "seedVariant": 6
+        },
+        {
+          "copy": 32,
+          "unit": "de-la",
+          "seedVariant": 7
+        },
+        {
+          "copy": 33,
+          "unit": "de-la",
+          "seedVariant": 8
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": "de-va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "de-va",
+          "seedVariant": 2
+        },
+        {
+          "copy": 4,
+          "unit": "de-va",
+          "seedVariant": 3
+        },
+        {
+          "copy": 5,
+          "unit": "de-va",
+          "seedVariant": 4
+        },
+        {
+          "copy": 6,
+          "unit": "de-va",
+          "seedVariant": 5
+        },
+        {
+          "copy": 7,
+          "unit": "de-va",
+          "seedVariant": 6
+        },
+        {
+          "copy": 8,
+          "unit": "de-va",
+          "seedVariant": 7
+        },
+        {
+          "copy": 9,
+          "unit": "de-va",
+          "seedVariant": 8
+        },
+        {
+          "copy": 10,
+          "unit": "de-la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "de-la",
+          "seedVariant": 2
+        },
+        {
+          "copy": 12,
+          "unit": "de-la",
+          "seedVariant": 3
+        },
+        {
+          "copy": 13,
+          "unit": "de-la",
+          "seedVariant": 4
+        },
+        {
+          "copy": 14,
+          "unit": "de-la",
+          "seedVariant": 5
+        },
+        {
+          "copy": 15,
+          "unit": "de-la",
+          "seedVariant": 6
+        },
+        {
+          "copy": 16,
+          "unit": "de-la",
+          "seedVariant": 7
+        },
+        {
+          "copy": 17,
+          "unit": "de-la",
+          "seedVariant": 8
+        }
+      ],
+      "3": [
+        {
+          "copy": 34,
+          "unit": "de-va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "de-va",
+          "seedVariant": 2
+        },
+        {
+          "copy": 36,
+          "unit": "de-va",
+          "seedVariant": 3
+        },
+        {
+          "copy": 37,
+          "unit": "de-va",
+          "seedVariant": 4
+        },
+        {
+          "copy": 38,
+          "unit": "de-va",
+          "seedVariant": 5
+        },
+        {
+          "copy": 39,
+          "unit": "de-va",
+          "seedVariant": 6
+        },
+        {
+          "copy": 40,
+          "unit": "de-va",
+          "seedVariant": 7
+        },
+        {
+          "copy": 41,
+          "unit": "de-va",
+          "seedVariant": 8
+        },
+        {
+          "copy": 42,
+          "unit": "de-va",
+          "seedVariant": 9
+        },
+        {
+          "copy": 43,
+          "unit": "de-va",
+          "seedVariant": 10
+        },
+        {
+          "copy": 44,
+          "unit": "de-la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "de-la",
+          "seedVariant": 2
+        },
+        {
+          "copy": 46,
+          "unit": "de-la",
+          "seedVariant": 3
+        },
+        {
+          "copy": 47,
+          "unit": "de-la",
+          "seedVariant": 4
+        },
+        {
+          "copy": 48,
+          "unit": "de-la",
+          "seedVariant": 5
+        },
+        {
+          "copy": 49,
+          "unit": "de-la",
+          "seedVariant": 6
+        },
+        {
+          "copy": 50,
+          "unit": "de-la",
+          "seedVariant": 7
+        },
+        {
+          "copy": 51,
+          "unit": "de-la",
+          "seedVariant": 8
+        },
+        {
+          "copy": 52,
+          "unit": "de-la",
+          "seedVariant": 9
+        },
+        {
+          "copy": 53,
+          "unit": "de-la",
+          "seedVariant": 10
+        }
+      ]
+    },
+    "G2-385": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 11
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 8
+        }
+      ],
+      "3": [
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 7
+        }
+      ]
+    },
+    "G2-386": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 7
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 11
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 7
+        }
+      ]
+    },
+    "G2-387": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 11
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 22
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 42
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 13
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 24
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 31
+        },
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 41
+        }
+      ]
+    },
+    "G3-401": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 7
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 9
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 9
+        },
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 10
+        }
+      ],
+      "3": [
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 7
+        },
+        {
+          "copy": 16,
+          "unit": null,
+          "seedVariant": 8
+        }
+      ]
+    }
+  }
+}

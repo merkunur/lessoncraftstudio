@@ -14,5 +14,44 @@
    "no": "Les hele ordet. Tegn en strek der det andre ordet begynner.",
    "fi": "Lue koko sana. Piirrä yksi viiva siihen kohtaan, josta toinen sana alkaa."
   }
+ },
+ "G2-384": {
+  "3": {
+   "en": "Trace each grey capital letter, then read the printed name and write it in cursive on the empty line below.",
+   "de": "Spure jeden grauen Großbuchstaben nach, lies den gedruckten Namen und schreibe ihn in Schreibschrift in die leere Zeile darunter.",
+   "es": "Repasa cada letra mayúscula gris; luego lee el nombre y escríbelo en letra cursiva en el renglón vacío de abajo.",
+   "fr": "Repasse chaque majuscule grise, puis lis le prénom et écris-le en cursive sur la ligne vide en dessous.",
+   "it": "Ripassa ogni lettera maiuscola grigia, poi leggi il nome e scrivilo in corsivo sulla riga vuota qui sotto.",
+   "pt": "Cubra cada letra maiúscula cinza, depois leia o nome e escreva-o em letra cursiva na linha vazia de baixo.",
+   "nl": "Schrijf elke grijze hoofdletter na, lees de gedrukte naam en schrijf die in verbonden schrift op de lege lijn eronder.",
+   "da": "Skriv oven i de grå store bogstaver, og skriv så hvert trykt navn med sammenhængende skrift på den tomme linje nedenfor.",
+   "no": "Skriv over hver grå stor bokstav, og skriv så hvert trykt navn med sammenhengende skrift på den tomme linjen under."
+  }
+ },
+ "G2-385": {
+  "3": {
+   "en": "Trace each grey pair of joined letters, then read the printed word and write it in cursive on the empty line below.",
+   "de": "Spure jede graue Buchstabenverbindung nach, lies das gedruckte Wort und schreibe es in Schreibschrift in die leere Zeile darunter.",
+   "es": "Repasa cada par de letras grises unidas; luego lee la palabra y escríbela en letra cursiva en el renglón vacío de abajo.",
+   "fr": "Repasse chaque paire de lettres grises attachées, puis lis le mot et écris-le en cursive sur la ligne vide en dessous.",
+   "it": "Ripassa ogni coppia di lettere grigie legate, poi leggi la parola e scrivila in corsivo sulla riga vuota qui sotto.",
+   "pt": "Cubra cada par de letras ligadas em cinza, depois leia a palavra e escreva-a em letra cursiva na linha vazia de baixo.",
+   "nl": "Schrijf de twee grijze letters na, lees het gedrukte woord en schrijf het in verbonden schrift op de lege lijn eronder.",
+   "da": "Skriv oven i hvert gråt bogstavpar, og skriv så hvert trykt ord med sammenhængende skrift på den tomme linje nedenfor.",
+   "no": "Skriv over hvert grå bokstavpar, og skriv så hvert trykt ord med sammenhengende skrift på den tomme linjen under."
+  }
+ },
+ "G3-401": {
+  "3": {
+   "en": "Read each printed sentence, then copy it in cursive on the two lines below it.",
+   "de": "Lies jeden gedruckten Satz und schreibe ihn in Schreibschrift auf die zwei Zeilen darunter.",
+   "es": "Lee cada oración y cópiala en letra cursiva en los dos renglones de abajo.",
+   "fr": "Lis chaque phrase écrite en script et copie-la en cursive sur les deux lignes en dessous.",
+   "it": "Leggi ogni frase in stampato e ricopiala in corsivo sulle due righe qui sotto.",
+   "pt": "Leia cada frase impressa e copie-a em letra cursiva nas duas linhas de baixo.",
+   "nl": "Lees elke gedrukte zin en schrijf hem in verbonden schrift over op de twee lijnen eronder.",
+   "da": "Skriv hver trykt sætning af med sammenhængende skrift på de to linjer under den.",
+   "no": "Skriv av hver trykt setning med sammenhengende skrift på de to linjene under den."
+  }
  }
 }

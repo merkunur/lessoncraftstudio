@@ -9,7 +9,8 @@ module.exports = {
   ...base,
   id: 'G3-401',
   slug: 'copy-a-sentence-in-cursive',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28 (PDF only): L1 short sentences (a model under every one left the page half empty) · L2 published (new copies: medium) · L3 long sentences, no model
+  difficulty: { 1: { ...D, sentenceLen: 'short' }, 2: { ...D, sentenceLen: 'medium' }, 3: { ...D, sentenceLen: 'long', modelUnder: 'none' } },
   i18n: { en: { title: "Cursive Sentences to Copy", instruction: "Trace the grey sentence, then copy each printed sentence in cursive on the two lines below it." } },
   gradeBand: "G3",
 };

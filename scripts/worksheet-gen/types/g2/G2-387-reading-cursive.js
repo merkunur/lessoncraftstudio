@@ -9,7 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-387',
   slug: 'reading-cursive',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28 (PDF only): L1 four word–picture pairs · L2 published
+  difficulty: { 1: { ...D, pairs: 4 }, 2: D, 3: D },
   i18n: { en: { title: "Reading Cursive: Match Each Word to Its Picture", instruction: "Read each word in cursive and draw a line to its picture." } },
   gradeBand: "G2",
 };

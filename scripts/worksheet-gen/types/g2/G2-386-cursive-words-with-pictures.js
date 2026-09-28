@@ -9,7 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-386',
   slug: 'cursive-words-with-pictures',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28 (PDF only): L1 short words (≤ 5 letters) · L2 published (no harder level: the pictured bank has almost no 6+ letter words)
+  difficulty: { 1: { ...D, maxLetters: 5 }, 2: D, 3: D },
   i18n: { en: { title: "Cursive Words to Write with Pictures", instruction: "Trace each grey word, joining the letters first and adding the dots and crosses last, then write it the same way on the line below." } },
   gradeBand: "G2",
 };

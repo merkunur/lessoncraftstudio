@@ -282,9 +282,7 @@
         ]
       },
       "exclusiveWith": [],
-      "syn": {
-        "a": "korkea"
-      },
+      "syn": null,
       "far": "iloinen",
       "pic": null,
       "picOpened": false
@@ -473,15 +471,11 @@
       "pos": "adj",
       "family": "width",
       "alt": {
-        "a": [
-          "laaja"
-        ],
+        "a": [],
         "b": []
       },
       "exclusiveWith": [],
-      "syn": {
-        "a": "laaja"
-      },
+      "syn": null,
       "far": "hiljainen",
       "pic": null,
       "picOpened": false

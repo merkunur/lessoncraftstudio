@@ -1,0 +1,16 @@
+{
+ "id": "wave-oppfix-fr",
+ "_note": "2026-09-28 republish after the native panels audited the published opposites bank: K-351 instruction: « au dessin » read as a second thing to match (now « à l’image »). Same coordinates as the published pages; published as UPDATES of the existing decks.",
+ "seedEpoch": 1,
+ "locales": [
+  "fr"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "K-351"
+ ]
+}

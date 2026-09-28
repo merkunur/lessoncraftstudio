@@ -1,0 +1,16 @@
+{
+ "id": "wave-oppfix-fi",
+ "_note": "2026-09-28 republish after the native panels audited the published opposites bank: korkea / laaja are not synonyms of pitkä / leveä (removed). Same coordinates as the published pages; published as UPDATES of the existing decks.",
+ "seedEpoch": 1,
+ "locales": [
+  "fi"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-337"
+ ]
+}

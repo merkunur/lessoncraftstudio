@@ -711,7 +711,8 @@ async function main() {
     // 3. seed sweep (build only)
     if (!QUICK) {
       const sets = { 1: new Set(), 2: new Set(), 3: new Set() };
-      const byId = new Map(en.pairs.map((p) => [p.id, p]));
+      // the sweep builds non-published copies, which read the merged (published + Level Set) bank
+      const byId = new Map(TYPE.mergedBank('en').pairs.map((p) => [p.id, p]));
       let cuedTotal = 0;
       for (let k = 1; k <= 20; k++) for (const d of [1, 2, 3]) {
         const cfg = TYPE.difficulty[d];
@@ -726,7 +727,8 @@ async function main() {
         for (const id of m.pairs) ok([...byId.get(id).a].length <= cfg.maxLetters && [...byId.get(id).b].length <= cfg.maxLetters, `sweep seed ${k} d${d}: ${id} over maxLetters ${cfg.maxLetters}`);
         if (cfg.cue === 'pic') {
           const pictured = m.pairs.filter((id) => byId.get(id).pic).length;
-          ok(m.cued === Math.min(cfg.maxCue, pictured) && m.uncuedForWidth === 0, `sweep seed ${k} d1: cued ${m.cued} / pictured ${pictured} / uncued-for-width ${m.uncuedForWidth}`);
+          // every pictured card up to maxCue carries its cue unless word + cue would overflow the line (the 0.64 estimate, Level Set 2026-09-28: en "summer" beside a two-picture cue) — never silently dropped
+          ok(m.cued + m.uncuedForWidth === Math.min(cfg.maxCue, pictured) && m.uncuedForWidth <= 1, `sweep seed ${k} d1: cued ${m.cued} / pictured ${pictured} / uncued-for-width ${m.uncuedForWidth}`);
           cuedTotal += m.cued;
           ok((b.bodyHtml.match(/data-lcs-cue-key="([^"]+)"/g) || []).every((x) => m.pairs.includes(x.slice(18, -1))), `sweep seed ${k} d1: a cue key outside the page's pairs`);
         }

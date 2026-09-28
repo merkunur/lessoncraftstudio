@@ -283,9 +283,7 @@
         "a": [],
         "b": []
       },
-      "exclusiveWith": [
-        "high-low"
-      ],
+      "exclusiveWith": [],
       "syn": null,
       "far": "doce",
       "pic": null,
@@ -385,25 +383,6 @@
       "exclusiveWith": [],
       "syn": null,
       "far": "fino",
-      "pic": null,
-      "picOpened": false
-    },
-    {
-      "id": "high-low",
-      "a": "em cima",
-      "b": "embaixo",
-      "tier": 1,
-      "pos": "adj",
-      "family": "level",
-      "alt": {
-        "a": [],
-        "b": []
-      },
-      "exclusiveWith": [
-        "tall-short"
-      ],
-      "syn": null,
-      "far": "azedo",
       "pic": null,
       "picOpened": false
     },

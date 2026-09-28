@@ -138,7 +138,9 @@
       "pos": "adj",
       "family": "weight",
       "alt": {
-        "a": [],
+        "a": [
+          "svår"
+        ],
         "b": []
       },
       "exclusiveWith": [],
@@ -312,7 +314,9 @@
       "family": "age",
       "alt": {
         "a": [],
-        "b": []
+        "b": [
+          "ung"
+        ]
       },
       "exclusiveWith": [],
       "syn": null,

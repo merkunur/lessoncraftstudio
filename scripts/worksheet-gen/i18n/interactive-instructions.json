@@ -151,5 +151,53 @@
       "da": "Begge ord står skrevet. Tryk på det hele ord, der er stavet rigtigt.",
       "no": "Begge ordene står der. Trykk på hele ordet som er skrevet riktig."
     }
+  },
+  "digraphs": {
+    "base": {
+      "en": "Say each picture's name. Tap the letter team you hear.",
+      "de": "Sprich den Namen jedes Bildes. Tippe auf die Buchstabengruppe, die du hörst.",
+      "fr": "Dis le nom de l’image, puis touche le son que tu entends.",
+      "pt": "Diga o nome da figura e toque no dígrafo que você ouve.",
+      "nl": "Zeg wat je op het plaatje ziet en tik op de tweetekenklank die je hoort.",
+      "fi": "Sano kuvan nimi ja napauta sitä pitkää vokaalia, jonka kuulet."
+    },
+    "sort-two": {
+      "en": "Say each picture's name. Which of the two letter teams do you hear? Tap it.",
+      "de": "Sprich den Namen jedes Bildes. Welche der zwei Buchstabengruppen hörst du? Tippe sie an.",
+      "fr": "Dis le nom de l’image, puis touche celui des deux sons que tu entends.",
+      "pt": "Diga o nome da figura e toque, entre os dois dígrafos, no que você ouve.",
+      "nl": "Zeg wat je op het plaatje ziet en tik op de klank die je hoort.",
+      "fi": "Sano kuvan nimi ja napauta sitä kahdesta pitkästä vokaalista, jonka kuulet."
+    },
+    "gap": {
+      "en": "Read each word. Tap the letter team that fills the gap.",
+      "de": "Lies jedes Wort. Tippe auf die Buchstabengruppe, die in die Lücke passt.",
+      "fr": "Regarde l’image, lis le mot et touche le son qui manque.",
+      "pt": "Leia a palavra e toque no dígrafo que falta.",
+      "nl": "Lees het woord. Welke tweetekenklank mist er? Tik op de goede klank.",
+      "fi": "Lue sana. Mikä pitkä vokaali puuttuu? Napauta oikeaa vokaalia."
+    },
+    "match": {
+      "en": "Read each word. Tap the picture it names.",
+      "de": "Lies jedes Wort. Tippe auf das Bild, das dazu passt.",
+      "fr": "Lis le mot, puis touche l’image qu’il nomme.",
+      "pt": "Leia a palavra e toque na figura que ela nomeia.",
+      "nl": "Lees het woord en tik op het plaatje dat erbij hoort.",
+      "fi": "Lue sana ja napauta kuvaa, joka sopii siihen."
+    },
+    "position": {
+      "en": "Say each picture's name. Where do you hear the letter team? Tap beginning, middle or end.",
+      "de": "Sprich jedes Bildwort. Wo hörst du die Buchstabengruppe? Tippe: Anfang, Mitte oder Ende.",
+      "fr": "Dis le nom de l’image. Où entends-tu le son : au début, au milieu ou à la fin ? Touche la bonne case.",
+      "fi": "Sano kuvan nimi. Kuuluuko pitkä vokaali alussa, keskellä vai lopussa? Napauta oikeaa kohtaa."
+    },
+    "text": {
+      "en": "Read the sentences. Tap every word that has the letter team. Then press the check button.",
+      "de": "Lies die Sätze. Tippe jedes Wort an, in dem die Buchstabengruppe steckt. Drücke dann auf Prüfen.",
+      "fr": "Touche chaque mot où tu vois le son de la page, puis appuie sur le bouton pour vérifier.",
+      "pt": "Toque em cada palavra que tem o dígrafo da atividade e depois toque no botão de conferir.",
+      "nl": "Tik op elk woord met de tweetekenklank uit de titel. Druk daarna op de knop om na te kijken.",
+      "fi": "Napauta jokaista sanaa, jossa on etsittävä pitkä vokaali. Paina sitten tarkistusnappia."
+    }
   }
 }

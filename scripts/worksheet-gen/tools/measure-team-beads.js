@@ -28,7 +28,7 @@ const OUT = path.join(WG, 'primitives', 'team-bead.widths.json');
 const FONTS_CSS = fs.readFileSync(path.join(WG, 'assets', 'fonts', 'fonts.css'), 'utf8');
 const TEAMS = [
   // en
-  'sh', 'ch', 'th', 'wh', 'ph', 'ng', 'ck',
+  'sh', 'ch', 'th', 'wh', 'ph', 'ng', 'ck', 'ow',   // ow: Level Set 2026-09-28
   // de
   'sch', 'au', 'ei', 'eu', 'äu', 'ie', 'pf', 'qu',
   // pt

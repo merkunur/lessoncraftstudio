@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'K-378',
   slug: 'digraphs-sort-by-letter-team',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 four pictures · L2 published · L3 eight pictures
+  difficulty: { 1: { ...D, pictures: 4, split: [2, 2] }, 2: D, 3: { ...D, pictures: 8, split: [4, 4], iconPx: 60, cardMinH: 70 } },
+  interactive: base.interactiveFor('sort-two'),
   i18n: { en: { title: "Digraph Sort for Kindergarten: sh or ch", instruction: "Say each picture's name. Draw a line from each picture to the letter team you hear." } },
   gradeBand: "K",
 };

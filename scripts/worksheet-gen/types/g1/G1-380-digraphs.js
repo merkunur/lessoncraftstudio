@@ -220,6 +220,186 @@ function faceRoot(mode, loc, teams, sounds, cfg, inner, style) {
 }
 const need = (c, m) => { if (!c) throw new Error(`${ID}: ${m}`); };
 
+/* ==========================================================================================
+ * LEVEL SET (2026-09-28): new team SETS by the native panels (data/b5/digraphs-levelset.json, kept out of the
+ * bank so the published pages cannot change); the screen version (tap) and the answer key of every face.
+ * ========================================================================================== */
+let _ls = null;
+function levelSetData(loc) {
+  if (_ls === null) {
+    const f = require('path').join(__dirname, '..', '..', 'data', 'b5', 'digraphs-levelset.json');
+    _ls = require('fs').existsSync(f) ? JSON.parse(require('fs').readFileSync(f, 'utf8')) : {};
+  }
+  return _ls[loc] || null;
+}
+/** The published block + the level-set teams / sentences / rejections (what a NEW copy draws on). */
+function levelSetBank(pub, loc) {
+  const L = levelSetData(loc) || {};
+  return {
+    ...pub,
+    teams: { ...pub.teams, ...(L.newTeams || {}) },
+    samesound: [...(pub.samesound || []), ...(L.samesoundAdd || [])],
+    rejectedPics: [...(pub.rejectedPics || []), ...(L.rejectedPicsAdd || [])],
+    sentences: [...(pub.sentences || []), ...Object.values(L.sentences || {}).flat()],
+    sets: { ...pub.sets },
+  };
+}
+/** Two teams on this face at this level (the kindergarten sort, and the easier abacus / gap / match). */
+function needTwo(d) { return d.mode === 'sort-two' || (d.mode === 'base' && d.teams === 2) || (d.mode === 'gap' && d.bankTeams === 2) || (d.mode === 'match' && d.teams === 2); }
+/** Group g of the copies: 1 = the published teams, 2.. = the panels' sets. */
+function levelSetPage(pub, d, loc, g) {
+  const L = levelSetData(loc) || { sets: [] };
+  const B = levelSetBank(pub, loc);
+  if (g === 1) {
+    const key = needTwo(d) ? 'k' : d.mode === 'position' ? 'position' : 'exemplar';
+    return { B, d: { ...d, set: key } };
+  }
+  const grp = (L.sets || [])[g - 2];
+  if (!grp) throw new Error(`${ID}: ${loc} has ${(L.sets || []).length + 1} team sets, no group ${g}`);
+  B.sets.ls = needTwo(d) ? grp.k : grp.teams;
+  return { B, d: { ...d, set: 'ls', targetIdx: 0 } };
+}
+const OPT = { w: 200, h: 104, gap: 12 };
+const SCREEN_W = 660;
+function sEsc(x) { return esc(String(x)); }
+function scrItem(attrs, top, opts) {
+  return `<div data-lcs-item ${attrs} data-ws-content style="display:flex;flex-direction:column;align-items:center;gap:10px;width:${SCREEN_W}px;padding:12px 8px;background:#FFFDF8;border:2px solid #EFE4D2;border-radius:16px;box-sizing:border-box">` +
+    `<div style="display:flex;align-items:center;justify-content:center;gap:16px;min-height:44px">${top}</div>` +
+    `<div style="display:flex;gap:${OPT.gap}px;justify-content:center;flex-wrap:nowrap">${opts}</div></div>`;
+}
+function optBtn(i, label, html, correct, w = OPT.w) {
+  return `<span class="ws-achip" data-lcs-opt="${i}" data-lcs-label="${sEsc(label)}"${correct ? ' data-lcs-correct="1"' : ''} style="width:${w}px;height:${OPT.h}px;box-sizing:border-box;font-size:40px;gap:8px">${html}</span>`;
+}
+function scrPic(src, key, px = 104) { return `<img class="ws-icon" src="${src}" alt="" data-lcs-pic="${sEsc(key)}" style="width:${px}px;height:${px}px;object-fit:contain;flex:0 0 auto">`; }
+function scrBody(mode, inner, extra = '') {
+  return `<div data-ws-content data-lcs-type="${KEY}" data-lcs-screen="${mode}" style="flex:1;display:flex;flex-direction:column;gap:14px;align-items:center;padding-top:10px${extra}">${inner}</div>`;
+}
+/** Wrong options by ROTATION (each other item is a wrong option equally often). */
+function rotated(list, i, n) { return Array.from({ length: n }, (_, k) => list[(i + 1 + k) % list.length]); }
+const POS = ['beginning', 'middle', 'end'];
+function posIcon(k) {
+  const x = [16, 60, 104][k];
+  return `<svg width="120" height="40" viewBox="0 0 120 40" aria-hidden="true"><line x1="10" y1="20" x2="110" y2="20" stroke="#146B5E" stroke-width="4" stroke-linecap="round"/><circle cx="${x}" cy="20" r="12" fill="#F2784B"/></svg>`;
+}
+/** The screen version (tap) or the answer key of a built page; the print page passes through. */
+function screenOrKey(mode, built, ctx, loc) {
+  if (!ctx || (!ctx.interactive && !ctx.answerKey)) return built;
+  const A = built._ans;
+  if (!A) throw new Error(`${ID}: ${mode} has no answer data`);
+  const out = { bodyHtml: built.bodyHtml, meta: built.meta };
+  const coral = '#F2784B';
+  if (ctx.interactive) {
+    if (mode === 'text') {
+      const rows = A.sentences.map((s, si) => `<div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;width:${SCREEN_W}px;padding:10px 6px;background:#FFFDF8;border:2px solid #EFE4D2;border-radius:16px;box-sizing:border-box">` +
+        s.tokens.map((tk, ti) => { const hit = tk.seg.some((g) => fold(g) === fold(A.target));
+          return `<span class="ws-achip" data-lcs-item data-lcs-word="${sEsc(tk.w)}" data-lcs-seg="${sEsc(tk.seg.join('|'))}" data-lcs-target="${sEsc(A.target)}"${hit ? ' data-lcs-hit="1"' : ''} data-ws-content style="height:${OPT.h}px;min-width:96px;padding:0 18px;box-sizing:border-box;font-size:40px">${sEsc(tk.w)}</span>`; }).join('') + `</div>`).join('');
+      const head = `<div style="font-family:'Baloo 2',cursive;font-weight:700;font-size:56px;color:#146B5E;background:#DDEBE8;border-radius:22px;padding:0 28px">${sEsc(A.target)}</div>`;
+      out.bodyHtml = scrBody(mode, head + rows);
+      return out;
+    }
+    const items = A.rows.map((r, i) => {
+      const it = r.item, src = fileUri(it.theme, it.noun);
+      // the item carries its SEGMENTATION only (the oracle's input); the team is carried only where the page shows it (position)
+      const meta = `data-lcs-seg="${sEsc(it.seg.join('|'))}" data-lcs-silent="${sEsc((it.silent || []).join('|'))}"` + (mode === 'position' ? ` data-lcs-team="${sEsc(r.team)}"` : '');
+      if (mode === 'match') {
+        const others = rotated(A.rows, i, 2).map((x) => x.item);
+        const slot = (i * 2 + 1) % 3, opts = others.slice(); opts.splice(slot, 0, it);
+        const j = it.seg.findIndex((g) => fold(g) === fold(r.team));
+        const word = C5.beadWord({ seg: it.seg, teamIdx: j, px: 40, beadH: 52 });
+        return scrItem(meta, word, opts.map((o, k) => optBtn(k, o.vocabKey, scrPic(fileUri(o.theme, o.noun), o.vocabKey, 84), k === slot)).join(''));
+      }
+      if (mode === 'position') {
+        const bead = `<span style="font-family:'Baloo 2',cursive;font-weight:700;font-size:44px;color:#146B5E;background:#DDEBE8;border-radius:18px;padding:0 20px">${sEsc(r.team)}</span>`;
+        return scrItem(meta, scrPic(src, it.vocabKey) + bead, POS.map((p, k) => optBtn(k, p, posIcon(k), p === r.pos)).join(''));
+      }
+      // base / sort-two / gap: tap the team
+      let top = scrPic(src, it.vocabKey);
+      if (mode === 'gap') {
+        const j = it.seg.findIndex((g) => fold(g) === fold(r.team));
+        const pre = it.seg.slice(0, j).join(''), post = it.seg.slice(j + 1).join('');
+        top += `<span style="font-family:Nunito,sans-serif;font-weight:800;font-size:44px;color:#3A3530;display:flex;align-items:center;gap:6px">${sEsc(pre)}<span style="display:inline-block;width:70px;height:48px;border:3px dashed ${coral};border-radius:12px"></span>${sEsc(post)}</span>`;
+      }
+      const w = A.teams.length === 2 ? 240 : OPT.w;
+      return scrItem(meta, top, A.teams.map((t, k) => optBtn(k, t, sEsc(t), t === r.team, w)).join(''));
+    });
+    out.bodyHtml = scrBody(mode, items.join(''));
+    return out;
+  }
+  // answer key: the print page + a style block marking every answer
+  const css = [];
+  const badge = (content) => `content:"${content}";position:absolute;top:-10px;right:-10px;min-width:30px;height:30px;padding:0 6px;border-radius:15px;background:${coral};color:#fff;font:700 18px/30px 'Baloo 2',cursive;text-align:center;z-index:2`;
+  if (mode === 'base') A.rows.forEach((r, i) => css.push(`[data-lcs-wire="${i + 1}"] [data-lcs-bead][data-lcs-col="${r.col}"]{outline:4px solid ${coral};outline-offset:2px;border-radius:24px}`));
+  if (mode === 'sort-two') { css.push('[data-lcs-card]{position:relative}'); A.rows.forEach((r, i) => css.push(`[data-lcs-card="${i + 1}"]::after{${badge(r.team)}}`)); }
+  if (mode === 'gap') A.rows.forEach((r, i) => css.push(`[data-lcs-gaprow="${i + 1}"] [data-lcs-gapbead]{position:relative}`, `[data-lcs-gaprow="${i + 1}"] [data-lcs-gapbead]::after{content:"${r.team}";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font:700 26px 'Baloo 2',cursive;color:${coral}}`));
+  if (mode === 'match') css.push('[data-lcs-pair]{position:relative}', `[data-lcs-pair]::before{content:attr(data-lcs-pair);position:absolute;top:-8px;left:-8px;min-width:26px;height:26px;border-radius:13px;background:${coral};color:#fff;font:700 16px/26px 'Baloo 2',cursive;text-align:center;z-index:2}`);
+  if (mode === 'position') A.rows.forEach((r, i) => css.push(`[data-lcs-poscard="${i + 1}"] [data-lcs-socket="${POS.indexOf(r.pos)}"]{outline:4px solid ${coral};outline-offset:2px;border-radius:14px}`));
+  if (mode === 'text') {
+    A.sentences.forEach((s, i) => css.push(`[data-lcs-countbox="${i + 1}"]{position:relative}`, `[data-lcs-countbox="${i + 1}"]::after{content:"${s.n}";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font:700 28px 'Baloo 2',cursive;color:${coral}}`));
+    // ring every target in the sentences
+    let html = out.bodyHtml;
+    for (const s of A.sentences) {
+      const plain = `>${esc(s.text)}</p>`;
+      if (!html.includes(plain)) continue;
+      let text = s.text, marked = '', at = 0;
+      for (const tk of s.tokens) {
+        const k = text.indexOf(tk.w, at);
+        if (k < 0) break;
+        marked += esc(text.slice(at, k));
+        let o = 0;
+        for (const g of tk.seg) { const piece = tk.w.slice(o, o + g.length); marked += fold(g) === fold(A.target) ? `<span style="border:3px solid ${coral};border-radius:10px;padding:0 1px">${esc(piece)}</span>` : esc(piece); o += g.length; }
+        at = k + tk.w.length;
+      }
+      marked += esc(text.slice(at));
+      html = html.replace(plain, `>${marked}</p>`);
+    }
+    out.bodyHtml = html;
+  }
+  out.bodyHtml = out.bodyHtml + `<style data-lcs-key>${css.join('')}</style>`;
+  return out;
+}
+/**
+ * The robot gate's INDEPENDENT truth: for each screen item the correct option, recomputed from the item's
+ * SEGMENTATION (the team that is an element of seg; the position after dropping silent graphemes; the
+ * picture whose bank item spells the word), never from the page's answer marks. tap-select (text): a word is
+ * chosen iff the target team is an element of its seg.
+ */
+function digOracle(mode, items, loc) {
+  if (mode === 'text') return items.map((it) => (it.meta['data-lcs-seg'] || '').split('|').some((g) => fold(g) === fold(it.meta['data-lcs-target'])));
+  const B = levelSetBank(loadBank(BANK, loc), loc);
+  return items.map((it) => {
+    const seg = (it.meta['data-lcs-seg'] || '').split('|');
+    let want;
+    if (mode === 'position') {
+      const team = it.meta['data-lcs-team'];
+      want = positionOf({ seg, silent: (it.meta['data-lcs-silent'] || '').split('|').filter(Boolean).map(Number) }, team);
+    } else if (mode === 'match') {
+      // a spelling can name more than one picture (fr "lapin" = rabbit AND bunny): any of them is the word's
+      // picture, and exactly ONE of the offered pictures may be (two would be two right answers)
+      const keys = new Set(Object.values(B.teams).flatMap((t) => t.items).filter((x) => x.seg.join('') === seg.join('')).map((x) => x.vocabKey));
+      const hits = it.options.filter((o) => keys.has(o));
+      if (hits.length !== 1) throw new Error(`oracle: ${seg.join('')} names ${hits.length} of the pictures ${it.options.join('/')}`);
+      want = hits[0];
+    } else {
+      const hits = it.options.filter((t) => seg.some((g) => fold(g) === fold(t)));
+      if (hits.length !== 1) throw new Error(`oracle: ${seg.join('')} holds ${hits.length} of the options ${it.options.join('/')}`);
+      want = hits[0];
+    }
+    const idx = it.options.indexOf(want);
+    if (idx < 0) throw new Error(`oracle: "${want}" not among ${it.options.join('/')} (${seg.join('')})`);
+    return idx;
+  });
+}
+function interactiveFor(mode) {
+  const select = mode === 'text';
+  return {
+    kind: select ? 'tap-select' : 'tap-choice', item: '[data-lcs-item]', option: select ? undefined : '[data-lcs-opt]',
+    answerAttr: select ? 'data-lcs-hit' : 'data-lcs-key', labelAttr: 'data-lcs-word',
+    metaAttrs: ['data-lcs-seg', 'data-lcs-silent', 'data-lcs-team', 'data-lcs-target', 'data-lcs-word'],
+    instructionKey: mode, screenHeight: 3600,
+    oracle: (items, loc) => digOracle(mode, items, (loc || 'en').slice(0, 2)),
+  };
+}
+
 const FACE_BUILD = {
   /* F1 — Sort by Letter Team (K) */
   'sort-two'(B, d, loc, rng) {
@@ -239,7 +419,8 @@ const FACE_BUILD = {
     const cards = order.map((x) => ({ src: fileUri(x.item.theme, x.item.noun), vocabKey: x.item.vocabKey, seg: x.item.seg, snd: x.item.snd, bin: x.col }));
     const cfg = { mode: d.mode, pictures: d.pictures, split: d.split, maxRun: d.maxRun, iconPx: d.iconPx, iconMax: d.iconMax, cardMinH: d.cardMinH, houseBead: d.houseBead, floor: 56 };
     const html = C5.teamHouses({ teams, cards, cfg: d }).html;
-    return { bodyHtml: faceRoot(d.mode, loc, teams, sounds, cfg, html, 'align-items:stretch'), meta: { teams, bins: order.map((x) => x.col), items: order.map((x) => x.item.vocabKey) } };
+    return { bodyHtml: faceRoot(d.mode, loc, teams, sounds, cfg, html, 'align-items:stretch'), meta: { teams, bins: order.map((x) => x.col), items: order.map((x) => x.item.vocabKey) },
+      _ans: { teams, sounds, rows: order.map((x) => ({ item: x.item, team: x.team, col: x.col })) } };
   },
 
   /* F2 — Write the Missing Letter Team (G1) */
@@ -251,9 +432,15 @@ const FACE_BUILD = {
     const pool = facePools(B, loc, teams, sounds, (it, t) => {
       if (printFits(it, t, teams)) return false;
       if (it.noGap) return false;                                             // rule 10: a frame the validator found ambiguous
+      if (d.onlyPos && !d.onlyPos.includes(positionOf(it, t))) return false;  // Level Set: the team at the start (easier) / inside or at the end (harder)
       if ([...it.word].length > d.maxLetters) return false;
       const j = it.seg.findIndex((g) => fold(g) === fold(t));
       if (!d.gapInitialCapital && j === 0 && /^\p{Lu}/u.test(it.seg[0])) return false;   // the capital rule
+      if (B.sets.ls) {   // Level Set team sets only (the published pools are untouched): the verify() rules, applied before the draw
+        const rest = it.seg.filter((_, k) => k !== j).join('');
+        if (!rest) return false;                                              // nl "ui": the team IS the word — nothing left to print
+        if (teams.some((u) => fold(rest).includes(fold(u)))) return false;    // pt "pintinho": the team's letters still printed
+      }
       return true;
     });
     teams.forEach((t) => need(pool[t].length >= d.perTeam[1], `${loc} team "${t}" has ${pool[t].length} gap-eligible items < ${d.perTeam[1]} (refuse)`));
@@ -270,7 +457,8 @@ const FACE_BUILD = {
     const cfg = { mode: d.mode, rows: d.rows, perTeam: d.perTeam, maxRun: d.maxRun, bead: { w: beadW, h: d.beadH }, wordPx: d.wordPx, iconPx: d.iconPx, capPx: d.capPx, maxLetters: d.maxLetters, xHeight: METRICS.xHeight };
     const inner = `<div style="display:flex;justify-content:center;flex:0 0 auto;margin-bottom:${d.bankGap}px">${bank}</div>` +
       `<div data-lcs-gaprows style="flex:1 1 auto;min-height:0;width:${d.laneW}px;align-self:center;display:grid;grid-template-rows:repeat(${d.rows},minmax(${d.rowMin}px,1fr))">${rows}</div>`;
-    return { bodyHtml: faceRoot(d.mode, loc, teams, sounds, cfg, inner, 'align-items:stretch'), meta: { teams, cols: order.map((x) => x.col), items: order.map((x) => x.item.vocabKey) } };
+    return { bodyHtml: faceRoot(d.mode, loc, teams, sounds, cfg, inner, 'align-items:stretch'), meta: { teams, cols: order.map((x) => x.col), items: order.map((x) => x.item.vocabKey) },
+      _ans: { teams, sounds, rows: order.map((x) => ({ item: x.item, team: x.team, col: x.col })) } };
   },
 
   /* F3 — Read and Match (G1) */
@@ -302,7 +490,8 @@ const FACE_BUILD = {
     const cfg = { mode: d.mode, pairs: d.pairs, perPair: d.perPair, wordPx: d.wordPx, beadH: d.beadH, iconPx: d.iconPx, maxLetters: d.maxLetters, itemMinH: d.itemMinH, wordMaxW: d.wordMaxW };
     const inner = `<div class="ws-match" data-lcs-matchboard style="padding:6px 30px;min-height:0"><div class="ws-match-col" data-lcs-col="L" style="justify-content:flex-start">${L}</div>` +
       `<div class="ws-match-col" data-lcs-col="R" style="justify-content:flex-start">${R}</div></div>`;
-    return { bodyHtml: faceRoot(d.mode, loc, teams, sounds, cfg, inner, 'align-items:stretch'), meta: { teams, rowR, items: left.map((x) => x.item.vocabKey) } };
+    return { bodyHtml: faceRoot(d.mode, loc, teams, sounds, cfg, inner, 'align-items:stretch'), meta: { teams, rowR, items: left.map((x) => x.item.vocabKey) },
+      _ans: { teams, sounds, rows: left.map((x) => ({ item: x.item, team: x.team, col: x.col })) } };
   },
 
   /* F4 — Where Is the Letter Team? (G1) */
@@ -316,8 +505,9 @@ const FACE_BUILD = {
     const pool = facePools(B, loc, teams, sounds, (it, t) => positionOf(it, t) !== null);
     const cands = [];
     for (const t of teams) for (const it of pool[t]) cands.push({ item: it, team: t, pos: positionOf(it, t) });
-    for (const p of POS) need(cands.filter((c) => c.pos === p).length >= d.posSplit[1], `${loc}: position "${p}" reached by < ${d.posSplit[1]} items (refuse F4)`);
-    const posVecs = countVectors(3, d.posSplit[0], d.posSplit[1], d.cards), teamVecs = countVectors(3, d.teamSplit[0], d.teamSplit[1], d.cards);
+    for (const p of POS) need(cands.filter((c) => c.pos === p).length >= (d.minMiddle ? (p === 'middle' ? d.minMiddle : d.posSplit[0]) : d.posSplit[1]), `${loc}: position "${p}" reached by too few items (refuse F4)`);
+    // Level Set (harder): at least `minMiddle` cards hide the team INSIDE the word (the hardest place to hear it)
+    const posVecs = countVectors(3, d.posSplit[0], d.posSplit[1], d.cards).filter((v) => !d.minMiddle || v[1] >= d.minMiddle), teamVecs = countVectors(3, d.teamSplit[0], d.teamSplit[1], d.cards);
     let drawn = null;
     for (let tr = 0; tr < TRIES && !drawn; tr++) {
       const pc = d.forcePos ? POS.map((p) => d.forcePos.filter((x) => x === p).length) : rng.pick(posVecs), tc = d.forcePos ? [d.cards, d.cards, d.cards] : rng.pick(teamVecs);
@@ -347,7 +537,8 @@ const FACE_BUILD = {
     const cfg = { mode: d.mode, cards: d.cards, posSplit: d.posSplit, teamSplit: d.teamSplit, maxRun: d.maxRun, cols: d.cols, iconPx: d.iconPx, socket: d.socket, teamBead: d.teamBead, cue: d.cue };
     const inner = `<div data-lcs-cardgrid style="flex:1 1 auto;min-height:0;display:grid;grid-template-columns:repeat(${d.cols},${d.cardW}px);column-gap:${d.colGap}px;` +
       `grid-template-rows:repeat(${d.cards / d.cols},minmax(${d.cardMinH}px,1fr));row-gap:${d.rowGap}px;justify-content:center">${cards}</div>`;
-    return { bodyHtml: faceRoot(d.mode, loc, teams, sounds, cfg, inner, 'align-items:stretch'), meta: { teams, pos: order.map((x) => x.pos), items: order.map((x) => x.item.vocabKey) } };
+    return { bodyHtml: faceRoot(d.mode, loc, teams, sounds, cfg, inner, 'align-items:stretch'), meta: { teams, pos: order.map((x) => x.pos), items: order.map((x) => x.item.vocabKey) },
+      _ans: { teams, sounds, rows: order.map((x) => ({ item: x.item, team: x.team, pos: x.pos })) } };
   },
 
   /* F5 — Letter Teams in Sentences (G2) */
@@ -375,7 +566,8 @@ const FACE_BUILD = {
     const cfg = { mode: d.mode, sentences: d.sentences, target, hitsPerSentence: d.hitsPerSentence, total: d.total, textPx: d.textPx, lineH: d.lineH, maxLines: d.maxLines, box: d.box };
     const inner = head + `<div data-lcs-lanes style="flex:1 1 auto;min-height:0;container-type:size;display:flex;flex-direction:column;gap:${d.laneGap}px">` +
       lanes + `</div>`;
-    return { bodyHtml: faceRoot(d.mode, loc, [target], { [target]: (B.teams && B.teams[target] && B.teams[target].sound) || [] }, cfg, inner, 'align-items:stretch'), meta: { target, counts: pick.map((s) => s.n), items: pick.map((s) => s.id) } };
+    return { bodyHtml: faceRoot(d.mode, loc, [target], { [target]: (B.teams && B.teams[target] && B.teams[target].sound) || [] }, cfg, inner, 'align-items:stretch'), meta: { target, counts: pick.map((s) => s.n), items: pick.map((s) => s.id) },
+      _ans: { target, sentences: pick } };
   },
 };
 
@@ -646,16 +838,52 @@ const TYPE = {
     },
   },
 
+  interactive: interactiveFor('base'),
+  interactiveFor,
+
   build({ difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
     if (DIGRAPHS_NEUTRAL.REFUSED_LOCALES.includes(loc)) throw new Error(`${ID}: ${loc} is REFUSED whole-family (design §1: its teams are owned by spelling-rules / syllable-reading or fall below 3 teams x 6 pictured words) — refuse`);
     const fd = this.difficulty[difficulty];
     if (fd && fd.mode !== 'base' && (DIGRAPHS_NEUTRAL.FACE_REFUSALS[loc] || []).includes(fd.mode)) throw new Error(`${ID}: ${loc} REFUSES the ${fd.mode} face (design §3 / §7) — refuse`);
-    return this._buildWith(loadBank(BANK, loc), this.difficulty[difficulty], { locale: loc }, ctx);
+    // Level Set 2026-09-28: every page but the published one (level 2, copy 1) is a NEW copy on team set
+    // `seedVariant` (group 1 = the published teams, then the native panels' new sets)
+    const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (published) return this._buildWith(loadBank(BANK, loc), this.difficulty[difficulty], { locale: loc }, ctx);
+    const { B, d } = levelSetPage(loadBank(BANK, loc), this.difficulty[difficulty], loc, (ctx && ctx.seedVariant) || 1);
+    return this._buildWith(B, d, { locale: loc }, ctx);
+  },
+
+  /** Level Set: a copy's title names ITS teams (the native template with {TEAMS_AND} {TEAMS_OR} {K_OR} {K_AND} {TARGET}). */
+  copyStrings(strings, { locale, difficulty, variant, seedVariant }) {
+    const loc = (locale || 'en').slice(0, 2);
+    if (difficulty === 2 && (variant || 1) === 1) return strings;
+    const L = levelSetData(loc);
+    const tpl = L && L.titles && L.titles[this.id];
+    if (!tpl) throw new Error(`${ID}: ${loc} has no level-set title template for ${this.id}`);
+    const { makeRng } = require('../../lib/rng.js');
+    const m = this.build({ difficulty, locale: loc }, { rng: makeRng('title'), variant: variant || 2, seedVariant }).meta;
+    const teams = m.teams || [m.target];
+    const list = (xs, w) => (xs.length < 2 ? xs.join('') : xs.slice(0, -1).join(', ') + ' ' + w + ' ' + xs[xs.length - 1]);
+    const title = tpl.replace('{TEAMS_AND}', list(teams, L.and)).replace('{TEAMS_OR}', list(teams, L.or)).replace('{K_OR}', list(teams, L.or)).replace('{K_AND}', list(teams, L.and)).replace('{TARGET}', m.target || teams[0]);
+    // the printed instruction of two faces names the PUBLISHED team(s) ("Circle every sh", nl "oe of ui"):
+    // swap in this page's own, and refuse a page whose instruction would still name a team it does not ask about
+    const pubSets = loadBank('digraphs', loc).sets;
+    const word = (t) => new RegExp(String.raw`(?<!\p{L})` + t + String.raw`(?!\p{L})`, 'u');
+    let instruction = strings.instruction;
+    if (this.id === 'G2-372') instruction = instruction.replace(word(pubSets.exemplar[0]), m.target);
+    if (this.id === 'K-378') instruction = instruction.replace(list(pubSets.k, L.or), list(teams, L.or));
+    if (instruction !== strings.instruction || this.id === 'G2-372' || this.id === 'K-378') {
+      const asked = new Set(this.id === 'G2-372' ? [m.target] : teams);
+      const stale = [...new Set([...pubSets.exemplar, ...pubSets.k])].filter((t) => !asked.has(t) && word(t).test(instruction) && !(loc === 'fr' && t === 'ou'));
+      if (stale.length) throw new Error(`${this.id} ${loc}: the instruction still names ${stale.join(', ')}: ${instruction}`);
+    }
+    return { ...strings, title, instruction };
   },
 
   /** The whole build over an INJECTED bank + resolved config (the gate's poison seam). */
   _buildWith(B, d, { locale }, ctx) {
+    if (ctx && (ctx.interactive || ctx.answerKey) && (!d || d.mode === 'base')) return screenOrKey('base', this._buildWith(B, d, { locale }, { ...ctx, interactive: false, answerKey: false }), ctx, (locale || 'en').slice(0, 2));
     if (!d) throw new Error(`${ID}: no difficulty config`);
     const loc = (locale || 'en').slice(0, 2);
     const rng = ctx && ctx.rng;
@@ -665,7 +893,7 @@ const TYPE = {
     if (d.mode !== 'base') {   // a Phase-E face (the base path below is untouched)
       if (!FACE_MODES.includes(d.mode)) throw new Error(`${ID}: unknown mode "${d.mode}"`);
       if ((DIGRAPHS_NEUTRAL.FACE_REFUSALS[loc] || []).includes(d.mode)) throw new Error(`${ID}: ${loc} REFUSES the ${d.mode} face (design §3 / §7) — refuse`);
-      return FACE_BUILD[d.mode](B, d, loc, rng);
+      return screenOrKey(d.mode, FACE_BUILD[d.mode](B, d, loc, rng), ctx, loc);
     }
     // guards on the RESOLVED config
     if (d.showWord) throw new Error(`${ID}: showWord — the base never prints a word`);
@@ -740,7 +968,8 @@ const TYPE = {
     const bodyHtml = `<div data-ws-content data-lcs-type="${KEY}" data-lcs-face="base" data-lcs-locale="${loc}" data-lcs-teams="${teams.join('|')}" ` +
       `data-lcs-sounds='${js(sounds)}' data-lcs-cfg='${js(cfgStamp)}' ` +
       `style="flex:1;min-height:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-start">` + ab.html + `</div>`;
-    return { bodyHtml, meta: { teams, counts, cols: order.map((x) => x.col), items: order.map((x) => x.item.vocabKey) } };
+    return { bodyHtml, meta: { teams, counts, cols: order.map((x) => x.col), items: order.map((x) => x.item.vocabKey) },
+      _ans: { teams, sounds, rows: order.map((x) => ({ item: x.item, team: x.team, col: x.col })) } };
   },
 
   async verify(page) {

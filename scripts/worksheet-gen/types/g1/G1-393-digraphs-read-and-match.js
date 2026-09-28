@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G1-393',
   slug: 'digraphs-read-and-match',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-28: L1 four words over two teams · L2 published
+  difficulty: { 1: { ...D, pairs: 4, teams: 2, perPair: 2 }, 2: D, 3: D },
+  interactive: base.interactiveFor('match'),
   i18n: { en: { title: "Read Digraph Words and Match the Pictures", instruction: "Read each word. The letter team is marked. Draw a line to the picture the word names." } },
   gradeBand: "G1",
 };

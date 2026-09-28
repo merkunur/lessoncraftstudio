@@ -1,0 +1,8 @@
+{
+  "tapFix": "Trykk på Aa og så på hvert ord som skal ha stor bokstav. Trykk så på riktig skilletegn og på det siste ordet.",
+  "tapFixRunOn": "Finn ut hvor den første setningen slutter. Sett riktig skilletegn der og på slutten. Trykk på Aa og gi setningene stor bokstav.",
+  "notes": [
+    "Bokmål; 'riktig skilletegn' and 'stor bokstav' reused from the printed sheets.",
+    "English source audit: 'a mark' is vague (the child may not link it to the . ? ! buttons) — say 'the right end mark'; tapFix 'the word it goes after' is the last word on a one-sentence row, so 'the last word' is simpler; tapFixRunOn never mentions the Aa button — add 'Tap Aa' so the child knows how capitals are given; 'give each sentence its capital letters' is fine because names also need capitals."
+  ]
+}

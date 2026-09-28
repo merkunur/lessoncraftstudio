@@ -1,0 +1,13 @@
+TASK: write the on-screen instruction for the INTERACTIVE version of five "fix the sentence" worksheets (capital letters and punctuation), for children aged 7-8 (second grade), in your language(s).
+
+On screen: each row shows a picture and a sentence written as separate word buttons, all lowercase and with no end mark (on two worksheets, two sentences have run together into one row). Above the rows is a tool bar: a button "Aa" and one to three mark buttons (. ? !). The child taps "Aa" and then every word that needs a capital letter (the first word, names — and in German every noun); then taps a mark and the word it belongs AFTER. Tapping a word again undoes it. Then the child presses Check: each sentence turns green (right) or red (wrong). The tool bar has no words, only Aa . ? !
+
+Read the PRINTED title + instruction of each worksheet in your language (C:\Users\rkgen\lessoncraftstudio\scripts\worksheet-gen\tools\level-set-cap\printed-strings.json) and reuse their key terms (capital letter, full stop/period, question mark, end mark, sentence …) and register.
+
+Write TWO strings per language:
+- "tapFix" (one sentence per row): tap Aa and then the words that need a capital letter; tap the right mark and then the last word.
+- "tapFixRunOn" (two sentences ran together): find where the first sentence ends; put the right mark there and at the end, and give each sentence its capital letters.
+Rules: short sentences a second grader can read; imperative to the child; mention the Aa button by its label "Aa"; max 140 characters each; no digits; no quotation marks; gender-neutral.
+Also audit the English source (tapFix: "Tap Aa, then tap each word that needs a capital letter. Then tap a mark and the word it goes after." · tapFixRunOn: "Find where the first sentence ends. Put a mark there and at the end. Then give each sentence its capital letters.").
+
+Write ONLY the file(s) named in your task as JSON {"tapFix": "...", "tapFixRunOn": "...", "notes": ["..."]}, UTF-8, verify each parses with node. Final reply: the strings, one per line, under 120 words.

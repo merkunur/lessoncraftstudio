@@ -1,0 +1,2210 @@
+{
+ "en": [
+  {
+   "id": "ls-L1",
+   "frame": "The {noun} is under the bed.",
+   "filled": [
+    "The bat is under the bed.",
+    "The avocado is under the bed.",
+    "The bulldozer is under the bed.",
+    "The coat is under the bed."
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "frame": "We saw the {noun} in the garden.",
+   "filled": [
+    "We saw the bat in the garden.",
+    "We saw the avocado in the garden.",
+    "We saw the bulldozer in the garden.",
+    "We saw the coat in the garden."
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "frame": "Dad took the {noun} out of the car.",
+   "filled": [
+    "Dad took the bat out of the car.",
+    "Dad took the avocado out of the car.",
+    "Dad took the bulldozer out of the car.",
+    "Dad took the coat out of the car."
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "frame": "The {noun} got wet in the rain.",
+   "filled": [
+    "The bat got wet in the rain.",
+    "The avocado got wet in the rain.",
+    "The bulldozer got wet in the rain.",
+    "The coat got wet in the rain."
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "frame": "Our teacher drew three {noun} on the board.",
+   "filled": [
+    "Our teacher drew three bats on the board.",
+    "Our teacher drew three avocados on the board.",
+    "Our teacher drew three bulldozers on the board.",
+    "Our teacher drew three coats on the board."
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "frame": "I left my {noun} at the park.",
+   "filled": [
+    "I left my bat at the park.",
+    "I left my avocado at the park.",
+    "I left my bulldozer at the park.",
+    "I left my coat at the park."
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "frame": "Four {noun} are on the table.",
+   "filled": [
+    "Four bats are on the table.",
+    "Four avocados are on the table.",
+    "Four bulldozers are on the table.",
+    "Four coats are on the table."
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "frame": "The shop has five {noun} in the window.",
+   "filled": [
+    "The shop has five bats in the window.",
+    "The shop has five avocados in the window.",
+    "The shop has five bulldozers in the window.",
+    "The shop has five coats in the window."
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "frame": "{name} brought the {noun} to school.",
+   "filled": [
+    "Mia brought the bat to school.",
+    "Mia brought the avocado to school.",
+    "Mia brought the bulldozer to school.",
+    "Mia brought the coat to school."
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "frame": "{name} hid the {noun} behind the door.",
+   "filled": [
+    "Mia hid the bat behind the door.",
+    "Mia hid the avocado behind the door.",
+    "Mia hid the bulldozer behind the door.",
+    "Mia hid the coat behind the door."
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "frame": "{name} counted six {noun} at the farm.",
+   "filled": [
+    "Mia counted six bats at the farm.",
+    "Mia counted six avocados at the farm.",
+    "Mia counted six bulldozers at the farm.",
+    "Mia counted six coats at the farm."
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "frame": "{name} wants to hold the {noun}.",
+   "filled": [
+    "Mia wants to hold the bat.",
+    "Mia wants to hold the avocado.",
+    "Mia wants to hold the bulldozer.",
+    "Mia wants to hold the coat."
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "frame": "{name} will carry the {noun} home.",
+   "filled": [
+    "Mia will carry the bat home.",
+    "Mia will carry the avocado home.",
+    "Mia will carry the bulldozer home.",
+    "Mia will carry the coat home."
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "frame": "{name} drew the {noun} with a red pen.",
+   "filled": [
+    "Mia drew the bat with a red pen.",
+    "Mia drew the avocado with a red pen.",
+    "Mia drew the bulldozer with a red pen.",
+    "Mia drew the coat with a red pen."
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "frame": "{name} gave the {noun} to {name}.",
+   "filled": [
+    "Mia gave the bat to Ben.",
+    "Mia gave the avocado to Ben.",
+    "Mia gave the bulldozer to Ben.",
+    "Mia gave the coat to Ben."
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "frame": "{name} and {name} looked at the {noun} together.",
+   "filled": [
+    "Mia and Ben looked at the bat together.",
+    "Mia and Ben looked at the avocado together.",
+    "Mia and Ben looked at the bulldozer together.",
+    "Mia and Ben looked at the coat together."
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "frame": "Who took my {noun}?",
+   "filled": [
+    "Who took my bat?",
+    "Who took my avocado?",
+    "Who took my bulldozer?",
+    "Who took my coat?"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "frame": "Why is the {noun} on the floor?",
+   "filled": [
+    "Why is the bat on the floor?",
+    "Why is the avocado on the floor?",
+    "Why is the bulldozer on the floor?",
+    "Why is the coat on the floor?"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "frame": "How many {noun} are in the bag?",
+   "filled": [
+    "How many bats are in the bag?",
+    "How many avocados are in the bag?",
+    "How many bulldozers are in the bag?",
+    "How many coats are in the bag?"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "frame": "What a big {noun} that is!",
+   "filled": [
+    "What a big bat that is!",
+    "What a big avocado that is!",
+    "What a big bulldozer that is!",
+    "What a big coat that is!"
+   ]
+  }
+ ],
+ "de": [
+  {
+   "id": "ls-L1",
+   "frame": "Die {noun} sind unter dem Tisch.",
+   "filled": [
+    "Die Fledermäuse sind unter dem Tisch.",
+    "Die Avocados sind unter dem Tisch.",
+    "Die Autos sind unter dem Tisch.",
+    "Die Kleider sind unter dem Tisch."
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "frame": "Wir sehen die {noun} im Garten.",
+   "filled": [
+    "Wir sehen die Fledermäuse im Garten.",
+    "Wir sehen die Avocados im Garten.",
+    "Wir sehen die Autos im Garten.",
+    "Wir sehen die Kleider im Garten."
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "frame": "Papa holt die {noun} aus dem Auto.",
+   "filled": [
+    "Papa holt die Fledermäuse aus dem Auto.",
+    "Papa holt die Avocados aus dem Auto.",
+    "Papa holt die Autos aus dem Auto.",
+    "Papa holt die Kleider aus dem Auto."
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "frame": "Die {noun} werden im Regen nass.",
+   "filled": [
+    "Die Fledermäuse werden im Regen nass.",
+    "Die Avocados werden im Regen nass.",
+    "Die Autos werden im Regen nass.",
+    "Die Kleider werden im Regen nass."
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "frame": "Unsere Lehrerin malt drei {noun} an die Tafel.",
+   "filled": [
+    "Unsere Lehrerin malt drei Fledermäuse an die Tafel.",
+    "Unsere Lehrerin malt drei Avocados an die Tafel.",
+    "Unsere Lehrerin malt drei Autos an die Tafel.",
+    "Unsere Lehrerin malt drei Kleider an die Tafel."
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "frame": "Ich habe meine {noun} im Park vergessen.",
+   "filled": [
+    "Ich habe meine Fledermäuse im Park vergessen.",
+    "Ich habe meine Avocados im Park vergessen.",
+    "Ich habe meine Autos im Park vergessen.",
+    "Ich habe meine Kleider im Park vergessen."
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "frame": "Vier {noun} sind auf dem Bild.",
+   "filled": [
+    "Vier Fledermäuse sind auf dem Bild.",
+    "Vier Avocados sind auf dem Bild.",
+    "Vier Autos sind auf dem Bild.",
+    "Vier Kleider sind auf dem Bild."
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "frame": "Im Laden gibt es fünf {noun}.",
+   "filled": [
+    "Im Laden gibt es fünf Fledermäuse.",
+    "Im Laden gibt es fünf Avocados.",
+    "Im Laden gibt es fünf Autos.",
+    "Im Laden gibt es fünf Kleider."
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "frame": "{name} bringt die {noun} in die Schule.",
+   "filled": [
+    "Emma bringt die Fledermäuse in die Schule.",
+    "Emma bringt die Avocados in die Schule.",
+    "Emma bringt die Autos in die Schule.",
+    "Emma bringt die Kleider in die Schule."
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "frame": "{name} versteckt die {noun} hinter der Tür.",
+   "filled": [
+    "Emma versteckt die Fledermäuse hinter der Tür.",
+    "Emma versteckt die Avocados hinter der Tür.",
+    "Emma versteckt die Autos hinter der Tür.",
+    "Emma versteckt die Kleider hinter der Tür."
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "frame": "{name} findet sechs {noun} auf dem Bauernhof.",
+   "filled": [
+    "Emma findet sechs Fledermäuse auf dem Bauernhof.",
+    "Emma findet sechs Avocados auf dem Bauernhof.",
+    "Emma findet sechs Autos auf dem Bauernhof.",
+    "Emma findet sechs Kleider auf dem Bauernhof."
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "frame": "{name} möchte die {noun} halten.",
+   "filled": [
+    "Emma möchte die Fledermäuse halten.",
+    "Emma möchte die Avocados halten.",
+    "Emma möchte die Autos halten.",
+    "Emma möchte die Kleider halten."
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "frame": "{name} trägt die {noun} nach Hause.",
+   "filled": [
+    "Emma trägt die Fledermäuse nach Hause.",
+    "Emma trägt die Avocados nach Hause.",
+    "Emma trägt die Autos nach Hause.",
+    "Emma trägt die Kleider nach Hause."
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "frame": "{name} zeichnet die {noun} mit einem roten Stift.",
+   "filled": [
+    "Emma zeichnet die Fledermäuse mit einem roten Stift.",
+    "Emma zeichnet die Avocados mit einem roten Stift.",
+    "Emma zeichnet die Autos mit einem roten Stift.",
+    "Emma zeichnet die Kleider mit einem roten Stift."
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "frame": "{name} gibt {name} die {noun}.",
+   "filled": [
+    "Emma gibt Ben die Fledermäuse.",
+    "Emma gibt Ben die Avocados.",
+    "Emma gibt Ben die Autos.",
+    "Emma gibt Ben die Kleider."
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "frame": "{name} und {name} schauen die {noun} zusammen an.",
+   "filled": [
+    "Emma und Ben schauen die Fledermäuse zusammen an.",
+    "Emma und Ben schauen die Avocados zusammen an.",
+    "Emma und Ben schauen die Autos zusammen an.",
+    "Emma und Ben schauen die Kleider zusammen an."
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "frame": "Wer hat meine {noun} genommen?",
+   "filled": [
+    "Wer hat meine Fledermäuse genommen?",
+    "Wer hat meine Avocados genommen?",
+    "Wer hat meine Autos genommen?",
+    "Wer hat meine Kleider genommen?"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "frame": "Warum sind die {noun} auf dem Boden?",
+   "filled": [
+    "Warum sind die Fledermäuse auf dem Boden?",
+    "Warum sind die Avocados auf dem Boden?",
+    "Warum sind die Autos auf dem Boden?",
+    "Warum sind die Kleider auf dem Boden?"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "frame": "Wie viele {noun} sind in der Tasche?",
+   "filled": [
+    "Wie viele Fledermäuse sind in der Tasche?",
+    "Wie viele Avocados sind in der Tasche?",
+    "Wie viele Autos sind in der Tasche?",
+    "Wie viele Kleider sind in der Tasche?"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "frame": "Wie groß die {noun} sind!",
+   "filled": [
+    "Wie groß die Fledermäuse sind!",
+    "Wie groß die Avocados sind!",
+    "Wie groß die Autos sind!",
+    "Wie groß die Kleider sind!"
+   ]
+  }
+ ],
+ "es": [
+  {
+   "id": "ls-L1",
+   "frame": "Mi abuela guarda tres {noun} en el armario.",
+   "filled": [
+    "Mi abuela guarda tres murciélagos en el armario.",
+    "Mi abuela guarda tres aguacates en el armario.",
+    "Mi abuela guarda tres bulldozers en el armario.",
+    "Mi abuela guarda tres abrigos en el armario."
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "frame": "En la granja vimos cinco {noun}.",
+   "filled": [
+    "En la granja vimos cinco murciélagos.",
+    "En la granja vimos cinco aguacates.",
+    "En la granja vimos cinco bulldozers.",
+    "En la granja vimos cinco abrigos."
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "frame": "Hoy dibujamos ocho {noun} en clase.",
+   "filled": [
+    "Hoy dibujamos ocho murciélagos en clase.",
+    "Hoy dibujamos ocho aguacates en clase.",
+    "Hoy dibujamos ocho bulldozers en clase.",
+    "Hoy dibujamos ocho abrigos en clase."
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "frame": "Papá compró seis {noun} en la tienda.",
+   "filled": [
+    "Papá compró seis murciélagos en la tienda.",
+    "Papá compró seis aguacates en la tienda.",
+    "Papá compró seis bulldozers en la tienda.",
+    "Papá compró seis abrigos en la tienda."
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "frame": "Mi {noun} está debajo de la cama.",
+   "filled": [
+    "Mi murciélago está debajo de la cama.",
+    "Mi aguacate está debajo de la cama.",
+    "Mi bulldozer está debajo de la cama.",
+    "Mi abrigo está debajo de la cama."
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "frame": "Llueve y dejé mi {noun} en el patio.",
+   "filled": [
+    "Llueve y dejé mi murciélago en el patio.",
+    "Llueve y dejé mi aguacate en el patio.",
+    "Llueve y dejé mi bulldozer en el patio.",
+    "Llueve y dejé mi abrigo en el patio."
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "frame": "En el parque encontramos siete {noun}.",
+   "filled": [
+    "En el parque encontramos siete murciélagos.",
+    "En el parque encontramos siete aguacates.",
+    "En el parque encontramos siete bulldozers.",
+    "En el parque encontramos siete abrigos."
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "frame": "La maestra pone nueve {noun} en la mesa.",
+   "filled": [
+    "La maestra pone nueve murciélagos en la mesa.",
+    "La maestra pone nueve aguacates en la mesa.",
+    "La maestra pone nueve bulldozers en la mesa.",
+    "La maestra pone nueve abrigos en la mesa."
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "frame": "{name} guarda su {noun} en la mochila.",
+   "filled": [
+    "Sofía guarda su murciélago en la mochila.",
+    "Sofía guarda su aguacate en la mochila.",
+    "Sofía guarda su bulldozer en la mochila.",
+    "Sofía guarda su abrigo en la mochila."
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "frame": "{name} lleva cuatro {noun} a la escuela.",
+   "filled": [
+    "Sofía lleva cuatro murciélagos a la escuela.",
+    "Sofía lleva cuatro aguacates a la escuela.",
+    "Sofía lleva cuatro bulldozers a la escuela.",
+    "Sofía lleva cuatro abrigos a la escuela."
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "frame": "El domingo {name} pinta su {noun}.",
+   "filled": [
+    "El domingo Sofía pinta su murciélago.",
+    "El domingo Sofía pinta su aguacate.",
+    "El domingo Sofía pinta su bulldozer.",
+    "El domingo Sofía pinta su abrigo."
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "frame": "{name} encontró diez {noun} en el jardín.",
+   "filled": [
+    "Sofía encontró diez murciélagos en el jardín.",
+    "Sofía encontró diez aguacates en el jardín.",
+    "Sofía encontró diez bulldozers en el jardín.",
+    "Sofía encontró diez abrigos en el jardín."
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "frame": "Mañana {name} traerá tres {noun}.",
+   "filled": [
+    "Mañana Sofía traerá tres murciélagos.",
+    "Mañana Sofía traerá tres aguacates.",
+    "Mañana Sofía traerá tres bulldozers.",
+    "Mañana Sofía traerá tres abrigos."
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "frame": "{name} ve cinco {noun} por la ventana.",
+   "filled": [
+    "Sofía ve cinco murciélagos por la ventana.",
+    "Sofía ve cinco aguacates por la ventana.",
+    "Sofía ve cinco bulldozers por la ventana.",
+    "Sofía ve cinco abrigos por la ventana."
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "frame": "{name} le presta su {noun} a {name}.",
+   "filled": [
+    "Sofía le presta su murciélago a Mateo.",
+    "Sofía le presta su aguacate a Mateo.",
+    "Sofía le presta su bulldozer a Mateo.",
+    "Sofía le presta su abrigo a Mateo."
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "frame": "{name} y {name} esconden ocho {noun}.",
+   "filled": [
+    "Sofía y Mateo esconden ocho murciélagos.",
+    "Sofía y Mateo esconden ocho aguacates.",
+    "Sofía y Mateo esconden ocho bulldozers.",
+    "Sofía y Mateo esconden ocho abrigos."
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "frame": "¿Cuándo vas a traer tu {noun}?",
+   "filled": [
+    "¿Cuándo vas a traer tu murciélago?",
+    "¿Cuándo vas a traer tu aguacate?",
+    "¿Cuándo vas a traer tu bulldozer?",
+    "¿Cuándo vas a traer tu abrigo?"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "frame": "¿Por qué hay siete {noun} en el suelo?",
+   "filled": [
+    "¿Por qué hay siete murciélagos en el suelo?",
+    "¿Por qué hay siete aguacates en el suelo?",
+    "¿Por qué hay siete bulldozers en el suelo?",
+    "¿Por qué hay siete abrigos en el suelo?"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "frame": "¿Adónde llevas tus {noun}?",
+   "filled": [
+    "¿Adónde llevas tus murciélagos?",
+    "¿Adónde llevas tus aguacates?",
+    "¿Adónde llevas tus bulldozers?",
+    "¿Adónde llevas tus abrigos?"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "frame": "¡Qué alegría ver seis {noun}!",
+   "filled": [
+    "¡Qué alegría ver seis murciélagos!",
+    "¡Qué alegría ver seis aguacates!",
+    "¡Qué alegría ver seis bulldozers!",
+    "¡Qué alegría ver seis abrigos!"
+   ]
+  }
+ ],
+ "fr": [
+  {
+   "id": "ls-L1",
+   "frame": "Papa achète six {noun} au marché.",
+   "filled": [
+    "Papa achète six chauves-souris au marché.",
+    "Papa achète six avocats au marché.",
+    "Papa achète six bulldozers au marché.",
+    "Papa achète six manteaux au marché."
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "frame": "Nous voyons huit {noun} à la ferme.",
+   "filled": [
+    "Nous voyons huit chauves-souris à la ferme.",
+    "Nous voyons huit avocats à la ferme.",
+    "Nous voyons huit bulldozers à la ferme.",
+    "Nous voyons huit manteaux à la ferme."
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "frame": "La maîtresse range les {noun} dans l'armoire.",
+   "filled": [
+    "La maîtresse range les chauves-souris dans l'armoire.",
+    "La maîtresse range les avocats dans l'armoire.",
+    "La maîtresse range les bulldozers dans l'armoire.",
+    "La maîtresse range les manteaux dans l'armoire."
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "frame": "Il pleut et mes {noun} sont dans le jardin.",
+   "filled": [
+    "Il pleut et mes chauves-souris sont dans le jardin.",
+    "Il pleut et mes avocats sont dans le jardin.",
+    "Il pleut et mes bulldozers sont dans le jardin.",
+    "Il pleut et mes manteaux sont dans le jardin."
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "frame": "Chaque {noun} a sa place sur l'étagère.",
+   "filled": [
+    "Chaque chauve-souris a sa place sur l'étagère.",
+    "Chaque avocat a sa place sur l'étagère.",
+    "Chaque bulldozer a sa place sur l'étagère.",
+    "Chaque manteau a sa place sur l'étagère."
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "frame": "Nous dessinons dix {noun} en classe.",
+   "filled": [
+    "Nous dessinons dix chauves-souris en classe.",
+    "Nous dessinons dix avocats en classe.",
+    "Nous dessinons dix bulldozers en classe.",
+    "Nous dessinons dix manteaux en classe."
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "frame": "Mon frère cache sept {noun} sous le lit.",
+   "filled": [
+    "Mon frère cache sept chauves-souris sous le lit.",
+    "Mon frère cache sept avocats sous le lit.",
+    "Mon frère cache sept bulldozers sous le lit.",
+    "Mon frère cache sept manteaux sous le lit."
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "frame": "Maman met cinq {noun} dans le panier.",
+   "filled": [
+    "Maman met cinq chauves-souris dans le panier.",
+    "Maman met cinq avocats dans le panier.",
+    "Maman met cinq bulldozers dans le panier.",
+    "Maman met cinq manteaux dans le panier."
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "frame": "{name} range ses {noun} dans son sac.",
+   "filled": [
+    "Léa range ses chauves-souris dans son sac.",
+    "Léa range ses avocats dans son sac.",
+    "Léa range ses bulldozers dans son sac.",
+    "Léa range ses manteaux dans son sac."
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "frame": "{name} apporte trois {noun} à l'école.",
+   "filled": [
+    "Léa apporte trois chauves-souris à l'école.",
+    "Léa apporte trois avocats à l'école.",
+    "Léa apporte trois bulldozers à l'école.",
+    "Léa apporte trois manteaux à l'école."
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "frame": "Ce matin {name} a trouvé neuf {noun}.",
+   "filled": [
+    "Ce matin Léa a trouvé neuf chauves-souris.",
+    "Ce matin Léa a trouvé neuf avocats.",
+    "Ce matin Léa a trouvé neuf bulldozers.",
+    "Ce matin Léa a trouvé neuf manteaux."
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "frame": "{name} cherche ses {noun} partout.",
+   "filled": [
+    "Léa cherche ses chauves-souris partout.",
+    "Léa cherche ses avocats partout.",
+    "Léa cherche ses bulldozers partout.",
+    "Léa cherche ses manteaux partout."
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "frame": "Demain {name} va peindre quatre {noun}.",
+   "filled": [
+    "Demain Léa va peindre quatre chauves-souris.",
+    "Demain Léa va peindre quatre avocats.",
+    "Demain Léa va peindre quatre bulldozers.",
+    "Demain Léa va peindre quatre manteaux."
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "frame": "{name} voit six {noun} par la fenêtre.",
+   "filled": [
+    "Léa voit six chauves-souris par la fenêtre.",
+    "Léa voit six avocats par la fenêtre.",
+    "Léa voit six bulldozers par la fenêtre.",
+    "Léa voit six manteaux par la fenêtre."
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "frame": "{name} prête ses {noun} à {name}.",
+   "filled": [
+    "Léa prête ses chauves-souris à Hugo.",
+    "Léa prête ses avocats à Hugo.",
+    "Léa prête ses bulldozers à Hugo.",
+    "Léa prête ses manteaux à Hugo."
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "frame": "{name} et {name} cachent sept {noun}.",
+   "filled": [
+    "Léa et Hugo cachent sept chauves-souris.",
+    "Léa et Hugo cachent sept avocats.",
+    "Léa et Hugo cachent sept bulldozers.",
+    "Léa et Hugo cachent sept manteaux."
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "frame": "Pourquoi y a-t-il cinq {noun} ici ?",
+   "filled": [
+    "Pourquoi y a-t-il cinq chauves-souris ici ?",
+    "Pourquoi y a-t-il cinq avocats ici ?",
+    "Pourquoi y a-t-il cinq bulldozers ici ?",
+    "Pourquoi y a-t-il cinq manteaux ici ?"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "frame": "Combien de {noun} vois-tu dans le pré ?",
+   "filled": [
+    "Combien de chauves-souris vois-tu dans le pré ?",
+    "Combien de avocats vois-tu dans le pré ?",
+    "Combien de bulldozers vois-tu dans le pré ?",
+    "Combien de manteaux vois-tu dans le pré ?"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "frame": "Quand vas-tu ranger tes {noun} ?",
+   "filled": [
+    "Quand vas-tu ranger tes chauves-souris ?",
+    "Quand vas-tu ranger tes avocats ?",
+    "Quand vas-tu ranger tes bulldozers ?",
+    "Quand vas-tu ranger tes manteaux ?"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "frame": "Que de {noun} dans ce magasin !",
+   "filled": [
+    "Que de chauves-souris dans ce magasin !",
+    "Que de avocats dans ce magasin !",
+    "Que de bulldozers dans ce magasin !",
+    "Que de manteaux dans ce magasin !"
+   ]
+  }
+ ],
+ "pt": [
+  {
+   "id": "ls-L1",
+   "frame": "Papai comprou seis {noun} na feira.",
+   "filled": [
+    "Papai comprou seis morcegos na feira.",
+    "Papai comprou seis abacates na feira.",
+    "Papai comprou seis buldôzeres na feira.",
+    "Papai comprou seis casacos na feira."
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "frame": "Na fazenda nós vimos oito {noun}.",
+   "filled": [
+    "Na fazenda nós vimos oito morcegos.",
+    "Na fazenda nós vimos oito abacates.",
+    "Na fazenda nós vimos oito buldôzeres.",
+    "Na fazenda nós vimos oito casacos."
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "frame": "A professora coloca cinco {noun} na mesa.",
+   "filled": [
+    "A professora coloca cinco morcegos na mesa.",
+    "A professora coloca cinco abacates na mesa.",
+    "A professora coloca cinco buldôzeres na mesa.",
+    "A professora coloca cinco casacos na mesa."
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "frame": "Hoje choveu e desenhamos dez {noun}.",
+   "filled": [
+    "Hoje choveu e desenhamos dez morcegos.",
+    "Hoje choveu e desenhamos dez abacates.",
+    "Hoje choveu e desenhamos dez buldôzeres.",
+    "Hoje choveu e desenhamos dez casacos."
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "frame": "Cada {noun} tem o seu lugar.",
+   "filled": [
+    "Cada morcego tem o seu lugar.",
+    "Cada abacate tem o seu lugar.",
+    "Cada buldôzer tem o seu lugar.",
+    "Cada casaco tem o seu lugar."
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "frame": "No parque achamos sete {noun}.",
+   "filled": [
+    "No parque achamos sete morcegos.",
+    "No parque achamos sete abacates.",
+    "No parque achamos sete buldôzeres.",
+    "No parque achamos sete casacos."
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "frame": "Meu irmão esconde nove {noun} embaixo da cama.",
+   "filled": [
+    "Meu irmão esconde nove morcegos embaixo da cama.",
+    "Meu irmão esconde nove abacates embaixo da cama.",
+    "Meu irmão esconde nove buldôzeres embaixo da cama.",
+    "Meu irmão esconde nove casacos embaixo da cama."
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "frame": "A vovó leva quatro {noun} para casa.",
+   "filled": [
+    "A vovó leva quatro morcegos para casa.",
+    "A vovó leva quatro abacates para casa.",
+    "A vovó leva quatro buldôzeres para casa.",
+    "A vovó leva quatro casacos para casa."
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "frame": "{name} guarda três {noun} na mochila.",
+   "filled": [
+    "Sofia guarda três morcegos na mochila.",
+    "Sofia guarda três abacates na mochila.",
+    "Sofia guarda três buldôzeres na mochila.",
+    "Sofia guarda três casacos na mochila."
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "frame": "{name} leva cinco {noun} para a escola.",
+   "filled": [
+    "Sofia leva cinco morcegos para a escola.",
+    "Sofia leva cinco abacates para a escola.",
+    "Sofia leva cinco buldôzeres para a escola.",
+    "Sofia leva cinco casacos para a escola."
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "frame": "Hoje de manhã {name} viu oito {noun}.",
+   "filled": [
+    "Hoje de manhã Sofia viu oito morcegos.",
+    "Hoje de manhã Sofia viu oito abacates.",
+    "Hoje de manhã Sofia viu oito buldôzeres.",
+    "Hoje de manhã Sofia viu oito casacos."
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "frame": "Amanhã {name} vai pintar sete {noun}.",
+   "filled": [
+    "Amanhã Sofia vai pintar sete morcegos.",
+    "Amanhã Sofia vai pintar sete abacates.",
+    "Amanhã Sofia vai pintar sete buldôzeres.",
+    "Amanhã Sofia vai pintar sete casacos."
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "frame": "{name} olha dez {noun} pela janela.",
+   "filled": [
+    "Sofia olha dez morcegos pela janela.",
+    "Sofia olha dez abacates pela janela.",
+    "Sofia olha dez buldôzeres pela janela.",
+    "Sofia olha dez casacos pela janela."
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "frame": "{name} compra quatro {noun} no mercado.",
+   "filled": [
+    "Sofia compra quatro morcegos no mercado.",
+    "Sofia compra quatro abacates no mercado.",
+    "Sofia compra quatro buldôzeres no mercado.",
+    "Sofia compra quatro casacos no mercado."
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "frame": "{name} e {name} escondem oito {noun}.",
+   "filled": [
+    "Sofia e Miguel escondem oito morcegos.",
+    "Sofia e Miguel escondem oito abacates.",
+    "Sofia e Miguel escondem oito buldôzeres.",
+    "Sofia e Miguel escondem oito casacos."
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "frame": "{name} mostra cinco {noun} para {name}.",
+   "filled": [
+    "Sofia mostra cinco morcegos para Miguel.",
+    "Sofia mostra cinco abacates para Miguel.",
+    "Sofia mostra cinco buldôzeres para Miguel.",
+    "Sofia mostra cinco casacos para Miguel."
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "frame": "Por que há sete {noun} no chão?",
+   "filled": [
+    "Por que há sete morcegos no chão?",
+    "Por que há sete abacates no chão?",
+    "Por que há sete buldôzeres no chão?",
+    "Por que há sete casacos no chão?"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "frame": "Quando você vai trazer três {noun}?",
+   "filled": [
+    "Quando você vai trazer três morcegos?",
+    "Quando você vai trazer três abacates?",
+    "Quando você vai trazer três buldôzeres?",
+    "Quando você vai trazer três casacos?"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "frame": "Para que você quer nove {noun}?",
+   "filled": [
+    "Para que você quer nove morcegos?",
+    "Para que você quer nove abacates?",
+    "Para que você quer nove buldôzeres?",
+    "Para que você quer nove casacos?"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "frame": "Que alegria ver seis {noun}!",
+   "filled": [
+    "Que alegria ver seis morcegos!",
+    "Que alegria ver seis abacates!",
+    "Que alegria ver seis buldôzeres!",
+    "Que alegria ver seis casacos!"
+   ]
+  }
+ ],
+ "it": [
+  {
+   "id": "ls-L1",
+   "frame": "Papà compra sei {noun} al mercato.",
+   "filled": [
+    "Papà compra sei pipistrelli al mercato.",
+    "Papà compra sei banane al mercato.",
+    "Papà compra sei automobili al mercato.",
+    "Papà compra sei vestiti al mercato."
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "frame": "In fattoria vediamo otto {noun}.",
+   "filled": [
+    "In fattoria vediamo otto pipistrelli.",
+    "In fattoria vediamo otto banane.",
+    "In fattoria vediamo otto automobili.",
+    "In fattoria vediamo otto vestiti."
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "frame": "La maestra mette cinque {noun} sul banco.",
+   "filled": [
+    "La maestra mette cinque pipistrelli sul banco.",
+    "La maestra mette cinque banane sul banco.",
+    "La maestra mette cinque automobili sul banco.",
+    "La maestra mette cinque vestiti sul banco."
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "frame": "Oggi piove e disegniamo dieci {noun}.",
+   "filled": [
+    "Oggi piove e disegniamo dieci pipistrelli.",
+    "Oggi piove e disegniamo dieci banane.",
+    "Oggi piove e disegniamo dieci automobili.",
+    "Oggi piove e disegniamo dieci vestiti."
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "frame": "Ogni {noun} ha il suo posto.",
+   "filled": [
+    "Ogni pipistrello ha il suo posto.",
+    "Ogni banana ha il suo posto.",
+    "Ogni automobile ha il suo posto.",
+    "Ogni vestito ha il suo posto."
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "frame": "Nel parco troviamo sette {noun}.",
+   "filled": [
+    "Nel parco troviamo sette pipistrelli.",
+    "Nel parco troviamo sette banane.",
+    "Nel parco troviamo sette automobili.",
+    "Nel parco troviamo sette vestiti."
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "frame": "Mio fratello nasconde nove {noun} sotto il letto.",
+   "filled": [
+    "Mio fratello nasconde nove pipistrelli sotto il letto.",
+    "Mio fratello nasconde nove banane sotto il letto.",
+    "Mio fratello nasconde nove automobili sotto il letto.",
+    "Mio fratello nasconde nove vestiti sotto il letto."
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "frame": "La nonna porta quattro {noun} a casa.",
+   "filled": [
+    "La nonna porta quattro pipistrelli a casa.",
+    "La nonna porta quattro banane a casa.",
+    "La nonna porta quattro automobili a casa.",
+    "La nonna porta quattro vestiti a casa."
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "frame": "{name} mette tre {noun} nello zaino.",
+   "filled": [
+    "Sofia mette tre pipistrelli nello zaino.",
+    "Sofia mette tre banane nello zaino.",
+    "Sofia mette tre automobili nello zaino.",
+    "Sofia mette tre vestiti nello zaino."
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "frame": "{name} porta cinque {noun} a scuola.",
+   "filled": [
+    "Sofia porta cinque pipistrelli a scuola.",
+    "Sofia porta cinque banane a scuola.",
+    "Sofia porta cinque automobili a scuola.",
+    "Sofia porta cinque vestiti a scuola."
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "frame": "Stamattina {name} ha visto otto {noun}.",
+   "filled": [
+    "Stamattina Sofia ha visto otto pipistrelli.",
+    "Stamattina Sofia ha visto otto banane.",
+    "Stamattina Sofia ha visto otto automobili.",
+    "Stamattina Sofia ha visto otto vestiti."
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "frame": "Domani {name} dipinge sette {noun}.",
+   "filled": [
+    "Domani Sofia dipinge sette pipistrelli.",
+    "Domani Sofia dipinge sette banane.",
+    "Domani Sofia dipinge sette automobili.",
+    "Domani Sofia dipinge sette vestiti."
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "frame": "{name} guarda dieci {noun} dalla finestra.",
+   "filled": [
+    "Sofia guarda dieci pipistrelli dalla finestra.",
+    "Sofia guarda dieci banane dalla finestra.",
+    "Sofia guarda dieci automobili dalla finestra.",
+    "Sofia guarda dieci vestiti dalla finestra."
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "frame": "{name} compra quattro {noun} al negozio.",
+   "filled": [
+    "Sofia compra quattro pipistrelli al negozio.",
+    "Sofia compra quattro banane al negozio.",
+    "Sofia compra quattro automobili al negozio.",
+    "Sofia compra quattro vestiti al negozio."
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "frame": "{name} e {name} nascondono otto {noun}.",
+   "filled": [
+    "Sofia e Leonardo nascondono otto pipistrelli.",
+    "Sofia e Leonardo nascondono otto banane.",
+    "Sofia e Leonardo nascondono otto automobili.",
+    "Sofia e Leonardo nascondono otto vestiti."
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "frame": "{name} mostra cinque {noun} a {name}.",
+   "filled": [
+    "Sofia mostra cinque pipistrelli a Leonardo.",
+    "Sofia mostra cinque banane a Leonardo.",
+    "Sofia mostra cinque automobili a Leonardo.",
+    "Sofia mostra cinque vestiti a Leonardo."
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "frame": "Quando porti tre {noun} a scuola?",
+   "filled": [
+    "Quando porti tre pipistrelli a scuola?",
+    "Quando porti tre banane a scuola?",
+    "Quando porti tre automobili a scuola?",
+    "Quando porti tre vestiti a scuola?"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "frame": "Perché ci sono sette {noun} sul tavolo?",
+   "filled": [
+    "Perché ci sono sette pipistrelli sul tavolo?",
+    "Perché ci sono sette banane sul tavolo?",
+    "Perché ci sono sette automobili sul tavolo?",
+    "Perché ci sono sette vestiti sul tavolo?"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "frame": "Dove possiamo trovare cinque {noun}?",
+   "filled": [
+    "Dove possiamo trovare cinque pipistrelli?",
+    "Dove possiamo trovare cinque banane?",
+    "Dove possiamo trovare cinque automobili?",
+    "Dove possiamo trovare cinque vestiti?"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "frame": "Che gioia vedere sei {noun}!",
+   "filled": [
+    "Che gioia vedere sei pipistrelli!",
+    "Che gioia vedere sei banane!",
+    "Che gioia vedere sei automobili!",
+    "Che gioia vedere sei vestiti!"
+   ]
+  }
+ ],
+ "nl": [
+  {
+   "id": "ls-L1",
+   "frame": "De {noun} zijn in de tuin.",
+   "filled": [
+    "De vleermuizen zijn in de tuin.",
+    "De avocado's zijn in de tuin.",
+    "De bulldozers zijn in de tuin.",
+    "De jassen zijn in de tuin."
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "frame": "Wij zien de {noun} op de boerderij.",
+   "filled": [
+    "Wij zien de vleermuizen op de boerderij.",
+    "Wij zien de avocado's op de boerderij.",
+    "Wij zien de bulldozers op de boerderij.",
+    "Wij zien de jassen op de boerderij."
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "frame": "Papa haalt de {noun} uit de auto.",
+   "filled": [
+    "Papa haalt de vleermuizen uit de auto.",
+    "Papa haalt de avocado's uit de auto.",
+    "Papa haalt de bulldozers uit de auto.",
+    "Papa haalt de jassen uit de auto."
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "frame": "De {noun} worden nat in de regen.",
+   "filled": [
+    "De vleermuizen worden nat in de regen.",
+    "De avocado's worden nat in de regen.",
+    "De bulldozers worden nat in de regen.",
+    "De jassen worden nat in de regen."
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "frame": "De juf tekent drie {noun} op het bord.",
+   "filled": [
+    "De juf tekent drie vleermuizen op het bord.",
+    "De juf tekent drie avocado's op het bord.",
+    "De juf tekent drie bulldozers op het bord.",
+    "De juf tekent drie jassen op het bord."
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "frame": "Ik ben mijn {noun} vergeten in het park.",
+   "filled": [
+    "Ik ben mijn vleermuizen vergeten in het park.",
+    "Ik ben mijn avocado's vergeten in het park.",
+    "Ik ben mijn bulldozers vergeten in het park.",
+    "Ik ben mijn jassen vergeten in het park."
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "frame": "Er zijn vier {noun} op de foto.",
+   "filled": [
+    "Er zijn vier vleermuizen op de foto.",
+    "Er zijn vier avocado's op de foto.",
+    "Er zijn vier bulldozers op de foto.",
+    "Er zijn vier jassen op de foto."
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "frame": "In de winkel zijn vijf {noun}.",
+   "filled": [
+    "In de winkel zijn vijf vleermuizen.",
+    "In de winkel zijn vijf avocado's.",
+    "In de winkel zijn vijf bulldozers.",
+    "In de winkel zijn vijf jassen."
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "frame": "{name} neemt de {noun} mee naar school.",
+   "filled": [
+    "Emma neemt de vleermuizen mee naar school.",
+    "Emma neemt de avocado's mee naar school.",
+    "Emma neemt de bulldozers mee naar school.",
+    "Emma neemt de jassen mee naar school."
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "frame": "{name} verstopt de {noun} achter de deur.",
+   "filled": [
+    "Emma verstopt de vleermuizen achter de deur.",
+    "Emma verstopt de avocado's achter de deur.",
+    "Emma verstopt de bulldozers achter de deur.",
+    "Emma verstopt de jassen achter de deur."
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "frame": "{name} vindt zes {noun} op het plein.",
+   "filled": [
+    "Emma vindt zes vleermuizen op het plein.",
+    "Emma vindt zes avocado's op het plein.",
+    "Emma vindt zes bulldozers op het plein.",
+    "Emma vindt zes jassen op het plein."
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "frame": "{name} wil de {noun} vasthouden.",
+   "filled": [
+    "Emma wil de vleermuizen vasthouden.",
+    "Emma wil de avocado's vasthouden.",
+    "Emma wil de bulldozers vasthouden.",
+    "Emma wil de jassen vasthouden."
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "frame": "{name} draagt de {noun} naar huis.",
+   "filled": [
+    "Emma draagt de vleermuizen naar huis.",
+    "Emma draagt de avocado's naar huis.",
+    "Emma draagt de bulldozers naar huis.",
+    "Emma draagt de jassen naar huis."
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "frame": "{name} maakt een foto van de {noun}.",
+   "filled": [
+    "Emma maakt een foto van de vleermuizen.",
+    "Emma maakt een foto van de avocado's.",
+    "Emma maakt een foto van de bulldozers.",
+    "Emma maakt een foto van de jassen."
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "frame": "{name} geeft de {noun} aan {name}.",
+   "filled": [
+    "Emma geeft de vleermuizen aan Daan.",
+    "Emma geeft de avocado's aan Daan.",
+    "Emma geeft de bulldozers aan Daan.",
+    "Emma geeft de jassen aan Daan."
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "frame": "{name} en {name} kijken samen naar de {noun}.",
+   "filled": [
+    "Emma en Daan kijken samen naar de vleermuizen.",
+    "Emma en Daan kijken samen naar de avocado's.",
+    "Emma en Daan kijken samen naar de bulldozers.",
+    "Emma en Daan kijken samen naar de jassen."
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "frame": "Wie heeft mijn {noun} gepakt?",
+   "filled": [
+    "Wie heeft mijn vleermuizen gepakt?",
+    "Wie heeft mijn avocado's gepakt?",
+    "Wie heeft mijn bulldozers gepakt?",
+    "Wie heeft mijn jassen gepakt?"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "frame": "Waarom liggen de {noun} op de grond?",
+   "filled": [
+    "Waarom liggen de vleermuizen op de grond?",
+    "Waarom liggen de avocado's op de grond?",
+    "Waarom liggen de bulldozers op de grond?",
+    "Waarom liggen de jassen op de grond?"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "frame": "Welke {noun} vind jij het mooist?",
+   "filled": [
+    "Welke vleermuizen vind jij het mooist?",
+    "Welke avocado's vind jij het mooist?",
+    "Welke bulldozers vind jij het mooist?",
+    "Welke jassen vind jij het mooist?"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "frame": "Wat zijn die {noun} groot!",
+   "filled": [
+    "Wat zijn die vleermuizen groot!",
+    "Wat zijn die avocado's groot!",
+    "Wat zijn die bulldozers groot!",
+    "Wat zijn die jassen groot!"
+   ]
+  }
+ ],
+ "sv": [
+  {
+   "id": "ls-L1",
+   "frame": "Det finns sex {noun} i boken.",
+   "filled": [
+    "Det finns sex fladdermöss i boken.",
+    "Det finns sex avokador i boken.",
+    "Det finns sex bussar i boken.",
+    "Det finns sex kappor i boken."
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "frame": "Läraren ritar fyra {noun} på tavlan.",
+   "filled": [
+    "Läraren ritar fyra fladdermöss på tavlan.",
+    "Läraren ritar fyra avokador på tavlan.",
+    "Läraren ritar fyra bussar på tavlan.",
+    "Läraren ritar fyra kappor på tavlan."
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "frame": "Vi räknar åtta {noun} på bilden.",
+   "filled": [
+    "Vi räknar åtta fladdermöss på bilden.",
+    "Vi räknar åtta avokador på bilden.",
+    "Vi räknar åtta bussar på bilden.",
+    "Vi räknar åtta kappor på bilden."
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "frame": "I parken ser vi två {noun}.",
+   "filled": [
+    "I parken ser vi två fladdermöss.",
+    "I parken ser vi två avokador.",
+    "I parken ser vi två bussar.",
+    "I parken ser vi två kappor."
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "frame": "Mormor visar oss tre {noun}.",
+   "filled": [
+    "Mormor visar oss tre fladdermöss.",
+    "Mormor visar oss tre avokador.",
+    "Mormor visar oss tre bussar.",
+    "Mormor visar oss tre kappor."
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "frame": "Barnen klipper ut sju {noun}.",
+   "filled": [
+    "Barnen klipper ut sju fladdermöss.",
+    "Barnen klipper ut sju avokador.",
+    "Barnen klipper ut sju bussar.",
+    "Barnen klipper ut sju kappor."
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "frame": "På gården finns det nio {noun}.",
+   "filled": [
+    "På gården finns det nio fladdermöss.",
+    "På gården finns det nio avokador.",
+    "På gården finns det nio bussar.",
+    "På gården finns det nio kappor."
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "frame": "När det snöar ritar vi {noun}.",
+   "filled": [
+    "När det snöar ritar vi fladdermöss.",
+    "När det snöar ritar vi avokador.",
+    "När det snöar ritar vi bussar.",
+    "När det snöar ritar vi kappor."
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "frame": "{name} målar sex {noun} i skolan.",
+   "filled": [
+    "Elsa målar sex fladdermöss i skolan.",
+    "Elsa målar sex avokador i skolan.",
+    "Elsa målar sex bussar i skolan.",
+    "Elsa målar sex kappor i skolan."
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "frame": "{name} klistrar in tre {noun} i boken.",
+   "filled": [
+    "Elsa klistrar in tre fladdermöss i boken.",
+    "Elsa klistrar in tre avokador i boken.",
+    "Elsa klistrar in tre bussar i boken.",
+    "Elsa klistrar in tre kappor i boken."
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "frame": "I morgon ska {name} rita sju {noun}.",
+   "filled": [
+    "I morgon ska Elsa rita sju fladdermöss.",
+    "I morgon ska Elsa rita sju avokador.",
+    "I morgon ska Elsa rita sju bussar.",
+    "I morgon ska Elsa rita sju kappor."
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "frame": "{name} berättar om sina {noun}.",
+   "filled": [
+    "Elsa berättar om sina fladdermöss.",
+    "Elsa berättar om sina avokador.",
+    "Elsa berättar om sina bussar.",
+    "Elsa berättar om sina kappor."
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "frame": "{name} visar klassen fyra {noun}.",
+   "filled": [
+    "Elsa visar klassen fyra fladdermöss.",
+    "Elsa visar klassen fyra avokador.",
+    "Elsa visar klassen fyra bussar.",
+    "Elsa visar klassen fyra kappor."
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "frame": "På lördag letar {name} efter {noun} i parken.",
+   "filled": [
+    "På lördag letar Elsa efter fladdermöss i parken.",
+    "På lördag letar Elsa efter avokador i parken.",
+    "På lördag letar Elsa efter bussar i parken.",
+    "På lördag letar Elsa efter kappor i parken."
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "frame": "{name} ger {name} två {noun}.",
+   "filled": [
+    "Elsa ger Hugo två fladdermöss.",
+    "Elsa ger Hugo två avokador.",
+    "Elsa ger Hugo två bussar.",
+    "Elsa ger Hugo två kappor."
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "frame": "{name} och {name} delar på tio {noun}.",
+   "filled": [
+    "Elsa och Hugo delar på tio fladdermöss.",
+    "Elsa och Hugo delar på tio avokador.",
+    "Elsa och Hugo delar på tio bussar.",
+    "Elsa och Hugo delar på tio kappor."
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "frame": "Hur många {noun} ser du?",
+   "filled": [
+    "Hur många fladdermöss ser du?",
+    "Hur många avokador ser du?",
+    "Hur många bussar ser du?",
+    "Hur många kappor ser du?"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "frame": "Vem har gömt mina {noun}?",
+   "filled": [
+    "Vem har gömt mina fladdermöss?",
+    "Vem har gömt mina avokador?",
+    "Vem har gömt mina bussar?",
+    "Vem har gömt mina kappor?"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "frame": "Vilka {noun} tycker du bäst om?",
+   "filled": [
+    "Vilka fladdermöss tycker du bäst om?",
+    "Vilka avokador tycker du bäst om?",
+    "Vilka bussar tycker du bäst om?",
+    "Vilka kappor tycker du bäst om?"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "frame": "Vad många {noun} det finns här!",
+   "filled": [
+    "Vad många fladdermöss det finns här!",
+    "Vad många avokador det finns här!",
+    "Vad många bussar det finns här!",
+    "Vad många kappor det finns här!"
+   ]
+  }
+ ],
+ "da": [
+  {
+   "id": "ls-L1",
+   "frame": "Der er seks {noun} i bogen.",
+   "filled": [
+    "Der er seks antiloper i bogen.",
+    "Der er seks avocadoer i bogen.",
+    "Der er seks bulldozere i bogen.",
+    "Der er seks frakker i bogen."
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "frame": "Læreren tegner fire {noun} på tavlen.",
+   "filled": [
+    "Læreren tegner fire antiloper på tavlen.",
+    "Læreren tegner fire avocadoer på tavlen.",
+    "Læreren tegner fire bulldozere på tavlen.",
+    "Læreren tegner fire frakker på tavlen."
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "frame": "Vi tæller otte {noun} på billedet.",
+   "filled": [
+    "Vi tæller otte antiloper på billedet.",
+    "Vi tæller otte avocadoer på billedet.",
+    "Vi tæller otte bulldozere på billedet.",
+    "Vi tæller otte frakker på billedet."
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "frame": "I parken ser vi to {noun}.",
+   "filled": [
+    "I parken ser vi to antiloper.",
+    "I parken ser vi to avocadoer.",
+    "I parken ser vi to bulldozere.",
+    "I parken ser vi to frakker."
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "frame": "Mormor viser os tre {noun}.",
+   "filled": [
+    "Mormor viser os tre antiloper.",
+    "Mormor viser os tre avocadoer.",
+    "Mormor viser os tre bulldozere.",
+    "Mormor viser os tre frakker."
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "frame": "Børnene klipper syv {noun} ud.",
+   "filled": [
+    "Børnene klipper syv antiloper ud.",
+    "Børnene klipper syv avocadoer ud.",
+    "Børnene klipper syv bulldozere ud.",
+    "Børnene klipper syv frakker ud."
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "frame": "På gården er der ni {noun}.",
+   "filled": [
+    "På gården er der ni antiloper.",
+    "På gården er der ni avocadoer.",
+    "På gården er der ni bulldozere.",
+    "På gården er der ni frakker."
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "frame": "I regnvejr tegner vi {noun} indenfor.",
+   "filled": [
+    "I regnvejr tegner vi antiloper indenfor.",
+    "I regnvejr tegner vi avocadoer indenfor.",
+    "I regnvejr tegner vi bulldozere indenfor.",
+    "I regnvejr tegner vi frakker indenfor."
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "frame": "{name} maler seks {noun} i skolen.",
+   "filled": [
+    "Ida maler seks antiloper i skolen.",
+    "Ida maler seks avocadoer i skolen.",
+    "Ida maler seks bulldozere i skolen.",
+    "Ida maler seks frakker i skolen."
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "frame": "{name} klistrer tre {noun} ind i bogen.",
+   "filled": [
+    "Ida klistrer tre antiloper ind i bogen.",
+    "Ida klistrer tre avocadoer ind i bogen.",
+    "Ida klistrer tre bulldozere ind i bogen.",
+    "Ida klistrer tre frakker ind i bogen."
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "frame": "I morgen skal {name} tegne syv {noun}.",
+   "filled": [
+    "I morgen skal Ida tegne syv antiloper.",
+    "I morgen skal Ida tegne syv avocadoer.",
+    "I morgen skal Ida tegne syv bulldozere.",
+    "I morgen skal Ida tegne syv frakker."
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "frame": "{name} fortæller om sine {noun}.",
+   "filled": [
+    "Ida fortæller om sine antiloper.",
+    "Ida fortæller om sine avocadoer.",
+    "Ida fortæller om sine bulldozere.",
+    "Ida fortæller om sine frakker."
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "frame": "{name} viser klassen fire {noun}.",
+   "filled": [
+    "Ida viser klassen fire antiloper.",
+    "Ida viser klassen fire avocadoer.",
+    "Ida viser klassen fire bulldozere.",
+    "Ida viser klassen fire frakker."
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "frame": "På lørdag kigger {name} efter {noun} i parken.",
+   "filled": [
+    "På lørdag kigger Ida efter antiloper i parken.",
+    "På lørdag kigger Ida efter avocadoer i parken.",
+    "På lørdag kigger Ida efter bulldozere i parken.",
+    "På lørdag kigger Ida efter frakker i parken."
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "frame": "{name} giver {name} to {noun}.",
+   "filled": [
+    "Ida giver William to antiloper.",
+    "Ida giver William to avocadoer.",
+    "Ida giver William to bulldozere.",
+    "Ida giver William to frakker."
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "frame": "{name} og {name} deler ti {noun}.",
+   "filled": [
+    "Ida og William deler ti antiloper.",
+    "Ida og William deler ti avocadoer.",
+    "Ida og William deler ti bulldozere.",
+    "Ida og William deler ti frakker."
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "frame": "Hvor mange {noun} kan du se?",
+   "filled": [
+    "Hvor mange antiloper kan du se?",
+    "Hvor mange avocadoer kan du se?",
+    "Hvor mange bulldozere kan du se?",
+    "Hvor mange frakker kan du se?"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "frame": "Hvem har gemt mine {noun}?",
+   "filled": [
+    "Hvem har gemt mine antiloper?",
+    "Hvem har gemt mine avocadoer?",
+    "Hvem har gemt mine bulldozere?",
+    "Hvem har gemt mine frakker?"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "frame": "Hvilke {noun} kan du bedst lide?",
+   "filled": [
+    "Hvilke antiloper kan du bedst lide?",
+    "Hvilke avocadoer kan du bedst lide?",
+    "Hvilke bulldozere kan du bedst lide?",
+    "Hvilke frakker kan du bedst lide?"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "frame": "Sikke mange {noun} der er her!",
+   "filled": [
+    "Sikke mange antiloper der er her!",
+    "Sikke mange avocadoer der er her!",
+    "Sikke mange bulldozere der er her!",
+    "Sikke mange frakker der er her!"
+   ]
+  }
+ ],
+ "no": [
+  {
+   "id": "ls-L1",
+   "frame": "Det er seks {noun} i boka.",
+   "filled": [
+    "Det er seks antiloper i boka.",
+    "Det er seks avokadoer i boka.",
+    "Det er seks busser i boka.",
+    "Det er seks frakker i boka."
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "frame": "Læreren tegner fire {noun} på tavla.",
+   "filled": [
+    "Læreren tegner fire antiloper på tavla.",
+    "Læreren tegner fire avokadoer på tavla.",
+    "Læreren tegner fire busser på tavla.",
+    "Læreren tegner fire frakker på tavla."
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "frame": "Vi teller åtte {noun} på bildet.",
+   "filled": [
+    "Vi teller åtte antiloper på bildet.",
+    "Vi teller åtte avokadoer på bildet.",
+    "Vi teller åtte busser på bildet.",
+    "Vi teller åtte frakker på bildet."
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "frame": "I parken ser vi to {noun}.",
+   "filled": [
+    "I parken ser vi to antiloper.",
+    "I parken ser vi to avokadoer.",
+    "I parken ser vi to busser.",
+    "I parken ser vi to frakker."
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "frame": "Mormor viser oss tre {noun}.",
+   "filled": [
+    "Mormor viser oss tre antiloper.",
+    "Mormor viser oss tre avokadoer.",
+    "Mormor viser oss tre busser.",
+    "Mormor viser oss tre frakker."
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "frame": "Barna klipper ut sju {noun}.",
+   "filled": [
+    "Barna klipper ut sju antiloper.",
+    "Barna klipper ut sju avokadoer.",
+    "Barna klipper ut sju busser.",
+    "Barna klipper ut sju frakker."
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "frame": "På gården er det ni {noun}.",
+   "filled": [
+    "På gården er det ni antiloper.",
+    "På gården er det ni avokadoer.",
+    "På gården er det ni busser.",
+    "På gården er det ni frakker."
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "frame": "I regnvær tegner vi {noun} inne.",
+   "filled": [
+    "I regnvær tegner vi antiloper inne.",
+    "I regnvær tegner vi avokadoer inne.",
+    "I regnvær tegner vi busser inne.",
+    "I regnvær tegner vi frakker inne."
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "frame": "{name} maler seks {noun} på skolen.",
+   "filled": [
+    "Nora maler seks antiloper på skolen.",
+    "Nora maler seks avokadoer på skolen.",
+    "Nora maler seks busser på skolen.",
+    "Nora maler seks frakker på skolen."
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "frame": "{name} limer tre {noun} inn i boka.",
+   "filled": [
+    "Nora limer tre antiloper inn i boka.",
+    "Nora limer tre avokadoer inn i boka.",
+    "Nora limer tre busser inn i boka.",
+    "Nora limer tre frakker inn i boka."
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "frame": "I morgen skal {name} tegne sju {noun}.",
+   "filled": [
+    "I morgen skal Nora tegne sju antiloper.",
+    "I morgen skal Nora tegne sju avokadoer.",
+    "I morgen skal Nora tegne sju busser.",
+    "I morgen skal Nora tegne sju frakker."
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "frame": "{name} forteller om sine {noun}.",
+   "filled": [
+    "Nora forteller om sine antiloper.",
+    "Nora forteller om sine avokadoer.",
+    "Nora forteller om sine busser.",
+    "Nora forteller om sine frakker."
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "frame": "{name} viser klassen fire {noun}.",
+   "filled": [
+    "Nora viser klassen fire antiloper.",
+    "Nora viser klassen fire avokadoer.",
+    "Nora viser klassen fire busser.",
+    "Nora viser klassen fire frakker."
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "frame": "På lørdag ser {name} etter {noun} i parken.",
+   "filled": [
+    "På lørdag ser Nora etter antiloper i parken.",
+    "På lørdag ser Nora etter avokadoer i parken.",
+    "På lørdag ser Nora etter busser i parken.",
+    "På lørdag ser Nora etter frakker i parken."
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "frame": "{name} gir {name} to {noun}.",
+   "filled": [
+    "Nora gir Jakob to antiloper.",
+    "Nora gir Jakob to avokadoer.",
+    "Nora gir Jakob to busser.",
+    "Nora gir Jakob to frakker."
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "frame": "{name} og {name} deler ti {noun}.",
+   "filled": [
+    "Nora og Jakob deler ti antiloper.",
+    "Nora og Jakob deler ti avokadoer.",
+    "Nora og Jakob deler ti busser.",
+    "Nora og Jakob deler ti frakker."
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "frame": "Hvor mange {noun} ser du?",
+   "filled": [
+    "Hvor mange antiloper ser du?",
+    "Hvor mange avokadoer ser du?",
+    "Hvor mange busser ser du?",
+    "Hvor mange frakker ser du?"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "frame": "Hvem har gjemt alle {noun}?",
+   "filled": [
+    "Hvem har gjemt alle antiloper?",
+    "Hvem har gjemt alle avokadoer?",
+    "Hvem har gjemt alle busser?",
+    "Hvem har gjemt alle frakker?"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "frame": "Hvilke {noun} liker du best?",
+   "filled": [
+    "Hvilke antiloper liker du best?",
+    "Hvilke avokadoer liker du best?",
+    "Hvilke busser liker du best?",
+    "Hvilke frakker liker du best?"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "frame": "Så mange {noun} det er her!",
+   "filled": [
+    "Så mange antiloper det er her!",
+    "Så mange avokadoer det er her!",
+    "Så mange busser det er her!",
+    "Så mange frakker det er her!"
+   ]
+  }
+ ],
+ "fi": [
+  {
+   "id": "ls-L1",
+   "frame": "Pöydän alla on {noun}.",
+   "filled": [
+    "Pöydän alla on lepakko.",
+    "Pöydän alla on avokado.",
+    "Pöydän alla on puskutraktori.",
+    "Pöydän alla on takki."
+   ]
+  },
+  {
+   "id": "ls-L2",
+   "frame": "Me ihailemme {noun} ikkunasta.",
+   "filled": [
+    "Me ihailemme lepakkoa ikkunasta.",
+    "Me ihailemme avokadoa ikkunasta.",
+    "Me ihailemme puskutraktoria ikkunasta."
+   ]
+  },
+  {
+   "id": "ls-L3",
+   "frame": "Laatikossa on pieni {noun}.",
+   "filled": [
+    "Laatikossa on pieni lepakko.",
+    "Laatikossa on pieni avokado.",
+    "Laatikossa on pieni puskutraktori.",
+    "Laatikossa on pieni takki."
+   ]
+  },
+  {
+   "id": "ls-L4",
+   "frame": "Ulkona {noun} kastuu sateessa.",
+   "filled": [
+    "Ulkona lepakko kastuu sateessa.",
+    "Ulkona avokado kastuu sateessa.",
+    "Ulkona puskutraktori kastuu sateessa.",
+    "Ulkona takki kastuu sateessa."
+   ]
+  },
+  {
+   "id": "ls-L5",
+   "frame": "Kaupassa on viisi {noun}.",
+   "filled": [
+    "Kaupassa on viisi lepakkoa.",
+    "Kaupassa on viisi avokadoa.",
+    "Kaupassa on viisi puskutraktoria."
+   ]
+  },
+  {
+   "id": "ls-L6",
+   "frame": "Kuvassa on neljä {noun}.",
+   "filled": [
+    "Kuvassa on neljä lepakkoa.",
+    "Kuvassa on neljä avokadoa.",
+    "Kuvassa on neljä puskutraktoria."
+   ]
+  },
+  {
+   "id": "ls-L7",
+   "frame": "Maatilalla on iso {noun}.",
+   "filled": [
+    "Maatilalla on iso lepakko.",
+    "Maatilalla on iso avokado.",
+    "Maatilalla on iso puskutraktori.",
+    "Maatilalla on iso takki."
+   ]
+  },
+  {
+   "id": "ls-L8",
+   "frame": "Isoveli pitelee pientä {noun}.",
+   "filled": [
+    "Isoveli pitelee pientä lepakkoa.",
+    "Isoveli pitelee pientä avokadoa.",
+    "Isoveli pitelee pientä puskutraktoria."
+   ]
+  },
+  {
+   "id": "ls-L9",
+   "frame": "{name} odottaa {noun} koulun pihalla.",
+   "filled": [
+    "Aino odottaa lepakkoa koulun pihalla.",
+    "Aino odottaa avokadoa koulun pihalla.",
+    "Aino odottaa puskutraktoria koulun pihalla."
+   ]
+  },
+  {
+   "id": "ls-L10",
+   "frame": "{name} kuljettaa {noun} kotiin.",
+   "filled": [
+    "Aino kuljettaa lepakkoa kotiin.",
+    "Aino kuljettaa avokadoa kotiin.",
+    "Aino kuljettaa puskutraktoria kotiin."
+   ]
+  },
+  {
+   "id": "ls-L11",
+   "frame": "{name} näkee kaupassa kuusi {noun}.",
+   "filled": [
+    "Aino näkee kaupassa kuusi lepakkoa.",
+    "Aino näkee kaupassa kuusi avokadoa.",
+    "Aino näkee kaupassa kuusi puskutraktoria."
+   ]
+  },
+  {
+   "id": "ls-L12",
+   "frame": "{name} kuvaa {noun} puhelimella.",
+   "filled": [
+    "Aino kuvaa lepakkoa puhelimella.",
+    "Aino kuvaa avokadoa puhelimella.",
+    "Aino kuvaa puskutraktoria puhelimella."
+   ]
+  },
+  {
+   "id": "ls-L13",
+   "frame": "{name} tutkii {noun} tarkasti.",
+   "filled": [
+    "Aino tutkii lepakkoa tarkasti.",
+    "Aino tutkii avokadoa tarkasti.",
+    "Aino tutkii puskutraktoria tarkasti."
+   ]
+  },
+  {
+   "id": "ls-L14",
+   "frame": "{name} ihmettelee outoa {noun}.",
+   "filled": [
+    "Aino ihmettelee outoa lepakkoa.",
+    "Aino ihmettelee outoa avokadoa.",
+    "Aino ihmettelee outoa puskutraktoria."
+   ]
+  },
+  {
+   "id": "ls-L15",
+   "frame": "{name} ja {name} katselevat {noun} puistossa.",
+   "filled": [
+    "Aino ja Eeli katselevat lepakkoa puistossa.",
+    "Aino ja Eeli katselevat avokadoa puistossa.",
+    "Aino ja Eeli katselevat puskutraktoria puistossa."
+   ]
+  },
+  {
+   "id": "ls-L16",
+   "frame": "{name} ja {name} piirtävät yhdessä kolme {noun}.",
+   "filled": [
+    "Aino ja Eeli piirtävät yhdessä kolme lepakkoa.",
+    "Aino ja Eeli piirtävät yhdessä kolme avokadoa.",
+    "Aino ja Eeli piirtävät yhdessä kolme puskutraktoria."
+   ]
+  },
+  {
+   "id": "ls-L17",
+   "frame": "Kuka haluaa katsoa {noun}?",
+   "filled": [
+    "Kuka haluaa katsoa lepakkoa?",
+    "Kuka haluaa katsoa avokadoa?",
+    "Kuka haluaa katsoa puskutraktoria?"
+   ]
+  },
+  {
+   "id": "ls-L18",
+   "frame": "Miksi {noun} on lattialla?",
+   "filled": [
+    "Miksi lepakko on lattialla?",
+    "Miksi avokado on lattialla?",
+    "Miksi puskutraktori on lattialla?",
+    "Miksi takki on lattialla?"
+   ]
+  },
+  {
+   "id": "ls-L19",
+   "frame": "Montako {noun} laukussa on?",
+   "filled": [
+    "Montako lepakkoa laukussa on?",
+    "Montako avokadoa laukussa on?",
+    "Montako puskutraktoria laukussa on?"
+   ]
+  },
+  {
+   "id": "ls-L20",
+   "frame": "Voi mikä iso {noun}!",
+   "filled": [
+    "Voi mikä iso lepakko!",
+    "Voi mikä iso avokado!",
+    "Voi mikä iso puskutraktori!",
+    "Voi mikä iso takki!"
+   ]
+  }
+ ]
+}

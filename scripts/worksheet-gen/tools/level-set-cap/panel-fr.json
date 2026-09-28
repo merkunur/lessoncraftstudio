@@ -1,0 +1,10 @@
+{
+  "tapFix": "Touche Aa, puis chaque mot qui prend une majuscule. Touche ensuite le bon signe, puis le dernier mot de la phrase.",
+  "tapFixRunOn": "Trouve où finit la première phrase. Mets le bon signe après ce mot et après le dernier mot. Touche Aa pour les majuscules.",
+  "notes": [
+    "Tu register as printed (corrige, choisis, sépare).",
+    "'signe' reuses the printed 'signe final'; 'prend une majuscule' is the usual classroom phrasing.",
+    "No colon, so no narrow-space typography issue.",
+    "EN audit: tapFix is clear; the flow is mark-then-word, so 'the word it goes after' is right. tapFixRunOn says 'a mark' where the child must choose the RIGHT one (period vs question mark) — prefer 'the right mark'. Both fine otherwise."
+  ]
+}

@@ -1,0 +1,183 @@
+[
+ {
+  "id": "L1",
+  "kind": "simple",
+  "text": "Det er seks {noun} i boka.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L2",
+  "kind": "simple",
+  "text": "Læreren tegner fire {noun} på tavla.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L3",
+  "kind": "simple",
+  "text": "Vi teller åtte {noun} på bildet.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L4",
+  "kind": "simple",
+  "text": "På plakaten ser vi to {noun}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L5",
+  "kind": "simple",
+  "text": "Mormor viser oss tre {noun}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L6",
+  "kind": "simple",
+  "text": "Barna klipper ut sju {noun}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L7",
+  "kind": "simple",
+  "text": "På siden er det ni {noun}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L8",
+  "kind": "simple",
+  "text": "I regnvær tegner vi {noun} inne.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L9",
+  "kind": "simple",
+  "text": "{name} maler seks {noun} på skolen.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L10",
+  "kind": "simple",
+  "text": "{name} limer tre {noun} inn i boka.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L11",
+  "kind": "simple",
+  "text": "I morgen skal {name} tegne sju {noun}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L12",
+  "kind": "simple",
+  "text": "{name} forteller klassen om {noun}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L13",
+  "kind": "simple",
+  "text": "{name} viser klassen fire {noun}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L14",
+  "kind": "simple",
+  "text": "På lørdag tegner {name} {noun} med fargestifter.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L15",
+  "kind": "simple",
+  "text": "{name} tegner to {noun} til {name}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L16",
+  "kind": "simple",
+  "text": "{name} og {name} ser på ti {noun}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L17",
+  "kind": "simple",
+  "text": "Hvor mange {noun} ser du?",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L18",
+  "kind": "simple",
+  "text": "Hvem kan tegne fem {noun}?",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L19",
+  "kind": "simple",
+  "text": "Hvilke {noun} liker du best?",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L20",
+  "kind": "simple",
+  "text": "Så mange {noun} det er her!",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ],
+  "exclaimStrict": true
+ }
+]

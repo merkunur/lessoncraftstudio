@@ -1,0 +1,183 @@
+[
+ {
+  "id": "L1",
+  "kind": "simple",
+  "text": "Det finns sex {noun} i boken.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L2",
+  "kind": "simple",
+  "text": "Läraren ritar fyra {noun} på tavlan.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L3",
+  "kind": "simple",
+  "text": "Vi räknar åtta {noun} på bilden.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L4",
+  "kind": "simple",
+  "text": "På affischen ser vi två {noun}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L5",
+  "kind": "simple",
+  "text": "Mormor visar oss tre {noun}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L6",
+  "kind": "simple",
+  "text": "Barnen klipper ut sju {noun}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L7",
+  "kind": "simple",
+  "text": "På sidan finns det nio {noun}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L8",
+  "kind": "simple",
+  "text": "När det snöar ritar vi {noun}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L9",
+  "kind": "simple",
+  "text": "{name} målar sex {noun} i skolan.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L10",
+  "kind": "simple",
+  "text": "{name} klistrar in tre {noun} i boken.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L11",
+  "kind": "simple",
+  "text": "I morgon ska {name} rita sju {noun}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L12",
+  "kind": "simple",
+  "text": "{name} berättar om {noun} för klassen.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L13",
+  "kind": "simple",
+  "text": "{name} visar klassen fyra {noun}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L14",
+  "kind": "simple",
+  "text": "På lördag ritar {name} {noun} med kritor.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L15",
+  "kind": "simple",
+  "text": "{name} ritar två {noun} åt {name}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L16",
+  "kind": "simple",
+  "text": "{name} och {name} tittar på tio {noun}.",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L17",
+  "kind": "simple",
+  "text": "Hur många {noun} ser du?",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L18",
+  "kind": "simple",
+  "text": "Vem kan rita fem {noun}?",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L19",
+  "kind": "simple",
+  "text": "Vilka {noun} tycker du bäst om?",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ]
+ },
+ {
+  "id": "L20",
+  "kind": "simple",
+  "text": "Vad många {noun} det finns här!",
+  "noun": "pl",
+  "uses": [
+   "fix"
+  ],
+  "exclaimStrict": true
+ }
+]

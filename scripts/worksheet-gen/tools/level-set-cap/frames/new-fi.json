@@ -1,0 +1,183 @@
+[
+  {
+    "id": "L1",
+    "kind": "simple",
+    "text": "Kirjan sivulla on {noun}.",
+    "noun": "sg",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L2",
+    "kind": "simple",
+    "text": "Me katselemme {noun} kuvakirjasta.",
+    "noun": "partitive",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L3",
+    "kind": "simple",
+    "text": "Kuvassa on pieni {noun}.",
+    "noun": "sg",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L4",
+    "kind": "simple",
+    "text": "Tarinassa on hassu {noun}.",
+    "noun": "sg",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L5",
+    "kind": "simple",
+    "text": "Tehtävässä on viisi {noun}.",
+    "noun": "partitive",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L6",
+    "kind": "simple",
+    "text": "Julisteessa on neljä {noun}.",
+    "noun": "partitive",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L7",
+    "kind": "simple",
+    "text": "Taululla on iso {noun}.",
+    "noun": "sg",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L8",
+    "kind": "simple",
+    "text": "Isoveli piirtää pientä {noun}.",
+    "noun": "partitive",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L9",
+    "kind": "simple",
+    "text": "{name} maalaa {noun} vesiväreillä.",
+    "noun": "partitive",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L10",
+    "kind": "simple",
+    "text": "{name} muovailee {noun} savesta.",
+    "noun": "partitive",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L11",
+    "kind": "simple",
+    "text": "{name} näkee kirjassa kuusi {noun}.",
+    "noun": "partitive",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L12",
+    "kind": "simple",
+    "text": "{name} kuvaa {noun} puhelimella.",
+    "noun": "partitive",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L13",
+    "kind": "simple",
+    "text": "{name} tutkii {noun} tarkasti.",
+    "noun": "partitive",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L14",
+    "kind": "simple",
+    "text": "{name} ihmettelee outoa {noun}.",
+    "noun": "partitive",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L15",
+    "kind": "simple",
+    "text": "{name} ja {name} katselevat {noun} kuvasta.",
+    "noun": "partitive",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L16",
+    "kind": "simple",
+    "text": "{name} ja {name} piirtävät yhdessä kolme {noun}.",
+    "noun": "partitive",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L17",
+    "kind": "simple",
+    "text": "Kuka haluaa katsoa {noun}?",
+    "noun": "partitive",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L18",
+    "kind": "simple",
+    "text": "Miksi {noun} on tässä kuvassa?",
+    "noun": "sg",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L19",
+    "kind": "simple",
+    "text": "Montako {noun} kuvassa on?",
+    "noun": "partitive",
+    "uses": [
+      "fix"
+    ]
+  },
+  {
+    "id": "L20",
+    "kind": "simple",
+    "text": "Voi mikä iso {noun}!",
+    "noun": "sg",
+    "uses": [
+      "fix"
+    ],
+    "exclaimStrict": true
+  }
+]

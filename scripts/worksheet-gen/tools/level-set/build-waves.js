@@ -48,7 +48,7 @@ function titleFits(spec, theme, level, copy, loc) {
   const strings = resolveStrings(spec.id, loc, spec);
   const manifest = buildManifest({ spec, cacheTheme: theme, difficulty: level, locale: loc, variant: copy, deckId: 'x', generatedAt: 'x', strings, imagesUsed: [] });
   const html = buildDeckHtml({ manifest, spec, strings, locale: loc, preview: TINY });
-  return ((/<title>([^<]*)<\/title>/.exec(html) || [])[1] || '').length <= 70;
+  return ((/<title>([^<]*)<\/title>/.exec(html) || [])[1] || '').length <= (cfg.titleMax || 70);
 }
 function builds(spec, theme, level, copy, loc) {
   if (!titleFits(spec, theme, level, copy, loc)) return false;
@@ -73,6 +73,10 @@ for (const loc of LOCALES) {
     for (const [lv, copies] of Object.entries(face.levels)) {
       if (!cfg.include(loc, id, Number(lv))) continue;
       usedAtLevel[lv] = usedAtLevel[lv] || [];
+      // cfg.faceWideDistinct === false: themes must differ within a LEVEL (what a teacher prints
+      // together), may recur between levels of a face (the task differs) — for locales whose
+      // buildable, unrelated themes cannot cover 15 copies (fi noun-case tables)
+      if (cfg.faceWideDistinct === false) usedInFace.length = 1;
       (levels[id] = levels[id] || {})[lv] = [];
       for (const copy of copies) {
         const pools = k++ % 2 === 0 ? [colour, bw] : [bw, colour];

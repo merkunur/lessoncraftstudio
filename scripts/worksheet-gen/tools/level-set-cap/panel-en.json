@@ -1,0 +1,10 @@
+{
+  "tapFix": "Tap Aa, then each word that needs a capital letter. Then tap the right end mark and the last word.",
+  "tapFixRunOn": "Find where the first sentence ends. Put the right end mark after that word and after the last word. Tap Aa for the capital letters.",
+  "notes": [
+    "Source tapFix: 'a mark and the word it goes after' is abstract for age 7-8; one sentence per row means the mark always goes after the last word, so say that directly.",
+    "Use 'end mark' (the printed G2-274/G2-281/G2-282 term), not bare 'mark'; 'the right end mark' because a row may need ? or ! rather than a period.",
+    "Source tapFixRunOn never mentioned Aa and 'put a mark there' did not say it goes AFTER the word; both fixed. 'Give each sentence its capital letters' is replaced by the button action, which also covers names.",
+    "US spelling kept: period is not named; 'end mark' covers . ? !"
+  ]
+}

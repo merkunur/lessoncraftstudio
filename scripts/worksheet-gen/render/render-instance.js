@@ -75,6 +75,44 @@ async function renderInstance(o) {
     sameAs(screenBuilt, 'screen');
     await load(buildPage({ title: strings.title, instruction: o.interactiveInstruction, bodyHtml: screenBuilt.bodyHtml, locale, pageSize, pageHeight: spec.screenHeight || null }), '.screen');
     const screenLints = await runLints(page, { gradeBand: type.gradeBand });
+    // LANES mode (tap-edit): the lanes are drawn LIVE by the runtime; the page image is only the
+    // header (title, instruction, checklist), cropped just below it. Items travel as DATA.
+    if (spec.lanes) {
+      const got = await page.evaluate((sp) => {
+        const full = document.querySelector('[data-lcs-page]').getBoundingClientRect();
+        const heads = [...document.querySelectorAll('[data-lcs-title], [data-lcs-instruction], [data-lcs-fixchip]')];
+        const bottom = Math.max(...heads.map((h) => h.getBoundingClientRect().bottom));
+        const clip = { x: full.left + window.scrollX, y: full.top + window.scrollY, width: full.width, height: Math.min(full.height, bottom - full.top + 18) };
+        const root = document.querySelector('[data-lcs-marks]');
+        const items = [...document.querySelectorAll(sp.item)].map((el) => ({
+          canonical: el.getAttribute('data-lcs-canonical'), broken: el.getAttribute('data-lcs-broken-text'),
+          icon: el.getAttribute('data-lcs-icon'), split: el.hasAttribute('data-lcs-split'),
+        }));
+        return { clip, items, marks: root ? root.getAttribute('data-lcs-marks') : '.' };
+      }, { item: spec.item });
+      const sharp = require('sharp');
+      const items = [];
+      for (const it of got.items) {
+        const words = it.broken.split(' ').filter((w) => w && w !== '/');
+        const answer = type.fixAnswers ? type.fixAnswers(it.canonical) : null;
+        if (!answer || answer.length !== words.length) throw new Error(`render-instance: ${type.id} lane "${it.broken}" has ${words.length} words but its answer has ${answer ? answer.length : 0}`);
+        answer.forEach((a, k) => { if (a.word.toLocaleLowerCase(locale) !== words[k]) throw new Error(`render-instance: ${type.id} word ${k + 1} "${words[k]}" != answer "${a.word}"`); });
+        // the split marker sits after the word whose mark ends the first sentence
+        const splitAfter = it.split ? it.broken.split(' ').filter(Boolean).indexOf('/') - 1 : -1;
+        const iconPath = require('url').fileURLToPath(it.icon);
+        const icon = 'data:image/png;base64,' + (await sharp(iconPath).resize(96, 96, { fit: 'contain', background: { r: 255, g: 255, b: 255, alpha: 0 } }).png().toBuffer()).toString('base64');
+        items.push({ words, answer: answer.map((a) => ({ cap: a.cap, mark: a.mark })), splitAfter, icon, meta: { 'data-lcs-canonical': it.canonical } });
+      }
+      const screenPng = base + '.screen.png';
+      await page.screenshot({ path: screenPng, clip: got.clip });
+      const keyBuilt = await again({ answerKey: true });
+      sameAs(keyBuilt, 'answer-key');
+      await load(buildPage({ title: strings.title + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
+      const keyPdf = base + '.key.pdf';
+      await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
+      interactive = { kind: spec.kind, items, marks: got.marks, pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints };
+      return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive };
+    }
     // the screen picture is CROPPED just below the lowest item (no empty half page on a phone);
     // every rectangle is measured against that crop
     const geo = await page.evaluate((sp) => {

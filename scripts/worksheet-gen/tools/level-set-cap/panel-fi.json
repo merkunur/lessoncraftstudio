@@ -1,0 +1,9 @@
+{
+  "tapFix": "Napauta Aa ja sitten jokaista sanaa, joka tarvitsee ison kirjaimen. Napauta sitten oikeaa lopetusmerkkiä ja viimeistä sanaa.",
+  "tapFixRunOn": "Etsi, mihin ensimmäinen lause loppuu. Laita oikea lopetusmerkki siihen ja loppuun. Napauta Aa ja korjaa isot kirjaimet.",
+  "notes": [
+    "'lopetusmerkki' reused from the printed sheets; 'iso kirjain' (not only 'iso alkukirjain') because names inside the sentence also need it.",
+    "Partitive objects after napauta (jokaista sanaa, lopetusmerkkiä, viimeistä sanaa) are the natural tap-verb case.",
+    "English source audit: 'a mark' is vague (the child may not link it to the . ? ! buttons) — say 'the right end mark'; tapFix 'the word it goes after' is the last word on a one-sentence row, so 'the last word' is simpler; tapFixRunOn never mentions the Aa button — add 'Tap Aa' so the child knows how capitals are given; 'give each sentence its capital letters' is fine because names also need capitals."
+  ]
+}

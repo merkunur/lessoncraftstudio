@@ -1,0 +1,10 @@
+{
+  "tapFix": "Toca Aa y luego cada palabra que necesita mayúscula. Después toca el signo correcto y la última palabra de la frase.",
+  "tapFixRunOn": "Busca dónde termina la primera frase. Pon el signo correcto después de esa palabra y de la última. Toca Aa para las mayúsculas.",
+  "notes": [
+    "Tú register, as in the printed strings (pon, usa, corrige).",
+    "Signo = the printed key term; ¿/¡ are added automatically, so not mentioned.",
+    "'la última palabra' matches the tap order (mark, then the word it follows).",
+    "EN audit: tapFix is clear; the flow is mark-then-word, so 'the word it goes after' is right. tapFixRunOn says 'a mark' where the child must choose the RIGHT one (period vs question mark) — prefer 'the right mark'. Both fine otherwise."
+  ]
+}

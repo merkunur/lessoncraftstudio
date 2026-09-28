@@ -1,0 +1,189 @@
+{
+ "nounCase": "lower",
+ "nounFormKeys": [
+  "partitive"
+ ],
+ "names": [
+  "Aino",
+  "Eeli",
+  "Sofia",
+  "Onni",
+  "Aada",
+  "Väinö",
+  "Helmi",
+  "Leo"
+ ],
+ "frames": [
+  {
+   "id": "c1",
+   "kind": "color",
+   "text": "Väritä {n} {noun} {color}.",
+   "noun": "partitive"
+  },
+  {
+   "id": "c2",
+   "kind": "color",
+   "text": "Etsi {n} {noun} ja väritä ne {color}.",
+   "noun": "partitive"
+  },
+  {
+   "id": "c3",
+   "kind": "color",
+   "text": "{name} värittää {n} {noun} {color}.",
+   "noun": "partitive"
+  },
+  {
+   "id": "c4",
+   "kind": "color",
+   "text": "Väritä kuvista {n} {noun} {color}.",
+   "noun": "partitive"
+  },
+  {
+   "id": "s1",
+   "kind": "simple",
+   "text": "{name} syöttää {noun}.",
+   "noun": "partitive",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "simple",
+   "text": "{name} katsoo pientä {noun}.",
+   "noun": "partitive",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s3",
+   "kind": "simple",
+   "text": "{name} piirtää kaksi {noun}.",
+   "noun": "partitive",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s4",
+   "kind": "simple",
+   "text": "{name} etsii {noun}.",
+   "noun": "partitive",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s5",
+   "kind": "simple",
+   "text": "{name} ja {name} katsovat isoa {noun}.",
+   "noun": "partitive",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s6",
+   "kind": "simple",
+   "text": "{name} piirtää {noun}.",
+   "noun": "partitive",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s7",
+   "kind": "simple",
+   "text": "{name} pesee {noun}.",
+   "noun": "partitive",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s8",
+   "kind": "simple",
+   "text": "{name} kantaa {noun}.",
+   "noun": "partitive",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s9",
+   "kind": "simple",
+   "text": "Minä näen kaksi {noun}.",
+   "noun": "partitive",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s10",
+   "kind": "simple",
+   "text": "{name} löytää kolme {noun}.",
+   "noun": "partitive",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s11",
+   "kind": "simple",
+   "text": "Nämä {noun} ovat isoja.",
+   "noun": "pl",
+   "uses": [
+    "unscramble",
+    "fix"
+   ]
+  },
+  {
+   "id": "s12",
+   "kind": "simple",
+   "text": "Missä {noun} on?",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "s13",
+   "kind": "simple",
+   "text": "Kenen {noun} tämä on?",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "s14",
+   "kind": "simple",
+   "text": "Onko {noun} laatikossa?",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ]
+  },
+  {
+   "id": "s15",
+   "kind": "simple",
+   "text": "Onpa hieno {noun}!",
+   "noun": "sg",
+   "uses": [
+    "fix"
+   ],
+   "exclaimStrict": true
+  }
+ ]
+}

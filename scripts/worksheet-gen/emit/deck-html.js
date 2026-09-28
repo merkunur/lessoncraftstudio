@@ -207,7 +207,7 @@ function buildDeckHtml(o) {
   const downloadLabel = word(locale, 'download_pdf', 'Download the free PDF');
   const breadcrumbLd = buildBreadcrumbLd(locale, typeAxis, strings.title);
   const ia = o.interactive
-    ? { ...buildInteractive({ kind: o.interactive.kind, locale, items: o.interactive.items, ctx: o.interactive.ctx }), instruction: o.interactive.instruction, preview: o.interactive.preview }
+    ? { ...buildInteractive({ kind: o.interactive.kind, locale, items: o.interactive.items, ctx: o.interactive.ctx, marks: o.interactive.marks }), instruction: o.interactive.instruction, preview: o.interactive.preview }
     : null;
   const shown = ia ? ia.preview : preview;
   const keyLabel = ia ? i18n.resolve(locale, 'topicPage.deckCard.answerKeyLink', 'Answer Key').value : null;

@@ -1,0 +1,491 @@
+{
+  "id": "wave-ltr-en",
+  "_note": "Level Set 2026-09-28: Letter Tracing (K-238 + 5 faces). One page per letter of every alphabet (capital + lowercase together; the country's own letters, de ß, nl IJ) at three levels: big with numbered strokes / core / small with two letters to write alone. The range pages get an easier level (numbered strokes) and a harder one (two to write alone). Stroke-order numbers are placed inside the lane and beside their own stroke (the cut-off fix). Visible to teachers, never indexed; PDF only.",
+  "indexable": false,
+  "interactive": false,
+  "seedEpoch": 1,
+  "locales": [
+    "en"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "K-238",
+    "K-254",
+    "K-255",
+    "K-256",
+    "K-257",
+    "K-258"
+  ],
+  "levels": {
+    "K-238": {
+      "1": [
+        {
+          "copy": 28,
+          "unit": "A",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "B",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "C",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "D",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "E",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "F",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "G",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "H",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "I",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "J",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "K",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "L",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "M",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "N",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "O",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "P",
+          "seedVariant": 1
+        },
+        {
+          "copy": 44,
+          "unit": "Q",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "R",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "S",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "T",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
+          "unit": "U",
+          "seedVariant": 1
+        },
+        {
+          "copy": 49,
+          "unit": "V",
+          "seedVariant": 1
+        },
+        {
+          "copy": 50,
+          "unit": "W",
+          "seedVariant": 1
+        },
+        {
+          "copy": 51,
+          "unit": "X",
+          "seedVariant": 1
+        },
+        {
+          "copy": 52,
+          "unit": "Y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 53,
+          "unit": "Z",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": "A",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "B",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "C",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "D",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "E",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "F",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "G",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "H",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "I",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "J",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "K",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "L",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "M",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "N",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "O",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "P",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "Q",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "R",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "S",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "T",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "U",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "V",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "W",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "X",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "Y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "Z",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 54,
+          "unit": "A",
+          "seedVariant": 1
+        },
+        {
+          "copy": 55,
+          "unit": "B",
+          "seedVariant": 1
+        },
+        {
+          "copy": 56,
+          "unit": "C",
+          "seedVariant": 1
+        },
+        {
+          "copy": 57,
+          "unit": "D",
+          "seedVariant": 1
+        },
+        {
+          "copy": 58,
+          "unit": "E",
+          "seedVariant": 1
+        },
+        {
+          "copy": 59,
+          "unit": "F",
+          "seedVariant": 1
+        },
+        {
+          "copy": 60,
+          "unit": "G",
+          "seedVariant": 1
+        },
+        {
+          "copy": 61,
+          "unit": "H",
+          "seedVariant": 1
+        },
+        {
+          "copy": 62,
+          "unit": "I",
+          "seedVariant": 1
+        },
+        {
+          "copy": 63,
+          "unit": "J",
+          "seedVariant": 1
+        },
+        {
+          "copy": 64,
+          "unit": "K",
+          "seedVariant": 1
+        },
+        {
+          "copy": 65,
+          "unit": "L",
+          "seedVariant": 1
+        },
+        {
+          "copy": 66,
+          "unit": "M",
+          "seedVariant": 1
+        },
+        {
+          "copy": 67,
+          "unit": "N",
+          "seedVariant": 1
+        },
+        {
+          "copy": 68,
+          "unit": "O",
+          "seedVariant": 1
+        },
+        {
+          "copy": 69,
+          "unit": "P",
+          "seedVariant": 1
+        },
+        {
+          "copy": 70,
+          "unit": "Q",
+          "seedVariant": 1
+        },
+        {
+          "copy": 71,
+          "unit": "R",
+          "seedVariant": 1
+        },
+        {
+          "copy": 72,
+          "unit": "S",
+          "seedVariant": 1
+        },
+        {
+          "copy": 73,
+          "unit": "T",
+          "seedVariant": 1
+        },
+        {
+          "copy": 74,
+          "unit": "U",
+          "seedVariant": 1
+        },
+        {
+          "copy": 75,
+          "unit": "V",
+          "seedVariant": 1
+        },
+        {
+          "copy": 76,
+          "unit": "W",
+          "seedVariant": 1
+        },
+        {
+          "copy": 77,
+          "unit": "X",
+          "seedVariant": 1
+        },
+        {
+          "copy": 78,
+          "unit": "Y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 79,
+          "unit": "Z",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-254": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-255": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-256": {
+      "3": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-257": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-258": {
+      "3": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    }
+  }
+}

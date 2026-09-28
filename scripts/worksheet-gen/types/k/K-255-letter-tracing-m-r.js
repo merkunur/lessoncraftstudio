@@ -5,6 +5,8 @@ module.exports = {
   ...base,
   id: 'K-255',
   slug: 'letter-tracing-m-r',
-  difficulty: { 1: {"from":12,"count":6,"glyphH":74,"laneH":108,"reps":5,"pool":"rest"}, 2: {"from":12,"count":6,"glyphH":74,"laneH":108,"reps":5,"pool":"rest"}, 3: {"from":12,"count":6,"glyphH":74,"laneH":108,"reps":5,"pool":"rest"} },
+  // Level Set 2026-09-28: L1 numbered strokes (84/110, 4 reps) · L2 published · L3 two letters to write alone (emptyCount 2)
+  difficulty: { 1: {"from":12,"count":6,"glyphH":84,"laneH":110,"reps":4,"pool":"rest"}, 2: {"from":12,"count":6,"glyphH":74,"laneH":108,"reps":5,"pool":"rest"}, 3: {"from":12,"count":6,"glyphH":56,"laneH":80,"reps":5,"pool":"rest","emptyCount":2} },
+  unitAxis: { applicable: false },   // the per-letter axis belongs to K-238's own copies
   i18n: { en: { title: "Trace the Letters M to R", instruction: "Trace each letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows." } },
 };

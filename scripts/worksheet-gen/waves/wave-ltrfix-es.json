@@ -1,0 +1,10 @@
+{
+ "id": "wave-ltrfix-es",
+ "_note": "2026-09-28 republish: stroke-order number circles cut off / touching strokes on the big-letter pages (K-258, K-283) — same coordinates as the published pages (wave-var-core / wave-lc), only the badge placement changed. Published as UPDATES of the existing decks.",
+ "seedEpoch": 1,
+ "locales": ["es"],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [2],
+ "types": ["K-258", "K-283"]
+}

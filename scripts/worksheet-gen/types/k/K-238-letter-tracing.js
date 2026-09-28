@@ -13,6 +13,45 @@
 'use strict';
 const { strokeLetterLane } = require('../../primitives/trace-path.js');
 const { LETTER_SETS, LOWERCASE_SETS } = require('../../data/tracing/letter-sets.js');
+const fs = require('fs');
+const path = require('path');
+
+/*
+ * Level Set 2026-09-28 (operator: "include all the capital and lowercase letters"; ruling: one page per letter).
+ * A NEW copy of K-238 carries a unit = one letter of the locale's school alphabet (capital id, e.g. "A", "IJ",
+ * "É"; "ß" is a lowercase-only page) and prints that letter's capital lanes, then its lowercase lanes. The
+ * published page (level 2, copy 1, no unit) is the A–F range page, untouched. Titles/instructions per locale:
+ * data/tracing/letter-tracing-levelset.json (native panels; importer tools/level-set/import-ltr-panels.js).
+ */
+let _ls;
+function levelSetData() {
+  if (_ls === undefined) {
+    const f = path.join(__dirname, '..', '..', 'data', 'tracing', 'letter-tracing-levelset.json');
+    _ls = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null;
+  }
+  return _ls;
+}
+// letters a panel asked for as their own page although our letter sets do not list them (fr panel: Ç ç, a real CP difficulty)
+const EXTRA_UNITS = { fr: ['Ç'], pt: ['Ç'] };   // pt panel: Ç ç is taught in handwriting in 1º ano
+/** Every letter of the locale's alphabet as a page unit: capitals + specials, then lowercase-only letters (de ß). */
+function letterUnits(loc) {
+  const cap = LETTER_SETS[loc] || LETTER_SETS.en, low = LOWERCASE_SETS[loc] || LOWERCASE_SETS.en;
+  const units = [...cap.alphabet, ...cap.specials.filter((c) => !cap.alphabet.includes(c))];
+  for (const c of EXTRA_UNITS[loc] || []) if (!units.includes(c)) units.push(c);
+  for (const c of [...low.alphabet, ...low.specials]) if (!units.some((u) => u.toLocaleLowerCase(loc) === c)) units.push(c);
+  return units;
+}
+/** The two forms a unit prints: capital (null for ß) and lowercase. */
+function unitForms(unit, loc) {
+  if (unit === 'ß') return { cap: null, low: 'ß' };
+  return { cap: unit, low: unit.toLocaleLowerCase(loc) };
+}
+/** Per-letter page layouts: lanes per case, size, repetitions, blank slots — each level changes the task. */
+const PER_LETTER = {
+  1: { caps: 2, lows: 2, glyphH: 104, laneH: 152, reps: 4, emptyCount: 1 },   // big, numbered strokes
+  2: { caps: 3, lows: 3, glyphH: 74, laneH: 108, reps: 5, emptyCount: 1 },    // the core page's size
+  3: { caps: 4, lows: 4, glyphH: 56, laneH: 80, reps: 5, emptyCount: 2 },     // small, two to write alone
+};
 
 module.exports = {
   id: 'K-238',
@@ -21,6 +60,23 @@ module.exports = {
   assetClass: 'icon-placement',
   exerciseType: 'letter-tracing',
   themeAxis: { applicable: false },
+  unitAxis: {
+    applicable: true,
+    units: (loc) => letterUnits((loc || 'en').slice(0, 2)),
+    exemplar: (loc) => letterUnits((loc || 'en').slice(0, 2))[0],
+    tokens: (unit, loc) => {
+      const l = (loc || 'en').slice(0, 2), f = unitForms(unit, l);
+      return { U: f.cap || f.low, L: f.low, UNIT: f.cap ? `${f.cap} ${f.low}` : f.low };
+    },
+  },
+  // the per-letter title (native template with {UNIT}); a range page (no unit) keeps its published strings
+  copyStrings(strings, { locale, unit }) {
+    if (!unit) return strings;
+    const x = (levelSetData() || {})[(locale || 'en').slice(0, 2)];
+    if (!x || !x.title) throw new Error('K-238: no per-letter title for ' + locale);
+    return { ...strings, title: x.title };
+  },
+  letterUnits, unitForms, PER_LETTER,
   difficulty: {
     1: { count: 4, glyphH: 104, laneH: 152, reps: 4, from: 0 },
     2: { count: 6, glyphH: 74, laneH: 108, reps: 5, from: 0 },
@@ -33,9 +89,10 @@ module.exports = {
     },
   },
 
-  build({ difficulty, locale }, ctx) {
+  build({ difficulty, locale, unit }, ctx) {
     const d = this.difficulty[difficulty];
     void ctx;
+    if (unit) return this._buildLetter(difficulty, (locale || 'en').slice(0, 2), unit);
     // K-278 (the lowercase family) spreads this spec and flags its difficulty
     // levels `lowercase`, so both families share one build() and one verify().
     const sets = d.lowercase ? LOWERCASE_SETS : LETTER_SETS;
@@ -73,7 +130,7 @@ module.exports = {
       // last slot stays empty — the "try one on your own" spot the instruction promises
       const lane = strokeLetterLane({
         text: ch, w: laneW, h: d.laneH, glyphH: d.glyphH, reps: d.reps,
-        emptyLast: true, lowercase: !!d.lowercase,
+        emptyLast: true, emptyCount: d.emptyCount, lowercase: !!d.lowercase,
       });
       return `<div class="ws-trace-lane" style="display:flex;justify-content:center" data-lcs-letter="${ch}">${lane.svg}</div>`;
     });
@@ -83,15 +140,34 @@ module.exports = {
     };
   },
 
+  /** One letter, both cases (Level Set). Throws when a level cannot fit its lanes — never shrinks silently. */
+  _buildLetter(difficulty, loc, unit) {
+    const P = PER_LETTER[difficulty];
+    if (!P) throw new Error(`K-238: no per-letter level ${difficulty}`);
+    if (!letterUnits(loc).includes(unit)) throw new Error(`K-238: "${unit}" is not a letter of the ${loc} alphabet`);
+    const f = unitForms(unit, loc);
+    const plan = f.cap ? [...Array(P.caps).fill({ t: f.cap, lc: false }), ...Array(P.lows).fill({ t: f.low, lc: true })]
+      : Array(P.caps + P.lows).fill({ t: f.low, lc: true });
+    const lanes = plan.map(({ t, lc }) => {
+      const lane = strokeLetterLane({ text: t, w: 660, h: P.laneH, glyphH: P.glyphH, reps: P.reps, emptyCount: P.emptyCount, lowercase: lc });
+      return `<div class="ws-trace-lane" style="display:flex;justify-content:center" data-lcs-letter="${t}">${lane.svg}</div>`;
+    });
+    return {
+      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly" data-lcs-per-letter="${unit}">${lanes.join('')}</div>`,
+      meta: { letters: [...new Set(plan.map((x) => x.t))], unit },
+    };
+  },
+
   async verify(page) {
     return page.evaluate(() => {
       const fails = [];
       const lanes = document.querySelectorAll('[data-lcs-letter]');
+      const perLetter = document.querySelector('[data-lcs-per-letter]');
       if (lanes.length < 4) fails.push(`only ${lanes.length} lanes`);
       const seen = new Set();
       lanes.forEach((lane, i) => {
         const ch = lane.dataset.lcsLetter;
-        if (seen.has(ch)) fails.push(`lane ${i + 1}: duplicate letter`);
+        if (!perLetter && seen.has(ch)) fails.push(`lane ${i + 1}: duplicate letter`);
         seen.add(ch);
         const svg = lane.querySelector('[data-lcs-prim="trace-letter"]');
         if (!svg) { fails.push(`lane ${i + 1}: no letter svg`); return; }
@@ -125,6 +201,17 @@ module.exports = {
         if (arrows > perRep) fails.push(`lane ${i + 1}: ${arrows} arrows > ${perRep} strokes`);
         if (!dots) fails.push(`lane ${i + 1}: no start dot`);
         if (dots > perRep * 2) fails.push(`lane ${i + 1}: ${dots} guide circles, too many`);
+        // 2026-09-28 (operator: stroke-order circles cut off): every badge whole inside its lane and clear of
+        // the dots, arrows and other badges — measured on the rendered page
+        const box = svg.getBoundingClientRect();
+        const badgeEls = [...svg.querySelectorAll('circle[data-lcs-badge]')];
+        const others = [...svg.querySelectorAll('circle:not([data-lcs-badge]), polygon')];
+        badgeEls.forEach((b) => {
+          const r = b.getBoundingClientRect();
+          if (r.left < box.left - 0.5 || r.top < box.top - 0.5 || r.right > box.right + 0.5 || r.bottom > box.bottom + 0.5) fails.push(`lane ${i + 1}: badge ${b.dataset.lcsBadge} cut off by the lane`);
+          const hit = (o) => { const q = o.getBoundingClientRect(); return q.left < r.right - 0.5 && q.right > r.left + 0.5 && q.top < r.bottom - 0.5 && q.bottom > r.top + 0.5; };
+          if (others.some(hit) || badgeEls.some((o) => o !== b && hit(o))) fails.push(`lane ${i + 1}: badge ${b.dataset.lcsBadge} overlaps a dot, arrow or badge`);
+        });
         if (svg.querySelectorAll('line').length < 3) fails.push(`lane ${i + 1}: missing school lines`);
         // the promised "try one on your own" empty slot must exist
         if (!svg.hasAttribute('data-lcs-empty-slot')) fails.push(`lane ${i + 1}: no empty writing slot`);

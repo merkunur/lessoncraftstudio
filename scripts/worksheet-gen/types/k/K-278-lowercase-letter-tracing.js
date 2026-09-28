@@ -28,6 +28,7 @@ module.exports = {
   id: 'K-278',
   slug: 'lowercase-letter-tracing',
   exerciseType: 'lowercase-letter-tracing',
+  unitAxis: { applicable: false },   // K-238's per-letter axis (Level Set 2026-09-28) is not this family's
   difficulty: {
     1: { count: 4, glyphH: 104, laneH: 152, reps: 4, from: 0, lowercase: true },
     2: { count: 6, glyphH: 74, laneH: 108, reps: 5, from: 0, lowercase: true },

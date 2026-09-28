@@ -439,7 +439,7 @@ const BADGE_R = 8;
  * fixed offset buries badge 1 under badge 2 and the child is told to start at
  * stroke 2. Search outward from the left of the stroke's own direction.
  */
-function placeBadge(x, y, angleDeg, placed) {
+function placeBadgeLegacy(x, y, angleDeg, placed) {   // kept only for qa/verify-trace-badges.js --poison
   for (const r of [22, 36]) {
     for (let k = 0; k < 12; k++) {
       const a = (angleDeg - 90 + k * 30) * Math.PI / 180;
@@ -448,6 +448,86 @@ function placeBadge(x, y, angleDeg, placed) {
     }
   }
   return { x, y: y - 22 };
+}
+/**
+ * 2026-09-28 (operator: "some circles of the numbers are cut off"): the legacy search only avoided earlier
+ * BADGES, so a stroke starting on the cap line heading right put its badge straight up, past the lane's top
+ * edge (the lane SVG clips), and badge 1 of B/D landed on the dashed top stroke. A badge now has to be
+ *   (a) inside the lane box (`box`: {w, h}) with a margin,
+ *   (b) clear of every start dot, arrow head and badge (`obstacles`: {x, y, r}),
+ *   (c) clear of the traced strokes themselves (`ink`: sampled display points),
+ * searching outward from the left of the stroke's direction as before. If no ring spot satisfies all three,
+ * the nearest spot satisfying (a)+(b) wins — it may never leave the lane.
+ */
+const BADGE_GAP = 3;
+function placeBadge(x, y, angleDeg, placed, env) {
+  if (!env) return placeBadgeLegacy(x, y, angleDeg, placed);
+  const { box, obstacles, ink, centre, own, others = [] } = env;
+  const m = BADGE_R + 2;
+  const inBox = (bx, by) => bx >= m && bx <= box.w - m && by >= m && by <= box.h - m;
+  const R = BADGE_R + 0.75;   // with the 1.5 px ring
+  const boxClear = (bx, by) => obstacles.every((o) => !o.box || bx + R + 1 <= o.box.x0 || bx - R - 1 >= o.box.x1 || by + R + 1 <= o.box.y0 || by - R - 1 >= o.box.y1);
+  const clearOf = (bx, by) => boxClear(bx, by) && obstacles.every((o) => Math.hypot(o.x - bx, o.y - by) >= o.r + BADGE_R + BADGE_GAP)
+    && placed.every((p) => Math.hypot(p.x - bx, p.y - by) >= BADGE_R * 2 + BADGE_GAP);
+  const offInk = (bx, by) => ink.every((p) => Math.hypot(p.x - bx, p.y - by) >= BADGE_R + BADGE_GAP + 1.7);
+  // a number must read as ITS stroke's: nearer its own arrow than any other stroke's arrow (coincident starts —
+  // A's legs, B/D/E/P/R stem + bar — otherwise put "2" beside stroke 1)
+  const mine = (bx, by) => !own || others.every((o) => Math.hypot(o.x - bx, o.y - by) > Math.hypot(own.x - bx, own.y - by) + 2);
+  let fallbackMine = null;
+  let fallback = null;
+  // start on the side of the stroke that faces AWAY from the letter's middle, so a number reads as belonging to
+  // its own stroke (A: 1 beside the left leg, 2 beside the right) — then fan out alternately from there
+  let base = angleDeg - 90;
+  if (centre) {
+    const side = (deg) => { const a = deg * Math.PI / 180; return Math.cos(a) * (x - centre.x) + Math.sin(a) * (y - centre.y); };
+    if (side(angleDeg + 90) > side(angleDeg - 90)) base = angleDeg + 90;
+  }
+  const order = [0]; for (let k = 1; k <= 12; k++) order.push(k * 15, -k * 15);
+  for (const r of [20, 28, 36, 44]) {
+    for (const off of order) {
+      const a = (base + off) * Math.PI / 180;
+      const bx = x + Math.cos(a) * r, by = y + Math.sin(a) * r;
+      if (!inBox(bx, by) || !clearOf(bx, by)) continue;
+      if (offInk(bx, by) && mine(bx, by)) return { x: bx, y: by };
+      if (offInk(bx, by) && !fallbackMine) fallbackMine = { x: bx, y: by };
+      if (!fallback) fallback = { x: bx, y: by };
+    }
+  }
+  if (fallbackMine) return fallbackMine;
+  if (fallback) return fallback;
+  // nothing clear at all: the in-box point nearest the start (still never outside the lane)
+  return { x: Math.min(box.w - m, Math.max(m, x)), y: Math.min(box.h - m, Math.max(m, y - 20)) };
+}
+
+/** Display-space points along a stroke path ("M x y C … x y" cubic chains), for badge clearance. */
+function samplePath(d, map) {
+  const pts = [];
+  let px = 0, py = 0;
+  const re = /([MLC])([^MLC]*)/g;
+  let m;
+  while ((m = re.exec(d))) {
+    const nums = (m[2].match(/-?[\d.]+/g) || []).map(Number);
+    if (m[1] === 'M') { px = nums[0]; py = nums[1]; pts.push(map(px, py)); continue; }
+    if (m[1] === 'L') {
+      for (let i = 0; i + 1 < nums.length; i += 2) {
+        const [x, y] = [nums[i], nums[i + 1]];
+        const n = Math.max(4, Math.ceil(Math.hypot(x - px, y - py) / 3));   // ≤ 3 glyph units apart
+        for (let k = 1; k <= n; k++) pts.push(map(px + (x - px) * k / n, py + (y - py) * k / n));
+        px = x; py = y;
+      }
+      continue;
+    }
+    for (let i = 0; i + 5 < nums.length; i += 6) {   // C, possibly with implicit repeats
+      const [x1, y1, x2, y2, x3, y3] = nums.slice(i, i + 6);
+      for (const t of [0.25, 0.5, 0.75, 1]) {
+        const u = 1 - t;
+        pts.push(map(u * u * u * px + 3 * u * u * t * x1 + 3 * u * t * t * x2 + t * t * t * x3,
+          u * u * u * py + 3 * u * u * t * y1 + 3 * u * t * t * y2 + t * t * t * y3));
+      }
+      px = x3; py = y3;
+    }
+  }
+  return pts;
 }
 
 /**
@@ -463,7 +543,7 @@ function placeBadge(x, y, angleDeg, placed) {
  *
  * @returns {{ rep: string, guides: string }}
  */
-function renderTextRep({ items, x0, yBase, scale, isModel, showGuides, badges }) {
+function renderTextRep({ items, x0, yBase, scale, isModel, showGuides, badges, box, legacyBadges }) {
   const inv = 1 / scale;
   const ty = yBase - LM.base * scale;
   const dotR = badges ? 5 : 4;
@@ -472,7 +552,18 @@ function renderTextRep({ items, x0, yBase, scale, isModel, showGuides, badges })
   const guideParts = [];
   const dots = [];        // display-space start points already marked
   const placedBadges = [];
+  // badges are placed AFTER every dot and arrow of the repetition exists, so a badge can avoid an arrow
+  // belonging to a later stroke (the old in-loop placement could only see earlier badges)
+  const badgeJobs = [];   // { dx, dy, angle, n }
+  const obstacles = [];   // dots + arrow heads, display space
+  const ink = [];         // sampled points along every stroke of the repetition, display space
   const inner = items.map((it) => {
+    let centre = null;
+    if (showGuides && badges && !legacyBadges) {
+      const pts = it.strokes.flatMap((s) => samplePath(s.d, (gx, gy) => ({ x: x0 + (it.x + gx) * scale, y: ty + gy * scale })));
+      const xs = pts.map((q) => q.x), ys = pts.map((q) => q.y);
+      centre = { x: (Math.min(...xs) + Math.max(...xs)) / 2, y: (Math.min(...ys) + Math.max(...ys)) / 2 };
+    }
     const glyph = it.strokes.map((s, si) => {
       const m = s.d.match(/^M\s*([\d.-]+)\s+([\d.-]+)/);
       const sx = parseFloat(m[1]), sy = parseFloat(m[2]);
@@ -482,6 +573,9 @@ function renderTextRep({ items, x0, yBase, scale, isModel, showGuides, badges })
       });
       // An accent mark gets no guides: the coral dot is wider than an umlaut
       // tick, and its arrow would be thrown onto the letter body below.
+      if (showGuides && badges && !legacyBadges) {
+        for (const p of samplePath(s.d, (gx, gy) => ({ x: x0 + (it.x + gx) * scale, y: ty + gy * scale }))) ink.push(p);
+      }
       if (showGuides && !s.mark) {
         const dx = x0 + (it.x + sx) * scale;
         const dy = ty + sy * scale;
@@ -496,28 +590,36 @@ function renderTextRep({ items, x0, yBase, scale, isModel, showGuides, badges })
         // so two directions from one point read as two arrows, not a butterfly
         const a = s.angle * Math.PI / 180;
         const d = arrowD + shared.length * (arrowSz + 4);
-        guideParts.push(arrowHead({
-          x: dx + Math.cos(a) * d, y: dy + Math.sin(a) * d, angleDeg: s.angle, size: arrowSz,
-        }));
-        if (badges) {
-          const b = placeBadge(dx, dy, s.angle, placedBadges);
-          placedBadges.push(b);
-          guideParts.push(el('circle', {
-            cx: b.x.toFixed(1), cy: b.y.toFixed(1), r: BADGE_R,
-            fill: tokens.color.white, stroke: tokens.color.coral, 'stroke-width': 1.5,
-          }));
-          guideParts.push(el('text', {
-            x: b.x.toFixed(1), y: b.y.toFixed(1),
-            'font-family': tokens.font.display, 'font-size': 11,
-            'font-weight': 700, fill: tokens.color.coral, 'text-anchor': 'middle',
-            'dominant-baseline': 'central',
-          }, String(si + 1)));
-        }
+        const ax = dx + Math.cos(a) * d, ay = dy + Math.sin(a) * d;
+        guideParts.push(arrowHead({ x: ax, y: ay, angleDeg: s.angle, size: arrowSz }));
+        // the arrowhead's own three points (arrowHead geometry) → its bounding box
+        const tri = [[arrowSz, 0], [-arrowSz * 0.4, arrowSz * 0.55], [-arrowSz * 0.4, -arrowSz * 0.55]]
+          .map(([u, v]) => [ax + u * Math.cos(a) - v * Math.sin(a), ay + u * Math.sin(a) + v * Math.cos(a)]);
+        const abox = { x0: Math.min(...tri.map((q) => q[0])), x1: Math.max(...tri.map((q) => q[0])), y0: Math.min(...tri.map((q) => q[1])), y1: Math.max(...tri.map((q) => q[1])) };
+        obstacles.push({ x: dx, y: dy, r: dotR, box: { x0: dx - dotR, x1: dx + dotR, y0: dy - dotR, y1: dy + dotR } }, { x: ax, y: ay, r: arrowSz, box: abox });
+        if (badges) badgeJobs.push({ dx: ax, dy: ay, sx: dx, sy: dy, angle: s.angle, n: si + 1, centre, glyph: it });
       }
       return g;
     }).join('');
     return el('g', { transform: `translate(${it.x.toFixed(2)} 0)` }, glyph);
   }).join('');
+  for (const j of badgeJobs) {
+    const others = badgeJobs.filter((o) => o !== j && o.glyph === j.glyph).map((o) => ({ x: o.dx, y: o.dy }));
+    const b = legacyBadges ? placeBadgeLegacy(j.sx, j.sy, j.angle, placedBadges)
+      : placeBadge(j.dx, j.dy, j.angle, placedBadges, { box, obstacles, ink, centre: j.centre, own: { x: j.dx, y: j.dy }, others });
+    placedBadges.push(b);
+    guideParts.push(el('circle', {
+      cx: b.x.toFixed(1), cy: b.y.toFixed(1), r: BADGE_R,
+      fill: tokens.color.white, stroke: tokens.color.coral, 'stroke-width': 1.5,
+      'data-lcs-badge': String(j.n),
+    }));
+    guideParts.push(el('text', {
+      x: b.x.toFixed(1), y: b.y.toFixed(1),
+      'font-family': tokens.font.display, 'font-size': 11,
+      'font-weight': 700, fill: tokens.color.coral, 'text-anchor': 'middle',
+      'dominant-baseline': 'central',
+    }, String(j.n)));
+  }
   return {
     rep: el('g', { transform: `translate(${x0.toFixed(1)} ${ty.toFixed(1)}) scale(${scale.toFixed(4)})` }, inner),
     guides: guideParts.join(''),
@@ -532,7 +634,9 @@ function renderTextRep({ items, x0, yBase, scale, isModel, showGuides, badges })
  * `text` may be a digraph (nl "IJ"); it is laid out by advance width.
  * { text, w, h, glyphH, reps, emptyLast } -> { svg }
  */
-function strokeLetterLane({ text, w, h, glyphH, reps = 4, emptyLast = false, lowercase = false, label: lbl }) {
+function strokeLetterLane({ text, w, h, glyphH, reps = 4, emptyLast = false, emptyCount, lowercase = false, label: lbl, legacyBadges = false, badges: badgesOpt }) {
+  // emptyCount (Level Set 2026-09-28): the last N slots stay blank; emptyLast keeps meaning exactly one
+  const nEmpty = emptyCount != null ? emptyCount : (emptyLast ? 1 : 0);
   let { items, width } = letterStrokes.textGlyphs(text);
   // A single letter is centred on its DESIGNED box, not on its ink. The source
   // table draws every glyph around x=50 with its side bearings already built
@@ -557,17 +661,17 @@ function strokeLetterLane({ text, w, h, glyphH, reps = 4, emptyLast = false, low
   });
   const yTop = yBase - (LM.base - topUnit) * scale;
   const yMid = yBase - (LM.base - midUnit) * scale;
-  const badges = glyphH >= 80;
+  const badges = badgesOpt != null ? badgesOpt : glyphH >= 80;
   const parts = [schoolLines({ w, yTop, yBase, yMid })];
   const guideParts = [];
   const segW = w / reps;
   const gW = width * scale;
   for (let i = 0; i < reps; i++) {
     // emptyLast: the final slot stays BLANK — the "try one on your own" spot
-    if (emptyLast && i === reps - 1) continue;
+    if (i >= reps - nEmpty) continue;
     const r = renderTextRep({
       items, x0: (i + 0.5) * segW - gW / 2, yBase, scale,
-      isModel: i === 0, showGuides: i === 1, badges,
+      isModel: i === 0, showGuides: i === 1, badges, box: { w, h }, legacyBadges,
     });
     parts.push(r.rep);
     if (r.guides) guideParts.push(r.guides);
@@ -579,9 +683,9 @@ function strokeLetterLane({ text, w, h, glyphH, reps = 4, emptyLast = false, low
   return {
     svg: svgRoot({ width: w, height: h, label: lbl || `trace letter ${text}` }, parts.join(''),
       { 'data-lcs-prim': 'trace-letter', 'data-lcs-text': text,
-        'data-lcs-reps': emptyLast ? reps - 1 : reps,
+        'data-lcs-reps': reps - nEmpty,
         'data-lcs-strokes': strokeCount,
-        ...(emptyLast ? { 'data-lcs-empty-slot': '1' } : {}) }),
+        ...(nEmpty ? { 'data-lcs-empty-slot': String(nEmpty) } : {}) }),
     width: w, height: h,
   };
 }
@@ -709,5 +813,5 @@ function escText(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-module.exports = { STROKES, strokeLane, glyphLane, strokeGlyphLane, strokeGlyphPairLane, textLaneGeometry, LM,
+module.exports = { placeBadge, samplePath, BADGE_R, STROKES, strokeLane, glyphLane, strokeGlyphLane, strokeGlyphPairLane, textLaneGeometry, LM,
   strokeLetterLane, strokeWordLane, writingRow, schoolLines, renderPath, arrowHead };

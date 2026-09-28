@@ -172,5 +172,147 @@
    "no": "Spor bokstaven. Sett ring rundt de tre bildene der du hører {L} helt til slutt i ordet.",
    "fi": "Jäljennä kirjain. Ympyröi kolme kuvaa, joiden nimen lopussa kuuluu {U}-äänne."
   }
+ },
+ "K-238": {
+  "1": {
+   "en": "Trace each letter, then try one on your own in the empty space. Start at each orange dot and follow the numbers and arrows.",
+   "de": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Zahlen und den Pfeilen. Schreibe ihn dann allein auf die leere Linie.",
+   "es": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue los números y las flechas. Después, escríbela tú en el espacio en blanco.",
+   "fr": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les numéros et les flèches.",
+   "it": "Ripassa ogni lettera, poi prova a scriverla tu nello spazio vuoto. Parti dal punto arancione e segui i numeri e le frecce.",
+   "pt": "Cubra cada letra pontilhada. Comece no ponto laranja e siga os números e as setas. Depois escreva uma letra no espaço vazio.",
+   "nl": "Trek elke letter na. Begin bij de oranje stip en volg de nummers en de pijltjes. Schrijf er daarna zelf één op de lege regel.",
+   "sv": "Spåra varje bokstav och skriv sedan en egen på den tomma raden. Börja vid den orangea pricken och följ siffrorna och pilarna.",
+   "da": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg tallene og pilene.",
+   "no": "Spor hver bokstav, og prøv å skrive en selv på den tomme linjen. Start på den oransje prikken og følg tallene og pilene.",
+   "fi": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa numeroita ja nuolia. Kokeile sitten itse tyhjälle viivalle."
+  },
+  "3": {
+   "en": "Trace each letter, then write it two times on your own in the empty space. Start at each orange dot and follow the arrows.",
+   "de": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann zweimal allein auf die leere Linie.",
+   "es": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú dos veces en los espacios en blanco.",
+   "fr": "Repasse chaque lettre, puis écris-la toi-même deux fois au bout de la ligne. Pars du point orange et suis les flèches.",
+   "it": "Ripassa ogni lettera, poi prova a scriverla tu due volte negli spazi vuoti. Parti dal punto arancione e segui le frecce.",
+   "pt": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois escreva a letra duas vezes nos espaços vazios.",
+   "nl": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf de letter daarna twee keer zelf op de lege regel.",
+   "sv": "Spåra varje bokstav och skriv den sedan två gånger själv på den tomma raden. Börja vid den orangea pricken och följ pilarna.",
+   "da": "Skriv oven i hvert bogstav, og skriv det derefter selv to gange på den tomme linje. Start ved den orange prik, og følg pilene.",
+   "no": "Spor hver bokstav, og prøv å skrive den to ganger selv på den tomme linjen. Start på den oransje prikken og følg pilene.",
+   "fi": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse kaksi kertaa viivan loppuun."
+  }
+ },
+ "K-254": {
+  "1": {
+   "en": "Trace each letter, then try one on your own in the empty space. Start at each orange dot and follow the numbers and arrows.",
+   "de": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Zahlen und den Pfeilen. Schreibe ihn dann allein auf die leere Linie.",
+   "es": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue los números y las flechas. Después, escríbela tú en el espacio en blanco.",
+   "fr": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les numéros et les flèches.",
+   "it": "Ripassa ogni lettera, poi prova a scriverla tu nello spazio vuoto. Parti dal punto arancione e segui i numeri e le frecce.",
+   "pt": "Cubra cada letra pontilhada. Comece no ponto laranja e siga os números e as setas. Depois escreva uma letra no espaço vazio.",
+   "nl": "Trek elke letter na. Begin bij de oranje stip en volg de nummers en de pijltjes. Schrijf er daarna zelf één op de lege regel.",
+   "sv": "Spåra varje bokstav och skriv sedan en egen på den tomma raden. Börja vid den orangea pricken och följ siffrorna och pilarna.",
+   "da": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg tallene og pilene.",
+   "no": "Spor hver bokstav, og prøv å skrive en selv på den tomme linjen. Start på den oransje prikken og følg tallene og pilene.",
+   "fi": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa numeroita ja nuolia. Kokeile sitten itse tyhjälle viivalle."
+  },
+  "3": {
+   "en": "Trace each letter, then write it two times on your own in the empty space. Start at each orange dot and follow the arrows.",
+   "de": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann zweimal allein auf die leere Linie.",
+   "es": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú dos veces en los espacios en blanco.",
+   "fr": "Repasse chaque lettre, puis écris-la toi-même deux fois au bout de la ligne. Pars du point orange et suis les flèches.",
+   "it": "Ripassa ogni lettera, poi prova a scriverla tu due volte negli spazi vuoti. Parti dal punto arancione e segui le frecce.",
+   "pt": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois escreva a letra duas vezes nos espaços vazios.",
+   "nl": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf de letter daarna twee keer zelf op de lege regel.",
+   "sv": "Spåra varje bokstav och skriv den sedan två gånger själv på den tomma raden. Börja vid den orangea pricken och följ pilarna.",
+   "da": "Skriv oven i hvert bogstav, og skriv det derefter selv to gange på den tomme linje. Start ved den orange prik, og følg pilene.",
+   "no": "Spor hver bokstav, og prøv å skrive den to ganger selv på den tomme linjen. Start på den oransje prikken og følg pilene.",
+   "fi": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse kaksi kertaa viivan loppuun."
+  }
+ },
+ "K-255": {
+  "1": {
+   "en": "Trace each letter, then try one on your own in the empty space. Start at each orange dot and follow the numbers and arrows.",
+   "de": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Zahlen und den Pfeilen. Schreibe ihn dann allein auf die leere Linie.",
+   "es": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue los números y las flechas. Después, escríbela tú en el espacio en blanco.",
+   "fr": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les numéros et les flèches.",
+   "it": "Ripassa ogni lettera, poi prova a scriverla tu nello spazio vuoto. Parti dal punto arancione e segui i numeri e le frecce.",
+   "pt": "Cubra cada letra pontilhada. Comece no ponto laranja e siga os números e as setas. Depois escreva uma letra no espaço vazio.",
+   "nl": "Trek elke letter na. Begin bij de oranje stip en volg de nummers en de pijltjes. Schrijf er daarna zelf één op de lege regel.",
+   "sv": "Spåra varje bokstav och skriv sedan en egen på den tomma raden. Börja vid den orangea pricken och följ siffrorna och pilarna.",
+   "da": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg tallene og pilene.",
+   "no": "Spor hver bokstav, og prøv å skrive en selv på den tomme linjen. Start på den oransje prikken og følg tallene og pilene.",
+   "fi": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa numeroita ja nuolia. Kokeile sitten itse tyhjälle viivalle."
+  },
+  "3": {
+   "en": "Trace each letter, then write it two times on your own in the empty space. Start at each orange dot and follow the arrows.",
+   "de": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann zweimal allein auf die leere Linie.",
+   "es": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú dos veces en los espacios en blanco.",
+   "fr": "Repasse chaque lettre, puis écris-la toi-même deux fois au bout de la ligne. Pars du point orange et suis les flèches.",
+   "it": "Ripassa ogni lettera, poi prova a scriverla tu due volte negli spazi vuoti. Parti dal punto arancione e segui le frecce.",
+   "pt": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois escreva a letra duas vezes nos espaços vazios.",
+   "nl": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf de letter daarna twee keer zelf op de lege regel.",
+   "sv": "Spåra varje bokstav och skriv den sedan två gånger själv på den tomma raden. Börja vid den orangea pricken och följ pilarna.",
+   "da": "Skriv oven i hvert bogstav, og skriv det derefter selv to gange på den tomme linje. Start ved den orange prik, og følg pilene.",
+   "no": "Spor hver bokstav, og prøv å skrive den to ganger selv på den tomme linjen. Start på den oransje prikken og følg pilene.",
+   "fi": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse kaksi kertaa viivan loppuun."
+  }
+ },
+ "K-257": {
+  "1": {
+   "en": "Trace each letter, then try one on your own in the empty space. Start at each orange dot and follow the numbers and arrows.",
+   "de": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Zahlen und den Pfeilen. Schreibe ihn dann allein auf die leere Linie.",
+   "es": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue los números y las flechas. Después, escríbela tú en el espacio en blanco.",
+   "fr": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les numéros et les flèches.",
+   "it": "Ripassa ogni lettera, poi prova a scriverla tu nello spazio vuoto. Parti dal punto arancione e segui i numeri e le frecce.",
+   "pt": "Cubra cada letra pontilhada. Comece no ponto laranja e siga os números e as setas. Depois escreva uma letra no espaço vazio.",
+   "nl": "Trek elke letter na. Begin bij de oranje stip en volg de nummers en de pijltjes. Schrijf er daarna zelf één op de lege regel.",
+   "sv": "Spåra varje bokstav och skriv sedan en egen på den tomma raden. Börja vid den orangea pricken och följ siffrorna och pilarna.",
+   "da": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg tallene og pilene.",
+   "no": "Spor hver bokstav, og prøv å skrive en selv på den tomme linjen. Start på den oransje prikken og følg tallene og pilene.",
+   "fi": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa numeroita ja nuolia. Kokeile sitten itse tyhjälle viivalle."
+  },
+  "3": {
+   "en": "Trace each letter, then write it two times on your own in the empty space. Start at each orange dot and follow the arrows.",
+   "de": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann zweimal allein auf die leere Linie.",
+   "es": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú dos veces en los espacios en blanco.",
+   "fr": "Repasse chaque lettre, puis écris-la toi-même deux fois au bout de la ligne. Pars du point orange et suis les flèches.",
+   "it": "Ripassa ogni lettera, poi prova a scriverla tu due volte negli spazi vuoti. Parti dal punto arancione e segui le frecce.",
+   "pt": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois escreva a letra duas vezes nos espaços vazios.",
+   "nl": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf de letter daarna twee keer zelf op de lege regel.",
+   "sv": "Spåra varje bokstav och skriv den sedan två gånger själv på den tomma raden. Börja vid den orangea pricken och följ pilarna.",
+   "da": "Skriv oven i hvert bogstav, og skriv det derefter selv to gange på den tomme linje. Start ved den orange prik, og følg pilene.",
+   "no": "Spor hver bokstav, og prøv å skrive den to ganger selv på den tomme linjen. Start på den oransje prikken og følg pilene.",
+   "fi": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse kaksi kertaa viivan loppuun."
+  }
+ },
+ "K-256": {
+  "3": {
+   "en": "Trace each letter, then write it two times on your own in the empty space. Start at each orange dot and follow the arrows.",
+   "de": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann zweimal allein auf die leere Linie.",
+   "es": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú dos veces en los espacios en blanco.",
+   "fr": "Repasse chaque lettre, puis écris-la toi-même deux fois au bout de la ligne. Pars du point orange et suis les flèches.",
+   "it": "Ripassa ogni lettera, poi prova a scriverla tu due volte negli spazi vuoti. Parti dal punto arancione e segui le frecce.",
+   "pt": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois escreva a letra duas vezes nos espaços vazios.",
+   "nl": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf de letter daarna twee keer zelf op de lege regel.",
+   "sv": "Spåra varje bokstav och skriv den sedan två gånger själv på den tomma raden. Börja vid den orangea pricken och följ pilarna.",
+   "da": "Skriv oven i hvert bogstav, og skriv det derefter selv to gange på den tomme linje. Start ved den orange prik, og følg pilene.",
+   "no": "Spor hver bokstav, og prøv å skrive den to ganger selv på den tomme linjen. Start på den oransje prikken og følg pilene.",
+   "fi": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse kaksi kertaa viivan loppuun."
+  }
+ },
+ "K-258": {
+  "3": {
+   "en": "Trace each letter, then write it two times on your own in the empty space. Start at each orange dot and follow the arrows.",
+   "de": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann zweimal allein auf die leere Linie.",
+   "es": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú dos veces en los espacios en blanco.",
+   "fr": "Repasse chaque lettre, puis écris-la toi-même deux fois au bout de la ligne. Pars du point orange et suis les flèches.",
+   "it": "Ripassa ogni lettera, poi prova a scriverla tu due volte negli spazi vuoti. Parti dal punto arancione e segui le frecce.",
+   "pt": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois escreva a letra duas vezes nos espaços vazios.",
+   "nl": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf de letter daarna twee keer zelf op de lege regel.",
+   "sv": "Spåra varje bokstav och skriv den sedan två gånger själv på den tomma raden. Börja vid den orangea pricken och följ pilarna.",
+   "da": "Skriv oven i hvert bogstav, og skriv det derefter selv to gange på den tomme linje. Start ved den orange prik, og følg pilene.",
+   "no": "Spor hver bokstav, og prøv å skrive den to ganger selv på den tomme linjen. Start på den oransje prikken og følg pilene.",
+   "fi": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse kaksi kertaa viivan loppuun."
+  }
  }
 }

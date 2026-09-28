@@ -1,0 +1,416 @@
+{
+  "id": "wave-ltr-it",
+  "_note": "Level Set 2026-09-28: Letter Tracing (K-238 + 5 faces). One page per letter of every alphabet (capital + lowercase together; the country's own letters, de ß, nl IJ) at three levels: big with numbered strokes / core / small with two letters to write alone. The range pages get an easier level (numbered strokes) and a harder one (two to write alone). Stroke-order numbers are placed inside the lane and beside their own stroke (the cut-off fix). Visible to teachers, never indexed; PDF only.",
+  "indexable": false,
+  "interactive": false,
+  "seedEpoch": 1,
+  "locales": [
+    "it"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "K-238",
+    "K-254",
+    "K-255",
+    "K-256",
+    "K-257",
+    "K-258"
+  ],
+  "levels": {
+    "K-238": {
+      "1": [
+        {
+          "copy": 23,
+          "unit": "A",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "B",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "C",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "D",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "E",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "F",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "G",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "H",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "I",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "L",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "M",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "N",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "O",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "P",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "Q",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "R",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "S",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "T",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "U",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "V",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "Z",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": "A",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "B",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "C",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "D",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "E",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "F",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "G",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "H",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "I",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "L",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "M",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "N",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "O",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "P",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "Q",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "R",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "S",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "T",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "U",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "V",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "Z",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 44,
+          "unit": "A",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "B",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "C",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "D",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
+          "unit": "E",
+          "seedVariant": 1
+        },
+        {
+          "copy": 49,
+          "unit": "F",
+          "seedVariant": 1
+        },
+        {
+          "copy": 50,
+          "unit": "G",
+          "seedVariant": 1
+        },
+        {
+          "copy": 51,
+          "unit": "H",
+          "seedVariant": 1
+        },
+        {
+          "copy": 52,
+          "unit": "I",
+          "seedVariant": 1
+        },
+        {
+          "copy": 53,
+          "unit": "L",
+          "seedVariant": 1
+        },
+        {
+          "copy": 54,
+          "unit": "M",
+          "seedVariant": 1
+        },
+        {
+          "copy": 55,
+          "unit": "N",
+          "seedVariant": 1
+        },
+        {
+          "copy": 56,
+          "unit": "O",
+          "seedVariant": 1
+        },
+        {
+          "copy": 57,
+          "unit": "P",
+          "seedVariant": 1
+        },
+        {
+          "copy": 58,
+          "unit": "Q",
+          "seedVariant": 1
+        },
+        {
+          "copy": 59,
+          "unit": "R",
+          "seedVariant": 1
+        },
+        {
+          "copy": 60,
+          "unit": "S",
+          "seedVariant": 1
+        },
+        {
+          "copy": 61,
+          "unit": "T",
+          "seedVariant": 1
+        },
+        {
+          "copy": 62,
+          "unit": "U",
+          "seedVariant": 1
+        },
+        {
+          "copy": 63,
+          "unit": "V",
+          "seedVariant": 1
+        },
+        {
+          "copy": 64,
+          "unit": "Z",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-254": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-255": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-256": {
+      "3": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-257": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-258": {
+      "3": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    }
+  }
+}

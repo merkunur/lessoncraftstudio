@@ -1,0 +1,36 @@
+{
+ "_note": "Level Set 2026-09-28 — Letter Tracing: the per-letter page title ({UNIT} = \"A a\", \"ß\", \"IJ ij\"), by 11 native panels; importer tools/level-set/import-ltr-panels.js. Read by K-238 copyStrings for NEW copies only (a unit is set); the published pages never read it.",
+ "en": {
+  "title": "Trace the Letter {UNIT}"
+ },
+ "de": {
+  "title": "Buchstabe {UNIT} nachspuren"
+ },
+ "es": {
+  "title": "Trazo de la letra {UNIT}"
+ },
+ "fr": {
+  "title": "Écriture de la lettre {UNIT}"
+ },
+ "it": {
+  "title": "La lettera {UNIT} tratteggiata"
+ },
+ "pt": {
+  "title": "Letra {UNIT} pontilhada para cobrir"
+ },
+ "nl": {
+  "title": "De letter {UNIT} overtrekken"
+ },
+ "sv": {
+  "title": "Spåra bokstaven {UNIT}"
+ },
+ "da": {
+  "title": "Skriv bogstavet {UNIT}"
+ },
+ "no": {
+  "title": "Spor og skriv bokstaven {UNIT}"
+ },
+ "fi": {
+  "title": "Kirjain {UNIT} – kirjoitusharjoitus"
+ }
+}
